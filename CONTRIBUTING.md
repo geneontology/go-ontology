@@ -4,4 +4,5 @@ Please follow this guideline when creating GitHub tickets
 - Provide examples. PMIDs for new term requests, screenshots/hyperlinks for current issues
 
 For new term requests, please provide label, definition, references, position in hierarchy etc
+
 For update to relationships, please provide details of current axioms, why they are wrong/not sufficient, and what *exactly* should be added/removed
