@@ -4,7 +4,9 @@
 
 Stale inferences for review are in [etines.tsv](https://github.com/geneontology/go-ontology/blob/master/refactoring_inference_pipeline/etines.tsv). This file was derived from [Jenkins build-go-assert-inferences-report #2877 16/02/29](http://build.berkeleybop.org/job/build-go-assert-inferences-report/2877/)
 
-Using the file: Simple copy and paste the contents into Excel.  When you've finished editing, select all -> copy and paste back.
+#### Using the file: 
+
+Simple copy and paste the contents into Excel.  When you've finished editing, select all -> copy and paste back.
 
 #### Headers: 
 
