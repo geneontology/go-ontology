@@ -1,4 +1,4 @@
-Class_id	Class_name	parent_class_id	parent_class_name	Stat	M	Entailed - Protégé check	Redundant	Fixed	Notes
+Class_id	Class_name	parent_class_id	parent_class_name	Stat	Manual	Entailed - checked in Protégé	Redundant	Fixed	Notes
 GO:0000758	agglutination involved in conjugation with mutual genetic exchange	GO:0000771	agglutination involved in conjugation	1	1				
 GO:0005499	vitamin D binding	GO:0043178	alcohol binding	0					
 GO:0031210	phosphatidylcholine binding	GO:0043178	alcohol binding	0					
