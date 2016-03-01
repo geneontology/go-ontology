@@ -6,7 +6,7 @@ Stale inferences for review are in [etines.tsv](https://github.com/geneontology/
 
 #### Using the file: 
 
-Simple copy and paste the contents into Excel.  When you've finished editing, select all -> copy and paste back.
+Simple copy and paste the contents into Excel.  When you've finished editing, select all -> copy and paste back & commit.
 
 #### Headers: 
 
