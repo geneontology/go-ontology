@@ -1,6 +1,6 @@
 Please follow these guidelines when creating GitHub ontology tickets:
 
-- If you're asking for a new term: should it be requested via TermGenie instead? Please review the flowchart here: http://go.termgenie.org/help/index.html
+- If you're asking for a new term: should it be requested via TermGenie instead? (Term Genie can be used to automatically create terms that are similar in structure to many terms that are already in GO.) Please review the flowchart here: http://go.termgenie.org/help/index.html
 
 - Be specific. Add as many details to your issue, provide background information and if possible suggest a solution. Keep in mind that the person trying to address your ticket may not have the same background as you, so please be explicit. What is wrong, why, how you'd suggest to fix it, etc.
 - Provide examples and references. PMIDs for new term requests, screenshots/hyperlinks of current ontology structure for other types of requests (this is important because not everyone has the same settings in their GO browser/editor). 
