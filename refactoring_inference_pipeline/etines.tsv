@@ -61,10 +61,10 @@ GO:0015885	5-formyltetrahydrofolate transport	GO:0006865	amino acid transport	0
 GO:0015884	folic acid transport	GO:0006865	amino acid transport	0				
 GO:0015314	aminotriazole:proton antiporter activity	GO:1901478	aminotriazole transmembrane transporter activity	0				
 GO:1901049	atropine metabolic process	GO:0097164	ammonium ion metabolic process	0				
-GO:0061370	testosterone biosynthetic process	GO:0006702	androgen biosynthetic process	1	?			https://github.com/geneontology/go-ontology/issues/12330
-GO:0035941	androstenedione secretion	GO:0035935	androgen secretion	1	?			
-GO:0035942	dehydroepiandrosterone secretion	GO:0035935	androgen secretion	1	?			https://github.com/geneontology/go-ontology/issues/12330
-GO:0035936	testosterone secretion	GO:0035935	androgen secretion	1	?			https://github.com/geneontology/go-ontology/issues/12330
+GO:0061370	testosterone biosynthetic process	GO:0006702	androgen biosynthetic process	1				https://github.com/geneontology/go-ontology/issues/12330
+GO:0035941	androstenedione secretion	GO:0035935	androgen secretion	1				https://github.com/geneontology/go-ontology/issues/12330
+GO:0035942	dehydroepiandrosterone secretion	GO:0035935	androgen secretion	1				https://github.com/geneontology/go-ontology/issues/12330
+GO:0035936	testosterone secretion	GO:0035935	androgen secretion	1				https://github.com/geneontology/go-ontology/issues/12330
 GO:0097272	ammonia homeostasis	GO:0055081	anion homeostasis	0				
 GO:1902603	carnitine transmembrane transport	GO:0098656	anion transmembrane transport	0				
 GO:0042740	exogenous antibiotic catabolic process	GO:0017001	antibiotic catabolic process	1	1			
@@ -106,26 +106,26 @@ GO:0019240	citrulline biosynthetic process	GO:0042398	cellular modified amino ac
 GO:0071268	homocysteine biosynthetic process	GO:0042398	cellular modified amino acid biosynthetic process	0				
 GO:0006556	S-adenosylmethionine biosynthetic process	GO:0042398	cellular modified amino acid biosynthetic process	0				
 GO:0016260	selenocysteine biosynthetic process	GO:0042398	cellular modified amino acid biosynthetic process	0				
-GO:1903559	3-cyano-L-alanine catabolic process	GO:0042219	cellular modified amino acid catabolic process	0				
-GO:0019241	citrulline catabolic process	GO:0042219	cellular modified amino acid catabolic process	0				
-GO:0043418	homocysteine catabolic process	GO:0042219	cellular modified amino acid catabolic process	0				
-GO:0097053	L-kynurenine catabolic process	GO:0042219	cellular modified amino acid catabolic process	0				
-GO:0017184	peptidyl-diphthamide catabolic process	GO:0042219	cellular modified amino acid catabolic process	0				
-GO:0017181	peptidyl-diphthine catabolic process	GO:0042219	cellular modified amino acid catabolic process	0				
-GO:0019510	S-adenosylhomocysteine catabolic process	GO:0042219	cellular modified amino acid catabolic process	0				
-GO:0050843	S-adenosylmethionine catabolic process	GO:0042219	cellular modified amino acid catabolic process	0				
-GO:0016261	selenocysteine catabolic process	GO:0042219	cellular modified amino acid catabolic process	0				
-GO:0042398	cellular modified amino acid biosynthetic process	GO:0006575	cellular modified amino acid metabolic process	0				
-GO:0042219	cellular modified amino acid catabolic process	GO:0006575	cellular modified amino acid metabolic process	0				
-GO:0000052	citrulline metabolic process	GO:0006575	cellular modified amino acid metabolic process	0				
-GO:0033052	cyanoamino acid metabolic process	GO:0006575	cellular modified amino acid metabolic process	0				
-GO:0050667	homocysteine metabolic process	GO:0006575	cellular modified amino acid metabolic process	0				
-GO:0070189	kynurenine metabolic process	GO:0006575	cellular modified amino acid metabolic process	0				
-GO:0046498	S-adenosylhomocysteine metabolic process	GO:0006575	cellular modified amino acid metabolic process	0				
-GO:0046500	S-adenosylmethionine metabolic process	GO:0006575	cellular modified amino acid metabolic process	0				
-GO:0016259	selenocysteine metabolic process	GO:0006575	cellular modified amino acid metabolic process	0				
-GO:0052709	N-alpha,N-alpha,N-alpha-trimethyl-L-histidine biosynthetic process	GO:0052703	cellular modified histidine biosynthetic process	0				
-GO:0052710	N-alpha,N-alpha,N-alpha-trimethyl-L-histidine catabolic process	GO:0052702	cellular modified histidine catabolic process	0				
+GO:1903559	3-cyano-L-alanine catabolic process	GO:0042219	cellular modified amino acid catabolic process					
+GO:0019241	citrulline catabolic process	GO:0042219	cellular modified amino acid catabolic process					
+GO:0043418	homocysteine catabolic process	GO:0042219	cellular modified amino acid catabolic process					
+GO:0097053	L-kynurenine catabolic process	GO:0042219	cellular modified amino acid catabolic process					
+GO:0017184	peptidyl-diphthamide catabolic process	GO:0042219	cellular modified amino acid catabolic process					
+GO:0017181	peptidyl-diphthine catabolic process	GO:0042219	cellular modified amino acid catabolic process					
+GO:0019510	S-adenosylhomocysteine catabolic process	GO:0042219	cellular modified amino acid catabolic process					
+GO:0050843	S-adenosylmethionine catabolic process	GO:0042219	cellular modified amino acid catabolic process					
+GO:0016261	selenocysteine catabolic process	GO:0042219	cellular modified amino acid catabolic process					
+GO:0042398	cellular modified amino acid biosynthetic process	GO:0006575	cellular modified amino acid metabolic process					
+GO:0042219	cellular modified amino acid catabolic process	GO:0006575	cellular modified amino acid metabolic process					
+GO:0000052	citrulline metabolic process	GO:0006575	cellular modified amino acid metabolic process					
+GO:0033052	cyanoamino acid metabolic process	GO:0006575	cellular modified amino acid metabolic process					
+GO:0050667	homocysteine metabolic process	GO:0006575	cellular modified amino acid metabolic process					
+GO:0070189	kynurenine metabolic process	GO:0006575	cellular modified amino acid metabolic process					
+GO:0046498	S-adenosylhomocysteine metabolic process	GO:0006575	cellular modified amino acid metabolic process					
+GO:0046500	S-adenosylmethionine metabolic process	GO:0006575	cellular modified amino acid metabolic process					
+GO:0016259	selenocysteine metabolic process	GO:0006575	cellular modified amino acid metabolic process					
+GO:0052709	N-alpha,N-alpha,N-alpha-trimethyl-L-histidine biosynthetic process	GO:0052703	cellular modified histidine biosynthetic process					
+GO:0052710	N-alpha,N-alpha,N-alpha-trimethyl-L-histidine catabolic process	GO:0052702	cellular modified histidine catabolic process					
 GO:0097275	cellular ammonia homeostasis	GO:0030320	cellular monovalent inorganic anion homeostasis	0				
 GO:0097275	cellular ammonia homeostasis	GO:0030004	cellular monovalent inorganic cation homeostasis	0				
 GO:0045450	bicoid mRNA localization	GO:0022412	cellular process involved in reproduction in multicellular organism	1				
@@ -772,31 +772,31 @@ GO:1902372	positive regulation of tRNA catabolic process	GO:1903328	positive reg
 GO:1901644	positive regulation of tRNA methylation in response to nitrogen starvation	GO:2000237	positive regulation of tRNA processing					
 GO:0007092	activation of APC-Cdc20 complex activity	GO:0051437	positive regulation of ubiquitin-protein ligase activity involved in regulation of mitotic cell cycle transition					
 GO:1903007	positive regulation of Lys63-specific deubiquitinase activity	GO:2000158	positive regulation of ubiquitin-specific protease activity					
-GO:1904288	BAT3 complex binding	GO:0070628	proteasome binding					
-GO:0071818	BAT3 complex	GO:0000502	proteasome complex					
-GO:0000835	ER ubiquitin ligase complex	GO:0000502	proteasome complex					
-GO:0001948	glycoprotein binding	GO:0005515	protein binding					
-GO:0030492	hemoglobin binding	GO:0005515	protein binding					
+GO:1904288	BAT3 complex binding	GO:0070628	proteasome binding	0				
+GO:0071818	BAT3 complex	GO:0000502	proteasome complex	0				
+GO:0000835	ER ubiquitin ligase complex	GO:0000502	proteasome complex	0				
+GO:0001948	glycoprotein binding	GO:0005515	protein binding	?				
+GO:0030492	hemoglobin binding	GO:0005515	protein binding	1				
 GO:0034189	very-low-density lipoprotein particle binding	GO:0005515	protein binding					
-GO:0006516	glycoprotein catabolic process	GO:0030163	protein catabolic process					
-GO:0042540	hemoglobin catabolic process	GO:0030163	protein catabolic process					
-GO:0042159	lipoprotein catabolic process	GO:0030163	protein catabolic process					
+GO:0006516	glycoprotein catabolic process	GO:0030163	protein catabolic process	1				
+GO:0042540	hemoglobin catabolic process	GO:0030163	protein catabolic process	1				
+GO:0042159	lipoprotein catabolic process	GO:0030163	protein catabolic process	1				
 GO:0015474	autotransporter activity	GO:0015266	protein channel activity					
-GO:0051225	spindle assembly	GO:0006461	protein complex assembly					
-GO:0030474	spindle pole body duplication	GO:0006461	protein complex assembly					
-GO:0008017	microtubule binding	GO:0032403	protein complex binding					
-GO:0051230	spindle disassembly	GO:0043241	protein complex disassembly					
-GO:0007015	actin filament organization	GO:0071822	protein complex subunit organization					
-GO:0031122	cytoplasmic microtubule organization	GO:0071822	protein complex subunit organization					
-GO:0045109	intermediate filament organization	GO:0071822	protein complex subunit organization					
-GO:0006999	nuclear pore organization	GO:0071822	protein complex subunit organization					
-GO:0007051	spindle organization	GO:0071822	protein complex subunit organization					
-GO:0051300	spindle pole body organization	GO:0071822	protein complex subunit organization					
-GO:0020028	hemoglobin import	GO:0017038	protein import					
-GO:0044872	lipoprotein localization	GO:0008104	protein localization					
-GO:0044873	lipoprotein localization to membrane	GO:0072657	protein localization to membrane					
-GO:0090204	protein localization to nuclear pore	GO:0072657	protein localization to membrane					
-GO:1903445	protein transport from ciliary membrane to plasma membrane	GO:0072659	protein localization to plasma membrane					
+GO:0051225	spindle assembly	GO:0006461	protein complex assembly	0				
+GO:0030474	spindle pole body duplication	GO:0006461	protein complex assembly	0				
+GO:0008017	microtubule binding	GO:0032403	protein complex binding	0				
+GO:0051230	spindle disassembly	GO:0043241	protein complex disassembly	0				
+GO:0007015	actin filament organization	GO:0071822	protein complex subunit organization	0				
+GO:0031122	cytoplasmic microtubule organization	GO:0071822	protein complex subunit organization	0				
+GO:0045109	intermediate filament organization	GO:0071822	protein complex subunit organization	0				
+GO:0006999	nuclear pore organization	GO:0071822	protein complex subunit organization	0				
+GO:0007051	spindle organization	GO:0071822	protein complex subunit organization	0				
+GO:0051300	spindle pole body organization	GO:0071822	protein complex subunit organization	0				
+GO:0020028	hemoglobin import	GO:0017038	protein import	1				
+GO:0044872	lipoprotein localization	GO:0008104	protein localization	1				
+GO:0044873	lipoprotein localization to membrane	GO:0072657	protein localization to membrane	1				
+GO:0090204	protein localization to nuclear pore	GO:0072657	protein localization to membrane	1				
+GO:1903445	protein transport from ciliary membrane to plasma membrane	GO:0072659	protein localization to plasma membrane	1				
 GO:0042967	acyl-carrier-protein biosynthetic process	GO:0019538	protein metabolic process	1				ChEBI -> PRO for protein
 GO:1903606	cytochrome c metabolic process	GO:0019538	protein metabolic process	1				ChEBI -> PRO for protein
 GO:1903604	cytochrome metabolic process	GO:0019538	protein metabolic process	1				ChEBI -> PRO for protein
@@ -808,17 +808,17 @@ GO:0042964	thioredoxin biosynthetic process	GO:0019538	protein metabolic process
 GO:0015557	arginine targeting transmembrane transporter activity	GO:0008320	protein transmembrane transporter activity	1	1			
 GO:0034436	glycoprotein transport	GO:0015031	protein transport	1				
 GO:0042953	lipoprotein transport	GO:0015031	protein transport	1				
-GO:1903445	protein transport from ciliary membrane to plasma membrane	GO:0015031	protein transport	1	0		1	
-GO:0042073	intraciliary transport	GO:0098840	protein transport along microtubule					
-GO:1990852	protein transport along microtubule to spindle pole body	GO:0098840	protein transport along microtubule					
-GO:0034437	glycoprotein transporter activity	GO:0008565	protein transporter activity					
+GO:1903445	protein transport from ciliary membrane to plasma membrane	GO:0015031	protein transport	1	1		0	
+GO:0042073	intraciliary transport	GO:0098840	protein transport along microtubule	1				transport vs localization
+GO:1990852	protein transport along microtubule to spindle pole body	GO:0098840	protein transport along microtubule	1	0		1	
+GO:0034437	glycoprotein transporter activity	GO:0008565	protein transporter activity					chebi->Pro gap
 GO:0042954	lipoprotein transporter activity	GO:0008565	protein transporter activity					
-GO:1901962	S-adenosyl-L-methionine transmembrane transport	GO:0015860	purine nucleoside transmembrane transport					
-GO:0000095	S-adenosyl-L-methionine transmembrane transporter activity	GO:0015211	purine nucleoside transmembrane transporter activity					
-GO:0006556	S-adenosylmethionine biosynthetic process	GO:0046129	purine ribonucleoside biosynthetic process					
-GO:0050843	S-adenosylmethionine catabolic process	GO:0046130	purine ribonucleoside catabolic process					
-GO:0046500	S-adenosylmethionine metabolic process	GO:0046128	purine ribonucleoside metabolic process					
-GO:0001408	guanine nucleotide transport	GO:0015868	purine ribonucleotide transport					
+GO:1901962	S-adenosyl-L-methionine transmembrane transport	GO:0015860	purine nucleoside transmembrane transport	0				
+GO:0000095	S-adenosyl-L-methionine transmembrane transporter activity	GO:0015211	purine nucleoside transmembrane transporter activity	0				
+GO:0006556	S-adenosylmethionine biosynthetic process	GO:0046129	purine ribonucleoside biosynthetic process	0				
+GO:0050843	S-adenosylmethionine catabolic process	GO:0046130	purine ribonucleoside catabolic process	0				
+GO:0046500	S-adenosylmethionine metabolic process	GO:0046128	purine ribonucleoside metabolic process	0				
+GO:0001408	guanine nucleotide transport	GO:0015868	purine ribonucleotide transport	0				
 GO:0019650	glycolytic fermentation to butanediol	GO:0019364	pyridine nucleotide catabolic process					
 GO:0006230	TMP biosynthetic process	GO:0009177	pyrimidine deoxyribonucleoside monophosphate biosynthetic process					
 GO:0046045	TMP catabolic process	GO:0009178	pyrimidine deoxyribonucleoside monophosphate catabolic process					
@@ -864,10 +864,10 @@ GO:0042268	regulation of cytolysis	GO:0010941	regulation of cell death					\@Pao
 GO:2000036	regulation of stem cell population maintenance	GO:0060284	regulation of cell development					
 GO:0051783	regulation of nuclear division	GO:0051302	regulation of cell division					
 GO:0090381	regulation of heart induction	GO:0010453	regulation of cell fate commitment					
-GO:0046586	regulation of calcium-dependent cell-cell adhesion	GO:0022407	regulation of cell-cell adhesion	1				General issue with edits to cell adhesion terms.
-GO:0051040	regulation of calcium-independent cell-cell adhesion	GO:0022407	regulation of cell-cell adhesion	1				General issue with edits to cell adhesion terms.
+GO:0046586	regulation of calcium-dependent cell-cell adhesion	GO:0022407	regulation of cell-cell adhesion	1				General issue with (DOS?) edits to cell adhesion terms.
+GO:0051040	regulation of calcium-independent cell-cell adhesion	GO:0022407	regulation of cell-cell adhesion	1				General issue with (DOS?) edits to cell adhesion terms.
 GO:1902026	regulation of cartilage condensation	GO:0022407	regulation of cell-cell adhesion	0				
-GO:0070587	regulation of cell-cell adhesion involved in gastrulation	GO:0022407	regulation of cell-cell adhesion	1				General issue with edits to cell adhesion terms.
+GO:0070587	regulation of cell-cell adhesion involved in gastrulation	GO:0022407	regulation of cell-cell adhesion	1				General issue with (DOS?) edits to cell adhesion terms.
 GO:2001245	regulation of phosphatidylcholine biosynthetic process	GO:0033238	regulation of cellular amine metabolic process	0				
 GO:0010899	regulation of phosphatidylcholine catabolic process	GO:0033238	regulation of cellular amine metabolic process	0				
 GO:2000754	regulation of sphingomyelin catabolic process	GO:0033238	regulation of cellular amine metabolic process	0				
@@ -1378,7 +1378,7 @@ GO:0046306	alkanesulfonate catabolic process	GO:0044273	sulfur compound cataboli
 GO:0019694	alkanesulfonate metabolic process	GO:0006790	sulfur compound metabolic process	0				
 GO:0018984	naphthalenesulfonate metabolic process	GO:0006790	sulfur compound metabolic process	0				
 GO:0042918	alkanesulfonate transport	GO:0072348	sulfur compound transport	0				
-GO:0016182	synaptic vesicle budding from endosome	GO:0070142	synaptic vesicle budding	1	0			Fixed
+GO:0016182	synaptic vesicle budding from endosome	GO:0070142	synaptic vesicle budding	1	0		1	
 GO:0048806	genitalia development	GO:0048731	system development	0				defer to uberon
 GO:0061034	olfactory bulb mitral cell layer development	GO:0009888	tissue development	0				defer to uberon
 GO:0007419	ventral cord development	GO:0009888	tissue development	0				defer to uberon
@@ -1394,11 +1394,11 @@ GO:1901051	atropine biosynthetic process	GO:0009710	tropane alkaloid biosyntheti
 GO:1901049	atropine metabolic process	GO:0046448	tropane alkaloid metabolic process	?				Role?
 GO:0061009	common bile duct development	GO:0035295	tube development	1	1			Uberon edits needed
 GO:0072520	seminiferous tubule development	GO:0035295	tube development	1	1			Uberon edits needed
-GO:1990302	Bre1-Rad6 ubiquitin ligase complex	GO:0000151	ubiquitin ligase complex	?				
-GO:1990304	MUB1-RAD6-UBR2 ubiquitin ligase complex	GO:0000151	ubiquitin ligase complex	?				
-GO:1990305	RAD6-UBR2 ubiquitin ligase complex	GO:0000151	ubiquitin ligase complex	?				
-GO:1990306	RSP5-BUL ubiquitin ligase complex	GO:0000151	ubiquitin ligase complex	?				
-GO:1990303	UBR1-RAD6 ubiquitin ligase complex	GO:0000151	ubiquitin ligase complex	?				
+GO:1990302	Bre1-Rad6 ubiquitin ligase complex	GO:0000151	ubiquitin ligase complex	?				\@ukemi
+GO:1990304	MUB1-RAD6-UBR2 ubiquitin ligase complex	GO:0000151	ubiquitin ligase complex	?				\@ukemi
+GO:1990305	RAD6-UBR2 ubiquitin ligase complex	GO:0000151	ubiquitin ligase complex	?				\@ukemi
+GO:1990306	RSP5-BUL ubiquitin ligase complex	GO:0000151	ubiquitin ligase complex	?				\@ukemi
+GO:1990303	UBR1-RAD6 ubiquitin ligase complex	GO:0000151	ubiquitin ligase complex	?				\@ukemi
 GO:0007042	lysosomal lumen acidification	GO:0007035	vacuolar acidification	1	1			Inference requires OBA
 GO:0002500	proteolysis within lysosome associated with antigen processing and presentation	GO:0006624	vacuolar protein processing					
 GO:0060775	planar cell polarity pathway involved in gastrula mediolateral intercalation	GO:0044333	Wnt signaling pathway involved in digestive tract morphogenesis					
