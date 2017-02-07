@@ -9,6 +9,7 @@ sync:
 	cp $(OLDED)/gene_ontology_write.obo go-edit.obo ;\
 	cp $(OLDED)/go_inferences_null.owl . ;\
 	cp $(OLDED)/go-idranges.txt . ;\
+	cp $(OLDED)/go_inferences_difflog.txt . ;\
 	cp $(OLDED)/*.dict . ;\
 	perl -npe 's@\.\./extensions/@imports/@' $(OLDED)/catalog-v001.xml > catalog-v001.xml ;\
 	perl -npe 's@\.\./extensions/@imports/@' $(OLDED)/oboedit.catalog > oboedit.catalog
@@ -74,8 +75,9 @@ GO_MAIN_RELATIONS = $(GO_BASIC_RELATIONS) BFO:0000051 BFO:0000066 RO:0002091 RO:
 # ----------------------------------------
 
 all: all_imports $(ONT).owl $(ONT).obo
-test: $(ONT).owl
-full_test: $(ONT).obo
+test: $(SRC)-check change-report.txt $(ONT).owl
+full_test: test $(ONT).obo
+
 prepare_release: all
 	mkdir -p $(RELEASEDIR)/imports &&\
 	mkdir -p $(RELEASEDIR_IMPORTS) &&\
@@ -90,14 +92,34 @@ deploy-snapshot:
 	cd $(RELEASEDIR) &&\
 	find . -type f -print0 | xargs -0 -I % s3cmd -c $(S3CFG) --acl-public --reduced-redundancy --mime-type=application/rdf+xml put % s3://go-build/ontology/snapshot/%
 
+idiff: go_inferences_difflog.txt
+
+# ----------------------------------------
+# CHECKS AND BALANCES
+# ----------------------------------------
+
+$(SRC)-check: $(SRC) GO.xrf_abbs
+	$(PERLCHECK) --disable-isa-incomplete --xref-abbs GO.xrf_abbs $<
+
+GO.xrf_abbs: $(SRC)
+	wget http://geneontology.org/doc/GO.xrf_abbs -O $@ && touch $@
+
+PREVIOUS=go-lastrelease.owl
+$(PREVIOUS): $(SRC)
+	wget $(OBO)/go.obo -O $@ && touch $@
+
+change-report.txt: $(SRC) $(PREVIOUS)
+	$(OWLTOOLS) $(USECAT) $< --verify-changes -p $(PREVIOUS) -o $@ --id-prefix-filter GO: --check-missing-labels
+
 
 # ----------------------------------------
 # OWL
 # ----------------------------------------
 
 # go.owl is equivalent to editors source, after reason-relax-reduce pipeline
-$(ONT).owl: $(SRC)
+$(ONT).owl: $(SRC) $(SRC)-check
 	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+
 
 # ----------------------------------------
 # OBO and subsets
@@ -226,3 +248,15 @@ go_inferences.owl: go-edit_noinf.obo
 # (a) import the go ontology that contains the labels (b) save (c) strip out the import directive
 go_inferences.obo: go_inferences.owl
 	owltools $< --use-catalog go-edit.obo --add-imports-from-supports -o -f obo $@.tmp && grep -v ^import: $@.tmp > $@
+.PRECIOUS: go_inferences.obo
+
+go_inferences.diff: go_inferences.obo
+	git log $(SRC) | head -4 > $@
+	echo >> $@
+	echo "changes in entailments" >> $@
+	echo >> $@
+	git diff go_inferences.obo >> $@
+.PRECIOUS: go_inferences.diff
+
+go_inferences_difflog.txt: go_inferences.diff
+	cat $< $@ > $@.tmp && mv $@.tmp $@
