@@ -22,7 +22,7 @@ ONT=go
 BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.obo
 RELEASEDIR=../../target/
-ROBOT_ENV = "ROBOT_JAVA_ARGS=-Xmx8G"
+ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
 ROBOT= $(ROBOT_ENV) robot
 OWLTOOLS= owltools
 USECAT= --use-catalog
@@ -53,8 +53,14 @@ clean_imports:
 	test -f uberon_mirror.owl && rm uberon_mirror.owl
 	test -f ncbitaxon_mirror.owl && rm ncbitaxon_mirror.owl
 
+seed.txt: $(SRC)
+	owltools --use-catalog $< --export-table $@.tmp && cut -f1 $@.tmp > $@
+
+imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
+	cat $^ > $@
+
 # Use ROBOT for imports
-imports/%_import.owl: mirror/%.owl imports/%_terms.txt $(SRC)
+imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
 	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
@@ -78,14 +84,25 @@ mirror/chebi-download.owl: $(SRC)
 	wget -N --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
 .PRECIOUS: mirror/chebi-download.owl
 
+# special case: use ext for uberon
+mirror/uberon-download.owl: $(SRC)
+	wget -N --no-check-certificate $(OBO)/uberon/ext.owl $(WGET_OUT)
+.PRECIOUS: mirror/ncbitaxon-download.owl
+
 # general case: download remote OWL first
 mirror/%-download.owl: $(SRC)
 	wget -N --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
 .PRECIOUS: mirror/%-download.owl
 
 # filter axioms
+
+FILTER_EXTERNAL=--remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
+mirror/uberon.owl: mirror/uberon-download.owl
+	$(OWLTOOLS) $< --remove-classes-in-idspace -s GO --remove-classes-in-idspace -s CHEBI $(FILTER_EXTERNAL) -o $@
+.PRECIOUS: mirror/uberon.owl
+
 mirror/%.owl: mirror/%-download.owl
-	$(OWLTOOLS) $< --remove-annotation-assertions -l -s -d -r --remove-dangling-annotations  -o $@
+	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/%.owl
 
 # bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al

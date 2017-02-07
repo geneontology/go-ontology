@@ -26,12 +26,6 @@ name: cell part
 is_a: CARO:0000003 ! anatomical structure
 
 [Term]
-id: CHEBI:23367
-name: molecular entity
-is_a: BFO:0000030 ! object
-is_a: CHEBI:24431 ! chemical entity
-
-[Term]
 id: CHEBI:24431
 name: chemical entity
 
@@ -40,7 +34,8 @@ id: CL:0000000
 name: cell
 is_a: CARO:0000003 ! anatomical structure
 is_a: GO:0005575 ! cellular_component
-equivalent_to: GO:0005623 {is_inferred="true"} ! cell
+is_a: GO:0044464 ! cell part
+equivalent_to: GO:0005623 ! cell
 
 [Term]
 id: CL:0000003
@@ -63,7 +58,7 @@ is_a: CL:0011115 ! precursor cell
 id: CL:0000047
 name: neuronal stem cell
 is_a: CL:0000048 {is_inferred="true"} ! multi fate stem cell
-is_a: CL:0002319 {is_inferred="true"} ! neural cell
+is_a: CL:0002319 ! neural cell
 intersection_of: CL:0000048 ! multi fate stem cell
 intersection_of: BFO:0000050 UBERON:0001017 ! part_of central nervous system
 relationship: BFO:0000050 UBERON:0001017 ! part_of central nervous system
@@ -252,6 +247,7 @@ is_a: BFO:0000030 ! object
 [Term]
 id: GO:0005622
 name: intracellular
+is_a: GO:0044424 ! intracellular part
 is_a: GO:0044464 ! cell part
 
 [Term]
@@ -259,17 +255,18 @@ id: GO:0005623
 name: cell
 is_a: CARO:0000003 ! anatomical structure
 is_a: GO:0005575 ! cellular_component
+is_a: GO:0044464 ! cell part
 
 [Term]
 id: GO:0005856
 name: cytoskeleton
 is_a: GO:0043232 ! intracellular non-membrane-bounded organelle
+is_a: GO:0044430 ! cytoskeletal part
 
 [Term]
 id: GO:0005884
 name: actin filament
-is_a: GO:0043234 ! protein complex
-is_a: GO:0044430 ! cytoskeletal part
+is_a: GO:0099513 ! polymeric cytoskeletal fiber
 relationship: BFO:0000050 GO:0015629 ! part_of actin cytoskeleton
 
 [Term]
@@ -278,6 +275,7 @@ name: plasma membrane
 is_a: GO:0005575 ! cellular_component
 is_a: GO:0016020 ! membrane
 is_a: GO:0044464 ! cell part
+is_a: GO:0098590 ! plasma membrane region
 relationship: BFO:0000050 GO:0071944 ! part_of cell periphery
 
 [Term]
@@ -299,6 +297,7 @@ is_a: GO:0005856 ! cytoskeleton
 id: GO:0016020
 name: membrane
 is_a: GO:0005575 ! cellular_component
+is_a: GO:0044425 ! membrane part
 
 [Term]
 id: GO:0032432
@@ -308,14 +307,9 @@ relationship: BFO:0000050 GO:0015629 ! part_of actin cytoskeleton
 relationship: BFO:0000051 GO:0005884 ! has_part actin filament
 
 [Term]
-id: GO:0032991
-name: macromolecular complex
-is_a: CHEBI:23367 ! molecular entity
-is_a: GO:0005575 ! cellular_component
-
-[Term]
 id: GO:0042995
 name: cell projection
+is_a: GO:0044463 ! cell projection part
 is_a: GO:0044464 ! cell part
 relationship: BFO:0000051 GO:0098590 ! has_part plasma membrane region
 
@@ -323,6 +317,7 @@ relationship: BFO:0000051 GO:0098590 ! has_part plasma membrane region
 id: GO:0043226
 name: organelle
 is_a: GO:0005575 ! cellular_component
+is_a: GO:0044422 ! organelle part
 
 [Term]
 id: GO:0043228
@@ -334,17 +329,18 @@ id: GO:0043229
 name: intracellular organelle
 is_a: GO:0043226 ! organelle
 is_a: GO:0044424 ! intracellular part
+intersection_of: GO:0043226 ! organelle
+intersection_of: BFO:0000050 GO:0005622 ! part_of intracellular
+relationship: BFO:0000050 GO:0005622 ! part_of intracellular
 
 [Term]
 id: GO:0043232
 name: intracellular non-membrane-bounded organelle
 is_a: GO:0043228 ! non-membrane-bounded organelle
 is_a: GO:0043229 ! intracellular organelle
-
-[Term]
-id: GO:0043234
-name: protein complex
-is_a: GO:0032991 ! macromolecular complex
+intersection_of: GO:0043228 ! non-membrane-bounded organelle
+intersection_of: BFO:0000050 GO:0005622 ! part_of intracellular
+relationship: BFO:0000050 GO:0005622 ! part_of intracellular
 
 [Term]
 id: GO:0044422
@@ -417,52 +413,41 @@ name: cell periphery
 is_a: GO:0044464 ! cell part
 
 [Term]
-id: GO:0098589
-name: membrane region
-is_a: GO:0016020 ! membrane
-is_a: GO:0044425 ! membrane part
-intersection_of: GO:0016020 ! membrane
-intersection_of: BFO:0000050 GO:0098805 ! part_of whole membrane
-disjoint_from: GO:0098805 ! whole membrane
-relationship: BFO:0000050 GO:0098805 ! part_of whole membrane
-
-[Term]
 id: GO:0098590
 name: plasma membrane region
+is_a: GO:0016020 ! membrane
 is_a: GO:0044459 ! plasma membrane part
-is_a: GO:0098589 ! membrane region
 intersection_of: GO:0016020 ! membrane
 intersection_of: BFO:0000050 GO:0005886 ! part_of plasma membrane
 relationship: BFO:0000050 GO:0005886 ! part_of plasma membrane
-
-[Term]
-id: GO:0098796
-name: membrane protein complex
-is_a: GO:0043234 ! protein complex
-is_a: GO:0044425 ! membrane part
-intersection_of: GO:0043234 ! protein complex
-intersection_of: BFO:0000050 GO:0016020 ! part_of membrane
-relationship: BFO:0000050 GO:0016020 ! part_of membrane
-
-[Term]
-id: GO:0098797
-name: plasma membrane protein complex
-is_a: GO:0044459 ! plasma membrane part
-is_a: GO:0098796 ! membrane protein complex
-intersection_of: GO:0043234 ! protein complex
-intersection_of: BFO:0000050 GO:0005886 ! part_of plasma membrane
-relationship: BFO:0000050 GO:0005886 ! part_of plasma membrane
-
-[Term]
-id: GO:0098805
-name: whole membrane
-is_a: GO:0016020 ! membrane
 
 [Term]
 id: GO:0098858
 name: actin-based cell projection
 is_a: GO:0042995 ! cell projection
 relationship: BFO:0000051 GO:0005884 ! has_part actin filament
+
+[Term]
+id: GO:0099080
+name: supramolecular complex
+is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: GO:0099081
+name: supramolecular polymer
+is_a: GO:0099080 ! supramolecular complex
+
+[Term]
+id: GO:0099512
+name: supramolecular fiber
+is_a: GO:0099081 ! supramolecular polymer
+
+[Term]
+id: GO:0099513
+name: polymeric cytoskeletal fiber
+is_a: GO:0044430 ! cytoskeletal part
+is_a: GO:0099512 ! supramolecular fiber
+relationship: BFO:0000050 GO:0005856 ! part_of cytoskeleton
 
 [Term]
 id: UBERON:0000010
@@ -713,6 +698,7 @@ synonym: "developing organism" RELATED []
 synonym: "developmental tissue" RELATED []
 synonym: "embryonic organism" EXACT []
 is_a: UBERON:0000468 ! multicellular organism
+is_a: UBERON:0002050 ! embryonic structure
 
 [Term]
 id: UBERON:0000923
