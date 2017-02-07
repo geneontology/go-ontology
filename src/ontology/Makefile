@@ -22,7 +22,8 @@ ONT=go
 BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.obo
 RELEASEDIR=../../target/
-ROBOT= robot
+ROBOT_ENV = "ROBOT_JAVA_ARGS=-Xmx8G"
+ROBOT= $(ROBOT_ENV) robot
 OWLTOOLS= owltools
 USECAT= --use-catalog
 
@@ -72,8 +73,9 @@ mirror/ncbitaxon-download.owl: $(SRC)
 .PRECIOUS: mirror/ncbitaxon-download.owl
 
 # special case: download obo for speed for chebi
+# See also: https://github.com/ebi-chebi/ChEBI/issues/3269
 mirror/chebi-download.owl: $(SRC)
-	wget -N --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT)
+	wget -N --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
 .PRECIOUS: mirror/chebi-download.owl
 
 # general case: download remote OWL first
@@ -83,7 +85,7 @@ mirror/%-download.owl: $(SRC)
 
 # filter axioms
 mirror/%.owl: mirror/%-download.owl
-	$(OWLTOOLS) $< --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
+	$(OWLTOOLS) $< --remove-annotation-assertions -l -s -d -r --remove-dangling-annotations  -o $@
 .PRECIOUS: mirror/%.owl
 
 # bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
