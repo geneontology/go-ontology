@@ -76,7 +76,7 @@ GO_PLUS = extensions/go-plus.owl
 # ----------------------------------------
 
 all: all_imports $(ONT).owl $(ONT).obo $(GO_PLUS)
-test: $(SRC)-check change-report.txt $(ONT).owl
+test: $(SRC)-check change-report.txt reasoned.owl
 full_test: test $(ONT).obo
 
 prepare_release: all
@@ -136,7 +136,7 @@ $(ONT)-pre.owl: reasoned.owl
 # use OORT
 # side effects: also builds go-simple.obo
 $(ONT).obo: $(ONT)-pre.owl
-	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format owl --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
+	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
 	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge $(BUILD_DIR)/go.obo &&\
 	cp $(BUILD_DIR)/go.obo $@ &&\
 	cp $(BUILD_DIR)/go.owl $@
@@ -225,6 +225,11 @@ mirror/uberon-download.owl: $(SRC)
 mirror/oba-download.owl: $(SRC)
 	wget -N --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo $(WGET_OUT)
 .PRECIOUS: mirror/oba-download.owl
+
+# special case: use basic for cl
+mirror/cl-download.owl: $(SRC)
+	wget -N --no-check-certificate $(OBO)/cl/cl-basic.obo $(WGET_OUT)
+.PRECIOUS: mirror/cl-download.owl
 
 # general case: download remote OWL first
 mirror/%-download.owl: $(SRC)
