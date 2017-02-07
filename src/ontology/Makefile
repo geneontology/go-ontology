@@ -34,7 +34,9 @@ BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.obo
 
 # Staging release directory
-RELEASEDIR=../../target/
+RELEASEDIR=../../target
+RELEASEDIR_IMPORTS=$(RELEASEDIR)/extensions
+
 
 # ROBOT is a release tool
 ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
@@ -51,7 +53,7 @@ BUILD_DIR=build
 USECAT= --use-catalog
 
 # obo-centric checks
-PERLCHECK= ../utils/check-obo-for-standard-release.pl
+PERLCHECK= ../util/check-obo-for-standard-release.pl
 
 # This can be overridden to make snapshot releases:
 #
@@ -75,9 +77,10 @@ test: $(ONT).owl
 full_test: $(ONT).obo
 prepare_release: all
 	mkdir -p $(RELEASEDIR)/imports &&\
-	mkdir -p $(RELEASEDIR)/extensions &&\
+	mkdir -p $(RELEASEDIR_IMPORTS) &&\
 	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
-	cp imports/*{owl,obo} $(RELEASEDIR)/extensions &&\
+	cp imports/*.owl $(RELEASEDIR_IMPORTS) &&\
+	cp imports/*.obo $(RELEASEDIR_IMPORTS) &&\
 	(test -f subsets/*owl && cp subsets/*{owl,obo} $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
 	echo "Release files are now in $(RELEASEDIR)"
 

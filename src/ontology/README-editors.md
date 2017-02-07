@@ -60,7 +60,7 @@ For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
  - travis will perform fast tests on every commit or pull request
  - a jenkins job will run on every commit and produce inference reports
  - a jenkins job will produce SNAPSHOT releases
- - a jenkins job will produce production releases
+ - a jenkins job will produce production releases - https://build.berkeleybop.org/job/release-go-NEW
 
 # Travis Continuous Integration System
 
