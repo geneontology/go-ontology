@@ -35,11 +35,13 @@ prepare_release: all
 	(test -f subsets/*owl && cp subsets/*{owl,obo} $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
 	echo "Release files are now in $(RELEASEDIR)"
 
+release: $(ONT).owl $(ONT).obo
+	cp $^ $(RELEASEDIR) && cp imports/* $(RELEASEDIR)/imports
+
 $(ONT).owl: $(SRC)
 	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
-
 
 IMPORTS = chebi cl po pato ro ncbitaxon uberon fao oba
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
@@ -50,21 +52,43 @@ clean_imports:
 	test -f uberon_mirror.owl && rm uberon_mirror.owl
 	test -f ncbitaxon_mirror.owl && rm ncbitaxon_mirror.owl
 
-# Use ROBOT, driven entirely by terms lists NOT from source ontology
-imports/%_import.owl: mirror/%.owl imports/%_terms.txt
+# Use ROBOT for imports
+imports/%_import.owl: mirror/%.owl imports/%_terms.txt $(SRC)
 	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
 imports/%_import.obo: imports/%_import.owl
 	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@
 
-# clone remote ontology locally, perfoming some excision of relations and annotations
-mirror/%.owl: $(SRC)
-	$(OWLTOOLS) $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
+# ----------------------------------------
+# CACHEING EXTERNAL ONTOLOGIES
+# ----------------------------------------
+
+WGET_OUT = -O $@.tmp && cp $@.tmp $@ && touch $@
+
+# special case: download obo for speed for ncbitaxon
+mirror/ncbitaxon-download.owl: $(SRC)
+	wget -N --no-check-certificate $(OBO)/ncbitaxon.obo $(WGET_OUT)
+.PRECIOUS: mirror/ncbitaxon-download.owl
+
+# special case: download obo for speed for chebi
+mirror/chebi-download.owl: $(SRC)
+	wget -N --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT)
+.PRECIOUS: mirror/chebi-download.owl
+
+# general case: download remote OWL first
+mirror/%-download.owl: $(SRC)
+	wget -N --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
+.PRECIOUS: mirror/%-download.owl
+
+# filter axioms
+mirror/%.owl: mirror/%-download.owl
+	$(OWLTOOLS) $< --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
 .PRECIOUS: mirror/%.owl
 
-release: $(ONT).owl $(ONT).obo
-	cp $^ $(RELEASEDIR) && cp imports/* $(RELEASEDIR)/imports
+# bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
+bio-chebi.owl: mirror/chebi.owl
+	owltools --create-biochebi -o $@ -c $<
 
 # ----------------------------------------
 # ADDING INFERENCES
