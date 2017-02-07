@@ -14,4 +14,6 @@ http://purl.obolibrary.org/obo/go/extensions/ro_pending.owl imports/ro_pending.o
 http://purl.obolibrary.org/obo/go/extensions/x-disjoint.owl imports/x-disjoint.obo
 http://purl.obolibrary.org/obo/go/extensions/annotation_properties.owl imports/annotation_properties.obo
 http://purl.obolibrary.org/obo/go/extensions/go_inferences.owl go_inferences.obo
+http://purl.obolibrary.org/obo/go/extensions/go_bridge.owl imports/go_bridge.obo
+
 

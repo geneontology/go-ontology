@@ -1,4 +1,9 @@
+# ----------------------------------------
 # TEMPORARY
+# ----------------------------------------
+
+# until we switch to new repo, we need to periodically sync for testing
+
 OLDED=$(HOME)/repos/go/ontology/editors/
 sync:
 	cp $(OLDED)/gene_ontology_write.obo go-edit.obo ;\
@@ -8,13 +13,15 @@ sync:
 	perl -npe 's@\.\./extensions/@imports/@' $(OLDED)/catalog-v001.xml > catalog-v001.xml ;\
 	perl -npe 's@\.\./extensions/@imports/@' $(OLDED)/oboedit.catalog > oboedit.catalog
 
+# ----------------------------------------
 ## ACTUAL MAKEFILE STARTS HERE
+# ----------------------------------------
 
 OBO=http://purl.obolibrary.org/obo
 ONT=go
 BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.obo
-RELEASEDIR=../..
+RELEASEDIR=../../target/
 ROBOT= robot
 OWLTOOLS= owltools
 USECAT= --use-catalog
@@ -22,12 +29,11 @@ USECAT= --use-catalog
 all: all_imports $(ONT).owl $(ONT).obo
 test: $(ONT).obo
 prepare_release: all
-	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/imports &&\
+	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
 	cp imports/*{owl,obo} $(RELEASEDIR)/imports &&\
-	git add $(RELEASEDIR)/imports/*{obo,owl} &&\
 	(test -f subsets/*owl && cp subsets/*{owl,obo} $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
-	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
+	echo "Release files are now in $(RELEASEDIR)"
 
 $(ONT).owl: $(SRC)
 	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@

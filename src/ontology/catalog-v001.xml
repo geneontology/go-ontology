@@ -4,6 +4,7 @@
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/go_inf.owl" uri="workinggo_inf_only.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go_inferences.owl" uri="go_inferences_null.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/substance_by_role.owl" uri="imports/substance_by_role.owl"/>
+        <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go_bridge.owl" uri="imports/go_bridge.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/chebi_roles.owl" uri="imports/chebi_roles.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/chebi_import.owl" uri="imports/chebi_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/cl_import.owl" uri="imports/cl_import.owl"/>
