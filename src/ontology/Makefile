@@ -54,6 +54,7 @@ USECAT= --use-catalog
 
 # obo-centric checks
 PERLCHECK= ../util/check-obo-for-standard-release.pl
+PERLFILTER= ../util/filter-obo-for-standard-release.pl
 
 # This can be overridden to make snapshot releases:
 #
@@ -123,7 +124,7 @@ go-simple-filtered.obo: go-simple.obo
 
 # filter inter-ontology (e.g. MF to BP) links
 go-basic.obo: go-simple-filtered.obo
-	filter-obo-for-standard-release.pl $< > $@.tmp && mv $@.tmp $@ && check-obo-for-standard-release.pl --disable-xrf-abbs-check $@
+	$(PERLFILTER) $< > $@.tmp && mv $@.tmp $@ && check-obo-for-standard-release.pl --disable-xrf-abbs-check $@
 
 # ----------------------------------------
 # IMPORT MODULES

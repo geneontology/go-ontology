@@ -1,0 +1,14 @@
+semantic.cache
+*.tmp
+*.old
+src/ontology/mirror/*.owl
+src/ontology/mirror/*.tmp
+src/ontology/seed.txt
+src/ontology/imports/*terms_combined.txt
+src/ontology/build/
+src/ontology/go.obo
+src/ontology/go.owl
+src/ontology/go.owl
+src/ontology/subsets/*.obo
+src/ontology/subsets/*.owl
+
