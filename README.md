@@ -1,1 +1,3 @@
-# Repo and issue tracking for ontology edits
+# Ontology files and tickets for GO
+
+

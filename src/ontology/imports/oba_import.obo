@@ -1,0 +1,1330 @@
+format-version: 1.2
+ontology: go/imports/oba_import
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000010>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000170>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001016>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001017>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002167>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002168>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\n\n\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000010>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001017>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001016>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000170>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000010>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001017>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))\n)
+
+[Term]
+id: BFO:0000030
+name: object
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: BFO:0000040
+name: material entity
+
+[Term]
+id: CARO:0000003
+name: anatomical structure
+is_a: CARO:0000006 ! material anatomical entity
+
+[Term]
+id: CARO:0000006
+name: material anatomical entity
+
+[Term]
+id: CARO:0000014
+name: cell part
+is_a: CARO:0000003 ! anatomical structure
+
+[Term]
+id: CHEBI:24431
+name: chemical entity
+
+[Term]
+id: CL:0000000
+name: cell
+is_a: CARO:0000003 ! anatomical structure
+is_a: GO:0005575 ! cellular_component
+is_a: GO:0044464 ! cell part
+equivalent_to: GO:0005623 ! cell
+
+[Term]
+id: CL:0000003
+name: native cell
+is_a: CL:0000000 ! cell
+is_a: GO:0005623 ! cell
+
+[Term]
+id: CL:0000031
+name: neuroblast
+is_a: CL:0000047 ! neuronal stem cell
+is_a: CL:0000055 ! non-terminally differentiated cell
+
+[Term]
+id: CL:0000034
+name: stem cell
+is_a: CL:0011115 ! precursor cell
+
+[Term]
+id: CL:0000047
+name: neuronal stem cell
+is_a: CL:0000048 {is_inferred="true"} ! multi fate stem cell
+is_a: CL:0002319 ! neural cell
+intersection_of: CL:0000048 ! multi fate stem cell
+intersection_of: BFO:0000050 UBERON:0001017 ! part_of central nervous system
+relationship: BFO:0000050 UBERON:0001017 ! part_of central nervous system
+relationship: RO:0002202 CL:0000133 ! develops_from neurectodermal cell
+
+[Term]
+id: CL:0000048
+name: multi fate stem cell
+is_a: CL:0000034 ! stem cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0000055
+name: non-terminally differentiated cell
+is_a: CL:0011115 ! precursor cell
+
+[Term]
+id: CL:0000066
+name: epithelial cell
+is_a: CL:0000548 ! animal cell
+intersection_of: CL:0000548 ! animal cell
+intersection_of: BFO:0000050 UBERON:0000483 ! part_of epithelium
+relationship: BFO:0000050 UBERON:0000483 ! part_of epithelium
+
+[Term]
+id: CL:0000075
+name: columnar/cuboidal epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0000082
+name: epithelial cell of lung
+is_a: CL:0000066 ! epithelial cell
+intersection_of: CL:0000066 ! epithelial cell
+intersection_of: BFO:0000050 UBERON:0002048 ! part_of lung
+relationship: BFO:0000050 UBERON:0000115 ! part_of lung epithelium
+relationship: BFO:0000050 UBERON:0002048 ! part_of lung
+
+[Term]
+id: CL:0000133
+name: neurectodermal cell
+is_a: CL:0000221 ! ectodermal cell
+
+[Term]
+id: CL:0000211
+name: electrically active cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000221
+name: ectodermal cell
+is_a: CL:0002321 ! embryonic cell
+relationship: BFO:0000050 UBERON:0000924 ! part_of ectoderm
+
+[Term]
+id: CL:0000223
+name: endodermal cell
+is_a: CL:0002321 ! embryonic cell
+relationship: BFO:0000050 UBERON:0000925 ! part_of endoderm
+
+[Term]
+id: CL:0000255
+name: eukaryotic cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0000393
+name: electrically responsive cell
+is_a: CL:0000211 ! electrically active cell
+
+[Term]
+id: CL:0000404
+name: electrically signaling cell
+is_a: CL:0000211 ! electrically active cell
+
+[Term]
+id: CL:0000540
+name: neuron
+is_a: CL:0000000 ! cell
+is_a: CL:0000393 ! electrically responsive cell
+is_a: CL:0000404 ! electrically signaling cell
+is_a: CL:0002319 ! neural cell
+relationship: RO:0002202 CL:0000031 ! develops_from neuroblast
+
+[Term]
+id: CL:0000548
+name: animal cell
+is_a: CL:0000255 ! eukaryotic cell
+relationship: BFO:0000051 GO:0005902 ! has_part microvillus
+
+[Term]
+id: CL:0000710
+name: neurecto-epithelial cell
+is_a: CL:0000075 ! columnar/cuboidal epithelial cell
+is_a: CL:0002077 ! ecto-epithelial cell
+intersection_of: CL:0002077 ! ecto-epithelial cell
+intersection_of: RO:0002202 CL:0000133 ! develops_from neurectodermal cell
+relationship: RO:0002202 CL:0000133 ! develops_from neurectodermal cell
+
+[Term]
+id: CL:0002076
+name: endo-epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
+relationship: RO:0002202 CL:0000223 ! develops_from endodermal cell
+
+[Term]
+id: CL:0002077
+name: ecto-epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
+intersection_of: CL:0000066 ! epithelial cell
+intersection_of: RO:0002202 CL:0000221 ! develops_from ectodermal cell
+relationship: RO:0002202 CL:0000221 ! develops_from ectodermal cell
+
+[Term]
+id: CL:0002251
+name: epithelial cell of alimentary canal
+is_a: CL:0002076 ! endo-epithelial cell
+intersection_of: CL:0000066 ! epithelial cell
+intersection_of: BFO:0000050 UBERON:0001555 ! part_of digestive tract
+relationship: BFO:0000050 UBERON:0001555 ! part_of digestive tract
+
+[Term]
+id: CL:0002319
+name: neural cell
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
+intersection_of: CL:0000000 ! cell
+intersection_of: BFO:0000050 UBERON:0001016 ! part_of nervous system
+relationship: BFO:0000050 UBERON:0001016 ! part_of nervous system
+
+[Term]
+id: CL:0002321
+name: embryonic cell
+is_a: CL:0000548 ! animal cell
+
+[Term]
+id: CL:0002368
+name: respiratory epithelial cell
+is_a: CL:0002076 {is_inferred="true"} ! endo-epithelial cell
+intersection_of: CL:0002076 ! endo-epithelial cell
+intersection_of: BFO:0000050 UBERON:0000065 ! part_of respiratory tract
+relationship: BFO:0000050 UBERON:0000065 ! part_of respiratory tract
+
+[Term]
+id: CL:0002371
+name: somatic cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:0002632
+name: epithelial cell of lower respiratory tract
+is_a: CL:0002368 {is_inferred="true"} ! respiratory epithelial cell
+intersection_of: CL:0002368 ! respiratory epithelial cell
+intersection_of: BFO:0000050 UBERON:0001558 ! part_of lower respiratory tract
+relationship: BFO:0000050 UBERON:0001558 ! part_of lower respiratory tract
+
+[Term]
+id: CL:0011115
+name: precursor cell
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:2000029
+name: central nervous system neuron
+is_a: CL:0000540 ! neuron
+intersection_of: CL:0000540 ! neuron
+intersection_of: BFO:0000050 UBERON:0001017 ! part_of central nervous system
+relationship: BFO:0000050 UBERON:0001017 ! part_of central nervous system
+
+[Term]
+id: CL:2000032
+name: peripheral nervous system neuron
+is_a: CL:0000540 ! neuron
+intersection_of: CL:0000540 ! neuron
+intersection_of: BFO:0000050 UBERON:0000010 ! part_of peripheral nervous system
+relationship: BFO:0000050 UBERON:0000010 ! part_of peripheral nervous system
+
+[Term]
+id: GO:0005575
+name: cellular_component
+is_a: BFO:0000030 ! object
+
+[Term]
+id: GO:0005622
+name: intracellular
+is_a: GO:0044424 ! intracellular part
+is_a: GO:0044464 ! cell part
+
+[Term]
+id: GO:0005623
+name: cell
+is_a: CARO:0000003 ! anatomical structure
+is_a: GO:0005575 ! cellular_component
+is_a: GO:0044464 ! cell part
+
+[Term]
+id: GO:0005856
+name: cytoskeleton
+is_a: GO:0043232 ! intracellular non-membrane-bounded organelle
+is_a: GO:0044430 ! cytoskeletal part
+
+[Term]
+id: GO:0005884
+name: actin filament
+is_a: GO:0099513 ! polymeric cytoskeletal fiber
+relationship: BFO:0000050 GO:0015629 ! part_of actin cytoskeleton
+
+[Term]
+id: GO:0005886
+name: plasma membrane
+is_a: GO:0005575 ! cellular_component
+is_a: GO:0016020 ! membrane
+is_a: GO:0044464 ! cell part
+is_a: GO:0098590 ! plasma membrane region
+relationship: BFO:0000050 GO:0071944 ! part_of cell periphery
+
+[Term]
+id: GO:0005902
+name: microvillus
+is_a: GO:0098858 ! actin-based cell projection
+relationship: BFO:0000051 GO:0032432 ! has_part actin filament bundle
+
+[Term]
+id: GO:0008150
+name: biological_process
+
+[Term]
+id: GO:0015629
+name: actin cytoskeleton
+is_a: GO:0005856 ! cytoskeleton
+
+[Term]
+id: GO:0016020
+name: membrane
+is_a: GO:0005575 ! cellular_component
+is_a: GO:0044425 ! membrane part
+
+[Term]
+id: GO:0032432
+name: actin filament bundle
+is_a: GO:0044430 ! cytoskeletal part
+relationship: BFO:0000050 GO:0015629 ! part_of actin cytoskeleton
+relationship: BFO:0000051 GO:0005884 ! has_part actin filament
+
+[Term]
+id: GO:0042995
+name: cell projection
+is_a: GO:0044463 ! cell projection part
+is_a: GO:0044464 ! cell part
+relationship: BFO:0000051 GO:0098590 ! has_part plasma membrane region
+
+[Term]
+id: GO:0043226
+name: organelle
+is_a: GO:0005575 ! cellular_component
+is_a: GO:0044422 ! organelle part
+
+[Term]
+id: GO:0043228
+name: non-membrane-bounded organelle
+is_a: GO:0043226 ! organelle
+
+[Term]
+id: GO:0043229
+name: intracellular organelle
+is_a: GO:0043226 ! organelle
+is_a: GO:0044424 ! intracellular part
+intersection_of: GO:0043226 ! organelle
+intersection_of: BFO:0000050 GO:0005622 ! part_of intracellular
+relationship: BFO:0000050 GO:0005622 ! part_of intracellular
+
+[Term]
+id: GO:0043232
+name: intracellular non-membrane-bounded organelle
+is_a: GO:0043228 ! non-membrane-bounded organelle
+is_a: GO:0043229 ! intracellular organelle
+intersection_of: GO:0043228 ! non-membrane-bounded organelle
+intersection_of: BFO:0000050 GO:0005622 ! part_of intracellular
+relationship: BFO:0000050 GO:0005622 ! part_of intracellular
+
+[Term]
+id: GO:0044422
+name: organelle part
+is_a: GO:0005575 ! cellular_component
+intersection_of: GO:0005575 ! cellular_component
+intersection_of: BFO:0000050 GO:0043226 ! part_of organelle
+relationship: BFO:0000050 GO:0043226 ! part_of organelle
+
+[Term]
+id: GO:0044424
+name: intracellular part
+is_a: GO:0044464 ! cell part
+intersection_of: GO:0005575 ! cellular_component
+intersection_of: BFO:0000050 GO:0005622 ! part_of intracellular
+relationship: BFO:0000050 GO:0005622 ! part_of intracellular
+
+[Term]
+id: GO:0044425
+name: membrane part
+is_a: GO:0005575 ! cellular_component
+intersection_of: GO:0005575 ! cellular_component
+intersection_of: BFO:0000050 GO:0016020 ! part_of membrane
+relationship: BFO:0000050 GO:0016020 ! part_of membrane
+
+[Term]
+id: GO:0044430
+name: cytoskeletal part
+is_a: GO:0044446 ! intracellular organelle part
+intersection_of: GO:0005575 ! cellular_component
+intersection_of: BFO:0000050 GO:0005856 ! part_of cytoskeleton
+relationship: BFO:0000050 GO:0005856 ! part_of cytoskeleton
+
+[Term]
+id: GO:0044446
+name: intracellular organelle part
+is_a: GO:0044422 ! organelle part
+is_a: GO:0044424 ! intracellular part
+relationship: BFO:0000050 GO:0043229 ! part_of intracellular organelle
+
+[Term]
+id: GO:0044459
+name: plasma membrane part
+is_a: GO:0044425 ! membrane part
+is_a: GO:0044464 ! cell part
+intersection_of: GO:0005575 ! cellular_component
+intersection_of: BFO:0000050 GO:0005886 ! part_of plasma membrane
+relationship: BFO:0000050 GO:0005886 ! part_of plasma membrane
+
+[Term]
+id: GO:0044463
+name: cell projection part
+is_a: GO:0044464 ! cell part
+intersection_of: GO:0005575 ! cellular_component
+intersection_of: BFO:0000050 GO:0042995 ! part_of cell projection
+relationship: BFO:0000050 GO:0042995 ! part_of cell projection
+
+[Term]
+id: GO:0044464
+name: cell part
+is_a: CARO:0000014 ! cell part
+is_a: GO:0005575 ! cellular_component
+intersection_of: GO:0005575 ! cellular_component
+intersection_of: BFO:0000050 GO:0005623 ! part_of cell
+relationship: BFO:0000050 GO:0005623 ! part_of cell
+
+[Term]
+id: GO:0071944
+name: cell periphery
+is_a: GO:0044464 ! cell part
+
+[Term]
+id: GO:0098590
+name: plasma membrane region
+is_a: GO:0016020 ! membrane
+is_a: GO:0044459 ! plasma membrane part
+intersection_of: GO:0016020 ! membrane
+intersection_of: BFO:0000050 GO:0005886 ! part_of plasma membrane
+relationship: BFO:0000050 GO:0005886 ! part_of plasma membrane
+
+[Term]
+id: GO:0098858
+name: actin-based cell projection
+is_a: GO:0042995 ! cell projection
+relationship: BFO:0000051 GO:0005884 ! has_part actin filament
+
+[Term]
+id: GO:0099080
+name: supramolecular complex
+is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: GO:0099081
+name: supramolecular polymer
+is_a: GO:0099080 ! supramolecular complex
+
+[Term]
+id: GO:0099512
+name: supramolecular fiber
+is_a: GO:0099081 ! supramolecular polymer
+
+[Term]
+id: GO:0099513
+name: polymeric cytoskeletal fiber
+is_a: GO:0044430 ! cytoskeletal part
+is_a: GO:0099512 ! supramolecular fiber
+relationship: BFO:0000050 GO:0005856 ! part_of cytoskeleton
+
+[Term]
+id: UBERON:0000010
+name: peripheral nervous system
+def: "A major division of the nervous system that contains nerves which connect the central nervous system (CNS) with sensory organs, other organs, muscles, blood vessels and glands." []
+synonym: "lateral part of the basal amygdalar nucleus" RELATED []
+synonym: "lateral part of the basolateral nucleus" RELATED []
+synonym: "nucleus amygdalae basalis, pars lateralis" RELATED []
+synonym: "nucleus amygdaloideus basalis, pars lateralis magnocellularis" RELATED []
+synonym: "nucleus basalis lateralis amygdalae" RELATED []
+synonym: "pars peripherica" EXACT []
+synonym: "pars peripherica; systema nervosum periphericum" RELATED []
+synonym: "PNS" RELATED []
+synonym: "systema nervosum periphericum" EXACT []
+is_a: UBERON:0011216 ! organ system subdivision
+relationship: BFO:0000050 UBERON:0001016 ! part_of nervous system
+
+[Term]
+id: UBERON:0000025
+name: tube
+def: "Any hollow cylindrical anatomical structure containing a lumen through which substances are transported." []
+synonym: "anatomical tube" EXACT []
+synonym: "duct" NARROW []
+is_a: UBERON:0004111 ! anatomical conduit
+
+[Term]
+id: UBERON:0000061
+name: anatomical structure
+def: "Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome." []
+synonym: "biological structure" EXACT []
+synonym: "connected biological structure" EXACT []
+is_a: UBERON:0000465 ! material anatomical entity
+
+[Term]
+id: UBERON:0000062
+name: organ
+def: "Anatomical structure that performs a specific function or group of functions [WP]." []
+synonym: "anatomical unit" RELATED []
+synonym: "body organ" RELATED []
+synonym: "element" RELATED []
+is_a: UBERON:0010000 ! multicellular anatomical structure
+relationship: BFO:0000050 UBERON:0000467 ! part_of anatomical system
+
+[Term]
+id: UBERON:0000064
+name: organ part
+def: "A multicellular structure that is a part of an organ." []
+synonym: "cardinal organ part" EXACT []
+synonym: "regional part of organ" RELATED []
+is_a: UBERON:0010000 ! multicellular anatomical structure
+relationship: BFO:0000050 UBERON:0000062 ! part_of organ
+
+[Term]
+id: UBERON:0000065
+name: respiratory tract
+def: "Anatomical structure that is part of the respiratory system. In mammals consists of upper and lower tracts" []
+is_a: UBERON:0001005 ! respiratory airway
+is_a: UBERON:0004119 ! endoderm-derived structure
+relationship: BFO:0000050 UBERON:0001004 ! part_of respiratory system
+relationship: RO:0002202 UBERON:0007026 ! develops_from presumptive gut
+relationship: RO:0002202 UBERON:0008947 ! develops_from respiratory primordium
+
+[Term]
+id: UBERON:0000072
+name: proximo-distal subdivision of respiratory tract
+def: "An section of a respiratory tract." []
+synonym: "respiratory tract" RELATED []
+synonym: "subdivision of respiratory tract" RELATED []
+is_a: UBERON:0004119 ! endoderm-derived structure
+is_a: UBERON:0013522 ! subdivision of tube
+intersection_of: UBERON:0013522 ! subdivision of tube
+intersection_of: BFO:0000050 UBERON:0000065 ! part_of respiratory tract
+relationship: BFO:0000050 UBERON:0000065 ! part_of respiratory tract
+
+[Term]
+id: UBERON:0000115
+name: lung epithelium
+def: "The epithelial layer of the lung." []
+synonym: "epithelial tissue of lung" EXACT []
+synonym: "epithelium of lung" EXACT []
+synonym: "lung epithelial tissue" EXACT []
+synonym: "pulmonary epithelium" RELATED []
+is_a: UBERON:0004815 ! lower respiratory tract epithelium
+intersection_of: UBERON:0000483 ! epithelium
+intersection_of: BFO:0000050 UBERON:0002048 ! part_of lung
+relationship: BFO:0000050 UBERON:0002048 ! part_of lung
+relationship: RO:0002202 UBERON:0001041 ! develops_from foregut
+
+[Term]
+id: UBERON:0000117
+name: respiratory tube
+def: "A tube in the respiratory system. Examples: bronchus, bronchiole, trachea." []
+synonym: "respiratory conducting tube" NARROW []
+synonym: "segment of tracheobronchial tree" EXACT []
+synonym: "segment of tracheobronchial tree" NARROW []
+synonym: "tracheobronchial tree segment" NARROW []
+is_a: UBERON:0000025 ! tube
+is_a: UBERON:0004119 ! endoderm-derived structure
+intersection_of: UBERON:0000025 ! tube
+intersection_of: BFO:0000050 UBERON:0000065 ! part_of respiratory tract
+relationship: BFO:0000050 UBERON:0000065 ! part_of respiratory tract
+
+[Term]
+id: UBERON:0000118
+name: lung bud
+def: "Structure derived from foregut that becomes a lung[GO]." []
+synonym: "gemma pulmonalis" RELATED []
+synonym: "gemma respiratoria" RELATED []
+synonym: "lung bud" RELATED []
+synonym: "primary lung bud" RELATED []
+synonym: "respiratory diverticulum" RELATED []
+is_a: UBERON:0005153 ! epithelial bud
+is_a: UBERON:0005911 ! endo-epithelium
+relationship: RO:0002202 UBERON:0005597 ! develops_from lung primordium
+relationship: RO:0002202 UBERON:0008947 ! develops_from respiratory primordium
+
+[Term]
+id: UBERON:0000170
+name: pair of lungs
+def: "The pair of anatomical structures comprised of a left lung and right lung." []
+synonym: "lungs" EXACT []
+synonym: "lungs pair" EXACT []
+synonym: "pulmones" EXACT []
+synonym: "set of lungs" EXACT []
+is_a: UBERON:0034925 ! anatomical collection
+relationship: BFO:0000050 UBERON:0001558 ! part_of lower respiratory tract
+
+[Term]
+id: UBERON:0000171
+name: respiration organ
+def: "Organ that functions in gaseous exchange between an organism and its environment. In plants, microorganisms, and many small animals, air or water makes direct contact with the organism's cells or tissue fluids, and the processes of diffusion supply the organism with dioxygen (O2) and remove carbon dioxide (CO2). In larger animals the efficiency of gaseous exchange is improved by specialized respiratory organs, such as lungs and gills, which are ventilated by breathing mechanisms." []
+synonym: "apparatus respiratorius organ" EXACT []
+synonym: "breathing organ" EXACT []
+synonym: "gas exchange organ" RELATED []
+synonym: "organ of apparatus respiratorius" EXACT []
+synonym: "organ of respiratory system" EXACT []
+synonym: "respiratory organ" EXACT []
+synonym: "respiratory system organ" EXACT []
+is_a: UBERON:0000062 ! organ
+relationship: BFO:0000050 UBERON:0001004 ! part_of respiratory system
+
+[Term]
+id: UBERON:0000465
+name: material anatomical entity
+def: "Anatomical entity that has mass." []
+is_a: UBERON:0001062 ! anatomical entity
+
+[Term]
+id: UBERON:0000467
+name: anatomical system
+def: "Multicellular, connected anatomical structure that has multiple organs as parts and whose parts work together to achieve some shared function." []
+synonym: "anatomical systems" RELATED []
+synonym: "body system" EXACT []
+synonym: "connected anatomical system" EXACT []
+synonym: "organ system" EXACT []
+synonym: "system" BROAD []
+is_a: UBERON:0000061 ! anatomical structure
+relationship: BFO:0000050 UBERON:0000468 ! part_of multicellular organism
+
+[Term]
+id: UBERON:0000468
+name: multicellular organism
+def: "Anatomical structure that is an individual member of a species and consists of more than one cell." []
+synonym: "animal" NARROW []
+synonym: "body" RELATED []
+synonym: "Koerper" RELATED []
+synonym: "multi-cellular organism" EXACT []
+synonym: "organism" EXACT []
+synonym: "whole body" RELATED []
+synonym: "whole organism" EXACT []
+is_a: UBERON:0010000 ! multicellular anatomical structure
+
+[Term]
+id: UBERON:0000475
+name: organism subdivision
+def: "Anatomical structure which is a subdivision of a whole organism, consisting of components of multiple anatomical systems, largely surrounded by a contiguous region of integument." []
+synonym: "anatomic region" EXACT []
+synonym: "body part" RELATED []
+synonym: "body region" RELATED []
+synonym: "cardinal body part" RELATED []
+is_a: UBERON:0010000 ! multicellular anatomical structure
+relationship: BFO:0000050 UBERON:0000468 ! part_of multicellular organism
+
+[Term]
+id: UBERON:0000479
+name: tissue
+def: "Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation." []
+synonym: "portion of tissue" EXACT []
+synonym: "simple tissue" NARROW []
+synonym: "tissue portion" EXACT []
+is_a: UBERON:0010000 ! multicellular anatomical structure
+relationship: BFO:0000050 UBERON:0000468 ! part_of multicellular organism
+
+[Term]
+id: UBERON:0000483
+name: epithelium
+def: "Portion of tissue, that consists of one or more layers of epithelial cells connected to each other by cell junctions and which is underlain by a basal lamina. Examples: simple squamous epithelium, glandular cuboidal epithelium, transitional epithelium, myoepithelium[CARO]." []
+synonym: "epithelial tissue" EXACT []
+synonym: "portion of epithelium" EXACT []
+is_a: UBERON:0000479 ! tissue
+union_of: UBERON:0000486 ! multilaminar epithelium
+union_of: UBERON:0000490 ! unilaminar epithelium
+
+[Term]
+id: UBERON:0000485
+name: simple columnar epithelium
+def: "Unilaminar epithelium, which consists of a single layer of columnar cells. Examples: ciliated columnar epithelium, gastric epithelium, microvillus columnar epithelium.[FMA]" []
+synonym: "columnar epithelium" BROAD []
+synonym: "columnar epithlium" BROAD []
+synonym: "epithelium simplex columnare" EXACT []
+synonym: "simple columnar epithelia" RELATED []
+synonym: "simple columnar epithelium" EXACT []
+is_a: UBERON:0000490 ! unilaminar epithelium
+is_a: UBERON:0012274 ! columnar epithelium
+
+[Term]
+id: UBERON:0000486
+name: multilaminar epithelium
+def: "Epithelium which consists of more than one layer of epithelial cells that may or may not be in contact with a basement membrane. Examples: keratinized stratified squamous epithelium, ciliated stratified columnar epithelium.[FMA]" []
+synonym: "laminated epithelium" RELATED []
+synonym: "stratified epithelium" EXACT []
+is_a: UBERON:0000483 ! epithelium
+
+[Term]
+id: UBERON:0000490
+name: unilaminar epithelium
+def: "Epithelium which consists of a single layer of epithelial cells. Examples: endothelium, mesothelium, glandular squamous epithelium.[FMA]" []
+synonym: "simple epithelium" EXACT []
+synonym: "unilaminar epithelia" RELATED []
+is_a: UBERON:0000483 ! epithelium
+
+[Term]
+id: UBERON:0000915
+name: thoracic segment of trunk
+def: "Subdivision of trunk that lies between the head and the abdomen." []
+synonym: "anterior subdivision of trunk" RELATED []
+synonym: "thorax" EXACT []
+synonym: "upper body" RELATED []
+synonym: "upper trunk" RELATED []
+is_a: UBERON:0009569 ! subdivision of trunk
+is_a: UBERON:0011676 ! subdivision of organism along main body axis
+
+[Term]
+id: UBERON:0000922
+name: embryo
+def: "Anatomical entity that comprises the organism in the early stages of growth and differentiation that are characterized by cleavage, the laying down of fundamental tissues, and the formation of primitive organs and organ systems. For example, for mammals, the process would begin with zygote formation and end with birth. For insects, the process would begin at zygote formation and end with larval hatching. For plant zygotic embryos, this would be from zygote formation to the end of seed dormancy. For plant vegetative embryos, this would be from the initial determination of the cell or group of cells to form an embryo until the point when the embryo becomes independent of the parent plant." []
+synonym: "developing organism" RELATED []
+synonym: "developmental tissue" RELATED []
+synonym: "embryonic organism" EXACT []
+is_a: UBERON:0000468 ! multicellular organism
+is_a: UBERON:0002050 ! embryonic structure
+
+[Term]
+id: UBERON:0000923
+name: germ layer
+def: "A layer of cells produced during the process of gastrulation during the early development of the animal embryo, which is distinct from other such layers of cells, as an early step of cell differentiation. The three types of germ layers are the endoderm, ectoderm, and mesoderm." []
+synonym: "embryonic germ layer" RELATED []
+synonym: "embryonic germ layers" RELATED []
+synonym: "embryonic tissue" BROAD []
+synonym: "germinal layer" EXACT []
+synonym: "primary germ layer" NARROW []
+is_a: UBERON:0010316 ! germ layer / neural crest
+relationship: BFO:0000050 UBERON:0000922 ! part_of embryo
+relationship: RO:0002202 UBERON:0002532 ! develops_from epiblast (generic)
+
+[Term]
+id: UBERON:0000924
+name: ectoderm
+def: "Primary germ layer that is the outer of the embryo's three germ layers and gives rise to epidermis and neural tissue." []
+synonym: "embryonic ectoderm" EXACT []
+is_a: UBERON:0000923 ! germ layer
+
+[Term]
+id: UBERON:0000925
+name: endoderm
+def: "Primary germ layer that lies remote from the surface of the embryo and gives rise to internal tissues such as gut." []
+synonym: "entoderm" RELATED []
+is_a: UBERON:0000923 ! germ layer
+
+[Term]
+id: UBERON:0001004
+name: respiratory system
+def: "Functional system which consists of structures involved in respiration." []
+synonym: "apparatus respiratorius" EXACT []
+synonym: "apparatus respiratorius" RELATED []
+synonym: "Atmungssystem" RELATED []
+synonym: "respiratory system" EXACT []
+synonym: "systema respiratorium" RELATED []
+is_a: UBERON:0000467 ! anatomical system
+disjoint_from: UBERON:0001007 ! digestive system
+disjoint_from: UBERON:0001016 ! nervous system
+
+[Term]
+id: UBERON:0001005
+name: respiratory airway
+def: "An airway through which respiratory air passes in organisms." []
+synonym: "airway" BROAD []
+synonym: "airways" BROAD []
+is_a: UBERON:0003103 ! compound organ
+relationship: BFO:0000050 UBERON:0001004 ! part_of respiratory system
+
+[Term]
+id: UBERON:0001007
+name: digestive system
+def: "Anatomical system that has as its parts the organs devoted to the ingestion, digestion, and assimilation of food and the discharge of residual wastes." []
+synonym: "alimentary system" RELATED []
+synonym: "alimentary tract" RELATED []
+synonym: "gastrointestinal system" RELATED []
+synonym: "gut" RELATED []
+is_a: UBERON:0000467 ! anatomical system
+disjoint_from: UBERON:0001016 ! nervous system
+
+[Term]
+id: UBERON:0001016
+name: nervous system
+def: "The nervous system is an organ system containing predominantly neuron and glial cells. In bilaterally symmetrical organism, it is arranged in a network of tree-like structures connected to a central body. The main functions of the nervous system are to regulate and control body functions, and to receive sensory input, process this information, and generate behavior [CUMBO]." []
+synonym: "nerve net" NARROW []
+synonym: "neurological system" EXACT []
+synonym: "systema nervosum" RELATED []
+is_a: UBERON:0000467 ! anatomical system
+
+[Term]
+id: UBERON:0001017
+name: central nervous system
+def: "The central nervous system is the core nervous system that serves an integrating and coordinating function. In vertebrates it consists of the neural tube derivatives: the brain and spinal cord. In invertebrates it includes central ganglia plus nerve cord." []
+synonym: "cerebrospinal axis" NARROW []
+synonym: "CNS" EXACT []
+synonym: "neuraxis" RELATED []
+synonym: "systema nervosum centrale" EXACT []
+is_a: UBERON:0004121 ! ectoderm-derived structure
+is_a: UBERON:0011216 ! organ system subdivision
+relationship: BFO:0000050 UBERON:0001016 ! part_of nervous system
+
+[Term]
+id: UBERON:0001041
+name: foregut
+def: "Anterior subdivision of a digestive tract." []
+synonym: "praeenteron" RELATED []
+synonym: "proenteron" RELATED []
+is_a: UBERON:0004921 ! subdivision of digestive tract
+
+[Term]
+id: UBERON:0001048
+name: primordium
+def: "Primordia are populations of contiguous cells that are morphologically distinct and already correspond in extent to a later organ/tissue[FBbt, Hartenstein, V. (2004)]." []
+synonym: "bud" RELATED []
+synonym: "future organ" RELATED []
+synonym: "placode" RELATED []
+synonym: "primordia" RELATED []
+synonym: "rudiment" RELATED []
+is_a: UBERON:0005423 ! developing anatomical structure
+relationship: BFO:0000050 UBERON:0000468 ! part_of multicellular organism
+
+[Term]
+id: UBERON:0001062
+name: anatomical entity
+def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species." []
+
+[Term]
+id: UBERON:0001555
+name: digestive tract
+def: "A tube extending from the mouth to the anus." []
+synonym: "alimentary canal" NARROW []
+synonym: "alimentary tract" NARROW []
+synonym: "digestive canal" RELATED []
+synonym: "digestive tube" EXACT []
+synonym: "enteric tract" EXACT []
+synonym: "gut" BROAD []
+synonym: "gut tube" RELATED []
+is_a: UBERON:0000025 ! tube
+relationship: BFO:0000050 UBERON:0001007 ! part_of digestive system
+
+[Term]
+id: UBERON:0001558
+name: lower respiratory tract
+def: "The segment of the respiratory tract that starts proximally with the trachea and includes all distal structures including the lungs[WP,modified]" []
+is_a: UBERON:0000072 ! proximo-distal subdivision of respiratory tract
+
+[Term]
+id: UBERON:0002048
+name: lung
+def: "Respiration organ that develops as an oupocketing of the esophagus." []
+synonym: "pulmo" EXACT []
+is_a: UBERON:0000171 ! respiration organ
+is_a: UBERON:0004119 ! endoderm-derived structure
+is_a: UBERON:0005178 ! thoracic cavity element
+is_a: UBERON:0015212 ! lateral structure
+relationship: BFO:0000050 UBERON:0000170 ! part_of pair of lungs
+relationship: RO:0002202 UBERON:0000118 ! develops_from lung bud
+
+[Term]
+id: UBERON:0002050
+name: embryonic structure
+def: "Anatomical structure that is part of an embryo." []
+synonym: "developing embryonic structure" EXACT []
+synonym: "developing structure" RELATED []
+synonym: "embryonale Struktur" RELATED []
+synonym: "embryonic anatomical structure" EXACT []
+synonym: "embryonic structures" RELATED []
+is_a: UBERON:0000061 ! anatomical structure
+is_a: UBERON:0005423 ! developing anatomical structure
+intersection_of: UBERON:0000061 ! anatomical structure
+intersection_of: BFO:0000050 UBERON:0000922 ! part_of embryo
+relationship: BFO:0000050 UBERON:0000922 ! part_of embryo
+
+[Term]
+id: UBERON:0002100
+name: trunk
+def: "Organism subdivision which is the part of the body posterior to the cervical region (or head, when cervical region not present) and anterior to the caudal region. Includes the sacrum when present." []
+synonym: "Rumpf" RELATED []
+synonym: "thoracolumbar region" EXACT []
+synonym: "torso" EXACT []
+synonym: "trunk region" EXACT []
+is_a: UBERON:0011676 ! subdivision of organism along main body axis
+relationship: BFO:0000050 UBERON:0013702 ! part_of body proper
+
+[Term]
+id: UBERON:0002167
+name: right lung
+def: "Lung which consists of the right upper lobe, middle lobe and right lower lobe.[FMA]" []
+is_a: UBERON:0002048 ! lung
+
+[Term]
+id: UBERON:0002168
+name: left lung
+def: "Lung which consists of the left upper lobe and left lower lobe.[FMA]" []
+is_a: UBERON:0002048 ! lung
+
+[Term]
+id: UBERON:0002532
+name: epiblast (generic)
+def: "In amniote animal embryology, the epiblast is a tissue type derived either from the inner cell mass in mammals or the blastodisc in birds and reptiles. It lies above the hypoblast. In mammalian embryogenesis, the columnar cells of the epiblast are adjacent to the trophoblast, while the cuboidal cells of the hypoblast are closer to the blastocoele. The epiblast, whilst referred to as the primary ectoderm, differentiates to form all three layers of the trilaminar germ disc in a process called gastrulation[WP]. The outer of the two layers of the blastoderm that form during gastrulation, corresponding to primitive ectoderm during gastrulation and to the definitive ectoderm after gastrulation[ZFA]" []
+synonym: "blastocyst" RELATED []
+synonym: "ectoblast" RELATED []
+synonym: "epiblast" EXACT []
+synonym: "epiblastus" RELATED []
+synonym: "primitive ectoderm" RELATED []
+is_a: UBERON:0002050 ! embryonic structure
+
+[Term]
+id: UBERON:0003103
+name: compound organ
+def: "Anatomical structure that has as its parts two or more multi-tissue structures of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona fide boundaries from other distinct anatomical structures of different types." []
+synonym: "organ" RELATED []
+is_a: UBERON:0000062 ! organ
+
+[Term]
+id: UBERON:0003258
+name: endoderm of foregut
+def: "An endoderm that is part of a foregut [Automatically generated definition]." []
+synonym: "foregut endoderm" EXACT []
+is_a: UBERON:0000490 ! unilaminar epithelium
+is_a: UBERON:0005911 ! endo-epithelium
+is_a: UBERON:0015833 ! foregut epithelium
+intersection_of: UBERON:0000490 ! unilaminar epithelium
+intersection_of: BFO:0000050 UBERON:0001041 ! part_of foregut
+intersection_of: RO:0002202 UBERON:0000925 ! develops_from endoderm
+relationship: BFO:0000050 UBERON:0001041 ! part_of foregut
+relationship: RO:0002202 UBERON:0000925 ! develops_from endoderm
+
+[Term]
+id: UBERON:0003364
+name: epithelium of right lung
+def: "An epithelium that is part of a right lung [Automatically generated definition]." []
+synonym: "epithelial tissue of right lung" EXACT []
+synonym: "right lung epithelial tissue" EXACT []
+synonym: "right lung epithelium" EXACT []
+is_a: UBERON:0000115 ! lung epithelium
+intersection_of: UBERON:0000483 ! epithelium
+intersection_of: BFO:0000050 UBERON:0002167 ! part_of right lung
+relationship: BFO:0000050 UBERON:0002167 ! part_of right lung
+
+[Term]
+id: UBERON:0003365
+name: epithelium of left lung
+def: "An epithelium that is part of a left lung [Automatically generated definition]." []
+synonym: "epithelial tissue of left lung" EXACT []
+synonym: "left lung epithelial tissue" EXACT []
+synonym: "left lung epithelium" EXACT []
+is_a: UBERON:0000115 ! lung epithelium
+intersection_of: UBERON:0000483 ! epithelium
+intersection_of: BFO:0000050 UBERON:0002168 ! part_of left lung
+relationship: BFO:0000050 UBERON:0002168 ! part_of left lung
+
+[Term]
+id: UBERON:0003929
+name: digestive tract epithelium
+def: "An epithelium that lines the lumen of the digestive tract." []
+synonym: "alimentary tract epithelium" RELATED []
+synonym: "digestive tract epithelial tissue" EXACT []
+synonym: "epithelial tissue of digestive tract" EXACT []
+synonym: "epithelial tissue of gut" EXACT []
+synonym: "epithelium of digestive tract" EXACT []
+synonym: "epithelium of gut" EXACT []
+synonym: "gastrodermis" EXACT []
+synonym: "gut epithelial tissue" EXACT []
+synonym: "gut epithelium" EXACT []
+is_a: UBERON:0000483 ! epithelium
+intersection_of: UBERON:0000483 ! epithelium
+intersection_of: BFO:0000050 UBERON:0001555 ! part_of digestive tract
+relationship: BFO:0000050 UBERON:0001555 ! part_of digestive tract
+
+[Term]
+id: UBERON:0004111
+name: anatomical conduit
+def: "Any tube, opening or passage that connects two distinct anatomical spaces." []
+synonym: "foramen" NARROW []
+synonym: "foramina" NARROW []
+synonym: "opening" RELATED []
+synonym: "ostia" RELATED []
+synonym: "ostium" RELATED []
+is_a: UBERON:0010000 ! multicellular anatomical structure
+
+[Term]
+id: UBERON:0004119
+name: endoderm-derived structure
+def: "An anatomical structure that develops (entirely or partially) from the endoderm." []
+is_a: UBERON:0000061 ! anatomical structure
+intersection_of: UBERON:0000061 ! anatomical structure
+intersection_of: RO:0002202 UBERON:0000925 ! develops_from endoderm
+relationship: RO:0002202 UBERON:0000925 ! develops_from endoderm
+
+[Term]
+id: UBERON:0004121
+name: ectoderm-derived structure
+def: "An anatomical structure that develops (entirely or partially) from the ectoderm." []
+is_a: UBERON:0000061 ! anatomical structure
+intersection_of: UBERON:0000061 ! anatomical structure
+intersection_of: RO:0002202 UBERON:0000924 ! develops_from ectoderm
+relationship: RO:0002202 UBERON:0000924 ! develops_from ectoderm
+
+[Term]
+id: UBERON:0004185
+name: endodermal part of digestive tract
+def: "A portions of the gut that is derived from endoderm." []
+synonym: "endodermal gut" EXACT []
+synonym: "gut endoderm" EXACT []
+is_a: UBERON:0004119 ! endoderm-derived structure
+is_a: UBERON:0004921 ! subdivision of digestive tract
+intersection_of: UBERON:0004921 ! subdivision of digestive tract
+intersection_of: BFO:0000050 UBERON:0001555 ! part_of digestive tract
+intersection_of: RO:0002202 UBERON:0000925 ! develops_from endoderm
+relationship: BFO:0000050 UBERON:0001555 ! part_of digestive tract
+relationship: RO:0002202 UBERON:0000925 ! develops_from endoderm
+
+[Term]
+id: UBERON:0004802
+name: respiratory tract epithelium
+def: "the pseudostratified ciliated epithelium that lines much of the conducting portion of the airway, including part of the nasal cavity and larynx, the trachea, and bronchi" []
+synonym: "airway epithelium" RELATED []
+synonym: "epithelial tissue of respiratory tract" EXACT []
+synonym: "epithelium of respiratory tract" EXACT []
+synonym: "respiratory epithelium" RELATED []
+synonym: "respiratory tract epithelial tissue" EXACT []
+is_a: UBERON:0004807 ! respiratory system epithelium
+is_a: UBERON:0005911 ! endo-epithelium
+is_a: UBERON:0010499 ! pseudostratified ciliated columnar epithelium
+intersection_of: UBERON:0000483 ! epithelium
+intersection_of: BFO:0000050 UBERON:0000065 ! part_of respiratory tract
+relationship: BFO:0000050 UBERON:0000065 ! part_of respiratory tract
+relationship: BFO:0000050 UBERON:0000072 ! part_of proximo-distal subdivision of respiratory tract
+
+[Term]
+id: UBERON:0004807
+name: respiratory system epithelium
+def: "An epithelium that is part of a respiratory system [Automatically generated definition]." []
+synonym: "apparatus respiratorius epithelial tissue" EXACT []
+synonym: "apparatus respiratorius epithelium" EXACT []
+synonym: "epithelial tissue of apparatus respiratorius" EXACT []
+synonym: "epithelial tissue of respiratory system" EXACT []
+synonym: "epithelium of apparatus respiratorius" EXACT []
+synonym: "epithelium of respiratory system" EXACT []
+synonym: "respiratory system epithelial tissue" EXACT []
+is_a: UBERON:0000483 ! epithelium
+intersection_of: UBERON:0000483 ! epithelium
+intersection_of: BFO:0000050 UBERON:0001004 ! part_of respiratory system
+relationship: BFO:0000050 UBERON:0001004 ! part_of respiratory system
+
+[Term]
+id: UBERON:0004815
+name: lower respiratory tract epithelium
+def: "An epithelium that is part of a lower respiratory tract [Automatically generated definition]." []
+synonym: "epithelial tissue of lower respiratory tract" EXACT []
+synonym: "epithelium of lower respiratory tract" EXACT []
+synonym: "lower respiratory tract epithelial tissue" EXACT []
+is_a: UBERON:0004802 ! respiratory tract epithelium
+intersection_of: UBERON:0000483 ! epithelium
+intersection_of: BFO:0000050 UBERON:0001558 ! part_of lower respiratory tract
+relationship: BFO:0000050 UBERON:0001558 ! part_of lower respiratory tract
+
+[Term]
+id: UBERON:0004906
+name: ectodermal part of digestive tract
+def: "A portion of the gut that is derived from ectoderm." []
+synonym: "ectodermal gut" EXACT []
+synonym: "gut ectoderm" EXACT []
+is_a: UBERON:0004121 ! ectoderm-derived structure
+is_a: UBERON:0004921 ! subdivision of digestive tract
+intersection_of: UBERON:0004921 ! subdivision of digestive tract
+intersection_of: BFO:0000050 UBERON:0001555 ! part_of digestive tract
+intersection_of: RO:0002202 UBERON:0000924 ! develops_from ectoderm
+relationship: BFO:0000050 UBERON:0001555 ! part_of digestive tract
+relationship: RO:0002202 UBERON:0000924 ! develops_from ectoderm
+
+[Term]
+id: UBERON:0004921
+name: subdivision of digestive tract
+def: "A proximal-distal subdivision of the digestive tract." []
+synonym: "alimentary system subdivision" RELATED []
+synonym: "intestinal tract" RELATED []
+synonym: "segment of intestinal tract" RELATED []
+synonym: "subdivision of alimentary system" RELATED []
+is_a: UBERON:0013522 ! subdivision of tube
+relationship: BFO:0000050 UBERON:0001555 ! part_of digestive tract
+
+[Term]
+id: UBERON:0005153
+name: epithelial bud
+def: "A bud is a protrusion that forms from an epithelial sheet by localized folding." []
+is_a: UBERON:0005157 ! epithelial fold
+
+[Term]
+id: UBERON:0005157
+name: epithelial fold
+def: "An epithelial sheet bent on a linear axis." []
+is_a: UBERON:0000483 ! epithelium
+
+[Term]
+id: UBERON:0005177
+name: trunk region element
+def: "An organ or element that part of the trunk region. The trunk region can be further subdividied into thoracic (including chest and thoracic cavity) and abdominal (including abdomen and pelbis) regions." []
+synonym: "trunk organ" EXACT []
+is_a: UBERON:0000062 ! organ
+intersection_of: UBERON:0000062 ! organ
+intersection_of: BFO:0000050 UBERON:0002100 ! part_of trunk
+relationship: BFO:0000050 UBERON:0002100 ! part_of trunk
+
+[Term]
+id: UBERON:0005178
+name: thoracic cavity element
+def: "An organ or element that is in the thoracic cavity. Examples: lung, heart, longus colli." []
+synonym: "thoracic cavity organ" EXACT []
+is_a: UBERON:0005181 ! thoracic segment organ
+relationship: BFO:0000050 UBERON:0000915 ! part_of thoracic segment of trunk
+
+[Term]
+id: UBERON:0005181
+name: thoracic segment organ
+def: "An organ that part of the thoracic segment region. This region can be further subdividied chest and thoracic cavity regions." []
+synonym: "upper body organ" RELATED []
+is_a: UBERON:0005177 ! trunk region element
+intersection_of: UBERON:0000062 ! organ
+intersection_of: BFO:0000050 UBERON:0000915 ! part_of thoracic segment of trunk
+relationship: BFO:0000050 UBERON:0000915 ! part_of thoracic segment of trunk
+
+[Term]
+id: UBERON:0005291
+name: embryonic tissue
+def: "A portion of tissue that is part of an embryo." []
+synonym: "developing tissue" RELATED []
+synonym: "portion of embryonic tissue" EXACT []
+is_a: UBERON:0000479 ! tissue
+is_a: UBERON:0002050 ! embryonic structure
+intersection_of: UBERON:0000479 ! tissue
+intersection_of: BFO:0000050 UBERON:0000922 ! part_of embryo
+relationship: BFO:0000050 UBERON:0000922 ! part_of embryo
+relationship: BFO:0000050 UBERON:0002050 ! part_of embryonic structure
+
+[Term]
+id: UBERON:0005423
+name: developing anatomical structure
+synonym: "developing structure" RELATED []
+synonym: "developmental structure" RELATED []
+synonym: "developmental tissue" RELATED []
+is_a: UBERON:0000465 ! material anatomical entity
+
+[Term]
+id: UBERON:0005597
+name: lung primordium
+def: "A pair of lateral diverticula just over the liver rudiment representing the primordia of the lungs, formed by the floor of the foregut just anterior to the liver diverticulum." []
+synonym: "lateral diverticula" RELATED []
+synonym: "lung diverticulum" RELATED []
+synonym: "lung endoderm" RELATED []
+is_a: UBERON:0001048 ! primordium
+relationship: BFO:0000050 UBERON:0008947 ! part_of respiratory primordium
+relationship: RO:0002202 UBERON:0001041 ! develops_from foregut
+
+[Term]
+id: UBERON:0005911
+name: endo-epithelium
+def: "Epithelium that derives from the endoderm. Examples: urothelium, transitional epithelium of ureter, epithelium of prostatic gland.[FMA]" []
+synonym: "endoderm-derived epithelium" EXACT []
+synonym: "endoepithelium" EXACT []
+is_a: UBERON:0000483 ! epithelium
+is_a: UBERON:0004119 ! endoderm-derived structure
+intersection_of: UBERON:0000483 ! epithelium
+intersection_of: RO:0002202 UBERON:0000925 ! develops_from endoderm
+relationship: RO:0002202 UBERON:0000925 ! develops_from endoderm
+
+[Term]
+id: UBERON:0006598
+name: presumptive structure
+def: "Portion of embryonic tissue determined by fate mapping to become a structure." []
+synonym: "future structure" EXACT []
+synonym: "presumptive structures" EXACT []
+is_a: UBERON:0005423 ! developing anatomical structure
+relationship: BFO:0000050 UBERON:0000922 ! part_of embryo
+
+[Term]
+id: UBERON:0007026
+name: presumptive gut
+synonym: "embryonic digestive tube" RELATED []
+synonym: "future digestive tract" EXACT []
+synonym: "future digestive tube" EXACT []
+synonym: "future gut" EXACT []
+synonym: "primitive gut" EXACT []
+synonym: "primordial digestive tube" RELATED []
+synonym: "primordial gut" RELATED []
+is_a: UBERON:0006598 ! presumptive structure
+
+[Term]
+id: UBERON:0007592
+name: ciliated columnar epithelium
+def: "Simple columnar epithelium in which the luminal side of the cells bears cilia. Examples: epithelium of trachea, epithelium of uterine tube.[FMA]" []
+is_a: UBERON:0000485 ! simple columnar epithelium
+is_a: UBERON:0007601 ! ciliated epithelium
+
+[Term]
+id: UBERON:0007601
+name: ciliated epithelium
+def: "Epithelium bearing vibratile cilia on the free surface." []
+is_a: UBERON:0000483 ! epithelium
+
+[Term]
+id: UBERON:0008947
+name: respiratory primordium
+is_a: UBERON:0001048 ! primordium
+relationship: BFO:0000050 UBERON:0003258 ! part_of endoderm of foregut
+
+[Term]
+id: UBERON:0009569
+name: subdivision of trunk
+synonym: "region of trunk" EXACT []
+synonym: "trunk subdivision" EXACT []
+is_a: UBERON:0000475 ! organism subdivision
+relationship: BFO:0000050 UBERON:0002100 ! part_of trunk
+
+[Term]
+id: UBERON:0010000
+name: multicellular anatomical structure
+def: "An anatomical structure that has more than one cell as a part." []
+synonym: "multicellular structure" EXACT []
+is_a: UBERON:0000061 ! anatomical structure
+
+[Term]
+id: UBERON:0010316
+name: germ layer / neural crest
+is_a: UBERON:0005291 ! embryonic tissue
+relationship: RO:0002202 UBERON:0002532 ! develops_from epiblast (generic)
+
+[Term]
+id: UBERON:0010371
+name: ecto-epithelium
+def: "Epithelium composed of cells that develops from the ectoderm[FMA,modified]." []
+synonym: "ectoderm-derived epithelium" EXACT []
+is_a: UBERON:0000483 ! epithelium
+is_a: UBERON:0004121 ! ectoderm-derived structure
+intersection_of: UBERON:0000483 ! epithelium
+intersection_of: RO:0002202 UBERON:0000924 ! develops_from ectoderm
+relationship: RO:0002202 UBERON:0000924 ! develops_from ectoderm
+
+[Term]
+id: UBERON:0010498
+name: pseudostratified columnar epithelium
+def: "A simple columnar epithelium that looks stratified but is not, because its cells are arranged with their nuclei at different levels." []
+is_a: UBERON:0000485 ! simple columnar epithelium
+
+[Term]
+id: UBERON:0010499
+name: pseudostratified ciliated columnar epithelium
+def: "Epithelium composed of a single layer of cells, appearing as layered because the column-shaped cells vary in height so the nuclei are at different levels. The basal portions of all the cells are in contact with the basement membrane. It lines the respiratory system and the male reproductive tract. The cilia in the respiratory tract are motile, while the stereocilia in the male reproductive tract are immobile." []
+synonym: "epithelium pseudostratificatum columnare ciliatum (trachea et bronchi)" EXACT []
+is_a: UBERON:0007592 ! ciliated columnar epithelium
+is_a: UBERON:0010498 ! pseudostratified columnar epithelium
+
+[Term]
+id: UBERON:0011216
+name: organ system subdivision
+def: "A subdivision of an anatomical system." []
+is_a: UBERON:0010000 ! multicellular anatomical structure
+relationship: BFO:0000050 UBERON:0000467 ! part_of anatomical system
+
+[Term]
+id: UBERON:0011676
+name: subdivision of organism along main body axis
+def: "A major subdivision of an organism that divides an organism along its main body axis (typically anterio-posterior axis). In vertebrates, this is based on the vertebral column." []
+synonym: "axial subdivision of organism" EXACT []
+synonym: "body segment" RELATED []
+synonym: "main body segment" RELATED []
+is_a: UBERON:0000475 ! organism subdivision
+relationship: BFO:0000050 UBERON:0013701 ! part_of main body axis
+
+[Term]
+id: UBERON:0012274
+name: columnar epithelium
+def: "An epithelium that consists of columnar epithelial cells. Columnar epithelia are epithelial cells whose heights are at least four times their width. Columnar epithelia are divided into simple (or unilayered), and the rarer stratified (or multi-layered).[WP, modified]" []
+is_a: UBERON:0000483 ! epithelium
+
+[Term]
+id: UBERON:0013522
+name: subdivision of tube
+is_a: UBERON:0000064 ! organ part
+relationship: BFO:0000050 UBERON:0000025 ! part_of tube
+
+[Term]
+id: UBERON:0013701
+name: main body axis
+def: "A principle subdivision of an organism that includes all structures along the primary axis, typically the anterior-posterior axis, from head to tail, including structures of the body proper where present (for example, ribs), but excluding appendages." []
+is_a: UBERON:0000475 ! organism subdivision
+
+[Term]
+id: UBERON:0013702
+name: body proper
+def: "The region of the organism associated with the visceral organs." []
+synonym: "body" RELATED []
+synonym: "whole body" RELATED []
+is_a: UBERON:0000475 ! organism subdivision
+relationship: BFO:0000050 UBERON:0013701 ! part_of main body axis
+
+[Term]
+id: UBERON:0013765
+name: digestive system element
+def: "Any of the organs or elements that are part of the digestive system. Examples: tongue, esophagus, spleen, crop, lunge feeding organ, tooth elements." []
+synonym: "digestive organ" EXACT []
+synonym: "digestive system organ" EXACT []
+is_a: UBERON:0000062 ! organ
+intersection_of: UBERON:0000062 ! organ
+intersection_of: BFO:0000050 UBERON:0001007 ! part_of digestive system
+relationship: BFO:0000050 UBERON:0001007 ! part_of digestive system
+
+[Term]
+id: UBERON:0015212
+name: lateral structure
+def: "Any structure that is placed on one side of the left-right axis of a bilaterian." []
+is_a: UBERON:0000061 ! anatomical structure
+
+[Term]
+id: UBERON:0015833
+name: foregut epithelium
+def: "A epithelium that is part of a foregut." []
+is_a: UBERON:0003929 ! digestive tract epithelium
+intersection_of: UBERON:0000483 ! epithelium
+intersection_of: BFO:0000050 UBERON:0001041 ! part_of foregut
+relationship: BFO:0000050 UBERON:0001041 ! part_of foregut
+
+[Term]
+id: UBERON:0034925
+name: anatomical collection
+def: "A collection of anatomical structures that are alike in terms of their morphology or developmental origin." []
+is_a: UBERON:0000465 ! material anatomical entity
+
+[Typedef]
+id: BFO:0000050
+name: part of
+name: part_of
+is_transitive: true
+inverse_of: BFO:0000051 ! has_part
+
+[Typedef]
+id: BFO:0000051
+name: has_part
+is_transitive: true
+
+[Typedef]
+id: RO:0002202
+name: develops_from
+holds_over_chain: BFO:0000050 RO:0002202
+is_transitive: true
+transitive_over: BFO:0000050 ! part_of
+

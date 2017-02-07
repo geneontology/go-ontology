@@ -1,0 +1,9 @@
+format-version: 1.2
+ontology: go/imports/chebi_import
+
+[Term]
+id: CHEBI:24431
+name: chemical entity
+def: "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances." []
+synonym: "chemical entity" EXACT [UniProt]
+
