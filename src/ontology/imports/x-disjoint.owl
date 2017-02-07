@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:x-disjoint="http://purl.obolibrary.org/obo/go/extensions/x-disjoint#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/extensions/x-disjoint.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl">
         <rdfs:comment>This is an external bridge ontology that contains OWL disjointness constraints.</rdfs:comment>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://wiki.geneontology.org/index.php/Disjoint_Documentation</rdfs:seeAlso>
     </owl:Ontology>

@@ -1,5 +1,7 @@
 format-version: 1.2
+data-version: go/releases/2017-02-06/imports/ro_import.owl
 ontology: go/imports/ro_import
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0004842>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0016301>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0044403>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0072519>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0085030>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0085031>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002465>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002466>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002467>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002468>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002481>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002482>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/GO_0004842> (<http://purl.obolibrary.org/obo/GO_0004842>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0004842> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0002482>))\n\n# Class: <http://purl.obolibrary.org/obo/GO_0016301> (<http://purl.obolibrary.org/obo/GO_0016301>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0016301> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0002481>))\n\n# Class: <http://purl.obolibrary.org/obo/GO_0044403> (<http://purl.obolibrary.org/obo/GO_0044403>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0044403> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0002465>))\n\n# Class: <http://purl.obolibrary.org/obo/GO_0072519> (<http://purl.obolibrary.org/obo/GO_0072519>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0072519> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0002468>))\n\n# Class: <http://purl.obolibrary.org/obo/GO_0085030> (<http://purl.obolibrary.org/obo/GO_0085030>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0085030> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0002467>))\n\n# Class: <http://purl.obolibrary.org/obo/GO_0085031> (<http://purl.obolibrary.org/obo/GO_0085031>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GO_0085031> ObjectHasSelf(<http://purl.obolibrary.org/obo/RO_0002466>))\n\n\n)
 
 [Term]
 id: CARO:0000003
@@ -12,6 +14,11 @@ name: material anatomical entity
 is_a: BFO:0000040
 
 [Term]
+id: CARO:0000014
+name: cell part
+is_a: CARO:0000003 ! anatomical structure
+
+[Term]
 id: CL:0000000
 name: cell
 is_a: CARO:0000003 ! anatomical structure
@@ -22,9 +29,88 @@ name: neuron
 is_a: CL:0000000 ! cell
 
 [Term]
+id: GO:0003674
+is_a: BFO:0000015
+
+[Term]
+id: GO:0004842
+
+[Term]
+id: GO:0005634
+name: nucleus
+is_a: GO:0044464 ! cell part
+
+[Term]
 id: GO:0008150
 name: biological_process
 is_a: BFO:0000015
+
+[Term]
+id: GO:0016020
+name: membrane
+is_a: GO:0044464 ! cell part
+
+[Term]
+id: GO:0016301
+
+[Term]
+id: GO:0030424
+name: axon
+is_a: GO:0043005 ! neuron projection
+
+[Term]
+id: GO:0030425
+name: dendrite
+is_a: GO:0043005 ! neuron projection
+
+[Term]
+id: GO:0042734
+name: presynaptic membrane
+is_a: GO:0016020 ! membrane
+is_a: GO:0044456 ! synapse part
+
+[Term]
+id: GO:0042995
+name: cell projection
+is_a: GO:0044464 ! cell part
+
+[Term]
+id: GO:0043005
+name: neuron projection
+is_a: GO:0042995 ! cell projection
+
+[Term]
+id: GO:0044403
+
+[Term]
+id: GO:0044456
+name: synapse part
+is_a: CARO:0000014 ! cell part
+
+[Term]
+id: GO:0044464
+name: cell part
+is_a: CARO:0000014 ! cell part
+
+[Term]
+id: GO:0045202
+name: synapse
+is_a: CARO:0000014 ! cell part
+
+[Term]
+id: GO:0045211
+name: postsynaptic membrane
+is_a: GO:0016020 ! membrane
+is_a: GO:0044456 ! synapse part
+
+[Term]
+id: GO:0072519
+
+[Term]
+id: GO:0085030
+
+[Term]
+id: GO:0085031
 
 [Typedef]
 id: BFO:0000050
@@ -32,10 +118,63 @@ xref: BFO:0000050
 is_a: overlaps ! overlaps
 
 [Typedef]
+id: helper_property
+name: helper property
+xref: RO:0002464
+
+[Typedef]
+id: interaction_relation_helper_property
+name: interaction relation helper property
+xref: RO:0002563
+is_a: helper_property ! helper property
+
+[Typedef]
+id: is_commensalism
+name: is commensalism
+xref: RO:0002466
+is_a: is_symbiosis ! is symbiosis
+
+[Typedef]
+id: is_kinase_activity
+name: is kinase activity
+xref: RO:0002481
+is_a: molecular_interaction_relation_helper_property ! molecular interaction relation helper property
+
+[Typedef]
+id: is_mutualism
+name: is mutualism
+xref: RO:0002467
+is_a: is_symbiosis ! is symbiosis
+
+[Typedef]
+id: is_parasitism
+name: is parasitism
+xref: RO:0002468
+is_a: is_symbiosis ! is symbiosis
+
+[Typedef]
+id: is_symbiosis
+name: is symbiosis
+xref: RO:0002465
+is_a: interaction_relation_helper_property ! interaction relation helper property
+
+[Typedef]
+id: is_ubiquitination
+name: is ubiquitination
+xref: RO:0002482
+is_a: molecular_interaction_relation_helper_property ! molecular interaction relation helper property
+
+[Typedef]
 id: mereotopologically_related_to
 name: mereotopologically related to
 def: "A mereological relationship or a topological relationship" []
 xref: RO:0002323
+
+[Typedef]
+id: molecular_interaction_relation_helper_property
+name: molecular interaction relation helper property
+xref: RO:0002564
+is_a: interaction_relation_helper_property ! interaction relation helper property
 
 [Typedef]
 id: overlaps

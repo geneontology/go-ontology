@@ -1,5 +1,156 @@
 format-version: 1.2
+data-version: go/releases/2017-02-06/imports/pato_import.owl
 ontology: go/imports/pato_import
+
+[Term]
+id: PATO:0000001
+name: quality
+def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" []
+synonym: "trait" EXACT []
+
+[Term]
+id: PATO:0000051
+name: morphology
+def: "A quality of a single physical entity inhering in the bearer by virtue of the bearer's size or shape or structure." []
+is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0000052
+name: shape
+def: "A morphological quality inhering in a bearer by virtue of the bearer's ratios of distances between its features (points, edges, surfaces and also holes etc)." []
+synonym: "relational shape quality" EXACT []
+is_a: PATO:0000051 ! morphology
+
+[Term]
+id: PATO:0000141
+name: structure
+def: "A morphology quality inhering in a bearer by virtue of the bearer's relative position, shape, arrangements and connectivity of an organism's various parts; the pattern underlying its form." []
+synonym: "conformation" BROAD []
+synonym: "relational structural quality" EXACT []
+is_a: PATO:0000051 ! morphology
+
+[Term]
+id: PATO:0000411
+name: circular
+def: "A shape quality inhering in a bearer by virtue of the bearer's being such that every part of the surface or the circumference is equidistant from the center." []
+synonym: "round" RELATED []
+synonym: "rounded" RELATED []
+is_a: PATO:0000947 ! elliptic
+
+[Term]
+id: PATO:0000947
+name: elliptic
+def: "A spheroid quality inhering in a bearer by virtue of the bearer's being oval with two axes of symmetry, as produced by a conical section." []
+synonym: "ellipse-shaped" EXACT []
+synonym: "ellipsoid" EXACT []
+synonym: "elliptical" EXACT []
+synonym: "oval" RELATED []
+synonym: "ovoid" RELATED []
+is_a: PATO:0002318 ! superelliptic
+
+[Term]
+id: PATO:0001236
+name: process quality
+def: "A quality which inheres in an process." []
+synonym: "quality of a process" EXACT []
+synonym: "quality of occurrent" EXACT []
+synonym: "quality of process" EXACT []
+synonym: "relational quality of occurrent" EXACT []
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0001241
+name: physical object quality
+def: "A quality which inheres in a continuant." []
+synonym: "monadic quality of a continuant" EXACT []
+synonym: "monadic quality of an object" NARROW []
+synonym: "monadic quality of continuant" NARROW []
+synonym: "multiply inhering quality of a physical entity" EXACT []
+synonym: "quality of a continuant" EXACT []
+synonym: "quality of a single physical entity" EXACT []
+synonym: "quality of an object" EXACT []
+synonym: "quality of continuant" EXACT []
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0001873
+name: cylindrical
+def: "A convex 3-D shape quality inhering in a bearer by virtue of the bearer's exhibiting a consistently-sized round cross section." []
+synonym: "rod-like" EXACT []
+synonym: "rod-shaped" EXACT []
+synonym: "tubulate" NARROW []
+is_a: PATO:0002007 ! convex 3-D shape
+relationship: has_cross_section PATO:0000411 ! circular
+
+[Term]
+id: PATO:0001979
+name: lobed
+def: "A shape quality inhering in a bearer by virtue of the bearer's being partly divided into a determinate number of regions." []
+is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0002006
+name: 2-D shape
+def: "A shape that inheres in a 2 dimensional entity, such as a cross section or projection of a 3 dimensional entity." []
+synonym: "2-D projection" RELATED []
+synonym: "cross-sectional" RELATED []
+is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0002007
+name: convex 3-D shape
+def: "A complete three dimensional shape in which for every line connecting pair of points on the object is within the object. Or: a shape lacking cavities. Contrast: concave." []
+is_a: PATO:0002266 ! 3-D shape
+relationship: has_cross_section PATO:0002006 ! 2-D shape
+
+[Term]
+id: PATO:0002226
+name: subcylindrical
+def: "A cylindrical shape quality inhering in a bearer by virtue of the bearer's being imperfectly cylindrical or approximately cylindrical." []
+is_a: PATO:0001873 ! cylindrical
+
+[Term]
+id: PATO:0002266
+name: 3-D shape
+def: "A shape that inheres in a 3 dimensional entity." []
+is_a: PATO:0000052 ! shape
+
+[Term]
+id: PATO:0002309
+name: fiber shaped
+def: "A convex 3-D shape quality inhering in a bearer by virtue of the bearer's exhibiting a by virtue of the bearer's exhibiting a consistently sized and approximately round cross-section along its length, which is many times larger than its diameter." []
+is_a: PATO:0002226 ! subcylindrical
+
+[Term]
+id: PATO:0002318
+name: superelliptic
+def: "A shape constituting a transition between a rectangle and a circle; a closed curve, of which the circle and ellipse are special cases, whose parametric equation is x = a.cos2/rt, y = b.cos2/rt" []
+synonym: "Lamé curve" EXACT []
+is_a: PATO:0002006 ! 2-D shape
+
+[Term]
+id: PATO:0002486
+name: multi-organismal process quality
+def: "A quality inhering in a process by virtue of that process having two or more organisms as participants." []
+is_a: PATO:0001236 ! process quality
+
+[Term]
+id: PATO:0002487
+name: single organismal process quality
+def: "A quality inhering in a process by virtue of that process having exactly one organism as a participant." []
+is_a: PATO:0001236 ! process quality
+
+[Term]
+id: PATO:0015006
+name: polymeric
+def: "A quality inhering in a structure by virtue of it consisting of many of repeated, similar or identical subunits, arranged in some orderly array." []
+is_a: PATO:0000141 ! structure
+
+[Typedef]
+id: has_cross_section
+name: has_cross_section
+def: "s3 has_cross_section s3 if and only if : there exists some 2d plane that intersects the bearer of s3, and the impression of s3 upon that plane has shape quality s2." []
+xref: has_cross_section
 
 [Typedef]
 id: part_of

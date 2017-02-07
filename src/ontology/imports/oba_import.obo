@@ -65,7 +65,7 @@ id: OBA:0000018
 name: appetite
 def: "The quality of a hunger motivation behavior." []
 synonym: "quality of hunger motivation behavior" EXACT []
-is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000022
@@ -258,7 +258,7 @@ id: OBA:0000088
 name: liquid surface tension
 def: "The surface tension of a liquid configuration." []
 synonym: "surface tension of liquid configuration" EXACT []
-is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000089
@@ -407,7 +407,7 @@ id: OBA:0000116
 name: neurotransmitter levels
 def: "The amount of a neurotransmitter." []
 synonym: "amount of neurotransmitter" EXACT []
-is_a: OBA:0100004 {is_asserted="true"} ! chemical entity attribute
+is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0000117
@@ -576,7 +576,7 @@ id: OBA:0000169
 name: translational accuracy
 def: "The functionality of a translation." []
 synonym: "functionality of translation" EXACT []
-synonym: "translational fidelity" EXACT [GO:0006450]
+synonym: "translational fidelity" EXACT []
 is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
@@ -740,28 +740,28 @@ id: OBA:0100001
 name: cellular component attribute
 def: "The quality of a cellular_component." []
 synonym: "quality of cellular_component" EXACT []
-is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0100002
 name: biological process attribute
 def: "The quality of a biological_process." []
 synonym: "quality of biological_process" EXACT []
-is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0100003
 name: anatomical entity attribute
 def: "The quality of a anatomical entity." []
 synonym: "quality of anatomical entity" EXACT []
-is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0100004
 name: chemical entity attribute
 def: "The quality of a chemical entity." []
 synonym: "quality of chemical entity" EXACT []
-is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
+is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0100005
@@ -774,7 +774,7 @@ is_a: OBA:0100004 ! chemical entity attribute
 id: OBA:1000013
 name: cytoskeleton morphology
 def: "The morphology of a cytoskeleton." []
-synonym: "cytoskeleton morphology trait" EXACT [GOC:TermGenie]
+synonym: "cytoskeleton morphology trait" EXACT []
 synonym: "morphology of cytoskeleton" EXACT []
 is_a: OBA:1000078 ! organelle attribute
 relationship: part_of OBA:1000076 ! attribute of cell
@@ -783,7 +783,7 @@ relationship: part_of OBA:1000076 ! attribute of cell
 id: OBA:1000014
 name: endomembrane system morphology
 def: "The morphology of a endomembrane system." []
-synonym: "endomembrane system morphology trait" EXACT [GOC:TermGenie]
+synonym: "endomembrane system morphology trait" EXACT []
 synonym: "morphology of endomembrane system" EXACT []
 is_a: OBA:0100001 ! cellular component attribute
 relationship: part_of OBA:1000076 ! attribute of cell
@@ -793,7 +793,7 @@ id: OBA:1000019
 name: nucleus morphology
 def: "The morphology of a nucleus." []
 synonym: "morphology of nucleus" EXACT []
-synonym: "nucleus morphology trait" EXACT [GOC:TermGenie]
+synonym: "nucleus morphology trait" EXACT []
 is_a: OBA:1000078 ! organelle attribute
 relationship: part_of OBA:1000076 ! attribute of cell
 
@@ -801,7 +801,7 @@ relationship: part_of OBA:1000076 ! attribute of cell
 id: OBA:1000028
 name: membrane permeability
 def: "The permeability of a membrane." []
-synonym: "membrane permeability trait" EXACT [GOC:TermGenie]
+synonym: "membrane permeability trait" EXACT []
 synonym: "permeability of membrane" EXACT []
 is_a: OBA:1000091 ! membrane morphology
 
@@ -809,7 +809,7 @@ is_a: OBA:1000091 ! membrane morphology
 id: OBA:1000035
 name: lens of camera-type eye opacity
 def: "The opacity of a lens of camera-type eye." []
-synonym: "lens of camera-type eye opacity trait" EXACT [GOC:TermGenie]
+synonym: "lens of camera-type eye opacity trait" EXACT []
 synonym: "lens opacity" BROAD []
 synonym: "lens transparency" BROAD []
 synonym: "opacity of lens of camera-type eye" EXACT []
@@ -823,7 +823,7 @@ id: OBA:1000076
 name: attribute of cell
 name: cell attribute
 def: "The quality of a cell." []
-synonym: "cell quality trait" EXACT [GOC:TermGenie]
+synonym: "cell quality trait" EXACT []
 synonym: "quality of cell" EXACT []
 is_a: OBA:0100001 ! cellular component attribute
 
@@ -832,7 +832,7 @@ id: OBA:1000077
 name: attribute of cytosol
 name: cytosol attribute
 def: "The quality of a cytosol." []
-synonym: "cytosol quality trait" EXACT [GOC:TermGenie]
+synonym: "cytosol quality trait" EXACT []
 synonym: "quality of cytosol" EXACT []
 is_a: OBA:0100001 ! cellular component attribute
 relationship: part_of OBA:1000076 ! attribute of cell
@@ -842,7 +842,7 @@ id: OBA:1000078
 name: attribute of organelle
 name: organelle attribute
 def: "The quality of a organelle." []
-synonym: "organelle quality trait" EXACT [GOC:TermGenie]
+synonym: "organelle quality trait" EXACT []
 synonym: "quality of organelle" EXACT []
 is_a: OBA:0100001 ! cellular component attribute
 
@@ -850,7 +850,7 @@ is_a: OBA:0100001 ! cellular component attribute
 id: OBA:1000088
 name: plasma membrane quality
 def: "The quality of a plasma membrane." []
-synonym: "plasma membrane quality trait" EXACT [GOC:TermGenie]
+synonym: "plasma membrane quality trait" EXACT []
 synonym: "quality of plasma membrane" EXACT []
 is_a: OBA:1000090 ! membrane quality
 relationship: part_of OBA:1000076 ! attribute of cell
@@ -859,7 +859,7 @@ relationship: part_of OBA:1000076 ! attribute of cell
 id: OBA:1000090
 name: membrane quality
 def: "The quality of a membrane." []
-synonym: "membrane quality trait" EXACT [GOC:TermGenie]
+synonym: "membrane quality trait" EXACT []
 synonym: "quality of membrane" EXACT []
 is_a: OBA:0100001 ! cellular component attribute
 
@@ -867,7 +867,7 @@ is_a: OBA:0100001 ! cellular component attribute
 id: OBA:1000091
 name: membrane morphology
 def: "The morphology of a membrane." []
-synonym: "membrane morphology trait" EXACT [GOC:TermGenie]
+synonym: "membrane morphology trait" EXACT []
 synonym: "morphology of membrane" EXACT []
 is_a: OBA:1000090 ! membrane quality
 
@@ -875,7 +875,7 @@ is_a: OBA:1000090 ! membrane quality
 id: OBA:1000099
 name: appendage trait
 def: "The quality of a appendage." []
-synonym: "appendage quality trait" EXACT [GOC:TermGenie]
+synonym: "appendage quality trait" EXACT []
 synonym: "quality of appendage" EXACT []
 is_a: OBA:VT0100003 ! organism subdivision trait
 
@@ -883,7 +883,7 @@ is_a: OBA:VT0100003 ! organism subdivision trait
 id: OBA:1000115
 name: axon length
 def: "The length of a axon." []
-synonym: "axon length trait" EXACT [GOC:TermGenie]
+synonym: "axon length trait" EXACT []
 synonym: "length of axon" EXACT []
 is_a: OBA:0003797 ! axon size
 
@@ -892,7 +892,7 @@ id: OBA:1000142
 name: vesicle size
 def: "The size of a vesicle." []
 synonym: "size of vesicle" EXACT []
-synonym: "vesicle size trait" EXACT [GOC:TermGenie]
+synonym: "vesicle size trait" EXACT []
 is_a: OBA:0000057 ! cellular component size
 is_a: OBA:1000078 ! organelle attribute
 

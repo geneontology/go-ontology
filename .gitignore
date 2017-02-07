@@ -9,6 +9,10 @@ src/ontology/build/
 src/ontology/go.obo
 src/ontology/go.owl
 src/ontology/go.owl
+src/ontology/go-pre.owl
+src/ontology/bio-chebi.owl
+src/ontology/GO.xrf_abbs
+src/ontology/seed.owl
 src/ontology/subsets/*.obo
 src/ontology/subsets/*.owl
-
+target/

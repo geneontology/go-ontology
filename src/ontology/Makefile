@@ -6,12 +6,11 @@
 
 OLDED=$(HOME)/repos/go/ontology/editors/
 sync:
-	cp $(OLDED)/gene_ontology_write.obo go-edit.obo ;\
+	perl -npe 's@go/extensions/@go/imports/@' $(OLDED)/gene_ontology_write.obo > go-edit.obo ;\
 	cp $(OLDED)/go_inferences_null.owl . ;\
 	cp $(OLDED)/go-idranges.txt . ;\
 	cp $(OLDED)/go_inferences_difflog.txt . ;\
 	cp $(OLDED)/*.dict . ;\
-	perl -npe 's@\.\./extensions/@imports/@' $(OLDED)/catalog-v001.xml > catalog-v001.xml ;\
 	perl -npe 's@\.\./extensions/@imports/@' $(OLDED)/oboedit.catalog > oboedit.catalog
 
 # ----------------------------------------
@@ -36,7 +35,7 @@ SRC=$(ONT)-edit.obo
 
 # Staging release directory
 RELEASEDIR=../../target
-RELEASEDIR_IMPORTS=$(RELEASEDIR)/extensions
+RELEASEDIR_IMPORTS=$(RELEASEDIR)/imports
 
 
 # ROBOT is a release tool
@@ -70,16 +69,18 @@ GO_BASIC_RELATIONS = BFO:0000050 RO:0002211 RO:0002212 RO:0002213
 # extend with has_part, occurs_in and during relations
 GO_MAIN_RELATIONS = $(GO_BASIC_RELATIONS) BFO:0000051 BFO:0000066 RO:0002091 RO:0002092 RO:0002093
 
+GO_PLUS = extensions/go-plus.owl
+
 # ----------------------------------------
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-all: all_imports $(ONT).owl $(ONT).obo
+all: all_imports $(ONT).owl $(ONT).obo $(GO_PLUS)
 test: $(SRC)-check change-report.txt $(ONT).owl
 full_test: test $(ONT).obo
 
 prepare_release: all
-	mkdir -p $(RELEASEDIR)/imports &&\
+	mkdir -p $(RELEASEDIR)/extensions &&\
 	mkdir -p $(RELEASEDIR_IMPORTS) &&\
 	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
 	cp imports/*.owl $(RELEASEDIR_IMPORTS) &&\
@@ -117,9 +118,11 @@ change-report.txt: $(SRC) $(PREVIOUS)
 # ----------------------------------------
 
 # go.owl is equivalent to editors source, after reason-relax-reduce pipeline
-$(ONT).owl: $(SRC) $(SRC)-check
+reasoned.owl: $(SRC) $(SRC)-check
 	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
+$(GO_PLUS): reasoned.owl
+	$(ROBOT) annotate -i $< -V $(RELEASE_URIBASE)/$@ -o $@
 
 # ----------------------------------------
 # OBO and subsets
@@ -127,7 +130,7 @@ $(ONT).owl: $(SRC) $(SRC)-check
 
 # go.obo is a simplified; we use oort to remove imports etc
 
-$(ONT)-pre.owl: $(ONT).owl
+$(ONT)-pre.owl: reasoned.owl
 	owltools $(USECAT) $< --remove-imports-declarations --remove-dangling --make-subset-by-properties $(GO_MAIN_RELATIONS) --set-ontology-id $(OBO)/go.owl -o -f obo $@.tmp && egrep -v '(property_value|relationship): never_in_taxon' $@.tmp > $@
 
 # use OORT
@@ -135,10 +138,12 @@ $(ONT)-pre.owl: $(ONT).owl
 $(ONT).obo: $(ONT)-pre.owl
 	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format owl --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
 	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge $(BUILD_DIR)/go.obo &&\
-	cp $(BUILD_DIR)/go.obo $@
+	cp $(BUILD_DIR)/go.obo $@ &&\
+	cp $(BUILD_DIR)/go.owl $@
 
 # This is produced as a byproduct of go.obo
 go-simple.obo: $(ONT).obo
+go.owl: $(ONT).obo
 
 # remove non-basic relationship types (e.g. has_part)
 go-simple-filtered.obo: go-simple.obo
@@ -172,6 +177,19 @@ imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
 	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
+#robot doesn't appear to work for making modules with GCIs
+#bio-chebi-merged.owl: bio-chebi.owl
+#	$(OWLTOOLS) $(USECAT) $< --merge-imports-closure -o $@
+#imports/chebi_import.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
+#	$(ROBOT) extract -i $< -T imports/chebi_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
+CHEBIRELS = RO:0000057 RO:0002233 RO:0002234 RO:0002313 RO:0002233 RO:0002332 RO:0002340  RO:0002345 BFO:0000051 RO:0000087 GOCHEREL:0000000 GOCHEREL:0000001 GOCHEREL:0000002  GOCHEREL:0000003 GOCHEREL:0000004
+
+seed.owl: $(SRC)
+	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o $@
+imports/chebi_import.owl: seed.owl bio-chebi.owl
+	$(OWLTOOLS) $(USECAT) $<  bio-chebi.owl --add-imports-from-supports --extract-module -s $(OBO)/go/extensions/bio-chebi.owl -c  --make-subset-by-properties -n $(CHEBIRELS) // --remove-annotation-assertions -r -l --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/go/$@ -o $@
+.PRECIOUS: imports/chebi_import.owl
+
 imports/%_import.obo: imports/%_import.owl
 	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@
 
@@ -194,7 +212,8 @@ mirror/pr-download.owl: $(SRC)
 # special case: download obo for speed for chebi
 # See also: https://github.com/ebi-chebi/ChEBI/issues/3269
 mirror/chebi-download.owl: $(SRC)
-	wget -N --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
+#	wget -N --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
+	curl -L $(OBO)/chebi.obo -z $@ -o $@.tmp  && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified) && perl -pi -ne 's@BFO_@BFO:@' $@
 .PRECIOUS: mirror/chebi-download.owl
 
 # special case: use ext for uberon
@@ -209,8 +228,13 @@ mirror/oba-download.owl: $(SRC)
 
 # general case: download remote OWL first
 mirror/%-download.owl: $(SRC)
-	wget -N --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
+#	wget -N --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
+	curl -L $(OBO)/$*.owl -z $@ -o $@.tmp && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified)
 .PRECIOUS: mirror/%-download.owl
+
+# bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
+bio-chebi.owl: mirror/chebi-download.owl
+	owltools --create-biochebi -o $@ -c $<
 
 # filter axioms
 FILTER_EXTERNAL=--remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
@@ -222,9 +246,7 @@ mirror/%.owl: mirror/%-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/%.owl
 
-# bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
-bio-chebi.owl: mirror/chebi.owl
-	owltools --create-biochebi -o $@ -c $<
+
 
 # ----------------------------------------
 # ADDING INFERENCES

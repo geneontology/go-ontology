@@ -1,3 +1,625 @@
 format-version: 1.2
+data-version: go/releases/2017-02-06/imports/ncbitaxon_import.owl
 ontology: go/imports/ncbitaxon_import
+
+[Term]
+id: NCBITaxon:1
+name: root
+synonym: "all" RELATED []
+
+[Term]
+id: NCBITaxon:10239
+name: Viruses
+synonym: "Vira" RELATED []
+synonym: "Viridae" RELATED []
+synonym: "viruses" RELATED []
+is_a: NCBITaxon:1 ! root
+
+[Term]
+id: NCBITaxon:1117
+name: Cyanobacteria
+synonym: "blue-green algae" EXACT []
+synonym: "blue-green bacteria" EXACT []
+synonym: "cyanobacteria" RELATED []
+synonym: "Cyanophyceae" RELATED []
+synonym: "Cyanophycota" RELATED []
+synonym: "Cyanophyta" RELATED []
+synonym: "cyanophytes" EXACT []
+synonym: "Oxygenic photosynthetic bacteria" RELATED []
+synonym: "Oxyphotobacteria" RELATED []
+is_a: NCBITaxon:1798711 ! Cyanobacteria/Melainabacteria group
+
+[Term]
+id: NCBITaxon:117570
+name: Teleostomi
+is_a: NCBITaxon:7776 ! Gnathostomata <vertebrate>
+
+[Term]
+id: NCBITaxon:117571
+name: Euteleostomi
+synonym: "bony vertebrates" EXACT []
+is_a: NCBITaxon:117570 ! Teleostomi
+
+[Term]
+id: NCBITaxon:1206794
+name: Ecdysozoa
+is_a: NCBITaxon:33317 ! Protostomia
+
+[Term]
+id: NCBITaxon:131221
+name: Streptophytina
+synonym: "Charophyta/Embryophyta group" RELATED []
+synonym: "charophyte/embryophyte group" RELATED []
+is_a: NCBITaxon:35493 ! Streptophyta
+
+[Term]
+id: NCBITaxon:131567
+name: cellular organisms
+synonym: "biota" RELATED []
+is_a: NCBITaxon:1 ! root
+
+[Term]
+id: NCBITaxon:1338369
+name: Dipnotetrapodomorpha
+is_a: NCBITaxon:8287 ! Sarcopterygii
+
+[Term]
+id: NCBITaxon:142796
+name: Mycetozoa
+synonym: "mycetozoans" RELATED []
+is_a: NCBITaxon:554915 ! Amoebozoa
+
+[Term]
+id: NCBITaxon:1437010
+name: Boreoeutheria
+synonym: "Boreotheria" RELATED []
+is_a: NCBITaxon:9347 ! Eutheria
+
+[Term]
+id: NCBITaxon:1437180
+name: Acrogymnospermae
+is_a: NCBITaxon:58024 ! Spermatophyta
+
+[Term]
+id: NCBITaxon:147537
+name: Saccharomycotina
+synonym: "true yeasts" EXACT []
+is_a: NCBITaxon:716545 ! saccharomyceta
+
+[Term]
+id: NCBITaxon:1639119
+name: Plasmodiidae
+is_a: NCBITaxon:5819 ! Haemosporida
+
+[Term]
+id: NCBITaxon:1783272
+name: Terrabacteria group
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:1798711
+name: Cyanobacteria/Melainabacteria group
+is_a: NCBITaxon:1783272 ! Terrabacteria group
+
+[Term]
+id: NCBITaxon:186623
+name: Actinopteri
+is_a: NCBITaxon:7898 ! Actinopterygii
+
+[Term]
+id: NCBITaxon:197562
+name: Pancrustacea
+is_a: NCBITaxon:197563 ! Mandibulata
+
+[Term]
+id: NCBITaxon:197563
+name: Mandibulata
+synonym: "mandibulates" EXACT []
+is_a: NCBITaxon:6656 ! Arthropoda
+
+[Term]
+id: NCBITaxon:2
+name: Bacteria
+synonym: "bacteria" RELATED []
+synonym: "eubacteria" EXACT []
+synonym: "Monera" RELATED []
+synonym: "not Bacteria Haeckel 1894" RELATED []
+synonym: "Procaryotae" RELATED []
+synonym: "Prokaryota" RELATED []
+synonym: "Prokaryotae" RELATED []
+synonym: "prokaryote" RELATED []
+synonym: "prokaryotes" RELATED []
+is_a: NCBITaxon:131567 ! cellular organisms
+
+[Term]
+id: NCBITaxon:207245
+name: Fornicata
+synonym: "Diplomonadida group" RELATED []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:2157
+name: Archaea
+synonym: "archaea" RELATED []
+synonym: "Archaebacteria" RELATED []
+synonym: "Mendosicutes" RELATED []
+synonym: "Metabacteria" RELATED []
+synonym: "Monera" RELATED []
+synonym: "Procaryotae" RELATED []
+synonym: "Prokaryota" RELATED []
+synonym: "Prokaryotae" RELATED []
+synonym: "prokaryote" RELATED []
+synonym: "prokaryotes" RELATED []
+is_a: NCBITaxon:131567 ! cellular organisms
+
+[Term]
+id: NCBITaxon:2759
+name: Eukaryota
+synonym: "Eucarya" RELATED []
+synonym: "Eucaryotae" RELATED []
+synonym: "eucaryotes" EXACT []
+synonym: "Eukarya" RELATED []
+synonym: "Eukaryotae" RELATED []
+synonym: "eukaryotes" EXACT []
+synonym: "eukaryotes" RELATED []
+is_a: NCBITaxon:131567 ! cellular organisms
+
+[Term]
+id: NCBITaxon:2864
+name: Dinophyceae
+synonym: "algae" RELATED []
+synonym: "Chromophyta" RELATED []
+synonym: "Dinoflagellata" RELATED []
+synonym: "dinoflagellates" EXACT []
+synonym: "dinoflagellates" RELATED []
+synonym: "Dinophycidae" RELATED []
+synonym: "Dinophyta" RELATED []
+synonym: "dinophytes" EXACT []
+synonym: "Pyrrhophyta" RELATED []
+synonym: "Pyrrophyta" RELATED []
+is_a: NCBITaxon:33630 ! Alveolata
+
+[Term]
+id: NCBITaxon:314146
+name: Euarchontoglires
+is_a: NCBITaxon:1437010 ! Boreoeutheria
+
+[Term]
+id: NCBITaxon:3193
+name: Embryophyta
+synonym: "higher plants" EXACT []
+synonym: "land plants" EXACT []
+synonym: "land plants" RELATED []
+synonym: "plants" EXACT []
+is_a: NCBITaxon:131221 ! Streptophytina
+
+[Term]
+id: NCBITaxon:32443
+name: Teleostei
+synonym: "teleost fishes" EXACT []
+is_a: NCBITaxon:41665 ! Neopterygii
+
+[Term]
+id: NCBITaxon:32523
+name: Tetrapoda
+synonym: "tetrapods" EXACT []
+is_a: NCBITaxon:1338369 ! Dipnotetrapodomorpha
+
+[Term]
+id: NCBITaxon:32524
+name: Amniota
+synonym: "amniotes" EXACT []
+is_a: NCBITaxon:32523 ! Tetrapoda
+
+[Term]
+id: NCBITaxon:32525
+name: Theria <Mammalia>
+synonym: "Theria" EXACT []
+is_a: NCBITaxon:40674 ! Mammalia
+
+[Term]
+id: NCBITaxon:33083
+name: Dictyosteliida
+synonym: "cellular slime molds" RELATED []
+synonym: "Dictyostelia" RELATED []
+synonym: "Dictyosteliales" RELATED []
+synonym: "dictyostelid cellular slime molds" EXACT []
+synonym: "Dictyostelida" RELATED []
+is_a: NCBITaxon:142796 ! Mycetozoa
+
+[Term]
+id: NCBITaxon:33090
+name: Viridiplantae
+synonym: "Chlorobionta" RELATED []
+synonym: "Chlorophyta/Embryophyta group" RELATED []
+synonym: "chlorophyte/embryophyte group" RELATED []
+synonym: "green plants" EXACT []
+synonym: "green plants" RELATED []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:33154
+name: Opisthokonta
+synonym: "Fungi/Metazoa group" RELATED []
+synonym: "opisthokonts" RELATED []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:33208
+name: Metazoa
+synonym: "Animalia" RELATED []
+synonym: "animals" RELATED []
+synonym: "metazoans" EXACT []
+synonym: "multicellular animals" EXACT []
+is_a: NCBITaxon:33154 ! Opisthokonta
+
+[Term]
+id: NCBITaxon:33213
+name: Bilateria
+is_a: NCBITaxon:6072 ! Eumetazoa
+
+[Term]
+id: NCBITaxon:33317
+name: Protostomia
+is_a: NCBITaxon:33213 ! Bilateria
+
+[Term]
+id: NCBITaxon:33340
+name: Neoptera
+is_a: NCBITaxon:7496 ! Pterygota <winged insects>
+
+[Term]
+id: NCBITaxon:33392
+name: Endopterygota
+synonym: "Holometabola" RELATED []
+is_a: NCBITaxon:33340 ! Neoptera
+
+[Term]
+id: NCBITaxon:33511
+name: Deuterostomia
+synonym: "deuterostomes" EXACT []
+is_a: NCBITaxon:33213 ! Bilateria
+
+[Term]
+id: NCBITaxon:33630
+name: Alveolata
+synonym: "alveolates" EXACT []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:33634
+name: Stramenopiles
+synonym: "Chromophyta" RELATED []
+synonym: "Heterokonta" RELATED []
+synonym: "heterokonts" EXACT []
+synonym: "Straminipila" RELATED []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:33682
+name: Euglenozoa
+synonym: "Euglenozoans" RELATED []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:3398
+name: Magnoliophyta
+synonym: "Angiospermae" RELATED []
+synonym: "angiosperms" EXACT []
+synonym: "flowering plants" EXACT []
+synonym: "flowering plants" RELATED []
+is_a: NCBITaxon:58024 ! Spermatophyta
+
+[Term]
+id: NCBITaxon:34353
+name: Dipodascaceae
+synonym: "anamorphic Dipodascaceae" RELATED []
+is_a: NCBITaxon:4892 ! Saccharomycetales
+
+[Term]
+id: NCBITaxon:35493
+name: Streptophyta
+is_a: NCBITaxon:33090 ! Viridiplantae
+
+[Term]
+id: NCBITaxon:38254
+name: Glaucocystophyceae
+synonym: "algae" RELATED []
+synonym: "glaucocystophytes" EXACT []
+synonym: "Glaucophyceae" RELATED []
+synonym: "Glaucophyta" RELATED []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:40674
+name: Mammalia
+synonym: "mammals" EXACT []
+synonym: "mammals" RELATED []
+is_a: NCBITaxon:32524 ! Amniota
+
+[Term]
+id: NCBITaxon:41665
+name: Neopterygii
+synonym: "Neopterygi" RELATED []
+is_a: NCBITaxon:186623 ! Actinopteri
+
+[Term]
+id: NCBITaxon:422676
+name: Aconoidasida
+is_a: NCBITaxon:5794 ! Apicomplexa
+
+[Term]
+id: NCBITaxon:451864
+name: Dikarya
+is_a: NCBITaxon:4751 ! Fungi
+
+[Term]
+id: NCBITaxon:4751
+name: Fungi
+synonym: "fungi" EXACT []
+synonym: "fungi" RELATED []
+is_a: NCBITaxon:33154 ! Opisthokonta
+
+[Term]
+id: NCBITaxon:4762
+name: Oomycetes
+synonym: "oomycetes" RELATED []
+synonym: "Oomycota" RELATED []
+synonym: "Peronosporomycetes" RELATED []
+is_a: NCBITaxon:33634 ! Stramenopiles
+
+[Term]
+id: NCBITaxon:4890
+name: Ascomycota
+synonym: "ascomycetes" EXACT []
+synonym: "ascomycetes" RELATED []
+synonym: "sac fungi" EXACT []
+is_a: NCBITaxon:451864 ! Dikarya
+
+[Term]
+id: NCBITaxon:4891
+name: Saccharomycetes
+synonym: "Hemiascomycetes" RELATED []
+is_a: NCBITaxon:147537 ! Saccharomycotina
+
+[Term]
+id: NCBITaxon:4892
+name: Saccharomycetales
+synonym: "budding yeasts" EXACT []
+synonym: "Endomycetales" RELATED []
+is_a: NCBITaxon:4891 ! Saccharomycetes
+
+[Term]
+id: NCBITaxon:4951
+name: Yarrowia
+is_a: NCBITaxon:34353 ! Dipodascaceae
+
+[Term]
+id: NCBITaxon:4952
+name: Yarrowia lipolytica
+synonym: "Candida lipolytica" RELATED []
+synonym: "Endomycopsis lipolytica" RELATED []
+synonym: "Mycotorula lipolytica" RELATED []
+synonym: "Yallowia lipolitica" RELATED []
+is_a: NCBITaxon:4951 ! Yarrowia
+
+[Term]
+id: NCBITaxon:50557
+name: Insecta
+synonym: "true insects" EXACT []
+is_a: NCBITaxon:6960 ! Hexapoda
+
+[Term]
+id: NCBITaxon:554915
+name: Amoebozoa
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:5738
+name: Diplomonadida
+synonym: "diplomonads" EXACT []
+synonym: "diplomonads" RELATED []
+is_a: NCBITaxon:207245 ! Fornicata
+
+[Term]
+id: NCBITaxon:5739
+name: Hexamitidae
+is_a: NCBITaxon:5738 ! Diplomonadida
+
+[Term]
+id: NCBITaxon:5740
+name: Giardia
+is_a: NCBITaxon:68459 ! Giardiinae
+
+[Term]
+id: NCBITaxon:5794
+name: Apicomplexa
+synonym: "apicomplexans" EXACT []
+synonym: "apicomplexans" RELATED []
+is_a: NCBITaxon:33630 ! Alveolata
+
+[Term]
+id: NCBITaxon:58022
+name: Gnetophyta
+is_a: NCBITaxon:1437180 ! Acrogymnospermae
+
+[Term]
+id: NCBITaxon:58023
+name: Tracheophyta
+synonym: "vascular plants" EXACT []
+synonym: "vascular plants" RELATED []
+is_a: NCBITaxon:3193 ! Embryophyta
+
+[Term]
+id: NCBITaxon:58024
+name: Spermatophyta
+synonym: "seed plants" EXACT []
+synonym: "seed plants" RELATED []
+is_a: NCBITaxon:78536 ! Euphyllophyta
+
+[Term]
+id: NCBITaxon:5819
+name: Haemosporida
+synonym: "haemosporidians" EXACT []
+synonym: "Haemosporina" RELATED []
+is_a: NCBITaxon:422676 ! Aconoidasida
+
+[Term]
+id: NCBITaxon:5820
+name: Plasmodium
+is_a: NCBITaxon:1639119 ! Plasmodiidae
+
+[Term]
+id: NCBITaxon:5878
+name: Ciliophora
+synonym: "Ciliata" RELATED []
+synonym: "ciliates" EXACT []
+synonym: "ciliates" RELATED []
+is_a: NCBITaxon:33630 ! Alveolata
+
+[Term]
+id: NCBITaxon:6072
+name: Eumetazoa
+is_a: NCBITaxon:33208 ! Metazoa
+
+[Term]
+id: NCBITaxon:6231
+name: Nematoda
+synonym: "Nemata" RELATED []
+synonym: "nematode" EXACT []
+synonym: "nematodes" EXACT []
+synonym: "nematodes" RELATED []
+synonym: "roundworm" EXACT []
+synonym: "roundworms" EXACT []
+is_a: NCBITaxon:1206794 ! Ecdysozoa
+
+[Term]
+id: NCBITaxon:6656
+name: Arthropoda
+synonym: "arthropods" EXACT []
+synonym: "arthropods" RELATED []
+is_a: NCBITaxon:88770 ! Panarthropoda
+
+[Term]
+id: NCBITaxon:68459
+name: Giardiinae
+is_a: NCBITaxon:5739 ! Hexamitidae
+
+[Term]
+id: NCBITaxon:6960
+name: Hexapoda
+synonym: "Atelocerata" RELATED []
+synonym: "insects" EXACT []
+synonym: "insects" RELATED []
+synonym: "Tracheata" RELATED []
+synonym: "Uniramia" RELATED []
+is_a: NCBITaxon:197562 ! Pancrustacea
+
+[Term]
+id: NCBITaxon:7147
+name: Diptera
+synonym: "flies" EXACT []
+synonym: "flies" RELATED []
+is_a: NCBITaxon:33392 ! Endopterygota
+
+[Term]
+id: NCBITaxon:716545
+name: saccharomyceta
+is_a: NCBITaxon:4890 ! Ascomycota
+
+[Term]
+id: NCBITaxon:7203
+name: Brachycera
+is_a: NCBITaxon:7147 ! Diptera
+
+[Term]
+id: NCBITaxon:7496
+name: Pterygota <winged insects>
+synonym: "Pterygota" EXACT []
+synonym: "winged insects" EXACT []
+is_a: NCBITaxon:85512 ! Dicondylia
+
+[Term]
+id: NCBITaxon:7711
+name: Chordata
+synonym: "chordates" EXACT []
+synonym: "chordates" RELATED []
+is_a: NCBITaxon:33511 ! Deuterostomia
+
+[Term]
+id: NCBITaxon:7742
+name: Vertebrata <Metazoa>
+synonym: "Vertebrata" EXACT []
+synonym: "vertebrates" EXACT []
+synonym: "vertebrates" RELATED []
+is_a: NCBITaxon:89593 ! Craniata <chordata>
+
+[Term]
+id: NCBITaxon:7776
+name: Gnathostomata <vertebrate>
+synonym: "Gnathostomata" EXACT []
+synonym: "jawed vertebrates" EXACT []
+is_a: NCBITaxon:7742 ! Vertebrata <Metazoa>
+
+[Term]
+id: NCBITaxon:78536
+name: Euphyllophyta
+synonym: "euphyllophytes" RELATED []
+is_a: NCBITaxon:58023 ! Tracheophyta
+
+[Term]
+id: NCBITaxon:7898
+name: Actinopterygii
+synonym: "Actinopterygi" RELATED []
+synonym: "bony fishes" RELATED []
+synonym: "fish" EXACT []
+synonym: "fishes" EXACT []
+synonym: "Osteichthyes" RELATED []
+synonym: "ray-finned fishes" EXACT []
+is_a: NCBITaxon:117571 ! Euteleostomi
+
+[Term]
+id: NCBITaxon:8287
+name: Sarcopterygii
+is_a: NCBITaxon:117571 ! Euteleostomi
+
+[Term]
+id: NCBITaxon:8457
+name: Sauropsida
+synonym: "sauropsids" EXACT []
+is_a: NCBITaxon:32524 ! Amniota
+
+[Term]
+id: NCBITaxon:85512
+name: Dicondylia
+is_a: NCBITaxon:50557 ! Insecta
+
+[Term]
+id: NCBITaxon:88770
+name: Panarthropoda
+is_a: NCBITaxon:1206794 ! Ecdysozoa
+
+[Term]
+id: NCBITaxon:89593
+name: Craniata <chordata>
+synonym: "Craniata" EXACT []
+is_a: NCBITaxon:7711 ! Chordata
+
+[Term]
+id: NCBITaxon:9347
+name: Eutheria
+synonym: "eutherian mammals" EXACT []
+synonym: "placental mammals" EXACT []
+synonym: "Placentalia" RELATED []
+synonym: "placentals" EXACT []
+synonym: "placentals" RELATED []
+is_a: NCBITaxon:32525 ! Theria <Mammalia>
+
+[Term]
+id: NCBITaxon:9443
+name: Primates
+synonym: "Primata" RELATED []
+synonym: "primate" EXACT []
+synonym: "primates" RELATED []
+is_a: NCBITaxon:314146 ! Euarchontoglires
 
