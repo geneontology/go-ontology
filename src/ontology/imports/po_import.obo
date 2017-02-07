@@ -2,6 +2,8 @@ format-version: 1.2
 ontology: go/imports/po_import
 
 [Typedef]
-id: BFO:0000050
+id: part_of
+name: part_of
+xref: BFO:0000050
 is_transitive: true
 

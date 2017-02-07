@@ -10,11 +10,9 @@ Make sure you have an ID range in the [idranges file](go-idranges.owl)
 
 If you do not have one, get one from the head curator.
 
-The editors version is [go-edit.owl](go-edit.owl)
+The editors version is [go-edit.obo](go-edit.obo)
 
-** DO NOT EDIT go.obo OR go.owl in the top level directory **
-
-[../../go.owl] is the release version
+__NOTE__ derived release files are NOT stored in this repository. We instead deploy to S3 via Jenkins.
 
 To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/obophenotype/gene-ontology) for details.
 
@@ -38,56 +36,25 @@ We aim to put this up on the technical docs for OBO on http://obofoundry.org/
 For now, consult the [Protege Planteome Tutorial](https://github.com/Planteome/protege-tutorial/blob/master/presentations/protege_planteome_tutorial.doc?raw=true) and look for the section "new entities"
 
 
-## Release Manager notes
+## Release Process
 
-You should only attempt to make a release AFTER the edit version is
-committed and pushed, and the travis build passes.
+NOT YET LIVE
 
-to release:
+This Jenkins job will create releases https://build.berkeleybop.org/job/release-go-NEW/
+
+The release process can be simulated as follows:
 
     cd src/ontology
     make
 
-If this looks goo
-d type:
+If this looks good type:
 
-    make prepare_release
+    make release
 
 This generates derived files such as go.owl and go.obo and places
-them in the top level (../..). The versionIRI will be added.
+them in the target dir (../../target/). The versionIRI will be added.
 
-Commit and push these files.
-
-    git commit -a
-
-And type a brief description of the release in the editor window
-
-Finally type
-
-    git push origin master
-
-IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
-
- * https://github.com/obophenotype/gene-ontology/releases
- * https://github.com/obophenotype/gene-ontology/releases/new
-
-The value of the "Tag version" field MUST be
-
-    vYYYY-MM-DD
-
-The initial lowercase "v" is REQUIRED. The YYYY-MM-DD *must* match
-what is in the versionIRI of the derived go.owl (data-version in
-go.obo).
-
-Release title should be YYYY-MM-DD, optionally followed by a title (e.g. "january release")
-
-Then click "publish release"
-
-__IMPORTANT__: NO MORE THAN ONE RELEASE PER DAY.
-
-The PURLs are already configured to pull from github. This means that
-BOTH ontology purls and versioned ontology purls will resolve to the
-correct ontologies. Try it!
+At this point Jenkins will release the target files to S3, they will be available via the usual PURLs
 
  * http://purl.obolibrary.org/obo/go.owl <-- current ontology PURL
  * http://purl.obolibrary.org/obo/go/releases/YYYY-MM-DD.owl <-- change to the release you just made
@@ -96,7 +63,6 @@ For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
 # Travis Continuous Integration System
 
-Check the build status here: [![Build Status](https://travis-ci.org/obophenotype/gene-ontology.svg?branch=master)](https://travis-ci.org/obophenotype/gene-ontology)
+Check the build status here: [![Build Status](https://travis-ci.org/geneontology/go-ontology.svg?branch=master)](https://travis-ci.org/geneontology/go-ontology)
 
-Note: if you have only just created this project you will need to authorize travis for this repo. Go to [https://travis-ci.org/profile/obophenotype](https://travis-ci.org/profile/obophenotype) for details
 
