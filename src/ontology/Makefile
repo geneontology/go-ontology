@@ -24,7 +24,8 @@ SRC=$(ONT)-edit.obo
 RELEASEDIR=../../target/
 ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
 ROBOT= $(ROBOT_ENV) robot
-OWLTOOLS= owltools
+OWLTOOLS_ENV = OWLTOOLS_MEMORY=8G
+OWLTOOLS= $(OWLTOOLS_ENV) owltools
 USECAT= --use-catalog
 
 all: all_imports $(ONT).owl $(ONT).obo
@@ -61,7 +62,7 @@ imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 
 # Use ROBOT for imports
 imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
-	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
+	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
 imports/%_import.obo: imports/%_import.owl
@@ -77,6 +78,11 @@ WGET_OUT = -O $@.tmp && cp $@.tmp $@ && touch $@
 mirror/ncbitaxon-download.owl: $(SRC)
 	wget -N --no-check-certificate $(OBO)/ncbitaxon.obo $(WGET_OUT)
 .PRECIOUS: mirror/ncbitaxon-download.owl
+
+# special case: download obo for speed for ncbitaxon
+mirror/pr-download.owl: $(SRC)
+	wget -N --no-check-certificate $(OBO)/pr.obo $(WGET_OUT)
+.PRECIOUS: mirror/pr-download.owl
 
 # special case: download obo for speed for chebi
 # See also: https://github.com/ebi-chebi/ChEBI/issues/3269
