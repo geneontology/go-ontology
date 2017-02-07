@@ -14,36 +14,114 @@ sync:
 	perl -npe 's@\.\./extensions/@imports/@' $(OLDED)/oboedit.catalog > oboedit.catalog
 
 # ----------------------------------------
-## ACTUAL MAKEFILE STARTS HERE
+# ACTUAL MAKEFILE STARTS HERE
 # ----------------------------------------
 
+# ----------------------------------------
+# CORE VARIABLES
+# ----------------------------------------
+
+# base URI for all OBO library ontologies
 OBO=http://purl.obolibrary.org/obo
+
+# OBO name of this ontology (always lowercase)
 ONT=go
+
+# Base URL for ontology
 BASE=$(OBO)/$(ONT)
+
+# Source file edited by editors
 SRC=$(ONT)-edit.obo
+
+# Staging release directory
 RELEASEDIR=../../target/
+
+# ROBOT is a release tool
 ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
 ROBOT= $(ROBOT_ENV) robot
+
+# OWLTools is a swiss-army knife
 OWLTOOLS_ENV = OWLTOOLS_MEMORY=8G
 OWLTOOLS= $(OWLTOOLS_ENV) owltools
+
+# Oort build dir
+BUILD_DIR=build
+
+# OWL catalogs map ontology IRIs to local paths
 USECAT= --use-catalog
 
+# obo-centric checks
+PERLCHECK= ../utils/check-obo-for-standard-release.pl
+
+# This can be overridden to make snapshot releases:
+#
+#   $ RELEASE_SUFFIX=SNAPSHOT make prepare_release
+#
+RELEASE_SUFFIX= 
+RELEASE_URIBASE= $(BASE)/releases/`date +%Y-%m-%d`$(RELEASE_SUFFIX)
+
+# basic relations are part_of & 3 regulations relations
+GO_BASIC_RELATIONS = BFO:0000050 RO:0002211 RO:0002212 RO:0002213
+
+# extend with has_part, occurs_in and during relations
+GO_MAIN_RELATIONS = $(GO_BASIC_RELATIONS) BFO:0000051 BFO:0000066 RO:0002091 RO:0002092 RO:0002093
+
+# ----------------------------------------
+# TOP LEVEL TARGETS
+# ----------------------------------------
+
 all: all_imports $(ONT).owl $(ONT).obo
-test: $(ONT).obo
+test: $(ONT).owl
+full_test: $(ONT).obo
 prepare_release: all
 	mkdir -p $(RELEASEDIR)/imports &&\
+	mkdir -p $(RELEASEDIR)/extensions &&\
 	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
-	cp imports/*{owl,obo} $(RELEASEDIR)/imports &&\
+	cp imports/*{owl,obo} $(RELEASEDIR)/extensions &&\
 	(test -f subsets/*owl && cp subsets/*{owl,obo} $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
 	echo "Release files are now in $(RELEASEDIR)"
 
 release: $(ONT).owl $(ONT).obo
 	cp $^ $(RELEASEDIR) && cp imports/* $(RELEASEDIR)/imports
 
+# ----------------------------------------
+# OWL
+# ----------------------------------------
+
+# go.owl is equivalent to editors source, after reason-relax-reduce pipeline
 $(ONT).owl: $(SRC)
-	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
-$(ONT).obo: $(ONT).owl
-	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
+	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+
+# ----------------------------------------
+# OBO and subsets
+# ----------------------------------------
+
+# go.obo is a simplified; we use oort to remove imports etc
+
+$(ONT)-pre.owl: $(ONT).owl
+	owltools $(USECAT) $< --remove-imports-declarations --remove-dangling --make-subset-by-properties $(GO_MAIN_RELATIONS) --set-ontology-id $(OBO)/go.owl -o -f obo $@.tmp && egrep -v '(property_value|relationship): never_in_taxon' $@.tmp > $@
+
+# use OORT
+# side effects: also builds go-simple.obo
+$(ONT).obo: $(ONT)-pre.owl
+	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format owl --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
+	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge $(BUILD_DIR)/go.obo &&\
+	cp $(BUILD_DIR)/go.obo $@
+
+# This is produced as a byproduct of go.obo
+go-simple.obo: $(ONT).obo
+
+# remove non-basic relationship types (e.g. has_part)
+go-simple-filtered.obo: go-simple.obo
+	owltools $< --make-subset-by-properties $(GO_BASIC_RELATIONS) // -o -f obo $@
+
+# filter inter-ontology (e.g. MF to BP) links
+go-basic.obo: go-simple-filtered.obo
+	filter-obo-for-standard-release.pl $< > $@.tmp && mv $@.tmp $@ && check-obo-for-standard-release.pl --disable-xrf-abbs-check $@
+
+# ----------------------------------------
+# IMPORT MODULES
+# ----------------------------------------
 
 IMPORTS = chebi cl po pato ro ncbitaxon uberon fao oba
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
@@ -62,7 +140,7 @@ imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 
 # Use ROBOT for imports
 imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
-	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/$@ -o $@
+	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
 imports/%_import.obo: imports/%_import.owl
@@ -93,7 +171,12 @@ mirror/chebi-download.owl: $(SRC)
 # special case: use ext for uberon
 mirror/uberon-download.owl: $(SRC)
 	wget -N --no-check-certificate $(OBO)/uberon/ext.owl $(WGET_OUT)
-.PRECIOUS: mirror/ncbitaxon-download.owl
+.PRECIOUS: mirror/uberon-download.owl
+
+# special case: use basic for oba
+mirror/oba-download.owl: $(SRC)
+	wget -N --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo $(WGET_OUT)
+.PRECIOUS: mirror/oba-download.owl
 
 # general case: download remote OWL first
 mirror/%-download.owl: $(SRC)
@@ -101,7 +184,6 @@ mirror/%-download.owl: $(SRC)
 .PRECIOUS: mirror/%-download.owl
 
 # filter axioms
-
 FILTER_EXTERNAL=--remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
 mirror/uberon.owl: mirror/uberon-download.owl
 	$(OWLTOOLS) $< --remove-classes-in-idspace -s GO --remove-classes-in-idspace -s CHEBI $(FILTER_EXTERNAL) -o $@

@@ -1,10 +1,4 @@
-These notes are for the EDITORS of go
-
-This project was created using the [ontology starter kit](https://github.com/cmungall/ontology-starter-kit). See the site for details.
-
-For more details on ontology management, please see the [OBO tutorial](https://github.com/jamesaoverton/obo-tutorial) or the [Protege Planteome Tutorial](https://github.com/Planteome/protege-tutorial)
-
-## Editors Version
+# GO Editors Instructions
 
 Make sure you have an ID range in the [idranges file](go-idranges.owl)
 
@@ -61,8 +55,31 @@ At this point Jenkins will release the target files to S3, they will be availabl
 
 For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
+# Jobs
+
+ - travis will perform fast tests on every commit or pull request
+ - a jenkins job will run on every commit and produce inference reports
+ - a jenkins job will produce SNAPSHOT releases
+ - a jenkins job will produce production releases
+
 # Travis Continuous Integration System
 
 Check the build status here: [![Build Status](https://travis-ci.org/geneontology/go-ontology.svg?branch=master)](https://travis-ci.org/geneontology/go-ontology)
 
+# Makefile
 
+The [Makefile](Makefile) contains instructions to automatically build (or simulate the build) of the release.
+
+To run tests:
+
+`make test`
+
+(this is what is executed by travis)
+
+To prepare files for a release:
+
+`make prepare_release`
+
+To regenerate stale imports:
+
+`make all_imports`
