@@ -1,0 +1,2778 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/go/extensions/pr_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/go/extensions/pr_import.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/extensions/pr_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">object</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018263"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000008">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGF-beta-like cystine-knot cytokine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000017">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interferon gamma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000024990"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000019">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitogen-activated protein kinase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000028">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small GTPase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor, TNF-like</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000034">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMP</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000046">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGF-beta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000105">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nodal protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001004">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD4 molecule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001091">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001092">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-17</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001094">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhodopsin-like G-protein coupled receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001096">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toll-like receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001105">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5a anaphylatoxin chemotactic receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001113">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-17E</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001092"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-1 adrenergic receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001116">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-2 adrenergic receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001119">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal opsin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001120">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apelin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001121">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta adrenergic receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001122">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bombesin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001123">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bradykinin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001128">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemokine receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001130">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholecystokinin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001131">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cysteinyl leukotriene receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001133">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001134">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth hormone secretagogue/motilin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001135">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-1 alpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001091"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001136">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-1 beta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001091"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001141">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-17D</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001092"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001146">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melanocortin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001150">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tachykinin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001153">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toll-like receptor 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001155">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toll-like receptor 4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001096"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001171">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1 bradykinin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001172">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2 bradykinin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001182">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adrenocorticotropic hormone receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001146"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001183">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-1A adrenergic receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001115"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001184">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-1B adrenergic receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001115"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001185">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-1D adrenergic receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001115"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001186">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-2A adrenergic receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001116"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001187">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-2B adrenergic receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001116"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001188">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-2C adrenergic receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001116"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001192">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-1 adrenergic receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001121"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001193">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-2 adrenergic receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001121"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001194">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-3 adrenergic receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001121"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001197">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemokine receptor CCR1/3/1L</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001128"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001199">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C chemokine receptor type 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001128"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001202">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C chemokine receptor type 6</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001128"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001203">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C chemokine receptor type 7</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001128"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001206">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CX3C chemokine receptor 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001128"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001208">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-X-C chemokine receptor type 4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001128"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001212">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemokine XC receptor 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001128"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001221">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelin-1 receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001133"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001223">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrin-releasing peptide receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001122"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001225">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth hormone secretagogue receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001134"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001240">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motilin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001134"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001245">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhodopsin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001119"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001255">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C chemokine receptor type 3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001197"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001315">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G-protein coupled receptor frizzled</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001317">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-7</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001327">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cadherin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001335">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">class 2 cytokine, IL-10 type</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001348">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythrocyte membrane protein Rh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001349">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroblast growth factor receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001353">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulocyte colony-stimulating factor receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001357">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intercellular adhesion molecule 1/3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001366">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-11</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001368">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-12 subunit alpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001369">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-12 subunit beta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001370">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-13</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001373">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-15</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001374">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-16</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001376">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-18</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001379">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001382">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-21</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001383">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-22</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001387">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001389">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-33</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001391">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001392">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001393">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-6</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001395">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-8</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001396">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-9</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001397">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-9 receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001422">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histamine H1 receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001423">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histamine H2 receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001424">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H3/H4 histamine receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001426">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KiSS-1 receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001431">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-formyl peptide receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001439">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenosine receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001442">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood group Rh(D) polypeptide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001348"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001449 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001449">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroblast growth factor receptor 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001349"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001457">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galanin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001463">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycoprotein hormone receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001464">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gonadotropin-releasing hormone receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001468">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intercellular adhesion molecule 3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001357"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001471">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-10</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001335"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001472 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001472">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-19</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001335"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001473">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-20</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001335"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001474 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001474">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-24</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001335"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001475">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-26</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001335"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001488">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscarinic acetylcholine receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001489 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001489">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuromedin-U receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001497">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opioid receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001498 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001498">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orexigenic neuropeptide QRFP receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001499">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orexin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001546">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prolactin-releasing peptide receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001548">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostaglandin E2 receptor EP4 subtype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001549">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostanoid receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001550">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proteinase-activated receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001555">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatostatin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001557">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thyrotropin-releasing hormone receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001562 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001562">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vasopressin/oxytocin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001564">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histamine H3 receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001424"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001565">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H4 histamine receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001424"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001579">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delta-type opioid receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001497"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001590">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kappa-type opioid receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001497"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001596">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lutropin-choriogonadotropic hormone receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001463"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001612">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mu-type opioid receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001497"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001631">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nociceptin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001497"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001635">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxytocin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001562"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001655">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostacyclin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001549"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001656">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostaglandin D2 receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001549"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001657">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostaglandin E2 receptor EP1 subtype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001549"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001658">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostaglandin E2 receptor EP2 subtype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001549"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001659">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostaglandin E2 receptor EP3 subtype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001549"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001660">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostaglandin F2-alpha receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001549"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001661">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proteinase-activated receptor 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001550"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001676">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thromboxane A2 receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001549"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001753">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor NF-kappa-B subunit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001808 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001808">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C/C-C motif small inducible chemokine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001810 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001810">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSF-1/PDGF receptor-type tyrosine-protein kinase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001812">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EGF receptor type tyrosine-protein kinase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001816">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGF/MSP receptor type tyrosine-protein kinase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001855">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fractalkine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001876 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001876">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukemia inhibitory factor receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001887 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001887">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melanotransferrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001902">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear receptor ROR-gamma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001926 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001926">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semaphorin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001946 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001946">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor ligand superfamily member 10/11</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001951 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001951">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor receptor superfamily member 10A/B</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000021999"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001971 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001971">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular endothelial growth factor receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001991">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C motif chemokine 19</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001808"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001993 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001993">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C motif chemokine 21</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001808"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002038">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eotaxin-like cytokine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001808"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002065">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mast/stem cell growth factor receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001810"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002094">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C motif chemokine 5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001808"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002106">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor ligand superfamily member 10</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001946"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002107">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor ligand superfamily member 11</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001946"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002108">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor receptor superfamily member 10A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001951"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002109">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor necrosis factor receptor superfamily member 10B</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001951"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002112">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular endothelial growth factor receptor 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001971"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002122">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C motif chemokine 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000002038"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002125">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C motif chemokine 7</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000002038"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002190">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAC-alpha serine/threonine-protein kinase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000029189"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002198">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catenin beta-1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002201">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dynein light chain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002204">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphotoxin-alpha</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000033"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000003035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003035">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular tumor antigen p53</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000003112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003112">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFAT protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000003113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003113">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear factor of activated T-cells, cytoplasmic 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000003112"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000003171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003171">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IGFBP-related protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000003172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003172">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">connective tissue growth factor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000003171"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000003237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003237">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14-3-3 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000003425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003425">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hsp70 family chaperone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000003652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003652">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acrosin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000003761 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003761">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pituitary adenylate cyclase-activating polypeptide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000003777 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003777">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adiponectin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000003858 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003858">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aryl hydrocarbon receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004126">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serum amyloid P-component</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004135">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apelin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004140">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apolipoprotein A-I</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004168">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyloid beta A4 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004191">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">androgen receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004580">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-2-microglobulin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004716">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain-derived neurotrophic factor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000021998"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004972 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004972">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calcitonin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004974 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004974">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caldesmon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004978 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004978">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calmodulin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005110">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cholecystokinin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005663">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ciliary neurotrophic factor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005716">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collagen type IV alpha-3-binding protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005869 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005869">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corticotropin-releasing factor receptor 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005870 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005870">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corticotropin-releasing factor receptor 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005931 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005931">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulocyte-macrophage colony-stimulating factor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005932">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulocyte colony-stimulating factor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000006013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000006013">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catenin delta-2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000006165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000006165">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-C motif chemokine 12</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000002038"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000006267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000006267">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dystroglycan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000006909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000006909">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elongation factor 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000006928 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000006928">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pro-epidermal growth factor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000006933 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000006933">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epidermal growth factor receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001812"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000006990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000006990">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eukaryotic translation initiation factor 4E</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007141">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythropoietin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007142">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythropoietin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007204">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estrogen receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007494 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007494">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroblast growth factor 3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007495">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroblast growth factor 4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007496">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroblast growth factor 5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007497">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibroblast growth factor 6</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007555">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filamin-A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007556">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filamin-B</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007557">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">filamin-C</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007563">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular endothelial growth factor receptor 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001971"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007565">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular endothelial growth factor receptor 3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001971"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007581">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fibronectin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007719">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">frizzled-2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001315"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007806">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">galanin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007856 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007856">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007892">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucagon receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007893">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GTP cyclohydrolase 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007928 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007928">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glial cell line-derived neurotrophic factor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007970 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007970">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth hormone receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007971 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007971">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">somatoliberin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007972 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007972">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth hormone-releasing hormone receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007973 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007973">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appetite-regulating hormone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007988">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastric inhibitory polypeptide receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008476">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orexin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008534">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte growth factor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008630">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high mobility group protein B1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008636">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-hydroxy-3-methylglutaryl-coenzyme A reductase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008725">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haptoglobin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008875 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008875">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">islet amyloid polypeptide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008878 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008878">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone sialoprotein 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008888 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008888">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isocitrate dehydrogenase [NADP], mitochondrial</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008910 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008910">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interferon-induced helicase C domain-containing protein 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008942">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin-like growth factor II</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008998 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008998">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-21 receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interleukin-23 receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009054">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009064">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009182">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin-like growth factor I</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009345">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kit ligand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009744">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low-density lipoprotein receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009799 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009799">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leukemia inhibitory factor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009978 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009978">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactotransferrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010335">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte growth factor receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001816"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010413">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophage migration inhibitory factor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010444 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010444">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitogen-activated protein kinase kinase kinase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010818 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010818">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myogenic factor 5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010855">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myosin-Ia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010877 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010877">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myogenin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010882">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myozenin-1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011116">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NEDD8</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011164">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear factor of activated T-cells, cytoplasmic 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011166">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear factor of activated T-cells, cytoplasmic 3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011167">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear factor of activated T-cells, cytoplasmic 4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011194">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-nerve growth factor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000021998"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011374">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atrial natriuretic factor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011387">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuropeptide Y</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011406">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucocorticoid receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011407">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mineralocorticoid receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011459">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurotrophin-3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000021998"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000012059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000012059">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oncostatin-M</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000012421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000012421">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proliferating cell nuclear antigen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000012621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000012621">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">progesterone receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000012705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000012705">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polymeric immunoglobulin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000012826 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000012826">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urokinase-type plasminogen activator</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013164">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic prohormone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013246">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prolactin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013248">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prolactin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013429">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parathyroid hormone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013526 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013526">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptide YY</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013743">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ras GTPase-activating protein 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000014543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000014543">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secretin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000014544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000014544">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secretin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000014717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000014717">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein SET</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015288">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smoothened</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015794 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015794">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syntaxin-2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015795">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syntaxin-3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015797 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015797">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syntaxin-5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015798 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015798">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syntaxin-6</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015975 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015975">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sperm motility kinase Tcr mutant form</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016051">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antigen peptide transporter 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016052">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antigen peptide transporter 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016053">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tapasin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016156">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">telethonin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016261">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serotransferrin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016301">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tyrosine 3-monooxygenase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016450">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transmembrane protease serine 11D</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016542">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA topoisomerase 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016798 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016798">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">titin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016876 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016876">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thymidylate synthase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016964">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ubiquitin D</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017272">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vinculin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017283">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vitamin D3 receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000018263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018263">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino acid chain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000021998 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000021998">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurotrophin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000021999 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000021999">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">death receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000022358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000022358">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adenylate cyclase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000024025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000024025">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methyl-accepting chemotaxis protein IV</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000024067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000024067">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homoserine kinase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000024939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000024939">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interferon beta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000025848"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000024990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000024990">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type II interferon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000025350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000025350">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HSPC protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000003425"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000025845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000025845">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ephrin receptor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000025848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000025848">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type I interferon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000028205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000028205">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type III interferon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001335"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000029189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000029189">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AKT kinase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000029394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000029394">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP-dependent RNA helicase DDX58</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000037070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000037070">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphoprotein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 0.2.1-SNAPSHOT) http://owlapi.sourceforge.net -->
+
