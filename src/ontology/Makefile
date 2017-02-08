@@ -1,7 +1,8 @@
+all: real_all
+
 # ----------------------------------------
 # TEMPORARY
 # ----------------------------------------
-
 # until we switch to new repo, we need to periodically sync for testing
 
 OLDED=$(HOME)/repos/go/ontology/editors/
@@ -37,26 +38,31 @@ SRC=$(ONT)-edit.obo
 RELEASEDIR=../../target
 RELEASEDIR_IMPORTS=$(RELEASEDIR)/imports
 
-
-# ROBOT is a release tool
+# ROBOT is the main release release tool
 ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
 ROBOT= $(ROBOT_ENV) robot
 
-# OWLTools is a swiss-army knife
+# OWLTools is a swiss-army knife;
+# It does some things robot can't do, but eventually functionality should
+# move to robot
 OWLTOOLS_ENV = OWLTOOLS_MEMORY=8G
 OWLTOOLS= $(OWLTOOLS_ENV) owltools
 
-# Oort build dir
+# Oort build dir;
+# This also should be replaced by robot
 BUILD_DIR=build
 
 # OWL catalogs map ontology IRIs to local paths
 USECAT= --use-catalog
 
-# obo-centric checks
+# obo-centric checks and and filters
 PERLCHECK= ../util/check-obo-for-standard-release.pl
 PERLFILTER= ../util/filter-obo-for-standard-release.pl
 
-# This can be overridden to make snapshot releases:
+# Release IRIs are of the form
+#  obo/go/releases/YYYY-MM-DD/$FILE
+#
+# To make snapshot releases:
 #
 #   $ RELEASE_SUFFIX=SNAPSHOT make prepare_release
 #
@@ -67,67 +73,98 @@ RELEASE_URIBASE= $(BASE)/releases/`date +%Y-%m-%d`$(RELEASE_SUFFIX)
 GO_BASIC_RELATIONS = BFO:0000050 RO:0002211 RO:0002212 RO:0002213
 
 # extend with has_part, occurs_in and during relations
+# - this is the set used in the main go file
 GO_MAIN_RELATIONS = $(GO_BASIC_RELATIONS) BFO:0000051 BFO:0000066 RO:0002091 RO:0002092 RO:0002093
 
-GO_PLUS = extensions/go-plus.owl
+GO_PLUS = extensions/go-plus
 
 # ----------------------------------------
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-all: all_imports $(ONT).owl $(ONT).obo $(GO_PLUS)
+real_all: all_imports $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
+
 test: $(SRC)-check change-report.txt reasoned.owl
 full_test: test $(ONT).obo
 
+clean: clean_target clean_imports
+clean_target:
+	rm $(RELEASEDIR)/*
+
+# copies from staged area to target
 prepare_release: all
 	mkdir -p $(RELEASEDIR)/extensions &&\
+	mkdir -p $(RELEASEDIR)/subsets &&\
 	mkdir -p $(RELEASEDIR_IMPORTS) &&\
 	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
 	cp imports/*.owl $(RELEASEDIR_IMPORTS) &&\
 	cp imports/*.obo $(RELEASEDIR_IMPORTS) &&\
-	(test -f subsets/*owl && cp subsets/*{owl,obo} $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
+	cp extensions/* $(RELEASEDIR)/extensions &&\
+	cp subsets/*{owl,obo} $(RELEASEDIR)/subsets &&\
 	echo "Release files are now in $(RELEASEDIR)"
 
+# deploy to S3
 S3CFG = ~/.s3cfg.go-push
 deploy-snapshot:
 	cd $(RELEASEDIR) &&\
 	find . -type f -print0 | xargs -0 -I % s3cmd -c $(S3CFG) --acl-public --reduced-redundancy --mime-type=application/rdf+xml put % s3://go-build/ontology/snapshot/%
 
+# reasoner diffs
 idiff: go_inferences_difflog.txt
+
+# ----------------------------------------
+# GENERIC TRANSFORMS
+# ----------------------------------------
+
+%.gz: %
+	gzip -c $< > $@.tmp && mv $@.tmp $@
+
+%.json: %.owl
+	$(OWLTOOLS) $(USECAT) $< -o -f json $@
+.PRECIOUS: %.json
 
 # ----------------------------------------
 # CHECKS AND BALANCES
 # ----------------------------------------
 
-$(SRC)-check: $(SRC) GO.xrf_abbs
-	$(PERLCHECK) --disable-isa-incomplete --xref-abbs GO.xrf_abbs $<
-
+# TODO: use json form of this file
 GO.xrf_abbs: $(SRC)
-	wget http://geneontology.org/doc/GO.xrf_abbs -O $@ && touch $@
+	wget http://geneontology.org/doc/GO.xrf_abbs -O $@.tmp && mv $@.tmp $@ && touch $@
+
+$(SRC)-check: $(SRC) GO.xrf_abbs
+	$(PERLCHECK) --disable-isa-incomplete --xref-abbs GO.xrf_abbs $< > $@.tmp && mv $@.tmp $@
 
 PREVIOUS=go-lastrelease.owl
 $(PREVIOUS): $(SRC)
 	wget $(OBO)/go.obo -O $@ && touch $@
 
+# ensure no IDs are lost
 change-report.txt: $(SRC) $(PREVIOUS)
 	$(OWLTOOLS) $(USECAT) $< --verify-changes -p $(PREVIOUS) -o $@ --id-prefix-filter GO: --check-missing-labels
-
 
 # ----------------------------------------
 # OWL
 # ----------------------------------------
 
-# go.owl is equivalent to editors source, after reason-relax-reduce pipeline
+# reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
+# note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
 reasoned.owl: $(SRC) $(SRC)-check
 	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
-$(GO_PLUS): reasoned.owl
-	$(ROBOT) annotate -i $< -V $(RELEASE_URIBASE)/$@ -o $@
+# equivalent to reasoned, but we rename
+$(GO_PLUS).owl: reasoned.owl
+	$(ROBOT) annotate -i $< -O $(OBO)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+.PRECIOUS: $(GO_PLUS).owl
 
 # ----------------------------------------
 # OBO and subsets
 # ----------------------------------------
 
+# while go-plus is the full version, the successive releases eliminate various things to simplify the
+# file, including
+#  - no imports or external ontologies
+#  - smaller set of relations (v small for go-basic)
+#  - ...
 # go.obo is a simplified; we use oort to remove imports etc
 
 $(ONT)-pre.owl: reasoned.owl
@@ -138,8 +175,10 @@ $(ONT)-pre.owl: reasoned.owl
 $(ONT).obo: $(ONT)-pre.owl
 	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
 	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge $(BUILD_DIR)/go.obo &&\
+	cp $(BUILD_DIR)/subsets/*{.obo,owl,json} subsets/ &&\
 	cp $(BUILD_DIR)/go.obo $@ &&\
-	cp $(BUILD_DIR)/go.owl $@
+	cp $(BUILD_DIR)/go-simple.obo . &&\
+	cp $(BUILD_DIR)/go.owl .
 
 # This is produced as a byproduct of go.obo
 go-simple.obo: $(ONT).obo
@@ -152,6 +191,9 @@ go-simple-filtered.obo: go-simple.obo
 # filter inter-ontology (e.g. MF to BP) links
 go-basic.obo: go-simple-filtered.obo
 	$(PERLFILTER) $< > $@.tmp && mv $@.tmp $@ && check-obo-for-standard-release.pl --disable-xrf-abbs-check $@
+
+go-basic.owl: go-basic.obo
+	$(ROBOT) convert -i $< -o $@
 
 # ----------------------------------------
 # IMPORT MODULES
