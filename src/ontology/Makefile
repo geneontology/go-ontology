@@ -102,11 +102,12 @@ prepare_release: all
 	mkdir -p $(RELEASEDIR)/extensions &&\
 	mkdir -p $(RELEASEDIR)/subsets &&\
 	mkdir -p $(RELEASEDIR_IMPORTS) &&\
-	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
+	cp $(ONT).owl $(ONT).obo $(ONT).json $(RELEASEDIR) &&\
 	cp imports/*.owl $(RELEASEDIR_IMPORTS) &&\
 	cp imports/*.obo $(RELEASEDIR_IMPORTS) &&\
 	cp extensions/* $(RELEASEDIR)/extensions &&\
-	cp subsets/*{owl,obo} $(RELEASEDIR)/subsets &&\
+	cp go-basic/*{owl,obo,json*} $(RELEASEDIR)/subsets &&\
+	cp subsets/*{owl,obo,json*} $(RELEASEDIR)/subsets &&\
 	echo "Release files are now in $(RELEASEDIR)"
 
 # deploy to S3
