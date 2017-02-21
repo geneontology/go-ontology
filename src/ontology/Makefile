@@ -82,11 +82,17 @@ GO_PLUS = extensions/go-plus
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-real_all: all_imports $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
+real_all: test all_imports $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
 
 test: $(SRC)-check change-report.txt reasoned.owl
+
+# note: until we go live, the travis test must omit change-report. This is because as a demo repo,
+# we naturally fall behind the actual live PURL. **DELETE THIS TARGET WHEN WE GO LIVE**
+travis_test: $(SRC)-check reasoned.owl
+
 full_test: test $(ONT).obo
 
+# note that most derived files are kept separate from source files, in $(RELEASEDIR)
 clean: clean_target clean_imports
 clean_target:
 	rm $(RELEASEDIR)/*
@@ -241,41 +247,42 @@ imports/%_import.obo: imports/%_import.owl
 
 WGET_OUT = -O $@.tmp && cp $@.tmp $@ && touch $@
 
-# special case: download obo for speed for ncbitaxon
-mirror/ncbitaxon-download.owl: $(SRC)
-	wget -N --no-check-certificate $(OBO)/ncbitaxon.obo $(WGET_OUT)
+# special case: download obo for speed for ncbitaxon.
+# note also that here we only trigger new downloads if ncbitaxon_terms.txt is touched
+mirror/ncbitaxon-download.owl: imports/ncbitaxon_terms.txt
+	wget --no-check-certificate $(OBO)/ncbitaxon.obo $(WGET_OUT)
 .PRECIOUS: mirror/ncbitaxon-download.owl
 
 # special case: download obo for speed for ncbitaxon
 mirror/pr-download.owl: $(SRC)
-	wget -N --no-check-certificate $(OBO)/pr.obo $(WGET_OUT)
+	wget --no-check-certificate $(OBO)/pr.obo $(WGET_OUT)
 .PRECIOUS: mirror/pr-download.owl
 
 # special case: download obo for speed for chebi
 # See also: https://github.com/ebi-chebi/ChEBI/issues/3269
 mirror/chebi-download.owl: $(SRC)
-#	wget -N --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
+#	wget --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
 	curl -L $(OBO)/chebi.obo -z $@ -o $@.tmp  && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified) && perl -pi -ne 's@BFO_@BFO:@' $@
 .PRECIOUS: mirror/chebi-download.owl
 
 # special case: use ext for uberon
 mirror/uberon-download.owl: $(SRC)
-	wget -N --no-check-certificate $(OBO)/uberon/ext.owl $(WGET_OUT)
+	wget --no-check-certificate $(OBO)/uberon/ext.owl $(WGET_OUT)
 .PRECIOUS: mirror/uberon-download.owl
 
 # special case: use basic for oba
 mirror/oba-download.owl: $(SRC)
-	wget -N --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo $(WGET_OUT)
+	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo $(WGET_OUT)
 .PRECIOUS: mirror/oba-download.owl
 
 # special case: use basic for cl
 mirror/cl-download.owl: $(SRC)
-	wget -N --no-check-certificate $(OBO)/cl/cl-basic.obo $(WGET_OUT)
+	wget --no-check-certificate $(OBO)/cl/cl-basic.obo $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
 # general case: download remote OWL first
 mirror/%-download.owl: $(SRC)
-#	wget -N --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
+#	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
 	curl -L $(OBO)/$*.owl -z $@ -o $@.tmp && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified)
 .PRECIOUS: mirror/%-download.owl
 
@@ -286,7 +293,7 @@ bio-chebi.owl: mirror/chebi-download.owl
 # filter axioms
 FILTER_EXTERNAL=--remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
 mirror/uberon.owl: mirror/uberon-download.owl
-	$(OWLTOOLS) $< --remove-classes-in-idspace -s GO --remove-classes-in-idspace -s CHEBI $(FILTER_EXTERNAL) -o $@
+	$(OWLTOOLS) --use-catalog $< --remove-classes-in-idspace -s GO --remove-classes-in-idspace -s CHEBI $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/uberon.owl
 
 mirror/%.owl: mirror/%-download.owl
@@ -301,6 +308,7 @@ mirror/%.owl: mirror/%-download.owl
 # see: https://github.com/geneontology/go-ontology/issues/12315
 # go inferences now go into a separate file.
 # this is imported during an OE session (see oboedit.catalog)
+# (for Protege all inferences are dynamic)
 
 # first strip the go_inferences import; we need to do this
 # because we cannot create a new ontology with the same name
@@ -315,10 +323,13 @@ go_inferences.owl: go-edit_noinf.obo
 # translation to obo.
 # note that in order to get obo "!" comments into the file (to enhance readability), we must:
 # (a) import the go ontology that contains the labels (b) save (c) strip out the import directive
+# NOTE: in svn pipeline, this file was committed by jenkins job every time ontology is edited.
 go_inferences.obo: go_inferences.owl
 	owltools $< --use-catalog go-edit.obo --add-imports-from-supports -o -f obo $@.tmp && grep -v ^import: $@.tmp > $@
 .PRECIOUS: go_inferences.obo
 
+# get the difference between the current staged inferences file and the
+# last one to be checked in.
 go_inferences.diff: go_inferences.obo
 	git log $(SRC) | head -4 > $@
 	echo >> $@
@@ -327,5 +338,7 @@ go_inferences.diff: go_inferences.obo
 	git diff go_inferences.obo >> $@
 .PRECIOUS: go_inferences.diff
 
+# append latest diffs onto difflog
+# NOTE: in svn pipeline, this file was committed by jenkins job every time ontology is edited.
 go_inferences_difflog.txt: go_inferences.diff
 	cat $< $@ > $@.tmp && mv $@.tmp $@

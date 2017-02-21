@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2017-02-07/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2017-02-20/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -709,6 +709,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuron with one neurite that extends from the cell body.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unipolar neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000032"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neruon whose cell body is within an autonomic ganglion.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autonomic neuron</rdfs:label>
     </owl:Class>
     
 
@@ -6072,6 +6082,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000351"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cells of the uterine chorion that acquire specialized structural and/or functional features that characterize chorionic trophoblasts. These cells will migrate towards the spongiotrophoblast layer and give rise to syncytiotrophoblasts of the labyrinthine layer.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chorionic trophoblast cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0011103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000107"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sympathetic neurons are part of the sympathetic nervous system and are primarily adrenergic producing the neurotransmitter noradrenalin along with other neuropeptides.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sympathetic neuron</rdfs:label>
     </owl:Class>
     
 

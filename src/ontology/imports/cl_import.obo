@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2017-02-07/imports/cl_import.owl
+data-version: go/releases/2017-02-20/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -420,6 +420,12 @@ id: CL:0000106
 name: unipolar neuron
 def: "Neuron with one neurite that extends from the cell body." []
 is_a: CL:0000540 ! neuron
+
+[Term]
+id: CL:0000107
+name: autonomic neuron
+def: "A neruon whose cell body is within an autonomic ganglion." []
+is_a: CL:2000032 ! peripheral nervous system neuron
 
 [Term]
 id: CL:0000108
@@ -3955,6 +3961,12 @@ id: CL:0011101
 name: chorionic trophoblast cell
 def: "Cells of the uterine chorion that acquire specialized structural and/or functional features that characterize chorionic trophoblasts. These cells will migrate towards the spongiotrophoblast layer and give rise to syncytiotrophoblasts of the labyrinthine layer." []
 is_a: CL:0000351 ! trophoblast cell
+
+[Term]
+id: CL:0011103
+name: sympathetic neuron
+def: "Sympathetic neurons are part of the sympathetic nervous system and are primarily adrenergic producing the neurotransmitter noradrenalin along with other neuropeptides." []
+is_a: CL:0000107 ! autonomic neuron
 
 [Term]
 id: CL:0011108

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2017-02-07/imports/po_import.owl
+data-version: go/releases/2017-02-20/imports/po_import.owl
 ontology: go/imports/po_import
 
 [Term]
@@ -2284,6 +2284,14 @@ synonym: "c&#233lula epid&#233rmica del epiblasto (epiblastema) (Spanish, exact)
 synonym: "シュート表皮 細胞 (Japanese, exact)" EXACT []
 is_a: PO:0004013 ! epidermal cell
 relationship: part_of PO:0006035 ! shoot system epidermis
+
+[Term]
+id: PO:0025166
+name: papilla cell
+def: "An epidermal pavement cell with a short protuberance." []
+synonym: "c&#233lula papilosa (Spanish, exact)" EXACT []
+synonym: "乳頭細胞 (Japanese, exact)" EXACT []
+is_a: PO:0000332 ! epidermal pavement cell
 
 [Term]
 id: PO:0025195

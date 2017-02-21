@@ -1,3 +1,5 @@
+THESE INSTRUCTIONS DO NOT YET REFLECT THE LIVE ONTOLOGY
+
 # GO Editors Instructions
 
 Make sure you have an ID range in the [idranges file](go-idranges.owl)

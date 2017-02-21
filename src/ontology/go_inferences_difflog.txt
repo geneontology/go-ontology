@@ -1,4 +1,1342 @@
 ------------------------------------------------------------------------
+r38920 | mcourtot | 2017-02-20 01:04:16 -0800 (Mon, 20 Feb 2017) | 1 line
+
+plant related TCs and pollination as per https://github.com/geneontology/go-ontology/issues/11313#issuecomment-280715396
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38880 | termgenie | 2017-02-17 09:58:02 -0800 (Fri, 17 Feb 2017) | 2 lines
+
+TermGenie commit for user: bmeldal reviewed by tberardini
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38880)
++++ go_inferences.obo	(working copy)
+@@ -90120,6 +90120,13 @@
+ is_a: GO:0043225 {is_inferred="true"} ! ATPase-coupled anion transmembrane transporter activity
+ 
+ [Term]
++id: GO:1905949 ! negative regulation of calcium ion import across plasma membrane
++is_a: GO:0010523 {is_inferred="true"} ! negative regulation of calcium ion transport into cytosol
++is_a: GO:0090281 {is_inferred="true"} ! negative regulation of calcium ion import
++is_a: GO:1903170 {is_inferred="true"} ! negative regulation of calcium ion transmembrane transport
++is_a: GO:1905664 {is_inferred="true"} ! regulation of calcium ion import across plasma membrane
++
++[Term]
+ id: GO:1990000 ! amyloid fibril formation
+ is_a: GO:0044710 {is_inferred="true"} ! single-organism metabolic process
+ 
+------------------------------------------------------------------------
+r38878 | mcourtot | 2017-02-17 07:10:52 -0800 (Fri, 17 Feb 2017) | 1 line
+
+added id: GO:1905948 back which was not in gene_ontology_write.obo but was in validated file
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38870 | paola | 2017-02-17 05:04:26 -0800 (Fri, 17 Feb 2017) | 3 lines
+
+GH NTR: children of cell pole #12007 - closed - edited defs of old/new cell pole terms
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38863 | termgenie | 2017-02-16 09:36:59 -0800 (Thu, 16 Feb 2017) | 2 lines
+
+TermGenie commit for user: hattrill reviewed by tberardini
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38863)
++++ go_inferences.obo	(working copy)
+@@ -90113,6 +90113,13 @@
+ is_a: GO:1905945 {is_inferred="true"} ! regulation of response to calcium ion
+ 
+ [Term]
++id: GO:1905948 ! 3',5'-cyclic GMP transmembrane-transporting ATPase activity
++is_a: GO:0001409 {is_inferred="true"} ! guanine nucleotide transmembrane transporter activity
++is_a: GO:0005346 {is_inferred="true"} ! purine ribonucleotide transmembrane transporter activity
++is_a: GO:0008514 {is_inferred="true"} ! organic anion transmembrane transporter activity
++is_a: GO:0043225 {is_inferred="true"} ! ATPase-coupled anion transmembrane transporter activity
++
++[Term]
+ id: GO:1990000 ! amyloid fibril formation
+ is_a: GO:0044710 {is_inferred="true"} ! single-organism metabolic process
+ 
+------------------------------------------------------------------------
+r38856 | paola | 2017-02-16 03:26:31 -0800 (Thu, 16 Feb 2017) | 3 lines
+
+GH OBS: GO:0022405 ! hair cycle process and GO:0022404 ! molting cycle process #11123 - closed - see ticket for details
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38856)
++++ go_inferences.obo	(working copy)
+@@ -44919,16 +44919,16 @@
+ is_a: GO:0051791 {is_inferred="true"} ! medium-chain fatty acid metabolic process
+ 
+ [Term]
+-id: GO:0051794 ! regulation of catagen
++id: GO:0051794 ! regulation of timing of catagen
+ is_a: GO:0048819 {is_inferred="true"} ! regulation of hair follicle maturation
+ 
+ [Term]
+-id: GO:0051795 ! positive regulation of catagen
+-is_a: GO:0051794 {is_inferred="true"} ! regulation of catagen
++id: GO:0051795 ! positive regulation of timing of catagen
++is_a: GO:0051794 {is_inferred="true"} ! regulation of timing of catagen
+ 
+ [Term]
+-id: GO:0051796 ! negative regulation of catagen
+-is_a: GO:0051794 {is_inferred="true"} ! regulation of catagen
++id: GO:0051796 ! negative regulation of timing of catagen
++is_a: GO:0051794 {is_inferred="true"} ! regulation of timing of catagen
+ 
+ [Term]
+ id: GO:0051797 ! regulation of hair follicle development
+@@ -45019,28 +45019,28 @@
+ is_a: GO:0051899 {is_inferred="true"} ! membrane depolarization
+ 
+ [Term]
+-id: GO:0051884 ! regulation of anagen
++id: GO:0051884 ! regulation of timing of anagen
+ is_a: GO:0048819 {is_inferred="true"} ! regulation of hair follicle maturation
+ 
+ [Term]
+-id: GO:0051885 ! positive regulation of anagen
+-is_a: GO:0051884 {is_inferred="true"} ! regulation of anagen
++id: GO:0051885 ! positive regulation of timing of anagen
++is_a: GO:0051884 {is_inferred="true"} ! regulation of timing of anagen
+ 
+ [Term]
+-id: GO:0051886 ! negative regulation of anagen
+-is_a: GO:0051884 {is_inferred="true"} ! regulation of anagen
++id: GO:0051886 ! negative regulation of timing of anagen
++is_a: GO:0051884 {is_inferred="true"} ! regulation of timing of anagen
+ 
+ [Term]
+-id: GO:0051887 ! regulation of exogen
++id: GO:0051887 ! regulation of timing of exogen
+ is_a: GO:0048819 {is_inferred="true"} ! regulation of hair follicle maturation
+ 
+ [Term]
+-id: GO:0051888 ! positive regulation of exogen
+-is_a: GO:0051887 {is_inferred="true"} ! regulation of exogen
++id: GO:0051888 ! positive regulation of timing of exogen
++is_a: GO:0051887 {is_inferred="true"} ! regulation of timing of exogen
+ 
+ [Term]
+-id: GO:0051889 ! negative regulation of exogen
+-is_a: GO:0051887 {is_inferred="true"} ! regulation of exogen
++id: GO:0051889 ! negative regulation of timing of exogen
++is_a: GO:0051887 {is_inferred="true"} ! regulation of timing of exogen
+ 
+ [Term]
+ id: GO:0051890 ! regulation of cardioblast differentiation
+------------------------------------------------------------------------
+r38854 | paola | 2017-02-16 00:17:16 -0800 (Thu, 16 Feb 2017) | 2 lines
+
+GH sympathetic neuron projection extension/guidance #10445 - closed - added logical def to ‘sympathetic neuron axon guidance’ 
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38765 | mcourtot | 2017-02-15 04:56:48 -0800 (Wed, 15 Feb 2017) | 1 line
+
+updated transcription antitermination definition to site(s) as per https://github.com/geneontology/go-ontology/issues/12178
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38760 | dph | 2017-02-14 09:34:24 -0800 (Tue, 14 Feb 2017) | 2 lines
+
+Tweaked the definition of chaperone-mediated autophagy and added a clause to the logical definition that it has an input of a protein.
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38758 | mcourtot | 2017-02-14 06:32:40 -0800 (Tue, 14 Feb 2017) | 1 line
+
+fixed namespace
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38746 | tberardi | 2017-02-13 16:17:14 -0800 (Mon, 13 Feb 2017) | 1 line
+
+GH13019 missing parent to GO:0090539 peptide pheromone export by transmembrane transport - closed
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38746 | tberardi | 2017-02-13 16:17:14 -0800 (Mon, 13 Feb 2017) | 1 line
+
+GH13019 missing parent to GO:0090539 peptide pheromone export by transmembrane transport - closed
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38744 | tberardi | 2017-02-13 16:08:18 -0800 (Mon, 13 Feb 2017) | 1 line
+
+GH12984 new term Telomere maintenance via telomere trimming - closed again
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38742 | dph | 2017-02-13 06:39:18 -0800 (Mon, 13 Feb 2017) | 2 lines
+
+Added some logical defs for the differentiation in phenotypic switching terms that hopefully clarifies them and allows for good inference. GH13010-closed.
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38742)
++++ go_inferences.obo	(working copy)
+@@ -57725,6 +57725,10 @@
+ is_a: GO:0055085 {is_inferred="true"} ! transmembrane transport
+ 
+ [Term]
++id: GO:0090679 ! cell differentiation involved in phenotypic switching
++is_a: GO:0030154 {is_inferred="true"} ! cell differentiation
++
++[Term]
+ id: GO:0090688 ! cleavage furrow rim
+ is_a: GO:0032155 {is_inferred="true"} ! cell division site part
+ 
+@@ -87567,6 +87571,7 @@
+ [Term]
+ id: GO:1905420 ! vascular smooth muscle cell differentiation involved in phenotypic switching
+ is_a: GO:0035886 {is_inferred="true"} ! vascular smooth muscle cell differentiation
++is_a: GO:0090679 {is_inferred="true"} ! cell differentiation involved in phenotypic switching
+ 
+ [Term]
+ id: GO:1905421 ! regulation of plant organ morphogenesis
+@@ -90008,19 +90013,19 @@
+ 
+ [Term]
+ id: GO:1905930 ! regulation of vascular smooth muscle cell differentiation involved in phenotypic switching
+-is_a: GO:1900239 {is_inferred="true"} ! regulation of phenotypic switching
+ is_a: GO:1905063 {is_inferred="true"} ! regulation of vascular smooth muscle cell differentiation
++is_a: GO:1905915 {is_inferred="true"} ! regulation of cell differentiation involved in phenotypic switching
+ 
+ [Term]
+ id: GO:1905931 ! negative regulation of vascular smooth muscle cell differentiation involved in phenotypic switching
+-is_a: GO:1900240 {is_inferred="true"} ! negative regulation of phenotypic switching
+ is_a: GO:1905064 {is_inferred="true"} ! negative regulation of vascular smooth muscle cell differentiation
++is_a: GO:1905916 {is_inferred="true"} ! negative regulation of cell differentiation involved in phenotypic switching
+ is_a: GO:1905930 {is_inferred="true"} ! regulation of vascular smooth muscle cell differentiation involved in phenotypic switching
+ 
+ [Term]
+ id: GO:1905932 ! positive regulation of vascular smooth muscle cell differentiation involved in phenotypic switching
+-is_a: GO:1900241 {is_inferred="true"} ! positive regulation of phenotypic switching
+ is_a: GO:1905065 {is_inferred="true"} ! positive regulation of vascular smooth muscle cell differentiation
++is_a: GO:1905917 {is_inferred="true"} ! positive regulation of cell differentiation involved in phenotypic switching
+ is_a: GO:1905930 {is_inferred="true"} ! regulation of vascular smooth muscle cell differentiation involved in phenotypic switching
+ 
+ [Term]
+------------------------------------------------------------------------
+r38740 | termgenie | 2017-02-13 06:11:05 -0800 (Mon, 13 Feb 2017) | 4 lines
+
+TermGenie commit for user: BarbaraCzub reviewed by ukemi
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38740)
++++ go_inferences.obo	(working copy)
+@@ -89930,6 +89930,23 @@
+ is_a: GO:1905912 {is_inferred="true"} ! regulation of calcium ion export from cell
+ 
+ [Term]
++id: GO:1905915 ! regulation of cell differentiation involved in phenotypic switching
++is_a: GO:0045595 {is_inferred="true"} ! regulation of cell differentiation
++is_a: GO:1900239 {is_inferred="true"} ! regulation of phenotypic switching
++
++[Term]
++id: GO:1905916 ! negative regulation of cell differentiation involved in phenotypic switching
++is_a: GO:0045596 {is_inferred="true"} ! negative regulation of cell differentiation
++is_a: GO:1900240 {is_inferred="true"} ! negative regulation of phenotypic switching
++is_a: GO:1905915 {is_inferred="true"} ! regulation of cell differentiation involved in phenotypic switching
++
++[Term]
++id: GO:1905917 ! positive regulation of cell differentiation involved in phenotypic switching
++is_a: GO:0045597 {is_inferred="true"} ! positive regulation of cell differentiation
++is_a: GO:1900241 {is_inferred="true"} ! positive regulation of phenotypic switching
++is_a: GO:1905915 {is_inferred="true"} ! regulation of cell differentiation involved in phenotypic switching
++
++[Term]
+ id: GO:1905918 ! regulation of CoA-transferase activity
+ is_a: GO:0051338 {is_inferred="true"} ! regulation of transferase activity
+ 
+@@ -89990,6 +90007,23 @@
+ is_a: GO:1905927 {is_inferred="true"} ! regulation of invadopodium disassembly
+ 
+ [Term]
++id: GO:1905930 ! regulation of vascular smooth muscle cell differentiation involved in phenotypic switching
++is_a: GO:1900239 {is_inferred="true"} ! regulation of phenotypic switching
++is_a: GO:1905063 {is_inferred="true"} ! regulation of vascular smooth muscle cell differentiation
++
++[Term]
++id: GO:1905931 ! negative regulation of vascular smooth muscle cell differentiation involved in phenotypic switching
++is_a: GO:1900240 {is_inferred="true"} ! negative regulation of phenotypic switching
++is_a: GO:1905064 {is_inferred="true"} ! negative regulation of vascular smooth muscle cell differentiation
++is_a: GO:1905930 {is_inferred="true"} ! regulation of vascular smooth muscle cell differentiation involved in phenotypic switching
++
++[Term]
++id: GO:1905932 ! positive regulation of vascular smooth muscle cell differentiation involved in phenotypic switching
++is_a: GO:1900241 {is_inferred="true"} ! positive regulation of phenotypic switching
++is_a: GO:1905065 {is_inferred="true"} ! positive regulation of vascular smooth muscle cell differentiation
++is_a: GO:1905930 {is_inferred="true"} ! regulation of vascular smooth muscle cell differentiation involved in phenotypic switching
++
++[Term]
+ id: GO:1905933 ! regulation of cell fate determination
+ is_a: GO:0010453 {is_inferred="true"} ! regulation of cell fate commitment
+ 
+@@ -90004,6 +90038,76 @@
+ is_a: GO:1905933 {is_inferred="true"} ! regulation of cell fate determination
+ 
+ [Term]
++id: GO:1905936 ! regulation of germ cell proliferation
++is_a: GO:0042127 {is_inferred="true"} ! regulation of cell proliferation
++is_a: GO:0043900 {is_inferred="true"} ! regulation of multi-organism process
++is_a: GO:0051239 {is_inferred="true"} ! regulation of multicellular organismal process
++is_a: GO:2000241 {is_inferred="true"} ! regulation of reproductive process
++
++[Term]
++id: GO:1905937 ! negative regulation of germ cell proliferation
++is_a: GO:0008285 {is_inferred="true"} ! negative regulation of cell proliferation
++is_a: GO:0043901 {is_inferred="true"} ! negative regulation of multi-organism process
++is_a: GO:0051241 {is_inferred="true"} ! negative regulation of multicellular organismal process
++is_a: GO:1905936 {is_inferred="true"} ! regulation of germ cell proliferation
++is_a: GO:2000242 {is_inferred="true"} ! negative regulation of reproductive process
++
++[Term]
++id: GO:1905938 ! positive regulation of germ cell proliferation
++is_a: GO:0008284 {is_inferred="true"} ! positive regulation of cell proliferation
++is_a: GO:0043902 {is_inferred="true"} ! positive regulation of multi-organism process
++is_a: GO:0051240 {is_inferred="true"} ! positive regulation of multicellular organismal process
++is_a: GO:1905936 {is_inferred="true"} ! regulation of germ cell proliferation
++is_a: GO:2000243 {is_inferred="true"} ! positive regulation of reproductive process
++
++[Term]
++id: GO:1905939 ! regulation of gonad development
++is_a: GO:2000026 {is_inferred="true"} ! regulation of multicellular organismal development
++is_a: GO:2000241 {is_inferred="true"} ! regulation of reproductive process
++
++[Term]
++id: GO:1905940 ! negative regulation of gonad development
++is_a: GO:0051093 {is_inferred="true"} ! negative regulation of developmental process
++is_a: GO:0051241 {is_inferred="true"} ! negative regulation of multicellular organismal process
++is_a: GO:1905939 {is_inferred="true"} ! regulation of gonad development
++is_a: GO:2000242 {is_inferred="true"} ! negative regulation of reproductive process
++
++[Term]
++id: GO:1905941 ! positive regulation of gonad development
++is_a: GO:0051094 {is_inferred="true"} ! positive regulation of developmental process
++is_a: GO:0051240 {is_inferred="true"} ! positive regulation of multicellular organismal process
++is_a: GO:1905939 {is_inferred="true"} ! regulation of gonad development
++is_a: GO:2000243 {is_inferred="true"} ! positive regulation of reproductive process
++
++[Term]
++id: GO:1905942 ! regulation of formation of growth cone in injured axon
++is_a: GO:0048686 {is_inferred="true"} ! regulation of sprouting of injured axon
++
++[Term]
++id: GO:1905943 ! negative regulation of formation of growth cone in injured axon
++is_a: GO:0048688 {is_inferred="true"} ! negative regulation of sprouting of injured axon
++is_a: GO:1905942 {is_inferred="true"} ! regulation of formation of growth cone in injured axon
++
++[Term]
++id: GO:1905944 ! positive regulation of formation of growth cone in injured axon
++is_a: GO:0048687 {is_inferred="true"} ! positive regulation of sprouting of injured axon
++is_a: GO:1905942 {is_inferred="true"} ! regulation of formation of growth cone in injured axon
++
++[Term]
++id: GO:1905945 ! regulation of response to calcium ion
++is_a: GO:0048583 {is_inferred="true"} ! regulation of response to stimulus
++
++[Term]
++id: GO:1905946 ! negative regulation of response to calcium ion
++is_a: GO:0048585 {is_inferred="true"} ! negative regulation of response to stimulus
++is_a: GO:1905945 {is_inferred="true"} ! regulation of response to calcium ion
++
++[Term]
++id: GO:1905947 ! positive regulation of response to calcium ion
++is_a: GO:0048584 {is_inferred="true"} ! positive regulation of response to stimulus
++is_a: GO:1905945 {is_inferred="true"} ! regulation of response to calcium ion
++
++[Term]
+ id: GO:1990000 ! amyloid fibril formation
+ is_a: GO:0044710 {is_inferred="true"} ! single-organism metabolic process
+ 
+@@ -91129,22 +91233,17 @@
+ 
+ [Term]
+ id: GO:2000018 ! regulation of male gonad development
+-is_a: GO:2000026 {is_inferred="true"} ! regulation of multicellular organismal development
+-is_a: GO:2000241 {is_inferred="true"} ! regulation of reproductive process
++is_a: GO:1905939 {is_inferred="true"} ! regulation of gonad development
+ 
+ [Term]
+ id: GO:2000019 ! negative regulation of male gonad development
+-is_a: GO:0051093 {is_inferred="true"} ! negative regulation of developmental process
+-is_a: GO:0051241 {is_inferred="true"} ! negative regulation of multicellular organismal process
++is_a: GO:1905940 {is_inferred="true"} ! negative regulation of gonad development
+ is_a: GO:2000018 {is_inferred="true"} ! regulation of male gonad development
+-is_a: GO:2000242 {is_inferred="true"} ! negative regulation of reproductive process
+ 
+ [Term]
+ id: GO:2000020 ! positive regulation of male gonad development
+-is_a: GO:0051094 {is_inferred="true"} ! positive regulation of developmental process
+-is_a: GO:0051240 {is_inferred="true"} ! positive regulation of multicellular organismal process
++is_a: GO:1905941 {is_inferred="true"} ! positive regulation of gonad development
+ is_a: GO:2000018 {is_inferred="true"} ! regulation of male gonad development
+-is_a: GO:2000243 {is_inferred="true"} ! positive regulation of reproductive process
+ 
+ [Term]
+ id: GO:2000022 ! regulation of jasmonic acid mediated signaling pathway
+@@ -91968,6 +92067,18 @@
+ is_a: GO:2000191 {is_inferred="true"} ! regulation of fatty acid transport
+ 
+ [Term]
++id: GO:2000194 ! regulation of female gonad development
++is_a: GO:1905939 {is_inferred="true"} ! regulation of gonad development
++
++[Term]
++id: GO:2000195 ! negative regulation of female gonad development
++is_a: GO:1905940 {is_inferred="true"} ! negative regulation of gonad development
++
++[Term]
++id: GO:2000196 ! positive regulation of female gonad development
++is_a: GO:1905941 {is_inferred="true"} ! positive regulation of gonad development
++
++[Term]
+ id: GO:2000197 ! regulation of ribonucleoprotein complex localization
+ is_a: GO:0060341 {is_inferred="true"} ! regulation of cellular localization
+ 
+@@ -92240,23 +92351,16 @@
+ 
+ [Term]
+ id: GO:2000254 ! regulation of male germ cell proliferation
+-is_a: GO:0042127 {is_inferred="true"} ! regulation of cell proliferation
+-is_a: GO:0043900 {is_inferred="true"} ! regulation of multi-organism process
+-is_a: GO:0051239 {is_inferred="true"} ! regulation of multicellular organismal process
+-is_a: GO:2000241 {is_inferred="true"} ! regulation of reproductive process
++is_a: GO:1905936 {is_inferred="true"} ! regulation of germ cell proliferation
+ 
+ [Term]
+ id: GO:2000255 ! negative regulation of male germ cell proliferation
+-is_a: GO:0008285 {is_inferred="true"} ! negative regulation of cell proliferation
+-is_a: GO:0043901 {is_inferred="true"} ! negative regulation of multi-organism process
+-is_a: GO:0051241 {is_inferred="true"} ! negative regulation of multicellular organismal process
++is_a: GO:1905937 {is_inferred="true"} ! negative regulation of germ cell proliferation
+ is_a: GO:2000254 {is_inferred="true"} ! regulation of male germ cell proliferation
+ 
+ [Term]
+ id: GO:2000256 ! positive regulation of male germ cell proliferation
+-is_a: GO:0008284 {is_inferred="true"} ! positive regulation of cell proliferation
+-is_a: GO:0043902 {is_inferred="true"} ! positive regulation of multi-organism process
+-is_a: GO:0051240 {is_inferred="true"} ! positive regulation of multicellular organismal process
++is_a: GO:1905938 {is_inferred="true"} ! positive regulation of germ cell proliferation
+ is_a: GO:2000254 {is_inferred="true"} ! regulation of male germ cell proliferation
+ 
+ [Term]
+------------------------------------------------------------------------
+r38733 | paola | 2017-02-13 04:02:06 -0800 (Mon, 13 Feb 2017) | 2 lines
+
+Fixed typo in def. comment of 'axoneme'
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38699 | tberardi | 2017-02-10 15:20:27 -0800 (Fri, 10 Feb 2017) | 1 line
+
+GH12886 TPV protein import into nucleus, docking - closed
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38699)
++++ go_inferences.obo	(working copy)
+@@ -1650,7 +1650,7 @@
+ 
+ [Term]
+ id: GO:0001893 ! maternal placenta development
+-is_a: GO:0048608 {is_inferred="true"} ! reproductive structure development
++is_a: GO:0003006 {is_inferred="true"} ! developmental process involved in reproduction
+ 
+ [Term]
+ id: GO:0001898 ! regulation of cytolysis by symbiont of host cells
+@@ -4104,18 +4104,10 @@
+ is_a: GO:2000027 {is_inferred="true"} ! regulation of organ morphogenesis
+ 
+ [Term]
+-id: GO:0003157 ! endocardium development
+-is_a: GO:0003158 {is_inferred="true"} ! endothelium development
+-
+-[Term]
+ id: GO:0003158 ! endothelium development
+ is_a: GO:0060429 {is_inferred="true"} ! epithelium development
+ 
+ [Term]
+-id: GO:0003160 ! endocardium morphogenesis
+-is_a: GO:0003159 {is_inferred="true"} ! morphogenesis of an endothelium
+-
+-[Term]
+ id: GO:0003161 ! cardiac conduction system development
+ is_a: GO:0048738 {is_inferred="true"} ! cardiac muscle tissue development
+ 
+@@ -21010,6 +21002,10 @@
+ is_a: GO:0010927 {is_inferred="true"} ! cellular component assembly involved in morphogenesis
+ 
+ [Term]
++id: GO:0030916 ! otic vesicle formation
++is_a: GO:0072175 {is_inferred="true"} ! epithelial tube formation
++
++[Term]
+ id: GO:0030932 ! amyloplast ADPG pyrophosphorylase complex
+ is_a: GO:0031009 {is_inferred="true"} ! plastid ADPG pyrophosphorylase complex
+ 
+@@ -52785,11 +52781,12 @@
+ 
+ [Term]
+ id: GO:0071599 ! otic vesicle development
++is_a: GO:0035295 {is_inferred="true"} ! tube development
+ is_a: GO:0060429 {is_inferred="true"} ! epithelium development
+ 
+ [Term]
+ id: GO:0071600 ! otic vesicle morphogenesis
+-is_a: GO:0002009 {is_inferred="true"} ! morphogenesis of an epithelium
++is_a: GO:0060562 {is_inferred="true"} ! epithelial tube morphogenesis
+ 
+ [Term]
+ id: GO:0071602 ! phytosphingosine biosynthetic process
+@@ -97827,10 +97824,6 @@
+ is_a: CHEBI:36080 {is_inferred="true"} ! protein
+ 
+ [Term]
+-id: PR:000007499 ! fibroblast growth factor 8
+-is_a: CHEBI:36080 {is_inferred="true"} ! protein
+-
+-[Term]
+ id: PR:000007555 ! filamin-A
+ is_a: CHEBI:36080 {is_inferred="true"} ! protein
+ 
+@@ -97847,10 +97840,6 @@
+ is_a: CHEBI:36080 {is_inferred="true"} ! protein
+ 
+ [Term]
+-id: PR:000007636 ! forkhead box protein N1
+-is_a: CHEBI:36080 {is_inferred="true"} ! protein
+-
+-[Term]
+ id: PR:000007806 ! galanin
+ is_a: CHEBI:36080 {is_inferred="true"} ! protein
+ 
+@@ -98079,18 +98068,10 @@
+ is_a: CHEBI:36080 {is_inferred="true"} ! protein
+ 
+ [Term]
+-id: PR:000014841 ! sonic hedgehog protein
+-is_a: CHEBI:36080 {is_inferred="true"} ! protein
+-
+-[Term]
+ id: PR:000015288 ! smoothened
+ is_a: CHEBI:36080 {is_inferred="true"} ! protein
+ 
+ [Term]
+-id: PR:000015557 ! spondin-1
+-is_a: CHEBI:36080 {is_inferred="true"} ! protein
+-
+-[Term]
+ id: PR:000015794 ! syntaxin-2
+ is_a: CHEBI:36080 {is_inferred="true"} ! protein
+ 
+@@ -98219,38 +98200,10 @@
+ is_a: CHEBI:33699 {is_inferred="true"} ! messenger RNA
+ 
+ [Term]
+-id: UBERON:0001289 ! descending limb of loop of Henle
+-is_a: UBERON:0004810 {is_inferred="true"} ! nephron tubule epithelium
+-
+-[Term]
+ id: UBERON:0003261 ! thyroid primordium endoderm
+ is_a: UBERON:0004119 {is_inferred="true"} ! endoderm-derived structure
+ 
+ [Term]
+-id: UBERON:0004134 ! proximal tubule
+-is_a: UBERON:0004810 {is_inferred="true"} ! nephron tubule epithelium
+-
+-[Term]
+-id: UBERON:0004136 ! intermediate tubule
+-is_a: UBERON:0004810 {is_inferred="true"} ! nephron tubule epithelium
+-
+-[Term]
+-id: UBERON:0005130 ! metanephric loop of Henle
+-is_a: UBERON:0004810 {is_inferred="true"} ! nephron tubule epithelium
+-
+-[Term]
+-id: UBERON:0005164 ! ascending limb of loop of Henle
+-is_a: UBERON:0004810 {is_inferred="true"} ! nephron tubule epithelium
+-
+-[Term]
+-id: UBERON:0005421 ! pectoral appendage apical ectodermal ridge
+-is_a: UBERON:0004121 {is_inferred="true"} ! ectoderm-derived structure
+-
+-[Term]
+-id: UBERON:0005422 ! pelvic appendage apical ectodermal ridge
+-is_a: UBERON:0004121 {is_inferred="true"} ! ectoderm-derived structure
+-
+-[Term]
+ id: UBERON:0005721 ! pronephric mesoderm
+ is_a: UBERON:0004120 {is_inferred="true"} ! mesoderm-derived structure
+ 
+------------------------------------------------------------------------
+r38694 | dph | 2017-02-10 10:45:21 -0800 (Fri, 10 Feb 2017) | 2 lines
+
+Asserted chemical classifications for estrogen and androgen.
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38694)
++++ go_inferences.obo	(working copy)
+@@ -8505,6 +8505,14 @@
+ is_a: GO:0008207 {is_inferred="true"} ! C21-steroid hormone metabolic process
+ 
+ [Term]
++id: GO:0008209 ! androgen metabolic process
++is_a: GO:0044763 {is_inferred="true"} ! single-organism cellular process
++
++[Term]
++id: GO:0008210 ! estrogen metabolic process
++is_a: GO:0044763 {is_inferred="true"} ! single-organism cellular process
++
++[Term]
+ id: GO:0008215 ! spermine metabolic process
+ is_a: GO:0097164 {is_inferred="true"} ! ammonium ion metabolic process
+ 
+@@ -81040,14 +81048,17 @@
+ [Term]
+ id: GO:1904076 ! regulation of estrogen biosynthetic process
+ is_a: GO:0046885 {is_inferred="true"} ! regulation of hormone biosynthetic process
++is_a: GO:0050810 {is_inferred="true"} ! regulation of steroid biosynthetic process
+ 
+ [Term]
+ id: GO:1904077 ! negative regulation of estrogen biosynthetic process
++is_a: GO:0010894 {is_inferred="true"} ! negative regulation of steroid biosynthetic process
+ is_a: GO:0032353 {is_inferred="true"} ! negative regulation of hormone biosynthetic process
+ is_a: GO:1904076 {is_inferred="true"} ! regulation of estrogen biosynthetic process
+ 
+ [Term]
+ id: GO:1904078 ! positive regulation of estrogen biosynthetic process
++is_a: GO:0010893 {is_inferred="true"} ! positive regulation of steroid biosynthetic process
+ is_a: GO:0046886 {is_inferred="true"} ! positive regulation of hormone biosynthetic process
+ is_a: GO:1904076 {is_inferred="true"} ! regulation of estrogen biosynthetic process
+ 
+@@ -91894,6 +91905,7 @@
+ 
+ [Term]
+ id: GO:2000180 ! negative regulation of androgen biosynthetic process
++is_a: GO:0010894 {is_inferred="true"} ! negative regulation of steroid biosynthetic process
+ is_a: GO:0032353 {is_inferred="true"} ! negative regulation of hormone biosynthetic process
+ 
+ [Term]
+------------------------------------------------------------------------
+r38692 | dph | 2017-02-10 10:19:37 -0800 (Fri, 10 Feb 2017) | 2 lines
+
+Fixed bad PMID.
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38692)
++++ go_inferences.obo	(working copy)
+@@ -49310,6 +49310,17 @@
+ is_a: GO:0061847 {is_inferred="true"} ! response to cholecystokinin
+ 
+ [Term]
++id: GO:0061850 ! growth cone leading edge
++is_a: GO:0031252 {is_inferred="true"} ! cell leading edge
++is_a: GO:0044463 {is_inferred="true"} ! cell projection part
++is_a: GO:0097458 {is_inferred="true"} ! neuron part
++
++[Term]
++id: GO:0061851 ! leading edge of lamellipodium
++is_a: GO:0031252 {is_inferred="true"} ! cell leading edge
++is_a: GO:0044463 {is_inferred="true"} ! cell projection part
++
++[Term]
+ id: GO:0065002 ! intracellular protein transmembrane transport
+ is_a: GO:0006886 {is_inferred="true"} ! intracellular protein transport
+ is_a: GO:0071806 {is_inferred="true"} ! protein transmembrane transport
+------------------------------------------------------------------------
+r38689 | dph | 2017-02-10 08:40:51 -0800 (Fri, 10 Feb 2017) | 2 lines
+
+Lots of edits to the ERAD pathway and associated terms. GH12912-closed
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38689)
++++ go_inferences.obo	(working copy)
+@@ -58275,7 +58275,7 @@
+ is_a: GO:0098659 {is_inferred="true"} ! inorganic cation import into cell
+ 
+ [Term]
+-id: GO:0097466 ! glycoprotein ERAD pathway
++id: GO:0097466 ! ubiquitin-dependent glycoprotein ERAD pathway
+ is_a: GO:1904587 {is_inferred="true"} ! response to glycoprotein
+ 
+ [Term]
+------------------------------------------------------------------------
+r38687 | dph | 2017-02-10 04:15:23 -0800 (Fri, 10 Feb 2017) | 2 lines
+
+GH1300-closed
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38687)
++++ go_inferences.obo	(working copy)
+@@ -22144,6 +22144,7 @@
+ 
+ [Term]
+ id: GO:0031569 ! G2 cell size control checkpoint
++is_a: GO:0010972 {is_inferred="true"} ! negative regulation of G2/M transition of mitotic cell cycle
+ is_a: GO:0031567 {is_inferred="true"} ! mitotic cell size control checkpoint
+ 
+ [Term]
+------------------------------------------------------------------------
+r38682 | tberardi | 2017-02-09 17:23:33 -0800 (Thu, 09 Feb 2017) | 1 line
+
+GH12991 mRNA metabolism parent? - closed again
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38682)
++++ go_inferences.obo	(working copy)
+@@ -48094,6 +48094,7 @@
+ 
+ [Term]
+ id: GO:0061013 ! regulation of mRNA catabolic process
++is_a: GO:0010468 {is_inferred="true"} ! regulation of gene expression
+ is_a: GO:0031329 {is_inferred="true"} ! regulation of cellular catabolic process
+ is_a: GO:1903311 {is_inferred="true"} ! regulation of mRNA metabolic process
+ 
+@@ -73074,6 +73075,7 @@
+ 
+ [Term]
+ id: GO:1902373 ! negative regulation of mRNA catabolic process
++is_a: GO:0010628 {is_inferred="true"} ! positive regulation of gene expression
+ is_a: GO:0061013 {is_inferred="true"} ! regulation of mRNA catabolic process
+ is_a: GO:1902369 {is_inferred="true"} ! negative regulation of RNA catabolic process
+ is_a: GO:1903312 {is_inferred="true"} ! negative regulation of mRNA metabolic process
+------------------------------------------------------------------------
+r38673 | paola | 2017-02-09 07:49:30 -0800 (Thu, 09 Feb 2017) | 3 lines
+
+GH NTR: vasodilation by nitric oxide #12253 - work in progress
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38668 | dph | 2017-02-09 06:05:30 -0800 (Thu, 09 Feb 2017) | 2 lines
+
+GH13005-closed
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38668 | dph | 2017-02-09 06:05:30 -0800 (Thu, 09 Feb 2017) | 2 lines
+
+GH13005-closed
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38666 | dph | 2017-02-09 05:38:07 -0800 (Thu, 09 Feb 2017) | 2 lines
+
+GH13007-closed
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38666)
++++ go_inferences.obo	(working copy)
+@@ -49319,6 +49319,10 @@
+ is_a: GO:0044456 {is_inferred="true"} ! synapse part
+ 
+ [Term]
++id: GO:0061848 ! cellular response to cholecystokinin
++is_a: GO:0061847 {is_inferred="true"} ! response to cholecystokinin
++
++[Term]
+ id: GO:0065002 ! intracellular protein transmembrane transport
+ is_a: GO:0006886 {is_inferred="true"} ! intracellular protein transport
+ is_a: GO:0071806 {is_inferred="true"} ! protein transmembrane transport
+------------------------------------------------------------------------
+r38664 | termgenie | 2017-02-09 04:17:44 -0800 (Thu, 09 Feb 2017) | 4 lines
+
+TermGenie commit for user: bmeldal reviewed by ukemi
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38664)
++++ go_inferences.obo	(working copy)
+@@ -41455,20 +41455,20 @@
+ 
+ [Term]
+ id: GO:0048334 ! regulation of mesodermal cell fate determination
+-is_a: GO:0010453 {is_inferred="true"} ! regulation of cell fate commitment
+ is_a: GO:1905770 {is_inferred="true"} ! regulation of mesodermal cell differentiation
++is_a: GO:1905933 {is_inferred="true"} ! regulation of cell fate determination
+ 
+ [Term]
+ id: GO:0048335 ! negative regulation of mesodermal cell fate determination
+-is_a: GO:0010454 {is_inferred="true"} ! negative regulation of cell fate commitment
+ is_a: GO:0048334 {is_inferred="true"} ! regulation of mesodermal cell fate determination
+ is_a: GO:1905771 {is_inferred="true"} ! negative regulation of mesodermal cell differentiation
++is_a: GO:1905934 {is_inferred="true"} ! negative regulation of cell fate determination
+ 
+ [Term]
+ id: GO:0048336 ! positive regulation of mesodermal cell fate determination
+-is_a: GO:0010455 {is_inferred="true"} ! positive regulation of cell fate commitment
+ is_a: GO:0048334 {is_inferred="true"} ! regulation of mesodermal cell fate determination
+ is_a: GO:1905772 {is_inferred="true"} ! positive regulation of mesodermal cell differentiation
++is_a: GO:1905935 {is_inferred="true"} ! positive regulation of cell fate determination
+ 
+ [Term]
+ id: GO:0048337 ! positive regulation of mesodermal cell fate specification
+@@ -84472,18 +84472,18 @@
+ 
+ [Term]
+ id: GO:1904785 ! regulation of asymmetric protein localization involved in cell fate determination
+-is_a: GO:0010453 {is_inferred="true"} ! regulation of cell fate commitment
+ is_a: GO:0032880 {is_inferred="true"} ! regulation of protein localization
++is_a: GO:1905933 {is_inferred="true"} ! regulation of cell fate determination
+ 
+ [Term]
+ id: GO:1904786 ! negative regulation of asymmetric protein localization involved in cell fate determination
+-is_a: GO:0010454 {is_inferred="true"} ! negative regulation of cell fate commitment
+ is_a: GO:1904785 {is_inferred="true"} ! regulation of asymmetric protein localization involved in cell fate determination
++is_a: GO:1905934 {is_inferred="true"} ! negative regulation of cell fate determination
+ 
+ [Term]
+ id: GO:1904787 ! positive regulation of asymmetric protein localization involved in cell fate determination
+-is_a: GO:0010455 {is_inferred="true"} ! positive regulation of cell fate commitment
+ is_a: GO:1904785 {is_inferred="true"} ! regulation of asymmetric protein localization involved in cell fate determination
++is_a: GO:1905935 {is_inferred="true"} ! positive regulation of cell fate determination
+ 
+ [Term]
+ id: GO:1904788 ! positive regulation of induction of conjugation with cellular fusion by regulation of transcription from RNA polymerase II promoter
+@@ -89919,6 +89919,80 @@
+ is_a: GO:1905912 {is_inferred="true"} ! regulation of calcium ion export from cell
+ 
+ [Term]
++id: GO:1905918 ! regulation of CoA-transferase activity
++is_a: GO:0051338 {is_inferred="true"} ! regulation of transferase activity
++
++[Term]
++id: GO:1905919 ! negative regulation of CoA-transferase activity
++is_a: GO:0051348 {is_inferred="true"} ! negative regulation of transferase activity
++is_a: GO:1905918 {is_inferred="true"} ! regulation of CoA-transferase activity
++
++[Term]
++id: GO:1905920 ! positive regulation of CoA-transferase activity
++is_a: GO:0051347 {is_inferred="true"} ! positive regulation of transferase activity
++is_a: GO:1905918 {is_inferred="true"} ! regulation of CoA-transferase activity
++
++[Term]
++id: GO:1905921 ! regulation of acetylcholine biosynthetic process
++is_a: GO:0031326 {is_inferred="true"} ! regulation of cellular biosynthetic process
++is_a: GO:0060408 {is_inferred="true"} ! regulation of acetylcholine metabolic process
++
++[Term]
++id: GO:1905922 ! negative regulation of acetylcholine biosynthetic process
++is_a: GO:0031327 {is_inferred="true"} ! negative regulation of cellular biosynthetic process
++is_a: GO:0060410 {is_inferred="true"} ! negative regulation of acetylcholine metabolic process
++is_a: GO:1905921 {is_inferred="true"} ! regulation of acetylcholine biosynthetic process
++
++[Term]
++id: GO:1905923 ! positive regulation of acetylcholine biosynthetic process
++is_a: GO:0031328 {is_inferred="true"} ! positive regulation of cellular biosynthetic process
++is_a: GO:0060409 {is_inferred="true"} ! positive regulation of acetylcholine metabolic process
++is_a: GO:1905921 {is_inferred="true"} ! regulation of acetylcholine biosynthetic process
++
++[Term]
++id: GO:1905924 ! regulation of invadopodium assembly
++is_a: GO:0060491 {is_inferred="true"} ! regulation of cell projection assembly
++
++[Term]
++id: GO:1905925 ! negative regulation of invadopodium assembly
++is_a: GO:0031345 {is_inferred="true"} ! negative regulation of cell projection organization
++is_a: GO:1905924 {is_inferred="true"} ! regulation of invadopodium assembly
++
++[Term]
++id: GO:1905926 ! positive regulation of invadopodium assembly
++is_a: GO:0031346 {is_inferred="true"} ! positive regulation of cell projection organization
++is_a: GO:0044089 {is_inferred="true"} ! positive regulation of cellular component biogenesis
++is_a: GO:1905924 {is_inferred="true"} ! regulation of invadopodium assembly
++
++[Term]
++id: GO:1905927 ! regulation of invadopodium disassembly
++is_a: GO:0031344 {is_inferred="true"} ! regulation of cell projection organization
++
++[Term]
++id: GO:1905928 ! negative regulation of invadopodium disassembly
++is_a: GO:0031345 {is_inferred="true"} ! negative regulation of cell projection organization
++is_a: GO:1905927 {is_inferred="true"} ! regulation of invadopodium disassembly
++
++[Term]
++id: GO:1905929 ! positive regulation of invadopodium disassembly
++is_a: GO:0031346 {is_inferred="true"} ! positive regulation of cell projection organization
++is_a: GO:1905927 {is_inferred="true"} ! regulation of invadopodium disassembly
++
++[Term]
++id: GO:1905933 ! regulation of cell fate determination
++is_a: GO:0010453 {is_inferred="true"} ! regulation of cell fate commitment
++
++[Term]
++id: GO:1905934 ! negative regulation of cell fate determination
++is_a: GO:0010454 {is_inferred="true"} ! negative regulation of cell fate commitment
++is_a: GO:1905933 {is_inferred="true"} ! regulation of cell fate determination
++
++[Term]
++id: GO:1905935 ! positive regulation of cell fate determination
++is_a: GO:0010455 {is_inferred="true"} ! positive regulation of cell fate commitment
++is_a: GO:1905933 {is_inferred="true"} ! regulation of cell fate determination
++
++[Term]
+ id: GO:1990000 ! amyloid fibril formation
+ is_a: GO:0044710 {is_inferred="true"} ! single-organism metabolic process
+ 
+------------------------------------------------------------------------
+r38658 | hjd | 2017-02-08 14:07:47 -0800 (Wed, 08 Feb 2017) | 2 lines
+
+retyped in def by hand
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38653 | davidos | 2017-02-08 08:54:09 -0800 (Wed, 08 Feb 2017) | 1 line
+
+More global change of pattern for regulation of biological process. Diff is pretty huge. Expecting new inferences to result (although none happened in last commit!) see https://github.com/geneontology/go-ontology/issues/13006.
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38651 | davidos | 2017-02-08 08:24:29 -0800 (Wed, 08 Feb 2017) | 1 line
+
+Global change of pattern for regulation of biological process. Diff is pretty huge. Expecting new inferences to result. see https://github.com/geneontology/go-ontology/issues/13006.
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38649 | paola | 2017-02-08 07:40:13 -0800 (Wed, 08 Feb 2017) | 2 lines
+
+GH NTR: vasodilation by nitric oxide #12253 - more work
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38649)
++++ go_inferences.obo	(working copy)
+@@ -37689,6 +37689,7 @@
+ [Term]
+ id: GO:0045906 ! negative regulation of vasoconstriction
+ is_a: GO:0019229 {is_inferred="true"} ! regulation of vasoconstriction
++is_a: GO:0097755 {is_inferred="true"} ! positive regulation of blood vessel diameter
+ is_a: GO:1903523 {is_inferred="true"} ! negative regulation of blood circulation
+ 
+ [Term]
+------------------------------------------------------------------------
+r38647 | paola | 2017-02-08 07:15:06 -0800 (Wed, 08 Feb 2017) | 2 lines
+
+GH NTR: vasodilation by nitric oxide #12253 - work in progress 
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38647)
++++ go_inferences.obo	(working copy)
+@@ -88689,25 +88689,6 @@
+ is_a: GO:1905654 {is_inferred="true"} ! regulation of artery smooth muscle contraction
+ 
+ [Term]
+-id: GO:1905657 ! regulation of relaxation of vascular smooth muscle
+-is_a: GO:0006940 {is_inferred="true"} ! regulation of smooth muscle contraction
+-is_a: GO:0042312 {is_inferred="true"} ! regulation of vasodilation
+-is_a: GO:1901080 {is_inferred="true"} ! regulation of relaxation of smooth muscle
+-
+-[Term]
+-id: GO:1905658 ! negative regulation of relaxation of vascular smooth muscle
+-is_a: GO:0045908 {is_inferred="true"} ! negative regulation of vasodilation
+-is_a: GO:0045987 {is_inferred="true"} ! positive regulation of smooth muscle contraction
+-is_a: GO:1901081 {is_inferred="true"} ! negative regulation of relaxation of smooth muscle
+-is_a: GO:1905657 {is_inferred="true"} ! regulation of relaxation of vascular smooth muscle
+-
+-[Term]
+-id: GO:1905659 ! positive regulation of relaxation of vascular smooth muscle
+-is_a: GO:0045909 {is_inferred="true"} ! positive regulation of vasodilation
+-is_a: GO:1901082 {is_inferred="true"} ! positive regulation of relaxation of smooth muscle
+-is_a: GO:1905657 {is_inferred="true"} ! regulation of relaxation of vascular smooth muscle
+-
+-[Term]
+ id: GO:1905660 ! mitotic checkpoint complex assembly
+ is_a: GO:0006461 {is_inferred="true"} ! protein complex assembly
+ 
+------------------------------------------------------------------------
+r38643 | paola | 2017-02-08 06:45:10 -0800 (Wed, 08 Feb 2017) | 2 lines
+
+GH NTR: vasodilation by nitric oxide #12253 - work in progress
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38641 | mcourtot | 2017-02-08 06:06:44 -0800 (Wed, 08 Feb 2017) | 1 line
+
+modified lactation. Closes #12382
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38635 | paola | 2017-02-08 02:42:32 -0800 (Wed, 08 Feb 2017) | 2 lines
+
+GH NTR: vasodilation by nitric oxide #12253 - work in progress
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38635)
++++ go_inferences.obo	(working copy)
+@@ -34817,7 +34817,7 @@
+ is_a: GO:1902562 {is_inferred="true"} ! H4 histone acetyltransferase complex
+ 
+ [Term]
+-id: GO:0044552 ! modulation of vasodilation in other organism
++id: GO:0044552 ! vasodilation in other organism
+ is_a: GO:0044706 {is_inferred="true"} ! multi-multicellular organism process
+ 
+ [Term]
+------------------------------------------------------------------------
+r38632 | tberardi | 2017-02-07 17:03:47 -0800 (Tue, 07 Feb 2017) | 1 line
+
+GH12984 new term Telomere maintenance via telomere trimming  - closed
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38632)
++++ go_inferences.obo	(working copy)
+@@ -82730,6 +82730,7 @@
+ [Term]
+ id: GO:1904429 ! regulation of t-circle formation
+ is_a: GO:0032204 {is_inferred="true"} ! regulation of telomere maintenance
++is_a: GO:0044087 {is_inferred="true"} ! regulation of cellular component biogenesis
+ 
+ [Term]
+ id: GO:1904430 ! negative regulation of t-circle formation
+@@ -82739,6 +82740,7 @@
+ [Term]
+ id: GO:1904431 ! positive regulation of t-circle formation
+ is_a: GO:0032206 {is_inferred="true"} ! positive regulation of telomere maintenance
++is_a: GO:0044089 {is_inferred="true"} ! positive regulation of cellular component biogenesis
+ is_a: GO:1904429 {is_inferred="true"} ! regulation of t-circle formation
+ 
+ [Term]
+------------------------------------------------------------------------
+r38630 | tberardi | 2017-02-07 11:41:43 -0800 (Tue, 07 Feb 2017) | 1 line
+
+GH12980 NTR: replication fork processing at tRNA genes - closed
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38628 | termgenie | 2017-02-07 07:44:26 -0800 (Tue, 07 Feb 2017) | 4 lines
+
+TermGenie commit for user: rachhuntley reviewed by ukemi
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38628)
++++ go_inferences.obo	(working copy)
+@@ -89907,6 +89907,34 @@
+ is_a: GO:1905906 {is_inferred="true"} ! regulation of amyloid fibril formation
+ 
+ [Term]
++id: GO:1905909 ! regulation of dauer entry
++is_a: GO:0061065 {is_inferred="true"} ! regulation of dauer larval development
++
++[Term]
++id: GO:1905910 ! negative regulation of dauer entry
++is_a: GO:0061067 {is_inferred="true"} ! negative regulation of dauer larval development
++is_a: GO:1905909 {is_inferred="true"} ! regulation of dauer entry
++
++[Term]
++id: GO:1905911 ! positive regulation of dauer entry
++is_a: GO:0061066 {is_inferred="true"} ! positive regulation of dauer larval development
++is_a: GO:1905909 {is_inferred="true"} ! regulation of dauer entry
++
++[Term]
++id: GO:1905912 ! regulation of calcium ion export from cell
++is_a: GO:0051924 {is_inferred="true"} ! regulation of calcium ion transport
++
++[Term]
++id: GO:1905913 ! negative regulation of calcium ion export from cell
++is_a: GO:0051926 {is_inferred="true"} ! negative regulation of calcium ion transport
++is_a: GO:1905912 {is_inferred="true"} ! regulation of calcium ion export from cell
++
++[Term]
++id: GO:1905914 ! positive regulation of calcium ion export from cell
++is_a: GO:0051928 {is_inferred="true"} ! positive regulation of calcium ion transport
++is_a: GO:1905912 {is_inferred="true"} ! regulation of calcium ion export from cell
++
++[Term]
+ id: GO:1990000 ! amyloid fibril formation
+ is_a: GO:0044710 {is_inferred="true"} ! single-organism metabolic process
+ 
+------------------------------------------------------------------------
+r38625 | hjd | 2017-02-07 07:31:01 -0800 (Tue, 07 Feb 2017) | 2 lines
+
+drat that punctuation
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38612 | tberardi | 2017-02-06 17:38:46 -0800 (Mon, 06 Feb 2017) | 1 line
+
+GH12990 Creation of MATH domain binding and addition of synonym - closed
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38609 | tberardi | 2017-02-06 17:02:55 -0800 (Mon, 06 Feb 2017) | 1 line
+
+GH12991 mRNA metabolism parent? - closed
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38608 | tberardi | 2017-02-06 16:57:33 -0800 (Mon, 06 Feb 2017) | 1 line
+
+GH12987 NTR DNA repair complex assembly - closed
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38602 | davidos | 2017-02-06 06:00:17 -0800 (Mon, 06 Feb 2017) | 1 line
+
+fixed error linking pr ribbon synapse to compound eye pr
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38600 | dph | 2017-02-06 05:46:14 -0800 (Mon, 06 Feb 2017) | 2 lines
+
+Relaxed taxon constriction for ovulation cycle process. GH12997-closed
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38598 | mcourtot | 2017-02-06 05:35:55 -0800 (Mon, 06 Feb 2017) | 1 line
+
+closes #12533, redefine GO:0061487, DNA replication initiation from late origin, logically adding a restriction 'has participant some late origin'.
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38598)
++++ go_inferences.obo	(working copy)
+@@ -48955,6 +48955,10 @@
+ is_a: GO:0042493 {is_inferred="true"} ! response to drug
+ 
+ [Term]
++id: GO:0061487 ! DNA replication initiation from late origin
++is_a: GO:0006270 {is_inferred="true"} ! DNA replication initiation
++
++[Term]
+ id: GO:0061488 ! adenine import into cell
+ is_a: GO:0015853 {is_inferred="true"} ! adenine transport
+ is_a: GO:0098657 {is_inferred="true"} ! import into cell
+------------------------------------------------------------------------
+r38596 | dph | 2017-02-06 05:26:10 -0800 (Mon, 06 Feb 2017) | 2 lines
+
+GH12865-closed. Removed regulation of immune and defense response parents from organism interaction terms.
+
+changes in entailments
+
+------------------------------------------------------------------------
+r38594 | dph | 2017-02-06 05:17:22 -0800 (Mon, 06 Feb 2017) | 2 lines
+
+Made autophagy and children types of catabolic processes. Also removed several asserted parents since they are now inferred by the reasoner. GH12943-closed
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38594)
++++ go_inferences.obo	(working copy)
+@@ -699,6 +699,26 @@
+ is_a: GO:0031062 {is_inferred="true"} ! positive regulation of histone methylation
+ 
+ [Term]
++id: GO:0000422 ! mitophagy
++is_a: GO:0044712 {is_inferred="true"} ! single-organism catabolic process
++
++[Term]
++id: GO:0000423 ! macromitophagy
++is_a: GO:0000422 {is_inferred="true"} ! mitophagy
++
++[Term]
++id: GO:0000424 ! microautophagy of mitochondrion
++is_a: GO:0000422 {is_inferred="true"} ! mitophagy
++
++[Term]
++id: GO:0000425 ! macropexophagy
++is_a: GO:0030242 {is_inferred="true"} ! pexophagy
++
++[Term]
++id: GO:0000426 ! micropexophagy
++is_a: GO:0030242 {is_inferred="true"} ! pexophagy
++
++[Term]
+ id: GO:0000427 ! plastid-encoded plastid RNA polymerase complex
+ is_a: GO:0000428 {is_inferred="true"} ! DNA-directed RNA polymerase complex
+ is_a: GO:0044435 {is_inferred="true"} ! plastid part
+@@ -11676,17 +11696,17 @@
+ 
+ [Term]
+ id: GO:0010506 ! regulation of autophagy
+-is_a: GO:0050794 {is_inferred="true"} ! regulation of cellular process
++is_a: GO:0031329 {is_inferred="true"} ! regulation of cellular catabolic process
+ 
+ [Term]
+ id: GO:0010507 ! negative regulation of autophagy
+ is_a: GO:0010506 {is_inferred="true"} ! regulation of autophagy
+-is_a: GO:0048523 {is_inferred="true"} ! negative regulation of cellular process
++is_a: GO:0031330 {is_inferred="true"} ! negative regulation of cellular catabolic process
+ 
+ [Term]
+ id: GO:0010508 ! positive regulation of autophagy
+ is_a: GO:0010506 {is_inferred="true"} ! regulation of autophagy
+-is_a: GO:0048522 {is_inferred="true"} ! positive regulation of cellular process
++is_a: GO:0031331 {is_inferred="true"} ! positive regulation of cellular catabolic process
+ 
+ [Term]
+ id: GO:0010509 ! polyamine homeostasis
+@@ -28210,6 +28230,10 @@
+ is_a: GO:1990234 {is_inferred="true"} ! transferase complex
+ 
+ [Term]
++id: GO:0034727 ! piecemeal microautophagy of nucleus
++is_a: GO:0044804 {is_inferred="true"} ! nucleophagy
++
++[Term]
+ id: GO:0034728 ! nucleosome organization
+ is_a: GO:0071824 {is_inferred="true"} ! protein-DNA complex subunit organization
+ 
+@@ -49115,6 +49139,10 @@
+ is_a: GO:0044702 {is_inferred="true"} ! single organism reproductive process
+ 
+ [Term]
++id: GO:0061684 ! chaperone-mediated autophagy
++is_a: GO:0030163 {is_inferred="true"} ! protein catabolic process
++
++[Term]
+ id: GO:0061704 ! glycolytic process from sucrose
+ is_a: GO:0005987 {is_inferred="true"} ! sucrose catabolic process
+ 
+@@ -49129,6 +49157,10 @@
+ is_a: GO:1902580 {is_inferred="true"} ! single-organism cellular localization
+ 
+ [Term]
++id: GO:0061709 ! reticulophagy
++is_a: GO:0044712 {is_inferred="true"} ! single-organism catabolic process
++
++[Term]
+ id: GO:0061716 ! miRNA export from nucleus
+ is_a: GO:1990428 {is_inferred="true"} ! miRNA transport
+ 
+@@ -49163,6 +49195,10 @@
+ is_a: GO:0044712 {is_inferred="true"} ! single-organism catabolic process
+ 
+ [Term]
++id: GO:0061723 ! glycophagy
++is_a: GO:0005980 {is_inferred="true"} ! glycogen catabolic process
++
++[Term]
+ id: GO:0061726 ! mitochondrion disassembly
+ is_a: GO:0007005 {is_inferred="true"} ! mitochondrion organization
+ 
+@@ -83065,13 +83101,11 @@
+ [Term]
+ id: GO:1904502 ! regulation of lipophagy
+ is_a: GO:0016241 {is_inferred="true"} ! regulation of macroautophagy
+-is_a: GO:0031329 {is_inferred="true"} ! regulation of cellular catabolic process
+ is_a: GO:0050994 {is_inferred="true"} ! regulation of lipid catabolic process
+ 
+ [Term]
+ id: GO:1904503 ! negative regulation of lipophagy
+ is_a: GO:0016242 {is_inferred="true"} ! negative regulation of macroautophagy
+-is_a: GO:0031330 {is_inferred="true"} ! negative regulation of cellular catabolic process
+ is_a: GO:0050995 {is_inferred="true"} ! negative regulation of lipid catabolic process
+ is_a: GO:1904502 {is_inferred="true"} ! regulation of lipophagy
+ 
+@@ -83078,7 +83112,6 @@
+ [Term]
+ id: GO:1904504 ! positive regulation of lipophagy
+ is_a: GO:0016239 {is_inferred="true"} ! positive regulation of macroautophagy
+-is_a: GO:0031331 {is_inferred="true"} ! positive regulation of cellular catabolic process
+ is_a: GO:0050996 {is_inferred="true"} ! positive regulation of lipid catabolic process
+ is_a: GO:1904502 {is_inferred="true"} ! regulation of lipophagy
+ 
+@@ -84089,15 +84122,18 @@
+ [Term]
+ id: GO:1904714 ! regulation of chaperone-mediated autophagy
+ is_a: GO:0010506 {is_inferred="true"} ! regulation of autophagy
++is_a: GO:0042176 {is_inferred="true"} ! regulation of protein catabolic process
+ 
+ [Term]
+ id: GO:1904715 ! negative regulation of chaperone-mediated autophagy
+ is_a: GO:0010507 {is_inferred="true"} ! negative regulation of autophagy
++is_a: GO:0042177 {is_inferred="true"} ! negative regulation of protein catabolic process
+ is_a: GO:1904714 {is_inferred="true"} ! regulation of chaperone-mediated autophagy
+ 
+ [Term]
+ id: GO:1904716 ! positive regulation of chaperone-mediated autophagy
+ is_a: GO:0010508 {is_inferred="true"} ! positive regulation of autophagy
++is_a: GO:0045732 {is_inferred="true"} ! positive regulation of protein catabolic process
+ is_a: GO:1904714 {is_inferred="true"} ! regulation of chaperone-mediated autophagy
+ 
+ [Term]
+------------------------------------------------------------------------
 r38589 | davidos | 2017-02-05 14:06:32 -0800 (Sun, 05 Feb 2017) | 1 line
 
 Added synapses as described in geneontology/synapse/issues/109.  Also fixed #11218.
