@@ -146,7 +146,7 @@ $(PREVIOUS): $(SRC)
 
 # ensure no IDs are lost
 change-report.txt: $(SRC) $(PREVIOUS)
-	$(OWLTOOLS) $(USECAT) $< --verify-changes -p $(PREVIOUS) -o $@ --id-prefix-filter GO: --check-missing-labels
+	$(OWLTOOLS) $(USECAT) $< --verify-changes -p $(PREVIOUS) -o $@ --id-prefix-filter GO: --check-missing-labels && touch $@
 
 # ----------------------------------------
 # OWL
