@@ -1,4 +1,1051 @@
 ------------------------------------------------------------------------
+r38954 | tberardi | 2017-02-22 11:06:44 -0800 (Wed, 22 Feb 2017) | 6 lines
+
+Fixed bad PMID put in through TG:
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38954)
++++ go_inferences.obo	(working copy)
+@@ -10468,19 +10468,19 @@
+ [Term]
+ id: GO:0009787 ! regulation of abscisic acid-activated signaling pathway
+ is_a: GO:0009966 {is_inferred="true"} ! regulation of signal transduction
+-is_a: GO:1901419 {is_inferred="true"} ! regulation of response to alcohol
++is_a: GO:1905957 {is_inferred="true"} ! regulation of cellular response to alcohol
+ 
+ [Term]
+ id: GO:0009788 ! negative regulation of abscisic acid-activated signaling pathway
+ is_a: GO:0009787 {is_inferred="true"} ! regulation of abscisic acid-activated signaling pathway
+ is_a: GO:0009968 {is_inferred="true"} ! negative regulation of signal transduction
+-is_a: GO:1901420 {is_inferred="true"} ! negative regulation of response to alcohol
++is_a: GO:1905958 {is_inferred="true"} ! negative regulation of cellular response to alcohol
+ 
+ [Term]
+ id: GO:0009789 ! positive regulation of abscisic acid-activated signaling pathway
+ is_a: GO:0009787 {is_inferred="true"} ! regulation of abscisic acid-activated signaling pathway
+ is_a: GO:0009967 {is_inferred="true"} ! positive regulation of signal transduction
+-is_a: GO:1901421 {is_inferred="true"} ! positive regulation of response to alcohol
++is_a: GO:1905959 {is_inferred="true"} ! positive regulation of cellular response to alcohol
+ 
+ [Term]
+ id: GO:0009793 ! embryo development ending in seed dormancy
+@@ -12924,13 +12924,13 @@
+ 
+ [Term]
+ id: GO:0010883 ! regulation of lipid storage
+-is_a: GO:0032879 {is_inferred="true"} ! regulation of localization
+ is_a: GO:0065008 {is_inferred="true"} ! regulation of biological quality
++is_a: GO:1905952 {is_inferred="true"} ! regulation of lipid localization
+ 
+ [Term]
+ id: GO:0010884 ! positive regulation of lipid storage
+ is_a: GO:0010883 {is_inferred="true"} ! regulation of lipid storage
+-is_a: GO:0048518 {is_inferred="true"} ! positive regulation of biological process
++is_a: GO:1905954 {is_inferred="true"} ! positive regulation of lipid localization
+ 
+ [Term]
+ id: GO:0010885 ! regulation of cholesterol storage
+@@ -12949,7 +12949,7 @@
+ [Term]
+ id: GO:0010888 ! negative regulation of lipid storage
+ is_a: GO:0010883 {is_inferred="true"} ! regulation of lipid storage
+-is_a: GO:0048519 {is_inferred="true"} ! negative regulation of biological process
++is_a: GO:1905953 {is_inferred="true"} ! negative regulation of lipid localization
+ 
+ [Term]
+ id: GO:0010889 ! regulation of sequestering of triglyceride
+@@ -23456,6 +23456,18 @@
+ is_a: GO:0032366 {is_inferred="true"} ! intracellular sterol transport
+ 
+ [Term]
++id: GO:0032368 ! regulation of lipid transport
++is_a: GO:1905952 {is_inferred="true"} ! regulation of lipid localization
++
++[Term]
++id: GO:0032369 ! negative regulation of lipid transport
++is_a: GO:1905953 {is_inferred="true"} ! negative regulation of lipid localization
++
++[Term]
++id: GO:0032370 ! positive regulation of lipid transport
++is_a: GO:1905954 {is_inferred="true"} ! positive regulation of lipid localization
++
++[Term]
+ id: GO:0032371 ! regulation of sterol transport
+ is_a: GO:0032368 {is_inferred="true"} ! regulation of lipid transport
+ 
+@@ -28947,7 +28959,7 @@
+ [Term]
+ id: GO:0035428 ! hexose transmembrane transport
+ is_a: GO:0008645 {is_inferred="true"} ! hexose transport
+-is_a: GO:0034219 {is_inferred="true"} ! carbohydrate transmembrane transport
++is_a: GO:1905950 {is_inferred="true"} ! monosaccharide transmembrane transport
+ 
+ [Term]
+ id: GO:0035429 ! gluconate transmembrane transport
+@@ -90115,6 +90127,63 @@
+ is_a: GO:1905664 {is_inferred="true"} ! regulation of calcium ion import across plasma membrane
+ 
+ [Term]
++id: GO:1905950 ! monosaccharide transmembrane transport
++is_a: GO:0015749 {is_inferred="true"} ! monosaccharide transport
++is_a: GO:0034219 {is_inferred="true"} ! carbohydrate transmembrane transport
++
++[Term]
++id: GO:1905951 ! mitochondrion DNA recombination
++is_a: GO:0006310 {is_inferred="true"} ! DNA recombination
++is_a: GO:0032042 {is_inferred="true"} ! mitochondrial DNA metabolic process
++
++[Term]
++id: GO:1905952 ! regulation of lipid localization
++is_a: GO:0032879 {is_inferred="true"} ! regulation of localization
++
++[Term]
++id: GO:1905953 ! negative regulation of lipid localization
++is_a: GO:0048519 {is_inferred="true"} ! negative regulation of biological process
++is_a: GO:1905952 {is_inferred="true"} ! regulation of lipid localization
++
++[Term]
++id: GO:1905954 ! positive regulation of lipid localization
++is_a: GO:0048518 {is_inferred="true"} ! positive regulation of biological process
++is_a: GO:1905952 {is_inferred="true"} ! regulation of lipid localization
++
++[Term]
++id: GO:1905955 ! negative regulation of endothelial tube morphogenesis
++is_a: GO:0051241 {is_inferred="true"} ! negative regulation of multicellular organismal process
++is_a: GO:1901509 {is_inferred="true"} ! regulation of endothelial tube morphogenesis
++is_a: GO:1905331 {is_inferred="true"} ! negative regulation of morphogenesis of an epithelium
++
++[Term]
++id: GO:1905956 ! positive regulation of endothelial tube morphogenesis
++is_a: GO:0051240 {is_inferred="true"} ! positive regulation of multicellular organismal process
++is_a: GO:1901509 {is_inferred="true"} ! regulation of endothelial tube morphogenesis
++is_a: GO:1905332 {is_inferred="true"} ! positive regulation of morphogenesis of an epithelium
++
++[Term]
++id: GO:1905957 ! regulation of cellular response to alcohol
++is_a: GO:0050794 {is_inferred="true"} ! regulation of cellular process
++is_a: GO:1901419 {is_inferred="true"} ! regulation of response to alcohol
++
++[Term]
++id: GO:1905958 ! negative regulation of cellular response to alcohol
++is_a: GO:0048523 {is_inferred="true"} ! negative regulation of cellular process
++is_a: GO:1901420 {is_inferred="true"} ! negative regulation of response to alcohol
++is_a: GO:1905957 {is_inferred="true"} ! regulation of cellular response to alcohol
++
++[Term]
++id: GO:1905959 ! positive regulation of cellular response to alcohol
++is_a: GO:0048522 {is_inferred="true"} ! positive regulation of cellular process
++is_a: GO:1901421 {is_inferred="true"} ! positive regulation of response to alcohol
++is_a: GO:1905957 {is_inferred="true"} ! regulation of cellular response to alcohol
++
++[Term]
++id: GO:1905960 ! response to 1-(3,5-dichloro-2,6-dihydroxy-4-methoxyphenyl)pentan-1-one
++is_a: GO:0050896 {is_inferred="true"} ! response to stimulus
++
++[Term]
+ id: GO:1990000 ! amyloid fibril formation
+ is_a: GO:0044710 {is_inferred="true"} ! single-organism metabolic process
+ 
+------------------------------------------------------------------------
+r38941 | paola | 2017-02-22 02:07:51 -0800 (Wed, 22 Feb 2017) | 3 lines
+
+GH Export vs transmembrane export #11784 - closed - edited ‘ferrous iron export’
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38941)
++++ go_inferences.obo	(working copy)
+@@ -2356,7 +2356,6 @@
+ 
+ [Term]
+ id: GO:0002392 ! platelet activating factor secretion
+-is_a: GO:0015696 {is_inferred="true"} ! ammonium transport
+ is_a: GO:0015697 {is_inferred="true"} ! quaternary ammonium group transport
+ is_a: GO:0015914 {is_inferred="true"} ! phospholipid transport
+ 
+@@ -4813,7 +4812,6 @@
+ is_a: GO:0000295 {is_inferred="true"} ! adenine nucleotide transmembrane transporter activity
+ is_a: GO:0005346 {is_inferred="true"} ! purine ribonucleotide transmembrane transporter activity
+ is_a: GO:0008514 {is_inferred="true"} ! organic anion transmembrane transporter activity
+-is_a: GO:0015211 {is_inferred="true"} ! purine nucleoside transmembrane transporter activity
+ 
+ [Term]
+ id: GO:0005350 ! pyrimidine nucleobase transmembrane transporter activity
+@@ -4941,7 +4939,6 @@
+ 
+ [Term]
+ id: GO:0005524 ! ATP binding
+-is_a: GO:0032550 {is_inferred="true"} ! purine ribonucleoside binding
+ is_a: GO:0032559 {is_inferred="true"} ! adenyl ribonucleotide binding
+ is_a: GO:0035639 {is_inferred="true"} ! purine ribonucleoside triphosphate binding
+ 
+@@ -5988,7 +5985,6 @@
+ is_a: GO:0009152 {is_inferred="true"} ! purine ribonucleotide biosynthetic process
+ is_a: GO:0009168 {is_inferred="true"} ! purine ribonucleoside monophosphate biosynthetic process
+ is_a: GO:0046033 {is_inferred="true"} ! AMP metabolic process
+-is_a: GO:0046129 {is_inferred="true"} ! purine ribonucleoside biosynthetic process
+ 
+ [Term]
+ id: GO:0006170 ! dAMP biosynthetic process
+@@ -6008,7 +6004,6 @@
+ is_a: GO:0009168 {is_inferred="true"} ! purine ribonucleoside monophosphate biosynthetic process
+ is_a: GO:0009180 {is_inferred="true"} ! purine ribonucleoside diphosphate biosynthetic process
+ is_a: GO:0046031 {is_inferred="true"} ! ADP metabolic process
+-is_a: GO:0046129 {is_inferred="true"} ! purine ribonucleoside biosynthetic process
+ 
+ [Term]
+ id: GO:0006173 ! dADP biosynthetic process
+@@ -6091,7 +6086,6 @@
+ is_a: GO:0009154 {is_inferred="true"} ! purine ribonucleotide catabolic process
+ is_a: GO:0009169 {is_inferred="true"} ! purine ribonucleoside monophosphate catabolic process
+ is_a: GO:0046033 {is_inferred="true"} ! AMP metabolic process
+-is_a: GO:0046130 {is_inferred="true"} ! purine ribonucleoside catabolic process
+ 
+ [Term]
+ id: GO:0006198 ! cAMP catabolic process
+@@ -7449,7 +7443,6 @@
+ is_a: GO:0009168 {is_inferred="true"} ! purine ribonucleoside monophosphate biosynthetic process
+ is_a: GO:0009206 {is_inferred="true"} ! purine ribonucleoside triphosphate biosynthetic process
+ is_a: GO:0046034 {is_inferred="true"} ! ATP metabolic process
+-is_a: GO:0046129 {is_inferred="true"} ! purine ribonucleoside biosynthetic process
+ 
+ [Term]
+ id: GO:0006760 ! folic acid-containing compound metabolic process
+@@ -8592,6 +8585,7 @@
+ [Term]
+ id: GO:0008320 ! protein transmembrane transporter activity
+ is_a: GO:0008565 {is_inferred="true"} ! protein transporter activity
++is_a: GO:1904680 {is_inferred="true"} ! peptide transmembrane transporter activity
+ 
+ [Term]
+ id: GO:0008324 ! cation transmembrane transporter activity
+@@ -8724,6 +8718,10 @@
+ is_a: GO:0019829 {is_inferred="true"} ! cation-transporting ATPase activity
+ 
+ [Term]
++id: GO:0008565 ! protein transporter activity
++is_a: GO:0015197 {is_inferred="true"} ! peptide transporter activity
++
++[Term]
+ id: GO:0008582 ! regulation of synaptic growth at neuromuscular junction
+ is_a: GO:0048638 {is_inferred="true"} ! regulation of developmental growth
+ is_a: GO:0051963 {is_inferred="true"} ! regulation of synapse assembly
+@@ -9833,6 +9831,10 @@
+ is_a: GO:0098781 {is_inferred="true"} ! ncRNA transcription
+ 
+ [Term]
++id: GO:0009306 ! protein secretion
++is_a: GO:0002790 {is_inferred="true"} ! peptide secretion
++
++[Term]
+ id: GO:0009309 ! amine biosynthetic process
+ is_a: GO:0009308 {is_inferred="true"} ! amine metabolic process
+ is_a: GO:1901566 {is_inferred="true"} ! organonitrogen compound biosynthetic process
+@@ -13971,6 +13973,10 @@
+ is_a: GO:0044711 {is_inferred="true"} ! single-organism biosynthetic process
+ 
+ [Term]
++id: GO:0015031 ! protein transport
++is_a: GO:0015833 {is_inferred="true"} ! peptide transport
++
++[Term]
+ id: GO:0015050 ! methane monooxygenase complex
+ is_a: GO:1990204 {is_inferred="true"} ! oxidoreductase complex
+ 
+@@ -14078,6 +14084,7 @@
+ 
+ [Term]
+ id: GO:0015143 ! urate transmembrane transporter activity
++is_a: GO:0008514 {is_inferred="true"} ! organic anion transmembrane transporter activity
+ is_a: GO:1901702 {is_inferred="true"} ! salt transmembrane transporter activity
+ 
+ [Term]
+@@ -14272,7 +14279,6 @@
+ 
+ [Term]
+ id: GO:0015199 ! amino-acid betaine transmembrane transporter activity
+-is_a: GO:0008519 {is_inferred="true"} ! ammonium transmembrane transporter activity
+ is_a: GO:0015651 {is_inferred="true"} ! quaternary ammonium group transmembrane transporter activity
+ is_a: GO:0072349 {is_inferred="true"} ! modified amino acid transmembrane transporter activity
+ 
+@@ -14330,7 +14336,6 @@
+ is_a: GO:0000295 {is_inferred="true"} ! adenine nucleotide transmembrane transporter activity
+ is_a: GO:0005346 {is_inferred="true"} ! purine ribonucleotide transmembrane transporter activity
+ is_a: GO:0008514 {is_inferred="true"} ! organic anion transmembrane transporter activity
+-is_a: GO:0015211 {is_inferred="true"} ! purine nucleoside transmembrane transporter activity
+ 
+ [Term]
+ id: GO:0015218 ! pyrimidine nucleotide transmembrane transporter activity
+@@ -14787,6 +14792,10 @@
+ is_a: GO:1901505 {is_inferred="true"} ! carbohydrate derivative transporter activity
+ 
+ [Term]
++id: GO:0015651 ! quaternary ammonium group transmembrane transporter activity
++is_a: GO:0008519 {is_inferred="true"} ! ammonium transmembrane transporter activity
++
++[Term]
+ id: GO:0015654 ! tellurite uptake transmembrane transporter activity
+ is_a: GO:0015118 {is_inferred="true"} ! tellurite transmembrane transporter activity
+ is_a: GO:0015563 {is_inferred="true"} ! uptake transmembrane transporter activity
+@@ -14868,8 +14877,7 @@
+ 
+ [Term]
+ id: GO:0015685 ! ferric-enterobactin transport
+-is_a: GO:0015688 {is_inferred="true"} ! iron chelate transport
+-is_a: GO:0015711 {is_inferred="true"} ! organic anion transport
++is_a: GO:0042930 {is_inferred="true"} ! enterobactin transport
+ 
+ [Term]
+ id: GO:0015686 ! ferric triacetylfusarinine C transport
+@@ -14877,6 +14885,11 @@
+ is_a: GO:0071705 {is_inferred="true"} ! nitrogen compound transport
+ 
+ [Term]
++id: GO:0015687 ! ferric-hydroxamate transport
++is_a: GO:0015711 {is_inferred="true"} ! organic anion transport
++is_a: GO:0042886 {is_inferred="true"} ! amide transport
++
++[Term]
+ id: GO:0015688 ! iron chelate transport
+ is_a: GO:1901678 {is_inferred="true"} ! iron coordination entity transport
+ 
+@@ -14908,8 +14921,8 @@
+ 
+ [Term]
+ id: GO:0015697 ! quaternary ammonium group transport
++is_a: GO:0015696 {is_inferred="true"} ! ammonium transport
+ is_a: GO:0071702 {is_inferred="true"} ! organic substance transport
+-is_a: GO:0071705 {is_inferred="true"} ! nitrogen compound transport
+ 
+ [Term]
+ id: GO:0015698 ! inorganic anion transport
+@@ -15585,7 +15598,6 @@
+ [Term]
+ id: GO:0015866 ! ADP transport
+ is_a: GO:0015711 {is_inferred="true"} ! organic anion transport
+-is_a: GO:0015858 {is_inferred="true"} ! nucleoside transport
+ is_a: GO:0015868 {is_inferred="true"} ! purine ribonucleotide transport
+ is_a: GO:0051503 {is_inferred="true"} ! adenine nucleotide transport
+ 
+@@ -15592,7 +15604,6 @@
+ [Term]
+ id: GO:0015867 ! ATP transport
+ is_a: GO:0015711 {is_inferred="true"} ! organic anion transport
+-is_a: GO:0015858 {is_inferred="true"} ! nucleoside transport
+ is_a: GO:0015868 {is_inferred="true"} ! purine ribonucleotide transport
+ is_a: GO:0051503 {is_inferred="true"} ! adenine nucleotide transport
+ 
+@@ -15636,13 +15647,11 @@
+ 
+ [Term]
+ id: GO:0015879 ! carnitine transport
+-is_a: GO:0015696 {is_inferred="true"} ! ammonium transport
+ is_a: GO:0015838 {is_inferred="true"} ! amino-acid betaine transport
+ 
+ [Term]
+ id: GO:0015880 ! coenzyme A transport
+ is_a: GO:0015711 {is_inferred="true"} ! organic anion transport
+-is_a: GO:0015858 {is_inferred="true"} ! nucleoside transport
+ is_a: GO:0015868 {is_inferred="true"} ! purine ribonucleotide transport
+ is_a: GO:0051503 {is_inferred="true"} ! adenine nucleotide transport
+ 
+@@ -15702,6 +15711,11 @@
+ is_a: GO:1901264 {is_inferred="true"} ! carbohydrate derivative transport
+ 
+ [Term]
++id: GO:0015894 ! acriflavine transport
++is_a: GO:0006821 {is_inferred="true"} ! chloride transport
++is_a: GO:0015695 {is_inferred="true"} ! organic cation transport
++
++[Term]
+ id: GO:0015895 ! alkane transport
+ is_a: GO:0071702 {is_inferred="true"} ! organic substance transport
+ 
+@@ -15815,7 +15829,6 @@
+ is_a: GO:0009150 {is_inferred="true"} ! purine ribonucleotide metabolic process
+ is_a: GO:0033875 {is_inferred="true"} ! ribonucleoside bisphosphate metabolic process
+ is_a: GO:0034032 {is_inferred="true"} ! purine nucleoside bisphosphate metabolic process
+-is_a: GO:0046128 {is_inferred="true"} ! purine ribonucleoside metabolic process
+ 
+ [Term]
+ id: GO:0015937 ! coenzyme A biosynthetic process
+@@ -15823,7 +15836,6 @@
+ is_a: GO:0015936 {is_inferred="true"} ! coenzyme A metabolic process
+ is_a: GO:0034030 {is_inferred="true"} ! ribonucleoside bisphosphate biosynthetic process
+ is_a: GO:0034033 {is_inferred="true"} ! purine nucleoside bisphosphate biosynthetic process
+-is_a: GO:0046129 {is_inferred="true"} ! purine ribonucleoside biosynthetic process
+ 
+ [Term]
+ id: GO:0015938 ! coenzyme A catabolic process
+@@ -15831,7 +15843,6 @@
+ is_a: GO:0015936 {is_inferred="true"} ! coenzyme A metabolic process
+ is_a: GO:0034031 {is_inferred="true"} ! ribonucleoside bisphosphate catabolic process
+ is_a: GO:0034034 {is_inferred="true"} ! purine nucleoside bisphosphate catabolic process
+-is_a: GO:0046130 {is_inferred="true"} ! purine ribonucleoside catabolic process
+ 
+ [Term]
+ id: GO:0015939 ! pantothenate metabolic process
+@@ -16447,7 +16458,6 @@
+ 
+ [Term]
+ id: GO:0016208 ! AMP binding
+-is_a: GO:0032550 {is_inferred="true"} ! purine ribonucleoside binding
+ is_a: GO:0032559 {is_inferred="true"} ! adenyl ribonucleotide binding
+ is_a: GO:0043168 {is_inferred="true"} ! anion binding
+ is_a: GO:0043169 {is_inferred="true"} ! cation binding
+@@ -17077,6 +17087,8 @@
+ [Term]
+ id: GO:0018923 ! limonene metabolic process
+ is_a: GO:0043692 {is_inferred="true"} ! monoterpene metabolic process
++is_a: GO:1900673 {is_inferred="true"} ! olefin metabolic process
++is_a: GO:1901360 {is_inferred="true"} ! organic cyclic compound metabolic process
+ 
+ [Term]
+ id: GO:0018924 ! mandelate metabolic process
+@@ -17876,7 +17888,6 @@
+ id: GO:0019361 ! 2'-(5''-triphosphoribosyl)-3'-dephospho-CoA biosynthetic process
+ is_a: GO:0009152 {is_inferred="true"} ! purine ribonucleotide biosynthetic process
+ is_a: GO:0009168 {is_inferred="true"} ! purine ribonucleoside monophosphate biosynthetic process
+-is_a: GO:0046129 {is_inferred="true"} ! purine ribonucleoside biosynthetic process
+ is_a: GO:0046432 {is_inferred="true"} ! 2'-(5''-triphosphoribosyl)-3'-dephospho-CoA metabolic process
+ 
+ [Term]
+@@ -19313,6 +19324,7 @@
+ 
+ [Term]
+ id: GO:0020028 ! hemoglobin import
++is_a: GO:0015886 {is_inferred="true"} ! heme transport
+ is_a: GO:0017038 {is_inferred="true"} ! protein import
+ 
+ [Term]
+@@ -19693,10 +19705,6 @@
+ is_a: GO:0008324 {is_inferred="true"} ! cation transmembrane transporter activity
+ 
+ [Term]
+-id: GO:0022885 ! bacteriocin transmembrane transporter activity
+-is_a: GO:1904680 {is_inferred="true"} ! peptide transmembrane transporter activity
+-
+-[Term]
+ id: GO:0022889 ! serine transmembrane transporter activity
+ is_a: GO:0008324 {is_inferred="true"} ! cation transmembrane transporter activity
+ 
+@@ -19922,8 +19930,7 @@
+ [Term]
+ id: GO:0030170 ! pyridoxal phosphate binding
+ is_a: GO:0043168 {is_inferred="true"} ! anion binding
+-is_a: GO:0097159 {is_inferred="true"} ! organic cyclic compound binding
+-is_a: GO:1901363 {is_inferred="true"} ! heterocyclic compound binding
++is_a: GO:0070279 {is_inferred="true"} ! vitamin B6 binding
+ 
+ [Term]
+ id: GO:0030173 ! integral component of Golgi membrane
+@@ -21979,7 +21986,6 @@
+ 
+ [Term]
+ id: GO:0031460 ! glycine betaine transport
+-is_a: GO:0015696 {is_inferred="true"} ! ammonium transport
+ is_a: GO:0015838 {is_inferred="true"} ! amino-acid betaine transport
+ is_a: GO:0072337 {is_inferred="true"} ! modified amino acid transport
+ 
+@@ -22449,7 +22455,7 @@
+ is_a: GO:0015711 {is_inferred="true"} ! organic anion transport
+ is_a: GO:0015748 {is_inferred="true"} ! organophosphate ester transport
+ is_a: GO:0015850 {is_inferred="true"} ! organic hydroxy compound transport
+-is_a: GO:0071705 {is_inferred="true"} ! nitrogen compound transport
++is_a: GO:0031919 {is_inferred="true"} ! vitamin B6 transport
+ 
+ [Term]
+ id: GO:0031922 ! pyridoxamine transport
+@@ -22473,6 +22479,8 @@
+ id: GO:0031926 ! pyridoxal phosphate transmembrane transporter activity
+ is_a: GO:0008514 {is_inferred="true"} ! organic anion transmembrane transporter activity
+ is_a: GO:0015605 {is_inferred="true"} ! organophosphate ester transmembrane transporter activity
++is_a: GO:0031924 {is_inferred="true"} ! vitamin B6 transporter activity
++is_a: GO:0090482 {is_inferred="true"} ! vitamin transmembrane transporter activity
+ is_a: GO:1901618 {is_inferred="true"} ! organic hydroxy compound transmembrane transporter activity
+ 
+ [Term]
+@@ -23419,10 +23427,10 @@
+ [Term]
+ id: GO:0032361 ! pyridoxal phosphate catabolic process
+ is_a: GO:0019439 {is_inferred="true"} ! aromatic compound catabolic process
++is_a: GO:0042820 {is_inferred="true"} ! vitamin B6 catabolic process
+ is_a: GO:0042822 {is_inferred="true"} ! pyridoxal phosphate metabolic process
+ is_a: GO:0046185 {is_inferred="true"} ! aldehyde catabolic process
+ is_a: GO:0046434 {is_inferred="true"} ! organophosphate catabolic process
+-is_a: GO:0072526 {is_inferred="true"} ! pyridine-containing compound catabolic process
+ is_a: GO:1901616 {is_inferred="true"} ! organic hydroxy compound catabolic process
+ 
+ [Term]
+@@ -27929,13 +27937,13 @@
+ is_a: GO:0050748 {is_inferred="true"} ! negative regulation of lipoprotein metabolic process
+ 
+ [Term]
+-id: GO:0034444 ! regulation of plasma lipoprotein particle oxidation
++id: GO:0034444 ! regulation of plasma lipoprotein oxidation
+ is_a: GO:0034442 {is_inferred="true"} ! regulation of lipoprotein oxidation
+ 
+ [Term]
+-id: GO:0034445 ! negative regulation of plasma lipoprotein particle oxidation
++id: GO:0034445 ! negative regulation of plasma lipoprotein oxidation
+ is_a: GO:0034443 {is_inferred="true"} ! negative regulation of lipoprotein oxidation
+-is_a: GO:0034444 {is_inferred="true"} ! regulation of plasma lipoprotein particle oxidation
++is_a: GO:0034444 {is_inferred="true"} ! regulation of plasma lipoprotein oxidation
+ 
+ [Term]
+ id: GO:0034446 ! substrate adhesion-dependent cell spreading
+@@ -32312,15 +32320,15 @@
+ is_a: GO:0006725 {is_inferred="true"} ! cellular aromatic compound metabolic process
+ is_a: GO:0006796 {is_inferred="true"} ! phosphate-containing compound metabolic process
+ is_a: GO:0019637 {is_inferred="true"} ! organophosphate metabolic process
+-is_a: GO:0072524 {is_inferred="true"} ! pyridine-containing compound metabolic process
++is_a: GO:0042816 {is_inferred="true"} ! vitamin B6 metabolic process
+ is_a: GO:1901615 {is_inferred="true"} ! organic hydroxy compound metabolic process
+ 
+ [Term]
+ id: GO:0042823 ! pyridoxal phosphate biosynthetic process
+ is_a: GO:0019438 {is_inferred="true"} ! aromatic compound biosynthetic process
++is_a: GO:0042819 {is_inferred="true"} ! vitamin B6 biosynthetic process
+ is_a: GO:0042822 {is_inferred="true"} ! pyridoxal phosphate metabolic process
+ is_a: GO:0046184 {is_inferred="true"} ! aldehyde biosynthetic process
+-is_a: GO:0072525 {is_inferred="true"} ! pyridine-containing compound biosynthetic process
+ is_a: GO:0090407 {is_inferred="true"} ! organophosphate biosynthetic process
+ is_a: GO:1901617 {is_inferred="true"} ! organic hydroxy compound biosynthetic process
+ 
+@@ -33910,7 +33918,6 @@
+ 
+ [Term]
+ id: GO:0043531 ! ADP binding
+-is_a: GO:0032550 {is_inferred="true"} ! purine ribonucleoside binding
+ is_a: GO:0032559 {is_inferred="true"} ! adenyl ribonucleotide binding
+ is_a: GO:0043168 {is_inferred="true"} ! anion binding
+ 
+@@ -34530,10 +34537,6 @@
+ is_a: GO:0043097 {is_inferred="true"} ! pyrimidine nucleoside salvage
+ 
+ [Term]
+-id: GO:0044209 ! AMP salvage
+-is_a: GO:0006166 {is_inferred="true"} ! purine ribonucleoside salvage
+-
+-[Term]
+ id: GO:0044211 ! CTP salvage
+ is_a: GO:0043097 {is_inferred="true"} ! pyrimidine nucleoside salvage
+ 
+@@ -38073,7 +38076,6 @@
+ is_a: GO:0009150 {is_inferred="true"} ! purine ribonucleotide metabolic process
+ is_a: GO:0009167 {is_inferred="true"} ! purine ribonucleoside monophosphate metabolic process
+ is_a: GO:0009179 {is_inferred="true"} ! purine ribonucleoside diphosphate metabolic process
+-is_a: GO:0046128 {is_inferred="true"} ! purine ribonucleoside metabolic process
+ 
+ [Term]
+ id: GO:0046032 ! ADP catabolic process
+@@ -38081,13 +38083,11 @@
+ is_a: GO:0009169 {is_inferred="true"} ! purine ribonucleoside monophosphate catabolic process
+ is_a: GO:0009181 {is_inferred="true"} ! purine ribonucleoside diphosphate catabolic process
+ is_a: GO:0046031 {is_inferred="true"} ! ADP metabolic process
+-is_a: GO:0046130 {is_inferred="true"} ! purine ribonucleoside catabolic process
+ 
+ [Term]
+ id: GO:0046033 ! AMP metabolic process
+ is_a: GO:0009150 {is_inferred="true"} ! purine ribonucleotide metabolic process
+ is_a: GO:0009167 {is_inferred="true"} ! purine ribonucleoside monophosphate metabolic process
+-is_a: GO:0046128 {is_inferred="true"} ! purine ribonucleoside metabolic process
+ 
+ [Term]
+ id: GO:0046034 ! ATP metabolic process
+@@ -38094,7 +38094,6 @@
+ is_a: GO:0009150 {is_inferred="true"} ! purine ribonucleotide metabolic process
+ is_a: GO:0009167 {is_inferred="true"} ! purine ribonucleoside monophosphate metabolic process
+ is_a: GO:0009205 {is_inferred="true"} ! purine ribonucleoside triphosphate metabolic process
+-is_a: GO:0046128 {is_inferred="true"} ! purine ribonucleoside metabolic process
+ 
+ [Term]
+ id: GO:0046035 ! CMP metabolic process
+@@ -39053,11 +39052,14 @@
+ id: GO:0046250 ! limonene biosynthetic process
+ is_a: GO:0018923 {is_inferred="true"} ! limonene metabolic process
+ is_a: GO:0043693 {is_inferred="true"} ! monoterpene biosynthetic process
++is_a: GO:1900674 {is_inferred="true"} ! olefin biosynthetic process
++is_a: GO:1901362 {is_inferred="true"} ! organic cyclic compound biosynthetic process
+ 
+ [Term]
+ id: GO:0046251 ! limonene catabolic process
+ is_a: GO:0018923 {is_inferred="true"} ! limonene metabolic process
+ is_a: GO:0043694 {is_inferred="true"} ! monoterpene catabolic process
++is_a: GO:1901361 {is_inferred="true"} ! organic cyclic compound catabolic process
+ 
+ [Term]
+ id: GO:0046252 ! toluene biosynthetic process
+@@ -39736,7 +39738,6 @@
+ id: GO:0046432 ! 2'-(5''-triphosphoribosyl)-3'-dephospho-CoA metabolic process
+ is_a: GO:0009150 {is_inferred="true"} ! purine ribonucleotide metabolic process
+ is_a: GO:0009167 {is_inferred="true"} ! purine ribonucleoside monophosphate metabolic process
+-is_a: GO:0046128 {is_inferred="true"} ! purine ribonucleoside metabolic process
+ 
+ [Term]
+ id: GO:0046433 ! 2-aminoethylphosphonate metabolic process
+@@ -40908,7 +40909,6 @@
+ [Term]
+ id: GO:0046963 ! 3'-phosphoadenosine 5'-phosphosulfate transport
+ is_a: GO:0015711 {is_inferred="true"} ! organic anion transport
+-is_a: GO:0015858 {is_inferred="true"} ! nucleoside transport
+ is_a: GO:0015868 {is_inferred="true"} ! purine ribonucleotide transport
+ is_a: GO:0051503 {is_inferred="true"} ! adenine nucleotide transport
+ is_a: GO:0072348 {is_inferred="true"} ! sulfur compound transport
+@@ -40918,7 +40918,6 @@
+ is_a: GO:0000295 {is_inferred="true"} ! adenine nucleotide transmembrane transporter activity
+ is_a: GO:0005346 {is_inferred="true"} ! purine ribonucleotide transmembrane transporter activity
+ is_a: GO:0008514 {is_inferred="true"} ! organic anion transmembrane transporter activity
+-is_a: GO:0015211 {is_inferred="true"} ! purine nucleoside transmembrane transporter activity
+ is_a: GO:1901682 {is_inferred="true"} ! sulfur compound transmembrane transporter activity
+ 
+ [Term]
+@@ -42303,7 +42302,6 @@
+ is_a: GO:0009150 {is_inferred="true"} ! purine ribonucleotide metabolic process
+ is_a: GO:0034035 {is_inferred="true"} ! purine ribonucleoside bisphosphate metabolic process
+ is_a: GO:0043436 {is_inferred="true"} ! oxoacid metabolic process
+-is_a: GO:0046128 {is_inferred="true"} ! purine ribonucleoside metabolic process
+ 
+ [Term]
+ id: GO:0050428 ! 3'-phosphoadenosine 5'-phosphosulfate biosynthetic process
+@@ -42310,7 +42308,6 @@
+ is_a: GO:0009152 {is_inferred="true"} ! purine ribonucleotide biosynthetic process
+ is_a: GO:0034036 {is_inferred="true"} ! purine ribonucleoside bisphosphate biosynthetic process
+ is_a: GO:0044272 {is_inferred="true"} ! sulfur compound biosynthetic process
+-is_a: GO:0046129 {is_inferred="true"} ! purine ribonucleoside biosynthetic process
+ is_a: GO:0050427 {is_inferred="true"} ! 3'-phosphoadenosine 5'-phosphosulfate metabolic process
+ 
+ [Term]
+@@ -42384,7 +42381,6 @@
+ 
+ [Term]
+ id: GO:0050656 ! 3'-phosphoadenosine 5'-phosphosulfate binding
+-is_a: GO:0032550 {is_inferred="true"} ! purine ribonucleoside binding
+ is_a: GO:0032559 {is_inferred="true"} ! adenyl ribonucleotide binding
+ is_a: GO:0043168 {is_inferred="true"} ! anion binding
+ is_a: GO:1901681 {is_inferred="true"} ! sulfur compound binding
+@@ -42504,6 +42500,14 @@
+ is_a: GO:0050708 {is_inferred="true"} ! regulation of protein secretion
+ 
+ [Term]
++id: GO:0050708 ! regulation of protein secretion
++is_a: GO:0002791 {is_inferred="true"} ! regulation of peptide secretion
++
++[Term]
++id: GO:0050709 ! negative regulation of protein secretion
++is_a: GO:0002792 {is_inferred="true"} ! negative regulation of peptide secretion
++
++[Term]
+ id: GO:0050710 ! negative regulation of cytokine secretion
+ is_a: GO:0001818 {is_inferred="true"} ! negative regulation of cytokine production
+ is_a: GO:0050707 {is_inferred="true"} ! regulation of cytokine secretion
+@@ -42525,6 +42529,10 @@
+ is_a: GO:0050711 {is_inferred="true"} ! negative regulation of interleukin-1 secretion
+ 
+ [Term]
++id: GO:0050714 ! positive regulation of protein secretion
++is_a: GO:0002793 {is_inferred="true"} ! positive regulation of peptide secretion
++
++[Term]
+ id: GO:0050715 ! positive regulation of cytokine secretion
+ is_a: GO:0001819 {is_inferred="true"} ! positive regulation of cytokine production
+ is_a: GO:0050707 {is_inferred="true"} ! regulation of cytokine secretion
+@@ -43612,6 +43620,10 @@
+ is_a: GO:0032507 {is_inferred="true"} ! maintenance of protein location in cell
+ 
+ [Term]
++id: GO:0051223 ! regulation of protein transport
++is_a: GO:0090087 {is_inferred="true"} ! regulation of peptide transport
++
++[Term]
+ id: GO:0051228 ! mitotic spindle disassembly
+ is_a: GO:0007052 {is_inferred="true"} ! mitotic spindle organization
+ is_a: GO:0051230 {is_inferred="true"} ! spindle disassembly
+@@ -49136,6 +49148,7 @@
+ 
+ [Term]
+ id: GO:0061684 ! chaperone-mediated autophagy
++is_a: GO:0006518 {is_inferred="true"} ! peptide metabolic process
+ is_a: GO:0030163 {is_inferred="true"} ! protein catabolic process
+ 
+ [Term]
+@@ -51147,13 +51160,13 @@
+ 
+ [Term]
+ id: GO:0070926 ! regulation of ATP:ADP antiporter activity
+-is_a: GO:0032242 {is_inferred="true"} ! regulation of nucleoside transport
++is_a: GO:0032239 {is_inferred="true"} ! regulation of nucleobase-containing compound transport
+ is_a: GO:0032412 {is_inferred="true"} ! regulation of ion transmembrane transporter activity
+ is_a: GO:1903959 {is_inferred="true"} ! regulation of anion transmembrane transport
+ 
+ [Term]
+ id: GO:0070927 ! negative regulation of ATP:ADP antiporter activity
+-is_a: GO:0032243 {is_inferred="true"} ! negative regulation of nucleoside transport
++is_a: GO:0032240 {is_inferred="true"} ! negative regulation of nucleobase-containing compound transport
+ is_a: GO:0032413 {is_inferred="true"} ! negative regulation of ion transmembrane transporter activity
+ is_a: GO:0070926 {is_inferred="true"} ! regulation of ATP:ADP antiporter activity
+ is_a: GO:1903960 {is_inferred="true"} ! negative regulation of anion transmembrane transport
+@@ -51522,9 +51535,9 @@
+ 
+ [Term]
+ id: GO:0071106 ! adenosine 3',5'-bisphosphate transmembrane transport
+-is_a: GO:0015860 {is_inferred="true"} ! purine nucleoside transmembrane transport
+ is_a: GO:0015868 {is_inferred="true"} ! purine ribonucleotide transport
+ is_a: GO:0051503 {is_inferred="true"} ! adenine nucleotide transport
++is_a: GO:0072530 {is_inferred="true"} ! purine-containing compound transmembrane transport
+ is_a: GO:1901679 {is_inferred="true"} ! nucleotide transmembrane transport
+ 
+ [Term]
+@@ -53384,11 +53397,13 @@
+ 
+ [Term]
+ id: GO:0071938 ! vitamin A transport
+-is_a: GO:0046865 {is_inferred="true"} ! terpenoid transport
++is_a: GO:0015718 {is_inferred="true"} ! monocarboxylic acid transport
++is_a: GO:0034633 {is_inferred="true"} ! retinol transport
+ 
+ [Term]
+ id: GO:0071939 ! vitamin A import
+ is_a: GO:0071938 {is_inferred="true"} ! vitamin A transport
++is_a: GO:1905039 {is_inferred="true"} ! carboxylic acid transmembrane transport
+ 
+ [Term]
+ id: GO:0071947 ! protein deubiquitination involved in ubiquitin-dependent protein catabolic process
+@@ -55483,7 +55498,6 @@
+ 
+ [Term]
+ id: GO:0080020 ! regulation of coenzyme A biosynthetic process
+-is_a: GO:0009118 {is_inferred="true"} ! regulation of nucleoside metabolic process
+ is_a: GO:0051196 {is_inferred="true"} ! regulation of coenzyme metabolic process
+ is_a: GO:1900371 {is_inferred="true"} ! regulation of purine nucleotide biosynthetic process
+ 
+@@ -55614,7 +55628,6 @@
+ id: GO:0080121 ! AMP transport
+ is_a: GO:0015695 {is_inferred="true"} ! organic cation transport
+ is_a: GO:0015711 {is_inferred="true"} ! organic anion transport
+-is_a: GO:0015858 {is_inferred="true"} ! nucleoside transport
+ is_a: GO:0015868 {is_inferred="true"} ! purine ribonucleotide transport
+ is_a: GO:0051503 {is_inferred="true"} ! adenine nucleotide transport
+ 
+@@ -55624,7 +55637,6 @@
+ is_a: GO:0005346 {is_inferred="true"} ! purine ribonucleotide transmembrane transporter activity
+ is_a: GO:0008514 {is_inferred="true"} ! organic anion transmembrane transporter activity
+ is_a: GO:0015101 {is_inferred="true"} ! organic cation transmembrane transporter activity
+-is_a: GO:0015211 {is_inferred="true"} ! purine nucleoside transmembrane transporter activity
+ 
+ [Term]
+ id: GO:0080126 ! ovary septum development
+@@ -64020,48 +64032,20 @@
+ is_a: GO:1901663 {is_inferred="true"} ! quinone biosynthetic process
+ 
+ [Term]
+-id: GO:1900603 ! tensidol A metabolic process
+-is_a: GO:0044763 {is_inferred="true"} ! single-organism cellular process
+-is_a: GO:0046483 {is_inferred="true"} ! heterocycle metabolic process
+-is_a: GO:1901360 {is_inferred="true"} ! organic cyclic compound metabolic process
+-is_a: GO:1901564 {is_inferred="true"} ! organonitrogen compound metabolic process
+-
+-[Term]
+ id: GO:1900604 ! tensidol A catabolic process
+-is_a: GO:0046700 {is_inferred="true"} ! heterocycle catabolic process
+ is_a: GO:1900603 {is_inferred="true"} ! tensidol A metabolic process
+-is_a: GO:1901361 {is_inferred="true"} ! organic cyclic compound catabolic process
+-is_a: GO:1901565 {is_inferred="true"} ! organonitrogen compound catabolic process
+ 
+ [Term]
+ id: GO:1900605 ! tensidol A biosynthetic process
+-is_a: GO:0018130 {is_inferred="true"} ! heterocycle biosynthetic process
+ is_a: GO:1900603 {is_inferred="true"} ! tensidol A metabolic process
+-is_a: GO:1901362 {is_inferred="true"} ! organic cyclic compound biosynthetic process
+-is_a: GO:1901566 {is_inferred="true"} ! organonitrogen compound biosynthetic process
+ 
+ [Term]
+-id: GO:1900606 ! tensidol B metabolic process
+-is_a: GO:0019752 {is_inferred="true"} ! carboxylic acid metabolic process
+-is_a: GO:0046483 {is_inferred="true"} ! heterocycle metabolic process
+-is_a: GO:1901360 {is_inferred="true"} ! organic cyclic compound metabolic process
+-is_a: GO:1901564 {is_inferred="true"} ! organonitrogen compound metabolic process
+-
+-[Term]
+ id: GO:1900607 ! tensidol B catabolic process
+-is_a: GO:0046395 {is_inferred="true"} ! carboxylic acid catabolic process
+-is_a: GO:0046700 {is_inferred="true"} ! heterocycle catabolic process
+ is_a: GO:1900606 {is_inferred="true"} ! tensidol B metabolic process
+-is_a: GO:1901361 {is_inferred="true"} ! organic cyclic compound catabolic process
+-is_a: GO:1901565 {is_inferred="true"} ! organonitrogen compound catabolic process
+ 
+ [Term]
+ id: GO:1900608 ! tensidol B biosynthetic process
+-is_a: GO:0018130 {is_inferred="true"} ! heterocycle biosynthetic process
+-is_a: GO:0046394 {is_inferred="true"} ! carboxylic acid biosynthetic process
+ is_a: GO:1900606 {is_inferred="true"} ! tensidol B metabolic process
+-is_a: GO:1901362 {is_inferred="true"} ! organic cyclic compound biosynthetic process
+-is_a: GO:1901566 {is_inferred="true"} ! organonitrogen compound biosynthetic process
+ 
+ [Term]
+ id: GO:1900609 ! F-9775A metabolic process
+@@ -64609,41 +64593,29 @@
+ 
+ [Term]
+ id: GO:1900707 ! regulation of tensidol A biosynthetic process
+-is_a: GO:0031326 {is_inferred="true"} ! regulation of cellular biosynthetic process
+-is_a: GO:0051171 {is_inferred="true"} ! regulation of nitrogen compound metabolic process
+ is_a: GO:1900376 {is_inferred="true"} ! regulation of secondary metabolite biosynthetic process
+ 
+ [Term]
+ id: GO:1900708 ! negative regulation of tensidol A biosynthetic process
+-is_a: GO:0031327 {is_inferred="true"} ! negative regulation of cellular biosynthetic process
+-is_a: GO:0051172 {is_inferred="true"} ! negative regulation of nitrogen compound metabolic process
+ is_a: GO:1900377 {is_inferred="true"} ! negative regulation of secondary metabolite biosynthetic process
+ is_a: GO:1900707 {is_inferred="true"} ! regulation of tensidol A biosynthetic process
+ 
+ [Term]
+ id: GO:1900709 ! positive regulation of tensidol A biosynthetic process
+-is_a: GO:0031328 {is_inferred="true"} ! positive regulation of cellular biosynthetic process
+-is_a: GO:0051173 {is_inferred="true"} ! positive regulation of nitrogen compound metabolic process
+ is_a: GO:1900378 {is_inferred="true"} ! positive regulation of secondary metabolite biosynthetic process
+ is_a: GO:1900707 {is_inferred="true"} ! regulation of tensidol A biosynthetic process
+ 
+ [Term]
+ id: GO:1900710 ! regulation of tensidol B biosynthetic process
+-is_a: GO:0031326 {is_inferred="true"} ! regulation of cellular biosynthetic process
+-is_a: GO:0051171 {is_inferred="true"} ! regulation of nitrogen compound metabolic process
+ is_a: GO:1900376 {is_inferred="true"} ! regulation of secondary metabolite biosynthetic process
+ 
+ [Term]
+ id: GO:1900711 ! negative regulation of tensidol B biosynthetic process
+-is_a: GO:0031327 {is_inferred="true"} ! negative regulation of cellular biosynthetic process
+-is_a: GO:0051172 {is_inferred="true"} ! negative regulation of nitrogen compound metabolic process
+ is_a: GO:1900377 {is_inferred="true"} ! negative regulation of secondary metabolite biosynthetic process
+ is_a: GO:1900710 {is_inferred="true"} ! regulation of tensidol B biosynthetic process
+ 
+ [Term]
+ id: GO:1900712 ! positive regulation of tensidol B biosynthetic process
+-is_a: GO:0031328 {is_inferred="true"} ! positive regulation of cellular biosynthetic process
+-is_a: GO:0051173 {is_inferred="true"} ! positive regulation of nitrogen compound metabolic process
+ is_a: GO:1900378 {is_inferred="true"} ! positive regulation of secondary metabolite biosynthetic process
+ is_a: GO:1900710 {is_inferred="true"} ! regulation of tensidol B biosynthetic process
+ 
+@@ -64839,7 +64811,6 @@
+ 
+ [Term]
+ id: GO:1900751 ! 4-(trimethylammonio)butanoate transport
+-is_a: GO:0015696 {is_inferred="true"} ! ammonium transport
+ is_a: GO:0015838 {is_inferred="true"} ! amino-acid betaine transport
+ 
+ [Term]
+@@ -64924,17 +64895,29 @@
+ 
+ [Term]
+ id: GO:1900767 ! fonsecin metabolic process
++is_a: GO:0006066 {is_inferred="true"} ! alcohol metabolic process
++is_a: GO:0018904 {is_inferred="true"} ! ether metabolic process
++is_a: GO:0018958 {is_inferred="true"} ! phenol-containing compound metabolic process
++is_a: GO:0030638 {is_inferred="true"} ! polyketide metabolic process
+ is_a: GO:1900785 {is_inferred="true"} ! naphtho-gamma-pyrone metabolic process
+ 
+ [Term]
+ id: GO:1900768 ! fonsecin catabolic process
++is_a: GO:0019336 {is_inferred="true"} ! phenol-containing compound catabolic process
++is_a: GO:0030640 {is_inferred="true"} ! polyketide catabolic process
++is_a: GO:0046164 {is_inferred="true"} ! alcohol catabolic process
+ is_a: GO:1900767 {is_inferred="true"} ! fonsecin metabolic process
+ is_a: GO:1900786 {is_inferred="true"} ! naphtho-gamma-pyrone catabolic process
++is_a: GO:1901502 {is_inferred="true"} ! ether catabolic process
+ 
+ [Term]
+ id: GO:1900769 ! fonsecin biosynthetic process
++is_a: GO:0030639 {is_inferred="true"} ! polyketide biosynthetic process
++is_a: GO:0046165 {is_inferred="true"} ! alcohol biosynthetic process
++is_a: GO:0046189 {is_inferred="true"} ! phenol-containing compound biosynthetic process
+ is_a: GO:1900767 {is_inferred="true"} ! fonsecin metabolic process
+ is_a: GO:1900787 {is_inferred="true"} ! naphtho-gamma-pyrone biosynthetic process
++is_a: GO:1901503 {is_inferred="true"} ! ether biosynthetic process
+ 
+ [Term]
+ id: GO:1900770 ! fumitremorgin B metabolic process
+@@ -67454,7 +67437,6 @@
+ 
+ [Term]
+ id: GO:1901236 ! 4-(trimethylammonio)butanoate transmembrane transporter activity
+-is_a: GO:0008519 {is_inferred="true"} ! ammonium transmembrane transporter activity
+ is_a: GO:0015651 {is_inferred="true"} ! quaternary ammonium group transmembrane transporter activity
+ 
+ [Term]
+@@ -69198,7 +69180,9 @@
+ [Term]
+ id: GO:1901598 ! (-)-pinoresinol metabolic process
+ is_a: GO:0009806 {is_inferred="true"} ! lignan metabolic process
++is_a: GO:0018904 {is_inferred="true"} ! ether metabolic process
+ is_a: GO:0018958 {is_inferred="true"} ! phenol-containing compound metabolic process
++is_a: GO:0042537 {is_inferred="true"} ! benzene-containing compound metabolic process
+ is_a: GO:0046483 {is_inferred="true"} ! heterocycle metabolic process
+ 
+ [Term]
+@@ -69206,6 +69190,7 @@
+ is_a: GO:0009807 {is_inferred="true"} ! lignan biosynthetic process
+ is_a: GO:0018130 {is_inferred="true"} ! heterocycle biosynthetic process
+ is_a: GO:0046189 {is_inferred="true"} ! phenol-containing compound biosynthetic process
++is_a: GO:1901503 {is_inferred="true"} ! ether biosynthetic process
+ is_a: GO:1901598 {is_inferred="true"} ! (-)-pinoresinol metabolic process
+ 
+ [Term]
+@@ -69681,7 +69666,8 @@
+ 
+ [Term]
+ id: GO:1901702 ! salt transmembrane transporter activity
+-is_a: GO:0022857 {is_inferred="true"} ! transmembrane transporter activity
++is_a: GO:0008324 {is_inferred="true"} ! cation transmembrane transporter activity
++is_a: GO:0008509 {is_inferred="true"} ! anion transmembrane transporter activity
+ 
+ [Term]
+ id: GO:1901703 ! protein localization involved in auxin polar transport
+@@ -70806,13 +70792,11 @@
+ id: GO:1901910 ! adenosine 5'-(hexahydrogen pentaphosphate) metabolic process
+ is_a: GO:0009150 {is_inferred="true"} ! purine ribonucleotide metabolic process
+ is_a: GO:0009167 {is_inferred="true"} ! purine ribonucleoside monophosphate metabolic process
+-is_a: GO:0046128 {is_inferred="true"} ! purine ribonucleoside metabolic process
+ 
+ [Term]
+ id: GO:1901911 ! adenosine 5'-(hexahydrogen pentaphosphate) catabolic process
+ is_a: GO:0009154 {is_inferred="true"} ! purine ribonucleotide catabolic process
+ is_a: GO:0009169 {is_inferred="true"} ! purine ribonucleoside monophosphate catabolic process
+-is_a: GO:0046130 {is_inferred="true"} ! purine ribonucleoside catabolic process
+ is_a: GO:1901910 {is_inferred="true"} ! adenosine 5'-(hexahydrogen pentaphosphate) metabolic process
+ 
+ [Term]
+@@ -71872,12 +71856,15 @@
+ is_a: GO:0019336 {is_inferred="true"} ! phenol-containing compound catabolic process
+ is_a: GO:0046273 {is_inferred="true"} ! lignan catabolic process
+ is_a: GO:0046700 {is_inferred="true"} ! heterocycle catabolic process
++is_a: GO:1901502 {is_inferred="true"} ! ether catabolic process
+ is_a: GO:1901598 {is_inferred="true"} ! (-)-pinoresinol metabolic process
+ 
+ [Term]
+ id: GO:1902124 ! (+)-pinoresinol metabolic process
+ is_a: GO:0009806 {is_inferred="true"} ! lignan metabolic process
++is_a: GO:0018904 {is_inferred="true"} ! ether metabolic process
+ is_a: GO:0018958 {is_inferred="true"} ! phenol-containing compound metabolic process
++is_a: GO:0042537 {is_inferred="true"} ! benzene-containing compound metabolic process
+ is_a: GO:0046483 {is_inferred="true"} ! heterocycle metabolic process
+ 
+ [Term]
+@@ -71885,6 +71872,7 @@
+ is_a: GO:0019336 {is_inferred="true"} ! phenol-containing compound catabolic process
+ is_a: GO:0046273 {is_inferred="true"} ! lignan catabolic process
+ is_a: GO:0046700 {is_inferred="true"} ! heterocycle catabolic process
++is_a: GO:1901502 {is_inferred="true"} ! ether catabolic process
+ is_a: GO:1902124 {is_inferred="true"} ! (+)-pinoresinol metabolic process
+ 
+ [Term]
+@@ -71892,6 +71880,7 @@
+ is_a: GO:0009807 {is_inferred="true"} ! lignan biosynthetic process
+ is_a: GO:0018130 {is_inferred="true"} ! heterocycle biosynthetic process
+ is_a: GO:0046189 {is_inferred="true"} ! phenol-containing compound biosynthetic process
++is_a: GO:1901503 {is_inferred="true"} ! ether biosynthetic process
+ is_a: GO:1902124 {is_inferred="true"} ! (+)-pinoresinol metabolic process
+ 
+ [Term]
+@@ -73916,23 +73905,22 @@
+ is_a: GO:0000295 {is_inferred="true"} ! adenine nucleotide transmembrane transporter activity
+ is_a: GO:0005346 {is_inferred="true"} ! purine ribonucleotide transmembrane transporter activity
+ is_a: GO:0008514 {is_inferred="true"} ! organic anion transmembrane transporter activity
+-is_a: GO:0015211 {is_inferred="true"} ! purine nucleoside transmembrane transporter activity
+ is_a: GO:1901682 {is_inferred="true"} ! sulfur compound transmembrane transporter activity
+ 
+ [Term]
+ id: GO:1902558 ! 5'-adenylyl sulfate transmembrane transport
+ is_a: GO:0015711 {is_inferred="true"} ! organic anion transport
+-is_a: GO:0015860 {is_inferred="true"} ! purine nucleoside transmembrane transport
+ is_a: GO:0015868 {is_inferred="true"} ! purine ribonucleotide transport
+ is_a: GO:0051503 {is_inferred="true"} ! adenine nucleotide transport
+ is_a: GO:0072348 {is_inferred="true"} ! sulfur compound transport
++is_a: GO:0072530 {is_inferred="true"} ! purine-containing compound transmembrane transport
+ is_a: GO:0098656 {is_inferred="true"} ! anion transmembrane transport
+ is_a: GO:1901679 {is_inferred="true"} ! nucleotide transmembrane transport
+ 
+ [Term]
+ id: GO:1902559 ! 3'-phospho-5'-adenylyl sulfate transmembrane transport
+-is_a: GO:0015860 {is_inferred="true"} ! purine nucleoside transmembrane transport
+ is_a: GO:0046963 {is_inferred="true"} ! 3'-phosphoadenosine 5'-phosphosulfate transport
++is_a: GO:0072530 {is_inferred="true"} ! purine-containing compound transmembrane transport
+ is_a: GO:0098656 {is_inferred="true"} ! anion transmembrane transport
+ is_a: GO:1901679 {is_inferred="true"} ! nucleotide transmembrane transport
+ 
+@@ -74199,7 +74187,7 @@
+ [Term]
+ id: GO:1902616 ! acyl carnitine transmembrane transport
+ is_a: GO:0006844 {is_inferred="true"} ! acyl carnitine transport
+-is_a: GO:0055085 {is_inferred="true"} ! transmembrane transport
++is_a: GO:0072488 {is_inferred="true"} ! ammonium transmembrane transport
+ 
+ [Term]
+ id: GO:1902617 ! response to fluoride
+@@ -78652,18 +78640,15 @@
+ 
+ [Term]
+ id: GO:1903578 ! regulation of ATP metabolic process
+-is_a: GO:0009118 {is_inferred="true"} ! regulation of nucleoside metabolic process
+ is_a: GO:1900542 {is_inferred="true"} ! regulation of purine nucleotide metabolic process
+ 
+ [Term]
+ id: GO:1903579 ! negative regulation of ATP metabolic process
+-is_a: GO:0045978 {is_inferred="true"} ! negative regulation of nucleoside metabolic process
+ is_a: GO:1900543 {is_inferred="true"} ! negative regulation of purine nucleotide metabolic process
+ is_a: GO:1903578 {is_inferred="true"} ! regulation of ATP metabolic process
+ 
+ [Term]
+ id: GO:1903580 ! positive regulation of ATP metabolic process
+-is_a: GO:0045979 {is_inferred="true"} ! positive regulation of nucleoside metabolic process
+ is_a: GO:1900544 {is_inferred="true"} ! positive regulation of purine nucleotide metabolic process
+ is_a: GO:1903578 {is_inferred="true"} ! regulation of ATP metabolic process
+ 
+@@ -80636,7 +80621,7 @@
+ is_a: GO:1904478 {is_inferred="true"} ! regulation of intestinal absorption
+ 
+ [Term]
+-id: GO:1903988 ! ferrous iron export
++id: GO:1903988 ! ferrous iron export across plasma membrane
+ is_a: GO:0070839 {is_inferred="true"} ! divalent metal ion export
+ is_a: GO:1903414 {is_inferred="true"} ! iron cation export
+ 
+@@ -84144,11 +84129,13 @@
+ [Term]
+ id: GO:1904714 ! regulation of chaperone-mediated autophagy
+ is_a: GO:0010506 {is_inferred="true"} ! regulation of autophagy
++is_a: GO:0034248 {is_inferred="true"} ! regulation of cellular amide metabolic process
+ is_a: GO:0042176 {is_inferred="true"} ! regulation of protein catabolic process
+ 
+ [Term]
+ id: GO:1904715 ! negative regulation of chaperone-mediated autophagy
+ is_a: GO:0010507 {is_inferred="true"} ! negative regulation of autophagy
++is_a: GO:0034249 {is_inferred="true"} ! negative regulation of cellular amide metabolic process
+ is_a: GO:0042177 {is_inferred="true"} ! negative regulation of protein catabolic process
+ is_a: GO:1904714 {is_inferred="true"} ! regulation of chaperone-mediated autophagy
+ 
+@@ -84155,6 +84142,7 @@
+ [Term]
+ id: GO:1904716 ! positive regulation of chaperone-mediated autophagy
+ is_a: GO:0010508 {is_inferred="true"} ! positive regulation of autophagy
++is_a: GO:0034250 {is_inferred="true"} ! positive regulation of cellular amide metabolic process
+ is_a: GO:0045732 {is_inferred="true"} ! positive regulation of protein catabolic process
+ is_a: GO:1904714 {is_inferred="true"} ! regulation of chaperone-mediated autophagy
+ 
+@@ -90702,7 +90690,7 @@
+ 
+ [Term]
+ id: GO:1990544 ! mitochondrial ATP transmembrane transport
+-is_a: GO:0015860 {is_inferred="true"} ! purine nucleoside transmembrane transport
++is_a: GO:0072530 {is_inferred="true"} ! purine-containing compound transmembrane transport
+ is_a: GO:0098656 {is_inferred="true"} ! anion transmembrane transport
+ is_a: GO:1901679 {is_inferred="true"} ! nucleotide transmembrane transport
+ is_a: GO:1990542 {is_inferred="true"} ! mitochondrial transmembrane transport
+------------------------------------------------------------------------
 r38920 | mcourtot | 2017-02-20 01:04:16 -0800 (Mon, 20 Feb 2017) | 1 line
 
 plant related TCs and pollination as per https://github.com/geneontology/go-ontology/issues/11313#issuecomment-280715396
