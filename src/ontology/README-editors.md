@@ -82,3 +82,19 @@ To prepare files for a release:
 To regenerate stale imports:
 
 `make all_imports`
+
+# Tips
+
+## Setting up your local git
+
+Add the following to your ~/.profile or ~/.bashrc:
+
+
+```
+. ~/repos/go/ontology/util/git-completion.bash
+parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+```
+
+
