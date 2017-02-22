@@ -17,7 +17,8 @@ before_script:
   - chmod +x bin/*
 
 # command to run tests
-script: cd src/ontology && make travis_test
+##script: cd src/ontology && make travis_test
+script: cd scratch && make test
 
 #after_success:
 #  coveralls
