@@ -1,0 +1,2 @@
+check:
+	./spellcheck.pl *.txt
