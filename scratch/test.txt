@@ -3,7 +3,7 @@ sushi
 food
 spinach
 chicken wings
-sashimi
+sashimi toro
 lobster
 flounder
 calzone
