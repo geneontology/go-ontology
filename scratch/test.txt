@@ -2,3 +2,6 @@ cheese
 sushi
 food
 chicken wings
+sashimi
+lobster
+flounder
