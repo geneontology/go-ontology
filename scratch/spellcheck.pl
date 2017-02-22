@@ -1,11 +1,11 @@
 #!/usr/bin/perl
 foreach my $f (@ARGV) {
     print STDERR "CHECKING $f\n";
-    open(F,"cat $f | aspell -a check|");
+    open(F,$f);
     while(<F>) {
-        if (m@\&@) {
+        if (m@pizza@i) {
             push(@errs, $_);
-            print STDERR "ERR: $_  in $f\n";
+            print STDERR "No pizza allowed: $_  in $f\n";
         }
     }
 }
