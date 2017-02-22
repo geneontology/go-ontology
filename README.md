@@ -21,6 +21,3 @@ Please start by reading the [src/ontology/README-editors.md](src/ontology/README
  - a jenkins job will produce SNAPSHOT releases - https://build.berkeleybop.org/job/release-go-snapshot-NEW
  - a jenkins job will produce production releases - https://build.berkeleybop.org/job/release-go-NEW
 
-
-
-
