@@ -1,6 +1,7 @@
 cheese
 sushi
 food
+potato
 spinach
 chicken wings
 sashimi
