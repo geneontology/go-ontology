@@ -6,3 +6,4 @@ chicken wings
 sashimi
 lobster
 flounder
+pizza
