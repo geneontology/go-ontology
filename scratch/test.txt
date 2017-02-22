@@ -10,4 +10,6 @@ sashimi
 lobster
 flounder
 calzone
+chocolate
+salmon
 chips
