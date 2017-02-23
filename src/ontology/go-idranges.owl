@@ -83,6 +83,26 @@ Annotations: allocatedto: "Molecular Function refactoring"
 EquivalentTo: xsd:integer[>= GO:0104001 , <= GO:0106000]
 
 Datatype: idrange:17
+Annotations: allocatedto: "Harold Drabkin"
+EquivalentTo: xsd:integer[>= GO:0106001 , <= GO:0110000]
+
+Datatype: idrange:18
+Annotations: allocatedto: "Kimberly Van Auken"
+EquivalentTo: xsd:integer[>= GO:0110001 , <= GO:0120000]
+
+Datatype: idrange:19
+Annotations: allocatedto: "Karen Christie"
+EquivalentTo: xsd:integer[>= GO:0120001 , <= GO:0130000]
+
+Datatype: idrange:20
+Annotations: allocatedto: "Paul Thomas"
+EquivalentTo: xsd:integer[>= GO:0130001 , <= GO:0140000]
+
+Datatype: idrange:21
+Annotations: allocatedto: "Pascale Gaudet"
+EquivalentTo: xsd:integer[>= GO:0140001 , <= GO:0150000]
+
+Datatype: idrange:90
 Annotations: allocatedto: "Automatic Term Generation"
 EquivalentTo: xsd:integer[>= GO:1000001 , <= GO:1899999]
 
