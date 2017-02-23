@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2017-02-22/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2017-02-23/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -3200,6 +3200,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000678">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">commissural neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000679">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000161"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamatergic neuron</rdfs:label>
     </owl:Class>
     
 

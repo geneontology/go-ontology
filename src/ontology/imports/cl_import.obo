@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2017-02-22/imports/cl_import.owl
+data-version: go/releases/2017-02-23/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -2026,6 +2026,12 @@ is_a: CL:0000212 ! absorptive cell
 [Term]
 id: CL:0000678
 name: commissural neuron
+is_a: CL:0000540 ! neuron
+
+[Term]
+id: CL:0000679
+name: glutamatergic neuron
+is_a: CL:0000161 ! acid secreting cell
 is_a: CL:0000540 ! neuron
 
 [Term]

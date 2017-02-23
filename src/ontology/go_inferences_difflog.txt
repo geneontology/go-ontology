@@ -1,4 +1,70 @@
 ------------------------------------------------------------------------
+r38972 | davidos | 2017-02-23 11:56:02 -0800 (Thu, 23 Feb 2017) | 1 line
+
+Added <Parallel fiber to Purkinje cell synapse>. Also some missing xrefs for BHF & delted some redundany axioms.
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38972)
++++ go_inferences.obo	(working copy)
+@@ -58895,6 +58895,10 @@
+ is_a: GO:0044456 {is_inferred="true"} ! synapse part
+ 
+ [Term]
++id: GO:0098688 ! parallel fiber to Purkinje cell synapse
++is_a: GO:0060076 {is_inferred="true"} ! excitatory synapse
++
++[Term]
+ id: GO:0098700 ! neurotransmitter loading into synaptic vesicle
+ is_a: GO:0006836 {is_inferred="true"} ! neurotransmitter transport
+ is_a: GO:0051649 {is_inferred="true"} ! establishment of localization in cell
+@@ -90207,6 +90211,10 @@
+ is_a: GO:0034504 {is_inferred="true"} ! protein localization to nucleus
+ 
+ [Term]
++id: GO:1990032 ! parallel fiber
++is_a: GO:0044302 {is_inferred="true"} ! dentate gyrus mossy fiber
++
++[Term]
+ id: GO:1990034 ! calcium ion export from cell
+ is_a: GO:1901660 {is_inferred="true"} ! calcium ion export
+ 
+------------------------------------------------------------------------
+r38970 | termgenie | 2017-02-23 10:01:28 -0800 (Thu, 23 Feb 2017) | 2 lines
+
+TermGenie commit for user: slaulederkind reviewed by cmungall
+
+changes in entailments
+
+Index: go_inferences.obo
+===================================================================
+--- go_inferences.obo	(revision 38970)
++++ go_inferences.obo	(working copy)
+@@ -90181,9 +90181,20 @@
+ 
+ [Term]
+ id: GO:1905960 ! response to 1-(3,5-dichloro-2,6-dihydroxy-4-methoxyphenyl)pentan-1-one
+-is_a: GO:0050896 {is_inferred="true"} ! response to stimulus
++is_a: GO:0014070 {is_inferred="true"} ! response to organic cyclic compound
++is_a: GO:0045472 {is_inferred="true"} ! response to ether
++is_a: GO:1901654 {is_inferred="true"} ! response to ketone
+ 
+ [Term]
++id: GO:1905961 ! protein-cysteine S-palmitoyltransferase complex
++is_a: GO:0002178 {is_inferred="true"} ! palmitoyltransferase complex
++is_a: GO:0043234 {is_inferred="true"} ! protein complex
++
++[Term]
++id: GO:1905962 ! glutamatergic neuron differentiation
++is_a: GO:0030154 {is_inferred="true"} ! cell differentiation
++
++[Term]
+ id: GO:1990000 ! amyloid fibril formation
+ is_a: GO:0044710 {is_inferred="true"} ! single-organism metabolic process
+ 
+------------------------------------------------------------------------
 r38954 | tberardi | 2017-02-22 11:06:44 -0800 (Wed, 22 Feb 2017) | 6 lines
 
 Fixed bad PMID put in through TG:
