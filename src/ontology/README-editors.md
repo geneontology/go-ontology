@@ -31,6 +31,28 @@ We aim to put this up on the technical docs for OBO on http://obofoundry.org/
 
 For now, consult the [Protege Planteome Tutorial](https://github.com/Planteome/protege-tutorial/blob/master/presentations/protege_planteome_tutorial.doc?raw=true) and look for the section "new entities"
 
+Go to Properties/New Entities
+
+Entity IRI
+
+ * Start with: `http://purl.obolibrary.org/obo`
+ * Followed by: `/`
+
+Entity Label
+
+ * Custom label: `http://www.w3.org/2000/01/rdf-schema#label`
+
+Auto-generated ID
+
+ * Numeric
+ * Prefix `GO_`
+ * Suffix: leave this blank
+ * Digit Count `7`
+ * Start: see go-idranges.owl
+ * End: see go-idranges.owl
+ * Remember ID: __ALWAYS CHECK THIS__
+
+Note you want the ID to be remembered to prevent clases when working in parallel on branches
 
 ## Release Process
 
