@@ -1,0 +1,2 @@
+http://purl.obolibrary.org/obo/DDANAT_0000094
+http://purl.obolibrary.org/obo/DDANAT_0000012

@@ -206,7 +206,7 @@ go-basic.owl: go-basic.obo
 # IMPORT MODULES
 # ----------------------------------------
 
-IMPORTS = chebi cl po pato ro ncbitaxon uberon fao oba
+IMPORTS = chebi cl po pato ro ncbitaxon uberon fao ddanat oba 
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
