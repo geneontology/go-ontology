@@ -197,7 +197,7 @@ go-simple-filtered.obo: go-simple.obo
 
 # filter inter-ontology (e.g. MF to BP) links
 go-basic.obo: go-simple-filtered.obo
-	$(PERLFILTER) $< > $@.tmp && mv $@.tmp $@ && check-obo-for-standard-release.pl --disable-xrf-abbs-check $@
+	$(PERLFILTER) $< > $@.tmp && mv $@.tmp $@ && $(PERLCHECK) --disable-xrf-abbs-check $@
 
 go-basic.owl: go-basic.obo
 	$(ROBOT) convert -i $< -o $@
