@@ -94,9 +94,11 @@ prepare_release: build
 
 # deploy to S3
 S3CFG = ~/.s3cfg.go-pipeline-push-agent
+SNAPDATE = `date +'%Y%m'`
 deploy-snapshot:
 	cd $(RELEASEDIR) &&\
-	find . -type f -print0 | xargs -0 -I % s3cmd -c $(S3CFG) --acl-public --reduced-redundancy --mime-type=application/rdf+xml put % s3://go-build/ontology/snapshot/%
+	find . -type f -print0 | xargs -0 -I % s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml put % s3://go-data-product-current/ontologies/%
+	find . -type f -print0 | xargs -0 -I % s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml put % s3://go-data-product-archive/$(SNAPDATE)/ontologies/%
 
 # reasoner diffs
 idiff: go_inferences_difflog.txt
