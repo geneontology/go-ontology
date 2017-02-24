@@ -93,7 +93,7 @@ prepare_release: build
 	echo "Release files are now in $(RELEASEDIR)"
 
 # deploy to S3
-S3CFG = ~/.s3cfg.go-push
+S3CFG = ~/.s3cfg.go-pipeline-push-agent
 deploy-snapshot:
 	cd $(RELEASEDIR) &&\
 	find . -type f -print0 | xargs -0 -I % s3cmd -c $(S3CFG) --acl-public --reduced-redundancy --mime-type=application/rdf+xml put % s3://go-build/ontology/snapshot/%
