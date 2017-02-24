@@ -1,22 +1,4 @@
-all: real_all
-
-# ----------------------------------------
-# TEMPORARY
-# ----------------------------------------
-# until we switch to new repo, we need to periodically sync for testing
-
-OLDED=$(HOME)/repos/go/ontology/editors/
-sync:
-	perl -npe 's@go/extensions/@go/imports/@' $(OLDED)/gene_ontology_write.obo > go-edit.obo ;\
-	cp $(OLDED)/go_inferences_null.owl . ;\
-	cp $(OLDED)/go-idranges.txt . ;\
-	cp $(OLDED)/go_inferences_difflog.txt . ;\
-	cp $(OLDED)/*.dict . ;\
-	perl -npe 's@\.\./extensions/@imports/@' $(OLDED)/oboedit.catalog > oboedit.catalog
-
-# ----------------------------------------
-# ACTUAL MAKEFILE STARTS HERE
-# ----------------------------------------
+all: build
 
 # ----------------------------------------
 # CORE VARIABLES
@@ -82,7 +64,7 @@ GO_PLUS = extensions/go-plus
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-real_all: test all_imports $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
+build: test all_imports $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
 
 test: $(SRC)-check change-report.txt reasoned.owl
 
@@ -98,7 +80,7 @@ clean_target:
 	rm -rf $(RELEASEDIR)/*
 
 # copies from staged area to target
-prepare_release: all
+prepare_release: build
 	mkdir -p $(RELEASEDIR)/extensions &&\
 	mkdir -p $(RELEASEDIR)/subsets &&\
 	mkdir -p $(RELEASEDIR_IMPORTS) &&\
