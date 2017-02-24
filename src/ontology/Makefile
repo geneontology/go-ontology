@@ -229,41 +229,44 @@ imports/%_import.obo: imports/%_import.owl
 
 WGET_OUT = -O $@.tmp && cp $@.tmp $@ && touch $@
 
+mirror:
+	mkdir $@
+
 # special case: download obo for speed for ncbitaxon.
 # note also that here we only trigger new downloads if ncbitaxon_terms.txt is touched
-mirror/ncbitaxon-download.owl: imports/ncbitaxon_terms.txt
+mirror/ncbitaxon-download.owl: imports/ncbitaxon_terms.txt mirror
 	wget --no-check-certificate $(OBO)/ncbitaxon.obo $(WGET_OUT)
 .PRECIOUS: mirror/ncbitaxon-download.owl
 
 # special case: download obo for speed for ncbitaxon
-mirror/pr-download.owl: $(SRC)
+mirror/pr-download.owl: $(SRC) mirror
 	wget --no-check-certificate $(OBO)/pr.obo $(WGET_OUT)
 .PRECIOUS: mirror/pr-download.owl
 
 # special case: download obo for speed for chebi
 # See also: https://github.com/ebi-chebi/ChEBI/issues/3269
-mirror/chebi-download.owl: $(SRC)
+mirror/chebi-download.owl: $(SRC) mirror
 #	wget --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
 	curl -L $(OBO)/chebi.obo  -o $@.tmp  && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified) && perl -pi -ne 's@BFO_@BFO:@' $@
 .PRECIOUS: mirror/chebi-download.owl
 
 # special case: use ext for uberon
-mirror/uberon-download.owl: $(SRC)
+mirror/uberon-download.owl: $(SRC) mirror
 	wget --no-check-certificate $(OBO)/uberon/ext.owl $(WGET_OUT)
 .PRECIOUS: mirror/uberon-download.owl
 
 # special case: use basic for oba
-mirror/oba-download.owl: $(SRC)
+mirror/oba-download.owl: $(SRC) mirror
 	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo $(WGET_OUT)
 .PRECIOUS: mirror/oba-download.owl
 
 # special case: use basic for cl
-mirror/cl-download.owl: $(SRC)
+mirror/cl-download.owl: $(SRC) mirror
 	wget --no-check-certificate $(OBO)/cl/cl-basic.obo $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
 # general case: download remote OWL first
-mirror/%-download.owl: $(SRC)
+mirror/%-download.owl: $(SRC) mirror
 #	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
 	curl -L $(OBO)/$*.owl -o $@.tmp && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified)
 .PRECIOUS: mirror/%-download.owl
