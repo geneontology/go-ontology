@@ -4,8 +4,10 @@
 
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go_inferences.owl" uri="go_inferences_null.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/substance_by_role.owl" uri="imports/substance_by_role.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/substance_by_role.owl" uri="imports/substance_by_role.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go_bridge.owl" uri="imports/go_bridge.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/chebi_roles.owl" uri="imports/chebi_roles.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/chebi_roles.owl" uri="imports/chebi_roles.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/cl_import.owl" uri="imports/cl_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/po_import.owl" uri="imports/po_import.owl"/>

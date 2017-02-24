@@ -289,7 +289,7 @@ mirror/%-download.owl: $(SRC)
 
 # bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
 bio-chebi.owl: mirror/chebi-download.owl mirror/chebi.owl
-	owltools --create-biochebi -o $@ -c $<
+	owltools $(USECAT) --create-biochebi -o $@ -c $<
 
 # filter axioms
 FILTER_EXTERNAL=--remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
