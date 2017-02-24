@@ -95,7 +95,7 @@ full_test: test $(ONT).obo
 # note that most derived files are kept separate from source files, in $(RELEASEDIR)
 clean: clean_target clean_imports
 clean_target:
-	rm $(RELEASEDIR)/*
+	rm -rf $(RELEASEDIR)/*
 
 # copies from staged area to target
 prepare_release: all
@@ -182,7 +182,7 @@ $(ONT)-pre.owl: reasoned.owl
 $(ONT).obo: $(ONT)-pre.owl
 	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
 	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge $(BUILD_DIR)/go.obo &&\
-	cp $(BUILD_DIR)/subsets/*{.obo,owl,json} subsets/ &&\
+	cp $(BUILD_DIR)/subsets/* subsets/ &&\
 	cp $(BUILD_DIR)/go.obo $@ &&\
 	cp $(BUILD_DIR)/go-simple.obo . &&\
 	cp $(BUILD_DIR)/go.owl .
@@ -212,8 +212,7 @@ IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, impor
 # Make this target to regenerate ALL
 all_imports: $(IMPORTS_OWL)
 clean_imports:
-	test -f uberon_mirror.owl && rm uberon_mirror.owl
-	test -f ncbitaxon_mirror.owl && rm ncbitaxon_mirror.owl
+	rm mirror/*
 
 seed.txt: $(SRC)
 	owltools --use-catalog $< --export-table $@.tmp && cut -f1 $@.tmp > $@
