@@ -300,7 +300,23 @@ mirror/%.owl: mirror/%-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/%.owl
 
+# ----------------------------------------
+# REPORTS
+# ----------------------------------------
 
+SPARQLDIR = ../sparql
+REPORTDIR = $(RELEASEDIR)/reports
+ARQ = JVM_ARGS=-Xmx6G arq
+
+REPORTS = stats basicReport numberOfClassesByPrefix edges labels
+
+all_reports: $(patsubst %,reports/go-%.tsv,$(REPORTS))
+
+$(REPORTDIR):
+	mkdir $@
+
+reports/go-%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
+	$(ARQ) --data $< --query $(SPARQLDIR)/$*.sparql --results tsv > $@.tmp && mv $@.tmp $@
 
 # ----------------------------------------
 # ADDING INFERENCES
