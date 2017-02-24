@@ -244,7 +244,7 @@ mirror/pr-download.owl: $(SRC)
 # See also: https://github.com/ebi-chebi/ChEBI/issues/3269
 mirror/chebi-download.owl: $(SRC)
 #	wget --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
-	curl -L $(OBO)/chebi.obo -z $@ -o $@.tmp  && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified) && perl -pi -ne 's@BFO_@BFO:@' $@
+	curl -L $(OBO)/chebi.obo $@ -o $@.tmp  && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified) && perl -pi -ne 's@BFO_@BFO:@' $@
 .PRECIOUS: mirror/chebi-download.owl
 
 # special case: use ext for uberon
@@ -265,7 +265,7 @@ mirror/cl-download.owl: $(SRC)
 # general case: download remote OWL first
 mirror/%-download.owl: $(SRC)
 #	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
-	curl -L $(OBO)/$*.owl -z $@ -o $@.tmp && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified)
+	curl -L $(OBO)/$*.owl $@ -o $@.tmp && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified)
 .PRECIOUS: mirror/%-download.owl
 
 # bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
