@@ -106,7 +106,7 @@ prepare_release: all
 	cp imports/*.owl $(RELEASEDIR_IMPORTS) &&\
 	cp imports/*.obo $(RELEASEDIR_IMPORTS) &&\
 	cp extensions/* $(RELEASEDIR)/extensions &&\
-	cp go-basic/* $(RELEASEDIR)/subsets &&\
+	cp go-basic.* $(RELEASEDIR)/subsets &&\
 	cp subsets/* $(RELEASEDIR)/subsets &&\
 	echo "Release files are now in $(RELEASEDIR)"
 
