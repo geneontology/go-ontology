@@ -21,3 +21,10 @@ src/ontology/subsets/*.obo
 src/ontology/subsets/*.owl
 src/ontology/subsets/*.json
 target/
+
+# Emacs autosave files
+*~
+
+# Mac specific weirdness
+.DS_Store
+src/.DS_Store
