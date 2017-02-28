@@ -119,6 +119,12 @@ while (<>) {
                 delete $relUsageMap{$id};
             }
         }
+        if ($stanza_type eq 'Term') {
+            if ($id !~ m@:@ || $id =~ m@_@) {
+                flag('bad-id', 'badly formatted id', $id);
+            }
+        }
+            
     }
     if (/^(id|alt_id):\s+(\S+)/) {
         my $idref = $2;
