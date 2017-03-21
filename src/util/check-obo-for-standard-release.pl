@@ -137,8 +137,9 @@ while (<>) {
         push(@onts, $1);
     }
     if (/^name:\s+(.*)/) {
-        $nameh{$id} = $1;
-        push(@{$idByName{$1}},$id);
+        my $n = $1;
+        $nameh{$id} = $n;
+        push(@{$idByName{$n}},$id);
         if (/\{.*=\"/) {
             flag("axiom annotation in label", "in: $id -- line: $_");
         }
@@ -264,6 +265,10 @@ while (<>) {
         if (/^synonym: "\s+.*" \w+ /) {
             flag('whitespace-synonym-check', "Line: $_");
         }
+        if (/^name: .*\s\s/) {
+            flat("label has double-whitespace", "line: $_");
+        }
+
     }
 
     unless ($disabled{'pmid-check'}) {
