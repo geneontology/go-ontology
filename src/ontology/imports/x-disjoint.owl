@@ -226,6 +226,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000278"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0000279 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000279"/>
@@ -321,12 +327,6 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0044428"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0044434"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0007067 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007067"/>
     
 
 
