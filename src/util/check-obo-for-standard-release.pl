@@ -265,8 +265,11 @@ while (<>) {
         if (/^synonym: "\s+.*" \w+ /) {
             flag('whitespace-synonym-check', "Line: $_");
         }
+        if (/^synonym: ".*\s\s.*" /) {
+            flag("synonym has double-whitespace", "line: $_");
+        }
         if (/^name: .*\s\s/) {
-            flat("label has double-whitespace", "line: $_");
+            flag("label has double-whitespace", "line: $_");
         }
 
     }
