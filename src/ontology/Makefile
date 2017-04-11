@@ -144,7 +144,7 @@ reasoned.owl: $(SRC) $(SRC)-check
 
 # equivalent to reasoned, but we rename
 $(GO_PLUS).owl: reasoned.owl
-	$(ROBOT) annotate -i $< -O $(OBO)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) annotate -i $< -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: $(GO_PLUS).owl
 
 # ----------------------------------------
