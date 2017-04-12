@@ -282,7 +282,7 @@ FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remo
 
 # todo: uberon currently has some chebi inferences
 mirror/uberon.owl: mirror/uberon-download.owl
-	$(OWLTOOLS) --use-catalog $< --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO $(FILTER_EXTERNAL) -o $@
+	$(OWLTOOLS) --use-catalog $< --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/uberon.owl
 
 mirror/%.owl: mirror/%-download.owl
