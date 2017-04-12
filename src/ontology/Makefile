@@ -290,6 +290,14 @@ mirror/%.owl: mirror/%-download.owl
 .PRECIOUS: mirror/%.owl
 
 # ----------------------------------------
+# TAXON GROUPINGS
+# ----------------------------------------
+
+imports/go-taxon-groupings.owl: imports/go-taxon-groupings-edit.owl
+	robot reason -i $< -r hermit -o $@
+#	owltools --use-catalog $< --run-reasoner -r hermit --assert-implied -o $@
+
+# ----------------------------------------
 # REPORTS
 # ----------------------------------------
 
