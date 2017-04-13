@@ -292,6 +292,12 @@ mirror/%.owl: mirror/%-download.owl
 .PRECIOUS: mirror/%.owl
 
 # ----------------------------------------
+# MAPPINGS
+# ----------------------------------------
+
+generate-mappings: go-basic.obo
+	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals EC KEGG MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia
+
 # TAXON GROUPINGS
 # ----------------------------------------
 
