@@ -93,14 +93,18 @@ prepare_release: build
 	echo "Release files are now in $(RELEASEDIR)"
 
 # deploy to S3
+# URLs will be of the form https://s3.amazonaws.com/go-data-product-current/ontology/subsets/go-basic.json.gz
 S3CFG = ~/.s3cfg.go-pipeline-push-agent
-SNAPDATE = `date +%Y-%m-%d`
+RELEASEDATE = `date +%Y-%m-%d`
+# https://build.berkeleybop.org/job/release-go-ontology-daily-snapshot/
 deploy-snapshot:
 	cd $(RELEASEDIR) &&\
-	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-current/ontologies/
-	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-archive/$(SNAPDATE)/ontologies/
-	#find . -type f -print0 | xargs -0 -I % s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml put % s3://go-data-product-current/ontologies/%
-	#find . -type f -print0 | xargs -0 -I % s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml put % s3://go-data-product-archive/$(SNAPDATE)/ontologies/%
+	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-snapshot/ontology/
+
+deploy-release:
+	cd $(RELEASEDIR) &&\
+	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-current/ontology/
+	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-release/$(RELEASEDATE)/ontology/
 
 # reasoner diffs
 idiff: go_inferences_difflog.txt
