@@ -19,8 +19,11 @@ Please start by reading the [src/ontology/README-editors.md](src/ontology/README
  - travis will perform fast tests on every commit or pull request (https://travis-ci.org/geneontology/go-ontology)
  - a jenkins job will run on every commit and produce inference reports (TODO)
  - a jenkins job will run on every commit (TODO: merge with above)  - https://build.berkeleybop.org/job/build-go-NEW
- - a jenkins job will produce nightly SNAPSHOT releases TODO - https://build.berkeleybop.org/job/release-go-snapshot-NEW
- - a jenkins job will produce production releases - https://build.berkeleybop.org/job/release-go-NEW
+ - a jenkins job will produce nightly SNAPSHOT releases - https://build.berkeleybop.org/job/release-go-ontology-daily-snapshot
+    * https://s3.amazonaws.com/go-data-product-snapshot/ontology/
+ - a jenkins job will produce production releases - https://build.berkeleybop.org/job/release-go-ontology-production/
+    * https://s3.amazonaws.com/go-data-product-current/ontology/
+    * https://s3.amazonaws.com/go-data-product-release/ontology/
 
 ### TEMPORARY
 
