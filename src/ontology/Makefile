@@ -64,7 +64,7 @@ GO_PLUS = extensions/go-plus
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: test all_imports $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
+stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
 
 test: $(SRC)-check change-report.txt reasoned.owl
 
