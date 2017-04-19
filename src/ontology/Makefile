@@ -64,7 +64,7 @@ GO_PLUS = extensions/go-plus
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: test all_imports $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
+stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
 
 test: $(SRC)-check change-report.txt reasoned.owl
 
@@ -88,17 +88,23 @@ prepare_release: build
 	cp imports/*.owl $(RELEASEDIR_IMPORTS) &&\
 	cp imports/*.obo $(RELEASEDIR_IMPORTS) &&\
 	cp extensions/* $(RELEASEDIR)/extensions &&\
-	cp go-basic.* $(RELEASEDIR)/subsets &&\
+	cp go-basic.* $(RELEASEDIR) &&\
 	cp subsets/* $(RELEASEDIR)/subsets &&\
 	echo "Release files are now in $(RELEASEDIR)"
 
 # deploy to S3
+# URLs will be of the form https://s3.amazonaws.com/go-data-product-current/ontology/subsets/go-basic.json.gz
 S3CFG = ~/.s3cfg.go-pipeline-push-agent
-SNAPDATE = `date +'%Y%m'`
+RELEASEDATE = `date +%Y-%m-%d`
+# https://build.berkeleybop.org/job/release-go-ontology-daily-snapshot/
 deploy-snapshot:
 	cd $(RELEASEDIR) &&\
-	find . -type f -print0 | xargs -0 -I % s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml put % s3://go-data-product-current/ontologies/%
-	find . -type f -print0 | xargs -0 -I % s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml put % s3://go-data-product-archive/$(SNAPDATE)/ontologies/%
+	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-snapshot/ontology/
+
+deploy-release:
+	cd $(RELEASEDIR) &&\
+	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-current/ontology/
+	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-release/$(RELEASEDATE)/ontology/
 
 # reasoner diffs
 idiff: go_inferences_difflog.txt
@@ -190,7 +196,7 @@ go-basic.owl: go-basic.obo
 # IMPORT MODULES
 # ----------------------------------------
 
-IMPORTS = chebi cl po pato ro ncbitaxon uberon fao oba
+IMPORTS = chebi cl po pato ro ncbitaxon uberon ddanat fao oba so
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
@@ -236,39 +242,39 @@ mirror:
 
 # special case: download obo for speed for ncbitaxon.
 # note also that here we only trigger new downloads if ncbitaxon_terms.txt is touched
-mirror/ncbitaxon-download.owl: imports/ncbitaxon_terms.txt mirror
+mirror/ncbitaxon-download.owl: imports/ncbitaxon_terms.txt
 	wget --no-check-certificate $(OBO)/ncbitaxon.obo $(WGET_OUT)
 .PRECIOUS: mirror/ncbitaxon-download.owl
 
 # special case: download obo for speed for ncbitaxon
-mirror/pr-download.owl: $(SRC) mirror
+mirror/pr-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/pr.obo $(WGET_OUT)
 .PRECIOUS: mirror/pr-download.owl
 
 # special case: download obo for speed for chebi
 # See also: https://github.com/ebi-chebi/ChEBI/issues/3269
-mirror/chebi-download.owl: $(SRC) mirror
+mirror/chebi-download.owl: $(SRC)
 #	wget --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
 	curl -L $(OBO)/chebi.obo  -o $@.tmp  && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified) && perl -pi -ne 's@BFO_@BFO:@' $@
 .PRECIOUS: mirror/chebi-download.owl
 
 # special case: use ext for uberon
-mirror/uberon-download.owl: $(SRC) mirror
+mirror/uberon-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/uberon/ext.owl $(WGET_OUT)
 .PRECIOUS: mirror/uberon-download.owl
 
 # special case: use basic for oba
-mirror/oba-download.owl: $(SRC) mirror
+mirror/oba-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo $(WGET_OUT)
 .PRECIOUS: mirror/oba-download.owl
 
 # special case: use basic for cl
-mirror/cl-download.owl: $(SRC) mirror
+mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/cl/cl-basic.obo $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
 # general case: download remote OWL first
-mirror/%-download.owl: $(SRC) mirror
+mirror/%-download.owl: $(SRC)
 #	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
 	curl -L $(OBO)/$*.owl -o $@.tmp && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified)
 .PRECIOUS: mirror/%-download.owl
@@ -278,14 +284,30 @@ bio-chebi.owl: mirror/chebi-download.owl mirror/chebi.owl
 	owltools $(USECAT) --create-biochebi -o $@ -c $<
 
 # filter axioms
-FILTER_EXTERNAL=--remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
+FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
+
+# todo: uberon currently has some chebi inferences
 mirror/uberon.owl: mirror/uberon-download.owl
-	$(OWLTOOLS) --use-catalog $< --remove-classes-in-idspace -s GO --remove-classes-in-idspace -s CHEBI $(FILTER_EXTERNAL) -o $@
+	$(OWLTOOLS) --use-catalog $< --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/uberon.owl
 
 mirror/%.owl: mirror/%-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/%.owl
+
+# ----------------------------------------
+# MAPPINGS
+# ----------------------------------------
+
+generate-mappings: go-basic.obo
+	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals EC KEGG MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia
+
+# TAXON GROUPINGS
+# ----------------------------------------
+
+imports/go-taxon-groupings.owl: imports/go-taxon-groupings-edit.owl
+	robot reason -i $< -r hermit -o $@
+#	owltools --use-catalog $< --run-reasoner -r hermit --assert-implied -o $@
 
 # ----------------------------------------
 # REPORTS
