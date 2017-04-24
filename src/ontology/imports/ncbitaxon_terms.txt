@@ -1,1 +1,2 @@
 NCBITaxon:9606
+NCBITaxon:6073 ## Cnidaria

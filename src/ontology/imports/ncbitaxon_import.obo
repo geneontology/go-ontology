@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2017-04-11/imports/ncbitaxon_import.owl
+data-version: go/releases/2017-04-21/imports/ncbitaxon_import.owl
 ontology: go/imports/ncbitaxon_import
 
 [Term]
@@ -138,6 +138,12 @@ synonym: "Diplomonadida group" RELATED []
 is_a: NCBITaxon:2759 ! Eukaryota
 
 [Term]
+id: NCBITaxon:207598
+name: Homininae
+synonym: "Homo/Pan/Gorilla group" RELATED []
+is_a: NCBITaxon:9604 ! Hominidae
+
+[Term]
 id: NCBITaxon:2157
 name: Archaea
 synonym: "archaea" RELATED []
@@ -183,6 +189,19 @@ is_a: NCBITaxon:33630 ! Alveolata
 id: NCBITaxon:314146
 name: Euarchontoglires
 is_a: NCBITaxon:1437010 ! Boreoeutheria
+
+[Term]
+id: NCBITaxon:314293
+name: Simiiformes
+synonym: "Anthropoidea" RELATED []
+is_a: NCBITaxon:376913 ! Haplorrhini
+
+[Term]
+id: NCBITaxon:314295
+name: Hominoidea
+synonym: "ape" EXACT []
+synonym: "apes" EXACT []
+is_a: NCBITaxon:9526 ! Catarrhini
 
 [Term]
 id: NCBITaxon:3193
@@ -320,6 +339,11 @@ is_a: NCBITaxon:4892 ! Saccharomycetales
 id: NCBITaxon:35493
 name: Streptophyta
 is_a: NCBITaxon:33090 ! Viridiplantae
+
+[Term]
+id: NCBITaxon:376913
+name: Haplorrhini
+is_a: NCBITaxon:9443 ! Primates
 
 [Term]
 id: NCBITaxon:38254
@@ -483,6 +507,15 @@ name: Eumetazoa
 is_a: NCBITaxon:33208 ! Metazoa
 
 [Term]
+id: NCBITaxon:6073
+name: Cnidaria
+synonym: "cnidarians" EXACT []
+synonym: "cnidarians" RELATED []
+synonym: "Coelenterata" RELATED []
+synonym: "coelenterates" EXACT []
+is_a: NCBITaxon:6072 ! Eumetazoa
+
+[Term]
 id: NCBITaxon:6231
 name: Nematoda
 synonym: "Nemata" RELATED []
@@ -622,4 +655,29 @@ synonym: "Primata" RELATED []
 synonym: "primate" EXACT []
 synonym: "primates" RELATED []
 is_a: NCBITaxon:314146 ! Euarchontoglires
+
+[Term]
+id: NCBITaxon:9526
+name: Catarrhini
+is_a: NCBITaxon:314293 ! Simiiformes
+
+[Term]
+id: NCBITaxon:9604
+name: Hominidae
+synonym: "great apes" EXACT []
+synonym: "Pongidae" RELATED []
+is_a: NCBITaxon:314295 ! Hominoidea
+
+[Term]
+id: NCBITaxon:9605
+name: Homo
+is_a: NCBITaxon:207598 ! Homininae
+
+[Term]
+id: NCBITaxon:9606
+name: Homo sapiens
+synonym: "human" EXACT []
+synonym: "humans" RELATED []
+synonym: "man" EXACT []
+is_a: NCBITaxon:9605 ! Homo
 
