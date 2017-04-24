@@ -1,4 +1,6 @@
-THESE INSTRUCTIONS DO NOT YET REFLECT THE LIVE ONTOLOGY
+Note: the most up to date documentation is currently here, this will later be translated into Markdown:
+
+https://docs.google.com/document/d/165IqcYhyGUolphR-wIO0rgO57lhW869TQplY534jWUA/edit
 
 # GO Editors Instructions
 
@@ -56,9 +58,9 @@ Note you want the ID to be remembered to prevent clases when working in parallel
 
 ## Release Process
 
-NOT YET LIVE
+This Jenkins job will create releases https://build.berkeleybop.org/job/release-go-ontology-snapshot
 
-This Jenkins job will create releases https://build.berkeleybop.org/job/release-go-NEW/
+(see [the parent README](../../README.md) for more details)
 
 The release process can be simulated as follows:
 
