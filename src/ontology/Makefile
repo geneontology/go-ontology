@@ -353,11 +353,11 @@ go_inferences.obo: go_inferences.owl
 .PRECIOUS: go_inferences.obo
 
 # TODO: change this once diff pipeline in place
-go_inferences.obo-previous: $(SRC)
-	wget --no-check-certificate http://geneontology.org/ontology/editors/go_inferences.obo -O $@
+#go_inferences.obo-previous: $(SRC)
+#	wget --no-check-certificate http://geneontology.org/ontology/editors/go_inferences.obo -O $@
 
-#%-previous: $(SRC)
-#	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology-inferences/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo > $@
+%-previous: $(SRC)
+	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology-inferences/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo > $@
 
 # get the difference between the current staged inferences file and the
 # last one to be checked in.
