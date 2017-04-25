@@ -353,7 +353,7 @@ go_inferences.obo: go_inferences.owl
 .PRECIOUS: go_inferences.obo
 
 # TODO: change this once diff pipeline in place
-go_inferences.obo-previous:
+go_inferences.obo-previous: $(SRC)
 	wget --no-check-certificate http://geneontology.org/ontology/editors/go_inferences.obo -O $@
 
 #%-previous: $(SRC)
