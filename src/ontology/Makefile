@@ -372,5 +372,6 @@ go_inferences_difflog.txt: go_inferences.diff
 
 # reasoner diffs
 idiff: go_inferences_difflog.txt
+	mkdir -p $(RELEASEDIR)/
 	cp go_inferences.diff $(RELEASEDIR) && \
 	cp go_inferences.obo $(RELEASEDIR)
