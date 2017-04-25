@@ -263,7 +263,7 @@ mirror/uberon-download.owl: $(SRC)
 
 # special case: use basic for oba
 mirror/oba-download.owl: $(SRC)
-	owltools $(OBO)/oba/subsets/oba-basic.obo --make-subset-by-properties -n // -o $@
+	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo -O $@.tmp && owltools $@.tmp --make-subset-by-properties -n // -o $@
 .PRECIOUS: mirror/oba-download.owl
 
 # special case: use basic for cl
