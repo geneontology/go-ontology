@@ -352,17 +352,23 @@ go_inferences.obo: go_inferences.owl
 	owltools $< --use-catalog go-edit.obo --add-imports-from-supports -o -f obo $@.tmp && grep -v ^import: $@.tmp > $@
 .PRECIOUS: go_inferences.obo
 
-%-previous: $(SRC)
-	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology-inferences/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo > $@
+# TODO: change this once diff pipeline in place
+go_inferences.obo-previous:
+	wget --no-check-certificate http://geneontology.org/ontology/editors/go_inferences.obo -O $@
+
+#%-previous: $(SRC)
+#	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology-inferences/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo > $@
 
 # get the difference between the current staged inferences file and the
 # last one to be checked in.
 go_inferences.diff: go_inferences.obo go_inferences.obo-previous
+	echo getting log
 	git log $(SRC) | head -4 > $@
 	echo >> $@
 	echo "changes in entailments" >> $@
 	echo >> $@
-	diff go_inferences.obo-previous go_inferences.obo >> $@
+	echo diffing
+	diff go_inferences.obo-previous go_inferences.obo >> $@ || echo differences found
 .PRECIOUS: go_inferences.diff
 
 # append latest diffs onto difflog
