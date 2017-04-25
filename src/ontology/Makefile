@@ -106,8 +106,6 @@ deploy-release:
 	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-current/ontology/
 	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-release/$(RELEASEDATE)/ontology/
 
-# reasoner diffs
-idiff: go_inferences_difflog.txt
 
 # ----------------------------------------
 # GENERIC TRANSFORMS
@@ -337,13 +335,14 @@ reports/go-%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
 
 # first strip the go_inferences import; we need to do this
 # because we cannot create a new ontology with the same name
+# TEMPORARY: we should be able to remove this step soon
 go-edit_noinf.obo: go-edit.obo
-	grep -v '^import: http://purl.obolibrary.org/obo/go/extensions/go_inferences.owl' $< > $@.tmp && mv $@.tmp $@
+	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_inferences.owl' $< > $@.tmp && mv $@.tmp $@
 
 # use robot to place inferences in a new file.
 # TBD: should relaxed axioms go here?
 go_inferences.owl: go-edit_noinf.obo
-	robot reason -i $< -r ELK -n true -a true -x true annotate -R -O $(OBO)/go/extensions/go_inferences.owl -o $@.tmp.owl && mv $@.tmp.owl $@
+	robot reason -i $< -r ELK -n true -a true -x true annotate -R -O $(OBO)/go/imports/go_inferences.owl -o $@.tmp.owl && mv $@.tmp.owl $@
 
 # translation to obo.
 # note that in order to get obo "!" comments into the file (to enhance readability), we must:
@@ -353,17 +352,32 @@ go_inferences.obo: go_inferences.owl
 	owltools $< --use-catalog go-edit.obo --add-imports-from-supports -o -f obo $@.tmp && grep -v ^import: $@.tmp > $@
 .PRECIOUS: go_inferences.obo
 
+# TODO: change this once diff pipeline in place
+go_inferences.obo-previous: $(SRC)
+	wget --no-check-certificate http://geneontology.org/ontology/editors/go_inferences.obo -O $@
+
+#%-previous: $(SRC)
+#	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology-inferences/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo > $@
+
 # get the difference between the current staged inferences file and the
 # last one to be checked in.
-go_inferences.diff: go_inferences.obo
+go_inferences.diff: go_inferences.obo go_inferences.obo-previous
+	echo getting log
 	git log $(SRC) | head -4 > $@
 	echo >> $@
 	echo "changes in entailments" >> $@
 	echo >> $@
-	git diff go_inferences.obo >> $@
+	echo diffing
+	diff -u go_inferences.obo-previous go_inferences.obo >> $@ || echo differences found
 .PRECIOUS: go_inferences.diff
 
 # append latest diffs onto difflog
 # NOTE: in svn pipeline, this file was committed by jenkins job every time ontology is edited.
 go_inferences_difflog.txt: go_inferences.diff
 	cat $< $@ > $@.tmp && mv $@.tmp $@
+
+# reasoner diffs
+idiff: go_inferences_difflog.txt
+	mkdir -p $(RELEASEDIR)/
+	cp go_inferences.diff $(RELEASEDIR) && \
+	cp go_inferences.obo $(RELEASEDIR)
