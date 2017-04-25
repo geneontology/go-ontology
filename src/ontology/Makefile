@@ -335,13 +335,14 @@ reports/go-%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
 
 # first strip the go_inferences import; we need to do this
 # because we cannot create a new ontology with the same name
+# TEMPORARY: we should be able to remove this step soon
 go-edit_noinf.obo: go-edit.obo
-	grep -v '^import: http://purl.obolibrary.org/obo/go/extensions/go_inferences.owl' $< > $@.tmp && mv $@.tmp $@
+	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_inferences.owl' $< > $@.tmp && mv $@.tmp $@
 
 # use robot to place inferences in a new file.
 # TBD: should relaxed axioms go here?
 go_inferences.owl: go-edit_noinf.obo
-	robot reason -i $< -r ELK -n true -a true -x true annotate -R -O $(OBO)/go/extensions/go_inferences.owl -o $@.tmp.owl && mv $@.tmp.owl $@
+	robot reason -i $< -r ELK -n true -a true -x true annotate -R -O $(OBO)/go/imports/go_inferences.owl -o $@.tmp.owl && mv $@.tmp.owl $@
 
 # translation to obo.
 # note that in order to get obo "!" comments into the file (to enhance readability), we must:
@@ -352,7 +353,7 @@ go_inferences.obo: go_inferences.owl
 .PRECIOUS: go_inferences.obo
 
 %-previous: $(SRC)
-	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo > $@
+	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology-inferences/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo > $@
 
 # get the difference between the current staged inferences file and the
 # last one to be checked in.
