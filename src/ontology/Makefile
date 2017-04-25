@@ -106,8 +106,6 @@ deploy-release:
 	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-current/ontology/
 	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-release/$(RELEASEDATE)/ontology/
 
-# reasoner diffs
-idiff: go_inferences_difflog.txt
 
 # ----------------------------------------
 # GENERIC TRANSFORMS
@@ -353,17 +351,25 @@ go_inferences.obo: go_inferences.owl
 	owltools $< --use-catalog go-edit.obo --add-imports-from-supports -o -f obo $@.tmp && grep -v ^import: $@.tmp > $@
 .PRECIOUS: go_inferences.obo
 
+%-previous: $(SRC)
+	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo > $@
+
 # get the difference between the current staged inferences file and the
 # last one to be checked in.
-go_inferences.diff: go_inferences.obo
+go_inferences.diff: go_inferences.obo go_inferences.obo-previous
 	git log $(SRC) | head -4 > $@
 	echo >> $@
 	echo "changes in entailments" >> $@
 	echo >> $@
-	git diff go_inferences.obo >> $@
+	diff go_inferences.obo-previous go_inferences.obo >> $@
 .PRECIOUS: go_inferences.diff
 
 # append latest diffs onto difflog
 # NOTE: in svn pipeline, this file was committed by jenkins job every time ontology is edited.
 go_inferences_difflog.txt: go_inferences.diff
 	cat $< $@ > $@.tmp && mv $@.tmp $@
+
+# reasoner diffs
+idiff: go_inferences_difflog.txt
+	cp go_inferences.diff $(RELEASEDIR) && \
+	cp go_inferences.obo $(RELEASEDIR)
