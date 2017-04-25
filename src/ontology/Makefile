@@ -368,7 +368,7 @@ go_inferences.diff: go_inferences.obo go_inferences.obo-previous
 	echo "changes in entailments" >> $@
 	echo >> $@
 	echo diffing
-	diff go_inferences.obo-previous go_inferences.obo >> $@ || echo differences found
+	diff -u go_inferences.obo-previous go_inferences.obo >> $@ || echo differences found
 .PRECIOUS: go_inferences.diff
 
 # append latest diffs onto difflog
