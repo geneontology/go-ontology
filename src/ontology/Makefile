@@ -363,7 +363,7 @@ go_inferences.obo: go_inferences.owl
 # last one to be checked in.
 go_inferences.diff: go_inferences.obo go_inferences.obo-previous
 	echo getting log
-	git log $(SRC) | head -4 > $@
+	git log --date=iso $(SRC) | head -6 > $@
 	echo >> $@
 	echo "changes in entailments" >> $@
 	echo >> $@
