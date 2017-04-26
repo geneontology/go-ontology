@@ -263,7 +263,7 @@ mirror/uberon-download.owl: $(SRC)
 
 # special case: use basic for oba
 mirror/oba-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo $(WGET_OUT)
+	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo -O $@.tmp && owltools $@.tmp --make-subset-by-properties -n // -o $@
 .PRECIOUS: mirror/oba-download.owl
 
 # special case: use basic for cl
@@ -352,17 +352,23 @@ go_inferences.obo: go_inferences.owl
 	owltools $< --use-catalog go-edit.obo --add-imports-from-supports -o -f obo $@.tmp && grep -v ^import: $@.tmp > $@
 .PRECIOUS: go_inferences.obo
 
+# TODO: change this once diff pipeline in place
+#go_inferences.obo-previous: $(SRC)
+#	wget --no-check-certificate http://geneontology.org/ontology/editors/go_inferences.obo -O $@
+
 %-previous: $(SRC)
 	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology-inferences/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo > $@
 
 # get the difference between the current staged inferences file and the
 # last one to be checked in.
 go_inferences.diff: go_inferences.obo go_inferences.obo-previous
-	git log $(SRC) | head -4 > $@
+	echo getting log
+	git log --date=iso $(SRC) | head -6 > $@
 	echo >> $@
 	echo "changes in entailments" >> $@
 	echo >> $@
-	diff go_inferences.obo-previous go_inferences.obo >> $@
+	echo diffing
+	diff -u go_inferences.obo-previous go_inferences.obo >> $@ || echo differences found
 .PRECIOUS: go_inferences.diff
 
 # append latest diffs onto difflog
@@ -373,5 +379,6 @@ go_inferences_difflog.txt: go_inferences.diff
 # reasoner diffs
 idiff: go_inferences_difflog.txt
 	mkdir -p $(RELEASEDIR)/
+	cp go_inferences_difflog.txt $(RELEASEDIR) && \
 	cp go_inferences.diff $(RELEASEDIR) && \
 	cp go_inferences.obo $(RELEASEDIR)
