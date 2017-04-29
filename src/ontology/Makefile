@@ -357,7 +357,7 @@ go_inferences.obo: go_inferences.owl
 #	wget --no-check-certificate http://geneontology.org/ontology/editors/go_inferences.obo -O $@
 
 %-previous: $(SRC)
-	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology-inferences/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo > $@
+	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology-inferences/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo "Fresh diffs" > $@
 
 # get the difference between the current staged inferences file and the
 # last one to be checked in.
@@ -373,8 +373,8 @@ go_inferences.diff: go_inferences.obo go_inferences.obo-previous
 
 # append latest diffs onto difflog
 # NOTE: in svn pipeline, this file was committed by jenkins job every time ontology is edited.
-go_inferences_difflog.txt: go_inferences.diff
-	cat $< $@ > $@.tmp && mv $@.tmp $@
+go_inferences_difflog.txt: go_inferences.diff go_inferences_difflog.txt-previous
+	cat $^ > $@.tmp && mv $@.tmp $@
 
 # reasoner diffs
 idiff: go_inferences_difflog.txt
