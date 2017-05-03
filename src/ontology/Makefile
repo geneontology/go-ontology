@@ -162,12 +162,15 @@ $(GO_PLUS).owl: reasoned.owl
 #  - ...
 # go.obo is a simplified; we use oort to remove imports etc
 
-$(ONT)-pre.owl: reasoned.owl
+$(ONT)-pre.obo: reasoned.owl
 	owltools $(USECAT) $< --remove-imports-declarations --remove-dangling --make-subset-by-properties $(GO_MAIN_RELATIONS) --set-ontology-id $(OBO)/go.owl -o -f obo $@.tmp && egrep -v '(property_value|relationship): never_in_taxon' $@.tmp > $@
+
+$(ONT)-pre-reduced.obo: $(ONT)-pre.obo
+	robot reduce -r elk -i $< -o $@
 
 # use OORT
 # side effects: also builds go-simple.obo
-$(ONT).obo: $(ONT)-pre.owl
+$(ONT).obo: $(ONT)-pre-reduced.obo
 	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
 	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge $(BUILD_DIR)/go.obo &&\
 	cp $(BUILD_DIR)/subsets/* subsets/ &&\
@@ -183,8 +186,11 @@ go.owl: $(ONT).obo
 go-simple-filtered.obo: go-simple.obo
 	owltools $< --make-subset-by-properties $(GO_BASIC_RELATIONS) // -o -f obo $@
 
+go-simple-filtered-reduced.obo: go-simple-filtered.obo
+	robot reduce -r elk -i $< -o $@
+
 # filter inter-ontology (e.g. MF to BP) links
-go-basic.obo: go-simple-filtered.obo
+go-basic.obo: go-simple-filtered-reduced.obo
 	$(PERLFILTER) $< > $@.tmp && mv $@.tmp $@ && $(PERLCHECK) --disable-xrf-abbs-check $@
 
 go-basic.owl: go-basic.obo
