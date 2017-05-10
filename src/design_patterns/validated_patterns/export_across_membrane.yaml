@@ -1,0 +1,55 @@
+pattern_name: import_across_membrane
+
+classes: 
+  membrane: GO_0016020
+  cellular_component: GO_0005575
+  chemical entity: CHEBI_24431
+  macromolecular complex: GO_0032991
+  transcript: SO_0000673
+
+relations:
+  transports or maintains localization of: RO_0002313
+  has target start location: RO_0002338
+  has target end location: RO_0002339
+  results in transport across: RO_0002342
+  exports: RO_0002345
+
+vars: 
+  membrane: "'membrane'"
+  cargo: "'chemical entity' or 'macromolecular complex' or 'transcript'"
+  start: "'cellular_component'"
+  end: "'cellular_compomnent'"
+
+name: 
+  text: "%s export across %s"
+  vars: 
+    - cargo
+    - membrane
+
+def: 
+  text: "The directed import of %s from %s, across the %s and into the %s."
+  vars:
+    - cargo
+    - start
+    - membrane
+    - end
+
+comment: 
+  text: "This term covers %s *across* the %s  through a channel or pore.  It does not cover export via vesicle fusion with %s, as in this case transport does not involve crossing the membrane."
+  vars:
+    - cargo
+    - membrane
+    - membrane
+
+equivalentTo: 
+  text: "'transport' that
+    and ('has target start location' some %s)
+    and ('has target end location' some %s)
+    and ('exports' some %s)
+    and ('results in transport across' some %s)"
+    
+  vars:
+    - start
+    - end
+    - cargo
+    - membrane

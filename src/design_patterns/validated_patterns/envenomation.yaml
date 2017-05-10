@@ -1,0 +1,26 @@
+pattern_name: envenomation
+
+classes:
+   'envenomation resulting in modification of morphology or physiology of other organism' : 'GO_0044468'
+   'modification of morphology or physiology of other organism' : 'GO_0035821'
+
+relations:
+   'has part' : 'BFO_0000051'
+  
+vars: 
+   mod: "'modification of morphology or physiology of other organism'"
+  
+name: 
+  text: 'envenomation resulting in %s'
+  vars: 
+     - mod
+    
+def: 
+  text: "A process that begins with venom being forced into an organism by the bite or sting of another organism, and ends with the resultant %s"
+  vars:
+     - mod  # Need a way to specify regex transformation that subs 'in the bitten organism' for 'in other organism'
+    
+equivalentTo: 
+  text: "'envenomation resulting in modification of morphology or physiology of other organism' and 'has part' some '%s'"
+  vars:
+   - mod

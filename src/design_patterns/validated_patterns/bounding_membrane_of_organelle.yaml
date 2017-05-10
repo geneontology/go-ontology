@@ -1,0 +1,26 @@
+pattern_name: bounding_membrane_of_organelle
+
+classes:
+  'whole membrane': GO_0098805
+  'membrane-bounded organelle': GO_0043227
+
+relations:
+  'bounding layer of': RO_0002007
+
+vars: 
+  organelle: "'membrane-bounded organelle'"
+
+name:
+  text: "%s membrane"
+  vars: 
+    - organelle
+
+def: 
+  text: "The lipid bilayer that forms the outer layer of a %s."
+  vars:
+    - organelle
+
+equivalentTo: 
+  text: "'whole membrane' that ('bounding layer of' some %s)"
+  vars:
+    - organelle

@@ -1,0 +1,34 @@
+pattern_name: transmembrane_import_into_cytosol
+# implicitly import into cell across plamsa membrane
+
+classes: 
+  transport: GO_0006810 
+  extracellular region: GO_0005576 
+  cytosol: GO_0005829
+  chemical entity: CHEBI_24431  # encompasses protein
+  macromolecular complex: GO_0043234  # encompasses protein complex
+  plasma membrane: GO_0005886
+
+relations:
+  has target start location: RO_0002338
+  has target end location: RO_0002339
+  results in transport across: RO_0002342
+  imports: RO_0002340
+
+vars: 
+  imported: "'chemical entity' or 'macromolecular complex'"
+
+name:
+  text: "%s import across plasma membrane"
+  vars: 
+    - imported
+    
+def: 
+  text: The directed movement of %s from outside of a cell, across the plasma membrane and into the cytoplasmic compartment. 
+  vars:
+    - imported
+    
+equivalentTo: 
+  text: "'transport' and ('has target start location' some 'extracellular region') and ('has target end location' some 'cytosol') and ('results in transport across' some 'plasma membrane') and ('imports' some %s)"
+  vars:
+    - imported
