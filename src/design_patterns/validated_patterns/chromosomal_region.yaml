@@ -1,0 +1,26 @@
+pattern_name: chromosomal_region
+
+classes:
+   sequence_region: SO_0000110
+   'chromosomal region': GO_0098687
+
+relations:
+   'coincident with' : RO_0002008
+  
+vars: 
+   sequence_region: "'sequence_region'"
+  
+name: 
+  text: 'chromsome %s region'
+  vars: 
+     - sequence_region
+    
+def: 
+  text: "The region of a chromosome that that coincides with the %s DNA and associated proteins."
+  vars:
+     - sequence_region  
+    
+equivalentTo: 
+  text: "''chromosomal region' and 'coincident with' some %s"
+  vars:
+   - sequence_region

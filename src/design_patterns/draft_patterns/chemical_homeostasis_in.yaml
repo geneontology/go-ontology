@@ -1,0 +1,26 @@
+pattern_name: homeostasis
+
+classes:
+  'chemical entity': CHEBI_
+  'anatomical structure': CARO_
+  
+relations:
+  'regulates_levels_of': 
+
+vars:
+  chemical: "'chemical entity'"
+  location: "'anatomical structure'"
+  
+name: 
+  text: "%s homeostatis in %s"
+  vars:
+    - chemical
+    - location
+  
+def:
+  text: "A collection of negative feedback loops that serve to keep the level of %s in %s within some target range."
+    - chemical
+    - location
+    
+SubClassOf:
+   text: "'homeostatis' that 'regulates_levels_of' some %s"  # How to record levels (concentration) of X in Y?

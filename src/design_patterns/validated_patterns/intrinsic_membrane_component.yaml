@@ -1,0 +1,27 @@
+pattern_name: intrinsic_membrane_component
+
+classes:
+  membrane: GO_0016020
+  side of membrane: GO_0098552
+  intrinsic component of membrane: GO_0031224
+
+relations:
+  part of: BFO_0000050
+
+vars: 
+  membrane: "'membrane' or 'side of membrane'"
+  
+name:
+  text: intrinsic component of %s
+  vars: 
+    - membrane
+    
+def: 
+  text: The component of the %s consisting of gene products and protein complexes that have some covalently attached part (e.g. peptide sequence or GPI anchor), which spans or is embedded in one or both leaflets the membrane.
+  vars:
+    - membrane
+    
+equivalentTo: 
+  text: "'intrinsic component of membrane' and ('part of' some %s)"
+  vars:
+    - membrane
