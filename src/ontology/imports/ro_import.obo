@@ -1,7 +1,7 @@
 format-version: 1.2
-data-version: go/releases/2017-04-11/imports/ro_import.owl
+data-version: go/releases/2017-05-10/imports/ro_import.owl
 ontology: go/imports/ro_import
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000056>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002211>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002212>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002213>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002327>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002333>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002411>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002418>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002448>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002566>))\n############################\n#   Object Properties\n############################\n\n# Object Property: <http://purl.obolibrary.org/obo/RO_0002333> (<http://purl.obolibrary.org/obo/RO_0002333>)\n\nSubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002333> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0002215>))\n\n\n\nSubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/BFO_0000040>) ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>)))))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002448>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002566>)\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000066> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000050> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000056>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002211>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002212>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002213>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002234>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002327>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002333>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002411>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002418>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002448>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002566>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0003000>))\n############################\n#   Object Properties\n############################\n\n# Object Property: <http://purl.obolibrary.org/obo/RO_0002333> (<http://purl.obolibrary.org/obo/RO_0002333>)\n\nSubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002333> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0002215>))\n\n\n\nSubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/BFO_0000040>) ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>)))))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002448>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002233>) <http://purl.obolibrary.org/obo/RO_0002566>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002566>)\nSubObjectPropertyOf(ObjectPropertyChain(ObjectInverseOf(<http://purl.obolibrary.org/obo/BFO_0000066>) <http://purl.obolibrary.org/obo/RO_0002234>) <http://purl.obolibrary.org/obo/RO_0003000>)\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000066> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000050> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\n)
 
 [Term]
 id: CARO:0000003
@@ -51,6 +51,11 @@ xref: BFO:0000066
 [Typedef]
 id: RO:0000056
 xref: RO:0000056
+
+[Typedef]
+id: RO:0000057
+xref: RO:0000057
+holds_over_chain: BFO:0000051 RO:0000057
 
 [Typedef]
 id: RO:0002222
@@ -298,6 +303,12 @@ def: "A relationship that holds via some environmental process" []
 xref: RO:0002320
 
 [Typedef]
+id: formed_as_result_of
+name: formed as result of
+xref: RO:0002354
+is_a: output_of ! output of
+
+[Typedef]
 id: functionally_related_to
 name: functionally related to
 xref: RO:0002328
@@ -326,6 +337,22 @@ name: has developmental potential involving
 def: "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)." []
 xref: RO:0002384
 is_a: developmentally_related_to ! developmentally related to
+
+[Typedef]
+id: has_input
+name: has input
+def: "p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
+xref: RO:0002233
+is_a: RO:0000057
+inverse_of: input_of ! input of
+
+[Typedef]
+id: has_output
+name: has output
+def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p." []
+xref: RO:0002234
+is_a: RO:0000057
+inverse_of: output_of ! output of
 
 [Typedef]
 id: has_part_structure_that_is_capable_of
@@ -377,7 +404,16 @@ holds_over_chain: BFO:0000051 in_taxon
 holds_over_chain: capable_of in_taxon
 holds_over_chain: develops_from in_taxon
 holds_over_chain: has_developmental_contribution_from in_taxon
+holds_over_chain: results_in_developmental_progression_of in_taxon
 is_a: evolutionarily_related_to ! evolutionarily related to
+
+[Typedef]
+id: input_of
+name: input of
+def: "inverse of has input" []
+xref: RO:0002352
+is_a: functionally_related_to ! functionally related to
+is_a: RO:0000056
 
 [Typedef]
 id: interacts_with
@@ -480,6 +516,14 @@ xref: RO:0002160
 is_a: in_taxon ! in taxon
 
 [Typedef]
+id: output_of
+name: output of
+def: "inverse of has output" []
+xref: RO:0002353
+is_a: functionally_related_to ! functionally related to
+is_a: RO:0000056
+
+[Typedef]
 id: overlaps
 name: overlaps
 def: "x overlaps y if and only if there exists some z such that x has part z and z part of y" []
@@ -516,6 +560,23 @@ is_a: regulates ! regulates
 inverse_of: positively_regulated_by ! positively regulated by
 
 [Typedef]
+id: produced_by
+name: produced by
+def: "a produced_by b iff some process that occurs_in b has_output a." []
+xref: RO:0003001
+domain: BFO:0000040
+range: BFO:0000040
+
+[Typedef]
+id: produces
+name: produces
+def: "a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix." []
+xref: RO:0003000
+domain: BFO:0000040
+range: BFO:0000040
+inverse_of: produced_by ! produced by
+
+[Typedef]
 id: regulated_by
 name: regulated by
 def: "inverse of regulates" []
@@ -541,6 +602,51 @@ id: related_via_dependence_to
 name: related via dependence to
 def: "A relationship that holds between two entities, where the relationship holds based on the presence or absence of statistical dependence relationship. The entities may be statistical variables, or they may be other kinds of entities such as diseases, chemical entities or processes." []
 xref: RO:0002609
+
+[Typedef]
+id: results_in_assembly_of
+name: results in assembly of
+xref: RO:0002588
+is_a: results_in_formation_of ! results in formation of
+is_a: results_in_organization_of ! results in organization of
+
+[Typedef]
+id: results_in_breakdown_of
+name: results in breakdown of
+def: "p results in breakdown of c if and only if the execution of p leads to c no longer being present at the end of p" []
+xref: RO:0002586
+is_a: has_input ! has input
+
+[Typedef]
+id: results_in_developmental_progression_of
+name: results in developmental progression of
+def: "p results in the developmental progression of s iff p is a developmental process and s is an anatomical structure and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss)." []
+xref: RO:0002295
+domain: GO:0008150
+range: CARO:0000003 ! anatomical structure
+is_a: developmentally_related_to ! developmentally related to
+
+[Typedef]
+id: results_in_disassembly_of
+name: results in disassembly of
+xref: RO:0002590
+is_a: results_in_breakdown_of ! results in breakdown of
+is_a: results_in_organization_of ! results in organization of
+
+[Typedef]
+id: results_in_formation_of
+name: results in formation of
+xref: RO:0002297
+is_a: has_output ! has output
+is_a: results_in_developmental_progression_of ! results in developmental progression of
+inverse_of: formed_as_result_of ! formed as result of
+
+[Typedef]
+id: results_in_organization_of
+name: results in organization of
+def: "p results in organization of c iff p results in the assembly, arrangement of constituent parts, or disassembly of c" []
+xref: RO:0002592
+is_a: RO:0000057
 
 [Typedef]
 id: transformation_of
