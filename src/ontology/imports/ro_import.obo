@@ -1,7 +1,36 @@
 format-version: 1.2
-data-version: go/releases/2017-05-10/imports/ro_import.owl
+data-version: go/releases/2017-05-19/imports/ro_import.owl
 ontology: go/imports/ro_import
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000056>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002211>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002212>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002213>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002234>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002327>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002333>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002411>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002418>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002448>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002566>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0003000>))\n############################\n#   Object Properties\n############################\n\n# Object Property: <http://purl.obolibrary.org/obo/RO_0002333> (<http://purl.obolibrary.org/obo/RO_0002333>)\n\nSubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002333> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0002215>))\n\n\n\nSubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/BFO_0000040>) ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>)))))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002448>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002233>) <http://purl.obolibrary.org/obo/RO_0002566>)\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002566>)\nSubObjectPropertyOf(ObjectPropertyChain(ObjectInverseOf(<http://purl.obolibrary.org/obo/BFO_0000066>) <http://purl.obolibrary.org/obo/RO_0002234>) <http://purl.obolibrary.org/obo/RO_0003000>)\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000066> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000050> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\n)
+
+[Term]
+id: BFO:0000002
+name: continuant
+def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
+disjoint_from: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000003
+name: occurrent
+def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
+
+[Term]
+id: BFO:0000004
+name: independent continuant
+def: "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." []
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000015
+name: process
+def: "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t." []
+is_a: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000040
+name: material entity
+def: "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." []
+is_a: BFO:0000004 ! independent continuant
 
 [Term]
 id: CARO:0000003
@@ -11,7 +40,7 @@ is_a: CARO:0000006 ! material anatomical entity
 [Term]
 id: CARO:0000006
 name: material anatomical entity
-is_a: BFO:0000040
+is_a: BFO:0000040 ! material entity
 
 [Term]
 id: CL:0000000
@@ -22,44 +51,6 @@ is_a: CARO:0000003 ! anatomical structure
 id: CL:0000540
 name: neuron
 is_a: CL:0000000 ! cell
-
-[Typedef]
-id: BFO:0000050
-xref: BFO:0000050
-is_a: overlaps ! overlaps
-
-[Typedef]
-id: BFO:0000051
-xref: BFO:0000051
-is_a: overlaps ! overlaps
-
-[Typedef]
-id: BFO:0000062
-xref: BFO:0000062
-holds_over_chain: BFO:0000050 BFO:0000062
-
-[Typedef]
-id: BFO:0000063
-xref: BFO:0000063
-holds_over_chain: BFO:0000050 BFO:0000063
-is_a: RO:0002222
-
-[Typedef]
-id: BFO:0000066
-xref: BFO:0000066
-
-[Typedef]
-id: RO:0000056
-xref: RO:0000056
-
-[Typedef]
-id: RO:0000057
-xref: RO:0000057
-holds_over_chain: BFO:0000051 RO:0000057
-
-[Typedef]
-id: RO:0002222
-xref: RO:0002222
 
 [Typedef]
 id: acts_upstream_of
@@ -83,8 +74,8 @@ id: capable_of
 name: capable of
 def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. " []
 xref: RO:0002215
-domain: BFO:0000004
-range: BFO:0000015
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000015 ! process
 is_a: capable_of_part_of ! capable of part of
 
 [Typedef]
@@ -100,7 +91,7 @@ id: capable_of_part_of
 name: capable of part of
 def: "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p." []
 xref: RO:0002216
-holds_over_chain: capable_of BFO:0000050
+holds_over_chain: capable_of part_of
 is_a: causal_agent_in ! causal agent in
 is_a: functionally_related_to ! functionally related to
 
@@ -132,8 +123,8 @@ inverse_of: has_causal_agent ! has causal agent
 id: causal_relation_between_material_entities
 name: causal relation between material entities
 xref: RO:0002506
-domain: BFO:0000040
-range: BFO:0000040
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
 is_a: causally_related_to ! causally related to
 
 [Typedef]
@@ -141,8 +132,8 @@ id: causal_relation_between_material_entity_and_a_process
 name: causal relation between material entity and a process
 def: "A relationship that holds between a material entity and a process in which causality is involved, with either the material entity or some part of the material entity exerting some influence over the process, or the process influencing some aspect of the material entity." []
 xref: RO:0002595
-domain: BFO:0000040
-range: BFO:0000015
+domain: BFO:0000040 ! material entity
+range: BFO:0000015 ! process
 is_a: causally_related_to ! causally related to
 
 [Typedef]
@@ -150,8 +141,8 @@ id: causal_relation_between_processes
 name: causal relation between processes
 def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q." []
 xref: RO:0002501
-domain: BFO:0000003
-range: BFO:0000003
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
 is_a: causally_related_to ! causally related to
 
 [Typedef]
@@ -159,8 +150,8 @@ id: causally_downstream_of
 name: causally downstream of
 def: "inverse of upstream of" []
 xref: RO:0002404
-is_a: BFO:0000062
 is_a: causally_downstream_of_or_within ! causally downstream of or within
+is_a: preceded_by ! preceded by
 inverse_of: causally_upstream_of ! causally upstream of
 
 [Typedef]
@@ -198,8 +189,8 @@ name: causally upstream of
 def: "p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain" []
 xref: RO:0002411
 is_transitive: true
-is_a: BFO:0000063
 is_a: causally_upstream_of_or_within ! causally upstream of or within
+is_a: precedes ! precedes
 
 [Typedef]
 id: causally_upstream_of,_negative_effect
@@ -224,11 +215,17 @@ is_a: causal_relation_between_processes ! causal relation between processes
 inverse_of: causally_downstream_of_or_within ! causally downstream of or within
 
 [Typedef]
+id: contains_process
+name: contains process
+def: "[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
+xref: BFO:0000067
+
+[Typedef]
 id: developmentally_contributes_to
 name: developmentally contributes to
 def: "inverse of has developmental contribution from" []
 xref: RO:0002255
-holds_over_chain: develops_into BFO:0000050
+holds_over_chain: develops_into part_of
 is_a: developmentally_succeeded_by ! developmentally succeeded by
 is_a: has_potential_to_developmentally_contribute_to ! has potential to developmentally contribute to
 
@@ -258,8 +255,8 @@ id: develops_from
 name: develops from
 def: "x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y" []
 xref: RO:0002202
-domain: BFO:0000004
-range: BFO:0000004
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000004 ! independent continuant
 is_transitive: true
 is_a: developmentally_preceded_by ! developmentally preceded by
 inverse_of: develops_into ! develops into
@@ -293,8 +290,15 @@ id: enables_activity_in
 name: enables activity in
 def: "c executes activity in d if and only if c enables p and p occurs_in d" []
 xref: RO:0002432
-holds_over_chain: enables BFO:0000066
+holds_over_chain: enables occurs_in
 is_a: functionally_related_to ! functionally related to
+
+[Typedef]
+id: ends_after
+name: ends after
+xref: RO:0002086
+is_transitive: true
+is_a: temporally_related_to ! temporally related to
 
 [Typedef]
 id: evolutionarily_related_to
@@ -327,7 +331,7 @@ def: "x has developmental contribution from y iff x has some part z such that z 
 xref: RO:0002254
 domain: CARO:0000003 ! anatomical structure
 range: CARO:0000003 ! anatomical structure
-holds_over_chain: BFO:0000051 develops_from
+holds_over_chain: has_part develops_from
 is_a: developmentally_preceded_by ! developmentally preceded by
 inverse_of: developmentally_contributes_to ! developmentally contributes to
 
@@ -343,7 +347,7 @@ id: has_input
 name: has input
 def: "p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
 xref: RO:0002233
-is_a: RO:0000057
+is_a: has_participant ! has participant
 inverse_of: input_of ! input of
 
 [Typedef]
@@ -351,15 +355,23 @@ id: has_output
 name: has output
 def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p." []
 xref: RO:0002234
-is_a: RO:0000057
+is_a: has_participant ! has participant
 inverse_of: output_of ! output of
+
+[Typedef]
+id: has_part
+name: has part
+def: "a core relation that holds between a whole and its part" []
+xref: BFO:0000051
+is_transitive: true
+is_a: overlaps ! overlaps
 
 [Typedef]
 id: has_part_structure_that_is_capable_of
 name: has part structure that is capable of
 def: "s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p" []
 xref: RO:0002584
-holds_over_chain: BFO:0000051 capable_of
+holds_over_chain: has_part capable_of
 is_a: causal_relation_between_material_entity_and_a_process ! causal relation between material entity and a process
 is_a: functionally_related_to ! functionally related to
 
@@ -368,9 +380,18 @@ id: has_part_that_occurs_in
 name: has part that occurs in
 def: "p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c." []
 xref: RO:0002479
-domain: BFO:0000003
-range: BFO:0000004
-holds_over_chain: BFO:0000051 BFO:0000066
+domain: BFO:0000003 ! occurrent
+range: BFO:0000004 ! independent continuant
+holds_over_chain: has_part occurs_in
+
+[Typedef]
+id: has_participant
+name: has participant
+def: "a relation between a process and a continuant, in which the continuant is somehow involved in the process" []
+xref: RO:0000057
+domain: BFO:0000003 ! occurrent
+range: BFO:0000002 ! continuant
+holds_over_chain: has_part has_participant
 
 [Typedef]
 id: has_potential_to_develop_into
@@ -398,12 +419,12 @@ id: in_taxon
 name: in taxon
 def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
 xref: RO:0002162
-range: BFO:0000004
-holds_over_chain: BFO:0000050 in_taxon
-holds_over_chain: BFO:0000051 in_taxon
+range: BFO:0000004 ! independent continuant
 holds_over_chain: capable_of in_taxon
 holds_over_chain: develops_from in_taxon
 holds_over_chain: has_developmental_contribution_from in_taxon
+holds_over_chain: has_part in_taxon
+holds_over_chain: part_of in_taxon
 holds_over_chain: results_in_developmental_progression_of in_taxon
 is_a: evolutionarily_related_to ! evolutionarily related to
 
@@ -413,7 +434,7 @@ name: input of
 def: "inverse of has input" []
 xref: RO:0002352
 is_a: functionally_related_to ! functionally related to
-is_a: RO:0000056
+is_a: participates_in ! participates in
 
 [Typedef]
 id: interacts_with
@@ -421,8 +442,8 @@ name: interacts with
 def: "A relationship that holds between two entities in which the processes executed by the two entities are causally connected." []
 synonym: "in pairwise interaction with" EXACT []
 xref: RO:0002434
-domain: BFO:0000040
-range: BFO:0000040
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
 is_symmetric: true
 
 [Typedef]
@@ -430,9 +451,9 @@ id: involved_in
 name: involved in
 def: "c involved_in p if and only if c enables some process p', and p' is part of p" []
 xref: RO:0002331
-holds_over_chain: enables BFO:0000050
+holds_over_chain: enables part_of
 is_a: involved_in_or_involved_in_regulation_of ! involved in or involved in regulation of
-transitive_over: BFO:0000050
+transitive_over: part_of ! part of
 
 [Typedef]
 id: involved_in_negative_regulation_of
@@ -509,6 +530,17 @@ is_a: regulates ! regulates
 inverse_of: negatively_regulated_by ! negatively regulated by
 
 [Typedef]
+id: occurs_in
+name: occurs in
+def: "b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
+xref: BFO:0000066
+domain: BFO:0000003 ! occurrent
+range: BFO:0000004 ! independent continuant
+holds_over_chain: part_of occurs_in
+inverse_of: contains_process ! contains process
+transitive_over: part_of ! part of
+
+[Typedef]
 id: only_in_taxon
 name: only in taxon
 def: "x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z." []
@@ -521,25 +553,43 @@ name: output of
 def: "inverse of has output" []
 xref: RO:0002353
 is_a: functionally_related_to ! functionally related to
-is_a: RO:0000056
+is_a: participates_in ! participates in
 
 [Typedef]
 id: overlaps
 name: overlaps
 def: "x overlaps y if and only if there exists some z such that x has part z and z part of y" []
 xref: RO:0002131
-holds_over_chain: BFO:0000050 BFO:0000050
-holds_over_chain: BFO:0000051 BFO:0000050
-holds_over_chain: BFO:0000051 overlaps
+holds_over_chain: has_part overlaps
+holds_over_chain: has_part part_of
+holds_over_chain: part_of part_of
 is_a: mereotopologically_related_to ! mereotopologically related to
+
+[Typedef]
+id: part_of
+name: part of
+def: "a core relation that holds between a part and its whole" []
+xref: BFO:0000050
+is_transitive: true
+is_a: overlaps ! overlaps
+inverse_of: has_part ! has part
 
 [Typedef]
 id: part_of_structure_that_is_capable_of
 name: part of structure that is capable of
 def: "this relation holds between c and p when c is part of some c', and c' is capable of p." []
 xref: RO:0002329
-holds_over_chain: BFO:0000050 capable_of
+holds_over_chain: part_of capable_of
 is_a: functionally_related_to ! functionally related to
+
+[Typedef]
+id: participates_in
+name: participates in
+def: "a relation between a continuant and a process, in which the continuant is somehow involved in the process" []
+xref: RO:0000056
+domain: BFO:0000002 ! continuant
+range: BFO:0000003 ! occurrent
+inverse_of: has_participant ! has participant
 
 [Typedef]
 id: positively_regulated_by
@@ -560,20 +610,43 @@ is_a: regulates ! regulates
 inverse_of: positively_regulated_by ! positively regulated by
 
 [Typedef]
+id: preceded_by
+name: preceded by
+def: "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+xref: BFO:0000062
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+holds_over_chain: part_of preceded_by
+is_transitive: true
+is_a: ends_after ! ends after
+inverse_of: precedes ! precedes
+
+[Typedef]
+id: precedes
+name: precedes
+def: "x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+xref: BFO:0000063
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+holds_over_chain: part_of precedes
+is_transitive: true
+is_a: temporally_related_to ! temporally related to
+
+[Typedef]
 id: produced_by
 name: produced by
 def: "a produced_by b iff some process that occurs_in b has_output a." []
 xref: RO:0003001
-domain: BFO:0000040
-range: BFO:0000040
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
 
 [Typedef]
 id: produces
 name: produces
 def: "a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix." []
 xref: RO:0003000
-domain: BFO:0000040
-range: BFO:0000040
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
 inverse_of: produced_by ! produced by
 
 [Typedef]
@@ -581,8 +654,8 @@ id: regulated_by
 name: regulated by
 def: "inverse of regulates" []
 xref: RO:0002334
-domain: BFO:0000015
-range: BFO:0000015
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
 is_transitive: true
 is_a: causally_downstream_of_or_within ! causally downstream of or within
 
@@ -591,8 +664,8 @@ id: regulates
 name: regulates
 def: "x regulates y if and only if the x is the realization of a function to exert an effect on the frequency, rate or extent of y" []
 xref: RO:0002211
-domain: BFO:0000015
-range: BFO:0000015
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
 is_transitive: true
 is_a: causally_upstream_of ! causally upstream of
 inverse_of: regulated_by ! regulated by
@@ -646,7 +719,14 @@ id: results_in_organization_of
 name: results in organization of
 def: "p results in organization of c iff p results in the assembly, arrangement of constituent parts, or disassembly of c" []
 xref: RO:0002592
-is_a: RO:0000057
+is_a: has_participant ! has participant
+
+[Typedef]
+id: temporally_related_to
+name: temporally related to
+xref: RO:0002222
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
 
 [Typedef]
 id: transformation_of
