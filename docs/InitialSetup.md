@@ -7,7 +7,9 @@
 
 1. Curators and projects are assigned specific GO term ID ranges.
 2. These ID ranges are stored in the file:
-   1. [go-idranges.owl](https://github.com/geneontology/go-ontology/blob/master/src/ontology/go-idranges.owl)
+
+    [go-idranges.owl](https://github.com/geneontology/go-ontology/blob/master/src/ontology/go-idranges.owl)
+
 3. __ONLY USE IDs WITHIN YOUR RANGE!__
 4. If you have only just set up this repository, modify the idranges file and add yourself or other editors. 
 
