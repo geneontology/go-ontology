@@ -277,6 +277,14 @@ mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/cl/cl-basic.obo $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
+# special case: the RO imports closure is unusual
+# typically we use only the main ontology, not the imports.
+# for RO we merge these, in order to get ro/core, bfo classes
+# see https://github.com/geneontology/go-ontology/issues/12946
+mirror/ro-download.owl: $(SRC)
+	owltools $(OBO)/ro.owl --merge-imports-closure -o $@
+.PRECIOUS: mirror/cl-download.owl
+
 # general case: download remote OWL first
 mirror/%-download.owl: $(SRC)
 #	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
@@ -388,3 +396,4 @@ idiff: go_inferences_difflog.txt
 	cp go_inferences_difflog.txt $(RELEASEDIR) && \
 	cp go_inferences.diff $(RELEASEDIR) && \
 	cp go_inferences.obo $(RELEASEDIR)
+
