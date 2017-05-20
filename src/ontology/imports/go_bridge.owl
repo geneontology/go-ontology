@@ -11,6 +11,7 @@ Annotation(rdfs:comment "A collection of bridging axioms and upper ontology clas
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_17843>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_18111>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))
@@ -42,7 +43,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_18111> <http://purl.obol
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_24431> (chemical entity)
 
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24431> <http://purl.obolibrary.org/obo/BFO_0000004>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24431> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_33699> (messenger RNA)
 
@@ -58,7 +59,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0003674> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/GO_0005575> (cellular_component)
 
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0005575> <http://purl.obolibrary.org/obo/BFO_0000004>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005575> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0008150> (biological_process)
 
