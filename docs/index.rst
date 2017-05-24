@@ -13,3 +13,5 @@ Contents:
    InitialSetup
    Configs
    Installgit
+   CreateNewTerm
+   NewRegTerm
