@@ -109,7 +109,7 @@ Fast-forward
 
    2. Typing this command will automatically put you in the new branch.
 
-````
+```
 ~/repos/go-ontology/src/ontology(master) $ git checkout -b issue-13390
 Switched to a new branch 'issue-13390'
 ~/repos/go-ontology/src/ontology(issue-13390) $
