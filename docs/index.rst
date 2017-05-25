@@ -19,3 +19,4 @@ Contents:
    MergeTerms
    NewSlimTerm
    NewSlim
+   TaxonRestriction
