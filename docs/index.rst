@@ -16,3 +16,4 @@ Contents:
    CreateNewTerm
    NewRegTerm
    ObsoleteTerm
+   MergeTerms
