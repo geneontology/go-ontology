@@ -15,3 +15,4 @@ Contents:
    Installgit
    CreateNewTerm
    NewRegTerm
+   ObsoleteTerm
