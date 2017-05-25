@@ -1,24 +1,25 @@
+# Installing and Using git
+
 ## Installing git
 
-1. In order to edit the ontology locally and push changes back to the github repository, you will need to have git installed on your machine.
+1. In order to locally edit the ontology and push changes back to the GitHub repository, you will need to have git installed on your machine.
 
-2. To check if you already have git installed or to see what version of git you have, on the command line type either:
+2. To check if you already have git installed, or to see what version of git you have, type either of these commands in your terminal:
    1. ```which git```
    2. ```git --version```
 
-3. If you need to install git, follow the instructions here:
+3. To install git, follow  instructions here: [https://git-scm.com/](https://git-scm.com/)
 
-https://git-scm.com/
+4. __Note for MacOSX users:__ it is advised to install Xcode tools.
 
-4. Note that for MacOSX users, it is advised to install Xcode tools.
 
-## Cloning the github go-ontology repo
+## Cloning the go-ontology repository from GitHub
 
-1. Make a ```repos``` directory on your local machine
+1. Create a directory called ```repos``` on your local machine using this command:
 
     ```mkdir repos```
 
-2. Then paste into the command line:
+2. Then paste this command into your terminal:
 
     ```git clone https://github.com/geneontology/go-ontology.git```
 
@@ -33,7 +34,7 @@ Receiving objects: 100% (2541/2541), 21.19 MiB | 5.22 MiB/s, done.
 Resolving deltas: 100% (1532/1532), done.
 ```
 
-## Editing .profile (or .bashrc) file to indicate branch
+## Editing the .profile (or .bashrc) file to indicate the branch you are working on
 
 1. It can be very helpful to know what branch you are working in on your terminal window.
 
@@ -45,34 +46,29 @@ export GO_REPO=~/repos/go-ontology
 parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
-PS1="\w\$(parse_git_branch) $ “
+PS1="\w\$(parse_git_branch) $ "
 ```
 
-Note that ```export GO_REPO=~/repos/go-ontology``` is the full path name to the go-ontology directory on your local machine.
 
-## Daily Workflow - Updating with ‘git pull’
+## Daily Workflow - Updating with 'git pull'
 
-1. Navigate to the ontology directory of go-ontology:  /repos/go-ontology/src/ontology
+1. Navigate to the ontology directory of go-ontology:  ```/repos/go-ontology/src/ontology```
 
-2. Type: ```git status``` - this will tell you what branch you are working on
+2. Type: ```git status``` to reveal the branch you are working on.
 
-3. Make sure you’re in the master branch.
+3. Make sure you are working on the master branch.
 
-    If you are, you will see:
-
-    On branch master
+    If you are, you will see: 
+    
+    ```On branch master```
 
     ```Your branch is up-to-date with 'origin/master'.```
 
-4. If you’re not in the master branch:
+4. If you’re not in the master branch, type: ```git checkout master```
 
-    type: ```git checkout master```
+5. From the master branch, type: ```git pull```
 
-5. From the master branch: 
-
-    type: ```git pull```
-
-    This will update your master branch, and all working branches, with the files that are most current on github, bringing in and merging any changes that were made since your last ‘git pull’ command.
+    This will update your master branch, and all working branches, with the files that are most current on GitHub, bringing in and merging any changes that were made since you last pulled the repository using the command ```git pull```.
 
     You will see something like this:
 
@@ -92,25 +88,24 @@ Fast-forward
 ~/repos/go-ontology(master) $
 ```
 
-## Daily Workflow - Creating a New Working Branch with git checkout
+
+## Daily Workflow - Creating a New Working Branch with 'git checkout'
 
 1. When starting to work on a ticket, you should create a new branch of the repository to edit the ontology file.
 
-2. To create a new branch, make sure you are in the src directory on your local machine and then 
+2. To create a new branch, make sure you are in the src directory on your local machine and then type:  ```git checkout -b issue-NNNNN```
 
-    type:  ```git checkout -b issue-NNNNN```
-
-   1. You can choose any branch name you like, but we recommend the string ‘issue-’ followed by the issue number
+   1. Users may customize the name of the branch; we recommend using the string 'issue-' followed by the issue number.
 	
       For instance, for this issue in the tracker: https://github.com/geneontology/go-ontology/issues/13390
 
       You would create this branch: ```git checkout -b issue-13390```
 
 
-   2. Typing this command will automatically put you in the new branch.
+   2. Typing this command will automatically put you in the new branch. You will see this message in your terminal window: 
 
-```
-~/repos/go-ontology/src/ontology(master) $ git checkout -b issue-13390
-Switched to a new branch 'issue-13390'
-~/repos/go-ontology/src/ontology(issue-13390) $
-```
+      ```
+      ~/repos/go-ontology/src/ontology(master) $ git checkout -b issue-13390
+      Switched to a new branch 'issue-13390'
+      ~/repos/go-ontology/src/ontology(issue-13390) $
+      ```
