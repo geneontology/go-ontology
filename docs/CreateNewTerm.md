@@ -168,7 +168,7 @@
 
 23. If all is fine with the Travis checks, then merge the pull request, and confirm the merge which will close the ticket if you have used the word 'fixes' in your pull request. You can now safely delete your branch using the button on the right of the successful merge message.
 
-24. Back in your terminal, if appropriate, you canmaynow delete the working branch. Do this by returning to master, then: 
+24. Back in your terminal, if appropriate, you may now delete the working branch. Do this by returning to master, then: 
 
      type: ```git checkout master```
 
