@@ -20,3 +20,4 @@ Contents:
    NewSlimTerm
    NewSlim
    TaxonRestriction
+   AddTermToImport
