@@ -18,3 +18,4 @@ Contents:
    ObsoleteTerm
    MergeTerms
    NewSlimTerm
+   NewSlim
