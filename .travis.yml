@@ -8,6 +8,7 @@ jdk:
 before_install:
   - sudo apt-get update
   - sudo apt-get install python3
+  - sudo apt-get install pyvenv
 before_script:
   - python3 --version
   - (cd src/design_patterns && pyvenv venv && source venv/bin/activate && export PYTHONPATH=.:$PYTHONPATH && make test)
