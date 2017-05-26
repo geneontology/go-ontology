@@ -38,13 +38,13 @@
 
 17. In the Comment box, add a statement about why the term was made obsolete. Consult wiki documentation for suggestions on standard comments:
       
-      [http://wiki.geneontology.org/index.php/Curator_Guide:_Obsoletion](http://wiki.geneontology.org/index.php/Curator_Guide:_Obsoletion)
+     - [http://wiki.geneontology.org/index.php/Curator_Guide:_Obsoletion](http://wiki.geneontology.org/index.php/Curator_Guide:_Obsoletion)
       
-      [http://wiki.geneontology.org/index.php/Obsoleting_GO_Terms](http://wiki.geneontology.org/index.php/Obsoleting_GO_Terms)
+     - [http://wiki.geneontology.org/index.php/Obsoleting_GO_Terms](http://wiki.geneontology.org/index.php/Obsoleting_GO_Terms)
       
-      [http://wiki.geneontology.org/index.php/Editor_Guide](http://wiki.geneontology.org/index.php/Editor_Guide)
+     - [http://wiki.geneontology.org/index.php/Editor_Guide](http://wiki.geneontology.org/index.php/Editor_Guide)
 
-18. In the drop-down menu, select: ```Xsd:string```
+18. In the drop-down menu, select: ```Xsd:string```.
 
 19. If the obsoleted term was replaced by another term in the ontology, enter the ID of the replacement term in the 'replaced_by' tag.
 
@@ -54,13 +54,13 @@
 
 22. Now go back to your terminal window and type: ```git status```. This will confirm the branch you’re on.
 
-23. Then type: ```git diff```. You should see ```+is_obsolete: true```.
+23. Then, type: ```git diff```. You should see ```+is_obsolete: true```.
 
 24. Next, type ```git commit -m ‘obsoleted GO term Fixes #12923’```.
 
 25. Then push your changes back to the origin (GitHub), by typing: ```git push origin myworkingbranch```.
 
-26. Using your browser, return to the GO Ontology repository on GitHub, located at [https://github.com/geneontology/go-ontology](https://github.com/geneontology/go-ontology).
+26. Using your browser, return to the GO Ontology repository on GitHub, located at [https://github.com/geneontology/go-ontology](https://github.com/geneontology/go-ontology).
 
 27. Navigate to the tab labeled as 'Code' (```geneontology/go-ontology/code```). You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the 'Branches' link to reveale it in the list, and click on it. 
 
