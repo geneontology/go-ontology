@@ -8,10 +8,9 @@ jdk:
 before_install:
   - sudo apt-get update
   - sudo apt-get install python3
-  - sudo apt-get install pyvenv
 before_script:
   - python3 --version
-  - (cd src/design_patterns && pyvenv venv && source venv/bin/activate && export PYTHONPATH=.:$PYTHONPATH && make test)
+  - (cd src/design_patterns && python3 -m venv venv && source venv/bin/activate && export PYTHONPATH=.:$PYTHONPATH && make test)
   - mkdir -p bin
   - export PATH=$PATH:$PWD/bin
   - wget http://build.berkeleybop.org/userContent/owltools/owltools -O bin/owltools
