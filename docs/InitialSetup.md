@@ -34,12 +34,9 @@
 
     __End with:__ ```Auto-generated ID```
 
-
-
 5. In the Entity Label section:
 
     __Same as label renderer:__ IRI: [http://www.w3.org/2000/01/rdf-schema#label](http://www.w3.org/2000/01/rdf-schema#label)
-
 
 6.  In the Auto-generated ID section:
 
