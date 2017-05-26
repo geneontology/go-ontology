@@ -1,7 +1,7 @@
 pattern_name: activator_activity
 
 classes:
-  molecular_function: GO_0003674
+  molecular function: GO_0003674
   catalytic activity: GO_0003824
 
   
@@ -34,6 +34,6 @@ def:
 
     
 equivalentTo:
-  text: "'molecular_function that 'directly positively regulates' some %s"
+  text: "'molecular function' that 'directly positively regulates' some %s"
   vars: 
     - regulated_activity
