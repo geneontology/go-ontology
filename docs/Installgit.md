@@ -17,11 +17,11 @@
 
 1. Create a directory called ```repos``` on your local machine using this command:
 
-    ```mkdir repos```
+       mkdir repos
 
 2. Then paste this command into your terminal:
 
-    ```git clone https://github.com/geneontology/go-ontology.git```
+       git clone https://github.com/geneontology/go-ontology.git
 
 Example result:
 
@@ -56,13 +56,11 @@ PS1="\w\$(parse_git_branch) $ "
 
 2. Type: ```git status``` to reveal the branch you are working on.
 
-3. Make sure you are working on the master branch.
-
-    If you are, you will see: 
+3. Make sure you are working on the master branch. If you are, you will see: 
     
-    ```On branch master```
+       On branch master
 
-    ```Your branch is up-to-date with 'origin/master'.```
+       Your branch is up-to-date with 'origin/master'.
 
 4. If you’re not in the master branch, type: ```git checkout master```
 
@@ -100,7 +98,6 @@ Fast-forward
       For instance, for this issue in the tracker: https://github.com/geneontology/go-ontology/issues/13390
 
       You would create this branch: ```git checkout -b issue-13390```
-
 
    2. Typing this command will automatically put you in the new branch. You will see this message in your terminal window: 
 
