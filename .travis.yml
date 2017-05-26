@@ -4,8 +4,12 @@ language: java
 jdk:
   - oraclejdk8
 
+# https://stackoverflow.com/questions/30496189/how-to-use-python-3-as-a-build-script-in-non-python-travis-configuration
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install python3
 before_script:
-  - python --version
+  - python3 --version
   - (cd src/design_patterns && make test)
   - mkdir -p bin
   - export PATH=$PATH:$PWD/bin
