@@ -9,8 +9,6 @@ before_install:
   - sudo apt-get update
   - sudo apt-get install python3
 before_script:
-  - python3 --version
-  - (cd src/design_patterns && python3 -m venv venv && source venv/bin/activate && export PYTHONPATH=.:$PYTHONPATH && make test)
   - mkdir -p bin
   - export PATH=$PATH:$PWD/bin
   - wget http://build.berkeleybop.org/userContent/owltools/owltools -O bin/owltools
@@ -24,7 +22,13 @@ before_script:
   - chmod +x bin/*
 
 # command to run tests
-script: cd src/ontology && make travis_test
+script:
+  - python3 --version
+  - cd src/design_patterns
+  - python3 -m venv venv
+  - source venv/bin/activate
+  - export PYTHONPATH=.:$PYTHONPATH && make test
+  - cd src/ontology && make travis_test
 
 #after_success:
 #  coveralls
