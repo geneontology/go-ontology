@@ -5,6 +5,8 @@ jdk:
   - oraclejdk8
 
 before_script:
+  - python --version
+  - (cd src/design_patterns && make test)
   - mkdir -p bin
   - export PATH=$PATH:$PWD/bin
   - wget http://build.berkeleybop.org/userContent/owltools/owltools -O bin/owltools
