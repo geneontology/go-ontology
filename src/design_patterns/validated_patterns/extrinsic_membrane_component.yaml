@@ -1,12 +1,12 @@
 pattern_name: extrinsic_membrane_component
 
 classes:
-  membrane: GO_0016020
-  side of membrane: GO_0098552
-  extrinsic component of membrane: GO_0019898
+  membrane: GO:0016020
+  side of membrane: GO:0098552
+  extrinsic component of membrane: GO:0019898
 
 relations:
-  part of: BFO_0000050
+  part of: BFO:0000050
 
 vars: 
   membrane: "'membrane' or 'side of membrane'"
