@@ -1,4 +1,4 @@
-### Creating a New Ontology Term
+## Creating a New Ontology Term
 
 1. Making sure you are in your working branch of the repo, start Protege.
 
