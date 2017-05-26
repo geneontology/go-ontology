@@ -54,31 +54,29 @@
 
 22. Now go back to your terminal window and type: ```git status```. This will confirm the branch you’re on.
 
-23. Then, type: ```git diff```. You should see ```+is_obsolete: true```.
+ 23. Then, type: ```git diff```. You should see ```+is_obsolete: true```.
 
-24. Next, type ```git commit -m ‘obsoleted GO term Fixes #12923’```.
+ 24. Next, type ```git commit -m ‘obsoleted GO term Fixes #12923’```.
 
-25. Then push your changes back to the origin (GitHub), by typing:
+ 25. Then push your changes back to the origin (GitHub), by typing: ```git push origin myworkingbranch```.
 
-        git push origin myworkingbranch
+ 26. Using your browser, return to the GO Ontology repository on GitHub, located at [https://github.com/geneontology/go-ontology](https://github.com/geneontology/go-ontology).
 
-26. Using your browser, return to the GO Ontology repository on GitHub, located at [https://github.com/geneontology/go-ontology](https://github.com/geneontology/go-ontology).
-
-27. Navigate to the tab labeled as 'Code' (```geneontology/go-ontology/code```). You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the 'Branches' link to reveale it in the list, and click on it. 
+ 27. Navigate to the tab labeled as 'Code' (```geneontology/go-ontology/code```). You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the 'Branches' link to reveale it in the list, and click on it. 
 
     1. The diff for your file is at the bottom of the page. Examine it as a sanity check. 
      
     2. Click on the green box to generate a pull request.
 
-28. You may now add comments and ask a colleague to review your pull request.
+ 28. You may now add comments and ask a colleague to review your pull request.
 
-29. If you want to have the ticket reviewed before closing it, you can select a reviewer for the ticket before you make the pull request by clicking on the 'Reviewers' list and entering a GitHub identifier (e.g. @superuser1). The reviewer will not be notified until the pull request is made. The reviewer’s comments will show up in the pull request the same way they do in issues when we work on tickets.
+ 29. If you want to have the ticket reviewed before closing it, you can select a reviewer for the ticket before you make the pull request by clicking on the 'Reviewers' list and entering a GitHub identifier (e.g. @superuser1). The reviewer will not be notified until the pull request is made. The reviewer’s comments will show up in the pull request the same way they do in issues when we work on tickets.
 
-30. Wait for the Travis checks to complete (this can take a few minutes). 
+ 30. Wait for the Travis checks to complete (this can take a few minutes). 
 
-31. If all is fine with the Travis checks, then merge the pull request, and confirm the merge which will close the ticket if you have used the word 'fixes' in your pull request. You can now safely delete your branch using the button on the right of the successful merge message.
+ 31. If all is fine with the Travis checks, then merge the pull request, and confirm the merge which will close the ticket if you have used the word 'fixes' in your pull request. You can now safely delete your branch using the button on the right of the successful merge message.
 
-32. Back in your terminal, if appropriate, you may now delete the working branch. Do this by returning to master, then: 
+ 32. Back in your terminal, if appropriate, you may now delete the working branch. Do this by returning to master, then: 
 
     1. Type: ```git checkout master```
 
