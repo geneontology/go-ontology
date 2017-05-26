@@ -1,4 +1,4 @@
-defined_class	xrefs	regulated_activity
+defined_class	def_dbxrefs	regulated_activity
 http://purl.obolibrary.org/obo/GO_0030234	GOC:dph,GOC:mah,GOC:tb	http://purl.obolibrary.org/obo/GO_0003824
 http://purl.obolibrary.org/obo/GO_0030695	GOC:mah	http://purl.obolibrary.org/obo/GO_0003924
 http://purl.obolibrary.org/obo/GO_0060308	GOC:dph,GOC:tb	http://purl.obolibrary.org/obo/GO_0003934
