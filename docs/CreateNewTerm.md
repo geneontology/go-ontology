@@ -1,4 +1,4 @@
-## Creating a New Ontology Term
+# Creating a New Ontology Term
 
 1. Making sure you are in your working branch of the repo, start Protege.
 
@@ -106,7 +106,7 @@
  
     1. The first time you push, git will prompt you for your username and password. If you are working on a Mac, git will remember the values and you won’t be prompted every time you try to make a push. If you change your git password, you won’t be recognized. If this happens, you need to reset git by entering: ```git config --global credential.helper osxkeychain```
         
-     2. When you try to push, git will prompt you to update your information. You will need to enter your username and your password.
+    2. When you try to push, git will prompt you to update your information. You will need to enter your username and your password.
 
             ```
             ~/repos/go-ontology/src/ontology(issue-13390) $ git push origin issue-13390
@@ -125,9 +125,9 @@
     
 19. Navigate to the tab labeled as 'Code' (```geneontology/go-ontology/code```). You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the 'Branches' link to reveale it in the list, and click on it. 
 
-     1. The diff for your file is at the bottom of the page. Examine it as a sanity check. 
+    1. The diff for your file is at the bottom of the page. Examine it as a sanity check. 
      
-     2. Click on the green box to generate a pull request.
+    2. Click on the green box to generate a pull request.
 
 20. You may now add comments and ask a colleague to review your pull request.
 
@@ -139,6 +139,6 @@
 
 24. Back in your terminal, if appropriate, you may now delete the working branch. Do this by returning to master, then: 
 
-     1. Type: ```git checkout master```
+    1. Type: ```git checkout master```
 
-     2. Type: ```git branch -d workingbranchname```. Example: ```git branch -d issue-13390```
+    2. Type: ```git branch -d workingbranchname```. Example: ```git branch -d issue-13390```
