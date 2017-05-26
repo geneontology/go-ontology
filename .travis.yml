@@ -7,7 +7,7 @@ jdk:
 # https://stackoverflow.com/questions/30496189/how-to-use-python-3-as-a-build-script-in-non-python-travis-configuration
 before_install:
   - sudo apt-get update
-  - sudo apt-get install python3
+  - sudo apt-get install python3.4
 before_script:
   - mkdir -p bin
   - export PATH=$PATH:$PWD/bin
