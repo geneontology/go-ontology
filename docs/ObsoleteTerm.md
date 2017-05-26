@@ -58,7 +58,9 @@
 
 24. Next, type ```git commit -m ‘obsoleted GO term Fixes #12923’```.
 
-25. Then push your changes back to the origin (GitHub), by typing: ```git push origin myworkingbranch```.
+25. Then push your changes back to the origin (GitHub), by typing:
+
+        git push origin myworkingbranch
 
 26. Using your browser, return to the GO Ontology repository on GitHub, located at [https://github.com/geneontology/go-ontology](https://github.com/geneontology/go-ontology).
 
