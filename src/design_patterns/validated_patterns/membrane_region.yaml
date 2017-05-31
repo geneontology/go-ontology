@@ -5,7 +5,7 @@ classes:
     cellular_component: GO:0005575
 
 relations:
-    part_of: BFO:0000050    
+    part of: BFO:0000050    
 
 vars:
     encompassing_membrane: "membrane"

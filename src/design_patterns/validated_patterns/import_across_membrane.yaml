@@ -3,7 +3,7 @@ pattern_name: import_across_membrane
 classes: 
   membrane: GO:0016020
   cellular_component: GO:0005575
-  chemical entity: CHEBI_24431
+  chemical entity: CHEBI:24431
   macromolecular complex: GO:0032991
   transcript: SO:0000673
   transport: GO:0006810
@@ -19,7 +19,7 @@ vars:
   membrane: "'membrane'"
   cargo: "'chemical entity' or 'macromolecular complex' or 'transcript'"
   start: "'cellular_component'"
-  end: "'cellular_compomnent'"
+  end: "'cellular_component'"
 
 name: 
   text: "%s import across %s"
