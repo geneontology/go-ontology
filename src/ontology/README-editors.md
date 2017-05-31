@@ -1,6 +1,8 @@
-# GO Editors Instructions
+# Instructions for Editors of the Gene Ontology
 
-The most updated documentation for Gene Ontology Editors can be found at [http://go-ontology.readthedocs.io/](http://go-ontology.readthedocs.io/).
+## GO - Ontology Editors Guide
+
+A step-by-step guide for GO Ontology Editors can be found at [http://go-ontology.readthedocs.io/](http://go-ontology.readthedocs.io/).
 
 ## Release Process
 
