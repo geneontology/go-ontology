@@ -17,3 +17,7 @@ query: $(pattern-files)
 
 $(pattern-files): ../ontology/go-edit.obo
 	dosdp-tools --prefixes=prefixes.yaml --ontology=$< --reasoner=elk --obo-prefixes=true --template=$@ --outfile=$(basename $@).tsv query
+
+SRC=../../target/go.owl
+validated_patterns/%.tsv: validated_patterns/%.yaml
+	dosdp-tools --prefixes=prefixes.yaml --ontology=$(SRC) --reasoner=elk --obo-prefixes=true --template=$< --outfile=$@ query
