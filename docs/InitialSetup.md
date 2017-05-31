@@ -40,18 +40,18 @@
 
 6.  In the Auto-generated ID section:
 
-    Numeric
+    * Numeric
 
-    Prefix GO_
+    * Prefix `GO_`
 
-    Suffix: _leave this blank_
+    * Suffix: _leave this blank_
 
-    Digit Count 7
+    * Digit Count `7`
 
-    __Start:__ see [go-idranges.owl](https://github.com/geneontology/go-ontology/blob/master/src/ontology/go-idranges.owl). Only paste the number after the ```GO:``` prefix.  Also, note that when you paste in your GO ID range, the number will automatically be converted to a standard number, e.g. pasting 0110001 will be converted to 110,001.)
+    * __Start:__ see [go-idranges.owl](https://github.com/geneontology/go-ontology/blob/master/src/ontology/go-idranges.owl). Only paste the number after the ```GO:``` prefix.  Also, note that when you paste in your GO ID range, the number will automatically be converted to a standard number, e.g. pasting 0110001 will be converted to 110,001.)
 
-    __End:__ see [go-idranges.owl](https://github.com/geneontology/go-ontology/blob/master/src/ontology/go-idranges.owl)
+    * __End:__ see [go-idranges.owl](https://github.com/geneontology/go-ontology/blob/master/src/ontology/go-idranges.owl)
 
-    Remember last ID between Protege sessions: ALWAYS CHECK THIS
+    * Remember last ID between Protege sessions: ALWAYS CHECK THIS
 
     (__Note:__ You want the ID to be remembered to prevent c;ahses when working in parallel on branches.)
