@@ -54,4 +54,4 @@
 
     * Remember last ID between Protege sessions: ALWAYS CHECK THIS
 
-    (__Note:__ You want the ID to be remembered to prevent c;ahses when working in parallel on branches.)
+    (__Note:__ You want the ID to be remembered to prevent clahses when working in parallel on branches.)
