@@ -2,10 +2,12 @@ pattern_name: import_across_membrane
 
 classes: 
   membrane: GO:0016020
-  cellular_component: GO:0005575
+  cellular component: GO:0005575
   chemical entity: CHEBI_24431
   macromolecular complex: GO:0032991
   transcript: SO:0000673
+  transport: GO:0006810
+  chemical entity: CHEBI:24431
 
 relations:
   transports or maintains localization of: RO:0002313
@@ -17,8 +19,8 @@ relations:
 vars: 
   membrane: "'membrane'"
   cargo: "'chemical entity' or 'macromolecular complex' or 'transcript'"
-  start: "'cellular_component'"
-  end: "'cellular_compomnent'"
+  start: "'cellular component'"
+  end: "'cellular component'"
 
 name: 
   text: "%s export across %s"
@@ -42,7 +44,7 @@ comment:
     - membrane
 
 equivalentTo: 
-  text: "'transport' that
+  text: "'transport'
     and ('has target start location' some %s)
     and ('has target end location' some %s)
     and ('exports' some %s)
