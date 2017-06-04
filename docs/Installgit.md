@@ -111,7 +111,12 @@ Fast-forward
  
 1. **Review**: Changes made to the ontology can be viewed by typing ```git diff``` in the terminal window. If there are changes that have already been committed, the changes in the active branch relative to master can be viewed by typing  ```git diff master```. 
 
-2. **Commit**: Changes can be committed by typing: ```git commit -m ‘Meaningful message Fixes #ticketnumber’ go-edit.obo```. For example: ```git commit -m ‘hepatic stellate cell migration and contraction and regulation terms. Fixes #13390’ go-edit.obo ```. This will save the changes to the go-edit.obo file. The terminal window will show something like: 
+2. **Commit**: Changes can be committed by typing: ```git commit -m ‘Meaningful message Fixes #ticketnumber’ go-edit.obo```. 
+
+      For example: 
+          git commit -m ‘hepatic stellate cell migration and contraction and regulation terms. Fixes #13390’ go-edit.obo 
+	
+	This will save the changes to the go-edit.obo file. The terminal window will show something like: 
 
         ~/repos/go-ontology/src/ontology(issue-13390) $ git commit -m 'Added hepatic stellate cell migration and contraction and regulation terms. Fixes #13390' go-edit.obo
         [issue-13390 dec9df0] Added hepatic stellate cell migration and contraction and regulation terms. Fixes #13390
@@ -129,7 +134,8 @@ Fast-forward
 
 3. **Push**: To incorporate the changes into the remote repository, type: ```git push origin mynewbranch```. 
        Example: 
-        ```git push origin issue-13390```. 
+       
+         ```git push origin issue-13390```. 
 	
    The first time you push, git will prompt you for your username and password. If you are working on a Mac, git will remember the values and you won’t be prompted every time you try to make a push. If you change your git password, you won’t be recognized. If this happens, you need to reset git by entering: ```git config --global credential.helper osxkeychain```. When you try to push, git will prompt you to update your information. You will need to enter your username and your password.
    
