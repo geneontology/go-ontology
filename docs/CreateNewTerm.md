@@ -1,6 +1,6 @@
 # Creating a New Ontology Term
 
-   - See Daily Workflow for creating branches and basic Protégé instructions. 
+   - See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-updating-with-git-pull) for creating branches and basic Protégé instructions. 
 
 1. To create a new term, the 'Asserted view' must be active (not the 'Inferred view'). 
 
