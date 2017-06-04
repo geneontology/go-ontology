@@ -19,14 +19,14 @@
 2. Then paste this command into your terminal: ```git clone https://github.com/geneontology/go-ontology.git```
        
     Example result:
-    ```
+
        Cloning into 'go-ontology'...
        remote: Counting objects: 2541, done.
        remote: Compressing objects: 100% (100/100), done.
        remote: Total 2541 (delta 52), reused 0 (delta 0), pack-reused 2440
        Receiving objects: 100% (2541/2541), 21.19 MiB | 5.22 MiB/s, done.
        Resolving deltas: 100% (1532/1532), done.
-      ```
+
 
 ## Editing the .profile (or .bashrc) file to indicate the branch you are working on
 
@@ -47,7 +47,6 @@ It can be very helpful to know what branch you are working in on your terminal w
 2. If the terminal window is not configured to display the branch name, type: ```git status```. You will see: 
     
        On branch [master] [or the name of the branch you are on]
-
        Your branch is up-to-date with 'origin/master'.
 
 3. If you’re not in the master branch, type: ```git checkout master```
@@ -81,14 +80,8 @@ Fast-forward
 2. **Make sure you are on the master branch before creating a new branch**. If the terminal window is not configured to display the branch name, type: ```git status``` to check which is the active branch. If necessary, go to master by typing ```git checkout master```.  
 
 3. To create a new branch, type:  ```git checkout -b issue-NNNNN``` in the terminal window.
-
-   1. Branch names: we recommend using the string 'issue-' followed by the issue number.
-	
-      For instance, for this issue in the tracker: https://github.com/geneontology/go-ontology/issues/13390
-
-      You would create this branch: ```git checkout -b issue-13390```
-
-   2. Typing this command will automatically put you in the new branch. You will see this message in your terminal window: 
+  - Branch names: we recommend using the string 'issue-' followed by the issue number. For instance, for this issue in the tracker: https://github.com/geneontology/go-ontology/issues/13390, you would create this branch: ```git checkout -b issue-13390```
+  - Typing this command will automatically put you in the new branch. You will see this message in your terminal window: 
 
       ```
       ~/repos/go-ontology/src/ontology(master) $ git checkout -b issue-13390
