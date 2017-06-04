@@ -2,10 +2,9 @@
 
 See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-updating-with-git-pull) for creating branches and basic Protégé instructions. 
 
-To create a parent regulation term, if it doesn’t exist:
+To create a 'positive regulation of x' or 'negative regulation of x' term, the parent 'regulation of x' term must first be created. To create a parent regulation term: 
 
-
-1. To create a new regulation term, the 'Asserted view' must be active (not the 'Inferred view'). 
+1. Make sure the 'Asserted view' is active (not the 'Inferred view'). 
 
 2. In the Protege classes view navigate to ‘biological regulation’
    
