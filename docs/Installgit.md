@@ -5,8 +5,8 @@
   1. In order to locally edit the ontology and push changes back to the GitHub repository, you will need to have git installed on your machine.⋅⋅
 
   2. To check if you already have git installed, or to see what version of git you have, type either of these commands in your terminal: 
-      ```which git``` 
-      ```git --version```  
+      ```which git```   
+      ```git --version```    
   
   3. To install git, follow  instructions here: [https://git-scm.com/](https://git-scm.com/)
   
