@@ -42,7 +42,7 @@ GO IDs of the terms that will be merged so you can keep track of the â€˜targetâ€
 - Check existing list of synonyms to see if they all still make sense.
 
 
-7. Synchronize the reasoner and see if there are terms that now have identical definitions as a result of the merge. This will be shown by a 'equivalent' sign `&#8801;`.
+7. Synchronize the reasoner and see if there are terms that now have identical definitions as a result of the merge. This will be shown by a 'equivalent' sign `&8801;`.
 
 
 See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
