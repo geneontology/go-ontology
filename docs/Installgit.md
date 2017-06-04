@@ -156,9 +156,6 @@ Fast-forward
 
 6. You can now safely delete your branch on the repository using the button on the right of the successful merge message. 
 
-7. If appropriate, you may now delete the working branch on your local copy. Back in your terminal, return to master and delete 
-
-    1. Type: ```git checkout master```.
-
-    2. Type: ```git branch -d workingbranchname```. Example: ```git branch -d issue-13390```.
+7. If appropriate, you may now delete the working branch on your local copy. Back in your terminal, type: ```git checkout master```. Then type: ```git branch -d workingbranchname```. 
+       Example: ```git branch -d issue-13390```.
 
