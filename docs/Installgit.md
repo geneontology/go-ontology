@@ -25,7 +25,6 @@
 
        git clone https://github.com/geneontology/go-ontology.git
        
-
     Example result:
     
        Cloning into 'go-ontology'...
