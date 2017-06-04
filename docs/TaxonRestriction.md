@@ -7,7 +7,7 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
    3.	In the pop-up window type a new relationship (e.g. ```'only in taxon' some Viridiplantae```).
    4.	The taxa available are imported ontology terms and can be browsed just like any other ontology term.
 
-2. ```Never in taxon``` relations added as annotations. 
+2. ```Never in taxon``` relations added as ```Annotations```. 
    1.	Navigate to the term for which you want to add the never in taxon restriction.
    2.	In the class annotations window, click on the ```+```. 
    3.	In the left-hand panel, select ```never_in_taxon```.
