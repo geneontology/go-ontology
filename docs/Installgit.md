@@ -114,6 +114,7 @@ Fast-forward
 2. **Commit**: Changes can be committed by typing: ```git commit -m ‘Meaningful message Fixes #ticketnumber’ go-edit.obo```. 
 
       For example: 
+      
           git commit -m ‘hepatic stellate cell migration and contraction and regulation terms. Fixes #13390’ go-edit.obo 
 	
 	This will save the changes to the go-edit.obo file. The terminal window will show something like: 
@@ -133,7 +134,8 @@ Fast-forward
    You can suppress this message by setting your name and email explicitly: First type ```git config --global user.name "Your Name"```, and then type ```git config --global user.email you@example.com```. You can then fix the identity used for this commit by typing: ```git commit --amend --reset-author```.
 
 3. **Push**: To incorporate the changes into the remote repository, type: ```git push origin mynewbranch```. 
-       Example: 
+
+      Example: 
        
          ```git push origin issue-13390```. 
 	
