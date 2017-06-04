@@ -26,7 +26,8 @@
        git clone https://github.com/geneontology/go-ontology.git
        
 
-       Example result:
+    Example result:
+    
        Cloning into 'go-ontology'...
        remote: Counting objects: 2541, done.
        remote: Compressing objects: 100% (100/100), done.
