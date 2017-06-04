@@ -3,15 +3,12 @@
 
 See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-updating-with-git-pull) for creating branches and basic Protégé instructions. 
 
-- **Note** Before performing the merge, make sure that you know all of the consequences that the merge will cause. In particular, be sure to look at child terms and any other terms that refer to the ‘deprecated’ term. In many cases a simple merge of two terms is not sufficient because it will result in equivalent classes for child terms. For example if deprecated term X is going to be merged into target term Y and ‘regulation of X’ and ‘regulation of Y’ terms exist, then you will need to merge the regulation terms in addition to the primary terms. You will also need to edit any terms that refer to the deprecated term to be sure that the names and definitions are consistent.
+**Note** Before performing a merge, make sure that you know all of the consequences that the merge will cause. In particular, be sure to look at child terms and any other terms that refer to the ‘deprecated’ term. In many cases a simple merge of two terms is not sufficient because it will result in equivalent classes for child terms. For example if deprecated term X is going to be merged into target term Y and ‘regulation of X’ and ‘regulation of Y’ terms exist, then you will need to merge the regulation terms in addition to the primary terms. You will also need to edit any terms that refer to the deprecated term to be sure that the names and definitions are consistent.
 
-2.	**Find the ID of the term to be deprecated** 
-   - Navigate to the term to be deprecated using the Search box.
-GO IDs of the terms that will be merged so you can keep track of the ‘target’ and ‘deprecated’ terms. In general it is best practice to keep the name of the target term and its identifier as the primary GO:id.
-   - In the Protege menu, click on Refactor > Rename entity’ (shortcut: command-U) 
-   - **Copy the ID of the term to be deprecated somewhere**
+1.	**Find the ID of the term to be deprecated** 
+    Navigate to the term to be deprecated using the Search box. In the Protege menu, click on Refactor > Rename entity’ (shortcut: command-U). **Copy the ID of the term to be deprecated.**
  
- 3. **Remove annotations from the deprecated terms**
+ 2. **Remove annotations from the deprecated terms**
    - Remove the logical definition by clicking on the (x) on the right
    - Remove all subclasses by clicking on the (x) on the right
    - Look at the definition; if it does not seem relevant, remove it by clicking on the (x) on the right; otherwise copy/paste it somewhere
