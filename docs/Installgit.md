@@ -54,11 +54,11 @@ PS1="\w\$(parse_git_branch) $ "
 
 1. Navigate to the ontology directory of go-ontology:  ```/repos/go-ontology/src/ontology```
 
-2. Type: ```git status``` to reveal the branch you are working on.
+2. If this information is not displayed in the terminal window, type: ```git status``` to reveal the branch you are working on.
 
-3. Make sure you are working on the master branch. If you are, you will see: 
+3. You will see: 
     
-       On branch master
+       On branch [master] [or the name of the branch you are on]
 
        Your branch is up-to-date with 'origin/master'.
 
@@ -86,7 +86,6 @@ Fast-forward
 ~/repos/go-ontology(master) $
 ```
 
-
 ## Daily Workflow - Creating a New Working Branch with 'git checkout'
 
 1. When starting to work on a ticket, you should create a new branch of the repository to edit the ontology file.
@@ -106,3 +105,11 @@ Fast-forward
       Switched to a new branch 'issue-13390'
       ~/repos/go-ontology/src/ontology(issue-13390) $
       ```
+
+
+## Daily Workflow - Continuing work on an existing Working Branch 
+1. If you are continuing to do work on an existing branch, in addition to updating master, go to your branch by typing ```git checkout [branch name]```
+
+Note that you can view the existing local branches by typing ```git branch -l```
+
+2. Update the branch by typing ```git pull origin master ```
