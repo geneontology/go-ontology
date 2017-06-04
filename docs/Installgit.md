@@ -16,9 +16,7 @@
 
 1. Create a directory called ```repos``` on your local machine using this command: ```mkdir repos```
 
-2. Then paste this command into your terminal:
-
-       git clone https://github.com/geneontology/go-ontology.git
+2. Then paste this command into your terminal: ```git clone https://github.com/geneontology/go-ontology.git```
        
     Example result:
     
