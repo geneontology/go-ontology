@@ -23,21 +23,20 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
  
  4. **Make the deprecated ID an 'alternative ID'**
  In the annotations box, go to xx 
- - In the resulting pop-up window, select ```has_alternate_id``` from the list on the left side. 
--  Make sure the 'Literal' tab is selected in the right side box, and check that the entry corresponds to the GO ID of the ‘deprecated term’.  
-- Click 'OK'. The deprecated term identifier should now be ```has_alternative_id``` instead of id.
+    - In the resulting pop-up window, select ```has_alternate_id``` from the list on the left side. 
+    -  Make sure the 'Literal' tab is selected in the right side box, and check that the entry corresponds to the GO ID of the ‘deprecated term’.  
+    - Click 'OK'. The deprecated term identifier should now be ```has_alternative_id``` instead of id.
 
  5. **Fix synonyms** 
- - In the annotations box, go to xx 	
- Check the existing list of synonyms to see if the name of the deprecated term was already listed as a synonym.  If not, you will need to add it to the list.
- - Select the appropriate synonym label from the list on the left:
-    1.	```has_broad_synonym```
-    2.	```has_exact_synonym```
-    3.	```has_narrow_synonym```
-    4.	```has_related_synonym```
+    - In the annotations box, go to xx 	
+    Check the existing list of synonyms to see if the name of the deprecated term was already listed as a synonym.  If not, you will need to add it to the list.
+    - Select the appropriate synonym label from the list on the left:
+      1.	```has_broad_synonym```
+      2.	```has_exact_synonym```
+      3.	```has_narrow_synonym```
+      4.	```has_related_synonym```
 
-- Check existing list of synonyms to see if they all still make sense.
-
+    - Check existing list of synonyms to see if they all still make sense.
 
 6. Synchronize the reasoner and see if there are terms that now have identical definitions as a result of the merge. This will be shown by a 'equivalent' sign `≡`. 
 
