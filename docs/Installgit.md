@@ -109,9 +109,7 @@ Fast-forward
 
 ## Daily Workflow - Continuing work on an existing Working Branch 
 1. If you are continuing to do work on an existing branch, in addition to updating master, go to your branch by typing ```git checkout [branch name]```
-
-Note that you can view the existing local branches by typing ```git branch -l```
-
+ - Note that you can view the existing local branches by typing ```git branch -l```
 2. Make the content of the branch up to date with master (ie, the information in the GO repository) by typing ```git pull origin master ```
 
 
@@ -138,19 +136,15 @@ Note that you can view the existing local branches by typing ```git branch -l```
 1. **Review**: Changes made to the ontology can be viewed by typing ```git diff``` in the terminal window. If there are changes that have already been committed, the changes in the active branch relative to master can be viewed by typing  ```git diff master```. 
 
 2. **Commit**: Changes can be committed by typing: ```git commit -m ‘Meaningful message Fixes #ticketnumber’ go-edit.obo```. 
-
 - Example:  ```git commit -m ‘hepatic stellate cell migration and contraction and regulation terms. Fixes #13390’ go-edit.obo```. This will save the changes to the go-edit.obo file.
-
         ```
         ~/repos/go-ontology/src/ontology(issue-13390) $ git commit -m 'Added hepatic stellate cell migration and contraction and regulation terms. Fixes #13390' go-edit.obo
         [issue-13390 dec9df0] Added hepatic stellate cell migration and contraction and regulation terms. Fixes #13390
         1 file changed, 79 insertions(+)
         ~/repos/go-ontology/src/ontology(issue-13390) $
         ```
-
 - **Note**: The word 'fixes' is a magic word in GitHub; when used in combination with the ticket number, it will automatically close the ticket. In the above example, when the file is merged in GitHub, it will close issue number 13390. Learn moree on this [GitHub Help Documentation page about 'Closing issues via commit messages'](https://help.github.com/articles/closing-issues-via-commit-messages/).
 	If you don't want to close the close the ticket, just refer to the ticket # without the word 'Fixes'. The commit will be associated with the correct ticket but the ticket will remain open. 
- 
 - **Identifying the user for commits** Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: ```Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>```
 
        Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
@@ -162,11 +156,8 @@ Note that you can view the existing local branches by typing ```git branch -l```
        - Type: ```git config --global user.email you@example.com```
  
        - After doing this, you may fix the identity used for this commit by typing: ```git commit --amend --reset-author```
- 
 3. **Push**: To incorporate the changes into the remote repository, type: ```git push origin mynewbranch```. Example: git push origin issue-13390
- 
 - The first time you push, git will prompt you for your username and password. If you are working on a Mac, git will remember the values and you won’t be prompted every time you try to make a push. If you change your git password, you won’t be recognized. If this happens, you need to reset git by entering: ```git config --global credential.helper osxkeychain```
-
 -  When you try to push, git will prompt you to update your information. You will need to enter your username and your password.
 
             ```
@@ -181,7 +172,6 @@ Note that you can view the existing local branches by typing ```git branch -l```
              * [new branch]  	issue-13390 -> issue-13390
             ~/repos/go-ontology/src/ontology(issue-13390) $
             ```
-
 4. **Pull** Using your browser, return to the GO Ontology repository on GitHub, located at [https://github.com/geneontology/go-ontology](https://github.com/geneontology/go-ontology).
     1. Navigate to the tab labeled as 'Code' (```geneontology/go-ontology/code```). You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the 'Branches' link to reveale it in the list, and click on it. 
 
