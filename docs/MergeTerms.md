@@ -1,6 +1,7 @@
 # Merging Ontology Terms
 
-   - See Daily Workflow for creating branches and basic Protégé instructions. 
+
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-updating-with-git-pull) for creating branches and basic Protégé instructions. 
 
 - **Note** Before performing the merge, make sure that you know all of the consequences that the merge will cause. In particular, be sure to look at child terms and any other terms that refer to the ‘deprecated’ term. In many cases a simple merge of two terms is not sufficient because it will result in equivalent classes for child terms. For example if deprecated term X is going to be merged into target term Y and ‘regulation of X’ and ‘regulation of Y’ terms exist, then you will need to merge the regulation terms in addition to the primary terms. You will also need to edit any terms that refer to the deprecated term to be sure that the names and definitions are consistent.
 
@@ -41,7 +42,7 @@ GO IDs of the terms that will be merged so you can keep track of the ‘target�
 - Check existing list of synonyms to see if they all still make sense.
 
 
-7. Synchronize the reasoner and see if there are terms that now have identical definitions as a result of the merge. This will be shown by a 'equivalent' sign ()
+7. Synchronize the reasoner and see if there are terms that now have identical definitions as a result of the merge. This will be shown by a 'equivalent' sign. 
 
 
-- See 'Daily workflow' section for commit, push and merge instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
