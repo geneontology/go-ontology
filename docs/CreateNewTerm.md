@@ -14,9 +14,9 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
 
     1. Namespace
        1. Begin typing one of the three branches (autocomplete will guide you to the correct term):
-          1. ```biological_process```
-          2. ```cellular _component```
-          3. ```molecular_function```
+                 ```biological_process```
+                 ```cellular _component```
+                 ```molecular_function```
        2. For Type, select: ```xsd:string```
            
     2. Definition
