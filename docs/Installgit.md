@@ -38,14 +38,12 @@
 
 It can be very helpful to know what branch you are working in on your terminal window. You can set this up to display by adding the following information to your .profile file (found by typing ls -a):
 
-```
-export GO_REPO=~/repos/go-ontology
-. $GO_REPO/src/util/git-completion.bash
-parse_git_branch() {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
-}
-PS1="\w\$(parse_git_branch) $ "
-```
+       export GO_REPO=~/repos/go-ontology
+       . $GO_REPO/src/util/git-completion.bash
+       parse_git_branch() {
+           git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+       }
+       PS1="\w\$(parse_git_branch) $ "
 
 
 ## Daily Workflow - Updating with 'git pull'
