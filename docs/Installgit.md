@@ -5,7 +5,7 @@
 1. In order to locally edit the ontology and push changes back to the GitHub repository, you will need to have git installed on your machine.
 
 2. To check if you already have git installed, or to see what version of git you have, type either of these commands in your terminal: 
-```which git``` or ```git --version```
+```which git``` or ```git --version```.
  
 3. To install git, follow  instructions here: [https://git-scm.com/](https://git-scm.com/)
   
@@ -14,9 +14,9 @@
 
 ## Cloning the go-ontology repository from GitHub
 
-1. Create a directory called ```repos``` on your local machine using this command: ```mkdir repos```
+1. Create a directory called ```repos``` on your local machine using this command: ```mkdir repos```.
 
-2. Then paste this command into your terminal: ```git clone https://github.com/geneontology/go-ontology.git```
+2. Then paste this command into your terminal: ```git clone https://github.com/geneontology/go-ontology.git```.
        
     Example result:
 
@@ -42,20 +42,16 @@ It can be very helpful to know what branch you are working in on your terminal w
 
 ## Daily Workflow - Updating with 'git pull'
 
-1. Navigate to the ontology directory of go-ontology:  ```cd repos/go-ontology/src/ontology```
+1. Navigate to the ontology directory of go-ontology:  ```cd repos/go-ontology/src/ontology```.
 
 2. If the terminal window is not configured to display the branch name, type: ```git status```. You will see: 
     
        On branch [master] [or the name of the branch you are on]
        Your branch is up-to-date with 'origin/master'.
 
-3. If you’re not in the master branch, type: ```git checkout master```
+3. If you’re not in the master branch, type: ```git checkout master```.
 
-4. From the master branch, type: ```git pull```
-
-    This will update your master branch, and all working branches, with the files that are most current on GitHub, bringing in and merging any changes that were made since you last pulled the repository using the command ```git pull```.
-
-    You will see something like this:
+4. From the master branch, type: ```git pull```. This will update your master branch, and all working branches, with the files that are most current on GitHub, bringing in and merging any changes that were made since you last pulled the repository using the command ```git pull```. You will see something like this:
 
 ```
 ~/repos/go-ontology(master) $ git pull
@@ -91,8 +87,8 @@ Fast-forward
 
 
 ## Daily Workflow - Continuing work on an existing Working Branch 
-1. If you are continuing to do work on an existing branch, in addition to updating master, go to your branch by typing ```git checkout [branch name]```
- - Note that you can view the existing local branches by typing ```git branch -l```
+1. If you are continuing to do work on an existing branch, in addition to updating master, go to your branch by typing ```git checkout [branch name]```. Note that you can view the existing local branches by typing ```git branch -l```.
+
 2. Make the content of the branch up to date with master (ie, the information in the GO repository) by typing ```git pull origin master ```
 
 
@@ -118,17 +114,22 @@ Fast-forward
  
 1. **Review**: Changes made to the ontology can be viewed by typing ```git diff``` in the terminal window. If there are changes that have already been committed, the changes in the active branch relative to master can be viewed by typing  ```git diff master```. 
 
-2. **Commit**: Changes can be committed by typing: ```git commit -m ‘Meaningful message Fixes #ticketnumber’ go-edit.obo```. 
-- Example:  ```git commit -m ‘hepatic stellate cell migration and contraction and regulation terms. Fixes #13390’ go-edit.obo```. This will save the changes to the go-edit.obo file.
+2. **Commit**: Changes can be committed by typing: ```git commit -m ‘Meaningful message Fixes #ticketnumber’ go-edit.obo```. For example: 
+
+        git commit -m ‘hepatic stellate cell migration and contraction and regulation terms. Fixes #13390’ go-edit.obo 
+ 
+ This will save the changes to the go-edit.obo file.
+ 
         ```
         ~/repos/go-ontology/src/ontology(issue-13390) $ git commit -m 'Added hepatic stellate cell migration and contraction and regulation terms. Fixes #13390' go-edit.obo
         [issue-13390 dec9df0] Added hepatic stellate cell migration and contraction and regulation terms. Fixes #13390
         1 file changed, 79 insertions(+)
         ~/repos/go-ontology/src/ontology(issue-13390) $
         ```
-- **Note**: The word 'fixes' is a magic word in GitHub; when used in combination with the ticket number, it will automatically close the ticket. In the above example, when the file is merged in GitHub, it will close issue number 13390. Learn moree on this [GitHub Help Documentation page about 'Closing issues via commit messages'](https://help.github.com/articles/closing-issues-via-commit-messages/).
+
+**Note**: The word 'fixes' is a magic word in GitHub; when used in combination with the ticket number, it will automatically close the ticket. In the above example, when the file is merged in GitHub, it will close issue number 13390. Learn moree on this [GitHub Help Documentation page about 'Closing issues via commit messages'](https://help.github.com/articles/closing-issues-via-commit-messages/).
 	If you don't want to close the close the ticket, just refer to the ticket # without the word 'Fixes'. The commit will be associated with the correct ticket but the ticket will remain open. 
-- **Identifying the user for commits** Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: ```Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>```
+**Identifying the user for commits** Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: ```Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>```
 
        Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
  
