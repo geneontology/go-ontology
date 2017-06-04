@@ -3,10 +3,10 @@
 ## Installing git
 
 1. In order to locally edit the ontology and push changes back to the GitHub repository, you will need to have git installed on your machine.
-  
+
 2. To check if you already have git installed, or to see what version of git you have, type either of these commands in your terminal: 
 ```which git``` or ```git --version```
-  
+ 
 3. To install git, follow  instructions here: [https://git-scm.com/](https://git-scm.com/)
   
  __Note for MacOSX users:__ it is advised to install Xcode tools.
@@ -14,9 +14,7 @@
 
 ## Cloning the go-ontology repository from GitHub
 
-1. Create a directory called ```repos``` on your local machine using this command:
-
-       mkdir repos
+1. Create a directory called ```repos``` on your local machine using this command: ```mkdir repos```
 
 2. Then paste this command into your terminal:
 
