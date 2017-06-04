@@ -148,10 +148,10 @@ Note that you can view the existing local branches by typing ```git branch -l```
         ~/repos/go-ontology/src/ontology(issue-13390) $
         ```
 
-   * **Note**: The word 'fixes' is a magic word in GitHub; when used in combination with the ticket number, it will automatically close the ticket. In the above example, when the file is merged in GitHub, it will close issue number 13390. Learn moree on this [GitHub Help Documentation page about 'Closing issues via commit messages'](https://help.github.com/articles/closing-issues-via-commit-messages/).
+- **Note**: The word 'fixes' is a magic word in GitHub; when used in combination with the ticket number, it will automatically close the ticket. In the above example, when the file is merged in GitHub, it will close issue number 13390. Learn moree on this [GitHub Help Documentation page about 'Closing issues via commit messages'](https://help.github.com/articles/closing-issues-via-commit-messages/).
 	If you don't want to close the close the ticket, just refer to the ticket # without the word 'Fixes'. The commit will be associated with the correct ticket but the ticket will remain open. 
  
-   * **Identifying the user for commits** Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: ```Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>```
+- **Identifying the user for commits** Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: ```Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>```
 
        Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
  
@@ -165,9 +165,9 @@ Note that you can view the existing local branches by typing ```git branch -l```
  
 3. **Push**: To incorporate the changes into the remote repository, type: ```git push origin mynewbranch```. Example: git push origin issue-13390
  
-      - The first time you push, git will prompt you for your username and password. If you are working on a Mac, git will remember the values and you won’t be prompted every time you try to make a push. If you change your git password, you won’t be recognized. If this happens, you need to reset git by entering: ```git config --global credential.helper osxkeychain```
-        
-     - When you try to push, git will prompt you to update your information. You will need to enter your username and your password.
+- The first time you push, git will prompt you for your username and password. If you are working on a Mac, git will remember the values and you won’t be prompted every time you try to make a push. If you change your git password, you won’t be recognized. If this happens, you need to reset git by entering: ```git config --global credential.helper osxkeychain```
+
+-  When you try to push, git will prompt you to update your information. You will need to enter your username and your password.
 
             ```
             ~/repos/go-ontology/src/ontology(issue-13390) $ git push origin issue-13390
