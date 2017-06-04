@@ -1,6 +1,6 @@
 ## Creating Regulation Terms
 
-- See Daily Workflow for creating branches and basic Protégé instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-updating-with-git-pull) for creating branches and basic Protégé instructions. 
 
 To create a parent regulation term, if it doesn’t exist:
 
@@ -23,6 +23,5 @@ To create a parent regulation term, if it doesn’t exist:
    
 8. Run the reasoner to be sure that reasoning results in the correct inferred parents.
 
-
-- See 'Daily workflow' section for commit, push and merge instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
 
