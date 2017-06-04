@@ -75,8 +75,7 @@ Fast-forward
 
 2. **Make sure you are on the master branch before creating a new branch**. If the terminal window is not configured to display the branch name, type: ```git status``` to check which is the active branch. If necessary, go to master by typing ```git checkout master```.  
 
-3. To create a new branch, type:  ```git checkout -b issue-NNNNN``` in the terminal window.
-  - Naming branches: we recommend using the string 'issue-' followed by the issue number. For instance, for this issue in the tracker: https://github.com/geneontology/go-ontology/issues/13390, you would create this branch: ```git checkout -b issue-13390```. Typing this command will automatically put you in the new branch. You will see this message in your terminal window: 
+3. To create a new branch, type:  ```git checkout -b issue-NNNNN``` in the terminal window. For **naming branches**, we recommend using the string 'issue-' followed by the issue number. For instance, for this issue in the tracker: https://github.com/geneontology/go-ontology/issues/13390, you would create this branch: ```git checkout -b issue-13390```. Typing this command will automatically put you in the new branch. You will see this message in your terminal window: 
 
       ```
       ~/repos/go-ontology/src/ontology(master) $ git checkout -b issue-13390
