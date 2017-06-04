@@ -26,7 +26,7 @@
        remote: Total 2541 (delta 52), reused 0 (delta 0), pack-reused 2440
        Receiving objects: 100% (2541/2541), 21.19 MiB | 5.22 MiB/s, done.
        Resolving deltas: 100% (1532/1532), done.
-```
+      ```
 
 ## Editing the .profile (or .bashrc) file to indicate the branch you are working on
 
