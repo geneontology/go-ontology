@@ -137,7 +137,7 @@ Fast-forward
 
       Example: 
        
-         ```git push origin issue-13390```. 
+        git push origin issue-13390 
 	
    The first time you push, git will prompt you for your username and password. If you are working on a Mac, git will remember the values and you won’t be prompted every time you try to make a push. If you change your git password, you won’t be recognized. If this happens, you need to reset git by entering: ```git config --global credential.helper osxkeychain```. When you try to push, git will prompt you to update your information. You will need to enter your username and your password.
    
