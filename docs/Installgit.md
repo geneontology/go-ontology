@@ -170,5 +170,6 @@ Fast-forward
 7. If appropriate, you may now delete the working branch on your local copy. Back in your terminal, type: ```git checkout master```. Then type: ```git branch -d workingbranchname```. 
 
       Example: 
-       ```git branch -d issue-13390```.
+      
+           git branch -d issue-13390
 
