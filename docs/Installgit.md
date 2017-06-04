@@ -87,12 +87,11 @@ Fast-forward
 ## Daily Workflow - Continuing work on an existing Working Branch 
 1. If you are continuing to do work on an existing branch, in addition to updating master, go to your branch by typing ```git checkout [branch name]```. Note that you can view the existing local branches by typing ```git branch -l```.
 
-2. Make the content of the branch up to date with master (ie, the information in the GO repository) by typing ```git pull origin master ```
-
+2. Make the content of the branch up to date with master (ie, the information in the GO repository) by typing ```git pull origin master ```.
 
 ## Daily Workflow - Loading, navigating and saving the Ontology in Protegé 
 
-1. Before launching Protégé, make sure you are in the correct branch. Type ```git status``` to check the current branch if necessary. 
+1. Before launching Protégé, make sure you are in the correct branch. To check the active branch, type ```git status```.  
 
 2. Click on the 'File' pulldown. Open the file: go-edit.obo. The first time, you will have to navigate to ```repos/go-ontology/src/ontology```. Once you have worked on the file, it will show up in the menu under 'Open'/'Recent'.
 
@@ -104,7 +103,7 @@ Fast-forward
 
 6. Launching the reasoner: To see the term in the 'Class hierarchy' (inferred) window, you will need to run the 'ELK reasoner'. 'Reasoner' > select ELK 0.4.3, then click 'Start reasoner'. Close the various pop-up warnings about the ELK reasoner. You will now see the terms in the inferred hierarchy.
 
-7. After each modification of the ontology, synchronize the reasoner. 'Reasoner' > ' Synchronize reasoner'
+7. After each modification of the ontology, synchronize the reasoner. Go to menu: 'Reasoner' > ' Synchronize reasoner'.
 
 8. Use File > Save to save your changes. 
 
@@ -112,37 +111,25 @@ Fast-forward
  
 1. **Review**: Changes made to the ontology can be viewed by typing ```git diff``` in the terminal window. If there are changes that have already been committed, the changes in the active branch relative to master can be viewed by typing  ```git diff master```. 
 
-2. **Commit**: Changes can be committed by typing: ```git commit -m ‘Meaningful message Fixes #ticketnumber’ go-edit.obo```. For example: 
+2. **Commit**: Changes can be committed by typing: ```git commit -m ‘Meaningful message Fixes #ticketnumber’ go-edit.obo```. For example: ```git commit -m ‘hepatic stellate cell migration and contraction and regulation terms. Fixes #13390’ go-edit.obo ```. This will save the changes to the go-edit.obo file. The terminal window will show something like: 
 
-        git commit -m ‘hepatic stellate cell migration and contraction and regulation terms. Fixes #13390’ go-edit.obo 
- 
- This will save the changes to the go-edit.obo file.
- 
-        ```
         ~/repos/go-ontology/src/ontology(issue-13390) $ git commit -m 'Added hepatic stellate cell migration and contraction and regulation terms. Fixes #13390' go-edit.obo
         [issue-13390 dec9df0] Added hepatic stellate cell migration and contraction and regulation terms. Fixes #13390
         1 file changed, 79 insertions(+)
         ~/repos/go-ontology/src/ontology(issue-13390) $
-        ```
 
 **Note**: The word 'fixes' is a magic word in GitHub; when used in combination with the ticket number, it will automatically close the ticket. In the above example, when the file is merged in GitHub, it will close issue number 13390. Learn moree on this [GitHub Help Documentation page about 'Closing issues via commit messages'](https://help.github.com/articles/closing-issues-via-commit-messages/).
 	If you don't want to close the close the ticket, just refer to the ticket # without the word 'Fixes'. The commit will be associated with the correct ticket but the ticket will remain open. 
-**Identifying the user for commits** Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: ```Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>```
+**Identifying the user for commits** Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: 
 
+	Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>
        Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
  
-       You can suppress this message by setting your name and email explicitly:
-
-       - Type: ```git config --global user.name "Your Name"```
- 
-       - Type: ```git config --global user.email you@example.com```
- 
-       - After doing this, you may fix the identity used for this commit by typing: ```git commit --amend --reset-author```
+You can suppress this message by setting your name and email explicitly: First type ```git config --global user.name "Your Name"```, and then type ```git config --global user.email you@example.com```. You can then fix the identity used for this commit by typing: ```git commit --amend --reset-author```
 3. **Push**: To incorporate the changes into the remote repository, type: ```git push origin mynewbranch```. Example: git push origin issue-13390
 - The first time you push, git will prompt you for your username and password. If you are working on a Mac, git will remember the values and you won’t be prompted every time you try to make a push. If you change your git password, you won’t be recognized. If this happens, you need to reset git by entering: ```git config --global credential.helper osxkeychain```
 -  When you try to push, git will prompt you to update your information. You will need to enter your username and your password.
-
-            ```
+   
             ~/repos/go-ontology/src/ontology(issue-13390) $ git push origin issue-13390
             Counting objects: 5, done.
             Delta compression using up to 8 threads.
@@ -153,9 +140,9 @@ Fast-forward
             To https://github.com/geneontology/go-ontology.git
              * [new branch]  	issue-13390 -> issue-13390
             ~/repos/go-ontology/src/ontology(issue-13390) $
-            ```
+        
 4. **Pull** Using your browser, return to the GO Ontology repository on GitHub, located at [https://github.com/geneontology/go-ontology](https://github.com/geneontology/go-ontology).
-    1. Navigate to the tab labeled as 'Code' (```geneontology/go-ontology/code```). You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the 'Branches' link to reveale it in the list, and click on it. 
+    1. Navigate to the tab labeled as 'Code' ```geneontology/go-ontology/code```. You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the 'Branches' link to reveale it in the list, and click on it. 
 
     2. The diff for your file is at the bottom of the page. Examine it as a sanity check. 
      
@@ -171,7 +158,7 @@ Fast-forward
 
 7. If appropriate, you may now delete the working branch on your local copy. Back in your terminal, return to master and delete 
 
-    1. Type: ```git checkout master```
+    1. Type: ```git checkout master```.
 
-    2. Type: ```git branch -d workingbranchname```. Example: ```git branch -d issue-13390```
+    2. Type: ```git branch -d workingbranchname```. Example: ```git branch -d issue-13390```.
 
