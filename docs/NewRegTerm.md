@@ -15,9 +15,7 @@ To create a parent regulation term, if it doesn’t exist:
    
 5. Enter the appropriate information for namespace, definition, synonyms etc in the obo editing view as decribed in the 'Creating a New Ontology Term' Section.
    
-6. Create a logical definition for the term: 
-   
-       ```biological_process``` __and__ ```regulates``` __some__ ```‘target process’```
+6. Create a logical definition for the term: ```biological_process``` __and__ ```regulates``` __some__ ```target process```
    
 7. Remove the asserted ‘biological regulation’ parent.
    
