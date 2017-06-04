@@ -127,7 +127,10 @@ Fast-forward
  
    You can suppress this message by setting your name and email explicitly: First type ```git config --global user.name "Your Name"```, and then type ```git config --global user.email you@example.com```. You can then fix the identity used for this commit by typing: ```git commit --amend --reset-author```.
 
-3. **Push**: To incorporate the changes into the remote repository, type: ```git push origin mynewbranch```. Example: ```git push origin issue-13390```. 
+3. **Push**: To incorporate the changes into the remote repository, type: ```git push origin mynewbranch```. 
+       Example: 
+        ```git push origin issue-13390```. 
+	
    The first time you push, git will prompt you for your username and password. If you are working on a Mac, git will remember the values and you won’t be prompted every time you try to make a push. If you change your git password, you won’t be recognized. If this happens, you need to reset git by entering: ```git config --global credential.helper osxkeychain```. When you try to push, git will prompt you to update your information. You will need to enter your username and your password.
    
             ~/repos/go-ontology/src/ontology(issue-13390) $ git push origin issue-13390
@@ -157,5 +160,7 @@ Fast-forward
 6. You can now safely delete your branch on the repository using the button on the right of the successful merge message. 
 
 7. If appropriate, you may now delete the working branch on your local copy. Back in your terminal, type: ```git checkout master```. Then type: ```git branch -d workingbranchname```. 
-       Example: ```git branch -d issue-13390```.
+
+      Example: 
+       ```git branch -d issue-13390```.
 
