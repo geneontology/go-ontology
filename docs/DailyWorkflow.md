@@ -1,3 +1,5 @@
+# Daily Workflow
+
 ## Daily Workflow - Updating the local copy of the ontology with 'git pull'
 
 1. Navigate to the ontology directory of go-ontology:  ```cd repos/go-ontology/src/ontology```.
