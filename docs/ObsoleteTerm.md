@@ -16,9 +16,7 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
 
 4. Remove 'SubClass Of' relations: In the 'Description' window, under the 'SubClass Of' entry, click the ```x``` on the right-hand side to delete the SubClass Relation.
 
-5. Add ‘obsolete’ to the term name:
-
- In the 'Annotations' window, click on the ```o``` on the right-hand side of the rdfs:label entry to edit the term string. In the resulting window, in the Literal tab, in front of the term name, type: ```obsolete```
+5. Add ‘obsolete’ to the term name: In the 'Annotations' window, click on the ```o``` on the right-hand side of the rdfs:label entry to edit the term string. In the resulting window, in the Literal tab, in front of the term name, type: ```obsolete```
  __Note the case-sensitivity__. 
 
 5. Add ‘OBSOLETE’ to the term definition: In the 'Description' window, click on the ```o``` on the right-hand side of the definition entry. In the resulting window, in the Literal tab, at the beginning of the definition, type: ```OBSOLETE``` 
