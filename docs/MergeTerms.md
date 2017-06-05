@@ -36,6 +36,8 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
 
 6. **Fix synonyms** 
     In the annotations box of the winning term, check the list of synonyms to see if they are all still make appropriate.
+    
+7. If needed, fix the definition, using information from the deprecated term as appropriate.
 
 7. **Synchronize the reasoner** and make sure there are no terms that have identical definitions as a result of the merge. These are displayed with an 'equivalent' sign `≡` in the class hierarchy view on the left hand panel. 
 
