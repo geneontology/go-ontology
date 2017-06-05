@@ -1,6 +1,6 @@
 # Daily Workflow
 
-## Daily Workflow - Updating the local copy of the ontology with 'git pull'
+## Updating the local copy of the ontology with 'git pull'
 
 1. Navigate to the ontology directory of go-ontology:  ```cd repos/go-ontology/src/ontology```.
 
@@ -29,7 +29,7 @@ Fast-forward
 ~/repos/go-ontology(master) $
 ```
 
-## Daily Workflow - Creating a New Working Branch with 'git checkout'
+## Creating a New Working Branch with 'git checkout'
 
 1. When starting to work on a ticket, you should create a new branch of the repository to edit the ontology file.
 
@@ -44,12 +44,12 @@ Fast-forward
       ```
 
 
-## Daily Workflow - Continuing work on an existing Working Branch 
+## Continuing work on an existing Working Branch 
 1. If you are continuing to do work on an existing branch, in addition to updating master, go to your branch by typing ```git checkout [branch name]```. Note that you can view the existing local branches by typing ```git branch -l```.
 
 2. Make the content of the branch up to date with master (ie, the information in the GO repository) by typing ```git pull origin master ```.
 
-## Daily Workflow - Loading, navigating and saving the Ontology in Protegé 
+## Loading, navigating and saving the Ontology in Protegé 
 
 1. Before launching Protégé, make sure you are in the correct branch. To check the active branch, type ```git status```.  
 
@@ -67,7 +67,7 @@ Fast-forward
 
 8. Use File > Save to save your changes. 
 
-## Daily Workflow - Committing, pushing and merging your changes to the repository
+## Committing, pushing and merging your changes to the repository
  
 1. **Review**: Changes made to the ontology can be viewed by typing ```git diff``` in the terminal window. If there are changes that have already been committed, the changes in the active branch relative to master can be viewed by typing  ```git diff master```. 
 
@@ -130,5 +130,6 @@ Fast-forward
 7. If appropriate, you may now delete the working branch on your local copy. Back in your terminal, type: ```git checkout master```. Then type: ```git branch -d workingbranchname```. 
 
       Example: 
-      
+```      
 git branch -d issue-13390
+```
