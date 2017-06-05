@@ -12,24 +12,23 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
    4. In the 'Type' drop-down menu underneath the text box, select ```xsd:boolean```  
    5. Click OK.  You should now see the term crossed out in the Class hierarchy view.
 
-3. Remove equivalence axiom and 'SubClass Of' relations:
- In the 'Description' window: 
-       1. Under the 'Equivalent To', click the ```x``` on the right-hand side to delete the logical definition. 
-       2. Under the 'SubClass Of' entry, click the ```x``` on the right-hand side to delete the SubClass Relation.
+3. Remove equivalence axiom:  In the 'Description' window, under the 'Equivalent To', click the ```x``` on the right-hand side to delete the logical definition. 
 
-4. Add ‘obsolete’ to the term name:
+4. Remove 'SubClass Of' relations: In the 'Description' window, under the 'SubClass Of' entry, click the ```x``` on the right-hand side to delete the SubClass Relation.
 
-In the 'Annotations' window, click on the ```o``` on the right-hand side of the rdfs:label entry to edit the term string. In the resulting window, in the Literal tab, in front of the term name, type: ```obsolete```
+5. Add ‘obsolete’ to the term name:
+
+ In the 'Annotations' window, click on the ```o``` on the right-hand side of the rdfs:label entry to edit the term string. In the resulting window, in the Literal tab, in front of the term name, type: ```obsolete```
  __Note the case-sensitivity__. 
 
 5. Add ‘OBSOLETE’ to the term definition:
 
-In the 'Description' window, click on the ```o``` on the right-hand side of the definition entry. In the resulting window, in the Literal tab, at the beginning of the definition, type: ```OBSOLETE``` 
+ In the 'Description' window, click on the ```o``` on the right-hand side of the definition entry. In the resulting window, in the Literal tab, at the beginning of the definition, type: ```OBSOLETE``` 
  __Note the case-sensitivity__. 
  
 6. Add a statement about why the term was made obsolete:
 
-In the 'Annotations' window, select ```+``` to add an annotation. In the resulting menu, select ```rdfs:comment``` and select Type:  ```Xsd:string```.
+ In the 'Annotations' window, select ```+``` to add an annotation. In the resulting menu, select ```rdfs:comment``` and select Type:  ```Xsd:string```.
 Consult wiki documentation for suggestions on standard comments:
       
      - [http://wiki.geneontology.org/index.php/Curator_Guide:_Obsoletion](http://wiki.geneontology.org/index.php/Curator_Guide:_Obsoletion)
@@ -39,10 +38,10 @@ Consult wiki documentation for suggestions on standard comments:
      - [http://wiki.geneontology.org/index.php/Editor_Guide](http://wiki.geneontology.org/index.php/Editor_Guide)
 
 7. If the obsoleted term was replaced by another term in the ontology:
-In the 'Annotations' window, select ```+``` to add an annotation. In the resulting menu, select ```term replaced by``` and enter the ID of the replacement term.
+ In the 'Annotations' window, select ```+``` to add an annotation. In the resulting menu, select ```term replaced by``` and enter the ID of the replacement term.
 
 8. If the obsoleted term was not replaced by another term in the ontology, but there are existing terms that might be appropriate for annotation, add those term IDs in the 'consider' tag.
-In the 'Annotations' window, select ```+``` to add an annotation. In the resulting menu, select ```consider``` and enter the ID of the replacement term.
+ In the 'Annotations' window, select ```+``` to add an annotation. In the resulting menu, select ```consider``` and enter the ID of the replacement term.
 
 9. Save changes. 
     
