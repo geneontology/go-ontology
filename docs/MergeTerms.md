@@ -19,7 +19,7 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
 3.  **Change the ID of the term to be deprecated to the winning term's ID**
     - In the term to be deprecated, click on Refactor > Rename entity’ in the Protege menu (shortcut: ```command-U```) 
     - Copy the ID of the winning term (obtained in Step 1). 
-    - Be sure to use the underscore ```_``` in the identifier instead of the colon ```:```, for example: GO_1234567. Make sure that the 'change all entities with this URI' box is checked.  
+    - Be sure to use the underscore ```_``` in the identifier instead of the colon ```:```, for example: ```GO_1234567```. Make sure that the 'change all entities with this URI' box is checked.  
  
  4. **Make the deprecated ID an 'alternative ID'**
     - Navigate to the winning term. In the Annotations box, locate the ID of the deprecated term. Click the ```o``` to change the ID type. 
