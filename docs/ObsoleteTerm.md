@@ -2,7 +2,7 @@
 
 See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-updating-with-git-pull) for creating branches and basic Protégé instructions. 
 
-1. Navigate to the term for which you want to add the only in taxon restriction.
+1. Navigate to the term to be obsoleted.
 
 2. Make the status of the term obsolete: 
    1. In the 'Annotations' window, click on the ```+``` sign next to 'Annotations'.
