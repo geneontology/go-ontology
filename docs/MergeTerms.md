@@ -10,10 +10,10 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
  
  2. **Remove annotations from the deprecated terms**
     - Navigate to the term to be deprecated.  
-    - Remove the logical definition by clicking on the 'X' on the right
-    - Remove all subclasses by clicking on the 'X' on the right
-    - Look at the definition; if it does not seem relevant, remove it by clicking on the 'X' on the right; otherwise copy/paste it somewhere
-    - Note down the created_by and created_date (there can only be one value per term for each of these fields; this will be useful if you need to pick one after the merge is done)
+    - Remove the logical definition by clicking on the 'X' on the right.
+    - Remove all subclasses by clicking on the 'X' on the right.
+    - Look at the definition; if it does not seem relevant, remove it by clicking on the 'X' on the right; otherwise copy/paste it somewhere.
+    - Note down the created_by and created_date (there can only be one value per term for each of these fields; this will be useful if you need to pick one after the merge is done).
     - Check existing list of synonyms to see if they need to be moved to the new term, otherwise delete them by clicking on the 'X' on the right.
    
 3.  **Change the ID of the term to be deprecated to the winning term's ID**
@@ -22,31 +22,22 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
     - Be sure to use the underscore ```_``` in the identifier instead of the colon ```:```, for example: GO_1234567. Make sure that the 'change all entities with this URI' box is checked.
  
  4. **Make the deprecated ID an 'alternative ID'**
-    - Navigate to the winning term. In the annotations box, locate the ID of the deprecated term. Click the 'o' to change the ID type. 
-    - In the resulting pop-up window, select ```has_alternate_id``` from the list on the left side. 
-    -  Make sure the 'Literal' tab is selected in the top right side box, and double check that the entry corresponds to the GO ID of the ‘deprecated term’.  
-    - Click 'OK'. The deprecated term identifier should now be marked as ```has_alternative_id``` instead of id.
+    - Navigate to the winning term. In the Annotations box, locate the ID of the deprecated term. Click the 'o' to change the ID type. 
+    - In the resulting pop-up window, making sure the 'Literal' tab is selected in the top right side box, select ```has_alternate_id``` from the list on the left side. Double check that the entry corresponds to the GO ID of the deprecated term.  
+    - Click 'OK'. The deprecated term identifier should now have the label ```has_alternative_id``` instead of ```id```.
 
 5. **Change deprecated term label to a synonym**
-    - In the annotations box there are now two terms in 'rdfs:label'. Click the 'o' to change the name type of the term name of the deprecated term.     
+    - In the annotations box of the winning term there are now two terms with labels 'rdfs:label'. Click the 'o' to change the label of the  deprecated term.     
     - In the resulting pop-up window, select the appropriate synonym label from the list on the left:
       1.	```has_broad_synonym```
       2.	```has_exact_synonym```
       3.	```has_narrow_synonym```
-      4.	```has_related_synonym``` (if unsure, this is the safest schoice)
+      4.	```has_related_synonym``` (if unsure, this is the safest choice)
 
- 5. **Fix synonyms** 
-    - In the annotations box, go to xx 	
-    Check the existing list of synonyms to see if the name of the deprecated term was already listed as a synonym.  If not, you will need to add it to the list.
-    - Select the appropriate synonym label from the list on the left:
-      1.	```has_broad_synonym```
-      2.	```has_exact_synonym```
-      3.	```has_narrow_synonym```
-      4.	```has_related_synonym```
+6. **Fix synonyms** 
+    In the annotations box of the winning term, check the list of synonyms to see if they are all still make appropriate.
 
-    - Check existing list of synonyms to see if they all still make sense.
-
-6. Synchronize the reasoner and see if there are terms that now have identical definitions as a result of the merge. This will be shown by a 'equivalent' sign `≡`. 
+7. **Synchronize the reasoner** and make sure there are no terms that have identical definitions as a result of the merge. These are displayed with an 'equivalent' sign `≡` in the class hierarchy view on the left hand panel. 
 
 
 See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
