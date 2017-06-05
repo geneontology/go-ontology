@@ -8,9 +8,8 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
    1. In the 'Annotations' window, click on the ```+``` sign next to 'Annotations'.
    2. In the resulting pop-up window, select ```owl:deprecated``` from the left-hand menu.
    3. Make sure the 'Literal' tab view is selected from the right-hand tab list. Type: ```true``` in the text box.
-   4. In the 'Type' drop-down menu underneath the text box, select: ```xsd:boolean```.
-   5. Click OK. 
-  You should now see the term crossed out in the Class hierarchy view.
+   4. In the 'Type' drop-down menu underneath the text box, select: ```xsd:boolean```
+   5. Click OK.  You should now see the term crossed out in the Class hierarchy view.
 
 3. Remove equivalence axiom and 'SubClass Of' relations:
 In the 'Description' window: 
@@ -18,11 +17,11 @@ In the 'Description' window:
    - Under the 'SubClass Of' entry, click the ```x``` on the right-hand side to delete the SubClass Relation.
 
 4. Add ‘obsolete’ to the term name
-In the 'Annotations' window, click on the 'O' on the right-hand side of the rdfs:label entry to edit the term string. In the resulting window, in the Literal tab, in front of the term name, type: ```obsolete```
+In the 'Annotations' window, click on the ```o``` on the right-hand side of the rdfs:label entry to edit the term string. In the resulting window, in the Literal tab, in front of the term name, type: ```obsolete```
  __Note the case-sensitivity__. 
 
 5. Add ‘OBSOLETE’ to the term definition 
-In the 'Description' window, click on the 'O' on the right-hand side of the definition entry. In the resulting window, in the Literal tab, at the beginning of the definition, type: ```OBSOLETE``` 
+In the 'Description' window, click on the ```o``` on the right-hand side of the definition entry. In the resulting window, in the Literal tab, at the beginning of the definition, type: ```OBSOLETE``` 
  __Note the case-sensitivity__. 
  
 6. Add a statement about why the term was made obsolete
