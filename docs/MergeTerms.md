@@ -35,7 +35,7 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
       4.	```has_related_synonym``` (if unsure, this is the safest choice)
 
 6. **Fix synonyms** 
-    In the annotations box of the winning term, check the list of synonyms to see if they are all still make appropriate.
+    - In the annotations box of the winning term, check the list of synonyms to see if they are all still make appropriate.
     
 7. If needed, fix the definition, using information from the deprecated term as appropriate.
 
