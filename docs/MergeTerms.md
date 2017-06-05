@@ -6,7 +6,7 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
 **Note** Before performing a merge, make sure that you know all of the consequences that the merge will cause. In particular, be sure to look at child terms and any other terms that refer to the ‘deprecated’ term. In many cases a simple merge of two terms is not sufficient because it will result in equivalent classes for child terms. For example if deprecated term X is going to be merged into target term Y and ‘regulation of X’ and ‘regulation of Y’ terms exist, then you will need to merge the regulation terms in addition to the primary terms. You will also need to edit any terms that refer to the deprecated term to be sure that the names and definitions are consistent.
 
 1.	**Find the ID of the term in which the deprecated term will be merged** 
- Navigate to 'winning' term using the Search box. In the Protege menu, click on Refactor > Rename entity’ (shortcut: command-U). **Copy the ID of the winning term somewhere.**
+ Navigate to 'winning' term using the Search box. In the Protege menu, click on Refactor > Rename entity’ (shortcut: ```command-U```). **Copy the ID of the winning term somewhere.**
  
  2. **Remove annotations from the deprecated terms**
     - Navigate to the term to be deprecated.  
@@ -17,7 +17,7 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
     - Check existing list of synonyms to see if they need to be moved to the new term, otherwise delete them by clicking on the ```x``` on the right.
    
 3.  **Change the ID of the term to be deprecated to the winning term's ID**
-    - In the term to be deprecated, click on Refactor > Rename entity’ in the Protege menu (shortcut: command-U) 
+    - In the term to be deprecated, click on Refactor > Rename entity’ in the Protege menu (shortcut: ```command-U```) 
     - Copy the ID of the winning term (obtained in Step 1). 
     - Be sure to use the underscore ```_``` in the identifier instead of the colon ```:```, for example: GO_1234567. Make sure that the 'change all entities with this URI' box is checked.
  
