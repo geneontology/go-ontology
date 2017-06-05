@@ -20,5 +20,7 @@ To create a 'positive regulation of x' or 'negative regulation of x' term, the p
    
 8. Run the reasoner to be sure that reasoning results in the correct inferred parents.
 
+9. Save changes.
+
 See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
 
