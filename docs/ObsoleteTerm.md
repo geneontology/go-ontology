@@ -7,8 +7,8 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
 2. Make the status of the term obsolete: 
    1. In the 'Annotations' window, click on the ```+``` sign next to 'Annotations'.
    2. In the resulting pop-up window, select ```owl:deprecated``` from the left-hand menu.
-   3. Make sure the 'Literal' tab view is selected from the right-hand tab list. Type: ```true``` in the text box.
-   4. In the 'Type' drop-down menu underneath the text box, select: ```xsd:boolean```
+   3. Make sure the 'Literal' tab view is selected from the right-hand tab list. Type ```true``` in the text box.
+   4. In the 'Type' drop-down menu underneath the text box, select ```xsd:boolean``` 
    5. Click OK.  You should now see the term crossed out in the Class hierarchy view.
 
 3. Remove equivalence axiom and 'SubClass Of' relations:
