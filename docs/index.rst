@@ -15,7 +15,7 @@ Contents:
    InitialSetup
    Configs
    Installgit
-   Daily Workflow
+   DailyWorkflow
    CreateNewTerm
    NewRegTerm
    ObsoleteTerm
