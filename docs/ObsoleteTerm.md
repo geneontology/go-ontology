@@ -13,8 +13,7 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
    5. Click OK.  You should now see the term crossed out in the Class hierarchy view.
 
 3. Remove equivalence axiom and 'SubClass Of' relations:
-
-In the 'Description' window: 
+ In the 'Description' window: 
        1. Under the 'Equivalent To', click the ```x``` on the right-hand side to delete the logical definition. 
        2. Under the 'SubClass Of' entry, click the ```x``` on the right-hand side to delete the SubClass Relation.
 
