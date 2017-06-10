@@ -108,10 +108,10 @@ This step is optional because it is not necessary to work on the current version
    1. In your browser, return to the [GO Ontology repository](https://github.com/geneontology/go-ontology) on GitHub.
    2. Navigate to the tab labeled as 'Code' ```geneontology/go-ontology/code```. You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the 'Branches' link to reveal it in the list, and click on it. 
    3. Click the green button 'Compare & pull request' on the right.
-   4. The diff for your file is at the bottom of the page. Examine it as a sanity check. 
-   5. Click on the green box 'Pull request' to generate a pull request.   
-   6. Wait for the Travis checks to complete (this can take a few minutes). If the Travis checks failed, go back to your working copy and correct the reported errrors.   
-   7. You may now add comments and ask a colleague to review your pull request. If you want to have the ticket reviewed before closing it, you can select a reviewer for the ticket before you make the pull request by clicking on the 'Reviewers' list and entering a GitHub identifier (e.g. @superuser1). The reviewer will be notified when the pull request is submitted. Since the Pull Request is also a GitHub issue, the reviewer’s comments will show up in the dialog tab of the pull request, similarly to 'normal' issues filed on the tracker.
+   4. You may now add comments and ask a colleague to review your pull request. If you want to have the ticket reviewed before closing it, you can select a reviewer for the ticket before you make the pull request by clicking on the 'Reviewers' list and entering a GitHub identifier (e.g. @superuser1). The reviewer will be notified when the pull request is submitted.  Since the Pull Request is also a GitHub issue, the reviewer’s comments will show up in the dialog tab of the pull request, similarly to any other issue filed on the tracker.
+   5. The diff for your file is at the bottom of the page. Examine it as a sanity check. 
+   6. Click on the green box 'Pull request' to generate a pull request.   
+   7. Wait for the Travis checks to complete (this can take a few minutes). If the Travis checks failed, go back to your working copy and correct the reported errrors.   
    
 5. **Merge** If the Travis checks are succesful and **if you are done working on that branch**, merge the pull request. Confirming the merge will close the ticket if you have used the word 'fixes' in your commit comment. 
  **NOTE**: Merge the branches only when the work is completed. If there is related work to be done as a follow up to the original request, create a new GitHub ticket and start the process from the beginning. 
