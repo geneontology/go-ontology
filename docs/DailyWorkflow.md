@@ -102,7 +102,6 @@ This step is optional because it is not necessary to work on the current version
        
         git push origin issue-13390 
 	
-
    - **TIP**: Once you have upushed your changes to the repository, they are available for everyone to see, so at this stage you can ask for feedback.    
    
 4. **Pull** 
