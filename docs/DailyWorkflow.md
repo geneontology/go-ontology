@@ -96,7 +96,7 @@ This step is optional because it is not necessary to work on the current version
 
 	     Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>
             Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
- See [Configuration instructions](/Configs.md) to specify your name and email address. 
+ See [Configuration instructions](http://go-ontology.readthedocs.io/en/latest/Configs.html) to specify your name and email address. 
 
 3. **Push**: To incorporate the changes into the remote repository, type: ```git push origin mynewbranch```. 
 
@@ -104,21 +104,11 @@ This step is optional because it is not necessary to work on the current version
        
         git push origin issue-13390 
 	
-   The first time you push, git will prompt you for your username and password. If you are working on a Mac, git will remember the values and you won’t be prompted every time you try to make a push. If you change your git password, you won’t be recognized. If this happens, you need to reset git by entering: ```git config --global credential.helper osxkeychain```. When you try to push, git will prompt you to update your information. You will need to enter your username and your password.
-   
-            ~/repos/go-ontology/src/ontology(issue-13390) $ git push origin issue-13390
-            Counting objects: 5, done.
-            Delta compression using up to 8 threads.
-            Compressing objects: 100% (5/5), done.
-            Writing objects: 100% (5/5), 1.81 KiB | 0 bytes/s, done.
-            Total 5 (delta 3), reused 0 (delta 0)
-            remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
-            To https://github.com/geneontology/go-ontology.git
-             * [new branch]  	issue-13390 -> issue-13390
-            ~/repos/go-ontology/src/ontology(issue-13390) $
-  **TIP**: Once you have upushed your changes to the repository, they are avilable for everyone to see, so at this stage you can ask for feedback. 
+
+   - **TIP**: Once you have upushed your changes to the repository, they are available for everyone to see, so at this stage you can ask for feedback. 
     
-4. **Pull** Using your browser, return to the GO Ontology repository on GitHub, located at [https://github.com/geneontology/go-ontology](https://github.com/geneontology/go-ontology).
+4. **Pull** 
+   1. Using your browser, return to the GO Ontology repository on GitHub, located at [https://github.com/geneontology/go-ontology](https://github.com/geneontology/go-ontology).
     1. Navigate to the tab labeled as 'Code' ```geneontology/go-ontology/code```. You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the 'Branches' link to reveale it in the list, and click on it. 
 
     2. The diff for your file is at the bottom of the page. Examine it as a sanity check. 
