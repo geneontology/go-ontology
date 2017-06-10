@@ -96,6 +96,7 @@ This step is optional because it is not necessary to work on the current version
             Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
    - See [Configuration instructions](http://go-ontology.readthedocs.io/en/latest/Configs.html) to specify your name and email address. 
 
+
 3. **Push**: To incorporate the changes into the remote repository, type: ```git push origin mynewbranch```. 
 
       Example: 
