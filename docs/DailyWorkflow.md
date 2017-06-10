@@ -95,6 +95,7 @@ This step is optional because it is not necessary to work on the current version
 	     Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>
             Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
    - See [Configuration instructions](http://go-ontology.readthedocs.io/en/latest/Configs.html) to specify your name and email address. 
+
 3. **Push**: To incorporate the changes into the remote repository, type: ```git push origin mynewbranch```. 
 
       Example: 
@@ -102,7 +103,8 @@ This step is optional because it is not necessary to work on the current version
         git push origin issue-13390 
 	
 
-   - **TIP**: Once you have upushed your changes to the repository, they are available for everyone to see, so at this stage you can ask for feedback.     
+   - **TIP**: Once you have upushed your changes to the repository, they are available for everyone to see, so at this stage you can ask for feedback.    
+   
 4. **Pull** 
    1. Using your browser, return to the GO Ontology repository on GitHub, located at [https://github.com/geneontology/go-ontology](https://github.com/geneontology/go-ontology).
     1. Navigate to the tab labeled as 'Code' ```geneontology/go-ontology/code```. You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the 'Branches' link to reveale it in the list, and click on it. 
@@ -114,9 +116,12 @@ This step is optional because it is not necessary to work on the current version
     4. Click on the green box to generate a pull request. 
 
     5. You may now add comments and ask a colleague to review your pull request. If you want to have the ticket reviewed before closing it, you can select a reviewer for the ticket before you make the pull request by clicking on the 'Reviewers' list and entering a GitHub identifier (e.g. @superuser1). The reviewer will be notified when the pull request is submitted. Since the Pull Request is also a GitHub issue, the reviewer’s comments will show up in the dialog tab of the pull request, similarly to 'normal' issues filed on the tracker.
+    
 5. **Merge** If the Travis checks are succesful and **if you are done working on that branch**, merge the pull request. Confirming the merge will close the ticket if you have used the word 'fixes' in your commit comment. 
  **NOTE**: Merge the branches only when the work is completed. If there is related work to be done as a follow up to the original request, create a new GitHub ticket and start the process from the beginning. 
+ 
 6. **Delete** your branch on the repository using the button on the right of the successful merge message. 
+
 7. You may also delete the working branch on your local copy. Back in your terminal window, 
        1. Go back to the master branch by typing ```git checkout master```.     
        2. Update your local copy of the repository by typing  ```git pull origin master``` 
