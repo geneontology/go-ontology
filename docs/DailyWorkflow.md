@@ -65,10 +65,8 @@ This step is optional because it is not necessary to work on the current version
 6. Launching the reasoner: To see the term in the 'Class hierarchy' (inferred) window, you will need to run the 'ELK reasoner'. 'Reasoner' > select ELK 0.4.3, then click 'Start reasoner'. Close the various pop-up warnings about the ELK reasoner. You will now see the terms in the inferred hierarchy.
 
 7. After modification of the ontology, synchronize the reasoner. Go to menu: 'Reasoner' > ' Synchronize reasoner'. 
-
-       **NOTE**: The only changes that the reasoner will detect are those impacting the ontology structure: changes in equivalence axioms, subclasses, merges, obsoletions, new terms. 
-
-       **TIP**: When adding new relations/axioms, 'Synchronize' the reasoner. When deleting relations/axioms, it is more reliable to 'Stop' and 'Start' the reasoner again. 
+   - **NOTE**: The only changes that the reasoner will detect are those impacting the ontology structure: changes in equivalence axioms, subclasses, merges, obsoletions, new terms. 
+   - **TIP**: When adding new relations/axioms, 'Synchronize' the reasoner. When deleting relations/axioms, it is more reliable to 'Stop' and 'Start' the reasoner again. 
 
 8. Use File > Save to save your changes. 
 
@@ -89,16 +87,15 @@ This step is optional because it is not necessary to work on the current version
         1 file changed, 79 insertions(+)
         ~/repos/go-ontology/src/ontology(issue-13390) $
 
- **NOTE**: It is also possible to type a longer message than allowed when using the '-m' argument; to do this, skip the -m, and a vi window (on mac) will open in which an unlimited description may be typed. 
+   - **NOTE**: It is also possible to type a longer message than allowed when using the '-m' argument; to do this, skip the -m, and a vi window (on mac) will open in which an unlimited description may be typed. 
+   - **NOTE**: The word 'fixes' is a magic word in GitHub; when used in combination with the ticket number, it will automatically close the ticket. In the above example, when the file is merged in GitHub, it will close issue number 13390. Learn more on this [GitHub Help Documentation page about 'Closing issues via commit messages'](https://help.github.com/articles/closing-issues-via-commit-messages/).
 
- **NOTE**: The word 'fixes' is a magic word in GitHub; when used in combination with the ticket number, it will automatically close the ticket. In the above example, when the file is merged in GitHub, it will close issue number 13390. Learn more on this [GitHub Help Documentation page about 'Closing issues via commit messages'](https://help.github.com/articles/closing-issues-via-commit-messages/).
+   If you don't want to close the close the ticket, just refer to the ticket # without the word 'Fixes'. The commit will be associated with the correct ticket but the ticket will remain open. 
 
- If you don't want to close the close the ticket, just refer to the ticket # without the word 'Fixes'. The commit will be associated with the correct ticket but the ticket will remain open. 
+   - **TIP**: Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: 
 
- **TIP**: Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: 
-
-	   Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>
-           Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+	     Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>
+            Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
  See Configs.md for instructions as to how to configure your name and email address. 
 
 3. **Push**: To incorporate the changes into the remote repository, type: ```git push origin mynewbranch```. 
