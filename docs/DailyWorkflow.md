@@ -105,7 +105,7 @@ This step is optional because it is not necessary to work on the current version
    - **TIP**: Once you have upushed your changes to the repository, they are available for everyone to see, so at this stage you can ask for feedback.    
    
 4. **Pull** 
-   1. Using your browser, return to the GO Ontology repository on GitHub, located at [https://github.com/geneontology/go-ontology](https://github.com/geneontology/go-ontology).
+   1. Using your browser, return to the [GO Ontology repository](https://github.com/geneontology/go-ontology) on GitHub.
     1. Navigate to the tab labeled as 'Code' ```geneontology/go-ontology/code```. You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the 'Branches' link to reveale it in the list, and click on it. 
 
     2. The diff for your file is at the bottom of the page. Examine it as a sanity check. 
