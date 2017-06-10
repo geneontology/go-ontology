@@ -19,3 +19,10 @@
 ## Configuring User details
 
 Select 'User name', and use the supplied user name; that is, your GOC identity.
+
+**Identifying the user for commits** Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: 
+
+	   Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>
+         Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+ 
+   You can suppress this message by setting your name and email explicitly: First type ```git config --global user.name "Your Name"```, and then type ```git config --global user.email you@example.com```. You can then fix the identity used for this commit by typing: ```git commit --amend --reset-author```.
