@@ -47,7 +47,8 @@ Fast-forward
 ## Continuing work on an existing Working Branch 
 1. If you are continuing to do work on an existing branch, in addition to updating master, go to your branch by typing ```git checkout [branch name]```. Note that you can view the existing local branches by typing ```git branch -l```.
 
-2. Make the content of the branch up to date with master (ie, the information in the GO repository) by typing ```git pull origin master ```.
+2. **OPTIONAL**: To update the working branch with respect to the current version of the ontology, type ```git pull origin master ```.
+This step is optional because it is not necessary to work on the current version of the ontology; all changes will be synchronized when git merge is performed.
 
 ## Loading, navigating and saving the Ontology in Protegé 
 
@@ -63,7 +64,9 @@ Fast-forward
 
 6. Launching the reasoner: To see the term in the 'Class hierarchy' (inferred) window, you will need to run the 'ELK reasoner'. 'Reasoner' > select ELK 0.4.3, then click 'Start reasoner'. Close the various pop-up warnings about the ELK reasoner. You will now see the terms in the inferred hierarchy.
 
-7. After each modification of the ontology, synchronize the reasoner. Go to menu: 'Reasoner' > ' Synchronize reasoner'.
+7. After modification of the ontology, synchronize the reasoner. Go to menu: 'Reasoner' > ' Synchronize reasoner'. 
+**NOTE**: The only changes that the reasoner will detect are those impacting the ontology structure: changes in equivalence axioms, subclasses, merges, obsoletions, new terms. 
+**TIP**: When adding new relations/axioms, 'Synchronize' the reasoner. When deleting relations/axioms, it is more reliable to 'Stop' and 'Start' the reasoner again. 
 
 8. Use File > Save to save your changes. 
 
@@ -84,7 +87,8 @@ Fast-forward
         1 file changed, 79 insertions(+)
         ~/repos/go-ontology/src/ontology(issue-13390) $
 
-    **Note**: The word 'fixes' is a magic word in GitHub; when used in combination with the ticket number, it will automatically close the ticket. In the above example, when the file is merged in GitHub, it will close issue number 13390. Learn more on this [GitHub Help Documentation page about 'Closing issues via commit messages'](https://help.github.com/articles/closing-issues-via-commit-messages/).
+**NOTE**: It is also possible to type a longer message than allowed when using the '-m' argument; to do this, skip the -m, and a vi window (on mac) will open in which an unlimited description may be typed. 
+**NOTE**: The word 'fixes' is a magic word in GitHub; when used in combination with the ticket number, it will automatically close the ticket. In the above example, when the file is merged in GitHub, it will close issue number 13390. Learn more on this [GitHub Help Documentation page about 'Closing issues via commit messages'](https://help.github.com/articles/closing-issues-via-commit-messages/).
 	If you don't want to close the close the ticket, just refer to the ticket # without the word 'Fixes'. The commit will be associated with the correct ticket but the ticket will remain open. 
     **Identifying the user for commits** Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: 
 
@@ -118,18 +122,20 @@ Fast-forward
     2. The diff for your file is at the bottom of the page. Examine it as a sanity check. 
      
     3. Click on the green box to generate a pull request.
+    **TIP**: Pull requests are avilable for everyone to see. If you want feedback on your work, this is the mechanism by which to request it. 
 
-    4. You may now add comments and ask a colleague to review your pull request. If you want to have the ticket reviewed before closing it, you can select a reviewer for the ticket before you make the pull request by clicking on the 'Reviewers' list and entering a GitHub identifier (e.g. @superuser1). The reviewer will not be notified until the pull request is submitted. The reviewer’s comments will show up in the dialog tab of the pull request, similarly to comments displayed in response to issues you file on the tracker.
+    4. You may now add comments and ask a colleague to review your pull request. If you want to have the ticket reviewed before closing it, you can select a reviewer for the ticket before you make the pull request by clicking on the 'Reviewers' list and entering a GitHub identifier (e.g. @superuser1). The reviewer will be notified when the pull request is submitted. Since the Pull Request is also a GitHub issue, the reviewer’s comments will show up in the dialog tab of the pull request, similarly to 'normal' issues filed on the tracker.
 
-    5. Wait for the Travis checks to complete (this can take a few minutes). 
+    5. Wait for the Travis checks to complete (this can take a few minutes). If the Travis checks failed, go back to your working copy and correct the reported errrors. 
 
-5. **Merge** If the Travis checks are succesful, merge the pull request. Confirming the merge will close the ticket if you have used the word 'fixes' in your commit comment. 
+5. **Merge** If the Travis checks are succesful and **if you are done working on that branch**, merge the pull request. Confirming the merge will close the ticket if you have used the word 'fixes' in your commit comment. 
+ **NOTE**: Merge the branches only when the work is completed. If there is related work to be done as a follow up to the original request, create a new GitHub ticket and start the process from the beginning. 
 
-6. You can now safely delete your branch on the repository using the button on the right of the successful merge message. 
+6. **Delete** your branch on the repository using the button on the right of the successful merge message. 
 
-7. If appropriate, you may now delete the working branch on your local copy. Back in your terminal, type: ```git checkout master```. Then type: ```git branch -d workingbranchname```. 
+7. You may also delete the working branch on your local copy. Back in your terminal window, 
+       1. Go back to the master branch by typing ```git checkout master```.     
+       2. Update your local copy of the repository by typing  ```git pull origin master``` 
+       3. Delete the branch by typing ```git branch -d workingbranchname```. 
+      Example:   ```git branch -d issue-13390```
 
-      Example: 
-```      
-git branch -d issue-13390
-```
