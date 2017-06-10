@@ -115,18 +115,19 @@ This step is optional because it is not necessary to work on the current version
             To https://github.com/geneontology/go-ontology.git
              * [new branch]  	issue-13390 -> issue-13390
             ~/repos/go-ontology/src/ontology(issue-13390) $
-        
+  **TIP**: Once you have upushed your changes to the repository, they are avilable for everyone to see, so at this stage you can ask for feedback. 
+    
 4. **Pull** Using your browser, return to the GO Ontology repository on GitHub, located at [https://github.com/geneontology/go-ontology](https://github.com/geneontology/go-ontology).
     1. Navigate to the tab labeled as 'Code' ```geneontology/go-ontology/code```. You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the 'Branches' link to reveale it in the list, and click on it. 
 
     2. The diff for your file is at the bottom of the page. Examine it as a sanity check. 
+    
+    3. Wait for the Travis checks to complete (this can take a few minutes). If the Travis checks failed, go back to your working copy and correct the reported errrors. 
      
-    3. Click on the green box to generate a pull request.
-    **TIP**: Pull requests are avilable for everyone to see. If you want feedback on your work, this is the mechanism by which to request it. 
+    4. Click on the green box to generate a pull request. 
 
-    4. You may now add comments and ask a colleague to review your pull request. If you want to have the ticket reviewed before closing it, you can select a reviewer for the ticket before you make the pull request by clicking on the 'Reviewers' list and entering a GitHub identifier (e.g. @superuser1). The reviewer will be notified when the pull request is submitted. Since the Pull Request is also a GitHub issue, the reviewer’s comments will show up in the dialog tab of the pull request, similarly to 'normal' issues filed on the tracker.
+    5. You may now add comments and ask a colleague to review your pull request. If you want to have the ticket reviewed before closing it, you can select a reviewer for the ticket before you make the pull request by clicking on the 'Reviewers' list and entering a GitHub identifier (e.g. @superuser1). The reviewer will be notified when the pull request is submitted. Since the Pull Request is also a GitHub issue, the reviewer’s comments will show up in the dialog tab of the pull request, similarly to 'normal' issues filed on the tracker.
 
-    5. Wait for the Travis checks to complete (this can take a few minutes). If the Travis checks failed, go back to your working copy and correct the reported errrors. 
 
 5. **Merge** If the Travis checks are succesful and **if you are done working on that branch**, merge the pull request. Confirming the merge will close the ticket if you have used the word 'fixes' in your commit comment. 
  **NOTE**: Merge the branches only when the work is completed. If there is related work to be done as a follow up to the original request, create a new GitHub ticket and start the process from the beginning. 
