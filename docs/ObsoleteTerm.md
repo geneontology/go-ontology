@@ -17,13 +17,15 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
 4. Remove 'SubClass Of' relations: In the 'Description' window, under the 'SubClass Of' entry, click the ```x``` on the right-hand side to delete the SubClass Relation.  
  
 5. Add ‘obsolete’ to the term name: In the 'Annotations' window, click on the ```o``` on the right-hand side of the rdfs:label entry to edit the term string. In the resulting window, in the Literal tab, in front of the term name, type: ```obsolete```
+For example: ```obsolete gamma-glutamyltransferase activity```
  __Note the case-sensitivity__.   
   
-5. Add ‘OBSOLETE’ to the term definition: In the 'Description' window, click on the ```o``` on the right-hand side of the definition entry. In the resulting window, in the Literal tab, at the beginning of the definition, type: ```OBSOLETE``` 
+5. Add ‘OBSOLETE’ to the term definition: In the 'Description' window, click on the ```o``` on the right-hand side of the definition entry. In the resulting window, in the Literal tab, at the beginning of the definition, type: ```OBSOLETE.``` 
+For example: ```OBSOLETE. Catalysis of the reaction: (5-L-glutamyl)-peptide + an amino acid = peptide + 5-L-glutamyl-amino acid.```
  __Note the case-sensitivity__.   
  
 6. Add a statement about why the term was made obsolete: In the 'Annotations' window, select ```+``` to add an annotation. In the resulting menu, select ```rdfs:comment``` and select Type:  ```Xsd:string```.
-Consult wiki documentation for suggestions on standard comments:
+Consult the wiki documentation for suggestions on standard comments:
       
      - [http://wiki.geneontology.org/index.php/Curator_Guide:_Obsoletion](http://wiki.geneontology.org/index.php/Curator_Guide:_Obsoletion)
       
