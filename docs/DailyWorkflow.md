@@ -47,7 +47,8 @@ Fast-forward
 ## Continuing work on an existing Working Branch 
 1. If you are continuing to do work on an existing branch, in addition to updating master, go to your branch by typing ```git checkout [branch name]```. Note that you can view the existing local branches by typing ```git branch -l```.
 
-2. Make the content of the branch up to date with master (ie, the information in the GO repository) by typing ```git pull origin master ```.
+2. **OPTIONAL**: To update the working branch with respect to the current version of the ontology, type ```git pull origin master ```.
+This step is optional because it is not necessary to work on the current version of the ontology; all changes will be synchronized when git merge is performed.
 
 ## Loading, navigating and saving the Ontology in Protegé 
 
@@ -63,7 +64,9 @@ Fast-forward
 
 6. Launching the reasoner: To see the term in the 'Class hierarchy' (inferred) window, you will need to run the 'ELK reasoner'. 'Reasoner' > select ELK 0.4.3, then click 'Start reasoner'. Close the various pop-up warnings about the ELK reasoner. You will now see the terms in the inferred hierarchy.
 
-7. After each modification of the ontology, synchronize the reasoner. Go to menu: 'Reasoner' > ' Synchronize reasoner'.
+7. After modification of the ontology, synchronize the reasoner. Go to menu: 'Reasoner' > ' Synchronize reasoner'. 
+   - **NOTE**: The only changes that the reasoner will detect are those impacting the ontology structure: changes in equivalence axioms, subclasses, merges, obsoletions, new terms. 
+   - **TIP**: When adding new relations/axioms, 'Synchronize' the reasoner. When deleting relations/axioms, it is more reliable to 'Stop' and 'Start' the reasoner again. 
 
 8. Use File > Save to save your changes. 
 
@@ -84,14 +87,14 @@ Fast-forward
         1 file changed, 79 insertions(+)
         ~/repos/go-ontology/src/ontology(issue-13390) $
 
-    **Note**: The word 'fixes' is a magic word in GitHub; when used in combination with the ticket number, it will automatically close the ticket. In the above example, when the file is merged in GitHub, it will close issue number 13390. Learn more on this [GitHub Help Documentation page about 'Closing issues via commit messages'](https://help.github.com/articles/closing-issues-via-commit-messages/).
-	If you don't want to close the close the ticket, just refer to the ticket # without the word 'Fixes'. The commit will be associated with the correct ticket but the ticket will remain open. 
-    **Identifying the user for commits** Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: 
+   - **NOTE**: It is also possible to type a longer message than allowed when using the '-m' argument; to do this, skip the -m, and a vi window (on mac) will open in which an unlimited description may be typed. 
+   - **NOTE**: The word 'fixes' is a magic word in GitHub; when used in combination with the ticket number, it will automatically close the ticket. In the above example, when the file is merged in GitHub, it will close issue number 13390. Learn more on this [GitHub Help Documentation page about 'Closing issues via commit messages'](https://help.github.com/articles/closing-issues-via-commit-messages/).
+   - If you don't want to close the close the ticket, just refer to the ticket # without the word 'Fixes'. The commit will be associated with the correct ticket but the ticket will remain open. 
+   - **TIP**: Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: 
 
-	   Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>
-           Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
- 
-   You can suppress this message by setting your name and email explicitly: First type ```git config --global user.name "Your Name"```, and then type ```git config --global user.email you@example.com```. You can then fix the identity used for this commit by typing: ```git commit --amend --reset-author```.
+	     Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>
+            Your name and email address were configured automatically based on your username and hostname. Please check that they are accurate.
+   - See [Configuration instructions](http://go-ontology.readthedocs.io/en/latest/Configs.html) to specify your name and email address. 
 
 3. **Push**: To incorporate the changes into the remote repository, type: ```git push origin mynewbranch```. 
 
@@ -99,37 +102,25 @@ Fast-forward
        
         git push origin issue-13390 
 	
-   The first time you push, git will prompt you for your username and password. If you are working on a Mac, git will remember the values and you won’t be prompted every time you try to make a push. If you change your git password, you won’t be recognized. If this happens, you need to reset git by entering: ```git config --global credential.helper osxkeychain```. When you try to push, git will prompt you to update your information. You will need to enter your username and your password.
+   - **TIP**: Once you have upushed your changes to the repository, they are available for everyone to see, so at this stage you can ask for feedback.    
    
-            ~/repos/go-ontology/src/ontology(issue-13390) $ git push origin issue-13390
-            Counting objects: 5, done.
-            Delta compression using up to 8 threads.
-            Compressing objects: 100% (5/5), done.
-            Writing objects: 100% (5/5), 1.81 KiB | 0 bytes/s, done.
-            Total 5 (delta 3), reused 0 (delta 0)
-            remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
-            To https://github.com/geneontology/go-ontology.git
-             * [new branch]  	issue-13390 -> issue-13390
-            ~/repos/go-ontology/src/ontology(issue-13390) $
-        
-4. **Pull** Using your browser, return to the GO Ontology repository on GitHub, located at [https://github.com/geneontology/go-ontology](https://github.com/geneontology/go-ontology).
-    1. Navigate to the tab labeled as 'Code' ```geneontology/go-ontology/code```. You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the 'Branches' link to reveale it in the list, and click on it. 
+4. **Pull** 
+   1. In your browser, return to the [GO Ontology repository](https://github.com/geneontology/go-ontology) on GitHub.
+   2. Navigate to the tab labeled as 'Code' ```geneontology/go-ontology/code```. You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the 'Branches' link to reveal it in the list, and click on it. 
+   3. Click the green button 'Compare & pull request' on the right.
+   4. You may now add comments and ask a colleague to review your pull request. If you want to have the ticket reviewed before closing it, you can select a reviewer for the ticket before you make the pull request by clicking on the 'Reviewers' list and entering a GitHub identifier (e.g. @superuser1). The reviewer will be notified when the pull request is submitted.  Since the Pull Request is also a GitHub issue, the reviewer’s comments will show up in the dialog tab of the pull request, similarly to any other issue filed on the tracker.
+   5. The diff for your file is at the bottom of the page. Examine it as a sanity check. 
+   6. Click on the green box 'Pull request' to generate a pull request.   
+   7. Wait for the Travis checks to complete (this can take a few minutes). If the Travis checks failed, go back to your working copy and correct the reported errrors.   
+   
+5. **Merge** If the Travis checks are succesful and **if you are done working on that branch**, merge the pull request. Confirming the merge will close the ticket if you have used the word 'fixes' in your commit comment. 
+ **NOTE**: Merge the branches only when the work is completed. If there is related work to be done as a follow up to the original request, create a new GitHub ticket and start the process from the beginning. 
+ 
+6. **Delete** your branch on the repository using the button on the right of the successful merge message. 
 
-    2. The diff for your file is at the bottom of the page. Examine it as a sanity check. 
-     
-    3. Click on the green box to generate a pull request.
+7. You may also delete the working branch on your local copy. Back in your terminal window, 
+       1. Go back to the master branch by typing ```git checkout master```.     
+       2. Update your local copy of the repository by typing  ```git pull origin master``` 
+       3. Delete the branch by typing ```git branch -d workingbranchname```. 
+      Example:   ```git branch -d issue-13390```
 
-    4. You may now add comments and ask a colleague to review your pull request. If you want to have the ticket reviewed before closing it, you can select a reviewer for the ticket before you make the pull request by clicking on the 'Reviewers' list and entering a GitHub identifier (e.g. @superuser1). The reviewer will not be notified until the pull request is submitted. The reviewer’s comments will show up in the dialog tab of the pull request, similarly to comments displayed in response to issues you file on the tracker.
-
-    5. Wait for the Travis checks to complete (this can take a few minutes). 
-
-5. **Merge** If the Travis checks are succesful, merge the pull request. Confirming the merge will close the ticket if you have used the word 'fixes' in your commit comment. 
-
-6. You can now safely delete your branch on the repository using the button on the right of the successful merge message. 
-
-7. If appropriate, you may now delete the working branch on your local copy. Back in your terminal, type: ```git checkout master```. Then type: ```git branch -d workingbranchname```. 
-
-      Example: 
-```      
-git branch -d issue-13390
-```
