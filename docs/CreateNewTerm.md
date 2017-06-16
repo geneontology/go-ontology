@@ -32,7 +32,6 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/DailyWorkflow.h
          4. Add each definition reference separately by clicking on the ```+``` sign.
 	 
       4. Add synonyms and dbxrefs following the same procedure if they are required for the term.
-
 6. If you have created a logical definition for your term, you can delete the asserted ```is_a``` parent in the ‘subclass of’ section. Once you synchronize the reasoner, you will see the automated classification of your new term. If the inferred classification doesn’t make sense, then you will need to modify the logical definition. 
 
 7. In some cases such as ```part_of``` relations based on external partonomies, it might be necessary to assert the ```part_of``` relationships. For example: ```‘heart valve development’ part_of some ‘heart development’```. In those cases, it is important to browse the external ontologies to be sure that nothing is missing. 
