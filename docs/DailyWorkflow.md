@@ -70,6 +70,7 @@ This step is optional because it is not necessary to work on the current version
 
 8. Use File > Save to save your changes. 
 
+<a name="commmit"></a>
 ## Committing, pushing and merging your changes to the repository
  
 1. **Review**: Changes made to the ontology can be viewed by typing ```git diff``` in the terminal window. If there are changes that have already been committed, the changes in the active branch relative to master can be viewed by typing  ```git diff master```. 
