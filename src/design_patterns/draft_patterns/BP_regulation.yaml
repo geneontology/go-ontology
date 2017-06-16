@@ -29,7 +29,7 @@ xrefs: cross_references
 namespace: 'biological_process'
 
 equivalentTo: 
-  text: "'GO_0065007' and 'regulates' some %s"
+  text: "'biological_process' that 'regulates' some %s"
   vars:
     - regulated_process
     
