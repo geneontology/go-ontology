@@ -7,7 +7,7 @@ relations:
   regulates : 'RO:0002211'
   
 vars: 
-  regulated_process': "'regulation of biological process'"
+  regulated_process: "'biological_process'"
   
 data_list_vars:
   def_xrefs: "xsd:string"
