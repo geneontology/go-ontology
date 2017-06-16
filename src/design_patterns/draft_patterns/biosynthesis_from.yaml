@@ -44,27 +44,27 @@ equivalentTo:
     
  generated_synonyms:
    - 
-      text: ' biosynthesis from '
+      text: '%s biosynthesis from %s'
       vars: 
         - from
         - to
     - 
-      text: ' biosynthetic process from '
+      text: '%s biosynthetic process from %s'
       vars: 
         - from
         - to   
      - 
-      text: ' anabolism from '
+      text: '%s anabolism from %s'
       vars: 
         - from
         - to
     - 
-      text: ' formation from '
+      text: '%s formation from %s'
       vars: 
         - from
         - to
     - 
-      text: ' synthesis from '
+      text: '%s synthesis from %s'
       vars: 
         - from
         - to  
