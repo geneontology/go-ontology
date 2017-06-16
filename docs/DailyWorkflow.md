@@ -88,9 +88,10 @@ This step is optional because it is not necessary to work on the current version
         1 file changed, 79 insertions(+)
         ~/repos/go-ontology/src/ontology(issue-13390) $
 
-   - **NOTE**: It is also possible to type a longer message than allowed when using the '-m' argument; to do this, skip the -m, and a vi window (on mac) will open in which an unlimited description may be typed. 
    - **NOTE**: The word 'fixes' is a magic word in GitHub; when used in combination with the ticket number, it will automatically close the ticket. In the above example, when the file is merged in GitHub, it will close issue number 13390. Learn more on this [GitHub Help Documentation page about 'Closing issues via commit messages'](https://help.github.com/articles/closing-issues-via-commit-messages/).
+   - 'Fixes' is case-insensitive. 
    - If you don't want to close the close the ticket, just refer to the ticket # without the word 'Fixes'. The commit will be associated with the correct ticket but the ticket will remain open. 
+    - **NOTE**: It is also possible to type a longer message than allowed when using the '-m' argument; to do this, skip the -m, and a vi window (on mac) will open in which an unlimited description may be typed. 
    - **TIP**: Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: 
 
 	     Committer: Kimberly Van Auken <vanauken@kimberlukensmbp.dhcp.lbnl.us>
