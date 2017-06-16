@@ -1,6 +1,6 @@
 # Creating a New Ontology Term
 
-See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-updating-with-git-pull) for creating branches and basic Protégé instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/DailyWorkflow.html) for creating branches and basic Protégé instructions. 
 
 1. To create a new term, the 'Asserted view' must be active (not the 'Inferred view'). 
 
@@ -69,4 +69,4 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
      ~/repos/go-ontology/src/ontology(issue-13390) $
      ``` 
  
-See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/DailyWorkflow.html#commit) for commit, push and merge instructions. 
