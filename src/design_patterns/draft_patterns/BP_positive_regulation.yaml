@@ -4,7 +4,7 @@ classes:
   biological_process: 'GO:0008150'
   
 relations:
-  "positively regulates" : 'RO:0002211'
+  "positively regulates" : 'RO:0002213'
   
 vars: 
   regulated_process: "'biological_process'"
@@ -39,15 +39,15 @@ generated_synonyms:
       vars: 
         - regulated_process
    - 
-      text: "up regulation of  %s"
+      text: "up regulation of %s"
       vars: 
         - regulated_process
    - 
-      text: "upregulation of  %s"
+      text: "upregulation of %s"
       vars: 
         - regulated_process
    - 
-      text: "up-regulation of  %s"
+      text: "up-regulation of %s"
       vars: 
         - regulated_process
         
