@@ -39,15 +39,15 @@ generated_synonyms:
       vars: 
         - regulated_process
    - 
-      text: "down regulation of  %s"
+      text: "down regulation of %s"
       vars: 
         - regulated_process
    - 
-      text: "downpregulation of  %s"
+      text: "downpregulation of %s"
       vars: 
         - regulated_process
    - 
-      text: "down-regulation of  %s"
+      text: "down-regulation of %s"
       vars: 
         - regulated_process
         
