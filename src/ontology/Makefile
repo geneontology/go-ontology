@@ -141,9 +141,15 @@ change-report.txt: $(SRC) $(PREVIOUS)
 # OWL
 # ----------------------------------------
 
+disjoint_in_taxon.owl: $(SRC)
+	robot query -i $< --construct ../sparql/constructDisjointInTaxon.sparql $@ -f ttl
+
+enhanced.owl: $(SRC) disjoint_in_taxon.owl
+	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
+
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
-reasoned.owl: $(SRC) $(SRC)-check
+reasoned.owl: enhanced.owl $(SRC)-check
 	$(ROBOT)  reason -i $< -r ELK relax  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 # equivalent to reasoned, but we rename
@@ -208,7 +214,7 @@ all_imports: $(IMPORTS_OWL)
 clean_imports:
 	rm mirror/*
 
-seed.txt: $(SRC)
+seed.txt: enhanced.owl
 	owltools --use-catalog $< --export-table $@.tmp && cut -f1 $@.tmp > $@
 
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
