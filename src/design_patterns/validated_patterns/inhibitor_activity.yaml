@@ -1,0 +1,39 @@
+pattern_name: inhibitor_activity
+
+classes:
+  molecular_function: GO_0003674
+  catalytic activity: GO_0003824
+
+  
+relations:
+  directly negatively regulates: RO_0002630
+
+
+vars:
+  regulated_activity: "'catalytic activity'"
+  
+data_list_vars:
+  def_dbxrefs: "xsd:string"
+  
+name: 
+  text: "%s inhibitor activity"
+  vars:
+    - regulated_activity
+
+  
+def:
+  text: >
+    Direct interaction with a gene product or complex that has %s, 
+    resulting in negative regulation of its %s. Direct interaction 
+    in this case includes binding and interactions leading to 
+    covalent modification.
+  vars: 
+    - regulated_activity
+    - regulated_activity
+  xrefs: def_dbxrefs
+
+    
+equivalentTo:
+  text: "'molecular_function that 'directly negatively regulates' some %s"
+  vars: 
+    - regulated_activity

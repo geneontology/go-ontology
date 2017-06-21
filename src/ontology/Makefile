@@ -64,7 +64,7 @@ GO_PLUS = extensions/go-plus
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: test all_imports $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
+stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
 
 test: $(SRC)-check change-report.txt reasoned.owl
 
@@ -88,20 +88,24 @@ prepare_release: build
 	cp imports/*.owl $(RELEASEDIR_IMPORTS) &&\
 	cp imports/*.obo $(RELEASEDIR_IMPORTS) &&\
 	cp extensions/* $(RELEASEDIR)/extensions &&\
-	cp go-basic.* $(RELEASEDIR)/subsets &&\
+	cp go-basic.* $(RELEASEDIR) &&\
 	cp subsets/* $(RELEASEDIR)/subsets &&\
 	echo "Release files are now in $(RELEASEDIR)"
 
 # deploy to S3
+# URLs will be of the form https://s3.amazonaws.com/go-data-product-current/ontology/subsets/go-basic.json.gz
 S3CFG = ~/.s3cfg.go-pipeline-push-agent
-SNAPDATE = `date +'%Y%m'`
+RELEASEDATE = `date +%Y-%m-%d`
+# https://build.berkeleybop.org/job/release-go-ontology-daily-snapshot/
 deploy-snapshot:
 	cd $(RELEASEDIR) &&\
-	find . -type f -print0 | xargs -0 -I % s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml put % s3://go-data-product-current/ontologies/%
-	find . -type f -print0 | xargs -0 -I % s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml put % s3://go-data-product-archive/$(SNAPDATE)/ontologies/%
+	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-snapshot/ontology/
 
-# reasoner diffs
-idiff: go_inferences_difflog.txt
+deploy-release:
+	cd $(RELEASEDIR) &&\
+	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-current/ontology/
+	s3cmd -c $(S3CFG) --acl-public --mime-type=application/rdf+xml sync ./  s3://go-data-product-release/$(RELEASEDATE)/ontology/
+
 
 # ----------------------------------------
 # GENERIC TRANSFORMS
@@ -137,14 +141,20 @@ change-report.txt: $(SRC) $(PREVIOUS)
 # OWL
 # ----------------------------------------
 
+disjoint_in_taxon.owl: $(SRC)
+	robot query -i $< --construct ../sparql/constructDisjointInTaxon.sparql $@ -f ttl
+
+enhanced.owl: $(SRC) disjoint_in_taxon.owl
+	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
+
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
-reasoned.owl: $(SRC) $(SRC)-check
-	$(ROBOT)  reason -e false -i $< -r ELK relax reduce -r ELK annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+reasoned.owl: enhanced.owl $(SRC)-check
+	$(ROBOT)  reason -e false -i $< -r ELK relax  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 # equivalent to reasoned, but we rename
 $(GO_PLUS).owl: reasoned.owl
-	$(ROBOT) annotate -i $< -O $(OBO)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) annotate -i $< -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: $(GO_PLUS).owl
 
 # ----------------------------------------
@@ -158,12 +168,15 @@ $(GO_PLUS).owl: reasoned.owl
 #  - ...
 # go.obo is a simplified; we use oort to remove imports etc
 
-$(ONT)-pre.owl: reasoned.owl
+$(ONT)-pre.obo: reasoned.owl
 	owltools $(USECAT) $< --remove-imports-declarations --remove-dangling --make-subset-by-properties $(GO_MAIN_RELATIONS) --set-ontology-id $(OBO)/go.owl -o -f obo $@.tmp && egrep -v '(property_value|relationship): never_in_taxon' $@.tmp > $@
+
+$(ONT)-pre-reduced.obo: $(ONT)-pre.obo
+	robot reduce -r elk -i $< -o $@
 
 # use OORT
 # side effects: also builds go-simple.obo
-$(ONT).obo: $(ONT)-pre.owl
+$(ONT).obo: $(ONT)-pre-reduced.obo
 	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
 	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge $(BUILD_DIR)/go.obo &&\
 	cp $(BUILD_DIR)/subsets/* subsets/ &&\
@@ -179,8 +192,11 @@ go.owl: $(ONT).obo
 go-simple-filtered.obo: go-simple.obo
 	owltools $< --make-subset-by-properties $(GO_BASIC_RELATIONS) // -o -f obo $@
 
+go-simple-filtered-reduced.obo: go-simple-filtered.obo
+	robot reduce -r elk -i $< -o $@
+
 # filter inter-ontology (e.g. MF to BP) links
-go-basic.obo: go-simple-filtered.obo
+go-basic.obo: go-simple-filtered-reduced.obo
 	$(PERLFILTER) $< > $@.tmp && mv $@.tmp $@ && $(PERLCHECK) --disable-xrf-abbs-check $@
 
 go-basic.owl: go-basic.obo
@@ -190,7 +206,7 @@ go-basic.owl: go-basic.obo
 # IMPORT MODULES
 # ----------------------------------------
 
-IMPORTS = chebi cl po pato ro ncbitaxon uberon fao oba
+IMPORTS = chebi cl po pato ro ncbitaxon uberon ddanat fao oba so
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
@@ -198,7 +214,7 @@ all_imports: $(IMPORTS_OWL)
 clean_imports:
 	rm mirror/*
 
-seed.txt: $(SRC)
+seed.txt: enhanced.owl
 	owltools --use-catalog $< --export-table $@.tmp && cut -f1 $@.tmp > $@
 
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
@@ -236,39 +252,47 @@ mirror:
 
 # special case: download obo for speed for ncbitaxon.
 # note also that here we only trigger new downloads if ncbitaxon_terms.txt is touched
-mirror/ncbitaxon-download.owl: imports/ncbitaxon_terms.txt mirror
+mirror/ncbitaxon-download.owl: imports/ncbitaxon_terms.txt
 	wget --no-check-certificate $(OBO)/ncbitaxon.obo $(WGET_OUT)
 .PRECIOUS: mirror/ncbitaxon-download.owl
 
 # special case: download obo for speed for ncbitaxon
-mirror/pr-download.owl: $(SRC) mirror
+mirror/pr-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/pr.obo $(WGET_OUT)
 .PRECIOUS: mirror/pr-download.owl
 
 # special case: download obo for speed for chebi
 # See also: https://github.com/ebi-chebi/ChEBI/issues/3269
-mirror/chebi-download.owl: $(SRC) mirror
+mirror/chebi-download.owl: $(SRC)
 #	wget --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
 	curl -L $(OBO)/chebi.obo  -o $@.tmp  && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified) && perl -pi -ne 's@BFO_@BFO:@' $@
 .PRECIOUS: mirror/chebi-download.owl
 
 # special case: use ext for uberon
-mirror/uberon-download.owl: $(SRC) mirror
+mirror/uberon-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/uberon/ext.owl $(WGET_OUT)
 .PRECIOUS: mirror/uberon-download.owl
 
 # special case: use basic for oba
-mirror/oba-download.owl: $(SRC) mirror
-	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo $(WGET_OUT)
+mirror/oba-download.owl: $(SRC)
+	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo -O $@.tmp && owltools $@.tmp --make-subset-by-properties -n // -o $@
 .PRECIOUS: mirror/oba-download.owl
 
 # special case: use basic for cl
-mirror/cl-download.owl: $(SRC) mirror
+mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/cl/cl-basic.obo $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
+# special case: the RO imports closure is unusual
+# typically we use only the main ontology, not the imports.
+# for RO we merge these, in order to get ro/core, bfo classes
+# see https://github.com/geneontology/go-ontology/issues/12946
+mirror/ro-download.owl: $(SRC)
+	owltools $(OBO)/ro.owl --merge-imports-closure -o $@
+.PRECIOUS: mirror/cl-download.owl
+
 # general case: download remote OWL first
-mirror/%-download.owl: $(SRC) mirror
+mirror/%-download.owl: $(SRC)
 #	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
 	curl -L $(OBO)/$*.owl -o $@.tmp && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified)
 .PRECIOUS: mirror/%-download.owl
@@ -278,14 +302,30 @@ bio-chebi.owl: mirror/chebi-download.owl mirror/chebi.owl
 	owltools $(USECAT) --create-biochebi -o $@ -c $<
 
 # filter axioms
-FILTER_EXTERNAL=--remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
+FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
+
+# todo: uberon currently has some chebi inferences
 mirror/uberon.owl: mirror/uberon-download.owl
-	$(OWLTOOLS) --use-catalog $< --remove-classes-in-idspace -s GO --remove-classes-in-idspace -s CHEBI $(FILTER_EXTERNAL) -o $@
+	$(OWLTOOLS) --use-catalog $< --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/uberon.owl
 
 mirror/%.owl: mirror/%-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/%.owl
+
+# ----------------------------------------
+# MAPPINGS
+# ----------------------------------------
+
+generate-mappings: go-basic.obo
+	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals EC KEGG MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia
+
+# TAXON GROUPINGS
+# ----------------------------------------
+
+imports/go-taxon-groupings.owl: imports/go-taxon-groupings-edit.owl
+	robot reason -i $< -r hermit -o $@
+#	owltools --use-catalog $< --run-reasoner -r hermit --assert-implied -o $@
 
 # ----------------------------------------
 # REPORTS
@@ -315,13 +355,14 @@ reports/go-%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
 
 # first strip the go_inferences import; we need to do this
 # because we cannot create a new ontology with the same name
+# TEMPORARY: we should be able to remove this step soon
 go-edit_noinf.obo: go-edit.obo
-	grep -v '^import: http://purl.obolibrary.org/obo/go/extensions/go_inferences.owl' $< > $@.tmp && mv $@.tmp $@
+	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_inferences.owl' $< > $@.tmp && mv $@.tmp $@
 
 # use robot to place inferences in a new file.
 # TBD: should relaxed axioms go here?
 go_inferences.owl: go-edit_noinf.obo
-	robot reason -i $< -r ELK -n true -a true -x true annotate -R -O $(OBO)/go/extensions/go_inferences.owl -o $@.tmp.owl && mv $@.tmp.owl $@
+	robot reason -i $< -r ELK -n true -a true -x true annotate -R -O $(OBO)/go/imports/go_inferences.owl -o $@.tmp.owl && mv $@.tmp.owl $@
 
 # translation to obo.
 # note that in order to get obo "!" comments into the file (to enhance readability), we must:
@@ -331,17 +372,34 @@ go_inferences.obo: go_inferences.owl
 	owltools $< --use-catalog go-edit.obo --add-imports-from-supports -o -f obo $@.tmp && grep -v ^import: $@.tmp > $@
 .PRECIOUS: go_inferences.obo
 
+# TODO: change this once diff pipeline in place
+#go_inferences.obo-previous: $(SRC)
+#	wget --no-check-certificate http://geneontology.org/ontology/editors/go_inferences.obo -O $@
+
+%-previous: $(SRC)
+	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology-inferences/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo "Fresh diffs" > $@
+
 # get the difference between the current staged inferences file and the
 # last one to be checked in.
-go_inferences.diff: go_inferences.obo
-	git log $(SRC) | head -4 > $@
+go_inferences.diff: go_inferences.obo go_inferences.obo-previous
+	echo getting log
+	git log --date=iso $(SRC) | head -6 > $@
 	echo >> $@
 	echo "changes in entailments" >> $@
 	echo >> $@
-	git diff go_inferences.obo >> $@
+	echo diffing
+	diff -u go_inferences.obo-previous go_inferences.obo >> $@ || echo differences found
 .PRECIOUS: go_inferences.diff
 
 # append latest diffs onto difflog
 # NOTE: in svn pipeline, this file was committed by jenkins job every time ontology is edited.
-go_inferences_difflog.txt: go_inferences.diff
-	cat $< $@ > $@.tmp && mv $@.tmp $@
+go_inferences_difflog.txt: go_inferences.diff go_inferences_difflog.txt-previous
+	cat $^ > $@.tmp && mv $@.tmp $@
+
+# reasoner diffs
+idiff: go_inferences_difflog.txt
+	mkdir -p $(RELEASEDIR)/
+	cp go_inferences_difflog.txt $(RELEASEDIR) && \
+	cp go_inferences.diff $(RELEASEDIR) && \
+	cp go_inferences.obo $(RELEASEDIR)
+
