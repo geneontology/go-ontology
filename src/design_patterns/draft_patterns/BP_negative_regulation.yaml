@@ -4,7 +4,7 @@ classes:
   biological_process: 'GO:0008150'
   
 relations:
-  "negatively regulates" : 'RO:0002212'
+  negatively regulates : 'RO:0002212'
   
 vars: 
   regulated_process: "'biological_process'"
@@ -26,7 +26,8 @@ def:
   
 xrefs: cross_references
 
-namespace: 'biological_process'
+namespace: 
+  text: biological_process
 
 equivalentTo: 
   text: "'biological_process' that 'negatively regulates' some %s"
