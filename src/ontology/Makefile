@@ -342,7 +342,7 @@ sparql_test: $(SRC)
 	robot query -i $< $(VARGS)
 	../util/check-violations-sparql-output.pl $(patsubst %,reports/%-violation.csv,$(VCHECKS))
 
-# individual (slower)
+# use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
 	robot query -i $< -s ../sparql/$*-violation.sparql $@
 
