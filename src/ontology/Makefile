@@ -171,7 +171,7 @@ $(GO_PLUS).owl: reasoned.owl
 $(ONT)-pre.obo: reasoned.owl
 	owltools $(USECAT) $< --remove-imports-declarations --remove-dangling --make-subset-by-properties $(GO_MAIN_RELATIONS) --set-ontology-id $(OBO)/go.owl -o -f obo $@.tmp && egrep -v '(property_value|relationship): never_in_taxon' $@.tmp > $@
 
-$(ONT)-pre-reduced.obo: $(ONT)-pre.obo
+	$(ONT)-pre-reduced.obo: $(ONT)-pre.obo
 	robot reduce -r elk -i $< -o $@
 
 # use OORT
@@ -320,12 +320,28 @@ mirror/%.owl: mirror/%-download.owl
 generate-mappings: go-basic.obo
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals EC KEGG MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia
 
+# ----------------------------------------
 # TAXON GROUPINGS
 # ----------------------------------------
 
 imports/go-taxon-groupings.owl: imports/go-taxon-groupings-edit.owl
 	robot reason -i $< -r hermit -o $@
 #	owltools --use-catalog $< --run-reasoner -r hermit --assert-implied -o $@
+
+# ----------------------------------------
+# VALIDATION
+# ----------------------------------------
+
+VCHECKS = equivalent-classes trailing-whitespace
+
+VARGS = $(patsubst %, -s ../sparql/$*-violation.sparql reports/%-violation.csv, $(VCHECKS))
+
+vreports: $(SRC)
+	robot query -i $< $(VARGS)
+
+# individual (slower)
+reports/%-violation.csv: $(SRC)
+	robot query -i $< -s ../sparql/$*-violation.sparql $@
 
 # ----------------------------------------
 # REPORTS
