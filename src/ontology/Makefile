@@ -66,11 +66,11 @@ GO_PLUS = extensions/go-plus
 
 stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
 
-test: $(SRC)-check change-report.txt reasoned.owl
+test: $(SRC)-check sparql_test change-report.txt reasoned.owl
 
 # note: until we go live, the travis test must omit change-report. This is because as a demo repo,
 # we naturally fall behind the actual live PURL. **DELETE THIS TARGET WHEN WE GO LIVE**
-travis_test: $(SRC)-check reasoned.owl
+travis_test: $(SRC)-check sparql_test reasoned.owl
 
 full_test: test $(ONT).obo
 
@@ -332,12 +332,15 @@ imports/go-taxon-groupings.owl: imports/go-taxon-groupings-edit.owl
 # VALIDATION
 # ----------------------------------------
 
+# these live in the ../sparql directory, and have suffix -violation.sparql
+# adding the name here will make the violation check live
 VCHECKS = equivalent-classes trailing-whitespace
 
-VARGS = $(patsubst %, -s ../sparql/$*-violation.sparql reports/%-violation.csv, $(VCHECKS))
-
-vreports: $(SRC)
+# run all violation checks
+VARGS = $(foreach V,$(VCHECKS),-s ../sparql/$V-violation.sparql reports/$V-violation.csv)
+sparql_test: $(SRC)
 	robot query -i $< $(VARGS)
+	../util/check-violations-sparql-output.pl $(patsubst %,reports/%-violation.csv,$(VCHECKS))
 
 # individual (slower)
 reports/%-violation.csv: $(SRC)
