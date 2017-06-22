@@ -1,3 +1,8 @@
+# This queries take never-in-taxon annotations
+# (which are edited directly in go-edit)
+# and constructs a logical OWL axiom which
+# can be injected back into the ontology
+
 prefix oio: <http://www.geneontology.org/formats/oboInOwl#>
 prefix def: <http://purl.obolibrary.org/obo/IAO_0000115>
 prefix GO: <http://purl.obolibrary.org/obo/GO_>
