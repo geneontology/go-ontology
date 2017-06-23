@@ -12,9 +12,17 @@ To create a 'positive regulation of x' or 'negative regulation of x' term, the p
    
 4. In the pop-up window add the name of the new regulation term ‘regulation of target process’. The identifier should auto-populate. Click the button to add the term.
    
-5. Enter the appropriate information for namespace, definition, synonyms etc in the obo editing view as decribed in the 'Creating a New Ontology Term' Section.
+5. Enter the appropriate information for namespace, definition, synonyms, etc. in the obo editing view as decribed in the 'Creating a New Ontology Term' Section.
    
-6. Create a logical definition for the term: ```biological_process``` __and__ ```regulates``` __some__ ```target process```
+   Standard definitions for regulation terms: 
+   
+   - Regulation ```Any process that modulates the frequency, rate or extent of [process]```
+   
+   - Positive regulation: ```Any process that stops, prevents or reduces the frequency, rate or extent of [process]```
+   
+   - Negative regulation: ```Any process that activates or increases the frequency, rate or extent of [process]```
+   
+6. Create a logical definition for the term: ```biological_process``` __and__ ```regulates``` __some__ ```target process```.
    
 7. Remove the asserted ‘biological regulation’ parent.
    
