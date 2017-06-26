@@ -18,9 +18,9 @@ To create a 'positive regulation of x' or 'negative regulation of x' term, the p
    
    - Regulation ```Any process that modulates the frequency, rate or extent of [process]```
    
-   - Positive regulation: ```Any process that stops, prevents or reduces the frequency, rate or extent of [process]```
+   - Positive regulation: ```Any process that activates or increases the frequency, rate or extent of [process]```
    
-   - Negative regulation: ```Any process that activates or increases the frequency, rate or extent of [process]```
+   - Negative regulation: ```Any process that stops, prevents or reduces the frequency, rate or extent of [process]```
    
 6. Create a logical definition for the term: ```biological_process``` __and__ ```regulates``` __some__ ```target process```.
    
