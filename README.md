@@ -22,7 +22,7 @@ Find the [GO Ontology Editors Guide here](http://go-ontology.readthedocs.io/). T
  - a jenkins job will run on every commit and produce inference reports (https://build.berkeleybop.org/job/go-new-inferences-summary-email/)
  - a jenkins job will produce nightly SNAPSHOT releases - https://build.geneontology.org/job/geneontology/job/pipeline/job/snapshot/
     * Our S3 bucket for go-data-product-snapshot/ontology/ which is mapped to http://snapshot.geneontology.org/ontology/, which is redirected to from the OBO Library PURL (http://purl.obolibrary.org/obo/go/snapshot/FOO)
- - a jenkins job will produce production releases, monthly
+ - a jenkins job will produce production releases, monthly (https://build.geneontology.org/job/geneontology/job/pipeline/job/release/)
 
 ### TEMPORARY
 
