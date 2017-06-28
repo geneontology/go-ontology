@@ -171,7 +171,7 @@ $(GO_PLUS).owl: reasoned.owl
 $(ONT)-pre.obo: reasoned.owl
 	owltools $(USECAT) $< --remove-imports-declarations --remove-dangling --make-subset-by-properties $(GO_MAIN_RELATIONS) --set-ontology-id $(OBO)/go.owl -o -f obo $@.tmp && egrep -v '(property_value|relationship): never_in_taxon' $@.tmp > $@
 
-	$(ONT)-pre-reduced.obo: $(ONT)-pre.obo
+$(ONT)-pre-reduced.obo: $(ONT)-pre.obo
 	robot reduce -r elk -i $< -o $@
 
 # use OORT
