@@ -24,3 +24,4 @@ Contents:
    NewSlim
    TaxonRestriction
    AddTermToImport
+   
