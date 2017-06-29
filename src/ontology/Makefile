@@ -326,7 +326,9 @@ generate-mappings: go-basic.obo
 
 imports/go-taxon-groupings.owl: imports/go-taxon-groupings-edit.owl
 	robot reason -i $< -r hermit -o $@
-#	owltools --use-catalog $< --run-reasoner -r hermit --assert-implied -o $@
+
+imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
+	robot convert -i $< -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@
 
 # ----------------------------------------
 # VALIDATION
