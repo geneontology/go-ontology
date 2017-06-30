@@ -12,7 +12,9 @@ This repository is primarily for the developers of the GO.
 
 Most of the work of the editors is done in the [src/ontology](src/ontology) folder.
 
-Please start by reading the [src/ontology/README-editors.md](src/ontology/README-editors.md) file.
+Start by reading the [Editor's README](src/ontology/README-editors.md) file.
+
+Find the [GO Ontology Editors Guide here](http://go-ontology.readthedocs.io/). The files to edit the guide in GitHub are located in the [docs](docs/) folder.
 
 ## Pipeline Overview
 
