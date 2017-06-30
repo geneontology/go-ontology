@@ -1,6 +1,6 @@
 # Creating a New Ontology Term
 
-See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-updating-with-git-pull) for creating branches and basic Protégé instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/DailyWorkflow.html) for creating branches and basic Protégé instructions. 
 
 1. To create a new term, the 'Asserted view' must be active (not the 'Inferred view'). 
 
@@ -32,7 +32,6 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
          4. Add each definition reference separately by clicking on the ```+``` sign.
 	 
       4. Add synonyms and dbxrefs following the same procedure if they are required for the term.
-
 6. If you have created a logical definition for your term, you can delete the asserted ```is_a``` parent in the ‘subclass of’ section. Once you synchronize the reasoner, you will see the automated classification of your new term. If the inferred classification doesn’t make sense, then you will need to modify the logical definition. 
 
 7. In some cases such as ```part_of``` relations based on external partonomies, it might be necessary to assert the ```part_of``` relationships. For example: ```‘heart valve development’ part_of some ‘heart development’```. In those cases, it is important to browse the external ontologies to be sure that nothing is missing. 
@@ -69,4 +68,4 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
      ~/repos/go-ontology/src/ontology(issue-13390) $
      ``` 
  
-See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/DailyWorkflow.html#commit) for commit, push and merge instructions. 
