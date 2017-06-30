@@ -60,6 +60,9 @@ GO_MAIN_RELATIONS = $(GO_BASIC_RELATIONS) BFO:0000051 BFO:0000066 RO:0002091 RO:
 
 GO_PLUS = extensions/go-plus
 
+SPARQLDIR = ../sparql
+REPORTDIR = $(RELEASEDIR)/reports
+
 # ----------------------------------------
 # TOP LEVEL TARGETS
 # ----------------------------------------
@@ -141,9 +144,12 @@ change-report.txt: $(SRC) $(PREVIOUS)
 # OWL
 # ----------------------------------------
 
+# Translate never_in_taxon annotation assertion axioms to
+# logical disjointness axioms
 disjoint_in_taxon.owl: $(SRC)
-	robot query -i $< --construct ../sparql/constructDisjointInTaxon.sparql $@ -f ttl
+	robot query -i $< --construct $(SPARQLDIR)/constructDisjointInTaxon.sparql $@ -f ttl
 
+# merge in any CONSTRUCTs
 enhanced.owl: $(SRC) disjoint_in_taxon.owl
 	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
 
@@ -173,6 +179,7 @@ $(ONT)-pre.obo: reasoned.owl
 
 $(ONT)-pre-reduced.obo: $(ONT)-pre.obo
 	robot reduce -r elk -i $< -o $@
+.PRECIOUS: $(ONT)-pre-reduced.obo
 
 # use OORT
 # side effects: also builds go-simple.obo
@@ -334,25 +341,21 @@ imports/go-taxon-groupings.owl: imports/go-taxon-groupings-edit.owl
 
 # these live in the ../sparql directory, and have suffix -violation.sparql
 # adding the name here will make the violation check live
-VCHECKS = equivalent-classes trailing-whitespace
+VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference
 
 # run all violation checks
-VARGS = $(foreach V,$(VCHECKS),-s ../sparql/$V-violation.sparql reports/$V-violation.csv)
+VARGS = $(foreach V,$(VCHECKS),-s $(SPARQLDIR)/$V-violation.sparql reports/$V-violation.csv)
 sparql_test: $(SRC)
 	robot query -i $< $(VARGS)
 	../util/check-violations-sparql-output.pl $(patsubst %,reports/%-violation.csv,$(VCHECKS))
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
-	robot query -i $< -s ../sparql/$*-violation.sparql $@
+	robot query -i $< -s $(SPARQLDIR)/$*-violation.sparql $@
 
 # ----------------------------------------
 # REPORTS
 # ----------------------------------------
-
-SPARQLDIR = ../sparql
-REPORTDIR = $(RELEASEDIR)/reports
-ARQ = JVM_ARGS=-Xmx6G arq
 
 REPORTS = stats basicReport numberOfClassesByPrefix edges labels
 
@@ -362,7 +365,9 @@ $(REPORTDIR):
 	mkdir $@
 
 reports/go-%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
-	$(ARQ) --data $< --query $(SPARQLDIR)/$*.sparql --results tsv > $@.tmp && mv $@.tmp $@
+	robot query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
+reports/src-%.tsv: go-edit.obo $(SPARQLDIR)/%.sparql $(REPORTDIR)
+	robot query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
 
 # ----------------------------------------
 # ADDING INFERENCES
