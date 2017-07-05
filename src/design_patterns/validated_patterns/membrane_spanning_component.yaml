@@ -1,11 +1,11 @@
 pattern_name: spanning_component_of_membrane
 
 classes:
-  membrane: GO_0016020
-  spanning component of membrane: GO_0089717
+  membrane: GO:0016020
+  spanning component of membrane: GO:0089717
 
 relations:
-  'part of': BFO_0000050
+  'part of': BFO:0000050
   
 vars:   
   membrane: "'membrane'"

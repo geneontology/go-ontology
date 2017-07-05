@@ -60,17 +60,20 @@ GO_MAIN_RELATIONS = $(GO_BASIC_RELATIONS) BFO:0000051 BFO:0000066 RO:0002091 RO:
 
 GO_PLUS = extensions/go-plus
 
+SPARQLDIR = ../sparql
+REPORTDIR = $(RELEASEDIR)/reports
+
 # ----------------------------------------
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
 stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
 
-test: $(SRC)-check change-report.txt reasoned.owl
+test: $(SRC)-check sparql_test change-report.txt reasoned.owl
 
 # note: until we go live, the travis test must omit change-report. This is because as a demo repo,
 # we naturally fall behind the actual live PURL. **DELETE THIS TARGET WHEN WE GO LIVE**
-travis_test: $(SRC)-check reasoned.owl
+travis_test: $(SRC)-check sparql_test reasoned.owl
 
 full_test: test $(ONT).obo
 
@@ -141,9 +144,18 @@ change-report.txt: $(SRC) $(PREVIOUS)
 # OWL
 # ----------------------------------------
 
+# Translate never_in_taxon annotation assertion axioms to
+# logical disjointness axioms
+disjoint_in_taxon.owl: $(SRC)
+	robot query -i $< --construct $(SPARQLDIR)/constructDisjointInTaxon.sparql $@ -f ttl
+
+# merge in any CONSTRUCTs
+enhanced.owl: $(SRC) disjoint_in_taxon.owl
+	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
+
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
-reasoned.owl: $(SRC) $(SRC)-check
+reasoned.owl: enhanced.owl $(SRC)-check
 	$(ROBOT)  reason -i $< -r ELK relax  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 # equivalent to reasoned, but we rename
@@ -167,6 +179,7 @@ $(ONT)-pre.obo: reasoned.owl
 
 $(ONT)-pre-reduced.obo: $(ONT)-pre.obo
 	robot reduce -r elk -i $< -o $@
+.PRECIOUS: $(ONT)-pre-reduced.obo
 
 # use OORT
 # side effects: also builds go-simple.obo
@@ -208,7 +221,7 @@ all_imports: $(IMPORTS_OWL)
 clean_imports:
 	rm mirror/*
 
-seed.txt: $(SRC)
+seed.txt: enhanced.owl
 	owltools --use-catalog $< --export-table $@.tmp && cut -f1 $@.tmp > $@
 
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
@@ -314,20 +327,37 @@ mirror/%.owl: mirror/%-download.owl
 generate-mappings: go-basic.obo
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals EC KEGG MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia
 
+# ----------------------------------------
 # TAXON GROUPINGS
 # ----------------------------------------
 
 imports/go-taxon-groupings.owl: imports/go-taxon-groupings-edit.owl
 	robot reason -i $< -r hermit -o $@
-#	owltools --use-catalog $< --run-reasoner -r hermit --assert-implied -o $@
+
+imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
+	robot convert -i $< -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@
+
+# ----------------------------------------
+# VALIDATION
+# ----------------------------------------
+
+# these live in the ../sparql directory, and have suffix -violation.sparql
+# adding the name here will make the violation check live
+VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference
+
+# run all violation checks
+VARGS = $(foreach V,$(VCHECKS),-s $(SPARQLDIR)/$V-violation.sparql reports/$V-violation.csv)
+sparql_test: $(SRC)
+	robot query -i $< $(VARGS)
+	../util/check-violations-sparql-output.pl $(patsubst %,reports/%-violation.csv,$(VCHECKS))
+
+# use this to run tests on an individual basis
+reports/%-violation.csv: $(SRC)
+	robot query -i $< -s $(SPARQLDIR)/$*-violation.sparql $@
 
 # ----------------------------------------
 # REPORTS
 # ----------------------------------------
-
-SPARQLDIR = ../sparql
-REPORTDIR = $(RELEASEDIR)/reports
-ARQ = JVM_ARGS=-Xmx6G arq
 
 REPORTS = stats basicReport numberOfClassesByPrefix edges labels
 
@@ -337,7 +367,9 @@ $(REPORTDIR):
 	mkdir $@
 
 reports/go-%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
-	$(ARQ) --data $< --query $(SPARQLDIR)/$*.sparql --results tsv > $@.tmp && mv $@.tmp $@
+	robot query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
+reports/src-%.tsv: go-edit.obo $(SPARQLDIR)/%.sparql $(REPORTDIR)
+	robot query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
 
 # ----------------------------------------
 # ADDING INFERENCES

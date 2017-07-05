@@ -1,16 +1,20 @@
 pattern_name: activator_activity
 
 classes:
-  molecular_function: GO_0003674
-  catalytic activity: GO_0003824
+  molecular_function: GO:0003674
+  catalytic activity: GO:0003824
 
-  
 relations:
-  directly positively regulates: RO_0002629
-
+  directly positively regulates: RO:0002629
 
 vars:
   regulated_activity: "'catalytic activity'"
+  
+substitutions:
+   in: regulated_activity
+   out: regulated_activity_munged
+   match: "(.+) activity"
+   sub: '\1'  
   
 data_list_vars:
   def_dbxrefs: "xsd:string"
@@ -18,8 +22,7 @@ data_list_vars:
 name: 
   text: "%s activator activity"
   vars:
-    - regulated_activity
-
+    - regulated_activity_munged
   
 def:
   text: >
@@ -34,6 +37,6 @@ def:
 
     
 equivalentTo:
-  text: "'molecular_function that 'directly positively regulates' some %s"
+  text: "'molecular_function' that 'directly positively regulates' some %s"
   vars: 
     - regulated_activity

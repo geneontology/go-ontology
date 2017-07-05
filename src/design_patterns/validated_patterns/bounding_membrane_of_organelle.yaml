@@ -1,11 +1,11 @@
 pattern_name: bounding_membrane_of_organelle
 
 classes:
-  'whole membrane': GO_0098805
-  'membrane-bounded organelle': GO_0043227
+  'whole membrane': GO:0098805
+  'membrane-bounded organelle': GO:0043227
 
 relations:
-  'bounding layer of': RO_0002007
+  'bounding layer of': RO:0002007
 
 vars: 
   organelle: "'membrane-bounded organelle'"

@@ -2,18 +2,18 @@ pattern_name: transmembrane_import_into_cytosol
 # implicitly import into cell across plamsa membrane
 
 classes: 
-  transport: GO_0006810 
-  extracellular region: GO_0005576 
-  cytosol: GO_0005829
+  transport: GO:0006810 
+  extracellular region: GO:0005576 
+  cytosol: GO:0005829
   chemical entity: CHEBI_24431  # encompasses protein
-  macromolecular complex: GO_0043234  # encompasses protein complex
-  plasma membrane: GO_0005886
+  macromolecular complex: GO:0043234  # encompasses protein complex
+  plasma membrane: GO:0005886
 
 relations:
-  has target start location: RO_0002338
-  has target end location: RO_0002339
-  results in transport across: RO_0002342
-  imports: RO_0002340
+  has target start location: RO:0002338
+  has target end location: RO:0002339
+  results in transport across: RO:0002342
+  imports: RO:0002340
 
 vars: 
   imported: "'chemical entity' or 'macromolecular complex'"

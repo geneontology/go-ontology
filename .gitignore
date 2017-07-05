@@ -6,7 +6,7 @@ src/ontology/mirror/*.tmp
 src/ontology/seed.txt
 src/ontology/imports/*terms_combined.txt
 src/ontology/build/
-src/ontology/extensions/
+src/ontology/extensions/go-plus*
 src/ontology/go.obo
 src/ontology/go.owl
 src/ontology/go.owl
