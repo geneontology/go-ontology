@@ -2,6 +2,12 @@
 
 See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-updating-with-git-pull) for creating branches and basic Protégé instructions. 
 
+0. Check if the term (or any of its children) is being used for annotation: go to the term in AmiGO, 
+
+00. Check if the term is used elsewhere in the ontology: In Protégé, go to the 'Usage' tab to see if that ID is used elsewhere. 
+
+000. Send a notification email: 
+
 1. Navigate to the term to be obsoleted.
  
 2. Make the status of the term obsolete: 
