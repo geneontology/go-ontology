@@ -44,3 +44,14 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
 8. Save changes. 
 
 See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
+
+----
+TROUBLESHOOTING: Travis/Jenkins errors
+1. **Merging a term that is used as 'replaced by' for an obsolete term**
+  ``` :: ERROR: ID-mentioned-twice:: GO:0030722
+       :: ERROR: ID-mentioned-twice:: GO:0048126 
+         GO:0030722 :: ERROR: has-definition: missing definition for id
+   ```
+The cause of this error is that Term A (GO:0048126) was obsoleted and had replace by Term B (GO:0030722). The GO editor tried to merge Term B into a third term term C (GO:0007312). The Jenkins checkk failed because 'Term A replaced by' was an alternative_id rather than by a main_id. 
+Solution: In the ontology, go to the obsolete term A and replace the Term B by term C to have a primary ID as the replace_by. 
+
