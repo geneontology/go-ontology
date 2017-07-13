@@ -8,7 +8,7 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
    - Notify affected groups
 
 2. Check if the term is used elsewhere in the ontology
-   - In Protégé, go to the 'Usage' tab to see if that ID is used elsewhere. Search for the term name or the term URI (ie with underscore between GO and the numerical part of the ID, for example: '''GO_0030722'''
+   - In Protégé, go to the 'Usage' tab to see if that ID is used elsewhere. Search for the term name or the term IRI (ie with underscore between GO and the numerical part of the ID, for example: '''GO_0030722'''
    - If the term is a parent to other terms or is used in logical definitions, make sure that another term replaces the obsolete term
 
 3. Send a notification email. 
