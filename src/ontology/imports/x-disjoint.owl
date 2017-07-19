@@ -723,20 +723,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0048469 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048469">
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0071695"/>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0048469"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/GO_0071695"/>
-        <rdfs:comment>We examined all the child terms of &apos;anatomical structure maturation&apos; and found them all to be gross anatomical structures, so we are safe in declaring this to be disjoint from cell maturation. We may rename &apos;anatomical structure&apos; to &apos;gross anatomical structure&apos; in future (GOC:mtg_OBO2OWL_2013)</rdfs:comment>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0048511 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048511"/>
@@ -860,12 +846,6 @@
     <!-- http://purl.obolibrary.org/obo/GO_0071695 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0071695"/>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0048469"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/GO_0071695"/>
-        <rdfs:comment>We examined all the child terms of &apos;anatomical structure maturation&apos; and found them all to be gross anatomical structures, so we are safe in declaring this to be disjoint from cell maturation. We may rename &apos;anatomical structure&apos; to &apos;gross anatomical structure&apos; in future (GOC:mtg_OBO2OWL_2013)</rdfs:comment>
-    </owl:Axiom>
     
 
 

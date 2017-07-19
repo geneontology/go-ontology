@@ -126,8 +126,9 @@ deploy-release:
 # ----------------------------------------
 
 # TODO: use json form of this file
+# See also: https://github.com/geneontology/go-ontology/issues/13837
 GO.xrf_abbs: $(SRC)
-	wget http://geneontology.org/doc/GO.xrf_abbs -O $@.tmp && mv $@.tmp $@ && touch $@
+	wget https://s3.amazonaws.com/go-public/metadata/db-xrefs.legacy -O $@.tmp && mv $@.tmp $@ && touch $@
 
 $(SRC)-check: $(SRC) GO.xrf_abbs
 	$(PERLCHECK) --disable-isa-incomplete --xref-abbs GO.xrf_abbs $< > $@.tmp && mv $@.tmp $@
