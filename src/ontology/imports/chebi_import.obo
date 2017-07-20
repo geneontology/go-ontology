@@ -31423,6 +31423,11 @@ is_a: CHEBI:76941 ! sphingoid 1-phosphate(1-)
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
+id: CHEBI:60151
+name: oxidised LDL
+is_a: CHEBI:6495 ! lipoprotein
+
+[Term]
 id: CHEBI:60164
 name: ionic polymer
 is_a: CHEBI:60027 ! polymer
