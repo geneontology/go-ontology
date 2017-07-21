@@ -233,18 +233,22 @@ imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
 	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
-#robot doesn't appear to work for making modules with GCIs
 #bio-chebi-merged.owl: bio-chebi.owl
 #	$(OWLTOOLS) $(USECAT) $< --merge-imports-closure -o $@
 #imports/chebi_import.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
 #	$(ROBOT) extract -i $< -T imports/chebi_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
 CHEBIRELS = RO:0000057 RO:0002233 RO:0002234 RO:0002313 RO:0002233 RO:0002332 RO:0002340  RO:0002345 BFO:0000051 RO:0000087 GOCHEREL:0000000 GOCHEREL:0000001 GOCHEREL:0000002  GOCHEREL:0000003 GOCHEREL:0000004
 
+#robot doesn't appear to work for making modules with GCIs; hence this contorted mechanism
+# See: https://github.com/ontodev/robot/issues/175
 seed.owl: $(SRC)
 	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o $@
-imports/chebi_import.owl: seed.owl bio-chebi.owl
-	$(OWLTOOLS) $(USECAT) $<  bio-chebi.owl --add-imports-from-supports --extract-module -s $(OBO)/go/extensions/bio-chebi.owl -c  --make-subset-by-properties -n $(CHEBIRELS) // --remove-annotation-assertions -r -l --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/go/$@ -o $@
+imports/chebi_import_nogci.owl: imports/chebi_terms_combined.txt $(SRC)
+	$(ROBOT) extract -i bio-chebi.owl -T imports/chebi_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
+imports/chebi_import.owl: imports/chebi_import_nogci.owl seed.owl bio-chebi.owl
+	$(OWLTOOLS) $(USECAT) seed.owl $< --merge-support-ontologies  bio-chebi.owl --add-imports-from-supports --extract-module -s $(OBO)/go/extensions/bio-chebi.owl -c  --make-subset-by-properties -n $(CHEBIRELS) // --remove-annotation-assertions -r -l --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/go/$@ -o $@
 .PRECIOUS: imports/chebi_import.owl
+
 
 imports/%_import.obo: imports/%_import.owl
 	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@
