@@ -6,7 +6,7 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/go/extensions/go_bridge.owl>
+Ontology(<http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl>
 Annotation(rdfs:comment "A collection of bridging axioms and upper ontology classifications required for complete reasoning within the GO.")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))
@@ -33,43 +33,43 @@ Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000833>))
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_17843> (transfer RNA)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_17843> (<http://purl.obolibrary.org/obo/CHEBI_17843>)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_17843> <http://purl.obolibrary.org/obo/SO_0000253>)
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_18111> (ribosomal RNA)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_18111> (<http://purl.obolibrary.org/obo/CHEBI_18111>)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_18111> <http://purl.obolibrary.org/obo/SO_0000252>)
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_24431> (chemical entity)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_24431> (<http://purl.obolibrary.org/obo/CHEBI_24431>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24431> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33699> (messenger RNA)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33699> (<http://purl.obolibrary.org/obo/CHEBI_33699>)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_33699> <http://purl.obolibrary.org/obo/SO_0000234>)
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_36080> (protein)
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36080> (<http://purl.obolibrary.org/obo/CHEBI_36080>)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/CHEBI_36080> <http://purl.obolibrary.org/obo/PR_000000001>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0003674> (molecular_function)
+# Class: <http://purl.obolibrary.org/obo/GO_0003674> (<http://purl.obolibrary.org/obo/GO_0003674>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0003674> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0005575> (cellular_component)
+# Class: <http://purl.obolibrary.org/obo/GO_0005575> (<http://purl.obolibrary.org/obo/GO_0005575>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005575> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0008150> (biological_process)
+# Class: <http://purl.obolibrary.org/obo/GO_0008150> (<http://purl.obolibrary.org/obo/GO_0008150>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
-# Class: <http://purl.obolibrary.org/obo/SO_0000673> (transcript)
+# Class: <http://purl.obolibrary.org/obo/SO_0000673> (<http://purl.obolibrary.org/obo/SO_0000673>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/SO_0000673> <http://purl.obolibrary.org/obo/CHEBI_33697>)
 
-# Class: <http://purl.obolibrary.org/obo/SO_0000833> (transcript_region)
+# Class: <http://purl.obolibrary.org/obo/SO_0000833> (<http://purl.obolibrary.org/obo/SO_0000833>)
 
 SubClassOf(<http://purl.obolibrary.org/obo/SO_0000833> <http://purl.obolibrary.org/obo/CHEBI_33697>)
 
