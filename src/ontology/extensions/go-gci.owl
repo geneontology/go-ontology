@@ -9,5 +9,13 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Ontology(<http://purl.obolibrary.org/obo/go/extensions/go-gci.owl>
 Annotation(rdfs:comment "A file home for all GO GCIs except for disjointness declarations, which live in x-disjoint.owl.")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_15355>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005488>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002013>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002019>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
 
+
+
+SubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002019> <http://purl.obolibrary.org/obo/CHEBI_15355>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0005488> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/CHEBI_15355>))))
 )
