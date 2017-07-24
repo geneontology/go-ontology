@@ -1,0 +1,34 @@
+pattern_name: membrane_receptor_activity
+
+classes:
+    'receptor activity': GO_
+    'membrane': GO_
+    'binding activity': GO_
+    'catalytic activity': GO_
+    'transporter activity': GO_
+    
+
+relations:
+    'has part': BFO_
+    'directly activates': RO_
+    'occurs in': RO_
+
+vars:
+    'effector activity': "'catalytic activity' or 'transporter activity'"  # may be others..
+    'ligand': '"chemical entity" or "protein"' # chemical entity should be sufficient given Pro links to ChEBI - are they in place?
+    
+subClassOf:
+    "receptor activity' and (
+        'has_part' some (
+            'binding activity' that has_input some %s and 
+                directly_activates some %s))
+        and ('has_part' some 'effector activity') 
+        and (occurs_in some membrane)"  # Strictly, this has co-reference issues, e.g. the regulation could be of another 
+  vars:  
+    - 'ligand'
+    - 'effector activity'
+    - 'effector activity'
+
+    
+    
+# Could we make a has_ligand shortcut relation?  Problem is, it needs two slots.

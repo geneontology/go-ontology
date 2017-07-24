@@ -60,17 +60,20 @@ GO_MAIN_RELATIONS = $(GO_BASIC_RELATIONS) BFO:0000051 BFO:0000066 RO:0002091 RO:
 
 GO_PLUS = extensions/go-plus
 
+SPARQLDIR = ../sparql
+REPORTDIR = $(RELEASEDIR)/reports
+
 # ----------------------------------------
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
 stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
 
-test: $(SRC)-check change-report.txt reasoned.owl
+test: $(SRC)-check sparql_test change-report.txt reasoned.owl
 
 # note: until we go live, the travis test must omit change-report. This is because as a demo repo,
 # we naturally fall behind the actual live PURL. **DELETE THIS TARGET WHEN WE GO LIVE**
-travis_test: $(SRC)-check reasoned.owl
+travis_test: $(SRC)-check sparql_test reasoned.owl
 
 full_test: test $(ONT).obo
 
@@ -123,8 +126,9 @@ deploy-release:
 # ----------------------------------------
 
 # TODO: use json form of this file
+# See also: https://github.com/geneontology/go-ontology/issues/13837
 GO.xrf_abbs: $(SRC)
-	wget http://geneontology.org/doc/GO.xrf_abbs -O $@.tmp && mv $@.tmp $@ && touch $@
+	wget https://s3.amazonaws.com/go-public/metadata/db-xrefs.legacy -O $@.tmp && mv $@.tmp $@ && touch $@
 
 $(SRC)-check: $(SRC) GO.xrf_abbs
 	$(PERLCHECK) --disable-isa-incomplete --xref-abbs GO.xrf_abbs $< > $@.tmp && mv $@.tmp $@
@@ -141,10 +145,19 @@ change-report.txt: $(SRC) $(PREVIOUS)
 # OWL
 # ----------------------------------------
 
+# Translate never_in_taxon annotation assertion axioms to
+# logical disjointness axioms
+disjoint_in_taxon.owl: $(SRC)
+	robot query -i $< --construct $(SPARQLDIR)/constructDisjointInTaxon.sparql $@ -f ttl
+
+# merge in any CONSTRUCTs
+enhanced.owl: $(SRC) disjoint_in_taxon.owl
+	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
+
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
-reasoned.owl: $(SRC) $(SRC)-check
-	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+reasoned.owl: enhanced.owl $(SRC)-check
+	$(ROBOT)  reason -i $< -r ELK relax  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 # equivalent to reasoned, but we rename
 $(GO_PLUS).owl: reasoned.owl
@@ -162,12 +175,16 @@ $(GO_PLUS).owl: reasoned.owl
 #  - ...
 # go.obo is a simplified; we use oort to remove imports etc
 
-$(ONT)-pre.owl: reasoned.owl
+$(ONT)-pre.obo: reasoned.owl
 	owltools $(USECAT) $< --remove-imports-declarations --remove-dangling --make-subset-by-properties $(GO_MAIN_RELATIONS) --set-ontology-id $(OBO)/go.owl -o -f obo $@.tmp && egrep -v '(property_value|relationship): never_in_taxon' $@.tmp > $@
+
+$(ONT)-pre-reduced.obo: $(ONT)-pre.obo
+	robot reduce -r elk -i $< -o $@
+.PRECIOUS: $(ONT)-pre-reduced.obo
 
 # use OORT
 # side effects: also builds go-simple.obo
-$(ONT).obo: $(ONT)-pre.owl
+$(ONT).obo: $(ONT)-pre-reduced.obo
 	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
 	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge $(BUILD_DIR)/go.obo &&\
 	cp $(BUILD_DIR)/subsets/* subsets/ &&\
@@ -183,8 +200,11 @@ go.owl: $(ONT).obo
 go-simple-filtered.obo: go-simple.obo
 	owltools $< --make-subset-by-properties $(GO_BASIC_RELATIONS) // -o -f obo $@
 
+go-simple-filtered-reduced.obo: go-simple-filtered.obo
+	robot reduce -r elk -i $< -o $@
+
 # filter inter-ontology (e.g. MF to BP) links
-go-basic.obo: go-simple-filtered.obo
+go-basic.obo: go-simple-filtered-reduced.obo
 	$(PERLFILTER) $< > $@.tmp && mv $@.tmp $@ && $(PERLCHECK) --disable-xrf-abbs-check $@
 
 go-basic.owl: go-basic.obo
@@ -202,7 +222,7 @@ all_imports: $(IMPORTS_OWL)
 clean_imports:
 	rm mirror/*
 
-seed.txt: $(SRC)
+seed.txt: enhanced.owl
 	owltools --use-catalog $< --export-table $@.tmp && cut -f1 $@.tmp > $@
 
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
@@ -213,18 +233,22 @@ imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
 	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
-#robot doesn't appear to work for making modules with GCIs
 #bio-chebi-merged.owl: bio-chebi.owl
 #	$(OWLTOOLS) $(USECAT) $< --merge-imports-closure -o $@
 #imports/chebi_import.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
 #	$(ROBOT) extract -i $< -T imports/chebi_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
 CHEBIRELS = RO:0000057 RO:0002233 RO:0002234 RO:0002313 RO:0002233 RO:0002332 RO:0002340  RO:0002345 BFO:0000051 RO:0000087 GOCHEREL:0000000 GOCHEREL:0000001 GOCHEREL:0000002  GOCHEREL:0000003 GOCHEREL:0000004
 
+#robot doesn't appear to work for making modules with GCIs; hence this contorted mechanism
+# See: https://github.com/ontodev/robot/issues/175
 seed.owl: $(SRC)
 	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o $@
-imports/chebi_import.owl: seed.owl bio-chebi.owl
-	$(OWLTOOLS) $(USECAT) $<  bio-chebi.owl --add-imports-from-supports --extract-module -s $(OBO)/go/extensions/bio-chebi.owl -c  --make-subset-by-properties -n $(CHEBIRELS) // --remove-annotation-assertions -r -l --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/go/$@ -o $@
+imports/chebi_import_nogci.owl: imports/chebi_terms_combined.txt $(SRC)
+	$(ROBOT) extract -i bio-chebi.owl -T imports/chebi_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
+imports/chebi_import.owl: imports/chebi_import_nogci.owl seed.owl bio-chebi.owl
+	$(OWLTOOLS) $(USECAT) seed.owl $< --merge-support-ontologies  bio-chebi.owl --add-imports-from-supports --extract-module -s $(OBO)/go/extensions/bio-chebi.owl -c  --make-subset-by-properties -n $(CHEBIRELS) // --remove-annotation-assertions -r -l --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/go/$@ -o $@
 .PRECIOUS: imports/chebi_import.owl
+
 
 imports/%_import.obo: imports/%_import.owl
 	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@
@@ -271,6 +295,14 @@ mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/cl/cl-basic.obo $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
+# special case: the RO imports closure is unusual
+# typically we use only the main ontology, not the imports.
+# for RO we merge these, in order to get ro/core, bfo classes
+# see https://github.com/geneontology/go-ontology/issues/12946
+mirror/ro-download.owl: $(SRC)
+	owltools $(OBO)/ro.owl --merge-imports-closure -o $@
+.PRECIOUS: mirror/cl-download.owl
+
 # general case: download remote OWL first
 mirror/%-download.owl: $(SRC)
 #	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
@@ -300,20 +332,37 @@ mirror/%.owl: mirror/%-download.owl
 generate-mappings: go-basic.obo
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals EC KEGG MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia
 
+# ----------------------------------------
 # TAXON GROUPINGS
 # ----------------------------------------
 
 imports/go-taxon-groupings.owl: imports/go-taxon-groupings-edit.owl
 	robot reason -i $< -r hermit -o $@
-#	owltools --use-catalog $< --run-reasoner -r hermit --assert-implied -o $@
+
+imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
+	robot convert -i $< -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@
+
+# ----------------------------------------
+# VALIDATION
+# ----------------------------------------
+
+# these live in the ../sparql directory, and have suffix -violation.sparql
+# adding the name here will make the violation check live
+VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference
+
+# run all violation checks
+VARGS = $(foreach V,$(VCHECKS),-s $(SPARQLDIR)/$V-violation.sparql reports/$V-violation.csv)
+sparql_test: $(SRC)
+	robot query -i $< $(VARGS)
+	../util/check-violations-sparql-output.pl $(patsubst %,reports/%-violation.csv,$(VCHECKS))
+
+# use this to run tests on an individual basis
+reports/%-violation.csv: $(SRC)
+	robot query -i $< -s $(SPARQLDIR)/$*-violation.sparql $@
 
 # ----------------------------------------
 # REPORTS
 # ----------------------------------------
-
-SPARQLDIR = ../sparql
-REPORTDIR = $(RELEASEDIR)/reports
-ARQ = JVM_ARGS=-Xmx6G arq
 
 REPORTS = stats basicReport numberOfClassesByPrefix edges labels
 
@@ -323,7 +372,9 @@ $(REPORTDIR):
 	mkdir $@
 
 reports/go-%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
-	$(ARQ) --data $< --query $(SPARQLDIR)/$*.sparql --results tsv > $@.tmp && mv $@.tmp $@
+	robot query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
+reports/src-%.tsv: go-edit.obo $(SPARQLDIR)/%.sparql $(REPORTDIR)
+	robot query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
 
 # ----------------------------------------
 # ADDING INFERENCES
@@ -357,7 +408,7 @@ go_inferences.obo: go_inferences.owl
 #	wget --no-check-certificate http://geneontology.org/ontology/editors/go_inferences.obo -O $@
 
 %-previous: $(SRC)
-	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology-inferences/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo > $@
+	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology-inferences/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo "Fresh diffs" > $@
 
 # get the difference between the current staged inferences file and the
 # last one to be checked in.
@@ -373,8 +424,8 @@ go_inferences.diff: go_inferences.obo go_inferences.obo-previous
 
 # append latest diffs onto difflog
 # NOTE: in svn pipeline, this file was committed by jenkins job every time ontology is edited.
-go_inferences_difflog.txt: go_inferences.diff
-	cat $< $@ > $@.tmp && mv $@.tmp $@
+go_inferences_difflog.txt: go_inferences.diff go_inferences_difflog.txt-previous
+	cat $^ > $@.tmp && mv $@.tmp $@
 
 # reasoner diffs
 idiff: go_inferences_difflog.txt
@@ -382,3 +433,4 @@ idiff: go_inferences_difflog.txt
 	cp go_inferences_difflog.txt $(RELEASEDIR) && \
 	cp go_inferences.diff $(RELEASEDIR) && \
 	cp go_inferences.obo $(RELEASEDIR)
+

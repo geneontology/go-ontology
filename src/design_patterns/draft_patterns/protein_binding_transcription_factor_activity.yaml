@@ -1,0 +1,30 @@
+pattern_name: protein_binding_transcription_factor
+
+classes:
+    'protein binding': GO_  
+    'protein binding transcription factor activity': GO_ # Do we really need his, or can we define genus with this pattern.
+  
+
+relations:
+    'has part': RO_
+    'regulates': RO_
+
+vars:
+    binding: "protein binding'"
+    transcription_type: "'transcription, DNA templated'"
+        
+name:
+  text: "transcription factor activity, %s"
+  vars: 
+    - binding
+    
+def: 
+  text: ""
+    - 
+    
+equivalentTo: 
+  text: "('has_part' some %s) and ('regulates' some %s)"
+  vars:
+    - binding
+    - transcription_type
+    
