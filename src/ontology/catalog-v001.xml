@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl" uri="extensions/go-bridge.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/go/extensions/go-gci.owl" uri="extensions/go-gci.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/bio-chebi.owl" uri="imports/bio-chebi.owl"/>
-
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go_inferences.owl" uri="go_inferences_null.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/substance_by_role.owl" uri="imports/substance_by_role.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/substance_by_role.owl" uri="imports/substance_by_role.owl"/>
@@ -26,7 +27,7 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-plus.owl" uri="imports/go-plus.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-gaf.owl" uri="imports/go-gaf.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chebi.owl" uri="mirror/chebi.owl"/>
-    <!-- TEMPORARY -->
+ <!-- TEMPORARY -->
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/uberon/reasoner_axioms.owl" uri="go_inferences_null.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl" uri="imports/go-taxon-groupings.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-taxon-subsets.owl" uri="imports/go-taxon-subsets.owl"/>
