@@ -1,1 +1,30 @@
+pattern_name: cc_organization
+
+classes:
+  cellular_component: GO:0005575
+  independent_continuant: BFO:0000004
+
+relations: 
+  results_in_organization_of: RO:0002592
+
+vars:
+ cellular_component: "'cellular component'"
+ independent_continuant: "'independent continuant'"
+ 
+name:
+     text: "%s organization"
+     vars:
+       - 'cellular component'
+
+def:
+  text: "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of %s." 
+  vars:
+     - 'cellular component'
+
+equivalentTo:
+  text: " %s and 'results_in_organization_of' some %s "
+  vars:
+    - 'cellular component'
+    - 'independent continuant'
+    
 
