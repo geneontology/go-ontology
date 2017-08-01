@@ -2,15 +2,15 @@ pattern_name: cc_organization
 
 classes:
   cellular_component: GO:0005575
-  independent_continuant: BFO:0000004
+  cellular_process: GO:0009987
 
 relations: 
   results_in_organization_of: RO:0002592
 
 vars:
  cellular_component: "'cellular component'"
- independent_continuant: "'independent continuant'"
- 
+ cellular_process: "'cellular process'"
+
 name:
      text: "%s organization"
      vars:
@@ -24,7 +24,7 @@ def:
 equivalentTo:
   text: " %s and 'results_in_organization_of' some %s "
   vars:
+    - 'cellular process'
     - 'cellular component'
-    - 'independent continuant'
     
 
