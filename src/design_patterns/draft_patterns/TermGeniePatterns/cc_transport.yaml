@@ -1,32 +1,32 @@
-pattern_name: chemical_transport
+pattern_name: cc_transport
 
 classes:
   transport: GO:0006810
-  chemical_entity: CHEBI:24431
+  cellular_component: GO:0005575
 
 relations: 
   transports_or_maintains_localization_of: RO:0002313
 
 vars:
  transport: "'transport'"
- chemical_entity: "'chemical entity'"
+ chemical_entity: "'cellular component'"
  
 
 name:
      text: "%s transport"
      vars:
-       - 'chemical entity'
+       - 'cellular component'
 
 def:
   text: "The directed movement of %s into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore."
   vars:
-     - 'chemical entity'
+     - 'cellular component'
 
 equivalentTo:
   text: " %s and 'transports_or_maintains_localization_of' some %s "
   vars:
     - 'transport'
-    - 'chemical entity'
+    - 'cellular component'
     
 
 
