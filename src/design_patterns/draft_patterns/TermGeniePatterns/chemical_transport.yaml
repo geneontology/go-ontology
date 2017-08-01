@@ -1,4 +1,4 @@
-pattern_name: cc_transport
+pattern_name: chemical_transport
 
 classes:
   transport: GO:0006810
