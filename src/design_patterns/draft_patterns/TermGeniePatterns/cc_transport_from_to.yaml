@@ -1,0 +1,38 @@
+pattern_name: cc_transport_from_to
+
+classes:
+  transport: GO:0006810
+  cellular_component: GO:0005575
+  cellular_component: GO:0005575
+
+relations: 
+  has_target_start_location: RO:0002338
+  has_target_end_location: RO:0002339
+
+vars:
+ transport: "'transport'"
+ chemical_entity: "'cellular component'"
+ chemical_entity: "'cellular component'"
+
+
+name:
+     text: "%s to %s transport"
+     vars:
+       - 'cellular component'
+       - 'cellular component'
+
+def:
+  text: "The directed movement of substances from %s to %s."
+  vars:
+     - 'cellular component'
+     - 'cellular component'
+
+equivalentTo:
+  text: " %s and 'has_target_start_location' some %s and 'has target end location' some %s"
+  vars:
+    - 'transport'
+    - 'cellular component'
+    - 'cellular component'
+    
+
+
