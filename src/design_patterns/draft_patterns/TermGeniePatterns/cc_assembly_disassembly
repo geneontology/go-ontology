@@ -1,0 +1,29 @@
+pattern_name: cc_assembly
+
+classes:
+  cellular_component: GO:0005575
+  cellular_component_assembly: GO:0022607
+
+relations: 
+  results_in_assembly_of: ROL0002588
+
+vars:
+ cellular_component: "'cellular component'"
+ cellular_component_assembly: "'cellular component assembly'"
+ 
+name:
+     text: "%s assembly"
+     vars:
+       - 'cellular component'
+
+def:
+  text: "The aggregation, arrangement and bonding together of a set of components to form %s." 
+  vars:
+     - 'cellular component'
+
+equivalentTo:
+  text: " %s and 'results_in_assembly_of' some %s "
+  vars:
+    - 'cellular component assembly'
+    - 'cellular component'
+    
