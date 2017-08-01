@@ -5,7 +5,7 @@ classes:
   cellular_component_assembly: GO:0022607
 
 relations: 
-  results_in_assembly_of: ROL0002588
+  results_in_assembly_of: RO:0002588
 
 vars:
  cellular_component: "'cellular component'"
