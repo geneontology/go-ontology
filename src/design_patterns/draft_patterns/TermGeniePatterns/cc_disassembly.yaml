@@ -17,7 +17,7 @@ name:
        - 'cellular component'
 
 def:
-  text: "The aggregation, arrangement and bonding together of a set of components to form %s." 
+  text: "The disaggregation of %s into its constituent components." 
   vars:
      - 'cellular component'
 
