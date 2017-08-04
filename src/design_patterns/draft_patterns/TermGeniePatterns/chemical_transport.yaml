@@ -2,14 +2,14 @@ pattern_name: chemical_transport
 
 classes:
   transport: GO:0006810
-  chemical_entity: CHEBI:24431
+  chemical entity: CHEBI:24431
 
 relations: 
   transports_or_maintains_localization_of: RO:0002313
 
 vars:
  transport: "'transport'"
- chemical_entity: "'chemical entity'"
+ chemical entity: "'chemical entity'"
  
 
 name:
