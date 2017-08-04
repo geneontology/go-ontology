@@ -1,15 +1,15 @@
 pattern_name: cc_disassembly
 
 classes:
-  cellular_component: GO:0005575
-  cellular_component_disassembly: GO:0022411
+  cellular component: GO:0005575
+  cellular component disassembly: GO:0022411
 
 relations: 
   results_in_disassembly_of: RO:0002590
 
 vars:
- cellular_component: "'cellular component'"
- cellular_component_disassembly: "'cellular component disassembly'"
+ cellular component: "'cellular component'"
+ cellular component disassembly: "'cellular component disassembly'"
  
 name:
      text: "%s disassembly"
