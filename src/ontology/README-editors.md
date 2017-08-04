@@ -2,7 +2,7 @@
 
 ## GO - Ontology Editors Guide
 
-**Temporarily out of order:** A step-by-step guide for GO Ontology Editors can be found at [http://go-ontology.readthedocs.io/](http://go-ontology.readthedocs.io/).
+A step-by-step guide for GO Ontology Editors can be found at [http://ontologydocs.readthedocs.io/](http://ontologydocs.readthedocs.io/).
 
 ## Release Process
 
