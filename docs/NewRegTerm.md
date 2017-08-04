@@ -1,6 +1,6 @@
 ## Creating Regulation Terms
 
-See [Daily Workflow](http://ontologydocs.readthedocs.io/en/latest/index.html#updating-the-local-copy-of-the-ontology-with-git-pull) for creating branches and basic Protégé instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) for creating branches and basic Protégé instructions. 
 
 To create a 'positive regulation of x' or 'negative regulation of x' term, the parent 'regulation of x' term must first be created. To create a parent regulation term: 
 
@@ -30,5 +30,5 @@ To create a 'positive regulation of x' or 'negative regulation of x' term, the p
 
 9. Save changes.
 
-See [Daily Workflow](http://ontologydocs.readthedocs.io/en/latest/index.html#committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) section for commit, push and merge instructions. 
 
