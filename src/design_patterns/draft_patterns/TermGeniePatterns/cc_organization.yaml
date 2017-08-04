@@ -1,15 +1,15 @@
 pattern_name: cc_organization
 
 classes:
-  cellular_component: GO:0005575
-  cellular_process: GO:0009987
+  cellular component: GO:0005575
+  cellular process: GO:0009987
 
 relations: 
   results_in_organization_of: RO:0002592
 
 vars:
- cellular_component: "'cellular component'"
- cellular_process: "'cellular process'"
+ cellular component: "'cellular component'"
+ cellular process: "'cellular process'"
 
 name:
      text: "%s organization"
