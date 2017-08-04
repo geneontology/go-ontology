@@ -1,6 +1,6 @@
 # Adding taxon restrictions
 
-See [Daily Workflow](http://ontologydocs.readthedocs.io/en/latest/index.html#updating-the-local-copy-of-the-ontology-with-git-pull) for creating branches and basic Protégé instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) for creating branches and basic Protégé instructions. 
 
 1. ```Only in taxon``` relations are added as ```Subclasses```. 
    1.	Navigate to the term for which you want to add the only in taxon restriction.
@@ -17,4 +17,4 @@ See [Daily Workflow](http://ontologydocs.readthedocs.io/en/latest/index.html#upd
    6.	Click OK to save your changes.
    
    
-See [Daily Workflow](http://ontologydocs.readthedocs.io/en/latest/index.html#committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) section for commit, push and merge instructions. 
