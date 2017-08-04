@@ -1,0 +1,32 @@
+pattern_name: involved_in_x_y
+
+classes:
+  biological process: GO:0008150
+  biological process: GO:0008150
+
+relations: 
+  part of: BFO:0000050
+  
+vars:
+  biological process: "'biological process'"
+  biological process: "'biological process'"
+ 
+name:
+     text: "%s involved in %s"
+     vars:
+       - 'biological process'
+       - 'biological process'
+
+def:
+  text: "Any %s that is involved in %s."
+  vars:
+      - 'biological process'
+      - 'biological process'
+
+equivalentTo:
+  text: " %s and 'part of' some %s"
+  vars:
+    - 'biological process'
+    - 'biological process'
+
+
