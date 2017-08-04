@@ -1,0 +1,30 @@
+pattern_name: macromolecular_complex_binding
+
+classes:
+  macromolecular complex: GO:0032991
+  binding: GO:0005488
+
+relations: 
+  has input: RO:0002233
+  
+vars:
+  macromolecular complex: "'macromolecular complex'"
+  binding: "'binding'"
+ 
+name:
+     text: "%s binding"
+     vars:
+       - 'macromolecular complex'
+
+def:
+  text: "Interacting selectively and non-covalently with %s."
+  vars:
+     - 'macromolecular complex'
+
+equivalentTo:
+  text: " %s and 'has input' some %s"
+  vars:
+    - 'binding'
+    - 'macromolecular complex'
+
+
