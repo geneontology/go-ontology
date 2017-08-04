@@ -17,4 +17,4 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#upda
 7.	Click on OK to save your edits.
 
  
-See [Daily Workflow](http://ontologydocs.readthedocs.io/en/latest/index.html#committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
