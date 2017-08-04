@@ -1,6 +1,6 @@
 ### Adding a term to a GO Subset (Slim)
 
-See [Daily Workflow](http://ontologydocs.readthedocs.io/en/latest/index.html#creating-a-new-working-branch-with-git-checkout) for creating branches and basic Protégé instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#updating-the-local-copy-of-the-ontology-with-git-pull) for creating branches and basic Protégé instructions. 
 
 1.	In Protege, navigate to the Entities tab.
 
