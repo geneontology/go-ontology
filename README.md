@@ -14,7 +14,7 @@ Most of the work of the editors is done in the [src/ontology](src/ontology) fold
 
 Start by reading the [Editor's README](src/ontology/README-editors.md) file.
 
-Find the [GO Ontology Editors Guide here](http://go-ontology.readthedocs.io/). The files to edit the guide in GitHub are located in the [docs](docs/) folder.
+The GO Ontology Editors Guide is currently being updated and [these pages are temporarily down](http://go-ontology.readthedocs.io/). The source files to read and edit the guide in GitHub are located in the [docs](docs/) folder.
 
 ## Pipeline Overview
 
