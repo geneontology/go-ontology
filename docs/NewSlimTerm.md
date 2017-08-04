@@ -1,6 +1,6 @@
 ### Adding a term to a GO Subset (Slim)
 
-See [Daily Workflow](DailyWorkflow.md) for creating branches and basic Protégé instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) for creating branches and basic Protégé instructions. 
 
 1.	In Protege, navigate to the Entities tab.
 
@@ -17,4 +17,4 @@ See [Daily Workflow](DailyWorkflow.md) for creating branches and basic Protégé
 7.	Click on OK to save your edits.
 
  
-See [Daily Workflow](DailyWorkflow.md) section for commit, push and merge instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) section for commit, push and merge instructions. 
