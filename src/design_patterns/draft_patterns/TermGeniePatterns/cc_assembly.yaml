@@ -9,7 +9,7 @@ relations:
 
 vars:
  cellular component: "'cellular component'"
- cellular Component assembly: "'cellular component assembly'"
+ cellular component assembly: "'cellular component assembly'"
  
 name:
      text: "%s assembly"
