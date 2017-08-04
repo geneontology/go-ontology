@@ -1,6 +1,6 @@
 # Obsoleting an Existing Ontology Term
 
-See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-updating-with-git-pull) for creating branches and basic Protégé instructions. 
+See [Daily Workflow](http://ontologydocs.readthedocs.io/en/latest/index.html#updating-the-local-copy-of-the-ontology-with-git-pull) for creating branches and basic Protégé instructions.
 
 1. Check if the term (or any of its children) is being used for annotation: 
    - Go to AmiGO, search for the term, either by label or ID
@@ -60,4 +60,4 @@ Consult the wiki documentation for suggestions on standard comments:
 
 9. Save changes. 
     
-See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
+See [Daily Workflow](http://ontologydocs.readthedocs.io/en/latest/index.html#committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
