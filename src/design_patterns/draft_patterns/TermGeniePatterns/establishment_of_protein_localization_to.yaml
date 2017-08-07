@@ -1,0 +1,31 @@
+pattern_name: establishment_of_protein_localization_to
+
+classes:
+  cellular component: GO:0005575
+  establishment of protein localization: GO:0045184
+
+relations: 
+  has_target_end_location: RO:0002339
+
+vars:
+ cellular component: "'cellular component'"
+ establishment of protein localizationn: "'establishment of protein localization'"
+
+name:
+     text: "establishment of protein localization to %s"
+     vars:
+       - 'cellular component'
+
+def:
+  text: "The directed movement of a protein to a specific location in %s."
+  vars:
+     - 'cellular component'
+
+equivalentTo:
+  text: " %s and 'has target end location' some %s"
+  vars:
+    - 'establishment of protein localization'
+    - 'cellular component'
+    
+
+
