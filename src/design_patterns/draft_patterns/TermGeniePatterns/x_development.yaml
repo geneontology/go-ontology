@@ -17,7 +17,7 @@ name:
        - 'anatomical structure'
 
 def:
-  text: "The process whose specific outcome is the progression of %s over time, from its formation to the mature structure.."
+  text: "The process whose specific outcome is the progression of %s over time, from its formation to the mature structure."
   vars:
      - 'anatomical structure'
 
