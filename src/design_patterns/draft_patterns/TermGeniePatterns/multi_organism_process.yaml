@@ -1,23 +1,23 @@
-pattern_name: single_organism_process
+pattern_name: multi_organism_process
 
 classes:
   biological process: GO:0008150
-  single organismal process quality: PATO:0002487
+  multi organismal process quality: PATO:0002486
 
 relations: 
   bearer of: RO:0000053
 
 vars:
  biological process: "'biological process'"
- single organismal process quality: "'single organismal process quality'"
+ multi organismal process quality: "'multi organismal process quality'"
 
 name:
-     text: "single-organism %s"
+     text: "multi-organism %s"
      vars:
        - 'biological process'
 
 def:
-  text: "%s which involves only one organism."
+  text: "%s which involves another organism."
   vars:
      - 'biological process'
 
@@ -25,7 +25,7 @@ equivalentTo:
   text: " %s and 'bearer of' some %s"
   vars:
     - 'biological process'
-    - 'single organismal process quality'
+    - 'multi organismal process quality'
     
 
 
