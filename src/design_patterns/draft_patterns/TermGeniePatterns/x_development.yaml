@@ -12,7 +12,7 @@ vars:
  anatomical structure development: "'anatomical structure development'"
 
 name:
-     text: "multi-organism %s"
+     text: "%s development"
      vars:
        - 'anatomical structure'
 
