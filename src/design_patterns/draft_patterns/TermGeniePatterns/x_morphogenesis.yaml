@@ -1,0 +1,32 @@
+pattern_name: x_morphogenesis
+
+classes:
+  anatomical structure: UBERON:0000061
+  anatomical structure morphogenesis: GO:0009653
+
+relations: 
+  results in morphogenesis of: ROL0002298
+
+vars:
+ anatomical structure: "'anatomical structure'"
+ anatomical structure morphogenesis: "'anatomical structure morphogenesis'"
+
+name:
+     text: "%s morphogenesis"
+     vars:
+       - 'anatomical structure'
+
+def:
+  text: "The developmental process by which %s is generated and organized."
+  vars:
+     - 'anatomical structure'
+
+equivalentTo:
+  text: " %s and 'results in morphogenesis of' some %s"
+  vars:
+    - 'anatomical structure morphogenesis'
+    - 'anatomical structure'
+
+    
+
+
