@@ -1,0 +1,31 @@
+pattern_name: protein_localization_to
+
+classes:
+  cellular component: GO:0005575
+  protein localization: GO:0008104
+
+relations: 
+  has_target_end_location: RO:0002339
+
+vars:
+ cellular component: "'cellular component'"
+ protein localization: "'protein localization'"
+
+name:
+     text: "protein localization to %s"
+     vars:
+       - 'cellular component'
+
+def:
+  text: "A process in which a protein is transported to, or maintained in, a location within %s."
+  vars:
+     - 'cellular component'
+
+equivalentTo:
+  text: " %s and 'has target end location' some %s"
+  vars:
+    - 'protein localization'
+    - 'cellular component'
+    
+
+
