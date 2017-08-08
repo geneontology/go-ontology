@@ -31,22 +31,31 @@ def test_vars(pattern):
         warnings.warn("Pattern has no vars")  
         return True ## If this is to be compulsory, should be spec'd as such in json_schema
     if 'data_vars' in pattern.keys():
-        vars = vars.update(set(pattern.data_vars.keys()))
+        vars.update(set(pattern.data_vars.keys()))
+    if 'substitutions' in pattern.keys():
+        subvars = [X['out'] for X in pattern['substitutions']]
+        vars.update(set(subvars))       
     expr = parse('*..vars')
     var_fields = [match for match in expr.find(pattern)]
     stat = True
-    for field in var_fields:
-        val = set(field.value)
-        if not vars.issuperset(val):
-            warnings.warn("%s has values (%s) not found in pattern variable list (%s): "
+    if var_fields:
+        for field in var_fields:
+            val = set(field.value)
+            if not vars.issuperset(val):
+                warnings.warn("%s has values (%s) not found in pattern variable list (%s): "
                   % (field.full_path, str(val.difference(vars)), str(vars)))
-            stat = False
+                stat = False
+    else:
+         warnings.warn("Pattern has no var fields")         
     return stat
 
 schema_url = 'https://raw.githubusercontent.com/dosumis/dead_simple_owl_design_patterns/master/spec/DOSDP_schema_full.yaml'
+
+local = open("/repos/dead_simple_owl_design_patterns/spec/DOSDP_schema_full.yaml", 'r')
+
 dosdp_full_text = requests.get(schema_url)
 
-dosdp = yaml.load(dosdp_full_text.text)
+dosdp = yaml.load(local.read())
 
 v = Draft4Validator(dosdp)
 
