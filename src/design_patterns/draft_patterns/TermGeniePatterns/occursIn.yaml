@@ -1,4 +1,4 @@
-pattern_name: OccursIn
+pattern_name: occursIn
 
 classes:
   process: GO:0008150
