@@ -1,12 +1,12 @@
 pattern_name: inhibitor_activity
 
 classes:
-  molecular_function: GO_0003674
-  catalytic activity: GO_0003824
+  molecular function: GO:0003674
+  catalytic activity: GO:0003824
 
   
 relations:
-  directly negatively regulates: RO_0002630
+  directly negatively regulates: RO:0002630
 
 
 vars:
@@ -34,6 +34,6 @@ def:
 
     
 equivalentTo:
-  text: "'molecular_function that 'directly negatively regulates' some %s"
+  text: "'molecular function' that 'directly negatively regulates' some %s"
   vars: 
     - regulated_activity
