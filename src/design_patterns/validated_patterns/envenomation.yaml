@@ -21,6 +21,6 @@ def:
      - mod  # Need a way to specify regex transformation that subs 'in the bitten organism' for 'in other organism'
     
 equivalentTo: 
-  text: "'envenomation resulting in modification of morphology or physiology of other organism' and 'has part' some '%s'"
+  text: "'envenomation resulting in modification of morphology or physiology of other organism' and 'has part' some %s"
   vars:
    - mod

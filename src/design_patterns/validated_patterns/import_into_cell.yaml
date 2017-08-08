@@ -1,9 +1,9 @@
 pattern_name: import_into_cell
-classes: 
+classes:
   transport: GO:0006810 
   extracellular region: GO:0005576 
   intracellular part: GO:0044424 
-  chemical entity: CHEBI_24431  # encompasses protein
+  chemical entity: CHEBI:24431  # encompasses protein
   macromolecular complex: GO:0043234  # encompasses protein complex
 
 relations:
