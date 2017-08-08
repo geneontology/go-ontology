@@ -46,16 +46,38 @@ def test_vars(pattern):
                   % (field.full_path, str(val.difference(vars)), str(vars)))
                 stat = False
     else:
-         warnings.warn("Pattern has no var fields")         
+         warnings.warn("Pattern has no var fields")
     return stat
+
+def test_text_fields(pattern):
+    owl_entities = set()
+    if 'classes' in pattern.keys(): owl_entities.update(set(pattern['classes'].keys()))
+    if 'relations' in pattern.keys(): owl_entities.update(set(pattern['relations'].keys()))
+    expr = parse('*..text')
+    text_fields = [match for match in expr.find(pattern)]
+    if text_fields:
+        for field in text_fields:
+            # Test for even number single quotes
+            val = field.value
+            m = re.findall("'", val)
+            if divmod(len(m), 2)[1]:
+                warnings.warn("text field '%s' has an odd number of single quotes." % val)
+                state  = False
+            # Test that single quoted strings are OWL entities in dict.
+            m = re.findall("'(.+?)'", val)
+            quoted = set(m)
+            if not owl_entities.issuperset(quoted):
+                warnings.warn("%s has values (%s) not found in owl entity dictionaries t (%s): "
+                  % (field.full_path, str(quoted.difference(owl_entities)), str(owl_entities)))
+                stat = False
+    else:
+         warnings.warn("Pattern has no text fields")    
 
 schema_url = 'https://raw.githubusercontent.com/dosumis/dead_simple_owl_design_patterns/master/spec/DOSDP_schema_full.yaml'
 
-local = open("/repos/dead_simple_owl_design_patterns/spec/DOSDP_schema_full.yaml", 'r')
-
 dosdp_full_text = requests.get(schema_url)
 
-dosdp = yaml.load(local.read())
+dosdp = yaml.load(dosdp_full_text.text)
 
 v = Draft4Validator(dosdp)
 
@@ -68,6 +90,7 @@ for pattern_doc in pattern_docs:
     pattern = yaml.load(file.read())
     if not test_jschema(v, pattern): stat = False
     if not test_vars(pattern): stat = False
+    if not test_text_fields(pattern): stat = False
   
 if not stat:
     sys.exit(1)
