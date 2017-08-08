@@ -17,7 +17,7 @@ def test_jschema(validator, test_pattern):
     if not validator.is_valid(test_pattern):
         es = validator.iter_errors(test_pattern)
         for e in es:
-            warnings.warn(str(e))
+            warnings.warn(str("\n".join([e.message, str(e.instance)])))
             return False
     else:
         return True
