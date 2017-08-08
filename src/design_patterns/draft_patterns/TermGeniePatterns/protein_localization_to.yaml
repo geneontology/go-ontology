@@ -16,6 +16,24 @@ name:
      vars:
        - 'cellular component'
 
+annotations:
+  - annotationProperty: oio:hasExactSynonym
+    text: "establishment of protein localisation to %s"
+    vars:
+     - 'cellular component' 
+     
+annotations:
+  - annotationProperty: oio:hasExactSynonym
+    text: "establishment of protein localization in %s"
+    vars:
+     - 'cellular component'      
+     
+annotations:
+  - annotationProperty: oio:hasExactSynonym
+    text: "establishment of protein localisation in %s"
+    vars:
+     - 'cellular component'   
+     
 def:
   text: "A process in which a protein is transported to, or maintained in, a location within %s."
   vars:
