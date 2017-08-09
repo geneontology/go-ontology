@@ -6,7 +6,6 @@ This guide is not yet complete.
 
 .. image:: https://travis-ci.org/geneontology/go-ontology.svg?branch=master
 
-Contents:
 
 .. toctree::
    :maxdepth: 2
