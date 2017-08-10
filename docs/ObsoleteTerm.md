@@ -21,6 +21,8 @@ Template:
    Any comments can be added to the issue: [link to GitHub ticket]. We are opening a comment period for this proposed obsoletion. We'd like to proceed and obsolete this term on [DATE] 
    *** Unless objections are received by [DATE] , we will assume that you agree to this change. ***
 
+**Remeber to list the databases affected by the obsoletion**
+
 
 OBSOLETION PROCESS 
 1. Navigate to the term to be obsoleted.
