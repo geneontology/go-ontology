@@ -73,7 +73,8 @@ test: $(SRC)-check sparql_test change-report.txt reasoned.owl
 
 # note: until we go live, the travis test must omit change-report. This is because as a demo repo,
 # we naturally fall behind the actual live PURL. **DELETE THIS TARGET WHEN WE GO LIVE**
-travis_test: $(SRC)-check sparql_test reasoned.owl
+#travis_test: $(SRC)-check sparql_test reasoned.owl
+travis_test: $(SRC)-check sparql_test change-report.txt reasoned.owl
 
 full_test: test $(ONT).obo
 
@@ -133,6 +134,7 @@ GO.xrf_abbs: $(SRC)
 $(SRC)-check: $(SRC) GO.xrf_abbs
 	$(PERLCHECK) --disable-isa-incomplete --xref-abbs GO.xrf_abbs $< > $@.tmp && mv $@.tmp $@
 
+# consider using snapshot release
 PREVIOUS=go-lastrelease.owl
 $(PREVIOUS): $(SRC)
 	wget $(OBO)/go.obo -O $@ && touch $@
