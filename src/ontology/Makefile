@@ -368,7 +368,7 @@ reports/%-violation.csv: $(SRC)
 # ----------------------------------------
 # We use `robot query` to generate TSVs from SPARQL
 
-REPORTS = owl-stats basic-report class-count-by-prefix edges labels xrefs
+REPORTS = owl-stats basic-report class-count-by-prefix edges labels xrefs obsoletes synonyms
 REPORT_ARGS = $(foreach V,$(REPORTS),-s $(SPARQLDIR)/$V.sparql reports/$V.tsv)
 all_reports: go.owl
 	robot query -f tsv -i $< $(REPORT_ARGS)
