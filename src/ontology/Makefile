@@ -74,7 +74,7 @@ test: $(SRC)-check sparql_test change-report.txt reasoned.owl
 # note: until we go live, the travis test must omit change-report. This is because as a demo repo,
 # we naturally fall behind the actual live PURL. **DELETE THIS TARGET WHEN WE GO LIVE**
 #travis_test: $(SRC)-check sparql_test reasoned.owl
-travis_test: $(SRC)-check sparql_test change-report.txt reasoned.owl
+travis_test: $(SRC)-check sparql_test change-report.txt all_reports reasoned.owl
 
 full_test: test $(ONT).obo
 
@@ -382,18 +382,19 @@ reports/%-violation.csv: $(SRC)
 # ----------------------------------------
 # REPORTS
 # ----------------------------------------
+# We use `robot query` to generate TSVs from SPARQL
 
-REPORTS = stats basicReport numberOfClassesByPrefix edges labels
+REPORTS = owl-stats basic-report class-count-by-prefix edges labels xrefs obsoletes synonyms
+REPORT_ARGS = $(foreach V,$(REPORTS),-s $(SPARQLDIR)/$V.sparql reports/$V.tsv)
+all_reports: go.owl
+	robot query -f tsv -i $< $(REPORT_ARGS)
 
-all_reports: $(patsubst %,reports/go-%.csv,$(REPORTS))
+#all_src_reports: $(patsubst %,reports/src-%.tsv,$(REPORTS))
 
-$(REPORTDIR):
-	mkdir $@
-
-reports/go-%.csv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
-	robot -vv query -f csv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
-reports/src-%.csv: go-edit.obo $(SPARQLDIR)/%.sparql $(REPORTDIR)
-	robot query -f csv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
+reports/%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
+	robot -vv query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
+reports/src-%.tsv: go-edit.obo $(SPARQLDIR)/%.sparql $(REPORTDIR)
+	robot query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
 
 # ----------------------------------------
 # ADDING INFERENCES
