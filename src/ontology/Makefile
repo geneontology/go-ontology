@@ -94,6 +94,7 @@ prepare_release: build
 	cp extensions/* $(RELEASEDIR)/extensions &&\
 	cp go-basic.* $(RELEASEDIR) &&\
 	cp subsets/* $(RELEASEDIR)/subsets &&\
+	cp reports/* $(RELEASEDIR)/reports &&\
 	echo "Release files are now in $(RELEASEDIR)"
 
 # deploy to S3
@@ -365,15 +366,17 @@ reports/%-violation.csv: $(SRC)
 # ----------------------------------------
 # REPORTS
 # ----------------------------------------
+# We use `robot query` to generate TSVs from SPARQL
 
 REPORTS = stats basicReport numberOfClassesByPrefix edges labels
 
-all_reports: $(patsubst %,reports/go-%.tsv,$(REPORTS))
+all_reports: $(patsubst %,reports/%.tsv,$(REPORTS))
+all_src_reports: $(patsubst %,reports/src-%.tsv,$(REPORTS))
 
 $(REPORTDIR):
 	mkdir $@
 
-reports/go-%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
+reports/%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
 	robot query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
 reports/src-%.tsv: go-edit.obo $(SPARQLDIR)/%.sparql $(REPORTDIR)
 	robot query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
