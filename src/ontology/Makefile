@@ -67,7 +67,7 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
+stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz subset-reports
 
 test: $(SRC)-check sparql_test change-report.txt reasoned.owl
 
@@ -130,7 +130,7 @@ deploy-release:
 # TODO: use json form of this file
 # See also: https://github.com/geneontology/go-ontology/issues/13837
 GO.xrf_abbs: $(SRC)
-	wget https://s3.amazonaws.com/go-public/metadata/db-xrefs.legacy -O $@.tmp && mv $@.tmp $@ && touch $@
+	wget --no-check-certificate https://s3.amazonaws.com/go-public/metadata/db-xrefs.legacy -O $@.tmp && mv $@.tmp $@ && touch $@
 
 $(SRC)-check: $(SRC) GO.xrf_abbs
 	$(PERLCHECK) --disable-isa-incomplete --xref-abbs GO.xrf_abbs $< > $@.tmp && mv $@.tmp $@
@@ -195,6 +195,7 @@ $(ONT).obo: $(ONT)-pre-reduced.obo
 	cp $(BUILD_DIR)/go-simple.obo . &&\
 	cp $(BUILD_DIR)/go.owl .
 
+
 # This is produced as a byproduct of go.obo
 go-simple.obo: $(ONT).obo
 go.owl: $(ONT).obo
@@ -212,6 +213,21 @@ go-basic.obo: go-simple-filtered-reduced.obo
 
 go-basic.owl: go-basic.obo
 	$(ROBOT) convert -i $< -o $@
+
+# ----------------------------------------
+# SUBSET REPORTS
+# ----------------------------------------
+# Currently the only per-subset report is id-label pairs
+# See: https://github.com/geneontology/go-ontology/issues/14028
+
+# get all subsets
+subset-files = $(shell ls subsets/*.owl)
+
+# so far we only make simple .tsv reports
+SUBSET_REPORTS = $(patsubst %,%.tsv,$(basename $(subset-files)))
+subset-reports: $(SUBSET_REPORTS)
+subsets/%.tsv: subsets/%.owl
+	robot query -f tsv -i $< -s ../sparql/labels.sparql $@
 
 # ----------------------------------------
 # IMPORT MODULES
@@ -376,7 +392,7 @@ all_reports: go.owl
 #all_src_reports: $(patsubst %,reports/src-%.tsv,$(REPORTS))
 
 reports/%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
-	robot query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
+	robot -vv query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
 reports/src-%.tsv: go-edit.obo $(SPARQLDIR)/%.sparql $(REPORTDIR)
 	robot query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
 
