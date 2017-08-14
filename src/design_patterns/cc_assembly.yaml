@@ -1,11 +1,11 @@
 pattern_name: cc_assembly
 
 classes:
-  cellular component: GO:0005575
-  cellular component assembly: GO:0022607
+  cellular component: "GO:0005575"
+  cellular component assembly: "GO:0022607"
 
 relations: 
-  results_in_assembly_of: RO:0002588
+  results_in_assembly_of: "RO:0002588"
 
 vars:
  cellular component: "'cellular component'"
