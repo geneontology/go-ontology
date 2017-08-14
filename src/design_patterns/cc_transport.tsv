@@ -1,1 +1,7 @@
 ?defined_class	?defined_class_label	?cellular_component	?cellular_component_label	?transport	?transport_label
+<http://purl.obolibrary.org/obo/GO_0061707>	"extracellular exosome macropinocytosis"	<http://purl.obolibrary.org/obo/GO_0070062>	"extracellular exosome"	<http://purl.obolibrary.org/obo/GO_0044351>	"macropinocytosis"
+<http://purl.obolibrary.org/obo/GO_0032402>	"melanosome transport"	<http://purl.obolibrary.org/obo/GO_0042470>	"melanosome"	<http://purl.obolibrary.org/obo/GO_0006810>	"transport"
+<http://purl.obolibrary.org/obo/GO_0051904>	"pigment granule transport"	<http://purl.obolibrary.org/obo/GO_0048770>	"pigment granule"	<http://purl.obolibrary.org/obo/GO_0006810>	"transport"
+<http://purl.obolibrary.org/obo/GO_0015869>	"protein-DNA complex transport"	<http://purl.obolibrary.org/obo/GO_0032993>	"protein-DNA complex"	<http://purl.obolibrary.org/obo/GO_0006810>	"transport"
+<http://purl.obolibrary.org/obo/GO_0048489>	"synaptic vesicle transport"	<http://purl.obolibrary.org/obo/GO_0008021>	"synaptic vesicle"	<http://purl.obolibrary.org/obo/GO_0006810>	"transport"
+<http://purl.obolibrary.org/obo/GO_0046794>	"transport of virus"	<http://purl.obolibrary.org/obo/GO_0019012>	"virion"	<http://purl.obolibrary.org/obo/GO_0006810>	"transport"
