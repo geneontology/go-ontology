@@ -2,18 +2,18 @@ pattern_name: import_across_plasma_membrane
 # implicitly import into cell across plamsa membrane
 
 classes: 
-  transport: GO:0006810 
-  extracellular region: GO:0005576 
-  cytosol: GO:0005829
-  chemical entity: CHEBI_24431  # encompasses protein
-  macromolecular complex: GO:0043234  # encompasses protein complex
-  plasma membrane: GO:0005886
+  transport: "GO:0006810"
+  extracellular region: "GO:0005576"
+  cytosol: "GO:0005829"
+  chemical entity: "CHEBI:24431"  # encompasses protein
+  macromolecular complex: "GO:0043234"  # encompasses protein complex
+  plasma membrane: "GO:0005886"
 
 relations:
-  has target start location: RO:0002338
-  has target end location: RO:0002339
-  results in transport across: RO:0002342
-  imports: RO:0002340
+  has target start location: "RO:0002338"
+  has target end location: "RO:0002339"
+  results in transport across: "RO:0002342"
+  imports: "RO:0002340"
 
 vars: 
   imported: "'chemical entity' or 'macromolecular complex'"

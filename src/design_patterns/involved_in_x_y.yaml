@@ -1,11 +1,11 @@
 pattern_name: involved_in_x_y
 
 classes:
-  biological process: GO:0008150
-  biological process: GO:0008150
+  biological process: "GO:0008150"
+  biological process: "GO:0008150"
 
 relations: 
-  part of: BFO:0000050
+  part of: "BFO:0000050"
   
 vars:
   biological process: "'biological process'"

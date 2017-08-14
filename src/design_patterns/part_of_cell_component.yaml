@@ -1,8 +1,8 @@
 pattern_name: part_of_cell_component
 
 classes:
-  cellular component: GO:0005575
-  cellular component: GO:0005575
+  cellular component: "GO:0005575"
+  cellular component: "GO:0005575"
 
 relations: 
   part of: BFO:0000050

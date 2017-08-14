@@ -1,11 +1,11 @@
 pattern_name: x_structural_organization
 
 classes:
-  anatomical structure: UBERON:0000061
-  anatomical structure arrangement: GO:0048532
+  anatomical structure: "UBERON:0000061"
+  anatomical structure arrangement: "GO:0048532"
 
 relations: 
-  results in structural organization of: RO:0002355
+  results in structural organization of: "RO:0002355"
 
 vars:
  anatomical structure: "'anatomical structure'"

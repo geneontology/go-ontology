@@ -1,11 +1,11 @@
 pattern_name: x_morphogenesis
 
 classes:
-  anatomical structure: UBERON:0000061
-  anatomical structure morphogenesis: GO:0009653
+  anatomical structure: "UBERON:0000061"
+  anatomical structure morphogenesis: "GO:0009653"
 
 relations: 
-  results in morphogenesis of: ROL0002298
+  results in morphogenesis of: "RO:0002298"
 
 vars:
  anatomical structure: "'anatomical structure'"

@@ -1,11 +1,11 @@
 pattern_name: occursIn
 
 classes:
-  process: GO:0008150
-  location: BFO:0000004
+  process: "GO:0008150
+  location: "BFO:0000004"
 
 relations: 
-  occurs_in: BFO:0000066
+  occurs_in: "BFO:0000066"
 
 vars:
  process: "'process'"

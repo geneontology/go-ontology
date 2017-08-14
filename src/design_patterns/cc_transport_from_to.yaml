@@ -1,13 +1,13 @@
 pattern_name: cc_transport_from_to
 
 classes:
-  transport: GO:0006810
-  cellular component: GO:0005575
-  cellular component: GO:0005575
+  transport: "GO:0006810"
+  cellular component: "GO:0005575"
+  cellular component: "GO:0005575"
 
 relations: 
-  has_target_start_location: RO:0002338
-  has_target_end_location: RO:0002339
+  has_target_start_location: "RO:0002338"
+  has_target_end_location: "RO:0002339"
 
 vars:
  transport: "'transport'"
