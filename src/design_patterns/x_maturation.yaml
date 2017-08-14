@@ -9,7 +9,6 @@ relations:
 
 vars:
  anatomical structure: "'anatomical structure'"
- developmental maturation: "'developmental maturation'"
 
 name:
      text: "%s maturation"
@@ -22,9 +21,8 @@ def:
      - 'anatomical structure'
 
 equivalentTo:
-  text: " %s and 'results in developmental progression of' some %s"
+  text: " 'developmental maturation' and 'results in developmental progression of' some %s"
   vars:
-    - 'developmental maturation'
     - 'anatomical structure'
 
     
