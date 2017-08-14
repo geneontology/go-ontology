@@ -1,12 +1,12 @@
 pattern_name: intrinsic_membrane_component
 
 classes:
-  membrane: GO:0016020
-  side of membrane: GO:0098552
-  intrinsic component of membrane: GO:0031224
+  membrane: "GO:0016020"
+  side of membrane: "GO:0098552"
+  intrinsic component of membrane: "GO:0031224"
 
 relations:
-  part of: BFO:0000050
+  part of: "BFO:0000050"
 
 vars: 
   membrane: "'membrane' or 'side of membrane'"
