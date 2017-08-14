@@ -1,11 +1,11 @@
 pattern_name: multi_organism_process
 
 classes:
-  biological process: GO:0008150
-  multi organismal process quality: PATO:0002486
+  biological process: "GO:0008150"
+  multi organismal process quality: "PATO:0002486"
 
 relations: 
-  bearer of: RO:0000053
+  bearer of: "RO:0000053"
 
 vars:
  biological process: "'biological process'"

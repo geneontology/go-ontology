@@ -1,11 +1,11 @@
 pattern_name: protein_localization_to
 
 classes:
-  cellular component: GO:0005575
-  protein localization: GO:0008104
+  cellular component: "GO:0005575"
+  protein localization: "GO:0008104"
 
 relations: 
-  has_target_end_location: RO:0002339
+  has_target_end_location: "RO:0002339"
 
 vars:
  cellular component: "'cellular component'"

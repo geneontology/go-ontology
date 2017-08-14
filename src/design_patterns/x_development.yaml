@@ -1,11 +1,11 @@
 pattern_name: x_development
 
 classes:
-  anatomical structure: UBERON:0000061
-  anatomical structure development: GO:0048856
+  anatomical structure: "UBERON:0000061"
+  anatomical structure development: "GO:0048856"
 
 relations: 
-  results in development of: RO:0002296
+  results in development of: "RO:0002296"
 
 vars:
  anatomical structure: "'anatomical structure'"

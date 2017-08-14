@@ -1,11 +1,11 @@
 pattern_name: protein_complex_by_activity
 
 classes:
-  molecular function: GO:0003674
-  protein complex: GO:0043234
+  molecular function: "GO:0003674"
+  protein complex: "GO:0043234"
 
 relations: 
-  capable of: RO:0002215
+  capable of: "RO:0002215"
 
 vars:
   molecular function: "'molecular function'"

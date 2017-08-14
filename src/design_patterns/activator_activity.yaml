@@ -1,11 +1,11 @@
 pattern_name: activator_activity
 
 classes:
-  molecular_function: GO:0003674
-  catalytic activity: GO:0003824
+  molecular_function: "GO:0003674"
+  catalytic activity: "GO:0003824"
 
 relations:
-  directly positively regulates: RO:0002629
+  directly positively regulates: "RO:0002629"
 
 vars:
   regulated_activity: "'catalytic activity'"

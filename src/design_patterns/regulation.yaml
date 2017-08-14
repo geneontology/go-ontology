@@ -2,10 +2,10 @@ pattern_name: regulation
 
 classes:
   Thing: owl:Thing
-  biological regulation: GO:0065007
+  biological regulation: "GO:0065007"
 
 relations: 
-  regulates: RO:0002211
+  regulates: "RO:0002211"
 
 vars:
  entity: Thing

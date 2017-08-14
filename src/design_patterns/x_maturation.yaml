@@ -1,11 +1,11 @@
 pattern_name: x_maturation
 
 classes:
-  anatomical structure: UBERON:0000061
-  developmental maturation: GO:0021700
+  anatomical structure: "UBERON:0000061"
+  developmental maturation: "GO:0021700"
 
 relations: 
-  results in developmental progression of: RO:0002295
+  results in developmental progression of: "RO:0002295"
 
 vars:
  anatomical structure: "'anatomical structure'"

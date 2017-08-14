@@ -1,15 +1,14 @@
 pattern_name: establishment_of_protein_localization_to
 
 classes:
-  cellular component: GO:0005575
-  establishment of protein localization: GO:0045184
+  cellular component: "GO:0005575"
+  establishment of protein localization: "GO:0045184"
 
 relations: 
-  has_target_end_location: RO:0002339
+  has_target_end_location: "RO:0002339"
 
 vars:
- cellular component: "'cellular component'"
- establishment of protein localizationn: "'establishment of protein localization'"
+ target: "'cellular component'"
 
 name:
      text: "establishment of protein localization to %s"
@@ -22,10 +21,9 @@ def:
      - 'cellular component'
 
 equivalentTo:
-  text: " %s and 'has target end location' some %s"
+  text: " 'establishment of protein localization' and 'has_target_end_location' some %s"
   vars:
-    - 'establishment of protein localization'
-    - 'cellular component'
+    - target
     
 
 
