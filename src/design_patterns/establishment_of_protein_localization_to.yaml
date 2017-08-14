@@ -13,12 +13,12 @@ vars:
 name:
      text: "establishment of protein localization to %s"
      vars:
-       - 'cellular component'
+       - target
 
 def:
   text: "The directed movement of a protein to a specific location in %s."
   vars:
-     - 'cellular component'
+     - target
 
 equivalentTo:
   text: " 'establishment of protein localization' and 'has_target_end_location' some %s"
