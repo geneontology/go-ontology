@@ -8,22 +8,22 @@ relations:
   results in developmental progression of: "RO:0002295"
 
 vars:
- anatomical structure: "'anatomical structure'"
+ target: "'anatomical structure'"
 
 name:
      text: "%s maturation"
      vars:
-       - 'anatomical structure'
+       - target
 
 def:
   text: "A developmental process, independent of morphogenetic (shape) change, that is required for the %s to attain its fully functional state."
   vars:
-     - 'anatomical structure'
+     - target
 
 equivalentTo:
   text: " 'developmental maturation' and 'results in developmental progression of' some %s"
   vars:
-    - 'anatomical structure'
+    - target
 
     
 
