@@ -54,11 +54,15 @@ GO defined many sub relations of **has participant**:
 
 ![image](https://user-images.githubusercontent.com/112839/29292701-f9dd1840-80fc-11e7-82d7-b5a1e0c42591.png)
 
-### Axiomatisation of occurs in
+### Property chains an inference over partonomy
 
 ![image](https://user-images.githubusercontent.com/112839/29292754-38700158-80fd-11e7-9a8f-dda89cb73cd3.png)
 
 ![image](https://user-images.githubusercontent.com/112839/29292765-3ed84906-80fd-11e7-96a9-2125275205a7.png)
+
+![image](https://user-images.githubusercontent.com/112839/29293385-cbf10952-80ff-11e7-833e-b8620f219c2e.png)
+
+![image](https://user-images.githubusercontent.com/112839/29293387-cdf91564-80ff-11e7-9fa1-6443651f31d6.png)
 
 
 
