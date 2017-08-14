@@ -1,15 +1,15 @@
 pattern_name: import_into_cell
 classes:
-  transport: GO:0006810 
-  extracellular region: GO:0005576 
-  intracellular part: GO:0044424 
-  chemical entity: CHEBI:24431  # encompasses protein
-  macromolecular complex: GO:0043234  # encompasses protein complex
+  transport: "GO:0006810"
+  extracellular region: "GO:0005576"
+  intracellular part: "GO:0044424"
+  chemical entity: "CHEBI:24431"  # encompasses protein
+  macromolecular complex: "GO:0043234" # encompasses protein complex
 
 relations:
-  has target start location: RO:0002338
-  has target end location: RO:0002339
-  imports: RO:0002340
+  has target start location: "RO:0002338"
+  has target end location: "RO:0002339"
+  imports: "RO:0002340"
     
 vars: 
   imported: "'chemical entity' or 'macromolecular complex'"
