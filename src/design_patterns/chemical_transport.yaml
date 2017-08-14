@@ -8,25 +8,23 @@ relations:
   transports_or_maintains_localization_of: "RO:0002313"
 
 vars:
- transport: "'transport'"
- chemical entity: "'chemical entity'"
+ chemical: "'chemical entity'"
  
 
 name:
      text: "%s transport"
      vars:
-       - 'chemical entity'
+       - chemical
 
 def:
   text: "The directed movement of %s into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore."
   vars:
-     - 'chemical entity'
+     - chemical
 
 equivalentTo:
-  text: " %s and 'transports_or_maintains_localization_of' some %s "
+  text: " 'transport' and 'transports_or_maintains_localization_of' some %s "
   vars:
-    - 'transport'
-    - 'chemical entity'
+    - chemical
     
 
 
