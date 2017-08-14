@@ -1,4 +1,4 @@
-Warning - this document is liable to become stale.  You are encouraged to check the ontology using Protege for the latest upper level classifications and relation (object property) definitions and axiomatisation.
+*Warning - this document is liable to become stale.  You are encouraged to check the ontology using Protege for the latest upper level classifications and relation (object property) definitions and axiomatisation.*
 
 ## Upper level classification in GO.
 
