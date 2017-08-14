@@ -28,7 +28,7 @@ def:
      - 'cellular component'
 
 equivalentTo:
-  text: " %s and 'has_target_start_location' some %s and 'has target end location' some %s"
+  text: " %s and 'has_target_start_location' some %s and 'has_target_end_location' some %s"
   vars:
     - 'transport'
     - 'cellular component'
