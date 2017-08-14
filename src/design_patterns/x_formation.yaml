@@ -1,11 +1,11 @@
 pattern_name: x_formation
 
 classes:
-  anatomical structure: UBERON:0000061
-  anatomical structure formation involved in morphogenesis: GO:0048646
+  anatomical structure: "UBERON:0000061"
+  anatomical structure formation involved in morphogenesis: "GO:0048646"
 
 relations: 
-  results in formation of: RO:0002297
+  results in formation of: "RO:0002297"
 
 vars:
  anatomical structure: "'anatomical structure'"
