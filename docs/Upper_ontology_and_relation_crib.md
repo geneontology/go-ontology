@@ -38,9 +38,30 @@ GO uses relations from the relations ontology (RO), but at the time of writing s
 
 GO/RO have a small number of primitive/fundamental relations.
 
-'has participant':  A relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant.
+**has participant**:  "A relation between a process and a continuant, in which the continuant is somehow involved in the process" *e.g. glucose metabolism 'has participant' some glucose.*
+  - *domain:* occurent
+  - *range:* continuant
 
-'part of': 
+**part of**:  "A core relation that holds between a part and its whole"  *Note: this can apply between two independent continuants (e.g. two cellular components) or between two occurents (e.g. between a molecular_function and a biological_process).
+
+**occurs in**: "A relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant."
+
+**bearer of**: ""
+
+### has participant subproperties
+
+GO defined many sub relations of **has participant**:
+
+![image](https://user-images.githubusercontent.com/112839/29292701-f9dd1840-80fc-11e7-82d7-b5a1e0c42591.png)
+
+### Axiomatisation of occurs in
+
+![image](https://user-images.githubusercontent.com/112839/29292754-38700158-80fd-11e7-9a8f-dda89cb73cd3.png)
+
+![image](https://user-images.githubusercontent.com/112839/29292765-3ed84906-80fd-11e7-96a9-2125275205a7.png)
+
+
+
 
 
 
