@@ -1,11 +1,11 @@
 pattern_name: cc_transport
 
 classes:
-  transport: GO:0006810
-  cellular component: GO:0005575
+  transport: "GO:0006810"
+  cellular component: "GO:0005575"
 
 relations: 
-  transports_or_maintains_localization_of: RO:0002313
+  transports_or_maintains_localization_of: "RO:0002313"
 
 vars:
  transport: "'transport'"
