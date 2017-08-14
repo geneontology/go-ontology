@@ -9,15 +9,15 @@ clean:
 $(SCHEMA):
 	wget --no-check-certificate https://raw.githubusercontent.com/dosumis/dead_simple_owl_design_patterns/master/spec/DOSDP_schema_full.yaml -O $@ && touch $@
 
-pattern-files = $(shell ls validated_patterns/*.yaml)
+pattern-files = $(shell ls *.yaml)
 
 query: $(pattern-files)
 
 .PHONY: query $(pattern-files)
 
-#$(pattern-files): ../ontology/go-edit.obo
-#	dosdp-tools --prefixes=prefixes.yaml --ontology=$< --reasoner=elk --obo-prefixes=true --template=$@ --outfile=$(basename $@).tsv query
+$(pattern-files): ../ontology/go-edit.obo
+	dosdp-tools --prefixes=prefixes.yaml --ontology=$< --reasoner=elk --obo-prefixes=true --template=$@ --outfile=$(basename $@).tsv query
 
 SRC=../../target/go.owl
-validated_patterns/%.tsv: validated_patterns/%.yaml
+%.tsv: %.yaml
 	dosdp-tools --prefixes=prefixes.yaml --ontology=$(SRC) --reasoner=elk --obo-prefixes=true --template=$< --outfile=$@ query
