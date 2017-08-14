@@ -1,7 +1,9 @@
 http://purl.obolibrary.org/obo/BFO_0000050 ## part of
 http://purl.obolibrary.org/obo/BFO_0000051 ## has part
-http://purl.obolibrary.org/obo/BFO_0000066
-http://purl.obolibrary.org/obo/BFO_0000141
+http://purl.obolibrary.org/obo/BFO_0000066 ## occurs in
+http://purl.obolibrary.org/obo/BFO_0000141 ## immaterial entity
+http://purl.obolibrary.org/obo/BFO_0000023 ## role
+http://purl.obolibrary.org/obo/BFO_0000034 ## function
 http://purl.obolibrary.org/obo/RO_0002160
 RO:0002202
 RO:0002494

@@ -19,12 +19,42 @@ id: BFO:0000004
 name: independent continuant
 def: "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." []
 is_a: BFO:0000002 ! continuant
+disjoint_from: BFO:0000020 ! specifically dependent continuant
 
 [Term]
 id: BFO:0000015
 name: process
 def: "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t." []
 is_a: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000016
+name: disposition
+is_a: BFO:0000017 ! realizable entity
+disjoint_from: BFO:0000023 ! role
+
+[Term]
+id: BFO:0000017
+name: realizable entity
+def: "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances." []
+is_a: BFO:0000020 ! specifically dependent continuant
+
+[Term]
+id: BFO:0000020
+name: specifically dependent continuant
+def: "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same." []
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000023
+name: role
+def: "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts." []
+is_a: BFO:0000017 ! realizable entity
+
+[Term]
+id: BFO:0000034
+name: function
+is_a: BFO:0000016 ! disposition
 
 [Term]
 id: BFO:0000040
