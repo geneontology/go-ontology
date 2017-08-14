@@ -13,6 +13,7 @@ Classification of terms in GO is rightly in the domain of work of the gene ontol
 **Occurents**
 
 ![image](https://user-images.githubusercontent.com/112839/29290698-ee6c0360-80f5-11e7-9e58-aa46cedbe01b.png)
+
 Both molecular function and biological process are classified as types of BFO process.  molecular functions are simply processes that can be carried out by a single gene product or complex.
 
 **Continuants**
