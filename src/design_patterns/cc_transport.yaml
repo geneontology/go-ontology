@@ -8,9 +8,7 @@ relations:
   transports_or_maintains_localization_of: "RO:0002313"
 
 vars:
- transport: "'transport'"
- cellular component: "'cellular component'"
- 
+ cellular component: "'cellular component'" 
 
 name:
      text: "%s transport"
@@ -23,9 +21,8 @@ def:
      - 'cellular component'
 
 equivalentTo:
-  text: " %s and 'transports_or_maintains_localization_of' some %s "
+  text: " 'transport' and 'transports_or_maintains_localization_of' some %s "
   vars:
-    - 'transport'
     - 'cellular component'
     
 
