@@ -12,7 +12,7 @@ vars:
   membrane: "'membrane' or 'side of membrane'"
   
 name:
-  text: anchored component of %s
+  text: "anchored component of %s"
   vars: 
     - membrane
     

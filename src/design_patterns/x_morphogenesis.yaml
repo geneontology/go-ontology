@@ -5,7 +5,7 @@ classes:
   anatomical structure morphogenesis: GO:0009653
 
 relations: 
-  results in morphogenesis of: ROL0002298
+  results in morphogenesis of: RO:0002298
 
 vars:
  anatomical structure: "'anatomical structure'"
