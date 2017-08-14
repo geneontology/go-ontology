@@ -21,7 +21,7 @@ def:
      - 'cellular component'
 
 equivalentTo:
-  text: " 'establishment of protein localization' and 'has target end location' some %s"
+  text: " 'establishment of protein localization' and 'has_target_end_location' some %s"
   vars:
     - target
     
