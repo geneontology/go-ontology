@@ -14,18 +14,18 @@ vars:
 name:
      text: "%s in %s"
      vars:
-       - 'process'
-       - 'location'
+       - process
+       - location
 
 def:
   text: "Any %s that takes place in %s."
   vars:
-     - 'process'
-     - 'location'
+     - process
+     - location
 
 equivalentTo:
   text: " %s and 'occurs_in' some %s "
   vars:
-    - 'process'
-    - 'location'
+    - process
+    - location
     
