@@ -8,42 +8,40 @@ relations:
   has_target_end_location: "RO:0002339"
 
 vars:
- cellular component: "'cellular component'"
- protein localization: "'protein localization'"
+ target: "'cellular component'"
 
 name:
      text: "protein localization to %s"
      vars:
-       - 'cellular component'
+       - target
 
 annotations:
   - annotationProperty: oio:hasExactSynonym
     text: "establishment of protein localisation to %s"
     vars:
-     - 'cellular component' 
+     - target
      
 annotations:
   - annotationProperty: oio:hasExactSynonym
     text: "establishment of protein localization in %s"
     vars:
-     - 'cellular component'      
+     - target     
      
 annotations:
   - annotationProperty: oio:hasExactSynonym
     text: "establishment of protein localisation in %s"
     vars:
-     - 'cellular component'   
+     - target  
      
 def:
   text: "A process in which a protein is transported to, or maintained in, a location within %s."
   vars:
-     - 'cellular component'
+     - target
 
 equivalentTo:
-  text: " %s and 'has target end location' some %s"
+  text: " 'protein localization' and 'has target end location' some %s"
   vars:
-    - 'protein localization'
-    - 'cellular component'
+    - target
     
 
 
