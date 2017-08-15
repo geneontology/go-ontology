@@ -26,5 +26,6 @@ go-edit-merged.ttl: ../ontology/go-edit.obo
 	owltools --catalog-xml ../ontology/catalog-v001.xml $< --merge-imports-closure -o $@.tmp && mv $@.tmp $@
 
 SRC=go-edit-merged.ttl
+# https://github.com/INCATools/dosdp-tools/issues/20
 %.tsv: %.yaml $(SRC)
-	dosdp-tools --prefixes=prefixes.yaml --ontology=$(SRC) --reasoner=elk --obo-prefixes=true --template=$< --outfile=$@ query
+	dosdp-tools --prefixes=prefixes.yaml --ontology=$(SRC) --reasoner=elk --obo-prefixes=true --template=$< --outfile=$@.tmp query && ./util/fix-tsvs.pl $@.tmp > $@

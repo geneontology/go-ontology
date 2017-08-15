@@ -1,147 +1,147 @@
-?defined_class	?defined_class_label	?cellular_component	?cellular_component_label	?cellular_process	?cellular_process_label
-<http://purl.obolibrary.org/obo/GO_0080119>	"ER body organization"	<http://purl.obolibrary.org/obo/GO_0010168>	"ER body"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007030>	"Golgi organization"	<http://purl.obolibrary.org/obo/GO_0005794>	"Golgi apparatus"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0030719>	"P granule organization"	<http://purl.obolibrary.org/obo/GO_0043186>	"P granule"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0045232>	"S-layer organization"	<http://purl.obolibrary.org/obo/GO_0030115>	"S-layer"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0033292>	"T-tubule organization"	<http://purl.obolibrary.org/obo/GO_0030315>	"T-tubule"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0044396>	"actin cortical patch organization"	<http://purl.obolibrary.org/obo/GO_0030479>	"actin cortical patch"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0030036>	"actin cytoskeleton organization"	<http://purl.obolibrary.org/obo/GO_0015629>	"actin cytoskeleton"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0061572>	"actin filament bundle organization"	<http://purl.obolibrary.org/obo/GO_0032432>	"actin filament bundle"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007015>	"actin filament organization"	<http://purl.obolibrary.org/obo/GO_0005884>	"actin filament"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0044837>	"actomyosin contractile ring organization"	<http://purl.obolibrary.org/obo/GO_0005826>	"actomyosin contractile ring"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0031032>	"actomyosin structure organization"	<http://purl.obolibrary.org/obo/GO_0042641>	"actomyosin"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0034332>	"adherens junction organization"	<http://purl.obolibrary.org/obo/GO_0005912>	"adherens junction"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0009660>	"amyloplast organization"	<http://purl.obolibrary.org/obo/GO_0009501>	"amyloplast"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0030953>	"astral microtubule organization"	<http://purl.obolibrary.org/obo/GO_0000235>	"astral microtubule"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_1905037>	"autophagosome organization"	<http://purl.obolibrary.org/obo/GO_0005776>	"autophagosome"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0044781>	"bacterial-type flagellum organization"	<http://purl.obolibrary.org/obo/GO_0009288>	"bacterial-type flagellum"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0071711>	"basement membrane organization"	<http://purl.obolibrary.org/obo/GO_0005604>	"basement membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0098784>	"biofilm matrix organization"	<http://purl.obolibrary.org/obo/GO_0097312>	"biofilm matrix component"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0045230>	"capsule organization"	<http://purl.obolibrary.org/obo/GO_0042603>	"capsule"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0043163>	"cell envelope organization"	<http://purl.obolibrary.org/obo/GO_0030313>	"cell envelope"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0034330>	"cell junction organization"	<http://purl.obolibrary.org/obo/GO_0030054>	"cell junction"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0030030>	"cell projection organization"	<http://purl.obolibrary.org/obo/GO_0042995>	"cell projection"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0071555>	"cell wall organization"	<http://purl.obolibrary.org/obo/GO_0005618>	"cell wall"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0045216>	"cell-cell junction organization"	<http://purl.obolibrary.org/obo/GO_0005911>	"cell-cell junction"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0032186>	"cellular bud neck septin ring organization"	<http://purl.obolibrary.org/obo/GO_0000144>	"cellular bud neck septin ring"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"	<http://purl.obolibrary.org/obo/GO_0005575>	"cellular_component"	<http://purl.obolibrary.org/obo/GO_0009987>	"cellular process"
-<http://purl.obolibrary.org/obo/GO_0007098>	"centrosome cycle"	<http://purl.obolibrary.org/obo/GO_0005813>	"centrosome"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0009658>	"chloroplast organization"	<http://purl.obolibrary.org/obo/GO_0009507>	"chloroplast"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0006325>	"chromatin organization"	<http://purl.obolibrary.org/obo/GO_0000785>	"chromatin"	<http://purl.obolibrary.org/obo/GO_0009987>	"cellular process"
-<http://purl.obolibrary.org/obo/GO_0009661>	"chromoplast organization"	<http://purl.obolibrary.org/obo/GO_0009509>	"chromoplast"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0051276>	"chromosome organization"	<http://purl.obolibrary.org/obo/GO_0005694>	"chromosome"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0032053>	"ciliary basal body organization"	<http://purl.obolibrary.org/obo/GO_0036064>	"ciliary basal body"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0044782>	"cilium organization"	<http://purl.obolibrary.org/obo/GO_0005929>	"cilium"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0030199>	"collagen fibril organization"	<http://purl.obolibrary.org/obo/GO_0098643>	"banded collagen fibril"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0033298>	"contractile vacuole organization"	<http://purl.obolibrary.org/obo/GO_0000331>	"contractile vacuole"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0030865>	"cortical cytoskeleton organization"	<http://purl.obolibrary.org/obo/GO_0030863>	"cortical cytoskeleton"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0043622>	"cortical microtubule organization"	<http://purl.obolibrary.org/obo/GO_0055028>	"cortical microtubule"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007028>	"cytoplasm organization"	<http://purl.obolibrary.org/obo/GO_0005737>	"cytoplasm"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0031122>	"cytoplasmic microtubule organization"	<http://purl.obolibrary.org/obo/GO_0005881>	"cytoplasmic microtubule"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007010>	"cytoskeleton organization"	<http://purl.obolibrary.org/obo/GO_0005856>	"cytoskeleton"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0097061>	"dendritic spine organization"	<http://purl.obolibrary.org/obo/GO_0043197>	"dendritic spine"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0061109>	"dense core granule organization"	<http://purl.obolibrary.org/obo/GO_0031045>	"dense core granule"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0002934>	"desmosome organization"	<http://purl.obolibrary.org/obo/GO_0030057>	"desmosome"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0043579>	"elaioplast organization"	<http://purl.obolibrary.org/obo/GO_0009545>	"elaioplast"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0010256>	"endomembrane system organization"	<http://purl.obolibrary.org/obo/GO_0012505>	"endomembrane system"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0071783>	"endoplasmic reticulum cisternal network organization"	<http://purl.obolibrary.org/obo/GO_0071781>	"endoplasmic reticulum cisternal network"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007029>	"endoplasmic reticulum organization"	<http://purl.obolibrary.org/obo/GO_0005783>	"endoplasmic reticulum"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_1990809>	"endoplasmic reticulum tubular network membrane organization"	<http://purl.obolibrary.org/obo/GO_0098826>	"endoplasmic reticulum tubular network membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0071786>	"endoplasmic reticulum tubular network organization"	<http://purl.obolibrary.org/obo/GO_0071782>	"endoplasmic reticulum tubular network"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0097111>	"endoplasmic reticulum-Golgi intermediate compartment organization"	<http://purl.obolibrary.org/obo/GO_0005793>	"endoplasmic reticulum-Golgi intermediate compartment"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007032>	"endosome organization"	<http://purl.obolibrary.org/obo/GO_0005768>	"endosome"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0009662>	"etioplast organization"	<http://purl.obolibrary.org/obo/GO_0009513>	"etioplast"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0045229>	"external encapsulating structure organization"	<http://purl.obolibrary.org/obo/GO_0030312>	"external encapsulating structure"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0030198>	"extracellular matrix organization"	<http://purl.obolibrary.org/obo/GO_0044420>	"extracellular matrix component"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_1905590>	"fibronectin fibril organization"	<http://purl.obolibrary.org/obo/GO_0061800>	"fibronectin fibril"	<http://purl.obolibrary.org/obo/GO_0009987>	"cellular process"
-<http://purl.obolibrary.org/obo/GO_0110009>	"formin-nucleated actin cable organization"	<http://purl.obolibrary.org/obo/GO_0070648>	"formin-nucleated actin cable"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0031505>	"fungal-type cell wall organization"	<http://purl.obolibrary.org/obo/GO_0009277>	"fungal-type cell wall"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0045478>	"fusome organization"	<http://purl.obolibrary.org/obo/GO_0045169>	"fusome"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0010111>	"glyoxysome organization"	<http://purl.obolibrary.org/obo/GO_0009514>	"glyoxysome"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0070828>	"heterochromatin organization"	<http://purl.obolibrary.org/obo/GO_0000792>	"heterochromatin"	<http://purl.obolibrary.org/obo/GO_0009987>	"cellular process"
-<http://purl.obolibrary.org/obo/GO_0032118>	"horsetail-astral microtubule organization"	<http://purl.obolibrary.org/obo/GO_0032117>	"horsetail-astral microtubule array"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007007>	"inner mitochondrial membrane organization"	<http://purl.obolibrary.org/obo/GO_0005743>	"mitochondrial inner membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0043063>	"intercellular bridge organization"	<http://purl.obolibrary.org/obo/GO_0045171>	"intercellular bridge"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0045104>	"intermediate filament cytoskeleton organization"	<http://purl.obolibrary.org/obo/GO_0045111>	"intermediate filament cytoskeleton"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0045109>	"intermediate filament organization"	<http://purl.obolibrary.org/obo/GO_0005882>	"intermediate filament"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0051383>	"kinetochore organization"	<http://purl.obolibrary.org/obo/GO_0000776>	"kinetochore"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0009659>	"leucoplast organization"	<http://purl.obolibrary.org/obo/GO_0009516>	"leucoplast"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0034389>	"lipid particle organization"	<http://purl.obolibrary.org/obo/GO_0005811>	"lipid droplet"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0097212>	"lysosomal membrane organization"	<http://purl.obolibrary.org/obo/GO_0005765>	"lysosomal membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007040>	"lysosome organization"	<http://purl.obolibrary.org/obo/GO_0005764>	"lysosome"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0080171>	"lytic vacuole organization"	<http://purl.obolibrary.org/obo/GO_0000323>	"lytic vacuole"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0043933>	"macromolecular complex subunit organization"	<http://purl.obolibrary.org/obo/GO_0032991>	"macromolecular complex"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0032124>	"macronucleus organization"	<http://purl.obolibrary.org/obo/GO_0031039>	"macronucleus"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_1990395>	"meiotic spindle pole body organization"	<http://purl.obolibrary.org/obo/GO_0035974>	"meiotic spindle pole body"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0032438>	"melanosome organization"	<http://purl.obolibrary.org/obo/GO_0042470>	"melanosome"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0061024>	"membrane organization"	<http://purl.obolibrary.org/obo/GO_0016020>	"membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0031579>	"membrane raft organization"	<http://purl.obolibrary.org/obo/GO_0045121>	"membrane raft"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0032125>	"micronucleus organization"	<http://purl.obolibrary.org/obo/GO_0031040>	"micronucleus"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0000226>	"microtubule cytoskeleton organization"	<http://purl.obolibrary.org/obo/GO_0015630>	"microtubule cytoskeleton"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0034994>	"microtubule organizing center attachment site organization"	<http://purl.obolibrary.org/obo/GO_0034992>	"microtubule organizing center attachment site"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0031023>	"microtubule organizing center organization"	<http://purl.obolibrary.org/obo/GO_0005815>	"microtubule organizing center"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007005>	"mitochondrion organization"	<http://purl.obolibrary.org/obo/GO_0005739>	"mitochondrion"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_1905047>	"mitotic spindle pole body organization"	<http://purl.obolibrary.org/obo/GO_0044732>	"mitotic spindle pole body"	<http://purl.obolibrary.org/obo/GO_0009987>	"cellular process"
-<http://purl.obolibrary.org/obo/GO_0036257>	"multivesicular body organization"	<http://purl.obolibrary.org/obo/GO_0005771>	"multivesicular body"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0031038>	"myosin II filament organization"	<http://purl.obolibrary.org/obo/GO_0097513>	"myosin II filament"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0031033>	"myosin filament organization"	<http://purl.obolibrary.org/obo/GO_0032982>	"myosin filament"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0060052>	"neurofilament cytoskeleton organization"	<http://purl.obolibrary.org/obo/GO_0060053>	"neurofilament cytoskeleton"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007528>	"neuromuscular junction development"	<http://purl.obolibrary.org/obo/GO_0031594>	"neuromuscular junction"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0106027>	"neuron projection organization"	<http://purl.obolibrary.org/obo/GO_0043005>	"neuron projection"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0099014>	"neuronal dense core vesicle organization"	<http://purl.obolibrary.org/obo/GO_0098992>	"neuronal dense core vesicle"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0006998>	"nuclear envelope organization"	<http://purl.obolibrary.org/obo/GO_0005635>	"nuclear envelope"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0071765>	"nuclear inner membrane organization"	<http://purl.obolibrary.org/obo/GO_0005637>	"nuclear inner membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0043578>	"nuclear matrix organization"	<http://purl.obolibrary.org/obo/GO_0016363>	"nuclear matrix"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0071763>	"nuclear membrane organization"	<http://purl.obolibrary.org/obo/GO_0031965>	"nuclear membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0071764>	"nuclear outer membrane organization"	<http://purl.obolibrary.org/obo/GO_0005640>	"nuclear outer membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0006999>	"nuclear pore organization"	<http://purl.obolibrary.org/obo/GO_0005643>	"nuclear pore"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0090143>	"nucleoid organization"	<http://purl.obolibrary.org/obo/GO_0009295>	"nucleoid"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007000>	"nucleolus organization"	<http://purl.obolibrary.org/obo/GO_0005730>	"nucleolus"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0034728>	"nucleosome organization"	<http://purl.obolibrary.org/obo/GO_0000786>	"nucleosome"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0006997>	"nucleus organization"	<http://purl.obolibrary.org/obo/GO_0005634>	"nucleus"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0032122>	"oral apparatus organization"	<http://purl.obolibrary.org/obo/GO_0031912>	"oral apparatus"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0006996>	"organelle organization"	<http://purl.obolibrary.org/obo/GO_0043226>	"organelle"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007008>	"outer mitochondrial membrane organization"	<http://purl.obolibrary.org/obo/GO_0005741>	"mitochondrial outer membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0031504>	"peptidoglycan-based cell wall organization"	<http://purl.obolibrary.org/obo/GO_0009274>	"peptidoglycan-based cell wall"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0043580>	"periplasmic space organization"	<http://purl.obolibrary.org/obo/GO_0042597>	"periplasmic space"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007031>	"peroxisome organization"	<http://purl.obolibrary.org/obo/GO_0005777>	"peroxisome"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0035845>	"photoreceptor cell outer segment organization"	<http://purl.obolibrary.org/obo/GO_0001750>	"photoreceptor outer segment"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0048753>	"pigment granule organization"	<http://purl.obolibrary.org/obo/GO_0048770>	"pigment granule"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0043711>	"pilus organization"	<http://purl.obolibrary.org/obo/GO_0009289>	"pilus"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0009664>	"plant-type cell wall organization"	<http://purl.obolibrary.org/obo/GO_0009505>	"plant-type cell wall"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0071827>	"plasma lipoprotein particle organization"	<http://purl.obolibrary.org/obo/GO_0034358>	"plasma lipoprotein particle"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007009>	"plasma membrane organization"	<http://purl.obolibrary.org/obo/GO_0005886>	"plasma membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0044857>	"plasma membrane raft organization"	<http://purl.obolibrary.org/obo/GO_0044853>	"plasma membrane raft"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0009663>	"plasmodesma organization"	<http://purl.obolibrary.org/obo/GO_0009506>	"plasmodesma"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0009667>	"plastid inner membrane organization"	<http://purl.obolibrary.org/obo/GO_0009528>	"plastid inner membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0009668>	"plastid membrane organization"	<http://purl.obolibrary.org/obo/GO_0042170>	"plastid membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0009657>	"plastid organization"	<http://purl.obolibrary.org/obo/GO_0009536>	"plastid"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0009666>	"plastid outer membrane organization"	<http://purl.obolibrary.org/obo/GO_0009527>	"plastid outer membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0070889>	"platelet alpha granule organization"	<http://purl.obolibrary.org/obo/GO_0031091>	"platelet alpha granule"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0060155>	"platelet dense granule organization"	<http://purl.obolibrary.org/obo/GO_0042827>	"platelet dense granule"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_1904186>	"post-anaphase microtubule array organization"	<http://purl.obolibrary.org/obo/GO_1990295>	"post-anaphase microtubule array"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0001941>	"postsynaptic membrane organization"	<http://purl.obolibrary.org/obo/GO_0045211>	"postsynaptic membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0099084>	"postsynaptic specialization organization"	<http://purl.obolibrary.org/obo/GO_0099572>	"postsynaptic specialization"	<http://purl.obolibrary.org/obo/GO_0009987>	"cellular process"
-<http://purl.obolibrary.org/obo/GO_0097090>	"presynaptic membrane organization"	<http://purl.obolibrary.org/obo/GO_0042734>	"presynaptic membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0071822>	"protein complex subunit organization"	<http://purl.obolibrary.org/obo/GO_0043234>	"protein complex"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_1990019>	"protein storage vacuole organization"	<http://purl.obolibrary.org/obo/GO_0000326>	"protein storage vacuole"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0071824>	"protein-DNA complex subunit organization"	<http://purl.obolibrary.org/obo/GO_0032993>	"protein-DNA complex"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0071823>	"protein-carbohydrate complex subunit organization"	<http://purl.obolibrary.org/obo/GO_0032992>	"protein-carbohydrate complex"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0071825>	"protein-lipid complex subunit organization"	<http://purl.obolibrary.org/obo/GO_0032994>	"protein-lipid complex"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0071826>	"ribonucleoprotein complex subunit organization"	<http://purl.obolibrary.org/obo/GO_0030529>	"intracellular ribonucleoprotein complex"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0045214>	"sarcomere organization"	<http://purl.obolibrary.org/obo/GO_0030017>	"sarcomere"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0033363>	"secretory granule organization"	<http://purl.obolibrary.org/obo/GO_0030141>	"secretory granule"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0032185>	"septin cytoskeleton organization"	<http://purl.obolibrary.org/obo/GO_0032156>	"septin cytoskeleton"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0031106>	"septin ring organization"	<http://purl.obolibrary.org/obo/GO_0005940>	"septin ring"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0045231>	"slime layer organization"	<http://purl.obolibrary.org/obo/GO_0030114>	"slime layer"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0030721>	"spectrosome organization"	<http://purl.obolibrary.org/obo/GO_0045170>	"spectrosome"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007051>	"spindle organization"	<http://purl.obolibrary.org/obo/GO_0005819>	"spindle"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0051300>	"spindle pole body organization"	<http://purl.obolibrary.org/obo/GO_0005816>	"spindle pole body"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_1990255>	"subsynaptic reticulum organization"	<http://purl.obolibrary.org/obo/GO_0071212>	"subsynaptic reticulum"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0097435>	"supramolecular fiber organization"	<http://purl.obolibrary.org/obo/GO_0099512>	"supramolecular fiber"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0050808>	"synapse organization"	<http://purl.obolibrary.org/obo/GO_0045202>	"synapse"	<http://purl.obolibrary.org/obo/GO_0009987>	"cellular process"
-<http://purl.obolibrary.org/obo/GO_0072553>	"terminal button organization"	<http://purl.obolibrary.org/obo/GO_0043195>	"terminal bouton"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0010027>	"thylakoid membrane organization"	<http://purl.obolibrary.org/obo/GO_0042651>	"thylakoid membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0098629>	"trans-Golgi network membrane organization"	<http://purl.obolibrary.org/obo/GO_0032588>	"trans-Golgi network membrane"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0007033>	"vacuole organization"	<http://purl.obolibrary.org/obo/GO_0005773>	"vacuole"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
-<http://purl.obolibrary.org/obo/GO_0016050>	"vesicle organization"	<http://purl.obolibrary.org/obo/GO_0031982>	"vesicle"	<http://purl.obolibrary.org/obo/GO_0016043>	"cellular component organization"
+iri	iri label	cellular_component	cellular_component label	cellular_process	cellular_process label
+GO:0080119	ER body organization	GO:0010168	ER body	GO:0016043	cellular component organization
+GO:0007030	Golgi organization	GO:0005794	Golgi apparatus	GO:0016043	cellular component organization
+GO:0030719	P granule organization	GO:0043186	P granule	GO:0016043	cellular component organization
+GO:0045232	S-layer organization	GO:0030115	S-layer	GO:0016043	cellular component organization
+GO:0033292	T-tubule organization	GO:0030315	T-tubule	GO:0016043	cellular component organization
+GO:0044396	actin cortical patch organization	GO:0030479	actin cortical patch	GO:0016043	cellular component organization
+GO:0030036	actin cytoskeleton organization	GO:0015629	actin cytoskeleton	GO:0016043	cellular component organization
+GO:0061572	actin filament bundle organization	GO:0032432	actin filament bundle	GO:0016043	cellular component organization
+GO:0007015	actin filament organization	GO:0005884	actin filament	GO:0016043	cellular component organization
+GO:0044837	actomyosin contractile ring organization	GO:0005826	actomyosin contractile ring	GO:0016043	cellular component organization
+GO:0031032	actomyosin structure organization	GO:0042641	actomyosin	GO:0016043	cellular component organization
+GO:0034332	adherens junction organization	GO:0005912	adherens junction	GO:0016043	cellular component organization
+GO:0009660	amyloplast organization	GO:0009501	amyloplast	GO:0016043	cellular component organization
+GO:0030953	astral microtubule organization	GO:0000235	astral microtubule	GO:0016043	cellular component organization
+GO:1905037	autophagosome organization	GO:0005776	autophagosome	GO:0016043	cellular component organization
+GO:0044781	bacterial-type flagellum organization	GO:0009288	bacterial-type flagellum	GO:0016043	cellular component organization
+GO:0071711	basement membrane organization	GO:0005604	basement membrane	GO:0016043	cellular component organization
+GO:0098784	biofilm matrix organization	GO:0097312	biofilm matrix component	GO:0016043	cellular component organization
+GO:0045230	capsule organization	GO:0042603	capsule	GO:0016043	cellular component organization
+GO:0043163	cell envelope organization	GO:0030313	cell envelope	GO:0016043	cellular component organization
+GO:0034330	cell junction organization	GO:0030054	cell junction	GO:0016043	cellular component organization
+GO:0030030	cell projection organization	GO:0042995	cell projection	GO:0016043	cellular component organization
+GO:0071555	cell wall organization	GO:0005618	cell wall	GO:0016043	cellular component organization
+GO:0045216	cell-cell junction organization	GO:0005911	cell-cell junction	GO:0016043	cellular component organization
+GO:0032186	cellular bud neck septin ring organization	GO:0000144	cellular bud neck septin ring	GO:0016043	cellular component organization
+GO:0016043	cellular component organization	GO:0005575	cellular_component	GO:0009987	cellular process
+GO:0007098	centrosome cycle	GO:0005813	centrosome	GO:0016043	cellular component organization
+GO:0009658	chloroplast organization	GO:0009507	chloroplast	GO:0016043	cellular component organization
+GO:0006325	chromatin organization	GO:0000785	chromatin	GO:0009987	cellular process
+GO:0009661	chromoplast organization	GO:0009509	chromoplast	GO:0016043	cellular component organization
+GO:0051276	chromosome organization	GO:0005694	chromosome	GO:0016043	cellular component organization
+GO:0032053	ciliary basal body organization	GO:0036064	ciliary basal body	GO:0016043	cellular component organization
+GO:0044782	cilium organization	GO:0005929	cilium	GO:0016043	cellular component organization
+GO:0030199	collagen fibril organization	GO:0098643	banded collagen fibril	GO:0016043	cellular component organization
+GO:0033298	contractile vacuole organization	GO:0000331	contractile vacuole	GO:0016043	cellular component organization
+GO:0030865	cortical cytoskeleton organization	GO:0030863	cortical cytoskeleton	GO:0016043	cellular component organization
+GO:0043622	cortical microtubule organization	GO:0055028	cortical microtubule	GO:0016043	cellular component organization
+GO:0007028	cytoplasm organization	GO:0005737	cytoplasm	GO:0016043	cellular component organization
+GO:0031122	cytoplasmic microtubule organization	GO:0005881	cytoplasmic microtubule	GO:0016043	cellular component organization
+GO:0007010	cytoskeleton organization	GO:0005856	cytoskeleton	GO:0016043	cellular component organization
+GO:0097061	dendritic spine organization	GO:0043197	dendritic spine	GO:0016043	cellular component organization
+GO:0061109	dense core granule organization	GO:0031045	dense core granule	GO:0016043	cellular component organization
+GO:0002934	desmosome organization	GO:0030057	desmosome	GO:0016043	cellular component organization
+GO:0043579	elaioplast organization	GO:0009545	elaioplast	GO:0016043	cellular component organization
+GO:0010256	endomembrane system organization	GO:0012505	endomembrane system	GO:0016043	cellular component organization
+GO:0071783	endoplasmic reticulum cisternal network organization	GO:0071781	endoplasmic reticulum cisternal network	GO:0016043	cellular component organization
+GO:0007029	endoplasmic reticulum organization	GO:0005783	endoplasmic reticulum	GO:0016043	cellular component organization
+GO:1990809	endoplasmic reticulum tubular network membrane organization	GO:0098826	endoplasmic reticulum tubular network membrane	GO:0016043	cellular component organization
+GO:0071786	endoplasmic reticulum tubular network organization	GO:0071782	endoplasmic reticulum tubular network	GO:0016043	cellular component organization
+GO:0097111	endoplasmic reticulum-Golgi intermediate compartment organization	GO:0005793	endoplasmic reticulum-Golgi intermediate compartment	GO:0016043	cellular component organization
+GO:0007032	endosome organization	GO:0005768	endosome	GO:0016043	cellular component organization
+GO:0009662	etioplast organization	GO:0009513	etioplast	GO:0016043	cellular component organization
+GO:0045229	external encapsulating structure organization	GO:0030312	external encapsulating structure	GO:0016043	cellular component organization
+GO:0030198	extracellular matrix organization	GO:0044420	extracellular matrix component	GO:0016043	cellular component organization
+GO:1905590	fibronectin fibril organization	GO:0061800	fibronectin fibril	GO:0009987	cellular process
+GO:0110009	formin-nucleated actin cable organization	GO:0070648	formin-nucleated actin cable	GO:0016043	cellular component organization
+GO:0031505	fungal-type cell wall organization	GO:0009277	fungal-type cell wall	GO:0016043	cellular component organization
+GO:0045478	fusome organization	GO:0045169	fusome	GO:0016043	cellular component organization
+GO:0010111	glyoxysome organization	GO:0009514	glyoxysome	GO:0016043	cellular component organization
+GO:0070828	heterochromatin organization	GO:0000792	heterochromatin	GO:0009987	cellular process
+GO:0032118	horsetail-astral microtubule organization	GO:0032117	horsetail-astral microtubule array	GO:0016043	cellular component organization
+GO:0007007	inner mitochondrial membrane organization	GO:0005743	mitochondrial inner membrane	GO:0016043	cellular component organization
+GO:0043063	intercellular bridge organization	GO:0045171	intercellular bridge	GO:0016043	cellular component organization
+GO:0045104	intermediate filament cytoskeleton organization	GO:0045111	intermediate filament cytoskeleton	GO:0016043	cellular component organization
+GO:0045109	intermediate filament organization	GO:0005882	intermediate filament	GO:0016043	cellular component organization
+GO:0051383	kinetochore organization	GO:0000776	kinetochore	GO:0016043	cellular component organization
+GO:0009659	leucoplast organization	GO:0009516	leucoplast	GO:0016043	cellular component organization
+GO:0034389	lipid particle organization	GO:0005811	lipid droplet	GO:0016043	cellular component organization
+GO:0097212	lysosomal membrane organization	GO:0005765	lysosomal membrane	GO:0016043	cellular component organization
+GO:0007040	lysosome organization	GO:0005764	lysosome	GO:0016043	cellular component organization
+GO:0080171	lytic vacuole organization	GO:0000323	lytic vacuole	GO:0016043	cellular component organization
+GO:0043933	macromolecular complex subunit organization	GO:0032991	macromolecular complex	GO:0016043	cellular component organization
+GO:0032124	macronucleus organization	GO:0031039	macronucleus	GO:0016043	cellular component organization
+GO:1990395	meiotic spindle pole body organization	GO:0035974	meiotic spindle pole body	GO:0016043	cellular component organization
+GO:0032438	melanosome organization	GO:0042470	melanosome	GO:0016043	cellular component organization
+GO:0061024	membrane organization	GO:0016020	membrane	GO:0016043	cellular component organization
+GO:0031579	membrane raft organization	GO:0045121	membrane raft	GO:0016043	cellular component organization
+GO:0032125	micronucleus organization	GO:0031040	micronucleus	GO:0016043	cellular component organization
+GO:0000226	microtubule cytoskeleton organization	GO:0015630	microtubule cytoskeleton	GO:0016043	cellular component organization
+GO:0034994	microtubule organizing center attachment site organization	GO:0034992	microtubule organizing center attachment site	GO:0016043	cellular component organization
+GO:0031023	microtubule organizing center organization	GO:0005815	microtubule organizing center	GO:0016043	cellular component organization
+GO:0007005	mitochondrion organization	GO:0005739	mitochondrion	GO:0016043	cellular component organization
+GO:1905047	mitotic spindle pole body organization	GO:0044732	mitotic spindle pole body	GO:0009987	cellular process
+GO:0036257	multivesicular body organization	GO:0005771	multivesicular body	GO:0016043	cellular component organization
+GO:0031038	myosin II filament organization	GO:0097513	myosin II filament	GO:0016043	cellular component organization
+GO:0031033	myosin filament organization	GO:0032982	myosin filament	GO:0016043	cellular component organization
+GO:0060052	neurofilament cytoskeleton organization	GO:0060053	neurofilament cytoskeleton	GO:0016043	cellular component organization
+GO:0007528	neuromuscular junction development	GO:0031594	neuromuscular junction	GO:0016043	cellular component organization
+GO:0106027	neuron projection organization	GO:0043005	neuron projection	GO:0016043	cellular component organization
+GO:0099014	neuronal dense core vesicle organization	GO:0098992	neuronal dense core vesicle	GO:0016043	cellular component organization
+GO:0006998	nuclear envelope organization	GO:0005635	nuclear envelope	GO:0016043	cellular component organization
+GO:0071765	nuclear inner membrane organization	GO:0005637	nuclear inner membrane	GO:0016043	cellular component organization
+GO:0043578	nuclear matrix organization	GO:0016363	nuclear matrix	GO:0016043	cellular component organization
+GO:0071763	nuclear membrane organization	GO:0031965	nuclear membrane	GO:0016043	cellular component organization
+GO:0071764	nuclear outer membrane organization	GO:0005640	nuclear outer membrane	GO:0016043	cellular component organization
+GO:0006999	nuclear pore organization	GO:0005643	nuclear pore	GO:0016043	cellular component organization
+GO:0090143	nucleoid organization	GO:0009295	nucleoid	GO:0016043	cellular component organization
+GO:0007000	nucleolus organization	GO:0005730	nucleolus	GO:0016043	cellular component organization
+GO:0034728	nucleosome organization	GO:0000786	nucleosome	GO:0016043	cellular component organization
+GO:0006997	nucleus organization	GO:0005634	nucleus	GO:0016043	cellular component organization
+GO:0032122	oral apparatus organization	GO:0031912	oral apparatus	GO:0016043	cellular component organization
+GO:0006996	organelle organization	GO:0043226	organelle	GO:0016043	cellular component organization
+GO:0007008	outer mitochondrial membrane organization	GO:0005741	mitochondrial outer membrane	GO:0016043	cellular component organization
+GO:0031504	peptidoglycan-based cell wall organization	GO:0009274	peptidoglycan-based cell wall	GO:0016043	cellular component organization
+GO:0043580	periplasmic space organization	GO:0042597	periplasmic space	GO:0016043	cellular component organization
+GO:0007031	peroxisome organization	GO:0005777	peroxisome	GO:0016043	cellular component organization
+GO:0035845	photoreceptor cell outer segment organization	GO:0001750	photoreceptor outer segment	GO:0016043	cellular component organization
+GO:0048753	pigment granule organization	GO:0048770	pigment granule	GO:0016043	cellular component organization
+GO:0043711	pilus organization	GO:0009289	pilus	GO:0016043	cellular component organization
+GO:0009664	plant-type cell wall organization	GO:0009505	plant-type cell wall	GO:0016043	cellular component organization
+GO:0071827	plasma lipoprotein particle organization	GO:0034358	plasma lipoprotein particle	GO:0016043	cellular component organization
+GO:0007009	plasma membrane organization	GO:0005886	plasma membrane	GO:0016043	cellular component organization
+GO:0044857	plasma membrane raft organization	GO:0044853	plasma membrane raft	GO:0016043	cellular component organization
+GO:0009663	plasmodesma organization	GO:0009506	plasmodesma	GO:0016043	cellular component organization
+GO:0009667	plastid inner membrane organization	GO:0009528	plastid inner membrane	GO:0016043	cellular component organization
+GO:0009668	plastid membrane organization	GO:0042170	plastid membrane	GO:0016043	cellular component organization
+GO:0009657	plastid organization	GO:0009536	plastid	GO:0016043	cellular component organization
+GO:0009666	plastid outer membrane organization	GO:0009527	plastid outer membrane	GO:0016043	cellular component organization
+GO:0070889	platelet alpha granule organization	GO:0031091	platelet alpha granule	GO:0016043	cellular component organization
+GO:0060155	platelet dense granule organization	GO:0042827	platelet dense granule	GO:0016043	cellular component organization
+GO:1904186	post-anaphase microtubule array organization	GO:1990295	post-anaphase microtubule array	GO:0016043	cellular component organization
+GO:0001941	postsynaptic membrane organization	GO:0045211	postsynaptic membrane	GO:0016043	cellular component organization
+GO:0099084	postsynaptic specialization organization	GO:0099572	postsynaptic specialization	GO:0009987	cellular process
+GO:0097090	presynaptic membrane organization	GO:0042734	presynaptic membrane	GO:0016043	cellular component organization
+GO:0071822	protein complex subunit organization	GO:0043234	protein complex	GO:0016043	cellular component organization
+GO:1990019	protein storage vacuole organization	GO:0000326	protein storage vacuole	GO:0016043	cellular component organization
+GO:0071824	protein-DNA complex subunit organization	GO:0032993	protein-DNA complex	GO:0016043	cellular component organization
+GO:0071823	protein-carbohydrate complex subunit organization	GO:0032992	protein-carbohydrate complex	GO:0016043	cellular component organization
+GO:0071825	protein-lipid complex subunit organization	GO:0032994	protein-lipid complex	GO:0016043	cellular component organization
+GO:0071826	ribonucleoprotein complex subunit organization	GO:0030529	intracellular ribonucleoprotein complex	GO:0016043	cellular component organization
+GO:0045214	sarcomere organization	GO:0030017	sarcomere	GO:0016043	cellular component organization
+GO:0033363	secretory granule organization	GO:0030141	secretory granule	GO:0016043	cellular component organization
+GO:0032185	septin cytoskeleton organization	GO:0032156	septin cytoskeleton	GO:0016043	cellular component organization
+GO:0031106	septin ring organization	GO:0005940	septin ring	GO:0016043	cellular component organization
+GO:0045231	slime layer organization	GO:0030114	slime layer	GO:0016043	cellular component organization
+GO:0030721	spectrosome organization	GO:0045170	spectrosome	GO:0016043	cellular component organization
+GO:0007051	spindle organization	GO:0005819	spindle	GO:0016043	cellular component organization
+GO:0051300	spindle pole body organization	GO:0005816	spindle pole body	GO:0016043	cellular component organization
+GO:1990255	subsynaptic reticulum organization	GO:0071212	subsynaptic reticulum	GO:0016043	cellular component organization
+GO:0097435	supramolecular fiber organization	GO:0099512	supramolecular fiber	GO:0016043	cellular component organization
+GO:0050808	synapse organization	GO:0045202	synapse	GO:0009987	cellular process
+GO:0072553	terminal button organization	GO:0043195	terminal bouton	GO:0016043	cellular component organization
+GO:0010027	thylakoid membrane organization	GO:0042651	thylakoid membrane	GO:0016043	cellular component organization
+GO:0098629	trans-Golgi network membrane organization	GO:0032588	trans-Golgi network membrane	GO:0016043	cellular component organization
+GO:0007033	vacuole organization	GO:0005773	vacuole	GO:0016043	cellular component organization
+GO:0016050	vesicle organization	GO:0031982	vesicle	GO:0016043	cellular component organization

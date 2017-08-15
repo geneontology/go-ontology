@@ -1,1 +1,60 @@
-?defined_class	?defined_class_label	?binding	?binding_label	?macromolecular_complex	?macromolecular_complex_label
+iri	iri label	binding	binding label	macromolecular_complex	macromolecular_complex label
+GO:0035650	AP-1 adaptor complex binding	GO:0005488	binding	GO:0030121	AP-1 adaptor complex
+GO:0035612	AP-2 adaptor complex binding	GO:0005488	binding	GO:0030122	AP-2 adaptor complex
+GO:0035651	AP-3 adaptor complex binding	GO:0005488	binding	GO:0030123	AP-3 adaptor complex
+GO:1904288	BAT3 complex binding	GO:0005488	binding	GO:0071818	BAT3 complex
+GO:0036461	BLOC-2 complex binding	GO:0005488	binding	GO:0031084	BLOC-2 complex
+GO:1905762	CCR4-NOT complex binding	GO:0005488	binding	GO:0030014	CCR4-NOT complex
+GO:0097030	CENP-A containing nucleosome binding	GO:0005488	binding	GO:0043505	CENP-A containing nucleosome
+GO:0034988	Fc-gamma receptor I complex binding	GO:0005488	binding	GO:0033000	Fc-gamma receptor I complex
+GO:0031683	G-protein beta/gamma-subunit complex binding	GO:0005488	binding	GO:0031680	G-protein beta/gamma-subunit complex
+GO:1904931	MCM complex binding	GO:0005488	binding	GO:0042555	MCM complex
+GO:0023024	MHC class I protein complex binding	GO:0005488	binding	GO:0042612	MHC class I protein complex
+GO:0023026	MHC class II protein complex binding	GO:0005488	binding	GO:0042613	MHC class II protein complex
+GO:0023025	MHC class Ib protein complex binding	GO:0005488	binding	GO:0032398	MHC class Ib protein complex
+GO:0023023	MHC protein complex binding	GO:0005488	binding	GO:0042611	MHC protein complex
+GO:1905763	MTREC complex binding	GO:0005488	binding	GO:1990345	MTREC complex
+GO:0032405	MutLalpha complex binding	GO:0005488	binding	GO:0032389	MutLalpha complex
+GO:0032406	MutLbeta complex binding	GO:0005488	binding	GO:0032390	MutLbeta complex
+GO:0032407	MutSalpha complex binding	GO:0005488	binding	GO:0032301	MutSalpha complex
+GO:0032408	MutSbeta complex binding	GO:0005488	binding	GO:0032302	MutSbeta complex
+GO:1905172	RISC complex binding	GO:0005488	binding	GO:0016442	RISC complex
+GO:1905334	Swi5-Sfr1 complex binding	GO:0005488	binding	GO:0032798	Swi5-Sfr1 complex
+GO:1904841	TORC2 complex binding	GO:0005488	binding	GO:0031932	TORC2 complex
+GO:1990446	U1 snRNP binding	GO:0005488	binding	GO:0005685	U1 snRNP
+GO:1990447	U2 snRNP binding	GO:0005488	binding	GO:0005686	U2 snRNP
+GO:0051015	actin filament binding	GO:0005488	binding	GO:0031941	filamentous actin
+GO:1904713	beta-catenin destruction complex binding	GO:0005488	binding	GO:0030877	beta-catenin destruction complex
+GO:0035478	chylomicron binding	GO:0005488	binding	GO:0042627	chylomicron
+GO:0070052	collagen V binding	GO:0005488	binding	GO:0005588	collagen type V trimer
+GO:0005518	collagen binding	GO:0005488	binding	GO:0005581	collagen trimer
+GO:0098633	collagen fibril binding	GO:0005488	binding	GO:0098643	banded collagen fibril
+GO:0070840	dynein complex binding	GO:0005488	binding	GO:0030286	dynein complex
+GO:1990448	exon-exon junction complex binding	GO:0005488	binding	GO:0035145	exon-exon junction complex
+GO:0070051	fibrinogen binding	GO:0005488	binding	GO:0005577	fibrinogen complex
+GO:0008035	high-density lipoprotein particle binding	GO:0005488	binding	GO:0034364	high-density lipoprotein particle
+GO:0034710	inhibin complex binding	GO:0005488	binding	GO:0043511	inhibin complex
+GO:0071815	intermediate-density lipoprotein particle binding	GO:0005488	binding	GO:0034363	intermediate-density lipoprotein particle
+GO:0043515	kinetochore binding	GO:0005488	binding	GO:0000776	kinetochore
+GO:0071813	lipoprotein particle binding	GO:0005488	binding	GO:1990777	lipoprotein particle
+GO:0030169	low-density lipoprotein particle binding	GO:0005488	binding	GO:0034362	low-density lipoprotein particle
+GO:0044877	macromolecular complex binding	GO:0005488	binding	GO:0032991	macromolecular complex
+GO:0036033	mediator complex binding	GO:0005488	binding	GO:0016592	mediator complex
+GO:0032404	mismatch repair complex binding	GO:0005488	binding	GO:0032300	mismatch repair complex
+GO:0031491	nucleosome binding	GO:0005488	binding	GO:0000786	nucleosome
+GO:1905538	polysome binding	GO:0005488	binding	GO:0005844	polysome
+GO:1990275	preribosome binding	GO:0005488	binding	GO:0030684	preribosome
+GO:0070628	proteasome binding	GO:0005488	binding	GO:0000502	proteasome complex
+GO:1904854	proteasome core complex binding	GO:0005488	binding	GO:0005839	proteasome core complex
+GO:1904855	proteasome regulatory particle binding	GO:0005488	binding	GO:0005838	proteasome regulatory particle
+GO:0032403	protein complex binding	GO:0005488	binding	GO:0043234	protein complex
+GO:0071814	protein-lipid complex binding	GO:0005488	binding	GO:0032994	protein-lipid complex
+GO:1905394	retromer complex binding	GO:0005488	binding	GO:0030904	retromer complex
+GO:0043021	ribonucleoprotein complex binding	GO:0005488	binding	GO:0030529	intracellular ribonucleoprotein complex
+GO:0043023	ribosomal large subunit binding	GO:0005488	binding	GO:0015934	large ribosomal subunit
+GO:0043024	ribosomal small subunit binding	GO:0005488	binding	GO:0015935	small ribosomal subunit
+GO:0043022	ribosome binding	GO:0005488	binding	GO:0005840	ribosome
+GO:1990301	scaffoldin complex binding	GO:0005488	binding	GO:1990296	scaffoldin complex
+GO:0005047	signal recognition particle binding	GO:0005488	binding	GO:0048500	signal recognition particle
+GO:0070990	snRNP binding	GO:0005488	binding	GO:0030532	small nuclear ribonucleoprotein complex
+GO:0030519	snoRNP binding	GO:0005488	binding	GO:0005732	small nucleolar ribonucleoprotein complex
