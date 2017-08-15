@@ -18,7 +18,8 @@ Both molecular function and biological process are classified as types of BFO pr
 
 **Continuants**
 
-TBA - Classification of continuants  (Rqd ontology updates pending)
+![image](https://user-images.githubusercontent.com/112839/29329620-520a6cb2-81ab-11e7-8d5a-77e7889b8294.png)
+
 
 ### Equivalence axioms bridge between ontologies
 
