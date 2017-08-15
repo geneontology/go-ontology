@@ -14,18 +14,18 @@ vars:
 name:
      text: "regulation of %s"
      vars:
-       - 'entity'
+       - entity
 
 def:
   text: "Any process that modulates the frequency, rate or extent of %s."
   vars:
-     - 'entity'
+     - entity
 
 equivalentTo:
   text: " %s and 'regulates' some %s"
   vars:
     - 'biological regulation'
-    - 'entity'
+    - entity
 
     
 
