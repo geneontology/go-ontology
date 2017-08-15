@@ -3,7 +3,6 @@ pattern_name: cc_transport_from_to
 classes:
   transport: "GO:0006810"
   cellular component: "GO:0005575"
-  cellular component: "GO:0005575"
 
 relations: 
   has_target_start_location: "RO:0002338"
@@ -11,28 +10,27 @@ relations:
 
 vars:
  transport: "'transport'"
- cellular component: "'cellular component'"
- cellular component: "'cellular component'"
+ target_start: "'cellular component'"
+ target_end: "'cellular component'"
 
 
 name:
      text: "%s to %s transport"
      vars:
-       - 'cellular component'
-       - 'cellular component'
+       - target_start
+       - target_end
 
 def:
   text: "The directed movement of substances from %s to %s."
   vars:
-     - 'cellular component'
-     - 'cellular component'
+     - target_start
+     - target_end
 
 equivalentTo:
-  text: " %s and 'has_target_start_location' some %s and 'has_target_end_location' some %s"
+  text: " 'transport' and 'has_target_start_location' some %s and 'has_target_end_location' some %s"
   vars:
-    - 'transport'
-    - 'cellular component'
-    - 'cellular component'
+    - target_start
+    - target_end
     
 
 

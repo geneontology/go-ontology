@@ -9,7 +9,6 @@ relations:
 
 vars:
  biological process: "'biological process'"
- single organismal process quality: "'single organismal process quality'"
 
 name:
      text: "single-organism %s"
@@ -22,10 +21,9 @@ def:
      - 'biological process'
 
 equivalentTo:
-  text: " %s and 'bearer of' some %s"
+  text: " %s and 'bearer of' some 'single organismal process quality'"
   vars:
     - 'biological process'
-    - 'single organismal process quality'
     
 
 

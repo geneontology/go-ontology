@@ -21,6 +21,6 @@ def:
      - sequence_region  
     
 equivalentTo: 
-  text: "''chromosomal region' and 'coincident with' some %s"
+  text: "'chromosomal region' and 'coincident with' some %s"
   vars:
    - sequence_region

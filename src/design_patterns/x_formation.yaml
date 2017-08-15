@@ -9,7 +9,6 @@ relations:
 
 vars:
  anatomical structure: "'anatomical structure'"
- anatomical structure formation involved in morphogenesis: "'anatomical structure formation involved in morphogenesis'"
 
 name:
      text: "%s formation"
@@ -22,9 +21,8 @@ def:
      - 'anatomical structure'
 
 equivalentTo:
-  text: " %s and 'results in formation of' some %s"
+  text: " 'anatomical structure formation involved in morphogenesis' and 'results in formation of' some %s"
   vars:
-    - 'anatomical structure formation involved in morphogenesis'
     - 'anatomical structure'
 
     

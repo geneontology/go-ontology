@@ -1,7 +1,7 @@
 pattern_name: occursIn
 
 classes:
-  process: "GO:0008150
+  process: "GO:0008150"
   location: "BFO:0000004"
 
 relations: 
