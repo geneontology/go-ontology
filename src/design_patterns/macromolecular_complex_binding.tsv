@@ -1,4 +1,4 @@
-iri	iri label	binding	binding label	macromolecular complex	macromolecular complex label
+iri	iri label	binding	binding label	macromolecular_complex	macromolecular_complex label
 GO:0035650	AP-1 adaptor complex binding	GO:0005488	binding	GO:0030121	AP-1 adaptor complex
 GO:0035612	AP-2 adaptor complex binding	GO:0005488	binding	GO:0030122	AP-2 adaptor complex
 GO:0035651	AP-3 adaptor complex binding	GO:0005488	binding	GO:0030123	AP-3 adaptor complex

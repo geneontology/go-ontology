@@ -1,4 +1,4 @@
-iri	iri label	biological regulation	biological regulation label	entity	entity label
+iri	iri label	biological_regulation	biological_regulation label	entity	entity label
 GO:0060069	Wnt signaling pathway, regulating spindle positioning	GO:0035567	non-canonical Wnt signaling pathway	GO:0040001	establishment of mitotic spindle localization
 GO:0006884	cell volume homeostasis	GO:0065007	biological regulation	OBA:0000056	cell volume
 GO:0036438	maintenance of lens transparency	GO:0060249	anatomical structure homeostasis	OBA:1000035	lens of camera-type eye opacity

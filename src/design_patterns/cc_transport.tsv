@@ -1,7 +1,6 @@
-iri	iri label	cellular component	cellular component label	transport	transport label
-GO:0061707	extracellular exosome macropinocytosis	GO:0070062	extracellular exosome	GO:0044351	macropinocytosis
-GO:0032402	melanosome transport	GO:0042470	melanosome	GO:0006810	transport
-GO:0051904	pigment granule transport	GO:0048770	pigment granule	GO:0006810	transport
-GO:0015869	protein-DNA complex transport	GO:0032993	protein-DNA complex	GO:0006810	transport
-GO:0048489	synaptic vesicle transport	GO:0008021	synaptic vesicle	GO:0006810	transport
-GO:0046794	transport of virus	GO:0019012	virion	GO:0006810	transport
+iri	iri label	cellular_component	cellular_component label
+GO:0032402	melanosome transport	GO:0042470	melanosome
+GO:0051904	pigment granule transport	GO:0048770	pigment granule
+GO:0015869	protein-DNA complex transport	GO:0032993	protein-DNA complex
+GO:0048489	synaptic vesicle transport	GO:0008021	synaptic vesicle
+GO:0046794	transport of virus	GO:0019012	virion
