@@ -26571,7 +26571,6 @@ id: CHEBI:48635
 name: fumagillin
 is_a: CHEBI:133131 ! spiro-epoxide
 is_a: CHEBI:25807 ! organooxygen heterocyclic antibiotic
-is_a: CHEBI:26619 ! secondary metabolite
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:36244 ! dicarboxylic acid monoester
 is_a: CHEBI:64419 ! meroterpenoid
@@ -36014,7 +36013,6 @@ id: CHEBI:72765
 name: verruculogen
 is_a: CHEBI:23824 ! diol
 is_a: CHEBI:25702 ! organic peroxide
-is_a: CHEBI:26619 ! secondary metabolite
 is_a: CHEBI:35618 ! aromatic ether
 is_a: CHEBI:38958 ! indole alkaloid
 is_a: CHEBI:51914 ! organic heterohexacyclic compound
