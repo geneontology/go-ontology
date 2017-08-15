@@ -1,4 +1,4 @@
-iri	iri label	biological process	biological process label	multi organismal process quality	multi organismal process quality label
+iri	iri label	biological_process	biological_process label	multi_organismal_process_quality	multi_organismal_process_quality label
 GO:0098740	multi organism cell adhesion	GO:0007155	cell adhesion	PATO:0002486	multi-organismal process quality
 GO:0044706	multi-multicellular organism process	GO:0032501	multicellular organismal process	PATO:0002486	multi-organismal process quality
 GO:0051705	multi-organism behavior	GO:0007610	behavior	PATO:0002486	multi-organismal process quality

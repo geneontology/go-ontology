@@ -1,4 +1,4 @@
-iri	iri label	biological regulation	biological regulation label	entity	entity label
+iri	iri label	biological_regulation	biological_regulation label	entity	entity label
 GO:0051452	intracellular pH reduction	GO:0065007	biological regulation	OBA:0000050	cell pH
 GO:0007042	lysosomal lumen acidification	GO:0065007	biological regulation	OBA:0000091	lysosomal lumen pH
 GO:0031571	mitotic G1 DNA damage checkpoint	GO:0044783	G1 DNA damage checkpoint	GO:0000082	G1/S transition of mitotic cell cycle
