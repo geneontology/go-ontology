@@ -8,22 +8,22 @@ relations:
   results in formation of: "RO:0002297"
 
 vars:
- anatomical structure: "'anatomical structure'"
+ target: "'anatomical structure'"
 
 name:
      text: "%s formation"
      vars:
-       - 'anatomical structure'
+       - target
 
 def:
   text: "The process that gives rise to the %s. This process pertains to the initial formation of a structure from unspecified parts."
   vars:
-     - 'anatomical structure'
+     - target
 
 equivalentTo:
   text: " 'anatomical structure formation involved in morphogenesis' and 'results in formation of' some %s"
   vars:
-    - 'anatomical structure'
+    - target
 
     
 
