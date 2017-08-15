@@ -1,4 +1,4 @@
-iri	iri label	anatomical_structure	anatomical_structure label	anatomical_structure_morphogenesis	anatomical_structure_morphogenesis label
+iri	iri label	anatomical structure	anatomical structure label	anatomical structure morphogenesis	anatomical structure morphogenesis label
 GO:0007443	Malpighian tubule morphogenesis	UBERON:0001054	Malpighian tubule	GO:0009653	anatomical structure morphogenesis
 GO:0061146	Peyer's patch morphogenesis	UBERON:0001211	Peyer's patch	GO:0009653	anatomical structure morphogenesis
 GO:0048855	adenohypophysis morphogenesis	UBERON:0002196	adenohypophysis	GO:0009653	anatomical structure morphogenesis

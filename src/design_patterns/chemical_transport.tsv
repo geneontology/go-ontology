@@ -1,4 +1,4 @@
-iri	iri label	chemical_entity	chemical_entity label	transport	transport label
+iri	iri label	chemical entity	chemical entity label	transport	transport label
 GO:1900749	(R)-carnitine transport	CHEBI:16347	(R)-carnitine	GO:0006810	transport
 GO:0033223	2-aminoethylphosphonate transport	CHEBI:15573	(2-aminoethyl)phosphonic acid	GO:0006810	transport
 GO:0046411	2-keto-3-deoxygluconate transport	CHEBI:57990	2-dehydro-3-deoxy-D-gluconate	GO:0006810	transport

@@ -1,4 +1,4 @@
-iri	iri label	cellular_component	cellular_component label	cellular_component_disassembly	cellular_component_disassembly label
+iri	iri label	cellular component	cellular component label	cellular component disassembly	cellular component disassembly label
 GO:1905783	CENP-A containing nucleosome disassembly	GO:0043505	CENP-A containing nucleosome	GO:0022411	cellular component disassembly
 GO:1904903	ESCRT III complex disassembly	GO:0000815	ESCRT III complex	GO:0022411	cellular component disassembly
 GO:1904896	ESCRT complex disassembly	GO:0036452	ESCRT complex	GO:0022411	cellular component disassembly

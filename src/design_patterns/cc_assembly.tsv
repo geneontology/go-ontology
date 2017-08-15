@@ -1,4 +1,4 @@
-iri	iri label	cellular_component	cellular_component label	cellular_component_assembly	cellular_component_assembly label
+iri	iri label	cellular component	cellular component label	cellular component assembly	cellular component assembly label
 GO:0034463	90S preribosome assembly	GO:0030686	90S preribosome	GO:0022607	cellular component assembly
 GO:1904745	ATG1/ULK1 kinase complex assembly	GO:1990316	ATG1/ULK1 kinase complex	GO:0022607	cellular component assembly
 GO:0034080	CENP-A containing nucleosome assembly	GO:0043505	CENP-A containing nucleosome	GO:0022607	cellular component assembly
