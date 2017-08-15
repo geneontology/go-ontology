@@ -1,15 +1,14 @@
 pattern_name: x_formation
 
 classes:
-  anatomical structure: UBERON:0000061
-  anatomical structure formation involved in morphogenesis: GO:0048646
+  anatomical structure: "UBERON:0000061"
+  anatomical structure formation involved in morphogenesis: "GO:0048646"
 
 relations: 
-  results in formation of: RO:0002297
+  results in formation of: "RO:0002297"
 
 vars:
  anatomical structure: "'anatomical structure'"
- anatomical structure formation involved in morphogenesis: "'anatomical structure formation involved in morphogenesis'"
 
 name:
      text: "%s formation"
@@ -22,9 +21,8 @@ def:
      - 'anatomical structure'
 
 equivalentTo:
-  text: " %s and 'results in formation of' some %s"
+  text: " 'anatomical structure formation involved in morphogenesis' and 'results in formation of' some %s"
   vars:
-    - 'anatomical structure formation involved in morphogenesis'
     - 'anatomical structure'
 
     

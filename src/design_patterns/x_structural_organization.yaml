@@ -1,31 +1,30 @@
 pattern_name: x_structural_organization
 
 classes:
-  anatomical structure: UBERON:0000061
-  anatomical structure arrangement: GO:0048532
+  anatomical structure: "UBERON:0000061"
+  anatomical structure arrangement: "GO:0048532"
 
 relations: 
-  results in structural organization of: RO:0002355
+  results in structural organization of: "RO:0002355"
 
 vars:
- anatomical structure: "'anatomical structure'"
- anatomical structure arrangement: "'anatomical structure arrangement'"
+ target: "'anatomical structure'"
 
 name:
      text: "%s structural organization"
      vars:
-       - 'anatomical structure'
+       - target
 
 def:
   text: "The process that contributes to the act of creating the structural organization of the %s. This process pertains to the physical shaping of a rudimentary structure."
   vars:
-     - 'anatomical structure'
+     - target
 
 equivalentTo:
-  text: " %s and 'results in structural organization of' some %s"
+  text: " 'anatomical structure arrangement' and 'results in structural organization of' some %s"
   vars:
     - 'anatomical structure arrangement'
-    - 'anatomical structure'
+    - target
 
     
 

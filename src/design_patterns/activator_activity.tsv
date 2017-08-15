@@ -1,0 +1,8 @@
+iri	iri label	regulated activity	regulated activity label
+GO:0008047	enzyme activator activity	GO:0003824	catalytic activity
+GO:0019209	kinase activator activity	GO:0016301	kinase activity
+GO:0019211	phosphatase activator activity	GO:0016791	phosphatase activity
+GO:0030295	protein kinase activator activity	GO:0004672	protein kinase activity
+GO:0072542	protein phosphatase activator activity	GO:0004721	phosphoprotein phosphatase activity
+GO:0030296	protein tyrosine kinase activator activity	GO:0004713	protein tyrosine kinase activity
+GO:0030297	transmembrane receptor protein tyrosine kinase activator activity	GO:0004714	transmembrane receptor protein tyrosine kinase activity

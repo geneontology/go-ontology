@@ -1,35 +1,33 @@
 pattern_name: cc_assembly
 
 classes:
-  cellular component: GO:0005575
-  cellular component assembly: GO:0022607
+  cellular component: "GO:0005575"
+  cellular component assembly: "GO:0022607"
 
 relations: 
-  results_in_assembly_of: RO:0002588
+  results_in_assembly_of: "RO:0002588"
 
 vars:
- cellular component: "'cellular component'"
- cellular component assembly: "'cellular component assembly'"
+ target: "'cellular component'"
  
 name:
      text: "%s assembly"
      vars:
-       - 'cellular component'
+       - target
        
 annotations:
   - annotationProperty: oio:hasExactSynonym
     text: "%s formation"
     vars:
-     - 'cellular component'   
+     - target   
 
 def:
   text: "The aggregation, arrangement and bonding together of a set of components to form %s." 
   vars:
-     - 'cellular component'
+     - target
 
 equivalentTo:
-  text: " %s and 'results_in_assembly_of' some %s "
+  text: " 'cellular component assembly' and 'results_in_assembly_of' some %s "
   vars:
-    - 'cellular component assembly'
-    - 'cellular component'
+    - target
     

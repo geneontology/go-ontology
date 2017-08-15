@@ -1,15 +1,14 @@
 pattern_name: cc_organization
 
 classes:
-  cellular component: GO:0005575
-  cellular process: GO:0009987
+  cellular component: "GO:0005575"
+  cellular process: "GO:0009987"
 
 relations: 
-  results_in_organization_of: RO:0002592
+  results_in_organization_of: "RO:0002592"
 
 vars:
  cellular component: "'cellular component'"
- cellular process: "'cellular process'"
 
 name:
      text: "%s organization"
@@ -22,9 +21,8 @@ def:
      - 'cellular component'
 
 equivalentTo:
-  text: " %s and 'results_in_organization_of' some %s "
+  text: " 'cellular process' and 'results_in_organization_of' some %s "
   vars:
-    - 'cellular process'
     - 'cellular component'
     
 

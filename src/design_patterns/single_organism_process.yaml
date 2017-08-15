@@ -1,15 +1,14 @@
 pattern_name: single_organism_process
 
 classes:
-  biological process: GO:0008150
-  single organismal process quality: PATO:0002487
+  biological process: "GO:0008150"
+  single organismal process quality: "PATO:0002487"
 
 relations: 
-  bearer of: RO:0000053
+  bearer of: "RO:0000053"
 
 vars:
  biological process: "'biological process'"
- single organismal process quality: "'single organismal process quality'"
 
 name:
      text: "single-organism %s"
@@ -22,10 +21,9 @@ def:
      - 'biological process'
 
 equivalentTo:
-  text: " %s and 'bearer of' some %s"
+  text: " %s and 'bearer of' some 'single organismal process quality'"
   vars:
     - 'biological process'
-    - 'single organismal process quality'
     
 
 

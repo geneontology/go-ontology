@@ -1,15 +1,14 @@
 pattern_name: x_development
 
 classes:
-  anatomical structure: UBERON:0000061
-  anatomical structure development: GO:0048856
+  anatomical structure: "UBERON:0000061"
+  anatomical structure development: "GO:0048856"
 
 relations: 
-  results in development of: RO:0002296
+  results in development of: "RO:0002296"
 
 vars:
  anatomical structure: "'anatomical structure'"
- anatomical structure development: "'anatomical structure development'"
 
 name:
      text: "%s development"
@@ -22,9 +21,8 @@ def:
      - 'anatomical structure'
 
 equivalentTo:
-  text: " %s and 'results in development of' some %s"
+  text: " 'anatomical structure development' and 'results in development of' some %s"
   vars:
-    - 'anatomical structure development'
     - 'anatomical structure'
 
     

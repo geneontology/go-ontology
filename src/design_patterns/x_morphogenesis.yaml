@@ -1,31 +1,29 @@
 pattern_name: x_morphogenesis
 
 classes:
-  anatomical structure: UBERON:0000061
-  anatomical structure morphogenesis: GO:0009653
+  anatomical structure: "UBERON:0000061"
+  anatomical structure morphogenesis: "GO:0009653"
 
 relations: 
-  results in morphogenesis of: ROL0002298
+  results in morphogenesis of: RO:0002298
 
 vars:
- anatomical structure: "'anatomical structure'"
- anatomical structure morphogenesis: "'anatomical structure morphogenesis'"
+ target: "'anatomical structure'"
 
 name:
      text: "%s morphogenesis"
      vars:
-       - 'anatomical structure'
+       - target
 
 def:
   text: "The developmental process by which %s is generated and organized."
   vars:
-     - 'anatomical structure'
+     - target
 
 equivalentTo:
-  text: " %s and 'results in morphogenesis of' some %s"
+  text: " 'anatomical structure morphogenesis' and 'results in morphogenesis of' some %s"
   vars:
-    - 'anatomical structure morphogenesis'
-    - 'anatomical structure'
+    - target
 
     
 

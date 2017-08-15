@@ -1,11 +1,11 @@
 pattern_name: macromolecular_complex_binding
 
 classes:
-  macromolecular complex: GO:0032991
-  binding: GO:0005488
+  macromolecular complex: "GO:0032991"
+  binding: "GO:0005488"
 
 relations: 
-  has input: RO:0002233
+  has input: "RO:0002233"
   
 vars:
   macromolecular complex: "'macromolecular complex'"

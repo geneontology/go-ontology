@@ -1,11 +1,11 @@
 pattern_name: chromosomal_region
 
 classes:
-   sequence_region: SO:0000110
-   'chromosomal region': GO:0098687
+   sequence_region: "SO:0000110"
+   'chromosomal region': "GO:0098687"
 
 relations:
-   'coincident with' : RO:0002008
+   'coincident with' : "RO:0002008"
   
 vars: 
    sequence_region: "'sequence_region'"
@@ -21,6 +21,6 @@ def:
      - sequence_region  
     
 equivalentTo: 
-  text: "''chromosomal region' and 'coincident with' some %s"
+  text: "'chromosomal region' and 'coincident with' some %s"
   vars:
    - sequence_region

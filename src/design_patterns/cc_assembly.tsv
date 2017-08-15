@@ -1,0 +1,238 @@
+iri	iri label	cellular component	cellular component label	cellular component assembly	cellular component assembly label
+GO:0034463	90S preribosome assembly	GO:0030686	90S preribosome	GO:0022607	cellular component assembly
+GO:1904745	ATG1/ULK1 kinase complex assembly	GO:1990316	ATG1/ULK1 kinase complex	GO:0022607	cellular component assembly
+GO:0034080	CENP-A containing nucleosome assembly	GO:0043505	CENP-A containing nucleosome	GO:0022607	cellular component assembly
+GO:0010387	COP9 signalosome assembly	GO:0008180	COP9 signalosome	GO:0022607	cellular component assembly
+GO:0048208	COPII vesicle coating	GO:0030127	COPII vesicle coat	GO:0022607	cellular component assembly
+GO:0071255	Cvt vesicle assembly	GO:0033107	Cvt vesicle	GO:0022607	cellular component assembly
+GO:0000730	DNA recombinase assembly	GO:0097519	DNA recombinase complex	GO:0022607	cellular component assembly
+GO:1903871	DNA recombinase mediator complex assembly	GO:0033061	DNA recombinase mediator complex	GO:0022607	cellular component assembly
+GO:0071163	DNA replication preinitiation complex assembly	GO:0031261	DNA replication preinitiation complex	GO:0022607	cellular component assembly
+GO:0070897	DNA-templated transcriptional preinitiation complex assembly	GO:0097550	transcriptional preinitiation complex	GO:0022607	cellular component assembly
+GO:1990155	Dsc E3 ubiquitin ligase complex assembly	GO:0044695	Dsc E3 ubiquitin ligase complex	GO:0022607	cellular component assembly
+GO:1904902	ESCRT III complex assembly	GO:0000815	ESCRT III complex	GO:0022607	cellular component assembly
+GO:1904895	ESCRT complex assembly	GO:0036452	ESCRT complex	GO:0022607	cellular component assembly
+GO:1905635	FACT complex assembly	GO:0035101	FACT complex	GO:0022607	cellular component assembly
+GO:0071165	GINS complex assembly	GO:0000811	GINS complex	GO:0022607	cellular component assembly
+GO:0072689	MCM complex assembly	GO:0042555	MCM complex	GO:0022607	cellular component assembly
+GO:0002397	MHC class I protein complex assembly	GO:0042612	MHC class I protein complex	GO:0022607	cellular component assembly
+GO:0002399	MHC class II protein complex assembly	GO:0042613	MHC class II protein complex	GO:0022607	cellular component assembly
+GO:0002398	MHC class Ib protein complex assembly	GO:0032398	MHC class Ib protein complex	GO:0022607	cellular component assembly
+GO:0002396	MHC protein complex assembly	GO:0042611	MHC protein complex	GO:0022607	cellular component assembly
+GO:0072685	Mre11 complex assembly	GO:0030870	Mre11 complex	GO:0022607	cellular component assembly
+GO:0010258	NADH dehydrogenase complex (plastoquinone) assembly	GO:0071685	NADH dehydrogenase complex (plastoquinone)	GO:0022607	cellular component assembly
+GO:0010257	NADH dehydrogenase complex assembly	GO:0030964	NADH dehydrogenase complex	GO:0022607	cellular component assembly
+GO:1904784	NLRP1 inflammasome complex assembly	GO:0072558	NLRP1 inflammasome complex	GO:0022607	cellular component assembly
+GO:0044546	NLRP3 inflammasome complex assembly	GO:0072559	NLRP3 inflammasome complex	GO:0022607	cellular component assembly
+GO:0044768	NMS complex assembly	GO:0031617	NMS complex	GO:0022607	cellular component assembly
+GO:0007287	Nebenkern assembly	GO:0016006	Nebenkern	GO:0022607	cellular component assembly
+GO:1903863	P granule assembly	GO:0043186	P granule	GO:0022607	cellular component assembly
+GO:1904802	RITS complex assembly	GO:0030958	RITS complex	GO:0022607	cellular component assembly
+GO:0036285	SAGA complex assembly	GO:0000124	SAGA complex	GO:0022607	cellular component assembly
+GO:0010265	SCF complex assembly	GO:0019005	SCF ubiquitin ligase complex	GO:0022607	cellular component assembly
+GO:0007183	SMAD protein complex assembly	GO:0071141	SMAD protein complex	GO:0022607	cellular component assembly
+GO:0035493	SNARE complex assembly	GO:0031201	SNARE complex	GO:0022607	cellular component assembly
+GO:0036399	TCR signalosome assembly	GO:0036398	TCR signalosome	GO:0022607	cellular component assembly
+GO:1905669	TORC1 complex assembly	GO:0031931	TORC1 complex	GO:0022607	cellular component assembly
+GO:1903074	TRAIL death-inducing signaling complex assembly	GO:0031266	TRAIL death-inducing signaling complex	GO:0022607	cellular component assembly
+GO:1903241	U2-type prespliceosome assembly	GO:0071004	U2-type prespliceosome	GO:0022607	cellular component assembly
+GO:1904210	VCP-NPL4-UFD1 AAA ATPase complex assembly	GO:0034098	VCP-NPL4-UFD1 AAA ATPase complex	GO:0022607	cellular component assembly
+GO:1904887	Wnt signalosome assembly	GO:1990909	Wnt signalosome	GO:0022607	cellular component assembly
+GO:1904701	Wnt-Frizzled-LRP5/6 complex assembly	GO:1990851	Wnt-Frizzled-LRP5/6 complex	GO:0022607	cellular component assembly
+GO:1905350	Y-shaped link assembly	GO:0097537	Y-shaped link	GO:0022607	cellular component assembly
+GO:0001675	acrosome assembly	GO:0001669	acrosomal vesicle	GO:0022607	cellular component assembly
+GO:0000147	actin cortical patch assembly	GO:0030479	actin cortical patch	GO:0022607	cellular component assembly
+GO:0051017	actin filament bundle assembly	GO:0032432	actin filament bundle	GO:0022607	cellular component assembly
+GO:1904600	actin fusion focus assembly	GO:1990819	actin fusion focus	GO:0022607	cellular component assembly
+GO:0031247	actin rod assembly	GO:0031002	actin rod	GO:0022607	cellular component assembly
+GO:0000915	actomyosin contractile ring assembly	GO:0005826	actomyosin contractile ring	GO:0022607	cellular component assembly
+GO:0034333	adherens junction assembly	GO:0005912	adherens junction	GO:0022607	cellular component assembly
+GO:0070842	aggresome assembly	GO:0016235	aggresome	GO:0022607	cellular component assembly
+GO:1904824	anaphase-promoting complex assembly	GO:0005680	anaphase-promoting complex	GO:0022607	cellular component assembly
+GO:0043297	apical junction assembly	GO:0043296	apical junction complex	GO:0022607	cellular component assembly
+GO:0097314	apoptosome assembly	GO:0043293	apoptosome	GO:0022607	cellular component assembly
+GO:0030476	ascospore wall assembly	GO:0005619	ascospore wall	GO:0022607	cellular component assembly
+GO:0031321	ascospore-type prospore assembly	GO:0042764	ascospore-type prospore	GO:0022607	cellular component assembly
+GO:0032120	ascospore-type prospore membrane assembly	GO:0005628	prospore membrane	GO:0022607	cellular component assembly
+GO:0042243	asexual spore wall assembly	GO:0097515	asexual spore wall	GO:0022607	cellular component assembly
+GO:1902626	assembly of large subunit precursor of preribosome	GO:0030687	preribosome, large subunit precursor	GO:0022607	cellular component assembly
+GO:0000045	autophagosome assembly	GO:0005776	autophagosome	GO:0022607	cellular component assembly
+GO:1904158	axonemal central apparatus assembly	GO:1990716	axonemal central apparatus	GO:0022607	cellular component assembly
+GO:0070286	axonemal dynein complex assembly	GO:0005858	axonemal dynein complex	GO:0022607	cellular component assembly
+GO:0035082	axoneme assembly	GO:0005930	axoneme	GO:0022607	cellular component assembly
+GO:0044780	bacterial-type flagellum assembly	GO:0009288	bacterial-type flagellum	GO:0022607	cellular component assembly
+GO:0070831	basement membrane assembly	GO:0005604	basement membrane	GO:0022607	cellular component assembly
+GO:1904885	beta-catenin destruction complex assembly	GO:0030877	beta-catenin destruction complex	GO:0022607	cellular component assembly
+GO:1904837	beta-catenin-TCF complex assembly	GO:1990907	beta-catenin-TCF complex	GO:0022607	cellular component assembly
+GO:0070830	bicellular tight junction assembly	GO:0005923	bicellular tight junction	GO:0022607	cellular component assembly
+GO:0000492	box C/D snoRNP assembly	GO:0031428	box C/D snoRNP complex	GO:0022607	cellular component assembly
+GO:0000493	box H/ACA snoRNP assembly	GO:0031429	box H/ACA snoRNP complex	GO:0022607	cellular component assembly
+GO:1904970	brush border assembly	GO:0005903	brush border	GO:0022607	cellular component assembly
+GO:0055003	cardiac myofibril assembly	GO:0097512	cardiac myofibril	GO:0022607	cellular component assembly
+GO:0070836	caveola assembly	GO:0005901	caveola	GO:0022607	cellular component assembly
+GO:0034329	cell junction assembly	GO:0030054	cell junction	GO:0022607	cellular component assembly
+GO:0000919	cell plate assembly	GO:0009504	cell plate	GO:0022607	cellular component assembly
+GO:0030031	cell projection assembly	GO:0042995	cell projection	GO:0022607	cellular component assembly
+GO:0090529	cell septum assembly	GO:0030428	cell septum	GO:0022607	cellular component assembly
+GO:0070726	cell wall assembly	GO:0005618	cell wall	GO:0022607	cellular component assembly
+GO:0007043	cell-cell junction assembly	GO:0005911	cell-cell junction	GO:0022607	cellular component assembly
+GO:0007045	cell-substrate adherens junction assembly	GO:0005924	cell-substrate adherens junction	GO:0022607	cellular component assembly
+GO:0007044	cell-substrate junction assembly	GO:0030055	cell-substrate junction	GO:0022607	cellular component assembly
+GO:0044575	cellulosome assembly	GO:0043263	cellulosome	GO:0022607	cellular component assembly
+GO:0098534	centriole assembly	GO:0005814	centriole	GO:0022607	cellular component assembly
+GO:0031497	chromatin assembly	GO:0000785	chromatin	GO:0022607	cellular component assembly
+GO:0034378	chylomicron assembly	GO:0042627	chylomicron	GO:0022607	cellular component assembly
+GO:1905352	ciliary necklace assembly	GO:0097538	ciliary necklace	GO:0022607	cellular component assembly
+GO:1905353	ciliary transition fiber assembly	GO:0097539	ciliary transition fiber	GO:0022607	cellular component assembly
+GO:1905349	ciliary transition zone assembly	GO:0035869	ciliary transition zone	GO:0022607	cellular component assembly
+GO:1905556	ciliary vesicle assembly	GO:0097721	ciliary vesicle	GO:0022607	cellular component assembly
+GO:0060271	cilium assembly	GO:0005929	cilium	GO:0022607	cellular component assembly
+GO:1905224	clathrin-coated pit assembly	GO:0005905	clathrin-coated pit	GO:0022607	cellular component assembly
+GO:0030038	contractile actin filament bundle assembly	GO:0097517	contractile actin filament bundle	GO:0022607	cellular component assembly
+GO:1903575	cornified envelope assembly	GO:0001533	cornified envelope	GO:0022607	cellular component assembly
+GO:0098775	curli assembly	GO:0098774	curli	GO:0022607	cellular component assembly
+GO:0010190	cytochrome b6f complex assembly	GO:0009512	cytochrome b6f complex	GO:0022607	cellular component assembly
+GO:0017004	cytochrome complex assembly	GO:0070069	cytochrome complex	GO:0022607	cellular component assembly
+GO:1990194	cytoplasmic U snRNP body assembly	GO:0071254	cytoplasmic U snRNP body	GO:0022607	cellular component assembly
+GO:0033962	cytoplasmic mRNA processing body assembly	GO:0000932	P-body	GO:0022607	cellular component assembly
+GO:0071550	death-inducing signaling complex assembly	GO:0031264	death-inducing signaling complex	GO:0022607	cellular component assembly
+GO:0002159	desmosome assembly	GO:0030057	desmosome	GO:0022607	cellular component assembly
+GO:0042714	dosage compensation complex assembly	GO:0046536	dosage compensation complex	GO:0022607	cellular component assembly
+GO:0070941	eisosome assembly	GO:0032126	eisosome	GO:0022607	cellular component assembly
+GO:0048251	elastic fiber assembly	GO:0071953	elastic fiber	GO:0022607	cellular component assembly
+GO:0071784	endoplasmic reticulum cisternal network assembly	GO:0071781	endoplasmic reticulum cisternal network	GO:0022607	cellular component assembly
+GO:0071787	endoplasmic reticulum tubular network formation	GO:0071782	endoplasmic reticulum tubular network	GO:0022607	cellular component assembly
+GO:1905143	eukaryotic translation initiation factor 2 complex assembly	GO:0005850	eukaryotic translation initiation factor 2 complex	GO:0022607	cellular component assembly
+GO:1905173	eukaryotic translation initiation factor 2B complex assembly	GO:0005851	eukaryotic translation initiation factor 2B complex	GO:0022607	cellular component assembly
+GO:0070196	eukaryotic translation initiation factor 3 complex assembly	GO:0005852	eukaryotic translation initiation factor 3 complex	GO:0022607	cellular component assembly
+GO:0097010	eukaryotic translation initiation factor 4F complex assembly	GO:0016281	eukaryotic translation initiation factor 4F complex	GO:0022607	cellular component assembly
+GO:0001927	exocyst assembly	GO:0000145	exocyst	GO:0022607	cellular component assembly
+GO:1903040	exon-exon junction complex assembly	GO:0035145	exon-exon junction complex	GO:0022607	cellular component assembly
+GO:0071971	extracellular exosome assembly	GO:0070062	extracellular exosome	GO:0022607	cellular component assembly
+GO:0085029	extracellular matrix assembly	GO:0044420	extracellular matrix component	GO:0022607	cellular component assembly
+GO:0035038	female pronucleus assembly	GO:0001939	female pronucleus	GO:0022607	cellular component assembly
+GO:0036058	filtration diaphragm assembly	GO:0036056	filtration diaphragm	GO:0022607	cellular component assembly
+GO:0048041	focal adhesion assembly	GO:0005925	focal adhesion	GO:0022607	cellular component assembly
+GO:0001732	formation of cytoplasmic translation initiation complex	GO:0070992	translation initiation complex	GO:0022607	cellular component assembly
+GO:0001325	formation of extrachromosomal circular DNA	GO:0005727	extrachromosomal circular DNA	GO:0022607	cellular component assembly
+GO:0001677	formation of translation initiation ternary complex	GO:0044207	translation initiation ternary complex	GO:0022607	cellular component assembly
+GO:0001731	formation of translation preinitiation complex	GO:0070993	translation preinitiation complex	GO:0022607	cellular component assembly
+GO:0070649	formin-nucleated actin cable assembly	GO:0070648	formin-nucleated actin cable	GO:0022607	cellular component assembly
+GO:0071940	fungal-type cell wall assembly	GO:0009277	fungal-type cell wall	GO:0022607	cellular component assembly
+GO:1902481	gamma-tubulin complex assembly	GO:0000930	gamma-tubulin complex	GO:0022607	cellular component assembly
+GO:0016264	gap junction assembly	GO:0005921	gap junction	GO:0022607	cellular component assembly
+GO:1902900	gut granule assembly	GO:0044840	gut granule	GO:0022607	cellular component assembly
+GO:0031581	hemidesmosome assembly	GO:0030056	hemidesmosome	GO:0022607	cellular component assembly
+GO:1902605	heterotrimeric G-protein complex assembly	GO:0005834	heterotrimeric G-protein complex	GO:0022607	cellular component assembly
+GO:0034380	high-density lipoprotein particle assembly	GO:0034364	high-density lipoprotein particle	GO:0022607	cellular component assembly
+GO:0036118	hyaluranon cable assembly	GO:0036117	hyaluranon cable	GO:0022607	cellular component assembly
+GO:0070841	inclusion body assembly	GO:0016234	inclusion body	GO:0022607	cellular component assembly
+GO:0036159	inner dynein arm assembly	GO:0036156	inner dynein arm	GO:0022607	cellular component assembly
+GO:0033622	integrin activation	GO:0008305	integrin complex	GO:0022607	cellular component assembly
+GO:0031024	interphase microtubule organizing center assembly	GO:0031021	interphase microtubule organizing center	GO:0022607	cellular component assembly
+GO:1905861	intranuclear rod assembly	GO:0061836	intranuclear rod	GO:0022607	cellular component assembly
+GO:0061471	karyomere assembly	GO:0061468	karyomere	GO:0022607	cellular component assembly
+GO:0051382	kinetochore assembly	GO:0000776	kinetochore	GO:0022607	cellular component assembly
+GO:1903359	lateral cortical node assembly	GO:1990463	lateral cortical node	GO:0022607	cellular component assembly
+GO:0060988	lipid tube assembly	GO:0060987	lipid tube	GO:0022607	cellular component assembly
+GO:0065003	macromolecular complex assembly	GO:0032991	macromolecular complex	GO:0022607	cellular component assembly
+GO:0035039	male pronucleus assembly	GO:0001940	male pronucleus	GO:0022607	cellular component assembly
+GO:1905198	manchette assembly	GO:0002177	manchette	GO:0022607	cellular component assembly
+GO:0032130	medial membrane band assembly	GO:0032178	medial membrane band	GO:0022607	cellular component assembly
+GO:0036034	mediator complex assembly	GO:0016592	mediator complex	GO:0022607	cellular component assembly
+GO:1903232	melanosome assembly	GO:0042470	melanosome	GO:0022607	cellular component assembly
+GO:0071709	membrane assembly	GO:0016020	membrane	GO:0022607	cellular component assembly
+GO:0001765	membrane raft assembly	GO:0045121	membrane raft	GO:0022607	cellular component assembly
+GO:1990120	messenger ribonucleoprotein complex assembly	GO:1990124	messenger ribonucleoprotein complex	GO:0022607	cellular component assembly
+GO:0046785	microtubule polymerization	GO:0005874	microtubule	GO:0022607	cellular component assembly
+GO:0030034	microvillar actin bundle assembly	GO:0097516	microvillar actin bundle	GO:0022607	cellular component assembly
+GO:0070096	mitochondrial outer membrane translocase complex assembly	GO:0005742	mitochondrial outer membrane translocase complex	GO:0022607	cellular component assembly
+GO:0097250	mitochondrial respiratory chain supercomplex assembly	GO:0097249	mitochondrial respiratory chain supercomplex	GO:0022607	cellular component assembly
+GO:1905660	mitotic checkpoint complex assembly	GO:0033597	mitotic checkpoint complex	GO:0022607	cellular component assembly
+GO:0044458	motile cilium assembly	GO:0031514	motile cilium	GO:0022607	cellular component assembly
+GO:0036258	multivesicular body assembly	GO:0005771	multivesicular body	GO:0022607	cellular component assembly
+GO:0032288	myelin assembly	GO:0043209	myelin sheath	GO:0022607	cellular component assembly
+GO:0030239	myofibril assembly	GO:0030016	myofibril	GO:0022607	cellular component assembly
+GO:0031036	myosin II filament assembly	GO:0097513	myosin II filament	GO:0022607	cellular component assembly
+GO:0031034	myosin filament assembly	GO:0032982	myosin filament	GO:0022607	cellular component assembly
+GO:0036059	nephrocyte diaphragm assembly	GO:0005917	nephrocyte diaphragm	GO:0022607	cellular component assembly
+GO:1902988	neurofibrillary tangle assembly	GO:0097418	neurofibrillary tangle	GO:0022607	cellular component assembly
+GO:1905515	non-motile cilium assembly	GO:0097730	non-motile cilium	GO:0022607	cellular component assembly
+GO:0051292	nuclear pore complex assembly	GO:0005643	nuclear pore	GO:0022607	cellular component assembly
+GO:0006334	nucleosome assembly	GO:0000786	nucleosome	GO:0022607	cellular component assembly
+GO:0006294	nucleotide-excision repair, preincision complex assembly	GO:0097520	nucleotide-excision repair, preincision complex	GO:0022607	cellular component assembly
+GO:0070925	organelle assembly	GO:0043226	organelle	GO:0022607	cellular component assembly
+GO:1902561	origin recognition complex assembly	GO:0000808	origin recognition complex	GO:0022607	cellular component assembly
+GO:0036158	outer dynein arm assembly	GO:0036157	outer dynein arm	GO:0022607	cellular component assembly
+GO:0030046	parallel actin filament bundle assembly	GO:0097518	parallel actin filament bundle	GO:0022607	cellular component assembly
+GO:0030913	paranodal junction assembly	GO:0033010	paranodal junction	GO:0022607	cellular component assembly
+GO:0001845	phagolysosome assembly	GO:0032010	phagolysosome	GO:0022607	cellular component assembly
+GO:0048564	photosystem I assembly	GO:0009522	photosystem I	GO:0022607	cellular component assembly
+GO:0010207	photosystem II assembly	GO:0009523	photosystem II	GO:0022607	cellular component assembly
+GO:0010270	photosystem II oxygen evolving complex assembly	GO:0009654	photosystem II oxygen evolving complex	GO:0022607	cellular component assembly
+GO:0000914	phragmoplast assembly	GO:0009524	phragmoplast	GO:0022607	cellular component assembly
+GO:0009297	pilus assembly	GO:0009289	pilus	GO:0022607	cellular component assembly
+GO:0071668	plant-type cell wall assembly	GO:0009505	plant-type cell wall	GO:0022607	cellular component assembly
+GO:0034377	plasma lipoprotein particle assembly	GO:0034358	plasma lipoprotein particle	GO:0022607	cellular component assembly
+GO:0044854	plasma membrane raft assembly	GO:0044853	plasma membrane raft	GO:0022607	cellular component assembly
+GO:0033618	plasma membrane respiratory chain complex IV assembly	GO:0045278	plasma membrane respiratory chain complex IV	GO:0022607	cellular component assembly
+GO:0071800	podosome assembly	GO:0002102	podosome	GO:0022607	cellular component assembly
+GO:0007315	pole plasm assembly	GO:0045495	pole plasm	GO:0022607	cellular component assembly
+GO:0010208	pollen wall assembly	GO:0043667	pollen wall	GO:0022607	cellular component assembly
+GO:0046931	pore complex assembly	GO:0046930	pore complex	GO:0022607	cellular component assembly
+GO:0036388	pre-replicative complex assembly	GO:0036387	pre-replicative complex	GO:0022607	cellular component assembly
+GO:0000913	preprophase band assembly	GO:0009574	preprophase band	GO:0022607	cellular component assembly
+GO:0043248	proteasome assembly	GO:0000502	proteasome complex	GO:0022607	cellular component assembly
+GO:0080129	proteasome core complex assembly	GO:0005839	proteasome core complex	GO:0022607	cellular component assembly
+GO:0070682	proteasome regulatory particle assembly	GO:0005838	proteasome regulatory particle	GO:0022607	cellular component assembly
+GO:1902906	proteasome storage granule assembly	GO:0034515	proteasome storage granule	GO:0022607	cellular component assembly
+GO:0006461	protein complex assembly	GO:0043234	protein complex	GO:0022607	cellular component assembly
+GO:0035362	protein-DNA ISRE complex assembly	GO:0097522	protein-DNA ISRE complex	GO:0022607	cellular component assembly
+GO:0065004	protein-DNA complex assembly	GO:0032993	protein-DNA complex	GO:0022607	cellular component assembly
+GO:0001116	protein-DNA-RNA complex assembly	GO:0001114	protein-DNA-RNA complex	GO:0022607	cellular component assembly
+GO:0065006	protein-carbohydrate complex assembly	GO:0032992	protein-carbohydrate complex	GO:0022607	cellular component assembly
+GO:0065005	protein-lipid complex assembly	GO:0032994	protein-lipid complex	GO:0022607	cellular component assembly
+GO:0043461	proton-transporting ATP synthase complex assembly	GO:0045259	proton-transporting ATP synthase complex	GO:0022607	cellular component assembly
+GO:0070070	proton-transporting V-type ATPase complex assembly	GO:0033176	proton-transporting V-type ATPase complex	GO:0022607	cellular component assembly
+GO:0070071	proton-transporting two-sector ATPase complex assembly	GO:0016469	proton-transporting two-sector ATPase complex	GO:0022607	cellular component assembly
+GO:1904270	pyroptosome complex assembly	GO:0061703	pyroptosome complex	GO:0022607	cellular component assembly
+GO:0034552	respiratory chain complex II assembly	GO:0045273	respiratory chain complex II	GO:0022607	cellular component assembly
+GO:0017062	respiratory chain complex III assembly	GO:0045275	respiratory chain complex III	GO:0022607	cellular component assembly
+GO:0008535	respiratory chain complex IV assembly	GO:0045277	respiratory chain complex IV	GO:0022607	cellular component assembly
+GO:0022618	ribonucleoprotein complex assembly	GO:0030529	intracellular ribonucleoprotein complex	GO:0022607	cellular component assembly
+GO:0000027	ribosomal large subunit assembly	GO:0015934	large ribosomal subunit	GO:0022607	cellular component assembly
+GO:0000028	ribosomal small subunit assembly	GO:0015935	small ribosomal subunit	GO:0022607	cellular component assembly
+GO:0042255	ribosome assembly	GO:0005840	ribosome	GO:0022607	cellular component assembly
+GO:0097343	ripoptosome assembly	GO:0097342	ripoptosome	GO:0022607	cellular component assembly
+GO:0035986	senescence-associated heterochromatin focus assembly	GO:0035985	senescence-associated heterochromatin focus	GO:0022607	cellular component assembly
+GO:0019991	septate junction assembly	GO:0005918	septate junction	GO:0022607	cellular component assembly
+GO:0000921	septin ring assembly	GO:0005940	septin ring	GO:0022607	cellular component assembly
+GO:0034294	sexual spore wall assembly	GO:0097514	sexual spore wall	GO:0022607	cellular component assembly
+GO:0036060	slit diaphragm assembly	GO:0036057	slit diaphragm	GO:0022607	cellular component assembly
+GO:0000491	small nucleolar ribonucleoprotein complex assembly	GO:0005732	small nucleolar ribonucleoprotein complex	GO:0022607	cellular component assembly
+GO:0034462	small-subunit processome assembly	GO:0032040	small-subunit processome	GO:0022607	cellular component assembly
+GO:0090528	smooth septate junction assembly	GO:0005920	smooth septate junction	GO:0022607	cellular component assembly
+GO:0051225	spindle assembly	GO:0005819	spindle	GO:0022607	cellular component assembly
+GO:0051255	spindle midzone assembly	GO:0051233	spindle midzone	GO:0022607	cellular component assembly
+GO:0030474	spindle pole body duplication	GO:0005816	spindle pole body	GO:0022607	cellular component assembly
+GO:1905355	spine apparatus assembly	GO:0097444	spine apparatus	GO:0022607	cellular component assembly
+GO:0000245	spliceosomal complex assembly	GO:0005681	spliceosomal complex	GO:0022607	cellular component assembly
+GO:0000387	spliceosomal snRNP assembly	GO:0097525	spliceosomal snRNP complex	GO:0022607	cellular component assembly
+GO:0000244	spliceosomal tri-snRNP complex assembly	GO:0097526	spliceosomal tri-snRNP complex	GO:0022607	cellular component assembly
+GO:0042244	spore wall assembly	GO:0031160	spore wall	GO:0022607	cellular component assembly
+GO:0044574	starch utilization system complex assembly	GO:0044570	starch utilization system complex	GO:0022607	cellular component assembly
+GO:0043149	stress fiber assembly	GO:0001725	stress fiber	GO:0022607	cellular component assembly
+GO:0034063	stress granule assembly	GO:0010494	cytoplasmic stress granule	GO:0022607	cellular component assembly
+GO:0071688	striated muscle myosin thick filament assembly	GO:0005863	striated muscle myosin thick filament	GO:0022607	cellular component assembly
+GO:1904868	telomerase catalytic core complex assembly	GO:0000333	telomerase catalytic core complex	GO:0022607	cellular component assembly
+GO:1905323	telomerase holoenzyme complex assembly	GO:0005697	telomerase holoenzyme complex	GO:0022607	cellular component assembly
+GO:1905324	telomere-telomerase complex assembly	GO:0070565	telomere-telomerase complex	GO:0022607	cellular component assembly
+GO:0070217	transcription factor TFIIIB complex assembly	GO:0000126	transcription factor TFIIIB complex	GO:0022607	cellular component assembly
+GO:0007181	transforming growth factor beta receptor complex assembly	GO:0070022	transforming growth factor beta receptor complex	GO:0022607	cellular component assembly
+GO:1904274	tricellular tight junction assembly	GO:0061689	tricellular tight junction	GO:0022607	cellular component assembly
+GO:1905499	trichome papilla formation	GO:0090705	trichome papilla	GO:0022607	cellular component assembly
+GO:0007021	tubulin complex assembly	GO:0045298	tubulin complex	GO:0022607	cellular component assembly
+GO:0043683	type IV pilus biogenesis	GO:0044096	type IV pilus	GO:0022607	cellular component assembly
+GO:0034379	very-low-density lipoprotein particle assembly	GO:0034361	very-low-density lipoprotein particle	GO:0022607	cellular component assembly
+GO:0070978	voltage-gated calcium channel complex assembly	GO:0005891	voltage-gated calcium channel complex	GO:0022607	cellular component assembly
+GO:0045186	zonula adherens assembly	GO:0005915	zonula adherens	GO:0022607	cellular component assembly
