@@ -9,23 +9,21 @@ relations:
 
 vars:
  entity: Thing
- biological regulation: "'biological regulation'"
 
 name:
      text: "positive regulation of %s"
      vars:
-       - 'entity'
+       - entity
 
 def:
   text: "Any process that activates or increases the frequency, rate or extent of %s."
   vars:
-     - 'entity'
+     - entity
 
 equivalentTo:
-  text: " %s and 'positively regulates' some %s"
+  text: " 'biological regulation' and 'positively regulates' some %s"
   vars:
-    - 'biological regulation'
-    - 'entity'
+    - entity
 
     
 
