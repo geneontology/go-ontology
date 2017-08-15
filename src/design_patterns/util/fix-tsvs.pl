@@ -12,6 +12,7 @@ while(<>) {
         s@\?@@g;
         s@defined_class@iri@g;
         s@_label@ label@g;
+        s@_@ @g;
     }
     print $_;
     $n++;

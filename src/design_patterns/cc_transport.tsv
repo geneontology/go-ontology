@@ -1,4 +1,4 @@
-iri	iri label	cellular_component	cellular_component label	transport	transport label
+iri	iri label	cellular component	cellular component label	transport	transport label
 GO:0061707	extracellular exosome macropinocytosis	GO:0070062	extracellular exosome	GO:0044351	macropinocytosis
 GO:0032402	melanosome transport	GO:0042470	melanosome	GO:0006810	transport
 GO:0051904	pigment granule transport	GO:0048770	pigment granule	GO:0006810	transport
