@@ -1,4 +1,4 @@
-iri	iri label	anatomical_structure	anatomical_structure label
+iri	iri label	target	target label
 GO:0061332	Malpighian tubule bud morphogenesis	UBERON:0001054	Malpighian tubule
 GO:0060061	Spemann organizer formation	UBERON:0003062	primitive knot
 GO:0048847	adenohypophysis formation	UBERON:0002196	adenohypophysis

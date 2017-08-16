@@ -1,60 +1,714 @@
-iri	iri label	binding	binding label	macromolecular_complex	macromolecular_complex label
-GO:0035650	AP-1 adaptor complex binding	GO:0005488	binding	GO:0030121	AP-1 adaptor complex
-GO:0035612	AP-2 adaptor complex binding	GO:0005488	binding	GO:0030122	AP-2 adaptor complex
-GO:0035651	AP-3 adaptor complex binding	GO:0005488	binding	GO:0030123	AP-3 adaptor complex
-GO:1904288	BAT3 complex binding	GO:0005488	binding	GO:0071818	BAT3 complex
-GO:0036461	BLOC-2 complex binding	GO:0005488	binding	GO:0031084	BLOC-2 complex
-GO:1905762	CCR4-NOT complex binding	GO:0005488	binding	GO:0030014	CCR4-NOT complex
-GO:0097030	CENP-A containing nucleosome binding	GO:0005488	binding	GO:0043505	CENP-A containing nucleosome
-GO:0034988	Fc-gamma receptor I complex binding	GO:0005488	binding	GO:0033000	Fc-gamma receptor I complex
-GO:0031683	G-protein beta/gamma-subunit complex binding	GO:0005488	binding	GO:0031680	G-protein beta/gamma-subunit complex
-GO:1904931	MCM complex binding	GO:0005488	binding	GO:0042555	MCM complex
-GO:0023024	MHC class I protein complex binding	GO:0005488	binding	GO:0042612	MHC class I protein complex
-GO:0023026	MHC class II protein complex binding	GO:0005488	binding	GO:0042613	MHC class II protein complex
-GO:0023025	MHC class Ib protein complex binding	GO:0005488	binding	GO:0032398	MHC class Ib protein complex
-GO:0023023	MHC protein complex binding	GO:0005488	binding	GO:0042611	MHC protein complex
-GO:1905763	MTREC complex binding	GO:0005488	binding	GO:1990345	MTREC complex
-GO:0032405	MutLalpha complex binding	GO:0005488	binding	GO:0032389	MutLalpha complex
-GO:0032406	MutLbeta complex binding	GO:0005488	binding	GO:0032390	MutLbeta complex
-GO:0032407	MutSalpha complex binding	GO:0005488	binding	GO:0032301	MutSalpha complex
-GO:0032408	MutSbeta complex binding	GO:0005488	binding	GO:0032302	MutSbeta complex
-GO:1905172	RISC complex binding	GO:0005488	binding	GO:0016442	RISC complex
-GO:1905334	Swi5-Sfr1 complex binding	GO:0005488	binding	GO:0032798	Swi5-Sfr1 complex
-GO:1904841	TORC2 complex binding	GO:0005488	binding	GO:0031932	TORC2 complex
-GO:1990446	U1 snRNP binding	GO:0005488	binding	GO:0005685	U1 snRNP
-GO:1990447	U2 snRNP binding	GO:0005488	binding	GO:0005686	U2 snRNP
-GO:0051015	actin filament binding	GO:0005488	binding	GO:0031941	filamentous actin
-GO:1904713	beta-catenin destruction complex binding	GO:0005488	binding	GO:0030877	beta-catenin destruction complex
-GO:0035478	chylomicron binding	GO:0005488	binding	GO:0042627	chylomicron
-GO:0070052	collagen V binding	GO:0005488	binding	GO:0005588	collagen type V trimer
-GO:0005518	collagen binding	GO:0005488	binding	GO:0005581	collagen trimer
-GO:0098633	collagen fibril binding	GO:0005488	binding	GO:0098643	banded collagen fibril
-GO:0070840	dynein complex binding	GO:0005488	binding	GO:0030286	dynein complex
-GO:1990448	exon-exon junction complex binding	GO:0005488	binding	GO:0035145	exon-exon junction complex
-GO:0070051	fibrinogen binding	GO:0005488	binding	GO:0005577	fibrinogen complex
-GO:0008035	high-density lipoprotein particle binding	GO:0005488	binding	GO:0034364	high-density lipoprotein particle
-GO:0034710	inhibin complex binding	GO:0005488	binding	GO:0043511	inhibin complex
-GO:0071815	intermediate-density lipoprotein particle binding	GO:0005488	binding	GO:0034363	intermediate-density lipoprotein particle
-GO:0043515	kinetochore binding	GO:0005488	binding	GO:0000776	kinetochore
-GO:0071813	lipoprotein particle binding	GO:0005488	binding	GO:1990777	lipoprotein particle
-GO:0030169	low-density lipoprotein particle binding	GO:0005488	binding	GO:0034362	low-density lipoprotein particle
-GO:0044877	macromolecular complex binding	GO:0005488	binding	GO:0032991	macromolecular complex
-GO:0036033	mediator complex binding	GO:0005488	binding	GO:0016592	mediator complex
-GO:0032404	mismatch repair complex binding	GO:0005488	binding	GO:0032300	mismatch repair complex
-GO:0031491	nucleosome binding	GO:0005488	binding	GO:0000786	nucleosome
-GO:1905538	polysome binding	GO:0005488	binding	GO:0005844	polysome
-GO:1990275	preribosome binding	GO:0005488	binding	GO:0030684	preribosome
-GO:0070628	proteasome binding	GO:0005488	binding	GO:0000502	proteasome complex
-GO:1904854	proteasome core complex binding	GO:0005488	binding	GO:0005839	proteasome core complex
-GO:1904855	proteasome regulatory particle binding	GO:0005488	binding	GO:0005838	proteasome regulatory particle
-GO:0032403	protein complex binding	GO:0005488	binding	GO:0043234	protein complex
-GO:0071814	protein-lipid complex binding	GO:0005488	binding	GO:0032994	protein-lipid complex
-GO:1905394	retromer complex binding	GO:0005488	binding	GO:0030904	retromer complex
-GO:0043021	ribonucleoprotein complex binding	GO:0005488	binding	GO:0030529	intracellular ribonucleoprotein complex
-GO:0043023	ribosomal large subunit binding	GO:0005488	binding	GO:0015934	large ribosomal subunit
-GO:0043024	ribosomal small subunit binding	GO:0005488	binding	GO:0015935	small ribosomal subunit
-GO:0043022	ribosome binding	GO:0005488	binding	GO:0005840	ribosome
-GO:1990301	scaffoldin complex binding	GO:0005488	binding	GO:1990296	scaffoldin complex
-GO:0005047	signal recognition particle binding	GO:0005488	binding	GO:0048500	signal recognition particle
-GO:0070990	snRNP binding	GO:0005488	binding	GO:0030532	small nuclear ribonucleoprotein complex
-GO:0030519	snoRNP binding	GO:0005488	binding	GO:0005732	small nucleolar ribonucleoprotein complex
+iri	iri label	entity	entity label
+GO:2001077	(1->3),(1->4)-beta-glucan binding	CHEBI:18504	(1->3,1->4)-beta-D-glucan
+GO:0001872	(1->3)-beta-D-glucan binding	CHEBI:37671	(1->3)-beta-D-glucan
+GO:2001081	(1->4)-beta-D-galactan binding	CHEBI:62776	(1->4)-beta-D-galactan
+GO:2001078	(1->6)-beta-D-glucan binding	CHEBI:27380	(1->6)-beta-D-glucan
+GO:1902051	(25S)-Delta(4)-dafachronate binding	CHEBI:71541	(25S)-Delta(4)-dafachronate
+GO:1902052	(25S)-Delta(7)-dafachronate binding	CHEBI:71542	(25S)-Delta(7)-dafachronate
+GO:0071886	1-(4-iodo-2,5-dimethoxyphenyl)propan-2-amine binding	CHEBI:64629	2-(4-iodo-2,5-dimethoxyphenyl)-1-methylethylamine
+GO:0005545	1-phosphatidylinositol binding	CHEBI:16749	1-phosphatidyl-1D-myo-inositol
+GO:0005502	11-cis retinal binding	CHEBI:16066	11-cis-retinal
+GO:1903878	11-deoxycorticosterone binding	CHEBI:16973	11-deoxycorticosterone
+GO:1903876	11-deoxycortisol binding	CHEBI:28324	11-deoxycortisol
+GO:1903879	11beta-hydroxyprogesterone binding	CHEBI:28247	11beta-hydroxyprogesterone
+GO:0071889	14-3-3 protein binding	PR:000003237	14-3-3 protein
+GO:1903880	17alpha-hydroxyprogesterone binding	CHEBI:17252	17alpha-hydroxyprogesterone
+GO:0051537	2 iron, 2 sulfur cluster binding	CHEBI:49601	Fe2S2 iron-sulfur cluster
+GO:0098546	2',5-3',5'-cyclic GMP-AMP binding	CHEBI:75947	c[G(2',5')pA(3',5')p]
+GO:0033226	2-aminoethylphosphonate binding	CHEBI:15573	(2-aminoethyl)phosphonic acid
+GO:1903877	21-deoxycortisol binding	CHEBI:28697	21-deoxycortisol
+GO:0051538	3 iron, 4 sulfur cluster binding	CHEBI:64606	Fe3S4 iron-sulfur cluster
+GO:0050656	3'-phosphoadenosine 5'-phosphosulfate binding	CHEBI:17980	3'-phospho-5'-adenylyl sulfate
+GO:0046876	3,4-didehydroretinal binding	CHEBI:28537	all-trans-dehydroretinal
+GO:0036127	3-sulfino-L-alanine binding	CHEBI:16345	3-sulfino-L-alanine
+GO:1990655	4 iron, 3 sulfur cluster binding	CHEBI:85620	Fe4S3 iron-sulfur cluster
+GO:0051539	4 iron, 4 sulfur cluster binding	CHEBI:64607	Fe4S4 iron-sulfur cluster
+GO:0050648	5(S)-hydroxyperoxy-6E,8Z,11Z,14Z-icosatetraenoic acid binding	CHEBI:57450	5(S)-HPETE(1-)
+GO:1902248	5-O-phosphono-alpha-D-ribofuranosyl diphosphate binding	CHEBI:17111	5-O-phosphono-alpha-D-ribofuranosyl diphosphate
+GO:0050647	5-hydroxy-6E,8Z,11Z,14Z-icosatetraenoic acid binding	CHEBI:60943	5-HETE
+GO:0050646	5-oxo-6E,8Z,11Z,14Z-icosatetraenoic acid binding	CHEBI:52449	5-oxo-ETE
+GO:1990932	5.8S rRNA binding	SO:0000375	rRNA_5_8S
+GO:0043531	ADP binding	CHEBI:16761	ADP
+GO:0072570	ADP-D-ribose binding	CHEBI:16864	D-ribofuranosyl-ADP
+GO:0016208	AMP binding	CHEBI:16027	AMP
+GO:0035650	AP-1 adaptor complex binding	GO:0030121	AP-1 adaptor complex
+GO:0035612	AP-2 adaptor complex binding	GO:0030122	AP-2 adaptor complex
+GO:0035651	AP-3 adaptor complex binding	GO:0030123	AP-3 adaptor complex
+GO:0005524	ATP binding	CHEBI:15422	ATP
+GO:1904492	Ac-Asp-Glu binding	CHEBI:73688	Ac-Asp-Glu
+GO:0031712	B1 bradykinin receptor binding	PR:000001171	B1 bradykinin receptor
+GO:0031713	B2 bradykinin receptor binding	PR:000001172	B2 bradykinin receptor
+GO:1904288	BAT3 complex binding	GO:0071818	BAT3 complex
+GO:0036461	BLOC-2 complex binding	GO:0031084	BLOC-2 complex
+GO:0036122	BMP binding	PR:000000034	BMP
+GO:0031714	C5a anaphylatoxin chemotactic receptor binding	PR:000001105	C5a anaphylatoxin chemotactic receptor
+GO:0031727	CCR2 chemokine receptor binding	PR:000001199	C-C chemokine receptor type 2
+GO:0031728	CCR3 chemokine receptor binding	PR:000001255	C-C chemokine receptor type 3
+GO:1905762	CCR4-NOT complex binding	GO:0030014	CCR4-NOT complex
+GO:0031731	CCR6 chemokine receptor binding	PR:000001202	C-C chemokine receptor type 6
+GO:0031732	CCR7 chemokine receptor binding	PR:000001203	C-C chemokine receptor type 7
+GO:0097030	CENP-A containing nucleosome binding	GO:0043505	CENP-A containing nucleosome
+GO:0002135	CTP binding	CHEBI:17677	CTP
+GO:0031737	CX3C chemokine receptor binding	PR:000001206	CX3C chemokine receptor 1
+GO:0031723	CXCR4 chemokine receptor binding	PR:000001208	C-X-C chemokine receptor type 4
+GO:1902271	D3 vitamins binding	CHEBI:73558	D3 vitamins
+GO:0003677	DNA binding	CHEBI:16991	deoxyribonucleic acid
+GO:0044547	DNA topoisomerase binding	PR:000016542	DNA topoisomerase 1
+GO:0031864	EP1 subtype prostaglandin E2 receptor binding	PR:000001657	prostaglandin E2 receptor EP1 subtype
+GO:0031865	EP2 subtype prostaglandin E2 receptor binding	PR:000001658	prostaglandin E2 receptor EP2 subtype
+GO:0031866	EP3 subtype prostaglandin E2 receptor binding	PR:000001659	prostaglandin E2 receptor EP3 subtype
+GO:0031867	EP4 subtype prostaglandin E2 receptor binding	PR:000001548	prostaglandin E2 receptor EP4 subtype
+GO:0071949	FAD binding	CHEBI:16238	FAD
+GO:0071950	FADH2 binding	CHEBI:17877	FADH2
+GO:0005528	FK506 binding	CHEBI:61049	tacrolimus (anhydrous)
+GO:0010181	FMN binding	CHEBI:17621	FMN
+GO:0034988	Fc-gamma receptor I complex binding	GO:0033000	Fc-gamma receptor I complex
+GO:0031683	G-protein beta/gamma-subunit complex binding	GO:0031680	G-protein beta/gamma-subunit complex
+GO:0031789	G-protein coupled acetylcholine receptor binding	PR:000001488	muscarinic acetylcholine receptor
+GO:0019003	GDP binding	CHEBI:17552	GDP
+GO:0019002	GMP binding	CHEBI:17345	GMP
+GO:0034235	GPI anchor binding	CHEBI:24410	glycosylphosphatidylinositol
+GO:0005525	GTP binding	CHEBI:15996	GTP
+GO:0044549	GTP cyclohydrolase binding	PR:000007893	GTP cyclohydrolase 1
+GO:0032794	GTPase activating protein binding	PR:000013743	ras GTPase-activating protein 1
+GO:0031807	H1 histamine receptor binding	PR:000001422	histamine H1 receptor
+GO:0031808	H2 histamine receptor binding	PR:000001423	histamine H2 receptor
+GO:0031809	H3 histamine receptor binding	PR:000001564	histamine H3 receptor
+GO:0031810	H4 histamine receptor binding	PR:000001565	H4 histamine receptor
+GO:0051879	Hsp90 protein binding	PR:000025350	HSPC protein
+GO:1902249	IMP binding	CHEBI:17202	IMP
+GO:1901641	ITP binding	CHEBI:16039	ITP
+GO:0072544	L-DOPA binding	CHEBI:15765	L-dopa
+GO:2001084	L-arabinofuranose binding	CHEBI:6178	L-arabinofuranose
+GO:0031418	L-ascorbic acid binding	CHEBI:38290	L-ascorbate
+GO:1902485	L-cysteine binding	CHEBI:17561	L-cysteine
+GO:1904931	MCM complex binding	GO:0042555	MCM complex
+GO:0039556	MDA-5 binding	PR:000008910	interferon-induced helicase C domain-containing protein 1
+GO:0023024	MHC class I protein complex binding	GO:0042612	MHC class I protein complex
+GO:0023026	MHC class II protein complex binding	GO:0042613	MHC class II protein complex
+GO:0023025	MHC class Ib protein complex binding	GO:0032398	MHC class Ib protein complex
+GO:0023023	MHC protein complex binding	GO:0042611	MHC protein complex
+GO:1905763	MTREC complex binding	GO:1990345	MTREC complex
+GO:1904517	MgATP(2-) binding	CHEBI:30617	MgATP(2-)
+GO:0032405	MutLalpha complex binding	GO:0032389	MutLalpha complex
+GO:0032406	MutLbeta complex binding	GO:0032390	MutLbeta complex
+GO:0032407	MutSalpha complex binding	GO:0032301	MutSalpha complex
+GO:0032408	MutSbeta complex binding	GO:0032302	MutSbeta complex
+GO:0010013	N-1-naphthylphthalamic acid binding	CHEBI:60833	naptalam
+GO:0046871	N-acetylgalactosamine binding	CHEBI:28800	N-acetylgalactosamine
+GO:0051287	NAD binding	CHEBI:13389	NAD
+GO:0070403	NAD+ binding	CHEBI:15846	NAD(+)
+GO:0070404	NADH binding	CHEBI:16908	NADH
+GO:0050661	NADP binding	CHEBI:25523	NADP
+GO:0070401	NADP+ binding	CHEBI:18009	NADP(+)
+GO:0070402	NADPH binding	CHEBI:16474	NADPH
+GO:0051059	NF-kappaB binding	PR:000001753	transcription factor NF-kappa-B subunit
+GO:0039552	RIG-I binding	PR:000029394	ATP-dependent RNA helicase DDX58
+GO:1905172	RISC complex binding	GO:0016442	RISC complex
+GO:0003723	RNA binding	CHEBI:33697	ribonucleic acid
+GO:0044197	Rel homology domain binding	PR:000001442	blood group Rh(D) polypeptide
+GO:1904047	S-adenosyl-L-methionine binding	CHEBI:15414	S-adenosyl-L-methionine
+GO:0035730	S-nitrosoglutathione binding	CHEBI:50091	S-nitrosoglutathione
+GO:1905761	SCF ubiquitin ligase complex binding	GO:0019005	SCF ubiquitin ligase complex
+GO:0070984	SET domain binding	PR:000014717	protein SET
+GO:1905334	Swi5-Sfr1 complex binding	GO:0032798	Swi5-Sfr1 complex
+GO:0042608	T cell receptor binding	PR:000015975	sperm motility kinase Tcr mutant form
+GO:0046977	TAP binding	PR:000024025	methyl-accepting chemotaxis protein IV
+GO:0046978	TAP1 binding	PR:000016051	antigen peptide transporter 1
+GO:0046979	TAP2 binding	PR:000016052	antigen peptide transporter 2
+GO:0038057	TNFSF11 binding	PR:000002107	tumor necrosis factor ligand superfamily member 11
+GO:1904841	TORC2 complex binding	GO:0031932	TORC2 complex
+GO:0045569	TRAIL binding	PR:000002106	tumor necrosis factor ligand superfamily member 10
+GO:0035663	Toll-like receptor 2 binding	PR:000001153	Toll-like receptor 2
+GO:0035662	Toll-like receptor 4 binding	PR:000001155	Toll-like receptor 4
+GO:0035325	Toll-like receptor binding	PR:000001096	Toll-like receptor
+GO:1990446	U1 snRNP binding	GO:0005685	U1 snRNP
+GO:1990447	U2 snRNP binding	GO:0005686	U2 snRNP
+GO:0002134	UTP binding	CHEBI:15713	UTP
+GO:0031738	XCR1 chemokine receptor binding	PR:000001212	chemokine XC receptor 1
+GO:1901640	XTP binding	CHEBI:10049	XTP
+GO:0010427	abscisic acid binding	CHEBI:62071	2-cis-abscisate
+GO:1905502	acetyl-CoA binding	CHEBI:15351	acetyl-CoA
+GO:0042166	acetylcholine binding	CHEBI:15355	acetylcholine
+GO:0032190	acrosin binding	PR:000003652	acrosin
+GO:0051015	actin filament binding	GO:0031941	filamentous actin
+GO:0000035	acyl binding	CHEBI:22221	acyl group
+GO:0002055	adenine binding	CHEBI:16708	adenine
+GO:0031685	adenosine receptor binding	PR:000001439	adenosine receptor
+GO:0032558	adenyl deoxyribonucleotide binding	CHEBI:61297	adenyl deoxyribonucleotide
+GO:0030554	adenyl nucleotide binding	CHEBI:61293	adenyl nucleotide
+GO:0032559	adenyl ribonucleotide binding	CHEBI:61296	adenyl ribonucleotide
+GO:0008179	adenylate cyclase binding	PR:000022358	adenylate cyclase
+GO:0055100	adiponectin binding	PR:000003777	adiponectin
+GO:1904599	advanced glycation end-product binding	CHEBI:84123	advanced glycation end-product
+GO:0043178	alcohol binding	CHEBI:30879	alcohol
+GO:0031420	alkali metal ion binding	CHEBI:33504	alkali metal cation
+GO:0072328	alkene binding	CHEBI:32878	alkene
+GO:0032131	alkylated DNA binding	CHEBI:2588	Alkylated DNA
+GO:0005503	all-trans retinal binding	CHEBI:17898	all-trans-retinal
+GO:1904768	all-trans-retinol binding	CHEBI:17336	all-trans-retinol
+GO:0031691	alpha-1A adrenergic receptor binding	PR:000001183	alpha-1A adrenergic receptor
+GO:0031692	alpha-1B adrenergic receptor binding	PR:000001184	alpha-1B adrenergic receptor
+GO:0031693	alpha-1D adrenergic receptor binding	PR:000001185	alpha-1D adrenergic receptor
+GO:0031694	alpha-2A adrenergic receptor binding	PR:000001186	alpha-2A adrenergic receptor
+GO:0031695	alpha-2B adrenergic receptor binding	PR:000001187	alpha-2B adrenergic receptor
+GO:0031696	alpha-2C adrenergic receptor binding	PR:000001188	alpha-2C adrenergic receptor
+GO:2001083	alpha-D-glucan binding	CHEBI:22385	alpha-D-glucan
+GO:1904678	alpha-aminoacyl-tRNA binding	CHEBI:2651	alpha-aminoacyl-tRNA
+GO:0033218	amide binding	CHEBI:32988	amide
+GO:0043176	amine binding	CHEBI:32952	amine
+GO:0016597	amino acid binding	CHEBI:37022	amino-acid anion
+GO:0070405	ammonium ion binding	CHEBI:35274	ammonium ion
+GO:0001540	amyloid-beta binding	CHEBI:64645	beta-amyloid
+GO:2001066	amylopectin binding	CHEBI:28057	amylopectin
+GO:0010997	anaphase-promoting complex binding	GO:0005680	anaphase-promoting complex
+GO:0050681	androgen receptor binding	PR:000004191	androgen receptor
+GO:0043168	anion binding	CHEBI:22563	anion
+GO:0031704	apelin receptor binding	PR:000001120	apelin receptor
+GO:0034186	apolipoprotein A-I binding	PR:000004140	apolipoprotein A-I
+GO:0034185	apolipoprotein binding	CHEBI:39015	apolipoprotein
+GO:2001085	arabinogalactan binding	CHEBI:27569	arabinogalactan
+GO:2001068	arabinoxylan binding	CHEBI:28427	arabinoxylan
+GO:0050544	arachidonic acid binding	CHEBI:32395	arachidonate
+GO:0034618	arginine binding	CHEBI:32695	argininate
+GO:0017162	aryl hydrocarbon receptor binding	PR:000003858	aryl hydrocarbon receptor
+GO:1904067	ascr#2 binding	CHEBI:78812	ascr#2
+GO:0070335	aspartate binding	CHEBI:29995	aspartate(2-)
+GO:0042314	bacteriochlorophyll binding	CHEBI:38201	bacteriochlorophyll
+GO:0016169	bacteriochlorophyll c binding	CHEBI:60197	bacteriochlorophyll c
+GO:0031697	beta-1 adrenergic receptor binding	PR:000001192	beta-1 adrenergic receptor
+GO:0031698	beta-2 adrenergic receptor binding	PR:000001193	beta-2 adrenergic receptor
+GO:0030881	beta-2-microglobulin binding	PR:000004580	beta-2-microglobulin
+GO:0031699	beta-3 adrenergic receptor binding	PR:000001194	beta-3 adrenergic receptor
+GO:2001079	beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-D-Glc binding	CHEBI:60239	beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-D-Glc
+GO:0008013	beta-catenin binding	PR:000002198	catenin beta-1
+GO:1904713	beta-catenin destruction complex binding	GO:0030877	beta-catenin destruction complex
+GO:0031626	beta-endorphin binding	CHEBI:10415	beta-endorphin
+GO:0071890	bicarbonate binding	CHEBI:17544	hydrogencarbonate
+GO:0032052	bile acid binding	CHEBI:36235	bile acid anion
+GO:0009374	biotin binding	CHEBI:57586	biotinate
+GO:0031705	bombesin receptor binding	PR:000001122	bombesin receptor
+GO:0044730	bone sialoprotein binding	PR:000008878	bone sialoprotein 2
+GO:0046714	borate binding	CHEBI:22908	borate
+GO:0031711	bradykinin receptor binding	PR:000001123	bradykinin receptor
+GO:0048403	brain-derived neurotrophic factor binding	PR:000004716	brain-derived neurotrophic factor
+GO:0090411	brassinosteroid binding	CHEBI:22921	brassinosteroid
+GO:0030552	cAMP binding	CHEBI:17489	3',5'-cyclic AMP
+GO:0030553	cGMP binding	CHEBI:16356	3',5'-cyclic GMP
+GO:0045296	cadherin binding	PR:000001327	cadherin
+GO:0046870	cadmium ion binding	CHEBI:63063	cadmium cation
+GO:1902118	calcidiol binding	CHEBI:17933	calcidiol
+GO:0032841	calcitonin binding	CHEBI:3306	calcitonin
+GO:0031716	calcitonin receptor binding	PR:000004972	calcitonin receptor
+GO:1902098	calcitriol binding	CHEBI:17823	calcitriol
+GO:0005509	calcium ion binding	CHEBI:39123	calcium cation
+GO:0046904	calcium oxalate binding	CHEBI:60579	calcium oxalate
+GO:0005516	calmodulin binding	PR:000004978	calmodulin
+GO:2001147	camalexin binding	CHEBI:22990	camalexin
+GO:0030246	carbohydrate binding	CHEBI:16646	carbohydrate
+GO:0097367	carbohydrate derivative binding	CHEBI:63299	carbohydrate derivative
+GO:1902670	carbon dioxide binding	CHEBI:16526	carbon dioxide
+GO:0070025	carbon monoxide binding	CHEBI:17245	carbon monoxide
+GO:0031406	carboxylic acid binding	CHEBI:29067	carboxylic acid anion
+GO:1901612	cardiolipin binding	CHEBI:28494	cardiolipin
+GO:0097246	catechin binding	CHEBI:23053	catechin
+GO:1901338	catecholamine binding	CHEBI:33567	catecholamine
+GO:0043169	cation binding	CHEBI:36916	cation
+GO:0044585	cellobiose binding	CHEBI:17057	cellobiose
+GO:0044584	cellodextrin binding	CHEBI:3523	cellodextrin
+GO:2001064	cellooligosaccharide binding	CHEBI:62563	cellooligosaccharide
+GO:0044587	cellopentaose binding	CHEBI:62976	cellopentaose
+GO:0044586	cellotetraose binding	CHEBI:62974	cellotetraose
+GO:0044583	cellotriose binding	CHEBI:3528	cellotriose
+GO:0030248	cellulose binding	CHEBI:18246	(1->4)-beta-D-glucan
+GO:1990300	cellulosome binding	GO:0043263	cellulosome
+GO:1902387	ceramide 1-phosphate binding	CHEBI:16197	N-acylsphingosine 1-phosphate
+GO:0097001	ceramide binding	CHEBI:17761	ceramide
+GO:0035716	chemokine (C-C motif) ligand 12 binding	PR:000006165	C-C motif chemokine 12
+GO:0035757	chemokine (C-C motif) ligand 19 binding	PR:000001991	C-C motif chemokine 19
+GO:0035715	chemokine (C-C motif) ligand 2 binding	PR:000002122	C-C motif chemokine 2
+GO:0035758	chemokine (C-C motif) ligand 21 binding	PR:000001993	C-C motif chemokine 21
+GO:0071791	chemokine (C-C motif) ligand 5 binding	PR:000002094	C-C motif chemokine 5
+GO:0035717	chemokine (C-C motif) ligand 7 binding	PR:000002125	C-C motif chemokine 7
+GO:0042379	chemokine receptor binding	PR:000001128	chemokine receptor
+GO:1902122	chenodeoxycholic acid binding	CHEBI:16755	chenodeoxycholic acid
+GO:0008061	chitin binding	CHEBI:17029	chitin
+GO:2001080	chitosan binding	CHEBI:16261	chitosan
+GO:0031404	chloride ion binding	CHEBI:17996	chloride
+GO:0016168	chlorophyll binding	CHEBI:28966	chlorophyll
+GO:0031739	cholecystokinin receptor binding	PR:000001130	cholecystokinin receptor
+GO:0015485	cholesterol binding	CHEBI:16113	cholesterol
+GO:0033265	choline binding	CHEBI:15354	choline
+GO:0035374	chondroitin sulfate binding	CHEBI:37397	chondroitin sulfate
+GO:0035373	chondroitin sulfate proteoglycan binding	CHEBI:26349	proteochondroitin sulfate
+GO:0003682	chromatin binding	GO:0000785	chromatin
+GO:0035478	chylomicron binding	GO:0042627	chylomicron
+GO:0070119	ciliary neurotrophic factor binding	PR:000005663	ciliary neurotrophic factor
+GO:0031419	cobalamin binding	CHEBI:30411	cobalamin
+GO:0050897	cobalt ion binding	CHEBI:23336	cobalt cation
+GO:0019811	cocaine binding	CHEBI:27958	cocaine
+GO:0070967	coenzyme F420 binding	CHEBI:16848	coenzyme gamma-F420-2
+GO:0070052	collagen V binding	GO:0005588	collagen type V trimer
+GO:0005518	collagen binding	GO:0005581	collagen trimer
+GO:0098633	collagen fibril binding	GO:0098643	banded collagen fibril
+GO:0005507	copper ion binding	CHEBI:23378	copper cation
+GO:1903875	corticosterone binding	CHEBI:16827	corticosterone
+GO:0031780	corticotropin hormone receptor binding	PR:000001182	adrenocorticotropic hormone receptor
+GO:0051424	corticotropin-releasing hormone binding	CHEBI:65311	corticotropin-releasing hormone
+GO:0051430	corticotropin-releasing hormone receptor 1 binding	PR:000005869	corticotropin-releasing factor receptor 1
+GO:0051431	corticotropin-releasing hormone receptor 2 binding	PR:000005870	corticotropin-releasing factor receptor 2
+GO:1903794	cortisol binding	CHEBI:17650	cortisol
+GO:1903135	cupric ion binding	CHEBI:29036	copper(2+)
+GO:1903136	cuprous ion binding	CHEBI:49552	copper(1+)
+GO:0030551	cyclic nucleotide binding	CHEBI:23447	cyclic nucleotide
+GO:0061507	cyclic-GMP-AMP binding	CHEBI:71580	c-GMP-AMP
+GO:0035438	cyclic-di-GMP binding	CHEBI:49537	c-di-GMP
+GO:0030332	cyclin binding	PR:000012421	proliferating cell nuclear antigen
+GO:2001073	cyclodextrin binding	CHEBI:23456	cyclodextrin
+GO:0016018	cyclosporin A binding	CHEBI:4031	cyclosporin A
+GO:0031745	cysteinyl leukotriene receptor binding	PR:000001131	cysteinyl leukotriene receptor
+GO:0002056	cytosine binding	CHEBI:16040	cytosine
+GO:0032563	dADP binding	CHEBI:16174	dADP
+GO:0032562	dAMP binding	CHEBI:17713	dAMP
+GO:0032564	dATP binding	CHEBI:16284	dATP
+GO:0032566	dGDP binding	CHEBI:28862	dGDP
+GO:0032565	dGMP binding	CHEBI:16192	dGMP
+GO:0032567	dGTP binding	CHEBI:16497	dGTP
+GO:0005123	death receptor binding	PR:000021999	death receptor
+GO:0070097	delta-catenin binding	PR:000006013	catenin delta-2
+GO:0031850	delta-type opioid receptor binding	PR:000001579	delta-type opioid receptor
+GO:0032546	deoxyribonucleoside binding	CHEBI:23636	deoxyribonucleoside
+GO:0032552	deoxyribonucleotide binding	CHEBI:4431	deoxyribonucleotide
+GO:1901602	dethiobiotin binding	CHEBI:16691	dethiobiotin
+GO:0042498	diacyl lipopeptide binding	CHEBI:46896	diacyl lipopeptide
+GO:0019992	diacylglycerol binding	CHEBI:18035	diglyceride
+GO:0050809	diazepam binding	CHEBI:49575	diazepam
+GO:0035275	dibutyl phthalate binding	CHEBI:34687	dibutyl phthalate
+GO:0051871	dihydrofolic acid binding	CHEBI:15633	dihydrofolic acid
+GO:0035731	dinitrosyl-iron complex binding	CHEBI:64609	dinitrosyl-iron complex
+GO:0035274	diphenyl phthalate binding	CHEBI:60819	diphenyl phthalate
+GO:0048030	disaccharide binding	CHEBI:36233	disaccharide
+GO:0035240	dopamine binding	CHEBI:18243	dopamine
+GO:0003690	double-stranded DNA binding	CHEBI:4705	double-stranded DNA
+GO:0003725	double-stranded RNA binding	CHEBI:67208	double-stranded RNA
+GO:0003725	double-stranded RNA binding	CHEBI:67208	dsRNA
+GO:0070840	dynein complex binding	GO:0030286	dynein complex
+GO:0045503	dynein light chain binding	PR:000002201	dynein light chain
+GO:0002162	dystroglycan binding	PR:000006267	dystroglycan
+GO:0035100	ecdysone binding	CHEBI:16688	ecdysone
+GO:0033294	ectoine binding	CHEBI:27592	ectoine
+GO:0031707	endothelin A receptor binding	PR:000001221	endothelin-1 receptor
+GO:1903981	enterobactin binding	CHEBI:28855	enterobactin
+GO:0046875	ephrin receptor binding	PR:000025845	ephrin receptor
+GO:0048408	epidermal growth factor binding	PR:000006928	pro-epidermal growth factor
+GO:0005154	epidermal growth factor receptor binding	PR:000006933	epidermal growth factor receptor
+GO:0097247	epigallocatechin 3-gallate binding	CHEBI:4806	(-)-epigallocatechin 3-gallate
+GO:0051379	epinephrine binding	CHEBI:33568	adrenaline
+GO:0005128	erythropoietin receptor binding	PR:000007142	erythropoietin receptor
+GO:1903924	estradiol binding	CHEBI:23965	estradiol
+GO:0030331	estrogen receptor binding	PR:000007204	estrogen receptor
+GO:0035276	ethanol binding	CHEBI:16236	ethanol
+GO:0051740	ethylene binding	CHEBI:18153	ethene
+GO:1990188	euchromatin binding	GO:0000791	euchromatin
+GO:0008190	eukaryotic initiation factor 4E binding	PR:000006990	eukaryotic translation initiation factor 4E
+GO:1990448	exon-exon junction complex binding	GO:0035145	exon-exon junction complex
+GO:0050840	extracellular matrix binding	GO:0031012	extracellular matrix
+GO:0031761	fMet-Leu-Phe receptor binding	PR:000001431	N-formyl peptide receptor
+GO:0005504	fatty acid binding	CHEBI:28868	fatty acid anion
+GO:1901567	fatty acid derivative binding	CHEBI:61697	fatty acid derivative
+GO:0000062	fatty-acyl-CoA binding	CHEBI:37554	fatty acyl-CoA
+GO:0008199	ferric iron binding	CHEBI:29034	iron(3+)
+GO:0008198	ferrous iron binding	CHEBI:29033	iron(2+)
+GO:0070051	fibrinogen binding	GO:0005577	fibrinogen complex
+GO:0005104	fibroblast growth factor receptor binding	PR:000001349	fibroblast growth factor receptor
+GO:0001968	fibronectin binding	PR:000007581	fibronectin
+GO:0097245	flavanol binding	CHEBI:72010	hydroxyflavan
+GO:0050660	flavin adenine dinucleotide binding	CHEBI:24040	flavin adenine dinucleotide
+GO:0097243	flavonoid binding	CHEBI:47916	flavonoid
+GO:0097244	flavonol binding	CHEBI:5078	flavonol
+GO:0035923	flurbiprofen binding	CHEBI:5130	flurbiprofen
+GO:0005542	folic acid binding	CHEBI:27470	folic acid
+GO:0005109	frizzled binding	PR:000001315	frizzled-like G-protein coupled receptor
+GO:0005110	frizzled-2 binding	PR:000007719	frizzled-2
+GO:0070061	fructose binding	CHEBI:28757	fructose
+GO:0070095	fructose-6-phosphate binding	CHEBI:15946	keto-D-fructose 6-phosphate
+GO:0042806	fucose binding	CHEBI:33984	fucose
+GO:2001072	galactomannan binding	CHEBI:27680	galactomannan
+GO:0005534	galactose binding	CHEBI:28260	galactose
+GO:0016936	galactoside binding	CHEBI:24163	galactoside
+GO:0048028	galacturonan binding	CHEBI:24174	galacturonan
+GO:0048032	galacturonate binding	CHEBI:24175	galacturonate
+GO:0031763	galanin receptor binding	PR:000001457	galanin receptor
+GO:1905573	ganglioside GM1 binding	CHEBI:61048	ganglioside GM1
+GO:1905574	ganglioside GM2 binding	CHEBI:60327	ganglioside GM2
+GO:1905575	ganglioside GM3 binding	CHEBI:84118	ganglioside GM3
+GO:1905577	ganglioside GP1c binding	CHEBI:52602	ganglioside GP1c
+GO:1905576	ganglioside GT1b binding	CHEBI:60913	ganglioside GT1b
+GO:0035594	ganglioside binding	CHEBI:28892	ganglioside
+GO:0031767	gastric inhibitory polypeptide receptor binding	PR:000007988	gastric inhibitory polypeptide receptor
+GO:0031709	gastrin-releasing peptide receptor binding	PR:000001223	gastrin-releasing peptide receptor
+GO:0031768	ghrelin receptor binding	PR:000001225	growth hormone secretagogue receptor
+GO:0010331	gibberellin binding	CHEBI:24250	gibberellin
+GO:0120022	glucagon binding	CHEBI:5391	glucagon
+GO:0031769	glucagon receptor binding	PR:000007892	glucagon receptor
+GO:0035259	glucocorticoid receptor binding	PR:000011406	glucocorticoid receptor
+GO:2001063	glucomannan binding	CHEBI:17020	glucomannan
+GO:0005536	glucose binding	CHEBI:17234	glucose
+GO:0016595	glutamate binding	CHEBI:29987	glutamate(2-)
+GO:0070406	glutamine binding	CHEBI:32678	glutaminate
+GO:0043295	glutathione binding	CHEBI:16856	glutathione
+GO:0016594	glycine binding	CHEBI:32508	glycinate
+GO:2001069	glycogen binding	CHEBI:28087	glycogen
+GO:0051861	glycolipid binding	CHEBI:33563	glycolipid
+GO:0005539	glycosaminoglycan binding	CHEBI:18085	glycosaminoglycan
+GO:0043208	glycosphingolipid binding	CHEBI:24402	glycosphingolipid
+GO:0031530	gonadotropin-releasing hormone receptor binding	PR:000001464	gonadotropin-releasing hormone receptor
+GO:0051916	granulocyte colony-stimulating factor binding	PR:000005932	granulocyte colony-stimulating factor
+GO:0005130	granulocyte colony-stimulating factor receptor binding	PR:000001353	granulocyte colony-stimulating factor receptor
+GO:0005131	growth hormone receptor binding	PR:000007970	growth hormone receptor
+GO:0031770	growth hormone-releasing hormone receptor binding	PR:000007972	growth hormone-releasing hormone receptor
+GO:0002057	guanine binding	CHEBI:16235	guanine
+GO:1905108	guanosine binding	CHEBI:16750	guanosine
+GO:0097216	guanosine tetraphosphate binding	CHEBI:17633	guanosine 3',5'-bis(diphosphate)
+GO:0032560	guanyl deoxyribonucleotide binding	CHEBI:63573	guanyl deoxyribonucleotide
+GO:0019001	guanyl nucleotide binding	CHEBI:61292	guanyl nucleotide
+GO:0032561	guanyl ribonucleotide binding	CHEBI:61295	guanyl ribonucleotide
+GO:0031720	haptoglobin binding	PR:000008725	haptoglobin
+GO:0020037	heme binding	CHEBI:30413	heme
+GO:0030492	hemoglobin binding	CHEBI:35143	hemoglobin
+GO:1904399	heparan sulfate binding	CHEBI:28815	heparan sulfate
+GO:0043395	heparan sulfate proteoglycan binding	CHEBI:24499	heparan sulfate proteoglycan
+GO:0008201	heparin binding	CHEBI:24505	heparins
+GO:0036458	hepatocyte growth factor binding	PR:000008534	hepatocyte growth factor
+GO:0005171	hepatocyte growth factor receptor binding	PR:000010335	hepatocyte growth factor receptor
+GO:1901363	heterocyclic compound binding	CHEBI:5686	heterocyclic compound
+GO:0010297	heteropolysaccharide binding	CHEBI:16966	heteroglycan
+GO:0070379	high mobility group box 1 binding	PR:000008630	high mobility group protein B1
+GO:0030985	high molecular weight kininogen binding	PR:000024067	homoserine kinase
+GO:0008035	high-density lipoprotein particle binding	GO:0034364	high-density lipoprotein particle
+GO:0051381	histamine binding	CHEBI:18295	histamine
+GO:0042393	histone binding	CHEBI:15358	histone
+GO:0046812	host cell surface binding	GO:0044228	host cell surface
+GO:0005540	hyaluronic acid binding	CHEBI:16336	hyaluronic acid
+GO:1902314	hydroquinone binding	CHEBI:17594	hydroquinone
+GO:0046848	hydroxyapatite binding	CHEBI:52255	hydroxylapatite
+GO:0033295	hydroxyectoine binding	CHEBI:49432	5-hydroxyectoine
+GO:1901531	hypochlorite binding	CHEBI:29222	hypochlorite
+GO:0042324	hypocretin receptor binding	PR:000001499	orexin receptor
+GO:0050542	icosanoid binding	CHEBI:62937	icosanoid anion
+GO:0050543	icosatetraenoic acid binding	CHEBI:62920	icosatetraenoate
+GO:0034710	inhibin complex binding	GO:0043511	inhibin complex
+GO:0043533	inositol 1,3,4,5 tetrakisphosphate binding	CHEBI:16783	1D-myo-inositol 1,3,4,5-tetrakisphosphate
+GO:0070679	inositol 1,4,5 trisphosphate binding	CHEBI:16595	1D-myo-inositol 1,4,5-trisphosphate
+GO:0000822	inositol hexakisphosphate binding	CHEBI:17401	myo-inositol hexakisphosphate
+GO:0043559	insulin binding	PR:000009054	insulin
+GO:0005158	insulin receptor binding	PR:000009064	insulin receptor
+GO:0031994	insulin-like growth factor I binding	PR:000009182	insulin-like growth factor I
+GO:0031995	insulin-like growth factor II binding	PR:000008942	insulin-like growth factor II
+GO:0019964	interferon-gamma binding	PR:000000017	interferon gamma
+GO:0019966	interleukin-1 binding	PR:000001091	interleukin-1
+GO:0019969	interleukin-10 binding	PR:000001471	interleukin-10
+GO:0019970	interleukin-11 binding	PR:000001366	interleukin-11
+GO:0042164	interleukin-12 alpha subunit binding	PR:000001368	interleukin-12 subunit alpha
+GO:0042163	interleukin-12 beta subunit binding	PR:000001369	interleukin-12 subunit beta
+GO:0019973	interleukin-13 binding	PR:000001370	interleukin-13
+GO:0042009	interleukin-15 binding	PR:000001373	interleukin-15
+GO:0042011	interleukin-16 binding	PR:000001374	interleukin-16
+GO:0019975	interleukin-17 binding	PR:000001092	interleukin-17
+GO:0042007	interleukin-18 binding	PR:000001376	interleukin-18
+GO:0042013	interleukin-19 binding	PR:000001472	interleukin-19
+GO:0019976	interleukin-2 binding	PR:000001379	interleukin-2
+GO:0042015	interleukin-20 binding	PR:000001473	interleukin-20
+GO:0019977	interleukin-21 binding	PR:000001382	interleukin-21
+GO:0001531	interleukin-21 receptor binding	PR:000008998	interleukin-21 receptor
+GO:0042017	interleukin-22 binding	PR:000001383	interleukin-22
+GO:0045519	interleukin-23 receptor binding	PR:000009001	interleukin-23 receptor
+GO:0045510	interleukin-24 binding	PR:000001474	interleukin-24
+GO:0045511	interleukin-25 binding	PR:000001113	interleukin-17E
+GO:0045512	interleukin-26 binding	PR:000001475	interleukin-26
+GO:0045513	interleukin-27 binding	PR:000001141	interleukin-17D
+GO:0019978	interleukin-3 binding	PR:000001387	interleukin-3
+GO:0002113	interleukin-33 binding	PR:000001389	interleukin-33
+GO:0019979	interleukin-4 binding	PR:000001391	interleukin-4
+GO:0019980	interleukin-5 binding	PR:000001392	interleukin-5
+GO:0019981	interleukin-6 binding	PR:000001393	interleukin-6
+GO:0019982	interleukin-7 binding	PR:000001317	interleukin-7
+GO:0019959	interleukin-8 binding	PR:000001395	interleukin-8
+GO:0019983	interleukin-9 binding	PR:000001396	interleukin-9
+GO:0005140	interleukin-9 receptor binding	PR:000001397	interleukin-9 receptor
+GO:0019215	intermediate filament binding	GO:0005882	intermediate filament
+GO:0071815	intermediate-density lipoprotein particle binding	GO:0034363	intermediate-density lipoprotein particle
+GO:2001082	inulin binding	CHEBI:15443	inulin
+GO:0043167	ion binding	CHEBI:24870	ion
+GO:0005506	iron ion binding	CHEBI:24875	iron cation
+GO:0051536	iron-sulfur cluster binding	CHEBI:30408	iron-sulfur cluster
+GO:0044590	iron-sulfur-molybdenum cofactor binding	CHEBI:30409	iron-sulfur-molybdenum cofactor
+GO:1904769	isopentadecanoic acid binding	CHEBI:39250	isopentadecanoic acid
+GO:0019840	isoprenoid binding	CHEBI:24913	isoprenoid
+GO:0005500	juvenile hormone binding	CHEBI:24943	juvenile hormone
+GO:0031851	kappa-type opioid receptor binding	PR:000001590	kappa-type opioid receptor
+GO:1990254	keratin filament binding	GO:0045095	keratin filament
+GO:0043515	kinetochore binding	GO:0000776	kinetochore
+GO:0031773	kisspeptin receptor binding	PR:000001426	KiSS-1 receptor
+GO:0030395	lactose binding	CHEBI:17716	lactose
+GO:0032791	lead ion binding	CHEBI:60252	lead cation
+GO:1901707	leptomycin B binding	CHEBI:52646	leptomycin B
+GO:0070728	leucine binding	CHEBI:32627	leucinate
+GO:0005146	leukemia inhibitory factor receptor binding	PR:000001876	leukemia inhibitory factor receptor
+GO:0070539	linoleic acid binding	CHEBI:30245	linoleate
+GO:0008289	lipid binding	CHEBI:18059	lipid
+GO:0043544	lipoamide binding	CHEBI:17460	lipoamide
+GO:0001876	lipoarabinomannan binding	CHEBI:59524	lipoarabinomannan
+GO:0031405	lipoic acid binding	CHEBI:30313	lipoate
+GO:1990458	lipooligosaccharide binding	CHEBI:35371	lipooligosaccharide
+GO:0071723	lipopeptide binding	CHEBI:46895	lipopeptide
+GO:0001530	lipopolysaccharide binding	CHEBI:16412	lipopolysaccharide
+GO:0071813	lipoprotein particle binding	GO:1990777	lipoprotein particle
+GO:0070891	lipoteichoic acid binding	CHEBI:28640	lipoteichoic acid
+GO:0031403	lithium ion binding	CHEBI:49713	lithium(1+)
+GO:1902121	lithocholic acid binding	CHEBI:16325	lithocholic acid
+GO:0036041	long-chain fatty acid binding	CHEBI:57560	long-chain fatty acid anion
+GO:0036042	long-chain fatty acyl-CoA binding	CHEBI:33184	long-chain fatty acyl-CoA
+GO:0030169	low-density lipoprotein particle binding	GO:0034362	low-density lipoprotein particle
+GO:0031775	lutropin-choriogonadotropic hormone receptor binding	PR:000001596	lutropin-choriogonadotropic hormone receptor
+GO:0035727	lysophosphatidic acid binding	CHEBI:52288	1-octadec-9-enoylglycero-3-phosphate
+GO:0003729	mRNA binding	CHEBI:33699	messenger RNA
+GO:0005527	macrolide binding	CHEBI:25106	macrolide
+GO:0044877	macromolecular complex binding	GO:0032991	macromolecular complex
+GO:0035718	macrophage migration inhibitory factor binding	PR:000010413	macrophage migration inhibitory factor
+GO:0000287	magnesium ion binding	CHEBI:39127	magnesium cation
+GO:2001071	maltoheptaose binding	CHEBI:62010	maltoheptaose
+GO:1901982	maltose binding	CHEBI:17306	maltose
+GO:0030145	manganese ion binding	CHEBI:25155	manganese cation
+GO:2001065	mannan binding	CHEBI:28808	mannan
+GO:0005537	mannose binding	CHEBI:37684	mannose
+GO:0036033	mediator complex binding	GO:0016592	mediator complex
+GO:0031779	melanocortin receptor binding	PR:000001146	melanocortin receptor
+GO:1904408	melatonin binding	CHEBI:16796	melatonin
+GO:1903777	melibiose binding	CHEBI:28053	melibiose
+GO:0045340	mercury ion binding	CHEBI:25197	mercury cation
+GO:0051540	metal cluster binding	CHEBI:33731	cluster
+GO:0046872	metal ion binding	CHEBI:25213	metal cation
+GO:0051870	methotrexate binding	CHEBI:50680	methotrexate(1-)
+GO:0035198	miRNA binding	SO:0000276	miRNA
+GO:0050436	microfibril binding	GO:0001527	microfibril
+GO:0008017	microtubule binding	GO:0005874	microtubule
+GO:0051011	microtubule minus-end binding	GO:0036449	microtubule minus-end
+GO:0051010	microtubule plus-end binding	GO:0035371	microtubule plus-end
+GO:0031962	mineralocorticoid receptor binding	PR:000011407	mineralocorticoid receptor
+GO:0032404	mismatch repair complex binding	GO:0032300	mismatch repair complex
+GO:0051019	mitogen-activated protein kinase binding	PR:000000019	mitogen-activated protein kinase
+GO:0031435	mitogen-activated protein kinase kinase kinase binding	PR:000010444	mitogen-activated protein kinase kinase kinase
+GO:0072341	modified amino acid binding	CHEBI:83821	amino acid derivative
+GO:0030973	molybdate ion binding	CHEBI:36264	molybdate
+GO:0030151	molybdenum ion binding	CHEBI:37239	molybdenum cation
+GO:0043546	molybdopterin cofactor binding	CHEBI:25372	molybdopterin cofactor
+GO:0033293	monocarboxylic acid binding	CHEBI:35757	monocarboxylic acid anion
+GO:0048029	monosaccharide binding	CHEBI:35381	monosaccharide
+GO:0031788	motilin receptor binding	PR:000001240	motilin receptor
+GO:0031852	mu-type opioid receptor binding	PR:000001612	mu-type opioid receptor
+GO:0032500	muramyl dipeptide binding	CHEBI:59414	muramyl dipeptide
+GO:0032037	myosin I heavy chain binding	PR:000010855	myosin-Ia
+GO:0048406	nerve growth factor binding	PR:000011194	beta-nerve growth factor
+GO:0042922	neuromedin U receptor binding	PR:000001489	neuromedin-U receptor
+GO:0016151	nickel cation binding	CHEBI:25516	nickel cation
+GO:0070026	nitric oxide binding	CHEBI:35196	nitrogen oxide
+GO:0031853	nociceptin receptor binding	PR:000001631	nociceptin receptor
+GO:0038100	nodal binding	PR:000000105	nodal protein
+GO:0051380	norepinephrine binding	CHEBI:33569	noradrenaline
+GO:0003676	nucleic acid binding	CHEBI:33696	nucleic acid
+GO:0002054	nucleobase binding	CHEBI:18282	nucleobase
+GO:0001882	nucleoside binding	CHEBI:33838	nucleoside
+GO:1901265	nucleoside phosphate binding	CHEBI:25608	nucleoside phosphate
+GO:0031491	nucleosome binding	GO:0000786	nucleosome
+GO:0000166	nucleotide binding	CHEBI:36976	nucleotide
+GO:1904767	octanoic acid binding	CHEBI:28837	octanoic acid
+GO:0070538	oleic acid binding	CHEBI:30823	oleate
+GO:1900750	oligopeptide binding	CHEBI:25676	oligopeptide
+GO:0070492	oligosaccharide binding	CHEBI:50699	oligosaccharide
+GO:0031628	opioid receptor binding	PR:000001497	opioid receptor
+GO:0031854	orexigenic neuropeptide QRFP receptor binding	PR:000001498	orexigenic neuropeptide QRFP receptor
+GO:0043177	organic acid binding	CHEBI:64709	organic acid
+GO:0097159	organic cyclic compound binding	CHEBI:33832	organic cyclic compound
+GO:0019825	oxygen binding	CHEBI:15379	dioxygen
+GO:0008142	oxysterol binding	CHEBI:53030	oxysterol
+GO:0031855	oxytocin receptor binding	PR:000001635	oxytocin receptor
+GO:0002039	p53 binding	PR:000003035	cellular tumor antigen p53
+GO:0044589	pectin binding	CHEBI:17309	pectin
+GO:0008658	penicillin binding	CHEBI:17334	penicillin
+GO:0042277	peptide binding	CHEBI:16670	peptide
+GO:0017046	peptide hormone binding	CHEBI:25905	peptide hormone
+GO:0042834	peptidoglycan binding	CHEBI:8005	peptidoglycan
+GO:0008145	phenylalkylamine binding	CHEBI:60977	phenylalkylamine
+GO:0042301	phosphate ion binding	CHEBI:35780	phosphate ion
+GO:0070300	phosphatidic acid binding	CHEBI:57739	phosphatidate(2-)
+GO:0031210	phosphatidylcholine binding	CHEBI:64482	phosphatidylcholine
+GO:0008429	phosphatidylethanolamine binding	CHEBI:16038	phosphatidylethanolamine
+GO:1901611	phosphatidylglycerol binding	CHEBI:17517	phosphatidylglycerol
+GO:0035091	phosphatidylinositol binding	CHEBI:28874	phosphatidylinositol
+GO:1902936	phosphatidylinositol bisphosphate binding	CHEBI:37328	phosphatidylinositol bisphosphate
+GO:1901981	phosphatidylinositol phosphate binding	CHEBI:28765	phosphatidylinositol phosphate
+GO:0005547	phosphatidylinositol-3,4,5-trisphosphate binding	CHEBI:16618	1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate
+GO:0043325	phosphatidylinositol-3,4-bisphosphate binding	CHEBI:57658	1-phosphatidyl-1D-myo-inositol 3,4-bisphosphate(5-)
+GO:0080025	phosphatidylinositol-3,5-bisphosphate binding	CHEBI:57923	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate(5-)
+GO:0032266	phosphatidylinositol-3-phosphate binding	CHEBI:26034	phosphatidylinositol 3-phosphate
+GO:0005546	phosphatidylinositol-4,5-bisphosphate binding	CHEBI:18348	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+GO:0070273	phosphatidylinositol-4-phosphate binding	CHEBI:37530	phosphatidylinositol 4-phosphate
+GO:0010314	phosphatidylinositol-5-phosphate binding	CHEBI:37329	phosphatidylinositol 5-phosphate
+GO:0001786	phosphatidylserine binding	CHEBI:18303	phosphatidyl-L-serine
+GO:0005543	phospholipid binding	CHEBI:16247	phospholipid
+GO:0031177	phosphopantetheine binding	CHEBI:26073	phosphopantetheine
+GO:0051219	phosphoprotein binding	PR:000037070	phosphoprotein
+GO:0035273	phthalate binding	CHEBI:26092	phthalate
+GO:1904012	platinum binding	CHEBI:33364	platinum
+GO:0043287	poly(3-hydroxyalkanoate) binding	CHEBI:61162	poly(3-hydroxycarboxylic acid) macromolecule
+GO:0034046	poly(G) binding	CHEBI:8290	Poly(G)
+GO:0072572	poly-ADP-D-ribose binding	CHEBI:61151	poly-ADP-D-ribose
+GO:0019808	polyamine binding	CHEBI:51349	polyamine macromolecule
+GO:0097160	polychlorinated biphenyl binding	CHEBI:53156	polychlorobiphenyl
+GO:0030247	polysaccharide binding	CHEBI:18154	polysaccharide
+GO:1905538	polysome binding	GO:0005844	polysome
+GO:0030955	potassium ion binding	CHEBI:29103	potassium(1+)
+GO:1990275	preribosome binding	GO:0030684	preribosome
+GO:0033142	progesterone receptor binding	PR:000012621	progesterone receptor
+GO:0005148	prolactin receptor binding	PR:000013248	prolactin receptor
+GO:0031861	prolactin-releasing peptide receptor binding	PR:000001546	prolactin-releasing peptide receptor
+GO:1901973	proline binding	CHEBI:26271	proline
+GO:0031869	prostacyclin receptor binding	PR:000001655	prostacyclin receptor
+GO:0031863	prostaglandin D2 receptor binding	PR:000001656	prostaglandin D2 receptor
+GO:0031868	prostaglandin F2-alpha receptor binding	PR:000001660	prostaglandin F2-alpha receptor
+GO:1904593	prostaglandin binding	CHEBI:26333	prostaglandin
+GO:0031862	prostanoid receptor binding	PR:000001549	prostanoid receptor
+GO:0070628	proteasome binding	GO:0000502	proteasome complex
+GO:1904854	proteasome core complex binding	GO:0005839	proteasome core complex
+GO:1904855	proteasome regulatory particle binding	GO:0005838	proteasome regulatory particle
+GO:0005515	protein binding	PR:000000001	protein
+GO:0032403	protein complex binding	GO:0043234	protein complex
+GO:0043422	protein kinase B binding	PR:000002190	RAC-alpha serine/threonine-protein kinase
+GO:0071814	protein-lipid complex binding	GO:0032994	protein-lipid complex
+GO:0043394	proteoglycan binding	CHEBI:37396	proteoglycan
+GO:1901691	proton binding	CHEBI:24636	proton
+GO:2001067	pullulan binding	CHEBI:27941	pullulan
+GO:0032547	purine deoxyribonucleoside binding	CHEBI:60173	purine deoxyribonucleoside
+GO:0032554	purine deoxyribonucleotide binding	CHEBI:26390	purine 2'-deoxyribonucleotide
+GO:0002060	purine nucleobase binding	CHEBI:26386	purine nucleobase
+GO:0001883	purine nucleoside binding	CHEBI:26394	purine nucleoside
+GO:0017076	purine nucleotide binding	CHEBI:26395	purine nucleotide
+GO:0032550	purine ribonucleoside binding	CHEBI:26399	purine ribonucleoside
+GO:0035639	purine ribonucleoside triphosphate binding	CHEBI:26398	purine ribonucleoside triphosphate
+GO:0032555	purine ribonucleotide binding	CHEBI:26400	purine ribonucleotide
+GO:0019810	putrescine binding	CHEBI:17148	putrescine
+GO:0070280	pyridoxal binding	CHEBI:17310	pyridoxal
+GO:0030170	pyridoxal phosphate binding	CHEBI:597326	pyridoxal 5'-phosphate(2-)
+GO:0070281	pyridoxamine binding	CHEBI:16410	pyridoxamine
+GO:0070282	pyridoxine binding	CHEBI:16709	pyridoxine
+GO:0032548	pyrimidine deoxyribonucleoside binding	CHEBI:19255	pyrimidine 2'-deoxyribonucleoside
+GO:0032556	pyrimidine deoxyribonucleotide binding	CHEBI:26436	pyrimidine 2'-deoxyribonucleotide
+GO:0002061	pyrimidine nucleobase binding	CHEBI:26432	pyrimidine nucleobase
+GO:0001884	pyrimidine nucleoside binding	CHEBI:26440	pyrimidine nucleoside
+GO:0019103	pyrimidine nucleotide binding	CHEBI:26441	pyrimidine nucleotide
+GO:0032551	pyrimidine ribonucleoside binding	CHEBI:39446	pyrimidine ribonucleosides
+GO:0032557	pyrimidine ribonucleotide binding	CHEBI:26446	pyrimidine ribonucleotide
+GO:0070968	pyrroloquinoline quinone binding	CHEBI:58442	pyrroloquinoline quinone(3-)
+GO:0050997	quaternary ammonium group binding	CHEBI:26469	quaternary nitrogen compound
+GO:2001227	quercitrin binding	CHEBI:17558	quercitrin
+GO:0048038	quinone binding	CHEBI:36141	quinone
+GO:0019843	rRNA binding	CHEBI:18111	ribosomal RNA
+GO:1905594	resveratrol binding	CHEBI:27881	resveratrol
+GO:0016918	retinal binding	CHEBI:15035	retinal
+GO:0001972	retinoic acid binding	CHEBI:15036	retinoate
+GO:0005501	retinoid binding	CHEBI:26537	retinoid
+GO:0019841	retinol binding	CHEBI:50211	retinol
+GO:1905394	retromer complex binding	GO:0030904	retromer complex
+GO:0033296	rhamnose binding	CHEBI:26546	rhamnose
+GO:1902444	riboflavin binding	CHEBI:17015	riboflavin
+GO:0043021	ribonucleoprotein complex binding	GO:0030529	intracellular ribonucleoprotein complex
+GO:0032549	ribonucleoside binding	CHEBI:18254	ribonucleoside
+GO:0032553	ribonucleotide binding	CHEBI:26561	ribonucleotide
+GO:0043023	ribosomal large subunit binding	GO:0015934	large ribosomal subunit
+GO:0043024	ribosomal small subunit binding	GO:0015935	small ribosomal subunit
+GO:0043022	ribosome binding	GO:0005840	ribosome
+GO:1901149	salicylic acid binding	CHEBI:16914	salicylic acid
+GO:1990301	scaffoldin complex binding	GO:1990296	scaffoldin complex
+GO:0031876	secretin receptor binding	PR:000014544	secretin receptor
+GO:0008430	selenium binding	CHEBI:26628	selenium molecular entity
+GO:0070905	serine binding	CHEBI:17822	serine
+GO:0051378	serotonin binding	CHEBI:28790	serotonin
+GO:0033691	sialic acid binding	CHEBI:62944	sialic acid anion
+GO:0005047	signal recognition particle binding	GO:0048500	signal recognition particle
+GO:0003697	single-stranded DNA binding	CHEBI:9160	single-stranded DNA
+GO:0031267	small GTPase binding	PR:000000028	small GTPase
+GO:0005119	smoothened binding	PR:000015288	smoothened
+GO:1902516	sn-glycerol 3-phosphate binding	CHEBI:15978	sn-glycerol 3-phosphate
+GO:0017069	snRNA binding	SO:0000274	snRNA
+GO:0070990	snRNP binding	GO:0030532	small nuclear ribonucleoprotein complex
+GO:0030519	snoRNP binding	GO:0005732	small nucleolar ribonucleoprotein complex
+GO:0031402	sodium ion binding	CHEBI:29101	sodium(1+)
+GO:0120023	somatostatin binding	CHEBI:64628	somatostatin
+GO:0031877	somatostatin receptor binding	PR:000001555	somatostatin receptor
+GO:0030507	spectrin binding	GO:0008091	spectrin
+GO:0019809	spermidine binding	CHEBI:16610	spermidine
+GO:0046625	sphingolipid binding	CHEBI:26739	sphingolipid
+GO:2001070	starch binding	CHEBI:28017	starch
+GO:0070540	stearic acid binding	CHEBI:28842	octadecanoic acid
+GO:0005173	stem cell factor receptor binding	PR:000002065	mast/stem cell growth factor receptor
+GO:0005496	steroid binding	CHEBI:35341	steroid
+GO:1990239	steroid hormone binding	CHEBI:26764	steroid hormone
+GO:0032934	sterol binding	CHEBI:15889	sterol
+GO:0043199	sulfate binding	CHEBI:16189	sulfate
+GO:1901681	sulfur compound binding	CHEBI:26835	sulfur molecular entity
+GO:0043924	suramin binding	CHEBI:45906	suramin
+GO:0030348	syntaxin-3 binding	PR:000015795	syntaxin-3
+GO:1904483	synthetic cannabinoid binding	CHEBI:67201	synthetic cannabinoid
+GO:0000049	tRNA binding	CHEBI:17843	transfer RNA
+GO:0071861	tachykinin receptor binding	PR:000001150	tachykinin receptor
+GO:0046980	tapasin binding	PR:000016053	tapasin
+GO:0030977	taurine binding	CHEBI:15891	taurine
+GO:0031433	telethonin binding	PR:000016156	telethonin
+GO:0034617	tetrahydrobiopterin binding	CHEBI:15372	5,6,7,8-tetrahydrobiopterin
+GO:0071576	tetrahydrodictyopterin binding	CHEBI:52447	tetrahydrodictyopterin
+GO:1904493	tetrahydrofolyl-poly(glutamate) polymer binding	CHEBI:61442	tetrahydrofolyl-poly(glutamate) polymer
+GO:0046906	tetrapyrrole binding	CHEBI:26932	tetrapyrrole
+GO:0030975	thiamine binding	CHEBI:18385	thiamine(1+)
+GO:0030976	thiamine pyrophosphate binding	CHEBI:45931	thiamine(1+) diphosphate(1-)
+GO:0016596	thienylcyclohexylpiperidine binding	CHEBI:64610	tenocyclidine
+GO:0036173	thiosulfate binding	CHEBI:26977	thiosulfate
+GO:0031870	thromboxane A2 receptor binding	PR:000001676	thromboxane A2 receptor
+GO:0002059	thymine binding	CHEBI:17821	thymine
+GO:0031531	thyrotropin-releasing hormone receptor binding	PR:000001557	thyrotropin-releasing hormone receptor
+GO:0031432	titin binding	PR:000016798	titin
+GO:0005122	torso binding	PR:000001902	nuclear receptor ROR-gamma
+GO:0050431	transforming growth factor beta binding	PR:000000046	TGF-beta
+GO:0046914	transition metal ion binding	CHEBI:33515	transition element cation
+GO:0042497	triacyl lipopeptide binding	CHEBI:60192	triacyl lipopeptide
+GO:0017129	triglyceride binding	CHEBI:17855	triglyceride
+GO:0048031	trisaccharide binding	CHEBI:27150	trisaccharide
+GO:1901359	tungstate binding	CHEBI:46502	tungstate
+GO:0031872	type 1 proteinase activated receptor binding	PR:000001661	proteinase-activated receptor 1
+GO:0005111	type 2 fibroblast growth factor receptor binding	PR:000001449	fibroblast growth factor receptor 2
+GO:0019962	type I interferon binding	PR:000025848	type I interferon
+GO:0034347	type III interferon binding	PR:000028205	type III interferon
+GO:0072545	tyrosine binding	CHEBI:18186	tyrosine
+GO:0048039	ubiquinone binding	CHEBI:16389	ubiquinones
+GO:1900995	ubiquinone-6 binding	CHEBI:52971	ubiquinone-6
+GO:0043130	ubiquitin binding	PR:000035728	ubiquitin
+GO:0002058	uracil binding	CHEBI:17568	uracil
+GO:0033219	urea binding	CHEBI:16199	urea
+GO:0051212	vanadium ion binding	CHEBI:35172	vanadium cation
+GO:0043183	vascular endothelial growth factor receptor 1 binding	PR:000007563	vascular endothelial growth factor receptor 1
+GO:0043184	vascular endothelial growth factor receptor 2 binding	PR:000002112	vascular endothelial growth factor receptor 2
+GO:0043185	vascular endothelial growth factor receptor 3 binding	PR:000007565	vascular endothelial growth factor receptor 3
+GO:0005172	vascular endothelial growth factor receptor binding	PR:000001971	vascular endothelial growth factor receptor
+GO:0034189	very-low-density lipoprotein particle binding	CHEBI:39027	very-low-density lipoprotein
+GO:0017166	vinculin binding	PR:000017272	vinculin
+GO:0046790	virion binding	GO:0019012	virion
+GO:0070279	vitamin B6 binding	CHEBI:27306	vitamin B6
+GO:0005499	vitamin D binding	CHEBI:27300	vitamin D
+GO:0042809	vitamin D receptor binding	PR:000017283	vitamin D3 receptor
+GO:0008431	vitamin E binding	CHEBI:33234	vitamin E
+GO:0050824	water binding	CHEBI:15377	water
+GO:0051738	xanthophyll binding	CHEBI:27325	xanthophyll
+GO:1904013	xenon atom binding	CHEBI:49957	xenon atom
+GO:2001062	xylan binding	CHEBI:37166	xylan
+GO:0033222	xylose binding	CHEBI:18222	xylose
+GO:0008270	zinc ion binding	CHEBI:63056	zinc cation
