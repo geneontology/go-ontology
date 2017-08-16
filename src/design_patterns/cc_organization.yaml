@@ -8,28 +8,34 @@ relations:
   results_in_organization_of: "RO:0002592"
 
 vars:
- cellular component: "'cellular component'"
+  component: "'cellular component'"
 
 name:
-     text: "%s organization"
-     vars:
-       - 'cellular component'
+  text: "%s organization"
+  vars:
+     - component
 
 def:
   text: > 
     A process that is carried out at the cellular level which results in the assembly, 
     arrangement of constituent parts, or disassembly of %s." 
   vars:
-     - 'cellular component'
+     - component
+     
+namespace:
+   text: biological_process
 
 equivalentTo:
   text: " 'cellular process' and 'results_in_organization_of' some %s "
   vars:
-    - 'cellular component'
+     - component
     
 GCI:
   text: >
-    'cellular process' that results_in_organization_of some (part_of some X) 
-    subClassOf part_of ('cellular process' results_in_organization_of some X)
+    'cellular process' that results_in_organization_of some (part_of some %s) 
+    subClassOf part_of ('cellular process' results_in_organization_of some %s)
+  vars: 
+     - component
+     - component
     
 
