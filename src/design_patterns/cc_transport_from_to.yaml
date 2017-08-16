@@ -9,7 +9,6 @@ relations:
   has_target_end_location: "RO:0002339"
 
 vars:
- transport: "'transport'"
  target_start: "'cellular component'"
  target_end: "'cellular component'"
 

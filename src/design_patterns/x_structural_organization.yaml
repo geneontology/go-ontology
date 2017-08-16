@@ -23,7 +23,6 @@ def:
 equivalentTo:
   text: " 'anatomical structure arrangement' and 'results in structural organization of' some %s"
   vars:
-    - 'anatomical structure arrangement'
     - target
 
     

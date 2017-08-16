@@ -8,24 +8,23 @@ relations:
   bearer of: "RO:0000053"
 
 vars:
- biological process: "'biological process'"
- multi organismal process quality: "'multi organismal process quality'"
+process: "'biological process'"
 
 name:
      text: "multi-organism %s"
      vars:
-       - 'biological process'
+       - process
 
 def:
   text: "%s which involves another organism."
   vars:
-     - 'biological process'
+     - process
 
 equivalentTo:
-  text: " %s and 'bearer of' some %s"
+  text: " %s and 'bearer of' some 'multi organismal process quality'"
   vars:
-    - 'biological process'
-    - 'multi organismal process quality'
+    - process
+
     
 
 

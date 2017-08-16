@@ -2,32 +2,31 @@ pattern_name: regulation_by
 
 classes:
   biological process: "GO:0008150"
-  biological process: "GO:0008150"
 
 relations: 
   regulates: "RO:0002211"
 
 vars:
- biological process: "'biological process'"
- biological process: "'biological process'"
+ target1: "'biological process'"
+ target2: "'biological process'"
 
 name:
      text: "regulation of %s by %s"
      vars:
-       - 'biological process'
-       - 'biological process'
+       - target1
+       - target2
 
 def:
   text: "%s that results in regulation of %s."
   vars:
-     - 'biological process'
-     - 'biological process'
+       - target1
+       - target2
 
 equivalentTo:
   text: " %s and 'regulates' some %s"
   vars:
-    - 'biological process'
-    - 'biological process'
+       - target1
+       - target2
     
 
 

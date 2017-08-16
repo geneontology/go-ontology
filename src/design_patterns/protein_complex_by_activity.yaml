@@ -8,22 +8,20 @@ relations:
   capable of: "RO:0002215"
 
 vars:
-  molecular function: "'molecular function'"
-  protein complex: "'protein complex'"
+  function: "'molecular function'"
  
 name:
      text: "%s activity"
      vars:
-       - 'molecular function'
+       - function
 
 def:
   text: "A protein complex which is capable of %s." 
   vars:
-     - 'molecular function'
-
+     - function
+     
 equivalentTo:
-  text: " %s and 'capable of' some %s "
+  text: " 'protein complex' and 'capable of' some %s "
   vars:
-    - 'protein complex'
-    - 'molecular function'
+    - function
     

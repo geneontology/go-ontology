@@ -2,29 +2,28 @@ pattern_name: part_of_cell_component
 
 classes:
   cellular component: "GO:0005575"
-  cellular component: "GO:0005575"
 
 relations: 
   part of: BFO:0000050
 
 vars:
-  cellular component: "'cellular component'"
-  cellular component: "'cellular component'"
+  component1: "'cellular component'"
+  component2: "'cellular component'"
  
 name:
      text: "%s %s"
      vars:
-       - 'cellular component'
-       - 'cellular component'
+       - component1
+       - component2
 
 def:
   text: "Any %s that is part of a %s." 
   vars:
-     - 'cellular component'
-     - 'cellular component'
+       - component1
+       - component2
 
 equivalentTo:
   text: " %s and 'part of' some %s "
   vars:
-    - 'cellular component'
-    - 'cellular component'    
+       - component1
+       - component2 
