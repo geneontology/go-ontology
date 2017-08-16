@@ -1,0 +1,6 @@
+iri	iri label	sequence_region	sequence_region label
+GO:0034506	chromosome, centromeric core domain	SO:0001796	regional_centromere_central_core
+GO:0034507	chromosome, centromeric outer repeat region	SO:0001799	regional_centromere_outer_repeat_region
+GO:0000775	chromosome, centromeric region	SO:0000577	centromere
+GO:0099115	chromosome, subtelomeric region	SO:0001997	subtelomere
+GO:0000781	chromosome, telomeric region	SO:0000624	telomere

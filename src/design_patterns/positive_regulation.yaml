@@ -1,0 +1,30 @@
+pattern_name: positive_regulation
+
+classes:
+  Thing: owl:Thing
+  biological regulation: "GO:0065007"
+
+relations: 
+  positively regulates: "RO:0002213"
+
+vars:
+ entity: Thing
+
+name:
+     text: "positive regulation of %s"
+     vars:
+       - entity
+
+def:
+  text: "Any process that activates or increases the frequency, rate or extent of %s."
+  vars:
+     - entity
+
+equivalentTo:
+  text: " 'biological regulation' and 'positively regulates' some %s"
+  vars:
+    - entity
+
+    
+
+

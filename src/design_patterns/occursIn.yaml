@@ -1,0 +1,31 @@
+pattern_name: occursIn
+
+classes:
+  process: "GO:0008150"
+  location: "BFO:0000004"
+
+relations: 
+  occurs_in: "BFO:0000066"
+
+vars:
+ process: "'process'"
+ location: "'location'"
+ 
+name:
+     text: "%s in %s"
+     vars:
+       - process
+       - location
+
+def:
+  text: "Any %s that takes place in %s."
+  vars:
+     - process
+     - location
+
+equivalentTo:
+  text: " %s and 'occurs_in' some %s "
+  vars:
+    - process
+    - location
+    

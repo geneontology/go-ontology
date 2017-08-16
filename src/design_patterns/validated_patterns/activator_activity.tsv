@@ -1,8 +1,0 @@
-?defined_class	?defined_class_label	?regulated_activity	?regulated_activity_label
-<http://purl.obolibrary.org/obo/GO_0008047>	"enzyme activator activity"	<http://purl.obolibrary.org/obo/GO_0003824>	"catalytic activity"
-<http://purl.obolibrary.org/obo/GO_0019209>	"kinase activator activity"	<http://purl.obolibrary.org/obo/GO_0016301>	"kinase activity"
-<http://purl.obolibrary.org/obo/GO_0019211>	"phosphatase activator activity"	<http://purl.obolibrary.org/obo/GO_0016791>	"phosphatase activity"
-<http://purl.obolibrary.org/obo/GO_0030295>	"protein kinase activator activity"	<http://purl.obolibrary.org/obo/GO_0004672>	"protein kinase activity"
-<http://purl.obolibrary.org/obo/GO_0072542>	"protein phosphatase activator activity"	<http://purl.obolibrary.org/obo/GO_0004721>	"phosphoprotein phosphatase activity"
-<http://purl.obolibrary.org/obo/GO_0030296>	"protein tyrosine kinase activator activity"	<http://purl.obolibrary.org/obo/GO_0004713>	"protein tyrosine kinase activity"
-<http://purl.obolibrary.org/obo/GO_0030297>	"transmembrane receptor protein tyrosine kinase activator activity"	<http://purl.obolibrary.org/obo/GO_0004714>	"transmembrane receptor protein tyrosine kinase activity"

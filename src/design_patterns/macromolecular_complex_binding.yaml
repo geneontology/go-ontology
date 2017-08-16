@@ -1,0 +1,28 @@
+pattern_name: macromolecular_complex_binding
+
+classes:
+  material entity: "BFO:0000040"
+  binding: "GO:0005488"
+
+relations: 
+  has input: "RO:0002233"
+  
+vars:
+  entity: "'material entity'"
+ 
+name:
+     text: "%s binding"
+     vars:
+       - entity
+
+def:
+  text: "Interacting selectively and non-covalently with %s."
+  vars:
+     - entity
+
+equivalentTo:
+  text: " 'binding' and 'has input' some %s"
+  vars:
+    - entity
+
+

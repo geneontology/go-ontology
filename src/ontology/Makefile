@@ -87,6 +87,7 @@ clean_target:
 prepare_release: build
 	mkdir -p $(RELEASEDIR)/extensions &&\
 	mkdir -p $(RELEASEDIR)/subsets &&\
+	mkdir -p $(RELEASEDIR)/reports &&\
 	mkdir -p $(RELEASEDIR_IMPORTS) &&\
 	cp $(ONT).owl $(ONT).obo $(ONT).json $(RELEASEDIR) &&\
 	cp imports/*.owl $(RELEASEDIR_IMPORTS) &&\

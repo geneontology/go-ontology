@@ -1,0 +1,32 @@
+pattern_name: membrane_region
+
+classes:
+    membrane: "GO:0016020"
+    cellular_component: "GO:0005575"
+
+relations:
+    part of: "BFO:0000050"   
+
+vars:
+    encompassing_membrane: "membrane"
+    intersecting_region:  "cellular_component" # No general class available to define this. Should be a part of a cell or organelle that defines the includes the membrane region as a part and defines its limits
+ 
+        
+name:
+  text: "%s of %s"
+  vars: 
+    - encompassing_membrane
+    - intersecting_region
+    
+def: 
+  text: "The portion of the %s that is part of the %s."
+  vars:
+    - encompassing_membrane
+    - intersecting_region
+    
+subClassOf:
+  # Not defined using Equivalent class because we have no way to define a whole region.
+  text: "'membrane' that 'part of' some %s and 'part of' some %s"
+  vars:  
+    - encompassing_membrane
+    - intersecting_region

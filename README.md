@@ -8,6 +8,8 @@ GO. Always use the PURLs.
 
 This repository is primarily for the developers of the GO.
 
+The yaml design patterns are here: [src/design_patterns](src/design_patterns).
+
 ## Editors Instructions
 
 Most of the work of the editors is done in the [src/ontology](src/ontology) folder.
