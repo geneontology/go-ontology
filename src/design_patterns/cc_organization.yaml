@@ -16,7 +16,9 @@ name:
        - 'cellular component'
 
 def:
-  text: "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of %s." 
+  text: > 
+    A process that is carried out at the cellular level which results in the assembly, 
+    arrangement of constituent parts, or disassembly of %s." 
   vars:
      - 'cellular component'
 
@@ -24,5 +26,10 @@ equivalentTo:
   text: " 'cellular process' and 'results_in_organization_of' some %s "
   vars:
     - 'cellular component'
+    
+GCI:
+  text: >
+    'cellular process' that results_in_organization_of some (part_of some X) 
+    subClassOf part_of ('cellular process' results_in_organization_of some X)
     
 
