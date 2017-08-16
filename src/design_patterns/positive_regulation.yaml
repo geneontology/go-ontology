@@ -15,6 +15,22 @@ name:
      vars:
        - entity
 
+generated_synonyms:
+   - 
+      text: "up regulation of %s"
+      vars: 
+        - entity
+
+   - 
+      text: "up-regulation of %s"
+      vars: 
+        - entity
+
+   - 
+      text: "upregulation of %s"
+      vars: 
+        - entity
+        
 def:
   text: "Any process that activates or increases the frequency, rate or extent of %s."
   vars:
