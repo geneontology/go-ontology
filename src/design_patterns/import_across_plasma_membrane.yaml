@@ -16,7 +16,7 @@ relations:
   imports: "RO:0002340"
 
 vars: 
-  imported: "'chemical entity' or 'macromolecular complex'"
+  imported: "'chemical entity'"
 
 name:
   text: "%s import across plasma membrane"
