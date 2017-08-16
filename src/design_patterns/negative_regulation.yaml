@@ -13,17 +13,34 @@ vars:
 name:
      text: "negative regulation of %s"
      vars:
-       - 'entity'
+       - entity
 
+generated_synonyms:
+   - 
+      text: "down regulation of %s"
+      vars: 
+        - entity
+
+   - 
+      text: "down-regulation of %s"
+      vars: 
+        - entity
+
+   - 
+      text: "downregulation of %s"
+      vars: 
+        - entity
+        
+        
 def:
   text: "Any process that stops, prevents or reduces the frequency, rate or extent of %s."
   vars:
-     - 'entity'
+     - entity
 
 equivalentTo:
   text: " 'biological regulation' and 'negatively regulates' some %s"
   vars:
-    - 'entity'
+    - entity
 
     
 
