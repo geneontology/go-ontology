@@ -15,23 +15,21 @@ name:
      vars:
        - target
 
-annotations:
-  - annotationProperty: oio:hasExactSynonym
-    text: "establishment of protein localisation to %s"
-    vars:
-     - target
-     
-annotations:
-  - annotationProperty: oio:hasExactSynonym
-    text: "establishment of protein localization in %s"
-    vars:
-     - target     
-     
-annotations:
-  - annotationProperty: oio:hasExactSynonym
-    text: "establishment of protein localisation in %s"
-    vars:
-     - target  
+generated_synonyms:
+   - 
+      text: "establishment of protein localisation to %s"
+      vars: 
+        - target
+
+   - 
+      text: "establishment of protein localization in %s"
+      vars: 
+        - target
+ 
+   - 
+      text: "establishment of protein localisation in %s"
+      vars: 
+        - target
      
 def:
   text: "A process in which a protein is transported to, or maintained in, a location within %s."
