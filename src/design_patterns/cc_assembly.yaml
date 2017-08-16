@@ -15,11 +15,11 @@ name:
      vars:
        - target
        
-annotations:
-  - annotationProperty: oio:hasExactSynonym
-    text: "%s formation"
-    vars:
-     - target   
+generated_synonyms:
+   - 
+      text: "%s formation"
+      vars: 
+        - target
 
 def:
   text: "The aggregation, arrangement and bonding together of a set of components to form %s." 
