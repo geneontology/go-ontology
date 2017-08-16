@@ -15,6 +15,11 @@ name:
      vars:
        - target
 
+generated_synonyms:
+   - 
+      text: "%s structural organisation"
+      vars: 
+        - target
 def:
   text: "The process that contributes to the act of creating the structural organization of the %s. This process pertains to the physical shaping of a rudimentary structure."
   vars:
