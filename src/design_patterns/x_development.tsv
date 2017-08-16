@@ -1,4 +1,4 @@
-iri	iri label	anatomical_structure	anatomical_structure label
+iri	iri label	target	target label
 GO:0070384	Harderian gland development	UBERON:0004187	Harderian gland
 GO:0003164	His-Purkinje system development	UBERON:0004146	His-Purkinje system
 GO:0072002	Malpighian tubule development	UBERON:0001054	Malpighian tubule
