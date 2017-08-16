@@ -1,0 +1,37 @@
+iri	iri label	anatomical_structure_arrangement	anatomical_structure_arrangement label
+GO:0021600	abducens nerve structural organization	UBERON:0001646	abducens nerve
+GO:0021609	accessory nerve structural organization	UBERON:0002019	accessory XI nerve
+GO:0048463	carpel structural organization	PO:0009030	carpel
+GO:0021597	central nervous system structural organization	UBERON:0001017	central nervous system
+GO:0021698	cerebellar cortex structural organization	UBERON:0002129	cerebellar cortex
+GO:0021685	cerebellar granular layer structural organization	UBERON:0002956	granular layer of cerebellar cortex
+GO:0021689	cerebellar molecular layer structural organization	UBERON:0002974	molecular layer of cerebellar cortex
+GO:0021589	cerebellum structural organization	UBERON:0002037	cerebellum
+GO:0021604	cranial nerve structural organization	UBERON:0001785	cranial nerve
+GO:0021612	facial nerve structural organization	UBERON:0001647	facial nerve
+GO:0048450	floral organ structural organization	PO:0025395	floral organ
+GO:0048459	floral whorl structural organization	PO:0025023	collective phyllome structure
+GO:0048461	flower structural organization	PO:0009046	flower
+GO:0021617	glossopharyngeal nerve structural organization	UBERON:0001649	glossopharyngeal nerve
+GO:0021577	hindbrain structural organization	UBERON:0002028	hindbrain
+GO:0021621	hypoglossal nerve structural organization	UBERON:0001650	hypoglossal nerve
+GO:0021716	inferior olivary nucleus structural organization	UBERON:0007244	inferior olivary nucleus
+GO:0021581	medulla oblongata structural organization	UBERON:0001896	medulla oblongata
+GO:0048338	mesoderm structural organization	UBERON:0000926	mesoderm
+GO:0021552	midbrain-hindbrain boundary structural organization	UBERON:0003052	midbrain-hindbrain boundary
+GO:0021624	oculomotor nerve structural organization	UBERON:0001643	oculomotor nerve
+GO:0021629	olfactory nerve structural organization	UBERON:0001579	olfactory nerve
+GO:0003409	optic cup structural organization	UBERON:0003072	optic cup
+GO:0021633	optic nerve structural organization	UBERON:0000941	cranial nerve II
+GO:0048452	petal structural organization	PO:0009032	petal
+GO:0021585	pons structural organization	UBERON:0000988	pons
+GO:0072118	pronephros structural organization	UBERON:0002120	pronephros
+GO:1904961	quiescent center organization	PO:0020149	quiescent center
+GO:0021595	rhombomere structural organization	UBERON:0001892	rhombomere
+GO:0048454	sepal structural organization	PO:0009031	sepal
+GO:0048456	stamen structural organization	PO:0009029	stamen
+GO:0021721	superior olivary nucleus structural organization	UBERON:0007247	nucleus of superior olivary complex
+GO:0021637	trigeminal nerve structural organization	UBERON:0001645	trigeminal nerve
+GO:0021641	trochlear nerve structural organization	UBERON:0001644	trochlear nerve
+GO:0021645	vagus nerve structural organization	UBERON:0001759	vagus nerve
+GO:0021649	vestibulocochlear nerve structural organization	UBERON:0001648	vestibulocochlear nerve

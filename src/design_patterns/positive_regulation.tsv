@@ -1,0 +1,50 @@
+iri	iri label	biological_regulation	biological_regulation label	entity	entity label
+GO:0003129	heart induction	GO:0001759	organ induction	GO:0003128	heart field specification
+GO:0051454	intracellular pH elevation	GO:0065007	biological regulation	OBA:0000050	cell pH
+GO:0060492	lung induction	GO:0001759	organ induction	GO:0060424	lung field specification
+GO:0035752	lysosomal lumen pH elevation	GO:0065007	biological regulation	OBA:0000091	lysosomal lumen pH
+GO:0045852	pH elevation	GO:0065007	biological regulation	OBA:0000121	pH
+GO:0061132	pancreas induction	GO:0001759	organ induction	GO:0061131	pancreas field specification
+GO:1905920	positive regulation of CoA-transferase activity	GO:0065007	biological regulation	GO:0008410	CoA-transferase activity
+GO:1900404	positive regulation of DNA repair by positive regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100026	positive regulation of DNA repair by transcription from RNA polymerase II promoter
+GO:0090080	positive regulation of MAPKKK cascade by fibroblast growth factor receptor signaling pathway	GO:0008543	fibroblast growth factor receptor signaling pathway	GO:0000165	MAPK cascade
+GO:0060804	positive regulation of Wnt signaling pathway by BMP signaling pathway	GO:0030509	BMP signaling pathway	GO:0016055	Wnt signaling pathway
+GO:1905923	positive regulation of acetylcholine biosynthetic process	GO:0065007	biological regulation	GO:0008292	acetylcholine biosynthetic process
+GO:0034263	positive regulation of autophagy in response to ER overload	GO:0006983	ER overload response	GO:0006914	autophagy
+GO:0097755	positive regulation of blood vessel diameter	GO:0065008	regulation of biological quality	OBA:0000183	blood vessel diameter
+GO:0090727	positive regulation of brood size	GO:0065007	biological regulation	OBA:0000037	brood size
+GO:1905917	positive regulation of cell differentiation involved in phenotypic switching	GO:0065007	biological regulation	GO:0090679	cell differentiation involved in phenotypic switching
+GO:1905935	positive regulation of cell fate determination	GO:0065007	biological regulation	GO:0001709	cell fate determination
+GO:0038090	positive regulation of cell migration by VEGF-activated platelet derived growth factor receptor signaling pathway	GO:0038086	VEGF-activated platelet-derived growth factor receptor signaling pathway	GO:0016477	cell migration
+GO:0038089	positive regulation of cell migration by vascular endothelial growth factor signaling pathway	GO:0038084	vascular endothelial growth factor signaling pathway	GO:0016477	cell migration
+GO:0038091	positive regulation of cell proliferation by VEGF-activated platelet derived growth factor receptor signaling pathway	GO:0038086	VEGF-activated platelet-derived growth factor receptor signaling pathway	GO:0008283	cell proliferation
+GO:1900422	positive regulation of cellular alcohol catabolic process by positive regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100037	positive regulation of cellular alcohol catabolic process by transcription from RNA polymerase II promoter
+GO:1905959	positive regulation of cellular response to alcohol	GO:0065007	biological regulation	GO:0097306	cellular response to alcohol
+GO:0061755	positive regulation of circulating fibrinogen levels	GO:0065007	biological regulation	OBA:0000061	circulating fibrinogen levels
+GO:0007204	positive regulation of cytosolic calcium ion concentration	GO:0065008	regulation of biological quality	OBA:0006038	concentration of of calcium ion in cytosol
+GO:1905956	positive regulation of endothelial tube morphogenesis	GO:0065007	biological regulation	GO:0061154	endothelial tube morphogenesis
+GO:2000463	positive regulation of excitatory postsynaptic potential	GO:0050789	regulation of biological process	GO:0060079	excitatory postsynaptic potential
+GO:1905944	positive regulation of formation of growth cone in injured axon	GO:0065007	biological regulation	GO:0048689	formation of growth cone in injured axon
+GO:1905938	positive regulation of germ cell proliferation	GO:0065007	biological regulation	GO:0036093	germ cell proliferation
+GO:1905941	positive regulation of gonad development	GO:0065007	biological regulation	GO:0008406	gonad development
+GO:0106016	positive regulation of inflammatory response to wounding	GO:0065007	biological regulation	GO:0090594	inflammatory response to wounding
+GO:0097151	positive regulation of inhibitory postsynaptic potential	GO:0050789	regulation of biological process	GO:0060080	inhibitory postsynaptic potential
+GO:0033626	positive regulation of integrin activation by cell surface receptor linked signal transduction	GO:0007166	cell surface receptor signaling pathway	GO:0033622	integrin activation
+GO:1905926	positive regulation of invadopodium assembly	GO:0065007	biological regulation	GO:1905877	invadopodium assembly
+GO:1905929	positive regulation of invadopodium disassembly	GO:0065007	biological regulation	GO:1905878	invadopodium disassembly
+GO:1905954	positive regulation of lipid localization	GO:0065007	biological regulation	GO:0010876	lipid localization
+GO:0140077	positive regulation of lipoprotein transport	GO:0065007	biological regulation	GO:0042953	lipoprotein transport
+GO:0101028	positive regulation of liquid surface tension	GO:0065007	biological regulation	OBA:0000088	liquid surface tension
+GO:0090326	positive regulation of locomotion involved in locomotory behavior	GO:0050789	regulation of biological process	GO:0031987	locomotion involved in locomotory behavior
+GO:0061766	positive regulation of lung blood pressure	GO:0065007	biological regulation	OBA:0000090	lung blood pressure
+GO:0038097	positive regulation of mast cell activation by Fc-epsilon receptor signaling pathway	GO:0038095	Fc-epsilon receptor signaling pathway	GO:0045576	mast cell activation
+GO:1900423	positive regulation of mating type switching by positive regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100014	positive regulation of mating type switching by transcription from RNA polymerase II promoter
+GO:0035793	positive regulation of metanephric mesenchymal cell migration by platelet-derived growth factor receptor-beta signaling pathway	GO:0035791	platelet-derived growth factor receptor-beta signaling pathway	GO:0035789	metanephric mesenchymal cell migration
+GO:1904001	positive regulation of pyrimidine-containing compound salvage by positive regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100068	positive regulation of pyrimidine-containing compound salvage by transcription from RNA polymerase II promoter
+GO:1905947	positive regulation of response to calcium ion	GO:0065007	biological regulation	GO:0051592	response to calcium ion
+GO:0100067	positive regulation of spinal cord association neuron differentiation by canonical Wnt signaling pathway	GO:0060070	canonical Wnt signaling pathway	GO:0021527	spinal cord association neuron differentiation
+GO:1900622	positive regulation of transcription from RNA polymerase II promoter by calcium-mediated signaling	GO:0019722	calcium-mediated signaling	GO:0006366	transcription from RNA polymerase II promoter
+GO:0061365	positive regulation of triglyceride lipase activity	GO:0065009	regulation of molecular function	GO:0004806	triglyceride lipase activity
+GO:1905932	positive regulation of vascular smooth muscle cell differentiation involved in phenotypic switching	GO:0065007	biological regulation	GO:1905420	vascular smooth muscle cell differentiation involved in phenotypic switching
+GO:0060514	prostate induction	GO:0001759	organ induction	GO:0060515	prostate field specification
+GO:0050821	protein stabilization	GO:0065007	biological regulation	OBA:0000128	protein stability

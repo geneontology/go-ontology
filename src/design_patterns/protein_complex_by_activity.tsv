@@ -1,0 +1,8 @@
+iri	iri label	molecular_function	molecular_function label	protein_complex	protein_complex label
+GO:1905742	Ras guanyl-nucleotide exchange factor complex	GO:0005088	Ras guanyl-nucleotide exchange factor activity	GO:0043234	protein complex
+GO:1905862	ferroxidase complex	GO:0004322	ferroxidase activity	GO:0043234	protein complex
+GO:1902517	glycerol-3-phosphate-transporting ATPase complex	GO:0015430	glycerol-3-phosphate-transporting ATPase activity	GO:0043190	ATP-binding cassette (ABC) transporter complex
+GO:1905571	interleukin-10 receptor complex	GO:0004920	interleukin-10 receptor activity	GO:0043234	protein complex
+GO:1905543	interleukin-15 receptor complex	GO:0042010	interleukin-15 receptor activity	GO:0043234	protein complex
+GO:1905540	interleukin-7 receptor complex	GO:0004917	interleukin-7 receptor activity	GO:0043234	protein complex
+GO:1905961	protein-cysteine S-palmitoyltransferase complex	GO:0019706	protein-cysteine S-palmitoyltransferase activity	GO:0043234	protein complex

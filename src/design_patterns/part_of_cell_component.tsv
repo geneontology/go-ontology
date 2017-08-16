@@ -1,0 +1,4 @@
+iri	iri label	cellular_component	cellular_component label
+GO:0099738	cell cortex region	GO:0005938	cell cortex
+GO:0099568	cytoplasmic region	GO:0005737	cytoplasm
+GO:0099522	region of cytosol	GO:0005829	cytosol
