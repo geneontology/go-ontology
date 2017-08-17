@@ -43,7 +43,7 @@ namespace:
 
 equivalentTo: 
   # text = manchester syntax class expression  with var slots specified as %s and owl entities 
-  # Text must be double quotes or start with '>' return - indent.
+  # Text must be double quoted or start with '>' return - indent.
   # specified as *single* quoted names.  All names must be in dict.  All vars must be in vars list.
   text: "." 
   vars:
