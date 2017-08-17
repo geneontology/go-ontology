@@ -1,4 +1,4 @@
-pattern_name: .
+pattern_name: '.'
 
 classes:
   '.':'.'
