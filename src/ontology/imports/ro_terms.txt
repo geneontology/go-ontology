@@ -5,6 +5,7 @@ http://purl.obolibrary.org/obo/BFO_0000141 ## immaterial entity
 http://purl.obolibrary.org/obo/BFO_0000023 ## role
 http://purl.obolibrary.org/obo/BFO_0000034 ## function
 http://purl.obolibrary.org/obo/RO_0002160
+http://purl.obolibrary.org/obo/RO_0002218
 RO:0002202
 RO:0002494
 RO:0002588
@@ -16,3 +17,4 @@ RO:0002014
 RO:0002013
 RO:0002233
 RO:0002019
+
