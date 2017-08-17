@@ -2,7 +2,7 @@
 pattern_name: '.' # Add a name used to identify the pattern here.
 
 classes:
-  '.':'.' # A dictionary of OWL classes, references in the pattern. Key = label (name); Value = OBO style ID.
+  '.':'.' # A dictionary of OWL classes, references in the pattern. Key = label (name); Value = OBO style ID (e.g. GO:1234567)
   
 relations:
   '.':'.' # A dictionary of OWL object properties (relations, referenced in the pattern. Key = label (name); Value = OBO style ID.
