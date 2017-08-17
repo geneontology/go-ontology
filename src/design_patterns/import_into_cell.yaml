@@ -1,32 +1,63 @@
-pattern_name: import_into_cell
+pattern_name: 'import_into_cell'
+
 classes:
-  transport: "GO:0006810"
-  extracellular region: "GO:0005576"
-  intracellular part: "GO:0044424"
-  chemical entity: "CHEBI:24431"  # encompasses protein
-  macromolecular complex: "GO:0043234" # encompasses protein complex
+  'transport': 'GO:0006810'
+  'extracellular region': 'GO:0005576'
+  'intracellular part': 'GO:0044424'
+  'chemical entity': 'CHEBI:24431' #encompasses protein
+  'macromolecular complex': 'GO:0043234' #encompasses protein complex
 
 relations:
-  has target start location: "RO:0002338"
-  has target end location: "RO:0002339"
-  imports: "RO:0002340"
-    
+  'has target start location': 'RO:0002338'
+  'has target end location': 'RO:0002339'
+  'imports': 'RO:0002340'
+  
 vars: 
-  imported: "'chemical entity' or 'macromolecular complex'"
+  'imported': "chemical entity" or "macromolecular complex"
+
+# Boilerplate - don't edit
+data_list_vars:
+  def_xrefs: "xsd:string"
+  cross_references: "xsd:string"
+  exact_syn: "xsd:string"
+  narrow_syn: "xsd:string"
+  broad_syn: "xsd:string"
+  related_syn: "xsd:string"
   
 name:
-  text: "%s import into cell"
-  vars: 
-    - imported
-    
-def: 
+  text: "%s import into cell" 
+  vars:
+    - 'imported'
+
+
+def:
   text: "The directed movement of %s from outside of a cell into the cytoplasmic compartment. This may occur via transport across the plasma membrane or via endocytosis."
   vars:
-    - imported
-    
+    - 'imported'
+
+  xrefs: # Boilerplate - don't edit
+     value: def_xrefs
+
+
+# Boilerplate - don't edit
+xrefs: 
+   value: cross_references
+
+namespace: 
+  text: 'biological_process'
+
 equivalentTo: 
-  text: "'transport' and ('has target start location' some 'extracellular region') and ('has target end location' some 'intracellular part') and ('imports' some %s)"
+  text: "'transport' and 'has target start location' some 'extracellular region' and 'has target end location' some 'intracellular part' and 'imports' some %s"
   vars:
-    - imported
+    - 'imported'
     
 
+# Boilerplate - don't edit
+exact_synonyms: 
+   value: exact_syn
+narrow_synonyms: 
+   value: narrow_syn
+broad_synonyms: 
+   value: broad_syn
+related_synonyms: 
+   value: related_syn
