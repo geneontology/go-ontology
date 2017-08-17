@@ -1,0 +1,50 @@
+pattern_name: .
+
+classes:
+  '.':'.'
+  
+relations:
+  '.':'.'
+  
+vars: 
+  '.':'.'
+  
+data_list_vars:
+  def_xrefs: "xsd:string"
+  cross_references: "xsd:string"
+  exact_syn: "xsd:string"
+  narrow_syn: "xsd:string"
+  broad_syn: "xsd:string"
+  related_syn: "xsd:string"
+  
+name:
+  text: '.'
+  vars: 
+    - '.'
+    
+def: 
+  text: '.'
+  vars:
+    - '.'
+  xrefs: 
+     value: def_xrefs
+  
+xrefs: 
+   value: cross_references
+
+namespace: 
+  text: '.'
+
+equivalentTo: 
+  text: '.'
+  vars:
+    - '.'
+    
+exact_synonyms: 
+   value: exact_syn
+narrow_synonyms: 
+   value: narrow_syn
+broad_synonyms: 
+   value: broad_syn
+related_synonyms: 
+   value: related_syn
