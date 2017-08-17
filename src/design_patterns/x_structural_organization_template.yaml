@@ -14,7 +14,7 @@ relations:
 vars: # A dictionary of class variable names (Keys = var name, value = range, specified as Manchester Syntax class expression.)
   # Manchester syntax class expression must be double-quoted.  
   # OWL entities referenced must be single quoted and in dictionaries.
-  'target':"anatomical structure" # Please choose informative var names without special characters or spaces (apart from '_')
+  'target':"'anatomical structure'" # Please choose informative var names without special characters or spaces (apart from '_')
 
 # Boilerplate - don't edit
 data_list_vars:
