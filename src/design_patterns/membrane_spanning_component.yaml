@@ -22,12 +22,12 @@ data_list_vars:
 name:
   text: "spanning component of %s" 
   vars:
-    - membrane
+    - 'membrane'
 
 def:
   text: "The component of the %s consisting of gene products and protein complexes that have some part that spans both leaflets of the membrane."
   vars:
-    - membrane
+    - 'membrane'
 
   xrefs: # Boilerplate - don't edit
      value: def_xrefs
