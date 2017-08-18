@@ -48,7 +48,7 @@ PERLFILTER= ../util/filter-obo-for-standard-release.pl
 #
 #   $ RELEASE_SUFFIX=SNAPSHOT make prepare_release
 #
-RELEASE_SUFFIX= 
+RELEASE_SUFFIX=
 RELEASE_URIBASE= $(BASE)/releases/`date +%Y-%m-%d`$(RELEASE_SUFFIX)
 
 # basic relations are part_of & 3 regulations relations
@@ -371,10 +371,9 @@ imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference
 
 # run all violation checks
-VARGS = $(foreach V,$(VCHECKS),-s $(SPARQLDIR)/$V-violation.sparql reports/$V-violation.csv)
+VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
 sparql_test: $(SRC)
-	robot query -i $< $(VARGS)
-	../util/check-violations-sparql-output.pl $(patsubst %,reports/%-violation.csv,$(VCHECKS))
+	robot verify --input $< --queries $(VARGS) -O reports/
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
@@ -454,4 +453,3 @@ idiff: go_inferences_difflog.txt
 	cp go_inferences_difflog.txt $(RELEASEDIR) && \
 	cp go_inferences.diff $(RELEASEDIR) && \
 	cp go_inferences.obo $(RELEASEDIR)
-
