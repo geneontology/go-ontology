@@ -38,6 +38,9 @@ It can be very helpful to know what branch you are working in on your terminal w
            git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
        }
        PS1="\w\$(parse_git_branch) $ "
+       export PATH=$PATH:$HOME/bin/
+ 
+ Note the last line is not relevant to git, but we do this now for later on when we want to run tools like robot.
 
 
 
