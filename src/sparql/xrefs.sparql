@@ -1,7 +1,7 @@
 prefix oio: <http://www.geneontology.org/formats/oboInOwl#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
 
-SELECT * WHERE 
+SELECT ?cls ?xref WHERE 
 {
   ?cls a owl:Class ; 
      oio:hasDbXref ?xref

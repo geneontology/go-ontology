@@ -8,13 +8,15 @@ GO. Always use the PURLs.
 
 This repository is primarily for the developers of the GO.
 
+The yaml design patterns are here: [src/design_patterns](src/design_patterns).
+
 ## Editors Instructions
 
 Most of the work of the editors is done in the [src/ontology](src/ontology) folder.
 
 Start by reading the [Editor's README](src/ontology/README-editors.md) file.
 
-Find the [GO Ontology Editors Guide here](http://go-ontology.readthedocs.io/). The files to edit the guide in GitHub are located in the [docs](docs/) folder.
+The GO Ontology Editors Guide can be found [here](http://go-ontology.readthedocs.io/). The source files for editing the guide in GitHub are located in the [docs](docs/) folder.
 
 ## Pipeline Overview
 

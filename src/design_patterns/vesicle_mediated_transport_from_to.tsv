@@ -1,0 +1,3 @@
+iri	iri label	end_location	end_location label	start_location	start_location label
+GO:0006893	Golgi to plasma membrane transport	GO:0005886	plasma membrane	GO:0005794	Golgi apparatus
+GO:0098927	vesicle-mediated transport between endosomal compartments	GO:0005768	endosome	GO:0005768	endosome

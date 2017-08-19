@@ -1,0 +1,7 @@
+iri	iri label	regulated_activity	regulated_activity label
+GO:0030234	enzyme regulator activity	GO:0003824	catalytic activity
+GO:0019207	kinase regulator activity	GO:0016301	kinase activity
+GO:0017020	myosin phosphatase regulator activity	GO:0017018	myosin phosphatase activity
+GO:0019208	phosphatase regulator activity	GO:0016791	phosphatase activity
+GO:0019887	protein kinase regulator activity	GO:0004672	protein kinase activity
+GO:0019888	protein phosphatase regulator activity	GO:0004721	phosphoprotein phosphatase activity
