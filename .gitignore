@@ -20,7 +20,19 @@ src/ontology/reasoned.owl
 src/ontology/subsets/*.obo
 src/ontology/subsets/*.owl
 src/ontology/subsets/*.json
+src/ontology/subsets/*.tsv
+src/ontology/change-report.txt
+src/ontology/disjoint_in_taxon.owl
+src/ontology/enhanced.owl
+src/ontology/go-edit.obo-check
+src/ontology/go-lastrelease.owl
+src/ontology/reports/*.tsv
+src/ontology/reports/*.csv
+src/ontology/go_inferences*
 target/
+
+# Blipkit
+*.qlf
 
 # Emacs autosave files
 *~
