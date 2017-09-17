@@ -9,5 +9,17 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Ontology(<http://purl.obolibrary.org/obo/go/extensions/go-gci.owl>
 Annotation(rdfs:comment "A file home for all GO GCIs except for disjointness declarations, which live in x-disjoint.owl.")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005515>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002013>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002014>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002015>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002022>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002023>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002024>))
 
+
+
+SubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002022> <http://purl.obolibrary.org/obo/GO_0005515>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002013> <http://purl.obolibrary.org/obo/GO_0005515>))
+SubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002023> <http://purl.obolibrary.org/obo/GO_0005515>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002014> <http://purl.obolibrary.org/obo/GO_0005515>))
+SubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002024> <http://purl.obolibrary.org/obo/GO_0005515>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002015> <http://purl.obolibrary.org/obo/GO_0005515>))
 )
