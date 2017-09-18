@@ -16,3 +16,8 @@ RO:0002014
 RO:0002013
 RO:0002233
 RO:0002019
+http://purl.obolibrary.org/obo/RO_0002021
+http://purl.obolibrary.org/obo/RO_0002022
+http://purl.obolibrary.org/obo/RO_0002023
+http://purl.obolibrary.org/obo/RO_0002024
+
