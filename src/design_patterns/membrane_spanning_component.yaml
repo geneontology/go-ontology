@@ -1,0 +1,57 @@
+pattern_name: 'spanning_component_of_membrane'
+
+classes:
+  'membrane': 'GO:0016020'
+  'spanning component of membrane': 'GO:0089717'
+
+relations:
+  'part of': 'BFO:0000050'
+
+vars: 
+  'membrane': "membrane" 
+
+# Boilerplate - don't edit
+data_list_vars:
+  def_xrefs: "xsd:string"
+  cross_references: "xsd:string"
+  exact_syn: "xsd:string"
+  narrow_syn: "xsd:string"
+  broad_syn: "xsd:string"
+  related_syn: "xsd:string"
+  
+name:
+  text: "spanning component of %s" 
+  vars:
+    - 'membrane'
+
+def:
+  text: "The component of the %s consisting of gene products and protein complexes that have some part that spans both leaflets of the membrane."
+  vars:
+    - 'membrane'
+
+  xrefs: # Boilerplate - don't edit
+     value: def_xrefs
+
+
+# Boilerplate - don't edit
+xrefs: 
+   value: cross_references
+
+namespace: 
+  text: 'biological_process'
+    
+
+# Boilerplate - don't edit
+exact_synonyms: 
+   value: exact_syn
+narrow_synonyms: 
+   value: narrow_syn
+broad_synonyms: 
+   value: broad_syn
+related_synonyms: 
+   value: related_syn
+
+equivalentTo:
+  text: "'spanning component of membrane' that 'part of' some %s"
+  vars:  
+    - 'membrane'

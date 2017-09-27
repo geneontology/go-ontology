@@ -1,0 +1,6 @@
+iri	iri label	regulated_activity	regulated_activity label
+GO:0004857	enzyme inhibitor activity	GO:0003824	catalytic activity
+GO:0019210	kinase inhibitor activity	GO:0016301	kinase activity
+GO:0019212	phosphatase inhibitor activity	GO:0016791	phosphatase activity
+GO:0004860	protein kinase inhibitor activity	GO:0004713	protein tyrosine kinase activity
+GO:0004864	protein phosphatase inhibitor activity	GO:0004721	phosphoprotein phosphatase activity

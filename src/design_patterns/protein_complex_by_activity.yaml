@@ -1,0 +1,27 @@
+pattern_name: protein_complex_by_activity
+
+classes:
+  molecular function: "GO:0003674"
+  protein complex: "GO:0043234"
+
+relations: 
+  capable of: "RO:0002215"
+
+vars:
+  function: "'molecular function'"
+ 
+name:
+     text: "%s activity"
+     vars:
+       - function
+
+def:
+  text: "A protein complex which is capable of %s." 
+  vars:
+     - function
+     
+equivalentTo:
+  text: " 'protein complex' and 'capable of' some %s "
+  vars:
+    - function
+    

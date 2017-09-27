@@ -1,6 +1,6 @@
 # Obsoleting an Existing Ontology Term
 
-See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-updating-with-git-pull) for creating branches and basic Protégé instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) for creating branches and basic Protégé instructions.
 
 1. Check if the term (or any of its children) is being used for annotation: 
    - Go to AmiGO, search for the term, either by label or ID
@@ -20,6 +20,8 @@ Template:
    There are X InterPro2GO mappings to this term. 
    Any comments can be added to the issue: [link to GitHub ticket]. We are opening a comment period for this proposed obsoletion. We'd like to proceed and obsolete this term on [DATE] 
    *** Unless objections are received by [DATE] , we will assume that you agree to this change. ***
+
+**Remeber to list the databases affected by the obsoletion**
 
 
 OBSOLETION PROCESS 
@@ -60,4 +62,4 @@ Consult the wiki documentation for suggestions on standard comments:
 
 9. Save changes. 
     
-See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) section for commit, push and merge instructions. 

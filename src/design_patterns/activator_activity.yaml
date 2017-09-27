@@ -1,0 +1,69 @@
+pattern_name: 'activator_activity'
+
+classes:
+  'molecular_function':'GO:0003674'
+  'catalytic activity':'GO:0003824'
+
+relations:
+  'directly positively regulates':'RO:0002629' 
+  
+vars:
+  'regulated_activity':"catalytic activity" 
+
+substitutions:
+   - 
+     in: regulated_activity
+     out: regulated_activity_munged
+     match: "(.+) activity"
+     sub: '\1'  
+
+data_list_vars:
+  def_dbxrefs: "xsd:string"
+
+# Boilerplate - don't edit
+data_list_vars:
+  def_xrefs: "xsd:string"
+  cross_references: "xsd:string"
+  exact_syn: "xsd:string"
+  narrow_syn: "xsd:string"
+  broad_syn: "xsd:string"
+  related_syn: "xsd:string"
+  
+name:
+  text: "%s activator activity"
+  vars:   
+    - 'regulated_activity_munged'
+    
+def: 
+  text: "Direct interaction with a gene product or complex that has %s, 
+    resulting in positive regulation of its %s. Direct interaction 
+    in this case includes binding and interactions leading to 
+    covalent modification."
+  vars:
+    - 'regulated_activity'
+    - 'regulated_activity'
+    
+  xrefs: # Boilerplate - don't edit
+     value: def_xrefs
+
+# Boilerplate - don't edit
+xrefs: 
+   value: cross_references
+
+namespace: 
+  text: 'biological_process'  # e.g. biological_process, quoting is optional
+
+equivalentTo: 
+  text: "'molecular_function' that 'directly positively regulates' some %s" 
+  vars:
+    - 'regulated_activity'
+
+# Boilerplate - don't edit
+exact_synonyms: 
+   value: exact_syn
+narrow_synonyms: 
+   value: narrow_syn
+broad_synonyms: 
+   value: broad_syn
+related_synonyms: 
+   value: related_syn

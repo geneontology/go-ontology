@@ -1,0 +1,53 @@
+iri	iri label	imported	imported label
+GO:0140016	D-aspartate import across plasma membrane	CHEBI:29994	D-aspartate(2-)
+GO:1904273	L-alanine import across plasma membrane	CHEBI:16977	L-alanine
+GO:0097638	L-arginine import across plasma membrane	CHEBI:16467	L-arginine
+GO:1903811	L-asparagine import across plasma membrane	CHEBI:17196	L-asparagine
+GO:0098712	L-glutamate import across plasma membrane	CHEBI:29988	L-glutamate(2-)
+GO:1903803	L-glutamine import across plasma membrane	CHEBI:18050	L-glutamine
+GO:1903810	L-histidine import across plasma membrane	CHEBI:15971	L-histidine
+GO:1903806	L-isoleucine import across plasma membrane	CHEBI:17191	L-isoleucine
+GO:1903801	L-leucine import across plasma membrane	CHEBI:15603	L-leucine
+GO:0097639	L-lysine import across plasma membrane	CHEBI:18019	L-lysine
+GO:1905544	L-methionine import across plasma membrane	CHEBI:16643	L-methionine
+GO:0097640	L-ornithine import across plasma membrane	CHEBI:15729	L-ornithine
+GO:1904271	L-proline import across plasma membrane	CHEBI:17203	L-proline
+GO:1903807	L-threonine import across plasma membrane	CHEBI:16857	L-threonine
+GO:1904272	L-tryptophan import across plasma membrane	CHEBI:16828	L-tryptophan
+GO:1903808	L-tyrosine import across plasma membrane	CHEBI:17895	L-tyrosine
+GO:1903805	L-valine import across plasma membrane	CHEBI:16414	L-valine
+GO:0098702	adenine import across plasma membrane	CHEBI:16708	adenine
+GO:0089718	amino acid import across plasma membrane	CHEBI:33709	amino acid
+GO:1905135	biotin import across plasma membrane	CHEBI:15956	biotin
+GO:0098703	calcium ion import across plasma membrane	CHEBI:39123	calcium cation
+GO:0098704	carbohydrate import across plasma membrane	CHEBI:16646	carbohydrate
+GO:1905130	carcinine import across plasma membrane	CHEBI:131429	carcinine
+GO:0098705	copper ion import across plasma membrane	CHEBI:23378	copper cation
+GO:1905136	dethiobiotin import across plasma membrane	CHEBI:16691	dethiobiotin
+GO:0098706	ferric iron import across plasma membrane	CHEBI:29034	iron(3+)
+GO:0098707	ferrous iron import across plasma membrane	CHEBI:29033	iron(2+)
+GO:1904447	folic acid import across plasma membrane	CHEBI:27470	folic acid
+GO:1990539	fructose import across plasma membrane	CHEBI:28757	fructose
+GO:0098708	glucose import across plasma membrane	CHEBI:17234	glucose
+GO:0098709	glutathione import across plasma membrane	CHEBI:16856	glutathione
+GO:0098710	guanine import across plasma membrane	CHEBI:16235	guanine
+GO:1904334	heme import across plasma membrane	CHEBI:30413	heme
+GO:0098658	inorganic anion import across plasma membrane	CHEBI:24834	inorganic anion
+GO:0098659	inorganic cation import across plasma membrane	CHEBI:36915	inorganic cation
+GO:0099587	inorganic ion import across plasma membrane	CHEBI:36914	inorganic ion
+GO:0098711	iron ion import across plasma membrane	CHEBI:24875	iron cation
+GO:0098713	leucine import across plasma membrane	CHEBI:25017	leucine
+GO:0098714	malate import across plasma membrane	CHEBI:15595	malate(2-)
+GO:0098715	malonic acid import across plasma membrane	CHEBI:30794	malonic acid
+GO:1903692	methionine import across plasma membrane	CHEBI:16811	methionine
+GO:1904679	myo-inositol import across plasma membrane	CHEBI:17268	myo-inositol
+GO:0098716	nickel cation import across plasma membrane	CHEBI:25516	nickel cation
+GO:0098717	pantothenate import across plasma membrane	CHEBI:16454	pantothenate
+GO:1905647	proline import across plasma membrane	CHEBI:26271	proline
+GO:1903075	pyridoxine import across plasma membrane	CHEBI:16709	pyridoxine
+GO:0098718	serine import across plasma membrane	CHEBI:17822	serine
+GO:0098719	sodium ion import across plasma membrane	CHEBI:29101	sodium(1+)
+GO:1903258	sorbose import across plasma membrane	CHEBI:27922	sorbose
+GO:0098720	succinate import across plasma membrane	CHEBI:30031	succinate(2-)
+GO:1902434	sulfate import across plasma membrane	CHEBI:16189	sulfate
+GO:0098721	uracil import across plasma membrane	CHEBI:17568	uracil
