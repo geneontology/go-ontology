@@ -1,0 +1,8 @@
+id: goantislim_grouping
+title: GO antislim
+type: antislim
+description: "Grouping classes that can be excluded in enrichment analyses etc"
+contact:
+  email: go-ontology@lists.stanford.edu
+  label: GO Ontology Curators
+tracker: https://github.com/geneontology/go-ontology/issues
