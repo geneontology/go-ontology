@@ -1,6 +1,7 @@
 id: goantislim_grouping
 title: GO antislim
 type: antislim
+status: active
 description: "Grouping classes that can be excluded in enrichment analyses etc"
 contact:
   email: go-ontology@lists.stanford.edu
