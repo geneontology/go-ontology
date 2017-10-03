@@ -196,6 +196,8 @@ $(ONT).obo: $(ONT)-pre-reduced.obo
 	cp $(BUILD_DIR)/go-simple.obo . &&\
 	cp $(BUILD_DIR)/go.owl .
 
+# TODO make slims like this
+# owltools go-basic.obo --extract-ontology-subset -s goslim_pombe  -o -f obo ...
 
 # This is produced as a byproduct of go.obo
 go-simple.obo: $(ONT).obo
