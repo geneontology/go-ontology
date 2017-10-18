@@ -249,9 +249,14 @@ imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
 
 # Use ROBOT for imports
-imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
-	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
-.PRECIOUS: imports/%_import.owl
+imports/%_import_pre.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
+	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/imports/$*_import.owl -o $@
+.PRECIOUS: imports/%_import_pre.owl
+
+imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
+	owltools $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $(RELEASE_URIBASE)/$@ -o $@
+imports/%_import.owl: imports/%_import_pre.owl
+	cp $< $@
 
 #bio-chebi-merged.owl: bio-chebi.owl
 #	$(OWLTOOLS) $(USECAT) $< --merge-imports-closure -o $@
@@ -271,7 +276,7 @@ imports/chebi_import.owl: imports/chebi_import_nogci.owl seed.owl bio-chebi.owl
 
 
 imports/%_import.obo: imports/%_import.owl
-	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@
+	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms: $@.tmp > $@
 
 # ----------------------------------------
 # CACHEING EXTERNAL ONTOLOGIES
@@ -287,6 +292,9 @@ mirror:
 mirror/ncbitaxon-download.owl: imports/ncbitaxon_terms.txt
 	wget --no-check-certificate $(OBO)/ncbitaxon.obo $(WGET_OUT)
 .PRECIOUS: mirror/ncbitaxon-download.owl
+#mirror/ncbitaxon-download-enhanced.owl: mirror/ncbitaxon-download.owl
+#	OWLTOOLS_MEMORY=12G owltools  $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $OBO/zz -o
+#.PRECIOUS: mirror/ncbitaxon-download-enhanced.owl
 
 # special case: download obo for speed for ncbitaxon
 mirror/pr-download.owl: $(SRC)
