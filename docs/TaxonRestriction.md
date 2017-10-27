@@ -12,7 +12,7 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#dail
    1.	Navigate to the term for which you want to add the never in taxon restriction.
    2.	In the class annotations window, click on the ```+```. 
    3.	In the left-hand panel, select ```never_in_taxon```.
-   4.	In the right-hand panel, in the Entity IRI tab, navigate to the correct taxon: thing/material entity/object/organism.
+   4.	In the right-hand panel, in the Entity IRI tab, navigate to the correct taxon.  The full path is:  thing/continuant/independent continuant/material entity/object/organism.
    5.	Select the appropriate taxon.
    6.	Click OK to save your changes.
    
