@@ -274,7 +274,6 @@ imports/chebi_import.owl: imports/chebi_import_nogci.owl seed.owl bio-chebi.owl
 	$(OWLTOOLS) $(USECAT) seed.owl $< --merge-support-ontologies  bio-chebi.owl --add-imports-from-supports --extract-module -s $(OBO)/go/extensions/bio-chebi.owl -c  --make-subset-by-properties -n $(CHEBIRELS) // --remove-annotation-assertions -r -l --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/go/$@ -o $@
 .PRECIOUS: imports/chebi_import.owl
 
-
 imports/%_import.obo: imports/%_import.owl
 	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms: $@.tmp > $@
 
@@ -346,7 +345,7 @@ FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remo
 
 # todo: uberon currently has some chebi inferences
 mirror/uberon.owl: mirror/uberon-download.owl
-	$(OWLTOOLS) --use-catalog $< --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL $(FILTER_EXTERNAL) -o $@
+	$(OWLTOOLS) --use-catalog $< --remove-equivalent-to-nothing-axioms --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL  $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/uberon.owl
 
 mirror/%.owl: mirror/%-download.owl

@@ -120,7 +120,7 @@ This step is optional because it is not necessary to work on the current version
  
 6. **Delete** your branch on the repository using the button on the right of the successful merge message. 
 
-7. You may also delete the working branch on your local copy. Back in your terminal window: 
+7. You may also delete the working branch on your local copy. Note that this step is optional.  However, if you wish to delete branches on your local machine, in your terminal window: 
    1. Go back to the master branch by typing ```git checkout master```.     
    2. Update your local copy of the repository by typing  ```git pull origin master``` 
    3. Delete the branch by typing ```git branch -d workingbranchname```. 
