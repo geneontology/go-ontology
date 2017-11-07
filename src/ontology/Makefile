@@ -48,7 +48,7 @@ PERLFILTER= ../util/filter-obo-for-standard-release.pl
 #
 #   $ RELEASE_SUFFIX=SNAPSHOT make prepare_release
 #
-RELEASE_SUFFIX= 
+RELEASE_SUFFIX=
 RELEASE_URIBASE= $(BASE)/releases/`date +%Y-%m-%d`$(RELEASE_SUFFIX)
 
 # basic relations are part_of & 3 regulations relations
@@ -161,7 +161,7 @@ enhanced.owl: $(SRC) disjoint_in_taxon.owl
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
 reasoned.owl: enhanced.owl $(SRC)-check
-	$(ROBOT)  reason -i $< -r ELK relax  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+	$(ROBOT)  reason -i $< -r ELK relax reduce  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 # equivalent to reasoned, but we rename
 $(GO_PLUS).owl: reasoned.owl
@@ -249,9 +249,14 @@ imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
 
 # Use ROBOT for imports
-imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
-	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
-.PRECIOUS: imports/%_import.owl
+imports/%_import_pre.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
+	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/imports/$*_import.owl -o $@
+.PRECIOUS: imports/%_import_pre.owl
+
+imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
+	owltools $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $(RELEASE_URIBASE)/$@ -o $@
+imports/%_import.owl: imports/%_import_pre.owl
+	cp $< $@
 
 #bio-chebi-merged.owl: bio-chebi.owl
 #	$(OWLTOOLS) $(USECAT) $< --merge-imports-closure -o $@
@@ -269,9 +274,8 @@ imports/chebi_import.owl: imports/chebi_import_nogci.owl seed.owl bio-chebi.owl
 	$(OWLTOOLS) $(USECAT) seed.owl $< --merge-support-ontologies  bio-chebi.owl --add-imports-from-supports --extract-module -s $(OBO)/go/extensions/bio-chebi.owl -c  --make-subset-by-properties -n $(CHEBIRELS) // --remove-annotation-assertions -r -l --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/go/$@ -o $@
 .PRECIOUS: imports/chebi_import.owl
 
-
 imports/%_import.obo: imports/%_import.owl
-	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@
+	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms: $@.tmp > $@
 
 # ----------------------------------------
 # CACHEING EXTERNAL ONTOLOGIES
@@ -287,6 +291,9 @@ mirror:
 mirror/ncbitaxon-download.owl: imports/ncbitaxon_terms.txt
 	wget --no-check-certificate $(OBO)/ncbitaxon.obo $(WGET_OUT)
 .PRECIOUS: mirror/ncbitaxon-download.owl
+#mirror/ncbitaxon-download-enhanced.owl: mirror/ncbitaxon-download.owl
+#	OWLTOOLS_MEMORY=12G owltools  $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $OBO/zz -o
+#.PRECIOUS: mirror/ncbitaxon-download-enhanced.owl
 
 # special case: download obo for speed for ncbitaxon
 mirror/pr-download.owl: $(SRC)
@@ -338,7 +345,7 @@ FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remo
 
 # todo: uberon currently has some chebi inferences
 mirror/uberon.owl: mirror/uberon-download.owl
-	$(OWLTOOLS) --use-catalog $< --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL $(FILTER_EXTERNAL) -o $@
+	$(OWLTOOLS) --use-catalog $< --remove-equivalent-to-nothing-axioms --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL  $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/uberon.owl
 
 mirror/%.owl: mirror/%-download.owl
@@ -371,10 +378,9 @@ imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference
 
 # run all violation checks
-VARGS = $(foreach V,$(VCHECKS),-s $(SPARQLDIR)/$V-violation.sparql reports/$V-violation.csv)
+VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
 sparql_test: $(SRC)
-	robot query -i $< $(VARGS)
-	../util/check-violations-sparql-output.pl $(patsubst %,reports/%-violation.csv,$(VCHECKS))
+	robot verify --input $< --queries $(VARGS) -O reports/
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
@@ -454,4 +460,3 @@ idiff: go_inferences_difflog.txt
 	cp go_inferences_difflog.txt $(RELEASEDIR) && \
 	cp go_inferences.diff $(RELEASEDIR) && \
 	cp go_inferences.obo $(RELEASEDIR)
-

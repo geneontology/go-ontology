@@ -50,7 +50,7 @@ Fast-forward
 2. **OPTIONAL**: To update the working branch with respect to the current version of the ontology, type ```git pull origin master ```.
 This step is optional because it is not necessary to work on the current version of the ontology; all changes will be synchronized when git merge is performed.
 
-## Loading, navigating and saving the Ontology in Protegé 
+## Loading, navigating and saving the Ontology in Protégé 
 
 1. Before launching Protégé, make sure you are in the correct branch. To check the active branch, type ```git status```.  
 
@@ -90,7 +90,7 @@ This step is optional because it is not necessary to work on the current version
 
    - **NOTE**: The word 'fixes' is a magic word in GitHub; when used in combination with the ticket number, it will automatically close the ticket. In the above example, when the file is merged in GitHub, it will close issue number 13390. Learn more on this [GitHub Help Documentation page about 'Closing issues via commit messages'](https://help.github.com/articles/closing-issues-via-commit-messages/).
    - 'Fixes' is case-insensitive. 
-   - If you don't want to close the close the ticket, just refer to the ticket # without the word 'Fixes'. The commit will be associated with the correct ticket but the ticket will remain open. 
+   - If you don't want to close the ticket, just refer to the ticket # without the word 'Fixes'. The commit will be associated with the correct ticket but the ticket will remain open. 
     - **NOTE**: It is also possible to type a longer message than allowed when using the '-m' argument; to do this, skip the -m, and a vi window (on mac) will open in which an unlimited description may be typed. 
    - **TIP**: Git needs to know who is committing changes to the repository, so the first time you commit, you may see the following message: 
 
@@ -104,7 +104,7 @@ This step is optional because it is not necessary to work on the current version
        
         git push origin issue-13390 
 	
-   - **TIP**: Once you have upushed your changes to the repository, they are available for everyone to see, so at this stage you can ask for feedback.    
+   - **TIP**: Once you have pushed your changes to the repository, they are available for everyone to see, so at this stage you can ask for feedback.    
    
 4. **Pull** 
    1. In your browser, return to the [GO Ontology repository](https://github.com/geneontology/go-ontology) on GitHub.
@@ -120,7 +120,7 @@ This step is optional because it is not necessary to work on the current version
  
 6. **Delete** your branch on the repository using the button on the right of the successful merge message. 
 
-7. You may also delete the working branch on your local copy. Back in your terminal window: 
+7. You may also delete the working branch on your local copy. Note that this step is optional.  However, if you wish to delete branches on your local machine, in your terminal window: 
    1. Go back to the master branch by typing ```git checkout master```.     
    2. Update your local copy of the repository by typing  ```git pull origin master``` 
    3. Delete the branch by typing ```git branch -d workingbranchname```. 

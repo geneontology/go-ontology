@@ -6,13 +6,13 @@
 
 2. Click on: Annotate new entities with creator (user) 
 
-3. Creator property: Add [http://geneontology.org/formats/oboInOwl#created_by](http://geneontology.org/formats/oboInOwl#created_by)
+3. Creator property: Add [http://www.geneontology.org/formats/oboInOwl#created_by](http://geneontology.org/formats/oboInOwl#created_by)
 
 4. Creator value: Use user name
       
 5. Check: Annotate new entities with creation date and time.
 
-6. Date property: Add [http://geneontology.org/formats/oboInOwl#creation_date](http://geneontology.org/formats/oboInOwl#creation_date)
+6. Date property: Add [http://www.geneontology.org/formats/oboInOwl#creation_date](http://geneontology.org/formats/oboInOwl#creation_date)
 
 7. Check: ISO-8601
 
