@@ -1,0 +1,54 @@
+pattern_name: 'chemical_transport' # Add a name used to identify the pattern here.
+
+classes:
+  'transport':'GO:0006810'
+  'chemical entity':'CHEBI:24431'  
+  
+relations:
+  'transports_or_maintains_localization_of':'RO:0002313'
+  
+vars: 
+  'chemical':"chemical entity" 
+
+# Boilerplate - don't edit
+data_list_vars:
+  def_xrefs: "xsd:string"
+  cross_references: "xsd:string"
+  exact_syn: "xsd:string"
+  narrow_syn: "xsd:string"
+  broad_syn: "xsd:string"
+  related_syn: "xsd:string"
+  
+name:
+  text: "%s transport" 
+  vars:
+    - 'chemical'
+    
+def:
+  text: "The directed movement of %s into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore."
+  vars:
+    - 'chemical'
+  xrefs: # Boilerplate - don't edit
+     value: def_xrefs
+
+# Boilerplate - don't edit
+xrefs: 
+   value: cross_references
+
+namespace: 
+  text: 'biological_process'
+
+equivalentTo: 
+  text: "'transport' and 'transports_or_maintains_localization_of' some %s" 
+  vars:
+    - 'chemical'
+
+# Boilerplate - don't edit
+exact_synonyms: 
+   value: exact_syn
+narrow_synonyms: 
+   value: narrow_syn
+broad_synonyms: 
+   value: broad_syn
+related_synonyms: 
+   value: related_syn

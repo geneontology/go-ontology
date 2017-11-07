@@ -48,7 +48,7 @@ PERLFILTER= ../util/filter-obo-for-standard-release.pl
 #
 #   $ RELEASE_SUFFIX=SNAPSHOT make prepare_release
 #
-RELEASE_SUFFIX= 
+RELEASE_SUFFIX=
 RELEASE_URIBASE= $(BASE)/releases/`date +%Y-%m-%d`$(RELEASE_SUFFIX)
 
 # basic relations are part_of & 3 regulations relations
@@ -67,13 +67,14 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz
+stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz subset-reports
 
 test: $(SRC)-check sparql_test change-report.txt reasoned.owl
 
 # note: until we go live, the travis test must omit change-report. This is because as a demo repo,
 # we naturally fall behind the actual live PURL. **DELETE THIS TARGET WHEN WE GO LIVE**
-travis_test: $(SRC)-check sparql_test reasoned.owl
+#travis_test: $(SRC)-check sparql_test reasoned.owl
+travis_test: $(SRC)-check sparql_test change-report.txt all_reports reasoned.owl
 
 full_test: test $(ONT).obo
 
@@ -86,6 +87,7 @@ clean_target:
 prepare_release: build
 	mkdir -p $(RELEASEDIR)/extensions &&\
 	mkdir -p $(RELEASEDIR)/subsets &&\
+	mkdir -p $(RELEASEDIR)/reports &&\
 	mkdir -p $(RELEASEDIR_IMPORTS) &&\
 	cp $(ONT).owl $(ONT).obo $(ONT).json $(RELEASEDIR) &&\
 	cp imports/*.owl $(RELEASEDIR_IMPORTS) &&\
@@ -93,6 +95,7 @@ prepare_release: build
 	cp extensions/* $(RELEASEDIR)/extensions &&\
 	cp go-basic.* $(RELEASEDIR) &&\
 	cp subsets/* $(RELEASEDIR)/subsets &&\
+	cp reports/* $(RELEASEDIR)/reports &&\
 	echo "Release files are now in $(RELEASEDIR)"
 
 # deploy to S3
@@ -128,11 +131,12 @@ deploy-release:
 # TODO: use json form of this file
 # See also: https://github.com/geneontology/go-ontology/issues/13837
 GO.xrf_abbs: $(SRC)
-	wget https://s3.amazonaws.com/go-public/metadata/db-xrefs.legacy -O $@.tmp && mv $@.tmp $@ && touch $@
+	wget --no-check-certificate https://s3.amazonaws.com/go-public/metadata/db-xrefs.legacy -O $@.tmp && mv $@.tmp $@ && touch $@
 
 $(SRC)-check: $(SRC) GO.xrf_abbs
 	$(PERLCHECK) --disable-isa-incomplete --xref-abbs GO.xrf_abbs $< > $@.tmp && mv $@.tmp $@
 
+# consider using snapshot release
 PREVIOUS=go-lastrelease.owl
 $(PREVIOUS): $(SRC)
 	wget $(OBO)/go.obo -O $@ && touch $@
@@ -157,7 +161,7 @@ enhanced.owl: $(SRC) disjoint_in_taxon.owl
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
 reasoned.owl: enhanced.owl $(SRC)-check
-	$(ROBOT)  reason -i $< -r ELK relax  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+	$(ROBOT)  reason -i $< -r ELK relax reduce  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 # equivalent to reasoned, but we rename
 $(GO_PLUS).owl: reasoned.owl
@@ -192,6 +196,7 @@ $(ONT).obo: $(ONT)-pre-reduced.obo
 	cp $(BUILD_DIR)/go-simple.obo . &&\
 	cp $(BUILD_DIR)/go.owl .
 
+
 # This is produced as a byproduct of go.obo
 go-simple.obo: $(ONT).obo
 go.owl: $(ONT).obo
@@ -209,6 +214,21 @@ go-basic.obo: go-simple-filtered-reduced.obo
 
 go-basic.owl: go-basic.obo
 	$(ROBOT) convert -i $< -o $@
+
+# ----------------------------------------
+# SUBSET REPORTS
+# ----------------------------------------
+# Currently the only per-subset report is id-label pairs
+# See: https://github.com/geneontology/go-ontology/issues/14028
+
+# get all subsets
+subset-files = $(shell ls subsets/*.owl)
+
+# so far we only make simple .tsv reports
+SUBSET_REPORTS = $(patsubst %,%.tsv,$(basename $(subset-files)))
+subset-reports: $(SUBSET_REPORTS)
+subsets/%.tsv: subsets/%.owl
+	robot query -f tsv -i $< -s ../sparql/labels.sparql $@
 
 # ----------------------------------------
 # IMPORT MODULES
@@ -229,9 +249,14 @@ imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
 
 # Use ROBOT for imports
-imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
-	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
-.PRECIOUS: imports/%_import.owl
+imports/%_import_pre.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
+	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/imports/$*_import.owl -o $@
+.PRECIOUS: imports/%_import_pre.owl
+
+imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
+	owltools $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $(RELEASE_URIBASE)/$@ -o $@
+imports/%_import.owl: imports/%_import_pre.owl
+	cp $< $@
 
 #bio-chebi-merged.owl: bio-chebi.owl
 #	$(OWLTOOLS) $(USECAT) $< --merge-imports-closure -o $@
@@ -249,9 +274,8 @@ imports/chebi_import.owl: imports/chebi_import_nogci.owl seed.owl bio-chebi.owl
 	$(OWLTOOLS) $(USECAT) seed.owl $< --merge-support-ontologies  bio-chebi.owl --add-imports-from-supports --extract-module -s $(OBO)/go/extensions/bio-chebi.owl -c  --make-subset-by-properties -n $(CHEBIRELS) // --remove-annotation-assertions -r -l --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/go/$@ -o $@
 .PRECIOUS: imports/chebi_import.owl
 
-
 imports/%_import.obo: imports/%_import.owl
-	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@
+	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms: $@.tmp > $@
 
 # ----------------------------------------
 # CACHEING EXTERNAL ONTOLOGIES
@@ -267,6 +291,9 @@ mirror:
 mirror/ncbitaxon-download.owl: imports/ncbitaxon_terms.txt
 	wget --no-check-certificate $(OBO)/ncbitaxon.obo $(WGET_OUT)
 .PRECIOUS: mirror/ncbitaxon-download.owl
+#mirror/ncbitaxon-download-enhanced.owl: mirror/ncbitaxon-download.owl
+#	OWLTOOLS_MEMORY=12G owltools  $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $OBO/zz -o
+#.PRECIOUS: mirror/ncbitaxon-download-enhanced.owl
 
 # special case: download obo for speed for ncbitaxon
 mirror/pr-download.owl: $(SRC)
@@ -318,7 +345,7 @@ FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remo
 
 # todo: uberon currently has some chebi inferences
 mirror/uberon.owl: mirror/uberon-download.owl
-	$(OWLTOOLS) --use-catalog $< --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL $(FILTER_EXTERNAL) -o $@
+	$(OWLTOOLS) --use-catalog $< --remove-equivalent-to-nothing-axioms --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL  $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/uberon.owl
 
 mirror/%.owl: mirror/%-download.owl
@@ -351,10 +378,9 @@ imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference
 
 # run all violation checks
-VARGS = $(foreach V,$(VCHECKS),-s $(SPARQLDIR)/$V-violation.sparql reports/$V-violation.csv)
+VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
 sparql_test: $(SRC)
-	robot query -i $< $(VARGS)
-	../util/check-violations-sparql-output.pl $(patsubst %,reports/%-violation.csv,$(VCHECKS))
+	robot verify --input $< --queries $(VARGS) -O reports/
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
@@ -363,16 +389,17 @@ reports/%-violation.csv: $(SRC)
 # ----------------------------------------
 # REPORTS
 # ----------------------------------------
+# We use `robot query` to generate TSVs from SPARQL
 
-REPORTS = stats basicReport numberOfClassesByPrefix edges labels
+REPORTS = owl-stats basic-report class-count-by-prefix edges labels xrefs obsoletes synonyms
+REPORT_ARGS = $(foreach V,$(REPORTS),-s $(SPARQLDIR)/$V.sparql reports/$V.tsv)
+all_reports: go.owl
+	robot query -f tsv -i $< $(REPORT_ARGS)
 
-all_reports: $(patsubst %,reports/go-%.tsv,$(REPORTS))
+#all_src_reports: $(patsubst %,reports/src-%.tsv,$(REPORTS))
 
-$(REPORTDIR):
-	mkdir $@
-
-reports/go-%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
-	robot query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
+reports/%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
+	robot -vv query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
 reports/src-%.tsv: go-edit.obo $(SPARQLDIR)/%.sparql $(REPORTDIR)
 	robot query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
 
@@ -433,4 +460,3 @@ idiff: go_inferences_difflog.txt
 	cp go_inferences_difflog.txt $(RELEASEDIR) && \
 	cp go_inferences.diff $(RELEASEDIR) && \
 	cp go_inferences.obo $(RELEASEDIR)
-
