@@ -2,6 +2,7 @@ pattern_name: 'mf_transmembrane_transporter_activity'
 
 classes:
   'transmembrane transporter activity': 'GO:0022857'
+  'part of' some '%s transmembrane transport'
 
 relations: 
   'transports_or_maintains_localization_of': 'RO:0002313'
