@@ -2,6 +2,7 @@ pattern_name: 'mf_channel activity'
 
 classes:
   'channel activity': 'GO:0015267'
+  'part of' some '%s transmembrane transport'
 
 relations: 
   'transports_or_maintains_localization_of': 'RO:0002313'
