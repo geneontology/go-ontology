@@ -19,7 +19,7 @@ name:
      text: "%s transmembrane transport"
 
 def:
-  text: "The directed movement of x across a membrane."
+  text: "The process in which a x is transported across a membrane.
 
   xrefs: # Boilerplate - don't edit
      value: def_xrefs
