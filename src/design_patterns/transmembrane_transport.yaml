@@ -19,7 +19,7 @@ name:
      text: "%s transmembrane transport"
 
 def:
-  text: "The process in which a x is transported across a membrane.
+  text: "The process in which a x is transported across a membrane."
 
   xrefs: # Boilerplate - don't edit
      value: def_xrefs
@@ -32,7 +32,8 @@ namespace:
   text: 'biological_process'
   
 equivalentTo:
-  text: " 'transport' and 'transports_or_maintains_localization_of' some %s "
+  text: " 'transport' and 'transports_or_maintains_localization_of' 
+   and 'results in transport across' some membrane
     
 # Boilerplate - don't edit
 exact_synonyms: 
