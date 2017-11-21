@@ -17,6 +17,7 @@ This guide is not yet complete.
    DailyWorkflow
    CreateNewTerm
    NewRegTerm
+   DeletingAssertedSubClasses
    ObsoleteTerm
    MergeTerms
    NewSlimTerm
