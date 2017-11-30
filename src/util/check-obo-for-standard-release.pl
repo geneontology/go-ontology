@@ -98,6 +98,11 @@ my $line = '';
 while (<>) {
     chomp;
     $line = $_;
+
+    if (m@^>>>@ || m@^<<<@ || m@^===@) {
+        flag('merge-markers', 'Line has git merge markers indicating a failed merge: ', $line);
+    }
+    
     if (/^\[(\S+)\]$/) {
         if ($stanza_type eq "Term") {
             # check that the prev stanze is a term, has an id and validate that def is not empty

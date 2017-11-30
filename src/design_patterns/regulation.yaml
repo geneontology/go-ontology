@@ -1,0 +1,32 @@
+pattern_name: regulation
+
+classes:
+  Thing: owl:Thing
+  biological regulation: "GO:0065007"
+
+relations: 
+  regulates: "RO:0002211"
+
+vars:
+ entity: Thing
+ biological regulation: "'biological regulation'"
+
+name:
+     text: "regulation of %s"
+     vars:
+       - entity
+
+def:
+  text: "Any process that modulates the frequency, rate or extent of %s."
+  vars:
+     - entity
+
+equivalentTo:
+  text: " %s and 'regulates' some %s"
+  vars:
+    - 'biological regulation'
+    - entity
+
+    
+
+

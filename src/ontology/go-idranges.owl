@@ -118,3 +118,7 @@ Datatype: idrange:93
 Annotations: allocatedto: "TermGenie, historic"
 EquivalentTo: xsd:integer[>= GO:2000000 , <= GO:3000000]
 
+Datatype: idrange:22
+Annotations: allocatedto: "Barbara Kramarz"
+EquivalentTo: xsd:integer[>= GO:0150001 , <= GO:0160000]
+

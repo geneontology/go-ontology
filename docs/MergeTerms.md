@@ -1,7 +1,6 @@
 # Merging Ontology Terms
 
-
-See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-updating-with-git-pull) for creating branches and basic Protégé instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) for creating branches and basic Protégé instructions. 
 
 **Note** Before performing a merge, make sure that you know all of the consequences that the merge will cause. In particular, be sure to look at child terms and any other terms that refer to the ‘deprecated’ term. In many cases a simple merge of two terms is not sufficient because it will result in equivalent classes for child terms. For example if deprecated term X is going to be merged into target term Y and ‘regulation of X’ and ‘regulation of Y’ terms exist, then you will need to merge the regulation terms in addition to the primary terms. You will also need to edit any terms that refer to the deprecated term to be sure that the names and definitions are consistent.
 
@@ -43,4 +42,15 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html
 
 8. Save changes. 
 
-See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) section for commit, push and merge instructions. 
+
+----
+TROUBLESHOOTING: Travis/Jenkins errors
+1. **Merging a term that is used as 'replaced by' for an obsolete term**
+  ``` :: ERROR: ID-mentioned-twice:: GO:0030722
+       :: ERROR: ID-mentioned-twice:: GO:0048126 
+         GO:0030722 :: ERROR: has-definition: missing definition for id
+   ```
+The cause of this error is that Term A (GO:0048126) was obsoleted and had replace by Term B (GO:0030722). The GO editor tried to merge Term B into a third term term C (GO:0007312). The Jenkins checkk failed because 'Term A replaced by' was an alternative_id rather than by a main_id. 
+Solution: In the ontology, go to the obsolete term A and replace the Term B by term C to have a primary ID as the replace_by. 
+

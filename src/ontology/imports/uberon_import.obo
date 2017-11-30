@@ -1,7 +1,6 @@
 format-version: 1.2
-data-version: go/releases/2017-06-28/imports/uberon_import.owl
-ontology: go/imports/uberon_import
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000118>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000287>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000636>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000740>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000748>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_314146>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_314147>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_314295>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32443>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32523>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32524>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32525>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_376913>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_40674>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6073>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6231>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6656>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_7711>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_7742>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_8457>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_8782>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_89593>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9347>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9443>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000009>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000010>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000014>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000021>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000023>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000026>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000029>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000033>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000063>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000068>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000069>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000076>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000079>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000092>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000095>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000104>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000125>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000160>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000165>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000166>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000170>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000203>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000209>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000344>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000383>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000475>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000915>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000916>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000924>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000925>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000930>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000934>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000941>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000948>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000955>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000965>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000966>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000976>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000977>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000988>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000994>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001003>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001004>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001008>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001009>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001016>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001017>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001032>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001037>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001041>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001042>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001045>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001091>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001103>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001105>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001153>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001171>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001172>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001173>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001179>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001231>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001255>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001271>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001310>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001353>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001421>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001434>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001438>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001440>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001441>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001443>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001464>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001467>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001469>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001470>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001474>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001482>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001488>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001516>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001533>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001557>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001558>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001630>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001676>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001677>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001678>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001691>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001697>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001703>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001708>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001709>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001710>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001715>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001719>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001733>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001776>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001789>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001793>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001794>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001795>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001801>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001802>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001821>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001833>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001875>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001885>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001886>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001888>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001890>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001891>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001893>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001894>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001896>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001897>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001898>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001943>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001944>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001950>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001954>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001957>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001961>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001963>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001981>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002028>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002033>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002037>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002047>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002048>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002049>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002067>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002072>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002073>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002074>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002077>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002091>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002097>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002100>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002102>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002103>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002104>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002105>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002107>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002110>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002113>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002123>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002124>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002126>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002127>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002128>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002129>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002130>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002132>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002148>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002149>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002153>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002154>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002167>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002168>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002191>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002199>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002240>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002241>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002261>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002263>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002264>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002265>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002285>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002294>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002298>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002314>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002331>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002346>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002357>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002358>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002362>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002363>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002364>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002385>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002387>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002400>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002401>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002402>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002405>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002408>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002415>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002416>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002417>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002421>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002425>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002435>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002470>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002471>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002472>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002529>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002530>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002534>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002539>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002540>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002544>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002559>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002597>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002610>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002633>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002673>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002682>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002691>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002704>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002722>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002726>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002768>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002776>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002802>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002803>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002810>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002811>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002870>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002871>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002872>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002894>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002949>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002956>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002979>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003023>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003052>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003066>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003100>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003101>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003102>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003113>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003114>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003115>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003116>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003128>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003278>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003461>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003665>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003684>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003692>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003703>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003709>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003714>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003728>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003946>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0003988>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004088>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004117>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004172>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004173>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004187>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004220>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004221>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004239>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004288>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004300>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004339>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004340>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004362>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004456>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004467>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004475>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004476>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004582>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004647>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004757>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004758>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004864>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004869>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004873>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004874>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005022>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005051>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005079>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005176>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005184>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005283>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005381>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005428>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005497>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005613>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005622>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005872>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005873>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005874>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005875>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005879>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005969>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006206>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006211>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006235>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006264>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006435>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006440>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006514>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006660>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006670>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006849>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006861>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006866>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007122>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007123>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007124>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007125>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007142>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007143>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007272>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007273>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007376>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007379>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007414>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007641>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007651>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007702>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007719>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007798>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0007812>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008202>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008203>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008881>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008895>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008897>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0008947>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009128>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009210>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009213>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009551>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009768>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009778>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009877>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0009883>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010011>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010190>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010207>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010230>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010260>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010708>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010709>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010743>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010893>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011156>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011198>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011201>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011932>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0012125>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0012330>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0012367>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0012487>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0014283>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0014635>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0014699>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0014701>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0014765>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0014895>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0015165>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0016478>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0016884>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0016887>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0018144>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0018276>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0034730>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0035044>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0035639>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0035819>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0035820>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0035831>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0036072>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0036073>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0036150>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002170>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002387>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0000095> (<http://purl.obolibrary.org/obo/UBERON_0000095>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005428>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0000165> (<http://purl.obolibrary.org/obo/UBERON_0000165>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000165> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001004>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0000209> (<http://purl.obolibrary.org/obo/UBERON_0000209>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000209> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001697>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0000475> (<http://purl.obolibrary.org/obo/UBERON_0000475>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001009>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001015>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001016>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001434>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002416>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0000976> (<http://purl.obolibrary.org/obo/UBERON_0000976>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000976> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001470>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001032> (<http://purl.obolibrary.org/obo/UBERON_0001032>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001016>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001172> (<http://purl.obolibrary.org/obo/UBERON_0001172>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001172> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001171>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001172> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004647>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001310> (<http://purl.obolibrary.org/obo/UBERON_0001310>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002331>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001353> (<http://purl.obolibrary.org/obo/UBERON_0001353>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001353> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0006866>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001464> (<http://purl.obolibrary.org/obo/UBERON_0001464>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001464> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001271>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001467> (<http://purl.obolibrary.org/obo/UBERON_0001467>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001467> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001421>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001482> (<http://purl.obolibrary.org/obo/UBERON_0001482>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001482> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001467>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001488> (<http://purl.obolibrary.org/obo/UBERON_0001488>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001488> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002387>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001516> (<http://purl.obolibrary.org/obo/UBERON_0001516>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001516> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000916>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001533> (<http://purl.obolibrary.org/obo/UBERON_0001533>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001533> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000915>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001676> (<http://purl.obolibrary.org/obo/UBERON_0001676>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001676> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002241>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001676> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003113>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001677> (<http://purl.obolibrary.org/obo/UBERON_0001677>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001677> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002241>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001677> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003113>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001677> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008895>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001678> (<http://purl.obolibrary.org/obo/UBERON_0001678>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001678> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002241>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001678> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003113>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001678> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008895>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001708> (<http://purl.obolibrary.org/obo/UBERON_0001708>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001708> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008895>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001776> (<http://purl.obolibrary.org/obo/UBERON_0001776>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001776> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001802>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001789> (<http://purl.obolibrary.org/obo/UBERON_0001789>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001789> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CL_0000287>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001793> (<http://purl.obolibrary.org/obo/UBERON_0001793>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001793> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000941>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001794> (<http://purl.obolibrary.org/obo/UBERON_0001794>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001794> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CL_0000636>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001795> (<http://purl.obolibrary.org/obo/UBERON_0001795>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001795> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CL_0000740>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001795> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CL_0000748>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001875> (<http://purl.obolibrary.org/obo/UBERON_0001875>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001875> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002263>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001888> (<http://purl.obolibrary.org/obo/UBERON_0001888>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0001888> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002265> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002894>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001888> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002894>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001944> (<http://purl.obolibrary.org/obo/UBERON_0001944>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001944> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001891>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001944> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001894>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001961> (<http://purl.obolibrary.org/obo/UBERON_0001961>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001961> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000344>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0001963> (<http://purl.obolibrary.org/obo/UBERON_0001963>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001963> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001957>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0002028> (<http://purl.obolibrary.org/obo/UBERON_0002028>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002298>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0002073> (<http://purl.obolibrary.org/obo/UBERON_0002073>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002073> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001037>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0002091> (<http://purl.obolibrary.org/obo/UBERON_0002091>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002091> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000026>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0002107> (<http://purl.obolibrary.org/obo/UBERON_0002107>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002107> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002405>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0002241> (<http://purl.obolibrary.org/obo/UBERON_0002241>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002241> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001703>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0002265> (<http://purl.obolibrary.org/obo/UBERON_0002265>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0002265> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0007702> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002264>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002265> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002264>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0002364> (<http://purl.obolibrary.org/obo/UBERON_0002364>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002364> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001691>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0002540> (<http://purl.obolibrary.org/obo/UBERON_0002540>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000010>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0002768> (<http://purl.obolibrary.org/obo/UBERON_0002768>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002768> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001896>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002768> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002240>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0002949> (<http://purl.obolibrary.org/obo/UBERON_0002949>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002949> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001896>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002949> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002240>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0003052> (<http://purl.obolibrary.org/obo/UBERON_0003052>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0003052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0007651> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001891>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002028>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001891>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002028>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0003102> (<http://purl.obolibrary.org/obo/UBERON_0003102>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007376>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0003278> (<http://purl.obolibrary.org/obo/UBERON_0003278>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003278> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008895>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0003461> (<http://purl.obolibrary.org/obo/UBERON_0003461>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0003461> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001474> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0016884>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003461> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0016884>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0003665> (<http://purl.obolibrary.org/obo/UBERON_0003665>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003665> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007812>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0003709> (<http://purl.obolibrary.org/obo/UBERON_0003709>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003709> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007142>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003709> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007143>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0003988> (<http://purl.obolibrary.org/obo/UBERON_0003988>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0003988> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0007651> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002123>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002124>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003988> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002123>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0003988> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002124>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0004117> (<http://purl.obolibrary.org/obo/UBERON_0004117>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004117> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002539>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0004172> (<http://purl.obolibrary.org/obo/UBERON_0004172>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004172> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000988>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004172> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002240>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0004173> (<http://purl.obolibrary.org/obo/UBERON_0004173>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004173> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001896>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004173> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002240>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0004220> (<http://purl.obolibrary.org/obo/UBERON_0004220>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0011198>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0004221> (<http://purl.obolibrary.org/obo/UBERON_0004221>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004221> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0012367>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0004239> (<http://purl.obolibrary.org/obo/UBERON_0004239>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004239> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0011201>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0004339> (<http://purl.obolibrary.org/obo/UBERON_0004339>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004339> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003113>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0004340> (<http://purl.obolibrary.org/obo/UBERON_0004340>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004340> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001008>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0004456> (<http://purl.obolibrary.org/obo/UBERON_0004456>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004456> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001016>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0004467> (<http://purl.obolibrary.org/obo/UBERON_0004467>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004467> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001042>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0004475> (<http://purl.obolibrary.org/obo/UBERON_0004475>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004475> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001464>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0004476> (<http://purl.obolibrary.org/obo/UBERON_0004476>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004476> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001467>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0004873> (<http://purl.obolibrary.org/obo/UBERON_0004873>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004873> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000925>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0004874> (<http://purl.obolibrary.org/obo/UBERON_0004874>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004874> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000924>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0005051> (<http://purl.obolibrary.org/obo/UBERON_0005051>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003728>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0005283> (<http://purl.obolibrary.org/obo/UBERON_0005283>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005283> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001886>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005283> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010743>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0005381> (<http://purl.obolibrary.org/obo/UBERON_0005381>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005381> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/CL_0000118>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0005872> (<http://purl.obolibrary.org/obo/UBERON_0005872>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0005872> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0005879> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003066>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004362>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005872> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003066>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005872> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004362>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0005873> (<http://purl.obolibrary.org/obo/UBERON_0005873>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0005873> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0005879> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003066>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003114>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005873> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003066>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005873> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003114>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0005874> (<http://purl.obolibrary.org/obo/UBERON_0005874>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0005874> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0005879> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003114>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003115>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005874> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003114>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005874> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003115>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0005875> (<http://purl.obolibrary.org/obo/UBERON_0005875>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0005875> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0005879> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003115>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003116>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005875> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003115>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005875> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003116>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0005879> (<http://purl.obolibrary.org/obo/UBERON_0005879>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005879> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002539>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0005969> (<http://purl.obolibrary.org/obo/UBERON_0005969>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005969> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0006206>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0006211> (<http://purl.obolibrary.org/obo/UBERON_0006211>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006211> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000930>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006211> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001042>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0006235> (<http://purl.obolibrary.org/obo/UBERON_0006235>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0006235> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0007651> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001041>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001045>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006235> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001041>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006235> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001045>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0006264> (<http://purl.obolibrary.org/obo/UBERON_0006264>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0006264> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0007651> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000165>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001041>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006264> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000165>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006264> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001041>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0007122> (<http://purl.obolibrary.org/obo/UBERON_0007122>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0007122> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0004117> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003066>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004362>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003066>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004362>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0007123> (<http://purl.obolibrary.org/obo/UBERON_0007123>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0007123> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0004117> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003066>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003114>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007123> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003066>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007123> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003114>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0007124> (<http://purl.obolibrary.org/obo/UBERON_0007124>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0007124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0004117> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003114>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003115>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007124> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003114>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007124> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003115>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0007125> (<http://purl.obolibrary.org/obo/UBERON_0007125>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0007125> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0004117> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003115>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003116>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007125> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003115>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007125> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003116>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0007414> (<http://purl.obolibrary.org/obo/UBERON_0007414>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0007414> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000125> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001943>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007414> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001943>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0007641> (<http://purl.obolibrary.org/obo/UBERON_0007641>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0007641> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003023>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0008202> (<http://purl.obolibrary.org/obo/UBERON_0008202>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0008202> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001464>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0008881> (<http://purl.obolibrary.org/obo/UBERON_0008881>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0008881> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002285>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0009210> (<http://purl.obolibrary.org/obo/UBERON_0009210>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009210> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004117>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009210> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005879>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0009213> (<http://purl.obolibrary.org/obo/UBERON_0009213>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009213> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005872>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009213> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007122>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0009551> (<http://purl.obolibrary.org/obo/UBERON_0009551>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0009551> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002529> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002544>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/UBERON_0004300>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0009768>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009551> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0009768>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0009883> (<http://purl.obolibrary.org/obo/UBERON_0009883>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0009883> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001231>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0010011> (<http://purl.obolibrary.org/obo/UBERON_0010011>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001891>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001893>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0010260> (<http://purl.obolibrary.org/obo/UBERON_0010260>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0010260> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001981> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002331>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010260> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002331>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0012330> (<http://purl.obolibrary.org/obo/UBERON_0012330>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0012330> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005022>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0014635> (<http://purl.obolibrary.org/obo/UBERON_0014635>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0014635> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002261> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002726>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014635> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002726>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0014699> (<http://purl.obolibrary.org/obo/UBERON_0014699>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0014699> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0004582> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0016887>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002331>))))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0014701> (<http://purl.obolibrary.org/obo/UBERON_0014701>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0014701> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0007798> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0016887>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002331>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0014701> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002331>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0034730> (<http://purl.obolibrary.org/obo/UBERON_0034730>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0034730> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002265> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000203>))))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0034730> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000203>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0035044> (<http://purl.obolibrary.org/obo/UBERON_0035044>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0035044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0014283>)))\n\n# Class: <http://purl.obolibrary.org/obo/UBERON_0036150> (<http://purl.obolibrary.org/obo/UBERON_0036150>)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/UBERON_0036150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000014>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001003>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002067>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002387> <http://purl.obolibrary.org/obo/UBERON_0000021>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0036150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001003>)))\nSubClassOf(<http://purl.obolibrary.org/obo/UBERON_0036150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002067>)))\n\n# Class: owl:Nothing (owl:Nothing)\n\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_314147>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_6231>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8457>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9443>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_32443>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_32524>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000934> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_7711>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000966> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_6656>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_6073>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001091> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8782>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001103> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8782>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001153> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_32443>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001255> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8782>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001733> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8782>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001833> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8782>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_32443>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002130> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_32443>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002363> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_32443>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002415> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002534> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_32523>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002540> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_32524>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0003946> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0004187> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9443>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0004187> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0004757> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_32523>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0004758> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_40674>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0004864> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8782>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0004869> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_40674>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0004869> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8782>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0005079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_32525>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0005176> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8782>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0006435> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0006440> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0007379> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_32525>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0007719> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0007812> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_314295>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0008897> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_314146>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0008897> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8782>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0009128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_32524>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0010207> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_376913>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0010893> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_314146>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0012487> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0014895> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_7742>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0015165> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_7742>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0018144> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_32525>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0018276> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9347>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000009>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000344>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000009>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0006660>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000010>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001017>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000026>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000915>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000026>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002100>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000033>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000915>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000033>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000948>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000033>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002100>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000076>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002346>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000079>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000994>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000160>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002113>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000383>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004288>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000915>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002417>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000916>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001443>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000955>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002240>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000965>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002049>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001015>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001474>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001016>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001434>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001173>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002110>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001271>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001421>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001434>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002530>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001438>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0006861>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001440>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001441>))))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001474>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001630>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001474>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002385>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001557>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001558>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001709>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001710>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001715>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001944>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001715>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002691>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001715>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002722>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001719>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002127>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001719>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002154>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001719>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002559>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001719>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002673>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001719>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002870>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001719>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002871>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001719>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002872>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001801>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001802>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001885>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001954>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001890>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002298>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001891>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001894>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001891>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002028>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001893>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002037>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001894>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002028>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001897>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001898>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001944>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002691>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001944>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002722>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001950>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002264>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002037>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002298>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002047>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002148>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002049>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002362>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002102>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002103>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002104>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002105>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002107>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003703>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002126>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002610>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002127>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002154>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002127>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002559>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002127>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002673>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002127>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002870>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002127>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002871>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002127>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002872>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002128>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002597>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002129>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002130>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002132>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002153>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002149>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002633>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002149>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002682>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002154>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002673>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002154>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002870>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002154>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002871>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002154>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002872>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002264>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002421>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002294>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0016478>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002298>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002314>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002346>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005497>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002385>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003714>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002435>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0006514>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002470>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002472>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002471>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002472>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002544>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0009877>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002559>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002673>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002559>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002870>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002559>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002871>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002559>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002872>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002633>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002682>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002673>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002870>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002673>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002871>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002673>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002872>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002691>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002722>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002704>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002776>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002802>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002803>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002810>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002811>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002870>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002871>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002870>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002872>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002871>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002872>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002956>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002979>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003100>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003101>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003128>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003278>)))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007272>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0007273>))))\nEquivalentClasses(owl:Nothing ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010708>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010709>)))\n\n\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000009>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000344>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002072>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002097>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0012125>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000010>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001017>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001016>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000068>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000092>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000104>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000977>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002402>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0009778>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001179>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002358>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0035820>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001821>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002033>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002073>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0011932>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001885>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001954>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002191>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002421>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002072>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002097>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002199>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002077>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005184>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002074>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000170>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002400>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002401>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000977>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002408>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002425>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002357>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003684>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008203>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0035819>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005613>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005622>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010190>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0006670>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0014765>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0035831>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001103>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010230>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0035639>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0004088>))\nEquivalentClasses(ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0036072>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0036073>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008947>))\nSubClassOf(ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000166> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_32523>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001004>)))\nSubClassOf(ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001105> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_32523>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001469>)))\nSubClassOf(ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0006849> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_32523>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001470>)))\nSubClassOf(ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0006849> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_32523>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003692>)))\nSubClassOf(ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0008895> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_89593>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0011156>)))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000009>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000344>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002072>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002097>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000010>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001017>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000068>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000092>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000977>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002402>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001179>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002358>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001821>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002033>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002073>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001885>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001954>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002191>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002072>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002097>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002077>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005184>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002167>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002168>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002400>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002401>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002408>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002425>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0003684>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0008203>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005613>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0005622>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0006670>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0014765>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0035831>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0010230>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0035639>))\nDisjointClasses(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0036072>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0036073>))\n)
+data-version: go/releases/2017-11-03/imports/uberon_import.owl
+ontology: go/imports/uberon_import_pre
 
 [Term]
 id: BFO:0000004
@@ -989,6 +988,7 @@ intersection_of: composed_primarily_of UBERON:0001744 ! lymphoid tissue
 intersection_of: continuous_with UBERON:0001473 ! lymphatic vessel
 relationship: composed_primarily_of UBERON:0001744 ! lymphoid tissue
 relationship: continuous_with UBERON:0001473 ! lymphatic vessel
+relationship: develops_from UBERON:0034953 ! embryonic lymph sac
 relationship: has_part UBERON:0002006 ! cortex of lymph node
 relationship: has_part UBERON:0002007 ! medulla of lymph node
 relationship: has_part UBERON:0002194 ! capsule of lymph node
@@ -1116,6 +1116,8 @@ synonym: "ovary follicle fluid" EXACT []
 synonym: "ovary follicular fluid" RELATED []
 is_a: UBERON:0000463 ! organism substance
 relationship: has_part CHEBI:17089
+relationship: has_part UBERON:0000456 ! secretion of exocrine gland
+relationship: has_part UBERON:0007779 ! transudate
 relationship: located_in UBERON:0000039 ! follicular antrum
 relationship: part_of UBERON:0001305 ! ovarian follicle
 relationship: surrounds CL:0000025
@@ -1614,7 +1616,7 @@ synonym: "zona striata" RELATED []
 is_a: UBERON:0000476 ! acellular anatomical structure
 relationship: bounding_layer_of CL:0000023
 relationship: has_part CHEBI:17089
-relationship: part_of UBERON:0000992 ! female gonad
+relationship: part_of UBERON:0000992 ! ovary
 
 [Term]
 id: UBERON:0000087
@@ -2254,8 +2256,8 @@ is_a: UBERON:0000179 ! haemolymphatic fluid
 relationship: has_part CL:0000232
 relationship: has_part UBERON:0001969 ! blood plasma
 relationship: immediate_transformation_of UBERON:0006596 ! presumptive blood
+relationship: located_in UBERON:0002049 ! vasculature
 relationship: part_of UBERON:0002390 ! hematopoietic system
-relationship: part_of UBERON:0004535 ! cardiovascular system
 
 [Term]
 id: UBERON:0000179
@@ -2590,8 +2592,8 @@ def: "Pancreatic juice is slightly alkaline and contains numerous enzymes and in
 synonym: "pancreatic fluid" RELATED []
 synonym: "pancreatic secretion" RELATED []
 synonym: "succus pancreaticus" RELATED []
-is_a: UBERON:0000456 ! bodily secretion
-intersection_of: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: produced_by UBERON:0001264 ! pancreas
 relationship: produced_by UBERON:0001264 ! pancreas
 
@@ -2661,7 +2663,7 @@ synonym: "mucous membrane of bowel gland" EXACT []
 synonym: "mucous membrane of intestine gland" EXACT []
 synonym: "organ mucosa of bowel gland" EXACT []
 synonym: "organ mucosa of intestine gland" EXACT []
-is_a: UBERON:0003408 ! gland of gut
+is_a: UBERON:0003408 ! gland of digestive tract
 intersection_of: UBERON:0002530 ! gland
 intersection_of: part_of UBERON:0001242 ! intestinal mucosa
 relationship: part_of UBERON:0001242 ! intestinal mucosa
@@ -3077,7 +3079,7 @@ is_a: UBERON:0002365 ! exocrine gland
 intersection_of: UBERON:0002365 ! exocrine gland
 intersection_of: has_part CL:0000313
 relationship: has_part UBERON:0013232 ! serous acinus
-relationship: produces UBERON:0007794 ! serous fluid
+relationship: produces UBERON:0007794 ! secretion of serous gland
 
 [Term]
 id: UBERON:0000410
@@ -3253,8 +3255,9 @@ relationship: part_of UBERON:0000955 ! brain
 
 [Term]
 id: UBERON:0000456
-name: bodily secretion
+name: secretion of exocrine gland
 def: "A portion of organism substance that is produced by exocrine glands." []
+synonym: "bodily secretion" EXACT []
 synonym: "exocrine gland fluid" RELATED []
 synonym: "exocrine gland fluid or secretion" RELATED []
 synonym: "exocrine gland fluid/secretion" EXACT []
@@ -3367,9 +3370,9 @@ synonym: "animal" NARROW []
 synonym: "body" RELATED []
 synonym: "Koerper" RELATED []
 synonym: "multi-cellular organism" EXACT []
-synonym: "organism" EXACT []
+synonym: "organism" BROAD []
 synonym: "whole body" RELATED []
-synonym: "whole organism" EXACT []
+synonym: "whole organism" RELATED []
 is_a: UBERON:0010000 ! multicellular anatomical structure
 
 [Term]
@@ -3395,7 +3398,7 @@ is_a: UBERON:0000991 ! gonad
 is_a: UBERON:0003135 ! male reproductive organ
 intersection_of: UBERON:0000991 ! gonad
 intersection_of: part_of UBERON:0000079 ! male reproductive system
-disjoint_from: UBERON:0000992 ! female gonad
+disjoint_from: UBERON:0000992 ! ovary
 disjoint_from: UBERON:0009117 ! indifferent gonad
 relationship: develops_from UBERON:0009117 ! indifferent gonad
 relationship: in_lateral_side_of UBERON:0000468 {gci_relation="part_of", gci_filler="NCBITaxon:7742"} ! multicellular organism
@@ -3567,7 +3570,7 @@ is_a: UBERON:0000483 ! epithelium
 id: UBERON:0000912
 name: mucus
 def: "Mucus is a bodily fluid consisting of a slippery secretion of the lining of the mucous membranes in the body. It is a viscous colloid containing antiseptic enzymes (such as lysozyme) and immunoglobulins. Mucus is produced by goblet cells in the mucous membranes that cover the surfaces of the membranes. It is made up of mucins and inorganic salts suspended in water." []
-is_a: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
 is_a: UBERON:0006314 ! bodily fluid
 relationship: has_part CHEBI:37395
 relationship: has_quality PATO:0000998
@@ -3581,6 +3584,7 @@ synonym: "intercellular fluid" EXACT []
 synonym: "tissue fluid" EXACT []
 is_a: UBERON:0000463 ! organism substance
 relationship: only_in_taxon NCBITaxon:6072
+relationship: part_of UBERON:0000479 ! tissue
 relationship: surrounds GO:0005623
 
 [Term]
@@ -4414,8 +4418,10 @@ relationship: has_part CL:0000586
 
 [Term]
 id: UBERON:0000992
-name: female gonad
+name: ovary
 def: "the gonad of a female organism which contains germ cells" []
+synonym: "animal ovary" EXACT []
+synonym: "female gonad" EXACT []
 synonym: "female organism genitalia gonad" EXACT []
 synonym: "female organism genitalia gonada" EXACT []
 synonym: "female organism reproductive system gonad" EXACT []
@@ -4436,7 +4442,6 @@ synonym: "gonada of genitalia of female organism" EXACT []
 synonym: "gonada of reproductive system of female organism" EXACT []
 synonym: "ovaries" RELATED []
 synonym: "ovarium" RELATED []
-synonym: "ovary" EXACT []
 synonym: "ovum-producing ovary" EXACT []
 synonym: "reproductive system of female organism gonad" EXACT []
 synonym: "reproductive system of female organism gonada" EXACT []
@@ -4463,7 +4468,7 @@ synonym: "tubular parts of female reproductive system" RELATED []
 synonym: "uterine tube" EXACT []
 is_a: UBERON:0000025 ! tube
 is_a: UBERON:0005156 ! reproductive structure
-relationship: connects UBERON:0000992 ! female gonad
+relationship: connects UBERON:0000992 ! ovary
 relationship: connects UBERON:0013514 ! space surrounding organism
 relationship: only_in_taxon NCBITaxon:6072
 relationship: part_of UBERON:0000474 ! female reproductive system
@@ -4862,6 +4867,12 @@ is_a: UBERON:0000122 ! neuron projection bundle
 relationship: has_developmental_contribution_from UBERON:0002342 {gci_relation="part_of", gci_filler="NCBITaxon:7742"} ! neural crest
 relationship: has_quality PATO:0002045
 relationship: part_of UBERON:0000010 ! peripheral nervous system
+
+[Term]
+id: UBERON:0001023
+name: obsolete dendrite
+def: "The region of a neuron receiving inputs from other neurons, typically a slender neurite, often branched. In insect neurons, this is often not a clear designation and often presynaptic sites co-extend with postsynaptic ones." []
+is_obsolete: true
 
 [Term]
 id: UBERON:0001027
@@ -5291,8 +5302,8 @@ relationship: part_of UBERON:0002100 ! trunk
 id: UBERON:0001087
 name: pleural fluid
 def: "Transudate contained in the pleural cavity." []
-is_a: UBERON:0007794 ! serous fluid
-intersection_of: UBERON:0000463 ! organism substance
+is_a: UBERON:0036244 ! secretion of serous membrane
+intersection_of: UBERON:0007779 ! transudate
 intersection_of: located_in UBERON:0002402 ! pleural cavity
 relationship: located_in UBERON:0002402 ! pleural cavity
 
@@ -5310,21 +5321,24 @@ id: UBERON:0001089
 name: sweat
 def: "Secretion produced by a sweat gland." []
 synonym: "skin exudate" RELATED []
-is_a: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
 is_a: UBERON:0006314 ! bodily fluid
-intersection_of: UBERON:0000456 ! bodily secretion
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: produced_by UBERON:0001820 ! sweat gland
 relationship: produced_by UBERON:0001820 ! sweat gland
 
 [Term]
 id: UBERON:0001090
 name: synovial fluid
-def: "Transudate contained in the synovial cavity of joints, and in the cavity of tendon sheaths and bursae." []
+def: "Joint fluid is a transudate of plasma that is actively secreted by synovial cells." []
 synonym: "joint fluid" EXACT []
-is_a: UBERON:0007794 ! serous fluid
-intersection_of: UBERON:0000463 ! organism substance
-intersection_of: located_in UBERON:0007617 ! synovial cavity of joint
+is_a: UBERON:0007779 ! transudate
+is_a: UBERON:0007794 ! secretion of serous gland
+intersection_of: UBERON:0007779 ! transudate
+intersection_of: produced_by CL:0000214
+relationship: has_part CHEBI:16336
 relationship: located_in UBERON:0007617 ! synovial cavity of joint
+relationship: produced_by CL:0000214
 
 [Term]
 id: UBERON:0001091
@@ -5810,8 +5824,8 @@ synonym: "vena ovarica sinistra" RELATED []
 is_a: UBERON:0001638 ! vein
 is_a: UBERON:0015212 ! lateral structure
 intersection_of: UBERON:0001638 ! vein
-intersection_of: drains UBERON:0000992 ! female gonad
-relationship: drains UBERON:0000992 ! female gonad
+intersection_of: drains UBERON:0000992 ! ovary
+relationship: drains UBERON:0000992 ! ovary
 relationship: in_lateral_side_of UBERON:0000468 ! multicellular organism
 
 [Term]
@@ -6240,8 +6254,8 @@ synonym: "arteria ovarica" RELATED []
 synonym: "ovarian arterial tree" EXACT []
 is_a: UBERON:0001637 ! artery
 intersection_of: UBERON:0001637 ! artery
-intersection_of: supplies UBERON:0000992 ! female gonad
-relationship: supplies UBERON:0000992 ! female gonad
+intersection_of: supplies UBERON:0000992 ! ovary
+relationship: supplies UBERON:0000992 ! ovary
 
 [Term]
 id: UBERON:0001191
@@ -6529,7 +6543,7 @@ synonym: "glandula duodenales" RELATED []
 synonym: "glandula duodenales Brunneri" RELATED []
 synonym: "submucosal gland of duodenum" EXACT []
 is_a: UBERON:0000414 ! mucous gland
-is_a: UBERON:0003408 ! gland of gut
+is_a: UBERON:0003408 ! gland of digestive tract
 is_a: UBERON:0011148 ! submucosal gland
 intersection_of: UBERON:0011148 ! submucosal gland
 intersection_of: part_of UBERON:0002114 ! duodenum
@@ -7163,8 +7177,9 @@ relationship: part_of UBERON:1000024 ! parenchyma of spleen
 id: UBERON:0001268
 name: peritoneal fluid
 def: "Transudate contained in the peritoneal cavity." []
-is_a: UBERON:0007794 ! serous fluid
-intersection_of: UBERON:0000463 ! organism substance
+is_a: UBERON:0007779 ! transudate
+is_a: UBERON:0007794 ! secretion of serous gland
+intersection_of: UBERON:0007779 ! transudate
 intersection_of: located_in UBERON:0001179 ! peritoneal cavity
 relationship: located_in UBERON:0001179 ! peritoneal cavity
 
@@ -7286,7 +7301,6 @@ is_a: UBERON:0004119 ! endoderm-derived structure
 intersection_of: UBERON:0000353 ! parenchyma
 intersection_of: part_of UBERON:0002107 ! liver
 relationship: contributes_to_morphology_of UBERON:0002107 ! liver
-relationship: develops_from UBERON:0005171 ! hepatic duct
 relationship: develops_from UBERON:0008835 ! hepatic diverticulum
 relationship: part_of UBERON:0002107 ! liver
 
@@ -7615,7 +7629,7 @@ relationship: develops_from UBERON:0005296 ! ovary sex cord
 relationship: has_part CL:0000023
 relationship: has_part CL:0002174
 relationship: has_part UBERON:0000038 ! follicular fluid
-relationship: part_of UBERON:0000992 ! female gonad
+relationship: part_of UBERON:0000992 ! ovary
 
 [Term]
 id: UBERON:0001306
@@ -7638,8 +7652,8 @@ synonym: "ovary capsule" EXACT []
 is_a: UBERON:0003893 ! capsule
 is_a: UBERON:0005156 ! reproductive structure
 intersection_of: UBERON:0003893 ! capsule
-intersection_of: bounding_layer_of UBERON:0000992 ! female gonad
-relationship: bounding_layer_of UBERON:0000992 ! female gonad
+intersection_of: bounding_layer_of UBERON:0000992 ! ovary
+relationship: bounding_layer_of UBERON:0000992 ! ovary
 
 [Term]
 id: UBERON:0001308
@@ -7795,7 +7809,7 @@ relationship: part_of UBERON:0000057 ! urethra
 [Term]
 id: UBERON:0001343
 name: seminiferous tubule of testis
-def: "the tubules in the testes where spermatogenesis occurs" []
+def: "The tubules in the testes where spermatogenesis occurs." []
 synonym: "seminiferous cord" EXACT []
 synonym: "seminiferous tubule" EXACT []
 synonym: "testis - seminiferous tubule" EXACT []
@@ -7804,7 +7818,7 @@ synonym: "tubuli seminiferi" RELATED []
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0005904 ! duct of male reproductive system
 relationship: channel_for CL:0000019
-relationship: channels_into UBERON:0003959 ! rete testis
+relationship: channels_into UBERON:0003959 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! rete testis
 relationship: contains_process GO:0007126
 relationship: contains_process GO:0007283
 relationship: develops_from UBERON:0005297 ! testis sex cord
@@ -7845,6 +7859,7 @@ id: UBERON:0001348
 name: brown adipose tissue
 def: "A thermogenic form of adipose tissue that is composed of brown adipocytes[MP,modified]" []
 synonym: "adipocytus multigutturalis" EXACT []
+synonym: "BAT" RELATED []
 synonym: "brown fat" EXACT []
 synonym: "multilocular adipose tissue" EXACT []
 synonym: "textus adiposus fuscus" EXACT []
@@ -7852,6 +7867,7 @@ synonym: "textus adiposus fuscus" RELATED []
 is_a: UBERON:0001013 ! adipose tissue
 intersection_of: UBERON:0001013 ! adipose tissue
 intersection_of: composed_primarily_of CL:0000449
+relationship: capable_of GO:1990845
 relationship: composed_primarily_of CL:0000449
 
 [Term]
@@ -7915,8 +7931,9 @@ synonym: "cerebral spinal fluid" EXACT []
 synonym: "CSF" EXACT []
 synonym: "liquor cerebrospinalis" RELATED []
 synonym: "spinal fluid" RELATED []
-is_a: UBERON:0007779 ! transduate
+is_a: UBERON:0007779 ! transudate
 relationship: develops_from UBERON:0002307 ! choroid plexus of lateral ventricle
+relationship: filtered_through UBERON:0001886 ! choroid plexus
 relationship: located_in UBERON:0005281 ! ventricular system of central nervous system
 
 [Term]
@@ -11743,8 +11760,8 @@ synonym: "lacrimal secretion" EXACT []
 synonym: "tear" EXACT []
 synonym: "tear fluid" RELATED []
 synonym: "tears" EXACT []
-is_a: UBERON:0000456 ! bodily secretion
-intersection_of: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: produced_by UBERON:0001817 ! lacrimal gland
 relationship: has_part PR:000009978
 relationship: produced_by UBERON:0001817 ! lacrimal gland
@@ -11817,7 +11834,7 @@ synonym: "sailva normalis" RELATED []
 synonym: "saliva atomaris" RELATED []
 synonym: "saliva molecularis" RELATED []
 synonym: "salivary gland secretion" EXACT []
-is_a: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
 relationship: capable_of_part_of GO:0007586
 
 [Term]
@@ -11975,8 +11992,8 @@ relationship: part_of UBERON:0001849 ! membranous labyrinth
 id: UBERON:0001866
 name: sebum
 def: "Fatty lubricant matter secreted by sebaceous glands, and made of made of triglyceride oils, wax, squalene, and metabolytes of fat-producing cells[BTO,WP]." []
-is_a: UBERON:0000456 ! bodily secretion
-intersection_of: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: produced_by UBERON:0001821 ! sebaceous gland
 relationship: has_part CHEBI:15440
 relationship: produced_by UBERON:0001821 ! sebaceous gland
@@ -12993,9 +13010,9 @@ name: bile
 def: "vital aqueous secretion of the liver that is formed by hepatocytes and modified down stream by absorptive and secretory properties of the bile duct epithelium." []
 synonym: "fel" RELATED []
 synonym: "gall" RELATED []
-is_a: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
 is_a: UBERON:0006314 ! bodily fluid
-intersection_of: UBERON:0000456 ! bodily secretion
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: produced_by UBERON:0002107 ! liver
 relationship: capable_of_part_of GO:0007586
 relationship: has_part CHEBI:16990
@@ -13010,8 +13027,8 @@ name: gastric juice
 def: "." []
 synonym: "stomach secretion" EXACT []
 synonym: "succus gastricus" RELATED []
-is_a: UBERON:0000456 ! bodily secretion
-intersection_of: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: produced_by UBERON:0011953 ! stomach glandular region
 relationship: produced_by UBERON:0011953 ! stomach glandular region
 
@@ -13111,6 +13128,16 @@ relationship: contributes_to_morphology_of UBERON:0001043 ! esophagus
 relationship: part_of UBERON:0002469 ! esophagus mucosa
 
 [Term]
+id: UBERON:0001978
+name: parenchyma of pancreas
+synonym: "pancreas parenchyma" EXACT []
+synonym: "pancreatic parenchyma" EXACT []
+is_a: UBERON:0000353 ! parenchyma
+intersection_of: UBERON:0000353 ! parenchyma
+intersection_of: part_of UBERON:0001264 ! pancreas
+relationship: part_of UBERON:0001264 ! pancreas
+
+[Term]
 id: UBERON:0001979
 name: venule
 def: "One of the minute vessels that collect deoxygenated blood from the capillary plexuses returns it to the veins" []
@@ -13206,7 +13233,7 @@ is_a: UBERON:0005156 ! reproductive structure
 relationship: develops_from UBERON:0000995 ! uterus
 relationship: develops_from UBERON:0003124 ! chorion
 relationship: develops_from UBERON:0004340 ! allantois
-relationship: only_in_taxon NCBITaxon:9347
+relationship: only_in_taxon NCBITaxon:32525
 relationship: part_of UBERON:0000474 ! female reproductive system
 relationship: part_of UBERON:0016887 ! entire extraembryonic component
 
@@ -14352,7 +14379,7 @@ synonym: "jecur" RELATED []
 is_a: UBERON:0002365 ! exocrine gland
 is_a: UBERON:0004119 ! endoderm-derived structure
 is_a: UBERON:0005172 ! abdomen element
-is_a: UBERON:0006925 ! digestive gland
+is_a: UBERON:0006925 ! digestive system gland
 relationship: contributes_to_morphology_of UBERON:0002423 ! hepatobiliary system
 relationship: develops_from UBERON:0003894 ! liver primordium
 relationship: develops_from UBERON:0004161 ! septum transversum
@@ -14495,9 +14522,9 @@ relationship: proximalmost_part_of UBERON:0002108 ! small intestine
 id: UBERON:0002118
 name: right ovary
 def: "An ovary that is part of a right side of organism [Automatically generated definition]." []
-is_a: UBERON:0000992 ! female gonad
+is_a: UBERON:0000992 ! ovary
 is_a: UBERON:0015212 ! lateral structure
-intersection_of: UBERON:0000992 ! female gonad
+intersection_of: UBERON:0000992 ! ovary
 intersection_of: in_right_side_of UBERON:0000468 ! multicellular organism
 relationship: in_right_side_of UBERON:0000468 ! multicellular organism
 
@@ -14505,9 +14532,9 @@ relationship: in_right_side_of UBERON:0000468 ! multicellular organism
 id: UBERON:0002119
 name: left ovary
 def: "An ovary that is part of a left side of organism [Automatically generated definition]." []
-is_a: UBERON:0000992 ! female gonad
+is_a: UBERON:0000992 ! ovary
 is_a: UBERON:0015212 ! lateral structure
-intersection_of: UBERON:0000992 ! female gonad
+intersection_of: UBERON:0000992 ! ovary
 intersection_of: in_left_side_of UBERON:0000468 ! multicellular organism
 relationship: in_left_side_of UBERON:0000468 ! multicellular organism
 
@@ -16861,10 +16888,11 @@ relationship: part_of UBERON:0002193 ! hemolymphoid system
 [Term]
 id: UBERON:0002391
 name: lymph
-def: "Lymph is the fluid that is formed when interstitial fluid enters the conduits of the lymphatic system[WP]." []
+def: "Lymph is the fluid that is formed when interstitial fluid enters the conduits of the lymphatic system through lymph capillaries[WP]." []
 synonym: "lympha" RELATED []
 is_a: UBERON:0000179 ! haemolymphatic fluid
-relationship: develops_from UBERON:0000913 ! interstitial fluid
+relationship: part_of UBERON:0006558 ! lymphatic part of lymphoid system
+relationship: transformation_of UBERON:0000913 ! interstitial fluid
 
 [Term]
 id: UBERON:0002394
@@ -17028,7 +17056,7 @@ relationship: part_of UBERON:0002357 ! serous pericardium
 id: UBERON:0002409
 name: pericardial fluid
 def: "Transudate contained in the pericardial cavity.[FMA]" []
-is_a: UBERON:0007794 ! serous fluid
+is_a: UBERON:0007794 ! secretion of serous gland
 intersection_of: UBERON:0000463 ! organism substance
 intersection_of: produced_by UBERON:0002425 ! visceral serous pericardium
 relationship: located_in UBERON:0001074 ! pericardial cavity
@@ -17547,8 +17575,8 @@ def: "Clear to pale yellow watery secretions from the glands lining the small in
 synonym: "intestinal juice" RELATED []
 synonym: "intestinal secretion" EXACT []
 synonym: "succus entericus" EXACT []
-is_a: UBERON:0000456 ! bodily secretion
-intersection_of: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: produced_by UBERON:0000160 ! intestine
 relationship: produced_by UBERON:0000160 ! intestine
 
@@ -18662,6 +18690,7 @@ synonym: "tractus pyramidalis" EXACT []
 is_a: UBERON:0001018 ! axon tract
 relationship: part_of UBERON:0002316 ! white matter
 relationship: part_of UBERON:0025525 ! motor system
+relationship: part_of UBERON:0036224 ! corticobulbar and corticospinal tracts
 
 [Term]
 id: UBERON:0002714
@@ -20535,8 +20564,8 @@ name: ovary septum
 def: "Septum that divides the ovary, the basal portion of a carpel or group of fused carpels, that encloses the ovule(s)[GO]." []
 is_a: UBERON:0003037 ! septum
 intersection_of: UBERON:0003037 ! septum
-intersection_of: part_of UBERON:0000992 ! female gonad
-relationship: part_of UBERON:0000992 ! female gonad
+intersection_of: part_of UBERON:0000992 ! ovary
+relationship: part_of UBERON:0000992 ! ovary
 
 [Term]
 id: UBERON:0003220
@@ -21115,7 +21144,7 @@ id: UBERON:0003294
 name: gland of foregut
 def: "A gland that is part of a foregut [Automatically generated definition]." []
 synonym: "foregut gland" EXACT []
-is_a: UBERON:0003408 ! gland of gut
+is_a: UBERON:0003408 ! gland of digestive tract
 intersection_of: UBERON:0002530 ! gland
 intersection_of: part_of UBERON:0001041 ! foregut
 relationship: part_of UBERON:0001041 ! foregut
@@ -21126,7 +21155,8 @@ name: pharyngeal gland
 def: "Racemose mucous glands beneath the mucous membrane of the pharynx." []
 synonym: "glandulae pharyngeae" RELATED []
 synonym: "pharynx gland" EXACT []
-is_a: UBERON:0003408 ! gland of gut
+is_a: UBERON:0003408 ! gland of digestive tract
+is_a: UBERON:0036225 ! respiratory system gland
 intersection_of: UBERON:0002530 ! gland
 intersection_of: part_of UBERON:0001042 ! chordate pharynx
 relationship: part_of UBERON:0001042 ! chordate pharynx
@@ -21461,8 +21491,8 @@ synonym: "mesenchyme of gonada of female reproductive system" EXACT []
 synonym: "ovary mesenchyme" EXACT []
 is_a: UBERON:0003855 ! gonad mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
-intersection_of: part_of UBERON:0000992 ! female gonad
-relationship: part_of UBERON:0000992 ! female gonad
+intersection_of: part_of UBERON:0000992 ! ovary
+relationship: part_of UBERON:0000992 ! ovary
 
 [Term]
 id: UBERON:0003316
@@ -22337,7 +22367,7 @@ relationship: part_of UBERON:0001004 ! respiratory system
 
 [Term]
 id: UBERON:0003408
-name: gland of gut
+name: gland of digestive tract
 def: "A gland that is part of a digestive tract [Automatically generated definition]." []
 synonym: "digestive tract gland" EXACT []
 synonym: "gland of digestive tract" EXACT []
@@ -26954,13 +26984,14 @@ relationship: part_of UBERON:0000152 ! pelvic fin
 
 [Term]
 id: UBERON:0003937
-name: sex gland
+name: reproductive gland
 def: "Any of the organized aggregations of cells that function as secretory or excretory organs and are associated with reproduction." []
 synonym: "genitalia gland" EXACT []
 synonym: "gland of genitalia" EXACT []
 synonym: "gland of reproductive system" EXACT []
 synonym: "reproductive gland" EXACT []
 synonym: "reproductive system gland" EXACT []
+synonym: "sex gland" EXACT []
 is_a: UBERON:0002530 ! gland
 is_a: UBERON:0005156 ! reproductive structure
 intersection_of: UBERON:0002530 ! gland
@@ -32016,7 +32047,7 @@ def: "An evagination of the terminal portion of the intestine  that is capable o
 synonym: "digitiform gland" BROAD []
 synonym: "glandula rectalis" BROAD []
 synonym: "rectal gland" BROAD []
-is_a: UBERON:0003408 ! gland of gut
+is_a: UBERON:0003408 ! gland of digestive tract
 is_a: UBERON:0004758 ! salt gland
 intersection_of: UBERON:0002530 ! gland
 intersection_of: capable_of GO:0055078
@@ -32054,7 +32085,7 @@ synonym: "anal sac" RELATED []
 synonym: "gland of anal canal" EXACT []
 synonym: "gland of anus" RELATED []
 synonym: "rectal gland" RELATED []
-is_a: UBERON:0003408 ! gland of gut
+is_a: UBERON:0003408 ! gland of digestive tract
 is_a: UBERON:0004121 ! ectoderm-derived structure
 intersection_of: UBERON:0002530 ! gland
 intersection_of: part_of UBERON:0000159 ! anal canal
@@ -32173,6 +32204,7 @@ synonym: "posterior choana" RELATED []
 synonym: "posterior naris" RELATED []
 synonym: "posterior nasal apperture" EXACT []
 is_a: UBERON:0010425 ! internal naris
+is_a: UBERON:0036253 ! orifice of skull
 intersection_of: UBERON:0010425 ! internal naris
 intersection_of: connects UBERON:0001707 ! nasal cavity
 intersection_of: connects UBERON:0001728 ! nasopharynx
@@ -32414,6 +32446,7 @@ def: "A mucous gland that is part of a larynx [Automatically generated definitio
 synonym: "mucous gland of larynx" EXACT []
 is_a: UBERON:0000414 ! mucous gland
 is_a: UBERON:0004119 ! endoderm-derived structure
+is_a: UBERON:0036225 ! respiratory system gland
 intersection_of: UBERON:0000414 ! mucous gland
 intersection_of: part_of UBERON:0001737 ! larynx
 relationship: part_of UBERON:0001824 ! mucosa of larynx
@@ -32456,7 +32489,7 @@ synonym: "pancreatic endocrine secretion" EXACT []
 synonym: "pars endocrina pancreatis secretion" EXACT []
 synonym: "secretion of pars endocrina pancreatis" EXACT []
 is_a: UBERON:0004795 ! pancreas secretion
-intersection_of: UBERON:0000456 ! bodily secretion
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: part_of UBERON:0000016 ! endocrine pancreas
 relationship: part_of UBERON:0000016 ! endocrine pancreas
 
@@ -32469,7 +32502,7 @@ synonym: "pancreatic exocrine secretion" EXACT []
 synonym: "pars exocrina pancreatis secretion" EXACT []
 synonym: "secretion of pars exocrina pancreatis" EXACT []
 is_a: UBERON:0004795 ! pancreas secretion
-intersection_of: UBERON:0000456 ! bodily secretion
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: part_of UBERON:0000017 ! exocrine pancreas
 relationship: part_of UBERON:0000017 ! exocrine pancreas
 
@@ -32483,8 +32516,8 @@ synonym: "oesophagus secretion" EXACT []
 synonym: "secretion of esophagus" EXACT []
 synonym: "secretion of gullet" EXACT []
 synonym: "secretion of oesophagus" EXACT []
-is_a: UBERON:0000456 ! bodily secretion
-intersection_of: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: part_of UBERON:0001043 ! esophagus
 relationship: part_of UBERON:0001043 ! esophagus
 
@@ -32494,8 +32527,8 @@ name: pancreas secretion
 def: "A secretion that is part of a pancreas [Automatically generated definition]." []
 synonym: "pancreatic secretion" EXACT []
 synonym: "secretion of pancreas" EXACT []
-is_a: UBERON:0000456 ! bodily secretion
-intersection_of: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: part_of UBERON:0001264 ! pancreas
 relationship: part_of UBERON:0001264 ! pancreas
 
@@ -32509,7 +32542,7 @@ synonym: "prostatic fluid" EXACT []
 synonym: "secretion of prostate" EXACT []
 synonym: "secretion of prostate gland" EXACT []
 is_a: UBERON:0006530 ! seminal fluid
-intersection_of: UBERON:0000456 ! bodily secretion
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: produced_by UBERON:0002367 ! prostate gland
 relationship: produced_by UBERON:0002367 ! prostate gland
 
@@ -33423,8 +33456,8 @@ synonym: "ovarian sheath" NARROW []
 synonym: "ovary epithelium" EXACT []
 is_a: UBERON:0004909 ! epithelium of gonad
 intersection_of: UBERON:0000483 ! epithelium
-intersection_of: part_of UBERON:0000992 ! female gonad
-relationship: part_of UBERON:0000992 ! female gonad
+intersection_of: part_of UBERON:0000992 ! ovary
+relationship: part_of UBERON:0000992 ! ovary
 
 [Term]
 id: UBERON:0004912
@@ -36020,31 +36053,34 @@ id: UBERON:0005204
 name: larynx submucosa gland
 def: "A gland that is part of a larynx submucosa [Automatically generated definition]." []
 synonym: "laryngeal submucosa gland" RELATED []
-is_a: UBERON:0002530 ! gland
 is_a: UBERON:0004119 ! endoderm-derived structure
+is_a: UBERON:0036225 ! respiratory system gland
 intersection_of: UBERON:0002530 ! gland
 intersection_of: part_of UBERON:0004778 ! larynx submucosa
 relationship: part_of UBERON:0004778 ! larynx submucosa
 
 [Term]
 id: UBERON:0005205
-name: vagina stroma
-def: "A stroma that is part of a vagina." []
-is_a: UBERON:0003891 ! stroma
+name: lamina propria of vagina
+synonym: "vagina stroma" RELATED []
+is_a: UBERON:0000030 ! lamina propria
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0005156 ! reproductive structure
-intersection_of: UBERON:0003891 ! stroma
+intersection_of: UBERON:0000030 ! lamina propria
 intersection_of: part_of UBERON:0000996 ! vagina
 relationship: part_of UBERON:0000996 ! vagina
 
 [Term]
 id: UBERON:0005206
 name: choroid plexus stroma
-def: "A stroma that is part of a choroid plexus [Automatically generated definition]." []
+def: "Stromal matrix surrounding blood vessels within the choroid plexus." []
+synonym: "choroid plexus stromal matrix" EXACT []
 is_a: UBERON:0003891 ! stroma
 is_a: UBERON:0004121 ! ectoderm-derived structure
 intersection_of: UBERON:0003891 ! stroma
 intersection_of: part_of UBERON:0001886 ! choroid plexus
+relationship: has_part CL:0000235
+relationship: has_part CL:0000451
 relationship: part_of UBERON:0001886 ! choroid plexus
 
 [Term]
@@ -36677,7 +36713,7 @@ synonym: "secondary cord" RELATED []
 is_a: UBERON:0004911 ! epithelium of female gonad
 is_a: UBERON:0005295 ! sex cord
 intersection_of: UBERON:0005295 ! sex cord
-intersection_of: part_of UBERON:0000992 ! female gonad
+intersection_of: part_of UBERON:0000992 ! ovary
 relationship: develops_from UBERON:0010141 ! primitive sex cord of indifferent gonad
 
 [Term]
@@ -37249,8 +37285,8 @@ relationship: surrounds UBERON:0000955 ! brain
 id: UBERON:0005398
 name: female reproductive gland
 def: "A sex gland that is part of a female reproductive system." []
-is_a: UBERON:0003937 ! sex gland
-intersection_of: UBERON:0003937 ! sex gland
+is_a: UBERON:0003937 ! reproductive gland
+intersection_of: UBERON:0003937 ! reproductive gland
 intersection_of: part_of UBERON:0000474 ! female reproductive system
 relationship: part_of UBERON:0003134 ! female reproductive organ
 
@@ -37259,8 +37295,8 @@ id: UBERON:0005399
 name: male reproductive gland
 def: "A sex gland that is part of a male reproductive system." []
 synonym: "accessory sex gland" RELATED []
-is_a: UBERON:0003937 ! sex gland
-intersection_of: UBERON:0003937 ! sex gland
+is_a: UBERON:0003937 ! reproductive gland
+intersection_of: UBERON:0003937 ! reproductive gland
 intersection_of: part_of UBERON:0000079 ! male reproductive system
 relationship: part_of UBERON:0000079 ! male reproductive system
 
@@ -41013,14 +41049,14 @@ synonym: "male genital fluid" RELATED []
 synonym: "male genital secretion" RELATED []
 synonym: "seminal fluid" RELATED []
 synonym: "seminal plasma" EXACT []
-is_a: UBERON:0000456 ! bodily secretion
-intersection_of: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
+is_a: UBERON:0006536 ! male reproductive gland secretion
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: part_of UBERON:0001968 ! semen
 intersection_of: produced_by UBERON:0005399 ! male reproductive gland
 relationship: capable_of_part_of GO:0048240
 relationship: capable_of_part_of GO:1902093
 relationship: part_of UBERON:0001968 ! semen
-relationship: produced_by UBERON:0005399 ! male reproductive gland
 
 [Term]
 id: UBERON:0006531
@@ -41049,10 +41085,11 @@ is_a: UBERON:0007685 ! region of nephron tubule
 
 [Term]
 id: UBERON:0006535
-name: skin fluid/secretion
+name: skin secretion
 def: "A portion of organism substance that secreted_by a zone of skin." []
 synonym: "skin fluid" RELATED []
-synonym: "skin secretion" RELATED []
+synonym: "skin fluid/secretion" EXACT []
+synonym: "skin substance" RELATED []
 is_a: UBERON:0000463 ! organism substance
 intersection_of: UBERON:0000463 ! organism substance
 intersection_of: produced_by UBERON:0000014 ! zone of skin
@@ -41060,22 +41097,24 @@ relationship: produced_by UBERON:0000014 ! zone of skin
 
 [Term]
 id: UBERON:0006536
-name: male reproductive system fluid/secretion
-def: "A portion of organism substance that secreted_by a male reproductive system." []
+name: male reproductive gland secretion
+def: "A portion of organism substance that is secreted by a male reproductive gland." []
 synonym: "male reproductive system fluid" RELATED []
+synonym: "male reproductive system fluid/secretion" EXACT []
 synonym: "male reproductive system secretion" RELATED []
-is_a: UBERON:0022293 ! reproductive system fluid/secretion
+is_a: UBERON:0022293 ! reproductive gland secretion
 intersection_of: UBERON:0000463 ! organism substance
-intersection_of: produced_by UBERON:0000079 ! male reproductive system
-relationship: produced_by UBERON:0000079 ! male reproductive system
+intersection_of: produced_by UBERON:0005399 ! male reproductive gland
+relationship: produced_by UBERON:0005399 ! male reproductive gland
 
 [Term]
 id: UBERON:0006537
-name: female reproductive system fluid/secretion
-def: "A portion of organism substance that secreted_by a female reproductive system." []
+name: female reproductive gland secretion
+def: "A portion of organism substance that is secreted by a female reproductive gland." []
 synonym: "female reproductive system fluid" RELATED []
+synonym: "female reproductive system fluid/secretion" EXACT []
 synonym: "female reproductive system secretion" RELATED []
-is_a: UBERON:0022293 ! reproductive system fluid/secretion
+is_a: UBERON:0000463 ! organism substance
 intersection_of: UBERON:0000463 ! organism substance
 intersection_of: produced_by UBERON:0000474 ! female reproductive system
 relationship: produced_by UBERON:0000474 ! female reproductive system
@@ -41101,7 +41140,7 @@ synonym: "mammary gland fluid" RELATED []
 synonym: "mammary gland secreted fluid" RELATED []
 synonym: "mammary gland secretion" RELATED []
 synonym: "secretion of mammary gland" RELATED []
-is_a: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: UBERON:0000463 ! organism substance
 intersection_of: produced_by UBERON:0001911 ! mammary gland
 relationship: produced_by UBERON:0001911 ! mammary gland
@@ -42445,9 +42484,9 @@ relationship: part_of UBERON:0006931 ! stomach glandular region mucosa
 
 [Term]
 id: UBERON:0006925
-name: digestive gland
-def: "A gland, such as the liver or pancreas, that secretes into the alimentary canal substances necessary for digestion." []
-synonym: "digestive system gland" EXACT []
+name: digestive system gland
+def: "Any gland that is part of the digestive system." []
+synonym: "digestive gland" RELATED []
 is_a: UBERON:0002368 ! endocrine gland
 is_a: UBERON:0013765 ! digestive system element
 intersection_of: UBERON:0002368 ! endocrine gland
@@ -42615,9 +42654,9 @@ synonym: "stroma ovarii" RELATED []
 is_a: UBERON:0003891 ! stroma
 is_a: UBERON:0005156 ! reproductive structure
 intersection_of: UBERON:0003891 ! stroma
-intersection_of: part_of UBERON:0000992 ! female gonad
+intersection_of: part_of UBERON:0000992 ! ovary
 relationship: has_part CL:0002095
-relationship: part_of UBERON:0000992 ! female gonad
+relationship: part_of UBERON:0000992 ! ovary
 
 [Term]
 id: UBERON:0006965
@@ -44379,26 +44418,29 @@ relationship: part_of UBERON:0001310 ! umbilical artery
 
 [Term]
 id: UBERON:0007779
-name: transduate
-def: "Body substance in liquid state, which is derived from plasma by passage through the (intact) wall of capillaries without further processing by secretory cells or glands." []
+name: transudate
+def: "Any bodily fluid that has passed through a membrane such as the capillary wall, as a result of unbalanced hydrostatic and osmotic forces" []
+synonym: "plasma ultrafiltrate" RELATED []
 is_a: UBERON:0006314 ! bodily fluid
 intersection_of: UBERON:0000463 ! organism substance
+intersection_of: filtered_through UBERON:0001982 ! capillary
 intersection_of: has_quality PATO:0001548
 intersection_of: transformation_of UBERON:0001969 ! blood plasma
+relationship: filtered_through UBERON:0001982 ! capillary
 relationship: only_in_taxon NCBITaxon:7742
 relationship: transformation_of UBERON:0001969 ! blood plasma
 
 [Term]
 id: UBERON:0007794
-name: serous fluid
+name: secretion of serous gland
 def: "Any fluid produced by a serous gland." []
+synonym: "serosal fluid" EXACT []
+synonym: "serous fluid" BROAD []
 synonym: "serous gland fluid" EXACT []
-is_a: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
 is_a: UBERON:0006314 ! bodily fluid
 intersection_of: UBERON:0006314 ! bodily fluid
-intersection_of: located_in UBERON:0005906 ! serous sac
 intersection_of: produced_by UBERON:0000409 ! serous gland
-relationship: located_in UBERON:0005906 ! serous sac
 relationship: produced_by UBERON:0000409 ! serous gland
 
 [Term]
@@ -45186,9 +45228,12 @@ relationship: only_in_taxon NCBITaxon:6072
 id: UBERON:0008814
 name: pharyngeal arch system
 def: "A transient embryonic complex that comprises the pharyngeal arches, bulges of tissues of mesoderm and neural crest derivation through which pass nerves and pharyngeal arch arteries. The arches are separated internally by pharyngeal pouches, evaginations of foregut endoderm, and externally by pharyngeal clefts, invaginations of surface ectoderm. The development of the system ends when the stucture it contributes to are forming, which may include (depending on species) the thymus, thyroid, parathyroids, maxilla, mandible, aortic arch, cardiac outflow tract, external and middle ear[GO,modified]." []
+synonym: "embryonic pharyngeal complex" EXACT []
 synonym: "pharyngeal apparatus" EXACT []
-synonym: "pharyngeal arch region" EXACT []
+synonym: "pharyngeal arch complex" RELATED []
+synonym: "pharyngeal arch region" RELATED []
 synonym: "pharyngeal arches and clefts" RELATED []
+synonym: "pharyngeal complex" RELATED []
 synonym: "pharyngeal system" EXACT []
 is_a: UBERON:0000477 ! anatomical cluster
 relationship: only_in_taxon NCBITaxon:7711
@@ -45669,7 +45714,7 @@ def: "One of the racemose glands in the walls of the esophagus that in humans ar
 synonym: "esophageal gland" EXACT []
 synonym: "glandulae oesophageae" EXACT []
 synonym: "mucous gland of submucosa of esophagus" EXACT []
-is_a: UBERON:0003408 ! gland of gut
+is_a: UBERON:0003408 ! gland of digestive tract
 is_a: UBERON:0005181 ! thoracic segment organ
 is_a: UBERON:0011148 ! submucosal gland
 intersection_of: UBERON:0011148 ! submucosal gland
@@ -48000,7 +48045,7 @@ synonym: "mouth gland" RELATED []
 synonym: "oral cavity gland" RELATED []
 synonym: "oral region gland" RELATED []
 is_a: UBERON:0002365 ! exocrine gland
-is_a: UBERON:0003408 ! gland of gut
+is_a: UBERON:0003408 ! gland of digestive tract
 intersection_of: UBERON:0002530 ! gland
 intersection_of: part_of UBERON:0000165 ! mouth
 relationship: part_of UBERON:0000165 ! mouth
@@ -48366,7 +48411,7 @@ synonym: "seminal fluid" RELATED []
 synonym: "seminal vesicle secretion" EXACT []
 synonym: "vesicular fluid" BROAD []
 is_a: UBERON:0006530 ! seminal fluid
-intersection_of: UBERON:0000456 ! bodily secretion
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: produced_by UBERON:0000998 ! seminal vesicle
 relationship: produced_by UBERON:0000998 ! seminal vesicle
 
@@ -48375,6 +48420,7 @@ id: UBERON:0010147
 name: male accessory sex gland
 def: "Any gland, other than the gonad, associated with the genital tract, such as the ampulla of the ductus deferens and the bulbourethral, prostate and vesicular glands of the male." []
 synonym: "male accessory gland" RELATED []
+synonym: "male accessory reproductive gland" RELATED []
 is_a: UBERON:0005399 ! male reproductive gland
 
 [Term]
@@ -50735,9 +50781,9 @@ synonym: "simultaneous hermaphroditic organism" RELATED []
 is_a: UBERON:0007197 ! hermaphroditic organism
 intersection_of: UBERON:0000468 ! multicellular organism
 intersection_of: has_part UBERON:0000473 ! testis
-intersection_of: has_part UBERON:0000992 ! female gonad
+intersection_of: has_part UBERON:0000992 ! ovary
 relationship: has_part UBERON:0000473 ! testis
-relationship: has_part UBERON:0000992 ! female gonad
+relationship: has_part UBERON:0000992 ! ovary
 
 [Term]
 id: UBERON:0010905
@@ -51156,6 +51202,7 @@ name: submucosal gland
 def: "Gland of the lamina epithelialis mucosae which perforate the lamina muscularis, with their adenomeres located in the submucosal connective tissue." []
 is_a: UBERON:0000414 ! mucous gland
 is_a: UBERON:0004119 ! endoderm-derived structure
+is_a: UBERON:0036225 ! respiratory system gland
 intersection_of: UBERON:0000414 ! mucous gland
 intersection_of: located_in UBERON:0000009 ! submucosa
 relationship: continuous_with UBERON:0003350 ! epithelium of mucosa
@@ -51213,7 +51260,7 @@ relationship: part_of UBERON:0001703 ! neurocranium
 [Term]
 id: UBERON:0011171
 name: joint connecting upper and lower jaws
-def: "Skeletal joint that articulates bones of upper and lower jaw." []
+def: "Synovial joint that articulates bones of upper and lower jaw." []
 synonym: "craniomandibular joint" NARROW []
 synonym: "jaw joint" BROAD []
 is_a: UBERON:0002217 ! synovial joint
@@ -51386,15 +51433,6 @@ is_a: UBERON:0015063 ! autopod endochondral element
 intersection_of: UBERON:0015063 ! autopod endochondral element
 intersection_of: composed_primarily_of UBERON:0002481 ! bone tissue
 relationship: develops_from UBERON:0015064 ! autopod cartilage
-
-[Term]
-id: UBERON:0011252
-name: scent gland
-def: "Scent glands are exocrine glands found in most mammals. They produce semi-viscous secretions which contain pheromones and other semiochemical compounds. These odor-messengers indicate information such as status, territory marking, mood, and sexual power. The odor may be subliminal-not consciously detectable. Though it is not their primary function, the salivary glands may also function as scent glands in some animals." []
-is_a: UBERON:0002365 ! exocrine gland
-intersection_of: UBERON:0002365 ! exocrine gland
-intersection_of: capable_of_part_of GO:0035636
-relationship: capable_of_part_of GO:0035636
 
 [Term]
 id: UBERON:0011270
@@ -53064,6 +53102,7 @@ synonym: "nasal gland" BROAD []
 is_a: UBERON:0002365 ! exocrine gland
 is_a: UBERON:0004119 ! endoderm-derived structure
 is_a: UBERON:0004121 ! ectoderm-derived structure
+is_a: UBERON:0036225 ! respiratory system gland
 intersection_of: UBERON:0002530 ! gland
 intersection_of: part_of UBERON:0001826 ! nasal cavity mucosa
 relationship: has_part CL:0000159
@@ -53639,7 +53678,7 @@ relationship: part_of UBERON:0001137 ! dorsum
 id: UBERON:0012478
 name: cloacal gland
 def: "A gland that is part of a cloaca." []
-is_a: UBERON:0003408 ! gland of gut
+is_a: UBERON:0003408 ! gland of digestive tract
 is_a: UBERON:0004120 ! mesoderm-derived structure
 intersection_of: UBERON:0002530 ! gland
 intersection_of: part_of UBERON:0000162 ! cloaca
@@ -53999,7 +54038,7 @@ id: UBERON:0013158
 name: foregut-midgut junction gland
 def: "A gland that is part of a foregut-midgut junction." []
 synonym: "gland of foregut-midgut junction" EXACT []
-is_a: UBERON:0003408 ! gland of gut
+is_a: UBERON:0003408 ! gland of digestive tract
 intersection_of: UBERON:0002530 ! gland
 intersection_of: part_of UBERON:0006235 ! foregut-midgut junction
 relationship: part_of UBERON:0006235 ! foregut-midgut junction
@@ -54058,7 +54097,7 @@ synonym: "cortex ovarii (zona parenchymatosa)" EXACT []
 is_a: UBERON:0001851 ! cortex
 is_a: UBERON:0005156 ! reproductive structure
 intersection_of: UBERON:0001851 ! cortex
-intersection_of: part_of UBERON:0000992 ! female gonad
+intersection_of: part_of UBERON:0000992 ! ovary
 relationship: part_of UBERON:0006960 ! ovary stroma
 
 [Term]
@@ -54071,8 +54110,8 @@ synonym: "zona vasculosa of Waldeyer" RELATED []
 is_a: UBERON:0000958 ! medulla of organ
 is_a: UBERON:0005156 ! reproductive structure
 intersection_of: UBERON:0000958 ! medulla of organ
-intersection_of: part_of UBERON:0000992 ! female gonad
-relationship: part_of UBERON:0000992 ! female gonad
+intersection_of: part_of UBERON:0000992 ! ovary
+relationship: part_of UBERON:0000992 ! ovary
 
 [Term]
 id: UBERON:0013218
@@ -54662,11 +54701,12 @@ name: notochordal fluid
 def: "Fluid contained within the notochordal canal" []
 synonym: "notochord fluid" EXACT []
 synonym: "portion of notochordal fluid" EXACT []
-is_a: UBERON:0007779 ! transduate
-intersection_of: UBERON:0007779 ! transduate
+is_a: UBERON:0006314 ! bodily fluid
+intersection_of: UBERON:0006314 ! bodily fluid
 intersection_of: located_in UBERON:0013704 ! notochordal canal
+intersection_of: part_of UBERON:0036242 ! post-embryonic notochord
 relationship: located_in UBERON:0013704 ! notochordal canal
-relationship: part_of UBERON:0002328 ! notochord
+relationship: part_of UBERON:0036242 ! post-embryonic notochord
 
 [Term]
 id: UBERON:0013749
@@ -57582,27 +57622,6 @@ relationship: develops_from UBERON:0003066 ! pharyngeal arch 2
 relationship: part_of UBERON:0006208 ! auditory hillocks
 
 [Term]
-id: UBERON:0016852
-name: skin scent gland
-def: "A scent gland that is part of the skin" []
-synonym: "cutaneous scent gland" EXACT []
-is_a: UBERON:0002419 ! skin gland
-is_a: UBERON:0011252 ! scent gland
-is_a: UBERON:0019319 ! exocrine gland of integumental system
-intersection_of: UBERON:0011252 ! scent gland
-intersection_of: part_of UBERON:0002097 ! skin of body
-
-[Term]
-id: UBERON:0016853
-name: interdigital gland
-def: "A skin gland found in the interdigital region of some mammals" []
-synonym: "interdigital sinus" EXACT []
-is_a: UBERON:0016852 ! skin scent gland
-intersection_of: UBERON:0016852 ! skin scent gland
-intersection_of: part_of UBERON:0012140 ! digitopodium region
-relationship: part_of UBERON:0012140 ! digitopodium region
-
-[Term]
 id: UBERON:0016854
 name: dorsal part of optic cup
 def: "The dorsal region of the optic cup that gives rise to the dorsal part of the retina." []
@@ -58273,6 +58292,7 @@ def: "A sensory receptor that detects stimulus within the body. Examples of stim
 synonym: "enteroceptor" EXACT []
 synonym: "visceroceptor" EXACT []
 is_a: UBERON:0012451 ! sensory receptor
+relationship: part_of UBERON:0036255 ! interoceptive system
 
 [Term]
 id: UBERON:0018391
@@ -58492,6 +58512,7 @@ synonym: "peribronchial gland" EXACT []
 is_a: UBERON:0000414 ! mucous gland
 is_a: UBERON:0004119 ! endoderm-derived structure
 is_a: UBERON:0005181 ! thoracic segment organ
+is_a: UBERON:0036225 ! respiratory system gland
 intersection_of: UBERON:0000414 ! mucous gland
 intersection_of: part_of UBERON:0002048 ! lung
 relationship: part_of UBERON:0002048 ! lung
@@ -58816,8 +58837,8 @@ name: secretion of Harderian gland
 def: "A merocrine secretion that is produced by a Harderian gland, containing lipids" []
 synonym: "Harderian gland fluid" EXACT []
 synonym: "Harderian gland secretion" EXACT []
-is_a: UBERON:0000456 ! bodily secretion
-intersection_of: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: composed_primarily_of CHEBI:18059
 intersection_of: produced_by UBERON:0015153 ! medial gland of ocular region
 relationship: composed_primarily_of CHEBI:18059
@@ -58838,8 +58859,8 @@ name: secretion of nictitans gland
 def: "A secretion that is produced by a nictitans gland, containing glycoprotein" []
 synonym: "nictitans gland fluid" EXACT []
 synonym: "nictitans gland secretion" EXACT []
-is_a: UBERON:0000456 ! bodily secretion
-intersection_of: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
+intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: composed_primarily_of CHEBI:17089
 intersection_of: produced_by UBERON:0015153 ! medial gland of ocular region
 relationship: composed_primarily_of CHEBI:17089
@@ -58850,7 +58871,7 @@ id: UBERON:0022287
 name: tear film
 def: "An aqueous substance that covers the anterior surface of the eyeball, keeping the cornea wet." []
 synonym: "precorneal film" EXACT []
-is_a: UBERON:0000456 ! bodily secretion
+is_a: UBERON:0000456 ! secretion of exocrine gland
 is_a: UBERON:0006314 ! bodily fluid
 relationship: composed_primarily_of UBERON:0001827 ! secretion of lacrimal gland
 relationship: has_quality PATO:0001735
@@ -58878,15 +58899,17 @@ relationship: part_of UBERON:0002106 ! spleen
 
 [Term]
 id: UBERON:0022293
-name: reproductive system fluid/secretion
+name: reproductive gland secretion
+def: "A portion of organism substance that is secreted by a reproductive gland." []
 synonym: "genital fluid" RELATED []
 synonym: "genital secretion" RELATED []
 synonym: "reproductive system fluid" RELATED []
+synonym: "reproductive system fluid/secretion" RELATED []
 synonym: "reproductive system secretion" RELATED []
 is_a: UBERON:0000463 ! organism substance
 intersection_of: UBERON:0000463 ! organism substance
-intersection_of: produced_by UBERON:0000990 ! reproductive system
-relationship: produced_by UBERON:0000990 ! reproductive system
+intersection_of: produced_by UBERON:0003937 ! reproductive gland
+relationship: produced_by UBERON:0003937 ! reproductive gland
 
 [Term]
 id: UBERON:0022303
@@ -59554,6 +59577,15 @@ intersection_of: UBERON:0034873 ! bodily gas
 intersection_of: composed_primarily_of CHEBI:16526
 intersection_of: located_in UBERON:0001004 ! respiratory system
 relationship: composed_primarily_of CHEBI:16526
+
+[Term]
+id: UBERON:0034953
+name: embryonic lymph sac
+def: "A population of lymphatic endothelial cell precursors that will form the lymph vessels." []
+synonym: "primary lymph sac" RELATED []
+is_a: UBERON:0005291 ! embryonic tissue
+is_a: UBERON:0007499 ! epithelial sac
+relationship: part_of UBERON:0006558 ! lymphatic part of lymphoid system
 
 [Term]
 id: UBERON:0034969
@@ -60657,6 +60689,106 @@ is_a: UBERON:0000465 ! material anatomical entity
 relationship: bounding_layer_of UBERON:0000061 ! anatomical structure
 
 [Term]
+id: UBERON:0036217
+name: coelomic fluid
+def: "A bodily fluid that is located in the coelom." []
+is_a: UBERON:0006314 ! bodily fluid
+intersection_of: UBERON:0006314 ! bodily fluid
+intersection_of: located_in UBERON:0011997 ! coelom
+relationship: located_in UBERON:0011997 ! coelom
+
+[Term]
+id: UBERON:0036224
+name: corticobulbar and corticospinal tracts
+def: "The corticobulbar and corticospinal tracts combined." []
+synonym: "pyramidal tract" BROAD []
+is_a: UBERON:0001018 ! axon tract
+relationship: part_of UBERON:0002316 ! white matter
+
+[Term]
+id: UBERON:0036225
+name: respiratory system gland
+def: "Any gland that is part os the respiratory system." []
+is_a: UBERON:0002530 ! gland
+intersection_of: UBERON:0002530 ! gland
+intersection_of: part_of UBERON:0001004 ! respiratory system
+relationship: part_of UBERON:0001004 ! respiratory system
+
+[Term]
+id: UBERON:0036242
+name: post-embryonic notochord
+def: "A notochord that has persisted beyond the embryonic stage." []
+is_a: UBERON:0002328 ! notochord
+intersection_of: UBERON:0002328 ! notochord
+intersection_of: part_of UBERON:0009953 ! post-embryonic organism
+relationship: part_of UBERON:0009953 ! post-embryonic organism
+
+[Term]
+id: UBERON:0036243
+name: vaginal fluid
+def: "Fluid that lines the vaginal walls that consists of multiple secretions that collect in the vagina from different glands." []
+synonym: "vaginal discharge" RELATED []
+synonym: "vaginal secretion" RELATED []
+is_a: UBERON:0006314 ! bodily fluid
+intersection_of: UBERON:0006314 ! bodily fluid
+intersection_of: located_in UBERON:0000996 ! vagina
+relationship: located_in UBERON:0000996 ! vagina
+
+[Term]
+id: UBERON:0036244
+name: secretion of serous membrane
+def: "A transudate found in the serous sac." []
+synonym: "serous fluid" BROAD []
+synonym: "serous sac fluid" EXACT []
+is_a: UBERON:0007779 ! transudate
+intersection_of: UBERON:0007779 ! transudate
+intersection_of: filtered_through UBERON:0000042 ! serous membrane
+relationship: filtered_through UBERON:0000042 ! serous membrane
+relationship: located_in UBERON:0005906 ! serous sac
+
+[Term]
+id: UBERON:0036245
+name: parenchyma of mammary gland
+def: "Parenchymal tissue that consists of the alveoli, grape-like clusters where milk is stored, and branching ducts, which are tubular canals carrying gladular secretions." []
+synonym: "lactiferous gland parenchyma" EXACT []
+synonym: "mammary gland parenchyma" EXACT []
+synonym: "parenchyma of lactiferous gland" EXACT []
+is_a: UBERON:0000353 ! parenchyma
+is_a: UBERON:0004121 ! ectoderm-derived structure
+intersection_of: UBERON:0000353 ! parenchyma
+intersection_of: part_of UBERON:0001911 ! mammary gland
+relationship: part_of UBERON:0001911 ! mammary gland
+
+[Term]
+id: UBERON:0036248
+name: joint of auditory ossicle
+def: "Any synovial joint that connects auditory ossicles." []
+synonym: "auditory ossicle joint" EXACT []
+synonym: "auditory ossicles joint" EXACT []
+synonym: "joint of auditory ossicles" EXACT []
+is_a: UBERON:0002217 ! synovial joint
+intersection_of: UBERON:0002217 ! synovial joint
+intersection_of: connects UBERON:0035130 ! auditory ossicle endochondral element
+relationship: connects UBERON:0035130 ! auditory ossicle endochondral element
+relationship: part_of UBERON:0000033 ! head
+
+[Term]
+id: UBERON:0036253
+name: orifice of skull
+synonym: "cranial orifice" EXACT []
+synonym: "skull orifice" EXACT []
+is_a: UBERON:0000161 ! orifice
+intersection_of: UBERON:0000161 ! orifice
+intersection_of: part_of UBERON:0003129 ! skull
+relationship: part_of UBERON:0003129 ! skull
+
+[Term]
+id: UBERON:0036255
+name: interoceptive system
+def: "The system that is responsible for sensing the internal state of the body." []
+is_a: UBERON:0001023 ! obsolete dendrite
+
+[Term]
 id: UBERON:1000004
 name: collection of hair on external ear
 def: "A collection of hairs that grows on the external ear." []
@@ -61266,11 +61398,10 @@ is_a: UBERON:6057001 ! anterior-posterior subdivision of organism
 [Term]
 id: UBERON:6000006
 name: head segment
-def: "Any segment (UBERON:6000003) that is part of some head (UBERON:6000004)." []
+def: "Any segment that is part of some head." []
 is_a: UBERON:0000914 ! organismal segment
 intersection_of: UBERON:0000914 ! organismal segment
 intersection_of: part_of UBERON:0000033 ! head
-relationship: only_in_taxon NCBITaxon:50557
 relationship: part_of UBERON:0000033 ! head
 
 [Term]
@@ -61285,17 +61416,16 @@ relationship: part_of UBERON:0000922 ! embryo
 [Term]
 id: UBERON:6000154
 name: embryonic segment
-def: "Any segment (UBERON:6000003) that is part of some embryo (UBERON:6000052)." []
+def: "Any segment that is part of some embryo." []
 is_a: UBERON:0000914 ! organismal segment
 intersection_of: UBERON:0000914 ! organismal segment
 intersection_of: part_of UBERON:0000922 ! embryo
-relationship: only_in_taxon NCBITaxon:50557
 relationship: part_of UBERON:0000922 ! embryo
 
 [Term]
 id: UBERON:6000157
 name: embryonic head segment
-def: "Any segment (UBERON:6000003) that is part of some embryonic head (UBERON:6000155)." []
+def: "Any segment that is part of some embryonic head." []
 is_a: UBERON:6000006 ! head segment
 is_a: UBERON:6000154 ! embryonic segment
 intersection_of: UBERON:0000914 ! organismal segment
@@ -61314,7 +61444,7 @@ relationship: part_of UBERON:0002548 ! larva
 [Term]
 id: UBERON:6001729
 name: larval segment
-def: "Any segment (UBERON:6000003) that is part of some larva (UBERON:6001727)." []
+def: "Any segment that is part of some larva." []
 is_a: UBERON:0000914 ! organismal segment
 intersection_of: UBERON:0000914 ! organismal segment
 intersection_of: part_of UBERON:0002548 ! larva
@@ -61324,16 +61454,16 @@ relationship: part_of UBERON:0002548 ! larva
 [Term]
 id: UBERON:6001730
 name: larval head
-def: "Any head (UBERON:6000004) that is part of some larva (UBERON:6001727)." []
+def: "Any head that is part of some larva." []
 is_a: UBERON:0000033 ! head
-is_a: UBERON:6001728 ! larval tagma
 intersection_of: UBERON:0000033 ! head
 intersection_of: part_of UBERON:0002548 ! larva
+relationship: part_of UBERON:0002548 ! larva
 
 [Term]
 id: UBERON:6001732
 name: larval head segment
-def: "Any segment (UBERON:6000003) that is part of some larval head (UBERON:6001730)." []
+def: "Any segment that is part of some larval head." []
 is_a: UBERON:6000006 ! head segment
 is_a: UBERON:6001729 ! larval segment
 intersection_of: UBERON:0000914 ! organismal segment
@@ -61342,13 +61472,12 @@ relationship: part_of UBERON:6001730 ! larval head
 
 [Term]
 id: UBERON:6002639
-name: embryonic/larval sense organ
-def: "Any sense organ (UBERON:6005155) that is part of some larva (UBERON:6001727)." []
+name: larval sense organ
+def: "Any sense organ that is part of some larva." []
 synonym: "larval sense organ" EXACT []
 is_a: UBERON:0000020 ! sense organ
 intersection_of: UBERON:0000020 ! sense organ
 intersection_of: part_of UBERON:0002548 ! larva
-relationship: only_in_taxon NCBITaxon:50557
 relationship: part_of UBERON:0002548 ! larva
 
 [Term]
@@ -61362,12 +61491,11 @@ relationship: part_of UBERON:0007023 ! adult organism
 
 [Term]
 id: UBERON:6003006
-name: insect adult segment
+name: adult segment
 def: "Segment of the adult." []
 is_a: UBERON:0000914 ! organismal segment
 intersection_of: UBERON:0000914 ! organismal segment
 intersection_of: part_of UBERON:0007023 ! adult organism
-relationship: only_in_taxon NCBITaxon:50557
 relationship: part_of UBERON:0007023 ! adult organism
 
 [Term]
@@ -61377,14 +61505,16 @@ def: "Head of the adult organism." []
 is_a: UBERON:0000033 ! head
 is_a: UBERON:6003005 ! adult tagma
 intersection_of: UBERON:0000033 ! head
+intersection_of: part_of NCBITaxon:50557
 intersection_of: part_of UBERON:0007023 ! adult organism
+relationship: part_of NCBITaxon:50557
 
 [Term]
 id: UBERON:6003009
 name: adult head segment
 def: "Segment of the adult head." []
 is_a: UBERON:6000006 ! head segment
-is_a: UBERON:6003006 ! insect adult segment
+is_a: UBERON:6003006 ! adult segment
 intersection_of: UBERON:0000914 ! organismal segment
 intersection_of: part_of UBERON:6003007 ! insect adult head
 relationship: part_of UBERON:6003007 ! insect adult head
@@ -61392,11 +61522,10 @@ relationship: part_of UBERON:6003007 ! insect adult head
 [Term]
 id: UBERON:6007149
 name: segment of antenna
-def: "Any appendage segment (UBERON:6007018) that is part of some antenna (UBERON:6004511)." []
+def: "Any appendage segment that is part of some antenna." []
 is_a: UBERON:0010758 ! subdivision of organism along appendicular axis
 intersection_of: UBERON:0010758 ! subdivision of organism along appendicular axis
 intersection_of: part_of UBERON:0000972 ! antenna
-relationship: only_in_taxon NCBITaxon:50557
 relationship: part_of UBERON:0000972 ! antenna
 
 [Term]
@@ -61415,7 +61544,7 @@ name: embryonic/larval sensillum
 def: "Any sensillum (UBERON:6007152) that is part of some larva (UBERON:6001727)." []
 synonym: "larval sensillum" EXACT []
 is_a: UBERON:0002536 ! arthropod sensillum
-is_a: UBERON:6002639 ! embryonic/larval sense organ
+is_a: UBERON:6002639 ! larval sense organ
 intersection_of: UBERON:0002536 ! arthropod sensillum
 intersection_of: part_of UBERON:0002548 ! larva
 
@@ -61435,7 +61564,7 @@ id: UBERON:6007280
 name: embryonic/larval head sense organ
 def: "Any sense organ (UBERON:6005155) that is part of some larval head (UBERON:6001730)." []
 synonym: "larval head sense organ" EXACT []
-is_a: UBERON:6002639 ! embryonic/larval sense organ
+is_a: UBERON:6002639 ! larval sense organ
 intersection_of: UBERON:0000020 ! sense organ
 intersection_of: part_of UBERON:6001730 ! larval head
 relationship: part_of UBERON:6001730 ! larval head
@@ -61571,7 +61700,6 @@ xref: RO:0001019
 id: contains_process
 name: contains process
 xref: BFO:0000067
-inverse_of: occurs_in
 
 [Typedef]
 id: continuous_with
@@ -61759,6 +61887,12 @@ name: extends_fibers_into
 xref: extends_fibers_into
 is_symmetric: true
 is_a: connected_to ! connected to
+
+[Typedef]
+id: filtered_through
+name: filtered through
+def: "Relationship between a fluid and a material entity, where the fluid is the output of a realization of a filtration role that inheres in the material entity." []
+xref: filtered_through
 
 [Typedef]
 id: functionally_related_to
@@ -62049,10 +62183,6 @@ name: member of
 xref: RO:0002350
 is_a: part_of ! part of
 inverse_of: has_member ! has member
-
-[Typedef]
-id: occurs_in
-xref: occurs_in
 
 [Typedef]
 id: only_in_taxon

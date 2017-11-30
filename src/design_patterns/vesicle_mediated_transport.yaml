@@ -1,0 +1,30 @@
+pattern_name: vesicle-mediated_transport
+
+classes:
+  vesicle-mediated transport: "GO:0016192"
+  cellular component: "GO:0005575"
+
+relations: 
+  transports_or_maintains_localization_of: "RO:0002313"
+
+vars:
+ target: "'cellular component'"
+ 
+
+name:
+     text: "%s vesicle-mediated transport"
+     vars:
+       -  target
+
+def:
+  text: "The directed movement of %s into, out of or within a cell, or between cells, mediated by small transport vesicles."
+  vars:
+     -  target
+
+equivalentTo:
+  text: " 'vesicle-mediated transport' and 'transports_or_maintains_localization_of' some %s "
+  vars:
+    -  target
+    
+
+

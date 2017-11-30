@@ -1,4 +1,5 @@
 pattern_name: biosynthesis_from
+
 extension: OBO
 
 classes:
@@ -30,11 +31,10 @@ def:
     - to
   xrefs: def_xrefs
   
-xrefs: cross_references
+xref: cross_references
 
 namespace: 
    text: 'biological_process'
-   vars: [] # Perhaps spec vars as optional?
 
 equivalentTo: 
   text: "'' and 'has input' some %s and 'has output' some %s"
@@ -42,30 +42,32 @@ equivalentTo:
     - from
     - to
     
- generated_synonyms:
+generated_synonyms:
    - 
       text: '%s biosynthesis from %s'
       vars: 
         - from
         - to
-    - 
+   - 
       text: '%s biosynthetic process from %s'
       vars: 
         - from
         - to   
-     - 
+   - 
       text: '%s anabolism from %s'
       vars: 
         - from
         - to
-    - 
+   - 
       text: '%s formation from %s'
       vars: 
         - from
         - to
-    - 
+   - 
       text: '%s synthesis from %s'
       vars: 
         - from
-        - to  
+        - to
+
+
  

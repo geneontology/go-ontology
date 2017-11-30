@@ -1,0 +1,25 @@
+iri	iri label	entity	entity label
+GO:0051454	intracellular pH elevation	OBA:0000050	cell pH
+GO:0035752	lysosomal lumen pH elevation	OBA:0000091	lysosomal lumen pH
+GO:0045852	pH elevation	OBA:0000121	pH
+GO:1905920	positive regulation of CoA-transferase activity	GO:0008410	CoA-transferase activity
+GO:1905923	positive regulation of acetylcholine biosynthetic process	GO:0008292	acetylcholine biosynthetic process
+GO:0090727	positive regulation of brood size	OBA:0000037	brood size
+GO:1905917	positive regulation of cell differentiation involved in phenotypic switching	GO:0090679	cell differentiation involved in phenotypic switching
+GO:1905935	positive regulation of cell fate determination	GO:0001709	cell fate determination
+GO:1905959	positive regulation of cellular response to alcohol	GO:0097306	cellular response to alcohol
+GO:0061755	positive regulation of circulating fibrinogen levels	OBA:0000061	circulating fibrinogen levels
+GO:1905956	positive regulation of endothelial tube morphogenesis	GO:0061154	endothelial tube morphogenesis
+GO:1905944	positive regulation of formation of growth cone in injured axon	GO:0048689	formation of growth cone in injured axon
+GO:1905938	positive regulation of germ cell proliferation	GO:0036093	germ cell proliferation
+GO:1905941	positive regulation of gonad development	GO:0008406	gonad development
+GO:0106016	positive regulation of inflammatory response to wounding	GO:0090594	inflammatory response to wounding
+GO:1905926	positive regulation of invadopodium assembly	GO:1905877	invadopodium assembly
+GO:1905929	positive regulation of invadopodium disassembly	GO:1905878	invadopodium disassembly
+GO:1905954	positive regulation of lipid localization	GO:0010876	lipid localization
+GO:0140077	positive regulation of lipoprotein transport	GO:0042953	lipoprotein transport
+GO:0101028	positive regulation of liquid surface tension	OBA:0000088	liquid surface tension
+GO:0061766	positive regulation of lung blood pressure	OBA:0000090	lung blood pressure
+GO:1905947	positive regulation of response to calcium ion	GO:0051592	response to calcium ion
+GO:1905932	positive regulation of vascular smooth muscle cell differentiation involved in phenotypic switching	GO:1905420	vascular smooth muscle cell differentiation involved in phenotypic switching
+GO:0050821	protein stabilization	OBA:0000128	protein stability

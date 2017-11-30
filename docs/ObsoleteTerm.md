@@ -1,7 +1,30 @@
 # Obsoleting an Existing Ontology Term
 
-See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-updating-with-git-pull) for creating branches and basic Protégé instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) for creating branches and basic Protégé instructions.
 
+1. Check if the term (or any of its children) is being used for annotation: 
+   - Go to AmiGO, search for the term, either by label or ID
+   - Use filters on the left to look at direct annotations, EXP annotation, InterPro2GO annotations
+   - Notify affected groups
+
+2. Check if the term is used elsewhere in the ontology
+   - In Protégé, go to the 'Usage' tab to see if that ID is used elsewhere. Search for the term name or the term IRI (ie with underscore between GO and the numerical part of the ID, for example: '''GO_0030722'''
+   - If the term is a parent to other terms or is used in logical definitions, make sure that another term replaces the obsolete term
+
+3. Send a notification email. 
+Template: 
+   - SUBJECT: Proposal to obsolete [GO:ID] [GO term name]
+   - BODY: Dear all,  The proposal has been made to obsolete: [GO:ID] [GO term name]. 
+   The reason for obsoletion is [SPECIFY]. 
+   There are X experimental annotations to this term. 
+   There are X InterPro2GO mappings to this term. 
+   Any comments can be added to the issue: [link to GitHub ticket]. We are opening a comment period for this proposed obsoletion. We'd like to proceed and obsolete this term on [DATE] 
+   *** Unless objections are received by [DATE] , we will assume that you agree to this change. ***
+
+**Remeber to list the databases affected by the obsoletion**
+
+
+OBSOLETION PROCESS 
 1. Navigate to the term to be obsoleted.
  
 2. Make the status of the term obsolete: 
@@ -39,4 +62,4 @@ Consult the wiki documentation for suggestions on standard comments:
 
 9. Save changes. 
     
-See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/Installgit.html#daily-workflow-committing-pushing-and-merging-your-changes-to-the-repository) section for commit, push and merge instructions. 
+See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) section for commit, push and merge instructions. 

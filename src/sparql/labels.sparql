@@ -6,4 +6,4 @@ SELECT ?x (STR(?lab) AS ?label) WHERE {
 	?x rdf:type owl:Class .
 	OPTIONAL {?x rdfs:label ?lab}
 }
-ORDER BY ?label
+ORDER BY ?x
