@@ -6,8 +6,8 @@ prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
 SELECT ?obsCls ?c
 WHERE {
-  ?obsCls owl:deprecated "true"^^xsd:boolean .
   { ?c owl:intersectionOf [ rdf:rest*/rdf:first ?obsCls ] }
     UNION
   { ?c owl:someValuesFrom ?obsCls }
+  ?obsCls owl:deprecated "true"^^xsd:boolean .
 }
