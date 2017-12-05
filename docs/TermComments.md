@@ -1,4 +1,4 @@
-### Adding Comments to Terms
+# Adding Comments to Terms
 
 Comments may be added to ontology terms to further explain their intended usage.
 
@@ -6,7 +6,7 @@ Wherever possible, we strive to use standard language for similar types of comme
 
 Some examples of comments, and standard language for their usage, are:
 
-### Do Not Annotate
+## Do Not Annotate
 This term should not be used for direct annotation.  It should be possible to make a more specific annotation to one of the children of this term. 
 
 Example:
@@ -14,7 +14,7 @@ GO:0006810 transport
 
 Note that this term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term, for e.g. transmembrane transport, microtubule-based transport, vesicle-mediated transport, etc. 
 
-### Do Not Manually Annotate
+## Do Not Manually Annotate
 This term should not be used for direct manual annotation.  It should be possible to make a more specific manual annotation to one of the children of this term.   
 
 Example:
