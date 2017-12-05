@@ -1,4 +1,6 @@
-# Adding Comments to Terms
+# Term Comments
+
+## Adding Comments to Terms
 
 Comments may be added to ontology terms to further explain their intended usage.
 
