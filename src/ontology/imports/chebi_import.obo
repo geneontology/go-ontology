@@ -39453,30 +39453,6 @@ is_a: CHEBI:46812 ! 1,3-oxazoles
 relationship: has_role CHEBI:26672 ! siderophore
 
 [Term]
-id: GO:0007268
-name: synaptic transmission
-is_a: GO:0023052 ! signaling
-
-[Term]
-id: GO:0008150
-name: biological_process
-
-[Term]
-id: GO:0023052
-name: signaling
-is_a: GO:0008150 ! biological_process
-
-[Term]
-id: GO:0035636
-name: multi-organism signaling
-is_a: GO:0023052 ! signaling
-
-[Term]
-id: GO:0046879
-name: hormone secretion
-is_a: GO:0008150 ! biological_process
-
-[Term]
 id: GOCHE:22582
 name: substance with antibiotic application
 is_a: GOCHE:33281 ! substance with antimicrobial agent application

@@ -375,7 +375,7 @@ imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 
 # these live in the ../sparql directory, and have suffix -violation.sparql
 # adding the name here will make the violation check live
-VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference
+VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference obsolete-reference
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
