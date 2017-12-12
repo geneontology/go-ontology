@@ -1,2 +1,3 @@
 NCBITaxon:9606
 NCBITaxon:6073 ## Cnidaria
+NCBITaxon:5653 ## Kinetoplastida
