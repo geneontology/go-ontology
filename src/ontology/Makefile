@@ -380,7 +380,7 @@ VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference obsolete-
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
 sparql_test: $(SRC)
-	robot verify --input $< --queries $(VARGS) -O reports/
+	robot merge --input $< verify --queries $(VARGS) -O reports/
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
