@@ -527,6 +527,12 @@ name: oxo dicarboxylic acid dianion
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 
 [Term]
+id: CHEBI:133476
+name: hydantoin-5-propionate
+is_a: CHEBI:35757 ! monocarboxylic acid anion
+relationship: has_role CHEBI:75771 ! mouse metabolite
+
+[Term]
 id: CHEBI:133492
 name: polyunsaturated dicarboxylic acid(2-)
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
@@ -889,7 +895,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 [Term]
 id: CHEBI:138518
 name: dialkyl phosphate(1-)
-is_a: CHEBI:22324 ! alkyl phosphate
+is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
 id: CHEBI:138675
@@ -900,6 +906,26 @@ is_a: CHEBI:33579 ! main group molecular entity
 id: CHEBI:138726
 name: 3'-hydroflavonoid
 is_a: CHEBI:24043 ! flavones
+
+[Term]
+id: CHEBI:139114
+name: carotenoid  psi-end group
+is_a: CHEBI:26873 ! terpenoid
+
+[Term]
+id: CHEBI:139115
+name: carotenoid  epsilon-end group
+is_a: CHEBI:23044 ! carotenoid
+
+[Term]
+id: CHEBI:139120
+name: carotenoid beta-end group
+is_a: CHEBI:23044 ! carotenoid
+
+[Term]
+id: CHEBI:139166
+name: secoiridoid
+is_a: CHEBI:50563 ! iridoid monoterpenoid
 
 [Term]
 id: CHEBI:13941
@@ -1927,7 +1953,7 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
 [Term]
 id: CHEBI:15918
-name: dCMP
+name: 2'-deoxycytosine 5'-monophosphate
 is_a: CHEBI:36995 ! pyrimidine 2'-deoxyribonucleoside 5'-monophosphate
 is_a: CHEBI:37092 ! 2'-deoxycytidine phosphate
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -2002,6 +2028,7 @@ is_a: CHEBI:78697 ! D-fructose 6-phosphate
 [Term]
 id: CHEBI:15948
 name: lycopene
+is_a: CHEBI:139114 ! carotenoid  psi-end group
 is_a: CHEBI:35162 ! acyclic carotene
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:76924 ! plant metabolite
@@ -2178,7 +2205,7 @@ is_a: CHEBI:50582 ! alkenyl alcohol
 
 [Term]
 id: CHEBI:16027
-name: AMP
+name: adenosine 5'-monophosphate
 is_a: CHEBI:37021 ! purine ribonucleoside 5'-monophosphate
 is_a: CHEBI:37096 ! adenosine 5'-phosphate
 relationship: has_role CHEBI:27027 ! micronutrient
@@ -5023,7 +5050,7 @@ is_a: CHEBI:79388 ! divalent inorganic anion
 
 [Term]
 id: CHEBI:17361
-name: CMP
+name: cytidine 5'-monophosphate
 is_a: CHEBI:23521 ! cytidine 5'-phosphate
 is_a: CHEBI:39457 ! pyrimidine ribonucleoside 5'-monophosphate
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -5370,6 +5397,7 @@ relationship: has_role CHEBI:62803 ! fuel additive
 [Term]
 id: CHEBI:17579
 name: beta-carotene
+is_a: CHEBI:139120 ! carotenoid beta-end group
 is_a: CHEBI:35163 ! cyclic carotene
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:26130 ! biological pigment
@@ -5683,7 +5711,7 @@ is_a: CHEBI:25351 ! mevalonic acid
 
 [Term]
 id: CHEBI:17713
-name: dAMP
+name: 2'-deoxyadenosine 5'-monophosphate
 is_a: CHEBI:19237 ! 2'-deoxyadenosine 5'-phosphate
 is_a: CHEBI:36993 ! purine 2'-deoxyribonucleoside 5'-monophosphate
 relationship: has_role CHEBI:78675 ! fundamental metabolite
@@ -6141,7 +6169,7 @@ is_a: CHEBI:17478 ! aldehyde
 is_a: CHEBI:22798 ! beta-D-glucoside
 is_a: CHEBI:25248 ! methyl ester
 is_a: CHEBI:26407 ! pyrans
-is_a: CHEBI:50563 ! iridoid monoterpenoid
+is_a: CHEBI:50274 ! secoiridoid glycoside
 is_a: CHEBI:51702 ! enoate ester
 relationship: has_role CHEBI:76924 ! plant metabolite
 
@@ -7704,10 +7732,6 @@ is_a: CHEBI:35352 ! organonitrogen compound
 relationship: has_role CHEBI:25212 ! metabolite
 
 [Term]
-id: CHEBI:22318
-is_obsolete: true
-
-[Term]
 id: CHEBI:22319
 name: alkanesulfinate
 is_a: CHEBI:37785 ! organosulfinate oxoanion
@@ -7892,6 +7916,7 @@ name: antibiotic
 is_a: CHEBI:27026 ! toxin
 is_a: CHEBI:33281 ! antimicrobial agent
 is_obsolete: true
+replaced_by: CHEBI:33281
 
 [Term]
 id: CHEBI:22584
@@ -9805,6 +9830,7 @@ is_a: CHEBI:48705 ! agonist
 [Term]
 id: CHEBI:24627
 is_obsolete: true
+replaced_by: CHEBI:28297
 
 [Term]
 id: CHEBI:24628
@@ -12307,6 +12333,7 @@ id: CHEBI:26619
 name: secondary metabolite
 is_a: CHEBI:25212 ! metabolite
 is_obsolete: true
+replaced_by: CHEBI:25212
 
 [Term]
 id: CHEBI:26628
@@ -13180,6 +13207,7 @@ is_a: CHEBI:47910 ! S-substituted L-cysteine
 [Term]
 id: CHEBI:27533
 name: beta-zeacarotene
+is_a: CHEBI:139120 ! carotenoid beta-end group
 is_a: CHEBI:35163 ! cyclic carotene
 
 [Term]
@@ -13388,6 +13416,8 @@ relationship: has_role CHEBI:76969 ! bacterial metabolite
 [Term]
 id: CHEBI:27705
 name: delta-carotene
+is_a: CHEBI:139114 ! carotenoid  psi-end group
+is_a: CHEBI:139115 ! carotenoid  epsilon-end group
 is_a: CHEBI:35163 ! cyclic carotene
 
 [Term]
@@ -13968,6 +13998,14 @@ id: CHEBI:28295
 name: 2-deoxystreptamine
 is_a: CHEBI:61689 ! amino cyclitol
 relationship: has_role CHEBI:33282 ! antibacterial agent
+
+[Term]
+id: CHEBI:28297
+name: hydantoin-5-propionic acid
+is_a: CHEBI:24628 ! imidazolidine-2,4-dione
+is_a: CHEBI:25384 ! monocarboxylic acid
+relationship: has_role CHEBI:25212 ! metabolite
+relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
 id: CHEBI:28300
@@ -19022,6 +19060,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:35063
 name: alpha-zeacarotene
+is_a: CHEBI:139115 ! carotenoid  epsilon-end group
 is_a: CHEBI:35163 ! cyclic carotene
 
 [Term]
@@ -23276,6 +23315,7 @@ is_a: CHEBI:37956 ! histamine antagonist
 id: CHEBI:37956
 name: histamine antagonist
 is_a: CHEBI:37957 ! histaminergic drug
+is_a: CHEBI:48706 ! antagonist
 
 [Term]
 id: CHEBI:37957
@@ -24707,7 +24747,7 @@ is_a: CHEBI:63379 ! anhydrohexose derivative
 
 [Term]
 id: CHEBI:40721
-name: AMP(1+)
+name: adenosine 5'-monophosphate(1+)
 is_a: CHEBI:25697 ! organic cation
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
@@ -25267,7 +25307,7 @@ is_a: CHEBI:29281 ! alkyl sulfate
 
 [Term]
 id: CHEBI:456215
-name: AMP(2-)
+name: adenosine 5'-monophosphate(2-)
 is_a: CHEBI:58043 ! nucleoside 5'-monophosphate(2-)
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:78675 ! fundamental metabolite
@@ -27342,6 +27382,12 @@ is_a: CHEBI:38632 ! membrane transport modulator
 is_a: CHEBI:51374 ! GABA agent
 
 [Term]
+id: CHEBI:50274
+name: secoiridoid glycoside
+is_a: CHEBI:139166 ! secoiridoid
+is_a: CHEBI:61777 ! terpene glycoside
+
+[Term]
 id: CHEBI:50276
 name: EC 5.99.1.2 (DNA topoisomerase) inhibitor
 is_a: CHEBI:70727 ! topoisomerase inhibitor
@@ -29413,7 +29459,7 @@ is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 
 [Term]
 id: CHEBI:57566
-name: dCMP(2-)
+name: 2'-deoxycytosine 5'-monophosphate(2-)
 is_a: CHEBI:65317 ! 2'-deoxynucleoside 5'-monophosphate(2-)
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -30357,7 +30403,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
 id: CHEBI:58245
-name: dAMP(2-)
+name: 2'-deoxyadenosine 5'-monophosphate(2-)
 is_a: CHEBI:65317 ! 2'-deoxynucleoside 5'-monophosphate(2-)
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:78675 ! fundamental metabolite
@@ -31790,7 +31836,7 @@ is_a: CHEBI:25696 ! organic anion
 
 [Term]
 id: CHEBI:60377
-name: CMP(2-)
+name: cytidine 5'-monophosphate(2-)
 is_a: CHEBI:138238 ! pyrimidine ribonucleoside 5'-monophosphate(2-)
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -32600,6 +32646,12 @@ id: CHEBI:61747
 name: 4,6-O-[(1R)-1-carboxyethylidene]-D-galactose
 is_a: CHEBI:25384 ! monocarboxylic acid
 is_a: CHEBI:63367 ! monosaccharide derivative
+
+[Term]
+id: CHEBI:61777
+name: terpene glycoside
+is_a: CHEBI:24400 ! glycoside
+is_a: CHEBI:26873 ! terpenoid
 
 [Term]
 id: CHEBI:6178
@@ -33982,10 +34034,12 @@ relationship: has_role CHEBI:25212 ! metabolite
 [Term]
 id: CHEBI:64470
 is_obsolete: true
+replaced_by: CHEBI:69403
 
 [Term]
 id: CHEBI:64472
 is_obsolete: true
+replaced_by: CHEBI:69404
 
 [Term]
 id: CHEBI:64473
@@ -34057,6 +34111,7 @@ relationship: has_role CHEBI:25212 ! metabolite
 [Term]
 id: CHEBI:64501
 is_obsolete: true
+replaced_by: CHEBI:77506
 
 [Term]
 id: CHEBI:64502
@@ -35592,6 +35647,22 @@ relationship: has_part CHEBI:82897 ! (S)-miconazole
 relationship: has_role CHEBI:35610 ! antineoplastic agent
 relationship: has_role CHEBI:75282 ! ergosterol biosynthesis inhibitor
 relationship: has_role CHEBI:82891 ! glucocorticoid receptor antagonist
+
+[Term]
+id: CHEBI:69403
+name: carbonarone A
+is_a: CHEBI:131906 ! 4-pyranones
+is_a: CHEBI:29347 ! monocarboxylic acid amide
+relationship: has_role CHEBI:35610 ! antineoplastic agent
+relationship: has_role CHEBI:76956 ! Aspergillus metabolite
+
+[Term]
+id: CHEBI:69404
+name: pestalamide A
+is_a: CHEBI:131906 ! 4-pyranones
+is_a: CHEBI:25384 ! monocarboxylic acid
+is_a: CHEBI:35356 ! dicarboximide
+relationship: has_role CHEBI:76956 ! Aspergillus metabolite
 
 [Term]
 id: CHEBI:7027
@@ -37393,6 +37464,12 @@ is_a: CHEBI:35757 ! monocarboxylic acid anion
 id: CHEBI:77484
 name: EC 1.1.1.25 (shikimate dehydrogenase) inhibitor
 is_a: CHEBI:76835 ! EC 1.1.1.* (oxidoreductase acting on donor CH-OH group, NAD(+) or NADP(+) acceptor) inhibitor
+
+[Term]
+id: CHEBI:77506
+name: 1-pentadecene
+is_a: CHEBI:32878 ! alkene
+relationship: has_role CHEBI:75768 ! mammalian metabolite
 
 [Term]
 id: CHEBI:77521
@@ -39451,6 +39528,30 @@ name: vibriobactin
 is_a: CHEBI:37622 ! carboxamide
 is_a: CHEBI:46812 ! 1,3-oxazoles
 relationship: has_role CHEBI:26672 ! siderophore
+
+[Term]
+id: GO:0007268
+name: synaptic transmission
+is_a: GO:0023052 ! signaling
+
+[Term]
+id: GO:0008150
+name: biological_process
+
+[Term]
+id: GO:0023052
+name: signaling
+is_a: GO:0008150 ! biological_process
+
+[Term]
+id: GO:0035636
+name: multi-organism signaling
+is_a: GO:0023052 ! signaling
+
+[Term]
+id: GO:0046879
+name: hormone secretion
+is_a: GO:0008150 ! biological_process
 
 [Term]
 id: GOCHE:22582

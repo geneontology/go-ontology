@@ -34,6 +34,7 @@ namespace:
 equivalentTo:
   text: " 'transport' and 'transports_or_maintains_localization_of' some x 
    and 'results in transport across' some y membrane
+   and 'results in transport to from or in' some y
     
 # Boilerplate - don't edit
 exact_synonyms: 
