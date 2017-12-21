@@ -250,11 +250,12 @@ imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 
 # Use ROBOT for imports
 imports/%_import_pre.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
-	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/imports/$*_import.owl -o $@
+	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/imports/$*_import.owl annotate -V $(RELEASE_URIBASE)/imports/$*_import.owl -o $@
 .PRECIOUS: imports/%_import_pre.owl
 
 imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
 	owltools $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $(RELEASE_URIBASE)/$@ -o $@
+
 imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
 
