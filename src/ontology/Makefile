@@ -243,7 +243,7 @@ clean_imports:
 	rm mirror/*
 
 seed.txt: enhanced.owl
-	owltools --use-catalog $< --export-table $@.tmp && cut -f1 $@.tmp > $@
+	$(ROBOT) query -i $< --select ../sparql/terms.sparql $@
 
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
