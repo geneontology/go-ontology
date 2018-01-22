@@ -20,9 +20,10 @@ before_script:
   - wget --no-check-certificate https://raw.githubusercontent.com/cmungall/pattern2owl/master/apply-pattern.py -O bin/apply-pattern.py
   - wget https://raw.githubusercontent.com/dosumis/dead_simple_owl_design_patterns/master/spec/DOSDP_schema_full.yaml
   - chmod +x bin/*
+  - cd src/ontology
 
 # command to run tests
-script: cd src/ontology && travis_wait make travis_test
+script: travis_wait make travis_test
 
 #after_success:
 #  coveralls
