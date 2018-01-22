@@ -22,7 +22,7 @@ before_script:
   - chmod +x bin/*
 
 # command to run tests
-script: cd src/ontology && travis_wait make travis_test
+script: travis_wait cd src/ontology && make travis_test
 
 #after_success:
 #  coveralls
