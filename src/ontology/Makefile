@@ -206,7 +206,7 @@ go-simple-filtered.obo: go-simple.obo
 	owltools $< --make-subset-by-properties $(GO_BASIC_RELATIONS) // -o -f obo $@
 
 go-simple-filtered-reduced.obo: go-simple-filtered.obo
-	$(ROBOT reduce -r elk -i $< -o $@
+	$(ROBOT) reduce -r elk -i $< -o $@
 
 # filter inter-ontology (e.g. MF to BP) links
 go-basic.obo: go-simple-filtered-reduced.obo
