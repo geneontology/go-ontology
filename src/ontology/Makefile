@@ -254,7 +254,7 @@ imports/%_import_pre.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
 .PRECIOUS: imports/%_import_pre.owl
 
 imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
-	owltools $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $(RELEASE_URIBASE)/$@ -o $@
+	$(OWLTOOLS) $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $(BASE)/$@ -o $@
 
 imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
