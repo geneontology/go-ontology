@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: go/releases/2017-11-03/imports/uberon_import.owl
-ontology: go/imports/uberon_import_pre
+data-version: go/releases/2018-01-26/imports/uberon_import.owl
+ontology: go/imports/uberon_import
 
 [Term]
 id: BFO:0000004
@@ -730,6 +730,7 @@ synonym: "pituitary body" EXACT []
 is_a: UBERON:0002368 ! endocrine gland
 is_a: UBERON:0003296 ! gland of diencephalon
 is_a: UBERON:0010133 ! neuroendocrine gland
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: capable_of_part_of GO:0007276
 relationship: contributes_to_morphology_of UBERON:0001894 ! diencephalon
 relationship: has_part CL:0000440
@@ -3278,6 +3279,7 @@ synonym: "cavernous branch of cavernous part of internal carotid artery" EXACT [
 synonym: "ramus sinus cavernosi (pars cavernosa) (arteria carotis interna)" EXACT []
 is_a: UBERON:0003496 ! head blood vessel
 is_a: UBERON:0004573 ! systemic artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001637 ! artery
 intersection_of: branching_part_of UBERON:0001532 ! internal carotid artery
 intersection_of: supplies UBERON:0001675 ! trigeminal ganglion
@@ -3960,6 +3962,7 @@ is_a: UBERON:0004121 ! ectoderm-derived structure
 relationship: capable_of GO:0050890 {gci_relation="part_of", gci_filler="NCBITaxon:9606"}
 relationship: composed_primarily_of CL:0002319
 relationship: contributes_to_morphology_of UBERON:0001016 ! nervous system
+relationship: develops_from UBERON:0001049 {gci_relation="part_of", gci_filler="NCBITaxon:7711"} ! neural tube
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: immediate_transformation_of UBERON:0006238 ! future brain
 relationship: in_anterior_side_of UBERON:0000468 ! multicellular organism
@@ -5130,6 +5133,7 @@ def: "A terminal branch of the left or right common carotid artery which supplie
 synonym: "arteria carotis externa" RELATED []
 synonym: "external carotid" EXACT []
 is_a: UBERON:0005396 ! carotid artery segment
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: branching_part_of UBERON:0001530 ! common carotid artery plus branches
 relationship: develops_from UBERON:0001530 ! common carotid artery plus branches
 relationship: part_of UBERON:0001530 ! common carotid artery plus branches
@@ -5314,6 +5318,7 @@ def: "Excretion that is the output of a kidney" []
 is_a: UBERON:0000174 ! excreta
 intersection_of: UBERON:0000174 ! excreta
 intersection_of: produced_by UBERON:0002113 ! kidney
+relationship: has_quality PATO:0001548 {gci_relation="part_of", gci_filler="NCBITaxon:40674"}
 relationship: produced_by UBERON:0002113 ! kidney
 
 [Term]
@@ -5376,6 +5381,7 @@ synonym: "vertebra 1" EXACT []
 is_a: UBERON:0002412 ! vertebra
 relationship: anterior_to UBERON:0001093 ! vertebral bone 2
 relationship: anteriorly_connected_to UBERON:0001676 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! occipital bone
+relationship: part_of UBERON:0006072 {gci_relation="part_of", gci_filler="NCBITaxon:32523"} ! cervical region of vertebral column
 
 [Term]
 id: UBERON:0001093
@@ -5393,6 +5399,7 @@ synonym: "second cervical vertebra" NARROW []
 synonym: "vertebra 2" EXACT []
 is_a: UBERON:0002412 ! vertebra
 relationship: anteriorly_connected_to UBERON:0001092 ! vertebral bone 1
+relationship: part_of UBERON:0006072 {gci_relation="part_of", gci_filler="NCBITaxon:32523"} ! cervical region of vertebral column
 
 [Term]
 id: UBERON:0001095
@@ -8429,6 +8436,7 @@ synonym: "zone of skin of auricular region of head" EXACT []
 synonym: "zone of skin of external ear" EXACT []
 synonym: "zone of skin of outer ear" EXACT []
 is_a: UBERON:0001084 ! skin of head
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0000014 ! zone of skin
 intersection_of: part_of UBERON:0001691 ! external ear
 relationship: part_of UBERON:0001757 ! pinna
@@ -8576,7 +8584,6 @@ id: UBERON:0001474
 name: bone element
 def: "Skeletal element that is composed of bone tissue." []
 synonym: "bone" RELATED []
-synonym: "bone element" EXACT []
 synonym: "bone organ" EXACT []
 synonym: "bones" RELATED []
 is_a: UBERON:0004765 ! skeletal element
@@ -8812,6 +8819,7 @@ synonym: "ascending thoracic aorta" EXACT []
 synonym: "pars ascendens aortae" EXACT []
 synonym: "pars ascendens aortae" RELATED []
 is_a: UBERON:0001515 ! thoracic aorta
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: contributes_to_morphology_of UBERON:0001515 ! thoracic aorta
 relationship: develops_from UBERON:0005338 ! outflow tract aortic component
 relationship: has_developmental_contribution_from UBERON:0002061 ! truncus arteriosus
@@ -8883,6 +8891,7 @@ synonym: "aortic arch" RELATED []
 synonym: "arcus aortae" EXACT []
 synonym: "thoracic aorta" RELATED []
 is_a: UBERON:0001515 ! thoracic aorta
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: contributes_to_morphology_of UBERON:0001515 ! thoracic aorta
 relationship: develops_from UBERON:0003121 ! pharyngeal arch artery 4
 relationship: has_developmental_contribution_from UBERON:0005432 ! aortic sac
@@ -9044,6 +9053,7 @@ synonym: "carotid artery system" EXACT []
 synonym: "common carotid artery" EXACT []
 synonym: "trunk of common carotid tree" EXACT []
 is_a: UBERON:0004573 ! systemic artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0004363 ! pharyngeal arch artery
 relationship: existence_starts_during UBERON:0000068 ! embryo stage
 
@@ -9067,6 +9077,7 @@ synonym: "ICA" RELATED []
 synonym: "internal carotid" EXACT []
 is_a: UBERON:0003496 ! head blood vessel
 is_a: UBERON:0005396 ! carotid artery segment
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: branching_part_of UBERON:0001530 ! common carotid artery plus branches
 relationship: develops_from UBERON:0004363 ! pharyngeal arch artery
 relationship: develops_from UBERON:2001053 ! future internal carotid artery
@@ -9465,6 +9476,7 @@ synonym: "ciliaris" RELATED []
 synonym: "musculus ciliaris" RELATED []
 synonym: "musculus ciliarus" EXACT []
 is_a: UBERON:0003386 ! smooth muscle of eye
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0011222 ! intra-ocular muscle
 relationship: part_of UBERON:0001775 ! ciliary body
 
@@ -9572,6 +9584,7 @@ def: "An artery that supplies deep structures of the face. It comes just out beh
 synonym: "arteria maxillaris" RELATED []
 synonym: "internal maxillary artery" RELATED []
 is_a: UBERON:0001637 ! artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001637 ! artery
 intersection_of: directly_develops_from UBERON:0003118 ! pharyngeal arch artery 1
 relationship: directly_develops_from UBERON:0003118 ! pharyngeal arch artery 1
@@ -9584,6 +9597,7 @@ synonym: "arteria ophthalmica" RELATED []
 synonym: "opthalmic artery" RELATED []
 is_a: UBERON:0003496 ! head blood vessel
 is_a: UBERON:0004573 ! systemic artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: branching_part_of UBERON:0001532 ! internal carotid artery
 
 [Term]
@@ -9603,6 +9617,7 @@ def: "The lacrimal artery arises close to the optic foramen, and is one of the l
 synonym: "a. lacrimalis" RELATED []
 is_a: UBERON:0003496 ! head blood vessel
 is_a: UBERON:0004573 ! systemic artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001637 ! artery
 intersection_of: supplies UBERON:0001817 ! lacrimal gland
 relationship: branching_part_of UBERON:0001619 ! ophthalmic artery
@@ -9620,6 +9635,7 @@ synonym: "posterior communicating segment of the basilar artery" EXACT []
 is_a: UBERON:0003496 ! head blood vessel
 is_a: UBERON:0004573 ! systemic artery
 is_a: UBERON:0006347 ! communicating artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0015212 ! lateral structure
 intersection_of: UBERON:0006347 ! communicating artery
 intersection_of: branching_part_of UBERON:0001532 ! internal carotid artery
@@ -9964,6 +9980,7 @@ synonym: "venae cerebri" RELATED []
 synonym: "venae encephali" RELATED []
 is_a: UBERON:0001638 ! vein
 is_a: UBERON:0003499 ! brain blood vessel
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001638 ! vein
 intersection_of: drains UBERON:0001893 ! telencephalon
 relationship: drains UBERON:0001893 ! telencephalon
@@ -13422,6 +13439,7 @@ synonym: "pulmonary arterial tree" EXACT []
 synonym: "pulmonary arterial tree organ part" EXACT []
 synonym: "truncus pulmonalis" RELATED []
 is_a: UBERON:0001637 ! artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0013768 ! great vessel of heart
 intersection_of: UBERON:0001637 ! artery
 intersection_of: part_of UBERON:0008886 ! pulmonary vascular system
@@ -13456,6 +13474,7 @@ def: "Pulmonary veins are blood vessels that transport blood from the lungs to t
 synonym: "pulmonary venous tree organ part" EXACT []
 synonym: "venae pulmonales" RELATED []
 is_a: UBERON:0001638 ! vein
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0013768 ! great vessel of heart
 intersection_of: UBERON:0001638 ! vein
 intersection_of: drains UBERON:0002048 ! lung
@@ -13860,6 +13879,7 @@ def: "The truncus arteriosus and bulbus cordis are divided by the aorticopulmona
 is_a: UBERON:0001637 ! artery
 is_a: UBERON:0002050 ! embryonic structure
 is_a: UBERON:0003498 ! heart blood vessel
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0005432 ! aortic sac
 relationship: part_of UBERON:0004145 ! outflow tract
 relationship: part_of UBERON:0005498 ! primitive heart tube
@@ -13943,6 +13963,7 @@ id: UBERON:0002073
 name: hair follicle
 def: "A tube-like opening in the epidermis where the hair shaft develops and into which the sebaceous glands open[GO]." []
 synonym: "folliculus pili" RELATED []
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0036150 ! skin appendage follicle
 relationship: develops_from UBERON:0005086 ! hair follicle placode
 relationship: part_of UBERON:0001003 ! skin epidermis
@@ -15707,6 +15728,7 @@ synonym: "fourth ventricle chorioid plexus of cerebral hemisphere" EXACT []
 synonym: "fourth ventricle choroid plexus" EXACT []
 is_a: UBERON:0001886 ! choroid plexus
 is_a: UBERON:0006694 ! cerebellum vasculature
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001886 ! choroid plexus
 intersection_of: part_of UBERON:0002422 ! fourth ventricle
 relationship: part_of UBERON:0002422 ! fourth ventricle
@@ -15883,6 +15905,7 @@ synonym: "choroid plexus telencephalic ventricle" EXACT []
 synonym: "lateral ventricle chorioid plexus of cerebral hemisphere" EXACT []
 synonym: "lateral ventricle choroid plexus" EXACT []
 is_a: UBERON:0001886 ! choroid plexus
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001886 ! choroid plexus
 intersection_of: part_of UBERON:0002285 ! telencephalic ventricle
 relationship: part_of UBERON:0002285 ! telencephalic ventricle
@@ -16339,6 +16362,7 @@ synonym: "heart muscle" RELATED []
 synonym: "heart myocardium" EXACT []
 synonym: "muscle of heart" EXACT []
 is_a: UBERON:0005983 ! heart layer
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0018260 ! layer of muscle tissue
 intersection_of: UBERON:0005983 ! heart layer
 intersection_of: composed_primarily_of UBERON:0001133 ! cardiac muscle tissue
@@ -16656,6 +16680,7 @@ def: "the soft tissue that fills the cavities of bones" []
 synonym: "medulla of bone" RELATED []
 synonym: "medulla ossea" EXACT []
 synonym: "medulla ossium" EXACT []
+synonym: "medullary bone" RELATED []
 is_a: UBERON:0000479 ! tissue
 is_a: UBERON:0004120 ! mesoderm-derived structure
 intersection_of: UBERON:0000479 ! tissue
@@ -17861,7 +17886,6 @@ def: "a rough elevation at the middle of the lateral side of the shaft of the hu
 synonym: "crista ventralis" EXACT []
 synonym: "crista ventralis humeri" RELATED []
 synonym: "deltoid crest" EXACT []
-synonym: "deltoid crest" RELATED []
 synonym: "deltoid eminence" EXACT []
 synonym: "deltoid impression" EXACT []
 synonym: "deltoid process" RELATED []
@@ -19233,6 +19257,7 @@ intersection_of: UBERON:0006934 ! sensory epithelium
 intersection_of: part_of UBERON:0001033 ! gustatory system
 relationship: part_of UBERON:0000012 ! somatic nervous system
 relationship: part_of UBERON:0001033 ! gustatory system
+relationship: part_of UBERON:0001723 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! tongue
 
 [Term]
 id: UBERON:0002928
@@ -20711,6 +20736,7 @@ synonym: "lower jaw epithelial tissue" EXACT []
 synonym: "lower jaw epithelium" EXACT []
 synonym: "ventral mandibular arch epithelial tissue" EXACT []
 synonym: "ventral mandibular arch epithelium" EXACT []
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0035037 ! jaw epithelium
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: part_of UBERON:0001710 ! lower jaw region
@@ -20895,6 +20921,7 @@ name: thyroid primordium endoderm
 def: "An endoderm that is part of a thyroid primordium." []
 synonym: "endoderm of thyroid primordium" EXACT []
 is_a: UBERON:0000925 ! endoderm
+is_a: UBERON:0004119 ! endoderm-derived structure
 intersection_of: UBERON:0000925 ! endoderm
 intersection_of: part_of UBERON:0003091 ! thyroid primordium
 relationship: develops_from UBERON:0007690 ! early pharyngeal endoderm
@@ -21571,6 +21598,7 @@ synonym: "mesenchyme of palatoquadrate arch" EXACT []
 synonym: "palatoquadrate arch mesenchyme" EXACT []
 synonym: "upper jaw mesenchyme" EXACT []
 is_a: UBERON:0009891 ! facial mesenchyme
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0034995 ! jaw mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: part_of UBERON:0001709 ! upper jaw region
@@ -21584,6 +21612,7 @@ def: "Mesenchyme that is part of a developing lower jaw [Automatically generated
 synonym: "lower jaw mesenchyme" EXACT []
 synonym: "mesenchyme of ventral mandibular arch" EXACT []
 synonym: "ventral mandibular arch mesenchyme" EXACT []
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0034995 ! jaw mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: part_of UBERON:0001710 ! lower jaw region
@@ -23085,6 +23114,7 @@ synonym: "superior labial branch of facial artery" EXACT []
 is_a: UBERON:0003496 ! head blood vessel
 is_a: UBERON:0004573 ! systemic artery
 is_a: UBERON:0009657 ! artery of lip
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001637 ! artery
 intersection_of: supplies UBERON:0001834 ! upper lip
 relationship: branching_part_of UBERON:0001612 ! facial artery
@@ -23102,6 +23132,7 @@ synonym: "ramus labialis inferior arteriae facialis" EXACT []
 is_a: UBERON:0003496 ! head blood vessel
 is_a: UBERON:0004573 ! systemic artery
 is_a: UBERON:0009657 ! artery of lip
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001637 ! artery
 intersection_of: supplies UBERON:0001835 ! lower lip
 relationship: branching_part_of UBERON:0001612 ! facial artery
@@ -25437,7 +25468,7 @@ synonym: "set of teeth" EXACT []
 synonym: "teeth" EXACT []
 synonym: "teeth" RELATED []
 synonym: "teeth set" EXACT []
-is_a: UBERON:0004288 ! skeleton
+is_a: UBERON:0034925 ! anatomical collection
 intersection_of: UBERON:0034925 ! anatomical collection
 intersection_of: has_member UBERON:0001091 ! calcareous tooth
 relationship: has_member UBERON:0001091 ! calcareous tooth
@@ -25644,6 +25675,7 @@ synonym: "cerebral arterial circle" EXACT []
 synonym: "circulus arteriosus cerebri" RELATED []
 synonym: "Willis circle" RELATED []
 is_a: UBERON:0004573 ! systemic artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 
 [Term]
 id: UBERON:0003711
@@ -29660,6 +29692,7 @@ synonym: "lateral ventricle epithelial tissue of choroid plexus" EXACT []
 synonym: "lateral ventricle epithelium of chorioid plexus of cerebral hemisphere" EXACT []
 synonym: "lateral ventricle epithelium of choroid plexus" EXACT []
 is_a: UBERON:0003911 ! choroid plexus epithelium
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: part_of UBERON:0002307 ! choroid plexus of lateral ventricle
 relationship: part_of UBERON:0002307 ! choroid plexus of lateral ventricle
@@ -29708,6 +29741,7 @@ synonym: "fourth ventricle epithelial tissue of choroid plexus" EXACT []
 synonym: "fourth ventricle epithelium of chorioid plexus of cerebral hemisphere" EXACT []
 synonym: "fourth ventricle epithelium of choroid plexus" EXACT []
 is_a: UBERON:0003911 ! choroid plexus epithelium
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0003911 ! choroid plexus epithelium
 intersection_of: part_of UBERON:0002422 ! fourth ventricle
 relationship: part_of UBERON:0002290 ! choroid plexus of fourth ventricle
@@ -29730,8 +29764,6 @@ def: "Anatomical cluster that consists of all the skeletal elements (eg., bone, 
 synonym: "set of all bones" EXACT []
 synonym: "set of bones of body" EXACT []
 is_a: UBERON:0034925 ! anatomical collection
-intersection_of: UBERON:0034925 ! anatomical collection
-intersection_of: has_member UBERON:0004765 ! skeletal element
 disjoint_from: UBERON:0004770 ! articular system
 relationship: has_member UBERON:0004765 ! skeletal element
 relationship: part_of UBERON:0001434 ! skeletal system
@@ -30012,6 +30044,7 @@ is_a: UBERON:0001637 ! artery
 is_a: UBERON:0003469 ! respiratory system artery
 is_a: UBERON:0003496 ! head blood vessel
 is_a: UBERON:0006598 ! presumptive structure
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: contributes_to_morphology_of UBERON:0002539 ! pharyngeal arch
 relationship: has_developmental_contribution_from UBERON:0002342 ! neural crest
 relationship: has_potential_to_develop_into UBERON:0001637 ! artery
@@ -32808,6 +32841,7 @@ def: "An epithelium that is part of a lacrimal gland [Automatically generated de
 synonym: "epithelial tissue of lacrimal gland" EXACT []
 synonym: "epithelium of lacrimal gland" EXACT []
 synonym: "lacrimal gland epithelial tissue" EXACT []
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0015808 ! eye epithelium
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: part_of UBERON:0001817 ! lacrimal gland
@@ -34624,6 +34658,7 @@ synonym: "upper lip mucosa of organ" EXACT []
 synonym: "upper lip mucous membrane" EXACT []
 synonym: "upper lip organ mucosa" EXACT []
 is_a: UBERON:0003729 ! mouth mucosa
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0013754 ! integumentary system layer
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: part_of UBERON:0001834 ! upper lip
@@ -34641,6 +34676,7 @@ synonym: "mucosa of organ of lower lip" EXACT []
 synonym: "mucous membrane of lower lip" EXACT []
 synonym: "organ mucosa of lower lip" EXACT []
 is_a: UBERON:0003729 ! mouth mucosa
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0013754 ! integumentary system layer
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: part_of UBERON:0001835 ! lower lip
@@ -36609,6 +36645,7 @@ synonym: "tela choroidea ventriculi quarti" EXACT []
 synonym: "tela choroidea ventriculi quarti" RELATED []
 is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:0005283 ! tela choroidea
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0005283 ! tela choroidea
 intersection_of: part_of UBERON:0002422 ! fourth ventricle
 relationship: part_of UBERON:0002422 ! fourth ventricle
@@ -36641,6 +36678,7 @@ synonym: "tela choroidea of lateral ventricle" EXACT []
 synonym: "tela choroidea telencephalic ventricle" EXACT []
 is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:0005283 ! tela choroidea
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0005283 ! tela choroidea
 intersection_of: part_of UBERON:0002285 ! telencephalic ventricle
 relationship: part_of UBERON:0002285 ! telencephalic ventricle
@@ -36836,6 +36874,7 @@ name: pulmonary artery endothelium
 def: "An pulmonary artery endothelium is an epithelium that lines the pulmonary artery[GO]." []
 synonym: "pulmonary artery endothelial tube" EXACT []
 is_a: UBERON:0001917 ! endothelium of artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001986 ! endothelium
 intersection_of: part_of UBERON:0002012 ! pulmonary artery
 relationship: part_of UBERON:0002012 ! pulmonary artery
@@ -37583,6 +37622,7 @@ synonym: "saccus aorticus" EXACT []
 is_a: UBERON:0001637 ! artery
 is_a: UBERON:0002050 ! embryonic structure
 is_a: UBERON:0003498 ! heart blood vessel
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0004363 ! pharyngeal arch artery
 relationship: part_of UBERON:0004145 ! outflow tract
 
@@ -38707,6 +38747,7 @@ def: "A venous system that is part of a hindbrain." []
 synonym: "rhombencephalon venous system" RELATED []
 is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:0004582 ! venous system
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0004582 ! venous system
 intersection_of: part_of UBERON:0002028 ! hindbrain
 relationship: part_of UBERON:0002028 ! hindbrain
@@ -38720,6 +38761,7 @@ synonym: "pronephric bulge" RELATED []
 synonym: "pronephric mesenchyme" RELATED []
 synonym: "pronephric primordium" RELATED []
 is_a: UBERON:0000926 ! mesoderm
+is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0006598 ! presumptive structure
 intersection_of: UBERON:0000926 ! mesoderm
 intersection_of: has_potential_to_develop_into UBERON:0002120 ! pronephros
@@ -40911,6 +40953,7 @@ id: UBERON:0006338
 name: lateral ventricle choroid plexus stroma
 def: "A choroid plexus stroma that is part of a lateral ventricle." []
 is_a: UBERON:0005206 ! choroid plexus stroma
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0005206 ! choroid plexus stroma
 intersection_of: part_of UBERON:0002285 ! telencephalic ventricle
 relationship: part_of UBERON:0002307 ! choroid plexus of lateral ventricle
@@ -40929,6 +40972,7 @@ id: UBERON:0006340
 name: fourth ventricle choroid plexus stroma
 def: "A choroid plexus stroma that is part of a fourth ventricle." []
 is_a: UBERON:0005206 ! choroid plexus stroma
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0005206 ! choroid plexus stroma
 intersection_of: part_of UBERON:0002422 ! fourth ventricle
 relationship: part_of UBERON:0002290 ! choroid plexus of fourth ventricle
@@ -42557,6 +42601,7 @@ relationship: part_of UBERON:0002122 ! capsule of thymus
 id: UBERON:0006937
 name: inner ear epithelium
 def: "the epithelial cell layer containing the sensory hair cells and their associated sensory nerve terminals" []
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0010371 ! ecto-epithelium
 is_a: UBERON:0015807 ! ear epithelium
 intersection_of: UBERON:0000483 ! epithelium
@@ -42567,6 +42612,7 @@ relationship: part_of UBERON:0001846 ! internal ear
 id: UBERON:0006938
 name: pinna surface epithelium
 def: "An epithelium that is part of a pinna." []
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0015814 ! outer ear epithelium
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: part_of UBERON:0001757 ! pinna
@@ -45254,6 +45300,7 @@ id: UBERON:0008817
 name: thymus primordium endoderm
 def: "An endoderm that is part of a thymus primordium." []
 is_a: UBERON:0000925 ! endoderm
+is_a: UBERON:0004119 ! endoderm-derived structure
 intersection_of: UBERON:0000925 ! endoderm
 intersection_of: part_of UBERON:0005562 ! thymus primordium
 relationship: has_developmental_contribution_from UBERON:0007124 ! pharyngeal pouch 3
@@ -45519,6 +45566,7 @@ def: "The part of the cardiovascular system consisting of all pulmonary arteries
 synonym: "pulmonary circulatory system" EXACT []
 synonym: "pulmonary system" EXACT []
 is_a: UBERON:0007798 ! vascular system
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: has_part UBERON:0002012 ! pulmonary artery
 relationship: has_part UBERON:0002016 ! pulmonary vein
 relationship: part_of UBERON:0004535 ! cardiovascular system
@@ -45982,6 +46030,7 @@ is_a: UBERON:0000487 ! simple squamous epithelium
 is_a: UBERON:0000490 ! unilaminar epithelium
 is_a: UBERON:0002166 ! endocardium of atrium
 is_a: UBERON:0005291 ! embryonic tissue
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0012275 ! meso-epithelium
 intersection_of: UBERON:0002165 ! endocardium
 intersection_of: part_of UBERON:0002078 ! right cardiac atrium
@@ -47134,6 +47183,7 @@ synonym: "right ventricle endocardial tissue" RELATED []
 synonym: "right ventricle endocardium" EXACT []
 synonym: "right ventricular endocardium" EXACT []
 is_a: UBERON:0001081 ! endocardium of ventricle
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001081 ! endocardium of ventricle
 intersection_of: part_of UBERON:0002080 ! heart right ventricle
 relationship: attaches_to UBERON:0006567 ! right ventricle myocardium
@@ -48092,6 +48142,7 @@ id: UBERON:0010063
 name: tympanic cavity epithelium
 is_a: UBERON:0005911 ! endo-epithelium
 is_a: UBERON:0007499 ! epithelial sac
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0015813 ! middle ear epithelium
 relationship: develops_from_part_of UBERON:0010020 ! tubotympanic recess epithelium
 relationship: located_in UBERON:0004114 ! tympanic cavity
@@ -51695,6 +51746,7 @@ name: future upper lip
 synonym: "upper jaw future lip" EXACT []
 is_a: UBERON:0000490 ! unilaminar epithelium
 is_a: UBERON:0003235 ! epithelium of upper jaw
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0004068 ! medial nasal prominence
 relationship: develops_from UBERON:0005868 ! maxillary prominence
 relationship: part_of UBERON:0001709 ! upper jaw region
@@ -51769,6 +51821,7 @@ synonym: "lower jaw gingiva" EXACT []
 synonym: "lower jaw gum" RELATED []
 synonym: "mandibular gum" RELATED []
 is_a: UBERON:0001828 ! gingiva
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001828 ! gingiva
 intersection_of: part_of UBERON:0001710 ! lower jaw region
 relationship: part_of UBERON:0001710 ! lower jaw region
@@ -55491,6 +55544,7 @@ id: UBERON:0014695
 name: deep auricular artery
 def: "The deep auricular artery often arises in common with the anterior tympanic artery. It ascends in the substance of the parotid gland, behind the temporomandibular articulation, pierces the cartilaginous or bony wall of the external acoustic meatus, and supplies its cuticular lining and the outer surface of the tympanic membrane. It gives a branch to the temporomandibular joint." []
 is_a: UBERON:0009655 ! auricular artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0009655 ! auricular artery
 intersection_of: part_of UBERON:0035551 ! deep vasculature
 relationship: branching_part_of UBERON:0001616 ! maxillary artery
@@ -57552,6 +57606,7 @@ id: UBERON:0016565
 name: cerebral blood vessel
 def: "A blood vessel that is part of a cerebellum." []
 is_a: UBERON:0003499 ! brain blood vessel
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001981 ! blood vessel
 intersection_of: part_of UBERON:0002037 ! cerebellum
 relationship: part_of UBERON:0002037 ! cerebellum
@@ -58034,6 +58089,7 @@ name: skin of lower lip
 def: "A zone of skin that is part of a lower lip." []
 synonym: "lower lip skin" EXACT []
 is_a: UBERON:0001458 ! skin of lip
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0000014 ! zone of skin
 intersection_of: part_of UBERON:0001835 ! lower lip
 relationship: part_of UBERON:0001835 ! lower lip
@@ -58044,6 +58100,7 @@ name: skin of upper lip
 def: "A zone of skin that is part of a upper lip." []
 synonym: "upper lip skin" EXACT []
 is_a: UBERON:0001458 ! skin of lip
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:1000021 ! skin of face
 intersection_of: UBERON:0000014 ! zone of skin
 intersection_of: part_of UBERON:0001834 ! upper lip
@@ -59928,6 +59985,7 @@ synonym: "internal carotid arterial subdivision" EXACT []
 synonym: "subdivision of internal carotid artery" EXACT []
 is_a: UBERON:0003496 ! head blood vessel
 is_a: UBERON:0005396 ! carotid artery segment
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0005396 ! carotid artery segment
 intersection_of: branching_part_of UBERON:0001532 ! internal carotid artery
 relationship: branching_part_of UBERON:0001532 ! internal carotid artery
@@ -60005,6 +60063,7 @@ name: branch of external carotid artery
 synonym: "external carotid arterial subdivision" EXACT []
 synonym: "subdivision of external carotid artery" EXACT []
 is_a: UBERON:0004573 ! systemic artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001637 ! artery
 intersection_of: branching_part_of UBERON:0001070 ! external carotid artery
 relationship: branching_part_of UBERON:0001070 ! external carotid artery
@@ -60870,6 +60929,14 @@ is_a: UBERON:0000479 ! tissue
 relationship: part_of UBERON:0002540 ! lateral line system
 
 [Term]
+id: UBERON:2000238
+name: olfactory tract linking bulb to ipsilateral ventral telencephalon
+is_a: UBERON:0002265 ! olfactory tract
+intersection_of: UBERON:0002265 ! olfactory tract
+intersection_of: overlaps UBERON:0000204 ! ventral part of telencephalon
+relationship: overlaps UBERON:0000204 ! ventral part of telencephalon
+
+[Term]
 id: UBERON:2000315
 name: asteriscus
 synonym: "lagenar otolith" EXACT []
@@ -60933,6 +61000,7 @@ name: future internal carotid artery
 synonym: "PICA" EXACT []
 synonym: "primitive internal carotid artery" EXACT []
 is_a: UBERON:0004573 ! systemic artery
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0003120 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! pharyngeal arch artery 3
 relationship: part_of UBERON:0001530 ! common carotid artery plus branches
 
@@ -61733,6 +61801,11 @@ def: "t1 developmentally_induced_by t2 if there is a process of organ induction 
 xref: RO:0002256
 
 [Typedef]
+id: developmentally_preceded_by
+name: developmentally preceded by
+xref: RO:0002258
+
+[Typedef]
 id: developmentally_replaces
 name: developmentally_replaces
 xref: RO:0002285
@@ -61869,6 +61942,7 @@ transitive_over: part_of ! part of
 id: existence_starts_during_or_after
 name: existence starts during or after
 xref: RO:0002496
+holds_over_chain: developmentally_preceded_by existence_starts_during_or_after
 holds_over_chain: part_of existence_starts_during_or_after
 transitive_over: part_of ! part of
 transitive_over: preceded_by ! preceded_by
@@ -61966,6 +62040,12 @@ id: has_potential_to_developmentally_contribute_to
 name: has potential to developmentally contribute to
 def: "x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y" []
 xref: RO:0002385
+
+[Typedef]
+id: has_potential_to_directly_develop_into
+name: has potential to directly develop into
+def: "x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y" []
+xref: RO:0002388
 
 [Typedef]
 id: has_quality
@@ -62108,6 +62188,7 @@ holds_over_chain: extends_fibers_into in_taxon
 holds_over_chain: has_developmental_contribution_from in_taxon
 holds_over_chain: has_potential_to_develop_into in_taxon
 holds_over_chain: innervated_by in_taxon
+holds_over_chain: overlaps in_taxon
 holds_over_chain: part_of in_taxon
 holds_over_chain: produced_by in_taxon
 holds_over_chain: produces in_taxon
@@ -62141,6 +62222,12 @@ id: innervates
 name: innervates
 xref: RO:0002134
 transitive_over: part_of ! part of
+
+[Typedef]
+id: input_of
+name: input of
+xref: RO:0002352
+is_a: functionally_related_to ! functionally related to
 
 [Typedef]
 id: intersects_midsagittal_plane_of
@@ -62196,6 +62283,12 @@ id: output_of
 name: output of
 xref: RO:0002353
 is_a: functionally_related_to ! functionally related to
+
+[Typedef]
+id: overlaps
+name: overlaps
+def: "A overlaps B if they share some part in common." []
+xref: RO:0002131
 
 [Typedef]
 id: part_of

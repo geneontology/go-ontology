@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: go/releases/2018-01-25/imports/ncbitaxon_import
+ontology: go/imports/ncbitaxon_import
 
 [Term]
 id: NCBITaxon:1
