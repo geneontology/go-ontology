@@ -243,7 +243,7 @@ clean_imports:
 	rm mirror/*
 
 seed.txt: enhanced.owl
-	$(ROBOT) query -i $< --select ../sparql/terms.sparql $@
+	$(ROBOT) query -f csv -i $< --select ../sparql/terms.sparql $@
 
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
@@ -323,6 +323,7 @@ mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/cl/cl-basic.obo $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
+
 # special case: the RO imports closure is unusual
 # typically we use only the main ontology, not the imports.
 # for RO we merge these, in order to get ro/core, bfo classes
@@ -347,6 +348,10 @@ FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remo
 # todo: uberon currently has some chebi inferences
 mirror/uberon.owl: mirror/uberon-download.owl
 	$(OWLTOOLS) --use-catalog $< --remove-equivalent-to-nothing-axioms --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL  $(FILTER_EXTERNAL) -o $@
+.PRECIOUS: mirror/uberon.owl
+
+mirror/so.owl: mirror/so-download.owl
+	$(OWLTOOLS) --use-catalog $< --make-subset-by-properties // -o $@
 .PRECIOUS: mirror/uberon.owl
 
 mirror/%.owl: mirror/%-download.owl
