@@ -359,6 +359,24 @@ mirror/%.owl: mirror/%-download.owl
 .PRECIOUS: mirror/%.owl
 
 # ----------------------------------------
+# CHEBI ROLES
+# ----------------------------------------
+mirror/chebi.obo: mirror/chebi-download.owl
+	owltools $< -o -f obo $@.tmp && mv $@.tmp $@
+
+HAS_ROLE = RO:0000087
+
+role.obo: mirror/chebi.obo
+	owltools $< --reasoner-query -r elk -d CHEBI:50906 --make-ontology-from-results $(OBO)/go/chebi/role.owl -o -f obo $@
+
+imports/substance_by_role.obo: role.obo
+	../util/make-substance-by-role.pl -s 'role' -r $(HAS_ROLE) $< > $@.tmp && mv $@.tmp $@
+
+imports/substance_by_role.owl: imports/substance_by_role.obo
+	robot convert -i $< -o $@
+
+
+# ----------------------------------------
 # MAPPINGS
 # ----------------------------------------
 
