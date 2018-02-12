@@ -9,7 +9,6 @@ relations:
 
 vars:
  entity: Thing
- biological regulation: "'biological regulation'"
 
 name:
      text: "regulation of %s"
@@ -22,9 +21,8 @@ def:
      - entity
 
 equivalentTo:
-  text: " %s and 'regulates' some %s"
+  text: "'biological regulation' and 'regulates' some %s"
   vars:
-    - 'biological regulation'
     - entity
 
     

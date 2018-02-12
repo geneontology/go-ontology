@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: go/releases/2017-10-18/imports/ncbitaxon_import
+ontology: go/imports/ncbitaxon_import
 
 [Term]
 id: NCBITaxon:1
@@ -760,6 +760,16 @@ id: NCBITaxon:55885
 name: Peloderinae
 is_a: NCBITaxon:6243 ! Rhabditidae
 relationship: RO:0002162 NCBITaxon:55885 ! in taxon Peloderinae
+
+[Term]
+id: NCBITaxon:5653
+name: Kinetoplastida
+synonym: "Kinetoplastea" RELATED []
+synonym: "kinetoplastids" RELATED []
+synonym: "kinetoplasts" EXACT []
+synonym: "Protomonadida" RELATED []
+is_a: NCBITaxon:33682 ! Euglenozoa
+relationship: RO:0002162 NCBITaxon:5653 ! in taxon Kinetoplastida
 
 [Term]
 id: NCBITaxon:5738

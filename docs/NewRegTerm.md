@@ -22,7 +22,7 @@ To create a 'positive regulation of x' or 'negative regulation of x' term, the p
    
    - Negative regulation: ```Any process that stops, prevents or reduces the frequency, rate or extent of [process]```
    
-6. Create a logical definition for the term: ```biological_process``` __and__ ```regulates``` __some__ ```target process```.
+6. Create a logical definition for the term: ```biological regulation``` __and__ ```regulates``` __some__ ```target process```.
    
 7. Remove the asserted ‘biological regulation’ parent.
    

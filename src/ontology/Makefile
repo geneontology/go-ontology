@@ -21,7 +21,7 @@ RELEASEDIR=../../target
 RELEASEDIR_IMPORTS=$(RELEASEDIR)/imports
 
 # ROBOT is the main release release tool
-ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
+ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx12G
 ROBOT= $(ROBOT_ENV) robot
 
 # OWLTools is a swiss-army knife;
@@ -152,7 +152,7 @@ change-report.txt: $(SRC) $(PREVIOUS)
 # Translate never_in_taxon annotation assertion axioms to
 # logical disjointness axioms
 disjoint_in_taxon.owl: $(SRC)
-	robot query -i $< --construct $(SPARQLDIR)/constructDisjointInTaxon.sparql $@ -f ttl
+	$(ROBOT) query -i $< --construct $(SPARQLDIR)/constructDisjointInTaxon.sparql $@ -f ttl
 
 # merge in any CONSTRUCTs
 enhanced.owl: $(SRC) disjoint_in_taxon.owl
@@ -161,7 +161,7 @@ enhanced.owl: $(SRC) disjoint_in_taxon.owl
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
 reasoned.owl: enhanced.owl $(SRC)-check
-	$(ROBOT)  reason -i $< -r ELK relax reduce  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+	$(ROBOT)  reason -i $< -r ELK -e asserted-only relax reduce  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 # equivalent to reasoned, but we rename
 $(GO_PLUS).owl: reasoned.owl
@@ -183,7 +183,7 @@ $(ONT)-pre.obo: reasoned.owl
 	owltools $(USECAT) $< --remove-imports-declarations --remove-dangling --make-subset-by-properties $(GO_MAIN_RELATIONS) --set-ontology-id $(OBO)/go.owl -o -f obo $@.tmp && egrep -v '(property_value|relationship): never_in_taxon' $@.tmp > $@
 
 $(ONT)-pre-reduced.obo: $(ONT)-pre.obo
-	robot reduce -r elk -i $< -o $@
+	$(ROBOT) reduce -r elk -i $< -o $@
 .PRECIOUS: $(ONT)-pre-reduced.obo
 
 # use OORT
@@ -206,7 +206,7 @@ go-simple-filtered.obo: go-simple.obo
 	owltools $< --make-subset-by-properties $(GO_BASIC_RELATIONS) // -o -f obo $@
 
 go-simple-filtered-reduced.obo: go-simple-filtered.obo
-	robot reduce -r elk -i $< -o $@
+	$(ROBOT) reduce -r elk -i $< -o $@
 
 # filter inter-ontology (e.g. MF to BP) links
 go-basic.obo: go-simple-filtered-reduced.obo
@@ -228,7 +228,7 @@ subset-files = $(shell ls subsets/*.owl)
 SUBSET_REPORTS = $(patsubst %,%.tsv,$(basename $(subset-files)))
 subset-reports: $(SUBSET_REPORTS)
 subsets/%.tsv: subsets/%.owl
-	robot query -f tsv -i $< -s ../sparql/labels.sparql $@
+	$(ROBOT) query -f tsv -i $< -s ../sparql/labels.sparql $@
 
 # ----------------------------------------
 # IMPORT MODULES
@@ -243,18 +243,19 @@ clean_imports:
 	rm mirror/*
 
 seed.txt: enhanced.owl
-	owltools --use-catalog $< --export-table $@.tmp && cut -f1 $@.tmp > $@
+	$(ROBOT) query -f csv -i $< --select ../sparql/terms.sparql $@
 
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
 
 # Use ROBOT for imports
 imports/%_import_pre.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
-	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/imports/$*_import.owl -o $@
+	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/imports/$*_import.owl annotate -V $(RELEASE_URIBASE)/imports/$*_import.owl -o $@
 .PRECIOUS: imports/%_import_pre.owl
 
 imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
-	owltools $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $(RELEASE_URIBASE)/$@ -o $@
+	$(OWLTOOLS) $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $(BASE)/$@ -o $@
+
 imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
 
@@ -322,6 +323,7 @@ mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/cl/cl-basic.obo $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
+
 # special case: the RO imports closure is unusual
 # typically we use only the main ontology, not the imports.
 # for RO we merge these, in order to get ro/core, bfo classes
@@ -348,9 +350,31 @@ mirror/uberon.owl: mirror/uberon-download.owl
 	$(OWLTOOLS) --use-catalog $< --remove-equivalent-to-nothing-axioms --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL  $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/uberon.owl
 
+mirror/so.owl: mirror/so-download.owl
+	$(OWLTOOLS) --use-catalog $< --make-subset-by-properties // -o $@
+.PRECIOUS: mirror/uberon.owl
+
 mirror/%.owl: mirror/%-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/%.owl
+
+# ----------------------------------------
+# CHEBI ROLES
+# ----------------------------------------
+mirror/chebi.obo: mirror/chebi-download.owl
+	owltools $< -o -f obo $@.tmp && mv $@.tmp $@
+
+HAS_ROLE = RO:0000087
+
+role.obo: mirror/chebi.obo
+	owltools $< --reasoner-query -r elk -d CHEBI:50906 --make-ontology-from-results $(OBO)/go/chebi/role.owl -o -f obo $@
+
+imports/substance_by_role.obo: role.obo
+	../util/make-substance-by-role.pl -s 'role' -r $(HAS_ROLE) $< > $@.tmp && mv $@.tmp $@
+
+imports/substance_by_role.owl: imports/substance_by_role.obo
+	robot convert -i $< -o $@
+
 
 # ----------------------------------------
 # MAPPINGS
@@ -364,10 +388,10 @@ generate-mappings: go-basic.obo
 # ----------------------------------------
 
 imports/go-taxon-groupings.owl: imports/go-taxon-groupings-edit.owl
-	robot reason -i $< -r hermit -o $@
+	$(ROBOT) reason -i $< -r hermit -o $@
 
 imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
-	robot convert -i $< -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@
+	$(ROBOT) convert -i $< -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@
 
 # ----------------------------------------
 # VALIDATION
@@ -400,9 +424,9 @@ all_reports: go.owl
 #all_src_reports: $(patsubst %,reports/src-%.tsv,$(REPORTS))
 
 reports/%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
-	robot -vv query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
+	$(ROBOT) -vv query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
 reports/src-%.tsv: go-edit.obo $(SPARQLDIR)/%.sparql $(REPORTDIR)
-	robot query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
+	$(ROBOT) query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
 
 # ----------------------------------------
 # ADDING INFERENCES
@@ -421,7 +445,7 @@ go-edit_noinf.obo: go-edit.obo
 # use robot to place inferences in a new file.
 # TBD: should relaxed axioms go here?
 go_inferences.owl: go-edit_noinf.obo
-	robot reason -i $< -r ELK -n true -a true -x true annotate -R -O $(OBO)/go/imports/go_inferences.owl -o $@.tmp.owl && mv $@.tmp.owl $@
+	$(ROBOT) reason -i $< -r ELK -n true -a true -x true annotate -R -O $(OBO)/go/imports/go_inferences.owl -o $@.tmp.owl && mv $@.tmp.owl $@
 
 # translation to obo.
 # note that in order to get obo "!" comments into the file (to enhance readability), we must:
