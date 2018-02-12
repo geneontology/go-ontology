@@ -161,7 +161,7 @@ enhanced.owl: $(SRC) disjoint_in_taxon.owl
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
 reasoned.owl: enhanced.owl $(SRC)-check
-	$(ROBOT)  reason -i $< -r ELK relax reduce  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+	$(ROBOT)  reason -i $< -r ELK -e asserted-only relax reduce  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 # equivalent to reasoned, but we rename
 $(GO_PLUS).owl: reasoned.owl
@@ -357,6 +357,24 @@ mirror/so.owl: mirror/so-download.owl
 mirror/%.owl: mirror/%-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/%.owl
+
+# ----------------------------------------
+# CHEBI ROLES
+# ----------------------------------------
+mirror/chebi.obo: mirror/chebi-download.owl
+	owltools $< -o -f obo $@.tmp && mv $@.tmp $@
+
+HAS_ROLE = RO:0000087
+
+role.obo: mirror/chebi.obo
+	owltools $< --reasoner-query -r elk -d CHEBI:50906 --make-ontology-from-results $(OBO)/go/chebi/role.owl -o -f obo $@
+
+imports/substance_by_role.obo: role.obo
+	../util/make-substance-by-role.pl -s 'role' -r $(HAS_ROLE) $< > $@.tmp && mv $@.tmp $@
+
+imports/substance_by_role.owl: imports/substance_by_role.obo
+	robot convert -i $< -o $@
+
 
 # ----------------------------------------
 # MAPPINGS
