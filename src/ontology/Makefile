@@ -161,7 +161,7 @@ enhanced.owl: $(SRC) disjoint_in_taxon.owl
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
 reasoned.owl: enhanced.owl $(SRC)-check
-	$(ROBOT)  reason -i $< -r ELK relax reduce  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+	$(ROBOT)  reason -i $< -r ELK -e asserted-only relax reduce  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 # equivalent to reasoned, but we rename
 $(GO_PLUS).owl: reasoned.owl
@@ -243,7 +243,7 @@ clean_imports:
 	rm mirror/*
 
 seed.txt: enhanced.owl
-	$(ROBOT) query -i $< --select ../sparql/terms.sparql $@
+	$(ROBOT) query -f csv -i $< --select ../sparql/terms.sparql $@
 
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
@@ -323,6 +323,7 @@ mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/cl/cl-basic.obo $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
+
 # special case: the RO imports closure is unusual
 # typically we use only the main ontology, not the imports.
 # for RO we merge these, in order to get ro/core, bfo classes
@@ -349,9 +350,31 @@ mirror/uberon.owl: mirror/uberon-download.owl
 	$(OWLTOOLS) --use-catalog $< --remove-equivalent-to-nothing-axioms --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL  $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/uberon.owl
 
+mirror/so.owl: mirror/so-download.owl
+	$(OWLTOOLS) --use-catalog $< --make-subset-by-properties // -o $@
+.PRECIOUS: mirror/uberon.owl
+
 mirror/%.owl: mirror/%-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/%.owl
+
+# ----------------------------------------
+# CHEBI ROLES
+# ----------------------------------------
+mirror/chebi.obo: mirror/chebi-download.owl
+	owltools $< -o -f obo $@.tmp && mv $@.tmp $@
+
+HAS_ROLE = RO:0000087
+
+role.obo: mirror/chebi.obo
+	owltools $< --reasoner-query -r elk -d CHEBI:50906 --make-ontology-from-results $(OBO)/go/chebi/role.owl -o -f obo $@
+
+imports/substance_by_role.obo: role.obo
+	../util/make-substance-by-role.pl -s 'role' -r $(HAS_ROLE) $< > $@.tmp && mv $@.tmp $@
+
+imports/substance_by_role.owl: imports/substance_by_role.obo
+	robot convert -i $< -o $@
+
 
 # ----------------------------------------
 # MAPPINGS
