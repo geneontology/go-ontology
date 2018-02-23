@@ -9,3 +9,6 @@ http://purl.obolibrary.org/obo/CHEBI_28297 ## hydantoin-5-propionic acid
 http://purl.obolibrary.org/obo/CHEBI_69404 ## pestalamide A
 http://purl.obolibrary.org/obo/CHEBI_69403 ## carbonarone A
 http://purl.obolibrary.org/obo/CHEBI_77506 ## 1-pentadecene
+http://purl.obolibrary.org/obo/CHEBI_84046 ## pyoverdine 
+http://purl.obolibrary.org/obo/CHEBI_18054 ## diphthine 
+
