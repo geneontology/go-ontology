@@ -1,3 +1,10 @@
+
+
+# -- GLOBAL VARIABLES --
+
+
+OBO=        http://purl.obolibrary.org/obo
+
 # ----------------------------------------
 # ANNOTATION RELATIONS
 # ----------------------------------------
@@ -5,7 +12,7 @@
 # Create a module from RO that is seeded from the gorel-edit ontology.
 # Note that to be a seed, a relation needs at least one logical axiom;
 # we recommend making each RO relation to be seeded a subproperty of 'go annotation extension relation'
-gorel-ro-import.owl: gorel-edit.owl ro_import.owl
+gorel-ro-import.owl: gorel-edit.owl ../imports/ro_import.owl
 	owltools $< --add-support-from-imports --extract-module -c -s $(OBO)/ro.owl -o $@
 
 # Public edition: gorel-edit axioms merged with RO module
