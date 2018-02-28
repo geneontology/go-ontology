@@ -3,6 +3,7 @@ all: stage_release
 # ----------------------------------------
 # CORE VARIABLES
 # ----------------------------------------
+SHELL = ./report_time.sh
 
 # base URI for all OBO library ontologies
 OBO=http://purl.obolibrary.org/obo
