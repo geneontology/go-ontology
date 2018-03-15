@@ -110,11 +110,6 @@ name: protein
 is_a: BET:0000000 ! entity
 
 [Term]
-id: GO:0043234 ! protein complex
-name: protein complex
-is_a: GO:0032991 ! macromolecular complex
-
-[Term]
 id: GO:0032991 ! macromolecular complex
 name: macromolecular complex
 is_a: BET:0000000 ! entity
