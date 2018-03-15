@@ -403,13 +403,9 @@ VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference obsolete-
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
-sparql_test: $(SRC)
+sparql_test: $(SRC) reasoned.owl
 	robot verify --input $< --queries $(VARGS) -O reports/
-	robot reason --input go-edit.obo -r ELK -e asserted-only relax verify --queries ../sparql/multiple-class-links-violation.sparql -O reports/
-
-
-sparql_test2: reasoned.owl
-	robot verify --input $< --queries ../sparql/multiple-class-links-violation.sparql -O reports/
+	robot verify --input reasoned.owl --queries ../sparql/multiple-class-links-violation.sparql -O reports/
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
