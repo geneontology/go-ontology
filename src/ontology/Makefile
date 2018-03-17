@@ -158,14 +158,15 @@ disjoint_in_taxon.owl: $(SRC)
 enhanced.owl: $(SRC) disjoint_in_taxon.owl
 	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
 
-# reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
+# reasoned.owl is equivalent to editors source, after reason-relax pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
+# note: we perform reduce later as this is time-intensive
 reasoned.owl: enhanced.owl $(SRC)-check
-	$(ROBOT)  reason -i $< -r ELK -e asserted-only relax reduce  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+	$(ROBOT)  reason -i $< -r ELK -e asserted-only relax annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 # equivalent to reasoned, but we rename
 $(GO_PLUS).owl: reasoned.owl
-	$(ROBOT) annotate -i $< -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) reduce -r ELK -i $<  annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: $(GO_PLUS).owl
 
 # ----------------------------------------
