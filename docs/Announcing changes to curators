@@ -1,0 +1,35 @@
+Term obsoletion 
+
+Standard mail: 
+Subject line: Obsoletion notice: GO:nnnnnn [class label]
+Body: 
+Dear all, 
+
+The proposal has been made to obsolete 'GO:nnnnnn [class label]'. The reason for obsoletion is [REASON]
+
+There are xx annotations to this term by [list impacted groups].
+
+There are xx mappings to this term. 
+
+Any comments can be added to this issue: https://github.com/geneontology/go-ontology/issues/nnnnn
+
+We are opening a comment period for this proposed obsoletion. We'd like to proceed and obsolete this term on DATE [7 days after the message] Unless objections are received by DATE we will assume that you agree to this change. 
+
+
+Thanks, 
+
+
+[SIGNATURE]
+
+Possible reasons for obsoletions: 
+* The reason for obsoletion is that there is no evidence that this function/process/component exists. (eg: GO:0019562 L-phenylalanine catabolic process to phosphoenolpyruvate; GO:0097605 regulation of nuclear envelope permeability’; GO:0015993 molecular hydrogen transport)
+* The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent (eg: GO:0030818 negative regulation of cAMP biosynthetic process)
+* The reason for obsoletion is that this term represent a GO-CAM model. (eg: GO:0072317 glucan endo-1,3-beta-D-glucosidase activity involved in ascospore release from ascus; GO:0100060 negative regulation of SREBP signaling pathway by DNA binding)
+* The reason for obsoletion is that this term represent an assay and not a real process. (eg: GO:0035826	rubidium ion transport)
+* The reason for obsoletion is that the data from the paper for which the term was requested can be accurately described using [appropriate GO term]. (eg: GO:0015032 storage protein import into fat body)
+* etc 
+
+----
+Term merges
+
+TO BE DISCUSSED - Terms affecting more than x annotations?? 
