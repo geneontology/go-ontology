@@ -1,0 +1,9 @@
+SELECT ?c1 ?n ?c2
+WHERE {
+    ?c1 <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> ?n .
+    ?c2 <http://www.w3.org/2000/01/rdf-schema#label> ?n .
+
+    FILTER(isURI(?c1))
+    FILTER(isURI(?c2))
+    FILTER (?c1 != ?c2)
+}
