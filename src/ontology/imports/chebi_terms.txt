@@ -17,3 +17,4 @@ http://purl.obolibrary.org/obo/CHEBI_16160 ## O-succinyl-L-homoserine
 http://purl.obolibrary.org/obo/CHEBI_132941 ## 2-hydroxyglutarate 
 http://purl.obolibrary.org/obo/CHEBI_36986 ## mesaconate(2−)
 http://purl.obolibrary.org/obo/CHEBI_13997 ## citramalate(2−)
+http://purl.obolibrary.org/obo/CHEBI_64977 ## cichorine
