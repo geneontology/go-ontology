@@ -1,0 +1,18 @@
+id: goslim_synapse
+title: synapse GO slim
+type: binning_slim
+status: active
+description: "Synapse go slim provided by SynGO. This is the subset that is available for annotation in the SynGO tool."
+taxon:
+  id: 
+  label: Mus musculus
+contact:
+  email: 
+  label: Frank Koopmans
+  github: ftwkoopmans
+tracker: https://github.com/geneontology/go-ontology/issues
+contributors:
+  - email: todo
+    label: Pim van Nierop
+    github: Pimmelorus
+

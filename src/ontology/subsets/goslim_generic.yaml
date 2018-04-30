@@ -11,6 +11,7 @@ contact:
   label: GO Ontology Curators
 tracker: https://github.com/geneontology/go-ontology/issues
 contributors:
-  email: vw253@cam.ac.uk
-  label: Val Wood
-  orcid: http://orcid.org/0000-0001-6330-7526
+  - email: vw253@cam.ac.uk
+    label: Val Wood
+    orcid: http://orcid.org/0000-0001-6330-7526
+    github: ValWood
