@@ -13,5 +13,5 @@ WHERE {
     FILTER NOT EXISTS {
         ?c1 owl:deprecated true .
     }
-    FILTER (?syn1 != ?syn2)
+    FILTER (?syn1 = ?syn2)
 }
