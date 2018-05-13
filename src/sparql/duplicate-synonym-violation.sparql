@@ -1,0 +1,17 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX metago: <http://model.geneontology.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?c ?syn1 ?syn2
+WHERE {
+    ?c <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> ?syn1 .
+    ?c <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> ?syn2 .
+
+    FILTER(isURI(?c))
+    FILTER NOT EXISTS {
+        ?c1 owl:deprecated true .
+    }
+    FILTER (?syn1 != ?syn2)
+}
