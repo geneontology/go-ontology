@@ -3,15 +3,32 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX metago: <http://model.geneontology.org/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
 
-SELECT ?c ?syn1 ?syn2
+SELECT ?c ?oneSynonym ?anotherSynonym ?syn
 WHERE {
-    ?c <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> ?syn1 .
-    ?c <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> ?syn2 .
 
-    FILTER(isURI(?c))
-    FILTER NOT EXISTS {
-        ?c1 owl:deprecated true .
+    VALUES ?oneSynonym {
+        oboInOwl:hasSynonym
+        oboInOwl:hasExactSynonym
+        oboInOwl:hasNarrowSynonym
+        oboInOwl:hasBroadSynonym
+        oboInOwl:hasRelatedSynonym
     }
-    FILTER (?syn1 = ?syn2)
+
+    VALUES ?anotherSynonym {
+        oboInOwl:hasSynonym
+        oboInOwl:hasExactSynonym
+        oboInOwl:hasNarrowSynonym
+        oboInOwl:hasBroadSynonym
+        oboInOwl:hasRelatedSynonym
+    }
+
+    ?c ?oneSynonym ?syn .
+    ?c ?anotherSynonym ?syn .
+
+    FILTER NOT EXISTS {
+        ?c owl:deprecated true .
+    }
+    FILTER (STR(?anotherSynonym) < STR(?oneSynonym))
 }
