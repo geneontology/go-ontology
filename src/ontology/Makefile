@@ -433,6 +433,8 @@ reports/src-%.tsv: go-edit.obo $(SPARQLDIR)/%.sparql $(REPORTDIR)
 # ADDING INFERENCES
 # ----------------------------------------
 # see: https://github.com/geneontology/go-ontology/issues/12315
+# and: https://build.berkeleybop.org/view/GO/job/build-go-ontology-inferences/configure
+#
 # go inferences now go into a separate file.
 # this is imported during an OE session (see oboedit.catalog)
 # (for Protege all inferences are dynamic)
@@ -446,7 +448,7 @@ go-edit_noinf.obo: go-edit.obo
 # use robot to place inferences in a new file.
 # TBD: should relaxed axioms go here?
 go_inferences.owl: go-edit_noinf.obo
-	$(ROBOT) reason -i $< -r ELK -n true -a true -x true annotate -R -O $(OBO)/go/imports/go_inferences.owl -o $@.tmp.owl && mv $@.tmp.owl $@
+	$(ROBOT) reason -i $< -r ELK -n true -a true -x true annotate -R true -O $(OBO)/go/imports/go_inferences.owl -o $@.tmp.owl && mv $@.tmp.owl $@
 
 # translation to obo.
 # note that in order to get obo "!" comments into the file (to enhance readability), we must:
