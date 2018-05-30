@@ -433,6 +433,8 @@ reports/src-%.tsv: go-edit.obo $(SPARQLDIR)/%.sparql $(REPORTDIR)
 # ADDING INFERENCES
 # ----------------------------------------
 # see: https://github.com/geneontology/go-ontology/issues/12315
+# and: https://build.berkeleybop.org/view/GO/job/build-go-ontology-inferences/configure
+#
 # go inferences now go into a separate file.
 # this is imported during an OE session (see oboedit.catalog)
 # (for Protege all inferences are dynamic)
