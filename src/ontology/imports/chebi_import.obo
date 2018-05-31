@@ -12596,6 +12596,7 @@ id: CHEBI:26619
 name: secondary metabolite
 is_a: CHEBI:25212 ! metabolite
 is_obsolete: true
+replaced_by: CHEBI:25212
 
 [Term]
 id: CHEBI:26628
