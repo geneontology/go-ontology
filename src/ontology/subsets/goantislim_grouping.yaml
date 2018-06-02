@@ -2,8 +2,18 @@ id: goantislim_grouping
 title: GO antislim
 type: antislim
 status: active
-description: "Grouping classes that can be excluded in enrichment analyses etc"
+description: "Grouping classes that can be excluded in enrichment analyses etc."
+seeAlso: 
+taxon:
+  id: NCBITaxon:1
+  label: all organisms
 contact:
   email: go-ontology@lists.stanford.edu
   label: GO Ontology Curators
+  github: 
 tracker: https://github.com/geneontology/go-ontology/issues
+contributors:
+  - email: 
+    label: 
+    orcid: 
+    github:
