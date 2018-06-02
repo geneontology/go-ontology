@@ -1,0 +1,19 @@
+id: goslim_yeast
+title: Yeast slim
+type: 
+status: pending contact
+description: "Saccharomyces cerevisiae GO slim"
+seeAlso: 
+taxon:
+  id: 
+  label: Saccharomyces cerevisiae
+contact: 
+  email: 
+  label: 
+  github:
+tracker: 
+contributors:
+  - email: 
+    label:
+    orcid:  
+    github: 
