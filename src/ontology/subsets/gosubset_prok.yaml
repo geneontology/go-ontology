@@ -1,0 +1,19 @@
+id: gosubset_prok
+title: Prokaryote subset
+type: 
+status: obsolete
+description: "GO terms relevant for prokaryotes. Replaced by taxon constraints."
+seeAlso: 
+taxon:
+  id: 
+  label: Bacteria
+contact: 
+  email: go-ontology@lists.stanford.edu
+  label: GO Ontology Curators
+  github:
+tracker: 
+contributors:
+  - email: 
+    label:
+    orcid:  
+    github: 
