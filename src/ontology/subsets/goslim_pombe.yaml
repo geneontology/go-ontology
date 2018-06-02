@@ -1,0 +1,19 @@
+id: goslim_pombe
+title: Schizosaccharomyces pombe slim
+type: binning slim
+status: active
+description: "Schizosaccharomyces pombe GO slim."
+seeAlso: 
+taxon:
+  id: 
+  label: Schizosaccharomyces pombe
+contact: 
+  email: vw253@cam.ac.uk
+  label: Valerie Wood
+  github:
+tracker: 
+contributors:
+  - email: vw253@cam.ac.uk
+    label: Valerie Wood
+    orcid:  
+    github: 
