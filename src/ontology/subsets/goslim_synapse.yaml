@@ -3,6 +3,7 @@ title: synapse GO slim
 type: binning_slim
 status: active
 description: "Synapse go slim provided by SynGO. This is the subset that is available for annotation in the SynGO tool."
+seeAlso: 
 taxon:
   id: 
   label: Mus musculus
@@ -14,5 +15,6 @@ tracker: https://github.com/geneontology/go-ontology/issues
 contributors:
   - email: todo
     label: Pim van Nierop
+    orcid: 
     github: Pimmelorus
 
