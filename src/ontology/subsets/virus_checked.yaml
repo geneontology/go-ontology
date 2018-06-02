@@ -1,0 +1,19 @@
+id: virus_checked
+title: Virus checked
+type: 
+status: pending contact
+description: "Terms approved by the Virus working group (2010)"
+seeAlso: 
+taxon:
+  id: 
+  label: 
+contact: 
+  email: go-ontology@lists.stanford.edu
+  label: GO Ontology Curators
+  github:
+tracker: https://github.com/geneontology/go-ontology/issues 
+contributors:
+  - email: 
+    label:
+    orcid:  
+    github: 
