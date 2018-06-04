@@ -5,3 +5,17 @@ http://purl.obolibrary.org/obo/UBERON_0002048 ## lung
 http://purl.obolibrary.org/obo/CL_0000540 ## neuron
 http://purl.obolibrary.org/obo/GO_0008150 ## biological_process
 http://purl.obolibrary.org/obo/CHEBI_60151 ## oxLDL
+http://purl.obolibrary.org/obo/CHEBI_28297 ## hydantoin-5-propionic acid
+http://purl.obolibrary.org/obo/CHEBI_69404 ## pestalamide A
+http://purl.obolibrary.org/obo/CHEBI_69403 ## carbonarone A
+http://purl.obolibrary.org/obo/CHEBI_77506 ## 1-pentadecene
+http://purl.obolibrary.org/obo/CHEBI_84046 ## pyoverdine 
+http://purl.obolibrary.org/obo/CHEBI_18054 ## diphthine 
+http://purl.obolibrary.org/obo/CHEBI_82631 ## N-threonyl-glycosylphosphatidylinositolethanolamine
+http://purl.obolibrary.org/obo/CHEBI_16288 ## O-acetyl-L-homoserine 
+http://purl.obolibrary.org/obo/CHEBI_16160 ## O-succinyl-L-homoserine 
+http://purl.obolibrary.org/obo/CHEBI_132941 ## 2-hydroxyglutarate 
+http://purl.obolibrary.org/obo/CHEBI_36986 ## mesaconate(2−)
+http://purl.obolibrary.org/obo/CHEBI_13997 ## citramalate(2−)
+http://purl.obolibrary.org/obo/CHEBI_64977 ## cichorine
+http://purl.obolibrary.org/obo/CHEBI_30633 ## L-pipecholate
