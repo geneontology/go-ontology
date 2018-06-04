@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2018-02-02/imports/so_import.owl
+data-version: go/releases/2018-05-21/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -259,6 +259,18 @@ synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:antisense_RNA" EXACT []
 xref: http://en.wikipedia.org/wiki/Antisense_RNA "wiki"
 is_a: SO:0000655 ! ncRNA
+
+[Term]
+id: SO:0000646
+name: siRNA
+namespace: sequence
+def: "A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. SRNAs trigger the cleavage of their target molecules." [PMID:12592000]
+subset: SOFA
+synonym: "INSDC_feature:ncRNA" BROAD []
+synonym: "INSDC_qualifier:siRNA" EXACT []
+synonym: "small interfering RNA" EXACT []
+xref: http://en.wikipedia.org/wiki/SiRNA "wiki"
+is_a: SO:0000370 ! small_regulatory_ncRNA
 
 [Term]
 id: SO:0000651

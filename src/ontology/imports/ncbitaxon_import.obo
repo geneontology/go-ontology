@@ -221,6 +221,18 @@ disjoint_from: NCBITaxon:2759 ! Eukaryota
 relationship: RO:0002162 NCBITaxon:2 ! in taxon Bacteria
 
 [Term]
+id: NCBITaxon:2058185
+name: Dictyosteliaceae
+is_a: NCBITaxon:2058949 ! Dictyosteliales
+relationship: RO:0002162 NCBITaxon:2058185 ! in taxon Dictyosteliaceae
+
+[Term]
+id: NCBITaxon:2058949
+name: Dictyosteliales
+is_a: NCBITaxon:33083 ! Dictyostelids
+relationship: RO:0002162 NCBITaxon:2058949 ! in taxon Dictyosteliales
+
+[Term]
 id: NCBITaxon:207245
 name: Fornicata
 synonym: "Diplomonadida group" RELATED []
@@ -383,14 +395,14 @@ relationship: RO:0002162 NCBITaxon:32561 ! in taxon Sauria
 
 [Term]
 id: NCBITaxon:33083
-name: Dictyosteliida
+name: Dictyostelids
 synonym: "cellular slime molds" RELATED []
 synonym: "Dictyostelia" RELATED []
-synonym: "Dictyosteliales" RELATED []
 synonym: "dictyostelid cellular slime molds" EXACT []
 synonym: "Dictyostelida" RELATED []
+synonym: "Dictyosteliida" RELATED []
 is_a: NCBITaxon:142796 ! Mycetozoa
-relationship: RO:0002162 NCBITaxon:33083 ! in taxon Dictyosteliida
+relationship: RO:0002162 NCBITaxon:33083 ! in taxon Dictyostelids
 
 [Term]
 id: NCBITaxon:33090
@@ -633,6 +645,12 @@ is_a: NCBITaxon:33154 ! Opisthokonta
 relationship: RO:0002162 NCBITaxon:4751 ! in taxon Fungi
 
 [Term]
+id: NCBITaxon:47570
+name: Schizotrypanum
+is_a: NCBITaxon:5690 ! Trypanosoma
+relationship: RO:0002162 NCBITaxon:47570 ! in taxon Schizotrypanum
+
+[Term]
 id: NCBITaxon:4762
 name: Oomycetes
 synonym: "oomycetes" RELATED []
@@ -707,7 +725,6 @@ name: Saccharomyces cerevisiae
 synonym: "baker's yeast" EXACT []
 synonym: "brewer's yeast" EXACT []
 synonym: "Candida robusta" RELATED []
-synonym: "lager beer yeast" EXACT []
 synonym: "Saccaromyces cerevisiae" RELATED []
 synonym: "Saccharomyce cerevisiae" RELATED []
 synonym: "Saccharomyces capensis" RELATED []
@@ -716,7 +733,6 @@ synonym: "Saccharomyces oviformis" RELATED []
 synonym: "Saccharomyces uvarum var. melibiosus" RELATED []
 synonym: "Saccharomyes cerevisiae" RELATED []
 synonym: "Sccharomyces cerevisiae" RELATED []
-synonym: "yeast" EXACT []
 is_a: NCBITaxon:4930 ! Saccharomyces
 relationship: RO:0002162 NCBITaxon:4932 ! in taxon Saccharomyces cerevisiae
 
@@ -772,6 +788,18 @@ is_a: NCBITaxon:33682 ! Euglenozoa
 relationship: RO:0002162 NCBITaxon:5653 ! in taxon Kinetoplastida
 
 [Term]
+id: NCBITaxon:5654
+name: Trypanosomatidae
+is_a: NCBITaxon:5653 ! Kinetoplastida
+relationship: RO:0002162 NCBITaxon:5654 ! in taxon Trypanosomatidae
+
+[Term]
+id: NCBITaxon:5690
+name: Trypanosoma
+is_a: NCBITaxon:5654 ! Trypanosomatidae
+relationship: RO:0002162 NCBITaxon:5690 ! in taxon Trypanosoma
+
+[Term]
 id: NCBITaxon:5738
 name: Diplomonadida
 synonym: "diplomonads" EXACT []
@@ -794,7 +822,8 @@ relationship: RO:0002162 NCBITaxon:5740 ! in taxon Giardia
 [Term]
 id: NCBITaxon:5782
 name: Dictyostelium
-is_a: NCBITaxon:33083 ! Dictyosteliida
+synonym: "Hyalostilbum" RELATED []
+is_a: NCBITaxon:2058185 ! Dictyosteliaceae
 relationship: RO:0002162 NCBITaxon:5782 ! in taxon Dictyostelium
 
 [Term]
@@ -1102,7 +1131,20 @@ relationship: RO:0002162 NCBITaxon:9605 ! in taxon Homo
 [Term]
 id: NCBITaxon:9606
 name: Homo sapiens
+synonym: "Home sapiens" RELATED []
+synonym: "Homo sampiens" RELATED []
+synonym: "Homo sapeins" RELATED []
+synonym: "Homo sapian" RELATED []
+synonym: "Homo sapians" RELATED []
+synonym: "Homo sapien" RELATED []
+synonym: "Homo sapience" RELATED []
+synonym: "Homo sapiense" RELATED []
+synonym: "Homo sapients" RELATED []
+synonym: "Homo sapines" RELATED []
+synonym: "Homo spaiens" RELATED []
+synonym: "Homo spiens" RELATED []
 synonym: "human" EXACT []
+synonym: "Humo sapiens" RELATED []
 synonym: "man" EXACT []
 is_a: NCBITaxon:9605 ! Homo
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
