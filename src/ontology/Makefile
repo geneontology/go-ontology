@@ -74,7 +74,7 @@ test: $(SRC)-check sparql_test change-report.txt reasoned.owl
 # note: until we go live, the travis test must omit change-report. This is because as a demo repo,
 # we naturally fall behind the actual live PURL. **DELETE THIS TARGET WHEN WE GO LIVE**
 #travis_test: $(SRC)-check sparql_test reasoned.owl
-travis_test: $(SRC)-check sparql_test change-report.txt all_reports reasoned.owl
+travis_test: reasoned.owl $(SRC)-check sparql_test change-report.txt all_reports
 
 full_test: test $(ONT).obo
 
@@ -161,7 +161,7 @@ enhanced.owl: $(SRC) disjoint_in_taxon.owl
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
 reasoned.owl: enhanced.owl $(SRC)-check
-	$(ROBOT)  reason -i $< -r ELK -e asserted-only relax reduce  annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+	$(ROBOT) reason -i $< -r ELK -e asserted-only relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 # equivalent to reasoned, but we rename
 $(GO_PLUS).owl: reasoned.owl
@@ -404,8 +404,9 @@ VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-l
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
-sparql_test: $(SRC)
+sparql_test: $(SRC) reasoned.owl
 	robot verify --input $< --queries $(VARGS) -O reports/
+	robot verify --input reasoned.owl --queries ../sparql/multiple-class-links-violation.sparql -O reports/
 	robot merge --input $< verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
 
 # use this to run tests on an individual basis
