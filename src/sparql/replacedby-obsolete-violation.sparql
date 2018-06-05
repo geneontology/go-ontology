@@ -1,0 +1,22 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX GO: <http://purl.obolibrary.org/obo/GO_>
+PREFIX metago: <http://model.geneontology.org/>
+PREFIX oboinowl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX ont_graph: <http://purl.obolibrary.org/obo/go/extensions/go-graphstore.owl>
+PREFIX MF: <http://purl.obolibrary.org/obo/GO_0003674>
+PREFIX CC: <http://purl.obolibrary.org/obo/GO_0005575>
+PREFIX BP: <http://purl.obolibrary.org/obo/GO_0008150>
+PREFIX IAO: <http://purl.obolibrary.org/obo/IAO_>
+
+SELECT ?class ?replacement
+WHERE {
+  ?class IAO:0100001 ?repl .
+  BIND(IF(isLITERAL(?repl), URI(CONCAT("http://purl.obolibrary.org/obo/", STRBEFORE(?repl, ":"), "_", STRAFTER(?repl, ":"))), ?repl) as ?replacement )
+  ?replacement owl:deprecated true .
+
+  FILTER NOT EXISTS {
+    ?class IAO:0000231 IAO:0000227
+  }
+}

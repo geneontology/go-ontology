@@ -1,489 +1,385 @@
 format-version: 1.2
-data-version: go/releases/2017-04-11/imports/so_import.owl
+data-version: go/releases/2018-05-21/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
 id: SO:0000001
 name: region
-def: "A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids." []
+namespace: sequence
+def: "A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids." [SO:ke]
+subset: SOFA
 synonym: "sequence" EXACT []
 is_a: SO:0000110 ! sequence_feature
 
 [Term]
 id: SO:0000110
 name: sequence_feature
-def: "Any extent of continuous biological sequence." []
+namespace: sequence
+def: "Any extent of continuous biological sequence." [LAMHDI:mb, SO:ke]
+subset: SOFA
+synonym: "INSDC_feature:misc_feature" EXACT []
+synonym: "INSDC_note:other" EXACT []
+synonym: "INSDC_note:sequence_feature" EXACT []
 synonym: "located sequence feature" RELATED []
 synonym: "located_sequence_feature" EXACT []
 synonym: "sequence feature" EXACT []
-disjoint_from: SO:0000400 ! sequence_attribute
-
-[Term]
-id: SO:0000146
-name: capped
-def: "An attribute describing when a sequence, usually an mRNA is capped by the addition of a modified guanine nucleotide at the 5' end." []
-is_a: SO:0000237 ! transcript_attribute
-
-[Term]
-id: SO:0000185
-name: primary_transcript
-def: "A transcript that in its initial state requires modification to be functional." []
-synonym: "precursor RNA" EXACT []
-synonym: "primary transcript" EXACT []
-is_a: SO:0000673 ! transcript
 
 [Term]
 id: SO:0000188
 name: intron
-def: "A region of a primary transcript that is transcribed, but removed from within the transcript by splicing together the sequences (exons) on either side of it." []
+namespace: sequence
+def: "A region of a primary transcript that is transcribed, but removed from within the transcript by splicing together the sequences (exons) on either side of it." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
+subset: SOFA
+synonym: "INSDC_feature:intron" EXACT []
+xref: http://en.wikipedia.org/wiki/Intron "wiki"
 is_a: SO:0000835 ! primary_transcript_region
-
-[Term]
-id: SO:0000209
-name: rRNA_primary_transcript
-def: "A primary transcript encoding a ribosomal RNA." []
-synonym: "ribosomal RNA primary transcript" EXACT []
-synonym: "rRNA primary transcript" EXACT []
-is_a: SO:0000483 ! nc_primary_transcript
-
-[Term]
-id: SO:0000210
-name: tRNA_primary_transcript
-def: "A primary transcript encoding a transfer RNA (SO:0000253)." []
-synonym: "tRNA primary transcript" EXACT []
-is_a: SO:0000483 ! nc_primary_transcript
-
-[Term]
-id: SO:0000231
-name: snRNA_primary_transcript
-def: "A primary transcript encoding a small nuclear RNA (SO:0000274)." []
-synonym: "snRNA primary transcript" EXACT []
-is_a: SO:0000483 ! nc_primary_transcript
-
-[Term]
-id: SO:0000232
-name: snoRNA_primary_transcript
-def: "A primary transcript encoding a small nucleolar mRNA (SO:0000275)." []
-synonym: "snoRNA primary transcript" EXACT []
-is_a: SO:0000483 ! nc_primary_transcript
 
 [Term]
 id: SO:0000233
 name: mature_transcript
-def: "A transcript which has undergone the necessary modifications, if any, for its function. In eukaryotes this includes, for example, processing of introns, cleavage, base modification, and modifications to the 5' and/or the 3' ends, other than addition of bases. In bacteria functional mRNAs are usually not modified." []
+namespace: sequence
+def: "A transcript which has undergone the necessary modifications, if any, for its function. In eukaryotes this includes, for example, processing of introns, cleavage, base modification, and modifications to the 5' and/or the 3' ends, other than addition of bases. In bacteria functional mRNAs are usually not modified." [SO:ke]
+comment: A processed transcript cannot contain introns.
+subset: SOFA
 synonym: "mature transcript" EXACT []
+xref: http://en.wikipedia.org/wiki/Mature_transcript "wiki"
 is_a: SO:0000673 ! transcript
-relationship: derives_from SO:0000185 ! primary_transcript
 
 [Term]
 id: SO:0000234
 name: mRNA
-def: "Messenger RNA is the intermediate molecule between DNA and protein. It includes UTR and coding sequences. It does not contain introns." []
+namespace: sequence
+def: "Messenger RNA is the intermediate molecule between DNA and protein. It includes UTR and coding sequences. It does not contain introns." [SO:ma]
+comment: An mRNA does not contain introns as it is a processed_transcript. The equivalent kind of primary_transcript is protein_coding_primary_transcript (SO:0000120) which may contain introns. This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
+subset: SOFA
+synonym: "INSDC_feature:mRNA" EXACT []
 synonym: "messenger RNA" EXACT []
 synonym: "protein_coding_transcript" EXACT []
+xref: http://en.wikipedia.org/wiki/MRNA "wiki"
+xref: http://www.gencodegenes.org/gencode_biotypes.html "GENCODE"
 is_a: SO:0000233 ! mature_transcript
-
-[Term]
-id: SO:0000237
-name: transcript_attribute
-synonym: "transcript attribute" EXACT []
-is_a: SO:0000733 ! feature_attribute
-
-[Term]
-id: SO:0000246
-name: polyadenylated
-def: "A attribute describing the addition of a poly A tail to the 3' end of a mRNA molecule." []
-is_a: SO:0000863 ! mRNA_attribute
 
 [Term]
 id: SO:0000252
 name: rRNA
-def: "RNA that comprises part of a ribosome, and that can provide both structural scaffolding and catalytic activity." []
+namespace: sequence
+def: "RNA that comprises part of a ribosome, and that can provide both structural scaffolding and catalytic activity." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html, ISBN:0198506732]
+subset: SOFA
+synonym: "INSDC_feature:rRNA" EXACT []
+synonym: "INSDC_qualifier:unknown" BROAD []
 synonym: "ribosomal ribonucleic acid" EXACT []
 synonym: "ribosomal RNA" EXACT []
+xref: http://en.wikipedia.org/wiki/RRNA "wiki"
 is_a: SO:0000655 ! ncRNA
-relationship: derives_from SO:0000209 ! rRNA_primary_transcript
 
 [Term]
 id: SO:0000253
 name: tRNA
-def: "Transfer RNA (tRNA) molecules are approximately 80 nucleotides in length. Their secondary structure includes four short double-helical elements and three loops (D, anti-codon, and T loops). Further hydrogen bonds mediate the characteristic L-shaped molecular structure. Transfer RNAs have two regions of fundamental functional importance: the anti-codon, which is responsible for specific mRNA codon recognition, and the 3' end, to which the tRNA's corresponding amino acid is attached (by aminoacyl-tRNA synthetases). Transfer RNAs cope with the degeneracy of the genetic code in two manners: having more than one tRNA (with a specific anti-codon) for a particular amino acid; and 'wobble' base-pairing, i.e. permitting non-standard base-pairing at the 3rd anti-codon position." []
+namespace: sequence
+def: "Transfer RNA (tRNA) molecules are approximately 80 nucleotides in length. Their secondary structure includes four short double-helical elements and three loops (D, anti-codon, and T loops). Further hydrogen bonds mediate the characteristic L-shaped molecular structure. Transfer RNAs have two regions of fundamental functional importance: the anti-codon, which is responsible for specific mRNA codon recognition, and the 3' end, to which the tRNA's corresponding amino acid is attached (by aminoacyl-tRNA synthetases). Transfer RNAs cope with the degeneracy of the genetic code in two manners: having more than one tRNA (with a specific anti-codon) for a particular amino acid; and 'wobble' base-pairing, i.e. permitting non-standard base-pairing at the 3rd anti-codon position." [http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00005, ISBN:0198506732]
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
+subset: SOFA
+synonym: "INSDC_feature:tRNA" EXACT []
+synonym: "INSDC_qualifier:unknown" BROAD []
 synonym: "transfer ribonucleic acid" RELATED []
 synonym: "transfer RNA" RELATED []
+xref: http://en.wikipedia.org/wiki/TRNA "wiki"
 is_a: SO:0000655 ! ncRNA
-relationship: derives_from SO:0000210 ! tRNA_primary_transcript
 
 [Term]
 id: SO:0000274
 name: snRNA
-def: "A small nuclear RNA molecule involved in pre-mRNA splicing and processing." []
+namespace: sequence
+def: "A small nuclear RNA molecule involved in pre-mRNA splicing and processing." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html, PMID:11733745, WB:ems]
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
+subset: SOFA
+synonym: "INSDC_feature:ncRNA" BROAD []
+synonym: "INSDC_qualifier:snRNA" EXACT []
 synonym: "small nuclear RNA" EXACT []
+xref: http://en.wikipedia.org/wiki/SnRNA "wiki"
 is_a: SO:0000655 ! ncRNA
-relationship: derives_from SO:0000231 ! snRNA_primary_transcript
 
 [Term]
 id: SO:0000275
 name: snoRNA
-def: "A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA." []
+namespace: sequence
+def: "A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA." [GOC:kgc]
+subset: SOFA
+synonym: "INSDC_feature:ncRNA" BROAD []
+synonym: "INSDC_qualifier:snoRNA" EXACT []
 synonym: "small nucleolar RNA" EXACT []
+xref: http://en.wikipedia.org/wiki/SnoRNA "wiki"
 is_a: SO:0000655 ! ncRNA
-relationship: derives_from SO:0000232 ! snoRNA_primary_transcript
 
 [Term]
 id: SO:0000276
 name: miRNA
-def: "Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0000647) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors." []
+namespace: sequence
+alt_id: SO:0000649
+def: "Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0000647) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors." [PMID:11081512, PMID:12592000]
+subset: SOFA
+synonym: "INSDC_feature:ncRNA" BROAD []
+synonym: "INSDC_qualifier:miRNA" EXACT []
 synonym: "micro RNA" EXACT []
 synonym: "microRNA" EXACT []
 synonym: "small temporal RNA" EXACT []
 synonym: "stRNA" EXACT []
+xref: http://en.wikipedia.org/wiki/MiRNA "wiki"
+xref: http://en.wikipedia.org/wiki/StRNA "wiki"
 is_a: SO:0000370 ! small_regulatory_ncRNA
-relationship: part_of SO:0001244 ! pre_miRNA
 
 [Term]
 id: SO:0000296
 name: origin_of_replication
-def: "The origin of replication; starting site for duplication of a nucleic acid molecule to give two identical copies." []
+namespace: sequence
+def: "A region of nucleic acid from which replication initiates; includes sequences that are recognized by replication proteins, the site from which the first separation of complementary strands occurs, and specific replication start sites." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html, NCBI:cf]
+subset: SOFA
+synonym: "INSDC_feature:rep_origin" EXACT []
 synonym: "ori" EXACT []
 synonym: "origin of replication" EXACT []
+xref: http://en.wikipedia.org/wiki/Origin_of_replication "wiki"
 is_a: SO:0001411 ! biological_region
-relationship: part_of SO:0001235 ! replicon
-
-[Term]
-id: SO:0000325
-name: rRNA_large_subunit_primary_transcript
-def: "A primary transcript encoding a large ribosomal subunit RNA." []
-synonym: "35S rRNA primary transcript" EXACT []
-synonym: "rRNA large subunit primary transcript" EXACT []
-is_a: SO:0000209 ! rRNA_primary_transcript
 
 [Term]
 id: SO:0000330
 name: conserved_region
-def: "Region of sequence similarity by descent from a common ancestor." []
+namespace: sequence
+def: "Region of sequence similarity by descent from a common ancestor." [SO:ke]
+subset: SOFA
 synonym: "conserved region" EXACT []
+synonym: "INSDC_feature:misc_feature" BROAD []
+synonym: "INSDC_note:conserved_region" EXACT []
+xref: http://en.wikipedia.org/wiki/Conserved_region "wiki"
 is_a: SO:0001410 ! experimental_feature
-
-[Term]
-id: SO:0000340
-name: chromosome
-def: "Structural unit composed of a nucleic acid molecule which controls its own replication through the interaction of specific proteins at one or more origins of replication." []
-is_a: SO:0001235 ! replicon
 
 [Term]
 id: SO:0000370
 name: small_regulatory_ncRNA
-def: "A non-coding RNA, usually with a specific secondary structure, that acts to regulate gene expression." []
+namespace: sequence
+def: "A non-coding RNA less than 200 nucleotides long, usually with a specific secondary structure, that acts to regulate gene expression. These include short ncRNAs such as piRNA, miRNA and siRNAs (among others)." [PMID:28541282, PomBase:al, SO:ma]
+subset: SOFA
 synonym: "small regulatory ncRNA" EXACT []
 is_a: SO:0000655 ! ncRNA
 
 [Term]
-id: SO:0000372
-name: enzymatic_RNA
-def: "An RNA sequence that has catalytic activity with or without an associated ribonucleoprotein." []
-synonym: "enzymatic RNA" EXACT []
-is_a: SO:0000673 ! transcript
-intersection_of: SO:0000673 ! transcript
-intersection_of: has_quality SO:0001185 ! enzymatic
-relationship: has_quality SO:0001185 ! enzymatic
-
-[Term]
-id: SO:0000374
-name: ribozyme
-def: "An RNA with catalytic activity." []
-is_a: SO:0000372 ! enzymatic_RNA
-intersection_of: SO:0000372 ! enzymatic_RNA
-intersection_of: has_quality SO:0001186 ! ribozymic
-relationship: has_quality SO:0001186 ! ribozymic
-
-[Term]
 id: SO:0000375
 name: rRNA_5_8S
-def: "5_8S ribosomal RNA (5. 8S rRNA) is a component of the large subunit of the eukaryotic ribosome. It is transcribed by RNA polymerase I as part of the 45S precursor that also contains 18S and 28S rRNA. Functionally, it is thought that 5.8S rRNA may be involved in ribosome translocation. It is also known to form covalent linkage to the p53 tumour suppressor protein. 5_8S rRNA is also found in archaea." []
+namespace: sequence
+def: "5_8S ribosomal RNA (5. 8S rRNA) is a component of the large subunit of the eukaryotic ribosome. It is transcribed by RNA polymerase I as part of the 45S precursor that also contains 18S and 28S rRNA. Functionally, it is thought that 5.8S rRNA may be involved in ribosome translocation. It is also known to form covalent linkage to the p53 tumour suppressor protein. 5_8S rRNA is also found in archaea." [http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00002]
+subset: SOFA
 synonym: "5.8S LSU rRNA" EXACT []
 synonym: "5.8S ribosomal RNA" EXACT []
 synonym: "5.8S rRNA" EXACT []
 synonym: "rRNA 5 8S" EXACT []
+xref: http://en.wikipedia.org/wiki/5.8S_ribosomal_RNA "wiki"
 is_a: SO:0000651 ! large_subunit_rRNA
-
-[Term]
-id: SO:0000400
-name: sequence_attribute
-def: "An attribute describes a quality of sequence." []
-synonym: "sequence attribute" EXACT []
-
-[Term]
-id: SO:0000483
-name: nc_primary_transcript
-def: "A primary transcript that is never translated into a protein." []
-synonym: "nc primary transcript" EXACT []
-synonym: "noncoding primary transcript" EXACT []
-is_a: SO:0000185 ! primary_transcript
 
 [Term]
 id: SO:0000577
 name: centromere
-def: "A region of chromosome where the spindle fibers attach during mitosis and meiosis." []
+namespace: sequence
+def: "A region of chromosome where the spindle fibers attach during mitosis and meiosis." [SO:ke]
+subset: SOFA
+synonym: "INSDC_feature:centromere" EXACT []
+xref: http://en.wikipedia.org/wiki/Centromere "wiki"
 is_a: SO:0000628 ! chromosomal_structural_element
-
-[Term]
-id: SO:0000581
-name: cap
-def: "A structure consisting of a 7-methylguanosine in 5'-5' triphosphate linkage with the first nucleotide of an mRNA. It is added post-transcriptionally, and is not encoded in the DNA." []
-is_a: SO:0001411 ! biological_region
 
 [Term]
 id: SO:0000587
 name: group_I_intron
-def: "Group I catalytic introns are large self-splicing ribozymes. They catalyze their own excision from mRNA, tRNA and rRNA precursors in a wide range of organisms. The core secondary structure consists of 9 paired regions (P1-P9). These fold to essentially two domains, the P4-P6 domain (formed from the stacking of P5, P4, P6 and P6a helices) and the P3-P9 domain (formed from the P8, P3, P7 and P9 helices). Group I catalytic introns often have long ORFs inserted in loop regions." []
+namespace: sequence
+def: "Group I catalytic introns are large self-splicing ribozymes. They catalyze their own excision from mRNA, tRNA and rRNA precursors in a wide range of organisms. The core secondary structure consists of 9 paired regions (P1-P9). These fold to essentially two domains, the P4-P6 domain (formed from the stacking of P5, P4, P6 and P6a helices) and the P3-P9 domain (formed from the P8, P3, P7 and P9 helices). Group I catalytic introns often have long ORFs inserted in loop regions." [http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00028]
+comment: GO:0000372.
+subset: SOFA
 synonym: "group I intron" EXACT []
+xref: http://en.wikipedia.org/wiki/Group_I_intron "wiki"
 is_a: SO:0000588 ! autocatalytically_spliced_intron
 
 [Term]
 id: SO:0000588
 name: autocatalytically_spliced_intron
-def: "A self spliced intron." []
+namespace: sequence
+def: "A self spliced intron." [SO:ke]
+subset: SOFA
 synonym: "autocatalytically spliced intron" EXACT []
+synonym: "INSDC_feature:ncRNA" BROAD []
+synonym: "INSDC_qualifier:autocatalytically_spliced_intron" EXACT []
 is_a: SO:0000188 ! intron
-intersection_of: SO:0000188 ! intron
-intersection_of: has_quality SO:0001186 ! ribozymic
-relationship: has_quality SO:0001186 ! ribozymic
 
 [Term]
 id: SO:0000593
 name: C_D_box_snoRNA
-def: "Most box C/D snoRNAs also contain long (>10 nt) sequences complementary to rRNA. Boxes C and D, as well as boxes C' and D', are usually located in close proximity, and form a structure known as the box C/D motif. This motif is important for snoRNA stability, processing, nucleolar targeting and function. A small number of box C/D snoRNAs are involved in rRNA processing; most, however, are known or predicted to serve as guide RNAs in ribose methylation of rRNA. Targeting involves direct base pairing of the snoRNA at the rRNA site to be modified and selection of a rRNA nucleotide a fixed distance from box D or D'." []
+namespace: sequence
+def: "Most box C/D snoRNAs also contain long (>10 nt) sequences complementary to rRNA. Boxes C and D, as well as boxes C' and D', are usually located in close proximity, and form a structure known as the box C/D motif. This motif is important for snoRNA stability, processing, nucleolar targeting and function. A small number of box C/D snoRNAs are involved in rRNA processing; most, however, are known or predicted to serve as guide RNAs in ribose methylation of rRNA. Targeting involves direct base pairing of the snoRNA at the rRNA site to be modified and selection of a rRNA nucleotide a fixed distance from box D or D'." [http://www.bio.umass.edu/biochem/rna-sequence/Yeast_snoRNA_Database/snoRNA_DataBase.html]
+subset: SOFA
 synonym: "box C/D snoRNA" EXACT []
 synonym: "C D box snoRNA" EXACT []
 synonym: "C/D box snoRNA" EXACT []
 is_a: SO:0000275 ! snoRNA
-relationship: derives_from SO:0000595 ! C_D_box_snoRNA_primary_transcript
 
 [Term]
 id: SO:0000594
 name: H_ACA_box_snoRNA
-def: "Members of the box H/ACA family contain an ACA triplet, exactly 3 nt upstream from the 3' end and an H-box in a hinge region that links two structurally similar functional domains of the molecule. Both boxes are important for snoRNA biosynthesis and function. A few box H/ACA snoRNAs are involved in rRNA processing; most others are known or predicted to participate in selection of uridine nucleosides in rRNA to be converted to pseudouridines. Site selection is mediated by direct base pairing of the snoRNA with rRNA through one or both targeting domains." []
+namespace: sequence
+def: "Members of the box H/ACA family contain an ACA triplet, exactly 3 nt upstream from the 3' end and an H-box in a hinge region that links two structurally similar functional domains of the molecule. Both boxes are important for snoRNA biosynthesis and function. A few box H/ACA snoRNAs are involved in rRNA processing; most others are known or predicted to participate in selection of uridine nucleosides in rRNA to be converted to pseudouridines. Site selection is mediated by direct base pairing of the snoRNA with rRNA through one or both targeting domains." [http://www.bio.umass.edu/biochem/rna-sequence/Yeast_snoRNA_Database/snoRNA_DataBase.html]
 synonym: "box H/ACA snoRNA" EXACT []
 synonym: "H ACA box snoRNA" EXACT []
 synonym: "H/ACA box snoRNA" EXACT []
 is_a: SO:0000275 ! snoRNA
-relationship: derives_from SO:0000596 ! H_ACA_box_snoRNA_primary_transcript
-
-[Term]
-id: SO:0000595
-name: C_D_box_snoRNA_primary_transcript
-def: "A primary transcript encoding a small nucleolar RNA of the box C/D family." []
-synonym: "C/D box snoRNA primary transcript" EXACT []
-is_a: SO:0000232 ! snoRNA_primary_transcript
-
-[Term]
-id: SO:0000596
-name: H_ACA_box_snoRNA_primary_transcript
-def: "A primary transcript encoding a small nucleolar RNA of the box H/ACA family." []
-synonym: "H ACA box snoRNA primary transcript" EXACT []
-is_a: SO:0000232 ! snoRNA_primary_transcript
-
-[Term]
-id: SO:0000610
-name: polyA_sequence
-def: "Sequence of about 100 nucleotides of A added to the 3' end of most eukaryotic mRNAs." []
-synonym: "polyA sequence" EXACT []
-is_a: SO:0001411 ! biological_region
-relationship: adjacent_to SO:0000234 ! mRNA
 
 [Term]
 id: SO:0000624
 name: telomere
-def: "A specific structure at the end of a linear chromosome, required for the integrity and maintenance of the end." []
+namespace: sequence
+def: "A specific structure at the end of a linear chromosome, required for the integrity and maintenance of the end." [SO:ma]
+subset: SOFA
+synonym: "INSDC_feature:telomere" EXACT []
 synonym: "telomeric DNA" EXACT []
 synonym: "telomeric sequence" EXACT []
+xref: http://en.wikipedia.org/wiki/Telomere "wiki"
 is_a: SO:0000628 ! chromosomal_structural_element
 
 [Term]
 id: SO:0000628
 name: chromosomal_structural_element
+namespace: sequence
+subset: SOFA
 synonym: "chromosomal structural element" EXACT []
 is_a: SO:0000830 ! chromosome_part
 
 [Term]
 id: SO:0000644
 name: antisense_RNA
-def: "Antisense RNA is RNA that is transcribed from the coding, rather than the template, strand of DNA. It is therefore complementary to mRNA." []
+namespace: sequence
+def: "Antisense RNA is RNA that is transcribed from the coding, rather than the template, strand of DNA. It is therefore complementary to mRNA." [SO:ke]
+subset: SOFA
 synonym: "antisense RNA" EXACT []
+synonym: "INSDC_feature:ncRNA" BROAD []
+synonym: "INSDC_qualifier:antisense_RNA" EXACT []
+xref: http://en.wikipedia.org/wiki/Antisense_RNA "wiki"
 is_a: SO:0000655 ! ncRNA
-relationship: derives_from SO:0000645 ! antisense_primary_transcript
 
 [Term]
-id: SO:0000645
-name: antisense_primary_transcript
-def: "The reverse complement of the primary transcript." []
-synonym: "antisense primary transcript" EXACT []
-is_a: SO:0000185 ! primary_transcript
+id: SO:0000646
+name: siRNA
+namespace: sequence
+def: "A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. SRNAs trigger the cleavage of their target molecules." [PMID:12592000]
+subset: SOFA
+synonym: "INSDC_feature:ncRNA" BROAD []
+synonym: "INSDC_qualifier:siRNA" EXACT []
+synonym: "small interfering RNA" EXACT []
+xref: http://en.wikipedia.org/wiki/SiRNA "wiki"
+is_a: SO:0000370 ! small_regulatory_ncRNA
 
 [Term]
 id: SO:0000651
 name: large_subunit_rRNA
-def: "Ribosomal RNA transcript that structures the large subunit of the ribosome." []
+namespace: sequence
+def: "Ribosomal RNA transcript that structures the large subunit of the ribosome." [SO:ke]
+subset: SOFA
 synonym: "large subunit rRNA" EXACT []
-synonym: "LSU RNA" EXACT []
-synonym: "LSU rRNA" EXACT []
+synonym: "LSU RNA" EXACT [RSC:cb]
+synonym: "LSU rRNA" EXACT [RSC:cb]
 is_a: SO:0000252 ! rRNA
-relationship: derives_from SO:0000325 ! rRNA_large_subunit_primary_transcript
 
 [Term]
 id: SO:0000655
 name: ncRNA
-def: "An RNA transcript that does not encode for a protein rather the RNA molecule is the gene product." []
+namespace: sequence
+def: "An RNA transcript that does not encode for a protein rather the RNA molecule is the gene product." [SO:ke]
+comment: A ncRNA is a processed_transcript, so it may not contain parts such as transcribed_spacer_regions that are removed in the act of processing. For the corresponding primary_transcripts, please see term SO:0000483 nc_primary_transcript.
+subset: SOFA
+synonym: "INSDC_qualifier:other" BROAD []
 synonym: "known_ncrna" EXACT []
 synonym: "noncoding RNA" EXACT []
+xref: http://en.wikipedia.org/wiki/NcRNA "wiki"
+xref: http://www.gencodegenes.org/gencode_biotypes.html "GENCODE"
 is_a: SO:0000233 ! mature_transcript
 
 [Term]
 id: SO:0000657
 name: repeat_region
-def: "A region of sequence containing one or more repeat units." []
+namespace: sequence
+def: "A region of sequence containing one or more repeat units." [SO:ke]
+subset: SOFA
+synonym: "INSDC_feature:repeat_region" BROAD []
+synonym: "INSDC_qualifier:other" EXACT []
 synonym: "repeat region" EXACT []
 is_a: SO:0001411 ! biological_region
-relationship: has_part SO:0000726 ! repeat_unit
 
 [Term]
 id: SO:0000673
 name: transcript
-def: "An RNA synthesized on a DNA or RNA template by an RNA polymerase." []
+namespace: sequence
+def: "An RNA synthesized on a DNA or RNA template by an RNA polymerase." [SO:ma]
+subset: SOFA
+synonym: "INSDC_feature:misc_RNA" BROAD []
+xref: http://en.wikipedia.org/wiki/RNA "wiki"
 is_a: SO:0000831 ! gene_member_region
-
-[Term]
-id: SO:0000704
-name: gene
-def: "A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions." []
-is_a: SO:0001411 ! biological_region
-relationship: member_of SO:0005855 ! gene_group
-
-[Term]
-id: SO:0000726
-name: repeat_unit
-def: "The simplest repeated component of a repeat region. A single repeat." []
-synonym: "repeat unit" EXACT []
-is_a: SO:0001411 ! biological_region
-
-[Term]
-id: SO:0000733
-name: feature_attribute
-def: "An attribute describing a located_sequence_feature." []
-synonym: "feature attribute" EXACT []
-is_a: SO:0000400 ! sequence_attribute
 
 [Term]
 id: SO:0000830
 name: chromosome_part
-def: "A region of a chromosome." []
+namespace: sequence
+def: "A region of a chromosome." [SO:ke]
+comment: This is a manufactured term, that serves the purpose of allow the parts of a chromosome to have an is_a path to the root.
+subset: SOFA
 synonym: "chromosome part" EXACT []
 is_a: SO:0001411 ! biological_region
-relationship: part_of SO:0000340 ! chromosome
 
 [Term]
 id: SO:0000831
 name: gene_member_region
-def: "A region of a gene." []
+namespace: sequence
+def: "A region of a gene." [SO:ke]
+comment: A manufactured term used to allow the parts of a gene to have an is_a path to the root.
+subset: SOFA
 synonym: "gene member region" EXACT []
 is_a: SO:0001411 ! biological_region
-relationship: member_of SO:0000704 ! gene
 
 [Term]
 id: SO:0000833
 name: transcript_region
-def: "A region of a transcript." []
+namespace: sequence
+def: "A region of a transcript." [SO:ke]
+comment: This term was added to provide a grouping term for the region parts of transcript, thus giving them an is_a path back to the root.
+subset: SOFA
 synonym: "transcript region" EXACT []
 is_a: SO:0001411 ! biological_region
-relationship: part_of SO:0000673 ! transcript
 
 [Term]
 id: SO:0000835
 name: primary_transcript_region
-def: "A part of a primary transcript." []
+namespace: sequence
+def: "A part of a primary transcript." [SO:ke]
+comment: This term was added to provide a grouping term for the region parts of primary_transcript, thus giving them an is_a path back to the root.
+subset: SOFA
 synonym: "primary transcript region" EXACT []
 is_a: SO:0000833 ! transcript_region
-relationship: part_of SO:0000185 ! primary_transcript
-
-[Term]
-id: SO:0000861
-name: capped_primary_transcript
-def: "A primary transcript that is capped." []
-synonym: "capped primary transcript" EXACT []
-is_a: SO:0000185 ! primary_transcript
-intersection_of: SO:0000185 ! primary_transcript
-intersection_of: adjacent_to SO:0000581 ! cap
-intersection_of: has_quality SO:0000146 ! capped
-relationship: adjacent_to SO:0000581 ! cap
-relationship: has_quality SO:0000146 ! capped
 
 [Term]
 id: SO:0000862
 name: capped_mRNA
-def: "An mRNA that is capped." []
+namespace: sequence
+def: "An mRNA that is capped." [SO:xp]
 synonym: "capped mRNA" EXACT []
 is_a: SO:0000234 ! mRNA
-intersection_of: SO:0000234 ! mRNA
-intersection_of: adjacent_to SO:0000581 ! cap
-intersection_of: has_quality SO:0000146 ! capped
-relationship: adjacent_to SO:0000581 ! cap
-relationship: has_quality SO:0000146 ! capped
-
-[Term]
-id: SO:0000863
-name: mRNA_attribute
-def: "An attribute describing an mRNA feature." []
-synonym: "mRNA attribute" EXACT []
-is_a: SO:0000237 ! transcript_attribute
 
 [Term]
 id: SO:0000871
 name: polyadenylated_mRNA
-def: "An mRNA that is polyadenylated." []
+namespace: sequence
+def: "An mRNA that is polyadenylated." [SO:xp]
 synonym: "polyadenylated mRNA" EXACT []
 is_a: SO:0000234 ! mRNA
-intersection_of: SO:0000234 ! mRNA
-intersection_of: adjacent_to SO:0000610 ! polyA_sequence
-intersection_of: has_quality SO:0000246 ! polyadenylated
-relationship: adjacent_to SO:0000610 ! polyA_sequence
-relationship: has_quality SO:0000246 ! polyadenylated
-
-[Term]
-id: SO:0001185
-name: enzymatic
-def: "An attribute describing the sequence of a transcript that has catalytic activity with or without an associated ribonucleoprotein." []
-is_a: SO:0000733 ! feature_attribute
-
-[Term]
-id: SO:0001186
-name: ribozymic
-def: "An attribute describing the sequence of a transcript that has catalytic activity even without an associated ribonucleoprotein." []
-is_a: SO:0001185 ! enzymatic
-
-[Term]
-id: SO:0001235
-name: replicon
-def: "A region containing at least one unique origin of replication and a unique termination site." []
-is_a: SO:0001411 ! biological_region
-
-[Term]
-id: SO:0001243
-name: miRNA_primary_transcript_region
-def: "A part of an miRNA primary_transcript." []
-synonym: "miRNA primary transcript region" EXACT []
-is_a: SO:0000835 ! primary_transcript_region
-
-[Term]
-id: SO:0001244
-name: pre_miRNA
-def: "The 60-70 nucleotide region remain after Drosha processing of the primary transcript, that folds back upon itself to form a hairpin structure." []
-synonym: "pre-miRNA" EXACT []
-is_a: SO:0001243 ! miRNA_primary_transcript_region
 
 [Term]
 id: SO:0001410
 name: experimental_feature
-def: "A region which is the result of some arbitrary experimental procedure. The procedure may be carried out with biological material or inside a computer." []
+namespace: sequence
+def: "A region which is the result of some arbitrary experimental procedure. The procedure may be carried out with biological material or inside a computer." [SO:cb]
+subset: SOFA
 synonym: "analysis feature" RELATED []
 synonym: "experimental output artefact" EXACT []
 synonym: "experimental_output_artefact" EXACT []
@@ -492,108 +388,64 @@ is_a: SO:0000001 ! region
 [Term]
 id: SO:0001411
 name: biological_region
-def: "A region defined by its disposition to be involved in a biological process." []
+namespace: sequence
+def: "A region defined by its disposition to be involved in a biological process." [SO:cb]
+subset: SOFA
 synonym: "biological region" EXACT []
+synonym: "INSDC_misc_feature" BROAD []
+synonym: "INSDC_note:biological_region" EXACT []
 is_a: SO:0000001 ! region
-
-[Term]
-id: SO:0001795
-name: regional_centromere
-def: "A regional centromere is a large modular centromere found in fission yeast and higher eukaryotes. It consist of a central core region flanked by inverted inner and outer repeat regions." []
-synonym: "regional centromere" EXACT []
-is_a: SO:0000577 ! centromere
 
 [Term]
 id: SO:0001796
 name: regional_centromere_central_core
-def: "A conserved region within the central region of a modular centromere, where the kinetochore is formed." []
+namespace: sequence
+def: "A conserved region within the central region of a modular centromere, where the kinetochore is formed." [SO:vw]
 synonym: "regional centromere central core" EXACT []
 is_a: SO:0000330 ! conserved_region
-relationship: part_of SO:0001795 ! regional_centromere
+created_by: kareneilbeck
+creation_date: 2011-05-31T12:56:30Z
 
 [Term]
 id: SO:0001797
 name: centromeric_repeat
-def: "A repeat region found within the modular centromere." []
+namespace: sequence
+def: "A repeat region found within the modular centromere." [SO:ke]
 synonym: "centromeric repeat" EXACT []
+synonym: "INSDC_feature:repeat_region" BROAD []
+synonym: "INSDC_qualifier:centromeric_repeat" EXACT []
 is_a: SO:0000657 ! repeat_region
+created_by: kareneilbeck
+creation_date: 2011-05-31T12:59:27Z
 
 [Term]
 id: SO:0001799
 name: regional_centromere_outer_repeat_region
-def: "The heterochromatic outer repeat region of a modular centromere. These repeats exist in tandem arrays on both chromosome arms." []
+namespace: sequence
+def: "The heterochromatic outer repeat region of a modular centromere. These repeats exist in tandem arrays on both chromosome arms." [SO:vw]
 synonym: "regional centromere outer repeat region" EXACT []
 is_a: SO:0001797 ! centromeric_repeat
-relationship: part_of SO:0001795 ! regional_centromere
-
-[Term]
-id: SO:0001905
-name: regional_centromere_outer_repeat_transcript
-def: "A transcript that is transcribed from the outer repeat region of a regional centromere." []
-synonym: "centromere outer repeat transcript" EXACT []
-synonym: "regional centromere outer repeat region transcript" EXACT []
-synonym: "regional_centromere_outer_repeat_region_transcript" EXACT []
-is_a: SO:0000185 ! primary_transcript
-intersection_of: SO:0000185 ! primary_transcript
-intersection_of: derives_from SO:0001799 ! regional_centromere_outer_repeat_region
-relationship: derives_from SO:0001799 ! regional_centromere_outer_repeat_region
+created_by: kareneilbeck
+creation_date: 2011-05-31T01:03:23Z
 
 [Term]
 id: SO:0001997
 name: subtelomere
-def: "A heterochromatic region of the chromosome,  adjacent to the telomere (on the centromeric side) that contains repetitive DNA and sometimes genes and it is transcribed." []
+namespace: sequence
+def: "A heterochromatic region of the chromosome,  adjacent to the telomere (on the centromeric side) that contains repetitive DNA and sometimes genes and it is transcribed." [POMBE:al]
 is_a: SO:0000628 ! chromosomal_structural_element
+created_by: kareneilbeck
+creation_date: 2014-01-05T07:02:01Z
 
 [Term]
 id: SO:0002141
 name: late_origin_of_replication
-def: "An origin of replication that initiates late in S phase." []
+namespace: sequence
+def: "An origin of replication that initiates late in S phase." [PMID:23348837, PMID:9115207]
 synonym: "late origin" EXACT []
 synonym: "late origin of replication" EXACT []
 synonym: "late replication origin" EXACT []
 is_a: SO:0000296 ! origin_of_replication
-
-[Term]
-id: SO:0005855
-name: gene_group
-def: "A collection of related genes." []
-synonym: "gene group" EXACT []
-is_a: SO:0001411 ! biological_region
-
-[Typedef]
-id: adjacent_to
-name: adjacent_to
-def: "A geometric operator, specified in Egenhofer 1989. Two features meet if they share a junction on the sequence. X adjacent_to Y iff X and Y share a boundary but do not overlap." []
-xref: adjacent_to
-
-[Typedef]
-id: derives_from
-name: derives_from
-xref: derives_from
-is_transitive: true
-
-[Typedef]
-id: has_part
-name: has_part
-def: "Inverse of part_of." []
-xref: has_part
-
-[Typedef]
-id: has_quality
-name: has_quality
-xref: has_quality
-
-[Typedef]
-id: member_of
-name: member_of
-xref: member_of
-is_transitive: true
-is_a: part_of ! part_of
-
-[Typedef]
-id: part_of
-name: part_of
-def: "X part_of Y if X is a subregion of Y." []
-xref: part_of
-is_transitive: true
+created_by: nicole
+creation_date: 2016-09-15T15:56:07Z
 

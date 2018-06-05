@@ -1,0 +1,15 @@
+prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix oio: <http://www.geneontology.org/formats/oboInOwl#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?goTerm ?obsolete
+WHERE {
+  ?goTerm owl:equivalentClass ?equiv .
+  ?equiv owl:intersectionOf ?intersect .
+  ?intersect rdf:rest*/rdf:first [ rdf:type owl:Restriction ;
+                                   owl:someValuesFrom ?obsolete ] .
+
+  ?obsolete owl:deprecated "true"^^xsd:boolean .
+}

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2017-04-11/imports/cl_import.owl
+data-version: go/releases/2018-05-21/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -431,8 +431,7 @@ is_a: CL:2000032 ! peripheral nervous system neuron
 id: CL:0000108
 name: cholinergic neuron
 def: "A neuron that uses acetylcholine as a vesicular neurotransmitter." []
-is_a: CL:0000151 ! secretory cell
-is_a: CL:0000540 ! neuron
+is_a: CL:0000381 ! neurosecretory neuron
 
 [Term]
 id: CL:0000115
@@ -569,7 +568,7 @@ id: CL:0000138
 name: chondrocyte
 def: "Skeletogenic cell that is terminally differentiated, secretes an avascular, GAG-rich matrix, is embedded in cartilage tissue matrix, retains the ability to divide, and develops from a chondroblast cell." []
 synonym: "cartilage cell" EXACT []
-is_a: CL:0000153 ! GAG secreting cell
+is_a: CL:0000153 ! glycosaminoglycan secreting cell
 is_a: CL:0000667 ! collagen secreting cell
 
 [Term]
@@ -615,9 +614,10 @@ is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000153
-name: GAG secreting cell
+name: glycosaminoglycan secreting cell
 def: "A cell that secretes glycosaminoglycans." []
-synonym: "hyaluronic acid secreting cell" EXACT []
+synonym: "GAG secreting cell" EXACT []
+synonym: "hyaluronic acid secreting cell" NARROW []
 is_a: CL:0000327 ! extracellular matrix secreting cell
 is_a: CL:0000447 ! carbohydrate secreting cell
 
@@ -771,7 +771,7 @@ is_a: CL:0002132 ! stromal cell of ovary
 [Term]
 id: CL:0000177
 name: testosterone secreting cell
-is_a: CL:0000593 ! androgen secreting cell
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000178
@@ -831,6 +831,7 @@ is_a: CL:0002371 ! somatic cell
 id: CL:0000188
 name: cell of skeletal muscle
 def: "A somatic cell located in skeletal muscle." []
+synonym: "skeletal muscle cell" EXACT []
 is_a: CL:0002371 ! somatic cell
 
 [Term]
@@ -845,7 +846,7 @@ id: CL:0000192
 name: smooth muscle cell
 def: "A non-striated, elongated, spindle-shaped cell found lining the digestive tract, uterus, and blood vessels. They develop from specialized myoblasts (smooth muscle myoblast)." []
 synonym: "myocytes, smooth muscle" EXACT []
-synonym: "non-striated muscle cell" EXACT []
+synonym: "non-striated muscle cell" NARROW []
 synonym: "SMCs" EXACT []
 synonym: "smooth muscle fiber" EXACT []
 is_a: CL:0008000 ! non-striated muscle cell
@@ -1227,14 +1228,21 @@ is_a: CL:0002159 ! general ecto-epithelial cell
 
 [Term]
 id: CL:0000365
-name: zygote
+name: animal zygote
 def: "Diploid cell produced by the fusion of sperm cell nucleus and egg cell." []
+synonym: "zygote" BROAD []
 is_a: CL:0000007 ! early embryonic cell
 
 [Term]
 id: CL:0000373
 name: histoblast
 is_a: CL:0000146 ! simple columnar epithelial cell
+
+[Term]
+id: CL:0000381
+name: neurosecretory neuron
+is_a: CL:0000151 ! secretory cell
+is_a: CL:0000527 ! efferent neuron
 
 [Term]
 id: CL:0000386
@@ -1544,6 +1552,8 @@ is_a: CL:0000154 ! protein secreting cell
 id: CL:0000513
 name: cardiac muscle myoblast
 def: "A precursor cell destined to differentiate into cardiac muscle cell." []
+synonym: "cardiac muscle progenitor cell" EXACT []
+synonym: "cardiomyocyte progenitor cell" EXACT []
 is_a: CL:0002494 ! cardiocyte
 is_a: CL:0010021 ! cardiac myoblast
 
@@ -1747,12 +1757,6 @@ def: "The reproductive cell in multicellular organisms." []
 is_a: CL:0000039 ! germ line cell
 
 [Term]
-id: CL:0000593
-name: androgen secreting cell
-def: "A steroid hormone secreting cell that secretes androgen." []
-is_a: CL:0000174 ! steroid hormone secreting cell
-
-[Term]
 id: CL:0000594
 name: skeletal muscle satellite cell
 def: "An elongated, spindle-shaped, cell that is located between the basal lamina and the plasmalemma of a muscle fiber. These cells are mostly quiescent, but upon activation they divide to produce cells that generate new muscle fibers." []
@@ -1864,7 +1868,7 @@ def: "A lymphocyte that can spontaneously kill a variety of target cells without
 synonym: "large granular lymphocyte" BROAD []
 synonym: "NK cell" EXACT []
 synonym: "null cell" BROAD []
-is_a: CL:0000542 ! lymphocyte
+is_a: CL:0001067 ! group 1 innate lymphoid cell
 
 [Term]
 id: CL:0000624
@@ -2037,6 +2041,7 @@ is_a: CL:0000540 ! neuron
 [Term]
 id: CL:0000680
 name: muscle precursor cell
+def: "A non-terminally differentiated cell that is capable of developing into a muscle cell." []
 is_a: CL:0000055 ! non-terminally differentiated cell
 is_a: CL:0002371 ! somatic cell
 
@@ -3053,6 +3058,18 @@ synonym: "non-Th1/Th17 CD4+ T cell" BROAD []
 is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
 
 [Term]
+id: CL:0001065
+name: innate lymphoid cell
+def: "A lymphocyte that lacks characteristic T cell, B cell, myeloid cell, and dendritic cell markers, that functions as part of the innate immune response to produce cytokines and other effector responses." []
+is_a: CL:0000542 ! lymphocyte
+
+[Term]
+id: CL:0001067
+name: group 1 innate lymphoid cell
+def: "An innate lymphoid cell that is capable of producing the type 1 cytokine IFN-gamma, but not Th2 or Th17 cell-associated cytokines." []
+is_a: CL:0001065 ! innate lymphoid cell
+
+[Term]
 id: CL:0002031
 name: hematopoietic lineage restricted progenitor cell
 def: "A hematopoietic progenitor cell that is capable of developing into only one lineage of hematopoietic cells." []
@@ -3255,7 +3272,7 @@ is_a: CL:0000115 ! endothelial cell
 id: CL:0002140
 name: acinar cell of sebaceous gland
 def: "A sebum secreting cell of the skin that secretes sebum into the hair follicles." []
-synonym: "sebocyte" EXACT []
+synonym: "sebocyte" BROAD []
 is_a: CL:0000317 ! sebum secreting cell
 is_a: CL:0000622 ! acinar cell
 is_a: CL:1000448 ! epithelial cell of sweat gland
@@ -3363,6 +3380,14 @@ def: "A cell of the embryo." []
 is_a: CL:0000548 ! animal cell
 
 [Term]
+id: CL:0002322
+name: embryonic stem cell
+def: "A stem cell of embryonic origin." []
+synonym: "ESC" EXACT []
+is_a: CL:0000034 ! stem cell
+is_a: CL:0002321 ! embryonic cell
+
+[Term]
 id: CL:0002323
 name: amniocyte
 def: "A cell of a fetus which is suspended in the amniotic fluid. Amniocytes are considered to arise from several tissues including fetal skin, the fetal urinary tract, umbilical cord, and the inner amniotic surface." []
@@ -3441,12 +3466,6 @@ name: ear hair cell
 def: "A hair cell of the ear that contains the organs of balance and hearing." []
 synonym: "ear receptor cell" EXACT []
 is_a: CL:0000855 ! sensory hair cell
-
-[Term]
-id: CL:0002380
-name: oospore
-def: "An asexual spore formed by Oomycetes; formed upon fertilization of an oosphere." []
-is_a: CL:0000605 ! fungal asexual spore
 
 [Term]
 id: CL:0002385
@@ -4436,7 +4455,6 @@ id: CL:2000075
 name: anterior visceral endoderm cell
 def: "Any endodermal cell that is part of a anterior visceral endoderm." []
 is_a: CL:0000223 ! endodermal cell
-is_a: CL:0000349 ! extraembryonic cell
 
 [Term]
 id: CL:2000097
