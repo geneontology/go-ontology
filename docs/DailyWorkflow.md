@@ -1,8 +1,6 @@
-**The current version of the documentation has been moved to http://wiki.geneontology.org/index.php/Installing_and_Using_git**
+**The current version of the documentation has been moved to http://wiki.geneontology.org/index.php/Ontology_Editing_Guide**
 
 # Daily Workflow
-
-**The current version of the documentation has been moved to http://wiki.geneontology.org/index.php/Ontology_Editing_Guide**
 
 ## Updating the local copy of the ontology with 'git pull'
 
