@@ -1,5 +1,6 @@
-### Adding Terms to the Import Files
 **The current version of the documentation has been moved to http://wiki.geneontology.org/index.php/Ontology_Editing_Guide**
+
+### Adding Terms to the Import Files
 
 Terms are imported to GO from other ontologies, but not all terms from external ontologies are imported. Occasionally, you will find that a valid identifier exists in an external ontology, but the identifier is not available in Protege because that term is not yet imported. To import a term from an external ontology:
 
