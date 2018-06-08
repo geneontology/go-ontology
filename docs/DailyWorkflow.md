@@ -1,5 +1,7 @@
 # Daily Workflow
 
+**The current version of the documentation has been moved to http://wiki.geneontology.org/index.php/Ontology_Editing_Guide**
+
 ## Updating the local copy of the ontology with 'git pull'
 
 1. Navigate to the ontology directory of go-ontology:  ```cd repos/go-ontology/src/ontology```.
