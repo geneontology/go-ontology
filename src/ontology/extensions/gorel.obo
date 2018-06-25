@@ -1928,7 +1928,7 @@ subset: display_for_curators
 subset: valid_for_annotation_extension
 xref: GOREL:0098702
 property_value: local_domain "GO:0098772 GO:0065009" xsd:string
-property_value: local_range "GO:0043234 SO:0000374 PR:000000001" xsd:string
+property_value: local_range "GO:0032991 SO:0000374 PR:000000001" xsd:string
 property_value: usage "Use this relation to link either a molecular function, or a biological process that regulates a molecular function, to the gene product or complex that executes the regulated function." xsd:string
 is_a: regulates_o_has_agent ! regulates_o_has_agent
 
@@ -1987,7 +1987,7 @@ subset: valid_for_annotation_extension
 synonym: "regulates_o_has_agent" EXACT []
 xref: GOREL:0001011
 property_value: local_domain "GO:0098772 GO:0065009" xsd:string
-property_value: local_range "PO:0025131 GO:0043234 SO:0000374 UBERON:0000465 SO:0000374 PR:000000001" xsd:string
+property_value: local_range "PO:0025131 GO:0032991 SO:0000374 UBERON:0000465 SO:0000374 PR:000000001" xsd:string
 domain: BFO:0000015
 range: BFO:0000004
 is_a: has_regulation_target ! has_regulation_target
