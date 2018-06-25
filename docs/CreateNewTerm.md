@@ -1,3 +1,5 @@
+**The current version of the documentation has been moved to http://wiki.geneontology.org/index.php/Ontology_Editing_Guide**
+
 # Creating a New Ontology Term
 
 See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) for creating branches and basic Protégé instructions.
@@ -33,6 +35,15 @@ See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#dail
 	 
       4. Add synonyms and dbxrefs following the same procedure if they are required for the term.
 6. If you have created a logical definition for your term, you can delete the asserted ```is_a``` parent in the ‘subclass of’ section. Once you synchronize the reasoner, you will see the automated classification of your new term. If the inferred classification doesn’t make sense, then you will need to modify the logical definition. 
+
+	```
+    Protege tip:  If you need to create a logical definition using a GO term name that does not begin 
+    with an alphabetic character, e.g. GO:0004534 (5'-3' exoribonuclease activity), navigate to the 
+    View menu in Protege and select 'Render by entity IRI short name (Id).  This will allow you to 
+    enter a logical definition by entering the relations and term as IDs, e.g. RO_0002215 some GO_0004534.  
+    Note the use of the underscore instead of the colon in the ID.  You can then return to the View 
+    menu to switch back to Render by label (rdfs:label) to see the term names.
+	```
 
 7. In some cases such as ```part_of``` relations based on external partonomies, it might be necessary to assert the ```part_of``` relationships. For example: ```‘heart valve development’ part_of some ‘heart development’```. In those cases, it is important to browse the external ontologies to be sure that nothing is missing. 
 

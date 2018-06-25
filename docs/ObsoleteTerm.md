@@ -1,3 +1,5 @@
+**The current version of the documentation has been moved to http://wiki.geneontology.org/index.php/Ontology_Editing_Guide**
+
 # Obsoleting an Existing Ontology Term
 
 See [Daily Workflow](http://go-ontology.readthedocs.io/en/latest/index.html#daily-workflow) for creating branches and basic Protégé instructions.
@@ -18,10 +20,20 @@ Template:
    The reason for obsoletion is [SPECIFY]. 
    There are X experimental annotations to this term. 
    There are X InterPro2GO mappings to this term. 
-   Any comments can be added to the issue: [link to GitHub ticket]. We are opening a comment period for this proposed obsoletion. We'd like to proceed and obsolete this term on [DATE] 
+   Any comments can be added to the issue: [link to GitHub ticket]. We are opening a comment period for this proposed obsoletion. We'd like to proceed and obsolete this term on [7 days after the message; unless it involves a lot of reannotation, in this case it can be longer] 
    *** Unless objections are received by [DATE] , we will assume that you agree to this change. ***
 
-**Remeber to list the databases affected by the obsoletion**
+**Remember to list the databases affected by the obsoletion and tag people in the GH ticket**
+**Check go-slims**
+
+**Possible reasons for obsoletions:** 
+* The reason for obsoletion is that there is no evidence that this function/process/component exists. (eg: GO:0019562 L-phenylalanine catabolic process to phosphoenolpyruvate; GO:0097605 regulation of nuclear envelope permeability’; GO:0015993 molecular hydrogen transport)
+* The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent (eg: GO:0030818 negative regulation of cAMP biosynthetic process)
+* The reason for obsoletion is that this term represent a GO-CAM model. (eg: GO:0072317 glucan endo-1,3-beta-D-glucosidase activity involved in ascospore release from ascus; GO:0100060 negative regulation of SREBP signaling pathway by DNA binding)
+* The reason for obsoletion is that this term represent an assay and not a real process. (eg: GO:0035826	rubidium ion transport)
+* The reason for obsoletion is that the data from the paper for which the term was requested can be accurately described using [appropriate GO term]. (eg: GO:0015032 storage protein import into fat body)
+* etc 
+
 
 
 OBSOLETION PROCESS 

@@ -4,10 +4,12 @@ prefix owl: <http://www.w3.org/2002/07/owl#>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?obsCls ?c
+SELECT ?goTerm ?obsolete
 WHERE {
-  { ?c owl:intersectionOf [ rdf:rest*/rdf:first ?obsCls ] }
-    UNION
-  { ?c owl:someValuesFrom ?obsCls }
-  ?obsCls owl:deprecated "true"^^xsd:boolean .
+  ?goTerm owl:equivalentClass ?equiv .
+  ?equiv owl:intersectionOf ?intersect .
+  ?intersect rdf:rest*/rdf:first [ rdf:type owl:Restriction ;
+                                   owl:someValuesFrom ?obsolete ] .
+
+  ?obsolete owl:deprecated "true"^^xsd:boolean .
 }

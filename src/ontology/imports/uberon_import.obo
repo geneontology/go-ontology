@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2018-01-26/imports/uberon_import.owl
+data-version: go/releases/2018-05-21/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -787,6 +787,7 @@ name: somatic nervous system
 def: "Part of peripheral nervous system that includes the somatic parts of the cranial and spinal nerves and their ganglia and the peripheral sensory receptors." []
 synonym: "PNS - somatic" EXACT []
 synonym: "somatic nervous system, somatic division" EXACT []
+synonym: "somatic part of peripheral nervous system" EXACT []
 synonym: "somatic peripheral nervous system" EXACT []
 is_a: UBERON:0011216 ! organ system subdivision
 relationship: contributes_to_morphology_of UBERON:0001016 ! nervous system
@@ -1300,6 +1301,7 @@ synonym: "anatomical unit" RELATED []
 synonym: "body organ" RELATED []
 synonym: "element" RELATED []
 is_a: UBERON:0010000 ! multicellular anatomical structure
+disjoint_from: UBERON:0002095 ! mesentery
 disjoint_from: UBERON:0034921 ! multi organ part structure
 relationship: capable_of GO:0008150
 relationship: has_boundary UBERON:0006984 ! anatomical surface
@@ -1891,6 +1893,7 @@ relationship: part_of UBERON:0002299 ! alveolus of lung
 id: UBERON:0000117
 name: respiratory tube
 def: "A tube in the respiratory system. Examples: bronchus, bronchiole, trachea." []
+synonym: "airway" RELATED []
 synonym: "respiratory conducting tube" NARROW []
 synonym: "segment of tracheobronchial tree" EXACT []
 synonym: "segment of tracheobronchial tree" NARROW []
@@ -2455,7 +2458,7 @@ is_a: UBERON:0000475 ! organism subdivision
 [Term]
 id: UBERON:0000310
 name: breast
-def: "The upper ventral region of an animal's torso." []
+def: "The upper ventral region of the torso of an organism." []
 synonym: "mamma" RELATED []
 synonym: "mammary part of chest" EXACT []
 synonym: "mammary region" EXACT []
@@ -2879,6 +2882,29 @@ relationship: has_skeleton UBERON:0015052 ! femur endochondral element
 relationship: part_of UBERON:0000978 ! leg
 
 [Term]
+id: UBERON:0000377
+name: maxillary nerve
+def: "The sensory nerve subdivision of the trigeminal nerve that transmits sensory information from the palate, upper teeth and gingiva, the skin between the palpebral fissure and the mouth, and from the nasal cavity and maxillary sinuses." []
+synonym: "maxillary division [V2]" EXACT []
+synonym: "maxillary division [Vb]" EXACT []
+synonym: "maxillary division of fifth cranial nerve" EXACT []
+synonym: "maxillary division of trigeminal nerve (Vb; V2)" EXACT []
+synonym: "maxillary nerve [V2]" EXACT []
+synonym: "maxillary nerve [Vb]" EXACT []
+synonym: "n. maxillaris" RELATED []
+synonym: "nervus maxillaris" RELATED []
+synonym: "nervus maxillaris (Vb; V2)" EXACT []
+synonym: "nervus maxillaris [v2]" EXACT []
+synonym: "nervus maxillaris [vb]" EXACT []
+synonym: "ramus maxillaris (ramus V2)" EXACT []
+synonym: "second division of fifth cranial nerve" EXACT []
+synonym: "second division of trigeminal nerve" EXACT []
+synonym: "trigeminal nerve maxillary division" RELATED []
+synonym: "trigeminal V nerve maxillary division" EXACT []
+is_a: UBERON:0011779 ! nerve of head region
+relationship: branching_part_of UBERON:0001645 ! trigeminal nerve
+
+[Term]
 id: UBERON:0000378
 name: tongue muscle
 def: "The muscular portion of the tongue." []
@@ -3289,7 +3315,7 @@ relationship: supplies UBERON:0001675 ! trigeminal ganglion
 [Term]
 id: UBERON:0000458
 name: endocervix
-def: "1. The mucous membrane lining the canal of the cervix uteri. 2. The region of the opening of the uterine cervix into the uterine cavity." []
+def: "The region of the opening of the uterine cervix into the uterine cavity." []
 is_a: UBERON:0000064 ! organ part
 is_a: UBERON:0005156 ! reproductive structure
 intersection_of: UBERON:0000064 ! organ part
@@ -5145,8 +5171,8 @@ def: "It ascends beneath the anterior margin of the trapezius, distributing bran
 synonym: "superficial branch of transverse cervical artery" EXACT []
 is_a: UBERON:0012320 ! cervical artery
 intersection_of: UBERON:0012320 ! cervical artery
-intersection_of: part_of UBERON:0035549 ! superficial vasculature
-relationship: part_of UBERON:0035549 ! superficial vasculature
+intersection_of: part_of UBERON:0035549 ! vasculature of integument
+relationship: part_of UBERON:0035549 ! vasculature of integument
 
 [Term]
 id: UBERON:0001072
@@ -6928,14 +6954,13 @@ synonym: "falciform ligament of liver" EXACT []
 synonym: "ligamentum falciforme (hepatis)" EXACT []
 synonym: "ligamentum falciforme hepatis" EXACT []
 is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
-is_a: UBERON:0002095 ! mesentery
-is_a: UBERON:0003281 ! mesentery of stomach
 is_a: UBERON:0013139 ! ligament of liver
 intersection_of: UBERON:0008845 ! nonskeletal ligament
 intersection_of: attaches_to UBERON:0000309 ! body wall
 intersection_of: attaches_to UBERON:0002107 ! liver
 relationship: attaches_to UBERON:0000309 ! body wall
 relationship: attaches_to UBERON:0002107 ! liver
+relationship: part_of UBERON:0002095 ! mesentery
 relationship: part_of UBERON:0005626 ! ventral mesogastrium
 
 [Term]
@@ -8631,7 +8656,7 @@ name: sesamoid bone
 def: "A sesamoid element that is composed of bone tissue." []
 synonym: "ossa sesamoidea" EXACT []
 synonym: "sesamoid" BROAD []
-is_a: UBERON:0001474 ! bone element
+is_a: UBERON:0013630 ! short bone
 is_a: UBERON:0013631 ! sesamoid element
 intersection_of: UBERON:0013631 ! sesamoid element
 intersection_of: composed_primarily_of UBERON:0002481 ! bone tissue
@@ -10115,6 +10140,28 @@ relationship: part_of UBERON:0000004 ! nose
 relationship: part_of UBERON:0003113 ! dermatocranium
 
 [Term]
+id: UBERON:0001682
+name: palatine bone
+def: "A paired dermal bone situated in the mid-palate[Palaeos]." []
+synonym: "dermopalatine" NARROW []
+synonym: "os palatinum" RELATED []
+synonym: "palate bone" RELATED []
+synonym: "palatine" EXACT []
+synonym: "palatum" RELATED []
+is_a: UBERON:0008001 ! irregular bone
+is_a: UBERON:0008907 ! dermal bone
+is_a: UBERON:0011597 ! bone of upper jaw
+is_a: UBERON:0012071 ! palate bone
+is_a: UBERON:0015212 ! lateral structure
+relationship: connected_to UBERON:0002397 ! maxilla
+relationship: contributes_to_morphology_of UBERON:0011156 ! facial skeleton
+relationship: in_lateral_side_of UBERON:0011156 ! facial skeleton
+relationship: in_lateral_side_of UBERON:0012072 ! palatal part of dermatocranium
+relationship: part_of UBERON:0011085 ! palatoquadrate arch
+relationship: part_of UBERON:0012072 ! palatal part of dermatocranium
+relationship: part_of UBERON:0012074 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! bony part of hard palate
+
+[Term]
 id: UBERON:0001685
 name: hyoid bone
 def: "A horseshoe shaped bone situated in the anterior midline of the neck between the chin and the thyroid cartilage. The hyoid bone provides attachment to the muscles of the floor of the mouth and the tongue above, the larynx below, and the epiglottis and pharynx behind. [WP,modified]." []
@@ -10400,7 +10447,6 @@ relationship: part_of UBERON:0000033 ! head
 id: UBERON:0001715
 name: oculomotor nuclear complex
 def: "Nuclear complex containing subnuclei that give rise to the axons of the occulomotor nerve, both motor and parasympathetic fibers, situated at the midline at the level of the superior colliculus in the midbrain tegmentum (Brodal, Neurological Anatomy, 3rd ed., 1981, pg 533-534)." []
-synonym: "3" BROAD []
 synonym: "motor nucleus III" RELATED []
 synonym: "nIII" RELATED []
 synonym: "nucleus nervi oculomotorii" EXACT []
@@ -15338,6 +15384,16 @@ relationship: only_in_taxon NCBITaxon:7742
 relationship: surrounded_by UBERON:0001484 ! articular capsule
 
 [Term]
+id: UBERON:0002222
+name: perichondrium
+def: "Fibrous connective tissue that surrounds cartilage." []
+synonym: "cartilage connective tissue" RELATED []
+synonym: "perichondral region of cartilage" RELATED []
+synonym: "perichondral region of cartilage element" RELATED []
+is_a: UBERON:0002384 ! connective tissue
+relationship: bounding_layer_of UBERON:0007844 ! cartilage element
+
+[Term]
 id: UBERON:0002224
 name: thoracic cavity
 def: "The part of the coelemic cavity lumen that is enclosed by the walls of the thorax." []
@@ -16710,8 +16766,8 @@ relationship: part_of UBERON:0010544 ! metacarpus skeleton
 [Term]
 id: UBERON:0002376
 name: cranial muscle
-def: "Any muscle that is part of the head region." []
-synonym: "adult head muscle organ" EXACT []
+def: "Any skeletal muscle that is part of the head region." []
+synonym: "adult head muscle organ" NARROW []
 synonym: "cephalic muscle" EXACT []
 synonym: "cephalic musculature" EXACT []
 synonym: "cranial muscle" RELATED []
@@ -16730,7 +16786,7 @@ intersection_of: part_of UBERON:0000033 ! head
 relationship: attaches_to UBERON:0003129 ! skull
 relationship: develops_from UBERON:0006904 ! head mesenchyme from mesoderm
 relationship: has_developmental_contribution_from UBERON:0002342 {gci_relation="part_of", gci_filler="NCBITaxon:7742"} ! neural crest
-relationship: part_of UBERON:0004461 ! musculature of head
+relationship: part_of UBERON:0004461 ! skeletal musculature of head
 
 [Term]
 id: UBERON:0002377
@@ -16942,13 +16998,33 @@ name: vomer
 def: "the triangular flat bone of the nasal septum" []
 synonym: "prevomer" RELATED []
 synonym: "vomer bone" EXACT []
-is_a: UBERON:0003462 ! facial bone
 is_a: UBERON:0008001 ! irregular bone
+is_a: UBERON:0011597 ! bone of upper jaw
 is_a: UBERON:0012071 ! palate bone
 relationship: connected_to UBERON:0001677 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! sphenoid bone
 relationship: connected_to UBERON:0001679 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! ethmoid bone
 relationship: contributes_to_morphology_of UBERON:0011156 ! facial skeleton
+relationship: part_of UBERON:0011085 ! palatoquadrate arch
 relationship: part_of UBERON:0012072 ! palatal part of dermatocranium
+
+[Term]
+id: UBERON:0002397
+name: maxilla
+def: "The bone which normally forms the lateral upper jaw in osteichthyans, including tetrapods." []
+synonym: "maxillae" RELATED []
+synonym: "maxillary bone" RELATED []
+synonym: "upper jaw bone" BROAD []
+is_a: UBERON:0002514 ! intramembranous bone
+is_a: UBERON:0008193 ! pneumatized bone
+is_a: UBERON:0008907 ! dermal bone
+is_a: UBERON:0011597 ! bone of upper jaw
+is_a: UBERON:0015212 ! lateral structure
+relationship: adjacent_to UBERON:0002244 ! premaxilla
+relationship: contributes_to_morphology_of UBERON:0001708 ! jaw skeleton
+relationship: develops_from UBERON:0010334 ! maxillary process mesenchyme from neural crest
+relationship: in_lateral_side_of UBERON:0011156 ! facial skeleton
+relationship: part_of UBERON:0003113 ! dermatocranium
+relationship: part_of UBERON:0003277 ! skeleton of upper jaw
 
 [Term]
 id: UBERON:0002398
@@ -18730,7 +18806,6 @@ relationship: part_of UBERON:0014649 ! white matter of medulla oblongata
 id: UBERON:0002722
 name: trochlear nucleus
 def: "Nucleus in the midbrain at the level of the inferior colliculus near the midline, containing the motor neurons giving rise to the trochlear nerve, innervating the contralateral superior oblique extraocular muscle of the eye (Brodal, Neurological Anatomy, 3rd ed, 1981, pg. 533)." []
-synonym: "4" BROAD []
 synonym: "fourth cranial nerve nucleus" EXACT []
 synonym: "motor nucleus IV" EXACT []
 synonym: "nIV" EXACT []
@@ -20146,6 +20221,17 @@ intersection_of: composed_primarily_of CL:0000134
 relationship: composed_primarily_of CL:0000134
 relationship: has_developmental_contribution_from UBERON:0000926 ! mesoderm
 relationship: only_in_taxon NCBITaxon:6072
+
+[Term]
+id: UBERON:0003108
+name: suspensorium
+def: "(1) the arrangement of bones which supports the jaw from the braincase; (2) in teleost fish, a large, usually triangular, bone which supports the jaw. The teleost suspensorium is formed by fusion of various elements which vary among different taxa." []
+synonym: "hyopalatine" EXACT []
+synonym: "mandibular suspensorium" RELATED []
+synonym: "suspensoria" EXACT []
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+is_a: UBERON:0010912 ! subdivision of skeleton
+relationship: part_of UBERON:0008895 ! splanchnocranium
 
 [Term]
 id: UBERON:0003110
@@ -25294,6 +25380,7 @@ synonym: "carpal/tarsal bone" EXACT []
 synonym: "mesopod bone" EXACT []
 synonym: "mesopodial bone" EXACT []
 is_a: UBERON:0011250 ! autopod bone
+is_a: UBERON:0013630 ! short bone
 intersection_of: UBERON:0001474 ! bone element
 intersection_of: part_of UBERON:0006716 ! mesopodium region
 relationship: part_of UBERON:0009878 ! mesopodial skeleton
@@ -29813,7 +29900,7 @@ id: UBERON:0004293
 name: parasympathetic nerve
 def: "A nerve that is part of a parasympathetic nervous system [Automatically generated definition]." []
 synonym: "nerve of parasympathetic nervous system" EXACT []
-is_a: UBERON:0034728 ! autonomic nerve
+is_a: UBERON:0001021 ! nerve
 intersection_of: UBERON:0001021 ! nerve
 intersection_of: part_of UBERON:0000011 ! parasympathetic nervous system
 relationship: extends_fibers_into UBERON:0001808 ! parasympathetic ganglion
@@ -30577,8 +30664,8 @@ relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 
 [Term]
 id: UBERON:0004461
-name: musculature of head
-def: "Any collection of muscles that is part of a head [Automatically generated definition]." []
+name: skeletal musculature of head
+def: "Any collection of skeletal muscles that is part of a head [Automatically generated definition]." []
 synonym: "head musculature" EXACT []
 synonym: "muscle group of head" EXACT []
 synonym: "muscles of head" EXACT []
@@ -30586,7 +30673,9 @@ synonym: "musculi capitis" EXACT []
 synonym: "set of muscles of head" EXACT []
 is_a: UBERON:0008229 ! craniocervical region musculature
 intersection_of: UBERON:0001015 ! musculature
+intersection_of: attaches_to UBERON:0003129 ! skull
 intersection_of: part_of UBERON:0000033 ! head
+relationship: attaches_to UBERON:0003129 ! skull
 relationship: develops_from UBERON:0005253 ! head mesenchyme
 relationship: part_of UBERON:0000033 ! head
 relationship: part_of UBERON:0013700 ! axial musculature
@@ -30726,7 +30815,7 @@ synonym: "muscle group of face" EXACT []
 synonym: "musculi faciei" EXACT []
 synonym: "set of facial muscles" RELATED []
 synonym: "set of muscles of face" RELATED []
-is_a: UBERON:0004461 ! musculature of head
+is_a: UBERON:0008229 ! craniocervical region musculature
 intersection_of: UBERON:0001015 ! musculature
 intersection_of: part_of UBERON:0001456 ! face
 relationship: part_of UBERON:0001456 ! face
@@ -31029,6 +31118,25 @@ is_a: UBERON:0003452 ! trabecula carnea cardiac muscle tissue
 intersection_of: UBERON:0003452 ! trabecula carnea cardiac muscle tissue
 intersection_of: part_of UBERON:0002084 ! heart left ventricle
 relationship: part_of UBERON:0006571 ! trabecula carnea of left ventricle
+
+[Term]
+id: UBERON:0004527
+name: alveolar process of maxilla
+def: "The thickened ridge of bone that contains the tooth sockets on the maxilla." []
+synonym: "alveolar margin of maxilla" EXACT []
+synonym: "alveolar part of maxilla" EXACT []
+synonym: "alveolar process of maxilla" EXACT []
+synonym: "alveolar ridge of maxilla" EXACT []
+synonym: "lower alveolar ridge" EXACT []
+synonym: "maxilla alveolar process" EXACT []
+synonym: "pars dentalis of maxilla" EXACT []
+synonym: "posterior alveolar ridge" EXACT []
+synonym: "processus alveolaris (maxilla)" EXACT []
+synonym: "processus alveolaris maxillae" EXACT []
+is_a: UBERON:0004103 ! alveolar ridge
+intersection_of: UBERON:0004103 ! alveolar ridge
+intersection_of: part_of UBERON:0002397 ! maxilla
+relationship: part_of UBERON:0002397 ! maxilla
 
 [Term]
 id: UBERON:0004529
@@ -31364,6 +31472,27 @@ is_a: UBERON:0004119 ! endoderm-derived structure
 relationship: contributes_to_morphology_of UBERON:0001280 ! liver parenchyma
 relationship: has_part CL:0000182
 relationship: part_of UBERON:0001280 ! liver parenchyma
+
+[Term]
+id: UBERON:0004649
+name: sphenoid bone pterygoid process
+def: "the process projecting downward from either side of the sphenoid bone, in vertebrates divided into two plates, an inner and an outer (sometimes called the lateral and medial); the posterior nares pass through the space, called the pterygoid fossa, between the processes" []
+synonym: "processus pterygoideus" EXACT []
+synonym: "processus pterygoideus ossis sphenoidalis" EXACT []
+synonym: "processus pterygoideus ossis sphenoidalis" RELATED []
+synonym: "pterygoid plate" RELATED []
+synonym: "pterygoid process" EXACT []
+synonym: "pterygoid process" RELATED []
+synonym: "pterygoid process of sphenoid" EXACT []
+synonym: "pterygoid process of sphenoid bone" EXACT []
+synonym: "pterygoid process of sphenoid bone" RELATED []
+synonym: "pterygoid processes" RELATED []
+synonym: "pterygoid processus" RELATED []
+is_a: UBERON:0010313 ! neural crest-derived structure
+is_a: UBERON:0015212 ! lateral structure
+is_a: UBERON:4100000 ! skeletal element projection
+relationship: contributes_to_morphology_of UBERON:0001677 ! sphenoid bone
+relationship: in_lateral_side_of UBERON:0001677 ! sphenoid bone
 
 [Term]
 id: UBERON:0004650
@@ -32012,6 +32141,22 @@ relationship: has_developmental_contribution_from UBERON:0003324 ! mesenchyme of
 relationship: in_lateral_side_of UBERON:0003278 ! skeleton of lower jaw
 relationship: part_of UBERON:0003113 ! dermatocranium
 relationship: part_of UBERON:0003278 ! skeleton of lower jaw
+
+[Term]
+id: UBERON:0004745
+name: parasphenoid
+def: "A tooth- or denticle-covered plate which is attached to the sphenoid stem[Palaeos]." []
+synonym: "keilbein" RELATED []
+synonym: "os parasphenoidale" RELATED []
+synonym: "os sphenoideum" RELATED []
+synonym: "parabasale" RELATED []
+is_a: UBERON:0002514 ! intramembranous bone
+is_a: UBERON:0011164 ! neurocranium bone
+is_a: UBERON:0012071 ! palate bone
+relationship: part_of UBERON:0001703 ! neurocranium
+relationship: part_of UBERON:0003111 ! sphenoid region
+relationship: part_of UBERON:0003112 ! olfactory region
+relationship: part_of UBERON:0012072 ! palatal part of dermatocranium
 
 [Term]
 id: UBERON:0004749
@@ -37400,6 +37545,7 @@ def: "The part of the digestive system that excludes the hepatobiliary system." 
 synonym: "alimentary system" RELATED []
 synonym: "alimentary tract" RELATED []
 synonym: "gastro-intestinal system" RELATED []
+synonym: "gastroenterological system" RELATED []
 synonym: "gastrointestinal (GI) tract" RELATED []
 synonym: "gastrointestinal system" RELATED []
 synonym: "gastrointestinal tract" RELATED []
@@ -37651,6 +37797,21 @@ is_a: UBERON:0012139 ! segment of autopod
 intersection_of: UBERON:0012139 ! segment of autopod
 intersection_of: part_of UBERON:0002387 ! pes
 relationship: part_of UBERON:0002387 ! pes
+
+[Term]
+id: UBERON:0005446
+name: foramen rotundum
+def: "The foramen rotundum is a circular hole in the sphenoid bone that connects the middle cranial fossa and the pterygopalatine fossa." []
+synonym: "foramen rotundum of the skull" RELATED []
+synonym: "foramen rotundum ossis sphenoidalis" RELATED []
+synonym: "round foramen" RELATED []
+is_a: UBERON:0010313 ! neural crest-derived structure
+is_a: UBERON:0013685 ! foramen of skull
+intersection_of: UBERON:0013685 ! foramen of skull
+intersection_of: conduit_for UBERON:0000377 ! maxillary nerve
+intersection_of: part_of UBERON:0001677 ! sphenoid bone
+relationship: conduit_for UBERON:0000377 ! maxillary nerve
+relationship: part_of UBERON:0001677 ! sphenoid bone
 
 [Term]
 id: UBERON:0005451
@@ -45260,6 +45421,22 @@ relationship: only_in_taxon NCBITaxon:7742
 relationship: part_of UBERON:0000165 ! mouth
 
 [Term]
+id: UBERON:0008810
+name: nasopalatine nerve
+def: "A branch of that maxillary nerve that innervates the mucous membrane of the hard palate." []
+synonym: "naso-palatine nerve" RELATED []
+synonym: "nasopalatine" RELATED []
+synonym: "nasopalatine nerves" RELATED []
+synonym: "nervus nasopalatinus" RELATED []
+synonym: "Scarpa's nerve" EXACT []
+is_a: UBERON:0011779 ! nerve of head region
+intersection_of: UBERON:0001021 ! nerve
+intersection_of: branching_part_of UBERON:0000377 ! maxillary nerve
+intersection_of: innervates UBERON:0005046 ! mucosa of hard palate
+relationship: branching_part_of UBERON:0000377 ! maxillary nerve
+relationship: innervates UBERON:0005046 ! mucosa of hard palate
+
+[Term]
 id: UBERON:0008811
 name: intromittent organ
 def: "An external organ of a male organism that is specialized to deliver sperm during copulation. Intromittent organs are found most often in terrestrial species, as most aquatic species fertilize their eggs externally, although there are exceptions[WP]." []
@@ -45538,7 +45715,6 @@ synonym: "pre-bone" EXACT []
 synonym: "prebone" EXACT []
 synonym: "prebone tissue" EXACT []
 is_a: UBERON:0002481 ! bone tissue
-is_a: UBERON:0007475 ! matrix-based tissue
 relationship: composed_primarily_of GO:0005578
 
 [Term]
@@ -45685,7 +45861,19 @@ synonym: "perichordal bones" EXACT []
 is_a: UBERON:0012075 ! replacement bone
 intersection_of: UBERON:0001474 ! bone element
 intersection_of: adjacent_to UBERON:0002328 ! notochord
+disjoint_from: UBERON:0008913 ! perichondral bone
 relationship: adjacent_to UBERON:0002328 ! notochord
+
+[Term]
+id: UBERON:0008913
+name: perichondral bone
+def: "Bone element that is located on the surface of a cartilage element." []
+synonym: "perichondral bone" RELATED []
+synonym: "perichondral bones" EXACT []
+is_a: UBERON:0002513 ! endochondral bone
+is_a: UBERON:0007842 ! membrane bone
+relationship: develops_from UBERON:0002222 ! perichondrium
+relationship: participates_in GO:0036073
 
 [Term]
 id: UBERON:0008946
@@ -47025,10 +47213,9 @@ id: UBERON:0009655
 name: auricular artery
 def: "An artery that supplies oxygenated blood to the ear." []
 is_a: UBERON:0001637 ! artery
-is_a: UBERON:0020550 ! auricular blood vessel
 intersection_of: UBERON:0001637 ! artery
-intersection_of: supplies UBERON:0001690 ! ear
-relationship: supplies UBERON:0001690 ! ear
+intersection_of: supplies UBERON:0001691 ! external ear
+relationship: supplies UBERON:0001691 ! external ear
 
 [Term]
 id: UBERON:0009657
@@ -49622,7 +49809,7 @@ relationship: part_of UBERON:0009142 ! entire embryonic mesenchyme
 id: UBERON:0010380
 name: enteric nerve
 def: "the neurons that innervate the esophagus, stomach, small and large bowel" []
-is_a: UBERON:0034728 ! autonomic nerve
+is_a: UBERON:0001021 ! nerve
 intersection_of: UBERON:0001021 ! nerve
 intersection_of: part_of UBERON:0002005 ! enteric nervous system
 relationship: contributes_to_morphology_of UBERON:0002005 ! enteric nervous system
@@ -49661,6 +49848,27 @@ synonym: "vertebral part of rib" RELATED []
 is_a: UBERON:0005055 ! zone of long bone
 relationship: connected_to UBERON:0002412 ! vertebra
 relationship: part_of UBERON:0002228 ! rib
+
+[Term]
+id: UBERON:0010389
+name: pterygoid bone
+def: "A bone which corresponds to the inner plate of the pterygoid process of the human skull, but which, in all vertebrates below mammals, is not connected with the posterior nares, but serves to connect the palatine bones with the point of suspension of the lower jaw" []
+synonym: "inner plate of pterygoid process" RELATED []
+synonym: "lamina lateralis (processus pterygoideus)" EXACT []
+synonym: "lamina lateralis processi pterygoideus ossis sphenoidalis" EXACT []
+synonym: "lateral lamina of pterygoid process" EXACT []
+synonym: "lateral plate of pterygoid process" EXACT []
+synonym: "lateral plate of sphenoid" EXACT []
+synonym: "lateral pterygoid plate" EXACT []
+synonym: "pterygoid" BROAD []
+is_a: UBERON:0002513 ! endochondral bone
+is_a: UBERON:0003462 ! facial bone
+is_a: UBERON:0011164 ! neurocranium bone
+is_a: UBERON:0012071 ! palate bone
+relationship: contributes_to_morphology_of UBERON:0004649 ! sphenoid bone pterygoid process
+relationship: part_of UBERON:0003108 ! suspensorium
+relationship: part_of UBERON:0004649 ! sphenoid bone pterygoid process
+relationship: part_of UBERON:0012072 ! palatal part of dermatocranium
 
 [Term]
 id: UBERON:0010390
@@ -50969,6 +51177,24 @@ intersection_of: part_of UBERON:0008895 ! splanchnocranium
 relationship: part_of UBERON:0008895 ! splanchnocranium
 
 [Term]
+id: UBERON:0011085
+name: palatoquadrate arch
+def: "The dorsal portion of the first pharyngeal arch, comprising the upper jaw[ZFIN,VHOG]." []
+synonym: "dorsal mandibular arch" RELATED []
+synonym: "dorsal pharyngeal arch 1" RELATED []
+synonym: "dorsal visceral arch 1" EXACT []
+synonym: "dorsal visceral arch 1" RELATED []
+synonym: "palatoquadrate arch" RELATED []
+synonym: "upper jaw" RELATED []
+synonym: "upper pharyngeal jaw" EXACT []
+synonym: "upper pharyngeal jaw" RELATED []
+is_a: UBERON:0010313 ! neural crest-derived structure
+is_a: UBERON:0010912 ! subdivision of skeleton
+relationship: develops_from UBERON:0004362 ! pharyngeal arch 1
+relationship: part_of UBERON:0003277 ! skeleton of upper jaw
+relationship: part_of UBERON:0008895 ! splanchnocranium
+
+[Term]
 id: UBERON:0011088
 name: ligament of knee joint
 def: "A ligament that is part of a knee joint." []
@@ -51752,6 +51978,16 @@ relationship: develops_from UBERON:0005868 ! maxillary prominence
 relationship: part_of UBERON:0001709 ! upper jaw region
 
 [Term]
+id: UBERON:0011593
+name: maxillary tooth
+def: "A tooth that is attached to a maxilla[TAO,modified]." []
+synonym: "maxillary teeth" EXACT []
+is_a: UBERON:0003267 ! tooth of upper jaw
+intersection_of: UBERON:0001091 ! calcareous tooth
+intersection_of: attaches_to UBERON:0002397 ! maxilla
+relationship: attaches_to UBERON:0002397 ! maxilla
+
+[Term]
 id: UBERON:0011594
 name: dentary tooth
 def: "Tooth that is attached to a dentary/mandible[TAO,modified]." []
@@ -51837,6 +52073,17 @@ relationship: develops_from UBERON:0010334 ! maxillary process mesenchyme from n
 relationship: part_of UBERON:0000922 ! embryo
 relationship: part_of UBERON:0003113 ! dermatocranium
 relationship: part_of UBERON:0003277 ! skeleton of upper jaw
+
+[Term]
+id: UBERON:0011634
+name: ectopterygoid bone
+def: "A palatal bone which -- like many palatal bones -- may originally have developed as a dermal bone replacing part of the palatoquadrate, the primitive upper jaw. Like the palatine (also called dermopalatine), the ectopterygoid replaces the middle part of the autopalatine. It may be serially homologous with the palatine(s), but is somewhat specialized, being the last (most posterior in palatal view) of the series and bordering the fossa for the jaw muscles. In a typical tetrapod it abuts the palatine anteriorly, the maxilla laterally, the pterygoid or the fossa mandubuaris medially, and the fossa posteriorly" []
+synonym: "ectopterygoid" EXACT []
+synonym: "ectopterygoids" RELATED []
+is_a: UBERON:0008907 ! dermal bone
+is_a: UBERON:0012071 ! palate bone
+relationship: part_of UBERON:0012072 ! palatal part of dermatocranium
+relationship: serially_homologous_to UBERON:0001682 ! palatine bone
 
 [Term]
 id: UBERON:0011642
@@ -52295,6 +52542,19 @@ relationship: contributes_to_morphology_of UBERON:0001777 ! substantia propria o
 relationship: part_of UBERON:0001777 ! substantia propria of cornea
 
 [Term]
+id: UBERON:0011871
+name: nasomaxillary suture
+def: "A cranial suture that connects a nasal bone and connects a maxilla." []
+synonym: "articulation of the nasal bone with maxilla" RELATED []
+synonym: "nasomaxillary suture of skull" EXACT []
+is_a: UBERON:0003685 ! cranial suture
+intersection_of: UBERON:0003685 ! cranial suture
+intersection_of: connects UBERON:0001681 ! nasal bone
+intersection_of: connects UBERON:0002397 ! maxilla
+relationship: connects UBERON:0001681 ! nasal bone
+relationship: connects UBERON:0002397 ! maxilla
+
+[Term]
 id: UBERON:0011875
 name: ligament of sternoclavicular joint
 def: "A skeletal ligament that is part of a sternoclavicular joint." []
@@ -52408,7 +52668,7 @@ name: postganglionic autonomic fiber
 def: "Nerve fibers which project from cell bodies of autonomic ganglia to synapses on target organs." []
 synonym: "postganglionic autonomic fibre" RELATED []
 synonym: "postganglionic nerve fiber" EXACT []
-is_a: UBERON:0006134 ! nerve fiber
+is_a: UBERON:0003041 ! trigeminal nerve fibers
 intersection_of: UBERON:0006134 ! nerve fiber
 intersection_of: extends_fibers_into UBERON:0001805 ! autonomic ganglion
 intersection_of: extends_fibers_into UBERON:0012453 ! nerve ending
@@ -52422,7 +52682,7 @@ name: preganglionic autonomic fiber
 def: "Nerve fibers which project from the central nervous system to autonomic ganglia. In the sympathetic division most preganglionic fibers originate with neurons in the intermediolateral column of the spinal cord, exit via ventral roots from upper thoracic through lower lumbar segments, and project to the paravertebral ganglia; there they either terminate in synapses or continue through the splanchnic nerves to the prevertebral ganglia. In the parasympathetic division the fibers originate in neurons of the brain stem and sacral spinal cord. In both divisions the principal transmitter is acetylcholine but peptide cotransmitters may also be released." []
 synonym: "preganglionic autonomic fibre" RELATED []
 synonym: "preganglionic nerve fiber" EXACT []
-is_a: UBERON:0006134 ! nerve fiber
+is_a: UBERON:0003041 ! trigeminal nerve fibers
 intersection_of: UBERON:0006134 ! nerve fiber
 intersection_of: extends_fibers_into UBERON:0001017 ! central nervous system
 intersection_of: extends_fibers_into UBERON:0001805 ! autonomic ganglion
@@ -52716,6 +52976,17 @@ synonym: "palatal series" RELATED []
 is_a: UBERON:0000075 ! subdivision of skeletal system
 relationship: part_of UBERON:0003113 ! dermatocranium
 relationship: part_of UBERON:0007375 ! roof of mouth
+
+[Term]
+id: UBERON:0012073
+name: tooth of palatine bone
+def: "A tooth that is attached to a palatine bone." []
+synonym: "palatine teeth" EXACT []
+synonym: "palatine tooth" EXACT []
+is_a: UBERON:0012070 ! palatal tooth
+intersection_of: UBERON:0001091 ! calcareous tooth
+intersection_of: attaches_to UBERON:0001682 ! palatine bone
+relationship: attaches_to UBERON:0001682 ! palatine bone
 
 [Term]
 id: UBERON:0012074
@@ -53237,6 +53508,19 @@ synonym: "primordium of face" RELATED []
 is_a: UBERON:0002050 ! embryonic structure
 relationship: only_in_taxon NCBITaxon:7742
 relationship: part_of UBERON:0000033 ! head
+
+[Term]
+id: UBERON:0012316
+name: primitive palate
+def: "Roof of the buccal cavity, formed from the fusion of vomer, pterygoid, parasphenoid, palatine, ectopterygoid." []
+synonym: "palate" RELATED []
+is_a: UBERON:0007375 ! roof of mouth
+relationship: has_fused_element UBERON:0001682 ! palatine bone
+relationship: has_fused_element UBERON:0002396 ! vomer
+relationship: has_fused_element UBERON:0004745 ! parasphenoid
+relationship: has_fused_element UBERON:0010389 ! pterygoid bone
+relationship: has_fused_element UBERON:0011634 ! ectopterygoid bone
+relationship: part_of UBERON:0012072 ! palatal part of dermatocranium
 
 [Term]
 id: UBERON:0012317
@@ -54559,6 +54843,12 @@ is_a: UBERON:0022303 ! nervous system cell part layer
 intersection_of: UBERON:0022303 ! nervous system cell part layer
 intersection_of: part_of UBERON:0001926 ! lateral geniculate body
 relationship: part_of UBERON:0001926 ! lateral geniculate body
+
+[Term]
+id: UBERON:0013630
+name: short bone
+def: "Short bones are designated as those bones that are as wide as they are long. Their primary function is to provide support and stability with little to no movement. They are one of five types of bones: long, short, flat, irregular and sesamoid. Examples of these bones include the tarsals in the foot and the carpals in the hand." []
+is_a: UBERON:0001474 ! bone element
 
 [Term]
 id: UBERON:0013631
@@ -57169,8 +57459,8 @@ name: superficial lymph node
 def: "A lymph node that is located close to the surface." []
 is_a: UBERON:0000029 ! lymph node
 intersection_of: UBERON:0000029 ! lymph node
-intersection_of: part_of UBERON:0035549 ! superficial vasculature
-relationship: part_of UBERON:0035549 ! superficial vasculature
+intersection_of: part_of UBERON:0035549 ! vasculature of integument
+relationship: part_of UBERON:0035549 ! vasculature of integument
 
 [Term]
 id: UBERON:0015918
@@ -57237,6 +57527,18 @@ is_a: UBERON:0000060 ! anatomical wall
 intersection_of: UBERON:0000060 ! anatomical wall
 intersection_of: part_of UBERON:0001443 ! chest
 relationship: part_of UBERON:0001443 ! chest
+
+[Term]
+id: UBERON:0016442
+name: median palatine suture
+def: "the line of junction between the horizontal parts of the palatine bones that extends from both sides of the skull to form the posterior part of the hard palate." []
+synonym: "median palatine suture of skull" EXACT []
+synonym: "middle palatine suture of skull" EXACT []
+synonym: "midpalatal suture of skull" EXACT []
+is_a: UBERON:0035127 ! suture of hard palate
+intersection_of: UBERON:0035127 ! suture of hard palate
+intersection_of: connects UBERON:0001682 {minCardinality="2", maxCardinality="2"} ! palatine bone
+relationship: connects UBERON:0001682 ! palatine bone
 
 [Term]
 id: UBERON:0016446
@@ -59336,19 +59638,18 @@ relationship: part_of UBERON:0001085 ! skin of trunk
 [Term]
 id: UBERON:0034728
 name: autonomic nerve
-def: "The splanchnic nerves are paired nerves that contribute to the innervation of the viscera, carrying fibers of the autonomic nervous system as well as sensory fibers from the organs. All carry sympathetic fibers except for the pelvic splanchnic nerves, which carry parasympathetic fibers." []
+def: "The autonomic nerve is a small nerve which carries postganglionic sympathetic and parasympathetic neurons from the zygomaticotemporal nerve; a branch of the maxillary nerve, to the lacrimal nerve; a branch of the ophthalmic nerve. These neurons derive from the superior cervical ganglion and the pterygopalatine ganglion respectively. They will travel to the lacrimal gland via the lacrimal nerve. Parasympathetic will induce lacrimation and vice versa." []
 synonym: "nervus visceralis" EXACT []
 synonym: "visceral nerve" EXACT []
-is_a: UBERON:0001021 ! nerve
-intersection_of: UBERON:0001021 ! nerve
-intersection_of: part_of UBERON:0002410 ! autonomic nervous system
+is_a: UBERON:0011779 ! nerve of head region
+relationship: branching_part_of UBERON:0036264 ! zygomaticotemporal nerve
 relationship: extends_fibers_into UBERON:0001805 ! autonomic ganglion
 relationship: part_of UBERON:0002410 ! autonomic nervous system
 
 [Term]
 id: UBERON:0034729
 name: sympathetic nerve
-is_a: UBERON:0034728 ! autonomic nerve
+is_a: UBERON:0001021 ! nerve
 intersection_of: UBERON:0001021 ! nerve
 intersection_of: part_of UBERON:0000013 ! sympathetic nervous system
 relationship: extends_fibers_into UBERON:0001806 ! sympathetic ganglion
@@ -59502,6 +59803,18 @@ is_a: UBERON:0014892 ! skeletal muscle organ
 intersection_of: UBERON:0014892 ! skeletal muscle organ
 intersection_of: attaches_to UBERON:0006849 ! scapula
 relationship: attaches_to UBERON:0006849 ! scapula
+
+[Term]
+id: UBERON:0034909
+name: intermaxillary suture
+def: "A cranial suture in the midline of the skull that connects the left and right maxilla bones" []
+synonym: "intermaxillary suture of skull" EXACT []
+is_a: UBERON:0003685 ! cranial suture
+is_a: UBERON:0009199 ! facial suture
+intersection_of: UBERON:0003685 ! cranial suture
+intersection_of: connects UBERON:0002397 {minCardinality="2", maxCardinality="2"} ! maxilla
+relationship: connects UBERON:0002397 ! maxilla
+relationship: part_of UBERON:0001709 ! upper jaw region
 
 [Term]
 id: UBERON:0034921
@@ -59975,8 +60288,8 @@ def: "The tubules that carry lymph throughout the body that are just beneath the
 synonym: "superficial lymph vessel" EXACT []
 is_a: UBERON:0001473 ! lymphatic vessel
 intersection_of: UBERON:0001473 ! lymphatic vessel
-intersection_of: part_of UBERON:0035549 ! superficial vasculature
-relationship: part_of UBERON:0035549 ! superficial vasculature
+intersection_of: part_of UBERON:0035549 ! vasculature of integument
+relationship: part_of UBERON:0035549 ! vasculature of integument
 
 [Term]
 id: UBERON:0035237
@@ -60209,14 +60522,20 @@ relationship: supplies UBERON:0001155 ! colon
 
 [Term]
 id: UBERON:0035549
-name: superficial vasculature
+name: vasculature of integument
 def: "The part of the circulatory system that lies within the subcutaneous tissue layers close to the surface of the skin." []
+synonym: "dermis vasculature" NARROW []
+synonym: "hypodermis vasculature" NARROW []
+synonym: "skin vasculature" RELATED []
+synonym: "subcutaneous vasculature" RELATED []
 synonym: "superficial part of circulatory system" EXACT []
+synonym: "superficial vasculature" EXACT []
+synonym: "vasculature of skin" RELATED []
 is_a: UBERON:0002049 ! vasculature
 intersection_of: UBERON:0002049 ! vasculature
-intersection_of: located_in UBERON:0002072 ! hypodermis
+intersection_of: located_in UBERON:0002199 ! integument
 relationship: capable_of_part_of GO:0001659
-relationship: located_in UBERON:0002072 ! hypodermis
+relationship: located_in UBERON:0002199 ! integument
 
 [Term]
 id: UBERON:0035550
@@ -60227,8 +60546,8 @@ synonym: "superficial veins" RELATED []
 synonym: "superficial vessels" RELATED []
 is_a: UBERON:0001638 ! vein
 intersection_of: UBERON:0001638 ! vein
-intersection_of: part_of UBERON:0035549 ! superficial vasculature
-relationship: part_of UBERON:0035549 ! superficial vasculature
+intersection_of: part_of UBERON:0035549 ! vasculature of integument
+relationship: part_of UBERON:0035549 ! vasculature of integument
 
 [Term]
 id: UBERON:0035551
@@ -60237,8 +60556,8 @@ def: "The part of the circulatory system that lies deep beneath the subcutaneous
 synonym: "deep part of circulatory system" EXACT []
 is_a: UBERON:0002049 ! vasculature
 intersection_of: UBERON:0002049 ! vasculature
-intersection_of: deep_to UBERON:0002072 ! hypodermis
-relationship: deep_to UBERON:0002072 ! hypodermis
+intersection_of: deep_to UBERON:0002199 ! integument
+relationship: deep_to UBERON:0002199 ! integument
 
 [Term]
 id: UBERON:0035552
@@ -60603,6 +60922,45 @@ relationship: in_lateral_side_of UBERON:0001103 ! diaphragm
 relationship: part_of UBERON:0001103 ! diaphragm
 
 [Term]
+id: UBERON:0035881
+name: ethmoidomaxillary suture
+def: "A suture between the orbital surface of the body of the maxilla with the orbital plate of the ethmoid bone." []
+synonym: "ethmoidomaxillary suture of skull" EXACT []
+synonym: "sutura ethmoidomaxillaris" EXACT []
+is_a: UBERON:0003685 ! cranial suture
+intersection_of: UBERON:0003685 ! cranial suture
+intersection_of: connects UBERON:0001679 ! ethmoid bone
+intersection_of: connects UBERON:0002397 ! maxilla
+relationship: connects UBERON:0001679 ! ethmoid bone
+relationship: connects UBERON:0002397 ! maxilla
+
+[Term]
+id: UBERON:0035882
+name: sphenomaxillary suture
+def: "an inconstant suture between the pterygoid process of the sphenoid bone and the body of the maxilla." []
+synonym: "sphenomaxillary suture of skull" EXACT []
+synonym: "sutura sphenomaxillaris" EXACT []
+is_a: UBERON:0003685 ! cranial suture
+intersection_of: UBERON:0003685 ! cranial suture
+intersection_of: connects UBERON:0002397 ! maxilla
+intersection_of: connects UBERON:0004649 ! sphenoid bone pterygoid process
+relationship: connects UBERON:0002397 ! maxilla
+relationship: connects UBERON:0004649 ! sphenoid bone pterygoid process
+
+[Term]
+id: UBERON:0035884
+name: maxillary-premaxillary suture
+def: "A suture between the maxilla and premaxilla." []
+synonym: "incisive suture" RELATED []
+synonym: "maxillary-premaxillary incisive suture" EXACT []
+synonym: "premaxillary suture" RELATED []
+is_a: UBERON:0003685 ! cranial suture
+is_a: UBERON:2002260 ! premaxillary-maxillary joint
+intersection_of: UBERON:0003685 ! cranial suture
+intersection_of: connects UBERON:0002244 ! premaxilla
+intersection_of: connects UBERON:0002397 ! maxilla
+
+[Term]
 id: UBERON:0035927
 name: sulcus of parietal lobe
 synonym: "parietal lobe sulci" EXACT []
@@ -60846,6 +61204,54 @@ id: UBERON:0036255
 name: interoceptive system
 def: "The system that is responsible for sensing the internal state of the body." []
 is_a: UBERON:0001023 ! obsolete dendrite
+
+[Term]
+id: UBERON:0036262
+name: uterine ligament
+def: "Any of the eight ligaments pertaining to the uterus including the anterior, posterior, lateral, sacro-uterine and round ligaments." []
+is_a: UBERON:0000211 ! ligament
+is_a: UBERON:0005156 ! reproductive structure
+intersection_of: UBERON:0000211 ! ligament
+intersection_of: part_of UBERON:0000002 ! uterine cervix
+relationship: part_of UBERON:0000002 ! uterine cervix
+
+[Term]
+id: UBERON:0036264
+name: zygomaticotemporal nerve
+def: "The zygomaticotemporal nerve or zygomaticotemporal branch (temporal branch) is derived from the maxillary branch of the trigeminal nerve (Cranial nerve V). It runs along the lateral wall of the orbit in a groove in the zygomatic bone, receives a branch of communication from the lacrimal, and passes through zygomaticotemporal foramen in the zygomatic bone to enter the temporal fossa. It ascends between the bone, and substance of the Temporalis muscle, pierces the temporal fascia about 2.5 cm. above the zygomatic arch, and is distributed to the skin of the side of the forehead, and communicates with the facial nerve and with the auriculotemporal branch of the mandibular nerve. As it pierces the temporal fascia, it gives off a slender twig, which runs between the two layers of the fascia to the lateral angle of the orbit." []
+synonym: "ramus zygomaticotemporalis (Nervus zygomaticus)" EXACT []
+synonym: "ramus zygomaticotemporalis nervus zygomatici" EXACT []
+synonym: "zygomaticotemporal" RELATED []
+synonym: "zygomaticotemporal branch" RELATED []
+synonym: "zygomaticotemporal branch of zygomatic nerve" EXACT []
+is_a: UBERON:0011779 ! nerve of head region
+relationship: branching_part_of UBERON:0000377 ! maxillary nerve
+
+[Term]
+id: UBERON:0036267
+name: vulval vein
+is_a: UBERON:0001638 ! vein
+intersection_of: UBERON:0001638 ! vein
+intersection_of: drains UBERON:0000997 ! mammalian vulva
+relationship: drains UBERON:0000997 ! mammalian vulva
+
+[Term]
+id: UBERON:0036268
+name: pelvic vein
+is_a: UBERON:0001638 ! vein
+intersection_of: UBERON:0001638 ! vein
+intersection_of: drains UBERON:0002355 ! pelvic region of trunk
+relationship: drains UBERON:0002355 ! pelvic region of trunk
+
+[Term]
+id: UBERON:0036269
+name: penis blood vessel
+synonym: "penis vasculature" RELATED []
+synonym: "vasculature of penis" RELATED []
+is_a: UBERON:0001981 ! blood vessel
+intersection_of: UBERON:0001981 ! blood vessel
+intersection_of: connected_to UBERON:0000989 ! penis
+relationship: connected_to UBERON:0000989 ! penis
 
 [Term]
 id: UBERON:1000004
@@ -61146,6 +61552,15 @@ intersection_of: attaches_to UBERON:0002244 ! premaxilla
 relationship: attaches_to UBERON:0002244 ! premaxilla
 
 [Term]
+id: UBERON:2001632
+name: ectopterygoid tooth
+def: "Tooth that is attached to the ectopterygoid bone." []
+is_a: UBERON:0012070 ! palatal tooth
+intersection_of: UBERON:0001091 ! calcareous tooth
+intersection_of: attaches_to UBERON:0011634 ! ectopterygoid bone
+relationship: attaches_to UBERON:0011634 ! ectopterygoid bone
+
+[Term]
 id: UBERON:2001950
 name: inter-premaxillary joint
 def: "Joint that articulates the left and right premaxillary bones. Inter-premaxillary joint is unpaired." []
@@ -61153,6 +61568,16 @@ is_a: UBERON:0000982 ! skeletal joint
 intersection_of: UBERON:0000982 ! skeletal joint
 intersection_of: connects UBERON:0002244 ! premaxilla
 relationship: connects UBERON:0002244 ! premaxilla
+
+[Term]
+id: UBERON:2002260
+name: premaxillary-maxillary joint
+def: "Joint that articulates the premaxilla and maxilla. Premaxillary-maxillary joint is paired." []
+is_a: UBERON:2001950 ! inter-premaxillary joint
+intersection_of: UBERON:0000982 ! skeletal joint
+intersection_of: connects UBERON:0002244 ! premaxilla
+intersection_of: connects UBERON:0002397 ! maxilla
+relationship: connects UBERON:0002397 ! maxilla
 
 [Term]
 id: UBERON:2005117
@@ -61998,6 +62423,12 @@ holds_over_chain: has_part develops_from
 is_transitive: true
 
 [Typedef]
+id: has_fused_element
+name: has_fused_element
+def: "x has_fused_element y iff: there exists some z : x has_part z, z homologous_to y, and y is a distinct element, the boundary between x and z is largely fiat" []
+xref: RO:0002374
+
+[Typedef]
 id: has_member
 name: has member
 xref: RO:0002351
@@ -62388,6 +62819,11 @@ name: proximalmost_part_of
 def: "X proximalmost_part_of Y <=> X is part_of Y and X is adjacent_to the proximal boundary of Y" []
 xref: BSPO:0001106
 is_a: in_proximal_side_of ! in_proximal_side_of
+
+[Typedef]
+id: serially_homologous_to
+name: serially_homologous_to
+xref: RO:0002159
 
 [Typedef]
 id: sexually_homologous_to
