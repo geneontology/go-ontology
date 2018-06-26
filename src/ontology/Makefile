@@ -269,7 +269,7 @@ CHEBIRELS = RO:0000057 RO:0002233 RO:0002234 RO:0002313 RO:0002233 RO:0002332 RO
 # See: https://github.com/ontodev/robot/issues/175
 seed.owl: $(SRC)
 	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o $@
-imports/chebi_import_nogci.owl: imports/chebi_terms_combined.txt $(SRC)
+imports/chebi_import_nogci.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
 	$(ROBOT) extract -i bio-chebi.owl -T imports/chebi_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
 imports/chebi_import.owl: imports/chebi_import_nogci.owl seed.owl bio-chebi.owl
 	$(OWLTOOLS) $(USECAT) seed.owl $< --merge-support-ontologies  bio-chebi.owl --add-imports-from-supports --extract-module -s $(OBO)/go/extensions/bio-chebi.owl -c  --make-subset-by-properties -n $(CHEBIRELS) // --remove-annotation-assertions -r -l --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/go/$@ -o $@
@@ -304,8 +304,7 @@ mirror/pr-download.owl: $(SRC)
 # special case: download obo for speed for chebi
 # See also: https://github.com/ebi-chebi/ChEBI/issues/3269
 mirror/chebi-download.owl: $(SRC)
-#	wget --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
-	curl -L $(OBO)/chebi.obo  -o $@.tmp  && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified) && perl -pi -ne 's@BFO_@BFO:@' $@
+	wget --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
 .PRECIOUS: mirror/chebi-download.owl
 
 # special case: use ext for uberon
@@ -334,8 +333,7 @@ mirror/ro-download.owl: $(SRC)
 
 # general case: download remote OWL first
 mirror/%-download.owl: $(SRC)
-#	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
-	curl -L $(OBO)/$*.owl -o $@.tmp && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified)
+	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
 .PRECIOUS: mirror/%-download.owl
 
 # bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
