@@ -1,4 +1,4 @@
-! Generated on 2017-04-12T03:54Z from the ontology 'go' with data version: 'releases/2017-04-11'
+! Generated on 2018-06-26T16:02Z from the ontology 'go' with data version: 'releases/2018-05-14'
 !
 RESID:AA0 > GO:nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide ; GO:0018418
 RESID:AA0022 > GO:selenocysteine incorporation ; GO:0001514
@@ -137,7 +137,6 @@ RESID:AA0114 > GO:peptidyl-lysine carboxylation ; GO:0018235
 RESID:AA0115 > GO:peptidyl-lysine carboxyethylation ; GO:0018238
 RESID:AA0116 > GO:peptidyl-lysine modification to peptidyl-hypusine ; GO:0008612
 RESID:AA0117 > GO:peptidyl-lysine biotinylation ; GO:0018054
-RESID:AA0118 > GO:peptidyl-lysine lipoylation ; GO:0018055
 RESID:AA0119 > GO:protein-pyridoxal-5-phosphate linkage via peptidyl-N6-pyridoxal phosphate-L-lysine ; GO:0018272
 RESID:AA0120 > GO:protein-chromophore linkage via peptidyl-N6-retinal-L-lysine ; GO:0018273
 RESID:AA0121 > GO:peptidyl-lysine oxidation ; GO:0018057

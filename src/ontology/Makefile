@@ -67,7 +67,7 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz subset-reports
+stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz subset-reports generate-mappings
 
 test: $(SRC)-check sparql_test change-report.txt reasoned.owl
 
@@ -88,11 +88,13 @@ prepare_release: build
 	mkdir -p $(RELEASEDIR)/extensions &&\
 	mkdir -p $(RELEASEDIR)/subsets &&\
 	mkdir -p $(RELEASEDIR)/reports &&\
+	mkdir -p $(RELEASEDIR)/external2go &&\
 	mkdir -p $(RELEASEDIR_IMPORTS) &&\
 	cp $(ONT).owl $(ONT).obo $(ONT).json $(RELEASEDIR) &&\
 	cp imports/*.owl $(RELEASEDIR_IMPORTS) &&\
 	cp imports/*.obo $(RELEASEDIR_IMPORTS) &&\
 	cp extensions/* $(RELEASEDIR)/extensions &&\
+	cp external2go/* $(RELEASEDIR)/external2go &&\
 	cp go-basic.* $(RELEASEDIR) &&\
 	cp subsets/* $(RELEASEDIR)/subsets &&\
 	cp reports/* $(RELEASEDIR)/reports &&\
@@ -380,6 +382,8 @@ imports/substance_by_role.owl: imports/substance_by_role.obo
 # MAPPINGS
 # ----------------------------------------
 
+# See : https://github.com/geneontology/go-site/issues/688
+# Manually add all ID spaces here; only do this for xrefs that are managed within the obo file.
 generate-mappings: go-basic.obo
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals EC KEGG MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia
 

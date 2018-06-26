@@ -1,4 +1,4 @@
-! Generated on 2017-04-12T03:54Z from the ontology 'go' with data version: 'releases/2017-04-11'
+! Generated on 2018-06-26T16:02Z from the ontology 'go' with data version: 'releases/2018-05-14'
 !
 KEGG:R00004 > GO:inorganic diphosphatase activity ; GO:0004427
 KEGG:R00005 > GO:allophanate hydrolase activity ; GO:0004039
@@ -1040,7 +1040,7 @@ KEGG:R03468 > GO:galactosyldiacylglycerol alpha-2,3-sialyltransferase activity ;
 KEGG:R03469 > GO:1-phosphatidylinositol-4-phosphate 5-kinase activity ; GO:0016308
 KEGG:R03470 > GO:4-carboxymuconolactone decarboxylase activity ; GO:0047575
 KEGG:R03471 > GO:hydroxymethylpyrimidine kinase activity ; GO:0008902
-KEGG:R03474 > GO:adenylyl-[glutamate-ammonia ligase] hydrolase activity ; GO:0047388
+KEGG:R03474 > GO:[glutamine synthetase]-adenylyl-L-tyrosine phosphorylase ; GO:0047388
 KEGG:R03475 > GO:phosphatidylcholine desaturase activity ; GO:0050184
 KEGG:R03476 > GO:phosphatidylcholine 12-monooxygenase activity ; GO:0050183
 KEGG:R03477 > GO:scyllo-inosamine-4-phosphate amidinotransferase activity ; GO:0015069
@@ -1235,7 +1235,6 @@ KEGG:R04152 > GO:2-aminoethylphosphonate-pyruvate transaminase activity ; GO:004
 KEGG:R04153 > GO:thetin-homocysteine S-methyltransferase activity ; GO:0047149
 KEGG:R04154 > GO:tetrahydroxypteridine cycloisomerase activity ; GO:0050329
 KEGG:R04158 > GO:phosphoglycerol geranylgeranyltransferase activity ; GO:0047294
-KEGG:R04159 > GO:gamma-glutamyltransferase activity ; GO:0003840
 KEGG:R04165 > GO:corticosteroid side-chain-isomerase activity ; GO:0004110
 KEGG:R04167 > GO:2-carboxy-D-arabinitol-1-phosphatase activity ; GO:0047538
 KEGG:R04169 > GO:isobutyraldoxime O-methyltransferase activity ; GO:0030763
@@ -1720,6 +1719,7 @@ KEGG:R07985 > GO:2-hydroxymethylglutarate dehydrogenase activity ; GO:0043718
 KEGG:R08051 > GO:ADP dimethylallyltransferase activity ; GO:0052623
 KEGG:R08052 > GO:ATP dimethylallyltransferase activity ; GO:0052622
 KEGG:R08057 > GO:diguanylate cyclase activity ; GO:0052621
+KEGG:R08088 > GO:citronellyl-CoA ligase activity ; GO:0034823
 KEGG:R08090 > GO:3-hydroxy-3-isohexenylglutaryl-CoA lyase activity ; GO:0047445
 KEGG:R08159 > GO:myristoyl-[acyl-carrier-protein] hydrolase activity ; GO:0016295
 KEGG:R08162 > GO:palmitoyl-[acyl-carrier-protein] hydrolase activity ; GO:0016296
