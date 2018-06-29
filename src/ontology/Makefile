@@ -96,6 +96,7 @@ prepare_release: build
 	cp extensions/* $(RELEASEDIR)/extensions &&\
 	cp external2go/* $(RELEASEDIR)/external2go &&\
 	cp go-basic.* $(RELEASEDIR) &&\
+	cp go-base.owl $(RELEASEDIR) &&\
 	cp subsets/* $(RELEASEDIR)/subsets &&\
 	cp reports/* $(RELEASEDIR)/reports &&\
 	echo "Release files are now in $(RELEASEDIR)"
