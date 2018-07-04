@@ -1,3 +1,5 @@
+**The current version of the documentation has been moved to http://wiki.geneontology.org/index.php/Protege_setup_for_GO_Eds**
+
 # Configuration
 
 ## Configuring New Entities Metadata

@@ -1,3 +1,5 @@
+**The current version of the documentation has been moved to http://wiki.geneontology.org/index.php/Installing_and_Using_git**
+
 # Installing and Using git
 
 ## Installing git

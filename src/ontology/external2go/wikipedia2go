@@ -1,4 +1,4 @@
-! Generated on 2017-04-12T03:54Z from the ontology 'go' with data version: 'releases/2017-04-11'
+! Generated on 2018-06-26T16:02Z from the ontology 'go' with data version: 'releases/2018-05-14'
 !
 Wikipedia:11beta-hydroxysteroid_dehydrogenase > GO:11-beta-hydroxysteroid dehydrogenase [NAD(P)] activity ; GO:0003845
 Wikipedia:2-(hydroxymethyl)-3-(acetamidomethylene)succinate_amidohydrolase_(deaminating,_decarboxylating) > GO:2-(hydroxymethyl)-3-(acetamidomethylene)succinate hydrolase activity ; GO:0047414
@@ -51,7 +51,7 @@ Wikipedia:Asymmetric_cell_division > GO:asymmetric cell division ; GO:0008356
 Wikipedia:Attenuator_(genetics) > GO:transcriptional attenuation ; GO:0031555
 Wikipedia:Autolysis > GO:autolysis ; GO:0001896
 Wikipedia:Autophagy_(cellular) > GO:autophagy ; GO:0006914
-Wikipedia:Autophagy_(cellular)#Selective_autophagy > GO:mitophagy ; GO:0000422
+Wikipedia:Autophagy_(cellular)#Selective_autophagy > GO:autophagy of mitochondrion ; GO:0000422
 Wikipedia:Autophosphorylation > GO:protein autophosphorylation ; GO:0046777
 Wikipedia:Autosome > GO:autosome ; GO:0030849
 Wikipedia:Axolemma > GO:axolemma ; GO:0030673
@@ -133,7 +133,7 @@ Wikipedia:Chloroplast_membrane > GO:chloroplast membrane ; GO:0031969
 Wikipedia:Chlorosome > GO:chlorosome ; GO:0046858
 Wikipedia:Chondrogenesis > GO:cartilage development ; GO:0051216
 Wikipedia:Chromoplast > GO:chromoplast ; GO:0009509
-Wikipedia:Chromosomal_crossover > GO:reciprocal DNA recombination ; GO:0035825
+Wikipedia:Chromosomal_crossover > GO:homologous recombination ; GO:0035825
 Wikipedia:Chromosome > GO:chromosome ; GO:0005694
 Wikipedia:Chromosome_segregation > GO:chromosome segregation ; GO:0007059
 Wikipedia:Chylomicron > GO:chylomicron ; GO:0042627
@@ -164,6 +164,7 @@ Wikipedia:Crassulacean_acid_metabolism > GO:CAM photosynthesis ; GO:0009761
 Wikipedia:Cysteine > GO:cysteine catabolic process ; GO:0009093
 Wikipedia:Cysteine_metabolism > GO:cysteine metabolic process ; GO:0006534
 Wikipedia:Cytochrome_b6f_complex > GO:cytochrome b6f complex ; GO:0009512
+Wikipedia:Cytochrome_c_nitrite_reductase > GO:nitrite reductase (cytochrome, ammonia-forming) activity ; GO:0042279
 Wikipedia:Cytokinesis > GO:cytokinesis ; GO:0000910
 Wikipedia:Cytolysis > GO:cytolysis ; GO:0019835
 Wikipedia:Cytoplasm > GO:cytoplasm ; GO:0005737
@@ -237,7 +238,7 @@ Wikipedia:Extrachromosomal_DNA > GO:extrachromosomal DNA ; GO:0046821
 Wikipedia:Eye_color > GO:eye pigmentation ; GO:0048069
 Wikipedia:Eye_development > GO:eye development ; GO:0001654
 Wikipedia:FACIT_collagen > GO:FACIT collagen trimer ; GO:0005593
-Wikipedia:Facilitated_diffusion > GO:facilitated diffusion ; GO:0022814
+Wikipedia:Facilitated_diffusion > GO:passive transmembrane transporter activity ; GO:0022803
 Wikipedia:Fascia_adherens > GO:fascia adherens ; GO:0005916
 Wikipedia:Fatty_acid_degradation > GO:fatty acid catabolic process ; GO:0009062
 Wikipedia:Fatty_acid_metabolism > GO:fatty acid metabolic process ; GO:0006631
@@ -335,7 +336,7 @@ Wikipedia:Kinesis > GO:kinesis ; GO:0042465
 Wikipedia:Kinetochore > GO:kinetochore ; GO:0000776
 Wikipedia:Kinetoplast > GO:kinetoplast ; GO:0020023
 Wikipedia:Kinocilium > GO:kinocilium ; GO:0060091
-Wikipedia:LDL_receptor > GO:low-density lipoprotein receptor activity ; GO:0005041
+Wikipedia:LDL_receptor > GO:low-density lipoprotein particle receptor activity ; GO:0005041
 Wikipedia:Lactation > GO:lactation ; GO:0007595
 Wikipedia:Lactic_acid_fermentation > GO:glucose catabolic process to lactate ; GO:0019659
 Wikipedia:Lamellipodia > GO:lamellipodium ; GO:0030027
@@ -347,7 +348,7 @@ Wikipedia:Leptotene > GO:leptotene ; GO:0000237
 Wikipedia:Leucoplast > GO:leucoplast ; GO:0009516
 Wikipedia:Leukocyte_extravasation > GO:cellular extravasation ; GO:0045123
 Wikipedia:Leukotriene#Leukotriene_synthesis > GO:leukotriene biosynthetic process ; GO:0019370
-Wikipedia:Ligand_(biochemistry) > GO:receptor binding ; GO:0005102
+Wikipedia:Ligand_(biochemistry) > GO:signaling receptor binding ; GO:0005102
 Wikipedia:Light-harvesting_complex > GO:light-harvesting complex ; GO:0030076
 Wikipedia:Limb_development > GO:limb development ; GO:0060173
 Wikipedia:Linoleic_acid > GO:alpha-linolenic acid metabolic process ; GO:0036109
@@ -413,7 +414,7 @@ Wikipedia:Minor_spliceosome > GO:U12-type spliceosomal complex ; GO:0005689
 Wikipedia:Mitochondrial_matrix > GO:mitochondrial matrix ; GO:0005759
 Wikipedia:Mitochondrion > GO:mitochondrion ; GO:0005739
 Wikipedia:Mitogen-activated_protein_kinase > GO:MAPK cascade ; GO:0000165
-Wikipedia:Mitophagy > GO:mitophagy ; GO:0000422
+Wikipedia:Mitophagy > GO:autophagy of mitochondrion ; GO:0000422
 Wikipedia:Mitosis > GO:mitotic cell cycle ; GO:0000278
 Wikipedia:Mitosis#Endomitosis > GO:endomitotic cell cycle ; GO:0007113
 Wikipedia:Mitosome > GO:mitosome ; GO:0032047
@@ -440,7 +441,6 @@ Wikipedia:Neuromuscular_junction > GO:neuromuscular junction ; GO:0031594
 Wikipedia:Neuron_migration > GO:neuron migration ; GO:0001764
 Wikipedia:Neurotransmission > GO:chemical synaptic transmission ; GO:0007268
 Wikipedia:Neurulation > GO:neural tube formation ; GO:0001841
-Wikipedia:Nitrite_reductase_(cytochrome;_ammonia-forming) > GO:nitrite reductase (cytochrome, ammonia-forming) activity ; GO:0042279
 Wikipedia:Nitrogen_cycle > GO:nitrogen cycle metabolic process ; GO:0071941
 Wikipedia:Nitrogen_fixation > GO:nitrogen fixation ; GO:0009399
 Wikipedia:Nociception > GO:sensory perception of pain ; GO:0019233
@@ -540,7 +540,6 @@ Wikipedia:Prophase > GO:prophase ; GO:0051324
 Wikipedia:Proprioception > GO:proprioception ; GO:0019230
 Wikipedia:Prostanoid#Biosynthesis > GO:prostanoid biosynthetic process ; GO:0046457
 Wikipedia:Protein_catabolism > GO:protein catabolic process ; GO:0030163
-Wikipedia:Protein_complex > GO:protein complex ; GO:0043234
 Wikipedia:Protein_folding > GO:protein folding ; GO:0006457
 Wikipedia:Protein_metabolism > GO:protein metabolic process ; GO:0019538
 Wikipedia:Protein_splicing > GO:protein splicing ; GO:0030908
@@ -584,9 +583,8 @@ Wikipedia:Rhoptry > GO:rhoptry ; GO:0020008
 Wikipedia:Riboflavin > GO:riboflavin metabolic process ; GO:0006771
 Wikipedia:Riboflavin > GO:riboflavin biosynthetic process ; GO:0009231
 Wikipedia:Ribonuclease_A > GO:ribonuclease A activity ; GO:0004522
-Wikipedia:Ribonucleoprotein > GO:intracellular ribonucleoprotein complex ; GO:0030529
+Wikipedia:Ribonucleoprotein > GO:ribonucleoprotein complex ; GO:1990904
 Wikipedia:Ribosome > GO:ribosome ; GO:0005840
-Wikipedia:Ribosome_biogenesis > GO:ribosome biogenesis ; GO:0042254
 Wikipedia:Ripening > GO:fruit ripening ; GO:0009835
 Wikipedia:Rosetting > GO:modulation by symbiont of host erythrocyte aggregation ; GO:0020013
 Wikipedia:S-layer > GO:S-layer ; GO:0030115
@@ -701,7 +699,6 @@ Wikipedia:Type_II_topoisomerase > GO:DNA topoisomerase type II (ATP-hydrolyzing)
 Wikipedia:Type_IV_hypersensitivity > GO:type IV hypersensitivity ; GO:0001806
 Wikipedia:Type_I_hypersensitivity > GO:type I hypersensitivity ; GO:0016068
 Wikipedia:Tyrosine > GO:tyrosine metabolic process ; GO:0006570
-Wikipedia:Ubiquitin-activating_enzyme > GO:ubiquitin activating enzyme activity ; GO:0004839
 Wikipedia:Urea_cycle > GO:urea cycle ; GO:0000050
 Wikipedia:Urination > GO:micturition ; GO:0060073
 Wikipedia:Urokinase_receptor > GO:urokinase plasminogen activator receptor activity ; GO:0030377

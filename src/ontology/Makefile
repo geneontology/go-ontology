@@ -67,7 +67,7 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-basic.obo go-basic.json.gz subset-reports
+stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl go-basic.obo go-basic.json.gz subset-reports generate-mappings
 
 test: $(SRC)-check sparql_test change-report.txt reasoned.owl
 
@@ -88,12 +88,15 @@ prepare_release: build
 	mkdir -p $(RELEASEDIR)/extensions &&\
 	mkdir -p $(RELEASEDIR)/subsets &&\
 	mkdir -p $(RELEASEDIR)/reports &&\
+	mkdir -p $(RELEASEDIR)/external2go &&\
 	mkdir -p $(RELEASEDIR_IMPORTS) &&\
 	cp $(ONT).owl $(ONT).obo $(ONT).json $(RELEASEDIR) &&\
 	cp imports/*.owl $(RELEASEDIR_IMPORTS) &&\
 	cp imports/*.obo $(RELEASEDIR_IMPORTS) &&\
 	cp extensions/* $(RELEASEDIR)/extensions &&\
+	cp external2go/* $(RELEASEDIR)/external2go &&\
 	cp go-basic.* $(RELEASEDIR) &&\
+	cp go-base.owl $(RELEASEDIR) &&\
 	cp subsets/* $(RELEASEDIR)/subsets &&\
 	cp reports/* $(RELEASEDIR)/reports &&\
 	echo "Release files are now in $(RELEASEDIR)"
@@ -167,6 +170,12 @@ reasoned.owl: enhanced.owl $(SRC)-check
 $(GO_PLUS).owl: reasoned.owl
 	$(ROBOT) annotate -i $< -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: $(GO_PLUS).owl
+
+# Create release file containing GO-asserted axioms, no external axioms, and no inferences.
+# GO artifacts to merge are hardcoded here.
+go-base.owl: enhanced.owl
+	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o -f ofn $@.tmp &&\
+	$(ROBOT) merge -i $@.tmp -i extensions/go-gci.owl -i extensions/go-bridge.owl -i imports/ro_pending.owl -i imports/x-disjoint.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
 
 # ----------------------------------------
 # OBO and subsets
@@ -271,7 +280,7 @@ CHEBIRELS = RO:0000057 RO:0002233 RO:0002234 RO:0002313 RO:0002233 RO:0002332 RO
 # See: https://github.com/ontodev/robot/issues/175
 seed.owl: $(SRC)
 	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o $@
-imports/chebi_import_nogci.owl: imports/chebi_terms_combined.txt $(SRC)
+imports/chebi_import_nogci.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
 	$(ROBOT) extract -i bio-chebi.owl -T imports/chebi_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
 imports/chebi_import.owl: imports/chebi_import_nogci.owl seed.owl bio-chebi.owl
 	$(OWLTOOLS) $(USECAT) seed.owl $< --merge-support-ontologies  bio-chebi.owl --add-imports-from-supports --extract-module -s $(OBO)/go/extensions/bio-chebi.owl -c  --make-subset-by-properties -n $(CHEBIRELS) // --remove-annotation-assertions -r -l --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/go/$@ -o $@
@@ -306,8 +315,7 @@ mirror/pr-download.owl: $(SRC)
 # special case: download obo for speed for chebi
 # See also: https://github.com/ebi-chebi/ChEBI/issues/3269
 mirror/chebi-download.owl: $(SRC)
-#	wget --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
-	curl -L $(OBO)/chebi.obo  -o $@.tmp  && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified) && perl -pi -ne 's@BFO_@BFO:@' $@
+	wget --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
 .PRECIOUS: mirror/chebi-download.owl
 
 # special case: use ext for uberon
@@ -336,8 +344,7 @@ mirror/ro-download.owl: $(SRC)
 
 # general case: download remote OWL first
 mirror/%-download.owl: $(SRC)
-#	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
-	curl -L $(OBO)/$*.owl -o $@.tmp && (test -f $@.tmp && mv $@.tmp $@ || echo unmodified)
+	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
 .PRECIOUS: mirror/%-download.owl
 
 # bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
@@ -382,6 +389,8 @@ imports/substance_by_role.owl: imports/substance_by_role.obo
 # MAPPINGS
 # ----------------------------------------
 
+# See : https://github.com/geneontology/go-site/issues/688
+# Manually add all ID spaces here; only do this for xrefs that are managed within the obo file.
 generate-mappings: go-basic.obo
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals EC KEGG MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia
 

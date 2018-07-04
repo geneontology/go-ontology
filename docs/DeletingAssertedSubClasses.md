@@ -1,3 +1,5 @@
+**The current version of the documentation has been moved to http://wiki.geneontology.org/index.php/Ontology_Editing_Guide**
+
 ### Deleting Asserted Subclasses
 
 Asserted is_a parents do not need to be retained as entries in the 'SubClass of' section of the Description window in Protege
