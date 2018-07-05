@@ -7,7 +7,7 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/go/extensions/go-taxon-groupings.owl>
+Ontology(<http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl>
 Import(<http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl>)
 Annotation(dc:description "Groupings of taxa that are not necessarily monophyletic. For example, Prokaryota is defined as the union of Eubacteria and Archaea."@en)
 Annotation(dc:title "GO Organismal Taxonomic Groupings"@en)
