@@ -1,6 +1,6 @@
 format-version: 1.2
 import: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
-ontology: go/extensions/go-taxon-groupings
+ontology: go/imports/go-taxon-groupings
 property_value: http://purl.org/dc/elements/1.1/description "Groupings of taxa that are not necessarily monophyletic. For example, Prokaryota is defined as the union of Eubacteria and Archaea." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "GO Organismal Taxonomic Groupings" xsd:string
 
@@ -442,7 +442,7 @@ is_a: NCBITaxon:400053 ! Sylvaemus group
 
 [Term]
 id: NCBITaxon:101291 ! Conus catus
-is_a: NCBITaxon:6490 ! Conus
+is_a: NCBITaxon:1340109 ! Pionoconus
 
 [Term]
 id: NCBITaxon:1013 ! Weeksella
@@ -450,7 +450,7 @@ is_a: NCBITaxon:49546 ! Flavobacteriaceae
 
 [Term]
 id: NCBITaxon:101317 ! Conus tessulatus
-is_a: NCBITaxon:6490 ! Conus
+is_a: NCBITaxon:2058669 ! Tesselliconus
 
 [Term]
 id: NCBITaxon:101358 ! unclassified rotaviruses
@@ -506,7 +506,7 @@ is_a: NCBITaxon:10156 ! Myocastor
 
 [Term]
 id: NCBITaxon:101571 ! Burkholderia ubonensis
-is_a: NCBITaxon:32008 ! Burkholderia
+is_a: NCBITaxon:87882 ! Burkholderia cepacia complex
 
 [Term]
 id: NCBITaxon:10158 ! Octodontidae
@@ -1362,7 +1362,7 @@ is_a: NCBITaxon:1511857 ! Ligamenvirales
 
 [Term]
 id: NCBITaxon:10479 ! Thermoproteus tenax virus 1
-is_a: NCBITaxon:341939 ! Alphalipothrixvirus
+is_a: NCBITaxon:2022739 ! Alphatristromavirus
 
 [Term]
 id: NCBITaxon:10480 ! Thermoproteus tenax virus 1 (STRAIN KRA1)
@@ -1394,7 +1394,7 @@ is_a: NCBITaxon:35237 ! dsDNA viruses, no RNA stage
 
 [Term]
 id: NCBITaxon:10487 ! Iridovirus
-is_a: NCBITaxon:10486 ! Iridoviridae
+is_a: NCBITaxon:2017757 ! Betairidovirinae
 
 [Term]
 id: NCBITaxon:1048752 ! Candidatus Caldiarchaeum
@@ -1422,11 +1422,11 @@ is_a: NCBITaxon:85072 ! Allochromatium
 
 [Term]
 id: NCBITaxon:10491 ! Chloriridovirus
-is_a: NCBITaxon:10486 ! Iridoviridae
+is_a: NCBITaxon:2017757 ! Betairidovirinae
 
 [Term]
 id: NCBITaxon:10492 ! Ranavirus
-is_a: NCBITaxon:10486 ! Iridoviridae
+is_a: NCBITaxon:2017756 ! Alphairidovirinae
 
 [Term]
 id: NCBITaxon:10493 ! Frog virus 3
@@ -1434,7 +1434,7 @@ is_a: NCBITaxon:10492 ! Ranavirus
 
 [Term]
 id: NCBITaxon:10494 ! Lymphocystivirus
-is_a: NCBITaxon:10486 ! Iridoviridae
+is_a: NCBITaxon:2017756 ! Alphairidovirinae
 
 [Term]
 id: NCBITaxon:1049651 ! Ectobiidae
@@ -1597,12 +1597,12 @@ id: NCBITaxon:10541 ! Human adenovirus 11
 is_a: NCBITaxon:565303 ! Human adenovirus B2
 
 [Term]
-id: NCBITaxon:1054147 ! Dictyostelium fasciculatum SH3
-is_a: NCBITaxon:261658 ! Dictyostelium fasciculatum
+id: NCBITaxon:1054147 ! Cavenderia fasciculata SH3
+is_a: NCBITaxon:261658 ! Cavenderia fasciculata
 
 [Term]
 id: NCBITaxon:1054211 ! Sulfuritalea
-is_a: NCBITaxon:75787 ! Rhodocyclaceae
+is_a: NCBITaxon:2008793 ! Sterolibacteriaceae
 
 [Term]
 id: NCBITaxon:1054217 ! Thermoplasmatales archaeon BRNA1
@@ -1631,10 +1631,6 @@ is_a: NCBITaxon:316612 ! Methylibium
 [Term]
 id: NCBITaxon:1055687 ! Trypanosoma vivax Y486
 is_a: NCBITaxon:5699 ! Trypanosoma vivax
-
-[Term]
-id: NCBITaxon:10559 ! Bovine papillomavirus type 1
-is_a: NCBITaxon:337052 ! Deltapapillomavirus 4
 
 [Term]
 id: NCBITaxon:1056 ! Thiocapsa
@@ -1837,7 +1833,7 @@ id: NCBITaxon:10657 ! Tectivirus
 is_a: NCBITaxon:10656 ! Tectiviridae
 
 [Term]
-id: NCBITaxon:10658 ! Enterobacteria phage PRD1
+id: NCBITaxon:10658 ! Salmonella virus PRD1
 is_a: NCBITaxon:10657 ! Tectivirus
 
 [Term]
@@ -1857,7 +1853,7 @@ id: NCBITaxon:10660 ! Corticovirus
 is_a: NCBITaxon:10659 ! Corticoviridae
 
 [Term]
-id: NCBITaxon:10661 ! Pseudoalteromonas phage PM2
+id: NCBITaxon:10661 ! Pseudoalteromonas virus PM2
 is_a: NCBITaxon:10660 ! Corticovirus
 
 [Term]
@@ -1877,8 +1873,8 @@ id: NCBITaxon:106649 ! Acinetobacter guillouiae
 is_a: NCBITaxon:469 ! Acinetobacter
 
 [Term]
-id: NCBITaxon:10665 ! Enterobacteria phage T4
-is_a: NCBITaxon:348604 ! Enterobacteria phage T4 sensu lato
+id: NCBITaxon:10665 ! Escherichia virus T4
+is_a: NCBITaxon:10663 ! T4virus
 
 [Term]
 id: NCBITaxon:10666 ! Enterobacteria phage T6
@@ -1925,7 +1921,7 @@ id: NCBITaxon:1069 ! Rhodomicrobium vannielii
 is_a: NCBITaxon:1068 ! Rhodomicrobium
 
 [Term]
-id: NCBITaxon:10690 ! Haemophilus phage HP1
+id: NCBITaxon:10690 ! Haemophilus virus HP1
 is_a: NCBITaxon:1196844 ! Hp1virus
 
 [Term]
@@ -1957,7 +1953,7 @@ id: NCBITaxon:10703 ! Corynephage beta
 is_a: NCBITaxon:335795 ! unclassified Lambda-like viruses
 
 [Term]
-id: NCBITaxon:10708 ! Pseudomonas phage D3112
+id: NCBITaxon:10708 ! Pseudomonas virus D3112
 is_a: NCBITaxon:1623286 ! D3112virus
 
 [Term]
@@ -1993,7 +1989,7 @@ id: NCBITaxon:1071400 ! Lactobacillus buchneri CD034
 is_a: NCBITaxon:1581 ! Lactobacillus buchneri
 
 [Term]
-id: NCBITaxon:10719 ! Streptomyces phage phiC31
+id: NCBITaxon:10719 ! Streptomyces virus phiC31
 is_a: NCBITaxon:308912 ! Phic31virus
 
 [Term]
@@ -2021,6 +2017,10 @@ id: NCBITaxon:1073 ! Rhodopseudomonas
 is_a: NCBITaxon:41294 ! Bradyrhizobiaceae
 
 [Term]
+id: NCBITaxon:1073531 ! Mycobacterium terrae complex
+is_a: NCBITaxon:1763 ! Mycobacterium
+
+[Term]
 id: NCBITaxon:10744 ! Podoviridae
 is_a: NCBITaxon:28883 ! Caudovirales
 
@@ -2041,7 +2041,7 @@ id: NCBITaxon:1075 ! Rhodobacter blasticus
 is_a: NCBITaxon:1060 ! Rhodobacter
 
 [Term]
-id: NCBITaxon:10752 ! Escherichia phage N4
+id: NCBITaxon:10752 ! Escherichia virus N4
 is_a: NCBITaxon:371730 ! N4virus
 
 [Term]
@@ -2066,7 +2066,7 @@ is_a: NCBITaxon:1073 ! Rhodopseudomonas
 
 [Term]
 id: NCBITaxon:10760 ! Enterobacteria phage T7
-is_a: NCBITaxon:110456 ! T7virus
+is_a: NCBITaxon:1985738 ! Escherichia virus T7
 
 [Term]
 id: NCBITaxon:1076588 ! Thiolapillus brandeum
@@ -2249,7 +2249,7 @@ id: NCBITaxon:10842 ! Microvirus
 is_a: NCBITaxon:117574 ! unclassified Microviridae
 
 [Term]
-id: NCBITaxon:10847 ! Escherichia phage phiX174
+id: NCBITaxon:10847 ! Escherichia virus phiX174
 is_a: NCBITaxon:1910954 ! Phix174microvirus
 
 [Term]
@@ -2269,7 +2269,7 @@ id: NCBITaxon:10854 ! Spiroplasma phage 1-R8A2B
 is_a: NCBITaxon:1977410 ! Spiroplasma virus R8A2B
 
 [Term]
-id: NCBITaxon:10855 ! Spiroplasma phage 4
+id: NCBITaxon:10855 ! Spiroplasma virus SpV4
 is_a: NCBITaxon:10852 ! Spiromicrovirus
 
 [Term]
@@ -2279,14 +2279,6 @@ is_a: NCBITaxon:686565 ! Gokushovirinae
 [Term]
 id: NCBITaxon:1085623 ! Glaciecola nitratireducens FR1064
 is_a: NCBITaxon:300231 ! Glaciecola nitratireducens
-
-[Term]
-id: NCBITaxon:10857 ! Chlamydia phage 1
-is_a: NCBITaxon:40274 ! Chlamydiamicrovirus
-
-[Term]
-id: NCBITaxon:108599 ! mitosporic Ascomycota
-is_a: NCBITaxon:4890 ! Ascomycota
 
 [Term]
 id: NCBITaxon:10860 ! Inoviridae
@@ -2306,7 +2298,7 @@ is_a: NCBITaxon:59201 ! Salmonella enterica subsp. enterica
 
 [Term]
 id: NCBITaxon:10863 ! Enterobacteria phage f1
-is_a: NCBITaxon:10870 ! Enterobacteria phage M13
+is_a: NCBITaxon:1977402 ! Escherichia virus M13
 
 [Term]
 id: NCBITaxon:10864 ! Enterobacteria phage fd
@@ -2318,7 +2310,7 @@ is_a: NCBITaxon:1977402 ! Escherichia virus M13
 
 [Term]
 id: NCBITaxon:10872 ! Pseudomonas phage Pf3
-is_a: NCBITaxon:1977138 ! unassigned Inoviridae
+is_a: NCBITaxon:2011082 ! Pseudomonas virus Pf3
 
 [Term]
 id: NCBITaxon:10875 ! Plectrovirus
@@ -2333,7 +2325,7 @@ id: NCBITaxon:10878 ! Cystovirus
 is_a: NCBITaxon:10877 ! Cystoviridae
 
 [Term]
-id: NCBITaxon:10879 ! Pseudomonas phage phi6
+id: NCBITaxon:10879 ! Pseudomonas virus phi6
 is_a: NCBITaxon:10878 ! Cystovirus
 
 [Term]
@@ -2393,8 +2385,8 @@ id: NCBITaxon:1091494 ! Methylomicrobium alcaliphilum 20Z
 is_a: NCBITaxon:271065 ! Methylomicrobium alcaliphilum
 
 [Term]
-id: NCBITaxon:10915 ! Porcine rotavirus (SEROTYPE 5 / STRAIN OSU)
-is_a: NCBITaxon:10913 ! Porcine rotavirus
+id: NCBITaxon:10915 ! Porcine rotavirus serotype 5/strain OSU
+is_a: NCBITaxon:375192 ! unclassified Rotavirus A
 
 [Term]
 id: NCBITaxon:109168 ! Desulfotalea
@@ -2449,7 +2441,7 @@ id: NCBITaxon:1094566 ! Pyropia
 is_a: NCBITaxon:31345 ! Bangiaceae
 
 [Term]
-id: NCBITaxon:1094710 ! Kjikia
+id: NCBITaxon:1094710 ! Kajikia
 is_a: NCBITaxon:27768 ! Istiophoridae
 
 [Term]
@@ -2614,7 +2606,7 @@ is_a: NCBITaxon:1101 ! Prosthecochloris
 
 [Term]
 id: NCBITaxon:11021 ! Eastern equine encephalitis virus
-is_a: NCBITaxon:177873 ! EEEV complex
+is_a: NCBITaxon:11019 ! Alphavirus
 
 [Term]
 id: NCBITaxon:110217 ! Proatheris
@@ -2638,11 +2630,11 @@ is_a: NCBITaxon:28105 ! Sinorhizobium
 
 [Term]
 id: NCBITaxon:11033 ! Semliki Forest virus
-is_a: NCBITaxon:177875 ! SFV complex
+is_a: NCBITaxon:11019 ! Alphavirus
 
 [Term]
 id: NCBITaxon:11034 ! Sindbis virus
-is_a: NCBITaxon:177874 ! WEEV complex
+is_a: NCBITaxon:11019 ! Alphavirus
 
 [Term]
 id: NCBITaxon:110365 ! Gregarina niphandrodes
@@ -2685,12 +2677,8 @@ id: NCBITaxon:110456 ! T7virus
 is_a: NCBITaxon:542835 ! Autographivirinae
 
 [Term]
-id: NCBITaxon:11046 ! Arterivirus
-is_a: NCBITaxon:76803 ! Arteriviridae
-
-[Term]
 id: NCBITaxon:11047 ! Equine arteritis virus
-is_a: NCBITaxon:11046 ! Arterivirus
+is_a: NCBITaxon:2003400 ! Equartevirus
 
 [Term]
 id: NCBITaxon:11050 ! Flaviviridae
@@ -2837,7 +2825,7 @@ id: NCBITaxon:11102 ! Hepacivirus
 is_a: NCBITaxon:11050 ! Flaviviridae
 
 [Term]
-id: NCBITaxon:11103 ! Hepatitis C virus
+id: NCBITaxon:11103 ! Hepacivirus C
 is_a: NCBITaxon:11102 ! Hepacivirus
 
 [Term]
@@ -3206,7 +3194,7 @@ id: NCBITaxon:1125 ! Microcystis
 is_a: NCBITaxon:1890449 ! Microcystaceae
 
 [Term]
-id: NCBITaxon:11250 ! Human respiratory syncytial virus
+id: NCBITaxon:11250 ! Human orthopneumovirus
 is_a: NCBITaxon:1868215 ! Orthopneumovirus
 
 [Term]
@@ -3298,7 +3286,7 @@ id: NCBITaxon:11283 ! Vesicular stomatitis virus (serotype New Jersey / strain O
 is_a: NCBITaxon:11280 ! Vesicular stomatitis New Jersey virus
 
 [Term]
-id: NCBITaxon:1128398 ! [Clostridium] acidurici 9a
+id: NCBITaxon:1128398 ! Gottschalkia acidurici 9a
 is_a: NCBITaxon:1556 ! Gottschalkia acidurici
 
 [Term]
@@ -3327,7 +3315,7 @@ is_a: NCBITaxon:1890426 ! Synechococcaceae
 
 [Term]
 id: NCBITaxon:11290 ! Infectious hematopoietic necrosis virus
-is_a: NCBITaxon:186778 ! Novirhabdovirus
+is_a: NCBITaxon:1980917 ! Salmonid novirhabdovirus
 
 [Term]
 id: NCBITaxon:11292 ! Rabies lyssavirus
@@ -3487,7 +3475,7 @@ is_a: NCBITaxon:35718 ! Chaetomiaceae
 
 [Term]
 id: NCBITaxon:1136731 ! Bacillus phage BPS13
-is_a: NCBITaxon:196896 ! unclassified Myoviridae
+is_a: NCBITaxon:1987727 ! Bacillus virus BPS13
 
 [Term]
 id: NCBITaxon:1137986 ! Mortierellomycotina
@@ -3607,7 +3595,7 @@ is_a: NCBITaxon:184914 ! Corallococcus coralloides
 
 [Term]
 id: NCBITaxon:114430 ! Ovine adenovirus 7
-is_a: NCBITaxon:130327 ! Ovine adenovirus D
+is_a: NCBITaxon:130327 ! Ovine atadenovirus D
 
 [Term]
 id: NCBITaxon:114476 ! Gardenia jasminoides
@@ -3774,10 +3762,6 @@ id: NCBITaxon:1156913 ! Amycolatopsis orientalis HCCB10007
 is_a: NCBITaxon:31958 ! Amycolatopsis orientalis
 
 [Term]
-id: NCBITaxon:11571 ! Bunyaviridae
-is_a: NCBITaxon:1980613 ! unclassified Bunyavirales
-
-[Term]
 id: NCBITaxon:11572 ! Orthobunyavirus
 is_a: NCBITaxon:1980416 ! Peribunyaviridae
 
@@ -3846,10 +3830,6 @@ id: NCBITaxon:115969 ! Nephila inaurata madagascariensis
 is_a: NCBITaxon:222470 ! Nephila inaurata
 
 [Term]
-id: NCBITaxon:11598 ! Hantavirus
-is_a: NCBITaxon:11571 ! Bunyaviridae
-
-[Term]
 id: NCBITaxon:1159901 ! Deltacoronavirus
 is_a: NCBITaxon:693995 ! Coronavirinae
 
@@ -3886,12 +3866,8 @@ id: NCBITaxon:1161 ! Nostocales
 is_a: NCBITaxon:1117 ! Cyanobacteria
 
 [Term]
-id: NCBITaxon:11611 ! Tospovirus
+id: NCBITaxon:11611 ! Orthotospovirus
 is_a: NCBITaxon:1980419 ! Tospoviridae
-
-[Term]
-id: NCBITaxon:11613 ! Tomato spotted wilt virus
-is_a: NCBITaxon:1933298 ! Tomato spotted wilt tospovirus
 
 [Term]
 id: NCBITaxon:11617 ! Arenaviridae
@@ -4006,6 +3982,10 @@ id: NCBITaxon:116557 ! Phyllopoda
 is_a: NCBITaxon:6658 ! Branchiopoda
 
 [Term]
+id: NCBITaxon:11656 ! Bovine lentivirus group
+is_a: NCBITaxon:11646 ! Lentivirus
+
+[Term]
 id: NCBITaxon:116561 ! Anomopoda
 is_a: NCBITaxon:6665 ! Cladocera
 
@@ -4027,7 +4007,7 @@ is_a: NCBITaxon:651143 ! Fibrella aestuarina
 
 [Term]
 id: NCBITaxon:11665 ! Equine infectious anemia virus
-is_a: NCBITaxon:11654 ! Equine lentivirus group
+is_a: NCBITaxon:11656 ! Bovine lentivirus group
 
 [Term]
 id: NCBITaxon:11670 ! Equine infectious anemia virus (CLONE 1369)
@@ -4242,10 +4222,6 @@ id: NCBITaxon:11719 ! Human immunodeficiency virus type 2 (ISOLATE NIH-Z)
 is_a: NCBITaxon:11709 ! Human immunodeficiency virus 2
 
 [Term]
-id: NCBITaxon:1172 ! Anabaena variabilis
-is_a: NCBITaxon:1163 ! Anabaena
-
-[Term]
 id: NCBITaxon:11720 ! Human immunodeficiency virus type 2 (ISOLATE ROD)
 is_a: NCBITaxon:388908 ! HIV-2 subtype A
 
@@ -4407,7 +4383,7 @@ is_a: NCBITaxon:103731 ! Saccharothrix espanaensis
 
 [Term]
 id: NCBITaxon:117992 ! Conus ventricosus
-is_a: NCBITaxon:6490 ! Conus
+is_a: NCBITaxon:1340096 ! Lautoconus
 
 [Term]
 id: NCBITaxon:117999 ! Denitrovibrio
@@ -4470,10 +4446,6 @@ id: NCBITaxon:118200 ! Picoides pubescens
 is_a: NCBITaxon:36302 ! Picoides
 
 [Term]
-id: NCBITaxon:1182516 ! Aphelenchina
-is_a: NCBITaxon:6300 ! Tylenchida
-
-[Term]
 id: NCBITaxon:1182571 ! Deinococcus swuensis
 is_a: NCBITaxon:1298 ! Deinococcus
 
@@ -4494,8 +4466,8 @@ id: NCBITaxon:1183438 ! Gloeobacter kilaueensis JS1
 is_a: NCBITaxon:1416614 ! Gloeobacter kilaueensis
 
 [Term]
-id: NCBITaxon:1184251 ! Thermogladius cellulolyticus 1633
-is_a: NCBITaxon:1200300 ! Thermogladius cellulolyticus
+id: NCBITaxon:1184251 ! Thermogladius calderae 1633
+is_a: NCBITaxon:1200300 ! Thermogladius calderae
 
 [Term]
 id: NCBITaxon:1184267 ! Bdellovibrio exovorus JSS
@@ -4659,7 +4631,7 @@ is_a: NCBITaxon:28216 ! Betaproteobacteria
 
 [Term]
 id: NCBITaxon:119069 ! Hydrogenophilales
-is_a: NCBITaxon:28216 ! Betaproteobacteria
+is_a: NCBITaxon:2008785 ! Hydrogenophilalia
 
 [Term]
 id: NCBITaxon:119072 ! Caldanaerobacter subterraneus subsp. tengcongensis
@@ -4683,7 +4655,7 @@ is_a: NCBITaxon:194441 ! Primate T-lymphotropic virus 2
 
 [Term]
 id: NCBITaxon:119093 ! Trichuridae
-is_a: NCBITaxon:6329 ! Trichocephalida
+is_a: NCBITaxon:6329 ! Trichinellida
 
 [Term]
 id: NCBITaxon:1191478 ! Magnetococcales
@@ -4863,7 +4835,7 @@ is_a: NCBITaxon:10662 ! Myoviridae
 
 [Term]
 id: NCBITaxon:1198140 ! Felixo1virus
-is_a: NCBITaxon:10662 ! Myoviridae
+is_a: NCBITaxon:1985285 ! Ounavirinae
 
 [Term]
 id: NCBITaxon:119829 ! Astragalus mongholicus
@@ -4934,7 +4906,7 @@ id: NCBITaxon:120017 ! Ustilago hordei
 is_a: NCBITaxon:5269 ! Ustilago
 
 [Term]
-id: NCBITaxon:1200300 ! Thermogladius cellulolyticus
+id: NCBITaxon:1200300 ! Thermogladius calderae
 is_a: NCBITaxon:477695 ! Thermogladius
 
 [Term]
@@ -4966,7 +4938,7 @@ id: NCBITaxon:1203471 ! Geobacter daltonii
 is_a: NCBITaxon:28231 ! Geobacter
 
 [Term]
-id: NCBITaxon:1203512 ! eupolypods I
+id: NCBITaxon:1203512 ! Polypodiineae
 is_a: NCBITaxon:3268 ! Polypodiales
 
 [Term]
@@ -5063,7 +5035,7 @@ is_a: NCBITaxon:138949 ! Enterovirus B
 
 [Term]
 id: NCBITaxon:12063 ! Human parechovirus 1
-is_a: NCBITaxon:195054 ! Human parechovirus
+is_a: NCBITaxon:1803956 ! Parechovirus A
 
 [Term]
 id: NCBITaxon:12064 ! Enterovirus E
@@ -5191,7 +5163,7 @@ is_a: NCBITaxon:138950 ! Enterovirus C
 
 [Term]
 id: NCBITaxon:120862 ! Aphelenchoidea
-is_a: NCBITaxon:1182516 ! Aphelenchina
+is_a: NCBITaxon:33283 ! Tylenchomorpha
 
 [Term]
 id: NCBITaxon:12087 ! Poliovirus type 3 (strain 23127)
@@ -5394,8 +5366,8 @@ id: NCBITaxon:12126 ! Theiler's encephalomyelitis virus (STRAIN DA)
 is_a: NCBITaxon:12124 ! Theiler's encephalomyelitis virus
 
 [Term]
-id: NCBITaxon:12127 ! Theiler's encephalomyelitis virus (STRAIN GDVII)
-is_a: NCBITaxon:12124 ! Theiler's encephalomyelitis virus
+id: NCBITaxon:12127 ! Theiler's murine encephalomyeltits virus GDVII
+is_a: NCBITaxon:1821750 ! Cardiovirus B
 
 [Term]
 id: NCBITaxon:121276 ! unclassified Rana
@@ -5426,7 +5398,7 @@ id: NCBITaxon:12130 ! Human rhinovirus A2
 is_a: NCBITaxon:147711 ! Rhinovirus A
 
 [Term]
-id: NCBITaxon:12131 ! Human rhinovirus B14
+id: NCBITaxon:12131 ! Rhinovirus B14
 is_a: NCBITaxon:147712 ! Rhinovirus B
 
 [Term]
@@ -5470,8 +5442,8 @@ id: NCBITaxon:12141 ! Tombusvirus
 is_a: NCBITaxon:39738 ! Tombusviridae
 
 [Term]
-id: NCBITaxon:1214101 ! Streptomyces davawensis JCM 4913
-is_a: NCBITaxon:348043 ! Streptomyces davawensis
+id: NCBITaxon:1214101 ! Streptomyces davaonensis JCM 4913
+is_a: NCBITaxon:348043 ! Streptomyces davaonensis
 
 [Term]
 id: NCBITaxon:1214242 ! Streptomyces collinus Tu 365
@@ -5547,7 +5519,7 @@ is_a: NCBITaxon:92444 ! Acute bee paralysis virus
 
 [Term]
 id: NCBITaxon:1217068 ! Enterobacteria phage phiX174 isolate Sanger
-is_a: NCBITaxon:10847 ! Escherichia phage phiX174
+is_a: NCBITaxon:10847 ! Escherichia virus phiX174
 
 [Term]
 id: NCBITaxon:12174 ! Capillovirus
@@ -5595,7 +5567,7 @@ is_a: NCBITaxon:687329 ! Anelloviridae
 
 [Term]
 id: NCBITaxon:1218488 ! Torque teno sus virus k2
-is_a: NCBITaxon:1218487 ! Kappatorquevirus
+is_a: NCBITaxon:2094303 ! unclassified Kappatorquevirus
 
 [Term]
 id: NCBITaxon:1218489 ! Lambdatorquevirus
@@ -5938,6 +5910,14 @@ id: NCBITaxon:12327 ! Barley stripe mosaic virus
 is_a: NCBITaxon:12326 ! Hordeivirus
 
 [Term]
+id: NCBITaxon:1232737 ! Clavaviridae
+is_a: NCBITaxon:35237 ! dsDNA viruses, no RNA stage
+
+[Term]
+id: NCBITaxon:1232738 ! Clavavirus
+is_a: NCBITaxon:1232737 ! Clavaviridae
+
+[Term]
 id: NCBITaxon:12329 ! Tenuivirus
 is_a: NCBITaxon:1980418 ! Phenuiviridae
 
@@ -6026,7 +6006,7 @@ id: NCBITaxon:1236 ! Gammaproteobacteria
 is_a: NCBITaxon:1224 ! Proteobacteria
 
 [Term]
-id: NCBITaxon:12360 ! Staphylococcus phage 11
+id: NCBITaxon:12360 ! Staphylococcus virus 11
 is_a: NCBITaxon:1623298 ! Phietavirus
 
 [Term]
@@ -6143,7 +6123,7 @@ is_a: NCBITaxon:249588 ! Mamastrovirus
 
 [Term]
 id: NCBITaxon:1239832 ! Torque teno sus virus k2b
-is_a: NCBITaxon:1218488 ! Torque teno sus virus k2
+is_a: NCBITaxon:1218487 ! Kappatorquevirus
 
 [Term]
 id: NCBITaxon:12402 ! Streptococcus phage EJ-1
@@ -7863,19 +7843,19 @@ is_a: NCBITaxon:264729 ! Burkholderia virus BcepMu
 
 [Term]
 id: NCBITaxon:1283336 ! Salmonella phage Felix O1 VT1
-is_a: NCBITaxon:77775 ! Salmonella phage FelixO1
+is_a: NCBITaxon:1985310 ! Salmonella virus FelixO1
 
 [Term]
 id: NCBITaxon:1283337 ! Halomonas phage phiHAP-1 Gulf of Mexico/-/2001
-is_a: NCBITaxon:499235 ! Halomonas phage phiHAP-1
+is_a: NCBITaxon:499235 ! Halomonas virus HAP1
 
 [Term]
 id: NCBITaxon:1283338 ! Staphylococcus phage Twort DSM 17442
-is_a: NCBITaxon:55510 ! Staphylococcus phage Twort
+is_a: NCBITaxon:55510 ! Staphylococcus virus Twort
 
 [Term]
 id: NCBITaxon:1283340 ! Vibrio phage KVP40 Japan/Matsuzaki /1991
-is_a: NCBITaxon:75320 ! Vibrio phage KVP40
+is_a: NCBITaxon:1914019 ! Vibrio virus KVP40
 
 [Term]
 id: NCBITaxon:1283341 ! Clostridium phage phiCD119 USA/Govind/2006
@@ -7919,7 +7899,7 @@ is_a: NCBITaxon:160386 ! Corynebacterium casei
 
 [Term]
 id: NCBITaxon:1285587 ! Bidnaviridae
-is_a: NCBITaxon:686617 ! unassigned viruses
+is_a: NCBITaxon:29258 ! ssDNA viruses
 
 [Term]
 id: NCBITaxon:1285588 ! Bidensovirus
@@ -7931,7 +7911,7 @@ is_a: NCBITaxon:1285588 ! Bidensovirus
 
 [Term]
 id: NCBITaxon:1285590 ! Hytrosaviridae
-is_a: NCBITaxon:686617 ! unassigned viruses
+is_a: NCBITaxon:35237 ! dsDNA viruses, no RNA stage
 
 [Term]
 id: NCBITaxon:1285591 ! Glossinavirus
@@ -7951,7 +7931,7 @@ is_a: NCBITaxon:1285593 ! Muscavirus
 
 [Term]
 id: NCBITaxon:1285596 ! Megabirnaviridae
-is_a: NCBITaxon:686617 ! unassigned viruses
+is_a: NCBITaxon:35237 ! dsDNA viruses, no RNA stage
 
 [Term]
 id: NCBITaxon:1285597 ! Megabirnavirus
@@ -8014,6 +7994,10 @@ id: NCBITaxon:1288970 ! Magnetospira sp. QH-2
 is_a: NCBITaxon:1182780 ! Magnetospira
 
 [Term]
+id: NCBITaxon:1289471 ! Aeropyrum pernix bacilliform virus 1 Japan/Tanaka/2005
+is_a: NCBITaxon:700542 ! Aeropyrum pernix bacilliform virus 1
+
+[Term]
 id: NCBITaxon:1289473 ! Nile crocodilepox virus Zimbabwe/Ume/2001
 is_a: NCBITaxon:1285600 ! Nile crocodilepox virus
 
@@ -8031,7 +8015,7 @@ is_a: NCBITaxon:1570291 ! Ebola virus
 
 [Term]
 id: NCBITaxon:1289570 ! Haemophilus phage HP1c1
-is_a: NCBITaxon:10690 ! Haemophilus phage HP1
+is_a: NCBITaxon:10690 ! Haemophilus virus HP1
 
 [Term]
 id: NCBITaxon:129001 ! Syntrophothermus
@@ -8110,6 +8094,10 @@ id: NCBITaxon:129337 ! Geobacillus
 is_a: NCBITaxon:186817 ! Bacillaceae
 
 [Term]
+id: NCBITaxon:129384 ! Ascomycota incertae sedis
+is_a: NCBITaxon:4890 ! Ascomycota
+
+[Term]
 id: NCBITaxon:129394 ! Xanthomonas oryzae pv. oryzicola
 is_a: NCBITaxon:347 ! Xanthomonas oryzae
 
@@ -8167,7 +8155,7 @@ is_a: NCBITaxon:84642 ! Aeromonadaceae
 
 [Term]
 id: NCBITaxon:12960 ! Azoarcus
-is_a: NCBITaxon:75787 ! Rhodocyclaceae
+is_a: NCBITaxon:2008794 ! Zoogloeaceae
 
 [Term]
 id: NCBITaxon:12967 ! Blastocystis
@@ -8350,7 +8338,7 @@ id: NCBITaxon:130310 ! Human mastadenovirus D
 is_a: NCBITaxon:10509 ! Mastadenovirus
 
 [Term]
-id: NCBITaxon:130327 ! Ovine adenovirus D
+id: NCBITaxon:130327 ! Ovine atadenovirus D
 is_a: NCBITaxon:100953 ! Atadenovirus
 
 [Term]
@@ -8582,12 +8570,12 @@ id: NCBITaxon:132200 ! Arctiini
 is_a: NCBITaxon:30225 ! Arctiinae
 
 [Term]
-id: NCBITaxon:1322061 ! Rhizoctonia <Ceratobasidiaceae>
+id: NCBITaxon:1322061 ! Rhizoctonia
 is_a: NCBITaxon:5250 ! Ceratobasidiaceae
 
 [Term]
-id: NCBITaxon:1322246 ! Desulfovibrio piezophilus C1TLV30
-is_a: NCBITaxon:879567 ! Desulfovibrio piezophilus
+id: NCBITaxon:1322246 ! Pseudodesulfovibrio piezophilus C1TLV30
+is_a: NCBITaxon:879567 ! Pseudodesulfovibrio piezophilus
 
 [Term]
 id: NCBITaxon:13244 ! Regulus
@@ -8742,8 +8730,8 @@ id: NCBITaxon:1334117 ! Melioribacteraceae
 is_a: NCBITaxon:795748 ! Ignavibacteriales
 
 [Term]
-id: NCBITaxon:1334193 ! Enterobacter lignolyticus
-is_a: NCBITaxon:354276 ! Enterobacter cloacae complex
+id: NCBITaxon:1334193 ! [Enterobacter] lignolyticus
+is_a: NCBITaxon:1330546 ! Pluralibacter
 
 [Term]
 id: NCBITaxon:133453 ! Caldilinea aerophila
@@ -8860,6 +8848,42 @@ is_a: NCBITaxon:1643824 ! Atopobiaceae
 [Term]
 id: NCBITaxon:133926 ! Olsenella uli
 is_a: NCBITaxon:133925 ! Olsenella
+
+[Term]
+id: NCBITaxon:1340066 ! Chelyconus
+is_a: NCBITaxon:6490 ! Conus <genus>
+
+[Term]
+id: NCBITaxon:1340072 ! Dauciconus
+is_a: NCBITaxon:6490 ! Conus <genus>
+
+[Term]
+id: NCBITaxon:1340096 ! Lautoconus
+is_a: NCBITaxon:6490 ! Conus <genus>
+
+[Term]
+id: NCBITaxon:1340100 ! Lindaconus
+is_a: NCBITaxon:6490 ! Conus <genus>
+
+[Term]
+id: NCBITaxon:1340104 ! Monteiroconus
+is_a: NCBITaxon:6490 ! Conus <genus>
+
+[Term]
+id: NCBITaxon:1340108 ! Phasmoconus
+is_a: NCBITaxon:6490 ! Conus <genus>
+
+[Term]
+id: NCBITaxon:1340109 ! Pionoconus
+is_a: NCBITaxon:6490 ! Conus <genus>
+
+[Term]
+id: NCBITaxon:1340117 ! Puncticulis
+is_a: NCBITaxon:6490 ! Conus <genus>
+
+[Term]
+id: NCBITaxon:1340127 ! Strategoconus
+is_a: NCBITaxon:6490 ! Conus <genus>
 
 [Term]
 id: NCBITaxon:1341165 ! Flavobacterium enshiense
@@ -8986,7 +9010,7 @@ id: NCBITaxon:1347342 ! Formosa agariphila KMM 3901
 is_a: NCBITaxon:320324 ! Formosa agariphila
 
 [Term]
-id: NCBITaxon:1348114 ! Pseudoalteromonas sp. OCN003
+id: NCBITaxon:1348114 ! Pseudoalteromonas piratica
 is_a: NCBITaxon:53246 ! Pseudoalteromonas
 
 [Term]
@@ -9299,11 +9323,11 @@ is_a: NCBITaxon:1357 ! Lactococcus
 
 [Term]
 id: NCBITaxon:13641 ! Polysphondylium
-is_a: NCBITaxon:33083 ! Dictyosteliida
+is_a: NCBITaxon:2058185 ! Dictyosteliaceae
 
 [Term]
-id: NCBITaxon:13642 ! Polysphondylium pallidum
-is_a: NCBITaxon:13641 ! Polysphondylium
+id: NCBITaxon:13642 ! Heterostelium pallidum
+is_a: NCBITaxon:2058189 ! Heterostelium
 
 [Term]
 id: NCBITaxon:136466 ! Brevidensovirus
@@ -9395,7 +9419,7 @@ is_a: NCBITaxon:186818 ! Planococcaceae
 
 [Term]
 id: NCBITaxon:13721 ! Kajikia audax
-is_a: NCBITaxon:1094710 ! Kjikia
+is_a: NCBITaxon:1094710 ! Kajikia
 
 [Term]
 id: NCBITaxon:137221 ! Rheum palmatum
@@ -9694,7 +9718,7 @@ id: NCBITaxon:1401074 ! Prevotella buccalis DNF00853
 is_a: NCBITaxon:28127 ! Prevotella buccalis
 
 [Term]
-id: NCBITaxon:140110 ! Nectria haematococca
+id: NCBITaxon:140110 ! [Nectria] haematococca
 is_a: NCBITaxon:232080 ! Fusarium solani species complex
 
 [Term]
@@ -9707,7 +9731,7 @@ is_a: NCBITaxon:653685 ! Bacillus subtilis group
 
 [Term]
 id: NCBITaxon:140295 ! Varicosavirus
-is_a: NCBITaxon:35301 ! ssRNA negative-strand viruses
+is_a: NCBITaxon:11270 ! Rhabdoviridae
 
 [Term]
 id: NCBITaxon:1403316 ! Mycoplasma parvum str. Indiana
@@ -9736,6 +9760,10 @@ is_a: NCBITaxon:1404244 ! Corynebacterium glyciniphilum
 [Term]
 id: NCBITaxon:140458 ! Thermacetogenium
 is_a: NCBITaxon:186814 ! Thermoanaerobacteraceae
+
+[Term]
+id: NCBITaxon:1405 ! Bacillus mycoides
+is_a: NCBITaxon:86661 ! Bacillus cereus group
 
 [Term]
 id: NCBITaxon:140568 ! Allexivirus
@@ -10191,7 +10219,7 @@ is_a: NCBITaxon:1386 ! Bacillus <bacterium>
 
 [Term]
 id: NCBITaxon:145579 ! Bdellovibrio phage phiMH2K
-is_a: NCBITaxon:10856 ! Bdellomicrovirus
+is_a: NCBITaxon:1986027 ! Bdellovibrio virus MH2K
 
 [Term]
 id: NCBITaxon:1457286 ! Dorylaimia
@@ -10498,6 +10526,10 @@ id: NCBITaxon:147802 ! Lactobacillus iners
 is_a: NCBITaxon:1578 ! Lactobacillus
 
 [Term]
+id: NCBITaxon:148100 ! Dothideales incertae sedis
+is_a: NCBITaxon:5014 ! Dothideales
+
+[Term]
 id: NCBITaxon:1481960 ! Peptoclostridium
 is_a: NCBITaxon:186804 ! Peptostreptococcaceae
 
@@ -10698,7 +10730,7 @@ id: NCBITaxon:1489904 ! Carangaria
 is_a: NCBITaxon:1489872 ! Percomorphaceae
 
 [Term]
-id: NCBITaxon:1489905 ! Carangiaria incertae sedis
+id: NCBITaxon:1489905 ! Carangaria incertae sedis
 is_a: NCBITaxon:1489904 ! Carangaria
 
 [Term]
@@ -10939,7 +10971,7 @@ is_a: NCBITaxon:129337 ! Geobacillus
 
 [Term]
 id: NCBITaxon:1505664 ! Gottschalkia
-is_a: NCBITaxon:186813 ! unclassified Clostridiales
+is_a: NCBITaxon:2042895 ! Gottschalkiaceae
 
 [Term]
 id: NCBITaxon:1505891 ! Epinephelini
@@ -11454,6 +11486,10 @@ id: NCBITaxon:1551504 ! Candidatus Babela
 is_a: NCBITaxon:45456 ! unclassified Deltaproteobacteria
 
 [Term]
+id: NCBITaxon:1553900 ! Oligoflexia
+is_a: NCBITaxon:1224 ! Proteobacteria
+
+[Term]
 id: NCBITaxon:155493 ! Gallibacterium
 is_a: NCBITaxon:712 ! Pasteurellaceae
 
@@ -11492,14 +11528,6 @@ is_a: NCBITaxon:1890429 ! Acaryochloridaceae
 [Term]
 id: NCBITaxon:155978 ! Acaryochloris marina
 is_a: NCBITaxon:155977 ! Acaryochloris
-
-[Term]
-id: NCBITaxon:1559979 ! Sulfuricellales
-is_a: NCBITaxon:28216 ! Betaproteobacteria
-
-[Term]
-id: NCBITaxon:1559980 ! Sulfuricellaceae
-is_a: NCBITaxon:1559979 ! Sulfuricellales
 
 [Term]
 id: NCBITaxon:1560034 ! Tupaia virus isolate Tupaia/Thailand/-/1986
@@ -12147,7 +12175,7 @@ is_a: NCBITaxon:46255 ! Weissella
 
 [Term]
 id: NCBITaxon:163090 ! Caesalpinieae
-is_a: NCBITaxon:3803 ! Fabaceae
+is_a: NCBITaxon:3804 ! Caesalpinioideae
 
 [Term]
 id: NCBITaxon:163092 ! Cercideae
@@ -12179,11 +12207,11 @@ is_a: NCBITaxon:1578 ! Lactobacillus
 
 [Term]
 id: NCBITaxon:163486 ! Ingeae
-is_a: NCBITaxon:3807 ! Mimosoideae
+is_a: NCBITaxon:3807 ! mimosoid clade
 
 [Term]
 id: NCBITaxon:163487 ! Mimoseae
-is_a: NCBITaxon:3807 ! Mimosoideae
+is_a: NCBITaxon:3807 ! mimosoid clade
 
 [Term]
 id: NCBITaxon:1635148 ! Sanguibacteroides
@@ -12515,7 +12543,7 @@ is_a: NCBITaxon:147387 ! Poeae
 
 [Term]
 id: NCBITaxon:1652132 ! Halobacteriovoraceae
-is_a: NCBITaxon:213481 ! Bdellovibrionales
+is_a: NCBITaxon:2024979 ! Bacteriovoracales
 
 [Term]
 id: NCBITaxon:1652133 ! Halobacteriovorax
@@ -12870,7 +12898,7 @@ id: NCBITaxon:169679 ! Clostridium saccharobutylicum
 is_a: NCBITaxon:1485 ! Clostridium
 
 [Term]
-id: NCBITaxon:169683 ! Pseudomonas phage phiKZ
+id: NCBITaxon:169683 ! Pseudomonas virus phiKZ
 is_a: NCBITaxon:680115 ! Phikzvirus
 
 [Term]
@@ -12946,6 +12974,10 @@ id: NCBITaxon:1707 ! Cellulomonas
 is_a: NCBITaxon:85016 ! Cellulomonadaceae
 
 [Term]
+id: NCBITaxon:1707744 ! Cladobranchia
+is_a: NCBITaxon:70849 ! Nudibranchia
+
+[Term]
 id: NCBITaxon:1708 ! Cellulomonas fimi
 is_a: NCBITaxon:1707 ! Cellulomonas
 
@@ -12988,10 +13020,6 @@ is_a: NCBITaxon:2093 ! Mycoplasma
 [Term]
 id: NCBITaxon:171414 ! Paralichthyidae
 is_a: NCBITaxon:30942 ! Pleuronectoidei
-
-[Term]
-id: NCBITaxon:1714266 ! Virus families not assigned to an order
-is_a: NCBITaxon:10239 ! Viruses
 
 [Term]
 id: NCBITaxon:171436 ! Tistrella
@@ -13486,18 +13514,6 @@ id: NCBITaxon:1777752 ! Candidatus Paracaedibacteraceae
 is_a: NCBITaxon:1921002 ! Holosporales
 
 [Term]
-id: NCBITaxon:177873 ! EEEV complex
-is_a: NCBITaxon:11019 ! Alphavirus
-
-[Term]
-id: NCBITaxon:177874 ! WEEV complex
-is_a: NCBITaxon:11019 ! Alphavirus
-
-[Term]
-id: NCBITaxon:177875 ! SFV complex
-is_a: NCBITaxon:11019 ! Alphavirus
-
-[Term]
 id: NCBITaxon:1779146 ! Heteroscleromorpha
 is_a: NCBITaxon:6042 ! Demospongiae
 
@@ -13654,6 +13670,10 @@ id: NCBITaxon:1803510 ! DHVE2 group
 is_a: NCBITaxon:33867 ! unclassified Euryarchaeota
 
 [Term]
+id: NCBITaxon:1803956 ! Parechovirus A
+is_a: NCBITaxon:138954 ! Parechovirus
+
+[Term]
 id: NCBITaxon:1804 ! Mycobacterium gilvum
 is_a: NCBITaxon:1763 ! Mycobacterium
 
@@ -13691,7 +13711,7 @@ is_a: NCBITaxon:3995 ! Jatropha
 
 [Term]
 id: NCBITaxon:180675 ! Salvia splendens
-is_a: NCBITaxon:21880 ! Salvia
+is_a: NCBITaxon:2026556 ! core Calosphace
 
 [Term]
 id: NCBITaxon:1807140 ! Acidithiobacillia
@@ -13770,8 +13790,8 @@ id: NCBITaxon:1821750 ! Cardiovirus B
 is_a: NCBITaxon:12103 ! Cardiovirus
 
 [Term]
-id: NCBITaxon:182210 ! Desulfovibrio aespoeensis
-is_a: NCBITaxon:872 ! Desulfovibrio
+id: NCBITaxon:182210 ! Pseudodesulfovibrio aespoeensis
+is_a: NCBITaxon:2035811 ! Pseudodesulfovibrio
 
 [Term]
 id: NCBITaxon:182230 ! Osmerinae
@@ -13928,6 +13948,10 @@ is_a: NCBITaxon:28890 ! Euryarchaeota
 [Term]
 id: NCBITaxon:183968 ! Thermococci
 is_a: NCBITaxon:28890 ! Euryarchaeota
+
+[Term]
+id: NCBITaxon:183979 ! Polyporales incertae sedis
+is_a: NCBITaxon:5303 ! Polyporales
 
 [Term]
 id: NCBITaxon:183980 ! Archaeoglobi
@@ -14335,7 +14359,7 @@ is_a: NCBITaxon:186766 ! Narnaviridae
 
 [Term]
 id: NCBITaxon:186769 ! Cryphonectria parasitica mitovirus 1-NB631
-is_a: NCBITaxon:343865 ! unclassified Mitovirus
+is_a: NCBITaxon:343866 ! Cryphonectria mitovirus 1
 
 [Term]
 id: NCBITaxon:186772 ! Saccharomyces 20S RNA narnavirus
@@ -14635,7 +14659,7 @@ is_a: NCBITaxon:5234 ! Tremellales
 
 [Term]
 id: NCBITaxon:1884637 ! Cryptococcus gattii species complex
-is_a: NCBITaxon:5206 ! Cryptococcus <Filobasidiella>
+is_a: NCBITaxon:5206 ! Cryptococcus <basidiomycete yeast>
 
 [Term]
 id: NCBITaxon:1885 ! Streptomyces actuosus
@@ -14858,8 +14882,8 @@ id: NCBITaxon:189385 ! Candidatus Tremblaya princeps
 is_a: NCBITaxon:189384 ! Candidatus Tremblaya
 
 [Term]
-id: NCBITaxon:1894 ! Streptomyces aureofaciens
-is_a: NCBITaxon:1883 ! Streptomyces
+id: NCBITaxon:1894 ! Kitasatospora aureofaciens
+is_a: NCBITaxon:2063 ! Kitasatospora
 
 [Term]
 id: NCBITaxon:189425 ! Paenibacillus graminis
@@ -14895,7 +14919,7 @@ is_a: NCBITaxon:186803 ! Lachnospiraceae
 
 [Term]
 id: NCBITaxon:1897064 ! Cryptococcus neoformans species complex
-is_a: NCBITaxon:5206 ! Cryptococcus <Filobasidiella>
+is_a: NCBITaxon:5206 ! Cryptococcus <basidiomycete yeast>
 
 [Term]
 id: NCBITaxon:189769 ! Chrysiogenales
@@ -15030,7 +15054,7 @@ id: NCBITaxon:1906 ! Streptomyces fradiae
 is_a: NCBITaxon:1883 ! Streptomyces
 
 [Term]
-id: NCBITaxon:190650 ! Caulobacter crescentus CB15
+id: NCBITaxon:190650 ! Caulobacter vibrioides CB15
 is_a: NCBITaxon:155892 ! Caulobacter vibrioides
 
 [Term]
@@ -15178,6 +15202,10 @@ id: NCBITaxon:1914 ! Streptomyces lavendulae
 is_a: NCBITaxon:1883 ! Streptomyces
 
 [Term]
+id: NCBITaxon:1914019 ! Vibrio virus KVP40
+is_a: NCBITaxon:1198137 ! Schizot4virus
+
+[Term]
 id: NCBITaxon:191410 ! Chlorobia
 is_a: NCBITaxon:1090 ! Chlorobi
 
@@ -15207,7 +15235,7 @@ is_a: NCBITaxon:675068 ! Betaflexiviridae
 
 [Term]
 id: NCBITaxon:1914302 ! Lavidaviridae
-is_a: NCBITaxon:1714266 ! Virus families not assigned to an order
+is_a: NCBITaxon:35237 ! dsDNA viruses, no RNA stage
 
 [Term]
 id: NCBITaxon:191494 ! Conexibacter
@@ -15290,10 +15318,6 @@ id: NCBITaxon:1921002 ! Holosporales
 is_a: NCBITaxon:28211 ! Alphaproteobacteria
 
 [Term]
-id: NCBITaxon:1921007 ! unclassified Holosporales
-is_a: NCBITaxon:1921002 ! Holosporales
-
-[Term]
 id: NCBITaxon:1921008 ! Escherichia virus T1
 is_a: NCBITaxon:187217 ! T1virus
 
@@ -15304,6 +15328,10 @@ is_a: NCBITaxon:9126 ! Passeriformes
 [Term]
 id: NCBITaxon:192222 ! Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819
 is_a: NCBITaxon:32022 ! Campylobacter jejuni subsp. jejuni
+
+[Term]
+id: NCBITaxon:1922327 ! Wphvirus
+is_a: NCBITaxon:10662 ! Myoviridae
 
 [Term]
 id: NCBITaxon:192326 ! Cinnamomum tenuipile
@@ -15391,7 +15419,7 @@ is_a: NCBITaxon:114657 ! Dicranidae
 
 [Term]
 id: NCBITaxon:192919 ! Conus spurius
-is_a: NCBITaxon:6490 ! Conus
+is_a: NCBITaxon:1340100 ! Lindaconus
 
 [Term]
 id: NCBITaxon:192952 ! Methanosarcina mazei Go1
@@ -15426,7 +15454,7 @@ id: NCBITaxon:1931 ! Streptomyces sp.
 is_a: NCBITaxon:1883 ! Streptomyces
 
 [Term]
-id: NCBITaxon:193121 ! Pea enation mosaic virus-1
+id: NCBITaxon:193121 ! Pea enation mosaic virus 1
 is_a: NCBITaxon:12289 ! Enamovirus
 
 [Term]
@@ -15467,11 +15495,11 @@ is_a: NCBITaxon:11572 ! Orthobunyavirus
 
 [Term]
 id: NCBITaxon:1933295 ! Iris yellow spot orthotospovirus
-is_a: NCBITaxon:11611 ! Tospovirus
+is_a: NCBITaxon:11611 ! Orthotospovirus
 
 [Term]
-id: NCBITaxon:1933298 ! Tomato spotted wilt tospovirus
-is_a: NCBITaxon:11611 ! Tospovirus
+id: NCBITaxon:1933298 ! Tomato spotted wilt orthotospovirus
+is_a: NCBITaxon:11611 ! Orthotospovirus
 
 [Term]
 id: NCBITaxon:1934349 ! Amesia
@@ -15546,7 +15574,7 @@ id: NCBITaxon:194366 ! Culter alburnus
 is_a: NCBITaxon:172911 ! Culter
 
 [Term]
-id: NCBITaxon:194439 ! Chlorobium tepidum TLS
+id: NCBITaxon:194439 ! Chlorobaculum tepidum TLS
 is_a: NCBITaxon:1097 ! Chlorobaculum tepidum
 
 [Term]
@@ -15594,10 +15622,6 @@ id: NCBITaxon:1950 ! Streptomyces peucetius
 is_a: NCBITaxon:1883 ! Streptomyces
 
 [Term]
-id: NCBITaxon:195054 ! Human parechovirus
-is_a: NCBITaxon:376147 ! unclassified Parechovirus
-
-[Term]
 id: NCBITaxon:195088 ! Halobacillus karajensis
 is_a: NCBITaxon:45667 ! Halobacillus
 
@@ -15643,7 +15667,7 @@ is_a: NCBITaxon:8825 ! Neognathae
 
 [Term]
 id: NCBITaxon:195950 ! Tannerella
-is_a: NCBITaxon:171551 ! Porphyromonadaceae
+is_a: NCBITaxon:2005525 ! Tannerellaceae
 
 [Term]
 id: NCBITaxon:196 ! Campylobacter fetus
@@ -15711,11 +15735,11 @@ is_a: NCBITaxon:1962852 ! Calditrichales
 
 [Term]
 id: NCBITaxon:1963084 ! Caesalpinia clade
-is_a: NCBITaxon:3803 ! Fabaceae
+is_a: NCBITaxon:3804 ! Caesalpinioideae
 
 [Term]
 id: NCBITaxon:1963090 ! Peltophorum clade
-is_a: NCBITaxon:3803 ! Fabaceae
+is_a: NCBITaxon:3804 ! Caesalpinioideae
 
 [Term]
 id: NCBITaxon:1963268 ! Haloarculaceae
@@ -15986,8 +16010,8 @@ id: NCBITaxon:1980521 ! Dugbe orthonairovirus
 is_a: NCBITaxon:1980517 ! Orthonairovirus
 
 [Term]
-id: NCBITaxon:1980613 ! unclassified Bunyavirales
-is_a: NCBITaxon:1980410 ! Bunyavirales
+id: NCBITaxon:1980917 ! Salmonid novirhabdovirus
+is_a: NCBITaxon:186778 ! Novirhabdovirus
 
 [Term]
 id: NCBITaxon:198094 ! Bacillus anthracis str. Ames
@@ -16030,8 +16054,44 @@ id: NCBITaxon:198466 ! Streptococcus pyogenes MGAS315
 is_a: NCBITaxon:301448 ! Streptococcus pyogenes serotype M3
 
 [Term]
+id: NCBITaxon:1985285 ! Ounavirinae
+is_a: NCBITaxon:10662 ! Myoviridae
+
+[Term]
+id: NCBITaxon:1985310 ! Salmonella virus FelixO1
+is_a: NCBITaxon:1198140 ! Felixo1virus
+
+[Term]
+id: NCBITaxon:1985698 ! Lettuce big-vein associated varicosavirus
+is_a: NCBITaxon:140295 ! Varicosavirus
+
+[Term]
+id: NCBITaxon:1985702 ! Lettuce necrotic yellows cytorhabdovirus
+is_a: NCBITaxon:11305 ! Cytorhabdovirus
+
+[Term]
+id: NCBITaxon:1985732 ! Pseudomonas virus phiKMV
+is_a: NCBITaxon:477967 ! Phikmvvirus
+
+[Term]
+id: NCBITaxon:1985738 ! Escherichia virus T7
+is_a: NCBITaxon:110456 ! T7virus
+
+[Term]
+id: NCBITaxon:1986027 ! Bdellovibrio virus MH2K
+is_a: NCBITaxon:10856 ! Bdellomicrovirus
+
+[Term]
 id: NCBITaxon:198628 ! Dickeya dadantii 3937
 is_a: NCBITaxon:204038 ! Dickeya dadantii
+
+[Term]
+id: NCBITaxon:1987727 ! Bacillus virus BPS13
+is_a: NCBITaxon:1922327 ! Wphvirus
+
+[Term]
+id: NCBITaxon:1987993 ! Salmonella virus ViI
+is_a: NCBITaxon:1298971 ! Vi1virus
 
 [Term]
 id: NCBITaxon:198804 ! Buchnera aphidicola str. Sg (Schizaphis graminum)
@@ -16112,6 +16172,18 @@ id: NCBITaxon:200319 ! Nicotiana arentsii
 is_a: NCBITaxon:4085 ! Nicotiana
 
 [Term]
+id: NCBITaxon:2003327 ! Chlamydia virus Chp1
+is_a: NCBITaxon:40274 ! Chlamydiamicrovirus
+
+[Term]
+id: NCBITaxon:2003394 ! Alphaendornavirus
+is_a: NCBITaxon:564644 ! Endornaviridae
+
+[Term]
+id: NCBITaxon:2003400 ! Equartevirus
+is_a: NCBITaxon:76803 ! Arteriviridae
+
+[Term]
 id: NCBITaxon:200361 ! Aegilops tauschii subsp. strangulata
 is_a: NCBITaxon:37682 ! Aegilops tauschii
 
@@ -16128,8 +16200,24 @@ id: NCBITaxon:200415 ! Caldisphaera lagunensis
 is_a: NCBITaxon:200414 ! Caldisphaera
 
 [Term]
+id: NCBITaxon:2005519 ! Barnesiellaceae
+is_a: NCBITaxon:171549 ! Bacteroidales
+
+[Term]
+id: NCBITaxon:2005523 ! Paludibacteraceae
+is_a: NCBITaxon:171549 ! Bacteroidales
+
+[Term]
+id: NCBITaxon:2005525 ! Tannerellaceae
+is_a: NCBITaxon:171549 ! Bacteroidales
+
+[Term]
 id: NCBITaxon:2006 ! Thermobispora bispora
 is_a: NCBITaxon:147067 ! Thermobispora
+
+[Term]
+id: NCBITaxon:2006134 ! Mycobacterium virus Bxz1
+is_a: NCBITaxon:680114 ! Bxz1virus
 
 [Term]
 id: NCBITaxon:200616 ! Rhodoplanes tepidamans
@@ -16160,6 +16248,26 @@ id: NCBITaxon:200795 ! Chloroflexi
 is_a: NCBITaxon:1783272 ! Terrabacteria group
 
 [Term]
+id: NCBITaxon:2008785 ! Hydrogenophilalia
+is_a: NCBITaxon:1224 ! Proteobacteria
+
+[Term]
+id: NCBITaxon:2008790 ! Thiobacillaceae
+is_a: NCBITaxon:32003 ! Nitrosomonadales
+
+[Term]
+id: NCBITaxon:2008793 ! Sterolibacteriaceae
+is_a: NCBITaxon:32003 ! Nitrosomonadales
+
+[Term]
+id: NCBITaxon:2008794 ! Zoogloeaceae
+is_a: NCBITaxon:206389 ! Rhodocyclales
+
+[Term]
+id: NCBITaxon:2008795 ! Azonexaceae
+is_a: NCBITaxon:206389 ! Rhodocyclales
+
+[Term]
 id: NCBITaxon:200918 ! Thermotogae <phylum>
 is_a: NCBITaxon:2 ! Bacteria
 
@@ -16184,6 +16292,10 @@ id: NCBITaxon:201096 ! Alicycliphilus
 is_a: NCBITaxon:80864 ! Comamonadaceae
 
 [Term]
+id: NCBITaxon:2011082 ! Pseudomonas virus Pf3
+is_a: NCBITaxon:1977138 ! unassigned Inoviridae
+
+[Term]
 id: NCBITaxon:201174 ! Actinobacteria <phylum>
 is_a: NCBITaxon:1783272 ! Terrabacteria group
 
@@ -16200,8 +16312,20 @@ id: NCBITaxon:2014 ! Nocardiopsis dassonvillei
 is_a: NCBITaxon:2013 ! Nocardiopsis
 
 [Term]
+id: NCBITaxon:2014984 ! Dryopteridoideae
+is_a: NCBITaxon:29607 ! Dryopteridaceae
+
+[Term]
 id: NCBITaxon:2016 ! Streptoalloteichus
 is_a: NCBITaxon:2070 ! Pseudonocardiaceae
+
+[Term]
+id: NCBITaxon:2017756 ! Alphairidovirinae
+is_a: NCBITaxon:10486 ! Iridoviridae
+
+[Term]
+id: NCBITaxon:2017757 ! Betairidovirinae
+is_a: NCBITaxon:10486 ! Iridoviridae
 
 [Term]
 id: NCBITaxon:2019 ! Thermomonospora
@@ -16220,8 +16344,40 @@ id: NCBITaxon:2021 ! Thermobifida fusca
 is_a: NCBITaxon:83677 ! Thermobifida
 
 [Term]
+id: NCBITaxon:2022738 ! Tristromaviridae
+is_a: NCBITaxon:35237 ! dsDNA viruses, no RNA stage
+
+[Term]
+id: NCBITaxon:2022739 ! Alphatristromavirus
+is_a: NCBITaxon:2022738 ! Tristromaviridae
+
+[Term]
+id: NCBITaxon:2024539 ! Lutjaniformes
+is_a: NCBITaxon:1489922 ! Eupercaria
+
+[Term]
+id: NCBITaxon:2024743 ! Phrynosomatidae
+is_a: NCBITaxon:8511 ! Iguania
+
+[Term]
+id: NCBITaxon:2024747 ! Dactyloidae
+is_a: NCBITaxon:8511 ! Iguania
+
+[Term]
+id: NCBITaxon:2024979 ! Bacteriovoracales
+is_a: NCBITaxon:1553900 ! Oligoflexia
+
+[Term]
 id: NCBITaxon:202566 ! Cherry rasp leaf virus
 is_a: NCBITaxon:310684 ! Cheravirus
+
+[Term]
+id: NCBITaxon:2026555 ! Calosphace
+is_a: NCBITaxon:21880 ! Salvia
+
+[Term]
+id: NCBITaxon:2026556 ! core Calosphace
+is_a: NCBITaxon:2026555 ! Calosphace
 
 [Term]
 id: NCBITaxon:202746 ! Sulfurimonas
@@ -16230,6 +16386,22 @@ is_a: NCBITaxon:72293 ! Helicobacteraceae
 [Term]
 id: NCBITaxon:202747 ! Sulfurimonas autotrophica
 is_a: NCBITaxon:202746 ! Sulfurimonas
+
+[Term]
+id: NCBITaxon:2028206 ! Cerrenaceae
+is_a: NCBITaxon:5303 ! Polyporales
+
+[Term]
+id: NCBITaxon:2028214 ! Dacryobolaceae
+is_a: NCBITaxon:5303 ! Polyporales
+
+[Term]
+id: NCBITaxon:2028216 ! Grifolaceae
+is_a: NCBITaxon:5303 ! Polyporales
+
+[Term]
+id: NCBITaxon:2028217 ! Gelatoporiaceae
+is_a: NCBITaxon:5303 ! Polyporales
 
 [Term]
 id: NCBITaxon:202907 ! Collimonas
@@ -16288,6 +16460,10 @@ id: NCBITaxon:2033 ! Microbacterium testaceum
 is_a: NCBITaxon:33882 ! Microbacterium
 
 [Term]
+id: NCBITaxon:2033035 ! Hypoxylaceae
+is_a: NCBITaxon:37989 ! Xylariales
+
+[Term]
 id: NCBITaxon:2034 ! Curtobacterium
 is_a: NCBITaxon:85023 ! Microbacteriaceae
 
@@ -16326,6 +16502,10 @@ is_a: NCBITaxon:74201 ! Verrucomicrobia
 [Term]
 id: NCBITaxon:2035 ! Curtobacterium flaccumfaciens
 is_a: NCBITaxon:2034 ! Curtobacterium
+
+[Term]
+id: NCBITaxon:2035811 ! Pseudodesulfovibrio
+is_a: NCBITaxon:194924 ! Desulfovibrionaceae
 
 [Term]
 id: NCBITaxon:203682 ! Planctomycetes
@@ -16376,12 +16556,16 @@ id: NCBITaxon:203908 ! Melampsora larici-populina
 is_a: NCBITaxon:5260 ! Melampsora
 
 [Term]
+id: NCBITaxon:2039240 ! Anaerotignum
+is_a: NCBITaxon:186803 ! Lachnospiraceae
+
+[Term]
 id: NCBITaxon:203991 ! Pseudananas
 is_a: NCBITaxon:1909378 ! Bromelioideae
 
 [Term]
-id: NCBITaxon:203992 ! Pseudananas sagenarius
-is_a: NCBITaxon:203991 ! Pseudananas
+id: NCBITaxon:203992 ! Ananas macrodontes
+is_a: NCBITaxon:4614 ! Ananas
 
 [Term]
 id: NCBITaxon:2040 ! Aeromicrobium
@@ -16404,24 +16588,28 @@ id: NCBITaxon:204038 ! Dickeya dadantii
 is_a: NCBITaxon:204037 ! Dickeya
 
 [Term]
-id: NCBITaxon:204086 ! Staphylococcus phage 44AHJD
+id: NCBITaxon:204086 ! Staphylococcus virus 44AHJD
 is_a: NCBITaxon:680287 ! P68virus
 
 [Term]
 id: NCBITaxon:204122 ! Hyptis
-is_a: NCBITaxon:216719 ! Ocimeae
+is_a: NCBITaxon:2045300 ! Hyptidinae
 
 [Term]
-id: NCBITaxon:204129 ! Hyptis suaveolens
-is_a: NCBITaxon:204122 ! Hyptis
+id: NCBITaxon:204129 ! Mesosphaerum suaveolens
+is_a: NCBITaxon:2045129 ! Mesosphaerum
 
 [Term]
 id: NCBITaxon:204270 ! Pseudomonas phage phiKMV
-is_a: NCBITaxon:477967 ! Phikmvvirus
+is_a: NCBITaxon:1985732 ! Pseudomonas virus phiKMV
 
 [Term]
 id: NCBITaxon:204285 ! Melanocarpus albomyces
 is_a: NCBITaxon:113631 ! Melanocarpus
+
+[Term]
+id: NCBITaxon:2042895 ! Gottschalkiaceae
+is_a: NCBITaxon:1737405 ! Tissierellales
 
 [Term]
 id: NCBITaxon:2044 ! Pimelobacter
@@ -16476,8 +16664,24 @@ id: NCBITaxon:204458 ! Caulobacterales
 is_a: NCBITaxon:28211 ! Alphaproteobacteria
 
 [Term]
+id: NCBITaxon:2044973 ! Plectida
+is_a: NCBITaxon:119089 ! Chromadorea
+
+[Term]
 id: NCBITaxon:2045 ! Pimelobacter simplex
 is_a: NCBITaxon:2044 ! Pimelobacter
+
+[Term]
+id: NCBITaxon:2045129 ! Mesosphaerum
+is_a: NCBITaxon:2045300 ! Hyptidinae
+
+[Term]
+id: NCBITaxon:2045261 ! Rhodymeniophycidae
+is_a: NCBITaxon:2806 ! Florideophyceae
+
+[Term]
+id: NCBITaxon:2045300 ! Hyptidinae
+is_a: NCBITaxon:216719 ! Ocimeae
 
 [Term]
 id: NCBITaxon:20455 ! Bowringia
@@ -16536,6 +16740,10 @@ id: NCBITaxon:2054 ! Gordonia bronchialis
 is_a: NCBITaxon:2053 ! Gordonia <actinomycete>
 
 [Term]
+id: NCBITaxon:2055880 ! Pseudescherichia
+is_a: NCBITaxon:543 ! Enterobacteriaceae
+
+[Term]
 id: NCBITaxon:205592 ! Hermissenda
 is_a: NCBITaxon:216354 ! Glaucidae
 
@@ -16544,20 +16752,72 @@ id: NCBITaxon:2056 ! Sphaerobacter
 is_a: NCBITaxon:85002 ! Sphaerobacteraceae
 
 [Term]
+id: NCBITaxon:2056687 ! Fastidiosibacteraceae
+is_a: NCBITaxon:72273 ! Thiotrichales
+
+[Term]
+id: NCBITaxon:2056754 ! Conus <subgenus>
+is_a: NCBITaxon:6490 ! Conus <genus>
+
+[Term]
+id: NCBITaxon:2056776 ! Elisaconus
+is_a: NCBITaxon:6490 ! Conus <genus>
+
+[Term]
+id: NCBITaxon:2056899 ! Polypedilum <subgenus>
+is_a: NCBITaxon:54968 ! Polypedilum <genus>
+
+[Term]
 id: NCBITaxon:2057 ! Sphaerobacter thermophilus
 is_a: NCBITaxon:2056 ! Sphaerobacter
 
 [Term]
-id: NCBITaxon:205875 ! Mycobacterium phage Corndog
+id: NCBITaxon:2058181 ! Acytosteliales
+is_a: NCBITaxon:33083 ! Dictyostelids
+
+[Term]
+id: NCBITaxon:2058183 ! Acytosteliaceae
+is_a: NCBITaxon:2058181 ! Acytosteliales
+
+[Term]
+id: NCBITaxon:2058184 ! Cavenderiaceae
+is_a: NCBITaxon:2058181 ! Acytosteliales
+
+[Term]
+id: NCBITaxon:2058185 ! Dictyosteliaceae
+is_a: NCBITaxon:2058949 ! Dictyosteliales
+
+[Term]
+id: NCBITaxon:2058187 ! Cavenderia
+is_a: NCBITaxon:2058184 ! Cavenderiaceae
+
+[Term]
+id: NCBITaxon:2058189 ! Heterostelium
+is_a: NCBITaxon:2058183 ! Acytosteliaceae
+
+[Term]
+id: NCBITaxon:2058669 ! Tesselliconus
+is_a: NCBITaxon:6490 ! Conus <genus>
+
+[Term]
+id: NCBITaxon:205875 ! Mycobacterium virus Corndog
 is_a: NCBITaxon:1623285 ! Corndogvirus
 
 [Term]
 id: NCBITaxon:205877 ! Mycobacterium phage Bxz1
-is_a: NCBITaxon:1133560 ! unclassified Bxz1virus
+is_a: NCBITaxon:2006134 ! Mycobacterium virus Bxz1
 
 [Term]
-id: NCBITaxon:205879 ! Mycobacterium phage Omega
+id: NCBITaxon:205879 ! Mycobacterium virus Omega
 is_a: NCBITaxon:1623292 ! Omegavirus
+
+[Term]
+id: NCBITaxon:2058935 ! Enterococcus virus phiEC24C
+is_a: NCBITaxon:1232680 ! unassigned Spounavirinae
+
+[Term]
+id: NCBITaxon:2058949 ! Dictyosteliales
+is_a: NCBITaxon:33083 ! Dictyostelids
 
 [Term]
 id: NCBITaxon:205895 ! Cypovirus 1
@@ -16616,10 +16876,6 @@ id: NCBITaxon:206349 ! Hydrogenophilaceae
 is_a: NCBITaxon:119069 ! Hydrogenophilales
 
 [Term]
-id: NCBITaxon:206350 ! Methylophilales
-is_a: NCBITaxon:28216 ! Betaproteobacteria
-
-[Term]
 id: NCBITaxon:206351 ! Neisseriales
 is_a: NCBITaxon:28216 ! Betaproteobacteria
 
@@ -16636,12 +16892,36 @@ id: NCBITaxon:2064 ! Kitasatospora griseola
 is_a: NCBITaxon:2063 ! Kitasatospora
 
 [Term]
+id: NCBITaxon:2065118 ! Listeria monocytogenes serotype 4b
+is_a: NCBITaxon:1639 ! Listeria monocytogenes
+
+[Term]
 id: NCBITaxon:2066 ! Kitasatospora setae
 is_a: NCBITaxon:2063 ! Kitasatospora
 
 [Term]
+id: NCBITaxon:2066070 ! Mesorhizobium japonicum
+is_a: NCBITaxon:68287 ! Mesorhizobium
+
+[Term]
 id: NCBITaxon:206672 ! Bifidobacterium longum NCC2705
 is_a: NCBITaxon:216816 ! Bifidobacterium longum
+
+[Term]
+id: NCBITaxon:2068716 ! Anatinae
+is_a: NCBITaxon:8830 ! Anatidae
+
+[Term]
+id: NCBITaxon:2068719 ! Tadorninae
+is_a: NCBITaxon:8830 ! Anatidae
+
+[Term]
+id: NCBITaxon:2068721 ! Aythyinae
+is_a: NCBITaxon:8830 ! Anatidae
+
+[Term]
+id: NCBITaxon:2068722 ! Anserinae
+is_a: NCBITaxon:8830 ! Anatidae
 
 [Term]
 id: NCBITaxon:2070 ! Pseudonocardiaceae
@@ -16658,6 +16938,10 @@ is_a: NCBITaxon:186803 ! Lachnospiraceae
 [Term]
 id: NCBITaxon:207245 ! Fornicata
 is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:2072716 ! Spiruromorpha
+is_a: NCBITaxon:6274 ! Spirurida
 
 [Term]
 id: NCBITaxon:207559 ! Desulfovibrio alaskensis G20
@@ -16678,6 +16962,18 @@ is_a: NCBITaxon:255474 ! Parvularculaceae
 [Term]
 id: NCBITaxon:208216 ! Parvularcula bermudensis
 is_a: NCBITaxon:208215 ! Parvularcula
+
+[Term]
+id: NCBITaxon:2082208 ! Cephalobomorpha
+is_a: NCBITaxon:6300 ! Tylenchida
+
+[Term]
+id: NCBITaxon:2082223 ! Panagrolaimomorpha
+is_a: NCBITaxon:6300 ! Tylenchida
+
+[Term]
+id: NCBITaxon:2082224 ! Strongyloidoidea
+is_a: NCBITaxon:2082223 ! Panagrolaimomorpha
 
 [Term]
 id: NCBITaxon:208226 ! Alkaliphilus metalliredigens
@@ -16729,11 +17025,11 @@ is_a: NCBITaxon:12092 ! Hepatovirus A
 
 [Term]
 id: NCBITaxon:208893 ! Human respiratory syncytial virus A
-is_a: NCBITaxon:11250 ! Human respiratory syncytial virus
+is_a: NCBITaxon:11250 ! Human orthopneumovirus
 
 [Term]
 id: NCBITaxon:208895 ! Human respiratory syncytial virus B
-is_a: NCBITaxon:11250 ! Human respiratory syncytial virus
+is_a: NCBITaxon:11250 ! Human orthopneumovirus
 
 [Term]
 id: NCBITaxon:208899 ! Cupixi mammarenavirus
@@ -16774,6 +17070,14 @@ is_a: NCBITaxon:5149 ! Chaetomium
 [Term]
 id: NCBITaxon:2093 ! Mycoplasma
 is_a: NCBITaxon:2092 ! Mycoplasmataceae
+
+[Term]
+id: NCBITaxon:2094023 ! Glaesserella
+is_a: NCBITaxon:712 ! Pasteurellaceae
+
+[Term]
+id: NCBITaxon:2094303 ! unclassified Kappatorquevirus
+is_a: NCBITaxon:1218487 ! Kappatorquevirus
 
 [Term]
 id: NCBITaxon:2095 ! Mycoplasma capricolum
@@ -16844,6 +17148,14 @@ id: NCBITaxon:210007 ! Streptococcus mutans UA159
 is_a: NCBITaxon:1309 ! Streptococcus mutans
 
 [Term]
+id: NCBITaxon:2100208 ! Caedimonadaceae
+is_a: NCBITaxon:1921002 ! Holosporales
+
+[Term]
+id: NCBITaxon:2100211 ! Candidatus Paracaedimonas
+is_a: NCBITaxon:2100208 ! Caedimonadaceae
+
+[Term]
 id: NCBITaxon:21019 ! Castanea
 is_a: NCBITaxon:3503 ! Fagaceae
 
@@ -16905,7 +17217,7 @@ is_a: NCBITaxon:2093 ! Mycoplasma
 
 [Term]
 id: NCBITaxon:211401 ! Plectoidea
-is_a: NCBITaxon:114861 ! Araeolaimida
+is_a: NCBITaxon:2044973 ! Plectida
 
 [Term]
 id: NCBITaxon:211488 ! Carassius auratus x Cyprinus carpio
@@ -17045,7 +17357,7 @@ is_a: NCBITaxon:213462 ! Syntrophobacterales
 
 [Term]
 id: NCBITaxon:213481 ! Bdellovibrionales
-is_a: NCBITaxon:28221 ! Deltaproteobacteria
+is_a: NCBITaxon:1553900 ! Oligoflexia
 
 [Term]
 id: NCBITaxon:213483 ! Bdellovibrionaceae
@@ -17290,7 +17602,7 @@ is_a: NCBITaxon:1874405 ! Lithospermeae
 
 [Term]
 id: NCBITaxon:216351 ! Dendronotoidea
-is_a: NCBITaxon:70850 ! Dendronotina
+is_a: NCBITaxon:1707744 ! Cladobranchia
 
 [Term]
 id: NCBITaxon:216354 ! Glaucidae
@@ -17674,7 +17986,7 @@ is_a: NCBITaxon:2207 ! Methanosarcina
 
 [Term]
 id: NCBITaxon:221102 ! Moniliophthora
-is_a: NCBITaxon:654221 ! mitosporic Marasmiaceae
+is_a: NCBITaxon:654128 ! Marasmiaceae
 
 [Term]
 id: NCBITaxon:221103 ! Moniliophthora roreri
@@ -17725,7 +18037,7 @@ id: NCBITaxon:221915 ! Staphylococcus virus K
 is_a: NCBITaxon:1857843 ! Kayvirus
 
 [Term]
-id: NCBITaxon:221988 ! Mannheimia succiniciproducens MBEL55E
+id: NCBITaxon:221988 ! [Mannheimia] succiniciproducens MBEL55E
 is_a: NCBITaxon:157673 ! [Mannheimia] succiniciproducens
 
 [Term]
@@ -17737,16 +18049,16 @@ id: NCBITaxon:2220 ! Methanolobus
 is_a: NCBITaxon:2206 ! Methanosarcinaceae
 
 [Term]
-id: NCBITaxon:2222 ! Methanosaeta
+id: NCBITaxon:2222 ! Methanothrix
 is_a: NCBITaxon:143067 ! Methanosaetaceae
 
 [Term]
-id: NCBITaxon:2223 ! Methanosaeta concilii
-is_a: NCBITaxon:2222 ! Methanosaeta
+id: NCBITaxon:2223 ! Methanothrix soehngenii
+is_a: NCBITaxon:2222 ! Methanothrix
 
 [Term]
-id: NCBITaxon:2224 ! Methanosaeta thermophila
-is_a: NCBITaxon:2222 ! Methanosaeta
+id: NCBITaxon:2224 ! Methanothrix thermoacetophila
+is_a: NCBITaxon:2222 ! Methanothrix
 
 [Term]
 id: NCBITaxon:222449 ! Bean golden yellow mosaic virus-[Puerto Rico-Japan]
@@ -17801,7 +18113,7 @@ id: NCBITaxon:2232 ! Archaeoglobaceae
 is_a: NCBITaxon:2231 ! Archaeoglobales
 
 [Term]
-id: NCBITaxon:223283 ! [Pseudomonas syringae] pv. tomato str. DC3000
+id: NCBITaxon:223283 ! Pseudomonas syringae pv. tomato str. DC3000
 is_a: NCBITaxon:323 ! Pseudomonas syringae pv. tomato
 
 [Term]
@@ -18122,7 +18434,7 @@ is_a: NCBITaxon:2272 ! Desulfurococcaceae
 
 [Term]
 id: NCBITaxon:227307 ! Gyrovirus
-is_a: NCBITaxon:39724 ! Circoviridae
+is_a: NCBITaxon:687329 ! Anelloviridae
 
 [Term]
 id: NCBITaxon:227310 ! Spraguidae
@@ -18170,7 +18482,7 @@ is_a: NCBITaxon:4107 ! Solanum
 
 [Term]
 id: NCBITaxon:227859 ! SARS coronavirus
-is_a: NCBITaxon:694009 ! SARS-related coronavirus
+is_a: NCBITaxon:694009 ! Severe acute respiratory syndrome-related coronavirus
 
 [Term]
 id: NCBITaxon:227882 ! Streptomyces avermitilis MA-4680 = NBRC 14893
@@ -18521,7 +18833,7 @@ id: NCBITaxon:233264 ! Bovine respiratory coronavirus (strain 98TXSF-110-LUN)
 is_a: NCBITaxon:11128 ! Bovine coronavirus
 
 [Term]
-id: NCBITaxon:233412 ! Haemophilus ducreyi 35000HP
+id: NCBITaxon:233412 ! [Haemophilus] ducreyi 35000HP
 is_a: NCBITaxon:730 ! [Haemophilus] ducreyi
 
 [Term]
@@ -18785,8 +19097,8 @@ id: NCBITaxon:240269 ! Paramecium bursaria Chlorella virus AN69C
 is_a: NCBITaxon:346674 ! unclassified Chlorovirus
 
 [Term]
-id: NCBITaxon:240292 ! Anabaena variabilis ATCC 29413
-is_a: NCBITaxon:1172 ! Anabaena variabilis
+id: NCBITaxon:240292 ! Trichormus variabilis ATCC 29413
+is_a: NCBITaxon:264691 ! Trichormus variabilis
 
 [Term]
 id: NCBITaxon:240495 ! Pseudonocardia dioxanivorans
@@ -19009,8 +19321,8 @@ id: NCBITaxon:244447 ! Cynoglossus semilaevis
 is_a: NCBITaxon:106173 ! Cynoglossus
 
 [Term]
-id: NCBITaxon:244581 ! Candidatus Caedibacter acanthamoebae
-is_a: NCBITaxon:28905 ! Caedibacter
+id: NCBITaxon:244581 ! Candidatus Paracaedimonas acanthamoebae
+is_a: NCBITaxon:2100211 ! Candidatus Paracaedimonas
 
 [Term]
 id: NCBITaxon:244589 ! Sulfolobus spindle-shaped virus 1
@@ -19406,15 +19718,15 @@ is_a: NCBITaxon:33959 ! Lactobacillus johnsonii
 
 [Term]
 id: NCBITaxon:257327 ! Conus gladiator
-is_a: NCBITaxon:6490 ! Conus
+is_a: NCBITaxon:1340104 ! Monteiroconus
 
 [Term]
 id: NCBITaxon:257335 ! Conus mus
-is_a: NCBITaxon:6490 ! Conus
+is_a: NCBITaxon:1340104 ! Monteiroconus
 
 [Term]
 id: NCBITaxon:257347 ! Conus villepinii
-is_a: NCBITaxon:6490 ! Conus
+is_a: NCBITaxon:1340072 ! Dauciconus
 
 [Term]
 id: NCBITaxon:257363 ! Rickettsia typhi str. Wilmington
@@ -19549,8 +19861,8 @@ id: NCBITaxon:261391 ! Thermoplasmatales archaeon Gpl
 is_a: NCBITaxon:1919231 ! unclassified Thermoplasmatales (miscellaneous)
 
 [Term]
-id: NCBITaxon:261658 ! Dictyostelium fasciculatum
-is_a: NCBITaxon:5782 ! Dictyostelium
+id: NCBITaxon:261658 ! Cavenderia fasciculata
+is_a: NCBITaxon:2058187 ! Cavenderia
 
 [Term]
 id: NCBITaxon:261825 ! Agarivorans
@@ -19669,6 +19981,10 @@ id: NCBITaxon:264688 ! Trichormus
 is_a: NCBITaxon:1162 ! Nostocaceae
 
 [Term]
+id: NCBITaxon:264691 ! Trichormus variabilis
+is_a: NCBITaxon:264688 ! Trichormus
+
+[Term]
 id: NCBITaxon:264729 ! Burkholderia virus BcepMu
 is_a: NCBITaxon:1198139 ! Bcepmuvirus
 
@@ -19726,7 +20042,7 @@ is_a: NCBITaxon:265488 ! Rhodopirellula
 
 [Term]
 id: NCBITaxon:265669 ! Listeria monocytogenes serotype 4b str. F2365
-is_a: NCBITaxon:1639 ! Listeria monocytogenes
+is_a: NCBITaxon:2065118 ! Listeria monocytogenes serotype 4b
 
 [Term]
 id: NCBITaxon:265872 ! Cowpox virus (Brighton Red)
@@ -19773,8 +20089,8 @@ id: NCBITaxon:266834 ! Sinorhizobium meliloti 1021
 is_a: NCBITaxon:382 ! Sinorhizobium meliloti
 
 [Term]
-id: NCBITaxon:266835 ! Mesorhizobium loti MAFF303099
-is_a: NCBITaxon:381 ! Mesorhizobium loti
+id: NCBITaxon:266835 ! Mesorhizobium japonicum MAFF 303099
+is_a: NCBITaxon:2066070 ! Mesorhizobium japonicum
 
 [Term]
 id: NCBITaxon:266940 ! Kineococcus radiotolerans SRS30216 = ATCC BAA-149
@@ -19797,7 +20113,7 @@ id: NCBITaxon:267671 ! Leptospira interrogans serovar Copenhageni str. Fiocruz L
 is_a: NCBITaxon:44275 ! Leptospira interrogans serovar Copenhageni
 
 [Term]
-id: NCBITaxon:267747 ! Propionibacterium acnes KPA171202
+id: NCBITaxon:267747 ! Cutibacterium acnes KPA171202
 is_a: NCBITaxon:1747 ! Cutibacterium acnes
 
 [Term]
@@ -20586,11 +20902,11 @@ is_a: NCBITaxon:33154 ! Opisthokonta
 
 [Term]
 id: NCBITaxon:28017 ! Gigartinales
-is_a: NCBITaxon:2806 ! Florideophyceae
+is_a: NCBITaxon:2045261 ! Rhodymeniophycidae
 
 [Term]
 id: NCBITaxon:2802 ! Ceramiales
-is_a: NCBITaxon:2806 ! Florideophyceae
+is_a: NCBITaxon:2045261 ! Rhodymeniophycidae
 
 [Term]
 id: NCBITaxon:28025 ! Bifidobacterium animalis
@@ -20957,7 +21273,7 @@ id: NCBITaxon:283643 ! Cryptococcus neoformans var. neoformans B-3501A
 is_a: NCBITaxon:40410 ! Cryptococcus neoformans var. neoformans
 
 [Term]
-id: NCBITaxon:28369 ! Mycobacterium phage D29
+id: NCBITaxon:28369 ! Mycobacterium virus D29
 is_a: NCBITaxon:186764 ! L5virus
 
 [Term]
@@ -20970,7 +21286,7 @@ is_a: NCBITaxon:12291 ! Furovirus
 
 [Term]
 id: NCBITaxon:28376 ! Anolis
-is_a: NCBITaxon:81957 ! Polychrotinae
+is_a: NCBITaxon:2024747 ! Dactyloidae
 
 [Term]
 id: NCBITaxon:28377 ! Anolis carolinensis
@@ -20993,8 +21309,8 @@ id: NCBITaxon:284016 ! Phenylobacterium zucineum
 is_a: NCBITaxon:20 ! Phenylobacterium
 
 [Term]
-id: NCBITaxon:28446 ! [Clostridium] propionicum
-is_a: NCBITaxon:1506577 ! Tyzzerella
+id: NCBITaxon:28446 ! Anaerotignum propionicum
+is_a: NCBITaxon:2039240 ! Anaerotignum
 
 [Term]
 id: NCBITaxon:28447 ! Clavibacter michiganensis
@@ -21257,6 +21573,10 @@ id: NCBITaxon:28883 ! Caudovirales
 is_a: NCBITaxon:35237 ! dsDNA viruses, no RNA stage
 
 [Term]
+id: NCBITaxon:28884 ! Hydrogenovibrio
+is_a: NCBITaxon:135616 ! Piscirickettsiaceae
+
+[Term]
 id: NCBITaxon:28889 ! Crenarchaeota
 is_a: NCBITaxon:1783275 ! TACK group
 
@@ -21286,7 +21606,7 @@ is_a: NCBITaxon:590 ! Salmonella
 
 [Term]
 id: NCBITaxon:28905 ! Caedibacter
-is_a: NCBITaxon:1921007 ! unclassified Holosporales
+is_a: NCBITaxon:2056687 ! Fastidiosibacteraceae
 
 [Term]
 id: NCBITaxon:289376 ! Thermodesulfovibrio yellowstonii DSM 11347
@@ -21362,7 +21682,7 @@ is_a: NCBITaxon:816 ! Bacteroides
 
 [Term]
 id: NCBITaxon:29006 ! Neocallimastigales
-is_a: NCBITaxon:451456 ! Neocallimastigomycetes
+is_a: NCBITaxon:451455 ! Neocallimastigomycetes
 
 [Term]
 id: NCBITaxon:29007 ! Neocallimastigaceae
@@ -22038,7 +22358,7 @@ is_a: NCBITaxon:136842 ! Pseudomonas chlororaphis group
 
 [Term]
 id: NCBITaxon:29607 ! Dryopteridaceae
-is_a: NCBITaxon:1203512 ! eupolypods I
+is_a: NCBITaxon:1203512 ! Polypodiineae
 
 [Term]
 id: NCBITaxon:296587 ! Micromonas commoda
@@ -22286,7 +22606,7 @@ is_a: NCBITaxon:841 ! Roseburia
 
 [Term]
 id: NCBITaxon:301375 ! Methanosaeta harundinacea
-is_a: NCBITaxon:2222 ! Methanosaeta
+is_a: NCBITaxon:2222 ! Methanothrix
 
 [Term]
 id: NCBITaxon:301447 ! Streptococcus pyogenes serotype M1
@@ -22434,7 +22754,7 @@ is_a: NCBITaxon:1131320 ! Euglenaceae
 
 [Term]
 id: NCBITaxon:30384 ! Aythya
-is_a: NCBITaxon:8830 ! Anatidae
+is_a: NCBITaxon:2068721 ! Aythyinae
 
 [Term]
 id: NCBITaxon:3039 ! Euglena gracilis
@@ -22503,6 +22823,10 @@ is_a: NCBITaxon:7124 ! Lonomia
 [Term]
 id: NCBITaxon:304371 ! Methanocella paludicola SANAE
 is_a: NCBITaxon:570267 ! Methanocella paludicola
+
+[Term]
+id: NCBITaxon:304399 ! Mule deerpox virus
+is_a: NCBITaxon:573055 ! Cervidpoxvirus
 
 [Term]
 id: NCBITaxon:30444 ! Pelecanidae
@@ -22674,7 +22998,7 @@ is_a: NCBITaxon:9397 ! Chiroptera
 
 [Term]
 id: NCBITaxon:305674 ! Deerpox virus W-848-83
-is_a: NCBITaxon:573057 ! unclassified Cervidpoxvirus
+is_a: NCBITaxon:304399 ! Mule deerpox virus
 
 [Term]
 id: NCBITaxon:305700 ! Thauera sp. 27
@@ -22874,7 +23198,7 @@ is_a: NCBITaxon:1489938 ! Terapontoidei
 
 [Term]
 id: NCBITaxon:30850 ! Lutjanidae
-is_a: NCBITaxon:1489923 ! Eupercaria incertae sedis
+is_a: NCBITaxon:2024539 ! Lutjaniformes
 
 [Term]
 id: NCBITaxon:30854 ! Mullidae
@@ -22910,7 +23234,7 @@ is_a: NCBITaxon:49546 ! Flavobacteriaceae
 
 [Term]
 id: NCBITaxon:308906 ! Megalocytivirus
-is_a: NCBITaxon:10486 ! Iridoviridae
+is_a: NCBITaxon:2017756 ! Alphairidovirinae
 
 [Term]
 id: NCBITaxon:308911 ! N15virus
@@ -23109,10 +23433,6 @@ id: NCBITaxon:310684 ! Cheravirus
 is_a: NCBITaxon:675072 ! Secoviridae
 
 [Term]
-id: NCBITaxon:310748 ! Endornavirus
-is_a: NCBITaxon:564644 ! Endornaviridae
-
-[Term]
 id: NCBITaxon:310783 ! Deinococcus deserti
 is_a: NCBITaxon:1298 ! Deinococcus
 
@@ -23122,7 +23442,7 @@ is_a: NCBITaxon:1489343 ! Osteoglossocephala
 
 [Term]
 id: NCBITaxon:310894 ! Dichomera
-is_a: NCBITaxon:37939 ! mitosporic Dothideales
+is_a: NCBITaxon:148100 ! Dothideales incertae sedis
 
 [Term]
 id: NCBITaxon:310911 ! Amdoparvovirus
@@ -23187,10 +23507,6 @@ is_a: NCBITaxon:373 ! Agrobacterium vitis
 [Term]
 id: NCBITaxon:311403 ! Agrobacterium radiobacter K84
 is_a: NCBITaxon:358 ! Agrobacterium tumefaciens
-
-[Term]
-id: NCBITaxon:311413 ! Lettuce big-vein associated virus
-is_a: NCBITaxon:140295 ! Varicosavirus
 
 [Term]
 id: NCBITaxon:311458 ! Candidatus Caldiarchaeum subterraneum
@@ -23462,7 +23778,7 @@ is_a: NCBITaxon:340 ! Xanthomonas campestris pv. campestris
 
 [Term]
 id: NCBITaxon:31468 ! Gracilariales
-is_a: NCBITaxon:2806 ! Florideophyceae
+is_a: NCBITaxon:2045261 ! Rhodymeniophycidae
 
 [Term]
 id: NCBITaxon:31469 ! Gracilariaceae
@@ -23517,7 +23833,7 @@ id: NCBITaxon:31531 ! Vaccinia virus L-IPV
 is_a: NCBITaxon:10245 ! Vaccinia virus
 
 [Term]
-id: NCBITaxon:31537 ! Lactococcus phage c2
+id: NCBITaxon:31537 ! Lactococcus virus c2
 is_a: NCBITaxon:186532 ! C2virus
 
 [Term]
@@ -23541,8 +23857,8 @@ id: NCBITaxon:31567 ! Human rotavirus C/Bristol
 is_a: NCBITaxon:36427 ! Rotavirus C
 
 [Term]
-id: NCBITaxon:315730 ! Bacillus weihenstephanensis KBAB4
-is_a: NCBITaxon:86662 ! Bacillus weihenstephanensis
+id: NCBITaxon:315730 ! Bacillus mycoides KBAB4
+is_a: NCBITaxon:1405 ! Bacillus mycoides
 
 [Term]
 id: NCBITaxon:315749 ! Bacillus cytotoxicus NVH 391-98
@@ -23685,8 +24001,8 @@ id: NCBITaxon:317 ! Pseudomonas syringae
 is_a: NCBITaxon:251695 ! Pseudomonas syringae group genomosp. 1
 
 [Term]
-id: NCBITaxon:317025 ! Thiomicrospira crunogena XCL-2
-is_a: NCBITaxon:39765 ! Thiomicrospira crunogena
+id: NCBITaxon:317025 ! Hydrogenovibrio crunogenus XCL-2
+is_a: NCBITaxon:39765 ! Hydrogenovibrio crunogenus
 
 [Term]
 id: NCBITaxon:31704 ! Coxsackievirus A16
@@ -23721,7 +24037,7 @@ id: NCBITaxon:317381 ! Phyllomedusa hypochondrialis
 is_a: NCBITaxon:8392 ! Phyllomedusa
 
 [Term]
-id: NCBITaxon:31757 ! Mycobacterium phage L5
+id: NCBITaxon:31757 ! Mycobacterium virus L5
 is_a: NCBITaxon:186764 ! L5virus
 
 [Term]
@@ -23846,7 +24162,7 @@ is_a: NCBITaxon:651137 ! Thaumarchaeota
 
 [Term]
 id: NCBITaxon:319348 ! Polypedilum vanderplanki
-is_a: NCBITaxon:54968 ! Polypedilum
+is_a: NCBITaxon:2056899 ! Polypedilum <subgenus>
 
 [Term]
 id: NCBITaxon:319458 ! Leadbetterella
@@ -23865,8 +24181,8 @@ id: NCBITaxon:31958 ! Amycolatopsis orientalis
 is_a: NCBITaxon:1813 ! Amycolatopsis
 
 [Term]
-id: NCBITaxon:31964 ! Clavibacter michiganensis subsp. sepedonicus
-is_a: NCBITaxon:28447 ! Clavibacter michiganensis
+id: NCBITaxon:31964 ! Clavibacter sepedonicus
+is_a: NCBITaxon:1573 ! Clavibacter
 
 [Term]
 id: NCBITaxon:31969 ! Mollicutes
@@ -23930,7 +24246,7 @@ is_a: NCBITaxon:119060 ! Burkholderiaceae
 
 [Term]
 id: NCBITaxon:32011 ! Methylophilaceae
-is_a: NCBITaxon:206350 ! Methylophilales
+is_a: NCBITaxon:32003 ! Nitrosomonadales
 
 [Term]
 id: NCBITaxon:32012 ! Thiomonas
@@ -24462,7 +24778,7 @@ is_a: NCBITaxon:40272 ! Roseolovirus
 
 [Term]
 id: NCBITaxon:32612 ! Lettuce necrotic yellows virus
-is_a: NCBITaxon:11305 ! Cytorhabdovirus
+is_a: NCBITaxon:1985702 ! Lettuce necrotic yellows cytorhabdovirus
 
 [Term]
 id: NCBITaxon:32613 ! Ephemerovirus
@@ -24470,7 +24786,7 @@ is_a: NCBITaxon:11270 ! Rhabdoviridae
 
 [Term]
 id: NCBITaxon:326176 ! unclassified Tospovirus
-is_a: NCBITaxon:11611 ! Tospovirus
+is_a: NCBITaxon:11611 ! Orthotospovirus
 
 [Term]
 id: NCBITaxon:32625 ! Mushroom bacilliform virus
@@ -24586,7 +24902,7 @@ is_a: NCBITaxon:1285589 ! Bombyx mori bidensovirus
 
 [Term]
 id: NCBITaxon:3287 ! Dryopteris
-is_a: NCBITaxon:29607 ! Dryopteridaceae
+is_a: NCBITaxon:2014984 ! Dryopteridoideae
 
 [Term]
 id: NCBITaxon:328812 ! Parabacteroides goldsteinii
@@ -24690,7 +25006,7 @@ is_a: NCBITaxon:119066 ! unclassified Betaproteobacteria
 
 [Term]
 id: NCBITaxon:33057 ! Thauera
-is_a: NCBITaxon:75787 ! Rhodocyclaceae
+is_a: NCBITaxon:2008794 ! Zoogloeaceae
 
 [Term]
 id: NCBITaxon:33059 ! Acidithiobacillus caldus
@@ -24717,7 +25033,7 @@ id: NCBITaxon:3308 ! Ginkgoales
 is_a: NCBITaxon:1445964 ! Ginkgoidae
 
 [Term]
-id: NCBITaxon:33083 ! Dictyosteliida
+id: NCBITaxon:33083 ! Dictyostelids
 is_a: NCBITaxon:142796 ! Mycetozoa
 
 [Term]
@@ -24915,7 +25231,7 @@ is_a: NCBITaxon:33986 ! Exiguobacterium
 
 [Term]
 id: NCBITaxon:33253 ! Steinernematidae
-is_a: NCBITaxon:55746 ! Panagrolaimoidea
+is_a: NCBITaxon:2082224 ! Strongyloidoidea
 
 [Term]
 id: NCBITaxon:33256 ! Ascaridoidea
@@ -24990,12 +25306,12 @@ id: NCBITaxon:3328 ! Picea
 is_a: NCBITaxon:3318 ! Pinaceae
 
 [Term]
-id: NCBITaxon:33283 ! Tylenchina
+id: NCBITaxon:33283 ! Tylenchomorpha
 is_a: NCBITaxon:6300 ! Tylenchida
 
 [Term]
 id: NCBITaxon:33284 ! Tylenchoidea
-is_a: NCBITaxon:33283 ! Tylenchina
+is_a: NCBITaxon:33283 ! Tylenchomorpha
 
 [Term]
 id: NCBITaxon:33285 ! Meloidogyninae
@@ -26106,6 +26422,10 @@ id: NCBITaxon:343865 ! unclassified Mitovirus
 is_a: NCBITaxon:186768 ! Mitovirus
 
 [Term]
+id: NCBITaxon:343866 ! Cryphonectria mitovirus 1
+is_a: NCBITaxon:186768 ! Mitovirus
+
+[Term]
 id: NCBITaxon:34392 ! Microsporum
 is_a: NCBITaxon:34384 ! Arthrodermataceae
 
@@ -26259,7 +26579,7 @@ is_a: NCBITaxon:6942 ! Amblyomma
 
 [Term]
 id: NCBITaxon:346096 ! Paludibacter
-is_a: NCBITaxon:171551 ! Porphyromonadaceae
+is_a: NCBITaxon:2005523 ! Paludibacteraceae
 
 [Term]
 id: NCBITaxon:34613 ! Ixodes ricinus
@@ -26418,7 +26738,7 @@ id: NCBITaxon:348018 ! unclassified Orthobunyavirus
 is_a: NCBITaxon:11572 ! Orthobunyavirus
 
 [Term]
-id: NCBITaxon:348043 ! Streptomyces davawensis
+id: NCBITaxon:348043 ! Streptomyces davaonensis
 is_a: NCBITaxon:1883 ! Streptomyces
 
 [Term]
@@ -26590,8 +26910,8 @@ id: NCBITaxon:34924 ! Pica pica
 is_a: NCBITaxon:34923 ! Pica
 
 [Term]
-id: NCBITaxon:349307 ! Methanosaeta thermophila PT
-is_a: NCBITaxon:2224 ! Methanosaeta thermophila
+id: NCBITaxon:349307 ! Methanothrix thermoacetophila PT
+is_a: NCBITaxon:2224 ! Methanothrix thermoacetophila
 
 [Term]
 id: NCBITaxon:349519 ! Leuconostoc citreum KM20
@@ -26767,7 +27087,7 @@ is_a: NCBITaxon:44001 ! Caldicellulosiruptor saccharolyticus
 
 [Term]
 id: NCBITaxon:351660 ! Conus monile
-is_a: NCBITaxon:6490 ! Conus
+is_a: NCBITaxon:1340127 ! Strategoconus
 
 [Term]
 id: NCBITaxon:351671 ! Xenorhabdus doucetiae
@@ -27071,7 +27391,7 @@ is_a: NCBITaxon:1307775 ! Anserineae
 
 [Term]
 id: NCBITaxon:356113 ! unclassified Hepatitis C virus
-is_a: NCBITaxon:11103 ! Hepatitis C virus
+is_a: NCBITaxon:11103 ! Hepacivirus C
 
 [Term]
 id: NCBITaxon:35612 ! Vesicular exanthema of swine virus
@@ -27642,8 +27962,8 @@ id: NCBITaxon:362663 ! Escherichia coli 536
 is_a: NCBITaxon:562 ! Escherichia coli
 
 [Term]
-id: NCBITaxon:362693 ! Oryza sativa endornavirus
-is_a: NCBITaxon:310748 ! Endornavirus
+id: NCBITaxon:362693 ! Oryza sativa alphaendornavirus
+is_a: NCBITaxon:2003394 ! Alphaendornavirus
 
 [Term]
 id: NCBITaxon:3627 ! Actinidia deliciosa
@@ -27775,7 +28095,7 @@ is_a: NCBITaxon:562 ! Escherichia coli
 
 [Term]
 id: NCBITaxon:36413 ! Tomato spotted wilt virus (strain Brazilian BR-01)
-is_a: NCBITaxon:1933298 ! Tomato spotted wilt tospovirus
+is_a: NCBITaxon:1933298 ! Tomato spotted wilt orthotospovirus
 
 [Term]
 id: NCBITaxon:36427 ! Rotavirus C
@@ -28267,7 +28587,7 @@ is_a: NCBITaxon:3705 ! Brassica
 
 [Term]
 id: NCBITaxon:37124 ! Chikungunya virus
-is_a: NCBITaxon:177875 ! SFV complex
+is_a: NCBITaxon:11019 ! Alphavirus
 
 [Term]
 id: NCBITaxon:37128 ! Potato mop-top virus
@@ -28387,7 +28707,7 @@ is_a: NCBITaxon:1313 ! Streptococcus pneumoniae
 
 [Term]
 id: NCBITaxon:373193 ! Xenotropic MuLV-related virus VP62
-is_a: NCBITaxon:438045 ! XMRV
+is_a: NCBITaxon:438045 ! Xenotropic MuLV-related virus
 
 [Term]
 id: NCBITaxon:37326 ! Nocardia brasiliensis
@@ -28434,12 +28754,12 @@ id: NCBITaxon:373903 ! Halothermothrix orenii H 168
 is_a: NCBITaxon:31909 ! Halothermothrix orenii
 
 [Term]
-id: NCBITaxon:373984 ! Rivularia
+id: NCBITaxon:373984 ! Rivularia <Cyanobacteria>
 is_a: NCBITaxon:1185 ! Rivulariaceae
 
 [Term]
 id: NCBITaxon:373994 ! Rivularia sp. PCC 7116
-is_a: NCBITaxon:373984 ! Rivularia
+is_a: NCBITaxon:373984 ! Rivularia <Cyanobacteria>
 
 [Term]
 id: NCBITaxon:374 ! Bradyrhizobium
@@ -28538,6 +28858,10 @@ id: NCBITaxon:37516 ! Hydroidolina
 is_a: NCBITaxon:6074 ! Hydrozoa
 
 [Term]
+id: NCBITaxon:375192 ! unclassified Rotavirus A
+is_a: NCBITaxon:28875 ! Rotavirus A
+
+[Term]
 id: NCBITaxon:37526 ! Ulmaridae
 is_a: NCBITaxon:6143 ! Semaeostomeae
 
@@ -28547,7 +28871,7 @@ is_a: NCBITaxon:29580 ! Janthinobacterium
 
 [Term]
 id: NCBITaxon:375288 ! Parabacteroides
-is_a: NCBITaxon:171551 ! Porphyromonadaceae
+is_a: NCBITaxon:2005525 ! Tannerellaceae
 
 [Term]
 id: NCBITaxon:3754 ! Prunus
@@ -28646,12 +28970,8 @@ id: NCBITaxon:37611 ! Estrildidae
 is_a: NCBITaxon:175121 ! Passeroidea
 
 [Term]
-id: NCBITaxon:376147 ! unclassified Parechovirus
-is_a: NCBITaxon:138954 ! Parechovirus
-
-[Term]
 id: NCBITaxon:376148 ! Human parechovirus 5
-is_a: NCBITaxon:195054 ! Human parechovirus
+is_a: NCBITaxon:1803956 ! Parechovirus A
 
 [Term]
 id: NCBITaxon:37616 ! Viannia
@@ -28794,6 +29114,10 @@ id: NCBITaxon:37818 ! Dendrobium
 is_a: NCBITaxon:158406 ! Dendrobiinae
 
 [Term]
+id: NCBITaxon:37839 ! unclassified Dothideales
+is_a: NCBITaxon:5014 ! Dothideales
+
+[Term]
 id: NCBITaxon:37849 ! Nephropoidea
 is_a: NCBITaxon:6712 ! Astacidea
 
@@ -28862,11 +29186,7 @@ id: NCBITaxon:37919 ! Rhodococcus opacus
 is_a: NCBITaxon:1827 ! Rhodococcus <Bacteria>
 
 [Term]
-id: NCBITaxon:37939 ! mitosporic Dothideales
-is_a: NCBITaxon:5014 ! Dothideales
-
-[Term]
-id: NCBITaxon:379501 ! Staphylococcus phage phiMR11
+id: NCBITaxon:379501 ! Staphylococcus virus phiMR11
 is_a: NCBITaxon:1623298 ! Phietavirus
 
 [Term]
@@ -28994,8 +29314,8 @@ id: NCBITaxon:38069 ! Callicebinae
 is_a: NCBITaxon:376919 ! Pitheciidae
 
 [Term]
-id: NCBITaxon:3807 ! Mimosoideae
-is_a: NCBITaxon:3803 ! Fabaceae
+id: NCBITaxon:3807 ! mimosoid clade
+is_a: NCBITaxon:3804 ! Caesalpinioideae
 
 [Term]
 id: NCBITaxon:38070 ! Cebinae
@@ -29679,7 +29999,7 @@ is_a: NCBITaxon:563798 ! Cyclobacteriaceae
 
 [Term]
 id: NCBITaxon:39085 ! Human parechovirus 2
-is_a: NCBITaxon:195054 ! Human parechovirus
+is_a: NCBITaxon:1803956 ! Parechovirus A
 
 [Term]
 id: NCBITaxon:39086 ! Ellobius lutescens
@@ -30151,15 +30471,15 @@ is_a: NCBITaxon:11006 ! Totiviridae
 
 [Term]
 id: NCBITaxon:39759 ! Deltavirus
-is_a: NCBITaxon:10239 ! Viruses
+is_a: NCBITaxon:35301 ! ssRNA negative-strand viruses
 
 [Term]
 id: NCBITaxon:39760 ! Idaeovirus
 is_a: NCBITaxon:35278 ! ssRNA positive-strand viruses, no DNA stage
 
 [Term]
-id: NCBITaxon:39765 ! Thiomicrospira crunogena
-is_a: NCBITaxon:933 ! Thiomicrospira
+id: NCBITaxon:39765 ! Hydrogenovibrio crunogenus
+is_a: NCBITaxon:28884 ! Hydrogenovibrio
 
 [Term]
 id: NCBITaxon:39766 ! Sulfurimonas denitrificans
@@ -30191,7 +30511,7 @@ is_a: NCBITaxon:200644 ! Flavobacteriales
 
 [Term]
 id: NCBITaxon:397864 ! Barnesiella
-is_a: NCBITaxon:171551 ! Porphyromonadaceae
+is_a: NCBITaxon:2005519 ! Barnesiellaceae
 
 [Term]
 id: NCBITaxon:397865 ! Barnesiella viscericola
@@ -30278,7 +30598,7 @@ id: NCBITaxon:3988 ! Ricinus communis
 is_a: NCBITaxon:3987 ! Ricinus <angiosperm>
 
 [Term]
-id: NCBITaxon:398839 ! Staphylococcus phage CNPH82
+id: NCBITaxon:398839 ! Staphylococcus virus CNPH82
 is_a: NCBITaxon:1623298 ! Phietavirus
 
 [Term]
@@ -30595,7 +30915,7 @@ is_a: NCBITaxon:511678 ! Aliivibrio
 
 [Term]
 id: NCBITaxon:40271 ! Hepatitis C virus genotype 2
-is_a: NCBITaxon:11103 ! Hepatitis C virus
+is_a: NCBITaxon:11103 ! Hepacivirus C
 
 [Term]
 id: NCBITaxon:40272 ! Roseolovirus
@@ -31699,7 +32019,7 @@ is_a: NCBITaxon:4143 ! Lamiales
 
 [Term]
 id: NCBITaxon:41856 ! Hepatitis C virus genotype 1
-is_a: NCBITaxon:11103 ! Hepatitis C virus
+is_a: NCBITaxon:11103 ! Hepacivirus C
 
 [Term]
 id: NCBITaxon:41872 ! Mugiliformes
@@ -31951,7 +32271,7 @@ is_a: NCBITaxon:75739 ! Eucoccidiorida
 
 [Term]
 id: NCBITaxon:42308 ! Hypoxylon
-is_a: NCBITaxon:37990 ! Xylariaceae
+is_a: NCBITaxon:2033035 ! Hypoxylaceae
 
 [Term]
 id: NCBITaxon:4231 ! Helianthus
@@ -32047,7 +32367,7 @@ is_a: NCBITaxon:42417 ! Halobacteroides
 
 [Term]
 id: NCBITaxon:42425 ! Phrynosomatinae
-is_a: NCBITaxon:8515 ! Iguanidae
+is_a: NCBITaxon:2024743 ! Phrynosomatidae
 
 [Term]
 id: NCBITaxon:42443 ! Roseobacter litoralis
@@ -32267,7 +32587,7 @@ is_a: NCBITaxon:98757 ! Gelatoporia
 
 [Term]
 id: NCBITaxon:42752 ! Conus marmoreus
-is_a: NCBITaxon:6490 ! Conus
+is_a: NCBITaxon:2056754 ! Conus <subgenus>
 
 [Term]
 id: NCBITaxon:42756 ! Necturus
@@ -32299,7 +32619,7 @@ is_a: NCBITaxon:1716 ! Corynebacterium
 
 [Term]
 id: NCBITaxon:42822 ! Actiniidae
-is_a: NCBITaxon:86626 ! Nynantheae
+is_a: NCBITaxon:6103 ! Actiniaria
 
 [Term]
 id: NCBITaxon:42825 ! Stichodactylidae
@@ -32782,7 +33102,7 @@ id: NCBITaxon:43759 ! Streptomyces wedmorensis
 is_a: NCBITaxon:1883 ! Streptomyces
 
 [Term]
-id: NCBITaxon:43767 ! Rhodococcus equi
+id: NCBITaxon:43767 ! Rhodococcus hoagii
 is_a: NCBITaxon:1827 ! Rhodococcus <Bacteria>
 
 [Term]
@@ -32814,7 +33134,7 @@ id: NCBITaxon:438 ! Acetobacter pasteurianus
 is_a: NCBITaxon:434 ! Acetobacter
 
 [Term]
-id: NCBITaxon:438045 ! XMRV
+id: NCBITaxon:438045 ! Xenotropic MuLV-related virus
 is_a: NCBITaxon:1038067 ! XMRV-related viruses
 
 [Term]
@@ -32966,10 +33286,6 @@ id: NCBITaxon:44013 ! Polynucleobacter
 is_a: NCBITaxon:119060 ! Burkholderiaceae
 
 [Term]
-id: NCBITaxon:44014 ! Polynucleobacter necessarius subsp. necessarius
-is_a: NCBITaxon:576610 ! Polynucleobacter necessarius
-
-[Term]
 id: NCBITaxon:4402 ! Platanus
 is_a: NCBITaxon:4401 ! Platanaceae
 
@@ -33059,7 +33375,7 @@ is_a: NCBITaxon:186822 ! Paenibacillaceae
 
 [Term]
 id: NCBITaxon:442493 ! Enterococcus phage phiEF24C
-is_a: NCBITaxon:1232680 ! unassigned Spounavirinae
+is_a: NCBITaxon:2058935 ! Enterococcus virus phiEC24C
 
 [Term]
 id: NCBITaxon:44250 ! Paenibacillus alvei
@@ -33494,12 +33810,8 @@ id: NCBITaxon:451442 ! Rhizophydiales
 is_a: NCBITaxon:451435 ! Chytridiomycetes
 
 [Term]
-id: NCBITaxon:451455 ! Neocallimastigomycota
-is_a: NCBITaxon:4751 ! Fungi
-
-[Term]
-id: NCBITaxon:451456 ! Neocallimastigomycetes
-is_a: NCBITaxon:451455 ! Neocallimastigomycota
+id: NCBITaxon:451455 ! Neocallimastigomycetes
+is_a: NCBITaxon:4761 ! Chytridiomycota
 
 [Term]
 id: NCBITaxon:451507 ! Mucoromycotina
@@ -33626,8 +33938,8 @@ id: NCBITaxon:452637 ! Opitutus terrae PB90-1
 is_a: NCBITaxon:107709 ! Opitutus terrae
 
 [Term]
-id: NCBITaxon:452638 ! Polynucleobacter necessarius subsp. necessarius STIR1
-is_a: NCBITaxon:44014 ! Polynucleobacter necessarius subsp. necessarius
+id: NCBITaxon:452638 ! Polynucleobacter necessarius STIR1
+is_a: NCBITaxon:576610 ! Polynucleobacter necessarius
 
 [Term]
 id: NCBITaxon:452645 ! Neovison
@@ -33675,11 +33987,11 @@ is_a: NCBITaxon:4527 ! Oryza
 
 [Term]
 id: NCBITaxon:453115 ! European bat lyssavirus 1 strain RV9
-is_a: NCBITaxon:57482 ! European bat lyssavirus 1
+is_a: NCBITaxon:57482 ! European bat 1 lyssavirus
 
 [Term]
 id: NCBITaxon:453116 ! European bat lyssavirus 2 strain RV1333
-is_a: NCBITaxon:57482 ! European bat lyssavirus 1
+is_a: NCBITaxon:57482 ! European bat 1 lyssavirus
 
 [Term]
 id: NCBITaxon:453121 ! environmental samples <Acholeplasma>
@@ -33935,7 +34247,7 @@ is_a: NCBITaxon:1783270 ! FCB group
 
 [Term]
 id: NCBITaxon:456999 ! Rhizoctonia solani
-is_a: NCBITaxon:1322061 ! Rhizoctonia <Ceratobasidiaceae>
+is_a: NCBITaxon:1322061 ! Rhizoctonia
 
 [Term]
 id: NCBITaxon:45709 ! Sabia mammarenavirus
@@ -34034,7 +34346,7 @@ id: NCBITaxon:45989 ! Methanoculleus
 is_a: NCBITaxon:2194 ! Methanomicrobiaceae
 
 [Term]
-id: NCBITaxon:46014 ! Acholeplasma phage L2
+id: NCBITaxon:46014 ! Acholeplasma virus L2
 is_a: NCBITaxon:10473 ! Plasmavirus
 
 [Term]
@@ -34072,6 +34384,10 @@ is_a: NCBITaxon:1156497 ! Pichiaceae
 [Term]
 id: NCBITaxon:4613 ! Bromeliaceae
 is_a: NCBITaxon:38820 ! Poales
+
+[Term]
+id: NCBITaxon:4614 ! Ananas
+is_a: NCBITaxon:1909378 ! Bromelioideae
 
 [Term]
 id: NCBITaxon:46166 ! Steno
@@ -34134,7 +34450,7 @@ id: NCBITaxon:46255 ! Weissella
 is_a: NCBITaxon:81850 ! Leuconostocaceae
 
 [Term]
-id: NCBITaxon:462590 ! Pseudomonas phage YuA
+id: NCBITaxon:462590 ! Pseudomonas virus Yua
 is_a: NCBITaxon:1299429 ! Yuavirus
 
 [Term]
@@ -34832,10 +35148,6 @@ id: NCBITaxon:47769 ! Pseudocerastes persicus
 is_a: NCBITaxon:47768 ! Pseudocerastes
 
 [Term]
-id: NCBITaxon:477693 ! Desulfurococcus kamchatkensis
-is_a: NCBITaxon:2273 ! Desulfurococcus
-
-[Term]
 id: NCBITaxon:477695 ! Thermogladius
 is_a: NCBITaxon:2272 ! Desulfurococcaceae
 
@@ -35216,7 +35528,7 @@ id: NCBITaxon:48479 ! environmental samples <Bacteria>
 is_a: NCBITaxon:2 ! Bacteria
 
 [Term]
-id: NCBITaxon:484895 ! Pseudomonas phage LUZ24
+id: NCBITaxon:484895 ! Pseudomonas virus LUZ24
 is_a: NCBITaxon:545932 ! Luz24virus
 
 [Term]
@@ -35396,7 +35708,7 @@ id: NCBITaxon:4897 ! Schizosaccharomyces japonicus
 is_a: NCBITaxon:4895 ! Schizosaccharomyces
 
 [Term]
-id: NCBITaxon:48981 ! Drosophila x virus
+id: NCBITaxon:48981 ! Drosophila X virus
 is_a: NCBITaxon:39752 ! Entomobirnavirus
 
 [Term]
@@ -35428,8 +35740,8 @@ id: NCBITaxon:49082 ! Candidatus Arthromitus
 is_a: NCBITaxon:31979 ! Clostridiaceae
 
 [Term]
-id: NCBITaxon:490899 ! Desulfurococcus kamchatkensis 1221n
-is_a: NCBITaxon:477693 ! Desulfurococcus kamchatkensis
+id: NCBITaxon:490899 ! Desulfurococcus amylolyticus 1221n
+is_a: NCBITaxon:94694 ! Desulfurococcus amylolyticus
 
 [Term]
 id: NCBITaxon:4909 ! Pichia kudriavzevii
@@ -35696,7 +36008,7 @@ id: NCBITaxon:499232 ! Gorilla beringei
 is_a: NCBITaxon:9592 ! Gorilla
 
 [Term]
-id: NCBITaxon:499235 ! Halomonas phage phiHAP-1
+id: NCBITaxon:499235 ! Halomonas virus HAP1
 is_a: NCBITaxon:1198976 ! Hapunavirus
 
 [Term]
@@ -36261,7 +36573,7 @@ is_a: NCBITaxon:51347 ! Lophuromys
 
 [Term]
 id: NCBITaxon:5135 ! Phyllachorales
-is_a: NCBITaxon:147551 ! Sordariomycetes incertae sedis
+is_a: NCBITaxon:222544 ! Sordariomycetidae
 
 [Term]
 id: NCBITaxon:51351 ! Brassica rapa subsp. pekinensis
@@ -36352,7 +36664,7 @@ id: NCBITaxon:515618 ! Candidatus Riesia pediculicola USDA
 is_a: NCBITaxon:401619 ! Candidatus Riesia pediculicola
 
 [Term]
-id: NCBITaxon:515619 ! [Eubacterium rectale] ATCC 33656
+id: NCBITaxon:515619 ! [Eubacterium] rectale ATCC 33656
 is_a: NCBITaxon:39491 ! [Eubacterium] rectale
 
 [Term]
@@ -36512,7 +36824,7 @@ id: NCBITaxon:5204 ! Basidiomycota
 is_a: NCBITaxon:451864 ! Dikarya
 
 [Term]
-id: NCBITaxon:5206 ! Cryptococcus <Filobasidiella>
+id: NCBITaxon:5206 ! Cryptococcus <basidiomycete yeast>
 is_a: NCBITaxon:1884633 ! Cryptococcaceae
 
 [Term]
@@ -36668,8 +36980,8 @@ id: NCBITaxon:525329 ! Lactobacillus jensenii JV-V16
 is_a: NCBITaxon:109790 ! Lactobacillus jensenii
 
 [Term]
-id: NCBITaxon:525370 ! Rhodococcus equi ATCC 33707
-is_a: NCBITaxon:43767 ! Rhodococcus equi
+id: NCBITaxon:525370 ! Rhodococcus hoagii ATCC 33707
+is_a: NCBITaxon:43767 ! Rhodococcus hoagii
 
 [Term]
 id: NCBITaxon:5254 ! Dacrymycetaceae
@@ -36821,7 +37133,7 @@ is_a: NCBITaxon:9126 ! Passeriformes
 
 [Term]
 id: NCBITaxon:5286 ! Rhodotorula toruloides
-is_a: NCBITaxon:5533 ! Rhodotorula <Sporidiobolaceae>
+is_a: NCBITaxon:5533 ! Rhodotorula
 
 [Term]
 id: NCBITaxon:52860 ! Tabernaemontana
@@ -36881,7 +37193,7 @@ is_a: NCBITaxon:80864 ! Comamonadaceae
 
 [Term]
 id: NCBITaxon:530042 ! Bombyx mori densovirus Zhenjiang
-is_a: NCBITaxon:185880 ! unclassified Densovirinae
+is_a: NCBITaxon:1285589 ! Bombyx mori bidensovirus
 
 [Term]
 id: NCBITaxon:5302 ! Agaricomycotina
@@ -36908,12 +37220,8 @@ id: NCBITaxon:5306 ! Phanerochaete chrysosporium
 is_a: NCBITaxon:5305 ! Phanerochaete
 
 [Term]
-id: NCBITaxon:5313 ! Ganodermataceae
-is_a: NCBITaxon:5303 ! Polyporales
-
-[Term]
 id: NCBITaxon:5314 ! Ganoderma
-is_a: NCBITaxon:5313 ! Ganodermataceae
+is_a: NCBITaxon:5317 ! Polyporaceae
 
 [Term]
 id: NCBITaxon:5315 ! Ganoderma lucidum
@@ -36953,7 +37261,7 @@ is_a: NCBITaxon:5320 ! Pleurotus
 
 [Term]
 id: NCBITaxon:5324 ! Trametes
-is_a: NCBITaxon:83233 ! Coriolaceae
+is_a: NCBITaxon:5317 ! Polyporaceae
 
 [Term]
 id: NCBITaxon:53246 ! Pseudoalteromonas
@@ -37121,7 +37429,7 @@ is_a: NCBITaxon:43817 ! Culicinae
 
 [Term]
 id: NCBITaxon:5357 ! Lentinus
-is_a: NCBITaxon:83234 ! Lentinaceae
+is_a: NCBITaxon:5317 ! Polyporaceae
 
 [Term]
 id: NCBITaxon:53572 ! Deferribacter
@@ -37704,7 +38012,7 @@ id: NCBITaxon:549295 ! Flavihumibacter petaseus
 is_a: NCBITaxon:1004301 ! Flavihumibacter
 
 [Term]
-id: NCBITaxon:54968 ! Polypedilum
+id: NCBITaxon:54968 ! Polypedilum <genus>
 is_a: NCBITaxon:72530 ! Chironomini
 
 [Term]
@@ -37932,7 +38240,7 @@ id: NCBITaxon:5531 ! Myrothecium
 is_a: NCBITaxon:1667166 ! Stachybotryaceae
 
 [Term]
-id: NCBITaxon:5533 ! Rhodotorula <Sporidiobolaceae>
+id: NCBITaxon:5533 ! Rhodotorula
 is_a: NCBITaxon:1799696 ! Sporidiobolaceae
 
 [Term]
@@ -37945,11 +38253,11 @@ is_a: NCBITaxon:40041 ! Streptococcus equi subsp. zooepidemicus
 
 [Term]
 id: NCBITaxon:5535 ! Rhodotorula glutinis
-is_a: NCBITaxon:5533 ! Rhodotorula <Sporidiobolaceae>
+is_a: NCBITaxon:5533 ! Rhodotorula
 
 [Term]
 id: NCBITaxon:5538 ! Scytalidium
-is_a: NCBITaxon:147548 ! Leotiomycetes
+is_a: NCBITaxon:221903 ! Leotiomycetes incertae sedis
 
 [Term]
 id: NCBITaxon:554 ! Pectobacterium carotovorum
@@ -37965,7 +38273,7 @@ is_a: NCBITaxon:63405 ! Microsporum canis
 
 [Term]
 id: NCBITaxon:55423 ! Conus ermineus
-is_a: NCBITaxon:6490 ! Conus
+is_a: NCBITaxon:1340066 ! Chelyconus
 
 [Term]
 id: NCBITaxon:554290 ! Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601
@@ -38020,7 +38328,7 @@ id: NCBITaxon:5551 ! Trichophyton rubrum
 is_a: NCBITaxon:5550 ! Trichophyton
 
 [Term]
-id: NCBITaxon:55510 ! Staphylococcus phage Twort
+id: NCBITaxon:55510 ! Staphylococcus virus Twort
 is_a: NCBITaxon:1857846 ! Twortvirus
 
 [Term]
@@ -38121,11 +38429,11 @@ is_a: NCBITaxon:1598 ! Lactobacillus reuteri
 
 [Term]
 id: NCBITaxon:55745 ! Cephaloboidea
-is_a: NCBITaxon:6236 ! Rhabditida
+is_a: NCBITaxon:2082208 ! Cephalobomorpha
 
 [Term]
 id: NCBITaxon:55746 ! Panagrolaimoidea
-is_a: NCBITaxon:6236 ! Rhabditida
+is_a: NCBITaxon:2082223 ! Panagrolaimomorpha
 
 [Term]
 id: NCBITaxon:557598 ! Laribacter hongkongensis HLHK9
@@ -38140,8 +38448,8 @@ id: NCBITaxon:557722 ! Pseudomonas aeruginosa LESB58
 is_a: NCBITaxon:287 ! Pseudomonas aeruginosa
 
 [Term]
-id: NCBITaxon:557723 ! Haemophilus parasuis SH0165
-is_a: NCBITaxon:738 ! [Haemophilus] parasuis
+id: NCBITaxon:557723 ! Glaesserella parasuis SH0165
+is_a: NCBITaxon:738 ! Glaesserella parasuis
 
 [Term]
 id: NCBITaxon:557760 ! Rhodobacter sphaeroides KD131
@@ -38180,7 +38488,7 @@ id: NCBITaxon:55824 ! Hirudinea
 is_a: NCBITaxon:42113 ! Clitellata
 
 [Term]
-id: NCBITaxon:5583 ! Exophiala <Herpotrichiellaceae>
+id: NCBITaxon:5583 ! Exophiala
 is_a: NCBITaxon:43219 ! Herpotrichiellaceae
 
 [Term]
@@ -38361,7 +38669,7 @@ is_a: NCBITaxon:8948 ! Falconiformes
 
 [Term]
 id: NCBITaxon:5626 ! Grifola
-is_a: NCBITaxon:5332 ! Schizophyllaceae
+is_a: NCBITaxon:2028216 ! Grifolaceae
 
 [Term]
 id: NCBITaxon:5627 ! Grifola frondosa
@@ -38528,8 +38836,8 @@ id: NCBITaxon:565042 ! Bifidobacterium longum subsp. longum JCM 1217
 is_a: NCBITaxon:1679 ! Bifidobacterium longum subsp. longum
 
 [Term]
-id: NCBITaxon:565050 ! Caulobacter crescentus NA1000
-is_a: NCBITaxon:190650 ! Caulobacter crescentus CB15
+id: NCBITaxon:565050 ! Caulobacter vibrioides NA1000
+is_a: NCBITaxon:190650 ! Caulobacter vibrioides CB15
 
 [Term]
 id: NCBITaxon:5653 ! Kinetoplastida
@@ -38576,8 +38884,8 @@ id: NCBITaxon:5659 ! Leishmania amazonensis
 is_a: NCBITaxon:38582 ! Leishmania mexicana species complex
 
 [Term]
-id: NCBITaxon:566 ! Escherichia vulneris
-is_a: NCBITaxon:561 ! Escherichia
+id: NCBITaxon:566 ! Pseudescherichia vulneris
+is_a: NCBITaxon:2055880 ! Pseudescherichia
 
 [Term]
 id: NCBITaxon:5660 ! Leishmania braziliensis
@@ -38709,7 +39017,7 @@ is_a: NCBITaxon:138074 ! Serratia symbiotica
 
 [Term]
 id: NCBITaxon:568819 ! Listeria monocytogenes serotype 4b str. CLIP 80459
-is_a: NCBITaxon:1639 ! Listeria monocytogenes
+is_a: NCBITaxon:2065118 ! Listeria monocytogenes serotype 4b
 
 [Term]
 id: NCBITaxon:5689 ! Leishmania tarentolae
@@ -39060,7 +39368,7 @@ id: NCBITaxon:5748 ! Nannochloropsis
 is_a: NCBITaxon:425072 ! Monodopsidaceae
 
 [Term]
-id: NCBITaxon:57482 ! European bat lyssavirus 1
+id: NCBITaxon:57482 ! European bat 1 lyssavirus
 is_a: NCBITaxon:11286 ! Lyssavirus
 
 [Term]
@@ -39100,7 +39408,7 @@ id: NCBITaxon:575540 ! Isosphaera pallida ATCC 43644
 is_a: NCBITaxon:128 ! Isosphaera pallida
 
 [Term]
-id: NCBITaxon:575608 ! Staphylococcus phage Ipla88
+id: NCBITaxon:575608 ! Staphylococcus virus IPLA88
 is_a: NCBITaxon:1623298 ! Phietavirus
 
 [Term]
@@ -39209,7 +39517,7 @@ is_a: NCBITaxon:1260114 ! Vermamoeba
 
 [Term]
 id: NCBITaxon:5782 ! Dictyostelium
-is_a: NCBITaxon:33083 ! Dictyosteliida
+is_a: NCBITaxon:2058185 ! Dictyosteliaceae
 is_a: NCBITaxon_Union:0000022 ! Fungi or Dictyostelium
 
 [Term]
@@ -39958,7 +40266,7 @@ is_a: NCBITaxon:3701 ! Arabidopsis
 
 [Term]
 id: NCBITaxon:5970 ! Exophiala dermatitidis
-is_a: NCBITaxon:5583 ! Exophiala <Herpotrichiellaceae>
+is_a: NCBITaxon:5583 ! Exophiala
 
 [Term]
 id: NCBITaxon:59728 ! Taeniopygia
@@ -40050,7 +40358,7 @@ is_a: NCBITaxon:115784 ! Phaffomycetaceae
 
 [Term]
 id: NCBITaxon:599838 ! Fibroporia
-is_a: NCBITaxon:5317 ! Polyporaceae
+is_a: NCBITaxon:183979 ! Polyporales incertae sedis
 
 [Term]
 id: NCBITaxon:599839 ! Fibroporia radiculosa
@@ -40334,7 +40642,7 @@ is_a: NCBITaxon:4085 ! Nicotiana
 
 [Term]
 id: NCBITaxon:61198 ! Conus radiatus
-is_a: NCBITaxon:6490 ! Conus
+is_a: NCBITaxon:1340108 ! Phasmoconus
 
 [Term]
 id: NCBITaxon:6122 ! Stichodactyla
@@ -40822,7 +41130,7 @@ is_a: NCBITaxon:6292 ! Wuchereria
 
 [Term]
 id: NCBITaxon:6295 ! Filarioidea
-is_a: NCBITaxon:6274 ! Spirurida
+is_a: NCBITaxon:2072716 ! Spiruromorpha
 
 [Term]
 id: NCBITaxon:6296 ! Onchocercidae
@@ -40933,7 +41241,7 @@ id: NCBITaxon:63265 ! Sporisorium
 is_a: NCBITaxon:5268 ! Ustilaginaceae
 
 [Term]
-id: NCBITaxon:6329 ! Trichocephalida
+id: NCBITaxon:6329 ! Trichinellida
 is_a: NCBITaxon:1457286 ! Dorylaimia
 
 [Term]
@@ -40958,7 +41266,7 @@ is_a: NCBITaxon:74313 ! Brevundimonas subvibrioides
 
 [Term]
 id: NCBITaxon:6332 ! Trichinellidae
-is_a: NCBITaxon:6329 ! Trichocephalida
+is_a: NCBITaxon:6329 ! Trichinellida
 
 [Term]
 id: NCBITaxon:6333 ! Trichinella
@@ -41389,8 +41697,8 @@ id: NCBITaxon:643453 ! Xanthomonas citri group
 is_a: NCBITaxon:338 ! Xanthomonas
 
 [Term]
-id: NCBITaxon:643562 ! Desulfovibrio aespoeensis Aspo-2
-is_a: NCBITaxon:182210 ! Desulfovibrio aespoeensis
+id: NCBITaxon:643562 ! Pseudodesulfovibrio aespoeensis Aspo-2
+is_a: NCBITaxon:182210 ! Pseudodesulfovibrio aespoeensis
 
 [Term]
 id: NCBITaxon:64363 ! Dothistroma septosporum
@@ -41681,12 +41989,12 @@ id: NCBITaxon:648996 ! Thermovibrio ammonificans HB-1
 is_a: NCBITaxon:228745 ! Thermovibrio ammonificans
 
 [Term]
-id: NCBITaxon:6490 ! Conus
+id: NCBITaxon:6490 ! Conus <genus>
 is_a: NCBITaxon:6489 ! Conidae
 
 [Term]
 id: NCBITaxon:6492 ! Conus magus
-is_a: NCBITaxon:6490 ! Conus
+is_a: NCBITaxon:1340109 ! Pionoconus
 
 [Term]
 id: NCBITaxon:649349 ! Leadbetterella byssophila DSM 17132
@@ -42042,7 +42350,7 @@ is_a: NCBITaxon:1980519 ! Crimean-Congo hemorrhagic fever orthonairovirus
 
 [Term]
 id: NCBITaxon:652962 ! Lettuce big-vein associated virus isolate Kagawa
-is_a: NCBITaxon:311413 ! Lettuce big-vein associated virus
+is_a: NCBITaxon:1985698 ! Lettuce big-vein associated varicosavirus
 
 [Term]
 id: NCBITaxon:652963 ! Citrus ringspot virus isolate P-121
@@ -42103,10 +42411,6 @@ is_a: NCBITaxon:1756146 ! Togniniaceae
 [Term]
 id: NCBITaxon:654128 ! Marasmiaceae
 is_a: NCBITaxon:5338 ! Agaricales
-
-[Term]
-id: NCBITaxon:654221 ! mitosporic Marasmiaceae
-is_a: NCBITaxon:654128 ! Marasmiaceae
 
 [Term]
 id: NCBITaxon:6544 ! Bivalvia
@@ -42250,7 +42554,7 @@ is_a: NCBITaxon:133704 ! Porcine circovirus 1
 
 [Term]
 id: NCBITaxon:654931 ! Drosophila x virus (isolate Chung)
-is_a: NCBITaxon:48981 ! Drosophila x virus
+is_a: NCBITaxon:48981 ! Drosophila X virus
 
 [Term]
 id: NCBITaxon:654932 ! Penicillium chrysogenum virus (isolate Caston)
@@ -42258,7 +42562,7 @@ is_a: NCBITaxon:158372 ! Penicillium chrysogenum virus
 
 [Term]
 id: NCBITaxon:654933 ! Oryza sativa endornavirus (isolate Japan)
-is_a: NCBITaxon:362693 ! Oryza sativa endornavirus
+is_a: NCBITaxon:362693 ! Oryza sativa alphaendornavirus
 
 [Term]
 id: NCBITaxon:654934 ! White clover cryptic virus 1 (isolate Boccardo)
@@ -42477,8 +42781,8 @@ id: NCBITaxon:660025 ! Fusarium oxysporum Fo5176
 is_a: NCBITaxon:5507 ! Fusarium oxysporum
 
 [Term]
-id: NCBITaxon:660122 ! Nectria haematococca mpVI 77-13-4
-is_a: NCBITaxon:70791 ! Nectria haematococca mpVI
+id: NCBITaxon:660122 ! [Nectria] haematococca mpVI 77-13-4
+is_a: NCBITaxon:70791 ! [Nectria] haematococca mpVI
 
 [Term]
 id: NCBITaxon:660470 ! Mesotoga prima MesG1.Ag.4.2
@@ -42537,7 +42841,7 @@ id: NCBITaxon:66187 ! Micropechis
 is_a: NCBITaxon:66180 ! Notechinae
 
 [Term]
-id: NCBITaxon:66188 ! Micropechis ikaheka
+id: NCBITaxon:66188 ! Micropechis ikaheca
 is_a: NCBITaxon:66187 ! Micropechis
 
 [Term]
@@ -44174,7 +44478,7 @@ is_a: NCBITaxon:290053 ! Bacteroides helcogenes
 
 [Term]
 id: NCBITaxon:693989 ! Pea enation mosaic virus-1 strain WSG
-is_a: NCBITaxon:193121 ! Pea enation mosaic virus-1
+is_a: NCBITaxon:193121 ! Pea enation mosaic virus 1
 
 [Term]
 id: NCBITaxon:693992 ! Duck hepatitis A virus Taiwan/03D
@@ -44209,7 +44513,7 @@ id: NCBITaxon:694005 ! Murine coronavirus
 is_a: NCBITaxon:694002 ! Betacoronavirus
 
 [Term]
-id: NCBITaxon:694009 ! SARS-related coronavirus
+id: NCBITaxon:694009 ! Severe acute respiratory syndrome-related coronavirus
 is_a: NCBITaxon:694002 ! Betacoronavirus
 
 [Term]
@@ -44365,7 +44669,7 @@ id: NCBITaxon:696856 ! Newbury-1 virus
 is_a: NCBITaxon:696855 ! Nebovirus
 
 [Term]
-id: NCBITaxon:696863 ! Spring viraemia of carp virus
+id: NCBITaxon:696863 ! Carp sprivivirus
 is_a: NCBITaxon:1513299 ! Sprivivirus
 
 [Term]
@@ -44561,6 +44865,10 @@ id: NCBITaxon:700508 ! Mycobacterium neoaurum VKM Ac-1815D
 is_a: NCBITaxon:1795 ! Mycobacterium neoaurum
 
 [Term]
+id: NCBITaxon:700542 ! Aeropyrum pernix bacilliform virus 1
+is_a: NCBITaxon:1232738 ! Clavavirus
+
+[Term]
 id: NCBITaxon:700598 ! Niastella koreensis GR20-10
 is_a: NCBITaxon:354356 ! Niastella koreensis
 
@@ -44589,8 +44897,8 @@ id: NCBITaxon:701177 ! Escherichia coli O55:H7 str. CB9615
 is_a: NCBITaxon:244320 ! Escherichia coli O55:H7
 
 [Term]
-id: NCBITaxon:701347 ! Enterobacter lignolyticus SCF1
-is_a: NCBITaxon:1334193 ! Enterobacter lignolyticus
+id: NCBITaxon:701347 ! [Enterobacter] lignolyticus SCF1
+is_a: NCBITaxon:1334193 ! [Enterobacter] lignolyticus
 
 [Term]
 id: NCBITaxon:70142 ! Notechis scutatus scutatus
@@ -44789,8 +45097,8 @@ id: NCBITaxon:70774 ! Hydrogenophilus
 is_a: NCBITaxon:206349 ! Hydrogenophilaceae
 
 [Term]
-id: NCBITaxon:70791 ! Nectria haematococca mpVI
-is_a: NCBITaxon:140110 ! Nectria haematococca
+id: NCBITaxon:70791 ! [Nectria] haematococca mpVI
+is_a: NCBITaxon:140110 ! [Nectria] haematococca
 
 [Term]
 id: NCBITaxon:70796 ! Tremovirus A
@@ -44803,10 +45111,6 @@ is_a: NCBITaxon:159191 ! Nodularia <Cyanobacteria>
 [Term]
 id: NCBITaxon:70849 ! Nudibranchia
 is_a: NCBITaxon:680346 ! Nudipleura
-
-[Term]
-id: NCBITaxon:70850 ! Dendronotina
-is_a: NCBITaxon:70849 ! Nudibranchia
 
 [Term]
 id: NCBITaxon:70851 ! Tritoniidae
@@ -45029,10 +45333,6 @@ id: NCBITaxon:713604 ! Amycolatopsis mediterranei S699
 is_a: NCBITaxon:33910 ! Amycolatopsis mediterranei
 
 [Term]
-id: NCBITaxon:713636 ! Gallionellales
-is_a: NCBITaxon:28216 ! Betaproteobacteria
-
-[Term]
 id: NCBITaxon:7137 ! Galleria mellonella
 is_a: NCBITaxon:7136 ! Galleria
 
@@ -45086,7 +45386,7 @@ is_a: NCBITaxon:7147 ! Diptera
 
 [Term]
 id: NCBITaxon:71481 ! Aeolidioidea
-is_a: NCBITaxon:76176 ! Aeolididina
+is_a: NCBITaxon:1707744 ! Cladobranchia
 
 [Term]
 id: NCBITaxon:7149 ! Chironomidae
@@ -45249,8 +45549,8 @@ id: NCBITaxon:717738 ! Sanguirana varians
 is_a: NCBITaxon:1208497 ! Sanguirana
 
 [Term]
-id: NCBITaxon:717772 ! Thioalkalimicrobium aerophilum AL3
-is_a: NCBITaxon:92245 ! Thioalkalimicrobium aerophilum
+id: NCBITaxon:717772 ! Thiomicrospira aerophila AL3
+is_a: NCBITaxon:92245 ! Thiomicrospira aerophila
 
 [Term]
 id: NCBITaxon:717774 ! Marinomonas mediterranea MMB-1
@@ -45553,7 +45853,7 @@ id: NCBITaxon:7241 ! Drosophila subobscura
 is_a: NCBITaxon:32357 ! obscura subgroup
 
 [Term]
-id: NCBITaxon:7242 ! Drosophila sp.
+id: NCBITaxon:7242 ! Drosophila sp. (in: Insecta)
 is_a: NCBITaxon:58312 ! unclassified Drosophila <genus>
 
 [Term]
@@ -45714,7 +46014,7 @@ is_a: NCBITaxon:2830 ! Haptophyceae
 
 [Term]
 id: NCBITaxon:73029 ! Dechloromonas
-is_a: NCBITaxon:75787 ! Rhodocyclaceae
+is_a: NCBITaxon:2008795 ! Azonexaceae
 
 [Term]
 id: NCBITaxon:73031 ! Perna viridis
@@ -45829,8 +46129,8 @@ id: NCBITaxon:7375 ! Lucilia cuprina
 is_a: NCBITaxon:7374 ! Lucilia <blowfly>
 
 [Term]
-id: NCBITaxon:738 ! [Haemophilus] parasuis
-is_a: NCBITaxon:724 ! Haemophilus
+id: NCBITaxon:738 ! Glaesserella parasuis
+is_a: NCBITaxon:2094023 ! Glaesserella
 
 [Term]
 id: NCBITaxon:7381 ! Sarcophagidae
@@ -46121,7 +46421,7 @@ id: NCBITaxon:747 ! Pasteurella multocida
 is_a: NCBITaxon:745 ! Pasteurella
 
 [Term]
-id: NCBITaxon:747089 ! Rhizophagus irregularis DAOM 181602
+id: NCBITaxon:747089 ! Rhizophagus irregularis DAOM 181602=DAOM 197198
 is_a: NCBITaxon:588596 ! Rhizophagus irregularis
 
 [Term]
@@ -46254,7 +46554,7 @@ is_a: NCBITaxon:1775411 ! Rhodanobacteraceae
 
 [Term]
 id: NCBITaxon:75320 ! Vibrio phage KVP40
-is_a: NCBITaxon:1198137 ! Schizot4virus
+is_a: NCBITaxon:1914019 ! Vibrio virus KVP40
 
 [Term]
 id: NCBITaxon:7533 ! Lygaeidae
@@ -46418,7 +46718,7 @@ is_a: NCBITaxon:133551 ! Eleutherozoa
 
 [Term]
 id: NCBITaxon:75872 ! Lophonetta
-is_a: NCBITaxon:8830 ! Anatidae
+is_a: NCBITaxon:2068716 ! Anatinae
 
 [Term]
 id: NCBITaxon:75873 ! Lophonetta specularioides
@@ -46551,10 +46851,6 @@ is_a: NCBITaxon:106 ! Runella slithyformis
 [Term]
 id: NCBITaxon:7612 ! Pisaster ochraceus
 is_a: NCBITaxon:7610 ! Pisaster
-
-[Term]
-id: NCBITaxon:76176 ! Aeolididina
-is_a: NCBITaxon:70849 ! Nudibranchia
 
 [Term]
 id: NCBITaxon:76199 ! Papilio bianor
@@ -47144,7 +47440,7 @@ is_a: NCBITaxon:7776 ! Gnathostomata <vertebrate>
 
 [Term]
 id: NCBITaxon:77775 ! Salmonella phage FelixO1
-is_a: NCBITaxon:1198140 ! Felixo1virus
+is_a: NCBITaxon:1985310 ! Salmonella virus FelixO1
 
 [Term]
 id: NCBITaxon:7778 ! Elasmobranchii
@@ -48276,7 +48572,7 @@ is_a: NCBITaxon:81525 ! Monosiga
 
 [Term]
 id: NCBITaxon:8184 ! Centropomidae
-is_a: NCBITaxon:1489905 ! Carangiaria incertae sedis
+is_a: NCBITaxon:1489905 ! Carangaria incertae sedis
 
 [Term]
 id: NCBITaxon:81850 ! Leuconostocaceae
@@ -48323,8 +48619,8 @@ id: NCBITaxon:81952 ! Iguaninae
 is_a: NCBITaxon:8515 ! Iguanidae
 
 [Term]
-id: NCBITaxon:81957 ! Polychrotinae
-is_a: NCBITaxon:8515 ! Iguanidae
+id: NCBITaxon:81957 ! Polychrotidae
+is_a: NCBITaxon:8511 ! Iguania
 
 [Term]
 id: NCBITaxon:8196 ! Lycodes
@@ -48655,16 +48951,8 @@ id: NCBITaxon:832 ! Fibrobacter
 is_a: NCBITaxon:204431 ! Fibrobacteraceae
 
 [Term]
-id: NCBITaxon:83233 ! Coriolaceae
-is_a: NCBITaxon:5303 ! Polyporales
-
-[Term]
-id: NCBITaxon:83234 ! Lentinaceae
-is_a: NCBITaxon:5303 ! Polyporales
-
-[Term]
 id: NCBITaxon:83235 ! Postia
-is_a: NCBITaxon:83233 ! Coriolaceae
+is_a: NCBITaxon:2028214 ! Dacryobolaceae
 
 [Term]
 id: NCBITaxon:8329 ! Cynops
@@ -49983,10 +50271,6 @@ id: NCBITaxon:8673 ! Pseudonaja textilis
 is_a: NCBITaxon:8672 ! Pseudonaja
 
 [Term]
-id: NCBITaxon:867696 ! Salmonella phage ViI
-is_a: NCBITaxon:1298971 ! Vi1virus
-
-[Term]
 id: NCBITaxon:867900 ! Cellulophaga lytica DSM 7489
 is_a: NCBITaxon:979 ! Cellulophaga lytica
 
@@ -50268,7 +50552,7 @@ is_a: NCBITaxon:8752 ! Lachesis muta
 
 [Term]
 id: NCBITaxon:875328 ! Mycobacterium sinense
-is_a: NCBITaxon:1763 ! Mycobacterium
+is_a: NCBITaxon:1073531 ! Mycobacterium terrae complex
 
 [Term]
 id: NCBITaxon:875453 ! Peptoniphilus sp. 1-1
@@ -50399,8 +50683,8 @@ id: NCBITaxon:8793 ! Rheidae
 is_a: NCBITaxon:8792 ! Rheiformes
 
 [Term]
-id: NCBITaxon:879567 ! Desulfovibrio piezophilus
-is_a: NCBITaxon:872 ! Desulfovibrio
+id: NCBITaxon:879567 ! Pseudodesulfovibrio piezophilus
+is_a: NCBITaxon:2035811 ! Pseudodesulfovibrio
 
 [Term]
 id: NCBITaxon:8796 ! Rhea
@@ -50604,7 +50888,7 @@ is_a: NCBITaxon:33012 ! Propionimicrobium lymphophilum
 
 [Term]
 id: NCBITaxon:8835 ! Anas
-is_a: NCBITaxon:8830 ! Anatidae
+is_a: NCBITaxon:2068716 ! Anatinae
 
 [Term]
 id: NCBITaxon:883878 ! Astyanax clade
@@ -50620,7 +50904,7 @@ is_a: NCBITaxon:2191 ! Methanomicrobiales
 
 [Term]
 id: NCBITaxon:8842 ! Anser
-is_a: NCBITaxon:8830 ! Anatidae
+is_a: NCBITaxon:2068722 ! Anserinae
 
 [Term]
 id: NCBITaxon:884204 ! Burkholderia pseudomallei 1026b
@@ -50664,7 +50948,7 @@ is_a: NCBITaxon:428712 ! Jonquetella anthropi
 
 [Term]
 id: NCBITaxon:8854 ! Cairina
-is_a: NCBITaxon:8830 ! Anatidae
+is_a: NCBITaxon:2068716 ! Anatinae
 
 [Term]
 id: NCBITaxon:8855 ! Cairina moschata
@@ -50724,7 +51008,7 @@ is_a: NCBITaxon:114727 ! H1N1 subtype
 
 [Term]
 id: NCBITaxon:8886 ! Sarkidiornis
-is_a: NCBITaxon:8830 ! Anatidae
+is_a: NCBITaxon:2068719 ! Tadorninae
 
 [Term]
 id: NCBITaxon:8887 ! Sarkidiornis melanotos
@@ -50868,7 +51152,7 @@ is_a: NCBITaxon:8940 ! Cuculiformes
 
 [Term]
 id: NCBITaxon:89445 ! Conus litteratus
-is_a: NCBITaxon:6490 ! Conus
+is_a: NCBITaxon:2056776 ! Elisaconus
 
 [Term]
 id: NCBITaxon:89462 ! Bubalus bubalis
@@ -51016,7 +51300,7 @@ is_a: NCBITaxon:9030 ! Gallus
 
 [Term]
 id: NCBITaxon:90311 ! Cerrena
-is_a: NCBITaxon:5317 ! Polyporaceae
+is_a: NCBITaxon:2028206 ! Cerrenaceae
 
 [Term]
 id: NCBITaxon:90312 ! Cerrena unicolor
@@ -51100,7 +51384,7 @@ is_a: NCBITaxon:31977 ! Veillonellaceae
 
 [Term]
 id: NCBITaxon:90627 ! Gallionellaceae
-is_a: NCBITaxon:713636 ! Gallionellales
+is_a: NCBITaxon:32003 ! Nitrosomonadales
 
 [Term]
 id: NCBITaxon:90657 ! Seicercus
@@ -51392,7 +51676,7 @@ is_a: NCBITaxon:446 ! Legionella pneumophila
 
 [Term]
 id: NCBITaxon:919 ! Thiobacillus
-is_a: NCBITaxon:206349 ! Hydrogenophilaceae
+is_a: NCBITaxon:2008790 ! Thiobacillaceae
 
 [Term]
 id: NCBITaxon:91914 ! Asaia
@@ -51475,12 +51759,8 @@ id: NCBITaxon:9224 ! Psittacidae
 is_a: NCBITaxon:9223 ! Psittaciformes
 
 [Term]
-id: NCBITaxon:92244 ! Thioalkalimicrobium
-is_a: NCBITaxon:135616 ! Piscirickettsiaceae
-
-[Term]
-id: NCBITaxon:92245 ! Thioalkalimicrobium aerophilum
-is_a: NCBITaxon:92244 ! Thioalkalimicrobium
+id: NCBITaxon:92245 ! Thiomicrospira aerophila
+is_a: NCBITaxon:933 ! Thiomicrospira
 
 [Term]
 id: NCBITaxon:9225 ! Ara
@@ -51523,12 +51803,8 @@ id: NCBITaxon:9240 ! Spheniscus humboldti
 is_a: NCBITaxon:9239 ! Spheniscus
 
 [Term]
-id: NCBITaxon:9241 ! Trochiliformes
-is_a: NCBITaxon:8825 ! Neognathae
-
-[Term]
 id: NCBITaxon:9242 ! Trochilidae
-is_a: NCBITaxon:9241 ! Trochiliformes
+is_a: NCBITaxon:8892 ! Apodiformes
 
 [Term]
 id: NCBITaxon:9243 ! Calypte
@@ -51872,7 +52148,7 @@ is_a: NCBITaxon:1960649 ! Notamacropus
 
 [Term]
 id: NCBITaxon:93154 ! Conus pulicarius
-is_a: NCBITaxon:6490 ! Conus
+is_a: NCBITaxon:1340117 ! Puncticulis
 
 [Term]
 id: NCBITaxon:9316 ! Macropus fuliginosus
@@ -51984,7 +52260,7 @@ is_a: NCBITaxon:948953 ! Folivora
 
 [Term]
 id: NCBITaxon:935200 ! Sulfuricella
-is_a: NCBITaxon:1559980 ! Sulfuricellaceae
+is_a: NCBITaxon:90627 ! Gallionellaceae
 
 [Term]
 id: NCBITaxon:9353 ! Bradypus
@@ -52437,6 +52713,10 @@ is_a: NCBITaxon:9467 ! Loris
 [Term]
 id: NCBITaxon:9469 ! Nycticebus
 is_a: NCBITaxon:9461 ! Lorisidae
+
+[Term]
+id: NCBITaxon:94694 ! Desulfurococcus amylolyticus
+is_a: NCBITaxon:2273 ! Desulfurococcus
 
 [Term]
 id: NCBITaxon:94695 ! Methanosarcinales
@@ -53740,7 +54020,7 @@ is_a: NCBITaxon:9874 ! Odocoileus virginianus
 
 [Term]
 id: NCBITaxon:98757 ! Gelatoporia
-is_a: NCBITaxon:83233 ! Coriolaceae
+is_a: NCBITaxon:2028217 ! Gelatoporiaceae
 
 [Term]
 id: NCBITaxon:98794 ! Buchnera aphidicola (Schizaphis graminum)
@@ -53835,8 +54115,8 @@ id: NCBITaxon:9903 ! Bos
 is_a: NCBITaxon:27592 ! Bovinae
 
 [Term]
-id: NCBITaxon:990316 ! Methanosaeta concilii GP6
-is_a: NCBITaxon:2223 ! Methanosaeta concilii
+id: NCBITaxon:990316 ! Methanothrix soehngenii GP6
+is_a: NCBITaxon:2223 ! Methanothrix soehngenii
 
 [Term]
 id: NCBITaxon:9904 ! Bos gaurus

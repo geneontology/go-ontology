@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/go/extensions/go-taxon-groupings.owl#"
-     xml:base="http://purl.obolibrary.org/obo/go/extensions/go-taxon-groupings.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl#"
+     xml:base="http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/extensions/go-taxon-groupings.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl"/>
         <dc:title xml:lang="en">GO Organismal Taxonomic Groupings</dc:title>
         <dc:description xml:lang="en">Groupings of taxa that are not necessarily monophyletic. For example, Prokaryota is defined as the union of Eubacteria and Archaea.</dc:description>
@@ -985,7 +985,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_101291 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_101291">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1340109"/>
     </rdf:Description>
     
 
@@ -1001,7 +1001,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_101317 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_101317">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2058669"/>
     </rdf:Description>
     
 
@@ -1113,7 +1113,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_101571 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_101571">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_87882"/>
     </rdf:Description>
     
 
@@ -2833,7 +2833,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10479 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10479">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_341939"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2022739"/>
     </rdf:Description>
     
 
@@ -2897,7 +2897,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10487 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10487">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2017757"/>
     </rdf:Description>
     
 
@@ -2953,7 +2953,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10491 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10491">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2017757"/>
     </rdf:Description>
     
 
@@ -2961,7 +2961,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10492 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10492">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2017756"/>
     </rdf:Description>
     
 
@@ -2977,7 +2977,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10494 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10494">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2017756"/>
     </rdf:Description>
     
 
@@ -3313,7 +3313,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1054211 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1054211">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_75787"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2008793"/>
     </rdf:Description>
     
 
@@ -3377,7 +3377,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10559 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10559">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_337052"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -3889,7 +3889,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10665 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10665">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_348604"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10663"/>
     </rdf:Description>
     
 
@@ -4182,6 +4182,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1073531 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1073531">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1763"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10744 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10744">
@@ -4273,7 +4281,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10760 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10760">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_110456"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1985738"/>
     </rdf:Description>
     
 
@@ -4705,7 +4713,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10857 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10857">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40274"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -4713,7 +4721,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_108599 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_108599">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4890"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -4753,7 +4761,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10863 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10863">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10870"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1977402"/>
     </rdf:Description>
     
 
@@ -4777,7 +4785,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10872 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10872">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1977138"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2011082"/>
     </rdf:Description>
     
 
@@ -4929,7 +4937,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10915 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10915">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_375192"/>
     </rdf:Description>
     
 
@@ -5369,7 +5377,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11021 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_177873"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11019"/>
     </rdf:Description>
     
 
@@ -5417,7 +5425,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11033 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_177875"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11019"/>
     </rdf:Description>
     
 
@@ -5425,7 +5433,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11034 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_177874"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11019"/>
     </rdf:Description>
     
 
@@ -5510,18 +5518,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11046 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_76803"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11047 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11046"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2003400"/>
     </rdf:Description>
     
 
@@ -6802,7 +6802,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11290 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11290">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186778"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1980917"/>
     </rdf:Description>
     
 
@@ -7122,7 +7122,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1136731 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1136731">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_196896"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1987727"/>
     </rdf:Description>
     
 
@@ -7698,7 +7698,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11571 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11571">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1980613"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -7866,7 +7866,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11598 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11598">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11571"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -7978,7 +7978,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11613 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11613">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1933298"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -8207,6 +8207,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11656 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11656">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11646"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_116561 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_116561">
@@ -8250,7 +8258,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11665 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11665">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11654"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11656"/>
     </rdf:Description>
     
 
@@ -8682,7 +8690,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1172 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1172">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1163"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -9017,7 +9025,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_117992 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_117992">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1340096"/>
     </rdf:Description>
     
 
@@ -9138,14 +9146,6 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_118200">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_36302"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1182516 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1182516">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6300"/>
     </rdf:Description>
     
 
@@ -9529,7 +9529,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_119069 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_119069">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2008785"/>
     </rdf:Description>
     
 
@@ -9945,7 +9945,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1198140 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1198140">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10662"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1985285"/>
     </rdf:Description>
     
 
@@ -10353,7 +10353,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_12063 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_195054"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1803956"/>
     </rdf:Description>
     
 
@@ -10617,7 +10617,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_120862 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_120862">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1182516"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33283"/>
     </rdf:Description>
     
 
@@ -11033,7 +11033,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_12127 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12127">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12124"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1821750"/>
     </rdf:Description>
     
 
@@ -11441,7 +11441,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1218488 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1218488">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1218487"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2094303"/>
     </rdf:Description>
     
 
@@ -12134,6 +12134,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1232737 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1232737">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35237"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1232738 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1232738">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1232737"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_12329 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12329">
@@ -12553,7 +12569,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1239832 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1239832">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1218488"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1218487"/>
     </rdf:Description>
     
 
@@ -15993,7 +16009,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1283336 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1283336">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_77775"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1985310"/>
     </rdf:Description>
     
 
@@ -16017,7 +16033,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1283340 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1283340">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_75320"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1914019"/>
     </rdf:Description>
     
 
@@ -16105,7 +16121,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1285587 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1285587">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_686617"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29258"/>
     </rdf:Description>
     
 
@@ -16129,7 +16145,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1285590 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1285590">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_686617"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35237"/>
     </rdf:Description>
     
 
@@ -16169,7 +16185,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1285596 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1285596">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_686617"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35237"/>
     </rdf:Description>
     
 
@@ -16290,6 +16306,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1288970">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1182780"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1289471 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1289471">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_700542"/>
     </rdf:Description>
     
 
@@ -16486,6 +16510,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_129384 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_129384">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4890"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_129394 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_129394">
@@ -16601,7 +16633,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_12960 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12960">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_75787"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2008794"/>
     </rdf:Description>
     
 
@@ -17761,7 +17793,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1334193 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1334193">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_354276"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1330546"/>
     </rdf:Description>
     
 
@@ -17994,6 +18026,78 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_133926">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_133925"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1340066 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1340066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1340072 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1340072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1340096 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1340096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1340100 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1340100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1340104 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1340104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1340108 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1340108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1340109 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1340109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1340117 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1340117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1340127 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1340127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
     </rdf:Description>
     
 
@@ -18873,7 +18977,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_13641 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_13641">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33083"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2058185"/>
     </rdf:Description>
     
 
@@ -18881,7 +18985,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_13642 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_13642">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13641"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2058189"/>
     </rdf:Description>
     
 
@@ -19697,7 +19801,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_140295 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140295">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35301"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11270"/>
     </rdf:Description>
     
 
@@ -19762,6 +19866,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140458">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186814"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1405 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_86661"/>
     </rdf:Description>
     
 
@@ -20681,7 +20793,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_145579 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_145579">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10856"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1986027"/>
     </rdf:Description>
     
 
@@ -21290,6 +21402,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_147802">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1578"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_148100 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_148100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5014"/>
     </rdf:Description>
     
 
@@ -22177,7 +22297,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1505664 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1505664">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186813"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2042895"/>
     </rdf:Description>
     
 
@@ -23214,6 +23334,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1553900 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1553900">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_155493 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_155493">
@@ -23297,7 +23425,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1559979 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1559979">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -23305,7 +23433,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1559980 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1559980">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1559979"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -24601,7 +24729,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_163090 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_163090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3803"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3804"/>
     </rdf:Description>
     
 
@@ -25337,7 +25465,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1652132 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1652132">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_213481"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2024979"/>
     </rdf:Description>
     
 
@@ -26198,6 +26326,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1707744 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1707744">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_70849"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1708 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1708">
@@ -26282,14 +26418,6 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_171414">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30942"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1714266 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1714266">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
     </rdf:Description>
     
 
@@ -27278,30 +27406,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_177873 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_177873">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11019"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_177874 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_177874">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11019"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_177875 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_177875">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11019"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1779146 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1779146">
@@ -27614,6 +27718,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1803956 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1803956">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_138954"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1804 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1804">
@@ -27689,7 +27801,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_180675 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_180675">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_21880"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2026556"/>
     </rdf:Description>
     
 
@@ -27849,7 +27961,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_182210 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_182210">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_872"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2035811"/>
     </rdf:Description>
     
 
@@ -28162,6 +28274,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_183968">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28890"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_183979 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_183979">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5303"/>
     </rdf:Description>
     
 
@@ -28985,7 +29105,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_186769 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_186769">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_343865"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_343866"/>
     </rdf:Description>
     
 
@@ -30033,7 +30153,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1894 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1894">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1883"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2063"/>
     </rdf:Description>
     
 
@@ -30670,6 +30790,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1914019 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1914019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1198137"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_191410 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_191410">
@@ -30729,7 +30857,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1914302 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1914302">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1714266"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35237"/>
     </rdf:Description>
     
 
@@ -30894,14 +31022,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1921007 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1921007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1921002"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1921008 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1921008">
@@ -30922,6 +31042,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_192222">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32022"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1922327 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1922327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10662"/>
     </rdf:Description>
     
 
@@ -31097,7 +31225,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_192919 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_192919">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1340100"/>
     </rdf:Description>
     
 
@@ -31513,7 +31641,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_195054 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_195054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_376147"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -31609,7 +31737,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_195950 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_195950">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_171551"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2005525"/>
     </rdf:Description>
     
 
@@ -31745,7 +31873,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1963084 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1963084">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3803"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3804"/>
     </rdf:Description>
     
 
@@ -31753,7 +31881,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1963090 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1963090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3803"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3804"/>
     </rdf:Description>
     
 
@@ -32294,10 +32422,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1980613 -->
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1980917 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1980613">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1980410"/>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1980917">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186778"/>
     </rdf:Description>
     
 
@@ -32382,10 +32510,82 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1985285 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1985285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10662"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1985310 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1985310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1198140"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1985698 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1985698">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140295"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1985702 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1985702">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11305"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1985732 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1985732">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_477967"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1985738 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1985738">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_110456"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1986027 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1986027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10856"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_198628 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_198628">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_204038"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1987727 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1987727">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1922327"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1987993 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1987993">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1298971"/>
     </rdf:Description>
     
 
@@ -32544,6 +32744,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2003327 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2003327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40274"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2003394 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2003394">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_564644"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2003400 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2003400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_76803"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_200361 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_200361">
@@ -32576,10 +32800,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2005519 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2005519">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_171549"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2005523 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2005523">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_171549"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2005525 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2005525">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_171549"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2006 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147067"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2006134 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2006134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_680114"/>
     </rdf:Description>
     
 
@@ -32640,6 +32896,46 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2008785 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2008785">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2008790 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2008790">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32003"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2008793 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2008793">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32003"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2008794 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2008794">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206389"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2008795 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2008795">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206389"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_200918 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_200918">
@@ -32688,6 +32984,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2011082 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2011082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1977138"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_201174 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_201174">
@@ -32720,10 +33024,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2014984 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2014984">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29607"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2016 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2070"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2017756 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2017756">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10486"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2017757 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2017757">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10486"/>
     </rdf:Description>
     
 
@@ -32760,10 +33088,74 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2022738 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2022738">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35237"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2022739 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2022739">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2022738"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2024539 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2024539">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1489922"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2024743 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2024743">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8511"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2024747 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2024747">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8511"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2024979 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2024979">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1553900"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_202566 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_202566">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_310684"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2026555 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2026555">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_21880"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2026556 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2026556">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2026555"/>
     </rdf:Description>
     
 
@@ -32780,6 +33172,38 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_202747">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_202746"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2028206 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2028206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5303"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2028214 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2028214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5303"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2028216 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2028216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5303"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2028217 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2028217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5303"/>
     </rdf:Description>
     
 
@@ -32896,6 +33320,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2033035 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2033035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37989"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2034 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2034">
@@ -32972,6 +33404,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2034"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2035811 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2035811">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_194924"/>
     </rdf:Description>
     
 
@@ -33072,6 +33512,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2039240 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2039240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186803"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_203991 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_203991">
@@ -33083,7 +33531,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_203992 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_203992">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203991"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4614"/>
     </rdf:Description>
     
 
@@ -33139,7 +33587,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_204122 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_204122">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216719"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2045300"/>
     </rdf:Description>
     
 
@@ -33147,7 +33595,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_204129 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_204129">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_204122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2045129"/>
     </rdf:Description>
     
 
@@ -33155,7 +33603,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_204270 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_204270">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_477967"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1985732"/>
     </rdf:Description>
     
 
@@ -33164,6 +33612,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_204285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_113631"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2042895 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2042895">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1737405"/>
     </rdf:Description>
     
 
@@ -33272,10 +33728,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2044973 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2044973">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_119089"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2045 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2044"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2045129 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2045129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2045300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2045261 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2045261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2806"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2045300 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2045300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216719"/>
     </rdf:Description>
     
 
@@ -33392,6 +33880,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2055880 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2055880">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_543"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_205592 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_205592">
@@ -33408,10 +33904,98 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2056687 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2056687">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_72273"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2056754 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2056754">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2056776 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2056776">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2056899 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2056899">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_54968"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2057 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2056"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2058181 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2058181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33083"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2058183 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2058183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2058181"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2058184 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2058184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2058181"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2058185 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2058185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2058949"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2058187 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2058187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2058184"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2058189 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2058189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2058183"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2058669 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2058669">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
     </rdf:Description>
     
 
@@ -33427,7 +34011,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_205877 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_205877">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1133560"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2006134"/>
     </rdf:Description>
     
 
@@ -33436,6 +34020,22 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_205879">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1623292"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2058935 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2058935">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1232680"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2058949 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2058949">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33083"/>
     </rdf:Description>
     
 
@@ -33555,7 +34155,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_206350 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_206350">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -33592,6 +34192,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2065118 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2065118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1639"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2066 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2066">
@@ -33600,10 +34208,50 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2066070 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2066070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68287"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_206672 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_206672">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216816"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2068716 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2068716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8830"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2068719 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2068719">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8830"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2068721 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2068721">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8830"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2068722 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2068722">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8830"/>
     </rdf:Description>
     
 
@@ -33636,6 +34284,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_207245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2072716 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2072716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6274"/>
     </rdf:Description>
     
 
@@ -33676,6 +34332,30 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_208216">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_208215"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2082208 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2082208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2082223 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2082223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2082224 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2082224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2082223"/>
     </rdf:Description>
     
 
@@ -33872,6 +34552,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2094023 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2094023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_712"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2094303 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2094303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1218487"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2095 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2095">
@@ -34008,6 +34704,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2100208 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2100208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1921002"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2100211 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2100211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2100208"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_21019 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_21019">
@@ -34131,7 +34843,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_211401 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_211401">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_114861"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2044973"/>
     </rdf:Description>
     
 
@@ -34419,7 +35131,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_213481 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_213481">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28221"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1553900"/>
     </rdf:Description>
     
 
@@ -34908,7 +35620,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_216351 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_216351">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_70850"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1707744"/>
     </rdf:Description>
     
 
@@ -35676,7 +36388,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_221102 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_221102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_654221"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_654128"/>
     </rdf:Description>
     
 
@@ -36572,7 +37284,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_227307 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_227307">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39724"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_687329"/>
     </rdf:Description>
     
 
@@ -37900,7 +38612,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_240292 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_240292">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_264691"/>
     </rdf:Description>
     
 
@@ -38348,7 +39060,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_244581 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_244581">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28905"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2100211"/>
     </rdf:Description>
     
 
@@ -39148,7 +39860,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_257327 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_257327">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1340104"/>
     </rdf:Description>
     
 
@@ -39156,7 +39868,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_257335 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_257335">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1340104"/>
     </rdf:Description>
     
 
@@ -39164,7 +39876,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_257347 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_257347">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1340072"/>
     </rdf:Description>
     
 
@@ -39436,7 +40148,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_261658 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_261658">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5782"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2058187"/>
     </rdf:Description>
     
 
@@ -39673,6 +40385,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_264691 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_264691">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_264688"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_264729 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_264729">
@@ -39788,7 +40508,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_265669 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_265669">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1639"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2065118"/>
     </rdf:Description>
     
 
@@ -39884,7 +40604,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_266835 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_266835">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_381"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2066070"/>
     </rdf:Description>
     
 
@@ -41524,7 +42244,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_28017 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2806"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2045261"/>
     </rdf:Description>
     
 
@@ -41532,7 +42252,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2802 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2802">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2806"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2045261"/>
     </rdf:Description>
     
 
@@ -42292,7 +43012,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_28376 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28376">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_81957"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2024747"/>
     </rdf:Description>
     
 
@@ -42340,7 +43060,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_28446 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28446">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1506577"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2039240"/>
     </rdf:Description>
     
 
@@ -42865,6 +43585,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_28884 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28884">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_135616"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_28889 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28889">
@@ -42924,7 +43652,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_28905 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28905">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1921007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2056687"/>
     </rdf:Description>
     
 
@@ -43076,7 +43804,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_29006 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_451456"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_451455"/>
     </rdf:Description>
     
 
@@ -45228,7 +45956,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_30384 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_30384">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8830"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2068721"/>
     </rdf:Description>
     
 
@@ -45365,6 +46093,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_304371">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_570267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_304399 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_304399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_573055"/>
     </rdf:Description>
     
 
@@ -45708,7 +46444,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_305674 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_305674">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_573057"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_304399"/>
     </rdf:Description>
     
 
@@ -46108,7 +46844,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_30850 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_30850">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1489923"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2024539"/>
     </rdf:Description>
     
 
@@ -46180,7 +46916,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_308906 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_308906">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10486"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2017756"/>
     </rdf:Description>
     
 
@@ -46580,7 +47316,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_310748 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_310748">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_564644"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -46604,7 +47340,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_310894 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_310894">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37939"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_148100"/>
     </rdf:Description>
     
 
@@ -46740,7 +47476,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_311413 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_311413">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_140295"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -47284,7 +48020,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_31468 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_31468">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2806"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2045261"/>
     </rdf:Description>
     
 
@@ -47444,7 +48180,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_315730 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_315730">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_86662"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1405"/>
     </rdf:Description>
     
 
@@ -48052,7 +48788,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_319348 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_319348">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_54968"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2056899"/>
     </rdf:Description>
     
 
@@ -48092,7 +48828,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_31964 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_31964">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28447"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1573"/>
     </rdf:Description>
     
 
@@ -48220,7 +48956,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_32011 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206350"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32003"/>
     </rdf:Description>
     
 
@@ -49284,7 +50020,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_32612 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32612">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11305"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1985702"/>
     </rdf:Description>
     
 
@@ -49548,7 +50284,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3287 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3287">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29607"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2014984"/>
     </rdf:Description>
     
 
@@ -49764,7 +50500,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33057 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_75787"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2008794"/>
     </rdf:Description>
     
 
@@ -50213,7 +50949,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33253 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33253">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_55746"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2082224"/>
     </rdf:Description>
     
 
@@ -52610,6 +53346,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_343866 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_343866">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186768"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_34392 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34392">
@@ -52925,7 +53669,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_346096 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_346096">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_171551"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2005523"/>
     </rdf:Description>
     
 
@@ -53941,7 +54685,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_351660 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_351660">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1340127"/>
     </rdf:Description>
     
 
@@ -55693,7 +56437,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_362693 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_362693">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_310748"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2003394"/>
     </rdf:Description>
     
 
@@ -56949,7 +57693,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_37124 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37124">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_177875"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11019"/>
     </rdf:Description>
     
 
@@ -57490,6 +58234,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_375192 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_375192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28875"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_37526 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37526">
@@ -57509,7 +58261,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_375288 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_375288">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_171551"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2005525"/>
     </rdf:Description>
     
 
@@ -57706,18 +58458,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_376147 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_376147">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_138954"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_376148 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_376148">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_195054"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1803956"/>
     </rdf:Description>
     
 
@@ -58002,6 +58746,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_37839 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37839">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5014"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_37849 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37849">
@@ -58141,7 +58893,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_37939 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37939">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5014"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -58405,7 +59157,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3807 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3807">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3803"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3804"/>
     </rdf:Description>
     
 
@@ -59773,7 +60525,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_39085 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39085">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_195054"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1803956"/>
     </rdf:Description>
     
 
@@ -60717,7 +61469,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_39759 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39759">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_35301"/>
     </rdf:Description>
     
 
@@ -60733,7 +61485,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_39765 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39765">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_933"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28884"/>
     </rdf:Description>
     
 
@@ -60797,7 +61549,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_397864 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_397864">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_171551"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2005519"/>
     </rdf:Description>
     
 
@@ -64317,7 +65069,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_42308 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_42308">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_37990"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2033035"/>
     </rdf:Description>
     
 
@@ -64509,7 +65261,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_42425 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_42425">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8515"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2024743"/>
     </rdf:Description>
     
 
@@ -64949,7 +65701,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_42752 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_42752">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2056754"/>
     </rdf:Description>
     
 
@@ -65021,7 +65773,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_42822 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_42822">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_86626"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6103"/>
     </rdf:Description>
     
 
@@ -66357,7 +67109,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_44014 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_44014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_576610"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -66541,7 +67293,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_442493 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_442493">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1232680"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2058935"/>
     </rdf:Description>
     
 
@@ -67413,7 +68165,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_451455 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_451455">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4761"/>
     </rdf:Description>
     
 
@@ -67421,7 +68173,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_451456 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_451456">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_451455"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -67677,7 +68429,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_452638 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_452638">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_44014"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_576610"/>
     </rdf:Description>
     
 
@@ -68574,6 +69326,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4613">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_38820"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_4614 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1909378"/>
     </rdf:Description>
     
 
@@ -70119,7 +70879,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_477693 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_477693">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2273"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -71311,7 +72071,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_490899 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_490899">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_477693"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_94694"/>
     </rdf:Description>
     
 
@@ -72991,7 +73751,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5135 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5135">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147551"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_222544"/>
     </rdf:Description>
     
 
@@ -74239,7 +74999,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_530042 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_530042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_185880"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1285589"/>
     </rdf:Description>
     
 
@@ -74295,7 +75055,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5313 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5313">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5303"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -74303,7 +75063,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5314 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5314">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5313"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5317"/>
     </rdf:Description>
     
 
@@ -74383,7 +75143,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5324 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5324">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_83233"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5317"/>
     </rdf:Description>
     
 
@@ -74719,7 +75479,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5357 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5357">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_83234"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5317"/>
     </rdf:Description>
     
 
@@ -76391,7 +77151,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5538 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5538">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147548"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_221903"/>
     </rdf:Description>
     
 
@@ -76423,7 +77183,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_55423 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_55423">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1340066"/>
     </rdf:Description>
     
 
@@ -76735,7 +77495,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_55745 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_55745">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6236"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2082208"/>
     </rdf:Description>
     
 
@@ -76743,7 +77503,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_55746 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_55746">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6236"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2082223"/>
     </rdf:Description>
     
 
@@ -77215,7 +77975,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5626 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5626">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5332"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2028216"/>
     </rdf:Description>
     
 
@@ -77647,7 +78407,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_566 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_566">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_561"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2055880"/>
     </rdf:Description>
     
 
@@ -77911,7 +78671,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_568819 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_568819">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1639"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2065118"/>
     </rdf:Description>
     
 
@@ -78911,7 +79671,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5782 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5782">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33083"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2058185"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000022"/>
     </rdf:Description>
     
@@ -80592,7 +81352,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_599838 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_599838">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5317"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_183979"/>
     </rdf:Description>
     
 
@@ -81176,7 +81936,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_61198 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_61198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1340108"/>
     </rdf:Description>
     
 
@@ -82152,7 +82912,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_6295 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6295">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6274"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2072716"/>
     </rdf:Description>
     
 
@@ -83888,7 +84648,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_6492 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6492">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1340109"/>
     </rdf:Description>
     
 
@@ -84600,7 +85360,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_652962 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_652962">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_311413"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1985698"/>
     </rdf:Description>
     
 
@@ -84728,7 +85488,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_654221 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_654221">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_654128"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -89645,6 +90405,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_700542 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_700542">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1232738"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_700598 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_700598">
@@ -90133,14 +90901,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_70850 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_70850">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_70849"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_70851 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_70851">
@@ -90584,7 +91344,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_713636 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_713636">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28216"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -90696,7 +91456,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_71481 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_71481">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_76176"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1707744"/>
     </rdf:Description>
     
 
@@ -91952,7 +92712,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_73029 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_73029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_75787"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2008795"/>
     </rdf:Description>
     
 
@@ -92184,7 +92944,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_738 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_738">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_724"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2094023"/>
     </rdf:Description>
     
 
@@ -93040,7 +93800,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_75320 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_75320">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1198137"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1914019"/>
     </rdf:Description>
     
 
@@ -93368,7 +94128,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_75872 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_75872">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8830"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2068716"/>
     </rdf:Description>
     
 
@@ -93633,14 +94393,6 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7612">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7610"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_76176 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_76176">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_70849"/>
     </rdf:Description>
     
 
@@ -94818,7 +95570,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_77775 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_77775">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1198140"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1985310"/>
     </rdf:Description>
     
 
@@ -97194,7 +97946,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_81957 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_81957">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8515"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8511"/>
     </rdf:Description>
     
 
@@ -97858,7 +98610,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_83233 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_83233">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5303"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -97866,7 +98618,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_83234 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_83234">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5303"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -97874,7 +98626,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_83235 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_83235">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_83233"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2028214"/>
     </rdf:Description>
     
 
@@ -100530,7 +101282,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_867696 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_867696">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1298971"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -101098,7 +101850,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_875328 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_875328">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1763"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1073531"/>
     </rdf:Description>
     
 
@@ -101362,7 +102114,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_879567 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_879567">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_872"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2035811"/>
     </rdf:Description>
     
 
@@ -101770,7 +102522,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8835 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8835">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8830"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2068716"/>
     </rdf:Description>
     
 
@@ -101802,7 +102554,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8842 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8842">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8830"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2068722"/>
     </rdf:Description>
     
 
@@ -101890,7 +102642,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8854 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8854">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8830"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2068716"/>
     </rdf:Description>
     
 
@@ -102010,7 +102762,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_8886 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8886">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8830"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2068719"/>
     </rdf:Description>
     
 
@@ -102306,7 +103058,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_89445 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_89445">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2056776"/>
     </rdf:Description>
     
 
@@ -102610,7 +103362,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_90311 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_90311">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5317"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2028206"/>
     </rdf:Description>
     
 
@@ -102778,7 +103530,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_90627 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_90627">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_713636"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32003"/>
     </rdf:Description>
     
 
@@ -103362,7 +104114,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_919 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_919">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_206349"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2008790"/>
     </rdf:Description>
     
 
@@ -103530,7 +104282,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_92244 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_92244">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_135616"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -103538,7 +104290,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_92245 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_92245">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_92244"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_933"/>
     </rdf:Description>
     
 
@@ -103626,7 +104378,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9241 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9241">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8825"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
     
 
@@ -103634,7 +104386,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9242 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9242">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9241"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_8892"/>
     </rdf:Description>
     
 
@@ -104330,7 +105082,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_93154 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_93154">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6490"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1340117"/>
     </rdf:Description>
     
 
@@ -104554,7 +105306,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_935200 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_935200">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1559980"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_90627"/>
     </rdf:Description>
     
 
@@ -105467,6 +106219,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9469">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9461"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_94694 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_94694">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2273"/>
     </rdf:Description>
     
 
@@ -108074,7 +108834,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_98757 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_98757">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_83233"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2028217"/>
     </rdf:Description>
     
 
