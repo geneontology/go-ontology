@@ -1,19 +1,25 @@
 id: goslim_yeast
 title: Yeast slim
 type: 
-status: pending contact
+status: active
 description: "Saccharomyces cerevisiae GO slim"
 seeAlso: 
 taxon:
-  id: 
+  id:NCBITaxon:559292
   label: Saccharomyces cerevisiae
 contact: 
-  email: 
-  label: 
+  email: sgd-helpdesk@lists.stanford.edu
+  label: SGD helpdesk
   github:
-tracker: 
+tracker: https://github.com/geneontology/go-ontology/issues
 contributors:
-  - email: 
-    label:
+  - email: stacia@stanford.edu
+    label: Stacia Engel
     orcid:  
-    github: 
+    github: srengel 
+  - email: suzia@stanford.edu
+    label: Suzi Alexander
+    orcid:  
+    github: suzialeksander
+
+
