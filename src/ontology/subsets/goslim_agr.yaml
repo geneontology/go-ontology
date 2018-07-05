@@ -8,13 +8,12 @@ taxon:
   id: NCBITaxon:33154
   label: Opisthokonta
 contact: 
-  email: Mary.Dolan@jax.org
-  label: Mary Dolan
+  email: go-ontology@lists.stanford.edu
+  label: GO Ontology Curators
   github:
 tracker: https://github.com/geneontology/go-ontology/issues
 contributors:
-  - email: 
-    label:
+  - email: Mary.Dolan@jax.org
+    label: Mary Dolan
     orcid:  
     github: 
-
