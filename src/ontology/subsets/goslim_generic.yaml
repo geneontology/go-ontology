@@ -10,9 +10,9 @@ taxon:
 contact:
   email: go-ontology@lists.stanford.edu
   label: GO Ontology Curators
-  github: 
-tracker: https://github.com/geneontology/go-ontology/issues
-contributors:
+github: 
+ tracker: https://github.com/geneontology/go-ontology/issues
+ contributors:
   - email: vw253@cam.ac.uk
     label: Val Wood
     orcid: http://orcid.org/0000-0001-6330-7526

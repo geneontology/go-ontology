@@ -1,8 +1,8 @@
 id: termgenie_unvetted
 title: Term Genie terms to be reviewed
 type: 
-status: pending confirmation
-description: "Term Genie terms to be reviewed"
+status: obsolete
+description: "Term Genie terms to be reviewed."
 seeAlso: 
 taxon:
   id: 
@@ -10,9 +10,9 @@ taxon:
 contact: 
   email: go-ontology@lists.stanford.edu
   label: GO Ontology Curators
-  github:
-tracker: https://github.com/geneontology/go-ontology/issues 
-contributors:
+github:
+ tracker: https://github.com/geneontology/go-ontology/issues
+ contributors:
   - email: 
     label:
     orcid:  

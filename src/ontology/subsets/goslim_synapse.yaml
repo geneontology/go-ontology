@@ -10,11 +10,15 @@ taxon:
 contact:
   email: 
   label: Frank Koopmans
-  github: ftwkoopmans
-tracker: https://github.com/geneontology/go-ontology/issues
-contributors:
-  - email: todo
+github: ftwkoopmans
+ tracker: https://github.com/geneontology/go-ontology/issues
+ contributors:
+  - email: 
     label: Pim van Nierop
+    orcid: 
+    github: Pimmelorus
+  - email: frank.koopmans@vu.nl
+    label: Frank Koopmans
     orcid: 
     github: Pimmelorus
 

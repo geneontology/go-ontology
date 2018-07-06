@@ -10,9 +10,9 @@ taxon:
   contact: 
   email: candida-curator@lists.stanford.edu
   label: CDG helpdesk
-  github:
-tracker: 
-contributors:
+github: https://github.com/geneontology/go-ontology/issues
+ tracker: 
+ contributors:
   - email: mareks@stanford.edu
     label: Marek Skrzypek
     orcid:  

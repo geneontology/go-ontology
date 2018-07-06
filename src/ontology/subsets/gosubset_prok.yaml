@@ -10,9 +10,9 @@ taxon:
 contact: 
   email: go-ontology@lists.stanford.edu
   label: GO Ontology Curators
-  github:
-tracker: 
-contributors:
+github:
+ tracker: https://github.com/geneontology/go-ontology/issues
+ contributors:
   - email: 
     label:
     orcid:  

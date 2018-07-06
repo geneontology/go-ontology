@@ -10,9 +10,9 @@ taxon:
 contact: 
   email: 
   label: 
-  github:
-tracker: 
-contributors:
+github:
+ tracker: 
+ contributors:
   - email: 
     label:
     orcid:  

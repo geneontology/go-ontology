@@ -1,7 +1,7 @@
 id: goslim_goa
 title: GOA slim
 type: 
-status: pending contact
+status: obsolete
 description: ""
 seeAlso: 
 taxon:
@@ -10,9 +10,9 @@ taxon:
 contact: 
   email: 
   label: 
-  github:
-tracker: 
-contributors:
+github:
+ tracker: 
+ contributors:
   - email: 
     label:
     orcid:  

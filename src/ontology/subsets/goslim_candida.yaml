@@ -2,7 +2,7 @@ id: goslim_candida
 title: Candida slim
 type: 
 status: active
-description: "Candida GO slim"
+description: "Candida GO slim."
 seeAlso: 
 taxon: 
   id: NCBITaxon:1535326
@@ -10,9 +10,9 @@ taxon:
 contact: 
   email: candida-curator@lists.stanford.edu
   label: CGD helpdesk
-  github:
-tracker: 
-contributors:
+github:
+ tracker: https://github.com/geneontology/go-ontology/issues
+ contributors:
   - email: mareks@stanford.edu
     label: Marek Skrzypek
     orcid:  
