@@ -5,7 +5,7 @@ status: active
 description: "Saccharomyces cerevisiae GO slim"
 seeAlso: 
 taxon:
-  id:NCBITaxon:559292
+  id: NCBITaxon:559292
   label: Saccharomyces cerevisiae
 contact: 
   email: sgd-helpdesk@lists.stanford.edu
