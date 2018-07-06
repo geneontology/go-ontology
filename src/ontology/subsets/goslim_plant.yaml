@@ -1,0 +1,19 @@
+id: goslim_plant
+title: Plant slim
+type: 
+status: active
+description: "Plan GO slim."
+seeAlso: 
+taxon: 
+  id: NCBITaxon:33090
+  label: Viridiplantae
+contact: 
+  email: 
+  label: 
+github:
+ tracker: https://github.com/geneontology/go-ontology/issues
+ contributors:
+  - email: 
+    label:
+    orcid:  
+    github: 

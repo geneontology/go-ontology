@@ -1,0 +1,19 @@
+id: mf_needs_review
+title: MF terms to be reviewed
+type: 
+status: pending confirmation
+description: "MF terms to be reviewed."
+seeAlso: 
+taxon:
+  id: 
+  label: 
+contact: 
+  email: go-ontology@lists.stanford.edu
+  label: GO Ontology Curators
+github:
+tracker: https://github.com/geneontology/go-ontology/issues
+contributors:
+  - email: 
+    label:
+    orcid:  
+    github: 
