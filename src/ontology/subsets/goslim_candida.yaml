@@ -1,19 +1,20 @@
 id: goslim_candida
 title: Candida slim
 type: 
-status: pending contact
-description: ""
+status: active
+description: "Candida GO slim"
 seeAlso: 
-taxon:
-  id: 
-  label: 
+taxon: 
+  id: NCBITaxon:1535326
+  label: Candida
 contact: 
-  email: 
-  label: 
+  email: candida-curator@lists.stanford.edu
+  label: CGD helpdesk
   github:
 tracker: 
 contributors:
-  - email: 
-    label:
+  - email: mareks@stanford.edu
+    label: Marek Skrzypek
     orcid:  
-    github: 
+    github: marekskrzypek
+    
