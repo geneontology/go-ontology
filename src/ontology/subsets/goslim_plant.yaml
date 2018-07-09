@@ -8,12 +8,12 @@ taxon:
   id: NCBITaxon:33090
   label: Viridiplantae
 contact: 
-  email: 
-  label: 
+  email: curator@arabidopsis.org
+  label: TAIR helpdesk
 github:
  tracker: https://github.com/geneontology/go-ontology/issues
  contributors:
-  - email: 
-    label:
-    orcid:  
-    github: 
+  - email: tberardi@arabidopsis.org
+    label: Tanya Berardini
+    orcid: http://orcid.org/0000-0002-3837-8864
+    github: tberardini
