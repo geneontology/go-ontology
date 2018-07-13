@@ -2,18 +2,30 @@ id: goslim_synapse
 title: synapse GO slim
 type: binning_slim
 status: active
-description: "Synapse go slim provided by SynGO. This is the subset that is available for annotation in the SynGO tool."
+description: "Synapse GO slim provided by SynGO. This is the subset that is available for annotation in the SynGO tool."
 seeAlso: 
 taxon:
-  id: 
+  id: NCBITaxon:9606
+  label: Homo sapiens
+  id: NCBITaxon:10090
   label: Mus musculus
+  id: NCBITaxon:10116
+  label: Rattus norvegicus
+  id: NCBITaxon:7227
+  label: Drosophila melanogaster
+  id: NCBITaxon:6239
+  label: Caenorhabditis elegans
+  id: NCBITaxon:7955
+  label: Danio rerio
 contact:
-  email: 
-  label: Frank Koopmans
-github: ftwkoopmans
- tracker: https://github.com/geneontology/go-ontology/issues
+ - email: pim.van.nierop@gmail.com
+   label: Pim van Nierop
+ - email: frank.koopmans@vu.nl
+   label: Frank Koopmans
+github: 
+ tracker: https://github.com/geneontology/synapse/issues
  contributors:
-  - email: 
+  - email: pim.van.nierop@gmail.com
     label: Pim van Nierop
     orcid: http://orcid.org/0000-0003-0593-3443
     github: Pimmelorus
