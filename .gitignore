@@ -40,3 +40,4 @@ target/
 # Mac specific weirdness
 .DS_Store
 src/.DS_Store
+src/ontology/imports/catalog-v001.xml
