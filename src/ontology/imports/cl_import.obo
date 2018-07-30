@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2018-05-21/imports/cl_import.owl
+data-version: go/releases/2018-07-30/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -591,6 +591,12 @@ def: "A pigment cell derived from the neural crest. Contains melanin-filled pigm
 synonym: "melanophore" NARROW []
 is_a: CL:0000147 ! pigment cell
 is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0000149
+name: visual pigment cell
+synonym: "pigment cell" BROAD []
+is_a: CL:0000147 ! pigment cell
 
 [Term]
 id: CL:0000150
@@ -1196,6 +1202,11 @@ name: migratory neural crest cell
 def: "A cell derived from the specialized ectoderm flanking each side of the embryonic neural plate, which after the closure of the neural tube, forms masses of cells that migrate out from the dorsal aspect of the neural tube to spread throughout the body." []
 is_a: CL:0000219 ! motile cell
 is_a: CL:0011012 ! neural crest cell
+
+[Term]
+id: CL:0000341
+name: pigment cell (sensu Nematoda and Protostomia)
+is_a: CL:0000147 ! pigment cell
 
 [Term]
 id: CL:0000349
@@ -2934,6 +2945,17 @@ synonym: "activated CD4-positive, alpha-beta T-lymphocyte" EXACT []
 is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
 
 [Term]
+id: CL:0000897
+name: CD4-positive, alpha-beta memory T cell
+def: "CD4-positive, alpha-beta long-lived T cell with the phenotype CD45RO-positive and CD127-positive. This cell type is also described as being CD25-negative, CD44-high, and CD122-high." []
+synonym: "CD4-positive, alpha-beta memory T lymphocyte" EXACT []
+synonym: "CD4-positive, alpha-beta memory T-cell" EXACT []
+synonym: "CD4-positive, alpha-beta memory T-lymphocyte" EXACT []
+synonym: "T4.Mem.Sp" RELATED []
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+is_a: CL:0000813 ! memory T cell
+
+[Term]
 id: CL:0000899
 name: T-helper 17 cell
 def: "CD4-positive, alpha-beta T cell with the phenotype RORgamma-t-positive, CXCR3-negative, CCR6-positive, and capable of producing IL-17." []
@@ -3048,6 +3070,17 @@ def: "A connective tissue cell found in bone." []
 is_a: CL:0000548 ! animal cell
 
 [Term]
+id: CL:0001044
+name: effector CD4-positive, alpha-beta T cell
+def: "A CD4-positive, alpha-beta T cell with the phenotype CCR7-negative, CD45RA-positive." []
+synonym: "effector CD4+ T cell" BROAD []
+synonym: "effector CD4-positive, alpha-beta T lymphocyte" EXACT []
+synonym: "effector CD4-positive, alpha-beta T-cell" EXACT []
+synonym: "effector CD4-positive, alpha-beta T-lymphocyte" EXACT []
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+is_a: CL:0000911 ! effector T cell
+
+[Term]
 id: CL:0001051
 name: CD4-positive, CXCR3-negative, CCR6-negative, alpha-beta T cell
 def: "A CD4-positive, alpha-beta T cell that has the phenotype CXCR3-negative, CCR6-negative." []
@@ -3068,6 +3101,12 @@ id: CL:0001067
 name: group 1 innate lymphoid cell
 def: "An innate lymphoid cell that is capable of producing the type 1 cytokine IFN-gamma, but not Th2 or Th17 cell-associated cytokines." []
 is_a: CL:0001065 ! innate lymphoid cell
+
+[Term]
+id: CL:0001658
+name: visual pigment cell (sensu Nematoda and Protostomia)
+is_a: CL:0000149 ! visual pigment cell
+is_a: CL:0000341 ! pigment cell (sensu Nematoda and Protostomia)
 
 [Term]
 id: CL:0002031

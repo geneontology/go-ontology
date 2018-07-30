@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2018-07-02/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2018-07-30/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -1108,6 +1108,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000147"/>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pigment cell</oboInOwl:hasBroadSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual pigment cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000150">
@@ -2041,6 +2051,15 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011012"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell derived from the specialized ectoderm flanking each side of the embryonic neural plate, which after the closure of the neural tube, forms masses of cells that migrate out from the dorsal aspect of the neural tube to spread throughout the body.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">migratory neural crest cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000147"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pigment cell (sensu Nematoda and Protostomia)</rdfs:label>
     </owl:Class>
     
 
@@ -4855,6 +4874,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001065"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An innate lymphoid cell that is capable of producing the type 1 cytokine IFN-gamma, but not Th2 or Th17 cell-associated cytokines.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">group 1 innate lymphoid cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0001658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0001658">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000149"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000341"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual pigment cell (sensu Nematoda and Protostomia)</rdfs:label>
     </owl:Class>
     
 
