@@ -69,12 +69,15 @@ REPORTDIR = $(RELEASEDIR)/reports
 
 stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl go-basic.obo go-basic.json.gz subset-reports generate-mappings
 
-test: $(SRC)-check sparql_test change-report.txt reasoned.owl
+test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable
 
 # note: until we go live, the travis test must omit change-report. This is because as a demo repo,
 # we naturally fall behind the actual live PURL. **DELETE THIS TARGET WHEN WE GO LIVE**
 #travis_test: $(SRC)-check sparql_test reasoned.owl
 travis_test: reasoned.owl $(SRC)-check sparql_test change-report.txt all_reports
+
+unsatisfiable: extensions/go-gaf.owl
+	robot reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
 
 full_test: test $(ONT).obo
 
