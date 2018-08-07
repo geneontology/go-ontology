@@ -21,13 +21,13 @@ RELEASEDIR=../../target
 RELEASEDIR_IMPORTS=$(RELEASEDIR)/imports
 
 # ROBOT is the main release release tool
-ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx2G
+ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
 ROBOT= $(ROBOT_ENV) robot
 
 # OWLTools is a swiss-army knife;
 # It does some things robot can't do, but eventually functionality should
 # move to robot
-OWLTOOLS_ENV = OWLTOOLS_MEMORY=2G
+OWLTOOLS_ENV = OWLTOOLS_MEMORY=8G
 OWLTOOLS= $(OWLTOOLS_ENV) owltools
 
 # Oort build dir;
