@@ -4,6 +4,8 @@ all: stage_release
 # CORE VARIABLES
 # ----------------------------------------
 
+# This is a trivial change
+
 # base URI for all OBO library ontologies
 OBO=http://purl.obolibrary.org/obo
 
