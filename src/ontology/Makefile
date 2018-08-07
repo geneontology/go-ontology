@@ -22,13 +22,13 @@ RELEASEDIR_IMPORTS=$(RELEASEDIR)/imports
 
 # ROBOT is the main release release tool
 ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
-ROBOT= $(ROBOT_ENV) robot
+ROBOT = $(ROBOT_ENV) robot
 
 # OWLTools is a swiss-army knife;
 # It does some things robot can't do, but eventually functionality should
 # move to robot
 OWLTOOLS_ENV = OWLTOOLS_MEMORY=8G
-OWLTOOLS= $(OWLTOOLS_ENV) owltools
+OWLTOOLS = $(OWLTOOLS_ENV) owltools
 
 # Oort build dir;
 # This also should be replaced by robot
@@ -77,7 +77,7 @@ test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable
 travis_test: reasoned.owl $(SRC)-check sparql_test change-report.txt all_reports
 
 unsatisfiable: extensions/go-gaf.owl
-	$(robot) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
+	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
 
 full_test: test $(ONT).obo
 
@@ -385,7 +385,7 @@ imports/substance_by_role.obo: role.obo
 	../util/make-substance-by-role.pl -s 'role' -r $(HAS_ROLE) $< > $@.tmp && mv $@.tmp $@
 
 imports/substance_by_role.owl: imports/substance_by_role.obo
-	$(robot) convert -i $< -o $@
+	$(ROBOT) convert -i $< -o $@
 
 
 # ----------------------------------------
@@ -419,13 +419,13 @@ VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-l
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
 sparql_test: $(SRC) reasoned.owl
-	$(robot) verify --input $< --queries $(VARGS) -O reports/
-	$(robot) verify --input reasoned.owl --queries ../sparql/multiple-class-links-violation.sparql -O reports/
-	$(robot) merge --input $< verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
+	$(ROBOT) verify --input $< --queries $(VARGS) -O reports/
+	$(ROBOT) verify --input reasoned.owl --queries ../sparql/multiple-class-links-violation.sparql -O reports/
+	$(ROBOT) merge --input $< verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
-	$(robot) query -i $< -s $(SPARQLDIR)/$*-violation.sparql $@
+	$(ROBOT) query -i $< -s $(SPARQLDIR)/$*-violation.sparql $@
 
 # ----------------------------------------
 # REPORTS
@@ -435,7 +435,7 @@ reports/%-violation.csv: $(SRC)
 REPORTS = owl-stats basic-report class-count-by-prefix edges labels xrefs obsoletes synonyms
 REPORT_ARGS = $(foreach V,$(REPORTS),-s $(SPARQLDIR)/$V.sparql reports/$V.tsv)
 all_reports: go.owl
-	$(robot) query -f tsv -i $< $(REPORT_ARGS)
+	$(ROBOT) query -f tsv -i $< $(REPORT_ARGS)
 
 #all_src_reports: $(patsubst %,reports/src-%.tsv,$(REPORTS))
 
