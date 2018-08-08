@@ -1,9 +1,8 @@
 id: mf_needs_review
 title: MF terms to be reviewed
 type: 
-status: pending confirmation
-description: "MF terms to be reviewed."
-seeAlso: 
+status: obsolete
+description: "MF terms to be reviewed. Terms reviewed in 2018, see https://github.com/geneontology/go-ontology/issues/16166. Archived .obo file can be found at http://release.geneontology.org/2018-07-02/ontology/subsets/mf_needs_review.obo".
 taxon:
   id: 
   label: 
