@@ -21,14 +21,14 @@ RELEASEDIR=../../target
 RELEASEDIR_IMPORTS=$(RELEASEDIR)/imports
 
 # ROBOT is the main release release tool
-ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx12G
-ROBOT= $(ROBOT_ENV) robot
+ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
+ROBOT = $(ROBOT_ENV) robot
 
 # OWLTools is a swiss-army knife;
 # It does some things robot can't do, but eventually functionality should
 # move to robot
 OWLTOOLS_ENV = OWLTOOLS_MEMORY=8G
-OWLTOOLS= $(OWLTOOLS_ENV) owltools
+OWLTOOLS = $(OWLTOOLS_ENV) owltools
 
 # Oort build dir;
 # This also should be replaced by robot
@@ -77,7 +77,7 @@ test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable
 travis_test: reasoned.owl $(SRC)-check sparql_test change-report.txt all_reports
 
 unsatisfiable: extensions/go-gaf.owl
-	robot reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
+	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
 
 full_test: test $(ONT).obo
 
@@ -192,7 +192,7 @@ go-base.owl: enhanced.owl
 # go.obo is a simplified; we use oort to remove imports etc
 
 $(ONT)-pre.obo: reasoned.owl
-	owltools $(USECAT) $< --remove-imports-declarations --remove-dangling --make-subset-by-properties $(GO_MAIN_RELATIONS) --set-ontology-id $(OBO)/go.owl -o -f obo $@.tmp && egrep -v '(property_value|relationship): never_in_taxon' $@.tmp > $@
+	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations --remove-dangling --make-subset-by-properties $(GO_MAIN_RELATIONS) --set-ontology-id $(OBO)/go.owl -o -f obo $@.tmp && egrep -v '(property_value|relationship): never_in_taxon' $@.tmp > $@
 
 $(ONT)-pre-reduced.obo: $(ONT)-pre.obo
 	$(ROBOT) reduce -r elk -i $< -o $@
@@ -217,7 +217,7 @@ go.owl: $(ONT).obo
 
 # remove non-basic relationship types (e.g. has_part)
 go-simple-filtered.obo: go-simple.obo
-	owltools $< --make-subset-by-properties $(GO_BASIC_RELATIONS) // -o -f obo $@
+	$(OWLTOOLS) $< --make-subset-by-properties $(GO_BASIC_RELATIONS) // -o -f obo $@
 
 go-simple-filtered-reduced.obo: go-simple-filtered.obo
 	$(ROBOT) reduce -r elk -i $< -o $@
@@ -328,7 +328,7 @@ mirror/uberon-download.owl: $(SRC)
 
 # special case: use basic for oba
 mirror/oba-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo -O $@.tmp && owltools $@.tmp --make-subset-by-properties -n // -o $@
+	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo -O $@.tmp && $(OWLTOOLS) $@.tmp --make-subset-by-properties -n // -o $@
 .PRECIOUS: mirror/oba-download.owl
 
 # special case: use basic for cl
@@ -342,7 +342,7 @@ mirror/cl-download.owl: $(SRC)
 # for RO we merge these, in order to get ro/core, bfo classes
 # see https://github.com/geneontology/go-ontology/issues/12946
 mirror/ro-download.owl: $(SRC)
-	owltools $(OBO)/ro.owl --merge-imports-closure -o $@
+	$(OWLTOOLS) $(OBO)/ro.owl --merge-imports-closure -o $@
 .PRECIOUS: mirror/cl-download.owl
 
 # general case: download remote OWL first
@@ -352,7 +352,7 @@ mirror/%-download.owl: $(SRC)
 
 # bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
 bio-chebi.owl: mirror/chebi-download.owl mirror/chebi.owl
-	owltools $(USECAT) --create-biochebi -o $@ -c $<
+	$(OWLTOOLS) $(USECAT) --create-biochebi -o $@ -c $<
 
 # filter axioms
 FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
@@ -374,18 +374,18 @@ mirror/%.owl: mirror/%-download.owl
 # CHEBI ROLES
 # ----------------------------------------
 mirror/chebi.obo: mirror/chebi-download.owl
-	owltools $< -o -f obo $@.tmp && mv $@.tmp $@
+	$(OWLTOOLS) $< -o -f obo $@.tmp && mv $@.tmp $@
 
 HAS_ROLE = RO:0000087
 
 role.obo: mirror/chebi.obo
-	owltools $< --reasoner-query -r elk -d CHEBI:50906 --make-ontology-from-results $(OBO)/go/chebi/role.owl -o -f obo $@
+	$(OWLTOOLS) $< --reasoner-query -r elk -d CHEBI:50906 --make-ontology-from-results $(OBO)/go/chebi/role.owl -o -f obo $@
 
 imports/substance_by_role.obo: role.obo
 	../util/make-substance-by-role.pl -s 'role' -r $(HAS_ROLE) $< > $@.tmp && mv $@.tmp $@
 
 imports/substance_by_role.owl: imports/substance_by_role.obo
-	robot convert -i $< -o $@
+	$(ROBOT) convert -i $< -o $@
 
 
 # ----------------------------------------
@@ -419,13 +419,13 @@ VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-l
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
 sparql_test: $(SRC) reasoned.owl
-	robot verify --input $< --queries $(VARGS) -O reports/
-	robot verify --input reasoned.owl --queries ../sparql/multiple-class-links-violation.sparql -O reports/
-	robot merge --input $< verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
+	$(ROBOT) verify --input $< --queries $(VARGS) -O reports/
+	$(ROBOT) verify --input reasoned.owl --queries ../sparql/multiple-class-links-violation.sparql -O reports/
+	$(ROBOT) merge --input $< verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
-	robot query -i $< -s $(SPARQLDIR)/$*-violation.sparql $@
+	$(ROBOT) query -i $< -s $(SPARQLDIR)/$*-violation.sparql $@
 
 # ----------------------------------------
 # REPORTS
@@ -435,7 +435,7 @@ reports/%-violation.csv: $(SRC)
 REPORTS = owl-stats basic-report class-count-by-prefix edges labels xrefs obsoletes synonyms
 REPORT_ARGS = $(foreach V,$(REPORTS),-s $(SPARQLDIR)/$V.sparql reports/$V.tsv)
 all_reports: go.owl
-	robot query -f tsv -i $< $(REPORT_ARGS)
+	$(ROBOT) query -f tsv -i $< $(REPORT_ARGS)
 
 #all_src_reports: $(patsubst %,reports/src-%.tsv,$(REPORTS))
 
@@ -470,7 +470,7 @@ go_inferences.owl: go-edit_noinf.obo
 # (a) import the go ontology that contains the labels (b) save (c) strip out the import directive
 # NOTE: in svn pipeline, this file was committed by jenkins job every time ontology is edited.
 go_inferences.obo: go_inferences.owl
-	owltools $< --use-catalog go-edit.obo --add-imports-from-supports -o -f obo $@.tmp && grep -v ^import: $@.tmp > $@
+	$(OWLTOOLS) $< --use-catalog go-edit.obo --add-imports-from-supports -o -f obo $@.tmp && grep -v ^import: $@.tmp > $@
 .PRECIOUS: go_inferences.obo
 
 # TODO: change this once diff pipeline in place
