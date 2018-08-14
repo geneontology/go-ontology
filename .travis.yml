@@ -14,4 +14,4 @@ before_script:
   - cd src/ontology
 
 script:
-  - ./run.sh make travis_test
+  - ./run.sh make -j 4 travis_test
