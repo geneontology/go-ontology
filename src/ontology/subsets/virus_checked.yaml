@@ -1,8 +1,8 @@
 id: virus_checked
 title: Virus checked
 type: 
-status: pending contact
-description: "Terms approved by the Virus working group (2010)."
+status: obsolete
+description: "Terms approved by the Virus working group (2010). Archived .obo file can be found at http://release.geneontology.org/2018-08-09/ontology/subsets/virus_checked.obo"
 seeAlso: 
 taxon:
   id: 
