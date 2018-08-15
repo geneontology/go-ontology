@@ -2,7 +2,7 @@ id: gosubset_prok
 title: Prokaryote subset
 type: 
 status: obsolete
-description: "GO terms relevant for prokaryotes. Replaced by taxon constraints. Archived .obo file can be found at http://purl.obolibrary.org/obo/go/releases/2018-06-01/subsets/gosubset_prok.obo"
+description: "GO terms relevant for prokaryotes. Replaced by taxon constraints. To obtain a GO file relevant for prokaryotes, one should should exclude any term (and children) with the relationships 'never in bacteria' or 'only in eukaryotes' (and subclasses of eukaryotes). The latest version of the gosubset_prok .obo file can be found at http://purl.obolibrary.org/obo/go/releases/2018-06-01/subsets/gosubset_prok.obo"
 seeAlso: 
 taxon:
   id: 
