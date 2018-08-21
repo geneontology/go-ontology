@@ -85,6 +85,11 @@ name: transcript
 is_a: BET:0000000 ! entity
 
 [Term]
+id: SO:0000185 ! primary_transcript
+name: primary_transcript
+is_a: SO:0000673 ! transcript
+
+[Term]
 id: VariO:0001 ! variation
 name: variation
 comment: Consider using SO instead
