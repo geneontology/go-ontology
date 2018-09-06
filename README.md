@@ -4,7 +4,7 @@
 
 This repository contains the 'source' for the GO ontology. You should
 __NOT__ use this repository to download production versions of
-GO. Always use the PURLs.
+GO. Always use [the PURLs](http://obofoundry.org/ontology/go.html).
 
 This repository is primarily for the developers of the GO.
 
