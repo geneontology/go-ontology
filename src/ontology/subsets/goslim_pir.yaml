@@ -1,19 +1,19 @@
 id: goslim_pir
 title: PIR slim
-type: 
-status: pending contact
-description: ""
-seeAlso: 
+type: binning_slim
+status: active
+description: "PIR (Protein Information Ressource) slim"
 taxon:
-  id: 
-  label: 
+  id: NCBITaxon:1
+  label: all organisms
 contact: 
-  email: 
-  label: 
+  email: dan5@georgetown.edu
+  label: Darren Natale
 github:
  tracker: https://github.com/geneontology/go-ontology/issues
  contributors:
-  - email: 
-    label:
+  - email: dan5@georgetown.edu
+    label: Darren Natale
     orcid:  
-    github: 
+    github: nataled
+    
