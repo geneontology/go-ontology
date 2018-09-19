@@ -465,7 +465,7 @@ go-edit_noinf.obo: go-edit.obo
 # use robot to place inferences in a new file.
 # TBD: should relaxed axioms go here?
 go_inferences.owl: go-edit_noinf.obo
-	$(ROBOT) reason -i $< -r ELK -n true -a true -x true annotate -R true -O $(OBO)/go/imports/go_inferences.owl -o $@.tmp.owl && mv $@.tmp.owl $@
+	$(ROBOT) reason -i $< -r ELK -n true -a true -x true annotate -R -O $(OBO)/go/imports/go_inferences.owl -o $@.tmp.owl && mv $@.tmp.owl $@
 
 # translation to obo.
 # note that in order to get obo "!" comments into the file (to enhance readability), we must:
