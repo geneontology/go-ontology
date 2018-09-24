@@ -1,0 +1,20 @@
+id: goslim_FlyBase_Ribbon
+title: FlyBase Ribbon slim
+type: binning slim
+status: active
+description: "FlyBase Drosophila GO ribbon slim. The purpose of this slim is mainly to drive the Flybase 'ribbon' display"
+seeAlso: 
+taxon:
+  id: NCBITaxon:7227
+  label: Drosophila melanogaster
+contact: 
+  email: go-ontology@lists.stanford.edu
+  label: GO Ontology Curators
+github:
+ tracker: https://github.com/geneontology/go-ontology/issues
+ contributors:
+  - email: gocur@morgan.harvard.edu
+    label: GO FlyBase curators
+    orcid: orcid:0000-0003-3212-6364
+    github: hattrill
+    
