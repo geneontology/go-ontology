@@ -1,0 +1,360 @@
+defined_class	defined_class_label	taxon	taxon_label
+GO:0043702	carotenoid vesicle	NCBITaxon:4932	Saccharomyces cerevisiae
+GO:0097651	phosphatidylinositol 3-kinase complex, class I	NCBITaxon:4932	Saccharomyces cerevisiae
+GO:0010436	carotenoid dioxygenase activity	NCBITaxon:4932	Saccharomyces cerevisiae
+GO:0045271	respiratory chain complex I	NCBITaxon:4932	Saccharomyces cerevisiae
+GO:0032501	multicellular organismal process	NCBITaxon:4932	Saccharomyces cerevisiae
+GO:0016116	carotenoid metabolic process	NCBITaxon:4932	Saccharomyces cerevisiae
+GO:0097652	phosphatidylinositol 3-kinase complex, class II	NCBITaxon:4932	Saccharomyces cerevisiae
+GO:0046608	carotenoid isomerase activity	NCBITaxon:4932	Saccharomyces cerevisiae
+GO:0042470	melanosome	NCBITaxon:6237	Caenorhabditis
+GO:0009888	tissue development	NCBITaxon:33682	Euglenozoa
+GO:0009888	tissue development	NCBITaxon:147554	Schizosaccharomycetes
+GO:0070787	conidiophore development	NCBITaxon:147554	Schizosaccharomycetes
+GO:0070789	metula development	NCBITaxon:147554	Schizosaccharomycetes
+GO:0070793	regulation of conidiophore development	NCBITaxon:147554	Schizosaccharomycetes
+GO:0120164	conidium germination	NCBITaxon:147554	Schizosaccharomycetes
+GO:0070802	regulation of metula development	NCBITaxon:147554	Schizosaccharomycetes
+GO:0070805	regulation of phialide development	NCBITaxon:147554	Schizosaccharomycetes
+GO:0003705	transcription factor activity, RNA polymerase II distal enhancer sequence-specific binding	NCBITaxon:147554	Schizosaccharomycetes
+GO:0104005	hijacked molecular function	NCBITaxon:147554	Schizosaccharomycetes
+GO:0070788	conidiophore stalk development	NCBITaxon:147554	Schizosaccharomycetes
+GO:0070790	phialide development	NCBITaxon:147554	Schizosaccharomycetes
+GO:0000980	RNA polymerase II distal enhancer sequence-specific DNA binding	NCBITaxon:147554	Schizosaccharomycetes
+GO:0075306	regulation of conidium formation	NCBITaxon:147554	Schizosaccharomycetes
+GO:0061794	conidium development	NCBITaxon:147554	Schizosaccharomycetes
+GO:0009536	plastid	NCBITaxon:2	Bacteria
+GO:0020039	pellicle	NCBITaxon:2	Bacteria
+GO:0070787	conidiophore development	NCBITaxon:2	Bacteria
+GO:0070789	metula development	NCBITaxon:2	Bacteria
+GO:0070793	regulation of conidiophore development	NCBITaxon:2	Bacteria
+GO:0120164	conidium germination	NCBITaxon:2	Bacteria
+GO:0070802	regulation of metula development	NCBITaxon:2	Bacteria
+GO:0070805	regulation of phialide development	NCBITaxon:2	Bacteria
+GO:0003713	transcription coactivator activity	NCBITaxon:2	Bacteria
+GO:0070788	conidiophore stalk development	NCBITaxon:2	Bacteria
+GO:0070790	phialide development	NCBITaxon:2	Bacteria
+GO:0005663	DNA replication factor C complex	NCBITaxon:2	Bacteria
+GO:0075306	regulation of conidium formation	NCBITaxon:2	Bacteria
+GO:0061794	conidium development	NCBITaxon:2	Bacteria
+GO:0043093	FtsZ-dependent cytokinesis	NCBITaxon:2759	Eukaryota
+GO:0097588	archaeal or bacterial-type flagellum-dependent cell motility	NCBITaxon:2759	Eukaryota
+GO:0031556	transcriptional attenuation by ribosome	NCBITaxon:2759	Eukaryota
+GO:0097351	toxin-antitoxin pair type II binding	NCBITaxon:2759	Eukaryota
+GO:0001072	transcription antitermination factor activity, RNA binding	NCBITaxon:2759	Eukaryota
+GO:0008616	queuosine biosynthetic process	NCBITaxon:2759	Eukaryota
+GO:0009432	SOS response	NCBITaxon:2759	Eukaryota
+GO:0031555	transcriptional attenuation	NCBITaxon:2759	Eukaryota
+GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:33090	Viridiplantae
+GO:0008544	epidermis development	NCBITaxon:33090	Viridiplantae
+GO:0007098	centrosome cycle	NCBITaxon:33090	Viridiplantae
+GO:0086042	cardiac muscle cell-cardiac muscle cell adhesion	NCBITaxon:33090	Viridiplantae
+GO:0005813	centrosome	NCBITaxon:33090	Viridiplantae
+GO:0031502	dolichyl-phosphate-mannose-protein mannosyltransferase complex	NCBITaxon:33090	Viridiplantae
+GO:0004169	dolichyl-phosphate-mannose-protein mannosyltransferase activity	NCBITaxon:33090	Viridiplantae
+GO:1901142	insulin metabolic process	NCBITaxon:33090	Viridiplantae
+GO:0046605	regulation of centrosome cycle	NCBITaxon:33090	Viridiplantae
+GO:0034293	sexual sporulation	NCBITaxon:33083	Dictyostelids
+GO:0030436	asexual sporulation	NCBITaxon:33083	Dictyostelids
+GO:0075283	sporulation resulting in formation of a multicellular or syncytial spore	NCBITaxon:33083	Dictyostelids
+GO:0043700	pterinosome	NCBITaxon:4895	Schizosaccharomyces
+GO:0006306	DNA methylation	NCBITaxon:4895	Schizosaccharomyces
+GO:0043701	cyanosome	NCBITaxon:4895	Schizosaccharomyces
+GO:0042445	hormone metabolic process	NCBITaxon:4895	Schizosaccharomyces
+GO:0010191	mucilage metabolic process	NCBITaxon:4895	Schizosaccharomyces
+GO:0002376	immune system process	NCBITaxon:4895	Schizosaccharomyces
+GO:0016246	RNA interference	NCBITaxon:4895	Schizosaccharomyces
+GO:0044419	interspecies interaction between organisms	NCBITaxon:4895	Schizosaccharomyces
+GO:0005747	mitochondrial respiratory chain complex I	NCBITaxon:4895	Schizosaccharomyces
+GO:0015979	photosynthesis	NCBITaxon:4895	Schizosaccharomyces
+GO:0001508	action potential	NCBITaxon:4895	Schizosaccharomyces
+GO:0005933	cellular bud	NCBITaxon:4895	Schizosaccharomyces
+GO:0043506	regulation of JUN kinase activity	NCBITaxon:4895	Schizosaccharomyces
+GO:0031128	developmental induction	NCBITaxon:4895	Schizosaccharomyces
+GO:0034736	cholesterol O-acyltransferase activity	NCBITaxon:4895	Schizosaccharomyces
+GO:0042133	neurotransmitter metabolic process	NCBITaxon:4895	Schizosaccharomyces
+GO:0099536	synaptic signaling	NCBITaxon:4895	Schizosaccharomyces
+GO:0007257	activation of JUN kinase activity	NCBITaxon:4895	Schizosaccharomyces
+GO:0000131	incipient cellular bud site	NCBITaxon:4895	Schizosaccharomyces
+GO:0042470	melanosome	NCBITaxon:4895	Schizosaccharomyces
+GO:0019588	anaerobic glycerol catabolic process	NCBITaxon:4895	Schizosaccharomyces
+GO:0008203	cholesterol metabolic process	NCBITaxon:4895	Schizosaccharomyces
+GO:0019654	acetate fermentation	NCBITaxon:4895	Schizosaccharomyces
+GO:0043698	iridosome	NCBITaxon:4895	Schizosaccharomyces
+GO:1990257	piccolo-bassoon transport vesicle	NCBITaxon:4895	Schizosaccharomyces
+GO:0010166	wax metabolic process	NCBITaxon:4895	Schizosaccharomyces
+GO:0007258	JUN phosphorylation	NCBITaxon:4895	Schizosaccharomyces
+GO:0019012	virion	NCBITaxon:131567	cellular organisms
+GO:0044423	virion part	NCBITaxon:131567	cellular organisms
+GO:0039679	viral occlusion body	NCBITaxon:131567	cellular organisms
+GO:0009507	chloroplast	NCBITaxon:554915	Amoebozoa
+GO:0009536	plastid	NCBITaxon:554915	Amoebozoa
+GO:0009657	plastid organization	NCBITaxon:554915	Amoebozoa
+GO:0051644	plastid localization	NCBITaxon:554915	Amoebozoa
+GO:0000920	septum digestion after cytokinesis	NCBITaxon:554915	Amoebozoa
+GO:0031425	chloroplast RNA processing	NCBITaxon:554915	Amoebozoa
+GO:0010381	peroxisome-chloroplast membrane tethering	NCBITaxon:554915	Amoebozoa
+GO:0043293	apoptosome	NCBITaxon:4890	Ascomycota
+GO:0016206	catechol O-methyltransferase activity	NCBITaxon:4890	Ascomycota
+GO:0003341	cilium movement	NCBITaxon:4890	Ascomycota
+GO:0030141	secretory granule	NCBITaxon:4890	Ascomycota
+GO:0102938	orcinol O-methyltransferase activity	NCBITaxon:4890	Ascomycota
+GO:0005929	cilium	NCBITaxon:4890	Ascomycota
+GO:0060271	cilium assembly	NCBITaxon:4890	Ascomycota
+GO:1990182	exosomal secretion	NCBITaxon:4890	Ascomycota
+GO:0102084	L-dopa O-methyltransferase activity	NCBITaxon:4890	Ascomycota
+GO:0006398	mRNA 3'-end processing by stem-loop binding and cleavage	NCBITaxon:4890	Ascomycota
+GO:0008283	cell proliferation	NCBITaxon:4751	Fungi
+GO:0009507	chloroplast	NCBITaxon:4751	Fungi
+GO:0009536	plastid	NCBITaxon:4751	Fungi
+GO:0019955	cytokine binding	NCBITaxon:4751	Fungi
+GO:0042127	regulation of cell proliferation	NCBITaxon:4751	Fungi
+GO:0034185	apolipoprotein binding	NCBITaxon:4751	Fungi
+GO:0007098	centrosome cycle	NCBITaxon:4751	Fungi
+GO:0007140	male meiotic nuclear division	NCBITaxon:4751	Fungi
+GO:0060395	SMAD protein signal transduction	NCBITaxon:4751	Fungi
+GO:0071253	connexin binding	NCBITaxon:4751	Fungi
+GO:0034189	very-low-density lipoprotein particle binding	NCBITaxon:4751	Fungi
+GO:0002162	dystroglycan binding	NCBITaxon:4751	Fungi
+GO:0002102	podosome	NCBITaxon:4751	Fungi
+GO:0005055	laminin receptor activity	NCBITaxon:4751	Fungi
+GO:0005813	centrosome	NCBITaxon:4751	Fungi
+GO:0006909	phagocytosis	NCBITaxon:4751	Fungi
+GO:0055100	adiponectin binding	NCBITaxon:4751	Fungi
+GO:0097108	hedgehog family protein binding	NCBITaxon:4751	Fungi
+GO:0001846	opsonin binding	NCBITaxon:4751	Fungi
+GO:0016032	viral process	NCBITaxon:4751	Fungi
+GO:0008013	beta-catenin binding	NCBITaxon:4751	Fungi
+GO:0009657	plastid organization	NCBITaxon:4751	Fungi
+GO:0008285	negative regulation of cell proliferation	NCBITaxon:4751	Fungi
+GO:0044548	S100 protein binding	NCBITaxon:4751	Fungi
+GO:0007143	female meiotic nuclear division	NCBITaxon:4751	Fungi
+GO:0097678	SOCS family protein binding	NCBITaxon:4751	Fungi
+GO:0051644	plastid localization	NCBITaxon:4751	Fungi
+GO:1903719	regulation of I-kappaB phosphorylation	NCBITaxon:4751	Fungi
+GO:0016528	sarcoplasm	NCBITaxon:4751	Fungi
+GO:0030054	cell junction	NCBITaxon:4751	Fungi
+GO:0001848	complement binding	NCBITaxon:4751	Fungi
+GO:0008284	positive regulation of cell proliferation	NCBITaxon:4751	Fungi
+GO:0046980	tapasin binding	NCBITaxon:4751	Fungi
+GO:0070097	delta-catenin binding	NCBITaxon:4751	Fungi
+GO:0034711	inhibin binding	NCBITaxon:4751	Fungi
+GO:0038100	nodal binding	NCBITaxon:4751	Fungi
+GO:0031720	haptoglobin binding	NCBITaxon:4751	Fungi
+GO:0034357	photosynthetic membrane	NCBITaxon:4751	Fungi
+GO:0030492	hemoglobin binding	NCBITaxon:4751	Fungi
+GO:0045569	TRAIL binding	NCBITaxon:4751	Fungi
+GO:0031423	hexon binding	NCBITaxon:4751	Fungi
+GO:0089719	RHG protein domain binding	NCBITaxon:4751	Fungi
+GO:0046332	SMAD binding	NCBITaxon:4751	Fungi
+GO:0043256	laminin complex	NCBITaxon:4751	Fungi
+GO:0031425	chloroplast RNA processing	NCBITaxon:4751	Fungi
+GO:0045295	gamma-catenin binding	NCBITaxon:4751	Fungi
+GO:0043236	laminin binding	NCBITaxon:4751	Fungi
+GO:0002046	opsin binding	NCBITaxon:4751	Fungi
+GO:0061737	leukotriene signaling pathway	NCBITaxon:4751	Fungi
+GO:0043532	angiostatin binding	NCBITaxon:4751	Fungi
+GO:0030984	kininogen binding	NCBITaxon:4751	Fungi
+GO:0045495	pole plasm	NCBITaxon:4751	Fungi
+GO:0098770	FBXO family protein binding	NCBITaxon:4751	Fungi
+GO:1990917	ooplasm	NCBITaxon:4751	Fungi
+GO:0017147	Wnt-protein binding	NCBITaxon:4751	Fungi
+GO:0044730	bone sialoprotein binding	NCBITaxon:4751	Fungi
+GO:1990405	protein antigen binding	NCBITaxon:4751	Fungi
+GO:0010381	peroxisome-chloroplast membrane tethering	NCBITaxon:4751	Fungi
+GO:0030881	beta-2-microglobulin binding	NCBITaxon:4751	Fungi
+GO:0060390	regulation of SMAD protein signal transduction	NCBITaxon:4751	Fungi
+GO:0046977	TAP binding	NCBITaxon:4751	Fungi
+GO:0043559	insulin binding	NCBITaxon:4751	Fungi
+GO:0030579	ubiquitin-dependent SMAD protein catabolic process	NCBITaxon:4751	Fungi
+GO:0061675	RBL family protein binding	NCBITaxon:4751	Fungi
+GO:0005040	decoy death receptor activity	NCBITaxon:4751	Fungi
+GO:0071716	leukotriene transport	NCBITaxon:4751	Fungi
+GO:0006691	leukotriene metabolic process	NCBITaxon:4751	Fungi
+GO:0046605	regulation of centrosome cycle	NCBITaxon:4751	Fungi
+GO:0045294	alpha-catenin binding	NCBITaxon:4751	Fungi
+GO:0001968	fibronectin binding	NCBITaxon:4751	Fungi
+GO:0005722	beta-heterochromatin	NCBITaxon:4751	Fungi
+GO:0005723	alpha-heterochromatin	NCBITaxon:4751	Fungi
+GO:0002039	p53 binding	NCBITaxon:4751	Fungi
+GO:0060393	regulation of pathway-restricted SMAD protein phosphorylation	NCBITaxon:4751	Fungi
+GO:0043560	insulin receptor substrate binding	NCBITaxon:4751	Fungi
+GO:0098769	TIMP family protein binding	NCBITaxon:4751	Fungi
+GO:0097677	STAT family protein binding	NCBITaxon:4751	Fungi
+GO:0007086	vesicle fusion with nuclear membrane involved in mitotic nuclear envelope reassembly	NCBITaxon:4751	Fungi
+GO:0097371	MDM2/MDM4 family protein binding	NCBITaxon:4751	Fungi
+GO:0003341	cilium movement	NCBITaxon:5782	Dictyostelium
+GO:0005929	cilium	NCBITaxon:5782	Dictyostelium
+GO:0060271	cilium assembly	NCBITaxon:5782	Dictyostelium
+GO:0042476	odontogenesis	NCBITaxon:8782	Aves
+GO:0060539	diaphragm development	NCBITaxon:8782	Aves
+GO:0042464	dosage compensation by hypoactivation of X chromosome	NCBITaxon:8782	Aves
+GO:0042633	hair cycle	NCBITaxon:8782	Aves
+GO:0048104	establishment of body hair or bristle planar orientation	NCBITaxon:8782	Aves
+GO:0060023	soft palate development	NCBITaxon:8782	Aves
+GO:0060157	urinary bladder development	NCBITaxon:8782	Aves
+GO:0050873	brown fat cell differentiation	NCBITaxon:8782	Aves
+GO:0009047	dosage compensation by hyperactivation of X chromosome	NCBITaxon:8782	Aves
+GO:0009048	dosage compensation by inactivation of X chromosome	NCBITaxon:8782	Aves
+GO:0070342	brown fat cell proliferation	NCBITaxon:8782	Aves
+GO:0002086	diaphragm contraction	NCBITaxon:8782	Aves
+GO:0060540	diaphragm morphogenesis	NCBITaxon:8782	Aves
+GO:1900095	regulation of dosage compensation by inactivation of X chromosome	NCBITaxon:8782	Aves
+GO:0000805	X chromosome	NCBITaxon:8782	Aves
+GO:0007540	sex determination, establishment of X:A ratio	NCBITaxon:8782	Aves
+GO:0044305	calyx of Held	NCBITaxon:8782	Aves
+GO:0001741	XY body	NCBITaxon:8782	Aves
+GO:0016456	X chromosome located dosage compensation complex, transcription activating	NCBITaxon:8782	Aves
+GO:0000806	Y chromosome	NCBITaxon:8782	Aves
+GO:0014832	urinary bladder smooth muscle contraction	NCBITaxon:8782	Aves
+GO:0020039	pellicle	NCBITaxon:33154	Opisthokonta
+GO:0070787	conidiophore development	NCBITaxon:451866	Taphrinomycotina
+GO:0070789	metula development	NCBITaxon:451866	Taphrinomycotina
+GO:0070793	regulation of conidiophore development	NCBITaxon:451866	Taphrinomycotina
+GO:0120164	conidium germination	NCBITaxon:451866	Taphrinomycotina
+GO:0070802	regulation of metula development	NCBITaxon:451866	Taphrinomycotina
+GO:0070805	regulation of phialide development	NCBITaxon:451866	Taphrinomycotina
+GO:0070788	conidiophore stalk development	NCBITaxon:451866	Taphrinomycotina
+GO:0070790	phialide development	NCBITaxon:451866	Taphrinomycotina
+GO:0075306	regulation of conidium formation	NCBITaxon:451866	Taphrinomycotina
+GO:0061794	conidium development	NCBITaxon:451866	Taphrinomycotina
+GO:0003341	cilium movement	NCBITaxon:3312	Coniferophyta
+GO:0097727	blepharoplast	NCBITaxon:3312	Coniferophyta
+GO:0005929	cilium	NCBITaxon:3312	Coniferophyta
+GO:0060271	cilium assembly	NCBITaxon:3312	Coniferophyta
+GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:3312	Coniferophyta
+GO:0042546	cell wall biogenesis	NCBITaxon:7742	Vertebrata <Metazoa
+GO:0035287	head segmentation	NCBITaxon:7742	Vertebrata <Metazoa
+GO:0098521	inhibitory neuromuscular junction	NCBITaxon:7742	Vertebrata <Metazoa
+GO:0009536	plastid	NCBITaxon:2157	Archaea
+GO:0070787	conidiophore development	NCBITaxon:2157	Archaea
+GO:0070789	metula development	NCBITaxon:2157	Archaea
+GO:0070793	regulation of conidiophore development	NCBITaxon:2157	Archaea
+GO:0120164	conidium germination	NCBITaxon:2157	Archaea
+GO:0070802	regulation of metula development	NCBITaxon:2157	Archaea
+GO:0070805	regulation of phialide development	NCBITaxon:2157	Archaea
+GO:0070788	conidiophore stalk development	NCBITaxon:2157	Archaea
+GO:0070790	phialide development	NCBITaxon:2157	Archaea
+GO:0075306	regulation of conidium formation	NCBITaxon:2157	Archaea
+GO:0061794	conidium development	NCBITaxon:2157	Archaea
+GO:0000795	synaptonemal complex	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0043702	carotenoid vesicle	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0042023	DNA endoreduplication	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0010436	carotenoid dioxygenase activity	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0045271	respiratory chain complex I	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0032501	multicellular organismal process	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0016116	carotenoid metabolic process	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0070193	synaptonemal complex organization	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0009008	DNA-methyltransferase activity	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0046695	SLIK (SAGA-like) complex	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0046608	carotenoid isomerase activity	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0000918	division septum site selection	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0007098	centrosome cycle	NCBITaxon:27896	Planariidae
+GO:0005813	centrosome	NCBITaxon:27896	Planariidae
+GO:0046605	regulation of centrosome cycle	NCBITaxon:27896	Planariidae
+GO:0070787	conidiophore development	NCBITaxon:241407	Saccharomycetales incertae sedis
+GO:0070789	metula development	NCBITaxon:241407	Saccharomycetales incertae sedis
+GO:0070793	regulation of conidiophore development	NCBITaxon:241407	Saccharomycetales incertae sedis
+GO:0120164	conidium germination	NCBITaxon:241407	Saccharomycetales incertae sedis
+GO:0070802	regulation of metula development	NCBITaxon:241407	Saccharomycetales incertae sedis
+GO:0070805	regulation of phialide development	NCBITaxon:241407	Saccharomycetales incertae sedis
+GO:0070788	conidiophore stalk development	NCBITaxon:241407	Saccharomycetales incertae sedis
+GO:0070790	phialide development	NCBITaxon:241407	Saccharomycetales incertae sedis
+GO:0075306	regulation of conidium formation	NCBITaxon:241407	Saccharomycetales incertae sedis
+GO:0061794	conidium development	NCBITaxon:241407	Saccharomycetales incertae sedis
+GO:0006306	DNA methylation	NCBITaxon:4930	Saccharomyces
+GO:0005747	mitochondrial respiratory chain complex I	NCBITaxon:4930	Saccharomyces
+GO:0070787	conidiophore development	NCBITaxon:4930	Saccharomyces
+GO:0070789	metula development	NCBITaxon:4930	Saccharomyces
+GO:0034736	cholesterol O-acyltransferase activity	NCBITaxon:4930	Saccharomyces
+GO:0070793	regulation of conidiophore development	NCBITaxon:4930	Saccharomyces
+GO:0120164	conidium germination	NCBITaxon:4930	Saccharomyces
+GO:0070802	regulation of metula development	NCBITaxon:4930	Saccharomyces
+GO:0070805	regulation of phialide development	NCBITaxon:4930	Saccharomyces
+GO:0031048	chromatin silencing by small RNA	NCBITaxon:4930	Saccharomyces
+GO:0070788	conidiophore stalk development	NCBITaxon:4930	Saccharomyces
+GO:0008203	cholesterol metabolic process	NCBITaxon:4930	Saccharomyces
+GO:0070790	phialide development	NCBITaxon:4930	Saccharomyces
+GO:0075306	regulation of conidium formation	NCBITaxon:4930	Saccharomyces
+GO:0061794	conidium development	NCBITaxon:4930	Saccharomyces
+GO:0009507	chloroplast	NCBITaxon:28009	Choanoflagellida
+GO:0009536	plastid	NCBITaxon:28009	Choanoflagellida
+GO:0009657	plastid organization	NCBITaxon:28009	Choanoflagellida
+GO:0051644	plastid localization	NCBITaxon:28009	Choanoflagellida
+GO:0031425	chloroplast RNA processing	NCBITaxon:28009	Choanoflagellida
+GO:0010381	peroxisome-chloroplast membrane tethering	NCBITaxon:28009	Choanoflagellida
+GO:0090632	N-glycolylneuraminic acid (Neu5Gc) cytidylyltransferase activity	NCBITaxon:9606	Homo sapiens
+GO:0009888	tissue development	NCBITaxon:38254	Glaucocystophyceae
+GO:0040011	locomotion	NCBITaxon:451864	Dikarya
+GO:0072324	ascus epiplasm	NCBITaxon:5878	Ciliophora
+GO:0003341	cilium movement	NCBITaxon:3398	Magnoliophyta
+GO:0008585	female gonad development	NCBITaxon:3398	Magnoliophyta
+GO:0097727	blepharoplast	NCBITaxon:3398	Magnoliophyta
+GO:0005929	cilium	NCBITaxon:3398	Magnoliophyta
+GO:0060271	cilium assembly	NCBITaxon:3398	Magnoliophyta
+GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:3398	Magnoliophyta
+GO:0009507	chloroplast	NCBITaxon:33208	Metazoa
+GO:0009536	plastid	NCBITaxon:33208	Metazoa
+GO:0009292	genetic transfer	NCBITaxon:33208	Metazoa
+GO:0015979	photosynthesis	NCBITaxon:33208	Metazoa
+GO:0009657	plastid organization	NCBITaxon:33208	Metazoa
+GO:0070787	conidiophore development	NCBITaxon:33208	Metazoa
+GO:0070789	metula development	NCBITaxon:33208	Metazoa
+GO:0043263	cellulosome	NCBITaxon:33208	Metazoa
+GO:0070793	regulation of conidiophore development	NCBITaxon:33208	Metazoa
+GO:0120164	conidium germination	NCBITaxon:33208	Metazoa
+GO:0070802	regulation of metula development	NCBITaxon:33208	Metazoa
+GO:0051644	plastid localization	NCBITaxon:33208	Metazoa
+GO:0000920	septum digestion after cytokinesis	NCBITaxon:33208	Metazoa
+GO:0009579	thylakoid	NCBITaxon:33208	Metazoa
+GO:0070805	regulation of phialide development	NCBITaxon:33208	Metazoa
+GO:0075259	spore-bearing structure development	NCBITaxon:33208	Metazoa
+GO:0015994	chlorophyll metabolic process	NCBITaxon:33208	Metazoa
+GO:0070788	conidiophore stalk development	NCBITaxon:33208	Metazoa
+GO:0034357	photosynthetic membrane	NCBITaxon:33208	Metazoa
+GO:0009777	photosynthetic phosphorylation	NCBITaxon:33208	Metazoa
+GO:0101026	nuclear membrane biogenesis involved in mitotic nuclear division	NCBITaxon:33208	Metazoa
+GO:0101024	nuclear membrane organization involved in mitotic nuclear division	NCBITaxon:33208	Metazoa
+GO:0010205	photoinhibition	NCBITaxon:33208	Metazoa
+GO:0010206	photosystem II repair	NCBITaxon:33208	Metazoa
+GO:0070790	phialide development	NCBITaxon:33208	Metazoa
+GO:0031425	chloroplast RNA processing	NCBITaxon:33208	Metazoa
+GO:0009780	photosynthetic NADP+ reduction	NCBITaxon:33208	Metazoa
+GO:0010548	regulation of thylakoid membrane disassembly	NCBITaxon:33208	Metazoa
+GO:0010547	thylakoid membrane disassembly	NCBITaxon:33208	Metazoa
+GO:0010381	peroxisome-chloroplast membrane tethering	NCBITaxon:33208	Metazoa
+GO:0010380	regulation of chlorophyll biosynthetic process	NCBITaxon:33208	Metazoa
+GO:0016168	chlorophyll binding	NCBITaxon:33208	Metazoa
+GO:0075306	regulation of conidium formation	NCBITaxon:33208	Metazoa
+GO:0001896	autolysis	NCBITaxon:33208	Metazoa
+GO:0061794	conidium development	NCBITaxon:33208	Metazoa
+GO:0000807	Z chromosome	NCBITaxon:40674	Mammalia
+GO:0003146	heart jogging	NCBITaxon:40674	Mammalia
+GO:0000804	W chromosome	NCBITaxon:40674	Mammalia
+GO:0009888	tissue development	NCBITaxon:33630	Alveolata
+GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0045087	innate immune response	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0019838	growth factor binding	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0086042	cardiac muscle cell-cardiac muscle cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0097223	sperm part	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0007276	gamete generation	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0070848	response to growth factor	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0048010	vascular endothelial growth factor receptor signaling pathway	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0086080	protein binding involved in heterotypic cell-cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:1901142	insulin metabolic process	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0090136	epithelial cell-cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0036053	glomerular endothelium fenestra	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0050764	regulation of phagocytosis	NCBITaxon:147537	Saccharomycotina
+GO:0009888	tissue development	NCBITaxon:4891	Saccharomycetes
+GO:0003705	transcription factor activity, RNA polymerase II distal enhancer sequence-specific binding	NCBITaxon:4891	Saccharomycetes
+GO:0000980	RNA polymerase II distal enhancer sequence-specific DNA binding	NCBITaxon:4891	Saccharomycetes
+GO:0003341	cilium movement	NCBITaxon:3176	Zygnematales
+GO:0097727	blepharoplast	NCBITaxon:3176	Zygnematales
+GO:0005929	cilium	NCBITaxon:3176	Zygnematales
+GO:0060271	cilium assembly	NCBITaxon:3176	Zygnematales
+GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:3176	Zygnematales
+GO:0003341	cilium movement	NCBITaxon:3378	Gnetales
+GO:0097727	blepharoplast	NCBITaxon:3378	Gnetales
+GO:0005929	cilium	NCBITaxon:3378	Gnetales
+GO:0060271	cilium assembly	NCBITaxon:3378	Gnetales
+GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:3378	Gnetales
