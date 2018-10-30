@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2017-04-11/imports/po_import.owl
+data-version: go/releases/2018-09-25/imports/po_import.owl
 ontology: go/imports/po_import
 
 [Term]
@@ -42,7 +42,6 @@ synonym: "vine (narrow)" NARROW []
 synonym: "woody clump (narrow)" NARROW []
 synonym: "植物体全体 (Japanese, exact)" EXACT []
 is_a: PO:0009011 ! plant structure
-relationship: only_in_taxon NCBITaxon:33090
 
 [Term]
 id: PO:0000015
@@ -139,24 +138,8 @@ is_a: PO:0025228 ! valve
 relationship: part_of PO:0009001 ! fruit
 
 [Term]
-id: PO:0000034
-name: vascular system
-def: "A maximal portion of vascular tissue (PO:0009015) in a whole plant (PO:0000003), collective plant structure (PO:0025497), multi-tissue plant structure (PO:0025496), or cardinal part of multi-tissue plant structure (PO:0025498)." []
-synonym: "sistema vascular (Spanish, exact)" EXACT []
-synonym: "vasculature (exact)" EXACT []
-synonym: "維管束系 (Japanese, exact)" EXACT []
-is_a: PO:0009007 ! portion of plant tissue
-disjoint_from: PO:0009002 ! plant cell
-disjoint_from: PO:0009008 ! plant organ
-disjoint_from: PO:0025001 ! cardinal organ part
-disjoint_from: PO:0025007 ! collective plant organ structure
-disjoint_from: PO:0025269 ! collective organ part structure
-relationship: part_of PO:0000003 ! whole plant
-relationship: participates_in PO:0028002 ! sporophyte development stage
-
-[Term]
 id: PO:0000037
-name: shoot apex
+name: shoot axis apex
 def: "A shoot axis (PO:0025029) that is the most distal part of a shoot system (PO:0009006) and has as parts a shoot apical meristem (PO:0020148) and the youngest primordia (PO:0025127)." []
 synonym: "&#225pice del epiblasto (epiblastema) (Spanish, exact)" EXACT []
 synonym: "シュート頂、茎頂 (Japanese, exact)" EXACT []
@@ -897,8 +880,8 @@ synonym: "rhizodermis (related)" RELATED []
 synonym: "根表皮 (Japanese, exact)" EXACT []
 is_a: PO:0005679 ! epidermis
 intersection_of: PO:0005679 ! epidermis
-intersection_of: part_of NCBITaxon:1
-relationship: part_of NCBITaxon:1
+intersection_of: part_of PO:0009005 ! root
+relationship: part_of PO:0009005 ! root
 
 [Term]
 id: PO:0006039
@@ -1072,14 +1055,13 @@ relationship: develops_from PO:0004709 ! axillary bud
 id: PO:0007033
 name: whole plant development stage
 def: "A plant structure development stage (PO:0009012) that has as primary participant a whole plant (PO:0000003)." []
-synonym: "cereal plant ontology  (related)" RELATED []
-synonym: "maize growth stage (related)" RELATED []
-synonym: "plant growth stage ontology (related)" RELATED []
-synonym: "plant growth stages in Arabidopsis (related)" RELATED []
-synonym: "rice growth stage (related)" RELATED []
-synonym: "Solanaceae whole plant growth stages (related)" RELATED []
-synonym: "sorghum growth stage (related)" RELATED []
-synonym: "wheat, barley and oat growth stage (related)" RELATED []
+synonym: "cereal plant growth stage ontology (GRO:0007199) (related)" RELATED []
+synonym: "maize growth stage (GRO:0007002) (related)" RELATED []
+synonym: "plant growth stages in Arabidopsis (TAIR:0000021) (related)" RELATED []
+synonym: "rice growth stage (GRO:0007040) (related)" RELATED []
+synonym: "Solanaceae whole plant growth stages (SGN:0000001) (related)" RELATED []
+synonym: "sorghum growth stage (GRO:0007124) (related)" RELATED []
+synonym: "wheat, barley and oat growth stage (GRO:0007156) (related)" RELATED []
 is_a: PO:0009012 ! plant structure development stage
 relationship: has_participant PO:0000003 ! whole plant
 
@@ -1256,7 +1238,6 @@ synonym: "vascular system (related)" RELATED []
 synonym: "vascular tissue (exact)" EXACT []
 synonym: "維管束細胞の一部 (Japanese, exact)" EXACT []
 is_a: PO:0009007 ! portion of plant tissue
-relationship: part_of PO:0000034 ! vascular system
 
 [Term]
 id: PO:0009020
@@ -1385,6 +1366,7 @@ relationship: part_of PO:0009006 ! shoot system
 id: PO:0009046
 name: flower
 def: "A determinate reproductive shoot system (PO:0025082) that has as part at least one carpel (PO:0009030) or at least one stamen (PO:0009029) and does not contain any other determinate shoot system (PO:0009006) as a part." []
+synonym: "Asteraceae floret (narrow)" NARROW []
 synonym: "basal flower (narrow)" NARROW []
 synonym: "double flower (narrow)" NARROW []
 synonym: "flor (Spanish, exact)" EXACT []
@@ -1399,43 +1381,9 @@ relationship: develops_from PO:0000229 ! flower meristem
 [Term]
 id: PO:0009049
 name: inflorescence
-def: "A reproductive shoot system (PO:0025082) that has as parts all of the shoot axes (PO:0025029) distal to the most distal foliage leaf (PO:0009025) of a shoot axis and all of the flowers (PO:0009046) borne by those axes. Must have two or more flowers as parts." []
-synonym: "ament (narrow)" NARROW []
-synonym: "anthela (narrow)" NARROW []
-synonym: "anthelae (narrow)" NARROW []
-synonym: "Asteraceae floret (narrow)" NARROW []
-synonym: "bostryches (narrow)" NARROW []
-synonym: "bostryx (narrow)" NARROW []
-synonym: "capitula (narrow)" NARROW []
-synonym: "capitulum (narrow)" NARROW []
-synonym: "catkin (narrow)" NARROW []
-synonym: "cincinni (narrow)" NARROW []
-synonym: "cincinnus (narrow)" NARROW []
-synonym: "corymb (narrow)" NARROW []
-synonym: "cyathia (narrow)" NARROW []
-synonym: "cyathium (narrow)" NARROW []
-synonym: "cyme (narrow)" NARROW []
-synonym: "cymule (narrow)" NARROW []
-synonym: "dichasium (narrow)" NARROW []
-synonym: "drepanium (narrow)" NARROW []
-synonym: "glome (narrow)" NARROW []
-synonym: "glomerule (narrow)" NARROW []
-synonym: "head (narrow)" NARROW []
-synonym: "helicoid cyme (narrow)" NARROW []
+def: "A reproductive shoot system (PO:0025082) that has as parts all of the shoot axes (PO:0025029) and flowers (PO:0009046; must have two or more) distal to the most distal leaf (PO:0009025)." []
 synonym: "inflorescencia (Spanish, exact)" EXACT []
-synonym: "monochasium (narrow)" NARROW []
-synonym: "panicle (narrow)" NARROW []
-synonym: "raceme (narrow)" NARROW []
-synonym: "rhipidia (narrow)" NARROW []
-synonym: "rhipidium (narrow)" NARROW []
-synonym: "scorpioid cyme (narrow)" NARROW []
-synonym: "spadices (narrow)" NARROW []
-synonym: "spadix (narrow)" NARROW []
-synonym: "spike (narrow)" NARROW []
-synonym: "thyrse (narrow)" NARROW []
 synonym: "Triticeae spike (narrow)" NARROW []
-synonym: "umbel (narrow)" NARROW []
-synonym: "verticillaster (narrow)" NARROW []
 synonym: "花序 (Japanese, exact)" EXACT []
 is_a: PO:0025082 ! reproductive shoot system
 relationship: has_part PO:0009046 ! flower
@@ -1553,7 +1501,7 @@ relationship: part_of PO:0009029 ! stamen
 [Term]
 id: PO:0009067
 name: filament
-def: "A stalk that is part of a stamen." []
+def: "A stalk  (PO:0025066) that is part of a stamen (PO:0009029)." []
 synonym: "filamento (Spanish, exact)" EXACT []
 synonym: "Poaceae filament (narrow)" NARROW []
 synonym: "Zea filament (narrow)" NARROW []
@@ -1918,7 +1866,7 @@ synonym: "SAM (exact)" EXACT []
 synonym: "茎頂分裂組織 (Japanese, exact)" EXACT []
 is_a: PO:0006079 ! shoot system meristem
 is_a: PO:0020144 ! apical meristem
-relationship: part_of PO:0000037 ! shoot apex
+relationship: part_of PO:0000037 ! shoot axis apex
 
 [Term]
 id: PO:0020149
@@ -2004,10 +1952,10 @@ relationship: participates_in PO:0028002 ! sporophyte development stage
 id: PO:0025026
 name: embryo sac cell
 def: "A native plant cell (PO:0025606) that is part of an embryo sac (PO:0025074)." []
-synonym: " 胚嚢細胞 (Japanese, exact)" EXACT []
 synonym: "c&#233lula megagametof&#237tica (Spanish, exact)" EXACT []
 synonym: "embryo sac cell (related)" RELATED []
 synonym: "megagametophytic cell (exact)" EXACT []
+synonym: "胚嚢細胞 (Japanese, exact)" EXACT []
 is_a: PO:0025606 ! native plant cell
 intersection_of: PO:0025606 ! native plant cell
 intersection_of: part_of PO:0025074 ! embryo sac
@@ -2224,7 +2172,7 @@ synonym: "primordio del filoma (Spanish, exact)" EXACT []
 synonym: "フィロム原基（可視的）  (Japanese, exact)" EXACT []
 is_a: PO:0025127 ! primordium
 relationship: develops_from PO:0025430 ! phyllome anlagen
-relationship: part_of PO:0000037 ! shoot apex
+relationship: part_of PO:0000037 ! shoot axis apex
 
 [Term]
 id: PO:0025131
@@ -2232,6 +2180,7 @@ name: plant anatomical entity
 def: "An anatomical entity that is or was part of a plant." []
 synonym: "entidad anat&#243mica vegetal (Spanish, exact)" EXACT []
 synonym: "植物 解剖学（形態）的実体 (Japanese, exact)" EXACT []
+relationship: only_in_taxon NCBITaxon:33090
 
 [Term]
 id: PO:0025157
@@ -2346,7 +2295,7 @@ name: reproductive shoot apex
 def: "A shoot apex that has as part a reproductive shoot apical meristem." []
 synonym: "&#225pice reproductivo del epiblasto (epiblastema) (Spanish, exact)" EXACT []
 synonym: "生殖シュート頂、茎頂 (Japanese, exact)" EXACT []
-is_a: PO:0000037 ! shoot apex
+is_a: PO:0000037 ! shoot axis apex
 
 [Term]
 id: PO:0025223
@@ -2354,7 +2303,7 @@ name: vegetative shoot apex
 def: "A shoot apex PO:0000037) that has as part a vegetative shoot apical meristem (PO:0008016)." []
 synonym: "&#225pice vegetativo del epiblasto (epiblastema) (Spanish, exact)" EXACT []
 synonym: "栄養シュート頂、栄養枝頂 (Japanese, exact)" EXACT []
-is_a: PO:0000037 ! shoot apex
+is_a: PO:0000037 ! shoot axis apex
 relationship: has_part PO:0008016 ! vegetative shoot apical meristem
 
 [Term]
@@ -2642,6 +2591,7 @@ id: PO:0025448
 name: primary xylem vessel member
 def: "A xylem vessel member (PO:0002003) that is part of a primary xylem tissue (PO:0005849)." []
 synonym: "elemento vaso del xilema primario (Spanish, exact)" EXACT []
+synonym: "primary xylem vessel element (exact)" EXACT []
 synonym: "一次木質部導管状要素 (Japanese, exact)" EXACT []
 is_a: PO:0002003 ! xylem vessel member
 intersection_of: PO:0002003 ! xylem vessel member
@@ -2904,6 +2854,13 @@ name: adjacent_to
 xref: RO:0002220
 
 [Typedef]
+id: developmentally_preceded_by
+name: developmentally_preceded_by
+def: "X developmentally related to y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p." []
+xref: RO:0002258
+is_obsolete: true
+
+[Typedef]
 id: develops_from
 name: develops_from
 xref: RO:0002202
@@ -2942,4 +2899,16 @@ name: participates_in
 xref: BFO:0000056
 holds_over_chain: part_of participates_in
 inverse_of: has_participant ! has_participant
+
+[Typedef]
+id: preceded_by
+name: preceded_by
+def: "The assertion P preceded_by P1 tells us something about Ps in general: that is, it tells us something about what happened earlier, given what we know about what happened later. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be succeeded by some instance of P." []
+xref: BFO:0000062
+is_transitive: true
+
+[Typedef]
+id: precedes
+name: precedes
+xref: BFO:0000063
 
