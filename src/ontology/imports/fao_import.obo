@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2017-04-11/imports/fao_import.owl
+data-version: go/releases/2018-11-06/imports/fao_import.owl
 ontology: go/imports/fao_import
 
 [Term]
@@ -37,7 +37,7 @@ is_a: FAO:0000001 ! fungal structure
 [Term]
 id: FAO:0000012
 name: basidiocarp
-def: "A structure at the surface of which, or within, basidia and basidiospores develop in Basidiomycetes; site of karyogamy and meiosis." []
+def: "A large fruiting body that is composed of masses of intertwined hyphal elements and produces basidia and basidiospores. The basidiocarp is characteristic of the majority of fungi of the subphylum Basidiomycotina, in which it is the site of karyogamy and meiosis. Mushrooms and toadstools are common examples." []
 synonym: "mushroom" RELATED []
 is_a: FAO:0000007 ! fruitbody
 
