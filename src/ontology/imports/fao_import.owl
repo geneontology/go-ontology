@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/fao_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2018-11-06/imports/fao_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2018-11-07/imports/fao_import.owl"/>
     </owl:Ontology>
     
 
@@ -234,6 +234,16 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A structure directly within which spores are contained or from which spores are formed.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spore-bearing organ</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sporophore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FAO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group or mass of discrete hyphae; the vegetative structure of many fungi.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mycelium</rdfs:label>
     </owl:Class>
     
 
@@ -503,6 +513,26 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000001"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A threadlike, tubular filamentous fungal structure.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FAO_0001030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0001030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An invasive mycelium that forms within a solid or semi-solid substrate such as wood, soil or agar.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">substrate mycelium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FAO_0001031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0001031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mycelium that forms prior to sporulation and extends aerially, or perpendicular to its substrate.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aerial mycelium</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
