@@ -6,13 +6,14 @@ classes:
 
 relations: 
   in_taxon: RO:0002162
+  only_in_taxon: RO:0002160
 
 vars:
   taxon: thing
 
 logical_axioms:
   - axiom_type: subClassOf
-    text: 'in_taxon some %s'
+    text: 'only_in_taxon some %s'
     vars:
       - taxon
   - axiom_type: subClassOf
