@@ -343,6 +343,7 @@ GO:0048010	vascular endothelial growth factor receptor signaling pathway	NCBITax
 GO:0086080	protein binding involved in heterotypic cell-cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
 GO:1901142	insulin metabolic process	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
 GO:0090136	epithelial cell-cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0090136	epithelial cell-cell adhesion	NCBITaxon:33090	Viridiplantae
 GO:0036053	glomerular endothelium fenestra	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
 GO:0050764	regulation of phagocytosis	NCBITaxon:147537	Saccharomycotina
 GO:0009888	tissue development	NCBITaxon:4891	Saccharomycetes

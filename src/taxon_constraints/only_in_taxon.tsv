@@ -165,7 +165,7 @@ GO:0048493	plasma membrane-derived thylakoid ribulose bisphosphate carboxylase c
 GO:0034631	microtubule anchoring at spindle pole body	NCBITaxon:4751	Fungi
 GO:0097737	acquisition of mycelium reproductive competence	NCBITaxon:Union_0000020	Fungi or Bacteria
 GO:0060102	collagen and cuticulin-based cuticle extracellular matrix	NCBITaxon:33213	Bilateria
-GO:0070470	plasma membrane respiratory chain	NCBITaxon:2	Bacteria
+GO:0070470	plasma membrane respirasome	NCBITaxon:2	Bacteria
 GO:1905756	regulation of primary cell septum biogenesis	NCBITaxon:2759	Eukaryota
 GO:0009760	C4 photosynthesis	NCBITaxon:33090	Viridiplantae
 GO:0008919	lipopolysaccharide glucosyltransferase I activity	NCBITaxon:2	Bacteria
@@ -418,6 +418,7 @@ GO:0043164	Gram-negative-bacterium-type cell wall biogenesis	NCBITaxon:2	Bacteri
 GO:0042777	plasma membrane ATP synthesis coupled proton transport	NCBITaxon:Union_0000004	Prokaryota
 GO:0030879	mammary gland development	NCBITaxon:40674	Mammalia
 GO:0005213	structural constituent of chorion	NCBITaxon:6656	Arthropoda
+GO:0005214	structural constituent of chitin-based cuticle	NCBITaxon:6656	Arthropoda
 GO:0080186	developmental vegetative growth	NCBITaxon:33090	Viridiplantae
 GO:0009792	embryo development ending in birth or egg hatching	NCBITaxon:33208	Metazoa
 GO:0007056	spindle assembly involved in female meiosis	NCBITaxon:2759	Eukaryota
@@ -607,3 +608,5 @@ GO:0019820	P2 peroxisome	NCBITaxon:4952	Yarrowia lipolytica
 GO:0032258	protein localization by the Cvt pathway	NCBITaxon:147537	Saccharomycotina
 GO:0007295	growth of a germarium-derived egg chamber	NCBITaxon:50557	Insecta
 GO:0007299	ovarian follicle cell-cell adhesion	NCBITaxon:50557	Insecta
+GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:33208	Metazoa
+GO:0048010	vascular endothelial growth factor receptor signaling pathway	NCBITaxon:7742	Vertebrata <Metazoa>
