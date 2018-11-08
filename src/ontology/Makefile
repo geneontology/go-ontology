@@ -56,7 +56,6 @@ PERLFILTER= ../util/filter-obo-for-standard-release.pl
 #
 RELEASE_SUFFIX=
 RELEASE_URIBASE= $(BASE)/releases/`date +%Y-%m-%d`$(RELEASE_SUFFIX)
-#RELEASE_URIBASE= $(BASE)/releases/2018-11-07$(RELEASE_SUFFIX)
 
 # basic relations are part_of & 3 regulations relations
 GO_BASIC_RELATIONS = BFO:0000050 RO:0002211 RO:0002212 RO:0002213
@@ -179,7 +178,7 @@ imports/reactome_xrefs.owl: $(SRC)
 # and xrefs to import
 enhanced.owl: $(SRC) disjoint_in_taxon.owl imports/reactome_xrefs.owl
 	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
-	$(ROBOT) merge -i imports/reactome_xrefs.owl -o $@ 
+	$(ROBOT) merge -i $@ -i imports/reactome_xrefs.owl -o $@
 	
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
