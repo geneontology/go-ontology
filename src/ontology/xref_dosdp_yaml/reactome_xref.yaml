@@ -1,0 +1,21 @@
+pattern_name: reactome_xrefs
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/reactome_xrefs
+
+annotationProperties:
+  xref: oboInOwl:hasDbXref
+  label: rdfs:label
+
+data_vars:
+  Identifier: xsd:string
+  Name: xsd:string
+
+annotations:
+  - annotationProperty: xref
+    text: "reactome:%s"
+    vars:
+      - Identifier
+    annotations:
+      - annotationProperty: label
+        text: "%s"
+        vars: 
+          - Name  
