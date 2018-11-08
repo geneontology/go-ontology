@@ -32,6 +32,10 @@ ROBOT = $(ROBOT_ENV) robot
 OWLTOOLS_ENV = OWLTOOLS_MEMORY=8G
 OWLTOOLS = $(OWLTOOLS_ENV) owltools
 
+#DOSDP is used for turning tsv files into pieces of ontologies for imports
+DOSDP_ENV = JAVA_OPTS=-Xmx8G
+DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
+
 # Oort build dir;
 # This also should be replaced by robot
 BUILD_DIR=build
@@ -52,6 +56,7 @@ PERLFILTER= ../util/filter-obo-for-standard-release.pl
 #
 RELEASE_SUFFIX=
 RELEASE_URIBASE= $(BASE)/releases/`date +%Y-%m-%d`$(RELEASE_SUFFIX)
+#RELEASE_URIBASE= $(BASE)/releases/2018-11-07$(RELEASE_SUFFIX)
 
 # basic relations are part_of & 3 regulations relations
 GO_BASIC_RELATIONS = BFO:0000050 RO:0002211 RO:0002212 RO:0002213
@@ -69,9 +74,9 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl go-basic.obo go-basic.json.gz subset-reports generate-mappings
+stage_release: test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl go-basic.obo go-basic.json.gz subset-reports generate-mappings 
 
-test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable
+test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable 
 
 # note: until we go live, the travis test must omit change-report. This is because as a demo repo,
 # we naturally fall behind the actual live PURL. **DELETE THIS TARGET WHEN WE GO LIVE**
@@ -162,10 +167,20 @@ change-report.txt: $(SRC) $(PREVIOUS)
 disjoint_in_taxon.owl: $(SRC)
 	$(ROBOT) query -i $< --construct $(SPARQLDIR)/constructDisjointInTaxon.sparql $@ -f ttl
 
-# merge in any CONSTRUCTs
-enhanced.owl: $(SRC) disjoint_in_taxon.owl
-	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
+#Uses file provided by Reactome to generate xrefs for import
+#add_xrefs:
+imports/reactome_xrefs.owl: $(SRC)
+	wget -O external2go/Reactions2GoTerms_human.txt --no-check-certificate https://reactome.org/download/current/Reactions2GoTerms_human.txt
+	sed -i '1s/.*/Identifier\tName\tdefined_class/' external2go/Reactions2GoTerms_human.txt
+	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=external2go/Reactions2GoTerms_human.txt --outfile=external2go/reactome_xrefs.ofn --obo-prefixes=true
+	$(ROBOT) convert --input external2go/reactome_xrefs.ofn --output imports/reactome_xrefs.owl
 
+# merge in any CONSTRUCTs
+# and xrefs to import
+enhanced.owl: $(SRC) disjoint_in_taxon.owl imports/reactome_xrefs.owl
+	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
+	$(ROBOT) merge -i imports/reactome_xrefs.owl -o $@ 
+	
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
 reasoned.owl: enhanced.owl $(SRC)-check
@@ -180,7 +195,7 @@ $(GO_PLUS).owl: reasoned.owl
 # GO artifacts to merge are hardcoded here.
 go-base.owl: enhanced.owl
 	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o -f ofn $@.tmp &&\
-	$(ROBOT) merge -i $@.tmp -i extensions/go-gci.owl -i extensions/go-bridge.owl -i imports/ro_pending.owl -i imports/x-disjoint.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
+	$(ROBOT) merge -i $@.tmp -i extensions/go-gci.owl -i extensions/go-bridge.owl -i imports/ro_pending.owl -i imports/x-disjoint.owl -i imports/reactome_xrefs.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
 
 # ----------------------------------------
 # OBO and subsets
@@ -398,7 +413,7 @@ imports/substance_by_role.owl: imports/substance_by_role.obo
 # Manually add all ID spaces here; only do this for xrefs that are managed within the obo file.
 generate-mappings: go-basic.obo
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals EC KEGG MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia
-
+	
 # ----------------------------------------
 # TAXON GROUPINGS
 # ----------------------------------------
