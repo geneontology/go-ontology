@@ -175,9 +175,23 @@ imports/reactome_xrefs.owl: $(SRC)
 	$(ROBOT) convert --input external2go/reactome_xrefs.ofn --output imports/reactome_xrefs.owl
 
 # merge in any CONSTRUCTs
-# and xrefs to import
-enhanced.owl: $(SRC) disjoint_in_taxon.owl imports/reactome_xrefs.owl
+# add xrefs to import
+# the following appears to work - enhanced.owl looks as expected
+# but way down the pipe produces errors related to CHEBI - so splitting as you see below
+#Error: 
+#OWLTOOLS_MEMORY=8G owltools --use-catalog reasoned.owl --remove-imports-declarations --remove-dangling --make-subset-by-properties BFO:0000050 RO:0002211 RO:0002212 RO:0002213 BFO:0000051 BFO:0000066 RO:0002091 RO:0002092 RO:0002093 --set-ontology-id http://purl.obolibrary.org/obo/go.owl -o -f obo go-pre.obo.tmp && egrep -v '(property_value|relationship): never_in_taxon' go-pre.obo.tmp > go-pre.obo
+#Exception in thread "main" org.semanticweb.owlapi.model.OWLOntologyStorageException: org.obolibrary.oboformat.model.FrameStructureException: multiple name tags not allowed. in frame:Frame(CHEBI:67208 id( CHEBI:67208)is_a( CHEBI:33697)def( A double stranded ribonucleic acid.)synonym( double stranded ribonucleic acid RELATED)name( dsRNA)name( double-stranded RNA))
+
+#enhanced.owl: $(SRC) disjoint_in_taxon.owl imports/reactome_xrefs.owl
+#	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
+#	$(ROBOT) merge -i $@ -i imports/reactome_xrefs.owl -o $@
+
+# merge in any CONSTRUCTs
+tmp_enhanced.owl: $(SRC) disjoint_in_taxon.owl
 	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
+
+# add xrefs to import
+enhanced.owl: $(SRC) tmp_enhanced.owl
 	$(ROBOT) merge -i $@ -i imports/reactome_xrefs.owl -o $@
 	
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
