@@ -168,31 +168,17 @@ disjoint_in_taxon.owl: $(SRC)
 
 #Uses file provided by Reactome to generate xrefs for import
 #add_xrefs:
-imports/reactome_xrefs.owl: $(SRC)
+imports/reactome_xrefs_import.owl: $(SRC)
 	wget -O external2go/Reactions2GoTerms_human.txt --no-check-certificate https://reactome.org/download/current/Reactions2GoTerms_human.txt
 	sed -i '1s/.*/Identifier\tName\tdefined_class/' external2go/Reactions2GoTerms_human.txt
+	perl -i.bak -pe 's/[^[:ascii:]]//g' external2go/Reactions2GoTerms_human.txt
+	rm external2go/Reactions2GoTerms_human.txt.bak
 	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=external2go/Reactions2GoTerms_human.txt --outfile=external2go/reactome_xrefs.ofn --obo-prefixes=true
-	$(ROBOT) convert --input external2go/reactome_xrefs.ofn --output imports/reactome_xrefs.owl
+	$(ROBOT) convert --input external2go/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
 # merge in any CONSTRUCTs
-# add xrefs to import
-# the following appears to work - enhanced.owl looks as expected
-# but way down the pipe produces errors related to CHEBI - so splitting as you see below
-#Error: 
-#OWLTOOLS_MEMORY=8G owltools --use-catalog reasoned.owl --remove-imports-declarations --remove-dangling --make-subset-by-properties BFO:0000050 RO:0002211 RO:0002212 RO:0002213 BFO:0000051 BFO:0000066 RO:0002091 RO:0002092 RO:0002093 --set-ontology-id http://purl.obolibrary.org/obo/go.owl -o -f obo go-pre.obo.tmp && egrep -v '(property_value|relationship): never_in_taxon' go-pre.obo.tmp > go-pre.obo
-#Exception in thread "main" org.semanticweb.owlapi.model.OWLOntologyStorageException: org.obolibrary.oboformat.model.FrameStructureException: multiple name tags not allowed. in frame:Frame(CHEBI:67208 id( CHEBI:67208)is_a( CHEBI:33697)def( A double stranded ribonucleic acid.)synonym( double stranded ribonucleic acid RELATED)name( dsRNA)name( double-stranded RNA))
-
-#enhanced.owl: $(SRC) disjoint_in_taxon.owl imports/reactome_xrefs.owl
-#	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
-#	$(ROBOT) merge -i $@ -i imports/reactome_xrefs.owl -o $@
-
-# merge in any CONSTRUCTs
-tmp_enhanced.owl: $(SRC) disjoint_in_taxon.owl
+enhanced.owl: $(SRC) disjoint_in_taxon.owl 
 	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
-
-# add xrefs to import
-enhanced.owl: $(SRC) tmp_enhanced.owl
-	$(ROBOT) merge -i $@ -i imports/reactome_xrefs.owl -o $@
 	
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
@@ -206,9 +192,9 @@ $(GO_PLUS).owl: reasoned.owl
 
 # Create release file containing GO-asserted axioms, no external axioms, and no inferences.
 # GO artifacts to merge are hardcoded here.
-go-base.owl: enhanced.owl
+go-base.owl: enhanced.owl imports/reactome_xrefs_import.owl
 	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o -f ofn $@.tmp &&\
-	$(ROBOT) merge -i $@.tmp -i extensions/go-gci.owl -i extensions/go-bridge.owl -i imports/ro_pending.owl -i imports/x-disjoint.owl -i imports/reactome_xrefs.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
+	$(ROBOT) merge -i $@.tmp -i extensions/go-gci.owl -i extensions/go-bridge.owl -i imports/ro_pending.owl -i imports/x-disjoint.owl -i imports/reactome_xrefs_import.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
 
 # ----------------------------------------
 # OBO and subsets
@@ -278,7 +264,7 @@ subsets/%.tsv: subsets/%.owl
 # IMPORT MODULES
 # ----------------------------------------
 
-IMPORTS = chebi cl po pato ro ncbitaxon uberon ddanat fao oba so
+IMPORTS = chebi cl po pato ro ncbitaxon uberon ddanat fao oba so reactome_xrefs
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
