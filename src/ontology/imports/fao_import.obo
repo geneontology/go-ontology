@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2018-11-06/imports/fao_import.owl
+data-version: go/releases/2018-11-07/imports/fao_import.owl
 ontology: go/imports/fao_import
 
 [Term]
@@ -32,6 +32,12 @@ id: FAO:0000010
 name: sporophore
 def: "A structure directly within which spores are contained or from which spores are formed." []
 synonym: "spore-bearing organ" RELATED []
+is_a: FAO:0000001 ! fungal structure
+
+[Term]
+id: FAO:0000011
+name: mycelium
+def: "A group or mass of discrete hyphae; the vegetative structure of many fungi." []
 is_a: FAO:0000001 ! fungal structure
 
 [Term]
@@ -185,6 +191,18 @@ id: FAO:0001001
 name: hypha
 def: "A threadlike, tubular filamentous fungal structure." []
 is_a: FAO:0000001 ! fungal structure
+
+[Term]
+id: FAO:0001030
+name: substrate mycelium
+def: "An invasive mycelium that forms within a solid or semi-solid substrate such as wood, soil or agar." []
+is_a: FAO:0000011 ! mycelium
+
+[Term]
+id: FAO:0001031
+name: aerial mycelium
+def: "A mycelium that forms prior to sporulation and extends aerially, or perpendicular to its substrate." []
+is_a: FAO:0000011 ! mycelium
 
 [Typedef]
 id: develops_from
