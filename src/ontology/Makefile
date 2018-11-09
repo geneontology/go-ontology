@@ -80,7 +80,7 @@ test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable
 # note: until we go live, the travis test must omit change-report. This is because as a demo repo,
 # we naturally fall behind the actual live PURL. **DELETE THIS TARGET WHEN WE GO LIVE**
 #travis_test: $(SRC)-check sparql_test reasoned.owl
-travis_test: reasoned.owl $(SRC)-check sparql_test change-report.txt all_reports
+travis_test: imports/reactome_xrefs_import.owl reasoned.owl $(SRC)-check sparql_test change-report.txt all_reports
 
 unsatisfiable: extensions/go-gaf.owl
 	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
