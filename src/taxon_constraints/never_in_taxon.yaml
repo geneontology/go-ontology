@@ -7,8 +7,15 @@ classes:
 relations: 
   in_taxon: RO:0002162
 
+annotationProperties:
+  never_in_taxon: RO:0002161
+
 vars:
   taxon: thing
+
+annotations:
+  - annotationProperty: never_in_taxon
+    var: taxon
 
 logical_axioms:
   - axiom_type: subClassOf
