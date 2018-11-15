@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2018-05-21/imports/ro_import.owl
+data-version: go/releases/2018-11-15/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -19,6 +19,11 @@ name: independent continuant
 def: "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." []
 is_a: BFO:0000002 ! continuant
 disjoint_from: BFO:0000020 ! specifically dependent continuant
+
+[Term]
+id: BFO:0000006
+name: spatial region
+is_a: BFO:0000141 ! immaterial entity
 
 [Term]
 id: BFO:0000015
@@ -74,25 +79,46 @@ name: immaterial entity
 is_a: BFO:0000004 ! independent continuant
 
 [Term]
+id: CARO:0000000
+name: anatomical entity
+is_a: CARO:0030000 ! biological entity
+
+[Term]
 id: CARO:0000003
-name: anatomical structure
+name: connected anatomical structure
 is_a: CARO:0000006 ! material anatomical entity
 
 [Term]
 id: CARO:0000006
 name: material anatomical entity
 is_a: BFO:0000040 ! material entity
+is_a: CARO:0000000 ! anatomical entity
+
+[Term]
+id: CARO:0000007
+name: immaterial anatomical entity
+is_a: BFO:0000141 ! immaterial entity
+
+[Term]
+id: CARO:0001010
+name: organism or virus or viroid
+is_a: BFO:0000040 ! material entity
 
 [Term]
 id: CARO:0010000
 name: multicellular anatomical structure
-is_a: CARO:0000003 ! anatomical structure
+is_a: CARO:0000003 ! connected anatomical structure
 relationship: directly_develops_from CARO:0010000 ! multicellular anatomical structure
+
+[Term]
+id: CARO:0030000
+name: biological entity
+is_a: BFO:0000004 ! independent continuant
 
 [Term]
 id: CL:0000000
 name: cell
-is_a: CARO:0000003 ! anatomical structure
+is_a: CARO:0000003 ! connected anatomical structure
 relationship: directly_develops_from CL:0000000 ! cell
 
 [Term]
@@ -137,6 +163,14 @@ name: laminar
 is_a: PATO:0000141 ! structure
 
 [Typedef]
+id: actively_participates_in
+name: actively participates in
+def: "x actively participates in y if and only if x participates in y and x realizes some active role" []
+xref: RO:0002217
+is_a: participates_in ! participates in
+inverse_of: has_active_participant ! has active participant
+
+[Typedef]
 id: activity_directly_negatively_regulates_activity_of
 name: activity directly negatively regulates activity of
 def: "Holds between molecular entities A and B where A can physically interact with B and in doing so negatively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
@@ -164,7 +198,7 @@ is_a: molecularly_interacts_with ! molecularly interacts with
 [Typedef]
 id: acts_upstream_of
 name: acts upstream of
-def: "c involved in regulation of p if c enables f and f causally upstream of p" []
+def: "c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes." []
 xref: RO:0002263
 holds_over_chain: enables causally_upstream_of
 is_a: acts_upstream_of_or_within ! acts upstream of or within
@@ -346,7 +380,6 @@ id: causally_related_to
 name: causally related to
 def: "This relation groups causal relations between material entities and causal relations between processes" []
 xref: RO:0002410
-is_a: related_via_dependence_to ! related via dependence to
 
 [Typedef]
 id: causally_upstream_of
@@ -494,7 +527,7 @@ id: develops_in
 name: develops in
 def: "x develops_in y if x is located in y whilst x is developing" []
 xref: RO:0002226
-domain: CARO:0000003 ! anatomical structure
+domain: CARO:0000000 ! anatomical entity
 holds_over_chain: directly_develops_from located_in
 is_a: developmentally_preceded_by ! developmentally preceded by
 
@@ -670,6 +703,7 @@ is_a: output_of ! output of
 [Typedef]
 id: functionally_related_to
 name: functionally related to
+def: "A grouping relationship for any relationship directly involving a function, or that holds because of a function of one of the related entities." []
 xref: RO:0002328
 
 [Typedef]
@@ -678,6 +712,20 @@ name: happens during
 xref: RO:0002092
 is_transitive: true
 is_a: ends_during ! ends during
+
+[Typedef]
+id: has_active_participant
+name: has active participant
+def: "x has participant y if and only if x realizes some active role that inheres in y" []
+xref: RO:0002218
+is_a: has_participant ! has participant
+
+[Typedef]
+id: has_anatomical_participant
+name: has anatomical participant
+def: "p has anatomical participant c iff p has participant c, and c is an anatomical entity" []
+xref: RO:0040036
+is_a: has_participant ! has participant
 
 [Typedef]
 id: has_component
@@ -704,8 +752,8 @@ id: has_developmental_contribution_from
 name: has developmental contribution from
 def: "x has developmental contribution from y iff x has some part z such that z develops from y" []
 xref: RO:0002254
-domain: BFO:0000004 ! independent continuant
-range: CARO:0000003 ! anatomical structure
+domain: CARO:0000000 ! anatomical entity
+range: CARO:0000000 ! anatomical entity
 holds_over_chain: has_part develops_from
 is_a: developmentally_preceded_by ! developmentally preceded by
 inverse_of: developmentally_contributes_to ! developmentally contributes to
@@ -715,6 +763,8 @@ id: has_developmental_potential_involving
 name: has developmental potential involving
 def: "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)." []
 xref: RO:0002384
+domain: CARO:0000000 ! anatomical entity
+range: CARO:0000000 ! anatomical entity
 is_a: developmentally_related_to ! developmentally related to
 
 [Typedef]
@@ -887,8 +937,8 @@ is_a: results_in_transport_to_from_or_in ! results in transport to from or in
 transitive_over: part_of ! part of
 
 [Typedef]
-id: helper_property
-name: helper property
+id: helper_property_(not_for_use_in_curation)
+name: helper property (not for use in curation)
 xref: RO:0002464
 
 [Typedef]
@@ -943,7 +993,8 @@ id: in_taxon
 name: in taxon
 def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
 xref: RO:0002162
-range: BFO:0000004 ! independent continuant
+range: CARO:0001010 ! organism or virus or viroid
+holds_over_chain: actively_participates_in in_taxon
 holds_over_chain: capable_of in_taxon
 holds_over_chain: develops_from in_taxon
 holds_over_chain: develops_from_part_of in_taxon
@@ -998,7 +1049,7 @@ is_a: participates_in ! participates in
 id: interaction_relation_helper_property
 name: interaction relation helper property
 xref: RO:0002563
-is_a: helper_property ! helper property
+is_a: helper_property_(not_for_use_in_curation) ! helper property (not for use in curation)
 
 [Typedef]
 id: interacts_with
@@ -1016,12 +1067,14 @@ name: involved in
 def: "c involved_in p if and only if c enables some process p', and p' is part of p" []
 xref: RO:0002331
 holds_over_chain: enables part_of
+is_a: actively_participates_in ! actively participates in
 is_a: involved_in_or_involved_in_regulation_of ! involved in or involved in regulation of
 transitive_over: part_of ! part of
 
 [Typedef]
 id: involved_in_negative_regulation_of
 name: involved in negative regulation of
+def: "c involved in regulation of p if c is involved in some p' and p' negatively regulates some p" []
 xref: RO:0002430
 holds_over_chain: enables negatively_regulates
 holds_over_chain: involved_in negatively_regulates
@@ -1039,6 +1092,7 @@ is_a: functionally_related_to ! functionally related to
 [Typedef]
 id: involved_in_positive_regulation_of
 name: involved in positive regulation of
+def: "c involved in regulation of p if c is involved in some p' and p' positively regulates some p" []
 xref: RO:0002429
 holds_over_chain: enables positively_regulates
 holds_over_chain: involved_in positively_regulates
@@ -1105,6 +1159,8 @@ id: located_in
 name: located in
 def: "a relation between two independent continuants, the target and the location, in which the target is entirely within the location" []
 xref: RO:0001025
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000004 ! independent continuant
 is_transitive: true
 
 [Typedef]
@@ -1151,6 +1207,13 @@ holds_over_chain: ends_with negatively_regulates
 is_a: causally_upstream_of,_negative_effect ! causally upstream of, negative effect
 is_a: regulates ! regulates
 inverse_of: negatively_regulated_by ! negatively regulated by
+
+[Typedef]
+id: obsolete_related_via_dependence_to
+name: obsolete related via dependence to
+def: "A relationship that holds between two entities, where the relationship holds based on the presence or absence of statistical dependence relationship. The entities may be statistical variables, or they may be other kinds of entities such as diseases, chemical entities or processes." []
+xref: RO:0002609
+is_obsolete: true
 
 [Typedef]
 id: occurs_across
@@ -1227,6 +1290,12 @@ xref: RO:0000056
 domain: BFO:0000002 ! continuant
 range: BFO:0000003 ! occurrent
 inverse_of: has_participant ! has participant
+
+[Typedef]
+id: phosphorylates
+name: phosphorylates
+xref: RO:0002447
+is_a: molecularly_interacts_with ! molecularly interacts with
 
 [Typedef]
 id: positively_regulated_by
@@ -1335,12 +1404,6 @@ xref: RO:0002011
 holds_over_chain: regulates transports_or_maintains_localization_of
 
 [Typedef]
-id: related_via_dependence_to
-name: related via dependence to
-def: "A relationship that holds between two entities, where the relationship holds based on the presence or absence of statistical dependence relationship. The entities may be statistical variables, or they may be other kinds of entities such as diseases, chemical entities or processes." []
-xref: RO:0002609
-
-[Typedef]
 id: related_via_localization_to
 name: related via localization to
 def: "A relationship that holds via some process of localization" []
@@ -1353,8 +1416,8 @@ id: results_in_acquisition_of_features_of
 name: results in acquisition of features of
 def: "The relationship that links a specified entity with the process that results in an unspecified entity acquiring the features and characteristics of the specified entity" []
 xref: RO:0002315
-range: CL:0000000 ! cell
-is_a: has_participant ! has participant
+range: CARO:0000003 ! connected anatomical structure
+is_a: has_anatomical_participant ! has anatomical participant
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1392,7 +1455,7 @@ id: results_in_development_of
 name: results in development of
 def: "p 'results in development of' c if and only if p is a developmental process and p results in the state of c changing from its initial state as a primordium or anlage through its mature state and to its final state." []
 xref: RO:0002296
-is_a: has_participant ! has participant
+is_a: has_anatomical_participant ! has anatomical participant
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1401,7 +1464,7 @@ name: results in developmental progression of
 def: "p results in the developmental progression of s iff p is a developmental process and s is an anatomical structure and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss)." []
 xref: RO:0002295
 domain: GO:0008150
-range: CARO:0000003 ! anatomical structure
+range: CARO:0000003 ! connected anatomical structure
 is_a: developmentally_related_to ! developmentally related to
 
 [Typedef]
@@ -1423,7 +1486,7 @@ inverse_of: formed_as_result_of ! formed as result of
 id: results_in_growth_of
 name: results in growth of
 xref: RO:0002343
-is_a: has_participant ! has participant
+is_a: has_anatomical_participant ! has anatomical participant
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1431,7 +1494,7 @@ id: results_in_maturation_of
 name: results in maturation of
 def: "The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in it's shape and results in an end point state of that entity." []
 xref: RO:0002299
-is_a: has_participant ! has participant
+is_a: has_anatomical_participant ! has anatomical participant
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1439,7 +1502,7 @@ id: results_in_morphogenesis_of
 name: results in morphogenesis of
 def: "The relationship that links an entity with the process that results in the formation and shaping of that entity over time from an immature to a mature state." []
 xref: RO:0002298
-is_a: has_participant ! has participant
+is_a: has_anatomical_participant ! has anatomical participant
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1447,14 +1510,14 @@ id: results_in_movement_of
 name: results in movement of
 def: "Holds between p and c when p is locomotion process and the outcome of this process is the change of location of c" []
 xref: RO:0002565
-is_a: has_participant ! has participant
+is_a: has_anatomical_participant ! has anatomical participant
 
 [Typedef]
 id: results_in_organization_of
 name: results in organization of
 def: "p results in organization of c iff p results in the assembly, arrangement of constituent parts, or disassembly of c" []
 xref: RO:0002592
-is_a: has_participant ! has participant
+is_a: has_anatomical_participant ! has anatomical participant
 
 [Typedef]
 id: results_in_specification_of
@@ -1469,7 +1532,7 @@ id: results_in_structural_organization_of
 name: results in structural organization of
 def: "A relationship between a process and an anatomical entity such that the process contributes to the act of creating the structural organization of the anatomical entity." []
 xref: RO:0002355
-is_a: has_participant ! has participant
+is_a: has_anatomical_participant ! has anatomical participant
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1568,7 +1631,7 @@ id: transports_or_maintains_localization_of
 name: transports or maintains localization of
 def: "Holds between p and c when p is a localization process (localization covers maintenance of localization as well as its establishment)  and the outcome of this process is to regulate the localization of c." []
 xref: RO:0002313
-is_a: has_participant ! has participant
+is_a: has_anatomical_participant ! has anatomical participant
 is_a: related_via_localization_to ! related via localization to
 transitive_over: has_part ! has part
 
