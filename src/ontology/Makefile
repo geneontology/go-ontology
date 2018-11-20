@@ -164,11 +164,6 @@ change-report.txt: $(SRC) $(PREVIOUS)
 # OWL
 # ----------------------------------------
 
-# Translate never_in_taxon annotation assertion axioms to
-# logical disjointness axioms
-disjoint_in_taxon.owl: $(SRC)
-	$(ROBOT) query -i $< --construct $(SPARQLDIR)/constructDisjointInTaxon.sparql $@ -f ttl
-
 #Uses file provided by Reactome to generate xrefs for import
 #add_xrefs:
 imports/reactome_xrefs_import.owl: $(SRC)
@@ -180,7 +175,7 @@ imports/reactome_xrefs_import.owl: $(SRC)
 	$(ROBOT) convert --input external2go/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
 # merge in any CONSTRUCTs
-enhanced.owl: $(SRC) disjoint_in_taxon.owl 
+enhanced.owl: $(SRC)
 	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
 	
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
@@ -275,8 +270,8 @@ all_imports: $(IMPORTS_OWL)
 clean_imports:
 	rm mirror/*
 
-seed.txt: enhanced.owl
-	$(ROBOT) query -f csv -i $< --select ../sparql/terms.sparql $@
+seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupings.owl
+	$(ROBOT) merge -i enhanced.owl -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings.owl query -f csv --select ../sparql/terms.sparql $@
 
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
