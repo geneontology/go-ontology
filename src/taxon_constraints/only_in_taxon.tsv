@@ -609,4 +609,4 @@ GO:0032258	protein localization by the Cvt pathway	NCBITaxon:147537	Saccharomyco
 GO:0007295	growth of a germarium-derived egg chamber	NCBITaxon:50557	Insecta
 GO:0007299	ovarian follicle cell-cell adhesion	NCBITaxon:50557	Insecta
 GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:33208	Metazoa
-GO:0048010	vascular endothelial growth factor receptor signaling pathway	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0048010	vascular endothelial growth factor receptor signaling pathway	NCBITaxon:6072	Eumetazoa
