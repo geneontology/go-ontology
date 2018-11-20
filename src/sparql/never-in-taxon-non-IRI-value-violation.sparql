@@ -5,11 +5,12 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX never_in_taxon: <http://purl.obolibrary.org/obo/RO_0002161>
 
-# This could be generalized to check any annotation properties that 
-# are meant to have term (IRI) values, and sometimes accidentally get 
+# This could be generalized to check any annotation properties that
+# are meant to have term (IRI) values, and sometimes accidentally get
 # filled with strings.
-SELECT ?goTerm ?taxon
+SELECT ?entity ?property ?value
 WHERE {
-  ?goTerm never_in_taxon: ?taxon .
-  FILTER (!isIRI(?taxon))
+  VALUES ?property { never_in_taxon: }
+  ?entity ?property ?value .
+  FILTER (!isIRI(?value))
 }

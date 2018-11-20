@@ -73,9 +73,9 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl go-basic.obo go-basic.json.gz subset-reports generate-mappings 
+stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl go-basic.obo go-basic.json.gz subset-reports generate-mappings
 
-test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable 
+test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable
 
 # note: until we go live, the travis test must omit change-report. This is because as a demo repo,
 # we naturally fall behind the actual live PURL. **DELETE THIS TARGET WHEN WE GO LIVE**
@@ -177,9 +177,9 @@ imports/reactome_xrefs_import.owl: $(SRC)
 	$(ROBOT) convert --input external2go/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
 # merge in any CONSTRUCTs
-enhanced.owl: $(SRC) disjoint_in_taxon.owl 
+enhanced.owl: $(SRC) disjoint_in_taxon.owl
 	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
-	
+
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
 reasoned.owl: enhanced.owl $(SRC)-check
@@ -412,7 +412,7 @@ imports/substance_by_role.owl: imports/substance_by_role.obo
 # Manually add all ID spaces here; only do this for xrefs that are managed within the obo file.
 generate-mappings: go-basic.obo
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals EC KEGG MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia
-	
+
 # ----------------------------------------
 # TAXON GROUPINGS
 # ----------------------------------------
@@ -433,11 +433,10 @@ imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match replacedby-obsolete duplicate-exact-synonym duplicate-synonym never-in-taxon-non-IRI-value
 
 # run all violation checks
-VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
 sparql_test: $(SRC) reasoned.owl
-	$(ROBOT) verify --input $< --queries $(VARGS) -O reports/
-	$(ROBOT) verify --input reasoned.owl --queries ../sparql/multiple-class-links-violation.sparql -O reports/
+	$(ROBOT) verify --input reasoned.owl --queries $(SPARQLDIR)/multiple-class-links-violation.sparql -O reports/
 	$(ROBOT) merge --input $< verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
+	$(ROBOT) report --input $< --profile profile.txt --output reports/report.tsv
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
