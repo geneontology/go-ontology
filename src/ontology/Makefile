@@ -424,8 +424,8 @@ generate-mappings: go-basic.obo
 # TAXON GROUPINGS
 # ----------------------------------------
 
-imports/go-taxon-groupings.owl: imports/go-taxon-groupings-edit.owl
-	$(ROBOT) reason -i $< -r hermit -o $@
+imports/go-taxon-groupings.owl: imports/go-taxon-groupings-edit.owl imports/ncbitaxon_import.owl
+	$(ROBOT) merge -i $< -i imports/ncbitaxon_import.owl reason -r hermit unmerge -i imports/ncbitaxon_import.owl -o $@
 
 imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 	$(ROBOT) convert -i $< -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@
