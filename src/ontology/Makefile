@@ -270,8 +270,8 @@ all_imports: $(IMPORTS_OWL)
 clean_imports:
 	rm mirror/*
 
-seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupings.owl
-	$(ROBOT) merge -i enhanced.owl -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings.owl query -f csv --select ../sparql/terms.sparql $@
+seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupings-edit.owl
+	$(ROBOT) merge -i enhanced.owl -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings-edit.owl query -f csv --select ../sparql/terms.sparql $@
 
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
