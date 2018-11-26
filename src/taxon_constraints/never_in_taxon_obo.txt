@@ -1,0 +1,359 @@
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4896 ! Schizosaccharomyces pombe
+relationship: never_in_taxon NCBITaxon:40674 ! Mammalia
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:40674 ! Mammalia
+relationship: never_in_taxon NCBITaxon:4896 ! Schizosaccharomyces pombe
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:554915 ! Amoebozoa
+relationship: never_in_taxon NCBITaxon:147554 ! Schizosaccharomycetes
+relationship: never_in_taxon NCBITaxon:4891 ! Saccharomycetes
+relationship: never_in_taxon NCBITaxon:2759 ! Eukaryota
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:40674 ! Mammalia
+relationship: never_in_taxon NCBITaxon:3176 ! Zygnematales
+relationship: never_in_taxon NCBITaxon:3312 ! Coniferophyta
+relationship: never_in_taxon NCBITaxon:3378 ! Gnetales
+relationship: never_in_taxon NCBITaxon:3398 ! Magnoliophyta
+relationship: never_in_taxon NCBITaxon:4890 ! Ascomycota
+relationship: never_in_taxon NCBITaxon:5782 ! Dictyostelium
+relationship: never_in_taxon NCBITaxon:147554 ! Schizosaccharomycetes
+relationship: never_in_taxon NCBITaxon:4891 ! Saccharomycetes
+relationship: never_in_taxon NCBITaxon:2 ! Bacteria
+relationship: never_in_taxon NCBITaxon:33090 ! Viridiplantae
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:2 ! Bacteria
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon:27896 ! Planariidae
+relationship: never_in_taxon NCBITaxon:33090 ! Viridiplantae
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:3176 ! Zygnematales
+relationship: never_in_taxon NCBITaxon:3312 ! Coniferophyta
+relationship: never_in_taxon NCBITaxon:3378 ! Gnetales
+relationship: never_in_taxon NCBITaxon:3398 ! Magnoliophyta
+relationship: never_in_taxon NCBITaxon:4890 ! Ascomycota
+relationship: never_in_taxon NCBITaxon:5782 ! Dictyostelium
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon:4890 ! Ascomycota
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:27896 ! Planariidae
+relationship: never_in_taxon NCBITaxon:33090 ! Viridiplantae
+relationship: never_in_taxon NCBITaxon:4751 {comment="GOTAX:0000519"} ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:33090 ! Viridiplantae
+relationship: never_in_taxon NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:33090 ! Viridiplantae
+relationship: never_in_taxon NCBITaxon:3398 ! Magnoliophyta
+relationship: never_in_taxon NCBITaxon:2759 ! Eukaryota
+relationship: never_in_taxon NCBITaxon:4896 ! Schizosaccharomyces pombe
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:2759 ! Eukaryota
+relationship: never_in_taxon NCBITaxon:28009 {source="PMID:21311032"} ! Choanoflagellida
+relationship: never_in_taxon NCBITaxon:33208 {source="PMID:21311032"} ! Metazoa
+relationship: never_in_taxon NCBITaxon:4751 {source="PMID:21311032"} ! Fungi
+relationship: never_in_taxon NCBITaxon:554915 {source="PMID:21311032"} ! Amoebozoa
+relationship: never_in_taxon NCBITaxon:2 ! Bacteria
+relationship: never_in_taxon NCBITaxon:2157 ! Archaea
+relationship: never_in_taxon NCBITaxon:28009 {source="PMID:21311032"} ! Choanoflagellida
+relationship: never_in_taxon NCBITaxon:33208 {source="PMID:21311032"} ! Metazoa
+relationship: never_in_taxon NCBITaxon:4751 {source="PMID:21311032"} ! Fungi
+relationship: never_in_taxon NCBITaxon:554915 {source="PMID:21311032"} ! Amoebozoa
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:28009 {source="PMID:21311032"} ! Choanoflagellida
+relationship: never_in_taxon NCBITaxon:33208 {source="PMID:21311032"} ! Metazoa
+relationship: never_in_taxon NCBITaxon:4751 {source="PMID:21311032"} ! Fungi
+relationship: never_in_taxon NCBITaxon:554915 {source="PMID:21311032"} ! Amoebozoa
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:147554 ! Schizosaccharomycetes
+relationship: never_in_taxon NCBITaxon:33630 ! Alveolata
+relationship: never_in_taxon NCBITaxon:33682 ! Euglenozoa
+relationship: never_in_taxon NCBITaxon:38254 ! Glaucocystophyceae
+relationship: never_in_taxon NCBITaxon:4891 ! Saccharomycetes
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:28009 ! Choanoflagellida
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:554915 ! Amoebozoa
+relationship: never_in_taxon NCBITaxon:4896 ! Schizosaccharomyces pombe
+relationship: never_in_taxon NCBITaxon:4932 ! Saccharomyces cerevisiae
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4896 ! Schizosaccharomyces pombe
+relationship: never_in_taxon NCBITaxon:4932 ! Saccharomyces cerevisiae
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:4890 ! Ascomycota
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:131567 ! cellular organisms
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:2 ! Bacteria
+relationship: never_in_taxon NCBITaxon:33154 ! Opisthokonta
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4890 ! Ascomycota
+relationship: never_in_taxon NCBITaxon:33083 ! Dictyostelids
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:28009 ! Choanoflagellida
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:554915 ! Amoebozoa
+relationship: never_in_taxon NCBITaxon:33090 ! Viridiplantae
+relationship: never_in_taxon NCBITaxon:2759 ! Eukaryota
+relationship: never_in_taxon NCBITaxon:2759 ! Eukaryota
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4896 ! Schizosaccharomyces pombe
+relationship: never_in_taxon NCBITaxon:4932 ! Saccharomyces cerevisiae
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:33083 ! Dictyostelids
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon:7742 ! Vertebrata <Metazoa>
+relationship: never_in_taxon NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:131567 ! cellular organisms
+relationship: never_in_taxon NCBITaxon:451864 ! Dikarya
+relationship: never_in_taxon NCBITaxon:4896 ! Schizosaccharomyces pombe
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:6237 {source="GOC:kmv"} ! Caenorhabditis
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:7742 ! Vertebrata <Metazoa>
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:2759 ! Eukaryota
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:4890 ! Ascomycota
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4896 ! Schizosaccharomyces pombe
+relationship: never_in_taxon NCBITaxon:4932 ! Saccharomyces cerevisiae
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:131567 ! cellular organisms
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+relationship: never_in_taxon NCBITaxon:4896 {source="PMID:21597881"} ! Schizosaccharomyces pombe
+relationship: never_in_taxon NCBITaxon:4932 {source="PMID:21597881"} ! Saccharomyces cerevisiae
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:27896 ! Planariidae
+relationship: never_in_taxon NCBITaxon:33090 ! Viridiplantae
+relationship: never_in_taxon NCBITaxon:4751 {comment="GOTAX:0000519"} ! Fungi
+relationship: never_in_taxon NCBITaxon:4896 ! Schizosaccharomyces pombe
+relationship: never_in_taxon NCBITaxon:4932 ! Saccharomyces cerevisiae
+relationship: never_in_taxon NCBITaxon:4896 ! Schizosaccharomyces pombe
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:147537 ! Saccharomycotina
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:28009 {source="PMID:21311032"} ! Choanoflagellida
+relationship: never_in_taxon NCBITaxon:33208 {source="PMID:21311032"} ! Metazoa
+relationship: never_in_taxon NCBITaxon:4751 {source="PMID:21311032"} ! Fungi
+relationship: never_in_taxon NCBITaxon:554915 {source="PMID:21311032"} ! Amoebozoa
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:3176 ! Zygnematales
+relationship: never_in_taxon NCBITaxon:3312 ! Coniferophyta
+relationship: never_in_taxon NCBITaxon:3378 ! Gnetales
+relationship: never_in_taxon NCBITaxon:3398 ! Magnoliophyta
+relationship: never_in_taxon NCBITaxon:4890 ! Ascomycota
+relationship: never_in_taxon NCBITaxon:5782 ! Dictyostelium
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:147554 ! Schizosaccharomycetes
+relationship: never_in_taxon NCBITaxon:2 ! Bacteria
+relationship: never_in_taxon NCBITaxon:2157 ! Archaea
+relationship: never_in_taxon NCBITaxon:241407 ! Saccharomycetales incertae sedis
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:451866 ! Taphrinomycotina
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4896 ! Schizosaccharomyces pombe
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:147554 ! Schizosaccharomycetes
+relationship: never_in_taxon NCBITaxon:2 ! Bacteria
+relationship: never_in_taxon NCBITaxon:2157 ! Archaea
+relationship: never_in_taxon NCBITaxon:241407 ! Saccharomycetales incertae sedis
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:451866 ! Taphrinomycotina
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon:147554 ! Schizosaccharomycetes
+relationship: never_in_taxon NCBITaxon:2 ! Bacteria
+relationship: never_in_taxon NCBITaxon:2157 ! Archaea
+relationship: never_in_taxon NCBITaxon:241407 ! Saccharomycetales incertae sedis
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:451866 ! Taphrinomycotina
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon:147554 ! Schizosaccharomycetes
+relationship: never_in_taxon NCBITaxon:2 ! Bacteria
+relationship: never_in_taxon NCBITaxon:2157 ! Archaea
+relationship: never_in_taxon NCBITaxon:241407 ! Saccharomycetales incertae sedis
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:451866 ! Taphrinomycotina
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon:147554 ! Schizosaccharomycetes
+relationship: never_in_taxon NCBITaxon:2 ! Bacteria
+relationship: never_in_taxon NCBITaxon:2157 ! Archaea
+relationship: never_in_taxon NCBITaxon:241407 ! Saccharomycetales incertae sedis
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:451866 ! Taphrinomycotina
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon:147554 ! Schizosaccharomycetes
+relationship: never_in_taxon NCBITaxon:2 ! Bacteria
+relationship: never_in_taxon NCBITaxon:2157 ! Archaea
+relationship: never_in_taxon NCBITaxon:241407 ! Saccharomycetales incertae sedis
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:451866 ! Taphrinomycotina
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon:147554 ! Schizosaccharomycetes
+relationship: never_in_taxon NCBITaxon:2 ! Bacteria
+relationship: never_in_taxon NCBITaxon:2157 ! Archaea
+relationship: never_in_taxon NCBITaxon:241407 ! Saccharomycetales incertae sedis
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:451866 ! Taphrinomycotina
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon:147554 ! Schizosaccharomycetes
+relationship: never_in_taxon NCBITaxon:2 ! Bacteria
+relationship: never_in_taxon NCBITaxon:2157 ! Archaea
+relationship: never_in_taxon NCBITaxon:241407 ! Saccharomycetales incertae sedis
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:451866 ! Taphrinomycotina
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:5878 ! Ciliophora
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:33083 ! Dictyostelids
+relationship: never_in_taxon NCBITaxon:147554 ! Schizosaccharomycetes
+relationship: never_in_taxon NCBITaxon:2 ! Bacteria
+relationship: never_in_taxon NCBITaxon:2157 ! Archaea
+relationship: never_in_taxon NCBITaxon:241407 ! Saccharomycetales incertae sedis
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:451866 ! Taphrinomycotina
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon:33090 ! Viridiplantae
+relationship: never_in_taxon NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+relationship: never_in_taxon NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+relationship: never_in_taxon NCBITaxon:9606 ! Homo sapiens
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+relationship: never_in_taxon NCBITaxon:2759 ! Eukaryota
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:2759 ! Eukaryota
+relationship: never_in_taxon NCBITaxon:4932 ! Saccharomyces cerevisiae
+relationship: never_in_taxon NCBITaxon:4932 ! Saccharomyces cerevisiae
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:3176 ! Zygnematales
+relationship: never_in_taxon NCBITaxon:3312 ! Coniferophyta
+relationship: never_in_taxon NCBITaxon:3378 ! Gnetales
+relationship: never_in_taxon NCBITaxon:3398 ! Magnoliophyta
+relationship: never_in_taxon NCBITaxon:3176 ! Zygnematales
+relationship: never_in_taxon NCBITaxon:3312 ! Coniferophyta
+relationship: never_in_taxon NCBITaxon:3378 ! Gnetales
+relationship: never_in_taxon NCBITaxon:3398 ! Magnoliophyta
+relationship: never_in_taxon NCBITaxon:7742 ! Vertebrata <Metazoa>
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:4890 ! Ascomycota
+relationship: never_in_taxon NCBITaxon:4890 ! Ascomycota
+relationship: never_in_taxon NCBITaxon:147554 ! Schizosaccharomycetes
+relationship: never_in_taxon NCBITaxon:147554 ! Schizosaccharomycetes
+relationship: never_in_taxon NCBITaxon:2 ! Bacteria
+relationship: never_in_taxon NCBITaxon:2157 ! Archaea
+relationship: never_in_taxon NCBITaxon:241407 ! Saccharomycetales incertae sedis
+relationship: never_in_taxon NCBITaxon:33208 ! Metazoa
+relationship: never_in_taxon NCBITaxon:451866 ! Taphrinomycotina
+relationship: never_in_taxon NCBITaxon:4930 ! Saccharomyces
+relationship: never_in_taxon NCBITaxon:8782 ! Aves
+relationship: never_in_taxon NCBITaxon:33090 ! Viridiplantae
+relationship: never_in_taxon NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4890 ! Ascomycota
+relationship: never_in_taxon NCBITaxon:4895 ! Schizosaccharomyces
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
+relationship: never_in_taxon NCBITaxon:4751 ! Fungi
