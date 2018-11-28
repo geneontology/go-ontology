@@ -1,0 +1,28 @@
+pattern_name: never_in_taxon
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/never_in_taxon
+
+classes:
+  thing: owl:Thing
+
+relations: 
+  in_taxon: RO:0002162
+
+annotationProperties:
+  never_in_taxon: RO:0002161
+
+vars:
+  taxon: thing
+
+annotations:
+  - annotationProperty: never_in_taxon
+    var: taxon
+
+logical_axioms:
+  - axiom_type: subClassOf
+    text: 'in_taxon only (not %s)'
+    vars:
+      - taxon
+  - axiom_type: disjointWith
+    text: 'in_taxon some %s'
+    vars:
+      - taxon

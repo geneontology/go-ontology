@@ -26,6 +26,9 @@ RELEASEDIR_IMPORTS=$(RELEASEDIR)/imports
 ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
 ROBOT = $(ROBOT_ENV) robot
 
+DOSDP_ENV = JAVA_OPTS=-Xmx8G
+DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
+
 # OWLTools is a swiss-army knife;
 # It does some things robot can't do, but eventually functionality should
 # move to robot
@@ -161,11 +164,6 @@ change-report.txt: $(SRC) $(PREVIOUS)
 # OWL
 # ----------------------------------------
 
-# Translate never_in_taxon annotation assertion axioms to
-# logical disjointness axioms
-disjoint_in_taxon.owl: $(SRC)
-	$(ROBOT) query -i $< --construct $(SPARQLDIR)/constructDisjointInTaxon.sparql $@ -f ttl
-
 #Uses file provided by Reactome to generate xrefs for import
 #add_xrefs:
 imports/reactome_xrefs_import.owl: $(SRC)
@@ -177,7 +175,7 @@ imports/reactome_xrefs_import.owl: $(SRC)
 	$(ROBOT) convert --input external2go/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
 # merge in any CONSTRUCTs
-enhanced.owl: $(SRC) disjoint_in_taxon.owl 
+enhanced.owl: $(SRC)
 	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
 	
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
@@ -194,7 +192,7 @@ $(GO_PLUS).owl: reasoned.owl
 # GO artifacts to merge are hardcoded here.
 go-base.owl: enhanced.owl imports/reactome_xrefs_import.owl
 	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o -f ofn $@.tmp &&\
-	$(ROBOT) merge -i $@.tmp -i extensions/go-gci.owl -i extensions/go-bridge.owl -i imports/ro_pending.owl -i imports/x-disjoint.owl -i imports/reactome_xrefs_import.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
+	$(ROBOT) merge -i $@.tmp -i extensions/go-gci.owl -i extensions/go-bridge.owl -i imports/ro_pending.owl -i imports/x-disjoint.owl -i imports/reactome_xrefs_import.owl -i imports/go_taxon_constraints.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
 
 # ----------------------------------------
 # OBO and subsets
@@ -264,7 +262,7 @@ subsets/%.tsv: subsets/%.owl
 # IMPORT MODULES
 # ----------------------------------------
 
-IMPORTS = chebi cl po pato ro ncbitaxon uberon ddanat fao oba so reactome_xrefs
+IMPORTS = chebi cl po pato ro ncbitaxon uberon ddanat fao oba so reactome_xrefs go_taxon_constraints
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
@@ -272,8 +270,8 @@ all_imports: $(IMPORTS_OWL)
 clean_imports:
 	rm mirror/*
 
-seed.txt: enhanced.owl
-	$(ROBOT) query -f csv -i $< --select ../sparql/terms.sparql $@
+seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupings-edit.owl
+	$(ROBOT) merge --collapse-import-closure false -i enhanced.owl -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings-edit.owl query -f csv --select ../sparql/terms.sparql $@
 
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
@@ -285,6 +283,15 @@ imports/%_import_pre.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
 
 imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
 	$(OWLTOOLS) $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $(BASE)/$@ -o $@
+
+../taxon_constraints/only_in_taxon.ofn: ../taxon_constraints/only_in_taxon.yaml ../taxon_constraints/only_in_taxon.tsv
+	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/only_in_taxon.tsv --obo-prefixes=true --template=$< --outfile=$@
+
+../taxon_constraints/never_in_taxon.ofn: ../taxon_constraints/never_in_taxon.yaml ../taxon_constraints/never_in_taxon.tsv
+	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/never_in_taxon.tsv --obo-prefixes=true --template=$< --outfile=$@
+
+imports/go_taxon_constraints.owl: ../taxon_constraints/only_in_taxon.ofn ../taxon_constraints/never_in_taxon.ofn
+	$(ROBOT) merge $(addprefix -i , $^) annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
@@ -417,8 +424,8 @@ generate-mappings: go-basic.obo
 # TAXON GROUPINGS
 # ----------------------------------------
 
-imports/go-taxon-groupings.owl: imports/go-taxon-groupings-edit.owl
-	$(ROBOT) reason -i $< -r hermit -o $@
+imports/go-taxon-groupings.owl: imports/go-taxon-groupings-edit.owl imports/ncbitaxon_import.owl
+	$(ROBOT) merge -i $< -i imports/ncbitaxon_import.owl reason -r hermit unmerge -i imports/ncbitaxon_import.owl -o $@
 
 imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 	$(ROBOT) convert -i $< -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@

@@ -1,0 +1,639 @@
+defined_class	defined_class_label	taxon	taxon_label
+GO:0000132	establishment of mitotic spindle orientation	NCBITaxon:2759	Eukaryota
+GO:0000165	MAPK cascade	NCBITaxon:2759	Eukaryota
+GO:0000185	activation of MAPKKK activity	NCBITaxon:2759	Eukaryota
+GO:0000186	activation of MAPKK activity	NCBITaxon:2759	Eukaryota
+GO:0000188	inactivation of MAPK activity	NCBITaxon:2759	Eukaryota
+GO:0000278	mitotic cell cycle	NCBITaxon:2759	Eukaryota
+GO:0000282	cellular bud site selection	NCBITaxon:4751	Fungi
+GO:0000324	fungal-type vacuole	NCBITaxon:4751	Fungi
+GO:0000325	plant-type vacuole	NCBITaxon:33090	Viridiplantae
+GO:0000327	lytic vacuole within protein storage vacuole	NCBITaxon:33090	Viridiplantae
+GO:0000328	fungal-type vacuole lumen	NCBITaxon:4751	Fungi
+GO:0000329	fungal-type vacuole membrane	NCBITaxon:4751	Fungi
+GO:0000330	plant-type vacuole lumen	NCBITaxon:33090	Viridiplantae
+GO:0000345	cytosolic DNA-directed RNA polymerase complex	NCBITaxon:2	Bacteria
+GO:0000426	micropexophagy	NCBITaxon:716545	saccharomyceta
+GO:0000501	flocculation via cell wall protein-carbohydrate interaction	NCBITaxon:4751	Fungi
+GO:0000747	conjugation with cellular fusion	NCBITaxon:Union_0000022	Fungi or Dictyostelium
+GO:0000748	conjugation with mutual genetic exchange	NCBITaxon:5878	Ciliophora
+GO:0000749	response to pheromone triggering conjugation with cellular fusion	NCBITaxon:4751	Fungi
+GO:0000750	pheromone-dependent signal transduction involved in conjugation with cellular fusion	NCBITaxon:4751	Fungi
+GO:0000751	mitotic cell cycle G1 arrest in response to pheromone	NCBITaxon:4751	Fungi
+GO:0000755	cytogamy	NCBITaxon:4751	Fungi
+GO:0000911	cytokinesis by cell plate formation	NCBITaxon:33090	Viridiplantae
+GO:0000916	actomyosin contractile ring contraction	NCBITaxon:2759	Eukaryota
+GO:0000936	primary cell septum	NCBITaxon:2759	Eukaryota
+GO:0001017	bacterial-type RNA polymerase regulatory region DNA binding	NCBITaxon:2	Bacteria
+GO:0001070	RNA-binding transcription regulator activity	NCBITaxon:10239	Viruses
+GO:0001070	RNA-binding transcription regulator activity	NCBITaxon:10239	virus
+GO:0001121	bacterial transcription	NCBITaxon:2	Bacteria
+GO:0001403	invasive growth in response to glucose limitation	NCBITaxon:4751	Fungi
+GO:0001410	chlamydospore formation	NCBITaxon:4751	Fungi
+GO:0001520	outer dense fiber	NCBITaxon:40674	Mammalia
+GO:0001533	cornified envelope	NCBITaxon:33208	Metazoa
+GO:0001555	oocyte growth	NCBITaxon:33208	Metazoa
+GO:0001556	oocyte maturation	NCBITaxon:33208	Metazoa
+GO:0001673	male germ cell nucleus	NCBITaxon:2759	Eukaryota
+GO:0001674	female germ cell nucleus	NCBITaxon:2759	Eukaryota
+GO:0001700	embryonic development via the syncytial blastoderm	NCBITaxon:50557	Insecta
+GO:0001701	in utero embryonic development	NCBITaxon:32525	Theria <Mammalia>
+GO:0001702	gastrulation with mouth forming second	NCBITaxon:33511	Deuterostomia
+GO:0001703	gastrulation with mouth forming first	NCBITaxon:33317	Protostomia
+GO:0001740	Barr body	NCBITaxon:40674	Mammalia
+GO:0001745	compound eye morphogenesis	NCBITaxon:6656	Arthropoda
+GO:0001748	optic lobe placode development	NCBITaxon:6656	Arthropoda
+GO:0001824	blastocyst development	NCBITaxon:32525	Theria <Mammalia>
+GO:0001890	placenta development	NCBITaxon:32525	Theria <Mammalia>
+GO:0001967	suckling behavior	NCBITaxon:40674	Mammalia
+GO:0002119	nematode larval development	NCBITaxon:33213	Bilateria
+GO:0002165	instar larval or pupal development	NCBITaxon:6656	Arthropoda
+GO:0002414	immunoglobulin transcytosis in epithelial cells	NCBITaxon:33208	Metazoa
+GO:0002459	adaptive immune response based on somatic recombination of immune receptors built from leucine-rich repeat domains	NCBITaxon:89593	Craniata <chordata>
+GO:0002822	regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	NCBITaxon:7776	Gnathostomata <vertebrate>
+GO:0003341	cilium movement	NCBITaxon:2759	Eukaryota
+GO:0004694	eukaryotic translation initiation factor 2alpha kinase activity	NCBITaxon:2759	Eukaryota
+GO:0005183	gonadotropin hormone-releasing hormone activity	NCBITaxon:33208	Metazoa
+GO:0005212	structural constituent of eye lens	NCBITaxon:6072	Eumetazoa
+GO:0005213	structural constituent of chorion	NCBITaxon:6656	Arthropoda
+GO:0005214	structural constituent of chitin-based cuticle	NCBITaxon:6656	Arthropoda
+GO:0005521	lamin binding	NCBITaxon:33208	Metazoa
+GO:0005581	collagen trimer	NCBITaxon:33208	Metazoa
+GO:0005623	cell	NCBITaxon:131567	cellular organisms
+GO:0005628	prospore membrane	NCBITaxon:4890	Ascomycota
+GO:0005634	nucleus	NCBITaxon:2759	Eukaryota
+GO:0005739	mitochondrion	NCBITaxon:2759	Eukaryota
+GO:0005768	endosome	NCBITaxon:2759	Eukaryota
+GO:0005783	endoplasmic reticulum	NCBITaxon:2759	Eukaryota
+GO:0005786	signal recognition particle, endoplasmic reticulum targeting	NCBITaxon:2759	Eukaryota
+GO:0005794	Golgi apparatus	NCBITaxon:2759	Eukaryota
+GO:0005816	spindle pole body	NCBITaxon:4751	Fungi
+GO:0005826	actomyosin contractile ring	NCBITaxon:2759	Eukaryota
+GO:0005850	eukaryotic translation initiation factor 2 complex	NCBITaxon:2759	Eukaryota
+GO:0005851	eukaryotic translation initiation factor 2B complex	NCBITaxon:2759	Eukaryota
+GO:0005852	eukaryotic translation initiation factor 3 complex	NCBITaxon:2759	Eukaryota
+GO:0005853	eukaryotic translation elongation factor 1 complex	NCBITaxon:2759	Eukaryota
+GO:0005917	nephrocyte diaphragm	NCBITaxon:50557	Insecta
+GO:0005918	septate junction	NCBITaxon:6656	Arthropoda
+GO:0005921	gap junction	NCBITaxon:6072	Eumetazoa
+GO:0005929	cilium	NCBITaxon:2759	Eukaryota
+GO:0005947	mitochondrial alpha-ketoglutarate dehydrogenase complex	NCBITaxon:2759	Eukaryota
+GO:0006914	autophagy	NCBITaxon:2759	Eukaryota
+GO:0006915	apoptotic process	NCBITaxon:33154	Opisthokonta
+GO:0006954	inflammatory response	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0007052	mitotic spindle organization	NCBITaxon:2759	Eukaryota
+GO:0007053	spindle assembly involved in male meiosis	NCBITaxon:2759	Eukaryota
+GO:0007056	spindle assembly involved in female meiosis	NCBITaxon:2759	Eukaryota
+GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:33208	Metazoa
+GO:0007282	cystoblast division	NCBITaxon:6656	Arthropoda
+GO:0007293	germarium-derived egg chamber formation	NCBITaxon:6656	Arthropoda
+GO:0007294	germarium-derived oocyte fate determination	NCBITaxon:50557	Insecta
+GO:0007295	growth of a germarium-derived egg chamber	NCBITaxon:50557	Insecta
+GO:0007297	ovarian follicle cell migration	NCBITaxon:50557	Insecta
+GO:0007299	ovarian follicle cell-cell adhesion	NCBITaxon:50557	Insecta
+GO:0007300	ovarian nurse cell to oocyte transport	NCBITaxon:50557	Insecta
+GO:0007301	female germline ring canal formation	NCBITaxon:50557	Insecta
+GO:0007304	chorion-containing eggshell formation	NCBITaxon:50557	Insecta
+GO:0007305	vitelline membrane formation involved in chorion-containing eggshell formation	NCBITaxon:50557	Insecta
+GO:0007338	single fertilization	NCBITaxon:2759	Eukaryota
+GO:0007400	neuroblast fate determination	NCBITaxon:33208	Metazoa
+GO:0007403	glial cell fate determination	NCBITaxon:33208	Metazoa
+GO:0007405	neuroblast proliferation	NCBITaxon:33208	Metazoa
+GO:0007407	neuroblast activation	NCBITaxon:33208	Metazoa
+GO:0007424	open tracheal system development	NCBITaxon:6656	Arthropoda
+GO:0007425	epithelial cell fate determination, open tracheal system	NCBITaxon:50557	Insecta
+GO:0007426	tracheal outgrowth, open tracheal system	NCBITaxon:33317	Protostomia
+GO:0007427	epithelial cell migration, open tracheal system	NCBITaxon:33317	Protostomia
+GO:0007428	primary branching, open tracheal system	NCBITaxon:33317	Protostomia
+GO:0007429	secondary branching, open tracheal system	NCBITaxon:33317	Protostomia
+GO:0007430	terminal branching, open tracheal system	NCBITaxon:33317	Protostomia
+GO:0007444	imaginal disc development	NCBITaxon:6656	Arthropoda
+GO:0007458	progression of morphogenetic furrow involved in compound eye morphogenesis	NCBITaxon:33392	Holometabola
+GO:0007480	imaginal disc-derived leg morphogenesis	NCBITaxon:33392	Holometabola
+GO:0007484	imaginal disc-derived genitalia development	NCBITaxon:6656	Arthropoda
+GO:0007486	imaginal disc-derived female genitalia development	NCBITaxon:33392	Holometabola
+GO:0007503	fat body development	NCBITaxon:6656	Arthropoda
+GO:0007516	hemocyte development	NCBITaxon:6656	Arthropoda
+GO:0007565	female pregnancy	NCBITaxon:40674	Mammalia
+GO:0007591	molting cycle, chitin-based cuticle	NCBITaxon:6656	Arthropoda
+GO:0007594	puparial adhesion	NCBITaxon:7147	Diptera
+GO:0007595	lactation	NCBITaxon:40674	Mammalia
+GO:0007610	behavior	NCBITaxon:33208	Metazoa
+GO:0008069	dorsal/ventral axis specification, ovarian follicular epithelium	NCBITaxon:50557	Insecta
+GO:0008190	eukaryotic initiation factor 4E binding	NCBITaxon:2759	Eukaryota
+GO:0008302	female germline ring canal formation, actin assembly	NCBITaxon:50557	Insecta
+GO:0008316	structural constituent of vitelline membrane	NCBITaxon:6656	Arthropoda
+GO:0008347	glial cell migration	NCBITaxon:33208	Metazoa
+GO:0008364	pupal chitin-based cuticle development	NCBITaxon:50557	Insecta
+GO:0008583	mystery cell differentiation	NCBITaxon:33392	Holometabola
+GO:0008917	lipopolysaccharide N-acetylglucosaminyltransferase activity	NCBITaxon:2	Bacteria
+GO:0008918	lipopolysaccharide 3-alpha-galactosyltransferase activity	NCBITaxon:2	Bacteria
+GO:0008919	lipopolysaccharide glucosyltransferase I activity	NCBITaxon:2	Bacteria
+GO:0009103	lipopolysaccharide biosynthetic process	NCBITaxon:2	Bacteria
+GO:0009252	peptidoglycan biosynthetic process	NCBITaxon:2	Bacteria
+GO:0009272	fungal-type cell wall biogenesis	NCBITaxon:4751	Fungi
+GO:0009273	peptidoglycan-based cell wall biogenesis	NCBITaxon:2	Bacteria
+GO:0009274	peptidoglycan-based cell wall	NCBITaxon:2	Bacteria
+GO:0009275	Gram-positive-bacterium-type cell wall	NCBITaxon:2	Bacteria
+GO:0009276	Gram-negative-bacterium-type cell wall	NCBITaxon:2	Bacteria
+GO:0009277	fungal-type cell wall	NCBITaxon:4751	Fungi
+GO:0009288	bacterial-type flagellum	NCBITaxon:2	Bacteria
+GO:0009291	unidirectional conjugation	NCBITaxon:Union_0000004	Prokaryota
+GO:0009399	nitrogen fixation	NCBITaxon:Union_0000004	Prokaryota
+GO:0009501	amyloplast	NCBITaxon:33090	Viridiplantae
+GO:0009503	thylakoid light-harvesting complex	NCBITaxon:33090	Viridiplantae
+GO:0009505	plant-type cell wall	NCBITaxon:33090	Viridiplantae
+GO:0009509	chromoplast	NCBITaxon:33090	Viridiplantae
+GO:0009513	etioplast	NCBITaxon:33090	Viridiplantae
+GO:0009515	granal stacked thylakoid	NCBITaxon:33090	Viridiplantae
+GO:0009516	leucoplast	NCBITaxon:33090	Viridiplantae
+GO:0009533	chloroplast stromal thylakoid	NCBITaxon:33090	Viridiplantae
+GO:0009541	etioplast prolamellar body	NCBITaxon:33090	Viridiplantae
+GO:0009542	granum	NCBITaxon:33090	Viridiplantae
+GO:0009544	chloroplast ATP synthase complex	NCBITaxon:33090	Viridiplantae
+GO:0009545	elaioplast	NCBITaxon:33090	Viridiplantae
+GO:0009549	cellulose microfibril	NCBITaxon:33090	Viridiplantae
+GO:0009554	megasporogenesis	NCBITaxon:3398	Magnoliophyta
+GO:0009556	microsporogenesis	NCBITaxon:3398	Magnoliophyta
+GO:0009557	antipodal cell differentiation	NCBITaxon:3398	Magnoliophyta
+GO:0009558	embryo sac cellularization	NCBITaxon:3398	Magnoliophyta
+GO:0009559	embryo sac central cell differentiation	NCBITaxon:3398	Magnoliophyta
+GO:0009560	embryo sac egg cell differentiation	NCBITaxon:3398	Magnoliophyta
+GO:0009561	megagametogenesis	NCBITaxon:3398	Magnoliophyta
+GO:0009562	embryo sac nuclear migration	NCBITaxon:3398	Magnoliophyta
+GO:0009563	synergid differentiation	NCBITaxon:3398	Magnoliophyta
+GO:0009567	double fertilization forming a zygote and endosperm	NCBITaxon:3398	Magnoliophyta
+GO:0009573	chloroplast ribulose bisphosphate carboxylase complex	NCBITaxon:33090	Viridiplantae
+GO:0009575	chromoplast stroma	NCBITaxon:Union_0000006	Viridiplantae or Archaea or Bacteria
+GO:0009576	leucoplast stroma	NCBITaxon:33090	Viridiplantae
+GO:0009577	elaioplast stroma	NCBITaxon:33090	Viridiplantae
+GO:0009578	etioplast stroma	NCBITaxon:33090	Viridiplantae
+GO:0009626	plant-type hypersensitive response	NCBITaxon:3398	Magnoliophyta
+GO:0009640	photomorphogenesis	NCBITaxon:33090	Viridiplantae
+GO:0009647	skotomorphogenesis	NCBITaxon:33090	Viridiplantae
+GO:0009655	PSII associated light-harvesting complex II, core complex	NCBITaxon:33090	Viridiplantae
+GO:0009656	PSII associated light-harvesting complex II, peripheral complex	NCBITaxon:33090	Viridiplantae
+GO:0009664	plant-type cell wall organization	NCBITaxon:33090	Viridiplantae
+GO:0009677	double fertilization forming two zygotes	NCBITaxon:58022	Gnetophyta
+GO:0009704	de-etiolation	NCBITaxon:33090	Viridiplantae
+GO:0009705	plant-type vacuole membrane	NCBITaxon:33090	Viridiplantae
+GO:0009760	C4 photosynthesis	NCBITaxon:33090	Viridiplantae
+GO:0009761	CAM photosynthesis	NCBITaxon:33090	Viridiplantae
+GO:0009766	primary charge separation	NCBITaxon:Union_0000007	Viridiplantae or Bacteria or Euglenozoa
+GO:0009792	embryo development ending in birth or egg hatching	NCBITaxon:33208	Metazoa
+GO:0009832	plant-type cell wall biogenesis	NCBITaxon:33090	Viridiplantae
+GO:0009840	chloroplastic endopeptidase Clp complex	NCBITaxon:33090	Viridiplantae
+GO:0009842	cyanelle	NCBITaxon:38254	Glaucocystophyceae
+GO:0009853	photorespiration	NCBITaxon:Union_0000007	Viridiplantae or Bacteria or Euglenozoa
+GO:0009856	pollination	NCBITaxon:33090	Viridiplantae
+GO:0009864	induced systemic resistance, jasmonic acid mediated signaling pathway	NCBITaxon:33090	Viridiplantae
+GO:0009866	induced systemic resistance, ethylene mediated signaling pathway	NCBITaxon:33090	Viridiplantae
+GO:0009888	tissue development	NCBITaxon:2759	Eukaryota
+GO:0009908	flower development	NCBITaxon:3398	Magnoliophyta
+GO:0009920	cell plate formation involved in plant-type cell wall biogenesis	NCBITaxon:33090	Viridiplantae
+GO:0009930	longitudinal side of cell surface	NCBITaxon:2759	Eukaryota
+GO:0009986	cell surface	NCBITaxon:131567	cellular organisms
+GO:0010001	glial cell differentiation	NCBITaxon:33208	Metazoa
+GO:0010006	Toc complex	NCBITaxon:33090	Viridiplantae
+GO:0010007	magnesium chelatase complex	NCBITaxon:33090	Viridiplantae
+GO:0010014	meristem initiation	NCBITaxon:33090	Viridiplantae
+GO:0010019	chloroplast-nucleus signaling pathway	NCBITaxon:33090	Viridiplantae
+GO:0010049	acquisition of plant reproductive competence	NCBITaxon:33090	Viridiplantae
+GO:0010051	xylem and phloem pattern formation	NCBITaxon:33090	Viridiplantae
+GO:0010069	zygote asymmetric cytokinesis in embryo sac	NCBITaxon:3398	Magnoliophyta
+GO:0010087	phloem or xylem histogenesis	NCBITaxon:33090	Viridiplantae
+GO:0010090	trichome morphogenesis	NCBITaxon:33090	Viridiplantae
+GO:0010091	trichome branching	NCBITaxon:33090	Viridiplantae
+GO:0010099	regulation of photomorphogenesis	NCBITaxon:33090	Viridiplantae
+GO:0010152	pollen maturation	NCBITaxon:3398	Magnoliophyta
+GO:0010154	fruit development	NCBITaxon:58024	Spermatophyta
+GO:0010197	polar nucleus fusion	NCBITaxon:3398	Magnoliophyta
+GO:0010208	pollen wall assembly	NCBITaxon:3398	Magnoliophyta
+GO:0010214	seed coat development	NCBITaxon:33090	Viridiplantae
+GO:0010242	oxygen evolving activity	NCBITaxon:Union_0000007	Viridiplantae or Bacteria or Euglenozoa
+GO:0010278	chloroplast outer membrane translocon	NCBITaxon:33090	Viridiplantae
+GO:0010287	plastoglobule	NCBITaxon:33090	Viridiplantae
+GO:0010319	stromule	NCBITaxon:33090	Viridiplantae
+GO:0010330	cellulose synthase complex	NCBITaxon:33090	Viridiplantae
+GO:0010338	leaf formation	NCBITaxon:33090	Viridiplantae
+GO:0010358	leaf shaping	NCBITaxon:33090	Viridiplantae
+GO:0010368	chloroplast isoamylase complex	NCBITaxon:33090	Viridiplantae
+GO:0010374	stomatal complex development	NCBITaxon:33090	Viridiplantae
+GO:0010377	guard cell fate commitment	NCBITaxon:33090	Viridiplantae
+GO:0010419	rhamnogalacturonan II side chain metabolic process	NCBITaxon:33090	Viridiplantae
+GO:0010433	bract morphogenesis	NCBITaxon:33090	Viridiplantae
+GO:0010434	bract formation	NCBITaxon:33090	Viridiplantae
+GO:0010657	muscle cell apoptotic process	NCBITaxon:33208	Metazoa
+GO:0010865	stipule development	NCBITaxon:33090	Viridiplantae
+GO:0012511	monolayer-surrounded lipid storage body	NCBITaxon:33090	Viridiplantae
+GO:0014021	secondary neural tube formation	NCBITaxon:40674	Mammalia
+GO:0014023	neural rod formation	NCBITaxon:32443	Teleostei
+GO:0015627	type II protein secretion system complex	NCBITaxon:2	Bacteria
+GO:0015628	protein secretion by the type II secretion system	NCBITaxon:2	Bacteria
+GO:0016028	rhabdomere	NCBITaxon:33208	Metazoa
+GO:0016055	Wnt signaling pathway	NCBITaxon:33208	Metazoa
+GO:0016281	eukaryotic translation initiation factor 4F complex	NCBITaxon:2759	Eukaryota
+GO:0016282	eukaryotic 43S preinitiation complex	NCBITaxon:2759	Eukaryota
+GO:0016348	imaginal disc-derived leg joint morphogenesis	NCBITaxon:33392	Holometabola
+GO:0016490	structural constituent of peritrophic membrane	NCBITaxon:6656	Arthropoda
+GO:0016543	male courtship behavior, orientation prior to leg tapping and wing vibration	NCBITaxon:6656	Arthropoda
+GO:0016544	male courtship behavior, tapping to detect pheromone	NCBITaxon:6656	Arthropoda
+GO:0016546	male courtship behavior, proboscis-mediated licking	NCBITaxon:6656	Arthropoda
+GO:0017145	stem cell division	NCBITaxon:33208	Metazoa
+GO:0018990	ecdysis, chitin-based cuticle	NCBITaxon:6656	Arthropoda
+GO:0019096	pole plasm mitochondrial lrRNA localization	NCBITaxon:6656	Arthropoda
+GO:0019097	pole plasm mitochondrial srRNA localization	NCBITaxon:6656	Arthropoda
+GO:0019350	teichoic acid biosynthetic process	NCBITaxon:2	Bacteria
+GO:0019819	P1 peroxisome	NCBITaxon:4952	Yarrowia lipolytica
+GO:0019820	P2 peroxisome	NCBITaxon:4952	Yarrowia lipolytica
+GO:0019821	P3 peroxisome	NCBITaxon:4952	Yarrowia lipolytica
+GO:0019822	P4 peroxisome	NCBITaxon:4952	Yarrowia lipolytica
+GO:0019823	P5 peroxisome	NCBITaxon:4952	Yarrowia lipolytica
+GO:0019824	P6 peroxisome	NCBITaxon:4952	Yarrowia lipolytica
+GO:0020007	apical complex	NCBITaxon:5794	Apicomplexa
+GO:0020011	apicoplast	NCBITaxon:5794	Apicomplexa
+GO:0020015	glycosome	NCBITaxon:2759	Eukaryota
+GO:0020020	food vacuole	NCBITaxon:5794	Apicomplexa
+GO:0020026	merozoite dense granule	NCBITaxon:5794	Apicomplexa
+GO:0020030	infected host cell surface knob	NCBITaxon:5820	Plasmodium
+GO:0020038	subpellicular network	NCBITaxon:33682	Euglenozoa
+GO:0021724	inferior raphe nucleus development	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0021725	superior raphe nucleus development	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0022416	chaeta development	NCBITaxon:50557	Insecta
+GO:0022602	ovulation cycle process	NCBITaxon:33208	Metazoa
+GO:0022619	generative cell differentiation	NCBITaxon:3398	Magnoliophyta
+GO:0022620	vegetative cell differentiation	NCBITaxon:3398	Magnoliophyta
+GO:0022625	cytosolic large ribosomal subunit	NCBITaxon:131567	cellular organisms
+GO:0022626	cytosolic ribosome	NCBITaxon:131567	cellular organisms
+GO:0022627	cytosolic small ribosomal subunit	NCBITaxon:131567	cellular organisms
+GO:0022809	mobile ion carrier activity	NCBITaxon:2	Bacteria
+GO:0030073	insulin secretion	NCBITaxon:2759	Eukaryota
+GO:0030075	bacterial thylakoid	NCBITaxon:2	Bacteria
+GO:0030077	plasma membrane light-harvesting complex	NCBITaxon:Union_0000004	Prokaryota
+GO:0030080	B875 antenna complex	NCBITaxon:Union_0000004	Prokaryota
+GO:0030081	B800-820 antenna complex	NCBITaxon:Union_0000004	Prokaryota
+GO:0030082	B800-850 antenna complex	NCBITaxon:Union_0000004	Prokaryota
+GO:0030085	PSII associated light-harvesting complex II, peripheral complex, LHCIIb subcomplex	NCBITaxon:33090	Viridiplantae
+GO:0030093	chloroplast photosystem I	NCBITaxon:33090	Viridiplantae
+GO:0030256	type I protein secretion system complex	NCBITaxon:2	Bacteria
+GO:0030257	type III protein secretion system complex	NCBITaxon:2	Bacteria
+GO:0030313	cell envelope	NCBITaxon:2	Bacteria
+GO:0030427	site of polarized growth	NCBITaxon:131567	cellular organisms
+GO:0030437	ascospore formation	NCBITaxon:4890	Ascomycota
+GO:0030479	actin cortical patch	NCBITaxon:4751	Fungi
+GO:0030493	bacteriochlorophyll metabolic process	NCBITaxon:Union_0000004	Prokaryota
+GO:0030537	larval behavior	NCBITaxon:6072	Eumetazoa
+GO:0030584	sporocarp development	NCBITaxon:4751	Fungi
+GO:0030587	sorocarp development	NCBITaxon:33083	Dictyostelids
+GO:0030588	pseudocleavage	NCBITaxon:33208	Metazoa
+GO:0030590	first cell cycle pseudocleavage	NCBITaxon:33213	Bilateria
+GO:0030680	dimeric ribonuclease P complex	NCBITaxon:2	Bacteria
+GO:0030703	eggshell formation	NCBITaxon:33208	Metazoa
+GO:0030707	ovarian follicle cell development	NCBITaxon:6656	Arthropoda
+GO:0030717	oocyte karyosome formation	NCBITaxon:50557	Insecta
+GO:0030719	P granule organization	NCBITaxon:33208	Metazoa
+GO:0030720	oocyte localization involved in germarium-derived egg chamber formation	NCBITaxon:50557	Insecta
+GO:0030723	ovarian fusome organization	NCBITaxon:50557	Insecta
+GO:0030879	mammary gland development	NCBITaxon:40674	Mammalia
+GO:0030930	homotetrameric ADPG pyrophosphorylase complex	NCBITaxon:2	Bacteria
+GO:0030931	heterotetrameric ADPG pyrophosphorylase complex	NCBITaxon:2759	Eukaryota
+GO:0031321	ascospore-type prospore assembly	NCBITaxon:4890	Ascomycota
+GO:0031370	eukaryotic initiation factor 4G binding	NCBITaxon:2759	Eukaryota
+GO:0031504	peptidoglycan-based cell wall organization	NCBITaxon:2	Bacteria
+GO:0031505	fungal-type cell wall organization	NCBITaxon:4751	Fungi
+GO:0031522	cell envelope Sec protein transport complex	NCBITaxon:2	Bacteria
+GO:0031566	actomyosin contractile ring maintenance	NCBITaxon:2759	Eukaryota
+GO:0031578	mitotic spindle orientation checkpoint	NCBITaxon:716545	saccharomyceta
+GO:0031633	xanthophore	NCBITaxon:Union_0000004	Prokaryota
+GO:0031897	Tic complex	NCBITaxon:33090	Viridiplantae
+GO:0031912	oral apparatus	NCBITaxon:5878	Ciliophora
+GO:0031986	proteinoplast	NCBITaxon:33090	Viridiplantae
+GO:0032121	meiotic attachment of telomeric heterochromatin to spindle pole body	NCBITaxon:4751	Fungi
+GO:0032187	actomyosin contractile ring localization	NCBITaxon:2759	Eukaryota
+GO:0032258	protein localization by the Cvt pathway	NCBITaxon:147537	Saccharomycotina
+GO:0033009	nucleomorph	NCBITaxon:33090	Viridiplantae
+GO:0033104	type VI protein secretion system complex	NCBITaxon:2	Bacteria
+GO:0033105	chlorosome envelope	NCBITaxon:Union_0000004	Prokaryota
+GO:0033173	calcineurin-NFAT signaling cascade	NCBITaxon:33208	Metazoa
+GO:0033174	chloroplast proton-transporting ATP synthase complex, catalytic core CF(1)	NCBITaxon:33090	Viridiplantae
+GO:0033175	chloroplast proton-transporting ATP synthase complex, coupling factor CF(o)	NCBITaxon:33090	Viridiplantae
+GO:0033189	response to vitamin A	NCBITaxon:33208	Metazoa
+GO:0033290	eukaryotic 48S preinitiation complex	NCBITaxon:2759	Eukaryota
+GO:0033291	eukaryotic 80S initiation complex	NCBITaxon:2759	Eukaryota
+GO:0033614	chloroplast proton-transporting ATP synthase complex assembly	NCBITaxon:33090	Viridiplantae
+GO:0034117	erythrocyte aggregation	NCBITaxon:33208	Metazoa
+GO:0034306	regulation of sexual sporulation	NCBITaxon:4751	Fungi
+GO:0034400	gerontoplast	NCBITaxon:33090	Viridiplantae
+GO:0034631	microtubule anchoring at spindle pole body	NCBITaxon:4751	Fungi
+GO:0034633	retinol transport	NCBITaxon:33208	Metazoa
+GO:0035001	dorsal trunk growth, open tracheal system	NCBITaxon:50557	Insecta
+GO:0035002	liquid clearance, open tracheal system	NCBITaxon:50557	Insecta
+GO:0035018	adult chitin-based cuticle pattern formation	NCBITaxon:6656	Arthropoda
+GO:0035052	dorsal vessel aortic cell fate commitment	NCBITaxon:50557	Insecta
+GO:0035053	dorsal vessel heart proper cell fate commitment	NCBITaxon:50557	Insecta
+GO:0035099	hemocyte migration	NCBITaxon:6656	Arthropoda
+GO:0035147	branch fusion, open tracheal system	NCBITaxon:33317	Protostomia
+GO:0035152	regulation of tube architecture, open tracheal system	NCBITaxon:33317	Protostomia
+GO:0035153	epithelial cell type specification, open tracheal system	NCBITaxon:50557	Insecta
+GO:0035155	negative regulation of terminal cell fate specification, open tracheal system	NCBITaxon:50557	Insecta
+GO:0035157	negative regulation of fusion cell fate specification	NCBITaxon:50557	Insecta
+GO:0035158	regulation of tube diameter, open tracheal system	NCBITaxon:33317	Protostomia
+GO:0035159	regulation of tube length, open tracheal system	NCBITaxon:33317	Protostomia
+GO:0035172	hemocyte proliferation	NCBITaxon:6656	Arthropoda
+GO:0035207	negative regulation of hemocyte proliferation	NCBITaxon:6656	Arthropoda
+GO:0035277	spiracle morphogenesis, open tracheal system	NCBITaxon:33317	Protostomia
+GO:0035316	non-sensory hair organization	NCBITaxon:6656	Arthropoda
+GO:0035633	maintenance of permeability of blood-brain barrier	NCBITaxon:6072	Eumetazoa
+GO:0035670	plant-type ovary development	NCBITaxon:3398	Magnoliophyta
+GO:0035804	structural constituent of egg coat	NCBITaxon:33208	Metazoa
+GO:0035805	egg coat	NCBITaxon:33208	Metazoa
+GO:0036007	scintillon	NCBITaxon:2864	Dinophyceae
+GO:0036342	post-anal tail morphogenesis	NCBITaxon:7711	Chordata
+GO:0036386	bacterial nucleoid DNA packaging	NCBITaxon:2	Bacteria
+GO:0036389	bacterial pre-replicative complex	NCBITaxon:2	Bacteria
+GO:0038084	vascular endothelial growth factor signaling pathway	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0038086	VEGF-activated platelet-derived growth factor receptor signaling pathway	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0038089	positive regulation of cell migration by vascular endothelial growth factor signaling pathway	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0038190	VEGF-activated neuropilin signaling pathway	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0040002	collagen and cuticulin-based cuticle development	NCBITaxon:6231	Nematoda
+GO:0040003	chitin-based cuticle development	NCBITaxon:6656	Arthropoda
+GO:0040007	growth	NCBITaxon:131567	cellular organisms
+GO:0040021	hermaphrodite germ-line sex determination	NCBITaxon:6231	Nematoda
+GO:0040025	vulval development	NCBITaxon:6231	Nematoda
+GO:0042001	hermaphrodite somatic sex determination	NCBITaxon:33213	Bilateria
+GO:0042151	nematocyst	NCBITaxon:33208	Metazoa
+GO:0042243	asexual spore wall assembly	NCBITaxon:Union_0000020	Fungi or Bacteria
+GO:0042314	bacteriochlorophyll binding	NCBITaxon:Union_0000004	Prokaryota
+GO:0042329	structural constituent of collagen and cuticulin-based cuticle	NCBITaxon:6231	Nematoda
+GO:0042386	hemocyte differentiation	NCBITaxon:6656	Arthropoda
+GO:0042463	ocellus photoreceptor cell development	NCBITaxon:6656	Arthropoda
+GO:0042470	melanosome	NCBITaxon:33208	Metazoa
+GO:0042475	odontogenesis of dentin-containing tooth	NCBITaxon:7711	Chordata
+GO:0042556	eukaryotic elongation factor-2 kinase regulator activity	NCBITaxon:2759	Eukaryota
+GO:0042601	endospore-forming forespore	NCBITaxon:2	Bacteria
+GO:0042603	capsule	NCBITaxon:Union_0000020	Fungi or Bacteria
+GO:0042633	hair cycle	NCBITaxon:40674	Mammalia
+GO:0042649	prothylakoid	NCBITaxon:33090	Viridiplantae
+GO:0042650	prothylakoid membrane	NCBITaxon:33090	Viridiplantae
+GO:0042697	menopause	NCBITaxon:40674	Mammalia
+GO:0042698	ovulation cycle	NCBITaxon:2759	Eukaryota
+GO:0042716	plasma membrane-derived chromatophore	NCBITaxon:2	Bacteria
+GO:0042764	ascospore-type prospore	NCBITaxon:4890	Ascomycota
+GO:0042777	plasma membrane ATP synthesis coupled proton transport	NCBITaxon:Union_0000004	Prokaryota
+GO:0043009	chordate embryonic development	NCBITaxon:7711	Chordata
+GO:0043036	starch grain	NCBITaxon:33090	Viridiplantae
+GO:0043082	megagametophyte egg cell nucleus	NCBITaxon:33090	Viridiplantae
+GO:0043164	Gram-negative-bacterium-type cell wall biogenesis	NCBITaxon:2	Bacteria
+GO:0043165	Gram-negative-bacterium-type cell outer membrane assembly	NCBITaxon:2	Bacteria
+GO:0043190	ATP-binding cassette (ABC) transporter complex	NCBITaxon:131567	cellular organisms
+GO:0043209	myelin sheath	NCBITaxon:33208	Metazoa
+GO:0043473	pigmentation	NCBITaxon:131567	cellular organisms
+GO:0043590	bacterial nucleoid	NCBITaxon:2	Bacteria
+GO:0043591	endospore external encapsulating structure	NCBITaxon:2	Bacteria
+GO:0043595	endospore cortex	NCBITaxon:2	Bacteria
+GO:0043597	cytoplasmic replication fork	NCBITaxon:Union_0000004	Prokaryota
+GO:0043684	type IV secretion system complex	NCBITaxon:2	Bacteria
+GO:0043952	protein transport by the Sec complex	NCBITaxon:2	Bacteria
+GO:0044223	pirellulosome	NCBITaxon:2	Bacteria
+GO:0044312	crystalloid	NCBITaxon:5794	Apicomplexa
+GO:0044456	synapse part	NCBITaxon:33208	Metazoa
+GO:0044682	archaeal-specific GTP cyclohydrolase activity	NCBITaxon:2157	Archaea
+GO:0044770	cell cycle phase transition	NCBITaxon:2759	Eukaryota
+GO:0044781	bacterial-type flagellum organization	NCBITaxon:2	Bacteria
+GO:0044782	cilium organization	NCBITaxon:2759	Eukaryota
+GO:0044787	bacterial-type DNA replication	NCBITaxon:2	Bacteria
+GO:0044849	estrous cycle	NCBITaxon:32525	Theria <Mammalia>
+GO:0044850	menstrual cycle	NCBITaxon:9443	Primates
+GO:0045138	nematode male tail tip morphogenesis	NCBITaxon:6231	Nematoda
+GO:0045152	antisigma factor binding	NCBITaxon:2	Bacteria
+GO:0045170	spectrosome	NCBITaxon:6656	Arthropoda
+GO:0045172	germline ring canal	NCBITaxon:6656	Arthropoda
+GO:0045202	synapse	NCBITaxon:33208	Metazoa
+GO:0045246	cytosolic tricarboxylic acid cycle enzyme complex	NCBITaxon:Union_0000004	Prokaryota
+GO:0045247	cytosolic electron transfer flavoprotein complex	NCBITaxon:Union_0000004	Prokaryota
+GO:0045248	cytosolic oxoglutarate dehydrogenase complex	NCBITaxon:Union_0000004	Prokaryota
+GO:0045249	cytosol pyruvate dehydrogenase (lipoamide) phosphatase complex	NCBITaxon:Union_0000004	Prokaryota
+GO:0045258	plasma membrane succinate dehydrogenase complex (ubiquinone)	NCBITaxon:Union_0000004	Prokaryota
+GO:0045260	plasma membrane proton-transporting ATP synthase complex	NCBITaxon:2	Bacteria
+GO:0045314	regulation of compound eye photoreceptor development	NCBITaxon:6656	Arthropoda
+GO:0045498	sex comb development	NCBITaxon:50557	Insecta
+GO:0045688	regulation of antipodal cell differentiation	NCBITaxon:3398	Magnoliophyta
+GO:0045691	regulation of embryo sac central cell differentiation	NCBITaxon:3398	Magnoliophyta
+GO:0045694	regulation of embryo sac egg cell differentiation	NCBITaxon:3398	Magnoliophyta
+GO:0045697	regulation of synergid differentiation	NCBITaxon:3398	Magnoliophyta
+GO:0046594	maintenance of pole plasm mRNA location	NCBITaxon:33208	Metazoa
+GO:0046595	establishment of pole plasm mRNA localization	NCBITaxon:6656	Arthropoda
+GO:0046858	chlorosome	NCBITaxon:Union_0000004	Prokaryota
+GO:0047270	lipopolysaccharide glucosyltransferase II activity	NCBITaxon:2	Bacteria
+GO:0048010	vascular endothelial growth factor receptor signaling pathway	NCBITaxon:6072	Eumetazoa
+GO:0048046	apoplast	NCBITaxon:33090	Viridiplantae
+GO:0048065	male courtship behavior, veined wing extension	NCBITaxon:6656	Arthropoda
+GO:0048072	compound eye pigmentation	NCBITaxon:6656	Arthropoda
+GO:0048085	adult chitin-containing cuticle pigmentation	NCBITaxon:6656	Arthropoda
+GO:0048102	autophagic cell death	NCBITaxon:2759	Eukaryota
+GO:0048132	female germ-line stem cell asymmetric division	NCBITaxon:6656	Arthropoda
+GO:0048138	germ-line cyst encapsulation	NCBITaxon:50557	Insecta
+GO:0048158	oogonium stage	NCBITaxon:40674	Mammalia
+GO:0048160	primary follicle stage	NCBITaxon:40674	Mammalia
+GO:0048161	double layer follicle stage	NCBITaxon:40674	Mammalia
+GO:0048162	multi-layer follicle stage	NCBITaxon:40674	Mammalia
+GO:0048163	scattered antral spaces stage	NCBITaxon:40674	Mammalia
+GO:0048164	distinct antral spaces stage	NCBITaxon:40674	Mammalia
+GO:0048165	fused antrum stage	NCBITaxon:40674	Mammalia
+GO:0048166	mature follicle stage	NCBITaxon:40674	Mammalia
+GO:0048217	pectic matrix	NCBITaxon:33090	Viridiplantae
+GO:0048223	hemicellulose network	NCBITaxon:33090	Viridiplantae
+GO:0048224	lignin network	NCBITaxon:33090	Viridiplantae
+GO:0048225	suberin network	NCBITaxon:33090	Viridiplantae
+GO:0048226	Casparian strip	NCBITaxon:33090	Viridiplantae
+GO:0048229	gametophyte development	NCBITaxon:3398	Magnoliophyta
+GO:0048235	pollen sperm cell differentiation	NCBITaxon:3398	Magnoliophyta
+GO:0048236	plant-type sporogenesis	NCBITaxon:33090	Viridiplantae
+GO:0048314	embryo sac morphogenesis	NCBITaxon:3398	Magnoliophyta
+GO:0048364	root development	NCBITaxon:33090	Viridiplantae
+GO:0048477	oogenesis	NCBITaxon:33208	Metazoa
+GO:0048479	style development	NCBITaxon:33090	Viridiplantae
+GO:0048480	stigma development	NCBITaxon:33090	Viridiplantae
+GO:0048481	plant ovule development	NCBITaxon:33090	Viridiplantae
+GO:0048482	plant ovule morphogenesis	NCBITaxon:33090	Viridiplantae
+GO:0048493	plasma membrane-derived thylakoid ribulose bisphosphate carboxylase complex	NCBITaxon:1117	Cyanobacteria
+GO:0048501	signal recognition particle, plasma membrane targeting	NCBITaxon:Union_0000004	Prokaryota
+GO:0048507	meristem development	NCBITaxon:33090	Viridiplantae
+GO:0048511	rhythmic process	NCBITaxon:131567	cellular organisms
+GO:0048540	bursa of Fabricius development	NCBITaxon:8457	Sauropsida
+GO:0048542	lymph gland development	NCBITaxon:6656	Arthropoda
+GO:0048555	generative cell nucleus	NCBITaxon:3398	Magnoliophyta
+GO:0048573	photoperiodism, flowering	NCBITaxon:3398	Magnoliophyta
+GO:0048586	regulation of long-day photoperiodism, flowering	NCBITaxon:3398	Magnoliophyta
+GO:0048587	regulation of short-day photoperiodism, flowering	NCBITaxon:3398	Magnoliophyta
+GO:0048600	oocyte fate commitment	NCBITaxon:33208	Metazoa
+GO:0048601	oocyte morphogenesis	NCBITaxon:33208	Metazoa
+GO:0048623	seed germination on parent plant	NCBITaxon:33090	Viridiplantae
+GO:0048624	plantlet formation on parent plant	NCBITaxon:33090	Viridiplantae
+GO:0048658	anther wall tapetum development	NCBITaxon:33090	Viridiplantae
+GO:0048737	imaginal disc-derived appendage development	NCBITaxon:6656	Arthropoda
+GO:0048826	cotyledon morphogenesis	NCBITaxon:33090	Viridiplantae
+GO:0048827	phyllome development	NCBITaxon:33090	Viridiplantae
+GO:0048829	root cap development	NCBITaxon:33090	Viridiplantae
+GO:0048838	release of seed from dormancy	NCBITaxon:33090	Viridiplantae
+GO:0048840	otolith development	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0048863	stem cell differentiation	NCBITaxon:33208	Metazoa
+GO:0048864	stem cell development	NCBITaxon:33208	Metazoa
+GO:0050845	teichuronic acid biosynthetic process	NCBITaxon:2	Bacteria
+GO:0050877	nervous system process	NCBITaxon:33208	Metazoa
+GO:0051077	secondary cell septum	NCBITaxon:2759	Eukaryota
+GO:0051300	spindle pole body organization	NCBITaxon:4751	Fungi
+GO:0051321	meiotic cell cycle	NCBITaxon:2759	Eukaryota
+GO:0051417	microtubule nucleation by spindle pole body	NCBITaxon:4751	Fungi
+GO:0051640	organelle localization	NCBITaxon:2759	Eukaryota
+GO:0051663	oocyte nucleus localization involved in oocyte dorsal/ventral axis specification	NCBITaxon:6656	Arthropoda
+GO:0052541	plant-type cell wall cellulose metabolic process	NCBITaxon:33090	Viridiplantae
+GO:0052546	cell wall pectin metabolic process	NCBITaxon:33090	Viridiplantae
+GO:0055044	symplast	NCBITaxon:33090	Viridiplantae
+GO:0055045	antipodal cell degeneration	NCBITaxon:3398	Magnoliophyta
+GO:0055046	microgametogenesis	NCBITaxon:3398	Magnoliophyta
+GO:0055051	ATP-binding cassette (ABC) transporter complex, integrated substrate binding	NCBITaxon:2759	Eukaryota
+GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	NCBITaxon:Union_0000004	Prokaryota
+GO:0060033	anatomical structure regression	NCBITaxon:2759	Eukaryota
+GO:0060102	collagen and cuticulin-based cuticle extracellular matrix	NCBITaxon:33213	Bilateria
+GO:0060111	alae of collagen and cuticulin-based cuticle extracellular matrix	NCBITaxon:33213	Bilateria
+GO:0060156	milk ejection reflex	NCBITaxon:40674	Mammalia
+GO:0060271	cilium assembly	NCBITaxon:2759	Eukaryota
+GO:0060856	establishment of blood-brain barrier	NCBITaxon:6072	Eumetazoa
+GO:0061319	nephrocyte differentiation	NCBITaxon:50557	Insecta
+GO:0061639	Cdv-dependent cytokinesis	NCBITaxon:2157	Archaea
+GO:0061701	bacterial outer membrane vesicle	NCBITaxon:2	Bacteria
+GO:0061772	drug transport across blood-nerve barrier	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0061822	ciliary cap	NCBITaxon:50557	Insecta
+GO:0061823	ring centriole	NCBITaxon:50557	Insecta
+GO:0062023	collagen-containing extracellular matrix	NCBITaxon:33208	Metazoa
+GO:0070057	prospore membrane spindle pole body attachment site	NCBITaxon:4751	Fungi
+GO:0070196	eukaryotic translation initiation factor 3 complex assembly	NCBITaxon:2759	Eukaryota
+GO:0070258	inner membrane pellicle complex	NCBITaxon:5794	Apicomplexa
+GO:0070470	plasma membrane respirasome	NCBITaxon:2	Bacteria
+GO:0070527	platelet aggregation	NCBITaxon:33208	Metazoa
+GO:0070631	spindle pole body localization	NCBITaxon:4751	Fungi
+GO:0070648	formin-nucleated actin cable	NCBITaxon:4751	Fungi
+GO:0071074	eukaryotic initiation factor eIF2 binding	NCBITaxon:2759	Eukaryota
+GO:0071629	cytoplasm protein quality control by the ubiquitin-proteasome system	NCBITaxon:2759	Eukaryota
+GO:0071630	nuclear protein quality control by the ubiquitin-proteasome system	NCBITaxon:2759	Eukaryota
+GO:0071669	plant-type cell wall organization or biogenesis	NCBITaxon:33090	Viridiplantae
+GO:0071712	ER-associated misfolded protein catabolic process	NCBITaxon:2759	Eukaryota
+GO:0071766	Actinobacterium-type cell wall biogenesis	NCBITaxon:2	Bacteria
+GO:0071938	vitamin A transport	NCBITaxon:33208	Metazoa
+GO:0071973	bacterial-type flagellum-dependent cell motility	NCBITaxon:2	Bacteria
+GO:0072002	Malpighian tubule development	NCBITaxon:50557	Insecta
+GO:0072325	vulval cell fate commitment	NCBITaxon:6231	Nematoda
+GO:0072326	vulval cell fate determination	NCBITaxon:6231	Nematoda
+GO:0072327	vulval cell fate specification	NCBITaxon:6231	Nematoda
+GO:0072564	blood microparticle formation	NCBITaxon:33208	Metazoa
+GO:0072580	bacterial-type EF-P lysine modification	NCBITaxon:2	Bacteria
+GO:0072690	single-celled organism vegetative growth phase	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0075321	oomycete sporangium development	NCBITaxon:4762	Oomycetes
+GO:0080086	stamen filament development	NCBITaxon:33090	Viridiplantae
+GO:0080186	developmental vegetative growth	NCBITaxon:33090	Viridiplantae
+GO:0090210	regulation of establishment of blood-brain barrier	NCBITaxon:6072	Eumetazoa
+GO:0090395	plant cell papilla	NCBITaxon:33090	Viridiplantae
+GO:0090399	replicative senescence	NCBITaxon:33208	Metazoa
+GO:0090540	bacterial cellulose biosynthetic process	NCBITaxon:2	Bacteria
+GO:0090558	plant epidermis development	NCBITaxon:33090	Viridiplantae
+GO:0090597	nematode male tail mating organ morphogenesis	NCBITaxon:6231	Nematoda
+GO:0090639	phosphatidylcholine biosynthesis from choline and CDP-diacylglycerol	NCBITaxon:2	Bacteria
+GO:0090640	phosphatidylcholine biosynthesis from sn-glycero-3-phosphocholine	NCBITaxon:2	Bacteria
+GO:0097010	eukaryotic translation initiation factor 4F complex assembly	NCBITaxon:2759	Eukaryota
+GO:0097094	craniofacial suture morphogenesis	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0097195	pilomotor reflex	NCBITaxon:40674	Mammalia
+GO:0097206	nephrocyte filtration	NCBITaxon:50557	Insecta
+GO:0097207	bud dormancy process	NCBITaxon:33090	Viridiplantae
+GO:0097218	sieve plate	NCBITaxon:3398	Magnoliophyta
+GO:0097347	TAM protein secretion complex	NCBITaxon:2	Bacteria
+GO:0097387	capitate projection	NCBITaxon:7203	Brachycera
+GO:0097413	Lewy body	NCBITaxon:33208	Metazoa
+GO:0097418	neurofibrillary tangle	NCBITaxon:33208	Metazoa
+GO:0097458	neuron part	NCBITaxon:33208	Metazoa
+GO:0097497	blood vessel endothelial cell delamination	NCBITaxon:33208	Metazoa
+GO:0097554	left anterior flagellum	NCBITaxon:5738	Diplomonadida
+GO:0097555	right anterior flagellum	NCBITaxon:5738	Diplomonadida
+GO:0097556	left posteriolateral flagellum	NCBITaxon:5738	Diplomonadida
+GO:0097557	right posteriolateral flagellum	NCBITaxon:5738	Diplomonadida
+GO:0097558	left ventral flagellum	NCBITaxon:5738	Diplomonadida
+GO:0097559	right ventral flagellum	NCBITaxon:5738	Diplomonadida
+GO:0097560	left caudal flagellum	NCBITaxon:5738	Diplomonadida
+GO:0097561	right caudal flagellum	NCBITaxon:5738	Diplomonadida
+GO:0097562	left lateral basal body pair	NCBITaxon:5738	Diplomonadida
+GO:0097563	left middle basal body pair	NCBITaxon:5738	Diplomonadida
+GO:0097564	right lateral basal body pair	NCBITaxon:5738	Diplomonadida
+GO:0097565	right middle basal body pair	NCBITaxon:5738	Diplomonadida
+GO:0097566	left tetrad	NCBITaxon:5738	Diplomonadida
+GO:0097567	right tetrad	NCBITaxon:5738	Diplomonadida
+GO:0097568	median body	NCBITaxon:5740	Giardia
+GO:0097569	lateral shield	NCBITaxon:5740	Giardia
+GO:0097571	left nucleus	NCBITaxon:5738	Diplomonadida
+GO:0097572	right nucleus	NCBITaxon:5738	Diplomonadida
+GO:0097589	archaeal-type flagellum	NCBITaxon:2157	Archaea
+GO:0097590	archaeal-type flagellum-dependent cell motility	NCBITaxon:2157	Archaea
+GO:0097597	ventral disc	NCBITaxon:5740	Giardia
+GO:0097608	transverse flagellum	NCBITaxon:2864	Dinophyceae
+GO:0097609	longitudinal flagellum	NCBITaxon:2864	Dinophyceae
+GO:0097611	dinoflagellate cingulum	NCBITaxon:2864	Dinophyceae
+GO:0097612	dinoflagellate sulcus	NCBITaxon:2864	Dinophyceae
+GO:0097613	dinoflagellate epicone	NCBITaxon:2864	Dinophyceae
+GO:0097614	dinoflagellate hypocone	NCBITaxon:2864	Dinophyceae
+GO:0097618	dinoflagellate sulcal notch	NCBITaxon:2864	Dinophyceae
+GO:0097619	PTEX complex	NCBITaxon:5820	Plasmodium
+GO:0097641	alpha-ketoglutarate-dependent xanthine dioxygenase activity	NCBITaxon:4751	Fungi
+GO:0097683	dinoflagellate apex	NCBITaxon:2864	Dinophyceae
+GO:0097684	dinoflagellate antapex	NCBITaxon:2864	Dinophyceae
+GO:0097685	dinoflagellate apical groove	NCBITaxon:2864	Dinophyceae
+GO:0097691	bacterial extracellular vesicle	NCBITaxon:2	Bacteria
+GO:0097693	ocelloid	NCBITaxon:2864	Dinophyceae
+GO:0097716	copper ion transport across blood-brain barrier	NCBITaxon:6072	Eumetazoa
+GO:0097727	blepharoplast	NCBITaxon:35493	Streptophyta
+GO:0097736	aerial mycelium formation	NCBITaxon:Union_0000020	Fungi or Bacteria
+GO:0097737	acquisition of mycelium reproductive competence	NCBITaxon:Union_0000020	Fungi or Bacteria
+GO:0097738	substrate mycelium formation	NCBITaxon:Union_0000020	Fungi or Bacteria
+GO:0097740	paraflagellar rod	NCBITaxon:33682	Euglenozoa
+GO:0097741	mastigoneme	NCBITaxon:Union_0000031	Stramenopiles or Cryptophyta
+GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:35493	Streptophyta
+GO:0098046	type V protein secretion system complex	NCBITaxon:2	Bacteria
+GO:0098536	deuterosome	NCBITaxon:33208	Metazoa
+GO:0098593	goblet cell theca	NCBITaxon:33208	Metazoa
+GO:0098706	iron ion import across cell outer membrane	NCBITaxon:2	Bacteria
+GO:0099622	cardiac muscle cell membrane repolarization	NCBITaxon:33208	Metazoa
+GO:0106123	reservosome	NCBITaxon:47570	Schizotrypanum
+GO:0106124	reservosome lumen	NCBITaxon:47570	Schizotrypanum
+GO:0106125	reservosome matrix	NCBITaxon:47570	Schizotrypanum
+GO:0106126	reservosome membrane	NCBITaxon:47570	Schizotrypanum
+GO:0120118	flagella connector	NCBITaxon:5653	Kinetoplastida
+GO:0120119	flagellum attachment zone	NCBITaxon:5653	Kinetoplastida
+GO:0120120	bilobe structure	NCBITaxon:5653	Kinetoplastida
+GO:0120121	tripartite attachment complex	NCBITaxon:5653	Kinetoplastida
+GO:0140007	KICSTOR complex	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0140022	cnida	NCBITaxon:6073	Cnidaria
+GO:0140266	Woronin body	NCBITaxon:4890	Ascomycota
+GO:0150064	vertebrate eye-specific patterning	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0150077	regulation of neuroinflammatory response	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:1900727	osmoregulated periplasmic glucan biosynthetic process	NCBITaxon:2	Bacteria
+GO:1902755	sulfurated eukaryotic molybdenum cofactor(2-) metabolic process	NCBITaxon:2759	Eukaryota
+GO:1903000	regulation of lipid transport across blood-brain barrier	NCBITaxon:6072	Eumetazoa
+GO:1903395	regulation of secondary cell septum biogenesis	NCBITaxon:2759	Eukaryota
+GO:1905266	blasticidin S biosynthetic process	NCBITaxon:2	Bacteria
+GO:1905393	plant organ formation	NCBITaxon:33090	Viridiplantae
+GO:1905603	regulation of maintenance of permeability of blood-brain barrier	NCBITaxon:6072	Eumetazoa
+GO:1905756	regulation of primary cell septum biogenesis	NCBITaxon:2759	Eukaryota
+GO:1990061	bacterial degradosome	NCBITaxon:2	Bacteria
+GO:1990077	primosome complex	NCBITaxon:Union_0000004	Prokaryota
+GO:1990111	spermatoproteasome complex	NCBITaxon:33208	Metazoa
+GO:1990195	macrolide transmembrane transporter complex	NCBITaxon:2	Bacteria
+GO:1990344	secondary cell septum biogenesis	NCBITaxon:2759	Eukaryota
+GO:1990379	lipid transport across blood-brain barrier	NCBITaxon:6072	Eumetazoa
+GO:1990490	archaeal proton-transporting A-type ATPase complex	NCBITaxon:2157	Archaea
+GO:1990586	divisome complex	NCBITaxon:Union_0000004	Prokaryota
+GO:1990901	old cell pole	NCBITaxon:2	Bacteria
+GO:1990902	new cell pole	NCBITaxon:2	Bacteria
+GO:1990905	dinoflagellate peduncle	NCBITaxon:2864	Dinophyceae
+GO:1990936	vascular smooth muscle cell dedifferentiation	NCBITaxon:33208	Metazoa
+GO:1990962	drug transport across blood-brain barrier	NCBITaxon:6072	Eumetazoa
+GO:1990963	establishment of blood-retinal barrier	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:1990965	cytosylglucuronate decarboxylase activity	NCBITaxon:2	Bacteria
+GO:2001310	gliotoxin biosynthetic process	NCBITaxon:4751	Fungi
