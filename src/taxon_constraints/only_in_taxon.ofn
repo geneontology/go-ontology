@@ -1,4 +1,4 @@
-Prefix(:=<owlapi:ontology#ont1#>)
+Prefix(:=<urn:unnamed:ontology#ont1#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -6,7 +6,7 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<owlapi:ontology#ont1>
+Ontology(<urn:unnamed:ontology#ont1>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000132>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000165>))
@@ -515,6 +515,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061772>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061822>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061823>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0062023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0062097>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070057>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070196>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070258>))
@@ -3243,6 +3244,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0061823> ObjectAllValuesFrom(<http
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0062023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0062023> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0062097> (<http://purl.obolibrary.org/obo/GO_0062097>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0062097> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004>))
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0062097> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0070057> (<http://purl.obolibrary.org/obo/GO_0070057>)
 
