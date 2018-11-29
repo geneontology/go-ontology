@@ -637,3 +637,4 @@ GO:1990962	drug transport across blood-brain barrier	NCBITaxon:6072	Eumetazoa
 GO:1990963	establishment of blood-retinal barrier	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:1990965	cytosylglucuronate decarboxylase activity	NCBITaxon:2	Bacteria
 GO:2001310	gliotoxin biosynthetic process	NCBITaxon:4751	Fungi
+GO:0062097	chemosynthesis	NCBITaxon:Union_0000004	Prokaryota
