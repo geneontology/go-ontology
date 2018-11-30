@@ -167,11 +167,11 @@ change-report.txt: $(SRC) $(PREVIOUS)
 #Uses file provided by Reactome to generate xrefs for import
 #add_xrefs:
 imports/reactome_xrefs_import.owl: $(SRC)
-	wget -O external2go/Reactions2GoTerms_human.txt --no-check-certificate https://reactome.org/download/current/Reactions2GoTerms_human.txt
-	sed -i '1s/.*/Identifier\tName\tdefined_class/' external2go/Reactions2GoTerms_human.txt
-	perl -i.bak -pe 's/[^[:ascii:]]//g' external2go/Reactions2GoTerms_human.txt
-	rm external2go/Reactions2GoTerms_human.txt.bak
-	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=external2go/Reactions2GoTerms_human.txt --outfile=external2go/reactome_xrefs.ofn --obo-prefixes=true
+	wget -O external2go/Reactions2GoTerms.txt --no-check-certificate https://reactome.org/download/current/Reactions2GoTerms.txt
+	sed -i '1s/.*/Identifier\tName\tdefined_class/' external2go/Reactions2GoTerms.txt
+	perl -i.bak -pe 's/[^[:ascii:]]//g' external2go/Reactions2GoTerms.txt
+	rm external2go/Reactions2GoTerms.txt.bak
+	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=external2go/Reactions2GoTerms.txt --outfile=external2go/reactome_xrefs.ofn --obo-prefixes=true
 	$(ROBOT) convert --input external2go/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
 # merge in any CONSTRUCTs
