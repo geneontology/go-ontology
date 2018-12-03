@@ -29,6 +29,7 @@ src/ontology/go-lastrelease.owl
 src/ontology/reports/*.tsv
 src/ontology/reports/*.csv
 src/ontology/go_inferences*
+src/ontology/go-edit-trimmed-imports.obo
 target/
 
 # Blipkit
