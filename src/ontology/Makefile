@@ -174,9 +174,10 @@ imports/reactome_xrefs_import.owl: $(SRC)
 	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=external2go/Reactions2GoTerms_human.txt --outfile=external2go/reactome_xrefs.ofn --obo-prefixes=true
 	$(ROBOT) convert --input external2go/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
-# merge in any CONSTRUCTs
-enhanced.owl: $(SRC)
-	$(OWLTOOLS) $(USECAT) $^ --merge-support-ontologies -o $@
+# merge in some imported GO modules
+enhanced.owl: $(SRC) imports/go_taxon_constraints.owl
+	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl' $< >go-edit-trimmed-imports.obo &&\
+	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -o $@
 	
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
