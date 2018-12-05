@@ -175,9 +175,10 @@ imports/reactome_xrefs_import.owl: $(SRC)
 	$(ROBOT) convert --input external2go/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
 # merge in some imported GO modules
-enhanced.owl: $(SRC) imports/go_taxon_constraints.owl
-	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl' $< >go-edit-trimmed-imports.obo &&\
-	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -o $@
+enhanced.owl: $(SRC) imports/go_taxon_constraints.owl imports/reactome_xrefs_import.owl
+	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl' $< |\
+	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl' >go-edit-trimmed-imports.obo &&\
+	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -o $@
 	
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
@@ -191,9 +192,9 @@ $(GO_PLUS).owl: reasoned.owl
 
 # Create release file containing GO-asserted axioms, no external axioms, and no inferences.
 # GO artifacts to merge are hardcoded here.
-go-base.owl: enhanced.owl imports/reactome_xrefs_import.owl
+go-base.owl: enhanced.owl
 	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o -f ofn $@.tmp &&\
-	$(ROBOT) merge -i $@.tmp -i extensions/go-gci.owl -i extensions/go-bridge.owl -i imports/ro_pending.owl -i imports/x-disjoint.owl -i imports/reactome_xrefs_import.owl -i imports/go_taxon_constraints.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
+	$(ROBOT) merge -i $@.tmp -i extensions/go-gci.owl -i extensions/go-bridge.owl -i imports/ro_pending.owl -i imports/x-disjoint.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
 
 # ----------------------------------------
 # OBO and subsets

@@ -2,7 +2,7 @@ pattern_name: reactome_xrefs
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/reactome_xrefs
 
 annotationProperties:
-  xref: oboInOwl:hasDbXref
+  xref: oio:hasDbXref
   label: rdfs:label
 
 data_vars:
