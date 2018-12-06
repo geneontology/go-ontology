@@ -36,7 +36,6 @@ GO:0003341	cilium movement	NCBITaxon:5782	Dictyostelium
 GO:0003713	transcription coactivator activity	NCBITaxon:2	Bacteria
 GO:0004169	dolichyl-phosphate-mannose-protein mannosyltransferase activity	NCBITaxon:33090	Viridiplantae
 GO:0004925	prolactin receptor activity	NCBITaxon:4751	Fungi
-GO:0005040	decoy death receptor activity	NCBITaxon:4751	Fungi
 GO:0005055	laminin receptor activity	NCBITaxon:4751	Fungi
 GO:0005663	DNA replication factor C complex	NCBITaxon:2	Bacteria
 GO:0005722	beta-heterochromatin	NCBITaxon:4751	Fungi
