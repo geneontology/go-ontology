@@ -539,7 +539,6 @@ GO:0090540	bacterial cellulose biosynthetic process	NCBITaxon:2	Bacteria
 GO:0090558	plant epidermis development	NCBITaxon:33090	Viridiplantae
 GO:0090597	nematode male tail mating organ morphogenesis	NCBITaxon:6231	Nematoda
 GO:0090639	phosphatidylcholine biosynthesis from choline and CDP-diacylglycerol	NCBITaxon:2	Bacteria
-GO:0090640	phosphatidylcholine biosynthesis from sn-glycero-3-phosphocholine	NCBITaxon:2	Bacteria
 GO:0097010	eukaryotic translation initiation factor 4F complex assembly	NCBITaxon:2759	Eukaryota
 GO:0097094	craniofacial suture morphogenesis	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0097195	pilomotor reflex	NCBITaxon:40674	Mammalia
