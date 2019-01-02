@@ -597,7 +597,6 @@ GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:35493	Streptop
 GO:0098046	type V protein secretion system complex	NCBITaxon:2	Bacteria
 GO:0098536	deuterosome	NCBITaxon:33208	Metazoa
 GO:0098593	goblet cell theca	NCBITaxon:33208	Metazoa
-GO:0098706	iron ion import across cell outer membrane	NCBITaxon:2	Bacteria
 GO:0099622	cardiac muscle cell membrane repolarization	NCBITaxon:33208	Metazoa
 GO:0106123	reservosome	NCBITaxon:47570	Schizotrypanum
 GO:0106124	reservosome lumen	NCBITaxon:47570	Schizotrypanum
