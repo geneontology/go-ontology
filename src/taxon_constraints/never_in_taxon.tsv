@@ -372,3 +372,9 @@ GO:1990377	organomineral extracellular matrix	NCBITaxon:33090	Viridiplantae
 GO:1990377	organomineral extracellular matrix	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
 GO:1990405	protein antigen binding	NCBITaxon:4751	Fungi
 GO:1990917	ooplasm	NCBITaxon:4751	Fungi
+GO:0061512  protein localization to cilium  NCBITaxon:3176  Zygnematales
+GO:0061512  protein localization to cilium  NCBITaxon:3312  Coniferophyta
+GO:0061512  protein localization to cilium  NCBITaxon:3378  Gnetales
+GO:0061512  protein localization to cilium  NCBITaxon:3398  Magnoliophyta
+GO:0061512  protein localization to cilium  NCBITaxon:4890  Ascomycota
+GO:0061512  protein localization to cilium  NCBITaxon:5782  Dictyostelium
