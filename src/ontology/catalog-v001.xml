@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/ro_pending.owl" uri="imports/ro_pending.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/ro_pending.owl" uri="extensions/ro_pending.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl" uri="extensions/go-bridge.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/go/extensions/go-gci.owl" uri="extensions/go-gci.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/bio-chebi.owl" uri="imports/bio-chebi.owl"/>
@@ -20,7 +20,6 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/oba_import.owl" uri="imports/oba_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/so_import.owl" uri="imports/so_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/ro_pending.owl" uri="imports/ro_pending.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/annotation_properties.owl" uri="imports/annotation_properties.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/pato_import.owl" uri="imports/pato_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
