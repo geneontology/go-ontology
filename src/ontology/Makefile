@@ -68,6 +68,8 @@ GO_BASIC_RELATIONS = BFO:0000050 RO:0002211 RO:0002212 RO:0002213
 GO_MAIN_RELATIONS = $(GO_BASIC_RELATIONS) BFO:0000051 BFO:0000066 RO:0002091 RO:0002092 RO:0002093
 
 GO_PLUS = extensions/go-plus
+GO_LEGO = extensions/go-lego
+GO_GAF = extensions/go-gaf
 
 SPARQLDIR = ../sparql
 REPORTDIR = $(RELEASEDIR)/reports
@@ -76,7 +78,7 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl go-basic.obo go-basic.json.gz subset-reports generate-mappings 
+stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz $(GO_GAF).owl $(GO_LEGO).owl go-base.owl go-basic.obo go-basic.json.gz subset-reports generate-mappings 
 
 test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable 
 
@@ -189,6 +191,12 @@ reasoned.owl: enhanced.owl $(SRC)-check
 $(GO_PLUS).owl: reasoned.owl
 	$(ROBOT) annotate -i $< -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: $(GO_PLUS).owl
+
+$(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).owl mirror/cl.owl mirror/ncbitaxon/subsets/taxslim.owl mirror/ncbitaxon/subsets/taxslim-disjoint-over-in-taxon.owl
+	$(ROBOT) merge -i $< annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ reason -r ELK reduce -o $@
+
+$(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/ncbitaxon/subsets/taxslim.owl mirror/ncbitaxon/subsets/taxslim-disjoint-over-in-taxon.owl mirror/go/noctua/neo.owl
+	$(ROBOT) merge -i $< annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ reason -r ELK reduce -o $@
 
 # Create release file containing GO-asserted axioms, no external axioms, and no inferences.
 # GO artifacts to merge are hardcoded here.
@@ -368,10 +376,11 @@ mirror/cl-download.owl: $(SRC)
 # see https://github.com/geneontology/go-ontology/issues/12946
 mirror/ro-download.owl: $(SRC)
 	$(OWLTOOLS) $(OBO)/ro.owl --merge-imports-closure -o $@
-.PRECIOUS: mirror/cl-download.owl
+.PRECIOUS: mirror/ro-download.owl
 
 # general case: download remote OWL first
 mirror/%-download.owl: $(SRC)
+	mkdir -p $(dir $@) &&\
 	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
 .PRECIOUS: mirror/%-download.owl
 

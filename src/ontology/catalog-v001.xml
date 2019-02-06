@@ -24,14 +24,21 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/pato_import.owl" uri="imports/pato_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/fao_import.owl" uri="imports/fao_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-plus.owl" uri="imports/go-plus.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-gaf.owl" uri="imports/go-gaf.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-plus.owl" uri="extensions/go-plus.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-gaf.owl" uri="extensions/go-gaf.owl"/>
    	<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chebi.owl" uri="mirror/chebi.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/uberon/reasoner_axioms.owl" uri="go_inferences_null.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl" uri="imports/go-taxon-groupings.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl" uri="imports/go_taxon_constraints.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-taxon-subsets.owl" uri="imports/go-taxon-subsets.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/gorel.owl" uri="imports/gorel.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/gorel.owl" uri="extensions/gorel.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl" uri="imports/x-disjoint.owl"/>
-	<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl" uri="imports/reactome_xrefs_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl" uri="imports/reactome_xrefs_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/cl/cl-basic.owl" uri="mirror/cl.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl" uri="mirror/ncbitaxon/subsets/taxslim.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim-disjoint-over-in-taxon.owl" uri="mirror/ncbitaxon/subsets/taxslim-disjoint-over-in-taxon.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ro.owl" uri="mirror/ro.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/legorel.owl" uri="extensions/legorel.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-bfo-bridge.owl" uri="extensions/go-bfo-bridge.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/noctua/neo.owl" uri="mirror/go/noctua/neo.owl"/>
 </catalog>
