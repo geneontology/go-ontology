@@ -421,7 +421,8 @@ EXTERNAL2GO_DBS = EC KEGG MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayI
 # See : https://github.com/geneontology/go-site/issues/688
 # Manually add all ID spaces here; only do this for xrefs that are managed within the obo file.
 generate-mappings: go-basic.obo
-	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals $(EXTERNAL2GO_DBS)
+	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals $(EXTERNAL2GO_DBS) &&\
+	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/interpro2go -O external2go/interpro2go
 	
 # ----------------------------------------
 # TAXON GROUPINGS
