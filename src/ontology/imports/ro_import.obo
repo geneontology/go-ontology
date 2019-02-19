@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2018-11-15/imports/ro_import.owl
+data-version: go/releases/2019-02-19/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -7,11 +7,13 @@ id: BFO:0000002
 name: continuant
 def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
 disjoint_from: BFO:0000003 ! occurrent
+relationship: part_of BFO:0000002 ! continuant
 
 [Term]
 id: BFO:0000003
 name: occurrent
 def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
+relationship: part_of BFO:0000003 ! occurrent
 
 [Term]
 id: BFO:0000004
@@ -19,6 +21,7 @@ name: independent continuant
 def: "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." []
 is_a: BFO:0000002 ! continuant
 disjoint_from: BFO:0000020 ! specifically dependent continuant
+relationship: part_of BFO:0000004 ! independent continuant
 
 [Term]
 id: BFO:0000006
@@ -43,17 +46,20 @@ name: realizable entity
 def: "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances." []
 is_a: BFO:0000020 ! specifically dependent continuant
 disjoint_from: BFO:0000019 ! quality
+relationship: part_of BFO:0000017 ! realizable entity
 
 [Term]
 id: BFO:0000019
 name: quality
 is_a: BFO:0000020 ! specifically dependent continuant
+relationship: part_of BFO:0000019 ! quality
 
 [Term]
 id: BFO:0000020
 name: specifically dependent continuant
 def: "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same." []
 is_a: BFO:0000002 ! continuant
+relationship: part_of BFO:0000020 ! specifically dependent continuant
 
 [Term]
 id: BFO:0000023
@@ -168,7 +174,7 @@ name: actively participates in
 def: "x actively participates in y if and only if x participates in y and x realizes some active role" []
 xref: RO:0002217
 is_a: participates_in ! participates in
-inverse_of: has_active_participant ! has active participant
+inverse_of: obsolete_has_active_participant ! obsolete has active participant
 
 [Typedef]
 id: activity_directly_negatively_regulates_activity_of
@@ -459,19 +465,6 @@ name: depends on
 xref: RO:0002502
 
 [Typedef]
-id: derives_from
-name: derives from
-def: "a relation between two distinct material entities, the new entity and the old entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity" []
-xref: RO:0001000
-inverse_of: derives_into ! derives into
-
-[Typedef]
-id: derives_into
-name: derives into
-def: "a relation between two distinct material entities, the old entity and the new entity, in which the new entity begins to exist when the old entity ceases to exist, and the new entity inherits the significant portion of the matter of the old entity" []
-xref: RO:0001001
-
-[Typedef]
 id: developmentally_contributes_to
 name: developmentally contributes to
 def: "inverse of has developmental contribution from" []
@@ -544,7 +537,7 @@ is_a: has_potential_to_directly_develop_into ! has potential to directly develop
 [Typedef]
 id: directly_develops_from
 name: directly develops from
-def: "Candidate definition: x directly_develops from y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p, and a substantial portion of the matter of y comes from x, and the start of x is coincident with or after the end of y" []
+def: "Candidate definition: x directly_develops from y if and only if there exists some developmental process (GO:0032502) p such that x and y both participate in p, and x is the output of p and y is the input of p, and a substantial portion of the matter of x comes from y, and the start of x is coincident with or after the end of y." []
 xref: RO:0002207
 is_a: develops_from ! develops from
 inverse_of: directly_develops_into ! directly develops into
@@ -623,6 +616,7 @@ name: enabled by
 def: "inverse of enables" []
 xref: RO:0002333
 is_a: functionally_related_to ! functionally related to
+is_a: has_participant ! has participant
 
 [Typedef]
 id: enables
@@ -714,13 +708,6 @@ is_transitive: true
 is_a: ends_during ! ends during
 
 [Typedef]
-id: has_active_participant
-name: has active participant
-def: "x has participant y if and only if x realizes some active role that inheres in y" []
-xref: RO:0002218
-is_a: has_participant ! has participant
-
-[Typedef]
 id: has_anatomical_participant
 name: has anatomical participant
 def: "p has anatomical participant c iff p has participant c, and c is an anatomical entity" []
@@ -745,6 +732,8 @@ id: has_component_process
 name: has component process
 def: "w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
 xref: RO:0002018
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
 is_a: has_component ! has component
 
 [Typedef]
@@ -892,6 +881,29 @@ name: has potential to directly develop into
 def: "x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y" []
 xref: RO:0002388
 is_a: has_potential_to_develop_into ! has potential to develop into
+
+[Typedef]
+id: has_primary_input
+name: has primary input
+def: "p has primary input c if (a) p has input c and (b) the goal of process is to modify, consume, or transform c." []
+xref: RO:0004009
+is_a: has_input ! has input
+is_a: has_primary_input_or_output ! has primary input or output
+
+[Typedef]
+id: has_primary_input_or_output
+name: has primary input or output
+def: "p 'has primary input ot output' c iff either (a) p 'has primary input' c or (b) p 'has primary output' c." []
+xref: RO:0004007
+is_a: has_participant ! has participant
+
+[Typedef]
+id: has_primary_output
+name: has primary output
+def: "p has primary output c if (a) p has output c and (b) the goal of process is to modify, produce, or transform c." []
+xref: RO:0004008
+is_a: has_output ! has output
+is_a: has_primary_input_or_output ! has primary input or output
 
 [Typedef]
 id: has_regulatory_component_activity
@@ -1209,10 +1221,11 @@ is_a: regulates ! regulates
 inverse_of: negatively_regulated_by ! negatively regulated by
 
 [Typedef]
-id: obsolete_related_via_dependence_to
-name: obsolete related via dependence to
-def: "A relationship that holds between two entities, where the relationship holds based on the presence or absence of statistical dependence relationship. The entities may be statistical variables, or they may be other kinds of entities such as diseases, chemical entities or processes." []
-xref: RO:0002609
+id: obsolete_has_active_participant
+name: obsolete has active participant
+def: "x has participant y if and only if x realizes some active role that inheres in y" []
+xref: RO:0002218
+is_a: has_participant ! has participant
 is_obsolete: true
 
 [Typedef]
@@ -1394,6 +1407,8 @@ id: regulates_levels_of
 name: regulates levels of
 def: "p regulates levels of c if p regulates some amount (PATO:0000070) of c" []
 xref: RO:0002332
+domain: BFO:0000015 ! process
+range: BFO:0000040 ! material entity
 is_a: functionally_related_to ! functionally related to
 
 [Typedef]
