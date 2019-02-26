@@ -250,8 +250,8 @@ is_a: CHEBI:36338 ! lepton
 
 [Term]
 id: CHEBI:10576
-name: gamma-pentachlorocyclohexene
-is_a: CHEBI:36683 ! organochlorine compound
+name: (3R,4S,5S,6R)-1,3,4,5,6-pentachlorocyclohexene
+is_a: CHEBI:23139 ! chlorocyclohexene
 
 [Term]
 id: CHEBI:10577
@@ -1700,7 +1700,7 @@ is_a: CHEBI:36084 ! dihydroxybenzoate
 
 [Term]
 id: CHEBI:131857
-name: 3-farnesyl-2,3,5-trimethyl-6-oxido-4-oxocyclohexa-1,5-diene-1-carboxylate
+name: (3R)-farnesyl-2,3,5-trimethyl-6-oxido-4-oxocyclohexa-1,5-diene-1-carboxylate
 is_a: CHEBI:35902 ! oxo monocarboxylic acid anion
 
 [Term]
@@ -2621,7 +2621,7 @@ is_a: CHEBI:62938 ! hepoxilin anion
 
 [Term]
 id: CHEBI:132128
-name: 3-farnesyl-6-hydroxy-2,3,5-trimethyl-4-oxocyclohexa-1,5-diene-1-carboxylic acid
+name: (3R)-farnesyl-6-hydroxy-2,3,5-trimethyl-4-oxocyclohexa-1,5-diene-1-carboxylic acid
 is_a: CHEBI:26660 ! sesterterpenoid
 is_a: CHEBI:33823 ! enol
 is_a: CHEBI:35952 ! 5-oxo monocarboxylic acid
@@ -3633,6 +3633,11 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 id: CHEBI:132809
 name: (8S)-hepoxilin A3
 is_a: CHEBI:36190 ! hepoxilin A3
+
+[Term]
+id: CHEBI:132814
+name: beta-D-Galp-(1->3)-beta-D-GalpNAc-(1->4)-beta-D-Galp-(1->4)-D-Glcp
+is_a: CHEBI:59412 ! amino tetrasaccharide
 
 [Term]
 id: CHEBI:132818
@@ -4889,8 +4894,6 @@ is_a: CHEBI:131727 ! hydroxylipid
 [Term]
 id: CHEBI:133867
 name: 4-O-[di(2R)-1-glycerylphosphonato]-N-acetyl-beta-D-mannosaminyl-(1->4)-N-acetyl-alpha-D-glucosaminyl undecaprenyl diphosphate(4-)
-is_a: CHEBI:132876 ! beta-D-glucosyl-(1->4)-N-acetyl-alpha-D-glucosaminyl undecaprenyl diphosphate
-is_a: CHEBI:15696 ! beta-D-glucosyl-(1->4)-N-acetyl-D-glucosaminyl undecaprenyl diphosphate
 is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
@@ -10148,7 +10151,7 @@ id: CHEBI:137586
 name: alkyl,acylglyceride
 is_a: CHEBI:47778 ! glyceride
 is_a: CHEBI:64611 ! ether lipid
-is_a: CHEBI:76578 ! disubstituted glycerol
+is_a: CHEBI:76578 ! diradylglycerol
 
 [Term]
 id: CHEBI:13759
@@ -11030,7 +11033,7 @@ is_a: CHEBI:64768 ! zwitterionic group
 id: CHEBI:138055
 name: 2,4,5-trihydroxyphenylacetic acid
 is_a: CHEBI:22707 ! benzenetriol
-is_a: CHEBI:25384 ! monocarboxylic acid
+is_a: CHEBI:25978 ! phenylacetic acids
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 relationship: has_role CHEBI:84087 ! human urinary metabolite
 
@@ -11626,7 +11629,7 @@ is_a: CHEBI:133381 ! 9,10-epoxy-18-hydroxyoctadecanoic acid
 [Term]
 id: CHEBI:138260
 name: (9R,10S)-9,10-epoxyoctadecanoic acid
-is_a: CHEBI:85661 ! 9,10-epoxyoctadecanoic acid
+is_a: CHEBI:82464 ! cis-9,10-epoxyoctadecanoic acid
 
 [Term]
 id: CHEBI:138261
@@ -11636,7 +11639,7 @@ is_a: CHEBI:77636 ! fatty acyl-CoA(4-)
 [Term]
 id: CHEBI:138262
 name: (9S,10R)-epoxyoctadecanoic acid
-is_a: CHEBI:85661 ! 9,10-epoxyoctadecanoic acid
+is_a: CHEBI:82464 ! cis-9,10-epoxyoctadecanoic acid
 
 [Term]
 id: CHEBI:138265
@@ -13334,6 +13337,12 @@ is_a: CHEBI:50860 ! organic molecular entity
 id: CHEBI:139095
 name: 2'-deoxyribose 5'-monophosphate(1-) residue
 is_a: CHEBI:64775 ! organic anionic group
+
+[Term]
+id: CHEBI:139098
+name: alpha-D-galactosyl-(1->4)-beta-D-galactosyl group
+is_a: CHEBI:22778 ! beta-D-galactosyl groups
+relationship: has_role CHEBI:53000 ! epitope
 
 [Term]
 id: CHEBI:139104
@@ -15447,7 +15456,8 @@ is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:140607
-name: S-(ADP-D-ribosyl)-L-cysteinyl residue
+name: S-(ADP-D-ribosyl)-L-cysteine(2-) residue
+is_a: CHEBI:64775 ! organic anionic group
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -15738,6 +15748,11 @@ name: alkylcob(III)alamin
 is_a: CHEBI:23333 ! cob(III)alamins
 
 [Term]
+id: CHEBI:140810
+name: beta-D-glucosamine(1+)
+is_a: CHEBI:58723 ! 2-ammonio-2-deoxy-D-glucopyranose
+
+[Term]
 id: CHEBI:140817
 name: alpha-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 is_a: CHEBI:36508 ! glycotriaosylceramide
@@ -16020,6 +16035,12 @@ name: ditrans,polycis-dodecaprenyl phosphate
 is_a: CHEBI:16460 ! polyprenol phosphate
 
 [Term]
+id: CHEBI:142384
+name: fatty acid 14:2
+is_a: CHEBI:15904 ! long-chain fatty acid
+is_a: CHEBI:26208 ! polyunsaturated fatty acid
+
+[Term]
 id: CHEBI:142389
 name: trans-feruloylacetyl-CoA(4-)
 is_a: CHEBI:71221 ! feruloylacetyl-CoA(4-)
@@ -16046,9 +16067,143 @@ is_a: CHEBI:27092 ! tricarboxylic acid trianion
 is_a: CHEBI:59814 ! L-alpha-amino acid anion
 
 [Term]
+id: CHEBI:142493
+name: (3S,4R,5R,6S)-1,3,4,5,6-pentachlorocyclohexene
+is_a: CHEBI:23139 ! chlorocyclohexene
+
+[Term]
+id: CHEBI:142508
+name: beta-D-Gal-(1->3)-beta-D-GalNAc-(1->4)-beta-D-Gal-(1->4)-beta-D-Glc-yl group
+is_a: CHEBI:30697 ! beta-D-glucosyl group
+relationship: has_role CHEBI:53000 ! epitope
+
+[Term]
+id: CHEBI:142510
+name: isonocardicin A zwitterion
+is_a: CHEBI:59869 ! L-alpha-amino acid zwitterion
+
+[Term]
+id: CHEBI:142513
+name: oxime anion
+is_a: CHEBI:25696 ! organic anion
+
+[Term]
+id: CHEBI:142514
+name: ->8)-alpha-Neu5Ac-(2->3)-[beta-D-Gal-(1->3)-beta-D-GalNAc-(1->4)]-beta-D-Gal-(1->4)-yl group
+is_a: CHEBI:33247 ! organic group
+relationship: has_role CHEBI:53000 ! epitope
+
+[Term]
+id: CHEBI:142518
+name: beta-D-GalNAc-(1->4)-beta-D-Gal-(1->4)-beta-D-Glc-yl group
+is_a: CHEBI:30697 ! beta-D-glucosyl group
+relationship: has_role CHEBI:53000 ! epitope
+
+[Term]
+id: CHEBI:142522
+name: beta-GalNAc-(1->4)-[alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)]-beta-Gal-(1->4)-R group
+is_a: CHEBI:33247 ! organic group
+relationship: has_role CHEBI:53000 ! epitope
+
+[Term]
+id: CHEBI:142525
+name: 3-hydroxybutane-1,2,3-tricarboxylic acid
+is_a: CHEBI:25311 ! methylisocitric acid
+is_a: CHEBI:26878 ! tertiary alcohol
+is_a: CHEBI:27093 ! tricarboxylic acid
+
+[Term]
+id: CHEBI:142532
+name: alpha-Neup5Ac-(2->8)-alpha-Neup5Ac-(2->3)-beta-D-Galp-(1->4)-beta-D-Glcp-yl group
+is_a: CHEBI:30697 ! beta-D-glucosyl group
+relationship: has_role CHEBI:53000 ! epitope
+
+[Term]
+id: CHEBI:142533
+name: ->4)-alpha-D-Galp-(1->4)-beta-D-Galp-(1->4)-beta-D-Glcp-yl group
+is_a: CHEBI:33247 ! organic group
+relationship: has_role CHEBI:53000 ! epitope
+
+[Term]
+id: CHEBI:142544
+name: tamsulosin(1+)
+is_a: CHEBI:137419 ! secondary ammonium ion
+
+[Term]
+id: CHEBI:142546
+name: 5-(2-\{[2-(2-ethoxyphenoxy)ethyl]amino}propyl)-2-methoxybenzenesulfonamide
+is_a: CHEBI:35358 ! sulfonamide
+is_a: CHEBI:35618 ! aromatic ether
+is_a: CHEBI:50995 ! secondary amino compound
+
+[Term]
+id: CHEBI:142548
+name: ent-tamsulosin
+is_a: CHEBI:142546 ! 5-(2-{[2-(2-ethoxyphenoxy)ethyl]amino}propyl)-2-methoxybenzenesulfonamide
+
+[Term]
+id: CHEBI:142549
+name: ent-tamsulosin(1+)
+is_a: CHEBI:137419 ! secondary ammonium ion
+
+[Term]
+id: CHEBI:142554
+name: N(omega)-(ADP-D-ribosyl)-L-argininium(1-) residue
+is_a: CHEBI:64775 ! organic anionic group
+is_a: CHEBI:83228 ! L-alpha-amino acid residue
+
+[Term]
+id: CHEBI:142567
+name: alpha-D-Galp-(1->4)-beta-D-Galp-(1->4)-beta-D-Glcp-yl group
+is_a: CHEBI:30697 ! beta-D-glucosyl group
+relationship: has_role CHEBI:53000 ! epitope
+
+[Term]
+id: CHEBI:142568
+name: beta-D-Galp-(1->3)-beta-D-GalpNAc-(1->3)-alpha-D-Galp-(1->4)-beta-D-Galp-yl group
+is_a: CHEBI:16289 ! beta-D-galactosyl group
+relationship: has_role CHEBI:53000 ! epitope
+
+[Term]
+id: CHEBI:142582
+name: alpha-N-acetylneuraminosyl-(2->3)-beta-D-galactosyl-(1->3)-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide(1-)
+is_a: CHEBI:36520 ! oligoglycosylceramide
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:142587
+name: N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:142590
+name: 3-aminoisobutanoic acid zwitterion
+is_a: CHEBI:35238 ! amino acid zwitterion
+
+[Term]
+id: CHEBI:142594
+name: alpha-N-acetylneuraminosyl-(2->3)-beta-D-galactosyl-(1->3)-[alpha-N-acetylneuraminosyl-(2->6)]-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide(2-)
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:142607
+name: alpha-N-acetylneuraminosyl-(2->3)-beta-D-galactosyl-(1->3)-[alpha-L-fucosyl-(1->4)]-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide(1-)
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
 id: CHEBI:14261
 name: feruloyl-CoA
 is_a: CHEBI:17984 ! acyl-CoA
+
+[Term]
+id: CHEBI:142622
+name: primary fatty alcohol
+is_a: CHEBI:15734 ! primary alcohol
+
+[Term]
+id: CHEBI:142626
+name: alpha-N-acetylneuraminosyl-(2->3)-beta-D-galactosyl-(1->3)-[alpha-L-fucosyl-(1->4)]-[alpha-N-acetylneuraminosyl-(2->6)]-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide(2-)
+is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:14268
@@ -16071,9 +16226,117 @@ is_a: CHEBI:37143 ! organofluorine compound
 relationship: has_role CHEBI:50912 ! cardiotoxic agent
 
 [Term]
+id: CHEBI:142734
+name: N-acyl hemiaminal
+is_a: CHEBI:33822 ! organic hydroxy compound
+is_a: CHEBI:37622 ! carboxamide
+
+[Term]
+id: CHEBI:142767
+name: alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->4)-beta-D-Glc-yl group
+is_a: CHEBI:30697 ! beta-D-glucosyl group
+relationship: has_role CHEBI:53000 ! epitope
+
+[Term]
+id: CHEBI:142797
+name: TMP(2-)
+is_a: CHEBI:138238 ! pyrimidine ribonucleoside 5'-monophosphate(2-)
+
+[Term]
 id: CHEBI:14280
 name: formyl phosphate(1-)
 is_a: CHEBI:60199 ! acyl monophosphate(1-)
+
+[Term]
+id: CHEBI:142851
+name: 2-amino-4-[hydroxy(methyl)phosphoryl]butanoic acid
+is_a: CHEBI:26044 ! phosphinic acids
+is_a: CHEBI:83925 ! non-proteinogenic alpha-amino acid
+
+[Term]
+id: CHEBI:142852
+name: glufosinate-P
+is_a: CHEBI:142851 ! 2-amino-4-[hydroxy(methyl)phosphoryl]butanoic acid
+relationship: has_role CHEBI:24319 ! EC 6.3.1.2 (glutamate--ammonia ligase) inhibitor
+relationship: has_role CHEBI:24527 ! herbicide
+relationship: has_role CHEBI:33286 ! agrochemical
+
+[Term]
+id: CHEBI:142853
+name: (2R)-glufosinate
+is_a: CHEBI:142851 ! 2-amino-4-[hydroxy(methyl)phosphoryl]butanoic acid
+
+[Term]
+id: CHEBI:142854
+name: (2R)-glufosinate zwitterion
+is_a: CHEBI:35238 ! amino acid zwitterion
+
+[Term]
+id: CHEBI:142856
+name: glufosinate-P zwitterion
+is_a: CHEBI:35238 ! amino acid zwitterion
+
+[Term]
+id: CHEBI:142858
+name: (2R)-glufosinate zwitterion(1-)
+is_a: CHEBI:25696 ! organic anion
+
+[Term]
+id: CHEBI:142859
+name: glufosinate-P zwitterion(1-)
+is_a: CHEBI:25696 ! organic anion
+
+[Term]
+id: CHEBI:142880
+name: 7,2'-dihydroxy-4'-methoxyisoflavanol
+is_a: CHEBI:35618 ! aromatic ether
+is_a: CHEBI:35681 ! secondary alcohol
+is_a: CHEBI:76250 ! hydroxyisoflavans
+is_a: CHEBI:77002 ! methoxyisoflavan
+
+[Term]
+id: CHEBI:142921
+name: 3-phenylprop-2-enal
+is_a: CHEBI:23245 ! cinnamaldehydes
+
+[Term]
+id: CHEBI:142938
+name: gentamycin 2''-phosphate
+is_a: CHEBI:23666 ! diamine
+is_a: CHEBI:37549 ! glycoside phosphate
+is_a: CHEBI:50994 ! primary amino compound
+is_a: CHEBI:63367 ! monosaccharide derivative
+
+[Term]
+id: CHEBI:142940
+name: dihexadecanoylglycerol
+is_a: CHEBI:85688 ! diacylglycerol 32:0
+
+[Term]
+id: CHEBI:142953
+name: didodecanoylglycerol
+is_a: CHEBI:142954 ! diacylglycerol 24:0
+is_a: CHEBI:87659 ! dodecanoate ester
+
+[Term]
+id: CHEBI:142954
+name: diacylglycerol 24:0
+is_a: CHEBI:18035 ! diglyceride
+
+[Term]
+id: CHEBI:142967
+name: D-histidine zwitterion
+is_a: CHEBI:62031 ! polar amino acid zwitterion
+
+[Term]
+id: CHEBI:143004
+name: ultra-long-chain fatty acid
+is_a: CHEBI:27283 ! very long-chain fatty acid
+
+[Term]
+id: CHEBI:143005
+name: ultra-long-chain fatty acid anion
+is_a: CHEBI:58950 ! very long-chain fatty acid anion
 
 [Term]
 id: CHEBI:14314
@@ -18057,8 +18320,7 @@ is_a: CHEBI:5070 ! flavanone
 [Term]
 id: CHEBI:15607
 name: (2S,3R)-3-hydroxybutane-1,2,3-tricarboxylic acid
-is_a: CHEBI:25311 ! methylisocitric acid
-is_a: CHEBI:27093 ! tricarboxylic acid
+is_a: CHEBI:142525 ! 3-hydroxybutane-1,2,3-tricarboxylic acid
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
 [Term]
@@ -18494,8 +18756,9 @@ is_a: CHEBI:36508 ! glycotriaosylceramide
 
 [Term]
 id: CHEBI:15681
-name: alpha-N-acetylneuraminosyl-(2->3)-beta-D-galactosyl-(1->4)-beta-D-glucosylceramide
+name: alpha-N-acetylneuraminyl-(2->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide
 is_a: CHEBI:79209 ! alpha-N-acetylneuraminyl-(2->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide
+relationship: has_part CHEBI:142767 ! alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->4)-beta-D-Glc-yl group
 relationship: has_role CHEBI:59132 ! antigen
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
@@ -18992,6 +19255,7 @@ relationship: has_role CHEBI:59174 ! hapten
 relationship: has_role CHEBI:62215 ! allelochemical
 relationship: has_role CHEBI:66956 ! antidyskinesia agent
 relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -23048,10 +23312,11 @@ relationship: has_role CHEBI:78298 ! environmental contaminant
 [Term]
 id: CHEBI:16483
 name: isonocardicin A
-is_a: CHEBI:16733 ! D-alpha-amino acid
 is_a: CHEBI:25572 ! nocardicin
+is_a: CHEBI:33853 ! phenols
+is_a: CHEBI:35618 ! aromatic ether
 is_a: CHEBI:35692 ! dicarboxylic acid
-is_a: CHEBI:84133 ! D-serine derivative
+is_a: CHEBI:83822 ! non-proteinogenic L-alpha-amino acid
 
 [Term]
 id: CHEBI:16485
@@ -23253,6 +23518,12 @@ name: cyclotriphosphoric acid
 is_a: CHEBI:33457 ! phosphorus oxoacid
 is_a: CHEBI:33596 ! inorganic heterocyclic compound
 is_a: CHEBI:37798 ! cyclic phosphorus acid anhydride
+
+[Term]
+id: CHEBI:16520
+name: R'C(R)SH
+is_a: CHEBI:33261 ! organosulfur compound
+relationship: has_part CHEBI:29917 ! thiol group
 
 [Term]
 id: CHEBI:16521
@@ -24384,7 +24655,8 @@ is_a: CHEBI:47622 ! acetate ester
 
 [Term]
 id: CHEBI:16731
-name: cinnamaldehyde
+name: (E)-cinnamaldehyde
+is_a: CHEBI:142921 ! 3-phenylprop-2-enal
 is_a: CHEBI:23245 ! cinnamaldehydes
 relationship: has_role CHEBI:139492 ! sensitiser
 relationship: has_role CHEBI:35526 ! hypoglycemic agent
@@ -26126,6 +26398,7 @@ name: cycloartenol
 is_a: CHEBI:25872 ! pentacyclic triterpenoid
 is_a: CHEBI:26125 ! phytosterols
 is_a: CHEBI:35348 ! 3beta-sterol
+relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:17031
@@ -26161,8 +26434,8 @@ is_a: CHEBI:25622 ! orthoquinones
 [Term]
 id: CHEBI:17037
 name: geissoschizine
-is_a: CHEBI:17478 ! aldehyde
 is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:33823 ! enol
 is_a: CHEBI:38163 ! organic heterotetracyclic compound
 is_a: CHEBI:38958 ! indole alkaloid
 
@@ -26522,7 +26795,8 @@ is_a: CHEBI:33256 ! primary amide
 
 [Term]
 id: CHEBI:17103
-name: N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosylceramide
+name: N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosylceramide(d18:1(4E))
+is_a: CHEBI:142587 ! N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide
 is_a: CHEBI:36508 ! glycotriaosylceramide
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -28453,6 +28727,12 @@ is_a: CHEBI:59554 ! medium-chain fatty acid
 id: CHEBI:17410
 name: pteridine-2,4,6,7-tetrol
 is_a: CHEBI:26373 ! pteridines
+
+[Term]
+id: CHEBI:17412
+name: R'C(R)S-S(R)CR'
+is_a: CHEBI:33261 ! organosulfur compound
+is_a: CHEBI:48343 ! disulfide
 
 [Term]
 id: CHEBI:17413
@@ -31418,6 +31698,7 @@ id: CHEBI:17950
 name: beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-N-acylsphingosine
 is_a: CHEBI:63415 ! glycodiaosylceramide
 is_a: CHEBI:79208 ! beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide
+relationship: has_part CHEBI:139098 ! alpha-D-galactosyl-(1->4)-beta-D-galactosyl group
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -31882,7 +32163,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:18035
 name: diglyceride
 is_a: CHEBI:47778 ! glyceride
-is_a: CHEBI:76578 ! disubstituted glycerol
+is_a: CHEBI:76578 ! diradylglycerol
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -32593,8 +32874,9 @@ is_a: CHEBI:26563 ! ribose triphosphate
 
 [Term]
 id: CHEBI:18163
-name: alpha-N-acetylneuraminosyl-(2->3)-beta-D-galactosyl-(1->3)-N-acetyl-beta-D-galactosaminyl-(1->4)-[alpha-N-acetylneuraminosyl-(2->3)]-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-N-acylsphingosine
+name: alpha-NeuNAc-(2->3)-beta-D-Gal-(1->3)-beta-D-GalNAc-(1->4)-[alpha-NeuNAc-(2->3)]-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 is_a: CHEBI:36543 ! sialotetraosylceramide
+relationship: has_part CHEBI:75127 ! alpha-N-acetylneuraminyl-(2->3)-D-galactosyl group
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
@@ -33055,6 +33337,8 @@ name: N-acetyl-beta-D-galactosaminyl-(1->3)-alpha-D-galactosyl-(1->4)-beta-D-gal
 is_a: CHEBI:23075 ! glycotetraosylceramide
 is_a: CHEBI:61360 ! globoside
 is_a: CHEBI:88167 ! N-acetyl-beta-D-galactosaminyl-(1->3)-alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide
+relationship: has_part CHEBI:142533 ! ->4)-alpha-D-Galp-(1->4)-beta-D-Galp-(1->4)-beta-D-Glcp-yl group
+relationship: has_part CHEBI:142567 ! alpha-D-Galp-(1->4)-beta-D-Galp-(1->4)-beta-D-Glcp-yl group
 relationship: has_role CHEBI:59132 ! antigen
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -33269,7 +33553,7 @@ relationship: has_role CHEBI:84735 ! algal metabolite
 
 [Term]
 id: CHEBI:18301
-name: cis,trans-4-hydroxymuconic semialdehyde
+name: (2Z,4E)-4-hydroxymuconic semialdehyde
 is_a: CHEBI:38436 ! muconic semialdehyde
 is_a: CHEBI:79020 ! alpha,beta-unsaturated monocarboxylic acid
 
@@ -36749,6 +37033,7 @@ is_a: CHEBI:24164 ! galactosyl group
 id: CHEBI:22788
 name: beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-D-glucosylceramide
 is_a: CHEBI:23075 ! glycotetraosylceramide
+relationship: has_part CHEBI:12357 ! beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosaminyl group
 
 [Term]
 id: CHEBI:22798
@@ -37311,6 +37596,11 @@ id: CHEBI:23138
 name: chlorocatechol
 is_a: CHEBI:23132 ! chlorobenzenes
 is_a: CHEBI:33566 ! catechols
+
+[Term]
+id: CHEBI:23139
+name: chlorocyclohexene
+is_a: CHEBI:23115 ! chlorohydrocarbon
 
 [Term]
 id: CHEBI:23140
@@ -41974,6 +42264,12 @@ name: phenylacetaldehydes
 is_a: CHEBI:17478 ! aldehyde
 
 [Term]
+id: CHEBI:25978
+name: phenylacetic acids
+is_a: CHEBI:22712 ! benzenes
+is_a: CHEBI:25384 ! monocarboxylic acid
+
+[Term]
 id: CHEBI:25979
 name: phenylacetonitrile
 is_a: CHEBI:18379 ! nitrile
@@ -44155,7 +44451,8 @@ relationship: has_role CHEBI:75769 ! B vitamin
 [Term]
 id: CHEBI:27311
 name: volatile oil component
-is_a: CHEBI:25212 ! metabolite
+is_a: CHEBI:52206 ! biochemical role
+is_a: CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:27314
@@ -44654,8 +44951,9 @@ is_a: CHEBI:140301 ! 7-hydroxyisoflavones 7-O-beta-D-glucoside
 
 [Term]
 id: CHEBI:27515
-name: alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)-beta-Gal-(1->3)-beta-GalNAc-(1->4)-[alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)]-beta-Gal-(1->4)-beta-Glc-(1<->1')-Cer
+name: alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)-beta-Gal-D-(1->3)-beta-D-GalNAc-(1->4)-[alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)]-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 is_a: CHEBI:36543 ! sialotetraosylceramide
+relationship: has_part CHEBI:142532 ! alpha-Neup5Ac-(2->8)-alpha-Neup5Ac-(2->3)-beta-D-Galp-(1->4)-beta-D-Glcp-yl group
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
@@ -45363,6 +45661,7 @@ name: N-acetyl-beta-D-galactosaminyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-gluc
 is_a: CHEBI:36508 ! glycotriaosylceramide
 is_a: CHEBI:88278 ! N-acetylhexosaminyl-dihexosylceramide
 is_a: CHEBI:90085 ! N-acetyl-beta-D-galactosaminyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-Cer
+relationship: has_part CHEBI:142518 ! beta-D-GalNAc-(1->4)-beta-D-Gal-(1->4)-beta-D-Glc-yl group
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
@@ -45991,6 +46290,7 @@ id: CHEBI:27938
 name: beta-D-Gal-(1->3)-beta-D-GalNAc-(1->4)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 is_a: CHEBI:36507 ! D-galactosyl-N-acetyl-D-glucosaminyl-D-galactosyl-D-glucosylceramide
 is_a: CHEBI:88069 ! beta-D-galactosyl-(1->3)-N-acetyl-beta-D-galactosaminyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-Cer
+relationship: has_part CHEBI:142508 ! beta-D-Gal-(1->3)-beta-D-GalNAc-(1->4)-beta-D-Gal-(1->4)-beta-D-Glc-yl group
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
@@ -46363,6 +46663,8 @@ is_a: CHEBI:65212 ! polysaccharide derivative
 id: CHEBI:28058
 name: alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->3)-beta-D-GalNAc-(1->4)-[alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)]-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 is_a: CHEBI:36543 ! sialotetraosylceramide
+relationship: has_part CHEBI:142532 ! alpha-Neup5Ac-(2->8)-alpha-Neup5Ac-(2->3)-beta-D-Galp-(1->4)-beta-D-Glcp-yl group
+relationship: has_part CHEBI:75127 ! alpha-N-acetylneuraminyl-(2->3)-D-galactosyl group
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -46717,6 +47019,7 @@ is_a: CHEBI:33952 ! sorbose derivative
 id: CHEBI:28175
 name: beta-D-Gal-(1->3)-beta-D-GalNAc-(1->4)-[alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)]-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 is_a: CHEBI:36543 ! sialotetraosylceramide
+relationship: has_part CHEBI:142532 ! alpha-Neup5Ac-(2->8)-alpha-Neup5Ac-(2->3)-beta-D-Galp-(1->4)-beta-D-Glcp-yl group
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
@@ -47416,8 +47719,9 @@ is_a: CHEBI:35795 ! polyprenylbenzoquinone
 
 [Term]
 id: CHEBI:28424
-name: alpha-N-acetylneuraminosyl-(2->8)-alpha-N-acetylneuraminosyl-(2->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide
+name: alpha-Neu5NAc-(2->8)-alpha-Neu5NAc-(2->3)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 is_a: CHEBI:36544 ! sialodiosylceramide
+relationship: has_part CHEBI:142532 ! alpha-Neup5Ac-(2->8)-alpha-Neup5Ac-(2->3)-beta-D-Galp-(1->4)-beta-D-Glcp-yl group
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -48017,9 +48321,11 @@ is_a: CHEBI:33566 ! catechols
 
 [Term]
 id: CHEBI:28648
-name: beta-GalNAc-(1->4)-[alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)]-beta-Gal-(1->4)-beta-Glc-(1<->1')-Cer
+name: beta-D-GalNAc-(1->4)-[alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)]-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 is_a: CHEBI:36541 ! sialotriaosylceramide
 is_a: CHEBI:79219 ! N-acetyl-beta-D-galactosaminyl-(1->4)-[alpha-N-acetylneuraminyl-(2->8)-alpha-N-acetylneuraminyl-(2->3)]-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide
+relationship: has_part CHEBI:142522 ! beta-GalNAc-(1->4)-[alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)]-beta-Gal-(1->4)-R group
+relationship: has_part CHEBI:142532 ! alpha-Neup5Ac-(2->8)-alpha-Neup5Ac-(2->3)-beta-D-Galp-(1->4)-beta-D-Glcp-yl group
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -48291,10 +48597,10 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
 id: CHEBI:28743
-name: alpha-L-Fuc-(1->2)-beta-D-Gal-(1->3)-beta-D-GlcNAc-(1->4)-beta-D-Gal-(1->4)-beta-D-Glc-(1->1')-Cer
+name: alpha-L-Fuc-(1->2)-beta-D-Gal-(1->3)-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-beta-D-Glc-(1->1')-Cer
 is_a: CHEBI:23073 ! glycopentaosylceramide
 is_a: CHEBI:24121 ! fucosyl oligoglycosylceramide
-is_a: CHEBI:90802 ! alpha-L-fucosyl-(1->2)-beta-D-galactosyl-(1->3)-N-acetyl-beta-D-glucosaminyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide
+is_a: CHEBI:90802 ! alpha-L-fucosyl-(1->2)-beta-D-galactosyl-(1->3)-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
@@ -48621,7 +48927,7 @@ relationship: has_role CHEBI:85234 ! human blood serum metabolite
 
 [Term]
 id: CHEBI:28822
-name: arachidic acid
+name: icosanoic acid
 is_a: CHEBI:15904 ! long-chain fatty acid
 is_a: CHEBI:39418 ! straight-chain saturated fatty acid
 relationship: has_role CHEBI:76924 ! plant metabolite
@@ -51547,6 +51853,11 @@ name: alpha-D-glucosyl group
 is_a: CHEBI:24280 ! D-glucosyl group
 
 [Term]
+id: CHEBI:30697
+name: beta-D-glucosyl group
+is_a: CHEBI:24280 ! D-glucosyl group
+
+[Term]
 id: CHEBI:30719
 name: citraconate(2-)
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
@@ -51573,6 +51884,7 @@ id: CHEBI:30745
 name: phenylacetic acid
 is_a: CHEBI:22712 ! benzenes
 is_a: CHEBI:25384 ! monocarboxylic acid
+is_a: CHEBI:25978 ! phenylacetic acids
 relationship: has_role CHEBI:22676 ! auxin
 relationship: has_role CHEBI:27026 ! toxin
 relationship: has_role CHEBI:35219 ! plant growth retardant
@@ -52093,6 +52405,7 @@ is_a: CHEBI:83925 ! non-proteinogenic alpha-amino acid
 id: CHEBI:30887
 name: isocitric acid
 is_a: CHEBI:27093 ! tricarboxylic acid
+is_a: CHEBI:35681 ! secondary alcohol
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
 [Term]
@@ -52309,7 +52622,7 @@ is_a: CHEBI:36503 ! menthone
 [Term]
 id: CHEBI:31001
 name: octacosanoic acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:39418 ! straight-chain saturated fatty acid
 relationship: has_role CHEBI:76924 ! plant metabolite
 
@@ -52322,13 +52635,13 @@ is_a: CHEBI:78130 ! fatty acid anion 28:0
 
 [Term]
 id: CHEBI:31003
-name: melissic acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
+name: triacontanoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:39418 ! straight-chain saturated fatty acid
 
 [Term]
 id: CHEBI:31004
-name: melissate
+name: triacontanoate
 is_a: CHEBI:58950 ! very long-chain fatty acid anion
 is_a: CHEBI:58954 ! straight-chain saturated fatty acid anion
 is_a: CHEBI:78131 ! fatty acid anion 30:0
@@ -53001,7 +53314,7 @@ is_a: CHEBI:47925 ! 3-coumaric acid
 
 [Term]
 id: CHEBI:32360
-name: arachidate
+name: icosanoate
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:78126 ! fatty acid anion 20:0
 is_a: CHEBI:83955 ! 2-saturated fatty acid anion
@@ -53197,7 +53510,7 @@ is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:32425
-name: (Z)-icos-11-enoic acid
+name: (11Z)-icos-11-enoic acid
 is_a: CHEBI:23902 ! icosenoic acid
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -54833,6 +55146,7 @@ relationship: has_role CHEBI:76206 ! xenobiotic metabolite
 [Term]
 id: CHEBI:33203
 name: (Z)-24-ethylidenelophenol
+is_a: CHEBI:138130 ! Delta(7)-sterol
 is_a: CHEBI:36836 ! 3beta-hydroxy steroid
 
 [Term]
@@ -61426,6 +61740,7 @@ is_a: CHEBI:25513 ! neutral glycosphingolipid
 id: CHEBI:36528
 name: alpha-Neup5NAc-(2->3)-beta-D-Galp-(1->4)-beta-D-GlcpNAc-(1->3)-beta-D-Galp-(1->4)-beta-D-Glcp-(1<->1')-Cer
 is_a: CHEBI:36543 ! sialotetraosylceramide
+relationship: has_part CHEBI:75127 ! alpha-N-acetylneuraminyl-(2->3)-D-galactosyl group
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -64532,6 +64847,7 @@ name: O(4)-phospho-L-tyrosine
 is_a: CHEBI:27177 ! L-tyrosine derivative
 is_a: CHEBI:74956 ! O(4)-phosphotyrosine
 is_a: CHEBI:83822 ! non-proteinogenic L-alpha-amino acid
+relationship: has_role CHEBI:60816 ! immunogen
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
 [Term]
@@ -76888,8 +77204,11 @@ is_a: CHEBI:17984 ! acyl-CoA
 
 [Term]
 id: CHEBI:52136
-name: phosphinothricin
-is_a: CHEBI:26044 ! phosphinic acids
+name: glufosinate
+is_a: CHEBI:60911 ! racemate
+relationship: has_part CHEBI:142852 ! glufosinate-P
+relationship: has_part CHEBI:142853 ! (2R)-glufosinate
+relationship: has_role CHEBI:24319 ! EC 6.3.1.2 (glutamate--ammonia ligase) inhibitor
 relationship: has_role CHEBI:24527 ! herbicide
 
 [Term]
@@ -78347,6 +78666,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:53487
 name: all-cis-docosa-7,10,13,16-tetraenoic acid
+is_a: CHEBI:36009 ! omega-6 fatty acid
 is_a: CHEBI:61205 ! docosatetraenoic acid
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:84735 ! algal metabolite
@@ -78572,6 +78892,11 @@ name: beta-D-Galp-(1->3)-D-GalpNAc
 is_a: CHEBI:22480 ! amino disaccharide
 is_a: CHEBI:22484 ! galactosamine oligosaccharide
 relationship: has_role CHEBI:53000 ! epitope
+
+[Term]
+id: CHEBI:546808
+name: alpha-D-Gal-(1->4)-D-Gal
+is_a: CHEBI:35317 ! glycosylgalactose
 
 [Term]
 id: CHEBI:5530
@@ -81626,6 +81951,7 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 [Term]
 id: CHEBI:57731
 name: (R)-3-aminoisobutyric acid zwitterion
+is_a: CHEBI:142590 ! 3-aminoisobutanoic acid zwitterion
 is_a: CHEBI:35238 ! amino acid zwitterion
 
 [Term]
@@ -81911,7 +82237,6 @@ is_a: CHEBI:25697 ! organic cation
 [Term]
 id: CHEBI:57788
 name: isonocardicin A(1-)
-is_a: CHEBI:33558 ! alpha-amino-acid anion
 is_a: CHEBI:35693 ! dicarboxylic acid anion
 
 [Term]
@@ -85217,7 +85542,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
 id: CHEBI:58434
-name: cis,trans-4-hydroxymuconic semialdehyde(1-)
+name: (2Z,4E)-4-hydroxymuconic semialdehyde(1-)
 is_a: CHEBI:35976 ! 6-oxo monocarboxylic acid anion
 is_a: CHEBI:71944 ! aldehydic acid anion
 
@@ -86587,6 +86912,7 @@ is_a: CHEBI:63551 ! carbohydrate acid derivative anion
 id: CHEBI:58723
 name: 2-ammonio-2-deoxy-D-glucopyranose
 is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:65296 ! primary ammonium ion
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -87843,6 +88169,26 @@ name: straight-chain fatty acid anion
 is_a: CHEBI:28868 ! fatty acid anion
 
 [Term]
+id: CHEBI:59210
+name: alpha-Neup5Ac-(2->8)-alpha-Neup5Ac-(2->3)-beta-D-Galp-(1->4)-beta-D-Glcp
+is_a: CHEBI:59412 ! amino tetrasaccharide
+
+[Term]
+id: CHEBI:59216
+name: beta-D-Galp-(1->3)-beta-D-GlcpNAc-(1->4)-beta-D-Galp-(1->4)-beta-D-Glcp
+is_a: CHEBI:132814 ! beta-D-Galp-(1->3)-beta-D-GalpNAc-(1->4)-beta-D-Galp-(1->4)-D-Glcp
+is_a: CHEBI:22484 ! galactosamine oligosaccharide
+is_a: CHEBI:59412 ! amino tetrasaccharide
+relationship: has_role CHEBI:53000 ! epitope
+
+[Term]
+id: CHEBI:59226
+name: N-acetyl-alpha-neuraminyl-(2->3)-beta-D-galactosyl-(1->4)-beta-D-glucose
+is_a: CHEBI:59266 ! amino trisaccharide
+relationship: has_role CHEBI:53000 ! epitope
+relationship: has_role CHEBI:75768 ! mammalian metabolite
+
+[Term]
 id: CHEBI:59237
 name: phenolic phthiocerol
 is_a: CHEBI:18059 ! lipid
@@ -87911,6 +88257,11 @@ id: CHEBI:59296
 name: alpha-L-Fucp-(1->2)-beta-D-Galp-(1->3)-beta-D-GlcpNAc
 is_a: CHEBI:62259 ! alpha-L-Fucp-(1->2)-beta-D-Galp-(1->3)-D-GlcpNAc
 relationship: has_role CHEBI:53000 ! epitope
+
+[Term]
+id: CHEBI:59314
+name: alpha-D-Galp-(1->4)-beta-D-Galp
+is_a: CHEBI:546808 ! alpha-D-Gal-(1->4)-D-Gal
 
 [Term]
 id: CHEBI:59326
@@ -88470,7 +88821,7 @@ is_a: CHEBI:24353 ! glycerol ether
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:35741 ! glycerolipid
 is_a: CHEBI:64611 ! ether lipid
-is_a: CHEBI:76578 ! disubstituted glycerol
+is_a: CHEBI:76578 ! diradylglycerol
 
 [Term]
 id: CHEBI:59806
@@ -90244,6 +90595,11 @@ name: lysobisphosphatidic acid
 is_a: CHEBI:32957 ! lysophosphatidic acids
 
 [Term]
+id: CHEBI:60816
+name: immunogen
+is_a: CHEBI:59132 ! antigen
+
+[Term]
 id: CHEBI:60817
 name: 1,1'-lysobisphosphatidic acid
 is_a: CHEBI:60815 ! lysobisphosphatidic acid
@@ -90625,6 +90981,11 @@ is_a: CHEBI:36275 ! HETE
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
+id: CHEBI:60948
+name: alpha-D-Gal-(1->4)-beta-D-Gal-(1->4)-D-Glc
+is_a: CHEBI:27150 ! trisaccharide
+
+[Term]
 id: CHEBI:60951
 name: flavonoid phytoalexin
 is_a: CHEBI:47916 ! flavonoid
@@ -90866,6 +91227,7 @@ id: CHEBI:61048
 name: ganglioside GM1
 is_a: CHEBI:18216 ! alpha-N-acetylneuraminosyl-(2->3)-[beta-D-galactosyl-(1->3)-N-acetyl-beta-D-galactosaminyl-(1->4)]-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-N-acylsphingosine
 is_a: CHEBI:36543 ! sialotetraosylceramide
+relationship: has_part CHEBI:142514 ! ->8)-alpha-Neu5Ac-(2->3)-[beta-D-Gal-(1->3)-beta-D-GalNAc-(1->4)]-beta-D-Gal-(1->4)-yl group
 
 [Term]
 id: CHEBI:61049
@@ -91723,6 +92085,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:61409
 name: dihydroxyphenylacetic acid
+is_a: CHEBI:25978 ! phenylacetic acids
 is_a: CHEBI:35972 ! dihydroxy monocarboxylic acid
 
 [Term]
@@ -92184,6 +92547,12 @@ is_a: CHEBI:60373 ! lipid IVA oxoanion
 id: CHEBI:61593
 name: D-glycero-beta-D-manno-heptose 1-phosphate(2-)
 is_a: CHEBI:60002 ! D-glycero-D-manno-heptose 1-phosphate(2-)
+
+[Term]
+id: CHEBI:61596
+name: alpha-Neu5Ac-(2->3)-D-Gal
+is_a: CHEBI:22480 ! amino disaccharide
+relationship: has_role CHEBI:53000 ! epitope
 
 [Term]
 id: CHEBI:61599
@@ -93159,9 +93528,7 @@ is_a: CHEBI:87691 ! tetradecanoate ester
 [Term]
 id: CHEBI:62031
 name: polar amino acid zwitterion
-is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:35238 ! amino acid zwitterion
-is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:62037
@@ -94225,6 +94592,7 @@ id: CHEBI:62571
 name: beta-D-Galp-(1->3)-beta-D-GalpNAc-(1->3)-alpha-D-Galp-(1->4)-beta-D-Galp-(1->4)-beta-D-Glcp-(1<->1')-Cer
 is_a: CHEBI:140691 ! beta-D-Gal-(1->3)-beta-D-GalNAc-(1->3)-alpha-D-Gal-(1->4)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 is_a: CHEBI:23073 ! glycopentaosylceramide
+relationship: has_part CHEBI:142568 ! beta-D-Galp-(1->3)-beta-D-GalpNAc-(1->3)-alpha-D-Galp-(1->4)-beta-D-Galp-yl group
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
@@ -96222,6 +96590,7 @@ is_a: CHEBI:46969 ! benzoxazine
 relationship: has_role CHEBI:24527 ! herbicide
 relationship: has_role CHEBI:38231 ! phytotoxin
 relationship: has_role CHEBI:62215 ! allelochemical
+relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:63559
@@ -96230,6 +96599,7 @@ is_a: CHEBI:24995 ! lactam
 is_a: CHEBI:38131 ! lactol
 is_a: CHEBI:46969 ! benzoxazine
 relationship: has_role CHEBI:62215 ! allelochemical
+relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:63561
@@ -98758,6 +99128,7 @@ relationship: has_role CHEBI:25212 ! metabolite
 id: CHEBI:64674
 name: 1,2-diacyl-sn-glycero-3-phosphoethanolamine
 is_a: CHEBI:16038 ! phosphatidylethanolamine
+is_a: CHEBI:36314 ! glycerophosphoethanolamine
 
 [Term]
 id: CHEBI:64675
@@ -100824,6 +101195,7 @@ is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 [Term]
 id: CHEBI:65352
 name: achromobactin free acid
+is_a: CHEBI:142734 ! N-acyl hemiaminal
 is_a: CHEBI:35742 ! tetracarboxylic acid
 relationship: has_role CHEBI:26672 ! siderophore
 
@@ -102285,6 +102657,12 @@ is_a: CHEBI:37699 ! protein kinase inhibitor
 id: CHEBI:68483
 name: UDP-N-acetyl-3-O-(1-carboxylatovinyl)-alpha-D-glucosamine(3-)
 is_a: CHEBI:57771 ! UDP-N-acetyl-3-O-(1-carboxylatovinyl)-D-glucosamine(3-)
+
+[Term]
+id: CHEBI:68485
+name: alpha-D-Galp-(1->4)-beta-D-Galp-(1->4)-beta-D-Glcp
+is_a: CHEBI:60948 ! alpha-D-Gal-(1->4)-beta-D-Gal-(1->4)-D-Glc
+relationship: has_role CHEBI:53000 ! epitope
 
 [Term]
 id: CHEBI:68487
@@ -103976,7 +104354,8 @@ is_a: CHEBI:50525 ! phenolate anion
 
 [Term]
 id: CHEBI:71335
-name: 7,2'-dihydroxy-4'-methoxyisoflavanol
+name: (3R)-7,2'-dihydroxy-4'-methoxyisoflavanol
+is_a: CHEBI:142880 ! 7,2'-dihydroxy-4'-methoxyisoflavanol
 is_a: CHEBI:35618 ! aromatic ether
 is_a: CHEBI:35681 ! secondary alcohol
 is_a: CHEBI:76250 ! hydroxyisoflavans
@@ -105158,6 +105537,7 @@ is_a: CHEBI:60038 ! flavonoid oxoanion
 [Term]
 id: CHEBI:72000
 name: (3E,5Z)-tetradecadienoic acid
+is_a: CHEBI:142384 ! fatty acid 14:2
 is_a: CHEBI:15904 ! long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
@@ -105535,7 +105915,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 id: CHEBI:72646
 name: (3R,4R)-7,2'-dihydroxy-4'-methoxyisoflavanol
 is_a: CHEBI:140181 ! (3R,4R)-4,2'-dihydroxyisoflavans
-is_a: CHEBI:71335 ! 7,2'-dihydroxy-4'-methoxyisoflavanol
+is_a: CHEBI:71335 ! (3R)-7,2'-dihydroxy-4'-methoxyisoflavanol
 
 [Term]
 id: CHEBI:72647
@@ -105546,7 +105926,7 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
 [Term]
 id: CHEBI:72648
-name: 7,2'-dihydroxy-4'-methoxyisoflavanol 4-oxonium cation
+name: (3R)-7,2'-dihydroxy-4'-methoxyisoflavanol 4-oxonium cation
 is_a: CHEBI:25697 ! organic cation
 
 [Term]
@@ -106603,7 +106983,7 @@ is_a: CHEBI:24951 ! kanamycins
 [Term]
 id: CHEBI:73080
 name: hemiaminal
-is_a: CHEBI:36963 ! organooxygen compound
+is_a: CHEBI:33822 ! organic hydroxy compound
 is_a: CHEBI:50047 ! organic amino compound
 
 [Term]
@@ -109852,12 +110232,12 @@ is_a: CHEBI:58608 ! 1,2-diacyl-sn-glycerol 3-phosphate(2-)
 
 [Term]
 id: CHEBI:74583
-name: 1-arachidoyl-sn-glycero-3-phosphate(2-)
+name: 1-icosanoyl-sn-glycero-3-phosphate(2-)
 is_a: CHEBI:57970 ! 1-acyl-sn-glycerol 3-phosphate(2-)
 
 [Term]
 id: CHEBI:74584
-name: 1-arachidoyl-2-oleoyl-sn-glycero-3-phosphate(2-)
+name: 1-icosanoyl-2-oleoyl-sn-glycero-3-phosphate(2-)
 is_a: CHEBI:58608 ! 1,2-diacyl-sn-glycerol 3-phosphate(2-)
 
 [Term]
@@ -110661,7 +111041,7 @@ is_a: CHEBI:29089 ! 1,2-diacyl-sn-glycerol 3-phosphate
 
 [Term]
 id: CHEBI:74937
-name: 1-oleoyl-2-arachidoyl-sn-glycero-3-phosphate(2-)
+name: 1-oleoyl-2-icosanoyl-sn-glycero-3-phosphate(2-)
 is_a: CHEBI:58608 ! 1,2-diacyl-sn-glycerol 3-phosphate(2-)
 
 [Term]
@@ -110671,7 +111051,7 @@ is_a: CHEBI:57970 ! 1-acyl-sn-glycerol 3-phosphate(2-)
 
 [Term]
 id: CHEBI:74939
-name: 1-arachidoyl-sn-glycero-3-phosphate
+name: 1-icosanoyl-sn-glycero-3-phosphate
 is_a: CHEBI:16975 ! 1-acyl-sn-glycerol 3-phosphate
 
 [Term]
@@ -110681,7 +111061,7 @@ is_a: CHEBI:74917 ! 1-acyl-2-oleoyl-sn-glycero-3-phosphate(2-)
 
 [Term]
 id: CHEBI:74942
-name: 1-arachidoyl-2-oleoyl-sn-glycero-3-phosphate
+name: 1-icosanoyl-2-oleoyl-sn-glycero-3-phosphate
 is_a: CHEBI:29089 ! 1,2-diacyl-sn-glycerol 3-phosphate
 
 [Term]
@@ -111184,8 +111564,14 @@ name: 1-oleoyl-2-(6Z)-octadecenoyl-sn-glycero-3-phosphate(2-)
 is_a: CHEBI:58608 ! 1,2-diacyl-sn-glycerol 3-phosphate(2-)
 
 [Term]
+id: CHEBI:75127
+name: alpha-N-acetylneuraminyl-(2->3)-D-galactosyl group
+is_a: CHEBI:24164 ! galactosyl group
+relationship: has_role CHEBI:53000 ! epitope
+
+[Term]
 id: CHEBI:75134
-name: 1-oleoyl-2-arachidoyl-sn-glycero-3-phosphate
+name: 1-oleoyl-2-icosanoyl-sn-glycero-3-phosphate
 is_a: CHEBI:29089 ! 1,2-diacyl-sn-glycerol 3-phosphate
 
 [Term]
@@ -112984,7 +113370,7 @@ is_a: CHEBI:76102 ! laudanine(1+)
 
 [Term]
 id: CHEBI:76024
-name: lacceroate
+name: dotriacontanoate
 is_a: CHEBI:58950 ! very long-chain fatty acid anion
 is_a: CHEBI:58954 ! straight-chain saturated fatty acid anion
 
@@ -113008,7 +113394,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 [Term]
 id: CHEBI:76044
 name: omega-hydroxytriacontanoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
 
 [Term]
@@ -113355,8 +113741,8 @@ is_a: CHEBI:73080 ! hemiaminal
 
 [Term]
 id: CHEBI:76215
-name: lacceroic acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
+name: dotriacontanoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:39418 ! straight-chain saturated fatty acid
 relationship: has_role CHEBI:25212 ! metabolite
 
@@ -113364,7 +113750,7 @@ relationship: has_role CHEBI:25212 ! metabolite
 id: CHEBI:76220
 name: omega-hydroxytriacontanoic acid
 is_a: CHEBI:10615 ! omega-hydroxy fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
@@ -113384,7 +113770,7 @@ name: 1-alkyl-3-acylglycerol
 is_a: CHEBI:17408 ! monoglyceride
 is_a: CHEBI:24353 ! glycerol ether
 is_a: CHEBI:64611 ! ether lipid
-is_a: CHEBI:76578 ! disubstituted glycerol
+is_a: CHEBI:76578 ! diradylglycerol
 is_a: CHEBI:76582 ! monoalkylmonoacylglycerol
 
 [Term]
@@ -114778,8 +115164,8 @@ is_a: CHEBI:18059 ! lipid
 
 [Term]
 id: CHEBI:76578
-name: disubstituted glycerol
-is_a: CHEBI:18059 ! lipid
+name: diradylglycerol
+is_a: CHEBI:35741 ! glycerolipid
 
 [Term]
 id: CHEBI:76581
@@ -114798,7 +115184,7 @@ name: alk-1-enylacylglycerol
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:35741 ! glycerolipid
 is_a: CHEBI:64611 ! ether lipid
-is_a: CHEBI:76578 ! disubstituted glycerol
+is_a: CHEBI:76578 ! diradylglycerol
 
 [Term]
 id: CHEBI:76584
@@ -116243,7 +116629,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 id: CHEBI:76979
 name: 1,2-dioctanoyl-sn-glycerol
 is_a: CHEBI:17815 ! 1,2-diacyl-sn-glycerol
-is_a: CHEBI:88066 ! dioctanoin
+is_a: CHEBI:88066 ! dioctanoylglycerol
 
 [Term]
 id: CHEBI:76980
@@ -116259,9 +116645,9 @@ is_a: CHEBI:28965 ! dicarboxylic acid dianion
 
 [Term]
 id: CHEBI:76982
-name: sn-2,3-dicaprilin
+name: 2,3-dioctanoyl-sn-glycerol
 is_a: CHEBI:75524 ! 2,3-diacyl-sn-glycerol
-is_a: CHEBI:88066 ! dioctanoin
+is_a: CHEBI:88066 ! dioctanoylglycerol
 
 [Term]
 id: CHEBI:76986
@@ -116602,12 +116988,12 @@ relationship: has_role CHEBI:35444 ! antinematodal drug
 
 [Term]
 id: CHEBI:77093
-name: 1-arachidoyl-2-arachidonoyl-sn-glycerol
+name: 1-icosanoyl-2-arachidonoyl-sn-glycerol
 is_a: CHEBI:17815 ! 1,2-diacyl-sn-glycerol
 
 [Term]
 id: CHEBI:77094
-name: 1-arachidoyl-2-arachidonoyl-sn-glycero-3-phosphate(2-)
+name: 1-icosanoyl-2-arachidonoyl-sn-glycero-3-phosphate(2-)
 is_a: CHEBI:74922 ! 1-acyl-2-arachidonoyl-sn-glycero-3-phosphate(2-)
 
 [Term]
@@ -117110,15 +117496,11 @@ is_a: CHEBI:78051 ! hexacosapentaenoate
 [Term]
 id: CHEBI:77205
 name: (8Z,11Z,14Z,17Z,20Z,23Z)-hexacosahexaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78057 ! hexacosahexaenoate
 
 [Term]
 id: CHEBI:77206
 name: (13Z,16Z,19Z,22Z,25Z)-octacosapentaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78063 ! octacosapentaenoate
 
 [Term]
@@ -117134,50 +117516,36 @@ is_a: CHEBI:17984 ! acyl-CoA
 [Term]
 id: CHEBI:77211
 name: (12Z,15Z,18Z,21Z,24Z,27Z)-triacontahexaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78080 ! triacontahexaenoate
 
 [Term]
 id: CHEBI:77212
 name: (17Z,20Z,23Z,26Z,29Z)-dotriacontapentaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78082 ! dotriacontapentaenoate
 
 [Term]
 id: CHEBI:77213
 name: (14Z,17Z,20Z,23Z,26Z,29Z)-dotriacontahexaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78083 ! dotriacontahexaenoate
 
 [Term]
 id: CHEBI:77214
 name: (19Z,22Z,25Z,28Z,31Z)-tetratriacontapentaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78087 ! tetratriacontapentaenoate
 
 [Term]
 id: CHEBI:77215
 name: (16Z,19Z,22Z,25Z,28Z,31Z)-tetratriacontahexaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78088 ! tetratriacontahexaenoate
 
 [Term]
 id: CHEBI:77216
 name: (21Z,24Z,27Z,30Z,33Z)-hexatriacontapentaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78091 ! hexatriacontapentaenoate
 
 [Term]
 id: CHEBI:77217
 name: (18Z,21Z,24Z,27Z,30Z,33Z)-hexatriacontahexaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78092 ! hexatriacontahexaenoate
 
 [Term]
@@ -117204,8 +117572,6 @@ is_a: CHEBI:78073 ! icosadienoate
 [Term]
 id: CHEBI:77221
 name: (17Z)-hexacosenoate
-is_a: CHEBI:2580 ! unsaturated fatty acid anion
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
 is_a: CHEBI:78055 ! hexacosenoate
 
 [Term]
@@ -117228,7 +117594,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
 id: CHEBI:77225
-name: (7Z,10Z,13Z,16Z)-docosatetraenoate
+name: all-cis-docosa-7,10,13,16-tetraenoate
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78069 ! docosatetraenoate
@@ -117264,29 +117630,21 @@ is_a: CHEBI:78054 ! hexacosatetraenoate
 [Term]
 id: CHEBI:77231
 name: (13Z,16Z,19Z,22Z)-octacosatetraenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78062 ! octacosatetraenoate
 
 [Term]
 id: CHEBI:77232
 name: (15Z,18Z,21Z,24Z)-triacontatetraenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78079 ! triacontatetraenoate
 
 [Term]
 id: CHEBI:77233
 name: (17Z,20Z,23Z,26Z)-dotriacontatetraenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78081 ! dotriacontatetraenoate
 
 [Term]
 id: CHEBI:77234
 name: (19Z,22Z,25Z,28Z)-tetratriacontatetraenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78086 ! tetratriacontatetraenoate
 
 [Term]
@@ -117323,7 +117681,7 @@ is_a: CHEBI:90379 ! beta-D-Gal-(1->4)-[alpha-L-Fuc-(1->3)]-beta-D-GlcNAc-(1->3)-
 
 [Term]
 id: CHEBI:77241
-name: 1-arachidoyl-2-arachidonoyl-sn-glycero-3-phosphate
+name: 1-icosanoyl-2-arachidonoyl-sn-glycero-3-phosphate
 is_a: CHEBI:75112 ! 1-acyl-2-arachidonoyl-sn-glycero-3-phosphate
 
 [Term]
@@ -117797,9 +118155,9 @@ is_a: CHEBI:87659 ! dodecanoate ester
 
 [Term]
 id: CHEBI:77390
-name: 2,3-dilauroyl-sn-glycerol
+name: 2,3-didodecanoyl-sn-glycerol
+is_a: CHEBI:142953 ! didodecanoylglycerol
 is_a: CHEBI:75524 ! 2,3-diacyl-sn-glycerol
-is_a: CHEBI:87659 ! dodecanoate ester
 
 [Term]
 id: CHEBI:77391
@@ -117832,6 +118190,7 @@ is_a: CHEBI:75524 ! 2,3-diacyl-sn-glycerol
 id: CHEBI:77396
 name: long-chain primary fatty alcohol
 is_a: CHEBI:138088 ! long chain primary alcohol
+is_a: CHEBI:142622 ! primary fatty alcohol
 is_a: CHEBI:17135 ! long-chain fatty alcohol
 
 [Term]
@@ -118046,8 +118405,8 @@ is_a: CHEBI:57534 ! 1-acylglycerone 3-phosphate(2-)
 [Term]
 id: CHEBI:77497
 name: (16Z,19Z,22Z,25Z,28Z,31Z)-tetratriacontahexaenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:25681 ! omega-3 fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:78933 ! tetratriacontahexaenoic acid
 
 [Term]
@@ -118143,7 +118502,7 @@ is_a: CHEBI:78918 ! dotriacontatetraenoic acid
 [Term]
 id: CHEBI:77536
 name: (19Z,22Z,25Z,28Z)-tetratriacontatetraenoic acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:36009 ! omega-6 fatty acid
 
 [Term]
@@ -118154,7 +118513,7 @@ is_a: CHEBI:139567 ! octadecenoyl-CoA(4-)
 [Term]
 id: CHEBI:77538
 name: (21Z,24Z,27Z,30Z)-hexatriacontatetraenoic acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:36009 ! omega-6 fatty acid
 is_a: CHEBI:78935 ! hexatriacontatetraenoic acid
 
@@ -118333,7 +118692,7 @@ is_a: CHEBI:35274 ! ammonium ion
 [Term]
 id: CHEBI:77619
 name: 1,3-dipalmitoylglycerol
-is_a: CHEBI:15756 ! hexadecanoic acid
+is_a: CHEBI:142940 ! dihexadecanoylglycerol
 is_a: CHEBI:47777 ! 1,3-diglyceride
 
 [Term]
@@ -118382,6 +118741,7 @@ is_a: CHEBI:77636 ! fatty acyl-CoA(4-)
 [Term]
 id: CHEBI:77633
 name: isonocardicin A(2-)
+is_a: CHEBI:142513 ! oxime anion
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 
 [Term]
@@ -119668,20 +120028,20 @@ is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 [Term]
 id: CHEBI:78062
 name: octacosatetraenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:78063
 name: octacosapentaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:78068
 name: tetracosenoate
-is_a: CHEBI:2580 ! unsaturated fatty acid anion
 is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:59203 ! straight-chain fatty acid anion
 is_a: CHEBI:82680 ! monounsaturated fatty acid anion
 
 [Term]
@@ -119738,36 +120098,33 @@ relationship: has_role CHEBI:50427 ! platelet aggregation inhibitor
 [Term]
 id: CHEBI:78079
 name: triacontatetraenoate
-is_a: CHEBI:50860 ! organic molecular entity
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:78080
 name: triacontahexaenoate
-is_a: CHEBI:50860 ! organic molecular entity
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:78081
 name: dotriacontatetraenoate
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:50860 ! organic molecular entity
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:78082
 name: dotriacontapentaenoate
-is_a: CHEBI:50860 ! organic molecular entity
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:78083
 name: dotriacontahexaenoate
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:50860 ! organic molecular entity
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
@@ -119783,22 +120140,19 @@ is_a: CHEBI:62537 ! N-acylphosphatidylethanolamine(1-)
 [Term]
 id: CHEBI:78086
 name: tetratriacontatetraenoate
-is_a: CHEBI:50860 ! organic molecular entity
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:78087
 name: tetratriacontapentaenoate
-is_a: CHEBI:50860 ! organic molecular entity
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:78088
 name: tetratriacontahexaenoate
-is_a: CHEBI:50860 ! organic molecular entity
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
@@ -119811,19 +120165,19 @@ is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 [Term]
 id: CHEBI:78090
 name: 1,2-dipalmitoylglycerol
+is_a: CHEBI:142940 ! dihexadecanoylglycerol
 is_a: CHEBI:49172 ! 1,2-diglyceride
 
 [Term]
 id: CHEBI:78091
 name: hexatriacontapentaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:78092
 name: hexatriacontahexaenoate
-is_a: CHEBI:50860 ! organic molecular entity
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
@@ -122250,15 +122604,15 @@ is_a: CHEBI:59202 ! straight-chain fatty acid
 [Term]
 id: CHEBI:78868
 name: octacosatetraenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
 id: CHEBI:78869
 name: octacosapentaenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
@@ -122322,36 +122676,36 @@ is_a: CHEBI:57795 ! 1-phosphatidyl-1D-myo-inositol 5-phosphate(3-)
 [Term]
 id: CHEBI:78915
 name: triacontatetraenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
 id: CHEBI:78917
 name: triacontahexaenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
 id: CHEBI:78918
 name: dotriacontatetraenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
 id: CHEBI:78919
 name: dotriacontahexaenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
 id: CHEBI:78920
 name: dotriacontapentaenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
@@ -122372,15 +122726,15 @@ is_a: CHEBI:57880 ! 1-phosphatidyl-1D-myo-inositol(1-)
 [Term]
 id: CHEBI:78932
 name: tetratriacontapentaenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
 id: CHEBI:78933
 name: tetratriacontahexaenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
@@ -122391,36 +122745,36 @@ is_a: CHEBI:58088 ! 1-phosphatidyl-1D-myo-inositol 3-phosphate(3-)
 [Term]
 id: CHEBI:78935
 name: hexatriacontatetraenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
 id: CHEBI:78936
 name: hexatriacontapentaenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
 id: CHEBI:78937
 name: hexatriacontahexaenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
 id: CHEBI:78938
 name: octatriacontatetraenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
 id: CHEBI:78939
 name: octatriacontapentaenoic acid
+is_a: CHEBI:143004 ! ultra-long-chain fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
@@ -123868,6 +124222,11 @@ is_a: CHEBI:134251 ! guaiacols
 is_a: CHEBI:25036 ! lignan
 is_a: CHEBI:26195 ! polyphenol
 is_a: CHEBI:47790 ! furofuran
+
+[Term]
+id: CHEBI:82464
+name: cis-9,10-epoxyoctadecanoic acid
+is_a: CHEBI:85661 ! 9,10-epoxyoctadecanoic acid
 
 [Term]
 id: CHEBI:82605
@@ -126187,7 +126546,8 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
 id: CHEBI:83960
-name: N(omega)-(ADP-D-ribosyl)-L-arginine(1-) residue
+name: N(omega)-alpha-(ADP-D-ribosyl)-L-arginine(1-) residue
+is_a: CHEBI:142554 ! N(omega)-(ADP-D-ribosyl)-L-argininium(1-) residue
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -126503,7 +126863,7 @@ is_a: CHEBI:83812 ! non-proteinogenic amino acid derivative
 [Term]
 id: CHEBI:84118
 name: ganglioside GM3
-is_a: CHEBI:15681 ! alpha-N-acetylneuraminosyl-(2->3)-beta-D-galactosyl-(1->4)-beta-D-glucosylceramide
+is_a: CHEBI:15681 ! alpha-N-acetylneuraminyl-(2->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide
 is_a: CHEBI:36544 ! sialodiosylceramide
 
 [Term]
@@ -130054,6 +130414,7 @@ is_a: CHEBI:85656 ! N-acyllysophosphatidylethanolamine
 id: CHEBI:85661
 name: 9,10-epoxyoctadecanoic acid
 is_a: CHEBI:134617 ! epoxystearic acid
+relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
 id: CHEBI:85664
@@ -130130,6 +130491,11 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:85687
 name: diacylglycerol 32:1
+is_a: CHEBI:18035 ! diglyceride
+
+[Term]
+id: CHEBI:85688
+name: diacylglycerol 32:0
 is_a: CHEBI:18035 ! diglyceride
 
 [Term]
@@ -132396,7 +132762,6 @@ is_a: CHEBI:15518 ! caffeoyl-CoA
 id: CHEBI:87451
 name: dihydrocaffeoyl-CoA
 is_a: CHEBI:17984 ! acyl-CoA
-is_a: CHEBI:48400 ! 3-(3,4-dihydroxyphenyl)propanoic acid
 
 [Term]
 id: CHEBI:87460
@@ -133261,7 +133626,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
 id: CHEBI:88066
-name: dioctanoin
+name: dioctanoylglycerol
 is_a: CHEBI:18035 ! diglyceride
 is_a: CHEBI:87657 ! octanoate ester
 
@@ -133303,6 +133668,7 @@ is_a: CHEBI:61902 ! hydroxy fatty acyl-CoA
 [Term]
 id: CHEBI:88073
 name: alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->3)-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer(1-)
+is_a: CHEBI:142582 ! alpha-N-acetylneuraminosyl-(2->3)-beta-D-galactosyl-(1->3)-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide(1-)
 is_a: CHEBI:79346 ! anionic ganglioside
 
 [Term]
@@ -133328,6 +133694,7 @@ is_a: CHEBI:79346 ! anionic ganglioside
 [Term]
 id: CHEBI:88079
 name: alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->3)-[alpha-Neu5Ac-(2->6)]-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer(2-)
+is_a: CHEBI:142594 ! alpha-N-acetylneuraminosyl-(2->3)-beta-D-galactosyl-(1->3)-[alpha-N-acetylneuraminosyl-(2->6)]-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide(2-)
 is_a: CHEBI:79346 ! anionic ganglioside
 
 [Term]
@@ -133370,11 +133737,13 @@ is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
 [Term]
 id: CHEBI:88088
 name: alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->3)-[alpha-L-Fuc-(1->4)]-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer(1-)
+is_a: CHEBI:142607 ! alpha-N-acetylneuraminosyl-(2->3)-beta-D-galactosyl-(1->3)-[alpha-L-fucosyl-(1->4)]-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide(1-)
 is_a: CHEBI:79346 ! anionic ganglioside
 
 [Term]
 id: CHEBI:88089
 name: alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->3)-[alpha-L-Fuc-(1->4)]-[alpha-Neu5Ac-(2->6)]-beta-D-GlcNAc-(1->3)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer(2-)
+is_a: CHEBI:142626 ! alpha-N-acetylneuraminosyl-(2->3)-beta-D-galactosyl-(1->3)-[alpha-L-fucosyl-(1->4)]-[alpha-N-acetylneuraminosyl-(2->6)]-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide(2-)
 is_a: CHEBI:79346 ! anionic ganglioside
 
 [Term]
@@ -134419,7 +134788,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:90231
 name: alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)-beta-Gal-(1->3)-beta-GalNAc-(1->4)-[alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)]-beta-Gal-(1->4)-beta-Glc-(1<->1')-Cer(d18:1/18:0)
-is_a: CHEBI:27515 ! alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)-beta-Gal-(1->3)-beta-GalNAc-(1->4)-[alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)]-beta-Gal-(1->4)-beta-Glc-(1<->1')-Cer
+is_a: CHEBI:27515 ! alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)-beta-Gal-D-(1->3)-beta-D-GalNAc-(1->4)-[alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)]-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 
 [Term]
 id: CHEBI:90233
@@ -134577,7 +134946,7 @@ is_a: CHEBI:36640 ! glycoheptaosylceramide
 [Term]
 id: CHEBI:90361
 name: alpha-Neu5Ac-(2->3)-beta-Gal-(1->3)-beta-GalNAc-(1->4)-[alpha-Neu5Ac-(2->3)]-beta-Gal-(1->4)-beta-Glc-(1<->1')-Cer(d18:1/18:0)
-is_a: CHEBI:18163 ! alpha-N-acetylneuraminosyl-(2->3)-beta-D-galactosyl-(1->3)-N-acetyl-beta-D-galactosaminyl-(1->4)-[alpha-N-acetylneuraminosyl-(2->3)]-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-N-acylsphingosine
+is_a: CHEBI:18163 ! alpha-NeuNAc-(2->3)-beta-D-Gal-(1->3)-beta-D-GalNAc-(1->4)-[alpha-NeuNAc-(2->3)]-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 
 [Term]
 id: CHEBI:90362
@@ -135338,7 +135707,7 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
 [Term]
 id: CHEBI:90802
-name: alpha-L-fucosyl-(1->2)-beta-D-galactosyl-(1->3)-N-acetyl-beta-D-glucosaminyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide
+name: alpha-L-fucosyl-(1->2)-beta-D-galactosyl-(1->3)-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide
 is_a: CHEBI:23073 ! glycopentaosylceramide
 is_a: CHEBI:24121 ! fucosyl oligoglycosylceramide
 
@@ -136700,7 +137069,7 @@ is_a: CHEBI:35850 ! sulfone
 [Term]
 id: CHEBI:9398
 name: tamsulosin
-is_a: CHEBI:35358 ! sulfonamide
+is_a: CHEBI:142546 ! 5-(2-{[2-(2-ethoxyphenoxy)ethyl]amino}propyl)-2-methoxybenzenesulfonamide
 relationship: has_role CHEBI:35610 ! antineoplastic agent
 relationship: has_role CHEBI:37890 ! alpha-adrenergic antagonist
 
@@ -140033,6 +140402,13 @@ name: substance with adjuvant role
 is_a: GOCHE:52217 ! substance with pharmaceutical role
 intersection_of: CHEBI:24431 ! chemical entity
 intersection_of: has_role CHEBI:60809 ! adjuvant
+
+[Term]
+id: GOCHE:60816
+name: substance with immunogen role
+is_a: GOCHE:59132 ! substance with antigen role
+intersection_of: CHEBI:24431 ! chemical entity
+intersection_of: has_role CHEBI:60816 ! immunogen
 
 [Term]
 id: GOCHE:60832
