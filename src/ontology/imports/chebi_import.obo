@@ -112551,6 +112551,7 @@ is_a: CHEBI:49172 ! 1,2-diglyceride
 [Term]
 id: CHEBI:75591
 is_obsolete: true
+replaced_by: CHEBI:17427
 
 [Term]
 id: CHEBI:75592
@@ -121395,6 +121396,7 @@ is_a: CHEBI:79346 ! anionic ganglioside
 [Term]
 id: CHEBI:78437
 is_obsolete: true
+replaced_by: CHEBI:78436
 
 [Term]
 id: CHEBI:78438
@@ -143384,6 +143386,18 @@ xref: RO:0002340
 [Typedef]
 id: RO:0002345
 xref: RO:0002345
+
+[Typedef]
+id: RO:0004007
+xref: RO:0004007
+
+[Typedef]
+id: RO:0004008
+xref: RO:0004008
+
+[Typedef]
+id: RO:0004009
+xref: RO:0004009
 
 [Typedef]
 id: has_part

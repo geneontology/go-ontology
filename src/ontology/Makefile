@@ -303,7 +303,7 @@ imports/%_import.owl: imports/%_import_pre.owl
 #	$(OWLTOOLS) $(USECAT) $< --merge-imports-closure -o $@
 #imports/chebi_import.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
 #	$(ROBOT) extract -i $< -T imports/chebi_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
-CHEBIRELS = RO:0000057 RO:0002233 RO:0002234 RO:0002313 RO:0002233 RO:0002332 RO:0002340  RO:0002345 BFO:0000051 RO:0000087 GOCHEREL:0000000 GOCHEREL:0000001 GOCHEREL:0000002  GOCHEREL:0000003 GOCHEREL:0000004
+CHEBIRELS = RO:0004007 RO:0004009 RO:0004008 RO:0000057 RO:0002233 RO:0002234 RO:0002313 RO:0002233 RO:0002332 RO:0002340  RO:0002345 BFO:0000051 RO:0000087 GOCHEREL:0000000 GOCHEREL:0000001 GOCHEREL:0000002  GOCHEREL:0000003 GOCHEREL:0000004
 
 #robot doesn't appear to work for making modules with GCIs; hence this contorted mechanism
 # See: https://github.com/ontodev/robot/issues/175
