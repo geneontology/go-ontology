@@ -183,8 +183,8 @@ enhanced.owl: $(SRC) imports/go_taxon_constraints.owl imports/reactome_xrefs_imp
 
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
-reasoned.owl: enhanced.owl $(SRC)-check
-	$(ROBOT) reason -i $< -r ELK -e asserted-only relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+reasoned.owl: enhanced.owl $(SRC)-check regulates_chains.ofn
+	$(ROBOT) reason -i $< -r ELK -e asserted-only relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl unmerge -i regulates_chains.ofn -o $@
 
 # equivalent to reasoned, but we rename
 $(GO_PLUS).owl: reasoned.owl
