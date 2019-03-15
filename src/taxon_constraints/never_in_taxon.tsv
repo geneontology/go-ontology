@@ -379,3 +379,39 @@ GO:0061512	protein localization to cilium	NCBITaxon:3398	Magnoliophyta
 GO:0061512	protein localization to cilium	NCBITaxon:4890	Ascomycota
 GO:0061512	protein localization to cilium	NCBITaxon:5782	Dictyostelium
 GO:0005618	cell wall	NCBITaxon:33208 	Metazoa
+GO:0090078 	smooth muscle derived foam cell differentiation	NCBITaxon:4751	Fungi
+GO:0038065	collagen-activated signaling pathway	NCBITaxon:4751	Fungi
+GO:0038063	collagen-activated tyrosine kinase receptor signaling pathway	NCBITaxon:4751	Fungi
+GO:0031550	positive regulation of brain-derived neurotrophic factor receptor signaling pathway	NCBITaxon:4751	Fungi
+GO:0031549	negative regulation of brain-derived neurotrophic factor receptor signaling pathway	NCBITaxon:4751	Fungi
+GO:0031547	brain-derived neurotrophic factor receptor signaling pathway	NCBITaxon:4751	Fungi
+GO:0031548	regulation of brain-derived neurotrophic factor receptor signaling pathway	NCBITaxon:4751	Fungi
+GO:0006789	bilirubin conjugation	NCBITaxon:4751	Fungi
+GO:0051767	nitric-oxide synthase biosynthetic process	NCBITaxon:4751	Fungi
+GO:0014719	skeletal muscle satellite cell activation	NCBITaxon:4751	Fungi
+GO:2000097	regulation of smooth muscle cell-matrix adhesion	NCBITaxon:4751	Fungi
+GO:0035994	response to muscle stretch	NCBITaxon:4751	Fungi
+GO:0035995	detection of muscle stretch	NCBITaxon:4751	Fungi
+GO:0030964	NADH dehydrogenase complex	NCBITaxon:4751	Fungi
+GO:0033651	host cell plastid	NCBITaxon:4751	Fungi
+GO:1902949	positive regulation of tau-protein kinase activity	NCBITaxon:4751	Fungi
+GO:1902947	regulation of tau-protein kinase activity	NCBITaxon:4751	Fungi
+GO:1902948	negative regulation of tau-protein kinase activity	NCBITaxon:4751	Fungi
+GO:0061302	smooth muscle cell-matrix adhesion	NCBITaxon:4751	Fungi
+GO:1902251	negative regulation of erythrocyte apoptotic process	NCBITaxon:4751	Fungi
+GO:1902252	positive regulation of erythrocyte apoptotic process	NCBITaxon:4751	Fungi
+GO:0097699	vascular endothelial cell response to fluid shear stress	NCBITaxon:4751	Fungi
+GO:0014870	response to muscle inactivity	NCBITaxon:4751	Fungi
+GO:0014869	detection of muscle inactivity	NCBITaxon:4751	Fungi
+GO:0014864	detection of muscle activity	NCBITaxon:4751	Fungi
+GO:1902217	erythrocyte apoptotic process	NCBITaxon:4751	Fungi
+GO:0097700	vascular endothelial cell response to laminar fluid shear stress	NCBITaxon:4751	Fungi
+GO:0097706	vascular endothelial cell response to oscillatory fluid shear stress	NCBITaxon:4751	Fungi
+GO:0097705	vascular endothelial cell response to pulsatile fluid shear stress	NCBITaxon:4751	Fungi
+GO:0046716 	muscle cell cellular homeostasis	NCBITaxon:4751	Fungi
+GO:0044369 	feeding on blood of other organism	NCBITaxon:4751	Fungi
+GO:0014850 	response to muscle activity	NCBITaxon:4751	Fungi
+GO:0007164	establishment of tissue polarity	NCBITaxon:4751	Fungi
+GO:0090698	post-embryonic plant morphogenesis	NCBITaxon:4751	Fungi
+GO:0031547	brain-derived neurotrophic factor receptor signaling pathway	NCBITaxon:4751	Fungi
+
