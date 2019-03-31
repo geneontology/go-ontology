@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-02-19/imports/ro_import.owl
+data-version: go/releases/2019-03-29/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -1533,6 +1533,13 @@ name: results in organization of
 def: "p results in organization of c iff p results in the assembly, arrangement of constituent parts, or disassembly of c" []
 xref: RO:0002592
 is_a: has_anatomical_participant ! has anatomical participant
+
+[Typedef]
+id: results_in_remodeling_of
+name: results in remodeling of
+xref: RO:0002591
+is_a: has_input ! has input
+is_a: results_in_organization_of ! results in organization of
 
 [Typedef]
 id: results_in_specification_of
