@@ -11,7 +11,7 @@ data_vars:
 
 annotations:
   - annotationProperty: xref
-    text: "reactome:%s"
+    text: "Reactome:%s"
     vars:
       - Identifier
     annotations:
