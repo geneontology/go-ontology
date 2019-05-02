@@ -78,7 +78,7 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl go-basic.obo go-basic.json.gz subset-reports generate-mappings
+stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_LEGO).owl go-basic.obo go-basic.json.gz subset-reports generate-mappings
 
 test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable
 
@@ -87,7 +87,7 @@ test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable
 #travis_test: $(SRC)-check sparql_test reasoned.owl
 travis_test: imports/reactome_xrefs_import.owl reasoned.owl $(SRC)-check sparql_test change-report.txt all_reports
 
-unsatisfiable: extensions/go-gaf.owl
+unsatisfiable: $(GO_GAF).owl
 	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
 
 full_test: test $(ONT).obo
