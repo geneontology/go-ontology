@@ -414,7 +414,7 @@ GO:0014850 	response to muscle activity	NCBITaxon:4751	Fungi
 GO:0007164	establishment of tissue polarity	NCBITaxon:4751	Fungi
 GO:0090698	post-embryonic plant morphogenesis	NCBITaxon:4751	Fungi
 GO:0031547	brain-derived neurotrophic factor receptor signaling pathway	NCBITaxon:4751	Fungi
-GO:0019363	protoporphyrinogen IX biosynthetic process from glutamate	NCBITaxon:4751	Fungi
-GO:0019363	protoporphyrinogen IX biosynthetic process from glutamate	NCBITaxon:33208	Metazoa
+GO:0019353	protoporphyrinogen IX biosynthetic process from glutamate	NCBITaxon:4751	Fungi
+GO:0019353	protoporphyrinogen IX biosynthetic process from glutamate	NCBITaxon:33208	Metazoa
 GO:0043588	skin development	NCBITaxon:50557	Insecta
 GO:0001533	cornified envelope	NCBITaxon:50557	Insecta
