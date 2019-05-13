@@ -68,6 +68,8 @@ GO_BASIC_RELATIONS = BFO:0000050 RO:0002211 RO:0002212 RO:0002213
 GO_MAIN_RELATIONS = $(GO_BASIC_RELATIONS) BFO:0000051 BFO:0000066 RO:0002091 RO:0002092 RO:0002093
 
 GO_PLUS = extensions/go-plus
+GO_GAF = extensions/go-gaf
+GO_LEGO = extensions/go-lego
 
 SPARQLDIR = ../sparql
 REPORTDIR = $(RELEASEDIR)/reports
@@ -76,7 +78,7 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl go-basic.obo go-basic.json.gz subset-reports generate-mappings
+stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_LEGO).owl go-basic.obo go-basic.json.gz subset-reports generate-mappings
 
 test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable
 
@@ -85,7 +87,7 @@ test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable
 #travis_test: $(SRC)-check sparql_test reasoned.owl
 travis_test: imports/reactome_xrefs_import.owl reasoned.owl $(SRC)-check sparql_test change-report.txt all_reports
 
-unsatisfiable: extensions/go-gaf.owl
+unsatisfiable: $(GO_GAF).owl
 	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
 
 full_test: test $(ONT).obo
@@ -187,15 +189,24 @@ reasoned.owl: enhanced.owl $(SRC)-check regulates_chains.ofn
 	$(ROBOT) reason -i $< -r ELK -e asserted-only relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl unmerge -i regulates_chains.ofn -o $@
 
 # equivalent to reasoned, but we rename
+# TODO cleanup redundancies with merge here and with go-base
 $(GO_PLUS).owl: reasoned.owl
-	$(ROBOT) annotate -i $< -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: $(GO_PLUS).owl
 
 # Create release file containing GO-asserted axioms, no external axioms, and no inferences.
-# GO artifacts to merge are hardcoded here.
+# GO artifacts to merge are hardcoded here. Would make sense to eventually consolidate go-plus
+# as just the merge of go-base.
 go-base.owl: enhanced.owl
 	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o -f ofn $@.tmp &&\
 	$(ROBOT) merge -i $@.tmp -i extensions/go-gci.owl -i extensions/go-bridge.owl -i extensions/ro_pending.owl -i imports/x-disjoint.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
+
+$(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).owl extensions/gorel.owl mirror/cl-download.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl
+	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+
+# Not all imports are being pre-mirrored; the ones that are should be dependencies
+$(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro-download.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl
+	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 # ----------------------------------------
 # OBO and subsets
@@ -336,6 +347,14 @@ mirror/ncbitaxon-download.owl: imports/ncbitaxon_terms.txt
 #	OWLTOOLS_MEMORY=12G owltools  $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $OBO/zz -o
 #.PRECIOUS: mirror/ncbitaxon-download-enhanced.owl
 
+mirror/taxslim.owl: $(SRC)
+	wget --no-check-certificate $(OBO)/ncbitaxon/subsets/taxslim.owl $(WGET_OUT)
+.PRECIOUS: mirror/taxslim.owl
+
+mirror/taxslim-disjoint-over-in-taxon.owl: $(SRC)
+	wget --no-check-certificate $(OBO)/ncbitaxon/subsets/taxslim-disjoint-over-in-taxon.owl $(WGET_OUT)
+.PRECIOUS: mirror/taxslim-disjoint-over-in-taxon.owl
+
 # special case: download obo for speed for ncbitaxon
 mirror/pr-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/pr.obo $(WGET_OUT)
@@ -369,7 +388,7 @@ mirror/cl-download.owl: $(SRC)
 # see https://github.com/geneontology/go-ontology/issues/12946
 mirror/ro-download.owl: $(SRC)
 	$(OWLTOOLS) $(OBO)/ro.owl --merge-imports-closure -o $@
-.PRECIOUS: mirror/cl-download.owl
+.PRECIOUS: mirror/ro-download.owl
 
 # general case: download remote OWL first
 mirror/%-download.owl: $(SRC)
