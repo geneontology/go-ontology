@@ -1,0 +1,4204 @@
+format-version: 1.2
+data-version: go/releases/2017-05-15/imports/pr_import.owl
+ontology: go/imports/pr_import
+
+[Term]
+id: BFO:0000024
+name: fiat object part
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: BFO:0000030
+name: object
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: BFO:0000040
+name: material entity
+
+[Term]
+id: CHEBI:15996
+name: GTP
+def: "A purine ribonucleoside 5'-triphosphate that has formula C10H16N5O14P3." []
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:16411
+name: indole-3-acetic acid
+def: "A member of the indole-3-acetic acids that has formula C10H9NO2." []
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:16412
+name: lipopolysaccharide
+def: "Natural compounds consisting of a trisaccharide repeating unit (two heptose units and octulosonic acid) with oligosaccharide side chains and 3-hydroxytetradecanoic acid units (they are a major constituent of the cell walls of Gram-negative bacteria)." []
+synonym: "LPS" RELATED []
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:17552
+name: GDP
+def: "A purine ribonucleoside 5'-diphosphate that has formula C10H15N5O11P2." []
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:18292
+name: jasmonic acid
+def: "An oxo monocarboxylic acid that has formula C12H18O3." []
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:18348
+name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate
+def: "A phosphatidylinositol bisphosphate in which the two phosphate groups are at C-4 and C-5 of the inositol moiety which has the 1D-myo configuration." []
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:23367
+name: molecular entity
+def: "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity." []
+is_a: BFO:0000030 ! object
+
+[Term]
+id: CHEBI:33247
+name: organic group
+def: "Any substituent group or skeleton containing carbon." []
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:33708
+name: amino-acid residue
+def: "When two or more amino acids combine to form a peptide, the elements of water are removed, and what remains of each amino acid is called an amino-acid residue." []
+synonym: "amino acid residue" EXACT []
+synonym: "protein residue" NARROW []
+is_a: CHEBI:33247 ! organic group
+
+[Term]
+id: CHEBI:4705
+name: double-stranded DNA
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:50047
+name: organic amino compound
+def: "A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups." []
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: CHEBI:67208
+name: dsRNA
+def: "A double stranded ribonucleic acid." []
+synonym: "double stranded ribonucleic acid" RELATED []
+is_a: CHEBI:23367 ! molecular entity
+
+[Term]
+id: MOD:00696
+name: phosphorylated residue
+is_a: PR:000025513 ! modified amino-acid residue
+
+[Term]
+id: NCBITaxon:10239
+name: virus
+synonym: "viral-" RELATED []
+synonym: "Viruses" EXACT []
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:2
+name: Bacteria
+synonym: "bact-" RELATED []
+synonym: "Bacteria <prokaryote>" EXACT []
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:2157
+name: Archaea
+synonym: "arch-" RELATED []
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:2759
+name: Eukaryota
+synonym: "euk-" RELATED []
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:33090
+name: Viridiplantae
+synonym: "plant-" RELATED []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:33154
+name: Opisthokonta
+synonym: "Fungi/Metazoa group" RELATED []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:33208
+name: Metazoa
+synonym: "metazoan-" RELATED []
+is_a: NCBITaxon:33154 ! Opisthokonta
+
+[Term]
+id: NCBITaxon:40674
+name: Mammalia
+synonym: "mammal" EXACT []
+synonym: "mammal-" RELATED []
+is_a: NCBITaxon:33208 ! Metazoa
+
+[Term]
+id: NCBITaxon:4751
+name: Fungi
+synonym: "fungal-" RELATED []
+is_a: NCBITaxon:33154 ! Opisthokonta
+
+[Term]
+id: OBI:0100026
+name: organism
+is_a: BFO:0000030 ! object
+
+[Term]
+id: PR:000000001
+name: protein
+def: "An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA." []
+is_a: PR:000018263 ! amino acid chain
+
+[Term]
+id: PR:000000008
+name: TGF-beta-like cystine-knot cytokine
+def: "A protein with a core domain composition consisting of a signal peptide, a variable propeptide region and a Transforming growth factor beta like domain (Pfam:PF00019), which is a cystine-knot domain containing four conserved beta strands, S1-S4, which form two antiparallel beta sheets (SI-S2 and S3-S4) interconnected by three disulfide bridges in a knot-like topology. Cystines [II-V] and [III-VI] form a ring through which the remaining disulfide bond (Cys[I-IV]) penetrates. Insertion of different variable regions into this common motif has given rise to various subclasses of the growth factor cystine-knot domain." []
+synonym: "TGF-beta superfamily" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000000017
+name: interferon gamma
+def: "A type II interferon that is a translation product of the human IFNG gene or a 1:1 ortholog thereof. The core domain structure consists of an Interferon gamma domain (Pfam:PF00714) that is four-helical cytokine domain with an additional helix in one of the crossover connections. It is a cytokine produced by lymphocytes activated by specific antigens or mitogens that has important immunoregulatory functions." []
+synonym: "IFN-gamma" EXACT []
+synonym: "IFNG" EXACT []
+synonym: "immune interferon" EXACT []
+is_a: PR:000024990 ! type II interferon
+
+[Term]
+id: PR:000000019
+name: mitogen-activated protein kinase
+def: "A protein that is a serine/threonine-specific protein kinase that responds to extracellular stimuli (mitogens) and regulates cellular activities such as gene expression, mitosis, differentiation, and cell survival/apoptosis. The activated form phosphorylates target substrates on Ser or Thr residues followed by a proline. A distinguishing feature is the conserved sequence TxY." []
+synonym: "kinase-related transforming protein" RELATED []
+synonym: "MAPK" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000000028
+name: small GTPase
+def: "A protein with a core domain composition consisting of a Ras family domain (Pfam:PF00071). The small GTPases are monomeric G-proteins which function as GDP/GTP-regulated molecular switches." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000000033
+name: tumor necrosis factor, TNF-like
+def: "A protein with a core domain composition consisting of an N-terminal cytosolic domain, a type II transmembrane domain and a C-terminal TNF domain (Pfam:PF00229)." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000000034
+name: BMP
+def: "A TGF-beta-like cystine-knot cytokine that is related to the transforming growth factor-beta, anti-Muellerian hormone, and activin/inhibin protein families, which are all involved in the regulation of cell growth and differentiation. These are produced as dimeric precursors and undergo post-translational processing for activation, requiring cleavage to release bioactive the C-terminal peptide. BMP is involved in body patterning and morphogenesis. BMP signals are transmitted through specific type 2 and type 1 receptors." []
+is_a: PR:000000008 ! TGF-beta-like cystine-knot cytokine
+
+[Term]
+id: PR:000000046
+name: TGF-beta
+def: "A TGF-beta-like cystine-knot cytokine whose propeptide region is a latent associated peptide (LAP) that remains associated to the mature TGF-beta after cleavage and secretion, keeping TGF-beta inactive. TGF-beta is the founding member of the cystine-knot cytokine family, and is related to the activin/inhibin, anti-Muellerian hormone, and bone morphogenic protein families, which are all involved in the regulation of cell growth and differentiation." []
+synonym: "transforming growth factor beta" RELATED []
+is_a: PR:000000008 ! TGF-beta-like cystine-knot cytokine
+
+[Term]
+id: PR:000000105
+name: nodal protein
+def: "A TGF-beta-like cystine-knot cytokine that is a translation product of the human NODAL gene or a 1:1 ortholog thereof. The nodal and lefty genes form positive and negative regulatory loops that resemble the reaction-diffusion system. As a pair, these genes control various events of vertebrate embryonic patterning, including left-right specification and mesoderm formation." []
+synonym: "NODAL" EXACT []
+is_a: PR:000000008 ! TGF-beta-like cystine-knot cytokine
+
+[Term]
+id: PR:000001004
+name: CD4 molecule
+def: "A protein that is a translation product of the human CD4 gene or a 1:1 ortholog thereof. CD4 is an accessory protein for MHC class-II antigen/T-cell receptor interaction. It is the primary receptor for HIV-1. CD4 has four immunoglobulin-like domains in its extracellular region that share the same structure, but can differ in sequence." []
+synonym: "CD4" EXACT []
+synonym: "T-cell differentiation antigen L3T4" EXACT []
+synonym: "T-cell surface antigen T4/Leu-3" EXACT []
+synonym: "T-cell surface glycoprotein CD4" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001091
+name: interleukin-1
+def: "A protein with a core domain composition consisting of a propeptide region and an Interleukin-1 / 18 domain." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001092
+name: interleukin-17
+def: "A protein that is a T cell-derived cytokine that may play an important role in the initiation or maintenance of the proinflammatory response. Except for IL-17B, all other IL-17 family members are homodimers containing five highly conserved cysteine residues forming characteristic cystein-knot structure, similar to that found in the TGF-beta-like cystine-knot (PR:000000008). This class consists of six cytokines. Among them, interleukin 17A (IL-17) and IL-17F are expressed by a novel subset of CD4+ helper T (Th) cells and play a critical role in inflammation and autoimmunity. On the other hand, IL-17E, also called IL-25, has been associated with allergic responses." []
+synonym: "IL-17" EXACT []
+synonym: "IL17" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001094
+name: rhodopsin-like G-protein coupled receptor
+def: "A G-protein coupled receptor that contains the 7 transmembrane receptor (rhodopsin family) domain (Pfam:PF00001), which includes 7 transmembrane helices (TMI-TM7) with 3 intracellular loops (IL1-IL3) and 3 extracellular loops (EL1-EL3) between the helices. The amino-terminal region is extracellular and the carboxyl-terminal region is intracellular. Rhodopsin-like G-protein coupled receptors (GPCRs) are unique among the several classes of GPCRs in that most have a very short amino-terminal segment and several characteristic sequence motifs, particularly NSxxNPxxY in TM7 and D/E-R-Y/F between TM3 and loop IL2. Most bind their ligands within a cavity between the TM regions." []
+synonym: "class 1 G-protein coupled receptor" EXACT []
+synonym: "fam:rhodopsin" EXACT []
+is_a: PR:000030035 ! G-protein coupled receptor
+
+[Term]
+id: PR:000001095
+name: secretin-like G-protein coupled receptor
+def: "A G-protein coupled receptor that contains the 7 transmembrane receptor (secretin family) domain (Pfam:PF00002) and has an amino-terminal segment of about 50-80 residues that contains conserved disulfide bonds and participates in ligand binding." []
+synonym: "class 2 G-protein coupled receptor" BROAD []
+synonym: "fam:secretin" EXACT []
+synonym: "subfamily B1 G-protein coupled receptor" EXACT []
+is_a: PR:000030035 ! G-protein coupled receptor
+
+[Term]
+id: PR:000001096
+name: Toll-like receptor
+def: "A protein with a core domain composition consisting of a signal peptide, an extracellular domain with multiple Leucine rich repeat (Pfam:PF13855) domain (LRR), a cysteine-rich region, a single-pass transmembrane domain and a C-terminal cytoplasmic tail containing a TIR domain (Pfam:PF01582)." []
+synonym: "fam:TLR" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001105
+name: C5a anaphylatoxin chemotactic receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds C5a anaphylatoxin." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001113
+name: interleukin-17E
+def: "An interleukin-17 that is a translation product of the human IL25 gene or a 1:1 ortholog thereof." []
+synonym: "IL-17E" EXACT []
+synonym: "IL-25" EXACT []
+synonym: "IL17E" RELATED []
+synonym: "IL25" EXACT []
+is_a: PR:000001092 ! interleukin-17
+
+[Term]
+id: PR:000001115
+name: alpha-1 adrenergic receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds adrenaline and related compounds and whose activity is mediated by G proteins that activate a phosphatidylinositol-calcium second messenger system." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001116
+name: alpha-2 adrenergic receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds adrenaline and related compounds and whose activity is mediated by G proteins that cause inhibition of adenylate cyclase." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001119
+name: animal opsin
+def: "A rhodopsin-like G-protein coupled receptor that is a translation product of some metazoan gene and that binds a vitamin A-based retinaldehyde chromophore through a Schiff base linkage to a Lys residue in the seventh transmembrane alpha helix." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+is_a: PR:000036194 ! eukaryotic protein
+relationship: only_in_taxon NCBITaxon:33208 ! Metazoa
+
+[Term]
+id: PR:000001120
+name: apelin receptor
+def: "A rhodopsin-like G-protein coupled receptor that is a translation product of the human APLNR gene or a 1:1 ortholog thereof. The preferred ligand is apelin." []
+synonym: "AGTRL1" RELATED []
+synonym: "angiotensin receptor-like 1" EXACT []
+synonym: "APJ" RELATED []
+synonym: "APLNR" EXACT []
+synonym: "G-protein coupled receptor APJ" EXACT []
+synonym: "G-protein coupled receptor HG11" EXACT []
+synonym: "MSR" RELATED []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001121
+name: beta adrenergic receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds adrenaline and related compounds and whose activity is mediated by G proteins that cause activation of adenylate cyclase." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001122
+name: bombesin receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds bombesin (a 14 amino acid peptide originally isolated from the skin of a frog) or its homologs. Mammalian homologs of bombesin include gastrin-releasing peptide and neuromedin-B." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001123
+name: bradykinin receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds bradykinin." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001128
+name: chemokine receptor
+def: "A rhodopsin-like G-protein coupled receptor that in active form binds to one or more chemokines. Only those that have been unequivocally shown to activate a G-protein coupled signaling pathway appear on the official IUPHAR list." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001130
+name: cholecystokinin receptor
+def: "A rhodopsin-like G-protein coupled receptor that in active form binds cholecystokinin (CCK)." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001131
+name: cysteinyl leukotriene receptor
+def: "A rhodopsin-like G-protein coupled receptor that in active form binds cysteinyl leukotriene." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001133
+name: endothelin receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds endothelins." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001134
+name: growth hormone secretagogue/motilin receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds either growth hormone secretagogues (principally ghrelin) or motilin. The motilin and ghrelin receptors are about 45% identical in amino acid sequence." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001135
+name: interleukin-1 alpha
+def: "An interleukin-1 that is a translation product of the human IL1A gene or a 1:1 ortholog thereof. Critical mediator of the immune and inflammatory responses." []
+synonym: "hematopoietin-1" EXACT []
+synonym: "IL-1 alpha" EXACT []
+synonym: "IL1A" EXACT []
+synonym: "IL1F1" RELATED []
+is_a: PR:000001091 ! interleukin-1
+
+[Term]
+id: PR:000001136
+name: interleukin-1 beta
+def: "An interleukin-1 that is a translation product of the human IL1B gene or a 1:1 ortholog thereof." []
+synonym: "catabolin" EXACT []
+synonym: "IL-1 beta" EXACT []
+synonym: "IL1B" EXACT []
+synonym: "IL1F2" RELATED []
+is_a: PR:000001091 ! interleukin-1
+
+[Term]
+id: PR:000001141
+name: interleukin-17D
+def: "An interleukin-17 that is a translation product of the human IL17D gene or a 1:1 ortholog thereof." []
+synonym: "IL-17D" EXACT []
+synonym: "IL-27" EXACT []
+synonym: "IL17D" EXACT []
+synonym: "IL27" RELATED []
+synonym: "interleukin-27" EXACT []
+is_a: PR:000001092 ! interleukin-17
+
+[Term]
+id: PR:000001146
+name: melanocortin receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds one or more melanocortins, the pituitary peptides ACTH and alpha-, beta-, and gamma-melanocyte-stimulating hormone." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001150
+name: tachykinin receptor
+def: "A rhodopsin-like G-protein coupled receptor that binds tachykinin peptides--neuropeptides of 10-12 amino acids derived from the translation products of the TAC1 and TAC3 genes. Tachykinin receptors are not specific but have different affinities for the various peptides." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001153
+name: Toll-like receptor 2
+def: "A Toll-like receptor that is a translation product of the human TLR2 gene or a 1:1 ortholog thereof." []
+synonym: "CD282" EXACT []
+synonym: "TIL4" RELATED []
+synonym: "TLR2" EXACT []
+synonym: "Toll/interleukin-1 receptor-like protein 4" EXACT []
+is_a: PR:000001096 ! Toll-like receptor
+
+[Term]
+id: PR:000001155
+name: Toll-like receptor 4
+def: "A Toll-like receptor that is a translation product of the human TLR4 gene or a 1:1 ortholog thereof." []
+synonym: "CD284" EXACT []
+synonym: "hToll" EXACT []
+synonym: "Lps" RELATED []
+synonym: "TLR4" EXACT []
+is_a: PR:000001096 ! Toll-like receptor
+
+[Term]
+id: PR:000001171
+name: B1 bradykinin receptor
+def: "A bradykinin receptor that is a translation product of the human BDKRB1 gene or a 1:1 ortholog thereof. The preferred ligand is bradykinin." []
+synonym: "B1R" EXACT []
+synonym: "Bdkrb" RELATED []
+synonym: "BDKRB1" EXACT []
+synonym: "BK-1 receptor" EXACT []
+synonym: "BRADYB1" RELATED []
+is_a: PR:000001123 ! bradykinin receptor
+
+[Term]
+id: PR:000001172
+name: B2 bradykinin receptor
+def: "A bradykinin receptor that is a translation product of the human BDKRB2 gene or a 1:1 ortholog thereof. The preferred ligand is bradykinin." []
+synonym: "B2R" EXACT []
+synonym: "BDKRB2" EXACT []
+synonym: "BK-2 receptor" EXACT []
+synonym: "BKR2" RELATED []
+is_a: PR:000001123 ! bradykinin receptor
+
+[Term]
+id: PR:000001182
+name: adrenocorticotropic hormone receptor
+def: "A melanocortin receptor that is a translation product of the human MC2R gene or a 1:1 ortholog thereof. The preferred ligand is ACTH." []
+synonym: "ACTH receptor" EXACT []
+synonym: "ACTH-R" EXACT []
+synonym: "ACTHR" RELATED []
+synonym: "adrenocorticotropin receptor" EXACT []
+synonym: "MC2-R" EXACT []
+synonym: "MC2R" EXACT []
+synonym: "melanocortin receptor 2" EXACT []
+is_a: PR:000001146 ! melanocortin receptor
+
+[Term]
+id: PR:000001183
+name: alpha-1A adrenergic receptor
+def: "An alpha-1 adrenergic receptor that is a translation product of the human ADRA1A gene or a 1:1 ortholog thereof." []
+synonym: "ADRA1A" EXACT []
+synonym: "ADRA1C" RELATED []
+synonym: "alpha-1A adrenoceptor" EXACT []
+synonym: "alpha-1A adrenoreceptor" EXACT []
+synonym: "alpha-1C adrenergic receptor" EXACT []
+synonym: "alpha-adrenergic receptor 1c" EXACT []
+is_a: PR:000001115 ! alpha-1 adrenergic receptor
+
+[Term]
+id: PR:000001184
+name: alpha-1B adrenergic receptor
+def: "An alpha-1 adrenergic receptor that is a translation product of the human ADRA1B gene or a 1:1 ortholog thereof." []
+synonym: "ADRA1B" EXACT []
+synonym: "alpha-1B adrenoceptor" EXACT []
+synonym: "alpha-1B adrenoreceptor" EXACT []
+is_a: PR:000001115 ! alpha-1 adrenergic receptor
+
+[Term]
+id: PR:000001185
+name: alpha-1D adrenergic receptor
+def: "An alpha-1 adrenergic receptor that is a translation product of the human ADRA1D gene or a 1:1 ortholog thereof." []
+synonym: "ADRA1A" RELATED []
+synonym: "ADRA1D" EXACT []
+synonym: "alpha-1A adrenergic receptor" RELATED []
+synonym: "alpha-1D adrenoceptor" EXACT []
+synonym: "alpha-1D adrenoreceptor" EXACT []
+synonym: "alpha-adrenergic receptor 1a" EXACT []
+synonym: "Gpcr8" RELATED []
+is_a: PR:000001115 ! alpha-1 adrenergic receptor
+
+[Term]
+id: PR:000001186
+name: alpha-2A adrenergic receptor
+def: "An alpha-2 adrenergic receptor that is a translation product of the human ADRA2A gene or a 1:1 ortholog thereof." []
+synonym: "ADRA2A" EXACT []
+synonym: "ADRA2R" RELATED []
+synonym: "ADRAR" RELATED []
+synonym: "alpha-2 adrenergic receptor subtype C10" EXACT []
+synonym: "alpha-2A adrenoceptor" EXACT []
+synonym: "alpha-2A adrenoreceptor" EXACT []
+synonym: "alpha-2AAR" EXACT []
+is_a: PR:000001116 ! alpha-2 adrenergic receptor
+
+[Term]
+id: PR:000001187
+name: alpha-2B adrenergic receptor
+def: "An alpha-2 adrenergic receptor that is a translation product of the human ADRA2B gene or a 1:1 ortholog thereof." []
+synonym: "ADRA2B" EXACT []
+synonym: "ADRA2L1" RELATED []
+synonym: "ADRA2RL1" RELATED []
+synonym: "alpha-2 adrenergic receptor subtype C2" EXACT []
+synonym: "alpha-2B adrenoceptor" EXACT []
+synonym: "alpha-2B adrenoreceptor" EXACT []
+synonym: "alpha-2BAR" EXACT []
+is_a: PR:000001116 ! alpha-2 adrenergic receptor
+
+[Term]
+id: PR:000001188
+name: alpha-2C adrenergic receptor
+def: "An alpha-2 adrenergic receptor that is a translation product of the human ADRA2C gene or a 1:1 ortholog thereof." []
+synonym: "ADRA2C" EXACT []
+synonym: "ADRA2L2" RELATED []
+synonym: "ADRA2RL2" RELATED []
+synonym: "alpha-2 adrenergic receptor subtype C4" EXACT []
+synonym: "alpha-2C adrenoceptor" EXACT []
+synonym: "alpha-2C adrenoreceptor" EXACT []
+synonym: "alpha-2CAR" EXACT []
+is_a: PR:000001116 ! alpha-2 adrenergic receptor
+
+[Term]
+id: PR:000001192
+name: beta-1 adrenergic receptor
+def: "A beta adrenergic receptor that is a translation product of the human ADRB1 gene or a 1:1 ortholog thereof." []
+synonym: "ADRB1" EXACT []
+synonym: "ADRB1R" RELATED []
+synonym: "B1AR" RELATED []
+synonym: "beta-1 adrenoceptor" EXACT []
+synonym: "beta-1 adrenoreceptor" EXACT []
+is_a: PR:000001121 ! beta adrenergic receptor
+
+[Term]
+id: PR:000001193
+name: beta-2 adrenergic receptor
+def: "A beta adrenergic receptor that is a translation product of the human ADRB2 gene or a 1:1 ortholog thereof." []
+synonym: "ADRB2" EXACT []
+synonym: "ADRB2R" RELATED []
+synonym: "B2AR" RELATED []
+synonym: "beta(2)-adrenergic receptor" EXACT []
+synonym: "beta-2 adrenoceptor" EXACT []
+synonym: "beta-2 adrenoreceptor" EXACT []
+is_a: PR:000001121 ! beta adrenergic receptor
+
+[Term]
+id: PR:000001194
+name: beta-3 adrenergic receptor
+def: "A beta adrenergic receptor that is a translation product of the human ADRB3 gene or a 1:1 ortholog thereof." []
+synonym: "ADRB3" EXACT []
+synonym: "ADRB3R" RELATED []
+synonym: "B3AR" RELATED []
+synonym: "B3bar" RELATED []
+synonym: "beta-3 adrenoceptor" EXACT []
+synonym: "beta-3 adrenoreceptor" EXACT []
+is_a: PR:000001121 ! beta adrenergic receptor
+
+[Term]
+id: PR:000001197
+name: chemokine receptor CCR1/3/1L
+def: "A chemokine receptor that is a translation product of the human CCR1 or CCR3 genes, the mouse CCR1L1 gene, 1:1 orthologs thereof, or a semi-ortholog thereof." []
+is_a: PR:000001128 ! chemokine receptor
+
+[Term]
+id: PR:000001199
+name: C-C chemokine receptor type 2
+def: "A chemokine receptor that is a translation product of the human CCR2 gene or a 1:1 ortholog thereof. The preferred ligands include CCL2, CCL7, CCL8, CCL13." []
+synonym: "C-C CKR-2" EXACT []
+synonym: "CC-CKR-2" EXACT []
+synonym: "CCR-2" EXACT []
+synonym: "CCR2" EXACT []
+synonym: "CD192" EXACT []
+synonym: "chemokine receptor CCR2" EXACT []
+synonym: "CMKBR2" RELATED []
+synonym: "JE/FIC receptor" EXACT []
+synonym: "MCP-1 receptor" EXACT []
+synonym: "MCP-1-R" EXACT []
+synonym: "monocyte chemoattractant protein 1 receptor" EXACT []
+is_a: PR:000001128 ! chemokine receptor
+
+[Term]
+id: PR:000001202
+name: C-C chemokine receptor type 6
+def: "A chemokine receptor that is a translation product of the human CCR6 gene or a 1:1 ortholog thereof. The preferred ligand is CCL20." []
+synonym: "C-C CKR-6" EXACT []
+synonym: "CC-CKR-6" EXACT []
+synonym: "CCR-6" EXACT []
+synonym: "CCR6" EXACT []
+synonym: "CD196" EXACT []
+synonym: "chemokine receptor CCR6" EXACT []
+synonym: "chemokine receptor-like 3" EXACT []
+synonym: "CKR-L3" EXACT []
+synonym: "CKRL3" RELATED []
+synonym: "CMKBR6" RELATED []
+synonym: "DRY6" EXACT []
+synonym: "G-protein coupled receptor 29" EXACT []
+synonym: "GPR-CY4" EXACT []
+synonym: "GPR29" RELATED []
+synonym: "GPRCY4" EXACT []
+synonym: "KY411" EXACT []
+synonym: "LARC receptor" EXACT []
+synonym: "STRL22" RELATED []
+is_a: PR:000001128 ! chemokine receptor
+
+[Term]
+id: PR:000001203
+name: C-C chemokine receptor type 7
+def: "A chemokine receptor that is a translation product of the human CCR7 gene or a 1:1 ortholog thereof. The preferred ligands are CCL19 and CCL21." []
+synonym: "BLR2" EXACT []
+synonym: "C-C CKR-7" EXACT []
+synonym: "CC-CKR-7" EXACT []
+synonym: "CCR-7" EXACT []
+synonym: "CCR7" EXACT []
+synonym: "CD197" EXACT []
+synonym: "CDw197" EXACT []
+synonym: "chemokine receptor CCR7" EXACT []
+synonym: "CMKBR7" RELATED []
+synonym: "EBI1" EXACT []
+synonym: "Ebi1h" RELATED []
+synonym: "EBV-induced G-protein coupled receptor 1" EXACT []
+synonym: "epstein-Barr virus-induced G-protein coupled receptor 1" EXACT []
+synonym: "EVI1" RELATED []
+synonym: "MIP-3 beta receptor" EXACT []
+is_a: PR:000001128 ! chemokine receptor
+
+[Term]
+id: PR:000001206
+name: CX3C chemokine receptor 1
+def: "A chemokine receptor that is a translation product of the human CX3CR1 gene or a 1:1 ortholog thereof. The preferred ligand is CX3CL1." []
+synonym: "beta chemokine receptor-like 1" EXACT []
+synonym: "C-X3-C CKR-1" EXACT []
+synonym: "chemokine receptor CX3CR1" EXACT []
+synonym: "CMK-BRL-1" EXACT []
+synonym: "CMK-BRL1" EXACT []
+synonym: "CMKBRL1" RELATED []
+synonym: "CX3CR1" EXACT []
+synonym: "fractalkine receptor" EXACT []
+synonym: "G-protein coupled receptor 13" EXACT []
+synonym: "GPR13" RELATED []
+synonym: "V28" EXACT []
+is_a: PR:000001128 ! chemokine receptor
+
+[Term]
+id: PR:000001208
+name: C-X-C chemokine receptor type 4
+def: "A chemokine receptor that is a translation product of the human CXCR4 gene or a 1:1 ortholog thereof. The preferred ligand is CXCL12." []
+synonym: "CD184" EXACT []
+synonym: "chemokine receptor CXCR4" EXACT []
+synonym: "Cmkar4" RELATED []
+synonym: "CXC-R4" EXACT []
+synonym: "CXCR-4" EXACT []
+synonym: "CXCR4" EXACT []
+synonym: "FB22" EXACT []
+synonym: "fusin" EXACT []
+synonym: "HM89" EXACT []
+synonym: "LCR1" EXACT []
+synonym: "LESTR" EXACT []
+synonym: "leukocyte-derived seven transmembrane domain receptor" EXACT []
+synonym: "NPYRL" EXACT []
+synonym: "PB-CKR" EXACT []
+synonym: "pre-B-cell-derived chemokine receptor" EXACT []
+synonym: "SDF-1 receptor" EXACT []
+synonym: "Sdf1r" RELATED []
+synonym: "stromal cell-derived factor 1 receptor" EXACT []
+is_a: PR:000001128 ! chemokine receptor
+
+[Term]
+id: PR:000001212
+name: chemokine XC receptor 1
+def: "A chemokine receptor that is a translation product of the human XCR1 gene or a 1:1 ortholog thereof. The preferred ligands are XCL1 and XCL2." []
+synonym: "CCXCR1" RELATED []
+synonym: "chemokine receptor XCR1" EXACT []
+synonym: "G-protein coupled receptor 5" EXACT []
+synonym: "GPR5" RELATED []
+synonym: "lymphotactin receptor" EXACT []
+synonym: "SCM1 receptor" EXACT []
+synonym: "XC chemokine receptor 1" EXACT []
+synonym: "XCR1" EXACT []
+is_a: PR:000001128 ! chemokine receptor
+
+[Term]
+id: PR:000001221
+name: endothelin-1 receptor
+def: "An endothelin receptor that is a translation product of the human EDNRA gene or a 1:1 ortholog thereof. The active form binds endothelin 1 (ET-1) and ET-2 with much higher affinity than ET-3." []
+synonym: "EDNRA" EXACT []
+synonym: "endothelin A receptor" EXACT []
+synonym: "endothelin receptor A" EXACT []
+synonym: "ET-A" BROAD []
+synonym: "ET-AR" EXACT []
+synonym: "ETA" RELATED []
+synonym: "ETA-R" EXACT []
+synonym: "ETRA" RELATED []
+synonym: "Gpcr10" RELATED []
+is_a: PR:000001133 ! endothelin receptor
+
+[Term]
+id: PR:000001223
+name: gastrin-releasing peptide receptor
+def: "A bombesin receptor that is a translation product of the human GRPR gene or a 1:1 ortholog thereof. The preferred ligand is gastrin releasing peptide." []
+synonym: "GRP-preferring bombesin receptor" EXACT []
+synonym: "GRP-R" EXACT []
+synonym: "GRPR" EXACT []
+is_a: PR:000001122 ! bombesin receptor
+
+[Term]
+id: PR:000001225
+name: growth hormone secretagogue receptor
+def: "A growth hormone secretagogue/motilin receptor that is a translation product of the human GHSR gene or a 1:1 ortholog thereof. Although its preferred ligand is ghrelin, it also binds other growth hormone releasing peptides and some nonpeptide ligands." []
+synonym: "GH-releasing peptide receptor" EXACT []
+synonym: "ghrelin receptor" EXACT []
+synonym: "GHRP" EXACT []
+synonym: "GHS-R" EXACT []
+synonym: "GHSR" EXACT []
+is_a: PR:000001134 ! growth hormone secretagogue/motilin receptor
+
+[Term]
+id: PR:000001240
+name: motilin receptor
+def: "A growth hormone secretagogue/motilin receptor that is a translation product of the human MLNR gene or a 1:1 ortholog thereof. The preferred ligand is motilin, an intestinal peptide that stimulates contraction of gut smooth muscle." []
+synonym: "G-protein coupled receptor 38" EXACT []
+synonym: "GPR38" RELATED []
+synonym: "MLNR" EXACT []
+synonym: "MTLR" RELATED []
+synonym: "MTLR1" RELATED []
+is_a: PR:000001134 ! growth hormone secretagogue/motilin receptor
+
+[Term]
+id: PR:000001245
+name: rhodopsin
+def: "An animal opsin that is a translation product of the human RHO gene or a 1:1 ortholog thereof." []
+synonym: "OPN2" RELATED []
+synonym: "opsin-2" EXACT []
+synonym: "RHO" EXACT []
+is_a: PR:000001119 ! animal opsin
+
+[Term]
+id: PR:000001255
+name: C-C chemokine receptor type 3
+def: "A chemokine receptor CCR1/3/1L that is a translation product of the human CCR3 gene or a 1:1 ortholog thereof." []
+synonym: "C-C CKR-3" EXACT []
+synonym: "CC-CKR-3" EXACT []
+synonym: "CCR-3" EXACT []
+synonym: "CCR3" EXACT []
+synonym: "CD193" EXACT []
+synonym: "chemokine receptor CCR3" EXACT []
+synonym: "CKR3" EXACT []
+synonym: "Cmkbr1l2" RELATED []
+synonym: "CMKBR3" RELATED []
+synonym: "eosinophil eotaxin receptor" EXACT []
+synonym: "macrophage inflammatory protein 1-alpha receptor-like 2" EXACT []
+synonym: "MIP-1 alpha RL2" EXACT []
+is_a: PR:000001197 ! chemokine receptor CCR1/3/1L
+
+[Term]
+id: PR:000001315
+name: frizzled-like G-protein coupled receptor
+def: "A G-protein coupled receptor with core architecture consisting of an Fz domain (Pfam:PF01392), also known as Frizzled CRD (cysteine rich domain), followed by a Frizzled/Smoothened family membrane region (Pfam:PF01534), which includes 7 transmembrane helices, and a cytoplasmic domain containing the motif Lys-Thr-x-x-x-Trp. They generally function as cell-surface receptors for Wnts." []
+synonym: "fam:frizzled" EXACT []
+is_a: PR:000030035 ! G-protein coupled receptor
+
+[Term]
+id: PR:000001317
+name: interleukin-7
+def: "A protein that is a translation product of the human IL7 gene or a 1:1 ortholog thereof." []
+synonym: "IL-7" EXACT []
+synonym: "IL7" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001327
+name: cadherin
+def: "A protein that has a core domain structure of signal sequence, propeptide, five Cadherin domains (Pfam:PF00028), a transmembrane region, and a Cadherin cytoplasmic region (Pfam:PF01049). Cadherins function as adhesion molecules that mediate Ca2+-dependent cell-cell adhesion in solid tissues." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001335
+name: class 2 cytokine, IL-10 type
+def: "A protein with a core domain architecture consisting of an N-terminal Interleukin 10 (Pfam:PF00726) domain." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001348
+name: erythrocyte membrane protein Rh
+def: "A protein that is a stand alone version of the Ammonium Transporter Family domain in vertebrates. This protein is related to the ammonium transporters in fungi and bacteria. In mammals, this protein defines the Rh blood group antigens." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001349
+name: fibroblast growth factor receptor
+def: "A protein with an extracellular region containing three copies of the Immunoglobulin domain (Pfam:PF00047), a single transmembrane region, and an intracellular region containing a Protein tyrosine kinase domain (Pfam:PF07714). Its active form binds fibroblast growth factor (FGF). FGFs and its receptor comprise a signaling system that is conserved throughout metazoan evolution." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001353
+name: granulocyte colony-stimulating factor receptor
+def: "A protein that is a translation product of the human CSF3R gene or a 1:1 ortholog thereof. The active receptor is a homodimer which can bind G-CSF and transduce G-CSF-triggered growth signals into cells. Its extracellular domain contains a sequence of about 200 amino acids which can be found in various cytokine receptors. In addition, it contains an immunoglobulin-like domain and three fibronectin type III domains." []
+synonym: "CD114" EXACT []
+synonym: "CSF3R" EXACT []
+synonym: "Csfgr" RELATED []
+synonym: "G-CSF receptor" EXACT []
+synonym: "G-CSF-R" EXACT []
+synonym: "GCSFR" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001357
+name: intercellular adhesion molecule 1/3
+def: "A protein with a core domain architecture consisting of an Intercellular adhesion molecule (ICAM), N-terminal domain (Pfam:PF03921), a type of Ig-like domain, and four copies of the Immunoglobulin domain (Pfam:PF00047), most of which are not detected by Pfam." []
+synonym: "ICAM" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001366
+name: interleukin-11
+def: "A protein that is a translation product of the human IL11 gene or a 1:1 ortholog thereof." []
+synonym: "adipogenesis inhibitory factor" EXACT []
+synonym: "AGIF" EXACT []
+synonym: "IL-11" EXACT []
+synonym: "IL11" EXACT []
+synonym: "oprelvekin" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001368
+name: interleukin-12 subunit alpha
+def: "A protein that is a translation product of the human IL12A gene or a 1:1 ortholog thereof. It associates with interleukin-12 subunit beta to form the interleukin-23. Interleukin-12 subunit alpha associates with interleukin-27 subunit beta to form the interleukin-35." []
+synonym: "CLMF p35" EXACT []
+synonym: "cytotoxic lymphocyte maturation factor 35 kDa subunit" EXACT []
+synonym: "IL-12 subunit p35" EXACT []
+synonym: "IL-12A" EXACT []
+synonym: "IL12A" EXACT []
+synonym: "NK cell stimulatory factor chain 1" EXACT []
+synonym: "NKSF1" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001369
+name: interleukin-12 subunit beta
+def: "A protein that is a translation product of the human IL12B gene or a 1:1 ortholog thereof. Interleukin-12 subunit beta associates with interleukin-12 subunit alpha or interleukin-23 subunit alpha to form the interleukin-23." []
+synonym: "CLMF p40" EXACT []
+synonym: "cytotoxic lymphocyte maturation factor 40 kDa subunit" EXACT []
+synonym: "IL-12 subunit p40" EXACT []
+synonym: "IL-12B" EXACT []
+synonym: "IL12B" EXACT []
+synonym: "NK cell stimulatory factor chain 2" EXACT []
+synonym: "NKSF2" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001370
+name: interleukin-13
+def: "A protein that is a translation product of the human IL13 gene or a 1:1 ortholog thereof. Interleukin-13 is a pleiotropic cytokine which may be important in the regulation of the inflammatory and immune responses. It inhibits inflammatory cytokine production and synergises with IL-2 in regulating interferon-gamma synthesis. The sequences of IL-4 and IL-13 are distantly related." []
+synonym: "IL-13" EXACT []
+synonym: "IL13" EXACT []
+synonym: "NC30" RELATED []
+synonym: "T-cell activation protein P600" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001373
+name: interleukin-15
+def: "A protein that is a translation product of the human IL15 gene or a 1:1 ortholog thereof." []
+synonym: "IL-15" EXACT []
+synonym: "IL15" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001374
+name: interleukin-16
+def: "A protein that is a translation product of the human IL16 gene or a 1:1 ortholog thereof." []
+synonym: "IL16" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001376
+name: interleukin-18
+def: "A protein that is a translation product of the human IL18 gene or a 1:1 ortholog thereof." []
+synonym: "iboctadekin" EXACT []
+synonym: "IFN-gamma-inducing factor" EXACT []
+synonym: "IGIF" RELATED []
+synonym: "IL-1 gamma" EXACT []
+synonym: "IL-18" EXACT []
+synonym: "IL18" EXACT []
+synonym: "IL1F4" RELATED []
+synonym: "interferon gamma-inducing factor" EXACT []
+synonym: "interleukin-1 gamma" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001379
+name: interleukin-2
+def: "A protein that is a translation product of the human IL2 gene or a 1:1 ortholog thereof. Interleukin-2 has a dual role in maintaining tolerance and contributing to immunity." []
+synonym: "aldesleukin" EXACT []
+synonym: "IL-2" EXACT []
+synonym: "IL2" EXACT []
+synonym: "T-cell growth factor" EXACT []
+synonym: "TCGF" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001382
+name: interleukin-21
+def: "A protein that is a translation product of the human IL21 gene or a 1:1 ortholog thereof." []
+synonym: "IL-21" EXACT []
+synonym: "IL21" EXACT []
+synonym: "Za11" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001383
+name: interleukin-22
+def: "A protein that is a translation product of the human IL22 gene or a 1:1 ortholog thereof." []
+synonym: "cytokine Zcyto18" EXACT []
+synonym: "IL-10-related T-cell-derived-inducible factor" EXACT []
+synonym: "IL-22" EXACT []
+synonym: "IL-22a" EXACT []
+synonym: "IL-TIF" EXACT []
+synonym: "IL-TIF alpha" EXACT []
+synonym: "IL22" EXACT []
+synonym: "Il22a" RELATED []
+synonym: "ILTIF" RELATED []
+synonym: "Iltifa" RELATED []
+synonym: "interleukin-22a" EXACT []
+synonym: "ZCYTO18" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001387
+name: interleukin-3
+def: "A protein that is a translation product of the human IL3 gene or a 1:1 ortholog thereof." []
+synonym: "Csfmu" RELATED []
+synonym: "hematopoietic growth factor" EXACT []
+synonym: "IL-3" EXACT []
+synonym: "IL3" EXACT []
+synonym: "mast cell growth factor" RELATED []
+synonym: "MCGF" EXACT []
+synonym: "multipotential colony-stimulating factor" EXACT []
+synonym: "P-cell-stimulating factor" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001389
+name: interleukin-33
+def: "A protein that is a translation product of the human IL33 gene or a 1:1 ortholog thereof." []
+synonym: "C9orf26" RELATED []
+synonym: "IL-1F11" EXACT []
+synonym: "IL-33" EXACT []
+synonym: "IL1F11" RELATED []
+synonym: "IL33" EXACT []
+synonym: "interleukin-1 family member 11" EXACT []
+synonym: "NF-HEV" EXACT []
+synonym: "NFHEV" RELATED []
+synonym: "nuclear factor from high endothelial venules" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001391
+name: interleukin-4
+def: "A protein that is a translation product of the human IL4 gene or a 1:1 ortholog thereof." []
+synonym: "B-cell growth factor 1" EXACT []
+synonym: "B-cell IgG differentiation factor" EXACT []
+synonym: "B-cell stimulatory factor 1" EXACT []
+synonym: "binetrakin" EXACT []
+synonym: "BSF-1" EXACT []
+synonym: "IGG1 induction factor" EXACT []
+synonym: "IL-4" EXACT []
+synonym: "IL4" EXACT []
+synonym: "lymphocyte stimulatory factor 1" EXACT []
+synonym: "pitrakinra" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001392
+name: interleukin-5
+def: "A protein that is a translation product of the human IL5 gene or a 1:1 ortholog thereof." []
+synonym: "B-cell differentiation factor I" EXACT []
+synonym: "B-cell growth factor II" EXACT []
+synonym: "BCGF-II" EXACT []
+synonym: "cytotoxic T-lymphocyte inducer" EXACT []
+synonym: "eosinophil differentiation factor" EXACT []
+synonym: "IL-5" EXACT []
+synonym: "IL5" EXACT []
+synonym: "T-cell replacing factor" EXACT []
+synonym: "TRF" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001393
+name: interleukin-6
+def: "A protein that is a translation product of the human IL6 gene or a 1:1 ortholog thereof." []
+synonym: "B-cell hybridoma growth factor" EXACT []
+synonym: "B-cell stimulatory factor 2" EXACT []
+synonym: "BSF-2" EXACT []
+synonym: "CDF" EXACT []
+synonym: "CTL differentiation factor" EXACT []
+synonym: "hybridoma growth factor" EXACT []
+synonym: "IFN-beta-2" EXACT []
+synonym: "IFNB2" RELATED []
+synonym: "IL-6" EXACT []
+synonym: "IL6" EXACT []
+synonym: "interferon beta-2" EXACT []
+synonym: "interleukin HP-1" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001395
+name: interleukin-8
+def: "A protein that is a translation product of the human IL8 gene or a 1:1 ortholog thereof." []
+synonym: "C-X-C motif chemokine 8" EXACT []
+synonym: "CXCL8" RELATED []
+synonym: "emoctakin" EXACT []
+synonym: "GCP-1" RELATED []
+synonym: "granulocyte chemotactic protein 1" EXACT []
+synonym: "IL-8" EXACT []
+synonym: "IL8" EXACT []
+synonym: "MDNCF" EXACT []
+synonym: "MONAP" EXACT []
+synonym: "monocyte-derived neutrophil chemotactic factor" EXACT []
+synonym: "monocyte-derived neutrophil-activating peptide" EXACT []
+synonym: "NAP-1" EXACT []
+synonym: "neutrophil-activating protein 1" EXACT []
+synonym: "protein 3-10C" EXACT []
+synonym: "T-cell chemotactic factor" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001396
+name: interleukin-9
+def: "A protein that is a translation product of the human IL9 gene or a 1:1 ortholog thereof." []
+synonym: "cytokine P40" EXACT []
+synonym: "IL-9" EXACT []
+synonym: "IL9" EXACT []
+synonym: "T-cell growth factor P40" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001397
+name: interleukin-9 receptor
+def: "A protein that is a translation product of the human IL9R gene or a 1:1 ortholog thereof." []
+synonym: "CD129" EXACT []
+synonym: "IL-9 receptor" EXACT []
+synonym: "IL-9R" EXACT []
+synonym: "IL9R" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001422
+name: histamine H1 receptor
+def: "A G-protein coupled receptor that is a translation product of the human HRH1 gene or a 1:1 ortholog thereof." []
+synonym: "Bphs" RELATED []
+synonym: "H1 histamine receptor" EXACT []
+synonym: "H1R" EXACT []
+synonym: "HH1R" EXACT []
+synonym: "HRH1" EXACT []
+is_a: PR:000030035 ! G-protein coupled receptor
+
+[Term]
+id: PR:000001423
+name: histamine H2 receptor
+def: "A G-protein coupled receptor that is a translation product of the human HRH2 gene or a 1:1 ortholog thereof. The preferred ligand is histamine. This receptor mediates smooth muscle relaxation, gastric acid secretion, and other diverse effects." []
+synonym: "gastric receptor I" EXACT []
+synonym: "H2 histamine receptor" EXACT []
+synonym: "H2R" EXACT []
+synonym: "HH2R" EXACT []
+synonym: "HRH2" EXACT []
+is_a: PR:000030035 ! G-protein coupled receptor
+
+[Term]
+id: PR:000001424
+name: H3/H4 histamine receptor
+def: "A G-protein coupled receptor that is a translation product of the human HRH3 or HRH4 genes, 1:1 orthologs thereof, or a semi-ortholog thereof." []
+is_a: PR:000030035 ! G-protein coupled receptor
+
+[Term]
+id: PR:000001426
+name: KiSS-1 receptor
+def: "A rhodopsin-like G-protein coupled receptor that is a translation product of the human KISS1R gene or a 1:1 ortholog thereof. The preferred ligands are peptides of 10-54 residues derived from the metastasis-suppressor KiSS-1 protein." []
+synonym: "AXOR12" RELATED []
+synonym: "G-protein coupled receptor 54" EXACT []
+synonym: "G-protein coupled receptor OT7T175" EXACT []
+synonym: "GPR54" RELATED []
+synonym: "hypogonadotropin-1" EXACT []
+synonym: "KiSS-1R" EXACT []
+synonym: "KISS1R" EXACT []
+synonym: "kisspeptins receptor" EXACT []
+synonym: "metastin receptor" EXACT []
+synonym: "OT7T175" EXACT []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001431
+name: N-formyl peptide receptor
+def: "A rhodopsin-like G-protein coupled receptor that is a translation product of the human FPR1, FPR2, or FPR3 genes, 1:1 orthologs thereof, or a semi-ortholog thereof. The active form binds N-formyl methionyl peptides." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001439
+name: adenosine receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds adenosine." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001442
+name: blood group Rh(D) polypeptide
+def: "An erythrocyte membrane protein Rh that is a translation product of the human RHD gene or a 1:1 ortholog thereof." []
+synonym: "blood group RhD polypeptide" EXACT []
+synonym: "CD240D" EXACT []
+synonym: "Rh polypeptide 2" EXACT []
+synonym: "RHD" EXACT []
+synonym: "rhesus D antigen" EXACT []
+synonym: "RhPII" EXACT []
+synonym: "RHXIII" EXACT []
+is_a: PR:000001348 ! erythrocyte membrane protein Rh
+
+[Term]
+id: PR:000001449
+name: fibroblast growth factor receptor 2
+def: "A fibroblast growth factor receptor that is a translation product of the human FGFR2 gene or a 1:1 ortholog thereof." []
+synonym: "BEK" RELATED []
+synonym: "CD332" EXACT []
+synonym: "Ect1" RELATED []
+synonym: "FGFR-2" EXACT []
+synonym: "FGFR2" EXACT []
+synonym: "K-sam" EXACT []
+synonym: "keratinocyte growth factor receptor" EXACT []
+synonym: "KGFR" RELATED []
+synonym: "KSAM" RELATED []
+is_a: PR:000001349 ! fibroblast growth factor receptor
+
+[Term]
+id: PR:000001457
+name: galanin receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds the neuropeptide galanin." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001463
+name: glycoprotein hormone receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds glycoprotein hormones (thyrotropin, follitropin, lutropin, choriogonadotropin)." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001464
+name: gonadotropin-releasing hormone receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds gonadotropin-releasing hormone I or II." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001468
+name: intercellular adhesion molecule 3
+def: "An intercellular adhesion molecule 1/3 that is a translation product of the human ICAM3 gene or a 1:1 ortholog thereof." []
+synonym: "CD50" EXACT []
+synonym: "CDw50" EXACT []
+synonym: "ICAM-3" EXACT []
+synonym: "ICAM-R" EXACT []
+synonym: "ICAM3" EXACT []
+is_a: PR:000001357 ! intercellular adhesion molecule 1/3
+
+[Term]
+id: PR:000001471
+name: interleukin-10
+def: "A class 2 cytokine, IL-10 type that is a translation product of the human IL10 gene or a 1:1 ortholog thereof. Active interleukin-10 inhibits the synthesis of a number of cytokines, including IFN-gamma, IL-2, IL-3, TNF and GM-CSF produced by activated macrophages and by helper T cells. Structurally, IL-10 is a protein of about 160 amino acids that contains four conserved cysteines involved in disulfide bonds." []
+synonym: "CSIF" EXACT []
+synonym: "cytokine synthesis inhibitory factor" EXACT []
+synonym: "IL-10" EXACT []
+synonym: "IL10" EXACT []
+is_a: PR:000001335 ! class 2 cytokine, IL-10 type
+
+[Term]
+id: PR:000001472
+name: interleukin-19
+def: "A class 2 cytokine, IL-10 type that is a translation product of the human IL19 gene or a 1:1 ortholog thereof." []
+synonym: "IL-19" EXACT []
+synonym: "IL19" EXACT []
+synonym: "melanoma differentiation-associated protein-like protein" EXACT []
+synonym: "NG.1" EXACT []
+synonym: "ZMDA1" RELATED []
+is_a: PR:000001335 ! class 2 cytokine, IL-10 type
+
+[Term]
+id: PR:000001473
+name: interleukin-20
+def: "A class 2 cytokine, IL-10 type that is a translation product of the human IL20 gene or a 1:1 ortholog thereof." []
+synonym: "cytokine Zcyto10" EXACT []
+synonym: "IL-20" EXACT []
+synonym: "IL20" EXACT []
+synonym: "ZCYTO10" RELATED []
+is_a: PR:000001335 ! class 2 cytokine, IL-10 type
+
+[Term]
+id: PR:000001474
+name: interleukin-24
+def: "A class 2 cytokine, IL-10 type that is a translation product of the human IL24 gene or a 1:1 ortholog thereof." []
+synonym: "IL-24" EXACT []
+synonym: "IL-4-induced secreted protein" EXACT []
+synonym: "IL24" EXACT []
+synonym: "MDA-7" EXACT []
+synonym: "MDA7" RELATED []
+synonym: "melanoma differentiation-associated gene 7 protein" EXACT []
+synonym: "ST16" RELATED []
+synonym: "suppression of tumorigenicity 16 protein" EXACT []
+synonym: "Th2-specific cytokine FISP" EXACT []
+is_a: PR:000001335 ! class 2 cytokine, IL-10 type
+
+[Term]
+id: PR:000001475
+name: interleukin-26
+def: "A class 2 cytokine, IL-10 type that is a translation product of the human IL26 gene or a 1:1 ortholog thereof." []
+synonym: "AK155" RELATED []
+synonym: "IL-26" EXACT []
+synonym: "IL26" EXACT []
+synonym: "protein AK155" EXACT []
+is_a: PR:000001335 ! class 2 cytokine, IL-10 type
+
+[Term]
+id: PR:000001488
+name: muscarinic acetylcholine receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active forms binds the neurotransmitter acetylcholine. They are more sensitive to muscarine than to nicotine." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001489
+name: neuromedin-U receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds the neuropeptide neuromedin-U." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001497
+name: opioid receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds opioids." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001498
+name: orexigenic neuropeptide QRFP receptor
+def: "A rhodopsin-like G-protein coupled receptor that is a translation product of the human QRFPR gene or a 1:1 ortholog thereof. This receptor is expressed at high levels in brain and retina and at moderate levels in the heart, kidney, testis and thyroid." []
+synonym: "AQ27" EXACT []
+synonym: "G-protein coupled receptor 103" EXACT []
+synonym: "GPR103" RELATED []
+synonym: "QRFPR" EXACT []
+synonym: "SP9155" EXACT []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001499
+name: orexin receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds the neuropeptide hormone orexin (hypocretin)." []
+synonym: "hypocretin receptor" EXACT []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001546
+name: prolactin-releasing peptide receptor
+def: "A rhodopsin-like G-protein coupled receptor that is a translation product of the human PRLHR gene or a 1:1 ortholog thereof." []
+synonym: "G-protein coupled receptor 10" EXACT []
+synonym: "Gm339" RELATED []
+synonym: "GPR10" RELATED []
+synonym: "GR3" RELATED []
+synonym: "PRLHR" EXACT []
+synonym: "PrRP receptor" EXACT []
+synonym: "PrRPR" EXACT []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001548
+name: prostaglandin E2 receptor EP4 subtype
+def: "A rhodopsin-like G-protein coupled receptor that is a translation product of the human PTGER4 gene or a 1:1 ortholog thereof. The preferred ligand is prostaglandin E2. This receptor is not closely related to other prostaglandin E2 receptors." []
+synonym: "PGE receptor EP4 subtype" EXACT []
+synonym: "PGE2 receptor EP4 subtype" EXACT []
+synonym: "prostaglandin E2 receptor EP4" EXACT []
+synonym: "prostanoid EP4 receptor" EXACT []
+synonym: "PTGER2" RELATED []
+synonym: "PTGER4" EXACT []
+synonym: "Ptgerep4" RELATED []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001549
+name: prostanoid receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds prostanoids (prostaglandins and thromboxanes)." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001550
+name: proteinase-activated receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds trypsin-related proteinases. The proteinase cleaves the mature peptide, exposing a new amino end. The new N-terminal residues act as a tethered ligand that induces activity." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001555
+name: somatostatin receptor
+def: "A rhodopsin-like G-protein coupled receptor whose active form binds somatostatin." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001557
+name: thyrotropin-releasing hormone receptor
+def: "A rhodopsin-like G-protein coupled receptor that is a translation product of the human TRHR gene or a 1:1 ortholog thereof. The preferred ligand is thyrotropin-releasing hormone." []
+synonym: "thyroliberin receptor" EXACT []
+synonym: "TRH-R" EXACT []
+synonym: "TRHR" EXACT []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001562
+name: vasopressin/oxytocin receptor
+def: "A rhodopsin-like G-protein coupled receptor that binds vasopressin or oxytocin or related nonapeptides." []
+is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
+
+[Term]
+id: PR:000001564
+name: histamine H3 receptor
+def: "An H3/H4 histamine receptor that is a translation product of the human HRH3 gene or a 1:1 ortholog thereof. The preferred ligand is histamine. This receptor mediates inhibition of gastric acid release, inhibition of neurotransmitter release, and other diverse effects." []
+synonym: "G-protein coupled receptor 97" RELATED []
+synonym: "GPCR97" RELATED []
+synonym: "H3 histamine receptor" EXACT []
+synonym: "H3R" EXACT []
+synonym: "HH3R" EXACT []
+synonym: "HRH3" EXACT []
+is_a: PR:000001424 ! H3/H4 histamine receptor
+
+[Term]
+id: PR:000001565
+name: H4 histamine receptor
+def: "An H3/H4 histamine receptor that is a translation product of the human HRH4 gene or a 1:1 ortholog thereof. The preferred ligand is histamine. This receptor is expressed primarily in the bone marrow and eosinophils but also in a wide variety of peripheral tissues, including the heart, kidney, liver, lung, pancreas, skeletal muscle, prostate, small intestine, spleen, testis, colon, fetal liver and lymph node." []
+synonym: "AXOR35" EXACT []
+synonym: "G-protein coupled receptor 105" RELATED []
+synonym: "GPCR105" RELATED []
+synonym: "GPRv53" EXACT []
+synonym: "H4R" EXACT []
+synonym: "HH4R" EXACT []
+synonym: "HRH4" EXACT []
+synonym: "Pfi-013" EXACT []
+synonym: "SP9144" EXACT []
+is_a: PR:000001424 ! H3/H4 histamine receptor
+
+[Term]
+id: PR:000001579
+name: delta-type opioid receptor
+def: "An opioid receptor that is a translation product of the human OPRD1 gene or a 1:1 ortholog thereof. The preferred ligands are enkephalins." []
+synonym: "D-OR-1" EXACT []
+synonym: "delta-opioid receptor" EXACT []
+synonym: "DOR-1" EXACT []
+synonym: "K56" EXACT []
+synonym: "MSL-2" RELATED []
+synonym: "OPRD" RELATED []
+synonym: "OPRD1" EXACT []
+is_a: PR:000001497 ! opioid receptor
+
+[Term]
+id: PR:000001590
+name: kappa-type opioid receptor
+def: "An opioid receptor that is a translation product of the human OPRK1 gene or a 1:1 ortholog thereof. The preferred ligand is dynorphin." []
+synonym: "K-OR-1" EXACT []
+synonym: "kappa-opioid receptor" EXACT []
+synonym: "KOR-1" EXACT []
+synonym: "MSL-1" RELATED []
+synonym: "OPRK" RELATED []
+synonym: "OPRK1" EXACT []
+is_a: PR:000001497 ! opioid receptor
+
+[Term]
+id: PR:000001596
+name: lutropin-choriogonadotropic hormone receptor
+def: "A glycoprotein hormone receptor that is a translation product of the human LHCGR gene or a 1:1 ortholog thereof. The preferred ligands are lutropin (luteinizing hormone) and choriogonadotropin (choriogonadotropic hormone)." []
+synonym: "LCGR" RELATED []
+synonym: "LGR2" RELATED []
+synonym: "LH/CG-R" EXACT []
+synonym: "LHCGR" EXACT []
+synonym: "LHR" EXACT []
+synonym: "LHRHR" RELATED []
+synonym: "LSH-R" EXACT []
+synonym: "luteinizing hormone receptor" EXACT []
+synonym: "lutropin/choriogonadotropin receptor" EXACT []
+is_a: PR:000001463 ! glycoprotein hormone receptor
+
+[Term]
+id: PR:000001612
+name: mu-type opioid receptor
+def: "An opioid receptor that is a translation product of the human OPRM1 gene or a 1:1 ortholog thereof. The preferred ligands are beta-endorphin and enkephalins." []
+synonym: "M-OR-1" EXACT []
+synonym: "MOP" EXACT []
+synonym: "Mor" RELATED []
+synonym: "MOR-1" EXACT []
+synonym: "MOR1" RELATED []
+synonym: "mu opiate receptor" EXACT []
+synonym: "mu opioid receptor" EXACT []
+synonym: "mu-opioid receptor" EXACT []
+synonym: "Oprm" RELATED []
+synonym: "OPRM1" EXACT []
+is_a: PR:000001497 ! opioid receptor
+
+[Term]
+id: PR:000001631
+name: nociceptin receptor
+def: "An opioid receptor that is a translation product of the human OPRL1 gene or a 1:1 ortholog thereof. The preferred ligand is nociceptin." []
+synonym: "K3 opiate receptor" EXACT []
+synonym: "kappa-type 3 opioid receptor" EXACT []
+synonym: "KOR-3" EXACT []
+synonym: "OOR" RELATED []
+synonym: "Oprl" RELATED []
+synonym: "OPRL1" EXACT []
+synonym: "ORGC" EXACT []
+synonym: "ORL1" RELATED []
+synonym: "orphanin FQ receptor" EXACT []
+is_a: PR:000001497 ! opioid receptor
+
+[Term]
+id: PR:000001635
+name: oxytocin receptor
+def: "A vasopressin/oxytocin receptor that is a translation product of the human OXTR gene or a 1:1 ortholog thereof. The preferred ligand is oxytocin." []
+synonym: "OT-R" EXACT []
+synonym: "OXTR" EXACT []
+is_a: PR:000001562 ! vasopressin/oxytocin receptor
+
+[Term]
+id: PR:000001655
+name: prostacyclin receptor
+def: "A prostanoid receptor that is a translation product of the human PTGIR gene or a 1:1 ortholog thereof. The preferred ligand is prostacyclin (prostaglandin I2, PGI2). This receptor is widely distributed in blood platelets, vascular smooth muscle and nerve cells." []
+synonym: "PGI receptor" EXACT []
+synonym: "PGI2 receptor" EXACT []
+synonym: "PRIPR" RELATED []
+synonym: "prostaglandin I2 receptor" EXACT []
+synonym: "prostanoid IP receptor" EXACT []
+synonym: "PTGIR" EXACT []
+is_a: PR:000001549 ! prostanoid receptor
+
+[Term]
+id: PR:000001656
+name: prostaglandin D2 receptor
+def: "A prostanoid receptor that is a translation product of the human PTGDR gene or a 1:1 ortholog thereof. The preferred ligand is prostaglandin D2 (PGD2). This receptor is found mainly in blood platelets, vascular smooth muscle, and nervous tissue. It is the least upiquitous of the prostanoid receptors, almost always occurring in association with other prostanoid receptor types." []
+synonym: "PGD receptor" EXACT []
+synonym: "PGD2 receptor" EXACT []
+synonym: "prostanoid DP receptor" EXACT []
+synonym: "PTGDR" EXACT []
+is_a: PR:000001549 ! prostanoid receptor
+
+[Term]
+id: PR:000001657
+name: prostaglandin E2 receptor EP1 subtype
+def: "A prostanoid receptor that is a translation product of the human PTGER1 gene or a 1:1 ortholog thereof. The preferred ligand is prostaglandin E2 (PGE2). This receptor has limited expression, although it is more evident in rodents than in other mammals." []
+synonym: "PGE receptor EP1 subtype" EXACT []
+synonym: "PGE2 receptor EP1 subtype" EXACT []
+synonym: "prostaglandin E2 receptor EP1" EXACT []
+synonym: "prostanoid EP1 receptor" EXACT []
+synonym: "PTGER1" EXACT []
+synonym: "Ptgerep1" RELATED []
+is_a: PR:000001549 ! prostanoid receptor
+
+[Term]
+id: PR:000001658
+name: prostaglandin E2 receptor EP2 subtype
+def: "A prostanoid receptor that is a translation product of the human PTGER2 gene or a 1:1 ortholog thereof. The preferred ligand is prostaglandin E2 (PGE2). This receptor is expressed mediates various effects, including relaxation of vascular smooth muscles, nonacid secretion from epithelial cells, inhibition of mediator release from mast cells and basophils, and activation of sensory afferent nerves." []
+synonym: "PGE receptor EP2 subtype" EXACT []
+synonym: "PGE2 receptor EP2 subtype" EXACT []
+synonym: "prostaglandin E2 receptor EP2" EXACT []
+synonym: "prostanoid EP2 receptor" EXACT []
+synonym: "PTGER2" EXACT []
+synonym: "Ptgerep2" RELATED []
+is_a: PR:000001549 ! prostanoid receptor
+
+[Term]
+id: PR:000001659
+name: prostaglandin E2 receptor EP3 subtype
+def: "A prostanoid receptor that is a translation product of the human PTGER3 gene or a 1:1 ortholog thereof. The preferred ligand is prostaglandin E2 (PGE2). This receptor is the most ubiquitous of the prostaglandin E2 receptors, mediating contraction of gastrointestinal, uterine, and vascular smooth muscle, inhibition of neurotransmitter release from autonomic nerves, inhibition of lipolysis in adipocytes, inhibition of acid secretion from gastric mucosa, and inhibition of water reabsorption in kidney." []
+synonym: "PGE receptor EP3 subtype" EXACT []
+synonym: "PGE2 receptor EP3 subtype" EXACT []
+synonym: "PGE2-R" EXACT []
+synonym: "prostaglandin E2 receptor EP3" EXACT []
+synonym: "prostanoid EP3 receptor" EXACT []
+synonym: "PTGER3" EXACT []
+synonym: "Ptgerep3" RELATED []
+is_a: PR:000001549 ! prostanoid receptor
+
+[Term]
+id: PR:000001660
+name: prostaglandin F2-alpha receptor
+def: "A prostanoid receptor that is a translation product of the human PTGFR gene or a 1:1 ortholog thereof. The preferred ligand is prostaglandin F2a. This receptor is particularly prevalent in the corpus luteum, but is expressed in other tissues also." []
+synonym: "PGF receptor" EXACT []
+synonym: "PGF2-alpha receptor" EXACT []
+synonym: "prostanoid FP receptor" EXACT []
+synonym: "PTGFR" EXACT []
+is_a: PR:000001549 ! prostanoid receptor
+
+[Term]
+id: PR:000001661
+name: proteinase-activated receptor 1
+def: "A proteinase-activated receptor that is a translation product of the human F2R gene or a 1:1 ortholog thereof. It is activated by thrombin, which cleaves the mature peptide, exposing a new amino end. The new N-terminal residues act as a tethered ligand that induces activity." []
+synonym: "CF2R" RELATED []
+synonym: "coagulation factor II receptor" EXACT []
+synonym: "F2R" EXACT []
+synonym: "PAR-1" EXACT []
+synonym: "PAR1" RELATED []
+synonym: "thrombin receptor" EXACT []
+synonym: "TR" RELATED []
+is_a: PR:000001550 ! proteinase-activated receptor
+
+[Term]
+id: PR:000001676
+name: thromboxane A2 receptor
+def: "A prostanoid receptor that is a translation product of the human TBXA2R gene or a 1:1 ortholog thereof. The preferred ligand is thromboxane A2. This receptor is found mainly in vascular smooth muscle, where it mediates vasoconstriction, in platelets, where it mediates aggregation, and in airway smooth muscle." []
+synonym: "prostanoid TP receptor" EXACT []
+synonym: "TBXA2R" EXACT []
+synonym: "TXA2-R" EXACT []
+is_a: PR:000001549 ! prostanoid receptor
+
+[Term]
+id: PR:000001753
+name: transcription factor NF-kappa-B subunit
+def: "A protein with a core domain composition consisting of a Rel homology domain (RHD) (Pfam:PF00554), an IPT/TIG domain (Pfam:PF01833), six copies of the Ankyrin repeat (Pfam:PF00023), a Death domain (Pfam:PF00531) and a C-terminal PEST region." []
+synonym: "transcription factor NF-kappa-B" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001808
+name: C/C-C motif small inducible chemokine
+def: "A protein with core architecture consisting of a Small cytokines (intecrine/chemokine), interleukin-8 like (Pfam:PF00048) domain." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001810
+name: CSF-1/PDGF receptor-type tyrosine-protein kinase
+def: "A protein with core architecture consisting of asignal sequence, 5 Ig-like domains, followed by a transmembrane sequence, followed by a Protein tyrosine kinase domain (Pfam:PF07714). However, only 1-3 of the Ig domains are detected by the Pfam HMMs in most of the sequences. Pfam:PF00047 is most common, but other members of the Ig domain clan, Pfam:PF07679 and Pfam:PF07686 can be identified instead. The fourth Ig domain lacks the disulfide-bonded cysteines." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001812
+name: EGF receptor type tyrosine-protein kinase
+def: "A protein with core architecture consisting of a signal sequence, a Receptor L domain (Pfam:PF01030), a Furin-like cysteine rich region (Pfam:PF00757), another Receptor L domain, a transmembrane domain, and a Protein tyrosine kinase domain (Pfam:PF07714), that may be followed by up to two YLP motifs (Pfam:PF02757)." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001816
+name: HGF/MSP receptor type tyrosine-protein kinase
+def: "A protein with core architecture consisting of a signal sequence, followed by a Sema domain (Pfam:PF01403), three IPT/TIG domains (Pfam:PF01833), a transmembrane region, and a Protein tyrosine kinase domain (Pfam:PF07714)." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001855
+name: fractalkine
+def: "A protein that is a translation product of the human CX3CL1 gene or a 1:1 ortholog thereof." []
+synonym: "C-X3-C motif chemokine 1" EXACT []
+synonym: "Cx3c" RELATED []
+synonym: "CX3C membrane-anchored chemokine" EXACT []
+synonym: "CX3CL1" EXACT []
+synonym: "FKN" RELATED []
+synonym: "neurotactin" EXACT []
+synonym: "NTT" RELATED []
+synonym: "SCYD1" RELATED []
+synonym: "small-inducible cytokine D1" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001876
+name: leukemia inhibitory factor receptor
+def: "A protein that is a translation product of the human LIFR gene or a 1:1 ortholog thereof." []
+synonym: "CD118" EXACT []
+synonym: "D-factor/LIF receptor" EXACT []
+synonym: "LIF receptor" EXACT []
+synonym: "LIF-R" EXACT []
+synonym: "LIFR" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001887
+name: melanotransferrin
+def: "A protein that is a translation product of the human MFI2 gene or a 1:1 ortholog thereof." []
+synonym: "CD228" EXACT []
+synonym: "MAP97" RELATED []
+synonym: "melanoma-associated antigen p97" EXACT []
+synonym: "membrane-bound transferrin-like protein p97" EXACT []
+synonym: "MFI2" EXACT []
+synonym: "MTf" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001902
+name: nuclear receptor ROR-gamma
+def: "A protein that is a translation product of the human RORC gene or a 1:1 ortholog thereof." []
+synonym: "NR1F3" RELATED []
+synonym: "nuclear receptor RZR-gamma" EXACT []
+synonym: "nuclear receptor subfamily 1 group F member 3" EXACT []
+synonym: "retinoid-related orphan receptor-gamma" EXACT []
+synonym: "RORC" EXACT []
+synonym: "RORG" RELATED []
+synonym: "RZRG" RELATED []
+synonym: "Thor" RELATED []
+synonym: "thymus orphan receptor" EXACT []
+synonym: "TOR" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001926
+name: semaphorin
+def: "A protein with core architecture consisting of a signal sequence,a Sema domain (Pfam:PF01403), a Plexin repeat (Pfam:PF01437), and an Ig-like domain (Pfam:PF00047, Pfam:PF07686, or Pfam:PF07679)." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001946
+name: tumor necrosis factor ligand superfamily member 10/11
+def: "A protein with core architecture consisting of a fairly small cytoplasmic region, a transmembrane domain, and an extracellular domain containing a TNF(Tumour Necrosis Factor) family domain (Pfam:PF00229)." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001951
+name: tumor necrosis factor receptor superfamily member 10A/B
+def: "A death receptor with core architecture consisting of a signal sequence, an extracellular region containing three TNFR/NGFR cysteine-rich region domains (Pfam:PF00020), a transmembrane region, and an intracellular region containing a Death domain (Pfam:PF00531). There are two genes in human, TNFRSF10A and TNFRSF10B, more closely related to each other than to mouse TNFRSF10B." []
+is_a: PR:000021999 ! death receptor
+
+[Term]
+id: PR:000001971
+name: vascular endothelial growth factor receptor
+def: "A protein with core architecture consisting of a signal sequence, followed by 7 Ig-like domains (Pfam:PF00047, Pfam:PF07679, or Pfam:PF07686), a transmembrane region, and a cytoplasmic Protein tyrosine kinase domain." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000001991
+name: C-C motif chemokine 19
+def: "A C/C-C motif small inducible chemokine that is a translation product of the human CCL19 gene or a 1:1 ortholog thereof." []
+synonym: "beta chemokine exodus-3" EXACT []
+synonym: "CCL19" EXACT []
+synonym: "CK beta-11" EXACT []
+synonym: "EBI1 ligand chemokine" EXACT []
+synonym: "ELC" EXACT []
+synonym: "epstein-Barr virus-induced molecule 1 ligand chemokine" EXACT []
+synonym: "macrophage inflammatory protein 3 beta" EXACT []
+synonym: "MIP-3-beta" EXACT []
+synonym: "MIP3B" RELATED []
+synonym: "SCYA19" RELATED []
+synonym: "small-inducible cytokine A19" EXACT []
+is_a: PR:000001808 ! C/C-C motif small inducible chemokine
+
+[Term]
+id: PR:000001993
+name: C-C motif chemokine 21
+def: "A C/C-C motif small inducible chemokine that is a translation product of the human CCL21 gene or a 1:1 ortholog thereof." []
+synonym: "6Ckine" BROAD []
+synonym: "beta chemokine exodus-2" EXACT []
+synonym: "CCL21" EXACT []
+synonym: "Ccl21b" RELATED []
+synonym: "Ccl21c" RELATED []
+synonym: "SCYA21" RELATED []
+synonym: "Scya21b" RELATED []
+synonym: "Scya21c" RELATED []
+synonym: "secondary lymphoid-tissue chemokine" EXACT []
+synonym: "SLC" EXACT []
+synonym: "small-inducible cytokine A21" EXACT []
+synonym: "small-inducible cytokine A21a" BROAD []
+synonym: "small-inducible cytokine A21b" BROAD []
+synonym: "small-inducible cytokine A21c" BROAD []
+synonym: "TCA4" BROAD []
+synonym: "thymus-derived chemotactic agent 4" BROAD []
+is_a: PR:000001808 ! C/C-C motif small inducible chemokine
+
+[Term]
+id: PR:000002038
+name: eotaxin-like cytokine
+def: "A C/C-C motif small inducible chemokine that is a member of a subfamily that includes eotaxin." []
+is_a: PR:000001808 ! C/C-C motif small inducible chemokine
+
+[Term]
+id: PR:000002065
+name: mast/stem cell growth factor receptor
+def: "A CSF-1/PDGF receptor-type tyrosine-protein kinase that is a translation product of the human KIT gene or a 1:1 ortholog thereof." []
+synonym: "CD117" EXACT []
+synonym: "KIT" EXACT []
+synonym: "proto-oncogene c-Kit" EXACT []
+synonym: "SCFR" EXACT []
+synonym: "Sl" RELATED []
+synonym: "tyrosine-protein kinase Kit" EXACT []
+is_a: PR:000001810 ! CSF-1/PDGF receptor-type tyrosine-protein kinase
+
+[Term]
+id: PR:000002094
+name: C-C motif chemokine 5
+def: "A C/C-C motif small inducible chemokine that is a translation product of the human CCL5 gene or a 1:1 ortholog thereof." []
+synonym: "CCL5" EXACT []
+synonym: "D17S136E" RELATED []
+synonym: "EoCP" EXACT []
+synonym: "eosinophil chemotactic cytokine" RELATED []
+synonym: "RANTES" EXACT []
+synonym: "SCYA5" RELATED []
+synonym: "SIS-delta" EXACT []
+synonym: "small inducible cytokine A5" EXACT []
+synonym: "small-inducible cytokine A5" EXACT []
+synonym: "T cell-specific protein P228" EXACT []
+synonym: "T-cell-specific protein RANTES" EXACT []
+synonym: "TCP228" EXACT []
+is_a: PR:000001808 ! C/C-C motif small inducible chemokine
+
+[Term]
+id: PR:000002106
+name: tumor necrosis factor ligand superfamily member 10
+def: "A tumor necrosis factor ligand superfamily member 10/11 that is a translation product of the human TNFSF10 gene or a 1:1 ortholog thereof." []
+synonym: "apo-2 ligand" EXACT []
+synonym: "apo-2L" EXACT []
+synonym: "APO2L" RELATED []
+synonym: "CD253" EXACT []
+synonym: "protein TRAIL" EXACT []
+synonym: "TNF-related apoptosis-inducing ligand" EXACT []
+synonym: "TNFSF10" EXACT []
+synonym: "TRAIL" RELATED []
+is_a: PR:000001946 ! tumor necrosis factor ligand superfamily member 10/11
+
+[Term]
+id: PR:000002107
+name: tumor necrosis factor ligand superfamily member 11
+def: "A tumor necrosis factor ligand superfamily member 10/11 that is a translation product of the human TNFSF11 gene or a 1:1 ortholog thereof." []
+synonym: "CD254" EXACT []
+synonym: "ODF" EXACT []
+synonym: "OPGL" EXACT []
+synonym: "osteoclast differentiation factor" EXACT []
+synonym: "osteoprotegerin ligand" EXACT []
+synonym: "RANKL" EXACT []
+synonym: "receptor activator of nuclear factor kappa-B ligand" EXACT []
+synonym: "TNF-related activation-induced cytokine" EXACT []
+synonym: "TNFSF11" EXACT []
+synonym: "TRANCE" EXACT []
+is_a: PR:000001946 ! tumor necrosis factor ligand superfamily member 10/11
+
+[Term]
+id: PR:000002108
+name: tumor necrosis factor receptor superfamily member 10A
+def: "A tumor necrosis factor receptor superfamily member 10A/B that is a translation product of the human TNFRSF10A gene or a 1:1 ortholog thereof. No mouse gene has been assigned this name." []
+synonym: "APO2" RELATED []
+synonym: "CD261" EXACT []
+synonym: "death receptor 4" EXACT []
+synonym: "DR4" RELATED []
+synonym: "TNF-related apoptosis-inducing ligand receptor 1" EXACT []
+synonym: "TNFRSF10A" EXACT []
+synonym: "TRAIL receptor 1" EXACT []
+synonym: "TRAIL-R1" EXACT []
+synonym: "TRAILR1" RELATED []
+is_a: PR:000001951 ! tumor necrosis factor receptor superfamily member 10A/B
+
+[Term]
+id: PR:000002109
+name: tumor necrosis factor receptor superfamily member 10B
+def: "A tumor necrosis factor receptor superfamily member 10A/B that is a translation product of the human TNFRSF10B gene or a 1:1 ortholog thereof." []
+synonym: "CD262" EXACT []
+synonym: "death receptor 5" EXACT []
+synonym: "DR5" RELATED []
+synonym: "KILLER" RELATED []
+synonym: "MK" RELATED []
+synonym: "TNF-related apoptosis-inducing ligand receptor 2" EXACT []
+synonym: "TNFRSF10B" EXACT []
+synonym: "TRAIL receptor 2" EXACT []
+synonym: "TRAIL-R2" EXACT []
+synonym: "TRAILR2" RELATED []
+synonym: "TRICK2" RELATED []
+synonym: "ZTNFR9" RELATED []
+is_a: PR:000001951 ! tumor necrosis factor receptor superfamily member 10A/B
+
+[Term]
+id: PR:000002112
+name: vascular endothelial growth factor receptor 2
+def: "A vascular endothelial growth factor receptor that is a translation product of the human KDR gene or a 1:1 ortholog thereof." []
+synonym: "CD309" EXACT []
+synonym: "fetal liver kinase 1" EXACT []
+synonym: "FLK-1" EXACT []
+synonym: "FLK1" RELATED []
+synonym: "KDR" EXACT []
+synonym: "kinase insert domain receptor" EXACT []
+synonym: "kinase NYK" EXACT []
+synonym: "protein-tyrosine kinase receptor flk-1" EXACT []
+synonym: "VEGFR-2" EXACT []
+is_a: PR:000001971 ! vascular endothelial growth factor receptor
+
+[Term]
+id: PR:000002122
+name: C-C motif chemokine 2
+def: "An eotaxin-like cytokine that is a translation product of the human CCL2 gene or a 1:1 ortholog thereof." []
+synonym: "CCL2" EXACT []
+synonym: "HC11" EXACT []
+synonym: "Je" RELATED []
+synonym: "MCAF" EXACT []
+synonym: "MCP-1" EXACT []
+synonym: "MCP1" RELATED []
+synonym: "monocyte chemoattractant protein 1" EXACT []
+synonym: "monocyte chemotactic and activating factor" EXACT []
+synonym: "monocyte chemotactic protein 1" EXACT []
+synonym: "monocyte secretory protein JE" EXACT []
+synonym: "platelet-derived growth factor-inducible protein JE" EXACT []
+synonym: "SCYA2" RELATED []
+synonym: "small-inducible cytokine A2" EXACT []
+is_a: PR:000002038 ! eotaxin-like cytokine
+
+[Term]
+id: PR:000002125
+name: C-C motif chemokine 7
+def: "An eotaxin-like cytokine that is a translation product of the human CCL7 gene or a 1:1 ortholog thereof." []
+synonym: "CCL7" EXACT []
+synonym: "Fic" RELATED []
+synonym: "intercrine/chemokine MARC" EXACT []
+synonym: "MCP-3" EXACT []
+synonym: "MCP3" RELATED []
+synonym: "monocyte chemoattractant protein 3" EXACT []
+synonym: "monocyte chemotactic protein 3" EXACT []
+synonym: "NC28" EXACT []
+synonym: "protein FIC" EXACT []
+synonym: "SCYA6" RELATED []
+synonym: "SCYA7" RELATED []
+synonym: "small-inducible cytokine A7" EXACT []
+is_a: PR:000002038 ! eotaxin-like cytokine
+
+[Term]
+id: PR:000002190
+name: RAC-alpha serine/threonine-protein kinase
+def: "An AKT kinase that is a translation product of the human AKT1 gene or a 1:1 ortholog thereof." []
+synonym: "Akt" RELATED []
+synonym: "AKT1" EXACT []
+synonym: "AKT1 kinase" EXACT []
+synonym: "PKB" BROAD []
+synonym: "protein kinase B" EXACT []
+synonym: "proto-oncogene c-Akt" EXACT []
+synonym: "RAC" RELATED []
+synonym: "RAC-PK-alpha" EXACT []
+synonym: "thymoma viral proto-oncogene" EXACT []
+is_a: PR:000029189 ! AKT kinase
+
+[Term]
+id: PR:000002198
+name: catenin beta-1
+def: "A protein that is a translation product of the human CTNNB1 gene or a 1:1 ortholog thereof." []
+synonym: "beta-catenin" EXACT []
+synonym: "Catnb" RELATED []
+synonym: "CTNNB" RELATED []
+synonym: "CTNNB1" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000002201
+name: dynein light chain
+def: "A protein that is a translation product of the human DYNLL1 or DYNLL2 genes, or 1:1 orthologs thereof. The protein is small (89 residues in human and mouse) with core architecture consisting of a Dynein light chain type 1 domain (Pfam:PF01221)." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000002204
+name: lymphotoxin-alpha
+def: "A tumor necrosis factor, TNF-like that is a translation product of the human LTA gene or a 1:1 ortholog thereof." []
+synonym: "LT-alpha" EXACT []
+synonym: "LTA" EXACT []
+synonym: "TNF-beta" EXACT []
+synonym: "TNFB" RELATED []
+synonym: "TNFSF1" RELATED []
+synonym: "tumor necrosis factor ligand superfamily member 1" EXACT []
+is_a: PR:000000033 ! tumor necrosis factor, TNF-like
+
+[Term]
+id: PR:000003035
+name: cellular tumor antigen p53
+def: "A protein that is a translation product of the human TP53 gene or a 1:1 ortholog thereof." []
+synonym: "antigen NY-CO-13" EXACT []
+synonym: "P53" RELATED []
+synonym: "phosphoprotein p53" EXACT []
+synonym: "TP53" EXACT []
+synonym: "Trp53" RELATED []
+synonym: "tumor suppressor p53" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000003112
+name: NFAT protein
+def: "A protein that contains a Rel homology domain (RHD) (Pfam:PF00554) followed by an IPT/TIG domain (Pfam:PF01833)." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000003113
+name: nuclear factor of activated T-cells, cytoplasmic 1
+def: "An NFAT protein that is a translation product of the human NFATC1 gene or a 1:1 ortholog thereof." []
+synonym: "NF-ATc" EXACT []
+synonym: "NF-ATc1" EXACT []
+synonym: "NFAT transcription complex cytosolic component" EXACT []
+synonym: "NFAT2" RELATED []
+synonym: "NFATc" EXACT []
+synonym: "NFATC1" EXACT []
+synonym: "NFATc1" EXACT []
+is_a: PR:000003112 ! NFAT protein
+
+[Term]
+id: PR:000003171
+name: IGFBP-related protein
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000003172
+name: connective tissue growth factor
+def: "An IGFBP-related protein that is a translation product of the human CTGF gene or a 1:1 ortholog thereof." []
+synonym: "CCN family member 2" EXACT []
+synonym: "CCN2" RELATED []
+synonym: "CTGF" EXACT []
+synonym: "Fisp-12" RELATED []
+synonym: "Fisp12" RELATED []
+synonym: "HCS24" RELATED []
+synonym: "hypertrophic chondrocyte-specific protein 24" EXACT []
+synonym: "IBP-8" EXACT []
+synonym: "IGF-binding protein 8" EXACT []
+synonym: "IGFBP-8" EXACT []
+synonym: "IGFBP8" RELATED []
+synonym: "insulin-like growth factor-binding protein 8" EXACT []
+synonym: "protein FISP-12" EXACT []
+is_a: PR:000003171 ! IGFBP-related protein
+
+[Term]
+id: PR:000003237
+name: 14-3-3 protein
+def: "A protein that is a stand alone version of the 14-3-3 protein (Pfam:PF00244) domain." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000003425
+name: hsp70 family chaperone
+def: "A protein that is a stand alone version of the Hsp70 protein (Pfam:PF00012) domain, which comprises two major regions: an N-terminal ATP-binding domain and a C-terminal substrate-binding domain." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000003652
+name: acrosin
+def: "A protein that is a translation product of the human ACR gene or a 1:1 ortholog thereof." []
+synonym: "ACR" EXACT []
+synonym: "ACRS" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000003761
+name: pituitary adenylate cyclase-activating polypeptide
+def: "A protein that is a translation product of the human ADCYAP1 gene or a 1:1 ortholog thereof." []
+synonym: "ADCYAP1" EXACT []
+synonym: "PACAP" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000003777
+name: adiponectin
+def: "A protein that is a translation product of the human ADIPOQ gene or a 1:1 ortholog thereof." []
+synonym: "30 kDa adipocyte complement-related protein" EXACT []
+synonym: "ACDC" RELATED []
+synonym: "ACRP30" EXACT []
+synonym: "adipocyte complement-related 30 kDa protein" EXACT []
+synonym: "adipocyte, C1q and collagen domain-containing protein" EXACT []
+synonym: "adipocyte-specific protein AdipoQ" EXACT []
+synonym: "ADIPOQ" EXACT []
+synonym: "adipose most abundant gene transcript 1 protein" EXACT []
+synonym: "apM-1" EXACT []
+synonym: "APM1" RELATED []
+synonym: "GBP28" RELATED []
+synonym: "gelatin-binding protein" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000003858
+name: aryl hydrocarbon receptor
+def: "A protein that is a translation product of the human AHR gene or a 1:1 ortholog thereof." []
+synonym: "Ah receptor" EXACT []
+synonym: "AHR" EXACT []
+synonym: "AhR" EXACT []
+synonym: "bHLHe76" EXACT []
+synonym: "class E basic helix-loop-helix protein 76" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000004126
+name: serum amyloid P-component
+def: "A protein that is a translation product of the human APCS gene or a 1:1 ortholog thereof." []
+synonym: "9.5S alpha-1-glycoprotein" EXACT []
+synonym: "APCS" EXACT []
+synonym: "PTX2" RELATED []
+synonym: "SAP" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000004135
+name: apelin
+def: "A protein that is a translation product of the human APLN gene or a 1:1 ortholog thereof." []
+synonym: "APEL" RELATED []
+synonym: "APJ endogenous ligand" EXACT []
+synonym: "APLN" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000004140
+name: apolipoprotein A-I
+def: "A protein that is a translation product of the human APOA1 gene or a 1:1 ortholog thereof." []
+synonym: "apo-AI" EXACT []
+synonym: "ApoA-I" EXACT []
+synonym: "APOA1" EXACT []
+synonym: "apolipoprotein A1" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000004168
+name: amyloid beta A4 protein
+def: "A protein that is a translation product of the human APP gene or a 1:1 ortholog thereof." []
+synonym: "A4" RELATED []
+synonym: "ABPP" EXACT []
+synonym: "AD1" RELATED []
+synonym: "AG" EXACT []
+synonym: "alzheimer disease amyloid A4 protein homolog" EXACT []
+synonym: "alzheimer disease amyloid protein" EXACT []
+synonym: "amyloidogenic glycoprotein" EXACT []
+synonym: "APP" EXACT []
+synonym: "APPI" EXACT []
+synonym: "cerebral vascular amyloid peptide" EXACT []
+synonym: "CVAP" EXACT []
+synonym: "PN-II" EXACT []
+synonym: "PreA4" EXACT []
+synonym: "protease nexin-II" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000004191
+name: androgen receptor
+def: "A protein that is a translation product of the human AR gene or a 1:1 ortholog thereof." []
+synonym: "AR" EXACT []
+synonym: "DHTR" RELATED []
+synonym: "dihydrotestosterone receptor" EXACT []
+synonym: "NR3C4" RELATED []
+synonym: "nuclear receptor subfamily 3 group C member 4" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000004580
+name: beta-2-microglobulin
+def: "A protein that is a translation product of the human B2M gene or a 1:1 ortholog thereof." []
+synonym: "B2M" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000004716
+name: brain-derived neurotrophic factor
+def: "A neurotrophin that is a translation product of the human BDNF gene or a 1:1 ortholog thereof." []
+synonym: "abrineurin" EXACT []
+synonym: "BDNF" EXACT []
+is_a: PR:000021998 ! neurotrophin
+
+[Term]
+id: PR:000004972
+name: calcitonin receptor
+def: "A secretin-like G-protein coupled receptor that is a translation product of the human CALCR gene or a 1:1 ortholog thereof." []
+synonym: "CALCR" EXACT []
+synonym: "CT-R" EXACT []
+is_a: PR:000001095 ! secretin-like G-protein coupled receptor
+
+[Term]
+id: PR:000004974
+name: caldesmon
+def: "A protein that is a translation product of the human CALD1 gene or a 1:1 ortholog thereof." []
+synonym: "CAD" RELATED []
+synonym: "CALD1" EXACT []
+synonym: "CDM" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000004978
+name: calmodulin
+def: "A protein that is a translation product of the human CALM1, CALM2, or CALM3 genes, 1:1 orthologs thereof, or a semi-ortholog thereof." []
+synonym: "CALM" EXACT []
+synonym: "CALML2" RELATED []
+synonym: "CaM" EXACT []
+synonym: "CAM3" NARROW []
+synonym: "CAMC" RELATED []
+synonym: "CAMIII" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000005110
+name: cholecystokinin
+def: "A protein that is a translation product of the human CCK gene or a 1:1 ortholog thereof." []
+synonym: "CCK" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000005388
+name: glycoprotein hormones alpha chain
+def: "A protein that is a translation product of the human CGA gene or a 1:1 ortholog thereof." []
+synonym: "anterior pituitary glycoprotein hormones common subunit alpha" EXACT []
+synonym: "CG-alpha" EXACT []
+synonym: "CGA" EXACT []
+synonym: "choriogonadotropin alpha chain" EXACT []
+synonym: "chorionic gonadotrophin subunit alpha" EXACT []
+synonym: "follicle-stimulating hormone alpha chain" EXACT []
+synonym: "follitropin alpha chain" EXACT []
+synonym: "FSH-alpha" EXACT []
+synonym: "LSH-alpha" EXACT []
+synonym: "luteinizing hormone alpha chain" EXACT []
+synonym: "lutropin alpha chain" EXACT []
+synonym: "thyroid-stimulating hormone alpha chain" EXACT []
+synonym: "thyrotropin alpha chain" EXACT []
+synonym: "TSH-alpha" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000005663
+name: ciliary neurotrophic factor
+def: "A protein that is a translation product of the human CNTF gene or a 1:1 ortholog thereof." []
+synonym: "CNTF" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000005716
+name: collagen type IV alpha-3-binding protein
+def: "A protein that is a translation product of the human COL4A3BP gene or a 1:1 ortholog thereof." []
+synonym: "ceramide transfer protein" EXACT []
+synonym: "CERT" RELATED []
+synonym: "COL4A3BP" EXACT []
+synonym: "goodpasture antigen-binding protein" EXACT []
+synonym: "GPBP" EXACT []
+synonym: "StAR-related lipid transfer protein 11" EXACT []
+synonym: "StARD11" EXACT []
+synonym: "START domain-containing protein 11" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000005869
+name: corticotropin-releasing factor receptor 1
+def: "A secretin-like G-protein coupled receptor that is a translation product of the human CRHR1 gene or a 1:1 ortholog thereof." []
+synonym: "corticotropin-releasing hormone receptor 1" EXACT []
+synonym: "CRF-R-1" EXACT []
+synonym: "CRF-R1" EXACT []
+synonym: "CRFR" RELATED []
+synonym: "CRFR-1" EXACT []
+synonym: "CRFR1" RELATED []
+synonym: "CRH-R-1" EXACT []
+synonym: "CRH-R1" EXACT []
+synonym: "CRHR" RELATED []
+synonym: "CRHR1" EXACT []
+is_a: PR:000001095 ! secretin-like G-protein coupled receptor
+
+[Term]
+id: PR:000005870
+name: corticotropin-releasing factor receptor 2
+def: "A secretin-like G-protein coupled receptor that is a translation product of the human CRHR2 gene or a 1:1 ortholog thereof." []
+synonym: "corticotropin-releasing hormone receptor 2" EXACT []
+synonym: "CRF-R-2" EXACT []
+synonym: "CRF-R2" EXACT []
+synonym: "CRF-RB" EXACT []
+synonym: "CRF2R" RELATED []
+synonym: "CRFR-2" EXACT []
+synonym: "CRH-R-2" EXACT []
+synonym: "CRH-R2" EXACT []
+synonym: "CRH2R" RELATED []
+synonym: "CRHR2" EXACT []
+is_a: PR:000001095 ! secretin-like G-protein coupled receptor
+
+[Term]
+id: PR:000005931
+name: granulocyte-macrophage colony-stimulating factor
+def: "A protein that is a translation product of the human CSF2 gene or a 1:1 ortholog thereof." []
+synonym: "colony-stimulating factor" EXACT []
+synonym: "CSF" EXACT []
+synonym: "CSF2" EXACT []
+synonym: "Csfgm" RELATED []
+synonym: "GM-CSF" EXACT []
+synonym: "GMCSF" RELATED []
+synonym: "molgramostin" EXACT []
+synonym: "sargramostim" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000005932
+name: granulocyte colony-stimulating factor
+def: "A protein that is a translation product of the human CSF3 gene or a 1:1 ortholog thereof." []
+synonym: "CSF3" EXACT []
+synonym: "Csfg" RELATED []
+synonym: "filgrastim" EXACT []
+synonym: "G-CSF" EXACT []
+synonym: "GCSF" RELATED []
+synonym: "lenograstim" EXACT []
+synonym: "pluripoietin" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000006013
+name: catenin delta-2
+def: "A protein that is a translation product of the human CTNND2 gene or a 1:1 ortholog thereof." []
+synonym: "Catnd2" RELATED []
+synonym: "CTNND2" EXACT []
+synonym: "delta-catenin" EXACT []
+synonym: "GT24" EXACT []
+synonym: "neural plakophilin-related ARM-repeat protein" EXACT []
+synonym: "neurojungin" EXACT []
+synonym: "NPRAP" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000006165
+name: C-C motif chemokine 12
+def: "An eotaxin-like cytokine that is a translation product of the mouse Ccl12 gene or a 1:1 ortholog thereof." []
+synonym: "Ccl12" EXACT []
+synonym: "MCP-1-related chemokine" EXACT []
+synonym: "MCP-5" EXACT []
+synonym: "Mcp5" RELATED []
+synonym: "monocyte chemoattractant protein 5" EXACT []
+synonym: "monocyte chemotactic protein 5" EXACT []
+synonym: "Scya12" RELATED []
+synonym: "small-inducible cytokine A12" EXACT []
+is_a: PR:000002038 ! eotaxin-like cytokine
+
+[Term]
+id: PR:000006267
+name: dystroglycan
+def: "A protein that is a translation product of the human DAG1 gene or a 1:1 ortholog thereof." []
+synonym: "Dag-1" RELATED []
+synonym: "DAG1" EXACT []
+synonym: "dystrophin-associated glycoprotein 1" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000006909
+name: elongation factor 2
+def: "A protein that is a translation product of the human EEF2 gene or a 1:1 ortholog thereof." []
+synonym: "EEF2" EXACT []
+synonym: "EF-2" EXACT []
+synonym: "EF2" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000006928
+name: pro-epidermal growth factor
+def: "A protein that is a translation product of the human EGF gene or a 1:1 ortholog thereof." []
+synonym: "EGF" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000006933
+name: epidermal growth factor receptor
+def: "An EGF receptor type tyrosine-protein kinase that is a translation product of the human EGFR gene or a 1:1 ortholog thereof." []
+synonym: "EGFR" EXACT []
+synonym: "ERBB1" RELATED []
+synonym: "proto-oncogene c-ErbB-1" EXACT []
+synonym: "receptor tyrosine-protein kinase erbB-1" EXACT []
+is_a: PR:000001812 ! EGF receptor type tyrosine-protein kinase
+
+[Term]
+id: PR:000006990
+name: eukaryotic translation initiation factor 4E
+def: "A protein that is a translation product of the human EIF4E gene or a 1:1 ortholog thereof." []
+synonym: "eIF-4E" EXACT []
+synonym: "eIF-4F 25 kDa subunit" EXACT []
+synonym: "EIF4E" EXACT []
+synonym: "eIF4E" EXACT []
+synonym: "EIF4EL1" RELATED []
+synonym: "EIF4F" RELATED []
+synonym: "mRNA cap-binding protein" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007141
+name: erythropoietin
+def: "A protein that is a translation product of the human EPO gene or a 1:1 ortholog thereof." []
+synonym: "EPO" EXACT []
+synonym: "epoetin" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007142
+name: erythropoietin receptor
+def: "A protein that is a translation product of the human EPOR gene or a 1:1 ortholog thereof." []
+synonym: "EPO-R" EXACT []
+synonym: "EPOR" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007204
+name: estrogen receptor
+def: "A protein that is a translation product of the human ESR1 gene or a 1:1 ortholog thereof." []
+synonym: "ER" EXACT []
+synonym: "ER-alpha" EXACT []
+synonym: "ESR" RELATED []
+synonym: "ESR1" EXACT []
+synonym: "Estr" RELATED []
+synonym: "Estra" RELATED []
+synonym: "estradiol receptor" EXACT []
+synonym: "NR3A1" RELATED []
+synonym: "nuclear receptor subfamily 3 group A member 1" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007494
+name: fibroblast growth factor 3
+def: "A protein that is a translation product of the human FGF3 gene or a 1:1 ortholog thereof." []
+synonym: "FGF-3" EXACT []
+synonym: "FGF3" EXACT []
+synonym: "HBGF-3" EXACT []
+synonym: "heparin-binding growth factor 3" EXACT []
+synonym: "Int-2" RELATED []
+synonym: "INT-2 proto-oncogene protein" EXACT []
+synonym: "INT2" RELATED []
+synonym: "proto-oncogene Int-2" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007495
+name: fibroblast growth factor 4
+def: "A protein that is a translation product of the human FGF4 gene or a 1:1 ortholog thereof." []
+synonym: "FGF-4" EXACT []
+synonym: "FGF4" EXACT []
+synonym: "HBGF-4" EXACT []
+synonym: "heparin secretory-transforming protein 1" EXACT []
+synonym: "heparin-binding growth factor 4" EXACT []
+synonym: "HST" BROAD []
+synonym: "HST-1" EXACT []
+synonym: "HSTF-1" EXACT []
+synonym: "HSTF1" RELATED []
+synonym: "K-fibroblast growth factor" EXACT []
+synonym: "Kfgf" RELATED []
+synonym: "KS3" RELATED []
+synonym: "transforming protein KS3" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007496
+name: fibroblast growth factor 5
+def: "A protein that is a translation product of the human FGF5 gene or a 1:1 ortholog thereof." []
+synonym: "FGF-5" EXACT []
+synonym: "FGF5" EXACT []
+synonym: "HBGF-5" EXACT []
+synonym: "heparin-binding growth factor 5" EXACT []
+synonym: "Smag-82" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007497
+name: fibroblast growth factor 6
+def: "A protein that is a translation product of the human FGF6 gene or a 1:1 ortholog thereof." []
+synonym: "FGF-6" EXACT []
+synonym: "FGF6" EXACT []
+synonym: "HBGF-6" EXACT []
+synonym: "heparin secretory-transforming protein 2" EXACT []
+synonym: "heparin-binding growth factor 6" EXACT []
+synonym: "HST-2" EXACT []
+synonym: "HST2" RELATED []
+synonym: "HSTF-2" EXACT []
+synonym: "HSTF2" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007555
+name: filamin-A
+def: "A protein that is a translation product of the human FLNA gene or a 1:1 ortholog thereof." []
+synonym: "ABP-280" EXACT []
+synonym: "actin-binding protein 280" EXACT []
+synonym: "alpha-filamin" EXACT []
+synonym: "endothelial actin-binding protein" EXACT []
+synonym: "filamin-1" EXACT []
+synonym: "FLN" RELATED []
+synonym: "FLN-A" EXACT []
+synonym: "FLN1" RELATED []
+synonym: "FLNA" EXACT []
+synonym: "non-muscle filamin" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007556
+name: filamin-B
+def: "A protein that is a translation product of the human FLNB gene or a 1:1 ortholog thereof." []
+synonym: "ABP-278" EXACT []
+synonym: "ABP-280 homolog" EXACT []
+synonym: "ABP-280-like protein" RELATED []
+synonym: "actin-binding-like protein" BROAD []
+synonym: "beta-filamin" EXACT []
+synonym: "Fh1" EXACT []
+synonym: "filamin homolog 1" EXACT []
+synonym: "filamin-3" EXACT []
+synonym: "FLN-B" EXACT []
+synonym: "FLN1L" RELATED []
+synonym: "FLN3" RELATED []
+synonym: "FLNB" EXACT []
+synonym: "TABP" RELATED []
+synonym: "TAP" RELATED []
+synonym: "thyroid autoantigen" EXACT []
+synonym: "truncated ABP" EXACT []
+synonym: "truncated actin-binding protein" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007557
+name: filamin-C
+def: "A protein that is a translation product of the human FLNC gene or a 1:1 ortholog thereof." []
+synonym: "ABP-280-like protein" RELATED []
+synonym: "ABP-L" EXACT []
+synonym: "ABPL" RELATED []
+synonym: "actin-binding-like protein" BROAD []
+synonym: "filamin-2" EXACT []
+synonym: "FLN-C" EXACT []
+synonym: "FLN2" RELATED []
+synonym: "FLNC" EXACT []
+synonym: "FLNc" EXACT []
+synonym: "gamma-filamin" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007563
+name: vascular endothelial growth factor receptor 1
+def: "A vascular endothelial growth factor receptor that is a translation product of the human FLT1 gene or a 1:1 ortholog thereof." []
+synonym: "embryonic receptor kinase 2" EXACT []
+synonym: "Emrk2" RELATED []
+synonym: "FLT" RELATED []
+synonym: "FLT-1" EXACT []
+synonym: "FLT1" EXACT []
+synonym: "Fms-like tyrosine kinase 1" EXACT []
+synonym: "FRT" RELATED []
+synonym: "tyrosine-protein kinase FRT" EXACT []
+synonym: "tyrosine-protein kinase receptor FLT" EXACT []
+synonym: "vascular permeability factor receptor" EXACT []
+synonym: "VEGFR-1" EXACT []
+is_a: PR:000001971 ! vascular endothelial growth factor receptor
+
+[Term]
+id: PR:000007565
+name: vascular endothelial growth factor receptor 3
+def: "A vascular endothelial growth factor receptor that is a translation product of the human FLT4 gene or a 1:1 ortholog thereof." []
+synonym: "FLT-4" EXACT []
+synonym: "FLT4" EXACT []
+synonym: "Fms-like tyrosine kinase 4" EXACT []
+synonym: "tyrosine-protein kinase receptor FLT4" EXACT []
+synonym: "VEGFR-3" EXACT []
+is_a: PR:000001971 ! vascular endothelial growth factor receptor
+
+[Term]
+id: PR:000007581
+name: fibronectin
+def: "A protein that is a translation product of the human FN1 gene or a 1:1 ortholog thereof." []
+synonym: "CIG" EXACT []
+synonym: "cold-insoluble globulin" EXACT []
+synonym: "FN" EXACT []
+synonym: "FN1" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007719
+name: frizzled-2
+def: "A frizzled-like G-protein coupled receptor that is a translation product of the human FZD2 gene or a 1:1 ortholog thereof." []
+synonym: "frizzled-10" RELATED []
+synonym: "Fz-10" RELATED []
+synonym: "Fz-2" EXACT []
+synonym: "Fz2" EXACT []
+synonym: "Fzd10" RELATED []
+synonym: "FZD2" EXACT []
+synonym: "FzE2" EXACT []
+synonym: "mFz10" EXACT []
+is_a: PR:000001315 ! frizzled-like G-protein coupled receptor
+
+[Term]
+id: PR:000007806
+name: galanin
+def: "A protein that is a translation product of the human GAL gene or a 1:1 ortholog thereof." []
+synonym: "GAL" EXACT []
+synonym: "GAL1" RELATED []
+synonym: "GALN" RELATED []
+synonym: "GLNN" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007856
+name: gastrin
+def: "A protein that is a translation product of the human GAST gene or a 1:1 ortholog thereof." []
+synonym: "GAS" RELATED []
+synonym: "GAST" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007892
+name: glucagon receptor
+def: "A secretin-like G-protein coupled receptor that is a translation product of the human GCGR gene or a 1:1 ortholog thereof." []
+synonym: "GCGR" EXACT []
+synonym: "GL-R" EXACT []
+is_a: PR:000001095 ! secretin-like G-protein coupled receptor
+
+[Term]
+id: PR:000007893
+name: GTP cyclohydrolase 1
+def: "A protein that is a translation product of the human GCH1 gene or a 1:1 ortholog thereof." []
+synonym: "DYT5" RELATED []
+synonym: "GCH" RELATED []
+synonym: "GCH1" EXACT []
+synonym: "GTP cyclohydrolase I" BROAD []
+synonym: "GTP-CH-I" BROAD []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007928
+name: glial cell line-derived neurotrophic factor
+def: "A protein that is a translation product of the human GDNF gene or a 1:1 ortholog thereof." []
+synonym: "astrocyte-derived trophic factor" EXACT []
+synonym: "ATF" EXACT []
+synonym: "GDNF" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007970
+name: growth hormone receptor
+def: "A protein that is a translation product of the human GHR gene or a 1:1 ortholog thereof." []
+synonym: "GH receptor" EXACT []
+synonym: "GHR" EXACT []
+synonym: "somatotropin receptor" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007971
+name: somatoliberin
+def: "A protein that is a translation product of the human GHRH gene or a 1:1 ortholog thereof." []
+synonym: "GHRF" RELATED []
+synonym: "GHRH" EXACT []
+synonym: "GRF" EXACT []
+synonym: "growth hormone-releasing factor" EXACT []
+synonym: "growth hormone-releasing hormone" EXACT []
+synonym: "sermorelin" EXACT []
+synonym: "somatocrinin" EXACT []
+synonym: "somatorelin" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007972
+name: growth hormone-releasing hormone receptor
+def: "A secretin-like G-protein coupled receptor that is a translation product of the human GHRHR gene or a 1:1 ortholog thereof." []
+synonym: "GHRH receptor" EXACT []
+synonym: "GHRHR" EXACT []
+synonym: "GRF receptor" EXACT []
+synonym: "GRFR" EXACT []
+synonym: "growth hormone-releasing factor receptor" EXACT []
+is_a: PR:000001095 ! secretin-like G-protein coupled receptor
+
+[Term]
+id: PR:000007973
+name: appetite-regulating hormone
+def: "A protein that is a translation product of the human GHRL gene or a 1:1 ortholog thereof." []
+synonym: "GHRL" EXACT []
+synonym: "growth hormone secretagogue" EXACT []
+synonym: "growth hormone-releasing peptide" EXACT []
+synonym: "motilin-related peptide" EXACT []
+synonym: "MTLRP" RELATED []
+synonym: "protein M46" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000007988
+name: gastric inhibitory polypeptide receptor
+def: "A secretin-like G-protein coupled receptor that is a translation product of the human GIPR gene or a 1:1 ortholog thereof." []
+synonym: "GIP-R" EXACT []
+synonym: "GIPR" EXACT []
+synonym: "glucose-dependent insulinotropic polypeptide receptor" EXACT []
+is_a: PR:000001095 ! secretin-like G-protein coupled receptor
+
+[Term]
+id: PR:000008476
+name: orexin
+def: "A protein that is a translation product of the human HCRT gene or a 1:1 ortholog thereof." []
+synonym: "HCRT" EXACT []
+synonym: "Hcrt" EXACT []
+synonym: "hypocretin" EXACT []
+synonym: "OX" RELATED []
+synonym: "PPORX" RELATED []
+synonym: "PPOX" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000008534
+name: hepatocyte growth factor
+def: "A protein that is a translation product of the human HGF gene or a 1:1 ortholog thereof." []
+synonym: "hepatopoeitin-A" EXACT []
+synonym: "HGF" EXACT []
+synonym: "HPTA" RELATED []
+synonym: "scatter factor" EXACT []
+synonym: "SF" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000008630
+name: high mobility group protein B1
+def: "A protein that is a translation product of the human HMGB1 gene or a 1:1 ortholog thereof." []
+synonym: "high mobility group protein 1" EXACT []
+synonym: "HMG-1" EXACT []
+synonym: "HMG1" RELATED []
+synonym: "HMGB1" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000008636
+name: 3-hydroxy-3-methylglutaryl-coenzyme A reductase
+def: "A protein that is a translation product of the human HMGCR gene or a 1:1 ortholog thereof." []
+synonym: "HMG-CoA reductase" EXACT []
+synonym: "HMGCR" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000008725
+name: haptoglobin
+def: "A protein that is a translation product of the human HP gene or a 1:1 ortholog thereof." []
+synonym: "HP" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000008875
+name: islet amyloid polypeptide
+def: "A protein that is a translation product of the human IAPP gene or a 1:1 ortholog thereof." []
+synonym: "amylin" EXACT []
+synonym: "DAP" BROAD []
+synonym: "diabetes-associated peptide" EXACT []
+synonym: "IAPP" EXACT []
+synonym: "insulinoma amyloid peptide" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000008878
+name: bone sialoprotein 2
+def: "A protein that is a translation product of the human IBSP gene or a 1:1 ortholog thereof." []
+synonym: "BNSP" RELATED []
+synonym: "bone sialoprotein II" EXACT []
+synonym: "BSP II" EXACT []
+synonym: "cell-binding sialoprotein" EXACT []
+synonym: "IBSP" EXACT []
+synonym: "integrin-binding sialoprotein" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000008888
+name: isocitrate dehydrogenase [NADP], mitochondrial
+def: "A protein that is a translation product of the human IDH2 gene or a 1:1 ortholog thereof." []
+synonym: "ICD-M" EXACT []
+synonym: "IDH" BROAD []
+synonym: "IDH2nadp" EXACT []
+synonym: "IDP" BROAD []
+synonym: "NADP(+)-specific ICDH" BROAD []
+synonym: "oxalosuccinate decarboxylase" BROAD []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000008910
+name: interferon-induced helicase C domain-containing protein 1
+def: "A protein that is a translation product of the human IFIH1 gene or a 1:1 ortholog thereof." []
+synonym: "helicard" EXACT []
+synonym: "helicase with 2 CARD domains" EXACT []
+synonym: "IFIH1" EXACT []
+synonym: "interferon induced with helicase C domain protein 1" EXACT []
+synonym: "interferon-induced with helicase C domain protein 1" EXACT []
+synonym: "MDA-5" EXACT []
+synonym: "MDA5" RELATED []
+synonym: "melanoma differentiation-associated protein 5" EXACT []
+synonym: "murabutide down-regulated protein" EXACT []
+synonym: "RH116" RELATED []
+synonym: "RNA helicase-DEAD box protein 116" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000008942
+name: insulin-like growth factor II
+def: "A protein that is a translation product of the human IGF2 gene or a 1:1 ortholog thereof." []
+synonym: "Igf-2" RELATED []
+synonym: "IGF-II" EXACT []
+synonym: "IGF2" EXACT []
+synonym: "multiplication-stimulating polypeptide" EXACT []
+synonym: "somatomedin-A" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000008998
+name: interleukin-21 receptor
+def: "A protein that is a translation product of the human IL21R gene or a 1:1 ortholog thereof." []
+synonym: "CD360" EXACT []
+synonym: "IL-21 receptor" EXACT []
+synonym: "IL-21R" EXACT []
+synonym: "IL21R" EXACT []
+synonym: "LR-beta" EXACT []
+synonym: "lymphocyte receptor beta" EXACT []
+synonym: "NILR" RELATED []
+synonym: "novel cytokine receptor 8" EXACT []
+synonym: "novel interleukin receptor" EXACT []
+synonym: "NR8" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000009001
+name: interleukin-23 receptor
+def: "A protein that is a translation product of the human IL23R gene or a 1:1 ortholog thereof." []
+synonym: "IL-23 receptor" EXACT []
+synonym: "IL-23R" EXACT []
+synonym: "IL23R" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000009054
+name: insulin
+def: "An insulin family protein that is a translation product of the human INS gene or a 1:1 ortholog thereof." []
+synonym: "INS" EXACT []
+is_a: PR:000045358 ! insulin family protein
+
+[Term]
+id: PR:000009064
+name: insulin receptor
+def: "A protein that is a translation product of the human INSR gene or a 1:1 ortholog thereof." []
+synonym: "CD220" EXACT []
+synonym: "INSR" EXACT []
+synonym: "IR" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000009182
+name: insulin-like growth factor I
+def: "A protein that is a translation product of the human IGF1 gene or a 1:1 ortholog thereof." []
+synonym: "Igf-1" RELATED []
+synonym: "IGF-I" BROAD []
+synonym: "IGF1" EXACT []
+synonym: "mechano growth factor" EXACT []
+synonym: "MGF" BROAD []
+synonym: "somatomedin" EXACT []
+synonym: "somatomedin-C" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000009345
+name: kit ligand
+def: "A protein that is a translation product of the human KITLG gene or a 1:1 ortholog thereof." []
+synonym: "c-Kit ligand" EXACT []
+synonym: "hematopoietic growth factor KL" EXACT []
+synonym: "Kitl" RELATED []
+synonym: "KITLG" EXACT []
+synonym: "mast cell growth factor" RELATED []
+synonym: "MGF" BROAD []
+synonym: "SCF" EXACT []
+synonym: "Sl" RELATED []
+synonym: "Slf" RELATED []
+synonym: "steel factor" EXACT []
+synonym: "stem cell factor" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000009744
+name: low-density lipoprotein receptor
+def: "A protein that is a translation product of the human LDLR gene or a 1:1 ortholog thereof." []
+synonym: "LDL receptor" EXACT []
+synonym: "LDLR" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000009799
+name: leukemia inhibitory factor
+def: "A protein that is a translation product of the human LIF gene or a 1:1 ortholog thereof." []
+synonym: "D factor" EXACT []
+synonym: "differentiation-stimulating factor" EXACT []
+synonym: "emfilermin" EXACT []
+synonym: "HILDA" RELATED []
+synonym: "LIF" EXACT []
+synonym: "melanoma-derived LPL inhibitor" EXACT []
+synonym: "MLPLI" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000009978
+name: lactotransferrin
+def: "A protein that is a translation product of the human LTF gene or a 1:1 ortholog thereof." []
+synonym: "lactoferrin" EXACT []
+synonym: "LF" RELATED []
+synonym: "LTF" EXACT []
+synonym: "talalactoferrin" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000010335
+name: hepatocyte growth factor receptor
+def: "An HGF/MSP receptor type tyrosine-protein kinase that is a translation product of the human MET gene or a 1:1 ortholog thereof." []
+synonym: "HGF receptor" EXACT []
+synonym: "HGF/SF receptor" EXACT []
+synonym: "MET" EXACT []
+synonym: "proto-oncogene c-Met" EXACT []
+synonym: "scatter factor receptor" EXACT []
+synonym: "SF receptor" EXACT []
+synonym: "tyrosine-protein kinase Met" EXACT []
+is_a: PR:000001816 ! HGF/MSP receptor type tyrosine-protein kinase
+
+[Term]
+id: PR:000010413
+name: macrophage migration inhibitory factor
+def: "A protein that is a translation product of the human MIF gene or a 1:1 ortholog thereof." []
+synonym: "delayed early response protein 6" EXACT []
+synonym: "DER6" EXACT []
+synonym: "GIF" RELATED []
+synonym: "GLIF" RELATED []
+synonym: "glycosylation-inhibiting factor" EXACT []
+synonym: "L-dopachrome isomerase" EXACT []
+synonym: "L-dopachrome tautomerase" RELATED []
+synonym: "MIF" EXACT []
+synonym: "MMIF" RELATED []
+synonym: "phenylpyruvate tautomerase" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000010444
+name: mitogen-activated protein kinase kinase kinase
+def: "A protein that is a translation product of the human MLK4 gene or a 1:1 ortholog thereof." []
+synonym: "KIAA1804" RELATED []
+synonym: "mixed lineage kinase 4" EXACT []
+synonym: "MLK4" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000010818
+name: myogenic factor 5
+def: "A protein that is a translation product of the human MYF5 gene or a 1:1 ortholog thereof." []
+synonym: "bHLHc2" EXACT []
+synonym: "class C basic helix-loop-helix protein 2" EXACT []
+synonym: "Myf-5" EXACT []
+synonym: "MYF5" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000010855
+name: myosin-Ia
+def: "A protein that is a translation product of the human MYO1A gene or a 1:1 ortholog thereof." []
+synonym: "BBM-I" EXACT []
+synonym: "BBMI" EXACT []
+synonym: "brush border myosin I" EXACT []
+synonym: "MIHC" EXACT []
+synonym: "MYHL" RELATED []
+synonym: "MYO1A" EXACT []
+synonym: "myosin I heavy chain" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000010877
+name: myogenin
+def: "A protein that is a translation product of the human MYOG gene or a 1:1 ortholog thereof." []
+synonym: "bHLHc3" EXACT []
+synonym: "class C basic helix-loop-helix protein 3" EXACT []
+synonym: "Myf-4" EXACT []
+synonym: "MYF4" RELATED []
+synonym: "MYOD1-related protein" EXACT []
+synonym: "MYOG" EXACT []
+synonym: "myogenic factor 4" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000010882
+name: myozenin-1
+def: "A protein that is a translation product of the human MYOZ1 gene or a 1:1 ortholog thereof." []
+synonym: "calsarcin-2" EXACT []
+synonym: "filamin-, actinin- and telethonin-binding protein" EXACT []
+synonym: "MYOZ" RELATED []
+synonym: "MYOZ1" EXACT []
+synonym: "protein FATZ" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000011116
+name: NEDD8 protein
+def: "A protein that is a translation product of the human NEDD8 gene or a 1:1 ortholog thereof." []
+synonym: "NEDD-8" EXACT []
+synonym: "NEDD8" EXACT []
+synonym: "neddylin" EXACT []
+synonym: "neural precursor cell expressed developmentally down-regulated protein 8" EXACT []
+synonym: "ubiquitin-like protein Nedd8" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000011164
+name: nuclear factor of activated T-cells, cytoplasmic 2
+def: "A protein that is a translation product of the human NFATC2 gene or a 1:1 ortholog thereof." []
+synonym: "NF-ATc2" EXACT []
+synonym: "NF-ATp" EXACT []
+synonym: "NFAT pre-existing subunit" EXACT []
+synonym: "NFAT1" RELATED []
+synonym: "NFATC2" EXACT []
+synonym: "NFATc2" EXACT []
+synonym: "NFATP" RELATED []
+synonym: "T-cell transcription factor NFAT1" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000011166
+name: nuclear factor of activated T-cells, cytoplasmic 3
+def: "A protein that is a translation product of the human NFATC3 gene or a 1:1 ortholog thereof." []
+synonym: "NF-AT4" EXACT []
+synonym: "NF-ATc3" EXACT []
+synonym: "NFAT4" RELATED []
+synonym: "NFATC3" EXACT []
+synonym: "NFATc3" EXACT []
+synonym: "NFATx" EXACT []
+synonym: "T-cell transcription factor NFAT4" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000011167
+name: nuclear factor of activated T-cells, cytoplasmic 4
+def: "A protein that is a translation product of the human NFATC4 gene or a 1:1 ortholog thereof." []
+synonym: "NF-AT3" EXACT []
+synonym: "NF-ATc4" EXACT []
+synonym: "NFAT3" RELATED []
+synonym: "NFATC4" EXACT []
+synonym: "NFATc4" EXACT []
+synonym: "T-cell transcription factor NFAT3" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000011194
+name: beta-nerve growth factor
+def: "A neurotrophin that is a translation product of the human NGF gene or a 1:1 ortholog thereof." []
+synonym: "beta-NGF" EXACT []
+synonym: "NGF" EXACT []
+synonym: "NGFB" RELATED []
+is_a: PR:000021998 ! neurotrophin
+
+[Term]
+id: PR:000011374
+name: atrial natriuretic factor
+def: "A protein that is a translation product of the human NPPA gene or a 1:1 ortholog thereof." []
+synonym: "ANF" EXACT []
+synonym: "ANP" EXACT []
+synonym: "atrial natriuretic peptide" EXACT []
+synonym: "CDD-ANF" EXACT []
+synonym: "NPPA" EXACT []
+synonym: "PND" RELATED []
+synonym: "prepronatriodilatin" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000011387
+name: neuropeptide Y
+def: "A protein that is a translation product of the human NPY gene or a 1:1 ortholog thereof." []
+synonym: "NPY" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000011406
+name: glucocorticoid receptor
+def: "A protein that is a translation product of the human NR3C1 gene or a 1:1 ortholog thereof." []
+synonym: "GR" RELATED []
+synonym: "GRL" RELATED []
+synonym: "Grl1" RELATED []
+synonym: "NR3C1" EXACT []
+synonym: "nuclear receptor subfamily 3 group C member 1" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000011407
+name: mineralocorticoid receptor
+def: "A protein that is a translation product of the human NR3C2 gene or a 1:1 ortholog thereof." []
+synonym: "MCR" RELATED []
+synonym: "MLR" RELATED []
+synonym: "MR" EXACT []
+synonym: "NR3C2" EXACT []
+synonym: "nuclear receptor subfamily 3 group C member 2" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000011459
+name: neurotrophin-3
+def: "A neurotrophin that is a translation product of the human NTF3 gene or a 1:1 ortholog thereof." []
+synonym: "HDNF" EXACT []
+synonym: "nerve growth factor 2" EXACT []
+synonym: "neurotrophic factor" EXACT []
+synonym: "NGF-2" EXACT []
+synonym: "NT-3" EXACT []
+synonym: "Ntf-3" RELATED []
+synonym: "NTF3" EXACT []
+is_a: PR:000021998 ! neurotrophin
+
+[Term]
+id: PR:000012059
+name: oncostatin-M
+def: "A protein that is a translation product of the human OSM gene or a 1:1 ortholog thereof." []
+synonym: "OSM" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000012421
+name: proliferating cell nuclear antigen
+def: "A protein that is a translation product of the human PCNA gene or a 1:1 ortholog thereof." []
+synonym: "cyclin" EXACT []
+synonym: "PCNA" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000012621
+name: progesterone receptor
+def: "A protein that is a translation product of the human PGR gene or a 1:1 ortholog thereof." []
+synonym: "NR3C3" RELATED []
+synonym: "nuclear receptor subfamily 3 group C member 3" EXACT []
+synonym: "PGR" EXACT []
+synonym: "PR" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000012705
+name: polymeric immunoglobulin receptor
+def: "A protein that is a translation product of the human PIGR gene or a 1:1 ortholog thereof." []
+synonym: "hepatocellular carcinoma-associated protein TB6" EXACT []
+synonym: "PIGR" EXACT []
+synonym: "PIgR" EXACT []
+synonym: "poly-Ig receptor" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000012826
+name: urokinase-type plasminogen activator
+def: "A protein that is a translation product of the human PLAU gene or a 1:1 ortholog thereof." []
+synonym: "PLAU" EXACT []
+synonym: "U-plasminogen activator" EXACT []
+synonym: "uPA" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000013164
+name: pancreatic prohormone
+def: "A protein that is a translation product of the human PPY gene or a 1:1 ortholog thereof." []
+synonym: "obinepitide" EXACT []
+synonym: "pancreatic polypeptide" EXACT []
+synonym: "PNP" RELATED []
+synonym: "PP" EXACT []
+synonym: "PPY" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000013246
+name: prolactin
+def: "A somatotropin hormone family member that is a translation product of the human PRL gene or a 1:1 ortholog thereof." []
+synonym: "PRL" EXACT []
+is_a: PR:000029968 ! somatotropin hormone family member
+
+[Term]
+id: PR:000013248
+name: prolactin receptor
+def: "A protein that is a translation product of the human PRLR gene or a 1:1 ortholog thereof." []
+synonym: "PRL-R" EXACT []
+synonym: "PRLR" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000013429
+name: parathyroid hormone
+def: "A protein that is a translation product of the human PTH gene or a 1:1 ortholog thereof." []
+synonym: "parathormone" EXACT []
+synonym: "parathyrin" EXACT []
+synonym: "PTH" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000013526
+name: peptide YY
+def: "A protein that is a translation product of the human PYY gene or a 1:1 ortholog thereof." []
+synonym: "peptide tyrosine tyrosine" EXACT []
+synonym: "PYY" EXACT []
+synonym: "PYY-I" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000013743
+name: ras GTPase-activating protein 1
+def: "A protein that is a translation product of the human RASA1 gene or a 1:1 ortholog thereof." []
+synonym: "GAP" BROAD []
+synonym: "GTPase-activating protein" EXACT []
+synonym: "p120GAP" EXACT []
+synonym: "ras p21 protein activator" EXACT []
+synonym: "RASA" RELATED []
+synonym: "RASA1" EXACT []
+synonym: "RasGAP" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000013883
+name: renin
+def: "A protein that is a translation product of the human REN gene or a 1:1 ortholog thereof." []
+synonym: "angiotensinogenase" EXACT []
+synonym: "REN" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000014271
+name: ubiquitin-40S ribosomal protein S27a
+def: "A protein that is a translation product of the human RPS27A gene or a 1:1 ortholog thereof." []
+synonym: "40S ribosomal protein S27a" RELATED []
+synonym: "RPS27A" EXACT []
+synonym: "UBA80" RELATED []
+synonym: "UBCEP1" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000014543
+name: secretin
+def: "A protein that is a translation product of the human SCT gene or a 1:1 ortholog thereof." []
+synonym: "SCT" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000014544
+name: secretin receptor
+def: "A secretin-like G-protein coupled receptor that is a translation product of the human SCTR gene or a 1:1 ortholog thereof." []
+synonym: "SCT-R" EXACT []
+synonym: "SCTR" EXACT []
+is_a: PR:000001095 ! secretin-like G-protein coupled receptor
+
+[Term]
+id: PR:000014717
+name: protein SET
+def: "A protein that is a translation product of the human SET gene or a 1:1 ortholog thereof." []
+synonym: "HLA-DR-associated protein II" EXACT []
+synonym: "I-2PP2A" EXACT []
+synonym: "IGAAD" EXACT []
+synonym: "inhibitor of granzyme A-activated DNase" EXACT []
+synonym: "PHAPII" EXACT []
+synonym: "phosphatase 2A inhibitor I2PP2A" EXACT []
+synonym: "SET" EXACT []
+synonym: "TAF-I" EXACT []
+synonym: "template-activating factor I" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000015288
+name: smoothened
+def: "A frizzled-like G-protein coupled receptor that is a translation product of the human SMO gene or a 1:1 ortholog thereof." []
+synonym: "protein Gx" EXACT []
+synonym: "SMO" EXACT []
+synonym: "SMOH" RELATED []
+is_a: PR:000001315 ! frizzled-like G-protein coupled receptor
+
+[Term]
+id: PR:000015794
+name: syntaxin-2
+def: "A protein that is a translation product of the human STX2 gene or a 1:1 ortholog thereof." []
+synonym: "EPIM" RELATED []
+synonym: "epimorphin" EXACT []
+synonym: "STX2" EXACT []
+synonym: "STX2A" RELATED []
+synonym: "STX2B" RELATED []
+synonym: "STX2C" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000015795
+name: syntaxin-3
+def: "A protein that is a translation product of the human STX3 gene or a 1:1 ortholog thereof." []
+synonym: "STX3" EXACT []
+synonym: "STX3A" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000015797
+name: syntaxin-5
+def: "A protein that is a translation product of the human STX5 gene or a 1:1 ortholog thereof." []
+synonym: "STX5" EXACT []
+synonym: "STX5A" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000015798
+name: syntaxin-6
+def: "A protein that is a translation product of the human STX6 gene or a 1:1 ortholog thereof." []
+synonym: "STX6" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000015975
+name: sperm motility kinase Tcr mutant form
+def: "A protein that is a translation product of the mouse Smoktcr gene or a 1:1 ortholog thereof." []
+synonym: "dominant negative form of Smok" EXACT []
+synonym: "responder protein Smok-Tcr" EXACT []
+synonym: "SmokTcr" EXACT []
+synonym: "Smoktcr" EXACT []
+synonym: "Tcr" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000016051
+name: antigen peptide transporter 1
+def: "A protein that is a translation product of the human TAP1 gene or a 1:1 ortholog thereof." []
+synonym: "ABCB2" RELATED []
+synonym: "APT1" EXACT []
+synonym: "ATP-binding cassette sub-family B member 2" EXACT []
+synonym: "Ham-1" RELATED []
+synonym: "Ham1" RELATED []
+synonym: "histocompatibility antigen modifier 1" EXACT []
+synonym: "peptide supply factor 1" EXACT []
+synonym: "peptide transporter involved in antigen processing 1" EXACT []
+synonym: "peptide transporter PSF1" EXACT []
+synonym: "peptide transporter TAP1" EXACT []
+synonym: "PSF-1" EXACT []
+synonym: "PSF1" RELATED []
+synonym: "really interesting new gene 4 protein" EXACT []
+synonym: "RING4" RELATED []
+synonym: "TAP1" EXACT []
+synonym: "Y3" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000016052
+name: antigen peptide transporter 2
+def: "A protein that is a translation product of the human TAP2 gene or a 1:1 ortholog thereof." []
+synonym: "ABCB3" RELATED []
+synonym: "APT2" EXACT []
+synonym: "ATP-binding cassette sub-family B member 3" EXACT []
+synonym: "Ham-2" RELATED []
+synonym: "Ham2" RELATED []
+synonym: "histocompatibility antigen modifier 2" EXACT []
+synonym: "peptide supply factor 2" EXACT []
+synonym: "peptide transporter involved in antigen processing 2" EXACT []
+synonym: "peptide transporter PSF2" EXACT []
+synonym: "peptide transporter TAP2" EXACT []
+synonym: "PSF-2" EXACT []
+synonym: "PSF2" RELATED []
+synonym: "really interesting new gene 11 protein" EXACT []
+synonym: "RING11" RELATED []
+synonym: "TAP2" EXACT []
+synonym: "Y1" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000016053
+name: tapasin
+def: "A protein that is a translation product of the human TAPBP gene or a 1:1 ortholog thereof." []
+synonym: "NGS-17" EXACT []
+synonym: "NGS17" RELATED []
+synonym: "TAP-associated protein" EXACT []
+synonym: "TAP-binding protein" EXACT []
+synonym: "TAPA" RELATED []
+synonym: "TAPBP" EXACT []
+synonym: "TPN" EXACT []
+synonym: "TPSN" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000016156
+name: telethonin
+def: "A protein that is a translation product of the human TCAP gene or a 1:1 ortholog thereof." []
+synonym: "TCAP" EXACT []
+synonym: "titin cap protein" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000016261
+name: serotransferrin
+def: "A protein that is a translation product of the human TF gene or a 1:1 ortholog thereof." []
+synonym: "beta-1 metal-binding globulin" EXACT []
+synonym: "siderophilin" EXACT []
+synonym: "TF" EXACT []
+synonym: "transferrin" EXACT []
+synonym: "Trf" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000016301
+name: tyrosine 3-monooxygenase
+def: "A protein that is a translation product of the human TH gene or a 1:1 ortholog thereof." []
+synonym: "TH" EXACT []
+synonym: "TYH" RELATED []
+synonym: "tyrosine 3-hydroxylase" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000016542
+name: DNA topoisomerase 1
+def: "A protein that is a translation product of the human TOP1 gene or a 1:1 ortholog thereof." []
+synonym: "DNA topoisomerase I" BROAD []
+synonym: "Top-1" RELATED []
+synonym: "TOP1" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000016724
+name: thyrotropin subunit beta
+def: "A glycoprotein hormone beta chain that is a translation product of the human TSHB gene or a 1:1 ortholog thereof." []
+synonym: "thyroid-stimulating hormone subunit beta" EXACT []
+synonym: "thyrotropin alfa" EXACT []
+synonym: "thyrotropin beta chain" EXACT []
+synonym: "TSH-B" EXACT []
+synonym: "TSH-beta" EXACT []
+synonym: "TSHB" EXACT []
+is_a: PR:000044813 ! glycoprotein hormone beta chain
+
+[Term]
+id: PR:000016798
+name: titin
+def: "A protein that is a translation product of the human TTN gene or a 1:1 ortholog thereof." []
+synonym: "connectin" EXACT []
+synonym: "rhabdomyosarcoma antigen MU-RMS-40.14" EXACT []
+synonym: "TTN" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000016876
+name: thymidylate synthase
+def: "A protein that is a translation product of the human TYMS gene or a 1:1 ortholog thereof." []
+synonym: "thyA" RELATED []
+synonym: "TS" RELATED []
+synonym: "TSase" EXACT []
+synonym: "TYMS" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000016954
+name: ubiquitin-60S ribosomal protein L40
+def: "A protein that is a translation product of the human UBA52 gene or a 1:1 ortholog thereof." []
+synonym: "60S ribosomal protein L40" RELATED []
+synonym: "CEP52" EXACT []
+synonym: "UBA52" EXACT []
+synonym: "UBCEP2" RELATED []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000016963
+name: polyubiquitin-C
+def: "A polyubiquitin that is a translation product of the human UBC gene or a 1:1 ortholog thereof." []
+synonym: "UBC" EXACT []
+is_a: PR:000036929 ! polyubiquitin
+
+[Term]
+id: PR:000016964
+name: ubiquitin D
+def: "A protein that is a translation product of the human UBD gene or a 1:1 ortholog thereof." []
+synonym: "diubiquitin" EXACT []
+synonym: "FAT10" RELATED []
+synonym: "UBD" EXACT []
+synonym: "ubiquitin-like protein FAT10" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000017272
+name: vinculin
+def: "A protein that is a translation product of the human VCL gene or a 1:1 ortholog thereof." []
+synonym: "metavinculin" EXACT []
+synonym: "VCL" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000017283
+name: vitamin D3 receptor
+def: "A protein that is a translation product of the human VDR gene or a 1:1 ortholog thereof." []
+synonym: "1,25-dihydroxyvitamin D3 receptor" EXACT []
+synonym: "NR1I1" RELATED []
+synonym: "nuclear receptor subfamily 1 group I member 1" EXACT []
+synonym: "VDR" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000018263
+name: amino acid chain
+def: "An organic amino compound that is a polymer of amino acid chain components (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds." []
+synonym: "peptide" NARROW []
+synonym: "polypeptide" NARROW []
+is_a: CHEBI:50047 ! organic amino compound
+relationship: has_part PR:000036907 ! amino acid chain component
+
+[Term]
+id: PR:000018264
+name: proteolytic cleavage product
+def: "An amino acid chain that is produced as the result of peptide bond cleavage of a longer amino acid chain." []
+synonym: "peptide" NARROW []
+synonym: "polypeptide" NARROW []
+is_a: PR:000018263 ! amino acid chain
+
+[Term]
+id: PR:000018271
+name: interferon gamma proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from interferon gamma." []
+synonym: "IFNG/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000000017 ! interferon gamma
+relationship: derives_from PR:000000017 ! interferon gamma
+
+[Term]
+id: PR:000018344
+name: interleukin-1 alpha proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from interleukin-1 alpha." []
+synonym: "IL1A/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000001135 ! interleukin-1 alpha
+relationship: derives_from PR:000001135 ! interleukin-1 alpha
+
+[Term]
+id: PR:000018345
+name: interleukin-1 beta proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from interleukin-1 beta." []
+synonym: "IL1B/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000001136 ! interleukin-1 beta
+relationship: derives_from PR:000001136 ! interleukin-1 beta
+
+[Term]
+id: PR:000018435
+name: interleukin-16 proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from interleukin-16." []
+synonym: "IL16/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000001374 ! interleukin-16
+relationship: derives_from PR:000001374 ! interleukin-16
+
+[Term]
+id: PR:000018438
+name: interleukin-18 proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from interleukin-18." []
+synonym: "IL18/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000001376 ! interleukin-18
+relationship: derives_from PR:000001376 ! interleukin-18
+
+[Term]
+id: PR:000018461
+name: interleukin-8 proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from interleukin-8." []
+synonym: "IL8/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000001395 ! interleukin-8
+relationship: derives_from PR:000001395 ! interleukin-8
+
+[Term]
+id: PR:000018513
+name: proteinase-activated receptor 1 proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from proteinase-activated receptor 1." []
+synonym: "F2R/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000001661 ! proteinase-activated receptor 1
+relationship: derives_from PR:000001661 ! proteinase-activated receptor 1
+
+[Term]
+id: PR:000018550
+name: fractalkine proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from fractalkine." []
+synonym: "CX3CL1/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000001855 ! fractalkine
+relationship: derives_from PR:000001855 ! fractalkine
+
+[Term]
+id: PR:000018718
+name: C-C motif chemokine 5 proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from C-C motif chemokine 5." []
+synonym: "CCL5/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000002094 ! C-C motif chemokine 5
+relationship: derives_from PR:000002094 ! C-C motif chemokine 5
+
+[Term]
+id: PR:000018721
+name: tumor necrosis factor ligand superfamily member 11 proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from tumor necrosis factor ligand superfamily member 11." []
+synonym: "TNFSF11/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000002107 ! tumor necrosis factor ligand superfamily member 11
+relationship: derives_from PR:000002107 ! tumor necrosis factor ligand superfamily member 11
+
+[Term]
+id: PR:000018880
+name: acrosin proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from acrosin." []
+synonym: "ACR/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000003652 ! acrosin
+relationship: derives_from PR:000003652 ! acrosin
+
+[Term]
+id: PR:000018902
+name: pituitary adenylate cyclase-activating polypeptide proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from pituitary adenylate cyclase-activating polypeptide." []
+synonym: "ADCYAP1/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000003761 ! pituitary adenylate cyclase-activating polypeptide
+relationship: derives_from PR:000003761 ! pituitary adenylate cyclase-activating polypeptide
+
+[Term]
+id: PR:000018934
+name: aryl hydrocarbon receptor proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from aryl hydrocarbon receptor." []
+synonym: "AHR/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000003858 ! aryl hydrocarbon receptor
+relationship: derives_from PR:000003858 ! aryl hydrocarbon receptor
+
+[Term]
+id: PR:000019005
+name: serum amyloid P-component proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from serum amyloid P-component." []
+synonym: "APCS/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000004126 ! serum amyloid P-component
+relationship: derives_from PR:000004126 ! serum amyloid P-component
+
+[Term]
+id: PR:000019010
+name: apolipoprotein A-I proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from apolipoprotein A-I." []
+synonym: "APOA1/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000004140 ! apolipoprotein A-I
+relationship: derives_from PR:000004140 ! apolipoprotein A-I
+
+[Term]
+id: PR:000019036
+name: amyloid beta A4 protein proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from amyloid beta A4 protein." []
+synonym: "APP/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000004168 ! amyloid beta A4 protein
+relationship: derives_from PR:000004168 ! amyloid beta A4 protein
+
+[Term]
+id: PR:000019110
+name: beta-2-microglobulin proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from beta-2-microglobulin." []
+synonym: "B2M/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000004580 ! beta-2-microglobulin
+relationship: derives_from PR:000004580 ! beta-2-microglobulin
+
+[Term]
+id: PR:000019130
+name: brain-derived neurotrophic factor proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from brain-derived neurotrophic factor." []
+synonym: "BDNF/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000004716 ! brain-derived neurotrophic factor
+relationship: derives_from PR:000004716 ! brain-derived neurotrophic factor
+
+[Term]
+id: PR:000019255
+name: cholecystokinin proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from cholecystokinin." []
+synonym: "CCK/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000005110 ! cholecystokinin
+relationship: derives_from PR:000005110 ! cholecystokinin
+
+[Term]
+id: PR:000019642
+name: dystroglycan proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from dystroglycan." []
+synonym: "DAG1/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000006267 ! dystroglycan
+relationship: derives_from PR:000006267 ! dystroglycan
+
+[Term]
+id: PR:000019751
+name: pro-epidermal growth factor proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from pro-epidermal growth factor." []
+synonym: "EGF/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000006928 ! pro-epidermal growth factor
+relationship: derives_from PR:000006928 ! pro-epidermal growth factor
+
+[Term]
+id: PR:000019798
+name: erythropoietin proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from erythropoietin." []
+synonym: "EPO/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000007141 ! erythropoietin
+relationship: derives_from PR:000007141 ! erythropoietin
+
+[Term]
+id: PR:000019919
+name: fibronectin proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from fibronectin." []
+synonym: "FN1/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000007581 ! fibronectin
+relationship: derives_from PR:000007581 ! fibronectin
+
+[Term]
+id: PR:000019959
+name: galanin proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from galanin." []
+synonym: "GAL/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000007806 ! galanin
+relationship: derives_from PR:000007806 ! galanin
+
+[Term]
+id: PR:000019973
+name: gastrin proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from gastrin." []
+synonym: "GAST/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000007856 ! gastrin
+relationship: derives_from PR:000007856 ! gastrin
+
+[Term]
+id: PR:000019995
+name: growth hormone receptor proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from growth hormone receptor." []
+synonym: "GHR/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000007970 ! growth hormone receptor
+relationship: derives_from PR:000007970 ! growth hormone receptor
+
+[Term]
+id: PR:000019996
+name: somatoliberin proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from somatoliberin." []
+synonym: "GHRH/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000007971 ! somatoliberin
+relationship: derives_from PR:000007971 ! somatoliberin
+
+[Term]
+id: PR:000019999
+name: appetite-regulating hormone proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from appetite-regulating hormone." []
+synonym: "GHRL/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000007973 ! appetite-regulating hormone
+relationship: derives_from PR:000007973 ! appetite-regulating hormone
+
+[Term]
+id: PR:000020124
+name: orexin proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from orexin." []
+synonym: "HCRT/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000008476 ! orexin
+relationship: derives_from PR:000008476 ! orexin
+
+[Term]
+id: PR:000020135
+name: hepatocyte growth factor proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from hepatocyte growth factor." []
+synonym: "HGF/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000008534 ! hepatocyte growth factor
+relationship: derives_from PR:000008534 ! hepatocyte growth factor
+
+[Term]
+id: PR:000020180
+name: haptoglobin proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from haptoglobin." []
+synonym: "HP/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000008725 ! haptoglobin
+relationship: derives_from PR:000008725 ! haptoglobin
+
+[Term]
+id: PR:000020226
+name: islet amyloid polypeptide proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from islet amyloid polypeptide." []
+synonym: "IAPP/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000008875 ! islet amyloid polypeptide
+relationship: derives_from PR:000008875 ! islet amyloid polypeptide
+
+[Term]
+id: PR:000020267
+name: insulin-like growth factor II proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from insulin-like growth factor II." []
+synonym: "IGF2/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000008942 ! insulin-like growth factor II
+relationship: derives_from PR:000008942 ! insulin-like growth factor II
+
+[Term]
+id: PR:000020311
+name: insulin proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from insulin." []
+synonym: "INS/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000009054 ! insulin
+relationship: derives_from PR:000009054 ! insulin
+
+[Term]
+id: PR:000020320
+name: insulin receptor proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from insulin receptor." []
+synonym: "INSR/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000009064 ! insulin receptor
+relationship: derives_from PR:000009064 ! insulin receptor
+
+[Term]
+id: PR:000020357
+name: insulin-like growth factor I proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from insulin-like growth factor I." []
+synonym: "IGF1/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000009182 ! insulin-like growth factor I
+relationship: derives_from PR:000009182 ! insulin-like growth factor I
+
+[Term]
+id: PR:000020497
+name: lactotransferrin proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from lactotransferrin." []
+synonym: "LTF/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000009978 ! lactotransferrin
+relationship: derives_from PR:000009978 ! lactotransferrin
+
+[Term]
+id: PR:000020722
+name: NEDD8 protein proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from NEDD8 protein." []
+synonym: "NEDD8/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000011116 ! NEDD8 protein
+relationship: derives_from PR:000011116 ! NEDD8 protein
+
+[Term]
+id: PR:000020737
+name: beta-nerve growth factor proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from beta-nerve growth factor." []
+synonym: "NGF/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000011194 ! beta-nerve growth factor
+relationship: derives_from PR:000011194 ! beta-nerve growth factor
+
+[Term]
+id: PR:000020775
+name: atrial natriuretic factor proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from atrial natriuretic factor." []
+synonym: "NPPA/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000011374 ! atrial natriuretic factor
+relationship: derives_from PR:000011374 ! atrial natriuretic factor
+
+[Term]
+id: PR:000020789
+name: neuropeptide Y proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from neuropeptide Y." []
+synonym: "NPY/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000011387 ! neuropeptide Y
+relationship: derives_from PR:000011387 ! neuropeptide Y
+
+[Term]
+id: PR:000020795
+name: neurotrophin-3 proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from neurotrophin-3." []
+synonym: "NTF3/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000011459 ! neurotrophin-3
+relationship: derives_from PR:000011459 ! neurotrophin-3
+
+[Term]
+id: PR:000020841
+name: oncostatin-M proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from oncostatin-M." []
+synonym: "OSM/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000012059 ! oncostatin-M
+relationship: derives_from PR:000012059 ! oncostatin-M
+
+[Term]
+id: PR:000020966
+name: polymeric immunoglobulin receptor proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from polymeric immunoglobulin receptor." []
+synonym: "PIGR/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000012705 ! polymeric immunoglobulin receptor
+relationship: derives_from PR:000012705 ! polymeric immunoglobulin receptor
+
+[Term]
+id: PR:000021003
+name: urokinase-type plasminogen activator proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from urokinase-type plasminogen activator." []
+synonym: "PLAU/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000012826 ! urokinase-type plasminogen activator
+relationship: derives_from PR:000012826 ! urokinase-type plasminogen activator
+
+[Term]
+id: PR:000021066
+name: pancreatic prohormone proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from pancreatic prohormone." []
+synonym: "PPY/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000013164 ! pancreatic prohormone
+relationship: derives_from PR:000013164 ! pancreatic prohormone
+
+[Term]
+id: PR:000021170
+name: parathyroid hormone proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from parathyroid hormone." []
+synonym: "PTH/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000013429 ! parathyroid hormone
+relationship: derives_from PR:000013429 ! parathyroid hormone
+
+[Term]
+id: PR:000021195
+name: peptide YY proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from peptide YY." []
+synonym: "PYY/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000013526 ! peptide YY
+relationship: derives_from PR:000013526 ! peptide YY
+
+[Term]
+id: PR:000021260
+name: renin proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from renin." []
+synonym: "REN/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000013883 ! renin
+relationship: derives_from PR:000013883 ! renin
+
+[Term]
+id: PR:000021385
+name: secretin proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from secretin." []
+synonym: "SCT/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000014543 ! secretin
+relationship: derives_from PR:000014543 ! secretin
+
+[Term]
+id: PR:000021742
+name: thyrotropin subunit beta proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from thyrotropin subunit beta." []
+synonym: "TSHB/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000016724 ! thyrotropin subunit beta
+relationship: derives_from PR:000016724 ! thyrotropin subunit beta
+
+[Term]
+id: PR:000021998
+name: neurotrophin
+def: "A protein that is a neurotrophic polypeptide factor that regulates neuronal differentiation and is essential for neuronal survival, neurite growth and plasticity. It contains a signal peptide, a propeptide, and a C-terminal Nerve growth factor family (Pfam:PF00243) domain." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000021999
+name: death receptor
+def: "A protein that contains multiple TNFR/NGFR cysteine-rich region (Pfam:PF00020) within the extracellular ligand-binding domain, a type I (single pass) transmembrane domain, and a cytoplasmic Death domain (Pfam:PF00531) required for intracellular signaling." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000022358
+name: adenylate cyclase
+def: "A protein that is a translation product of the Escherichia coli K-12 cyaA gene or a 1:1 ortholog thereof." []
+synonym: "adenylyl cyclase" EXACT []
+synonym: "ATP pyrophosphate-lyase" EXACT []
+synonym: "cya" RELATED []
+synonym: "cyaA" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000024025
+name: methyl-accepting chemotaxis protein IV
+def: "A protein that is a translation product of the Escherichia coli K-12 tap gene or a 1:1 ortholog thereof." []
+synonym: "dipeptide chemoreceptor protein" EXACT []
+synonym: "MCP-IV" EXACT []
+synonym: "tap" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000024067
+name: homoserine kinase
+def: "A protein that is a translation product of the Escherichia coli K-12 thrB gene or a 1:1 ortholog thereof." []
+synonym: "HK" EXACT []
+synonym: "HSK" EXACT []
+synonym: "thrB" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000024939
+name: interferon beta
+synonym: "IFNB" EXACT []
+is_a: PR:000025848 ! type I interferon
+
+[Term]
+id: PR:000024990
+name: type II interferon
+def: "A protein that binds to a specific cell surface receptor complex known as the IFN-gamma receptor (IFNGR), a complex of two IFNGR1 and two IFNGR2 chains." []
+synonym: "IFN type II" EXACT []
+synonym: "interferon gamma" RELATED []
+synonym: "interferon type II" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000025350
+name: HSPC protein
+def: "An hsp70 family chaperone that contains an ATPase and HSP90 domains." []
+synonym: "HSP90" EXACT []
+is_a: PR:000003425 ! hsp70 family chaperone
+
+[Term]
+id: PR:000025433
+name: nodal protein proteolytic cleavage product
+def: "A proteolytic cleavage product that is derived from nodal protein." []
+synonym: "NODAL/ClvPrd" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+intersection_of: PR:000018264 ! proteolytic cleavage product
+intersection_of: derives_from PR:000000105 ! nodal protein
+relationship: derives_from PR:000000105 ! nodal protein
+
+[Term]
+id: PR:000025513
+name: modified amino-acid residue
+def: "An organic group that results from covalent modification or chemical alteration to the side chain or backbone atoms of an amino acid residue or derivative thereof, where such alteration maintains the integrity of the amino acid chain containing the residue." []
+synonym: "modified amino acid chain residue" EXACT []
+synonym: "modified protein residue" NARROW []
+is_a: CHEBI:33247 ! organic group
+union_of: PR:000036198 ! peptidyl modified amino-acid residue
+union_of: PR:000036199 ! non-peptidyl modified amino-acid residue
+disjoint_from: PR:000026291 ! unmodified amino-acid residue
+
+[Term]
+id: PR:000025845
+name: ephrin receptor
+def: "A protein that consists of an Ephrin receptor ligand binding domain (Pfam:PF01404), two copies of the Fibronectin type III domain (Pfam:PF00041), and a copy of either type of SAM domain (Sterile alpha motif) (Pfam:PF00536 or Pfam:PF07647)." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000025848
+name: type I interferon
+def: "A protein that consists solely of an Interferon alpha/beta domain (Pfam:PF00143) and which binds to a specific cell surface receptor complex known as the IFN-alpha receptor (IFNAR), a heterodimer of IFNAR1 and IFNAR2 chains." []
+synonym: "IFN type I" EXACT []
+synonym: "interferon type I" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000026291
+name: unmodified amino-acid residue
+def: "An amino-acid residue that has not been covalently modified by chemical alteration to the side chain or backbone atoms." []
+synonym: "unmodified amino acid chain residue" EXACT []
+synonym: "unmodified protein residue" NARROW []
+is_a: CHEBI:33708 ! amino-acid residue
+
+[Term]
+id: PR:000028205
+name: type III interferon
+def: "A class 2 cytokine, IL-10 type that binds to a specific cell surface receptor complex known as the IFN type III receptor, a heterodimer consisting of IFNLR1 and IL-10R2." []
+synonym: "IFN type III" EXACT []
+synonym: "interferon lambda" RELATED []
+synonym: "interferon type III" EXACT []
+is_a: PR:000001335 ! class 2 cytokine, IL-10 type
+
+[Term]
+id: PR:000028269
+name: thyroid stimulating hormone
+def: "A protein complex that is a heterodimer of an alpha subunit (CGA) common to several glycoprotein hormones and a beta subunit (TSHB) unique to thyroid stimulating hormone." []
+synonym: "thyrotropin" EXACT []
+synonym: "TSH" EXACT []
+is_a: GO:0043234
+relationship: has_component PR:000005388 {cardinality="1"} ! glycoprotein hormones alpha chain
+relationship: has_component PR:000016724 {cardinality="1"} ! thyrotropin subunit beta
+
+[Term]
+id: PR:000029189
+name: AKT kinase
+def: "A protein that has a core domain composition consisting of a PH domain (Pfam:PF00169), Protein kinase domain (Pfam:PF00069) and a Protein kinase C terminal domain (Pfam:PF00433). Mammals have three genes encoding AKT1, AKT2 and AKT3. The second messenger phosphatidylinositol-3,4,5-trisphosphate [PIP(3)], product of phosphatidylinositol 3-kinase, acts largely through its role as an kinase activator. Binding of the pleckstrin domain to PIP(3) results in its targeting to the plasma membrane. Full activity is gained only after phosphorylation at two sites." []
+synonym: "AKT" EXACT []
+synonym: "PKB" BROAD []
+synonym: "serine-threonine kinase Akt" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000029394
+name: ATP-dependent RNA helicase DDX58
+def: "A protein that is a translation product of the human DDX58 gene or a 1:1 ortholog thereof." []
+synonym: "DDX58" EXACT []
+synonym: "DEAD box protein 58" EXACT []
+synonym: "retinoic acid-inducible gene 1 protein" EXACT []
+synonym: "retinoic acid-inducible gene I protein" EXACT []
+synonym: "RIG-1" EXACT []
+synonym: "RIG-I" EXACT []
+synonym: "RIG-I-like receptor 1" EXACT []
+synonym: "RLR-1" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000029968
+name: somatotropin hormone family member
+def: "A protein that is a standalone version of the Hormone_1 domain (Pfam:PF00103). In the immature form, the domain is preceded by a signal peptide." []
+synonym: "fam:GH1" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000030035
+name: G-protein coupled receptor
+synonym: "fam:GPCR" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000030443
+name: polyubiquitin-B
+def: "A polyubiquitin that is a translation product of the human UBB gene or a 1:1 ortholog thereof." []
+synonym: "UBB" EXACT []
+is_a: PR:000036929 ! polyubiquitin
+
+[Term]
+id: PR:000035716
+name: ubiquitin (RPS27A)
+def: "A ubiquitin-40S ribosomal protein S27a that has been processed by proteolytic cleavage. This form is the N-terminal region consisting of the Ubiquitin (Pfam:PF00240) domain. Example: UniProtKB:P62979, 1-76." []
+synonym: "RPS27A/Clv:ubiq" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+relationship: derives_from PR:000014271 ! ubiquitin-40S ribosomal protein S27a
+
+[Term]
+id: PR:000035720
+name: ubiquitin (UBC)
+def: "A polyubiquitin-C that has been processed by proteolytic cleavage to produce a protein consisting of a Ubiquitin (Pfam:PF00240) domain. There are nine copies of ubiquitin in polyubiquitin C. Example: UniProtKB:P0CG48, (1-76) or (77-152) or (153-228) or (229-304) or (305-380) or (381-456) or (457-532) or (533-608) or (609-684)." []
+synonym: "UBC/Clv:ubiq" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+relationship: derives_from PR:000016963 ! polyubiquitin-C
+
+[Term]
+id: PR:000035722
+name: ubiquitin (UBA52)
+def: "A ubiquitin-60S ribosomal protein L40 that has been processed by proteolytic cleavage. This form is the N-terminal region consisting of the Ubiquitin (Pfam:PF00240) domain. Example: UniProtKB:P62987, 1-76." []
+synonym: "UBA52/Clv:ubiq" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+relationship: derives_from PR:000016954 ! ubiquitin-60S ribosomal protein L40
+
+[Term]
+id: PR:000035726
+name: ubiquitin (UBB)
+def: "A polyubiquitin-B that has been processed by proteolytic cleavage to produce a protein consisting of a Ubiquitin (Pfam:PF00240) domain. There are three copies of ubiquitin in polyubiquitin B. Example: UniProtKB:P0CG47, (1-76) or (77-152) or (153-228)." []
+synonym: "UBB/Clv:ubiq" EXACT []
+is_a: PR:000018264 ! proteolytic cleavage product
+relationship: derives_from PR:000030443 ! polyubiquitin-B
+
+[Term]
+id: PR:000035728
+name: ubiquitin
+def: "A proteolytic cleavage product that gives rise to a protein that corresponds the stand alone version of the Ubiquitin (Pfam:PF00240) domain." []
+is_a: PR:000018264 ! proteolytic cleavage product
+union_of: PR:000035716 ! ubiquitin (RPS27A)
+union_of: PR:000035720 ! ubiquitin (UBC)
+union_of: PR:000035722 ! ubiquitin (UBA52)
+union_of: PR:000035726 ! ubiquitin (UBB)
+
+[Term]
+id: PR:000036194
+name: eukaryotic protein
+def: "A protein that is encoded in the genome of some Eukaryota." []
+synonym: "Eukaryota protein" EXACT []
+is_a: PR:000000001 ! protein
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:2759 ! Eukaryota
+disjoint_from: PR:000036195 ! bacterial protein
+disjoint_from: PR:000036196 ! archaeal protein
+disjoint_from: PR:000036197 ! viral protein
+relationship: only_in_taxon NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: PR:000036195
+name: bacterial protein
+def: "A protein that is encoded in the genome of some Bacteria <prokaryote>." []
+synonym: "Bacteria <prokaryote> protein" EXACT []
+is_a: PR:000000001 ! protein
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:2 ! Bacteria
+disjoint_from: PR:000036196 ! archaeal protein
+disjoint_from: PR:000036197 ! viral protein
+relationship: only_in_taxon NCBITaxon:2 ! Bacteria
+
+[Term]
+id: PR:000036196
+name: archaeal protein
+def: "A protein that is encoded in the genome of some Archaea." []
+synonym: "Archaea protein" EXACT []
+is_a: PR:000000001 ! protein
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:2157 ! Archaea
+disjoint_from: PR:000036197 ! viral protein
+relationship: only_in_taxon NCBITaxon:2157 ! Archaea
+
+[Term]
+id: PR:000036197
+name: viral protein
+def: "A protein that is encoded in the genome of some virus." []
+synonym: "virus protein" EXACT []
+is_a: PR:000000001 ! protein
+intersection_of: PR:000000001 ! protein
+intersection_of: only_in_taxon NCBITaxon:10239 ! virus
+relationship: only_in_taxon NCBITaxon:10239 ! virus
+
+[Term]
+id: PR:000036198
+name: peptidyl modified amino-acid residue
+def: "An amino-acid residue that results from covalent modification or chemical alteration to the side chain or backbone atoms such that the peptide bonds remain." []
+is_a: CHEBI:33708 ! amino-acid residue
+disjoint_from: PR:000036199 ! non-peptidyl modified amino-acid residue
+
+[Term]
+id: PR:000036199
+name: non-peptidyl modified amino-acid residue
+def: "An organic group that results from covalent modification or chemical alteration to the backbone atoms of amino acid residues so that their peptide bond is altered but the C1 and alpha-N bond is uncleaved." []
+is_a: CHEBI:33247 ! organic group
+relationship: derives_from CHEBI:33708 ! amino-acid residue
+
+[Term]
+id: PR:000036907
+name: amino acid chain component
+def: "A fiat object part that is either a modified amino-acid residue or an unmodified amino-acid residue." []
+synonym: "amino-acid residue" BROAD []
+is_a: BFO:0000024 ! fiat object part
+union_of: PR:000025513 ! modified amino-acid residue
+union_of: PR:000026291 ! unmodified amino-acid residue
+
+[Term]
+id: PR:000036929
+name: polyubiquitin
+def: "A protein that contains multiple tandem copies of the Ubiquitin (Pfam:PF00240) domain over the entire length of the sequence." []
+synonym: "fam:polyUb" EXACT []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000037070
+name: phosphoprotein
+def: "A protein that contains at least one phosphorylated residue." []
+synonym: "phosphorylated protein" EXACT []
+synonym: "Prot/PhosRes+" EXACT []
+is_a: PR:000000001 ! protein
+intersection_of: PR:000000001 ! protein
+intersection_of: has_part MOD:00696 ! phosphorylated residue
+relationship: has_part MOD:00696 ! phosphorylated residue
+
+[Term]
+id: PR:000044813
+name: glycoprotein hormone beta chain
+def: "A protein with a core domain composition consisting of a signal peptide followed by a single copy of the Cys_knot (Pfam:PF00007) domain. The Cysteine knot is a protein structural motif containing three disulfide bridges." []
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000045358
+name: insulin family protein
+def: "A protein that is a translation product of a gene that encodes a standalone Insulin (Pfam:PF00049) domain preceded by a signal peptide." []
+synonym: "fam:INS" EXACT []
+is_a: PR:000000001 ! protein
+
+[Typedef]
+id: derives_from
+xref: derives_from
+
+[Typedef]
+id: has_component
+xref: has_component
+
+[Typedef]
+id: has_part
+xref: has_part
+
+[Typedef]
+id: only_in_taxon
+xref: only_in_taxon
+
+[Typedef]
+id: part_of
+name: part_of
+xref: BFO:0000050
+is_transitive: true
+
