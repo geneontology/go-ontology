@@ -638,4 +638,4 @@ GO:2001310	gliotoxin biosynthetic process	NCBITaxon:4751	Fungi
 GO:0062097	chemosynthesis	NCBITaxon:Union_0000004	Prokaryota
 GO:0061512	protein localization to cilium	NCBITaxon:2759	Eukaryota
 GO:0098706	iron ion import across cell outer membrane	NCBITaxon:2	Bacteria
-GO:0047077  Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity NCBITaxon:71193 Elateroidea
+GO:0047077	Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity	NCBITaxon:71193	Elateroidea
