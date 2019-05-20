@@ -62,8 +62,8 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 [Term]
 id: CHEBI:10115
 name: zingiberene
-is_a: CHEBI:33643 ! cycloalkene
 is_a: CHEBI:35189 ! sesquiterpene
+is_a: CHEBI:37613 ! cyclohexadiene
 
 [Term]
 id: CHEBI:10119
@@ -145,6 +145,7 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 id: CHEBI:10334
 name: alpha-terpinene
 is_a: CHEBI:35187 ! monoterpene
+is_a: CHEBI:37613 ! cyclohexadiene
 relationship: has_role CHEBI:27311 ! volatile oil component
 relationship: has_role CHEBI:76924 ! plant metabolite
 
@@ -256,9 +257,8 @@ is_a: CHEBI:23139 ! chlorocyclohexene
 [Term]
 id: CHEBI:10577
 name: gamma-terpinene
-is_a: CHEBI:33642 ! cyclic olefin
-is_a: CHEBI:33664 ! monocyclic hydrocarbon
 is_a: CHEBI:35187 ! monoterpene
+is_a: CHEBI:37613 ! cyclohexadiene
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:27311 ! volatile oil component
 relationship: has_role CHEBI:76924 ! plant metabolite
@@ -676,6 +676,7 @@ is_a: CHEBI:15469 ! alk-2-enoyl-CoA
 [Term]
 id: CHEBI:116314
 name: oleamide
+is_a: CHEBI:143129 ! primary fatty amide
 is_a: CHEBI:29348 ! fatty amide
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -14339,12 +14340,12 @@ is_a: CHEBI:35786 ! phosphosphingolipid
 
 [Term]
 id: CHEBI:139561
-name: archaeal dolichyl beta-D-glucosyl phosphate(1-)
+name: archaeal dolichyl alpha-D-glucosyl phosphate(1-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
 id: CHEBI:139562
-name: archaeal dolichyl beta-D-glucuronosyl-(1->3)-beta-D-glucosyl phosphate(2-)
+name: archaeal dolichyl beta-D-glucuronosyl-(1->4)-alpha-D-glucosyl phosphate(2-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
 is_a: CHEBI:63551 ! carbohydrate acid derivative anion
 
@@ -15706,6 +15707,11 @@ name: alpha-L-Fuc-(1->2)-beta-D-Gal-(1->3)-beta-D-GalNAc-(1->3)-alpha-D-Gal-(1->
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
+id: CHEBI:140741
+name: hypotaurine(1-)
+is_a: CHEBI:37785 ! organosulfinate oxoanion
+
+[Term]
 id: CHEBI:140743
 name: alpha-D-Gal-(1->3)-alpha-D-Gal-(1->4)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 is_a: CHEBI:23075 ! glycotetraosylceramide
@@ -16196,6 +16202,11 @@ name: feruloyl-CoA
 is_a: CHEBI:17984 ! acyl-CoA
 
 [Term]
+id: CHEBI:142621
+name: medium-chain fatty aldehyde
+is_a: CHEBI:35746 ! fatty aldehyde
+
+[Term]
 id: CHEBI:142622
 name: primary fatty alcohol
 is_a: CHEBI:15734 ! primary alcohol
@@ -16339,6 +16350,89 @@ name: ultra-long-chain fatty acid anion
 is_a: CHEBI:58950 ! very long-chain fatty acid anion
 
 [Term]
+id: CHEBI:143017
+name: ultra-long-chain fatty acyl-CoA
+is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
+
+[Term]
+id: CHEBI:143018
+name: ultra-long-chain fatty acyl-CoA(4-)
+is_a: CHEBI:138261 ! very long-chain fatty acyl-CoA(4-)
+
+[Term]
+id: CHEBI:143079
+name: D-leucine zwitterion
+is_a: CHEBI:59871 ! D-alpha-amino acid zwitterion
+
+[Term]
+id: CHEBI:143080
+name: D-norleucine zwitterion
+is_a: CHEBI:59871 ! D-alpha-amino acid zwitterion
+
+[Term]
+id: CHEBI:143081
+name: D-homoserine zwitterion
+is_a: CHEBI:59871 ! D-alpha-amino acid zwitterion
+
+[Term]
+id: CHEBI:143084
+name: organometalloidal compound
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:143087
+name: 1-stearoyl-2-(9,10-epoxyoctadecanoyl)-sn-glycero-3-phospho-L-serine(1-)
+is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:57262 ! 3-sn-phosphatidyl-L-serine(1-)
+
+[Term]
+id: CHEBI:143089
+name: 10-hydroxyoctadecanoate
+is_a: CHEBI:131872 ! hydroxy saturated fatty acid anion
+
+[Term]
+id: CHEBI:143092
+name: 1-palmitoyl-2-(9,10-epoxyoctadecanoyl)-sn-glycero-3-phospho-L-serine(1-)
+is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:57262 ! 3-sn-phosphatidyl-L-serine(1-)
+
+[Term]
+id: CHEBI:143093
+name: 2'-3'-cGAMP(2-)
+is_a: CHEBI:58945 ! organophosphate oxoanion
+
+[Term]
+id: CHEBI:143095
+name: 10-hydroxyoctadecanoic acid
+is_a: CHEBI:15904 ! long-chain fatty acid
+is_a: CHEBI:24654 ! hydroxy fatty acid
+relationship: has_role CHEBI:76976 ! bacterial xenobiotic metabolite
+
+[Term]
+id: CHEBI:143097
+name: Gp[2'-5']Ap[3']
+is_a: CHEBI:61295 ! guanyl ribonucleotide
+is_a: CHEBI:61296 ! adenyl ribonucleotide
+is_a: CHEBI:75800 ! (2'->5')-dinucleotide
+
+[Term]
+id: CHEBI:143098
+name: Gp[2'-5']Ap[3'](3-)
+is_a: CHEBI:58945 ! organophosphate oxoanion
+
+[Term]
+id: CHEBI:143129
+name: primary fatty amide
+is_a: CHEBI:140324 ! primary carboxamide
+is_a: CHEBI:29348 ! fatty amide
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:143136
+name: succinamate
+is_a: CHEBI:35757 ! monocarboxylic acid anion
+
+[Term]
 id: CHEBI:14314
 name: D-glucose 6-phosphate
 is_a: CHEBI:17348 ! D-aldohexose 6-phosphate
@@ -16352,11 +16446,27 @@ is_a: CHEBI:33558 ! alpha-amino-acid anion
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
 [Term]
+id: CHEBI:143274
+name: (indol-3-yl)butanoate
+is_a: CHEBI:38468 ! indol-3-yl carboxylic acid anion
+
+[Term]
 id: CHEBI:14336
 name: glycerol 1-phosphate
 is_a: CHEBI:16890 ! glycerol monophosphate
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:84735 ! algal metabolite
+
+[Term]
+id: CHEBI:143516
+name: ultra-long-chain 3-oxoacyl-CoA(4-)
+is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
+
+[Term]
+id: CHEBI:143532
+name: prostaglandin F2alpha-CoA(4-)
+is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:58342 ! acyl-CoA(4-)
 
 [Term]
 id: CHEBI:1438
@@ -16732,6 +16842,7 @@ name: choline
 is_a: CHEBI:23217 ! cholines
 relationship: has_role CHEBI:25512 ! neurotransmitter
 relationship: has_role CHEBI:33284 ! nutrient
+relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76924 ! plant metabolite
@@ -18775,6 +18886,7 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 id: CHEBI:15683
 name: (R)-10-hydroxyoctadecanoate
 is_a: CHEBI:131872 ! hydroxy saturated fatty acid anion
+is_a: CHEBI:143089 ! 10-hydroxyoctadecanoate
 is_a: CHEBI:36059 ! hydroxy monocarboxylic acid anion
 
 [Term]
@@ -22246,6 +22358,7 @@ id: CHEBI:16294
 name: barbituric acid
 is_a: CHEBI:22693 ! barbiturates
 relationship: has_role CHEBI:35703 ! xenobiotic
+relationship: has_role CHEBI:50904 ! allergen
 
 [Term]
 id: CHEBI:16295
@@ -24507,6 +24620,7 @@ relationship: has_role CHEBI:78675 ! fundamental metabolite
 id: CHEBI:16705
 name: 6-aminopenicillanic acid
 is_a: CHEBI:25865 ! penicillanic acids
+relationship: has_role CHEBI:50904 ! allergen
 
 [Term]
 id: CHEBI:16706
@@ -24571,6 +24685,7 @@ relationship: has_role CHEBI:50266 ! prodrug
 relationship: has_role CHEBI:51177 ! antitussive
 relationship: has_role CHEBI:60606 ! opioid receptor agonist
 relationship: has_role CHEBI:78298 ! environmental contaminant
+relationship: has_role CHEBI:88188 ! drug allergen
 
 [Term]
 id: CHEBI:16715
@@ -26341,7 +26456,7 @@ relationship: has_role CHEBI:50733 ! nutraceutical
 
 [Term]
 id: CHEBI:17021
-name: S-substitued glutathione
+name: S-substituted glutathione
 is_a: CHEBI:24337 ! glutathione derivative
 
 [Term]
@@ -28077,6 +28192,7 @@ relationship: has_role CHEBI:38867 ! anaesthetic
 relationship: has_role CHEBI:55322 ! mu-opioid receptor agonist
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:78298 ! environmental contaminant
+relationship: has_role CHEBI:88188 ! drug allergen
 
 [Term]
 id: CHEBI:17304
@@ -28274,6 +28390,7 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 id: CHEBI:17334
 name: penicillin
 is_a: CHEBI:25865 ! penicillanic acids
+relationship: has_role CHEBI:50904 ! allergen
 
 [Term]
 id: CHEBI:17335
@@ -29554,6 +29671,7 @@ name: uracil
 is_a: CHEBI:26432 ! pyrimidine nucleobase
 is_a: CHEBI:38337 ! pyrimidone
 relationship: has_role CHEBI:50266 ! prodrug
+relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
@@ -29775,6 +29893,7 @@ id: CHEBI:17602
 name: 4-aminophenol
 is_a: CHEBI:28829 ! aminophenol
 relationship: has_role CHEBI:25212 ! metabolite
+relationship: has_role CHEBI:50904 ! allergen
 
 [Term]
 id: CHEBI:17604
@@ -30059,6 +30178,7 @@ relationship: has_role CHEBI:49167 ! anti-asthmatic drug
 relationship: has_role CHEBI:50857 ! anti-allergic agent
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
+relationship: has_role CHEBI:88188 ! drug allergen
 
 [Term]
 id: CHEBI:17652
@@ -31621,6 +31741,7 @@ id: CHEBI:17935
 name: octanal
 is_a: CHEBI:12834 ! n-alkanal
 is_a: CHEBI:133249 ! saturated fatty aldehyde
+is_a: CHEBI:142621 ! medium-chain fatty aldehyde
 relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
@@ -32664,7 +32785,7 @@ relationship: has_role CHEBI:25212 ! metabolite
 [Term]
 id: CHEBI:18126
 name: S-acylglutathione
-is_a: CHEBI:17021 ! S-substitued glutathione
+is_a: CHEBI:17021 ! S-substituted glutathione
 is_a: CHEBI:22229 ! acylglutathione
 is_a: CHEBI:51277 ! thioester
 
@@ -32709,6 +32830,7 @@ is_a: CHEBI:76224 ! aromatic ketone
 id: CHEBI:18132
 name: phosphocholine
 is_a: CHEBI:36700 ! phosphocholines
+relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:53000 ! epitope
 relationship: has_role CHEBI:59174 ! hapten
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -33059,6 +33181,7 @@ is_a: CHEBI:17334 ! penicillin
 is_a: CHEBI:88187 ! penicillin allergen
 relationship: has_role CHEBI:36047 ! antibacterial drug
 relationship: has_role CHEBI:53000 ! epitope
+relationship: has_role CHEBI:88188 ! drug allergen
 
 [Term]
 id: CHEBI:18209
@@ -33107,6 +33230,7 @@ id: CHEBI:18217
 name: alpha-D-Gal-(1->3)-beta-D-Gal-(1->4)-D-GlcNAc
 is_a: CHEBI:22485 ! glucosamine oligosaccharide
 is_a: CHEBI:59266 ! amino trisaccharide
+relationship: has_role CHEBI:50904 ! allergen
 
 [Term]
 id: CHEBI:18218
@@ -33402,7 +33526,7 @@ is_a: CHEBI:23447 ! cyclic nucleotide
 [Term]
 id: CHEBI:18272
 name: N(2)-formyl-N(1)-(5-phospho-D-ribosyl)glycinamide
-is_a: CHEBI:24367 ! glycinamide ribonucleotide
+is_a: CHEBI:24367 ! glycinamide ribonucleotide(2-)
 
 [Term]
 id: CHEBI:18274
@@ -37114,6 +37238,7 @@ is_a: CHEBI:37146 ! molybdopterin dinucleotide
 id: CHEBI:22899
 name: bisdechlorogeodin
 is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:37613 ! cyclohexadiene
 is_a: CHEBI:37948 ! oxaspiro compound
 is_a: CHEBI:38830 ! 1-benzofurans
 relationship: has_role CHEBI:33281 ! antimicrobial agent
@@ -38026,17 +38151,19 @@ is_a: CHEBI:25705 ! organochlorine insecticide
 id: CHEBI:23466
 name: cyclohexadienecarboxylate
 is_a: CHEBI:35757 ! monocarboxylic acid anion
+is_a: CHEBI:37613 ! cyclohexadiene
 
 [Term]
 id: CHEBI:23468
 name: cyclohexadienecarboxylic acid
 is_a: CHEBI:25384 ! monocarboxylic acid
-is_a: CHEBI:78840 ! olefinic compound
+is_a: CHEBI:37613 ! cyclohexadiene
 
 [Term]
 id: CHEBI:23469
 name: cyclohexadienediol
 is_a: CHEBI:23824 ! diol
+is_a: CHEBI:37613 ! cyclohexadiene
 
 [Term]
 id: CHEBI:23470
@@ -39322,7 +39449,7 @@ is_a: CHEBI:37739 ! glycerophospholipid
 
 [Term]
 id: CHEBI:24367
-name: glycinamide ribonucleotide
+name: glycinamide ribonucleotide(2-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
@@ -45082,6 +45209,7 @@ is_a: CHEBI:138675 ! gas molecular entity
 is_a: CHEBI:36389 ! saturated organic heteromonocyclic parent
 is_a: CHEBI:38104 ! oxacycle
 relationship: has_role CHEBI:25435 ! mutagen
+relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
@@ -45978,6 +46106,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 [Term]
 id: CHEBI:27836
 name: dodecanal
+is_a: CHEBI:142621 ! medium-chain fatty aldehyde
 is_a: CHEBI:17176 ! long-chain fatty aldehyde
 is_a: CHEBI:84587 ! 2,3-saturated fatty aldehyde
 relationship: has_role CHEBI:76924 ! plant metabolite
@@ -48449,6 +48578,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 id: CHEBI:28694
 name: copper atom
 is_a: CHEBI:33366 ! copper group element atom
+is_a: CHEBI:88184 ! metal allergen
 relationship: has_role CHEBI:27027 ! micronutrient
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
@@ -51888,6 +52018,7 @@ is_a: CHEBI:25978 ! phenylacetic acids
 relationship: has_role CHEBI:22676 ! auxin
 relationship: has_role CHEBI:27026 ! toxin
 relationship: has_role CHEBI:35219 ! plant growth retardant
+relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:76956 ! Aspergillus metabolite
@@ -51941,6 +52072,7 @@ relationship: has_role CHEBI:74783 ! astringent
 id: CHEBI:30753
 name: 4-aminobenzoic acid
 is_a: CHEBI:22495 ! aminobenzoic acid
+relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
@@ -52629,7 +52761,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:31002
 name: octacosanoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:58954 ! straight-chain saturated fatty acid anion
 is_a: CHEBI:78130 ! fatty acid anion 28:0
 
@@ -52642,7 +52774,7 @@ is_a: CHEBI:39418 ! straight-chain saturated fatty acid
 [Term]
 id: CHEBI:31004
 name: triacontanoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:58954 ! straight-chain saturated fatty acid anion
 is_a: CHEBI:78131 ! fatty acid anion 30:0
 
@@ -52670,7 +52802,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
 id: CHEBI:31014
-name: lignocerate
+name: tetracosanoate
 is_a: CHEBI:58950 ! very long-chain fatty acid anion
 is_a: CHEBI:58954 ! straight-chain saturated fatty acid anion
 is_a: CHEBI:78128 ! fatty acid anion 24:0
@@ -52915,6 +53047,7 @@ id: CHEBI:31457
 name: decanal
 is_a: CHEBI:12834 ! n-alkanal
 is_a: CHEBI:133249 ! saturated fatty aldehyde
+is_a: CHEBI:142621 ! medium-chain fatty aldehyde
 relationship: has_role CHEBI:35718 ! antifungal agent
 relationship: has_role CHEBI:48318 ! fragrance
 relationship: has_role CHEBI:76924 ! plant metabolite
@@ -53454,9 +53587,6 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:32392
 name: (15Z)-tetracosenoate
-is_a: CHEBI:2580 ! unsaturated fatty acid anion
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:59203 ! straight-chain fatty acid anion
 is_a: CHEBI:78068 ! tetracosenoate
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -55522,13 +55652,6 @@ is_a: CHEBI:35701 ! ester
 is_a: CHEBI:36586 ! carbonyl compound
 
 [Term]
-id: CHEBI:33309
-name: noble gas atom
-is_a: CHEBI:138675 ! gas molecular entity
-is_a: CHEBI:25585 ! nonmetal atom
-is_a: CHEBI:33318 ! main group element atom
-
-[Term]
 id: CHEBI:33317
 name: boron group element atom
 is_a: CHEBI:33560 ! p-block element atom
@@ -55649,6 +55772,7 @@ relationship: has_role CHEBI:39141 ! Bronsted acid
 [Term]
 id: CHEBI:33406
 name: organoarsenic compound
+is_a: CHEBI:143084 ! organometalloidal compound
 is_a: CHEBI:22632 ! arsenic molecular entity
 
 [Term]
@@ -57626,6 +57750,7 @@ id: CHEBI:34787
 name: heptanal
 is_a: CHEBI:12834 ! n-alkanal
 is_a: CHEBI:133249 ! saturated fatty aldehyde
+is_a: CHEBI:142621 ! medium-chain fatty aldehyde
 relationship: has_role CHEBI:59163 ! biomarker
 
 [Term]
@@ -60804,6 +60929,7 @@ is_a: CHEBI:25789 ! hexenedioic acid
 id: CHEBI:36194
 name: cyclohexadienedicarboxylic acid
 is_a: CHEBI:134531 ! polyunsaturated dicarboxylic acid
+is_a: CHEBI:37613 ! cyclohexadiene
 
 [Term]
 id: CHEBI:36197
@@ -65829,6 +65955,7 @@ id: CHEBI:38265
 name: carvone
 is_a: CHEBI:23048 ! carvones
 is_a: CHEBI:86494 ! botanical anti-fungal agent
+relationship: has_role CHEBI:50904 ! allergen
 
 [Term]
 id: CHEBI:38266
@@ -67744,6 +67871,7 @@ id: CHEBI:40538
 name: benzylamine
 is_a: CHEBI:18000 ! aralkylamine
 is_a: CHEBI:32877 ! primary amine
+relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:77118 ! EC 3.5.5.1 (nitrilase) inhhibitor
 
@@ -68207,6 +68335,7 @@ id: CHEBI:42017
 name: 2,4-dinitrophenol
 is_a: CHEBI:39352 ! dinitrophenol
 relationship: has_role CHEBI:48218 ! antiseptic drug
+relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:73267 ! oxidative phosphorylation inhibitor
 relationship: has_role CHEBI:76976 ! bacterial xenobiotic metabolite
 
@@ -68440,6 +68569,7 @@ relationship: has_role CHEBI:53000 ! epitope
 id: CHEBI:42564
 name: alpha-D-fucose
 is_a: CHEBI:2179 ! D-fucopyranose
+relationship: has_role CHEBI:50904 ! allergen
 
 [Term]
 id: CHEBI:42589
@@ -69265,6 +69395,7 @@ is_a: CHEBI:48975 ! substituted aniline
 is_a: CHEBI:87228 ! sulfonamide antibiotic
 relationship: has_role CHEBI:23018 ! EC 4.2.1.1 (carbonic anhydrase) inhibitor
 relationship: has_role CHEBI:33282 ! antibacterial agent
+relationship: has_role CHEBI:88188 ! drug allergen
 
 [Term]
 id: CHEBI:45389
@@ -72612,7 +72743,7 @@ relationship: has_role CHEBI:78298 ! environmental contaminant
 [Term]
 id: CHEBI:48926
 name: S-(hydroxymethyl)glutathione
-is_a: CHEBI:17021 ! S-substitued glutathione
+is_a: CHEBI:17021 ! S-substituted glutathione
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
@@ -74013,14 +74144,6 @@ relationship: has_role CHEBI:48001 ! protein synthesis inhibitor
 relationship: has_role CHEBI:75190 ! EC 5.4.3.2 (lysine 2,3-aminomutase) inhibitor
 
 [Term]
-id: CHEBI:49786
-name: nickel(2+)
-is_a: CHEBI:25516 ! nickel cation
-is_a: CHEBI:30412 ! monoatomic dication
-is_a: CHEBI:60240 ! divalent metal cation
-is_a: CHEBI:88186 ! metal cation allergen
-
-[Term]
 id: CHEBI:49807
 name: lead(2+)
 is_a: CHEBI:30412 ! monoatomic dication
@@ -74048,12 +74171,6 @@ relationship: has_role CHEBI:23357 ! cofactor
 id: CHEBI:49900
 name: arsenous acid
 is_a: CHEBI:33407 ! arsenic oxoacid
-
-[Term]
-id: CHEBI:49957
-name: xenon atom
-is_a: CHEBI:33309 ! noble gas atom
-is_a: CHEBI:33560 ! p-block element atom
 
 [Term]
 id: CHEBI:49983
@@ -74454,8 +74571,12 @@ is_a: CHEBI:61313 ! C21-steroid
 
 [Term]
 id: CHEBI:50169
-name: 3alpha-hydroxy-5alpha-pregnan-20-one
+name: brexanolone
 is_a: CHEBI:50170 ! 3-hydroxy-5alpha-pregnan-20-one
+relationship: has_role CHEBI:35469 ! antidepressant
+relationship: has_role CHEBI:35717 ! sedative
+relationship: has_role CHEBI:38877 ! intravenous anaesthetic
+relationship: has_role CHEBI:50268 ! GABA modulator
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -74594,6 +74715,11 @@ is_a: CHEBI:76760 ! EC 3.1.* (ester hydrolase) inhibitor
 id: CHEBI:50226
 name: 7-methyl-GTP(1+)
 is_a: CHEBI:37121 ! guanosine 5'-phosphate
+
+[Term]
+id: CHEBI:50229
+name: Schiff base
+is_a: CHEBI:24783 ! imine
 
 [Term]
 id: CHEBI:50232
@@ -76443,6 +76569,7 @@ is_a: CHEBI:51958 ! organic polycyclic compound
 [Term]
 id: CHEBI:513
 name: 1,3,4,6-tetrachlorocyclohexa-1,4-diene
+is_a: CHEBI:37613 ! cyclohexadiene
 is_a: CHEBI:39482 ! chloroolefin
 
 [Term]
@@ -78055,7 +78182,7 @@ is_a: CHEBI:33247 ! organic group
 [Term]
 id: CHEBI:52857
 name: S-sulfanylglutathione
-is_a: CHEBI:17021 ! S-substitued glutathione
+is_a: CHEBI:17021 ! S-substituted glutathione
 is_a: CHEBI:47923 ! tripeptide
 is_a: CHEBI:83824 ! L-cysteine derivative
 
@@ -83027,7 +83154,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:57947
 name: creatine zwitterion
-is_a: CHEBI:35238 ! amino acid zwitterion
+is_a: CHEBI:27369 ! zwitterion
 
 [Term]
 id: CHEBI:57948
@@ -84896,6 +85023,7 @@ is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 id: CHEBI:583099
 name: ent-zingiberene
 is_a: CHEBI:35189 ! sesquiterpene
+is_a: CHEBI:37613 ! cyclohexadiene
 
 [Term]
 id: CHEBI:58310
@@ -100510,7 +100638,7 @@ is_a: CHEBI:73311 ! adenosine receptor agonist
 
 [Term]
 id: CHEBI:65059
-name: behenoyl-CoA(4-)
+name: docosanoyl-CoA(4-)
 is_a: CHEBI:65111 ! 3-substituted propionyl-CoA(4-)
 is_a: CHEBI:77332 ! saturated fatty acyl-CoA(4-)
 is_a: CHEBI:83139 ! long-chain fatty acyl-CoA(4-)
@@ -100659,7 +100787,7 @@ is_a: CHEBI:139575 ! monounsaturated fatty acyl-CoA
 
 [Term]
 id: CHEBI:65088
-name: behenoyl-CoA
+name: docosanoyl-CoA
 is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
@@ -101502,7 +101630,7 @@ is_a: CHEBI:33558 ! alpha-amino-acid anion
 [Term]
 id: CHEBI:66924
 name: creatinate
-is_a: CHEBI:33558 ! alpha-amino-acid anion
+is_a: CHEBI:35757 ! monocarboxylic acid anion
 
 [Term]
 id: CHEBI:66929
@@ -103970,6 +104098,13 @@ is_a: CHEBI:36700 ! phosphocholines
 id: CHEBI:71059
 name: 15-methylhexadecasphinganine 1-phosphate
 is_a: CHEBI:77068 ! sphingoid 1-phosphate
+
+[Term]
+id: CHEBI:71063
+name: N-retinylidenephosphatidylethanolamine
+is_a: CHEBI:26537 ! retinoid
+is_a: CHEBI:36314 ! glycerophosphoethanolamine
+is_a: CHEBI:50229 ! Schiff base
 
 [Term]
 id: CHEBI:71156
@@ -108326,13 +108461,13 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
 id: CHEBI:73975
-name: 3-oxomontanoyl-CoA
+name: 3-oxo-octacosanoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:73976
-name: 3-oxomontanoyl-CoA(4-)
+name: 3-oxo-octacosanoyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
 is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
@@ -108845,8 +108980,8 @@ is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74150
-name: montanoyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
+name: octacosanoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74151
@@ -108997,10 +109132,10 @@ is_a: CHEBI:25696 ! organic anion
 
 [Term]
 id: CHEBI:74228
-name: 3-oxomelissoyl-CoA(4-)
+name: 3-oxotriacontanoyl-CoA(4-)
+is_a: CHEBI:143018 ! ultra-long-chain fatty acyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74229
@@ -109013,9 +109148,9 @@ is_a: CHEBI:90736 ! very long-chain acyl-CoA(4-)
 [Term]
 id: CHEBI:74230
 name: (13Z,16Z,19Z,22Z,25Z)-3-oxooctacosapentaenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74231
@@ -109063,9 +109198,9 @@ is_a: CHEBI:65055 ! 1-octadecanoyl-2-acyl-sn-glycero-3-phospho-1D-myo-inositol(1
 [Term]
 id: CHEBI:74246
 name: (15Z,18Z,21Z,24Z,27Z)-3-oxotriacontapentaenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74247
@@ -109077,9 +109212,9 @@ is_a: CHEBI:90736 ! very long-chain acyl-CoA(4-)
 [Term]
 id: CHEBI:74249
 name: (19Z,22Z,25Z,28Z,31Z)-3-oxotetratriacontapentaenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74252
@@ -109092,9 +109227,9 @@ relationship: has_role CHEBI:26672 ! siderophore
 [Term]
 id: CHEBI:74254
 name: (17Z,20Z,23Z,26Z,29Z)-3-oxodotriacontapentaenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74257
@@ -109118,9 +109253,9 @@ is_a: CHEBI:90736 ! very long-chain acyl-CoA(4-)
 [Term]
 id: CHEBI:74261
 name: (21Z,24Z,27Z,30Z,33Z)-3-oxohexatriacontapentaenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74262
@@ -109132,9 +109267,9 @@ is_a: CHEBI:90736 ! very long-chain acyl-CoA(4-)
 [Term]
 id: CHEBI:74263
 name: (23Z,26Z,29Z,32Z,35Z)-3-oxooctatriacontapentaenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74264
@@ -109236,9 +109371,9 @@ is_a: CHEBI:90736 ! very long-chain acyl-CoA(4-)
 [Term]
 id: CHEBI:74283
 name: (13Z,16Z,19Z,22Z)-3-oxooctacosatetraenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74285
@@ -109250,9 +109385,9 @@ is_a: CHEBI:90736 ! very long-chain acyl-CoA(4-)
 [Term]
 id: CHEBI:74286
 name: (15Z,18Z,21Z,24Z)-3-oxotriacontatetraenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74287
@@ -109264,9 +109399,9 @@ is_a: CHEBI:90736 ! very long-chain acyl-CoA(4-)
 [Term]
 id: CHEBI:74288
 name: (17Z,20Z,23Z,26Z)-3-oxodotriacontatetraenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74289
@@ -109278,9 +109413,9 @@ is_a: CHEBI:90736 ! very long-chain acyl-CoA(4-)
 [Term]
 id: CHEBI:74290
 name: (19Z,22Z,25Z,28Z)-3-oxotetratriacontatetraenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74291
@@ -109292,9 +109427,9 @@ is_a: CHEBI:90736 ! very long-chain acyl-CoA(4-)
 [Term]
 id: CHEBI:74292
 name: (21Z,24Z,27Z,30Z)-3-oxohexatriacontatetraenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74293
@@ -109306,9 +109441,9 @@ is_a: CHEBI:90736 ! very long-chain acyl-CoA(4-)
 [Term]
 id: CHEBI:74294
 name: (23Z,26Z,29Z,32Z)-3-oxooctatriacontatetraenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74296
@@ -109395,20 +109530,20 @@ is_a: CHEBI:77331 ! monounsaturated fatty acyl-CoA(4-)
 [Term]
 id: CHEBI:74311
 name: (10Z,13Z,16Z,19Z,22Z,25Z)-3-oxooctacosahexaenoyl-CoA(4-)
+is_a: CHEBI:143018 ! ultra-long-chain fatty acyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74312
 name: (10Z,13Z,16Z,19Z,22Z,25Z)-octacosahexaenoyl-CoA(4-)
+is_a: CHEBI:143018 ! ultra-long-chain fatty acyl-CoA(4-)
 is_a: CHEBI:77330 ! polyunsaturated fatty acyl-CoA(4-)
-is_a: CHEBI:90736 ! very long-chain acyl-CoA(4-)
 
 [Term]
 id: CHEBI:74313
 name: (12Z,15Z,18Z,21Z,24Z,27Z)-3-oxotriacontahexaenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74315
@@ -109419,9 +109554,9 @@ is_a: CHEBI:90736 ! very long-chain acyl-CoA(4-)
 [Term]
 id: CHEBI:74316
 name: (14Z,17Z,20Z,23Z,26Z,29Z)-3-oxodotriacontahexaenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74317
@@ -109432,9 +109567,9 @@ is_a: CHEBI:90736 ! very long-chain acyl-CoA(4-)
 [Term]
 id: CHEBI:74318
 name: (16Z,19Z,22Z,25Z,28Z,31Z)-3-oxotetratriacontahexaenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74319
@@ -109445,9 +109580,9 @@ is_a: CHEBI:90736 ! very long-chain acyl-CoA(4-)
 [Term]
 id: CHEBI:74320
 name: (18Z,21Z,24Z,27Z,30Z,33Z)-3-oxohexatriacontahexaenoyl-CoA(4-)
+is_a: CHEBI:143516 ! ultra-long-chain 3-oxoacyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
-is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 
 [Term]
 id: CHEBI:74322
@@ -109556,9 +109691,9 @@ is_a: CHEBI:27369 ! zwitterion
 
 [Term]
 id: CHEBI:74355
-name: 3-oxomelissoyl-CoA
+name: 3-oxotriacontanoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74358
@@ -109574,9 +109709,9 @@ is_a: CHEBI:59869 ! L-alpha-amino acid zwitterion
 [Term]
 id: CHEBI:74360
 name: (13Z,16Z,19Z,22Z,25Z)-3-oxooctacosapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74361
@@ -109667,29 +109802,29 @@ is_a: CHEBI:85348 ! 11,12-saturated fatty acyl-CoA
 [Term]
 id: CHEBI:74399
 name: (15Z,18Z,21Z,24Z,27Z)-3-oxotriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74400
 name: (15Z,18Z,21Z,24Z,27Z)-triacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74401
 name: (19Z,22Z,25Z,28Z,31Z)-3-oxotetratriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74402
 name: (17Z,20Z,23Z,26Z,29Z)-3-oxodotriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74405
@@ -109711,8 +109846,8 @@ is_a: CHEBI:35179 ! 2-oxo monocarboxylic acid anion
 [Term]
 id: CHEBI:74409
 name: (17Z,20Z,23Z,26Z,29Z)-dotriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74411
@@ -109722,8 +109857,8 @@ is_a: CHEBI:90675 ! ribonucleotide residue(1-)
 [Term]
 id: CHEBI:74413
 name: (13Z,16Z,19Z,22Z,25Z)-octacosapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74414
@@ -109788,8 +109923,8 @@ is_a: CHEBI:90725 ! very long-chain 3-oxoacyl-CoA(4-)
 [Term]
 id: CHEBI:74428
 name: (19Z,22Z,25Z,28Z,31Z)-tetratriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74429
@@ -109799,9 +109934,9 @@ is_a: CHEBI:64775 ! organic anionic group
 [Term]
 id: CHEBI:74431
 name: (21Z,24Z,27Z,30Z,33Z)-3-oxohexatriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74432
@@ -109816,15 +109951,15 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 [Term]
 id: CHEBI:74436
 name: (21Z,24Z,27Z,30Z,33Z)-hexatriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74442
 name: (23Z,26Z,29Z,32Z,35Z)-3-oxooctatriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74443
@@ -109957,9 +110092,9 @@ is_a: CHEBI:64775 ! organic anionic group
 [Term]
 id: CHEBI:74485
 name: (13Z,16Z,19Z,22Z)-3-oxooctacosatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74486
@@ -109969,7 +110104,7 @@ is_a: CHEBI:64775 ! organic anionic group
 [Term]
 id: CHEBI:74489
 name: (13Z,16Z,19Z,22Z)-octacosatetraenoyl-CoA
-is_a: CHEBI:33184 ! long-chain fatty acyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
 is_a: CHEBI:85348 ! 11,12-saturated fatty acyl-CoA
 
@@ -109991,9 +110126,9 @@ is_a: CHEBI:64775 ! organic anionic group
 [Term]
 id: CHEBI:74496
 name: (15Z,18Z,21Z,24Z)-3-oxotriacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74497
@@ -110003,8 +110138,8 @@ is_a: CHEBI:64775 ! organic anionic group
 [Term]
 id: CHEBI:74499
 name: (15Z,18Z,21Z,24Z)-triacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74502
@@ -110019,9 +110154,9 @@ is_a: CHEBI:139052 ! inositol-1-phosphodihydroceramide(1-)
 [Term]
 id: CHEBI:74504
 name: (17Z,20Z,23Z,26Z)-3-oxodotriacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74505
@@ -110046,8 +110181,8 @@ is_a: CHEBI:64775 ! organic anionic group
 [Term]
 id: CHEBI:74512
 name: (17Z,20Z,23Z,26Z)-dotriacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74513
@@ -110057,9 +110192,9 @@ is_a: CHEBI:64775 ! organic anionic group
 [Term]
 id: CHEBI:74515
 name: (19Z,22Z,25Z,28Z)-3-oxotetratriacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74518
@@ -110069,21 +110204,21 @@ is_a: CHEBI:52210 ! pharmacological role
 [Term]
 id: CHEBI:74519
 name: (19Z,22Z,25Z,28Z)-tetratriacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74522
 name: (21Z,24Z,27Z,30Z)-3-oxohexatriacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74525
 name: (21Z,24Z,27Z,30Z)-hexatriacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74529
@@ -110183,9 +110318,9 @@ is_a: CHEBI:57970 ! 1-acyl-sn-glycerol 3-phosphate(2-)
 [Term]
 id: CHEBI:74572
 name: (23Z,26Z,29Z,32Z)-3-oxooctatriacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74574
@@ -110261,35 +110396,35 @@ is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 [Term]
 id: CHEBI:74588
 name: (10Z,13Z,16Z,19Z,22Z,25Z)-3-oxooctacosahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74590
 name: (10Z,13Z,16Z,19Z,22Z,25Z)-octacosahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74592
 name: (12Z,15Z,18Z,21Z,24Z,27Z)-3-oxotriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74593
 name: (12Z,15Z,18Z,21Z,24Z,27Z)-triacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74595
 name: (14Z,17Z,20Z,23Z,26Z,29Z)-3-oxodotriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74596
@@ -110305,28 +110440,28 @@ is_a: CHEBI:60245 ! inositol phosphoceramide
 [Term]
 id: CHEBI:74600
 name: (14Z,17Z,20Z,23Z,26Z,29Z)-dotriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74601
 name: (16Z,19Z,22Z,25Z,28Z,31Z)-3-oxotetratriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74602
 name: (16Z,19Z,22Z,25Z,28Z,31Z)-tetratriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74603
 name: (18Z,21Z,24Z,27Z,30Z,33Z)-3-oxohexatriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:74604
@@ -113137,7 +113272,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 
 [Term]
 id: CHEBI:75913
-name: 2-O-arachidonylglycerol
+name: 2-arachidonyl glyceryl ether
 is_a: CHEBI:67197 ! endocannabinoid
 is_a: CHEBI:75883 ! monoalkylglycerol
 is_a: CHEBI:76581 ! 2-alkylglycerol
@@ -113255,8 +113390,7 @@ relationship: has_role CHEBI:76946 ! fungal metabolite
 
 [Term]
 id: CHEBI:75947
-name: c[G(2',5')pA(3',5')p]
-is_a: CHEBI:26979 ! organic heterotricyclic compound
+name: 2'-3'-cGAMP
 is_a: CHEBI:47037 ! cyclic purine dinucleotide
 is_a: CHEBI:61295 ! guanyl ribonucleotide
 is_a: CHEBI:61296 ! adenyl ribonucleotide
@@ -113372,7 +113506,7 @@ is_a: CHEBI:76102 ! laudanine(1+)
 [Term]
 id: CHEBI:76024
 name: dotriacontanoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:58954 ! straight-chain saturated fatty acid anion
 
 [Term]
@@ -114244,21 +114378,22 @@ is_a: CHEBI:71456 ! 3-hydroxydocosanoyl-CoA(4-)
 
 [Term]
 id: CHEBI:76377
-name: (R)-3-hydroxylignoceroyl-CoA(4-)
+name: (3R)-3-hydroxytetracosanoyl-CoA(4-)
 is_a: CHEBI:57319 ! (R)-3-hydroxyacyl-CoA(4-)
 is_a: CHEBI:65102 ! 3-hydroxy fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
 
 [Term]
 id: CHEBI:76378
-name: (R)-3-hydroxycerotoyl-CoA(4-)
+name: (R)-3-hydroxyhexacosanoyl-CoA(4-)
 is_a: CHEBI:57319 ! (R)-3-hydroxyacyl-CoA(4-)
 is_a: CHEBI:65102 ! 3-hydroxy fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
 
 [Term]
 id: CHEBI:76382
-name: (R)-3-hydroxymontanoyl-CoA(4-)
+name: (R)-3-hydroxyoctacosanoyl-CoA(4-)
+is_a: CHEBI:143018 ! ultra-long-chain fatty acyl-CoA(4-)
 is_a: CHEBI:57319 ! (R)-3-hydroxyacyl-CoA(4-)
 is_a: CHEBI:65102 ! 3-hydroxy fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
@@ -114270,7 +114405,7 @@ is_a: CHEBI:58856 ! 2,3-trans-enoyl CoA(4-)
 
 [Term]
 id: CHEBI:76384
-name: (R)-3-hydroxymelissoyl-CoA(4-)
+name: (R)-3-hydroxytriacontanoyl-CoA(4-)
 is_a: CHEBI:57319 ! (R)-3-hydroxyacyl-CoA(4-)
 is_a: CHEBI:65102 ! 3-hydroxy fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
@@ -114282,7 +114417,8 @@ is_a: CHEBI:58856 ! 2,3-trans-enoyl CoA(4-)
 
 [Term]
 id: CHEBI:76386
-name: melissoyl-CoA(4-)
+name: triacontanoyl-CoA(4-)
+is_a: CHEBI:143018 ! ultra-long-chain fatty acyl-CoA(4-)
 is_a: CHEBI:65111 ! 3-substituted propionyl-CoA(4-)
 is_a: CHEBI:77332 ! saturated fatty acyl-CoA(4-)
 
@@ -114633,7 +114769,7 @@ is_a: CHEBI:65102 ! 3-hydroxy fatty acyl-CoA(4-)
 
 [Term]
 id: CHEBI:76463
-name: (R)-3-hydroxylignoceroyl-CoA
+name: (3R)-3-hydroxytetracosanoyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
@@ -114645,7 +114781,7 @@ is_a: CHEBI:58856 ! 2,3-trans-enoyl CoA(4-)
 
 [Term]
 id: CHEBI:76465
-name: (R)-3-hydroxycerotoyl-CoA
+name: (R)-3-hydroxyhexacosanoyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
@@ -114687,10 +114823,10 @@ is_a: CHEBI:58856 ! 2,3-trans-enoyl CoA(4-)
 
 [Term]
 id: CHEBI:76472
-name: (R)-3-hydroxymontanoyl-CoA
+name: (R)-3-hydroxyoctacosanoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76473
@@ -114756,17 +114892,17 @@ is_a: CHEBI:77330 ! polyunsaturated fatty acyl-CoA(4-)
 
 [Term]
 id: CHEBI:76485
-name: (R)-3-hydroxymelissoyl-CoA
+name: (R)-3-hydroxytriacontanoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76490
-name: trans-2-octacosenoyl-CoA
+name: trans-octacos-2-enoyl-CoA
 is_a: CHEBI:139575 ! monounsaturated fatty acyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:50998 ! trans-2-enoyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76491
@@ -114777,8 +114913,8 @@ is_a: CHEBI:57319 ! (R)-3-hydroxyacyl-CoA(4-)
 id: CHEBI:76492
 name: trans-2-triacontenoyl-CoA
 is_a: CHEBI:139575 ! monounsaturated fatty acyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:50998 ! trans-2-enoyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76493
@@ -114813,8 +114949,8 @@ is_a: CHEBI:76507 ! marine metabolite
 
 [Term]
 id: CHEBI:76500
-name: melissoyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
+name: triacontanoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76502
@@ -115044,16 +115180,16 @@ is_a: CHEBI:77330 ! polyunsaturated fatty acyl-CoA(4-)
 [Term]
 id: CHEBI:76553
 name: (3R,13Z,16Z,19Z,22Z)-3-hydroxyoctacosatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76554
 name: (2E,13Z,16Z,19Z,22Z)-octacosapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76555
@@ -115063,10 +115199,10 @@ is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 [Term]
 id: CHEBI:76556
 name: (3R,15Z,18Z,21Z,24Z)-3-hydroxytriacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76557
@@ -115088,8 +115224,8 @@ is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
 [Term]
 id: CHEBI:76560
 name: (2E,15Z,18Z,21Z,24Z)-triacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76561
@@ -115109,10 +115245,10 @@ is_a: CHEBI:77331 ! monounsaturated fatty acyl-CoA(4-)
 [Term]
 id: CHEBI:76564
 name: (3R,17Z,20Z,23Z,26Z)-3-hydroxydotriacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76565
@@ -115122,8 +115258,8 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 [Term]
 id: CHEBI:76566
 name: (2E,17Z,20Z,23Z,26Z)-dotriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76567
@@ -115133,30 +115269,30 @@ is_a: CHEBI:2580 ! unsaturated fatty acid anion
 [Term]
 id: CHEBI:76568
 name: (3R,19Z,22Z,25Z,28Z)-3-hydroxytetratriacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76569
 name: (2E,19Z,22Z,25Z,28Z)-tetratriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76570
 name: (3R,21Z,24Z,27Z,30Z)-3-hydroxyhexatriacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76571
 name: (2E,21Z,24Z,27Z,30Z)-hexatriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76575
@@ -115306,16 +115442,16 @@ is_a: CHEBI:28868 ! fatty acid anion
 [Term]
 id: CHEBI:76621
 name: (3R,23Z,26Z,29Z,32Z)-3-hydroxyoctatriacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76623
 name: (2E,23Z,26Z,29Z,32Z)-octatriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76624
@@ -115334,8 +115470,8 @@ is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 [Term]
 id: CHEBI:76626
 name: (23Z,26Z,29Z,32Z)-octatriacontatetraenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76627
@@ -115483,24 +115619,24 @@ is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 [Term]
 id: CHEBI:76652
 name: (3R,13Z,16Z,19Z,22Z,25Z)-3-hydroxyoctacosapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76653
 name: (2E,13Z,16Z,19Z,22Z,25Z)-octacosahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76654
 name: (3R,15Z,18Z,21Z,24Z,27Z)-3-hydroxytriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76655
@@ -115510,30 +115646,30 @@ is_a: CHEBI:71300 ! EC 2.* (transferase) inhibitor
 [Term]
 id: CHEBI:76656
 name: (2E,15Z,18Z,21Z,24Z,27Z)-triacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76657
 name: (3R,17Z,20Z,23Z,26Z,29Z)-3-hydroxydotriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76658
 name: (2E,17Z,20Z,23Z,26Z,29Z)-dotriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76659
 name: (3R,19Z,22Z,25Z,28Z,31Z)-3-hydroxytetratriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76660
@@ -115558,8 +115694,8 @@ is_a: CHEBI:76834 ! EC 2.5.* (non-methyl-alkyl or aryl transferase) inhibitor
 [Term]
 id: CHEBI:76664
 name: (2E,19Z,22Z,25Z,28Z,31Z)-tetratriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76665
@@ -115569,16 +115705,16 @@ is_a: CHEBI:71300 ! EC 2.* (transferase) inhibitor
 [Term]
 id: CHEBI:76666
 name: (3R,21Z,24Z,27Z,30Z,33Z)-3-hydroxyhexatriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76667
 name: (2E,21Z,24Z,27Z,30Z,33Z)-hexatriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76668
@@ -115588,22 +115724,22 @@ is_a: CHEBI:71300 ! EC 2.* (transferase) inhibitor
 [Term]
 id: CHEBI:76669
 name: (3R,23Z,26Z,29Z,32Z,35Z)-3-hydroxyoctatriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76670
 name: (2E,23Z,26Z,29Z,32Z,35Z)-octatriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76671
 name: (23Z,26Z,29Z,32Z,35Z)-octatriacontapentaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76672
@@ -115622,78 +115758,78 @@ is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 [Term]
 id: CHEBI:76675
 name: (3R,10Z,13Z,16Z,19Z,22Z,25Z)-3-hydroxyoctacosahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76678
 name: (2E,10Z,13Z,16Z,19Z,22Z,25Z)-octacosaheptaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76679
 name: (3R,12Z,15Z,18Z,21Z,24Z,27Z)-3-hydroxytriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76680
 name: (2E,12Z,15Z,18Z,21Z,24Z,27Z)-triacontaheptaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76682
 name: (3R,14Z,17Z,20Z,23Z,26Z,29Z)-3-hydroxydotriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76683
 name: (2E,14Z,17Z,20Z,23Z,26Z,29Z)-dotriacontaheptaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76684
 name: (3R,16Z,19Z,22Z,25Z,28Z,31Z)-3-hydroxytetratriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76685
 name: (2E,16Z,19Z,22Z,25Z,28Z,31Z)-tetratriacontaheptaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76686
 name: (3R,18Z,21Z,24Z,27Z,30Z,33Z)-3-hydroxyhexatriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15456 ! (R)-3-hydroxyacyl-CoA
 is_a: CHEBI:20060 ! 3-hydroxy fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76687
 name: (2E,18Z,21Z,24Z,27Z,30Z,33Z)-hexatriacontaheptaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76688
 name: (18Z,21Z,24Z,27Z,30Z,33Z)-hexatriacontahexaenoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:76695
@@ -115756,7 +115892,7 @@ is_a: CHEBI:57560 ! long-chain fatty acid anion
 
 [Term]
 id: CHEBI:76723
-name: 2-hydroxylignocerate
+name: 2-hydroxytetracosanoate
 is_a: CHEBI:139197 ! 2-hydroxy fatty acid anion 24:0
 is_a: CHEBI:58950 ! very long-chain fatty acid anion
 
@@ -115784,7 +115920,7 @@ is_a: CHEBI:76725 ! EC 1.* (oxidoreductase) inhibitor
 
 [Term]
 id: CHEBI:76728
-name: 2-hydroxycerotate
+name: 2-hydroxyhexacosanoate
 is_a: CHEBI:139199 ! 2-hydroxy fatty acid anion 26:0
 is_a: CHEBI:58950 ! very long-chain fatty acid anion
 
@@ -116652,7 +116788,7 @@ is_a: CHEBI:88066 ! dioctanoylglycerol
 
 [Term]
 id: CHEBI:76986
-name: 2-hydroxycerotic acid
+name: 2-hydroxyhexacosanoic acid
 is_a: CHEBI:10283 ! 2-hydroxy fatty acid
 is_a: CHEBI:27283 ! very long-chain fatty acid
 
@@ -117476,22 +117612,16 @@ is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 [Term]
 id: CHEBI:77201
 name: (9Z,12Z,15Z,18Z,21Z)-tetracosapentaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78052 ! tetracosapentaenoate
 
 [Term]
 id: CHEBI:77202
 name: (6Z,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78056 ! tetracosahexaenoate
 
 [Term]
 id: CHEBI:77203
 name: (11Z,14Z,17Z,20Z,23Z)-hexacosapentaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78051 ! hexacosapentaenoate
 
 [Term]
@@ -117552,8 +117682,6 @@ is_a: CHEBI:78092 ! hexatriacontahexaenoate
 [Term]
 id: CHEBI:77218
 name: (23Z,26Z,29Z,32Z,35Z)-octatriacontapentaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78094 ! octatriacontapentaenoate
 
 [Term]
@@ -117617,15 +117745,11 @@ is_a: CHEBI:78061 ! tetracosatetraenoate
 [Term]
 id: CHEBI:77228
 name: (6Z,9Z,12Z,15Z,18Z)-tetracosapentaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78052 ! tetracosapentaenoate
 
 [Term]
 id: CHEBI:77229
 name: (11Z,14Z,17Z,20Z)-hexacosatetraenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78054 ! hexacosatetraenoate
 
 [Term]
@@ -117651,15 +117775,11 @@ is_a: CHEBI:78086 ! tetratriacontatetraenoate
 [Term]
 id: CHEBI:77235
 name: (21Z,24Z,27Z,30Z)-hexatriacontatetraenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78089 ! hexatriacontatetraenoate
 
 [Term]
 id: CHEBI:77236
 name: (23Z,26Z,29Z,32Z)-octatriacontatetraenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:78093 ! octatriacontatetraenoate
 
 [Term]
@@ -120159,8 +120279,7 @@ is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 [Term]
 id: CHEBI:78089
 name: hexatriacontatetraenoate
-is_a: CHEBI:50860 ! organic molecular entity
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
@@ -120184,14 +120303,13 @@ is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 [Term]
 id: CHEBI:78093
 name: octatriacontatetraenoate
-is_a: CHEBI:50860 ! organic molecular entity
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:78094
 name: octatriacontapentaenoate
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:143005 ! ultra-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
@@ -122019,8 +122137,8 @@ relationship: has_role CHEBI:76969 ! bacterial metabolite
 
 [Term]
 id: CHEBI:78624
-name: c[G(2',5')pA(3',5')p](2-)
-is_a: CHEBI:58945 ! organophosphate oxoanion
+is_obsolete: true
+replaced_by: CHEBI:143093
 
 [Term]
 id: CHEBI:78625
@@ -123781,6 +123899,7 @@ name: phenoxyacetic acid
 is_a: CHEBI:25384 ! monocarboxylic acid
 is_a: CHEBI:35618 ! aromatic ether
 relationship: has_role CHEBI:35219 ! plant growth retardant
+relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:76956 ! Aspergillus metabolite
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
@@ -126077,7 +126196,6 @@ is_a: CHEBI:65111 ! 3-substituted propionyl-CoA(4-)
 id: CHEBI:83724
 name: very long-chain 3-substituted propanoyl-CoA(4-)
 is_a: CHEBI:138261 ! very long-chain fatty acyl-CoA(4-)
-is_a: CHEBI:50860 ! organic molecular entity
 is_a: CHEBI:65111 ! 3-substituted propionyl-CoA(4-)
 
 [Term]
@@ -126208,9 +126326,9 @@ is_a: CHEBI:131622 ! steroidal acyl-CoA(4-)
 
 [Term]
 id: CHEBI:83795
-name: 3-oxolacceroyl-CoA(4-)
+name: 3-oxodotriacontanoyl-CoA(4-)
+is_a: CHEBI:143018 ! ultra-long-chain fatty acyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
 
 [Term]
@@ -128053,9 +128171,9 @@ is_a: CHEBI:65106 ! 1-monolysocardiolipin
 
 [Term]
 id: CHEBI:84584
-name: 3-oxolacceroyl-CoA
+name: 3-oxodotriacontanoyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
-is_a: CHEBI:33184 ! long-chain fatty acyl-CoA
 is_a: CHEBI:85348 ! 11,12-saturated fatty acyl-CoA
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -130844,7 +130962,7 @@ is_a: CHEBI:87657 ! octanoate ester
 [Term]
 id: CHEBI:85904
 name: glutathione S-sulfinate
-is_a: CHEBI:17021 ! S-substitued glutathione
+is_a: CHEBI:17021 ! S-substituted glutathione
 is_a: CHEBI:47923 ! tripeptide
 is_a: CHEBI:83824 ! L-cysteine derivative
 
@@ -134058,12 +134176,6 @@ is_a: CHEBI:33521 ! metal atom
 relationship: has_role CHEBI:50904 ! allergen
 
 [Term]
-id: CHEBI:88186
-name: metal cation allergen
-is_a: CHEBI:25213 ! metal cation
-relationship: has_role CHEBI:50904 ! allergen
-
-[Term]
 id: CHEBI:88187
 name: penicillin allergen
 is_a: CHEBI:17334 ! penicillin
@@ -134078,7 +134190,7 @@ is_a: CHEBI:50904 ! allergen
 [Term]
 id: CHEBI:88190
 name: 2-oxido-5-methylquinone
-is_a: CHEBI:25697 ! organic cation
+is_a: CHEBI:25696 ! organic anion
 
 [Term]
 id: CHEBI:88221
@@ -134388,6 +134500,7 @@ id: CHEBI:88528
 name: hexanal
 is_a: CHEBI:12834 ! n-alkanal
 is_a: CHEBI:133249 ! saturated fatty aldehyde
+is_a: CHEBI:142621 ! medium-chain fatty aldehyde
 relationship: has_role CHEBI:84087 ! human urinary metabolite
 
 [Term]
@@ -134850,9 +134963,9 @@ is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 id: CHEBI:90277
 name: (2E)-tricosenoyl-CoA
 is_a: CHEBI:139575 ! monounsaturated fatty acyl-CoA
+is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
 is_a: CHEBI:15469 ! alk-2-enoyl-CoA
 is_a: CHEBI:50998 ! trans-2-enoyl-CoA
-is_a: CHEBI:61910 ! very long-chain fatty acyl-CoA
 
 [Term]
 id: CHEBI:90292
@@ -137051,6 +137164,7 @@ relationship: has_role CHEBI:35441 ! antiinfective agent
 relationship: has_role CHEBI:35703 ! xenobiotic
 relationship: has_role CHEBI:50502 ! EC 2.5.1.15 (dihydropteroate synthase) inhibitor
 relationship: has_role CHEBI:78298 ! environmental contaminant
+relationship: has_role CHEBI:88188 ! drug allergen
 
 [Term]
 id: CHEBI:9341
