@@ -3346,18 +3346,18 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:R-HSA-109624</owl:annotatedTarget>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(2&apos;-deoxy)adenosine + ATP =&gt; (d)AMP + ADP (ADK)</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0004008">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043682">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:R-HSA-936802</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:R-HSA-6803545</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0004008"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0043682"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:R-HSA-936802</owl:annotatedTarget>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP7A transports cytosolic Cu2+ to extracellular region</rdfs:label>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0004008"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0043682"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:R-HSA-6803545</owl:annotatedTarget>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP7A transports cytosolic Cu2+ to phagosomal lumen</rdfs:label>
