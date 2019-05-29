@@ -3362,18 +3362,18 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:R-HSA-6803545</owl:annotatedTarget>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP7A transports cytosolic Cu2+ to phagosomal lumen</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0004012">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0140326">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:R-HSA-947591</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:R-HSA-939763</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0004012"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0140326"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:R-HSA-947591</owl:annotatedTarget>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P-type ATPases type IV transport internal-facing APLs to external side of the plasma membrane</rdfs:label>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0004012"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0140326"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reactome:R-HSA-939763</owl:annotatedTarget>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P-type ATPases type IV transport external-facing APLs to internal side of the plasma membrane</rdfs:label>
