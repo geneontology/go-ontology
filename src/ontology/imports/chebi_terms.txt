@@ -8117,3 +8117,5 @@ http://purl.obolibrary.org/obo/CHEBI_78657 ## N-acyl-4-hydroxysphinganine-1-phos
 http://purl.obolibrary.org/obo/CHEBI_78656 ## N-hexadecanoyl-4-hydroxysphinganine-1-phosphoethanolamine
 http://purl.obolibrary.org/obo/CHEBI_78655 ## N-acylsphinganine-1-phosphoethanolamine
 http://purl.obolibrary.org/obo/CHEBI_78654 ## N-hexadecanoyl-sphinganine-1-phosphoethanolamine
+http://purl.obolibrary.org/obo/CHEBI_71063 ## N-retinylidenephosphatidylethanolamine
+http://purl.obolibrary.org/obo/CHEBI_143129 ## primary fatty amide
