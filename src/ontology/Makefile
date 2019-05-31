@@ -411,6 +411,10 @@ mirror/so.owl: mirror/so-download.owl
 	$(OWLTOOLS) --use-catalog $< --make-subset-by-properties // -o $@
 .PRECIOUS: mirror/uberon.owl
 
+# Removing all external axioms from PR; considering refactoring all imports to create a "base"-ish version if not published
+mirror/pr.owl: mirror/pr-download.owl
+	$(OWLTOOLS) $< $(FILTER_EXTERNAL) --remove-axioms-about -d -v PR -o $@
+
 mirror/%.owl: mirror/%-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/%.owl
