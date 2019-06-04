@@ -24,7 +24,7 @@ RELEASEDIR_IMPORTS=$(RELEASEDIR)/imports
 
 # ROBOT is the main release release tool
 ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
-ROBOT = $(ROBOT_ENV) robot
+ROBOT = $(ROBOT_ENV) robot --catalog catalog-v001.xml
 
 DOSDP_ENV = JAVA_OPTS=-Xmx8G
 DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
@@ -378,7 +378,7 @@ mirror/oba-download.owl: $(SRC)
 
 # special case: use basic for cl
 mirror/cl-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/cl/cl-basic.obo $(WGET_OUT)
+	wget --no-check-certificate $(OBO)/cl/cl-basic.owl $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
 
