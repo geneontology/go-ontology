@@ -24,7 +24,7 @@ RELEASEDIR_IMPORTS=$(RELEASEDIR)/imports
 
 # ROBOT is the main release release tool
 ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
-ROBOT = $(ROBOT_ENV) robot
+ROBOT = $(ROBOT_ENV) robot --catalog catalog-v001.xml
 
 DOSDP_ENV = JAVA_OPTS=-Xmx8G
 DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
