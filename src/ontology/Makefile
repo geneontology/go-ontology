@@ -378,7 +378,7 @@ mirror/oba-download.owl: $(SRC)
 
 # special case: use basic for cl
 mirror/cl-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/cl/cl-basic.obo $(WGET_OUT)
+	wget --no-check-certificate $(OBO)/cl/cl-basic.owl $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
 
