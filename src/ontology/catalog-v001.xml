@@ -38,5 +38,4 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/gorel.owl" uri="imports/gorel.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl" uri="imports/x-disjoint.owl"/>
 	<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl" uri="imports/reactome_xrefs_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl" uri="mirror/uberon-bridge-to-caro.owl"/>
 </catalog>
