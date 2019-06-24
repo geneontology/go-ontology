@@ -57,8 +57,12 @@ PERLFILTER= ../util/filter-obo-for-standard-release.pl
 #
 #   $ RELEASE_SUFFIX=SNAPSHOT make prepare_release
 #
+RELEASEDATE ?= `date +%Y-%m-%d`
 RELEASE_SUFFIX=
-RELEASE_URIBASE= $(BASE)/releases/`date +%Y-%m-%d`$(RELEASE_SUFFIX)
+RELEASE_URIBASE = $(BASE)/releases/$(RELEASEDATE)$(RELEASE_SUFFIX)
+
+whats_the_release_uri_base:
+	echo $(RELEASE_URIBASE)
 
 # basic relations are part_of & 3 regulations relations
 GO_BASIC_RELATIONS = BFO:0000050 RO:0002211 RO:0002212 RO:0002213
@@ -118,7 +122,6 @@ prepare_release: build
 # deploy to S3
 # URLs will be of the form https://s3.amazonaws.com/go-data-product-current/ontology/subsets/go-basic.json.gz
 S3CFG = ~/.s3cfg.go-pipeline-push-agent
-RELEASEDATE = `date +%Y-%m-%d`
 # https://build.berkeleybop.org/job/release-go-ontology-daily-snapshot/
 deploy-snapshot:
 	cd $(RELEASEDIR) &&\
