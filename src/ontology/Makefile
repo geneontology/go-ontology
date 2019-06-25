@@ -61,9 +61,6 @@ RELEASEDATE ?= `date +%Y-%m-%d`
 RELEASE_SUFFIX=
 RELEASE_URIBASE = $(BASE)/releases/$(RELEASEDATE)$(RELEASE_SUFFIX)
 
-whats_the_release_uri_base:
-	echo $(RELEASE_URIBASE)
-
 # basic relations are part_of & 3 regulations relations
 GO_BASIC_RELATIONS = BFO:0000050 RO:0002211 RO:0002212 RO:0002213
 
@@ -103,6 +100,7 @@ clean_target:
 
 # copies from staged area to target
 prepare_release: build
+	echo "Base Version IRI: $(RELEASE_URIBASE)"
 	mkdir -p $(RELEASEDIR)/extensions &&\
 	mkdir -p $(RELEASEDIR)/subsets &&\
 	mkdir -p $(RELEASEDIR)/reports &&\
