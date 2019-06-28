@@ -4,12 +4,35 @@ prefix owl: <http://www.w3.org/2002/07/owl#>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?goTerm ?obsolete
+SELECT DISTINCT ?obsolete
 WHERE {
-  ?goTerm owl:equivalentClass ?equiv .
-  ?equiv owl:intersectionOf ?intersect .
-  ?intersect rdf:rest*/rdf:first [ rdf:type owl:Restriction ;
-                                   owl:someValuesFrom ?obsolete ] .
-
-  ?obsolete owl:deprecated "true"^^xsd:boolean .
+  ?obsolete owl:deprecated "true"^^xsd:boolean .  
+  { # Check for obsolete term used as subclass
+    ?obsolete rdfs:subClassOf ?ref . 
+    FILTER(?ref != owl:Thing) # This filter is needed as long as this check is being run against reasoned.owl
+  }
+  UNION 
+  { # Check for obsolete term used as superclass
+    ?ref rdfs:subClassOf ?obsolete . 
+  }
+  UNION 
+  { # Check for obsolete term used as subject of equivalence
+    ?obsolete owl:equivalentClass ?ref . 
+  }
+  UNION 
+  { # Check for obsolete term used as object of equivalence
+    ?ref owl:equivalentClass ?obsolete . 
+  }
+  UNION
+  { # Check for obsolete term used as existential filler
+    ?ref owl:someValuesFrom ?obsolete . 
+  }
+  UNION
+  { # Check for obsolete term used as universal filler
+    ?ref owl:allValuesFrom ?obsolete . 
+  }
+  UNION
+  { # Check for obsolete term used in intersection or union
+    ?ref rdf:first ?obsolete . 
+  }
 }

@@ -483,14 +483,19 @@ VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-l
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
-sparql_test: $(SRC) reasoned.owl
+sparql_test: $(SRC) reasoned.owl enhanced.owl
 	$(ROBOT) verify --input $< --queries $(VARGS) -O reports/
-	$(ROBOT) verify --input reasoned.owl --queries ../sparql/multiple-class-links-violation.sparql -O reports/
-	$(ROBOT) merge --input $< verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
+	# These purposely aren't checking problems in imports
+	$(ROBOT) verify --input reasoned.owl --queries $(SPARQLDIR)/multiple-class-links-violation.sparql -O reports/
+	# This could be merged into previous invocation after robot bug #518 is fixed
+	$(ROBOT) verify --input enhanced.owl --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
 	$(ROBOT) query -i $< -s $(SPARQLDIR)/$*-violation.sparql $@
+
+check-obsolete-references-including-imports: reasoned.owl
+	$(ROBOT) merge --input reasoned.owl verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
 
 # ----------------------------------------
 # REPORTS
