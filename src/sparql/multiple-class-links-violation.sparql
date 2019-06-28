@@ -13,18 +13,15 @@ prefix negatively_regulates: <http://purl.obolibrary.org/obo/RO_0002212>
 SELECT DISTINCT ?term ?p1 ?c
 WHERE {
   # GO:0046425
-  ?term rdfs:subClassOf [ a owl:Restriction ;
-                           owl:onProperty ?p1 ;
-                           owl:someValuesFrom ?c ] .
-
-  ?term rdfs:subClassOf [ a owl:Restriction ;
-                           owl:onProperty ?p2 ;
-                           owl:someValuesFrom ?c ] .
-
-  FILTER(?p1 != ?p2)
-  FILTER(?p1 IN ( part_of:, regulates:, positively_regulates:, negatively_regulates: ))
-  FILTER(?p2 IN ( part_of:, regulates:, positively_regulates:, negatively_regulates: ))
+  VALUES ?p1 { part_of: regulates: positively_regulates: negatively_regulates: }
+  VALUES ?p2 { part_of: regulates: positively_regulates: negatively_regulates: }
+  ?term rdfs:subClassOf ?rest1 .
+  ?term rdfs:subClassOf ?rest2 .
+  FILTER(?rest1 != ?rest2)
+  ?rest1 owl:someValuesFrom ?c .
+  ?rest2 owl:someValuesFrom ?c .
+  ?rest1 owl:onProperty ?p1 .
+  ?rest2 owl:onProperty ?p2 .
+  FILTER(?p1 < ?p2)
 }
 ORDER BY ASC(?term)
-# GROUP BY ?p
-# HAVING(COUNT(?count) > 1)
