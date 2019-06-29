@@ -288,6 +288,12 @@ clean_imports:
 seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupings-edit.owl
 	$(ROBOT) merge --collapse-import-closure false -i enhanced.owl -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings-edit.owl query -f csv --select ../sparql/terms.sparql $@
 
+# Specialize seed terms for PR. The inclusion of taxon IRIs in the full seed was causing PR to pull
+# in overly specific proteins (e.g. human forms of everything) and referencing gene IRIs. This is kind 
+# of a general problem to balance for all import module extractions; need to come up with a consistent approach.
+imports/pr_terms_combined.txt: imports/pr_terms.txt seed.txt
+	cat $^ | grep 'PR_' > $@
+
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
 
@@ -358,7 +364,7 @@ mirror/taxslim-disjoint-over-in-taxon.owl: $(SRC)
 
 # special case: download obo for speed for ncbitaxon
 mirror/pr-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/pr.obo $(WGET_OUT)
+	wget --no-check-certificate $(OBO)/pr.owl $(WGET_OUT)
 .PRECIOUS: mirror/pr-download.owl
 
 # special case: download obo for speed for chebi
