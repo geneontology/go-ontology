@@ -1,2669 +1,4504 @@
 format-version: 1.2
-data-version: go/releases/2019-07-01/imports/cl_import.owl
+data-version: go/releases/2018-07-30/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
+id: CL:0000000
+name: cell
+def: "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." []
+
+[Term]
 id: CL:0000003
-is_a: CL:0000000
+name: native cell
+def: "A cell that is found in a natural setting, which includes multicellular organism cells 'in vivo' (i.e. part of an organism), and unicellular organisms 'in environment' (i.e. part of a natural environment)." []
+synonym: "cell in vivo" NARROW []
+is_a: CL:0000000 ! cell
 
 [Term]
 id: CL:0000006
-is_a: CL:0000101
-is_a: CL:0000197
+name: neuronal receptor cell
+synonym: "neuronal receptor cell (sensu Animalia)" EXACT []
+is_a: CL:0000101 ! sensory neuron
+is_a: CL:0000197 ! receptor cell
 
 [Term]
 id: CL:0000007
-is_a: CL:0002321
+name: early embryonic cell
+def: "A cell found in the embryo before the formation of all the gem layers is complete." []
+is_a: CL:0002321 ! embryonic cell
 
 [Term]
 id: CL:0000011
-is_a: CL:0000333
+name: migratory trunk neural crest cell
+is_a: CL:0000333 ! migratory neural crest cell
 
 [Term]
 id: CL:0000014
-is_a: CL:0000034
-is_a: CL:0000039
+name: germ line stem cell
+synonym: "germline stem cell" EXACT []
+is_a: CL:0000034 ! stem cell
+is_a: CL:0000039 ! germ line cell
 
 [Term]
 id: CL:0000015
-is_a: CL:0000586
+name: male germ cell
+is_a: CL:0000586 ! germ cell
 
 [Term]
 id: CL:0000016
-is_a: CL:0000014
-is_a: CL:0000015
+name: male germ line stem cell
+is_a: CL:0000014 ! germ line stem cell
+is_a: CL:0000015 ! male germ cell
 
 [Term]
 id: CL:0000017
-is_a: CL:0000015
+name: spermatocyte
+def: "A male germ cell that develops from spermatogonia. The euploid primary spermatocytes undergo meiosis and give rise to the haploid secondary spermatocytes which in turn give rise to spermatids." []
+is_a: CL:0000015 ! male germ cell
 
 [Term]
 id: CL:0000018
-is_a: CL:0000015
-is_a: CL:0000413
+name: spermatid
+def: "A male germ cell that develops from the haploid secondary spermatocytes. Without further division, spermatids undergo structural changes and give rise to spermatozoa." []
+synonym: "nematoblast" EXACT []
+is_a: CL:0000015 ! male germ cell
+is_a: CL:0000413 ! haploid cell
 
 [Term]
 id: CL:0000019
-is_a: CL:0000064
-is_a: CL:0000219
-is_a: CL:0000408
+name: sperm
+def: "A mature male germ cell that develops from a spermatid." []
+synonym: "sperm cell" EXACT []
+synonym: "spermatozoid" EXACT []
+synonym: "spermatozoon" EXACT []
+is_a: CL:0000064 ! ciliated cell
+is_a: CL:0000219 ! motile cell
+is_a: CL:0000408 ! male gamete
 
 [Term]
 id: CL:0000020
-is_a: CL:0000015
+name: spermatogonium
+def: "An euploid male germ cell of an early stage of spermatogenesis." []
+is_a: CL:0000015 ! male germ cell
 
 [Term]
 id: CL:0000021
-is_a: CL:0000586
+name: female germ cell
+def: "Female germ cell is a germ cell that supports female gamete production." []
+is_a: CL:0000586 ! germ cell
 
 [Term]
 id: CL:0000022
-is_a: CL:0000014
-is_a: CL:0000021
+name: female germ line stem cell
+is_a: CL:0000014 ! germ line stem cell
+is_a: CL:0000021 ! female germ cell
 
 [Term]
 id: CL:0000023
-is_a: CL:0000021
+name: oocyte
+def: "A female germ cell that has entered meiosis." []
+synonym: "oogonium" RELATED []
+is_a: CL:0000021 ! female germ cell
 
 [Term]
 id: CL:0000025
-is_a: CL:0000675
+name: egg cell
+def: "A female gamete where meiosis has progressed to metaphase II and is able to participate in fertilization." []
+synonym: "mature oocyte" EXACT []
+synonym: "ovum" EXACT []
+is_a: CL:0000675 ! female gamete
 
 [Term]
 id: CL:0000026
-is_a: CL:0000039
-is_a: CL:0000412
+name: invertebrate nurse cell
+def: "A germline cell that contributes to the development of the oocyte by transferring cytoplasm directly to oocyte." []
+synonym: "nurse cell" RELATED []
+is_a: CL:0000039 ! germ line cell
+is_a: CL:0000412 ! polyploid cell
 
 [Term]
 id: CL:0000030
-is_a: CL:0000055
+name: glioblast
+is_a: CL:0000055 ! non-terminally differentiated cell
 
 [Term]
 id: CL:0000031
-is_a: CL:0000047
-is_a: CL:0000055
+name: neuroblast
+def: "A cell that will develop into a neuron often after a migration phase." []
+is_a: CL:0000047 ! neuronal stem cell
+is_a: CL:0000055 ! non-terminally differentiated cell
 
 [Term]
 id: CL:0000034
-is_a: CL:0011115
+name: stem cell
+def: "A relatively undifferentiated cell that retains the ability to divide and proliferate throughout life to provide progenitor cells that can differentiate into specialized cells." []
+is_a: CL:0011115 ! precursor cell
 
 [Term]
 id: CL:0000035
-is_a: CL:0000723
+name: single fate stem cell
+def: "A stem cell that self-renews as well as give rise to a single mature cell type." []
+synonym: "unipotent stem cell" EXACT []
+synonym: "unipotential stem cell" EXACT []
+is_a: CL:0000723 ! somatic stem cell
 
 [Term]
 id: CL:0000036
-is_a: CL:0000035
+name: epithelial fate stem cell
+is_a: CL:0000035 ! single fate stem cell
 
 [Term]
 id: CL:0000037
-is_a: CL:0000723
-is_a: CL:0008001
+name: hematopoietic stem cell
+def: "A stem cell from which all cells of the lymphoid and myeloid lineages develop, including blood cells and cells of the immune system. Hematopoietic stem cells lack cell markers of effector cells (lin-negative). Lin-negative is defined by lacking one or more of the following cell surface markers: CD2, CD3 epsilon, CD4, CD5 ,CD8 alpha chain, CD11b, CD14, CD19, CD20, CD56, ly6G, ter119." []
+synonym: "blood forming stem cell" EXACT []
+synonym: "colony forming unit hematopoietic" RELATED []
+synonym: "hemopoietic stem cell" EXACT []
+synonym: "HSC" EXACT []
+is_a: CL:0000723 ! somatic stem cell
+is_a: CL:0008001 ! hematopoietic precursor cell
 
 [Term]
 id: CL:0000039
-is_a: CL:0000548
-disjoint_from: CL:0002371
+name: germ line cell
+def: "A cell that is within the developmental lineage of gametes and is able to pass along its genetic material to offspring." []
+is_a: CL:0000548 ! animal cell
 
 [Term]
 id: CL:0000047
-is_a: CL:0000048
+name: neuronal stem cell
+def: "Neural stem cell is characterized as an undifferentiated cell that originates from the neuroectoderm and has the capacity both to perpetually self-renew without differentiating and to generate multiple types of lineage-restricted progenitors." []
+synonym: "neural stem cell" EXACT []
+synonym: "NSC" EXACT []
+is_a: CL:0000048 ! multi fate stem cell
+is_a: CL:0002319 ! neural cell
 
 [Term]
 id: CL:0000048
-is_a: CL:0000034
-is_a: CL:0002371
+name: multi fate stem cell
+def: "A stem cell that can give rise to multiple lineages of cells." []
+synonym: "multi-fate stem cell" EXACT []
+synonym: "multifate stem cell" EXACT []
+synonym: "multipotent cell" EXACT []
+synonym: "multipotent stem cell" EXACT []
+is_a: CL:0000034 ! stem cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000055
-is_a: CL:0011115
+name: non-terminally differentiated cell
+def: "A precursor cell with a limited number of potential fates." []
+synonym: "blast cell" EXACT []
+is_a: CL:0011115 ! precursor cell
 
 [Term]
 id: CL:0000056
-is_a: CL:0000680
+name: myoblast
+def: "A cell that is commited to differentiating into a muscle cell.  Embryonic myoblasts develop from the mesoderm. They undergo proliferation, migrate to their various sites, and then differentiate into the appropriate form of myocytes.  Myoblasts also occur as transient populations of cells in muscles undergoing repair." []
+is_a: CL:0000680 ! muscle precursor cell
 
 [Term]
 id: CL:0000057
-is_a: CL:0002320
+name: fibroblast
+def: "A connective tissue cell which secretes an extracellular matrix rich in collagen and other macromolecules. Flattened and irregular in outline with branching processes; appear fusiform or spindle-shaped." []
+is_a: CL:0002320 ! connective tissue cell
 
 [Term]
 id: CL:0000058
-is_a: CL:0000055
-is_a: CL:0002320
+name: chondroblast
+def: "Skeletogenic cell that is typically non-terminally differentiated, secretes an avascular, GAG rich matrix; is not buried in cartilage tissue matrix, retains the ability to divide, located adjacent to cartilage tissue (including within the perichondrium), and develops from prechondroblast (and thus prechondrogenic) cell." []
+synonym: "chrondoplast" EXACT []
+is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0002320 ! connective tissue cell
 
 [Term]
 id: CL:0000059
-is_a: CL:0000146
-is_a: CL:0000151
-is_a: CL:0002077
+name: ameloblast
+def: "Skeletogenic cell that produces enamel, overlies the odontogenic papilla, and arises from the differentiation of a preameloblast cell." []
+synonym: "amelocyte" EXACT []
+synonym: "enamel secreting cell" EXACT []
+is_a: CL:0000146 ! simple columnar epithelial cell
+is_a: CL:0000151 ! secretory cell
+is_a: CL:0002077 ! ecto-epithelial cell
 
 [Term]
 id: CL:0000060
-is_a: CL:0000055
-is_a: CL:0000710
-is_a: CL:0002159
+name: odontoblast
+def: "Skeletogenic cell that secretes dentine matrix, is derived from the odontogenic papilla, and develops from a preodontoblast cell." []
+is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0000710 ! neurecto-epithelial cell
+is_a: CL:0002159 ! general ecto-epithelial cell
 
 [Term]
 id: CL:0000062
-is_a: CL:0000055
-is_a: CL:0002320
+name: osteoblast
+def: "Skeletogenic cell that secretes osteoid, is capable of producing mineralized (hydroxyapatite) matrix, is located adjacent to or within osteoid tissue, and arises from the transformation of a preosteoblast cell." []
+is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0002320 ! connective tissue cell
 
 [Term]
 id: CL:0000064
-is_a: CL:0000003
+name: ciliated cell
+def: "A cell that has a filiform extrusion of the cell surface." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000066
-is_a: CL:0000548
-disjoint_from: CL:0000738
+name: epithelial cell
+def: "A cell that is usually found in a two-dimensional sheet with a free surface. The cell has a cytoskeleton that allows for tight cell to cell contact and for cell polarity where apical part is directed towards the lumen and the basal part to the basal lamina." []
+synonym: "epitheliocyte" EXACT []
+is_a: CL:0000548 ! animal cell
 
 [Term]
 id: CL:0000068
-is_a: CL:0000066
-is_a: CL:0002371
+name: duct epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000069
-is_a: CL:0000068
+name: branched duct epithelial cell
+is_a: CL:0000068 ! duct epithelial cell
 
 [Term]
 id: CL:0000071
-is_a: CL:0000076
-is_a: CL:0002139
+name: blood vessel endothelial cell
+def: "An endothelial cell that lines the vasculature." []
+synonym: "cuboidal endothelial cell of vascular tree" EXACT []
+is_a: CL:0000076 ! squamous epithelial cell
+is_a: CL:0002139 ! endothelial cell of vascular tree
 
 [Term]
 id: CL:0000075
-is_a: CL:0000066
-is_a: CL:0002371
+name: columnar/cuboidal epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000076
-is_a: CL:0000066
+name: squamous epithelial cell
+is_a: CL:0000066 ! epithelial cell
 
 [Term]
 id: CL:0000077
-is_a: CL:0000076
-is_a: CL:0000213
-is_a: CL:0002078
+name: mesothelial cell
+def: "A flattened epithelial cell of mesenchymal origin that lines the serous cavity." []
+synonym: "mesotheliocyte" EXACT []
+is_a: CL:0000076 ! squamous epithelial cell
+is_a: CL:0000213 ! lining cell
+is_a: CL:0002078 ! meso-epithelial cell
 
 [Term]
 id: CL:0000079
-is_a: CL:0000066
-is_a: CL:0002371
+name: stratified epithelial cell
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000081
-is_a: CL:0000988
+name: blood cell
+def: "A cell found predominately in the blood." []
+is_a: CL:0000988 ! hematopoietic cell
 
 [Term]
 id: CL:0000082
-is_a: CL:0000066
+name: epithelial cell of lung
+synonym: "lung epithelial cell" EXACT []
+is_a: CL:0000066 ! epithelial cell
 
 [Term]
 id: CL:0000083
-is_a: CL:0000066
-is_a: CL:0002371
+name: epithelial cell of pancreas
+def: "An epithelial cell of the pancreas." []
+synonym: "pancreas epithelial cell" EXACT []
+synonym: "pancreatic epithelial cell" EXACT []
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000084
-is_a: CL:0000542
-disjoint_from: CL:0000623
-disjoint_from: CL:0000945
+name: T cell
+def: "A type of lymphocyte whose defining characteristic is the expression of a T cell receptor complex." []
+synonym: "immature T cell" RELATED []
+synonym: "mature T cell" RELATED []
+synonym: "T lymphocyte" EXACT []
+synonym: "T-cell" EXACT []
+synonym: "T-lymphocyte" EXACT []
+is_a: CL:0000542 ! lymphocyte
 
 [Term]
 id: CL:0000092
-is_a: CL:0000766
-is_a: CL:0001035
+name: osteoclast
+def: "A specialized phagocytic cell associated with the absorption and removal of the mineralized matrix of bone tissue, which typically differentiates from monocytes. This cell has the following markers: tartrate-resistant acid phosphatase type 5-positive, PU.1-positive, c-fos-positive, nuclear factor NF-kappa-B p100 subunit-positive, tumor necrosis factor receptor superfamily member 11A-positive and macrophage colony-stimulating factor 1 receptor-positive." []
+synonym: "chondroclast" RELATED []
+is_a: CL:0000766 ! myeloid leukocyte
+is_a: CL:0001035 ! bone cell
 
 [Term]
 id: CL:0000094
-is_a: CL:0000081
-is_a: CL:0000766
+name: granulocyte
+def: "A leukocyte with abundant granules in the cytoplasm." []
+synonym: "granular leucocyte" EXACT []
+synonym: "granular leukocyte" EXACT []
+synonym: "polymorphonuclear leukocyte" EXACT []
+is_a: CL:0000081 ! blood cell
+is_a: CL:0000766 ! myeloid leukocyte
 
 [Term]
 id: CL:0000095
-is_a: CL:0002319
+name: neuron associated cell
+is_a: CL:0002319 ! neural cell
 
 [Term]
 id: CL:0000096
-is_a: CL:0000234
-is_a: CL:0000775
-is_a: CL:0002242
+name: mature neutrophil
+def: "A fully differentiated neutrophil, a granular leukocyte having a nucleus with three to five lobes connected by slender threads, and cytoplasm containing fine inconspicuous granules and stainable by neutral dyes. They are produced in bone marrow at a rate of 5e10-10e10/day and have a half-life of 6-8 hours. Neutrophils are CD15-positive, CD16-positive, CD32-positive, CD43-positive, CD181-positive, and CD182-positive." []
+synonym: "mature neutrocyte" EXACT []
+synonym: "mature neutrophil leucocyte" EXACT []
+synonym: "mature neutrophil leukocyte" EXACT []
+synonym: "mature neutrophilic leucocyte" EXACT []
+synonym: "mature neutrophilic leukocyte" EXACT []
+synonym: "PMN" EXACT []
+synonym: "poly" BROAD []
+synonym: "polymorphonuclear leucocyte" BROAD []
+synonym: "polymorphonuclear leukocyte" BROAD []
+synonym: "polymorphonuclear neutrophil" EXACT []
+synonym: "polynuclear neutrophilic leucocyte" EXACT []
+synonym: "polynuclear neutrophilic leukocyte" EXACT []
+is_a: CL:0000234 ! phagocyte
+is_a: CL:0000775 ! neutrophil
+is_a: CL:0002242 ! nucleate cell
 
 [Term]
 id: CL:0000097
-is_a: CL:0000766
-is_a: CL:0002274
+name: mast cell
+def: "A cell that is found in almost all tissues containing numerous basophilic granules and capable of releasing large amounts of histamine and heparin upon activation. Progenitors leave bone marrow and mature in connective and mucosal tissue. Mature mast cells are found in all tissues, except the bloodstream. Their phenotype is CD117-high, CD123-negative, CD193-positive, CD200R3-positive, and FceRI-high. Stem-cell factor (KIT-ligand; SCF) is the main controlling signal of their survival and development." []
+synonym: "histaminocyte" EXACT []
+synonym: "labrocyte" EXACT []
+synonym: "mastocyte" EXACT []
+synonym: "tissue basophil" RELATED []
+is_a: CL:0000766 ! myeloid leukocyte
+is_a: CL:0002274 ! histamine secreting cell
 
 [Term]
 id: CL:0000098
-is_a: CL:0000066
-is_a: CL:0000197
-is_a: CL:0002371
+name: sensory epithelial cell
+def: "A specialized epithelial cell involved in sensory perception. Restricted to special sense organs of the olfactory, gustatory, and vestibulocochlear receptor systems; contain sensory cells surrounded by supportive, non-receptive cells." []
+synonym: "neuroepithelial cell" BROAD []
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0000197 ! receptor cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000099
-is_a: CL:0000540
+name: interneuron
+def: "Most generally any neuron which is not motor or sensory. Interneurons may also refer to neurons whose axons remain within a particular brain region as contrasted with projection neurons which have axons projecting to other brain regions." []
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:0000100
-is_a: CL:0000527
+name: motor neuron
+def: "An efferent neuron that passes from the central nervous system or a ganglion toward or to a muscle and conducts an impulse that causes or inhibits movement." []
+synonym: "anterior horn cell" NARROW []
+synonym: "motoneuron" EXACT []
+is_a: CL:0000527 ! efferent neuron
 
 [Term]
 id: CL:0000101
-is_a: CL:0000526
+name: sensory neuron
+def: "Any neuron having a sensory function; an afferent neuron conveying sensory impulses." []
+is_a: CL:0000526 ! afferent neuron
 
 [Term]
 id: CL:0000103
-is_a: CL:0000099
+name: bipolar neuron
+def: "A type of interneuron that has two neurites, usually an axon and a dendrite, extending from opposite poles of an ovoid cell body." []
+is_a: CL:0000099 ! interneuron
 
 [Term]
 id: CL:0000106
-is_a: CL:0000540
+name: unipolar neuron
+def: "Neuron with one neurite that extends from the cell body." []
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:0000107
-is_a: CL:2000032
+name: autonomic neuron
+def: "A neruon whose cell body is within an autonomic ganglion." []
+is_a: CL:2000032 ! peripheral nervous system neuron
 
 [Term]
 id: CL:0000108
-is_a: CL:0000381
+name: cholinergic neuron
+def: "A neuron that uses acetylcholine as a vesicular neurotransmitter." []
+is_a: CL:0000381 ! neurosecretory neuron
 
 [Term]
 id: CL:0000115
-is_a: CL:0000213
-is_a: CL:0002078
+name: endothelial cell
+def: "An endothelial cell comprises the outermost layer or lining of anatomical structures and can be squamous or cuboidal. In mammals, endothelial cell has vimentin filaments and is derived from the mesoderm." []
+synonym: "endotheliocyte" EXACT []
+is_a: CL:0000213 ! lining cell
+is_a: CL:0002078 ! meso-epithelial cell
 
 [Term]
 id: CL:0000117
-is_a: CL:2000029
+name: CNS neuron (sensu Vertebrata)
+is_a: CL:2000029 ! central nervous system neuron
 
 [Term]
 id: CL:0000119
-is_a: CL:0000402
-is_a: CL:0011005
-is_a: CL:1001611
+name: cerebellar Golgi cell
+def: "Large intrinsic neuron located in the granule layer of the cerebellar cortex that extends its dendrites into the molecular layer where they receive contact from parallel fibers. The axon of the Golgi cell enters ramifies densely in the granule layer and enters into a complex arrangement with mossy fiber terminals and granule cell dendrites to form the cerebellar glomerulus. Llinas, Walton and Lang. In The Synaptic Organization of the Brain. 5th ed. 2004." []
+synonym: "cerebellar Golgi neuron" EXACT []
+synonym: "cerebellum Golgi cell" EXACT []
+synonym: "Golgi cell" EXACT []
+synonym: "Golgi neuron" EXACT []
+is_a: CL:0000402 ! CNS interneuron
+is_a: CL:0011005 ! GABAergic interneuron
+is_a: CL:1001611 ! cerebellar neuron
 
 [Term]
 id: CL:0000120
-is_a: CL:0000117
+name: granule cell
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 
 [Term]
 id: CL:0000121
-is_a: CL:0000117
-is_a: CL:0000527
-is_a: CL:1001611
+name: Purkinje cell
+def: "The output neuron of the cerebellar cortex." []
+synonym: "cerebellar Purkinje cell" EXACT []
+synonym: "cerebellum Purkinje cell" EXACT []
+synonym: "Purkinje neuron" EXACT []
+synonym: "Purkinje's cell" EXACT []
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
+is_a: CL:0000527 ! efferent neuron
+is_a: CL:1001611 ! cerebellar neuron
 
 [Term]
 id: CL:0000122
-is_a: CL:0000117
+name: stellate neuron
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 
 [Term]
 id: CL:0000123
-is_a: CL:0000095
+name: neuron associated cell (sensu Vertebrata)
+is_a: CL:0000095 ! neuron associated cell
 
 [Term]
 id: CL:0000125
-is_a: CL:0000095
+name: glial cell
+def: "A non-neuronal cell of the nervous system. They not only provide physical support, but also respond to injury, regulate the ionic and chemical composition of the extracellular milieu. Guide neuronal migration during development, and exchange metabolites with neurons." []
+synonym: "neuroglia" RELATED []
+synonym: "neuroglial cell" EXACT []
+is_a: CL:0000095 ! neuron associated cell
 
 [Term]
 id: CL:0000126
-is_a: CL:0000243
+name: macroglial cell
+def: "A neuroglial cell of ectodermal origin, i.e., the astrocytes and oligodendrocytes considered together." []
+synonym: "macrogliocyte" EXACT []
+is_a: CL:0000243 ! glial cell (sensu Vertebrata)
 
 [Term]
 id: CL:0000127
-is_a: CL:0000126
+name: astrocyte
+def: "A class of large neuroglial (macroglial) cells in the central nervous system - the largest and most numerous neuroglial cells in the brain and spinal cord. Astrocytes (from 'star' cells) are irregularly shaped with many long processes, including those with 'end feet' which form the glial (limiting) membrane and directly and indirectly contribute to the blood-brain barrier. They regulate the extracellular ionic and chemical environment, and 'reactive astrocytes' (along with microglia) respond to injury." []
+synonym: "astrocytic glia" EXACT []
+is_a: CL:0000126 ! macroglial cell
 
 [Term]
 id: CL:0000128
-is_a: CL:0000126
+name: oligodendrocyte
+def: "A class of large neuroglial (macroglial) cells in the central nervous system. Form the insulating myelin sheath of axons in the central nervous system." []
+synonym: "oligodendroglia" RELATED []
+synonym: "OLs" EXACT []
+is_a: CL:0000126 ! macroglial cell
 
 [Term]
 id: CL:0000129
-is_a: CL:0000243
-is_a: CL:0000878
+name: microglial cell
+def: "A central nervous system macrophage found in the parenchyma of the central nervous system. Marker include CD11b-positive, F4/80-positive, and CD68-positive." []
+synonym: "brain macrophage" BROAD []
+synonym: "brain-resident macrophage" EXACT []
+synonym: "hortega cells" EXACT []
+synonym: "MF.microglia.CNS" RELATED []
+synonym: "microglia" EXACT []
+synonym: "microgliocyte" EXACT []
+is_a: CL:0000243 ! glial cell (sensu Vertebrata)
+is_a: CL:0000878 ! central nervous system macrophage
 
 [Term]
 id: CL:0000134
-is_a: CL:0000048
-is_a: CL:0000219
-is_a: CL:0002320
+name: mesenchymal stem cell
+def: "A connective tissue cell that normally gives rise to other cells that are organized as three-dimensional masses. This cell type is CD73-positive, CD90-positive, CD105-positive, CD45-negative, CD34-negative, and MHCII-negative. They may further differentiate into osteoblasts, adipocytes, myocytes, neurons, or chondroblasts in vitro. Originally described as residing in the bone marrow, this cell type is now known to reside in many, if not all, adult organs." []
+synonym: "BMSC" NARROW []
+synonym: "bone marrow stromal cells" NARROW []
+synonym: "CFU-F" RELATED []
+synonym: "colony-forming unit-fibroblast" NARROW []
+synonym: "marrow stromal cells" NARROW []
+synonym: "mesenchymal precursor cell" RELATED []
+synonym: "mesenchymal progenitor cells" RELATED []
+synonym: "mesenchymal stem cell" RELATED []
+synonym: "mesenchymal stromal cell" RELATED []
+synonym: "mesenchymal stromal cells" RELATED []
+synonym: "MSC" RELATED []
+synonym: "stem cells, mesenchymal" RELATED []
+is_a: CL:0000048 ! multi fate stem cell
+is_a: CL:0000219 ! motile cell
+is_a: CL:0002320 ! connective tissue cell
 
 [Term]
 id: CL:0000135
-is_a: CL:0000499
+name: fibrocyte
+def: "An inactive fibroblast; cytoplasm is sparse, endoplasmic reticulum is scanty with flattened nucleus. Term used by some histologists; when fibroblasts become relatively inactive in fiber formation. However, this cell has the potential for fibrogenesis in quiescent connective tissue of the adult, as well as during development, other histologists prefer to use the term fibroblast in all circumstances. These cells represent ~0.5% of peripheral blood leukocytes." []
+is_a: CL:0000499 ! stromal cell
 
 [Term]
 id: CL:0000136
-is_a: CL:0000325
-is_a: CL:0002320
+name: fat cell
+def: "A fat-storing cell found mostly in the abdominal cavity and subcutaneous tissue of mammals. Fat is usually stored in the form of triglycerides." []
+synonym: "adipocyte" EXACT []
+synonym: "adipose cell" EXACT []
+is_a: CL:0000325 ! stuff accumulating cell
+is_a: CL:0002320 ! connective tissue cell
 
 [Term]
 id: CL:0000138
-is_a: CL:0000153
-is_a: CL:0000667
+name: chondrocyte
+def: "Skeletogenic cell that is terminally differentiated, secretes an avascular, GAG-rich matrix, is embedded in cartilage tissue matrix, retains the ability to divide, and develops from a chondroblast cell." []
+synonym: "cartilage cell" EXACT []
+is_a: CL:0000153 ! glycosaminoglycan secreting cell
+is_a: CL:0000667 ! collagen secreting cell
 
 [Term]
 id: CL:0000146
-is_a: CL:0000075
+name: simple columnar epithelial cell
+is_a: CL:0000075 ! columnar/cuboidal epithelial cell
 
 [Term]
 id: CL:0000147
-is_a: CL:0000325
+name: pigment cell
+def: "A pigment cell is a cell that contains pigment granules." []
+synonym: "chromatocyte" EXACT []
+synonym: "chromatophore" EXACT []
+is_a: CL:0000325 ! stuff accumulating cell
 
 [Term]
 id: CL:0000148
-is_a: CL:0000147
-is_a: CL:0002371
+name: melanocyte
+def: "A pigment cell derived from the neural crest. Contains melanin-filled pigment granules, which gives a brown to black appearance." []
+synonym: "melanophore" NARROW []
+is_a: CL:0000147 ! pigment cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000149
-is_a: CL:0000147
+name: visual pigment cell
+synonym: "pigment cell" BROAD []
+is_a: CL:0000147 ! pigment cell
 
 [Term]
 id: CL:0000150
-is_a: CL:0000066
-is_a: CL:0000151
-is_a: CL:0002371
+name: glandular epithelial cell
+def: "A specialized epithelial cell that is capable of synthesizing and secreting certain biomolecules." []
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0000151 ! secretory cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000151
-is_a: CL:0000003
+name: secretory cell
+def: "A cell that specializes in controlled release of one or more substances." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000152
-is_a: CL:0000151
+name: exocrine cell
+def: "A cell of an exocrine gland; i.e. a gland that discharges its secretion via a duct." []
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000153
-is_a: CL:0000327
-is_a: CL:0000447
+name: glycosaminoglycan secreting cell
+def: "A cell that secretes glycosaminoglycans." []
+synonym: "GAG secreting cell" EXACT []
+synonym: "hyaluronic acid secreting cell" NARROW []
+is_a: CL:0000327 ! extracellular matrix secreting cell
+is_a: CL:0000447 ! carbohydrate secreting cell
 
 [Term]
 id: CL:0000154
-is_a: CL:0000151
+name: protein secreting cell
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000157
-is_a: CL:0000151
+name: surfactant secreting cell
+def: "A cell that specializes in secretion of surfactant in the alveoli of the lung." []
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000158
-is_a: CL:0000157
-is_a: CL:0002328
+name: Clara cell
+def: "Epithelial progenitor cell of the lung. Clara cells are dome-shaped with short microvilli but no cilia. They function to protect the bronchiolar epithelium. Clara cells also multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium." []
+synonym: "bronchiolar non-ciliated cell" EXACT []
+synonym: "Clara cell of bronchiole" EXACT []
+is_a: CL:0000157 ! surfactant secreting cell
+is_a: CL:0002328 ! bronchial epithelial cell
 
 [Term]
 id: CL:0000159
-is_a: CL:0000151
+name: seromucus secreting cell
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000160
-is_a: CL:0000150
-is_a: CL:0000319
+name: goblet cell
+def: "A cell of the epithelial lining that produce and secrete mucins." []
+synonym: "chalice cell" EXACT []
+is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0000319 ! mucus secreting cell
 
 [Term]
 id: CL:0000161
-is_a: CL:0000151
+name: acid secreting cell
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000163
-is_a: CL:0000151
+name: endocrine cell
+def: "A cell of an endocrine gland, ductless glands that secrete substances which are released directly into the circulation and which influence metabolism and other body functions." []
+synonym: "endocrinocyte" EXACT []
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000164
-is_a: CL:0000150
-is_a: CL:0000163
+name: enteroendocrine cell
+def: "An endocrine cell that is located in the epithelium of the gastrointestinal tract or in the pancreas." []
+is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0000163 ! endocrine cell
 
 [Term]
 id: CL:0000165
-is_a: CL:0000163
-is_a: CL:0000393
-is_a: CL:0000710
+name: neuroendocrine cell
+def: "An endocrine cell that has the specialized function to produce and secrete hormones in response to neuronal signals." []
+synonym: "neurosecretory cell" EXACT []
+is_a: CL:0000163 ! endocrine cell
+is_a: CL:0000393 ! electrically responsive cell
+is_a: CL:0000710 ! neurecto-epithelial cell
 
 [Term]
 id: CL:0000166
-is_a: CL:0000568
+name: chromaffin cell
+def: "A cell that stores epinephrine secretory vesicles. During times of stress, the nervous system signals the vesicles to secrete their hormonal content. Their name derives from their ability to stain a brownish color with chromic salts. Characteristically, they are located in the adrenal medulla and paraganglia of the sympathetic nervous system." []
+synonym: "phaeochromocyte" EXACT []
+is_a: CL:0000568 ! amine precursor uptake and decarboxylation cell
 
 [Term]
 id: CL:0000167
-is_a: CL:0000151
+name: peptide hormone secreting cell
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000168
-is_a: CL:0000154
-is_a: CL:0000167
+name: insulin secreting cell
+is_a: CL:0000154 ! protein secreting cell
+is_a: CL:0000167 ! peptide hormone secreting cell
 
 [Term]
 id: CL:0000169
-is_a: CL:0000083
-is_a: CL:0000164
-is_a: CL:0000168
-is_a: CL:0008024
+name: type B pancreatic cell
+def: "A cell that secretes insulin and is located towards the center of the islets of Langerhans." []
+synonym: "B-cell of pancreatic islet" EXACT []
+synonym: "beta cell" BROAD []
+synonym: "beta cell islet" RELATED []
+synonym: "beta cell of pancreatic islet" EXACT []
+synonym: "insulin-secreting cell" EXACT []
+synonym: "pancreatic B cell" EXACT []
+synonym: "pancreatic B-cell" EXACT []
+synonym: "pancreatic beta cell" EXACT []
+synonym: "pancreatic islet core" EXACT []
+synonym: "type B enteroendocrine cell" EXACT []
+is_a: CL:0000083 ! epithelial cell of pancreas
+is_a: CL:0000164 ! enteroendocrine cell
+is_a: CL:0000168 ! insulin secreting cell
+is_a: CL:0008024 ! pancreatic endocrine cell
 
 [Term]
 id: CL:0000170
-is_a: CL:0000167
+name: glucagon secreting cell
+def: "A cell that secretes glucagon." []
+synonym: "glucagon-secreting cell" EXACT []
+is_a: CL:0000167 ! peptide hormone secreting cell
 
 [Term]
 id: CL:0000171
-is_a: CL:0000083
-is_a: CL:0002067
-is_a: CL:0008024
+name: pancreatic A cell
+def: "A type of enteocrine cell found in the periphery of the islets of Langerhans that secretes glucagon." []
+synonym: "alpha cell of iselt of Langerhans" EXACT []
+synonym: "pancreatic alpha cell" EXACT []
+is_a: CL:0000083 ! epithelial cell of pancreas
+is_a: CL:0002067 ! type A enterocrine cell
+is_a: CL:0008024 ! pancreatic endocrine cell
 
 [Term]
 id: CL:0000172
-is_a: CL:0000167
+name: somatostatin secreting cell
+is_a: CL:0000167 ! peptide hormone secreting cell
 
 [Term]
 id: CL:0000173
-is_a: CL:0000083
-is_a: CL:0000502
-is_a: CL:0008024
+name: pancreatic D cell
+def: "A D cell located in the pancreas. Peripherally placed within the islets like type A cells; contains somatostatin." []
+synonym: "D-cell of pancreatic islet" EXACT []
+synonym: "delta cell of islet" EXACT []
+synonym: "delta cell of pancreatic islet" EXACT []
+synonym: "pancreatic D-cell" EXACT []
+synonym: "pancreatic delta cell" EXACT []
+synonym: "somatostatin-secreting pancreatic cell" EXACT []
+is_a: CL:0000083 ! epithelial cell of pancreas
+is_a: CL:0000502 ! type D enteroendocrine cell
+is_a: CL:0008024 ! pancreatic endocrine cell
 
 [Term]
 id: CL:0000174
-is_a: CL:0000163
+name: steroid hormone secreting cell
+is_a: CL:0000163 ! endocrine cell
 
 [Term]
 id: CL:0000175
-is_a: CL:0000179
-is_a: CL:0002132
+name: luteal cell
+def: "A progesterone secreting cell in the corpus luteum. The large luteal cells develop from the granulosa cells. The small luteal cells develop from the theca cells." []
+synonym: "lutein cell" EXACT []
+is_a: CL:0000179 ! progesterone secreting cell
+is_a: CL:0002132 ! stromal cell of ovary
 
 [Term]
 id: CL:0000177
-is_a: CL:0000151
+name: testosterone secreting cell
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000178
-is_a: CL:0000177
+name: Leydig cell
+def: "A Leydig cell is a testosterone-secreting cell in the interstitial area, between the seminiferous tubules, in the testis." []
+synonym: "interstitial cell" BROAD []
+synonym: "interstitial cell of Leydig" EXACT []
+is_a: CL:0000177 ! testosterone secreting cell
 
 [Term]
 id: CL:0000179
-is_a: CL:0000174
+name: progesterone secreting cell
+is_a: CL:0000174 ! steroid hormone secreting cell
 
 [Term]
 id: CL:0000181
-is_a: CL:0000003
+name: metabolising cell
+def: "A cell whose primary function is intermediary metabolism." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000182
-is_a: CL:0000066
-is_a: CL:0000181
-is_a: CL:0000417
-is_a: CL:0002371
+name: hepatocyte
+def: "The main structural component of the liver. They are specialized epithelial cells that are organized into interconnected plates called lobules. Majority of cell population of liver, polygonal in shape, arranged in plates or trabeculae between sinusoids; may have single nucleus or binucleated." []
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0000181 ! metabolising cell
+is_a: CL:0000417 ! endopolyploid cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000183
-is_a: CL:0000003
+name: contractile cell
+def: "A cell whose primary function is to shorten." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000186
-is_a: CL:0000183
-is_a: CL:0000548
-is_a: CL:0002371
+name: myofibroblast cell
+def: "An animal cell that has characteristics of both a fibroblast cell and a smooth muscle cell." []
+synonym: "MFB" EXACT []
+is_a: CL:0000183 ! contractile cell
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000187
-is_a: CL:0000183
-is_a: CL:0000393
-is_a: CL:0000548
-is_a: CL:0002371
+name: muscle cell
+def: "A mature contractile cell, commonly known as a myocyte. This cell has as part of its cytoplasm myofibrils organized in various patterns." []
+synonym: "muscle fiber" EXACT []
+synonym: "myocyte" EXACT []
+is_a: CL:0000183 ! contractile cell
+is_a: CL:0000393 ! electrically responsive cell
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000188
-is_a: CL:0002371
+name: cell of skeletal muscle
+def: "A somatic cell located in skeletal muscle." []
+synonym: "skeletal muscle cell" EXACT []
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000189
-is_a: CL:0008002
+name: slow muscle cell
+def: "A muscle cell that develops tension more slowly than a fast-twitch fiber." []
+synonym: "slow muscle fiber" RELATED []
+is_a: CL:0008002 ! skeletal muscle fiber
 
 [Term]
 id: CL:0000192
-is_a: CL:0008000
-is_a: CL:0008007
+name: smooth muscle cell
+def: "A non-striated, elongated, spindle-shaped cell found lining the digestive tract, uterus, and blood vessels. They develop from specialized myoblasts (smooth muscle myoblast)." []
+synonym: "myocytes, smooth muscle" EXACT []
+synonym: "non-striated muscle cell" NARROW []
+synonym: "SMCs" EXACT []
+synonym: "smooth muscle fiber" EXACT []
+is_a: CL:0008000 ! non-striated muscle cell
+is_a: CL:0008007 ! visceral muscle cell
 
 [Term]
 id: CL:0000197
-is_a: CL:0000003
+name: receptor cell
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000199
-is_a: CL:0000101
+name: mechanoreceptor cell
+def: "A cell specialized to transduce mechanical stimuli and relay that information centrally in the nervous system." []
+synonym: "mechanoreceptor" RELATED []
+is_a: CL:0000101 ! sensory neuron
 
 [Term]
 id: CL:0000202
-is_a: CL:0000006
-is_a: CL:0000710
-is_a: CL:0002374
-is_a: CL:0002491
+name: auditory hair cell
+def: "A mechanoreceptor cell located in the inner ear that is sensitive to auditory stimuli. The accessory sensory structures are arranged so that appropriate stimuli cause movement of the hair-like projections (stereocilia and kinocilia) which relay the information centrally in the nervous system." []
+synonym: "auditory receptor cell" EXACT []
+synonym: "cochlear hair cell" EXACT []
+synonym: "inner ear hair cell" RELATED []
+synonym: "inner ear receptor cell" RELATED []
+is_a: CL:0000006 ! neuronal receptor cell
+is_a: CL:0000710 ! neurecto-epithelial cell
+is_a: CL:0002374 ! ear hair cell
+is_a: CL:0002491 ! auditory epithelial cell
 
 [Term]
 id: CL:0000206
-is_a: CL:0000101
+name: chemoreceptor cell
+def: "A cell specialized to detect chemical substances and relay that information centrally in the nervous system. Chemoreceptors may monitor external stimuli, as in taste and olfaction, or internal stimuli, such as the concentrations of oxygen and carbon dioxide in the blood." []
+is_a: CL:0000101 ! sensory neuron
 
 [Term]
 id: CL:0000207
-is_a: CL:0000206
+name: olfactory receptor cell
+synonym: "odorant receptor cell" EXACT []
+synonym: "olfactory receptor neuron" EXACT []
+synonym: "olfactory sensory neuron" EXACT []
+synonym: "Schultze's cell" EXACT []
+is_a: CL:0000206 ! chemoreceptor cell
 
 [Term]
 id: CL:0000210
-is_a: CL:0000006
+name: photoreceptor cell
+def: "A cell specialized to detect and transduce light." []
+is_a: CL:0000006 ! neuronal receptor cell
 
 [Term]
 id: CL:0000211
-is_a: CL:0000003
+name: electrically active cell
+def: "A cell whose function is determined by the generation or the reception of an electric signal." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000212
-is_a: CL:0000003
+name: absorptive cell
+def: "A cell that takes up and metabolizes substances." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000213
-is_a: CL:0000215
+name: lining cell
+def: "A cell within an epithelial cell sheet whose main function is to act as an internal or external covering for a tissue or an organism." []
+synonym: "boundary cell" EXACT []
+is_a: CL:0000215 ! barrier cell
 
 [Term]
 id: CL:0000215
-is_a: CL:0000003
+name: barrier cell
+def: "A cell whose primary function is to prevent the transport of stuff across compartments." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000216
-is_a: CL:0000511
-is_a: CL:0000630
-is_a: CL:0002625
+name: Sertoli cell
+def: "A supporting cell projecting inward from the basement membrane of seminiferous tubules. They surround and nourish the developing male germ cells and secrete androgen binding protein. Their tight junctions with the spermatogonia and spermatocytes provide a blood-testis barrier." []
+is_a: CL:0000511 ! androgen binding protein secreting cell
+is_a: CL:0000630 ! supportive cell
+is_a: CL:0002625 ! seminiferous tubule epithelial cell
 
 [Term]
 id: CL:0000217
-is_a: CL:0000215
+name: insulating cell
+is_a: CL:0000215 ! barrier cell
 
 [Term]
 id: CL:0000218
-is_a: CL:0000217
-is_a: CL:0000328
-is_a: CL:0002573
+name: myelinating Schwann cell
+def: "A neuroglial cell of the peripheral nervous system which forms the insulating myelin sheaths of peripheral axons." []
+synonym: "neurilemmal cell" EXACT []
+synonym: "peripheral neuroglial cell" BROAD []
+synonym: "Schwann cell" BROAD []
+is_a: CL:0000217 ! insulating cell
+is_a: CL:0000328 ! myelin accumulating cell
+is_a: CL:0002573 ! Schwann cell
 
 [Term]
 id: CL:0000219
-is_a: CL:0000003
+name: motile cell
+def: "A cell that moves by its own activities." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000221
-is_a: CL:0002321
+name: ectodermal cell
+def: "A cell of the outer of the three germ layers of the embryo." []
+synonym: "ectoderm cell" EXACT []
+is_a: CL:0002321 ! embryonic cell
 
 [Term]
 id: CL:0000222
-is_a: CL:0002321
+name: mesodermal cell
+def: "A cell of the middle germ layer of the embryo." []
+synonym: "mesoblast" EXACT []
+synonym: "mesoderm cell" EXACT []
+is_a: CL:0002321 ! embryonic cell
 
 [Term]
 id: CL:0000223
-is_a: CL:0002321
+name: endodermal cell
+def: "A cell of the inner of the three germ layers of the embryo." []
+synonym: "endoderm cell" EXACT []
+is_a: CL:0002321 ! embryonic cell
 
 [Term]
 id: CL:0000225
-is_a: CL:0000003
-disjoint_from: CL:0002242
+name: anucleate cell
+def: "A cell that lacks a nucleus." []
+synonym: "non-nucleated cell" EXACT []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000226
-is_a: CL:0000003
+name: single nucleate cell
+def: "A cell with a single nucleus." []
+is_a: CL:0002242 ! nucleate cell
 
 [Term]
 id: CL:0000227
-is_a: CL:0000228
+name: binucleate cell
+is_a: CL:0000228 ! multinucleate cell
 
 [Term]
 id: CL:0000228
-is_a: CL:0000003
+name: multinucleate cell
+def: "A cell with more than one nucleus." []
+synonym: "syncitium" EXACT []
+synonym: "syncytial cell" EXACT []
+synonym: "syncytium" EXACT []
+is_a: CL:0002242 ! nucleate cell
 
 [Term]
 id: CL:0000232
-is_a: CL:0000081
-is_a: CL:0000329
-is_a: CL:0000764
+name: erythrocyte
+def: "A red blood cell. In mammals, mature erythrocytes are biconcave disks containing hemoglobin whose function is to transport oxygen." []
+synonym: "RBC" EXACT []
+synonym: "red blood cell" EXACT []
+is_a: CL:0000081 ! blood cell
+is_a: CL:0000329 ! oxygen accumulating cell
+is_a: CL:0000764 ! erythroid lineage cell
 
 [Term]
 id: CL:0000233
-is_a: CL:0000081
-is_a: CL:0000225
-is_a: CL:0000458
-is_a: CL:0000763
+name: platelet
+def: "A non-nucleated disk-shaped cell formed by extrusion from megakaryocytes, found in the blood of all mammals, and mainly involved in blood coagulation." []
+synonym: "anucleate thrombocyte" EXACT []
+synonym: "blood platelet" EXACT []
+synonym: "enucleate thrombocyte" EXACT []
+is_a: CL:0000081 ! blood cell
+is_a: CL:0000225 ! anucleate cell
+is_a: CL:0000458 ! serotonin secreting cell
+is_a: CL:0000763 ! myeloid cell
 
 [Term]
 id: CL:0000234
-is_a: CL:0000219
-is_a: CL:0000325
-is_a: CL:0000473
+name: phagocyte
+def: "Any cell capable of ingesting particulate matter via phagocytosis." []
+is_a: CL:0000219 ! motile cell
+is_a: CL:0000325 ! stuff accumulating cell
+is_a: CL:0000473 ! defensive cell
 
 [Term]
 id: CL:0000235
-is_a: CL:0000234
-is_a: CL:0000766
+name: macrophage
+def: "A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells." []
+synonym: "histiocyte" EXACT []
+is_a: CL:0000234 ! phagocyte
+is_a: CL:0000766 ! myeloid leukocyte
 
 [Term]
 id: CL:0000236
-is_a: CL:0000945
+name: B cell
+def: "A lymphocyte of B lineage with the phenotype CD19-positive, CD20-positive, and capable of B cell mediated immunity." []
+synonym: "B lymphocyte" EXACT []
+synonym: "B-cell" EXACT []
+synonym: "B-lymphocyte" EXACT []
+is_a: CL:0000945 ! lymphocyte of B lineage
 
 [Term]
 id: CL:0000237
-is_a: CL:0000240
-is_a: CL:0000311
-is_a: CL:0002077
+name: keratinizing barrier epithelial cell
+is_a: CL:0000240 ! stratified squamous epithelial cell
+is_a: CL:0000311 ! keratin accumulating cell
+is_a: CL:0002077 ! ecto-epithelial cell
 
 [Term]
 id: CL:0000239
-is_a: CL:0000075
+name: brush border epithelial cell
+is_a: CL:0000075 ! columnar/cuboidal epithelial cell
 
 [Term]
 id: CL:0000240
-is_a: CL:0000076
-is_a: CL:0000079
+name: stratified squamous epithelial cell
+is_a: CL:0000076 ! squamous epithelial cell
+is_a: CL:0000079 ! stratified epithelial cell
 
 [Term]
 id: CL:0000243
-is_a: CL:0000125
+name: glial cell (sensu Vertebrata)
+def: "A non-neuronal cell of the nervous system. They not only provide physical support, but also respond to injury, regulate the ionic and chemical composition of the extracellular milieu. Form the myelin insulation of nervous pathways, guide neuronal migration during development, and exchange metabolites with neurons. Neuroglia have high-affinity transmitter uptake systems, voltage-dependent and transmitter-gated ion channels, and can release transmitters, but their role in signaling (as in many other functions) is unclear." []
+is_a: CL:0000125 ! glial cell
 
 [Term]
 id: CL:0000244
-is_a: CL:0000066
-is_a: CL:0002371
+name: transitional epithelial cell
+def: "A cell characteristically found lining hollow organs that are subject to great mechanical change due to contraction and distention; originally thought to represent a transition between stratified squamous and columnar epithelium." []
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000247
-is_a: CL:0000531
+name: Rohon-Beard neuron
+def: "Type of neuron that is a primary mechanosensory cell, with peripheral neurites innervating the skin with free nerve endings." []
+synonym: "RB neuron" RELATED []
+synonym: "Rohon Beard cell" EXACT []
+synonym: "Rohon-Beard cell" EXACT []
+is_a: CL:0000531 ! primary sensory neuron
 
 [Term]
 id: CL:0000253
-is_a: CL:0000527
+name: eurydendroid cell
+is_a: CL:0000527 ! efferent neuron
 
 [Term]
 id: CL:0000255
-is_a: CL:0000003
-disjoint_from: CL:0000520
+name: eukaryotic cell
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000287
-is_a: CL:0000210
+name: eye photoreceptor cell
+is_a: CL:0000210 ! photoreceptor cell
 
 [Term]
 id: CL:0000295
-is_a: CL:0000167
+name: somatotropin secreting cell
+def: "A peptide hormone secreting cell that produces growth hormone, somatotropin." []
+synonym: "growth hormone secreting cell" EXACT []
+synonym: "somatotrophin secreting cell" EXACT []
+is_a: CL:0000167 ! peptide hormone secreting cell
 
 [Term]
 id: CL:0000300
-is_a: CL:0000413
-is_a: CL:0000586
+name: gamete
+def: "A mature sexual reproductive cell having a single set of unpaired chromosomes." []
+synonym: "haploid germ cell" RELATED []
+synonym: "haploid nucleated cell" EXACT []
+is_a: CL:0000413 ! haploid cell
+is_a: CL:0000586 ! germ cell
 
 [Term]
 id: CL:0000301
-is_a: CL:0000670
+name: pole cell
+is_a: CL:0000670 ! primordial germ cell
 
 [Term]
 id: CL:0000306
-is_a: CL:0000325
+name: crystallin accumulating cell
+synonym: "lens cell" EXACT []
+is_a: CL:0000325 ! stuff accumulating cell
 
 [Term]
 id: CL:0000311
-is_a: CL:0000325
+name: keratin accumulating cell
+is_a: CL:0000325 ! stuff accumulating cell
 
 [Term]
 id: CL:0000312
-is_a: CL:0000237
-is_a: CL:0000362
+name: keratinocyte
+def: "An epidermal cell which synthesizes keratin and undergoes a characteristic change as it moves upward from the basal layers of the epidermis to the cornified (horny) layer of the skin. Successive stages of differentiation of the keratinocytes forming the epidermal layers are basal cell, spinous or prickle cell, and the granular cell." []
+synonym: "keratinized cell of epidermis" EXACT []
+synonym: "malpighian cell" EXACT []
+is_a: CL:0000237 ! keratinizing barrier epithelial cell
+is_a: CL:0000362 ! epidermal cell
 
 [Term]
 id: CL:0000317
-is_a: CL:0000152
-is_a: CL:2000021
+name: sebum secreting cell
+def: "A cell secreting sebun, an oily substance secreted by sebaceous glands, composed of keratin, fat, and cellular debris." []
+synonym: "sebocyte" EXACT []
+is_a: CL:0000152 ! exocrine cell
+is_a: CL:2000021 ! sebaceous gland native cell
 
 [Term]
 id: CL:0000319
-is_a: CL:0000159
+name: mucus secreting cell
+synonym: "mucous cell" EXACT []
+is_a: CL:0000159 ! seromucus secreting cell
 
 [Term]
 id: CL:0000322
-is_a: CL:0010003
+name: pneumocyte
+def: "An epithelial cell that lines the peripheral gas exchange region of the lungs of air-breathing vertebrates." []
+synonym: "alveolar epithelial cell" EXACT []
+synonym: "pneumonocyte" EXACT []
+is_a: CL:0010003 ! epithelial cell of alveolus of lung
 
 [Term]
 id: CL:0000325
-is_a: CL:0000003
+name: stuff accumulating cell
+def: "A cell that is specialised to accumulate a particular substance(s)." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000327
-is_a: CL:0000151
-is_a: CL:0000499
+name: extracellular matrix secreting cell
+is_a: CL:0000151 ! secretory cell
+is_a: CL:0000499 ! stromal cell
 
 [Term]
 id: CL:0000328
-is_a: CL:0000325
+name: myelin accumulating cell
+is_a: CL:0000325 ! stuff accumulating cell
 
 [Term]
 id: CL:0000329
-is_a: CL:0000003
+name: oxygen accumulating cell
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000333
-is_a: CL:0000219
-is_a: CL:0011012
+name: migratory neural crest cell
+def: "A cell derived from the specialized ectoderm flanking each side of the embryonic neural plate, which after the closure of the neural tube, forms masses of cells that migrate out from the dorsal aspect of the neural tube to spread throughout the body." []
+is_a: CL:0000219 ! motile cell
+is_a: CL:0011012 ! neural crest cell
 
 [Term]
 id: CL:0000341
-is_a: CL:0000147
+name: pigment cell (sensu Nematoda and Protostomia)
+is_a: CL:0000147 ! pigment cell
 
 [Term]
 id: CL:0000349
-is_a: CL:0000548
-is_a: CL:0002371
+name: extraembryonic cell
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000351
-is_a: CL:0000349
+name: trophoblast cell
+def: "A cell lining the outside of the blastocyst. After binding to the endometrium, trophoblast cells develop into two distinct layers, an inner layer of mononuclear cytotrophoblast cells and an outer layer of continuous multinuclear cytoplasm, the syncytiotrophoblast cells, which form the early fetal-maternal interface." []
+synonym: "trophoblastic cell" EXACT []
+is_a: CL:0000349 ! extraembryonic cell
 
 [Term]
 id: CL:0000359
-is_a: CL:0000192
+name: vascular associated smooth muscle cell
+def: "A smooth muscle cell assocatiated with the vasculature." []
+synonym: "vascular smooth muscle cell" EXACT []
+synonym: "VSMC" EXACT []
+is_a: CL:0000192 ! smooth muscle cell
 
 [Term]
 id: CL:0000362
-is_a: CL:0002159
+name: epidermal cell
+def: "An epithelial cell of the integument (the outer layer of an organism)." []
+synonym: "cell of epidermis" EXACT []
+synonym: "epithelial cell of skin" NARROW []
+is_a: CL:0002159 ! general ecto-epithelial cell
 
 [Term]
 id: CL:0000365
-is_a: CL:0000007
+name: animal zygote
+def: "Diploid cell produced by the fusion of sperm cell nucleus and egg cell." []
+synonym: "zygote" BROAD []
+is_a: CL:0000007 ! early embryonic cell
 
 [Term]
 id: CL:0000373
-is_a: CL:0000146
+name: histoblast
+is_a: CL:0000146 ! simple columnar epithelial cell
 
 [Term]
 id: CL:0000381
-is_a: CL:0000151
-is_a: CL:0000527
+name: neurosecretory neuron
+is_a: CL:0000151 ! secretory cell
+is_a: CL:0000527 ! efferent neuron
 
 [Term]
 id: CL:0000386
-is_a: CL:0000630
+name: attachment cell
+is_a: CL:0000630 ! supportive cell
 
 [Term]
 id: CL:0000387
-is_a: CL:0000519
+name: hemocyte (sensu Nematoda and Protostomia)
+is_a: CL:0000519 ! phagocyte (sensu Nematoda and Protostomia)
 
 [Term]
 id: CL:0000388
-is_a: CL:0000135
-is_a: CL:0000386
+name: tendon cell
+def: "An elongated fibrocyte that is part of a tendon. The cytoplasm is stretched between the collagen fibres of the tendon. They have a central cell nucleus with a prominent nucleolus. Tendon cells have a well-developed rough endoplasmic reticulum and they are responsible for synthesis and turnover of tendon fibres and ground substance." []
+synonym: "muscle attachment cell" EXACT []
+synonym: "tenocyte" RELATED []
+is_a: CL:0000135 ! fibrocyte
+is_a: CL:0000386 ! attachment cell
 
 [Term]
 id: CL:0000391
-is_a: CL:0000387
+name: podocyte (sensu Diptera)
+def: "An insect immune cell that develops from plasmatocyte." []
+is_a: CL:0000387 ! hemocyte (sensu Nematoda and Protostomia)
 
 [Term]
 id: CL:0000392
-is_a: CL:0000391
+name: crystal cell
+is_a: CL:0000391 ! podocyte (sensu Diptera)
 
 [Term]
 id: CL:0000393
-is_a: CL:0000211
+name: electrically responsive cell
+def: "A cell whose function is determined by its response to an electric signal." []
+is_a: CL:0000211 ! electrically active cell
 
 [Term]
 id: CL:0000394
-is_a: CL:0000387
+name: plasmatocyte
+is_a: CL:0000387 ! hemocyte (sensu Nematoda and Protostomia)
 
 [Term]
 id: CL:0000396
-is_a: CL:0000394
+name: lamellocyte
+is_a: CL:0000394 ! plasmatocyte
 
 [Term]
 id: CL:0000402
-is_a: CL:0000099
-is_a: CL:0000117
+name: CNS interneuron
+is_a: CL:0000099 ! interneuron
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 
 [Term]
 id: CL:0000404
-is_a: CL:0000211
+name: electrically signaling cell
+def: "A cell that initiates an electrical signal and passes that signal to another cell." []
+is_a: CL:0000211 ! electrically active cell
 
 [Term]
 id: CL:0000408
-is_a: CL:0000015
-is_a: CL:0000300
+name: male gamete
+is_a: CL:0000015 ! male germ cell
+is_a: CL:0000300 ! gamete
 
 [Term]
 id: CL:0000412
-is_a: CL:0000003
+name: polyploid cell
+def: "A cell whose nucleus, or nuclei, each contain more than two haploid genomes." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000413
-is_a: CL:0000003
+name: haploid cell
+def: "A cell whose nucleus contains a single haploid genome." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000417
-is_a: CL:0000412
+name: endopolyploid cell
+is_a: CL:0000412 ! polyploid cell
 
 [Term]
 id: CL:0000422
-is_a: CL:0000003
+name: mitogenic signaling cell
+def: "A cell whose primary function is to cause growth by stimulating cell division in its immediate cellular environment." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000423
-is_a: CL:0000422
+name: tip cell
+is_a: CL:0000422 ! mitogenic signaling cell
 
 [Term]
 id: CL:0000424
-is_a: CL:0000151
+name: excretory cell
+def: "A cell involved in the elimination of metabolic and foreign toxins, and in maintaining the ionic, acid-base and water balance of biological fluids." []
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000430
-is_a: CL:0000147
+name: xanthophore cell
+def: "A pigment cell derived from the neural crest. Contains cartenoid pigments in structures called pterinosomes or xanthosomes. This gives an appearance ranging from a golden yellow to orange and red." []
+synonym: "xanthophore" RELATED []
+is_a: CL:0000147 ! pigment cell
 
 [Term]
 id: CL:0000431
-is_a: CL:0000147
+name: iridophore
+def: "A pigment cell derived from the neural crest. The cell contains flat light-reflecting platelets, probably of guanine, in stacks called reflecting platets or iridisomes. The color-generating components produce a silver, gold, or iridescent color." []
+synonym: "guanophore" RELATED []
+is_a: CL:0000147 ! pigment cell
 
 [Term]
 id: CL:0000439
-is_a: CL:0000154
-is_a: CL:0000167
+name: prolactin secreting cell
+def: "A peptide hormone cell that secretes prolactin." []
+is_a: CL:0000154 ! protein secreting cell
+is_a: CL:0000167 ! peptide hormone secreting cell
 
 [Term]
 id: CL:0000442
-is_a: CL:0000473
+name: follicular dendritic cell
+def: "A cell with extensive dendritic processes found in the B cell areas (primary follicles and germinal centers) of lymphoid tissue. They are unrelated to the dendritic cell associated with T cells. Follicular dendritic cells have Fc receptors and C3b receptors, but unlike other dendritic cells, they do not process or present antigen in a way that allows recognition by T cells. Instead, they hold antigen in the form of immune complexes on their surfaces for long periods and can present antigen to B cells during an immune response." []
+is_a: CL:0000473 ! defensive cell
 
 [Term]
 id: CL:0000447
-is_a: CL:0000151
+name: carbohydrate secreting cell
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000448
-is_a: CL:0000136
+name: white fat cell
+def: "Fat cells with light coloration and few mitochondria. They contain a scant ring of cytoplasm surrounding a single large lipid droplet or vacuole." []
+synonym: "white adipocyte" RELATED []
+synonym: "white adipose cell" EXACT []
+synonym: "white fat cell" EXACT []
+is_a: CL:0000136 ! fat cell
 
 [Term]
 id: CL:0000449
-is_a: CL:0000136
+name: brown fat cell
+def: "A cell from the thermogenic form of adipose tissue found in many species,  particularly in newborns and hibernating mammals, but also in lesser amounts in adults of other mammals including humans. Brown fat is capable of rapid liberation of energy and seems to be important in the maintenance of body temperature immediately after birth and upon waking from hibernation." []
+synonym: "brown adipocyte" EXACT []
+synonym: "brown adipose cell" EXACT []
+is_a: CL:0000136 ! fat cell
 
 [Term]
 id: CL:0000451
-is_a: CL:0000738
-disjoint_from: CL:0000542
+name: dendritic cell
+def: "A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation. These cells are lineage negative (CD3-negative, CD19-negative, CD34-negative, and CD56-negative)." []
+synonym: "interdigitating cell" RELATED []
+synonym: "veiled cell" RELATED []
+is_a: CL:0000738 ! leukocyte
 
 [Term]
 id: CL:0000453
-is_a: CL:0000766
-is_a: CL:0000990
+name: Langerhans cell
+def: "Langerhans cell is a conventional dendritic cell that has plasma membrane part CD207. A Langerhans cell is a stellate dendritic cell of myeloid origin, that appears clear on light microscopy and has a dark-staining, indented nucleus and characteristic inclusions (Birbeck granules) in the cytoplasm; Langerhans cells are found principally in the stratum spinosum of the epidermis, but they also occur in other stratified epithelia and have been identified in the lung, lymph nodes, spleen, and thymus." []
+synonym: "Langerhans' cell" EXACT []
+synonym: "LC" EXACT []
+is_a: CL:0000766 ! myeloid leukocyte
+is_a: CL:0000990 ! conventional dendritic cell
 
 [Term]
 id: CL:0000457
-is_a: CL:0000151
+name: biogenic amine secreting cell
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000458
-is_a: CL:0000457
+name: serotonin secreting cell
+def: "A cell type that secretes 5-Hydroxytryptamine (serotonin)." []
+synonym: "5-HT secreting cell" EXACT []
+synonym: "5-Hydroxytryptamine secreting cell" EXACT []
+is_a: CL:0000457 ! biogenic amine secreting cell
 
 [Term]
 id: CL:0000459
-is_a: CL:0000457
+name: noradrenergic cell
+def: "A cell capable of producting norepiniphrine. Norepiniphrine is a catecholamine with multiple roles including as a hormone and a neurotransmitter. In addition, epiniphrine is synthesized from norepiniphrine by the actions of the phenylethanolamine N-methyltransferase enzyme." []
+synonym: "noradrenaline secreting cell" EXACT []
+synonym: "norepinephrin secreting cell" EXACT []
+synonym: "norepinephrine secreting cell" EXACT []
+is_a: CL:0000457 ! biogenic amine secreting cell
 
 [Term]
 id: CL:0000467
-is_a: CL:0000163
-is_a: CL:0000167
+name: adrenocorticotropic hormone secreting cell
+def: "A peptide hormone secreting cell that produces adrenocorticotropin, or corticotropin." []
+synonym: "ACTH secreting cell" EXACT []
+synonym: "adrenocorticotrophic hormone secreting cell" EXACT []
+synonym: "corticotrophin hormone secreting cell" EXACT []
+synonym: "corticotropin hormone secreting cell" EXACT []
+synonym: "corticotropin secreting cell" EXACT []
+is_a: CL:0000163 ! endocrine cell
+is_a: CL:0000167 ! peptide hormone secreting cell
 
 [Term]
 id: CL:0000468
-is_a: CL:0000047
-is_a: CL:0000055
+name: neuroglioblast
+is_a: CL:0000047 ! neuronal stem cell
+is_a: CL:0000055 ! non-terminally differentiated cell
 
 [Term]
 id: CL:0000469
-is_a: CL:0000468
+name: ganglion mother cell
+is_a: CL:0000468 ! neuroglioblast
 
 [Term]
 id: CL:0000473
-is_a: CL:0000003
+name: defensive cell
+def: "A cell whose primary function is to protect the organism." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000474
-is_a: CL:0000519
-is_a: CL:0002520
+name: pericardial nephrocyte
+def: "an insect renal cell that filters hemolymph and is found with other pericardial nephrocytes in two rows flanking the dorsal vessel." []
+synonym: "pericardial cell" NARROW []
+is_a: CL:0000519 ! phagocyte (sensu Nematoda and Protostomia)
+is_a: CL:0002520 ! nephrocyte
 
 [Term]
 id: CL:0000476
-is_a: CL:0000639
+name: thyrotroph
+def: "A basophil cell of the anterior pituitary that produces thyroid stimulating hormone, thyrotrophin. This cell type is elongated, polygonal and lie in clusters towards the adenohypophyseal center." []
+synonym: "beta-basophil" EXACT []
+synonym: "thyroid stimulating hormone secreting cell" EXACT []
+synonym: "thyrotrope" EXACT []
+is_a: CL:0000639 ! basophil cell of pars distalis of adenohypophysis
 
 [Term]
 id: CL:0000477
-is_a: CL:0000075
+name: follicle cell
+synonym: "ovarian follicle cell" EXACT []
+is_a: CL:0000075 ! columnar/cuboidal epithelial cell
 
 [Term]
 id: CL:0000486
-is_a: CL:0000227
-is_a: CL:0000519
-is_a: CL:0002520
+name: garland cell
+def: "A large binucleate cell that forms a 'garland' around the anterior end of the proventriculus (cardia) at its junction with the esophagus in both adults and larvae flies. Each cell is surrounded by a basement membrane and there are numerous micro-invaginations (lacunae) extending from the surface into the cytoplasm. At the mouth of each lacuna is a doubled filament forming a specialised filtration system (diaphragm). The filtrate is endocytosed from the lacunae." []
+synonym: "garland nephrocyte" BROAD []
+is_a: CL:0000227 ! binucleate cell
+is_a: CL:0000519 ! phagocyte (sensu Nematoda and Protostomia)
+is_a: CL:0002520 ! nephrocyte
 
 [Term]
 id: CL:0000487
-is_a: CL:0000151
+name: oenocyte
+def: "A large secretory cell found in clusters underlying the epidermis of the abdominal segments of larval abdominal segments." []
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000488
-is_a: CL:0000210
+name: visible light photoreceptor cell
+def: "A photoreceptor cell that detects visible light." []
+is_a: CL:0000210 ! photoreceptor cell
 
 [Term]
 id: CL:0000492
-is_a: CL:0000624
-is_a: CL:0000912
+name: CD4-positive helper T cell
+def: "A CD4-positive, alpha-beta T cell that cooperates with other lymphocytes via direct contact or cytokine release to initiate a variety of immune functions." []
+synonym: "CD4-positive helper T lymphocyte" EXACT []
+synonym: "CD4-positive helper T-cell" EXACT []
+synonym: "CD4-positive helper T-lymphocyte" EXACT []
+synonym: "CD4-positive T-helper cell" EXACT []
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+is_a: CL:0000912 ! helper T cell
 
 [Term]
 id: CL:0000494
-is_a: CL:0000210
+name: UV sensitive photoreceptor cell
+def: "A photoreceptor cell that detects ultraviolet light." []
+is_a: CL:0000210 ! photoreceptor cell
 
 [Term]
 id: CL:0000499
-is_a: CL:0002320
+name: stromal cell
+def: "A connective tissue cell of an organ found in the loose connective tissue. These are most often associated with the uterine mucosa and the ovary as well as the hematopoietic system and elsewhere." []
+is_a: CL:0002320 ! connective tissue cell
 
 [Term]
 id: CL:0000501
-is_a: CL:0000174
-is_a: CL:0002174
+name: granulosa cell
+def: "A supporting cell for the developing female gamete in the ovary of mammals. They develop from the coelomic epithelial cells of the gonadal ridge. Granulosa cells form a single layer around the mammalian oocyte in the primordial ovarian follicle and advance to form a multilayered cumulus oophorus surrounding the ovum in the Graafian follicle. The major functions of granulosa cells include the production of steroids and LH receptors." []
+synonym: "granulosa cell of ovary" EXACT []
+is_a: CL:0000174 ! steroid hormone secreting cell
+is_a: CL:0002174 ! follicular cell of ovary
 
 [Term]
 id: CL:0000502
-is_a: CL:0000164
-is_a: CL:0000172
+name: type D enteroendocrine cell
+def: "A cell found throughout the gastrointestinal tract and in the pancreas. They secrete somatostatin in both an endocrine and paracrine manner. Somatostatin inhibits gastrin, cholecystokinin, insulin, glucagon, pancreatic enzymes, and gastric hydrochloric acid. A variety of substances which inhibit gastric acid secretion (vasoactive intestinal peptide, calcitonin gene-related peptide, cholecystokinin, beta-adrenergic agonists, and gastric inhibitory peptide) are thought to act by releasing somatostatin." []
+synonym: "D cell" EXACT []
+is_a: CL:0000164 ! enteroendocrine cell
+is_a: CL:0000172 ! somatostatin secreting cell
 
 [Term]
 id: CL:0000511
-is_a: CL:0000154
+name: androgen binding protein secreting cell
+def: "A peptide hormone secreting cell that secretes androgen binding protein." []
+is_a: CL:0000154 ! protein secreting cell
 
 [Term]
 id: CL:0000513
-is_a: CL:0002494
-is_a: CL:0010021
+name: cardiac muscle myoblast
+def: "A precursor cell destined to differentiate into cardiac muscle cell." []
+synonym: "cardiac muscle progenitor cell" EXACT []
+synonym: "cardiomyocyte progenitor cell" EXACT []
+is_a: CL:0002494 ! cardiocyte
+is_a: CL:0010021 ! cardiac myoblast
 
 [Term]
 id: CL:0000517
-is_a: CL:0000891
+name: macrophage derived foam cell
+def: "A type of foam cell derived from a macrophage containing lipids in small vacuoles and typically seen in atherolosclerotic lesions, as well as other conditions." []
+is_a: CL:0000891 ! foam cell
 
 [Term]
 id: CL:0000519
-is_a: CL:0000234
+name: phagocyte (sensu Nematoda and Protostomia)
+def: "A phagocyte from organisms in the Nematoda or Protostomia clades." []
+is_a: CL:0000234 ! phagocyte
 
 [Term]
 id: CL:0000520
-is_a: CL:0000003
+name: prokaryotic cell
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000521
-is_a: CL:0000255
-disjoint_from: CL:0000548
+name: fungal cell
+is_a: CL:0000255 ! eukaryotic cell
 
 [Term]
 id: CL:0000526
-is_a: CL:0000540
+name: afferent neuron
+def: "A neuron which conveys sensory information centrally from the periphery." []
+synonym: "input neuron" EXACT []
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:0000527
-is_a: CL:0000540
+name: efferent neuron
+def: "A neuron which sends impulses peripherally to activate muscles or secretory cells." []
+synonym: "output neuron" EXACT []
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:0000530
-is_a: CL:0000540
+name: primary neuron
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:0000531
-is_a: CL:0000101
-is_a: CL:0000530
+name: primary sensory neuron
+is_a: CL:0000101 ! sensory neuron
+is_a: CL:0000530 ! primary neuron
 
 [Term]
 id: CL:0000540
-is_a: CL:0000393
-is_a: CL:0000404
-is_a: CL:0002319
+name: neuron
+def: "The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system." []
+synonym: "nerve cell" EXACT []
+is_a: CL:0000393 ! electrically responsive cell
+is_a: CL:0000404 ! electrically signaling cell
+is_a: CL:0002319 ! neural cell
 
 [Term]
 id: CL:0000542
-is_a: CL:0002087
-is_a: CL:0002242
-disjoint_from: CL:0000766
+name: lymphocyte
+def: "A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin." []
+is_a: CL:0002087 ! nongranular leukocyte
+is_a: CL:0002242 ! nucleate cell
 
 [Term]
 id: CL:0000545
-is_a: CL:0000492
+name: T-helper 1 cell
+def: "A CD4-positive, alpha-beta T cell that has the phenotype T-bet-positive, CXCR3-positive, CCR6-negative, and is capable of producing interferon-gamma." []
+synonym: "helper T cell type 1" EXACT []
+synonym: "T helper cells type 1" EXACT []
+synonym: "T(H)-1 cell" EXACT []
+synonym: "Th1 CD4+ T cell" EXACT []
+synonym: "Th1 cell" EXACT []
+synonym: "Th1 T cell" EXACT []
+synonym: "Th1 T lymphocyte" EXACT []
+synonym: "Th1 T-cell" EXACT []
+synonym: "Th1 T-lymphocyte" EXACT []
+is_a: CL:0000492 ! CD4-positive helper T cell
 
 [Term]
 id: CL:0000546
-is_a: CL:0000492
-is_a: CL:0001051
+name: T-helper 2 cell
+def: "A CD4-positive, alpha-beta T cell that has the phenotype GATA-3-positive, CXCR3-negative, CCR6-negative, and is capable of producing interleukin-4." []
+synonym: "helper T cell type 2" EXACT []
+synonym: "T helper cells type 2" EXACT []
+synonym: "T(H)-2 cell" EXACT []
+synonym: "Th2 cell" EXACT []
+synonym: "Th2 T cell" EXACT []
+synonym: "Th2 T lymphocyte" EXACT []
+synonym: "Th2 T-cell" EXACT []
+synonym: "Th2 T-lymphocyte" EXACT []
+is_a: CL:0000492 ! CD4-positive helper T cell
+is_a: CL:0001051 ! CD4-positive, CXCR3-negative, CCR6-negative, alpha-beta T cell
 
 [Term]
 id: CL:0000548
-is_a: CL:0000255
+name: animal cell
+is_a: CL:0000255 ! eukaryotic cell
 
 [Term]
 id: CL:0000556
-is_a: CL:0000763
-is_a: CL:1001610
-disjoint_from: CL:0000764
+name: megakaryocyte
+def: "A giant cell 50 to 100 micron in diameter, with a greatly lobulated nucleus, found in the bone marrow; mature blood platelets are released from its cytoplasm." []
+synonym: "megacaryocyte" EXACT []
+synonym: "megalocaryocyte" EXACT []
+synonym: "megalokaryocyte" EXACT []
+is_a: CL:0000763 ! myeloid cell
+is_a: CL:1001610 ! bone marrow hematopoietic cell
 
 [Term]
 id: CL:0000561
-is_a: CL:0000099
+name: amacrine cell
+def: "Interneuron of the vertebrate retina. They integrate, modulate, and interpose a temporal domain in the visual message presented to the retinal ganglion cells, with which they synapse in the inner plexiform layer. They lack large axons." []
+synonym: "amacrine neuron" EXACT []
+is_a: CL:0000099 ! interneuron
 
 [Term]
 id: CL:0000562
-is_a: CL:0000232
-is_a: CL:0002242
+name: nucleate erythrocyte
+def: "An erythrocyte having a nucleus." []
+synonym: "RBC" BROAD []
+synonym: "red blood cell" BROAD []
+is_a: CL:0000232 ! erythrocyte
+is_a: CL:0002242 ! nucleate cell
 
 [Term]
 id: CL:0000563
-is_a: CL:0000520
+name: endospore
+def: "A rounded, inactive form that certain bacteria assume under conditions of extreme temperature, dryness, or lack of food. The bacterium develops a waterproof cell wall that protects it from being dried out or damaged." []
+synonym: "bacterial spore" EXACT []
+is_a: CL:0000520 ! prokaryotic cell
 
 [Term]
 id: CL:0000566
-is_a: CL:0000134
+name: angioblastic mesenchymal cell
+def: "A mesenchymal stem cell capable of developing into blood vessel endothelium." []
+synonym: "angioblast" EXACT []
+synonym: "chondroplast" EXACT []
+is_a: CL:0000134 ! mesenchymal stem cell
 
 [Term]
 id: CL:0000568
-is_a: CL:0000165
+name: amine precursor uptake and decarboxylation cell
+def: "A cell that originates in the neural crest, that has certain cytochemical and ultrastructural characteristics and is found scattered throughout the body; types include melanocytes, the cells of the chromaffin system, and cells in the hypothalamus, hypophysis, thyroid, parathyroids, lungs, gastrointestinal tract, and pancreas. This cell type concentrates the amino acid precursors of certain amines and decarboxylate them, forming amines that function as regulators and neurotransmitters. This cell type produces substances such as epinephrine, norepinephrine, dopamine, serotonin, enkephalin, somatostatin, neurotensin, and substance P, the actions of which may affect contiguous cells, nearby groups of cells, or distant cells, thus functioning as local or systemic hormones. The name is an acronym for amine precursor uptake and decarboxylation cell." []
+synonym: "APUD cell" EXACT []
+is_a: CL:0000165 ! neuroendocrine cell
 
 [Term]
 id: CL:0000571
-is_a: CL:0000147
+name: leucophore
+def: "A pigment cell derived from the neural crest. Contains uric acid or other purine crystals deposited in stacks called leucosomes. The crystals reflect light and this gives a white appearance under white light." []
+is_a: CL:0000147 ! pigment cell
 
 [Term]
 id: CL:0000573
-is_a: CL:0010009
+name: retinal cone cell
+def: "One of the two photoreceptor cell types in the vertebrate retina. In cones the photopigment is in invaginations of the cell membrane of the outer segment. Cones are less sensitive to light than rods, but they provide vision with higher spatial and temporal acuity, and the combination of signals from cones with different pigments allows color vision." []
+is_a: CL:0010009 ! camera-type eye photoreceptor cell
 
 [Term]
 id: CL:0000574
-is_a: CL:0000147
+name: erythrophore
+def: "A pigment cell derived from the neural crest. Contains pteridine and/or carotenoid pigments in structures called pterinosomes or erythrosomes. This gives an orange to red appearance." []
+is_a: CL:0000147 ! pigment cell
 
 [Term]
 id: CL:0000575
-is_a: CL:0000076
-is_a: CL:0002159
+name: corneal epithelial cell
+def: "An epithelial cell of the cornea." []
+synonym: "epithelial cell of cornea" EXACT []
+is_a: CL:0000076 ! squamous epithelial cell
+is_a: CL:0002159 ! general ecto-epithelial cell
 
 [Term]
 id: CL:0000576
-is_a: CL:0000766
-is_a: CL:0000842
-is_a: CL:0011115
+name: monocyte
+def: "Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells." []
+is_a: CL:0000766 ! myeloid leukocyte
+is_a: CL:0000842 ! mononuclear cell
+is_a: CL:0011115 ! precursor cell
 
 [Term]
 id: CL:0000579
-is_a: CL:0000477
+name: border follicle cell
+is_a: CL:0000477 ! follicle cell
 
 [Term]
 id: CL:0000584
-is_a: CL:0000239
-is_a: CL:0000677
-is_a: CL:0002563
+name: enterocyte
+def: "An epithelial cell that has its apical plasma membrane folded into microvilli to provide ample surface for the absorption of nutrients from the intestinal lumen." []
+is_a: CL:0000239 ! brush border epithelial cell
+is_a: CL:0000677 ! gut absorptive cell
+is_a: CL:0002563 ! intestinal epithelial cell
 
 [Term]
 id: CL:0000586
-is_a: CL:0000039
+name: germ cell
+def: "The reproductive cell in multicellular organisms." []
+is_a: CL:0000039 ! germ line cell
 
 [Term]
 id: CL:0000594
-is_a: CL:0000188
-is_a: CL:0000680
+name: skeletal muscle satellite cell
+def: "An elongated, spindle-shaped, cell that is located between the basal lamina and the plasmalemma of a muscle fiber. These cells are mostly quiescent, but upon activation they divide to produce cells that generate new muscle fibers." []
+is_a: CL:0000188 ! cell of skeletal muscle
+is_a: CL:0000680 ! muscle precursor cell
 
 [Term]
 id: CL:0000595
-is_a: CL:0000225
-is_a: CL:0000232
+name: enucleate erythrocyte
+def: "An erythrocyte lacking a nucleus." []
+synonym: "RBC" BROAD []
+synonym: "red blood cell" BROAD []
+is_a: CL:0000225 ! anucleate cell
+is_a: CL:0000232 ! erythrocyte
 
 [Term]
 id: CL:0000596
-is_a: CL:0002369
+name: sexual spore
+def: "A spore formed following meiosis. Sometimes following meiosis, prospores may undergo one or more rounds of mitosis before they are fully mature." []
+synonym: "meiotically-derived spore" EXACT []
+is_a: CL:0002369 ! fungal spore
 
 [Term]
 id: CL:0000598
-is_a: CL:0000117
+name: pyramidal neuron
+def: "Pyramidal neurons have a pyramid-shaped soma with the apex and an apical dendrite pointed toward the pial surface and other dendrites and an axon emerging from the base. The axons may have local collaterals but also project outside their  region. Pyramidal neurons are found in the cerebral cortex, the hippocampus, and the amygdala." []
+synonym: "projection neuron" EXACT []
+synonym: "pyramidal cell" EXACT []
+synonym: "pyramidal neuron" EXACT []
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 
 [Term]
 id: CL:0000599
-is_a: CL:0000605
+name: conidium
+def: "An asexual, nonmotile spore formed by higher fungi; conidia are usually made from the side or tip of specialized sporogenous cells and do not form by progressive cleavage of the cytoplasm." []
+is_a: CL:0000605 ! fungal asexual spore
 
 [Term]
 id: CL:0000601
-is_a: CL:0000202
+name: outer hair cell
+def: "A mechanoreceptor in the organ of Corti. In mammals the outer hair cells are arranged in three rows which are further from the modiolus than the single row of inner hair cells. The motile properties of the outer hair cells may contribute actively to tuning the sensitivity and frequency selectivity of the cochlea." []
+synonym: "cochlear outer hair cell" EXACT []
+is_a: CL:0000202 ! auditory hair cell
 
 [Term]
 id: CL:0000604
-is_a: CL:0010009
+name: retinal rod cell
+def: "One of the two photoreceptor cell types of the vertebrate retina. In rods the photopigment is in stacks of membranous disks separate from the outer cell membrane. Rods are more sensitive to light than cones, but rod mediated vision has less spatial and temporal resolution than cone vision." []
+is_a: CL:0010009 ! camera-type eye photoreceptor cell
 
 [Term]
 id: CL:0000605
-is_a: CL:0002369
+name: fungal asexual spore
+def: "A spore formed following mitosis or mitoses." []
+is_a: CL:0002369 ! fungal spore
 
 [Term]
 id: CL:0000606
-is_a: CL:0000599
+name: macroconidium
+def: "The larger of two types of asexual spores formed by some fungi; usually round or oblong." []
+is_a: CL:0000599 ! conidium
 
 [Term]
 id: CL:0000607
-is_a: CL:0000596
+name: ascospore
+def: "A thick walled spore that stores and protects one or more nuclei following sexual reproduction in an Ascomycete." []
+is_a: CL:0000596 ! sexual spore
 
 [Term]
 id: CL:0000608
-is_a: CL:0000596
+name: zygospore
+def: "A thick walled, sexual, resting spore formed by Zygomycetes; sometimes refers to the spore and the multi-layered cell wall that encloses the spore, the zygosporangium." []
+is_a: CL:0000596 ! sexual spore
 
 [Term]
 id: CL:0000609
-is_a: CL:0002374
+name: vestibular hair cell
+def: "A mechanoreceptor located in the acoustic maculae and the semicircular canals that mediates the sense of balance, movement, and head position. The vestibular hair cells are connected to accessory structures in such a way that movements of the head displace their stereocilia. This influences the membrane potential of the cells which relay information about movements via the vestibular part of the vestibulocochlear nerve to the brain stem." []
+synonym: "vestibular receptor cell" EXACT []
+is_a: CL:0002374 ! ear hair cell
 
 [Term]
 id: CL:0000615
-is_a: CL:0000596
+name: basidiospore
+def: "A thick walled spore containing one or more haploid nuclei produced by sexual reproduction in an Basidiomycete; formed externally on extrusions of the basidium." []
+is_a: CL:0000596 ! sexual spore
 
 [Term]
 id: CL:0000617
-is_a: CL:0000161
-is_a: CL:0000540
+name: GABAergic neuron
+def: "A neuron that uses GABA as a vesicular neurotransmitter" []
+synonym: "GABA-ergic neuron" EXACT []
+is_a: CL:0000161 ! acid secreting cell
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:0000622
-is_a: CL:0000150
-is_a: CL:0000154
+name: acinar cell
+def: "A secretory cell that is grouped together with other cells of the same type to form grape shaped clusters known as acini (singular acinus)." []
+synonym: "acinic cell" EXACT []
+synonym: "acinous cell" EXACT []
+is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0000154 ! protein secreting cell
 
 [Term]
 id: CL:0000623
-is_a: CL:0001067
+name: natural killer cell
+def: "A lymphocyte that can spontaneously kill a variety of target cells without prior antigenic activation via germline encoded activation receptors and also regulate immune responses via cytokine release and direct contact with other cells." []
+synonym: "large granular lymphocyte" BROAD []
+synonym: "NK cell" EXACT []
+synonym: "null cell" BROAD []
+is_a: CL:0001067 ! group 1 innate lymphoid cell
 
 [Term]
 id: CL:0000624
-is_a: CL:0000791
-disjoint_from: CL:0000625
+name: CD4-positive, alpha-beta T cell
+def: "A mature alpha-beta T cell that expresses an alpha-beta T cell receptor and the CD4 coreceptor." []
+synonym: "CD4-positive, alpha-beta T lymphocyte" EXACT []
+synonym: "CD4-positive, alpha-beta T-cell" EXACT []
+synonym: "CD4-positive, alpha-beta T-lymphocyte" EXACT []
+is_a: CL:0000791 ! mature alpha-beta T cell
 
 [Term]
 id: CL:0000625
-is_a: CL:0000791
+name: CD8-positive, alpha-beta T cell
+def: "A T cell expressing an alpha-beta T cell receptor and the CD8 coreceptor." []
+synonym: "CD8-positive, alpha-beta T lymphocyte" EXACT []
+synonym: "CD8-positive, alpha-beta T-cell" EXACT []
+synonym: "CD8-positive, alpha-beta T-lymphocyte" EXACT []
+is_a: CL:0000791 ! mature alpha-beta T cell
 
 [Term]
 id: CL:0000630
-is_a: CL:0000003
+name: supportive cell
+def: "A cell whose primary function is to support other cell types." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000632
-is_a: CL:0000057
-is_a: CL:0000152
-is_a: CL:0000327
+name: hepatic stellate cell
+def: "A cell that is found in the perisinusoidal space of the liver that is capable of multiple roles including storage of retinol, presentation of antigen to T cells (including CD1d-restricted NKT cells), and upon activation, production of extracellular matrix components that can contribute to liver fibrosis. This activated state has a myofibroblast-like phenotype, though it's not clear in the literature if this is terminally differentiated. This cell type comprises approximately 8-15% of total cells in the liver." []
+synonym: "fat-storing cell" RELATED []
+synonym: "hepatic perisinusoidal cell" EXACT []
+synonym: "Ito cell" EXACT []
+synonym: "lipocyte" RELATED []
+synonym: "perisinusoidal cell" EXACT []
+synonym: "vitamin A-storing cells" RELATED []
+is_a: CL:0000057 ! fibroblast
+is_a: CL:0000152 ! exocrine cell
+is_a: CL:0000327 ! extracellular matrix secreting cell
 
 [Term]
 id: CL:0000637
-is_a: CL:0000150
-is_a: CL:0000166
-is_a: CL:0000167
-is_a: CL:0002319
-is_a: CL:2000004
+name: chromophil cell of anterior pituitary gland
+def: "A cell that stains readily in the anterior pituitary gland." []
+is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0000166 ! chromaffin cell
+is_a: CL:0000167 ! peptide hormone secreting cell
+is_a: CL:2000004 ! pituitary gland cell
 
 [Term]
 id: CL:0000639
-is_a: CL:0000637
+name: basophil cell of pars distalis of adenohypophysis
+def: "A basophillic chromophil cell that of the anterior pituitary gland." []
+synonym: "basophil cell of anterior lobe of hypophysis" EXACT []
+synonym: "beta cell" RELATED []
+synonym: "pituitary beta cell" RELATED []
+is_a: CL:0000637 ! chromophil cell of anterior pituitary gland
 
 [Term]
 id: CL:0000644
-is_a: CL:0000127
+name: Bergmann glial cell
+def: "Type of radial astrocyte in the cerebellar cortex that have their cell bodies in the Purkinje cell layer and processes that extend into the molecular layer, terminating with bulbous endfeet at the pial surface. Bergmann glia express high densities of glutamate transporters that limit diffusion of the neurotransmitter glutamate during its release from synaptic terminals. Besides their role in early development of the cerebellum, Bergmann glia are also required for the pruning or addition of synapses." []
+synonym: "Bergmann astrocyte" EXACT []
+synonym: "Bergmann glial cell of cerebellum" EXACT []
+is_a: CL:0000127 ! astrocyte
 
 [Term]
 id: CL:0000646
-is_a: CL:0000036
+name: basal cell
+def: "Undifferentiated; mitotic stem cell for other epithelial cell types; rounded or elliptical with little cytoplasm and few organelles; contain cytokeratin intermediate filament." []
+is_a: CL:0000036 ! epithelial fate stem cell
 
 [Term]
 id: CL:0000650
-is_a: CL:0000669
+name: mesangial cell
+def: "A cell type that encapsulates the capillaries and venules in the kidney. This cell secretes mesangial matrix that provides the structural support for the capillaries." []
+synonym: "kidney mesangial cell" EXACT []
+is_a: CL:0000669 ! pericyte cell
 
 [Term]
 id: CL:0000653
-is_a: CL:0002522
-is_a: CL:1000451
+name: glomerular visceral epithelial cell
+def: "A glomerular visceral epithelial cell is a specialized kidney epithelial cell that contains \"feet\" that interdigitate with the \"feet\" of other glomerular epithelial cells." []
+synonym: "epithelial cell of visceral layer of glomerular capsule" BROAD []
+synonym: "glomerular podocyte" EXACT []
+synonym: "podocyte" EXACT []
+is_a: CL:0002522 ! renal filtration cell
+is_a: CL:1000451 ! epithelial cell of visceral layer of glomerular capsule
 
 [Term]
 id: CL:0000654
-is_a: CL:0000023
+name: primary oocyte
+def: "A primary oocyte is an oocyte that has not completed female meosis I." []
+synonym: "primary oogonium" RELATED []
+is_a: CL:0000023 ! oocyte
 
 [Term]
 id: CL:0000656
-is_a: CL:0000017
+name: primary spermatocyte
+def: "A diploid cell that has derived from a spermatogonium and can subsequently begin meiosis and divide into two haploid secondary spermatocytes." []
+is_a: CL:0000017 ! spermatocyte
 
 [Term]
 id: CL:0000661
-is_a: CL:0000422
+name: distal tip cell (sensu Nematoda)
+is_a: CL:0000422 ! mitogenic signaling cell
 
 [Term]
 id: CL:0000663
-is_a: CL:0000003
+name: valve cell
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000667
-is_a: CL:0000327
+name: collagen secreting cell
+def: "An extracellular matrix secreting cell that secretes collagen." []
+is_a: CL:0000327 ! extracellular matrix secreting cell
 
 [Term]
 id: CL:0000669
-is_a: CL:0000183
-is_a: CL:0000630
-is_a: CL:0002320
+name: pericyte cell
+def: "An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane. Pericytes are present in capillaries where proper adventitia and muscle layer are missing (thus distingushing this cell type from adventitial cells). They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells." []
+synonym: "adventitial cell" RELATED []
+synonym: "adventitial reticular cell" EXACT []
+synonym: "ARC" EXACT []
+synonym: "cell of Rouget" EXACT []
+synonym: "pericyte" EXACT []
+synonym: "pericyte of Rouget" EXACT []
+is_a: CL:0000183 ! contractile cell
+is_a: CL:0000630 ! supportive cell
+is_a: CL:0002320 ! connective tissue cell
 
 [Term]
 id: CL:0000670
-is_a: CL:0000039
-is_a: CL:0000219
+name: primordial germ cell
+def: "A primordial germ cell is a diploid germ cell precursors that transiently exist in the embryo before they enter into close association with the somatic cells of the gonad and become irreversibly committed as germ cells." []
+synonym: "gonocyte" EXACT []
+synonym: "primitive germ cell" EXACT []
+is_a: CL:0000039 ! germ line cell
+is_a: CL:0000219 ! motile cell
 
 [Term]
 id: CL:0000671
-is_a: CL:0000477
+name: centripetally migrating follicle cell
+is_a: CL:0000477 ! follicle cell
 
 [Term]
 id: CL:0000675
-is_a: CL:0000021
-is_a: CL:0000300
+name: female gamete
+def: "A mature sexual reproductive cell of the female germline." []
+is_a: CL:0000021 ! female germ cell
+is_a: CL:0000300 ! gamete
 
 [Term]
 id: CL:0000677
-is_a: CL:0000212
+name: gut absorptive cell
+def: "Cell of the intestinal epithelium with a brush border made up of many parallel packed microvilli; associated with absorption, particularly of macromolecules." []
+is_a: CL:0000212 ! absorptive cell
 
 [Term]
 id: CL:0000678
-is_a: CL:0000540
+name: commissural neuron
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:0000679
-is_a: CL:0000161
-is_a: CL:0000540
+name: glutamatergic neuron
+is_a: CL:0000161 ! acid secreting cell
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:0000680
-is_a: CL:0000055
-is_a: CL:0002371
+name: muscle precursor cell
+def: "A non-terminally differentiated cell that is capable of developing into a muscle cell." []
+is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000681
-is_a: CL:0000243
+name: radial glial cell
+def: "A cell present in the developing CNS. Functions as both a precursor cell and as a scaffold to support neuronal migration." []
+synonym: "forebrain radial glial cell" NARROW []
+is_a: CL:0000243 ! glial cell (sensu Vertebrata)
 
 [Term]
 id: CL:0000683
-is_a: CL:0000127
+name: ependymoglial cell
+def: "A cell that transports hormones from neurosecretory cells. This nerve cell is characterized by bipolar shape and endfeet that contact a basal lamina around blood vessels, and/or the pia mater or vitreous body of the eye and additionally contact the ventricular surface or sub-retinal space." []
+synonym: "ependymal astrocyte" EXACT []
+is_a: CL:0000127 ! astrocyte
 
 [Term]
 id: CL:0000695
-is_a: CL:0000117
+name: Cajal-Retzius cell
+def: "One of a transient population of pioneering neurons in the cerebral cortex. These cells are slender bipolar cells of the developing marginal zone. One feature of these cells in mammals is that they express the Reelin gene." []
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 
 [Term]
 id: CL:0000696
-is_a: CL:0000164
-is_a: CL:0000167
+name: PP cell
+def: "A cell that stores and secretes pancreatic polypeptide hormone." []
+synonym: "type F enteroendocrine cell" EXACT []
+is_a: CL:0000164 ! enteroendocrine cell
+is_a: CL:0000167 ! peptide hormone secreting cell
 
 [Term]
 id: CL:0000700
-is_a: CL:0000151
-is_a: CL:0000540
+name: dopaminergic neuron
+def: "A neuron that releases dopamine as a neurotransmitter." []
+synonym: "dopaminergic cell" EXACT []
+is_a: CL:0000151 ! secretory cell
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:0000704
-is_a: CL:0000071
+name: endothelial tip cell
+def: "A specialized endothelial cell that senses extracellular signals and guides the directed growth of blood vessels." []
+is_a: CL:0000071 ! blood vessel endothelial cell
 
 [Term]
 id: CL:0000707
-is_a: CL:0000287
-is_a: CL:0000494
+name: R7 photoreceptor cell
+synonym: "R7 cell" EXACT []
+is_a: CL:0000287 ! eye photoreceptor cell
+is_a: CL:0000494 ! UV sensitive photoreceptor cell
 
 [Term]
 id: CL:0000709
-is_a: CL:0000287
-is_a: CL:0000488
+name: R8 photoreceptor cell
+synonym: "R8 cell" EXACT []
+is_a: CL:0000287 ! eye photoreceptor cell
+is_a: CL:0000488 ! visible light photoreceptor cell
 
 [Term]
 id: CL:0000710
-is_a: CL:0000075
-is_a: CL:0002077
+name: neurecto-epithelial cell
+def: "Epithelial cells derived from neural plate and neural crest." []
+synonym: "neuroepithelial cell" BROAD []
+is_a: CL:0000075 ! columnar/cuboidal epithelial cell
+is_a: CL:0002077 ! ecto-epithelial cell
 
 [Term]
 id: CL:0000711
-is_a: CL:0000154
-is_a: CL:0002174
+name: cumulus cell
+def: "Cumulus cell is a specialized granulosa cell that surrounds and nourishes the oocyte. This cell-type surrounds the fully-grown oocyte to form a cumulus-oocyte complex (abbr. COC). The terms cumulus oophorus cells, cumulus granulosa cells, cumulus oophorous granulosa cells, granulosa-cumulus cells are used to make a distinction between this cell and the other functionally different subpopulation of granulosa cells at the wall of the Graafian follicle." []
+is_a: CL:0000154 ! protein secreting cell
+is_a: CL:0002174 ! follicular cell of ovary
 
 [Term]
 id: CL:0000715
-is_a: CL:0000392
-is_a: CL:0000736
+name: embryonic crystal cell
+is_a: CL:0000392 ! crystal cell
+is_a: CL:0000736 ! embryonic gland hemocyte
 
 [Term]
 id: CL:0000716
-is_a: CL:0000392
-is_a: CL:0000735
+name: lymph gland crystal cell
+is_a: CL:0000392 ! crystal cell
+is_a: CL:0000735 ! lymph gland hemocyte
 
 [Term]
 id: CL:0000718
-is_a: CL:0000306
+name: compound eye cone cell
+synonym: "cone cell (sensu Endopterygota)" RELATED []
+is_a: CL:0000306 ! crystallin accumulating cell
 
 [Term]
 id: CL:0000722
-is_a: CL:0000586
+name: cystoblast
+is_a: CL:0000586 ! germ cell
 
 [Term]
 id: CL:0000723
-is_a: CL:0000034
-is_a: CL:0002371
+name: somatic stem cell
+def: "A stem cell that can give rise to cell types of the body other than those of the germ-line." []
+is_a: CL:0000034 ! stem cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000724
-is_a: CL:0000520
-is_a: CL:0000725
+name: heterocyst
+def: " A differentiated cell that functions as a site of nitrogen fixation under aerobic conditions." []
+is_a: CL:0000520 ! prokaryotic cell
+is_a: CL:0000725 ! nitrogen fixing cell
 
 [Term]
 id: CL:0000725
-is_a: CL:0000003
+name: nitrogen fixing cell
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000726
-is_a: CL:0000605
+name: chlamydospore
+def: "An asexual 1-celled spore (primarily for perennation, not dissemination). Originates endogenously and singly within part of a pre-existing cell by the contraction of the protoplast. Possesses an inner secondary and often thickened hyaline or brown wall, usually impregnated with hydrophobic material." []
+is_a: CL:0000605 ! fungal asexual spore
 
 [Term]
 id: CL:0000730
-is_a: CL:0000066
-is_a: CL:0002371
+name: leading edge cell
+def: "A cell at the front of a migrating epithelial sheet." []
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000731
-is_a: CL:0000244
+name: urothelial cell
+def: "A cell of a layer of transitional epithelium in the wall of the bladder, ureter, and renal pelvis, external to the lamina propria." []
+synonym: "bladder transitional cell" NARROW []
+synonym: "transitional epithelial cell of urinary bladder" NARROW []
+synonym: "urinary tract transitional epithelial cell" NARROW []
+is_a: CL:0000244 ! transitional epithelial cell
 
 [Term]
 id: CL:0000733
-is_a: CL:0000394
-is_a: CL:0000735
+name: lymph gland plasmatocyte
+is_a: CL:0000394 ! plasmatocyte
+is_a: CL:0000735 ! lymph gland hemocyte
 
 [Term]
 id: CL:0000735
-is_a: CL:0000387
+name: lymph gland hemocyte
+is_a: CL:0000387 ! hemocyte (sensu Nematoda and Protostomia)
 
 [Term]
 id: CL:0000736
-is_a: CL:0000387
+name: embryonic gland hemocyte
+is_a: CL:0000387 ! hemocyte (sensu Nematoda and Protostomia)
 
 [Term]
 id: CL:0000737
-is_a: CL:0000187
-disjoint_from: CL:0008000
+name: striated muscle cell
+def: "Muscle cell which has as its direct parts myofilaments organized into sarcomeres." []
+is_a: CL:0000187 ! muscle cell
 
 [Term]
 id: CL:0000738
-is_a: CL:0000219
-is_a: CL:0000988
+name: leukocyte
+def: "An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue." []
+synonym: "immune cell" EXACT []
+synonym: "leucocyte" EXACT []
+synonym: "white blood cell" EXACT []
+is_a: CL:0000219 ! motile cell
+is_a: CL:0000988 ! hematopoietic cell
 
 [Term]
 id: CL:0000740
-is_a: CL:0000117
-is_a: CL:0009004
+name: retinal ganglion cell
+def: "The set of neurons that receives neural inputs via bipolar, horizontal and amacrine cells. The axons of these cells make up the optic nerve." []
+synonym: "gangliocyte" EXACT []
+synonym: "ganglion cell of retina" EXACT []
+synonym: "RGC" EXACT []
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
+is_a: CL:0009004 ! retinal cell
 
 [Term]
 id: CL:0000746
-is_a: CL:0000737
-is_a: CL:0002494
+name: cardiac muscle cell
+def: "Cardiac muscle cells are striated muscle cells that are responsible for heart contraction. In mammals, the contractile fiber resembles those of skeletal muscle but are only one third as large in diameter, are richer in sarcoplasm, and contain centrally located instead of peripheral nuclei." []
+synonym: "cardiac muscle fiber" EXACT []
+synonym: "cardiac myocyte" EXACT []
+synonym: "cardiocyte" BROAD []
+synonym: "cardiomyocyte" EXACT []
+synonym: "heart muscle cell" EXACT []
+is_a: CL:0000737 ! striated muscle cell
+is_a: CL:0002494 ! cardiocyte
 
 [Term]
 id: CL:0000747
-is_a: CL:0000147
+name: cyanophore
+def: "A pigment cell derived from the neural crest. Contains blue pigment of unknown chemical composition in fibrous organelles termed cyanosomes. This gives a blue appearance." []
+synonym: "blue chromatophore" RELATED []
+is_a: CL:0000147 ! pigment cell
 
 [Term]
 id: CL:0000748
-is_a: CL:0000103
-is_a: CL:0000679
-is_a: CL:0008028
-is_a: CL:0008030
-is_a: CL:0009004
+name: retinal bipolar neuron
+def: "A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner plexiform layer." []
+is_a: CL:0000103 ! bipolar neuron
+is_a: CL:0009004 ! retinal cell
+
+[Term]
+id: CL:0000749
+name: ON-bipolar cell
+def: "A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner half of the inner plexiform layer. These cells depolarize in response to light stimulation of their corresponding photoreceptors." []
+is_a: CL:0000748 ! retinal bipolar neuron
 
 [Term]
 id: CL:0000751
-is_a: CL:0000748
+name: rod bipolar cell
+def: "A bipolar neuron found in the retina and having connections with rod photoreceptor cells and neurons in the inner plexiform layer." []
+is_a: CL:0000749 ! ON-bipolar cell
 
 [Term]
 id: CL:0000752
-is_a: CL:0000748
+name: cone retinal bipolar cell
+def: "A bipolar neuron found in the retina and having connections with cone photoreceptor cells and neurons in the inner plexiform layer." []
+is_a: CL:0000748 ! retinal bipolar neuron
 
 [Term]
 id: CL:0000762
-is_a: CL:0000226
-is_a: CL:0000763
+name: nucleated thrombocyte
+def: "A nucleated blood cell involved in coagulation, typically seen in birds and other non-mammalian vertebrates." []
+is_a: CL:0000226 ! single nucleate cell
+is_a: CL:0000763 ! myeloid cell
 
 [Term]
 id: CL:0000763
-is_a: CL:0000988
+name: myeloid cell
+def: "A cell of the monocyte, granulocyte, mast cell, megakaryocyte, or erythroid lineage." []
+is_a: CL:0000988 ! hematopoietic cell
 
 [Term]
 id: CL:0000764
-is_a: CL:0000763
+name: erythroid lineage cell
+def: "A immature or mature cell in the lineage leading to and including erythrocytes." []
+synonym: "erythropoietic cell" EXACT []
+is_a: CL:0000763 ! myeloid cell
 
 [Term]
 id: CL:0000766
-is_a: CL:0000738
-is_a: CL:0000763
+name: myeloid leukocyte
+def: "A cell of the monocyte, granulocyte, or mast cell lineage." []
+is_a: CL:0000738 ! leukocyte
+is_a: CL:0000763 ! myeloid cell
 
 [Term]
 id: CL:0000767
-is_a: CL:0000094
+name: basophil
+def: "Any of the immature or mature forms of a granular leukocyte that in its mature form has an irregularly shaped, pale-staining nucleus that is partially constricted into two lobes, and with cytoplasm that contains coarse, bluish-black granules of variable size. Basophils contain vasoactive amines such as histamine and serotonin, which are released on appropriate stimulation. A basophil is CD123-positive, CD193-positive, CD203c-positive, and FceRIa-positive." []
+synonym: "basophilic leucocyte" EXACT []
+synonym: "basophilic leukocyte" EXACT []
+synonym: "polymorphonuclear leucocyte" BROAD []
+synonym: "polymorphonuclear leukocyte" BROAD []
+is_a: CL:0000094 ! granulocyte
 
 [Term]
 id: CL:0000771
-is_a: CL:0000094
+name: eosinophil
+def: "Any of the immature or mature forms of a granular leukocyte with a nucleus that usually has two lobes connected by one or more slender threads of chromatin, and cytoplasm containing coarse, round granules that are uniform in size and which can be stained by the dye eosin. Eosinophils are CD9-positive, CD191-positive, and CD193-positive." []
+synonym: "eosinocyte" EXACT []
+synonym: "eosinophilic granulocyte" EXACT []
+synonym: "eosinophilic leucocyte" EXACT []
+synonym: "eosinophilic leukocyte" EXACT []
+synonym: "polymorphonuclear leucocyte" BROAD []
+synonym: "polymorphonuclear leukocyte" BROAD []
+is_a: CL:0000094 ! granulocyte
 
 [Term]
 id: CL:0000775
-is_a: CL:0000094
+name: neutrophil
+def: "Any of the immature or mature forms of a granular leukocyte that in its mature form has a nucleus with three to five lobes connected by slender threads of chromatin, and cytoplasm containing fine inconspicuous granules and stainable by neutral dyes." []
+synonym: "neutrocyte" EXACT []
+synonym: "neutrophil leucocyte" EXACT []
+synonym: "neutrophil leukocyte" EXACT []
+synonym: "neutrophilic leucocyte" EXACT []
+synonym: "neutrophilic leukocyte" EXACT []
+synonym: "PMN" BROAD []
+synonym: "poly" BROAD []
+synonym: "polymorphonuclear leucocyte" BROAD []
+synonym: "polymorphonuclear leukocyte" BROAD []
+synonym: "polymorphonuclear neutrophil" BROAD []
+synonym: "polynuclear neutrophilic leucocyte" BROAD []
+synonym: "polynuclear neutrophilic leukocyte" BROAD []
+is_a: CL:0000094 ! granulocyte
 
 [Term]
 id: CL:0000779
-is_a: CL:0000092
-is_a: CL:0000228
+name: multinuclear osteoclast
+def: "A specialized multinuclear osteoclast associated with the absorption and removal of bone." []
+synonym: "multinucleated osteoclast" EXACT []
+is_a: CL:0000092 ! osteoclast
+is_a: CL:0000228 ! multinucleate cell
 
 [Term]
 id: CL:0000782
-is_a: CL:0000766
-is_a: CL:0000990
+name: myeloid dendritic cell
+def: "A dendritic cell of the myeloid lineage." []
+synonym: "CD11c+CD123- DC" EXACT []
+synonym: "interdigitating cell" BROAD []
+synonym: "mDC" EXACT []
+synonym: "veiled cell" BROAD []
+is_a: CL:0000766 ! myeloid leukocyte
+is_a: CL:0000990 ! conventional dendritic cell
 
 [Term]
 id: CL:0000784
-is_a: CL:0000451
+name: plasmacytoid dendritic cell
+def: "A dendritic cell type of distinct morphology, localization, and surface marker expression (CD123-positive) from other dendritic cell types and associated with early stage immune responses, particularly the release of physiologically abundant amounts of type I interferons in response to infection." []
+synonym: "DC2" EXACT []
+synonym: "interferon-producing cell" EXACT []
+synonym: "IPC" EXACT []
+synonym: "lymphoid dendritic cell" EXACT []
+synonym: "pDC" EXACT []
+synonym: "plasmacytoid monocyte" EXACT []
+synonym: "plasmacytoid T cell" EXACT []
+synonym: "T-associated plasma cell" EXACT []
+synonym: "type 2 DC" EXACT []
+is_a: CL:0000451 ! dendritic cell
 
 [Term]
 id: CL:0000785
-is_a: CL:0000236
-disjoint_from: CL:0000816
-disjoint_from: CL:0000817
-disjoint_from: CL:0000818
+name: mature B cell
+def: "A B cell that is mature, having left the bone marrow. Initially, these cells are IgM-positive and IgD-positive, and they can be activated by antigen." []
+synonym: "mature B lymphocyte" EXACT []
+synonym: "mature B-cell" EXACT []
+synonym: "mature B-lymphocyte" EXACT []
+is_a: CL:0000236 ! B cell
 
 [Term]
 id: CL:0000786
-is_a: CL:0000946
+name: plasma cell
+def: "A terminally differentiated, post-mitotic, antibody secreting cell of the B cell lineage with the phenotype CD138-positive, surface immunonoglobulin-negative, and MHC Class II-negative. Plasma cells are oval or round with extensive rough endoplasmic reticulum, a well-developed Golgi apparatus, and a round nucleus having a characteristic cartwheel heterochromatin pattern and are devoted to producing large amounts of immunoglobulin." []
+synonym: "effector B cell" RELATED []
+synonym: "effector B-cell" RELATED []
+synonym: "plasma B cell" EXACT []
+synonym: "plasma B-cell" EXACT []
+synonym: "plasmacyte" EXACT []
+synonym: "plasmocyte" EXACT []
+is_a: CL:0000946 ! antibody secreting cell
 
 [Term]
 id: CL:0000787
-is_a: CL:0000785
+name: memory B cell
+def: "A memory B cell is a mature B cell that is long-lived, readily activated upon re-encounter of its antigenic determinant, and has been selected for expression of higher affinity immunoglobulin. This cell type has the phenotype CD19-positive, CD20-positive, MHC Class II-positive, and CD138-negative." []
+synonym: "memory B lymphocyte" EXACT []
+synonym: "memory B-cell" EXACT []
+synonym: "memory B-lymphocyte" EXACT []
+is_a: CL:0000785 ! mature B cell
 
 [Term]
 id: CL:0000789
-is_a: CL:0000084
-disjoint_from: CL:0000798
+name: alpha-beta T cell
+def: "A T cell that expresses an alpha-beta T cell receptor complex." []
+synonym: "alpha-beta T lymphocyte" EXACT []
+synonym: "alpha-beta T-cell" EXACT []
+synonym: "alpha-beta T-lymphocyte" EXACT []
+is_a: CL:0000084 ! T cell
 
 [Term]
 id: CL:0000791
-is_a: CL:0000789
-is_a: CL:0002419
+name: mature alpha-beta T cell
+def: "A alpha-beta T cell that has a mature phenotype." []
+synonym: "mature alpha-beta T lymphocyte" EXACT []
+synonym: "mature alpha-beta T-cell" EXACT []
+synonym: "mature alpha-beta T-lymphocyte" EXACT []
+is_a: CL:0000789 ! alpha-beta T cell
+is_a: CL:0002419 ! mature T cell
 
 [Term]
 id: CL:0000792
-is_a: CL:0000624
-is_a: CL:0000815
+name: CD4-positive, CD25-positive, alpha-beta regulatory T cell
+def: "A CD4-positive, CD25-positive, alpha-beta T cell that regulates overall immune responses as well as the responses of other T cell subsets through direct cell-cell contact and cytokine release." []
+synonym: "CD4-positive, CD25-positive, alpha-beta regulatory T lymphocyte" EXACT []
+synonym: "CD4-positive, CD25-positive, alpha-beta regulatory T-cell" EXACT []
+synonym: "CD4-positive, CD25-positive, alpha-beta regulatory T-lymphocyte" EXACT []
+synonym: "suppressor T cell" BROAD []
+synonym: "suppressor T lymphocyte" BROAD []
+synonym: "suppressor T-cell" BROAD []
+synonym: "suppressor T-lymphocyte" BROAD []
+synonym: "Treg" BROAD []
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+is_a: CL:0000815 ! regulatory T cell
 
 [Term]
 id: CL:0000793
-is_a: CL:0000624
-is_a: CL:0000797
+name: CD4-positive, alpha-beta intraepithelial T cell
+def: "A CD4-positive, alpha-beta T cell that is found in the columnar epithelium of the gastrointestinal tract." []
+synonym: "CD4-positive, alpha-beta intraepithelial T lymphocyte" EXACT []
+synonym: "CD4-positive, alpha-beta intraepithelial T-cell" EXACT []
+synonym: "CD4-positive, alpha-beta intraepithelial T-lymphocyte" EXACT []
+synonym: "IEL" BROAD []
+synonym: "intraepithelial lymphocyte" BROAD []
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+is_a: CL:0000797 ! alpha-beta intraepithelial T cell
 
 [Term]
 id: CL:0000794
-is_a: CL:0000625
-is_a: CL:0000910
+name: CD8-positive, alpha-beta cytotoxic T cell
+def: "A CD8-positive, alpha-beta T cell that is capable of killing target cells in an antigen specific manner with the phenotype perforin-positive and granzyme B-positive." []
+synonym: "CD8-positive, alpha-beta cytotoxic T lymphocyte" EXACT []
+synonym: "CD8-positive, alpha-beta cytotoxic T-cell" EXACT []
+synonym: "CD8-positive, alpha-beta cytotoxic T-lymphocyte" EXACT []
+synonym: "cytotoxic T cell" BROAD []
+synonym: "cytotoxic T lymphocyte" BROAD []
+synonym: "cytotoxic T-cell" BROAD []
+synonym: "cytotoxic T-lymphocyte" BROAD []
+synonym: "killer T cell" BROAD []
+synonym: "killer T lymphocyte" BROAD []
+synonym: "killer T-cell" BROAD []
+synonym: "killer T-lymphocyte" BROAD []
+is_a: CL:0000625 ! CD8-positive, alpha-beta T cell
+is_a: CL:0000910 ! cytotoxic T cell
 
 [Term]
 id: CL:0000795
-is_a: CL:0000625
-is_a: CL:0000815
+name: CD8-positive, alpha-beta regulatory T cell
+def: "A CD8-positive, alpha-beta T cell that regulates overall immune responses as well as the responses of other T cell subsets through direct cell-cell contact and cytokine release." []
+synonym: "CD8+ regulatory T cell" EXACT []
+synonym: "CD8+ T(reg)" EXACT []
+synonym: "CD8+ Treg" EXACT []
+synonym: "CD8-positive T(reg)" EXACT []
+synonym: "CD8-positive Treg" EXACT []
+synonym: "CD8-positive, alpha-beta regulatory T lymphocyte" EXACT []
+synonym: "CD8-positive, alpha-beta regulatory T-cell" EXACT []
+synonym: "CD8-positive, alpha-beta regulatory T-lymphocyte" EXACT []
+synonym: "CD8-positive, alpha-beta Treg" EXACT []
+synonym: "suppressor T cell" BROAD []
+synonym: "suppressor T lymphocyte" BROAD []
+synonym: "suppressor T-cell" BROAD []
+synonym: "suppressor T-lymphocyte" BROAD []
+is_a: CL:0000625 ! CD8-positive, alpha-beta T cell
+is_a: CL:0000815 ! regulatory T cell
 
 [Term]
 id: CL:0000796
-is_a: CL:0000797
+name: CD8-alpha-beta-positive, alpha-beta intraepithelial T cell
+def: "A alpha-beta intraepithelial T cell found in the columnar epithelium of the gastrointestinal tract. Intraepithelial T cells often have distinct developmental pathways and activation requirements." []
+synonym: "CD8-positive, alpha-beta intraepithelial T lymphocyte" EXACT []
+synonym: "CD8-positive, alpha-beta intraepithelial T-cell" EXACT []
+synonym: "CD8-positive, alpha-beta intraepithelial T-lymphocyte" EXACT []
+synonym: "IEL" BROAD []
+synonym: "intraepithelial lymphocyte" BROAD []
+is_a: CL:0000797 ! alpha-beta intraepithelial T cell
 
 [Term]
 id: CL:0000797
-is_a: CL:0000791
-is_a: CL:0002496
+name: alpha-beta intraepithelial T cell
+def: "A mature alpha-beta T cell of the columnar epithelium of the gastrointestinal tract. Intraepithelial T cells often have distinct developmental pathways and activation requirements." []
+synonym: "alpha-beta intraepithelial T lymphocyte" EXACT []
+synonym: "alpha-beta intraepithelial T-cell" EXACT []
+synonym: "alpha-beta intraepithelial T-lymphocyte" EXACT []
+synonym: "IEL" BROAD []
+synonym: "intraepithelial lymphocyte" BROAD []
+is_a: CL:0000791 ! mature alpha-beta T cell
+is_a: CL:0002496 ! intraepithelial lymphocyte
 
 [Term]
 id: CL:0000798
-is_a: CL:0000084
+name: gamma-delta T cell
+def: "A T cell that expresses a gamma-delta T cell receptor complex." []
+synonym: "gamma-delta T lymphocyte" EXACT []
+synonym: "gamma-delta T-cell" EXACT []
+synonym: "gamma-delta T-lymphocyte" EXACT []
+synonym: "gammadelta T cell" EXACT []
+synonym: "gd T cell" RELATED []
+is_a: CL:0000084 ! T cell
 
 [Term]
 id: CL:0000800
-is_a: CL:0000798
-is_a: CL:0002419
+name: mature gamma-delta T cell
+def: "A gamma-delta T cell that has a mature phenotype. These cells can be found in tissues and circulation where they express unique TCR repertoire depending on their location." []
+synonym: "mature gamma-delta T lymphocyte" EXACT []
+synonym: "mature gamma-delta T-cell" EXACT []
+synonym: "mature gamma-delta T-lymphocyte" EXACT []
+is_a: CL:0000798 ! gamma-delta T cell
+is_a: CL:0002419 ! mature T cell
 
 [Term]
 id: CL:0000801
-is_a: CL:0000800
-is_a: CL:0002496
+name: gamma-delta intraepithelial T cell
+def: "A mature gamma-delta T cell that is found in the columnar epithelium of the gastrointestinal tract. These cells participate in mucosal immune responses." []
+synonym: "gamma-delta intraepithelial T lymphocyte" EXACT []
+synonym: "gamma-delta intraepithelial T-cell" EXACT []
+synonym: "gamma-delta intraepithelial T-lymphocyte" EXACT []
+synonym: "IEL" BROAD []
+synonym: "intraepithelial lymphocyte" BROAD []
+is_a: CL:0000800 ! mature gamma-delta T cell
+is_a: CL:0002496 ! intraepithelial lymphocyte
 
 [Term]
 id: CL:0000802
-is_a: CL:0000801
+name: CD8-alpha alpha positive, gamma-delta intraepithelial T cell
+def: "A gamma-delta intraepithelial T cell that has the phenotype CD8-alpha alpha-positive." []
+synonym: "CD8-positive, gamma-delta intraepithelial T lymphocyte" EXACT []
+synonym: "CD8-positive, gamma-delta intraepithelial T-cell" EXACT []
+synonym: "CD8-positive, gamma-delta intraepithelial T-lymphocyte" EXACT []
+synonym: "IEL" BROAD []
+synonym: "intraepithelial lymphocyte" BROAD []
+is_a: CL:0000801 ! gamma-delta intraepithelial T cell
 
 [Term]
 id: CL:0000803
-is_a: CL:0000801
+name: CD4-negative CD8-negative gamma-delta intraepithelial T cell
+def: "A gamma-delta intraepithelial T cell that has the phenotype CD4-negative and CD8-negative." []
+synonym: "CD4-positive, gamma-delta intraepithelial T lymphocyte" EXACT []
+synonym: "CD4-positive, gamma-delta intraepithelial T-cell" EXACT []
+synonym: "CD4-positive, gamma-delta intraepithelial T-lymphocyte" EXACT []
+synonym: "IEL" BROAD []
+synonym: "intraepithelial lymphocyte" BROAD []
+is_a: CL:0000801 ! gamma-delta intraepithelial T cell
 
 [Term]
 id: CL:0000806
-is_a: CL:0002489
+name: DN2 thymocyte
+def: "A thymocyte that has the phenotype CD4-negative, CD8-negative, CD44-positive, and CD25-positive." []
+synonym: "DN2 alpha-beta immature T lymphocyte" EXACT []
+synonym: "DN2 alpha-beta immature T-cell" EXACT []
+synonym: "DN2 alpha-beta immature T-lymphocyte" EXACT []
+synonym: "DN2 cell" EXACT []
+synonym: "DN2 immature T cell" EXACT []
+synonym: "double negative 2" EXACT []
+synonym: "preT.DN2.Th" EXACT []
+synonym: "TN2 cell" EXACT []
+synonym: "TN2 thymocyte" EXACT []
+is_a: CL:0002489 ! double negative thymocyte
 
 [Term]
 id: CL:0000807
-is_a: CL:0002489
+name: DN3 thymocyte
+def: "A thymocyte that has the phenotype CD4-negative, CD8-negative, CD44-negative, and CD25-positive and expressing the T cell receptor beta-chain in complex with the pre-T cell receptor alpha chain." []
+synonym: "DN3 alpha-beta immature T lymphocyte" EXACT []
+synonym: "DN3 alpha-beta immature T-cell" EXACT []
+synonym: "DN3 alpha-beta immature T-lymphocyte" EXACT []
+synonym: "DN3 cell" EXACT []
+synonym: "DN3 immature T cell" EXACT []
+synonym: "double negative 3" EXACT []
+synonym: "early cortical thymocyte" BROAD []
+synonym: "preT.DN3.Th" EXACT []
+synonym: "TN3 cell" EXACT []
+synonym: "TN3 thymocyte" EXACT []
+is_a: CL:0002489 ! double negative thymocyte
 
 [Term]
 id: CL:0000808
-is_a: CL:0002489
+name: DN4 thymocyte
+def: "A thymocyte that has the phenotype CD4-negative, CD8-negative, CD44-negative, CD25-negative, and pre-TCR-positive." []
+synonym: "DN4 alpha-beta immature T lymphocyte" EXACT []
+synonym: "DN4 alpha-beta immature T-lymphocyte" EXACT []
+synonym: "DN4 cell" EXACT []
+synonym: "DN4 immature T cell" EXACT []
+synonym: "DN4 immature T-cell" EXACT []
+synonym: "double negative 4" EXACT []
+synonym: "early cortical thymocyte" BROAD []
+synonym: "T.DN4.th" EXACT []
+is_a: CL:0002489 ! double negative thymocyte
 
 [Term]
 id: CL:0000813
-is_a: CL:0002419
+name: memory T cell
+def: "A distinctly differentiated long-lived T cell that has the phenotype CD45RO-positive and CD127-positive." []
+synonym: "memory T lymphocyte" EXACT []
+synonym: "memory T-cell" EXACT []
+synonym: "memory T-lymphocyte" EXACT []
+is_a: CL:0002419 ! mature T cell
 
 [Term]
 id: CL:0000814
-is_a: CL:0000791
-is_a: CL:0002127
+name: mature NK T cell
+def: "A mature alpha-beta T cell of a distinct lineage that bears natural killer markers and a T cell receptor specific for a limited set of ligands. NK T cells have activation and regulatory roles particularly early in an immune response." []
+synonym: "mature natural killer T cell" EXACT []
+synonym: "mature natural killer T lymphocyte" EXACT []
+synonym: "mature natural killer T-cell" EXACT []
+synonym: "mature natural killer T-lymphocyte" EXACT []
+synonym: "mature NK T lymphocyte" EXACT []
+synonym: "mature NK T-cell" EXACT []
+synonym: "mature NK T-lymphocyte" EXACT []
+synonym: "mature NKT cell" EXACT []
+is_a: CL:0000791 ! mature alpha-beta T cell
+is_a: CL:0002127 ! innate effector T cell
 
 [Term]
 id: CL:0000815
-is_a: CL:0002419
+name: regulatory T cell
+def: "A T cell which regulates overall immune responses as well as the responses of other T cell subsets through direct cell-cell contact and cytokine release." []
+synonym: "regulatory T lymphocyte" EXACT []
+synonym: "regulatory T-cell" EXACT []
+synonym: "regulatory T-lymphocyte" EXACT []
+synonym: "suppressor T cell" BROAD []
+synonym: "suppressor T lymphocyte" BROAD []
+synonym: "suppressor T-cell" BROAD []
+synonym: "suppressor T-lymphocyte" BROAD []
+is_a: CL:0002419 ! mature T cell
 
 [Term]
 id: CL:0000816
-is_a: CL:0000236
+name: immature B cell
+def: "An immature B cell is a B cell that has the phenotype surface IgM-positive and surface IgD-negative, and have not undergone class immunoglobulin class switching or peripheral encounter with antigen and activation." []
+synonym: "immature B lymphocyte" EXACT []
+synonym: "immature B-cell" EXACT []
+synonym: "immature B-lymphocyte" EXACT []
+synonym: "newly formed B cell" EXACT []
+is_a: CL:0000236 ! B cell
 
 [Term]
 id: CL:0000817
-is_a: CL:0000236
-disjoint_from: CL:0000826
+name: precursor B cell
+def: "A precursor B cell is a B cell with the phenotype CD10-positive." []
+synonym: "pre-B cell" RELATED []
+is_a: CL:0000236 ! B cell
 
 [Term]
 id: CL:0000818
-is_a: CL:0000236
+name: transitional stage B cell
+def: "An immature B cell of an intermediate stage between the pre-B cell stage and the mature naive stage with the phenotype surface IgM-positive and CD19-positive, and are subject to the process of B cell selection. A transitional B cell migrates from the bone marrow into the peripheral circulation, and then to the spleen." []
+synonym: "T1 B cell" NARROW []
+synonym: "T2 B cell" NARROW []
+synonym: "T3 B cell" NARROW []
+synonym: "transitional B cell" EXACT []
+synonym: "transitional stage B lymphocyte" EXACT []
+synonym: "transitional stage B-cell" EXACT []
+synonym: "transitional stage B-lymphocyte" EXACT []
+is_a: CL:0000236 ! B cell
 
 [Term]
 id: CL:0000819
-is_a: CL:0000785
+name: B-1 B cell
+def: "A B cell of distinct lineage and surface marker expression. B-1 B cells are thought to be the primary source of natural IgM immunoglobulin, that is, IgM produced in large quantities without prior antigenic stimulation and generally reactive against various microorganisms, as well as the source of T-independent IgA immunoglobulin in the mucosal areas. These cells are CD43-positive." []
+synonym: "B-1 B lymphocyte" EXACT []
+synonym: "B-1 B-cell" EXACT []
+synonym: "B-1 B-lymphocyte" EXACT []
+synonym: "B-1 cell" EXACT []
+synonym: "B1 B cell" EXACT []
+synonym: "B1 B lymphocyte" EXACT []
+synonym: "B1 B-cell" EXACT []
+synonym: "B1 B-lymphocyte" EXACT []
+synonym: "B1 cell" EXACT []
+is_a: CL:0000785 ! mature B cell
 
 [Term]
 id: CL:0000820
-is_a: CL:0000819
+name: B-1a B cell
+def: "A B-1 B cell that has the phenotype CD5-positive." []
+synonym: "B-1a B lymphocyte" EXACT []
+synonym: "B-1a B-cell" EXACT []
+synonym: "B-1a B-lymphocyte" EXACT []
+synonym: "B1a B cell" EXACT []
+synonym: "B1a B lymphocyte" EXACT []
+synonym: "B1a B-cell" EXACT []
+synonym: "B1a B-lymphocyte" EXACT []
+synonym: "B1a cell" EXACT []
+synonym: "CD5(+) B1 cell" EXACT []
+synonym: "CD5+ B1 cell" EXACT []
+synonym: "CD5-positive B1 cell" EXACT []
+is_a: CL:0000819 ! B-1 B cell
 
 [Term]
 id: CL:0000821
-is_a: CL:0000819
+name: B-1b B cell
+def: "A B-1 B cell that has the phenotype CD5-negative, but having other phenotypic attributes of a B-1 B cell." []
+synonym: "B-1b B lymphocyte" EXACT []
+synonym: "B-1b B-cell" EXACT []
+synonym: "B-1b B-lymphocyte" EXACT []
+synonym: "B1b B cell" EXACT []
+synonym: "B1b B lymphocyte" EXACT []
+synonym: "B1b B-cell" EXACT []
+synonym: "B1b B-lymphocyte" EXACT []
+synonym: "B1b cell" EXACT []
+is_a: CL:0000819 ! B-1 B cell
 
 [Term]
 id: CL:0000822
-is_a: CL:0000785
+name: B-2 B cell
+def: "A conventional B cell subject to antigenic stimulation and dependent on T cell help and with a distinct surface marker expression pattern from B-1 B cells. These cells are CD43-negative." []
+synonym: "B-0 B cell" RELATED []
+synonym: "B-2 B lymphocyte" EXACT []
+synonym: "B-2 B-cell" EXACT []
+synonym: "B-2 B-lymphocyte" EXACT []
+synonym: "B2 B cell" EXACT []
+synonym: "B2 B lymphocyte" EXACT []
+synonym: "B2 B-cell" EXACT []
+synonym: "B2 B-lymphocyte" EXACT []
+synonym: "B2 cell" EXACT []
+is_a: CL:0000785 ! mature B cell
 
 [Term]
 id: CL:0000825
-is_a: CL:0000838
+name: pro-NK cell
+def: "A lymphoid progenitor cell that is committed to the natural killer cell lineage, expressing CD122 (IL-15) receptor, but lacking many of the phenotypic characteristics of later stages of natural killer cell development such as expression of NK activating and inhibitory molecules. In human this cell has the phenotype CD34-positive, CD45RA-positive, CD10-positive, CD117-negative, and CD161 negative." []
+synonym: "natural killer cell progenitor" EXACT []
+synonym: "NKP" EXACT []
+synonym: "null cell" RELATED []
+synonym: "preNK cell" RELATED []
+synonym: "pro-natural killer cell" EXACT []
+is_a: CL:0000838 ! lymphoid lineage restricted progenitor cell
 
 [Term]
 id: CL:0000826
-is_a: CL:0000838
+name: pro-B cell
+def: "A progenitor cell of the B cell lineage, with some lineage specific activity such as early stages of recombination of B cell receptor genes, but not yet fully committed to the B cell lineage until the expression of PAX5 occurs." []
+synonym: "pre-B cell (Philadelphia nomenclature)" RELATED []
+synonym: "pre-pro B cell" BROAD []
+synonym: "pro-B lymphocyte" EXACT []
+synonym: "pro-B-cell" EXACT []
+synonym: "pro-B-lymphocyte" EXACT []
+synonym: "progenitor B cell" EXACT []
+synonym: "progenitor B lymphocyte" EXACT []
+synonym: "progenitor B-cell" EXACT []
+synonym: "progenitor B-lymphocyte" EXACT []
+is_a: CL:0000838 ! lymphoid lineage restricted progenitor cell
 
 [Term]
 id: CL:0000827
-is_a: CL:0000838
+name: pro-T cell
+def: "A lymphoid progenitor cell of the T cell lineage, with some lineage specific marker expression, but not yet fully committed to the T cell lineage." []
+synonym: "DN1 cell" NARROW []
+synonym: "DN1 thymocyte" NARROW []
+synonym: "pro-T lymphocyte" EXACT []
+synonym: "progenitor T cell" EXACT []
+synonym: "TN1 cell" NARROW []
+is_a: CL:0000838 ! lymphoid lineage restricted progenitor cell
 
 [Term]
 id: CL:0000838
-is_a: CL:0002031
-is_a: CL:0011115
-disjoint_from: CL:0000839
+name: lymphoid lineage restricted progenitor cell
+def: "A progenitor cell restricted to the lymphoid lineage." []
+synonym: "lymphoid progenitor cell" BROAD []
+is_a: CL:0002031 ! hematopoietic lineage restricted progenitor cell
+is_a: CL:0011115 ! precursor cell
 
 [Term]
 id: CL:0000839
-is_a: CL:0002031
-is_a: CL:0011115
+name: myeloid lineage restricted progenitor cell
+def: "A progenitor cell restricted to the myeloid lineage." []
+synonym: "myeloid progenitor cell" BROAD []
+is_a: CL:0002031 ! hematopoietic lineage restricted progenitor cell
+is_a: CL:0011115 ! precursor cell
 
 [Term]
 id: CL:0000841
-is_a: CL:0000766
-is_a: CL:0000990
+name: mature conventional dendritic cell
+def: "A mature cell of the conventional dendritic cell lineage, characterized by a high capacity for antigen presentation and typically found in a lymph node." []
+synonym: "mature dendritic cell" BROAD []
+synonym: "mature myeloid dendritic cell" NARROW []
+is_a: CL:0000766 ! myeloid leukocyte
+is_a: CL:0000990 ! conventional dendritic cell
 
 [Term]
 id: CL:0000842
-is_a: CL:0000226
-is_a: CL:0002087
+name: mononuclear cell
+def: "A leukocyte with a single non-segmented nucleus in the mature form." []
+synonym: "mononuclear leukocyte" EXACT []
+synonym: "peripheral blood mononuclear cell" NARROW []
+is_a: CL:0000226 ! single nucleate cell
+is_a: CL:0002087 ! nongranular leukocyte
 
 [Term]
 id: CL:0000843
-is_a: CL:0000822
+name: follicular B cell
+def: "A resting mature B cell that has the phenotype IgM-positive, IgD-positive, CD23-positive and CD21-positive, and found in the B cell follicles of the white pulp of the spleen or the corticol areas of the peripheral lymph nodes. This cell type is also described as being CD19-positive, B220-positive, AA4-negative, CD43-negative, and CD5-negative." []
+synonym: "Fo B cell" EXACT []
+synonym: "Fo B-cell" EXACT []
+synonym: "follicular B lymphocyte" EXACT []
+synonym: "follicular B-cell" EXACT []
+synonym: "follicular B-lymphocyte" EXACT []
+is_a: CL:0000822 ! B-2 B cell
 
 [Term]
 id: CL:0000844
-is_a: CL:0000785
+name: germinal center B cell
+def: "A rapidly cycling mature B cell that has distinct phenotypic characteristics and is involved in T-dependent immune responses and located typically in the germinal centers of lymph nodes. This cell type expresses Ly77 after activation." []
+synonym: "GC B cell" EXACT []
+synonym: "GC B lymphocyte" EXACT []
+synonym: "GC B-cell" EXACT []
+synonym: "GC B-lymphocyte" EXACT []
+synonym: "germinal center B lymphocyte" EXACT []
+synonym: "germinal center B-cell" EXACT []
+synonym: "germinal center B-lymphocyte" EXACT []
+is_a: CL:0000785 ! mature B cell
 
 [Term]
 id: CL:0000845
-is_a: CL:0000785
-is_a: CL:2000074
+name: marginal zone B cell
+def: "A mature B cell that is located in the marginal zone of the spleen with the phenotype CD23-negative and CD21-positive and expressing a B cell receptor usually reactive to bacterial cell wall components or senescent self components such as oxidized-LDL. This cell type is also described as being CD19-positive, B220-positive, IgM-high, AA4-negative, CD35-high." []
+synonym: "marginal zone B lymphocyte" EXACT []
+synonym: "marginal zone B-cell" EXACT []
+synonym: "marginal zone B-lymphocyte" EXACT []
+synonym: "MZ B cell" EXACT []
+synonym: "MZ B lymphocyte" EXACT []
+synonym: "MZ B-cell" EXACT []
+synonym: "MZ B-lymphocyte" EXACT []
+is_a: CL:0000785 ! mature B cell
+is_a: CL:2000074 ! splenocyte
 
 [Term]
 id: CL:0000847
-is_a: CL:0000064
-is_a: CL:0000207
+name: ciliated olfactory receptor neuron
+def: "An olfactory receptor cell in which the apical ending of the dendrite is a pronounced ciliated olfactory knob." []
+synonym: "ciliated olfactory sensory neuron" EXACT []
+synonym: "ciliated sensory neuron" EXACT []
+is_a: CL:0000064 ! ciliated cell
+is_a: CL:0000207 ! olfactory receptor cell
 
 [Term]
 id: CL:0000850
-is_a: CL:0000458
-is_a: CL:0000540
+name: serotonergic neuron
+def: "A neuron that releases serotonin as a neurotransmitter." []
+synonym: "5-HT neuron" EXACT []
+synonym: "5-hydroxytryptamine neuron" EXACT []
+synonym: "serotinergic neuron" RELATED []
+is_a: CL:0000458 ! serotonin secreting cell
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:0000851
-is_a: CL:0000151
-disjoint_from: CL:0000855
+name: neuromast mantle cell
+def: "Neuromast mantle cell is a non-sensory cell. Neuromast mantle cells surround the neuromast support cells and neuromast hair cells, separating the neuromast from the epidermis, and secrete cupula in which the ciliary bundles of all the hair cells are embedded." []
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000852
-is_a: CL:0000630
-disjoint_from: CL:0000855
+name: neuromast support cell
+def: "Neuromast support cell is a non-sensory cell of the neuromast that extend between the sensory hair cells from the basement membrane to the apical surface; neuromast support cells are surrounded by neuromast mantle cells." []
+is_a: CL:0000630 ! supportive cell
 
 [Term]
 id: CL:0000855
-is_a: CL:0000199
+name: sensory hair cell
+def: "Hair cell is a mechanoreceptor cell that is sensitive to movement of the hair-like projections (stereocilia and kinocilia) which relay the information centrally in the nervous system." []
+synonym: "hair cell" BROAD []
+is_a: CL:0000199 ! mechanoreceptor cell
 
 [Term]
 id: CL:0000856
-is_a: CL:0000855
+name: neuromast hair cell
+def: "Neuromast hair cell is a hair cell that acts as a sensory receptor of the neuromast; it is morphologically polarized as a result of the relative position of the single kinocilium and the clusters of stereocilia on its apical surface." []
+is_a: CL:0000855 ! sensory hair cell
 
 [Term]
 id: CL:0000864
-is_a: CL:0000235
+name: tissue-resident macrophage
+def: "A macrophage constitutively resident in a particular tissue under non-inflammatory conditions, and capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells." []
+synonym: "fixed macrophage" EXACT []
+synonym: "resting histiocyte" EXACT []
+is_a: CL:0000235 ! macrophage
 
 [Term]
 id: CL:0000878
-is_a: CL:0000864
-is_a: CL:0002319
+name: central nervous system macrophage
+def: "A tissue-resident macrophage found in the central nervous system." []
+synonym: "CNS macrophage" EXACT []
+is_a: CL:0000864 ! tissue-resident macrophage
+is_a: CL:0002319 ! neural cell
 
 [Term]
 id: CL:0000891
-is_a: CL:0000003
+name: foam cell
+def: "A type of cell containing lipids in small vacuoles and typically seen in atherolosclerotic lesions, as well as other conditions." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000892
-is_a: CL:0000891
+name: smooth muscle cell derived foam cell
+def: "A type of foam cell derived from a smooth muscle cell containing lipids in small vacuoles and typically seen in atherolosclerotic lesions, as well as other conditions." []
+is_a: CL:0000891 ! foam cell
 
 [Term]
 id: CL:0000893
-is_a: CL:0002420
+name: thymocyte
+def: "An immature T cell located in the thymus." []
+synonym: "immature T cell" BROAD []
+synonym: "immature T lymphocyte" BROAD []
+synonym: "immature T-cell" BROAD []
+synonym: "immature T-lymphocyte" BROAD []
+synonym: "thymic lymphocyte" EXACT []
+is_a: CL:0002420 ! immature T cell
 
 [Term]
 id: CL:0000896
-is_a: CL:0000624
+name: activated CD4-positive, alpha-beta T cell
+def: "A recently activated CD4-positive, alpha-beta T cell with the phenotype CD69-positive, CD62L-negative, CD127-negative, and CD25-positive." []
+synonym: "activated CD4-positive, alpha-beta T lymphocyte" EXACT []
+synonym: "activated CD4-positive, alpha-beta T-cell" EXACT []
+synonym: "activated CD4-positive, alpha-beta T-lymphocyte" EXACT []
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
 
 [Term]
 id: CL:0000897
-is_a: CL:0000624
-is_a: CL:0000813
+name: CD4-positive, alpha-beta memory T cell
+def: "CD4-positive, alpha-beta long-lived T cell with the phenotype CD45RO-positive and CD127-positive. This cell type is also described as being CD25-negative, CD44-high, and CD122-high." []
+synonym: "CD4-positive, alpha-beta memory T lymphocyte" EXACT []
+synonym: "CD4-positive, alpha-beta memory T-cell" EXACT []
+synonym: "CD4-positive, alpha-beta memory T-lymphocyte" EXACT []
+synonym: "T4.Mem.Sp" RELATED []
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+is_a: CL:0000813 ! memory T cell
 
 [Term]
 id: CL:0000899
-is_a: CL:0000492
+name: T-helper 17 cell
+def: "CD4-positive, alpha-beta T cell with the phenotype RORgamma-t-positive, CXCR3-negative, CCR6-positive, and capable of producing IL-17." []
+synonym: "helper T cell type 17" EXACT []
+synonym: "IL-17-producing CD4+ T helper" EXACT []
+synonym: "T helper cells type 17" EXACT []
+synonym: "T(H)-17 cell" EXACT []
+synonym: "Th17 CD4+ T cell" EXACT []
+synonym: "Th17 cell" EXACT []
+synonym: "Th17 T cell" EXACT []
+synonym: "Th17 T lymphocyte" EXACT []
+synonym: "Th17 T-cell" EXACT []
+synonym: "Th17 T-lymphocyte" EXACT []
+is_a: CL:0000492 ! CD4-positive helper T cell
 
 [Term]
 id: CL:0000906
-is_a: CL:0000625
+name: activated CD8-positive, alpha-beta T cell
+def: "A CD8-positive, alpha-beta T cell with the phenotype CD69-positive, CD62L-negative, CD127-negative, CD25-positive, and CCR7-negative." []
+synonym: "activated CD8-positive, alpha-beta T lymphocyte" EXACT []
+synonym: "activated CD8-positive, alpha-beta T-cell" EXACT []
+synonym: "activated CD8-positive, alpha-beta T-lymphocyte" EXACT []
+is_a: CL:0000625 ! CD8-positive, alpha-beta T cell
 
 [Term]
 id: CL:0000910
-is_a: CL:0000911
+name: cytotoxic T cell
+def: "A mature T cell that differentiated and acquired cytotoxic function with the phenotype perforin-positive and granzyme-B positive." []
+synonym: "cytotoxic T lymphocyte" EXACT []
+synonym: "cytotoxic T-cell" EXACT []
+synonym: "cytotoxic T-lymphocyte" EXACT []
+is_a: CL:0000911 ! effector T cell
 
 [Term]
 id: CL:0000911
-is_a: CL:0002419
+name: effector T cell
+def: "A differentiated T cell with ability to traffic to peripheral tissues and is capable of mounting a specific immune response." []
+synonym: "effector T lymphocyte" EXACT []
+synonym: "effector T-cell" EXACT []
+synonym: "effector T-lymphocyte" EXACT []
+is_a: CL:0002419 ! mature T cell
 
 [Term]
 id: CL:0000912
-is_a: CL:0000911
+name: helper T cell
+def: "A effector T cell that provides help in the form of secreted cytokines to other immune cells." []
+synonym: "helper T lymphocyte" EXACT []
+synonym: "helper T-cell" EXACT []
+synonym: "helper T-lymphocyte" EXACT []
+synonym: "T-helper cell" EXACT []
+is_a: CL:0000911 ! effector T cell
 
 [Term]
 id: CL:0000945
-is_a: CL:0000542
+name: lymphocyte of B lineage
+def: "A lymphocyte of B lineage is a lymphocyte that expresses CD19 on the cell surface. An additional defining characteristic is the commitment to express an immunoglobulin complex." []
+is_a: CL:0000542 ! lymphocyte
 
 [Term]
 id: CL:0000946
-is_a: CL:0000945
+name: antibody secreting cell
+def: "A lymphocyte of B lineage that is devoted to secreting large amounts of immunoglobulin." []
+is_a: CL:0000945 ! lymphocyte of B lineage
 
 [Term]
 id: CL:0000988
-is_a: CL:0000548
-is_a: CL:0002371
+name: hematopoietic cell
+def: "A cell of a hematopoietic lineage." []
+synonym: "haematopoietic cell" EXACT []
+synonym: "haemopoietic cell" EXACT []
+synonym: "hemopoietic cell" EXACT []
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0000990
-is_a: CL:0000451
+name: conventional dendritic cell
+def: "Conventional dendritic cell is a dendritic cell that is CD11c-high." []
+synonym: "cDC" EXACT []
+synonym: "DC1" EXACT []
+synonym: "dendritic reticular cell" EXACT []
+synonym: "interdigitating cell" BROAD []
+synonym: "type 1 DC" EXACT []
+synonym: "veiled cell" BROAD []
+is_a: CL:0000451 ! dendritic cell
 
 [Term]
 id: CL:0001031
-is_a: CL:0000120
-is_a: CL:1001611
+name: cerebellar granule cell
+def: "Granule cell that is part of the cerebellum." []
+is_a: CL:0000120 ! granule cell
+is_a: CL:1001611 ! cerebellar neuron
 
 [Term]
 id: CL:0001032
-is_a: CL:0000120
-is_a: CL:0002609
+name: cortical granule cell
+def: "Granule cell that is part of the cerebral cortex." []
+is_a: CL:0000120 ! granule cell
+is_a: CL:0002609 ! neuron of cerebral cortex
 
 [Term]
 id: CL:0001033
-is_a: CL:0001032
-is_a: CL:0002608
+name: hippocampal granule cell
+def: "Granule cell that is part of the hippocampus." []
+is_a: CL:0001032 ! cortical granule cell
+is_a: CL:0002608 ! hippocampal neuron
 
 [Term]
 id: CL:0001035
-is_a: CL:0000548
+name: bone cell
+def: "A connective tissue cell found in bone." []
+is_a: CL:0000548 ! animal cell
 
 [Term]
 id: CL:0001044
-is_a: CL:0000624
-is_a: CL:0000911
+name: effector CD4-positive, alpha-beta T cell
+def: "A CD4-positive, alpha-beta T cell with the phenotype CCR7-negative, CD45RA-positive." []
+synonym: "effector CD4+ T cell" BROAD []
+synonym: "effector CD4-positive, alpha-beta T lymphocyte" EXACT []
+synonym: "effector CD4-positive, alpha-beta T-cell" EXACT []
+synonym: "effector CD4-positive, alpha-beta T-lymphocyte" EXACT []
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+is_a: CL:0000911 ! effector T cell
 
 [Term]
 id: CL:0001051
-is_a: CL:0000624
+name: CD4-positive, CXCR3-negative, CCR6-negative, alpha-beta T cell
+def: "A CD4-positive, alpha-beta T cell that has the phenotype CXCR3-negative, CCR6-negative." []
+synonym: "CD4-positive, CXCR3-negative, CCR6-negative, alpha-beta T lymphocyte" EXACT []
+synonym: "CD4-positive, CXCR3-negative, CCR6-negative, alpha-beta T-cell" EXACT []
+synonym: "CD4-positive, CXCR3-negative, CCR6-negative, alpha-beta T-lymphocyte" EXACT []
+synonym: "non-Th1/Th17 CD4+ T cell" BROAD []
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
 
 [Term]
 id: CL:0001065
-is_a: CL:0000542
+name: innate lymphoid cell
+def: "A lymphocyte that lacks characteristic T cell, B cell, myeloid cell, and dendritic cell markers, that functions as part of the innate immune response to produce cytokines and other effector responses." []
+is_a: CL:0000542 ! lymphocyte
 
 [Term]
 id: CL:0001067
-is_a: CL:0001065
+name: group 1 innate lymphoid cell
+def: "An innate lymphoid cell that is capable of producing the type 1 cytokine IFN-gamma, but not Th2 or Th17 cell-associated cytokines." []
+is_a: CL:0001065 ! innate lymphoid cell
 
 [Term]
 id: CL:0001658
-is_a: CL:0000149
-is_a: CL:0000341
+name: visual pigment cell (sensu Nematoda and Protostomia)
+is_a: CL:0000149 ! visual pigment cell
+is_a: CL:0000341 ! pigment cell (sensu Nematoda and Protostomia)
 
 [Term]
 id: CL:0002031
-is_a: CL:0008001
+name: hematopoietic lineage restricted progenitor cell
+def: "A hematopoietic progenitor cell that is capable of developing into only one lineage of hematopoietic cells." []
+is_a: CL:0008001 ! hematopoietic precursor cell
 
 [Term]
 id: CL:0002038
-is_a: CL:0000492
+name: T follicular helper cell
+def: "A CD4-positive, CXCR5-positive, CCR7-negative alpha-beta T cell located in follicles of secondary lymph nodes that expresses is BCL6-high, ICOS-high and PD1-high, and stimulates follicular B cells to undergo class-switching and antibody production." []
+synonym: "follicular B helper T cell" RELATED []
+synonym: "follicular helper T cell" RELATED []
+synonym: "follicular helper T-cell" RELATED []
+synonym: "follicular T cell" RELATED []
+synonym: "follicular T-cell" RELATED []
+synonym: "follicular T-helper cell" RELATED []
+synonym: "T(FH)" EXACT []
+synonym: "Tfh" EXACT []
+is_a: CL:0000492 ! CD4-positive helper T cell
 
 [Term]
 id: CL:0002062
-is_a: CL:0000322
+name: type I pneumocyte
+def: "A type I pneumocyte is a flattened, branched pneumocyte that covers more than 98% of the alveolar surface. This large cell has thin (50-100 nm) cytoplasmic extensions to form the air-blood barrier essential for normal gas exchange." []
+synonym: "AT1" EXACT []
+synonym: "ATI" EXACT []
+synonym: "lung type 1 cells" EXACT []
+synonym: "membranous pneumocytes" EXACT []
+synonym: "pulmonary alveolar type I cell" EXACT []
+synonym: "small alveolar cells" EXACT []
+synonym: "squamous alveolar cell" EXACT []
+synonym: "squamous alveolar lining cell" EXACT []
+synonym: "type 1 alveolar epithelial cells" EXACT []
+synonym: "type 1 pneumocyte" EXACT []
+synonym: "type I alveolar cells" EXACT []
+synonym: "type I alveolar epithelial cells" EXACT []
+is_a: CL:0000322 ! pneumocyte
 
 [Term]
 id: CL:0002063
-is_a: CL:0000157
-is_a: CL:0000322
-is_a: CL:1000272
+name: type II pneumocyte
+def: "A type II pneumocyte is a pneumocyte that modulates the fluid surrounding the alveolar epithelium by secreting and recycling surfactants. This cell type also contributes to tissue repair and can differentiate after injury into a type I pneumocyte. Thicker than squamous alveolar cells, have a rounded apical surface that projects above the level of surrounding epithelium. The free surface is covered by short microvilli." []
+synonym: "AT2" EXACT []
+synonym: "ATII" EXACT []
+synonym: "cuboidal type II cell" EXACT []
+synonym: "granular pneumocyte" EXACT []
+synonym: "great alveolar cell" EXACT []
+synonym: "lung type 2 cell" EXACT []
+synonym: "lung type II cell" RELATED []
+synonym: "TII" EXACT []
+synonym: "type 2 alveolar epithelial cell" EXACT []
+synonym: "type 2 alveolocyte" EXACT []
+synonym: "type 2 pneumocyte" EXACT []
+synonym: "type II alveolar cell" EXACT []
+synonym: "type II alveolar epithelial cell" EXACT []
+synonym: "type II alveolocyte" EXACT []
+is_a: CL:0000157 ! surfactant secreting cell
+is_a: CL:0000322 ! pneumocyte
+is_a: CL:1000272 ! lung secretory cell
 
 [Term]
 id: CL:0002067
-is_a: CL:0000164
-is_a: CL:0000170
+name: type A enterocrine cell
+def: "An enterocrine cell that produces glucagon." []
+is_a: CL:0000164 ! enteroendocrine cell
+is_a: CL:0000170 ! glucagon secreting cell
 
 [Term]
 id: CL:0002068
-is_a: CL:0002086
+name: Purkinje myocyte
+def: "Specialized cardiac myocyte that is subendocardially interspersed with the regular cardiac muscle cell. They are uninucleate cylindrical cells, associated end-to-end in long rows, continue from the node to the atrioventricular bundle; relatively short compared to ordinary myocytes but are nearly twice their diameter." []
+synonym: "myocytus conducens cardiacus" EXACT []
+synonym: "Purkinje cell fiber" EXACT []
+synonym: "Purkinje muscle cell" EXACT []
+is_a: CL:0002086 ! specialized cardiac myocyte
 
 [Term]
 id: CL:0002072
-is_a: CL:0002086
+name: nodal myocyte
+def: "A specialized cardiac myocyte in the sinoatrial and atrioventricular nodes. The cell is slender and fusiform confined to the nodal center, circumferentially arranged around the nodal artery." []
+synonym: "cardiac pacemaker cell" EXACT []
+synonym: "myocytus nodalis" EXACT []
+synonym: "P cell" EXACT []
+synonym: "pacemaker cell" BROAD []
+is_a: CL:0002086 ! specialized cardiac myocyte
 
 [Term]
 id: CL:0002076
-is_a: CL:0000066
-is_a: CL:0002371
+name: endo-epithelial cell
+def: "An epithelial cell derived from endoderm." []
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0002077
-is_a: CL:0000066
-is_a: CL:0002371
+name: ecto-epithelial cell
+def: "An epithelial cell derived from ectoderm." []
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0002078
-is_a: CL:0000066
-is_a: CL:0002371
+name: meso-epithelial cell
+def: "Epithelial cell derived from mesoderm or mesenchyme." []
+synonym: "epithelial mesenchymal cell" EXACT []
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0002085
-is_a: CL:0000683
+name: tanycyte
+def: "Specialized elongated ventricular ependymal cell that has processes that extend to the outer, or pial, surface of the CNS. Resemble spongioblasts seen in developing brain. Found in the adult brain in the third ventricle, cerebral aqueduct, spinal canal and floor of the fourth ventricle." []
+synonym: "stretch cell" EXACT []
+is_a: CL:0000683 ! ependymoglial cell
 
 [Term]
 id: CL:0002086
-is_a: CL:0000746
+name: specialized cardiac myocyte
+def: "A cardiac myocyte that is an excitable cells in the myocardium, specifically in the conducting system of heart." []
+is_a: CL:0000746 ! cardiac muscle cell
 
 [Term]
 id: CL:0002087
-is_a: CL:0000738
+name: nongranular leukocyte
+def: "A leukocyte that lacks granules." []
+synonym: "agranular leukocyte" EXACT []
+is_a: CL:0000738 ! leukocyte
 
 [Term]
 id: CL:0002088
-is_a: CL:0000710
+name: interstitial cell of Cajal
+def: "This is a cell found in the gastrointestinal tract of mammals and serves as a pacemaker that triggers gut contraction. ICCs mediate inputs from the enteric nervous system to smooth muscle cells and are thought to be the cells from which gastrointestinal stromal tumors (GISTs) arise." []
+synonym: "ICC" EXACT []
+synonym: "intestinal pacemaker cell" EXACT []
+is_a: CL:0000710 ! neurecto-epithelial cell
 
 [Term]
 id: CL:0002092
-is_a: CL:0001035
+name: bone marrow cell
+def: "A cell found in the bone marrow. This can include fibroblasts, macrophages, adipocytes, osteoblasts, osteoclasts, endothelial cells and hematopoietic cells." []
+is_a: CL:0001035 ! bone cell
 
 [Term]
 id: CL:0002098
-is_a: CL:0000746
+name: regular cardiac myocyte
+def: "A cardiac myocyte that is connected to other cardiac myocytes by transverse intercalated discs (GO:0014704) at a regular interval." []
+synonym: "regular cardiac muscle cell" EXACT []
+synonym: "regular cardiac muscle fiber" EXACT []
+is_a: CL:0000746 ! cardiac muscle cell
 
 [Term]
 id: CL:0002127
-is_a: CL:0000911
+name: innate effector T cell
+def: "A T cell with a receptor of limited diversity that is capable of immediate effector functions upon stimulation." []
+is_a: CL:0000911 ! effector T cell
 
 [Term]
 id: CL:0002129
-is_a: CL:0002098
+name: regular atrial cardiac myocyte
+def: "Regular cardiac myocyte of a cardiac atrium." []
+synonym: "atrial cardiac muscle cell" EXACT []
+synonym: "atrial myocyte" EXACT []
+synonym: "regular atrial cardiac muscle fiber" EXACT []
+synonym: "regular cardiac muscle cell of atrium" EXACT []
+is_a: CL:0002098 ! regular cardiac myocyte
 
 [Term]
 id: CL:0002131
-is_a: CL:0002098
+name: regular ventricular cardiac myocyte
+def: "Regular cardiac myocyte of a cardiac ventricle." []
+synonym: "regular cardiac muscle cell of ventricle" EXACT []
+synonym: "regular ventricular cardiac muscle fiber" EXACT []
+synonym: "ventricular cardiac muscle cell" BROAD []
+synonym: "ventricular myocyte" EXACT []
+is_a: CL:0002098 ! regular cardiac myocyte
 
 [Term]
 id: CL:0002132
-is_a: CL:0000499
+name: stromal cell of ovary
+def: "A stomal cell of the ovary" []
+synonym: "ovarian stromal cell" EXACT []
+is_a: CL:0000499 ! stromal cell
 
 [Term]
 id: CL:0002138
-is_a: CL:0002139
+name: endothelial cell of lymphatic vessel
+def: "A endothelial cell of a lymphatic vessel. The border of the oak leaf-shaped endothelial cell of initial lymphatics are joined by specialized buttons. The discontinuous feature of buttons distinguishes them from zippers in collecting lymphatics, but both types of junctions are composed of proteins typical of adherens junctions and tight junctions found in the endothelium of blood vessels. Buttons seal the sides of flaps of the oak leaf-shaped endothelial cell, leaving open the tips of flaps as routes for fluid entry without disassembly and reformation of intercellular junctions." []
+synonym: "LEC" EXACT []
+synonym: "lymphatic endothelial cell" EXACT []
+is_a: CL:0002139 ! endothelial cell of vascular tree
 
 [Term]
 id: CL:0002139
-is_a: CL:0000115
+name: endothelial cell of vascular tree
+def: "An endothelial cell of the vascular tree, which includes blood vessels and lymphatic vessels." []
+synonym: "cubodial endothelial cell of vascular tree" NARROW []
+synonym: "vascular endothelial cell" EXACT []
+is_a: CL:0000115 ! endothelial cell
 
 [Term]
 id: CL:0002140
-is_a: CL:0000317
-is_a: CL:0000622
-is_a: CL:1000448
+name: acinar cell of sebaceous gland
+def: "A sebum secreting cell of the skin that secretes sebum into the hair follicles." []
+synonym: "sebocyte" BROAD []
+is_a: CL:0000317 ! sebum secreting cell
+is_a: CL:0000622 ! acinar cell
+is_a: CL:1000448 ! epithelial cell of sweat gland
 
 [Term]
 id: CL:0002153
-is_a: CL:0000225
-is_a: CL:0000311
+name: corneocyte
+def: "The dead keratin-filled squamous cell of the stratum corneum. This cell type lacks a nucleus." []
+is_a: CL:0000225 ! anucleate cell
+is_a: CL:0000311 ! keratin accumulating cell
 
 [Term]
 id: CL:0002159
-is_a: CL:0002077
+name: general ecto-epithelial cell
+def: "Epithelial cells derived from general body ectoderm and ectoderm placodes." []
+is_a: CL:0002077 ! ecto-epithelial cell
 
 [Term]
 id: CL:0002174
-is_a: CL:0002078
+name: follicular cell of ovary
+def: "A cell within the follicle of an ovary." []
+is_a: CL:0002078 ! meso-epithelial cell
 
 [Term]
 id: CL:0002178
-is_a: CL:0002251
+name: epithelial cell of stomach
+def: "An epithelial cell found in the lining of the stomach." []
+is_a: CL:0002251 ! epithelial cell of alimentary canal
 
 [Term]
 id: CL:0002202
-is_a: CL:0002632
+name: epithelial cell of tracheobronchial tree
+def: "An epithelial cell of the tracheobronchial tree." []
+is_a: CL:0002632 ! epithelial cell of lower respiratory tract
 
 [Term]
 id: CL:0002222
-is_a: CL:0000066
-is_a: CL:0000306
-is_a: CL:0002371
+name: vertebrate lens cell
+def: "A cell comprising the transparent, biconvex body separating the posterior chamber and vitreous body, and constituting part of the refracting mechanism of the mammalian eye." []
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0000306 ! crystallin accumulating cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0002242
-is_a: CL:0000003
+name: nucleate cell
+def: "A cell containing at least one nucleus." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0002251
-is_a: CL:0002076
+name: epithelial cell of alimentary canal
+def: "An epithelial cell of the musculomembranous digestive tube extending from the mouth to the anus." []
+is_a: CL:0002076 ! endo-epithelial cell
 
 [Term]
 id: CL:0002253
-is_a: CL:0002563
+name: epithelial cell of large intestine
+def: "An epithelial cell of the large intestine." []
+synonym: "epithelial cell of colon" RELATED []
+is_a: CL:0002563 ! intestinal epithelial cell
 
 [Term]
 id: CL:0002274
-is_a: CL:0000457
+name: histamine secreting cell
+def: "A cell type that secretes histamine." []
+is_a: CL:0000457 ! biogenic amine secreting cell
 
 [Term]
 id: CL:0002275
-is_a: CL:0000083
-is_a: CL:0000696
-is_a: CL:0008024
+name: pancreatic PP cell
+def: "A PP cell located in the islets of the pancreas." []
+synonym: "pancreatic polypeptide-secreting cell" EXACT []
+synonym: "PP cell of pancreatic islet" EXACT []
+synonym: "PP-cell of pancreatic islet" EXACT []
+is_a: CL:0000083 ! epithelial cell of pancreas
+is_a: CL:0000696 ! PP cell
+is_a: CL:0008024 ! pancreatic endocrine cell
 
 [Term]
 id: CL:0002308
-is_a: CL:0002159
+name: epithelial cell of skin gland
+def: "An epithelial cell of a skin gland." []
+synonym: "epithelial cell of gland of skin" EXACT []
+is_a: CL:0002159 ! general ecto-epithelial cell
 
 [Term]
 id: CL:0002319
-is_a: CL:0000548
-is_a: CL:0002371
+name: neural cell
+def: "A cell that is part of the nervous system." []
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0002320
-is_a: CL:0000548
-is_a: CL:0002371
+name: connective tissue cell
+def: "A cell of the supporting or framework tissue of the body, arising chiefly from the embryonic mesoderm and including adipose tissue, cartilage, and bone." []
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0002321
-is_a: CL:0000548
+name: embryonic cell
+def: "A cell of the embryo." []
+is_a: CL:0000548 ! animal cell
 
 [Term]
 id: CL:0002322
-is_a: CL:0000034
-is_a: CL:0002321
+name: embryonic stem cell
+def: "A stem cell of embryonic origin." []
+synonym: "ESC" EXACT []
+is_a: CL:0000034 ! stem cell
+is_a: CL:0002321 ! embryonic cell
 
 [Term]
 id: CL:0002323
-is_a: CL:0000349
+name: amniocyte
+def: "A cell of a fetus which is suspended in the amniotic fluid. Amniocytes are considered to arise from several tissues including fetal skin, the fetal urinary tract, umbilical cord, and the inner amniotic surface." []
+is_a: CL:0000349 ! extraembryonic cell
 
 [Term]
 id: CL:0002327
-is_a: CL:0000066
-is_a: CL:0002371
+name: mammary gland epithelial cell
+def: "An epithelial cell of the mammary gland." []
+synonym: "breast epithelial cell" EXACT []
+synonym: "mammary epithelial cell" EXACT []
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0002328
-is_a: CL:0002202
+name: bronchial epithelial cell
+def: "An epithelial cell of the bronchus." []
+is_a: CL:0002202 ! epithelial cell of tracheobronchial tree
 
 [Term]
 id: CL:0002350
-is_a: CL:0010008
+name: endocardial cell
+def: "An endothelial cell that lines the intracavitary lumen of the heart, separating the circulating blood from the underlying myocardium. This cell type releases a number of vasoactive substances including prostacyclin, nitrous oxide and endothelin." []
+synonym: "endocardial endothelial cell" EXACT []
+synonym: "endothelial cell of endocardium" EXACT []
+is_a: CL:0010008 ! cardiac endothelial cell
 
 [Term]
 id: CL:0002355
-is_a: CL:0002417
+name: primitive red blood cell
+def: "A large nucleated basophilic erythrocyte found in mammalian embryos. This cell type arises from the blood islands of yolk sacs and expresses different types of hemoglobins (beta-H1, gamma-1 and zeta) than adult erythrocytes. Considered a type of erythroblast as this cell type can enucleate in circulation." []
+synonym: "primitive erythroblast" EXACT []
+synonym: "primitive erythrocyte" EXACT []
+synonym: "primitive erythroid cell" EXACT []
+is_a: CL:0002417 ! primitive erythroid lineage cell
 
 [Term]
 id: CL:0002368
-is_a: CL:0002076
+name: respiratory epithelial cell
+def: "An endo-epithelial cell of the respiratory tract." []
+synonym: "airway epithelial cell" EXACT []
+is_a: CL:0002076 ! endo-epithelial cell
 
 [Term]
 id: CL:0002369
-is_a: CL:0000521
+name: fungal spore
+def: "A differentiated form of a fungus produced during or as a result of an asexual or sexual reproductive process; usually a cell with a thick cell wall that stores and protects one or more nuclei. Spores may be produced in response to, and are characteristically resistant to, adverse environmental conditions." []
+is_a: CL:0000521 ! fungal cell
 
 [Term]
 id: CL:0002370
-is_a: CL:0000160
+name: respiratory goblet cell
+def: "A simple columnar epithelial cell that secretes mucin. Rough endoplasmic reticulum, mitochondria, the nucleus, and other organelles are concentrated in the basal portion. The apical plasma membrane projects microvilli to increase surface area for secretion." []
+synonym: "respiratory mucosa goblet cells" EXACT []
+is_a: CL:0000160 ! goblet cell
 
 [Term]
 id: CL:0002371
-is_a: CL:0000003
+name: somatic cell
+def: "A cell of an organism that does not pass on its genetic material to the organism's offspring (i.e. a non-germ line cell)." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0002372
-is_a: CL:0000228
-is_a: CL:0000737
+name: myotube
+def: "A transversely striated, synctial muscle cell, formed by the fusion of myoblasts." []
+synonym: "myotubule" EXACT []
+synonym: "single cell sarcomere" EXACT []
+is_a: CL:0000228 ! multinucleate cell
+is_a: CL:0000737 ! striated muscle cell
 
 [Term]
 id: CL:0002374
-is_a: CL:0000855
+name: ear hair cell
+def: "A hair cell of the ear that contains the organs of balance and hearing." []
+synonym: "ear receptor cell" EXACT []
+is_a: CL:0000855 ! sensory hair cell
 
 [Term]
 id: CL:0002385
-is_a: CL:0000606
+name: blastoconidium
+def: "An oblong or round asexual spore formed from conidial chains." []
+synonym: "blastospore" RELATED []
+is_a: CL:0000606 ! macroconidium
 
 [Term]
 id: CL:0002387
-is_a: CL:0000606
+name: arthroconidium
+def: "Cylindrical spore formed by development and compartmentation of hyphae; the hyphae are often supporting blastoconidiophores." []
+synonym: "arthrospore" RELATED []
+is_a: CL:0000606 ! macroconidium
 
 [Term]
 id: CL:0002410
-is_a: CL:0000057
+name: pancreatic stellate cell
+def: "A cell that is found in the periacinar space of the exocrine pancreas and in perivascular and periductal regions of the pancreas, and has long cytoplasmic processes that encircle the base of the acinus. Expresses several intermediate filament proteins including vimentin and nestin. Shares many of the characteristics of hepatatic stellate cells, but not stellate cells of the central nervous system. Upon activation, this cell type undergoes morphological and gene expression changes that make the cell suggestive of being a type of myofibroblast." []
+synonym: "pancreas stellate cell" EXACT []
+synonym: "PaSC" EXACT []
+is_a: CL:0000057 ! fibroblast
 
 [Term]
 id: CL:0002417
-is_a: CL:0000764
+name: primitive erythroid lineage cell
+def: "An immature or mature cell of the first erythroid lineage to arise during embryonic development." []
+is_a: CL:0000764 ! erythroid lineage cell
 
 [Term]
 id: CL:0002418
-is_a: CL:0000222
+name: hemangioblast
+def: "A pluripotent cell in the yolk sac that can give rise to mesenchymal cells including erythrocytes and endothelial cells." []
+is_a: CL:0000222 ! mesodermal cell
 
 [Term]
 id: CL:0002419
-is_a: CL:0000084
+name: mature T cell
+def: "A T cell that expresses a T cell receptor complex and has completed T cell selection." []
+synonym: "CD3e-positive T cell" EXACT []
+synonym: "CD3epsilon T cell" RELATED []
+synonym: "mature T-cell" EXACT []
+is_a: CL:0000084 ! T cell
 
 [Term]
 id: CL:0002420
-is_a: CL:0000084
+name: immature T cell
+def: "A T cell that has not completed T cell selection." []
+synonym: "immature T-cell" EXACT []
+is_a: CL:0000084 ! T cell
 
 [Term]
 id: CL:0002453
-is_a: CL:0000123
+name: oligodendrocyte precursor cell
+def: "The cell type from which oligodendrocytes develop. This cell originates from multiple structures within the developing brain including the medial ganglion eminence and the lateral ganglionic eminence. These cells migrate throughout the central nervous system and persist into adulthood where they play an important role in remyelination of injured neurons." []
+is_a: CL:0000123 ! neuron associated cell (sensu Vertebrata)
 
 [Term]
 id: CL:0002488
-is_a: CL:0000351
+name: trophoblast giant cell
+def: "A trophoblast cell that has a large volume of cytoplasm, is polyploidy and is usually mononuclear but is also occasionally multi-nucleate. This cell type is important in establishing maternal physiology and remodeling of the vasculature of the placenta." []
+synonym: "giant trophoblast cell" EXACT []
+is_a: CL:0000351 ! trophoblast cell
 
 [Term]
 id: CL:0002489
-is_a: CL:0000893
+name: double negative thymocyte
+def: "A thymocyte that lacks expression of CD4 and CD8." []
+synonym: "double negative T cell" BROAD []
+is_a: CL:0000893 ! thymocyte
 
 [Term]
 id: CL:0002491
-is_a: CL:0000098
+name: auditory epithelial cell
+def: "A specialized cell involved in auditory sensory perception." []
+is_a: CL:0000098 ! sensory epithelial cell
 
 [Term]
 id: CL:0002494
-is_a: CL:0000548
-is_a: CL:0002371
+name: cardiocyte
+def: "A cell located in the heart, including both muscle and non muscle cells." []
+synonym: "heart cell" EXACT []
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0002496
-is_a: CL:0002419
+name: intraepithelial lymphocyte
+def: "A T cell that is located in the intestinal epithelium and is capable of a mucosal immune response." []
+synonym: "IEL" EXACT []
+synonym: "intraepithelial T cell" EXACT []
+synonym: "intraepithelial T-cell" EXACT []
+is_a: CL:0002419 ! mature T cell
 
 [Term]
 id: CL:0002499
-is_a: CL:0000351
+name: spongiotrophoblast cell
+def: "A trophoblast cell that arises in the junctional zone (basal plate) of the placenta." []
+is_a: CL:0000351 ! trophoblast cell
 
 [Term]
 id: CL:0002504
-is_a: CL:0000192
+name: enteric smooth muscle cell
+def: "A smooth muscle cell of the intestine." []
+synonym: "intestinal smooth muscle cell" EXACT []
+is_a: CL:0000192 ! smooth muscle cell
 
 [Term]
 id: CL:0002518
-is_a: CL:0000066
-is_a: CL:1000497
+name: kidney epithelial cell
+def: "An epithelial cell of the kidney." []
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:1000497 ! kidney cell
 
 [Term]
 id: CL:0002520
-is_a: CL:0002522
+name: nephrocyte
+def: "An insect excretory cell that regulates haemolymph composition by filtration and filtrate endocytosis." []
+is_a: CL:0002522 ! renal filtration cell
 
 [Term]
 id: CL:0002522
-is_a: CL:0000424
+name: renal filtration cell
+def: "A renal filtration cell is a specialized cell of the renal system that filter fluids by charge, size or both." []
+is_a: CL:0000424 ! excretory cell
 
 [Term]
 id: CL:0002523
-is_a: CL:0000653
+name: mesonephric glomerular visceral epithelial cell
+def: "A mesonephric glomerular visceral epithelial cell is a specialized epithelial cell that contains \"feet\" that interdigitate with the \"feet\" of other glomerular epithelial cells in the mesonephros" []
+is_a: CL:0000653 ! glomerular visceral epithelial cell
 
 [Term]
 id: CL:0002524
-is_a: CL:0002520
+name: disseminated nephrocyte
+def: "A disseminated nephrocyte is a nephrocyte that filters hemolymph and is found at scattered locations in the fat body or other tissues." []
+is_a: CL:0002520 ! nephrocyte
 
 [Term]
 id: CL:0002525
-is_a: CL:0000653
+name: metanephric glomerular visceral epithelial cell
+def: "A metanephric glomerular visceral epithelial cell is a specialized epithelial cell that contains \"feet\" that interdigitate with the \"feet\" of other glomerular epithelial cells in the metanephros." []
+is_a: CL:0000653 ! glomerular visceral epithelial cell
 
 [Term]
 id: CL:0002539
-is_a: CL:0000359
+name: aortic smooth muscle cell
+def: "A smooth muscle cell of the aorta." []
+is_a: CL:0000359 ! vascular associated smooth muscle cell
 
 [Term]
 id: CL:0002543
-is_a: CL:0000071
+name: vein endothelial cell
+def: "An endothelial cell that is part of the vein." []
+synonym: "endothelial cell of vein" EXACT []
+synonym: "venous endothelial cell" EXACT []
+is_a: CL:0000071 ! blood vessel endothelial cell
 
 [Term]
 id: CL:0002548
-is_a: CL:0000057
-is_a: CL:0002494
+name: fibroblast of cardiac tissue
+def: "A fibroblast that is part of the heart." []
+synonym: "cardiac fibroblast" EXACT []
+is_a: CL:0000057 ! fibroblast
+is_a: CL:0002494 ! cardiocyte
 
 [Term]
 id: CL:0002563
-is_a: CL:0002251
+name: intestinal epithelial cell
+def: "An epithelial cell of the intestine." []
+is_a: CL:0002251 ! epithelial cell of alimentary canal
 
 [Term]
 id: CL:0002573
-is_a: CL:0000243
+name: Schwann cell
+def: "A glial cell that ensheathes axons of neuron in the peripheral nervous system and are necessary for their maintainance and function." []
+is_a: CL:0000243 ! glial cell (sensu Vertebrata)
 
 [Term]
 id: CL:0002584
-is_a: CL:0002518
-is_a: CL:0002681
+name: renal cortical epithelial cell
+def: "An epithelial cell of the kidney cortex." []
+is_a: CL:0002518 ! kidney epithelial cell
+is_a: CL:0002681 ! kidney cortical cell
 
 [Term]
 id: CL:0002608
-is_a: CL:0002609
+name: hippocampal neuron
+def: "A neuron of the hippocampus." []
+is_a: CL:0002609 ! neuron of cerebral cortex
 
 [Term]
 id: CL:0002609
-is_a: CL:0010012
-is_a: CL:0012001
+name: neuron of cerebral cortex
+def: "A CNS neuron of the cerebral cortex." []
+synonym: "cortical neuron" EXACT []
+is_a: CL:0010012 ! cerebral cortex neuron
+is_a: CL:0012001 ! neuron of the forebrain
 
 [Term]
 id: CL:0002625
-is_a: CL:0000068
-is_a: CL:0000077
+name: seminiferous tubule epithelial cell
+def: "A cell of the seminiferous tubule epithelium." []
+is_a: CL:0000068 ! duct epithelial cell
+is_a: CL:0000077 ! mesothelial cell
 
 [Term]
 id: CL:0002630
-is_a: CL:0000520
+name: actinomycete-type spore
+def: "A spore formed from bacteria in the order Actinomycetales." []
+is_a: CL:0000520 ! prokaryotic cell
 
 [Term]
 id: CL:0002632
-is_a: CL:0002368
+name: epithelial cell of lower respiratory tract
+is_a: CL:0002368 ! respiratory epithelial cell
 
 [Term]
 id: CL:0002633
-is_a: CL:0000646
-is_a: CL:0002368
+name: respiratory basal cell
+def: "A basal cell in the respiratory tract." []
+synonym: "airway basal cell" EXACT []
+synonym: "airway basal stem cell" EXACT []
+is_a: CL:0000646 ! basal cell
+is_a: CL:0002368 ! respiratory epithelial cell
 
 [Term]
 id: CL:0002639
-is_a: CL:0000134
-is_a: CL:0002323
+name: amniotic stem cell
+def: "An amniotic stem cell is a mesenchymalstem cell extracted from amniotic fluid. Amniotic stem cells are able to differentiate into various tissue type such as skin, cartilage, cardiac tissue, nerves, muscle, and bone" []
+is_a: CL:0000134 ! mesenchymal stem cell
+is_a: CL:0002323 ! amniocyte
 
 [Term]
 id: CL:0002664
-is_a: CL:0000048
+name: cardioblast
+def: "A stem cell that can give rise to multiple cell types (i.e. smooth muscle, endothelial) in the developing heart." []
+is_a: CL:0000048 ! multi fate stem cell
 
 [Term]
 id: CL:0002671
-is_a: CL:0000071
+name: endothelial stalk cell
+def: "An endothelial stalk cell is a specialized endothelial cell that follows behind the tip cell of an angiogenic sprout." []
+is_a: CL:0000071 ! blood vessel endothelial cell
 
 [Term]
 id: CL:0002673
-is_a: CL:0008002
+name: tongue muscle cell
+def: "A skeletal muscle cell that is part of the tongue." []
+is_a: CL:0008002 ! skeletal muscle fiber
 
 [Term]
 id: CL:0002681
-is_a: CL:1000497
+name: kidney cortical cell
+is_a: CL:1000497 ! kidney cell
 
 [Term]
 id: CL:0005012
-is_a: CL:0000064
-is_a: CL:0000066
+name: multi-ciliated epithelial cell
+def: "A ciliated epithelial cell with many cilium." []
+is_a: CL:0000064 ! ciliated cell
+is_a: CL:0000066 ! epithelial cell
 
 [Term]
 id: CL:0005018
-is_a: CL:0000167
+name: ghrelin secreting cell
+def: "A cell that secretes ghrelin, the peptide hormone that stimulates hunger." []
+is_a: CL:0000167 ! peptide hormone secreting cell
 
 [Term]
 id: CL:0005019
-is_a: CL:0005018
+name: pancreatic epsilon cell
+def: "Ghrelin secreting cells found in the found in the exocrine pancreas." []
+synonym: "pancreatic E cell" EXACT []
+is_a: CL:0005018 ! ghrelin secreting cell
 
 [Term]
 id: CL:0005024
-is_a: CL:0000108
-is_a: CL:0008014
+name: somatomotor neuron
+def: "A motor neuron that innervates a skeletal muscle.  These motor neurons are all excitatory and cholinergic." []
+synonym: "somatic motor neuron" EXACT []
+is_a: CL:0000108 ! cholinergic neuron
+is_a: CL:0008014 ! excitatory motor neuron
 
 [Term]
 id: CL:0005026
-is_a: CL:0000048
+name: hepatoblast
+def: "Multi fate stem cell that gives rise to to both hepatocytes and cholangiocytes as descendants." []
+is_a: CL:0000048 ! multi fate stem cell
 
 [Term]
 id: CL:0007005
-is_a: CL:0000003
+name: notochordal cell
+def: "Cell that is part of the notochord." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0008000
-is_a: CL:0000187
+name: non-striated muscle cell
+def: "Any muscle cell in which the fibers are not organised into sarcomeres." []
+is_a: CL:0000187 ! muscle cell
 
 [Term]
 id: CL:0008001
-is_a: CL:0000988
+name: hematopoietic precursor cell
+def: "Any hematopoietic cell that is a precursor of some other hematopoietic cell type." []
+is_a: CL:0000988 ! hematopoietic cell
 
 [Term]
 id: CL:0008002
-is_a: CL:0000188
-is_a: CL:0002372
+name: skeletal muscle fiber
+def: "A transversely striated, synctial cell of skeletal muscle. It is formed when proliferating myoblasts exit the cell cycle, differentiate and fuse." []
+is_a: CL:0000188 ! cell of skeletal muscle
+is_a: CL:0002372 ! myotube
 
 [Term]
 id: CL:0008003
-is_a: CL:0002372
-is_a: CL:0008004
+name: somatic muscle myotube
+def: "A myotube that is part of some somatic muscle.  Examples include arthropod somatic muscle cells." []
+is_a: CL:0002372 ! myotube
+is_a: CL:0008004 ! somatic muscle cell
 
 [Term]
 id: CL:0008004
-is_a: CL:0000187
+name: somatic muscle cell
+def: "A muscle cell that is part of some somatic muscle." []
+is_a: CL:0000187 ! muscle cell
 
 [Term]
 id: CL:0008007
-is_a: CL:0000187
+name: visceral muscle cell
+def: "A muscle cell that is part of some visceral muscle" []
+is_a: CL:0000187 ! muscle cell
 
 [Term]
 id: CL:0008011
-is_a: CL:0000035
-is_a: CL:0000594
+name: skeletal muscle satellite stem cell
+def: "A skeletal muscle satellite cell that divides by stem cell division.  A proportion of this population undergoes symmetric stem cell division, producing two skeletal muscle satellite stem cells. The rest undergo asymmetric stem cell division - retaining their identity while budding off a daughter cell that differentiates into an adult skeletal muscle myoblast." []
+is_a: CL:0000035 ! single fate stem cell
+is_a: CL:0000594 ! skeletal muscle satellite cell
 
 [Term]
 id: CL:0008012
-is_a: CL:0000594
+name: quiescent skeletal muscle satellite cell
+def: "A skeletal muscle satellite cell that is mitotically quiescent.  These cells are wedge shaped and have a large nuclear to cytoplasmic ratio with few organelles, a small nucleus and condensed interphase chromatin. Satellite cells typically remain in this state until activated following muscle damage." []
+is_a: CL:0000594 ! skeletal muscle satellite cell
 
 [Term]
 id: CL:0008014
-is_a: CL:0000100
+name: excitatory motor neuron
+def: "A motor neuron that is capable of directly inducing muscle contraction." []
+is_a: CL:0000100 ! motor neuron
 
 [Term]
 id: CL:0008016
-is_a: CL:0000594
+name: activated skeletal muscle satellite cell
+def: "A skeletal muscle cell that has become mitotically active - typically following muscle damage." []
+is_a: CL:0000594 ! skeletal muscle satellite cell
 
 [Term]
 id: CL:0008019
-is_a: CL:0000219
-is_a: CL:0002371
+name: mesenchymal cell
+def: "A non-polarised cell precursor cell that is part of some mesenchyme, is associated with the cell matrix but is not connected to other cells and is capable of migration." []
+synonym: "mesenchyme cell" EXACT []
+is_a: CL:0000219 ! motile cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0008024
-is_a: CL:0000163
+name: pancreatic endocrine cell
+def: "An endocrine cell that is part of the pancreas." []
+is_a: CL:0000163 ! endocrine cell
 
 [Term]
 id: CL:0008025
-is_a: CL:0000459
-is_a: CL:0000540
+name: noradrenergic neuron
+def: "A neuron that release noradrenaline (noriphinephrine) as a neurotransmitter." []
+is_a: CL:0000459 ! noradrenergic cell
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:0008026
-is_a: CL:0000066
-
-[Term]
-id: CL:0008028
-is_a: CL:0000540
-
-[Term]
-id: CL:0008030
-is_a: CL:0000151
-is_a: CL:0000540
+name: open tracheal system tracheocyte
+def: "An epithelial cell that is part of the epithelium of a tracheal tube in an open tracheal system, such as that found in insects." []
+is_a: CL:0000066 ! epithelial cell
 
 [Term]
 id: CL:0009001
-is_a: CL:0002371
+name: compound eye retinal cell
+def: "Any cell in the compound eye, a light sensing organ composed of ommatidia." []
+is_a: CL:0009004 ! retinal cell
 
 [Term]
 id: CL:0009004
-is_a: CL:0002319
+name: retinal cell
+def: "Any cell in the retina, the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates." []
+is_a: CL:0002319 ! neural cell
 
 [Term]
 id: CL:0010003
-is_a: CL:0000082
+name: epithelial cell of alveolus of lung
+def: "a epithelial cell that is part_of a alveolus of lung" []
+synonym: "alveolus of lung epithelial cell" EXACT []
+is_a: CL:0000082 ! epithelial cell of lung
 
 [Term]
 id: CL:0010005
-is_a: CL:0010007
+name: atrioventricular bundle cell
+def: "A specialized cardiomyocyte that transmit signals from the AV node to the cardiac Purkinje fibers." []
+synonym: "AV bundle cell" EXACT []
+is_a: CL:0010007 ! His-Purkinje system cell
 
 [Term]
 id: CL:0010006
-is_a: CL:0000071
-is_a: CL:0010008
+name: cardiac blood vessel endothelial cell
+is_a: CL:0000071 ! blood vessel endothelial cell
+is_a: CL:0010008 ! cardiac endothelial cell
 
 [Term]
 id: CL:0010007
-is_a: CL:0000003
+name: His-Purkinje system cell
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0010008
-is_a: CL:0000115
-is_a: CL:0002494
+name: cardiac endothelial cell
+is_a: CL:0000115 ! endothelial cell
+is_a: CL:0002494 ! cardiocyte
 
 [Term]
 id: CL:0010009
-is_a: CL:0000287
-is_a: CL:0009004
+name: camera-type eye photoreceptor cell
+synonym: "camera type eye photoreceptor cell" EXACT []
+is_a: CL:0000287 ! eye photoreceptor cell
+is_a: CL:0009004 ! retinal cell
 
 [Term]
 id: CL:0010010
-is_a: CL:0000122
-is_a: CL:1001611
+name: cerebellar stellate cell
+is_a: CL:0000122 ! stellate neuron
+is_a: CL:1001611 ! cerebellar neuron
 
 [Term]
 id: CL:0010011
-is_a: CL:0011005
+name: cerebral cortex GABAergic interneuron
+def: "a GABAergic interneuron that is part_of a cerebral cortex" []
+is_a: CL:0000402 ! CNS interneuron
+is_a: CL:0002609 ! neuron of cerebral cortex
+is_a: CL:0011005 ! GABAergic interneuron
 
 [Term]
 id: CL:0010012
-is_a: CL:2000029
+name: cerebral cortex neuron
+def: "a neuron that is part_of a cerebral cortex" []
+is_a: CL:2000029 ! central nervous system neuron
 
 [Term]
 id: CL:0010020
-is_a: CL:0000125
-is_a: CL:0002494
+name: cardiac glial cell
+is_a: CL:0000125 ! glial cell
+is_a: CL:0002494 ! cardiocyte
 
 [Term]
 id: CL:0010021
-is_a: CL:0000056
+name: cardiac myoblast
+is_a: CL:0000056 ! myoblast
 
 [Term]
 id: CL:0010022
-is_a: CL:0000540
-is_a: CL:0002494
+name: cardiac neuron
+is_a: CL:0000540 ! neuron
+is_a: CL:0002494 ! cardiocyte
 
 [Term]
 id: CL:0011001
-is_a: CL:0000100
-is_a: CL:2000029
+name: spinal cord motor neuron
+def: "A motor neuron that passes from the spinal cord toward or to a muscle and conducts an impulse that causes movement." []
+is_a: CL:0000100 ! motor neuron
+is_a: CL:2000029 ! central nervous system neuron
 
 [Term]
 id: CL:0011002
-is_a: CL:0011001
+name: lateral motor column neuron
+def: "A motor neuron that is generated only on limb levels and send axons into the limb mesenchyme." []
+is_a: CL:0011001 ! spinal cord motor neuron
 
 [Term]
 id: CL:0011004
-is_a: CL:0002222
+name: lens fiber cell
+def: "A vetebrate lens cell that is any of the elongated, tightly packed cells that make up the bulk of the mature lens in a camera-type eye." []
+synonym: "lens fibre cell" EXACT []
+is_a: CL:0002222 ! vertebrate lens cell
 
 [Term]
 id: CL:0011005
-is_a: CL:0000099
-is_a: CL:0000617
+name: GABAergic interneuron
+def: "An interneuron that uses GABA as a vesicular neurotransmitter." []
+is_a: CL:0000099 ! interneuron
+is_a: CL:0000617 ! GABAergic neuron
 
 [Term]
 id: CL:0011006
-is_a: CL:0000402
-is_a: CL:0011005
-is_a: CL:1001611
+name: Lugaro cell
+def: "An inhibitory GABAergic interneuron found in the cerebellar cortex." []
+is_a: CL:0000402 ! CNS interneuron
+is_a: CL:0011005 ! GABAergic interneuron
+is_a: CL:1001611 ! cerebellar neuron
 
 [Term]
 id: CL:0011012
-is_a: CL:0000048
-is_a: CL:0002321
+name: neural crest cell
+def: "A cell of the neural crest. Neural crest cells are multipotent. Premigratory neural crest cells are found at the neural plate boarder, some of which will undergo ectomesynchymal transition and delamination to form migratory neural crest cells." []
+is_a: CL:0000048 ! multi fate stem cell
+is_a: CL:0002321 ! embryonic cell
 
 [Term]
 id: CL:0011101
-is_a: CL:0000351
+name: chorionic trophoblast cell
+def: "Cells of the uterine chorion that acquire specialized structural and/or functional features that characterize chorionic trophoblasts. These cells will migrate towards the spongiotrophoblast layer and give rise to syncytiotrophoblasts of the labyrinthine layer." []
+is_a: CL:0000351 ! trophoblast cell
 
 [Term]
 id: CL:0011103
-is_a: CL:0000107
+name: sympathetic neuron
+def: "Sympathetic neurons are part of the sympathetic nervous system and are primarily adrenergic producing the neurotransmitter noradrenalin along with other neuropeptides." []
+is_a: CL:0000107 ! autonomic neuron
 
 [Term]
 id: CL:0011108
-is_a: CL:0002253
+name: colon epithelial cell
+def: "Epithelial cell that is part of the colon epithelium. " []
+synonym: "colonic epithelial cell" EXACT []
+is_a: CL:0002253 ! epithelial cell of large intestine
 
 [Term]
 id: CL:0011115
-is_a: CL:0000003
+name: precursor cell
+def: "A cell that, by division or terminal differentiation, can give rise to other cell types." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0012000
-is_a: CL:0000127
-is_a: CL:2000005
+name: astrocyte of the forebrain
+def: "An astrocyte of the forebrain." []
+synonym: "forebrain astrocyte" EXACT []
+is_a: CL:0000127 ! astrocyte
+is_a: CL:2000005 ! brain macroglial cell
 
 [Term]
 id: CL:0012001
-is_a: CL:0000117
+name: neuron of the forebrain
+def: "A CNS neuron of the forebrain." []
+synonym: "forebrain neuron" EXACT []
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 
 [Term]
 id: CL:0013000
-is_a: CL:0000681
+name: forebrain radial glial cell
+is_a: CL:0000681 ! radial glial cell
 
 [Term]
 id: CL:1000001
-is_a: CL:2000029
+name: retrotrapezoid nucleus neuron
+is_a: CL:2000029 ! central nervous system neuron
 
 [Term]
 id: CL:1000022
-is_a: CL:1000507
+name: mesonephric nephron tubule epithelial cell
+is_a: CL:1000507 ! kidney tubule cell
 
 [Term]
 id: CL:1000042
-is_a: CL:0000031
+name: forebrain neuroblast
+is_a: CL:0000031 ! neuroblast
 
 [Term]
 id: CL:1000050
-is_a: CL:0000125
+name: lateral line nerve glial cell
+is_a: CL:0000125 ! glial cell
 
 [Term]
 id: CL:1000073
-is_a: CL:0000681
+name: spinal cord radial glial cell
+is_a: CL:0000681 ! radial glial cell
 
 [Term]
 id: CL:1000090
-is_a: CL:1000507
+name: pronephric nephron tubule epithelial cell
+is_a: CL:1000507 ! kidney tubule cell
 
 [Term]
 id: CL:1000123
-is_a: CL:1000507
+name: metanephric nephron tubule epithelial cell
+is_a: CL:1000507 ! kidney tubule cell
 
 [Term]
 id: CL:1000143
-is_a: CL:0000082
-is_a: CL:0002370
-is_a: CL:1000272
+name: lung goblet cell
+is_a: CL:0000082 ! epithelial cell of lung
+is_a: CL:0002370 ! respiratory goblet cell
+is_a: CL:1000272 ! lung secretory cell
 
 [Term]
 id: CL:1000147
-is_a: CL:0000663
+name: heart valve cell
+is_a: CL:0000663 ! valve cell
 
 [Term]
 id: CL:1000155
-is_a: CL:0000151
+name: Malpighian tubule stellate cell
+def: "A specialized epithelial secretory cell that moves chloride ions and water across the tubule epithelium." []
+synonym: "Malpighian tubule Type II cell" EXACT []
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:1000182
-is_a: CL:0000423
+name: malpighian tubule tip cell
+is_a: CL:0000423 ! tip cell
 
 [Term]
 id: CL:1000217
-is_a: CL:0000138
+name: growth plate cartilage chondrocyte
+is_a: CL:0000138 ! chondrocyte
 
 [Term]
 id: CL:1000222
-is_a: CL:0000165
-is_a: CL:0002178
+name: stomach neuroendocrine cell
+is_a: CL:0000165 ! neuroendocrine cell
+is_a: CL:0002178 ! epithelial cell of stomach
 
 [Term]
 id: CL:1000223
-is_a: CL:0000082
-is_a: CL:0000165
-is_a: CL:1000272
+name: lung neuroendocrine cell
+is_a: CL:0000082 ! epithelial cell of lung
+is_a: CL:0000165 ! neuroendocrine cell
+is_a: CL:1000272 ! lung secretory cell
 
 [Term]
 id: CL:1000236
-is_a: CL:1000050
+name: posterior lateral line nerve glial cell
+is_a: CL:1000050 ! lateral line nerve glial cell
 
 [Term]
 id: CL:1000239
-is_a: CL:1000050
+name: anterior lateral line nerve glial cell
+is_a: CL:1000050 ! lateral line nerve glial cell
 
 [Term]
 id: CL:1000245
-is_a: CL:2000031
+name: posterior lateral line ganglion neuron
+is_a: CL:2000031 ! lateral line ganglion neuron
 
 [Term]
 id: CL:1000271
-is_a: CL:0000064
+name: lung ciliated cell
+is_a: CL:0000064 ! ciliated cell
 
 [Term]
 id: CL:1000272
-is_a: CL:0000151
+name: lung secretory cell
+is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:1000274
-is_a: CL:0000349
+name: trophectodermal cell
+synonym: "trophectoderm cell" EXACT []
+is_a: CL:0000349 ! extraembryonic cell
 
 [Term]
 id: CL:1000409
-is_a: CL:0002072
+name: myocyte of sinoatrial node
+def: "A muscle cell that is part of the sinoatrial node." []
+synonym: "myocyte of sinoatrial node" EXACT []
+synonym: "SA nodal myocyte" EXACT []
+synonym: "SA node cardiac muscle cell" EXACT []
+synonym: "sinoatrial node cell" EXACT []
+synonym: "sinoatrial node myocyte" EXACT []
+synonym: "sinuatrial node myocyte" EXACT []
+is_a: CL:0002072 ! nodal myocyte
 
 [Term]
 id: CL:1000410
-is_a: CL:0002072
-is_a: CL:2000022
+name: myocyte of atrioventricular node
+def: "A muscle cell that is part of the atrioventricular node." []
+synonym: "atrioventricular node cell" EXACT []
+synonym: "atrioventricular node myocyte" EXACT []
+synonym: "AV nodal myocyte" EXACT []
+synonym: "AV node cardiac muscle cell" EXACT []
+synonym: "AV node cell" EXACT []
+is_a: CL:0002072 ! nodal myocyte
+is_a: CL:2000022 ! cardiac septum native cell
 
 [Term]
 id: CL:1000413
-is_a: CL:0000071
+name: endothelial cell of artery
+def: "A blood vessel endothelial cell that is part of an arterial endothelium." []
+synonym: "arterial endothelial cell" EXACT []
+is_a: CL:0000071 ! blood vessel endothelial cell
 
 [Term]
 id: CL:1000426
-is_a: CL:0000150
-is_a: CL:0000166
+name: chromaffin cell of adrenal gland
+def: "A chromaffin cell that is part of the adrenal gland." []
+synonym: "adrenal chromaffin cell" EXACT []
+is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0000166 ! chromaffin cell
 
 [Term]
 id: CL:1000428
-is_a: CL:0000723
+name: stem cell of epidermis
+def: "A somatic stem cell that is part of the epidermis." []
+synonym: "epidermal stem cell" EXACT []
+is_a: CL:0000723 ! somatic stem cell
 
 [Term]
 id: CL:1000448
-is_a: CL:0000362
-is_a: CL:0002308
+name: epithelial cell of sweat gland
+def: "An epithelial cell that is part of the sweat gland." []
+is_a: CL:0000362 ! epidermal cell
+is_a: CL:0002308 ! epithelial cell of skin gland
 
 [Term]
 id: CL:1000449
-is_a: CL:0002518
+name: epithelial cell of nephron
+def: "An epithelial cell that is part of the nephron." []
+is_a: CL:0002518 ! kidney epithelial cell
 
 [Term]
 id: CL:1000450
-is_a: CL:1000510
+name: epithelial cell of glomerular capsule
+def: "An epithelial cell that is part of the glomerular capsule." []
+synonym: "Bowmans capsule epithelial cell" EXACT []
+synonym: "epithelial cell of Bowman's capsule" EXACT []
+is_a: CL:1000510 ! kidney glomerular epithelial cell
 
 [Term]
 id: CL:1000451
-is_a: CL:1000450
+name: epithelial cell of visceral layer of glomerular capsule
+def: "An epithelial cell that is part of the visceral layer of glomerular capsule." []
+synonym: "glomerular podocyte" NARROW []
+is_a: CL:1000450 ! epithelial cell of glomerular capsule
 
 [Term]
 id: CL:1000488
-is_a: CL:0000069
+name: cholangiocyte
+def: "An epithelial cell that is part of the bile duct. Cholangiocytes contribute to bile secretion via net release of bicarbonate and water. They are cuboidal epithelium in the small interlobular bile ducts, but become columnar and mucus secreting in larger bile ducts approaching the porta hepatis and the extrahepatic ducts." []
+synonym: "epithelial cell of bile duct" EXACT []
+is_a: CL:0000069 ! branched duct epithelial cell
 
 [Term]
 id: CL:1000494
-is_a: CL:1000507
+name: nephron tubule epithelial cell
+def: "An epithelial cell that is part of a nephron tubule." []
+synonym: "kidney tubule epithelial cell" EXACT []
+is_a: CL:1000507 ! kidney tubule cell
 
 [Term]
 id: CL:1000497
-is_a: CL:0000548
-is_a: CL:0002371
+name: kidney cell
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:1000500
-is_a: CL:1000497
+name: kidney interstitial cell
+is_a: CL:1000497 ! kidney cell
 
 [Term]
 id: CL:1000507
-is_a: CL:1000449
+name: kidney tubule cell
+is_a: CL:1000449 ! epithelial cell of nephron
 
 [Term]
 id: CL:1000510
-is_a: CL:1000746
+name: kidney glomerular epithelial cell
+is_a: CL:1000746 ! glomerular cell
 
 [Term]
 id: CL:1000601
-is_a: CL:0000548
+name: ureteral cell
+is_a: CL:0000548 ! animal cell
 
 [Term]
 id: CL:1000612
-is_a: CL:0002584
-is_a: CL:1000449
+name: kidney corpuscule cell
+is_a: CL:0002584 ! renal cortical epithelial cell
+is_a: CL:1000449 ! epithelial cell of nephron
 
 [Term]
 id: CL:1000618
-is_a: CL:0002681
+name: juxtaglomerular complex cell
+synonym: "juxtaglomerulus cell" EXACT []
+is_a: CL:0002681 ! kidney cortical cell
 
 [Term]
 id: CL:1000692
-is_a: CL:0000057
-is_a: CL:1000500
+name: kidney interstitial fibroblast
+is_a: CL:0000057 ! fibroblast
+is_a: CL:1000500 ! kidney interstitial cell
 
 [Term]
 id: CL:1000742
-is_a: CL:0000650
-is_a: CL:1000500
-is_a: CL:1000746
-is_a: CL:1001318
+name: glomerular mesangial cell
+def: "Intraglomerular mesangial cells are specialized pericytes located among the glomerular capillaries within a renal corpuscle of a kidney." []
+synonym: "intraglomerular mesangial cell" EXACT []
+is_a: CL:0000650 ! mesangial cell
+is_a: CL:1000500 ! kidney interstitial cell
+is_a: CL:1000746 ! glomerular cell
+is_a: CL:1001318 ! renal interstitial pericyte
 
 [Term]
 id: CL:1000746
-is_a: CL:1000612
+name: glomerular cell
+is_a: CL:1000612 ! kidney corpuscule cell
 
 [Term]
 id: CL:1000979
-is_a: CL:0000192
-is_a: CL:1000601
+name: ureter smooth muscle cell
+is_a: CL:0000192 ! smooth muscle cell
+is_a: CL:1000601 ! ureteral cell
 
 [Term]
 id: CL:1001318
-is_a: CL:0000669
-is_a: CL:1000497
+name: renal interstitial pericyte
+is_a: CL:0000669 ! pericyte cell
+is_a: CL:1000497 ! kidney cell
 
 [Term]
 id: CL:1001434
-is_a: CL:0000101
-is_a: CL:0000402
-is_a: CL:0012001
+name: olfactory bulb interneuron
+def: "A neuron residing in the olfactory bulb that serve to process and refine signals arising from olfactory sensory neurons" []
+is_a: CL:0000101 ! sensory neuron
+is_a: CL:0000402 ! CNS interneuron
+is_a: CL:0012001 ! neuron of the forebrain
 
 [Term]
 id: CL:1001474
-is_a: CL:2000029
+name: medium spiny neuron
+def: "the inhibitory projection neurons located in the striatum that integrate glutamatergic signals arising from the cerebral cortex and thalamus" []
+synonym: "medium-sized densely spiny neuron" RELATED []
+synonym: "striatal medium spiny neuron" EXACT []
+is_a: CL:2000029 ! central nervous system neuron
 
 [Term]
 id: CL:1001503
-is_a: CL:2000029
+name: olfactory bulb tufted cell
+def: "the principal glutaminergic neuron located in the outer third of the external plexiform layer of the olfactory bulb; a single short primary dendrite traverses the outer external plexiform layer and terminates within an olfactory glomerulus in a tuft of branches, where it receives the input from olfactory receptor neuron axon terminals; axons of the tufted cells transfer information to a number of areas in the brain, including the piriform cortex, entorhinal cortex, olfactory tubercle, and amygdala" []
+is_a: CL:2000029 ! central nervous system neuron
 
 [Term]
 id: CL:1001569
-is_a: CL:0000402
-is_a: CL:0002608
+name: hippocampal interneuron
+def: "An interneuron of the hippocampus." []
+is_a: CL:0000402 ! CNS interneuron
+is_a: CL:0002608 ! hippocampal neuron
 
 [Term]
 id: CL:1001571
-is_a: CL:0002608
-is_a: CL:2000056
+name: hippocampal pyramidal neuron
+def: "A pyramidal neuron of the hippocampus." []
+synonym: "hippocampus (CA) pyramidal cell" EXACT []
+synonym: "hippocampus (CA) pyramidal neuron" EXACT []
+is_a: CL:0002608 ! hippocampal neuron
+is_a: CL:2000056 ! Meynert cell
 
 [Term]
 id: CL:1001610
-is_a: CL:0000988
-is_a: CL:0002092
+name: bone marrow hematopoietic cell
+def: "Hematopoietic cells resident in the bone marrow. Include: hematopoietic stem cells (lymphoid stem cells and myeloid stem cells) and the precursor cells for thrombocytes, erythrocytes, basophils, neutrophils, eosinophils, monocytes and lymphocytes." []
+synonym: "bone marrow hematopoietic cells" RELATED []
+synonym: "bone marrow poietic cells" RELATED []
+is_a: CL:0000988 ! hematopoietic cell
+is_a: CL:0002092 ! bone marrow cell
 
 [Term]
 id: CL:1001611
-is_a: CL:2000029
+name: cerebellar neuron
+def: "Neuron of the cerebellum." []
+synonym: "cerebellum neuron" RELATED []
+is_a: CL:2000029 ! central nervous system neuron
 
 [Term]
 id: CL:2000004
-is_a: CL:0000003
+name: pituitary gland cell
+def: "Any cell that is part of a pituitary gland." []
+is_a: CL:0002319 ! neural cell
 
 [Term]
 id: CL:2000005
-is_a: CL:0000126
+name: brain macroglial cell
+def: "Any macroglial cell that is part of a brain." []
+is_a: CL:0000126 ! macroglial cell
 
 [Term]
 id: CL:2000019
-is_a: CL:0000287
+name: compound eye photoreceptor cell
+def: "Any photoreceptor cell that is part of a compound eye." []
+is_a: CL:0000287 ! eye photoreceptor cell
 
 [Term]
 id: CL:2000020
-is_a: CL:0000003
+name: inner cell mass native cell
+def: "Any native cell that is part of a inner cell mass." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:2000021
-is_a: CL:0000003
+name: sebaceous gland native cell
+def: "Any native cell that is part of a sebaceous gland." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:2000022
-is_a: CL:0000003
+name: cardiac septum native cell
+def: "Any native cell that is part of a cardiac septum." []
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:2000029
-is_a: CL:0000540
+name: central nervous system neuron
+def: "Any neuron that is part of a central nervous system." []
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:2000031
-is_a: CL:0000540
+name: lateral line ganglion neuron
+def: "Any neuron that is part of a lateral line ganglion." []
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:2000032
-is_a: CL:0000540
+name: peripheral nervous system neuron
+def: "Any neuron that is part of a peripheral nervous system." []
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:2000034
-is_a: CL:0000856
+name: anterior lateral line neuromast hair cell
+def: "Any neuromast hair cell that is part of a anterior lateral line." []
+is_a: CL:0000856 ! neuromast hair cell
 
 [Term]
 id: CL:2000035
-is_a: CL:0000851
+name: anterior lateral line neuromast mantle cell
+def: "Any neuromast mantle cell that is part of a anterior lateral line." []
+is_a: CL:0000851 ! neuromast mantle cell
 
 [Term]
 id: CL:2000036
-is_a: CL:0000852
+name: anterior lateral line neuromast support cell
+def: "Any neuromast support cell that is part of a anterior lateral line." []
+is_a: CL:0000852 ! neuromast support cell
 
 [Term]
 id: CL:2000037
-is_a: CL:0000856
+name: posterior lateral line neuromast hair cell
+def: "Any neuromast hair cell that is part of a posterior lateral line." []
+is_a: CL:0000856 ! neuromast hair cell
 
 [Term]
 id: CL:2000038
-is_a: CL:0000851
+name: posterior lateral line neuromast mantle cell
+def: "Any neuromast mantle cell that is part of a posterior lateral line." []
+is_a: CL:0000851 ! neuromast mantle cell
 
 [Term]
 id: CL:2000039
-is_a: CL:0000852
+name: posterior lateral line neuromast support cell
+def: "Any neuromast support cell that is part of a posterior lateral line." []
+is_a: CL:0000852 ! neuromast support cell
 
 [Term]
 id: CL:2000056
-is_a: CL:0000598
-is_a: CL:0002609
+name: Meynert cell
+def: "Any pyramidal cell that is part of a regional part of cerebral cortex." []
+is_a: CL:0000598 ! pyramidal neuron
+is_a: CL:0002609 ! neuron of cerebral cortex
 
 [Term]
 id: CL:2000074
-is_a: CL:0000738
+name: splenocyte
+def: "Any leukocyte that is part of a spleen." []
+is_a: CL:0000738 ! leukocyte
 
 [Term]
 id: CL:2000075
-is_a: CL:0000223
+name: anterior visceral endoderm cell
+def: "Any endodermal cell that is part of a anterior visceral endoderm." []
+is_a: CL:0000223 ! endodermal cell
 
 [Term]
 id: CL:2000097
-is_a: CL:0000700
-is_a: CL:2000029
+name: midbrain dopaminergic neuron
+def: "Any dopaminergic neuron that is part of a midbrain." []
+is_a: CL:0000700 ! dopaminergic neuron
+is_a: CL:2000029 ! central nervous system neuron
 
