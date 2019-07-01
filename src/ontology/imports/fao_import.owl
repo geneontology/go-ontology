@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/go/imports/fao_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/go/imports/fao_import.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/fao_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2018-11-07/imports/fao_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2019-07-01/imports/fao_import.owl"/>
     </owl:Ontology>
     
 
@@ -119,9 +119,9 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#source -->
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#source"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
     
 
 
@@ -159,6 +159,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002160 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002160">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002160</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">only_in_taxon</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">only in taxon</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002202 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002202">
@@ -184,6 +194,13 @@
     <!-- http://purl.obolibrary.org/obo/FAO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000001">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical structure that forms all or part of a fungus.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fungal structure ontology</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fungal structure</rdfs:label>
     </owl:Class>
@@ -209,7 +226,7 @@
     <!-- http://purl.obolibrary.org/obo/FAO_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0002004"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any specialized structure which bears or contains sexually or asexually derived spores.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruiting body</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruitbody</rdfs:label>
@@ -230,7 +247,7 @@
     <!-- http://purl.obolibrary.org/obo/FAO_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0002004"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A structure directly within which spores are contained or from which spores are formed.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spore-bearing organ</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sporophore</rdfs:label>
@@ -241,7 +258,7 @@
     <!-- http://purl.obolibrary.org/obo/FAO_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0002004"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A group or mass of discrete hyphae; the vegetative structure of many fungi.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mycelium</rdfs:label>
     </owl:Class>
@@ -406,6 +423,7 @@
     <!-- http://purl.obolibrary.org/obo/FAO_0000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0002004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -421,6 +439,7 @@
     <!-- http://purl.obolibrary.org/obo/FAO_0000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -470,6 +489,7 @@
     <!-- http://purl.obolibrary.org/obo/FAO_0000048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -485,6 +505,7 @@
     <!-- http://purl.obolibrary.org/obo/FAO_0000050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -510,7 +531,7 @@
     <!-- http://purl.obolibrary.org/obo/FAO_0001001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0001001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0002004"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A threadlike, tubular filamentous fungal structure.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypha</rdfs:label>
     </owl:Class>
@@ -520,7 +541,7 @@
     <!-- http://purl.obolibrary.org/obo/FAO_0001030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0001030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0002004"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An invasive mycelium that forms within a solid or semi-solid substrate such as wood, soil or agar.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">substrate mycelium</rdfs:label>
     </owl:Class>
@@ -531,12 +552,39 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0001031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000011"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mycelium that forms prior to sporulation and extends aerially, or perpendicular to its substrate.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mycelium that forms prior to sporulation and extends aerially, or perpendicular, to its substrate.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aerial mycelium</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FAO_0002002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0002002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal structure that comprises more than one cell.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular fungal structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FAO_0002004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0002004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0002002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multicellular fungal structure composed of two or more cells of a single multicellular organism.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular structure, multicellular organism</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular fungal structure, multicellular organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_4751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 1.1.0) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 
