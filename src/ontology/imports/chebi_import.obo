@@ -5136,7 +5136,7 @@ is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
 id: CHEBI:133969
-name: 5'-(N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyl-purine-ribonucleotide)(3-) residue
+name: 5'-(N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyl-purine-ribonucleotide)(2-) residue
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -13719,6 +13719,11 @@ name: (R,R)-2-oleoylglycero-1-phospho-1'-glycerol(1-)
 is_a: CHEBI:62643 ! anionic phospholipid
 
 [Term]
+id: CHEBI:139231
+name: 5-methyldeoxycytidine 5'-monophosphate residue
+is_a: CHEBI:55367 ! deoxyribonucleotide residue
+
+[Term]
 id: CHEBI:139235
 name: (3E,5Z)-dodecadienoic acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
@@ -16447,7 +16452,7 @@ relationship: has_role CHEBI:78675 ! fundamental metabolite
 
 [Term]
 id: CHEBI:143274
-name: (indol-3-yl)butanoate
+name: indole-3-butyrate
 is_a: CHEBI:38468 ! indol-3-yl carboxylic acid anion
 
 [Term]
@@ -16469,10 +16474,70 @@ is_a: CHEBI:50860 ! organic molecular entity
 is_a: CHEBI:58342 ! acyl-CoA(4-)
 
 [Term]
+id: CHEBI:143593
+name: beta-galactosylceramide
+is_a: CHEBI:36498 ! galactosylceramide
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:143597
+name: pentanol
+is_a: CHEBI:134179 ! volatile organic compound
+is_a: CHEBI:50584 ! alkyl alcohol
+
+[Term]
+id: CHEBI:143624
+name: D-galactofuranos
+is_a: CHEBI:12936 ! D-galactose
+
+[Term]
 id: CHEBI:1438
 name: 3-(methylthio)propionic acid
 is_a: CHEBI:59643 ! thia fatty acid
 relationship: has_role CHEBI:38231 ! phytotoxin
+
+[Term]
+id: CHEBI:143813
+name: phosphatidyl-1D-myo-inositol(1-)
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:143815
+name: N-acetyl-alpha-D-glucosaminyl-(1->6)-(phosphatidyl)-1D-myo-inositol(1-)
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:143816
+name: alpha-D-glucosaminyl-(1->6)-(phosphatidyl)-1D-myo-inositol zwitterion
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:143819
+name: C-terminal amino acid residue(1-)
+is_a: CHEBI:33558 ! alpha-amino-acid anion
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:143877
+name: N-acetyl-L-tryptophanate
+is_a: CHEBI:21545 ! N-acetyl-L-amino acid
+
+[Term]
+id: CHEBI:143878
+name: N-acetyl-D-phenylalaninate
+is_a: CHEBI:59876 ! N-acyl-D-alpha-amino acid anion
+
+[Term]
+id: CHEBI:143890
+name: 2-ammonioethyl (2R)-2,3-dihydroxypropyl phosphate zwitterion
+is_a: CHEBI:26706 ! sn-glycerol 3-phosphates
+is_a: CHEBI:27369 ! zwitterion
+is_a: CHEBI:83408 ! sn-glycerophosphodiester(1-)
+
+[Term]
+id: CHEBI:143966
+name: (2S)-homocitric acid
+is_a: CHEBI:17852 ! homocitric acid
 
 [Term]
 id: CHEBI:14428
@@ -25229,7 +25294,6 @@ is_a: CHEBI:24589 ! monosaccharide sulfate
 id: CHEBI:16810
 name: 2-oxoglutarate(2-)
 is_a: CHEBI:36147 ! oxo dicarboxylate
-relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:84735 ! algal metabolite
@@ -34208,6 +34272,7 @@ relationship: has_role CHEBI:35610 ! antineoplastic agent
 [Term]
 id: CHEBI:18390
 name: N-acyl-beta-D-galactosylsphingosine
+is_a: CHEBI:143593 ! beta-galactosylceramide
 is_a: CHEBI:83866 ! N-acyl-D-galactosylsphingosine
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -46744,6 +46809,13 @@ is_a: CHEBI:28800 ! N-acetylgalactosamine
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
+
+[Term]
+id: CHEBI:28038
+name: 5-formyl-3-hydroxy-2-methylpyridine-4-carboxylic acid
+is_a: CHEBI:25340 ! methylpyridines
+is_a: CHEBI:38182 ! monohydroxypyridine
+is_a: CHEBI:38187 ! pyridinecarbaldehyde
 
 [Term]
 id: CHEBI:28044
@@ -65039,6 +65111,14 @@ name: thiosulfuric acid derivative
 is_a: CHEBI:33424 ! sulfur oxoacid derivative
 
 [Term]
+id: CHEBI:37830
+name: pentane
+is_a: CHEBI:134179 ! volatile organic compound
+is_a: CHEBI:18310 ! alkane
+relationship: has_role CHEBI:48355 ! non-polar solvent
+relationship: has_role CHEBI:78433 ! refrigerant
+
+[Term]
 id: CHEBI:37834
 name: (5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraene
 is_a: CHEBI:37835 ! alkatetraene
@@ -65133,7 +65213,9 @@ is_a: CHEBI:37863 ! chalcoperoxol
 [Term]
 id: CHEBI:37868
 name: octanol
+is_a: CHEBI:134179 ! volatile organic compound
 is_a: CHEBI:24026 ! fatty alcohol
+is_a: CHEBI:2571 ! aliphatic alcohol
 
 [Term]
 id: CHEBI:37875
@@ -69255,6 +69337,7 @@ is_a: CHEBI:38797 ! dihydropterin
 [Term]
 id: CHEBI:44884
 name: pentan-1-ol
+is_a: CHEBI:143597 ! pentanol
 is_a: CHEBI:15734 ! primary alcohol
 is_a: CHEBI:50584 ! alkyl alcohol
 relationship: has_role CHEBI:76924 ! plant metabolite
@@ -79618,6 +79701,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 [Term]
 id: CHEBI:57265
 name: 6-(N-acetyl-alpha-D-glucosaminyl)-1-phosphatidyl-1D-myo-inositol(1-)
+is_a: CHEBI:143815 ! N-acetyl-alpha-D-glucosaminyl-(1->6)-(phosphatidyl)-1D-myo-inositol(1-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -82828,6 +82912,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 [Term]
 id: CHEBI:57880
 name: 1-phosphatidyl-1D-myo-inositol(1-)
+is_a: CHEBI:143813 ! phosphatidyl-1D-myo-inositol(1-)
 is_a: CHEBI:62643 ! anionic phospholipid
 is_a: CHEBI:78231 ! 1,2-diacylglycero-3-phospho-1-inositol(1-)
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -83414,6 +83499,7 @@ is_a: CHEBI:35274 ! ammonium ion
 [Term]
 id: CHEBI:57997
 name: 6-(alpha-D-glucosaminyl)-1-phosphatidyl-1D-myo-inositol zwitterion
+is_a: CHEBI:143816 ! alpha-D-glucosaminyl-(1->6)-(phosphatidyl)-1D-myo-inositol zwitterion
 is_a: CHEBI:27369 ! zwitterion
 
 [Term]
@@ -88336,7 +88422,7 @@ is_a: CHEBI:60258 ! EC 3.4.* (hydrolases acting on peptide bond) inhibitor
 
 [Term]
 id: CHEBI:59240
-name: phthiocerol
+name: phthiocerol A
 is_a: CHEBI:13643 ! glycol
 is_a: CHEBI:18059 ! lipid
 relationship: has_role CHEBI:53000 ! epitope
@@ -88545,6 +88631,7 @@ is_a: CHEBI:63367 ! monosaccharide derivative
 id: CHEBI:59497
 name: beta-D-galactofuranose
 is_a: CHEBI:12936 ! D-galactose
+is_a: CHEBI:143624 ! D-galactofuranos
 
 [Term]
 id: CHEBI:59505
@@ -89098,6 +89185,7 @@ is_a: CHEBI:35757 ! monocarboxylic acid anion
 [Term]
 id: CHEBI:59892
 name: (Z)-3-aminoperacrylic acid
+is_a: CHEBI:47989 ! enamine
 is_a: CHEBI:52094 ! peroxy acid
 
 [Term]
@@ -112686,7 +112774,6 @@ is_a: CHEBI:49172 ! 1,2-diglyceride
 [Term]
 id: CHEBI:75591
 is_obsolete: true
-replaced_by: CHEBI:17427
 
 [Term]
 id: CHEBI:75592
@@ -121514,7 +121601,6 @@ is_a: CHEBI:79346 ! anionic ganglioside
 [Term]
 id: CHEBI:78437
 is_obsolete: true
-replaced_by: CHEBI:78436
 
 [Term]
 id: CHEBI:78438
@@ -122138,7 +122224,6 @@ relationship: has_role CHEBI:76969 ! bacterial metabolite
 [Term]
 id: CHEBI:78624
 is_obsolete: true
-replaced_by: CHEBI:143093
 
 [Term]
 id: CHEBI:78625
@@ -123688,6 +123773,7 @@ is_a: CHEBI:79348 ! hydroxy-alkenylglucosinolic acid
 id: CHEBI:79352
 name: progoitrin
 is_a: CHEBI:79350 ! xi-progoitrin
+relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:79364
@@ -129994,7 +130080,7 @@ is_a: CHEBI:140284 ! deoxyribonucleotide residue(1-)
 [Term]
 id: CHEBI:85454
 name: 5-methyl dCMP(1-) residue
-is_a: CHEBI:64775 ! organic anionic group
+is_a: CHEBI:65262 ! pyrimidine deoxyribonucleotide(1-) residue
 
 [Term]
 id: CHEBI:85468
@@ -135712,6 +135798,7 @@ is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 [Term]
 id: CHEBI:90782
 name: C-terminal proteinogenic amino-acid residue(1-)
+is_a: CHEBI:143819 ! C-terminal amino acid residue(1-)
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -143500,18 +143587,6 @@ xref: RO:0002340
 [Typedef]
 id: RO:0002345
 xref: RO:0002345
-
-[Typedef]
-id: RO:0004007
-xref: RO:0004007
-
-[Typedef]
-id: RO:0004008
-xref: RO:0004008
-
-[Typedef]
-id: RO:0004009
-xref: RO:0004009
 
 [Typedef]
 id: has_part
