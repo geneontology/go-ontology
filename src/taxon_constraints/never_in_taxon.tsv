@@ -353,7 +353,6 @@ GO:0101024	nuclear membrane organization involved in mitotic nuclear division	NC
 GO:0101026	nuclear membrane biogenesis involved in mitotic nuclear division	NCBITaxon:33208	Metazoa
 GO:0102084	L-dopa O-methyltransferase activity	NCBITaxon:4890	Ascomycota
 GO:0102938	orcinol O-methyltransferase activity	NCBITaxon:4890	Ascomycota
-GO:0104005	hijacked molecular function	NCBITaxon:147554	Schizosaccharomycetes
 GO:0120164	conidium germination	NCBITaxon:147554	Schizosaccharomycetes
 GO:0120164	conidium germination	NCBITaxon:2	Bacteria
 GO:0120164	conidium germination	NCBITaxon:2157	Archaea
