@@ -8,7 +8,7 @@ SELECT ?baseClass ?baseLabel ?equivalentClass ?equivalentLabel WHERE
   ?baseClass rdfs:label ?baseLabel .
   ?equivalentClass rdfs:label ?equivalentLabel .
 
-  FILTER (!isBlank(?baseClass)) .
-  FILTER (!isBlank(?equivalentClass))
+  FILTER (isIRI(?baseClass))
+  FILTER (isIRI(?equivalentClass))
 
 }
