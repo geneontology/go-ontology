@@ -148,6 +148,7 @@ GO:0030141	secretory granule	NCBITaxon:4890	Ascomycota
 GO:0030436	asexual sporulation	NCBITaxon:33083	Dictyostelids
 GO:0030492	hemoglobin binding	NCBITaxon:4751	Fungi
 GO:0030579	ubiquitin-dependent SMAD protein catabolic process	NCBITaxon:4751	Fungi
+GO:0030634	carbon fixation by acetyl-CoA pathway	NCBITaxon:2759	Eukaryota
 GO:0030881	beta-2-microglobulin binding	NCBITaxon:4751	Fungi
 GO:0030984	kininogen binding	NCBITaxon:4751	Fungi
 GO:0031048	chromatin silencing by small RNA	NCBITaxon:4930	Saccharomyces
@@ -352,7 +353,6 @@ GO:0101024	nuclear membrane organization involved in mitotic nuclear division	NC
 GO:0101026	nuclear membrane biogenesis involved in mitotic nuclear division	NCBITaxon:33208	Metazoa
 GO:0102084	L-dopa O-methyltransferase activity	NCBITaxon:4890	Ascomycota
 GO:0102938	orcinol O-methyltransferase activity	NCBITaxon:4890	Ascomycota
-GO:0104005	hijacked molecular function	NCBITaxon:147554	Schizosaccharomycetes
 GO:0120164	conidium germination	NCBITaxon:147554	Schizosaccharomycetes
 GO:0120164	conidium germination	NCBITaxon:2	Bacteria
 GO:0120164	conidium germination	NCBITaxon:2157	Archaea

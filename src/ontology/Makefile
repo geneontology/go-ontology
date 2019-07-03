@@ -86,7 +86,7 @@ test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable
 # note: until we go live, the travis test must omit change-report. This is because as a demo repo,
 # we naturally fall behind the actual live PURL. **DELETE THIS TARGET WHEN WE GO LIVE**
 #travis_test: $(SRC)-check sparql_test reasoned.owl
-travis_test: imports/reactome_xrefs_import.owl reasoned.owl $(SRC)-check sparql_test change-report.txt all_reports
+travis_test: imports/reactome_xrefs_import.owl reasoned.owl $(SRC)-check sparql_test change-report.txt
 
 unsatisfiable: $(GO_GAF).owl
 	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
@@ -187,7 +187,7 @@ enhanced.owl: $(SRC) imports/go_taxon_constraints.owl imports/reactome_xrefs_imp
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
 reasoned.owl: enhanced.owl $(SRC)-check regulates_chains.ofn
-	$(ROBOT) reason -i $< -r ELK -e asserted-only relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl unmerge -i regulates_chains.ofn -o $@
+	$(ROBOT) reason -i $< -r ELK -e asserted-only --exclude-duplicate-axioms true relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl unmerge -i regulates_chains.ofn -o $@
 
 # equivalent to reasoned, but we rename
 # TODO cleanup redundancies with merge here and with go-base
@@ -288,6 +288,12 @@ clean_imports:
 seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupings-edit.owl
 	$(ROBOT) merge --collapse-import-closure false -i enhanced.owl -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings-edit.owl query -f csv --select ../sparql/terms.sparql $@
 
+# Specialize seed terms for PR. The inclusion of taxon IRIs in the full seed was causing PR to pull
+# in overly specific proteins (e.g. human forms of everything) and referencing gene IRIs. This is kind 
+# of a general problem to balance for all import module extractions; need to come up with a consistent approach.
+imports/pr_terms_combined.txt: imports/pr_terms.txt seed.txt
+	cat $^ | grep 'PR_' > $@
+
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
 
@@ -358,7 +364,7 @@ mirror/taxslim-disjoint-over-in-taxon.owl: $(SRC)
 
 # special case: download obo for speed for ncbitaxon
 mirror/pr-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/pr.obo $(WGET_OUT)
+	wget --no-check-certificate $(OBO)/pr.owl $(WGET_OUT)
 .PRECIOUS: mirror/pr-download.owl
 
 # special case: download obo for speed for chebi

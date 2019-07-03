@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2017-04-11/imports/pato_import.owl
+data-version: go/releases/2019-07-01/imports/pato_import.owl
 ontology: go/imports/pato_import
 
 [Term]
@@ -151,6 +151,12 @@ id: has_cross_section
 name: has_cross_section
 def: "s3 has_cross_section s3 if and only if : there exists some 2d plane that intersects the bearer of s3, and the impression of s3 upon that plane has shape quality s2." []
 xref: has_cross_section
+
+[Typedef]
+id: has_part
+name: has_part
+def: "Q1 has_part Q2 if and only if: every instance of Q1 is a quality_of an entity that has_quality some Q2." []
+xref: BFO:0000051
 
 [Typedef]
 id: part_of
