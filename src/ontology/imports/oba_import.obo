@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2017-04-25/imports/oba_import.owl
+data-version: go/releases/2019-07-04/imports/oba_import.owl
 ontology: go/imports/oba_import
 
 [Term]
@@ -20,8 +20,6 @@ name: Malpighian tubule size
 def: "The size of a Malpighian tubule." []
 synonym: "size of Malpighian tubule" EXACT []
 is_a: OBA:0000172 ! tube size
-is_a: OBA:VT0010454 ! organism trait
-is_a: OBA:VT1000777 ! urinary system trait
 
 [Term]
 id: OBA:0000009
@@ -50,9 +48,6 @@ name: angiotensin levels in blood
 def: "The amount of a angiotensin II when measured in blood." []
 synonym: "blood angiotensin II amount" EXACT []
 is_a: OBA:0000079 ! hormone levels
-is_a: OBA:VT0010248 ! hemolymphoid system trait
-is_a: OBA:VT0010454 ! organism trait
-is_a: OBA:VT1000784 ! circulatory system trait
 
 [Term]
 id: OBA:0000018
@@ -88,8 +83,8 @@ is_a: OBA:VT0001614 ! blood vessel morphology trait
 id: OBA:0000036
 name: body fluid levels
 def: "The volume when measured in multicellular organism." []
-is_a: OBA:0000001 ! biological attribute
-is_a: OBA:VT0010454 ! organism trait
+synonym: "multicellular organism volume" EXACT []
+is_a: OBA:VT0100005 ! body size trait
 
 [Term]
 id: OBA:0000037
@@ -115,8 +110,6 @@ def: "The membrane potential of a cardiac muscle cell." []
 synonym: "membrane potential of cardiac muscle cell" EXACT []
 is_a: OBA:0000099 ! membrane potential
 is_a: OBA:1000076 ! attribute of cell
-is_a: OBA:VT0010454 ! organism trait
-is_a: OBA:VT1000784 ! circulatory system trait
 
 [Term]
 id: OBA:0000048
@@ -130,7 +123,7 @@ id: OBA:0000050
 name: cell pH
 def: "The pH of a cell." []
 synonym: "pH of cell" EXACT []
-is_a: OBA:0000058 ! cellular pH
+is_a: OBA:0000121 ! pH
 is_a: OBA:1000076 ! attribute of cell
 
 [Term]
@@ -174,7 +167,9 @@ is_a: OBA:0100001 ! cellular component attribute
 id: OBA:0000058
 name: cellular pH
 def: "The acidity when measured in cell." []
+synonym: "cell acidity" EXACT []
 is_a: OBA:0000121 ! pH
+is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0000061
@@ -213,7 +208,6 @@ def: "The microvillus length of a follicle cell." []
 synonym: "microvillus length of follicle cell" EXACT []
 is_a: OBA:0000055 ! cell size
 is_a: OBA:0000102 ! microvillus length
-is_a: OBA:VT0010454 ! organism trait
 
 [Term]
 id: OBA:0000074
@@ -255,13 +249,14 @@ name: lung blood pressure
 def: "The pressure of a blood when measured in lung." []
 synonym: "lung blood pressure" EXACT []
 is_a: OBA:VT0000183 ! blood pressure trait
-is_a: OBA:VT0005388 ! respiratory system trait
 
 [Term]
 id: OBA:0000091
 name: lysosomal lumen pH
 def: "The acidity when measured in lysosomal lumen." []
+synonym: "lysosomal lumen acidity" EXACT []
 is_a: OBA:0000050 ! cell pH
+is_a: OBA:0000058 ! cellular pH
 
 [Term]
 id: OBA:0000092
@@ -370,8 +365,6 @@ def: "The synaptic plasticity of a neuron." []
 synonym: "synaptic plasticity of neuron" EXACT []
 is_a: OBA:0000141 ! synaptic plasticity
 is_a: OBA:1000076 ! attribute of cell
-is_a: OBA:VT0010454 ! organism trait
-is_a: OBA:VT1000781 ! nervous/sensory system trait
 
 [Term]
 id: OBA:0000116
@@ -561,7 +554,6 @@ name: urinary volume
 def: "The volume of a urine." []
 synonym: "volume of urine" EXACT []
 is_a: OBA:0000036 ! body fluid levels
-is_a: OBA:0100003 ! anatomical entity attribute
 is_a: OBA:VT0000056 ! urine trait
 
 [Term]
@@ -751,8 +743,6 @@ name: lens of camera-type eye quality
 def: "The quality of a lens of camera-type eye." []
 synonym: "quality of lens of camera-type eye" EXACT []
 is_a: OBA:0100003 ! anatomical entity attribute
-is_a: OBA:VT0010454 ! organism trait
-is_a: OBA:VT0015074 ! organ system trait
 
 [Term]
 id: OBA:1001065
@@ -765,6 +755,8 @@ is_a: OBA:1000076 ! attribute of cell
 id: OBA:VT0000056
 name: urine trait
 def: "The quality when measured in urine." []
+synonym: "urine quality" EXACT []
+is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0000183
@@ -772,9 +764,6 @@ name: blood pressure trait
 def: "The pressure of a blood." []
 synonym: "pressure of blood" EXACT []
 is_a: OBA:0100003 ! anatomical entity attribute
-is_a: OBA:VT0010248 ! hemolymphoid system trait
-is_a: OBA:VT0010454 ! organism trait
-is_a: OBA:VT1000784 ! circulatory system trait
 
 [Term]
 id: OBA:VT0000832
@@ -782,8 +771,6 @@ name: thalamus morphology trait
 def: "The morphology of a dorsal plus ventral thalamus." []
 synonym: "morphology of dorsal plus ventral thalamus" EXACT []
 is_a: OBA:0100003 ! anatomical entity attribute
-is_a: OBA:VT0010454 ! organism trait
-is_a: OBA:VT1000781 ! nervous/sensory system trait
 
 [Term]
 id: OBA:VT0001614
@@ -791,8 +778,6 @@ name: blood vessel morphology trait
 def: "The morphology of a blood vessel." []
 synonym: "morphology of blood vessel" EXACT []
 is_a: OBA:0100003 ! anatomical entity attribute
-is_a: OBA:VT0010454 ! organism trait
-is_a: OBA:VT1000784 ! circulatory system trait
 
 [Term]
 id: OBA:VT0002121
@@ -807,8 +792,6 @@ name: kidney morphology trait
 def: "The morphology of a kidney." []
 synonym: "morphology of kidney" EXACT []
 is_a: OBA:0100003 ! anatomical entity attribute
-is_a: OBA:VT0010454 ! organism trait
-is_a: OBA:VT1000777 ! urinary system trait
 
 [Term]
 id: OBA:VT0002706
@@ -824,14 +807,6 @@ name: respiratory conducting tube morphology trait
 def: "The morphology of a respiratory tube." []
 synonym: "morphology of respiratory tube" EXACT []
 is_a: OBA:0100003 ! anatomical entity attribute
-is_a: OBA:VT0005388 ! respiratory system trait
-is_a: OBA:VT0010454 ! organism trait
-
-[Term]
-id: OBA:VT0005388
-name: respiratory system trait
-def: "The quality when measured in respiratory system." []
-is_a: OBA:VT0015074 ! organ system trait
 
 [Term]
 id: OBA:VT0005404
@@ -841,15 +816,11 @@ synonym: "morphology of axon" EXACT []
 is_a: OBA:VT0015108 ! neurite morphology trait
 
 [Term]
-id: OBA:VT0010248
-name: hemolymphoid system trait
-def: "The quality when measured in hemolymphoid system." []
-is_a: OBA:VT0015074 ! organ system trait
-
-[Term]
 id: OBA:VT0010454
 name: organism trait
 def: "The quality when measured in multicellular organism." []
+synonym: "multicellular organism quality" EXACT []
+is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0015071
@@ -857,11 +828,6 @@ name: appendage morphology trait
 def: "The morphology of a appendage." []
 synonym: "morphology of appendage" EXACT []
 is_a: OBA:1000099 ! appendage trait
-
-[Term]
-id: OBA:VT0015074
-name: organ system trait
-def: "The quality when measured in anatomical system." []
 
 [Term]
 id: OBA:VT0015108
@@ -876,6 +842,13 @@ name: organism subdivision trait
 def: "The quality of a organism subdivision." []
 synonym: "quality of organism subdivision" EXACT []
 is_a: OBA:0100003 ! anatomical entity attribute
+
+[Term]
+id: OBA:VT0100005
+name: body size trait
+def: "The size of a multicellular organism." []
+synonym: "size of multicellular organism" EXACT []
+is_a: OBA:0000015 ! anatomical structure size
 is_a: OBA:VT0010454 ! organism trait
 
 [Term]
@@ -884,24 +857,6 @@ name: growth trait
 def: "The quality of a growth." []
 synonym: "quality of growth" EXACT []
 is_a: OBA:0100002 ! biological process attribute
-
-[Term]
-id: OBA:VT1000777
-name: urinary system trait
-def: "The quality when measured in renal system." []
-is_a: OBA:VT0015074 ! organ system trait
-
-[Term]
-id: OBA:VT1000781
-name: nervous/sensory system trait
-def: "The quality when measured in nervous system." []
-is_a: OBA:VT0015074 ! organ system trait
-
-[Term]
-id: OBA:VT1000784
-name: circulatory system trait
-def: "The quality when measured in circulatory system." []
-is_a: OBA:VT0015074 ! organ system trait
 
 [Term]
 id: OBA:VT2000000
