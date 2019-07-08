@@ -12,7 +12,7 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/ro_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2019-07-01/imports/ro_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2019-07-08/imports/ro_import.owl"/>
     </owl:Ontology>
     
 
@@ -45,26 +45,12 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
-        <rdfs:label xml:lang="en">OBO foundry unique label</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0002161 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002161">
         <obo:IAO_0000115>x never in taxon T if and only if T is a class, and x does not instantiate the class expression &quot;in taxon some T&quot;. Note that this is a shortcut relation, and should be used as a hasValue restriction in OWL.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">never in taxon</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/creator -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
     
 
 
