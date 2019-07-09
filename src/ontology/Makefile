@@ -289,7 +289,7 @@ seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupin
 	$(ROBOT) merge --collapse-import-closure false -i enhanced.owl -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings-edit.owl query -f csv --select ../sparql/terms.sparql $@
 
 # Specialize seed terms for PR. The inclusion of taxon IRIs in the full seed was causing PR to pull
-# in overly specific proteins (e.g. human forms of everything) and referencing gene IRIs. This is kind 
+# in overly specific proteins (e.g. human forms of everything) and referencing gene IRIs. This is kind
 # of a general problem to balance for all import module extractions; need to come up with a consistent approach.
 imports/pr_terms_combined.txt: imports/pr_terms.txt seed.txt
 	cat $^ | grep 'PR_' > $@
@@ -447,7 +447,7 @@ imports/substance_by_role.owl: imports/substance_by_role.obo
 # ----------------------------------------
 # MAPPINGS
 # ----------------------------------------
-EXTERNAL2GO_DBS = EC KEGG MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia RHEA
+EXTERNAL2GO_DBS = EC KEGG KEGG_REACTION MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia RHEA
 
 # See : https://github.com/geneontology/go-site/issues/688
 # Manually add all ID spaces here; only do this for xrefs that are managed within the obo file.
