@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-07-01/imports/pato_import.owl
+data-version: go/releases/2019-07-13/imports/pato_import.owl
 ontology: go/imports/pato_import
 
 [Term]
