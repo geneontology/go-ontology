@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-07-02/imports/fao_import.owl
+data-version: go/releases/2019-07-14/imports/fao_import.owl
 ontology: go/imports/fao_import
 
 [Term]
