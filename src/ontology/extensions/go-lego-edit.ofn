@@ -5,6 +5,7 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
+# For the complete set of go-lego axioms, also include go-lego-edit-unsafe.ofn
 Ontology(<http://purl.obolibrary.org/obo/go/extensions/go-lego.owl>
 Import(<http://purl.obolibrary.org/obo/ro.owl>)
 Import(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl>)
@@ -20,8 +21,6 @@ Import(<http://purl.obolibrary.org/obo/wbphenotype/imports/wbls_import.owl>)
 Import(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbbt.owl>)
 Import(<http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-wbbt.owl>)
 Import(<http://purl.obolibrary.org/obo/ddanat.owl>)
-Import(<http://purl.obolibrary.org/obo/emapa.owl>)
-Import(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-emapa.owl>)
 Import(<http://purl.obolibrary.org/obo/zfa.owl>)
 Import(<http://purl.obolibrary.org/obo/go/noctua/neo.owl>)
 Import(<http://snapshot.geneontology.org/metadata/users.ttl>)

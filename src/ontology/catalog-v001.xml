@@ -30,6 +30,7 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/fao_import.owl" uri="imports/fao_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-plus.owl" uri="extensions/go-plus.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-gaf.owl" uri="extensions/go-gaf.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-lego-edit-unsafe.ofn" uri="extensions/go-lego-edit-unsafe.ofn"/>
    	<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chebi.owl" uri="mirror/chebi.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/uberon/reasoner_axioms.owl" uri="go_inferences_null.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl" uri="imports/go-taxon-groupings.owl"/>
