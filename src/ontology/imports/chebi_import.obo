@@ -161,6 +161,7 @@ relationship: has_role CHEBI:76956 ! Aspergillus metabolite
 id: CHEBI:10357
 name: (-)-beta-caryophyllene
 is_a: CHEBI:63191 ! beta-caryophyllene
+relationship: has_role CHEBI:24850 ! insect attractant
 relationship: has_role CHEBI:25212 ! metabolite
 relationship: has_role CHEBI:35475 ! non-steroidal anti-inflammatory drug
 relationship: has_role CHEBI:48318 ! fragrance
@@ -7197,6 +7198,11 @@ is_a: CHEBI:17478 ! aldehyde
 is_a: CHEBI:25381 ! monoalkyl phosphate
 
 [Term]
+id: CHEBI:136471
+name: phosphatidylethanolamine (16:1/16:1)
+is_a: CHEBI:64674 ! 1,2-diacyl-sn-glycero-3-phosphoethanolamine
+
+[Term]
 id: CHEBI:136485
 name: 8(S),15(S)-DiHETE
 is_a: CHEBI:88456 ! 8,15-DiHETE
@@ -9530,6 +9536,7 @@ is_a: CHEBI:84291 ! organic sulfur anion
 id: CHEBI:137373
 name: Ni(II)-pyridinium-3,5-bisthiocarboxylate mononucleotide(1-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:137376
@@ -9606,6 +9613,7 @@ name: Ni(II)-pyridinium-3,5-bisthiocarboxylic acid mononucleotide
 is_a: CHEBI:17188 ! nucleoside 5'-monophosphate
 is_a: CHEBI:35438 ! nickel coordination entity
 is_a: CHEBI:36980 ! pyridine nucleotide
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:137403
@@ -12794,7 +12802,7 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 [Term]
 id: CHEBI:138792
 name: 1,2-di-[(9Z)-hexadecenoyl]-sn-glycero-3-phosphoethanolamine
-is_a: CHEBI:64674 ! 1,2-diacyl-sn-glycero-3-phosphoethanolamine
+is_a: CHEBI:136471 ! phosphatidylethanolamine (16:1/16:1)
 
 [Term]
 id: CHEBI:138801
@@ -15131,9 +15139,8 @@ is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 [Term]
 id: CHEBI:140434
 name: 3-[(Z)-2-isocyanovinyl]indole
-is_a: CHEBI:24828 ! indoles
-is_a: CHEBI:35353 ! isocyanide
-is_a: CHEBI:78840 ! olefinic compound
+is_a: CHEBI:144370 ! 3-(2-isocyanovinyl)indole
+relationship: has_role CHEBI:33282 ! antibacterial agent
 
 [Term]
 id: CHEBI:140439
@@ -15308,7 +15315,8 @@ is_a: CHEBI:50860 ! organic molecular entity
 id: CHEBI:140528
 name: 6-methylthioguanine
 is_a: CHEBI:20702 ! 2-aminopurines
-is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:35666 ! thiopurine
+relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
 [Term]
 id: CHEBI:140531
@@ -15636,9 +15644,7 @@ is_a: CHEBI:50860 ! organic molecular entity
 [Term]
 id: CHEBI:140654
 name: 3-[(E)-2-isocyanovinyl]indole
-is_a: CHEBI:24828 ! indoles
-is_a: CHEBI:35353 ! isocyanide
-is_a: CHEBI:78840 ! olefinic compound
+is_a: CHEBI:144370 ! 3-(2-isocyanovinyl)indole
 
 [Term]
 id: CHEBI:140655
@@ -16215,6 +16221,7 @@ is_a: CHEBI:35746 ! fatty aldehyde
 id: CHEBI:142622
 name: primary fatty alcohol
 is_a: CHEBI:15734 ! primary alcohol
+is_a: CHEBI:24026 ! fatty alcohol
 
 [Term]
 id: CHEBI:142626
@@ -16487,7 +16494,7 @@ is_a: CHEBI:50584 ! alkyl alcohol
 
 [Term]
 id: CHEBI:143624
-name: D-galactofuranos
+name: D-galactofuranose
 is_a: CHEBI:12936 ! D-galactose
 
 [Term]
@@ -16514,8 +16521,7 @@ is_a: CHEBI:50860 ! organic molecular entity
 [Term]
 id: CHEBI:143819
 name: C-terminal amino acid residue(1-)
-is_a: CHEBI:33558 ! alpha-amino-acid anion
-is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
 id: CHEBI:143877
@@ -16545,11 +16551,30 @@ name: hyponitrous acid
 is_a: CHEBI:33455 ! nitrogen oxoacid
 
 [Term]
+id: CHEBI:144315
+name: 1-alkyl-2-acyl-sn-glycerolipid
+is_a: CHEBI:35741 ! glycerolipid
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
 id: CHEBI:14434
 name: imidazole
 is_a: CHEBI:24780 ! imidazoles
 is_a: CHEBI:35555 ! mancude organic heteromonocyclic parent
 is_a: CHEBI:38179 ! monocyclic heteroarene
+
+[Term]
+id: CHEBI:144368
+name: 1,2-diacyl-sn-glycerolipid
+is_a: CHEBI:35741 ! glycerolipid
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:144370
+name: 3-(2-isocyanovinyl)indole
+is_a: CHEBI:24828 ! indoles
+is_a: CHEBI:35353 ! isocyanide
+is_a: CHEBI:78840 ! olefinic compound
 
 [Term]
 id: CHEBI:14469
@@ -16930,6 +16955,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:15356
 name: cysteine
+is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:26834 ! sulfur-containing amino acid
 is_a: CHEBI:33704 ! alpha-amino acid
 relationship: has_part CHEBI:50326 ! sulfanylmethyl group
@@ -16955,6 +16981,7 @@ is_a: CHEBI:35179 ! 2-oxo monocarboxylic acid anion
 id: CHEBI:15361
 name: pyruvate
 is_a: CHEBI:35179 ! 2-oxo monocarboxylic acid anion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
 [Term]
@@ -17317,6 +17344,7 @@ name: S-adenosyl-L-methionine
 is_a: CHEBI:26830 ! sulfonium compound
 relationship: has_role CHEBI:131604 ! Mycoplasma genitalium metabolite
 relationship: has_role CHEBI:23354 ! coenzyme
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:27027 ! micronutrient
 relationship: has_role CHEBI:50733 ! nutraceutical
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
@@ -17371,6 +17399,7 @@ id: CHEBI:15422
 name: ATP
 is_a: CHEBI:37045 ! purine ribonucleoside 5'-triphosphate
 is_a: CHEBI:37096 ! adenosine 5'-phosphate
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:27027 ! micronutrient
 relationship: has_role CHEBI:50733 ! nutraceutical
 relationship: has_role CHEBI:78675 ! fundamental metabolite
@@ -18666,11 +18695,13 @@ is_a: CHEBI:23743 ! dihydrofolic acids
 id: CHEBI:15635
 name: (6S)-5,6,7,8-tetrahydrofolic acid
 is_a: CHEBI:20506 ! 5,6,7,8-tetrahydrofolic acid
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:15636
 name: (6R)-5,10-methylenetetrahydrofolate(2-)
 is_a: CHEBI:12071 ! 5,10-methylenetetrahydrofolate(2-)
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -19807,6 +19838,7 @@ relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 id: CHEBI:15833
 name: sulcatol
 is_a: CHEBI:35681 ! secondary alcohol
+relationship: has_role CHEBI:26013 ! pheromone
 
 [Term]
 id: CHEBI:15834
@@ -19889,6 +19921,7 @@ id: CHEBI:15846
 name: NAD(+)
 is_a: CHEBI:13389 ! NAD
 is_a: CHEBI:13390 ! NAD(P)(+)
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
@@ -20498,6 +20531,7 @@ id: CHEBI:15956
 name: biotin
 is_a: CHEBI:51570 ! biotins
 relationship: has_role CHEBI:23354 ! coenzyme
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:26348 ! prosthetic group
 relationship: has_role CHEBI:50733 ! nutraceutical
 relationship: has_role CHEBI:75769 ! B vitamin
@@ -20636,6 +20670,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 id: CHEBI:15982
 name: cob(I)alamin
 is_a: CHEBI:30411 ! cobalamin
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -20880,6 +20915,7 @@ id: CHEBI:16027
 name: adenosine 5'-monophosphate
 is_a: CHEBI:37021 ! purine ribonucleoside 5'-monophosphate
 is_a: CHEBI:37096 ! adenosine 5'-phosphate
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:27027 ! micronutrient
 relationship: has_role CHEBI:50733 ! nutraceutical
 relationship: has_role CHEBI:63332 ! EC 3.1.3.1 (alkaline phosphatase) inhibitor
@@ -20996,6 +21032,7 @@ is_a: CHEBI:26185 ! polyprenyl glycosyl phosphate
 id: CHEBI:16048
 name: FMNH2
 is_a: CHEBI:24041 ! flavin mononucleotide
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
 [Term]
@@ -21799,6 +21836,7 @@ is_a: CHEBI:24834 ! inorganic anion
 is_a: CHEBI:33482 ! sulfur oxoanion
 is_a: CHEBI:48154 ! sulfur oxide
 is_a: CHEBI:79388 ! divalent inorganic anion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -22105,6 +22143,7 @@ relationship: has_role CHEBI:76206 ! xenobiotic metabolite
 id: CHEBI:16238
 name: FAD
 is_a: CHEBI:24040 ! flavin adenine dinucleotide
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:26348 ! prosthetic group
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
@@ -22489,6 +22528,7 @@ is_a: CHEBI:83943 ! L-alanine derivative
 id: CHEBI:16304
 name: cob(II)alamin
 is_a: CHEBI:30411 ! cobalamin
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -23435,6 +23475,7 @@ id: CHEBI:16474
 name: NADPH
 is_a: CHEBI:13392 ! NAD(P)H
 is_a: CHEBI:25523 ! NADP
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
 [Term]
@@ -23892,7 +23933,6 @@ is_a: CHEBI:27323 ! xanthommatins
 id: CHEBI:16551
 name: alpha,alpha-trehalose
 is_a: CHEBI:27082 ! trehalose
-is_a: CHEBI:27084 ! trehalose phosphate
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
@@ -25644,6 +25684,7 @@ id: CHEBI:16858
 name: pantetheine 4'-phosphate
 is_a: CHEBI:26073 ! phosphopantetheine
 is_a: CHEBI:29256 ! thiol
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:16859
@@ -25913,6 +25954,7 @@ id: CHEBI:16908
 name: NADH
 is_a: CHEBI:13389 ! NAD
 is_a: CHEBI:13392 ! NAD(P)H
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
 [Term]
@@ -26491,6 +26533,7 @@ relationship: has_role CHEBI:78675 ! fundamental metabolite
 id: CHEBI:17015
 name: riboflavin
 is_a: CHEBI:30527 ! flavin
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:25212 ! metabolite
 relationship: has_role CHEBI:47868 ! photosensitizing agent
 relationship: has_role CHEBI:75769 ! B vitamin
@@ -28847,6 +28890,7 @@ is_a: CHEBI:22798 ! beta-D-glucoside
 id: CHEBI:17401
 name: myo-inositol hexakisphosphate
 is_a: CHEBI:25445 ! myo-inositol hexakisphosphates
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:35610 ! antineoplastic agent
 relationship: has_role CHEBI:38157 ! iron chelator
 relationship: has_role CHEBI:62488 ! signalling molecule
@@ -29583,6 +29627,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 id: CHEBI:17544
 name: hydrogencarbonate
 is_a: CHEBI:35604 ! carbon oxoanion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
@@ -29802,6 +29847,7 @@ name: beta-carotene
 is_a: CHEBI:139120 ! carotenoid beta-end group
 is_a: CHEBI:35163 ! cyclic carotene
 relationship: has_role CHEBI:22586 ! antioxidant
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:26130 ! biological pigment
 relationship: has_role CHEBI:67200 ! provitamin A
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -29950,6 +29996,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:17601
 name: 6,7-dimethyl-8-(1-D-ribityl)lumazine
 is_a: CHEBI:26373 ! pteridines
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
 [Term]
@@ -30072,6 +30119,7 @@ id: CHEBI:17621
 name: FMN
 is_a: CHEBI:24041 ! flavin mononucleotide
 relationship: has_role CHEBI:23354 ! coenzyme
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76969 ! bacterial metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -30116,6 +30164,7 @@ id: CHEBI:17627
 name: ferroheme b
 is_a: CHEBI:26355 ! heme b
 is_a: CHEBI:38573 ! ferroheme
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -30388,6 +30437,7 @@ relationship: has_role CHEBI:67079 ! anti-inflammatory agent
 id: CHEBI:17679
 name: 5-hydroxybenzimidazolylcob(I)amide
 is_a: CHEBI:23341 ! cobamides
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:17680
@@ -31208,6 +31258,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:17822
 name: serine
+is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:33704 ! alpha-amino acid
 relationship: has_part CHEBI:24712 ! hydroxymethyl group
 relationship: has_role CHEBI:78675 ! fundamental metabolite
@@ -32127,6 +32178,7 @@ id: CHEBI:17996
 name: chloride
 is_a: CHEBI:16042 ! halide anion
 is_a: CHEBI:33432 ! monoatomic chlorine
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -32198,6 +32250,7 @@ id: CHEBI:18009
 name: NADP(+)
 is_a: CHEBI:13390 ! NAD(P)(+)
 is_a: CHEBI:25523 ! NADP
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
 [Term]
@@ -32290,6 +32343,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:18023
 name: sirohydrochlorin
 is_a: CHEBI:52582 ! isobacteriochlorins
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
 [Term]
@@ -33150,6 +33204,7 @@ relationship: has_role CHEBI:84735 ! algal metabolite
 [Term]
 id: CHEBI:18186
 name: tyrosine
+is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:33704 ! alpha-amino acid
 is_a: CHEBI:33856 ! aromatic amino acid
 relationship: has_part CHEBI:50336 ! 4-hydroxybenzyl group
@@ -33352,6 +33407,7 @@ id: CHEBI:18230
 name: chlorophyll a
 is_a: CHEBI:25248 ! methyl ester
 is_a: CHEBI:28966 ! chlorophyll
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:18231
@@ -33385,6 +33441,7 @@ is_a: CHEBI:26759 ! sterigmatocystins
 [Term]
 id: CHEBI:18237
 name: glutamic acid
+is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:33704 ! alpha-amino acid
 relationship: has_part CHEBI:50329 ! 2-carboxyethyl group
 relationship: has_role CHEBI:78675 ! fundamental metabolite
@@ -33830,6 +33887,7 @@ name: pyrroloquinoline quinone
 is_a: CHEBI:25622 ! orthoquinones
 is_a: CHEBI:26461 ! pyrroloquinoline cofactor
 is_a: CHEBI:27093 ! tricarboxylic acid
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:27314 ! water-soluble vitamin
 
 [Term]
@@ -34383,6 +34441,7 @@ is_a: CHEBI:38182 ! monohydroxypyridine
 is_a: CHEBI:38187 ! pyridinecarbaldehyde
 relationship: has_role CHEBI:131699 ! EC 2.7.7.7 (DNA-directed DNA polymerase) inhibitor
 relationship: has_role CHEBI:23354 ! coenzyme
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
@@ -34415,6 +34474,7 @@ name: cobamamide
 is_a: CHEBI:23334 ! cobalamins
 is_a: CHEBI:33913 ! corrinoid
 relationship: has_role CHEBI:23354 ! coenzyme
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:26348 ! prosthetic group
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -34489,6 +34549,7 @@ name: magnesium(2+)
 is_a: CHEBI:30412 ! monoatomic dication
 is_a: CHEBI:39127 ! magnesium cation
 is_a: CHEBI:60240 ! divalent metal cation
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:18421
@@ -35062,6 +35123,7 @@ is_a: CHEBI:36983 ! cyclic pyrimidine nucleotide
 id: CHEBI:1989
 name: (6R)-5,10-methylenetetrahydrofolic acid
 is_a: CHEBI:20502 ! 5,10-methylenetetrahydrofolic acid
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
@@ -37012,6 +37074,7 @@ is_a: CHEBI:24963 ! ketoaldonic acid
 [Term]
 id: CHEBI:22653
 name: asparagine
+is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:33704 ! alpha-amino acid
 is_a: CHEBI:35735 ! dicarboxylic acid monoamide
 relationship: has_part CHEBI:50330 ! 2-amino-2-oxoethyl group
@@ -37037,6 +37100,7 @@ is_a: CHEBI:83813 ! proteinogenic amino acid
 [Term]
 id: CHEBI:22660
 name: aspartic acid
+is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:33704 ! alpha-amino acid
 is_a: CHEBI:66873 ! C4-dicarboxylic acid
 relationship: has_part CHEBI:41402 ! carboxymethyl group
@@ -38070,6 +38134,7 @@ id: CHEBI:23378
 name: copper cation
 is_a: CHEBI:33515 ! transition element cation
 is_a: CHEBI:37404 ! elemental copper
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:23388
@@ -39712,6 +39777,7 @@ relationship: has_role CHEBI:76969 ! bacterial metabolite
 id: CHEBI:24480
 name: heme o
 is_a: CHEBI:30413 ! heme
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
@@ -40492,7 +40558,6 @@ is_a: CHEBI:37206 ! hexol
 id: CHEBI:24850
 name: insect attractant
 is_a: CHEBI:24432 ! biological role
-is_a: CHEBI:25944 ! pesticide
 
 [Term]
 id: CHEBI:24852
@@ -40585,6 +40650,7 @@ id: CHEBI:24875
 name: iron cation
 is_a: CHEBI:33515 ! transition element cation
 is_a: CHEBI:82663 ! elemental iron
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:24897
@@ -40926,6 +40992,7 @@ is_a: CHEBI:50018 ! glycosyloxyflavone
 [Term]
 id: CHEBI:25094
 name: lysine
+is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:33704 ! alpha-amino acid
 is_a: CHEBI:35987 ! diamino acid
 relationship: has_part CHEBI:50339 ! 4-aminobutyl group
@@ -41691,6 +41758,7 @@ id: CHEBI:25516
 name: nickel cation
 is_a: CHEBI:33515 ! transition element cation
 is_a: CHEBI:60248 ! nickel ion
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:25519
@@ -44231,6 +44299,7 @@ is_a: CHEBI:49060 ! 2,3,4-trihydroxybutanoic acid
 [Term]
 id: CHEBI:26986
 name: threonine
+is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:38263 ! 2-amino-3-hydroxybutanoic acid
 relationship: has_part CHEBI:50341 ! 1-hydroxyethyl group
 relationship: has_role CHEBI:83056 ! Daphnia magna metabolite
@@ -45244,6 +45313,7 @@ id: CHEBI:27547
 name: zeaxanthin
 is_a: CHEBI:23045 ! carotenol
 relationship: has_role CHEBI:22586 ! antioxidant
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:76969 ! bacterial metabolite
 
 [Term]
@@ -45316,6 +45386,7 @@ is_a: CHEBI:37165 ! galactan
 id: CHEBI:27570
 name: histidine
 is_a: CHEBI:24780 ! imidazoles
+is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:33704 ! alpha-amino acid
 is_a: CHEBI:33856 ! aromatic amino acid
 relationship: has_part CHEBI:50338 ! 1H-imidazol-4-ylmethyl group
@@ -46329,6 +46400,7 @@ is_a: CHEBI:63299 ! carbohydrate derivative
 id: CHEBI:27888
 name: chlorophyll b
 is_a: CHEBI:28966 ! chlorophyll
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:27891
@@ -46814,6 +46886,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:28038
 name: 5-formyl-3-hydroxy-2-methylpyridine-4-carboxylic acid
 is_a: CHEBI:25340 ! methylpyridines
+is_a: CHEBI:26420 ! pyridinemonocarboxylic acid
 is_a: CHEBI:38182 ! monohydroxypyridine
 is_a: CHEBI:38187 ! pyridinecarbaldehyde
 
@@ -47069,6 +47142,7 @@ id: CHEBI:28115
 name: methylcobalamin
 is_a: CHEBI:140785 ! alkylcob(III)alamin
 is_a: CHEBI:23334 ! cobalamins
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -47520,6 +47594,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:28265
 name: coenzyme F430
 is_a: CHEBI:25519 ! nickel tetrapyrrole
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:26348 ! prosthetic group
 
 [Term]
@@ -47608,6 +47683,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 [Term]
 id: CHEBI:28300
 name: glutamine
+is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:33704 ! alpha-amino acid
 relationship: has_part CHEBI:50331 ! 3-amino-3-oxopropyl group
 relationship: has_role CHEBI:78675 ! fundamental metabolite
@@ -48351,6 +48427,7 @@ is_a: CHEBI:85639 ! (9Z)-12-hydroxyoctadec-9-enoic acid
 id: CHEBI:28599
 name: siroheme
 is_a: CHEBI:30413 ! heme
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
 [Term]
@@ -49695,6 +49772,7 @@ is_a: CHEBI:35106 ! nitrogen hydride
 is_a: CHEBI:35274 ! ammonium ion
 is_a: CHEBI:50313 ! onium cation
 is_a: CHEBI:60242 ! monovalent inorganic cation
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -49994,6 +50072,7 @@ relationship: has_role CHEBI:35221 ! antimetabolite
 id: CHEBI:29016
 name: arginine
 is_a: CHEBI:24436 ! guanidines
+is_a: CHEBI:26167 ! polar amino acid
 is_a: CHEBI:33704 ! alpha-amino acid
 relationship: has_part CHEBI:50340 ! 3-carbamimidamidopropyl group
 relationship: has_role CHEBI:78675 ! fundamental metabolite
@@ -50054,6 +50133,7 @@ name: iron(2+)
 is_a: CHEBI:24875 ! iron cation
 is_a: CHEBI:30412 ! monoatomic dication
 is_a: CHEBI:60240 ! divalent metal cation
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -50063,6 +50143,7 @@ id: CHEBI:29034
 name: iron(3+)
 is_a: CHEBI:24875 ! iron cation
 is_a: CHEBI:27153 ! monoatomic trication
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -50073,6 +50154,7 @@ name: manganese(2+)
 is_a: CHEBI:25155 ! manganese cation
 is_a: CHEBI:30412 ! monoatomic dication
 is_a: CHEBI:60240 ! divalent metal cation
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:29036
@@ -50080,6 +50162,7 @@ name: copper(2+)
 is_a: CHEBI:23378 ! copper cation
 is_a: CHEBI:30412 ! monoatomic dication
 is_a: CHEBI:60240 ! divalent metal cation
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:29039
@@ -50206,6 +50289,7 @@ name: L-ascorbic acid
 is_a: CHEBI:22652 ! ascorbic acid
 relationship: has_role CHEBI:21241 ! vitamin C
 relationship: has_role CHEBI:23354 ! coenzyme
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:27314 ! water-soluble vitamin
 relationship: has_role CHEBI:64577 ! flour treatment agent
 relationship: has_role CHEBI:76924 ! plant metabolite
@@ -50291,6 +50375,7 @@ is_a: CHEBI:25414 ! monoatomic monocation
 is_a: CHEBI:33504 ! alkali metal cation
 is_a: CHEBI:37246 ! elemental sodium
 is_a: CHEBI:60242 ! monovalent inorganic cation
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -50300,6 +50385,7 @@ is_a: CHEBI:25414 ! monoatomic monocation
 is_a: CHEBI:33504 ! alkali metal cation
 is_a: CHEBI:37247 ! elemental potassium
 is_a: CHEBI:60242 ! monovalent inorganic cation
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -50308,6 +50394,7 @@ name: zinc(2+)
 is_a: CHEBI:30412 ! monoatomic dication
 is_a: CHEBI:60240 ! divalent metal cation
 is_a: CHEBI:63056 ! zinc cation
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -50322,6 +50409,7 @@ name: calcium(2+)
 is_a: CHEBI:30412 ! monoatomic dication
 is_a: CHEBI:39123 ! calcium cation
 is_a: CHEBI:60240 ! divalent metal cation
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -51715,6 +51803,7 @@ is_a: CHEBI:16494 ! lipoic acid
 is_a: CHEBI:39192 ! dithiolanes
 is_a: CHEBI:48847 ! heterocyclic fatty acid
 is_a: CHEBI:59643 ! thia fatty acid
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:26348 ! prosthetic group
 relationship: has_role CHEBI:50733 ! nutraceutical
 
@@ -51956,6 +52045,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:30616
 name: ATP(4-)
 is_a: CHEBI:61557 ! nucleoside triphosphate(4-)
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
@@ -54770,6 +54860,7 @@ is_a: CHEBI:79020 ! alpha,beta-unsaturated monocarboxylic acid
 id: CHEBI:32816
 name: pyruvic acid
 is_a: CHEBI:35910 ! 2-oxo monocarboxylic acid
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
 [Term]
@@ -57289,6 +57380,7 @@ is_a: CHEBI:48513 ! carbazoles
 id: CHEBI:33913
 name: corrinoid
 is_a: CHEBI:36309 ! cyclic tetrapyrrole
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:33914
@@ -58097,6 +58189,7 @@ id: CHEBI:35169
 name: dihydrogenvanadate
 is_a: CHEBI:30528 ! vanadium oxoanion
 is_a: CHEBI:79389 ! monovalent inorganic anion
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:35171
@@ -58108,6 +58201,7 @@ id: CHEBI:35172
 name: vanadium cation
 is_a: CHEBI:33515 ! transition element cation
 is_a: CHEBI:35171 ! elemental vanadium
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:35173
@@ -66059,6 +66153,7 @@ is_a: CHEBI:59948 ! columbianetin
 id: CHEBI:38290
 name: L-ascorbate
 is_a: CHEBI:22651 ! ascorbate
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:27314 ! water-soluble vitamin
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:83056 ! Daphnia magna metabolite
@@ -68866,6 +68961,7 @@ id: CHEBI:43474
 name: hydrogenphosphate
 is_a: CHEBI:35780 ! phosphate ion
 is_a: CHEBI:79388 ! divalent inorganic anion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 
 [Term]
@@ -69568,6 +69664,7 @@ relationship: has_role CHEBI:75767 ! animal metabolite
 id: CHEBI:456215
 name: adenosine 5'-monophosphate(2-)
 is_a: CHEBI:58043 ! nucleoside 5'-monophosphate(2-)
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
@@ -70874,6 +70971,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 id: CHEBI:4746
 name: echinenone
 is_a: CHEBI:35310 ! carotenone
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75767 ! animal metabolite
 relationship: has_role CHEBI:76507 ! marine metabolite
 relationship: has_role CHEBI:76969 ! bacterial metabolite
@@ -71454,6 +71552,7 @@ is_a: CHEBI:36147 ! oxo dicarboxylate
 id: CHEBI:47942
 name: pantetheine 4'-phosphate(2-)
 is_a: CHEBI:67051 ! phosphopantetheine anion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -72653,6 +72752,7 @@ name: cadmium(2+)
 is_a: CHEBI:30412 ! monoatomic dication
 is_a: CHEBI:60240 ! divalent metal cation
 is_a: CHEBI:63063 ! cadmium cation
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:487869
@@ -72681,6 +72781,7 @@ name: cobalt(2+)
 is_a: CHEBI:23336 ! cobalt cation
 is_a: CHEBI:30412 ! monoatomic dication
 is_a: CHEBI:60240 ! divalent metal cation
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:48847
@@ -74135,6 +74236,7 @@ id: CHEBI:49552
 name: copper(1+)
 is_a: CHEBI:23378 ! copper cation
 is_a: CHEBI:25414 ! monoatomic monocation
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:49575
@@ -74232,6 +74334,7 @@ name: lead(2+)
 is_a: CHEBI:30412 ! monoatomic dication
 is_a: CHEBI:60240 ! divalent metal cation
 is_a: CHEBI:60252 ! lead cation
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:4986
@@ -77230,6 +77333,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:52020
 name: 6-decylubiquinone
 is_a: CHEBI:132124 ! 1,4-benzoquinones
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:52021
@@ -78058,6 +78162,7 @@ is_a: CHEBI:36314 ! glycerophosphoethanolamine
 [Term]
 id: CHEBI:52595
 name: 1-alkyl-2-acyl-sn-glycerol
+is_a: CHEBI:144315 ! 1-alkyl-2-acyl-sn-glycerolipid
 is_a: CHEBI:598 ! 1-alkyl-2-acylglycerol
 is_a: CHEBI:76582 ! monoalkylmonoacylglycerol
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -79872,6 +79977,7 @@ is_a: CHEBI:35757 ! monocarboxylic acid anion
 id: CHEBI:57299
 name: ATP(3-)
 is_a: CHEBI:59724 ! ribonucleoside triphosphate oxoanion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
@@ -80755,6 +80861,7 @@ is_a: CHEBI:67014 ! dihydrofolates
 id: CHEBI:57453
 name: (6S)-5,6,7,8-tetrahydrofolate(2-)
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -81218,6 +81325,7 @@ id: CHEBI:57540
 name: NAD(1-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
 relationship: has_role CHEBI:13193 ! hydrogen acceptor
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -81435,6 +81543,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 id: CHEBI:57586
 name: biotinate
 is_a: CHEBI:35757 ! monocarboxylic acid anion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -81604,6 +81713,7 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 id: CHEBI:57618
 name: FMNH2(2-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 
 [Term]
@@ -81966,6 +82076,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 id: CHEBI:57692
 name: FAD(3-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 
 [Term]
@@ -82431,6 +82542,7 @@ id: CHEBI:57783
 name: NADPH(4-)
 is_a: CHEBI:59724 ! ribonucleoside triphosphate oxoanion
 relationship: has_role CHEBI:17499 ! hydrogen donor
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -83129,6 +83241,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 id: CHEBI:57925
 name: glutathionate(1-)
 is_a: CHEBI:60334 ! peptide anion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -83226,6 +83339,7 @@ id: CHEBI:57945
 name: NADH(2-)
 is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 relationship: has_role CHEBI:17499 ! hydrogen donor
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -83439,6 +83553,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 id: CHEBI:57986
 name: riboflavin(1-)
 is_a: CHEBI:25696 ! organic anion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 
 [Term]
@@ -84174,6 +84289,7 @@ is_a: CHEBI:36059 ! hydroxy monocarboxylic acid anion
 id: CHEBI:58130
 name: myo-inositol hexakisphosphate(12-)
 is_a: CHEBI:76301 ! inositol phosphate oxoanion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -84549,6 +84665,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 id: CHEBI:58201
 name: 6,7-dimethyl-8-(1-D-ribityl)lumazine(1-)
 is_a: CHEBI:25696 ! organic anion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 
 [Term]
@@ -84590,6 +84707,7 @@ id: CHEBI:58210
 name: FMN(3-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
 relationship: has_role CHEBI:23354 ! coenzyme
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -85306,6 +85424,7 @@ id: CHEBI:58349
 name: NADP(3-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
 relationship: has_role CHEBI:13193 ! hydrogen acceptor
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -85313,6 +85432,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:58351
 name: sirohydrochlorin(8-)
 is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 
 [Term]
@@ -85662,6 +85782,7 @@ id: CHEBI:58416
 name: chlorophyll a(1-)
 is_a: CHEBI:139291 ! chlorophyll(1-)
 is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:58418
@@ -85803,6 +85924,7 @@ relationship: has_role CHEBI:76969 ! bacterial metabolite
 id: CHEBI:58442
 name: pyrroloquinoline quinone(3-)
 is_a: CHEBI:27092 ! tricarboxylic acid trianion
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:58443
@@ -88160,6 +88282,7 @@ is_a: CHEBI:28965 ! dicarboxylic acid dianion
 id: CHEBI:58937
 name: thiamine(1+) diphosphate(3-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:58938
@@ -88630,8 +88753,7 @@ is_a: CHEBI:63367 ! monosaccharide derivative
 [Term]
 id: CHEBI:59497
 name: beta-D-galactofuranose
-is_a: CHEBI:12936 ! D-galactose
-is_a: CHEBI:143624 ! D-galactofuranos
+is_a: CHEBI:143624 ! D-galactofuranose
 
 [Term]
 id: CHEBI:59505
@@ -88770,6 +88892,7 @@ id: CHEBI:59560
 name: sapropterin
 is_a: CHEBI:15372 ! 5,6,7,8-tetrahydrobiopterin
 relationship: has_role CHEBI:23354 ! coenzyme
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:33295 ! diagnostic agent
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -88917,6 +89040,7 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 id: CHEBI:597326
 name: pyridoxal 5'-phosphate(2-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -89013,6 +89137,7 @@ id: CHEBI:59789
 name: S-adenosyl-L-methionine zwitterion
 is_a: CHEBI:25697 ! organic cation
 is_a: CHEBI:26830 ! sulfonium compound
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:59791
@@ -89636,6 +89761,7 @@ id: CHEBI:60052
 name: siroheme(8-)
 is_a: CHEBI:30413 ! heme
 is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 
 [Term]
@@ -90252,6 +90378,7 @@ id: CHEBI:60344
 name: ferroheme b(2-)
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 
 [Term]
@@ -90419,6 +90546,7 @@ relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 id: CHEBI:60454
 name: Fe-coproporphyrin III
 is_a: CHEBI:25216 ! metalloporphyrin
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:60459
@@ -90513,6 +90641,7 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 id: CHEBI:60488
 name: cob(I)alamin(1-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:60489
@@ -90547,6 +90676,7 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 id: CHEBI:60494
 name: 5-hydroxybenzimidazolylcob(I)amide(1-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:60520
@@ -90595,6 +90725,7 @@ is_a: CHEBI:25696 ! organic anion
 id: CHEBI:60540
 name: coenzyme F430(5-)
 is_a: CHEBI:35755 ! pentacarboxylic acid anion
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:60549
@@ -90606,6 +90737,7 @@ is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
 id: CHEBI:60562
 name: ferroheme c
 is_a: CHEBI:38573 ! ferroheme
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:60568
@@ -93079,6 +93211,7 @@ is_a: CHEBI:28965 ! dicarboxylic acid dianion
 id: CHEBI:61717
 name: ferroheme c(2-)
 is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:61720
@@ -93091,6 +93224,7 @@ name: chlorophyll b(1-)
 is_a: CHEBI:139291 ! chlorophyll(1-)
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:61723
@@ -95287,11 +95421,13 @@ is_a: CHEBI:26878 ! tertiary alcohol
 is_a: CHEBI:35692 ! dicarboxylic acid
 is_a: CHEBI:38573 ! ferroheme
 is_a: CHEBI:62804 ! metallochlorin
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:62814
 name: heme d cis-diol(2-)
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:62830
@@ -102822,6 +102958,7 @@ id: CHEBI:68438
 name: Fe-coproporphyrin III(4-)
 is_a: CHEBI:35754 ! tetracarboxylic acid anion
 is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:68448
@@ -104492,6 +104629,7 @@ is_a: CHEBI:23924 ! enzyme inhibitor
 [Term]
 id: CHEBI:71302
 name: MoO2-molybdopterin cofactor(2-)
+is_a: CHEBI:21437 ! Mo-molybdopterin cofactor
 is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
@@ -104517,11 +104655,13 @@ is_a: CHEBI:60215 ! W-molybdopterin cofactor
 [Term]
 id: CHEBI:71308
 name: Mo(VI)-molybdopterin cytosine dinucleotide(2-)
+is_a: CHEBI:21437 ! Mo-molybdopterin cofactor
 is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
 id: CHEBI:71310
 name: Mo(VI)-molybdopterin guanine dinucleotide(2-)
+is_a: CHEBI:21437 ! Mo-molybdopterin cofactor
 is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
@@ -107710,6 +107850,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 [Term]
 id: CHEBI:73332
 name: 1-alkyl-2-acyl-sn-glycero-3-phosphate(2-)
+is_a: CHEBI:144315 ! 1-alkyl-2-acyl-sn-glycerolipid
 is_a: CHEBI:77575 ! alkyl,acyl-sn-glycerol 3-phosphate(2-)
 is_a: CHEBI:78182 ! 1-alkyl-2-acyl-glycero-3-phosphate(2-)
 
@@ -125392,6 +125533,7 @@ is_a: CHEBI:77102 ! EC 1.3.5.* (oxidoreductase acting on CH-CH of donor with a q
 id: CHEBI:83088
 name: (R)-lipoate
 is_a: CHEBI:30313 ! lipoate
+relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
 id: CHEBI:83091
@@ -127618,7 +127760,7 @@ is_a: CHEBI:59869 ! L-alpha-amino acid zwitterion
 relationship: has_role CHEBI:33281 ! antimicrobial agent
 relationship: has_role CHEBI:35221 ! antimetabolite
 relationship: has_role CHEBI:76969 ! bacterial metabolite
-relationship: has_role CHEBI:85011 ! EC 2.6.1.19 (glutamine--fructose-6-phosphate transaminase (isomerizing)) inhibitor
+relationship: has_role CHEBI:85011 ! EC 2.6.1.16 (glutamine--fructose-6-phosphate transaminase (isomerizing)) inhibitor
 
 [Term]
 id: CHEBI:84311
@@ -128852,7 +128994,7 @@ is_a: CHEBI:83943 ! L-alanine derivative
 relationship: has_role CHEBI:33281 ! antimicrobial agent
 relationship: has_role CHEBI:35221 ! antimetabolite
 relationship: has_role CHEBI:76969 ! bacterial metabolite
-relationship: has_role CHEBI:85011 ! EC 2.6.1.19 (glutamine--fructose-6-phosphate transaminase (isomerizing)) inhibitor
+relationship: has_role CHEBI:85011 ! EC 2.6.1.16 (glutamine--fructose-6-phosphate transaminase (isomerizing)) inhibitor
 
 [Term]
 id: CHEBI:85006
@@ -128874,7 +129016,7 @@ is_a: CHEBI:58342 ! acyl-CoA(4-)
 
 [Term]
 id: CHEBI:85011
-name: EC 2.6.1.19 (glutamine--fructose-6-phosphate transaminase (isomerizing)) inhibitor
+name: EC 2.6.1.16 (glutamine--fructose-6-phosphate transaminase (isomerizing)) inhibitor
 is_a: CHEBI:76879 ! EC 2.6.1.* (transaminase) inhibitor
 
 [Term]
@@ -131168,12 +131310,12 @@ is_a: CHEBI:139578 ! octadecadienoyl-CoA
 
 [Term]
 id: CHEBI:85958
-name: 5'-(N(7)-methyl 5'-triphosphoguanosine)-2'-O-methyladenosine 5'-phosphate(3-) residue
+name: 5'-(N(7)-methyl 5'-triphosphoguanosine)-2'-O-methyladenosine(2-) residue
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
 id: CHEBI:85959
-name: 5'-(N(7)-methyl 5'-triphosphoguanosine)-N(7),2'-O-dimethyladenosine 5'-phosphate(3-) residue
+name: 5'-(N(7)-methyl 5'-triphosphoguanosine)-N(6)-methyl-2'-O-methyladenosine(2-) residue
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -132249,42 +132391,49 @@ is_a: CHEBI:35274 ! ammonium ion
 [Term]
 id: CHEBI:86999
 name: 1-acyl-2-palmitoylglycerolipid
+is_a: CHEBI:144368 ! 1,2-diacyl-sn-glycerolipid
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:35741 ! glycerolipid
 
 [Term]
 id: CHEBI:87000
 name: 1-acyl-2-[(7Z)-hexadec-7-enoyl]-glycerolipid
+is_a: CHEBI:144368 ! 1,2-diacyl-sn-glycerolipid
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:35741 ! glycerolipid
 
 [Term]
 id: CHEBI:87002
 name: 1-acyl-2-[(3E)-hexadec-3-enoyl]-glycerolipid
+is_a: CHEBI:144368 ! 1,2-diacyl-sn-glycerolipid
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:35741 ! glycerolipid
 
 [Term]
 id: CHEBI:87003
 name: 1-acyl-2-palmitoleoylglycerolipid
+is_a: CHEBI:144368 ! 1,2-diacyl-sn-glycerolipid
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:35741 ! glycerolipid
 
 [Term]
 id: CHEBI:87007
 name: 1-stearoyl 2-acylglycerolipid
+is_a: CHEBI:144368 ! 1,2-diacyl-sn-glycerolipid
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:35741 ! glycerolipid
 
 [Term]
 id: CHEBI:87008
 name: 1-oleoyl-2-acylglycerolipid
+is_a: CHEBI:144368 ! 1,2-diacyl-sn-glycerolipid
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:35741 ! glycerolipid
 
 [Term]
 id: CHEBI:87010
 name: 1-linoleoyl-2-acylglycerolipid
+is_a: CHEBI:144368 ! 1,2-diacyl-sn-glycerolipid
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:35741 ! glycerolipid
 
@@ -132303,6 +132452,7 @@ is_a: CHEBI:90078 ! alpha-linolenoyl-containing glycerolipid
 [Term]
 id: CHEBI:87024
 name: 1-[(6Z,9Z,12Z,15Z)-octadec-6,9,12,15-tetraenoyl]-2-acylglycerolipid
+is_a: CHEBI:144368 ! 1,2-diacyl-sn-glycerolipid
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:35741 ! glycerolipid
 
@@ -137349,6 +137499,7 @@ is_a: CHEBI:38164 ! organic heteropentacyclic compound
 id: CHEBI:9532
 name: thiamine(1+) diphosphate
 is_a: CHEBI:63048 ! 1,3-thiazolium cation
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
 [Term]
@@ -143365,7 +143516,7 @@ id: GOCHE:85011
 name: substance with EC 2.6.1.19 (glutamine--fructose-6-phosphate transaminase (isomerizing)) inhibitor role
 is_a: GOCHE:76879 ! substance with EC 2.6.1.* (transaminase) inhibitor role
 intersection_of: CHEBI:24431 ! chemical entity
-intersection_of: has_role CHEBI:85011 ! EC 2.6.1.19 (glutamine--fructose-6-phosphate transaminase (isomerizing)) inhibitor
+intersection_of: has_role CHEBI:85011 ! EC 2.6.1.16 (glutamine--fructose-6-phosphate transaminase (isomerizing)) inhibitor
 
 [Term]
 id: GOCHE:85046
