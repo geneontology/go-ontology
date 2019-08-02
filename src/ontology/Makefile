@@ -426,6 +426,25 @@ mirror/%.owl: mirror/%-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/%.owl
 
+
+# ----------------------------------------
+# ANNOTATION RELATIONS
+# ----------------------------------------
+
+# Create a module from RO that is seeded from the gorel-edit ontology.
+# Note that to be a seed, a relation needs at least one logical axiom;
+# we recommend making each RO relation to be seeded a subproperty of 'go annotation extension relation'
+extensions/gorel-ro-import.owl: extensions/gorel-edit.owl imports/ro_import.owl
+	owltools $< --add-support-from-imports --extract-module -c -s $(OBO)/ro.owl -o $@
+
+# Public edition: gorel-edit axioms merged with RO module
+extensions/gorel.owl: extensions/gorel-edit.owl 
+	owltools   $< --merge-imports-closure --add-obo-shorthand-to-properties -o $@
+
+# OBO translation, with symbols as IDs
+extensions/gorel.obo: extensions/gorel.owl
+	owltools $< --add-obo-shorthand-to-properties --remove-tbox -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
+
 # ----------------------------------------
 # CHEBI ROLES
 # ----------------------------------------
