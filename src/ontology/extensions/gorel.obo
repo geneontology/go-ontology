@@ -17,6 +17,87 @@ ontology: go/extensions/gorel
 property_value: http://purl.org/dc/elements/1.1/description "This ontology combines RO together with GO-specific relations in the GOREL namespace, used for annotation extensions. See;\n\nHuntley, R. P., Harris, M. a, Alam-Faruque, Y., et al (2014). A method for increasing expressivity of Gene Ontology annotations using a compositional approach. BMC Bioinformatics, 15(1), 155. doi:10.1186/1471-2105-15-155\n\nNotes on release edition (gorel.owl):\n\nThis ontology is created by merging the relevant subset of RO together with GO-specific annotations of RO relations, and GOREL relations\n\nNotes on editors version (gorel-edit.owl): \nThe editors version imports ro.owl, and allows addition of new relations (GOREL ID space) and annotation of existing RO relations. Note for editors: if an RO relation is to be made visible in the final gorel product, then make the relation a SubProperty of 'go annotation extension relation'. Anything with a logical axiom is included in the final module. Consult Makefile for details" xsd:string
 
 [Typedef]
+id: GOREL:0000013
+alt_id: not_dependent_on
+
+[Typedef]
+id: GOREL:0000751
+alt_id: GOREL:0000505
+alt_id: has_indirect_target
+alt_id: indirectly_localizes
+
+[Typedef]
+id: GOREL:0000752
+alt_id: directly_localizes
+alt_id: GOREL:0000019
+alt_id: GOREL:0000504
+alt_id: has_direct_target
+alt_id: has_substrate
+
+[Typedef]
+id: RO:0002204
+alt_id: GOREL:0001028
+
+[Typedef]
+id: RO:0002218
+alt_id: GOREL:0001007
+
+[Typedef]
+id: RO:0002233
+alt_id: GOREL:0000016
+alt_id: GOREL:0000503
+alt_id: has_target
+alt_id: localizes
+
+[Typedef]
+id: RO:0002296
+alt_id: GOREL:0001009
+
+[Typedef]
+id: RO:0002297
+alt_id: GOREL:0001020
+
+[Typedef]
+id: RO:0002298
+alt_id: GOREL:0001015
+
+[Typedef]
+id: RO:0002299
+alt_id: GOREL:0001013
+
+[Typedef]
+id: RO:0002315
+alt_id: GOREL:0001014
+
+[Typedef]
+id: RO:0002332
+alt_id: GOREL:0000036
+
+[Typedef]
+id: RO:0002340
+alt_id: GOREL:0000034
+
+[Typedef]
+id: RO:0002345
+alt_id: GOREL:0000035
+
+[Typedef]
+id: RO:0002348
+alt_id: GOREL:0001017
+
+[Typedef]
+id: RO:0002349
+alt_id: GOREL:0001018
+
+[Typedef]
+id: RO:0002356
+alt_id: GOREL:0001021
+
+[Typedef]
+id: RO:0002565
+alt_id: GOREL:0001001
+
+[Typedef]
 id: activated_by
 name: activated_by
 namespace: go/extensions/gorel
@@ -608,7 +689,7 @@ is_a: temporally_related_to ! temporally related to
 [Typedef]
 id: ends_during
 name: ends during
-comment: X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y). 
+comment: X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y).
 subset: ro-eco
 xref: RO:0002093
 property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
@@ -639,7 +720,6 @@ is_a: go_annotation_extension_relation ! go annotation extension relation
 id: exports
 name: exports
 namespace: go/extensions/gorel
-alt_id: GOREL:0000035
 xref: RO:0002345
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
@@ -664,7 +744,6 @@ property_value: IAO:0000232 "This is a grouping relation that collects relations
 id: gene_product_of
 name: gene product of
 namespace: go/extensions/gorel
-alt_id: GOREL:0001028
 def: "definition \"x has gene product of y if and only if y is a gene (SO:0000704) that participates in some gene expression process (GO:0010467) where the output of that process is either y or something that is ribosomally translated from x\"" []
 xref: RO:0002204
 property_value: IAO:0000114 IAO:0000125
@@ -698,8 +777,8 @@ xref: GOREL:0000000
 id: happens_during
 name: happens during
 namespace: go/extensions/gorel
+def: "X happens_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (end(X) before_or_simultaneous_with end(Y))" []
 comment: Previous definition "p happens_during q if and only if the temporal extent of p is part_of the temporal extent of q." Note that part_of between processes implies happens_during (we must use OWL to express this), but happens_during does not imply part_of. Note also that this relation holds between two processes. To link a physical entity to a process by duration, use exists_during. [BFO:cjm] Note that in order to express that part_of between processes implies during, we must use OWL.
-comment: X happens_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (end(X) before_or_simultaneous_with end(Y))
 subset: AE_biological_process
 subset: AE_developmental_stages
 subset: display_for_curators
@@ -723,7 +802,6 @@ is_a: go_annotation_extension_relation ! go annotation extension relation
 id: has_agent
 name: has active participant
 namespace: go/extensions/gorel
-alt_id: GOREL:0001007
 def: "x has participant y if and only if x realizes some active role that inheres in y" []
 comment: Example of use: an annotation of gene X to cytokine production with has_agent of CL:0000057 (fibroblast) means that the fibroblast is producing the cytokine.
 subset: AE_cell_or_anatomical
@@ -755,11 +833,6 @@ is_a: causally_related_to ! causally related to
 id: has_direct_input
 name: has_direct_input
 namespace: go/extensions/gorel
-alt_id: directly_localizes
-alt_id: GOREL:0000019
-alt_id: GOREL:0000504
-alt_id: has_direct_target
-alt_id: has_substrate
 comment: If the entity is indirectly bound/acted upon by the gene product that is the subject of an annotation,  then the relation: has_indirect_input should be considered [GOC:ecd]
 subset: AE_chemical
 subset: AE_sequence_or_complex
@@ -832,9 +905,6 @@ is_a: symbiotically_interacts_with ! symbiotically interacts with
 id: has_indirect_input
 name: has_indirect_input
 namespace: go/extensions/gorel
-alt_id: GOREL:0000505
-alt_id: has_indirect_target
-alt_id: indirectly_localizes
 comment: If the entity is directly bound/acted upon by the gene product that is the subject of the annotation, then the relation: has_direct_input should be alternatively considered. [GOC:ecd]
 synonym: "has_indirect_target" EXACT [GOC:ecd]
 synonym: "indirectly_localizes" NARROW [GOC:ecd]
@@ -848,10 +918,6 @@ is_obsolete: true
 id: has_input
 name: has input
 namespace: go/extensions/gorel
-alt_id: GOREL:0000016
-alt_id: GOREL:0000503
-alt_id: has_target
-alt_id: localizes
 def: "p has direct input c iff c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
 comment: Previous definition "p has_input c if and only c participates_in p at the start of p and c is in some way bound, transported, modified, consumed or destroyed by p." If it is known whether the entity is directly or indirectly bound/acted upon by the gene product that is the subject of the annotation, then the relations has_direct_input or has_indirect_input should be alternatively considered.
 subset: AE_chemical
@@ -1200,7 +1266,6 @@ is_a: precedes ! precedes
 id: imports
 name: imports
 namespace: go/extensions/gorel
-alt_id: GOREL:0000034
 def: "Holds between p and c when p is a transportation or localization process and the outcome of this process is to move c to a destination that is part of some s, where the start location of c is part of the region that surrounds s." []
 xref: RO:0002340
 property_value: IAO:0000117 "Chris Mungall" xsd:string
@@ -1227,22 +1292,19 @@ domain: BFO:0000001
 id: in_presence_of
 name: in_presence_of
 namespace: go/extensions/gorel
-def: "Identifies a chemical, gene product or complex in the presence of which an ontology term is observed to apply to the annotated gene product." [GOC:mah]
-subset: AE_chemical
-subset: AE_sequence_or_complex
-subset: valid_for_annotation_extension
-synonym: "in presence of" EXACT RO:0008000 [PomBase:curators]
+def: "OBSOLETE. Identifies a chemical, gene product or complex in the presence of which an ontology term is observed to apply to the annotated gene product." [GOC:mah]
+comment: This relation was deprecated because it doesn't meet the GO shapes specifications. \nIn_presence_of is not a supported relation.
+synonym: "in presence of" EXACT [PomBase:curators]
 xref: GOREL:0000027
 property_value: local_domain BFO:0000001 xsd:string
 property_value: local_range "CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704" xsd:string
 property_value: usage "Identifies a chemical, gene product or complex in the presence of which an ontology term is observed to apply to the annotated gene product." xsd:string
-domain: BFO:0000001
+is_obsolete: true
 
 [Typedef]
 id: independent_of
 name: independent_of
 namespace: go/extensions/gorel
-alt_id: not_dependent_on
 def: "Identifies an entity that was shown not to be required for the ontology term to apply to the annotated gene product." [GOA:rph]
 comment: DEPRECATION WARNING: The GO editors have agreed that this relation should be deprecated. There are two main reasons for this 1. The relation does not extend the meaning of the GO term, as annotation relations are meant to, but instead specifies conditions under which the annotation is true. This can not be expressed in OWL. Annotation extensions using this relation will never fold. 2. The relation includes a hidden negation. This is problematic for a number of reasons, the most important of which is that burying negations in otherwise positive relationships can cause serious problems for inference.
 subset: AE_biological_process
@@ -1555,17 +1617,15 @@ is_class_level: true
 id: not_happens_during
 name: not_happens_during
 namespace: go/extensions/gorel
-def: "A Molecular Function or Biological Process during which an annotation to a Molecular Function or Biological Process does not apply, e.g. involvement in a process not observed during the specified cell cycle phase (but observed in other phases)." [GOC:mah]
+def: "OBSOLETE. A Molecular Function or Biological Process during which an annotation to a Molecular Function or Biological Process does not apply, e.g. involvement in a process not observed during the specified cell cycle phase (but observed in other phases)." [GOC:mah]
+comment: This relation was deprecated because it doesn't meet the GO shapes specifications. Negations are not allowed.
 synonym: "does_not_happen_during" EXACT [GOC:mah]
-synonym: "except during" BROAD RO:0008000 [PomBase:curators]
 synonym: "not_occurs_during" EXACT [GOC:mah]
 xref: GOREL:0000025
 property_value: local_domain BFO:0000007 xsd:string
 property_value: local_range "BFO:0000007 WBls:0000075 ZFS:0100000" xsd:string
 property_value: usage "A Molecular Function or Biological Process during which an annotation to a Molecular Function or Biological Process does not apply, e.g. involvement in a process not observed during the specified cell cycle phase (but observed in other phases)." xsd:string
-domain: BFO:0000007
-range: BFO:0000007
-is_a: not_during ! not_during
+is_obsolete: true
 is_class_level: true
 
 [Typedef]
@@ -1617,7 +1677,6 @@ name: occurs in
 namespace: go/extensions/gorel
 def: "b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
 comment: Paraphrase of definition: a relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant
-comment: Previous definition "p occurs_in c if and only if all of the participants of p are part_of c." [BFO:cjm]
 subset: AE_cell_or_anatomical
 subset: AE_cellular_component
 subset: display_for_curators
@@ -1952,7 +2011,6 @@ is_a: regulates_o_has_input ! regulates_o_has_input
 id: regulates_level_of
 name: regulates levels of
 namespace: go/extensions/gorel
-alt_id: GOREL:0000036
 def: "p regulates levels of c if p regulates some amount (PATO:0000070) of c" []
 xref: RO:0002332
 property_value: IAO:0000112 "every cellular sphingolipid homeostasis process regulates_level_of some sphingolipid" xsd:string
@@ -2394,7 +2452,6 @@ is_obsolete: true
 id: results_in_acquisition_of_features_of
 name: results in acquisition of features of
 namespace: go/extensions/gorel
-alt_id: GOREL:0001014
 def: "The relationship that links a specified entity with the process that results in an unspecified entity acquiring the features and characteristics of the specified entity" []
 comment: Example of use: an annotation of gene X to cell differentiation with results_in_acquisition_of_features_of CL:0000057 (fibroblast) means that at the end of the process the input cell that did not have features of a fibroblast, now has the features of a fibroblast.
 subset: AE_cell_or_anatomical
@@ -2417,7 +2474,6 @@ is_a: results_in_developmental_progression_of ! results in developmental progres
 id: results_in_commitment_to
 name: results in commitment to
 namespace: go/extensions/gorel
-alt_id: GOREL:0001017
 def: "p 'results in commitment to' c if and only if p is a developmental process and c is a cell and p results in the state of c changing such that is can only develop into a single cell type." []
 comment: Example of use: an annotation of gene X to cell commitment with results_in_commitment_to CL:0000540 (neuron) means that at the end of the process an unspecified cell has been specified and determined to develop into a neuron.
 subset: AE_cell_or_anatomical
@@ -2438,7 +2494,6 @@ is_a: results_in_developmental_progression_of ! results in developmental progres
 id: results_in_determination_of
 name: results in determination of
 namespace: go/extensions/gorel
-alt_id: GOREL:0001018
 def: "p 'results in determination of' c if and only if p is a developmental process and c is a cell and p results in the state of c changing to be determined. Once a cell becomes determined, it becomes committed to differentiate down a particular pathway regardless of its environment." []
 comment: Example of use: an annotation of gene X to cell determination with results_in_determination_of CL:0000540 (neuron) means that at the end of the process an unspecified cell will develop into a neuron with no additional input.
 subset: AE_cell_or_anatomical
@@ -2458,7 +2513,6 @@ is_a: results_in_developmental_progression_of ! results in developmental progres
 id: results_in_development_of
 name: results in development of
 namespace: go/extensions/gorel
-alt_id: GOREL:0001009
 def: "p 'results in development of' c if and only if p is a developmental process and p results in the state of c changing from its initial state as a primordium or anlage through its mature state and to its final state." []
 comment: Example of use: an annotation of gene X to cell development with results_in_development_of CL:0000540 (neuron) means that gene x is involved in a process where a cell that has an identity of a neuron has gone through a progression from its formation to the resulting mature neuron.
 subset: AE_cell_or_anatomical
@@ -2512,7 +2566,6 @@ is_a: has_participant ! has participant
 id: results_in_formation_of
 name: results in formation of
 namespace: go/extensions/gorel
-alt_id: GOREL:0001020
 def: "The relationship linking a entity and its participation in a process whereby at the beginning of the process the entity does not exist and at the end of the process the entity exists." [GOC:mtg_berkeley_2013]
 comment: Example of use: an annotation of gene X to anatomical structure formation with results_in_formation_of UBERON:0000007 (pituitary gland) means that at the beginning of the process a pituitary gland does not exist and at the end of the process a pituitary gland exists.
 subset: AE_cell_or_anatomical
@@ -2536,10 +2589,8 @@ inverse_of: formed_as_result_of ! formed as result of
 id: results_in_maturation_of
 name: results in maturation of
 namespace: go/extensions/gorel
-alt_id: GOREL:0001013
 def: "The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in it's shape and results in an end point state of that entity." []
 comment: display_for_curators
-comment: Example of use: an annotation of gene X to cell maturation with results_in_maturation_of CL:0000057 (fibroblast) means that the fibroblast is mature at the end of the process.
 subset: AE_cell_or_anatomical
 subset: AE_cellular_component
 subset: display_for_curators
@@ -2552,7 +2603,8 @@ property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "CL:0000000 GO:0005575 PO:0009012 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
-property_value: usage "The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in it's shape and results in an end point state of that entity." xsd:string
+property_value: usage "Example of use: an annotation of gene X to cell maturation with results_in_maturation_of CL:0000057 (fibroblast) means that the fibroblast is mature at the end of the process." xsd:string
+property_value: usage "The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in its shape and results in an end point state of that entity." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: has_participant ! has participant
 is_a: results_in_developmental_progression_of ! results in developmental progression of
@@ -2561,7 +2613,6 @@ is_a: results_in_developmental_progression_of ! results in developmental progres
 id: results_in_morphogenesis_of
 name: results in morphogenesis of
 namespace: go/extensions/gorel
-alt_id: GOREL:0001015
 def: "The relationship that links an entity with the process that results in the formation and shaping of that entity over time from an immature to a mature state." []
 comment: Example of use: an annotation of gene X to cell morphogenesis with results_in_morphogenesis_of CL:0000540 (neuron) means that at the end of the process an input neuron has attained its shape.
 subset: AE_cell_or_anatomical
@@ -2585,7 +2636,6 @@ is_a: results_in_developmental_progression_of ! results in developmental progres
 id: results_in_movement_of
 name: results in movement of
 namespace: go/extensions/gorel
-alt_id: GOREL:0001001
 def: "Holds between p and c when p is locomotion process and the outcome of this process is the change of location of c" []
 comment: For movement of chemicals or cell parts, please use transports_or_maintains_localization_of
 subset: AE_cell_or_anatomical
@@ -2605,10 +2655,8 @@ is_a: has_participant ! has participant
 id: results_in_specification_of
 name: results in specification of
 namespace: go/extensions/gorel
-alt_id: GOREL:0001021
 def: "The relationship linking a cell and its participation in a process that results in the fate of the cell being specified. Once specification has taken place, a cell will be committed to differentiate down a specific pathway if left in its normal environment. " []
 comment: display_for_curators
-comment: Example of use: an annotation of gene X to cell determination with results_in_determination_of CL:0000540 (neuron) means that at the end of the process an unspecified cell will develop into a neuron if left in its environment. If the cell is moved, it may develop into a cell type other than a neuron.
 subset: AE_cell_or_anatomical
 subset: display_for_curators
 subset: valid_for_annotation_extension
@@ -2617,6 +2665,7 @@ property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 http://www.geneontology.org/GO.doc.development.shtml#fate xsd:anyURI
 property_value: local_domain GO:0008150 xsd:string
 property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
+property_value: usage "Example of use: an annotation of gene X to cell determination with results_in_determination_of CL:0000540 (neuron) means that at the end of the process an unspecified cell will develop into a neuron if left in its environment. If the cell is moved, it may develop into a cell type other than a neuron." xsd:string
 property_value: usage "The relationship linking a cell and its participation in a process that results in the transition of a cell such that is can only develop into a single cell type when left in its environment." xsd:string
 domain: GO:0008150
 range: CL:0000000
