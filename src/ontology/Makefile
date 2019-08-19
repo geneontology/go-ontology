@@ -447,7 +447,7 @@ imports/substance_by_role.owl: imports/substance_by_role.obo
 # ----------------------------------------
 # MAPPINGS
 # ----------------------------------------
-EXTERNAL2GO_DBS = EC KEGG KEGG_REACTION MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia RHEA
+EXTERNAL2GO_DBS = EC KEGG_REACTION MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia RHEA
 
 # See : https://github.com/geneontology/go-site/issues/688
 # Manually add all ID spaces here; only do this for xrefs that are managed within the obo file.
