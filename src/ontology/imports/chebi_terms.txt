@@ -8119,3 +8119,4 @@ http://purl.obolibrary.org/obo/CHEBI_78655 ## N-acylsphinganine-1-phosphoethanol
 http://purl.obolibrary.org/obo/CHEBI_78654 ## N-hexadecanoyl-sphinganine-1-phosphoethanolamine
 http://purl.obolibrary.org/obo/CHEBI_71063 ## N-retinylidenephosphatidylethanolamine
 http://purl.obolibrary.org/obo/CHEBI_143129 ## primary fatty amide
+http://purl.obolibrary.org/obo/CHEBI_8653 ## pyocyanin
