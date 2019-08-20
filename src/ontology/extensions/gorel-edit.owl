@@ -321,7 +321,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000002> "d
 TransitiveObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0000002>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0000002> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000003> (localizes_to)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000003> (obsolete localizes_to)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "BFO:cjm"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000003> "OBSOLETE. c localizes_to d if c executes some function when it is part_of d."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000003> "BFO:0000004"^^xsd:string)
@@ -332,7 +332,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000003> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000003> "localizes_to"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000003> "TODO : check this one. Note Pombe is using different variant."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000003> "localizes_to"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000003> "obsolete localizes_to"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000003> "true"^^xsd:boolean)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000003> <http://purl.obolibrary.org/obo/BFO_0000004>)
 
@@ -357,8 +357,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000004> "d
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000004> "true"^^xsd:boolean)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000004> <http://purl.obolibrary.org/obo/GOREL_0000000>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000006> (has_target_cell)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000006> (obsolete has_target_cell)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000006> "OBSOLETE. Was not defined before obsoletion."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000006> "BFO:0000001"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000006> "CL:0000000 WBbt:0004017"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#consider> <http://purl.obolibrary.org/obo/GOREL_0000006> "has_input"^^xsd:string)
@@ -367,13 +368,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000006> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000006> "has_target_cell"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000006> "this relation has been obsoleted it was unclear whether the associated cell type id should correspond to the final mature or precursor cell. If the outcome of a process is a modified cell, then the relationships has_output or has_input along with a CL identifier respectively defining the precursor or mature cell type can be considered instead."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000006> "has_target_cell"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000006> "obsolete has_target_cell"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000006> "true"^^xsd:boolean)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000006> <http://purl.obolibrary.org/obo/BFO_0000001>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0000006> <http://purl.obolibrary.org/obo/CL_0000000>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000007> (has_target_anatomical_entity)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000007> (obsolete has_target_anatomical_entity)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000007> "OBSOLETE. Was not defined before obsoletion."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000007> "BFO:0000001"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000007> "CARO:0000000"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#consider> <http://purl.obolibrary.org/obo/GOREL_0000007> "has_input"^^xsd:string)
@@ -382,7 +384,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000007> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000007> "has_target_anatomical_entity"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000007> "this relation has been obsoleted it was unclear whether the associated anatomical entity id should correspond to the final form  or precursor anatomical entity. If the outcome of a process is a modified anatomical entity, then relationships has_output or has_input along with a anatomy identifier respectively defining the precursor or mature anatomical entity id can be considered instead."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000007> "has_target_anatomical_entity"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000007> "obsolete has_target_anatomical_entity"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000007> "true"^^xsd:boolean)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000007> <http://purl.obolibrary.org/obo/BFO_0000001>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0000007> <http://purl.obolibrary.org/obo/CARO_0000000>)
@@ -481,7 +483,7 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000013> 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000013> "independent_of"^^xsd:string)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000013> <http://purl.obolibrary.org/obo/BFO_0000001>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000014> (inhibits_protease)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000014> (obsolete inhibits_protease)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000014> "OBSOLETE. Identifies a specific target of regulation of a MF"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000014> "GO:0010466"^^xsd:string)
@@ -491,7 +493,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000014> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000014> "inhibits_protease"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000014> "This relation was made obsolete because it is undesirably specific and redundant with any GO term that would be used in col5. Annotations that used this might use a different, to-be-added, child of has_regulation_target that captures something about directness; this one would probably be direct."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000014> "inhibits_protease"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000014> "obsolete inhibits_protease"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000014> "true"^^xsd:boolean)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000014> <http://purl.obolibrary.org/obo/GO_0010466>)
 
@@ -513,7 +515,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000015> <http://purl.
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000015> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0000015> <http://purl.obolibrary.org/obo/BFO_0000002>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000017> (protease_activator)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000017> (obsolete protease_activator)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000017> "OBSOLETE. Identifies a specific target of regulation of a MF"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000017> "GO:0010952"^^xsd:string)
@@ -523,7 +525,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000017> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000017> "protease_activator"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000017> "This relation was made obsolete because it is undesirably specific and redundant with any GO term that would be used in col5. Annotations that used this might use a different, to-be-added, child of has_regulation_target that captures something about directness; this one would be direct."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000017> "protease_activator"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000017> "obsolete protease_activator"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000017> "true"^^xsd:boolean)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000017> <http://purl.obolibrary.org/obo/GO_0010952>)
 
@@ -545,38 +547,41 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000018> <http://purl.
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000018> <http://purl.obolibrary.org/obo/RO_0002233>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000018> <http://purl.obolibrary.org/obo/GO_0031647>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000020> (has_upstream_or_downstream_target)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000020> (obsolete has_upstream_or_downstream_target)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000020> "OBSOLETE. Was not defined before obsoletion."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000020> "GO:0008150"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000020> "GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GOREL_0000020> "GOREL:0000020"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000020> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000020> "has_upstream_or_downstream_target"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000020> "has_upstream_or_downstream_target"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000020> "obsolete has_upstream_or_downstream_target"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000020> "true"^^xsd:boolean)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000020> <http://purl.obolibrary.org/obo/GO_0008150>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000021> (has_upstream_target)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000021> (obsolete has_upstream_target)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000021> "OBSOLETE. Was not defined before obsoletion."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000021> "GO:0008150"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000021> "GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GOREL_0000021> "GOREL:0000021"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000021> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000021> "has_upstream_target"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000021> "has_upstream_target"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000021> "obsolete has_upstream_target"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000021> "true"^^xsd:boolean)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000021> <http://purl.obolibrary.org/obo/GO_0008150>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000022> (has_downstream_target)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000022> (obsolete has_downstream_target)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000022> "OBSOLETE. Was not defined before obsoletion."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000022> "GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GOREL_0000022> "GOREL:0000022"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000022> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000022> "has_downstream_target"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000022> "has_downstream_target"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000022> "obsolete has_downstream_target"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000022> "true"^^xsd:boolean)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000023> (transcriptionally_regulates)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000023> (obsolete transcriptionally_regulates)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000023> "OBSOLETE. Identifies gene whose transcription is regulated"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GOREL_0000023> "has_regulation_target"^^xsd:string)
@@ -586,7 +591,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000023> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000023> "transcriptionally_regulates"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000023> "This relation was made obsolete because it is undesirably specific and redundant with any GO term that would be used in col5. Annotations that used this might use a different, to-be-added, child of has_regulation_target that captures something about directness; this one would be indirect."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000023> "transcriptionally_regulates"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000023> "obsolete transcriptionally_regulates"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000023> "true"^^xsd:boolean)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000023> <http://purl.obolibrary.org/obo/GO_0006355>)
 
@@ -674,9 +679,9 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000028> <http://purl.
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000028> <http://purl.obolibrary.org/obo/GO_0008150>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0000028> <http://purl.obolibrary.org/obo/GO_0005575>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000029> (requires_regulation_by)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000029> (obsolete requires_regulation_by)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000029> "annotated gene product participates in Biological Process or executes Molecular Function activity only if regulated by action of gene product; regulation is indirect (or unknown whether direct or indirect)"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000029> "OBSOLETE. Was not defined before obsoletion. Annotated gene product participates in Biological Process or executes Molecular Function activity only if regulated by action of gene product; regulation is indirect (or unknown whether direct or indirect)"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000029> "BFO:0000007"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000029> "GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0000029> "annotated gene product participates in Biological Process or executes Molecular Function activity only if regulated by action of gene product; regulation is indirect (or unknown whether direct or indirect)"^^xsd:string)
@@ -684,7 +689,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PomBase:curators"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/RO_0008000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GOREL_0000029> "requires regulation by"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000029> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000029> "requires_regulation_by"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000029> "requires_regulation_by"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000029> "obsolete requires_regulation_by"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000029> "true"^^xsd:boolean)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000029> <http://purl.obolibrary.org/obo/BFO_0000007>)
 
@@ -701,16 +706,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000030> "modified_by"^^xsd:string)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000030> <http://purl.obolibrary.org/obo/MOD_00000>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000031> (condition)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000031> (obsolete condition)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000031> "Identifies a condition under which the ontology term is observed to apply to the annotated gene product"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000031> "OBSOLETE. Identifies a condition under which the ontology term is observed to apply to the annotated gene product"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0000031> "Identifies a condition under which the ontology term is observed to apply to the annotated gene product"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GOREL_0000031> "GOREL:0000031"^^xsd:string)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GOREL_0000031> "assay_condition"^^xsd:string)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GOREL_0000031> "under_condition"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000031> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000031> "condition"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000031> "condition"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000031> "obsolete condition"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000031> "true"^^xsd:boolean)
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0000032> (exists_during)
@@ -733,7 +738,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000032> <http://purl.
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000032> <http://purl.obolibrary.org/obo/BFO_0000004>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0000032> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000033> (requires_direct_regulator)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000033> (obsolete requires_direct_regulator)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000033> "Annotated gene product requires direct regulation by the gene product or complex identified in the extension. Includes cases where the annotated gene product is a catalytic subunit of a complex and requires a regulatory subunit for activity as well as cases where the regulator acts directly but interacts transiently."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0000033> "Annotated gene product requires direct regulation by the gene product or complex identified in the extension. Includes cases where the annotated gene product is a catalytic subunit of a complex and requires a regulatory subunit for activity as well as cases where the regulator acts directly but interacts transiently."^^xsd:string)
@@ -742,7 +747,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000033> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000033> "requires_direct_regulator"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000033> "the gene product in the extension should be annotated to a \"regulator\" MF (implying that it acts directly to regulate the annotated gp activity)"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000033> "requires_direct_regulator"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000033> "obsolete requires_direct_regulator"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000033> "true"^^xsd:boolean)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000033> <http://purl.obolibrary.org/obo/GO_0003674>)
 
@@ -852,8 +857,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000509> "not_occurs_at"^^xsd:string)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000509> <http://purl.obolibrary.org/obo/BFO_0000007>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000751> (has_indirect_input)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000751> (obsolete has_indirect_input)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000751> "OBSOLETE. Was not defined before obsoletion."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000751> "BFO:0000007"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000751> "CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0000751> "Identifies an entity indirectly affected (bound, transported, modified, consumed or destroyed) by the gene product's participation in MF or BP."^^xsd:string)
@@ -866,7 +872,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000751> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000751> "has_indirect_input"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000751> "If the entity is directly bound/acted upon by the gene product that is the subject of the annotation, then the relation: has_direct_input should be alternatively considered. [GOC:ecd]"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000751> "has_indirect_input"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000751> "obsolete has_indirect_input"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000751> "true"^^xsd:boolean)
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0000752> (has_direct_input)
@@ -935,7 +941,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0001000> "a
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0001002> (has_output_o_axis_of)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:cjm"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_berkeley_2012_08_27"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001002> "This is the combination of the has_output relation with the axis_of relation"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:cjm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_berkeley_2012_08_27"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001002> "This is the combination of the has_output relation with the axis_of relation"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0001002> "This is the combination of the has_output relation with the axis_of relation"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GOREL_0001002> "GOREL:0001002"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0001002> "go/extensions/gorel"^^xsd:string)
@@ -945,7 +951,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0001002> "h
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0001003> (regulates_o_has_output)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:cjm"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_berkeley_2012_08_27"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001003> "This is the combination of the regulates relation with the has_output relation"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:cjm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_berkeley_2012_08_27"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001003> "This is the combination of the regulates relation with the has_output relation"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0001003> "This is the combination of the regulates relation with the has_output relation"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GOREL_0001003> "GOREL:0001003"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0001003> "go/extensions/gorel"^^xsd:string)
@@ -957,7 +963,7 @@ ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0001003> <http://purl
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0001004> (regulates process that occurs in)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/GOREL_0001004> "'negative regulation of chromosome segregation' that  regulates_o_occurs_in some spermatocyte.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:cjm"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_berkeley_2012_08_27"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001004> "A relation that holds between a regulatory process and the entity which the regulated biological process or molecular function occurs in."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:cjm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_berkeley_2012_08_27"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001004> "A relation that holds between a regulatory process and the entity which the regulated biological process or molecular function occurs in."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0001004> "GO:0065007")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0001004> "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0001004> "Use this relation to link a regulatory process or function to the structure that the regulated process or function occurs in."^^xsd:string)
@@ -974,7 +980,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0001004> <http://purl.
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0001005> (regulates process that results in movement of)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:cjm"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_berkeley_2012_08_27"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001005> "A relation that holds between a process that regulates locomotion and the cell or organism whose locomotion is being regulated."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:cjm") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_berkeley_2012_08_27"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001005> "A relation that holds between a process that regulates locomotion and the cell or organism whose locomotion is being regulated."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0001005> "BFO:0000015"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0001005> "CL:0000000 GO:0005575 WBbt:0004017"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0001005> "Use this relation to relate a process that regulates locomotion to the cell or organism whose locomotion is being regulated."^^xsd:string)
@@ -1224,7 +1230,7 @@ ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0001029> <http://purl
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0001030> (regulates_o_has_input)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001030> "This is the combination of the regulates relation with the has_input relation"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dph") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001030> "This is the combination of the regulates relation with the has_input relation"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0001030> "This is the combination of the regulates relation with the has_input relation"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GOREL_0001030> "GOREL:0001030"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0001030> "go/extensions/gorel"^^xsd:string)
@@ -1388,7 +1394,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002213> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002213> <http://purl.obolibrary.org/obo/GOREL_0000000>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002218> (has active participant)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002218> (obsolete has active participant)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002218> "GO:0008150"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002218> "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766"^^xsd:string)
@@ -1789,6 +1795,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PomBase:curators"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/RO_0008000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/BFO_0000051> "has part"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/BFO_0000051> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/BFO_0000051> "has_part"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000060> "OBSOLETE. Was not defined before obsoletion."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002401> "OBSOLETE. Was not defined before obsoletion."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002403> "OBSOLETE. Was not defined before obsoletion."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002406> "GO:0003674")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002406> "GO:0003674")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002406> <http://purl.obolibrary.org/obo/go#AE_molecular_function>)
