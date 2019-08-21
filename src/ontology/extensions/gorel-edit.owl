@@ -595,9 +595,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000023> "o
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000023> "true"^^xsd:boolean)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000023> <http://purl.obolibrary.org/obo/GO_0006355>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000024> (not_during)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000024> (obsolete not_during)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000024> "A BP during which an annotation does not apply, e.g. a localization not observed at the specified cell cycle phase (but observed in other phases)."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000024> "OBSOLETE. A BP during which an annotation does not apply, e.g. a localization not observed at the specified cell cycle phase (but observed in other phases)."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000024> "BFO:0000001"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000024> "BFO:0000007 WBls:0000075 ZFS:0100000"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0000024> "A BP during which an annotation does not apply, e.g. a localization not observed at the specified cell cycle phase (but observed in other phases)."^^xsd:string)
@@ -606,10 +606,10 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000024> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#is_class_level> <http://purl.obolibrary.org/obo/GOREL_0000024> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000024> "not_during"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000024> "This relation was obsoleted because GO-CAM specifications does not allow negative relations."^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000024> "domain can be any process or object or even quality"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000024> "not_during"^^xsd:string)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000024> <http://purl.obolibrary.org/obo/BFO_0000001>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0000024> <http://purl.obolibrary.org/obo/BFO_0000007>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000024> "obsolete not_during"^^xsd:string)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000024> "true"^^xsd:boolean)
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0000025> (obsolete not_happens_during)
 
@@ -628,9 +628,9 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000025> 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000025> "obsolete not_happens_during"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000025> "true"^^xsd:boolean)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000026> (not_exists_during)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000026> (obsolete not_exists_during)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000026> "A Molecular Function or Biological Process during which an annotation to a Cellular Component does not apply, e.g.  a localization not observed at the specified cell cycle phase (but observed in other phases)."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000026> "OBSOLETE. A Molecular Function or Biological Process during which an annotation to a Cellular Component does not apply, e.g.  a localization not observed at the specified cell cycle phase (but observed in other phases)."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000026> "BFO:0000004"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000026> "BFO:0000007 WBls:0000075 ZFS:0100000"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0000026> "A Molecular Function or Biological Process during which an annotation to a Cellular Component does not apply, e.g.  a localization not observed at the specified cell cycle phase (but observed in other phases)."^^xsd:string)
@@ -640,10 +640,9 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000026> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#is_class_level> <http://purl.obolibrary.org/obo/GOREL_0000026> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000026> "not_exists_during"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000026> "not_exists_during"^^xsd:string)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000026> <http://purl.obolibrary.org/obo/GOREL_0000024>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000026> <http://purl.obolibrary.org/obo/BFO_0000004>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0000026> <http://purl.obolibrary.org/obo/BFO_0000007>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000026> "This relation was obsoleted because GO-CAM specifications does not allow negative relations."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000026> "obsolete not_exists_during"^^xsd:string)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000026> "true"^^xsd:boolean)
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0000027> (obsolete in_presence_of)
 
@@ -783,9 +782,9 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000502> <http://purl.
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000502> <http://purl.obolibrary.org/obo/BFO_0000007>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0000502> <http://purl.obolibrary.org/obo/MOD_00000>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000506> (not_occurs_in)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000506> (obsolete not_occurs_in)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000506> "An entity (e.g. Cellular Component, cell type or anatomical entity) in which a Biological Process or Molecular Function does not occur. Opposite of occurs_in."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000506> "OBSOLETE. An entity (e.g. Cellular Component, cell type or anatomical entity) in which a Biological Process or Molecular Function does not occur. Opposite of occurs_in."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000506> "BFO:0000007"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000506> "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0000506> "An entity (e.g. Cellular Component, cell type or anatomical entity) in which a Biological Process or Molecular Function does not occur. Opposite of occurs_in."^^xsd:string)
@@ -794,8 +793,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PomBase:curators"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/RO_0008000>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GOREL_0000506> "not in"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#is_class_level> <http://purl.obolibrary.org/obo/GOREL_0000506> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000506> "not_occurs_in"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000506> "not_occurs_in"^^xsd:string)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000506> <http://purl.obolibrary.org/obo/BFO_0000007>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000506> "This relation was obsoleted because GO-CAM specifications does not allow negative relations."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000506> "obsolete not_occurs_in"^^xsd:string)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000506> "true"^^xsd:boolean)
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0000507> (activated_by)
 
@@ -840,9 +840,9 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000508> <http://purl.
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000508> <http://purl.obolibrary.org/obo/GO_0003674>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0000508> <http://purl.obolibrary.org/obo/CHEBI_24431>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000509> (not_occurs_at)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000509> (obsolete not_occurs_at)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000509> "An entity (e.g. Cellular Component, cell type or anatomical entity) at which a Biological Process or Molecular Function does not occur. Opposite of occurs_at."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000509> "OBSOLETE. An entity (e.g. Cellular Component, cell type or anatomical entity) at which a Biological Process or Molecular Function does not occur. Opposite of occurs_at."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000509> "BFO:0000007"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000509> "GO:0005575 SO:0000110"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0000509> "An entity (e.g. Cellular Component, sequence feature) at which a Biological Process or Molecular Function does not occur. Opposite of occurs_at."^^xsd:string)
@@ -851,8 +851,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PomBase:curators"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/RO_0008000>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/GOREL_0000509> "not at"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#is_class_level> <http://purl.obolibrary.org/obo/GOREL_0000509> "true"^^xsd:boolean)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000509> "not_occurs_at"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000509> "not_occurs_at"^^xsd:string)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000509> <http://purl.obolibrary.org/obo/BFO_0000007>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000509> "This relation was obsoleted because GO-CAM specifications does not allow negative relations."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000509> "obsolete not_occurs_at"^^xsd:string)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000509> "true"^^xsd:boolean)
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0000751> (obsolete has_indirect_input)
 
