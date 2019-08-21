@@ -1054,7 +1054,7 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0001010> <http://purl.
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dos") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001011> "A relationship between the regulation of a process and the agent that executes that process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0001011> "GO:0098772 GO:0065009")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0001011> "PO:0025131 GO:0043234 SO:0000374 UBERON:0000465 SO:0000374 PR:000000001"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0001011> "PO:0025131 GO:0032991 SO:0000374 UBERON:0000465 SO:0000374 PR:000000001"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GOREL_0001011> "GOREL:0001011"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GOREL_0001011> "regulates_o_has_agent"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0001011> "go/extensions/gorel"^^xsd:string)
@@ -1245,7 +1245,7 @@ ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0001030> <http://purl
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0098702> "A relation that holds between the regulation of a molecular function and the agent that executes that function.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0098702> "GO:0098772 GO:0065009"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0098702> "GO:0043234 SO:0000374 PR:000000001"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0098702> "GO:0032991 SO:0000374 PR:000000001"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0098702> "Use this relation to link either a molecular function, or a biological process that regulates a molecular function, to the gene product or complex that executes the regulated function.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098702> <http://purl.obolibrary.org/obo/go#AE_sequence_or_complex>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098702> <http://purl.obolibrary.org/obo/go#display_for_curators>)
@@ -1258,9 +1258,9 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0098702> <http://purl.
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0098788> "A relationship that holds between a process and a gene whose transcription is regulated by that process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0098788> "BFO:0000015")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0098788> "SO:0000704"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0098788> "PR:000000001 SO:0000673 SO:0000704"^^xsd:string)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dos") <http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0098788> "Relates a regulatory process or function to the gene whose transcription it regulates.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098788> <http://purl.obolibrary.org/obo/go#AE_sequence_feature>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098788> <http://purl.obolibrary.org/obo/go#AE_sequence_or_complex>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098788> <http://purl.obolibrary.org/obo/go#display_for_curators>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098788> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0098788> "regulates_transcription_of")
@@ -1274,9 +1274,9 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0098788> <http://purl.
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0098789> "A relationship that holds between a process and a gene whose expression is regulated by that process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0098789> "BFO:0000015")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0098789> "SO:0000704")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0098789> "PR:000000001 SO:0000673 SO:0000704"^^xsd:string)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dos") <http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0098789> "Relates a regulatory process or function to the gene whose expression it regulates.  Expression encompasses transcription, regulation and processing involved in maturation.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098789> <http://purl.obolibrary.org/obo/go#AE_sequence_feature>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098789> <http://purl.obolibrary.org/obo/go#AE_sequence_or_complex>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098789> <http://purl.obolibrary.org/obo/go#display_for_curators>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098789> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0098789> "regulates_expression_of")
@@ -1290,9 +1290,9 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0098789> <http://purl.
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0098790> "A relationship that holds between a process and a protein coding gene whose translation is regulated by that process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0098790> "BFO:0000015")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0098790> "SO:0000704")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0098790> "PR:000000001 SO:0000673 SO:0000704"^^xsd:string)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dos") <http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0098790> "Relates a regulatory process or function to the gene whose translation it regulates.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098790> <http://purl.obolibrary.org/obo/go#AE_sequence_feature>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098790> <http://purl.obolibrary.org/obo/go#AE_sequence_or_complex>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098790> <http://purl.obolibrary.org/obo/go#display_for_curators>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098790> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0098790> "regulates_translation_of")
