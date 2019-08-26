@@ -914,21 +914,19 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000754> <http://purl.
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000754> <http://purl.obolibrary.org/obo/BFO_0000001>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0000754> <http://purl.obolibrary.org/obo/SO_0000110>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000755> (in_absence_of)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000755> (obsolete in_absence_of)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:rph"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000755> "Identifies a chemical, gene product or complex in the absence of which an ontology term is observed to apply to the annotated gene product."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:rph"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000755> "OBSOLETE. Identifies a chemical, gene product or complex in the absence of which an ontology term is observed to apply to the annotated gene product."^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000755> "BFO:0000001"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000755> "CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0000755> "Identifies a chemical, gene product or complex in the absence of which an ontology term is observed to apply to the annotated gene product."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GOREL_0000755> "GOREL:0000755"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000755> "go/extensions/gorel"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0000755> <http://purl.obolibrary.org/obo/go#AE_chemical>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0000755> <http://purl.obolibrary.org/obo/go#AE_sequence_or_complex>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0000755> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000755> "in_absence_of"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000755> "DEPRECATION WARNING: The GO editors have agreed that this relation should be deprecated. There are two main reasons for this 1. The relation does not extend the meaning of the GO term, as annotation relations are meant to, but instead specifies conditions under which the annotation is true. This can not be expressed in OWL. Annotation extensions using this relation will never fold. 2. The relation includes a hidden negation. This is problematic for a number of reasons, the most important of which is that burying negations in otherwise positive relationships can cause serious problems for inference.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000755> "in_absence_of"^^xsd:string)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000755> <http://purl.obolibrary.org/obo/BFO_0000001>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000755> "This relation was obsoleted because it does not follow GO-CAM specifications."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000755> "obsolete in_absence_of"^^xsd:string)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000755> "true"^^xsd:boolean)
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0001000> (axis_of)
 
