@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/go/extensions/x-disjoint.owl#"
      xml:base="http://purl.obolibrary.org/obo/go/extensions/x-disjoint.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:x-disjoint="http://purl.obolibrary.org/obo/go/extensions/x-disjoint#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl">
         <rdfs:comment>This is an external bridge ontology that contains OWL disjointness constraints.</rdfs:comment>
@@ -16,7 +16,29 @@
     
 
 
-  
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -42,6 +64,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
     
 
 
@@ -163,8 +191,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005634">
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0005737"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0005829"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0044444"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0044445"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005737"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005829"/>
+            </owl:Restriction>
+        </owl:disjointWith>
     </owl:Class>
     
 
@@ -178,9 +216,24 @@
     <!-- http://purl.obolibrary.org/obo/GO_0005829 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005829">
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0044422"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0044428"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0044434"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009507"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043226"/>
+            </owl:Restriction>
+        </owl:disjointWith>
     </owl:Class>
     
 
@@ -232,6 +285,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0008152 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008152"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009507"/>
     
 
 
@@ -464,9 +523,7 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0044421 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044421">
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0044464"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044421"/>
     
 
 
@@ -478,10 +535,7 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0044428 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044428">
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0044444"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0044445"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044428"/>
     
 
 
@@ -712,11 +766,41 @@
 
     <owl:Restriction>
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005576"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0000279"/>
         <owl:disjointWith>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051320"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005737"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005829"/>
             </owl:Restriction>
         </owl:disjointWith>
     </owl:Restriction>
@@ -734,5 +818,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.13.2019-06-02T22:01:41Z) https://github.com/owlcs/owlapi -->
 
