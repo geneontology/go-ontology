@@ -329,7 +329,6 @@ GO:0090136	epithelial cell-cell adhesion	NCBITaxon:33090	Viridiplantae
 GO:0090136	epithelial cell-cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
 GO:0090632	N-glycolylneuraminic acid (Neu5Gc) cytidylyltransferase activity	NCBITaxon:9606	Homo sapiens
 GO:0097108	hedgehog family protein binding	NCBITaxon:4751	Fungi
-GO:0097223	sperm part	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
 GO:0097351	toxin-antitoxin pair type II binding	NCBITaxon:2759	Eukaryota
 GO:0097371	MDM2/MDM4 family protein binding	NCBITaxon:4751	Fungi
 GO:0097588	archaeal or bacterial-type flagellum-dependent cell motility	NCBITaxon:2759	Eukaryota
