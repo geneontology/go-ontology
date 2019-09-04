@@ -396,7 +396,6 @@ GO:0043684	type IV secretion system complex	NCBITaxon:2	Bacteria
 GO:0043952	protein transport by the Sec complex	NCBITaxon:2	Bacteria
 GO:0044223	pirellulosome	NCBITaxon:2	Bacteria
 GO:0044312	crystalloid	NCBITaxon:5794	Apicomplexa
-GO:0044456	synapse part	NCBITaxon:33208	Metazoa
 GO:0044682	archaeal-specific GTP cyclohydrolase activity	NCBITaxon:2157	Archaea
 GO:0044770	cell cycle phase transition	NCBITaxon:2759	Eukaryota
 GO:0044781	bacterial-type flagellum organization	NCBITaxon:2	Bacteria
@@ -549,7 +548,6 @@ GO:0097347	TAM protein secretion complex	NCBITaxon:2	Bacteria
 GO:0097387	capitate projection	NCBITaxon:7203	Brachycera
 GO:0097413	Lewy body	NCBITaxon:33208	Metazoa
 GO:0097418	neurofibrillary tangle	NCBITaxon:33208	Metazoa
-GO:0097458	neuron part	NCBITaxon:33208	Metazoa
 GO:0097497	blood vessel endothelial cell delamination	NCBITaxon:33208	Metazoa
 GO:0097554	left anterior flagellum	NCBITaxon:5738	Diplomonadida
 GO:0097555	right anterior flagellum	NCBITaxon:5738	Diplomonadida
