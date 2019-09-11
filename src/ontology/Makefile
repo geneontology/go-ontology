@@ -495,6 +495,7 @@ sparql_test: $(SRC) reasoned.owl enhanced.owl
 	$(ROBOT) verify --input reasoned.owl --queries $(SPARQLDIR)/multiple-class-links-violation.sparql -O reports/
 	# This could be merged into previous invocation after robot bug #518 is fixed
 	$(ROBOT) verify --input enhanced.owl --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
+	$(ROBOT) verify --input reasoned.owl --queries ../sparql/missing_superclass-violation.sparql -O reports/
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
