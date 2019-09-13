@@ -12,17 +12,18 @@ SELECT DISTINCT ?entity
 WHERE {
     ?entity a owl:Class .
 
-    FILTER (isUri(?entity)) .
-    FILTER NOT EXISTS { ?entity owl:deprecated true } .
-    FILTER strstarts( str(?entity), "http://purl.obolibrary.org/obo/GO_" ) .
+    FILTER (isUri(?entity))
+    FILTER NOT EXISTS { ?entity owl:deprecated true }
+    FILTER strstarts( str(?entity), "http://purl.obolibrary.org/obo/GO_" )
     
     FILTER NOT EXISTS { 
         ?entity rdfs:subClassOf ?super .
-        FILTER strstarts( str(?super), "http://purl.obolibrary.org/obo/GO_" ) .
+        FILTER (isUri(?super))
+        FILTER strstarts( str(?super), "http://purl.obolibrary.org/obo/GO_" )
     } .
     
-    FILTER (?entity != GO:0003674) .
-    FILTER (?entity != GO:0005575) .
-    FILTER (?entity != GO:0008150) .
+    FILTER (?entity != GO:0003674)
+    FILTER (?entity != GO:0005575)
+    FILTER (?entity != GO:0008150)
 }
 ORDER BY ?entity
