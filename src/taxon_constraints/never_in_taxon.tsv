@@ -420,3 +420,9 @@ GO:0001533	cornified envelope	NCBITaxon:50557	Insecta
 GO:0007338	single fertilization	NCBITaxon:58024	Spermatophyta
 GO:0009271	phage shock	NCBITaxon:4751	Fungi
 GO:0009297	pilus assembly	NCBITaxon:4751	Fungi
+GO:0030199	collagen fibril organization	NCBITaxon:4751	Fungi
+GO:0005125	cytokine activity	NCBITaxon:4751	Fungi
+GO:1900136	regulation of cytokine activity	NCBITaxon:4751	Fungi
+GO:0034332	adherens junction organization	NCBITaxon:4751	Fungi
+GO:0045747	regulation of Notch signaling pathway	NCBITaxon:4751	Fungi
+GO:0007219	Notch signaling pathway	NCBITaxon:4751	Fungi
