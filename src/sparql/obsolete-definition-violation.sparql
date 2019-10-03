@@ -1,0 +1,20 @@
+# This checks if a class definition does not begin with "OBSOLETE"
+# in the definition (http://purl.obolibrary.org/obo/IAO_0000115) of the term
+
+PREFIX definition: <http://purl.obolibrary.org/obo/IAO_0000115>
+prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix oio: <http://www.geneontology.org/formats/oboInOwl#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?term ?definition
+WHERE {
+    # Find deprecated terms (obsolete)
+    ?term   a   owl:Class ;
+            owl:deprecated  "true"^^xsd:boolean ;
+            definition: ?definition .
+    
+    FILTER(!strstarts(?definition, "OBSOLETE"))
+}
+LIMIT 100
