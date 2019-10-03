@@ -15,6 +15,6 @@ WHERE {
             owl:deprecated  "true"^^xsd:boolean ;
             definition: ?definition .
     
-    FILTER(!strstarts(?definition, "OBSOLETE"))
+    FILTER(!strstarts(?definition, "OBSOLETE."))
 }
 LIMIT 100
