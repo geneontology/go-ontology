@@ -463,6 +463,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032991">
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0055044"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0110165"/>
     </owl:Class>
     
 
@@ -746,6 +747,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0071840 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0071840"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0110165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0110165"/>
     
 
 
