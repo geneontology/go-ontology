@@ -15,6 +15,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CARO_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_17843>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_18111>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))
@@ -25,6 +26,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50906>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005575>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0110165>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBA_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0100026>))
@@ -41,7 +43,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000833>))
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/BFO_0000023> (<http://purl.obolibrary.org/obo/BFO_0000023>)
+# Class: <http://purl.obolibrary.org/obo/BFO_0000023> (role)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/CHEBI_50906>)
 
@@ -76,6 +78,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0005575> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/GO_0008150> (biological_process)
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0110165> (cellular anatomical entity)
+
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0110165> <http://purl.obolibrary.org/obo/CARO_0000000>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_1> (root)
 
