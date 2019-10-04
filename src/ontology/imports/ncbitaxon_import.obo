@@ -56,7 +56,7 @@ relationship: RO:0002162 NCBITaxon:117569 ! in taxon Hyperoartia
 [Term]
 id: NCBITaxon:117570
 name: Teleostomi
-is_a: NCBITaxon:7776 ! Gnathostomata <vertebrate>
+is_a: NCBITaxon:7776 ! Gnathostomata <vertebrates>
 relationship: RO:0002162 NCBITaxon:117570 ! in taxon Teleostomi
 
 [Term]
@@ -107,7 +107,7 @@ relationship: RO:0002162 NCBITaxon:131209 ! in taxon Zygnemophyceae
 id: NCBITaxon:131221
 name: Streptophytina
 synonym: "Charophyta/Embryophyta group" RELATED []
-synonym: "charophyte/embryophyte group" RELATED []
+synonym: "charophyte/embryophyte group" EXACT []
 is_a: NCBITaxon:35493 ! Streptophyta
 relationship: RO:0002162 NCBITaxon:131221 ! in taxon Streptophytina
 
@@ -134,10 +134,12 @@ relationship: RO:0002162 NCBITaxon:1338369 ! in taxon Dipnotetrapodomorpha
 
 [Term]
 id: NCBITaxon:142796
-name: Mycetozoa
+name: Eumycetozoa
+synonym: "Eumycetozoa Zopf, 1884" RELATED []
+synonym: "Mycetozoa" RELATED []
 synonym: "mycetozoans" RELATED []
-is_a: NCBITaxon:554915 ! Amoebozoa
-relationship: RO:0002162 NCBITaxon:142796 ! in taxon Mycetozoa
+is_a: NCBITaxon:2605435 ! Evosea
+relationship: RO:0002162 NCBITaxon:142796 ! in taxon Eumycetozoa
 
 [Term]
 id: NCBITaxon:1437010
@@ -150,7 +152,7 @@ relationship: RO:0002162 NCBITaxon:1437010 ! in taxon Boreoeutheria
 id: NCBITaxon:1437180
 name: Acrogymnospermae
 is_a: NCBITaxon:58024 ! Spermatophyta
-disjoint_from: NCBITaxon:3398 ! Magnoliophyta
+disjoint_from: NCBITaxon:3398 ! Magnoliopsida
 relationship: RO:0002162 NCBITaxon:1437180 ! in taxon Acrogymnospermae
 
 [Term]
@@ -186,8 +188,8 @@ id: NCBITaxon:1476529
 name: Cyclostomata
 synonym: "Agnatha" RELATED []
 synonym: "jawless vertebrates" EXACT []
-is_a: NCBITaxon:7742 ! Vertebrata <Metazoa>
-disjoint_from: NCBITaxon:7776 ! Gnathostomata <vertebrate>
+is_a: NCBITaxon:7742 ! Vertebrata <vertebrates>
+disjoint_from: NCBITaxon:7776 ! Gnathostomata <vertebrates>
 relationship: RO:0002162 NCBITaxon:1476529 ! in taxon Cyclostomata
 
 [Term]
@@ -239,7 +241,6 @@ name: Bacteria
 synonym: "bacteria" RELATED []
 synonym: "eubacteria" EXACT []
 synonym: "Monera" RELATED []
-synonym: "not Bacteria Haeckel 1894" RELATED []
 synonym: "Procaryotae" RELATED []
 synonym: "Prokaryota" RELATED []
 synonym: "Prokaryotae" RELATED []
@@ -302,12 +303,30 @@ disjoint_from: NCBITaxon:2759 ! Eukaryota
 relationship: RO:0002162 NCBITaxon:2157 ! in taxon Archaea
 
 [Term]
+id: NCBITaxon:2301116
+name: Rhabditina
+is_a: NCBITaxon:6236 ! Rhabditida
+relationship: RO:0002162 NCBITaxon:2301116 ! in taxon Rhabditina
+
+[Term]
+id: NCBITaxon:2301119
+name: Rhabditomorpha
+is_a: NCBITaxon:2301116 ! Rhabditina
+relationship: RO:0002162 NCBITaxon:2301119 ! in taxon Rhabditomorpha
+
+[Term]
 id: NCBITaxon:241407
 name: Saccharomycetales incertae sedis
 is_a: NCBITaxon:4892 ! Saccharomycetales
 disjoint_from: NCBITaxon:34353 ! Dipodascaceae
 disjoint_from: NCBITaxon:4893 ! Saccharomycetaceae
 relationship: RO:0002162 NCBITaxon:241407 ! in taxon Saccharomycetales incertae sedis
+
+[Term]
+id: NCBITaxon:2605435
+name: Evosea
+is_a: NCBITaxon:554915 ! Amoebozoa
+relationship: RO:0002162 NCBITaxon:2605435 ! in taxon Evosea
 
 [Term]
 id: NCBITaxon:2759
@@ -330,16 +349,16 @@ relationship: RO:0002162 NCBITaxon:27896 ! in taxon Planariidae
 
 [Term]
 id: NCBITaxon:28009
-name: Choanoflagellida
-synonym: "Choanoflagellata" RELATED []
+name: Choanoflagellata
 synonym: "Choanoflagellatea" RELATED []
 synonym: "choanoflagellates" RELATED []
+synonym: "Choanoflagellida" RELATED []
 synonym: "Choanomonada" RELATED []
 synonym: "Choanozoa" RELATED []
 is_a: NCBITaxon:33154 ! Opisthokonta
 disjoint_from: NCBITaxon:33208 ! Metazoa
 disjoint_from: NCBITaxon:4751 ! Fungi
-relationship: RO:0002162 NCBITaxon:28009 ! in taxon Choanoflagellida
+relationship: RO:0002162 NCBITaxon:28009 ! in taxon Choanoflagellata
 
 [Term]
 id: NCBITaxon:2864
@@ -439,10 +458,10 @@ relationship: RO:0002162 NCBITaxon:32524 ! in taxon Amniota
 
 [Term]
 id: NCBITaxon:32525
-name: Theria <Mammalia>
+name: Theria <mammals>
 synonym: "Theria" EXACT []
 is_a: NCBITaxon:40674 ! Mammalia
-relationship: RO:0002162 NCBITaxon:32525 ! in taxon Theria <Mammalia>
+relationship: RO:0002162 NCBITaxon:32525 ! in taxon Theria <mammals>
 
 [Term]
 id: NCBITaxon:32561
@@ -460,7 +479,7 @@ synonym: "Dictyostelia" RELATED []
 synonym: "dictyostelid cellular slime molds" EXACT []
 synonym: "Dictyostelida" RELATED []
 synonym: "Dictyosteliida" RELATED []
-is_a: NCBITaxon:142796 ! Mycetozoa
+is_a: NCBITaxon:142796 ! Eumycetozoa
 relationship: RO:0002162 NCBITaxon:33083 ! in taxon Dictyostelids
 
 [Term]
@@ -468,7 +487,7 @@ id: NCBITaxon:33090
 name: Viridiplantae
 synonym: "Chlorobionta" RELATED []
 synonym: "Chlorophyta/Embryophyta group" RELATED []
-synonym: "chlorophyte/embryophyte group" RELATED []
+synonym: "chlorophyte/embryophyte group" EXACT []
 synonym: "green plants" EXACT []
 synonym: "green plants" RELATED []
 is_a: NCBITaxon:2759 ! Eukaryota
@@ -530,7 +549,7 @@ relationship: RO:0002162 NCBITaxon:33317 ! in taxon Protostomia
 [Term]
 id: NCBITaxon:33340
 name: Neoptera
-is_a: NCBITaxon:7496 ! Pterygota <winged insects>
+is_a: NCBITaxon:7496 ! Pterygota <insects>
 relationship: RO:0002162 NCBITaxon:33340 ! in taxon Neoptera
 
 [Term]
@@ -589,13 +608,14 @@ relationship: RO:0002162 NCBITaxon:3378 ! in taxon Gnetales
 
 [Term]
 id: NCBITaxon:3398
-name: Magnoliophyta
+name: Magnoliopsida
 synonym: "Angiospermae" RELATED []
 synonym: "angiosperms" EXACT []
 synonym: "flowering plants" EXACT []
 synonym: "flowering plants" RELATED []
+synonym: "Magnoliophyta" RELATED []
 is_a: NCBITaxon:58024 ! Spermatophyta
-relationship: RO:0002162 NCBITaxon:3398 ! in taxon Magnoliophyta
+relationship: RO:0002162 NCBITaxon:3398 ! in taxon Magnoliopsida
 
 [Term]
 id: NCBITaxon:34346
@@ -644,6 +664,19 @@ disjoint_from: NCBITaxon:8457 ! Sauropsida
 relationship: RO:0002162 NCBITaxon:40674 ! in taxon Mammalia
 
 [Term]
+id: NCBITaxon:41084
+name: Polyphaga <beetles>
+synonym: "Polyphaga" EXACT []
+is_a: NCBITaxon:7041 ! Coleoptera
+relationship: RO:0002162 NCBITaxon:41084 ! in taxon Polyphaga <beetles>
+
+[Term]
+id: NCBITaxon:41087
+name: Elateriformia
+is_a: NCBITaxon:41084 ! Polyphaga <beetles>
+relationship: RO:0002162 NCBITaxon:41087 ! in taxon Elateriformia
+
+[Term]
 id: NCBITaxon:41665
 name: Neopterygii
 synonym: "Neopterygi" RELATED []
@@ -653,6 +686,7 @@ relationship: RO:0002162 NCBITaxon:41665 ! in taxon Neopterygii
 [Term]
 id: NCBITaxon:422676
 name: Aconoidasida
+synonym: "Hematozoa Vivier 1982" RELATED []
 is_a: NCBITaxon:5794 ! Apicomplexa
 relationship: RO:0002162 NCBITaxon:422676 ! in taxon Aconoidasida
 
@@ -737,7 +771,7 @@ relationship: RO:0002162 NCBITaxon:4891 ! in taxon Saccharomycetes
 [Term]
 id: NCBITaxon:4892
 name: Saccharomycetales
-synonym: "budding yeasts" EXACT []
+synonym: "budding yeasts" RELATED []
 synonym: "Endomycetales" RELATED []
 is_a: NCBITaxon:4891 ! Saccharomycetes
 relationship: RO:0002162 NCBITaxon:4892 ! in taxon Saccharomycetales
@@ -784,6 +818,7 @@ name: Saccharomyces cerevisiae
 synonym: "baker's yeast" EXACT []
 synonym: "brewer's yeast" EXACT []
 synonym: "Candida robusta" RELATED []
+synonym: "S. cerevisiae" EXACT []
 synonym: "Saccaromyces cerevisiae" RELATED []
 synonym: "Saccharomyce cerevisiae" RELATED []
 synonym: "Saccharomyces capensis" RELATED []
@@ -827,7 +862,7 @@ relationship: RO:0002162 NCBITaxon:554915 ! in taxon Amoebozoa
 [Term]
 id: NCBITaxon:55879
 name: Rhabditoidea
-is_a: NCBITaxon:6236 ! Rhabditida
+is_a: NCBITaxon:2301119 ! Rhabditomorpha
 relationship: RO:0002162 NCBITaxon:55879 ! in taxon Rhabditoidea
 
 [Term]
@@ -921,6 +956,7 @@ id: NCBITaxon:5819
 name: Haemosporida
 synonym: "haemosporidians" EXACT []
 synonym: "Haemosporina" RELATED []
+synonym: "Haemospororida" RELATED []
 is_a: NCBITaxon:422676 ! Aconoidasida
 relationship: RO:0002162 NCBITaxon:5819 ! in taxon Haemosporida
 
@@ -1027,6 +1063,21 @@ is_a: NCBITaxon:197562 ! Pancrustacea
 relationship: RO:0002162 NCBITaxon:6960 ! in taxon Hexapoda
 
 [Term]
+id: NCBITaxon:7041
+name: Coleoptera
+synonym: "beetles" EXACT []
+synonym: "beetles" RELATED []
+is_a: NCBITaxon:33392 ! Holometabola
+disjoint_from: NCBITaxon:7147 ! Diptera
+relationship: RO:0002162 NCBITaxon:7041 ! in taxon Coleoptera
+
+[Term]
+id: NCBITaxon:71193
+name: Elateroidea
+is_a: NCBITaxon:41087 ! Elateriformia
+relationship: RO:0002162 NCBITaxon:71193 ! in taxon Elateroidea
+
+[Term]
 id: NCBITaxon:7147
 name: Diptera
 synonym: "flies" EXACT []
@@ -1048,11 +1099,11 @@ relationship: RO:0002162 NCBITaxon:7203 ! in taxon Brachycera
 
 [Term]
 id: NCBITaxon:7496
-name: Pterygota <winged insects>
+name: Pterygota <insects>
 synonym: "Pterygota" EXACT []
 synonym: "winged insects" EXACT []
 is_a: NCBITaxon:85512 ! Dicondylia
-relationship: RO:0002162 NCBITaxon:7496 ! in taxon Pterygota <winged insects>
+relationship: RO:0002162 NCBITaxon:7496 ! in taxon Pterygota <insects>
 
 [Term]
 id: NCBITaxon:7711
@@ -1064,12 +1115,12 @@ relationship: RO:0002162 NCBITaxon:7711 ! in taxon Chordata
 
 [Term]
 id: NCBITaxon:7742
-name: Vertebrata <Metazoa>
+name: Vertebrata <vertebrates>
 synonym: "Vertebrata" EXACT []
 synonym: "vertebrates" EXACT []
 synonym: "vertebrates" RELATED []
-is_a: NCBITaxon:89593 ! Craniata <chordata>
-relationship: RO:0002162 NCBITaxon:7742 ! in taxon Vertebrata <Metazoa>
+is_a: NCBITaxon:89593 ! Craniata <chordates>
+relationship: RO:0002162 NCBITaxon:7742 ! in taxon Vertebrata <vertebrates>
 
 [Term]
 id: NCBITaxon:7745
@@ -1104,16 +1155,16 @@ relationship: RO:0002162 NCBITaxon:7762 ! in taxon Myxinidae
 
 [Term]
 id: NCBITaxon:7776
-name: Gnathostomata <vertebrate>
+name: Gnathostomata <vertebrates>
 synonym: "Gnathostomata" EXACT []
 synonym: "jawed vertebrates" EXACT []
-is_a: NCBITaxon:7742 ! Vertebrata <Metazoa>
-relationship: RO:0002162 NCBITaxon:7776 ! in taxon Gnathostomata <vertebrate>
+is_a: NCBITaxon:7742 ! Vertebrata <vertebrates>
+relationship: RO:0002162 NCBITaxon:7776 ! in taxon Gnathostomata <vertebrates>
 
 [Term]
 id: NCBITaxon:78536
 name: Euphyllophyta
-synonym: "euphyllophytes" RELATED []
+synonym: "euphyllophytes" EXACT []
 is_a: NCBITaxon:58023 ! Tracheophyta
 relationship: RO:0002162 NCBITaxon:78536 ! in taxon Euphyllophyta
 
@@ -1172,10 +1223,10 @@ relationship: RO:0002162 NCBITaxon:88770 ! in taxon Panarthropoda
 
 [Term]
 id: NCBITaxon:89593
-name: Craniata <chordata>
+name: Craniata <chordates>
 synonym: "Craniata" EXACT []
 is_a: NCBITaxon:7711 ! Chordata
-relationship: RO:0002162 NCBITaxon:89593 ! in taxon Craniata <chordata>
+relationship: RO:0002162 NCBITaxon:89593 ! in taxon Craniata <chordates>
 
 [Term]
 id: NCBITaxon:9347
@@ -1185,7 +1236,7 @@ synonym: "placental mammals" EXACT []
 synonym: "Placentalia" RELATED []
 synonym: "placentals" EXACT []
 synonym: "placentals" RELATED []
-is_a: NCBITaxon:32525 ! Theria <Mammalia>
+is_a: NCBITaxon:32525 ! Theria <mammals>
 relationship: RO:0002162 NCBITaxon:9347 ! in taxon Eutheria
 
 [Term]
