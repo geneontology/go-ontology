@@ -362,7 +362,6 @@ mirror/taxslim-disjoint-over-in-taxon.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/ncbitaxon/subsets/taxslim-disjoint-over-in-taxon.owl $(WGET_OUT)
 .PRECIOUS: mirror/taxslim-disjoint-over-in-taxon.owl
 
-# special case: download obo for speed for ncbitaxon
 mirror/pr-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/pr.owl $(WGET_OUT)
 .PRECIOUS: mirror/pr-download.owl
@@ -383,9 +382,9 @@ mirror/oba-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo -O $@.tmp && $(OWLTOOLS) $@.tmp --make-subset-by-properties -n // -o $@
 .PRECIOUS: mirror/oba-download.owl
 
-# special case: use basic for cl
+# special case: use base for cl
 mirror/cl-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/cl/cl-basic.owl $(WGET_OUT)
+	wget --no-check-certificate $(OBO)/cl/cl-base.owl $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
 
