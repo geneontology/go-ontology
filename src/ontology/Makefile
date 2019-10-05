@@ -382,9 +382,9 @@ mirror/oba-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo -O $@.tmp && $(OWLTOOLS) $@.tmp --make-subset-by-properties -n // -o $@
 .PRECIOUS: mirror/oba-download.owl
 
-# special case: use base for cl
+# special case: use basic for cl until base is compatible
 mirror/cl-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/cl/cl-base.owl $(WGET_OUT)
+	wget --no-check-certificate $(OBO)/cl/cl-basic.owl $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
 
