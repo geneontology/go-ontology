@@ -8,8 +8,6 @@ GO:0000807	Z chromosome	NCBITaxon:40674	Mammalia
 GO:0000918	division septum site selection	NCBITaxon:4896	Schizosaccharomyces pombe
 GO:0000920	septum digestion after cytokinesis	NCBITaxon:33208	Metazoa
 GO:0000920	septum digestion after cytokinesis	NCBITaxon:554915	Amoebozoa
-GO:0000980	RNA polymerase II distal enhancer sequence-specific DNA binding	NCBITaxon:147554	Schizosaccharomycetes
-GO:0000980	RNA polymerase II distal enhancer sequence-specific DNA binding	NCBITaxon:4891	Saccharomycetes
 GO:0001072	transcription antitermination factor activity, RNA binding	NCBITaxon:2759	Eukaryota
 GO:0001508	action potential	NCBITaxon:4895	Schizosaccharomyces
 GO:0001626	nociceptin receptor activity	NCBITaxon:4751	Fungi
