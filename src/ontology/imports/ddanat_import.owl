@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/ddanat_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2019-09-11/imports/ddanat_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2019-10-22/imports/ddanat_import.owl"/>
     </owl:Ontology>
     
 
@@ -166,6 +166,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ddanat#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ddanat#part_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part_of</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -260,6 +271,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0010082"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When the conditions are not optimal for the completion of development, the standing slug bends from a vertical position to a horizontal position, producing a migratory that slug has the ability to migrate towards more favorable environmental conditions. The slug is cylindrical in shape with a rounded, tapering region at its anterior end that is raised with respect to the substratum. It usually measures between 0.8 to 1.2 mm in length with a diameter of 0.15 to 0.25 mm. Slugs sense and respond to light, temperature and acidity, and do not enter culmination until the conditions are optimal. The slug can move at a speed of 0.5 to 2 mm per hour. A trail of slime is deposited on the surface during migration.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pseudoplasmodium</oboInOwl:hasBroadSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">migratory slug</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DDANAT_0000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000009">
@@ -332,6 +360,805 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0010085"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macroscopic appearance of groups of chemotactic cells orienting themselves in a head to tail fashion as they are migrating in the direction of the chemotactic stimulus to form aggregates.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pseudoplasmodial stream</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000087"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elongated protusion of the tipped mound located on top of the cell mass that contains pstA cells flanked by pstO cells (expressing ecmA from the proximal and the distal part of its promoter, respectively).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pst region of the tipped mound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apical tip of the tipped mound</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk region of the tipped mound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000086"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region of the tipped mound mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psp region of the tipped mound</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prespore region of the tipped mound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000087"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elongated protrusion of the standing slug located on top of the cell mass that contains pstA cells flanked by pstO cells (expressing ecmA from the proximal and the distal part of its promoter, respectively).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pst region of the standing slug</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk region of the standing slug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000088"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Most apical region of the prestalk zone of the standing slug characterized by high expression of the ecmA gene directed by the proximal part of its promoter (ecmA promoter).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstA region of the standing slug</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk A region of the standing slug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000091"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cone-shaped area of the prestalk zone of the standing slug that occupies a core among the pstA region. Cells of the pstAB region express both the ecmA and ecmB genes.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk AB region of the standing slug</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstAB region</oboInOwl:hasNarrowSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk AB core region of the standing slug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000086"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region of the standing slug mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psp region of the standing slug</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prespore region of the standing slug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000110"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region of the standing slug in contact with the substratum and composed of prestalk B cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">base of the standing slug</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal region of the standing slug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000087"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The prestalk region of the migratory slug is located at the anterior of the organism. It consists of about one quarter of the cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pst region of the migratory slug</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior region of the migratory slug</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk region of the migratory slug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000088"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000028"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anterior-most region of the prestalk zone of the migratory slug and characterized by high expression of the ecmA gene directed by the proximal part of its promoter (ecmA promoter).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk AO region of the migratory slug</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstA region of the migratory slug</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstAO region of the migratory slug</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk A region of the migratory slug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000091"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000028"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cone-shaped area of the prestalk zone of the migratory slug that occupies a core among the pstA region. Cells of the pstAB region express both the ecmA and ecmB genes.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk AB region of the migratory slug</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstAB region of the migratory slug</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk AB core region of the migratory slug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000086"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region of the migratory slug composed mostly of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psp region of the migratory slug</oboInOwl:hasBroadSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prespore region of the migratory slug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000087"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The prestalk region of the early culminant is located at the most apical part of the organism. It consists of about one quarter of the cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pst region of the early culminant</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk region of the early culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000088"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anterior-most region of the prestalk zone of the early culminant characterized by high expression of the ecmA gene directed by the proximal part of its promoter (ecmA promoter).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstA region of the early culminant</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk A region of the early culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000091"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cone-shaped area of the prestalk zone of the early culminant that occupies a core among the pstA region. Cells of the pstAB region express both the ecmA and ecmB genes.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk AB region of the early culminant</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstAB region of the early culminant</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk AB core region of the early culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000086"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region of the early culminant mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psp region of the early culminant</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prespore region of the early culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000110"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region of the early culminant located at the closest to the substratum composed of pstB cells that originated from rearguard cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">base of the early culminant</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal region of the early culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000087"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The prestalk region of the mid culminant is located at the most apical part of the organism. It consists of about one quarter of the cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pst region of the mid culminant</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk region of the mid culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000088"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anterior-most region of the prestalk zone of the mid culminant characterized by high expression of the ecmA gene directed by the proximal part of its promoter (ecmA promoter).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstA region of the mid culminant</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk A region of the mid culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000091"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000048"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cone-shaped area of the prestalk zone of the mid culminant that occupies a core among the pstA region. Cells of the pstAB region express both the ecmA and ecmB genes.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk AB region of the mid culminant</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstAB region of the mid culminant</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk AB core region of the mid culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000093"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tubular structure of the mid culminant that consists of cellulose-covered cells stacked on top of each other and surrounded by an acellular stalk tube composed of cellulose and glycoprotein.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sorophore of the mid culminant</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stalk of the mid culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000086"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region of the mid culminant mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psp region of the mid culminant</oboInOwl:hasBroadSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prespore region of the mid culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000089"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region located of the mid culminant located closest to the substratum and composed of pst cells (rearguard cells).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal disc of the mid culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000093"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tubular structure of the late culminant that consists of cellulose-covered cells stacked on top of each other and surrounded by an acellular stalk tube composed of cellulose and glycoprotein.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sorophore of the late culminant</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stalk of the late culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000094"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ovoid structure of the late culminant supported by the stalk and that contains the spores.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spore head of the late culminant</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sorus of the late culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000089"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conical-shaped structure of the late culminant that anchors the stalk to the substratum. Composed of anterior-like cells.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal disc of the late culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central portion of the basal disc of the late culminant. Composed of stalk cells.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inner basal disc of the late culminant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000093"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tubular structure of the fruiting body that consists of cellulose-covered cells stacked on top of each other and surrounded by an acellular stalk tube composed of cellulose and glycoprotein. The stalk of the mature fruiting body is usually 5-15 microns in diameter and between 1.5 to 3 cm in height.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sorophore of the fruiting body</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stalk of the fruiting body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000094"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure of the fruiting body supported by the stalk and that contains the spores. The sorus is 125-300 microns in diameter, lemon-shaped, and grayish white to pale yellow in color.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spore head of the fruiting body</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sorus of the fruiting body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000089"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conical-shaped structure of the fruiting body that anchors the stalk to the substratum, around 150 to 400 microns in diameter. Composed of anterior-like cells.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal disc of the fruiting body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000098"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000073"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central portion of the basal disc of the fruiting body composed of stalk cells.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inner basal disc of the fruiting body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000401"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell that is an individual member of the species Dictyostelium discoideum.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D. discoideum single cell organism</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dictyostelium discoideum single cell organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0010085"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psp region</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prespore region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0010085"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The prestalk region is located at the most apical part of the organism. It consists of about one quarter of the cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pst region</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0010085"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anterior-most region of the prestalk zone characterized by high expression of the ecmA gene directed by the proximal part of its promoter (ecmA promoter).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstA region</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk A region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0010085"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conical-shaped structure that anchors the stalk to the substratum. Composed of anterior-like cells.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal disc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0010085"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cone-shaped area of the prestalk zone that occupies a core among the pstA region. Cells of the pstAB region express both the ecmA and ecmB genes.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk AB region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstAB region</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk AB core region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0010085"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tubular structure that consists of cellulose-covered cells stacked on top of each other and surrounded by an acellular stalk tube composed of cellulose and glycoprotein.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sorophore</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stalk</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DDANAT_0000094 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000094">
@@ -339,6 +1166,382 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ovoid structure supported by the stalk and that contains the spores.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spore head</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sorus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0010085"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000089"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central portion of the basal disc. Composed of stalk cells.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inner basal disc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000088"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anterior-most region of the prestalk zone of the tipped mound characterized by high expression of the ecmA gene directed by the proximal part of its promoter (ecmA promoter).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstA region of the tipped mound</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk A region of the tipped mound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000091"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cone-shaped area of the prestalk zone of the tipped mound that occupies a core among the pstA region. Cells of the pstAB region express both the ecmA and ecmB genes.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk AB region of the tipped mound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstAB region</oboInOwl:hasNarrowSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk AB core region of the tipped mound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0010085"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Region of the early pseudoplasmodium located at the closest to the substratum composed of pstB cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">base</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0010001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000402">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000083"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000414"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Starved cell that secretes and responds to chemoattractants (cAMP).</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amoebae</oboInOwl:hasBroadSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemotactic amoeboid cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000403">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000401"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000402"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Differentiating cell composing the aggregate that has acquired adhesive properties.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggregate cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000401"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000403"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell that is undergoing differentiation to become a spore. Characterized by the presence of prespore vesicles (PV).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psp cell</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prespore cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000406">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000401"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell that is undergoing differentiation to become a stalk cell and characterized by the ability to update vital dyes. Represents about one-quarter of the cells. During development, prestalk cells are located in the anterior portion of the organism.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anterior cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pst cell</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000408">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000406"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell that is undergoing differentiation to become a stalk cell. pstA cells express the ecmA marker from a promoter region that is proximal to the ATG (ecmAO promoter). They are located at the anterior-most region of the slug. During culmination pstA cells differentiate into pstAB cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk A cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstAO cell</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstA cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000406"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000408"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000032"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000101"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell that is undergoing differentiation to become a stalk cell. pstAB cells express both ecmA and ecmB either simultaneously or sequentially. During culmination pstA differentiate into pstAB cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prestalk AB cell</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pstAB cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000401"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000410"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000074"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell of polyhedric shape filling the stalk tube. Stack cells are large (around 8 microns in diameter), highly vacuolated, and are surrounded by cell wall composed of cellulose. Stalk cells die upon terminal differentiation. Their role is to provide structural support for the fruiting body.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stalk cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DDANAT_0000414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DDANAT_0000414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000083"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#develops_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000405"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ddanat#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DDANAT_0000070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dormant cell protected by a tri-layer spore coat. The spore has an elliptical shape and is approximately 6-9 microns by 3 microns.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spore cell</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spore</rdfs:label>
     </owl:Class>
     
 
