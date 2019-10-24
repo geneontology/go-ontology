@@ -48,9 +48,8 @@ GO:0001890	placenta development	NCBITaxon:32525	Theria <Mammalia>
 GO:0001967	suckling behavior	NCBITaxon:40674	Mammalia
 GO:0002119	nematode larval development	NCBITaxon:33213	Bilateria
 GO:0002165	instar larval or pupal development	NCBITaxon:6656	Arthropoda
-GO:0002250  adaptive immune response NCBITaxon:33208	Metazoa
+GO:0002250	adaptive immune response	NCBITaxon:33208	Metazoa
 GO:0002414	immunoglobulin transcytosis in epithelial cells	NCBITaxon:33208	Metazoa
-GO:0002459	adaptive immune response based on somatic recombination of immune receptors built from leucine-rich repeat domains	NCBITaxon:89593	Craniata <chordata>
 GO:0002822	regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	NCBITaxon:7776	Gnathostomata <vertebrate>
 GO:0003341	cilium movement	NCBITaxon:2759	Eukaryota
 GO:0004694	eukaryotic translation initiation factor 2alpha kinase activity	NCBITaxon:2759	Eukaryota
