@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-09-11/imports/ddanat_import.owl
+data-version: go/releases/2019-10-22/imports/ddanat_import.owl
 ontology: go/imports/ddanat_import
 
 [Term]
@@ -46,6 +46,14 @@ is_a: DDANAT:0010082 ! whole organism
 relationship: develops_from DDANAT:0000006 ! tipped mound
 
 [Term]
+id: DDANAT:0000008
+name: migratory slug
+def: "When the conditions are not optimal for the completion of development, the standing slug bends from a vertical position to a horizontal position, producing a migratory that slug has the ability to migrate towards more favorable environmental conditions. The slug is cylindrical in shape with a rounded, tapering region at its anterior end that is raised with respect to the substratum. It usually measures between 0.8 to 1.2 mm in length with a diameter of 0.15 to 0.25 mm. Slugs sense and respond to light, temperature and acidity, and do not enter culmination until the conditions are optimal. The slug can move at a speed of 0.5 to 2 mm per hour. A trail of slime is deposited on the surface during migration." []
+synonym: "pseudoplasmodium" BROAD []
+is_a: DDANAT:0010082 ! whole organism
+relationship: develops_from DDANAT:0000007 ! standing slug
+
+[Term]
 id: DDANAT:0000009
 name: early culminant
 def: "Structure formed after the arrest of slug migration formed when cells of the posterior region of the slug move under the tip. Stalk tube formation is initiated at this stage." []
@@ -82,11 +90,472 @@ is_a: DDANAT:0010082 ! whole organism
 relationship: develops_from DDANAT:0000011 ! late culminant
 
 [Term]
+id: DDANAT:0000013
+name: stream
+def: "Macroscopic appearance of groups of chemotactic cells orienting themselves in a head to tail fashion as they are migrating in the direction of the chemotactic stimulus to form aggregates." []
+synonym: "pseudoplasmodial stream" EXACT []
+is_a: DDANAT:0010085 ! subdivision
+relationship: part_of DDANAT:0000003 ! aggregation territory
+
+[Term]
+id: DDANAT:0000016
+name: prestalk region of the tipped mound
+def: "Elongated protusion of the tipped mound located on top of the cell mass that contains pstA cells flanked by pstO cells (expressing ecmA from the proximal and the distal part of its promoter, respectively)." []
+synonym: "apical tip of the tipped mound" RELATED []
+synonym: "pst region of the tipped mound" EXACT []
+is_a: DDANAT:0000087 ! prestalk region
+relationship: develops_from DDANAT:0000005 ! mound
+relationship: part_of DDANAT:0000006 ! tipped mound
+
+[Term]
+id: DDANAT:0000017
+name: prespore region of the tipped mound
+def: "Region of the tipped mound mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB." []
+synonym: "psp region of the tipped mound" EXACT []
+is_a: DDANAT:0000086 ! prespore region
+relationship: develops_from DDANAT:0000005 ! mound
+relationship: part_of DDANAT:0000006 ! tipped mound
+
+[Term]
+id: DDANAT:0000019
+name: prestalk region of the standing slug
+def: "Elongated protrusion of the standing slug located on top of the cell mass that contains pstA cells flanked by pstO cells (expressing ecmA from the proximal and the distal part of its promoter, respectively)." []
+synonym: "pst region of the standing slug" EXACT []
+is_a: DDANAT:0000087 ! prestalk region
+relationship: develops_from DDANAT:0000016 ! prestalk region of the tipped mound
+relationship: part_of DDANAT:0000007 ! standing slug
+
+[Term]
+id: DDANAT:0000021
+name: prestalk A region of the standing slug
+def: "Most apical region of the prestalk zone of the standing slug characterized by high expression of the ecmA gene directed by the proximal part of its promoter (ecmA promoter)." []
+synonym: "pstA region of the standing slug" EXACT []
+is_a: DDANAT:0000088 ! prestalk A region
+relationship: develops_from DDANAT:0000016 ! prestalk region of the tipped mound
+relationship: part_of DDANAT:0000019 ! prestalk region of the standing slug
+
+[Term]
+id: DDANAT:0000023
+name: prestalk AB core region of the standing slug
+def: "Cone-shaped area of the prestalk zone of the standing slug that occupies a core among the pstA region. Cells of the pstAB region express both the ecmA and ecmB genes." []
+synonym: "prestalk AB region of the standing slug" EXACT []
+synonym: "pstAB region" NARROW []
+is_a: DDANAT:0000091 ! prestalk AB core region
+relationship: develops_from DDANAT:0000016 ! prestalk region of the tipped mound
+relationship: part_of DDANAT:0000019 ! prestalk region of the standing slug
+
+[Term]
+id: DDANAT:0000024
+name: prespore region of the standing slug
+def: "Region of the standing slug mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism." []
+synonym: "psp region of the standing slug" EXACT []
+is_a: DDANAT:0000086 ! prespore region
+relationship: develops_from DDANAT:0000017 ! prespore region of the tipped mound
+relationship: part_of DDANAT:0000007 ! standing slug
+
+[Term]
+id: DDANAT:0000025
+name: basal region of the standing slug
+def: "Region of the standing slug in contact with the substratum and composed of prestalk B cells." []
+synonym: "base of the standing slug" EXACT []
+is_a: DDANAT:0000110 ! basal region
+relationship: develops_from DDANAT:0000006 ! tipped mound
+relationship: part_of DDANAT:0000007 ! standing slug
+
+[Term]
+id: DDANAT:0000028
+name: prestalk region of the migratory slug
+def: "The prestalk region of the migratory slug is located at the anterior of the organism. It consists of about one quarter of the cells." []
+synonym: "anterior region of the migratory slug" RELATED []
+synonym: "pst region of the migratory slug" EXACT []
+is_a: DDANAT:0000087 ! prestalk region
+relationship: develops_from DDANAT:0000019 ! prestalk region of the standing slug
+relationship: part_of DDANAT:0000008 ! migratory slug
+
+[Term]
+id: DDANAT:0000030
+name: prestalk A region of the migratory slug
+def: "Anterior-most region of the prestalk zone of the migratory slug and characterized by high expression of the ecmA gene directed by the proximal part of its promoter (ecmA promoter)." []
+synonym: "prestalk AO region of the migratory slug" EXACT []
+synonym: "pstA region of the migratory slug" EXACT []
+synonym: "pstAO region of the migratory slug" EXACT []
+is_a: DDANAT:0000088 ! prestalk A region
+relationship: develops_from DDANAT:0000021 ! prestalk A region of the standing slug
+relationship: part_of DDANAT:0000028 ! prestalk region of the migratory slug
+
+[Term]
+id: DDANAT:0000032
+name: prestalk AB core region of the migratory slug
+def: "Cone-shaped area of the prestalk zone of the migratory slug that occupies a core among the pstA region. Cells of the pstAB region express both the ecmA and ecmB genes." []
+synonym: "prestalk AB region of the migratory slug" EXACT []
+synonym: "pstAB region of the migratory slug" EXACT []
+is_a: DDANAT:0000091 ! prestalk AB core region
+relationship: develops_from DDANAT:0000023 ! prestalk AB core region of the standing slug
+relationship: part_of DDANAT:0000028 ! prestalk region of the migratory slug
+
+[Term]
+id: DDANAT:0000033
+name: prespore region of the migratory slug
+def: "Region of the migratory slug composed mostly of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism." []
+synonym: "psp region of the migratory slug" BROAD []
+is_a: DDANAT:0000086 ! prespore region
+relationship: develops_from DDANAT:0000024 ! prespore region of the standing slug
+relationship: part_of DDANAT:0000008 ! migratory slug
+
+[Term]
+id: DDANAT:0000037
+name: prestalk region of the early culminant
+def: "The prestalk region of the early culminant is located at the most apical part of the organism. It consists of about one quarter of the cells." []
+synonym: "pst region of the early culminant" EXACT []
+is_a: DDANAT:0000087 ! prestalk region
+relationship: develops_from DDANAT:0000019 ! prestalk region of the standing slug
+relationship: part_of DDANAT:0000009 ! early culminant
+
+[Term]
+id: DDANAT:0000038
+name: prestalk A region of the early culminant
+def: "Anterior-most region of the prestalk zone of the early culminant characterized by high expression of the ecmA gene directed by the proximal part of its promoter (ecmA promoter)." []
+synonym: "pstA region of the early culminant" EXACT []
+is_a: DDANAT:0000088 ! prestalk A region
+relationship: develops_from DDANAT:0000021 ! prestalk A region of the standing slug
+relationship: part_of DDANAT:0000037 ! prestalk region of the early culminant
+
+[Term]
+id: DDANAT:0000040
+name: prestalk AB core region of the early culminant
+def: "Cone-shaped area of the prestalk zone of the early culminant that occupies a core among the pstA region. Cells of the pstAB region express both the ecmA and ecmB genes." []
+synonym: "prestalk AB region of the early culminant" EXACT []
+synonym: "pstAB region of the early culminant" EXACT []
+is_a: DDANAT:0000091 ! prestalk AB core region
+relationship: develops_from DDANAT:0000023 ! prestalk AB core region of the standing slug
+relationship: part_of DDANAT:0000037 ! prestalk region of the early culminant
+
+[Term]
+id: DDANAT:0000041
+name: prespore region of the early culminant
+def: "Region of the early culminant mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism." []
+synonym: "psp region of the early culminant" EXACT []
+is_a: DDANAT:0000086 ! prespore region
+relationship: develops_from DDANAT:0000024 ! prespore region of the standing slug
+relationship: part_of DDANAT:0000009 ! early culminant
+
+[Term]
+id: DDANAT:0000045
+name: basal region of the early culminant
+def: "Region of the early culminant located at the closest to the substratum composed of pstB cells that originated from rearguard cells." []
+synonym: "base of the early culminant" EXACT []
+is_a: DDANAT:0000110 ! basal region
+relationship: develops_from DDANAT:0000025 ! basal region of the standing slug
+relationship: part_of DDANAT:0000009 ! early culminant
+
+[Term]
+id: DDANAT:0000048
+name: prestalk region of the mid culminant
+def: "The prestalk region of the mid culminant is located at the most apical part of the organism. It consists of about one quarter of the cells." []
+synonym: "pst region of the mid culminant" EXACT []
+is_a: DDANAT:0000087 ! prestalk region
+relationship: develops_from DDANAT:0000037 ! prestalk region of the early culminant
+relationship: part_of DDANAT:0000010 ! mid culminant
+
+[Term]
+id: DDANAT:0000049
+name: prestalk A region of the mid culminant
+def: "Anterior-most region of the prestalk zone of the mid culminant characterized by high expression of the ecmA gene directed by the proximal part of its promoter (ecmA promoter)." []
+synonym: "pstA region of the mid culminant" EXACT []
+is_a: DDANAT:0000088 ! prestalk A region
+relationship: develops_from DDANAT:0000038 ! prestalk A region of the early culminant
+relationship: part_of DDANAT:0000048 ! prestalk region of the mid culminant
+
+[Term]
+id: DDANAT:0000051
+name: prestalk AB core region of the mid culminant
+def: "Cone-shaped area of the prestalk zone of the mid culminant that occupies a core among the pstA region. Cells of the pstAB region express both the ecmA and ecmB genes." []
+synonym: "prestalk AB region of the mid culminant" EXACT []
+synonym: "pstAB region of the mid culminant" EXACT []
+is_a: DDANAT:0000091 ! prestalk AB core region
+relationship: develops_from DDANAT:0000040 ! prestalk AB core region of the early culminant
+relationship: part_of DDANAT:0000048 ! prestalk region of the mid culminant
+
+[Term]
+id: DDANAT:0000052
+name: stalk of the mid culminant
+def: "Tubular structure of the mid culminant that consists of cellulose-covered cells stacked on top of each other and surrounded by an acellular stalk tube composed of cellulose and glycoprotein." []
+synonym: "sorophore of the mid culminant" EXACT []
+is_a: DDANAT:0000093 ! stalk
+relationship: develops_from DDANAT:0000040 ! prestalk AB core region of the early culminant
+relationship: part_of DDANAT:0000010 ! mid culminant
+
+[Term]
+id: DDANAT:0000054
+name: prespore region of the mid culminant
+def: "Region of the mid culminant mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism." []
+synonym: "psp region of the mid culminant" BROAD []
+is_a: DDANAT:0000086 ! prespore region
+relationship: develops_from DDANAT:0000041 ! prespore region of the early culminant
+relationship: part_of DDANAT:0000010 ! mid culminant
+
+[Term]
+id: DDANAT:0000057
+name: basal disc of the mid culminant
+def: "Region located of the mid culminant located closest to the substratum and composed of pst cells (rearguard cells)." []
+is_a: DDANAT:0000089 ! basal disc
+relationship: develops_from DDANAT:0000045 ! basal region of the early culminant
+relationship: part_of DDANAT:0000010 ! mid culminant
+
+[Term]
+id: DDANAT:0000059
+name: stalk of the late culminant
+def: "Tubular structure of the late culminant that consists of cellulose-covered cells stacked on top of each other and surrounded by an acellular stalk tube composed of cellulose and glycoprotein." []
+synonym: "sorophore of the late culminant" EXACT []
+is_a: DDANAT:0000093 ! stalk
+relationship: develops_from DDANAT:0000052 ! stalk of the mid culminant
+relationship: part_of DDANAT:0000011 ! late culminant
+
+[Term]
+id: DDANAT:0000061
+name: sorus of the late culminant
+def: "Ovoid structure of the late culminant supported by the stalk and that contains the spores." []
+synonym: "spore head of the late culminant" EXACT []
+is_a: DDANAT:0000094 ! sorus
+relationship: develops_from DDANAT:0000054 ! prespore region of the mid culminant
+relationship: part_of DDANAT:0000011 ! late culminant
+
+[Term]
+id: DDANAT:0000065
+name: basal disc of the late culminant
+def: "Conical-shaped structure of the late culminant that anchors the stalk to the substratum. Composed of anterior-like cells." []
+is_a: DDANAT:0000089 ! basal disc
+relationship: develops_from DDANAT:0000057 ! basal disc of the mid culminant
+relationship: part_of DDANAT:0000011 ! late culminant
+
+[Term]
+id: DDANAT:0000066
+name: inner basal disc of the late culminant
+def: "Central portion of the basal disc of the late culminant. Composed of stalk cells." []
+is_a: DDANAT:0000098 ! inner basal disc
+relationship: develops_from DDANAT:0000052 ! stalk of the mid culminant
+relationship: part_of DDANAT:0000065 ! basal disc of the late culminant
+
+[Term]
+id: DDANAT:0000068
+name: stalk of the fruiting body
+def: "Tubular structure of the fruiting body that consists of cellulose-covered cells stacked on top of each other and surrounded by an acellular stalk tube composed of cellulose and glycoprotein. The stalk of the mature fruiting body is usually 5-15 microns in diameter and between 1.5 to 3 cm in height." []
+synonym: "sorophore of the fruiting body" EXACT []
+is_a: DDANAT:0000093 ! stalk
+relationship: develops_from DDANAT:0000059 ! stalk of the late culminant
+relationship: part_of DDANAT:0000012 ! fruiting body
+
+[Term]
+id: DDANAT:0000070
+name: sorus of the fruiting body
+def: "Structure of the fruiting body supported by the stalk and that contains the spores. The sorus is 125-300 microns in diameter, lemon-shaped, and grayish white to pale yellow in color." []
+synonym: "spore head of the fruiting body" EXACT []
+is_a: DDANAT:0000094 ! sorus
+relationship: develops_from DDANAT:0000061 ! sorus of the late culminant
+relationship: part_of DDANAT:0000012 ! fruiting body
+
+[Term]
+id: DDANAT:0000073
+name: basal disc of the fruiting body
+def: "Conical-shaped structure of the fruiting body that anchors the stalk to the substratum, around 150 to 400 microns in diameter. Composed of anterior-like cells." []
+is_a: DDANAT:0000089 ! basal disc
+relationship: develops_from DDANAT:0000065 ! basal disc of the late culminant
+relationship: part_of DDANAT:0000012 ! fruiting body
+
+[Term]
+id: DDANAT:0000074
+name: inner basal disc of the fruiting body
+def: "Central portion of the basal disc of the fruiting body composed of stalk cells." []
+is_a: DDANAT:0000098 ! inner basal disc
+relationship: develops_from DDANAT:0000066 ! inner basal disc of the late culminant
+relationship: part_of DDANAT:0000073 ! basal disc of the fruiting body
+
+[Term]
+id: DDANAT:0000083
+name: Dictyostelium discoideum single cell organism
+def: "Cell that is an individual member of the species Dictyostelium discoideum." []
+synonym: "D. discoideum single cell organism" EXACT []
+is_a: DDANAT:0000401 ! cell
+
+[Term]
+id: DDANAT:0000086
+name: prespore region
+def: "Region mostly composed of prespore cells. In addition to prespore cells, the prespore region contains anterior-like cells (ALC) that express ecmA and/or ecmB. The prespore region occupies about three quarters of the organism." []
+synonym: "psp region" EXACT []
+is_a: DDANAT:0010085 ! subdivision
+
+[Term]
+id: DDANAT:0000087
+name: prestalk region
+def: "The prestalk region is located at the most apical part of the organism. It consists of about one quarter of the cells." []
+synonym: "pst region" EXACT []
+is_a: DDANAT:0010085 ! subdivision
+
+[Term]
+id: DDANAT:0000088
+name: prestalk A region
+def: "Anterior-most region of the prestalk zone characterized by high expression of the ecmA gene directed by the proximal part of its promoter (ecmA promoter)." []
+synonym: "pstA region" EXACT []
+is_a: DDANAT:0010085 ! subdivision
+relationship: part_of DDANAT:0000087 ! prestalk region
+
+[Term]
+id: DDANAT:0000089
+name: basal disc
+def: "Conical-shaped structure that anchors the stalk to the substratum. Composed of anterior-like cells." []
+is_a: DDANAT:0010085 ! subdivision
+
+[Term]
+id: DDANAT:0000091
+name: prestalk AB core region
+def: "Cone-shaped area of the prestalk zone that occupies a core among the pstA region. Cells of the pstAB region express both the ecmA and ecmB genes." []
+synonym: "prestalk AB region" EXACT []
+synonym: "pstAB region" EXACT []
+is_a: DDANAT:0010085 ! subdivision
+relationship: part_of DDANAT:0000087 ! prestalk region
+
+[Term]
+id: DDANAT:0000093
+name: stalk
+def: "Tubular structure that consists of cellulose-covered cells stacked on top of each other and surrounded by an acellular stalk tube composed of cellulose and glycoprotein." []
+synonym: "sorophore" EXACT []
+is_a: DDANAT:0010085 ! subdivision
+
+[Term]
 id: DDANAT:0000094
 name: sorus
 def: "Ovoid structure supported by the stalk and that contains the spores." []
 synonym: "spore head" EXACT []
 is_a: DDANAT:0010085 ! subdivision
+
+[Term]
+id: DDANAT:0000098
+name: inner basal disc
+def: "Central portion of the basal disc. Composed of stalk cells." []
+is_a: DDANAT:0010085 ! subdivision
+relationship: part_of DDANAT:0000089 ! basal disc
+
+[Term]
+id: DDANAT:0000100
+name: prestalk A region of the tipped mound
+def: "Anterior-most region of the prestalk zone of the tipped mound characterized by high expression of the ecmA gene directed by the proximal part of its promoter (ecmA promoter)." []
+synonym: "pstA region of the tipped mound" EXACT []
+is_a: DDANAT:0000088 ! prestalk A region
+relationship: part_of DDANAT:0000016 ! prestalk region of the tipped mound
+
+[Term]
+id: DDANAT:0000101
+name: prestalk AB core region of the tipped mound
+def: "Cone-shaped area of the prestalk zone of the tipped mound that occupies a core among the pstA region. Cells of the pstAB region express both the ecmA and ecmB genes." []
+synonym: "prestalk AB region of the tipped mound" EXACT []
+synonym: "pstAB region" NARROW []
+is_a: DDANAT:0000091 ! prestalk AB core region
+relationship: part_of DDANAT:0000016 ! prestalk region of the tipped mound
+
+[Term]
+id: DDANAT:0000110
+name: basal region
+def: "Region of the early pseudoplasmodium located at the closest to the substratum composed of pstB cells." []
+synonym: "base" EXACT []
+is_a: DDANAT:0010085 ! subdivision
+
+[Term]
+id: DDANAT:0000401
+name: cell
+def: "Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." []
+is_a: DDANAT:0010001 ! Dictyostelium discoideum anatomical structure
+
+[Term]
+id: DDANAT:0000402
+name: chemotactic amoeboid cell
+def: "Starved cell that secretes and responds to chemoattractants (cAMP)." []
+synonym: "amoebae" BROAD []
+is_a: DDANAT:0000083 ! Dictyostelium discoideum single cell organism
+relationship: develops_from DDANAT:0000414 ! spore
+relationship: part_of DDANAT:0000013 ! stream
+
+[Term]
+id: DDANAT:0000403
+name: aggregate cell
+def: "Differentiating cell composing the aggregate that has acquired adhesive properties." []
+is_a: DDANAT:0000401 ! cell
+relationship: develops_from DDANAT:0000402 ! chemotactic amoeboid cell
+relationship: part_of DDANAT:0000003 ! aggregation territory
+relationship: part_of DDANAT:0000004 ! loose aggregate
+relationship: part_of DDANAT:0000005 ! mound
+
+[Term]
+id: DDANAT:0000405
+name: prespore cell
+def: "Cell that is undergoing differentiation to become a spore. Characterized by the presence of prespore vesicles (PV)." []
+synonym: "psp cell" EXACT []
+is_a: DDANAT:0000401 ! cell
+relationship: develops_from DDANAT:0000403 ! aggregate cell
+relationship: part_of DDANAT:0000004 ! loose aggregate
+relationship: part_of DDANAT:0000017 ! prespore region of the tipped mound
+relationship: part_of DDANAT:0000024 ! prespore region of the standing slug
+relationship: part_of DDANAT:0000033 ! prespore region of the migratory slug
+relationship: part_of DDANAT:0000041 ! prespore region of the early culminant
+relationship: part_of DDANAT:0000054 ! prespore region of the mid culminant
+relationship: part_of DDANAT:0000061 ! sorus of the late culminant
+
+[Term]
+id: DDANAT:0000406
+name: prestalk cell
+def: "Cell that is undergoing differentiation to become a stalk cell and characterized by the ability to update vital dyes. Represents about one-quarter of the cells. During development, prestalk cells are located in the anterior portion of the organism." []
+synonym: "anterior cell" EXACT []
+synonym: "pst cell" EXACT []
+is_a: DDANAT:0000401 ! cell
+
+[Term]
+id: DDANAT:0000408
+name: pstA cell
+def: "Cell that is undergoing differentiation to become a stalk cell. pstA cells express the ecmA marker from a promoter region that is proximal to the ATG (ecmAO promoter). They are located at the anterior-most region of the slug. During culmination pstA cells differentiate into pstAB cells." []
+synonym: "prestalk A cell" EXACT []
+synonym: "pstAO cell" EXACT []
+is_a: DDANAT:0000406 ! prestalk cell
+relationship: part_of DDANAT:0000004 ! loose aggregate
+relationship: part_of DDANAT:0000005 ! mound
+relationship: part_of DDANAT:0000021 ! prestalk A region of the standing slug
+relationship: part_of DDANAT:0000030 ! prestalk A region of the migratory slug
+relationship: part_of DDANAT:0000038 ! prestalk A region of the early culminant
+relationship: part_of DDANAT:0000049 ! prestalk A region of the mid culminant
+relationship: part_of DDANAT:0000100 ! prestalk A region of the tipped mound
+
+[Term]
+id: DDANAT:0000410
+name: pstAB cell
+def: "Cell that is undergoing differentiation to become a stalk cell. pstAB cells express both ecmA and ecmB either simultaneously or sequentially. During culmination pstA differentiate into pstAB cells." []
+synonym: "prestalk AB cell" EXACT []
+is_a: DDANAT:0000406 ! prestalk cell
+relationship: develops_from DDANAT:0000408 ! pstA cell
+relationship: part_of DDANAT:0000005 ! mound
+relationship: part_of DDANAT:0000023 ! prestalk AB core region of the standing slug
+relationship: part_of DDANAT:0000032 ! prestalk AB core region of the migratory slug
+relationship: part_of DDANAT:0000040 ! prestalk AB core region of the early culminant
+relationship: part_of DDANAT:0000051 ! prestalk AB core region of the mid culminant
+relationship: part_of DDANAT:0000101 ! prestalk AB core region of the tipped mound
+
+[Term]
+id: DDANAT:0000413
+name: stalk cell
+def: "Cell of polyhedric shape filling the stalk tube. Stack cells are large (around 8 microns in diameter), highly vacuolated, and are surrounded by cell wall composed of cellulose. Stalk cells die upon terminal differentiation. Their role is to provide structural support for the fruiting body." []
+is_a: DDANAT:0000401 ! cell
+relationship: develops_from DDANAT:0000410 ! pstAB cell
+relationship: part_of DDANAT:0000052 ! stalk of the mid culminant
+relationship: part_of DDANAT:0000059 ! stalk of the late culminant
+relationship: part_of DDANAT:0000066 ! inner basal disc of the late culminant
+relationship: part_of DDANAT:0000068 ! stalk of the fruiting body
+relationship: part_of DDANAT:0000074 ! inner basal disc of the fruiting body
+
+[Term]
+id: DDANAT:0000414
+name: spore
+def: "Dormant cell protected by a tri-layer spore coat. The spore has an elliptical shape and is approximately 6-9 microns by 3 microns." []
+synonym: "spore cell" EXACT []
+is_a: DDANAT:0000083 ! Dictyostelium discoideum single cell organism
+relationship: develops_from DDANAT:0000405 ! prespore cell
+relationship: part_of DDANAT:0000070 ! sorus of the fruiting body
 
 [Term]
 id: DDANAT:0010001
@@ -109,4 +578,10 @@ is_a: DDANAT:0010001 ! Dictyostelium discoideum anatomical structure
 id: develops_from
 name: develops_from
 xref: develops_from
+
+[Typedef]
+id: part_of
+name: part of
+xref: part_of
+is_transitive: true
 
