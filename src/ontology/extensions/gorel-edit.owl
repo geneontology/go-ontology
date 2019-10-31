@@ -121,6 +121,7 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/go#valid_for_anno
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))
@@ -689,9 +690,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000029> "o
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000029> "true"^^xsd:boolean)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000029> <http://purl.obolibrary.org/obo/BFO_0000007>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000030> (modified_by)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000030> (obsolete modified_by)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000030> "Identifies the gene product that catalyzes a modification on the annotated gene product"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0000030> "OBSOLETE. Identifies the gene product that catalyzes a modification on the annotated gene product"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000030> "MOD:00000"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000030> "GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0000030> "Identifies the gene product that catalyzes a modification on the annotated gene product"^^xsd:string)
@@ -699,8 +700,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PomBase:curators"^^xsd:string) Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/RO_0008000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GOREL_0000030> "modified by"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000030> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000030> "modified_by"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000030> "modified_by"^^xsd:string)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000030> <http://purl.obolibrary.org/obo/MOD_00000>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000030> "http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000030> "obsolete modified_by"^^xsd:string)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000030> "true"^^xsd:boolean)
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0000031> (obsolete condition)
 
