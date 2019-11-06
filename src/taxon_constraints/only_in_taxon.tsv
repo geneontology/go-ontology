@@ -643,3 +643,145 @@ GO:0018189	pyrroloquinoline quinone biosynthetic process	NCBITaxon:2	Bacteria
 GO:0052000	type IV pili-dependent aggregation	NCBITaxon:Union_0000004	Prokaryota
 GO:0030034	microvillar actin bundle assembly	NCBITaxon:33208	Metazoa
 GO:0033693	neurofilament bundle assembly	NCBITaxon:33208	Metazoa
+GO:0002499	proteolysis within endosome associated with antigen processing and presentation	NCBITaxon:2759	Eukaryota
+GO:0032468	Golgi calcium ion homeostasis	NCBITaxon:2759	Eukaryota
+GO:0033260	nuclear DNA replication	NCBITaxon:2759	Eukaryota
+GO:0033260	nuclear DNA replication	NCBITaxon:2759	Eukaryota
+GO:0033578	protein glycosylation in Golgi	NCBITaxon:2759	Eukaryota
+GO:0033581	protein galactosylation in Golgi	NCBITaxon:2759	Eukaryota
+GO:0042073	intraciliary transport	NCBITaxon:2759	Eukaryota
+GO:0099003	vesicle-mediated transport in synapse	NCBITaxon:33208	Metazoa
+GO:0099003	vesicle-mediated transport in synapse	NCBITaxon:33208	Metazoa
+GO:0099643	signal release from synapse	NCBITaxon:33208	Metazoa
+GO:0099643	signal release from synapse	NCBITaxon:33208	Metazoa
+GO:0140053	mitochondrial gene expression	NCBITaxon:2759	Eukaryota
+GO:2000827	mitochondrial RNA surveillance	NCBITaxon:2759	Eukaryota
+GO:0051560	mitochondrial calcium ion homeostasis	NCBITaxon:2759	Eukaryota
+GO:0070124	mitochondrial translational initiation	NCBITaxon:2759	Eukaryota
+GO:0070125	mitochondrial translational elongation	NCBITaxon:2759	Eukaryota
+GO:0070143	mitochondrial alanyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070144	mitochondrial arginyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070146	mitochondrial aspartyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070147	mitochondrial cysteinyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070150	mitochondrial glycyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070151	mitochondrial histidyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070152	mitochondrial isoleucyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070155	mitochondrial methionyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070157	mitochondrial prolyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070159	mitochondrial threonyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070183	mitochondrial tryptophanyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070184	mitochondrial tyrosyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070185	mitochondrial valyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070899	mitochondrial tRNA wobble uridine modification	NCBITaxon:2759	Eukaryota
+GO:0070900	mitochondrial tRNA modification	NCBITaxon:2759	Eukaryota
+GO:0070902	mitochondrial tRNA pseudouridine synthesis	NCBITaxon:2759	Eukaryota
+GO:0070903	mitochondrial tRNA thio-modification	NCBITaxon:2759	Eukaryota
+GO:0071990	maintenance of protein location to spindle pole body	NCBITaxon:4751	Fungi
+GO:0072656	maintenance of protein location in mitochondrion	NCBITaxon:2759	Eukaryota
+GO:0072684	mitochondrial tRNA 3'-trailer cleavage, endonucleolytic	NCBITaxon:2759	Eukaryota
+GO:0080156	mitochondrial mRNA modification	NCBITaxon:2759	Eukaryota
+GO:0090139	mitochondrial DNA packaging	NCBITaxon:2759	Eukaryota
+GO:0090144	mitochondrial nucleoid organization	NCBITaxon:2759	Eukaryota
+GO:0090615	mitochondrial mRNA processing	NCBITaxon:2759	Eukaryota
+GO:0090646	mitochondrial tRNA processing	NCBITaxon:2759	Eukaryota
+GO:0097222	mitochondrial mRNA polyadenylation	NCBITaxon:2759	Eukaryota
+GO:0097745	mitochondrial tRNA 5'-end processing	NCBITaxon:2759	Eukaryota
+GO:0099546	protein catabolic process, modulating synaptic transmission	NCBITaxon:33208	Metazoa
+GO:0099546	protein catabolic process, modulating synaptic transmission	NCBITaxon:33208	Metazoa
+GO:0099547	regulation of translation at synapse, modulating synaptic transmission	NCBITaxon:33208	Metazoa
+GO:0099547	regulation of translation at synapse, modulating synaptic transmission	NCBITaxon:33208	Metazoa
+GO:0099574	regulation of protein catabolic process at synapse, modulating synaptic transmission	NCBITaxon:33208	Metazoa
+GO:0099574	regulation of protein catabolic process at synapse, modulating synaptic transmission	NCBITaxon:33208	Metazoa
+GO:0140241	translation at synapse	NCBITaxon:33208	Metazoa
+GO:0140241	translation at synapse	NCBITaxon:33208	Metazoa
+GO:0140243	regulation of translation at synapse	NCBITaxon:33208	Metazoa
+GO:0140243	regulation of translation at synapse	NCBITaxon:33208	Metazoa
+GO:0140246	protein catabolic process at synapse	NCBITaxon:33208	Metazoa
+GO:0140246	protein catabolic process at synapse	NCBITaxon:33208	Metazoa
+GO:0140250	regulation protein catabolic process at synapse	NCBITaxon:33208	Metazoa
+GO:0140250	regulation protein catabolic process at synapse	NCBITaxon:33208	Metazoa
+GO:1904381	Golgi apparatus mannose trimming	NCBITaxon:2759	Eukaryota
+GO:1905951	mitochondrion DNA recombination	NCBITaxon:2759	Eukaryota
+GO:1990180	mitochondrial tRNA 3'-end processing	NCBITaxon:2759	Eukaryota
+GO:1990613	mitochondrial membrane fusion	NCBITaxon:2759	Eukaryota
+GO:2000803	endosomal signal transduction	NCBITaxon:2759	Eukaryota
+GO:0000957	mitochondrial RNA catabolic process	NCBITaxon:2759	Eukaryota
+GO:0000958	mitochondrial mRNA catabolic process	NCBITaxon:2759	Eukaryota
+GO:0000959	mitochondrial RNA metabolic process	NCBITaxon:2759	Eukaryota
+GO:0000963	mitochondrial RNA processing	NCBITaxon:2759	Eukaryota
+GO:0000964	mitochondrial RNA 5'-end processing	NCBITaxon:2759	Eukaryota
+GO:0000965	mitochondrial RNA 3'-end processing	NCBITaxon:2759	Eukaryota
+GO:0002227	innate immune response in mucosa	NCBITaxon:7711	Chordata
+GO:0002384	hepatic immune response	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0002388	immune response in Peyer's patch	NCBITaxon:32524	Amniota
+GO:0002389	tolerance induction in Peyer's patch	NCBITaxon:32524	Amniota
+GO:0003091	renal water homeostasis	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0003092	renal water retention	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0003096	renal sodium ion transport	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0003097	renal water transport	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0005213	structural constituent of chorion	NCBITaxon:32524	Amniota
+GO:0005214	structural constituent of chitin-based cuticle	NCBITaxon:6656	Arthropoda
+GO:0006264	mitochondrial DNA replication	NCBITaxon:2759	Eukaryota
+GO:0006390	mitochondrial transcription	NCBITaxon:2759	Eukaryota
+GO:0006393	termination of mitochondrial transcription	NCBITaxon:2759	Eukaryota
+GO:0007006	mitochondrial membrane organization	NCBITaxon:2759	Eukaryota
+GO:0008316	structural constituent of vitelline membrane	NCBITaxon:33213	Bilateria
+GO:0014714	myoblast fate commitment in head	NCBITaxon:33213	Bilateria
+GO:0019093	mitochondrial RNA localization	NCBITaxon:2759	Eukaryota
+GO:0019725	cellular homeostasis	NCBITaxon:131567	cellular organisms
+GO:0019911	structural constituent of myelin sheath	NCBITaxon:33208	Metazoa
+GO:0032042	mitochondrial DNA metabolic process	NCBITaxon:2759	Eukaryota
+GO:0032043	mitochondrial DNA catabolic process	NCBITaxon:2759	Eukaryota
+GO:0032469	endoplasmic reticulum calcium ion homeostasis	NCBITaxon:2759	Eukaryota
+GO:0032507	maintenance of protein location in cell	NCBITaxon:131567	cellular organisms
+GO:0032543	mitochondrial translation	NCBITaxon:2759	Eukaryota
+GO:0033577	protein glycosylation in endoplasmic reticulum	NCBITaxon:2759	Eukaryota
+GO:0033579	protein galactosylation in endoplasmic reticulum	NCBITaxon:2759	Eukaryota
+GO:0033615	mitochondrial proton-transporting ATP synthase complex assembly	NCBITaxon:2759	Eukaryota
+GO:0033617	mitochondrial respiratory chain complex IV assembly	NCBITaxon:2759	Eukaryota
+GO:0034551	mitochondrial respiratory chain complex III assembly	NCBITaxon:2759	Eukaryota
+GO:0034553	mitochondrial respiratory chain complex II assembly	NCBITaxon:2759	Eukaryota
+GO:0034982	mitochondrial protein processing	NCBITaxon:2759	Eukaryota
+GO:0035437	maintenance of protein localization in endoplasmic reticulum	NCBITaxon:2759	Eukaryota
+GO:0035694	mitochondrial protein catabolic process	NCBITaxon:2759	Eukaryota
+GO:0035804	structural constituent of egg coat	NCBITaxon:33208	Metazoa
+GO:0036386	bacterial nucleoid DNA packaging	NCBITaxon:2	Bacteria
+GO:0042775	mitochondrial ATP synthesis coupled electron transport	NCBITaxon:2759	Eukaryota
+GO:0042776	mitochondrial ATP synthesis coupled proton transport	NCBITaxon:2759	Eukaryota
+GO:0043504	mitochondrial DNA repair	NCBITaxon:2759	Eukaryota
+GO:0051457	maintenance of protein location in nucleus	NCBITaxon:2759	Eukaryota
+GO:0051457	maintenance of protein location in nucleus	NCBITaxon:2759	Eukaryota
+GO:0051649	establishment of localization in cell	NCBITaxon:131567	cellular organisms
+GO:0048058	compound eye corneal lens development	NCBITaxon:6656	Arthropoda
+GO:0048750	compound eye corneal lens morphogenesis	NCBITaxon:6656	Arthropoda
+GO:0051882	mitochondrial depolarization	NCBITaxon:2759	Eukaryota
+GO:0070126	mitochondrial translational termination	NCBITaxon:2759	Eukaryota
+GO:0070145	mitochondrial asparaginyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070148	mitochondrial glutaminyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070149	mitochondrial glutamyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070153	mitochondrial leucyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070154	mitochondrial lysyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070156	mitochondrial phenylalanyl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070158	mitochondrial seryl-tRNA aminoacylation	NCBITaxon:2759	Eukaryota
+GO:0070901	mitochondrial tRNA methylation	NCBITaxon:2759	Eukaryota
+GO:0071027	nuclear RNA surveillance	NCBITaxon:2759	Eukaryota
+GO:0071027	nuclear RNA surveillance	NCBITaxon:2759	Eukaryota
+GO:0090616	mitochondrial mRNA 3'-end processing	NCBITaxon:2759	Eukaryota
+GO:0140040	mitochondrial polycistronic RNA processing	NCBITaxon:2759	Eukaryota
+GO:0140041	cellular detoxification of methylglyoxal	NCBITaxon:131567	cellular organisms
+GO:1900864	mitochondrial RNA modification	NCBITaxon:2759	Eukaryota
+GO:1902375	nuclear tRNA 3'-trailer cleavage, endonucleolytic	NCBITaxon:2759	Eukaryota
+GO:1902375	nuclear tRNA 3'-trailer cleavage, endonucleolytic	NCBITaxon:2759	Eukaryota
+GO:1990770	small intestine smooth muscle contraction	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0008147	structural constituent of bone	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0021533	cell differentiation in hindbrain	NCBITaxon:89593	Craniata <chordata>
+GO:0021534	cell proliferation in hindbrain	NCBITaxon:89593	Craniata <chordata>
+GO:0021535	cell migration in hindbrain	NCBITaxon:89593	Craniata <chordata>
+GO:0022010	central nervous system myelination	NCBITaxon:33213	Bilateria
+GO:0032286	central nervous system myelin maintenance	NCBITaxon:33213	Bilateria
+GO:0032289	central nervous system myelin formation	NCBITaxon:33213	Bilateria
+GO:0032291	axon ensheathment in central nervous system	NCBITaxon:33213	Bilateria
+GO:0032293	non-myelinated axon ensheathment in central nervous system	NCBITaxon:33213	Bilateria
+GO:0042302	structural constituent of cuticle	NCBITaxon:6072	Eumetazoa
+GO:0042329	structural constituent of collagen and cuticulin-based cuticle	NCBITaxon:6231	Nematoda
+GO:1990765	colon smooth muscle contraction	NCBITaxon:7742	Vertebrata <Metazoa>
