@@ -719,7 +719,6 @@ GO:0003091	renal water homeostasis	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0003092	renal water retention	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0003096	renal sodium ion transport	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0003097	renal water transport	NCBITaxon:7742	Vertebrata <Metazoa>
-GO:0005213	structural constituent of chorion	NCBITaxon:32524	Amniota
 GO:0005214	structural constituent of chitin-based cuticle	NCBITaxon:6656	Arthropoda
 GO:0006264	mitochondrial DNA replication	NCBITaxon:2759	Eukaryota
 GO:0006390	mitochondrial transcription	NCBITaxon:2759	Eukaryota
