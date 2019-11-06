@@ -425,3 +425,49 @@ GO:0034332	adherens junction organization	NCBITaxon:4751	Fungi
 GO:0045747	regulation of Notch signaling pathway	NCBITaxon:4751	Fungi
 GO:0007219	Notch signaling pathway	NCBITaxon:4751	Fungi
 GO:0045295	gamma-catenin binding	NCBITaxon:50557	Insecta
+GO:0005199	structural constituent of cell wall	NCBITaxon:33208	Metazoa
+GO:0010239	chloroplast mRNA processing	NCBITaxon:28009	Choanoflagellida
+GO:0010239	chloroplast mRNA processing	NCBITaxon:33208	Metazoa
+GO:0010239	chloroplast mRNA processing	NCBITaxon:4751	Fungi
+GO:0010239	chloroplast mRNA processing	NCBITaxon:554915	Amoebozoa
+GO:0032544	plastid translation	NCBITaxon:2	Bacteria
+GO:0032544	plastid translation	NCBITaxon:2157	Archaea
+GO:0032544	plastid translation	NCBITaxon:28009	Choanoflagellida
+GO:0032544	plastid translation	NCBITaxon:33208	Metazoa
+GO:0032544	plastid translation	NCBITaxon:4751	Fungi
+GO:0032544	plastid translation	NCBITaxon:554915	Amoebozoa
+GO:0033259	plastid DNA replication	NCBITaxon:2	Bacteria
+GO:0033259	plastid DNA replication	NCBITaxon:2157	Archaea
+GO:0033259	plastid DNA replication	NCBITaxon:28009	Choanoflagellida
+GO:0033259	plastid DNA replication	NCBITaxon:33208	Metazoa
+GO:0033259	plastid DNA replication	NCBITaxon:4751	Fungi
+GO:0033259	plastid DNA replication	NCBITaxon:554915	Amoebozoa
+GO:0039660	structural constituent of virion	NCBITaxon:131567	cellular organisms
+GO:0042073	intraciliary transport	NCBITaxon:3176	Zygnematales
+GO:0042073	intraciliary transport	NCBITaxon:3312	Coniferophyta
+GO:0042073	intraciliary transport	NCBITaxon:3378	Gnetales
+GO:0042073	intraciliary transport	NCBITaxon:3398	Magnoliophyta
+GO:0042073	intraciliary transport	NCBITaxon:5782	Dictyostelium
+GO:0042073	intraciliary transport	NCBITaxon:4890	Ascomycota
+GO:0072597	maintenance of protein location in chloroplast	NCBITaxon:28009	Choanoflagellida
+GO:0072597	maintenance of protein location in chloroplast	NCBITaxon:33208	Metazoa
+GO:0072597	maintenance of protein location in chloroplast	NCBITaxon:4751	Fungi
+GO:0072597	maintenance of protein location in chloroplast	NCBITaxon:554915	Amoebozoa
+GO:1900160	plastid DNA packaging	NCBITaxon:2	Bacteria
+GO:1900160	plastid DNA packaging	NCBITaxon:2157	Archaea
+GO:1900160	plastid DNA packaging	NCBITaxon:28009	Choanoflagellida
+GO:1900160	plastid DNA packaging	NCBITaxon:33208	Metazoa
+GO:1900160	plastid DNA packaging	NCBITaxon:4751	Fungi
+GO:1900160	plastid DNA packaging	NCBITaxon:554915	Amoebozoa
+GO:1900865	chloroplast RNA modification	NCBITaxon:28009	Choanoflagellida
+GO:1900865	chloroplast RNA modification	NCBITaxon:33208	Metazoa
+GO:1900865	chloroplast RNA modification	NCBITaxon:4751	Fungi
+GO:1900865	chloroplast RNA modification	NCBITaxon:554915	Amoebozoa
+GO:1900871	chloroplast mRNA modification	NCBITaxon:28009	Choanoflagellida
+GO:1900871	chloroplast mRNA modification	NCBITaxon:33208	Metazoa
+GO:1900871	chloroplast mRNA modification	NCBITaxon:4751	Fungi
+GO:1900871	chloroplast mRNA modification	NCBITaxon:554915	Amoebozoa
+GO:1901259	chloroplast rRNA processing	NCBITaxon:28009	Choanoflagellida
+GO:1901259	chloroplast rRNA processing	NCBITaxon:33208	Metazoa
+GO:1901259	chloroplast rRNA processing	NCBITaxon:4751	Fungi
+GO:1901259	chloroplast rRNA processing	NCBITaxon:554915	Amoebozoa
