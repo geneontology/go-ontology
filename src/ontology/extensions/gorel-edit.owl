@@ -875,10 +875,9 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000751> 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000751> "obsolete has_indirect_input"^^xsd:string)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000751> "true"^^xsd:boolean)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000752> (has_direct_input)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000752> (obsolete has_direct_input)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000752> "BFO:0000015"^^xsd:string)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000752> "CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697 SO:0000839"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0000752> "Identifies an entity directly affected (transported, modified, consumed or destroyed) by the gene product's participation in a molecular function or biological process. It is expected that the gene product and entity will physically interact, this can be determined either by a direct binding assay or inferred from the activity of the gene product, for example, a gene product with catalytic activity is inferred to bind its substrate."^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/GOREL_0000752> "GOREL:0000019"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/GOREL_0000752> "GOREL:0000504"^^xsd:string)
@@ -890,15 +889,11 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ecd"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GOREL_0000752> "directly_localizes"^^xsd:string)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ecd"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/GOREL_0000752> "has_substrate"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0000752> "go/extensions/gorel"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0000752> <http://purl.obolibrary.org/obo/go#AE_chemical>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0000752> <http://purl.obolibrary.org/obo/go#AE_sequence_or_complex>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0000752> <http://purl.obolibrary.org/obo/go#display_for_curators>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0000752> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000752> "has_direct_input"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000752> "If the entity is indirectly bound/acted upon by the gene product that is the subject of an annotation,  then the relation: has_indirect_input should be considered [GOC:ecd]"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000752> "has_direct_input"^^xsd:string)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000752> <http://purl.obolibrary.org/obo/RO_0002233>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000752> <http://purl.obolibrary.org/obo/BFO_0000015>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000752> "This relation is part of the ShEx speficications."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000752> "obsolete has_direct_input"^^xsd:string)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000752> "true"^^xsd:boolean)
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0000754> (requires_target_sequence_feature)
 
