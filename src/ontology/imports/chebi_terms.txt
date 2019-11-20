@@ -8121,3 +8121,6 @@ http://purl.obolibrary.org/obo/CHEBI_71063 ## N-retinylidenephosphatidylethanola
 http://purl.obolibrary.org/obo/CHEBI_143129 ## primary fatty amide
 http://purl.obolibrary.org/obo/CHEBI_8653 ## pyocyanin
 http://purl.obolibrary.org/obo/CHEBI_142842 ## andrastin A
+http://purl.obolibrary.org/obo/CHEBI_143197 ## culmorin
+http://purl.obolibrary.org/obo/CHEBI_10022 ## deoxynivalenol
+http://purl.obolibrary.org/obo/CHEBI_10106 ## zearalenone
