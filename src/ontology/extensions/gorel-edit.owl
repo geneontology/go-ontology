@@ -98,6 +98,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0001027>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0001029>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0001030>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0002008>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0002010>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0098702>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0098788>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0098789>))
@@ -1208,6 +1209,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0002008> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0002008> "obsolete has_intermediate"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0002008> "true"^^xsd:boolean)
+
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0002010> (obsolete results_in_transport_to_from_or_mediated_by)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/GOREL_0002010> "pg"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/GOREL_0002010> "2019-11-21T18:00:03Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GOREL_0002010> "GOREL:0002010"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0002010> "go/extensions/gorel"^^xsd:string)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0002010> "This relation was only used for one class, 'endosomal transport' (GO:0016197), which groups together disparate roles the participants can play - it was defined as 'The directed movement of substances into, out of *or mediated by* an endosome...' The term has been redefined and the logical definition changed accordingly."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0002010> "obsolete results_in_transport_to_from_or_mediated_by"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0002010> "true"^^xsd:boolean)
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0098702> (regulates activity of)
 
