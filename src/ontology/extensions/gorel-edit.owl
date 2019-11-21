@@ -97,6 +97,7 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0001026>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0001027>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0001029>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0001030>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0002008>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0098702>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0098788>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/GOREL_0098789>))
@@ -1197,6 +1198,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0001030> "regulates_o_has_input"^^xsd:string)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0001030> <http://purl.obolibrary.org/obo/GOREL_0000015>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0001030> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0002008> (obsolete has_intermediate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GOREL_0002008> <http://purl.obolibrary.org/obo/RO_0002505>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/GOREL_0002008> "pg"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/GOREL_0002008> "2019-11-21T16:32:15Z"^^xsd:dateTime)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GOREL_0002008> "GOREL:0002008"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0002008> "go/extensions/gorel"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0002008> "obsolete has_intermediate"@en)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0002008> "true"^^xsd:boolean)
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0098702> (regulates activity of)
 
