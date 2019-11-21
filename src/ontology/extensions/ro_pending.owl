@@ -258,10 +258,11 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002332 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002332">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002332</oboInOwl:hasDbXref>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates_level_of</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates_level_of</oboInOwl:shorthand>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates level of</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Replaced by RO:0002332.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete regulates level of</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     
 
@@ -275,9 +276,9 @@
     <!-- http://purl.obolibrary.org/obo/go/extensions/ro_pending#alters_location_of -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/go/extensions/ro_pending#alters_location_of">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alters_location_of</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alters location of</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete alters location of</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     
 
@@ -285,8 +286,11 @@
     <!-- http://purl.obolibrary.org/obo/go/extensions/ro_pending#results_in_connection_of -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/go/extensions/ro_pending#results_in_connection_of">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/go/extensions/ro_pending#results_in_connection_of"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">results_in_connection_of</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">will be replaced by has_input</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete results_in_connection_of</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     
 
@@ -294,8 +298,9 @@
     <!-- http://purl.obolibrary.org/obo/go/extensions/ro_pending#results_in_transport_through -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/go/extensions/ro_pending#results_in_transport_through">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">results_in_transport_through</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete results_in_transport_through</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
 </rdf:RDF>
 
