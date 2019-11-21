@@ -122,18 +122,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GOREL_0001007 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0001007">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0001007</oboInOwl:hasDbXref>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediated_by</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediated_by</oboInOwl:shorthand>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediated_by</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GOREL_0001019 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0001019">
