@@ -981,6 +981,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/GOREL_0001007> "pg"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/GOREL_0001007> "2019-11-21T19:16:04Z"^^xsd:dateTime)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GOREL_0001007> "GOREL:0001007"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0001007> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GOREL_0001007> "mediated_by"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0001007> "obsolete mediated by"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0001007> "true"^^xsd:boolean)
