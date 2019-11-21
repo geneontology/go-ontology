@@ -245,19 +245,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GOREL_0002010 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0002010">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0002010</oboInOwl:hasDbXref>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">results_in_transport_to_from_or_mediated_by</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">results_in_transport_to_from_or_mediated_by</oboInOwl:shorthand>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This relation is so far only used for one class, &apos;endosomal transport&apos; (GO:0016197), which groups together disparate roles the participants can play - it is defined as &apos;The directed movement of substances into, out of *or mediated by* an endosome...&apos;</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">results_in_transport_to_from_or_mediated_by</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GOREL_0012006 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0012006">
