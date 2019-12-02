@@ -277,7 +277,7 @@ subsets/%.tsv: subsets/%.owl
 # IMPORT MODULES
 # ----------------------------------------
 
-IMPORTS = chebi cl po pato ro ncbitaxon uberon ddanat fao oba so reactome_xrefs go_taxon_constraints
+IMPORTS = chebi cl po pato ro ncbitaxon uberon ddanat fao oba so opl reactome_xrefs go_taxon_constraints
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
@@ -293,6 +293,10 @@ seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupin
 # of a general problem to balance for all import module extractions; need to come up with a consistent approach.
 imports/pr_terms_combined.txt: imports/pr_terms.txt seed.txt
 	cat $^ | grep 'PR_' > $@
+
+# Specialize seed terms for OPL. 
+imports/opl_terms_combined.txt: imports/opl_terms.txt seed.txt
+	cat $^ | grep 'OPL_' > $@
 
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
@@ -420,6 +424,9 @@ mirror/so.owl: mirror/so-download.owl
 # Removing all external axioms from PR; considering refactoring all imports to create a "base"-ish version if not published
 mirror/pr.owl: mirror/pr-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) --remove-axioms-about -d -v PR -o $@
+
+mirror/opl.owl: mirror/opl-download.owl
+	$(OWLTOOLS) $< $(FILTER_EXTERNAL) --remove-axioms-about -d -v OPL -o $@
 
 mirror/%.owl: mirror/%-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
