@@ -471,3 +471,5 @@ GO:1901259	chloroplast rRNA processing	NCBITaxon:28009	Choanoflagellida
 GO:1901259	chloroplast rRNA processing	NCBITaxon:33208	Metazoa
 GO:1901259	chloroplast rRNA processing	NCBITaxon:4751	Fungi
 GO:1901259	chloroplast rRNA processing	NCBITaxon:554915	Amoebozoa
+GO:0052553	modulation by symbiont of host immune response	NCBITaxon:33208	Metazoa
+GO:0052553	modulation by symbiont of host immune response	NCBITaxon:33090	Viridiplantae
