@@ -1,0 +1,330 @@
+format-version: 1.2
+data-version: go/releases/2019-12-02/imports/opl_import.owl
+ontology: go/imports/opl_import
+
+[Term]
+id: OPL:0000004
+name: Triatominae hindgut
+def: "A hindgut that is a part of or originated from a Triatominae bug." []
+is_a: UBERON:0001046
+intersection_of: UBERON:0001046
+intersection_of: part_of NCBITaxon:70999
+
+[Term]
+id: OPL:0000006
+name: metacyclic promastigote stage
+def: "A promastigote stage of some kinetoplastids." []
+is_a: OPL:0000151 ! promastigote stage
+
+[Term]
+id: OPL:0000015
+name: Phlebotominae proboscis
+def: "A proboscis that is a part of or originated from a sand fly of genus Phlebotominae." []
+is_a: BTO:0001117
+intersection_of: BTO:0001117
+intersection_of: part_of NCBITaxon:7198
+
+[Term]
+id: OPL:0000033
+name: trypomastigote stage
+def: "A parasite lifecycle stage of trypanosomes. In trypomastigote stage, the kinetoplast is near the posterior end of the body, and the flagellum lies attached to the cell body for most of its length by an undulating membrane." []
+is_a: OPL:0000181 ! parasite lifecycle stage
+relationship: has_participant OPL:0000232 ! parasite organism
+
+[Term]
+id: OPL:0000048
+name: Trypanosoma brucei lifecycle stage
+def: "A lifecycle stage of Trypanosoma brucei." []
+is_a: OPL:0000181 ! parasite lifecycle stage
+intersection_of: OPL:0000181 ! parasite lifecycle stage
+intersection_of: has_participant NCBITaxon:5691 {all_only="true"}
+
+[Term]
+id: OPL:0000056
+name: Trypanosoma brucei metacyclic trypomastigote stage
+def: "A metacyclic trypomastigote stage in the lifecycle of Trypanosoma brucei that occurs either in vertebrate host bloodstream or in salivary glands of an insect vector." []
+is_a: OPL:0000149 ! metacyclic trypomastigote stage
+is_a: OPL:0000175 ! Trypanosoma brucei trypomastigote stage
+intersection_of: OPL:0000149 ! metacyclic trypomastigote stage
+intersection_of: has_participant NCBITaxon:5691 {all_only="true"}
+relationship: occurs_in OPL:0000154 ! Glossina salivary gland
+relationship: occurs_in OPL:0000320 ! Mammalia blood
+
+[Term]
+id: OPL:0000088
+name: Triatominae midgut
+def: "A midgut that is a part of or originated from a Triatominae bug." []
+is_a: UBERON:0001045
+intersection_of: UBERON:0001045
+intersection_of: part_of NCBITaxon:70999
+
+[Term]
+id: OPL:0000102
+name: Leishmania major metacyclic promastigote stage
+def: "A metacyclic promastigote stage in the lifecycle of Leishmania major." []
+is_a: OPL:0000006 ! metacyclic promastigote stage
+is_a: OPL:0000189 ! Leishmania major promastigote stage
+intersection_of: OPL:0000006 ! metacyclic promastigote stage
+intersection_of: has_participant NCBITaxon:5664 {all_only="true"}
+relationship: occurs_in OPL:0000015 ! Phlebotominae proboscis
+relationship: occurs_in OPL:0000321 ! Mammalia macrophage
+
+[Term]
+id: OPL:0000131
+name: Trypanosoma cruzi metacyclic trypomastigote stage
+def: "A metacyclic trypomastigote stage in the lifecycle of Trypanosoma cruzi that occurs in a vertebrate host." []
+is_a: OPL:0000149 ! metacyclic trypomastigote stage
+is_a: OPL:0000169 ! Trypanosoma cruzi trypomastigote stage
+intersection_of: OPL:0000149 ! metacyclic trypomastigote stage
+intersection_of: has_participant NCBITaxon:5693 {all_only="true"}
+relationship: occurs_in OPL:0000320 ! Mammalia blood
+relationship: occurs_in OPL:0000321 ! Mammalia macrophage
+
+[Term]
+id: OPL:0000149
+name: metacyclic trypomastigote stage
+def: "A trypomastigote stage of Trypanosoma species which are nondividing forms resistant to mammalian complement that have the capacity to infect mammalian cells." []
+is_a: OPL:0000033 ! trypomastigote stage
+
+[Term]
+id: OPL:0000151
+name: promastigote stage
+def: "A parasite lifecycle stage of Trypanosomatids. In this stage, the flagellum is found anterior of nucleus and flagellum not attached to the cell body. The kinetoplast is located in front of the nucleus, near the anterior end of the body. (Wikipedia: Trypanosomatid)" []
+is_a: OPL:0000181 ! parasite lifecycle stage
+relationship: has_participant OPL:0000232 ! parasite organism
+
+[Term]
+id: OPL:0000154
+name: Glossina salivary gland
+def: "A salivary gland that is a part of or originated from a tsetse fly of genus Glossina." []
+is_a: UBERON:0001044
+intersection_of: UBERON:0001044
+intersection_of: part_of NCBITaxon:7393
+
+[Term]
+id: OPL:0000156
+name: Schistosoma japonicum lifecycle stage
+def: "A lifecycle stage of Schistosoma japonicum." []
+is_a: OPL:0000181 ! parasite lifecycle stage
+intersection_of: OPL:0000181 ! parasite lifecycle stage
+intersection_of: has_participant NCBITaxon:6182 {all_only="true"}
+
+[Term]
+id: OPL:0000165
+name: Plasmodium falciparum lifecycle stage
+def: "A lifecycle stage of Plasmodium falciparum." []
+is_a: OPL:0000181 ! parasite lifecycle stage
+intersection_of: OPL:0000181 ! parasite lifecycle stage
+intersection_of: has_participant NCBITaxon:5833 {all_only="true"}
+
+[Term]
+id: OPL:0000169
+name: Trypanosoma cruzi trypomastigote stage
+def: "A trypomastigote stage in the Trypanosoma cruzi lifecycle that occurs either in the vertebrate host or an insect vector." []
+is_a: OPL:0000033 ! trypomastigote stage
+is_a: OPL:0000185 ! Trypanosoma cruzi lifecycle stage
+intersection_of: OPL:0000033 ! trypomastigote stage
+intersection_of: has_participant NCBITaxon:5693 {all_only="true"}
+relationship: occurs_in OPL:0000004 ! Triatominae hindgut
+relationship: occurs_in OPL:0000320 ! Mammalia blood
+relationship: occurs_in OPL:0000321 ! Mammalia macrophage
+
+[Term]
+id: OPL:0000175
+name: Trypanosoma brucei trypomastigote stage
+def: "A trypomastigote stage in the Trypanosoma brucei lifecycle that occurs in the vertebrate host." []
+is_a: OPL:0000033 ! trypomastigote stage
+is_a: OPL:0000048 ! Trypanosoma brucei lifecycle stage
+intersection_of: OPL:0000033 ! trypomastigote stage
+intersection_of: has_participant NCBITaxon:5691 {all_only="true"}
+relationship: occurs_in OPL:0000313 ! Mammalia cerebrospinal fluid
+relationship: occurs_in OPL:0000320 ! Mammalia blood
+
+[Term]
+id: OPL:0000177
+name: Schistosoma haematobium lifecycle stage
+def: "A lifecycle stage of Schistosoma haematobium." []
+is_a: OPL:0000181 ! parasite lifecycle stage
+intersection_of: OPL:0000181 ! parasite lifecycle stage
+intersection_of: has_participant NCBITaxon:6185 {all_only="true"}
+
+[Term]
+id: OPL:0000181
+name: parasite lifecycle stage
+def: "A life cycle stage of a parasite." []
+is_a: UBERON:0000105
+intersection_of: UBERON:0000105
+intersection_of: has_participant OPL:0000232 {all_only="true"} ! parasite organism
+
+[Term]
+id: OPL:0000185
+name: Trypanosoma cruzi lifecycle stage
+def: "A lifecycle stage of Trypanosoma cruzi." []
+is_a: OPL:0000181 ! parasite lifecycle stage
+intersection_of: OPL:0000181 ! parasite lifecycle stage
+intersection_of: has_participant NCBITaxon:5693 {all_only="true"}
+
+[Term]
+id: OPL:0000189
+name: Leishmania major promastigote stage
+def: "A promastigote stage in the Leishmania major lifecycle." []
+is_a: OPL:0000151 ! promastigote stage
+is_a: OPL:0000209 ! Leishmania major lifecycle stage
+intersection_of: OPL:0000151 ! promastigote stage
+intersection_of: has_participant NCBITaxon:5664 {all_only="true"}
+relationship: occurs_in OPL:0000015 ! Phlebotominae proboscis
+relationship: occurs_in OPL:0000194 ! Phlebotominae midgut
+relationship: occurs_in OPL:0000321 ! Mammalia macrophage
+
+[Term]
+id: OPL:0000194
+name: Phlebotominae midgut
+def: "A midgut that is a part of or originated from a sand fly of genus Phlebotominae." []
+is_a: UBERON:0001045
+intersection_of: UBERON:0001045
+intersection_of: part_of NCBITaxon:7198
+
+[Term]
+id: OPL:0000203
+name: Schistosoma mansoni lifecycle stage
+def: "A lifecycle stage of Schistosoma mansoni." []
+is_a: OPL:0000181 ! parasite lifecycle stage
+intersection_of: OPL:0000181 ! parasite lifecycle stage
+intersection_of: has_participant NCBITaxon:6183 {all_only="true"}
+
+[Term]
+id: OPL:0000209
+name: Leishmania major lifecycle stage
+def: "A parasite lifecycle stage of Leishmania major." []
+is_a: OPL:0000181 ! parasite lifecycle stage
+intersection_of: OPL:0000181 ! parasite lifecycle stage
+intersection_of: has_participant NCBITaxon:5664 {all_only="true"}
+
+[Term]
+id: OPL:0000215
+name: Glossina midgut
+def: "A midgut that is a part of or originated from a tsetse fly of genus Glossina." []
+is_a: UBERON:0001045
+intersection_of: UBERON:0001045
+intersection_of: part_of NCBITaxon:7393
+
+[Term]
+id: OPL:0000232
+name: parasite organism
+def: "An organism living in, with, or on another organism in parasitism. Individual members of parasite species, such as Leishmania, Plasmodium, Trypanosoma, etc. are members of this class." []
+is_a: OBI:0100026
+intersection_of: OBI:0100026
+intersection_of: has_role IDO:0000403
+
+[Term]
+id: OPL:0000310
+name: Vertebrate blood
+def: "Blood that is part of or originated from a vertebrate." []
+is_a: UBERON:0000178
+intersection_of: UBERON:0000178
+intersection_of: part_of NCBITaxon:7742
+
+[Term]
+id: OPL:0000313
+name: Mammalia cerebrospinal fluid
+def: "Cerebrospinal fluid that is a part of or originated from a mammal." []
+is_a: UBERON:0001359
+intersection_of: UBERON:0001359
+intersection_of: part_of NCBITaxon:40674
+
+[Term]
+id: OPL:0000320
+name: Mammalia blood
+def: "Blood that is part of or originated from a mammalia." []
+is_a: OPL:0000310 ! Vertebrate blood
+intersection_of: UBERON:0000178
+intersection_of: part_of NCBITaxon:40674
+
+[Term]
+id: OPL:0000321
+name: Mammalia macrophage
+def: "A macrophage that is a part of or originated from a mammalia." []
+is_a: CL:0000235
+intersection_of: CL:0000235
+intersection_of: part_of NCBITaxon:40674
+
+[Typedef]
+id: bearer_of
+name: bearer of
+def: "a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence" []
+xref: RO:0000053
+range: BFO:0000020
+
+[Typedef]
+id: contains_process
+name: contains process
+def: "[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
+xref: BFO:0000067
+
+[Typedef]
+id: has_part
+name: has part
+def: "a core relation that holds between a whole and its part" []
+xref: BFO:0000051
+is_transitive: true
+
+[Typedef]
+id: has_participant
+name: has participant
+def: "a relation between a process and a continuant, in which the continuant is somehow involved in the process" []
+xref: RO:0000057
+domain: BFO:0000003
+range: BFO:0000002
+
+[Typedef]
+id: has_role
+name: has role
+def: "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence" []
+xref: RO:0000087
+domain: BFO:0000004
+range: BFO:0000023
+is_a: bearer_of ! bearer of
+
+[Typedef]
+id: inheres_in
+name: inheres in
+def: "a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence" []
+xref: RO:0000052
+inverse_of: bearer_of ! bearer of
+
+[Typedef]
+id: occurs_in
+name: occurs in
+def: "b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
+xref: BFO:0000066
+domain: BFO:0000003
+range: BFO:0000004
+holds_over_chain: part_of occurs_in
+inverse_of: contains_process ! contains process
+transitive_over: part_of ! part of
+
+[Typedef]
+id: part_of
+name: part of
+def: "a core relation that holds between a part and its whole" []
+xref: BFO:0000050
+is_transitive: true
+inverse_of: has_part ! has part
+
+[Typedef]
+id: participates_in
+name: participates in
+def: "a relation between a continuant and a process, in which the continuant is somehow involved in the process" []
+xref: RO:0000056
+domain: BFO:0000002
+range: BFO:0000003
+inverse_of: has_participant ! has participant
+
+[Typedef]
+id: role_of
+name: role of
+def: "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence" []
+xref: RO:0000081
+is_a: inheres_in ! inheres in
+inverse_of: has_role ! has role
+
