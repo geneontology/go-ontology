@@ -785,3 +785,5 @@ GO:0042302	structural constituent of cuticle	NCBITaxon:6072	Eumetazoa
 GO:0042329	structural constituent of collagen and cuticulin-based cuticle	NCBITaxon:6231	Nematoda
 GO:1990765	colon smooth muscle contraction	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0140384	metacyclogenesis	NCBITaxon:5654	Trypanosomatidae
+GO:0009870	defense response signaling pathway, resistance gene-dependent	NCBITaxon:33090	Viridiplantae
+GO:0010204	defense response signaling pathway, resistance gene-independent	NCBITaxon:33090	Viridiplantae
