@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-07-01/imports/ro_import.owl
+data-version: go/releases/2019-11-22/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -787,6 +787,13 @@ is_a: has_participant ! has participant
 inverse_of: input_of ! input of
 
 [Typedef]
+id: has_intermediate
+name: has intermediate
+def: "p has intermediate c if and only if p has parts p1, p2 and p1 has output c, and p2 has input c" []
+xref: RO:0002505
+is_a: has_participant ! has participant
+
+[Typedef]
 id: has_ligand
 name: has ligand
 def: "A relationship that holds between between a receptor and an chemical entity, typically a small molecule or peptide, that carries information between cells or compartments of a cell and which binds the receptor and regulates its effector function." []
@@ -1270,6 +1277,7 @@ holds_over_chain: has_part overlaps
 holds_over_chain: has_part part_of
 holds_over_chain: part_of part_of
 is_a: mereotopologically_related_to ! mereotopologically related to
+transitive_over: part_of ! part of
 
 [Typedef]
 id: part_of
