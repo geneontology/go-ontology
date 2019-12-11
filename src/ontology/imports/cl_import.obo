@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-10-06/imports/cl_import.owl
+data-version: go/releases/2019-12-11/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
