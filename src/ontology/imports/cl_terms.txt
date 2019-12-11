@@ -8,3 +8,7 @@ http://purl.obolibrary.org/obo/CL_0002322 ## embryonic stem cell
 http://purl.obolibrary.org/obo/CL_0001044 ## effector CD4-positive, alpha-beta T cell
 http://purl.obolibrary.org/obo/CL_0000897 ## CD4-positive, alpha-beta memory T cell
 http://purl.obolibrary.org/obo/CL_0001658 ## visual pigment cell (sensu Nematoda and Protostomia)
+http://purl.obolibrary.org/obo/CL_0011013 ## motile sperm cell
+http://purl.obolibrary.org/obo/CL_0011014 ## non-motile sperm cell
+http://purl.obolibrary.org/obo/CL_0011015 ## amoeboid sperm cell
+http://purl.obolibrary.org/obo/CL_0011016 ## flagellated sperm cell
