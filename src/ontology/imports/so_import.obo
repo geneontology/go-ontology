@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2018-05-21/imports/so_import.owl
+data-version: go/releases/2019-12-11/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -319,6 +319,26 @@ xref: http://en.wikipedia.org/wiki/RNA "wiki"
 is_a: SO:0000831 ! gene_member_region
 
 [Term]
+id: SO:0000713
+name: DNA_motif
+namespace: sequence
+def: "A motif that is active in the DNA form of the sequence." [SO:ke]
+synonym: "DNA motif" EXACT []
+xref: http://en.wikipedia.org/wiki/DNA_motif "wiki"
+is_a: SO:0000714 ! nucleotide_motif
+
+[Term]
+id: SO:0000714
+name: nucleotide_motif
+namespace: sequence
+def: "A region of nucleotide sequence corresponding to a known motif." [SO:ke]
+subset: SOFA
+synonym: "INSDC_feature:misc_feature" BROAD []
+synonym: "INSDC_note:nucleotide_motif" EXACT []
+synonym: "nucleotide motif" EXACT []
+is_a: SO:0001683 ! sequence_motif
+
+[Term]
 id: SO:0000830
 name: chromosome_part
 namespace: sequence
@@ -397,6 +417,18 @@ synonym: "INSDC_note:biological_region" EXACT []
 is_a: SO:0000001 ! region
 
 [Term]
+id: SO:0001683
+name: sequence_motif
+namespace: sequence
+def: "A sequence motif is a nucleotide or amino-acid sequence pattern that may have biological significance." [http://en.wikipedia.org/wiki/Sequence_motif]
+subset: SOFA
+synonym: "sequence motif" RELATED []
+xref: http://en.wikipedia.org/wiki/Sequence_motif "wikipedia"
+is_a: SO:0001411 ! biological_region
+created_by: kareneilbeck
+creation_date: 2010-10-14T04:13:22Z
+
+[Term]
 id: SO:0001796
 name: regional_centromere_central_core
 namespace: sequence
@@ -419,6 +451,19 @@ created_by: kareneilbeck
 creation_date: 2011-05-31T12:59:27Z
 
 [Term]
+id: SO:0001798
+name: regional_centromere_inner_repeat_region
+namespace: sequence
+def: "The inner inverted repeat region of a modular centromere and part of the central core surrounding a non-conserved central region. This region is adjacent to the central core, on each chromosome arm." [SO:vw]
+synonym: "lmr repeat" EXACT []
+synonym: "lmr1L" EXACT []
+synonym: "lmr1R" EXACT []
+synonym: "regional centromere inner repeat region" EXACT []
+is_a: SO:0001797 ! centromeric_repeat
+created_by: kareneilbeck
+creation_date: 2011-05-31T01:01:08Z
+
+[Term]
 id: SO:0001799
 name: regional_centromere_outer_repeat_region
 namespace: sequence
@@ -427,6 +472,21 @@ synonym: "regional centromere outer repeat region" EXACT []
 is_a: SO:0001797 ! centromeric_repeat
 created_by: kareneilbeck
 creation_date: 2011-05-31T01:03:23Z
+
+[Term]
+id: SO:0001914
+name: rDNA_replication_fork_barrier
+namespace: sequence
+def: "A DNA motif that is found in eukaryotic rDNA repeats, and is a site of replication fork pausing." [PMID:14645529]
+comment: Requested by Midori - June 2012.
+synonym: "DNA spacer replication fork barrier" EXACT []
+synonym: "rDNA replication fork barrier" EXACT []
+synonym: "RFB" EXACT []
+synonym: "RTS1 barrier" EXACT []
+synonym: "RTS1 element" EXACT []
+is_a: SO:0000713 ! DNA_motif
+created_by: kareneilbeck
+creation_date: 2012-06-11T02:55:02Z
 
 [Term]
 id: SO:0001997
