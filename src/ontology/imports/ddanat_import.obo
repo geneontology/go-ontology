@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-10-22/imports/ddanat_import.owl
+data-version: go/releases/2019-12-12/imports/ddanat_import.owl
 ontology: go/imports/ddanat_import
 
 [Term]
