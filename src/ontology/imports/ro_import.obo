@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-11-22/imports/ro_import.owl
+data-version: go/releases/2019-12-13/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
