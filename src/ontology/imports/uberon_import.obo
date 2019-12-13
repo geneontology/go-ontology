@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-07-10/imports/uberon_import.owl
+data-version: go/releases/2019-12-13/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -13,6 +13,631 @@ is_a: BFO:0000004
 [Term]
 id: BFO:0000141
 is_a: BFO:0000004
+
+[Term]
+id: ENVO:00000428
+is_a: ENVO:01000254
+
+[Term]
+id: ENVO:00000446
+is_a: ENVO:00000428
+
+[Term]
+id: ENVO:00000447
+is_a: ENVO:00002030
+
+[Term]
+id: ENVO:00000568
+is_a: ENVO:00002036
+
+[Term]
+id: ENVO:00002030
+is_a: ENVO:00000428
+
+[Term]
+id: ENVO:00002036
+is_a: ENVO:01000254
+
+[Term]
+id: NCBITaxon:117565
+is_a: NCBITaxon:1476529
+
+[Term]
+id: NCBITaxon:117570
+is_a: NCBITaxon:7776
+
+[Term]
+id: NCBITaxon:117571
+is_a: NCBITaxon:117570
+
+[Term]
+id: NCBITaxon:119089
+is_a: NCBITaxon:6231
+
+[Term]
+id: NCBITaxon:1206794
+is_a: NCBITaxon:33317
+
+[Term]
+id: NCBITaxon:131567
+is_a: NCBITaxon:1
+
+[Term]
+id: NCBITaxon:1329799
+is_a: NCBITaxon:32561
+
+[Term]
+id: NCBITaxon:1338369
+is_a: NCBITaxon:8287
+
+[Term]
+id: NCBITaxon:1437010
+is_a: NCBITaxon:9347
+
+[Term]
+id: NCBITaxon:1476529
+is_a: NCBITaxon:7742
+
+[Term]
+id: NCBITaxon:186623
+is_a: NCBITaxon:7898
+
+[Term]
+id: NCBITaxon:197562
+is_a: NCBITaxon:197563
+
+[Term]
+id: NCBITaxon:197563
+is_a: NCBITaxon:6656
+
+[Term]
+id: NCBITaxon:207598
+is_a: NCBITaxon:9604
+
+[Term]
+id: NCBITaxon:2759
+is_a: NCBITaxon:131567
+
+[Term]
+id: NCBITaxon:314146
+is_a: NCBITaxon:1437010
+
+[Term]
+id: NCBITaxon:314147
+is_a: NCBITaxon:314146
+
+[Term]
+id: NCBITaxon:314293
+is_a: NCBITaxon:376913
+
+[Term]
+id: NCBITaxon:314295
+is_a: NCBITaxon:9526
+
+[Term]
+id: NCBITaxon:32443
+is_a: NCBITaxon:41665
+
+[Term]
+id: NCBITaxon:32523
+is_a: NCBITaxon:1338369
+
+[Term]
+id: NCBITaxon:32524
+is_a: NCBITaxon:32523
+
+[Term]
+id: NCBITaxon:32525
+is_a: NCBITaxon:40674
+
+[Term]
+id: NCBITaxon:32561
+is_a: NCBITaxon:8457
+
+[Term]
+id: NCBITaxon:33154
+is_a: NCBITaxon:2759
+
+[Term]
+id: NCBITaxon:33208
+is_a: NCBITaxon:33154
+
+[Term]
+id: NCBITaxon:33213
+is_a: NCBITaxon:6072
+
+[Term]
+id: NCBITaxon:33317
+is_a: NCBITaxon:33213
+
+[Term]
+id: NCBITaxon:33340
+is_a: NCBITaxon:7496
+
+[Term]
+id: NCBITaxon:33392
+is_a: NCBITaxon:33340
+
+[Term]
+id: NCBITaxon:33511
+is_a: NCBITaxon:33213
+
+[Term]
+id: NCBITaxon:376913
+is_a: NCBITaxon:9443
+
+[Term]
+id: NCBITaxon:40674
+is_a: NCBITaxon:32524
+
+[Term]
+id: NCBITaxon:41665
+is_a: NCBITaxon:186623
+
+[Term]
+id: NCBITaxon:436486
+is_a: NCBITaxon:8492
+
+[Term]
+id: NCBITaxon:436489
+is_a: NCBITaxon:436486
+
+[Term]
+id: NCBITaxon:436491
+is_a: NCBITaxon:436489
+
+[Term]
+id: NCBITaxon:436492
+is_a: NCBITaxon:436491
+
+[Term]
+id: NCBITaxon:50557
+is_a: NCBITaxon:6960
+
+[Term]
+id: NCBITaxon:55879
+is_a: NCBITaxon:6236
+
+[Term]
+id: NCBITaxon:55885
+is_a: NCBITaxon:6243
+
+[Term]
+id: NCBITaxon:6072
+is_a: NCBITaxon:33208
+
+[Term]
+id: NCBITaxon:6073
+is_a: NCBITaxon:6072
+
+[Term]
+id: NCBITaxon:6231
+is_a: NCBITaxon:1206794
+
+[Term]
+id: NCBITaxon:6236
+is_a: NCBITaxon:119089
+
+[Term]
+id: NCBITaxon:6237
+is_a: NCBITaxon:55885
+
+[Term]
+id: NCBITaxon:6243
+is_a: NCBITaxon:55879
+
+[Term]
+id: NCBITaxon:6656
+is_a: NCBITaxon:88770
+
+[Term]
+id: NCBITaxon:6960
+is_a: NCBITaxon:197562
+
+[Term]
+id: NCBITaxon:7147
+is_a: NCBITaxon:33392
+
+[Term]
+id: NCBITaxon:7203
+is_a: NCBITaxon:7147
+
+[Term]
+id: NCBITaxon:7496
+is_a: NCBITaxon:85512
+
+[Term]
+id: NCBITaxon:7586
+is_a: NCBITaxon:33511
+
+[Term]
+id: NCBITaxon:7711
+is_a: NCBITaxon:33511
+
+[Term]
+id: NCBITaxon:7742
+is_a: NCBITaxon:89593
+
+[Term]
+id: NCBITaxon:7761
+is_a: NCBITaxon:117565
+
+[Term]
+id: NCBITaxon:7762
+is_a: NCBITaxon:7761
+
+[Term]
+id: NCBITaxon:7776
+is_a: NCBITaxon:7742
+
+[Term]
+id: NCBITaxon:7898
+is_a: NCBITaxon:117571
+
+[Term]
+id: NCBITaxon:8287
+is_a: NCBITaxon:117571
+
+[Term]
+id: NCBITaxon:8457
+is_a: NCBITaxon:32524
+
+[Term]
+id: NCBITaxon:8492
+is_a: NCBITaxon:1329799
+
+[Term]
+id: NCBITaxon:85512
+is_a: NCBITaxon:50557
+
+[Term]
+id: NCBITaxon:8782
+is_a: NCBITaxon:436492
+
+[Term]
+id: NCBITaxon:88770
+is_a: NCBITaxon:1206794
+
+[Term]
+id: NCBITaxon:89593
+is_a: NCBITaxon:7711
+
+[Term]
+id: NCBITaxon:9347
+is_a: NCBITaxon:32525
+
+[Term]
+id: NCBITaxon:9443
+is_a: NCBITaxon:314146
+
+[Term]
+id: NCBITaxon:9526
+is_a: NCBITaxon:314293
+
+[Term]
+id: NCBITaxon:9604
+is_a: NCBITaxon:314295
+
+[Term]
+id: NCBITaxon:9605
+is_a: NCBITaxon:207598
+
+[Term]
+id: NCBITaxon:9606
+is_a: NCBITaxon:9605
+
+[Term]
+id: NCBITaxon:9989
+is_a: NCBITaxon:314147
+
+[Term]
+id: PATO:0000025
+is_a: PATO:0000141
+
+[Term]
+id: PATO:0000051
+is_a: PATO:0001241
+
+[Term]
+id: PATO:0000052
+is_a: PATO:0000051
+
+[Term]
+id: PATO:0000136
+is_a: PATO:0000051
+
+[Term]
+id: PATO:0000141
+is_a: PATO:0000051
+
+[Term]
+id: PATO:0000150
+is_a: PATO:0000051
+
+[Term]
+id: PATO:0000261
+is_a: PATO:0001995
+
+[Term]
+id: PATO:0000402
+is_a: PATO:0002009
+
+[Term]
+id: PATO:0000404
+is_a: PATO:0001794
+
+[Term]
+id: PATO:0000407
+is_a: PATO:0002254
+
+[Term]
+id: PATO:0000608
+is_a: PATO:0000136
+
+[Term]
+id: PATO:0000610
+is_a: PATO:0000136
+
+[Term]
+id: PATO:0000957
+is_a: PATO:0001300
+
+[Term]
+id: PATO:0000963
+is_a: PATO:0000957
+
+[Term]
+id: PATO:0000964
+is_a: PATO:0000957
+
+[Term]
+id: PATO:0000992
+is_a: PATO:0001548
+
+[Term]
+id: PATO:0000998
+is_a: PATO:0000992
+
+[Term]
+id: PATO:0001018
+is_a: PATO:0001241
+
+[Term]
+id: PATO:0001031
+is_a: PATO:0001018
+
+[Term]
+id: PATO:0001171
+is_a: PATO:0001031
+
+[Term]
+id: PATO:0001185
+is_a: PATO:0000261
+
+[Term]
+id: PATO:0001187
+is_a: PATO:0000261
+
+[Term]
+id: PATO:0001190
+is_a: PATO:0000261
+
+[Term]
+id: PATO:0001241
+is_a: PATO:0000001
+
+[Term]
+id: PATO:0001291
+is_a: PATO:0001739
+
+[Term]
+id: PATO:0001292
+is_a: PATO:0001291
+
+[Term]
+id: PATO:0001294
+is_a: PATO:0001292
+
+[Term]
+id: PATO:0001297
+is_a: PATO:0001294
+
+[Term]
+id: PATO:0001300
+is_a: PATO:0001291
+
+[Term]
+id: PATO:0001543
+is_a: PATO:0001546
+
+[Term]
+id: PATO:0001544
+is_a: PATO:0001543
+
+[Term]
+id: PATO:0001546
+is_a: PATO:0002198
+
+[Term]
+id: PATO:0001547
+is_a: PATO:0002198
+
+[Term]
+id: PATO:0001548
+is_a: PATO:0002198
+
+[Term]
+id: PATO:0001579
+is_a: PATO:0001018
+
+[Term]
+id: PATO:0001591
+is_a: PATO:0000052
+
+[Term]
+id: PATO:0001690
+is_a: PATO:0001579
+
+[Term]
+id: PATO:0001735
+is_a: PATO:0001548
+
+[Term]
+id: PATO:0001736
+is_a: PATO:0001546
+
+[Term]
+id: PATO:0001739
+is_a: PATO:0001018
+
+[Term]
+id: PATO:0001748
+is_a: PATO:0001857
+
+[Term]
+id: PATO:0001794
+is_a: PATO:0000052
+
+[Term]
+id: PATO:0001857
+is_a: PATO:0002005
+
+[Term]
+id: PATO:0001873
+is_a: PATO:0002007
+
+[Term]
+id: PATO:0001987
+is_a: PATO:0002014
+
+[Term]
+id: PATO:0001992
+is_a: PATO:0001995
+
+[Term]
+id: PATO:0001993
+is_a: PATO:0001992
+
+[Term]
+id: PATO:0001995
+is_a: PATO:0001241
+
+[Term]
+id: PATO:0002005
+is_a: PATO:0000052
+
+[Term]
+id: PATO:0002006
+is_a: PATO:0000052
+
+[Term]
+id: PATO:0002007
+is_a: PATO:0002266
+
+[Term]
+id: PATO:0002009
+is_a: PATO:0000052
+
+[Term]
+id: PATO:0002014
+is_a: PATO:0000141
+
+[Term]
+id: PATO:0002045
+is_a: PATO:0000402
+
+[Term]
+id: PATO:0002078
+is_a: PATO:0002014
+
+[Term]
+id: PATO:0002124
+is_a: PATO:0000141
+
+[Term]
+id: PATO:0002198
+is_a: PATO:0001018
+
+[Term]
+id: PATO:0002236
+is_a: PATO:0002006
+
+[Term]
+id: PATO:0002254
+is_a: PATO:0001591
+
+[Term]
+id: PATO:0002255
+is_a: PATO:0000150
+
+[Term]
+id: PATO:0002266
+is_a: PATO:0000052
+
+[Term]
+id: PATO:0002299
+is_a: PATO:0001873
+is_a: PATO:0002078
+
+[Term]
+id: PATO:0002422
+is_a: PATO:0000141
+
+[Term]
+id: PATO:0002444
+is_a: PATO:0000025
+
+[Term]
+id: PATO:0002462
+is_a: PATO:0000025
+
+[Term]
+id: PATO:0002468
+is_a: PATO:0015008
+
+[Term]
+id: PATO:0002507
+is_a: PATO:0000025
+
+[Term]
+id: PATO:0002519
+is_a: PATO:0000141
+
+[Term]
+id: PATO:0010001
+is_a: PATO:0000141
+
+[Term]
+id: PATO:0015008
+is_a: PATO:0000141
+
+[Term]
+id: PR:000000001
+is_a: PR:000018263
+
+[Term]
+id: PR:000007499
+is_a: PR:000000001
+
+[Term]
+id: PR:000007636
+is_a: PR:000000001
+
+[Term]
+id: PR:000009978
+is_a: PR:000000001
+
+[Term]
+id: PR:000014841
+is_a: PR:000000001
+
+[Term]
+id: PR:000015557
+is_a: PR:000000001
+
+[Term]
+id: PR:000018263
+is_a: CHEBI:23367
 
 [Term]
 id: UBERON:0000000
@@ -68,7 +693,6 @@ synonym: "nose" EXACT []
 synonym: "olfactory apparatus" RELATED []
 synonym: "peripheral olfactory organ" EXACT []
 synonym: "proboscis" RELATED []
-is_a: CARO:0000003
 is_a: UBERON:0000475 ! organism subdivision
 is_a: UBERON:0002268 ! olfactory organ
 is_a: UBERON:0004121 ! ectoderm-derived structure
@@ -826,6 +1450,8 @@ def: "End of the life of an organism." []
 synonym: "death" RELATED []
 is_a: UBERON:0000105 ! life cycle stage
 relationship: ends UBERON:0000104 ! life cycle
+relationship: part_of GO:0016265
+relationship: simultaneous_with GO:0016265
 
 [Term]
 id: UBERON:0000072
@@ -2155,6 +2781,7 @@ synonym: "ramus opthalmicus profundus (ramus V1)" EXACT []
 synonym: "rostral branch of trigeminal nerve" EXACT []
 synonym: "trigeminal nerve ophthalmic division" RELATED []
 synonym: "trigeminal V nerve ophthalmic division" EXACT []
+is_a: BFO:0000040
 is_a: CARO:0001001
 is_a: UBERON:0011779 ! nerve of head region
 relationship: branching_part_of UBERON:0001645 ! trigeminal nerve
@@ -2296,6 +2923,7 @@ synonym: "third division of fifth cranial nerve" EXACT []
 synonym: "third division of trigeminal nerve" EXACT []
 synonym: "trigeminal nerve mandibular division" RELATED []
 synonym: "trigeminal V nerve mandibular division" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0011779 ! nerve of head region
 relationship: branching_part_of UBERON:0001645 ! trigeminal nerve
 relationship: part_of UBERON:0001645 ! trigeminal nerve
@@ -2345,6 +2973,7 @@ synonym: "second division of fifth cranial nerve" EXACT []
 synonym: "second division of trigeminal nerve" EXACT []
 synonym: "trigeminal nerve maxillary division" RELATED []
 synonym: "trigeminal V nerve maxillary division" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0011779 ! nerve of head region
 relationship: branching_part_of UBERON:0001645 ! trigeminal nerve
 relationship: part_of UBERON:0001645 ! trigeminal nerve
@@ -3088,7 +3717,6 @@ synonym: "anterior subdivision of trunk" RELATED []
 synonym: "thorax" EXACT []
 synonym: "upper body" RELATED []
 synonym: "upper trunk" RELATED []
-is_a: CARO:0000003
 is_a: UBERON:0009569 ! subdivision of trunk
 is_a: UBERON:0011676 ! subdivision of organism along main body axis
 intersection_of: UBERON:0011676 ! subdivision of organism along main body axis
@@ -3470,6 +4098,7 @@ synonym: "cortex of cerebral hemisphere" EXACT []
 synonym: "cortical plate (areas)" RELATED []
 synonym: "cortical plate (CTXpl)" RELATED []
 synonym: "pallium of the brain" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0011215 ! central nervous system cell part cluster
 is_a: UBERON:0016548 ! central nervous system gray matter layer
 relationship: capable_of_part_of GO:0007613
@@ -4153,7 +4782,6 @@ disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
 relationship: capable_of GO:0003016
-relationship: capable_of GO:0007585
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: only_in_taxon NCBITaxon:33213
 
@@ -4380,6 +5008,7 @@ name: sensory nerve
 def: "A nerve that transmits from sensory receptors on the surface of the body to the central nervous system." []
 synonym: "afferent nerve" RELATED []
 synonym: "nervus sensorius" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0001021 ! nerve
 relationship: has_part CL:0000526
 
@@ -5216,7 +5845,7 @@ relationship: has_part GO:0071953
 [Term]
 id: UBERON:0001136
 name: mesothelium
-def: "Simple squamous epithelium of mesodermal origin which lines serous membranes. Examples: mesothelium of pleura, mesothelium of peritoneum[FMA]. Wikipedia: The mesothelium is a membrane that forms the lining of several body cavities: the pleura (thoracal cavity), peritoneum (abdominal cavity including the mesentery) and pericardium (heart sac). Mesothelial tissue also surrounds the male internal reproductive organs (the tunica vaginalis testis) and covers the internal reproductive organs of women (the tunica serosa uteri)." []
+def: "Simple squamous epithelium of mesodermal origin which lines serous membranes. Examples: mesothelium of pleura, mesothelium of peritoneum[FMA]. http://en.wikipedia.org/wiki/ The mesothelium is a membrane that forms the lining of several body cavities: the pleura (thoracal cavity), peritoneum (abdominal cavity including the mesentery) and pericardium (heart sac). Mesothelial tissue also surrounds the male internal reproductive organs (the tunica vaginalis testis) and covers the internal reproductive organs of women (the tunica serosa uteri)." []
 is_a: UBERON:0000487 ! simple squamous epithelium
 is_a: UBERON:0012275 ! meso-epithelium
 intersection_of: UBERON:0000487 ! simple squamous epithelium
@@ -7275,6 +7904,7 @@ synonym: "plexus of veins of fascia of prostate" EXACT []
 synonym: "plexus venosus pampiniformis" EXACT []
 synonym: "venous plexus of fascia of prostate" EXACT []
 synonym: "venous plexus of fascia of prostate gland" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0001593 ! venous plexus
 relationship: located_in UBERON:0005352 ! spermatic cord
 
@@ -7344,8 +7974,8 @@ is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0005904 ! duct of male reproductive system
 relationship: channel_for CL:0000019
 relationship: channels_into UBERON:0003959 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! rete testis
+relationship: contains_process GO:0007126
 relationship: contains_process GO:0007283
-relationship: contains_process GO:0051321
 relationship: develops_from UBERON:0005297 ! testis sex cord
 relationship: part_of UBERON:0000473 ! testis
 
@@ -9616,8 +10246,10 @@ id: UBERON:0001678
 name: temporal bone
 def: "the large, irregular bone located at the base and side of the skull; consists of three parts at birth: squamous, tympanic, and petrous" []
 synonym: "os temporale" RELATED []
+is_a: UBERON:0003462 ! facial bone
 is_a: UBERON:0008193 ! pneumatized bone
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+is_a: UBERON:0015212 ! lateral structure
+relationship: in_lateral_side_of UBERON:0011156 ! facial skeleton
 
 [Term]
 id: UBERON:0001679
@@ -9751,6 +10383,7 @@ synonym: "petrosal bone" RELATED []
 synonym: "petrous bone" RELATED []
 synonym: "temporal bone petrous part" EXACT []
 is_a: UBERON:0005913 ! zone of bone organ
+is_a: UBERON:0010313 ! neural crest-derived structure
 relationship: part_of UBERON:0001678 ! temporal bone
 relationship: part_of UBERON:0002517 ! basicranium
 
@@ -9893,7 +10526,6 @@ synonym: "maxillary part of mouth" EXACT []
 synonym: "maxillary part of mouth proper" RELATED []
 synonym: "palatoquadrate arch" RELATED []
 synonym: "upper pharyngeal jaws" RELATED []
-is_a: CARO:0000003
 is_a: UBERON:0000475 ! organism subdivision
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0000475 ! organism subdivision
@@ -9910,7 +10542,6 @@ def: "Subdivision of head that consists of the lower jaw skeletal elements plus 
 synonym: "lower part of mouth" RELATED []
 synonym: "mandibular part of mouth" EXACT []
 synonym: "mandibular series" RELATED []
-is_a: CARO:0000003
 is_a: UBERON:0000475 ! organism subdivision
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0000475 ! organism subdivision
@@ -10032,6 +10663,7 @@ synonym: "nucleus tractus mesencephalicus nervi trigemini" RELATED []
 synonym: "trigeminal mesencephalic nucleus" EXACT []
 synonym: "trigeminal nerve mesencepahlic nucleus" EXACT []
 synonym: "trigeminal V mesencephalic nucleus" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0004132 ! trigeminal sensory nucleus
 is_a: UBERON:0006331 ! brainstem nucleus
 is_a: UBERON:0009661 ! midbrain nucleus
@@ -10183,6 +10815,7 @@ relationship: develops_from UBERON:0006298 ! submandibular gland primordium
 relationship: in_lateral_side_of UBERON:0001710 ! lower jaw region
 relationship: only_in_taxon NCBITaxon:32524
 relationship: part_of UBERON:0001710 ! lower jaw region
+relationship: part_of UBERON:0035775 {gci_relation="part_of", gci_filler="NCBITaxon:9605"} ! submandibular region
 
 [Term]
 id: UBERON:0001737
@@ -10742,6 +11375,7 @@ synonym: "retinal photoreceptor layer" EXACT []
 synonym: "retinal photoreceptor layers" RELATED []
 synonym: "stratum segmentorum externorum et internorum (retina)" EXACT []
 synonym: "stratum segmentorum externorum et internorum retinae" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0001781 ! layer of retina
 relationship: adjacent_to UBERON:0001788 ! outer limiting layer of retina
 relationship: has_part CL:0000287
@@ -10791,7 +11425,6 @@ id: UBERON:0001790
 name: outer plexiform layer of retina
 def: "The layer within the retina where the bipolar cells synapse with the photoreceptor cells[ZFA]. Between the inner and outer nuclear layers, the outer plexiform layer (OPL) contains connections between the photoreceptors and bipolar and horizontal cells[GO]." []
 synonym: "external plexiform layer" BROAD []
-synonym: "OPL" NARROW []
 synonym: "outer plexiform layer" EXACT []
 synonym: "retina outer plexiform layer" EXACT []
 synonym: "retina, outer plexiform layer" RELATED []
@@ -10818,6 +11451,7 @@ synonym: "retina, inner nuclear layer" RELATED []
 synonym: "retinal inner nuclear layer" EXACT []
 synonym: "stratum nucleare internum" EXACT []
 synonym: "stratum nucleare internum retinae" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0001781 ! layer of retina
 relationship: adjacent_to UBERON:0001795 ! inner plexiform layer of retina
 relationship: contributes_to_morphology_of UBERON:0003902 ! retinal neural layer
@@ -10841,6 +11475,7 @@ synonym: "retinal ganglion layer" EXACT []
 synonym: "RGC layer" EXACT []
 synonym: "stratum ganglionicum (retina)" EXACT []
 synonym: "stratum ganglionicum retinae" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0001781 ! layer of retina
 relationship: adjacent_to UBERON:0001793 ! nerve fiber layer of retina
 relationship: composed_primarily_of CL:0000740
@@ -11439,8 +12074,7 @@ def: "A system of fluid passages in the inner ear, including both the cochlea, w
 synonym: "labyrinthus osseus" RELATED []
 synonym: "osseous labyrinth" EXACT []
 synonym: "osseus labyrinth" RELATED []
-is_a: UBERON:0004121 ! ectoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+is_a: UBERON:0010313 ! neural crest-derived structure
 is_a: UBERON:0034921 ! multi organ part structure
 relationship: part_of UBERON:0001694 ! petrous part of temporal bone
 relationship: part_of UBERON:0001846 ! internal ear
@@ -11501,8 +12135,7 @@ synonym: "cochlear organ" RELATED []
 synonym: "cochlear part of bony labyrinth" EXACT []
 synonym: "lagena" EXACT []
 synonym: "lagenas" RELATED []
-is_a: UBERON:0004121 ! ectoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+is_a: UBERON:0010313 ! neural crest-derived structure
 is_a: UBERON:0034921 ! multi organ part structure
 relationship: contributes_to_morphology_of UBERON:0001846 ! internal ear
 relationship: has_quality PATO:0000404 {gci_relation="part_of", gci_filler="NCBITaxon:32525"}
@@ -12251,7 +12884,7 @@ relationship: part_of UBERON:0002704 ! metathalamus
 [Term]
 id: UBERON:0001943
 name: midbrain tegmentum
-def: "Ventral part of the midbrain, separated from the hindbrain by the isthmus[ISBN:0471888893]. Subdivision of the midbrain lying anterior to the tectum and posterior to the substantia nigra and cerebral peduncle[FMA] The part of the midbrain extending from the substantia nigra to the cerebral aqueduct in a horizontal section of the midbrain. It forms the floor of the midbrain that surrounds the cerebral aqueduct[WP]." []
+def: "Ventral part of the midbrain, separated from the hindbrain by the isthmus[ISBN10:0471888893]. Subdivision of the midbrain lying anterior to the tectum and posterior to the substantia nigra and cerebral peduncle[FMA] The part of the midbrain extending from the substantia nigra to the cerebral aqueduct in a horizontal section of the midbrain. It forms the floor of the midbrain that surrounds the cerebral aqueduct[WP]." []
 synonym: "mesencephalic tegmentum" RELATED []
 synonym: "MTg" BROAD []
 synonym: "tegmentum" BROAD []
@@ -13328,7 +13961,6 @@ id: UBERON:0002049
 name: vasculature
 def: "An interconnected tubular multi-tissue structure contains fluid that is actively transported around the organism[ZFA]. Examples: vasculature of lung, vasculature of face." []
 synonym: "vascular network" EXACT []
-is_a: BFO:0000040
 is_a: UBERON:0000477 ! anatomical cluster
 relationship: composed_primarily_of UBERON:0000055 ! vessel
 relationship: has_part UBERON:0000179 ! haemolymphatic fluid
@@ -14199,6 +14831,7 @@ def: "The solitary tract and nucleus are structures in the brainstem that carry 
 synonym: "nuclei of solitary tract" EXACT []
 synonym: "nucleus tractus solitarii" EXACT []
 synonym: "solitary nuclei" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0007245 ! nuclear complex of neuraxis
 is_a: UBERON:0019263 ! gray matter of hindbrain
 relationship: capable_of_part_of GO:0003019
@@ -14248,6 +14881,7 @@ def: "The superficial gray matter of the cerebellum. It consists of three main l
 synonym: "cortex cerebellaris" RELATED []
 synonym: "cortex cerebelli" RELATED []
 synonym: "cortex of cerebellar hemisphere" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0019263 ! gray matter of hindbrain
 relationship: capable_of_part_of GO:0007613
 relationship: contributes_to_morphology_of UBERON:0002037 ! cerebellum
@@ -14382,6 +15016,7 @@ synonym: "nucleus loci caerulei" RELATED []
 synonym: "nucleus of locus caeruleus" EXACT []
 synonym: "nucleus pigmentosus pontis" EXACT []
 synonym: "substantia ferruginea" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0006331 ! brainstem nucleus
 is_a: UBERON:0009662 ! hindbrain nucleus
 relationship: capable_of GO:0048243
@@ -14946,6 +15581,7 @@ is_a: UBERON:0015019 ! rib endochondral element
 intersection_of: UBERON:0015019 ! rib endochondral element
 intersection_of: composed_primarily_of UBERON:0002481 ! bone tissue
 relationship: develops_from UBERON:0006288 ! rib cartilage element
+relationship: part_of UBERON:0003252 {gci_filler="NCBITaxon:314146", gci_relation="part_of"} ! thoracic rib cage
 
 [Term]
 id: UBERON:0002234
@@ -15049,6 +15685,7 @@ synonym: "posterior horn of spinal cord" EXACT []
 synonym: "spinal cord dorsal horn" EXACT []
 synonym: "spinal cord dorsal horns" RELATED []
 synonym: "spinal cord posterior horn" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0016550 ! spinal cord column
 disjoint_from: UBERON:0002257 ! ventral horn of spinal cord
 relationship: capable_of_part_of GO:0019230
@@ -15081,6 +15718,7 @@ synonym: "ventral horn spinal cord" EXACT []
 synonym: "ventral horns spinal cord" RELATED []
 synonym: "ventral region of spinal cord" EXACT []
 synonym: "ventral spinal cord" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0016550 ! spinal cord column
 relationship: contributes_to_morphology_of UBERON:0002315 ! gray matter of spinal cord
 relationship: has_part CL:0000100
@@ -17264,7 +17902,6 @@ synonym: "manus/pes" RELATED []
 synonym: "paw" RELATED []
 synonym: "paw/hand/foot/hoof" RELATED []
 synonym: "pod" RELATED []
-is_a: CARO:0000003
 is_a: UBERON:0002529 ! limb segment
 intersection_of: UBERON:0002529 ! limb segment
 intersection_of: has_skeleton UBERON:0006717 ! autopodial skeleton
@@ -17287,7 +17924,6 @@ synonym: "zeugopodial limb segment" EXACT []
 synonym: "zeugopodium" EXACT []
 synonym: "zygopod" EXACT []
 synonym: "zygopodium" EXACT []
-is_a: CARO:0000003
 is_a: UBERON:0002529 ! limb segment
 intersection_of: UBERON:0002529 ! limb segment
 intersection_of: has_skeleton UBERON:0011584 ! zeugopodial skeleton
@@ -17305,7 +17941,6 @@ synonym: "proximal part of limb" BROAD []
 synonym: "proximal segment of free limb" RELATED []
 synonym: "stylopodial limb segment" EXACT []
 synonym: "stylopodium" EXACT []
-is_a: CARO:0000003
 is_a: UBERON:0002529 ! limb segment
 intersection_of: UBERON:0002529 ! limb segment
 intersection_of: has_skeleton UBERON:0011583 ! stylopodial skeleton
@@ -18021,6 +18656,7 @@ synonym: "superior trigeminal sensory nucleus" EXACT []
 synonym: "trigeminal nerve superior sensory nucleus" EXACT []
 synonym: "trigeminal V chief sensory nucleus" EXACT []
 synonym: "trigeminal V principal sensory nucleus" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0004132 ! trigeminal sensory nucleus
 is_a: UBERON:0006331 ! brainstem nucleus
 is_a: UBERON:0009662 ! hindbrain nucleus
@@ -18152,6 +18788,7 @@ synonym: "pedunculus cerebralis" RELATED []
 synonym: "pedunculus cerebri" EXACT []
 synonym: "pedunculus cerebri" RELATED []
 synonym: "tegmentum" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0007417 ! peduncle of neuraxis
 is_a: UBERON:0016554 ! white matter of midbrain
 relationship: has_part UBERON:0001943 ! midbrain tegmentum
@@ -18880,6 +19517,7 @@ name: dentate gyrus polymorphic layer
 def: "A cellular layer of the dentate gyrus enclosed by the granule cell layer. A number of cell types are located in the polymorphic layer but the most prominent is the mossy cell." []
 synonym: "CA4" RELATED []
 synonym: "polymorph layer of the dentate gyrus" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0002304 ! layer of dentate gyrus
 intersection_of: UBERON:0002304 ! layer of dentate gyrus
 intersection_of: immediately_deep_to UBERON:0005381 ! dentate gyrus granule cell layer
@@ -18893,6 +19531,7 @@ def: "Part of spinothalamic tract that is in the medulla" []
 synonym: "spinothalamic tract" BROAD []
 synonym: "spinothalamic tract of the medulla" RELATED []
 synonym: "tractus spinothalamicus (myelencephali)" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0007702 ! tract of brain
 relationship: capable_of_part_of GO:0019233
 relationship: part_of UBERON:0001896 ! medulla oblongata
@@ -18924,6 +19563,7 @@ synonym: "granular layer of cerebellum" RELATED []
 synonym: "granule cell layer of cerebellar cortex" EXACT []
 synonym: "stratum granulosum cerebelli" EXACT []
 synonym: "stratum granulosum corticis cerebelli" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0004130 ! cerebellar layer
 intersection_of: UBERON:0004130 ! cerebellar layer
 intersection_of: in_deep_part_of UBERON:0002129 ! cerebellar cortex
@@ -18972,6 +19612,7 @@ synonym: "cerebellum molecular layer" EXACT []
 synonym: "fasciculi thalami" RELATED []
 synonym: "stratum moleculare corticis cerebelli" EXACT []
 synonym: "thalamic fiber tracts" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0004130 ! cerebellar layer
 intersection_of: UBERON:0004130 ! cerebellar layer
 intersection_of: in_superficial_part_of UBERON:0002129 ! cerebellar cortex
@@ -18993,6 +19634,7 @@ synonym: "nucleus thalamicus reticularis" RELATED []
 synonym: "Purkinje cell layer" EXACT []
 synonym: "reticular nucleus thalamus (Arnold)" RELATED []
 synonym: "reticulatum thalami (Hassler)" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0004130 ! cerebellar layer
 intersection_of: UBERON:0004130 ! cerebellar layer
 intersection_of: immediately_deep_to UBERON:0002974 ! molecular layer of cerebellar cortex
@@ -19339,7 +19981,6 @@ synonym: "primitive node" EXACT []
 synonym: "shield" EXACT []
 synonym: "Spemann Mangold organizer" EXACT []
 synonym: "Spemann's organizer" EXACT []
-is_a: CARO:0000000
 is_a: UBERON:0002050 ! embryonic structure
 is_a: UBERON:0010188 ! protuberance
 relationship: contributes_to_morphology_of UBERON:0004341 ! primitive streak
@@ -22426,6 +23067,7 @@ synonym: "nerve of chest cavity" EXACT []
 synonym: "nerve of pectoral cavity" EXACT []
 synonym: "nerve of thoracic cavity" EXACT []
 synonym: "pectoral cavity nerve" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0001021 ! nerve
 intersection_of: UBERON:0001021 ! nerve
 intersection_of: located_in UBERON:0002224 ! thoracic cavity
@@ -25371,6 +26013,7 @@ synonym: "ramus recurrens" RELATED []
 synonym: "recurrent laryngeal nerve from vagus nerve" EXACT []
 synonym: "recurrent nerve" BROAD []
 synonym: "vagus X nerve recurrent laryngeal branch" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0011779 ! nerve of head region
 is_a: UBERON:0035642 ! laryngeal nerve
 relationship: branching_part_of UBERON:0001759 ! vagus nerve
@@ -25385,6 +26028,7 @@ def: "The lingual nerve is a branch of the mandibular nerve (CN V3), itself a br
 synonym: "lingual branch of trigeminal nerve" EXACT []
 synonym: "trigeminal nerve lingual branch" EXACT []
 synonym: "trigeminal V nerve lingual branch" EXACT []
+is_a: BFO:0000040
 is_a: CARO:0001001
 is_a: UBERON:0011779 ! nerve of head region
 intersection_of: UBERON:0001021 ! nerve
@@ -25405,6 +26049,7 @@ synonym: "vestibular root of acoustic nerve" EXACT []
 synonym: "vestibular root of eighth cranial nerve" EXACT []
 synonym: "vestibulocochlear nerve vestibular root" RELATED []
 synonym: "vestibulocochlear VIII nerve vestibular component" EXACT []
+is_a: BFO:0000040
 is_a: CARO:0001001
 is_a: UBERON:0011779 ! nerve of head region
 intersection_of: UBERON:0001021 ! nerve
@@ -26341,6 +26986,7 @@ synonym: "neural retinal epithelium" RELATED []
 synonym: "neuroretina" EXACT []
 synonym: "stratum nervosum (retina)" EXACT []
 synonym: "stratum nervosum retinae" EXACT []
+is_a: BFO:0000040
 is_a: CARO:0000003
 is_a: UBERON:0001781 ! layer of retina
 intersection_of: UBERON:0001781 ! layer of retina
@@ -27373,6 +28019,7 @@ synonym: "nerve of middle ear anatomical cavity" EXACT []
 synonym: "nerve of middle ear cavity" EXACT []
 synonym: "tympanic cavity nerve" EXACT []
 synonym: "tympanic cavity nerves" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0011779 ! nerve of head region
 intersection_of: UBERON:0001021 ! nerve
 intersection_of: located_in UBERON:0004114 ! tympanic cavity
@@ -27563,7 +28210,6 @@ id: UBERON:0004130
 name: cerebellar layer
 def: "A cortical cell layer of the cerebellum. Examples: the granular (inner+outer) layer, molecular layer, Purkinje cell layer, and the ventricular layer of the embryo." []
 synonym: "cell layer of cerebellar cortex" EXACT []
-synonym: "cytoarchitectural part of the cerebellar cortex" EXACT []
 synonym: "gray matter layer of cerebellum" EXACT []
 synonym: "layer of cerebellar cortex" EXACT []
 synonym: "layer of cerebellum" EXACT []
@@ -27873,6 +28519,7 @@ name: trigeminothalamic tract
 def: "The trigeminothalamic tract is one of the major routes of nociceptive and temperature signaling from the face" []
 synonym: "tractus trigeminothalamicus" EXACT []
 synonym: "trigeminal tract" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0001018 ! axon tract
 relationship: capable_of_part_of GO:0019233
 
@@ -31282,6 +31929,7 @@ synonym: "dentate gyrus molecular layer" EXACT []
 synonym: "molecular layer of dentate gyrus" EXACT []
 synonym: "molecular layer of the dentate gyrus" RELATED []
 synonym: "stratum moleculare gyri dentati" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0002304 ! layer of dentate gyrus
 intersection_of: UBERON:0002304 ! layer of dentate gyrus
 intersection_of: bounding_layer_of UBERON:0001885 ! dentate gyrus of hippocampal formation
@@ -31495,7 +32143,6 @@ synonym: "limb/fin" EXACT []
 synonym: "paired appendage" NARROW []
 synonym: "pectoral or pelvic appendage" EXACT []
 synonym: "pelvic/pectoral appendage" EXACT []
-is_a: CARO:0000003
 is_a: UBERON:0000026 ! appendage
 intersection_of: UBERON:0000026 ! appendage
 intersection_of: part_of UBERON:0010707 ! appendage girdle complex
@@ -31603,6 +32250,7 @@ synonym: "cochlear root of eighth cranial nerve" EXACT []
 synonym: "nervus vestibulocochlearis" RELATED []
 synonym: "vestibulocochlear nerve cochlear component" RELATED []
 synonym: "vestibulocochlear VIII nerve cochlear component" EXACT []
+is_a: BFO:0000040
 is_a: CARO:0001001
 is_a: UBERON:0011779 ! nerve of head region
 intersection_of: UBERON:0001021 ! nerve
@@ -35588,7 +36236,6 @@ def: "A structure consisting of multiple cell components but which is not itself
 synonym: "cell part cluster" RELATED []
 synonym: "multi-cell-component structure" EXACT []
 synonym: "multi-cell-part structure" EXACT []
-is_a: BFO:0000040
 is_a: UBERON:0000477 ! anatomical cluster
 relationship: composed_primarily_of GO:0005575
 relationship: has_component GO:0044464 {minCardinality="2"}
@@ -36953,6 +37600,7 @@ is_a: UBERON:0016526 ! lobe of cerebral hemisphere
 id: UBERON:0005367
 name: hippocampus granule cell layer
 synonym: "hippocampus granular layer" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0002305 ! layer of hippocampus
 intersection_of: UBERON:0002305 ! layer of hippocampus
 intersection_of: composed_primarily_of CL:0001033
@@ -36968,6 +37616,7 @@ synonym: "dorsal column system" RELATED []
 synonym: "dorsal columns" RELATED []
 synonym: "posterior column" EXACT []
 synonym: "spinal cord posterior column" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0016550 ! spinal cord column
 relationship: capable_of_part_of GO:0019230
 relationship: contributes_to_morphology_of UBERON:0002318 ! white matter of spinal cord
@@ -36982,6 +37631,7 @@ synonym: "DG granule cell layer" EXACT []
 synonym: "granular layer of dentate gyrus" EXACT []
 synonym: "granular layer of the dentate gyrus" RELATED []
 synonym: "stratum granulare gyri dentati" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0002304 ! layer of dentate gyrus
 intersection_of: UBERON:0002304 ! layer of dentate gyrus
 intersection_of: immediately_deep_to UBERON:0004679 ! dentate gyrus molecular layer
@@ -37212,6 +37862,7 @@ name: bony otic capsule
 def: "the cartilage or bony capsule surrounding the inner ear mechanism" []
 synonym: "otic capsule bone" EXACT []
 is_a: UBERON:0002513 ! endochondral bone
+is_a: UBERON:0003462 ! facial bone
 is_a: UBERON:0004637 ! otic capsule
 is_a: UBERON:0011164 ! neurocranium bone
 intersection_of: UBERON:0004637 ! otic capsule
@@ -37489,6 +38140,7 @@ name: jugular foramen
 def: "The jugular foramen is a large aperture in the base of the skull. It is located behind the carotid canal and is formed in front by the petrous portion of the temporal, and behind by the occipital; it is generally larger on the right than on the left side" []
 synonym: "foramen jugulare" RELATED []
 synonym: "Posterior lacerate foramen" EXACT []
+is_a: UBERON:0010313 ! neural crest-derived structure
 is_a: UBERON:0018321 ! foramen for glossopharyngeal nerve
 intersection_of: UBERON:0013685 ! foramen of skull
 intersection_of: conduit_for UBERON:0001586 ! internal jugular vein
@@ -38065,6 +38717,7 @@ relationship: part_of UBERON:0002203 ! vasculature of eye
 id: UBERON:0005607
 name: hyaloid vascular plexus
 synonym: "hyaloid vascular system" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0005629 ! vascular plexus
 relationship: located_in UBERON:0005606 ! hyaloid cavity
 relationship: part_of UBERON:0009141 ! craniocervical region vein
@@ -38929,6 +39582,7 @@ synonym: "gracile fascicle" EXACT []
 synonym: "gracile tract" RELATED []
 synonym: "gracilis tract" EXACT []
 synonym: "tract of Goll" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0001019 ! nerve fasciculus
 is_a: UBERON:0011215 ! central nervous system cell part cluster
 relationship: capable_of_part_of GO:0019230
@@ -39864,7 +40518,6 @@ synonym: "post-anal caudal region" RELATED []
 synonym: "post-anal tail region" RELATED []
 synonym: "postsacral region" RELATED []
 synonym: "tail region" RELATED []
-is_a: CARO:0000003
 is_a: UBERON:0011676 ! subdivision of organism along main body axis
 relationship: has_skeleton UBERON:0006076 ! caudal region of vertebral column
 relationship: part_of UBERON:0000154 ! posterior region of body
@@ -41489,6 +42142,7 @@ id: UBERON:0006668
 name: carotid canal
 def: "On the interior surface of the temporal bone, behind the rough surface of the apex, is the large circular aperture of the carotid canal, which ascends at first vertically, and then, making a bend, runs horizontally forward and medialward. It transmits into the cranium, the internal carotid artery, and the carotid plexus of nerves. Sympathetics to the head also pass through the carotid canal. They have several motor functions: raise the eyelid (superior tarsal muscle), dilate pupil, innervate sweat glands of face and scalp and constricts blood vessels in head[WP]." []
 synonym: "canalis caroticus" RELATED []
+is_a: UBERON:0010313 ! neural crest-derived structure
 is_a: UBERON:0013685 ! foramen of skull
 intersection_of: UBERON:0013685 ! foramen of skull
 intersection_of: conduit_for UBERON:0001532 ! internal carotid artery
@@ -41684,7 +42338,6 @@ synonym: "carpus/tarsus" EXACT []
 synonym: "mesopod" RELATED []
 synonym: "mesopodial limb segment" EXACT []
 synonym: "mesopodial segment" EXACT []
-is_a: CARO:0000003
 is_a: UBERON:0002529 ! limb segment
 intersection_of: UBERON:0002529 ! limb segment
 intersection_of: distally_connected_to UBERON:0009877 ! metapodium region
@@ -41722,9 +42375,8 @@ synonym: "columella cochleae" RELATED []
 synonym: "modiolus" BROAD []
 synonym: "modiolus cochleae" EXACT []
 synonym: "modiolus of cochlea" EXACT []
-is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:0005913 ! zone of bone organ
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+is_a: UBERON:0010313 ! neural crest-derived structure
 relationship: contributes_to_morphology_of UBERON:0001844 ! cochlea
 relationship: part_of UBERON:0007223 ! osseus cochlea
 
@@ -42944,16 +43596,15 @@ id: UBERON:0007171
 name: border of scapula
 synonym: "scapular border" EXACT []
 is_a: CARO:0000000
-is_a: UBERON:0036304 ! anatomical border
-intersection_of: UBERON:0036304 ! anatomical border
-intersection_of: part_of UBERON:0006849 ! scapula
+is_a: UBERON:0006800 ! anatomical line
 relationship: part_of UBERON:0006849 ! scapula
 
 [Term]
 id: UBERON:0007172
 name: angle of scapula
 synonym: "scapular angle" EXACT []
-is_a: UBERON:0005913 ! zone of bone organ
+is_a: CARO:0000000
+is_a: UBERON:0006800 ! anatomical line
 relationship: part_of UBERON:0006849 ! scapula
 
 [Term]
@@ -44451,7 +45102,6 @@ synonym: "girdle" BROAD []
 synonym: "girdle region" BROAD []
 synonym: "limb girdle" RELATED []
 synonym: "limb girdle region" RELATED []
-is_a: CARO:0000003
 is_a: UBERON:0000475 ! organism subdivision
 intersection_of: UBERON:0000475 ! organism subdivision
 intersection_of: has_skeleton UBERON:0010719 ! girdle skeleton
@@ -45155,6 +45805,7 @@ synonym: "nasopalatine" RELATED []
 synonym: "nasopalatine nerves" RELATED []
 synonym: "nervus nasopalatinus" RELATED []
 synonym: "Scarpa's nerve" EXACT []
+is_a: BFO:0000040
 is_a: CARO:0001001
 is_a: UBERON:0011779 ! nerve of head region
 intersection_of: UBERON:0001021 ! nerve
@@ -45443,6 +46094,7 @@ synonym: "pre-bone" EXACT []
 synonym: "prebone" EXACT []
 synonym: "prebone tissue" EXACT []
 is_a: UBERON:0002481 ! bone tissue
+relationship: composed_primarily_of GO:0005578
 
 [Term]
 id: UBERON:0008884
@@ -45529,7 +46181,6 @@ id: UBERON:0008897
 name: fin
 def: "An external projection of an aquatic animal as a fish used in propelling or guiding the body[BTO]." []
 synonym: "fins" RELATED []
-is_a: CARO:0000003
 is_a: UBERON:0000026 ! appendage
 intersection_of: UBERON:0000026 ! appendage
 intersection_of: has_skeleton UBERON:0012353 ! fin skeleton
@@ -46827,6 +47478,7 @@ def: "The paired bundles of nerve fibers entering and leaving the spinal cord at
 synonym: "root of spinal nerve" EXACT []
 synonym: "spinal neural root" EXACT []
 synonym: "spinal root" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0002211 ! nerve root
 intersection_of: UBERON:0002211 ! nerve root
 intersection_of: extends_fibers_into UBERON:0001780 ! spinal nerve
@@ -47453,7 +48105,6 @@ synonym: "metacarpus/metatarsus" RELATED []
 synonym: "metacarpus/metatarsus region" EXACT []
 synonym: "metapodial segment" EXACT []
 synonym: "metapodium" RELATED []
-is_a: CARO:0000003
 is_a: UBERON:0002529 ! limb segment
 intersection_of: UBERON:0002529 ! limb segment
 intersection_of: has_skeleton UBERON:0010546 ! metapodial skeleton
@@ -48584,7 +49235,7 @@ relationship: part_of UBERON:0001334 ! female urethra
 id: UBERON:0010188
 name: protuberance
 def: "A roughly circular bulge in a surface." []
-is_a: UBERON:0034944 ! zone of organ
+is_a: UBERON:0003102 ! surface structure
 
 [Term]
 id: UBERON:0010189
@@ -50327,7 +50978,6 @@ synonym: "pectoral girdle plus pectoral limb or fin" EXACT []
 synonym: "upper limb" RELATED []
 synonym: "upper limb and pectoral girdle" RELATED []
 synonym: "upper limb and shoulder" RELATED []
-is_a: CARO:0000003
 is_a: UBERON:0010707 ! appendage girdle complex
 intersection_of: UBERON:0010707 ! appendage girdle complex
 intersection_of: has_part UBERON:0001421 ! pectoral girdle region
@@ -50345,7 +50995,6 @@ synonym: "lower limb and pelvis" RELATED []
 synonym: "pelvic appendage/girdle complex" EXACT []
 synonym: "pelvic girdle plus pelvic limb or fin" EXACT []
 synonym: "pelvic girdle plus posterior limb or fin" EXACT []
-is_a: CARO:0000003
 is_a: UBERON:0010707 ! appendage girdle complex
 intersection_of: UBERON:0010707 ! appendage girdle complex
 intersection_of: has_part UBERON:0001271 ! pelvic girdle region
@@ -50991,6 +51640,7 @@ id: UBERON:0011096
 name: lacrimal nerve
 def: "The lacrimal nerve is the smallest of the three branches of the ophthalmic division of the trigeminal nerve." []
 synonym: "nervus lacrimalis" EXACT []
+is_a: BFO:0000040
 is_a: CARO:0001001
 is_a: UBERON:0011779 ! nerve of head region
 intersection_of: UBERON:0001021 ! nerve
@@ -51733,7 +52383,6 @@ relationship: attaches_to UBERON:0004742 ! dentary
 id: UBERON:0011595
 name: jaw region
 def: "A subdivision of the head that corresponds to the jaw skeleton, containing both soft tissue, skeleton and teeth (when present). The jaw region is divided into upper and lower regions." []
-is_a: CARO:0000003
 is_a: UBERON:0000475 ! organism subdivision
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0000475 ! organism subdivision
@@ -52834,7 +53483,6 @@ id: UBERON:0012140
 name: digitopodium region
 def: "A segment of the autopod consisting of both acropodial region and metapodial region, but excluding the mesopodial/basopodial region." []
 synonym: "acropodium (Wagner)" RELATED []
-is_a: CARO:0000003
 is_a: UBERON:0012139 ! segment of autopod
 intersection_of: UBERON:0012139 ! segment of autopod
 intersection_of: has_skeleton UBERON:0012150 ! skeleton of digitopodium
@@ -53367,7 +54015,6 @@ synonym: "acropodial limb segment" EXACT []
 synonym: "acropodial region" EXACT []
 synonym: "acropodial segment of autopod" EXACT []
 synonym: "set of digits" EXACT []
-is_a: CARO:0000003
 is_a: UBERON:0012139 ! segment of autopod
 intersection_of: UBERON:0012139 ! segment of autopod
 intersection_of: has_skeleton UBERON:0010543 ! acropodial skeleton
@@ -53619,6 +54266,7 @@ name: sensory receptor
 def: "A sensory nerve ending that responds to a stimulus in the internal or external environment of an organism. In response to stimuli the sensory receptor initiates sensory transduction by creating graded potentials or action potentials in the same cell or in an adjacent one." []
 synonym: "peripheral ending of sensory neuron" EXACT []
 synonym: "sensory nerve ending" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0012453 ! nerve ending
 intersection_of: UBERON:0012453 ! nerve ending
 intersection_of: capable_of GO:0051606
@@ -55036,6 +55684,7 @@ def: "Deepest of 3 cytoarchitecturally defined layers of the piriform cortex cha
 synonym: "layer 3 of piriform cortex" EXACT []
 synonym: "layer 3 of piriform cortex" RELATED []
 synonym: "piriform cortex layer 3" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0011215 ! central nervous system cell part cluster
 is_a: UBERON:0022303 ! nervous system cell part layer
 relationship: has_part CL:0000598
@@ -55219,6 +55868,7 @@ synonym: "nucleus of pretectal area" EXACT []
 synonym: "nucleus of the pretectal area" RELATED []
 synonym: "pretectal area nucleus" EXACT []
 synonym: "pretectal nucleus" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0002308 ! nucleus of brain
 intersection_of: UBERON:0002308 ! nucleus of brain
 intersection_of: part_of UBERON:0001944 ! pretectal region
@@ -58297,6 +58947,7 @@ synonym: "posterior column pathway" RELATED []
 synonym: "posterior column-medial leminscus pathway" RELATED []
 synonym: "posterior column-medial lemniscus system" RELATED []
 synonym: "posterior column/medial leminscus pathway" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0000122 ! neuron projection bundle
 relationship: capable_of_part_of GO:0019230
 relationship: only_in_taxon NCBITaxon:32523
@@ -58480,6 +59131,7 @@ def: "A Z-shaped canal running through the temporal bone from the internal acous
 synonym: "canalis nervi facialis" EXACT []
 synonym: "facial canal" EXACT []
 synonym: "fallopian canal" RELATED []
+is_a: UBERON:0010313 ! neural crest-derived structure
 is_a: UBERON:0013685 ! foramen of skull
 intersection_of: UBERON:0013685 ! foramen of skull
 intersection_of: conduit_for UBERON:0001647 ! facial nerve
@@ -58612,6 +59264,7 @@ relationship: part_of UBERON:0000948 ! heart
 id: UBERON:0018679
 name: thoracic splanchnic nerve
 def: "Thoracic splanchnic nerves are splanchnic nerves that arise from the sympathetic trunk in the thorax and travel inferiorly to provide sympathetic innervation to the abdomen. The nerves contain preganglionic sympathetic and general visceral afferent fibers." []
+is_a: BFO:0000040
 is_a: UBERON:0003715 ! splanchnic nerve
 is_a: UBERON:0003824 ! nerve of thoracic segment
 intersection_of: UBERON:0003715 ! splanchnic nerve
@@ -59109,6 +59762,7 @@ name: olfactory cortex layer 1
 def: "Surface layer of the olfactory cortex that contains dendrites, fiber systems and a small number of neurons. It has been divided into a superficial part and a deep part." []
 synonym: "layer 1 of olfactory cortex" RELATED []
 synonym: "olfactory cortex plexiform layer" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0011215 ! central nervous system cell part cluster
 is_a: UBERON:0022303 ! nervous system cell part layer
 intersection_of: UBERON:0022303 ! nervous system cell part layer
@@ -59134,6 +59788,7 @@ relationship: part_of UBERON:0002894 ! olfactory cortex
 [Term]
 id: UBERON:0022320
 name: dorsal cochlear nucleus pyramidal cell layer
+is_a: BFO:0000040
 is_a: UBERON:0011215 ! central nervous system cell part cluster
 is_a: UBERON:0022303 ! nervous system cell part layer
 intersection_of: UBERON:0022303 ! nervous system cell part layer
@@ -59372,6 +60027,7 @@ id: UBERON:0034715
 name: pineal tract
 def: "A cranial nerve fiber tract that innervates the pineal body." []
 synonym: "pineal nerve" RELATED []
+is_a: BFO:0000040
 is_a: CARO:0001001
 is_a: UBERON:0011215 ! central nervous system cell part cluster
 is_a: UBERON:0034713 ! cranial neuron projection bundle
@@ -59467,6 +60123,7 @@ name: autonomic nerve
 def: "The autonomic nerve is a small nerve which carries postganglionic sympathetic and parasympathetic neurons from the zygomaticotemporal nerve; a branch of the maxillary nerve, to the lacrimal nerve; a branch of the ophthalmic nerve. These neurons derive from the superior cervical ganglion and the pterygopalatine ganglion respectively. They will travel to the lacrimal gland via the lacrimal nerve. Parasympathetic will induce lacrimation and vice versa." []
 synonym: "nervus visceralis" EXACT []
 synonym: "visceral nerve" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0011779 ! nerve of head region
 relationship: branching_part_of UBERON:0036264 ! zygomaticotemporal nerve
 relationship: extends_fibers_into UBERON:0001805 ! autonomic ganglion
@@ -60382,6 +61039,7 @@ synonym: "subcutaneous vasculature" RELATED []
 synonym: "superficial part of circulatory system" EXACT []
 synonym: "superficial vasculature" EXACT []
 synonym: "vasculature of skin" RELATED []
+is_a: BFO:0000040
 is_a: UBERON:0002049 ! vasculature
 intersection_of: UBERON:0002049 ! vasculature
 intersection_of: located_in UBERON:0002199 ! integument
@@ -60540,6 +61198,7 @@ id: UBERON:0035648
 name: nerve innervating pinna
 def: "Any nerve that innervates the pinna." []
 synonym: "auricular nerve" EXACT []
+is_a: BFO:0000040
 is_a: CARO:0001001
 is_a: UBERON:0011779 ! nerve of head region
 intersection_of: UBERON:0001021 ! nerve
@@ -60614,6 +61273,17 @@ is_a: UBERON:0002185 ! bronchus
 intersection_of: UBERON:0002185 ! bronchus
 intersection_of: part_of UBERON:0002048 ! lung
 relationship: part_of UBERON:0002048 ! lung
+
+[Term]
+id: UBERON:0035775
+name: submandibular region
+def: "The region between the mandible and the hyoid bone that contains the submandibular and sublingual glands, suprahyoid muscles, submandibular ganglion, and lingual artery." []
+synonym: "digastric triangle" NARROW []
+synonym: "submandibular triangle" NARROW []
+synonym: "submaxillary triangle" NARROW []
+synonym: "trigonum submandibulare" NARROW []
+is_a: UBERON:0000475 ! organism subdivision
+relationship: part_of UBERON:0000974 ! neck
 
 [Term]
 id: UBERON:0035784
@@ -61084,6 +61754,7 @@ synonym: "ramus zygomaticotemporalis nervus zygomatici" EXACT []
 synonym: "zygomaticotemporal" RELATED []
 synonym: "zygomaticotemporal branch" RELATED []
 synonym: "zygomaticotemporal branch of zygomatic nerve" EXACT []
+is_a: BFO:0000040
 is_a: UBERON:0011779 ! nerve of head region
 relationship: branching_part_of UBERON:0000377 ! maxillary nerve
 relationship: part_of UBERON:0000377 ! maxillary nerve
@@ -61214,12 +61885,6 @@ is_a: UBERON:0036302 ! vasculature of central nervous system plus retina
 intersection_of: UBERON:0002049 ! vasculature
 intersection_of: part_of UBERON:0001017 ! central nervous system
 relationship: part_of UBERON:0001017 ! central nervous system
-
-[Term]
-id: UBERON:0036304
-name: anatomical border
-def: "An anatomical structure that is located along the line dividing two regions of an anatomical structure." []
-is_a: UBERON:0000061 ! anatomical structure
 
 [Term]
 id: UBERON:1000004
@@ -61869,7 +62534,6 @@ synonym: "digit" BROAD []
 synonym: "digit ( phalanges plus metapodial) plus soft tissue" BROAD []
 synonym: "digit digitopodial subdivision" EXACT []
 synonym: "digit ray" EXACT []
-is_a: CARO:0000003
 is_a: UBERON:0000475 ! organism subdivision
 intersection_of: UBERON:0000475 ! organism subdivision
 intersection_of: has_skeleton UBERON:5102544 ! individual digit of digitopodial skeleton
