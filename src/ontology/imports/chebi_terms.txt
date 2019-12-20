@@ -8124,3 +8124,5 @@ http://purl.obolibrary.org/obo/CHEBI_142842 ## andrastin A
 http://purl.obolibrary.org/obo/CHEBI_143197 ## culmorin
 http://purl.obolibrary.org/obo/CHEBI_10022 ## deoxynivalenol
 http://purl.obolibrary.org/obo/CHEBI_10106 ## zearalenone
+http://purl.obolibrary.org/obo/CHEBI_145656 ## galactoxylomannan
+
