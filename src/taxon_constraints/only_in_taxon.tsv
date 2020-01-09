@@ -787,3 +787,4 @@ GO:1990765	colon smooth muscle contraction	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0140384	metacyclogenesis	NCBITaxon:5654	Trypanosomatidae
 GO:0009870	defense response signaling pathway, resistance gene-dependent	NCBITaxon:33090	Viridiplantae
 GO:0010204	defense response signaling pathway, resistance gene-independent	NCBITaxon:33090	Viridiplantae
+GO:0150104	transport across blood-brain barrier	NCBITaxon:6072	Eumetazoa
