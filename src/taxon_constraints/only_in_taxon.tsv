@@ -487,7 +487,7 @@ GO:0051417	microtubule nucleation by spindle pole body	NCBITaxon:4751	Fungi
 GO:0051640	organelle localization	NCBITaxon:2759	Eukaryota
 GO:0051663	oocyte nucleus localization involved in oocyte dorsal/ventral axis specification	NCBITaxon:6656	Arthropoda
 GO:0052541	plant-type cell wall cellulose metabolic process	NCBITaxon:33090	Viridiplantae
-GO:0052546	cell wall pectin metabolic process	NCBITaxon:33090	Viridiplantae
+GO:0052325	cell wall pectin biosynthetic process	NCBITaxon:33090	Viridiplantae
 GO:0055044	symplast	NCBITaxon:33090	Viridiplantae
 GO:0055045	antipodal cell degeneration	NCBITaxon:3398	Magnoliophyta
 GO:0055046	microgametogenesis	NCBITaxon:3398	Magnoliophyta
