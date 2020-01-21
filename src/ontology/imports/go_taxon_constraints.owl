@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2020-01-17/imports/go_taxon_constraints.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2020-01-21/imports/go_taxon_constraints.owl"/>
     </owl:Ontology>
     
 
@@ -16943,9 +16943,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0052541 -->
+    <!-- http://purl.obolibrary.org/obo/GO_0052325 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0052541">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0052325">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -16962,9 +16962,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0052546 -->
+    <!-- http://purl.obolibrary.org/obo/GO_0052541 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0052546">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0052541">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
