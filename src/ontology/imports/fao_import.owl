@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/fao_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2019-07-02/imports/fao_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2020-01-23/imports/fao_import.owl"/>
     </owl:Ontology>
     
 
@@ -217,7 +217,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FAO_0000012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A structure directly from which spores are formed following sexual reproduction in a Basidiomycete.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spore-producing structure found in a Basidiomycete; formed when the terminal cell of a dikaryotic hyphal branch inflates and undergoes karyogamy and meiosis.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basidium</rdfs:label>
     </owl:Class>
     
@@ -228,7 +228,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0002004"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any specialized structure which bears or contains sexually or asexually derived spores.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruiting body</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruiting body</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruitbody</rdfs:label>
     </owl:Class>
     
@@ -238,7 +238,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000007"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A structure within which or at the surface of, an ascus develops in Ascomycetes.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A structure within, or at the surface of, which an ascus develops in Ascomycetes.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ascocarp</rdfs:label>
     </owl:Class>
     
@@ -248,8 +248,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0002004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A structure directly within which spores are contained or from which spores are formed.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spore-bearing organ</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multicellular anatomical structure that functions in the production of spores, which are directly borne upon or within sporogenous cells that form part of the sporophore.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruit body</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruitbody</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruiting body</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spore-bearing structure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spore-producing structure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sporocarp</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sporophore</rdfs:label>
     </owl:Class>
     
@@ -290,7 +295,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000019"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spore formed following meiosis. Sometimes following meiosis, prospores may undergo one or more rounds of mitosis before they are fully mature.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spore formed following meiosis. In some species, prospores formed by meiosis may undergo one or more rounds of mitosis before they are fully mature.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meiotically-derived spore</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual spore</rdfs:label>
     </owl:Class>
@@ -301,7 +306,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual cell composed of a plasma membrane, contents internal to the plasma membrane, and any external protective or encapsulating structure.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fungal structure that comprises a single cell. An individual cell is composed of a plasma membrane, contents internal to the plasma membrane, and any external protective or encapsulating structure.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unicellular structure</rdfs:label>
     </owl:Class>
@@ -312,7 +317,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000018"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A differentiated form of an organism produced during or as a result of an asexual or sexual reproductive process; usually a cell with a thick cell wall that stores and protects one or more nuclei. Spores may be produced in response to, and are characteristically resistant to, adverse environmental conditions.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spore produced by a fungus. A spore is a differentiated form of an organism produced during or as a result of an asexual or sexual reproductive process; usually a cell with a thick cell wall that stores and protects one or more nuclei. Spores may be produced in response to, and are characteristically resistant to, adverse environmental conditions.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spore</rdfs:label>
     </owl:Class>
     
@@ -328,7 +333,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FAO_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thick walled spore that stores and protects one or more nuclei following sexual reproduction in an Basidiomycete; formed externally on extrusions of the basidium.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thick-walled spore formed externally on extrusions of a basidium following sexual reproduction; found in Basidiomycetes.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basidiospore</rdfs:label>
     </owl:Class>
     
@@ -338,7 +343,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000021"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spore with a very thick cell wall and extracellular peptidoglycan spikes that stores and protects one or more nuclei during dormancy in a Basidiomycete.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diploid spore with a thick, pigmented, sculpted cell wall, and extracellular peptidoglycan spikes that is formed during growth in a plant host by some Basidiomycete species, including pathogenic smut (Ustilaginales) and rust (Pucciniales) fungi.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">teliospore</rdfs:label>
     </owl:Class>
     
@@ -348,7 +353,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000019"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spore formed following mitosis or mitoses.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spore formed following one or more rounds of mitosis, without meiosis.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitotically-derived spore</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asexual spore</rdfs:label>
     </owl:Class>
@@ -359,7 +364,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000023"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An asexual, nonmotile spore formed by higher fungi; conidia are usually made from the side or tip of specialized sporogenous cells and do not form by progressive cleavage of the cytoplasm.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An asexual, nonmotile spore formed by higher fungi. Conidia are usually made from the side or tip of specialized sporogenous cells and do not form by progressive cleavage of the cytoplasm.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conidium</rdfs:label>
     </owl:Class>
     
@@ -369,10 +374,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000021"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thick walled spore that stores and protects one or more nuclei during dispersal following reproduction in an Basidiomycete.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urediniospore</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urediospore</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uredospore</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thin-walled spore that is formed in a uredinium and is the primary dispersal mode for rust-causing Basidiomycete fungi.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urediospore</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uredospore</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urediniospore</rdfs:label>
     </owl:Class>
     
 
@@ -401,7 +406,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000038"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cylindrical spore formed by development and compartmentation of hyphae; the hyphae are often supporting blastoconidiophores.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cylindrical spore formed by development and compartmentation of hyphae; the hyphae are often supporting blastoconidiophores.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arthrospore</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arthroconidium</rdfs:label>
     </owl:Class>
@@ -430,7 +435,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FAO_0001001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specialized hypha, often aerial, that gives rise to asexual spores, known as conidia.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specialized hypha, often aerial, that gives rise to asexual spores known as conidia.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conidiophore</rdfs:label>
     </owl:Class>
     
@@ -446,7 +451,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FAO_0000043"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A small hyphal branch or structure which supports a sporangium, a conidium, or a basidiospore. In species with biseriate (two layered) sterigmata such as A. nidulans, the first layer comprises primary sterigmata (metulae) and the second layer secondary sterigmata (phialides). Some species, e.g. A. fumigatus, A. oryzae, and others, have only phialides.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A small hyphal branch or structure which supports a sporangium, a conidium, or a basidiospore. In species with biseriate (two-layered) sterigmata such as A. nidulans, the first layer comprises primary sterigmata (metulae) and the second layer secondary sterigmata (phialides). Some species, e.g. A. fumigatus, A. oryzae, and others, have only phialides.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sterigmata (plural)</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sterigma</rdfs:label>
     </owl:Class>
@@ -496,7 +501,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FAO_0001001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specialized multinucleate cell that originates from a nest-like aggregation of hyphae during sexual development. Hulle cells serve as nurse cells to the developing cleistothecium. Note that &quot;Hulle&quot; is properly written with an umlaut character on the &quot;u&quot;.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A specialized multinucleate cell that originates from a nest-like aggregation of hyphae during sexual development. Hulle cells serve as nurse cells to the developing cleistothecium.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hulle cell</rdfs:label>
     </owl:Class>
     
@@ -532,7 +537,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0001001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0002004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A threadlike, tubular filamentous fungal structure.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A long, branching filamentous structure formed by a vegetatively growing fungus.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypha</rdfs:label>
     </owl:Class>
     
