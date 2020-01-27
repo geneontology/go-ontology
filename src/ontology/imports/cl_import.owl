@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2019-10-06/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2020-01-26/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -310,7 +310,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000064"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000219"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000408"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -524,7 +523,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell that is within the developmental lineage of gametes and is able to pass along its genetic material to offspring.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">germ line cell</rdfs:label>
     </owl:Class>
@@ -1660,7 +1659,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of enteocrine cell found in the periphery of the islets of Langerhans that secretes glucagon.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha cell of iselt of Langerhans</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha cell of islet of Langerhans</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic alpha cell</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic A cell</rdfs:label>
     </owl:Class>
@@ -2084,7 +2083,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000226 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000226">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002242"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell with a single nucleus.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single nucleate cell</rdfs:label>
     </owl:Class>
@@ -2103,7 +2102,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000228 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000228">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002242"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell with more than one nucleus.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syncitium</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">syncytial cell</oboInOwl:hasExactSynonym>
@@ -4056,7 +4055,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000653">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002522"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000451"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000450"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glomerular visceral epithelial cell is a specialized kidney epithelial cell that contains &quot;feet&quot; that interdigitate with the &quot;feet&quot; of other glomerular epithelial cells.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial cell of visceral layer of glomerular capsule</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glomerular podocyte</oboInOwl:hasExactSynonym>
@@ -5341,6 +5340,7 @@
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suppressor T lymphocyte</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suppressor T-cell</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">suppressor T-lymphocyte</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treg</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory T lymphocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory T-cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulatory T-lymphocyte</oboInOwl:hasExactSynonym>
@@ -7559,7 +7559,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002489">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000893"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thymocyte that lacks expression of CD4 and CD8.</obo:IAO_0000115>
-        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double negative T cell</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD4-CD8- T cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double negative T cell</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double negative thymocyte</rdfs:label>
     </owl:Class>
     
@@ -7993,7 +7994,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0005019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0005018"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghrelin secreting cells found in the found in the exocrine pancreas.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghrelin secreting cells found in the exocrine pancreas.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic E cell</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic epsilon cell</rdfs:label>
     </owl:Class>
@@ -8534,6 +8535,47 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0011013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000219"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sperm cell that is cabaple of motion (motility).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motile sperm cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0011014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sperm cell that is not cabaple of motion (motility).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-motile sperm cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0011015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011013"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A motile sperm cell that contain no F-actin, and their motility is powered by a dynamic filament system.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amoeboid sperm cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0011016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011013"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A motile sperm cell that contains a slender threadlike microscopic appendage that enables motion.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flagellated sperm cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0011101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011101">
@@ -8890,17 +8932,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bowmans capsule epithelial cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial cell of Bowman&apos;s capsule</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial cell of glomerular capsule</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_1000451 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000451">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000450"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An epithelial cell that is part of the visceral layer of glomerular capsule.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glomerular podocyte</oboInOwl:hasNarrowSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epithelial cell of visceral layer of glomerular capsule</rdfs:label>
     </owl:Class>
     
 
