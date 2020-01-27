@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-10-06/imports/cl_import.owl
+data-version: go/releases/2020-01-26/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -79,7 +79,6 @@ synonym: "sperm cell" EXACT []
 synonym: "spermatozoid" EXACT []
 synonym: "spermatozoon" EXACT []
 is_a: CL:0000064 ! ciliated cell
-is_a: CL:0000219 ! motile cell
 is_a: CL:0000408 ! male gamete
 relationship: develops_from CL:0000018 ! spermatid
 
@@ -195,7 +194,7 @@ relationship: develops_from CL:0000050 ! megakaryocyte-erythroid progenitor cell
 id: CL:0000039
 name: germ line cell
 def: "A cell that is within the developmental lineage of gametes and is able to pass along its genetic material to offspring." []
-is_a: CL:0000548 ! animal cell
+is_a: CL:0000003 ! native cell
 
 [Term]
 id: CL:0000040
@@ -872,7 +871,7 @@ is_a: CL:0000167 ! peptide hormone secreting cell
 id: CL:0000171
 name: pancreatic A cell
 def: "A type of enteocrine cell found in the periphery of the islets of Langerhans that secretes glucagon." []
-synonym: "alpha cell of iselt of Langerhans" EXACT []
+synonym: "alpha cell of islet of Langerhans" EXACT []
 synonym: "pancreatic alpha cell" EXACT []
 is_a: CL:0000083 ! epithelial cell of pancreas
 is_a: CL:0002067 ! type A enteroendocrine cell
@@ -1135,7 +1134,7 @@ is_a: CL:0000003 ! native cell
 id: CL:0000226
 name: single nucleate cell
 def: "A cell with a single nucleus." []
-is_a: CL:0000003 ! native cell
+is_a: CL:0002242 ! nucleate cell
 
 [Term]
 id: CL:0000227
@@ -1149,7 +1148,7 @@ def: "A cell with more than one nucleus." []
 synonym: "syncitium" EXACT []
 synonym: "syncytial cell" EXACT []
 synonym: "syncytium" EXACT []
-is_a: CL:0000003 ! native cell
+is_a: CL:0002242 ! nucleate cell
 
 [Term]
 id: CL:0000232
@@ -2300,7 +2299,7 @@ synonym: "epithelial cell of visceral layer of glomerular capsule" BROAD []
 synonym: "glomerular podocyte" EXACT []
 synonym: "podocyte" EXACT []
 is_a: CL:0002522 ! renal filtration cell
-is_a: CL:1000451 ! epithelial cell of visceral layer of glomerular capsule
+is_a: CL:1000450 ! epithelial cell of glomerular capsule
 
 [Term]
 id: CL:0000654
@@ -3098,6 +3097,7 @@ synonym: "suppressor T cell" BROAD []
 synonym: "suppressor T lymphocyte" BROAD []
 synonym: "suppressor T-cell" BROAD []
 synonym: "suppressor T-lymphocyte" BROAD []
+synonym: "Treg" EXACT []
 is_a: CL:0002419 ! mature T cell
 
 [Term]
@@ -4439,7 +4439,8 @@ is_a: CL:0000351 ! trophoblast cell
 id: CL:0002489
 name: double negative thymocyte
 def: "A thymocyte that lacks expression of CD4 and CD8." []
-synonym: "double negative T cell" BROAD []
+synonym: "CD4-CD8- T cell" EXACT []
+synonym: "double negative T cell" EXACT []
 is_a: CL:0000893 ! thymocyte
 
 [Term]
@@ -4691,7 +4692,7 @@ is_a: CL:0000167 ! peptide hormone secreting cell
 [Term]
 id: CL:0005019
 name: pancreatic epsilon cell
-def: "Ghrelin secreting cells found in the found in the exocrine pancreas." []
+def: "Ghrelin secreting cells found in the exocrine pancreas." []
 synonym: "pancreatic E cell" EXACT []
 is_a: CL:0005018 ! ghrelin secreting cell
 
@@ -5002,6 +5003,31 @@ is_a: CL:0000048 ! multi fate stem cell
 is_a: CL:0002321 ! embryonic cell
 
 [Term]
+id: CL:0011013
+name: motile sperm cell
+def: "A sperm cell that is cabaple of motion (motility)." []
+is_a: CL:0000019 ! sperm
+is_a: CL:0000219 ! motile cell
+
+[Term]
+id: CL:0011014
+name: non-motile sperm cell
+def: "A sperm cell that is not cabaple of motion (motility)." []
+is_a: CL:0000019 ! sperm
+
+[Term]
+id: CL:0011015
+name: amoeboid sperm cell
+def: "A motile sperm cell that contain no F-actin, and their motility is powered by a dynamic filament system." []
+is_a: CL:0011013 ! motile sperm cell
+
+[Term]
+id: CL:0011016
+name: flagellated sperm cell
+def: "A motile sperm cell that contains a slender threadlike microscopic appendage that enables motion." []
+is_a: CL:0011013 ! motile sperm cell
+
+[Term]
 id: CL:0011101
 name: chorionic trophoblast cell
 def: "Cells of the uterine chorion that acquire specialized structural and/or functional features that characterize chorionic trophoblasts. These cells will migrate towards the spongiotrophoblast layer and give rise to syncytiotrophoblasts of the labyrinthine layer." []
@@ -5220,13 +5246,6 @@ def: "An epithelial cell that is part of the glomerular capsule." []
 synonym: "Bowmans capsule epithelial cell" EXACT []
 synonym: "epithelial cell of Bowman's capsule" EXACT []
 is_a: CL:1000510 ! kidney glomerular epithelial cell
-
-[Term]
-id: CL:1000451
-name: epithelial cell of visceral layer of glomerular capsule
-def: "An epithelial cell that is part of the visceral layer of glomerular capsule." []
-synonym: "glomerular podocyte" NARROW []
-is_a: CL:1000450 ! epithelial cell of glomerular capsule
 
 [Term]
 id: CL:1000488
