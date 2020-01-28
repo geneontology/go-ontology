@@ -55,7 +55,6 @@ GO:0003341	cilium movement	NCBITaxon:2759	Eukaryota
 GO:0004694	eukaryotic translation initiation factor 2alpha kinase activity	NCBITaxon:2759	Eukaryota
 GO:0005183	gonadotropin hormone-releasing hormone activity	NCBITaxon:33208	Metazoa
 GO:0005212	structural constituent of eye lens	NCBITaxon:6072	Eumetazoa
-GO:0005213	structural constituent of chorion	NCBITaxon:6656	Arthropoda
 GO:0005214	structural constituent of chitin-based cuticle	NCBITaxon:6656	Arthropoda
 GO:0005521	lamin binding	NCBITaxon:33208	Metazoa
 GO:0005581	collagen trimer	NCBITaxon:33208	Metazoa
@@ -93,8 +92,6 @@ GO:0007297	ovarian follicle cell migration	NCBITaxon:50557	Insecta
 GO:0007299	ovarian follicle cell-cell adhesion	NCBITaxon:50557	Insecta
 GO:0007300	ovarian nurse cell to oocyte transport	NCBITaxon:50557	Insecta
 GO:0007301	female germline ring canal formation	NCBITaxon:50557	Insecta
-GO:0007304	chorion-containing eggshell formation	NCBITaxon:50557	Insecta
-GO:0007305	vitelline membrane formation involved in chorion-containing eggshell formation	NCBITaxon:50557	Insecta
 GO:0007338	single fertilization	NCBITaxon:2759	Eukaryota
 GO:0007400	neuroblast fate determination	NCBITaxon:33208	Metazoa
 GO:0007403	glial cell fate determination	NCBITaxon:33208	Metazoa
