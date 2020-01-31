@@ -1231,18 +1231,16 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0002010> 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0002010> "obsolete results_in_transport_to_from_or_mediated_by"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0002010> "true"^^xsd:boolean)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0098702> (regulates activity of)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0098702> (obsolete regulates activity of)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0098702> "A relation that holds between the regulation of a molecular function and the agent that executes that function.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0098702> "OBSOLETE. A relation that holds between the regulation of a molecular function and the agent that executes that function.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0098702> "GO:0098772 GO:0065009"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0098702> "GO:0032991 SO:0000374 PR:000000001"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0098702> "Use this relation to link either a molecular function, or a biological process that regulates a molecular function, to the gene product or complex that executes the regulated function.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098702> <http://purl.obolibrary.org/obo/go#AE_sequence_or_complex>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098702> <http://purl.obolibrary.org/obo/go#display_for_curators>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0098702> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0098702> "regulates_activity_of")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0098702> "regulates activity of")
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0098702> <http://purl.obolibrary.org/obo/GOREL_0001011>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0098702> "This relation has been obsoleted as it is not part of the GO ShEx specifications."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0098702> "obsolete regulates activity of")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0098702> "true"^^xsd:boolean)
 
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0098788> (regulates transcription of)
 
