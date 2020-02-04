@@ -71,6 +71,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000311> "pub
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/PO_0025131> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
 
+# Class: <http://purl.obolibrary.org/obo/PO_0025606> (native plant cell)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/PO_0025606> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
+
+# Class: <http://purl.obolibrary.org/obo/ZFA_0009000> (cell)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/ZFA_0009000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_7955>)))
+
 # Class: <http://purl.obolibrary.org/obo/ZFA_0100000> (zebrafish anatomical entity)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/ZFA_0100000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_7955>)))
