@@ -637,7 +637,6 @@ GO:0047077	Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity	NCBITax
 GO:0061061	muscle structure development	NCBITaxon:6072	Eumetazoa
 GO:0009271	phage shock	NCBITaxon:2	Bacteria
 GO:0018189	pyrroloquinoline quinone biosynthetic process	NCBITaxon:2	Bacteria
-GO:0052000	type IV pili-dependent aggregation	NCBITaxon:Union_0000004	Prokaryota
 GO:0030034	microvillar actin bundle assembly	NCBITaxon:33208	Metazoa
 GO:0033693	neurofilament bundle assembly	NCBITaxon:33208	Metazoa
 GO:0002499	proteolysis within endosome associated with antigen processing and presentation	NCBITaxon:2759	Eukaryota
