@@ -14,7 +14,6 @@ GO:0000329	fungal-type vacuole membrane	NCBITaxon:4751	Fungi
 GO:0000330	plant-type vacuole lumen	NCBITaxon:33090	Viridiplantae
 GO:0000345	cytosolic DNA-directed RNA polymerase complex	NCBITaxon:2	Bacteria
 GO:0000426	micropexophagy	NCBITaxon:716545	saccharomyceta
-GO:0000501	flocculation via cell wall protein-carbohydrate interaction	NCBITaxon:4751	Fungi
 GO:0000747	conjugation with cellular fusion	NCBITaxon:Union_0000022	Fungi or Dictyostelium
 GO:0000748	conjugation with mutual genetic exchange	NCBITaxon:5878	Ciliophora
 GO:0000749	response to pheromone triggering conjugation with cellular fusion	NCBITaxon:4751	Fungi
