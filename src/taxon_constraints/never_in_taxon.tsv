@@ -473,3 +473,5 @@ GO:1901259	chloroplast rRNA processing	NCBITaxon:554915	Amoebozoa
 GO:0052553	modulation by symbiont of host immune response	NCBITaxon:33208	Metazoa
 GO:0052553	modulation by symbiont of host immune response	NCBITaxon:33090	Viridiplantae
 GO:0033499	galactose catabolic process via UDP-galactose	NCBITaxon:147554	Schizosaccharomycetes
+GO:0098610	adhesion between unicellular organisms	NCBITaxon:33208	Metazoa
+GO:0098610	adhesion between unicellular organisms	NCBITaxon:33090	Viridiplantae
