@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-07-10/imports/uberon_import.owl
+data-version: go/releases/2020-02-14/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -26470,7 +26470,6 @@ def: "An insect gland dorsal to the insect gut, with a function analogous to tha
 synonym: "fat body" EXACT []
 synonym: "fat body sensu invertebrata" RELATED []
 is_a: UBERON:0000062 ! organ
-is_a: UBERON:0001013 ! adipose tissue
 relationship: only_in_taxon NCBITaxon:6656
 
 [Term]
@@ -51539,6 +51538,7 @@ relationship: part_of UBERON:0001092 ! vertebral bone 1
 [Term]
 id: UBERON:0011510
 name: cloacal bursa
+def: "An evagination of the cloaca. In Testudines these are hypothesized to function in different physiological roles, primarily in respiration." []
 is_a: CARO:0000000
 is_a: UBERON:0000063 ! organ subunit
 relationship: part_of UBERON:0000162 ! cloaca
@@ -62262,11 +62262,6 @@ def: "t1 developmentally_induced_by t2 if there is a process of organ induction 
 xref: RO:0002256
 
 [Typedef]
-id: developmentally_preceded_by
-name: developmentally preceded by
-xref: RO:0002258
-
-[Typedef]
 id: developmentally_replaces
 name: developmentally_replaces
 xref: RO:0002285
@@ -62408,7 +62403,6 @@ transitive_over: part_of ! part of
 id: existence_starts_during_or_after
 name: existence starts during or after
 xref: RO:0002496
-holds_over_chain: developmentally_preceded_by existence_starts_during_or_after
 holds_over_chain: part_of existence_starts_during_or_after
 transitive_over: part_of ! part of
 transitive_over: preceded_by ! preceded_by
@@ -62514,12 +62508,6 @@ id: has_potential_to_developmentally_contribute_to
 name: has potential to developmentally contribute to
 def: "x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y" []
 xref: RO:0002385
-
-[Typedef]
-id: has_potential_to_directly_develop_into
-name: has potential to directly develop into
-def: "x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y" []
-xref: RO:0002388
 
 [Typedef]
 id: has_quality
@@ -62698,12 +62686,6 @@ id: innervates
 name: innervates
 xref: RO:0002134
 transitive_over: part_of ! part of
-
-[Typedef]
-id: input_of
-name: input of
-xref: RO:0002352
-is_a: functionally_related_to ! functionally related to
 
 [Typedef]
 id: intersects_midsagittal_plane_of
