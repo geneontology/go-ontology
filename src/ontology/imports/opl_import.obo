@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-12-02/imports/opl_import.owl
+data-version: go/releases/2020-02-14/imports/opl_import.owl
 ontology: go/imports/opl_import
 
 [Term]
@@ -15,6 +15,8 @@ id: OPL:0000006
 name: metacyclic promastigote stage
 def: "A promastigote stage of some kinetoplastids." []
 is_a: OPL:0000151 ! promastigote stage
+is_a: OPL:0000322 ! Trypanosomatida metacyclic stage
+relationship: realizes IDO:0000404
 
 [Term]
 id: OPL:0000015
@@ -29,7 +31,7 @@ id: OPL:0000033
 name: trypomastigote stage
 def: "A parasite lifecycle stage of trypanosomes. In trypomastigote stage, the kinetoplast is near the posterior end of the body, and the flagellum lies attached to the cell body for most of its length by an undulating membrane." []
 is_a: OPL:0000181 ! parasite lifecycle stage
-relationship: has_participant OPL:0000232 ! parasite organism
+relationship: has_participant NCBITaxon:5690
 
 [Term]
 id: OPL:0000048
@@ -85,13 +87,15 @@ id: OPL:0000149
 name: metacyclic trypomastigote stage
 def: "A trypomastigote stage of Trypanosoma species which are nondividing forms resistant to mammalian complement that have the capacity to infect mammalian cells." []
 is_a: OPL:0000033 ! trypomastigote stage
+is_a: OPL:0000322 ! Trypanosomatida metacyclic stage
+relationship: realizes IDO:0000404
 
 [Term]
 id: OPL:0000151
 name: promastigote stage
 def: "A parasite lifecycle stage of Trypanosomatids. In this stage, the flagellum is found anterior of nucleus and flagellum not attached to the cell body. The kinetoplast is located in front of the nucleus, near the anterior end of the body. (Wikipedia: Trypanosomatid)" []
 is_a: OPL:0000181 ! parasite lifecycle stage
-relationship: has_participant OPL:0000232 ! parasite organism
+relationship: has_participant NCBITaxon:5654
 
 [Term]
 id: OPL:0000154
@@ -248,6 +252,14 @@ is_a: CL:0000235
 intersection_of: CL:0000235
 intersection_of: part_of NCBITaxon:40674
 
+[Term]
+id: OPL:0000322
+name: Trypanosomatida metacyclic stage
+def: "A parasite lifecycle stage of trypanosomatidae in which the organism is infectious and does not multiply." []
+is_a: OPL:0000181 ! parasite lifecycle stage
+intersection_of: has_participant NCBITaxon:5654 {all_only="true"}
+intersection_of: realizes IDO:0000404
+
 [Typedef]
 id: bearer_of
 name: bearer of
@@ -319,6 +331,21 @@ xref: RO:0000056
 domain: BFO:0000002
 range: BFO:0000003
 inverse_of: has_participant ! has participant
+
+[Typedef]
+id: realized_in
+name: realized in
+xref: BFO:0000054
+domain: BFO:0000017
+range: BFO:0000015
+inverse_of: realizes ! realizes
+
+[Typedef]
+id: realizes
+name: realizes
+xref: BFO:0000055
+domain: BFO:0000015
+range: BFO:0000017
 
 [Typedef]
 id: role_of
