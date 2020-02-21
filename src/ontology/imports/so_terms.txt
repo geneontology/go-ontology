@@ -7,3 +7,4 @@ http://purl.obolibrary.org/obo/GO_0008150 ## biological_process
 http://purl.obolibrary.org/obo/SO_0000646 ## siRNA
 http://purl.obolibrary.org/obo/SO_0001914 ## rDNA_replication_fork_barrier
 http://purl.obolibrary.org/obo/SO_0001798 ## regional_centromere_inner_repeat_region
+http://purl.obolibrary.org/obo/SO_0002140 ## early_origin_of_replication
