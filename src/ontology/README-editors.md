@@ -2,11 +2,11 @@
 
 ## GO - Ontology Editors Guide
 
-A step-by-step guide for GO Ontology Editors can be found at [http://go-ontology.readthedocs.io/](http://go-ontology.readthedocs.io/).
+A step-by-step guide for GO Ontology Editors can be found at [http://wiki.geneontology.org/index.php/Ontology_Development#Documentation](http://wiki.geneontology.org/index.php/Ontology_Development#Documentation).
 
 ## Release Process
 
-This Jenkins job will create releases https://build.berkeleybop.org/job/release-go-ontology-snapshot
+This Jenkins job will create releases https://build.geneontology.org/job/geneontology/job/pipeline/job/snapshot/
 
 (see [the parent README](../../README.md) for more details)
 
