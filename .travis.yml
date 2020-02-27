@@ -14,4 +14,4 @@ before_script:
   - cd src/ontology
 
 script:
-  - ./run.sh make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' travis_test
+  - ./run.sh make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' all
