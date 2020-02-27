@@ -16,7 +16,8 @@ GO:0001846	opsonin binding	NCBITaxon:4751	Fungi
 GO:0001848	complement binding	NCBITaxon:4751	Fungi
 GO:0001863	collectin receptor activity	NCBITaxon:4751	Fungi
 GO:0001896	autolysis	NCBITaxon:33208	Metazoa
-GO:0001968	fibronectin binding	NCBITaxon:4751	Fungi
+GO:0001968	fibronectin binding	NCBITaxon:4895	Schizosaccharomyces
+GO:0001968	fibronectin binding	NCBITaxon:4932	Saccharomyces cerevisiae
 GO:0002030	inhibitory G protein-coupled receptor phosphorylation	NCBITaxon:4751	Fungi
 GO:0002039	p53 binding	NCBITaxon:4751	Fungi
 GO:0002046	opsin binding	NCBITaxon:4751	Fungi
@@ -188,7 +189,8 @@ GO:0042476	odontogenesis	NCBITaxon:8782	Aves
 GO:0042546	cell wall biogenesis	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0042633	hair cycle	NCBITaxon:8782	Aves
 GO:0043093	FtsZ-dependent cytokinesis	NCBITaxon:2759	Eukaryota
-GO:0043236	laminin binding	NCBITaxon:4751	Fungi
+GO:0043236	laminin binding	NCBITaxon:4895	Schizosaccharomyces
+GO:0043236	laminin binding	NCBITaxon:4932	Saccharomyces cerevisiae
 GO:0043256	laminin complex	NCBITaxon:4751	Fungi
 GO:0043263	cellulosome	NCBITaxon:33208	Metazoa
 GO:0043293	apoptosome	NCBITaxon:4890	Ascomycota
