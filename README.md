@@ -12,11 +12,7 @@ The yaml design patterns are here: [src/design_patterns](src/design_patterns).
 
 ## Editors Instructions
 
-Most of the work of the editors is done in the [src/ontology](src/ontology) folder.
-
-Start by reading the [Editor's README](src/ontology/README-editors.md) file.
-
-The GO Ontology Editors Guide can be found [here](http://wiki.geneontology.org/index.php/Ontology_Development). 
+The GO Ontology Editors Guide can be found [here](http://wiki.geneontology.org/index.php/Ontology_Development), including how to close the go-ontology repo, make edit on the ontology, taxon contraints and import files, and commiting those changes to the master files. 
 
 ## Pipeline Overview
 
