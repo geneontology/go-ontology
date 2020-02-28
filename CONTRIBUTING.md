@@ -2,7 +2,7 @@
 
 1. **Before you submit a new term request, please check to see if the term already exists:** Before submitting suggestions for new ontology terms, check whether the term already exists, either as a primary term or a synonym. To do this, search the ontology using the [AmiGO](http://amigo.geneontology.org/amigo) browser. If you feel a synonym is missing, or the textual definition of a term needs clarification, please submit a ticket for that. 
 
-2. **For new term requests:** Please always provide suggestions for a name, definition, position in hierarchy, references (e.g. PMIDs), associated dbxrefs (e.g., GOC:dph, GOC:aruk), and synonyms, if applicable.  The ontology editors can more easily process term requests when all of this information is provided.  For an example, please see the entry for [recycling endosome](http://amigo.geneontology.org/amigo/term/GO:0055037).
+2. **For new term requests:** Please always provide suggestions for a name, definition, position in hierarchy, references (e.g. PMIDs), associated dbxrefs (e.g., GOC:dph, GOC:aruk), and synonyms, if applicable.  The ontology editors can more easily process term requests when all of this information is provided.  For an example, please see the entry for [recycling endosome](http://amigo.geneontology.org/amigo/term/GO:0055037). Provide cross references to external databases such as Rhea, EC, KEGG, MetaCyc and TCBD. 
 
 3. **For updates to relationships:** Provide details of the current relationships, why you think they are wrong or insufficient, and exactly what should be added or removed.
 
