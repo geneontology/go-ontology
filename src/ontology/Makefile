@@ -148,8 +148,9 @@ deploy-release:
 
 # TODO: use json form of this file
 # See also: https://github.com/geneontology/go-ontology/issues/13837
+# See also: https://github.com/geneontology/go-ontology/issues/18870
 GO.xrf_abbs: $(SRC)
-	wget --no-check-certificate https://s3.amazonaws.com/go-public/metadata/db-xrefs.legacy -O $@.tmp && mv $@.tmp $@ && touch $@
+	wget http://snapshot.geneontology.org/metadata/db-xrefs.legacy -O $@.tmp && mv $@.tmp $@ && touch $@
 
 $(SRC)-check: $(SRC) GO.xrf_abbs
 	$(PERLCHECK) --disable-isa-incomplete --xref-abbs GO.xrf_abbs $< > $@.tmp && mv $@.tmp $@
@@ -179,10 +180,11 @@ imports/reactome_xrefs_import.owl: # $(SRC)
 	$(ROBOT) convert --input reactome-tmp/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
 # merge in some imported GO modules
+# remove editor-only annotations
 enhanced.owl: $(SRC) imports/go_taxon_constraints.owl imports/reactome_xrefs_import.owl
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl' $< |\
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl' >go-edit-trimmed-imports.obo &&\
-	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -o $@
+	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl remove --term 'IAO:0000233' --term 'IAO:0000116' --axioms annotation --signature true -o $@
 
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
@@ -491,7 +493,7 @@ imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 # these live in the ../sparql directory, and have suffix -violation.sparql
 # adding the name here will make the violation check live
 
-VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match replacedby-obsolete duplicate-exact-synonym duplicate-synonym never-in-taxon-non-IRI-value obsolete-definition
+VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match replacedby-obsolete duplicate-exact-synonym duplicate-synonym non-IRI-value obsolete-definition
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
