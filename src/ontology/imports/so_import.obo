@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-12-11/imports/so_import.owl
+data-version: go/releases/2020-02-24/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -496,6 +496,18 @@ def: "A heterochromatic region of the chromosome,  adjacent to the telomere (on 
 is_a: SO:0000628 ! chromosomal_structural_element
 created_by: kareneilbeck
 creation_date: 2014-01-05T07:02:01Z
+
+[Term]
+id: SO:0002140
+name: early_origin_of_replication
+namespace: sequence
+def: "An origin of replication that initiates early in S phase." [PMID:23348837, PMID:9115207]
+synonym: "early origin" EXACT []
+synonym: "early origin of replication" EXACT []
+synonym: "early replication origin" EXACT []
+is_a: SO:0000296 ! origin_of_replication
+created_by: nicole
+creation_date: 2016-09-15T15:53:36Z
 
 [Term]
 id: SO:0002141
