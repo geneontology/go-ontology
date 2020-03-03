@@ -184,7 +184,7 @@ imports/reactome_xrefs_import.owl: # $(SRC)
 enhanced.owl: $(SRC) imports/go_taxon_constraints.owl imports/reactome_xrefs_import.owl
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl' $< |\
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl' >go-edit-trimmed-imports.obo &&\
-	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl remove --term 'IAO:0000233' --term 'IAO:0000116' --axioms annotation --signature true -o $@
+	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl remove --term 'IAO:0000116' --axioms annotation --signature true -o $@
 
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
