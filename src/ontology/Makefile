@@ -455,11 +455,10 @@ imports/substance_by_role.owl: imports/substance_by_role.obo
 # ----------------------------------------
 # MAPPINGS
 # ----------------------------------------
-EXTERNAL2GO_DBS = EC KEGG KEGG_REACTION MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia RHEA
+EXTERNAL2GO_DBS = EC KEGG_REACTION MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID UM-BBD_reactionID Wikipedia RHEA
 
 # See : https://github.com/geneontology/go-site/issues/688
 # Manually add all ID spaces here; only do this for xrefs that are managed within the obo file.
-# NOTE: rfam2go location is temporary until FTP up, see: https://github.com/geneontology/go-ontology/issues/17153
 .PHONY: generate-mappings
 generate-mappings: go-basic.obo
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals $(EXTERNAL2GO_DBS)
@@ -474,7 +473,7 @@ generate-mappings: go-basic.obo
 	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_sl2go -O external2go/uniprotkb_sl2go
 	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/unirule2go -O external2go/unirule2go
 	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/hamap2go -O external2go/hamap2go
-	wget http://viewvc.geneontology.org/viewvc/GO-SVN/trunk/external2go/rfam2go -O external2go/rfam2go
+	wget http://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/rfam2go/rfam2go -O external2go/rfam2go
 
 # ----------------------------------------
 # TAXON GROUPINGS
