@@ -148,8 +148,9 @@ deploy-release:
 
 # TODO: use json form of this file
 # See also: https://github.com/geneontology/go-ontology/issues/13837
+# See also: https://github.com/geneontology/go-ontology/issues/18870
 GO.xrf_abbs: $(SRC)
-	wget --no-check-certificate https://s3.amazonaws.com/go-public/metadata/db-xrefs.legacy -O $@.tmp && mv $@.tmp $@ && touch $@
+	wget http://snapshot.geneontology.org/metadata/db-xrefs.legacy -O $@.tmp && mv $@.tmp $@ && touch $@
 
 $(SRC)-check: $(SRC) GO.xrf_abbs
 	$(PERLCHECK) --disable-isa-incomplete --xref-abbs GO.xrf_abbs $< > $@.tmp && mv $@.tmp $@
@@ -179,10 +180,11 @@ imports/reactome_xrefs_import.owl: # $(SRC)
 	$(ROBOT) convert --input reactome-tmp/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
 # merge in some imported GO modules
+# remove editor-only annotations
 enhanced.owl: $(SRC) imports/go_taxon_constraints.owl imports/reactome_xrefs_import.owl
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl' $< |\
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl' >go-edit-trimmed-imports.obo &&\
-	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -o $@
+	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl remove --term 'IAO:0000116' --axioms annotation --signature true -o $@
 
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
@@ -207,7 +209,7 @@ $(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).owl extensions/gorel.owl mi
 
 # Not all imports are being pre-mirrored; the ones that are should be dependencies
 $(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro-download.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl
-	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true relax reduce annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true relax reduce --named-classes-only true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 # ----------------------------------------
 # OBO and subsets
@@ -453,11 +455,10 @@ imports/substance_by_role.owl: imports/substance_by_role.obo
 # ----------------------------------------
 # MAPPINGS
 # ----------------------------------------
-EXTERNAL2GO_DBS = EC KEGG KEGG_REACTION MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID Wikipedia RHEA
+EXTERNAL2GO_DBS = EC KEGG_REACTION MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD_pathwayID UM-BBD_reactionID Wikipedia RHEA
 
 # See : https://github.com/geneontology/go-site/issues/688
 # Manually add all ID spaces here; only do this for xrefs that are managed within the obo file.
-# NOTE: rfam2go location is temporary until FTP up, see: https://github.com/geneontology/go-ontology/issues/17153
 .PHONY: generate-mappings
 generate-mappings: go-basic.obo
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals $(EXTERNAL2GO_DBS)
@@ -472,7 +473,7 @@ generate-mappings: go-basic.obo
 	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_sl2go -O external2go/uniprotkb_sl2go
 	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/unirule2go -O external2go/unirule2go
 	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/hamap2go -O external2go/hamap2go
-	wget http://viewvc.geneontology.org/viewvc/GO-SVN/trunk/external2go/rfam2go -O external2go/rfam2go
+	wget http://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/rfam2go/rfam2go -O external2go/rfam2go
 
 # ----------------------------------------
 # TAXON GROUPINGS
@@ -491,7 +492,7 @@ imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 # these live in the ../sparql directory, and have suffix -violation.sparql
 # adding the name here will make the violation check live
 
-VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match replacedby-obsolete duplicate-exact-synonym duplicate-synonym never-in-taxon-non-IRI-value obsolete-definition
+VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match replacedby-obsolete duplicate-exact-synonym duplicate-synonym non-IRI-value non-anyURI-value obsolete-definition
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
