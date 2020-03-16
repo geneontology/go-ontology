@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-01-26/imports/cl_import.owl
+data-version: go/releases/2020-03-15/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -30,11 +30,13 @@ is_a: CL:0002321 ! embryonic cell
 [Term]
 id: CL:0000008
 name: migratory cranial neural crest cell
+def: "Cell that is part of the migratory cranial neural crest population. Migratory cranial neural crest cells develop from premigratory cranial neural crest cells and have undergone epithelial to mesenchymal transition and delamination." []
 is_a: CL:0000333 ! migratory neural crest cell
 
 [Term]
 id: CL:0000011
 name: migratory trunk neural crest cell
+def: "Cell that is part of the migratory trunk neural crest population. Migratory trunk neural crest cells develop from premigratory trunk neural crest cells and have undergone epithelial to mesenchymal transition and delamination." []
 is_a: CL:0000333 ! migratory neural crest cell
 
 [Term]
@@ -140,9 +142,9 @@ relationship: develops_from CL:0000133 ! neurectodermal cell
 
 [Term]
 id: CL:0000031
-name: neuroblast
+name: neuroblast (sensu Vertebrata)
 def: "A cell that will develop into a neuron often after a migration phase." []
-is_a: CL:0000047 ! neuronal stem cell
+synonym: "neuroblast" EXACT []
 is_a: CL:0000055 ! non-terminally differentiated cell
 
 [Term]
@@ -474,7 +476,6 @@ synonym: "polynuclear neutrophilic leucocyte" EXACT []
 synonym: "polynuclear neutrophilic leukocyte" EXACT []
 is_a: CL:0000234 ! phagocyte
 is_a: CL:0000775 ! neutrophil
-is_a: CL:0002242 ! nucleate cell
 
 [Term]
 id: CL:0000097
@@ -561,7 +562,6 @@ is_a: CL:0002078 ! meso-epithelial cell
 id: CL:0000117
 name: CNS neuron (sensu Vertebrata)
 is_a: CL:2000029 ! central nervous system neuron
-relationship: develops_from CL:0000337 ! neuroblast (sensu Vertebrata)
 
 [Term]
 id: CL:0000119
@@ -1020,7 +1020,6 @@ synonym: "cochlear hair cell" EXACT []
 synonym: "inner ear hair cell" RELATED []
 synonym: "inner ear receptor cell" RELATED []
 is_a: CL:0000006 ! neuronal receptor cell
-is_a: CL:0000710 ! neurecto-epithelial cell
 is_a: CL:0002374 ! ear hair cell
 is_a: CL:0002491 ! auditory epithelial cell
 
@@ -1194,7 +1193,7 @@ relationship: develops_from CL:0000576 ! monocyte
 [Term]
 id: CL:0000236
 name: B cell
-def: "A lymphocyte of B lineage with the phenotype CD19-positive, CD20-positive, and capable of B cell mediated immunity." []
+def: "A lymphocyte of B lineage that is capable of B cell mediated immunity." []
 synonym: "B lymphocyte" EXACT []
 synonym: "B-cell" EXACT []
 synonym: "B-lymphocyte" EXACT []
@@ -1353,10 +1352,10 @@ is_a: CL:0011012 ! neural crest cell
 relationship: develops_from CL:0007004 ! premigratory neural crest cell
 
 [Term]
-id: CL:0000337
-name: neuroblast (sensu Vertebrata)
-def: "An embryonic cell that develops into a nerve cell or neuron." []
-is_a: CL:0000031 ! neuroblast
+id: CL:0000338
+name: neuroblast (sensu Nematoda and Protostomia)
+synonym: "neuroblast" BROAD []
+is_a: CL:0000047 ! neuronal stem cell
 
 [Term]
 id: CL:0000339
@@ -1598,7 +1597,7 @@ name: dendritic cell
 def: "A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation. These cells are lineage negative (CD3-negative, CD19-negative, CD34-negative, and CD56-negative)." []
 synonym: "interdigitating cell" RELATED []
 synonym: "veiled cell" RELATED []
-is_a: CL:0000738 ! leukocyte
+is_a: CL:0000842 ! mononuclear cell
 
 [Term]
 id: CL:0000453
@@ -1645,15 +1644,11 @@ is_a: CL:0000163 ! endocrine cell
 is_a: CL:0000167 ! peptide hormone secreting cell
 
 [Term]
-id: CL:0000468
-name: neuroglioblast
-is_a: CL:0000047 ! neuronal stem cell
-is_a: CL:0000055 ! non-terminally differentiated cell
-
-[Term]
 id: CL:0000469
 name: ganglion mother cell
-is_a: CL:0000468 ! neuroglioblast
+def: "A neural progenitor cell that is the daughter of a neuroblast (sensu arthopoda).  The progeny of ganglion mother cells develop into neurons, glia and (occasionally) epithelial cells." []
+is_a: CL:0011020 ! neural progenitor cell
+relationship: develops_from CL:0000338 ! neuroblast (sensu Nematoda and Protostomia)
 
 [Term]
 id: CL:0000473
@@ -1715,7 +1710,6 @@ synonym: "CD4-positive helper T-cell" EXACT []
 synonym: "CD4-positive helper T-lymphocyte" EXACT []
 synonym: "CD4-positive T-helper cell" EXACT []
 is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
-is_a: CL:0000912 ! helper T cell
 relationship: develops_from CL:0000896 ! activated CD4-positive, alpha-beta T cell
 
 [Term]
@@ -1840,7 +1834,7 @@ synonym: "nerve cell" EXACT []
 is_a: CL:0000393 ! electrically responsive cell
 is_a: CL:0000404 ! electrically signaling cell
 is_a: CL:0002319 ! neural cell
-relationship: develops_from CL:0000031 ! neuroblast
+relationship: develops_from CL:0000031 ! neuroblast (sensu Vertebrata)
 
 [Term]
 id: CL:0000541
@@ -1854,8 +1848,7 @@ relationship: develops_from CL:0000333 ! migratory neural crest cell
 id: CL:0000542
 name: lymphocyte
 def: "A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin." []
-is_a: CL:0002087 ! nongranular leukocyte
-is_a: CL:0002242 ! nucleate cell
+is_a: CL:0000842 ! mononuclear cell
 relationship: develops_from CL:0000051 ! common lymphoid progenitor
 
 [Term]
@@ -2352,6 +2345,7 @@ synonym: "pericyte of Rouget" EXACT []
 is_a: CL:0000183 ! contractile cell
 is_a: CL:0000630 ! supportive cell
 is_a: CL:0002320 ! connective tissue cell
+is_a: CL:0008034 ! mural cell
 
 [Term]
 id: CL:0000670
@@ -2568,6 +2562,7 @@ synonym: "leucocyte" EXACT []
 synonym: "white blood cell" EXACT []
 is_a: CL:0000219 ! motile cell
 is_a: CL:0000988 ! hematopoietic cell
+is_a: CL:0002242 ! nucleate cell
 relationship: develops_from CL:0000037 ! hematopoietic stem cell
 
 [Term]
@@ -2651,7 +2646,6 @@ name: erythroblast
 def: "A nucleated precursor of an erythrocyte that lacks hematopoietic lineage markers." []
 synonym: "normoblast" EXACT []
 is_a: CL:0000764 ! erythroid lineage cell
-is_a: CL:0002242 ! nucleate cell
 is_a: CL:0011115 ! precursor cell
 relationship: develops_from CL:0000547 ! proerythroblast
 
@@ -2707,7 +2701,7 @@ id: CL:0000778
 name: mononuclear osteoclast
 def: "A specialized mononuclear osteoclast associated with the absorption and removal of bone, precursor of multinuclear osteoclasts." []
 is_a: CL:0000092 ! osteoclast
-is_a: CL:0000226 ! single nucleate cell
+is_a: CL:0000842 ! mononuclear cell
 
 [Term]
 id: CL:0000779
@@ -2752,7 +2746,7 @@ def: "A B cell that is mature, having left the bone marrow. Initially, these cel
 synonym: "mature B lymphocyte" EXACT []
 synonym: "mature B-cell" EXACT []
 synonym: "mature B-lymphocyte" EXACT []
-is_a: CL:0000236 ! B cell
+is_a: CL:0001201 ! B cell, CD19-positive
 relationship: develops_from CL:0000818 ! transitional stage B cell
 
 [Term]
@@ -2851,7 +2845,6 @@ synonym: "killer T lymphocyte" BROAD []
 synonym: "killer T-cell" BROAD []
 synonym: "killer T-lymphocyte" BROAD []
 is_a: CL:0000625 ! CD8-positive, alpha-beta T cell
-is_a: CL:0000910 ! cytotoxic T cell
 relationship: develops_from CL:0000906 ! activated CD8-positive, alpha-beta T cell
 
 [Term]
@@ -3064,7 +3057,7 @@ relationship: develops_from CL:0000809 ! double-positive, alpha-beta thymocyte
 [Term]
 id: CL:0000813
 name: memory T cell
-def: "A distinctly differentiated long-lived T cell that has the phenotype CD45RO-positive and CD127-positive." []
+def: "A long-lived, antigen-experienced T cell that has acquired a memory phenotype including distinct surface markers and the ability to differentiate into an effector T cell upon antigen reexposure." []
 synonym: "memory T lymphocyte" EXACT []
 synonym: "memory T-cell" EXACT []
 synonym: "memory T-lymphocyte" EXACT []
@@ -3083,7 +3076,6 @@ synonym: "mature NK T-cell" EXACT []
 synonym: "mature NK T-lymphocyte" EXACT []
 synonym: "mature NKT cell" EXACT []
 is_a: CL:0000791 ! mature alpha-beta T cell
-is_a: CL:0002127 ! innate effector T cell
 relationship: develops_from CL:0002042 ! immature NK T cell stage IV
 
 [Term]
@@ -3108,7 +3100,7 @@ synonym: "immature B lymphocyte" EXACT []
 synonym: "immature B-cell" EXACT []
 synonym: "immature B-lymphocyte" EXACT []
 synonym: "newly formed B cell" EXACT []
-is_a: CL:0000236 ! B cell
+is_a: CL:0001201 ! B cell, CD19-positive
 relationship: develops_from CL:0000954 ! small pre-B-II cell
 
 [Term]
@@ -3116,7 +3108,7 @@ id: CL:0000817
 name: precursor B cell
 def: "A precursor B cell is a B cell with the phenotype CD10-positive." []
 synonym: "pre-B cell" RELATED []
-is_a: CL:0000236 ! B cell
+is_a: CL:0001201 ! B cell, CD19-positive
 
 [Term]
 id: CL:0000818
@@ -3129,7 +3121,7 @@ synonym: "transitional B cell" EXACT []
 synonym: "transitional stage B lymphocyte" EXACT []
 synonym: "transitional stage B-cell" EXACT []
 synonym: "transitional stage B-lymphocyte" EXACT []
-is_a: CL:0000236 ! B cell
+is_a: CL:0001201 ! B cell, CD19-positive
 relationship: develops_from CL:0000816 ! immature B cell
 
 [Term]
@@ -3305,7 +3297,7 @@ def: "A leukocyte with a single non-segmented nucleus in the mature form." []
 synonym: "mononuclear leukocyte" EXACT []
 synonym: "peripheral blood mononuclear cell" NARROW []
 is_a: CL:0000226 ! single nucleate cell
-is_a: CL:0002087 ! nongranular leukocyte
+is_a: CL:0000738 ! leukocyte
 
 [Term]
 id: CL:0000843
@@ -3477,14 +3469,13 @@ relationship: develops_from CL:0000895 ! naive thymus-derived CD4-positive, alph
 [Term]
 id: CL:0000897
 name: CD4-positive, alpha-beta memory T cell
-def: "CD4-positive, alpha-beta long-lived T cell with the phenotype CD45RO-positive and CD127-positive. This cell type is also described as being CD25-negative, CD44-high, and CD122-high." []
+def: "A CD4-positive, alpha-beta T cell that has differentiated into a memory T cell." []
 synonym: "CD4-positive, alpha-beta memory T lymphocyte" EXACT []
 synonym: "CD4-positive, alpha-beta memory T-cell" EXACT []
 synonym: "CD4-positive, alpha-beta memory T-lymphocyte" EXACT []
 synonym: "T4.Mem.Sp" RELATED []
 is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
 is_a: CL:0000813 ! memory T cell
-relationship: develops_from CL:0000896 ! activated CD4-positive, alpha-beta T cell
 
 [Term]
 id: CL:0000898
@@ -3576,7 +3567,7 @@ relationship: develops_from CL:0000809 ! double-positive, alpha-beta thymocyte
 [Term]
 id: CL:0000945
 name: lymphocyte of B lineage
-def: "A lymphocyte of B lineage is a lymphocyte that expresses CD19 on the cell surface. An additional defining characteristic is the commitment to express an immunoglobulin complex." []
+def: "A lymphocyte of B lineage with the commitment to express an immunoglobulin complex." []
 is_a: CL:0000542 ! lymphocyte
 relationship: develops_from CL:0000826 ! pro-B cell
 
@@ -3605,6 +3596,8 @@ is_a: CL:0000817 ! precursor B cell
 id: CL:0000980
 name: plasmablast
 def: "An activated mature (naive or memory) B cell that is secreting immunoglobulin, typified by being CD27-positive, CD38-positive, CD138-negative." []
+synonym: "CD20-negative B cell" BROAD []
+synonym: "CD27-positive, CD38-positive, CD20-negative B cell" EXACT []
 is_a: CL:0000785 ! mature B cell
 is_a: CL:0000946 ! antibody secreting cell
 relationship: develops_from CL:0000785 ! mature B cell
@@ -3717,6 +3710,24 @@ id: CL:0001067
 name: group 1 innate lymphoid cell
 def: "An innate lymphoid cell that is capable of producing the type 1 cytokine IFN-gamma, but not Th2 or Th17 cell-associated cytokines." []
 is_a: CL:0001065 ! innate lymphoid cell
+
+[Term]
+id: CL:0001200
+name: lymphocyte of B lineage, CD19-positive
+def: "A lymphocyte of B lineage that is CD19-positive." []
+is_a: CL:0000945 ! lymphocyte of B lineage
+
+[Term]
+id: CL:0001201
+name: B cell, CD19-positive
+def: "A B cell that is CD19-positive." []
+synonym: "B lymphocyte, CD19-positive" EXACT []
+synonym: "B-cell, CD19-positive" EXACT []
+synonym: "B-lymphocyte, CD19-positive" EXACT []
+synonym: "CD19+ B cell" EXACT []
+synonym: "CD19-positive B cell" EXACT []
+is_a: CL:0000236 ! B cell
+is_a: CL:0001200 ! lymphocyte of B lineage, CD19-positive
 
 [Term]
 id: CL:0001658
@@ -3906,13 +3917,6 @@ def: "A cardiac myocyte that is an excitable cells in the myocardium, specifical
 is_a: CL:0000746 ! cardiac muscle cell
 
 [Term]
-id: CL:0002087
-name: nongranular leukocyte
-def: "A leukocyte that lacks granules." []
-synonym: "agranular leukocyte" EXACT []
-is_a: CL:0000738 ! leukocyte
-
-[Term]
 id: CL:0002088
 name: interstitial cell of Cajal
 def: "This is a cell found in the gastrointestinal tract of mammals and serves as a pacemaker that triggers gut contraction. ICCs mediate inputs from the enteric nervous system to smooth muscle cells and are thought to be the cells from which gastrointestinal stromal tumors (GISTs) arise." []
@@ -3933,12 +3937,6 @@ def: "A cardiac myocyte that is connected to other cardiac myocytes by transvers
 synonym: "regular cardiac muscle cell" EXACT []
 synonym: "regular cardiac muscle fiber" EXACT []
 is_a: CL:0000746 ! cardiac muscle cell
-
-[Term]
-id: CL:0002127
-name: innate effector T cell
-def: "A T cell with a receptor of limited diversity that is capable of immediate effector functions upon stimulation." []
-is_a: CL:0000911 ! effector T cell
 
 [Term]
 id: CL:0002129
@@ -4431,7 +4429,7 @@ relationship: develops_from CL:0000339 ! glioblast (sensu Vertebrata)
 [Term]
 id: CL:0002488
 name: trophoblast giant cell
-def: "A trophoblast cell that has a large volume of cytoplasm, is polyploidy and is usually mononuclear but is also occasionally multi-nucleate. This cell type is important in establishing maternal physiology and remodeling of the vasculature of the placenta." []
+def: "A trophoblast cell that has a large volume of cytoplasm, is polyploid and is usually mononuclear but is also occasionally multi-nucleate. This cell type is important in establishing maternal physiology and remodeling of the vasculature of the placenta." []
 synonym: "giant trophoblast cell" EXACT []
 is_a: CL:0000351 ! trophoblast cell
 
@@ -4616,6 +4614,8 @@ is_a: CL:0002323 ! amniocyte
 id: CL:0002664
 name: cardioblast
 def: "A stem cell that can give rise to multiple cell types (i.e. smooth muscle, endothelial) in the developing heart." []
+synonym: "cardiovascular progenitor cell" EXACT []
+synonym: "CPC" EXACT []
 is_a: CL:0000048 ! multi fate stem cell
 
 [Term]
@@ -4877,6 +4877,12 @@ is_a: CL:0000151 ! secretory cell
 is_a: CL:0000540 ! neuron
 
 [Term]
+id: CL:0008034
+name: mural cell
+def: "Mural cells are pericytes and the vascular smooth muscle cells (vSMCs) of the microcirculation." []
+is_a: CL:0002371 ! somatic cell
+
+[Term]
 id: CL:0009001
 name: compound eye retinal cell
 def: "Any cell in the compound eye, a light sensing organ composed of ommatidia." []
@@ -5028,6 +5034,12 @@ def: "A motile sperm cell that contains a slender threadlike microscopic appenda
 is_a: CL:0011013 ! motile sperm cell
 
 [Term]
+id: CL:0011020
+name: neural progenitor cell
+def: "An undifferentiated cell that originates from a neural stem cell and has the capacity to generate multiple types of lineage-restricted progenitors but not to self-renew." []
+is_a: CL:0000055 ! non-terminally differentiated cell
+
+[Term]
 id: CL:0011101
 name: chorionic trophoblast cell
 def: "Cells of the uterine chorion that acquire specialized structural and/or functional features that characterize chorionic trophoblasts. These cells will migrate towards the spongiotrophoblast layer and give rise to syncytiotrophoblasts of the labyrinthine layer." []
@@ -5085,7 +5097,7 @@ is_a: CL:1000507 ! kidney tubule cell
 [Term]
 id: CL:1000042
 name: forebrain neuroblast
-is_a: CL:0000031 ! neuroblast
+is_a: CL:0000031 ! neuroblast (sensu Vertebrata)
 
 [Term]
 id: CL:1000050
