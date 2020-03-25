@@ -296,7 +296,7 @@ seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupin
 imports/pr_terms_combined.txt: imports/pr_terms.txt seed.txt
 	cat $^ | grep 'PR_' > $@
 
-# Specialize seed terms for OPL. 
+# Specialize seed terms for OPL.
 imports/opl_terms_combined.txt: imports/opl_terms.txt seed.txt
 	cat $^ | grep 'OPL_' > $@
 
@@ -510,6 +510,10 @@ reports/%-violation.csv: $(SRC)
 
 check-obsolete-references-including-imports: reasoned.owl
 	$(ROBOT) merge --input reasoned.owl verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
+
+
+reports/neo-violations.report: $(GO_LEGO).owl
+	$(ROBOT) report --input $(GO_LEGO).owl -p ../sparql/neo/profile.txt -o $@ --print 50 -v
 
 # ----------------------------------------
 # REPORTS
