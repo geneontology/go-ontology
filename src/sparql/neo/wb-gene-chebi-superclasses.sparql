@@ -1,0 +1,20 @@
+# PREFIX rdfs: http://www.w3.org/2000/01/rdf-schema#
+# SELECT ?super WHERE
+# { http://identifiers.org/wormbase/WBGene00000275 rdfs:subClassOf* ?super . }
+#
+# ?super should contain http://purl.obolibrary.org/obo/CHEBI_33695
+# ?super should contain http://purl.obolibrary.org/obo/CHEBI_24431
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?entity ?property ?value WHERE
+{
+  VALUES ?entity { <http://identifiers.org/wormbase/WBGene00000275> }
+  VALUES ?property { "NOT rdfs:subClassOf" }
+  VALUES ?value { <http://purl.obolibrary.org/obo/CHEBI_33695>
+                <http://purl.obolibrary.org/obo/CHEBI_24431> }
+
+  FILTER NOT EXISTS {
+  ?entity rdfs:subClassOf+ ?value .
+  }
+
+}
