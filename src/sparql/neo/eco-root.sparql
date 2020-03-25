@@ -1,0 +1,12 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?entity ?property ?value WHERE
+{
+  VALUES ?entity { <http://purl.obolibrary.org/obo/ECO_0000314> }
+  VALUES ?property { "NOT rdfs:subClassOf" }
+  VALUES ?value {<http://purl.obolibrary.org/obo/ECO_0000000> }
+
+  FILTER NOT EXISTS {
+  ?entity rdfs:subClassOf* ?value .
+  }
+
+}

@@ -1,0 +1,18 @@
+# PREFIX rdfs: http://www.w3.org/2000/01/rdf-schema#
+# SELECT ?super WHERE
+# { http://purl.obolibrary.org/obo/GO_0060090 rdfs:subClassOf* ?super . }
+#
+# ?super should contain http://purl.obolibrary.org/obo/GO_0003674
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?entity ?property ?value WHERE
+{
+  VALUES ?entity { <http://purl.obolibrary.org/obo/GO_0060090> }
+  VALUES ?property { "NOT rdfs:subClassOf" }
+  VALUES ?value { <http://purl.obolibrary.org/obo/GO_0003674> }
+
+  FILTER NOT EXISTS {
+  ?entity rdfs:subClassOf+ ?value .
+  }
+
+}
