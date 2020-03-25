@@ -513,7 +513,7 @@ check-obsolete-references-including-imports: reasoned.owl
 
 
 reports/neo-violations.report: $(GO_LEGO).owl
-	$(ROBOT) report --input $(GO_LEGO).owl -p ../sparql/neo/profile.txt -o $@ --print 50 -v
+	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -k true -p ../sparql/neo/profile.txt -o $@ --print 50 -v
 
 # ----------------------------------------
 # REPORTS
