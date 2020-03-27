@@ -1,0 +1,8 @@
+ERROR	file:./../sparql/neo/eco-root.sparql
+ERROR	file:./../sparql/neo/wb-superclasses.sparql
+ERROR	file:./../sparql/neo/go_0000776-supers.sparql
+ERROR	file:./../sparql/neo/go_0022607-superclass.sparql
+ERROR	file:./../sparql/neo/go_0060090-superclass.sparql
+ERROR	file:./../sparql/neo/uniprot-chebi-superclasses.sparql
+ERROR	file:./../sparql/neo/zfin-chebi-superclasses.sparql
+ERROR	file:./../sparql/neo/wb-gene-chebi-superclasses.sparql

@@ -267,15 +267,7 @@ relationship: RO:0002162 NCBITaxon:2058949 ! in taxon Dictyosteliales
 id: NCBITaxon:207245
 name: Fornicata
 synonym: "Diplomonadida group" RELATED []
-is_a: NCBITaxon:2759 ! Eukaryota
-disjoint_from: NCBITaxon:3027 ! Cryptophyta
-disjoint_from: NCBITaxon:33090 ! Viridiplantae
-disjoint_from: NCBITaxon:33154 ! Opisthokonta
-disjoint_from: NCBITaxon:33630 ! Alveolata
-disjoint_from: NCBITaxon:33634 ! Stramenopiles
-disjoint_from: NCBITaxon:33682 ! Euglenozoa
-disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
-disjoint_from: NCBITaxon:554915 ! Amoebozoa
+is_a: NCBITaxon:2611341 ! Metamonada
 relationship: RO:0002162 NCBITaxon:207245 ! in taxon Fornicata
 
 [Term]
@@ -327,6 +319,20 @@ id: NCBITaxon:2605435
 name: Evosea
 is_a: NCBITaxon:554915 ! Amoebozoa
 relationship: RO:0002162 NCBITaxon:2605435 ! in taxon Evosea
+
+[Term]
+id: NCBITaxon:2611341
+name: Metamonada
+is_a: NCBITaxon:2759 ! Eukaryota
+disjoint_from: NCBITaxon:3027 ! Cryptophyta
+disjoint_from: NCBITaxon:33090 ! Viridiplantae
+disjoint_from: NCBITaxon:33154 ! Opisthokonta
+disjoint_from: NCBITaxon:33630 ! Alveolata
+disjoint_from: NCBITaxon:33634 ! Stramenopiles
+disjoint_from: NCBITaxon:33682 ! Euglenozoa
+disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
+disjoint_from: NCBITaxon:554915 ! Amoebozoa
+relationship: RO:0002162 NCBITaxon:2611341 ! in taxon Metamonada
 
 [Term]
 id: NCBITaxon:2759
@@ -486,8 +492,9 @@ relationship: RO:0002162 NCBITaxon:33083 ! in taxon Dictyostelids
 id: NCBITaxon:33090
 name: Viridiplantae
 synonym: "Chlorobionta" RELATED []
-synonym: "Chlorophyta/Embryophyta group" RELATED []
+synonym: "Chlorophyta/Embryophyta group" EXACT []
 synonym: "chlorophyte/embryophyte group" EXACT []
+synonym: "Chloroplastida" RELATED []
 synonym: "green plants" EXACT []
 synonym: "green plants" RELATED []
 is_a: NCBITaxon:2759 ! Eukaryota
