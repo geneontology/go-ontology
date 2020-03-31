@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl#"
      xml:base="http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl">
-        <dc:title xml:lang="en">GO Organismal Taxonomic Groupings</dc:title>
         <dc:description xml:lang="en">Groupings of taxa that are not necessarily monophyletic. For example, Prokaryota is defined as the union of Eubacteria and Archaea.</dc:description>
+        <dc:title xml:lang="en">GO Organismal Taxonomic Groupings</dc:title>
     </owl:Ontology>
     
 
@@ -104,234 +104,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1033979 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1033979">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10559 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10559">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10624 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10624">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10633 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10633">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10634 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10634">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1069640 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1069640">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10857 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10857">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_108599 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_108599">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1117">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000002"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11207 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11207">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11571 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11571">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11592 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11592">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11593 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11593">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11595 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11595">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11598 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11598">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11599 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11599">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11604 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11604">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11608 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11608">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11613 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11613">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1172 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1172">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_118267 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_118267">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1198135 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1198135">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1198989 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1198989">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1206745 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1206745">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1212 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1212">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1217 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1217">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1221 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1221">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_12355 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_12355">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_131550 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_131550">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
     
 
@@ -344,81 +120,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1380774 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1380774">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_140409 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_140409">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_143961 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_143961">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1476529 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1476529"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1525717 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1525717">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1559979 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1559979">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1559980 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1559980">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_184226 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_184226">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_194550 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_194550">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_195054 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_195054">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
     
 
 
@@ -432,51 +136,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_206350 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_206350">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_213423 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_213423">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2157 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2157">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000025"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_255725 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_255725">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_267407 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_267407">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_27232 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_27232">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
     
 
@@ -489,58 +153,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29859 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29859">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000031"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_310748 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_310748">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_311413 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_311413">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_327817 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_327817">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_328432 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_328432">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3290 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3290">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
     
 
@@ -578,163 +194,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34380 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34380">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34383 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34383">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34425 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34425">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3666 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3666">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_37939 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_37939">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_427699 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_427699">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_44014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_44014">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_451456 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_451456">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_460864 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_460864">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_46225 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_46225">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_46226 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_46226">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_46613 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_46613">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_4751 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4751">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000020"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000022"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_477693 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_477693">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_50372 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_50372">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_51290 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_51290">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5285 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5285">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5313 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5313">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_54032 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_54032">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5532 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5532">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
     
 
@@ -755,62 +219,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_60888 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_60888">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_61172 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_61172">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6403 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6403">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_654221 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_654221">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_65702 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_65702">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_713636 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_713636">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_745407 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_745407">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7746 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7746">
@@ -823,118 +231,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7762">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7785 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7785">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_81524 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_81524">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_83233 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_83233">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_83234 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_83234">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_83344 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_83344">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_85578 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_85578">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_867696 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_867696">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_89013 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_89013">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_89912 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_89912">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_92244 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_92244">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9241 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9241">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_931223 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_931223">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_93810 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_93810">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_992401 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_992401">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
     
 
@@ -1236,14 +532,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </owl:Class>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1262,11 +550,11 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Euteleostomi</oboInOwl:hasDbXref>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000005">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete Nematoda or Protostomia</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008-07-24T04:15:25Z</oboInOwl:creation_date>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jennifer Deegan</oboInOwl:created_by>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Invertebrata</oboInOwl:hasExactSynonym>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2008-07-24T04:15:25Z</oboInOwl:creation_date>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete Nematoda or Protostomia</rdfs:label>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000005"/>
@@ -1279,5 +567,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 
