@@ -8126,3 +8126,4 @@ http://purl.obolibrary.org/obo/CHEBI_10022 ## deoxynivalenol
 http://purl.obolibrary.org/obo/CHEBI_10106 ## zearalenone
 http://purl.obolibrary.org/obo/CHEBI_145656 ## galactoxylomannan
 http://purl.obolibrary.org/obo/CHEBI_142058 ## F2-isoprostane
+http://purl.obolibrary.org/obo/CHEBI_147341	# fumigermin
