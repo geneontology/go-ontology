@@ -19,5 +19,3 @@ Instructions for editing the ontology can be found in the [GO wiki/Ontology sect
  - A jenkins job producse nightly SNAPSHOT releases - https://build.geneontology.org/job/geneontology/job/pipeline/job/snapshot/
     * Our S3 bucket for go-data-product-snapshot/ontology/ which is mapped to http://snapshot.geneontology.org/ontology/, which is redirected to from the OBO Library PURL (http://purl.obolibrary.org/obo/go/snapshot/FOO)
  - A jenkins job will produce production releases, monthly (https://build.geneontology.org/job/geneontology/job/pipeline/job/release/)
-
-
