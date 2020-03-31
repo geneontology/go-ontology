@@ -733,6 +733,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140246>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140250>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140266>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140384>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140446>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0150064>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0150077>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0150104>))
@@ -4463,6 +4464,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0140266> ObjectAllValuesFrom(<http
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0140384> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_5654>))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0140384> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_5654>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0140446> (<http://purl.obolibrary.org/obo/GO_0140446>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0140446> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_4751>))
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0140446> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4751>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0150064> (<http://purl.obolibrary.org/obo/GO_0150064>)
 
