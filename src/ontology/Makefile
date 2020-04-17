@@ -388,6 +388,11 @@ mirror/uberon-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/uberon/ext.owl $(WGET_OUT)
 .PRECIOUS: mirror/uberon-download.owl
 
+# special case: use base for pato
+mirror/pato-download.owl: $(SRC)
+	wget --no-check-certificate $(OBO)/pato/pato-base.owl $(WGET_OUT)
+.PRECIOUS: mirror/pato-download.owl
+
 # special case: use basic for oba
 mirror/oba-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo -O $@.tmp && $(OWLTOOLS) $@.tmp --make-subset-by-properties -n // -o $@
