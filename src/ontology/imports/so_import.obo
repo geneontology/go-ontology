@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-02-24/imports/so_import.owl
+data-version: go/releases/2020-04-17/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -244,6 +244,7 @@ is_a: SO:0000628 ! chromosomal_structural_element
 id: SO:0000628
 name: chromosomal_structural_element
 namespace: sequence
+def: "Regions of the chromosome that are important for structural elements." []
 subset: SOFA
 synonym: "chromosomal structural element" EXACT []
 is_a: SO:0000830 ! chromosome_part
