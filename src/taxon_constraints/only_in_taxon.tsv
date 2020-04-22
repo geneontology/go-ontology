@@ -781,3 +781,6 @@ GO:0150104	transport across blood-brain barrier	NCBITaxon:6072	Eumetazoa
 GO:0009236	cobalamin biosynthetic process	NCBITaxon:Union_0000004	Prokaryota
 GO:0006836	neurotransmitter transport	NCBITaxon:33208	Metazoa
 GO:0140446	fumigermin biosynthetic process	NCBITaxon:4751	Fungi
+GO:0036411	H-NS-Cnu complex	NCBITaxon:2	Bacteria
+GO:1990198	ModE complex	NCBITaxon:2	Bacteria
+
