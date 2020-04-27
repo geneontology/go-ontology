@@ -5,5 +5,5 @@ jobs:
       - image: 'obolibrary/odkfull:v1.2.22'
     resource_class: medium
     steps:
-      - checkout
+      - run: git clone --depth 1 "$CIRCLE_REPOSITORY_URL" --branch "$CIRCLE_BRANCH"
       - run: cd src/ontology; make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' travis_test
