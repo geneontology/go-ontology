@@ -7,5 +7,5 @@ jobs:
       - image: 'obolibrary/odkfull:v1.2.22'
     resource_class: medium
     steps:
-      - checkout
+      - shallow-checkout/checkout
       - run: cd src/ontology; make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' travis_test
