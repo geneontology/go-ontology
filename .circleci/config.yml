@@ -1,0 +1,9 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: 'obolibrary/odkfull:v1.2.22'
+    resource_class: medium
+    steps:
+      - checkout
+      - run: cd src/ontology; make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' travis_test
