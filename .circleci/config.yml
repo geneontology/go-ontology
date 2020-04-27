@@ -8,4 +8,4 @@ jobs:
     resource_class: medium
     steps:
       - shallow-checkout/checkout
-      - run: pwd; ls
+      - run: cd src/ontology; make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' travis_test
