@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2020-04-22/imports/go_taxon_constraints.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2020-04-27/imports/go_taxon_constraints.owl"/>
     </owl:Ontology>
     
 
@@ -843,9 +843,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0001017 -->
+    <!-- http://purl.obolibrary.org/obo/GO_0000984 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001017">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000984">
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
