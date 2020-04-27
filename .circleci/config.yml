@@ -1,9 +1,11 @@
 version: 2.1
+orbs:
+  shallow-checkout: expo/shallow-checkout@1.0.2
 jobs:
   build:
     docker:
       - image: 'obolibrary/odkfull:v1.2.22'
     resource_class: medium
     steps:
-      - run: git clone --depth 1 "$CIRCLE_REPOSITORY_URL" --branch "$CIRCLE_BRANCH"
+      - shallow-checkout
       - run: cd src/ontology; make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' travis_test
