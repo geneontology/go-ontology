@@ -364,6 +364,10 @@ imports/%_import.obo: imports/%_import.owl
 # CACHEING EXTERNAL ONTOLOGIES
 # ----------------------------------------
 
+# Fix external ontologies to specific versions. These should be updated regularly!
+CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi/177/chebi.obo
+CL_SOURCE=http://purl.obolibrary.org/obo/cl/releases/2020-01-06/cl-basic.owl
+
 WGET_OUT = -O $@.tmp && cp $@.tmp $@ && touch $@
 
 mirror:
@@ -393,7 +397,7 @@ mirror/pr-download.owl: $(SRC)
 # special case: download obo for speed for chebi
 # See also: https://github.com/ebi-chebi/ChEBI/issues/3269
 mirror/chebi-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/chebi.obo $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
+	wget --no-check-certificate $(CHEBI_SOURCE) $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
 .PRECIOUS: mirror/chebi-download.owl
 
 # special case: use ext for uberon
@@ -413,7 +417,7 @@ mirror/oba-download.owl: $(SRC)
 
 # special case: use basic for cl until base is compatible
 mirror/cl-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/cl/cl-basic.owl $(WGET_OUT)
+	wget --no-check-certificate $(CL_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
 
