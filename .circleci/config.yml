@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  shallow-checkout: expo/shallow-checkout@1.0.2
+  shallow-checkout: datacamp/shallow-checkout@0.0.1
 jobs:
   build:
     docker:
