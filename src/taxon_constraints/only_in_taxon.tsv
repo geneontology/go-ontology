@@ -23,7 +23,7 @@ GO:0000755	cytogamy	NCBITaxon:4751	Fungi
 GO:0000911	cytokinesis by cell plate formation	NCBITaxon:33090	Viridiplantae
 GO:0000916	actomyosin contractile ring contraction	NCBITaxon:2759	Eukaryota
 GO:0000936	primary cell septum	NCBITaxon:2759	Eukaryota
-GO:0001017	bacterial-type RNA polymerase regulatory region DNA binding	NCBITaxon:2	Bacteria
+GO:0000984	bacterial-type RNA polymerase transcription regulatory region sequence-specific DNA binding	NCBITaxon:2	Bacteria
 GO:0001070	RNA-binding transcription regulator activity	NCBITaxon:10239	Viruses
 GO:0001070	RNA-binding transcription regulator activity	NCBITaxon:10239	virus
 GO:0001121	bacterial transcription	NCBITaxon:2	Bacteria
