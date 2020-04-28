@@ -29,6 +29,17 @@ relationship: has_role CHEBI:36047 ! antibacterial drug
 relationship: has_role CHEBI:59517 ! DNA synthesis inhibitor
 
 [Term]
+id: CHEBI:10022
+name: deoxynivalenol
+is_a: CHEBI:15734 ! primary alcohol
+is_a: CHEBI:2468 ! secondary alpha-hydroxy ketone
+is_a: CHEBI:27136 ! triol
+is_a: CHEBI:3992 ! cyclic ketone
+is_a: CHEBI:51689 ! enone
+is_a: CHEBI:55517 ! trichothecene
+relationship: has_role CHEBI:25442 ! mycotoxin
+
+[Term]
 id: CHEBI:10036
 name: wax ester
 is_a: CHEBI:35748 ! fatty acid ester
@@ -58,6 +69,14 @@ is_a: CHEBI:37045 ! purine ribonucleoside 5'-triphosphate
 is_a: CHEBI:53012 ! xanthosine 5'-phosphate
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:10106
+name: zearalenone
+is_a: CHEBI:25106 ! macrolide
+is_a: CHEBI:33572 ! resorcinols
+relationship: has_role CHEBI:76946 ! fungal metabolite
+relationship: has_role CHEBI:76990 ! mycoestrogen
 
 [Term]
 id: CHEBI:10115
@@ -290,6 +309,11 @@ id: CHEBI:10642
 name: scyllo-inositol
 is_a: CHEBI:24848 ! inositol
 relationship: has_role CHEBI:77746 ! human metabolite
+
+[Term]
+id: CHEBI:10668
+name: tRNA precursor
+is_a: CHEBI:60027 ! polymer
 
 [Term]
 id: CHEBI:10696
@@ -1470,6 +1494,11 @@ is_a: CHEBI:15889 ! sterol
 id: CHEBI:131699
 name: EC 2.7.7.7 (DNA-directed DNA polymerase) inhibitor
 is_a: CHEBI:38234 ! DNA polymerase inhibitor
+
+[Term]
+id: CHEBI:13170
+name: Ser-tRNA(Sec)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
 
 [Term]
 id: CHEBI:131701
@@ -3343,6 +3372,11 @@ name: N(4)-(oligosaccharide-(1->4)-N-acetyl-beta-D-glucosaminyl-(1->4)-N-acetyl-
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
+id: CHEBI:13253
+name: Asp-tRNA(Asx)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+
+[Term]
 id: CHEBI:132537
 name: N(4)-(alpha-D-Glc-(1->2)-alpha-D-Glc-(1->3)-alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl residue
 is_a: CHEBI:132529 ! N(4)-(oligosaccharide-(1->4)-N-acetyl-beta-D-glucosaminyl-(1->4)-N-acetyl-beta-D-glucosaminyl)-L-asparagine residue
@@ -4420,6 +4454,11 @@ name: (3E)-3-nonen-2-one
 is_a: CHEBI:51689 ! enone
 relationship: has_role CHEBI:39276 ! fumigant
 relationship: has_role CHEBI:76797 ! EC 2.5.1.18 (glutathione transferase) inhibitor
+
+[Term]
+id: CHEBI:13346
+name: Glu-tRNA(Glx)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
 
 [Term]
 id: CHEBI:133470
@@ -12250,6 +12289,11 @@ name: O-[S-(3R)-hydroxy-(9Z)-hexadecenoylpantetheine-4'-phosphoryl]-L-serine(1-)
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
+id: CHEBI:138408
+name: isoprostane
+is_a: CHEBI:23899 ! icosanoid
+
+[Term]
 id: CHEBI:138429
 name: isopimarane diterpenoid
 is_a: CHEBI:23849 ! diterpenoid
@@ -15986,6 +16030,12 @@ is_a: CHEBI:142054 ! 3-hydroxyaspartic acid residue
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
+id: CHEBI:142058
+name: F2-isoprostane
+is_a: CHEBI:138408 ! isoprostane
+relationship: has_role CHEBI:59163 ! biomarker
+
+[Term]
 id: CHEBI:142091
 name: (-)-eremophilene
 is_a: CHEBI:138397 ! octahydronaphthalenes
@@ -16264,6 +16314,44 @@ name: formyl phosphate(1-)
 is_a: CHEBI:60199 ! acyl monophosphate(1-)
 
 [Term]
+id: CHEBI:142821
+name: andrastin C(1-)
+is_a: CHEBI:142839 ! enolate anion
+relationship: has_role CHEBI:64133 ! EC 2.5.1.58 (protein farnesyltransferase) inhibitor
+
+[Term]
+id: CHEBI:142822
+name: andrastin B(1-)
+is_a: CHEBI:142839 ! enolate anion
+relationship: has_role CHEBI:64133 ! EC 2.5.1.58 (protein farnesyltransferase) inhibitor
+
+[Term]
+id: CHEBI:142823
+name: andrastin A(1-)
+is_a: CHEBI:142839 ! enolate anion
+relationship: has_role CHEBI:64133 ! EC 2.5.1.58 (protein farnesyltransferase) inhibitor
+
+[Term]
+id: CHEBI:142839
+name: enolate anion
+is_a: CHEBI:25696 ! organic anion
+
+[Term]
+id: CHEBI:142842
+name: andrastin A
+is_a: CHEBI:136889 ! 5beta steroid
+is_a: CHEBI:17478 ! aldehyde
+is_a: CHEBI:19168 ! 17-oxo steroid
+is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:33823 ! enol
+is_a: CHEBI:38089 ! 15-hydroxy steroid
+is_a: CHEBI:38149 ! 19-oxo steroid
+is_a: CHEBI:47622 ! acetate ester
+is_a: CHEBI:64419 ! meroterpenoid
+relationship: has_role CHEBI:64133 ! EC 2.5.1.58 (protein farnesyltransferase) inhibitor
+relationship: has_role CHEBI:76964 ! Penicillium metabolite
+
+[Term]
 id: CHEBI:142851
 name: 2-amino-4-[hydroxy(methyl)phosphoryl]butanoic acid
 is_a: CHEBI:26044 ! phosphinic acids
@@ -16301,6 +16389,34 @@ is_a: CHEBI:25696 ! organic anion
 id: CHEBI:142859
 name: glufosinate-P zwitterion(1-)
 is_a: CHEBI:25696 ! organic anion
+
+[Term]
+id: CHEBI:142862
+name: andrastin B
+is_a: CHEBI:136889 ! 5beta steroid
+is_a: CHEBI:15734 ! primary alcohol
+is_a: CHEBI:19168 ! 17-oxo steroid
+is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:33823 ! enol
+is_a: CHEBI:36842 ! 19-hydroxy steroid
+is_a: CHEBI:38089 ! 15-hydroxy steroid
+is_a: CHEBI:47622 ! acetate ester
+is_a: CHEBI:64419 ! meroterpenoid
+relationship: has_role CHEBI:64133 ! EC 2.5.1.58 (protein farnesyltransferase) inhibitor
+relationship: has_role CHEBI:76964 ! Penicillium metabolite
+
+[Term]
+id: CHEBI:142867
+name: andrastin C
+is_a: CHEBI:136889 ! 5beta steroid
+is_a: CHEBI:19168 ! 17-oxo steroid
+is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:33823 ! enol
+is_a: CHEBI:38089 ! 15-hydroxy steroid
+is_a: CHEBI:47622 ! acetate ester
+is_a: CHEBI:64419 ! meroterpenoid
+relationship: has_role CHEBI:64133 ! EC 2.5.1.58 (protein farnesyltransferase) inhibitor
+relationship: has_role CHEBI:76964 ! Penicillium metabolite
 
 [Term]
 id: CHEBI:142880
@@ -16443,6 +16559,16 @@ name: D-glucose 6-phosphate
 is_a: CHEBI:17348 ! D-aldohexose 6-phosphate
 is_a: CHEBI:21006 ! D-glucose monophosphate
 relationship: has_role CHEBI:78675 ! fundamental metabolite
+
+[Term]
+id: CHEBI:143197
+name: culmorin
+is_a: CHEBI:23824 ! diol
+is_a: CHEBI:26658 ! sesquiterpenoid
+is_a: CHEBI:35681 ! secondary alcohol
+is_a: CHEBI:38032 ! carbotricyclic compound
+relationship: has_role CHEBI:25442 ! mycotoxin
+relationship: has_role CHEBI:76946 ! fungal metabolite
 
 [Term]
 id: CHEBI:14321
@@ -16710,6 +16836,16 @@ is_a: CHEBI:30887 ! isocitric acid
 id: CHEBI:15138
 name: sulfide(2-)
 is_a: CHEBI:79388 ! divalent inorganic anion
+
+[Term]
+id: CHEBI:15172
+name: tRNA(Asx)
+is_a: CHEBI:17843 ! transfer RNA
+
+[Term]
+id: CHEBI:15176
+name: tRNA(Glx)
+is_a: CHEBI:17843 ! transfer RNA
 
 [Term]
 id: CHEBI:15193
@@ -20993,6 +21129,14 @@ name: alpha-D-galactosyl undecaprenyl diphosphate
 is_a: CHEBI:26185 ! polyprenyl glycosyl phosphate
 
 [Term]
+id: CHEBI:16047
+name: Lys-tRNA(Lys)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
 id: CHEBI:16048
 name: FMNH2
 is_a: CHEBI:24041 ! flavin mononucleotide
@@ -24277,6 +24421,14 @@ is_a: CHEBI:24963 ! ketoaldonic acid
 is_a: CHEBI:33752 ! hexonic acid
 
 [Term]
+id: CHEBI:16624
+name: Leu-tRNA(Leu)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
 id: CHEBI:16625
 name: methylmalonyl-CoA
 is_a: CHEBI:25136 ! malonyl-CoAs
@@ -24333,6 +24485,14 @@ is_a: CHEBI:74961 ! raffinose family oligosaccharide
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76924 ! plant metabolite
+
+[Term]
+id: CHEBI:16635
+name: Met-tRNA(Met)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
 [Term]
 id: CHEBI:16638
@@ -27060,6 +27220,14 @@ id: CHEBI:17118
 name: aldehydo-D-galactose
 is_a: CHEBI:12936 ! D-galactose
 is_a: CHEBI:37662 ! aldehydo-galactose
+
+[Term]
+id: CHEBI:17119
+name: fMet-tRNA(fMet)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
 [Term]
 id: CHEBI:17120
@@ -30701,6 +30869,14 @@ is_a: CHEBI:26482 ! quercetin sulfate
 is_a: CHEBI:38684 ! tetrahydroxyflavone
 
 [Term]
+id: CHEBI:17732
+name: Ala-tRNA(Ala)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
 id: CHEBI:17733
 name: aldehydo-D-galactose 6-phosphate
 is_a: CHEBI:12937 ! D-galactose 6-phosphate
@@ -34136,6 +34312,14 @@ name: naphthalene-1,3,6,8-tetrol
 is_a: CHEBI:26925 ! naphthalenetetrol
 
 [Term]
+id: CHEBI:18366
+name: Arg-tRNA(Arg)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
 id: CHEBI:18367
 name: phosphate(3-)
 is_a: CHEBI:35780 ! phosphate ion
@@ -34301,11 +34485,6 @@ is_a: CHEBI:35378 ! glycosylfructose
 relationship: has_role CHEBI:50505 ! sweetening agent
 relationship: has_role CHEBI:75767 ! animal metabolite
 relationship: has_role CHEBI:76924 ! plant metabolite
-
-[Term]
-id: CHEBI:18395
-name: 2-dehydropantolactone
-is_a: CHEBI:47022 ! tetrahydrofurandione
 
 [Term]
 id: CHEBI:18396
@@ -40872,15 +41051,6 @@ name: lignan
 is_a: CHEBI:26004 ! phenylpropanoid
 
 [Term]
-id: CHEBI:2504
-name: aflatoxin B1
-is_a: CHEBI:22271 ! aflatoxin
-is_a: CHEBI:35618 ! aromatic ether
-is_a: CHEBI:76224 ! aromatic ketone
-relationship: has_role CHEBI:50903 ! carcinogenic agent
-relationship: has_role CHEBI:77746 ! human metabolite
-
-[Term]
 id: CHEBI:25040
 name: limonene monoterpenoid
 is_a: CHEBI:25186 ! p-menthane monoterpenoid
@@ -41664,6 +41834,11 @@ id: CHEBI:25501
 name: neoxanthin
 is_a: CHEBI:35307 ! epoxycarotenol
 is_a: CHEBI:37602 ! allenes
+
+[Term]
+id: CHEBI:25505
+name: neuraminate
+is_a: CHEBI:25506 ! neuraminates
 
 [Term]
 id: CHEBI:25506
@@ -46212,6 +46387,11 @@ is_a: CHEBI:27024 ! toluenes
 is_a: CHEBI:33555 ! arenesulfonic acid
 
 [Term]
+id: CHEBI:27851
+name: keto-neuraminic acid
+is_a: CHEBI:49018 ! neuraminic acid
+
+[Term]
 id: CHEBI:27852
 name: 3,4-dihydroxymandelaldehyde
 is_a: CHEBI:17478 ! aldehyde
@@ -49455,6 +49635,12 @@ relationship: has_role CHEBI:64857 ! cosmetic
 relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
+id: CHEBI:28879
+name: 9-O-acetylneuraminic acid
+is_a: CHEBI:25508 ! neuraminic acids
+is_a: CHEBI:47622 ! acetate ester
+
+[Term]
 id: CHEBI:28880
 name: (S)-mevalonic acid
 is_a: CHEBI:25351 ! mevalonic acid
@@ -50393,6 +50579,271 @@ is_a: CHEBI:38189 ! pyridine N-oxides
 relationship: has_role CHEBI:49103 ! drug metabolite
 
 [Term]
+id: CHEBI:29152
+name: Cys-tRNA(Cys)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29153
+name: Phe-tRNA(Phe)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29154
+name: Pro-tRNA(Pro)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29155
+name: His-tRNA(His)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29156
+name: Gly-tRNA(Gly)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29157
+name: Glu-tRNA(Glu)
+is_a: CHEBI:13346 ! Glu-tRNA(Glx)
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29158
+name: Asp-tRNA(Asp)
+is_a: CHEBI:13253 ! Asp-tRNA(Asx)
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29159
+name: Trp-tRNA(Trp)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29160
+name: Ile-tRNA(Ile)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29161
+name: Tyr-tRNA(Tyr)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29162
+name: Ser-tRNA(Ser)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29163
+name: Thr-tRNA(Thr)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29164
+name: Val-tRNA(Val)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29166
+name: Gln-tRNA(Gln)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29167
+name: tRNA(Cys)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29168
+name: tRNA(Gln)
+is_a: CHEBI:15176 ! tRNA(Glx)
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29169
+name: tRNA(Leu)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29170
+name: tRNA(Ala)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29171
+name: tRNA(Arg)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29172
+name: tRNA(Asn)
+is_a: CHEBI:15172 ! tRNA(Asx)
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29173
+name: tRNA(Met)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29174
+name: tRNA(Ile)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29175
+name: tRNA(Glu)
+is_a: CHEBI:15176 ! tRNA(Glx)
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29176
+name: tRNA(Gly)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29177
+name: tRNA(Pro)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29178
+name: tRNA(His)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29179
+name: tRNA(Ser)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29180
+name: tRNA(Thr)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29181
+name: tRNA(Trp)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29182
+name: tRNA(Tyr)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29183
+name: tRNA(Val)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29184
+name: tRNA(Phe)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29185
+name: tRNA(Lys)
+is_a: CHEBI:17843 ! transfer RNA
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:29186
+name: tRNA(Asp)
+is_a: CHEBI:15172 ! tRNA(Asx)
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
 id: CHEBI:29192
 name: hydrogenperoxide(1-)
 is_a: CHEBI:33693 ! oxygen hydride
@@ -50511,6 +50962,14 @@ is_a: CHEBI:79388 ! divalent inorganic anion
 id: CHEBI:29264
 name: tRNA(Sec)
 is_a: CHEBI:17843 ! transfer RNA
+
+[Term]
+id: CHEBI:29265
+name: Asn-tRNA(Asn)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
 [Term]
 id: CHEBI:29277
@@ -52065,6 +52524,11 @@ name: citraconate(2-)
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 
 [Term]
+id: CHEBI:30737
+name: trichloromethyl(.)
+is_a: CHEBI:36872 ! organic radical
+
+[Term]
 id: CHEBI:30742
 name: ethylene glycol
 is_a: CHEBI:13643 ! glycol
@@ -53321,13 +53785,6 @@ relationship: has_role CHEBI:25212 ! metabolite
 id: CHEBI:31966
 name: pelargonidin 3-O-(6-O-caffeoyl-beta-D-glucoside) 5-O-beta-D-glucoside
 is_a: CHEBI:35218 ! anthocyanin cation
-
-[Term]
-id: CHEBI:31967
-name: pelargonidin 3-O-beta-D-glucoside
-is_a: CHEBI:22798 ! beta-D-glucoside
-is_a: CHEBI:71583 ! anthocyanidin glycoside
-relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:31968
@@ -56948,6 +57405,11 @@ is_a: CHEBI:33791 ! canonical nucleoside residue
 id: CHEBI:33793
 name: canonical deoxyribonucleoside residue
 is_a: CHEBI:33791 ! canonical nucleoside residue
+
+[Term]
+id: CHEBI:33794
+name: tRNA(fMet)
+is_a: CHEBI:17843 ! transfer RNA
 
 [Term]
 id: CHEBI:33797
@@ -70742,11 +71204,6 @@ name: dihydroxytetrahydrofuran
 is_a: CHEBI:47017 ! tetrahydrofuranol
 
 [Term]
-id: CHEBI:47022
-name: tetrahydrofurandione
-is_a: CHEBI:47016 ! tetrahydrofuranone
-
-[Term]
 id: CHEBI:47024
 name: aldehydo-ribose
 is_a: CHEBI:33942 ! ribose
@@ -71946,11 +72403,6 @@ name: fucopyranose
 is_a: CHEBI:33984 ! fucose
 
 [Term]
-id: CHEBI:48209
-name: aflatoxin B2
-is_a: CHEBI:22271 ! aflatoxin
-
-[Term]
 id: CHEBI:48210
 name: cyclopentafurofurochromene
 is_a: CHEBI:38104 ! oxacycle
@@ -72480,6 +72932,11 @@ name: carnitinamide
 is_a: CHEBI:35267 ! quaternary ammonium ion
 relationship: has_part CHEBI:23004 ! carbamoyl group
 relationship: has_part CHEBI:43176 ! hydroxy group
+
+[Term]
+id: CHEBI:48621
+name: Sep-tRNA(Sec)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
 
 [Term]
 id: CHEBI:48622
@@ -74494,11 +74951,6 @@ is_a: CHEBI:35187 ! monoterpene
 id: CHEBI:50075
 name: dihydropyridine
 is_a: CHEBI:26421 ! pyridines
-
-[Term]
-id: CHEBI:50091
-name: S-nitrosoglutathione
-is_a: CHEBI:24337 ! glutathione derivative
 
 [Term]
 id: CHEBI:50103
@@ -78541,6 +78993,11 @@ is_a: CHEBI:26344 ! prostaglandins H
 is_a: CHEBI:52640 ! N-acylethanolamine
 
 [Term]
+id: CHEBI:53100
+name: GMP 5'-end residue
+is_a: CHEBI:50299 ! canonical ribonucleotide residue
+
+[Term]
 id: CHEBI:53112
 name: AMP 3'-end residue
 is_a: CHEBI:50299 ! canonical ribonucleotide residue
@@ -79455,6 +79912,11 @@ is_a: CHEBI:16733 ! D-alpha-amino acid
 is_a: CHEBI:24079 ! formamides
 
 [Term]
+id: CHEBI:55478
+name: beta-GlcNAc-(1->4)-MurNAc-L-Ala-gamma-D-Glu-N(6)-(beta-D-Asp)-L-Lys-(D-Ala)2
+is_a: CHEBI:17149 ! N-acetyl-beta-D-glycosaminyl glycopeptide
+
+[Term]
 id: CHEBI:55479
 name: cis-3-hydroxy-L-proline
 is_a: CHEBI:20056 ! 3-hydroxy-L-proline
@@ -79495,6 +79957,14 @@ is_a: CHEBI:16132 ! 2-deoxy-D-ribose 5-phosphate
 id: CHEBI:55514
 name: laminaritriose
 is_a: CHEBI:27150 ! trisaccharide
+
+[Term]
+id: CHEBI:55517
+name: trichothecene
+is_a: CHEBI:26658 ! sesquiterpenoid
+is_a: CHEBI:32955 ! epoxide
+is_a: CHEBI:38166 ! organic heteropolycyclic compound
+relationship: has_role CHEBI:25442 ! mycotoxin
 
 [Term]
 id: CHEBI:55534
@@ -95405,6 +95875,11 @@ name: 2-methylthio-N(6)-(cis-4-hydroxy-Delta(2)-isopentenyl)adenosine
 is_a: CHEBI:60783 ! nucleoside analogue
 
 [Term]
+id: CHEBI:62885
+name: adenosine residue
+is_a: CHEBI:50320 ! nucleoside residue
+
+[Term]
 id: CHEBI:62889
 name: organic diphosphate
 is_a: CHEBI:25703 ! organic phosphate
@@ -97740,6 +98215,11 @@ name: 1-palmitoylglycerol 3-phosphate
 is_a: CHEBI:76629 ! 2-lysophosphatidic acid
 
 [Term]
+id: CHEBI:64024
+name: beta-D-GlcpA-(1->3)-D-GlcpNAc
+is_a: CHEBI:22480 ! amino disaccharide
+
+[Term]
 id: CHEBI:64031
 name: (3E)-2-oxohex-3-enedioic acid
 is_a: CHEBI:64927 ! 2-oxohex-3-enedioic acid
@@ -99305,6 +99785,16 @@ is_a: CHEBI:63944 ! macrocyclic lactone
 relationship: has_role CHEBI:24869 ! ionophore
 relationship: has_role CHEBI:25212 ! metabolite
 relationship: has_role CHEBI:25442 ! mycotoxin
+
+[Term]
+id: CHEBI:64654
+name: guanosine residue
+is_a: CHEBI:50320 ! nucleoside residue
+
+[Term]
+id: CHEBI:64656
+name: cytidine residue
+is_a: CHEBI:50320 ! nucleoside residue
 
 [Term]
 id: CHEBI:64668
@@ -108154,6 +108644,11 @@ is_a: CHEBI:64768 ! zwitterionic group
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
+id: CHEBI:73747
+name: uridine residue
+is_a: CHEBI:50320 ! nucleoside residue
+
+[Term]
 id: CHEBI:73754
 name: thiosugar
 is_a: CHEBI:33261 ! organosulfur compound
@@ -108757,6 +109252,11 @@ is_a: CHEBI:26186 ! polyprenyl phospho oligosaccharide
 id: CHEBI:74034
 name: alpha-linolenoyl-CoA(4-)
 is_a: CHEBI:139563 ! octadecatrienoyl-CoA(4-)
+
+[Term]
+id: CHEBI:74035
+name: small nuclear RNA
+is_a: CHEBI:33697 ! ribonucleic acid
 
 [Term]
 id: CHEBI:74036
@@ -110489,6 +110989,11 @@ is_a: CHEBI:15489 ! 3-oxo-fatty acyl-CoA
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
 
 [Term]
+id: CHEBI:74589
+name: Ser-tRNA(Sec) polyanion
+is_a: CHEBI:61469 ! polyanionic polymer
+
+[Term]
 id: CHEBI:74590
 name: (10Z,13Z,16Z,19Z,22Z,25Z)-octacosahexaenoyl-CoA
 is_a: CHEBI:143017 ! ultra-long-chain fatty acyl-CoA
@@ -110953,6 +111458,11 @@ is_a: CHEBI:79388 ! divalent inorganic anion
 id: CHEBI:74755
 name: aclacinomycin T(1+)
 is_a: CHEBI:64678 ! anthracycline cation
+
+[Term]
+id: CHEBI:74764
+name: Cys-tRNA(Sec) polyanion
+is_a: CHEBI:61469 ! polyanionic polymer
 
 [Term]
 id: CHEBI:74769
@@ -116889,6 +117399,11 @@ is_a: CHEBI:50114 ! estrogen
 [Term]
 id: CHEBI:76989
 name: phytoestrogen
+is_a: CHEBI:50114 ! estrogen
+
+[Term]
+id: CHEBI:76990
+name: mycoestrogen
 is_a: CHEBI:50114 ! estrogen
 
 [Term]
@@ -136640,6 +137155,12 @@ is_a: CHEBI:78909 ! 12-HPEPE
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
 [Term]
+id: CHEBI:9100
+name: Sem-tRNA(Met)
+is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
+relationship: has_role CHEBI:75771 ! mouse metabolite
+
+[Term]
 id: CHEBI:91000
 name: resolvin E1(1-)
 is_a: CHEBI:57560 ! long-chain fatty acid anion
@@ -142733,6 +143254,13 @@ name: substance with phytoestrogen role
 is_a: GOCHE:50114 ! substance with estrogen role
 intersection_of: CHEBI:24431 ! chemical entity
 intersection_of: has_role CHEBI:76989 ! phytoestrogen
+
+[Term]
+id: GOCHE:76990
+name: substance with mycoestrogen role
+is_a: GOCHE:50114 ! substance with estrogen role
+intersection_of: CHEBI:24431 ! chemical entity
+intersection_of: has_role CHEBI:76990 ! mycoestrogen
 
 [Term]
 id: GOCHE:77019
