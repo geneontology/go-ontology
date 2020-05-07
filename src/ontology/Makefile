@@ -210,11 +210,11 @@ go-base.owl: enhanced.owl
 	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o -f ofn $@.tmp &&\
 	$(ROBOT) merge -i $@.tmp -i extensions/go-gci.owl -i extensions/go-bridge.owl -i extensions/ro_pending.owl -i imports/x-disjoint.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
 
-$(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).owl extensions/gorel.owl mirror/cl-download.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl
+$(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).owl extensions/gorel.owl mirror/cl.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 # Not all imports are being pre-mirrored; the ones that are should be dependencies
-$(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro-download.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl
+$(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro-download.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl mirror/cl.owl mirror/uberon.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural relax reduce --named-classes-only true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 extensions/reacto.owl: $(GO_LEGO).owl mirror/chebi.owl
@@ -367,6 +367,7 @@ imports/%_import.obo: imports/%_import.owl
 # Fix external ontologies to specific versions. These should be updated regularly!
 CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi/177/chebi.obo
 CL_SOURCE=http://purl.obolibrary.org/obo/cl/releases/2020-01-06/cl-basic.owl
+UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/releases/2019-11-22/uberon-base.owl
 
 WGET_OUT = -O $@.tmp && cp $@.tmp $@ && touch $@
 
