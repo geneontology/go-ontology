@@ -7,10 +7,13 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/go/extensions/go-lego.owl>
+Import(<http://purl.obolibrary.org/obo/cl.owl>)
 Import(<http://purl.obolibrary.org/obo/ddanat.owl>)
 Import(<http://purl.obolibrary.org/obo/emapa.owl>)
 Import(<http://purl.obolibrary.org/obo/ro.owl>)
+Import(<http://purl.obolibrary.org/obo/uberon.owl>)
 Import(<http://purl.obolibrary.org/obo/wbbt.owl>)
+Import(<http://purl.obolibrary.org/obo/xao.owl>)
 Import(<http://purl.obolibrary.org/obo/zfa.owl>)
 Import(<http://purl.obolibrary.org/obo/eco/eco-basic.owl>)
 Import(<http://purl.obolibrary.org/obo/go/extensions/go-bfo-bridge.owl>)
@@ -23,7 +26,6 @@ Import(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl>)
 Import(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbbt.owl>)
 Import(<http://purl.obolibrary.org/obo/wbphenotype/wbphenotype-base.owl>)
 Import(<http://purl.obolibrary.org/obo/wbphenotype/imports/wbls_import.owl>)
-Import(<http://purl.obolibrary.org/obo/xao.owl>)
 Import(<http://snapshot.geneontology.org/metadata/groups.ttl>)
 Import(<http://snapshot.geneontology.org/metadata/users.ttl>)
 Annotation(rdfs:comment "This ontology was created to handle the imports, required for a complex annotation model (a.k.a. LEGO). The starting point is the go-plus, which contains all of GO plus the modules from external ontologies, such as ChEBI, CL, or PO. In the future this may include other ontologies.")
@@ -31,6 +33,7 @@ Annotation(rdfs:comment "This ontology was created to handle the imports, requir
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000311>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000136>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/SEPIO_0000124>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/type>))
 
 ############################
 #   Object Properties
