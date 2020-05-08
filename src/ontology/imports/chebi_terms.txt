@@ -8182,3 +8182,4 @@ http://purl.obolibrary.org/obo/CHEBI_17119 ## fMet-tRNA(fMet)
 http://purl.obolibrary.org/obo/CHEBI_29170 ## tRNA(Ala)
 http://purl.obolibrary.org/obo/CHEBI_55478 ## beta-GlcNAc-(1->4)-MurNAc-L-Ala-gamma-D-Glu-N(6)-(beta-D-Asp)-L-Lys-(D-Ala)2
 http://purl.obolibrary.org/obo/CHEBI_18366 ## Arg-tRNA(Arg)
+http://purl.obolibrary.org/obo/CHEBI_144729 ## L-beta-ethynylserine zwitterion
