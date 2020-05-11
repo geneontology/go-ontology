@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/fao_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2020-01-23/imports/fao_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2020-05-10/imports/fao_import.owl"/>
     </owl:Ontology>
     
 
@@ -494,7 +494,7 @@
     <!-- http://purl.obolibrary.org/obo/FAO_0000048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FAO_0000048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FAO_0000018"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
