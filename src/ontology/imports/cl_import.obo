@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-01-26/imports/cl_import.owl
+data-version: go/releases/2020-04-27/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -4676,6 +4676,13 @@ name: cyanoblast
 def: "A non-terminally differentiated cell that originates from the neural crest and differentiates into a cyanophore." []
 is_a: CL:0000055 ! non-terminally differentiated cell
 relationship: develops_from CL:0000333 ! migratory neural crest cell
+
+[Term]
+id: CL:0005006
+name: ionocyte
+def: "Specialized epithelial cells involved in the maintenance of osmotic homeostasis. They are characterized by abundant mitochondria and ion transporters. In amniotes, they are present in the renal system. In freshwater fish, ionocytes in the skin and gills help maintain osmotic homeostasis by absorbing salt from the external environment." []
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
 
 [Term]
 id: CL:0005012
