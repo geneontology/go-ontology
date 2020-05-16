@@ -492,6 +492,24 @@ is_a: NCBITaxon:131221 ! Streptophytina
 relationship: RO:0002162 NCBITaxon:3193 ! in taxon Embryophyta
 
 [Term]
+id: NCBITaxon:32341
+name: Sophophora
+is_a: NCBITaxon:7215 ! Drosophila <flies,genus>
+relationship: RO:0002162 NCBITaxon:32341 ! in taxon Sophophora
+
+[Term]
+id: NCBITaxon:32346
+name: melanogaster group
+is_a: NCBITaxon:32341 ! Sophophora
+relationship: RO:0002162 NCBITaxon:32346 ! in taxon melanogaster group
+
+[Term]
+id: NCBITaxon:32351
+name: melanogaster subgroup
+is_a: NCBITaxon:32346 ! melanogaster group
+relationship: RO:0002162 NCBITaxon:32351 ! in taxon melanogaster subgroup
+
+[Term]
 id: NCBITaxon:32443
 name: Teleostei
 synonym: "teleost fishes" EXACT []
@@ -768,6 +786,37 @@ is_a: NCBITaxon:436491 ! Theropoda
 relationship: RO:0002162 NCBITaxon:436492 ! in taxon Coelurosauria
 
 [Term]
+id: NCBITaxon:43733
+name: Muscomorpha
+synonym: "Asilomorpha" RELATED []
+is_a: NCBITaxon:7203 ! Brachycera
+relationship: RO:0002162 NCBITaxon:43733 ! in taxon Muscomorpha
+
+[Term]
+id: NCBITaxon:43738
+name: Schizophora
+is_a: NCBITaxon:480117 ! Cyclorrhapha
+relationship: RO:0002162 NCBITaxon:43738 ! in taxon Schizophora
+
+[Term]
+id: NCBITaxon:43741
+name: Acalyptratae
+is_a: NCBITaxon:43738 ! Schizophora
+relationship: RO:0002162 NCBITaxon:43741 ! in taxon Acalyptratae
+
+[Term]
+id: NCBITaxon:43746
+name: Ephydroidea
+is_a: NCBITaxon:43741 ! Acalyptratae
+relationship: RO:0002162 NCBITaxon:43746 ! in taxon Ephydroidea
+
+[Term]
+id: NCBITaxon:43845
+name: Drosophilinae
+is_a: NCBITaxon:7214 ! Drosophilidae
+relationship: RO:0002162 NCBITaxon:43845 ! in taxon Drosophilinae
+
+[Term]
 id: NCBITaxon:451864
 name: Dikarya
 is_a: NCBITaxon:4751 ! Fungi
@@ -779,6 +828,12 @@ name: Taphrinomycotina
 is_a: NCBITaxon:4890 ! Ascomycota
 disjoint_from: NCBITaxon:716545 ! saccharomyceta
 relationship: RO:0002162 NCBITaxon:451866 ! in taxon Taphrinomycotina
+
+[Term]
+id: NCBITaxon:46877
+name: Drosophilini
+is_a: NCBITaxon:43845 ! Drosophilinae
+relationship: RO:0002162 NCBITaxon:46877 ! in taxon Drosophilini
 
 [Term]
 id: NCBITaxon:4751
@@ -802,6 +857,18 @@ synonym: "oomycetes" RELATED []
 synonym: "Peronosporomycetes" RELATED []
 is_a: NCBITaxon:33634 ! Stramenopiles
 relationship: RO:0002162 NCBITaxon:4762 ! in taxon Oomycota
+
+[Term]
+id: NCBITaxon:480117
+name: Cyclorrhapha
+is_a: NCBITaxon:480118 ! Eremoneura
+relationship: RO:0002162 NCBITaxon:480117 ! in taxon Cyclorrhapha
+
+[Term]
+id: NCBITaxon:480118
+name: Eremoneura
+is_a: NCBITaxon:43733 ! Muscomorpha
+relationship: RO:0002162 NCBITaxon:480118 ! in taxon Eremoneura
 
 [Term]
 id: NCBITaxon:4890
@@ -1142,6 +1209,30 @@ id: NCBITaxon:7203
 name: Brachycera
 is_a: NCBITaxon:7147 ! Diptera
 relationship: RO:0002162 NCBITaxon:7203 ! in taxon Brachycera
+
+[Term]
+id: NCBITaxon:7214
+name: Drosophilidae
+synonym: "pomace flies" EXACT []
+is_a: NCBITaxon:43746 ! Ephydroidea
+relationship: RO:0002162 NCBITaxon:7214 ! in taxon Drosophilidae
+
+[Term]
+id: NCBITaxon:7215
+name: Drosophila <flies,genus>
+synonym: "Drosophila" EXACT []
+synonym: "fruit flies" EXACT []
+synonym: "fruit fly" EXACT []
+is_a: NCBITaxon:46877 ! Drosophilini
+relationship: RO:0002162 NCBITaxon:7215 ! in taxon Drosophila <flies,genus>
+
+[Term]
+id: NCBITaxon:7227
+name: Drosophila melanogaster
+synonym: "fruit fly" EXACT []
+synonym: "Sophophora melanogaster" RELATED []
+is_a: NCBITaxon:32351 ! melanogaster subgroup
+relationship: RO:0002162 NCBITaxon:7227 ! in taxon Drosophila melanogaster
 
 [Term]
 id: NCBITaxon:7496
