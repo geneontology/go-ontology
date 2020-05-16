@@ -1,0 +1,28 @@
+Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:unnamed:ontology#ont1>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007507>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_7227>))
+Declaration(Class(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#3b7cb0265ca3a1c2760a0014674a60c29ed96e5e>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#3b7cb0265ca3a1c2760a0014674a60c29ed96e5e> (heart development in Drosophila melanogaster)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#3b7cb0265ca3a1c2760a0014674a60c29ed96e5e> "heart development in Drosophila melanogaster"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#3b7cb0265ca3a1c2760a0014674a60c29ed96e5e> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0007507> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_7227>)))
+
+
+)
