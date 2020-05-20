@@ -82,14 +82,14 @@ REPORTDIR = $(RELEASEDIR)/reports
 
 stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz subset-reports generate-mappings
 
-test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable
+test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn
 
 travis_test: travis_build $(SRC)-check change-report.txt
 
 # This target combines features from reasoned.owl, enhanced.owl, sparql_test into a faster mode for Travis.
 # These must be kept in sync.
-travis_build: go-edit-trimmed-imports.obo imports/go_taxon_constraints.owl imports/reactome_xrefs_import.owl regulates_chains.ofn
-	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl remove --term 'IAO:0000116' --axioms annotation --signature true reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl unmerge -i regulates_chains.ofn verify --queries $(VARGS) $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql -O reports/
+travis_build: go-edit-trimmed-imports.obo imports/go_taxon_constraints.owl imports/reactome_xrefs_import.owl regulates_chains.ofn ../taxon_constraints/present_in_taxon.ofn
+	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn remove --term 'IAO:0000116' --axioms annotation --signature true reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl unmerge -i regulates_chains.ofn verify --queries $(VARGS) $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql -O reports/
 
 unsatisfiable: $(GO_GAF).owl
 	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
@@ -196,6 +196,9 @@ enhanced.owl: go-edit-trimmed-imports.obo imports/go_taxon_constraints.owl impor
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
 reasoned.owl: enhanced.owl $(SRC)-check regulates_chains.ofn
 	$(ROBOT) reason -i $< -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl unmerge -i regulates_chains.ofn -o $@
+
+present_in_taxon_check.ofn: enhanced.owl ../taxon_constraints/present_in_taxon.ofn
+	$(ROBOT) merge --collapse-import-closure false -i $< -i ../taxon_constraints/present_in_taxon.ofn reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural -o $@
 
 # equivalent to reasoned, but we rename
 # TODO cleanup redundancies with merge here and with go-base
@@ -305,8 +308,8 @@ all_imports: $(IMPORTS_OWL)
 clean_imports:
 	rm mirror/*
 
-seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupings-edit.owl
-	$(ROBOT) merge --collapse-import-closure false -i enhanced.owl -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings-edit.owl query -f csv --select ../sparql/terms.sparql $@
+seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupings-edit.owl ../taxon_constraints/present_in_taxon.ofn
+	$(ROBOT) merge --collapse-import-closure false -i enhanced.owl -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings-edit.owl -i ../taxon_constraints/present_in_taxon.ofn query -f csv --select ../sparql/terms.sparql $@
 
 # Specialize seed terms for PR. The inclusion of taxon IRIs in the full seed was causing PR to pull
 # in overly specific proteins (e.g. human forms of everything) and referencing gene IRIs. This is kind
@@ -334,6 +337,9 @@ imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
 
 ../taxon_constraints/never_in_taxon.ofn: ../taxon_constraints/never_in_taxon.yaml ../taxon_constraints/never_in_taxon.tsv
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/never_in_taxon.tsv --obo-prefixes=true --template=$< --outfile=$@
+
+../taxon_constraints/present_in_taxon.ofn: ../taxon_constraints/present_in_taxon.yaml ../taxon_constraints/present_in_taxon.tsv
+	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/present_in_taxon.tsv --generate-defined-class=true --obo-prefixes=true --template=$< --outfile=$@
 
 imports/go_taxon_constraints.owl: ../taxon_constraints/only_in_taxon.ofn ../taxon_constraints/never_in_taxon.ofn
 	$(ROBOT) merge $(addprefix -i , $^) annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
