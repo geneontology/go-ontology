@@ -69,7 +69,13 @@
 
     <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0019012"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0031012"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0043226"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0055044"/>
+    </owl:Class>
     
 
 
@@ -176,13 +182,7 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0005623 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005623">
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0019012"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0031012"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0043226"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0055044"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005623"/>
     
 
 

@@ -57,7 +57,6 @@ GO:0005212	structural constituent of eye lens	NCBITaxon:6072	Eumetazoa
 GO:0005214	structural constituent of chitin-based cuticle	NCBITaxon:6656	Arthropoda
 GO:0005521	lamin binding	NCBITaxon:33208	Metazoa
 GO:0005581	collagen trimer	NCBITaxon:33208	Metazoa
-GO:0005623	cell	NCBITaxon:131567	cellular organisms
 GO:0005628	prospore membrane	NCBITaxon:4890	Ascomycota
 GO:0005634	nucleus	NCBITaxon:2759	Eukaryota
 GO:0005739	mitochondrion	NCBITaxon:2759	Eukaryota
