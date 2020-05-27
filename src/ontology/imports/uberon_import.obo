@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-02-14/imports/uberon_import.owl
+data-version: go/releases/2020-05-22/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -20146,6 +20146,16 @@ intersection_of: part_of UBERON:0003101 ! male organism
 relationship: part_of UBERON:0000079 ! male reproductive system
 
 [Term]
+id: UBERON:0003142
+name: prepupa
+def: "An organism at the prepupal stage. The prepupal stage is a life stage interposed between the larval and the pupal stages in insects that undergo a complete metamorphosis. The start of the pre-pupal stage is marked by pupariation, and the end is marked by pupation" []
+is_a: CARO:0000000
+is_a: UBERON:0000468 ! multicellular organism
+relationship: develops_from UBERON:0002548 ! larva
+relationship: immediate_transformation_of UBERON:0002548 ! larva
+relationship: only_in_taxon NCBITaxon:50557
+
+[Term]
 id: UBERON:0003143
 name: pupa
 def: "An organism at the pupal stage. A life cycle stage of holometabolous insects in which the organism is a pupa and starts with the larval-pupal apolysis and ends with pupal-adult apolysis." []
@@ -20158,6 +20168,7 @@ intersection_of: UBERON:0000468 ! multicellular organism
 intersection_of: existence_starts_and_ends_during UBERON:0000070 ! pupal stage
 relationship: existence_starts_and_ends_during UBERON:0000070 ! pupal stage
 relationship: has_quality PATO:0001187
+relationship: immediate_transformation_of UBERON:0003142 {gci_relation="part_of", gci_filler="NCBITaxon:7227"} ! prepupa
 relationship: only_in_taxon NCBITaxon:33392
 
 [Term]
