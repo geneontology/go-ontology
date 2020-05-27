@@ -138122,6 +138122,11 @@ name: substance with plant growth regulator role
 is_a: GOCHE:39317 ! substance with growth regulator role
 
 [Term]
+id: GOCHE:26348
+name: substance with prosthetic group role
+is_a: GOCHE:23357 ! substance with cofactor role
+
+[Term]
 id: GOCHE:26645
 name: substance with semiochemical role
 is_a: GOCHE:33280 ! substance with molecular messenger role
