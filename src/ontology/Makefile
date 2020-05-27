@@ -442,7 +442,7 @@ mirror/%-download.owl: $(SRC)
 .PRECIOUS: mirror/%-download.owl
 
 # bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
-bio-chebi.owl: mirror/chebi-download.owl mirror/chebi.owl
+bio-chebi.owl: mirror/chebi-download.owl mirror/chebi.owl imports/substance_by_role.owl
 	$(OWLTOOLS) $(USECAT) --create-biochebi -o $@ -c $<
 
 # filter axioms
@@ -479,12 +479,14 @@ HAS_ROLE = RO:0000087
 role.obo: mirror/chebi.obo
 	$(OWLTOOLS) $< --reasoner-query -r elk -d CHEBI:50906 --make-ontology-from-results $(OBO)/go/chebi/role.owl -o -f obo $@
 
-imports/substance_by_role.obo: role.obo
+imports/substance_by_role_equiv.obo: role.obo
 	../util/make-substance-by-role.pl -s 'role' -r $(HAS_ROLE) $< > $@.tmp && mv $@.tmp $@
 
-imports/substance_by_role.owl: imports/substance_by_role.obo
-	$(ROBOT) convert -i $< -o $@
+imports/substance_by_role.owl: imports/substance_by_role_equiv.obo
+	$(ROBOT) reason -i $< --exclude-duplicate-axioms true --exclude-tautologies structural remove --axioms equivalent -o $@
 
+imports/substance_by_role.obo: imports/substance_by_role.owl
+	$(ROBOT) convert -i $< -o $@
 
 # ----------------------------------------
 # MAPPINGS
