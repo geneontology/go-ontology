@@ -234,7 +234,6 @@ GO:0016490	structural constituent of peritrophic membrane	NCBITaxon:6656	Arthrop
 GO:0016543	male courtship behavior, orientation prior to leg tapping and wing vibration	NCBITaxon:6656	Arthropoda
 GO:0016544	male courtship behavior, tapping to detect pheromone	NCBITaxon:6656	Arthropoda
 GO:0016546	male courtship behavior, proboscis-mediated licking	NCBITaxon:6656	Arthropoda
-GO:0017145	stem cell division	NCBITaxon:33208	Metazoa
 GO:0018990	ecdysis, chitin-based cuticle	NCBITaxon:6656	Arthropoda
 GO:0019096	pole plasm mitochondrial lrRNA localization	NCBITaxon:6656	Arthropoda
 GO:0019097	pole plasm mitochondrial srRNA localization	NCBITaxon:6656	Arthropoda
@@ -471,8 +470,6 @@ GO:0048827	phyllome development	NCBITaxon:33090	Viridiplantae
 GO:0048829	root cap development	NCBITaxon:33090	Viridiplantae
 GO:0048838	release of seed from dormancy	NCBITaxon:33090	Viridiplantae
 GO:0048840	otolith development	NCBITaxon:7742	Vertebrata <Metazoa>
-GO:0048863	stem cell differentiation	NCBITaxon:33208	Metazoa
-GO:0048864	stem cell development	NCBITaxon:33208	Metazoa
 GO:0050845	teichuronic acid biosynthetic process	NCBITaxon:2	Bacteria
 GO:0050877	nervous system process	NCBITaxon:33208	Metazoa
 GO:0051077	secondary cell septum	NCBITaxon:2759	Eukaryota
