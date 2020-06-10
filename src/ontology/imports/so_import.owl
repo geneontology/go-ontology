@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/so_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2020-04-17/imports/so_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2020-05-17/imports/so_import.owl"/>
     </owl:Ontology>
     
 
@@ -30,12 +30,6 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
     
 
 
@@ -384,7 +378,7 @@
     <!-- http://purl.obolibrary.org/obo/SO_0000253 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000253">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002247"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transfer RNA (tRNA) molecules are approximately 80 nucleotides in length. Their secondary structure includes four short double-helical elements and three loops (D, anti-codon, and T loops). Further hydrogen bonds mediate the characteristic L-shaped molecular structure. Transfer RNAs have two regions of fundamental functional importance: the anti-codon, which is responsible for specific mRNA codon recognition, and the 3&apos; end, to which the tRNA&apos;s corresponding amino acid is attached (by aminoacyl-tRNA synthetases). Transfer RNAs cope with the degeneracy of the genetic code in two manners: having more than one tRNA (with a specific anti-codon) for a particular amino acid; and &apos;wobble&apos; base-pairing, i.e. permitting non-standard base-pairing at the 3rd anti-codon position.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_qualifier:unknown</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/TRNA</oboInOwl:hasDbXref>
@@ -416,7 +410,7 @@
     <!-- http://purl.obolibrary.org/obo/SO_0000274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000274">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002247"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A small nuclear RNA molecule involved in pre-mRNA splicing and processing.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/SnRNA</oboInOwl:hasDbXref>
@@ -448,7 +442,7 @@
     <!-- http://purl.obolibrary.org/obo/SO_0000275 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000275">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002247"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INSDC_feature:ncRNA</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/SnoRNA</oboInOwl:hasDbXref>
@@ -577,7 +571,7 @@
     <!-- http://purl.obolibrary.org/obo/SO_0000370 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000370">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002247"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-coding RNA less than 200 nucleotides long, usually with a specific secondary structure, that acts to regulate gene expression. These include short ncRNAs such as piRNA, miRNA and siRNAs (among others).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small regulatory ncRNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
@@ -1389,6 +1383,28 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An origin of replication that initiates late in S phase.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23348837</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:9115207</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0002247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-coding RNA less than 200 nucleotides in length.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">david</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-05-13T11:07:30Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small noncoding RNA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0002247</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Added as per request from GitHub Issue #485 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/485)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sncRNA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0002247"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-coding RNA less than 200 nucleotides in length.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:30069443</oboInOwl:hasDbXref>
     </owl:Axiom>
 </rdf:RDF>
 
