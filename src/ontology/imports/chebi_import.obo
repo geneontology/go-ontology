@@ -17063,6 +17063,11 @@ name: macropolylide
 is_a: CHEBI:25106 ! macrolide
 
 [Term]
+id: CHEBI:145556
+name: macrodiolide
+is_a: CHEBI:145555 ! macropolylide
+
+[Term]
 id: CHEBI:145559
 name: macrotriolide
 is_a: CHEBI:145555 ! macropolylide
@@ -46519,6 +46524,16 @@ is_a: CHEBI:26799 ! styrenes
 relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
+id: CHEBI:2762
+name: antimycin A
+is_a: CHEBI:145556 ! macrodiolide
+is_a: CHEBI:22702 ! benzamides
+is_a: CHEBI:24079 ! formamides
+is_a: CHEBI:33853 ! phenols
+relationship: has_role CHEBI:25355 ! mitochondrial respiratory-chain inhibitor
+relationship: has_role CHEBI:35718 ! antifungal agent
+
+[Term]
 id: CHEBI:27624
 name: prostaglandin B1
 is_a: CHEBI:26335 ! prostaglandins B
@@ -69654,6 +69669,17 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:41674
 name: cyclohexane-1,2-dione
 is_a: CHEBI:23478 ! cyclohexanedione
+
+[Term]
+id: CHEBI:41688
+name: crystal violet
+is_a: CHEBI:36094 ! organic chloride salt
+relationship: has_part CHEBI:77181 ! crystal violet cation
+relationship: has_role CHEBI:33282 ! antibacterial agent
+relationship: has_role CHEBI:35443 ! anthelminthic drug
+relationship: has_role CHEBI:35718 ! antifungal agent
+relationship: has_role CHEBI:48218 ! antiseptic drug
+relationship: has_role CHEBI:77178 ! histological dye
 
 [Term]
 id: CHEBI:4170
@@ -119195,6 +119221,13 @@ is_a: CHEBI:49322 ! anthracycline antibiotic
 is_a: CHEBI:51285 ! acenoquinone
 is_a: CHEBI:63367 ! monosaccharide derivative
 relationship: has_role CHEBI:25212 ! metabolite
+
+[Term]
+id: CHEBI:77181
+name: crystal violet cation
+is_a: CHEBI:35286 ! iminium ion
+relationship: has_role CHEBI:33282 ! antibacterial agent
+relationship: has_role CHEBI:35718 ! antifungal agent
 
 [Term]
 id: CHEBI:77182
