@@ -37921,11 +37921,6 @@ name: antifeedant
 is_a: CHEBI:25944 ! pesticide
 
 [Term]
-id: CHEBI:22584
-is_obsolete: true
-replaced_by: CHEBI:2762
-
-[Term]
 id: CHEBI:22586
 name: antioxidant
 is_a: CHEBI:51086 ! chemical role
