@@ -479,3 +479,4 @@ GO:0098610	adhesion between unicellular organisms	NCBITaxon:33208	Metazoa
 GO:0043010	camera-type eye development	NCBITaxon:6656	Arthropoda
 GO:0098610	adhesion between unicellular organisms	NCBITaxon:33090	Viridiplantae
 GO:0001726	ruffle	NCBITaxon:4890	Ascomycota
+GO:0008623	CHRAC	NCBITaxon:4896	Schizosaccharomyces pombe
