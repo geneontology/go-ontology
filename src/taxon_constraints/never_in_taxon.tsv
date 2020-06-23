@@ -479,4 +479,10 @@ GO:0098610	adhesion between unicellular organisms	NCBITaxon:33208	Metazoa
 GO:0043010	camera-type eye development	NCBITaxon:6656	Arthropoda
 GO:0098610	adhesion between unicellular organisms	NCBITaxon:33090	Viridiplantae
 GO:0001726	ruffle	NCBITaxon:4890	Ascomycota
+GO:0043616  keratinocyte proliferation  NCBITaxon:6656  Arthropoda
+GO:0043588  skin development  NCBITaxon:6656  Arthropoda
+GO:0033561  regulation of water loss via skin NCBITaxon:6656  Arthropoda
+GO:0032980  keratinocyte activation NCBITaxon:6656  Arthropoda
+GO:0051546  keratinocyte migration  NCBITaxon:6656  Arthropoda
+GO:0097283  keratinocyte apoptotic process  NCBITaxon:6656  Arthropoda
 GO:0008623	CHRAC	NCBITaxon:4896	Schizosaccharomyces pombe
