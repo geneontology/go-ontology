@@ -17576,6 +17576,11 @@ name: methyl-L-glutamic acid
 is_a: CHEBI:83822 ! non-proteinogenic L-alpha-amino acid
 
 [Term]
+id: CHEBI:149779
+name: Mannogen
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
 id: CHEBI:150
 name: (-)-isodihydrocarveol
 is_a: CHEBI:50215 ! dihydrocarveol
