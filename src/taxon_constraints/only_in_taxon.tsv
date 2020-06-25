@@ -779,4 +779,5 @@ GO:0006836	neurotransmitter transport	NCBITaxon:33208	Metazoa
 GO:0140446	fumigermin biosynthetic process	NCBITaxon:4751	Fungi
 GO:0036411	H-NS-Cnu complex	NCBITaxon:2	Bacteria
 GO:1990198	ModE complex	NCBITaxon:2	Bacteria
-
+GO:0052704	ergothioneine biosynthesis from histidine via gamma-glutamyl-hercynylcysteine sulfoxide	NCBITaxon:2	Bacteria
+GO:0140479	ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase	NCBITaxon:4751	Fungi
