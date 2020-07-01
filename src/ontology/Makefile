@@ -360,7 +360,7 @@ seed.owl: $(SRC)
 imports/chebi_import_nogci.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
 	$(ROBOT) extract -i bio-chebi.owl -T imports/chebi_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
 imports/chebi_import.owl: imports/chebi_import_nogci.owl seed.owl bio-chebi.owl
-	$(OWLTOOLS) $(USECAT) seed.owl $< --merge-support-ontologies  bio-chebi.owl --add-imports-from-supports --extract-module -s $(OBO)/go/extensions/bio-chebi.owl -c  --make-subset-by-properties -n $(CHEBIRELS) // --remove-annotation-assertions -r -l --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/go/$@ -o $@
+	$(OWLTOOLS) $(USECAT) seed.owl $< --merge-support-ontologies  bio-chebi.owl --add-imports-from-supports --extract-module -s $(OBO)/go/extensions/bio-chebi.owl -c  --make-subset-by-properties -n $(CHEBIRELS) // --remove-annotation-assertions -r -l -p 'http://www.geneontology.org/formats/oboInOwl#inSubset' --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/go/$@ -o $@
 .PRECIOUS: imports/chebi_import.owl
 
 imports/%_import.obo: imports/%_import.owl
@@ -442,8 +442,17 @@ mirror/%-download.owl: $(SRC)
 .PRECIOUS: mirror/%-download.owl
 
 # bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
-bio-chebi.owl: mirror/chebi-download.owl mirror/chebi.owl imports/substance_by_role.owl
-	$(OWLTOOLS) $(USECAT) --create-biochebi -o $@ -c $<
+bio-chebi.owl: mirror/chebi-download.owl mirror/chebi.owl imports/substance_by_role.owl chebi-ph7_3-slim.ofn
+	$(OWLTOOLS) $(USECAT) --create-biochebi -o $@.tmp.owl -c $< &&\
+	$(ROBOT) merge -i $@.tmp.owl -i chebi-ph7_3-slim.ofn -o $@
+
+chebi_pH7_3_mapping.tsv:
+	wget 'ftp://ftp.expasy.org/databases/rhea/tsv/chebi_pH7_3_mapping.tsv' $(WGET_OUT)
+
+chebi-ph7_3-slim.ofn: chebi_pH7_3_mapping.tsv
+	echo 'Ontology(<http://purl.obolibrary.org/obo/go/extensions/chebi-ph7_3-slim.ofn>' >$@.tmp &&\
+	tail -n +2 $< | cut -f 2 | sort -n -u | sed 's/^/AnnotationAssertion(<http:\/\/www.geneontology.org\/formats\/oboInOwl#inSubset> <http:\/\/purl.obolibrary.org\/obo\/CHEBI_/' | sed 's/$$/> <http:\/\/purl.obolibrary.org\/obo\/go#chebi_ph7_3>)/' >>$@.tmp
+	echo ')' >>$@.tmp && mv $@.tmp $@
 
 # filter axioms
 FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
