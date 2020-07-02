@@ -451,6 +451,9 @@ chebi_pH7_3_mapping.tsv:
 
 chebi-ph7_3-slim.ofn: chebi_pH7_3_mapping.tsv
 	echo 'Ontology(<http://purl.obolibrary.org/obo/go/extensions/chebi-ph7_3-slim.ofn>' >$@.tmp &&\
+	echo 'Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))' >>$@.tmp &&\
+	echo 'Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/go#chebi_ph7_3>))' >>$@.tmp &&\
+	echo 'SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/go#chebi_ph7_3> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)' >>$@.tmp &&\
 	tail -n +2 $< | cut -f 2 | sort -n -u | sed 's/^/AnnotationAssertion(<http:\/\/www.geneontology.org\/formats\/oboInOwl#inSubset> <http:\/\/purl.obolibrary.org\/obo\/CHEBI_/' | sed 's/$$/> <http:\/\/purl.obolibrary.org\/obo\/go#chebi_ph7_3>)/' >>$@.tmp
 	echo ')' >>$@.tmp && mv $@.tmp $@
 
