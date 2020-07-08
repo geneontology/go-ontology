@@ -486,4 +486,4 @@ GO:0032980  keratinocyte activation NCBITaxon:6656  Arthropoda
 GO:0051546  keratinocyte migration  NCBITaxon:6656  Arthropoda
 GO:0097283  keratinocyte apoptotic process  NCBITaxon:6656  Arthropoda
 GO:0008623	CHRAC	NCBITaxon:4896	Schizosaccharomyces pombe
-GO:0033643	host cell part	Vertebrata <Metazoa>
+GO:0033643	host cell part	NCBITaxon:7742	Vertebrata <Metazoa>
