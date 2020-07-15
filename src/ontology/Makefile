@@ -89,7 +89,7 @@ travis_test: travis_build $(SRC)-check change-report.txt
 # This target combines features from reasoned.owl, enhanced.owl, sparql_test into a faster mode for Travis.
 # These must be kept in sync.
 travis_build: go-edit-trimmed-imports.obo imports/go_taxon_constraints.owl imports/reactome_xrefs_import.owl regulates_chains.ofn ../taxon_constraints/present_in_taxon.ofn
-	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn remove --term 'IAO:0000116' --axioms annotation --signature true reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl unmerge -i regulates_chains.ofn verify --queries $(VARGS) $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql -O reports/
+	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn remove --term 'IAO:0000116' --axioms annotation --signature true repair --annotation-property oboInOwl:hasDbXref reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl unmerge -i regulates_chains.ofn verify --queries $(VARGS) $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql -O reports/
 
 unsatisfiable: $(GO_GAF).owl
 	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
@@ -190,7 +190,7 @@ go-edit-trimmed-imports.obo: $(SRC)
 # merge in some imported GO modules
 # remove editor-only annotations
 enhanced.owl: go-edit-trimmed-imports.obo imports/go_taxon_constraints.owl imports/reactome_xrefs_import.owl
-	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl remove --term 'IAO:0000116' --axioms annotation --signature true -o $@
+	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl remove --term 'IAO:0000116' --axioms annotation --signature true repair --annotation-property oboInOwl:hasDbXref -o $@
 
 # reasoned.owl is equivalent to editors source, after reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
