@@ -150661,13 +150661,6 @@ subset: 3_STAR
 is_a: GOCHE:24432 ! substance with biological role role
 
 [Term]
-id: GOCHE:35457
-name: substance with EC 3.4.15.1 (peptidyl-dipeptidase A) inhibitor role
-subset: 3_STAR
-is_a: GOCHE:35674 ! substance with antihypertensive agent role
-is_a: GOCHE:76782 ! substance with EC 3.4.15.* (peptidyl-dipeptidase) inhibitor role
-
-[Term]
 id: GOCHE:35469
 name: substance with antidepressant role
 subset: 3_STAR
@@ -150717,12 +150710,6 @@ subset: 3_STAR
 is_a: GOCHE:23888 ! substance with drug role
 
 [Term]
-id: GOCHE:35554
-name: substance with cardiovascular drug role
-subset: 3_STAR
-is_a: GOCHE:23888 ! substance with drug role
-
-[Term]
 id: GOCHE:35610
 name: substance with antineoplastic agent role
 subset: 3_STAR
@@ -150733,12 +150720,6 @@ id: GOCHE:35623
 name: substance with anticonvulsant role
 subset: 3_STAR
 is_a: GOCHE:35488 ! substance with central nervous system depressant role
-
-[Term]
-id: GOCHE:35674
-name: substance with antihypertensive agent role
-subset: 3_STAR
-is_a: GOCHE:35554 ! substance with cardiovascular drug role
 
 [Term]
 id: GOCHE:35703
@@ -150918,12 +150899,6 @@ is_a: GOCHE:22587 ! substance with antiviral agent role
 is_a: GOCHE:38234 ! substance with DNA polymerase inhibitor role
 
 [Term]
-id: GOCHE:60258
-name: substance with EC 3.4.* (hydrolases acting on peptide bond) inhibitor role
-subset: 3_STAR
-is_a: GOCHE:76759 ! substance with EC 3.* (hydrolase) inhibitor role
-
-[Term]
 id: GOCHE:60311
 name: substance with thyroid hormone role
 subset: 3_STAR
@@ -150970,18 +150945,6 @@ id: GOCHE:76741
 name: substance with EC 1.14.* (oxidoreductase acting on paired donors, with incorporation or reduction of molecular oxygen) inhibitor role
 subset: 3_STAR
 is_a: GOCHE:76725 ! substance with EC 1.* (oxidoreductase) inhibitor role
-
-[Term]
-id: GOCHE:76759
-name: substance with EC 3.* (hydrolase) inhibitor role
-subset: 3_STAR
-is_a: GOCHE:23924 ! substance with enzyme inhibitor role
-
-[Term]
-id: GOCHE:76782
-name: substance with EC 3.4.15.* (peptidyl-dipeptidase) inhibitor role
-subset: 3_STAR
-is_a: GOCHE:60258 ! substance with EC 3.4.* (hydrolases acting on peptide bond) inhibitor role
 
 [Term]
 id: GOCHE:76815
