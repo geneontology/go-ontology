@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-02-28/imports/ro_import.owl
+data-version: go/releases/2020-07-24/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -155,6 +155,13 @@ is_a: PATO:0000001 ! quality
 id: PATO:0002124
 name: laminar
 is_a: PATO:0000141 ! structure
+
+[Typedef]
+id: acts_on_population_of
+name: acts on population of
+def: "p acts on population of c iff c' is a collection, has members of type c, and p has participant c" []
+xref: RO:0012003
+is_a: has_participant ! has participant
 
 [Typedef]
 id: acts_upstream_of
@@ -705,7 +712,6 @@ def: "A 'has effector activity' B if A and B are GO molecular functions (GO_0003
 xref: RO:0002025
 is_functional: true
 is_a: has_component_activity ! has component activity
-is_a: regulates ! regulates
 
 [Typedef]
 id: has_end_location
@@ -740,7 +746,6 @@ id: has_ligand
 name: has ligand
 def: "A relationship that holds between between a receptor and an chemical entity, typically a small molecule or peptide, that carries information between cells or compartments of a cell and which binds the receptor and regulates its effector function." []
 xref: RO:0002019
-domain: GO:0004872
 is_a: has_input ! has input
 
 [Typedef]
@@ -1231,6 +1236,7 @@ holds_over_chain: ends_with regulates
 is_transitive: true
 is_a: causally_upstream_of ! causally upstream of
 inverse_of: regulated_by ! regulated by
+transitive_over: has_effector_activity ! has effector activity
 
 [Typedef]
 id: regulates_activity_of
