@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-07-05/imports/so_import.owl
+data-version: go/releases/2020-08-09/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -314,6 +314,7 @@ id: SO:0000673
 name: transcript
 namespace: sequence
 def: "An RNA synthesized on a DNA or RNA template by an RNA polymerase." [SO:ma]
+comment: Added relationship overlaps SO:0002300 unit_of_gene_expression with Mejia-Almonte et.al PMID:32665585 Aug 5, 2020.
 subset: SOFA
 synonym: "INSDC_feature:misc_RNA" BROAD []
 xref: http://en.wikipedia.org/wiki/RNA "wiki"
