@@ -19318,6 +19318,7 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:149304
 name: L-galactofuranose
+subset: chebi_ph7_3
 is_a: CHEBI:37618 ! L-galactose
 
 [Term]
@@ -19340,11 +19341,13 @@ is_a: CHEBI:35369 ! pentasaccharide
 [Term]
 id: CHEBI:149473
 name: (4R,5S)-dethiobiotin(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 
 [Term]
 id: CHEBI:149484
 name: chloroquine(2+)
+subset: chebi_ph7_3
 is_a: CHEBI:137982 ! tertiary ammonium ion
 is_a: CHEBI:52837 ! quinolinium ion
 
@@ -19356,31 +19359,37 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:149498
 name: (7Z,10Z,13Z,16Z)-docosatetraenoyl derivative
+subset: chebi_ph7_3
 is_a: CHEBI:61697 ! fatty acid derivative
 
 [Term]
 id: CHEBI:149499
 name: (7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl derivative
+subset: chebi_ph7_3
 is_a: CHEBI:61697 ! fatty acid derivative
 
 [Term]
 id: CHEBI:149500
 name: (4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl derivative
+subset: chebi_ph7_3
 is_a: CHEBI:61697 ! fatty acid derivative
 
 [Term]
 id: CHEBI:149502
 name: (4Z,7Z,10Z,13Z,16Z)-docosapentaenoyl derivative
+subset: chebi_ph7_3
 is_a: CHEBI:61697 ! fatty acid derivative
 
 [Term]
 id: CHEBI:149509
 name: candesartan(2-)
+subset: chebi_ph7_3
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 
 [Term]
 id: CHEBI:149540
 name: 5-deoxy-D-ribofuranose
+subset: chebi_ph7_3
 is_a: CHEBI:23635 ! deoxypentose
 
 [Term]
@@ -19407,16 +19416,19 @@ is_a: CHEBI:33566 ! catechols
 [Term]
 id: CHEBI:149673
 name: (1S,2R)-ephedrine(1+)
+subset: chebi_ph7_3
 is_a: CHEBI:35274 ! ammonium ion derivative
 
 [Term]
 id: CHEBI:149689
 name: D-dopa zwitterion
+subset: chebi_ph7_3
 is_a: CHEBI:35238 ! amino acid zwitterion
 
 [Term]
 id: CHEBI:149690
 name: N-(fatty acyl)-L-phenylalanine(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:136716 ! N-(fatty acyl)-L-alpha-amino acid anion
 relationship: has_part CHEBI:28868 ! fatty acid anion
 relationship: has_part CHEBI:58095 ! L-phenylalanine zwitterion
@@ -19431,35 +19443,41 @@ is_a: CHEBI:38179 ! monocyclic heteroarene
 [Term]
 id: CHEBI:149737
 name: N-(fatty acyl)-L-methionine(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:136716 ! N-(fatty acyl)-L-alpha-amino acid anion
 is_a: CHEBI:84121 ! L-methionine derivative
 
 [Term]
 id: CHEBI:149740
 name: N-(fatty acyl)-L-leucine(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:136716 ! N-(fatty acyl)-L-alpha-amino acid anion
 is_a: CHEBI:25018 ! L-leucine derivative
 
 [Term]
 id: CHEBI:149741
 name: N-(fatty acyl)-L-isoleucine(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:136716 ! N-(fatty acyl)-L-alpha-amino acid anion
 is_a: CHEBI:84111 ! L-isoleucine derivative
 
 [Term]
 id: CHEBI:149742
 name: N-(fatty acyl)-glycine(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:57670 ! N-acylglycinate
 
 [Term]
 id: CHEBI:149743
 name: N-(fatty acyl)-L-glutamine(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:136716 ! N-(fatty acyl)-L-alpha-amino acid anion
 is_a: CHEBI:87584 ! N(2)-acyl-L-glutaminate
 
 [Term]
 id: CHEBI:149759
 name: 2-methyl-L-serine zwitterion
+subset: chebi_ph7_3
 is_a: CHEBI:35238 ! amino acid zwitterion
 
 [Term]
@@ -19481,6 +19499,7 @@ is_a: CHEBI:50215 ! dihydrocarveol
 [Term]
 id: CHEBI:150013
 name: emodin anthrone
+subset: chebi_ph7_3
 is_a: CHEBI:146281 ! anthracenone
 is_a: CHEBI:33853 ! phenols
 relationship: has_role CHEBI:76946 ! fungal metabolite
