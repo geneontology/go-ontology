@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-05-22/imports/uberon_import.owl
+data-version: go/releases/2020-07-03/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -1750,7 +1750,7 @@ relationship: part_of UBERON:0001893 ! telencephalon
 [Term]
 id: UBERON:0000204
 name: ventral part of telencephalon
-def: "Dorsal part (base region) of the telencephalon." []
+def: "Ventral part (base region) of the telencephalon." []
 synonym: "area ventralis telencephali" EXACT []
 synonym: "subpallium" EXACT []
 synonym: "subpallium" NARROW []
@@ -3070,7 +3070,7 @@ synonym: "tissue fluid" EXACT []
 is_a: UBERON:0000463 ! organism substance
 relationship: only_in_taxon NCBITaxon:6072
 relationship: part_of UBERON:0000479 ! tissue
-relationship: surrounds GO:0005623
+relationship: surrounds CL:0000000
 
 [Term]
 id: UBERON:0000914
@@ -3116,7 +3116,7 @@ synonym: "chorion" RELATED []
 synonym: "chorion (egg)" EXACT []
 is_a: CARO:0000000
 is_a: UBERON:0000476 ! acellular anatomical structure
-disjoint_from: UBERON:0003124 ! chorion
+disjoint_from: UBERON:0003124 ! chorion membrane
 relationship: only_in_taxon NCBITaxon:6072
 relationship: part_of UBERON:0016887 ! entire extraembryonic component
 relationship: surrounds UBERON:0003125 ! vitelline membrane
@@ -6695,6 +6695,7 @@ name: peritoneal fluid
 def: "Transudate contained in the peritoneal cavity." []
 is_a: UBERON:0007779 ! transudate
 is_a: UBERON:0007794 ! secretion of serous gland
+is_a: UBERON:0036217 ! coelomic fluid
 intersection_of: UBERON:0007779 ! transudate
 intersection_of: located_in UBERON:0001179 ! peritoneal cavity
 relationship: located_in UBERON:0001179 ! peritoneal cavity
@@ -11990,7 +11991,7 @@ synonym: "trachea epithelium" EXACT []
 synonym: "tracheal epithelium" EXACT []
 synonym: "windpipe epithelial tissue" EXACT []
 synonym: "windpipe epithelium" EXACT []
-is_a: UBERON:0004815 ! lower respiratory tract epithelium
+is_a: UBERON:0008397 ! tracheobronchial epithelium
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: part_of UBERON:0003126 ! trachea
 relationship: contributes_to_morphology_of UBERON:0003126 ! trachea
@@ -12802,7 +12803,7 @@ is_a: UBERON:0000062 ! organ
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0005156 ! reproductive structure
 relationship: develops_from UBERON:0000995 ! uterus
-relationship: develops_from UBERON:0003124 ! chorion
+relationship: develops_from UBERON:0003124 ! chorion membrane
 relationship: develops_from UBERON:0004340 ! allantois
 relationship: only_in_taxon NCBITaxon:32525
 relationship: part_of UBERON:0000474 ! female reproductive system
@@ -13155,7 +13156,7 @@ synonym: "epithelial tissue of bronchial trunk" EXACT []
 synonym: "epithelial tissue of bronchus" EXACT []
 synonym: "epithelium of bronchi" EXACT []
 synonym: "epithelium of bronchial trunk" EXACT []
-is_a: UBERON:0004815 ! lower respiratory tract epithelium
+is_a: UBERON:0008397 ! tracheobronchial epithelium
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: part_of UBERON:0002185 ! bronchus
 relationship: contributes_to_morphology_of UBERON:0002185 ! bronchus
@@ -13260,8 +13261,8 @@ def: "A large raphe nucleus extending from the anterior part of the pons through
 synonym: "cell group b7" EXACT []
 synonym: "dorsal nucleus of the raphe" EXACT []
 synonym: "dorsal nucleus raphe" EXACT []
-synonym: "dorsal raphC)" RELATED []
 synonym: "dorsal raphe" EXACT []
+synonym: "dorsal raphé" RELATED []
 synonym: "DR" BROAD []
 synonym: "DRN" BROAD []
 synonym: "inferior raphe nucleus" EXACT []
@@ -13310,7 +13311,7 @@ relationship: part_of UBERON:0004684 ! raphe nuclei
 [Term]
 id: UBERON:0002048
 name: lung
-def: "Respiration organ that develops as an oupocketing of the esophagus." []
+def: "Respiration organ that develops as an outpocketing of the esophagus." []
 synonym: "pulmo" EXACT []
 is_a: UBERON:0000171 ! respiration organ
 is_a: UBERON:0004119 ! endoderm-derived structure
@@ -15570,7 +15571,7 @@ relationship: part_of UBERON:0002240 ! spinal cord
 [Term]
 id: UBERON:0002319
 name: mesangium
-def: "inner layer of the glomerulus, within the basement membrane surrounding the glomerular capillaries." []
+def: "The inner layer of the glomerulus, within the basement membrane surrounding the glomerular capillaries." []
 is_a: UBERON:0000119 ! cell layer
 is_a: UBERON:0004120 ! mesoderm-derived structure
 intersection_of: UBERON:0000119 ! cell layer
@@ -15580,11 +15581,12 @@ relationship: composed_primarily_of CL:0000650
 relationship: located_in UBERON:0005777 ! glomerular basement membrane
 relationship: part_of UBERON:0000074 ! renal glomerulus
 relationship: part_of UBERON:0005215 ! kidney interstitium
+relationship: surrounds UBERON:0004212 ! glomerular capillary
 
 [Term]
 id: UBERON:0002320
 name: glomerular mesangium
-def: "A thin membrane which helps to support the capillary loops in a renal glomerulus. It is connective tissue composed of mesangial cells - myofibroblasts phenotypically related to vascular smooth muscle cells (MUSCLE, SMOOTH, VASCULAR), PHAGOCYTES and the mesangial EXTRACELLULAR MATRIX." []
+def: "A thin membrane which helps to support the capillary loops in a renal glomerulus. It is connective tissue composed of mesangial cells - myofibroblasts phenotypically related to vascular smooth muscle cells (muscle, smooth, vascular), phagocytes and the mesangial extracellular matrix." []
 is_a: UBERON:0003891 ! stroma
 is_a: UBERON:0004120 ! mesoderm-derived structure
 relationship: contributes_to_morphology_of UBERON:0000074 ! renal glomerulus
@@ -16694,6 +16696,7 @@ id: UBERON:0002409
 name: pericardial fluid
 def: "Transudate contained in the pericardial cavity.[FMA]" []
 is_a: UBERON:0007794 ! secretion of serous gland
+is_a: UBERON:0036217 ! coelomic fluid
 intersection_of: UBERON:0000463 ! organism substance
 intersection_of: produced_by UBERON:0002425 ! visceral serous pericardium
 relationship: located_in UBERON:0001074 ! pericardial cavity
@@ -17424,7 +17427,6 @@ synonym: "coronal suture of skull" EXACT []
 synonym: "fronto-parietal suture" EXACT []
 synonym: "frontoparietal suture" EXACT []
 synonym: "sutura coronalis" RELATED []
-is_a: CARO:0000000
 is_a: UBERON:0003685 ! cranial suture
 intersection_of: UBERON:0003685 ! cranial suture
 intersection_of: connects UBERON:0000209 ! tetrapod frontal bone
@@ -17455,7 +17457,6 @@ def: "the dense, fibrous connective tissue joint between the parietal bones and 
 synonym: "lambdoid suture of skull" EXACT []
 synonym: "lambdoidal suture" RELATED []
 synonym: "sutura lambdoidea" RELATED []
-is_a: CARO:0000000
 is_a: UBERON:0003685 ! cranial suture
 intersection_of: UBERON:0003685 ! cranial suture
 intersection_of: connects UBERON:0000210 ! tetrapod parietal bone
@@ -17472,7 +17473,6 @@ name: sagittal suture
 def: "the dense, fibrous connective tissue joint between the tetrapod parietal bones" []
 synonym: "sagittal suture of skull" EXACT []
 synonym: "sutura sagittalis" RELATED []
-is_a: CARO:0000000
 is_a: UBERON:0003685 ! cranial suture
 intersection_of: UBERON:0003685 ! cranial suture
 intersection_of: connects UBERON:0000210 {minCardinality="2", maxCardinality="2"} ! tetrapod parietal bone
@@ -20017,8 +20017,9 @@ relationship: part_of UBERON:0003117 ! pharyngeal arch 6
 
 [Term]
 id: UBERON:0003124
-name: chorion
+name: chorion membrane
 def: "the outermost extraembryonic membrane" []
+synonym: "chorion" EXACT []
 synonym: "chorion (vertebrates)" EXACT []
 synonym: "chorion frondosum" RELATED []
 synonym: "chorionic sac" RELATED []
@@ -20613,9 +20614,9 @@ is_a: UBERON:0000478 ! extraembryonic structure
 is_a: UBERON:0007524 ! dense mesenchyme tissue
 is_a: UBERON:0010333 ! extraembryonic membrane mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
-intersection_of: part_of UBERON:0003124 ! chorion
+intersection_of: part_of UBERON:0003124 ! chorion membrane
 relationship: develops_from UBERON:0004871 ! somatic layer of lateral plate mesoderm
-relationship: part_of UBERON:0003124 ! chorion
+relationship: part_of UBERON:0003124 ! chorion membrane
 
 [Term]
 id: UBERON:0003267
@@ -21789,9 +21790,9 @@ synonym: "chorionic epithelium" RELATED []
 is_a: UBERON:0000478 ! extraembryonic structure
 intersection_of: UBERON:0000478 ! extraembryonic structure
 intersection_of: develops_from UBERON:0000924 ! ectoderm
-intersection_of: part_of UBERON:0003124 ! chorion
+intersection_of: part_of UBERON:0003124 ! chorion membrane
 relationship: develops_from UBERON:0000924 ! ectoderm
-relationship: part_of UBERON:0003124 ! chorion
+relationship: part_of UBERON:0003124 ! chorion membrane
 
 [Term]
 id: UBERON:0003379
@@ -22003,6 +22004,7 @@ synonym: "large bowel mesentery" EXACT []
 synonym: "large intestinal mesentery" EXACT []
 synonym: "mesentery of large bowel" EXACT []
 synonym: "mesentery of large intestine" EXACT []
+synonym: "mesocolon" EXACT []
 is_a: UBERON:0003335 ! serosa of colon
 is_a: UBERON:0004854 ! gastrointestinal system mesentery
 is_a: UBERON:0007826 ! peritoneal mesentery
@@ -26994,8 +26996,8 @@ name: chorionic plate
 def: "That portion of the chorionic wall in the region of its uterine attachment, which gives rise to chorionic villi; it consists of the mesoderm that lines the chorionic vesicle and, on the maternal side, of the trophoblast that lines the intervillous spaces; in the last half of gestation, the mesodermal connective tissue is largely replaced by fibrinoid material, and the amnionic membrane is adherent to the fetal side of the plate." []
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0005292 ! extraembryonic tissue
-relationship: contributes_to_morphology_of UBERON:0003124 ! chorion
-relationship: part_of UBERON:0003124 ! chorion
+relationship: contributes_to_morphology_of UBERON:0003124 ! chorion membrane
+relationship: part_of UBERON:0003124 ! chorion membrane
 
 [Term]
 id: UBERON:0004035
@@ -28325,7 +28327,6 @@ id: UBERON:0004209
 name: renal vesicle
 def: "The renal vesicle is the primordial structure of the nephron epithelium, and is formed by the condensation of mesenchymal cells." []
 synonym: "stage I nephron" EXACT []
-is_a: CARO:0000000
 is_a: CARO:0000003
 is_a: UBERON:0007503 ! epithelial vesicle
 relationship: developmentally_induced_by UBERON:0000084 ! ureteric bud
@@ -29670,7 +29671,6 @@ def: "multilayered ectodermal region at the distal tip of a limb or fin bud nece
 synonym: "AER" RELATED []
 synonym: "apical epidermal ridge" EXACT []
 synonym: "crista ectodermalis apicalis" RELATED []
-is_a: CARO:0000000
 is_a: CARO:0000003
 is_a: UBERON:0002050 ! embryonic structure
 relationship: capable_of GO:0010464
@@ -32150,8 +32150,7 @@ synonym: "wall of heart ventricle" EXACT []
 synonym: "wall of lower chamber of heart" EXACT []
 synonym: "wall of ventricle" RELATED []
 synonym: "wall of ventricle of heart" EXACT []
-is_a: UBERON:0000060 ! anatomical wall
-is_a: UBERON:0004120 ! mesoderm-derived structure
+is_a: UBERON:0037144 ! wall of heart
 intersection_of: UBERON:0000060 ! anatomical wall
 intersection_of: part_of UBERON:0002082 ! cardiac ventricle
 relationship: part_of UBERON:0002082 ! cardiac ventricle
@@ -35718,6 +35717,7 @@ id: UBERON:0005178
 name: thoracic cavity element
 def: "An organ or element that is in the thoracic cavity. Examples: lung, heart, longus colli." []
 synonym: "thoracic cavity organ" EXACT []
+is_a: UBERON:0002075 ! viscus
 is_a: UBERON:0005181 ! thoracic segment organ
 intersection_of: UBERON:0000062 ! organ
 intersection_of: located_in UBERON:0002224 ! thoracic cavity
@@ -35864,7 +35864,9 @@ def: "a tubuloacinar seromucous gland that is located principally in the submuco
 synonym: "glandula trachealis" EXACT []
 synonym: "tracheal gland" EXACT []
 synonym: "tubular seromucous gland of trachea" RELATED []
+is_a: UBERON:0004119 ! endoderm-derived structure
 is_a: UBERON:0011148 ! submucosal gland
+is_a: UBERON:0036225 ! respiratory system gland
 intersection_of: UBERON:0011148 ! submucosal gland
 intersection_of: has_part CL:0000159
 intersection_of: part_of UBERON:0002202 ! submucosa of trachea
@@ -40991,10 +40993,10 @@ def: "A portion of organism substance that is secreted by a female reproductive 
 synonym: "female reproductive system fluid" RELATED []
 synonym: "female reproductive system fluid/secretion" EXACT []
 synonym: "female reproductive system secretion" RELATED []
-is_a: UBERON:0000463 ! organism substance
+is_a: UBERON:0022293 ! reproductive gland secretion
 intersection_of: UBERON:0000463 ! organism substance
-intersection_of: produced_by UBERON:0000474 ! female reproductive system
-relationship: produced_by UBERON:0000474 ! female reproductive system
+intersection_of: produced_by UBERON:0005398 ! female reproductive gland
+relationship: produced_by UBERON:0005398 ! female reproductive gland
 
 [Term]
 id: UBERON:0006538
@@ -42726,7 +42728,7 @@ synonym: "villous of placenta" RELATED []
 is_a: UBERON:0000478 ! extraembryonic structure
 is_a: UBERON:0002050 ! embryonic structure
 relationship: develops_from UBERON:0004027 ! chorionic plate
-relationship: part_of UBERON:0003124 ! chorion
+relationship: part_of UBERON:0003124 ! chorion membrane
 
 [Term]
 id: UBERON:0007119
@@ -44911,6 +44913,16 @@ intersection_of: part_of UBERON:0000310 ! breast
 relationship: part_of UBERON:0000310 ! breast
 
 [Term]
+id: UBERON:0008397
+name: tracheobronchial epithelium
+def: "Epithelium pertaining to the trachea and bronchi." []
+synonym: "bronchotracheal epithelium" RELATED []
+is_a: UBERON:0004815 ! lower respiratory tract epithelium
+intersection_of: UBERON:0000483 ! epithelium
+intersection_of: part_of UBERON:0007196 ! tracheobronchial tree
+relationship: part_of UBERON:0007196 ! tracheobronchial tree
+
+[Term]
 id: UBERON:0008404
 name: proximal tubular epithelium
 def: "The cells lining the proximal tubule are cuboidal epithelial cells with deep basal membrane invaginations that provide a large basal surface area. The long microvilli (the brush border) lining the tubule lumen, maximize luminal surface area and make these cells ideally suited for both reabsorptive and secretory functions." []
@@ -45690,7 +45702,7 @@ synonym: "esophageal gland" EXACT []
 synonym: "glandulae oesophageae" EXACT []
 synonym: "mucous gland of submucosa of esophagus" EXACT []
 is_a: UBERON:0003408 ! gland of digestive tract
-is_a: UBERON:0005181 ! thoracic segment organ
+is_a: UBERON:0005178 ! thoracic cavity element
 is_a: UBERON:0011148 ! submucosal gland
 intersection_of: UBERON:0011148 ! submucosal gland
 intersection_of: part_of UBERON:0001043 ! esophagus
@@ -47847,7 +47859,7 @@ synonym: "multicellular structure" EXACT []
 is_a: UBERON:0000061 ! anatomical structure
 intersection_of: UBERON:0000061 ! anatomical structure
 intersection_of: has_quality PATO:0001993
-relationship: has_part GO:0005623
+relationship: has_part CL:0000000
 relationship: has_quality PATO:0001993
 
 [Term]
@@ -49883,7 +49895,6 @@ synonym: "induced blastemal cells" EXACT []
 synonym: "nephrogenic interstitium" RELATED []
 synonym: "nephrogenic interstitium of nephrogenic zone" EXACT []
 synonym: "peripheral blastema" RELATED []
-is_a: CARO:0000000
 is_a: CARO:0000003
 is_a: UBERON:0005423 ! developing anatomical structure
 relationship: developmentally_induced_by UBERON:0000084 ! ureteric bud
@@ -51208,13 +51219,10 @@ id: UBERON:0011148
 name: submucosal gland
 def: "Gland of the lamina epithelialis mucosae which perforate the lamina muscularis, with their adenomeres located in the submucosal connective tissue." []
 is_a: UBERON:0000414 ! mucous gland
-is_a: UBERON:0004119 ! endoderm-derived structure
-is_a: UBERON:0036225 ! respiratory system gland
 intersection_of: UBERON:0000414 ! mucous gland
 intersection_of: located_in UBERON:0000009 ! submucosa
 relationship: continuous_with UBERON:0003350 ! epithelium of mucosa
 relationship: located_in UBERON:0000009 ! submucosa
-relationship: part_of UBERON:0003126 ! trachea
 
 [Term]
 id: UBERON:0011156
@@ -55758,7 +55766,6 @@ synonym: "crural diaphragm" EXACT []
 synonym: "crus of the diaphragm" RELATED []
 synonym: "diaphragm crura" RELATED []
 synonym: "diaphragmatic crura" RELATED []
-is_a: CARO:0000000
 is_a: CARO:0000003
 is_a: UBERON:0000063 ! organ subunit
 relationship: attaches_to UBERON:0001130 ! vertebral column
@@ -56950,6 +56957,7 @@ relationship: part_of UBERON:0001264 ! pancreas
 id: UBERON:0015458
 name: mediastinal fat pad
 def: "A fat pad that is part of a mediastinum." []
+is_a: UBERON:0003593 ! thoracic cavity connective tissue
 is_a: UBERON:0003916 ! fat pad
 intersection_of: UBERON:0003916 ! fat pad
 intersection_of: located_in UBERON:0003728 ! mediastinum
@@ -60208,6 +60216,7 @@ name: retroperitoneal lymph node
 def: "A lymph node located in the retroperitoneal space." []
 synonym: "retroperitoneal node" EXACT []
 is_a: UBERON:0000029 ! lymph node
+is_a: UBERON:0002075 ! viscus
 intersection_of: UBERON:0000029 ! lymph node
 intersection_of: located_in UBERON:0003693 ! retroperitoneal space
 relationship: located_in UBERON:0003693 ! retroperitoneal space
@@ -60719,6 +60728,7 @@ id: UBERON:0035820
 name: peritoneal sac
 def: "A serous sac that is the aggregate of the peritoneum and the peritoneal cavity, located in the abdominal cavity." []
 synonym: "peritoneal component" RELATED []
+is_a: UBERON:0002075 ! viscus
 is_a: UBERON:0005906 ! serous sac
 relationship: has_part UBERON:0001179 ! peritoneal cavity
 relationship: has_part UBERON:0002358 ! peritoneum
@@ -60778,7 +60788,6 @@ name: costal diaphragm
 def: "The domain of the diaphragm that is a thin domed sheet of muscle composed of a radial array of myofibers extending laterally from the ribs and medially to a central tendon." []
 synonym: "costal part of diaphragm" EXACT []
 synonym: "pars costalis diaphragmatis" EXACT []
-is_a: CARO:0000000
 is_a: CARO:0000003
 is_a: UBERON:0000063 ! organ subunit
 is_a: UBERON:0015212 ! lateral structure
@@ -61231,6 +61240,247 @@ id: UBERON:0036304
 name: anatomical border
 def: "An anatomical structure that is located along the line dividing two regions of an anatomical structure." []
 is_a: UBERON:0000061 ! anatomical structure
+
+[Term]
+id: UBERON:0036328
+name: wall of coronary artery
+synonym: "coronary arterial wall" EXACT []
+is_a: UBERON:0000415 ! artery wall
+is_a: UBERON:0037144 ! wall of heart
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0001621 ! coronary artery
+relationship: part_of UBERON:0001621 ! coronary artery
+
+[Term]
+id: UBERON:0036343
+name: wall of gallbladder
+synonym: "gallbladder wall" EXACT []
+is_a: UBERON:0003697 ! abdominal wall
+is_a: UBERON:0004119 ! endoderm-derived structure
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0002110 ! gall bladder
+relationship: part_of UBERON:0002110 ! gall bladder
+
+[Term]
+id: UBERON:0036351
+name: wall of brachiocephalic artery
+synonym: "brachiocephalic arterial wall" EXACT []
+is_a: UBERON:0000415 ! artery wall
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0001529 ! brachiocephalic artery
+relationship: part_of UBERON:0001529 ! brachiocephalic artery
+
+[Term]
+id: UBERON:0036352
+name: wall of subclavian artery
+synonym: "subclavian arterial wall" EXACT []
+is_a: UBERON:0000415 ! artery wall
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0001533 ! subclavian artery
+relationship: part_of UBERON:0001533 ! subclavian artery
+
+[Term]
+id: UBERON:0036362
+name: wall of anal canal
+synonym: "anal canal wall" EXACT []
+is_a: UBERON:0001169 ! wall of large intestine
+is_a: UBERON:0004121 ! ectoderm-derived structure
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0000159 ! anal canal
+intersection_of: part_of UBERON:0001007 ! digestive system
+relationship: part_of UBERON:0000159 ! anal canal
+
+[Term]
+id: UBERON:0036375
+name: wall of right ureter
+synonym: "right ureteral wall" EXACT []
+is_a: UBERON:0009916 ! wall of ureter
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0001222 ! right ureter
+relationship: part_of UBERON:0001222 ! right ureter
+
+[Term]
+id: UBERON:0036376
+name: wall of left ureter
+synonym: "left ureteral wall" EXACT []
+is_a: UBERON:0009916 ! wall of ureter
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0001223 ! left ureter
+relationship: part_of UBERON:0001223 ! left ureter
+
+[Term]
+id: UBERON:0036422
+name: wall of pulmonary artery
+synonym: "pulmonary arterial wall" EXACT []
+is_a: UBERON:0000415 ! artery wall
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0002012 ! pulmonary artery
+relationship: part_of UBERON:0002012 ! pulmonary artery
+
+[Term]
+id: UBERON:0036441
+name: wall of uterine tube
+synonym: "uterine tube wall" EXACT []
+synonym: "wall of fallopian tube" EXACT []
+synonym: "wall of oviduct" EXACT []
+is_a: UBERON:0000060 ! anatomical wall
+is_a: UBERON:0004120 ! mesoderm-derived structure
+is_a: UBERON:0005156 ! reproductive structure
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0003889 ! fallopian tube
+relationship: part_of UBERON:0003889 ! fallopian tube
+
+[Term]
+id: UBERON:0036521
+name: wall of urethra
+synonym: "urethral wall" EXACT []
+is_a: UBERON:0000060 ! anatomical wall
+is_a: UBERON:0004120 ! mesoderm-derived structure
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0000057 ! urethra
+relationship: part_of UBERON:0000057 ! urethra
+
+[Term]
+id: UBERON:0036523
+name: wall of vagina
+synonym: "vaginal wall" EXACT []
+is_a: UBERON:0000060 ! anatomical wall
+is_a: UBERON:0004120 ! mesoderm-derived structure
+is_a: UBERON:0005156 ! reproductive structure
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0000996 ! vagina
+relationship: part_of UBERON:0000996 ! vagina
+
+[Term]
+id: UBERON:0036553
+name: wall of synovial tendon sheath
+is_a: UBERON:0000042 ! serous membrane
+is_a: UBERON:0000060 ! anatomical wall
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0000304 ! tendon sheath
+relationship: part_of UBERON:0000304 ! tendon sheath
+
+[Term]
+id: UBERON:0036654
+name: wall of lateral ventricle
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+is_a: UBERON:0036661 ! wall of ventricular system of brain
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0002285 ! telencephalic ventricle
+relationship: part_of UBERON:0002285 ! telencephalic ventricle
+
+[Term]
+id: UBERON:0036656
+name: wall of third ventricle
+is_a: UBERON:0036661 ! wall of ventricular system of brain
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0002286 ! third ventricle
+relationship: part_of UBERON:0002286 ! third ventricle
+
+[Term]
+id: UBERON:0036657
+name: wall of fourth ventricle
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+is_a: UBERON:0036661 ! wall of ventricular system of brain
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0002422 ! fourth ventricle
+relationship: part_of UBERON:0002422 ! fourth ventricle
+
+[Term]
+id: UBERON:0036658
+name: wall of central canal of spinal cord
+synonym: "wall of central canal" EXACT []
+is_a: UBERON:0000060 ! anatomical wall
+is_a: UBERON:0004121 ! ectoderm-derived structure
+is_a: UBERON:0005358 ! ventricle of nervous system
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0002291 ! central canal of spinal cord
+relationship: part_of UBERON:0002291 ! central canal of spinal cord
+
+[Term]
+id: UBERON:0036661
+name: wall of ventricular system of brain
+is_a: UBERON:0000060 ! anatomical wall
+is_a: UBERON:0004121 ! ectoderm-derived structure
+is_a: UBERON:0005358 ! ventricle of nervous system
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0005282 ! ventricular system of brain
+relationship: part_of UBERON:0005282 ! ventricular system of brain
+
+[Term]
+id: UBERON:0036925
+name: wall of eyeball
+synonym: "eyeball wall" EXACT []
+is_a: UBERON:0000060 ! anatomical wall
+is_a: UBERON:0004121 ! ectoderm-derived structure
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0010230 ! eyeball of camera-type eye
+relationship: part_of UBERON:0010230 ! eyeball of camera-type eye
+
+[Term]
+id: UBERON:0037089
+name: wall of orbit
+synonym: "orbit wall" EXACT []
+is_a: UBERON:0000060 ! anatomical wall
+is_a: UBERON:0000075 ! subdivision of skeletal system
+is_a: UBERON:0010313 ! neural crest-derived structure
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0001697 ! orbit of skull
+relationship: part_of UBERON:0001697 ! orbit of skull
+
+[Term]
+id: UBERON:0037094
+name: wall of common carotid artery
+synonym: "common carotid arterial wall" EXACT []
+is_a: UBERON:0000415 ! artery wall
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0001530 ! common carotid artery plus branches
+relationship: part_of UBERON:0001530 ! common carotid artery plus branches
+
+[Term]
+id: UBERON:0037144
+name: wall of heart
+def: "wall of organ which has as its parts the endocardium, myocardium , epicardium, and the cardiac septum, surrounded by the pericardial sac proper and is continuous with the walls of the systemic and pulmonary arterial and venous trees." []
+synonym: "cardiac wall" EXACT []
+is_a: CARO:0000003
+is_a: UBERON:0000060 ! anatomical wall
+is_a: UBERON:0004120 ! mesoderm-derived structure
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0000948 ! heart
+relationship: attaches_to UBERON:0002406 ! pericardial sac
+relationship: attaches_to UBERON:0004292 ! cardiac skeleton
+relationship: part_of UBERON:0000948 ! heart
+
+[Term]
+id: UBERON:0037191
+name: wall of membranous labyrinth
+synonym: "membranous labyrinth wall" EXACT []
+is_a: UBERON:0000060 ! anatomical wall
+is_a: UBERON:0004121 ! ectoderm-derived structure
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0001849 ! membranous labyrinth
+relationship: part_of UBERON:0001849 ! membranous labyrinth
+
+[Term]
+id: UBERON:0037447
+name: wall of male urethra
+synonym: "male urethral wall" EXACT []
+is_a: UBERON:0036521 ! wall of urethra
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0001333 ! male urethra
+relationship: part_of UBERON:0001333 ! male urethra
+
+[Term]
+id: UBERON:0037455
+name: wall of female urethra
+synonym: "female urethral wall" EXACT []
+is_a: UBERON:0036521 ! wall of urethra
+intersection_of: UBERON:0000060 ! anatomical wall
+intersection_of: part_of UBERON:0001334 ! female urethra
+relationship: part_of UBERON:0001334 ! female urethra
 
 [Term]
 id: UBERON:1000004
@@ -62113,6 +62363,66 @@ name: anterior-posterior subdivision of organism
 is_a: UBERON:0000475 ! organism subdivision
 relationship: only_in_taxon NCBITaxon:50557
 
+[Term]
+id: UBERON:8000006
+name: left side of back
+def: "Left part of the organism dorsal to a horizontal plane and bounded on one side by the same transverse plane." []
+is_a: UBERON:0001137 ! dorsum
+is_a: UBERON:0015212 ! lateral structure
+intersection_of: UBERON:0001137 ! dorsum
+intersection_of: in_left_side_of UBERON:0000468 ! multicellular organism
+relationship: in_left_side_of UBERON:0000468 ! multicellular organism
+
+[Term]
+id: UBERON:8000007
+name: right side of back
+def: "Right part of the organism dorsal to a horizontal plane and bounded on one side by the same transverse plane." []
+is_a: UBERON:0001137 ! dorsum
+is_a: UBERON:0015212 ! lateral structure
+intersection_of: UBERON:0001137 ! dorsum
+intersection_of: in_right_side_of UBERON:0000468 ! multicellular organism
+relationship: in_right_side_of UBERON:0000468 ! multicellular organism
+
+[Term]
+id: UBERON:8300001
+name: right forelimb
+def: "A forelimb that is on the right side of a pectoral complex." []
+is_a: UBERON:0002102 ! forelimb
+is_a: UBERON:0015212 ! lateral structure
+intersection_of: UBERON:0002102 ! forelimb
+intersection_of: in_right_side_of UBERON:0010708 ! pectoral complex
+relationship: in_right_side_of UBERON:0010708 ! pectoral complex
+
+[Term]
+id: UBERON:8300002
+name: left forelimb
+def: "A forelimb that is on the left side of a pectoral complex." []
+is_a: UBERON:0002102 ! forelimb
+is_a: UBERON:0015212 ! lateral structure
+intersection_of: UBERON:0002102 ! forelimb
+intersection_of: in_left_side_of UBERON:0010708 ! pectoral complex
+relationship: in_left_side_of UBERON:0010708 ! pectoral complex
+
+[Term]
+id: UBERON:8300003
+name: right hindlimb
+def: "A hindlimb that is on the right side of a pelvic complex." []
+is_a: UBERON:0002103 ! hindlimb
+is_a: UBERON:0015212 ! lateral structure
+intersection_of: UBERON:0002103 ! hindlimb
+intersection_of: in_right_side_of UBERON:0010709 ! pelvic complex
+relationship: in_right_side_of UBERON:0010709 ! pelvic complex
+
+[Term]
+id: UBERON:8300004
+name: left hindlimb
+def: "A hindlimb that is on the left side of a pelvic complex." []
+is_a: UBERON:0002103 ! hindlimb
+is_a: UBERON:0015212 ! lateral structure
+intersection_of: UBERON:0002103 ! hindlimb
+intersection_of: in_left_side_of UBERON:0010709 ! pelvic complex
+relationship: in_left_side_of UBERON:0010709 ! pelvic complex
+
 [Typedef]
 id: adjacent_to
 name: adjacent_to
@@ -62776,7 +63086,7 @@ is_a: functionally_related_to ! functionally related to
 [Typedef]
 id: participates_in
 name: participates in
-xref: BFO:0000056
+xref: RO:0000056
 
 [Typedef]
 id: postaxialmost_part_of
