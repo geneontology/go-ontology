@@ -13,7 +13,8 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/cl_import.owl" uri="imports/cl_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/ddanat_import.owl" uri="imports/ddanat_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/cl/cl-basic.owl" uri="mirror/cl-download.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/cl.owl" uri="mirror/cl.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/uberon.owl" uri="mirror/uberon.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/po_import.owl" uri="imports/po_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/caro_import.owl" uri="imports/caro_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/fao_import.owl" uri="imports/fao_import.owl"/>
@@ -41,4 +42,6 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/gorel.owl" uri="imports/gorel.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl" uri="imports/x-disjoint.owl"/>
 	<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl" uri="imports/reactome_xrefs_import.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-lego.owl" uri="extensions/go-lego.owl"/>
+  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/reacto.owl" uri="extensions/reacto.owl"/>
 </catalog>

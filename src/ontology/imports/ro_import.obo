@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-12-13/imports/ro_import.owl
+data-version: go/releases/2020-07-24/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -22,11 +22,6 @@ def: "A continuant that is a bearer of quality and realizable entity entities, i
 is_a: BFO:0000002 ! continuant
 disjoint_from: BFO:0000020 ! specifically dependent continuant
 relationship: part_of BFO:0000004 ! independent continuant
-
-[Term]
-id: BFO:0000006
-name: spatial region
-is_a: BFO:0000141 ! immaterial entity
 
 [Term]
 id: BFO:0000015
@@ -111,12 +106,6 @@ name: organism or virus or viroid
 is_a: BFO:0000040 ! material entity
 
 [Term]
-id: CARO:0010000
-name: multicellular anatomical structure
-is_a: CARO:0000003 ! connected anatomical structure
-relationship: directly_develops_from CARO:0010000 ! multicellular anatomical structure
-
-[Term]
 id: CARO:0030000
 name: biological entity
 is_a: BFO:0000004 ! independent continuant
@@ -125,7 +114,6 @@ is_a: BFO:0000004 ! independent continuant
 id: CL:0000000
 name: cell
 is_a: CARO:0000003 ! connected anatomical structure
-relationship: directly_develops_from CL:0000000 ! cell
 
 [Term]
 id: CL:0000540
@@ -169,37 +157,11 @@ name: laminar
 is_a: PATO:0000141 ! structure
 
 [Typedef]
-id: actively_participates_in
-name: actively participates in
-def: "x actively participates in y if and only if x participates in y and x realizes some active role" []
-xref: RO:0002217
-is_a: participates_in ! participates in
-inverse_of: obsolete_has_active_participant ! obsolete has active participant
-
-[Typedef]
-id: activity_directly_negatively_regulates_activity_of
-name: activity directly negatively regulates activity of
-def: "Holds between molecular entities A and B where A can physically interact with B and in doing so negatively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
-synonym: "molecularly decreases activity of" EXACT []
-xref: RO:0002449
-is_a: activity_directly_regulates_activity_of ! activity directly regulates activity of
-
-[Typedef]
-id: activity_directly_positively_regulates_activity_of
-name: activity directly positively regulates activity of
-def: "Holds between molecular entities A and B where A can physically interact with B and in doing so positively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
-synonym: "molecularly increases activity of" EXACT []
-xref: RO:0002450
-is_a: activity_directly_regulates_activity_of ! activity directly regulates activity of
-
-[Typedef]
-id: activity_directly_regulates_activity_of
-name: activity directly regulates activity of
-def: "Holds between molecular entities A and B where A can physically interact with B and in doing so regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A regulates the kinase activity of B." []
-synonym: "molecularly controls" EXACT []
-xref: RO:0002448
-is_a: causally_influences ! causally influences
-is_a: molecularly_interacts_with ! molecularly interacts with
+id: acts_on_population_of
+name: acts on population of
+def: "p acts on population of c iff c' is a collection, has members of type c, and p has participant c" []
+xref: RO:0012003
+is_a: has_participant ! has participant
 
 [Typedef]
 id: acts_upstream_of
@@ -325,11 +287,11 @@ is_a: causal_relation_between_material_entity_and_a_process ! causal relation be
 inverse_of: process_has_causal_agent ! process has causal agent
 
 [Typedef]
-id: causal_relation_between_material_entities
-name: causal relation between material entities
+id: causal_relation_between_entities
+name: causal relation between entities
 xref: RO:0002506
-domain: BFO:0000040 ! material entity
-range: BFO:0000040 ! material entity
+domain: BFO:0000002 ! continuant
+range: BFO:0000002 ! continuant
 is_a: causally_related_to ! causally related to
 
 [Typedef]
@@ -371,15 +333,17 @@ is_a: causal_relation_between_processes ! causal relation between processes
 id: causally_influenced_by
 name: causally influenced by
 xref: RO:0002559
-is_a: causal_relation_between_material_entities ! causal relation between material entities
+is_a: causal_relation_between_entities ! causal relation between entities
 inverse_of: causally_influences ! causally influences
 
 [Typedef]
 id: causally_influences
 name: causally influences
-def: "Holds between materal entities a and b if the activity of a is causally upstream of the activity of b, or causally upstream of a an activity that modifies b" []
+def: "The entity or characteristic A is causally upstream of the entity or characteristic B, A having an effect on B. An entity corresponds to any biological type of entity as long as a mass is measurable. A characteristic corresponds to a particular specificity of an entity (e.g., phenotype, shape, size)." []
 xref: RO:0002566
-is_a: causal_relation_between_material_entities ! causal relation between material entities
+domain: BFO:0000002 ! continuant
+range: BFO:0000002 ! continuant
+is_a: causal_relation_between_entities ! causal relation between entities
 
 [Typedef]
 id: causally_related_to
@@ -440,20 +404,6 @@ xref: RO:0002008
 is_a: mereotopologically_related_to ! mereotopologically related to
 
 [Typedef]
-id: contained_in
-name: contained in
-xref: RO:0001018
-domain: BFO:0000040 ! material entity
-range: BFO:0000004 ! independent continuant
-holds_over_chain: located_in part_of
-inverse_of: contains ! contains
-
-[Typedef]
-id: contains
-name: contains
-xref: RO:0001019
-
-[Typedef]
 id: contains_process
 name: contains process
 def: "[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
@@ -508,23 +458,6 @@ is_a: developmentally_preceded_by ! developmentally preceded by
 inverse_of: develops_into ! develops into
 
 [Typedef]
-id: develops_from_part_of
-name: develops from part of
-def: "x develops from part of y if and only if there exists some z such that x develops from z and z is part of y" []
-xref: RO:0002225
-holds_over_chain: directly_develops_from part_of
-is_a: develops_from ! develops from
-
-[Typedef]
-id: develops_in
-name: develops in
-def: "x develops_in y if x is located in y whilst x is developing" []
-xref: RO:0002226
-domain: CARO:0000000 ! anatomical entity
-holds_over_chain: directly_develops_from located_in
-is_a: developmentally_preceded_by ! developmentally preceded by
-
-[Typedef]
 id: develops_into
 name: develops into
 def: "inverse of develops from" []
@@ -533,21 +466,6 @@ is_transitive: true
 is_a: developmentally_succeeded_by ! developmentally succeeded by
 is_a: has_potential_to_develop_into ! has potential to develop into
 is_a: has_potential_to_directly_develop_into ! has potential to directly develop into
-
-[Typedef]
-id: directly_develops_from
-name: directly develops from
-def: "Candidate definition: x directly_develops from y if and only if there exists some developmental process (GO:0032502) p such that x and y both participate in p, and x is the output of p and y is the input of p, and a substantial portion of the matter of x comes from y, and the start of x is coincident with or after the end of y." []
-xref: RO:0002207
-is_a: develops_from ! develops from
-inverse_of: directly_develops_into ! directly develops into
-
-[Typedef]
-id: directly_develops_into
-name: directly develops into
-def: "inverse of directly develops from" []
-xref: RO:0002210
-is_a: develops_into ! develops into
 
 [Typedef]
 id: directly_negatively_regulated_by
@@ -566,6 +484,16 @@ is_a: directly_regulates ! directly regulates
 is_a: negatively_regulates ! negatively regulates
 
 [Typedef]
+id: directly_negatively_regulates_activity_of
+name: directly negatively regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that negatively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
+synonym: "molecularly decreases activity of" EXACT []
+xref: RO:0002449
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: directly_regulates_activity_of ! directly regulates activity of
+
+[Typedef]
 id: directly_positively_regulated_by
 name: directly positively regulated by
 def: "Process(P2) is directly postively regulated by process(P1) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P2 is directly postively regulated by P1." []
@@ -582,6 +510,16 @@ is_a: directly_regulates ! directly regulates
 is_a: positively_regulates ! positively regulates
 
 [Typedef]
+id: directly_positively_regulates_activity_of
+name: directly positively regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that positively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
+synonym: "molecularly increases activity of" EXACT []
+xref: RO:0002450
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: directly_regulates_activity_of ! directly regulates activity of
+
+[Typedef]
 id: directly_regulated_by
 name: directly regulated by
 xref: RO:0002022
@@ -595,6 +533,17 @@ def: "Process(P1) directly regulates process(P2) iff: P1 regulates P2 via direct
 xref: RO:0002578
 is_a: immediately_causally_upstream_of ! immediately causally upstream of
 is_a: regulates ! regulates
+
+[Typedef]
+id: directly_regulates_activity_of
+name: directly regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that regulates an activity performed by B. For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.\n\nA and B can be physically interacting but not necessarily. Immediately upstream means there are no intermediate entity between A and B." []
+synonym: "molecularly controls" EXACT []
+xref: RO:0002448
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: molecularly_interacts_with ! molecularly interacts with
+is_a: regulates_activity_of ! regulates activity of
 
 [Typedef]
 id: during_which_ends
@@ -763,7 +712,6 @@ def: "A 'has effector activity' B if A and B are GO molecular functions (GO_0003
 xref: RO:0002025
 is_functional: true
 is_a: has_component_activity ! has component activity
-is_a: regulates ! regulates
 
 [Typedef]
 id: has_end_location
@@ -798,7 +746,6 @@ id: has_ligand
 name: has ligand
 def: "A relationship that holds between between a receptor and an chemical entity, typically a small molecule or peptide, that carries information between cells or compartments of a cell and which binds the receptor and regulates its effector function." []
 xref: RO:0002019
-domain: GO:0004872
 is_a: has_input ! has input
 
 [Typedef]
@@ -921,15 +868,6 @@ is_a: has_component_activity ! has component activity
 is_a: regulated_by ! regulated by
 
 [Typedef]
-id: has_role
-name: has role
-def: "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence" []
-xref: RO:0000087
-domain: BFO:0000004 ! independent continuant
-range: BFO:0000023 ! role
-is_a: bearer_of ! bearer of
-
-[Typedef]
 id: has_start_location
 name: has start location
 def: "x 'has starts location' y if and only if there exists some process z such that x 'starts with' z and z 'occurs in' y" []
@@ -954,19 +892,6 @@ def: "This relationship holds between p and l when p is a transport or localizat
 xref: RO:0002338
 is_a: results_in_transport_to_from_or_in ! results in transport to from or in
 transitive_over: part_of ! part of
-
-[Typedef]
-id: helper_property_(not_for_use_in_curation)
-name: helper property (not for use in curation)
-xref: RO:0002464
-
-[Typedef]
-id: immediate_transformation_of
-name: immediate transformation of
-def: "x immediate transformation of y iff x immediately succeeds y temporally at a time boundary t, and all of the matter present in x at t is present in y at t, and all the matter in y at t is present in x at t" []
-xref: RO:0002495
-is_a: directly_develops_from ! directly develops from
-is_a: transformation_of ! transformation of
 
 [Typedef]
 id: immediately_causally_downstream_of
@@ -1013,31 +938,13 @@ name: in taxon
 def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
 xref: RO:0002162
 range: CARO:0001010 ! organism or virus or viroid
-holds_over_chain: actively_participates_in in_taxon
 holds_over_chain: capable_of in_taxon
 holds_over_chain: develops_from in_taxon
-holds_over_chain: develops_from_part_of in_taxon
 holds_over_chain: has_developmental_contribution_from in_taxon
 holds_over_chain: has_part in_taxon
 holds_over_chain: part_of in_taxon
 holds_over_chain: results_in_developmental_progression_of in_taxon
 is_a: evolutionarily_related_to ! evolutionarily related to
-
-[Typedef]
-id: indirectly_activates
-name: indirectly activates
-def: "p directly activates q if and only if p is immediately upstream of q and p is the realization of a function to increase the rate or activity of q" []
-xref: RO:0002407
-holds_over_chain: indirectly_inhibits indirectly_inhibits
-is_transitive: true
-is_a: positively_regulates ! positively regulates
-
-[Typedef]
-id: indirectly_inhibits
-name: indirectly inhibits
-xref: RO:0002409
-is_transitive: true
-is_a: negatively_regulates ! negatively regulates
 
 [Typedef]
 id: inheres_in
@@ -1065,12 +972,6 @@ is_a: functionally_related_to ! functionally related to
 is_a: participates_in ! participates in
 
 [Typedef]
-id: interaction_relation_helper_property
-name: interaction relation helper property
-xref: RO:0002563
-is_a: helper_property_(not_for_use_in_curation) ! helper property (not for use in curation)
-
-[Typedef]
 id: interacts_with
 name: interacts with
 def: "A relationship that holds between two entities in which the processes executed by the two entities are causally connected." []
@@ -1086,8 +987,8 @@ name: involved in
 def: "c involved_in p if and only if c enables some process p', and p' is part of p" []
 xref: RO:0002331
 holds_over_chain: enables part_of
-is_a: actively_participates_in ! actively participates in
 is_a: involved_in_or_involved_in_regulation_of ! involved in or involved in regulation of
+is_a: participates_in ! participates in
 transitive_over: part_of ! part of
 
 [Typedef]
@@ -1138,69 +1039,10 @@ is_a: functionally_related_to ! functionally related to
 is_a: overlaps ! overlaps
 
 [Typedef]
-id: is_commensalism
-name: is commensalism
-xref: RO:0002466
-is_a: is_symbiosis ! is symbiosis
-
-[Typedef]
-id: is_kinase_activity
-name: is kinase activity
-xref: RO:0002481
-is_a: molecular_interaction_relation_helper_property ! molecular interaction relation helper property
-
-[Typedef]
-id: is_mutualism
-name: is mutualism
-xref: RO:0002467
-is_a: is_symbiosis ! is symbiosis
-
-[Typedef]
-id: is_parasitism
-name: is parasitism
-xref: RO:0002468
-is_a: is_symbiosis ! is symbiosis
-
-[Typedef]
-id: is_symbiosis
-name: is symbiosis
-xref: RO:0002465
-is_a: interaction_relation_helper_property ! interaction relation helper property
-
-[Typedef]
-id: is_ubiquitination
-name: is ubiquitination
-xref: RO:0002482
-is_a: molecular_interaction_relation_helper_property ! molecular interaction relation helper property
-
-[Typedef]
-id: located_in
-name: located in
-def: "a relation between two independent continuants, the target and the location, in which the target is entirely within the location" []
-xref: RO:0001025
-domain: BFO:0000004 ! independent continuant
-range: BFO:0000004 ! independent continuant
-is_transitive: true
-
-[Typedef]
-id: location_of
-name: location of
-def: "a relation between two independent continuants, the location and the target, in which the target is entirely within the location" []
-xref: RO:0001015
-is_transitive: true
-inverse_of: located_in ! located in
-
-[Typedef]
 id: mereotopologically_related_to
 name: mereotopologically related to
 def: "A mereological relationship or a topological relationship" []
 xref: RO:0002323
-
-[Typedef]
-id: molecular_interaction_relation_helper_property
-name: molecular interaction relation helper property
-xref: RO:0002564
-is_a: interaction_relation_helper_property ! interaction relation helper property
 
 [Typedef]
 id: molecularly_interacts_with
@@ -1226,14 +1068,6 @@ holds_over_chain: ends_with negatively_regulates
 is_a: causally_upstream_of,_negative_effect ! causally upstream of, negative effect
 is_a: regulates ! regulates
 inverse_of: negatively_regulated_by ! negatively regulated by
-
-[Typedef]
-id: obsolete_has_active_participant
-name: obsolete has active participant
-def: "x has participant y if and only if x realizes some active role that inheres in y" []
-xref: RO:0002218
-is_a: has_participant ! has participant
-is_obsolete: true
 
 [Typedef]
 id: occurs_across
@@ -1287,13 +1121,6 @@ xref: BFO:0000050
 is_transitive: true
 is_a: overlaps ! overlaps
 inverse_of: has_part ! has part
-
-[Typedef]
-id: part_of_developmental_precursor_of
-name: part of developmental precursor of
-xref: RO:0002287
-holds_over_chain: part_of directly_develops_into
-is_a: developmentally_succeeded_by ! developmentally succeeded by
 
 [Typedef]
 id: part_of_structure_that_is_capable_of
@@ -1409,6 +1236,16 @@ holds_over_chain: ends_with regulates
 is_transitive: true
 is_a: causally_upstream_of ! causally upstream of
 inverse_of: regulated_by ! regulated by
+transitive_over: has_effector_activity ! has effector activity
+
+[Typedef]
+id: regulates_activity_of
+name: regulates activity of
+def: "The entity A has an activity that regulates an activity of the entity B. For example, A and B are gene products where the catalytic activity of A regulates the kinase activity of B." []
+xref: RO:0011002
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: causally_influences ! causally influences
 
 [Typedef]
 id: regulates_levels_of
@@ -1585,21 +1422,6 @@ id: results_in_transport_to_from_or_in
 name: results in transport to from or in
 xref: RO:0002344
 is_a: related_via_localization_to ! related via localization to
-
-[Typedef]
-id: role_of
-name: role of
-def: "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence" []
-xref: RO:0000081
-is_a: inheres_in ! inheres in
-inverse_of: has_role ! has role
-
-[Typedef]
-id: spatially_coextensive_with
-name: spatially coextensive with
-def: "x spatially_coextensive_with y if and inly if x and y have the same location" []
-xref: RO:0002379
-is_a: overlaps ! overlaps
 
 [Typedef]
 id: spatially_disjoint_from

@@ -8125,4 +8125,65 @@ http://purl.obolibrary.org/obo/CHEBI_143197 ## culmorin
 http://purl.obolibrary.org/obo/CHEBI_10022 ## deoxynivalenol
 http://purl.obolibrary.org/obo/CHEBI_10106 ## zearalenone
 http://purl.obolibrary.org/obo/CHEBI_145656 ## galactoxylomannan
-
+http://purl.obolibrary.org/obo/CHEBI_142058 ## F2-isoprostane
+http://purl.obolibrary.org/obo/CHEBI_147341 ## fumigermin
+http://purl.obolibrary.org/obo/CHEBI_29179 ## tRNA(Ser)
+http://purl.obolibrary.org/obo/CHEBI_29176 ## tRNA(Gly)
+http://purl.obolibrary.org/obo/CHEBI_29175 ## tRNA(Glu)
+http://purl.obolibrary.org/obo/CHEBI_29178 ## tRNA(His)
+http://purl.obolibrary.org/obo/CHEBI_29177 ## tRNA(Pro)
+http://purl.obolibrary.org/obo/CHEBI_64024 ## beta-D-GlcpA-(1->3)-D-GlcpNAc
+http://purl.obolibrary.org/obo/CHEBI_29183 ## tRNA(Val)
+http://purl.obolibrary.org/obo/CHEBI_29182 ## tRNA(Tyr)
+http://purl.obolibrary.org/obo/CHEBI_29185 ## tRNA(Lys)
+http://purl.obolibrary.org/obo/CHEBI_29184 ## tRNA(Phe)
+http://purl.obolibrary.org/obo/CHEBI_62885 ## adenosine residue
+http://purl.obolibrary.org/obo/CHEBI_29181 ## tRNA(Trp)
+http://purl.obolibrary.org/obo/CHEBI_29180 ## tRNA(Thr)
+http://purl.obolibrary.org/obo/CHEBI_30737 ## trichloromethyl(.)
+http://purl.obolibrary.org/obo/CHEBI_73747 ## uridine residue
+http://purl.obolibrary.org/obo/CHEBI_10668 ## tRNA precursor
+http://purl.obolibrary.org/obo/CHEBI_29186 ## tRNA(Asp)
+http://purl.obolibrary.org/obo/CHEBI_29265 ## Asn-tRNA(Asn)
+http://purl.obolibrary.org/obo/CHEBI_29152 ## Cys-tRNA(Cys)
+http://purl.obolibrary.org/obo/CHEBI_17732 ## Ala-tRNA(Ala)
+http://purl.obolibrary.org/obo/CHEBI_16047 ## Lys-tRNA(Lys)
+http://purl.obolibrary.org/obo/CHEBI_74035 ## small nuclear RNA
+http://purl.obolibrary.org/obo/CHEBI_13170 ## Ser-tRNA(Sec)
+http://purl.obolibrary.org/obo/CHEBI_29158 ## Asp-tRNA(Asp)
+http://purl.obolibrary.org/obo/CHEBI_29157 ## Glu-tRNA(Glu)
+http://purl.obolibrary.org/obo/CHEBI_29159 ## Trp-tRNA(Trp)
+http://purl.obolibrary.org/obo/CHEBI_29154 ## Pro-tRNA(Pro)
+http://purl.obolibrary.org/obo/CHEBI_29153 ## Phe-tRNA(Phe)
+http://purl.obolibrary.org/obo/CHEBI_29156 ## Gly-tRNA(Gly)
+http://purl.obolibrary.org/obo/CHEBI_29155 ## His-tRNA(His)
+http://purl.obolibrary.org/obo/CHEBI_29161 ## Tyr-tRNA(Tyr)
+http://purl.obolibrary.org/obo/CHEBI_29160 ## Ile-tRNA(Ile)
+http://purl.obolibrary.org/obo/CHEBI_29163 ## Thr-tRNA(Thr)
+http://purl.obolibrary.org/obo/CHEBI_29162 ## Ser-tRNA(Ser)
+http://purl.obolibrary.org/obo/CHEBI_16635 ## Met-tRNA(Met)
+http://purl.obolibrary.org/obo/CHEBI_9100 ## Sem-tRNA(Met)
+http://purl.obolibrary.org/obo/CHEBI_53100 ## GMP 5'-end residue
+http://purl.obolibrary.org/obo/CHEBI_48621 ## Sep-tRNA(Sec)
+http://purl.obolibrary.org/obo/CHEBI_28879 ## 9-O-acetylneuraminic acid
+http://purl.obolibrary.org/obo/CHEBI_29169 ## tRNA(Leu)
+http://purl.obolibrary.org/obo/CHEBI_29168 ## tRNA(Gln)
+http://purl.obolibrary.org/obo/CHEBI_64654 ## guanosine residue
+http://purl.obolibrary.org/obo/CHEBI_29164 ## Val-tRNA(Val)
+http://purl.obolibrary.org/obo/CHEBI_29167 ## tRNA(Cys)
+http://purl.obolibrary.org/obo/CHEBI_29166 ## Gln-tRNA(Gln)
+http://purl.obolibrary.org/obo/CHEBI_29172 ## tRNA(Asn)
+http://purl.obolibrary.org/obo/CHEBI_29171 ## tRNA(Arg)
+http://purl.obolibrary.org/obo/CHEBI_29174 ## tRNA(Ile)
+http://purl.obolibrary.org/obo/CHEBI_64656 ## cytidine residue
+http://purl.obolibrary.org/obo/CHEBI_29173 ## tRNA(Met)
+http://purl.obolibrary.org/obo/CHEBI_16624 ## Leu-tRNA(Leu)
+http://purl.obolibrary.org/obo/CHEBI_17119 ## fMet-tRNA(fMet)
+http://purl.obolibrary.org/obo/CHEBI_29170 ## tRNA(Ala)
+http://purl.obolibrary.org/obo/CHEBI_55478 ## beta-GlcNAc-(1->4)-MurNAc-L-Ala-gamma-D-Glu-N(6)-(beta-D-Asp)-L-Lys-(D-Ala)2
+http://purl.obolibrary.org/obo/CHEBI_18366 ## Arg-tRNA(Arg)
+http://purl.obolibrary.org/obo/CHEBI_144729 ## L-beta-ethynylserine zwitterion
+http://purl.obolibrary.org/obo/CHEBI_2762 ## antimycin A
+http://purl.obolibrary.org/obo/CHEBI_41688 ## crystal violet
+http://purl.obolibrary.org/obo/CHEBI_77181 ## crystal violet cation
+http://purl.obolibrary.org/obo/CHEBI_149779 ## mannogen

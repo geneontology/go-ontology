@@ -11,4 +11,5 @@ http://purl.obolibrary.org/obo/CL_0001658 ## visual pigment cell (sensu Nematoda
 http://purl.obolibrary.org/obo/CL_0011013 ## motile sperm cell
 http://purl.obolibrary.org/obo/CL_0011014 ## non-motile sperm cell
 http://purl.obolibrary.org/obo/CL_0011015 ## amoeboid sperm cell
+http://purl.obolibrary.org/obo/CL_0005006 ## ionocyte
 http://purl.obolibrary.org/obo/CL_0011016 ## flagellated sperm cell

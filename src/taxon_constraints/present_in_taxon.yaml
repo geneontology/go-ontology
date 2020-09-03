@@ -1,0 +1,25 @@
+pattern_name: present_in_taxon
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/present_in_taxon
+description: "A class generated as a logical test that a term can be used in a taxon."
+
+classes:
+  thing: owl:Thing
+
+relations: 
+  in_taxon: RO:0002162
+
+vars:
+  term: thing
+  taxon: thing
+
+name:
+  text: "%s in %s"
+  vars:
+   - term
+   - taxon
+
+subClassOf:
+  text: "%s and ('in_taxon' some %s)"
+  vars:
+    - term
+    - taxon

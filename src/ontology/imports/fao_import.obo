@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-01-23/imports/fao_import.owl
+data-version: go/releases/2020-05-10/imports/fao_import.owl
 ontology: go/imports/fao_import
 
 [Term]
@@ -181,7 +181,7 @@ is_a: FAO:0000008 ! ascocarp
 id: FAO:0000048
 name: Hulle cell
 def: "A specialized multinucleate cell that originates from a nest-like aggregation of hyphae during sexual development. Hulle cells serve as nurse cells to the developing cleistothecium." []
-is_a: FAO:0000001 ! fungal structure
+is_a: FAO:0000018 ! unicellular structure
 relationship: develops_from FAO:0001001 ! hypha
 
 [Term]

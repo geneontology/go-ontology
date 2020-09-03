@@ -14,7 +14,6 @@ GO:0000329	fungal-type vacuole membrane	NCBITaxon:4751	Fungi
 GO:0000330	plant-type vacuole lumen	NCBITaxon:33090	Viridiplantae
 GO:0000345	cytosolic DNA-directed RNA polymerase complex	NCBITaxon:2	Bacteria
 GO:0000426	micropexophagy	NCBITaxon:716545	saccharomyceta
-GO:0000501	flocculation via cell wall protein-carbohydrate interaction	NCBITaxon:4751	Fungi
 GO:0000747	conjugation with cellular fusion	NCBITaxon:Union_0000022	Fungi or Dictyostelium
 GO:0000748	conjugation with mutual genetic exchange	NCBITaxon:5878	Ciliophora
 GO:0000749	response to pheromone triggering conjugation with cellular fusion	NCBITaxon:4751	Fungi
@@ -24,7 +23,7 @@ GO:0000755	cytogamy	NCBITaxon:4751	Fungi
 GO:0000911	cytokinesis by cell plate formation	NCBITaxon:33090	Viridiplantae
 GO:0000916	actomyosin contractile ring contraction	NCBITaxon:2759	Eukaryota
 GO:0000936	primary cell septum	NCBITaxon:2759	Eukaryota
-GO:0001017	bacterial-type RNA polymerase regulatory region DNA binding	NCBITaxon:2	Bacteria
+GO:0000984	bacterial-type RNA polymerase transcription regulatory region sequence-specific DNA binding	NCBITaxon:2	Bacteria
 GO:0001070	RNA-binding transcription regulator activity	NCBITaxon:10239	Viruses
 GO:0001070	RNA-binding transcription regulator activity	NCBITaxon:10239	virus
 GO:0001121	bacterial transcription	NCBITaxon:2	Bacteria
@@ -55,11 +54,9 @@ GO:0003341	cilium movement	NCBITaxon:2759	Eukaryota
 GO:0004694	eukaryotic translation initiation factor 2alpha kinase activity	NCBITaxon:2759	Eukaryota
 GO:0005183	gonadotropin hormone-releasing hormone activity	NCBITaxon:33208	Metazoa
 GO:0005212	structural constituent of eye lens	NCBITaxon:6072	Eumetazoa
-GO:0005213	structural constituent of chorion	NCBITaxon:6656	Arthropoda
 GO:0005214	structural constituent of chitin-based cuticle	NCBITaxon:6656	Arthropoda
 GO:0005521	lamin binding	NCBITaxon:33208	Metazoa
 GO:0005581	collagen trimer	NCBITaxon:33208	Metazoa
-GO:0005623	cell	NCBITaxon:131567	cellular organisms
 GO:0005628	prospore membrane	NCBITaxon:4890	Ascomycota
 GO:0005634	nucleus	NCBITaxon:2759	Eukaryota
 GO:0005739	mitochondrion	NCBITaxon:2759	Eukaryota
@@ -93,8 +90,6 @@ GO:0007297	ovarian follicle cell migration	NCBITaxon:50557	Insecta
 GO:0007299	ovarian follicle cell-cell adhesion	NCBITaxon:50557	Insecta
 GO:0007300	ovarian nurse cell to oocyte transport	NCBITaxon:50557	Insecta
 GO:0007301	female germline ring canal formation	NCBITaxon:50557	Insecta
-GO:0007304	chorion-containing eggshell formation	NCBITaxon:50557	Insecta
-GO:0007305	vitelline membrane formation involved in chorion-containing eggshell formation	NCBITaxon:50557	Insecta
 GO:0007338	single fertilization	NCBITaxon:2759	Eukaryota
 GO:0007400	neuroblast fate determination	NCBITaxon:33208	Metazoa
 GO:0007403	glial cell fate determination	NCBITaxon:33208	Metazoa
@@ -239,7 +234,6 @@ GO:0016490	structural constituent of peritrophic membrane	NCBITaxon:6656	Arthrop
 GO:0016543	male courtship behavior, orientation prior to leg tapping and wing vibration	NCBITaxon:6656	Arthropoda
 GO:0016544	male courtship behavior, tapping to detect pheromone	NCBITaxon:6656	Arthropoda
 GO:0016546	male courtship behavior, proboscis-mediated licking	NCBITaxon:6656	Arthropoda
-GO:0017145	stem cell division	NCBITaxon:33208	Metazoa
 GO:0018990	ecdysis, chitin-based cuticle	NCBITaxon:6656	Arthropoda
 GO:0019096	pole plasm mitochondrial lrRNA localization	NCBITaxon:6656	Arthropoda
 GO:0019097	pole plasm mitochondrial srRNA localization	NCBITaxon:6656	Arthropoda
@@ -476,8 +470,6 @@ GO:0048827	phyllome development	NCBITaxon:33090	Viridiplantae
 GO:0048829	root cap development	NCBITaxon:33090	Viridiplantae
 GO:0048838	release of seed from dormancy	NCBITaxon:33090	Viridiplantae
 GO:0048840	otolith development	NCBITaxon:7742	Vertebrata <Metazoa>
-GO:0048863	stem cell differentiation	NCBITaxon:33208	Metazoa
-GO:0048864	stem cell development	NCBITaxon:33208	Metazoa
 GO:0050845	teichuronic acid biosynthetic process	NCBITaxon:2	Bacteria
 GO:0050877	nervous system process	NCBITaxon:33208	Metazoa
 GO:0051077	secondary cell septum	NCBITaxon:2759	Eukaryota
@@ -640,7 +632,6 @@ GO:0047077	Photinus-luciferin 4-monooxygenase (ATP-hydrolyzing) activity	NCBITax
 GO:0061061	muscle structure development	NCBITaxon:6072	Eumetazoa
 GO:0009271	phage shock	NCBITaxon:2	Bacteria
 GO:0018189	pyrroloquinoline quinone biosynthetic process	NCBITaxon:2	Bacteria
-GO:0052000	type IV pili-dependent aggregation	NCBITaxon:Union_0000004	Prokaryota
 GO:0030034	microvillar actin bundle assembly	NCBITaxon:33208	Metazoa
 GO:0033693	neurofilament bundle assembly	NCBITaxon:33208	Metazoa
 GO:0002499	proteolysis within endosome associated with antigen processing and presentation	NCBITaxon:2759	Eukaryota
@@ -715,10 +706,6 @@ GO:0002227	innate immune response in mucosa	NCBITaxon:7711	Chordata
 GO:0002384	hepatic immune response	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0002388	immune response in Peyer's patch	NCBITaxon:32524	Amniota
 GO:0002389	tolerance induction in Peyer's patch	NCBITaxon:32524	Amniota
-GO:0003091	renal water homeostasis	NCBITaxon:7742	Vertebrata <Metazoa>
-GO:0003092	renal water retention	NCBITaxon:7742	Vertebrata <Metazoa>
-GO:0003096	renal sodium ion transport	NCBITaxon:7742	Vertebrata <Metazoa>
-GO:0003097	renal water transport	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0005214	structural constituent of chitin-based cuticle	NCBITaxon:6656	Arthropoda
 GO:0006264	mitochondrial DNA replication	NCBITaxon:2759	Eukaryota
 GO:0006390	mitochondrial transcription	NCBITaxon:2759	Eukaryota
@@ -786,6 +773,13 @@ GO:0042329	structural constituent of collagen and cuticulin-based cuticle	NCBITa
 GO:1990765	colon smooth muscle contraction	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0140384	metacyclogenesis	NCBITaxon:5654	Trypanosomatidae
 GO:0009870	defense response signaling pathway, resistance gene-dependent	NCBITaxon:33090	Viridiplantae
-GO:0010204	defense response signaling pathway, resistance gene-independent	NCBITaxon:33090	Viridiplantae
 GO:0150104	transport across blood-brain barrier	NCBITaxon:6072	Eumetazoa
 GO:0009236	cobalamin biosynthetic process	NCBITaxon:Union_0000004	Prokaryota
+GO:0006836	neurotransmitter transport	NCBITaxon:33208	Metazoa
+GO:0140446	fumigermin biosynthetic process	NCBITaxon:4751	Fungi
+GO:0036411	H-NS-Cnu complex	NCBITaxon:2	Bacteria
+GO:1990198	ModE complex	NCBITaxon:2	Bacteria
+GO:0052704	ergothioneine biosynthesis from histidine via gamma-glutamyl-hercynylcysteine sulfoxide	NCBITaxon:2	Bacteria
+GO:0140479	ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase	NCBITaxon:4751	Fungi
+GO:0140494	migrasome	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0140495	migracytosis	NCBITaxon:7742	Vertebrata <Metazoa>

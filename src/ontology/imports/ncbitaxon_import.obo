@@ -34,13 +34,14 @@ relationship: RO:0002162 NCBITaxon:1117 ! in taxon Cyanobacteria
 
 [Term]
 id: NCBITaxon:117565
-name: Hyperotreti
+name: Myxini
 synonym: "Agnatha" RELATED []
 synonym: "fish" EXACT []
 synonym: "fishes" EXACT []
+synonym: "Hyperotreti" RELATED []
 is_a: NCBITaxon:1476529 ! Cyclostomata
 disjoint_from: NCBITaxon:117569 ! Hyperoartia
-relationship: RO:0002162 NCBITaxon:117565 ! in taxon Hyperotreti
+relationship: RO:0002162 NCBITaxon:117565 ! in taxon Myxini
 
 [Term]
 id: NCBITaxon:117569
@@ -77,7 +78,14 @@ relationship: RO:0002162 NCBITaxon:119089 ! in taxon Chromadorea
 id: NCBITaxon:1206794
 name: Ecdysozoa
 is_a: NCBITaxon:33317 ! Protostomia
+disjoint_from: NCBITaxon:2697495 ! Spiralia
 relationship: RO:0002162 NCBITaxon:1206794 ! in taxon Ecdysozoa
+
+[Term]
+id: NCBITaxon:1206795
+name: Lophotrochozoa
+is_a: NCBITaxon:2697495 ! Spiralia
+relationship: RO:0002162 NCBITaxon:1206795 ! in taxon Lophotrochozoa
 
 [Term]
 id: NCBITaxon:1292243
@@ -158,9 +166,7 @@ relationship: RO:0002162 NCBITaxon:1437180 ! in taxon Acrogymnospermae
 [Term]
 id: NCBITaxon:1445966
 name: Gnetidae
-is_a: NCBITaxon:1437180 ! Acrogymnospermae
-disjoint_from: NCBITaxon:3312 ! Coniferophyta
-disjoint_from: NCBITaxon:58022 ! Gnetophyta
+is_a: NCBITaxon:3372 ! Gnetopsida
 relationship: RO:0002162 NCBITaxon:1445966 ! in taxon Gnetidae
 
 [Term]
@@ -260,22 +266,14 @@ relationship: RO:0002162 NCBITaxon:2058185 ! in taxon Dictyosteliaceae
 [Term]
 id: NCBITaxon:2058949
 name: Dictyosteliales
-is_a: NCBITaxon:33083 ! Dictyostelids
+is_a: NCBITaxon:33083 ! Dictyostelia
 relationship: RO:0002162 NCBITaxon:2058949 ! in taxon Dictyosteliales
 
 [Term]
 id: NCBITaxon:207245
 name: Fornicata
 synonym: "Diplomonadida group" RELATED []
-is_a: NCBITaxon:2759 ! Eukaryota
-disjoint_from: NCBITaxon:3027 ! Cryptophyta
-disjoint_from: NCBITaxon:33090 ! Viridiplantae
-disjoint_from: NCBITaxon:33154 ! Opisthokonta
-disjoint_from: NCBITaxon:33630 ! Alveolata
-disjoint_from: NCBITaxon:33634 ! Stramenopiles
-disjoint_from: NCBITaxon:33682 ! Euglenozoa
-disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
-disjoint_from: NCBITaxon:554915 ! Amoebozoa
+is_a: NCBITaxon:2611341 ! Metamonada
 relationship: RO:0002162 NCBITaxon:207245 ! in taxon Fornicata
 
 [Term]
@@ -329,6 +327,67 @@ is_a: NCBITaxon:554915 ! Amoebozoa
 relationship: RO:0002162 NCBITaxon:2605435 ! in taxon Evosea
 
 [Term]
+id: NCBITaxon:2611341
+name: Metamonada
+is_a: NCBITaxon:2759 ! Eukaryota
+disjoint_from: NCBITaxon:2611352 ! Discoba
+disjoint_from: NCBITaxon:2698737 ! Sar
+disjoint_from: NCBITaxon:3027 ! Cryptophyceae
+disjoint_from: NCBITaxon:33090 ! Viridiplantae
+disjoint_from: NCBITaxon:33154 ! Opisthokonta
+disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
+disjoint_from: NCBITaxon:554915 ! Amoebozoa
+relationship: RO:0002162 NCBITaxon:2611341 ! in taxon Metamonada
+
+[Term]
+id: NCBITaxon:2611352
+name: Discoba
+is_a: NCBITaxon:2759 ! Eukaryota
+disjoint_from: NCBITaxon:2698737 ! Sar
+disjoint_from: NCBITaxon:3027 ! Cryptophyceae
+disjoint_from: NCBITaxon:33090 ! Viridiplantae
+disjoint_from: NCBITaxon:33154 ! Opisthokonta
+disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
+disjoint_from: NCBITaxon:554915 ! Amoebozoa
+relationship: RO:0002162 NCBITaxon:2611352 ! in taxon Discoba
+
+[Term]
+id: NCBITaxon:2684882
+name: Zygnematophycidae
+is_a: NCBITaxon:131209 ! Zygnemophyceae
+relationship: RO:0002162 NCBITaxon:2684882 ! in taxon Zygnematophycidae
+
+[Term]
+id: NCBITaxon:2697495
+name: Spiralia
+is_a: NCBITaxon:33317 ! Protostomia
+relationship: RO:0002162 NCBITaxon:2697495 ! in taxon Spiralia
+
+[Term]
+id: NCBITaxon:2698737
+name: Sar
+synonym: "SAR supergroup" RELATED []
+is_a: NCBITaxon:2759 ! Eukaryota
+disjoint_from: NCBITaxon:3027 ! Cryptophyceae
+disjoint_from: NCBITaxon:33090 ! Viridiplantae
+disjoint_from: NCBITaxon:33154 ! Opisthokonta
+disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
+disjoint_from: NCBITaxon:554915 ! Amoebozoa
+relationship: RO:0002162 NCBITaxon:2698737 ! in taxon Sar
+
+[Term]
+id: NCBITaxon:2704647
+name: Metakinetoplastina
+is_a: NCBITaxon:5653 ! Kinetoplastea
+relationship: RO:0002162 NCBITaxon:2704647 ! in taxon Metakinetoplastina
+
+[Term]
+id: NCBITaxon:2704949
+name: Trypanosomatida
+is_a: NCBITaxon:2704647 ! Metakinetoplastina
+relationship: RO:0002162 NCBITaxon:2704949 ! in taxon Trypanosomatida
+
+[Term]
 id: NCBITaxon:2759
 name: Eukaryota
 synonym: "Eucarya" RELATED []
@@ -380,23 +439,20 @@ relationship: RO:0002162 NCBITaxon:2864 ! in taxon Dinophyceae
 
 [Term]
 id: NCBITaxon:3027
-name: Cryptophyta
+name: Cryptophyceae
 synonym: "algae" RELATED []
 synonym: "Chromophyta" RELATED []
 synonym: "Cryptomonadida" RELATED []
 synonym: "cryptomonads" EXACT []
 synonym: "cryptomonads" RELATED []
-synonym: "Cryptophyceae" RELATED []
+synonym: "Cryptophyta" RELATED []
 synonym: "cryptophytes" RELATED []
 is_a: NCBITaxon:2759 ! Eukaryota
 disjoint_from: NCBITaxon:33090 ! Viridiplantae
 disjoint_from: NCBITaxon:33154 ! Opisthokonta
-disjoint_from: NCBITaxon:33630 ! Alveolata
-disjoint_from: NCBITaxon:33634 ! Stramenopiles
-disjoint_from: NCBITaxon:33682 ! Euglenozoa
 disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
 disjoint_from: NCBITaxon:554915 ! Amoebozoa
-relationship: RO:0002162 NCBITaxon:3027 ! in taxon Cryptophyta
+relationship: RO:0002162 NCBITaxon:3027 ! in taxon Cryptophyceae
 
 [Term]
 id: NCBITaxon:314146
@@ -422,7 +478,7 @@ relationship: RO:0002162 NCBITaxon:314295 ! in taxon Hominoidea
 [Term]
 id: NCBITaxon:3176
 name: Zygnematales
-is_a: NCBITaxon:131209 ! Zygnemophyceae
+is_a: NCBITaxon:2684882 ! Zygnematophycidae
 relationship: RO:0002162 NCBITaxon:3176 ! in taxon Zygnematales
 
 [Term]
@@ -434,6 +490,24 @@ synonym: "land plants" RELATED []
 synonym: "plants" EXACT []
 is_a: NCBITaxon:131221 ! Streptophytina
 relationship: RO:0002162 NCBITaxon:3193 ! in taxon Embryophyta
+
+[Term]
+id: NCBITaxon:32341
+name: Sophophora
+is_a: NCBITaxon:7215 ! Drosophila <flies,genus>
+relationship: RO:0002162 NCBITaxon:32341 ! in taxon Sophophora
+
+[Term]
+id: NCBITaxon:32346
+name: melanogaster group
+is_a: NCBITaxon:32341 ! Sophophora
+relationship: RO:0002162 NCBITaxon:32346 ! in taxon melanogaster group
+
+[Term]
+id: NCBITaxon:32351
+name: melanogaster subgroup
+is_a: NCBITaxon:32346 ! melanogaster group
+relationship: RO:0002162 NCBITaxon:32351 ! in taxon melanogaster subgroup
 
 [Term]
 id: NCBITaxon:32443
@@ -473,28 +547,26 @@ relationship: RO:0002162 NCBITaxon:32561 ! in taxon Sauria
 
 [Term]
 id: NCBITaxon:33083
-name: Dictyostelids
+name: Dictyostelia
 synonym: "cellular slime molds" RELATED []
-synonym: "Dictyostelia" RELATED []
 synonym: "dictyostelid cellular slime molds" EXACT []
 synonym: "Dictyostelida" RELATED []
+synonym: "Dictyostelids" RELATED []
 synonym: "Dictyosteliida" RELATED []
 is_a: NCBITaxon:142796 ! Eumycetozoa
-relationship: RO:0002162 NCBITaxon:33083 ! in taxon Dictyostelids
+relationship: RO:0002162 NCBITaxon:33083 ! in taxon Dictyostelia
 
 [Term]
 id: NCBITaxon:33090
 name: Viridiplantae
 synonym: "Chlorobionta" RELATED []
-synonym: "Chlorophyta/Embryophyta group" RELATED []
+synonym: "Chlorophyta/Embryophyta group" EXACT []
 synonym: "chlorophyte/embryophyte group" EXACT []
+synonym: "Chloroplastida" RELATED []
 synonym: "green plants" EXACT []
 synonym: "green plants" RELATED []
 is_a: NCBITaxon:2759 ! Eukaryota
 disjoint_from: NCBITaxon:33154 ! Opisthokonta
-disjoint_from: NCBITaxon:33630 ! Alveolata
-disjoint_from: NCBITaxon:33634 ! Stramenopiles
-disjoint_from: NCBITaxon:33682 ! Euglenozoa
 disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
 disjoint_from: NCBITaxon:554915 ! Amoebozoa
 relationship: RO:0002162 NCBITaxon:33090 ! in taxon Viridiplantae
@@ -504,6 +576,7 @@ id: NCBITaxon:3312
 name: Coniferophyta
 synonym: "conifers" RELATED []
 is_a: NCBITaxon:1437180 ! Acrogymnospermae
+disjoint_from: NCBITaxon:3372 ! Gnetopsida
 disjoint_from: NCBITaxon:58022 ! Gnetophyta
 relationship: RO:0002162 NCBITaxon:3312 ! in taxon Coniferophyta
 
@@ -513,9 +586,6 @@ name: Opisthokonta
 synonym: "Fungi/Metazoa group" RELATED []
 synonym: "opisthokonts" RELATED []
 is_a: NCBITaxon:2759 ! Eukaryota
-disjoint_from: NCBITaxon:33630 ! Alveolata
-disjoint_from: NCBITaxon:33634 ! Stramenopiles
-disjoint_from: NCBITaxon:33682 ! Euglenozoa
 disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
 disjoint_from: NCBITaxon:554915 ! Amoebozoa
 relationship: RO:0002162 NCBITaxon:33154 ! in taxon Opisthokonta
@@ -543,7 +613,6 @@ id: NCBITaxon:33317
 name: Protostomia
 is_a: NCBITaxon:33213 ! Bilateria
 disjoint_from: NCBITaxon:33511 ! Deuterostomia
-disjoint_from: NCBITaxon:6157 ! Platyhelminthes
 relationship: RO:0002162 NCBITaxon:33317 ! in taxon Protostomia
 
 [Term]
@@ -564,18 +633,14 @@ id: NCBITaxon:33511
 name: Deuterostomia
 synonym: "deuterostomes" EXACT []
 is_a: NCBITaxon:33213 ! Bilateria
-disjoint_from: NCBITaxon:6157 ! Platyhelminthes
 relationship: RO:0002162 NCBITaxon:33511 ! in taxon Deuterostomia
 
 [Term]
 id: NCBITaxon:33630
 name: Alveolata
 synonym: "alveolates" EXACT []
-is_a: NCBITaxon:2759 ! Eukaryota
+is_a: NCBITaxon:2698737 ! Sar
 disjoint_from: NCBITaxon:33634 ! Stramenopiles
-disjoint_from: NCBITaxon:33682 ! Euglenozoa
-disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
-disjoint_from: NCBITaxon:554915 ! Amoebozoa
 relationship: RO:0002162 NCBITaxon:33630 ! in taxon Alveolata
 
 [Term]
@@ -585,20 +650,24 @@ synonym: "Chromophyta" RELATED []
 synonym: "Heterokonta" RELATED []
 synonym: "heterokonts" EXACT []
 synonym: "Straminipila" RELATED []
-is_a: NCBITaxon:2759 ! Eukaryota
-disjoint_from: NCBITaxon:33682 ! Euglenozoa
-disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
-disjoint_from: NCBITaxon:554915 ! Amoebozoa
+is_a: NCBITaxon:2698737 ! Sar
 relationship: RO:0002162 NCBITaxon:33634 ! in taxon Stramenopiles
 
 [Term]
 id: NCBITaxon:33682
 name: Euglenozoa
 synonym: "Euglenozoans" RELATED []
-is_a: NCBITaxon:2759 ! Eukaryota
-disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
-disjoint_from: NCBITaxon:554915 ! Amoebozoa
+is_a: NCBITaxon:2611352 ! Discoba
 relationship: RO:0002162 NCBITaxon:33682 ! in taxon Euglenozoa
+
+[Term]
+id: NCBITaxon:3372
+name: Gnetopsida
+synonym: "Chlamydospermopsida" RELATED []
+synonym: "Gneticae" RELATED []
+is_a: NCBITaxon:1437180 ! Acrogymnospermae
+disjoint_from: NCBITaxon:58022 ! Gnetophyta
+relationship: RO:0002162 NCBITaxon:3372 ! in taxon Gnetopsida
 
 [Term]
 id: NCBITaxon:3378
@@ -717,6 +786,37 @@ is_a: NCBITaxon:436491 ! Theropoda
 relationship: RO:0002162 NCBITaxon:436492 ! in taxon Coelurosauria
 
 [Term]
+id: NCBITaxon:43733
+name: Muscomorpha
+synonym: "Asilomorpha" RELATED []
+is_a: NCBITaxon:7203 ! Brachycera
+relationship: RO:0002162 NCBITaxon:43733 ! in taxon Muscomorpha
+
+[Term]
+id: NCBITaxon:43738
+name: Schizophora
+is_a: NCBITaxon:480117 ! Cyclorrhapha
+relationship: RO:0002162 NCBITaxon:43738 ! in taxon Schizophora
+
+[Term]
+id: NCBITaxon:43741
+name: Acalyptratae
+is_a: NCBITaxon:43738 ! Schizophora
+relationship: RO:0002162 NCBITaxon:43741 ! in taxon Acalyptratae
+
+[Term]
+id: NCBITaxon:43746
+name: Ephydroidea
+is_a: NCBITaxon:43741 ! Acalyptratae
+relationship: RO:0002162 NCBITaxon:43746 ! in taxon Ephydroidea
+
+[Term]
+id: NCBITaxon:43845
+name: Drosophilinae
+is_a: NCBITaxon:7214 ! Drosophilidae
+relationship: RO:0002162 NCBITaxon:43845 ! in taxon Drosophilinae
+
+[Term]
 id: NCBITaxon:451864
 name: Dikarya
 is_a: NCBITaxon:4751 ! Fungi
@@ -730,10 +830,16 @@ disjoint_from: NCBITaxon:716545 ! saccharomyceta
 relationship: RO:0002162 NCBITaxon:451866 ! in taxon Taphrinomycotina
 
 [Term]
+id: NCBITaxon:46877
+name: Drosophilini
+is_a: NCBITaxon:43845 ! Drosophilinae
+relationship: RO:0002162 NCBITaxon:46877 ! in taxon Drosophilini
+
+[Term]
 id: NCBITaxon:4751
 name: Fungi
-synonym: "fungi" EXACT []
 synonym: "fungi" RELATED []
+synonym: "Mycota" RELATED []
 is_a: NCBITaxon:33154 ! Opisthokonta
 relationship: RO:0002162 NCBITaxon:4751 ! in taxon Fungi
 
@@ -745,12 +851,24 @@ relationship: RO:0002162 NCBITaxon:47570 ! in taxon Schizotrypanum
 
 [Term]
 id: NCBITaxon:4762
-name: Oomycetes
+name: Oomycota
+synonym: "Oomycetes" RELATED []
 synonym: "oomycetes" RELATED []
-synonym: "Oomycota" RELATED []
 synonym: "Peronosporomycetes" RELATED []
 is_a: NCBITaxon:33634 ! Stramenopiles
-relationship: RO:0002162 NCBITaxon:4762 ! in taxon Oomycetes
+relationship: RO:0002162 NCBITaxon:4762 ! in taxon Oomycota
+
+[Term]
+id: NCBITaxon:480117
+name: Cyclorrhapha
+is_a: NCBITaxon:480118 ! Eremoneura
+relationship: RO:0002162 NCBITaxon:480117 ! in taxon Cyclorrhapha
+
+[Term]
+id: NCBITaxon:480118
+name: Eremoneura
+is_a: NCBITaxon:43733 ! Muscomorpha
+relationship: RO:0002162 NCBITaxon:480118 ! in taxon Eremoneura
 
 [Term]
 id: NCBITaxon:4890
@@ -801,7 +919,6 @@ id: NCBITaxon:4896
 name: Schizosaccharomyces pombe
 synonym: "fission yeast" EXACT []
 synonym: "Schizosaccharomyces malidevorans" RELATED []
-synonym: "Schizosaccharomyces pombeP" RELATED []
 is_a: NCBITaxon:4895 ! Schizosaccharomyces
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
 
@@ -818,15 +935,12 @@ name: Saccharomyces cerevisiae
 synonym: "baker's yeast" EXACT []
 synonym: "brewer's yeast" EXACT []
 synonym: "Candida robusta" RELATED []
+synonym: "Mycoderma cerevisiae" RELATED []
 synonym: "S. cerevisiae" EXACT []
-synonym: "Saccaromyces cerevisiae" RELATED []
-synonym: "Saccharomyce cerevisiae" RELATED []
 synonym: "Saccharomyces capensis" RELATED []
 synonym: "Saccharomyces italicus" RELATED []
 synonym: "Saccharomyces oviformis" RELATED []
 synonym: "Saccharomyces uvarum var. melibiosus" RELATED []
-synonym: "Saccharomyes cerevisiae" RELATED []
-synonym: "Sccharomyces cerevisiae" RELATED []
 is_a: NCBITaxon:4930 ! Saccharomyces
 relationship: RO:0002162 NCBITaxon:4932 ! in taxon Saccharomyces cerevisiae
 
@@ -842,7 +956,6 @@ name: Yarrowia lipolytica
 synonym: "Candida lipolytica" RELATED []
 synonym: "Endomycopsis lipolytica" RELATED []
 synonym: "Mycotorula lipolytica" RELATED []
-synonym: "Yallowia lipolitica" RELATED []
 is_a: NCBITaxon:4951 ! Yarrowia
 relationship: RO:0002162 NCBITaxon:4952 ! in taxon Yarrowia lipolytica
 
@@ -873,18 +986,18 @@ relationship: RO:0002162 NCBITaxon:55885 ! in taxon Peloderinae
 
 [Term]
 id: NCBITaxon:5653
-name: Kinetoplastida
-synonym: "Kinetoplastea" RELATED []
+name: Kinetoplastea
+synonym: "Kinetoplastida" RELATED []
 synonym: "kinetoplastids" RELATED []
 synonym: "kinetoplasts" EXACT []
 synonym: "Protomonadida" RELATED []
 is_a: NCBITaxon:33682 ! Euglenozoa
-relationship: RO:0002162 NCBITaxon:5653 ! in taxon Kinetoplastida
+relationship: RO:0002162 NCBITaxon:5653 ! in taxon Kinetoplastea
 
 [Term]
 id: NCBITaxon:5654
 name: Trypanosomatidae
-is_a: NCBITaxon:5653 ! Kinetoplastida
+is_a: NCBITaxon:2704949 ! Trypanosomatida
 relationship: RO:0002162 NCBITaxon:5654 ! in taxon Trypanosomatidae
 
 [Term]
@@ -997,7 +1110,7 @@ name: Platyhelminthes
 synonym: "flatworm" EXACT []
 synonym: "flatworms" EXACT []
 synonym: "flatworms" RELATED []
-is_a: NCBITaxon:33213 ! Bilateria
+is_a: NCBITaxon:1206795 ! Lophotrochozoa
 relationship: RO:0002162 NCBITaxon:6157 ! in taxon Platyhelminthes
 
 [Term]
@@ -1098,6 +1211,30 @@ is_a: NCBITaxon:7147 ! Diptera
 relationship: RO:0002162 NCBITaxon:7203 ! in taxon Brachycera
 
 [Term]
+id: NCBITaxon:7214
+name: Drosophilidae
+synonym: "pomace flies" EXACT []
+is_a: NCBITaxon:43746 ! Ephydroidea
+relationship: RO:0002162 NCBITaxon:7214 ! in taxon Drosophilidae
+
+[Term]
+id: NCBITaxon:7215
+name: Drosophila <flies,genus>
+synonym: "Drosophila" EXACT []
+synonym: "fruit flies" EXACT []
+synonym: "fruit fly" EXACT []
+is_a: NCBITaxon:46877 ! Drosophilini
+relationship: RO:0002162 NCBITaxon:7215 ! in taxon Drosophila <flies,genus>
+
+[Term]
+id: NCBITaxon:7227
+name: Drosophila melanogaster
+synonym: "fruit fly" EXACT []
+synonym: "Sophophora melanogaster" RELATED []
+is_a: NCBITaxon:32351 ! melanogaster subgroup
+relationship: RO:0002162 NCBITaxon:7227 ! in taxon Drosophila melanogaster
+
+[Term]
 id: NCBITaxon:7496
 name: Pterygota <insects>
 synonym: "Pterygota" EXACT []
@@ -1134,7 +1271,6 @@ relationship: RO:0002162 NCBITaxon:7745 ! in taxon Petromyzontiformes
 id: NCBITaxon:7746
 name: Petromyzontidae
 synonym: "lampreys" EXACT []
-synonym: "Petromyzonidae" RELATED []
 is_a: NCBITaxon:7745 ! Petromyzontiformes
 relationship: RO:0002162 NCBITaxon:7746 ! in taxon Petromyzontidae
 
@@ -1143,7 +1279,7 @@ id: NCBITaxon:7761
 name: Myxiniformes
 synonym: "hagfishes" RELATED []
 synonym: "Myxinoidea" RELATED []
-is_a: NCBITaxon:117565 ! Hyperotreti
+is_a: NCBITaxon:117565 ! Myxini
 relationship: RO:0002162 NCBITaxon:7761 ! in taxon Myxiniformes
 
 [Term]
@@ -1272,20 +1408,7 @@ relationship: RO:0002162 NCBITaxon:9605 ! in taxon Homo
 [Term]
 id: NCBITaxon:9606
 name: Homo sapiens
-synonym: "Home sapiens" RELATED []
-synonym: "Homo sampiens" RELATED []
-synonym: "Homo sapeins" RELATED []
-synonym: "Homo sapian" RELATED []
-synonym: "Homo sapians" RELATED []
-synonym: "Homo sapien" RELATED []
-synonym: "Homo sapience" RELATED []
-synonym: "Homo sapiense" RELATED []
-synonym: "Homo sapients" RELATED []
-synonym: "Homo sapines" RELATED []
-synonym: "Homo spaiens" RELATED []
-synonym: "Homo spiens" RELATED []
 synonym: "human" EXACT []
-synonym: "Humo sapiens" RELATED []
 synonym: "man" EXACT []
 is_a: NCBITaxon:9605 ! Homo
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens

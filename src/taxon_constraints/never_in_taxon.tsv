@@ -16,7 +16,8 @@ GO:0001846	opsonin binding	NCBITaxon:4751	Fungi
 GO:0001848	complement binding	NCBITaxon:4751	Fungi
 GO:0001863	collectin receptor activity	NCBITaxon:4751	Fungi
 GO:0001896	autolysis	NCBITaxon:33208	Metazoa
-GO:0001968	fibronectin binding	NCBITaxon:4751	Fungi
+GO:0001968	fibronectin binding	NCBITaxon:4895	Schizosaccharomyces
+GO:0001968	fibronectin binding	NCBITaxon:4932	Saccharomyces cerevisiae
 GO:0002030	inhibitory G protein-coupled receptor phosphorylation	NCBITaxon:4751	Fungi
 GO:0002039	p53 binding	NCBITaxon:4751	Fungi
 GO:0002046	opsin binding	NCBITaxon:4751	Fungi
@@ -188,7 +189,8 @@ GO:0042476	odontogenesis	NCBITaxon:8782	Aves
 GO:0042546	cell wall biogenesis	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0042633	hair cycle	NCBITaxon:8782	Aves
 GO:0043093	FtsZ-dependent cytokinesis	NCBITaxon:2759	Eukaryota
-GO:0043236	laminin binding	NCBITaxon:4751	Fungi
+GO:0043236	laminin binding	NCBITaxon:4895	Schizosaccharomyces
+GO:0043236	laminin binding	NCBITaxon:4932	Saccharomyces cerevisiae
 GO:0043256	laminin complex	NCBITaxon:4751	Fungi
 GO:0043263	cellulosome	NCBITaxon:33208	Metazoa
 GO:0043293	apoptosome	NCBITaxon:4890	Ascomycota
@@ -472,3 +474,16 @@ GO:1901259	chloroplast rRNA processing	NCBITaxon:4751	Fungi
 GO:1901259	chloroplast rRNA processing	NCBITaxon:554915	Amoebozoa
 GO:0052553	modulation by symbiont of host immune response	NCBITaxon:33208	Metazoa
 GO:0052553	modulation by symbiont of host immune response	NCBITaxon:33090	Viridiplantae
+GO:0033499	galactose catabolic process via UDP-galactose	NCBITaxon:147554	Schizosaccharomycetes
+GO:0098610	adhesion between unicellular organisms	NCBITaxon:33208	Metazoa
+GO:0043010	camera-type eye development	NCBITaxon:6656	Arthropoda
+GO:0098610	adhesion between unicellular organisms	NCBITaxon:33090	Viridiplantae
+GO:0001726	ruffle	NCBITaxon:4890	Ascomycota
+GO:0043616  keratinocyte proliferation  NCBITaxon:6656  Arthropoda
+GO:0043588  skin development  NCBITaxon:6656  Arthropoda
+GO:0033561  regulation of water loss via skin NCBITaxon:6656  Arthropoda
+GO:0032980  keratinocyte activation NCBITaxon:6656  Arthropoda
+GO:0051546  keratinocyte migration  NCBITaxon:6656  Arthropoda
+GO:0097283  keratinocyte apoptotic process  NCBITaxon:6656  Arthropoda
+GO:0008623	CHRAC	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0033643	host cell part	NCBITaxon:7742	Vertebrata <Metazoa>

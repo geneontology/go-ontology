@@ -49,6 +49,7 @@ my %relUsageMap = ();
 my $n_relationships = 0;
 my %xp = ();
 my %isa = ();
+my %genus = ();
 my $id = ""; # current id
 my $def = ""; # current def
 my $n = 0;
@@ -190,7 +191,9 @@ while (<>) {
             push(@referenced_ids, $2);
         }
         else {
+            $arg1 =~ s@\s*\!.*@@;
             push(@referenced_ids, $arg1);
+            push(@{$genus{$id}}, $arg1);
         }
     }
     if (/^is_obsolete: true/) {
@@ -425,8 +428,8 @@ unless ($disabled{'single-intersection-tag'}) {
 }
 
 unless ($disabled{'namespace-switch'}) {
-    foreach my $x (keys %isa) {
-        foreach my $y (@{$isa{$x} || []}) {
+    foreach my $x ((keys %isa), (keys %genus)) {
+        foreach my $y ((@{$isa{$x} || []}), (@{$genus{$x} || []})) {
             if ($ns{$x} ne $ns{$y}) {
                 flag('namespace-different-from-is_a-parent',"$x in $ns{$x}, $y in $ns{$y}");
             }

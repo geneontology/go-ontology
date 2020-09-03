@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-12-11/imports/so_import.owl
+data-version: go/releases/2020-07-05/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -28,7 +28,7 @@ synonym: "sequence feature" EXACT []
 id: SO:0000188
 name: intron
 namespace: sequence
-def: "A region of a primary transcript that is transcribed, but removed from within the transcript by splicing together the sequences (exons) on either side of it." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html]
+def: "A region of a primary transcript that is transcribed, but removed from within the transcript by splicing together the sequences (exons) on either side of it." [http://www.insdc.org/files/feature_table.html]
 comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
 subset: SOFA
 synonym: "INSDC_feature:intron" EXACT []
@@ -64,7 +64,7 @@ is_a: SO:0000233 ! mature_transcript
 id: SO:0000252
 name: rRNA
 namespace: sequence
-def: "RNA that comprises part of a ribosome, and that can provide both structural scaffolding and catalytic activity." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html, ISBN:0198506732]
+def: "RNA that comprises part of a ribosome, and that can provide both structural scaffolding and catalytic activity." [http://www.insdc.org/files/feature_table.html, ISBN:0198506732]
 subset: SOFA
 synonym: "INSDC_feature:rRNA" EXACT []
 synonym: "INSDC_qualifier:unknown" BROAD []
@@ -85,20 +85,20 @@ synonym: "INSDC_qualifier:unknown" BROAD []
 synonym: "transfer ribonucleic acid" RELATED []
 synonym: "transfer RNA" RELATED []
 xref: http://en.wikipedia.org/wiki/TRNA "wiki"
-is_a: SO:0000655 ! ncRNA
+is_a: SO:0002247 ! sncRNA
 
 [Term]
 id: SO:0000274
 name: snRNA
 namespace: sequence
-def: "A small nuclear RNA molecule involved in pre-mRNA splicing and processing." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html, PMID:11733745, WB:ems]
+def: "A small nuclear RNA molecule involved in pre-mRNA splicing and processing." [http://www.insdc.org/files/feature_table.html, PMID:11733745, WB:ems]
 comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:snRNA" EXACT []
 synonym: "small nuclear RNA" EXACT []
 xref: http://en.wikipedia.org/wiki/SnRNA "wiki"
-is_a: SO:0000655 ! ncRNA
+is_a: SO:0002247 ! sncRNA
 
 [Term]
 id: SO:0000275
@@ -110,7 +110,7 @@ synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:snoRNA" EXACT []
 synonym: "small nucleolar RNA" EXACT []
 xref: http://en.wikipedia.org/wiki/SnoRNA "wiki"
-is_a: SO:0000655 ! ncRNA
+is_a: SO:0002247 ! sncRNA
 
 [Term]
 id: SO:0000276
@@ -133,7 +133,7 @@ is_a: SO:0000370 ! small_regulatory_ncRNA
 id: SO:0000296
 name: origin_of_replication
 namespace: sequence
-def: "A region of nucleic acid from which replication initiates; includes sequences that are recognized by replication proteins, the site from which the first separation of complementary strands occurs, and specific replication start sites." [http://www.ebi.ac.uk/embl/Documentation/FT_definitions/feature_table.html, NCBI:cf]
+def: "A region of nucleic acid from which replication initiates; includes sequences that are recognized by replication proteins, the site from which the first separation of complementary strands occurs, and specific replication start sites." [http://www.insdc.org/files/feature_table.html, NCBI:cf]
 subset: SOFA
 synonym: "INSDC_feature:rep_origin" EXACT []
 synonym: "ori" EXACT []
@@ -160,7 +160,7 @@ namespace: sequence
 def: "A non-coding RNA less than 200 nucleotides long, usually with a specific secondary structure, that acts to regulate gene expression. These include short ncRNAs such as piRNA, miRNA and siRNAs (among others)." [PMID:28541282, PomBase:al, SO:ma]
 subset: SOFA
 synonym: "small regulatory ncRNA" EXACT []
-is_a: SO:0000655 ! ncRNA
+is_a: SO:0002247 ! sncRNA
 
 [Term]
 id: SO:0000375
@@ -244,6 +244,7 @@ is_a: SO:0000628 ! chromosomal_structural_element
 id: SO:0000628
 name: chromosomal_structural_element
 namespace: sequence
+def: "Regions of the chromosome that are important for structural elements." []
 subset: SOFA
 synonym: "chromosomal structural element" EXACT []
 is_a: SO:0000830 ! chromosome_part
@@ -498,6 +499,18 @@ created_by: kareneilbeck
 creation_date: 2014-01-05T07:02:01Z
 
 [Term]
+id: SO:0002140
+name: early_origin_of_replication
+namespace: sequence
+def: "An origin of replication that initiates early in S phase." [PMID:23348837, PMID:9115207]
+synonym: "early origin" EXACT []
+synonym: "early origin of replication" EXACT []
+synonym: "early replication origin" EXACT []
+is_a: SO:0000296 ! origin_of_replication
+created_by: nicole
+creation_date: 2016-09-15T15:53:36Z
+
+[Term]
 id: SO:0002141
 name: late_origin_of_replication
 namespace: sequence
@@ -508,4 +521,15 @@ synonym: "late replication origin" EXACT []
 is_a: SO:0000296 ! origin_of_replication
 created_by: nicole
 creation_date: 2016-09-15T15:56:07Z
+
+[Term]
+id: SO:0002247
+name: sncRNA
+namespace: sequence
+def: "A non-coding RNA less than 200 nucleotides in length." [PMID:30069443]
+comment: Added as per request from GitHub Issue #485 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/485)
+synonym: "Small noncoding RNA" EXACT []
+is_a: SO:0000655 ! ncRNA
+created_by: david
+creation_date: 2020-05-13T11:07:30Z
 

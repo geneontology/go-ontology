@@ -1,0 +1,38 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX definition: <http://purl.obolibrary.org/obo/IAO_0000115>
+
+SELECT DISTINCT ?term ?definition ?reason
+WHERE {
+{
+    ?term definition: ?definition .
+    FILTER(CONTAINS(?definition, "\n"))
+    BIND(("Definition contains newline.") AS ?reason)
+}
+UNION
+{
+    ?term definition: ?definition .
+    FILTER(CONTAINS(?definition, "\""))
+    BIND(("Definition contains double quote.") AS ?reason)
+}
+UNION
+{
+    ?term definition: ?definition .
+    FILTER(!STRENDS(?definition, "."))
+    BIND(("Definition does not end with a period.") AS ?reason)
+}
+UNION
+{
+    ?term definition: ?definition .
+    [
+        rdf:type owl:Axiom ;
+        owl:annotatedSource ?term ;
+        owl:annotatedProperty definition: ;
+        owl:annotatedTarget ?definition ;
+        ?property ?value 
+    ]
+    FILTER(?property NOT IN (rdf:type, owl:annotatedSource, owl:annotatedProperty, owl:annotatedTarget, oio:hasDbXref))
+    BIND(("Definition axiom annotation can only be xref.") AS ?reason)
+}
+} 

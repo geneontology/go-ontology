@@ -12,7 +12,7 @@ subsetdef: taxon_extension ""
 subsetdef: valid_for_annotation_extension ""
 synonymtypedef: RO:0008000 "display label for users"
 default-namespace: external
-remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 1476 Logical Axioms: 408]
+remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 1478 Logical Axioms: 409]
 ontology: go/extensions/gorel
 property_value: http://purl.org/dc/elements/1.1/description "This ontology combines RO together with GO-specific relations in the GOREL namespace, used for annotation extensions. See;\n\nHuntley, R. P., Harris, M. a, Alam-Faruque, Y., et al (2014). A method for increasing expressivity of Gene Ontology annotations using a compositional approach. BMC Bioinformatics, 15(1), 155. doi:10.1186/1471-2105-15-155\n\nNotes on release edition (gorel.owl):\n\nThis ontology is created by merging the relevant subset of RO together with GO-specific annotations of RO relations, and GOREL relations\n\nNotes on editors version (gorel-edit.owl): \nThe editors version imports ro.owl, and allows addition of new relations (GOREL ID space) and annotation of existing RO relations. Note for editors: if an RO relation is to be made visible in the final gorel product, then make the relation a SubProperty of 'go annotation extension relation'. Anything with a logical axiom is included in the final module. Consult Makefile for details" xsd:string
 
@@ -405,7 +405,7 @@ id: causally_upstream_of,_negative_effect
 name: causally upstream of, negative effect
 comment: holds between x and y if and only if x is causally upstream of y and the progression of x decreases the frequency, rate or extent of y
 xref: RO:0002305
-property_value: http://purl.org/dc/elements/1.1/creator "cjm" xsd:string
+property_value: http://purl.org/dc/terms/creator "cjm" xsd:string
 property_value: RO:0004050 RO:0002411
 is_a: causally_upstream_of ! causally upstream of
 is_a: causally_upstream_of_or_within,_negative_effect ! causally upstream of or within, negative effect
@@ -415,7 +415,7 @@ id: causally_upstream_of,_positive_effect
 name: causally upstream of, positive effect
 comment: holds between x and y if and only if x is causally upstream of y and the progression of x increases the frequency, rate or extent of y
 xref: RO:0002304
-property_value: http://purl.org/dc/elements/1.1/creator "cjm" xsd:string
+property_value: http://purl.org/dc/terms/creator "cjm" xsd:string
 property_value: RO:0004049 RO:0002411
 is_a: causally_upstream_of ! causally upstream of
 is_a: causally_upstream_of_or_within,_positive_effect ! causally upstream of or within, positive effect
@@ -474,7 +474,7 @@ id: colocalizes_with
 name: colocalizes with
 def: "a colocalizes_with b if and only if  a is transiently or peripherally associated with b[GO]." []
 xref: RO:0002325
-property_value: http://purl.org/dc/elements/1.1/creator "Gene Ontology Consortium" xsd:string
+property_value: http://purl.org/dc/terms/creator "Gene Ontology Consortium" xsd:string
 property_value: IAO:0000112 "Clp1p relocalizes from the nucleolus to the spindle and site of cell division; i.e. it is associated transiently with the spindle pole body and the contractile ring (evidence from GFP fusion). Clp1p colocalizes_with spindle pole body (GO:0005816) and contractile ring (GO:0005826)" xsd:string
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 http://www.geneontology.org/GO.annotation.conventions.shtml#colocalizes_with xsd:string
@@ -521,22 +521,13 @@ is_a: part_of_structure_that_is_capable_of ! part of structure that is capable o
 
 [Typedef]
 id: dependent_on
-name: dependent_on
+name: obsolete dependent_on
 namespace: go/extensions/gorel
-def: "Identifies a requirement under which the ontology term is observed to apply to the annotated gene product." [GOC:rph]
+def: "OBSOLETE. Identifies a requirement under which the ontology term is observed to apply to the annotated gene product." [GOC:rph]
 comment: PomBase uses the more specific child relations, and avoids using dependent_on directly.
-subset: AE_biological_process
-subset: AE_chemical
-subset: AE_molecular_function
-subset: AE_sequence_feature
-subset: AE_sequence_or_complex
-subset: valid_for_annotation_extension
 synonym: "dependent on" EXACT RO:0008000 [PomBase:curators]
 xref: GOREL:0000004
-property_value: local_domain BFO:0000001 xsd:string
-property_value: local_range "CHEBI:24431 GO:0003674 GO:0008150 GO:0032991 MI:0315 MOD:00000 PR:000000001 SO:0000110 SO:0000673 SO:0000704 CHEBI:33697" xsd:string
 property_value: usage "Identifies a requirement under which the ontology term is observed to apply to the annotated gene product." xsd:string
-is_a: go_annotation_extension_relation ! go annotation extension relation
 is_obsolete: true
 
 [Typedef]
@@ -876,7 +867,6 @@ property_value: IAO:0000118 "has agent" xsd:string
 property_value: local_domain GO:0008150 xsd:string
 property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
 property_value: usage "Use this relation to link a process to an entity that carries out that process. The entity may be a cellular component, a cell type or an anatomical structure. Examples include recording a vesicle type that mediates a transport process, a cell type that is the agent of a secretion process or a cell adhesion process.  Do not use this to extend a molecular function: The agents of molecular functions are gene products and complexes.  Use of this relation with a molecular function therefore consistutes reverse annotation." xsd:string
-is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: has_participant ! has participant
 is_obsolete: true
 
@@ -924,7 +914,7 @@ creation_date: 2017-05-24T09:49:21Z
 
 [Typedef]
 id: has_direct_input
-name: has_direct_input
+name: obsolete has_direct_input
 namespace: go/extensions/gorel
 alt_id: directly_localizes
 alt_id: GOREL:0000019
@@ -932,19 +922,14 @@ alt_id: GOREL:0000504
 alt_id: has_direct_target
 alt_id: has_substrate
 comment: If the entity is indirectly bound/acted upon by the gene product that is the subject of an annotation,  then the relation: has_indirect_input should be considered [GOC:ecd]
-subset: AE_chemical
-subset: AE_sequence_or_complex
-subset: display_for_curators
-subset: valid_for_annotation_extension
+comment: This relation is part of the ShEx speficications.
 synonym: "directly_localizes" NARROW [GOC:ecd]
 synonym: "has_direct_target" EXACT [GOC:ecd]
 synonym: "has_substrate" NARROW [GOC:ecd]
 xref: GOREL:0000752
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697 SO:0000839" xsd:string
 property_value: usage "Identifies an entity directly affected (transported, modified, consumed or destroyed) by the gene product's participation in a molecular function or biological process. It is expected that the gene product and entity will physically interact, this can be determined either by a direct binding assay or inferred from the activity of the gene product, for example, a gene product with catalytic activity is inferred to bind its substrate." xsd:string
-domain: BFO:0000015
-is_a: has_input ! has input
+is_obsolete: true
 
 [Typedef]
 id: has_downstream_target
@@ -1450,18 +1435,16 @@ transitive_over: has_part ! has part
 
 [Typedef]
 id: in_absence_of
-name: in_absence_of
+name: obsolete in_absence_of
 namespace: go/extensions/gorel
-def: "Identifies a chemical, gene product or complex in the absence of which an ontology term is observed to apply to the annotated gene product." [GOC:rph]
+def: "OBSOLETE. Identifies a chemical, gene product or complex in the absence of which an ontology term is observed to apply to the annotated gene product." [GOC:rph]
 comment: DEPRECATION WARNING: The GO editors have agreed that this relation should be deprecated. There are two main reasons for this 1. The relation does not extend the meaning of the GO term, as annotation relations are meant to, but instead specifies conditions under which the annotation is true. This can not be expressed in OWL. Annotation extensions using this relation will never fold. 2. The relation includes a hidden negation. This is problematic for a number of reasons, the most important of which is that burying negations in otherwise positive relationships can cause serious problems for inference.
-subset: AE_chemical
-subset: AE_sequence_or_complex
-subset: valid_for_annotation_extension
+comment: This relation was obsoleted because it does not follow GO-CAM specifications.
 xref: GOREL:0000755
 property_value: local_domain BFO:0000001 xsd:string
 property_value: local_range "CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704" xsd:string
 property_value: usage "Identifies a chemical, gene product or complex in the absence of which an ontology term is observed to apply to the annotated gene product." xsd:string
-domain: BFO:0000001
+is_obsolete: true
 
 [Typedef]
 id: in_presence_of
@@ -1689,23 +1672,14 @@ is_a: molecular_interaction_relation_helper_property ! molecular interaction rel
 
 [Typedef]
 id: localization_dependent_on
-name: localization_dependent_on
+name: obsolete localization_dependent_on
 namespace: go/extensions/gorel
-def: "Identifies a requirement under which the gene product is located at the specified cellular component." [GOC:rph]
+def: "OBSOLETE. Identifies a requirement under which the gene product is located at the specified cellular component." [GOC:rph]
 comment: Previous definition "Located at CC only if (BP occurs) OR (feature is present in annotated gene product) OR (CC is present) OR (gene product is present)" [GOC:mah]
-subset: AE_biological_process
-subset: AE_cellular_component
-subset: AE_chemical
-subset: AE_molecular_function
-subset: AE_sequence_feature
-subset: AE_sequence_or_complex
 synonym: "localized by" EXACT RO:0008000 [PomBase:curators]
 xref: GOREL:0000009
-property_value: local_domain GO:0005575 xsd:string
-property_value: local_range "CHEBI:24431 GO:0003674 GO:0005575 GO:0008150 GO:0032991 MI:0315 MOD:00000 PR:000000001 SO:0000110 SO:0000673 SO:0000704" xsd:string
 property_value: usage "Identifies a requirement under which the gene product is located at the specified cellular component." xsd:string
 domain: GO:0005575
-is_a: dependent_on ! dependent_on
 is_obsolete: true
 
 [Typedef]
@@ -1734,15 +1708,16 @@ property_value: RO:0001900 RO:0001901
 
 [Typedef]
 id: modified_by
-name: modified_by
+name: obsolete modified_by
 namespace: go/extensions/gorel
-def: "Identifies the gene product that catalyzes a modification on the annotated gene product" [GOC:mah]
+def: "OBSOLETE. Identifies the gene product that catalyzes a modification on the annotated gene product" [GOC:mah]
+comment: http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation
 synonym: "modified by" EXACT RO:0008000 [PomBase:curators]
 xref: GOREL:0000030
 property_value: local_domain MOD:00000 xsd:string
 property_value: local_range "GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704" xsd:string
 property_value: usage "Identifies the gene product that catalyzes a modification on the annotated gene product" xsd:string
-domain: MOD:00000
+is_obsolete: true
 
 [Typedef]
 id: molecular_interaction_relation_helper_property
@@ -1868,6 +1843,36 @@ is_obsolete: true
 is_class_level: true
 
 [Typedef]
+id: obsolete_has_intermediate
+name: obsolete has_intermediate
+namespace: go/extensions/gorel
+xref: GOREL:0002008
+is_obsolete: true
+replaced_by: RO:0002505
+created_by: pg
+creation_date: 2019-11-21T16:32:15Z
+
+[Typedef]
+id: obsolete_mediated_by
+name: obsolete mediated by
+namespace: go/extensions/gorel
+xref: GOREL:0001007
+is_obsolete: true
+replaced_by: RO:0002608
+created_by: pg
+creation_date: 2019-11-21T19:16:04Z
+
+[Typedef]
+id: obsolete_results_in_transport_to_from_or_mediated_by
+name: obsolete results_in_transport_to_from_or_mediated_by
+namespace: go/extensions/gorel
+comment: This relation was only used for one class, 'endosomal transport' (GO:0016197), which groups together disparate roles the participants can play - it was defined as 'The directed movement of substances into, out of *or mediated by* an endosome...' The term has been redefined and the logical definition changed accordingly.
+xref: GOREL:0002010
+is_obsolete: true
+created_by: pg
+creation_date: 2019-11-21T18:00:03Z
+
+[Typedef]
 id: occurs_at
 name: occurs at
 namespace: go/extensions/gorel
@@ -1935,6 +1940,7 @@ holds_over_chain: has_part overlaps
 holds_over_chain: has_part part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
 holds_over_chain: part_of part_of
 is_a: mereotopologically_related_to ! mereotopologically related to
+transitive_over: part_of ! part of
 expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)" []
 
 [Typedef]
@@ -2222,16 +2228,14 @@ inverse_of: regulated_by ! regulated by
 
 [Typedef]
 id: regulates_activity_of
-name: regulates activity of
-def: "A relation that holds between the regulation of a molecular function and the agent that executes that function." []
-subset: AE_sequence_or_complex
-subset: display_for_curators
-subset: valid_for_annotation_extension
+name: obsolete regulates activity of
+def: "OBSOLETE. A relation that holds between the regulation of a molecular function and the agent that executes that function." []
+comment: This relation has been obsoleted as it is not part of the GO ShEx specifications.
 xref: GOREL:0098702
 property_value: local_domain "GO:0098772 GO:0065009" xsd:string
 property_value: local_range "GO:0032991 SO:0000374 PR:000000001" xsd:string
 property_value: usage "Use this relation to link either a molecular function, or a biological process that regulates a molecular function, to the gene product or complex that executes the regulated function." xsd:string
-is_a: regulates_o_has_agent ! regulates_o_has_agent
+is_obsolete: true
 
 [Typedef]
 id: regulates_expression_of
@@ -2581,34 +2585,28 @@ is_obsolete: true
 
 [Typedef]
 id: requires_localization
-name: requires_localization
+name: obsolete requires_localization
 namespace: go/extensions/gorel
-def: "The annotated gene product participates in a Biological Process only if the gene product is located at a Cellular Component" [GOC:mah]
+def: "OBSOLETE. The annotated gene product participates in a Biological Process only if the gene product is located at a Cellular Component" [GOC:mah]
 synonym: "dependent_on_localization" EXACT [GOC:mah]
 synonym: "only when located at" EXACT RO:0008000 [PomBase:curators]
 xref: GOREL:0000028
-property_value: local_domain GO:0008150 xsd:string
-property_value: local_range GO:0005575 xsd:string
 property_value: usage "The annotated gene product participates in a Biological Process only if the gene product is located at a Cellular Component" xsd:string
 domain: GO:0008150
 range: GO:0005575
-is_a: dependent_on ! dependent_on
 is_obsolete: true
 
 [Typedef]
 id: requires_modification
-name: requires_modification
+name: obsolete requires_modification
 namespace: go/extensions/gorel
-def: "Annotated gene product must be modified as described by extension to participate in the Molecular Function or Biological Process." [GOC:mah]
+def: "OBSOLETE. Annotated gene product must be modified as described by extension to participate in the Molecular Function or Biological Process." [GOC:mah]
 comment: Note this relation is not intended for use in GO annotation.  Discussion about using PR ID in column 17 instead; if we agree on that, this relation will be made obsolete
 synonym: "only with modification" EXACT RO:0008000 [PomBase:curators]
 xref: GOREL:0000502
-property_value: local_domain BFO:0000007 xsd:string
-property_value: local_range MOD:00000 xsd:string
 property_value: usage "Annotated gene product must be modified as described by extension to participate in the Molecular Function or Biological Process." xsd:string
 domain: BFO:0000007
 range: MOD:00000
-is_a: dependent_on ! dependent_on
 is_obsolete: true
 
 [Typedef]
@@ -2626,57 +2624,46 @@ is_obsolete: true
 
 [Typedef]
 id: requires_regulator
-name: requires_regulator
+name: obsolete requires_regulator
 namespace: go/extensions/gorel
-def: "annotated gene product requires regulation by the gene product or complex for its participation in the Molecular Function or Biological Process" [GOC:mah]
+def: "OBSOLETE. Annotated gene product requires regulation by the gene product or complex for its participation in the Molecular Function or Biological Process." [GOC:mah]
 synonym: "requires" BROAD RO:0008000 [PomBase:curators]
 xref: GOREL:0000011
-property_value: local_domain BFO:0000007 xsd:string
-property_value: local_range "GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704" xsd:string
 property_value: usage "annotated gene product requires regulation by the gene product or complex for its participation in the Molecular Function or Biological Process" xsd:string
 domain: BFO:0000007
-is_a: dependent_on ! dependent_on
 is_obsolete: true
 
 [Typedef]
 id: requires_sequence_feature
-name: requires_sequence_feature
+name: obsolete requires_sequence_feature
 namespace: go/extensions/gorel
-def: "A sequence feature, such as a protein domain or motif, of the annotated gene product required for its participation in Molecular Function or Biological Process." [GOC:mah]
+def: "OBSOLETE. A sequence feature, such as a protein domain or motif, of the annotated gene product required for its participation in Molecular Function or Biological Process." [GOC:mah]
 comment: strictly speaking, these fall outside the scope of GO, even with extended annotations
-subset: AE_sequence_feature
 synonym: "requires" BROAD RO:0008000 [PomBase:curators]
 synonym: "requires_feature" BROAD [GOC:mah]
 xref: GOREL:0000010
-property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range SO:0000110 xsd:string
 property_value: usage "A sequence feature, such as a protein domain or motif, of the annotated gene product required for its participation in Molecular Function or Biological Process." xsd:string
 domain: BFO:0000007
 range: SO:0000110
-is_a: dependent_on ! dependent_on
 is_obsolete: true
 
 [Typedef]
 id: requires_substance
-name: requires_substance
+name: obsolete requires_substance
 namespace: go/extensions/gorel
-def: " The annotated gene product participates in a Biological Process or executes a Molecular Function only in the presence of a substance" [GOC:mah]
-subset: AE_chemical
+def: "OBSOLETE. The annotated gene product participates in a Biological Process or executes a Molecular Function only in the presence of a substance" [GOC:mah]
 synonym: "requires" BROAD RO:0008000 [PomBase:curators]
 xref: GOREL:0000012
-property_value: local_domain BFO:0000007 xsd:string
-property_value: local_range CHEBI:24431 xsd:string
 property_value: usage " The annotated gene product participates in a Biological Process or executes a Molecular Function only in the presence of a substance" xsd:string
 domain: BFO:0000007
 range: CHEBI:24431
-is_a: dependent_on ! dependent_on
 is_obsolete: true
 
 [Typedef]
 id: requires_target_sequence_feature
-name: requires_target_sequence_feature
+name: obsolete requires_target_sequence_feature
 namespace: go/extensions/gorel
-def: "Identifies a specific sequence feature required in the interacting gene product to enable the cellular component location or occurance of the function or process" [GOC:ecd]
+def: "OBSOLETE. Identifies a specific sequence feature required in the interacting gene product to enable the cellular component location or occurance of the function or process" [GOC:ecd]
 synonym: "requires feature in target" EXACT RO:0008000 [PomBase:curators]
 xref: GOREL:0000754
 property_value: local_domain BFO:0000001 xsd:string
@@ -2684,7 +2671,6 @@ property_value: local_range SO:0000110 xsd:string
 property_value: usage "Identifies a specific sequence feature required in the interacting gene product to enable the cellular component location or occurance of the function or process" xsd:string
 domain: BFO:0000001
 range: SO:0000110
-is_a: dependent_on ! dependent_on
 is_obsolete: true
 
 [Typedef]
@@ -2945,9 +2931,10 @@ expand_expression_to: "BFO_0000051 exactly 0 (BFO_0000050 some ?Y)" []
 
 [Typedef]
 id: stabilizes
-name: stabilizes
+name: obsolete stabilizes
 namespace: go/extensions/gorel
-def: "Identifies specific gene product stabilized in a protein stabilization process (or regulation thereof)" [GOC:mah]
+def: "OBSOLETE. Identifies specific gene product stabilized in a protein stabilization process (or regulation thereof)" [GOC:mah]
+comment: Obsoleted, see https://github.com/geneontology/go-ontology/issues/18540.
 subset: AE_sequence_or_complex
 subset: display_for_curators
 subset: valid_for_annotation_extension
@@ -2956,9 +2943,7 @@ xref: GOREL:0000018
 property_value: local_domain GO:0031647 xsd:string
 property_value: local_range "GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697" xsd:string
 property_value: usage "Identifies specific gene product stabilized in a protein stabilization process (or regulation thereof)" xsd:string
-domain: GO:0031647
-is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: has_input ! has input
+is_obsolete: true
 
 [Typedef]
 id: starts_during
@@ -2991,7 +2976,7 @@ name: temporally related to
 comment: A relation that holds between two occurrents. This is a grouping relation that collects together all the Allen relations.
 subset: ro-eco
 xref: RO:0002222
-property_value: http://purl.org/dc/elements/1.1/source https://docs.google.com/document/d/1kBv1ep_9g3sTR-SD3jqzFqhuwo9TPNF-l-9fUDbO6rM/edit?pli=1 xsd:anyURI
+property_value: http://purl.org/dc/terms/source https://docs.google.com/document/d/1kBv1ep_9g3sTR-SD3jqzFqhuwo9TPNF-l-9fUDbO6rM/edit?pli=1 xsd:anyURI
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 https://en.wikipedia.org/wiki/Allen%27s_interval_algebra

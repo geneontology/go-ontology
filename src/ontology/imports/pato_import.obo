@@ -1,12 +1,16 @@
 format-version: 1.2
-data-version: go/releases/2019-07-01/imports/pato_import.owl
+data-version: go/releases/2020-04-16/imports/pato_import.owl
 ontology: go/imports/pato_import
+
+[Term]
+id: CL:0000000
+relationship: has_part GO:0005634 {gci_filler="PATO:0001908", gci_relation="RO:0000053"}
+relationship: has_part GO:0005634 {gci_filler="PATO:0001407", gci_relation="RO:0000053"}
 
 [Term]
 id: PATO:0000001
 name: quality
 def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" []
-synonym: "trait" EXACT []
 
 [Term]
 id: PATO:0000051
@@ -57,6 +61,7 @@ synonym: "quality of occurrent" EXACT []
 synonym: "quality of process" EXACT []
 synonym: "relational quality of occurrent" EXACT []
 is_a: PATO:0000001 ! quality
+disjoint_from: PATO:0001241 ! physical object quality
 
 [Term]
 id: PATO:0001241
@@ -73,6 +78,42 @@ synonym: "quality of continuant" EXACT []
 is_a: PATO:0000001 ! quality
 
 [Term]
+id: PATO:0001396
+name: cellular quality
+def: "A monadic quality of continuant that exists at the cellular level of organisation." []
+is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0001404
+name: nucleate quality
+def: "A cellular quality inhering in a bearer by virtue of bearer's number of nuclei." []
+is_a: PATO:0001396 ! cellular quality
+
+[Term]
+id: PATO:0001405
+name: anucleate
+def: "A nucleate quality inhering in a bearer by virtue of the bearer's having no nucleus." []
+is_a: PATO:0001404 ! nucleate quality
+
+[Term]
+id: PATO:0001406
+name: binucleate
+def: "A nucleate quality inhering in a bearer by virtue of the bearer's having two nuclei." []
+is_a: PATO:0001908 ! multinucleate
+
+[Term]
+id: PATO:0001407
+name: mononucleate
+def: "A nucleate quality inhering in a bearer by virtue of the bearer's having one nucleus." []
+is_a: PATO:0002505 ! nucleated
+
+[Term]
+id: PATO:0001408
+name: ciliatedness
+def: "A cellular quality inhering in a bearer by virtue of the bearer's having thin, tail-like projections extending outwards from the cell body." []
+is_a: PATO:0001396 ! cellular quality
+
+[Term]
 id: PATO:0001873
 name: cylindrical
 def: "A convex 3-D shape quality inhering in a bearer by virtue of the bearer's exhibiting a consistently-sized round cross section." []
@@ -81,6 +122,12 @@ synonym: "rod-shaped" EXACT []
 synonym: "tubulate" NARROW []
 is_a: PATO:0002007 ! convex 3-D shape
 relationship: has_cross_section PATO:0000411 ! circular
+
+[Term]
+id: PATO:0001908
+name: multinucleate
+def: "A nucleate quality inhering in a bearer by virtue of the bearer's having more than one nucleus." []
+is_a: PATO:0002505 ! nucleated
 
 [Term]
 id: PATO:0001979
@@ -141,10 +188,28 @@ def: "A quality inhering in a process by virtue of that process having exactly o
 is_a: PATO:0001236 ! process quality
 
 [Term]
+id: PATO:0002505
+name: nucleated
+def: "A nucleate quality inhering in a bearer by virtue of the bearer's having one or more nucleus." []
+is_a: PATO:0001404 ! nucleate quality
+
+[Term]
 id: PATO:0015006
 name: polymeric
 def: "A quality inhering in a structure by virtue of it consisting of many of repeated, similar or identical subunits, arranged in some orderly array." []
 is_a: PATO:0000141 ! structure
+
+[Typedef]
+id: RO:0000053
+xref: RO:0000053
+
+[Typedef]
+id: RO:0000057
+xref: RO:0000057
+
+[Typedef]
+id: RO:0002180
+xref: RO:0002180
 
 [Typedef]
 id: has_cross_section

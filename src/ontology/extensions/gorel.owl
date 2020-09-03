@@ -1,21 +1,23 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/go/extensions/gorel.owl#"
      xml:base="http://purl.obolibrary.org/obo/go/extensions/gorel.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:go="http://purl.obolibrary.org/obo/go#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
-     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
-     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:go_annotation_extension_relations="http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#">
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:go="http://purl.obolibrary.org/obo/go#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:go_annotation_extension_relations="http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/extensions/gorel.owl">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 1478 Logical Axioms: 409]</rdfs:comment>
         <dc:description>This ontology combines RO together with GO-specific relations in the GOREL namespace, used for annotation extensions. See;
 
 Huntley, R. P., Harris, M. a, Alam-Faruque, Y., et al (2014). A method for increasing expressivity of Gene Ontology annotations using a compositional approach. BMC Bioinformatics, 15(1), 155. doi:10.1186/1471-2105-15-155
@@ -27,7 +29,6 @@ This ontology is created by merging the relevant subset of RO together with GO-s
 Notes on editors version (gorel-edit.owl): 
 The editors version imports ro.owl, and allows addition of new relations (GOREL ID space) and annotation of existing RO relations. Note for editors: if an RO relation is to be made visible in the final gorel product, then make the relation a SubProperty of &apos;go annotation extension relation&apos;. Anything with a logical axiom is included in the final module. Consult Makefile for details</dc:description>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">external</oboInOwl:default-namespace>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 1476 Logical Axioms: 408]</rdfs:comment>
     </owl:Ontology>
     
 
@@ -320,15 +321,27 @@ The editors version imports ro.owl, and allows addition of new relations (GOREL 
     
 
 
-    <!-- http://purl.org/dc/elements/1.1/creator -->
+    <!-- http://purl.org/dc/elements/1.1/description -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
     
 
 
@@ -455,6 +468,12 @@ The editors version imports ro.owl, and allows addition of new relations (GOREL 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_synonym_type</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
     
 
 
@@ -791,29 +810,20 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/GOREL_0000004 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0000004">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a requirement under which the ontology term is observed to apply to the annotated gene product.</obo:IAO_0000115>
-        <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000001</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24431 GO:0003674 GO:0008150 GO:0032991 MI:0315 MOD:00000 PR:000000001 SO:0000110 SO:0000673 SO:0000704 CHEBI:33697</go_annotation_extension_relations:local_range>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Identifies a requirement under which the ontology term is observed to apply to the annotated gene product.</obo:IAO_0000115>
         <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a requirement under which the ontology term is observed to apply to the annotated gene product.</go_annotation_extension_relations:usage>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0000004</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dependent on</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_biological_process"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_chemical"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_molecular_function"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_sequence_feature"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_sequence_or_complex"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dependent_on</oboInOwl:shorthand>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PomBase uses the more specific child relations, and avoids using dependent_on directly.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dependent_on</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete dependent_on</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000004"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a requirement under which the ontology term is observed to apply to the annotated gene product.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Identifies a requirement under which the ontology term is observed to apply to the annotated gene product.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:rph</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -869,30 +879,21 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/GOREL_0000009 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0000009">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000004"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a requirement under which the gene product is located at the specified cellular component.</obo:IAO_0000115>
-        <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005575</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24431 GO:0003674 GO:0005575 GO:0008150 GO:0032991 MI:0315 MOD:00000 PR:000000001 SO:0000110 SO:0000673 SO:0000704</go_annotation_extension_relations:local_range>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Identifies a requirement under which the gene product is located at the specified cellular component.</obo:IAO_0000115>
         <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a requirement under which the gene product is located at the specified cellular component.</go_annotation_extension_relations:usage>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0000009</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">localized by</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_biological_process"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_cellular_component"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_chemical"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_molecular_function"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_sequence_feature"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_sequence_or_complex"/>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">localization_dependent_on</oboInOwl:shorthand>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Previous definition &quot;Located at CC only if (BP occurs) OR (feature is present in annotated gene product) OR (CC is present) OR (gene product is present)&quot; [GOC:mah]</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">localization_dependent_on</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete localization_dependent_on</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000009"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a requirement under which the gene product is located at the specified cellular component.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Identifies a requirement under which the gene product is located at the specified cellular component.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:rph</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -908,27 +909,23 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/GOREL_0000010 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0000010">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000004"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000007"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence feature, such as a protein domain or motif, of the annotated gene product required for its participation in Molecular Function or Biological Process.</obo:IAO_0000115>
-        <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000015</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000110</go_annotation_extension_relations:local_range>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. A sequence feature, such as a protein domain or motif, of the annotated gene product required for its participation in Molecular Function or Biological Process.</obo:IAO_0000115>
         <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence feature, such as a protein domain or motif, of the annotated gene product required for its participation in Molecular Function or Biological Process.</go_annotation_extension_relations:usage>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires_feature</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0000010</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_sequence_feature"/>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires_sequence_feature</oboInOwl:shorthand>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strictly speaking, these fall outside the scope of GO, even with extended annotations</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires_sequence_feature</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete requires_sequence_feature</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000010"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence feature, such as a protein domain or motif, of the annotated gene product required for its participation in Molecular Function or Biological Process.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. A sequence feature, such as a protein domain or motif, of the annotated gene product required for its participation in Molecular Function or Biological Process.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -950,23 +947,20 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/GOREL_0000011 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0000011">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000004"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000007"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">annotated gene product requires regulation by the gene product or complex for its participation in the Molecular Function or Biological Process</obo:IAO_0000115>
-        <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000007</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704</go_annotation_extension_relations:local_range>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Annotated gene product requires regulation by the gene product or complex for its participation in the Molecular Function or Biological Process.</obo:IAO_0000115>
         <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">annotated gene product requires regulation by the gene product or complex for its participation in the Molecular Function or Biological Process</go_annotation_extension_relations:usage>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0000011</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires_regulator</oboInOwl:shorthand>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires_regulator</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete requires_regulator</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000011"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">annotated gene product requires regulation by the gene product or complex for its participation in the Molecular Function or Biological Process</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Annotated gene product requires regulation by the gene product or complex for its participation in the Molecular Function or Biological Process.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -982,25 +976,21 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/GOREL_0000012 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0000012">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000004"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000007"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> The annotated gene product participates in a Biological Process or executes a Molecular Function only in the presence of a substance</obo:IAO_0000115>
-        <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000007</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24431</go_annotation_extension_relations:local_range>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. The annotated gene product participates in a Biological Process or executes a Molecular Function only in the presence of a substance</obo:IAO_0000115>
         <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> The annotated gene product participates in a Biological Process or executes a Molecular Function only in the presence of a substance</go_annotation_extension_relations:usage>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0000012</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_chemical"/>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires_substance</oboInOwl:shorthand>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires_substance</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete requires_substance</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000012"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> The annotated gene product participates in a Biological Process or executes a Molecular Function only in the presence of a substance</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. The annotated gene product participates in a Biological Process or executes a Molecular Function only in the presence of a substance</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -1140,10 +1130,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/GOREL_0000018 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0000018">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000000"/>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0031647"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies specific gene product stabilized in a protein stabilization process (or regulation thereof)</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Identifies specific gene product stabilized in a protein stabilization process (or regulation thereof)</obo:IAO_0000115>
         <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0031647</go_annotation_extension_relations:local_domain>
         <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies specific gene product stabilized in a protein stabilization process (or regulation thereof)</go_annotation_extension_relations:usage>
@@ -1154,12 +1141,14 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stabilizes</oboInOwl:shorthand>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stabilizes</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obsoleted, see https://github.com/geneontology/go-ontology/issues/18540.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete stabilizes</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000018"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies specific gene product stabilized in a protein stabilization process (or regulation thereof)</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Identifies specific gene product stabilized in a protein stabilization process (or regulation thereof)</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -1393,25 +1382,22 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/GOREL_0000028 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0000028">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000004"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The annotated gene product participates in a Biological Process only if the gene product is located at a Cellular Component</obo:IAO_0000115>
-        <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0008150</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005575</go_annotation_extension_relations:local_range>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. The annotated gene product participates in a Biological Process only if the gene product is located at a Cellular Component</obo:IAO_0000115>
         <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The annotated gene product participates in a Biological Process only if the gene product is located at a Cellular Component</go_annotation_extension_relations:usage>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0000028</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dependent_on_localization</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">only when located at</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires_localization</oboInOwl:shorthand>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires_localization</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete requires_localization</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000028"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The annotated gene product participates in a Biological Process only if the gene product is located at a Cellular Component</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. The annotated gene product participates in a Biological Process only if the gene product is located at a Cellular Component</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -1464,8 +1450,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/GOREL_0000030 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0000030">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/MOD_00000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies the gene product that catalyzes a modification on the annotated gene product</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Identifies the gene product that catalyzes a modification on the annotated gene product</obo:IAO_0000115>
         <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00000</go_annotation_extension_relations:local_domain>
         <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies the gene product that catalyzes a modification on the annotated gene product</go_annotation_extension_relations:usage>
@@ -1473,12 +1458,14 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified by</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified_by</oboInOwl:shorthand>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">modified_by</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://wiki.geneontology.org/index.php/Annotation_usage_examples_for_each_annotation_extension_relation</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete modified_by</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000030"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies the gene product that catalyzes a modification on the annotated gene product</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Identifies the gene product that catalyzes a modification on the annotated gene product</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -1618,25 +1605,22 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/GOREL_0000502 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0000502">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000004"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000007"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/MOD_00000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotated gene product must be modified as described by extension to participate in the Molecular Function or Biological Process.</obo:IAO_0000115>
-        <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000007</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOD:00000</go_annotation_extension_relations:local_range>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Annotated gene product must be modified as described by extension to participate in the Molecular Function or Biological Process.</obo:IAO_0000115>
         <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotated gene product must be modified as described by extension to participate in the Molecular Function or Biological Process.</go_annotation_extension_relations:usage>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0000502</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">only with modification</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires_modification</oboInOwl:shorthand>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note this relation is not intended for use in GO annotation.  Discussion about using PR ID in column 17 instead; if we agree on that, this relation will be made obsolete</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires_modification</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete requires_modification</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000502"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotated gene product must be modified as described by extension to participate in the Molecular Function or Biological Process.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Annotated gene product must be modified as described by extension to participate in the Molecular Function or Biological Process.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -1857,10 +1841,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/GOREL_0000752 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0000752">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000015</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697 SO:0000839</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies an entity directly affected (transported, modified, consumed or destroyed) by the gene product&apos;s participation in a molecular function or biological process. It is expected that the gene product and entity will physically interact, this can be determined either by a direct binding assay or inferred from the activity of the gene product, for example, a gene product with catalytic activity is inferred to bind its substrate.</go_annotation_extension_relations:usage>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0000019</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0000504</oboInOwl:hasAlternativeId>
@@ -1872,13 +1853,11 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">directly_localizes</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_substrate</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_chemical"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_sequence_or_complex"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_direct_input</oboInOwl:shorthand>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If the entity is indirectly bound/acted upon by the gene product that is the subject of an annotation,  then the relation: has_indirect_input should be considered [GOC:ecd]</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_direct_input</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This relation is part of the ShEx speficications.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete has_direct_input</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000752"/>
@@ -1904,10 +1883,9 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/GOREL_0000754 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0000754">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000004"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a specific sequence feature required in the interacting gene product to enable the cellular component location or occurance of the function or process</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Identifies a specific sequence feature required in the interacting gene product to enable the cellular component location or occurance of the function or process</obo:IAO_0000115>
         <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000001</go_annotation_extension_relations:local_domain>
         <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000110</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a specific sequence feature required in the interacting gene product to enable the cellular component location or occurance of the function or process</go_annotation_extension_relations:usage>
@@ -1915,13 +1893,13 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires feature in target</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires_target_sequence_feature</oboInOwl:shorthand>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">requires_target_sequence_feature</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete requires_target_sequence_feature</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000754"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a specific sequence feature required in the interacting gene product to enable the cellular component location or occurance of the function or process</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Identifies a specific sequence feature required in the interacting gene product to enable the cellular component location or occurance of the function or process</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ecd</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -1937,24 +1915,22 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/GOREL_0000755 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0000755">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a chemical, gene product or complex in the absence of which an ontology term is observed to apply to the annotated gene product.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Identifies a chemical, gene product or complex in the absence of which an ontology term is observed to apply to the annotated gene product.</obo:IAO_0000115>
         <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000001</go_annotation_extension_relations:local_domain>
         <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a chemical, gene product or complex in the absence of which an ontology term is observed to apply to the annotated gene product.</go_annotation_extension_relations:usage>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0000755</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_chemical"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_sequence_or_complex"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_absence_of</oboInOwl:shorthand>
         <rdfs:comment>DEPRECATION WARNING: The GO editors have agreed that this relation should be deprecated. There are two main reasons for this 1. The relation does not extend the meaning of the GO term, as annotation relations are meant to, but instead specifies conditions under which the annotation is true. This can not be expressed in OWL. Annotation extensions using this relation will never fold. 2. The relation includes a hidden negation. This is problematic for a number of reasons, the most important of which is that burying negations in otherwise positive relationships can cause serious problems for inference.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_absence_of</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This relation was obsoleted because it does not follow GO-CAM specifications.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete in_absence_of</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000755"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a chemical, gene product or complex in the absence of which an ontology term is observed to apply to the annotated gene product.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE. Identifies a chemical, gene product or complex in the absence of which an ontology term is observed to apply to the annotated gene product.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:rph</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2062,7 +2038,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_cellular_component"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
-        <oboInOwl:shorthand>regulates_o_occurs_in</oboInOwl:shorthand>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates_o_occurs_in</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates process that occurs in</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
@@ -2105,7 +2081,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_cell_or_anatomical"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
-        <oboInOwl:shorthand>regulates_o_results_in_movement_of</oboInOwl:shorthand>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates_o_results_in_movement_of</oboInOwl:shorthand>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is the combination of the regulates relation with the results_in_movement_of relation.  Example of use: an annotation of gene X to &apos;regulation of cell migration with &apos;regulates_o_results_in_movement_of(CL:0000653) in column 16 would mean that gene X is involved in the regulation of glomerular visceral epithelial cell migration.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates process that results in movement of</rdfs:label>
     </owl:ObjectProperty>
@@ -2157,6 +2133,22 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GOREL_0001007 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0001007">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/RO_0002608"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pg</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-21T19:16:04Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0001007</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediated_by</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_mediated_by</oboInOwl:shorthand>
+        <rdfs:label xml:lang="en">obsolete mediated by</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GOREL_0001008 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0001008">
@@ -2174,7 +2166,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0001008</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>regulates_o_acts_on_population_of</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
-        <oboInOwl:shorthand>regulates_o_acts_on_population_of</oboInOwl:shorthand>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates_o_acts_on_population_of</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates process that acts on population of</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
@@ -2217,7 +2209,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_cell_or_anatomical"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
-        <oboInOwl:shorthand>regulates_o_results_in_acquisition_of_features_of</oboInOwl:shorthand>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates_o_results_in_acquisition_of_features_of</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates acquisition of features of</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
@@ -2257,7 +2249,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates_o_has_agent</oboInOwl:shorthand>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates_o_has_agent</rdfs:label>
+        <rdfs:label>regulates_o_has_agent</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOREL_0001011"/>
@@ -2390,7 +2382,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_cell_or_anatomical"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
-        <oboInOwl:shorthand>regulates_o_results_in_commitment_to</oboInOwl:shorthand>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates_o_results_in_commitment_to</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates commitment to</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
@@ -2431,7 +2423,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_cell_or_anatomical"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
-        <oboInOwl:shorthand>regulates_o_results_in_development_of</oboInOwl:shorthand>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates_o_results_in_development_of</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates development of</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
@@ -2588,7 +2580,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_cell_or_anatomical"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
-        <oboInOwl:shorthand>regulates_o_results_in_specification_of</oboInOwl:shorthand>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates_o_results_in_specification_of</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulates specification of</rdfs:label>
     </owl:ObjectProperty>
     <owl:Axiom>
@@ -2680,20 +2672,48 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GOREL_0002008 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0002008">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/RO_0002505"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pg</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-21T16:32:15Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0002008</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_has_intermediate</oboInOwl:shorthand>
+        <rdfs:label xml:lang="en">obsolete has_intermediate</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GOREL_0002010 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0002010">
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pg</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-11-21T18:00:03Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0002010</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_results_in_transport_to_from_or_mediated_by</oboInOwl:shorthand>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This relation was only used for one class, &apos;endosomal transport&apos; (GO:0016197), which groups together disparate roles the participants can play - it was defined as &apos;The directed movement of substances into, out of *or mediated by* an endosome...&apos; The term has been redefined and the logical definition changed accordingly.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete results_in_transport_to_from_or_mediated_by</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GOREL_0098702 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/GOREL_0098702">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/GOREL_0001011"/>
-        <obo:IAO_0000115>A relation that holds between the regulation of a molecular function and the agent that executes that function.</obo:IAO_0000115>
+        <obo:IAO_0000115>OBSOLETE. A relation that holds between the regulation of a molecular function and the agent that executes that function.</obo:IAO_0000115>
         <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0098772 GO:0065009</go_annotation_extension_relations:local_domain>
         <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0032991 SO:0000374 PR:000000001</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>Use this relation to link either a molecular function, or a biological process that regulates a molecular function, to the gene product or complex that executes the regulated function.</go_annotation_extension_relations:usage>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0098702</oboInOwl:hasDbXref>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_sequence_or_complex"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
         <oboInOwl:shorthand>regulates_activity_of</oboInOwl:shorthand>
-        <rdfs:label>regulates activity of</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This relation has been obsoleted as it is not part of the GO ShEx specifications.</rdfs:comment>
+        <rdfs:label>obsolete regulates activity of</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
     
 
@@ -3039,7 +3059,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-20T17:11:08Z</oboInOwl:creation_date>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002020</oboInOwl:hasDbXref>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transports</oboInOwl:shorthand>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transports</rdfs:label>
+        <rdfs:label>transports</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -3257,7 +3277,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000015</go_annotation_extension_relations:local_domain>
         <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0008150 WBls:0000075 ZFS:0100000 UBERON:0000105</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a process or life stage during which a molecular function or biological process occurs. This is weaker than parthood. So, for example, various processes occur during gastrulation without being part of it.</go_annotation_extension_relations:usage>
-        <oboInOwl:hasBroadSynonym>during</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">during</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002092</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurs_during</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
@@ -3274,7 +3294,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RO_0002092"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-        <owl:annotatedTarget>during</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">during</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PomBase:curators</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/RO_0008000"/>
     </owl:Axiom>
@@ -3318,6 +3338,10 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002131"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002131"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
         </owl:propertyChainAxiom>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>x overlaps y if and only if there exists some z such that x has part z and z part of y</obo:IAO_0000115>
@@ -3600,7 +3624,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/RO_0002218 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002218">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/GOREL_0000000"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
         <obo:IAO_0000112>&apos;heart development&apos; has active participant some Shh protein</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
@@ -3679,7 +3702,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Allen%27s_interval_algebra"/>
         <obo:IAO_0000232>Do not use this relation directly. It is ended as a grouping for relations between occurrents involving the relative timing of their starts and ends.</obo:IAO_0000232>
-        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://docs.google.com/document/d/1kBv1ep_9g3sTR-SD3jqzFqhuwo9TPNF-l-9fUDbO6rM/edit?pli=1</dc:source>
+        <terms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://docs.google.com/document/d/1kBv1ep_9g3sTR-SD3jqzFqhuwo9TPNF-l-9fUDbO6rM/edit?pli=1</terms:source>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002222</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporally_related_to</oboInOwl:shorthand>
@@ -3912,7 +3935,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relationship linking a entity and its participation in a process whereby at the beginning of the process the entity does not exist and at the end of the process the entity exists.</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mtg_berkeley_2013</obo:IAO_0000119>
+        <obo:IAO_0000119>GOC:mtg_berkeley_2013</obo:IAO_0000119>
         <go_annotation_extension_relations:local_domain>GO:0008150</go_annotation_extension_relations:local_domain>
         <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relationship linking a entity and its participation in a process whereby at the beginning of the process the entity does not exist and at the end of the process the entity exists.</go_annotation_extension_relations:usage>
@@ -3949,7 +3972,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000119>GOC:mtg_berkeley_2013</obo:IAO_0000119>
         <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000015</go_annotation_extension_relations:local_domain>
         <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766</go_annotation_extension_relations:local_range>
-        <go_annotation_extension_relations:usage>The relationship that links an entity with the process that results in the formation and shaping of that entity over time from an immature to a mature state.</go_annotation_extension_relations:usage>
+        <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relationship that links an entity with the process that results in the formation and shaping of that entity over time from an immature to a mature state.</go_annotation_extension_relations:usage>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0001015</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002298</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
@@ -3978,7 +4001,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000119>GOC:mtg_berkeley_2013</obo:IAO_0000119>
         <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000015</go_annotation_extension_relations:local_domain>
         <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000000 GO:0005575 PO:0009012 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766</go_annotation_extension_relations:local_range>
-        <go_annotation_extension_relations:usage>The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in it&apos;s shape and results in an end point state of that entity.</go_annotation_extension_relations:usage>
+        <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in it&apos;s shape and results in an end point state of that entity.</go_annotation_extension_relations:usage>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOREL:0001013</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002299</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">go/extensions/gorel</oboInOwl:hasOBONamespace>
@@ -4000,7 +4023,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004047"/>
         <obo:RO_0004049 rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</dc:creator>
+        <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</terms:creator>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002304</oboInOwl:hasDbXref>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">causally_upstream_of,_positive_effect</oboInOwl:shorthand>
         <rdfs:comment>holds between x and y if and only if x is causally upstream of y and the progression of x increases the frequency, rate or extent of y</rdfs:comment>
@@ -4015,7 +4038,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004046"/>
         <obo:RO_0004050 rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</dc:creator>
+        <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cjm</terms:creator>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002305</oboInOwl:hasDbXref>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">causally_upstream_of,_negative_effect</oboInOwl:shorthand>
         <rdfs:comment>holds between x and y if and only if x is causally upstream of y and the progression of x decreases the frequency, rate or extent of y</rdfs:comment>
@@ -4169,7 +4192,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
         <obo:IAO_0000119>http://www.geneontology.org/GO.annotation.conventions.shtml#colocalizes_with</obo:IAO_0000119>
         <obo:IAO_0000232>In the context of the Gene Ontology, colocalizes_with may be used for annotating to cellular component terms[GO]</obo:IAO_0000232>
-        <dc:creator>Gene Ontology Consortium</dc:creator>
+        <terms:creator>Gene Ontology Consortium</terms:creator>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002325</oboInOwl:hasDbXref>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colocalizes_with</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">colocalizes with</rdfs:label>
@@ -5037,7 +5060,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <obo:IAO_0000118>An interaction relation between x and y in which x catalyzes a reaction in which a phosphate group is added to y.</obo:IAO_0000118>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002447</oboInOwl:hasDbXref>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphorylates</oboInOwl:shorthand>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphorylates</rdfs:label>
+        <rdfs:label>phosphorylates</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -6987,9 +7010,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002019"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#x"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#y"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002327"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#y"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#z"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -6998,9 +7021,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002327"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#y"/>
-                                <swrl:argument2 rdf:resource="urn:swrl#z"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002019"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#x"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#y"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -7464,5 +7487,5 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
 
