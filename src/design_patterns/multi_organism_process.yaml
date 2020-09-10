@@ -1,14 +1,14 @@
 pattern_name: 'multi_organism_process'
 
 classes:
-  'biological process': 'GO:0008150'
-  'multi organismal process quality': 'PATO:0002486'
+  biological process: 'GO:0008150'
+  multi organismal process quality: 'PATO:0002486'
 
 relations:
-  'bearer of': 'RO:0000053'
+  bearer of: 'RO:0000053'
 
 vars: 
-  'process': "biological process" 
+  process: "'biological process'" 
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -28,13 +28,10 @@ def:
   text: "%s which involves another organism."
   vars:
     - 'process'
-
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
-
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 

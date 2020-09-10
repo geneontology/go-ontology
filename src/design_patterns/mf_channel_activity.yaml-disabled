@@ -1,11 +1,11 @@
-pattern_name: 'mf_transmembrane_transporter_activity'
+pattern_name: 'mf_channel activity'
 
 classes:
-  'transmembrane transporter activity': 'GO:0022857'
-  'part of' some '%s transmembrane transport'
+  channel activity: 'GO:0015267'
+#  'part of' some '%s transmembrane transport'
 
 relations: 
-  'transports_or_maintains_localization_of': 'RO:0002313'
+  transports_or_maintains_localization_of: 'RO:0002313'
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -17,20 +17,17 @@ data_list_vars:
   related_syn: "xsd:string"
   
 name:
-     text: "%s transmembrane transporter activity"
+  text: "%s channel activity"
 
 
 def:
-  text: "Enables the transfer of a %s from one side of a membrane to the other."
-
-
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
+  text: "Enables the energy-independent facilitated diffusion of %s from one side of a membrane to the other, mediated by passage of a solute through a transmembrane aqueous pore or channel. Stereospecificity is not exhibited but this transport may be specific for a particular molecular species or class of molecules."
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
-   value: cross_references
-   
+xref: 
+  value: cross_references
+
 namespace: 
   text: 'biological_process'
   

@@ -1,14 +1,14 @@
 pattern_name: 'chromosomal_region'
 
 classes:
-  'sequence_region':'SO:0000110'
-  'chromosomal region':'GO:0098687'  
+  sequence_region: 'SO:0000110'
+  chromosomal region: 'GO:0098687'  
   
 relations:
-  'coincident with':'RO:0002008'
+  coincident with: 'RO:0002008'
   
 vars: 
-  'sequence_region':"sequence_region" 
+  sequence_region: "sequence_region" 
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -28,11 +28,10 @@ def:
   text: "The region of a chromosome that that coincides with the %s DNA and associated proteins."
   vars:
     - 'sequence_region'
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 

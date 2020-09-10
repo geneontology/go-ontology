@@ -21,7 +21,7 @@ def:
      - entity
 
 equivalentTo:
-  text: "'biological regulation' and 'regulates' some %s"
+  text: "'biological regulation' and regulates some %s"
   vars:
     - entity
 

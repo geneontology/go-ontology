@@ -11,9 +11,9 @@ vars:
  target: "'anatomical structure'"
 
 name:
-     text: "%s maturation"
-     vars:
-       - target
+  text: "%s maturation"
+  vars:
+    - target
 
 def:
   text: "A developmental process, independent of morphogenetic (shape) change, that is required for the %s to attain its fully functional state."
@@ -24,7 +24,3 @@ equivalentTo:
   text: " 'developmental maturation' and 'results in developmental progression of' some %s"
   vars:
     - target
-
-    
-
-

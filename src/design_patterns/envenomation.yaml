@@ -1,14 +1,14 @@
 pattern_name: 'envenomation'
 
 classes:
-  'envenomation resulting in modification of morphology or physiology of other organism':'GO:0044468'
-  'modification of morphology or physiology of other organism':'GO:0035821'  
+  envenomation resulting in modification of morphology or physiology of other organism: 'GO:0044468'
+  modification of morphology or physiology of other organism: 'GO:0035821'
   
 relations:
-  'has part':'BFO:0000051'
+  has part: 'BFO:0000051'
   
 vars: 
-  'mod':"modification of morphology or physiology of other organism" 
+  mod: "'modification of morphology or physiology of other organism'"
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -28,11 +28,10 @@ def:
   text: "A process that begins with venom being forced into an organism by the bite or sting of another organism, and ends with the resultant %s"
   vars:
     - 'mod'
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 

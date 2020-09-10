@@ -12,9 +12,9 @@ vars:
  
 
 name:
-     text: "%s vesicle-mediated transport"
-     vars:
-       -  target
+  text: "%s vesicle-mediated transport"
+  vars:
+    -  target
 
 def:
   text: "The directed movement of %s into, out of or within a cell, or between cells, mediated by small transport vesicles."
@@ -22,9 +22,6 @@ def:
      -  target
 
 equivalentTo:
-  text: " 'vesicle-mediated transport' and 'transports_or_maintains_localization_of' some %s "
+  text: "'vesicle-mediated transport' and 'transports_or_maintains_localization_of' some %s "
   vars:
     -  target
-    
-
-
