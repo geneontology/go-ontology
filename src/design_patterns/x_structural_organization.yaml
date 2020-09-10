@@ -2,19 +2,19 @@
 pattern_name: 'x_structural_organization_template.yaml' # Add a name used to identify the pattern here.
 
 classes:
-  'anatomical structure':'UBERON:0000061'
-  'anatomical structure arrangement':'GO:0048532'
+  anatomical structure: 'UBERON:0000061'
+  anatomical structure arrangement: 'GO:0048532'
    # A dictionary of OWL classes, references in the pattern. Key = label (name); Value = OBO style ID (e.g. GO:1234567)
 
   
 relations:
-  'results in structural organization of':'RO:0002355' 
+  results in structural organization of: 'RO:0002355' 
   # A dictionary of OWL object properties (relations, referenced in the pattern. Key = label (name); Value = OBO style ID.
   
 vars: # A dictionary of class variable names (Keys = var name, value = range, specified as Manchester Syntax class expression.)
   # Manchester syntax class expression must be double-quoted.  
   # OWL entities referenced must be single quoted and in dictionaries.
-  'target':"'anatomical structure'" # Please choose informative var names without special characters or spaces (apart from '_')
+  target: "'anatomical structure'" # Please choose informative var names without special characters or spaces (apart from '_')
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -35,12 +35,10 @@ def: # See comments on name field
   text: "The process that contributes to the act of creating the structural organization of the %s. This process pertains to the physical shapin of a rudimetary structure."
   vars:
     - 'target'
-  
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 

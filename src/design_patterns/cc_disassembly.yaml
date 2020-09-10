@@ -1,14 +1,14 @@
 pattern_name: 'cc_disassembly'
 
 classes:
-  'cellular component': 'GO:0005575'
-  'cellular component disassembly': 'GO:0022411'
+  cellular component: 'GO:0005575'
+  cellular component disassembly: 'GO:0022411'
 
 relations: 
-  'results_in_disassembly_of': 'RO:0002590'
+  results_in_disassembly_of: 'RO:0002590'
 
 vars:
- 'target': "cellular component"
+ target: "'cellular component'"
  
 # Boilerplate - don't edit
 data_list_vars:

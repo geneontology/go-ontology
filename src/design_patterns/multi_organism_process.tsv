@@ -1,28 +1,14 @@
-iri	iri label	process	process label
-GO:0098740	multi organism cell adhesion	GO:0007155	cell adhesion
-GO:0044706	multi-multicellular organism process	GO:0032501	multicellular organismal process
-GO:0051705	multi-organism behavior	GO:0007610	behavior
-GO:0044034	multi-organism biosynthetic process	GO:0009058	biosynthetic process
-GO:0044041	multi-organism carbohydrate catabolic process	GO:0016052	carbohydrate catabolic process
-GO:0044040	multi-organism carbohydrate metabolic process	GO:0005975	carbohydrate metabolic process
-GO:0044035	multi-organism catabolic process	GO:0009056	catabolic process
-GO:0044037	multi-organism cell wall macromolecule metabolic process	GO:0044036	cell wall macromolecule metabolic process
-GO:1902581	multi-organism cellular localization	GO:0051641	cellular localization
-GO:0044764	multi-organism cellular process	GO:0009987	cellular process
-GO:0044043	multi-organism glucan metabolic process	GO:0044042	glucan metabolic process
-GO:1902583	multi-organism intracellular transport	GO:0046907	intracellular transport
-GO:1902579	multi-organism localization	GO:0051179	localization
-GO:1902539	multi-organism macropinocytosis	GO:0044351	macropinocytosis
-GO:0044800	multi-organism membrane fusion	GO:0061025	membrane fusion
-GO:1902535	multi-organism membrane invagination	GO:0010324	membrane invagination
-GO:0044803	multi-organism membrane organization	GO:0061024	membrane organization
-GO:0044033	multi-organism metabolic process	GO:0008152	metabolic process
-GO:1902541	multi-organism micropinocytosis	GO:0044350	micropinocytosis
-GO:1902594	multi-organism nuclear import	GO:0051170	nuclear import
-GO:1902590	multi-organism organelle organization	GO:0006996	organelle organization
-GO:1902537	multi-organism pinocytosis	GO:0006907	pinocytosis
-GO:1902588	multi-organism plasmodesmata-mediated intercellular transport	GO:0010497	plasmodesmata-mediated intercellular transport
-GO:0051704	multi-organism process	GO:0008150	biological_process
-GO:0044705	multi-organism reproductive behavior	GO:0019098	reproductive behavior
-GO:0044703	multi-organism reproductive process	GO:0022414	reproductive process
-GO:0044766	multi-organism transport	GO:0006810	transport
+defined_class	defined_class_label	process	process_label
+http://purl.obolibrary.org/obo/GO_0044706	multi-multicellular organism process	http://purl.obolibrary.org/obo/GO_0032501	multicellular organismal process
+http://purl.obolibrary.org/obo/GO_0044040	multi-organism carbohydrate metabolic process	http://purl.obolibrary.org/obo/GO_0005975	carbohydrate metabolic process
+http://purl.obolibrary.org/obo/GO_0044035	multi-organism catabolic process	http://purl.obolibrary.org/obo/GO_0009056	catabolic process
+http://purl.obolibrary.org/obo/GO_1902581	multi-organism cellular localization	http://purl.obolibrary.org/obo/GO_0051641	cellular localization
+http://purl.obolibrary.org/obo/GO_0044764	multi-organism cellular process	http://purl.obolibrary.org/obo/GO_0009987	cellular process
+http://purl.obolibrary.org/obo/GO_1902579	multi-organism localization	http://purl.obolibrary.org/obo/GO_0051179	localization
+http://purl.obolibrary.org/obo/GO_0044800	multi-organism membrane fusion	http://purl.obolibrary.org/obo/GO_0061025	membrane fusion
+http://purl.obolibrary.org/obo/GO_1902535	multi-organism membrane invagination	http://purl.obolibrary.org/obo/GO_0010324	membrane invagination
+http://purl.obolibrary.org/obo/GO_0044803	multi-organism membrane organization	http://purl.obolibrary.org/obo/GO_0061024	membrane organization
+http://purl.obolibrary.org/obo/GO_0044033	multi-organism metabolic process	http://purl.obolibrary.org/obo/GO_0008152	metabolic process
+http://purl.obolibrary.org/obo/GO_0051704	multi-organism process	http://purl.obolibrary.org/obo/GO_0008150	biological_process
+http://purl.obolibrary.org/obo/GO_0044703	multi-organism reproductive process	http://purl.obolibrary.org/obo/GO_0022414	reproductive process
+http://purl.obolibrary.org/obo/GO_0044766	multi-organism transport	http://purl.obolibrary.org/obo/GO_0006810	transport

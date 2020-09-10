@@ -5,32 +5,27 @@ classes:
   protein localization: "GO:0008104"
 
 relations: 
-  has_target_end_location: "RO:0002339"
+  has target end location: "RO:0002339"
 
 vars:
  target: "'cellular component'"
 
 name:
-     text: "protein localization to %s"
-     vars:
-       - target
+  text: "protein localization to %s"
+  vars:
+    - target
 
 generated_synonyms:
-   - 
-      text: "establishment of protein localisation to %s"
-      vars: 
-        - target
+  - text: "establishment of protein localisation to %s"
+    vars: 
+      - target
+  - text: "establishment of protein localization in %s"
+    vars: 
+      - target
+  - text: "establishment of protein localisation in %s"
+    vars: 
+      - target
 
-   - 
-      text: "establishment of protein localization in %s"
-      vars: 
-        - target
- 
-   - 
-      text: "establishment of protein localisation in %s"
-      vars: 
-        - target
-     
 def:
   text: "A process in which a protein is transported to, or maintained in, a location within %s."
   vars:
@@ -40,6 +35,3 @@ equivalentTo:
   text: " 'protein localization' and 'has target end location' some %s"
   vars:
     - target
-    
-
-

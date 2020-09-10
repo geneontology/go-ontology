@@ -1,146 +1,199 @@
-iri	iri label	biological_regulation	biological_regulation label	entity	entity label
-GO:0060069	Wnt signaling pathway, regulating spindle positioning	GO:0035567	non-canonical Wnt signaling pathway	GO:0040001	establishment of mitotic spindle localization
-GO:0006884	cell volume homeostasis	GO:0065007	biological regulation	OBA:0000056	cell volume
-GO:0036438	maintenance of lens transparency	GO:0060249	anatomical structure homeostasis	OBA:1000035	lens of camera-type eye opacity
-GO:0098815	modulation of excitatory postsynaptic potential	GO:0050789	regulation of biological process	GO:0060079	excitatory postsynaptic potential
-GO:0098828	modulation of inhibitory postsynaptic potential	GO:0050789	regulation of biological process	GO:0060080	inhibitory postsynaptic potential
-GO:0031658	negative regulation of cyclin-dependent protein serine/threonine kinase activity involved in G1/S transition of mitotic cell cycle	GO:0045736	negative regulation of cyclin-dependent protein serine/threonine kinase activity	GO:0000082	G1/S transition of mitotic cell cycle
-GO:0031661	negative regulation of cyclin-dependent protein serine/threonine kinase activity involved in G2/M transition of mitotic cell cycle	GO:0045736	negative regulation of cyclin-dependent protein serine/threonine kinase activity	GO:0000086	G2/M transition of mitotic cell cycle
-GO:1902574	negative regulation of leucine import by regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100065	negative regulation of leucine import by transcription from RNA polymerase II promoter
-GO:1900547	negative regulation of phenotypic switching by regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100059	negative regulation of phenotypic switching by transcription from RNA polymerase II promoter
-GO:0031659	positive regulation of cyclin-dependent protein serine/threonine kinase activity involved in G1/S transition of mitotic cell cycle	GO:0045737	positive regulation of cyclin-dependent protein serine/threonine kinase activity	GO:0000082	G1/S transition of mitotic cell cycle
-GO:0031662	positive regulation of cyclin-dependent protein serine/threonine kinase activity involved in G2/M transition of mitotic cell cycle	GO:0045737	positive regulation of cyclin-dependent protein serine/threonine kinase activity	GO:0000086	G2/M transition of mitotic cell cycle
-GO:1904191	positive regulation of cyclin-dependent protein serine/threonine kinase activity involved in meiotic nuclear division	GO:0045737	positive regulation of cyclin-dependent protein serine/threonine kinase activity	GO:0140013	meiotic nuclear division
-GO:0046719	regulation by virus of viral protein levels in host cell	GO:0065007	biological regulation	OBA:0000181	viral protein levels
-GO:1900416	regulation of 4,6-pyruvylated galactose residue biosynthetic process by regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100034	regulation of 4,6-pyruvylated galactose residue biosynthetic process by transcription from RNA polymerase II promoter
-GO:0098904	regulation of AV node cell action potential	GO:0050789	regulation of biological process	GO:0086016	AV node cell action potential
-GO:1905918	regulation of CoA-transferase activity	GO:0065007	biological regulation	GO:0008410	CoA-transferase activity
-GO:0097752	regulation of DNA stability	GO:0065007	biological regulation	OBA:0007000	DNA stability
-GO:0035297	regulation of Malpighian tubule diameter	GO:0065007	biological regulation	OBA:0000006	Malpighian tubule diameter
-GO:0035298	regulation of Malpighian tubule size	GO:0065007	biological regulation	OBA:0000007	Malpighian tubule size
-GO:0098906	regulation of Purkinje myocyte action potential	GO:0050789	regulation of biological process	GO:0086017	Purkinje myocyte action potential
-GO:0043487	regulation of RNA stability	GO:0065007	biological regulation	OBA:0000009	RNA stability
-GO:0098907	regulation of SA node cell action potential	GO:0050789	regulation of biological process	GO:0086015	SA node cell action potential
-GO:1905921	regulation of acetylcholine biosynthetic process	GO:0065007	biological regulation	GO:0008292	acetylcholine biosynthetic process
-GO:0030832	regulation of actin filament length	GO:0065007	biological regulation	OBA:0000011	actin filament length
-GO:0098900	regulation of action potential	GO:0050789	regulation of biological process	GO:0001508	action potential
-GO:0090066	regulation of anatomical structure size	GO:0065007	biological regulation	OBA:0000015	anatomical structure size
-GO:0002002	regulation of angiotensin levels in blood	GO:0065007	biological regulation	OBA:0000016	angiotensin levels in blood
-GO:0032098	regulation of appetite	GO:0065007	biological regulation	OBA:0000018	appetite
-GO:0016243	regulation of autophagosome size	GO:0065007	biological regulation	OBA:0000022	autophagic vacuole size
-GO:0031133	regulation of axon diameter	GO:0065007	biological regulation	OBA:0000023	axon diameter
-GO:0065008	regulation of biological quality	GO:0065007	biological regulation	OBA:0000001	biological attribute
-GO:0097746	regulation of blood vessel diameter	GO:0065008	regulation of biological quality	OBA:0000183	blood vessel diameter
-GO:0050880	regulation of blood vessel size	GO:0065007	biological regulation	OBA:0000032	blood vessel size
-GO:0050878	regulation of body fluid levels	GO:0065007	biological regulation	OBA:0000036	body fluid levels
-GO:0060378	regulation of brood size	GO:0065007	biological regulation	OBA:0000037	brood size
-GO:0098905	regulation of bundle of His cell action potential	GO:0050789	regulation of biological process	GO:0086043	bundle of His cell action potential
-GO:0031413	regulation of buoyancy	GO:0065007	biological regulation	OBA:0000039	buoyancy
-GO:1900391	regulation of cAMP-mediated signaling by regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100019	regulation of cAMP-mediated signaling by transcription from RNA polymerase II promoter
-GO:0098901	regulation of cardiac muscle cell action potential	GO:0050789	regulation of biological process	GO:0086001	cardiac muscle cell action potential
-GO:0086036	regulation of cardiac muscle cell membrane potential	GO:0065007	biological regulation	OBA:0000046	cardiac muscle cell membrane potential
-GO:0010882	regulation of cardiac muscle contraction by calcium ion signaling	GO:0019722	calcium-mediated signaling	GO:0060048	cardiac muscle contraction
-GO:0060305	regulation of cell diameter	GO:0065007	biological regulation	OBA:0000048	cell diameter
-GO:1905915	regulation of cell differentiation involved in phenotypic switching	GO:0065007	biological regulation	GO:0090679	cell differentiation involved in phenotypic switching
-GO:1905933	regulation of cell fate determination	GO:0065007	biological regulation	GO:0001709	cell fate determination
-GO:0032536	regulation of cell projection size	GO:0065007	biological regulation	OBA:0000051	cell projection size
-GO:0008360	regulation of cell shape	GO:0065007	biological regulation	OBA:0000052	cell shape
-GO:0008361	regulation of cell size	GO:0065007	biological regulation	OBA:0000055	cell size
-GO:0032535	regulation of cellular component size	GO:0065007	biological regulation	OBA:0000057	cellular component size
-GO:1905957	regulation of cellular response to alcohol	GO:0065007	biological regulation	GO:0097306	cellular response to alcohol
-GO:1900427	regulation of cellular response to oxidative stress by regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100038	regulation of cellular response to oxidative stress by transcription from RNA polymerase II promoter
-GO:0044537	regulation of circulating fibrinogen levels	GO:0065007	biological regulation	OBA:0000061	circulating fibrinogen levels
-GO:1990580	regulation of cytoplasmic translational termination	GO:0050789	regulation of biological process	GO:0002184	cytoplasmic translational termination
-GO:0051480	regulation of cytosolic calcium ion concentration	GO:0055074	calcium ion homeostasis	OBA:0006038	concentration of of calcium ion in cytosol
-GO:1901718	regulation of dipeptide transmembrane transport by regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100063	regulation of dipeptide transmembrane transport by transcription from RNA polymerase II promoter
-GO:0061389	regulation of direction of cell growth	GO:0065007	biological regulation	OBA:0000066	direction of cell growth
-GO:0016476	regulation of embryonic cell shape	GO:0065007	biological regulation	OBA:0000067	embryonic cell shape
-GO:0051036	regulation of endosome size	GO:0065007	biological regulation	OBA:0000068	endosome size
-GO:0071898	regulation of estrogen receptor binding	GO:0050789	regulation of biological process	GO:0030331	estrogen receptor binding
-GO:2000531	regulation of fatty acid biosynthetic process by regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100070	regulation of fatty acid biosynthetic process by transcription from RNA polymerase II promoter
-GO:0071809	regulation of fever generation by regulation of prostaglandin biosynthesis	GO:0050789	regulation of biological process	GO:0100008	regulation of fever generation by prostaglandin biosynthetic process
-GO:0071810	regulation of fever generation by regulation of prostaglandin secretion	GO:0050789	regulation of biological process	GO:0100009	regulation of fever generation by prostaglandin secretion
-GO:0060863	regulation of floral organ abscission by signal transduction	GO:0007165	signal transduction	GO:0010227	floral organ abscission
-GO:0032533	regulation of follicle cell microvillus length	GO:0065007	biological regulation	OBA:0000072	follicle cell microvillus length
-GO:1905942	regulation of formation of growth cone in injured axon	GO:0065007	biological regulation	GO:0048689	formation of growth cone in injured axon
-GO:1900415	regulation of fungal-type cell wall biogenesis by regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100033	regulation of fungal-type cell wall biogenesis by transcription from RNA polymerase II promoter
-GO:0006349	regulation of gene expression by genetic imprinting	GO:0071514	genetic imprinting	GO:0010467	gene expression
-GO:1905936	regulation of germ cell proliferation	GO:0065007	biological regulation	GO:0036093	germ cell proliferation
-GO:1900389	regulation of glucose import by regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100018	regulation of glucose import by transcription from RNA polymerase II promoter
-GO:1905939	regulation of gonad development	GO:0065007	biological regulation	GO:0008406	gonad development
-GO:0060902	regulation of hair cycle by BMP signaling pathway	GO:0030509	BMP signaling pathway	GO:0042633	hair cycle
-GO:0060901	regulation of hair cycle by canonical Wnt signaling pathway	GO:0060070	canonical Wnt signaling pathway	GO:0042633	hair cycle
-GO:0100012	regulation of heart induction by canonical Wnt signaling pathway	GO:0060070	canonical Wnt signaling pathway	GO:0003129	heart induction
-GO:0090081	regulation of heart induction by regulation of canonical Wnt signaling pathway	GO:0050789	regulation of biological process	GO:0100012	regulation of heart induction by canonical Wnt signaling pathway
-GO:0002027	regulation of heart rate	GO:0065007	biological regulation	OBA:0000074	heart contraction rate
-GO:0010817	regulation of hormone levels	GO:0065007	biological regulation	OBA:0000079	hormone levels
-GO:0044719	regulation of imaginal disc-derived wing size	GO:0065007	biological regulation	OBA:0000084	imaginal disc-derived wing size
-GO:0003378	regulation of inflammatory response by sphingosine-1-phosphate signaling pathway	GO:0003376	sphingosine-1-phosphate signaling pathway	GO:0006954	inflammatory response
-GO:0051453	regulation of intracellular pH	GO:0065007	biological regulation	OBA:0000050	cell pH
-GO:1905924	regulation of invadopodium assembly	GO:0065007	biological regulation	GO:1905877	invadopodium assembly
-GO:1905927	regulation of invadopodium disassembly	GO:0065007	biological regulation	GO:1905878	invadopodium disassembly
-GO:1900400	regulation of iron ion import by regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100022	regulation of iron ion import by transcription from RNA polymerase II promoter
-GO:1900393	regulation of iron ion transport by regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100021	regulation of iron ion transport by transcription from RNA polymerase II promoter
-GO:1905952	regulation of lipid localization	GO:0065007	biological regulation	GO:0010876	lipid localization
-GO:0140075	regulation of lipoprotein transport	GO:0065007	biological regulation	GO:0042953	lipoprotein transport
-GO:0050828	regulation of liquid surface tension	GO:0065007	biological regulation	OBA:0000088	liquid surface tension
-GO:0048169	regulation of long-term neuronal synaptic plasticity	GO:0065007	biological regulation	OBA:0000089	long-term neuronal synaptic plasticity
-GO:0014916	regulation of lung blood pressure	GO:0065007	biological regulation	OBA:0000090	lung blood pressure
-GO:0035751	regulation of lysosomal lumen pH	GO:0065007	biological regulation	OBA:0000091	lysosomal lumen pH
-GO:0097213	regulation of lysosomal membrane permeability	GO:0065007	biological regulation	OBA:0000092	lysosomal membrane permeability
-GO:0043488	regulation of mRNA stability	GO:0065007	biological regulation	OBA:0000093	mRNA stability
-GO:0098902	regulation of membrane depolarization during action potential	GO:0050789	regulation of biological process	GO:0086010	membrane depolarization during action potential
-GO:1900825	regulation of membrane depolarization during cardiac muscle cell action potential	GO:0050789	regulation of biological process	GO:0086012	membrane depolarization during cardiac muscle cell action potential
-GO:0097035	regulation of membrane lipid distribution	GO:0065007	biological regulation	OBA:0000098	membrane lipid distribution
-GO:0042391	regulation of membrane potential	GO:0065007	biological regulation	OBA:0000099	membrane potential
-GO:0098903	regulation of membrane repolarization during action potential	GO:0050789	regulation of biological process	GO:0086011	membrane repolarization during action potential
-GO:1900238	regulation of metanephric mesenchymal cell migration by platelet-derived growth factor receptor-beta signaling pathway	GO:0035791	platelet-derived growth factor receptor-beta signaling pathway	GO:0035789	metanephric mesenchymal cell migration
-GO:0035566	regulation of metanephros size	GO:0065007	biological regulation	OBA:0000101	metanephric kidney size
-GO:0032532	regulation of microvillus length	GO:0065007	biological regulation	OBA:0000102	microvillus length
-GO:0044528	regulation of mitochondrial mRNA stability	GO:0065007	biological regulation	OBA:0000103	mitochondrial mRNA stability
-GO:0046902	regulation of mitochondrial membrane permeability	GO:0065007	biological regulation	OBA:0000104	mitochondrial membrane permeability
-GO:0051881	regulation of mitochondrial membrane potential	GO:0065007	biological regulation	OBA:0000105	mitochondrial membrane potential
-GO:0044529	regulation of mitochondrial rRNA stability	GO:0065007	biological regulation	OBA:0000106	mitochondrial rRNA stability
-GO:0010796	regulation of multivesicular body size	GO:0065007	biological regulation	OBA:0000107	multivesicular body size
-GO:0032972	regulation of muscle filament sliding speed	GO:0065007	biological regulation	OBA:0000110	muscle filament sliding speed
-GO:0014882	regulation of myofibril number	GO:0065007	biological regulation	OBA:0000112	myofibril number
-GO:0014881	regulation of myofibril size	GO:0065007	biological regulation	OBA:0000113	myofibril size
-GO:0098908	regulation of neuronal action potential	GO:0050789	regulation of biological process	GO:0019228	neuronal action potential
-GO:0048168	regulation of neuronal synaptic plasticity	GO:0065007	biological regulation	OBA:0000114	neuronal synaptic plasticity
-GO:0001505	regulation of neurotransmitter levels	GO:0065007	biological regulation	OBA:0000116	neurotransmitter levels
-GO:0060303	regulation of nucleosome density	GO:0065007	biological regulation	OBA:0000119	nucleosome density
-GO:0097298	regulation of nucleus size	GO:0065007	biological regulation	OBA:0000117	nuclear size
-GO:0006885	regulation of pH	GO:0065007	biological regulation	OBA:0000121	pH
-GO:0044375	regulation of peroxisome size	GO:0065007	biological regulation	OBA:0000122	peroxisome size
-GO:1900545	regulation of phenotypic switching by regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100057	regulation of phenotypic switching by transcription from RNA polymerase II promoter
-GO:0097036	regulation of plasma membrane sterol distribution	GO:0065007	biological regulation	OBA:0000123	plasma membrane sterol distribution
-GO:0044656	regulation of post-lysosomal vacuole size	GO:0065007	biological regulation	OBA:0000124	post-lysosomal vacuole size
-GO:0098962	regulation of postsynaptic neurotransmitter receptor activity	GO:0065009	regulation of molecular function	GO:0098960	postsynaptic neurotransmitter receptor activity
-GO:0035565	regulation of pronephros size	GO:0065007	biological regulation	OBA:0000127	pronephric kidney size
-GO:0031647	regulation of protein stability	GO:0065007	biological regulation	OBA:0000128	protein stability
-GO:1900448	regulation of pyrimidine nucleotide biosynthetic process by positive regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100039	regulation of pyrimidine nucleotide biosynthetic process by transcription from RNA polymerase II promoter
-GO:0044357	regulation of rRNA stability	GO:0065007	biological regulation	OBA:0000129	rRNA stability
-GO:1905945	regulation of response to calcium ion	GO:0065007	biological regulation	GO:0051592	response to calcium ion
-GO:0060075	regulation of resting membrane potential	GO:0065007	biological regulation	OBA:0000134	resting membrane potential
-GO:0048172	regulation of short-term neuronal synaptic plasticity	GO:0065007	biological regulation	OBA:0000136	short-term neuronal synaptic plasticity
-GO:0100001	regulation of skeletal muscle contraction by action potential	GO:0001508	action potential	GO:0003009	skeletal muscle contraction
-GO:0014722	regulation of skeletal muscle contraction by calcium ion signaling	GO:0019722	calcium-mediated signaling	GO:0003009	skeletal muscle contraction
-GO:0014861	regulation of skeletal muscle contraction via regulation of action potential	GO:0050789	regulation of biological process	GO:0100001	regulation of skeletal muscle contraction by action potential
-GO:0090225	regulation of spindle density	GO:0065007	biological regulation	OBA:0000138	spindle density
-GO:0050803	regulation of synapse structure or activity	GO:0065007	biological regulation	OBA:0000139	synapse structure and activity
-GO:0031916	regulation of synaptic metaplasticity	GO:0065007	biological regulation	OBA:0000140	synaptic metaplasticity
-GO:0048167	regulation of synaptic plasticity	GO:0065007	biological regulation	OBA:0000141	synaptic plasticity
-GO:0003073	regulation of systemic arterial blood pressure	GO:0065007	biological regulation	OBA:0000143	systemic arterial blood pressure
-GO:0090067	regulation of thalamus size	GO:0065007	biological regulation	OBA:0000160	thalamus size
-GO:0002026	regulation of the force of heart contraction	GO:0065007	biological regulation	OBA:0000161	force of heart contraction
-GO:0014729	regulation of the velocity of shortening of skeletal muscle modulating contraction	GO:0065007	biological regulation	OBA:0000164	velocity of shortening of skeletal muscle modulating contraction
-GO:1900382	regulation of thiamine biosynthetic process by regulation of transcription from RNA polymerase II promoter	GO:0050789	regulation of biological process	GO:0100016	regulation of thiamine biosynthetic process by transcription from RNA polymerase II promoter
-GO:1900621	regulation of transcription from RNA polymerase II promoter by calcium-mediated signaling	GO:0019722	calcium-mediated signaling	GO:0006366	transcription from RNA polymerase II promoter
-GO:0006450	regulation of translational fidelity	GO:0065007	biological regulation	OBA:0000169	translational accuracy
-GO:0035296	regulation of tube diameter	GO:0065007	biological regulation	OBA:0000171	tube diameter
-GO:0035158	regulation of tube diameter, open tracheal system	GO:0065007	biological regulation	OBA:0000166	tracheal tube diameter
-GO:0035159	regulation of tube length, open tracheal system	GO:0065007	biological regulation	OBA:0000167	tracheal tube length
-GO:0035150	regulation of tube size	GO:0065007	biological regulation	OBA:0000172	tube size
-GO:0035809	regulation of urine volume	GO:0065007	biological regulation	OBA:0000173	urinary volume
-GO:0043114	regulation of vascular permeability	GO:0065007	biological regulation	OBA:0000174	vascular permeability
-GO:1905930	regulation of vascular smooth muscle cell differentiation involved in phenotypic switching	GO:0065007	biological regulation	GO:1905420	vascular smooth muscle cell differentiation involved in phenotypic switching
+defined_class	defined_class_label	entity	entity_label
+http://purl.obolibrary.org/obo/GO_0006884	cell volume homeostasis	http://purl.obolibrary.org/obo/OBA_0000056	cell volume
+http://purl.obolibrary.org/obo/GO_0052372	modulation by symbiont of entry into host	http://purl.obolibrary.org/obo/GO_0044409	entry into host
+http://purl.obolibrary.org/obo/GO_0044145	modulation of development of symbiont involved in interaction with host	http://purl.obolibrary.org/obo/GO_0044115	development of symbiont involved in interaction with host
+http://purl.obolibrary.org/obo/GO_0075030	modulation of formation of symbiont germ tube hook structure for appressorium development	http://purl.obolibrary.org/obo/GO_0075029	formation of symbiont germ tube hook structure for appressorium development
+http://purl.obolibrary.org/obo/GO_0075054	modulation of penetration peg formation	http://purl.obolibrary.org/obo/GO_0075053	penetration peg formation
+http://purl.obolibrary.org/obo/GO_0075215	modulation of spore encystment on host	http://purl.obolibrary.org/obo/GO_0075214	spore encystment on host
+http://purl.obolibrary.org/obo/GO_0075198	modulation of symbiont haustorium neck formation for entry into host	http://purl.obolibrary.org/obo/GO_0075197	haustorium neck formation
+http://purl.obolibrary.org/obo/GO_0075202	modulation of symbiont penetration hypha formation for entry into host	http://purl.obolibrary.org/obo/GO_0075201	penetration hypha formation
+http://purl.obolibrary.org/obo/GO_0150102	negative regulation of monocyte activation	http://purl.obolibrary.org/obo/GO_0042117	monocyte activation
+http://purl.obolibrary.org/obo/GO_0046719	regulation by virus of viral protein levels in host cell	http://purl.obolibrary.org/obo/OBA_0000181	viral protein levels
+http://purl.obolibrary.org/obo/GO_0106107	regulation of (R)-mevalonic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_1901737	(R)-mevalonic acid biosynthetic process
+http://purl.obolibrary.org/obo/GO_0150143	regulation of CD80 production	http://purl.obolibrary.org/obo/GO_0035780	CD80 biosynthetic process
+http://purl.obolibrary.org/obo/GO_0150140	regulation of CD86 production	http://purl.obolibrary.org/obo/GO_0035781	CD86 biosynthetic process
+http://purl.obolibrary.org/obo/GO_0110132	regulation of CRISPR-cas system	http://purl.obolibrary.org/obo/GO_0099048	CRISPR-cas system
+http://purl.obolibrary.org/obo/GO_1905918	regulation of CoA-transferase activity	http://purl.obolibrary.org/obo/GO_0008410	CoA-transferase activity
+http://purl.obolibrary.org/obo/GO_0140215	regulation of D-aspartate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0070779	D-aspartate import across plasma membrane
+http://purl.obolibrary.org/obo/GO_0097752	regulation of DNA stability	http://purl.obolibrary.org/obo/OBA_0007000	DNA stability
+http://purl.obolibrary.org/obo/GO_0051090	regulation of DNA-binding transcription factor activity	http://purl.obolibrary.org/obo/GO_0003700	DNA-binding transcription factor activity
+http://purl.obolibrary.org/obo/GO_0140122	regulation of Lewy body formation	http://purl.obolibrary.org/obo/GO_0140121	Lewy body formation
+http://purl.obolibrary.org/obo/GO_0035297	regulation of Malpighian tubule diameter	http://purl.obolibrary.org/obo/OBA_0000006	Malpighian tubule diameter
+http://purl.obolibrary.org/obo/GO_0035298	regulation of Malpighian tubule size	http://purl.obolibrary.org/obo/OBA_0000007	Malpighian tubule size
+http://purl.obolibrary.org/obo/GO_0043487	regulation of RNA stability	http://purl.obolibrary.org/obo/OBA_0000009	RNA stability
+http://purl.obolibrary.org/obo/GO_0060390	regulation of SMAD protein signal transduction	http://purl.obolibrary.org/obo/GO_0060395	SMAD protein signal transduction
+http://purl.obolibrary.org/obo/GO_0050863	regulation of T cell activation	http://purl.obolibrary.org/obo/GO_0042110	T cell activation
+http://purl.obolibrary.org/obo/GO_0106278	regulation of UDP-N-acetylglucosamine biosynthetic process	http://purl.obolibrary.org/obo/GO_0006048	UDP-N-acetylglucosamine biosynthetic process
+http://purl.obolibrary.org/obo/GO_1905921	regulation of acetylcholine biosynthetic process	http://purl.obolibrary.org/obo/GO_0008292	acetylcholine biosynthetic process
+http://purl.obolibrary.org/obo/GO_0030832	regulation of actin filament length	http://purl.obolibrary.org/obo/OBA_0000011	actin filament length
+http://purl.obolibrary.org/obo/GO_0140192	regulation of adenylate cyclase-activating adrenergic receptor signaling pathway involved in heart process	http://purl.obolibrary.org/obo/GO_0086023	adenylate cyclase-activating adrenergic receptor signaling pathway involved in heart process
+http://purl.obolibrary.org/obo/GO_0140193	regulation of adenylate cyclase-inhibiting adrenergic receptor signaling pathway involved in heart process	http://purl.obolibrary.org/obo/GO_0086096	adenylate cyclase-inhibiting adrenergic receptor signaling pathway involved in heart process
+http://purl.obolibrary.org/obo/GO_1903391	regulation of adherens junction organization	http://purl.obolibrary.org/obo/GO_0034332	adherens junction organization
+http://purl.obolibrary.org/obo/GO_0090066	regulation of anatomical structure size	http://purl.obolibrary.org/obo/OBA_0000015	anatomical structure size
+http://purl.obolibrary.org/obo/GO_0002002	regulation of angiotensin levels in blood	http://purl.obolibrary.org/obo/OBA_0000016	angiotensin levels in blood
+http://purl.obolibrary.org/obo/GO_2000027	regulation of animal organ morphogenesis	http://purl.obolibrary.org/obo/GO_0009887	animal organ morphogenesis
+http://purl.obolibrary.org/obo/GO_0032098	regulation of appetite	http://purl.obolibrary.org/obo/OBA_0000018	appetite
+http://purl.obolibrary.org/obo/GO_0075017	regulation of appressorium formation	http://purl.obolibrary.org/obo/GO_0075016	appressorium formation
+http://purl.obolibrary.org/obo/GO_0075026	regulation of appressorium initiation	http://purl.obolibrary.org/obo/GO_0075025	initiation of appressorium formation
+http://purl.obolibrary.org/obo/GO_0075036	regulation of appressorium maturation	http://purl.obolibrary.org/obo/GO_0075035	appressorium maturation
+http://purl.obolibrary.org/obo/GO_0075329	regulation of arbuscule formation for nutrient acquisition from host	http://purl.obolibrary.org/obo/GO_0075328	formation by symbiont of arbuscule for nutrient acquisition from host
+http://purl.obolibrary.org/obo/GO_0150070	regulation of arginase activity	http://purl.obolibrary.org/obo/GO_0004053	arginase activity
+http://purl.obolibrary.org/obo/GO_0016243	regulation of autophagosome size	http://purl.obolibrary.org/obo/OBA_0000022	autophagic vacuole size
+http://purl.obolibrary.org/obo/GO_0031133	regulation of axon diameter	http://purl.obolibrary.org/obo/OBA_0000023	axon diameter
+http://purl.obolibrary.org/obo/GO_0065008	regulation of biological quality	http://purl.obolibrary.org/obo/OBA_0000001	biological attribute
+http://purl.obolibrary.org/obo/GO_0110149	regulation of biomineralization	http://purl.obolibrary.org/obo/GO_0110148	biomineralization
+http://purl.obolibrary.org/obo/GO_0050878	regulation of body fluid levels	http://purl.obolibrary.org/obo/OBA_0000036	body fluid levels
+http://purl.obolibrary.org/obo/GO_0060378	regulation of brood size	http://purl.obolibrary.org/obo/OBA_0000037	brood size
+http://purl.obolibrary.org/obo/GO_0031413	regulation of buoyancy	http://purl.obolibrary.org/obo/OBA_0000039	buoyancy
+http://purl.obolibrary.org/obo/GO_0110097	regulation of calcium import into the mitochondrion	http://purl.obolibrary.org/obo/GO_0036444	calcium import into the mitochondrion
+http://purl.obolibrary.org/obo/GO_0150037	regulation of calcium-dependent activation of synaptic vesicle fusion	http://purl.obolibrary.org/obo/GO_0099502	calcium-dependent activation of synaptic vesicle fusion
+http://purl.obolibrary.org/obo/GO_0061999	regulation of cardiac endothelial to mesenchymal transition	http://purl.obolibrary.org/obo/GO_0140074	cardiac endothelial to mesenchymal transition
+http://purl.obolibrary.org/obo/GO_0062042	regulation of cardiac epithelial to mesenchymal transition	http://purl.obolibrary.org/obo/GO_0060317	cardiac epithelial to mesenchymal transition
+http://purl.obolibrary.org/obo/GO_0086036	regulation of cardiac muscle cell membrane potential	http://purl.obolibrary.org/obo/OBA_0000046	cardiac muscle cell membrane potential
+http://purl.obolibrary.org/obo/GO_0060305	regulation of cell diameter	http://purl.obolibrary.org/obo/OBA_0000048	cell diameter
+http://purl.obolibrary.org/obo/GO_1905915	regulation of cell differentiation involved in phenotypic switching	http://purl.obolibrary.org/obo/GO_0090679	cell differentiation involved in phenotypic switching
+http://purl.obolibrary.org/obo/GO_1905933	regulation of cell fate determination	http://purl.obolibrary.org/obo/GO_0001709	cell fate determination
+http://purl.obolibrary.org/obo/GO_1901888	regulation of cell junction assembly	http://purl.obolibrary.org/obo/GO_0034329	cell junction assembly
+http://purl.obolibrary.org/obo/GO_0032536	regulation of cell projection size	http://purl.obolibrary.org/obo/OBA_0000051	cell projection size
+http://purl.obolibrary.org/obo/GO_0008360	regulation of cell shape	http://purl.obolibrary.org/obo/OBA_0000052	cell shape
+http://purl.obolibrary.org/obo/GO_0008361	regulation of cell size	http://purl.obolibrary.org/obo/OBA_0000055	cell size
+http://purl.obolibrary.org/obo/GO_0001952	regulation of cell-matrix adhesion	http://purl.obolibrary.org/obo/GO_0007160	cell-matrix adhesion
+http://purl.obolibrary.org/obo/GO_0010810	regulation of cell-substrate adhesion	http://purl.obolibrary.org/obo/GO_0031589	cell-substrate adhesion
+http://purl.obolibrary.org/obo/GO_0090109	regulation of cell-substrate junction assembly	http://purl.obolibrary.org/obo/GO_0007044	cell-substrate junction assembly
+http://purl.obolibrary.org/obo/GO_0150116	regulation of cell-substrate junction organization	http://purl.obolibrary.org/obo/GO_0150115	cell-substrate junction organization
+http://purl.obolibrary.org/obo/GO_0032535	regulation of cellular component size	http://purl.obolibrary.org/obo/OBA_0000057	cellular component size
+http://purl.obolibrary.org/obo/GO_0050794	regulation of cellular process	http://purl.obolibrary.org/obo/GO_0009987	cellular process
+http://purl.obolibrary.org/obo/GO_1905957	regulation of cellular response to alcohol	http://purl.obolibrary.org/obo/GO_0097306	cellular response to alcohol
+http://purl.obolibrary.org/obo/GO_0140255	regulation of cellular response to phosphate starvation	http://purl.obolibrary.org/obo/GO_0016036	cellular response to phosphate starvation
+http://purl.obolibrary.org/obo/GO_0044537	regulation of circulating fibrinogen levels	http://purl.obolibrary.org/obo/OBA_0000061	circulating fibrinogen levels
+http://purl.obolibrary.org/obo/GO_0110116	regulation of compound eye photoreceptor cell differentiation	http://purl.obolibrary.org/obo/GO_0001751	compound eye photoreceptor cell differentiation
+http://purl.obolibrary.org/obo/GO_0150065	regulation of deacetylase activity	http://purl.obolibrary.org/obo/GO_0019213	deacetylase activity
+http://purl.obolibrary.org/obo/GO_0106288	regulation of deadenylation-dependent decapping of nuclear-transcribed mRNA	http://purl.obolibrary.org/obo/GO_0000290	deadenylation-dependent decapping of nuclear-transcribed mRNA
+http://purl.obolibrary.org/obo/GO_0044127	regulation of development of symbiont in host	http://purl.obolibrary.org/obo/GO_0044114	development of symbiont in host
+http://purl.obolibrary.org/obo/GO_0061389	regulation of direction of cell growth	http://purl.obolibrary.org/obo/OBA_0000066	direction of cell growth
+http://purl.obolibrary.org/obo/GO_0032955	regulation of division septum assembly	http://purl.obolibrary.org/obo/GO_0000917	division septum assembly
+http://purl.obolibrary.org/obo/GO_0016476	regulation of embryonic cell shape	http://purl.obolibrary.org/obo/OBA_0000067	embryonic cell shape
+http://purl.obolibrary.org/obo/GO_0051036	regulation of endosome size	http://purl.obolibrary.org/obo/OBA_0000068	endosome size
+http://purl.obolibrary.org/obo/GO_0061963	regulation of entry into reproductive diapause	http://purl.obolibrary.org/obo/GO_0055116	entry into reproductive diapause
+http://purl.obolibrary.org/obo/GO_2000535	regulation of entry of bacterium into host cell	http://purl.obolibrary.org/obo/GO_0035635	entry of bacterium into host cell
+http://purl.obolibrary.org/obo/GO_0075040	regulation of establishment of turgor in appressorium	http://purl.obolibrary.org/obo/GO_0075039	establishment of turgor in appressorium
+http://purl.obolibrary.org/obo/GO_0106163	regulation of exonucleolytic catabolism of deadenylated mRNA	http://purl.obolibrary.org/obo/GO_0043928	exonucleolytic catabolism of deadenylated mRNA
+http://purl.obolibrary.org/obo/GO_0051893	regulation of focal adhesion assembly	http://purl.obolibrary.org/obo/GO_0048041	focal adhesion assembly
+http://purl.obolibrary.org/obo/GO_0120182	regulation of focal adhesion disassembly	http://purl.obolibrary.org/obo/GO_0120181	focal adhesion disassembly
+http://purl.obolibrary.org/obo/GO_0032533	regulation of follicle cell microvillus length	http://purl.obolibrary.org/obo/OBA_0000072	follicle cell microvillus length
+http://purl.obolibrary.org/obo/GO_0075045	regulation of formation by symbiont of haustorium for nutrient acquisition from host	http://purl.obolibrary.org/obo/GO_0052094	formation by symbiont of haustorium for nutrient acquisition from host
+http://purl.obolibrary.org/obo/GO_1905942	regulation of formation of growth cone in injured axon	http://purl.obolibrary.org/obo/GO_0048689	formation of growth cone in injured axon
+http://purl.obolibrary.org/obo/GO_1905936	regulation of germ cell proliferation	http://purl.obolibrary.org/obo/GO_0036093	germ cell proliferation
+http://purl.obolibrary.org/obo/GO_0075010	regulation of germ tube formation	http://purl.obolibrary.org/obo/GO_0075009	germ tube formation
+http://purl.obolibrary.org/obo/GO_1905939	regulation of gonad development	http://purl.obolibrary.org/obo/GO_0008406	gonad development
+http://purl.obolibrary.org/obo/GO_0075193	regulation of haustorium mother cell formation	http://purl.obolibrary.org/obo/GO_0075192	haustorium mother cell formation
+http://purl.obolibrary.org/obo/GO_0002027	regulation of heart rate	http://purl.obolibrary.org/obo/OBA_0000074	heart contraction rate
+http://purl.obolibrary.org/obo/GO_0061960	regulation of heme oxygenase activity	http://purl.obolibrary.org/obo/GO_0004392	heme oxygenase (decyclizing) activity
+http://purl.obolibrary.org/obo/GO_0110089	regulation of hippocampal neuron apoptotic process	http://purl.obolibrary.org/obo/GO_0110088	hippocampal neuron apoptotic process
+http://purl.obolibrary.org/obo/GO_0150166	regulation of histone H3-K4 acetylation	http://purl.obolibrary.org/obo/GO_0043973	histone H3-K4 acetylation
+http://purl.obolibrary.org/obo/GO_0010817	regulation of hormone levels	http://purl.obolibrary.org/obo/OBA_0000079	hormone levels
+http://purl.obolibrary.org/obo/GO_0075188	regulation of hyphopodium formation	http://purl.obolibrary.org/obo/GO_0075187	hyphopodium formation
+http://purl.obolibrary.org/obo/GO_0110137	regulation of imaginal disc-derived leg joint morphogenesis	http://purl.obolibrary.org/obo/GO_0007480	imaginal disc-derived leg morphogenesis
+http://purl.obolibrary.org/obo/GO_0044719	regulation of imaginal disc-derived wing size	http://purl.obolibrary.org/obo/OBA_0000084	imaginal disc-derived wing size
+http://purl.obolibrary.org/obo/GO_0110107	regulation of imaginal disc-derived wing vein specification	http://purl.obolibrary.org/obo/GO_0007474	imaginal disc-derived wing vein specification
+http://purl.obolibrary.org/obo/GO_0075184	regulation of infection cushion formation	http://purl.obolibrary.org/obo/GO_0075183	infection cushion formation
+http://purl.obolibrary.org/obo/GO_0150151	regulation of interleukin-17A production	http://purl.obolibrary.org/obo/GO_0097087	interleukin-17A production
+http://purl.obolibrary.org/obo/GO_0150189	regulation of interleukin-32 production	http://purl.obolibrary.org/obo/GO_0072637	interleukin-32 production
+http://purl.obolibrary.org/obo/GO_0150127	regulation of interleukin-33 production	http://purl.obolibrary.org/obo/GO_0072639	interleukin-33 production
+http://purl.obolibrary.org/obo/GO_0150157	regulation of interleukin-34 production	http://purl.obolibrary.org/obo/GO_0150155	interleukin-34 production
+http://purl.obolibrary.org/obo/GO_0150136	regulation of interleukin-37 production	http://purl.obolibrary.org/obo/GO_0150137	interleukin-37 production
+http://purl.obolibrary.org/obo/GO_0051453	regulation of intracellular pH	http://purl.obolibrary.org/obo/OBA_0000050	cell pH
+http://purl.obolibrary.org/obo/GO_1905924	regulation of invadopodium assembly	http://purl.obolibrary.org/obo/GO_1905877	invadopodium assembly
+http://purl.obolibrary.org/obo/GO_1905927	regulation of invadopodium disassembly	http://purl.obolibrary.org/obo/GO_1905878	invadopodium disassembly
+http://purl.obolibrary.org/obo/GO_1904038	regulation of iron export across plasma membrane	http://purl.obolibrary.org/obo/GO_1903988	iron ion export across plasma membrane
+http://purl.obolibrary.org/obo/GO_0062123	regulation of linear element maturation	http://purl.obolibrary.org/obo/GO_0062121	linear element maturation
+http://purl.obolibrary.org/obo/GO_1905952	regulation of lipid localization	http://purl.obolibrary.org/obo/GO_0010876	lipid localization
+http://purl.obolibrary.org/obo/GO_0110112	regulation of lipid transporter activity	http://purl.obolibrary.org/obo/GO_0005319	lipid transporter activity
+http://purl.obolibrary.org/obo/GO_0140075	regulation of lipoprotein transport	http://purl.obolibrary.org/obo/GO_0042953	lipoprotein transport
+http://purl.obolibrary.org/obo/GO_0050828	regulation of liquid surface tension	http://purl.obolibrary.org/obo/OBA_0000088	liquid surface tension
+http://purl.obolibrary.org/obo/GO_0140212	regulation of long-chain fatty acid import into cell	http://purl.obolibrary.org/obo/GO_0044539	long-chain fatty acid import into cell
+http://purl.obolibrary.org/obo/GO_0048169	regulation of long-term neuronal synaptic plasticity	http://purl.obolibrary.org/obo/OBA_0000089	long-term neuronal synaptic plasticity
+http://purl.obolibrary.org/obo/GO_0014916	regulation of lung blood pressure	http://purl.obolibrary.org/obo/OBA_0000090	lung blood pressure
+http://purl.obolibrary.org/obo/GO_0035751	regulation of lysosomal lumen pH	http://purl.obolibrary.org/obo/OBA_0000091	lysosomal lumen pH
+http://purl.obolibrary.org/obo/GO_0097213	regulation of lysosomal membrane permeability	http://purl.obolibrary.org/obo/OBA_0000092	lysosomal membrane permeability
+http://purl.obolibrary.org/obo/GO_0140408	regulation of mRNA alternative polyadenylation	http://purl.obolibrary.org/obo/GO_0110104	mRNA alternative polyadenylation
+http://purl.obolibrary.org/obo/GO_0043488	regulation of mRNA stability	http://purl.obolibrary.org/obo/OBA_0000093	mRNA stability
+http://purl.obolibrary.org/obo/GO_0097035	regulation of membrane lipid distribution	http://purl.obolibrary.org/obo/OBA_0000098	membrane lipid distribution
+http://purl.obolibrary.org/obo/GO_0042391	regulation of membrane potential	http://purl.obolibrary.org/obo/OBA_0000099	membrane potential
+http://purl.obolibrary.org/obo/GO_0035566	regulation of metanephros size	http://purl.obolibrary.org/obo/OBA_0000101	metanephric kidney size
+http://purl.obolibrary.org/obo/GO_0150101	regulation of microtubule anchoring at centrosome	http://purl.obolibrary.org/obo/GO_0034454	microtubule anchoring at centrosome
+http://purl.obolibrary.org/obo/GO_0032532	regulation of microvillus length	http://purl.obolibrary.org/obo/OBA_0000102	microvillus length
+http://purl.obolibrary.org/obo/GO_0044528	regulation of mitochondrial mRNA stability	http://purl.obolibrary.org/obo/OBA_0000103	mitochondrial mRNA stability
+http://purl.obolibrary.org/obo/GO_0046902	regulation of mitochondrial membrane permeability	http://purl.obolibrary.org/obo/OBA_0000104	mitochondrial membrane permeability
+http://purl.obolibrary.org/obo/GO_0051881	regulation of mitochondrial membrane potential	http://purl.obolibrary.org/obo/OBA_0000105	mitochondrial membrane potential
+http://purl.obolibrary.org/obo/GO_0044529	regulation of mitochondrial rRNA stability	http://purl.obolibrary.org/obo/OBA_0000106	mitochondrial rRNA stability
+http://purl.obolibrary.org/obo/GO_0106114	regulation of mitotic cohesin dsDNA (leading strand) loading	http://purl.obolibrary.org/obo/GO_0062021	mitotic cohesin dsDNA (leading strand) loading
+http://purl.obolibrary.org/obo/GO_0106111	regulation of mitotic cohesin ssDNA (lagging strand) loading	http://purl.obolibrary.org/obo/GO_0062022	mitotic cohesin ssDNA (lagging strand) loading
+http://purl.obolibrary.org/obo/GO_0140279	regulation of mitotic division septum assembly	http://purl.obolibrary.org/obo/GO_0140278	mitotic division septum assembly
+http://purl.obolibrary.org/obo/GO_0110162	regulation of mitotic spindle elongation (spindle phase three)	http://purl.obolibrary.org/obo/GO_0061805	mitotic spindle elongation (spindle phase three)
+http://purl.obolibrary.org/obo/GO_0110159	regulation of mitotic spindle formation (spindle phase one)	http://purl.obolibrary.org/obo/GO_0061804	mitotic spindle formation (spindle phase one)
+http://purl.obolibrary.org/obo/GO_0010796	regulation of multivesicular body size	http://purl.obolibrary.org/obo/OBA_0000107	multivesicular body size
+http://purl.obolibrary.org/obo/GO_0032972	regulation of muscle filament sliding speed	http://purl.obolibrary.org/obo/OBA_0000110	muscle filament sliding speed
+http://purl.obolibrary.org/obo/GO_0014882	regulation of myofibril number	http://purl.obolibrary.org/obo/OBA_0000112	myofibril number
+http://purl.obolibrary.org/obo/GO_0014881	regulation of myofibril size	http://purl.obolibrary.org/obo/OBA_0000113	myofibril size
+http://purl.obolibrary.org/obo/GO_0110123	regulation of myotube cell migration	http://purl.obolibrary.org/obo/GO_0110122	myotube cell migration
+http://purl.obolibrary.org/obo/GO_0150077	regulation of neuroinflammatory response	http://purl.obolibrary.org/obo/GO_0150076	neuroinflammatory response
+http://purl.obolibrary.org/obo/GO_0048168	regulation of neuronal synaptic plasticity	http://purl.obolibrary.org/obo/OBA_0000114	neuronal synaptic plasticity
+http://purl.obolibrary.org/obo/GO_0001505	regulation of neurotransmitter levels	http://purl.obolibrary.org/obo/OBA_0000116	neurotransmitter levels
+http://purl.obolibrary.org/obo/GO_0060303	regulation of nucleosome density	http://purl.obolibrary.org/obo/OBA_0000119	nucleosome density
+http://purl.obolibrary.org/obo/GO_0097298	regulation of nucleus size	http://purl.obolibrary.org/obo/OBA_0000117	nuclear size
+http://purl.obolibrary.org/obo/GO_0006885	regulation of pH	http://purl.obolibrary.org/obo/OBA_0000121	pH
+http://purl.obolibrary.org/obo/GO_0044375	regulation of peroxisome size	http://purl.obolibrary.org/obo/OBA_0000122	peroxisome size
+http://purl.obolibrary.org/obo/GO_0150172	regulation of phosphatidylcholine metabolic process	http://purl.obolibrary.org/obo/GO_0046470	phosphatidylcholine metabolic process
+http://purl.obolibrary.org/obo/GO_0150175	regulation of phosphatidylethanolamine metabolic process	http://purl.obolibrary.org/obo/GO_0046337	phosphatidylethanolamine metabolic process
+http://purl.obolibrary.org/obo/GO_0150178	regulation of phosphatidylserine metabolic process	http://purl.obolibrary.org/obo/GO_0006658	phosphatidylserine metabolic process
+http://purl.obolibrary.org/obo/GO_0110079	regulation of placenta blood vessel development	http://purl.obolibrary.org/obo/GO_0060674	placenta blood vessel development
+http://purl.obolibrary.org/obo/GO_0097036	regulation of plasma membrane sterol distribution	http://purl.obolibrary.org/obo/OBA_0000123	plasma membrane sterol distribution
+http://purl.obolibrary.org/obo/GO_0106246	regulation of poly(A)-specific ribonuclease activity	http://purl.obolibrary.org/obo/GO_0004535	poly(A)-specific ribonuclease activity
+http://purl.obolibrary.org/obo/GO_0044656	regulation of post-lysosomal vacuole size	http://purl.obolibrary.org/obo/OBA_0000124	post-lysosomal vacuole size
+http://purl.obolibrary.org/obo/GO_0150052	regulation of postsynapse assembly	http://purl.obolibrary.org/obo/GO_0099068	postsynapse assembly
+http://purl.obolibrary.org/obo/GO_0150044	regulation of postsynaptic dense core vesicle exocytosis	http://purl.obolibrary.org/obo/GO_0150038	postsynaptic dense core vesicle exocytosis
+http://purl.obolibrary.org/obo/GO_0150054	regulation of postsynaptic neurotransmitter receptor diffusion trapping	http://purl.obolibrary.org/obo/GO_0098970	postsynaptic neurotransmitter receptor diffusion trapping
+http://purl.obolibrary.org/obo/GO_0099161	regulation of presynaptic dense core granule exocytosis	http://purl.obolibrary.org/obo/GO_0099525	presynaptic dense core vesicle exocytosis
+http://purl.obolibrary.org/obo/GO_1905756	regulation of primary cell septum biogenesis	http://purl.obolibrary.org/obo/GO_0031671	primary cell septum biogenesis
+http://purl.obolibrary.org/obo/GO_0035565	regulation of pronephros size	http://purl.obolibrary.org/obo/OBA_0000127	pronephric kidney size
+http://purl.obolibrary.org/obo/GO_1904702	regulation of protein localization to adherens junction	http://purl.obolibrary.org/obo/GO_0071896	protein localization to adherens junction
+http://purl.obolibrary.org/obo/GO_0110082	regulation of protein localization to cell division site involved in mitotic actomyosin contractile ring assembly	http://purl.obolibrary.org/obo/GO_1903476	protein localization to cell division site involved in mitotic actomyosin contractile ring assembly
+http://purl.obolibrary.org/obo/GO_0150106	regulation of protein localization to cell-cell junction	http://purl.obolibrary.org/obo/GO_0150105	protein localization to cell-cell junction
+http://purl.obolibrary.org/obo/GO_0150031	regulation of protein localization to lysosome	http://purl.obolibrary.org/obo/GO_0061462	protein localization to lysosome
+http://purl.obolibrary.org/obo/GO_0140433	regulation of protein localization to meiotic spindle pole body	http://purl.obolibrary.org/obo/GO_1902441	protein localization to meiotic spindle pole body
+http://purl.obolibrary.org/obo/GO_0031647	regulation of protein stability	http://purl.obolibrary.org/obo/OBA_0000128	protein stability
+http://purl.obolibrary.org/obo/GO_0150073	regulation of protein-glutamine gamma-glutamyltransferase activity	http://purl.obolibrary.org/obo/GO_0003810	protein-glutamine gamma-glutamyltransferase activity
+http://purl.obolibrary.org/obo/GO_0044357	regulation of rRNA stability	http://purl.obolibrary.org/obo/OBA_0000129	rRNA stability
+http://purl.obolibrary.org/obo/GO_1905945	regulation of response to calcium ion	http://purl.obolibrary.org/obo/GO_0051592	response to calcium ion
+http://purl.obolibrary.org/obo/GO_0060075	regulation of resting membrane potential	http://purl.obolibrary.org/obo/OBA_0000134	resting membrane potential
+http://purl.obolibrary.org/obo/GO_0140500	regulation of reticulophagy	http://purl.obolibrary.org/obo/GO_0061709	reticulophagy
+http://purl.obolibrary.org/obo/GO_1903395	regulation of secondary cell septum biogenesis	http://purl.obolibrary.org/obo/GO_1990344	secondary cell septum biogenesis
+http://purl.obolibrary.org/obo/GO_0048172	regulation of short-term neuronal synaptic plasticity	http://purl.obolibrary.org/obo/OBA_0000136	short-term neuronal synaptic plasticity
+http://purl.obolibrary.org/obo/GO_0106159	regulation of small RNA loading onto RISC	http://purl.obolibrary.org/obo/GO_0070922	small RNA loading onto RISC
+http://purl.obolibrary.org/obo/GO_0090225	regulation of spindle density	http://purl.obolibrary.org/obo/OBA_0000138	spindle density
+http://purl.obolibrary.org/obo/GO_0075223	regulation of sporangium germination	http://purl.obolibrary.org/obo/GO_0075222	sporangium germination
+http://purl.obolibrary.org/obo/GO_0106118	regulation of sterol biosynthetic process	http://purl.obolibrary.org/obo/GO_0016126	sterol biosynthetic process
+http://purl.obolibrary.org/obo/GO_0050803	regulation of synapse structure or activity	http://purl.obolibrary.org/obo/OBA_0000139	synapse structure and activity
+http://purl.obolibrary.org/obo/GO_0031916	regulation of synaptic metaplasticity	http://purl.obolibrary.org/obo/OBA_0000140	synaptic metaplasticity
+http://purl.obolibrary.org/obo/GO_0048167	regulation of synaptic plasticity	http://purl.obolibrary.org/obo/OBA_0000141	synaptic plasticity
+http://purl.obolibrary.org/obo/GO_0150045	regulation of synaptic signaling by nitric oxide	http://purl.obolibrary.org/obo/GO_0099163	synaptic signaling by nitric oxide
+http://purl.obolibrary.org/obo/GO_0003073	regulation of systemic arterial blood pressure	http://purl.obolibrary.org/obo/OBA_0000143	systemic arterial blood pressure
+http://purl.obolibrary.org/obo/GO_0090067	regulation of thalamus size	http://purl.obolibrary.org/obo/OBA_0000160	thalamus size
+http://purl.obolibrary.org/obo/GO_0002026	regulation of the force of heart contraction	http://purl.obolibrary.org/obo/OBA_0000161	force of heart contraction
+http://purl.obolibrary.org/obo/GO_0014729	regulation of the velocity of shortening of skeletal muscle modulating contraction	http://purl.obolibrary.org/obo/OBA_0000164	velocity of shortening of skeletal muscle modulating contraction
+http://purl.obolibrary.org/obo/GO_0150035	regulation of trans-synaptic signaling by BDNF, modulating synaptic transmission	http://purl.obolibrary.org/obo/GO_0099183	trans-synaptic signaling by BDNF, modulating synaptic transmission
+http://purl.obolibrary.org/obo/GO_0150036	regulation of trans-synaptic signaling by endocannabinoid, modulating synaptic transmission	http://purl.obolibrary.org/obo/GO_0099553	trans-synaptic signaling by endocannabinoid, modulating synaptic transmission
+http://purl.obolibrary.org/obo/GO_0150111	regulation of transepithelial transport	http://purl.obolibrary.org/obo/GO_0070633	transepithelial transport
+http://purl.obolibrary.org/obo/GO_0071634	regulation of transforming growth factor beta production	http://purl.obolibrary.org/obo/GO_0071604	transforming growth factor beta production
+http://purl.obolibrary.org/obo/GO_0006450	regulation of translational fidelity	http://purl.obolibrary.org/obo/OBA_0000169	translational accuracy
+http://purl.obolibrary.org/obo/GO_0150200	regulation of transport across blood-brain barrier	http://purl.obolibrary.org/obo/GO_0150104	transport across blood-brain barrier
+http://purl.obolibrary.org/obo/GO_0035296	regulation of tube diameter	http://purl.obolibrary.org/obo/OBA_0000171	tube diameter
+http://purl.obolibrary.org/obo/GO_0035158	regulation of tube diameter, open tracheal system	http://purl.obolibrary.org/obo/OBA_0000166	tracheal tube diameter
+http://purl.obolibrary.org/obo/GO_0035159	regulation of tube length, open tracheal system	http://purl.obolibrary.org/obo/OBA_0000167	tracheal tube length
+http://purl.obolibrary.org/obo/GO_0035150	regulation of tube size	http://purl.obolibrary.org/obo/OBA_0000172	tube size
+http://purl.obolibrary.org/obo/GO_0150067	regulation of tubulin deacetylase activity	http://purl.obolibrary.org/obo/GO_0042903	tubulin deacetylase activity
+http://purl.obolibrary.org/obo/GO_0035809	regulation of urine volume	http://purl.obolibrary.org/obo/OBA_0000173	urinary volume
+http://purl.obolibrary.org/obo/GO_1905930	regulation of vascular associated smooth muscle cell differentiation involved in phenotypic switching	http://purl.obolibrary.org/obo/GO_1905420	vascular associated smooth muscle cell differentiation involved in phenotypic switching
+http://purl.obolibrary.org/obo/GO_0043114	regulation of vascular permeability	http://purl.obolibrary.org/obo/OBA_0000174	vascular permeability
+http://purl.obolibrary.org/obo/GO_0106214	regulation of vesicle fusion with Golgi apparatus	http://purl.obolibrary.org/obo/GO_0048280	vesicle fusion with Golgi apparatus

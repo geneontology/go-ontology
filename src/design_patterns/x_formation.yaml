@@ -11,9 +11,9 @@ vars:
  target: "'anatomical structure'"
 
 name:
-     text: "%s formation"
-     vars:
-       - target
+  text: "%s formation"
+  vars:
+    - target
 
 def:
   text: "The process that gives rise to the %s. This process pertains to the initial formation of a structure from unspecified parts."
@@ -24,7 +24,4 @@ equivalentTo:
   text: " 'anatomical structure formation involved in morphogenesis' and 'results in formation of' some %s"
   vars:
     - target
-
-    
-
 

@@ -1,14 +1,14 @@
 pattern_name: 'chemical_transport' # Add a name used to identify the pattern here.
 
 classes:
-  'transport':'GO:0006810'
-  'chemical entity':'CHEBI:24431'  
+  transport: 'GO:0006810'
+  chemical entity: 'CHEBI:24431'  
   
 relations:
-  'transports_or_maintains_localization_of':'RO:0002313'
+  transports_or_maintains_localization_of: 'RO:0002313'
   
 vars: 
-  'chemical':"chemical entity" 
+  chemical: "'chemical entity'"
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -28,11 +28,10 @@ def:
   text: "The directed movement of %s into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore."
   vars:
     - 'chemical'
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 
