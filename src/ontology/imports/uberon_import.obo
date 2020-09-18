@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-07-03/imports/uberon_import.owl
+data-version: go/releases/2020-09-18/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -19774,19 +19774,18 @@ relationship: only_in_taxon NCBITaxon:6072
 [Term]
 id: UBERON:0003104
 name: mesenchyme
-def: "Portion of tissue consisting of loosely organized undifferentiated mesodermal cells that give rise to such structures as connective tissues, blood, lymphatics, bone, and cartilage[XAO]. A mesh-like cell arrangement, less compact than an epithelium[ZFA]. The part of the embryonic mesoderm, consisting of loosely packed, unspecialized cells set in a gelatinous ground substance, from which connective tissue, bone, cartilage, and the circulatory and lymphatic systems develop[BTO]." []
+def: "Portion of tissue composed of mesenchymal cells (motile cells that develop from epthelia via an epithelial to mesenchymal transition) and surrounding extracellular material. Mesenchyme has different embryological origins in different metazoan taxa - in many invertebrates it derives in whole or part from ectoderm. In vertebrates it derives largely from mesoderm, and sometimes the terms are used interchangeably, e.g. lateral plate mesoderm/mesenchyme." []
 synonym: "mesenchyma" RELATED []
 synonym: "mesenchymal tissue" EXACT []
 synonym: "mesenchyme tissue" EXACT []
 synonym: "portion of mesenchymal tissue" EXACT []
 synonym: "portion of mesenchyme tissue" EXACT []
-is_a: CARO:0000000
 is_a: UBERON:0000479 ! tissue
 intersection_of: UBERON:0000479 ! tissue
-intersection_of: composed_primarily_of CL:0000134
-relationship: composed_primarily_of CL:0000134
+intersection_of: composed_primarily_of CL:0008019
+relationship: composed_primarily_of CL:0008019
 relationship: functionally_related_to GO:0032502
-relationship: has_developmental_contribution_from UBERON:0000926 ! mesoderm
+relationship: has_developmental_contribution_from UBERON:0000926 {gci_relation="part_of", gci_filler="NCBITaxon:7711"} ! mesoderm
 relationship: only_in_taxon NCBITaxon:6072
 
 [Term]
@@ -22138,6 +22137,7 @@ id: UBERON:0003416
 name: mesenchyme of tongue
 def: "Mesenchyme that is part of a developing tongue [Automatically generated definition]." []
 synonym: "tongue mesenchyme" EXACT []
+is_a: CARO:0000000
 is_a: UBERON:0005253 ! head mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: part_of UBERON:0001723 ! tongue
@@ -26030,6 +26030,7 @@ def: "Mesenchyme that is part of a developing gonad [Automatically generated def
 synonym: "gonada mesenchyme" EXACT []
 synonym: "mesenchyme of gonad" EXACT []
 synonym: "mesenchyme of gonada" EXACT []
+is_a: CARO:0000000
 is_a: UBERON:0003104 ! mesenchyme
 is_a: UBERON:0005156 ! reproductive structure
 intersection_of: UBERON:0003104 ! mesenchyme
@@ -26490,6 +26491,7 @@ id: UBERON:0003918
 name: kidney mesenchyme
 def: "Kidney mesenchyme is the tissue made up of loosely connected mesenchymal cells in the kidney[GO]." []
 synonym: "mesenchyme of kidney" EXACT []
+is_a: CARO:0000000
 is_a: UBERON:0003104 ! mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: has_potential_to_develop_into UBERON:0002113 ! kidney
@@ -26657,6 +26659,7 @@ def: "Mesenchyme that is part of a developing pectoral fin [Automatically genera
 synonym: "mesenchyme of pectoral fin" EXACT []
 synonym: "mesenchyme pectoral fins" RELATED []
 synonym: "pectoral fin mesenchyme" EXACT []
+is_a: CARO:0000000
 is_a: UBERON:0003104 ! mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: part_of UBERON:0000151 ! pectoral fin
@@ -26669,6 +26672,7 @@ def: "Mesenchyme that is part of a developing pelvic fin [Automatically generate
 synonym: "mesenchyme of pelvic fin" EXACT []
 synonym: "mesenchyme pelvic fins" RELATED []
 synonym: "pelvic fin mesenchyme" EXACT []
+is_a: CARO:0000000
 is_a: UBERON:0003104 ! mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: part_of UBERON:0000152 ! pelvic fin
@@ -28317,6 +28321,7 @@ name: nephrogenic mesenchyme
 def: "Nephrogenic mesenchyme is the tissue made up of loosely connected mesenchymal cells in the nephron" []
 synonym: "mesenchyme of nephron" EXACT []
 synonym: "nephron mesenchyme" EXACT []
+is_a: CARO:0000000
 is_a: UBERON:0003104 ! mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: has_potential_to_develop_into UBERON:0001285 ! nephron
@@ -43960,6 +43965,7 @@ relationship: has_part CL:0000737
 id: UBERON:0007524
 name: dense mesenchyme tissue
 def: "Mesenchyme with little extracellular matrix." []
+is_a: CARO:0000000
 is_a: UBERON:0003104 ! mesenchyme
 relationship: has_part CL:0000057
 
@@ -43967,6 +43973,7 @@ relationship: has_part CL:0000057
 id: UBERON:0007529
 name: loose mesenchyme tissue
 def: "Mesenchyme whose cells are embedded in obvious amounts of extracellular matrix." []
+is_a: CARO:0000000
 is_a: UBERON:0003104 ! mesenchyme
 relationship: has_part CL:0000057
 relationship: has_part CL:0000327
@@ -46243,6 +46250,7 @@ relationship: part_of UBERON:0006211 ! buccopharyngeal membrane
 id: UBERON:0009482
 name: associated mesenchyme of foregut-midgut junction
 def: "Mesenchyme that is part of a foregut-midgut junction." []
+is_a: CARO:0000000
 is_a: UBERON:0003104 ! mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: part_of UBERON:0006235 ! foregut-midgut junction
@@ -46315,6 +46323,7 @@ id: UBERON:0009503
 name: mesenchyme of hindgut
 def: "Mesenchyme that is part of a developing hindgut." []
 synonym: "hindgut associated mesenchyme" EXACT []
+is_a: CARO:0000000
 is_a: UBERON:0003104 ! mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: part_of UBERON:0001046 ! hindgut
@@ -46811,6 +46820,7 @@ synonym: "cranial paraxial mesoderm" EXACT []
 synonym: "head paraxial mesenchyme" EXACT []
 synonym: "somitomere" RELATED []
 synonym: "somitomeric mesoderm" RELATED []
+is_a: CARO:0000000
 is_a: UBERON:0005253 ! head mesenchyme
 relationship: part_of UBERON:0003077 ! paraxial mesoderm
 
@@ -46819,6 +46829,7 @@ id: UBERON:0009618
 name: trunk paraxial mesoderm
 synonym: "trunk and cervical paraxial mesenchyme" EXACT []
 synonym: "trunk paraxial mesenchyme" RELATED []
+is_a: CARO:0000000
 is_a: UBERON:0005256 ! trunk mesenchyme
 relationship: part_of UBERON:0003077 ! paraxial mesoderm
 
@@ -47204,6 +47215,7 @@ id: UBERON:0009749
 name: limb mesenchyme
 def: "The primordial embryonic connective tissue of the developing limbs, autopods and digits, consisting of mesenchymal cells supported in interlaminar jelly, that derive mostly from the mesoderm and contribute to limb connective tissue, bone and musculature in conjunction with myotome cells." []
 synonym: "limb mesoderm" RELATED []
+is_a: CARO:0000000
 is_a: UBERON:0003104 ! mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: part_of UBERON:0002101 ! limb
@@ -48211,6 +48223,7 @@ relationship: has_potential_to_develop_into UBERON:0001175 ! common hepatic duct
 id: UBERON:0010083
 name: future dermis
 def: "Mesenchyme that has the potential to develop into a dermis." []
+is_a: CARO:0000000
 is_a: UBERON:0003104 ! mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: has_potential_to_develop_into UBERON:0002067 ! dermis
@@ -49011,6 +49024,7 @@ intersection_of: part_of UBERON:0001773 ! sclera
 id: UBERON:0010299
 name: scleral mesenchyme
 def: "Mesenchyme surrounding the developing optic cup which develops into the sclera." []
+is_a: CARO:0000000
 is_a: UBERON:0003104 ! mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: has_potential_to_develop_into UBERON:0001773 ! sclera
@@ -59832,6 +59846,7 @@ relationship: part_of UBERON:0002028 ! hindbrain
 id: UBERON:0034995
 name: jaw mesenchyme
 def: "Mesenchyme that is part of a developing jaw [Automatically generated definition]." []
+is_a: CARO:0000000
 is_a: UBERON:0005253 ! head mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: part_of UBERON:0011595 ! jaw region
@@ -62698,16 +62713,12 @@ id: existence_ends_with
 name: existence ends with
 def: "Relation between continuant and occurrent, such that c ceases to exist at the end of p." []
 xref: RO:0002493
-domain: UBERON:0001062 ! anatomical entity
-range: UBERON:0000105 ! life cycle stage
 is_a: existence_ends_during ! existence ends during
 
 [Typedef]
 id: existence_starts_and_ends_during
 name: existence starts and ends during
-xref: existence_starts_and_ends_during
-domain: UBERON:0001062 ! anatomical entity
-range: UBERON:0000105 ! life cycle stage
+xref: RO:0002491
 is_a: existence_ends_during ! existence ends during
 is_a: existence_starts_during ! existence starts during
 
@@ -62734,8 +62745,6 @@ id: existence_starts_with
 name: existence starts with
 def: "Relation between continuant and occurrent, such that c comes into existence at the start of p." []
 xref: RO:0002489
-domain: UBERON:0001062 ! anatomical entity
-range: UBERON:0000105 ! life cycle stage
 is_a: existence_starts_during ! existence starts during
 
 [Typedef]
