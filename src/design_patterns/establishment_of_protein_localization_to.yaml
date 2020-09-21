@@ -1,14 +1,14 @@
 pattern_name: 'establishment_of_protein_localization_to'
 
 classes:
-  'cellular component':'GO:0005575'
-  ' establishment of protein localization':'GO:0045184'  
+  cellular component: 'GO:0005575'
+  establishment of protein localization: 'GO:0045184'  
   
 relations:
-  'has target end location':'RO:0002339'
+  has target end location: 'RO:0002339'
   
 vars: 
-  'target':"cellular component" 
+  target: "'cellular component'" 
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -28,11 +28,10 @@ def:
   text: "The directed movement of a protein to a specific location in %s."
   vars:
     - 'target'
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 

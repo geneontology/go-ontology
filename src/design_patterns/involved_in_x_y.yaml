@@ -1,14 +1,14 @@
 pattern_name: 'involved_in_x_y'
 
 classes:
-  'biological process': 'GO:0008150'
+  biological process: 'GO:0008150'
 
 relations:
-  'part of': 'BFO:0000050'
+  part of: 'BFO:0000050'
 
 vars: 
-  'process1': "biological process" 
-  'process2': "biological process" 
+  process1: "'biological process'" 
+  process2: "'biological process'" 
 
 
 # Boilerplate - don't edit
@@ -26,31 +26,25 @@ name:
     - 'process1'
     - 'process2'
 
-
 def:
   text: "Any %s that is involved in %s."
   vars:
     - 'process1'
     - 'process2'
-
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
-
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 
   text: 'biological_process'
 
 equivalentTo: 
-  text: "'%s and 'part of' some %s"
+  text: "%s and 'part of' some %s"
   vars:
     - 'process1'
     - 'process2'
-
-    
 
 # Boilerplate - don't edit
 exact_synonyms: 

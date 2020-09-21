@@ -1,16 +1,16 @@
 pattern_name: 'cc_transport_from_to'
 
 classes:
-  'transport': 'GO:0006810'
-  'cellular component': 'GO:0005575'
+  transport: 'GO:0006810'
+  cellular component: 'GO:0005575'
 
 relations: 
-  'has_target_start_location': 'RO:0002338'
-  'has_target_end_location': 'RO:0002339'
+  has_target_start_location: 'RO:0002338'
+  has_target_end_location: 'RO:0002339'
 
 vars:
- 'target_start': "cellular component"
- 'target_end': "cellular component"
+ target_start: "'cellular component'"
+ target_end: "'cellular component'"
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -24,29 +24,28 @@ data_list_vars:
 name:
      text: "%s to %s transport"
      vars:
-       - 'target_start'
-       - 'target_end'
+       - target_start
+       - target_end
 
 def:
   text: "The directed movement of substances from %s to %s."
   vars:
-     - 'target_start'
-     - 'target_end'
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
+     - target_start
+     - target_end
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 
   text: 'biological_process'
   
 equivalentTo:
-  text: " 'transport' and 'has_target_start_location' some %s and 'has_target_end_location' some %s"
+  text: " 'transport' and ('has_target_start_location' some %s) and ('has_target_end_location' some %s)"
   vars:
-    - 'target_start'
-    - 'target_end'
+    - target_start
+    - target_end
     
 # Boilerplate - don't edit
 exact_synonyms: 
@@ -57,4 +56,3 @@ broad_synonyms:
    value: broad_syn
 related_synonyms: 
    value: related_syn
-

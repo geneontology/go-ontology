@@ -1,15 +1,14 @@
 pattern_name: 'inhibitor_activity'
 
 classes:
-  'molecular function': 'GO:0003674'
-  'catalytic activity': 'GO:0003824'
-
+  molecular function: 'GO:0003674'
+  catalytic activity: 'GO:0003824'
 
 relations:
-  'directly negatively regulates': 'RO:0002630'
+  directly negatively regulates: 'RO:0002630'
 
 vars: 
-  'regulated_activity': "catalytic activity" 
+  regulated_activity: "'catalytic activity'" 
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -25,7 +24,6 @@ name:
   vars:
     - 'regulated_activity'
 
-
 def:
   text: "Direct interaction with a gene product or complex that has %s, 
     resulting in negative regulation of its %s. Direct interaction 
@@ -34,14 +32,11 @@ def:
   vars:
     - 'regulated_activity'
     - 'regulated_activity'
-
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
-
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
-   value: cross_references
+xref: 
+  value: cross_references
 
 namespace: 
   text: 'biological_process'

@@ -1,14 +1,14 @@
 pattern_name: 'activator_activity'
 
 classes:
-  'molecular_function':'GO:0003674'
-  'catalytic activity':'GO:0003824'
+  molecular_function: 'GO:0003674'
+  catalytic activity: 'GO:0003824'
 
 relations:
-  'directly positively regulates':'RO:0002629' 
+  directly positively regulates: 'RO:0002629' 
   
 vars:
-  'regulated_activity':"catalytic activity" 
+  regulated_activity: "'catalytic activity'" 
 
 substitutions:
    - 
@@ -42,12 +42,10 @@ def:
   vars:
     - 'regulated_activity'
     - 'regulated_activity'
-    
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 

@@ -1,14 +1,14 @@
 pattern_name: 'spanning_component_of_membrane'
 
 classes:
-  'membrane': 'GO:0016020'
-  'spanning component of membrane': 'GO:0089717'
+  membrane: 'GO:0016020'
+  spanning component of membrane: 'GO:0089717'
 
 relations:
-  'part of': 'BFO:0000050'
+  part of: 'BFO:0000050'
 
 vars: 
-  'membrane': "membrane" 
+  membrane: "membrane" 
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -28,13 +28,10 @@ def:
   text: "The component of the %s consisting of gene products and protein complexes that have some part that spans both leaflets of the membrane."
   vars:
     - 'membrane'
-
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
-
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 

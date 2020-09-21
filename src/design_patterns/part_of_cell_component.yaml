@@ -1,14 +1,14 @@
 pattern_name: 'part_of_cell_component'
 
 classes:
-  'cellular component': 'GO:0005575'
+  cellular component: 'GO:0005575'
 
 relations:
-  'part of': 'BFO:0000050'
+  part of: 'BFO:0000050'
 
 vars: 
-  'component1': "cellular component" 
-  'component2': "cellular component" 
+  component1: "'cellular component'" 
+  component2: "'cellular component'" 
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -30,13 +30,10 @@ def:
   vars:
     - 'component1'
     - 'component2'
-
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
-
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 
