@@ -88,6 +88,13 @@ is_a: NCBITaxon:2697495 ! Spiralia
 relationship: RO:0002162 NCBITaxon:1206795 ! in taxon Lophotrochozoa
 
 [Term]
+id: NCBITaxon:1286322
+name: Leishmaniinae
+is_a: NCBITaxon:5654 ! Trypanosomatidae
+disjoint_from: NCBITaxon:5690 ! Trypanosoma
+relationship: RO:0002162 NCBITaxon:1286322 ! in taxon Leishmaniinae
+
+[Term]
 id: NCBITaxon:1292243
 name: Continenticola
 is_a: NCBITaxon:6159 ! Tricladida
@@ -999,6 +1006,13 @@ id: NCBITaxon:5654
 name: Trypanosomatidae
 is_a: NCBITaxon:2704949 ! Trypanosomatida
 relationship: RO:0002162 NCBITaxon:5654 ! in taxon Trypanosomatidae
+
+[Term]
+id: NCBITaxon:5658
+name: Leishmania <genus>
+synonym: "Leishmania" EXACT []
+is_a: NCBITaxon:1286322 ! Leishmaniinae
+relationship: RO:0002162 NCBITaxon:5658 ! in taxon Leishmania <genus>
 
 [Term]
 id: NCBITaxon:5690

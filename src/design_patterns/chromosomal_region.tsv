@@ -1,6 +1,7 @@
-iri	iri label	sequence_region	sequence_region label
-GO:0034506	chromosome, centromeric core domain	SO:0001796	regional_centromere_central_core
-GO:0034507	chromosome, centromeric outer repeat region	SO:0001799	regional_centromere_outer_repeat_region
-GO:0000775	chromosome, centromeric region	SO:0000577	centromere
-GO:0099115	chromosome, subtelomeric region	SO:0001997	subtelomere
-GO:0000781	chromosome, telomeric region	SO:0000624	telomere
+defined_class	defined_class_label	sequence_region	sequence_region_label
+http://purl.obolibrary.org/obo/GO_0034506	chromosome, centromeric core domain	http://purl.obolibrary.org/obo/SO_0001796	regional_centromere_central_core
+http://purl.obolibrary.org/obo/GO_0062199	chromosome, centromeric inner repeat region	http://purl.obolibrary.org/obo/SO_0001798	regional_centromere_inner_repeat_region
+http://purl.obolibrary.org/obo/GO_0034507	chromosome, centromeric outer repeat region	http://purl.obolibrary.org/obo/SO_0001799	regional_centromere_outer_repeat_region
+http://purl.obolibrary.org/obo/GO_0000775	chromosome, centromeric region	http://purl.obolibrary.org/obo/SO_0000577	centromere
+http://purl.obolibrary.org/obo/GO_0099115	chromosome, subtelomeric region	http://purl.obolibrary.org/obo/SO_0001997	subtelomere
+http://purl.obolibrary.org/obo/GO_0000781	chromosome, telomeric region	http://purl.obolibrary.org/obo/SO_0000624	telomere

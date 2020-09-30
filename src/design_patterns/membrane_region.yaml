@@ -1,15 +1,15 @@
 pattern_name: 'membrane_region'
 
 classes:
-  'membrane': 'GO:0016020'
-  'cellular_component': 'GO:0005575'
+  membrane: 'GO:0016020'
+  cellular_component: 'GO:0005575'
 
 relations:
-  'part of': 'BFO:0000050'
+  part of: 'BFO:0000050'
 
 vars: 
-  'encompassing_membrane': "membrane" 
-  'intersecting_region': "cellular_component" 
+  encompassing_membrane: "membrane" 
+  intersecting_region: "cellular_component" 
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -31,13 +31,10 @@ def:
   vars:
     - encompassing_membrane
     - intersecting_region
-
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
-
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 

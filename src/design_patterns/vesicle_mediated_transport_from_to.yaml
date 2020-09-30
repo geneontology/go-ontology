@@ -25,10 +25,7 @@ def:
     - end location 
 
 equivalentTo:
-  text: " 'vesicle-mediated transport' and 'has_target_start_location' some %s and 'has_target_end_location' some %s"
+  text: "'vesicle-mediated transport' and 'has_target_start_location' some %s and 'has_target_end_location' some %s"
   vars:
     - start location
     - end location 
-    
-
-

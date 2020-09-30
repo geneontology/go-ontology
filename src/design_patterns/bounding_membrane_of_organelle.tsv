@@ -1,71 +1,71 @@
-iri	iri label	organelle	organelle label
-GO:0030663	COPI-coated vesicle membrane	GO:0030137	COPI-coated vesicle
-GO:0012507	ER to Golgi transport vesicle membrane	GO:0030134	COPII-coated ER to Golgi transport vesicle
-GO:0012508	Golgi to ER transport vesicle membrane	GO:0030142	COPI-coated Golgi to ER transport vesicle
-GO:0030660	Golgi-associated vesicle membrane	GO:0005798	Golgi-associated vesicle
-GO:0033102	acidocalcisome membrane	GO:0020022	acidocalcisome
-GO:0002080	acrosomal membrane	GO:0001669	acrosomal vesicle
-GO:0032578	aleurone grain membrane	GO:0033095	aleurone grain
-GO:1904930	amphisome membrane	GO:0044753	amphisome
-GO:0000421	autophagosome membrane	GO:0005776	autophagosome
-GO:0035577	azurophil granule membrane	GO:0042582	azurophil granule
-GO:0030661	chitosome membrane	GO:0045009	chitosome
-GO:0009707	chloroplast outer membrane	GO:0009507	chloroplast
-GO:0042584	chromaffin granule membrane	GO:0042583	chromaffin granule
-GO:0031900	chromoplast outer membrane	GO:0009509	chromoplast
-GO:0030669	clathrin-coated endocytic vesicle membrane	GO:0045334	clathrin-coated endocytic vesicle
-GO:0030671	clathrin-coated phagocytic vesicle membrane	GO:0045336	clathrin-coated phagocytic vesicle
-GO:0030665	clathrin-coated vesicle membrane	GO:0030136	clathrin-coated vesicle
-GO:0060201	clathrin-sculpted acetylcholine transport vesicle membrane	GO:0060200	clathrin-sculpted acetylcholine transport vesicle
-GO:0061202	clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane	GO:0061200	clathrin-sculpted gamma-aminobutyric acid transport vesicle
-GO:0060203	clathrin-sculpted glutamate transport vesicle membrane	GO:0060199	clathrin-sculpted glutamate transport vesicle
-GO:0070083	clathrin-sculpted monoamine transport vesicle membrane	GO:0070081	clathrin-sculpted monoamine transport vesicle
-GO:0030662	coated vesicle membrane	GO:0030135	coated vesicle
-GO:0031164	contractile vacuolar membrane	GO:0000331	contractile vacuole
-GO:0036013	cyanelle outer membrane	GO:0009842	cyanelle
-GO:0101004	cytolytic granule membrane	GO:0044194	cytolytic granule
-GO:0032127	dense core granule membrane	GO:0031045	dense core granule
-GO:0031901	early endosome membrane	GO:0005769	early endosome
-GO:0036186	early phagosome membrane	GO:0032009	early phagosome
-GO:0030666	endocytic vesicle membrane	GO:0030139	endocytic vesicle
-GO:0036020	endolysosome membrane	GO:0036019	endolysosome
-GO:0010008	endosome membrane	GO:0005768	endosome
-GO:0033118	esterosome membrane	GO:0033117	esterosome
-GO:0099501	exocytic vesicle membrane	GO:0070382	exocytic vesicle
-GO:0101003	ficolin-1-rich granule membrane	GO:0101002	ficolin-1-rich granule
-GO:0000329	fungal-type vacuole membrane	GO:0000324	fungal-type vacuole
-GO:0046860	glycosome membrane	GO:0020015	glycosome
-GO:0046859	hydrogenosomal membrane	GO:0042566	hydrogenosome
-GO:0012509	inter-Golgi transport vesicle membrane	GO:0030143	COPI-coated inter-Golgi transport vesicle
-GO:0097232	lamellar body membrane	GO:0042599	lamellar body
-GO:0031902	late endosome membrane	GO:0005770	late endosome
-GO:0005765	lysosomal membrane	GO:0005764	lysosome
-GO:0098852	lytic vacuole membrane	GO:0000323	lytic vacuole
-GO:0033162	melanosome membrane	GO:0042470	melanosome
-GO:0030668	merozoite dense granule membrane	GO:0020026	merozoite dense granule
-GO:0031903	microbody membrane	GO:0042579	microbody
-GO:0005741	mitochondrial outer membrane	GO:0005739	mitochondrion
-GO:0099012	neuronal dense core vesicle membrane	GO:0098992	neuronal dense core vesicle
-GO:0005640	nuclear outer membrane	GO:0005634	nucleus
-GO:0070114	organellar chromatophore outer membrane	GO:0070111	organellar chromatophore
-GO:0043661	peribacteroid membrane	GO:0043660	bacteroid-containing symbiosome
-GO:0005778	peroxisomal membrane	GO:0005777	peroxisome
-GO:0030670	phagocytic vesicle membrane	GO:0045335	phagocytic vesicle
-GO:0061474	phagolysosome membrane	GO:0032010	phagolysosome
-GO:0009705	plant-type vacuole membrane	GO:0000325	plant-type vacuole
-GO:0009527	plastid outer membrane	GO:0009536	plastid
-GO:0031092	platelet alpha granule membrane	GO:0031091	platelet alpha granule
-GO:0031088	platelet dense granule membrane	GO:0042827	platelet dense granule
-GO:0098896	postsynaptic early endosome membrane	GO:0098842	postsynaptic early endosome
-GO:0098895	postsynaptic endosome membrane	GO:0098845	postsynaptic endosome
-GO:0098954	presynaptic endosome membrane	GO:0098830	presynaptic endosome
-GO:0032586	protein storage vacuole membrane	GO:0000326	protein storage vacuole
-GO:0030667	secretory granule membrane	GO:0030141	secretory granule
-GO:0035579	specific granule membrane	GO:0042581	specific granule
-GO:0098897	spine apparatus membrane	GO:0097444	spine apparatus
-GO:0030672	synaptic vesicle membrane	GO:0008021	synaptic vesicle
-GO:0070821	tertiary granule membrane	GO:0070820	tertiary granule
-GO:0012510	trans-Golgi network transport vesicle membrane	GO:0030140	trans-Golgi network transport vesicle
-GO:0030658	transport vesicle membrane	GO:0030133	transport vesicle
-GO:0005774	vacuolar membrane	GO:0005773	vacuole
-GO:0042589	zymogen granule membrane	GO:0042588	zymogen granule
+defined_class	defined_class_label	organelle	organelle_label
+http://purl.obolibrary.org/obo/GO_0030663	COPI-coated vesicle membrane	http://purl.obolibrary.org/obo/GO_0030137	COPI-coated vesicle
+http://purl.obolibrary.org/obo/GO_0012507	ER to Golgi transport vesicle membrane	http://purl.obolibrary.org/obo/GO_0030134	COPII-coated ER to Golgi transport vesicle
+http://purl.obolibrary.org/obo/GO_0012508	Golgi to ER transport vesicle membrane	http://purl.obolibrary.org/obo/GO_0030142	COPI-coated Golgi to ER transport vesicle
+http://purl.obolibrary.org/obo/GO_0030660	Golgi-associated vesicle membrane	http://purl.obolibrary.org/obo/GO_0005798	Golgi-associated vesicle
+http://purl.obolibrary.org/obo/GO_0033102	acidocalcisome membrane	http://purl.obolibrary.org/obo/GO_0020022	acidocalcisome
+http://purl.obolibrary.org/obo/GO_0002080	acrosomal membrane	http://purl.obolibrary.org/obo/GO_0001669	acrosomal vesicle
+http://purl.obolibrary.org/obo/GO_0032578	aleurone grain membrane	http://purl.obolibrary.org/obo/GO_0033095	aleurone grain
+http://purl.obolibrary.org/obo/GO_1904930	amphisome membrane	http://purl.obolibrary.org/obo/GO_0044753	amphisome
+http://purl.obolibrary.org/obo/GO_0000421	autophagosome membrane	http://purl.obolibrary.org/obo/GO_0005776	autophagosome
+http://purl.obolibrary.org/obo/GO_0035577	azurophil granule membrane	http://purl.obolibrary.org/obo/GO_0042582	azurophil granule
+http://purl.obolibrary.org/obo/GO_0030661	chitosome membrane	http://purl.obolibrary.org/obo/GO_0045009	chitosome
+http://purl.obolibrary.org/obo/GO_0009707	chloroplast outer membrane	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0042584	chromaffin granule membrane	http://purl.obolibrary.org/obo/GO_0042583	chromaffin granule
+http://purl.obolibrary.org/obo/GO_0031900	chromoplast outer membrane	http://purl.obolibrary.org/obo/GO_0009509	chromoplast
+http://purl.obolibrary.org/obo/GO_0030669	clathrin-coated endocytic vesicle membrane	http://purl.obolibrary.org/obo/GO_0045334	clathrin-coated endocytic vesicle
+http://purl.obolibrary.org/obo/GO_0030671	clathrin-coated phagocytic vesicle membrane	http://purl.obolibrary.org/obo/GO_0045336	clathrin-coated phagocytic vesicle
+http://purl.obolibrary.org/obo/GO_0030665	clathrin-coated vesicle membrane	http://purl.obolibrary.org/obo/GO_0030136	clathrin-coated vesicle
+http://purl.obolibrary.org/obo/GO_0060201	clathrin-sculpted acetylcholine transport vesicle membrane	http://purl.obolibrary.org/obo/GO_0060200	clathrin-sculpted acetylcholine transport vesicle
+http://purl.obolibrary.org/obo/GO_0061202	clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane	http://purl.obolibrary.org/obo/GO_0061200	clathrin-sculpted gamma-aminobutyric acid transport vesicle
+http://purl.obolibrary.org/obo/GO_0060203	clathrin-sculpted glutamate transport vesicle membrane	http://purl.obolibrary.org/obo/GO_0060199	clathrin-sculpted glutamate transport vesicle
+http://purl.obolibrary.org/obo/GO_0070083	clathrin-sculpted monoamine transport vesicle membrane	http://purl.obolibrary.org/obo/GO_0070081	clathrin-sculpted monoamine transport vesicle
+http://purl.obolibrary.org/obo/GO_0030662	coated vesicle membrane	http://purl.obolibrary.org/obo/GO_0030135	coated vesicle
+http://purl.obolibrary.org/obo/GO_0031164	contractile vacuolar membrane	http://purl.obolibrary.org/obo/GO_0000331	contractile vacuole
+http://purl.obolibrary.org/obo/GO_0036013	cyanelle outer membrane	http://purl.obolibrary.org/obo/GO_0009842	cyanelle
+http://purl.obolibrary.org/obo/GO_0101004	cytolytic granule membrane	http://purl.obolibrary.org/obo/GO_0044194	cytolytic granule
+http://purl.obolibrary.org/obo/GO_0032127	dense core granule membrane	http://purl.obolibrary.org/obo/GO_0031045	dense core granule
+http://purl.obolibrary.org/obo/GO_0031901	early endosome membrane	http://purl.obolibrary.org/obo/GO_0005769	early endosome
+http://purl.obolibrary.org/obo/GO_0036186	early phagosome membrane	http://purl.obolibrary.org/obo/GO_0032009	early phagosome
+http://purl.obolibrary.org/obo/GO_0030666	endocytic vesicle membrane	http://purl.obolibrary.org/obo/GO_0030139	endocytic vesicle
+http://purl.obolibrary.org/obo/GO_0036020	endolysosome membrane	http://purl.obolibrary.org/obo/GO_0036019	endolysosome
+http://purl.obolibrary.org/obo/GO_0010008	endosome membrane	http://purl.obolibrary.org/obo/GO_0005768	endosome
+http://purl.obolibrary.org/obo/GO_0033118	esterosome membrane	http://purl.obolibrary.org/obo/GO_0033117	esterosome
+http://purl.obolibrary.org/obo/GO_0099501	exocytic vesicle membrane	http://purl.obolibrary.org/obo/GO_0070382	exocytic vesicle
+http://purl.obolibrary.org/obo/GO_0101003	ficolin-1-rich granule membrane	http://purl.obolibrary.org/obo/GO_0101002	ficolin-1-rich granule
+http://purl.obolibrary.org/obo/GO_0000329	fungal-type vacuole membrane	http://purl.obolibrary.org/obo/GO_0000324	fungal-type vacuole
+http://purl.obolibrary.org/obo/GO_0046860	glycosome membrane	http://purl.obolibrary.org/obo/GO_0020015	glycosome
+http://purl.obolibrary.org/obo/GO_0046859	hydrogenosomal membrane	http://purl.obolibrary.org/obo/GO_0042566	hydrogenosome
+http://purl.obolibrary.org/obo/GO_0012509	inter-Golgi transport vesicle membrane	http://purl.obolibrary.org/obo/GO_0030143	COPI-coated inter-Golgi transport vesicle
+http://purl.obolibrary.org/obo/GO_0097232	lamellar body membrane	http://purl.obolibrary.org/obo/GO_0042599	lamellar body
+http://purl.obolibrary.org/obo/GO_0031902	late endosome membrane	http://purl.obolibrary.org/obo/GO_0005770	late endosome
+http://purl.obolibrary.org/obo/GO_0005765	lysosomal membrane	http://purl.obolibrary.org/obo/GO_0005764	lysosome
+http://purl.obolibrary.org/obo/GO_0098852	lytic vacuole membrane	http://purl.obolibrary.org/obo/GO_0000323	lytic vacuole
+http://purl.obolibrary.org/obo/GO_0033162	melanosome membrane	http://purl.obolibrary.org/obo/GO_0042470	melanosome
+http://purl.obolibrary.org/obo/GO_0030668	merozoite dense granule membrane	http://purl.obolibrary.org/obo/GO_0020026	merozoite dense granule
+http://purl.obolibrary.org/obo/GO_0031903	microbody membrane	http://purl.obolibrary.org/obo/GO_0042579	microbody
+http://purl.obolibrary.org/obo/GO_0005741	mitochondrial outer membrane	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0099012	neuronal dense core vesicle membrane	http://purl.obolibrary.org/obo/GO_0098992	neuronal dense core vesicle
+http://purl.obolibrary.org/obo/GO_0005640	nuclear outer membrane	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0070114	organellar chromatophore outer membrane	http://purl.obolibrary.org/obo/GO_0070111	organellar chromatophore
+http://purl.obolibrary.org/obo/GO_0043661	peribacteroid membrane	http://purl.obolibrary.org/obo/GO_0043660	bacteroid-containing symbiosome
+http://purl.obolibrary.org/obo/GO_0005778	peroxisomal membrane	http://purl.obolibrary.org/obo/GO_0005777	peroxisome
+http://purl.obolibrary.org/obo/GO_0030670	phagocytic vesicle membrane	http://purl.obolibrary.org/obo/GO_0045335	phagocytic vesicle
+http://purl.obolibrary.org/obo/GO_0061474	phagolysosome membrane	http://purl.obolibrary.org/obo/GO_0032010	phagolysosome
+http://purl.obolibrary.org/obo/GO_0009705	plant-type vacuole membrane	http://purl.obolibrary.org/obo/GO_0000325	plant-type vacuole
+http://purl.obolibrary.org/obo/GO_0009527	plastid outer membrane	http://purl.obolibrary.org/obo/GO_0009536	plastid
+http://purl.obolibrary.org/obo/GO_0031092	platelet alpha granule membrane	http://purl.obolibrary.org/obo/GO_0031091	platelet alpha granule
+http://purl.obolibrary.org/obo/GO_0031088	platelet dense granule membrane	http://purl.obolibrary.org/obo/GO_0042827	platelet dense granule
+http://purl.obolibrary.org/obo/GO_0098896	postsynaptic early endosome membrane	http://purl.obolibrary.org/obo/GO_0098842	postsynaptic early endosome
+http://purl.obolibrary.org/obo/GO_0098895	postsynaptic endosome membrane	http://purl.obolibrary.org/obo/GO_0098845	postsynaptic endosome
+http://purl.obolibrary.org/obo/GO_0098954	presynaptic endosome membrane	http://purl.obolibrary.org/obo/GO_0098830	presynaptic endosome
+http://purl.obolibrary.org/obo/GO_0032586	protein storage vacuole membrane	http://purl.obolibrary.org/obo/GO_0000326	protein storage vacuole
+http://purl.obolibrary.org/obo/GO_0030667	secretory granule membrane	http://purl.obolibrary.org/obo/GO_0030141	secretory granule
+http://purl.obolibrary.org/obo/GO_0035579	specific granule membrane	http://purl.obolibrary.org/obo/GO_0042581	specific granule
+http://purl.obolibrary.org/obo/GO_0098897	spine apparatus membrane	http://purl.obolibrary.org/obo/GO_0097444	spine apparatus
+http://purl.obolibrary.org/obo/GO_0030672	synaptic vesicle membrane	http://purl.obolibrary.org/obo/GO_0008021	synaptic vesicle
+http://purl.obolibrary.org/obo/GO_0070821	tertiary granule membrane	http://purl.obolibrary.org/obo/GO_0070820	tertiary granule
+http://purl.obolibrary.org/obo/GO_0012510	trans-Golgi network transport vesicle membrane	http://purl.obolibrary.org/obo/GO_0030140	trans-Golgi network transport vesicle
+http://purl.obolibrary.org/obo/GO_0030658	transport vesicle membrane	http://purl.obolibrary.org/obo/GO_0030133	transport vesicle
+http://purl.obolibrary.org/obo/GO_0005774	vacuolar membrane	http://purl.obolibrary.org/obo/GO_0005773	vacuole
+http://purl.obolibrary.org/obo/GO_0042589	zymogen granule membrane	http://purl.obolibrary.org/obo/GO_0042588	zymogen granule

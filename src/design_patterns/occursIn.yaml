@@ -1,15 +1,15 @@
 pattern_name: 'occursIn'
 
 classes:
-  'process': 'GO:0008150'
-  'location': 'BFO:0000004'
+  process: 'GO:0008150'
+  location: 'BFO:0000004'
 
 relations:
-  'occurs_in': 'BFO:0000066'
+  occurs_in: 'BFO:0000066'
 
 vars: 
-  'process': "process" 
-  'location': "location" 
+  process: "process" 
+  location: "location" 
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -31,13 +31,10 @@ def:
   vars:
     - 'process'
     - 'location'
-
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
-
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 

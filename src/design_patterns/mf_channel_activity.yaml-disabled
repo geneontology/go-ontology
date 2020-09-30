@@ -1,0 +1,46 @@
+pattern_name: 'mf_channel activity'
+
+classes:
+  channel activity: 'GO:0015267'
+#  'part of' some '%s transmembrane transport'
+
+relations: 
+  transports_or_maintains_localization_of: 'RO:0002313'
+
+# Boilerplate - don't edit
+data_list_vars:
+  def_xrefs: "xsd:string"
+  cross_references: "xsd:string"
+  exact_syn: "xsd:string"
+  narrow_syn: "xsd:string"
+  broad_syn: "xsd:string"
+  related_syn: "xsd:string"
+  
+name:
+  text: "%s channel activity"
+
+
+def:
+  text: "Enables the energy-independent facilitated diffusion of %s from one side of a membrane to the other, mediated by passage of a solute through a transmembrane aqueous pore or channel. Stereospecificity is not exhibited but this transport may be specific for a particular molecular species or class of molecules."
+  xrefs: def_xrefs
+
+# Boilerplate - don't edit
+xref: 
+  value: cross_references
+
+namespace: 
+  text: 'biological_process'
+  
+equivalentTo:
+  text: " 'transports or maintains localization of' some %s "
+    
+# Boilerplate - don't edit
+exact_synonyms: 
+   value: exact_syn
+narrow_synonyms: 
+   value: narrow_syn
+broad_synonyms: 
+   value: broad_syn
+related_synonyms: 
+   value: related_syn
+

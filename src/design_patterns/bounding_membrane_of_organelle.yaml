@@ -8,7 +8,7 @@ relations:
   'bounding layer of': 'RO:0002007'
 
 vars: 
-  'organelle': 'membrane-bounded organelle'
+  'organelle': "'membrane-bounded organelle'"
   
 # Boilerplate - don't edit
 data_list_vars:
@@ -28,8 +28,7 @@ def:
   vars:
     - 'organelle'
     
-# Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 

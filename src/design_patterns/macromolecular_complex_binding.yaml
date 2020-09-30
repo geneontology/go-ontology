@@ -1,14 +1,14 @@
 pattern_name: 'macromolecular_complex_binding'
 
 classes:
-  'material entity': 'BFO:0000040'
-  'binding': 'GO:0005488'
+  material entity: 'BFO:0000040'
+  binding: 'GO:0005488'
 
 relations:
-  'has input': 'RO:0002233'
+  has input: 'RO:0002233'
 
 vars: 
-  'entity': "material entity" 
+  entity: "'material entity'" 
 
 
 # Boilerplate - don't edit
@@ -29,13 +29,10 @@ def:
   text: "Interacting selectively and non-covalently with %s."
   vars:
     - 'entity'
-
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
-
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 

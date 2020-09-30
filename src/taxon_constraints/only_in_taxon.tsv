@@ -772,7 +772,6 @@ GO:0042302	structural constituent of cuticle	NCBITaxon:6072	Eumetazoa
 GO:0042329	structural constituent of collagen and cuticulin-based cuticle	NCBITaxon:6231	Nematoda
 GO:1990765	colon smooth muscle contraction	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0140384	metacyclogenesis	NCBITaxon:5654	Trypanosomatidae
-GO:0009870	defense response signaling pathway, resistance gene-dependent	NCBITaxon:33090	Viridiplantae
 GO:0150104	transport across blood-brain barrier	NCBITaxon:6072	Eumetazoa
 GO:0009236	cobalamin biosynthetic process	NCBITaxon:Union_0000004	Prokaryota
 GO:0006836	neurotransmitter transport	NCBITaxon:33208	Metazoa
@@ -783,3 +782,8 @@ GO:0052704	ergothioneine biosynthesis from histidine via gamma-glutamyl-hercynyl
 GO:0140479	ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase	NCBITaxon:4751	Fungi
 GO:0140494	migrasome	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0140495	migracytosis	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0106303	mannogen metabolic process	NCBITaxon:5658	Leishmania
+GO:0120259	7SK snRNP	NCBITaxon:33208	Metazoa
+GO:0120260	ciliary microtubule quartet	NCBITaxon:5653	Kinetoplastida
+GO:0140525	antipodal site	NCBITaxon:5653	Kinetoplastea
+GO:0140528	bilobe structure assembly	NCBITaxon:5653	Kinetoplastea

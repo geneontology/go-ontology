@@ -1,8 +1,1 @@
-iri	iri label	cellular_component	cellular_component label
-GO:0016043	cellular component organization	GO:0005575	cellular_component
-GO:0006325	chromatin organization	GO:0000785	chromatin
-GO:1905590	fibronectin fibril organization	GO:0061800	fibronectin fibril
-GO:0070828	heterochromatin organization	GO:0000792	heterochromatin
-GO:1905047	mitotic spindle pole body organization	GO:0044732	mitotic spindle pole body
-GO:0099084	postsynaptic specialization organization	GO:0099572	postsynaptic specialization
-GO:0050808	synapse organization	GO:0045202	synapse
+defined_class	defined_class_label	component	component_label

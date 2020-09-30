@@ -1,14 +1,14 @@
 pattern_name: 'cc_assembly'
 
 classes:
-  'cellular component': 'GO:0005575'
-  'cellular component assembly': 'GO:0022607'
+  cellular component: 'GO:0005575'
+  cellular component assembly: 'GO:0022607'
 
 relations: 
   'results_in_assembly_of': 'RO:0002588'
 
 vars:
- 'target': "cellular component"
+ 'target': "'cellular component'"
  
 # Boilerplate - don't edit
 data_list_vars:
@@ -32,8 +32,8 @@ def:
     value: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
-   value: cross_references
+xref: 
+  value: cross_references
 
 namespace: 
   text: 'biological_process'  # e.g. biological_process, quoting is optional

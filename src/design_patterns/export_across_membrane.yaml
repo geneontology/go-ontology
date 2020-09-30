@@ -1,26 +1,26 @@
 pattern_name: 'import_across_membrane'
 
 classes:
-  'membrane': 'GO:0016020'
-  'cellular component': 'GO:0005575'
-  'chemical entity': 'CHEBI:24431'
-  'macromolecular complex': 'GO:0032991'
-  'transcript': 'SO:0000673'
-  'transport': 'GO:0006810'
-  'chemical entity': 'CHEBI:24431'
+  membrane: 'GO:0016020'
+  cellular component: 'GO:0005575'
+  chemical entity: 'CHEBI:24431'
+  macromolecular complex: 'GO:0032991'
+  transcript: 'SO:0000673'
+  transport: 'GO:0006810'
+  chemical entity: 'CHEBI:24431'
   
 relations:
-  'transports or maintains localization of': 'RO:0002313'
-  'has target start location': 'RO:0002338'
-  'has target end location': 'RO:0002339'
-  'results in transport across': 'RO:0002342'
-  'exports': 'RO:0002345'
+  transports or maintains localization of: 'RO:0002313'
+  has target start location: 'RO:0002338'
+  has target end location: 'RO:0002339'
+  results in transport across: 'RO:0002342'
+  exports: 'RO:0002345'
   
 vars: 
-  'membrane': "membrane"
-  'cargo': "chemical entity" or "macromolecular complex" or "transcript"
-  'start': "cellular component"
-  'end': "cellular component"
+  membrane: "membrane"
+  cargo: "'chemical entity' or 'macromolecular complex' or transcript"
+  start: "'cellular component'"
+  end: "'cellular component'"
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -44,8 +44,7 @@ def:
     - 'start'
     - 'membrane'
     - 'end'
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
+  xrefs: def_xrefs
 
 comment: 
   text: "This term covers %s *across* the %s  through a channel or pore.  It does not cover export via vesicle fusion with %s, as in this case transport does not involve crossing the membrane."
@@ -55,20 +54,19 @@ comment:
     - 'membrane'
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 
   text: 'biological_process'
 
 equivalentTo: 
-  text: "'transport' and 'has target end location' some %s" and 'has target end location' some %s and 'exports' some % and 'results in transport across' some %s"
+  text: "'transport' and 'has target end location' some %s and 'has target end location' some %s and 'exports' some %s and 'results in transport across' some %s"
   vars:
     - 'start'
     - 'end'
     - 'cargo'
     - 'membrane'
-    
 
 # Boilerplate - don't edit
 exact_synonyms: 

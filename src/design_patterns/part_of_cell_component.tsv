@@ -1,414 +1,321 @@
-iri	iri label	component1	component1 label	component2	component2 label
-GO:0000835	ER ubiquitin ligase complex	GO:0000151	ubiquitin ligase complex	GO:0005783	endoplasmic reticulum
-GO:0044431	Golgi apparatus part	GO:0005575	cellular_component	GO:0005794	Golgi apparatus
-GO:0098791	Golgi subcompartment	GO:0031984	organelle subcompartment	GO:0005794	Golgi apparatus
-GO:0009379	Holliday junction helicase complex	GO:0033202	DNA helicase complex	GO:0048476	Holliday junction resolvase complex
-GO:0000445	THO complex part of transcription export complex	GO:0000347	THO complex	GO:0000346	transcription export complex
-GO:0005870	actin capping protein of dynactin complex	GO:0008290	F-actin capping protein complex	GO:0005869	dynactin complex
-GO:0098938	actin cytoskeleton of dendritic spine	GO:0015629	actin cytoskeleton	GO:0043197	dendritic spine
-GO:0098860	actin filament bundle of stereocilium	GO:0097518	parallel actin filament bundle	GO:0032420	stereocilium
-GO:1903145	actin filament of cell cortex of cell tip	GO:0005884	actin filament	GO:0051285	cell cortex of cell tip
-GO:1903144	actomyosin contractile ring actin filament	GO:0005884	actin filament	GO:0005826	actomyosin contractile ring
-GO:0042643	actomyosin, actin portion	GO:0005884	actin filament	GO:0042641	actomyosin
-GO:0042642	actomyosin, myosin complex part	GO:0016459	myosin complex	GO:0042641	actomyosin
-GO:0030932	amyloplast ADPG pyrophosphorylase complex	GO:0030929	ADPG pyrophosphorylase complex	GO:0009501	amyloplast
-GO:0009568	amyloplast starch grain	GO:0043036	starch grain	GO:0009501	amyloplast
-GO:0031362	anchored component of external side of plasma membrane	GO:0046658	anchored component of plasma membrane	GO:0009897	external side of plasma membrane
-GO:0036406	anchored component of periplasmic side of cell outer membrane	GO:0036405	anchored component of cell outer membrane	GO:0031241	periplasmic side of cell outer membrane
-GO:0046658	anchored component of plasma membrane	GO:0031225	anchored component of membrane	GO:0005886	plasma membrane
-GO:0099025	anchored component of postsynaptic membrane	GO:0031225	anchored component of membrane	GO:0045211	postsynaptic membrane
-GO:0099026	anchored component of presynaptic membrane	GO:0031225	anchored component of membrane	GO:0042734	presynaptic membrane
-GO:0099144	anchored component of synaptic membrane	GO:0031225	anchored component of membrane	GO:0097060	synaptic membrane
-GO:0045179	apical cortex	GO:0099738	cell cortex region	GO:0045177	apical part of cell
-GO:1905754	ascospore-type prospore nucleus	GO:0005634	nucleus	GO:0042764	ascospore-type prospore
-GO:1904115	axon cytoplasm	GO:0005737	cytoplasm	GO:0030424	axon
-GO:1901589	axon microtubule bundle	GO:0097427	microtubule bundle	GO:0030424	axon
-GO:0033267	axon part	GO:0005575	cellular_component	GO:0030424	axon
-GO:0005858	axonemal dynein complex	GO:0030286	dynein complex	GO:0005930	axoneme
-GO:0005879	axonemal microtubule	GO:0005874	microtubule	GO:0005930	axoneme
-GO:0044447	axoneme part	GO:0005575	cellular_component	GO:0005930	axoneme
-GO:0044461	bacterial-type flagellum part	GO:0005575	cellular_component	GO:0009288	bacterial-type flagellum
-GO:0045180	basal cortex	GO:0099738	cell cortex region	GO:0045178	basal part of cell
-GO:0098651	basement membrane collagen trimer	GO:0005581	collagen trimer	GO:0005604	basement membrane
-GO:0097312	biofilm matrix component	GO:0005575	cellular_component	GO:0097311	biofilm matrix
-GO:0051285	cell cortex of cell tip	GO:0099738	cell cortex region	GO:0051286	cell tip
-GO:1902716	cell cortex of growing cell tip	GO:0099738	cell cortex region	GO:0035838	growing cell tip
-GO:0044448	cell cortex part	GO:0005575	cellular_component	GO:0005938	cell cortex
-GO:0099738	cell cortex region	GO:0005938	cell cortex	GO:0005938	cell cortex
-GO:0032155	cell division site part	GO:0005575	cellular_component	GO:0032153	cell division site
-GO:1904269	cell leading edge cell cortex	GO:0099738	cell cortex region	GO:0031252	cell leading edge
-GO:0009279	cell outer membrane	GO:0019867	outer membrane	GO:0030313	cell envelope
-GO:0044464	cell part	GO:0005575	cellular_component	GO:0005623	cell
-GO:0044463	cell projection part	GO:0005575	cellular_component	GO:0042995	cell projection
-GO:0044457	cell septum part	GO:0005575	cellular_component	GO:0030428	cell septum
-GO:0044426	cell wall part	GO:0005575	cellular_component	GO:0005618	cell wall
-GO:0000142	cellular bud neck contractile ring	GO:0005826	actomyosin contractile ring	GO:0005935	cellular bud neck
-GO:0031560	cellular bud neck polarisome	GO:0000133	polarisome	GO:0005935	cellular bud neck
-GO:0032174	cellular bud neck septin collar	GO:0032173	septin collar	GO:0005935	cellular bud neck
-GO:0000144	cellular bud neck septin ring	GO:0005940	septin ring	GO:0005935	cellular bud neck
-GO:0032177	cellular bud neck split septin rings	GO:0032176	split septin rings	GO:0005935	cellular bud neck
-GO:0031561	cellular bud tip polarisome	GO:0000133	polarisome	GO:0005934	cellular bud tip
-GO:0030933	chloroplast ADPG pyrophosphorylase complex	GO:0030929	ADPG pyrophosphorylase complex	GO:0009507	chloroplast
-GO:0042648	chloroplast chromosome	GO:0005694	chromosome	GO:0009507	chloroplast
-GO:0042644	chloroplast nucleoid	GO:0009295	nucleoid	GO:0009507	chloroplast
-GO:0044434	chloroplast part	GO:0005575	cellular_component	GO:0009507	chloroplast
-GO:0030093	chloroplast photosystem I	GO:0009522	photosystem I	GO:0009507	chloroplast
-GO:0030095	chloroplast photosystem II	GO:0009523	photosystem II	GO:0009507	chloroplast
-GO:0045320	chloroplast proton-transporting ATP synthase complex	GO:0045259	proton-transporting ATP synthase complex	GO:0009507	chloroplast
-GO:0043253	chloroplast ribosome	GO:0005840	ribosome	GO:0009507	chloroplast
-GO:0009573	chloroplast ribulose bisphosphate carboxylase complex	GO:0048492	ribulose bisphosphate carboxylase complex	GO:0009507	chloroplast
-GO:0009569	chloroplast starch grain	GO:0043036	starch grain	GO:0009507	chloroplast
-GO:0009534	chloroplast thylakoid	GO:0009579	thylakoid	GO:0009507	chloroplast
-GO:0098807	chloroplast thylakoid membrane protein complex	GO:0043234	protein complex	GO:0009535	chloroplast thylakoid membrane
-GO:0009840	chloroplastic endopeptidase Clp complex	GO:0009368	endopeptidase Clp complex	GO:0009570	chloroplast stroma
-GO:0048494	chromatophore ribulose bisphosphate carboxylase complex	GO:0048492	ribulose bisphosphate carboxylase complex	GO:0042716	plasma membrane-derived chromatophore
-GO:0044427	chromosomal part	GO:0005575	cellular_component	GO:0005694	chromosome
-GO:0036064	ciliary basal body	GO:0005815	microtubule organizing center	GO:0005929	cilium
-GO:0044441	ciliary part	GO:0005575	cellular_component	GO:0005929	cilium
-GO:0030132	clathrin coat of coated pit	GO:0030118	clathrin coat	GO:0005905	clathrin-coated pit
-GO:0030128	clathrin coat of endocytic vesicle	GO:0030118	clathrin coat	GO:0030139	endocytic vesicle
-GO:0030129	clathrin coat of synaptic vesicle	GO:0030118	clathrin coat	GO:0008021	synaptic vesicle
-GO:0060103	collagen and cuticulin-based cuticle extracellular matrix part	GO:0005575	cellular_component	GO:0060102	collagen and cuticulin-based cuticle extracellular matrix
-GO:0000777	condensed chromosome kinetochore	GO:0000776	kinetochore	GO:0000793	condensed chromosome
-GO:0000794	condensed nuclear chromosome	GO:0000793	condensed chromosome	GO:0005634	nucleus
-GO:0044449	contractile fiber part	GO:0005575	cellular_component	GO:0043292	contractile fiber
-GO:0000440	core TFIIH complex portion of NEF3 complex	GO:0000439	core TFIIH complex	GO:0000112	nucleotide-excision repair factor 3 complex
-GO:0000438	core TFIIH complex portion of holo TFIIH complex	GO:0000439	core TFIIH complex	GO:0005675	holo TFIIH complex
-GO:0030864	cortical actin cytoskeleton	GO:0030863	cortical cytoskeleton	GO:0015629	actin cytoskeleton
-GO:0032541	cortical endoplasmic reticulum	GO:0071782	endoplasmic reticulum tubular network	GO:0005938	cell cortex
-GO:0099021	cortical endoplasmic reticulum lumen	GO:0031974	membrane-enclosed lumen	GO:0032541	cortical endoplasmic reticulum
-GO:1903754	cortical microtubule plus-end	GO:0035371	microtubule plus-end	GO:0055028	cortical microtubule
-GO:0030679	cyanelle ribonuclease P complex	GO:0030677	ribonuclease P complex	GO:0009842	cyanelle
-GO:0009843	cyanelle thylakoid	GO:0009579	thylakoid	GO:0009842	cyanelle
-GO:1904856	cytolytic granule lumen	GO:0060205	cytoplasmic vesicle lumen	GO:0044194	cytolytic granule
-GO:0043598	cytoplasmic DNA replication factor C complex	GO:0005663	DNA replication factor C complex	GO:0005737	cytoplasm
-GO:0043223	cytoplasmic SCF ubiquitin ligase complex	GO:0019005	SCF ubiquitin ligase complex	GO:0005737	cytoplasm
-GO:0000789	cytoplasmic chromatin	GO:0000785	chromatin	GO:0005737	cytoplasm
-GO:0000229	cytoplasmic chromosome	GO:0005694	chromosome	GO:0005737	cytoplasm
-GO:0000308	cytoplasmic cyclin-dependent protein kinase holoenzyme complex	GO:0000307	cyclin-dependent protein kinase holoenzyme complex	GO:0005737	cytoplasm
-GO:0000177	cytoplasmic exosome (RNase complex)	GO:0000178	exosome (RNase complex)	GO:0005737	cytoplasm
-GO:0005881	cytoplasmic microtubule	GO:0005874	microtubule	GO:0005737	cytoplasm
-GO:1905720	cytoplasmic microtubule bundle	GO:0097427	microtubule bundle	GO:0005737	cytoplasm
-GO:1904511	cytoplasmic microtubule plus-end	GO:0035371	microtubule plus-end	GO:0005881	cytoplasmic microtubule
-GO:0000787	cytoplasmic nucleosome	GO:0000786	nucleosome	GO:0005737	cytoplasm
-GO:0000809	cytoplasmic origin of replication recognition complex	GO:0000808	origin recognition complex	GO:0005737	cytoplasm
-GO:0044444	cytoplasmic part	GO:0005575	cellular_component	GO:0005737	cytoplasm
-GO:0099568	cytoplasmic region	GO:0005737	cytoplasm	GO:0005737	cytoplasm
-GO:0043597	cytoplasmic replication fork	GO:0005657	replication fork	GO:0005737	cytoplasm
-GO:0043600	cytoplasmic replisome	GO:0030894	replisome	GO:0005737	cytoplasm
-GO:0036464	cytoplasmic ribonucleoprotein granule	GO:0035770	ribonucleoprotein granule	GO:0005737	cytoplasm
-GO:0044797	cytoplasmic transcription factor complex	GO:0005667	transcription factor complex	GO:0005737	cytoplasm
-GO:0000153	cytoplasmic ubiquitin ligase complex	GO:0000151	ubiquitin ligase complex	GO:0005737	cytoplasm
-GO:0031410	cytoplasmic vesicle	GO:0031982	vesicle	GO:0005737	cytoplasm
-GO:0044433	cytoplasmic vesicle part	GO:0005575	cellular_component	GO:0031410	cytoplasmic vesicle
-GO:0039714	cytoplasmic viral factory	GO:0039713	viral factory	GO:0030430	host cell cytoplasm
-GO:0044430	cytoskeletal part	GO:0005575	cellular_component	GO:0005856	cytoskeleton
-GO:0098836	cytoskeleton of dendritic spine	GO:0005856	cytoskeleton	GO:0043197	dendritic spine
-GO:0048788	cytoskeleton of presynaptic active zone	GO:0030863	cortical cytoskeleton	GO:0098831	presynaptic active zone cytoplasmic component
-GO:0045249	cytosol pyruvate dehydrogenase (lipoamide) phosphatase complex	GO:0045253	pyruvate dehydrogenase (lipoamide) phosphatase complex	GO:0005829	cytosol
-GO:0045243	cytosolic isocitrate dehydrogenase complex (NAD+)	GO:0045242	isocitrate dehydrogenase complex (NAD+)	GO:0005829	cytosol
-GO:0044445	cytosolic part	GO:0005575	cellular_component	GO:0005829	cytosol
-GO:0045250	cytosolic pyruvate dehydrogenase complex	GO:0045254	pyruvate dehydrogenase complex	GO:0005829	cytosol
-GO:0022626	cytosolic ribosome	GO:0005840	ribosome	GO:0005829	cytosol
-GO:0032839	dendrite cytoplasm	GO:0005737	cytoplasm	GO:0030425	dendrite
-GO:1901588	dendritic microtubule	GO:0005874	microtubule	GO:0030425	dendrite
-GO:0061846	dendritic spine cytoplasm	GO:0005737	cytoplasm	GO:0043197	dendritic spine
-GO:0098898	dense core granule lumen	GO:0060205	cytoplasmic vesicle lumen	GO:0031045	dense core granule
-GO:0005788	endoplasmic reticulum lumen	GO:0031974	membrane-enclosed lumen	GO:0005783	endoplasmic reticulum
-GO:0044432	endoplasmic reticulum part	GO:0005575	cellular_component	GO:0005783	endoplasmic reticulum
-GO:0098827	endoplasmic reticulum subcompartment	GO:0031984	organelle subcompartment	GO:0005783	endoplasmic reticulum
-GO:0044440	endosomal part	GO:0005575	cellular_component	GO:0005768	endosome
-GO:0000923	equatorial microtubule organizing center	GO:0005815	microtubule organizing center	GO:0032153	cell division site
-GO:0044462	external encapsulating structure part	GO:0005575	cellular_component	GO:0030312	external encapsulating structure
-GO:0044420	extracellular matrix component	GO:0005575	cellular_component	GO:0031012	extracellular matrix
-GO:0043230	extracellular organelle	GO:0043226	organelle	GO:0005576	extracellular region
-GO:0044421	extracellular region part	GO:0005575	cellular_component	GO:0005576	extracellular region
-GO:1903561	extracellular vesicle	GO:0031982	vesicle	GO:0005576	extracellular region
-GO:0090498	extrinsic component of Golgi membrane	GO:0019898	extrinsic component of membrane	GO:0000139	Golgi membrane
-GO:0097635	extrinsic component of autophagosome membrane	GO:0019898	extrinsic component of membrane	GO:0000421	autophagosome membrane
-GO:0031313	extrinsic component of endosome membrane	GO:0019898	extrinsic component of membrane	GO:0010008	endosome membrane
-GO:0031242	extrinsic component of external side of cell outer membrane	GO:0019898	extrinsic component of membrane	GO:0031240	external side of cell outer membrane
-GO:0036421	extrinsic component of external side of mycolate outer membrane	GO:0019898	extrinsic component of membrane	GO:0098568	external side of mycolate outer membrane
-GO:0031232	extrinsic component of external side of plasma membrane	GO:0019898	extrinsic component of membrane	GO:0009897	external side of plasma membrane
-GO:0097042	extrinsic component of fungal-type vacuolar membrane	GO:0019898	extrinsic component of membrane	GO:0000329	fungal-type vacuole membrane
-GO:0005780	extrinsic component of intraperoxisomal membrane	GO:0019898	extrinsic component of membrane	GO:0005778	peroxisomal membrane
-GO:0035450	extrinsic component of lumenal side of plastid thylakoid membrane	GO:0019898	extrinsic component of membrane	GO:0098570	stromal side of plastid inner membrane
-GO:0032419	extrinsic component of lysosome membrane	GO:0019898	extrinsic component of membrane	GO:0005765	lysosomal membrane
-GO:0031314	extrinsic component of mitochondrial inner membrane	GO:0019898	extrinsic component of membrane	GO:0005743	mitochondrial inner membrane
-GO:0031315	extrinsic component of mitochondrial outer membrane	GO:0019898	extrinsic component of membrane	GO:0005741	mitochondrial outer membrane
-GO:0031316	extrinsic component of nuclear outer membrane	GO:0019898	extrinsic component of membrane	GO:0005640	nuclear outer membrane
-GO:0097629	extrinsic component of omegasome membrane	GO:0019898	extrinsic component of membrane	GO:1903349	omegasome membrane
-GO:0031312	extrinsic component of organelle membrane	GO:0019898	extrinsic component of membrane	GO:0031090	organelle membrane
-GO:0031245	extrinsic component of periplasmic side of cell outer membrane	GO:0031244	extrinsic component of cell outer membrane	GO:0031241	periplasmic side of cell outer membrane
-GO:0031236	extrinsic component of periplasmic side of plasma membrane	GO:0019898	extrinsic component of membrane	GO:0098567	periplasmic side of plasma membrane
-GO:0019897	extrinsic component of plasma membrane	GO:0019898	extrinsic component of membrane	GO:0005886	plasma membrane
-GO:0035453	extrinsic component of plastid inner membrane	GO:0019898	extrinsic component of membrane	GO:0009528	plastid inner membrane
-GO:0035452	extrinsic component of plastid membrane	GO:0019898	extrinsic component of membrane	GO:0042170	plastid membrane
-GO:0035449	extrinsic component of plastid thylakoid membrane	GO:0019898	extrinsic component of membrane	GO:0055035	plastid thylakoid membrane
-GO:0098890	extrinsic component of postsynaptic membrane	GO:0019898	extrinsic component of membrane	GO:0045211	postsynaptic membrane
-GO:0098888	extrinsic component of presynaptic membrane	GO:0019898	extrinsic component of membrane	GO:0042734	presynaptic membrane
-GO:0035451	extrinsic component of stromal side of plastid thylakoid membrane	GO:0019898	extrinsic component of membrane	GO:0098572	stromal side of plastid thylakoid membrane
-GO:0099243	extrinsic component of synaptic membrane	GO:0019898	extrinsic component of membrane	GO:0097060	synaptic membrane
-GO:0035448	extrinsic component of thylakoid membrane	GO:0019898	extrinsic component of membrane	GO:0042651	thylakoid membrane
-GO:0000306	extrinsic component of vacuolar membrane	GO:0019898	extrinsic component of membrane	GO:0005774	vacuolar membrane
-GO:0005583	fibrillar collagen trimer	GO:0005581	collagen trimer	GO:0098643	banded collagen fibril
-GO:1904813	ficolin-1-rich granule lumen	GO:0031974	membrane-enclosed lumen	GO:0101002	ficolin-1-rich granule
-GO:0055033	gamma-tubulin large complex, interphase microtubule organizing center	GO:0000931	gamma-tubulin large complex	GO:0031021	interphase microtubule organizing center
-GO:0061494	gamma-tubulin large complex, mitotic spindle pole body	GO:0000931	gamma-tubulin large complex	GO:0044732	mitotic spindle pole body
-GO:0055032	gamma-tubulin large complex, spindle pole body	GO:0000931	gamma-tubulin large complex	GO:0005816	spindle pole body
-GO:0000924	gamma-tubulin ring complex, centrosomal	GO:0008274	gamma-tubulin ring complex	GO:0000242	pericentriolar material
-GO:0061495	gamma-tubulin small complex, mitotic spindle pole body	GO:0008275	gamma-tubulin small complex	GO:0044732	mitotic spindle pole body
-GO:0000928	gamma-tubulin small complex, spindle pole body	GO:0008275	gamma-tubulin small complex	GO:0005816	spindle pole body
-GO:0032171	germ tube septin cap	GO:0032159	septin cap	GO:0032179	germ tube
-GO:0032172	germ tube septin ring	GO:0005940	septin ring	GO:0032179	germ tube
-GO:1905506	gerontoplast stroma	GO:0009532	plastid stroma	GO:0034400	gerontoplast
-GO:0061850	growth cone leading edge	GO:0031252	cell leading edge	GO:0090725	peripheral region of growth cone
-GO:0044841	gut granule membrane	GO:0031090	organelle membrane	GO:0044840	gut granule
-GO:0033643	host cell part	GO:0005575	cellular_component	GO:0043657	host cell
-GO:0098800	inner mitochondrial membrane protein complex	GO:0043234	protein complex	GO:0005743	mitochondrial inner membrane
-GO:0030173	integral component of Golgi membrane	GO:0016021	integral component of membrane	GO:0000139	Golgi membrane
-GO:0097637	integral component of autophagosome membrane	GO:0016021	integral component of membrane	GO:0000421	autophagosome membrane
-GO:0031357	integral component of chloroplast inner membrane	GO:0016021	integral component of membrane	GO:0009706	chloroplast inner membrane
-GO:0031359	integral component of chloroplast outer membrane	GO:0016021	integral component of membrane	GO:0009707	chloroplast outer membrane
-GO:0031165	integral component of contractile vacuolar membrane	GO:0016021	integral component of membrane	GO:0031164	contractile vacuolar membrane
-GO:1990701	integral component of endoplasmic reticulum-Golgi intermediate compartment (ERGIC) membrane	GO:0016021	integral component of membrane	GO:0033116	endoplasmic reticulum-Golgi intermediate compartment membrane
-GO:0031303	integral component of endosome membrane	GO:0016021	integral component of membrane	GO:0010008	endosome membrane
-GO:0071575	integral component of external side of plasma membrane	GO:0016021	integral component of membrane	GO:0009897	external side of plasma membrane
-GO:0071627	integral component of fungal-type vacuolar membrane	GO:0016021	integral component of membrane	GO:0000329	fungal-type vacuole membrane
-GO:1905103	integral component of lysosomal membrane	GO:0016021	integral component of membrane	GO:0005765	lysosomal membrane
-GO:0031305	integral component of mitochondrial inner membrane	GO:0016021	integral component of membrane	GO:0005743	mitochondrial inner membrane
-GO:0032592	integral component of mitochondrial membrane	GO:0016021	integral component of membrane	GO:0031966	mitochondrial membrane
-GO:0061455	integral component of muscle cell projection membrane	GO:0016021	integral component of membrane	GO:0036195	muscle cell projection membrane
-GO:0005639	integral component of nuclear inner membrane	GO:0016021	integral component of membrane	GO:0005637	nuclear inner membrane
-GO:0031309	integral component of nuclear outer membrane	GO:0016021	integral component of membrane	GO:0005640	nuclear outer membrane
-GO:0097631	integral component of omegasome membrane	GO:0016021	integral component of membrane	GO:1903349	omegasome membrane
-GO:0031301	integral component of organelle membrane	GO:0016021	integral component of membrane	GO:0031090	organelle membrane
-GO:1990914	integral component of periplasmic side of plasma membrane	GO:0005887	integral component of plasma membrane	GO:0098567	periplasmic side of plasma membrane
-GO:0005779	integral component of peroxisomal membrane	GO:0016021	integral component of membrane	GO:0005778	peroxisomal membrane
-GO:0090740	integral component of pigment granule membrane	GO:0016021	integral component of membrane	GO:0090741	pigment granule membrane
-GO:0005887	integral component of plasma membrane	GO:0016021	integral component of membrane	GO:0005886	plasma membrane
-GO:0031353	integral component of plastid inner membrane	GO:0016021	integral component of membrane	GO:0009528	plastid inner membrane
-GO:0031351	integral component of plastid membrane	GO:0016021	integral component of membrane	GO:0042170	plastid membrane
-GO:0031355	integral component of plastid outer membrane	GO:0016021	integral component of membrane	GO:0009527	plastid outer membrane
-GO:0099055	integral component of postsynaptic membrane	GO:0016021	integral component of membrane	GO:0045211	postsynaptic membrane
-GO:0099056	integral component of presynaptic membrane	GO:0016021	integral component of membrane	GO:0042734	presynaptic membrane
-GO:0099699	integral component of synaptic membrane	GO:0016021	integral component of membrane	GO:0097060	synaptic membrane
-GO:0031361	integral component of thylakoid membrane	GO:0016021	integral component of membrane	GO:0042651	thylakoid membrane
-GO:0031166	integral component of vacuolar membrane	GO:0016021	integral component of membrane	GO:0005774	vacuolar membrane
-GO:0043232	intracellular non-membrane-bounded organelle	GO:0043228	non-membrane-bounded organelle	GO:0005622	intracellular
-GO:0043229	intracellular organelle	GO:0043226	organelle	GO:0005622	intracellular
-GO:0070013	intracellular organelle lumen	GO:0031974	membrane-enclosed lumen	GO:0043229	intracellular organelle
-GO:0044424	intracellular part	GO:0005575	cellular_component	GO:0005622	intracellular
-GO:0097708	intracellular vesicle	GO:0031982	vesicle	GO:0005622	intracellular
-GO:0031228	intrinsic component of Golgi membrane	GO:0031224	intrinsic component of membrane	GO:0000139	Golgi membrane
-GO:0097636	intrinsic component of autophagosome membrane	GO:0031224	intrinsic component of membrane	GO:0000421	autophagosome membrane
-GO:0031356	intrinsic component of chloroplast inner membrane	GO:0031224	intrinsic component of membrane	GO:0009706	chloroplast inner membrane
-GO:0031358	intrinsic component of chloroplast outer membrane	GO:0031224	intrinsic component of membrane	GO:0009707	chloroplast outer membrane
-GO:0031311	intrinsic component of contractile vacuolar membrane	GO:0031224	intrinsic component of membrane	GO:0031164	contractile vacuolar membrane
-GO:1990673	intrinsic component of endoplasmic reticulum-Golgi intermediate compartment (ERGIC) membrane	GO:0031224	intrinsic component of membrane	GO:0033116	endoplasmic reticulum-Golgi intermediate compartment membrane
-GO:0031302	intrinsic component of endosome membrane	GO:0031224	intrinsic component of membrane	GO:0010008	endosome membrane
-GO:0031243	intrinsic component of external side of cell outer membrane	GO:0031224	intrinsic component of membrane	GO:0031240	external side of cell outer membrane
-GO:0031233	intrinsic component of external side of plasma membrane	GO:0031226	intrinsic component of plasma membrane	GO:0009897	external side of plasma membrane
-GO:0071628	intrinsic component of fungal-type vacuolar membrane	GO:0031224	intrinsic component of membrane	GO:0000329	fungal-type vacuole membrane
-GO:0031304	intrinsic component of mitochondrial inner membrane	GO:0031224	intrinsic component of membrane	GO:0005743	mitochondrial inner membrane
-GO:0098573	intrinsic component of mitochondrial membrane	GO:0031224	intrinsic component of membrane	GO:0031966	mitochondrial membrane
-GO:0031306	intrinsic component of mitochondrial outer membrane	GO:0031224	intrinsic component of membrane	GO:0005741	mitochondrial outer membrane
-GO:0031229	intrinsic component of nuclear inner membrane	GO:0031224	intrinsic component of membrane	GO:0005637	nuclear inner membrane
-GO:0031308	intrinsic component of nuclear outer membrane	GO:0031224	intrinsic component of membrane	GO:0005640	nuclear outer membrane
-GO:0097630	intrinsic component of omegasome membrane	GO:0031224	intrinsic component of membrane	GO:1903349	omegasome membrane
-GO:0031300	intrinsic component of organelle membrane	GO:0031224	intrinsic component of membrane	GO:0031090	organelle membrane
-GO:0031246	intrinsic component of periplasmic side of cell outer membrane	GO:0031224	intrinsic component of membrane	GO:0031241	periplasmic side of cell outer membrane
-GO:0031237	intrinsic component of periplasmic side of plasma membrane	GO:0031224	intrinsic component of membrane	GO:0098567	periplasmic side of plasma membrane
-GO:0031231	intrinsic component of peroxisomal membrane	GO:0031224	intrinsic component of membrane	GO:0005778	peroxisomal membrane
-GO:0031226	intrinsic component of plasma membrane	GO:0031224	intrinsic component of membrane	GO:0005886	plasma membrane
-GO:1990873	intrinsic component of plasma membrane of cell tip	GO:0031224	intrinsic component of membrane	GO:0031520	plasma membrane of cell tip
-GO:0031350	intrinsic component of plastid membrane	GO:0031224	intrinsic component of membrane	GO:0042170	plastid membrane
-GO:0031354	intrinsic component of plastid outer membrane	GO:0031224	intrinsic component of membrane	GO:0009527	plastid outer membrane
-GO:0098936	intrinsic component of postsynaptic membrane	GO:0031224	intrinsic component of membrane	GO:0045211	postsynaptic membrane
-GO:0098889	intrinsic component of presynaptic membrane	GO:0031224	intrinsic component of membrane	GO:0042734	presynaptic membrane
-GO:0099240	intrinsic component of synaptic membrane	GO:0031224	intrinsic component of membrane	GO:0097060	synaptic membrane
-GO:0031360	intrinsic component of thylakoid membrane	GO:0031224	intrinsic component of membrane	GO:0042651	thylakoid membrane
-GO:0031310	intrinsic component of vacuolar membrane	GO:0031224	intrinsic component of membrane	GO:0005774	vacuolar membrane
-GO:1902636	kinociliary basal body	GO:0036064	ciliary basal body	GO:0060091	kinocilium
-GO:0005638	lamin filament	GO:0005882	intermediate filament	GO:0005652	nuclear lamina
-GO:0097575	lateral cell cortex	GO:0099738	cell cortex region	GO:0097574	lateral part of cell
-GO:1902671	left anterior basal body	GO:0036064	ciliary basal body	GO:0097554	left anterior flagellum
-GO:1902677	left caudal basal body	GO:0036064	ciliary basal body	GO:0097560	left caudal flagellum
-GO:1902673	left posteriolateral basal body	GO:0036064	ciliary basal body	GO:0097556	left posteriolateral flagellum
-GO:1902675	left ventral basal body	GO:0036064	ciliary basal body	GO:0097558	left ventral flagellum
-GO:0014803	longitudinal sarcoplasmic reticulum lumen	GO:0031974	membrane-enclosed lumen	GO:0014801	longitudinal sarcoplasmic reticulum
-GO:1902501	lysosomal HOPS complex	GO:0030897	HOPS complex	GO:0005765	lysosomal membrane
-GO:0046611	lysosomal proton-transporting V-type ATPase complex	GO:0033176	proton-transporting V-type ATPase complex	GO:0005764	lysosome
-GO:0046610	lysosomal proton-transporting V-type ATPase, V0 domain	GO:0033179	proton-transporting V-type ATPase, V0 domain	GO:0005764	lysosome
-GO:0046612	lysosomal proton-transporting V-type ATPase, V1 domain	GO:0033180	proton-transporting V-type ATPase, V1 domain	GO:0005764	lysosome
-GO:0000327	lytic vacuole within protein storage vacuole	GO:0000323	lytic vacuole	GO:0000326	protein storage vacuole
-GO:0036391	medial cortex septin ring	GO:0005940	septin ring	GO:0031097	medial cortex
-GO:1990574	meiotic spindle astral microtubule	GO:0000235	astral microtubule	GO:0072687	meiotic spindle
-GO:0044425	membrane part	GO:0005575	cellular_component	GO:0016020	membrane
-GO:0098796	membrane protein complex	GO:0043234	protein complex	GO:0016020	membrane
-GO:0098589	membrane region	GO:0016020	membrane	GO:0098805	whole membrane
-GO:0044438	microbody part	GO:0005575	cellular_component	GO:0042579	microbody
-GO:0044450	microtubule organizing center part	GO:0005575	cellular_component	GO:0005815	microtubule organizing center
-GO:0034245	mitochondrial DNA-directed RNA polymerase complex	GO:0000428	DNA-directed RNA polymerase complex	GO:0005739	mitochondrion
-GO:0005947	mitochondrial alpha-ketoglutarate dehydrogenase complex	GO:0045240	dihydrolipoyl dehydrogenase complex	GO:0005739	mitochondrion
-GO:0000262	mitochondrial chromosome	GO:0005694	chromosome	GO:0005739	mitochondrion
-GO:0017133	mitochondrial electron transfer flavoprotein complex	GO:0045251	electron transfer flavoprotein complex	GO:0005739	mitochondrion
-GO:0009841	mitochondrial endopeptidase Clp complex	GO:0009368	endopeptidase Clp complex	GO:0005739	mitochondrion
-GO:0043294	mitochondrial glutamate synthase complex (NADH)	GO:0031027	glutamate synthase complex (NADH)	GO:0005739	mitochondrion
-GO:0005962	mitochondrial isocitrate dehydrogenase complex (NAD+)	GO:0045242	isocitrate dehydrogenase complex (NAD+)	GO:0005739	mitochondrion
-GO:0031019	mitochondrial mRNA editing complex	GO:0045293	mRNA editing complex	GO:0005739	mitochondrion
-GO:0044455	mitochondrial membrane part	GO:0005575	cellular_component	GO:0031966	mitochondrial membrane
-GO:0042645	mitochondrial nucleoid	GO:0009295	nucleoid	GO:0005739	mitochondrion
-GO:0044429	mitochondrial part	GO:0005575	cellular_component	GO:0005739	mitochondrion
-GO:0098798	mitochondrial protein complex	GO:0043234	protein complex	GO:0005739	mitochondrion
-GO:0005753	mitochondrial proton-transporting ATP synthase complex	GO:0045259	proton-transporting ATP synthase complex	GO:0005739	mitochondrion
-GO:0000275	mitochondrial proton-transporting ATP synthase complex, catalytic core F(1)	GO:0045261	proton-transporting ATP synthase complex, catalytic core F(1)	GO:0005739	mitochondrion
-GO:0000276	mitochondrial proton-transporting ATP synthase complex, coupling factor F(o)	GO:0045263	proton-transporting ATP synthase complex, coupling factor F(o)	GO:0005739	mitochondrion
-GO:0005754	mitochondrial proton-transporting ATP synthase, catalytic core	GO:0045267	proton-transporting ATP synthase, catalytic core	GO:0005739	mitochondrion
-GO:0005756	mitochondrial proton-transporting ATP synthase, central stalk	GO:0045269	proton-transporting ATP synthase, central stalk	GO:0005739	mitochondrion
-GO:0000274	mitochondrial proton-transporting ATP synthase, stator stalk	GO:0045265	proton-transporting ATP synthase, stator stalk	GO:0005739	mitochondrion
-GO:0019910	mitochondrial pyruvate dehydrogenase (lipoamide) phosphatase complex	GO:0045253	pyruvate dehydrogenase (lipoamide) phosphatase complex	GO:0005739	mitochondrion
-GO:0005967	mitochondrial pyruvate dehydrogenase complex	GO:0045254	pyruvate dehydrogenase complex	GO:0005739	mitochondrion
-GO:0005746	mitochondrial respiratory chain	GO:0070469	respiratory chain	GO:0005743	mitochondrial inner membrane
-GO:0005747	mitochondrial respiratory chain complex I	GO:0045271	respiratory chain complex I	GO:0005739	mitochondrion
-GO:0005749	mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone)	GO:0045283	fumarate reductase complex	GO:0005739	mitochondrion
-GO:0005750	mitochondrial respiratory chain complex III	GO:0045275	respiratory chain complex III	GO:0005739	mitochondrion
-GO:0005751	mitochondrial respiratory chain complex IV	GO:0045277	respiratory chain complex IV	GO:0005739	mitochondrion
-GO:0030678	mitochondrial ribonuclease P complex	GO:0030677	ribonuclease P complex	GO:0005739	mitochondrion
-GO:0005761	mitochondrial ribosome	GO:0005840	ribosome	GO:0005739	mitochondrion
-GO:0030062	mitochondrial tricarboxylic acid cycle enzyme complex	GO:0045239	tricarboxylic acid cycle enzyme complex	GO:0005739	mitochondrion
-GO:0061673	mitotic spindle astral microtubule	GO:0000235	astral microtubule	GO:0072686	mitotic spindle
-GO:1905721	mitotic spindle astral microtubule end	GO:1990752	microtubule end	GO:0061673	mitotic spindle astral microtubule
-GO:1902502	multivesicular body HOPS complex	GO:0030897	HOPS complex	GO:0032585	multivesicular body membrane
-GO:0005859	muscle myosin complex	GO:0016460	myosin II complex	GO:0043292	contractile fiber
-GO:0098642	network-forming collagen trimer	GO:0005581	collagen trimer	GO:0098645	collagen network
-GO:0099013	neuronal dense core vesicle lumen	GO:0060205	cytoplasmic vesicle lumen	GO:0098992	neuronal dense core vesicle
-GO:0043599	nuclear DNA replication factor C complex	GO:0005663	DNA replication factor C complex	GO:0005634	nucleus
-GO:0055029	nuclear DNA-directed RNA polymerase complex	GO:0000428	DNA-directed RNA polymerase complex	GO:0005634	nucleus
-GO:0000818	nuclear MIS12/MIND complex	GO:0000444	MIS12/MIND type complex	GO:0005634	nucleus
-GO:0031380	nuclear RNA-directed RNA polymerase complex	GO:0031379	RNA-directed RNA polymerase complex	GO:0005634	nucleus
-GO:0043224	nuclear SCF ubiquitin ligase complex	GO:0019005	SCF ubiquitin ligase complex	GO:0005634	nucleus
-GO:0034753	nuclear aryl hydrocarbon receptor complex	GO:0034751	aryl hydrocarbon receptor complex	GO:0005634	nucleus
-GO:0000790	nuclear chromatin	GO:0000785	chromatin	GO:0005634	nucleus
-GO:0000228	nuclear chromosome	GO:0005694	chromosome	GO:0005634	nucleus
-GO:0000798	nuclear cohesin complex	GO:0008278	cohesin complex	GO:0005634	nucleus
-GO:0019908	nuclear cyclin-dependent protein kinase holoenzyme complex	GO:0000307	cyclin-dependent protein kinase holoenzyme complex	GO:0005634	nucleus
-GO:0000176	nuclear exosome (RNase complex)	GO:0000178	exosome (RNase complex)	GO:0005634	nucleus
-GO:0042405	nuclear inclusion body	GO:0016234	inclusion body	GO:0005634	nucleus
-GO:0044453	nuclear membrane part	GO:0005575	cellular_component	GO:0031965	nuclear membrane
-GO:0005880	nuclear microtubule	GO:0005874	microtubule	GO:0005634	nucleus
-GO:0000788	nuclear nucleosome	GO:0000786	nucleosome	GO:0005634	nucleus
-GO:0044428	nuclear part	GO:0005575	cellular_component	GO:0005634	nucleus
-GO:0031595	nuclear proteasome complex	GO:0000502	proteasome complex	GO:0005634	nucleus
-GO:0031601	nuclear proteasome core complex	GO:0005839	proteasome core complex	GO:0005634	nucleus
-GO:0031604	nuclear proteasome core complex, alpha-subunit complex	GO:0019773	proteasome core complex, alpha-subunit complex	GO:0005634	nucleus
-GO:0031607	nuclear proteasome core complex, beta-subunit complex	GO:0019774	proteasome core complex, beta-subunit complex	GO:0005634	nucleus
-GO:0031598	nuclear proteasome regulatory particle	GO:0005838	proteasome regulatory particle	GO:0005634	nucleus
-GO:0031610	nuclear proteasome regulatory particle, base subcomplex	GO:0008540	proteasome regulatory particle, base subcomplex	GO:0005634	nucleus
-GO:0031613	nuclear proteasome regulatory particle, lid subcomplex	GO:0008541	proteasome regulatory particle, lid subcomplex	GO:0005634	nucleus
-GO:1902377	nuclear rDNA heterochromatin	GO:0033553	rDNA heterochromatin	GO:0005634	nucleus
-GO:0043596	nuclear replication fork	GO:0005657	replication fork	GO:0005634	nucleus
-GO:0043601	nuclear replisome	GO:0030894	replisome	GO:0005634	nucleus
-GO:1990707	nuclear subtelomeric heterochromatin	GO:1990421	subtelomeric heterochromatin	GO:0005634	nucleus
-GO:0000783	nuclear telomere cap complex	GO:0000782	telomere cap complex	GO:0005634	nucleus
-GO:0044798	nuclear transcription factor complex	GO:0005667	transcription factor complex	GO:0005634	nucleus
-GO:0000152	nuclear ubiquitin ligase complex	GO:0000151	ubiquitin ligase complex	GO:0005634	nucleus
-GO:0039715	nuclear viral factory	GO:0039713	viral factory	GO:0042025	host cell nucleus
-GO:0101019	nucleolar exosome (RNase complex)	GO:0000178	exosome (RNase complex)	GO:0005730	nucleolus
-GO:0044452	nucleolar part	GO:0005575	cellular_component	GO:0005730	nucleolus
-GO:0030685	nucleolar preribosome	GO:0030684	preribosome	GO:0005730	nucleolus
-GO:0005655	nucleolar ribonuclease P complex	GO:0030677	ribonuclease P complex	GO:0005730	nucleolus
-GO:0044451	nucleoplasm part	GO:0005575	cellular_component	GO:0005654	nucleoplasm
-GO:0000313	organellar ribosome	GO:0005840	ribosome	GO:0043226	organelle
-GO:0043233	organelle lumen	GO:0031974	membrane-enclosed lumen	GO:0043226	organelle
-GO:0044422	organelle part	GO:0005575	cellular_component	GO:0043226	organelle
-GO:0044217	other organism part	GO:0005575	cellular_component	GO:0044215	other organism
-GO:0043594	outer endospore membrane	GO:0019867	outer membrane	GO:0043591	endospore external encapsulating structure
-GO:0098799	outer mitochondrial membrane protein complex	GO:0043234	protein complex	GO:0005741	mitochondrial outer membrane
-GO:0099020	perinuclear endoplasmic reticulum lumen	GO:0031974	membrane-enclosed lumen	GO:0097038	perinuclear endoplasmic reticulum
-GO:1990578	perinuclear endoplasmic reticulum membrane	GO:0016020	membrane	GO:0097038	perinuclear endoplasmic reticulum
-GO:0044439	peroxisomal part	GO:0005575	cellular_component	GO:0005777	peroxisome
-GO:0097013	phagocytic vesicle lumen	GO:0031974	membrane-enclosed lumen	GO:0045335	phagocytic vesicle
-GO:0044443	pilus part	GO:0005575	cellular_component	GO:0009289	pilus
-GO:0045284	plasma membrane fumarate reductase complex	GO:0045283	fumarate reductase complex	GO:0005886	plasma membrane
-GO:1902929	plasma membrane of growing cell tip	GO:0044459	plasma membrane part	GO:0035838	growing cell tip
-GO:0044459	plasma membrane part	GO:0005575	cellular_component	GO:0005886	plasma membrane
-GO:0098797	plasma membrane protein complex	GO:0043234	protein complex	GO:0005886	plasma membrane
-GO:0045260	plasma membrane proton-transporting ATP synthase complex	GO:0045259	proton-transporting ATP synthase complex	GO:0005886	plasma membrane
-GO:0045262	plasma membrane proton-transporting ATP synthase complex, catalytic core F(1)	GO:0045261	proton-transporting ATP synthase complex, catalytic core F(1)	GO:0005886	plasma membrane
-GO:0045264	plasma membrane proton-transporting ATP synthase complex, coupling factor F(o)	GO:0045263	proton-transporting ATP synthase complex, coupling factor F(o)	GO:0005886	plasma membrane
-GO:0045268	plasma membrane proton-transporting ATP synthase, catalytic core	GO:0045267	proton-transporting ATP synthase, catalytic core	GO:0005886	plasma membrane
-GO:0045270	plasma membrane proton-transporting ATP synthase, central stalk	GO:0045269	proton-transporting ATP synthase, central stalk	GO:0005886	plasma membrane
-GO:0045266	plasma membrane proton-transporting ATP synthase, stator stalk	GO:0045265	proton-transporting ATP synthase, stator stalk	GO:0005886	plasma membrane
-GO:0033181	plasma membrane proton-transporting V-type ATPase complex	GO:0033176	proton-transporting V-type ATPase complex	GO:0005886	plasma membrane
-GO:0000222	plasma membrane proton-transporting V-type ATPase, V0 domain	GO:0033179	proton-transporting V-type ATPase, V0 domain	GO:0005886	plasma membrane
-GO:0000223	plasma membrane proton-transporting V-type ATPase, V1 domain	GO:0033180	proton-transporting V-type ATPase, V1 domain	GO:0005886	plasma membrane
-GO:0044853	plasma membrane raft	GO:0045121	membrane raft	GO:0005886	plasma membrane
-GO:0098590	plasma membrane region	GO:0016020	membrane	GO:0005886	plasma membrane
-GO:0045272	plasma membrane respiratory chain complex I	GO:0045271	respiratory chain complex I	GO:0005886	plasma membrane
-GO:0045274	plasma membrane respiratory chain complex II	GO:0045273	respiratory chain complex II	GO:0005886	plasma membrane
-GO:0045276	plasma membrane respiratory chain complex III	GO:0045275	respiratory chain complex III	GO:0005886	plasma membrane
-GO:0045278	plasma membrane respiratory chain complex IV	GO:0045277	respiratory chain complex IV	GO:0005886	plasma membrane
-GO:0045282	plasma membrane succinate dehydrogenase complex	GO:0045281	succinate dehydrogenase complex	GO:0005886	plasma membrane
-GO:0045258	plasma membrane succinate dehydrogenase complex (ubiquinone)	GO:0045257	succinate dehydrogenase complex (ubiquinone)	GO:0005886	plasma membrane
-GO:0030094	plasma membrane-derived photosystem I	GO:0009522	photosystem I	GO:0005886	plasma membrane
-GO:0030096	plasma membrane-derived thylakoid photosystem II	GO:0009523	photosystem II	GO:0030075	bacterial thylakoid
-GO:0048493	plasma membrane-derived thylakoid ribulose bisphosphate carboxylase complex	GO:0048492	ribulose bisphosphate carboxylase complex	GO:0030075	bacterial thylakoid
-GO:0031009	plastid ADPG pyrophosphorylase complex	GO:0030929	ADPG pyrophosphorylase complex	GO:0009536	plastid
-GO:0032284	plastid biotin carboxylase complex	GO:0009343	biotin carboxylase complex	GO:0009536	plastid
-GO:0009508	plastid chromosome	GO:0005694	chromosome	GO:0009536	plastid
-GO:0031020	plastid mRNA editing complex	GO:0045293	mRNA editing complex	GO:0009536	plastid
-GO:0042646	plastid nucleoid	GO:0009295	nucleoid	GO:0009536	plastid
-GO:0044435	plastid part	GO:0005575	cellular_component	GO:0009536	plastid
-GO:0010240	plastid pyruvate dehydrogenase complex	GO:0045254	pyruvate dehydrogenase complex	GO:0009536	plastid
-GO:0009547	plastid ribosome	GO:0005840	ribosome	GO:0009536	plastid
-GO:0031976	plastid thylakoid	GO:0009579	thylakoid	GO:0009536	plastid
-GO:0000427	plastid-encoded plastid RNA polymerase complex	GO:0000428	DNA-directed RNA polymerase complex	GO:0009536	plastid
-GO:0042788	polysomal ribosome	GO:0005840	ribosome	GO:0005844	polysome
-GO:0005701	polytene chromosome chromocenter	GO:0010369	chromocenter	GO:0005700	polytene chromosome
-GO:1905759	post-anaphase array microtubule	GO:0005874	microtubule	GO:1990295	post-anaphase microtubule array
-GO:0098871	postsynaptic actin cytoskeleton	GO:0015629	actin cytoskeleton	GO:0098794	postsynapse
-GO:0099571	postsynaptic cytoskeleton	GO:0005856	cytoskeleton	GO:0098794	postsynapse
-GO:0014069	postsynaptic density	GO:0099572	postsynaptic specialization	GO:0032279	asymmetric synapse
-GO:0098842	postsynaptic early endosome	GO:0005769	early endosome	GO:0098794	postsynapse
-GO:0098845	postsynaptic endosome	GO:0005768	endosome	GO:0098794	postsynapse
-GO:0098837	postsynaptic recycling endosome	GO:0055037	recycling endosome	GO:0098794	postsynapse
-GO:0099629	postsynaptic specialization of symmetric synapse	GO:0099572	postsynaptic specialization	GO:0032280	symmetric synapse
-GO:0099143	presynaptic actin cytoskeleton	GO:0015629	actin cytoskeleton	GO:0098793	presynapse
-GO:0099569	presynaptic cytoskeleton	GO:0005856	cytoskeleton	GO:0098793	presynapse
-GO:0042647	proplastid nucleoid	GO:0009295	nucleoid	GO:0009537	proplastid
-GO:0032157	prospore contractile ring	GO:0005826	actomyosin contractile ring	GO:0042764	ascospore-type prospore
-GO:0032169	prospore septin ring	GO:0005940	septin ring	GO:0042764	ascospore-type prospore
-GO:0099522	region of cytosol	GO:0005829	cytosol	GO:0005829	cytosol
-GO:0098803	respiratory chain complex	GO:0043234	protein complex	GO:0070469	respiratory chain
-GO:1902672	right anterior basal body	GO:0036064	ciliary basal body	GO:0097555	right anterior flagellum
-GO:1902678	right caudal basal body	GO:0036064	ciliary basal body	GO:0097561	right caudal flagellum
-GO:1902674	right posteriolateral basal body	GO:0036064	ciliary basal body	GO:0097557	right posteriolateral flagellum
-GO:1902676	right ventral basal body	GO:0036064	ciliary basal body	GO:0097559	right ventral flagellum
-GO:0048237	rough endoplasmic reticulum lumen	GO:0031974	membrane-enclosed lumen	GO:0005791	rough endoplasmic reticulum
-GO:0033018	sarcoplasmic reticulum lumen	GO:0031974	membrane-enclosed lumen	GO:0016529	sarcoplasmic reticulum
-GO:0034774	secretory granule lumen	GO:0060205	cytoplasmic vesicle lumen	GO:0030141	secretory granule
-GO:0030935	sheet-forming collagen trimer	GO:0005581	collagen trimer	GO:0098646	collagen sheet
-GO:0048238	smooth endoplasmic reticulum lumen	GO:0031974	membrane-enclosed lumen	GO:0005790	smooth endoplasmic reticulum
-GO:0097425	smooth endoplasmic reticulum part	GO:0005575	cellular_component	GO:0005790	smooth endoplasmic reticulum
-GO:0044214	spanning component of plasma membrane	GO:0089717	spanning component of membrane	GO:0005886	plasma membrane
-GO:1990913	sperm head plasma membrane	GO:0098590	plasma membrane region	GO:0061827	sperm head
-GO:0005876	spindle microtubule	GO:0005874	microtubule	GO:0005819	spindle
-GO:0031616	spindle pole centrosome	GO:0005813	centrosome	GO:0000922	spindle pole
-GO:0098899	spine apparatus lumen	GO:0060205	cytoplasmic vesicle lumen	GO:0097444	spine apparatus
-GO:0044456	synapse part	GO:0005575	cellular_component	GO:0045202	synapse
-GO:0097060	synaptic membrane	GO:0098590	plasma membrane region	GO:0045202	synapse
-GO:0034592	synaptic vesicle lumen	GO:0060205	cytoplasmic vesicle lumen	GO:0008021	synaptic vesicle
-GO:0014804	terminal cisterna lumen	GO:0031974	membrane-enclosed lumen	GO:0014802	terminal cisterna
-GO:1904724	tertiary granule lumen	GO:0031974	membrane-enclosed lumen	GO:0070820	tertiary granule
-GO:0009503	thylakoid light-harvesting complex	GO:0030076	light-harvesting complex	GO:0009535	chloroplast thylakoid membrane
-GO:0044436	thylakoid part	GO:0005575	cellular_component	GO:0009579	thylakoid
-GO:0030936	transmembrane collagen trimer	GO:0005581	collagen trimer	GO:0005887	integral component of plasma membrane
-GO:1902500	vacuolar HOPS complex	GO:0030897	HOPS complex	GO:0005774	vacuolar membrane
-GO:0005775	vacuolar lumen	GO:0031974	membrane-enclosed lumen	GO:0005773	vacuole
-GO:0044437	vacuolar part	GO:0005575	cellular_component	GO:0005773	vacuole
-GO:0016471	vacuolar proton-transporting V-type ATPase complex	GO:0033176	proton-transporting V-type ATPase complex	GO:0005773	vacuole
-GO:0000220	vacuolar proton-transporting V-type ATPase, V0 domain	GO:0033179	proton-transporting V-type ATPase, V0 domain	GO:0005773	vacuole
-GO:0000221	vacuolar proton-transporting V-type ATPase, V1 domain	GO:0033180	proton-transporting V-type ATPase, V1 domain	GO:0005773	vacuole
-GO:0039642	virion nucleoid	GO:0009295	nucleoid	GO:0019012	virion
-GO:0044423	virion part	GO:0005575	cellular_component	GO:0019012	virion
+defined_class	defined_class_label	component1	component1_label	component2	component2_label
+http://purl.obolibrary.org/obo/GO_0098791	Golgi apparatus subcompartment	http://purl.obolibrary.org/obo/GO_0031984	organelle subcompartment	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus
+http://purl.obolibrary.org/obo/GO_0000445	THO complex part of transcription export complex	http://purl.obolibrary.org/obo/GO_0000347	THO complex	http://purl.obolibrary.org/obo/GO_0000346	transcription export complex
+http://purl.obolibrary.org/obo/GO_0005870	actin capping protein of dynactin complex	http://purl.obolibrary.org/obo/GO_0008290	F-actin capping protein complex	http://purl.obolibrary.org/obo/GO_0005869	dynactin complex
+http://purl.obolibrary.org/obo/GO_0098938	actin cytoskeleton of dendritic spine	http://purl.obolibrary.org/obo/GO_0015629	actin cytoskeleton	http://purl.obolibrary.org/obo/GO_0043197	dendritic spine
+http://purl.obolibrary.org/obo/GO_1903144	actomyosin contractile ring actin filament	http://purl.obolibrary.org/obo/GO_0005884	actin filament	http://purl.obolibrary.org/obo/GO_0005826	actomyosin contractile ring
+http://purl.obolibrary.org/obo/GO_0042642	actomyosin, myosin complex part	http://purl.obolibrary.org/obo/GO_0016459	myosin complex	http://purl.obolibrary.org/obo/GO_0042641	actomyosin
+http://purl.obolibrary.org/obo/GO_0030932	amyloplast ADPG pyrophosphorylase complex	http://purl.obolibrary.org/obo/GO_0030929	ADPG pyrophosphorylase complex	http://purl.obolibrary.org/obo/GO_0009501	amyloplast
+http://purl.obolibrary.org/obo/GO_0009568	amyloplast starch grain	http://purl.obolibrary.org/obo/GO_0043036	starch grain	http://purl.obolibrary.org/obo/GO_0009501	amyloplast
+http://purl.obolibrary.org/obo/GO_0031362	anchored component of external side of plasma membrane	http://purl.obolibrary.org/obo/GO_0046658	anchored component of plasma membrane	http://purl.obolibrary.org/obo/GO_0009897	external side of plasma membrane
+http://purl.obolibrary.org/obo/GO_0036406	anchored component of periplasmic side of cell outer membrane	http://purl.obolibrary.org/obo/GO_0036405	anchored component of cell outer membrane	http://purl.obolibrary.org/obo/GO_0031241	periplasmic side of cell outer membrane
+http://purl.obolibrary.org/obo/GO_0046658	anchored component of plasma membrane	http://purl.obolibrary.org/obo/GO_0031225	anchored component of membrane	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0099025	anchored component of postsynaptic membrane	http://purl.obolibrary.org/obo/GO_0031225	anchored component of membrane	http://purl.obolibrary.org/obo/GO_0045211	postsynaptic membrane
+http://purl.obolibrary.org/obo/GO_0099026	anchored component of presynaptic membrane	http://purl.obolibrary.org/obo/GO_0031225	anchored component of membrane	http://purl.obolibrary.org/obo/GO_0042734	presynaptic membrane
+http://purl.obolibrary.org/obo/GO_0099144	anchored component of synaptic membrane	http://purl.obolibrary.org/obo/GO_0031225	anchored component of membrane	http://purl.obolibrary.org/obo/GO_0097060	synaptic membrane
+http://purl.obolibrary.org/obo/GO_1905754	ascospore-type prospore nucleus	http://purl.obolibrary.org/obo/GO_0005634	nucleus	http://purl.obolibrary.org/obo/GO_0042764	ascospore-type prospore
+http://purl.obolibrary.org/obo/GO_0005858	axonemal dynein complex	http://purl.obolibrary.org/obo/GO_0030286	dynein complex	http://purl.obolibrary.org/obo/GO_0005930	axoneme
+http://purl.obolibrary.org/obo/GO_0005879	axonemal microtubule	http://purl.obolibrary.org/obo/GO_0005874	microtubule	http://purl.obolibrary.org/obo/GO_0005930	axoneme
+http://purl.obolibrary.org/obo/GO_0098651	basement membrane collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0005604	basement membrane
+http://purl.obolibrary.org/obo/GO_0005938	cell cortex	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0071944	cell periphery
+http://purl.obolibrary.org/obo/GO_0009279	cell outer membrane	http://purl.obolibrary.org/obo/GO_0019867	outer membrane	http://purl.obolibrary.org/obo/GO_0030313	cell envelope
+http://purl.obolibrary.org/obo/GO_0000142	cellular bud neck contractile ring	http://purl.obolibrary.org/obo/GO_0005826	actomyosin contractile ring	http://purl.obolibrary.org/obo/GO_0005935	cellular bud neck
+http://purl.obolibrary.org/obo/GO_0031560	cellular bud neck polarisome	http://purl.obolibrary.org/obo/GO_0000133	polarisome	http://purl.obolibrary.org/obo/GO_0005935	cellular bud neck
+http://purl.obolibrary.org/obo/GO_0032174	cellular bud neck septin collar	http://purl.obolibrary.org/obo/GO_0032173	septin collar	http://purl.obolibrary.org/obo/GO_0005935	cellular bud neck
+http://purl.obolibrary.org/obo/GO_0000144	cellular bud neck septin ring	http://purl.obolibrary.org/obo/GO_0005940	septin ring	http://purl.obolibrary.org/obo/GO_0005935	cellular bud neck
+http://purl.obolibrary.org/obo/GO_0032177	cellular bud neck split septin rings	http://purl.obolibrary.org/obo/GO_0032176	split septin rings	http://purl.obolibrary.org/obo/GO_0005935	cellular bud neck
+http://purl.obolibrary.org/obo/GO_0031561	cellular bud tip polarisome	http://purl.obolibrary.org/obo/GO_0000133	polarisome	http://purl.obolibrary.org/obo/GO_0005934	cellular bud tip
+http://purl.obolibrary.org/obo/GO_0030933	chloroplast ADPG pyrophosphorylase complex	http://purl.obolibrary.org/obo/GO_0030929	ADPG pyrophosphorylase complex	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0042648	chloroplast chromosome	http://purl.obolibrary.org/obo/GO_0005694	chromosome	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0042644	chloroplast nucleoid	http://purl.obolibrary.org/obo/GO_0009295	nucleoid	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0030093	chloroplast photosystem I	http://purl.obolibrary.org/obo/GO_0009522	photosystem I	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0030095	chloroplast photosystem II	http://purl.obolibrary.org/obo/GO_0009523	photosystem II	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0045320	chloroplast proton-transporting ATP synthase complex	http://purl.obolibrary.org/obo/GO_0045259	proton-transporting ATP synthase complex	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0043253	chloroplast ribosome	http://purl.obolibrary.org/obo/GO_0005840	ribosome	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0009569	chloroplast starch grain	http://purl.obolibrary.org/obo/GO_0043036	starch grain	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0009534	chloroplast thylakoid	http://purl.obolibrary.org/obo/GO_0009579	thylakoid	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0098807	chloroplast thylakoid membrane protein complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0009535	chloroplast thylakoid membrane
+http://purl.obolibrary.org/obo/GO_0062247	chloroplast vesicle	http://purl.obolibrary.org/obo/GO_0097708	intracellular vesicle	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0009840	chloroplastic endopeptidase Clp complex	http://purl.obolibrary.org/obo/GO_0009368	endopeptidase Clp complex	http://purl.obolibrary.org/obo/GO_0009570	chloroplast stroma
+http://purl.obolibrary.org/obo/GO_0036064	ciliary basal body	http://purl.obolibrary.org/obo/GO_0005815	microtubule organizing center	http://purl.obolibrary.org/obo/GO_0005929	cilium
+http://purl.obolibrary.org/obo/GO_0097014	ciliary plasm	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0005929	cilium
+http://purl.obolibrary.org/obo/GO_0030132	clathrin coat of coated pit	http://purl.obolibrary.org/obo/GO_0030118	clathrin coat	http://purl.obolibrary.org/obo/GO_0005905	clathrin-coated pit
+http://purl.obolibrary.org/obo/GO_0030128	clathrin coat of endocytic vesicle	http://purl.obolibrary.org/obo/GO_0030118	clathrin coat	http://purl.obolibrary.org/obo/GO_0030139	endocytic vesicle
+http://purl.obolibrary.org/obo/GO_0030129	clathrin coat of synaptic vesicle	http://purl.obolibrary.org/obo/GO_0030118	clathrin coat	http://purl.obolibrary.org/obo/GO_0008021	synaptic vesicle
+http://purl.obolibrary.org/obo/GO_0000777	condensed chromosome kinetochore	http://purl.obolibrary.org/obo/GO_0000776	kinetochore	http://purl.obolibrary.org/obo/GO_0000793	condensed chromosome
+http://purl.obolibrary.org/obo/GO_0000794	condensed nuclear chromosome	http://purl.obolibrary.org/obo/GO_0000793	condensed chromosome	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0030864	cortical actin cytoskeleton	http://purl.obolibrary.org/obo/GO_0030863	cortical cytoskeleton	http://purl.obolibrary.org/obo/GO_0015629	actin cytoskeleton
+http://purl.obolibrary.org/obo/GO_0099021	cortical endoplasmic reticulum lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0032541	cortical endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_1903754	cortical microtubule plus-end	http://purl.obolibrary.org/obo/GO_0035371	microtubule plus-end	http://purl.obolibrary.org/obo/GO_0055028	cortical microtubule
+http://purl.obolibrary.org/obo/GO_0030679	cyanelle ribonuclease P complex	http://purl.obolibrary.org/obo/GO_0030677	ribonuclease P complex	http://purl.obolibrary.org/obo/GO_0009842	cyanelle
+http://purl.obolibrary.org/obo/GO_0009843	cyanelle thylakoid	http://purl.obolibrary.org/obo/GO_0009579	thylakoid	http://purl.obolibrary.org/obo/GO_0009842	cyanelle
+http://purl.obolibrary.org/obo/GO_0043598	cytoplasmic DNA replication factor C complex	http://purl.obolibrary.org/obo/GO_0005663	DNA replication factor C complex	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_0000789	cytoplasmic chromatin	http://purl.obolibrary.org/obo/GO_0000785	chromatin	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_0000229	cytoplasmic chromosome	http://purl.obolibrary.org/obo/GO_0005694	chromosome	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_0000308	cytoplasmic cyclin-dependent protein kinase holoenzyme complex	http://purl.obolibrary.org/obo/GO_0000307	cyclin-dependent protein kinase holoenzyme complex	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_0005881	cytoplasmic microtubule	http://purl.obolibrary.org/obo/GO_0005874	microtubule	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_1905720	cytoplasmic microtubule bundle	http://purl.obolibrary.org/obo/GO_0097427	microtubule bundle	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_0062194	cytoplasmic microtubule minus-end	http://purl.obolibrary.org/obo/GO_0036449	microtubule minus-end	http://purl.obolibrary.org/obo/GO_0005881	cytoplasmic microtubule
+http://purl.obolibrary.org/obo/GO_1904511	cytoplasmic microtubule plus-end	http://purl.obolibrary.org/obo/GO_0035371	microtubule plus-end	http://purl.obolibrary.org/obo/GO_0005881	cytoplasmic microtubule
+http://purl.obolibrary.org/obo/GO_0000787	cytoplasmic nucleosome	http://purl.obolibrary.org/obo/GO_0000786	nucleosome	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_0000809	cytoplasmic origin of replication recognition complex	http://purl.obolibrary.org/obo/GO_0000808	origin recognition complex	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_0099568	cytoplasmic region	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_0043597	cytoplasmic replication fork	http://purl.obolibrary.org/obo/GO_0005657	replication fork	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_0043600	cytoplasmic replisome	http://purl.obolibrary.org/obo/GO_0030894	replisome	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_0036464	cytoplasmic ribonucleoprotein granule	http://purl.obolibrary.org/obo/GO_0035770	ribonucleoprotein granule	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_0031410	cytoplasmic vesicle	http://purl.obolibrary.org/obo/GO_0031982	vesicle	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_0098836	cytoskeleton of dendritic spine	http://purl.obolibrary.org/obo/GO_0005856	cytoskeleton	http://purl.obolibrary.org/obo/GO_0043197	dendritic spine
+http://purl.obolibrary.org/obo/GO_0045243	cytosolic isocitrate dehydrogenase complex (NAD+)	http://purl.obolibrary.org/obo/GO_0045242	isocitrate dehydrogenase complex (NAD+)	http://purl.obolibrary.org/obo/GO_0005829	cytosol
+http://purl.obolibrary.org/obo/GO_0022626	cytosolic ribosome	http://purl.obolibrary.org/obo/GO_0005840	ribosome	http://purl.obolibrary.org/obo/GO_0005829	cytosol
+http://purl.obolibrary.org/obo/GO_0061846	dendritic spine cytoplasm	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0043197	dendritic spine
+http://purl.obolibrary.org/obo/GO_0000935	division septum	http://purl.obolibrary.org/obo/GO_0030428	cell septum	http://purl.obolibrary.org/obo/GO_0032153	cell division site
+http://purl.obolibrary.org/obo/GO_0062113	early phagosome lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0032009	early phagosome
+http://purl.obolibrary.org/obo/GO_0071682	endocytic vesicle lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0030139	endocytic vesicle
+http://purl.obolibrary.org/obo/GO_0005788	endoplasmic reticulum lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0098827	endoplasmic reticulum subcompartment	http://purl.obolibrary.org/obo/GO_0031984	organelle subcompartment	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0000923	equatorial microtubule organizing center	http://purl.obolibrary.org/obo/GO_0005815	microtubule organizing center	http://purl.obolibrary.org/obo/GO_0032153	cell division site
+http://purl.obolibrary.org/obo/GO_0043230	extracellular organelle	http://purl.obolibrary.org/obo/GO_0043226	organelle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
+http://purl.obolibrary.org/obo/GO_1903561	extracellular vesicle	http://purl.obolibrary.org/obo/GO_0031982	vesicle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
+http://purl.obolibrary.org/obo/GO_0090498	extrinsic component of Golgi membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0000139	Golgi membrane
+http://purl.obolibrary.org/obo/GO_0097635	extrinsic component of autophagosome membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0000421	autophagosome membrane
+http://purl.obolibrary.org/obo/GO_0031313	extrinsic component of endosome membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0010008	endosome membrane
+http://purl.obolibrary.org/obo/GO_0031242	extrinsic component of external side of cell outer membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0031240	external side of cell outer membrane
+http://purl.obolibrary.org/obo/GO_0036421	extrinsic component of external side of mycolate outer membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0098568	external side of mycolate outer membrane
+http://purl.obolibrary.org/obo/GO_0031232	extrinsic component of external side of plasma membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0009897	external side of plasma membrane
+http://purl.obolibrary.org/obo/GO_0097042	extrinsic component of fungal-type vacuolar membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0000329	fungal-type vacuole membrane
+http://purl.obolibrary.org/obo/GO_0005780	extrinsic component of intraperoxisomal membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0005778	peroxisomal membrane
+http://purl.obolibrary.org/obo/GO_0035450	extrinsic component of lumenal side of plastid thylakoid membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0098570	stromal side of plastid inner membrane
+http://purl.obolibrary.org/obo/GO_0032419	extrinsic component of lysosome membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0005765	lysosomal membrane
+http://purl.obolibrary.org/obo/GO_0031314	extrinsic component of mitochondrial inner membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0005743	mitochondrial inner membrane
+http://purl.obolibrary.org/obo/GO_0031315	extrinsic component of mitochondrial outer membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0005741	mitochondrial outer membrane
+http://purl.obolibrary.org/obo/GO_0031316	extrinsic component of nuclear outer membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0005640	nuclear outer membrane
+http://purl.obolibrary.org/obo/GO_0097629	extrinsic component of omegasome membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_1903349	omegasome membrane
+http://purl.obolibrary.org/obo/GO_0031312	extrinsic component of organelle membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0031090	organelle membrane
+http://purl.obolibrary.org/obo/GO_0031245	extrinsic component of periplasmic side of cell outer membrane	http://purl.obolibrary.org/obo/GO_0031244	extrinsic component of cell outer membrane	http://purl.obolibrary.org/obo/GO_0031241	periplasmic side of cell outer membrane
+http://purl.obolibrary.org/obo/GO_0031236	extrinsic component of periplasmic side of plasma membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0098567	periplasmic side of plasma membrane
+http://purl.obolibrary.org/obo/GO_0019897	extrinsic component of plasma membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0035453	extrinsic component of plastid inner membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0009528	plastid inner membrane
+http://purl.obolibrary.org/obo/GO_0035452	extrinsic component of plastid membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0042170	plastid membrane
+http://purl.obolibrary.org/obo/GO_0035449	extrinsic component of plastid thylakoid membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0055035	plastid thylakoid membrane
+http://purl.obolibrary.org/obo/GO_0098890	extrinsic component of postsynaptic membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0045211	postsynaptic membrane
+http://purl.obolibrary.org/obo/GO_0098888	extrinsic component of presynaptic membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0042734	presynaptic membrane
+http://purl.obolibrary.org/obo/GO_0035451	extrinsic component of stromal side of plastid thylakoid membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0098572	stromal side of plastid thylakoid membrane
+http://purl.obolibrary.org/obo/GO_0099243	extrinsic component of synaptic membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0097060	synaptic membrane
+http://purl.obolibrary.org/obo/GO_0035448	extrinsic component of thylakoid membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0042651	thylakoid membrane
+http://purl.obolibrary.org/obo/GO_0000306	extrinsic component of vacuolar membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0005774	vacuolar membrane
+http://purl.obolibrary.org/obo/GO_0005583	fibrillar collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0098643	banded collagen fibril
+http://purl.obolibrary.org/obo/GO_1904813	ficolin-1-rich granule lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0101002	ficolin-1-rich granule
+http://purl.obolibrary.org/obo/GO_0055033	gamma-tubulin large complex, interphase microtubule organizing center	http://purl.obolibrary.org/obo/GO_0000931	gamma-tubulin large complex	http://purl.obolibrary.org/obo/GO_0031021	interphase microtubule organizing center
+http://purl.obolibrary.org/obo/GO_0061494	gamma-tubulin large complex, mitotic spindle pole body	http://purl.obolibrary.org/obo/GO_0000931	gamma-tubulin large complex	http://purl.obolibrary.org/obo/GO_0044732	mitotic spindle pole body
+http://purl.obolibrary.org/obo/GO_0055032	gamma-tubulin large complex, spindle pole body	http://purl.obolibrary.org/obo/GO_0000931	gamma-tubulin large complex	http://purl.obolibrary.org/obo/GO_0005816	spindle pole body
+http://purl.obolibrary.org/obo/GO_0000924	gamma-tubulin ring complex, centrosomal	http://purl.obolibrary.org/obo/GO_0008274	gamma-tubulin ring complex	http://purl.obolibrary.org/obo/GO_0000242	pericentriolar material
+http://purl.obolibrary.org/obo/GO_0061495	gamma-tubulin small complex, mitotic spindle pole body	http://purl.obolibrary.org/obo/GO_0008275	gamma-tubulin small complex	http://purl.obolibrary.org/obo/GO_0044732	mitotic spindle pole body
+http://purl.obolibrary.org/obo/GO_0000928	gamma-tubulin small complex, spindle pole body	http://purl.obolibrary.org/obo/GO_0008275	gamma-tubulin small complex	http://purl.obolibrary.org/obo/GO_0005816	spindle pole body
+http://purl.obolibrary.org/obo/GO_0032171	germ tube septin cap	http://purl.obolibrary.org/obo/GO_0032159	septin cap	http://purl.obolibrary.org/obo/GO_0032179	germ tube
+http://purl.obolibrary.org/obo/GO_0032172	germ tube septin ring	http://purl.obolibrary.org/obo/GO_0005940	septin ring	http://purl.obolibrary.org/obo/GO_0032179	germ tube
+http://purl.obolibrary.org/obo/GO_1905506	gerontoplast stroma	http://purl.obolibrary.org/obo/GO_0009532	plastid stroma	http://purl.obolibrary.org/obo/GO_0034400	gerontoplast
+http://purl.obolibrary.org/obo/GO_0061850	growth cone leading edge	http://purl.obolibrary.org/obo/GO_0031252	cell leading edge	http://purl.obolibrary.org/obo/GO_0090725	peripheral region of growth cone
+http://purl.obolibrary.org/obo/GO_0044841	gut granule membrane	http://purl.obolibrary.org/obo/GO_0031090	organelle membrane	http://purl.obolibrary.org/obo/GO_0044840	gut granule
+http://purl.obolibrary.org/obo/GO_0033643	host cell part	http://purl.obolibrary.org/obo/GO_0018995	host cellular component	http://purl.obolibrary.org/obo/GO_0043657	host cell
+http://purl.obolibrary.org/obo/GO_0031562	hyphal tip polarisome	http://purl.obolibrary.org/obo/GO_0000133	polarisome	http://purl.obolibrary.org/obo/GO_0001411	hyphal tip
+http://purl.obolibrary.org/obo/GO_0098800	inner mitochondrial membrane protein complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0005743	mitochondrial inner membrane
+http://purl.obolibrary.org/obo/GO_0030173	integral component of Golgi membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0000139	Golgi membrane
+http://purl.obolibrary.org/obo/GO_0097637	integral component of autophagosome membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0000421	autophagosome membrane
+http://purl.obolibrary.org/obo/GO_0031357	integral component of chloroplast inner membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0009706	chloroplast inner membrane
+http://purl.obolibrary.org/obo/GO_0031359	integral component of chloroplast outer membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0009707	chloroplast outer membrane
+http://purl.obolibrary.org/obo/GO_0031165	integral component of contractile vacuolar membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0031164	contractile vacuolar membrane
+http://purl.obolibrary.org/obo/GO_1990701	integral component of endoplasmic reticulum-Golgi intermediate compartment (ERGIC) membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0033116	endoplasmic reticulum-Golgi intermediate compartment membrane
+http://purl.obolibrary.org/obo/GO_0031303	integral component of endosome membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0010008	endosome membrane
+http://purl.obolibrary.org/obo/GO_0071575	integral component of external side of plasma membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0009897	external side of plasma membrane
+http://purl.obolibrary.org/obo/GO_0071627	integral component of fungal-type vacuolar membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0000329	fungal-type vacuole membrane
+http://purl.obolibrary.org/obo/GO_1905103	integral component of lysosomal membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0005765	lysosomal membrane
+http://purl.obolibrary.org/obo/GO_0031305	integral component of mitochondrial inner membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0005743	mitochondrial inner membrane
+http://purl.obolibrary.org/obo/GO_0032592	integral component of mitochondrial membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0031966	mitochondrial membrane
+http://purl.obolibrary.org/obo/GO_0005639	integral component of nuclear inner membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0005637	nuclear inner membrane
+http://purl.obolibrary.org/obo/GO_0031309	integral component of nuclear outer membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0005640	nuclear outer membrane
+http://purl.obolibrary.org/obo/GO_0097631	integral component of omegasome membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_1903349	omegasome membrane
+http://purl.obolibrary.org/obo/GO_0031301	integral component of organelle membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0031090	organelle membrane
+http://purl.obolibrary.org/obo/GO_1990914	integral component of periplasmic side of plasma membrane	http://purl.obolibrary.org/obo/GO_0005887	integral component of plasma membrane	http://purl.obolibrary.org/obo/GO_0098567	periplasmic side of plasma membrane
+http://purl.obolibrary.org/obo/GO_0005779	integral component of peroxisomal membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0005778	peroxisomal membrane
+http://purl.obolibrary.org/obo/GO_0090740	integral component of pigment granule membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0090741	pigment granule membrane
+http://purl.obolibrary.org/obo/GO_0005887	integral component of plasma membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0031353	integral component of plastid inner membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0009528	plastid inner membrane
+http://purl.obolibrary.org/obo/GO_0031351	integral component of plastid membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0042170	plastid membrane
+http://purl.obolibrary.org/obo/GO_0031355	integral component of plastid outer membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0009527	plastid outer membrane
+http://purl.obolibrary.org/obo/GO_0099055	integral component of postsynaptic membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0045211	postsynaptic membrane
+http://purl.obolibrary.org/obo/GO_0099056	integral component of presynaptic membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0042734	presynaptic membrane
+http://purl.obolibrary.org/obo/GO_0099699	integral component of synaptic membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0097060	synaptic membrane
+http://purl.obolibrary.org/obo/GO_0031361	integral component of thylakoid membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0042651	thylakoid membrane
+http://purl.obolibrary.org/obo/GO_0031166	integral component of vacuolar membrane	http://purl.obolibrary.org/obo/GO_0016021	integral component of membrane	http://purl.obolibrary.org/obo/GO_0005774	vacuolar membrane
+http://purl.obolibrary.org/obo/GO_0043232	intracellular non-membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0043228	non-membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0005622	intracellular
+http://purl.obolibrary.org/obo/GO_0043229	intracellular organelle	http://purl.obolibrary.org/obo/GO_0043226	organelle	http://purl.obolibrary.org/obo/GO_0005622	intracellular
+http://purl.obolibrary.org/obo/GO_0070013	intracellular organelle lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0043229	intracellular organelle
+http://purl.obolibrary.org/obo/GO_0097708	intracellular vesicle	http://purl.obolibrary.org/obo/GO_0031982	vesicle	http://purl.obolibrary.org/obo/GO_0005622	intracellular
+http://purl.obolibrary.org/obo/GO_0031228	intrinsic component of Golgi membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0000139	Golgi membrane
+http://purl.obolibrary.org/obo/GO_0097636	intrinsic component of autophagosome membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0000421	autophagosome membrane
+http://purl.obolibrary.org/obo/GO_0031356	intrinsic component of chloroplast inner membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0009706	chloroplast inner membrane
+http://purl.obolibrary.org/obo/GO_0031358	intrinsic component of chloroplast outer membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0009707	chloroplast outer membrane
+http://purl.obolibrary.org/obo/GO_0031311	intrinsic component of contractile vacuolar membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0031164	contractile vacuolar membrane
+http://purl.obolibrary.org/obo/GO_1990673	intrinsic component of endoplasmic reticulum-Golgi intermediate compartment (ERGIC) membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0033116	endoplasmic reticulum-Golgi intermediate compartment membrane
+http://purl.obolibrary.org/obo/GO_0031302	intrinsic component of endosome membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0010008	endosome membrane
+http://purl.obolibrary.org/obo/GO_0031243	intrinsic component of external side of cell outer membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0031240	external side of cell outer membrane
+http://purl.obolibrary.org/obo/GO_0031233	intrinsic component of external side of plasma membrane	http://purl.obolibrary.org/obo/GO_0031226	intrinsic component of plasma membrane	http://purl.obolibrary.org/obo/GO_0009897	external side of plasma membrane
+http://purl.obolibrary.org/obo/GO_0071628	intrinsic component of fungal-type vacuolar membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0000329	fungal-type vacuole membrane
+http://purl.obolibrary.org/obo/GO_0031304	intrinsic component of mitochondrial inner membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0005743	mitochondrial inner membrane
+http://purl.obolibrary.org/obo/GO_0098573	intrinsic component of mitochondrial membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0031966	mitochondrial membrane
+http://purl.obolibrary.org/obo/GO_0031306	intrinsic component of mitochondrial outer membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0005741	mitochondrial outer membrane
+http://purl.obolibrary.org/obo/GO_0031229	intrinsic component of nuclear inner membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0005637	nuclear inner membrane
+http://purl.obolibrary.org/obo/GO_0031308	intrinsic component of nuclear outer membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0005640	nuclear outer membrane
+http://purl.obolibrary.org/obo/GO_0097630	intrinsic component of omegasome membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_1903349	omegasome membrane
+http://purl.obolibrary.org/obo/GO_0031300	intrinsic component of organelle membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0031090	organelle membrane
+http://purl.obolibrary.org/obo/GO_0031246	intrinsic component of periplasmic side of cell outer membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0031241	periplasmic side of cell outer membrane
+http://purl.obolibrary.org/obo/GO_0031237	intrinsic component of periplasmic side of plasma membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0098567	periplasmic side of plasma membrane
+http://purl.obolibrary.org/obo/GO_0031231	intrinsic component of peroxisomal membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0005778	peroxisomal membrane
+http://purl.obolibrary.org/obo/GO_0031226	intrinsic component of plasma membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_1990873	intrinsic component of plasma membrane of cell tip	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0031520	plasma membrane of cell tip
+http://purl.obolibrary.org/obo/GO_0031350	intrinsic component of plastid membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0042170	plastid membrane
+http://purl.obolibrary.org/obo/GO_0031354	intrinsic component of plastid outer membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0009527	plastid outer membrane
+http://purl.obolibrary.org/obo/GO_0098936	intrinsic component of postsynaptic membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0045211	postsynaptic membrane
+http://purl.obolibrary.org/obo/GO_0098889	intrinsic component of presynaptic membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0042734	presynaptic membrane
+http://purl.obolibrary.org/obo/GO_0099240	intrinsic component of synaptic membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0097060	synaptic membrane
+http://purl.obolibrary.org/obo/GO_0031360	intrinsic component of thylakoid membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0042651	thylakoid membrane
+http://purl.obolibrary.org/obo/GO_0031310	intrinsic component of vacuolar membrane	http://purl.obolibrary.org/obo/GO_0031224	intrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0005774	vacuolar membrane
+http://purl.obolibrary.org/obo/GO_0005638	lamin filament	http://purl.obolibrary.org/obo/GO_0005882	intermediate filament	http://purl.obolibrary.org/obo/GO_0005652	nuclear lamina
+http://purl.obolibrary.org/obo/GO_0014803	longitudinal sarcoplasmic reticulum lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0014801	longitudinal sarcoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_1902501	lysosomal HOPS complex	http://purl.obolibrary.org/obo/GO_0030897	HOPS complex	http://purl.obolibrary.org/obo/GO_0005765	lysosomal membrane
+http://purl.obolibrary.org/obo/GO_0090123	lysosomal glycocalyx	http://purl.obolibrary.org/obo/GO_0030112	glycocalyx	http://purl.obolibrary.org/obo/GO_0005764	lysosome
+http://purl.obolibrary.org/obo/GO_0046611	lysosomal proton-transporting V-type ATPase complex	http://purl.obolibrary.org/obo/GO_0033176	proton-transporting V-type ATPase complex	http://purl.obolibrary.org/obo/GO_0005764	lysosome
+http://purl.obolibrary.org/obo/GO_0046610	lysosomal proton-transporting V-type ATPase, V0 domain	http://purl.obolibrary.org/obo/GO_0033179	proton-transporting V-type ATPase, V0 domain	http://purl.obolibrary.org/obo/GO_0005764	lysosome
+http://purl.obolibrary.org/obo/GO_0046612	lysosomal proton-transporting V-type ATPase, V1 domain	http://purl.obolibrary.org/obo/GO_0033180	proton-transporting V-type ATPase, V1 domain	http://purl.obolibrary.org/obo/GO_0005764	lysosome
+http://purl.obolibrary.org/obo/GO_0000327	lytic vacuole within protein storage vacuole	http://purl.obolibrary.org/obo/GO_0000323	lytic vacuole	http://purl.obolibrary.org/obo/GO_0000326	protein storage vacuole
+http://purl.obolibrary.org/obo/GO_0110145	magnetosome lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0110143	magnetosome
+http://purl.obolibrary.org/obo/GO_0070867	mating projection tip membrane	http://purl.obolibrary.org/obo/GO_0098590	plasma membrane region	http://purl.obolibrary.org/obo/GO_0043332	mating projection tip
+http://purl.obolibrary.org/obo/GO_0031563	mating projection tip polarisome	http://purl.obolibrary.org/obo/GO_0000133	polarisome	http://purl.obolibrary.org/obo/GO_0043332	mating projection tip
+http://purl.obolibrary.org/obo/GO_1990574	meiotic spindle astral microtubule	http://purl.obolibrary.org/obo/GO_0000235	astral microtubule	http://purl.obolibrary.org/obo/GO_0072687	meiotic spindle
+http://purl.obolibrary.org/obo/GO_0098796	membrane protein complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0016020	membrane
+http://purl.obolibrary.org/obo/GO_0098589	membrane region	http://purl.obolibrary.org/obo/GO_0016020	membrane	http://purl.obolibrary.org/obo/GO_0098805	whole membrane
+http://purl.obolibrary.org/obo/GO_0005947	mitochondrial alpha-ketoglutarate dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0045240	dihydrolipoyl dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0000262	mitochondrial chromosome	http://purl.obolibrary.org/obo/GO_0005694	chromosome	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0017133	mitochondrial electron transfer flavoprotein complex	http://purl.obolibrary.org/obo/GO_0045251	electron transfer flavoprotein complex	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0009841	mitochondrial endopeptidase Clp complex	http://purl.obolibrary.org/obo/GO_0009368	endopeptidase Clp complex	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0005962	mitochondrial isocitrate dehydrogenase complex (NAD+)	http://purl.obolibrary.org/obo/GO_0045242	isocitrate dehydrogenase complex (NAD+)	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0031019	mitochondrial mRNA editing complex	http://purl.obolibrary.org/obo/GO_0045293	mRNA editing complex	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0042645	mitochondrial nucleoid	http://purl.obolibrary.org/obo/GO_0009295	nucleoid	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0098798	mitochondrial protein complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0005753	mitochondrial proton-transporting ATP synthase complex	http://purl.obolibrary.org/obo/GO_0045259	proton-transporting ATP synthase complex	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0000275	mitochondrial proton-transporting ATP synthase complex, catalytic sector F(1)	http://purl.obolibrary.org/obo/GO_0045261	proton-transporting ATP synthase complex, catalytic core F(1)	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0000276	mitochondrial proton-transporting ATP synthase complex, coupling factor F(o)	http://purl.obolibrary.org/obo/GO_0045263	proton-transporting ATP synthase complex, coupling factor F(o)	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0005754	mitochondrial proton-transporting ATP synthase, catalytic core	http://purl.obolibrary.org/obo/GO_0045267	proton-transporting ATP synthase, catalytic core	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0005756	mitochondrial proton-transporting ATP synthase, central stalk	http://purl.obolibrary.org/obo/GO_0045269	proton-transporting ATP synthase, central stalk	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0000274	mitochondrial proton-transporting ATP synthase, stator stalk	http://purl.obolibrary.org/obo/GO_0045265	proton-transporting ATP synthase, stator stalk	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0005746	mitochondrial respirasome	http://purl.obolibrary.org/obo/GO_0070469	respirasome	http://purl.obolibrary.org/obo/GO_0005743	mitochondrial inner membrane
+http://purl.obolibrary.org/obo/GO_0005747	mitochondrial respiratory chain complex I	http://purl.obolibrary.org/obo/GO_0045271	respiratory chain complex I	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0005749	mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone)	http://purl.obolibrary.org/obo/GO_0045283	fumarate reductase complex	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0005750	mitochondrial respiratory chain complex III	http://purl.obolibrary.org/obo/GO_0045275	respiratory chain complex III	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0005751	mitochondrial respiratory chain complex IV	http://purl.obolibrary.org/obo/GO_0045277	respiratory chain complex IV	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0030678	mitochondrial ribonuclease P complex	http://purl.obolibrary.org/obo/GO_0030677	ribonuclease P complex	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0005761	mitochondrial ribosome	http://purl.obolibrary.org/obo/GO_0005840	ribosome	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0030062	mitochondrial tricarboxylic acid cycle enzyme complex	http://purl.obolibrary.org/obo/GO_0045239	tricarboxylic acid cycle enzyme complex	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0061673	mitotic spindle astral microtubule	http://purl.obolibrary.org/obo/GO_0000235	astral microtubule	http://purl.obolibrary.org/obo/GO_0072686	mitotic spindle
+http://purl.obolibrary.org/obo/GO_1905721	mitotic spindle astral microtubule end	http://purl.obolibrary.org/obo/GO_1990752	microtubule end	http://purl.obolibrary.org/obo/GO_0061673	mitotic spindle astral microtubule
+http://purl.obolibrary.org/obo/GO_1902502	multivesicular body HOPS complex	http://purl.obolibrary.org/obo/GO_0030897	HOPS complex	http://purl.obolibrary.org/obo/GO_0032585	multivesicular body membrane
+http://purl.obolibrary.org/obo/GO_0005859	muscle myosin complex	http://purl.obolibrary.org/obo/GO_0016460	myosin II complex	http://purl.obolibrary.org/obo/GO_0043292	contractile fiber
+http://purl.obolibrary.org/obo/GO_0098642	network-forming collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0098645	collagen network
+http://purl.obolibrary.org/obo/GO_0043599	nuclear DNA replication factor C complex	http://purl.obolibrary.org/obo/GO_0005663	DNA replication factor C complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0000818	nuclear MIS12/MIND complex	http://purl.obolibrary.org/obo/GO_0000444	MIS12/MIND type complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0000790	nuclear chromatin	http://purl.obolibrary.org/obo/GO_0000785	chromatin	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0000228	nuclear chromosome	http://purl.obolibrary.org/obo/GO_0005694	chromosome	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0000798	nuclear cohesin complex	http://purl.obolibrary.org/obo/GO_0008278	cohesin complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0019908	nuclear cyclin-dependent protein kinase holoenzyme complex	http://purl.obolibrary.org/obo/GO_0000307	cyclin-dependent protein kinase holoenzyme complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0042405	nuclear inclusion body	http://purl.obolibrary.org/obo/GO_0016234	inclusion body	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0005880	nuclear microtubule	http://purl.obolibrary.org/obo/GO_0005874	microtubule	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0000788	nuclear nucleosome	http://purl.obolibrary.org/obo/GO_0000786	nucleosome	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0031595	nuclear proteasome complex	http://purl.obolibrary.org/obo/GO_0000502	proteasome complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0031601	nuclear proteasome core complex	http://purl.obolibrary.org/obo/GO_0005839	proteasome core complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0031604	nuclear proteasome core complex, alpha-subunit complex	http://purl.obolibrary.org/obo/GO_0019773	proteasome core complex, alpha-subunit complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0031607	nuclear proteasome core complex, beta-subunit complex	http://purl.obolibrary.org/obo/GO_0019774	proteasome core complex, beta-subunit complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0031598	nuclear proteasome regulatory particle	http://purl.obolibrary.org/obo/GO_0005838	proteasome regulatory particle	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0031610	nuclear proteasome regulatory particle, base subcomplex	http://purl.obolibrary.org/obo/GO_0008540	proteasome regulatory particle, base subcomplex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0031613	nuclear proteasome regulatory particle, lid subcomplex	http://purl.obolibrary.org/obo/GO_0008541	proteasome regulatory particle, lid subcomplex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_1902377	nuclear rDNA heterochromatin	http://purl.obolibrary.org/obo/GO_0033553	rDNA heterochromatin	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0043596	nuclear replication fork	http://purl.obolibrary.org/obo/GO_0005657	replication fork	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0043601	nuclear replisome	http://purl.obolibrary.org/obo/GO_0030894	replisome	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0000783	nuclear telomere cap complex	http://purl.obolibrary.org/obo/GO_0000782	telomere cap complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0030685	nucleolar preribosome	http://purl.obolibrary.org/obo/GO_0030684	preribosome	http://purl.obolibrary.org/obo/GO_0005730	nucleolus
+http://purl.obolibrary.org/obo/GO_0005655	nucleolar ribonuclease P complex	http://purl.obolibrary.org/obo/GO_0030677	ribonuclease P complex	http://purl.obolibrary.org/obo/GO_0005730	nucleolus
+http://purl.obolibrary.org/obo/GO_0000313	organellar ribosome	http://purl.obolibrary.org/obo/GO_0005840	ribosome	http://purl.obolibrary.org/obo/GO_0043226	organelle
+http://purl.obolibrary.org/obo/GO_0043233	organelle lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0043226	organelle
+http://purl.obolibrary.org/obo/GO_0043594	outer endospore membrane	http://purl.obolibrary.org/obo/GO_0019867	outer membrane	http://purl.obolibrary.org/obo/GO_0043591	endospore external encapsulating structure
+http://purl.obolibrary.org/obo/GO_0098799	outer mitochondrial membrane protein complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0005741	mitochondrial outer membrane
+http://purl.obolibrary.org/obo/GO_0099020	perinuclear endoplasmic reticulum lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0097038	perinuclear endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_1990578	perinuclear endoplasmic reticulum membrane	http://purl.obolibrary.org/obo/GO_0016020	membrane	http://purl.obolibrary.org/obo/GO_0097038	perinuclear endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0097013	phagocytic vesicle lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0045335	phagocytic vesicle
+http://purl.obolibrary.org/obo/GO_0045284	plasma membrane fumarate reductase complex	http://purl.obolibrary.org/obo/GO_0045283	fumarate reductase complex	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0031520	plasma membrane of cell tip	http://purl.obolibrary.org/obo/GO_0098590	plasma membrane region	http://purl.obolibrary.org/obo/GO_0051286	cell tip
+http://purl.obolibrary.org/obo/GO_1902929	plasma membrane of growing cell tip	http://purl.obolibrary.org/obo/GO_0098590	plasma membrane region	http://purl.obolibrary.org/obo/GO_0035838	growing cell tip
+http://purl.obolibrary.org/obo/GO_0098797	plasma membrane protein complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0045260	plasma membrane proton-transporting ATP synthase complex	http://purl.obolibrary.org/obo/GO_0045259	proton-transporting ATP synthase complex	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0045262	plasma membrane proton-transporting ATP synthase complex, catalytic core F(1)	http://purl.obolibrary.org/obo/GO_0045261	proton-transporting ATP synthase complex, catalytic core F(1)	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0045264	plasma membrane proton-transporting ATP synthase complex, coupling factor F(o)	http://purl.obolibrary.org/obo/GO_0045263	proton-transporting ATP synthase complex, coupling factor F(o)	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0045268	plasma membrane proton-transporting ATP synthase, catalytic core	http://purl.obolibrary.org/obo/GO_0045267	proton-transporting ATP synthase, catalytic core	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0045270	plasma membrane proton-transporting ATP synthase, central stalk	http://purl.obolibrary.org/obo/GO_0045269	proton-transporting ATP synthase, central stalk	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0045266	plasma membrane proton-transporting ATP synthase, stator stalk	http://purl.obolibrary.org/obo/GO_0045265	proton-transporting ATP synthase, stator stalk	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0033181	plasma membrane proton-transporting V-type ATPase complex	http://purl.obolibrary.org/obo/GO_0033176	proton-transporting V-type ATPase complex	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0000222	plasma membrane proton-transporting V-type ATPase, V0 domain	http://purl.obolibrary.org/obo/GO_0033179	proton-transporting V-type ATPase, V0 domain	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0000223	plasma membrane proton-transporting V-type ATPase, V1 domain	http://purl.obolibrary.org/obo/GO_0033180	proton-transporting V-type ATPase, V1 domain	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0044853	plasma membrane raft	http://purl.obolibrary.org/obo/GO_0045121	membrane raft	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0098590	plasma membrane region	http://purl.obolibrary.org/obo/GO_0016020	membrane	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0045272	plasma membrane respiratory chain complex I	http://purl.obolibrary.org/obo/GO_0045271	respiratory chain complex I	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0045274	plasma membrane respiratory chain complex II	http://purl.obolibrary.org/obo/GO_0045273	respiratory chain complex II	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0045276	plasma membrane respiratory chain complex III	http://purl.obolibrary.org/obo/GO_0045275	respiratory chain complex III	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0045278	plasma membrane respiratory chain complex IV	http://purl.obolibrary.org/obo/GO_0045277	respiratory chain complex IV	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0030094	plasma membrane-derived photosystem I	http://purl.obolibrary.org/obo/GO_0009522	photosystem I	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0030096	plasma membrane-derived thylakoid photosystem II	http://purl.obolibrary.org/obo/GO_0009523	photosystem II	http://purl.obolibrary.org/obo/GO_0030075	bacterial thylakoid
+http://purl.obolibrary.org/obo/GO_0031009	plastid ADPG pyrophosphorylase complex	http://purl.obolibrary.org/obo/GO_0030929	ADPG pyrophosphorylase complex	http://purl.obolibrary.org/obo/GO_0009536	plastid
+http://purl.obolibrary.org/obo/GO_0009508	plastid chromosome	http://purl.obolibrary.org/obo/GO_0005694	chromosome	http://purl.obolibrary.org/obo/GO_0009536	plastid
+http://purl.obolibrary.org/obo/GO_0031020	plastid mRNA editing complex	http://purl.obolibrary.org/obo/GO_0045293	mRNA editing complex	http://purl.obolibrary.org/obo/GO_0009536	plastid
+http://purl.obolibrary.org/obo/GO_0042646	plastid nucleoid	http://purl.obolibrary.org/obo/GO_0009295	nucleoid	http://purl.obolibrary.org/obo/GO_0009536	plastid
+http://purl.obolibrary.org/obo/GO_0009547	plastid ribosome	http://purl.obolibrary.org/obo/GO_0005840	ribosome	http://purl.obolibrary.org/obo/GO_0009536	plastid
+http://purl.obolibrary.org/obo/GO_0031976	plastid thylakoid	http://purl.obolibrary.org/obo/GO_0009579	thylakoid	http://purl.obolibrary.org/obo/GO_0009536	plastid
+http://purl.obolibrary.org/obo/GO_0042788	polysomal ribosome	http://purl.obolibrary.org/obo/GO_0005840	ribosome	http://purl.obolibrary.org/obo/GO_0005844	polysome
+http://purl.obolibrary.org/obo/GO_0005701	polytene chromosome chromocenter	http://purl.obolibrary.org/obo/GO_0010369	chromocenter	http://purl.obolibrary.org/obo/GO_0005700	polytene chromosome
+http://purl.obolibrary.org/obo/GO_1905759	post-anaphase array microtubule	http://purl.obolibrary.org/obo/GO_0005874	microtubule	http://purl.obolibrary.org/obo/GO_1990295	post-anaphase microtubule array
+http://purl.obolibrary.org/obo/GO_0098871	postsynaptic actin cytoskeleton	http://purl.obolibrary.org/obo/GO_0015629	actin cytoskeleton	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
+http://purl.obolibrary.org/obo/GO_0099571	postsynaptic cytoskeleton	http://purl.obolibrary.org/obo/GO_0005856	cytoskeleton	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
+http://purl.obolibrary.org/obo/GO_0014069	postsynaptic density	http://purl.obolibrary.org/obo/GO_0099572	postsynaptic specialization	http://purl.obolibrary.org/obo/GO_0032279	asymmetric synapse
+http://purl.obolibrary.org/obo/GO_0098842	postsynaptic early endosome	http://purl.obolibrary.org/obo/GO_0005769	early endosome	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
+http://purl.obolibrary.org/obo/GO_0098845	postsynaptic endosome	http://purl.obolibrary.org/obo/GO_0005768	endosome	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
+http://purl.obolibrary.org/obo/GO_0099160	postsynaptic intermediate filament cytoskeleton	http://purl.obolibrary.org/obo/GO_0045111	intermediate filament cytoskeleton	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
+http://purl.obolibrary.org/obo/GO_0098837	postsynaptic recycling endosome	http://purl.obolibrary.org/obo/GO_0055037	recycling endosome	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
+http://purl.obolibrary.org/obo/GO_0099629	postsynaptic specialization of symmetric synapse	http://purl.obolibrary.org/obo/GO_0099572	postsynaptic specialization	http://purl.obolibrary.org/obo/GO_0032280	symmetric synapse
+http://purl.obolibrary.org/obo/GO_0099165	postsynaptic specialization of symmetric synapse, intracellular component	http://purl.obolibrary.org/obo/GO_0043228	non-membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0099629	postsynaptic specialization of symmetric synapse
+http://purl.obolibrary.org/obo/GO_0099091	postsynaptic specialization, intracellular component	http://purl.obolibrary.org/obo/GO_0043228	non-membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0099572	postsynaptic specialization
+http://purl.obolibrary.org/obo/GO_0099189	postsynaptic spectrin-associated cytoskeleton	http://purl.obolibrary.org/obo/GO_0014731	spectrin-associated cytoskeleton	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
+http://purl.obolibrary.org/obo/GO_0099143	presynaptic actin cytoskeleton	http://purl.obolibrary.org/obo/GO_0015629	actin cytoskeleton	http://purl.obolibrary.org/obo/GO_0098793	presynapse
+http://purl.obolibrary.org/obo/GO_0099569	presynaptic cytoskeleton	http://purl.obolibrary.org/obo/GO_0005856	cytoskeleton	http://purl.obolibrary.org/obo/GO_0098793	presynapse
+http://purl.obolibrary.org/obo/GO_0099182	presynaptic intermediate filament cytoskeleton	http://purl.obolibrary.org/obo/GO_0045111	intermediate filament cytoskeleton	http://purl.obolibrary.org/obo/GO_0098793	presynapse
+http://purl.obolibrary.org/obo/GO_0042647	proplastid nucleoid	http://purl.obolibrary.org/obo/GO_0009295	nucleoid	http://purl.obolibrary.org/obo/GO_0009537	proplastid
+http://purl.obolibrary.org/obo/GO_0032157	prospore contractile ring	http://purl.obolibrary.org/obo/GO_0005826	actomyosin contractile ring	http://purl.obolibrary.org/obo/GO_0042764	ascospore-type prospore
+http://purl.obolibrary.org/obo/GO_0032169	prospore septin ring	http://purl.obolibrary.org/obo/GO_0005940	septin ring	http://purl.obolibrary.org/obo/GO_0042764	ascospore-type prospore
+http://purl.obolibrary.org/obo/GO_0099522	region of cytosol	http://purl.obolibrary.org/obo/GO_0005829	cytosol	http://purl.obolibrary.org/obo/GO_0005829	cytosol
+http://purl.obolibrary.org/obo/GO_0098803	respiratory chain complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0070469	respirasome
+http://purl.obolibrary.org/obo/GO_0048237	rough endoplasmic reticulum lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0005791	rough endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0033018	sarcoplasmic reticulum lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0016529	sarcoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0030935	sheet-forming collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0098646	collagen sheet
+http://purl.obolibrary.org/obo/GO_0048238	smooth endoplasmic reticulum lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0005790	smooth endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0044214	spanning component of plasma membrane	http://purl.obolibrary.org/obo/GO_0089717	spanning component of membrane	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_1990913	sperm head plasma membrane	http://purl.obolibrary.org/obo/GO_0098590	plasma membrane region	http://purl.obolibrary.org/obo/GO_0061827	sperm head
+http://purl.obolibrary.org/obo/GO_0005876	spindle microtubule	http://purl.obolibrary.org/obo/GO_0005874	microtubule	http://purl.obolibrary.org/obo/GO_0005819	spindle
+http://purl.obolibrary.org/obo/GO_0031616	spindle pole centrosome	http://purl.obolibrary.org/obo/GO_0005813	centrosome	http://purl.obolibrary.org/obo/GO_0000922	spindle pole
+http://purl.obolibrary.org/obo/GO_0097060	synaptic membrane	http://purl.obolibrary.org/obo/GO_0098590	plasma membrane region	http://purl.obolibrary.org/obo/GO_0045202	synapse
+http://purl.obolibrary.org/obo/GO_0014804	terminal cisterna lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0014802	terminal cisterna
+http://purl.obolibrary.org/obo/GO_1904724	tertiary granule lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0070820	tertiary granule
+http://purl.obolibrary.org/obo/GO_0009503	thylakoid light-harvesting complex	http://purl.obolibrary.org/obo/GO_0030076	light-harvesting complex	http://purl.obolibrary.org/obo/GO_0009535	chloroplast thylakoid membrane
+http://purl.obolibrary.org/obo/GO_0030936	transmembrane collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0005887	integral component of plasma membrane
+http://purl.obolibrary.org/obo/GO_1902500	vacuolar HOPS complex	http://purl.obolibrary.org/obo/GO_0030897	HOPS complex	http://purl.obolibrary.org/obo/GO_0005774	vacuolar membrane
+http://purl.obolibrary.org/obo/GO_0005775	vacuolar lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0005773	vacuole
+http://purl.obolibrary.org/obo/GO_0016471	vacuolar proton-transporting V-type ATPase complex	http://purl.obolibrary.org/obo/GO_0033176	proton-transporting V-type ATPase complex	http://purl.obolibrary.org/obo/GO_0005774	vacuolar membrane
+http://purl.obolibrary.org/obo/GO_0000220	vacuolar proton-transporting V-type ATPase, V0 domain	http://purl.obolibrary.org/obo/GO_0033179	proton-transporting V-type ATPase, V0 domain	http://purl.obolibrary.org/obo/GO_0005773	vacuole
+http://purl.obolibrary.org/obo/GO_0000221	vacuolar proton-transporting V-type ATPase, V1 domain	http://purl.obolibrary.org/obo/GO_0033180	proton-transporting V-type ATPase, V1 domain	http://purl.obolibrary.org/obo/GO_0005773	vacuole
+http://purl.obolibrary.org/obo/GO_0039642	virion nucleoid	http://purl.obolibrary.org/obo/GO_0009295	nucleoid	http://purl.obolibrary.org/obo/GO_0019012	virion
+http://purl.obolibrary.org/obo/GO_0044423	virion part	http://purl.obolibrary.org/obo/GO_0005575	cellular_component	http://purl.obolibrary.org/obo/GO_0019012	virion
