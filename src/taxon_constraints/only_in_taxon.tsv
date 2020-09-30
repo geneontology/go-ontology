@@ -787,3 +787,5 @@ GO:0120259	7SK snRNP	NCBITaxon:33208	Metazoa
 GO:0120260	ciliary microtubule quartet	NCBITaxon:5653	Kinetoplastida
 GO:0140525	antipodal site	NCBITaxon:5653	Kinetoplastea
 GO:0140528	bilobe structure assembly	NCBITaxon:5653	Kinetoplastea
+GO:0120268	paraflagellar rod assembly	NCBITaxon:33682	Euglenozoa
+GO:0120269	ciliary centrin arm	NCBITaxon:5653	Kinetoplastea
