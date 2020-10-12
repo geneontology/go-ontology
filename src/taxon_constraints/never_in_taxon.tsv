@@ -348,8 +348,6 @@ GO:0098521	inhibitory neuromuscular junction	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0098769	TIMP family protein binding	NCBITaxon:4751	Fungi
 GO:0098770	FBXO family protein binding	NCBITaxon:4751	Fungi
 GO:0099536	synaptic signaling	NCBITaxon:4895	Schizosaccharomyces
-GO:0101024	nuclear membrane organization involved in mitotic nuclear division	NCBITaxon:33208	Metazoa
-GO:0101026	nuclear membrane biogenesis involved in mitotic nuclear division	NCBITaxon:33208	Metazoa
 GO:0102084	L-dopa O-methyltransferase activity	NCBITaxon:4890	Ascomycota
 GO:0102938	orcinol O-methyltransferase activity	NCBITaxon:4890	Ascomycota
 GO:0120164	conidium germination	NCBITaxon:147554	Schizosaccharomycetes
@@ -484,6 +482,6 @@ GO:0043588	skin development	NCBITaxon:6656	Arthropoda
 GO:0033561	regulation of water loss via skin	NCBITaxon:6656	Arthropoda
 GO:0032980	keratinocyte activation	NCBITaxon:6656	Arthropoda
 GO:0051546	keratinocyte migration	NCBITaxon:6656	Arthropoda
-GO:0097283	keratinocyte apoptotic process  NCBITaxon:6656  Arthropoda
+GO:0097283	keratinocyte apoptotic process	NCBITaxon:6656	Arthropoda
 GO:0008623	CHRAC	NCBITaxon:4896	Schizosaccharomyces pombe
 GO:0033643	host cell part	NCBITaxon:7742	Vertebrata <Metazoa>
