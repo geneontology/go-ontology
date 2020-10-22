@@ -453,9 +453,9 @@ chebi-ph7_3-slim.ofn: chebi_pH7_3_mapping.tsv
 	tail -n +2 $< | cut -f 2 | sort -n -u | sed 's/^/AnnotationAssertion(<http:\/\/www.geneontology.org\/formats\/oboInOwl#inSubset> <http:\/\/purl.obolibrary.org\/obo\/CHEBI_/' | sed 's/$$/> <http:\/\/purl.obolibrary.org\/obo\/go#chebi_ph7_3>)/' >>$@.tmp
 	echo ')' >>$@.tmp && mv $@.tmp $@
 
-biochebi_gcis.tsv: chebi_pH7_3_mapping.tsv
+biochebi_gcis.tsv: chebi_pH7_3_mapping.tsv ../biochebi/biochebi_excludes.txt
 	echo 'source_chem	standard_chem' >$@.tmp &&\
-	tail -n +2 chebi_pH7_3_mapping.tsv | awk -v FS='\t' -v OFS='\t' '{ if ($$1 != $$2) { print "CHEBI:"$$1, "CHEBI:"$$2} }' >> $@.tmp && mv $@.tmp $@
+	tail -n +2 chebi_pH7_3_mapping.tsv | awk -v FS='\t' -v OFS='\t' '{ if ($$1 != $$2) { print "CHEBI:"$$1, "CHEBI:"$$2} }' | grep -v -f ../biochebi/biochebi_excludes.txt >> $@.tmp && mv $@.tmp $@
 
 biochebi_gcis.ofn: biochebi_gcis.tsv ../biochebi/biochebi_gcis.yaml
 	$(DOSDP_TOOLS) generate --obo-prefixes=true --generate-defined-class=true --template=../biochebi/biochebi_gcis.yaml --infile=$< --outfile=$@.tmp.ofn && mv $@.tmp.ofn $@

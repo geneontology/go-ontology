@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2020-10-19/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2020-10-22/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -56154,11 +56154,6 @@ is_a: CHEBI:18140 ! hydrogen halide
 is_a: CHEBI:37176 ! mononuclear parent hydride
 
 [Term]
-id: CHEBI:29240
-name: nitride(3-)
-is_a: CHEBI:33268 ! monoatomic nitrogen
-
-[Term]
 id: CHEBI:29241
 name: silicate(4-)
 is_a: CHEBI:48123 ! silicate ion
@@ -61673,12 +61668,6 @@ id: CHEBI:33267
 name: elemental nitrogen
 is_a: CHEBI:33465 ! elemental pnictogen
 is_a: CHEBI:51143 ! nitrogen molecular entity
-
-[Term]
-id: CHEBI:33268
-name: monoatomic nitrogen
-is_a: CHEBI:33238 ! monoatomic entity
-is_a: CHEBI:33267 ! elemental nitrogen
 
 [Term]
 id: CHEBI:33270
