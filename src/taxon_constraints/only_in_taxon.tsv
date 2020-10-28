@@ -324,7 +324,7 @@ GO:0035001	dorsal trunk growth, open tracheal system	NCBITaxon:50557	Insecta
 GO:0035002	liquid clearance, open tracheal system	NCBITaxon:50557	Insecta
 GO:0035018	adult chitin-based cuticle pattern formation	NCBITaxon:6656	Arthropoda
 GO:0035052	dorsal vessel aortic cell fate commitment	NCBITaxon:50557	Insecta
-GO:0035053	dorsal vessel heart proper cell fate commitment	NCBITaxon:50557	Insecta
+GO:0035053	dorsal vessel proper cell fate commitment	NCBITaxon:50557	Insecta
 GO:0035099	hemocyte migration	NCBITaxon:6656	Arthropoda
 GO:0035147	branch fusion, open tracheal system	NCBITaxon:33317	Protostomia
 GO:0035152	regulation of tube architecture, open tracheal system	NCBITaxon:33317	Protostomia
@@ -797,3 +797,4 @@ GO:0038066	p38MAPK cascade	NCBITaxon:33208	Metazoa
 GO:1900744	regulation of p38MAPK cascade	NCBITaxon:33208	Metazoa
 GO:1903753	negative regulation of p38MAPK cascade	NCBITaxon:33208	Metazoa
 GO:1900745	positive regulation of p38MAPK cascade	NCBITaxon:33208	Metazoa
+GO:0086036	regulation of cardiac muscle cell membrane potential	NCBITaxon:33208	Metazoa
