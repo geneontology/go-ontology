@@ -772,7 +772,6 @@ GO:0042302	structural constituent of cuticle	NCBITaxon:6072	Eumetazoa
 GO:0042329	structural constituent of collagen and cuticulin-based cuticle	NCBITaxon:6231	Nematoda
 GO:1990765	colon smooth muscle contraction	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0140384	metacyclogenesis	NCBITaxon:5654	Trypanosomatidae
-GO:0009870	defense response signaling pathway, resistance gene-dependent	NCBITaxon:33090	Viridiplantae
 GO:0150104	transport across blood-brain barrier	NCBITaxon:6072	Eumetazoa
 GO:0009236	cobalamin biosynthetic process	NCBITaxon:Union_0000004	Prokaryota
 GO:0006836	neurotransmitter transport	NCBITaxon:33208	Metazoa
@@ -785,3 +784,33 @@ GO:0140494	migrasome	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0140495	migracytosis	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0106303	mannogen metabolic process	NCBITaxon:5658	Leishmania
 GO:0120259	7SK snRNP	NCBITaxon:33208	Metazoa
+GO:0120260	ciliary microtubule quartet	NCBITaxon:5653	Kinetoplastida
+GO:0140525	antipodal site	NCBITaxon:5653	Kinetoplastea
+GO:0140528	bilobe structure assembly	NCBITaxon:5653	Kinetoplastea
+GO:0120268	paraflagellar rod assembly	NCBITaxon:33682	Euglenozoa
+GO:0120269	ciliary centrin arm	NCBITaxon:5653	Kinetoplastea
+GO:0120273	ciliary centrin arm assembly	NCBITaxon:5653	Kinetoplastea
+GO:0101024	nuclear membrane organization involved in mitotic nuclear division	NCBITaxon:33208	Metazoa
+GO:0101026	nuclear membrane biogenesis involved in mitotic nuclear division	NCBITaxon:33208	Metazoa
+GO:0048273	mitogen-activated protein kinase p38 binding	NCBITaxon:33208	Metazoa
+GO:0038066	p38MAPK cascade	NCBITaxon:33208	Metazoa
+GO:1900744	regulation of p38MAPK cascade	NCBITaxon:33208	Metazoa
+GO:1903753	negative regulation of p38MAPK cascade	NCBITaxon:33208	Metazoa
+GO:1900745	positive regulation of p38MAPK cascade	NCBITaxon:33208	Metazoa
+GO:0086036	regulation of cardiac muscle cell membrane potential	NCBITaxon:33208	Metazoa
+GO:0015734	taurine transport	NCBITaxon:33208	Metazoa
+GO:0019530	taurine metabolic process	NCBITaxon:33208	Metazoa
+GO:1990205	taurine dioxygenase complex	NCBITaxon:33208	Metazoa
+GO:0042412	taurine biosynthetic process	NCBITaxon:33208	Metazoa
+GO:0050323	taurine dehydrogenase activity	NCBITaxon:33208	Metazoa
+GO:0000908	taurine dioxygenase activity	NCBITaxon:33208	Metazoa
+GO:0019529	taurine catabolic process	NCBITaxon:33208	Metazoa
+GO:0031299	taurine-pyruvate aminotransferase activity	NCBITaxon:33208	Metazoa
+GO:0005368	taurine transmembrane transporter activity	NCBITaxon:33208	Metazoa
+GO:0015411	ATPase-coupled taurine transporter activity	NCBITaxon:33208	Metazoa
+GO:0050322	taurine-2-oxoglutarate transaminase activity	NCBITaxon:33208	Metazoa
+GO:0062089	regulation of taurine biosynthetic process	NCBITaxon:33208	Metazoa
+GO:0005369	taurine:sodium symporter activity	NCBITaxon:33208	Metazoa
+GO:0062090	positive regulation of taurine biosynthetic process	NCBITaxon:33208	Metazoa
+GO:0019452	L-cysteine catabolic process to taurine	NCBITaxon:33208	Metazoa
+GO:0050325	tauropine dehydrogenase activity	NCBITaxon:33208	Metazoa
