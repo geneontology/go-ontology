@@ -21,6 +21,6 @@ def:
      - target
 
 equivalentTo:
-  text: " 'developmental maturation' and 'results in developmental progression of' some %s"
+  text: " 'developmental maturation' and 'results in maturation of' some %s"
   vars:
     - target
