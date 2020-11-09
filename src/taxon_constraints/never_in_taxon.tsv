@@ -509,3 +509,4 @@ GO:0055100	adiponectin binding	NCBITaxon:4751	Fungi
 GO:0038100	nodal binding	NCBITaxon:4751	Fungi
 GO:0140223	general transcription initiation factor activity	NCBITaxon:2	Bacteria
 GO:0006915	apoptotic process	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0006915	apoptotic process	NCBITaxon:4896	NCBITaxon:2	Bacteria
