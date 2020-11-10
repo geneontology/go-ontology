@@ -509,4 +509,10 @@ GO:0055100	adiponectin binding	NCBITaxon:4751	Fungi
 GO:0038100	nodal binding	NCBITaxon:4751	Fungi
 GO:0140223	general transcription initiation factor activity	NCBITaxon:2	Bacteria
 GO:0006915	apoptotic process	NCBITaxon:4896	Schizosaccharomyces pombe
-GO:0006915	apoptotic process	NCBITaxon:4896	NCBITaxon:2	Bacteria
+GO:0006915 	apoptotic process	NCBITaxon:2	Bacteria
+GO:0001726	ruffle	NCBITaxon:2	Bacteria
+GO:0001726	ruffle	NCBITaxon:4751	Fungi
+GO:0001726	ruffle	NCBITaxon:33090	Viridiplantae
+GO:1900027	regulation of ruffle assembly	NCBITaxon:2	Bacteria
+GO:1900027	regulation of ruffle assembly	NCBITaxon:4751	Fungi
+GO:1900027	regulation of ruffle assembly	NCBITaxon:33090	Viridiplantae
