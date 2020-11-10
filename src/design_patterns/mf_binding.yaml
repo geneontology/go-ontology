@@ -1,0 +1,50 @@
+pattern_name: 'activator_activity'
+
+classes:
+  molecular_function: 'GO:0003674'
+  binding: 'GO:0005488'
+
+relations:
+  has input: 'RO:0002629' 
+  
+vars:
+  has_input: %s 
+
+data_list_vars:
+  def_dbxrefs: "xsd:string"
+
+# Boilerplate - don't edit
+data_list_vars:
+  def_xrefs: "xsd:string"
+  cross_references: "xsd:string"
+  exact_syn: "xsd:string"
+  narrow_syn: "xsd:string"
+  broad_syn: "xsd:string"
+  related_syn: "xsd:string"
+  
+name:
+  text: "%s binding"
+    
+def: 
+  text: "Binding to a %s."
+  xrefs: def_xrefs
+
+# Boilerplate - don't edit
+xref: 
+   value: cross_references
+
+namespace: 
+  text: 'biological_process'  # e.g. biological_process, quoting is optional
+
+equivalentTo: 
+  text: "'binding' has input some %s" 
+
+# Boilerplate - don't edit
+exact_synonyms: 
+   value: exact_syn
+narrow_synonyms: 
+   value: narrow_syn
+broad_synonyms: 
+   value: broad_syn
+related_synonyms: 
+   value: related_syn
