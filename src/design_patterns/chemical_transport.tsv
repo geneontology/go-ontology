@@ -1,437 +1,380 @@
-iri	iri label	chemical	chemical label
-GO:1900749	(R)-carnitine transport	CHEBI:16347	(R)-carnitine
-GO:0033223	2-aminoethylphosphonate transport	CHEBI:15573	(2-aminoethyl)phosphonic acid
-GO:0046411	2-keto-3-deoxygluconate transport	CHEBI:57990	2-dehydro-3-deoxy-D-gluconate
-GO:0046963	3'-phosphoadenosine 5'-phosphosulfate transport	CHEBI:17980	3'-phospho-5'-adenylyl sulfate
-GO:0015731	3-hydroxyphenyl propanoate transport	CHEBI:65228	3-hydroxyphenyl propanoate
-GO:0042920	3-hydroxyphenylpropionic acid transport	CHEBI:16104	3-(2-hydroxyphenyl)propanoic acid
-GO:0042889	3-phenylpropionic acid transport	CHEBI:51057	3-phenylpropionate
-GO:1900751	4-(trimethylammonio)butanoate transport	CHEBI:16244	4-(trimethylammonio)butanoate
-GO:1900754	4-hydroxyphenylacetate transport	CHEBI:48999	4-hydroxyphenylacetate
-GO:0015885	5-formyltetrahydrofolate transport	CHEBI:15640	5-formyltetrahydrofolic acid
-GO:0015866	ADP transport	CHEBI:16761	ADP
-GO:0080121	AMP transport	CHEBI:16027	AMP
-GO:0015867	ATP transport	CHEBI:15422	ATP
-GO:0015740	C4-dicarboxylate transport	CHEBI:61336	C4-dicarboxylate
-GO:0015782	CMP-N-acetylneuraminate transport	CHEBI:16556	CMP-N-acetyl-beta-neuraminic acid
-GO:0042941	D-alanine transport	CHEBI:32435	D-alaninate
-GO:0042940	D-amino acid transport	CHEBI:60895	D-alpha-amino acid anion
-GO:0070777	D-aspartate transport	CHEBI:29994	D-aspartate(2-)
-GO:0042875	D-galactonate transport	CHEBI:12931	D-galactonate
-GO:0042870	D-glucarate transport	CHEBI:30612	D-glucarate(2-)
-GO:0042874	D-glucuronate transport	CHEBI:15748	D-glucuronate
-GO:0048473	D-methionine transport	CHEBI:32637	D-methioninate
-GO:0015752	D-ribose transport	CHEBI:16988	D-ribose
-GO:0042942	D-serine transport	CHEBI:16523	D-serine
-GO:0015753	D-xylose transport	CHEBI:15936	aldehydo-D-xylose
-GO:0051027	DNA transport	CHEBI:16991	deoxyribonucleic acid
-GO:0015783	GDP-fucose transport	CHEBI:64608	GDP-fucose
-GO:0015784	GDP-mannose transport	CHEBI:21168	GDP-mannose
-GO:0015808	L-alanine transport	CHEBI:32431	L-alaninate
-GO:0015807	L-amino acid transport	CHEBI:59814	L-alpha-amino acid anion
-GO:0042882	L-arabinose transport	CHEBI:30849	L-arabinose
-GO:1902023	L-arginine transport	CHEBI:16467	L-arginine
-GO:0015882	L-ascorbic acid transport	CHEBI:38290	L-ascorbate
-GO:0070778	L-aspartate transport	CHEBI:29993	L-aspartate(2-)
-GO:0015811	L-cystine transport	CHEBI:16283	L-cystine
-GO:1902024	L-histidine transport	CHEBI:15971	L-histidine
-GO:0015726	L-idonate transport	CHEBI:17796	L-idonate
-GO:1902022	L-lysine transport	CHEBI:18019	L-lysine
-GO:0015825	L-serine transport	CHEBI:32836	L-serinate
-GO:0015763	N-acetylgalactosamine transport	CHEBI:28800	N-acetylgalactosamine
-GO:0015764	N-acetylglucosamine transport	CHEBI:59640	N-acetylglucosamine
-GO:2001143	N-methylnicotinate transport	CHEBI:18123	N-methylnicotinate
-GO:0043132	NAD transport	CHEBI:13389	NAD
-GO:0050658	RNA transport	CHEBI:33697	ribonucleic acid
-GO:0015806	S-methylmethionine transport	CHEBI:17728	S-methyl-L-methionine
-GO:0015789	UDP-N-acetylgalactosamine transport	CHEBI:16650	UDP-N-acetyl-D-galactosamine
-GO:0015788	UDP-N-acetylglucosamine transport	CHEBI:16264	UDP-N-acetyl-alpha-D-glucosamine
-GO:0015785	UDP-galactose transport	CHEBI:18307	UDP-D-galactose
-GO:0015786	UDP-glucose transport	CHEBI:18066	UDP-D-glucose
-GO:0015787	UDP-glucuronic acid transport	CHEBI:17200	UDP-alpha-D-glucuronic acid
-GO:0015790	UDP-xylose transport	CHEBI:16082	UDP-alpha-D-xylose
-GO:0080168	abscisic acid transport	CHEBI:62071	2-cis-abscisate
-GO:1901374	acetate ester transport	CHEBI:47622	acetate ester
-GO:0006846	acetate transport	CHEBI:30089	acetate
-GO:0015870	acetylcholine transport	CHEBI:15355	acetylcholine
-GO:0042935	achromobactin transport	CHEBI:61346	achromobactin
-GO:0042909	acridine transport	CHEBI:36420	acridine
-GO:0015894	acriflavine transport	CHEBI:383703	3,6-diamino-10-methylacridinium chloride
-GO:0006844	acyl carnitine transport	CHEBI:17387	O-acylcarnitine
-GO:0034196	acylglycerol transport	CHEBI:47778	glyceride
-GO:0051503	adenine nucleotide transport	CHEBI:61293	adenyl nucleotide
-GO:0015853	adenine transport	CHEBI:16708	adenine
-GO:0032238	adenosine transport	CHEBI:16335	adenosine
-GO:0019271	aerobactin transport	CHEBI:18157	aerobactin
-GO:0032328	alanine transport	CHEBI:32439	alaninate
-GO:0042869	aldarate transport	CHEBI:22289	aldaric acid anion
-GO:0042873	aldonate transport	CHEBI:22299	aldonate
-GO:0015895	alkane transport	CHEBI:18310	alkane
-GO:0042916	alkylphosphonate transport	CHEBI:60983	alkylphosphonate
-GO:0015719	allantoate transport	CHEBI:17536	allantoate
-GO:0015720	allantoin transport	CHEBI:15676	allantoin
-GO:0015754	allose transport	CHEBI:37690	allose
-GO:0000017	alpha-glucoside transport	CHEBI:60979	alpha-glucoside
-GO:0015742	alpha-ketoglutarate transport	CHEBI:16810	2-oxoglutarate(2-)
-GO:0015690	aluminum cation transport	CHEBI:63062	aluminium cation
-GO:0042886	amide transport	CHEBI:32988	amide
-GO:0015898	amiloride transport	CHEBI:2639	amiloride
-GO:0015837	amine transport	CHEBI:32952	amine
-GO:0006865	amino acid transport	CHEBI:33709	amino acid
-GO:0015838	amino-acid betaine transport	CHEBI:22860	amino-acid betaine
-GO:0015917	aminophospholipid transport	CHEBI:60971	aminophospholipid
-GO:0015899	aminotriazole transport	CHEBI:40036	amitrole
-GO:0015696	ammonium transport	CHEBI:35274	ammonium ion
-GO:0006820	anion transport	CHEBI:22563	anion
-GO:0015699	antimonite transport	CHEBI:30297	antimonite
-GO:0042899	arabinan transport	CHEBI:22590	arabinan
-GO:0015792	arabinitol transport	CHEBI:22605	arabinitol
-GO:0015751	arabinose transport	CHEBI:22599	arabinose
-GO:2001092	arabinotriose transport	CHEBI:62781	alpha-L-Araf-(1->5)-alpha-L-Araf-(1->5)-L-Araf
-GO:1903963	arachidonate transport	CHEBI:32395	arachidonate
-GO:0042949	arbutin transport	CHEBI:18305	hydroquinone O-beta-D-glucopyranoside
-GO:0015801	aromatic amino acid transport	CHEBI:33856	aromatic amino acid
-GO:0015700	arsenite transport	CHEBI:22633	arsenite ion
-GO:0006867	asparagine transport	CHEBI:32660	asparaginate
-GO:0045117	azole transport	CHEBI:68452	azole
-GO:0043213	bacteriocin transport	CHEBI:48081	bacteriocin
-GO:0015900	benomyl transport	CHEBI:3015	benomyl
-GO:0042919	benzoate transport	CHEBI:16150	benzoate
-GO:0001762	beta-alanine transport	CHEBI:16958	beta-alanine
-GO:0015775	beta-glucan transport	CHEBI:28793	beta-D-glucan
-GO:0015759	beta-glucoside transport	CHEBI:60980	beta-glucoside
-GO:0015701	bicarbonate transport	CHEBI:17544	hydrogencarbonate
-GO:0015905	bicyclomycin transport	CHEBI:60584	bicozamycin
-GO:0015721	bile acid and bile salt transport	CHEBI:3098	bile acid
-GO:0015723	bilirubin transport	CHEBI:57977	bilirubin(2-)
-GO:0015877	biopterin transport	CHEBI:15373	biopterin
-GO:0015878	biotin transport	CHEBI:57586	biotinate
-GO:0046713	borate transport	CHEBI:22908	borate
-GO:0015803	branched-chain amino acid transport	CHEBI:22918	branched-chain amino acid
-GO:0070730	cAMP transport	CHEBI:17489	3',5'-cyclic AMP
-GO:0070731	cGMP transport	CHEBI:16356	3',5'-cyclic GMP
-GO:0015839	cadaverine transport	CHEBI:18127	cadaverine
-GO:0015691	cadmium ion transport	CHEBI:48775	cadmium(2+)
-GO:0006816	calcium ion transport	CHEBI:39123	calcium cation
-GO:1901264	carbohydrate derivative transport	CHEBI:63299	carbohydrate derivative
-GO:0008643	carbohydrate transport	CHEBI:16646	carbohydrate
-GO:0015670	carbon dioxide transport	CHEBI:16526	carbon dioxide
-GO:0015902	carbonyl cyanide m-chlorophenylhydrazone transport	CHEBI:3259	CCCP
-GO:0046942	carboxylic acid transport	CHEBI:29067	carboxylic acid anion
-GO:0015879	carnitine transport	CHEBI:17126	carnitine
-GO:0046867	carotenoid transport	CHEBI:23044	carotenoid
-GO:0051937	catecholamine transport	CHEBI:33567	catecholamine
-GO:0006812	cation transport	CHEBI:36916	cation
-GO:0019533	cellobiose transport	CHEBI:17057	cellobiose
-GO:2001096	cellotriose transport	CHEBI:3528	cellotriose
-GO:1902389	ceramide 1-phosphate transport	CHEBI:16197	N-acylsphingosine 1-phosphate
-GO:0035627	ceramide transport	CHEBI:17761	ceramide
-GO:0042892	chloramphenicol transport	CHEBI:17698	chloramphenicol
-GO:0015702	chlorate transport	CHEBI:49709	chlorate
-GO:0006821	chloride transport	CHEBI:17996	chloride
-GO:0030301	cholesterol transport	CHEBI:16113	cholesterol
-GO:0015871	choline transport	CHEBI:15354	choline
-GO:0015703	chromate transport	CHEBI:35404	chromate(2-)
-GO:0042932	chrysobactin transport	CHEBI:61345	chrysobactin
-GO:0015746	citrate transport	CHEBI:16947	citrate(3-)
-GO:0015889	cobalamin transport	CHEBI:30411	cobalamin
-GO:0006824	cobalt ion transport	CHEBI:23336	cobalt cation
-GO:0006825	copper ion transport	CHEBI:23378	copper cation
-GO:0015881	creatine transport	CHEBI:16919	creatine
-GO:0080051	cutin transport	CHEBI:23417	cutins
-GO:0015704	cyanate transport	CHEBI:29195	cyanate
-GO:0070729	cyclic nucleotide transport	CHEBI:23447	cyclic nucleotide
-GO:0015901	cycloheximide transport	CHEBI:27641	cycloheximide
-GO:0042883	cysteine transport	CHEBI:15356	cysteine
-GO:0015861	cytidine transport	CHEBI:17562	cytidine
-GO:0015856	cytosine transport	CHEBI:16040	cytosine
-GO:0043215	daunorubicin transport	CHEBI:41977	daunorubicin
-GO:0070837	dehydroascorbic acid transport	CHEBI:58070	dehydroascorbide(1-)
-GO:0030302	deoxynucleotide transport	CHEBI:4431	deoxyribonucleotide
-GO:0042955	dextrin transport	CHEBI:28675	dextrin
-GO:0015830	diaminopimelate transport	CHEBI:23673	2,6-diaminopimelic acid
-GO:0006835	dicarboxylic acid transport	CHEBI:35693	dicarboxylic acid anion
-GO:0042938	dipeptide transport	CHEBI:46761	dipeptide
-GO:0015766	disaccharide transport	CHEBI:36233	disaccharide
-GO:0072511	divalent inorganic cation transport	CHEBI:64641	divalent inorganic cation
-GO:0070838	divalent metal ion transport	CHEBI:60240	divalent metal cation
-GO:0015872	dopamine transport	CHEBI:18243	dopamine
-GO:1900753	doxorubicin transport	CHEBI:28748	doxorubicin
-GO:0033227	dsRNA transport	CHEBI:67208	double-stranded RNA
-GO:0033227	dsRNA transport	CHEBI:67208	dsRNA
-GO:0051470	ectoine transport	CHEBI:27592	ectoine
-GO:0042930	enterobactin transport	CHEBI:28855	enterobactin
-GO:0048241	epinephrine transport	CHEBI:33568	adrenaline
-GO:0034229	ethanolamine transport	CHEBI:16000	ethanolamine
-GO:1901571	fatty acid derivative transport	CHEBI:61697	fatty acid derivative
-GO:0015908	fatty acid transport	CHEBI:28868	fatty acid anion
-GO:0015915	fatty-acyl group transport	CHEBI:24027	fatty-acyl group
-GO:0015916	fatty-acyl-CoA transport	CHEBI:17984	acyl-CoA
-GO:0015682	ferric iron transport	CHEBI:29034	iron(3+)
-GO:0015686	ferric triacetylfusarinine C transport	CHEBI:60481	N',N'',N'''-triacetylfusarinine C
-GO:0015685	ferric-enterobactin transport	CHEBI:28199	ferrienterobactin(3-)
-GO:0015687	ferric-hydroxamate transport	CHEBI:28163	iron(III) hydroxamate
-GO:0042928	ferrichrome transport	CHEBI:61414	ferrichromes
-GO:0015684	ferrous iron transport	CHEBI:29033	iron(2+)
-GO:0015903	fluconazole transport	CHEBI:46081	fluconazole
-GO:0015884	folic acid transport	CHEBI:27470	folic acid
-GO:0015724	formate transport	CHEBI:15740	formate
-GO:0042894	fosmidomycin transport	CHEBI:443725	fosmidomycin
-GO:0015755	fructose transport	CHEBI:28757	fructose
-GO:0015756	fucose transport	CHEBI:33984	fucose
-GO:0015741	fumarate transport	CHEBI:29806	fumarate(2-)
-GO:1902300	galactarate transport	CHEBI:48871	galactaric acid anion
-GO:0015796	galactitol transport	CHEBI:16813	galactitol
-GO:0015757	galactose transport	CHEBI:28260	galactose
-GO:2001093	galactotriose transport	CHEBI:60187	alpha-D-Gal-(1->3)-beta-D-Gal-(1->4)-D-Gal
-GO:0015737	galacturonate transport	CHEBI:24175	galacturonate
-GO:0015812	gamma-aminobutyric acid transport	CHEBI:30566	gamma-aminobutyrate
-GO:0015725	gluconate transport	CHEBI:24265	gluconate
-GO:0015758	glucose transport	CHEBI:17234	glucose
-GO:0015760	glucose-6-phosphate transport	CHEBI:14314	D-glucose 6-phosphate
-GO:0042946	glucoside transport	CHEBI:24278	glucoside
-GO:1901349	glucosinolate transport	CHEBI:24279	glucosinolate
-GO:0051475	glucosylglycerol transport	CHEBI:24287	glucosylglycerol
-GO:0015738	glucuronate transport	CHEBI:24297	glucuronate
-GO:0015779	glucuronoside transport	CHEBI:24302	glucosiduronic acid
-GO:0006868	glutamine transport	CHEBI:32678	glutaminate
-GO:0034635	glutathione transport	CHEBI:16856	glutathione
-GO:0015793	glycerol transport	CHEBI:17754	glycerol
-GO:0070811	glycerol-2-phosphate transport	CHEBI:17270	glycerol 2-phosphate
-GO:0015794	glycerol-3-phosphate transport	CHEBI:15978	sn-glycerol 3-phosphate
-GO:0031460	glycine betaine transport	CHEBI:17750	glycine betaine
-GO:0015816	glycine transport	CHEBI:32508	glycinate
-GO:1900866	glycolate transport	CHEBI:29805	glycolate
-GO:0046836	glycolipid transport	CHEBI:33563	glycolipid
-GO:0034436	glycoprotein transport	CHEBI:17089	glycoprotein
-GO:1901656	glycoside transport	CHEBI:24400	glycoside
-GO:0001408	guanine nucleotide transport	CHEBI:61292	guanyl nucleotide
-GO:0015854	guanine transport	CHEBI:16235	guanine
-GO:0015886	heme transport	CHEBI:30413	heme
-GO:2001104	heptasaccharide transport	CHEBI:53463	heptasaccharide
-GO:2001102	hexasaccharide transport	CHEBI:35368	hexasaccharide
-GO:0015712	hexose phosphate transport	CHEBI:47878	hexose phosphate
-GO:0008645	hexose transport	CHEBI:18133	hexose
-GO:0015736	hexuronate transport	CHEBI:24591	hexuronate
-GO:0051608	histamine transport	CHEBI:18295	histamine
-GO:0042968	homoserine transport	CHEBI:62980	homoserinate
-GO:0006818	hydrogen transport	CHEBI:33260	elemental hydrogen
-GO:1904952	hydroxycinnamic acid transport	CHEBI:24689	hydroxycinnamic acid
-GO:0033308	hydroxyectoine transport	CHEBI:49432	5-hydroxyectoine
-GO:0034589	hydroxyproline transport	CHEBI:20392	4-hydroxyproline
-GO:0035344	hypoxanthine transport	CHEBI:17368	hypoxanthine
-GO:0071715	icosanoid transport	CHEBI:62937	icosanoid anion
-GO:0015698	inorganic anion transport	CHEBI:24834	inorganic anion
-GO:0030505	inorganic diphosphate transport	CHEBI:35782	diphosphate ion
-GO:0035340	inosine transport	CHEBI:17596	inosine
-GO:0015705	iodide transport	CHEBI:16382	iodide
-GO:0006811	ion transport	CHEBI:24870	ion
-GO:0015688	iron chelate transport	CHEBI:5975	iron chelate
-GO:1901678	iron coordination entity transport	CHEBI:33892	iron coordination entity
-GO:0006826	iron ion transport	CHEBI:24875	iron cation
-GO:1902497	iron-sulfur cluster transport	CHEBI:30408	iron-sulfur cluster
-GO:0015818	isoleucine transport	CHEBI:24898	isoleucine
-GO:0046864	isoprenoid transport	CHEBI:24913	isoprenoid
-GO:0034659	isopropylmalate transport	CHEBI:28107	2-isopropylmalate(2-)
-GO:0015727	lactate transport	CHEBI:24996	lactate
-GO:0033571	lactoferrin transport	PR:000009978	lactotransferrin
-GO:0042969	lactone transport	CHEBI:25000	lactone
-GO:0015767	lactose transport	CHEBI:17716	lactose
-GO:2001086	laminarabiose transport	CHEBI:18411	laminarabiose
-GO:2001097	laminaritriose transport	CHEBI:55514	laminaritriose
-GO:0015692	lead ion transport	CHEBI:60252	lead cation
-GO:0015820	leucine transport	CHEBI:32627	leucinate
-GO:0071716	leukotriene transport	CHEBI:62942	leukotriene anion
-GO:1901373	lipid hydroperoxide transport	CHEBI:61051	lipid hydroperoxide
-GO:0006869	lipid transport	CHEBI:18059	lipid
-GO:0015836	lipid-linked peptidoglycan transport	CHEBI:61082	lipid-linked peptidoglycan
-GO:0015920	lipopolysaccharide transport	CHEBI:16412	lipopolysaccharide
-GO:0042953	lipoprotein transport	CHEBI:6495	lipoprotein
-GO:0010351	lithium ion transport	CHEBI:49713	lithium(1+)
-GO:0015909	long-chain fatty acid transport	CHEBI:57560	long-chain fatty acid anion
-GO:0051977	lysophospholipid transport	CHEBI:16961	monoacylglycerol phosphate
-GO:0051028	mRNA transport	CHEBI:33699	messenger RNA
-GO:0015693	magnesium ion transport	CHEBI:39127	magnesium cation
-GO:0015743	malate transport	CHEBI:15595	malate(2-)
-GO:1900752	malonic acid transport	CHEBI:30794	malonic acid
-GO:0042956	maltodextrin transport	CHEBI:25140	maltodextrin
-GO:2001105	maltoheptaose transport	CHEBI:62010	maltoheptaose
-GO:2001103	maltohexaose transport	CHEBI:27445	maltohexaose
-GO:2001101	maltopentaose transport	CHEBI:62006	maltopentaose
-GO:0015768	maltose transport	CHEBI:17306	maltose
-GO:2001099	maltotetraose transport	CHEBI:28460	maltotetraose
-GO:2001089	maltotriose transport	CHEBI:61993	maltotriose
-GO:2001090	maltotriulose transport	CHEBI:62777	maltotriulose
-GO:0006828	manganese ion transport	CHEBI:25155	manganese cation
-GO:0015797	mannitol transport	CHEBI:29864	mannitol
-GO:0015761	mannose transport	CHEBI:37684	mannose
-GO:0051476	mannosylglycerate transport	CHEBI:60940	D-mannosyl-D-glyceric acid
-GO:2001095	mannotriose transport	CHEBI:62785	beta-D-Manp-(1->4)-beta-D-Manp-(1->4)-D-Manp
-GO:0001579	medium-chain fatty acid transport	CHEBI:59558	medium-chain fatty acid anion
-GO:0015769	melibiose transport	CHEBI:28053	melibiose
-GO:0015694	mercury ion transport	CHEBI:25197	mercury cation
-GO:0030001	metal ion transport	CHEBI:25213	metal cation
-GO:0015821	methionine transport	CHEBI:32644	methioninate
-GO:0051958	methotrexate transport	CHEBI:50680	methotrexate(1-)
-GO:0015843	methylammonium transport	CHEBI:59338	methylammonium
-GO:0015765	methylgalactoside transport	CHEBI:60982	methyl galactoside
-GO:0015728	mevalonate transport	CHEBI:25350	mevalonate
-GO:1990428	miRNA transport	SO:0000276	miRNA
-GO:0042885	microcin B17 transport	CHEBI:64624	microcin B17
-GO:0042884	microcin transport	CHEBI:64627	microcin
-GO:1905431	microcystin transport	CHEBI:48041	microcystin
-GO:0072337	modified amino acid transport	CHEBI:83821	amino acid derivative
-GO:0015993	molecular hydrogen transport	CHEBI:18276	dihydrogen
-GO:0015689	molybdate ion transport	CHEBI:36264	molybdate
-GO:0015844	monoamine transport	CHEBI:63534	monoamine
-GO:0015718	monocarboxylic acid transport	CHEBI:35757	monocarboxylic acid anion
-GO:0015749	monosaccharide transport	CHEBI:35381	monosaccharide
-GO:0015672	monovalent inorganic cation transport	CHEBI:60242	monovalent inorganic cation
-GO:0033272	myo-inositol hexakisphosphate transport	CHEBI:17401	myo-inositol hexakisphosphate
-GO:0033271	myo-inositol phosphate transport	CHEBI:25448	myo-inositol phosphate
-GO:0015798	myo-inositol transport	CHEBI:17268	myo-inositol
-GO:0015896	nalidixic acid transport	CHEBI:62070	nalidixic acid anion
-GO:0015675	nickel cation transport	CHEBI:25516	nickel cation
-GO:0015890	nicotinamide mononucleotide transport	CHEBI:50383	nicotinamide mononucleotide
-GO:0034258	nicotinamide riboside transport	CHEBI:15927	N-ribosylnicotinamide
-GO:2001142	nicotinate transport	CHEBI:32544	nicotinate
-GO:2001091	nigerotriose transport	CHEBI:62780	nigerotriose
-GO:0015706	nitrate transport	CHEBI:17632	nitrate
-GO:0030185	nitric oxide transport	CHEBI:16480	nitric oxide
-GO:0015707	nitrite transport	CHEBI:16301	nitrite
-GO:0071705	nitrogen compound transport	CHEBI:51143	nitrogen molecular entity
-GO:0015874	norepinephrine transport	CHEBI:33569	noradrenaline
-GO:0050657	nucleic acid transport	CHEBI:33696	nucleic acid
-GO:0015851	nucleobase transport	CHEBI:18282	nucleobase
-GO:0015931	nucleobase-containing compound transport	CHEBI:61120	nucleobase-containing molecular entity
-GO:0015858	nucleoside transport	CHEBI:33838	nucleoside
-GO:0006862	nucleotide transport	CHEBI:36976	nucleotide
-GO:0015780	nucleotide-sugar transport	CHEBI:25609	nucleotide-sugar
-GO:0015715	nucleotide-sulfate transport	CHEBI:64702	nucleotide-sulfate
-GO:0033156	oligogalacturonide transport	CHEBI:62533	oligogalacturonide
-GO:0006857	oligopeptide transport	CHEBI:25676	oligopeptide
-GO:0015772	oligosaccharide transport	CHEBI:50699	oligosaccharide
-GO:0019755	one-carbon compound transport	CHEBI:64708	one-carbon compound
-GO:0015849	organic acid transport	CHEBI:64709	organic acid
-GO:0015711	organic anion transport	CHEBI:25696	organic anion
-GO:0015695	organic cation transport	CHEBI:25697	organic cation
-GO:0015850	organic hydroxy compound transport	CHEBI:33822	organic hydroxy compound
-GO:0015716	organic phosphonate transport	CHEBI:37592	organic phosphonate
-GO:0071702	organic substance transport	CHEBI:50860	organic molecular entity
-GO:0015897	organomercurial transport	CHEBI:25706	organomercury compound
-GO:0015748	organophosphate ester transport	CHEBI:25703	organic phosphate
-GO:0015822	ornithine transport	CHEBI:32964	ornithinate
-GO:0019532	oxalate transport	CHEBI:30623	oxalate(2-)
-GO:0015729	oxaloacetate transport	CHEBI:16452	oxaloacetate(2-)
-GO:0015671	oxygen transport	CHEBI:15379	dioxygen
-GO:0015814	p-aminobenzoyl-glutamate transport	CHEBI:60903	N-(4-aminobenzoyl)-L-glutamate
-GO:1901140	p-coumaryl alcohol transport	CHEBI:28386	4-hydroxycinnamyl alcohol
-GO:2001100	pentasaccharide transport	CHEBI:35369	pentasaccharide
-GO:0015750	pentose transport	CHEBI:25901	pentose
-GO:0015833	peptide transport	CHEBI:16670	peptide
-GO:0015835	peptidoglycan transport	CHEBI:8005	peptidoglycan
-GO:0015823	phenylalanine transport	CHEBI:32504	phenylalaninate
-GO:0006817	phosphate ion transport	CHEBI:35780	phosphate ion
-GO:0015714	phosphoenolpyruvate transport	CHEBI:18021	phosphoenolpyruvate
-GO:0015713	phosphoglycerate transport	CHEBI:61304	phosphoglycerate
-GO:0015914	phospholipid transport	CHEBI:16247	phospholipid
-GO:0071993	phytochelatin transport	CHEBI:60836	phytochelatin
-GO:0015846	polyamine transport	CHEBI:51349	polyamine macromolecule
-GO:0042893	polymyxin transport	CHEBI:59062	polymyxin
-GO:0015791	polyol transport	CHEBI:26191	polyol
-GO:0015774	polysaccharide transport	CHEBI:18154	polysaccharide
-GO:0006813	potassium ion transport	CHEBI:29103	potassium(1+)
-GO:0015824	proline transport	CHEBI:32871	prolinate
-GO:0015799	propanediol transport	CHEBI:26288	propanediol
-GO:0015730	propanoate transport	CHEBI:17272	propionate
-GO:0015732	prostaglandin transport	CHEBI:59326	prostaglandin carboxylic acid anion
-GO:0015031	protein transport	PR:000000001	protein
-GO:0015992	proton transport	CHEBI:24636	proton
-GO:0006863	purine nucleobase transport	CHEBI:26386	purine nucleobase
-GO:0015865	purine nucleotide transport	CHEBI:26395	purine nucleotide
-GO:0036079	purine nucleotide-sugar transport	CHEBI:64711	purine nucleotide-sugar
-GO:0015868	purine ribonucleotide transport	CHEBI:26400	purine ribonucleotide
-GO:0015847	putrescine transport	CHEBI:17148	putrescine
-GO:0031921	pyridoxal phosphate transport	CHEBI:597326	pyridoxal 5'-phosphate(2-)
-GO:0031920	pyridoxal transport	CHEBI:17310	pyridoxal
-GO:0031922	pyridoxamine transport	CHEBI:16410	pyridoxamine
-GO:0031923	pyridoxine transport	CHEBI:16709	pyridoxine
-GO:0015855	pyrimidine nucleobase transport	CHEBI:26432	pyrimidine nucleobase
-GO:0015864	pyrimidine nucleoside transport	CHEBI:26440	pyrimidine nucleoside
-GO:0006864	pyrimidine nucleotide transport	CHEBI:26441	pyrimidine nucleotide
-GO:0015781	pyrimidine nucleotide-sugar transport	CHEBI:61109	pyrimidine nucleotide-sugar
-GO:0006848	pyruvate transport	CHEBI:15361	pyruvate
-GO:0015697	quaternary ammonium group transport	CHEBI:26469	quaternary nitrogen compound
-GO:0051029	rRNA transport	CHEBI:18111	ribosomal RNA
-GO:0015773	raffinose transport	CHEBI:16634	raffinose
-GO:0034633	retinol transport	CHEBI:50211	retinol
-GO:0015762	rhamnose transport	CHEBI:26546	rhamnose
-GO:0032218	riboflavin transport	CHEBI:17015	riboflavin
-GO:0035826	rubidium ion transport	CHEBI:49847	rubidium(1+)
-GO:0042948	salicin transport	CHEBI:17814	salicin
-GO:0080160	selenate transport	CHEBI:15075	selenate
-GO:0032329	serine transport	CHEBI:17822	serine
-GO:0006837	serotonin transport	CHEBI:28790	serotonin
-GO:0015733	shikimate transport	CHEBI:36208	shikimate
-GO:0015912	short-chain fatty acid transport	CHEBI:58951	short-chain fatty acid anion
-GO:0015739	sialic acid transport	CHEBI:62944	sialic acid anion
-GO:0015708	silicate transport	CHEBI:29241	silicate(4-)
-GO:0015673	silver ion transport	CHEBI:60253	silver cation
-GO:0051030	snRNA transport	SO:0000274	snRNA
-GO:0006814	sodium ion transport	CHEBI:29101	sodium(1+)
-GO:2001087	sophorose transport	CHEBI:1230	sophorose
-GO:0015795	sorbitol transport	CHEBI:30911	glucitol
-GO:0015848	spermidine transport	CHEBI:16610	spermidine
-GO:0000296	spermine transport	CHEBI:15746	spermine
-GO:1905329	sphingoid long-chain base transport	CHEBI:84410	sphingoid base(1+)
-GO:0015918	sterol transport	CHEBI:15889	sterol
-GO:0015744	succinate transport	CHEBI:30031	succinate(2-)
-GO:0015770	sucrose transport	CHEBI:17992	sucrose
-GO:0008272	sulfate transport	CHEBI:16189	sulfate
-GO:0015906	sulfathiazole transport	CHEBI:9337	sulfathiazole
-GO:0000316	sulfite transport	CHEBI:17359	sulfite
-GO:0000101	sulfur amino acid transport	CHEBI:26834	sulfur-containing amino acid
-GO:0072348	sulfur compound transport	CHEBI:26835	sulfur molecular entity
-GO:0051031	tRNA transport	CHEBI:17843	transfer RNA
-GO:0015745	tartrate transport	CHEBI:35397	tartrate(1-)
-GO:0015734	taurine transport	CHEBI:15891	taurine
-GO:0015777	teichoic acid transport	CHEBI:30049	teichoic acid
-GO:0015710	tellurite transport	CHEBI:30477	tellurite
-GO:0046865	terpenoid transport	CHEBI:26873	terpenoid
-GO:0015904	tetracycline transport	CHEBI:27902	tetracycline
-GO:2001098	tetrasaccharide transport	CHEBI:50126	tetrasaccharide
-GO:0046866	tetraterpenoid transport	CHEBI:26935	tetraterpenoid
-GO:0030974	thiamine pyrophosphate transport	CHEBI:45931	thiamine(1+) diphosphate(1-)
-GO:0015888	thiamine transport	CHEBI:18385	thiamine(1+)
-GO:1901337	thioester transport	CHEBI:51277	thioester
-GO:0015709	thiosulfate transport	CHEBI:16094	thiosulfate(2-)
-GO:0015826	threonine transport	CHEBI:32832	threoninate
-GO:0071717	thromboxane transport	CHEBI:62945	thromboxane anion
-GO:0035364	thymine transport	CHEBI:17821	thymine
-GO:0033572	transferrin transport	PR:000001887	melanotransferrin
-GO:0000041	transition metal ion transport	CHEBI:33515	transition element cation
-GO:0015771	trehalose transport	CHEBI:27082	trehalose
-GO:1901504	triazole transport	CHEBI:38597	triazole
-GO:0006842	tricarboxylic acid transport	CHEBI:35753	tricarboxylic acid anion
-GO:0034197	triglyceride transport	CHEBI:17855	triglyceride
-GO:0015717	triose phosphate transport	CHEBI:35142	aldotriose phosphate
-GO:0042939	tripeptide transport	CHEBI:47923	tripeptide
-GO:2001088	trisaccharide transport	CHEBI:27150	trisaccharide
-GO:0072512	trivalent inorganic cation transport	CHEBI:64712	trivalent inorganic cation
-GO:0015827	tryptophan transport	CHEBI:27897	tryptophan
-GO:0070614	tungstate ion transport	CHEBI:46502	tungstate
-GO:0015828	tyrosine transport	CHEBI:18186	tyrosine
-GO:0015857	uracil transport	CHEBI:17568	uracil
-GO:0015747	urate transport	CHEBI:30848	urate(1-)
-GO:0015840	urea transport	CHEBI:16199	urea
-GO:0015862	uridine transport	CHEBI:16704	uridine
-GO:0015735	uronic acid transport	CHEBI:33549	uronate
-GO:0015829	valine transport	CHEBI:32859	valinate
-GO:0015676	vanadium ion transport	CHEBI:35172	vanadium cation
-GO:0071938	vitamin A transport	CHEBI:12777	vitamin A
-GO:0031919	vitamin B6 transport	CHEBI:27306	vitamin B6
-GO:0042906	xanthine transport	CHEBI:15318	xanthine
-GO:0015863	xanthosine transport	CHEBI:18107	xanthosine
-GO:1902341	xylitol transport	CHEBI:17151	xylitol
-GO:2001094	xylotriose transport	CHEBI:62783	beta-D-Xylp-(1->4)-beta-D-Xylp-(1->4)-D-Xylp
-GO:0006829	zinc II ion transport	CHEBI:29105	zinc(2+)
+defined_class	defined_class_label	chemical	chemical_label
+http://purl.obolibrary.org/obo/GO_1900749	(R)-carnitine transport	http://purl.obolibrary.org/obo/CHEBI_16347	(R)-carnitine
+http://purl.obolibrary.org/obo/GO_0033223	2-aminoethylphosphonate transport	http://purl.obolibrary.org/obo/CHEBI_15573	(2-aminoethyl)phosphonic acid
+http://purl.obolibrary.org/obo/GO_0046963	3'-phosphoadenosine 5'-phosphosulfate transport	http://purl.obolibrary.org/obo/CHEBI_17980	3'-phospho-5'-adenylyl sulfate
+http://purl.obolibrary.org/obo/GO_0015731	3-hydroxyphenyl propanoate transport	http://purl.obolibrary.org/obo/CHEBI_65228	3-hydroxyphenyl propanoate
+http://purl.obolibrary.org/obo/GO_0042920	3-hydroxyphenylpropionic acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16104	3-(2-hydroxyphenyl)propanoic acid
+http://purl.obolibrary.org/obo/GO_0042889	3-phenylpropionic acid transport	http://purl.obolibrary.org/obo/CHEBI_51057	3-phenylpropionate
+http://purl.obolibrary.org/obo/GO_1900751	4-(trimethylammonio)butanoate transport	http://purl.obolibrary.org/obo/CHEBI_16244	4-(trimethylammonio)butanoate
+http://purl.obolibrary.org/obo/GO_1900754	4-hydroxyphenylacetate transport	http://purl.obolibrary.org/obo/CHEBI_48999	4-hydroxyphenylacetate
+http://purl.obolibrary.org/obo/GO_0015885	5-formyltetrahydrofolate transport	http://purl.obolibrary.org/obo/CHEBI_15640	5-formyltetrahydrofolic acid
+http://purl.obolibrary.org/obo/GO_0015866	ADP transport	http://purl.obolibrary.org/obo/CHEBI_16761	ADP
+http://purl.obolibrary.org/obo/GO_0080121	AMP transport	http://purl.obolibrary.org/obo/CHEBI_16027	adenosine 5'-monophosphate
+http://purl.obolibrary.org/obo/GO_0015867	ATP transport	http://purl.obolibrary.org/obo/CHEBI_15422	ATP
+http://purl.obolibrary.org/obo/GO_0015740	C4-dicarboxylate transport	http://purl.obolibrary.org/obo/CHEBI_61336	C4-dicarboxylate
+http://purl.obolibrary.org/obo/GO_0042941	D-alanine transport	http://purl.obolibrary.org/obo/CHEBI_32435	D-alaninate
+http://purl.obolibrary.org/obo/GO_0042940	D-amino acid transport	http://purl.obolibrary.org/obo/CHEBI_60895	D-alpha-amino acid anion
+http://purl.obolibrary.org/obo/GO_0070777	D-aspartate transport	http://purl.obolibrary.org/obo/CHEBI_29994	D-aspartate(2-)
+http://purl.obolibrary.org/obo/GO_0048473	D-methionine transport	http://purl.obolibrary.org/obo/CHEBI_32637	D-methioninate
+http://purl.obolibrary.org/obo/GO_0042942	D-serine transport	http://purl.obolibrary.org/obo/CHEBI_16523	D-serine
+http://purl.obolibrary.org/obo/GO_0051027	DNA transport	http://purl.obolibrary.org/obo/CHEBI_16991	deoxyribonucleic acid
+http://purl.obolibrary.org/obo/GO_0015883	FAD transport	http://purl.obolibrary.org/obo/CHEBI_16238	FAD
+http://purl.obolibrary.org/obo/GO_0015808	L-alanine transport	http://purl.obolibrary.org/obo/CHEBI_32431	L-alaninate
+http://purl.obolibrary.org/obo/GO_0015807	L-amino acid transport	http://purl.obolibrary.org/obo/CHEBI_59814	L-alpha-amino acid anion
+http://purl.obolibrary.org/obo/GO_1902023	L-arginine transport	http://purl.obolibrary.org/obo/CHEBI_16467	L-arginine
+http://purl.obolibrary.org/obo/GO_0015811	L-cystine transport	http://purl.obolibrary.org/obo/CHEBI_16283	L-cystine
+http://purl.obolibrary.org/obo/GO_1902022	L-lysine transport	http://purl.obolibrary.org/obo/CHEBI_18019	L-lysine
+http://purl.obolibrary.org/obo/GO_0015825	L-serine transport	http://purl.obolibrary.org/obo/CHEBI_32836	L-serinate
+http://purl.obolibrary.org/obo/GO_0015763	N-acetylgalactosamine transport	http://purl.obolibrary.org/obo/CHEBI_28800	N-acetylgalactosamine
+http://purl.obolibrary.org/obo/GO_0015764	N-acetylglucosamine transport	http://purl.obolibrary.org/obo/CHEBI_59640	N-acetylglucosamine
+http://purl.obolibrary.org/obo/GO_2001143	N-methylnicotinate transport	http://purl.obolibrary.org/obo/CHEBI_18123	N-methylnicotinate
+http://purl.obolibrary.org/obo/GO_0043132	NAD transport	http://purl.obolibrary.org/obo/CHEBI_13389	NAD
+http://purl.obolibrary.org/obo/GO_0050658	RNA transport	http://purl.obolibrary.org/obo/CHEBI_33697	ribonucleic acid
+http://purl.obolibrary.org/obo/GO_0015805	S-adenosyl-L-methionine transport	http://purl.obolibrary.org/obo/CHEBI_15414	S-adenosyl-L-methionine
+http://purl.obolibrary.org/obo/GO_0015806	S-methylmethionine transport	http://purl.obolibrary.org/obo/CHEBI_17728	S-methyl-L-methionine
+http://purl.obolibrary.org/obo/GO_0080168	abscisic acid transport	http://purl.obolibrary.org/obo/CHEBI_62071	2-cis-abscisate
+http://purl.obolibrary.org/obo/GO_1901374	acetate ester transport	http://purl.obolibrary.org/obo/CHEBI_47622	acetate ester
+http://purl.obolibrary.org/obo/GO_0006846	acetate transport	http://purl.obolibrary.org/obo/CHEBI_30089	acetate
+http://purl.obolibrary.org/obo/GO_0015876	acetyl-CoA transport	http://purl.obolibrary.org/obo/CHEBI_15351	acetyl-CoA
+http://purl.obolibrary.org/obo/GO_0015870	acetylcholine transport	http://purl.obolibrary.org/obo/CHEBI_15355	acetylcholine
+http://purl.obolibrary.org/obo/GO_0042935	achromobactin transport	http://purl.obolibrary.org/obo/CHEBI_61346	achromobactin
+http://purl.obolibrary.org/obo/GO_0042909	acridine transport	http://purl.obolibrary.org/obo/CHEBI_36420	acridine
+http://purl.obolibrary.org/obo/GO_0015894	acriflavine transport	http://purl.obolibrary.org/obo/CHEBI_383703	3,6-diamino-10-methylacridinium chloride
+http://purl.obolibrary.org/obo/GO_0006844	acyl carnitine transport	http://purl.obolibrary.org/obo/CHEBI_17387	O-acylcarnitine
+http://purl.obolibrary.org/obo/GO_0034196	acylglycerol transport	http://purl.obolibrary.org/obo/CHEBI_47778	glyceride
+http://purl.obolibrary.org/obo/GO_0051503	adenine nucleotide transport	http://purl.obolibrary.org/obo/CHEBI_61293	adenyl nucleotide
+http://purl.obolibrary.org/obo/GO_0015853	adenine transport	http://purl.obolibrary.org/obo/CHEBI_16708	adenine
+http://purl.obolibrary.org/obo/GO_0032238	adenosine transport	http://purl.obolibrary.org/obo/CHEBI_16335	adenosine
+http://purl.obolibrary.org/obo/GO_0019271	aerobactin transport	http://purl.obolibrary.org/obo/CHEBI_18157	aerobactin
+http://purl.obolibrary.org/obo/GO_0032328	alanine transport	http://purl.obolibrary.org/obo/CHEBI_32439	alaninate
+http://purl.obolibrary.org/obo/GO_0015895	alkane transport	http://purl.obolibrary.org/obo/CHEBI_18310	alkane
+http://purl.obolibrary.org/obo/GO_0042918	alkanesulfonate transport	http://purl.obolibrary.org/obo/CHEBI_134249	alkanesulfonate oxoanion
+http://purl.obolibrary.org/obo/GO_0042916	alkylphosphonate transport	http://purl.obolibrary.org/obo/CHEBI_60983	alkylphosphonate
+http://purl.obolibrary.org/obo/GO_0015719	allantoate transport	http://purl.obolibrary.org/obo/CHEBI_17536	allantoate
+http://purl.obolibrary.org/obo/GO_0015720	allantoin transport	http://purl.obolibrary.org/obo/CHEBI_15676	allantoin
+http://purl.obolibrary.org/obo/GO_0000017	alpha-glucoside transport	http://purl.obolibrary.org/obo/CHEBI_60979	alpha-glucoside
+http://purl.obolibrary.org/obo/GO_0015742	alpha-ketoglutarate transport	http://purl.obolibrary.org/obo/CHEBI_16810	2-oxoglutarate(2-)
+http://purl.obolibrary.org/obo/GO_0015690	aluminum cation transport	http://purl.obolibrary.org/obo/CHEBI_63062	aluminium cation
+http://purl.obolibrary.org/obo/GO_0042886	amide transport	http://purl.obolibrary.org/obo/CHEBI_32988	amide
+http://purl.obolibrary.org/obo/GO_0015898	amiloride transport	http://purl.obolibrary.org/obo/CHEBI_2639	amiloride
+http://purl.obolibrary.org/obo/GO_0015837	amine transport	http://purl.obolibrary.org/obo/CHEBI_32952	amine
+http://purl.obolibrary.org/obo/GO_0006865	amino acid transport	http://purl.obolibrary.org/obo/CHEBI_33709	amino acid
+http://purl.obolibrary.org/obo/GO_0015838	amino-acid betaine transport	http://purl.obolibrary.org/obo/CHEBI_22860	amino-acid betaine
+http://purl.obolibrary.org/obo/GO_0015917	aminophospholipid transport	http://purl.obolibrary.org/obo/CHEBI_60971	aminophospholipid
+http://purl.obolibrary.org/obo/GO_0015899	aminotriazole transport	http://purl.obolibrary.org/obo/CHEBI_40036	amitrole
+http://purl.obolibrary.org/obo/GO_0015696	ammonium transport	http://purl.obolibrary.org/obo/CHEBI_28938	ammonium
+http://purl.obolibrary.org/obo/GO_0006820	anion transport	http://purl.obolibrary.org/obo/CHEBI_22563	anion
+http://purl.obolibrary.org/obo/GO_0015699	antimonite transport	http://purl.obolibrary.org/obo/CHEBI_30297	antimonite
+http://purl.obolibrary.org/obo/GO_2001092	arabinotriose transport	http://purl.obolibrary.org/obo/CHEBI_62781	alpha-L-Araf-(1->5)-alpha-L-Araf-(1->5)-L-Araf
+http://purl.obolibrary.org/obo/GO_1903963	arachidonate transport	http://purl.obolibrary.org/obo/CHEBI_32395	arachidonate
+http://purl.obolibrary.org/obo/GO_0042949	arbutin transport	http://purl.obolibrary.org/obo/CHEBI_18305	hydroquinone O-beta-D-glucopyranoside
+http://purl.obolibrary.org/obo/GO_0015801	aromatic amino acid transport	http://purl.obolibrary.org/obo/CHEBI_33856	aromatic amino acid
+http://purl.obolibrary.org/obo/GO_0015700	arsenite transport	http://purl.obolibrary.org/obo/CHEBI_22633	arsenite ion
+http://purl.obolibrary.org/obo/GO_0006867	asparagine transport	http://purl.obolibrary.org/obo/CHEBI_32660	asparaginate
+http://purl.obolibrary.org/obo/GO_0060918	auxin transport	http://purl.obolibrary.org/obo/GOCHE_22676	substance with auxin role
+http://purl.obolibrary.org/obo/GO_0043213	bacteriocin transport	http://purl.obolibrary.org/obo/CHEBI_48081	bacteriocin
+http://purl.obolibrary.org/obo/GO_0015900	benomyl transport	http://purl.obolibrary.org/obo/CHEBI_3015	benomyl
+http://purl.obolibrary.org/obo/GO_0042919	benzoate transport	http://purl.obolibrary.org/obo/CHEBI_16150	benzoate
+http://purl.obolibrary.org/obo/GO_0001762	beta-alanine transport	http://purl.obolibrary.org/obo/CHEBI_16958	beta-alanine
+http://purl.obolibrary.org/obo/GO_0015775	beta-glucan transport	http://purl.obolibrary.org/obo/CHEBI_28793	beta-D-glucan
+http://purl.obolibrary.org/obo/GO_0015759	beta-glucoside transport	http://purl.obolibrary.org/obo/CHEBI_60980	beta-glucoside
+http://purl.obolibrary.org/obo/GO_0015701	bicarbonate transport	http://purl.obolibrary.org/obo/CHEBI_17544	hydrogencarbonate
+http://purl.obolibrary.org/obo/GO_0015721	bile acid and bile salt transport	http://purl.obolibrary.org/obo/CHEBI_3098	bile acid
+http://purl.obolibrary.org/obo/GO_0015723	bilirubin transport	http://purl.obolibrary.org/obo/CHEBI_57977	bilirubin(2-)
+http://purl.obolibrary.org/obo/GO_0015877	biopterin transport	http://purl.obolibrary.org/obo/CHEBI_15373	biopterin
+http://purl.obolibrary.org/obo/GO_0015878	biotin transport	http://purl.obolibrary.org/obo/CHEBI_57586	biotinate
+http://purl.obolibrary.org/obo/GO_0046713	borate transport	http://purl.obolibrary.org/obo/CHEBI_22908	borate
+http://purl.obolibrary.org/obo/GO_0015803	branched-chain amino acid transport	http://purl.obolibrary.org/obo/CHEBI_22918	branched-chain amino acid
+http://purl.obolibrary.org/obo/GO_0070730	cAMP transport	http://purl.obolibrary.org/obo/CHEBI_17489	3',5'-cyclic AMP
+http://purl.obolibrary.org/obo/GO_0070731	cGMP transport	http://purl.obolibrary.org/obo/CHEBI_16356	3',5'-cyclic GMP
+http://purl.obolibrary.org/obo/GO_0015839	cadaverine transport	http://purl.obolibrary.org/obo/CHEBI_18127	cadaverine
+http://purl.obolibrary.org/obo/GO_0015691	cadmium ion transport	http://purl.obolibrary.org/obo/CHEBI_48775	cadmium(2+)
+http://purl.obolibrary.org/obo/GO_0006816	calcium ion transport	http://purl.obolibrary.org/obo/CHEBI_29108	calcium(2+)
+http://purl.obolibrary.org/obo/GO_1901264	carbohydrate derivative transport	http://purl.obolibrary.org/obo/CHEBI_63299	carbohydrate derivative
+http://purl.obolibrary.org/obo/GO_0008643	carbohydrate transport	http://purl.obolibrary.org/obo/CHEBI_16646	carbohydrate
+http://purl.obolibrary.org/obo/GO_0015670	carbon dioxide transport	http://purl.obolibrary.org/obo/CHEBI_16526	carbon dioxide
+http://purl.obolibrary.org/obo/GO_0015902	carbonyl cyanide m-chlorophenylhydrazone transport	http://purl.obolibrary.org/obo/CHEBI_3259	CCCP
+http://purl.obolibrary.org/obo/GO_0046942	carboxylic acid transport	http://purl.obolibrary.org/obo/CHEBI_29067	carboxylic acid anion
+http://purl.obolibrary.org/obo/GO_0015879	carnitine transport	http://purl.obolibrary.org/obo/CHEBI_17126	carnitine
+http://purl.obolibrary.org/obo/GO_0046867	carotenoid transport	http://purl.obolibrary.org/obo/CHEBI_23044	carotenoid
+http://purl.obolibrary.org/obo/GO_0051937	catecholamine transport	http://purl.obolibrary.org/obo/CHEBI_33567	catecholamine
+http://purl.obolibrary.org/obo/GO_0006812	cation transport	http://purl.obolibrary.org/obo/CHEBI_36916	cation
+http://purl.obolibrary.org/obo/GO_0019533	cellobiose transport	http://purl.obolibrary.org/obo/CHEBI_17057	cellobiose
+http://purl.obolibrary.org/obo/GO_2001096	cellotriose transport	http://purl.obolibrary.org/obo/CHEBI_3528	cellotriose
+http://purl.obolibrary.org/obo/GO_1902389	ceramide 1-phosphate transport	http://purl.obolibrary.org/obo/CHEBI_16197	N-acylsphingosine 1-phosphate
+http://purl.obolibrary.org/obo/GO_0035627	ceramide transport	http://purl.obolibrary.org/obo/CHEBI_17761	ceramide
+http://purl.obolibrary.org/obo/GO_0015702	chlorate transport	http://purl.obolibrary.org/obo/CHEBI_49709	chlorate
+http://purl.obolibrary.org/obo/GO_0006821	chloride transport	http://purl.obolibrary.org/obo/CHEBI_17996	chloride
+http://purl.obolibrary.org/obo/GO_0030301	cholesterol transport	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol
+http://purl.obolibrary.org/obo/GO_0015871	choline transport	http://purl.obolibrary.org/obo/CHEBI_15354	choline
+http://purl.obolibrary.org/obo/GO_0015703	chromate transport	http://purl.obolibrary.org/obo/CHEBI_35404	chromate(2-)
+http://purl.obolibrary.org/obo/GO_0042932	chrysobactin transport	http://purl.obolibrary.org/obo/CHEBI_61345	chrysobactin
+http://purl.obolibrary.org/obo/GO_0015746	citrate transport	http://purl.obolibrary.org/obo/CHEBI_16947	citrate(3-)
+http://purl.obolibrary.org/obo/GO_0015889	cobalamin transport	http://purl.obolibrary.org/obo/CHEBI_30411	cobalamin
+http://purl.obolibrary.org/obo/GO_0006824	cobalt ion transport	http://purl.obolibrary.org/obo/CHEBI_23336	cobalt cation
+http://purl.obolibrary.org/obo/GO_0015880	coenzyme A transport	http://purl.obolibrary.org/obo/CHEBI_15346	coenzyme A
+http://purl.obolibrary.org/obo/GO_0006825	copper ion transport	http://purl.obolibrary.org/obo/CHEBI_23378	copper cation
+http://purl.obolibrary.org/obo/GO_0080051	cutin transport	http://purl.obolibrary.org/obo/CHEBI_23417	cutins
+http://purl.obolibrary.org/obo/GO_0015704	cyanate transport	http://purl.obolibrary.org/obo/CHEBI_29195	cyanate
+http://purl.obolibrary.org/obo/GO_0070729	cyclic nucleotide transport	http://purl.obolibrary.org/obo/CHEBI_23447	cyclic nucleotide
+http://purl.obolibrary.org/obo/GO_0015901	cycloheximide transport	http://purl.obolibrary.org/obo/CHEBI_27641	cycloheximide
+http://purl.obolibrary.org/obo/GO_0042883	cysteine transport	http://purl.obolibrary.org/obo/CHEBI_15356	cysteine
+http://purl.obolibrary.org/obo/GO_0015861	cytidine transport	http://purl.obolibrary.org/obo/CHEBI_17562	cytidine
+http://purl.obolibrary.org/obo/GO_0010184	cytokinin transport	http://purl.obolibrary.org/obo/GOCHE_23530	substance with cytokinin role
+http://purl.obolibrary.org/obo/GO_0015856	cytosine transport	http://purl.obolibrary.org/obo/CHEBI_16040	cytosine
+http://purl.obolibrary.org/obo/GO_0043215	daunorubicin transport	http://purl.obolibrary.org/obo/CHEBI_41977	daunorubicin
+http://purl.obolibrary.org/obo/GO_0070837	dehydroascorbic acid transport	http://purl.obolibrary.org/obo/CHEBI_58070	dehydroascorbide(1-)
+http://purl.obolibrary.org/obo/GO_0030302	deoxynucleotide transport	http://purl.obolibrary.org/obo/CHEBI_4431	deoxyribonucleotide
+http://purl.obolibrary.org/obo/GO_0042955	dextrin transport	http://purl.obolibrary.org/obo/CHEBI_28675	dextrin
+http://purl.obolibrary.org/obo/GO_0015830	diaminopimelate transport	http://purl.obolibrary.org/obo/CHEBI_23673	2,6-diaminopimelic acid
+http://purl.obolibrary.org/obo/GO_0006835	dicarboxylic acid transport	http://purl.obolibrary.org/obo/CHEBI_35693	dicarboxylic acid anion
+http://purl.obolibrary.org/obo/GO_0042938	dipeptide transport	http://purl.obolibrary.org/obo/CHEBI_46761	dipeptide
+http://purl.obolibrary.org/obo/GO_0015766	disaccharide transport	http://purl.obolibrary.org/obo/CHEBI_36233	disaccharide
+http://purl.obolibrary.org/obo/GO_0072511	divalent inorganic cation transport	http://purl.obolibrary.org/obo/CHEBI_64641	divalent inorganic cation
+http://purl.obolibrary.org/obo/GO_0070838	divalent metal ion transport	http://purl.obolibrary.org/obo/CHEBI_60240	divalent metal cation
+http://purl.obolibrary.org/obo/GO_0015872	dopamine transport	http://purl.obolibrary.org/obo/CHEBI_18243	dopamine
+http://purl.obolibrary.org/obo/GO_1900753	doxorubicin transport	http://purl.obolibrary.org/obo/CHEBI_28748	doxorubicin
+http://purl.obolibrary.org/obo/GO_0015893	drug transport	http://purl.obolibrary.org/obo/GOCHE_23888	substance with drug role
+http://purl.obolibrary.org/obo/GO_0033227	dsRNA transport	http://purl.obolibrary.org/obo/CHEBI_67208	double-stranded RNA
+http://purl.obolibrary.org/obo/GO_0051470	ectoine transport	http://purl.obolibrary.org/obo/CHEBI_27592	ectoine
+http://purl.obolibrary.org/obo/GO_0042930	enterobactin transport	http://purl.obolibrary.org/obo/CHEBI_28855	enterobactin
+http://purl.obolibrary.org/obo/GO_0048241	epinephrine transport	http://purl.obolibrary.org/obo/CHEBI_33568	adrenaline
+http://purl.obolibrary.org/obo/GO_0034229	ethanolamine transport	http://purl.obolibrary.org/obo/CHEBI_16000	ethanolamine
+http://purl.obolibrary.org/obo/GO_1901571	fatty acid derivative transport	http://purl.obolibrary.org/obo/CHEBI_61697	fatty acid derivative
+http://purl.obolibrary.org/obo/GO_0015908	fatty acid transport	http://purl.obolibrary.org/obo/CHEBI_35366	fatty acid
+http://purl.obolibrary.org/obo/GO_0015915	fatty-acyl group transport	http://purl.obolibrary.org/obo/CHEBI_24027	fatty-acyl group
+http://purl.obolibrary.org/obo/GO_0015916	fatty-acyl-CoA transport	http://purl.obolibrary.org/obo/CHEBI_17984	acyl-CoA
+http://purl.obolibrary.org/obo/GO_0015903	fluconazole transport	http://purl.obolibrary.org/obo/CHEBI_46081	fluconazole
+http://purl.obolibrary.org/obo/GO_0015884	folic acid transport	http://purl.obolibrary.org/obo/CHEBI_27470	folic acid
+http://purl.obolibrary.org/obo/GO_0015724	formate transport	http://purl.obolibrary.org/obo/CHEBI_15740	formate
+http://purl.obolibrary.org/obo/GO_0042894	fosmidomycin transport	http://purl.obolibrary.org/obo/CHEBI_443725	fosmidomycin
+http://purl.obolibrary.org/obo/GO_0015741	fumarate transport	http://purl.obolibrary.org/obo/CHEBI_29806	fumarate(2-)
+http://purl.obolibrary.org/obo/GO_0015796	galactitol transport	http://purl.obolibrary.org/obo/CHEBI_16813	galactitol
+http://purl.obolibrary.org/obo/GO_2001093	galactotriose transport	http://purl.obolibrary.org/obo/CHEBI_60187	alpha-D-Gal-(1->3)-beta-D-Gal-(1->4)-D-Gal
+http://purl.obolibrary.org/obo/GO_0015812	gamma-aminobutyric acid transport	http://purl.obolibrary.org/obo/CHEBI_30566	gamma-aminobutyrate
+http://purl.obolibrary.org/obo/GO_0015760	glucose-6-phosphate transport	http://purl.obolibrary.org/obo/CHEBI_14314	D-glucose 6-phosphate
+http://purl.obolibrary.org/obo/GO_0042946	glucoside transport	http://purl.obolibrary.org/obo/CHEBI_24278	glucoside
+http://purl.obolibrary.org/obo/GO_1901349	glucosinolate transport	http://purl.obolibrary.org/obo/CHEBI_24279	glucosinolate
+http://purl.obolibrary.org/obo/GO_0051475	glucosylglycerol transport	http://purl.obolibrary.org/obo/CHEBI_24287	glucosylglycerol
+http://purl.obolibrary.org/obo/GO_0015779	glucuronoside transport	http://purl.obolibrary.org/obo/CHEBI_24302	glucosiduronic acid
+http://purl.obolibrary.org/obo/GO_0006868	glutamine transport	http://purl.obolibrary.org/obo/CHEBI_32678	glutaminate
+http://purl.obolibrary.org/obo/GO_0034635	glutathione transport	http://purl.obolibrary.org/obo/CHEBI_16856	glutathione
+http://purl.obolibrary.org/obo/GO_0015793	glycerol transport	http://purl.obolibrary.org/obo/CHEBI_17754	glycerol
+http://purl.obolibrary.org/obo/GO_0031460	glycine betaine transport	http://purl.obolibrary.org/obo/CHEBI_17750	glycine betaine
+http://purl.obolibrary.org/obo/GO_0015816	glycine transport	http://purl.obolibrary.org/obo/CHEBI_15428	glycine
+http://purl.obolibrary.org/obo/GO_1900866	glycolate transport	http://purl.obolibrary.org/obo/CHEBI_29805	glycolate
+http://purl.obolibrary.org/obo/GO_0046836	glycolipid transport	http://purl.obolibrary.org/obo/CHEBI_33563	glycolipid
+http://purl.obolibrary.org/obo/GO_0034436	glycoprotein transport	http://purl.obolibrary.org/obo/CHEBI_17089	glycoprotein
+http://purl.obolibrary.org/obo/GO_1901656	glycoside transport	http://purl.obolibrary.org/obo/CHEBI_24400	glycoside
+http://purl.obolibrary.org/obo/GO_0001408	guanine nucleotide transport	http://purl.obolibrary.org/obo/CHEBI_61292	guanyl nucleotide
+http://purl.obolibrary.org/obo/GO_0015854	guanine transport	http://purl.obolibrary.org/obo/CHEBI_16235	guanine
+http://purl.obolibrary.org/obo/GO_0015886	heme transport	http://purl.obolibrary.org/obo/CHEBI_30413	heme
+http://purl.obolibrary.org/obo/GO_2001104	heptasaccharide transport	http://purl.obolibrary.org/obo/CHEBI_53463	heptasaccharide
+http://purl.obolibrary.org/obo/GO_2001102	hexasaccharide transport	http://purl.obolibrary.org/obo/CHEBI_35368	hexasaccharide
+http://purl.obolibrary.org/obo/GO_0015712	hexose phosphate transport	http://purl.obolibrary.org/obo/CHEBI_47878	hexose phosphate
+http://purl.obolibrary.org/obo/GO_0051608	histamine transport	http://purl.obolibrary.org/obo/CHEBI_18295	histamine
+http://purl.obolibrary.org/obo/GO_0042968	homoserine transport	http://purl.obolibrary.org/obo/CHEBI_62980	homoserinate
+http://purl.obolibrary.org/obo/GO_1904952	hydroxycinnamic acid transport	http://purl.obolibrary.org/obo/CHEBI_24689	hydroxycinnamic acid
+http://purl.obolibrary.org/obo/GO_0033308	hydroxyectoine transport	http://purl.obolibrary.org/obo/CHEBI_49432	5-hydroxyectoine
+http://purl.obolibrary.org/obo/GO_0034589	hydroxyproline transport	http://purl.obolibrary.org/obo/CHEBI_20392	4-hydroxyproline
+http://purl.obolibrary.org/obo/GO_0035344	hypoxanthine transport	http://purl.obolibrary.org/obo/CHEBI_17368	hypoxanthine
+http://purl.obolibrary.org/obo/GO_0071715	icosanoid transport	http://purl.obolibrary.org/obo/CHEBI_62937	icosanoid anion
+http://purl.obolibrary.org/obo/GO_0015698	inorganic anion transport	http://purl.obolibrary.org/obo/CHEBI_24834	inorganic anion
+http://purl.obolibrary.org/obo/GO_0030505	inorganic diphosphate transport	http://purl.obolibrary.org/obo/CHEBI_35782	diphosphate ion
+http://purl.obolibrary.org/obo/GO_0035340	inosine transport	http://purl.obolibrary.org/obo/CHEBI_17596	inosine
+http://purl.obolibrary.org/obo/GO_0015705	iodide transport	http://purl.obolibrary.org/obo/CHEBI_16382	iodide
+http://purl.obolibrary.org/obo/GO_0006811	ion transport	http://purl.obolibrary.org/obo/CHEBI_24870	ion
+http://purl.obolibrary.org/obo/GO_1901678	iron coordination entity transport	http://purl.obolibrary.org/obo/CHEBI_33892	iron coordination entity
+http://purl.obolibrary.org/obo/GO_0006826	iron ion transport	http://purl.obolibrary.org/obo/CHEBI_24875	iron cation
+http://purl.obolibrary.org/obo/GO_0015818	isoleucine transport	http://purl.obolibrary.org/obo/CHEBI_24898	isoleucine
+http://purl.obolibrary.org/obo/GO_0046864	isoprenoid transport	http://purl.obolibrary.org/obo/CHEBI_24913	isoprenoid
+http://purl.obolibrary.org/obo/GO_0034659	isopropylmalate transport	http://purl.obolibrary.org/obo/CHEBI_28107	2-isopropylmalate(2-)
+http://purl.obolibrary.org/obo/GO_0015727	lactate transport	http://purl.obolibrary.org/obo/CHEBI_24996	lactate
+http://purl.obolibrary.org/obo/GO_0033571	lactoferrin transport	http://purl.obolibrary.org/obo/PR_000009978	lactotransferrin
+http://purl.obolibrary.org/obo/GO_0042969	lactone transport	http://purl.obolibrary.org/obo/CHEBI_25000	lactone
+http://purl.obolibrary.org/obo/GO_0015767	lactose transport	http://purl.obolibrary.org/obo/CHEBI_17716	lactose
+http://purl.obolibrary.org/obo/GO_2001086	laminarabiose transport	http://purl.obolibrary.org/obo/CHEBI_18411	laminarabiose
+http://purl.obolibrary.org/obo/GO_2001097	laminaritriose transport	http://purl.obolibrary.org/obo/CHEBI_55514	laminaritriose
+http://purl.obolibrary.org/obo/GO_0015692	lead ion transport	http://purl.obolibrary.org/obo/CHEBI_60252	lead cation
+http://purl.obolibrary.org/obo/GO_0015820	leucine transport	http://purl.obolibrary.org/obo/CHEBI_32627	leucinate
+http://purl.obolibrary.org/obo/GO_0071716	leukotriene transport	http://purl.obolibrary.org/obo/CHEBI_62942	leukotriene anion
+http://purl.obolibrary.org/obo/GO_1901373	lipid hydroperoxide transport	http://purl.obolibrary.org/obo/CHEBI_61051	lipid hydroperoxide
+http://purl.obolibrary.org/obo/GO_0006869	lipid transport	http://purl.obolibrary.org/obo/CHEBI_18059	lipid
+http://purl.obolibrary.org/obo/GO_0015836	lipid-linked peptidoglycan transport	http://purl.obolibrary.org/obo/CHEBI_61082	lipid-linked peptidoglycan
+http://purl.obolibrary.org/obo/GO_0015920	lipopolysaccharide transport	http://purl.obolibrary.org/obo/CHEBI_16412	lipopolysaccharide
+http://purl.obolibrary.org/obo/GO_0042953	lipoprotein transport	http://purl.obolibrary.org/obo/CHEBI_6495	lipoprotein
+http://purl.obolibrary.org/obo/GO_0010351	lithium ion transport	http://purl.obolibrary.org/obo/CHEBI_49713	lithium(1+)
+http://purl.obolibrary.org/obo/GO_0015909	long-chain fatty acid transport	http://purl.obolibrary.org/obo/CHEBI_15904	long-chain fatty acid
+http://purl.obolibrary.org/obo/GO_0051977	lysophospholipid transport	http://purl.obolibrary.org/obo/CHEBI_16961	monoacylglycerol phosphate
+http://purl.obolibrary.org/obo/GO_0051028	mRNA transport	http://purl.obolibrary.org/obo/CHEBI_33699	messenger RNA
+http://purl.obolibrary.org/obo/GO_0015693	magnesium ion transport	http://purl.obolibrary.org/obo/CHEBI_39127	magnesium cation
+http://purl.obolibrary.org/obo/GO_0015743	malate transport	http://purl.obolibrary.org/obo/CHEBI_15595	malate(2-)
+http://purl.obolibrary.org/obo/GO_1900752	malonic acid transport	http://purl.obolibrary.org/obo/CHEBI_30794	malonic acid
+http://purl.obolibrary.org/obo/GO_0042956	maltodextrin transport	http://purl.obolibrary.org/obo/CHEBI_25140	maltodextrin
+http://purl.obolibrary.org/obo/GO_2001105	maltoheptaose transport	http://purl.obolibrary.org/obo/CHEBI_62010	maltoheptaose
+http://purl.obolibrary.org/obo/GO_2001103	maltohexaose transport	http://purl.obolibrary.org/obo/CHEBI_27445	maltohexaose
+http://purl.obolibrary.org/obo/GO_2001101	maltopentaose transport	http://purl.obolibrary.org/obo/CHEBI_62006	maltopentaose
+http://purl.obolibrary.org/obo/GO_0015768	maltose transport	http://purl.obolibrary.org/obo/CHEBI_17306	maltose
+http://purl.obolibrary.org/obo/GO_2001099	maltotetraose transport	http://purl.obolibrary.org/obo/CHEBI_28460	maltotetraose
+http://purl.obolibrary.org/obo/GO_2001089	maltotriose transport	http://purl.obolibrary.org/obo/CHEBI_61993	maltotriose
+http://purl.obolibrary.org/obo/GO_2001090	maltotriulose transport	http://purl.obolibrary.org/obo/CHEBI_62777	maltotriulose
+http://purl.obolibrary.org/obo/GO_0006828	manganese ion transport	http://purl.obolibrary.org/obo/CHEBI_25155	manganese cation
+http://purl.obolibrary.org/obo/GO_0015797	mannitol transport	http://purl.obolibrary.org/obo/CHEBI_29864	mannitol
+http://purl.obolibrary.org/obo/GO_0051476	mannosylglycerate transport	http://purl.obolibrary.org/obo/CHEBI_60940	D-mannosyl-D-glyceric acid
+http://purl.obolibrary.org/obo/GO_2001095	mannotriose transport	http://purl.obolibrary.org/obo/CHEBI_62785	beta-D-Manp-(1->4)-beta-D-Manp-(1->4)-D-Manp
+http://purl.obolibrary.org/obo/GO_0001579	medium-chain fatty acid transport	http://purl.obolibrary.org/obo/CHEBI_59558	medium-chain fatty acid anion
+http://purl.obolibrary.org/obo/GO_0015769	melibiose transport	http://purl.obolibrary.org/obo/CHEBI_28053	melibiose
+http://purl.obolibrary.org/obo/GO_0015694	mercury ion transport	http://purl.obolibrary.org/obo/CHEBI_25197	mercury cation
+http://purl.obolibrary.org/obo/GO_0030001	metal ion transport	http://purl.obolibrary.org/obo/CHEBI_25213	metal cation
+http://purl.obolibrary.org/obo/GO_0015821	methionine transport	http://purl.obolibrary.org/obo/CHEBI_32644	methioninate
+http://purl.obolibrary.org/obo/GO_0051958	methotrexate transport	http://purl.obolibrary.org/obo/CHEBI_50680	methotrexate(1-)
+http://purl.obolibrary.org/obo/GO_0015843	methylammonium transport	http://purl.obolibrary.org/obo/CHEBI_59338	methylammonium
+http://purl.obolibrary.org/obo/GO_0015765	methylgalactoside transport	http://purl.obolibrary.org/obo/CHEBI_60982	methyl galactoside
+http://purl.obolibrary.org/obo/GO_0015728	mevalonate transport	http://purl.obolibrary.org/obo/CHEBI_25350	mevalonate
+http://purl.obolibrary.org/obo/GO_1990428	miRNA transport	http://purl.obolibrary.org/obo/SO_0000276	miRNA
+http://purl.obolibrary.org/obo/GO_0042885	microcin B17 transport	http://purl.obolibrary.org/obo/CHEBI_64624	microcin B17
+http://purl.obolibrary.org/obo/GO_0042884	microcin transport	http://purl.obolibrary.org/obo/CHEBI_64627	microcin
+http://purl.obolibrary.org/obo/GO_1905431	microcystin transport	http://purl.obolibrary.org/obo/CHEBI_48041	microcystin
+http://purl.obolibrary.org/obo/GO_0072337	modified amino acid transport	http://purl.obolibrary.org/obo/CHEBI_83821	amino acid derivative
+http://purl.obolibrary.org/obo/GO_0015689	molybdate ion transport	http://purl.obolibrary.org/obo/CHEBI_36264	molybdate
+http://purl.obolibrary.org/obo/GO_0015844	monoamine transport	http://purl.obolibrary.org/obo/CHEBI_63534	monoamine
+http://purl.obolibrary.org/obo/GO_0015718	monocarboxylic acid transport	http://purl.obolibrary.org/obo/CHEBI_35757	monocarboxylic acid anion
+http://purl.obolibrary.org/obo/GO_0015672	monovalent inorganic cation transport	http://purl.obolibrary.org/obo/CHEBI_60242	monovalent inorganic cation
+http://purl.obolibrary.org/obo/GO_0033272	myo-inositol hexakisphosphate transport	http://purl.obolibrary.org/obo/CHEBI_17401	myo-inositol hexakisphosphate
+http://purl.obolibrary.org/obo/GO_0033271	myo-inositol phosphate transport	http://purl.obolibrary.org/obo/CHEBI_25448	myo-inositol phosphate
+http://purl.obolibrary.org/obo/GO_0015798	myo-inositol transport	http://purl.obolibrary.org/obo/CHEBI_17268	myo-inositol
+http://purl.obolibrary.org/obo/GO_0015896	nalidixic acid transport	http://purl.obolibrary.org/obo/CHEBI_62070	nalidixic acid anion
+http://purl.obolibrary.org/obo/GO_0006836	neurotransmitter transport	http://purl.obolibrary.org/obo/GOCHE_25512	substance with neurotransmitter role
+http://purl.obolibrary.org/obo/GO_0015675	nickel cation transport	http://purl.obolibrary.org/obo/CHEBI_25516	nickel cation
+http://purl.obolibrary.org/obo/GO_0015890	nicotinamide mononucleotide transport	http://purl.obolibrary.org/obo/CHEBI_50383	nicotinamide mononucleotide
+http://purl.obolibrary.org/obo/GO_0034258	nicotinamide riboside transport	http://purl.obolibrary.org/obo/CHEBI_15927	N-ribosylnicotinamide
+http://purl.obolibrary.org/obo/GO_2001142	nicotinate transport	http://purl.obolibrary.org/obo/CHEBI_32544	nicotinate
+http://purl.obolibrary.org/obo/GO_2001091	nigerotriose transport	http://purl.obolibrary.org/obo/CHEBI_62780	alpha-D-Glcp-(1->3)-alpha-D-Glcp-(1->3)-D-Glcp
+http://purl.obolibrary.org/obo/GO_0015706	nitrate transport	http://purl.obolibrary.org/obo/CHEBI_17632	nitrate
+http://purl.obolibrary.org/obo/GO_0030185	nitric oxide transport	http://purl.obolibrary.org/obo/CHEBI_16480	nitric oxide
+http://purl.obolibrary.org/obo/GO_0015707	nitrite transport	http://purl.obolibrary.org/obo/CHEBI_16301	nitrite
+http://purl.obolibrary.org/obo/GO_0071705	nitrogen compound transport	http://purl.obolibrary.org/obo/CHEBI_51143	nitrogen molecular entity
+http://purl.obolibrary.org/obo/GO_0015874	norepinephrine transport	http://purl.obolibrary.org/obo/CHEBI_33569	noradrenaline
+http://purl.obolibrary.org/obo/GO_0050657	nucleic acid transport	http://purl.obolibrary.org/obo/CHEBI_33696	nucleic acid
+http://purl.obolibrary.org/obo/GO_0015851	nucleobase transport	http://purl.obolibrary.org/obo/CHEBI_18282	nucleobase
+http://purl.obolibrary.org/obo/GO_0015931	nucleobase-containing compound transport	http://purl.obolibrary.org/obo/CHEBI_61120	nucleobase-containing molecular entity
+http://purl.obolibrary.org/obo/GO_0015858	nucleoside transport	http://purl.obolibrary.org/obo/CHEBI_33838	nucleoside
+http://purl.obolibrary.org/obo/GO_0006862	nucleotide transport	http://purl.obolibrary.org/obo/CHEBI_36976	nucleotide
+http://purl.obolibrary.org/obo/GO_0015715	nucleotide-sulfate transport	http://purl.obolibrary.org/obo/CHEBI_64702	nucleotide-sulfate
+http://purl.obolibrary.org/obo/GO_0033156	oligogalacturonide transport	http://purl.obolibrary.org/obo/CHEBI_62533	oligogalacturonide
+http://purl.obolibrary.org/obo/GO_0006857	oligopeptide transport	http://purl.obolibrary.org/obo/CHEBI_25676	oligopeptide
+http://purl.obolibrary.org/obo/GO_0015772	oligosaccharide transport	http://purl.obolibrary.org/obo/CHEBI_50699	oligosaccharide
+http://purl.obolibrary.org/obo/GO_0019755	one-carbon compound transport	http://purl.obolibrary.org/obo/CHEBI_64708	one-carbon compound
+http://purl.obolibrary.org/obo/GO_0015849	organic acid transport	http://purl.obolibrary.org/obo/CHEBI_64709	organic acid
+http://purl.obolibrary.org/obo/GO_0015711	organic anion transport	http://purl.obolibrary.org/obo/CHEBI_25696	organic anion
+http://purl.obolibrary.org/obo/GO_0015695	organic cation transport	http://purl.obolibrary.org/obo/CHEBI_25697	organic cation
+http://purl.obolibrary.org/obo/GO_0015850	organic hydroxy compound transport	http://purl.obolibrary.org/obo/CHEBI_33822	organic hydroxy compound
+http://purl.obolibrary.org/obo/GO_0015716	organic phosphonate transport	http://purl.obolibrary.org/obo/CHEBI_37592	organic phosphonate
+http://purl.obolibrary.org/obo/GO_0071702	organic substance transport	http://purl.obolibrary.org/obo/CHEBI_50860	organic molecular entity
+http://purl.obolibrary.org/obo/GO_0015748	organophosphate ester transport	http://purl.obolibrary.org/obo/CHEBI_25703	organic phosphate
+http://purl.obolibrary.org/obo/GO_0015822	ornithine transport	http://purl.obolibrary.org/obo/CHEBI_32964	ornithinate
+http://purl.obolibrary.org/obo/GO_0019532	oxalate transport	http://purl.obolibrary.org/obo/CHEBI_30623	oxalate(2-)
+http://purl.obolibrary.org/obo/GO_0015729	oxaloacetate transport	http://purl.obolibrary.org/obo/CHEBI_16452	oxaloacetate(2-)
+http://purl.obolibrary.org/obo/GO_0015671	oxygen transport	http://purl.obolibrary.org/obo/CHEBI_15379	dioxygen
+http://purl.obolibrary.org/obo/GO_0015814	p-aminobenzoyl-glutamate transport	http://purl.obolibrary.org/obo/CHEBI_60903	N-(4-aminobenzoyl)-L-glutamate
+http://purl.obolibrary.org/obo/GO_1901140	p-coumaryl alcohol transport	http://purl.obolibrary.org/obo/CHEBI_28386	4-hydroxycinnamyl alcohol
+http://purl.obolibrary.org/obo/GO_2001100	pentasaccharide transport	http://purl.obolibrary.org/obo/CHEBI_35369	pentasaccharide
+http://purl.obolibrary.org/obo/GO_0015833	peptide transport	http://purl.obolibrary.org/obo/CHEBI_16670	peptide
+http://purl.obolibrary.org/obo/GO_0015835	peptidoglycan transport	http://purl.obolibrary.org/obo/CHEBI_8005	peptidoglycan
+http://purl.obolibrary.org/obo/GO_0015823	phenylalanine transport	http://purl.obolibrary.org/obo/CHEBI_32504	phenylalaninate
+http://purl.obolibrary.org/obo/GO_0006817	phosphate ion transport	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion
+http://purl.obolibrary.org/obo/GO_0015714	phosphoenolpyruvate transport	http://purl.obolibrary.org/obo/CHEBI_18021	phosphoenolpyruvate
+http://purl.obolibrary.org/obo/GO_0015914	phospholipid transport	http://purl.obolibrary.org/obo/CHEBI_16247	phospholipid
+http://purl.obolibrary.org/obo/GO_0071993	phytochelatin transport	http://purl.obolibrary.org/obo/CHEBI_60836	phytochelatin
+http://purl.obolibrary.org/obo/GO_0015846	polyamine transport	http://purl.obolibrary.org/obo/CHEBI_51349	polyamine macromolecule
+http://purl.obolibrary.org/obo/GO_0042893	polymyxin transport	http://purl.obolibrary.org/obo/CHEBI_59062	polymyxin
+http://purl.obolibrary.org/obo/GO_0015791	polyol transport	http://purl.obolibrary.org/obo/CHEBI_26191	polyol
+http://purl.obolibrary.org/obo/GO_0015774	polysaccharide transport	http://purl.obolibrary.org/obo/CHEBI_18154	polysaccharide
+http://purl.obolibrary.org/obo/GO_0006813	potassium ion transport	http://purl.obolibrary.org/obo/CHEBI_29103	potassium(1+)
+http://purl.obolibrary.org/obo/GO_0015824	proline transport	http://purl.obolibrary.org/obo/CHEBI_32871	prolinate
+http://purl.obolibrary.org/obo/GO_0015799	propanediol transport	http://purl.obolibrary.org/obo/CHEBI_26288	propanediol
+http://purl.obolibrary.org/obo/GO_0015730	propanoate transport	http://purl.obolibrary.org/obo/CHEBI_17272	propionate
+http://purl.obolibrary.org/obo/GO_0015732	prostaglandin transport	http://purl.obolibrary.org/obo/CHEBI_59326	prostaglandin carboxylic acid anion
+http://purl.obolibrary.org/obo/GO_0015031	protein transport	http://purl.obolibrary.org/obo/PR_000000001	protein
+http://purl.obolibrary.org/obo/GO_0006863	purine nucleobase transport	http://purl.obolibrary.org/obo/CHEBI_26386	purine nucleobase
+http://purl.obolibrary.org/obo/GO_0015865	purine nucleotide transport	http://purl.obolibrary.org/obo/CHEBI_26395	purine nucleotide
+http://purl.obolibrary.org/obo/GO_0015868	purine ribonucleotide transport	http://purl.obolibrary.org/obo/CHEBI_26400	purine ribonucleotide
+http://purl.obolibrary.org/obo/GO_0015847	putrescine transport	http://purl.obolibrary.org/obo/CHEBI_17148	putrescine
+http://purl.obolibrary.org/obo/GO_0031921	pyridoxal phosphate transport	http://purl.obolibrary.org/obo/CHEBI_597326	pyridoxal 5'-phosphate(2-)
+http://purl.obolibrary.org/obo/GO_0031920	pyridoxal transport	http://purl.obolibrary.org/obo/CHEBI_17310	pyridoxal
+http://purl.obolibrary.org/obo/GO_0031922	pyridoxamine transport	http://purl.obolibrary.org/obo/CHEBI_16410	pyridoxamine
+http://purl.obolibrary.org/obo/GO_0031923	pyridoxine transport	http://purl.obolibrary.org/obo/CHEBI_16709	pyridoxine
+http://purl.obolibrary.org/obo/GO_0015855	pyrimidine nucleobase transport	http://purl.obolibrary.org/obo/CHEBI_26432	pyrimidine nucleobase
+http://purl.obolibrary.org/obo/GO_0015864	pyrimidine nucleoside transport	http://purl.obolibrary.org/obo/CHEBI_26440	pyrimidine nucleoside
+http://purl.obolibrary.org/obo/GO_0006864	pyrimidine nucleotide transport	http://purl.obolibrary.org/obo/CHEBI_26441	pyrimidine nucleotide
+http://purl.obolibrary.org/obo/GO_0006848	pyruvate transport	http://purl.obolibrary.org/obo/CHEBI_15361	pyruvate
+http://purl.obolibrary.org/obo/GO_0015697	quaternary ammonium group transport	http://purl.obolibrary.org/obo/CHEBI_26469	quaternary nitrogen compound
+http://purl.obolibrary.org/obo/GO_0051029	rRNA transport	http://purl.obolibrary.org/obo/CHEBI_18111	ribosomal RNA
+http://purl.obolibrary.org/obo/GO_0015773	raffinose transport	http://purl.obolibrary.org/obo/CHEBI_16634	raffinose
+http://purl.obolibrary.org/obo/GO_0034633	retinol transport	http://purl.obolibrary.org/obo/CHEBI_50211	retinol
+http://purl.obolibrary.org/obo/GO_0032218	riboflavin transport	http://purl.obolibrary.org/obo/CHEBI_17015	riboflavin
+http://purl.obolibrary.org/obo/GO_0042948	salicin transport	http://purl.obolibrary.org/obo/CHEBI_17814	salicin
+http://purl.obolibrary.org/obo/GO_0080160	selenate transport	http://purl.obolibrary.org/obo/CHEBI_15075	selenate
+http://purl.obolibrary.org/obo/GO_0032329	serine transport	http://purl.obolibrary.org/obo/CHEBI_17822	serine
+http://purl.obolibrary.org/obo/GO_0006837	serotonin transport	http://purl.obolibrary.org/obo/CHEBI_28790	serotonin
+http://purl.obolibrary.org/obo/GO_0015912	short-chain fatty acid transport	http://purl.obolibrary.org/obo/CHEBI_58951	short-chain fatty acid anion
+http://purl.obolibrary.org/obo/GO_0015739	sialic acid transport	http://purl.obolibrary.org/obo/CHEBI_62944	sialic acid anion
+http://purl.obolibrary.org/obo/GO_0015891	siderophore transport	http://purl.obolibrary.org/obo/GOCHE_26672	substance with siderophore role
+http://purl.obolibrary.org/obo/GO_0015673	silver ion transport	http://purl.obolibrary.org/obo/CHEBI_60253	silver cation
+http://purl.obolibrary.org/obo/GO_0051030	snRNA transport	http://purl.obolibrary.org/obo/SO_0000274	snRNA
+http://purl.obolibrary.org/obo/GO_0006814	sodium ion transport	http://purl.obolibrary.org/obo/CHEBI_29101	sodium(1+)
+http://purl.obolibrary.org/obo/GO_2001087	sophorose transport	http://purl.obolibrary.org/obo/CHEBI_1230	sophorose
+http://purl.obolibrary.org/obo/GO_0015795	sorbitol transport	http://purl.obolibrary.org/obo/CHEBI_30911	glucitol
+http://purl.obolibrary.org/obo/GO_0015848	spermidine transport	http://purl.obolibrary.org/obo/CHEBI_16610	spermidine
+http://purl.obolibrary.org/obo/GO_0000296	spermine transport	http://purl.obolibrary.org/obo/CHEBI_15746	spermine
+http://purl.obolibrary.org/obo/GO_1905329	sphingoid long-chain base transport	http://purl.obolibrary.org/obo/CHEBI_84410	sphingoid base(1+)
+http://purl.obolibrary.org/obo/GO_0015918	sterol transport	http://purl.obolibrary.org/obo/CHEBI_15889	sterol
+http://purl.obolibrary.org/obo/GO_0015744	succinate transport	http://purl.obolibrary.org/obo/CHEBI_30031	succinate(2-)
+http://purl.obolibrary.org/obo/GO_0015770	sucrose transport	http://purl.obolibrary.org/obo/CHEBI_17992	sucrose
+http://purl.obolibrary.org/obo/GO_0008272	sulfate transport	http://purl.obolibrary.org/obo/CHEBI_16189	sulfate
+http://purl.obolibrary.org/obo/GO_0000316	sulfite transport	http://purl.obolibrary.org/obo/CHEBI_17359	sulfite
+http://purl.obolibrary.org/obo/GO_0000101	sulfur amino acid transport	http://purl.obolibrary.org/obo/CHEBI_26834	sulfur-containing amino acid
+http://purl.obolibrary.org/obo/GO_0072348	sulfur compound transport	http://purl.obolibrary.org/obo/CHEBI_26835	sulfur molecular entity
+http://purl.obolibrary.org/obo/GO_0051031	tRNA transport	http://purl.obolibrary.org/obo/CHEBI_17843	transfer RNA
+http://purl.obolibrary.org/obo/GO_0015734	taurine transport	http://purl.obolibrary.org/obo/CHEBI_15891	taurine
+http://purl.obolibrary.org/obo/GO_0015777	teichoic acid transport	http://purl.obolibrary.org/obo/CHEBI_30049	teichoic acid
+http://purl.obolibrary.org/obo/GO_0015710	tellurite transport	http://purl.obolibrary.org/obo/CHEBI_30477	tellurite
+http://purl.obolibrary.org/obo/GO_0046865	terpenoid transport	http://purl.obolibrary.org/obo/CHEBI_26873	terpenoid
+http://purl.obolibrary.org/obo/GO_2001098	tetrasaccharide transport	http://purl.obolibrary.org/obo/CHEBI_50126	tetrasaccharide
+http://purl.obolibrary.org/obo/GO_0046866	tetraterpenoid transport	http://purl.obolibrary.org/obo/CHEBI_26935	tetraterpenoid
+http://purl.obolibrary.org/obo/GO_0015888	thiamine transport	http://purl.obolibrary.org/obo/CHEBI_26948	thiamine
+http://purl.obolibrary.org/obo/GO_1901337	thioester transport	http://purl.obolibrary.org/obo/CHEBI_51277	thioester
+http://purl.obolibrary.org/obo/GO_0015709	thiosulfate transport	http://purl.obolibrary.org/obo/CHEBI_16094	thiosulfate(2-)
+http://purl.obolibrary.org/obo/GO_0015826	threonine transport	http://purl.obolibrary.org/obo/CHEBI_32832	threoninate
+http://purl.obolibrary.org/obo/GO_0071717	thromboxane transport	http://purl.obolibrary.org/obo/CHEBI_62945	thromboxane anion
+http://purl.obolibrary.org/obo/GO_0035364	thymine transport	http://purl.obolibrary.org/obo/CHEBI_17821	thymine
+http://purl.obolibrary.org/obo/GO_0070327	thyroid hormone transport	http://purl.obolibrary.org/obo/GOCHE_60311	substance with thyroid hormone role
+http://purl.obolibrary.org/obo/GO_1901998	toxin transport	http://purl.obolibrary.org/obo/GOCHE_27026	substance with toxin role
+http://purl.obolibrary.org/obo/GO_0033572	transferrin transport	http://purl.obolibrary.org/obo/PR_000001887	melanotransferrin
+http://purl.obolibrary.org/obo/GO_0000041	transition metal ion transport	http://purl.obolibrary.org/obo/CHEBI_33515	transition element cation
+http://purl.obolibrary.org/obo/GO_0015771	trehalose transport	http://purl.obolibrary.org/obo/CHEBI_27082	trehalose
+http://purl.obolibrary.org/obo/GO_1901504	triazole transport	http://purl.obolibrary.org/obo/CHEBI_38597	triazole
+http://purl.obolibrary.org/obo/GO_0006842	tricarboxylic acid transport	http://purl.obolibrary.org/obo/CHEBI_35753	tricarboxylic acid anion
+http://purl.obolibrary.org/obo/GO_0034197	triglyceride transport	http://purl.obolibrary.org/obo/CHEBI_17855	triglyceride
+http://purl.obolibrary.org/obo/GO_0015717	triose phosphate transport	http://purl.obolibrary.org/obo/CHEBI_35142	aldotriose phosphate
+http://purl.obolibrary.org/obo/GO_0042939	tripeptide transport	http://purl.obolibrary.org/obo/CHEBI_47923	tripeptide
+http://purl.obolibrary.org/obo/GO_2001088	trisaccharide transport	http://purl.obolibrary.org/obo/CHEBI_27150	trisaccharide
+http://purl.obolibrary.org/obo/GO_0072512	trivalent inorganic cation transport	http://purl.obolibrary.org/obo/CHEBI_64712	trivalent inorganic cation
+http://purl.obolibrary.org/obo/GO_0015827	tryptophan transport	http://purl.obolibrary.org/obo/CHEBI_27897	tryptophan
+http://purl.obolibrary.org/obo/GO_0070614	tungstate ion transport	http://purl.obolibrary.org/obo/CHEBI_46502	tungstate
+http://purl.obolibrary.org/obo/GO_0015828	tyrosine transport	http://purl.obolibrary.org/obo/CHEBI_18186	tyrosine
+http://purl.obolibrary.org/obo/GO_0015857	uracil transport	http://purl.obolibrary.org/obo/CHEBI_17568	uracil
+http://purl.obolibrary.org/obo/GO_0015747	urate transport	http://purl.obolibrary.org/obo/CHEBI_30848	urate(1-)
+http://purl.obolibrary.org/obo/GO_0015840	urea transport	http://purl.obolibrary.org/obo/CHEBI_16199	urea
+http://purl.obolibrary.org/obo/GO_0015862	uridine transport	http://purl.obolibrary.org/obo/CHEBI_16704	uridine
+http://purl.obolibrary.org/obo/GO_0015829	valine transport	http://purl.obolibrary.org/obo/CHEBI_32859	valinate
+http://purl.obolibrary.org/obo/GO_0015676	vanadium ion transport	http://purl.obolibrary.org/obo/CHEBI_35172	vanadium cation
+http://purl.obolibrary.org/obo/GO_0071938	vitamin A transport	http://purl.obolibrary.org/obo/CHEBI_12777	vitamin A
+http://purl.obolibrary.org/obo/GO_0031919	vitamin B6 transport	http://purl.obolibrary.org/obo/CHEBI_27306	vitamin B6
+http://purl.obolibrary.org/obo/GO_0051180	vitamin transport	http://purl.obolibrary.org/obo/GOCHE_33229	substance with vitamin role
+http://purl.obolibrary.org/obo/GO_0042906	xanthine transport	http://purl.obolibrary.org/obo/CHEBI_15318	xanthine
+http://purl.obolibrary.org/obo/GO_0015863	xanthosine transport	http://purl.obolibrary.org/obo/CHEBI_18107	xanthosine
+http://purl.obolibrary.org/obo/GO_0042908	xenobiotic transport	http://purl.obolibrary.org/obo/GOCHE_35703	substance with xenobiotic role
+http://purl.obolibrary.org/obo/GO_1902341	xylitol transport	http://purl.obolibrary.org/obo/CHEBI_17151	xylitol
+http://purl.obolibrary.org/obo/GO_2001094	xylotriose transport	http://purl.obolibrary.org/obo/CHEBI_62783	beta-D-Xylp-(1->4)-beta-D-Xylp-(1->4)-D-Xylp
+http://purl.obolibrary.org/obo/GO_0006829	zinc ion transport	http://purl.obolibrary.org/obo/CHEBI_29105	zinc(2+)

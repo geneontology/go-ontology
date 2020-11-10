@@ -1,5 +1,5 @@
-iri	iri label	target_end	target_end label	target_start	target_start label
-GO:0098657	import into cell	GO:0005737	cytoplasm	GO:0005576	extracellular region
-GO:1902774	late endosome to lysosome transport	GO:0005764	lysosome	GO:0005770	late endosome
-GO:0048227	plasma membrane to endosome transport	GO:0005768	endosome	GO:0005886	plasma membrane
-GO:0044795	trans-Golgi network to recycling endosome transport	GO:0055037	recycling endosome	GO:0005802	trans-Golgi network
+defined_class	defined_class_label	target_end	target_end_label	target_start	target_start_label
+http://purl.obolibrary.org/obo/GO_0140352	export from cell	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0005622	intracellular
+http://purl.obolibrary.org/obo/GO_1902774	late endosome to lysosome transport	http://purl.obolibrary.org/obo/GO_0005764	lysosome	http://purl.obolibrary.org/obo/GO_0005770	late endosome
+http://purl.obolibrary.org/obo/GO_0048227	plasma membrane to endosome transport	http://purl.obolibrary.org/obo/GO_0005768	endosome	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0044795	trans-Golgi network to recycling endosome transport	http://purl.obolibrary.org/obo/GO_0055037	recycling endosome	http://purl.obolibrary.org/obo/GO_0005802	trans-Golgi network

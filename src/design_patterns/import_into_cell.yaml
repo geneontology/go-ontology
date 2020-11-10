@@ -1,19 +1,19 @@
 pattern_name: 'import_into_cell'
 
 classes:
-  'transport': 'GO:0006810'
-  'extracellular region': 'GO:0005576'
-  'intracellular part': 'GO:0044424'
-  'chemical entity': 'CHEBI:24431' #encompasses protein
-  'macromolecular complex': 'GO:0043234' #encompasses protein complex
+  transport: 'GO:0006810'
+  extracellular region: 'GO:0005576'
+  intracellular part: 'GO:0044424'
+  chemical entity: 'CHEBI:24431' #encompasses protein
+  macromolecular complex: 'GO:0043234' #encompasses protein complex
 
 relations:
-  'has target start location': 'RO:0002338'
-  'has target end location': 'RO:0002339'
-  'imports': 'RO:0002340'
+  has target start location: 'RO:0002338'
+  has target end location: 'RO:0002339'
+  imports: 'RO:0002340'
   
 vars: 
-  'imported': "chemical entity" or "macromolecular complex"
+  imported: "'chemical entity' or 'macromolecular complex'"
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -29,18 +29,14 @@ name:
   vars:
     - 'imported'
 
-
 def:
   text: "The directed movement of %s from outside of a cell into the cytoplasmic compartment. This may occur via transport across the plasma membrane or via endocytosis."
   vars:
     - 'imported'
-
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
-
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 

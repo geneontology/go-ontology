@@ -1,27 +1,114 @@
-iri	iri label	entity	entity label
-GO:0051452	intracellular pH reduction	OBA:0000050	cell pH
-GO:0007042	lysosomal lumen acidification	OBA:0000091	lysosomal lumen pH
-GO:1905919	negative regulation of CoA-transferase activity	GO:0008410	CoA-transferase activity
-GO:0110027	negative regulation of DNA strand resection involved in replication fork processing	GO:0110025	DNA strand resection involved in replication fork processing
-GO:1905922	negative regulation of acetylcholine biosynthetic process	GO:0008292	acetylcholine biosynthetic process
-GO:0090728	negative regulation of brood size	OBA:0000037	brood size
-GO:1905949	negative regulation of calcium ion import across plasma membrane	GO:0098703	calcium ion import across plasma membrane
-GO:1905916	negative regulation of cell differentiation involved in phenotypic switching	GO:0090679	cell differentiation involved in phenotypic switching
-GO:1905934	negative regulation of cell fate determination	GO:0001709	cell fate determination
-GO:1905958	negative regulation of cellular response to alcohol	GO:0097306	cellular response to alcohol
-GO:0061754	negative regulation of circulating fibrinogen levels	OBA:0000061	circulating fibrinogen levels
-GO:1905955	negative regulation of endothelial tube morphogenesis	GO:0061154	endothelial tube morphogenesis
-GO:1905943	negative regulation of formation of growth cone in injured axon	GO:0048689	formation of growth cone in injured axon
-GO:1905937	negative regulation of germ cell proliferation	GO:0036093	germ cell proliferation
-GO:1905940	negative regulation of gonad development	GO:0008406	gonad development
-GO:0106015	negative regulation of inflammatory response to wounding	GO:0090594	inflammatory response to wounding
-GO:1905925	negative regulation of invadopodium assembly	GO:1905877	invadopodium assembly
-GO:1905928	negative regulation of invadopodium disassembly	GO:1905878	invadopodium disassembly
-GO:1905953	negative regulation of lipid localization	GO:0010876	lipid localization
-GO:0140076	negative regulation of lipoprotein transport	GO:0042953	lipoprotein transport
-GO:0101029	negative regulation of liquid surface tension	OBA:0000088	liquid surface tension
-GO:0061767	negative regulation of lung blood pressure	OBA:0000090	lung blood pressure
-GO:1905946	negative regulation of response to calcium ion	GO:0051592	response to calcium ion
-GO:1905931	negative regulation of vascular smooth muscle cell differentiation involved in phenotypic switching	GO:1905420	vascular smooth muscle cell differentiation involved in phenotypic switching
-GO:0045851	pH reduction	OBA:0000121	pH
-GO:0031648	protein destabilization	OBA:0000128	protein stability
+defined_class	defined_class_label	entity	entity_label
+http://purl.obolibrary.org/obo/GO_0051452	intracellular pH reduction	http://purl.obolibrary.org/obo/OBA_0000050	cell pH
+http://purl.obolibrary.org/obo/GO_0007042	lysosomal lumen acidification	http://purl.obolibrary.org/obo/OBA_0000091	lysosomal lumen pH
+http://purl.obolibrary.org/obo/GO_0106108	negative regulation of (R)-mevalonic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_1901737	(R)-mevalonic acid biosynthetic process
+http://purl.obolibrary.org/obo/GO_0150144	negative regulation of CD80 production	http://purl.obolibrary.org/obo/GO_0035780	CD80 biosynthetic process
+http://purl.obolibrary.org/obo/GO_0150141	negative regulation of CD86 production	http://purl.obolibrary.org/obo/GO_0035781	CD86 biosynthetic process
+http://purl.obolibrary.org/obo/GO_0110133	negative regulation of CRISPR-cas system	http://purl.obolibrary.org/obo/GO_0099048	CRISPR-cas system
+http://purl.obolibrary.org/obo/GO_1905919	negative regulation of CoA-transferase activity	http://purl.obolibrary.org/obo/GO_0008410	CoA-transferase activity
+http://purl.obolibrary.org/obo/GO_0140216	negative regulation of D-aspartate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0070779	D-aspartate import across plasma membrane
+http://purl.obolibrary.org/obo/GO_0110027	negative regulation of DNA strand resection involved in replication fork processing	http://purl.obolibrary.org/obo/GO_0110025	DNA strand resection involved in replication fork processing
+http://purl.obolibrary.org/obo/GO_0043433	negative regulation of DNA-binding transcription factor activity	http://purl.obolibrary.org/obo/GO_0003700	DNA-binding transcription factor activity
+http://purl.obolibrary.org/obo/GO_0140123	negative regulation of Lewy body formation	http://purl.obolibrary.org/obo/GO_0140121	Lewy body formation
+http://purl.obolibrary.org/obo/GO_0060392	negative regulation of SMAD protein signal transduction	http://purl.obolibrary.org/obo/GO_0060395	SMAD protein signal transduction
+http://purl.obolibrary.org/obo/GO_0106279	negative regulation of UDP-N-acetylglucosamine biosynthetic process	http://purl.obolibrary.org/obo/GO_0006048	UDP-N-acetylglucosamine biosynthetic process
+http://purl.obolibrary.org/obo/GO_1905922	negative regulation of acetylcholine biosynthetic process	http://purl.obolibrary.org/obo/GO_0008292	acetylcholine biosynthetic process
+http://purl.obolibrary.org/obo/GO_0140199	negative regulation of adenylate cyclase-activating adrenergic receptor signaling pathway involved in heart process	http://purl.obolibrary.org/obo/GO_0086023	adenylate cyclase-activating adrenergic receptor signaling pathway involved in heart process
+http://purl.obolibrary.org/obo/GO_0140194	negative regulation of adenylate cyclase-inhibiting adrenergic receptor signaling pathway involved in heart process	http://purl.obolibrary.org/obo/GO_0086096	adenylate cyclase-inhibiting adrenergic receptor signaling pathway involved in heart process
+http://purl.obolibrary.org/obo/GO_1903392	negative regulation of adherens junction organization	http://purl.obolibrary.org/obo/GO_0034332	adherens junction organization
+http://purl.obolibrary.org/obo/GO_0110111	negative regulation of animal organ morphogenesis	http://purl.obolibrary.org/obo/GO_0009887	animal organ morphogenesis
+http://purl.obolibrary.org/obo/GO_0075019	negative regulation of appressorium formation	http://purl.obolibrary.org/obo/GO_0075016	appressorium formation
+http://purl.obolibrary.org/obo/GO_0075028	negative regulation of appressorium initiation	http://purl.obolibrary.org/obo/GO_0075025	initiation of appressorium formation
+http://purl.obolibrary.org/obo/GO_0075038	negative regulation of appressorium maturation	http://purl.obolibrary.org/obo/GO_0075035	appressorium maturation
+http://purl.obolibrary.org/obo/GO_0075331	negative regulation of arbuscule formation for nutrient acquisition from host	http://purl.obolibrary.org/obo/GO_0075328	formation by symbiont of arbuscule for nutrient acquisition from host
+http://purl.obolibrary.org/obo/GO_0150071	negative regulation of arginase activity	http://purl.obolibrary.org/obo/GO_0004053	arginase activity
+http://purl.obolibrary.org/obo/GO_0110150	negative regulation of biomineralization	http://purl.obolibrary.org/obo/GO_0110148	biomineralization
+http://purl.obolibrary.org/obo/GO_0090728	negative regulation of brood size	http://purl.obolibrary.org/obo/OBA_0000037	brood size
+http://purl.obolibrary.org/obo/GO_0106057	negative regulation of calcineurin-mediated signaling	http://purl.obolibrary.org/obo/GO_0097720	calcineurin-mediated signaling
+http://purl.obolibrary.org/obo/GO_0110099	negative regulation of calcium import into the mitochondrion	http://purl.obolibrary.org/obo/GO_0036444	calcium import into the mitochondrion
+http://purl.obolibrary.org/obo/GO_1905949	negative regulation of calcium ion import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098703	calcium ion import across plasma membrane
+http://purl.obolibrary.org/obo/GO_0062001	negative regulation of cardiac endothelial to mesenchymal transition	http://purl.obolibrary.org/obo/GO_0140074	cardiac endothelial to mesenchymal transition
+http://purl.obolibrary.org/obo/GO_0062044	negative regulation of cardiac epithelial to mesenchymal transition	http://purl.obolibrary.org/obo/GO_0060317	cardiac epithelial to mesenchymal transition
+http://purl.obolibrary.org/obo/GO_0106135	negative regulation of cardiac muscle cell contraction	http://purl.obolibrary.org/obo/GO_0086003	cardiac muscle cell contraction
+http://purl.obolibrary.org/obo/GO_1905916	negative regulation of cell differentiation involved in phenotypic switching	http://purl.obolibrary.org/obo/GO_0090679	cell differentiation involved in phenotypic switching
+http://purl.obolibrary.org/obo/GO_1905934	negative regulation of cell fate determination	http://purl.obolibrary.org/obo/GO_0001709	cell fate determination
+http://purl.obolibrary.org/obo/GO_1901889	negative regulation of cell junction assembly	http://purl.obolibrary.org/obo/GO_0034329	cell junction assembly
+http://purl.obolibrary.org/obo/GO_0001953	negative regulation of cell-matrix adhesion	http://purl.obolibrary.org/obo/GO_0007160	cell-matrix adhesion
+http://purl.obolibrary.org/obo/GO_0010812	negative regulation of cell-substrate adhesion	http://purl.obolibrary.org/obo/GO_0031589	cell-substrate adhesion
+http://purl.obolibrary.org/obo/GO_0150118	negative regulation of cell-substrate junction organization	http://purl.obolibrary.org/obo/GO_0150115	cell-substrate junction organization
+http://purl.obolibrary.org/obo/GO_1905958	negative regulation of cellular response to alcohol	http://purl.obolibrary.org/obo/GO_0097306	cellular response to alcohol
+http://purl.obolibrary.org/obo/GO_0140256	negative regulation of cellular response to phosphate starvation	http://purl.obolibrary.org/obo/GO_0016036	cellular response to phosphate starvation
+http://purl.obolibrary.org/obo/GO_0150110	negative regulation of cholesterol esterification	http://purl.obolibrary.org/obo/GO_0034435	cholesterol esterification
+http://purl.obolibrary.org/obo/GO_0061754	negative regulation of circulating fibrinogen levels	http://purl.obolibrary.org/obo/OBA_0000061	circulating fibrinogen levels
+http://purl.obolibrary.org/obo/GO_0106122	negative regulation of cobalamin metabolic process	http://purl.obolibrary.org/obo/GO_0009235	cobalamin metabolic process
+http://purl.obolibrary.org/obo/GO_0110118	negative regulation of compound eye photoreceptor cell differentiation	http://purl.obolibrary.org/obo/GO_0001751	compound eye photoreceptor cell differentiation
+http://purl.obolibrary.org/obo/GO_0150066	negative regulation of deacetylase activity	http://purl.obolibrary.org/obo/GO_0019213	deacetylase activity
+http://purl.obolibrary.org/obo/GO_0106289	negative regulation of deadenylation-dependent decapping of nuclear-transcribed mRNA	http://purl.obolibrary.org/obo/GO_0000290	deadenylation-dependent decapping of nuclear-transcribed mRNA
+http://purl.obolibrary.org/obo/GO_0044131	negative regulation of development of symbiont in host	http://purl.obolibrary.org/obo/GO_0044114	development of symbiont in host
+http://purl.obolibrary.org/obo/GO_0044147	negative regulation of development of symbiont involved in interaction with host	http://purl.obolibrary.org/obo/GO_0044115	development of symbiont involved in interaction with host
+http://purl.obolibrary.org/obo/GO_1905955	negative regulation of endothelial tube morphogenesis	http://purl.obolibrary.org/obo/GO_0061154	endothelial tube morphogenesis
+http://purl.obolibrary.org/obo/GO_0061964	negative regulation of entry into reproductive diapause	http://purl.obolibrary.org/obo/GO_0055116	entry into reproductive diapause
+http://purl.obolibrary.org/obo/GO_2000536	negative regulation of entry of bacterium into host cell	http://purl.obolibrary.org/obo/GO_0035635	entry of bacterium into host cell
+http://purl.obolibrary.org/obo/GO_0075042	negative regulation of establishment of turgor in appressorium	http://purl.obolibrary.org/obo/GO_0075039	establishment of turgor in appressorium
+http://purl.obolibrary.org/obo/GO_0106165	negative regulation of exonucleolytic catabolism of deadenylated mRNA	http://purl.obolibrary.org/obo/GO_0043928	exonucleolytic catabolism of deadenylated mRNA
+http://purl.obolibrary.org/obo/GO_0051895	negative regulation of focal adhesion assembly	http://purl.obolibrary.org/obo/GO_0048041	focal adhesion assembly
+http://purl.obolibrary.org/obo/GO_0120184	negative regulation of focal adhesion disassembly	http://purl.obolibrary.org/obo/GO_0120181	focal adhesion disassembly
+http://purl.obolibrary.org/obo/GO_0075047	negative regulation of formation by symbiont of haustorium for nutrient acquisition from host	http://purl.obolibrary.org/obo/GO_0052094	formation by symbiont of haustorium for nutrient acquisition from host
+http://purl.obolibrary.org/obo/GO_1905943	negative regulation of formation of growth cone in injured axon	http://purl.obolibrary.org/obo/GO_0048689	formation of growth cone in injured axon
+http://purl.obolibrary.org/obo/GO_0075032	negative regulation of formation of symbiont germ tube hook structure for appressorium development	http://purl.obolibrary.org/obo/GO_0075029	formation of symbiont germ tube hook structure for appressorium development
+http://purl.obolibrary.org/obo/GO_1905937	negative regulation of germ cell proliferation	http://purl.obolibrary.org/obo/GO_0036093	germ cell proliferation
+http://purl.obolibrary.org/obo/GO_1905940	negative regulation of gonad development	http://purl.obolibrary.org/obo/GO_0008406	gonad development
+http://purl.obolibrary.org/obo/GO_0075195	negative regulation of haustorium mother cell formation	http://purl.obolibrary.org/obo/GO_0075192	haustorium mother cell formation
+http://purl.obolibrary.org/obo/GO_0061962	negative regulation of heme oxygenase activity	http://purl.obolibrary.org/obo/GO_0004392	heme oxygenase (decyclizing) activity
+http://purl.obolibrary.org/obo/GO_0110091	negative regulation of hippocampal neuron apoptotic process	http://purl.obolibrary.org/obo/GO_0110088	hippocampal neuron apoptotic process
+http://purl.obolibrary.org/obo/GO_0150168	negative regulation of histone H3-K4 acetylation	http://purl.obolibrary.org/obo/GO_0043973	histone H3-K4 acetylation
+http://purl.obolibrary.org/obo/GO_0075190	negative regulation of hyphopodium formation	http://purl.obolibrary.org/obo/GO_0075187	hyphopodium formation
+http://purl.obolibrary.org/obo/GO_0110139	negative regulation of imaginal disc-derived leg joint morphogenesis	http://purl.obolibrary.org/obo/GO_0007480	imaginal disc-derived leg morphogenesis
+http://purl.obolibrary.org/obo/GO_0110109	negative regulation of imaginal disc-derived wing vein specification	http://purl.obolibrary.org/obo/GO_0007474	imaginal disc-derived wing vein specification
+http://purl.obolibrary.org/obo/GO_0075186	negative regulation of infection cushion formation	http://purl.obolibrary.org/obo/GO_0075183	infection cushion formation
+http://purl.obolibrary.org/obo/GO_0106015	negative regulation of inflammatory response to wounding	http://purl.obolibrary.org/obo/GO_0090594	inflammatory response to wounding
+http://purl.obolibrary.org/obo/GO_0150152	negative regulation of interleukin-17A production	http://purl.obolibrary.org/obo/GO_0097087	interleukin-17A production
+http://purl.obolibrary.org/obo/GO_0150190	negative regulation of interleukin-32 production	http://purl.obolibrary.org/obo/GO_0072637	interleukin-32 production
+http://purl.obolibrary.org/obo/GO_0150128	negative regulation of interleukin-33 production	http://purl.obolibrary.org/obo/GO_0072639	interleukin-33 production
+http://purl.obolibrary.org/obo/GO_0150159	negative regulation of interleukin-34 production	http://purl.obolibrary.org/obo/GO_0150155	interleukin-34 production
+http://purl.obolibrary.org/obo/GO_0150138	negative regulation of interleukin-37 production	http://purl.obolibrary.org/obo/GO_0150137	interleukin-37 production
+http://purl.obolibrary.org/obo/GO_0032713	negative regulation of interleukin-4 production	http://purl.obolibrary.org/obo/GO_0032633	interleukin-4 production
+http://purl.obolibrary.org/obo/GO_1905925	negative regulation of invadopodium assembly	http://purl.obolibrary.org/obo/GO_1905877	invadopodium assembly
+http://purl.obolibrary.org/obo/GO_1905928	negative regulation of invadopodium disassembly	http://purl.obolibrary.org/obo/GO_1905878	invadopodium disassembly
+http://purl.obolibrary.org/obo/GO_1904039	negative regulation of iron export across plasma membrane	http://purl.obolibrary.org/obo/GO_1903988	iron ion export across plasma membrane
+http://purl.obolibrary.org/obo/GO_1905953	negative regulation of lipid localization	http://purl.obolibrary.org/obo/GO_0010876	lipid localization
+http://purl.obolibrary.org/obo/GO_0110114	negative regulation of lipid transporter activity	http://purl.obolibrary.org/obo/GO_0005319	lipid transporter activity
+http://purl.obolibrary.org/obo/GO_0140076	negative regulation of lipoprotein transport	http://purl.obolibrary.org/obo/GO_0042953	lipoprotein transport
+http://purl.obolibrary.org/obo/GO_0101029	negative regulation of liquid surface tension	http://purl.obolibrary.org/obo/OBA_0000088	liquid surface tension
+http://purl.obolibrary.org/obo/GO_0140213	negative regulation of long-chain fatty acid import into cell	http://purl.obolibrary.org/obo/GO_0044539	long-chain fatty acid import into cell
+http://purl.obolibrary.org/obo/GO_0061767	negative regulation of lung blood pressure	http://purl.obolibrary.org/obo/OBA_0000090	lung blood pressure
+http://purl.obolibrary.org/obo/GO_0106115	negative regulation of mitotic cohesin dsDNA (leading strand) loading	http://purl.obolibrary.org/obo/GO_0062021	mitotic cohesin dsDNA (leading strand) loading
+http://purl.obolibrary.org/obo/GO_0106112	negative regulation of mitotic cohesin ssDNA (lagging strand) loading	http://purl.obolibrary.org/obo/GO_0062022	mitotic cohesin ssDNA (lagging strand) loading
+http://purl.obolibrary.org/obo/GO_0140280	negative regulation of mitotic division septum assembly	http://purl.obolibrary.org/obo/GO_0140278	mitotic division septum assembly
+http://purl.obolibrary.org/obo/GO_0140499	negative regulation of mitotic spindle assembly checkpoint signaling	http://purl.obolibrary.org/obo/GO_0072480	mitotic spindle assembly checkpoint signaling
+http://purl.obolibrary.org/obo/GO_0110163	negative regulation of mitotic spindle elongation (spindle phase three)	http://purl.obolibrary.org/obo/GO_0061805	mitotic spindle elongation (spindle phase three)
+http://purl.obolibrary.org/obo/GO_0110160	negative regulation of mitotic spindle formation (spindle phase one)	http://purl.obolibrary.org/obo/GO_0061804	mitotic spindle formation (spindle phase one)
+http://purl.obolibrary.org/obo/GO_0110125	negative regulation of myotube cell migration	http://purl.obolibrary.org/obo/GO_0110122	myotube cell migration
+http://purl.obolibrary.org/obo/GO_0150079	negative regulation of neuroinflammatory response	http://purl.obolibrary.org/obo/GO_0150076	neuroinflammatory response
+http://purl.obolibrary.org/obo/GO_0150177	negative regulation of phosphatidylethanolamine metabolic process	http://purl.obolibrary.org/obo/GO_0046337	phosphatidylethanolamine metabolic process
+http://purl.obolibrary.org/obo/GO_0150180	negative regulation of phosphatidylserine metabolic process	http://purl.obolibrary.org/obo/GO_0006658	phosphatidylserine metabolic process
+http://purl.obolibrary.org/obo/GO_0110081	negative regulation of placenta blood vessel development	http://purl.obolibrary.org/obo/GO_0060674	placenta blood vessel development
+http://purl.obolibrary.org/obo/GO_0106247	negative regulation of poly(A)-specific ribonuclease activity	http://purl.obolibrary.org/obo/GO_0004535	poly(A)-specific ribonuclease activity
+http://purl.obolibrary.org/obo/GO_1904703	negative regulation of protein localization to adherens junction	http://purl.obolibrary.org/obo/GO_0071896	protein localization to adherens junction
+http://purl.obolibrary.org/obo/GO_0110084	negative regulation of protein localization to cell division site involved in mitotic actomyosin contractile ring assembly	http://purl.obolibrary.org/obo/GO_1903476	protein localization to cell division site involved in mitotic actomyosin contractile ring assembly
+http://purl.obolibrary.org/obo/GO_0150119	negative regulation of protein localization to cell-cell junction	http://purl.obolibrary.org/obo/GO_0150105	protein localization to cell-cell junction
+http://purl.obolibrary.org/obo/GO_0150033	negative regulation of protein localization to lysosome	http://purl.obolibrary.org/obo/GO_0061462	protein localization to lysosome
+http://purl.obolibrary.org/obo/GO_0140325	negative regulation of protein localization to medial cortex	http://purl.obolibrary.org/obo/GO_0071574	protein localization to medial cortex
+http://purl.obolibrary.org/obo/GO_0140435	negative regulation of protein localization to meiotic spindle pole body	http://purl.obolibrary.org/obo/GO_1902441	protein localization to meiotic spindle pole body
+http://purl.obolibrary.org/obo/GO_0150075	negative regulation of protein-glutamine gamma-glutamyltransferase activity	http://purl.obolibrary.org/obo/GO_0003810	protein-glutamine gamma-glutamyltransferase activity
+http://purl.obolibrary.org/obo/GO_1905946	negative regulation of response to calcium ion	http://purl.obolibrary.org/obo/GO_0051592	response to calcium ion
+http://purl.obolibrary.org/obo/GO_0106160	negative regulation of small RNA loading onto RISC	http://purl.obolibrary.org/obo/GO_0070922	small RNA loading onto RISC
+http://purl.obolibrary.org/obo/GO_0106119	negative regulation of sterol biosynthetic process	http://purl.obolibrary.org/obo/GO_0016126	sterol biosynthetic process
+http://purl.obolibrary.org/obo/GO_0106128	negative regulation of store-operated calcium entry	http://purl.obolibrary.org/obo/GO_0002115	store-operated calcium entry
+http://purl.obolibrary.org/obo/GO_0071635	negative regulation of transforming growth factor beta production	http://purl.obolibrary.org/obo/GO_0071604	transforming growth factor beta production
+http://purl.obolibrary.org/obo/GO_0150202	negative regulation of transport across blood-brain barrier	http://purl.obolibrary.org/obo/GO_0150104	transport across blood-brain barrier
+http://purl.obolibrary.org/obo/GO_0150069	negative regulation of tubulin deacetylase activity	http://purl.obolibrary.org/obo/GO_0042903	tubulin deacetylase activity
+http://purl.obolibrary.org/obo/GO_1905931	negative regulation of vascular associated smooth muscle cell differentiation involved in phenotypic switching	http://purl.obolibrary.org/obo/GO_1905420	vascular associated smooth muscle cell differentiation involved in phenotypic switching
+http://purl.obolibrary.org/obo/GO_0106215	negative regulation of vesicle fusion with Golgi apparatus	http://purl.obolibrary.org/obo/GO_0048280	vesicle fusion with Golgi apparatus
+http://purl.obolibrary.org/obo/GO_0045851	pH reduction	http://purl.obolibrary.org/obo/OBA_0000121	pH
+http://purl.obolibrary.org/obo/GO_0031648	protein destabilization	http://purl.obolibrary.org/obo/OBA_0000128	protein stability

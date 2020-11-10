@@ -1,25 +1,25 @@
 pattern_name: 'import_across_membrane'
 
 classes:
-  'membrane': 'GO:0016020'
-  'cellular_component': 'GO:0005575'
-  'chemical entity': 'CHEBI:24431'
-  'macromolecular complex': 'GO:0032991'
-  'transcript': 'SO:0000673'
-  'transport': 'GO:0006810'
+  membrane: 'GO:0016020'
+  cellular_component: 'GO:0005575'
+  chemical entity: 'CHEBI:24431'
+  macromolecular complex: 'GO:0032991'
+  transcript: 'SO:0000673'
+  transport: 'GO:0006810'
 
 relations:
-  'transports or maintains localization of': 'RO:0002313'
-  'has target start location': 'RO:0002338'
-  'has target end location': 'RO:0002339'
-  'results in transport across': 'RO:0002342'
-  'imports': 'RO:0002340'
+  transports or maintains localization of: 'RO:0002313'
+  has target start location: 'RO:0002338'
+  has target end location: 'RO:0002339'
+  results in transport across: 'RO:0002342'
+  imports: 'RO:0002340'
   
 vars: 
-  'membrane': "membrane"
-  'cargo': "chemical entity" or "macromolecular complex" or "transcript"
-  'start': "cellular_component"
-  'end': "cellular_component"
+  membrane: "membrane"
+  cargo: "'chemical entity' or 'macromolecular complex' or transcript"
+  start: "cellular_component"
+  end: "cellular_component"
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -43,9 +43,7 @@ def:
     - 'start'
     - 'membrane'
     - 'end'
-
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
+  xrefs: def_xrefs
 
 comment: 
   text: "This term covers %s *across* the %s through a channel or pore. It does not cover import via vesicle fusion with %s or vesiculation, as in these cases transport does not involve crossing the membrane."
@@ -55,7 +53,7 @@ comment:
     - 'membrane'
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 

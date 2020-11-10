@@ -11,9 +11,9 @@ vars:
  target: "'anatomical structure'"
 
 name:
-     text: "%s morphogenesis"
-     vars:
-       - target
+  text: "%s morphogenesis"
+  vars:
+    - target
 
 def:
   text: "The developmental process by which %s is generated and organized."
@@ -24,7 +24,3 @@ equivalentTo:
   text: " 'anatomical structure morphogenesis' and 'results in morphogenesis of' some %s"
   vars:
     - target
-
-    
-
-

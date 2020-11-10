@@ -1,10 +1,10 @@
-pattern_name: 'transmembrane_transport'
+pattern_name: 'organelle_transmembrane_transport'
 
 classes:
-  'transport': 'GO:0006810'
+  transport: 'GO:0006810'
 
 relations: 
-  'transports_or_maintains_localization_of': 'RO:0002313'
+  transports_or_maintains_localization_of: 'RO:0002313'
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -16,24 +16,21 @@ data_list_vars:
   related_syn: "xsd:string"
   
 name:
-     text: "%s transmembrane transport"
+  text: "%s %t transmembrane transport"
 
 def:
-  text: "The process in which a x is transported across a membrane."
-
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
+  text: "The process in which a x is transported across a y membrane, into or out of the y."
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
    
 namespace: 
   text: 'biological_process'
   
 equivalentTo:
-  text: " 'transport' and 'transports_or_maintains_localization_of' 
-   and 'results in transport across' some membrane
+  text: " 'transport' and 'transports_or_maintains_localization_of' some x and 'results in transport across' some y membrane and 'results in transport to from or in' some y
     
 # Boilerplate - don't edit
 exact_synonyms: 
@@ -44,3 +41,4 @@ broad_synonyms:
    value: broad_syn
 related_synonyms: 
 value: related_syn
+

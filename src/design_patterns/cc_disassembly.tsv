@@ -1,61 +1,64 @@
-iri	iri label	target	target label
-GO:1905783	CENP-A containing nucleosome disassembly	GO:0043505	CENP-A containing nucleosome
-GO:1904903	ESCRT III complex disassembly	GO:0000815	ESCRT III complex
-GO:1904896	ESCRT complex disassembly	GO:0036452	ESCRT complex
-GO:0090166	Golgi disassembly	GO:0005794	Golgi apparatus
-GO:1903864	P granule disassembly	GO:0043186	P granule
-GO:0035494	SNARE complex disassembly	GO:0031201	SNARE complex
-GO:1905670	TORC2 complex disassembly	GO:0031932	TORC2 complex
-GO:1902621	actomyosin contractile ring disassembly	GO:0005826	actomyosin contractile ring
-GO:0030399	autophagosome membrane disassembly	GO:0000421	autophagosome membrane
-GO:0060881	basal lamina disassembly	GO:0005605	basal lamina
-GO:0034769	basement membrane disassembly	GO:0005604	basement membrane
-GO:1904886	beta-catenin destruction complex disassembly	GO:0030877	beta-catenin destruction complex
-GO:0044277	cell wall disassembly	GO:0005618	cell wall
-GO:1904821	chloroplast disassembly	GO:0009507	chloroplast
-GO:0031498	chromatin disassembly	GO:0000785	chromatin
-GO:0061523	cilium disassembly	GO:0005929	cilium
-GO:0072318	clathrin coat disassembly	GO:0030118	clathrin coat
-GO:0035921	desmosome disassembly	GO:0030057	desmosome
-GO:1905692	endoplasmic reticulum disassembly	GO:0005783	endoplasmic reticulum
-GO:1905805	excitatory synapse disassembly	GO:0060076	excitatory synapse
-GO:1903259	exon-exon junction complex disassembly	GO:0035145	exon-exon junction complex
-GO:0022617	extracellular matrix disassembly	GO:0044420	extracellular matrix component
-GO:0071853	fungal-type cell wall disassembly	GO:0009277	fungal-type cell wall
-GO:1905691	lipid droplet disassembly	GO:0005811	lipid droplet
-GO:0090495	low-density lipoprotein particle disassembly	GO:0034362	low-density lipoprotein particle
-GO:0032984	macromolecular complex disassembly	GO:0032991	macromolecular complex
-GO:1905199	manchette disassembly	GO:0002177	manchette
-GO:0030397	membrane disassembly	GO:0016020	membrane
-GO:0007019	microtubule depolymerization	GO:0005874	microtubule
-GO:0061726	mitochondrion disassembly	GO:0005739	mitochondrion
-GO:0034496	multivesicular body membrane disassembly	GO:0032585	multivesicular body membrane
-GO:0031037	myosin II filament disassembly	GO:0097513	myosin II filament
-GO:0031035	myosin filament disassembly	GO:0032982	myosin filament
-GO:0051081	nuclear envelope disassembly	GO:0005635	nuclear envelope
-GO:0006337	nucleosome disassembly	GO:0000786	nucleosome
-GO:1905690	nucleus disassembly	GO:0005634	nucleus
-GO:1905071	occluding junction disassembly	GO:0070160	occluding junction
-GO:1903008	organelle disassembly	GO:0043226	organelle
-GO:0030398	peroxisomal membrane disassembly	GO:0005778	peroxisomal membrane
-GO:1905683	peroxisome disassembly	GO:0005777	peroxisome
-GO:0071829	plasma lipoprotein particle disassembly	GO:0034358	plasma lipoprotein particle
-GO:0030994	primary cell septum disassembly	GO:0000936	primary cell septum
-GO:1903009	proteasome complex disassembly	GO:0000502	proteasome complex
-GO:1902907	proteasome storage granule disassembly	GO:0034515	proteasome storage granule
-GO:0043241	protein complex disassembly	GO:0043234	protein complex
-GO:0032986	protein-DNA complex disassembly	GO:0032993	protein-DNA complex
-GO:0001117	protein-DNA-RNA complex disassembly	GO:0001114	protein-DNA-RNA complex
-GO:0032985	protein-carbohydrate complex disassembly	GO:0032992	protein-carbohydrate complex
-GO:0032987	protein-lipid complex disassembly	GO:0032994	protein-lipid complex
-GO:0032988	ribonucleoprotein complex disassembly	GO:0030529	intracellular ribonucleoprotein complex
-GO:0032790	ribosome disassembly	GO:0005840	ribosome
-GO:0031107	septin ring disassembly	GO:0005940	septin ring
-GO:0035045	sperm plasma membrane disassembly	GO:0097524	sperm plasma membrane
-GO:0051230	spindle disassembly	GO:0005819	spindle
-GO:0000390	spliceosomal complex disassembly	GO:0005681	spliceosomal complex
-GO:0035617	stress granule disassembly	GO:0010494	cytoplasmic stress granule
-GO:0010547	thylakoid membrane disassembly	GO:0042651	thylakoid membrane
-GO:0001118	transcription ternary complex disassembly	GO:0097523	transcription ternary complex
-GO:1904275	tricellular tight junction disassembly	GO:0061689	tricellular tight junction
-GO:0072319	vesicle uncoating	GO:0030120	vesicle coat
+defined_class	defined_class_label	target	target_label
+http://purl.obolibrary.org/obo/GO_1905783	CENP-A containing nucleosome disassembly	http://purl.obolibrary.org/obo/GO_0043505	CENP-A containing nucleosome
+http://purl.obolibrary.org/obo/GO_1990986	DNA recombinase disassembly	http://purl.obolibrary.org/obo/GO_0097519	DNA recombinase complex
+http://purl.obolibrary.org/obo/GO_1904903	ESCRT III complex disassembly	http://purl.obolibrary.org/obo/GO_0000815	ESCRT III complex
+http://purl.obolibrary.org/obo/GO_1904896	ESCRT complex disassembly	http://purl.obolibrary.org/obo/GO_0036452	ESCRT complex
+http://purl.obolibrary.org/obo/GO_0090166	Golgi disassembly	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus
+http://purl.obolibrary.org/obo/GO_1903864	P granule disassembly	http://purl.obolibrary.org/obo/GO_0043186	P granule
+http://purl.obolibrary.org/obo/GO_0035494	SNARE complex disassembly	http://purl.obolibrary.org/obo/GO_0031201	SNARE complex
+http://purl.obolibrary.org/obo/GO_1905670	TORC2 complex disassembly	http://purl.obolibrary.org/obo/GO_0031932	TORC2 complex
+http://purl.obolibrary.org/obo/GO_1902621	actomyosin contractile ring disassembly	http://purl.obolibrary.org/obo/GO_0005826	actomyosin contractile ring
+http://purl.obolibrary.org/obo/GO_0030399	autophagosome membrane disassembly	http://purl.obolibrary.org/obo/GO_0000421	autophagosome membrane
+http://purl.obolibrary.org/obo/GO_0034769	basement membrane disassembly	http://purl.obolibrary.org/obo/GO_0005604	basement membrane
+http://purl.obolibrary.org/obo/GO_1904886	beta-catenin destruction complex disassembly	http://purl.obolibrary.org/obo/GO_0030877	beta-catenin destruction complex
+http://purl.obolibrary.org/obo/GO_0150146	cell junction disassembly	http://purl.obolibrary.org/obo/GO_0030054	cell junction
+http://purl.obolibrary.org/obo/GO_0044277	cell wall disassembly	http://purl.obolibrary.org/obo/GO_0005618	cell wall
+http://purl.obolibrary.org/obo/GO_1904821	chloroplast disassembly	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0031498	chromatin disassembly	http://purl.obolibrary.org/obo/GO_0000785	chromatin
+http://purl.obolibrary.org/obo/GO_0061523	cilium disassembly	http://purl.obolibrary.org/obo/GO_0005929	cilium
+http://purl.obolibrary.org/obo/GO_0072318	clathrin coat disassembly	http://purl.obolibrary.org/obo/GO_0030118	clathrin coat
+http://purl.obolibrary.org/obo/GO_0035921	desmosome disassembly	http://purl.obolibrary.org/obo/GO_0030057	desmosome
+http://purl.obolibrary.org/obo/GO_1905692	endoplasmic reticulum disassembly	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_1905805	excitatory synapse pruning	http://purl.obolibrary.org/obo/GO_0060076	excitatory synapse
+http://purl.obolibrary.org/obo/GO_1903259	exon-exon junction complex disassembly	http://purl.obolibrary.org/obo/GO_0035145	exon-exon junction complex
+http://purl.obolibrary.org/obo/GO_0022617	extracellular matrix disassembly	http://purl.obolibrary.org/obo/GO_0031012	extracellular matrix
+http://purl.obolibrary.org/obo/GO_0120181	focal adhesion disassembly	http://purl.obolibrary.org/obo/GO_0005925	focal adhesion
+http://purl.obolibrary.org/obo/GO_0071853	fungal-type cell wall disassembly	http://purl.obolibrary.org/obo/GO_0009277	fungal-type cell wall
+http://purl.obolibrary.org/obo/GO_1905691	lipid droplet disassembly	http://purl.obolibrary.org/obo/GO_0005811	lipid droplet
+http://purl.obolibrary.org/obo/GO_0090495	low-density lipoprotein particle disassembly	http://purl.obolibrary.org/obo/GO_0034362	low-density lipoprotein particle
+http://purl.obolibrary.org/obo/GO_1905199	manchette disassembly	http://purl.obolibrary.org/obo/GO_0002177	manchette
+http://purl.obolibrary.org/obo/GO_0030397	membrane disassembly	http://purl.obolibrary.org/obo/GO_0016020	membrane
+http://purl.obolibrary.org/obo/GO_0007019	microtubule depolymerization	http://purl.obolibrary.org/obo/GO_0005874	microtubule
+http://purl.obolibrary.org/obo/GO_0061726	mitochondrion disassembly	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0034496	multivesicular body membrane disassembly	http://purl.obolibrary.org/obo/GO_0032585	multivesicular body membrane
+http://purl.obolibrary.org/obo/GO_0031037	myosin II filament disassembly	http://purl.obolibrary.org/obo/GO_0097513	myosin II filament
+http://purl.obolibrary.org/obo/GO_0031035	myosin filament disassembly	http://purl.obolibrary.org/obo/GO_0032982	myosin filament
+http://purl.obolibrary.org/obo/GO_0051081	nuclear envelope disassembly	http://purl.obolibrary.org/obo/GO_0005635	nuclear envelope
+http://purl.obolibrary.org/obo/GO_0006337	nucleosome disassembly	http://purl.obolibrary.org/obo/GO_0000786	nucleosome
+http://purl.obolibrary.org/obo/GO_1905690	nucleus disassembly	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_1903008	organelle disassembly	http://purl.obolibrary.org/obo/GO_0043226	organelle
+http://purl.obolibrary.org/obo/GO_0030398	peroxisomal membrane disassembly	http://purl.obolibrary.org/obo/GO_0005778	peroxisomal membrane
+http://purl.obolibrary.org/obo/GO_1905683	peroxisome disassembly	http://purl.obolibrary.org/obo/GO_0005777	peroxisome
+http://purl.obolibrary.org/obo/GO_0071829	plasma lipoprotein particle disassembly	http://purl.obolibrary.org/obo/GO_0034358	plasma lipoprotein particle
+http://purl.obolibrary.org/obo/GO_1904072	presynaptic active zone disassembly	http://purl.obolibrary.org/obo/GO_0048786	presynaptic active zone
+http://purl.obolibrary.org/obo/GO_1903009	proteasome complex disassembly	http://purl.obolibrary.org/obo/GO_0000502	proteasome complex
+http://purl.obolibrary.org/obo/GO_1902907	proteasome storage granule disassembly	http://purl.obolibrary.org/obo/GO_0034515	proteasome storage granule
+http://purl.obolibrary.org/obo/GO_0032986	protein-DNA complex disassembly	http://purl.obolibrary.org/obo/GO_0032993	protein-DNA complex
+http://purl.obolibrary.org/obo/GO_0001117	protein-DNA-RNA complex disassembly	http://purl.obolibrary.org/obo/GO_0001114	protein-DNA-RNA complex
+http://purl.obolibrary.org/obo/GO_0032985	protein-carbohydrate complex disassembly	http://purl.obolibrary.org/obo/GO_0032992	protein-carbohydrate complex
+http://purl.obolibrary.org/obo/GO_0032984	protein-containing complex disassembly	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex
+http://purl.obolibrary.org/obo/GO_0032987	protein-lipid complex disassembly	http://purl.obolibrary.org/obo/GO_0032994	protein-lipid complex
+http://purl.obolibrary.org/obo/GO_0032988	ribonucleoprotein complex disassembly	http://purl.obolibrary.org/obo/GO_1990904	ribonucleoprotein complex
+http://purl.obolibrary.org/obo/GO_0032790	ribosome disassembly	http://purl.obolibrary.org/obo/GO_0005840	ribosome
+http://purl.obolibrary.org/obo/GO_0031107	septin ring disassembly	http://purl.obolibrary.org/obo/GO_0005940	septin ring
+http://purl.obolibrary.org/obo/GO_0035045	sperm plasma membrane disassembly	http://purl.obolibrary.org/obo/GO_0097524	sperm plasma membrane
+http://purl.obolibrary.org/obo/GO_0051230	spindle disassembly	http://purl.obolibrary.org/obo/GO_0005819	spindle
+http://purl.obolibrary.org/obo/GO_0000390	spliceosomal complex disassembly	http://purl.obolibrary.org/obo/GO_0005681	spliceosomal complex
+http://purl.obolibrary.org/obo/GO_0035617	stress granule disassembly	http://purl.obolibrary.org/obo/GO_0010494	cytoplasmic stress granule
+http://purl.obolibrary.org/obo/GO_0098883	synapse pruning	http://purl.obolibrary.org/obo/GO_0045202	synapse
+http://purl.obolibrary.org/obo/GO_0070194	synaptonemal complex disassembly	http://purl.obolibrary.org/obo/GO_0000795	synaptonemal complex
+http://purl.obolibrary.org/obo/GO_0010547	thylakoid membrane disassembly	http://purl.obolibrary.org/obo/GO_0042651	thylakoid membrane
+http://purl.obolibrary.org/obo/GO_1905071	tight junction disassembly	http://purl.obolibrary.org/obo/GO_0070160	tight junction
+http://purl.obolibrary.org/obo/GO_0001118	transcription ternary complex disassembly	http://purl.obolibrary.org/obo/GO_0097523	transcription ternary complex
+http://purl.obolibrary.org/obo/GO_1904275	tricellular tight junction disassembly	http://purl.obolibrary.org/obo/GO_0061689	tricellular tight junction
+http://purl.obolibrary.org/obo/GO_0072319	vesicle uncoating	http://purl.obolibrary.org/obo/GO_0030120	vesicle coat

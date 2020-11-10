@@ -1,0 +1,26 @@
+pattern_name: x_specification
+
+classes:
+  anatomical structure: "UBERON:0000061"
+  cell fate specification: "GO:0001708"
+
+relations: 
+  results in specification of: "RO:0002356"
+
+vars:
+ target: "'anatomical structure'"
+
+name:
+  text: "%s specification"
+  vars:
+    - target
+
+def:
+  text: "The process involved in the specification of %s cell identity. "
+  vars:
+     - target
+
+equivalentTo:
+  text: " 'cell fate specification' and 'results in specification of' some %s"
+  vars:
+    - target

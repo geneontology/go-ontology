@@ -1,25 +1,122 @@
-iri	iri label	entity	entity label
-GO:0051454	intracellular pH elevation	OBA:0000050	cell pH
-GO:0035752	lysosomal lumen pH elevation	OBA:0000091	lysosomal lumen pH
-GO:0045852	pH elevation	OBA:0000121	pH
-GO:1905920	positive regulation of CoA-transferase activity	GO:0008410	CoA-transferase activity
-GO:1905923	positive regulation of acetylcholine biosynthetic process	GO:0008292	acetylcholine biosynthetic process
-GO:0090727	positive regulation of brood size	OBA:0000037	brood size
-GO:1905917	positive regulation of cell differentiation involved in phenotypic switching	GO:0090679	cell differentiation involved in phenotypic switching
-GO:1905935	positive regulation of cell fate determination	GO:0001709	cell fate determination
-GO:1905959	positive regulation of cellular response to alcohol	GO:0097306	cellular response to alcohol
-GO:0061755	positive regulation of circulating fibrinogen levels	OBA:0000061	circulating fibrinogen levels
-GO:1905956	positive regulation of endothelial tube morphogenesis	GO:0061154	endothelial tube morphogenesis
-GO:1905944	positive regulation of formation of growth cone in injured axon	GO:0048689	formation of growth cone in injured axon
-GO:1905938	positive regulation of germ cell proliferation	GO:0036093	germ cell proliferation
-GO:1905941	positive regulation of gonad development	GO:0008406	gonad development
-GO:0106016	positive regulation of inflammatory response to wounding	GO:0090594	inflammatory response to wounding
-GO:1905926	positive regulation of invadopodium assembly	GO:1905877	invadopodium assembly
-GO:1905929	positive regulation of invadopodium disassembly	GO:1905878	invadopodium disassembly
-GO:1905954	positive regulation of lipid localization	GO:0010876	lipid localization
-GO:0140077	positive regulation of lipoprotein transport	GO:0042953	lipoprotein transport
-GO:0101028	positive regulation of liquid surface tension	OBA:0000088	liquid surface tension
-GO:0061766	positive regulation of lung blood pressure	OBA:0000090	lung blood pressure
-GO:1905947	positive regulation of response to calcium ion	GO:0051592	response to calcium ion
-GO:1905932	positive regulation of vascular smooth muscle cell differentiation involved in phenotypic switching	GO:1905420	vascular smooth muscle cell differentiation involved in phenotypic switching
-GO:0050821	protein stabilization	OBA:0000128	protein stability
+defined_class	defined_class_label	entity	entity_label
+http://purl.obolibrary.org/obo/GO_0051454	intracellular pH elevation	http://purl.obolibrary.org/obo/OBA_0000050	cell pH
+http://purl.obolibrary.org/obo/GO_0035752	lysosomal lumen pH elevation	http://purl.obolibrary.org/obo/OBA_0000091	lysosomal lumen pH
+http://purl.obolibrary.org/obo/GO_0045852	pH elevation	http://purl.obolibrary.org/obo/OBA_0000121	pH
+http://purl.obolibrary.org/obo/GO_0075294	positive regulation by symbiont of entry into host	http://purl.obolibrary.org/obo/GO_0044409	entry into host
+http://purl.obolibrary.org/obo/GO_0106109	positive regulation of (R)-mevalonic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_1901737	(R)-mevalonic acid biosynthetic process
+http://purl.obolibrary.org/obo/GO_0150145	positive regulation of CD80 production	http://purl.obolibrary.org/obo/GO_0035780	CD80 biosynthetic process
+http://purl.obolibrary.org/obo/GO_0150142	positive regulation of CD86 production	http://purl.obolibrary.org/obo/GO_0035781	CD86 biosynthetic process
+http://purl.obolibrary.org/obo/GO_1905920	positive regulation of CoA-transferase activity	http://purl.obolibrary.org/obo/GO_0008410	CoA-transferase activity
+http://purl.obolibrary.org/obo/GO_0140217	positive regulation of D-aspartate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0070779	D-aspartate import across plasma membrane
+http://purl.obolibrary.org/obo/GO_0106253	positive regulation of DNA strand resection involved in replication fork processing	http://purl.obolibrary.org/obo/GO_0110025	DNA strand resection involved in replication fork processing
+http://purl.obolibrary.org/obo/GO_0140124	positive regulation of Lewy body formation	http://purl.obolibrary.org/obo/GO_0140121	Lewy body formation
+http://purl.obolibrary.org/obo/GO_0060391	positive regulation of SMAD protein signal transduction	http://purl.obolibrary.org/obo/GO_0060395	SMAD protein signal transduction
+http://purl.obolibrary.org/obo/GO_0106280	positive regulation of UDP-N-acetylglucosamine biosynthetic process	http://purl.obolibrary.org/obo/GO_0006048	UDP-N-acetylglucosamine biosynthetic process
+http://purl.obolibrary.org/obo/GO_1905923	positive regulation of acetylcholine biosynthetic process	http://purl.obolibrary.org/obo/GO_0008292	acetylcholine biosynthetic process
+http://purl.obolibrary.org/obo/GO_0140196	positive regulation of adenylate cyclase-activating adrenergic receptor signaling pathway involved in heart process	http://purl.obolibrary.org/obo/GO_0086023	adenylate cyclase-activating adrenergic receptor signaling pathway involved in heart process
+http://purl.obolibrary.org/obo/GO_0140195	positive regulation of adenylate cyclase-inhibiting adrenergic receptor signaling pathway involved in heart process	http://purl.obolibrary.org/obo/GO_0086096	adenylate cyclase-inhibiting adrenergic receptor signaling pathway involved in heart process
+http://purl.obolibrary.org/obo/GO_1903393	positive regulation of adherens junction organization	http://purl.obolibrary.org/obo/GO_0034332	adherens junction organization
+http://purl.obolibrary.org/obo/GO_0110110	positive regulation of animal organ morphogenesis	http://purl.obolibrary.org/obo/GO_0009887	animal organ morphogenesis
+http://purl.obolibrary.org/obo/GO_0075018	positive regulation of appressorium formation	http://purl.obolibrary.org/obo/GO_0075016	appressorium formation
+http://purl.obolibrary.org/obo/GO_0075027	positive regulation of appressorium initiation	http://purl.obolibrary.org/obo/GO_0075025	initiation of appressorium formation
+http://purl.obolibrary.org/obo/GO_0075037	positive regulation of appressorium maturation	http://purl.obolibrary.org/obo/GO_0075035	appressorium maturation
+http://purl.obolibrary.org/obo/GO_0075330	positive regulation of arbuscule formation for nutrient acquisition from host	http://purl.obolibrary.org/obo/GO_0075328	formation by symbiont of arbuscule for nutrient acquisition from host
+http://purl.obolibrary.org/obo/GO_0150072	positive regulation of arginase activity	http://purl.obolibrary.org/obo/GO_0004053	arginase activity
+http://purl.obolibrary.org/obo/GO_0110151	positive regulation of biomineralization	http://purl.obolibrary.org/obo/GO_0110148	biomineralization
+http://purl.obolibrary.org/obo/GO_0090727	positive regulation of brood size	http://purl.obolibrary.org/obo/OBA_0000037	brood size
+http://purl.obolibrary.org/obo/GO_0106058	positive regulation of calcineurin-mediated signaling	http://purl.obolibrary.org/obo/GO_0097720	calcineurin-mediated signaling
+http://purl.obolibrary.org/obo/GO_0110098	positive regulation of calcium import into the mitochondrion	http://purl.obolibrary.org/obo/GO_0036444	calcium import into the mitochondrion
+http://purl.obolibrary.org/obo/GO_0062000	positive regulation of cardiac endothelial to mesenchymal transition	http://purl.obolibrary.org/obo/GO_0140074	cardiac endothelial to mesenchymal transition
+http://purl.obolibrary.org/obo/GO_0062043	positive regulation of cardiac epithelial to mesenchymal transition	http://purl.obolibrary.org/obo/GO_0060317	cardiac epithelial to mesenchymal transition
+http://purl.obolibrary.org/obo/GO_0106134	positive regulation of cardiac muscle cell contraction	http://purl.obolibrary.org/obo/GO_0086003	cardiac muscle cell contraction
+http://purl.obolibrary.org/obo/GO_0045785	positive regulation of cell adhesion	http://purl.obolibrary.org/obo/GO_0007155	cell adhesion
+http://purl.obolibrary.org/obo/GO_1905917	positive regulation of cell differentiation involved in phenotypic switching	http://purl.obolibrary.org/obo/GO_0090679	cell differentiation involved in phenotypic switching
+http://purl.obolibrary.org/obo/GO_1905935	positive regulation of cell fate determination	http://purl.obolibrary.org/obo/GO_0001709	cell fate determination
+http://purl.obolibrary.org/obo/GO_1901890	positive regulation of cell junction assembly	http://purl.obolibrary.org/obo/GO_0034329	cell junction assembly
+http://purl.obolibrary.org/obo/GO_0001954	positive regulation of cell-matrix adhesion	http://purl.obolibrary.org/obo/GO_0007160	cell-matrix adhesion
+http://purl.obolibrary.org/obo/GO_0010811	positive regulation of cell-substrate adhesion	http://purl.obolibrary.org/obo/GO_0031589	cell-substrate adhesion
+http://purl.obolibrary.org/obo/GO_0150117	positive regulation of cell-substrate junction organization	http://purl.obolibrary.org/obo/GO_0150115	cell-substrate junction organization
+http://purl.obolibrary.org/obo/GO_0048522	positive regulation of cellular process	http://purl.obolibrary.org/obo/GO_0009987	cellular process
+http://purl.obolibrary.org/obo/GO_1905959	positive regulation of cellular response to alcohol	http://purl.obolibrary.org/obo/GO_0097306	cellular response to alcohol
+http://purl.obolibrary.org/obo/GO_0140430	positive regulation of chromosome passenger complex localization to kinetochore	http://purl.obolibrary.org/obo/GO_0072356	chromosome passenger complex localization to kinetochore
+http://purl.obolibrary.org/obo/GO_0061755	positive regulation of circulating fibrinogen levels	http://purl.obolibrary.org/obo/OBA_0000061	circulating fibrinogen levels
+http://purl.obolibrary.org/obo/GO_0106121	positive regulation of cobalamin metabolic process	http://purl.obolibrary.org/obo/GO_0009235	cobalamin metabolic process
+http://purl.obolibrary.org/obo/GO_0110117	positive regulation of compound eye photoreceptor cell differentiation	http://purl.obolibrary.org/obo/GO_0001751	compound eye photoreceptor cell differentiation
+http://purl.obolibrary.org/obo/GO_0090045	positive regulation of deacetylase activity	http://purl.obolibrary.org/obo/GO_0019213	deacetylase activity
+http://purl.obolibrary.org/obo/GO_0044129	positive regulation of development of symbiont in host	http://purl.obolibrary.org/obo/GO_0044114	development of symbiont in host
+http://purl.obolibrary.org/obo/GO_0044149	positive regulation of development of symbiont involved in interaction with host	http://purl.obolibrary.org/obo/GO_0044115	development of symbiont involved in interaction with host
+http://purl.obolibrary.org/obo/GO_1905956	positive regulation of endothelial tube morphogenesis	http://purl.obolibrary.org/obo/GO_0061154	endothelial tube morphogenesis
+http://purl.obolibrary.org/obo/GO_0061965	positive regulation of entry into reproductive diapause	http://purl.obolibrary.org/obo/GO_0055116	entry into reproductive diapause
+http://purl.obolibrary.org/obo/GO_0075041	positive regulation of establishment of turgor in appressorium	http://purl.obolibrary.org/obo/GO_0075039	establishment of turgor in appressorium
+http://purl.obolibrary.org/obo/GO_0106164	positive regulation of exonucleolytic catabolism of deadenylated mRNA	http://purl.obolibrary.org/obo/GO_0043928	exonucleolytic catabolism of deadenylated mRNA
+http://purl.obolibrary.org/obo/GO_0051894	positive regulation of focal adhesion assembly	http://purl.obolibrary.org/obo/GO_0048041	focal adhesion assembly
+http://purl.obolibrary.org/obo/GO_0120183	positive regulation of focal adhesion disassembly	http://purl.obolibrary.org/obo/GO_0120181	focal adhesion disassembly
+http://purl.obolibrary.org/obo/GO_0075046	positive regulation of formation by symbiont of haustorium for nutrient acquisition from host	http://purl.obolibrary.org/obo/GO_0052094	formation by symbiont of haustorium for nutrient acquisition from host
+http://purl.obolibrary.org/obo/GO_1905944	positive regulation of formation of growth cone in injured axon	http://purl.obolibrary.org/obo/GO_0048689	formation of growth cone in injured axon
+http://purl.obolibrary.org/obo/GO_0075031	positive regulation of formation of symbiont germ tube hook structure for appressorium development	http://purl.obolibrary.org/obo/GO_0075029	formation of symbiont germ tube hook structure for appressorium development
+http://purl.obolibrary.org/obo/GO_1903915	positive regulation of fusion of virus membrane with host plasma membrane	http://purl.obolibrary.org/obo/GO_0019064	fusion of virus membrane with host plasma membrane
+http://purl.obolibrary.org/obo/GO_1905938	positive regulation of germ cell proliferation	http://purl.obolibrary.org/obo/GO_0036093	germ cell proliferation
+http://purl.obolibrary.org/obo/GO_1905941	positive regulation of gonad development	http://purl.obolibrary.org/obo/GO_0008406	gonad development
+http://purl.obolibrary.org/obo/GO_0075194	positive regulation of haustorium mother cell formation	http://purl.obolibrary.org/obo/GO_0075192	haustorium mother cell formation
+http://purl.obolibrary.org/obo/GO_0061961	positive regulation of heme oxygenase activity	http://purl.obolibrary.org/obo/GO_0004392	heme oxygenase (decyclizing) activity
+http://purl.obolibrary.org/obo/GO_0110090	positive regulation of hippocampal neuron apoptotic process	http://purl.obolibrary.org/obo/GO_0110088	hippocampal neuron apoptotic process
+http://purl.obolibrary.org/obo/GO_0150167	positive regulation of histone H3-K4 acetylation	http://purl.obolibrary.org/obo/GO_0043973	histone H3-K4 acetylation
+http://purl.obolibrary.org/obo/GO_0075189	positive regulation of hyphopodium formation	http://purl.obolibrary.org/obo/GO_0075187	hyphopodium formation
+http://purl.obolibrary.org/obo/GO_0110138	positive regulation of imaginal disc-derived leg joint morphogenesis	http://purl.obolibrary.org/obo/GO_0007480	imaginal disc-derived leg morphogenesis
+http://purl.obolibrary.org/obo/GO_0110108	positive regulation of imaginal disc-derived wing vein specification	http://purl.obolibrary.org/obo/GO_0007474	imaginal disc-derived wing vein specification
+http://purl.obolibrary.org/obo/GO_0075185	positive regulation of infection cushion formation	http://purl.obolibrary.org/obo/GO_0075183	infection cushion formation
+http://purl.obolibrary.org/obo/GO_0106016	positive regulation of inflammatory response to wounding	http://purl.obolibrary.org/obo/GO_0090594	inflammatory response to wounding
+http://purl.obolibrary.org/obo/GO_0150153	positive regulation of interleukin-17A production	http://purl.obolibrary.org/obo/GO_0097087	interleukin-17A production
+http://purl.obolibrary.org/obo/GO_0150191	positive regulation of interleukin-32 production	http://purl.obolibrary.org/obo/GO_0072637	interleukin-32 production
+http://purl.obolibrary.org/obo/GO_0150129	positive regulation of interleukin-33 production	http://purl.obolibrary.org/obo/GO_0072639	interleukin-33 production
+http://purl.obolibrary.org/obo/GO_0150158	positive regulation of interleukin-34 production	http://purl.obolibrary.org/obo/GO_0150155	interleukin-34 production
+http://purl.obolibrary.org/obo/GO_0150139	positive regulation of interleukin-37 production	http://purl.obolibrary.org/obo/GO_0150137	interleukin-37 production
+http://purl.obolibrary.org/obo/GO_1905926	positive regulation of invadopodium assembly	http://purl.obolibrary.org/obo/GO_1905877	invadopodium assembly
+http://purl.obolibrary.org/obo/GO_1905929	positive regulation of invadopodium disassembly	http://purl.obolibrary.org/obo/GO_1905878	invadopodium disassembly
+http://purl.obolibrary.org/obo/GO_1904040	positive regulation of iron export across plasma membrane	http://purl.obolibrary.org/obo/GO_1903988	iron ion export across plasma membrane
+http://purl.obolibrary.org/obo/GO_1905954	positive regulation of lipid localization	http://purl.obolibrary.org/obo/GO_0010876	lipid localization
+http://purl.obolibrary.org/obo/GO_0110113	positive regulation of lipid transporter activity	http://purl.obolibrary.org/obo/GO_0005319	lipid transporter activity
+http://purl.obolibrary.org/obo/GO_0140077	positive regulation of lipoprotein transport	http://purl.obolibrary.org/obo/GO_0042953	lipoprotein transport
+http://purl.obolibrary.org/obo/GO_0101028	positive regulation of liquid surface tension	http://purl.obolibrary.org/obo/OBA_0000088	liquid surface tension
+http://purl.obolibrary.org/obo/GO_0140214	positive regulation of long-chain fatty acid import into cell	http://purl.obolibrary.org/obo/GO_0044539	long-chain fatty acid import into cell
+http://purl.obolibrary.org/obo/GO_0061766	positive regulation of lung blood pressure	http://purl.obolibrary.org/obo/OBA_0000090	lung blood pressure
+http://purl.obolibrary.org/obo/GO_0140409	positive regulation of mRNA alternative polyadenylation	http://purl.obolibrary.org/obo/GO_0110104	mRNA alternative polyadenylation
+http://purl.obolibrary.org/obo/GO_0062041	positive regulation of meiotic sister chromatid arm separation	http://purl.obolibrary.org/obo/GO_0051755	meiotic sister chromatid arm separation
+http://purl.obolibrary.org/obo/GO_0106116	positive regulation of mitotic cohesin dsDNA (leading strand) loading	http://purl.obolibrary.org/obo/GO_0062021	mitotic cohesin dsDNA (leading strand) loading
+http://purl.obolibrary.org/obo/GO_0106113	positive regulation of mitotic cohesin ssDNA (lagging strand) loading	http://purl.obolibrary.org/obo/GO_0062022	mitotic cohesin ssDNA (lagging strand) loading
+http://purl.obolibrary.org/obo/GO_0140281	positive regulation of mitotic division septum assembly	http://purl.obolibrary.org/obo/GO_0140278	mitotic division septum assembly
+http://purl.obolibrary.org/obo/GO_0140429	positive regulation of mitotic sister chromatid biorientation	http://purl.obolibrary.org/obo/GO_1990758	mitotic sister chromatid biorientation
+http://purl.obolibrary.org/obo/GO_0062033	positive regulation of mitotic sister chromatid segregation	http://purl.obolibrary.org/obo/GO_0000070	mitotic sister chromatid segregation
+http://purl.obolibrary.org/obo/GO_0110164	positive regulation of mitotic spindle elongation (spindle phase three)	http://purl.obolibrary.org/obo/GO_0061805	mitotic spindle elongation (spindle phase three)
+http://purl.obolibrary.org/obo/GO_0110161	positive regulation of mitotic spindle formation (spindle phase one)	http://purl.obolibrary.org/obo/GO_0061804	mitotic spindle formation (spindle phase one)
+http://purl.obolibrary.org/obo/GO_0110124	positive regulation of myotube cell migration	http://purl.obolibrary.org/obo/GO_0110122	myotube cell migration
+http://purl.obolibrary.org/obo/GO_0150078	positive regulation of neuroinflammatory response	http://purl.obolibrary.org/obo/GO_0150076	neuroinflammatory response
+http://purl.obolibrary.org/obo/GO_0075055	positive regulation of penetration peg formation	http://purl.obolibrary.org/obo/GO_0075053	penetration peg formation
+http://purl.obolibrary.org/obo/GO_0062038	positive regulation of pheromone response MAPK cascade	http://purl.obolibrary.org/obo/GO_0071507	pheromone response MAPK cascade
+http://purl.obolibrary.org/obo/GO_0150173	positive regulation of phosphatidylcholine metabolic process	http://purl.obolibrary.org/obo/GO_0046470	phosphatidylcholine metabolic process
+http://purl.obolibrary.org/obo/GO_0150176	positive regulation of phosphatidylethanolamine metabolic process	http://purl.obolibrary.org/obo/GO_0046337	phosphatidylethanolamine metabolic process
+http://purl.obolibrary.org/obo/GO_0150179	positive regulation of phosphatidylserine metabolic process	http://purl.obolibrary.org/obo/GO_0006658	phosphatidylserine metabolic process
+http://purl.obolibrary.org/obo/GO_0110080	positive regulation of placenta blood vessel development	http://purl.obolibrary.org/obo/GO_0060674	placenta blood vessel development
+http://purl.obolibrary.org/obo/GO_0106248	positive regulation of poly(A)-specific ribonuclease activity	http://purl.obolibrary.org/obo/GO_0004535	poly(A)-specific ribonuclease activity
+http://purl.obolibrary.org/obo/GO_1904704	positive regulation of protein localization to adherens junction	http://purl.obolibrary.org/obo/GO_0071896	protein localization to adherens junction
+http://purl.obolibrary.org/obo/GO_0110083	positive regulation of protein localization to cell division site involved in mitotic actomyosin contractile ring assembly	http://purl.obolibrary.org/obo/GO_1903476	protein localization to cell division site involved in mitotic actomyosin contractile ring assembly
+http://purl.obolibrary.org/obo/GO_0150107	positive regulation of protein localization to cell-cell junction	http://purl.obolibrary.org/obo/GO_0150105	protein localization to cell-cell junction
+http://purl.obolibrary.org/obo/GO_0150032	positive regulation of protein localization to lysosome	http://purl.obolibrary.org/obo/GO_0061462	protein localization to lysosome
+http://purl.obolibrary.org/obo/GO_0140434	positive regulation of protein localization to meiotic spindle pole body	http://purl.obolibrary.org/obo/GO_1902441	protein localization to meiotic spindle pole body
+http://purl.obolibrary.org/obo/GO_0150074	positive regulation of protein-glutamine gamma-glutamyltransferase activity	http://purl.obolibrary.org/obo/GO_0003810	protein-glutamine gamma-glutamyltransferase activity
+http://purl.obolibrary.org/obo/GO_1905947	positive regulation of response to calcium ion	http://purl.obolibrary.org/obo/GO_0051592	response to calcium ion
+http://purl.obolibrary.org/obo/GO_0140501	positive regulation of reticulophagy	http://purl.obolibrary.org/obo/GO_0061709	reticulophagy
+http://purl.obolibrary.org/obo/GO_0106161	positive regulation of small RNA loading onto RISC	http://purl.obolibrary.org/obo/GO_0070922	small RNA loading onto RISC
+http://purl.obolibrary.org/obo/GO_0075224	positive regulation of sporangium germination	http://purl.obolibrary.org/obo/GO_0075222	sporangium germination
+http://purl.obolibrary.org/obo/GO_0106120	positive regulation of sterol biosynthetic process	http://purl.obolibrary.org/obo/GO_0016126	sterol biosynthetic process
+http://purl.obolibrary.org/obo/GO_0106129	positive regulation of store-operated calcium entry	http://purl.obolibrary.org/obo/GO_0002115	store-operated calcium entry
+http://purl.obolibrary.org/obo/GO_0075199	positive regulation of symbiont haustorium neck formation for entry into host	http://purl.obolibrary.org/obo/GO_0075197	haustorium neck formation
+http://purl.obolibrary.org/obo/GO_0075203	positive regulation of symbiont penetration hypha formation for entry into host	http://purl.obolibrary.org/obo/GO_0075201	penetration hypha formation
+http://purl.obolibrary.org/obo/GO_0140471	positive regulation of transepithelial migration of symbiont in host	http://purl.obolibrary.org/obo/GO_0035756	transepithelial migration of symbiont in host
+http://purl.obolibrary.org/obo/GO_0071636	positive regulation of transforming growth factor beta production	http://purl.obolibrary.org/obo/GO_0071604	transforming growth factor beta production
+http://purl.obolibrary.org/obo/GO_0150201	positive regulation of transport across blood-brain barrier	http://purl.obolibrary.org/obo/GO_0150104	transport across blood-brain barrier
+http://purl.obolibrary.org/obo/GO_0150068	positive regulation of tubulin deacetylase activity	http://purl.obolibrary.org/obo/GO_0042903	tubulin deacetylase activity
+http://purl.obolibrary.org/obo/GO_1905932	positive regulation of vascular associated smooth muscle cell differentiation involved in phenotypic switching	http://purl.obolibrary.org/obo/GO_1905420	vascular associated smooth muscle cell differentiation involved in phenotypic switching
+http://purl.obolibrary.org/obo/GO_0106216	positive regulation of vesicle fusion with Golgi apparatus	http://purl.obolibrary.org/obo/GO_0048280	vesicle fusion with Golgi apparatus
+http://purl.obolibrary.org/obo/GO_0046598	positive regulation of viral entry into host cell	http://purl.obolibrary.org/obo/GO_0046718	viral entry into host cell
+http://purl.obolibrary.org/obo/GO_0050821	protein stabilization	http://purl.obolibrary.org/obo/OBA_0000128	protein stability

@@ -1,21 +1,21 @@
-pattern_name: 'import_across_plasma_membrane'
+pattern_name: import_across_plasma_membrane
 
 classes:
-  'transport': 'GO:0006810'
-  'extracellular region': 'GO:0005576'
-  'cytosol': 'GO:0005829'
-  'chemical entity': 'CHEBI:24431' #encompasses protein
-  'macromolecular complex': 'GO:0043234' #encompasses protein complex
-  'plasma membrane': 'GO:0005886'
+  transport: 'GO:0006810'
+  extracellular region: 'GO:0005576'
+  cytosol: 'GO:0005829'
+  chemical entity: 'CHEBI:24431' #encompasses protein
+  macromolecular complex: 'GO:0043234' #encompasses protein complex
+  plasma membrane: 'GO:0005886'
 
 relations:
-  'has target start location': 'RO:0002338'
-  'has target end location': 'RO:0002339'
-  'results in transport across': 'RO:0002342'
-  'imports': 'RO:0002340'
+  has target start location: 'RO:0002338'
+  has target end location: 'RO:0002339'
+  results in transport across: 'RO:0002342'
+  imports: 'RO:0002340'
   
 vars: 
-  'imported': "chemical entity"
+  imported: "'chemical entity'"
 
 # Boilerplate - don't edit
 data_list_vars:
@@ -31,18 +31,14 @@ name:
   vars:
     - 'imported'
 
-
 def:
   text: "The directed movement of %s from outside of a cell, across the plasma membrane and into the cytoplasmic compartment."
   vars:
     - 'imported'
-
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
-
+  xrefs: def_xrefs
 
 # Boilerplate - don't edit
-xrefs: 
+xref: 
    value: cross_references
 
 namespace: 
