@@ -803,7 +803,6 @@ GO:0019530	taurine metabolic process	NCBITaxon:33208	Metazoa
 GO:1990205	taurine dioxygenase complex	NCBITaxon:33208	Metazoa
 GO:0042412	taurine biosynthetic process	NCBITaxon:33208	Metazoa
 GO:0050323	taurine dehydrogenase activity	NCBITaxon:33208	Metazoa
-GO:0000908	taurine dioxygenase activity	NCBITaxon:2	Bacteria
 GO:0019529	taurine catabolic process	NCBITaxon:33208	Metazoa
 GO:0031299	taurine-pyruvate aminotransferase activity	NCBITaxon:33208	Metazoa
 GO:0005368	taurine transmembrane transporter activity	NCBITaxon:33208	Metazoa
