@@ -813,3 +813,4 @@ GO:0103012	ferredoxin-thioredoxin reductase activity	NCBITaxon:33090	Viridiplant
 GO:0030386	ferredoxin:thioredoxin reductase complex	NCBITaxon:33090	Viridiplantae
 GO:0000908	taurine dioxygenase activity	NCBITaxon:2	Bacteria
 GO:1990205	taurine dioxygenase complex	NCBITaxon:2	Bacteria
+GO:0140549	spore inner membrane	NCBITaxon:2	Bacteria
