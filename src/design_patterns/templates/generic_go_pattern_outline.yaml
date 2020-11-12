@@ -1,3 +1,4 @@
+# This is the generic template for GO design patterns. Do not edit. 
 # This is a YAML file.  Use a consistent number of spaces for indent.  Do not use tabs.
 pattern_name: '.' # Add a name used to identify the pattern here.
 
@@ -12,7 +13,6 @@ vars: # A dictionary of class variable names (Keys = var name, value = range, sp
   # OWL entities referenced must be single quoted and in dictionaries.
   '.':"." # Please choose informative var names without special characters or spaces (apart from '_')
 
-# Boilerplate - don't edit
 data_list_vars:
   def_xrefs: "xsd:string"
   cross_references: "xsd:string"
@@ -31,10 +31,8 @@ def: # See comments on name field
   text: "."
   vars:
     - '.'
-  xrefs: # Boilerplate - don't edit
-     value: def_xrefs
+  xrefs: def_xrefs
 
-# Boilerplate - don't edit
 xrefs: 
    value: cross_references
 
@@ -49,8 +47,7 @@ equivalentTo:
   vars:
     - '.'
 
-# Boilerplate - don't edit
-exact_synonyms: 
+exact_synonyms: # Optional, would be used for example when load lists of terms from a spreadsheet or from tools like TermGenie
    value: exact_syn
 narrow_synonyms: 
    value: narrow_syn
