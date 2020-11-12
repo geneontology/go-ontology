@@ -1,32 +1,42 @@
 pattern_name: 'binding'
 
 classes:
-  molecular_function: 'GO:0003674'
   binding: 'GO:0005488'
+  chemical entity: 'CHEBI:24431'
 
 relations:
   has input: 'RO:0002629' 
   
 vars:
-  has_input: %s 
+  input: "'chemical entity'"
 
 data_list_vars:
-  def_dbxrefs: "xsd:string"
+  def_xrefs: "xsd:string"
+  cross_references: "xsd:string"
+  exact_syn: "xsd:string"
+  narrow_syn: "xsd:string"
+  broad_syn: "xsd:string"
+  related_syn: "xsd:string"
   
 name:
   text: "%s binding"
+  vars:
+    - input
     
 def: 
   text: "Binding to a %s."
+  vars:
+    - input
   xrefs: def_xrefs
 
-# Boilerplate - don't edit
-xref: 
+xrefs: 
    value: cross_references
 
 namespace: 
-  text: 'biological_process'  # e.g. biological_process, quoting is optional
+  text: molecular_function  # e.g. biological_process, quoting is optional
 
 equivalentTo: 
-  text: "'binding' has input some %s" 
+  text: "'binding' and ('has input' some %s)" 
+  vars:
+    - input
   
