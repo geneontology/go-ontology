@@ -799,19 +799,17 @@ GO:1903753	negative regulation of p38MAPK cascade	NCBITaxon:33208	Metazoa
 GO:1900745	positive regulation of p38MAPK cascade	NCBITaxon:33208	Metazoa
 GO:0086036	regulation of cardiac muscle cell membrane potential	NCBITaxon:33208	Metazoa
 GO:0015734	taurine transport	NCBITaxon:33208	Metazoa
-GO:0019530	taurine metabolic process	NCBITaxon:33208	Metazoa
-GO:1990205	taurine dioxygenase complex	NCBITaxon:33208	Metazoa
 GO:0042412	taurine biosynthetic process	NCBITaxon:33208	Metazoa
 GO:0050323	taurine dehydrogenase activity	NCBITaxon:33208	Metazoa
-GO:0019529	taurine catabolic process	NCBITaxon:33208	Metazoa
 GO:0031299	taurine-pyruvate aminotransferase activity	NCBITaxon:33208	Metazoa
 GO:0005368	taurine transmembrane transporter activity	NCBITaxon:33208	Metazoa
 GO:0015411	ATPase-coupled taurine transporter activity	NCBITaxon:33208	Metazoa
 GO:0050322	taurine-2-oxoglutarate transaminase activity	NCBITaxon:33208	Metazoa
 GO:0062089	regulation of taurine biosynthetic process	NCBITaxon:33208	Metazoa
 GO:0005369	taurine:sodium symporter activity	NCBITaxon:33208	Metazoa
-GO:0062090	positive regulation of taurine biosynthetic process	NCBITaxon:33208	Metazoa
 GO:0019452	L-cysteine catabolic process to taurine	NCBITaxon:33208	Metazoa
 GO:0050325	tauropine dehydrogenase activity	NCBITaxon:33208	Metazoa
 GO:0103012	ferredoxin-thioredoxin reductase activity	NCBITaxon:33090	Viridiplantae
 GO:0030386	ferredoxin:thioredoxin reductase complex	NCBITaxon:33090	Viridiplantae
+GO:0000908	taurine dioxygenase activity	NCBITaxon:2	Bacteria
+GO:1990205	taurine dioxygenase complex	NCBITaxon:2	Bacteria
