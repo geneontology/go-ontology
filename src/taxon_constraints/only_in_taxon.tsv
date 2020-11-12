@@ -815,3 +815,4 @@ GO:0019452	L-cysteine catabolic process to taurine	NCBITaxon:33208	Metazoa
 GO:0050325	tauropine dehydrogenase activity	NCBITaxon:33208	Metazoa
 GO:0103012	ferredoxin-thioredoxin reductase activity	NCBITaxon:33090	Viridiplantae
 GO:0030386	ferredoxin:thioredoxin reductase complex	NCBITaxon:33090	Viridiplantae
+GO:0000908	taurine dioxygenase activity	NCBITaxon:2	Bacteria
