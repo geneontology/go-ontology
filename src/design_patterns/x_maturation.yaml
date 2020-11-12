@@ -5,7 +5,7 @@ classes:
   developmental maturation: "GO:0021700"
 
 relations: 
-  results in developmental progression of: "RO:0002295"
+  results in maturation of: "RO:0002299"
 
 vars:
  target: "'anatomical structure'"
@@ -21,6 +21,6 @@ def:
      - target
 
 equivalentTo:
-  text: " 'developmental maturation' and 'results in developmental progression of' some %s"
+  text: " 'developmental maturation' and 'results in maturation of' some %s"
   vars:
     - target
