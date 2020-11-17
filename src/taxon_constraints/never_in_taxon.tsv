@@ -516,3 +516,5 @@ GO:0001726	ruffle	NCBITaxon:33090	Viridiplantae
 GO:1900027	regulation of ruffle assembly	NCBITaxon:2	Bacteria
 GO:1900027	regulation of ruffle assembly	NCBITaxon:4751	Fungi
 GO:1900027	regulation of ruffle assembly	NCBITaxon:33090	Viridiplantae
+GO:0007232	osmosensory signaling pathway via Sho1 osmosensor	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0007234	osmosensory signaling via phosphorelay pathway	NCBITaxon:4896	Schizosaccharomyces pombe
