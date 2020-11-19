@@ -576,6 +576,9 @@ sub check_xref {
     if ($x =~ m@^http://@) {
         return;
     }
+    if ($x =~ m@^https://@) {
+        return;
+    }
     if ($x =~ /^([\w\-]+):/) {
         my $prefix = $1;
         if (!$abbsh{$prefix} && $prefix ne 'GOCHEREL') {
