@@ -29,5 +29,5 @@ jobs:
       - name: Change to ontology directory
         run: ls #cd src/ontology
 
-      #- name: Run ontology QC checks
-      #  run: make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' travis_test
+      - name: Run ontology QC checks
+        run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' travis_test
