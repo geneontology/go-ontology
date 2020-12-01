@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/github/geneontology/go-ontology)](https://travis-ci.com/github/geneontology/go-ontology)
+[![Build Status](https://github.com/geneontology/go-ontology/workflows/CI/badge.svg)](https://github.com/geneontology/go-ontology/actions?query=workflow%3ACI)
 
 # Repository for GO Ontology
 
