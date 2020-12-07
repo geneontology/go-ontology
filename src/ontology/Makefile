@@ -26,9 +26,6 @@ RELEASEDIR_IMPORTS=$(RELEASEDIR)/imports
 ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
 ROBOT = $(ROBOT_ENV) robot --catalog catalog-v001.xml
 
-DOSDP_ENV = JAVA_OPTS=-Xmx8G
-DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
-
 # OWLTools is a swiss-army knife;
 # It does some things robot can't do, but eventually functionality should
 # move to robot
@@ -222,7 +219,7 @@ $(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro-download.ow
 
 extensions/reacto.owl: $(GO_LEGO).owl mirror/chebi.owl
 	mkdir -p reacto-tmp
-	wget -O ./reacto-tmp/biopax2go.jar --no-check-certificate https://github.com/geneontology/pathways2GO/releases/download/v0.1.0/biopax2go.jar
+	wget -O ./reacto-tmp/biopax2go.jar --no-check-certificate https://github.com/geneontology/pathways2GO/releases/download/v1.0.0/biopax2go.jar
 	wget -O ./reacto-tmp/biopax.zip --no-check-certificate https://reactome.org/download/current/biopax.zip
 	unzip -o ./reacto-tmp/biopax.zip -d ./reacto-tmp/
 	java -jar -Xmx8G ./reacto-tmp/biopax2go.jar -b ./reacto-tmp/Homo_sapiens.owl -reacto ./extensions/reacto -lego $(GO_LEGO).owl -chebi ./mirror/chebi.owl
@@ -372,7 +369,7 @@ imports/%_import.obo: imports/%_import.owl
 
 # Fix external ontologies to specific versions. These should be updated regularly!
 CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi/188/chebi.obo
-CL_SOURCE=http://purl.obolibrary.org/obo/cl/releases/2020-01-06/cl-basic.owl
+CL_SOURCE=http://purl.obolibrary.org/obo/cl/cl-base.owl
 UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/releases/2019-11-22/uberon-base.owl
 
 WGET_OUT = -O $@.tmp && cp $@.tmp $@ && touch $@
@@ -442,9 +439,8 @@ mirror/%-download.owl: $(SRC)
 .PRECIOUS: mirror/%-download.owl
 
 # bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
-bio-chebi.owl: mirror/chebi-download.owl mirror/chebi.owl imports/substance_by_role.owl chebi-ph7_3-slim.ofn
-	$(OWLTOOLS) $(USECAT) --create-biochebi -o $@.tmp.owl -c $< &&\
-	$(ROBOT) merge -i $@.tmp.owl -i chebi-ph7_3-slim.ofn -o $@
+bio-chebi.owl: mirror/chebi.owl chebi-ph7_3-slim.ofn biochebi_gcis.ofn imports/substance_by_role.owl 
+	$(ROBOT) merge -i $< -i chebi-ph7_3-slim.ofn -i biochebi_gcis.ofn -i imports/substance_by_role.owl annotate --ontology-iri $(BASE)/extensions/$@ -V $(RELEASE_URIBASE)/extensions/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
 
 chebi_pH7_3_mapping.tsv:
 	wget 'ftp://ftp.expasy.org/databases/rhea/tsv/chebi_pH7_3_mapping.tsv' $(WGET_OUT)
@@ -456,6 +452,14 @@ chebi-ph7_3-slim.ofn: chebi_pH7_3_mapping.tsv
 	echo 'SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/go#chebi_ph7_3> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)' >>$@.tmp &&\
 	tail -n +2 $< | cut -f 2 | sort -n -u | sed 's/^/AnnotationAssertion(<http:\/\/www.geneontology.org\/formats\/oboInOwl#inSubset> <http:\/\/purl.obolibrary.org\/obo\/CHEBI_/' | sed 's/$$/> <http:\/\/purl.obolibrary.org\/obo\/go#chebi_ph7_3>)/' >>$@.tmp
 	echo ')' >>$@.tmp && mv $@.tmp $@
+
+biochebi_gcis.tsv: chebi_pH7_3_mapping.tsv ../biochebi/biochebi_excludes.txt
+	echo 'source_chem	standard_chem' >$@.tmp &&\
+	tail -n +2 chebi_pH7_3_mapping.tsv | awk -v FS='\t' -v OFS='\t' '{ if ($$1 != $$2) { print "CHEBI:"$$1, "CHEBI:"$$2} }' | grep -v -f ../biochebi/biochebi_excludes.txt >> $@.tmp && mv $@.tmp $@
+
+biochebi_gcis.ofn: biochebi_gcis.tsv ../biochebi/biochebi_gcis.yaml
+	$(DOSDP_TOOLS) generate --obo-prefixes=true --generate-defined-class=true --template=../biochebi/biochebi_gcis.yaml --infile=$< --outfile=$@.tmp.ofn && mv $@.tmp.ofn $@
+	
 
 # filter axioms
 FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@

@@ -1,0 +1,73 @@
+pattern_name: biochebi_gcis
+pattern_iri: http://purl.obolibrary.org/obo/go/biochebi_gcis.yaml
+
+classes:
+  chemical entity: 'CHEBI:24431'
+
+relations:
+  has primary input or output: 'RO:0004007'
+  has primary input: 'RO:0004009'
+  has primary output: 'RO:0004008'
+  has participant: 'RO:0000057'
+  transports or maintains localization of: 'RO:0002313'
+  has input: 'RO:0002233'
+  has output: 'RO:0002234'
+  imports: 'RO:0002340'
+  exports: 'RO:0002345'
+  regulates level of: 'RO:0002332'
+  
+vars:
+  source_chem: "'chemical entity'"
+  standard_chem: "'chemical entity'"  
+
+logical_axioms:
+  - axiom_type: GCI
+    text: ('has primary input or output' some %s) EquivalentTo ('has primary input or output' some %s)
+    vars:
+      - 'source_chem'
+      - 'standard_chem'
+  - axiom_type: GCI
+    text: ('has primary input' some %s) EquivalentTo ('has primary input' some %s)
+    vars:
+      - 'source_chem'
+      - 'standard_chem'
+  - axiom_type: GCI
+    text: ('has primary output' some %s) EquivalentTo ('has primary output' some %s)
+    vars:
+      - 'source_chem'
+      - 'standard_chem'
+  - axiom_type: GCI
+    text: ('has participant' some %s) EquivalentTo ('has participant' some %s)
+    vars:
+      - 'source_chem'
+      - 'standard_chem'
+  - axiom_type: GCI
+    text: ('transports or maintains localization of' some %s) EquivalentTo ('transports or maintains localization of' some %s)
+    vars:
+      - 'source_chem'
+      - 'standard_chem'
+  - axiom_type: GCI
+    text: ('has input' some %s) EquivalentTo ('has input' some %s)
+    vars:
+      - 'source_chem'
+      - 'standard_chem'
+  - axiom_type: GCI
+    text: ('has output' some %s) EquivalentTo ('has output' some %s)
+    vars:
+      - 'source_chem'
+      - 'standard_chem'
+  - axiom_type: GCI
+    text: ('imports' some %s) EquivalentTo ('imports' some %s)
+    vars:
+      - 'source_chem'
+      - 'standard_chem'
+  - axiom_type: GCI
+    text: ('exports' some %s) EquivalentTo ('exports' some %s)
+    vars:
+      - 'source_chem'
+      - 'standard_chem'
+  - axiom_type: GCI
+    text: ('regulates level of' some %s) EquivalentTo ('regulates level of' some %s)
+    vars:
+      - 'source_chem'
+      - 'standard_chem'
