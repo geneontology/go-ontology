@@ -8187,3 +8187,4 @@ http://purl.obolibrary.org/obo/CHEBI_2762 ## antimycin A
 http://purl.obolibrary.org/obo/CHEBI_41688 ## crystal violet
 http://purl.obolibrary.org/obo/CHEBI_77181 ## crystal violet cation
 http://purl.obolibrary.org/obo/CHEBI_149779 ## mannogen
+http://purl.obolibrary.org/obo/CHEBI_143624 ## D-galactofuranose
