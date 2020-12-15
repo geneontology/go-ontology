@@ -812,3 +812,4 @@ GO:0140549	spore inner membrane	NCBITaxon:2	Bacteria
 GO:1901214	regulation of neuron death	NCBITaxon:33208	Metazoa
 GO:0045664	regulation of neuron differentiation	NCBITaxon:33208	Metazoa
 GO:2001222	regulation of neuron migration	NCBITaxon:33208	Metazoa
+GO:0009877	nodulation	NCBITaxon:33090	Viridiplantae
