@@ -519,3 +519,5 @@ GO:1900027	regulation of ruffle assembly	NCBITaxon:33090	Viridiplantae
 GO:0007232	osmosensory signaling pathway via Sho1 osmosensor	NCBITaxon:4896	Schizosaccharomyces pombe
 GO:0007234	osmosensory signaling via phosphorelay pathway	NCBITaxon:4896	Schizosaccharomyces pombe
 GO:0004355	glutamate synthase (NADPH) activity	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0005368	taurine transmembrane transporter activity	NCBITaxon:4751	Fungi
+GO:0015411	ATPase-coupled taurine transporter activity	NCBITaxon:4751	Fungi
