@@ -25,6 +25,7 @@ jobs:
         with:
           name: reasoned-pr.owl
           path: src/ontology/reasoned.owl
+          retention-days: 1
   classify_master:
     runs-on: ubuntu-latest
     container: obolibrary/odkfull:v1.2.23
@@ -39,6 +40,7 @@ jobs:
         with:
           name: reasoned-master.owl
           path: src/ontology/reasoned.owl
+          retention-days: 1
   diff_classification:
     needs:
       - classify_pr
@@ -57,4 +59,9 @@ jobs:
           name: reasoned-pr.owl
           path: reasoned-pr.owl
       - name: Diff classification
-        run: ls -lh reasoned-master.owl; ls -lh reasoned-pr.owl
+        run: cd src/ontology; export ROBOT_JAVA_ARGS=-Xmx6G; robot diff --left reasoned-master.owl --right reasoned-pr.owl -f markdown -o classification-diff.md
+      - name: Upload diff
+        uses: actions/upload-artifact@v2
+        with:
+          name: classification-diff.md
+          path: src/ontology/classification-diff.md
