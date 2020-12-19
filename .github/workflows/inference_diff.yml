@@ -24,7 +24,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: reasoned-pr.owl
-          path: reasoned.owl
+          path: src/ontology/reasoned.owl
   classify_master:
     runs-on: ubuntu-latest
     container: obolibrary/odkfull:v1.2.23
@@ -38,7 +38,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: reasoned-master.owl
-          path: reasoned.owl
+          path: src/ontology/reasoned.owl
   diff_classification:
     needs:
       - classify_pr
