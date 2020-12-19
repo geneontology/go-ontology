@@ -1,6 +1,5 @@
 name: Inference diff
 
-# Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
@@ -16,17 +15,46 @@ jobs:
   # This workflow contains a single job called "build"
   classify_pr:
     runs-on: ubuntu-latest
+    container: obolibrary/odkfull:v1.2.23
     steps:
       - uses: actions/checkout@v2
       - name: Classify ontology
-        run: git log | head
+        run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' reasoned.owl
+      - name: Upload PR reasoned.owl
+        uses: actions/upload-artifact@v2
+        with:
+          name: reasoned-pr.owl
+          path: reasoned.owl
   classify_master:
     runs-on: ubuntu-latest
+    container: obolibrary/odkfull:v1.2.23
     steps:
       - uses: actions/checkout@v2
         with:
           ref: master
       - name: Classify ontology
-        run: git log | head
-        
-        
+        run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' reasoned.owl
+      - name: Upload master reasoned.owl
+        uses: actions/upload-artifact@v2
+        with:
+          name: reasoned-master.owl
+          path: reasoned.owl
+  diff_classification:
+    needs:
+      - classify_pr
+      - classify_master
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:v1.2.23
+    steps:
+      - name: Download master classification
+        uses: actions/download-artifact@v2
+        with:
+          name: reasoned-master.owl
+          path: reasoned-master.owl
+      - name: Download PR classification
+        uses: actions/download-artifact@v2
+        with:
+          name: reasoned-pr.owl
+          path: reasoned-pr.owl
+      - name: Diff classification
+        run: ls -lh reasoned-master.owl; ls -lh reasoned-pr.owl
