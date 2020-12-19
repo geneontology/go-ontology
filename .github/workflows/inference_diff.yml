@@ -77,7 +77,7 @@ jobs:
           name: classification-diff.md
           path: classification-diff.md
       - name: Prepare comment
-        run: "echo \"Here's a diff of how this impacts the classified ontology: \n\" >comment.md; cat classification-diff.md/classification-diff.md >>comment.md"
+        run: "echo \"Here's a diff of how these changes impact the classified ontology: \n\" >comment.md; cat classification-diff.md/classification-diff.md >>comment.md"
       - name: Post comment
         env:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
