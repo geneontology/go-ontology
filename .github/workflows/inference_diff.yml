@@ -65,3 +65,19 @@ jobs:
         with:
           name: classification-diff.md
           path: classification-diff.md
+  post_comment:
+    needs: diff_classification
+    runs-on: ubuntu-latest
+    container: docker://dvcorg/cml-py3:latest
+    steps:
+      - name: Download diff
+        uses: actions/download-artifact@v2
+        with:
+          name: classification-diff.md
+          path: classification-diff.md
+      - name: Test path
+        run: ls -R
+      - name: Post comment
+        env:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+        run: cml-send-comment classification-diff.md/classification-diff.md
