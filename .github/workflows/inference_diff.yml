@@ -70,6 +70,7 @@ jobs:
     runs-on: ubuntu-latest
     container: docker://dvcorg/cml-py3:latest
     steps:
+      - uses: actions/checkout@v2
       - name: Download diff
         uses: actions/download-artifact@v2
         with:
