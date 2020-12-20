@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-11-12/imports/so_import.owl
+data-version: go/releases/2020-12-20/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -23,6 +23,43 @@ synonym: "INSDC_note:sequence_feature" EXACT []
 synonym: "located sequence feature" RELATED []
 synonym: "located_sequence_feature" EXACT []
 synonym: "sequence feature" EXACT []
+
+[Term]
+id: SO:0000165
+name: enhancer
+namespace: sequence
+def: "A cis-acting sequence that increases the utilization of (some) eukaryotic promoters, and can function in either orientation and in any location (upstream or downstream) relative to the promoter." [http://www.insdc.org/files/feature_table.html]
+comment: An enhancer may participate in an enhanceosome GO:0034206. A protein-DNA complex formed by the association of a distinct set of general and specific transcription factors with a region of enhancer DNA. The cooperative assembly of an enhanceosome confers specificity of transcriptional regulation. This comment is a place holder should we start to make cross products with GO.
+subset: SOFA
+synonym: "INSDC_feature:regulatory" BROAD []
+synonym: "INSDC_qualifier:enhancer" EXACT []
+xref: http://en.wikipedia.org/wiki/Enhancer_(genetics) "wiki"
+is_a: SO:0000727 ! CRM
+
+[Term]
+id: SO:0000167
+name: promoter
+namespace: sequence
+def: "A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the basal transcription machinery. A region (DNA) to which RNA polymerase binds, to begin transcription." [SO:regcreative]
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The region on a DNA molecule involved in RNA polymerase binding to initiate transcription. Moved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020. Merged with RNA_polymerase_promoter (SO:0001203) Aug 2020.
+subset: SOFA
+synonym: "INSDC_feature:regulatory" BROAD []
+synonym: "INSDC_qualifier:promoter" EXACT []
+synonym: "promoter sequence" EXACT []
+xref: http://en.wikipedia.org/wiki/Promoter "wiki"
+is_a: SO:0000727 ! CRM
+
+[Term]
+id: SO:0000170
+name: RNApol_II_promoter
+namespace: sequence
+def: "A DNA sequence in eukaryotic DNA to which RNA polymerase II binds, to begin transcription." [SO:ke]
+comment: parent term RNA_polymerase_promoter SO:0001203 was obsoleted in Aug 2020, so term has been moved to eukaryotic_promoter SO:0002221.
+synonym: "pol II promoter" RELATED []
+synonym: "polymerase II promoter" EXACT []
+synonym: "RNA polymerase B promoter" EXACT []
+synonym: "RNApol II promoter" EXACT []
+is_a: SO:0002221 ! eukaryotic_promoter
 
 [Term]
 id: SO:0000188
@@ -142,6 +179,32 @@ xref: http://en.wikipedia.org/wiki/Origin_of_replication "wiki"
 is_a: SO:0001411 ! biological_region
 
 [Term]
+id: SO:0000305
+name: modified_DNA_base
+namespace: sequence
+def: "A modified nucleotide, i.e. a nucleotide other than A, T, C. G." [http://www.insdc.org/files/feature_table.html]
+comment: Modified base:<modified_base>.
+subset: SOFA
+synonym: "INSDC_feature:modified_base" EXACT []
+synonym: "modified base site" EXACT []
+is_a: SO:0001236 ! base
+is_a: SO:0001720 ! epigenetically_modified_region
+
+[Term]
+id: SO:0000315
+name: TSS
+namespace: sequence
+def: "The first base where RNA polymerase begins to synthesize the RNA transcript." [SO:ke]
+comment: Added relationship is_a SO:0002309 core_promoter_element with the creation of core_promoter_element as part of GREEKC initiative August 2020 - Dave Sant.
+subset: SOFA
+synonym: "INSDC_feature:misc_feature" BROAD []
+synonym: "INSDC_note:transcription_start_site" EXACT []
+synonym: "transcription start site" EXACT []
+synonym: "transcription_start_site" EXACT []
+is_a: SO:0000835 ! primary_transcript_region
+is_a: SO:0002309 ! core_promoter_element
+
+[Term]
 id: SO:0000330
 name: conserved_region
 namespace: sequence
@@ -241,6 +304,30 @@ xref: http://en.wikipedia.org/wiki/Telomere "wiki"
 is_a: SO:0000628 ! chromosomal_structural_element
 
 [Term]
+id: SO:0000625
+name: silencer
+namespace: sequence
+def: "A regulatory region which upon binding of transcription factors, suppress the transcription of the gene or genes they control." [SO:ke]
+subset: SOFA
+synonym: "INSDC_feature:regulatory" BROAD []
+synonym: "INSDC_qualifier:silencer" EXACT []
+xref: http://en.wikipedia.org/wiki/Silencer_(DNA) "wiki"
+is_a: SO:0000727 ! CRM
+
+[Term]
+id: SO:0000627
+name: insulator
+namespace: sequence
+def: "A regulatory region that 1) when located between a CRM and a gene's promoter prevents the CRM from modulating that genes expression and 2) acts as a chromatin boundary element or barrier that can block the encroachment of condensed chromatin from an adjacent region." [NCBI:cf, PMID:12154228, SO:regcreative]
+comment: moved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020.
+subset: SOFA
+synonym: "INSDC_feature:regulatory" BROAD []
+synonym: "INSDC_qualifier:insulator" EXACT []
+synonym: "insulator element" EXACT []
+xref: http://en.wikipedia.org/wiki/Insulator_(genetics) "wiki"
+is_a: SO:0000727 ! CRM
+
+[Term]
 id: SO:0000628
 name: chromosomal_structural_element
 namespace: sequence
@@ -321,6 +408,17 @@ xref: http://en.wikipedia.org/wiki/RNA "wiki"
 is_a: SO:0000831 ! gene_member_region
 
 [Term]
+id: SO:0000699
+name: junction
+namespace: sequence
+def: "A sequence_feature with an extent of zero." [SO:ke]
+comment: A junction is a boundary between regions. A boundary has an extent of zero.
+subset: SOFA
+synonym: "boundary" EXACT []
+synonym: "breakpoint" EXACT []
+is_a: SO:0000110 ! sequence_feature
+
+[Term]
 id: SO:0000713
 name: DNA_motif
 namespace: sequence
@@ -339,6 +437,18 @@ synonym: "INSDC_feature:misc_feature" BROAD []
 synonym: "INSDC_note:nucleotide_motif" EXACT []
 synonym: "nucleotide motif" EXACT []
 is_a: SO:0001683 ! sequence_motif
+
+[Term]
+id: SO:0000727
+name: CRM
+namespace: sequence
+def: "A regulatory region where transcription factor binding sites are clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundreds of kb upstream of the basal promoter, in the coding sequence, within introns, or in the untranslated regions (UTR) sequences, and even on a different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network." [PMID:19660565, SO:SG]
+comment: Requested by Stephen Grossmann Dec 2004. Changed relationship from has_part SO:0000235 TF_binding site to TF_binding_site is part_of SO:0000727 CRM in response to requests from GREEKC initiative in Aug 2020. Removed 3' from definition because 5' UTRs are included as well, notified by Colin Logie of GREEKC. Nov 9 2020.
+subset: SOFA
+synonym: "cis regulatory module" EXACT []
+synonym: "TF module" EXACT []
+synonym: "transcription factor module" EXACT []
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 
 [Term]
 id: SO:0000830
@@ -413,6 +523,32 @@ synonym: "UTR region" EXACT []
 is_a: SO:0000836 ! mRNA_region
 
 [Term]
+id: SO:0000839
+name: polypeptide_region
+namespace: sequence
+alt_id: BS:00124
+alt_id: BS:00331
+def: "Biological sequence region that can be assigned to a specific subsequence of a polypeptide." [SO:GAR, SO:ke]
+comment: Added to allow the polypeptide regions to have is_a paths back to the root.
+subset: biosapiens
+subset: SOFA
+synonym: "positional" RELATED []
+synonym: "positional polypeptide feature" RELATED []
+synonym: "region" NARROW [uniprot:feature_type]
+synonym: "region or site annotation" RELATED []
+synonym: "site" NARROW [uniprot:feature_type]
+is_a: SO:0001411 ! biological_region
+
+[Term]
+id: SO:0000842
+name: gene_component_region
+namespace: sequence
+def: "A region of a gene that has a specific function." []
+subset: SOFA
+synonym: "gene component region" EXACT []
+is_a: SO:0001411 ! biological_region
+
+[Term]
 id: SO:0000862
 name: capped_mRNA
 namespace: sequence
@@ -427,6 +563,61 @@ namespace: sequence
 def: "An mRNA that is polyadenylated." [SO:xp]
 synonym: "polyadenylated mRNA" EXACT []
 is_a: SO:0000234 ! mRNA
+
+[Term]
+id: SO:0001055
+name: transcriptional_cis_regulatory_region
+namespace: sequence
+def: "A regulatory_region that modulates the transcription of a gene or genes." [PMID:9679020, SO:regcreative]
+subset: SOFA
+synonym: "INSDC_feature:regulatory" BROAD []
+synonym: "INSDC_qualifier:transcriptional_cis_regulatory_region" EXACT []
+synonym: "transcription-control region" EXACT []
+synonym: "transcriptional cis regulatory region" EXACT []
+is_a: SO:0001679 ! transcription_regulatory_region
+
+[Term]
+id: SO:0001067
+name: polypeptide_motif
+namespace: sequence
+alt_id: BS:00032
+def: "A sequence motif is a short (up to 20 amino acids) region of biological interest. Such motifs, although they are too short to constitute functional domains, share sequence similarities and are conserved in different proteins. They display a common function (protein-binding, subcellular location etc.)." [EBIBS:GAR, UniProt:curation_manual]
+comment: Range.
+subset: biosapiens
+synonym: "motif" BROAD [uniprot:feature_type]
+synonym: "polypeptide motif" EXACT []
+is_a: SO:0100021 ! polypeptide_conserved_region
+
+[Term]
+id: SO:0001089
+name: post_translationally_modified_region
+namespace: sequence
+alt_id: BS:00052
+def: "A region where a transformation occurs in a protein after it has been synthesized. This which may regulate, stabilize, crosslink or introduce new chemical functionalities in the protein." [EBIBS:GAR, UniProt:curation_manual]
+comment: Discrete.
+subset: biosapiens
+synonym: "mod_res" EXACT [uniprot:feature_type]
+synonym: "modified residue" EXACT []
+synonym: "post_translational_modification" EXACT []
+xref: http://en.wikipedia.org/wiki/Post_translational_modification "wiki"
+is_a: SO:0100001 ! biochemical_region_of_peptide
+
+[Term]
+id: SO:0001236
+name: base
+namespace: sequence
+def: "A base is a sequence feature that corresponds to a single unit of a nucleotide polymer." [SO:ke]
+subset: SOFA
+xref: http://en.wikipedia.org/wiki/Nucleobase "wiki"
+is_a: SO:0001411 ! biological_region
+
+[Term]
+id: SO:0001240
+name: TSS_region
+namespace: sequence
+def: "The region of a gene from the 5' most TSS to the 3' TSS." [BBOP:nw]
+synonym: "TSS region" EXACT []
+is_a: SO:0000842 ! gene_component_region
 
 [Term]
 id: SO:0001410
@@ -451,6 +642,47 @@ synonym: "INSDC_note:biological_region" EXACT []
 is_a: SO:0000001 ! region
 
 [Term]
+id: SO:0001412
+name: topologically_defined_region
+namespace: sequence
+def: "A DNA region within which self-interaction occurs more often than expected by chance because of DNA-looping." [PMID:32782014, SO:cb]
+subset: SOFA
+synonym: "topologically defined region" EXACT []
+is_a: SO:0000001 ! region
+
+[Term]
+id: SO:0001659
+name: promoter_element
+namespace: sequence
+def: "An element that can exist within the promoter region of a gene." []
+comment: Mmoved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020.
+synonym: "promoter element" EXACT []
+is_a: SO:0000713 ! DNA_motif
+created_by: kareneilbeck
+creation_date: 2010-10-01T11:48:32Z
+
+[Term]
+id: SO:0001669
+name: RNApol_II_core_promoter
+namespace: sequence
+def: "The minimal portion of the promoter required to properly initiate transcription in RNA polymerase II transcribed genes." [PMID:16858867]
+synonym: "RNApol II core promoter" EXACT []
+is_a: SO:0000170 ! RNApol_II_promoter
+created_by: kareneilbeck
+creation_date: 2010-10-01T03:13:41Z
+
+[Term]
+id: SO:0001679
+name: transcription_regulatory_region
+namespace: sequence
+def: "A regulatory region that is involved in the control of the process of transcription." [SO:ke]
+subset: SOFA
+synonym: "transcription regulatory region" EXACT []
+is_a: SO:0005836 ! regulatory_region
+created_by: kareneilbeck
+creation_date: 2010-10-12T03:49:35Z
+
+[Term]
 id: SO:0001683
 name: sequence_motif
 namespace: sequence
@@ -461,6 +693,29 @@ xref: http://en.wikipedia.org/wiki/Sequence_motif "wikipedia"
 is_a: SO:0001411 ! biological_region
 created_by: kareneilbeck
 creation_date: 2010-10-14T04:13:22Z
+
+[Term]
+id: SO:0001700
+name: histone_modification
+namespace: sequence
+def: "Histone modification is a post translationally modified region whereby residues of the histone protein are modified by methylation, acetylation, phosphorylation, ubiquitination, sumoylation, citrullination, or ADP-ribosylation." [http:en.wikipedia.org/wiki/Histone]
+synonym: "histone modification" EXACT []
+synonym: "histone modification site" RELATED []
+is_a: SO:0001089 ! post_translationally_modified_region
+is_a: SO:0001720 ! epigenetically_modified_region
+created_by: kareneilbeck
+creation_date: 2010-03-31T10:22:08Z
+
+[Term]
+id: SO:0001720
+name: epigenetically_modified_region
+namespace: sequence
+def: "A biological region implicated in inherited changes caused by mechanisms other than changes in the underlying DNA sequence." [http://en.wikipedia.org/wiki/Epigenetics, SO:ke]
+subset: SOFA
+synonym: "epigenetically modified region" RELATED []
+is_a: SO:0001411 ! biological_region
+created_by: kareneilbeck
+creation_date: 2010-03-27T12:02:29Z
 
 [Term]
 id: SO:0001796
@@ -556,6 +811,16 @@ created_by: nicole
 creation_date: 2016-09-15T15:56:07Z
 
 [Term]
+id: SO:0002221
+name: eukaryotic_promoter
+namespace: sequence
+def: "A regulatory_region including the Transcription Start Site (TSS) of a gene and serving as a platform for Pre-Initiation Complex (PIC) assembly, enabling transcription of a gene under certain conditions." []
+synonym: "Eukaryotic promoter" EXACT []
+is_a: SO:0000167 ! promoter
+created_by: david
+creation_date: 2019-07-31T14:01:20Z
+
+[Term]
 id: SO:0002234
 name: pumilio_response_element
 namespace: sequence
@@ -577,4 +842,95 @@ synonym: "Small noncoding RNA" EXACT []
 is_a: SO:0000655 ! ncRNA
 created_by: david
 creation_date: 2020-05-13T11:07:30Z
+
+[Term]
+id: SO:0002304
+name: topologically_associated_domain
+namespace: sequence
+def: "An instance of a self-interacting DNA region flanked by left and right TAD boundaries." [GREEKC:cl, PMID:32782014]
+comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
+synonym: "TAD" EXACT []
+synonym: "topologically associated domain" EXACT []
+is_a: SO:0001412 ! topologically_defined_region
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0002305
+name: topologically_associated_domain_boundary
+namespace: sequence
+def: "A DNA region enriched in DNA loop anchors and across which DNA loops occur less often than expected by chance." [GREEKC:cl, PMID:32782014]
+comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
+synonym: "TAD boundary" EXACT []
+synonym: "TAD_boundary" EXACT []
+synonym: "topologically associated domain boundary" EXACT []
+is_a: SO:0000699 ! junction
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0002307
+name: DNA_loop
+namespace: sequence
+def: "A region of DNA between two positions that are held in close proximity." [GREEKC:cl, PMID:32782014]
+comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
+synonym: "DNA loop" EXACT []
+is_a: SO:0000830 ! chromosome_part
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0002308
+name: DNA_loop_anchor
+namespace: sequence
+def: "The ends of a DNA loop where the two strands of DNA are held in close proximity. During interphase the anchors of DNA loops are CTCF binding sites." [GREEKC:cl, PMID:32782014]
+comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
+synonym: "DNA loop anchor" EXACT []
+is_a: SO:0000727 ! CRM
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0002309
+name: core_promoter_element
+namespace: sequence
+def: "An element that always exists within the promoter region of a gene. When multiple transcripts exist for a gene, the separate transcripts may have separate core_promoter_elements." [GREEKC:rl]
+comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
+synonym: "core promoter element" EXACT []
+is_a: SO:0001659 ! promoter_element
+created_by: david
+creation_date: 2020-08-12T14:01:30Z
+
+[Term]
+id: SO:0005836
+name: regulatory_region
+namespace: sequence
+def: "A region of sequence that is involved in the control of a biological process." [SO:ke]
+subset: SOFA
+synonym: "INSDC_feature:regulatory" BROAD []
+synonym: "INSDC_qualifier:other" EXACT []
+synonym: "regulatory region" EXACT []
+xref: http://en.wikipedia.org/wiki/Regulatory_region "wiki"
+is_a: SO:0000831 ! gene_member_region
+
+[Term]
+id: SO:0100001
+name: biochemical_region_of_peptide
+namespace: sequence
+def: "A region of a peptide that is involved in a biochemical function." [EBIBS:GAR]
+comment: Range.
+subset: biosapiens
+synonym: "biochemical motif" EXACT []
+synonym: "biochemical region of peptide" EXACT []
+synonym: "biochemical_region" RELATED []
+is_a: SO:0001067 ! polypeptide_motif
+
+[Term]
+id: SO:0100021
+name: polypeptide_conserved_region
+namespace: sequence
+def: "A subsection of sequence with biological interest that is conserved in different proteins. They may or may not have functional or structural significance within the proteins in which they are found." [EBIBS:GAR]
+subset: biosapiens
+synonym: "polypeptide conserved region" EXACT []
+is_a: SO:0000839 ! polypeptide_region
 
