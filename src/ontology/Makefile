@@ -459,7 +459,6 @@ biochebi_gcis.tsv: chebi_pH7_3_mapping.tsv ../biochebi/biochebi_excludes.txt
 
 biochebi_gcis.ofn: biochebi_gcis.tsv ../biochebi/biochebi_gcis.yaml
 	$(DOSDP_TOOLS) generate --obo-prefixes=true --generate-defined-class=true --template=../biochebi/biochebi_gcis.yaml --infile=$< --outfile=$@.tmp.ofn && mv $@.tmp.ofn $@
-	
 
 # filter axioms
 FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
@@ -526,6 +525,10 @@ generate-mappings: go-basic.obo
 	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/unirule2go -O external2go/unirule2go
 	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/hamap2go -O external2go/hamap2go
 	wget http://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/rfam2go/rfam2go -O external2go/rfam2go
+
+# SOP: periodically run this to refresh, cache in github
+external2go/kegg_orthology2go:
+	curl  -H "Accept: text/tab-separated-values" --data-urlencode query="SELECT ?x ?y WHERE {?x <https://www.genome.jp/linkdb/original> ?y . ?x <https://www.genome.jp/linkdb/core/database> <https://www.genome.jp/linkdb/database/orthology> . ?y <https://www.genome.jp/linkdb/core/database> <https://www.genome.jp/linkdb/database/go>}"  https://www.genome.jp/sparql/linkdb > $@.tmp && perl -npe 's@"https://www.genome.jp/linkdb/orthology/(\S+)"\t"https://www.genome.jp/linkdb/go/(\d+)"@KEGG.ORTHOLOGY:$$1\tGO:$$2@' $@.tmp > $@
 
 # ----------------------------------------
 # TAXON GROUPINGS
