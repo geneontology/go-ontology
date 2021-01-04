@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-07-24/imports/ro_import.owl
+data-version: go/releases/2020-12-25/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -633,6 +633,7 @@ xref: RO:0002320
 [Typedef]
 id: exports
 name: exports
+def: "Holds between p and c when p is a transportation or localization process and the outcome of this process is to move c to a destination that is part of some s, where the end location of c is part of the region that surrounds s." []
 xref: RO:0002345
 is_a: transports ! transports
 transitive_over: has_part ! has part
@@ -655,6 +656,7 @@ name: happens during
 xref: RO:0002092
 is_transitive: true
 is_a: ends_during ! ends during
+is_a: starts_during ! starts during
 
 [Typedef]
 id: has_anatomical_participant
@@ -729,7 +731,6 @@ name: has input
 def: "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
 xref: RO:0002233
 domain: BFO:0000015 ! process
-range: BFO:0000040 ! material entity
 holds_over_chain: starts_with has_input
 is_a: has_participant ! has participant
 inverse_of: input_of ! input of
