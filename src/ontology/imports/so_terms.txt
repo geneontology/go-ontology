@@ -24,4 +24,5 @@ http://purl.obolibrary.org/obo/SO_0002304 ## topologically_associated_domain
 http://purl.obolibrary.org/obo/SO_0002305 ## topologically_associated_domain_boundary
 http://purl.obolibrary.org/obo/SO_0001720 ## epigenetically_modified_region
 http://purl.obolibrary.org/obo/SO_0000305 ## modified_DNA_base    
-http://purl.obolibrary.org/obo/SO_0001700 ## histone_modification   
+http://purl.obolibrary.org/obo/SO_0001700 ## histone_modification
+http://purl.obolibrary.org/obo/SO_0000613 ## bacterial_RNApol_promoter
