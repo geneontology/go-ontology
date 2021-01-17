@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-12-20/imports/so_import.owl
+data-version: go/releases/2021-01-17/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -290,6 +290,15 @@ synonym: "box H/ACA snoRNA" EXACT []
 synonym: "H ACA box snoRNA" EXACT []
 synonym: "H/ACA box snoRNA" EXACT []
 is_a: SO:0000275 ! snoRNA
+
+[Term]
+id: SO:0000613
+name: bacterial_RNApol_promoter
+namespace: sequence
+def: "A DNA sequence to which bacterial RNA polymerase binds, to begin transcription." [SO:ke]
+comment: former parent RNA_polymerase_promoter SO:0001203 was merged with promoter SO:0000167 in Aug 2020 as part of GREEKC.
+synonym: "bacterial RNApol promoter" EXACT []
+is_a: SO:0002222 ! prokaryotic_promoter
 
 [Term]
 id: SO:0000624
@@ -819,6 +828,16 @@ synonym: "Eukaryotic promoter" EXACT []
 is_a: SO:0000167 ! promoter
 created_by: david
 creation_date: 2019-07-31T14:01:20Z
+
+[Term]
+id: SO:0002222
+name: prokaryotic_promoter
+namespace: sequence
+def: "A regulatory_region essential for the specific initiation of transcription at a defined location in a DNA molecule, although this location might not be one single base. It is recognized by a specific RNA polymerase(RNAP)-holoenzyme, and this recognition is not necessarily autonomous." [PMID:32665585]
+synonym: "Prokaryotic promoter" EXACT []
+is_a: SO:0000167 ! promoter
+created_by: david
+creation_date: 2019-07-31T14:02:26Z
 
 [Term]
 id: SO:0002234
