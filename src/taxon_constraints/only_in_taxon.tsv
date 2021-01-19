@@ -811,3 +811,4 @@ GO:1901214	regulation of neuron death	NCBITaxon:33208	Metazoa
 GO:0045664	regulation of neuron differentiation	NCBITaxon:33208	Metazoa
 GO:2001222	regulation of neuron migration	NCBITaxon:33208	Metazoa
 GO:0009877	nodulation	NCBITaxon:33090	Viridiplantae
+GO:0140582	adenylate cyclase-activating G protein-coupled cAMP receptor signaling pathway	NCBITaxon:33083	Dictyostelids
