@@ -1,0 +1,14 @@
+# Find terms that have more than one xref having a given prefix
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
+
+SELECT ?c ?one_to_one_prefix WHERE 
+{
+  VALUES ?one_to_one_prefix { "RHEA:" }
+  ?c oio:hasDbXref ?x .
+  FILTER(STRSTARTS(STR(?x), ?one_to_one_prefix))
+}
+GROUP BY ?c ?one_to_one_prefix
+HAVING(COUNT(DISTINCT STR(?x)) > 1)
