@@ -1,0 +1,27 @@
+pattern_name: 'DNA-binding transcription factor activity'
+
+classes:
+  molecular_function: 'GO:0003674'
+  transcription regulator activity: 'GO:0140110'
+  regulation of transcription, DNA-templated: 'GO:0045893'
+  'transcription regulatory region sequence-specific DNA binding': 'GO:0000976'
+
+relations:
+  directly positively regulates: 'RO:0002629'
+  has part: BFO:0000051
+  part of: BFO:0000050
+  
+vars:
+  biological_process: "'regulation of transcription, DNA-templated'"
+  
+def: 
+  text: ""
+  
+namespace: 
+  text: 'molecular_function'
+  
+equivalentTo: 
+  text: "'transcription regulator activity'' that 'has part' some %s" and that 'part of' some %s
+  vars:
+    - 'transcription regulatory region sequence-specific DNA binding'
+    - 'regulation of transcription, DNA-templated'
