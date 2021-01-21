@@ -9,3 +9,20 @@ http://purl.obolibrary.org/obo/SO_0001914 ## rDNA_replication_fork_barrier
 http://purl.obolibrary.org/obo/SO_0001798 ## regional_centromere_inner_repeat_region
 http://purl.obolibrary.org/obo/SO_0002140 ## early_origin_of_replication
 http://purl.obolibrary.org/obo/SO_0002234 ## pumilio_response_element
+http://purl.obolibrary.org/obo/SO_0000727 ## CRM
+http://purl.obolibrary.org/obo/SO_0000167 ## promoter
+http://purl.obolibrary.org/obo/SO_0000170 ## RNApol II promoter
+http://purl.obolibrary.org/obo/SO_0001669 ## RNApol_II_core_promoter
+http://purl.obolibrary.org/obo/SO_0001240 ## TSS region
+http://purl.obolibrary.org/obo/SO_0000315 ## TSS
+http://purl.obolibrary.org/obo/SO_0000165 ## enhancer
+http://purl.obolibrary.org/obo/SO_0000625 ## silencer
+http://purl.obolibrary.org/obo/SO_0000627 ## insulator
+http://purl.obolibrary.org/obo/SO_0002307 ## DNA_loop
+http://purl.obolibrary.org/obo/SO_0002308 ## DNA_loop_anchor
+http://purl.obolibrary.org/obo/SO_0002304 ## topologically_associated_domain
+http://purl.obolibrary.org/obo/SO_0002305 ## topologically_associated_domain_boundary
+http://purl.obolibrary.org/obo/SO_0001720 ## epigenetically_modified_region
+http://purl.obolibrary.org/obo/SO_0000305 ## modified_DNA_base    
+http://purl.obolibrary.org/obo/SO_0001700 ## histone_modification
+http://purl.obolibrary.org/obo/SO_0000613 ## bacterial_RNApol_promoter

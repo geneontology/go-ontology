@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2020-10-20/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2020-11-22/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -3430,7 +3430,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000189 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000189">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0008002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0008046"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -25144,6 +25144,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ciliated epithelial cell with many cilium.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym xml:lang="en">MCC</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym xml:lang="en">multi-ciliated cell</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym xml:lang="en">multiciliated cell</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">multiciliated epithelial cell</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-ciliated epithelial cell</rdfs:label>
     </owl:Class>
     
@@ -25929,6 +25933,56 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <obo:IAO_0000115>Mural cells are pericytes and the vascular smooth muscle cells (vSMCs) of the microcirculation.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mural cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0008038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0008038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0008039"/>
+        <obo:IAO_0000115>A large, multipolar lower motor neuron of the brainstem and spinal cord that innervates the extrafusal muscle fibers of skeletal muscle.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>alpha motoneuron</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">alpha motor neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0008039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0008039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002120"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0008002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The motor neurons of vertebrates that directly innervate skeletal muscles. They receive input from upper motor neurons.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">lower motor neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0008046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0008046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0008002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002103"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0008038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A skeletal muscle fiber that is innervated by alpha motor neuron and generates tension by contracting, thereby allowing for skeletal movement. These fibers make up the large mass of skeletal muscle tissue and are attached to bones by tendons.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>myofibra extrafusalis</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">extrafusal muscle fiber</rdfs:label>
     </owl:Class>
     
 
@@ -26823,6 +26877,27 @@
         <obo:IAO_0000115>A smooth muscle cell that is part of the tracheobronchial tree.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>smooth muscle cell of tracheobronchial tree</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">tracheobronchial smooth muscle cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0019031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0019031">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000160"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001277"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Goblet cells reside throughout the length of the small and large intestine and are responsible for the production and maintenance of the protective mucus blanket by synthesizing and secreting high-molecular-weight glycoproteins known as mucins. Human intestinal goblet cells secrete the MUC2 mucin, as well as a number of typical mucus components: CLCA1, FCGBP, AGR2, ZG16, and TFF3.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>intestinal goblet cell</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">intestine goblet cell</rdfs:label>
     </owl:Class>
     
 

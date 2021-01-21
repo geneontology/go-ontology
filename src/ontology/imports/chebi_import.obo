@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2020-10-22/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2020-12-08/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -100683,12 +100683,6 @@ name: L-canavanine
 is_a: CHEBI:83822 ! non-proteinogenic L-alpha-amino acid
 relationship: has_role CHEBI:22917 ! phytogenic insecticide
 relationship: has_role CHEBI:76924 ! plant metabolite
-
-[Term]
-id: CHEBI:60983
-name: alkylphosphonate
-is_a: CHEBI:37592 ! organic phosphonate
-relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
 id: CHEBI:6099

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-10-20/imports/cl_import.owl
+data-version: go/releases/2020-11-22/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -1246,7 +1246,7 @@ id: CL:0000189
 name: slow muscle cell
 def: "A muscle cell that develops tension more slowly than a fast-twitch fiber." []
 synonym: "slow muscle fiber" RELATED []
-is_a: CL:0008002 ! skeletal muscle fiber
+is_a: CL:0008046 ! extrafusal muscle fiber
 relationship: RO:0002202 CL:0000857 ! slow muscle myoblast
 
 [Term]
@@ -9791,6 +9791,10 @@ is_a: CL:0002371 ! somatic cell
 id: CL:0005012
 name: multi-ciliated epithelial cell
 def: "A ciliated epithelial cell with many cilium." []
+synonym: "MCC" BROAD []
+synonym: "multi-ciliated cell" BROAD []
+synonym: "multiciliated cell" BROAD []
+synonym: "multiciliated epithelial cell" EXACT []
 is_a: CL:0000066 ! epithelial cell
 relationship: BFO:0000051 GO:0005929
 
@@ -10075,6 +10079,29 @@ id: CL:0008034
 name: mural cell
 def: "Mural cells are pericytes and the vascular smooth muscle cells (vSMCs) of the microcirculation." []
 is_a: CL:0002371 ! somatic cell
+
+[Term]
+id: CL:0008038
+name: alpha motor neuron
+def: "A large, multipolar lower motor neuron of the brainstem and spinal cord that innervates the extrafusal muscle fibers of skeletal muscle." []
+synonym: "alpha motoneuron" EXACT []
+is_a: CL:0008039 ! lower motor neuron
+
+[Term]
+id: CL:0008039
+name: lower motor neuron
+def: "The motor neurons of vertebrates that directly innervate skeletal muscles. They receive input from upper motor neurons." []
+is_a: CL:0000100 ! motor neuron
+relationship: RO:0002120 CL:0008002 ! skeletal muscle fiber
+relationship: RO:0002162 NCBITaxon:7742
+
+[Term]
+id: CL:0008046
+name: extrafusal muscle fiber
+def: "A skeletal muscle fiber that is innervated by alpha motor neuron and generates tension by contracting, thereby allowing for skeletal movement. These fibers make up the large mass of skeletal muscle tissue and are attached to bones by tendons." []
+synonym: "myofibra extrafusalis" EXACT []
+is_a: CL:0008002 ! skeletal muscle fiber
+relationship: RO:0002103 CL:0008038 ! alpha motor neuron
 
 [Term]
 id: CL:0009001
@@ -10421,6 +10448,14 @@ def: "A smooth muscle cell that is part of the tracheobronchial tree." []
 synonym: "smooth muscle cell of tracheobronchial tree" EXACT []
 intersection_of: CL:0000192 ! smooth muscle cell
 intersection_of: BFO:0000050 UBERON:0007196
+
+[Term]
+id: CL:0019031
+name: intestine goblet cell
+def: "Goblet cells reside throughout the length of the small and large intestine and are responsible for the production and maintenance of the protective mucus blanket by synthesizing and secreting high-molecular-weight glycoproteins known as mucins. Human intestinal goblet cells secrete the MUC2 mucin, as well as a number of typical mucus components: CLCA1, FCGBP, AGR2, ZG16, and TFF3." []
+synonym: "intestinal goblet cell" EXACT []
+intersection_of: CL:0000160 ! goblet cell
+intersection_of: BFO:0000050 UBERON:0001277
 
 [Term]
 id: CL:1000001

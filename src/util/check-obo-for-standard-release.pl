@@ -202,13 +202,6 @@ while (<>) {
     if (/^namespace:\s+(\S+)/) {
         $ns{$id} = $1;
     }
-    if (/^xref:\s+(\S+)/) {
-        my $x = $1;
-        check_xref($x);
-        if ($x =~ m@^EC:.*-@) {
-            flag('ec-xref-has-dash',$id);
-        }
-    }
     if (/^def:\s+\"(.*)\"\s+\[/) {
         $def = $1;
         push(@{$idByDef{$def}},$id) unless $def eq '.';
@@ -574,6 +567,9 @@ sub check_xref {
     my $x = shift;
     return unless keys (%abbsh);
     if ($x =~ m@^http://@) {
+        return;
+    }
+    if ($x =~ m@^https://@) {
         return;
     }
     if ($x =~ /^([\w\-]+):/) {

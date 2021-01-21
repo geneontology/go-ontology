@@ -25,7 +25,6 @@ GO:0000916	actomyosin contractile ring contraction	NCBITaxon:2759	Eukaryota
 GO:0000936	primary cell septum	NCBITaxon:2759	Eukaryota
 GO:0000984	bacterial-type RNA polymerase transcription regulatory region sequence-specific DNA binding	NCBITaxon:2	Bacteria
 GO:0001070	RNA-binding transcription regulator activity	NCBITaxon:10239	Viruses
-GO:0001070	RNA-binding transcription regulator activity	NCBITaxon:10239	virus
 GO:0001121	bacterial transcription	NCBITaxon:2	Bacteria
 GO:0001403	invasive growth in response to glucose limitation	NCBITaxon:4751	Fungi
 GO:0001410	chlamydospore formation	NCBITaxon:4751	Fungi
@@ -790,27 +789,26 @@ GO:0140528	bilobe structure assembly	NCBITaxon:5653	Kinetoplastea
 GO:0120268	paraflagellar rod assembly	NCBITaxon:33682	Euglenozoa
 GO:0120269	ciliary centrin arm	NCBITaxon:5653	Kinetoplastea
 GO:0120273	ciliary centrin arm assembly	NCBITaxon:5653	Kinetoplastea
-GO:0101024	nuclear membrane organization involved in mitotic nuclear division	NCBITaxon:33208	Metazoa
-GO:0101026	nuclear membrane biogenesis involved in mitotic nuclear division	NCBITaxon:33208	Metazoa
+GO:0101024	mitotic nuclear membrane organization	NCBITaxon:2759	Eukaryota
+GO:0101026	mitotic nuclear membrane biogenesis	NCBITaxon:2759	Eukaryota
 GO:0048273	mitogen-activated protein kinase p38 binding	NCBITaxon:33208	Metazoa
-GO:0038066	p38MAPK cascade	NCBITaxon:33208	Metazoa
-GO:1900744	regulation of p38MAPK cascade	NCBITaxon:33208	Metazoa
-GO:1903753	negative regulation of p38MAPK cascade	NCBITaxon:33208	Metazoa
-GO:1900745	positive regulation of p38MAPK cascade	NCBITaxon:33208	Metazoa
 GO:0086036	regulation of cardiac muscle cell membrane potential	NCBITaxon:33208	Metazoa
 GO:0015734	taurine transport	NCBITaxon:33208	Metazoa
 GO:0042412	taurine biosynthetic process	NCBITaxon:33208	Metazoa
 GO:0050323	taurine dehydrogenase activity	NCBITaxon:33208	Metazoa
 GO:0031299	taurine-pyruvate aminotransferase activity	NCBITaxon:33208	Metazoa
-GO:0005368	taurine transmembrane transporter activity	NCBITaxon:33208	Metazoa
-GO:0015411	ATPase-coupled taurine transporter activity	NCBITaxon:33208	Metazoa
 GO:0050322	taurine-2-oxoglutarate transaminase activity	NCBITaxon:33208	Metazoa
 GO:0062089	regulation of taurine biosynthetic process	NCBITaxon:33208	Metazoa
 GO:0005369	taurine:sodium symporter activity	NCBITaxon:33208	Metazoa
 GO:0019452	L-cysteine catabolic process to taurine	NCBITaxon:33208	Metazoa
 GO:0050325	tauropine dehydrogenase activity	NCBITaxon:33208	Metazoa
-GO:0103012	ferredoxin-thioredoxin reductase activity	NCBITaxon:33090	Viridiplantae
-GO:0030386	ferredoxin:thioredoxin reductase complex	NCBITaxon:33090	Viridiplantae
+GO:0103012	ferredoxin-thioredoxin reductase activity	NCBITaxon_Union:0000002	Viridiplantae or Cyanobacteria
+GO:0030386	ferredoxin:thioredoxin reductase complex	NCBITaxon_Union:0000002	Viridiplantae or Cyanobacteria
 GO:0000908	taurine dioxygenase activity	NCBITaxon:2	Bacteria
 GO:1990205	taurine dioxygenase complex	NCBITaxon:2	Bacteria
 GO:0140549	spore inner membrane	NCBITaxon:2	Bacteria
+GO:1901214	regulation of neuron death	NCBITaxon:33208	Metazoa
+GO:0045664	regulation of neuron differentiation	NCBITaxon:33208	Metazoa
+GO:2001222	regulation of neuron migration	NCBITaxon:33208	Metazoa
+GO:0009877	nodulation	NCBITaxon:33090	Viridiplantae
+GO:0140582	adenylate cyclase-activating G protein-coupled cAMP receptor signaling pathway	NCBITaxon:33083	Dictyostelids
