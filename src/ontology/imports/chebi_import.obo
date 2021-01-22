@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2020-12-18/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-01-22/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -817,6 +817,7 @@ is_a: CHEBI:18303 ! phosphatidyl-L-serine
 id: CHEBI:1178
 name: (2S)-2-isopropylmalate(2-)
 subset: chebi_ph7_3
+is_a: CHEBI:167114 ! 2-hydroxydicarboxylate(2-)
 is_a: CHEBI:28107 ! 2-isopropylmalate(2-)
 
 [Term]
@@ -1585,6 +1586,11 @@ is_a: CHEBI:35341 ! steroid
 [Term]
 id: CHEBI:131634
 name: pregnane derivative
+is_a: CHEBI:35341 ! steroid
+
+[Term]
+id: CHEBI:131635
+name: estrane derivative
 is_a: CHEBI:35341 ! steroid
 
 [Term]
@@ -2624,6 +2630,7 @@ id: CHEBI:132040
 name: fatty acid-taurine conjugate(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:134249 ! alkanesulfonate oxoanion
+is_a: CHEBI:167098 ! N-(fatty acyl)-amine
 
 [Term]
 id: CHEBI:132042
@@ -3360,6 +3367,7 @@ relationship: has_role CHEBI:86264 ! rat metabolite
 id: CHEBI:132278
 name: 1-O-[(9S,10R)-epoxystearoyl]-sn-glycero-3-phosphocholine
 subset: chebi_ph7_3
+is_a: CHEBI:167116 ! oxidized 1-acyl-sn-glycero-3-phosphocholine zwitterion
 is_a: CHEBI:58168 ! 1-O-acyl-sn-glycero-3-phosphocholine
 is_a: CHEBI:64561 ! lysophosphatidylcholine 18:0
 
@@ -3367,6 +3375,7 @@ is_a: CHEBI:64561 ! lysophosphatidylcholine 18:0
 id: CHEBI:132280
 name: 1-O-[(9R,10S)-epoxystearoyl]-sn-glycero-3-phosphocholine
 subset: chebi_ph7_3
+is_a: CHEBI:167116 ! oxidized 1-acyl-sn-glycero-3-phosphocholine zwitterion
 is_a: CHEBI:58168 ! 1-O-acyl-sn-glycero-3-phosphocholine
 is_a: CHEBI:64561 ! lysophosphatidylcholine 18:0
 
@@ -3374,6 +3383,7 @@ is_a: CHEBI:64561 ! lysophosphatidylcholine 18:0
 id: CHEBI:132285
 name: 1-O-(8-hydroxyoleoyl)-sn-glycero-3-phosphocholine
 subset: chebi_ph7_3
+is_a: CHEBI:167116 ! oxidized 1-acyl-sn-glycero-3-phosphocholine zwitterion
 is_a: CHEBI:58168 ! 1-O-acyl-sn-glycero-3-phosphocholine
 is_a: CHEBI:64566 ! lysophosphatidylcholine 18:1
 
@@ -3381,6 +3391,7 @@ is_a: CHEBI:64566 ! lysophosphatidylcholine 18:1
 id: CHEBI:132286
 name: 1-O-(11-hydroxyoleoyl)-sn-glycero-3-phosphocholine
 subset: chebi_ph7_3
+is_a: CHEBI:167116 ! oxidized 1-acyl-sn-glycero-3-phosphocholine zwitterion
 is_a: CHEBI:58168 ! 1-O-acyl-sn-glycero-3-phosphocholine
 is_a: CHEBI:64566 ! lysophosphatidylcholine 18:1
 
@@ -4336,6 +4347,7 @@ is_a: CHEBI:23888 ! drug
 id: CHEBI:133000
 name: pregnenolone sulfate(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:167108 ! pregnane conjugate
 is_a: CHEBI:59696 ! steroid sulfate oxoanion
 
 [Term]
@@ -6418,6 +6430,7 @@ is_a: CHEBI:52640 ! N-acylethanolamine
 id: CHEBI:134175
 name: N-acylserotonin
 subset: chebi_ph7_3
+is_a: CHEBI:167098 ! N-(fatty acyl)-amine
 is_a: CHEBI:29348 ! fatty amide
 is_a: CHEBI:84729 ! hydroxyindoles
 
@@ -7182,8 +7195,8 @@ is_a: CHEBI:46761 ! dipeptide
 [Term]
 id: CHEBI:134486
 name: dimethylphosphatidylethanolamine 32:0
-is_a: CHEBI:36314 ! glycerophosphoethanolamine
 is_a: CHEBI:50996 ! tertiary amino compound
+is_a: CHEBI:64595 ! 1,2-diacyl-sn-glycero-3-phospho-N,N-dimethylethanolamine
 
 [Term]
 id: CHEBI:134489
@@ -7772,6 +7785,7 @@ id: CHEBI:136179
 name: (+)-7-isojasmonate
 subset: chebi_ph7_3
 is_a: CHEBI:136184 ! jasmonic acid anion
+is_a: CHEBI:167055 ! Jasmonate derivatives
 
 [Term]
 id: CHEBI:136180
@@ -8484,18 +8498,21 @@ is_a: CHEBI:2468 ! secondary alpha-hydroxy ketone
 id: CHEBI:136566
 name: (24S)-hydroxycholesterol 24-sulfate(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:167105 ! cholestane conjugate
 is_a: CHEBI:59696 ! steroid sulfate oxoanion
 
 [Term]
 id: CHEBI:136567
 name: (24S)-hydroxycholesterol 3-sulfate(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:167105 ! cholestane conjugate
 is_a: CHEBI:59696 ! steroid sulfate oxoanion
 
 [Term]
 id: CHEBI:136568
 name: (24S)-hydroxycholesterol 3,24-disulfate(2-)
 subset: chebi_ph7_3
+is_a: CHEBI:167105 ! cholestane conjugate
 is_a: CHEBI:59696 ! steroid sulfate oxoanion
 
 [Term]
@@ -8545,6 +8562,7 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 id: CHEBI:136579
 name: cholesterol sulfate(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:167105 ! cholestane conjugate
 is_a: CHEBI:59696 ! steroid sulfate oxoanion
 
 [Term]
@@ -8557,6 +8575,7 @@ is_a: CHEBI:84729 ! hydroxyindoles
 id: CHEBI:136582
 name: 17beta-estradiol 3-sulfate(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:167107 ! estrane conjugate
 is_a: CHEBI:59696 ! steroid sulfate oxoanion
 
 [Term]
@@ -8766,6 +8785,7 @@ id: CHEBI:136634
 name: estrone 3-O-(beta-D-glucuronide)(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:136637 ! steroid glucosiduronic acid anion
+is_a: CHEBI:167107 ! estrane conjugate
 is_a: CHEBI:83411 ! beta-D-glucosiduronate
 
 [Term]
@@ -8773,6 +8793,7 @@ id: CHEBI:136635
 name: 16alpha-hydroxyestrone 3-O-(beta-D-glucuronide)(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:136637 ! steroid glucosiduronic acid anion
+is_a: CHEBI:167107 ! estrane conjugate
 is_a: CHEBI:83411 ! beta-D-glucosiduronate
 
 [Term]
@@ -8780,6 +8801,7 @@ id: CHEBI:136636
 name: 16alpha-hydroxyestrone 16-O-(beta-D-glucuronide)(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:136637 ! steroid glucosiduronic acid anion
+is_a: CHEBI:167107 ! estrane conjugate
 is_a: CHEBI:83411 ! beta-D-glucosiduronate
 
 [Term]
@@ -8797,6 +8819,7 @@ id: CHEBI:136639
 name: testosterone 17-O-(beta-D-glucuronide)(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:136637 ! steroid glucosiduronic acid anion
+is_a: CHEBI:167106 ! androstane conjugate
 is_a: CHEBI:83411 ! beta-D-glucosiduronate
 
 [Term]
@@ -8810,6 +8833,7 @@ id: CHEBI:136641
 name: 17beta-estradiol 3-O-(beta-D-glucuronide)(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:136637 ! steroid glucosiduronic acid anion
+is_a: CHEBI:167107 ! estrane conjugate
 is_a: CHEBI:83411 ! beta-D-glucosiduronate
 
 [Term]
@@ -8831,6 +8855,7 @@ id: CHEBI:136650
 name: estriol 16-O-(beta-D-glucuronide)(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:136637 ! steroid glucosiduronic acid anion
+is_a: CHEBI:167107 ! estrane conjugate
 is_a: CHEBI:83411 ! beta-D-glucosiduronate
 
 [Term]
@@ -8914,6 +8939,7 @@ id: CHEBI:136673
 name: epitestosterone 17-O-(beta-D-glucuronide)(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:136637 ! steroid glucosiduronic acid anion
+is_a: CHEBI:167106 ! androstane conjugate
 is_a: CHEBI:83411 ! beta-D-glucosiduronate
 
 [Term]
@@ -9715,6 +9741,7 @@ id: CHEBI:136914
 name: 5alpha-dihydrotestosterone 17-O-(beta-D-glucuronide)(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:136637 ! steroid glucosiduronic acid anion
+is_a: CHEBI:167106 ! androstane conjugate
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 is_a: CHEBI:83411 ! beta-D-glucosiduronate
 
@@ -9723,6 +9750,7 @@ id: CHEBI:136916
 name: 5alpha-dihydrotestosterone 17-O-[beta-D-glucuronosyl-(1->2)-glucuronide](2-)
 subset: chebi_ph7_3
 is_a: CHEBI:136637 ! steroid glucosiduronic acid anion
+is_a: CHEBI:167106 ! androstane conjugate
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 
 [Term]
@@ -9761,7 +9789,7 @@ is_a: CHEBI:83411 ! beta-D-glucosiduronate
 id: CHEBI:136960
 name: ditrans,polycis-polyprenyl diphosphate(3-)
 subset: chebi_ph7_3
-is_a: CHEBI:157763 ! polyprenol phosphate anion
+is_a: CHEBI:167056 ! polyprenol diphosphate(3-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
@@ -9927,6 +9955,7 @@ id: CHEBI:136988
 name: N-[(8Z,11Z,14Z)-5,6-epoxyicosatrienoyl]ethanolamine
 subset: chebi_ph7_3
 is_a: CHEBI:15897 ! N-(long-chain-acyl)ethanolamine
+is_a: CHEBI:167118 ! oxidized N-(fatty acyl)-ethanolamine
 is_a: CHEBI:32955 ! epoxide
 is_a: CHEBI:67197 ! endocannabinoid
 is_a: CHEBI:85281 ! N-(polyunsaturated fatty acyl)ethanolamine
@@ -9937,6 +9966,7 @@ id: CHEBI:136989
 name: N-[(5Z,11Z,14Z)-8,9-epoxyicosatrienoyl]ethanolamine
 subset: chebi_ph7_3
 is_a: CHEBI:15897 ! N-(long-chain-acyl)ethanolamine
+is_a: CHEBI:167118 ! oxidized N-(fatty acyl)-ethanolamine
 is_a: CHEBI:32955 ! epoxide
 is_a: CHEBI:67197 ! endocannabinoid
 is_a: CHEBI:85281 ! N-(polyunsaturated fatty acyl)ethanolamine
@@ -9947,6 +9977,7 @@ id: CHEBI:136990
 name: N-[(5Z,8Z,14Z)-11,12-epoxyicosatrienoyl]ethanolamine
 subset: chebi_ph7_3
 is_a: CHEBI:15897 ! N-(long-chain-acyl)ethanolamine
+is_a: CHEBI:167118 ! oxidized N-(fatty acyl)-ethanolamine
 is_a: CHEBI:32955 ! epoxide
 is_a: CHEBI:67197 ! endocannabinoid
 is_a: CHEBI:85281 ! N-(polyunsaturated fatty acyl)ethanolamine
@@ -9957,6 +9988,7 @@ id: CHEBI:136991
 name: N-[(5Z,8Z,11Z)-14,15-epoxyicosatrienoyl]ethanolamine
 subset: chebi_ph7_3
 is_a: CHEBI:15897 ! N-(long-chain-acyl)ethanolamine
+is_a: CHEBI:167118 ! oxidized N-(fatty acyl)-ethanolamine
 is_a: CHEBI:32955 ! epoxide
 is_a: CHEBI:67197 ! endocannabinoid
 is_a: CHEBI:85281 ! N-(polyunsaturated fatty acyl)ethanolamine
@@ -9967,6 +9999,7 @@ id: CHEBI:136992
 name: N-(20-hydroxyarachidonoyl)ethanolamine
 subset: chebi_ph7_3
 is_a: CHEBI:15897 ! N-(long-chain-acyl)ethanolamine
+is_a: CHEBI:167118 ! oxidized N-(fatty acyl)-ethanolamine
 is_a: CHEBI:67197 ! endocannabinoid
 is_a: CHEBI:85281 ! N-(polyunsaturated fatty acyl)ethanolamine
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
@@ -11488,18 +11521,21 @@ is_a: CHEBI:83273 ! N-acylsphingoid
 id: CHEBI:137580
 name: 2-[(11R)-hydroxy-(5Z,8Z,12E,14Z)-icosatetraenoyl]-sn-glycero-3-phosphoethanolamine zwitterion
 subset: chebi_ph7_3
+is_a: CHEBI:167121 ! oxidized 2-acyl-sn-glycero-3-phosphoethanolamine zwitterion
 is_a: CHEBI:65213 ! 2-acyl-sn-glycero-3-phosphoethanolamine zwitterion
 
 [Term]
 id: CHEBI:137581
 name: 2-[(5Z,13E,15S)-11alpha,15-dihydroxy-9-oxoprosta-5,13-dien-1-oyl]-sn-glycero-3-phosphoethanolamine zwitterion
 subset: chebi_ph7_3
+is_a: CHEBI:167121 ! oxidized 2-acyl-sn-glycero-3-phosphoethanolamine zwitterion
 is_a: CHEBI:65213 ! 2-acyl-sn-glycero-3-phosphoethanolamine zwitterion
 
 [Term]
 id: CHEBI:137582
 name: 2-[(11R)-hydroxy-(5Z,8Z,12E,14Z)-icosatetraenoyl]-sn-glycero-3-phosphocholine
 subset: chebi_ph7_3
+is_a: CHEBI:167119 ! oxidized 2-acyl-sn-glycero-3-phosphocholine zwitterion
 is_a: CHEBI:57875 ! 2-acyl-sn-glycero-3-phosphocholine
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
@@ -11508,6 +11544,7 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 id: CHEBI:137583
 name: 2-[(15R)-hydroxy-(5Z,8Z,11Z,13E)-icosatetraenoyl]-sn-glycero-3-phosphocholine
 subset: chebi_ph7_3
+is_a: CHEBI:167119 ! oxidized 2-acyl-sn-glycero-3-phosphocholine zwitterion
 is_a: CHEBI:57875 ! 2-acyl-sn-glycero-3-phosphocholine
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
@@ -11516,6 +11553,7 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 id: CHEBI:137584
 name: 2-[(15S)-hydroxy-(5Z,8Z,11Z,13E)-icosatetraenoyl]-sn-glycero-3-phosphocholine
 subset: chebi_ph7_3
+is_a: CHEBI:167119 ! oxidized 2-acyl-sn-glycero-3-phosphocholine zwitterion
 is_a: CHEBI:57875 ! 2-acyl-sn-glycero-3-phosphocholine
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
@@ -11524,6 +11562,7 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 id: CHEBI:137585
 name: 2-[(5Z,13E,15S)-11alpha,15-dihydroxy-9-oxoprosta-5,13-dien-1-oyl]-sn-glycero-3-phosphocholine
 subset: chebi_ph7_3
+is_a: CHEBI:167119 ! oxidized 2-acyl-sn-glycero-3-phosphocholine zwitterion
 is_a: CHEBI:26347 ! prostanoid
 is_a: CHEBI:57875 ! 2-acyl-sn-glycero-3-phosphocholine
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -12723,12 +12762,14 @@ is_a: CHEBI:73423 ! 1-(alk-1-enyl)-sn-glycero-3-phosphate
 id: CHEBI:138098
 name: 2-[(9S,11R)-epidioxy-(15S)-hydroperoxy-(5Z,13E)-prostadienoyl]-sn-glycero-3-phosphoethanolamine zwitterion
 subset: chebi_ph7_3
+is_a: CHEBI:167121 ! oxidized 2-acyl-sn-glycero-3-phosphoethanolamine zwitterion
 is_a: CHEBI:65213 ! 2-acyl-sn-glycero-3-phosphoethanolamine zwitterion
 
 [Term]
 id: CHEBI:138099
 name: 2-[(9S,11R)-epidioxy-(15S)-hydroxy-(5Z,13E)-prostadienoyl]-sn-glycero-3-phosphoethanolamine zwitterion
 subset: chebi_ph7_3
+is_a: CHEBI:167121 ! oxidized 2-acyl-sn-glycero-3-phosphoethanolamine zwitterion
 is_a: CHEBI:65213 ! 2-acyl-sn-glycero-3-phosphoethanolamine zwitterion
 
 [Term]
@@ -12736,6 +12777,7 @@ id: CHEBI:138100
 name: 2-[(9S,11R)-epidioxy-(15S)-hydroperoxy-(5Z,13E)-prostadienoyl]-sn-glycero-3- phosphocholine
 subset: chebi_ph7_3
 is_a: CHEBI:145037 ! hydroperoxy fatty ester
+is_a: CHEBI:167119 ! oxidized 2-acyl-sn-glycero-3-phosphocholine zwitterion
 is_a: CHEBI:26347 ! prostanoid
 is_a: CHEBI:57875 ! 2-acyl-sn-glycero-3-phosphocholine
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -12746,6 +12788,7 @@ id: CHEBI:138101
 name: 2-[(9S,11R)-epidioxy-(15S)-hydroxy-(5Z,13E)-prostadienoyl]-sn-glycero-3- phosphocholine
 subset: chebi_ph7_3
 is_a: CHEBI:134396 ! secondary allylic alcohol
+is_a: CHEBI:167119 ! oxidized 2-acyl-sn-glycero-3-phosphocholine zwitterion
 is_a: CHEBI:26347 ! prostanoid
 is_a: CHEBI:57875 ! 2-acyl-sn-glycero-3-phosphocholine
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -13292,6 +13335,7 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 id: CHEBI:138269
 name: 1-O-hexadecyl-2-(8-carboxyoctanoyl)-sn-glycero-3-phosphocholine(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:167120 ! oxidized 1-O-alkyl-2-acyl-sn-glycero-3-phosphocholine zwitterion
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 is_a: CHEBI:62643 ! anionic phospholipid
 
@@ -13869,6 +13913,7 @@ is_a: CHEBI:47789 ! 7-oxo steroid
 id: CHEBI:138396
 name: OPC8-CoA (4-)
 subset: chebi_ph7_3
+is_a: CHEBI:167055 ! Jasmonate derivatives
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
@@ -13880,6 +13925,7 @@ is_a: CHEBI:36785 ! carbobicyclic compound
 id: CHEBI:138398
 name: (15Z)-12-oxophyto-10,15-dienoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:167055 ! Jasmonate derivatives
 is_a: CHEBI:77636 ! fatty acyl-CoA(4-)
 
 [Term]
@@ -13955,24 +14001,28 @@ is_a: CHEBI:23849 ! diterpenoid
 id: CHEBI:138430
 name: (9R,13R)-1a,1b-dinor-10,11-dihydro-12-oxo-15-phytoenoate
 subset: chebi_ph7_3
+is_a: CHEBI:167055 ! Jasmonate derivatives
 is_a: CHEBI:35902 ! oxo monocarboxylic acid anion
 
 [Term]
 id: CHEBI:138431
 name: (9S,13S)-1a,1b-dinor-10,11-dihydro-12-oxo-15-phytoenoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:167055 ! Jasmonate derivatives
 is_a: CHEBI:77636 ! fatty acyl-CoA(4-)
 
 [Term]
 id: CHEBI:138432
 name: 6-\{(1S,5S)-4-oxo-5-[(2Z)-pent-2-en-1-yl]cyclopent-2-en-1-yl}hexanoate
 subset: chebi_ph7_3
+is_a: CHEBI:167055 ! Jasmonate derivatives
 is_a: CHEBI:35902 ! oxo monocarboxylic acid anion
 
 [Term]
 id: CHEBI:138433
 name: (9S,13S)-1a,1b-dinor-12-oxo-10,15-phytodienoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:167055 ! Jasmonate derivatives
 is_a: CHEBI:77636 ! fatty acyl-CoA(4-)
 
 [Term]
@@ -14661,6 +14711,7 @@ id: CHEBI:138893
 name: Man-1-2-Ins-1-P-Cer(d18:0)(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:139065 ! mannosylinositol-1-phosphodihydroceramide(1-)
+is_a: CHEBI:167047 ! mannosyl-alpha-1->6-inositol-1-phosphodihydroceramide(1-)
 
 [Term]
 id: CHEBI:138897
@@ -15742,18 +15793,21 @@ id: CHEBI:139274
 name: calcitriol 25-O-(beta-D-glucuronate)
 subset: chebi_ph7_3
 is_a: CHEBI:136637 ! steroid glucosiduronic acid anion
+is_a: CHEBI:167104 ! seco-cholestane conjugate
 
 [Term]
 id: CHEBI:139277
 name: calcidiol 25-O-(beta-D-glucuronate)
 subset: chebi_ph7_3
 is_a: CHEBI:136637 ! steroid glucosiduronic acid anion
+is_a: CHEBI:167104 ! seco-cholestane conjugate
 
 [Term]
 id: CHEBI:139278
 name: calcidiol 3-O-(beta-D-glucuronate)
 subset: chebi_ph7_3
 is_a: CHEBI:136637 ! steroid glucosiduronic acid anion
+is_a: CHEBI:167104 ! seco-cholestane conjugate
 
 [Term]
 id: CHEBI:139285
@@ -18606,6 +18660,12 @@ subset: chebi_ph7_3
 is_a: CHEBI:138238 ! pyrimidine ribonucleoside 5'-monophosphate(2-)
 
 [Term]
+id: CHEBI:142797
+name: TMP(2-)
+subset: chebi_ph7_3
+is_a: CHEBI:138238 ! pyrimidine ribonucleoside 5'-monophosphate(2-)
+
+[Term]
 id: CHEBI:14280
 name: formyl phosphate(1-)
 is_a: CHEBI:60199 ! acyl monophosphate(1-)
@@ -19729,6 +19789,7 @@ id: CHEBI:146179
 name: galactotriose
 is_a: CHEBI:24151 ! galactooligosaccharide
 is_a: CHEBI:27150 ! trisaccharide
+is_a: CHEBI:36233 ! disaccharide
 
 [Term]
 id: CHEBI:146180
@@ -22934,6 +22995,7 @@ is_a: CHEBI:24677 ! hydroxybenzophenone
 id: CHEBI:15720
 name: 8-[(1R,2R)-3-oxo-2-\{(Z)-pent-2-en-1-yl}cyclopentyl]octanoate
 subset: chebi_ph7_3
+is_a: CHEBI:167055 ! Jasmonate derivatives
 is_a: CHEBI:25696 ! organic anion
 
 [Term]
@@ -23357,6 +23419,7 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 [Term]
 id: CHEBI:157740
 name: N-(fatty acyl)-dopamine
+is_a: CHEBI:167098 ! N-(fatty acyl)-amine
 is_a: CHEBI:29348 ! fatty amide
 
 [Term]
@@ -24273,6 +24336,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:15929
 name: (-)-methyl jasmonate
 subset: chebi_ph7_3
+is_a: CHEBI:167055 ! Jasmonate derivatives
 is_a: CHEBI:25248 ! methyl ester
 is_a: CHEBI:52464 ! jasmonate ester
 relationship: has_role CHEBI:24937 ! jasmonates
@@ -28949,6 +29013,11 @@ is_a: CHEBI:64708 ! one-carbon compound
 relationship: has_role CHEBI:35487 ! EC 1.2.1.3 [aldehyde dehydrogenase (NAD(+))] inhibitor
 
 [Term]
+id: CHEBI:166988
+name: glycerophosphoglycerophosphoglycerol
+is_a: CHEBI:37739 ! glycerophospholipid
+
+[Term]
 id: CHEBI:16699
 name: 2-dehydro-3-deoxy-D-arabinonate
 subset: chebi_ph7_3
@@ -28990,10 +29059,30 @@ relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
 [Term]
+id: CHEBI:167047
+name: mannosyl-alpha-1->6-inositol-1-phosphodihydroceramide(1-)
+is_a: CHEBI:139065 ! mannosylinositol-1-phosphodihydroceramide(1-)
+
+[Term]
 id: CHEBI:16705
 name: 6-aminopenicillanic acid
 is_a: CHEBI:25865 ! penicillanic acids
 relationship: has_role CHEBI:50904 ! allergen
+
+[Term]
+id: CHEBI:167055
+name: Jasmonate derivatives
+is_a: CHEBI:36326 ! octadecanoid
+
+[Term]
+id: CHEBI:167056
+name: polyprenol diphosphate(3-)
+is_a: CHEBI:26244 ! prenols
+
+[Term]
+id: CHEBI:167057
+name: Monolysocardiolipin(2-)
+is_a: CHEBI:76529 ! glycerophosphoglycerophosphoglycerol(2-)
 
 [Term]
 id: CHEBI:16706
@@ -29029,11 +29118,61 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
+id: CHEBI:167094
+name: medium-chain 1,2-diacyl-3-beta-D-galactosyl-sn-glycerol
+is_a: CHEBI:17615 ! 1,2-diacyl-3-beta-D-galactosyl-sn-glycerol
+
+[Term]
+id: CHEBI:167095
+name: secondary fatty alcohol
+is_a: CHEBI:24026 ! fatty alcohol
+
+[Term]
+id: CHEBI:167097
+name: trihexosylceramide sulfate
+is_a: CHEBI:58958 ! organosulfate oxoanion
+
+[Term]
+id: CHEBI:167098
+name: N-(fatty acyl)-amine
+is_a: CHEBI:140325 ! secondary carboxamide
+
+[Term]
 id: CHEBI:16710
 name: D-ribulose 1,5-bisphosphate
 is_a: CHEBI:26573 ! ribulose phosphate
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:167104
+name: seco-cholestane conjugate
+is_a: CHEBI:136637 ! steroid glucosiduronic acid anion
+
+[Term]
+id: CHEBI:167105
+name: cholestane conjugate
+is_a: CHEBI:50401 ! cholestanoid
+
+[Term]
+id: CHEBI:167106
+name: androstane conjugate
+is_a: CHEBI:50402 ! androstanoid
+
+[Term]
+id: CHEBI:167107
+name: estrane conjugate
+is_a: CHEBI:131635 ! estrane derivative
+
+[Term]
+id: CHEBI:167108
+name: pregnane conjugate
+is_a: CHEBI:131634 ! pregnane derivative
+
+[Term]
+id: CHEBI:167109
+name: acyl sugars
+is_a: CHEBI:166828 ! Saccharolipids
 
 [Term]
 id: CHEBI:16711
@@ -29042,9 +29181,44 @@ subset: chebi_ph7_3
 is_a: CHEBI:51720 ! ynal
 
 [Term]
+id: CHEBI:167114
+name: 2-hydroxydicarboxylate(2-)
+is_a: CHEBI:35693 ! dicarboxylic acid anion
+
+[Term]
+id: CHEBI:167115
+name: oxidized glycerophosphocholine zwitterion
+is_a: CHEBI:36313 ! glycerophosphocholine
+
+[Term]
+id: CHEBI:167116
+name: oxidized 1-acyl-sn-glycero-3-phosphocholine zwitterion
+is_a: CHEBI:36313 ! glycerophosphocholine
+
+[Term]
+id: CHEBI:167118
+name: oxidized N-(fatty acyl)-ethanolamine
+is_a: CHEBI:52640 ! N-acylethanolamine
+
+[Term]
+id: CHEBI:167119
+name: oxidized 2-acyl-sn-glycero-3-phosphocholine zwitterion
+is_a: CHEBI:57875 ! 2-acyl-sn-glycero-3-phosphocholine
+
+[Term]
 id: CHEBI:16712
 name: (S)-3-sulfolactic acid
 is_a: CHEBI:38023 ! 3-sulfolactic acid
+
+[Term]
+id: CHEBI:167120
+name: oxidized 1-O-alkyl-2-acyl-sn-glycero-3-phosphocholine zwitterion
+is_a: CHEBI:36702 ! 2-acyl-1-alkyl-sn-glycero-3-phosphocholine
+
+[Term]
+id: CHEBI:167121
+name: oxidized 2-acyl-sn-glycero-3-phosphoethanolamine zwitterion
+is_a: CHEBI:65213 ! 2-acyl-sn-glycero-3-phosphoethanolamine zwitterion
 
 [Term]
 id: CHEBI:16713
@@ -29064,6 +29238,11 @@ relationship: has_role CHEBI:51177 ! antitussive
 relationship: has_role CHEBI:60606 ! opioid receptor agonist
 relationship: has_role CHEBI:78298 ! environmental contaminant
 relationship: has_role CHEBI:88188 ! drug allergen
+
+[Term]
+id: CHEBI:167148
+name: 1-linoleoyl-2-acyl-sn-glycero-3-phosphocholine
+is_a: CHEBI:57643 ! 1,2-diacyl-sn-glycero-3-phosphocholine
 
 [Term]
 id: CHEBI:16715
@@ -35997,6 +36176,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:17824
 name: propan-2-ol
 subset: chebi_ph7_3
+is_a: CHEBI:167095 ! secondary fatty alcohol
 is_a: CHEBI:35681 ! secondary alcohol
 relationship: has_role CHEBI:48356 ! protic solvent
 
@@ -36179,6 +36359,7 @@ id: CHEBI:17855
 name: triglyceride
 subset: chebi_ph7_3
 is_a: CHEBI:47778 ! glyceride
+is_a: CHEBI:76579 ! triradylglycerol
 
 [Term]
 id: CHEBI:17856
@@ -53660,6 +53841,7 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 [Term]
 id: CHEBI:28494
 name: cardiolipin
+is_a: CHEBI:166988 ! glycerophosphoglycerophosphoglycerol
 is_a: CHEBI:17517 ! phosphatidylglycerol
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
@@ -64507,6 +64689,7 @@ id: CHEBI:35121
 name: (2R,3S)-3-isopropylmalate(2-)
 subset: chebi_ph7_3
 is_a: CHEBI:15592 ! 3-isopropylmalate(2-)
+is_a: CHEBI:167114 ! 2-hydroxydicarboxylate(2-)
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 
 [Term]
@@ -75489,6 +75672,7 @@ relationship: has_role CHEBI:76976 ! bacterial xenobiotic metabolite
 id: CHEBI:42027
 name: 1,2-di-[(9Z,12Z)-octadecadienoyl]-sn-glycero-3-phosphocholine
 subset: chebi_ph7_3
+is_a: CHEBI:167148 ! 1-linoleoyl-2-acyl-sn-glycero-3-phosphocholine
 is_a: CHEBI:84815 ! 1,2-di-octadecadienoyl-sn-glycero-3-phosphocholine
 
 [Term]
@@ -76651,6 +76835,11 @@ id: CHEBI:45389
 name: (R)-styrene oxide
 subset: chebi_ph7_3
 is_a: CHEBI:17907 ! styrene oxide
+
+[Term]
+id: CHEBI:45394
+name: TMP
+is_a: CHEBI:39457 ! pyrimidine ribonucleoside 5'-monophosphate
 
 [Term]
 id: CHEBI:45410
@@ -88575,6 +88764,7 @@ is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 id: CHEBI:57411
 name: (15Z)-12-oxophyto-10,15-dienoate
 subset: chebi_ph7_3
+is_a: CHEBI:167055 ! Jasmonate derivatives
 is_a: CHEBI:35902 ! oxo monocarboxylic acid anion
 
 [Term]
@@ -90032,6 +90222,7 @@ is_a: CHEBI:33721 ! carbohydrate acid anion
 id: CHEBI:57654
 name: undecaprenyl phosphate(2-)
 subset: chebi_ph7_3
+is_a: CHEBI:157763 ! polyprenol phosphate anion
 is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
@@ -93160,6 +93351,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:58179
 name: all-trans-hexaprenyl diphosphate(3-)
 subset: chebi_ph7_3
+is_a: CHEBI:167056 ! polyprenol diphosphate(3-)
 is_a: CHEBI:58914 ! all-trans-polyprenyl diphosphate(3-)
 
 [Term]
@@ -94523,6 +94715,7 @@ id: CHEBI:58405
 name: ditrans,polycis-undecaprenyl diphosphate(3-)
 subset: chebi_ph7_3
 is_a: CHEBI:136960 ! ditrans,polycis-polyprenyl diphosphate(3-)
+is_a: CHEBI:167056 ! polyprenol diphosphate(3-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
@@ -94681,6 +94874,7 @@ id: CHEBI:58431
 name: jasmonate(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:136184 ! jasmonic acid anion
+is_a: CHEBI:167055 ! Jasmonate derivatives
 relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
@@ -98024,6 +98218,7 @@ relationship: has_role CHEBI:59132 ! antigen
 [Term]
 id: CHEBI:59475
 name: 6-O-acyl-D-glucose
+is_a: CHEBI:167109 ! acyl sugars
 is_a: CHEBI:52782 ! O-acyl carbohydrate
 is_a: CHEBI:63367 ! monosaccharide derivative
 
@@ -99120,6 +99315,7 @@ is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
 id: CHEBI:60050
 name: estrone 3-sulfate(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:167107 ! estrane conjugate
 is_a: CHEBI:59696 ! steroid sulfate oxoanion
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -100387,6 +100583,8 @@ is_a: CHEBI:60690 ! nitrogen-containing fatty acid
 id: CHEBI:60721
 name: all-trans-decaprenyl diphosphate(3-)
 subset: chebi_ph7_3
+is_a: CHEBI:157763 ! polyprenol phosphate anion
+is_a: CHEBI:167056 ! polyprenol diphosphate(3-)
 is_a: CHEBI:58914 ! all-trans-polyprenyl diphosphate(3-)
 
 [Term]
@@ -110068,6 +110266,7 @@ is_a: CHEBI:64769 ! organic cationic group
 id: CHEBI:64743
 name: 2-monolysocardiolipin(2-)
 subset: chebi_ph7_3
+is_a: CHEBI:167057 ! Monolysocardiolipin(2-)
 is_a: CHEBI:76529 ! glycerophosphoglycerophosphoglycerol(2-)
 
 [Term]
@@ -111543,6 +111742,7 @@ is_a: CHEBI:75480 ! Ins-1-P-Cer-A 42:0(1-)
 id: CHEBI:65092
 name: 1-monolysocardiolipin(2-)
 subset: chebi_ph7_3
+is_a: CHEBI:167057 ! Monolysocardiolipin(2-)
 is_a: CHEBI:62643 ! anionic phospholipid
 
 [Term]
@@ -123176,6 +123376,7 @@ is_a: CHEBI:72405 ! lysophosphatidylserine 16:0(1-)
 id: CHEBI:75023
 name: Ins-1-P-6-Man-1-2-Ins-1-P-Cer C(2-)
 subset: chebi_ph7_3
+is_a: CHEBI:167049
 is_a: CHEBI:74997 ! mannosyl diphosphorylinositol ceramide(2-)
 
 [Term]
@@ -127566,6 +127767,11 @@ name: diradylglycerol
 is_a: CHEBI:35741 ! glycerolipid
 
 [Term]
+id: CHEBI:76579
+name: triradylglycerol
+is_a: CHEBI:35741 ! glycerolipid
+
+[Term]
 id: CHEBI:76581
 name: 2-alkylglycerol
 subset: chebi_ph7_3
@@ -131899,6 +132105,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 id: CHEBI:77753
 name: 1-palmitoyl-2-[(10E)-9-hydroperoxyoctadecenoyl]-sn-glycero-3-phosphocholine
 subset: chebi_ph7_3
+is_a: CHEBI:167115 ! oxidized glycerophosphocholine zwitterion
 is_a: CHEBI:57643 ! 1,2-diacyl-sn-glycero-3-phosphocholine
 
 [Term]
@@ -133635,6 +133842,7 @@ is_a: CHEBI:35748 ! fatty acid ester
 id: CHEBI:78207
 name: 1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:167115 ! oxidized glycerophosphocholine zwitterion
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 is_a: CHEBI:62643 ! anionic phospholipid
 
@@ -138551,6 +138759,7 @@ id: CHEBI:82961
 name: 17beta-estradiol 17-glucosiduronate
 subset: chebi_ph7_3
 is_a: CHEBI:136637 ! steroid glucosiduronic acid anion
+is_a: CHEBI:167107 ! estrane conjugate
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 is_a: CHEBI:83411 ! beta-D-glucosiduronate
 
@@ -141672,6 +141881,7 @@ id: CHEBI:84481
 name: N,O-diacylethanolamine
 subset: chebi_ph7_3
 is_a: CHEBI:140325 ! secondary carboxamide
+is_a: CHEBI:167098 ! N-(fatty acyl)-amine
 is_a: CHEBI:33308 ! carboxylic ester
 
 [Term]
@@ -147348,6 +147558,7 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 id: CHEBI:87538
 name: 16alpha-hydroxydehydroepiandrosterone 3-sulfate(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:167106 ! androstane conjugate
 is_a: CHEBI:59696 ! steroid sulfate oxoanion
 
 [Term]
@@ -149431,6 +149642,7 @@ is_a: CHEBI:84733 ! dihexosylceramide sulfate(1-)
 id: CHEBI:90164
 name: N-acetyl-beta-D-galactosaminyl-(1->4)-beta-D-3-sulfogalactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:167097 ! trihexosylceramide sulfate
 is_a: CHEBI:58958 ! organosulfate oxoanion
 
 [Term]
@@ -149859,6 +150071,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:90453
 name: 1,2-dioctanoyl-3-beta-D-galactosyl-sn-glycerol
 subset: chebi_ph7_3
+is_a: CHEBI:167094 ! medium-chain 1,2-diacyl-3-beta-D-galactosyl-sn-glycerol
 is_a: CHEBI:17615 ! 1,2-diacyl-3-beta-D-galactosyl-sn-glycerol
 
 [Term]
