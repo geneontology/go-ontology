@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-01-22/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-01-25/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -129800,11 +129800,6 @@ is_a: CHEBI:77117 ! EC 3.5.5.* (hydrolase acting on C-N bonds in nitriles) inhib
 id: CHEBI:77119
 name: EC 1.1.1.189 (prostaglandin-E2 9-reductase) inhibitor
 is_a: CHEBI:76835 ! EC 1.1.1.* (oxidoreductase acting on donor CH-OH group, NAD(+) or NADP(+) acceptor) inhibitor
-
-[Term]
-id: CHEBI:77120
-is_obsolete: true
-replaced_by: CHEBI:45394
 
 [Term]
 id: CHEBI:77121
