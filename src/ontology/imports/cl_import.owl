@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2020-11-22/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-01-24/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -530,7 +530,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002321"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell found in the embryo before the formation of all the gem layers is complete.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">early embryonic cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">early embryonic cell (metazoa)</rdfs:label>
     </owl:Class>
     
 
@@ -4216,13 +4216,17 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000255 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000255">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CL_0000520"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eukaryotic cell</rdfs:label>
     </owl:Class>
@@ -4713,7 +4717,19 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000365 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000365">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0010017"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0010017"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diploid cell produced by the fusion of sperm cell nucleus and egg cell.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>zygote</oboInOwl:hasBroadSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animal zygote</rdfs:label>
@@ -5931,6 +5947,17 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000521 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000521">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fungal cell</rdfs:label>
@@ -6277,6 +6304,17 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000548 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000548">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000255"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -20891,7 +20929,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002321">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cell of the embryo.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic cell (metazoa)</rdfs:label>
     </owl:Class>
     
 
@@ -25941,7 +25979,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0008038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0008039"/>
-        <obo:IAO_0000115>A large, multipolar lower motor neuron of the brainstem and spinal cord that innervates the extrafusal muscle fibers of skeletal muscle.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002120"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0008046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A large, multipolar lower motor neuron of the brainstem and spinal cord that innervates the extrafusal muscle fibers of skeletal muscle and are directly responsible for initiating their contraction. While their cell bodies are in the CNS (in the anterior gray horn of the spinal cord), they are part of the somatic nervous system - a branch of the PNS.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>alpha motoneuron</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">alpha motor neuron</rdfs:label>
     </owl:Class>
@@ -26035,6 +26079,49 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002319"/>
         <obo:IAO_0000115>Any cell in the retina, the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates.</obo:IAO_0000115>
         <rdfs:label>retinal cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0009014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0009014">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000542"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001211"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A lymphocyte that is part of a Peyer&apos;s patch. These cells have a major role in driving the immune response to antigens sampled from the intestinal lumen, and in regulating the formation of follicle-associated epithelium and M cells in Peyer&apos;s patches by converting intestitial enterocytes into M cells.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Peyer&apos;s patch resident lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>small intestine Peyer&apos;s patch lymphocyte</oboInOwl:hasNarrowSynonym>
+        <rdfs:label>Peyer&apos;s patch lymphocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0009015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0009015">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000442"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001211"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000442"/>
+        <obo:IAO_0000115>A follicular dendritic cell located in the Peyer&apos;s patch. These cells from a meshwork in which Peyer&apos;s patch B cells reside.</obo:IAO_0000115>
+        <rdfs:label>Peyer&apos;s patch follicular dendritic cell</rdfs:label>
     </owl:Class>
     
 
@@ -26255,6 +26342,16 @@
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neuron that is part_of a cerebral cortex.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebral cortex neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0010017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0010017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <obo:IAO_0000115>A zygote in a plant or an animal.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">zygote</rdfs:label>
     </owl:Class>
     
 
@@ -26563,6 +26660,28 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011115"/>
         <obo:IAO_0000115>A precursor cell that has a tendency to differentiate into a specific type of cell. They are descendants of stem cells, only they are more constrained in their differentiation potential or capacity for self-renewal, and are often more limited in both senses.</obo:IAO_0000115>
         <rdfs:label>progenitor cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0011027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011027">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000057"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001134"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000057"/>
+        <obo:IAO_0000115>Any fibroblast that is part of skeletal muscle tissue.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>skeleton muscle fibroblast</oboInOwl:hasExactSynonym>
+        <rdfs:label>skeletal muscle fibroblast</rdfs:label>
     </owl:Class>
     
 
@@ -30352,6 +30471,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any dendritic cell that is part of a liver.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>hepatic dendritic cell</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liver dendritic cell</rdfs:label>
     </owl:Class>
     
@@ -32534,6 +32654,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_40674 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40674"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_4751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
     
 
 
