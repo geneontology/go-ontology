@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-01-17/imports/so_import.owl
+data-version: go/releases/2021-01-24/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -40,14 +40,14 @@ is_a: SO:0000727 ! CRM
 id: SO:0000167
 name: promoter
 namespace: sequence
-def: "A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the basal transcription machinery. A region (DNA) to which RNA polymerase binds, to begin transcription." [SO:regcreative]
-comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The region on a DNA molecule involved in RNA polymerase binding to initiate transcription. Moved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020. Merged with RNA_polymerase_promoter (SO:0001203) Aug 2020.
+def: "A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the core transcription machinery. A region (DNA) to which RNA polymerase binds, to begin transcription." [SO:regcreative]
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The region on a DNA molecule involved in RNA polymerase binding to initiate transcription. Moved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020. Merged with RNA_polymerase_promoter (SO:0001203) Aug 2020. Moved up one level from is_a CRM (SO:0000727) to is_a transcriptional_cis_regulatory_region (SO:0001055) as part of the GREEKC work January 2021. Pascale Gaudet from Gene Ontology pointed out that CRM can be located upstream of the promoter and therefore cannot include the promoter.
 subset: SOFA
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:promoter" EXACT []
 synonym: "promoter sequence" EXACT []
 xref: http://en.wikipedia.org/wiki/Promoter "wiki"
-is_a: SO:0000727 ! CRM
+is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 
 [Term]
 id: SO:0000170
@@ -96,6 +96,18 @@ synonym: "protein_coding_transcript" EXACT []
 xref: http://en.wikipedia.org/wiki/MRNA "wiki"
 xref: http://www.gencodegenes.org/gencode_biotypes.html "GENCODE"
 is_a: SO:0000233 ! mature_transcript
+
+[Term]
+id: SO:0000235
+name: TF_binding_site
+namespace: sequence
+def: "A DNA site where a transcription factor binds." [SO:ke]
+comment: Definition updated along with definitions in Mejia-Almonte et.al PMID:32665585. Added relationship part_of SO:0000727 CRM in place of previous CRM relationship has_part TF_binding_site August 2020 in response to requsts from GREEKC initiative.
+subset: SOFA
+synonym: "TF binding site" EXACT []
+synonym: "transcription factor binding site" EXACT []
+is_a: SO:0001654 ! nucleotide_to_protein_binding_site
+is_a: SO:0001679 ! transcription_regulatory_region
 
 [Term]
 id: SO:0000252
@@ -237,6 +249,33 @@ synonym: "5.8S rRNA" EXACT []
 synonym: "rRNA 5 8S" EXACT []
 xref: http://en.wikipedia.org/wiki/5.8S_ribosomal_RNA "wiki"
 is_a: SO:0000651 ! large_subunit_rRNA
+
+[Term]
+id: SO:0000409
+name: binding_site
+namespace: sequence
+alt_id: BS:00033
+def: "A biological_region of sequence that, in the molecule, interacts selectively and non-covalently with other molecules. A region on the surface of a molecule that may interact with another molecule. When applied to polypeptides: Amino acids involved in binding or interactions. It can also apply to an amino acid bond which is represented by the positions of the two flanking amino acids." [EBIBS:GAR, SO:ke]
+comment: See GO:0005488 : binding.
+subset: biosapiens
+subset: SOFA
+synonym: "binding site" EXACT []
+synonym: "binding_or_interaction_site" EXACT []
+synonym: "INSDC_feature:misc_binding" EXACT []
+synonym: "site" RELATED []
+xref: http://en.wikipedia.org/wiki/Binding_site "wiki"
+is_a: SO:0001411 ! biological_region
+
+[Term]
+id: SO:0000410
+name: protein_binding_site
+namespace: sequence
+def: "A binding site that, in the molecule, interacts selectively and non-covalently with polypeptide molecules." [SO:ke]
+comment: See GO:0042277 : peptide binding.
+subset: SOFA
+synonym: "INSDC_feature:protein_bind" EXACT []
+synonym: "protein binding site" EXACT []
+is_a: SO:0000409 ! binding_site
 
 [Term]
 id: SO:0000577
@@ -451,7 +490,7 @@ is_a: SO:0001683 ! sequence_motif
 id: SO:0000727
 name: CRM
 namespace: sequence
-def: "A regulatory region where transcription factor binding sites are clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundreds of kb upstream of the basal promoter, in the coding sequence, within introns, or in the untranslated regions (UTR) sequences, and even on a different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network." [PMID:19660565, SO:SG]
+def: "A regulatory region where transcription factor binding sites are clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundreds of kb upstream of the core promoter, in the coding sequence, within introns, or in the untranslated regions (UTR) sequences, and even on a different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network." [PMID:19660565, SO:SG]
 comment: Requested by Stephen Grossmann Dec 2004. Changed relationship from has_part SO:0000235 TF_binding site to TF_binding_site is part_of SO:0000727 CRM in response to requests from GREEKC initiative in Aug 2020. Removed 3' from definition because 5' UTRs are included as well, notified by Colin Logie of GREEKC. Nov 9 2020.
 subset: SOFA
 synonym: "cis regulatory module" EXACT []
@@ -658,6 +697,17 @@ def: "A DNA region within which self-interaction occurs more often than expected
 subset: SOFA
 synonym: "topologically defined region" EXACT []
 is_a: SO:0000001 ! region
+
+[Term]
+id: SO:0001654
+name: nucleotide_to_protein_binding_site
+namespace: sequence
+def: "A binding site that, in the nucleotide molecule, interacts selectively and non-covalently with polypeptide residues." [SO:ke]
+subset: SOFA
+synonym: "nucleotide to protein binding site" RELATED []
+is_a: SO:0000410 ! protein_binding_site
+created_by: kareneilbeck
+creation_date: 2010-08-03T12:26:05Z
 
 [Term]
 id: SO:0001659
