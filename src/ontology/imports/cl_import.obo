@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-11-22/imports/cl_import.owl
+data-version: go/releases/2021-01-24/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -35,9 +35,9 @@ intersection_of: RO:0002215 GO:0050906
 
 [Term]
 id: CL:0000007
-name: early embryonic cell
+name: early embryonic cell (metazoa)
 def: "A cell found in the embryo before the formation of all the gem layers is complete." []
-is_a: CL:0002321 ! embryonic cell
+is_a: CL:0002321 ! embryonic cell (metazoa)
 
 [Term]
 id: CL:0000008
@@ -1413,7 +1413,7 @@ id: CL:0000221
 name: ectodermal cell
 def: "A cell of the outer of the three germ layers of the embryo." []
 synonym: "ectoderm cell" EXACT []
-is_a: CL:0002321 ! embryonic cell
+is_a: CL:0002321 ! embryonic cell (metazoa)
 relationship: BFO:0000050 UBERON:0000924
 
 [Term]
@@ -1422,7 +1422,7 @@ name: mesodermal cell
 def: "A cell of the middle germ layer of the embryo." []
 synonym: "mesoblast" EXACT []
 synonym: "mesoderm cell" EXACT []
-is_a: CL:0002321 ! embryonic cell
+is_a: CL:0002321 ! embryonic cell (metazoa)
 relationship: BFO:0000050 UBERON:0000926
 
 [Term]
@@ -1430,7 +1430,7 @@ id: CL:0000223
 name: endodermal cell
 def: "A cell of the inner of the three germ layers of the embryo." []
 synonym: "endoderm cell" EXACT []
-is_a: CL:0002321 ! embryonic cell
+is_a: CL:0002321 ! embryonic cell (metazoa)
 relationship: BFO:0000050 UBERON:0000925
 
 [Term]
@@ -1579,9 +1579,9 @@ is_a: CL:0000527 ! efferent neuron
 [Term]
 id: CL:0000255
 name: eukaryotic cell
-is_a: CL:0000003 ! native cell
+intersection_of: CL:0000003 ! native cell
+intersection_of: RO:0002160 NCBITaxon:2759
 disjoint_from: CL:0000520 ! prokaryotic cell
-relationship: RO:0002160 NCBITaxon:2759
 
 [Term]
 id: CL:0000287
@@ -1785,7 +1785,10 @@ id: CL:0000365
 name: animal zygote
 def: "Diploid cell produced by the fusion of sperm cell nucleus and egg cell." []
 synonym: "zygote" BROAD []
-is_a: CL:0000007 ! early embryonic cell
+is_a: CL:0000007 ! early embryonic cell (metazoa)
+is_a: CL:0010017 ! zygote
+intersection_of: CL:0010017 ! zygote
+intersection_of: RO:0002160 NCBITaxon:33208
 
 [Term]
 id: CL:0000373
@@ -2304,6 +2307,8 @@ is_a: CL:0000003 ! native cell
 id: CL:0000521
 name: fungal cell
 is_a: CL:0000255 ! eukaryotic cell
+intersection_of: CL:0000003 ! native cell
+intersection_of: RO:0002160 NCBITaxon:4751
 disjoint_from: CL:0000548 ! animal cell
 
 [Term]
@@ -2445,6 +2450,8 @@ relationship: RO:0002202 CL:0000038 ! erythroid progenitor cell
 id: CL:0000548
 name: animal cell
 is_a: CL:0000255 ! eukaryotic cell
+intersection_of: CL:0000003 ! native cell
+intersection_of: RO:0002160 NCBITaxon:33208
 relationship: RO:0002160 NCBITaxon:33208
 
 [Term]
@@ -8146,7 +8153,7 @@ intersection_of: BFO:0000050 UBERON:0002384
 
 [Term]
 id: CL:0002321
-name: embryonic cell
+name: embryonic cell (metazoa)
 def: "A cell of the embryo." []
 is_a: CL:0000548 ! animal cell
 
@@ -8156,7 +8163,7 @@ name: embryonic stem cell
 def: "A stem cell of embryonic origin." []
 synonym: "ESC" EXACT []
 is_a: CL:0000034 ! stem cell
-is_a: CL:0002321 ! embryonic cell
+is_a: CL:0002321 ! embryonic cell (metazoa)
 
 [Term]
 id: CL:0002323
@@ -10083,9 +10090,10 @@ is_a: CL:0002371 ! somatic cell
 [Term]
 id: CL:0008038
 name: alpha motor neuron
-def: "A large, multipolar lower motor neuron of the brainstem and spinal cord that innervates the extrafusal muscle fibers of skeletal muscle." []
+def: "A large, multipolar lower motor neuron of the brainstem and spinal cord that innervates the extrafusal muscle fibers of skeletal muscle and are directly responsible for initiating their contraction. While their cell bodies are in the CNS (in the anterior gray horn of the spinal cord), they are part of the somatic nervous system - a branch of the PNS." []
 synonym: "alpha motoneuron" EXACT []
 is_a: CL:0008039 ! lower motor neuron
+relationship: RO:0002120 CL:0008046 ! extrafusal muscle fiber
 
 [Term]
 id: CL:0008039
@@ -10116,6 +10124,23 @@ def: "Any cell in the retina, the innermost layer or coating at the back of the 
 is_a: CL:0002319 ! neural cell
 intersection_of: CL:0002319 ! neural cell
 intersection_of: BFO:0000050 UBERON:0005388
+
+[Term]
+id: CL:0009014
+name: Peyer's patch lymphocyte
+def: "A lymphocyte that is part of a Peyer's patch. These cells have a major role in driving the immune response to antigens sampled from the intestinal lumen, and in regulating the formation of follicle-associated epithelium and M cells in Peyer's patches by converting intestitial enterocytes into M cells." []
+synonym: "Peyer's patch resident lymphocyte" EXACT []
+synonym: "small intestine Peyer's patch lymphocyte" NARROW []
+intersection_of: CL:0000542 ! lymphocyte
+intersection_of: BFO:0000050 UBERON:0001211
+
+[Term]
+id: CL:0009015
+name: Peyer's patch follicular dendritic cell
+def: "A follicular dendritic cell located in the Peyer's patch. These cells from a meshwork in which Peyer's patch B cells reside." []
+is_a: CL:0000442 ! follicular dendritic cell
+intersection_of: CL:0000442 ! follicular dendritic cell
+intersection_of: BFO:0000050 UBERON:0001211
 
 [Term]
 id: CL:0010001
@@ -10195,6 +10220,12 @@ intersection_of: CL:0000540 ! neuron
 intersection_of: BFO:0000050 UBERON:0000956
 
 [Term]
+id: CL:0010017
+name: zygote
+def: "A zygote in a plant or an animal." []
+is_a: CL:0000003 ! native cell
+
+[Term]
 id: CL:0010020
 name: cardiac glial cell
 intersection_of: CL:0000125 ! glial cell
@@ -10263,7 +10294,7 @@ id: CL:0011012
 name: neural crest cell
 def: "A cell of the neural crest. Neural crest cells are multipotent. Premigratory neural crest cells are found at the neural plate boarder, some of which will undergo ectomesynchymal transition and delamination to form migratory neural crest cells." []
 is_a: CL:0000048 ! multi fate stem cell
-is_a: CL:0002321 ! embryonic cell
+is_a: CL:0002321 ! embryonic cell (metazoa)
 
 [Term]
 id: CL:0011013
@@ -10325,6 +10356,15 @@ def: "A precursor cell that has a tendency to differentiate into a specific type
 is_a: CL:0011115 ! precursor cell
 intersection_of: CL:0011115 ! precursor cell
 intersection_of: RO:0002202 CL:0000034 ! stem cell
+
+[Term]
+id: CL:0011027
+name: skeletal muscle fibroblast
+def: "Any fibroblast that is part of skeletal muscle tissue." []
+synonym: "skeleton muscle fibroblast" EXACT []
+is_a: CL:0000057 ! fibroblast
+intersection_of: CL:0000057 ! fibroblast
+intersection_of: BFO:0000050 UBERON:0001134
 
 [Term]
 id: CL:0011101
@@ -11700,6 +11740,7 @@ intersection_of: BFO:0000050 UBERON:0002106
 id: CL:2000055
 name: liver dendritic cell
 def: "Any dendritic cell that is part of a liver." []
+synonym: "hepatic dendritic cell" EXACT []
 intersection_of: CL:0000451 ! dendritic cell
 intersection_of: BFO:0000050 UBERON:0002107
 
