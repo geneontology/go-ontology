@@ -26,4 +26,4 @@ http://purl.obolibrary.org/obo/SO_0001720 ## epigenetically_modified_region
 http://purl.obolibrary.org/obo/SO_0000305 ## modified_DNA_base    
 http://purl.obolibrary.org/obo/SO_0001700 ## histone_modification
 http://purl.obolibrary.org/obo/SO_0000613 ## bacterial_RNApol_promoter
-http://purl.obolibrary.org/obo/SO_0000235	## TF_binding_site
+http://purl.obolibrary.org/obo/SO_0000235 ## TF_binding_site
