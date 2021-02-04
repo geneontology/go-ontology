@@ -821,3 +821,7 @@ GO:1990794	basolateral part of cell	NCBITaxon:33208	Metazoa
 GO:0016323	basolateral plasma membrane	NCBITaxon:33208	Metazoa
 GO:0046868	mesosome	NCBITaxon:2	Bacteria
 GO:0033012	porosome	NCBITaxon:6072	Eumetazoa
+GO:0020023	kinetoplast	NCBITaxon:5653	Kinetoplastea
+GO:0016007	mitochondrial derivative	NCBITaxon:2081351	Drosophila
+GO:1990843	subsarcolemmal mitochondrion	NCBITaxon:33208	Metazoa
+GO:1990844	interfibrillar mitochondrion 	NCBITaxon:33208	Metazoa
