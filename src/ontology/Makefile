@@ -239,13 +239,13 @@ $(GO_LEGO_REACTO).owl: extensions/go-lego-reacto-edit.ofn $(GO_LEGO).owl extensi
 #  - smaller set of relations (v small for go-basic)
 #  - ...
 # go.obo is a simplified; we use oort to remove imports etc
-
+# This version of the ontology is used in another step prior to filtering narrow xrefs
 $(ONT)-pre.owl: reasoned.owl
-	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations --remove-dangling --make-subset-by-properties $(GO_MAIN_RELATIONS) --set-ontology-id $(OBO)/go.owl -o -f owl $@.tmp && mv $@.tmp $@
+	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations --remove-dangling --make-subset-by-properties $(GO_MAIN_RELATIONS) --set-ontology-id -v $(RELEASE_URIBASE)/$(ONT).owl $(OBO)/go.owl -o -f owl $@.tmp && mv $@.tmp $@
 
 $(ONT)-pre-reduced.owl: $(ONT)-pre.owl
-	$(ROBOT) reduce -r elk -i $< -o $@
-.PRECIOUS: $(ONT)-pre-reduced.obo
+	$(ROBOT) reduce -r elk -i $< query --update ../sparql/remove-narrow-xrefs.ru -o $@
+.PRECIOUS: $(ONT)-pre-reduced.owl
 
 # use OORT
 # side effects: also builds go-simple.obo
@@ -511,8 +511,9 @@ EXTERNAL2GO_DBS = EC KEGG_REACTION MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD
 
 # See : https://github.com/geneontology/go-site/issues/688
 # Manually add all ID spaces here; only do this for xrefs that are managed within the obo file.
+# Using a version of ontology before narrow xrefs are filtered out
 .PHONY: generate-mappings
-generate-mappings: go-basic.obo
+generate-mappings: $(ONT)-pre.owl
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals $(EXTERNAL2GO_DBS)
 	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/interpro2go -O external2go/interpro2go
 	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pfam2go -O external2go/pfam2go
