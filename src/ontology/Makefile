@@ -79,9 +79,9 @@ REPORTDIR = $(RELEASEDIR)/reports
 
 stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz subset-reports generate-mappings
 
-test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn
+test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_phH_7_3_check
 
-travis_test: travis_build $(SRC)-check change-report.txt
+travis_test: travis_build $(SRC)-check change-report.txt chebi_phH_7_3_check
 
 # This target combines features from reasoned.owl, enhanced.owl, sparql_test into a faster mode for Travis.
 # These must be kept in sync.
@@ -565,6 +565,15 @@ check-obsolete-references-including-imports: reasoned.owl
 reports/neo-violations.report: $(GO_LEGO).owl
 	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -k true -p ../sparql/neo/profile.txt -o $@ --print 50 -v
 
+# intermediate files in this target must be lexically, not numerically sorted, for use with comm
+chebi_phH_7_3_check: reports/referenced_chebi_terms.tsv chebi_pH7_3_mapping.tsv
+	tail -n +2 reports/referenced_chebi_terms.tsv | sed 's/<http:\/\/purl.obolibrary.org\/obo\/CHEBI_//g' | sed 's/>//g' | sort -u >tmp_referenced_chebi_nums.txt &&\
+	tail -n +2 chebi_pH7_3_mapping.tsv | cut -f 1 | sort -u >tmp_mapped_chebi_nums.txt &&\
+	tail -n +2 chebi_pH7_3_mapping.tsv | cut -f 2 | sort -u >tmp_7_3_chebi_nums.txt &&\
+	comm -12 tmp_referenced_chebi_nums.txt tmp_mapped_chebi_nums.txt >tmp_referenced_mapped_chebi_nums.txt &&\
+	comm -23 tmp_referenced_mapped_chebi_nums.txt tmp_7_3_chebi_nums.txt >tmp_referenced_chebi_nums_not_7_3.txt &&\
+	if [ -s 'tmp_referenced_chebi_nums_not_7_3.txt' ]; then echo "CHEBI IDs should be mapped to pH 7.3" && cat tmp_referenced_chebi_nums_not_7_3.txt && exit 1; else exit 0; fi
+
 # ----------------------------------------
 # REPORTS
 # ----------------------------------------
@@ -581,6 +590,10 @@ reports/%.tsv: go.owl $(SPARQLDIR)/%.sparql $(REPORTDIR)
 	$(ROBOT) -vv query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
 reports/src-%.tsv: go-edit.obo $(SPARQLDIR)/%.sparql $(REPORTDIR)
 	$(ROBOT) query -f tsv -i $< -s $(SPARQLDIR)/$*.sparql $@.tmp && mv $@.tmp $@
+
+reports/referenced_chebi_terms.tsv: $(SRC)
+	$(ROBOT) query -f tsv -i $< --query $(SPARQLDIR)/referenced-chebi-terms.sparql $@.tmp && mv $@.tmp $@
+
 
 # ----------------------------------------
 # ADDING INFERENCES
