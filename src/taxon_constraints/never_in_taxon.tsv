@@ -526,3 +526,5 @@ GO:0071563	Myo2p-Vac17p-Vac8p transport complex	NCBITaxon:4896	Schizosaccharomyc
 GO:0036473	cell death in response to oxidative stress	NCBITaxon:4890 	Ascomycota
 GO:0031911	cytoproct	NCBITaxon:33208	Metazoa
 GO:0044297	cell body	NCBITaxon:4890 	Ascomycota
+GO:0045180	basal cortex	NCBITaxon:4890 	Ascomycota
+GO:0045179	apical cortex	NCBITaxon:4890 	Ascomycota
