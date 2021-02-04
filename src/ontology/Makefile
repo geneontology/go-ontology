@@ -572,7 +572,7 @@ chebi_phH_7_3_check: reports/referenced_chebi_terms.tsv chebi_pH7_3_mapping.tsv
 	tail -n +2 chebi_pH7_3_mapping.tsv | cut -f 2 | sort -u >tmp_7_3_chebi_nums.txt &&\
 	comm -12 tmp_referenced_chebi_nums.txt tmp_mapped_chebi_nums.txt >tmp_referenced_mapped_chebi_nums.txt &&\
 	comm -23 tmp_referenced_mapped_chebi_nums.txt tmp_7_3_chebi_nums.txt >tmp_referenced_chebi_nums_not_7_3.txt &&\
-	if [ -s 'tmp_referenced_chebi_nums_not_7_3.txt' ]; then echo "ERROR: CHEBI IDs should be mapped to pH 7.3" && cat tmp_referenced_chebi_nums_not_7_3.txt && exit 1; else exit 0; fi
+	if [ -s 'tmp_referenced_chebi_nums_not_7_3.txt' ]; then echo "ERROR: CHEBI IDs should be mapped to pH 7.3:" && cat tmp_referenced_chebi_nums_not_7_3.txt && exit 1; else exit 0; fi
 
 # ----------------------------------------
 # REPORTS
