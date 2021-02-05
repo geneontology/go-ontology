@@ -206,6 +206,13 @@ disjoint_from: NCBITaxon:7776 ! Gnathostomata <vertebrates>
 relationship: RO:0002162 NCBITaxon:1476529 ! in taxon Cyclostomata
 
 [Term]
+id: NCBITaxon:155619
+name: Agaricomycetes
+synonym: "Agaricomycetidae sensu Kirk et al. 2001" RELATED []
+is_a: NCBITaxon:5302 ! Agaricomycotina
+relationship: RO:0002162 NCBITaxon:155619 ! in taxon Agaricomycetes
+
+[Term]
 id: NCBITaxon:1639119
 name: Plasmodiidae
 is_a: NCBITaxon:5819 ! Haemosporida
@@ -228,6 +235,12 @@ id: NCBITaxon:1798711
 name: Cyanobacteria/Melainabacteria group
 is_a: NCBITaxon:1783272 ! Terrabacteria group
 relationship: RO:0002162 NCBITaxon:1798711 ! in taxon Cyanobacteria/Melainabacteria group
+
+[Term]
+id: NCBITaxon:184208
+name: Psathyrellaceae
+is_a: NCBITaxon:5338 ! Agaricales
+relationship: RO:0002162 NCBITaxon:184208 ! in taxon Psathyrellaceae
 
 [Term]
 id: NCBITaxon:186623
@@ -289,6 +302,13 @@ name: Homininae
 synonym: "Homo/Pan/Gorilla group" RELATED []
 is_a: NCBITaxon:9604 ! Hominidae
 relationship: RO:0002162 NCBITaxon:207598 ! in taxon Homininae
+
+[Term]
+id: NCBITaxon:2081351
+name: Drosophila <basidiomycetes>
+synonym: "Drosophila" EXACT []
+is_a: NCBITaxon:184208 ! Psathyrellaceae
+relationship: RO:0002162 NCBITaxon:2081351 ! in taxon Drosophila <basidiomycetes>
 
 [Term]
 id: NCBITaxon:2157
@@ -837,6 +857,12 @@ disjoint_from: NCBITaxon:716545 ! saccharomyceta
 relationship: RO:0002162 NCBITaxon:451866 ! in taxon Taphrinomycotina
 
 [Term]
+id: NCBITaxon:452333
+name: Agaricomycetidae
+is_a: NCBITaxon:155619 ! Agaricomycetes
+relationship: RO:0002162 NCBITaxon:452333 ! in taxon Agaricomycetidae
+
+[Term]
 id: NCBITaxon:46877
 name: Drosophilini
 is_a: NCBITaxon:43845 ! Drosophilinae
@@ -884,6 +910,7 @@ synonym: "ascomycetes" EXACT []
 synonym: "ascomycetes" RELATED []
 synonym: "sac fungi" EXACT []
 is_a: NCBITaxon:451864 ! Dikarya
+disjoint_from: NCBITaxon:5204 ! Basidiomycota
 relationship: RO:0002162 NCBITaxon:4890 ! in taxon Ascomycota
 
 [Term]
@@ -972,6 +999,34 @@ name: Insecta
 synonym: "true insects" EXACT []
 is_a: NCBITaxon:6960 ! Hexapoda
 relationship: RO:0002162 NCBITaxon:50557 ! in taxon Insecta
+
+[Term]
+id: NCBITaxon:5204
+name: Basidiomycota
+synonym: "basidiomycetes" EXACT []
+synonym: "basidiomycetes" RELATED []
+is_a: NCBITaxon:451864 ! Dikarya
+relationship: RO:0002162 NCBITaxon:5204 ! in taxon Basidiomycota
+
+[Term]
+id: NCBITaxon:5302
+name: Agaricomycotina
+synonym: "Hymenomycetes" EXACT []
+is_a: NCBITaxon:5204 ! Basidiomycota
+relationship: RO:0002162 NCBITaxon:5302 ! in taxon Agaricomycotina
+
+[Term]
+id: NCBITaxon:5338
+name: Agaricales
+synonym: "Agaricales anamorphs" RELATED []
+synonym: "anamorphic Agaricales" RELATED []
+synonym: "gill mushrooms" EXACT []
+synonym: "Hymenogastrales" RELATED []
+synonym: "Lycoperdales" RELATED []
+synonym: "Nidulariales" RELATED []
+synonym: "Tulostomatales" RELATED []
+is_a: NCBITaxon:452333 ! Agaricomycetidae
+relationship: RO:0002162 NCBITaxon:5338 ! in taxon Agaricales
 
 [Term]
 id: NCBITaxon:554915
