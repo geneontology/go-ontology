@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-01-24/imports/so_import.owl
+data-version: go/releases/2021-02-07/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -241,7 +241,8 @@ is_a: SO:0002247 ! sncRNA
 id: SO:0000375
 name: rRNA_5_8S
 namespace: sequence
-def: "5_8S ribosomal RNA (5. 8S rRNA) is a component of the large subunit of the eukaryotic ribosome. It is transcribed by RNA polymerase I as part of the 45S precursor that also contains 18S and 28S rRNA. Functionally, it is thought that 5.8S rRNA may be involved in ribosome translocation. It is also known to form covalent linkage to the p53 tumour suppressor protein. 5_8S rRNA is also found in archaea." [http://www.sanger.ac.uk/cgi-bin/Rfam/getacc?RF00002]
+def: "5_8S ribosomal RNA (5.8S rRNA) is a component of the large subunit of the eukaryotic ribosome. It is transcribed by RNA polymerase I as part of the 45S precursor that also contains 18S and 28S rRNA. Functionally, it is thought that 5.8S rRNA may be involved in ribosome translocation. It is also known to form covalent linkage to the p53 tumour suppressor protein." [https://rfam.xfam.org/family/RF00002]
+comment: Dave Sant removed '5_8S rRNA is also found in archaea.' from definition due to lack of references mentioning this on 1 Feb 2021. See GitHub Issue #505.
 subset: SOFA
 synonym: "5.8S LSU rRNA" EXACT []
 synonym: "5.8S ribosomal RNA" EXACT []
