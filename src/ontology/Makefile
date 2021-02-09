@@ -530,6 +530,9 @@ generate-mappings: go-basic.obo
 external2go/kegg_orthology2go:
 	curl  -H "Accept: text/tab-separated-values" --data-urlencode query="SELECT ?x ?y WHERE {?x <https://www.genome.jp/linkdb/original> ?y . ?x <https://www.genome.jp/linkdb/core/database> <https://www.genome.jp/linkdb/database/orthology> . ?y <https://www.genome.jp/linkdb/core/database> <https://www.genome.jp/linkdb/database/go>}"  https://www.genome.jp/sparql/linkdb > $@.tmp && perl -npe 's@"https://www.genome.jp/linkdb/orthology/(\S+)"\t"https://www.genome.jp/linkdb/go/(\d+)"@KEGG.ORTHOLOGY:$$1\tGO:$$2@' $@.tmp > $@
 
+# to get all KOs: curl -L -s http://rest.kegg.jp/list/orthology
+# get get an entry http://rest.kegg.jp/get/K22479
+
 # ----------------------------------------
 # TAXON GROUPINGS
 # ----------------------------------------
