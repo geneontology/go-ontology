@@ -528,3 +528,6 @@ GO:0031911	cytoproct	NCBITaxon:33208	Metazoa
 GO:0044297	cell body	NCBITaxon:4890 	Ascomycota
 GO:0045180	basal cortex	NCBITaxon:4890 	Ascomycota
 GO:0045179	apical cortex	NCBITaxon:4890 	Ascomycota
+GO:0005764	lysosome	NCBITaxon:4751	Fungi
+GO:0043202	lysosomal lumen	NCBITaxon:4751	Fungi
+GO:0005765	lysosomal membrane	NCBITaxon:4751	Fungi
