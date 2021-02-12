@@ -531,3 +531,4 @@ GO:0045179	apical cortex	NCBITaxon:4890 	Ascomycota
 GO:0005764	lysosome	NCBITaxon:4751	Fungi
 GO:0043202	lysosomal lumen	NCBITaxon:4751	Fungi
 GO:0005765	lysosomal membrane	NCBITaxon:4751	Fungi
+GO:0071588  hydrogen peroxide mediated signaling pathway	NCBITaxon:4751	Fungi
