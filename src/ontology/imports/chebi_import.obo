@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-02-01/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-02-15/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -22621,6 +22621,7 @@ is_a: CHEBI:73155 ! trienoic fatty acid
 [Term]
 id: CHEBI:156536
 name: oligoglycosyl-(1->4)-D-glucose
+subset: chebi_ph7_3
 is_a: CHEBI:50699 ! oligosaccharide
 
 [Term]
@@ -23272,6 +23273,7 @@ is_a: CHEBI:26127 ! phytylnaphthoquinone
 [Term]
 id: CHEBI:157597
 name: N-tetracosenoyl-sphingoid base
+subset: chebi_ph7_3
 is_a: CHEBI:144712 ! N-(very-long-chain fatty acyl)-sphingoid base
 
 [Term]
@@ -23289,6 +23291,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:157606
 name: sphinga-(4E,8Z)-dienine(1+)
+subset: chebi_ph7_3
 is_a: CHEBI:84410 ! sphingoid base(1+)
 
 [Term]
@@ -23300,6 +23303,7 @@ is_a: CHEBI:25340 ! methylpyridines
 [Term]
 id: CHEBI:157625
 name: alpha-D-mannopyranuronate
+subset: chebi_ph7_3
 is_a: CHEBI:33721 ! carbohydrate acid anion
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 
@@ -23343,12 +23347,14 @@ is_a: CHEBI:35716 ! C-nitro compound
 [Term]
 id: CHEBI:157662
 name: N-(omega-linoleoyloxy-ultra-long chain fatty acyl)sphingosine
+subset: chebi_ph7_3
 is_a: CHEBI:144785 ! omega-linoleoyloxy-O-ultra-long chain acylceramide
 is_a: CHEBI:52639 ! N-acylsphingosine
 
 [Term]
 id: CHEBI:157663
 name: N-(omega-hydroxy-ultra-long chain fatty acyl)sphingosine
+subset: chebi_ph7_3
 is_a: CHEBI:144784 ! omega-hydroxy-ultra-long chain fatty acylceramide
 is_a: CHEBI:52639 ! N-acylsphingosine
 
@@ -23384,6 +23390,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:157685
 name: primary alkyl sulfate ester(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:58958 ! organosulfate oxoanion
 
 [Term]
@@ -23445,6 +23452,7 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 [Term]
 id: CHEBI:157740
 name: N-(fatty acyl)-dopamine
+subset: chebi_ph7_3
 is_a: CHEBI:167098 ! N-(fatty acyl)-amine
 is_a: CHEBI:29348 ! fatty amide
 
@@ -23457,6 +23465,7 @@ is_a: CHEBI:28965 ! dicarboxylic acid dianion
 [Term]
 id: CHEBI:157750
 name: heparan sulfate polyanion
+subset: chebi_ph7_3
 is_a: CHEBI:60164 ! ionic polymer
 is_a: CHEBI:61660 ! organic sulfamate oxoanion
 is_a: CHEBI:63551 ! carbohydrate acid derivative anion
@@ -23464,16 +23473,19 @@ is_a: CHEBI:63551 ! carbohydrate acid derivative anion
 [Term]
 id: CHEBI:157757
 name: 1,2-diacyl-sn-glycero-3-phospho-(N-acyl)-serine(2-)
+subset: chebi_ph7_3
 is_a: CHEBI:35766 ! glycerophosphoserine
 
 [Term]
 id: CHEBI:157758
 name: 1-acyl-2-hydroxy-sn-glycero-3-phospho-(N-acyl)-serine(2-)
+subset: chebi_ph7_3
 is_a: CHEBI:35766 ! glycerophosphoserine
 
 [Term]
 id: CHEBI:157759
 name: glycosylmonoacylglycerol
+subset: chebi_ph7_3
 is_a: CHEBI:166903 ! glycosylmonoradylglycerol
 is_a: CHEBI:24385 ! glycoglycerolipid
 is_a: CHEBI:47778 ! glyceride
@@ -23487,11 +23499,13 @@ relationship: has_role CHEBI:76946 ! fungal metabolite
 [Term]
 id: CHEBI:157763
 name: polyprenol phosphate anion
+subset: chebi_ph7_3
 is_a: CHEBI:26244 ! prenols
 
 [Term]
 id: CHEBI:157766
 name: 2-hydroxy-fatty acyl-CoA(4-)
+subset: chebi_ph7_3
 is_a: CHEBI:77636 ! fatty acyl-CoA(4-)
 
 [Term]
@@ -23503,6 +23517,7 @@ is_a: CHEBI:35974 ! 4-oxo monocarboxylic acid anion
 [Term]
 id: CHEBI:157770
 name: short-chain primary fatty alcohol
+subset: chebi_ph7_3
 is_a: CHEBI:142622 ! primary fatty alcohol
 
 [Term]
@@ -23528,6 +23543,7 @@ is_a: CHEBI:131864 ! docosanoid anion
 [Term]
 id: CHEBI:157775
 name: N-acyl-beta-D-galactosylphytosphingosine
+subset: chebi_ph7_3
 is_a: CHEBI:143593 ! beta-galactosylceramide
 
 [Term]
@@ -28045,6 +28061,11 @@ relationship: has_role CHEBI:78017 ! food propellant
 relationship: has_role CHEBI:78433 ! refrigerant
 
 [Term]
+id: CHEBI:165279
+name: 11-HpETE
+is_a: CHEBI:64009 ! hydroperoxy fatty acid
+
+[Term]
 id: CHEBI:16530
 name: 3-methyl-2-oxobutanoic acid
 is_a: CHEBI:35910 ! 2-oxo monocarboxylic acid
@@ -28395,6 +28416,11 @@ is_a: CHEBI:36863 ! 22-hydroxy steroid
 is_a: CHEBI:36864 ! 25-hydroxy steroid
 relationship: has_role CHEBI:75767 ! animal metabolite
 relationship: has_role CHEBI:76924 ! plant metabolite
+
+[Term]
+id: CHEBI:165870
+name: N-6-Trimethyllysine
+is_a: CHEBI:15705 ! L-alpha-amino acid
 
 [Term]
 id: CHEBI:16588
@@ -28896,6 +28922,7 @@ is_a: CHEBI:18059 ! lipid
 [Term]
 id: CHEBI:166829
 name: ochratoxin A(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 
 [Term]
@@ -44301,6 +44328,7 @@ is_a: CHEBI:33229 ! vitamin
 [Term]
 id: CHEBI:24026
 name: fatty alcohol
+subset: chebi_ph7_3
 is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:30879 ! alcohol
 
@@ -81923,18 +81951,6 @@ name: (2R)-3-HYDROXY-2-METHYLPROPANOIC ACID
 is_a: CHEBI:61355 ! 3-hydroxy carboxylic acid
 
 [Term]
-id: CHEBI:49703
-name: latrunculin B
-subset: chebi_ph7_3
-is_a: CHEBI:25106 ! macrolide
-is_a: CHEBI:46733 ! oxabicycloalkane
-is_a: CHEBI:48891 ! thiazolidinone
-is_a: CHEBI:59780 ! cyclic hemiketal
-relationship: has_role CHEBI:25212 ! metabolite
-relationship: has_role CHEBI:27026 ! toxin
-relationship: has_role CHEBI:70728 ! actin polymerisation inhibitor
-
-[Term]
 id: CHEBI:49709
 name: chlorate
 subset: chebi_ph7_3
@@ -114509,18 +114525,6 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:84735 ! algal metabolite
 
 [Term]
-id: CHEBI:69136
-name: latrunculin A
-subset: chebi_ph7_3
-is_a: CHEBI:25106 ! macrolide
-is_a: CHEBI:46733 ! oxabicycloalkane
-is_a: CHEBI:48891 ! thiazolidinone
-is_a: CHEBI:59780 ! cyclic hemiketal
-relationship: has_role CHEBI:25212 ! metabolite
-relationship: has_role CHEBI:27026 ! toxin
-relationship: has_role CHEBI:70728 ! actin polymerisation inhibitor
-
-[Term]
 id: CHEBI:691622
 name: 1,3,7-trimethyluric acid
 subset: chebi_ph7_3
@@ -114677,11 +114681,6 @@ relationship: has_role CHEBI:70770 ! Aurora kinase inhibitor
 id: CHEBI:70727
 name: topoisomerase inhibitor
 is_a: CHEBI:76830 ! EC 5.99.1.* (miscellaneous isomerase) inhibitor
-
-[Term]
-id: CHEBI:70728
-name: actin polymerisation inhibitor
-is_a: CHEBI:35222 ! inhibitor
 
 [Term]
 id: CHEBI:70731
