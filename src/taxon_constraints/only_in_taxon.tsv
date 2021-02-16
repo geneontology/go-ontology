@@ -260,7 +260,7 @@ GO:0022625	cytosolic large ribosomal subunit	NCBITaxon:131567	cellular organisms
 GO:0022626	cytosolic ribosome	NCBITaxon:131567	cellular organisms
 GO:0022627	cytosolic small ribosomal subunit	NCBITaxon:131567	cellular organisms
 GO:0022809	mobile ion carrier activity	NCBITaxon:2	Bacteria
-GO:0030073	insulin secretion	NCBITaxon:2759	Eukaryota
+GO:0030073	insulin secretion	NCBITaxon:6072	Eumetazoa
 GO:0030075	bacterial thylakoid	NCBITaxon:2	Bacteria
 GO:0030077	plasma membrane light-harvesting complex	NCBITaxon:Union_0000004	Prokaryota
 GO:0030080	B875 antenna complex	NCBITaxon:Union_0000004	Prokaryota
@@ -822,4 +822,8 @@ GO:0016323	basolateral plasma membrane	NCBITaxon:33208	Metazoa
 GO:0046868	mesosome	NCBITaxon:2	Bacteria
 GO:0033012	porosome	NCBITaxon:6072	Eumetazoa
 GO:0020023	kinetoplast	NCBITaxon:5653	Kinetoplastea
-
+GO:0005009	insulin-activated receptor activity	NCBITaxon:6072	Eumetazoa
+GO:0005899	insulin receptor complex	NCBITaxon:6072	Eumetazoa
+GO:0008286	insulin receptor signaling pathway	NCBITaxon:6072	Eumetazoa
+GO:0046626	regulation of insulin receptor signaling pathway	NCBITaxon:6072	Eumetazoa
+GO:0140604	mycofactocin biosynthetic process	NCBITaxon:Union_0000004	Prokaryota
