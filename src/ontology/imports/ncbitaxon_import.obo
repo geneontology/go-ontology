@@ -423,7 +423,7 @@ is_a: NCBITaxon:1783272 ! Terrabacteria group
 disjoint_from: NCBITaxon:1297 ! Deinococcus-Thermus
 disjoint_from: NCBITaxon:1798711 ! Cyanobacteria/Melainabacteria group
 disjoint_from: NCBITaxon:200795 ! Chloroflexi
-disjoint_from: NCBITaxon:201174 ! Actinobacteria <actinobacteria>
+disjoint_from: NCBITaxon:201174 ! Actinobacteria
 disjoint_from: NCBITaxon:544448 ! Tenericutes
 relationship: RO:0002162 NCBITaxon:1239 ! in taxon Firmicutes
 
@@ -453,6 +453,7 @@ name: Staphylococcus aureus
 synonym: "Micrococcus aureus" RELATED []
 synonym: "Micrococcus pyogenes" RELATED []
 synonym: "Staphlococcus pyogenes citreus" RELATED []
+synonym: "Staphylococcus aureus subsp. anaerobius" RELATED []
 synonym: "Staphylococcus pyogenes aureus" RELATED []
 is_a: NCBITaxon:1279 ! Staphylococcus
 relationship: RO:0002162 NCBITaxon:1280 ! in taxon Staphylococcus aureus
@@ -491,7 +492,7 @@ synonym: "Thermus/Deinococcus group" RELATED []
 is_a: NCBITaxon:1783272 ! Terrabacteria group
 disjoint_from: NCBITaxon:1798711 ! Cyanobacteria/Melainabacteria group
 disjoint_from: NCBITaxon:200795 ! Chloroflexi
-disjoint_from: NCBITaxon:201174 ! Actinobacteria <actinobacteria>
+disjoint_from: NCBITaxon:201174 ! Actinobacteria
 disjoint_from: NCBITaxon:544448 ! Tenericutes
 relationship: RO:0002162 NCBITaxon:1297 ! in taxon Deinococcus-Thermus
 
@@ -836,9 +837,9 @@ relationship: RO:0002162 NCBITaxon:1445966 ! in taxon Gnetidae
 
 [Term]
 id: NCBITaxon:1462606
-name: Soja
-is_a: NCBITaxon:3846 ! Glycine <genus>
-relationship: RO:0002162 NCBITaxon:1462606 ! in taxon Soja
+name: Glycine subgen. Soja
+is_a: NCBITaxon:3846 ! Glycine
+relationship: RO:0002162 NCBITaxon:1462606 ! in taxon Glycine subgen. Soja
 
 [Term]
 id: NCBITaxon:147100
@@ -1115,7 +1116,7 @@ id: NCBITaxon:162425
 name: Aspergillus nidulans
 synonym: "Aspergillus nidulellus" RELATED []
 synonym: "Emericella nidulans" RELATED []
-is_a: NCBITaxon:2720870 ! Nidulantes
+is_a: NCBITaxon:2720870 ! Aspergillus subgen. Nidulantes
 relationship: RO:0002162 NCBITaxon:162425 ! in taxon Aspergillus nidulans
 
 [Term]
@@ -1353,14 +1354,14 @@ relationship: RO:0002162 NCBITaxon:173 ! in taxon Leptospira interrogans
 
 [Term]
 id: NCBITaxon:1760
-name: Actinobacteria <high GC Gram+>
-synonym: "Actinobacteria" EXACT []
+name: Actinomycetia
+synonym: "Actinobacteria" RELATED []
 synonym: "Actinomycetes" RELATED []
 synonym: "high G+C Gram-positive bacteria" EXACT []
 synonym: "high GC Gram+" RELATED []
 synonym: "High GC gram-positive bacteria" RELATED []
-is_a: NCBITaxon:201174 ! Actinobacteria <actinobacteria>
-relationship: RO:0002162 NCBITaxon:1760 ! in taxon Actinobacteria <high GC Gram+>
+is_a: NCBITaxon:201174 ! Actinobacteria
+relationship: RO:0002162 NCBITaxon:1760 ! in taxon Actinomycetia
 
 [Term]
 id: NCBITaxon:1762
@@ -1447,7 +1448,7 @@ id: NCBITaxon:1798711
 name: Cyanobacteria/Melainabacteria group
 is_a: NCBITaxon:1783272 ! Terrabacteria group
 disjoint_from: NCBITaxon:200795 ! Chloroflexi
-disjoint_from: NCBITaxon:201174 ! Actinobacteria <actinobacteria>
+disjoint_from: NCBITaxon:201174 ! Actinobacteria
 disjoint_from: NCBITaxon:544448 ! Tenericutes
 relationship: RO:0002162 NCBITaxon:1798711 ! in taxon Cyanobacteria/Melainabacteria group
 
@@ -1468,12 +1469,6 @@ id: NCBITaxon:183710
 name: Deinococcaceae
 is_a: NCBITaxon:118964 ! Deinococcales
 relationship: RO:0002162 NCBITaxon:183710 ! in taxon Deinococcaceae
-
-[Term]
-id: NCBITaxon:183770
-name: Enterogona
-is_a: NCBITaxon:7713 ! Ascidiacea
-relationship: RO:0002162 NCBITaxon:183770 ! in taxon Enterogona
 
 [Term]
 id: NCBITaxon:183924
@@ -1672,20 +1667,6 @@ is_a: NCBITaxon:5206 ! Cryptococcus <basidiomycetes>
 relationship: RO:0002162 NCBITaxon:1897064 ! in taxon Cryptococcus neoformans species complex
 
 [Term]
-id: NCBITaxon:189778
-name: Nitrospirales
-synonym: "'Nitrospirales'" RELATED []
-is_a: NCBITaxon:203693 ! Nitrospira <class>
-relationship: RO:0002162 NCBITaxon:189778 ! in taxon Nitrospirales
-
-[Term]
-id: NCBITaxon:189779
-name: Nitrospiraceae
-synonym: "'Nitrospiraceae'" RELATED []
-is_a: NCBITaxon:189778 ! Nitrospirales
-relationship: RO:0002162 NCBITaxon:189779 ! in taxon Nitrospiraceae
-
-[Term]
 id: NCBITaxon:1902
 name: Streptomyces coelicolor
 synonym: "Actinomyces coelicolor" RELATED []
@@ -1805,7 +1786,7 @@ synonym: "green nonsulfur bacteria" EXACT []
 synonym: "Thermomicrobaeota" RELATED []
 synonym: "Thermomicrobiota" RELATED []
 is_a: NCBITaxon:1783272 ! Terrabacteria group
-disjoint_from: NCBITaxon:201174 ! Actinobacteria <actinobacteria>
+disjoint_from: NCBITaxon:201174 ! Actinobacteria
 disjoint_from: NCBITaxon:544448 ! Tenericutes
 relationship: RO:0002162 NCBITaxon:200795 ! in taxon Chloroflexi
 
@@ -1824,14 +1805,13 @@ relationship: RO:0002162 NCBITaxon:200918 ! in taxon Thermotogae <phylum>
 
 [Term]
 id: NCBITaxon:201174
-name: Actinobacteria <actinobacteria>
+name: Actinobacteria
 synonym: "Actinobacteraeota" RELATED []
-synonym: "Actinobacteria" EXACT []
 synonym: "actinobacteria" RELATED []
 synonym: "Actinobacteriota" RELATED []
 is_a: NCBITaxon:1783272 ! Terrabacteria group
 disjoint_from: NCBITaxon:544448 ! Tenericutes
-relationship: RO:0002162 NCBITaxon:201174 ! in taxon Actinobacteria <actinobacteria>
+relationship: RO:0002162 NCBITaxon:201174 ! in taxon Actinobacteria
 
 [Term]
 id: NCBITaxon:2024747
@@ -1915,17 +1895,9 @@ is_a: NCBITaxon:203691 ! Spirochaetes
 relationship: RO:0002162 NCBITaxon:203692 ! in taxon Spirochaetia
 
 [Term]
-id: NCBITaxon:203693
-name: Nitrospira <class>
-synonym: "Nitrospira" EXACT []
-synonym: "Nitrospiria" RELATED []
-is_a: NCBITaxon:40117 ! Nitrospirae
-relationship: RO:0002162 NCBITaxon:203693 ! in taxon Nitrospira <class>
-
-[Term]
 id: NCBITaxon:2037
 name: Actinomycetales
-is_a: NCBITaxon:1760 ! Actinobacteria <high GC Gram+>
+is_a: NCBITaxon:1760 ! Actinomycetia
 disjoint_from: NCBITaxon:85007 ! Corynebacteriales
 disjoint_from: NCBITaxon:85011 ! Streptomycetales
 relationship: RO:0002162 NCBITaxon:2037 ! in taxon Actinomycetales
@@ -2763,16 +2735,16 @@ relationship: RO:0002162 NCBITaxon:2713 ! in taxon Aquifex
 
 [Term]
 id: NCBITaxon:2720870
-name: Nidulantes
-is_a: NCBITaxon:5052 ! Aspergillus <genus>
-disjoint_from: NCBITaxon:2720872 ! Fumigati
-relationship: RO:0002162 NCBITaxon:2720870 ! in taxon Nidulantes
+name: Aspergillus subgen. Nidulantes
+is_a: NCBITaxon:5052 ! Aspergillus
+disjoint_from: NCBITaxon:2720872 ! Aspergillus subgen. Fumigati
+relationship: RO:0002162 NCBITaxon:2720870 ! in taxon Aspergillus subgen. Nidulantes
 
 [Term]
 id: NCBITaxon:2720872
-name: Fumigati
-is_a: NCBITaxon:5052 ! Aspergillus <genus>
-relationship: RO:0002162 NCBITaxon:2720872 ! in taxon Fumigati
+name: Aspergillus subgen. Fumigati
+is_a: NCBITaxon:5052 ! Aspergillus
+relationship: RO:0002162 NCBITaxon:2720872 ! in taxon Aspergillus subgen. Fumigati
 
 [Term]
 id: NCBITaxon:27254
@@ -2802,6 +2774,18 @@ is_a: NCBITaxon:2287 ! Saccharolobus solfataricus
 relationship: RO:0002162 NCBITaxon:273057 ! in taxon Saccharolobus solfataricus P2
 
 [Term]
+id: NCBITaxon:2743709
+name: Danionidae
+is_a: NCBITaxon:30727 ! Cyprinoidei
+relationship: RO:0002162 NCBITaxon:2743709 ! in taxon Danionidae
+
+[Term]
+id: NCBITaxon:2743711
+name: Danioninae
+is_a: NCBITaxon:2743709 ! Danionidae
+relationship: RO:0002162 NCBITaxon:2743711 ! in taxon Danioninae
+
+[Term]
 id: NCBITaxon:2759
 name: Eukaryota
 synonym: "Eucarya" RELATED []
@@ -2821,6 +2805,12 @@ is_a: NCBITaxon:9895 ! Bovidae
 relationship: RO:0002162 NCBITaxon:27592 ! in taxon Bovinae
 
 [Term]
+id: NCBITaxon:2785018
+name: Camarodonta
+is_a: NCBITaxon:7674 ! Echinacea <sea urchins>
+relationship: RO:0002162 NCBITaxon:2785018 ! in taxon Camarodonta
+
+[Term]
 id: NCBITaxon:27896
 name: Planariidae
 is_a: NCBITaxon:1292248 ! Planarioidea
@@ -2838,6 +2828,24 @@ is_a: NCBITaxon:33154 ! Opisthokonta
 disjoint_from: NCBITaxon:33208 ! Metazoa
 disjoint_from: NCBITaxon:4751 ! Fungi
 relationship: RO:0002162 NCBITaxon:28009 ! in taxon Choanoflagellata
+
+[Term]
+id: NCBITaxon:2811502
+name: Thermodesulfovibrionia
+is_a: NCBITaxon:40117 ! Nitrospirae
+relationship: RO:0002162 NCBITaxon:2811502 ! in taxon Thermodesulfovibrionia
+
+[Term]
+id: NCBITaxon:2811503
+name: Thermodesulfovibrionales
+is_a: NCBITaxon:2811502 ! Thermodesulfovibrionia
+relationship: RO:0002162 NCBITaxon:2811503 ! in taxon Thermodesulfovibrionales
+
+[Term]
+id: NCBITaxon:2811504
+name: Thermodesulfovibrionaceae
+is_a: NCBITaxon:2811503 ! Thermodesulfovibrionales
+relationship: RO:0002162 NCBITaxon:2811504 ! in taxon Thermodesulfovibrionaceae
 
 [Term]
 id: NCBITaxon:28211
@@ -2893,7 +2901,7 @@ relationship: RO:0002162 NCBITaxon:28231 ! in taxon Geobacter
 [Term]
 id: NCBITaxon:28261
 name: Thermodesulfovibrio
-is_a: NCBITaxon:189779 ! Nitrospiraceae
+is_a: NCBITaxon:2811504 ! Thermodesulfovibrionaceae
 relationship: RO:0002162 NCBITaxon:28261 ! in taxon Thermodesulfovibrio
 
 [Term]
@@ -3061,10 +3069,12 @@ relationship: RO:0002162 NCBITaxon:29202 ! in taxon Thalassiosiraceae
 [Term]
 id: NCBITaxon:29547
 name: Epsilonproteobacteria
+synonym: "Campylobacterota" RELATED []
 synonym: "e-proteobacteria" RELATED []
 synonym: "epsilon proteobacteria" RELATED []
 synonym: "epsilon subdivision" RELATED []
 synonym: "epsilon subgroup" RELATED []
+synonym: "Epsilonbacteraeota" RELATED []
 synonym: "Proteobacteria epsilon subdivision" RELATED []
 synonym: "Purple bacteria, epsilon subdivision" RELATED []
 is_a: NCBITaxon:68525 ! delta/epsilon subdivisions
@@ -3184,7 +3194,7 @@ relationship: RO:0002162 NCBITaxon:311400 ! in taxon Thermococcus kodakarensis
 [Term]
 id: NCBITaxon:31181
 name: Strongylocentrotidae
-is_a: NCBITaxon:7675 ! Echinoida
+is_a: NCBITaxon:7675 ! Echinidea
 relationship: RO:0002162 NCBITaxon:31181 ! in taxon Strongylocentrotidae
 
 [Term]
@@ -3364,18 +3374,13 @@ is_a: NCBITaxon:13684 ! Parastagonospora nodorum
 relationship: RO:0002162 NCBITaxon:321614 ! in taxon Parastagonospora nodorum SN15
 
 [Term]
-id: NCBITaxon:3217
-name: Physcomitrella
-is_a: NCBITaxon:3216 ! Funariaceae
-relationship: RO:0002162 NCBITaxon:3217 ! in taxon Physcomitrella
-
-[Term]
 id: NCBITaxon:3218
-name: Physcomitrella patens
+name: Physcomitrium patens
+synonym: "Phascum patens" RELATED []
+synonym: "Physcomitrella patens" RELATED []
 synonym: "Physcomitrella patens subsp. patens" RELATED []
-synonym: "Physcomitrium patens" RELATED []
-is_a: NCBITaxon:3217 ! Physcomitrella
-relationship: RO:0002162 NCBITaxon:3218 ! in taxon Physcomitrella patens
+is_a: NCBITaxon:37414 ! Physcomitrium
+relationship: RO:0002162 NCBITaxon:3218 ! in taxon Physcomitrium patens
 
 [Term]
 id: NCBITaxon:32341
@@ -3589,10 +3594,10 @@ relationship: RO:0002162 NCBITaxon:33340 ! in taxon Neoptera
 
 [Term]
 id: NCBITaxon:33392
-name: Holometabola
-synonym: "Endopterygota" RELATED []
+name: Endopterygota
+synonym: "Holometabola" RELATED []
 is_a: NCBITaxon:33340 ! Neoptera
-relationship: RO:0002162 NCBITaxon:33392 ! in taxon Holometabola
+relationship: RO:0002162 NCBITaxon:33392 ! in taxon Endopterygota
 
 [Term]
 id: NCBITaxon:33511
@@ -3867,7 +3872,7 @@ relationship: RO:0002162 NCBITaxon:359160 ! in taxon BOP clade
 id: NCBITaxon:3602
 name: Vitaceae
 synonym: "grape family" EXACT []
-synonym: "Vitidaceae" RELATED []
+synonym: "Vitidaceae" EXACT []
 is_a: NCBITaxon:403667 ! Vitales
 relationship: RO:0002162 NCBITaxon:3602 ! in taxon Vitaceae
 
@@ -4013,7 +4018,7 @@ relationship: RO:0002162 NCBITaxon:3699 ! in taxon Brassicales
 [Term]
 id: NCBITaxon:3700
 name: Brassicaceae
-synonym: "Cruciferae" RELATED []
+synonym: "Cruciferae" EXACT []
 synonym: "mustard family" EXACT []
 is_a: NCBITaxon:3699 ! Brassicales
 relationship: RO:0002162 NCBITaxon:3700 ! in taxon Brassicaceae
@@ -4071,6 +4076,12 @@ name: Bradyrhizobium
 synonym: "Agromonas" RELATED []
 is_a: NCBITaxon:41294 ! Bradyrhizobiaceae
 relationship: RO:0002162 NCBITaxon:374 ! in taxon Bradyrhizobium
+
+[Term]
+id: NCBITaxon:37414
+name: Physcomitrium
+is_a: NCBITaxon:3216 ! Funariaceae
+relationship: RO:0002162 NCBITaxon:37414 ! in taxon Physcomitrium
 
 [Term]
 id: NCBITaxon:3744
@@ -4163,17 +4174,16 @@ relationship: RO:0002162 NCBITaxon:38254 ! in taxon Glaucocystophyceae
 
 [Term]
 id: NCBITaxon:3846
-name: Glycine <genus>
-synonym: "Glycine" EXACT []
+name: Glycine
 is_a: NCBITaxon:163735 ! Phaseoleae
-relationship: RO:0002162 NCBITaxon:3846 ! in taxon Glycine <genus>
+relationship: RO:0002162 NCBITaxon:3846 ! in taxon Glycine
 
 [Term]
 id: NCBITaxon:3847
 name: Glycine max
 synonym: "soybean" EXACT []
 synonym: "soybeans" EXACT []
-is_a: NCBITaxon:1462606 ! Soja
+is_a: NCBITaxon:1462606 ! Glycine subgen. Soja
 relationship: RO:0002162 NCBITaxon:3847 ! in taxon Glycine max
 
 [Term]
@@ -4377,7 +4387,7 @@ synonym: "Lycopersicon esculentum var. esculentum" RELATED []
 synonym: "Solanum esculentum" RELATED []
 synonym: "Solanum lycopersicum var. humboldtii" RELATED []
 synonym: "tomato" EXACT []
-is_a: NCBITaxon:49274 ! Lycopersicon
+is_a: NCBITaxon:49274 ! Solanum subgen. Lycopersicon
 relationship: RO:0002162 NCBITaxon:4081 ! in taxon Solanum lycopersicum
 
 [Term]
@@ -4427,7 +4437,7 @@ name: Solanum tuberosum
 synonym: "potato" EXACT []
 synonym: "potatoes" EXACT []
 is_a: NCBITaxon:4107 ! Solanum
-disjoint_from: NCBITaxon:49274 ! Lycopersicon
+disjoint_from: NCBITaxon:49274 ! Solanum subgen. Lycopersicon
 relationship: RO:0002162 NCBITaxon:4113 ! in taxon Solanum tuberosum
 
 [Term]
@@ -4528,7 +4538,7 @@ relationship: RO:0002162 NCBITaxon:4209 ! in taxon Asterales
 [Term]
 id: NCBITaxon:4210
 name: Asteraceae
-synonym: "Compositae" RELATED []
+synonym: "Compositae" EXACT []
 synonym: "daisy family" EXACT []
 is_a: NCBITaxon:4209 ! Asterales
 relationship: RO:0002162 NCBITaxon:4210 ! in taxon Asteraceae
@@ -4939,13 +4949,6 @@ is_a: NCBITaxon:4575 ! Zea
 relationship: RO:0002162 NCBITaxon:4577 ! in taxon Zea mays
 
 [Term]
-id: NCBITaxon:46170
-name: Staphylococcus aureus subsp. aureus
-synonym: "Staphylococcus aureus aureus" EXACT []
-is_a: NCBITaxon:1280 ! Staphylococcus aureus
-relationship: RO:0002162 NCBITaxon:46170 ! in taxon Staphylococcus aureus subsp. aureus
-
-[Term]
 id: NCBITaxon:4618
 name: Zingiberales
 synonym: "Scitamineae" RELATED []
@@ -4989,7 +4992,7 @@ relationship: RO:0002162 NCBITaxon:46877 ! in taxon Drosophilini
 id: NCBITaxon:4710
 name: Arecaceae
 synonym: "palm family" EXACT []
-synonym: "Palmae" RELATED []
+synonym: "Palmae" EXACT []
 synonym: "palms" EXACT []
 is_a: NCBITaxon:40551 ! Arecales
 relationship: RO:0002162 NCBITaxon:4710 ! in taxon Arecaceae
@@ -5167,9 +5170,10 @@ relationship: RO:0002162 NCBITaxon:491 ! in taxon Neisseria meningitidis serogro
 
 [Term]
 id: NCBITaxon:49274
-name: Lycopersicon
+name: Solanum subgen. Lycopersicon
+synonym: "Lycopersicon" RELATED []
 is_a: NCBITaxon:4107 ! Solanum
-relationship: RO:0002162 NCBITaxon:49274 ! in taxon Lycopersicon
+relationship: RO:0002162 NCBITaxon:49274 ! in taxon Solanum subgen. Lycopersicon
 
 [Term]
 id: NCBITaxon:4930
@@ -5238,17 +5242,17 @@ relationship: RO:0002162 NCBITaxon:5042 ! in taxon Eurotiales
 
 [Term]
 id: NCBITaxon:5052
-name: Aspergillus <genus>
-synonym: "Aspergillus" EXACT []
+name: Aspergillus
 synonym: "Petromyces" RELATED []
 synonym: "Phialosimplex" RELATED []
 synonym: "Polypaecilum" RELATED []
 is_a: NCBITaxon:1131492 ! Aspergillaceae
-relationship: RO:0002162 NCBITaxon:5052 ! in taxon Aspergillus <genus>
+relationship: RO:0002162 NCBITaxon:5052 ! in taxon Aspergillus
 
 [Term]
 id: NCBITaxon:50557
 name: Insecta
+synonym: "insects" RELATED []
 synonym: "true insects" EXACT []
 is_a: NCBITaxon:6960 ! Hexapoda
 relationship: RO:0002162 NCBITaxon:50557 ! in taxon Insecta
@@ -5334,7 +5338,6 @@ relationship: RO:0002162 NCBITaxon:515635 ! in taxon Dictyoglomus turgidum DSM 6
 [Term]
 id: NCBITaxon:5178
 name: Helotiales
-synonym: "Leotiales" RELATED []
 is_a: NCBITaxon:147548 ! Leotiomycetes
 relationship: RO:0002162 NCBITaxon:5178 ! in taxon Helotiales
 
@@ -5415,6 +5418,7 @@ relationship: RO:0002162 NCBITaxon:5258 ! in taxon Pucciniales
 [Term]
 id: NCBITaxon:5262
 name: Pucciniaceae
+synonym: "Pucciniosiraceae" RELATED []
 is_a: NCBITaxon:5258 ! Pucciniales
 relationship: RO:0002162 NCBITaxon:5262 ! in taxon Pucciniaceae
 
@@ -5429,6 +5433,7 @@ relationship: RO:0002162 NCBITaxon:5267 ! in taxon Ustilaginales
 [Term]
 id: NCBITaxon:5268
 name: Ustilaginaceae
+synonym: "Mycosyringaceae" RELATED []
 is_a: NCBITaxon:5267 ! Ustilaginales
 relationship: RO:0002162 NCBITaxon:5268 ! in taxon Ustilaginaceae
 
@@ -5485,6 +5490,7 @@ relationship: RO:0002162 NCBITaxon:54126 ! in taxon Pristionchus pacificus
 id: NCBITaxon:543
 name: Enterobacteriaceae
 synonym: "Enterobacteraceae" RELATED []
+synonym: "enterobacteria" RELATED []
 synonym: "gamma-3 proteobacteria" RELATED []
 is_a: NCBITaxon:91347 ! Enterobacterales
 relationship: RO:0002162 NCBITaxon:543 ! in taxon Enterobacteriaceae
@@ -5503,6 +5509,7 @@ name: Candida albicans
 synonym: "Candida albicans var. stellatoidea" RELATED []
 synonym: "Candida stellatoidea" RELATED []
 synonym: "Dematium albicans" RELATED []
+synonym: "Endomyces albicans" RELATED []
 synonym: "Monilia albicans" RELATED []
 synonym: "Monilia stellatoidea" RELATED []
 synonym: "Myceloblastanon albicans" RELATED []
@@ -5669,9 +5676,10 @@ relationship: RO:0002162 NCBITaxon:5739 ! in taxon Hexamitidae
 
 [Term]
 id: NCBITaxon:5740
-name: Giardia
+name: Giardia <diplomonads>
+synonym: "Giardia" EXACT []
 is_a: NCBITaxon:68459 ! Giardiinae
-relationship: RO:0002162 NCBITaxon:5740 ! in taxon Giardia
+relationship: RO:0002162 NCBITaxon:5740 ! in taxon Giardia <diplomonads>
 
 [Term]
 id: NCBITaxon:5741
@@ -5679,7 +5687,7 @@ name: Giardia intestinalis
 synonym: "Giardia duodenalis" RELATED []
 synonym: "Giardia lamblia" RELATED []
 synonym: "Lamblia intestinalis" RELATED []
-is_a: NCBITaxon:5740 ! Giardia
+is_a: NCBITaxon:5740 ! Giardia <diplomonads>
 relationship: RO:0002162 NCBITaxon:5741 ! in taxon Giardia intestinalis
 
 [Term]
@@ -6227,8 +6235,8 @@ relationship: RO:0002162 NCBITaxon:69541 ! in taxon Desulfuromonadales
 id: NCBITaxon:6960
 name: Hexapoda
 synonym: "Atelocerata" RELATED []
+synonym: "hexapods" RELATED []
 synonym: "insects" EXACT []
-synonym: "insects" RELATED []
 synonym: "Tracheata" RELATED []
 synonym: "Uniramia" RELATED []
 is_a: NCBITaxon:197562 ! Pancrustacea
@@ -6239,7 +6247,7 @@ id: NCBITaxon:7041
 name: Coleoptera
 synonym: "beetles" EXACT []
 synonym: "beetles" RELATED []
-is_a: NCBITaxon:33392 ! Holometabola
+is_a: NCBITaxon:33392 ! Endopterygota
 disjoint_from: NCBITaxon:7147 ! Diptera
 relationship: RO:0002162 NCBITaxon:7041 ! in taxon Coleoptera
 
@@ -6350,7 +6358,7 @@ id: NCBITaxon:7147
 name: Diptera
 synonym: "flies" EXACT []
 synonym: "flies" RELATED []
-is_a: NCBITaxon:33392 ! Holometabola
+is_a: NCBITaxon:33392 ! Endopterygota
 relationship: RO:0002162 NCBITaxon:7147 ! in taxon Diptera
 
 [Term]
@@ -6508,7 +6516,7 @@ name: Aspergillus fumigatus
 synonym: "Aspergillus fumigates" RELATED []
 synonym: "Neosartorya fumigata" RELATED []
 synonym: "Sartorya fumigata" RELATED []
-is_a: NCBITaxon:2720872 ! Fumigati
+is_a: NCBITaxon:2720872 ! Aspergillus subgen. Fumigati
 relationship: RO:0002162 NCBITaxon:746128 ! in taxon Aspergillus fumigatus
 
 [Term]
@@ -6584,9 +6592,10 @@ relationship: RO:0002162 NCBITaxon:7674 ! in taxon Echinacea <sea urchins>
 
 [Term]
 id: NCBITaxon:7675
-name: Echinoida
-is_a: NCBITaxon:7674 ! Echinacea <sea urchins>
-relationship: RO:0002162 NCBITaxon:7675 ! in taxon Echinoida
+name: Echinidea
+synonym: "Echinoida" RELATED []
+is_a: NCBITaxon:2785018 ! Camarodonta
+relationship: RO:0002162 NCBITaxon:7675 ! in taxon Echinidea
 
 [Term]
 id: NCBITaxon:76856
@@ -6617,6 +6626,7 @@ relationship: RO:0002162 NCBITaxon:7712 ! in taxon Tunicata
 [Term]
 id: NCBITaxon:7713
 name: Ascidiacea
+synonym: "Enterogona" RELATED []
 synonym: "sea squirts" EXACT []
 is_a: NCBITaxon:7712 ! Tunicata
 relationship: RO:0002162 NCBITaxon:7713 ! in taxon Ascidiacea
@@ -6624,7 +6634,7 @@ relationship: RO:0002162 NCBITaxon:7713 ! in taxon Ascidiacea
 [Term]
 id: NCBITaxon:7716
 name: Phlebobranchia
-is_a: NCBITaxon:183770 ! Enterogona
+is_a: NCBITaxon:7713 ! Ascidiacea
 relationship: RO:0002162 NCBITaxon:7716 ! in taxon Phlebobranchia
 
 [Term]
@@ -6812,17 +6822,11 @@ is_a: NCBITaxon:186627 ! Cypriniphysae
 relationship: RO:0002162 NCBITaxon:7952 ! in taxon Cypriniformes
 
 [Term]
-id: NCBITaxon:7953
-name: Cyprinidae
-is_a: NCBITaxon:30727 ! Cyprinoidei
-relationship: RO:0002162 NCBITaxon:7953 ! in taxon Cyprinidae
-
-[Term]
 id: NCBITaxon:7954
 name: Danio
 synonym: "Brachydanio" RELATED []
 synonym: "Celestichthys" RELATED []
-is_a: NCBITaxon:7953 ! Cyprinidae
+is_a: NCBITaxon:2743711 ! Danioninae
 relationship: RO:0002162 NCBITaxon:7954 ! in taxon Danio
 
 [Term]
@@ -7049,7 +7053,7 @@ id: NCBITaxon:85007
 name: Corynebacteriales
 synonym: "Corynebacterineae" RELATED []
 synonym: "Mycobacteriales" RELATED []
-is_a: NCBITaxon:1760 ! Actinobacteria <high GC Gram+>
+is_a: NCBITaxon:1760 ! Actinomycetia
 disjoint_from: NCBITaxon:85011 ! Streptomycetales
 relationship: RO:0002162 NCBITaxon:85007 ! in taxon Corynebacteriales
 
@@ -7059,7 +7063,7 @@ name: Streptomycetales
 synonym: "Streptomycetes" RELATED []
 synonym: "Streptomycetineae" EXACT []
 synonym: "Streptomycineae" RELATED []
-is_a: NCBITaxon:1760 ! Actinobacteria <high GC Gram+>
+is_a: NCBITaxon:1760 ! Actinomycetia
 relationship: RO:0002162 NCBITaxon:85011 ! in taxon Streptomycetales
 
 [Term]
@@ -7241,7 +7245,6 @@ relationship: RO:0002162 NCBITaxon:911341 ! in taxon Heliantheae alliance
 [Term]
 id: NCBITaxon:91347
 name: Enterobacterales
-synonym: "enterobacteria" RELATED []
 synonym: "Enterobacteriaceae and related endosymbionts" RELATED []
 synonym: "Enterobacteriaceae group" RELATED []
 synonym: "Enterobacteriales" RELATED []
@@ -7370,7 +7373,7 @@ name: Staphylococcus aureus subsp. aureus NCTC 8325
 synonym: "Staphylococcus aureus NCTC 8325" RELATED []
 synonym: "Staphylococcus aureus subsp. aureus str. NCTC 8325" EXACT []
 synonym: "Staphylococcus aureus subsp. aureus strain NCTC 8325" EXACT []
-is_a: NCBITaxon:46170 ! Staphylococcus aureus subsp. aureus
+is_a: NCBITaxon:1280 ! Staphylococcus aureus
 relationship: RO:0002162 NCBITaxon:93061 ! in taxon Staphylococcus aureus subsp. aureus NCTC 8325
 
 [Term]
