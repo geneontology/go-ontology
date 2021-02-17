@@ -79,9 +79,9 @@ REPORTDIR = $(RELEASEDIR)/reports
 
 stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz subset-reports generate-mappings
 
-test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_phH_7_3_check
+test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
-travis_test: travis_build $(SRC)-check change-report.txt chebi_phH_7_3_check
+travis_test: travis_build $(SRC)-check change-report.txt chebi_pH_7_3_check
 
 # This target combines features from reasoned.owl, enhanced.owl, sparql_test into a faster mode for Travis.
 # These must be kept in sync.
@@ -442,10 +442,10 @@ mirror/%-download.owl: $(SRC)
 bio-chebi.owl: mirror/chebi.owl chebi-ph7_3-slim.ofn biochebi_gcis.ofn imports/substance_by_role.owl 
 	$(ROBOT) merge -i $< -i chebi-ph7_3-slim.ofn -i biochebi_gcis.ofn -i imports/substance_by_role.owl annotate --ontology-iri $(BASE)/extensions/$@ -V $(RELEASE_URIBASE)/extensions/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
 
-chebi_pH7_3_mapping.tsv:
+../biochebi/chebi_pH7_3_mapping.tsv:
 	wget 'ftp://ftp.expasy.org/databases/rhea/tsv/chebi_pH7_3_mapping.tsv' $(WGET_OUT)
 
-chebi-ph7_3-slim.ofn: chebi_pH7_3_mapping.tsv
+chebi-ph7_3-slim.ofn: ../biochebi/chebi_pH7_3_mapping.tsv
 	echo 'Ontology(<http://purl.obolibrary.org/obo/go/extensions/chebi-ph7_3-slim.ofn>' >$@.tmp &&\
 	echo 'Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))' >>$@.tmp &&\
 	echo 'Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/go#chebi_ph7_3>))' >>$@.tmp &&\
@@ -453,9 +453,9 @@ chebi-ph7_3-slim.ofn: chebi_pH7_3_mapping.tsv
 	tail -n +2 $< | cut -f 2 | sort -n -u | sed 's/^/AnnotationAssertion(<http:\/\/www.geneontology.org\/formats\/oboInOwl#inSubset> <http:\/\/purl.obolibrary.org\/obo\/CHEBI_/' | sed 's/$$/> <http:\/\/purl.obolibrary.org\/obo\/go#chebi_ph7_3>)/' >>$@.tmp
 	echo ')' >>$@.tmp && mv $@.tmp $@
 
-biochebi_gcis.tsv: chebi_pH7_3_mapping.tsv ../biochebi/biochebi_excludes.txt
+biochebi_gcis.tsv: ../biochebi/chebi_pH7_3_mapping.tsv ../biochebi/biochebi_excludes.txt
 	echo 'source_chem	standard_chem' >$@.tmp &&\
-	tail -n +2 chebi_pH7_3_mapping.tsv | awk -v FS='\t' -v OFS='\t' '{ if ($$1 != $$2) { print "CHEBI:"$$1, "CHEBI:"$$2} }' | grep -v -f ../biochebi/biochebi_excludes.txt >> $@.tmp && mv $@.tmp $@
+	tail -n +2 ../biochebi/chebi_pH7_3_mapping.tsv | awk -v FS='\t' -v OFS='\t' '{ if ($$1 != $$2) { print "CHEBI:"$$1, "CHEBI:"$$2} }' | grep -v -f ../biochebi/biochebi_excludes.txt >> $@.tmp && mv $@.tmp $@
 
 biochebi_gcis.ofn: biochebi_gcis.tsv ../biochebi/biochebi_gcis.yaml
 	$(DOSDP_TOOLS) generate --obo-prefixes=true --generate-defined-class=true --template=../biochebi/biochebi_gcis.yaml --infile=$< --outfile=$@.tmp.ofn && mv $@.tmp.ofn $@
@@ -566,10 +566,10 @@ reports/neo-violations.report: $(GO_LEGO).owl
 	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -k true -p ../sparql/neo/profile.txt -o $@ --print 50 -v
 
 # intermediate files in this target must be lexically, not numerically sorted, for use with comm
-chebi_phH_7_3_check: reports/referenced_chebi_terms.tsv chebi_pH7_3_mapping.tsv
+chebi_pH_7_3_check: reports/referenced_chebi_terms.tsv ../biochebi/chebi_pH7_3_mapping.tsv
 	tail -n +2 reports/referenced_chebi_terms.tsv | sed 's/<http:\/\/purl.obolibrary.org\/obo\/CHEBI_//g' | sed 's/>//g' | sort -u >tmp_referenced_chebi_nums.txt &&\
-	tail -n +2 chebi_pH7_3_mapping.tsv | cut -f 1 | sort -u >tmp_mapped_chebi_nums.txt &&\
-	tail -n +2 chebi_pH7_3_mapping.tsv | cut -f 2 | sort -u >tmp_7_3_chebi_nums.txt &&\
+	tail -n +2 ../biochebi/chebi_pH7_3_mapping.tsv | cut -f 1 | sort -u >tmp_mapped_chebi_nums.txt &&\
+	tail -n +2 ../biochebi/chebi_pH7_3_mapping.tsv | cut -f 2 | sort -u >tmp_7_3_chebi_nums.txt &&\
 	comm -12 tmp_referenced_chebi_nums.txt tmp_mapped_chebi_nums.txt >tmp_referenced_mapped_chebi_nums.txt &&\
 	comm -23 tmp_referenced_mapped_chebi_nums.txt tmp_7_3_chebi_nums.txt >tmp_referenced_chebi_nums_not_7_3.txt &&\
 	if [ -s 'tmp_referenced_chebi_nums_not_7_3.txt' ]; then echo "ERROR: CHEBI IDs should be mapped to pH 7.3:" && cat tmp_referenced_chebi_nums_not_7_3.txt && exit 1; else exit 0; fi
