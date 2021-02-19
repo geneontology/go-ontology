@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-09-18/imports/uberon_import.owl
+data-version: go/releases/2021-02-19/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -4672,15 +4672,13 @@ id: UBERON:0001073
 name: ileocecal junction
 def: "A point along the course of the gastrointestinal tract where the small intestine (ileum) ends as it opens into the cecal portion of the large intestine; occurs usually within the iliac fossa, demarcated internally as the ileocecal orifice" []
 synonym: "ileocaecal junction" EXACT []
-is_a: CARO:0000000
-is_a: UBERON:0007651 ! anatomical junction
+is_a: UBERON:8410024 ! intestinal junction
 intersection_of: UBERON:0007651 ! anatomical junction
 intersection_of: connects UBERON:0000059 ! large intestine
 intersection_of: connects UBERON:0002108 ! small intestine
 relationship: connects UBERON:0000059 ! large intestine
 relationship: connects UBERON:0002108 ! small intestine
 relationship: only_in_taxon NCBITaxon:7742
-relationship: part_of UBERON:0000160 ! intestine
 
 [Term]
 id: UBERON:0001074
@@ -16030,13 +16028,15 @@ relationship: part_of UBERON:0002350 ! conducting system of heart
 
 [Term]
 id: UBERON:0002353
-name: atrioventricular bundle
+name: bundle of His
 def: "A part of the His-Purkinje system that transmits signals from the AV node to the cardiac Purkinje fibers[GO]" []
 synonym: "A-V bundle" RELATED []
-synonym: "atrio-ventricular bundle" RELATED []
+synonym: "atrio-ventricular bundle" EXACT []
+synonym: "atrioventricular bundle" EXACT []
 synonym: "atrioventricular bundle muscle tissue" EXACT []
 synonym: "atrioventricular fasciculus" EXACT []
 synonym: "AV bundle" EXACT []
+synonym: "AVB" EXACT []
 synonym: "bundle of His" EXACT []
 synonym: "fasciculus atrioventricularis" EXACT []
 synonym: "His bundle" EXACT []
@@ -16059,7 +16059,7 @@ is_a: UBERON:0010131 ! conducting tissue of heart
 is_a: UBERON:0018649 ! cardiac muscle tissue of ventricle
 relationship: contributes_to_morphology_of UBERON:0002350 ! conducting system of heart
 relationship: has_part CL:0002068
-relationship: part_of UBERON:0004146 ! His-Purkinje system
+relationship: part_of UBERON:8000009 ! Purkinje fiber network
 
 [Term]
 id: UBERON:0002355
@@ -27714,6 +27714,8 @@ name: His-Purkinje system
 def: "The His-Purkinje system receives signals from the AV node and is composed of the fibers that regulate cardiac muscle contraction in the ventricles" []
 synonym: "His-Purkinji network" EXACT []
 synonym: "HPS" EXACT []
+synonym: "VCS" EXACT []
+synonym: "ventricular conduction system" EXACT []
 is_a: UBERON:0010131 ! conducting tissue of heart
 is_a: UBERON:0018649 ! cardiac muscle tissue of ventricle
 relationship: only_in_taxon NCBITaxon:32523
@@ -40369,7 +40371,12 @@ id: UBERON:0006235
 name: foregut-midgut junction
 def: "An anatomical junctions that overlaps the foregut and midgut." []
 is_a: CARO:0000000
-is_a: UBERON:0007651 ! anatomical junction
+is_a: UBERON:1100000 ! digestive tract junction
+intersection_of: UBERON:0007651 ! anatomical junction
+intersection_of: connects UBERON:0001041 ! foregut
+intersection_of: connects UBERON:0001045 ! midgut
+relationship: connects UBERON:0001041 ! foregut
+relationship: connects UBERON:0001045 ! midgut
 relationship: part_of UBERON:0001555 ! digestive tract
 
 [Term]
@@ -41205,12 +41212,12 @@ synonym: "pectinate line of anal canal" EXACT []
 synonym: "recto-anal junction" RELATED []
 synonym: "site of anal membrane" RELATED []
 is_a: UBERON:0004121 ! ectoderm-derived structure
-is_a: UBERON:0007651 ! anatomical junction
+is_a: UBERON:8410024 ! intestinal junction
 intersection_of: UBERON:0007651 ! anatomical junction
-intersection_of: adjacent_to UBERON:0000931 ! proctodeum
-intersection_of: adjacent_to UBERON:0001046 ! hindgut
-relationship: adjacent_to UBERON:0000931 ! proctodeum
-relationship: adjacent_to UBERON:0001046 ! hindgut
+intersection_of: connects UBERON:0000931 ! proctodeum
+intersection_of: connects UBERON:0001046 ! hindgut
+relationship: connects UBERON:0000931 ! proctodeum
+relationship: connects UBERON:0001046 ! hindgut
 relationship: part_of UBERON:0000159 ! anal canal
 
 [Term]
@@ -43740,7 +43747,7 @@ relationship: develops_from UBERON:0007383 ! enveloping layer of ectoderm
 [Term]
 id: UBERON:0007379
 name: shelled egg
-def: "The hard-shelled reproductive body produced by a bird and especially by the common domestic chicken; also: its contents used as food." []
+def: "The hard-shelled reproductive body produced by a bird (especially by the common domestic chicken) or a reptile; also: its contents used as food." []
 synonym: "egg" RELATED []
 is_a: CARO:0000000
 is_a: UBERON:0002050 ! embryonic structure
@@ -47461,7 +47468,7 @@ def: "A division of the stomach. The stomach can be divided based on mucosal his
 synonym: "gastric zone" EXACT []
 synonym: "region of stomach" EXACT []
 synonym: "section of stomach" EXACT []
-is_a: CARO:0000000
+is_a: UBERON:0004921 ! subdivision of digestive tract
 is_a: UBERON:0034944 ! zone of organ
 intersection_of: UBERON:0034944 ! zone of organ
 intersection_of: part_of UBERON:0000945 ! stomach
@@ -47470,7 +47477,9 @@ relationship: part_of UBERON:0000945 ! stomach
 [Term]
 id: UBERON:0009871
 name: nephrogenic zone
-def: "outer portion of the renal cortex. Site of formation of medullary and cortical elements." []
+def: "Outer portion of the renal cortex. Site of formation of medullary and cortical elements." []
+synonym: "cortical nephrogenic niche" EXACT []
+synonym: "cortical nephrogenic zone" EXACT []
 synonym: "nephrogenic tissue" RELATED []
 is_a: CARO:0000000
 is_a: UBERON:0005423 ! developing anatomical structure
@@ -53988,7 +53997,7 @@ id: UBERON:0012650
 name: gastroduodenal junction
 def: "A anatomical junction that connects a stomach and connects a duodenum." []
 is_a: CARO:0000000
-is_a: UBERON:0007651 ! anatomical junction
+is_a: UBERON:1100000 ! digestive tract junction
 intersection_of: UBERON:0007651 ! anatomical junction
 intersection_of: connects UBERON:0000945 ! stomach
 intersection_of: connects UBERON:0002114 ! duodenum
@@ -56567,7 +56576,7 @@ def: "A strand of hair that is part of a autopod region." []
 synonym: "hair of hand/foot" EXACT []
 synonym: "hand/foot hair" EXACT []
 synonym: "paw hair" NARROW []
-is_a: UBERON:0001037 ! strand of hair
+is_a: UBERON:0037459 ! hair of limb
 intersection_of: UBERON:0001037 ! strand of hair
 intersection_of: part_of UBERON:0002470 ! autopod region
 relationship: part_of UBERON:0002470 ! autopod region
@@ -57040,7 +57049,7 @@ id: UBERON:0015485
 name: choledocho-duodenal junction
 def: "hat part of the duodenal wall traversed by the ductus choledochus, ductus pancreaticus, and ampulla." []
 synonym: "choledochoduodenal junction" EXACT []
-is_a: UBERON:0007651 ! anatomical junction
+is_a: UBERON:1100000 ! digestive tract junction
 intersection_of: UBERON:0007651 ! anatomical junction
 intersection_of: connects UBERON:0002114 ! duodenum
 intersection_of: connects UBERON:0002394 ! bile duct
@@ -60984,7 +60993,7 @@ id: UBERON:0036214
 name: rectosigmoid junction
 def: "An anatomical junction that is between the sigmoid colon and rectum." []
 synonym: "rectosigmoid region" RELATED []
-is_a: UBERON:0007651 ! anatomical junction
+is_a: UBERON:8410024 ! intestinal junction
 intersection_of: UBERON:0007651 ! anatomical junction
 intersection_of: connects UBERON:0001052 ! rectum
 intersection_of: connects UBERON:0001159 ! sigmoid colon
@@ -61498,6 +61507,24 @@ intersection_of: part_of UBERON:0001334 ! female urethra
 relationship: part_of UBERON:0001334 ! female urethra
 
 [Term]
+id: UBERON:0037458
+name: hair of neck
+synonym: "neck hair" EXACT []
+is_a: UBERON:0001037 ! strand of hair
+intersection_of: UBERON:0001037 ! strand of hair
+intersection_of: part_of UBERON:0000974 ! neck
+relationship: part_of UBERON:0000974 ! neck
+
+[Term]
+id: UBERON:0037459
+name: hair of limb
+synonym: "limb hair" EXACT []
+is_a: UBERON:0001037 ! strand of hair
+intersection_of: UBERON:0001037 ! strand of hair
+intersection_of: part_of UBERON:0002101 ! limb
+relationship: part_of UBERON:0002101 ! limb
+
+[Term]
 id: UBERON:1000004
 name: collection of hair on external ear
 def: "A collection of hairs that grows on the external ear." []
@@ -61540,6 +61567,15 @@ is_a: UBERON:0004120 ! mesoderm-derived structure
 intersection_of: UBERON:0000353 ! parenchyma
 intersection_of: part_of UBERON:0002106 ! spleen
 relationship: part_of UBERON:0002106 ! spleen
+
+[Term]
+id: UBERON:1100000
+name: digestive tract junction
+def: "An anatomical junction between two parts of the digestive tract." []
+is_a: UBERON:0007651 ! anatomical junction
+intersection_of: UBERON:0007651 ! anatomical junction
+intersection_of: connects UBERON:0004921 ! subdivision of digestive tract
+relationship: connects UBERON:0004921 ! subdivision of digestive tract
 
 [Term]
 id: UBERON:2000001
@@ -61968,6 +62004,9 @@ synonym: "nageoire anale" EXACT []
 synonym: "proctoptère" EXACT []
 synonym: "proctoptérygie" EXACT []
 is_a: UBERON:4000162 ! median fin
+intersection_of: UBERON:0008897 ! fin
+intersection_of: has_skeleton UBERON:4000166 ! anal fin skeleton
+relationship: has_skeleton UBERON:4000166 ! anal fin skeleton
 
 [Term]
 id: UBERON:4000164
@@ -61979,13 +62018,39 @@ synonym: "tail fin" RELATED []
 synonym: "uroptère" EXACT []
 synonym: "uroptérygie" EXACT []
 is_a: UBERON:4000162 ! median fin
+intersection_of: UBERON:0008897 ! fin
+intersection_of: has_skeleton UBERON:4000167 ! caudal fin skeleton
+relationship: has_skeleton UBERON:4000167 ! caudal fin skeleton
+
+[Term]
+id: UBERON:4000166
+name: anal fin skeleton
+def: "Median fin skeleton that is located posterior to the anus." []
+is_a: UBERON:4000170 ! median fin skeleton
+intersection_of: UBERON:0010912 ! subdivision of skeleton
+intersection_of: skeleton_of UBERON:4000163 ! anal fin
+relationship: part_of UBERON:4000163 ! anal fin
+relationship: skeleton_of UBERON:4000163 ! anal fin
+
+[Term]
+id: UBERON:4000167
+name: caudal fin skeleton
+def: "Median fin skeleton supporting the caudal fin." []
+is_a: UBERON:4000170 ! median fin skeleton
+intersection_of: UBERON:0010912 ! subdivision of skeleton
+intersection_of: skeleton_of UBERON:4000164 ! caudal fin
+relationship: part_of UBERON:4000164 ! caudal fin
+relationship: skeleton_of UBERON:4000164 ! caudal fin
 
 [Term]
 id: UBERON:4000168
 name: dorsal fin skeleton
 def: "Median fin skeleton located on the dorsal surface of the organism." []
 is_a: UBERON:4000170 ! median fin skeleton
+intersection_of: UBERON:0010912 ! subdivision of skeleton
+intersection_of: skeleton_of UBERON:0003097 ! dorsal fin
 relationship: part_of UBERON:0003097 ! dorsal fin
+relationship: skeleton_of UBERON:0003097 ! dorsal fin
 
 [Term]
 id: UBERON:4000170
@@ -62194,9 +62259,17 @@ relationship: skeleton_of UBERON:5002544 ! digit plus metapodial segment
 
 [Term]
 id: UBERON:6000002
-name: tagma
+name: panarthropod tagma
 def: "The three main divisions of the whole organism formed from groups of segments." []
-is_a: UBERON:6057001 ! anterior-posterior subdivision of organism
+is_a: UBERON:6057001 ! insect anterior-posterior subdivision of organism
+
+[Term]
+id: UBERON:6000004
+name: panarthropod head
+is_a: UBERON:0000033 ! head
+intersection_of: UBERON:0000033 ! head
+intersection_of: part_of NCBITaxon:88770
+relationship: part_of NCBITaxon:88770
 
 [Term]
 id: UBERON:6000006
@@ -62211,8 +62284,8 @@ relationship: part_of UBERON:0000033 ! head
 id: UBERON:6000137
 name: embryonic tagma
 def: "Any tagma (UBERON:6000002) that is part of some embryo (UBERON:6000052)." []
-is_a: UBERON:6000002 ! tagma
-intersection_of: UBERON:6000002 ! tagma
+is_a: UBERON:6000002 ! panarthropod tagma
+intersection_of: UBERON:6000002 ! panarthropod tagma
 intersection_of: part_of UBERON:0000922 ! embryo
 relationship: part_of UBERON:0000922 ! embryo
 
@@ -62237,16 +62310,16 @@ relationship: part_of UBERON:0008816 ! embryonic head
 
 [Term]
 id: UBERON:6001728
-name: larval tagma
+name: insect larval tagma
 def: "Any tagma (UBERON:6000002) that is part of some larva (UBERON:6001727)." []
-is_a: UBERON:6000002 ! tagma
-intersection_of: UBERON:6000002 ! tagma
+is_a: UBERON:6000002 ! panarthropod tagma
+intersection_of: UBERON:6000002 ! panarthropod tagma
 intersection_of: part_of UBERON:0002548 ! larva
 relationship: part_of UBERON:0002548 ! larva
 
 [Term]
 id: UBERON:6001729
-name: larval segment
+name: insect larval segment
 def: "Any segment that is part of some larva." []
 is_a: UBERON:0000914 ! organismal segment
 intersection_of: UBERON:0000914 ! organismal segment
@@ -62256,7 +62329,7 @@ relationship: part_of UBERON:0002548 ! larva
 
 [Term]
 id: UBERON:6001730
-name: larval head
+name: insect larval head
 def: "Any head that is part of some larva." []
 is_a: UBERON:0000033 ! head
 intersection_of: UBERON:0000033 ! head
@@ -62265,17 +62338,17 @@ relationship: part_of UBERON:0002548 ! larva
 
 [Term]
 id: UBERON:6001732
-name: larval head segment
+name: insect larval head segment
 def: "Any segment that is part of some larval head." []
 is_a: UBERON:6000006 ! head segment
-is_a: UBERON:6001729 ! larval segment
+is_a: UBERON:6001729 ! insect larval segment
 intersection_of: UBERON:0000914 ! organismal segment
-intersection_of: part_of UBERON:6001730 ! larval head
-relationship: part_of UBERON:6001730 ! larval head
+intersection_of: part_of UBERON:6001730 ! insect larval head
+relationship: part_of UBERON:6001730 ! insect larval head
 
 [Term]
 id: UBERON:6002639
-name: larval sense organ
+name: insect larval sense organ
 def: "Any sense organ that is part of some larva." []
 synonym: "larval sense organ" EXACT []
 is_a: UBERON:0000020 ! sense organ
@@ -62285,10 +62358,10 @@ relationship: part_of UBERON:0002548 ! larva
 
 [Term]
 id: UBERON:6003005
-name: adult tagma
+name: insect adult tagma
 def: "Any tagma (UBERON:6000002) that is part of some adult (UBERON:6003004)." []
-is_a: UBERON:6000002 ! tagma
-intersection_of: UBERON:6000002 ! tagma
+is_a: UBERON:6000002 ! panarthropod tagma
+intersection_of: UBERON:6000002 ! panarthropod tagma
 intersection_of: part_of UBERON:0007023 ! adult organism
 relationship: part_of UBERON:0007023 ! adult organism
 
@@ -62305,8 +62378,8 @@ relationship: part_of UBERON:0007023 ! adult organism
 id: UBERON:6003007
 name: insect adult head
 def: "Head of the adult organism." []
-is_a: UBERON:0000033 ! head
-is_a: UBERON:6003005 ! adult tagma
+is_a: UBERON:6000004 ! panarthropod head
+is_a: UBERON:6003005 ! insect adult tagma
 intersection_of: UBERON:0000033 ! head
 intersection_of: part_of NCBITaxon:50557
 intersection_of: part_of UBERON:0007023 ! adult organism
@@ -62314,7 +62387,7 @@ relationship: part_of NCBITaxon:50557
 
 [Term]
 id: UBERON:6003009
-name: adult head segment
+name: insect adult head segment
 def: "Segment of the adult head." []
 is_a: UBERON:6000006 ! head segment
 is_a: UBERON:6003006 ! adult segment
@@ -62324,7 +62397,7 @@ relationship: part_of UBERON:6003007 ! insect adult head
 
 [Term]
 id: UBERON:6007149
-name: segment of antenna
+name: insect segment of antenna
 def: "Any appendage segment that is part of some antenna." []
 is_a: UBERON:0010758 ! subdivision of organism along appendicular axis
 intersection_of: UBERON:0010758 ! subdivision of organism along appendicular axis
@@ -62333,7 +62406,7 @@ relationship: part_of UBERON:0000972 ! antenna
 
 [Term]
 id: UBERON:6007150
-name: segment of leg
+name: insect segment of leg
 def: "Any appendage segment (UBERON:6007018) that is part of some leg (UBERON:6004640)." []
 is_a: UBERON:0010758 ! subdivision of organism along appendicular axis
 intersection_of: UBERON:0010758 ! subdivision of organism along appendicular axis
@@ -62343,38 +62416,38 @@ relationship: part_of UBERON:0005895 ! insect leg
 
 [Term]
 id: UBERON:6007240
-name: embryonic/larval sensillum
+name: insect embryonic/larval sensillum
 def: "Any sensillum (UBERON:6007152) that is part of some larva (UBERON:6001727)." []
 synonym: "larval sensillum" EXACT []
 is_a: UBERON:0002536 ! arthropod sensillum
-is_a: UBERON:6002639 ! larval sense organ
+is_a: UBERON:6002639 ! insect larval sense organ
 intersection_of: UBERON:0002536 ! arthropod sensillum
 intersection_of: part_of UBERON:0002548 ! larva
 
 [Term]
 id: UBERON:6007242
-name: embryonic/larval head sensillum
+name: insect embryonic/larval head sensillum
 def: "Any sensillum (UBERON:6007152) that is part of some larval head (UBERON:6001730)." []
 synonym: "larval head sensillum" NARROW []
 is_a: UBERON:0000963 ! head sensillum
-is_a: UBERON:6007240 ! embryonic/larval sensillum
-is_a: UBERON:6007280 ! embryonic/larval head sense organ
+is_a: UBERON:6007240 ! insect embryonic/larval sensillum
+is_a: UBERON:6007280 ! insect embryonic/larval head sense organ
 intersection_of: UBERON:0002536 ! arthropod sensillum
-intersection_of: part_of UBERON:6001730 ! larval head
+intersection_of: part_of UBERON:6001730 ! insect larval head
 
 [Term]
 id: UBERON:6007280
-name: embryonic/larval head sense organ
+name: insect embryonic/larval head sense organ
 def: "Any sense organ (UBERON:6005155) that is part of some larval head (UBERON:6001730)." []
 synonym: "larval head sense organ" EXACT []
-is_a: UBERON:6002639 ! larval sense organ
+is_a: UBERON:6002639 ! insect larval sense organ
 intersection_of: UBERON:0000020 ! sense organ
-intersection_of: part_of UBERON:6001730 ! larval head
-relationship: part_of UBERON:6001730 ! larval head
+intersection_of: part_of UBERON:6001730 ! insect larval head
+relationship: part_of UBERON:6001730 ! insect larval head
 
 [Term]
 id: UBERON:6057001
-name: anterior-posterior subdivision of organism
+name: insect anterior-posterior subdivision of organism
 is_a: UBERON:0000475 ! organism subdivision
 relationship: only_in_taxon NCBITaxon:50557
 
@@ -62397,6 +62470,15 @@ is_a: UBERON:0015212 ! lateral structure
 intersection_of: UBERON:0001137 ! dorsum
 intersection_of: in_right_side_of UBERON:0000468 ! multicellular organism
 relationship: in_right_side_of UBERON:0000468 ! multicellular organism
+
+[Term]
+id: UBERON:8000009
+name: Purkinje fiber network
+def: "A collection of Purkinje fibers that receives signals from the right and left bundle branches and innervates the ventricular cardiac muscle. The Purkinje fiber network creates synchronized contractions of the heart ventricles." []
+synonym: "Purkinje fibre network" EXACT []
+is_a: UBERON:0010131 ! conducting tissue of heart
+is_a: UBERON:0018649 ! cardiac muscle tissue of ventricle
+relationship: part_of UBERON:0002354 ! cardiac Purkinje fiber
 
 [Term]
 id: UBERON:8300001
@@ -62437,6 +62519,119 @@ is_a: UBERON:0015212 ! lateral structure
 intersection_of: UBERON:0002103 ! hindlimb
 intersection_of: in_left_side_of UBERON:0010709 ! pelvic complex
 relationship: in_left_side_of UBERON:0010709 ! pelvic complex
+
+[Term]
+id: UBERON:8400021
+name: liver serosa
+def: "Hepatic serous coat; peritoneal covering of the liver, enclosing almost all except for a triangular area on its posterior surface (the \"bare area of the liver\") and a smaller area where the liver and gallbladder are in direct contact." []
+synonym: "serosa of liver" EXACT []
+synonym: "tunica serosa hepatis" EXACT []
+is_a: UBERON:0000042 ! serous membrane
+is_a: UBERON:0000077 ! mixed endoderm/mesoderm-derived structure
+intersection_of: UBERON:0000042 ! serous membrane
+intersection_of: part_of UBERON:0002107 ! liver
+relationship: part_of UBERON:0002107 ! liver
+
+[Term]
+id: UBERON:8400023
+name: liver subserosa
+def: "Subserosal tissue of liver. A zone of areolar connective tissue lying beneath the serous coat of the liver and distinguished with difficulty from the fibrous capsule of Glisson." []
+synonym: "hepatic subserosa" EXACT []
+synonym: "subserosal tissue of liver" EXACT []
+synonym: "subserous layer of liver" EXACT []
+synonym: "tela subserosa (hepar)" EXACT []
+synonym: "tela subserosa hepatis" EXACT []
+is_a: UBERON:0004119 ! endoderm-derived structure
+is_a: UBERON:0012375 ! subserosa
+intersection_of: UBERON:0012375 ! subserosa
+intersection_of: part_of UBERON:0002107 ! liver
+relationship: part_of UBERON:0002107 ! liver
+
+[Term]
+id: UBERON:8400024
+name: subcapsular region of liver
+def: "Region of liver parenchyma immediately below the capsule. This region is frequently specified in pathology diagnoses." []
+synonym: "liver subcapsular region" EXACT []
+synonym: "liver subcapsular tissue" EXACT []
+synonym: "subcapsular tissue of liver" EXACT []
+is_a: UBERON:0001280 ! liver parenchyma
+intersection_of: UBERON:0000353 ! parenchyma
+intersection_of: adjacent_to UBERON:0016479 ! capsule of liver
+intersection_of: part_of UBERON:0002107 ! liver
+relationship: adjacent_to UBERON:0016479 ! capsule of liver
+
+[Term]
+id: UBERON:8410016
+name: descending sigmoid junction
+def: "The anatomical junction between the descending colon and the sigmoid colon." []
+synonym: "descending-sigmoid colon junction" EXACT []
+synonym: "descending-sigmoid junction" EXACT []
+synonym: "sigmoid junction" BROAD []
+is_a: UBERON:8410024 ! intestinal junction
+intersection_of: UBERON:0007651 ! anatomical junction
+intersection_of: connects UBERON:0001158 ! descending colon
+intersection_of: connects UBERON:0001159 ! sigmoid colon
+relationship: connects UBERON:0001158 ! descending colon
+relationship: connects UBERON:0001159 ! sigmoid colon
+relationship: part_of UBERON:0000168 ! proximal-distal subdivision of colon
+
+[Term]
+id: UBERON:8410017
+name: left colic vein
+def: "A portal vein that drains the descending colon. It is a tributary of the inferior mesenteric vein, and follows the path of its corresponding artery, the left colic artery." []
+is_a: UBERON:0002017 ! portal vein
+intersection_of: UBERON:0002017 ! portal vein
+intersection_of: drains UBERON:0001158 ! descending colon
+intersection_of: tributary_of UBERON:0001215 ! inferior mesenteric vein
+relationship: drains UBERON:0001158 ! descending colon
+relationship: part_of UBERON:0001215 ! inferior mesenteric vein
+relationship: tributary_of UBERON:0001215 ! inferior mesenteric vein
+
+[Term]
+id: UBERON:8410018
+name: right colic vein
+def: "A portal vein that drains the ascending colon. It is a tributary of the superior mesenteric vein, and travels with its corresponding artery, the right colic artery." []
+is_a: UBERON:0002017 ! portal vein
+intersection_of: UBERON:0002017 ! portal vein
+intersection_of: drains UBERON:0001156 ! ascending colon
+intersection_of: tributary_of UBERON:0001138 ! superior mesenteric vein
+relationship: drains UBERON:0001156 ! ascending colon
+relationship: part_of UBERON:0001138 ! superior mesenteric vein
+relationship: tributary_of UBERON:0001138 ! superior mesenteric vein
+
+[Term]
+id: UBERON:8410024
+name: intestinal junction
+def: "An anatomical junction between two parts of the intestine." []
+synonym: "junction of intestine" EXACT []
+is_a: CARO:0000000
+is_a: UBERON:1100000 ! digestive tract junction
+intersection_of: UBERON:0007651 ! anatomical junction
+intersection_of: connects UBERON:0004921 ! subdivision of digestive tract
+intersection_of: part_of UBERON:0000160 ! intestine
+relationship: part_of UBERON:0000160 ! intestine
+
+[Term]
+id: UBERON:8410033
+name: lymph node vein
+def: "A vein where lymph node venules condense and which exits at the lymph node hilum. It is also called hilar vein." []
+synonym: "hilar vein of lymph node" EXACT []
+synonym: "vein of lymph node" EXACT []
+is_a: UBERON:0001638 ! vein
+intersection_of: UBERON:0001638 ! vein
+intersection_of: drains UBERON:0000029 ! lymph node
+relationship: drains UBERON:0000029 ! lymph node
+
+[Term]
+id: UBERON:8410034
+name: lymph node artery
+def: "An artery that enters the lymph node at the hilum and branches into smaller arterioles." []
+synonym: "artery of lymph node" EXACT []
+synonym: "hilar artery of lymph node" EXACT []
+is_a: UBERON:0001637 ! artery
+intersection_of: UBERON:0001637 ! artery
+intersection_of: supplies UBERON:0000029 ! lymph node
+relationship: supplies UBERON:0000029 ! lymph node
 
 [Typedef]
 id: adjacent_to
