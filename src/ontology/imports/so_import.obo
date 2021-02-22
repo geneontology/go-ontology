@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-02-14/imports/so_import.owl
+data-version: go/releases/2021-02-21/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -492,8 +492,8 @@ is_a: SO:0001683 ! sequence_motif
 id: SO:0000727
 name: cis_regulatory_module
 namespace: sequence
-def: "A regulatory region where transcription factor binding sites are clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundreds of kb upstream of the core promoter, in the coding sequence, within introns, or in the untranslated regions (UTR) sequences, and even on a different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network." [PMID:19660565, SO:SG]
-comment: Requested by Stephen Grossmann Dec 2004. Changed relationship from has_part SO:0000235 TF_binding site to TF_binding_site is part_of SO:0000727 CRM in response to requests from GREEKC initiative in Aug 2020. Removed 3' from definition because 5' UTRs are included as well, notified by Colin Logie of GREEKC. Nov 9 2020. DS Updated name from 'CRM' to 'cis_regulatory_module' on 08 Feb 2021. See GitHub Issue #526
+def: "A regulatory region where transcription factor binding sites are clustered to regulate various aspects of transcription activities. (CRMs can be located a few kb to hundreds of kb upstream of the core promoter, in the coding sequence, within introns, or in the untranslated regions (UTR) sequences, and even on a different chromosome). A single gene can be regulated by multiple CRMs to give precise control of its spatial and temporal expression. CRMs function as nodes in large, intertwined regulatory network. CRM DNA accessibility is subject to regulation by dbTFs and transcription co-TFs." [PMID:19660565, SO:SG]
+comment: Requested by Stephen Grossmann Dec 2004. Changed relationship from has_part SO:0000235 TF_binding site to TF_binding_site is part_of SO:0000727 CRM in response to requests from GREEKC initiative in Aug 2020. Removed 3' from definition because 5' UTRs are included as well, notified by Colin Logie of GREEKC. Nov 9 2020. DS Updated name from 'CRM' to 'cis_regulatory_module' on 08 Feb 2021. See GitHub Issue #526. DS Added final sentence to definition as part of GREEKC Feb 16, 2021. See GitHub Issue #534.
 subset: SOFA
 synonym: "cis regulatory module" EXACT []
 synonym: "CRM" EXACT []
@@ -764,8 +764,8 @@ creation_date: 2010-03-31T10:22:08Z
 id: SO:0001720
 name: epigenetically_modified_region
 namespace: sequence
-def: "A region of DNA that is modified in such a way that chromatin folding and transcription may be modified with no changes in the underlying DNA sequence. Examples include changes in DNA methylation status and regions bound by modified histones." [http://en.wikipedia.org/wiki/Epigenetics, SO:ke]
-comment: Moved from is_a biological_region (SO:0001411) to is_a regulatory_region (SO:0005836) on 11 Feb 2021. GREEKC members pointed out that this would be a more appropriate location. See GitHub Issue #530. 11 Feb 2021 updated definition along with addition of epigenomically_modified_region (SO:0002332). Epigenetically modified region is now not inherited while epigenomically modified region is not annotated as inherited. See GitHub Issue #532.
+def: "A biological DNA region implicated in epigenomic changes caused by mechanisms other than changes in the underlying DNA sequence. This includes, nucleosomal histone post-translational modifications, nucleosome depletion to render DNA accessible and post-replicational base modifications such as cytosine modification." [http://en.wikipedia.org/wiki/Epigenetics, SO:ke]
+comment: Moved from is_a biological_region (SO:0001411) to is_a regulatory_region (SO:0005836) on 11 Feb 2021. GREEKC members pointed out that this would be a more appropriate location. See GitHub Issue #530. 11 Feb 2021 updated definition along with addition of epigenomically_modified_region (SO:0002332). Epigenetically modified region is now not inherited while epigenomically modified region is not annotated as inherited. See GitHub Issue #532 and issue #534.
 subset: SOFA
 synonym: "epigenetically modified region" RELATED []
 is_a: SO:0005836 ! regulatory_region
@@ -937,8 +937,8 @@ creation_date: 2020-08-12T14:01:30Z
 id: SO:0002307
 name: DNA_loop
 namespace: sequence
-def: "A region of DNA between two positions that are held in close proximity." [GREEKC:cl, PMID:32782014]
-comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
+def: "A region of DNA between two loop anchor positions that are held in close physical proximity." [GREEKC:cl, PMID:32782014]
+comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative. DS updated defintion Feb 16, 2021. See GitHub Issue #534.
 synonym: "DNA loop" EXACT []
 is_a: SO:0000830 ! chromosome_part
 created_by: david
@@ -948,8 +948,8 @@ creation_date: 2020-08-12T14:01:30Z
 id: SO:0002308
 name: DNA_loop_anchor
 namespace: sequence
-def: "The ends of a DNA loop where the two strands of DNA are held in close proximity. During interphase the anchors of DNA loops are CTCF binding sites." [GREEKC:cl, PMID:32782014]
-comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
+def: "The ends of a DNA loop where the two strands of DNA are held in close physical proximity. During interphase the anchors of DNA loops are convergently oriented CTCF binding sites." [GREEKC:cl, PMID:32782014]
+comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative. DS updated defintion Feb 16, 2021. See GitHub Issue #534.
 synonym: "DNA loop anchor" EXACT []
 is_a: SO:0000727 ! cis_regulatory_module
 created_by: david
