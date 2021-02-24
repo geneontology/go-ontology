@@ -36,6 +36,9 @@ OWLTOOLS = $(OWLTOOLS_ENV) owltools
 DOSDP_ENV = JAVA_OPTS=-Xmx8G
 DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
 
+AMM_ENV = JAVA_OPTS=-Xmx8G
+AMM = $(AMM_ENV) amm
+
 # Oort build dir;
 # This also should be replaced by robot
 BUILD_DIR=build
@@ -77,7 +80,7 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz subset-reports generate-mappings
+stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl subset-reports generate-mappings
 
 test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
@@ -503,6 +506,17 @@ imports/substance_by_role.owl: imports/substance_by_role_equiv.obo
 
 imports/substance_by_role.obo: imports/substance_by_role.owl
 	$(ROBOT) convert -i $< -o $@
+
+# ----------------------------------------
+# IMPORTED AND TRANSFERRED RHEA AXIOMS
+# ----------------------------------------
+
+rhea.ttl: ../sparql/construct-rhea-reactions.sparql
+	curl -X POST -F query="`cat ../sparql/construct-rhea-reactions.sparql`" --header "Accept:text/turtle" 'https://sparql.rhea-db.org/sparql' >$@.tmp && mv $@.tmp $@
+
+extensions/rhea-reactions.ttl: rhea.ttl
+	$(AMM) ../util/construct_rhea_ontology.sc $< rhea-reactions.ofn && \
+	robot annotate -i rhea-reactions.ofn -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 # ----------------------------------------
 # MAPPINGS
