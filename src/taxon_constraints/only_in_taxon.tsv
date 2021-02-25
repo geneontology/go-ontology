@@ -826,3 +826,4 @@ GO:0005009	insulin-activated receptor activity	NCBITaxon:6072	Eumetazoa
 GO:0005899	insulin receptor complex	NCBITaxon:6072	Eumetazoa
 GO:0008286	insulin receptor signaling pathway	NCBITaxon:6072	Eumetazoa
 GO:0046626	regulation of insulin receptor signaling pathway	NCBITaxon:6072	Eumetazoa
+GO:0140604	mycofactocin biosynthetic process	NCBITaxon:Union_0000004	Prokaryota
