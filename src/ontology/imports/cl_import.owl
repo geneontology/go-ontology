@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-01-24/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-03-07/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -26119,9 +26119,48 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000442"/>
         <obo:IAO_0000115>A follicular dendritic cell located in the Peyer&apos;s patch. These cells from a meshwork in which Peyer&apos;s patch B cells reside.</obo:IAO_0000115>
         <rdfs:label>Peyer&apos;s patch follicular dendritic cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0009024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0009024">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002108"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A mesothelial cell that is part of the small intestine.</obo:IAO_0000115>
+        <rdfs:label>mesothelial cell of small intestine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0009025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0009025">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000059"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A mesothelial cell that is part of the large intestine.</obo:IAO_0000115>
+        <rdfs:label>mesothelial cell of large intestine</rdfs:label>
     </owl:Class>
     
 
@@ -34304,6 +34343,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001891 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001891"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001893"/>
     
 
 

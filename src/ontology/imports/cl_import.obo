@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-01-24/imports/cl_import.owl
+data-version: go/releases/2021-03-07/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -10138,9 +10138,22 @@ intersection_of: BFO:0000050 UBERON:0001211
 id: CL:0009015
 name: Peyer's patch follicular dendritic cell
 def: "A follicular dendritic cell located in the Peyer's patch. These cells from a meshwork in which Peyer's patch B cells reside." []
-is_a: CL:0000442 ! follicular dendritic cell
 intersection_of: CL:0000442 ! follicular dendritic cell
 intersection_of: BFO:0000050 UBERON:0001211
+
+[Term]
+id: CL:0009024
+name: mesothelial cell of small intestine
+def: "A mesothelial cell that is part of the small intestine." []
+intersection_of: CL:0000077 ! mesothelial cell
+intersection_of: BFO:0000050 UBERON:0002108
+
+[Term]
+id: CL:0009025
+name: mesothelial cell of large intestine
+def: "A mesothelial cell that is part of the large intestine." []
+intersection_of: CL:0000077 ! mesothelial cell
+intersection_of: BFO:0000050 UBERON:0000059
 
 [Term]
 id: CL:0010001
