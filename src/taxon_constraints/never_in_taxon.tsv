@@ -534,3 +534,4 @@ GO:0005765	lysosomal membrane	NCBITaxon:4751	Fungi
 GO:0071588	hydrogen peroxide mediated signaling pathway	NCBITaxon:4751	Fungi
 GO:0071818	BAT3 complex	NCBITaxon:4890 	Ascomycota
 GO:0019933	cAMP-mediated signaling	NCBITaxon:33083	Dictyostelids
+GO:0035257	nuclear hormone receptor binding	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
