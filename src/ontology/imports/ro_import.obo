@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-12-25/imports/ro_import.owl
+data-version: go/releases/2021-03-09/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -636,7 +636,6 @@ name: exports
 def: "Holds between p and c when p is a transportation or localization process and the outcome of this process is to move c to a destination that is part of some s, where the end location of c is part of the region that surrounds s." []
 xref: RO:0002345
 is_a: transports ! transports
-transitive_over: has_part ! has part
 
 [Typedef]
 id: formed_as_result_of
@@ -931,7 +930,6 @@ name: imports
 def: "Holds between p and c when p is a transportation or localization process and the outcome of this process is to move c to a destination that is part of some s, where the start location of c is part of the region that surrounds s." []
 xref: RO:0002340
 is_a: transports ! transports
-transitive_over: has_part ! has part
 
 [Typedef]
 id: in_taxon
@@ -1486,5 +1484,4 @@ def: "Holds between p and c when p is a localization process (localization cover
 xref: RO:0002313
 is_a: has_anatomical_participant ! has anatomical participant
 is_a: related_via_localization_to ! related via localization to
-transitive_over: has_part ! has part
 
