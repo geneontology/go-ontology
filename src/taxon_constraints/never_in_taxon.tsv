@@ -533,3 +533,4 @@ GO:0043202	lysosomal lumen	NCBITaxon:4751	Fungi
 GO:0005765	lysosomal membrane	NCBITaxon:4751	Fungi
 GO:0071588	hydrogen peroxide mediated signaling pathway	NCBITaxon:4751	Fungi
 GO:0071818	BAT3 complex	NCBITaxon:4890 	Ascomycota
+GO:0019933	cAMP-mediated signaling	NCBITaxon:33083	Dictyostelids
