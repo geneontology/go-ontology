@@ -122,3 +122,6 @@ Datatype: idrange:22
 Annotations: allocatedto: "Barbara Kramarz"
 EquivalentTo: xsd:integer[>= GO:0150001 , <= GO:0160000]
 
+Datatype: idrange:23
+Annotations: allocatedto: "Raymond Lee"
+EquivalentTo: xsd:integer[>= GO:0160001 , <= GO:0170000]
