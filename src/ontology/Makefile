@@ -514,9 +514,13 @@ imports/substance_by_role.obo: imports/substance_by_role.owl
 rhea.ttl: ../sparql/construct-rhea-reactions.sparql
 	curl -X POST -F query="`cat ../sparql/construct-rhea-reactions.sparql`" --header "Accept:text/turtle" 'https://sparql.rhea-db.org/sparql' >$@.tmp && mv $@.tmp $@
 
-extensions/rhea-reactions.ttl: rhea.ttl
+extensions/rhea-reactions.ttl: rhea.ttl ../util/construct_rhea_ontology.sc
 	$(AMM) ../util/construct_rhea_ontology.sc $< rhea-reactions.ofn && \
 	robot annotate -i rhea-reactions.ofn -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+
+imports/go-catalytic-activities.owl: $(SRC) extensions/rhea-reactions.ttl catalog-v001.xml ../util/import_rhea_logical_defs.sc
+	$(AMM) ../util/import_rhea_logical_defs.sc extensions/rhea-reactions.ttl $(SRC) catalog-v001.xml $@.tmp && \
+	robot annotate -i $@.tmp -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
 
 # ----------------------------------------
 # MAPPINGS
