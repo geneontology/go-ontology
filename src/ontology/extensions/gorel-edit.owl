@@ -732,7 +732,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000038> <http://purl.
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000038> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0000038> <http://purl.obolibrary.org/obo/BFO_0000002>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000501> (occurs at)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000501> (obsolete occurs at)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000501> "BFO:0000015"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000501> "GO:0005575 SO:0000110"^^xsd:string)
@@ -746,7 +746,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0000501> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000501> "occurs_at"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000501> "Previous definition \"P occurs_at C : the execution of P is located at C.\" [GOC:cjm, GOC:mah] This relation is not constrained with respect to whether C completely surrounds, or is adjacent to, the location where P is executed. Example: chromatin silencing at centromere unfolds_around centromere : Repression of transcription of centromeric DNA by the formation of heterochromatin."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000501> "occurs at"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000501> "obsolete occurs at"^^xsd:string)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000501> "true"^^xsd:boolean)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000501> <http://purl.obolibrary.org/obo/GOREL_0000000>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000501> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
