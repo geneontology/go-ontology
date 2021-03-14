@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2020-04-16/imports/pato_import.owl
+data-version: go/releases/2021-03-13/imports/pato_import.owl
 ontology: go/imports/pato_import
 
 [Term]
@@ -128,12 +128,6 @@ id: PATO:0001908
 name: multinucleate
 def: "A nucleate quality inhering in a bearer by virtue of the bearer's having more than one nucleus." []
 is_a: PATO:0002505 ! nucleated
-
-[Term]
-id: PATO:0001979
-name: lobed
-def: "A shape quality inhering in a bearer by virtue of the bearer's being partly divided into a determinate number of regions." []
-is_a: PATO:0000052 ! shape
 
 [Term]
 id: PATO:0002006

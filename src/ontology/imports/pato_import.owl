@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/pato_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2020-04-16/imports/pato_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-03-13/imports/pato_import.owl"/>
     </owl:Ontology>
     
 
@@ -475,16 +475,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002505"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nucleate quality inhering in a bearer by virtue of the bearer&apos;s having more than one nucleus.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multinucleate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001979 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001979">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000052"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A shape quality inhering in a bearer by virtue of the bearer&apos;s being partly divided into a determinate number of regions.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lobed</rdfs:label>
     </owl:Class>
     
 
