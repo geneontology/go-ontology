@@ -834,3 +834,4 @@ GO:0140617	transvection	NCBITaxon:7147	Diptera
 GO:0009289	pilus	NCBITaxon:2	Bacteria
 GO:0043711	pilus organization	NCBITaxon:2	Bacteria
 GO:0120307	Hechtian strand	NCBITaxon:33090	Viridiplantae
+GO:0120309	cilium attachment to cell body	NCBITaxon:5653	Kinetoplastida
