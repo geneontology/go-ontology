@@ -134,7 +134,6 @@ GO:0016246	RNA interference	NCBITaxon:4895	Schizosaccharomyces
 GO:0016456	X chromosome located dosage compensation complex, transcription activating	NCBITaxon:8782	Aves
 GO:0016528	sarcoplasm	NCBITaxon:4751	Fungi
 GO:0017147	Wnt-protein binding	NCBITaxon:4751	Fungi
-GO:0019012	virion	NCBITaxon:131567	cellular organisms
 GO:0019588	anaerobic glycerol catabolic process	NCBITaxon:4895	Schizosaccharomyces
 GO:0019654	acetate fermentation	NCBITaxon:4895	Schizosaccharomyces
 GO:0019763	immunoglobulin receptor activity	NCBITaxon:4751	Fungi
