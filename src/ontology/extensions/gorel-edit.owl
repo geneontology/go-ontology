@@ -732,7 +732,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000038> <http://purl.
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000038> <http://purl.obolibrary.org/obo/BFO_0000015>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/GOREL_0000038> <http://purl.obolibrary.org/obo/BFO_0000002>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000501> (occurs at)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0000501> (obsolete occurs at)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000501> "BFO:0000015"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000501> "GO:0005575 SO:0000110"^^xsd:string)
@@ -746,7 +746,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0000501> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0000501> "occurs_at"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0000501> "Previous definition \"P occurs_at C : the execution of P is located at C.\" [GOC:cjm, GOC:mah] This relation is not constrained with respect to whether C completely surrounds, or is adjacent to, the location where P is executed. Example: chromatin silencing at centromere unfolds_around centromere : Repression of transcription of centromeric DNA by the formation of heterochromatin."^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000501> "occurs at"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0000501> "obsolete occurs at"^^xsd:string)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000501> "true"^^xsd:boolean)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0000501> <http://purl.obolibrary.org/obo/GOREL_0000000>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0000501> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
@@ -969,9 +970,10 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0001005> <http://purl.
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0001005> <http://purl.obolibrary.org/obo/GOREL_0001016>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0001005> <http://purl.obolibrary.org/obo/GO_0040012>)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0001006> (acts_on_population_of)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0001006> (obsolete acts_on_population_of)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_berkeley_2013"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001006> "The relationship that links an entity with a process in which the process has more than one participant that is of the same entity type."^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_berkeley_2013"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001006> "OBSOLETE. The relationship that links an entity with a process in which the process has more than one participant that is of the same entity type."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/GOREL_0001006> "RO:0012003"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0001006> "GO:0008283"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0001006> "CL:0000000 WBbt:0004017"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0001006> "Use this relation to relate a process to a population of cells that it acts on.  The main usage of this relations is to relate GO: cell proliferation to the proliferating cells type. (Individual cells divide, populations of cells proliferate.)"^^xsd:string)
@@ -984,7 +986,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/GOREL_0001006> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0001006> "acts_on_population_of"^^xsd:string)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0001006> "Example of use: an annotation of gene X to cell proliferation with acts_on_population_of CL:0000057 means that gene X is involved in the proliferation of fibroblasts. Note that many annotation extensions use regulates_o_acts_on_population_of - should this be considered regulation of number of cells / cell homeostasis?"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0001006> "acts_on_population_of"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0001006> "obsolete acts_on_population_of"^^xsd:string)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0001006> "true"^^xsd:boolean)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0001006> <http://purl.obolibrary.org/obo/GOREL_0000000>)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0001006> <http://purl.obolibrary.org/obo/RO_0000057>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0001006> <http://purl.obolibrary.org/obo/BFO_0000015>)
@@ -1000,7 +1003,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0001007> "obsolete mediated by"@en)
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0001007> "true"^^xsd:boolean)
 
-# Object Property: <http://purl.obolibrary.org/obo/GOREL_0001008> (regulates process that acts on population of)
+# Object Property: <http://purl.obolibrary.org/obo/GOREL_0001008> (obsolete regulates process that acts on population of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/GOREL_0001008> "'positive regulation of cell proliferation' and 'regulates process that acts on population of' some 'stem cell'")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_berkeley_2013"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001008> "A relation that applies between a regulatory process and a population of entities that a process it regulates acts on."^^xsd:string)
@@ -1011,7 +1014,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GOREL_0001008> "regulates_o_acts_on_population_of")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0001008> "go/extensions/gorel"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0001008> "regulates_o_acts_on_population_of"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0001008> "regulates process that acts on population of"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0001008> "obsolete regulates process that acts on population of"^^xsd:string)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0001008> "true"^^xsd:boolean)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/GOREL_0001008> <http://purl.obolibrary.org/obo/GOREL_0000015>)
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/GOREL_0001008> <http://purl.obolibrary.org/obo/BFO_0000015>)
 

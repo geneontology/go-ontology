@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-02-01/imports/opl_import.owl
+data-version: go/releases/2021-03-26/imports/opl_import.owl
 ontology: go/imports/opl_import
 
 [Term]
@@ -16,6 +16,13 @@ name: trypomastigote stage
 def: "A parasite lifecycle stage of trypanosomes. In trypomastigote stage, the kinetoplast is near the posterior end of the body, and the flagellum lies attached to the cell body for most of its length by an undulating membrane." []
 is_a: OPL:0000181 ! parasite lifecycle stage
 relationship: only_in_taxon NCBITaxon:5690
+
+[Term]
+id: OPL:0000114
+name: amastigote stage
+def: "A parasite lifecycle stage is a nonflagellate intracellular developmental stage in the trypanosomatid parasites lifecycle that occurs in mammalian host." []
+is_a: OPL:0000181 ! parasite lifecycle stage
+relationship: only_in_taxon OPL:0000232 ! parasite organism
 
 [Term]
 id: OPL:0000149

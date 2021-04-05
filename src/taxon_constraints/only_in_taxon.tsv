@@ -503,7 +503,7 @@ GO:0070258	inner membrane pellicle complex	NCBITaxon:5794	Apicomplexa
 GO:0070470	plasma membrane respirasome	NCBITaxon:2	Bacteria
 GO:0070527	platelet aggregation	NCBITaxon:33208	Metazoa
 GO:0070631	spindle pole body localization	NCBITaxon:4751	Fungi
-GO:0070648	formin-nucleated actin cable	NCBITaxon:4751	Fungi
+GO:0070648	formin-nucleated actin cable	NCBITaxon:2759	Eukaryota
 GO:0071074	eukaryotic initiation factor eIF2 binding	NCBITaxon:2759	Eukaryota
 GO:0071629	cytoplasm protein quality control by the ubiquitin-proteasome system	NCBITaxon:2759	Eukaryota
 GO:0071630	nuclear protein quality control by the ubiquitin-proteasome system	NCBITaxon:2759	Eukaryota
@@ -827,3 +827,12 @@ GO:0005899	insulin receptor complex	NCBITaxon:6072	Eumetazoa
 GO:0008286	insulin receptor signaling pathway	NCBITaxon:6072	Eumetazoa
 GO:0046626	regulation of insulin receptor signaling pathway	NCBITaxon:6072	Eumetazoa
 GO:0140604	mycofactocin biosynthetic process	NCBITaxon:Union_0000004	Prokaryota
+GO:0009486	cytochrome bo3 ubiquinol oxidase activity	NCBITaxon:2	Bacteria
+GO:0008815	citrate (pro-3S)-lyase activity	NCBITaxon:2	Bacteria
+GO:0009346	ATP-independent citrate lyase complex	NCBITaxon:2	Bacteria
+GO:0140617	transvection	NCBITaxon:7147	Diptera
+GO:0009289	pilus	NCBITaxon:2	Bacteria
+GO:0043711	pilus organization	NCBITaxon:2	Bacteria
+GO:0120309	cilium attachment to cell body	NCBITaxon:5653	Kinetoplastida
+GO:0120310	amastigogenesis	NCBITaxon:5654	Trypanosomatidae
+GO:0120307	Hechtian strand	NCBITaxon:33090	Viridiplantae

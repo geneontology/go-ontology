@@ -134,7 +134,6 @@ GO:0016246	RNA interference	NCBITaxon:4895	Schizosaccharomyces
 GO:0016456	X chromosome located dosage compensation complex, transcription activating	NCBITaxon:8782	Aves
 GO:0016528	sarcoplasm	NCBITaxon:4751	Fungi
 GO:0017147	Wnt-protein binding	NCBITaxon:4751	Fungi
-GO:0019012	virion	NCBITaxon:131567	cellular organisms
 GO:0019588	anaerobic glycerol catabolic process	NCBITaxon:4895	Schizosaccharomyces
 GO:0019654	acetate fermentation	NCBITaxon:4895	Schizosaccharomyces
 GO:0019763	immunoglobulin receptor activity	NCBITaxon:4751	Fungi
@@ -416,7 +415,6 @@ GO:0043588	skin development	NCBITaxon:50557	Insecta
 GO:0001533	cornified envelope	NCBITaxon:50557	Insecta
 GO:0007338	single fertilization	NCBITaxon:58024	Spermatophyta
 GO:0009271	phage shock	NCBITaxon:4751	Fungi
-GO:0009297	pilus assembly	NCBITaxon:4751	Fungi
 GO:0030199	collagen fibril organization	NCBITaxon:4751	Fungi
 GO:0005125	cytokine activity	NCBITaxon:4751	Fungi
 GO:1900136	regulation of cytokine activity	NCBITaxon:4751	Fungi
@@ -533,3 +531,6 @@ GO:0043202	lysosomal lumen	NCBITaxon:4751	Fungi
 GO:0005765	lysosomal membrane	NCBITaxon:4751	Fungi
 GO:0071588	hydrogen peroxide mediated signaling pathway	NCBITaxon:4751	Fungi
 GO:0071818	BAT3 complex	NCBITaxon:4890 	Ascomycota
+GO:0019933	cAMP-mediated signaling	NCBITaxon:33083	Dictyostelids
+GO:0016922	nuclear receptor binding	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0048309	endoplasmic reticulum inheritance	NCBITaxon:4896	Schizosaccharomyces pombe

@@ -8189,3 +8189,7 @@ http://purl.obolibrary.org/obo/CHEBI_77181 ## crystal violet cation
 http://purl.obolibrary.org/obo/CHEBI_149779 ## mannogen
 http://purl.obolibrary.org/obo/CHEBI_143624 ## D-galactofuranose
 http://purl.obolibrary.org/obo/CHEBI_45394 ## TMP
+http://purl.obolibrary.org/obo/CHEBI_167605 ## 1,8-dihydroxynaphthalene-melanin
+http://purl.obolibrary.org/obo/CHEBI_167637 ## mycofactocin
+http://purl.obolibrary.org/obo/CHEBI_6618 ## MET-enkephalin
+http://purl.obolibrary.org/obo/CHEBI_89656 ## Enkephalin L 

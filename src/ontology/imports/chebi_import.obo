@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-02-15/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-03-01/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -57,13 +57,6 @@ relationship: has_role CHEBI:35610 ! antineoplastic agent
 relationship: has_role CHEBI:48422 ! angiogenesis inhibitor
 relationship: has_role CHEBI:50629 ! cyclooxygenase 2 inhibitor
 relationship: has_role CHEBI:76924 ! plant metabolite
-
-[Term]
-id: CHEBI:10048
-name: XDP
-is_a: CHEBI:37038 ! purine ribonucleoside 5'-diphosphate
-is_a: CHEBI:53012 ! xanthosine 5'-phosphate
-relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
 [Term]
 id: CHEBI:10049
@@ -15555,6 +15548,7 @@ is_a: CHEBI:76176 ! 2-hydroxy fatty acid anion
 id: CHEBI:139188
 name: hydroxy fatty acid anion 14:0
 is_a: CHEBI:131872 ! hydroxy saturated fatty acid anion
+is_a: CHEBI:57560 ! long-chain fatty acid anion
 
 [Term]
 id: CHEBI:139189
@@ -21616,9 +21610,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 [Term]
 id: CHEBI:15514
 name: arachidonoyl-CoA
-is_a: CHEBI:15843 ! arachidonic acid
 is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
-is_a: CHEBI:64985 ! bioconjugate
 is_a: CHEBI:76180 ! arachidonoyl bioconjugate
 
 [Term]
@@ -22626,7 +22618,7 @@ is_a: CHEBI:50699 ! oligosaccharide
 
 [Term]
 id: CHEBI:156548
-name: kainate(2-)
+name: kainate(1-)
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 
 [Term]
@@ -29493,6 +29485,11 @@ is_a: CHEBI:47909 ! 3-oxo-Delta(4) steroid
 is_a: CHEBI:61313 ! C21-steroid
 
 [Term]
+id: CHEBI:167457
+name: poly[(R)-3-hydroxyalkanoate]
+is_a: CHEBI:60160 ! polyester polymer
+
+[Term]
 id: CHEBI:16746
 name: 1,2,3,5-tetrahydroxybenzene
 subset: chebi_ph7_3
@@ -29507,6 +29504,16 @@ is_a: CHEBI:83822 ! non-proteinogenic L-alpha-amino acid
 id: CHEBI:16749
 name: 1-phosphatidyl-1D-myo-inositol
 is_a: CHEBI:28874 ! phosphatidylinositol
+
+[Term]
+id: CHEBI:167497
+name: 1-O-(alk-1-enyl)-2-acyl-sn-glycerolipid
+is_a: CHEBI:35741 ! glycerolipid
+
+[Term]
+id: CHEBI:167498
+name: 1-(1,2-saturated-acyl)-2-acyl-sn-glycerolipid
+is_a: CHEBI:35741 ! glycerolipid
 
 [Term]
 id: CHEBI:16750
@@ -29553,6 +29560,23 @@ is_a: CHEBI:23775 ! dihydroxy-5beta-cholanic acid
 is_a: CHEBI:3098 ! bile acid
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
+
+[Term]
+id: CHEBI:167550
+name: dodecene
+is_a: CHEBI:32878 ! alkene
+
+[Term]
+id: CHEBI:167555
+name: 2-dodecene
+is_a: CHEBI:134179 ! volatile organic compound
+is_a: CHEBI:167550 ! dodecene
+relationship: has_role CHEBI:76946 ! fungal metabolite
+
+[Term]
+id: CHEBI:167559
+name: glycan
+is_a: CHEBI:78616 ! carbohydrates and carbohydrate derivatives
 
 [Term]
 id: CHEBI:16758
@@ -36130,6 +36154,7 @@ relationship: has_role CHEBI:78675 ! fundamental metabolite
 id: CHEBI:17810
 name: 1-O-(alk-1-enyl)-2-O-acyl-sn-glycero-3-phosphocholine
 subset: chebi_ph7_3
+is_a: CHEBI:167497 ! 1-O-(alk-1-enyl)-2-acyl-sn-glycerolipid
 is_a: CHEBI:68489 ! alkyl,acyl-sn-glycero-3-phosphocholine
 is_a: CHEBI:76170 ! olefinic phospholipid
 is_a: CHEBI:78188 ! 1-(alk-1-enyl)-2-acyl-glycero-3-phosphocholine
@@ -38164,6 +38189,7 @@ relationship: has_role CHEBI:78433 ! refrigerant
 id: CHEBI:18154
 name: polysaccharide
 is_a: CHEBI:16646 ! carbohydrate
+is_a: CHEBI:167559 ! glycan
 is_a: CHEBI:33694 ! biomacromolecule
 
 [Term]
@@ -49315,7 +49341,6 @@ is_a: CHEBI:35508 ! steroid fundamental parent
 id: CHEBI:26775
 name: stilbene
 subset: chebi_ph7_3
-is_a: CHEBI:26776 ! stilbenoid
 is_a: CHEBI:33645 ! acyclic olefin
 
 [Term]
@@ -73678,6 +73703,7 @@ is_a: CHEBI:35506 ! alkaloid fundamental parent
 id: CHEBI:38484
 name: ergoline
 is_a: CHEBI:23666 ! diamine
+is_a: CHEBI:38163 ! organic heterotetracyclic compound
 is_a: CHEBI:38482 ! indole alkaloid fundamental parent
 is_a: CHEBI:38958 ! indole alkaloid
 is_a: CHEBI:60529 ! ergoline alkaloid
@@ -83805,6 +83831,7 @@ is_a: CHEBI:27933 ! beta-lactam antibiotic
 id: CHEBI:50699
 name: oligosaccharide
 is_a: CHEBI:16646 ! carbohydrate
+is_a: CHEBI:167559 ! glycan
 
 [Term]
 id: CHEBI:5070
@@ -98831,13 +98858,6 @@ subset: chebi_ph7_3
 is_a: CHEBI:16849 ! D-fructuronate
 
 [Term]
-id: CHEBI:59884
-name: XDP(3-)
-subset: chebi_ph7_3
-is_a: CHEBI:53012 ! xanthosine 5'-phosphate
-is_a: CHEBI:58945 ! organophosphate oxoanion
-
-[Term]
 id: CHEBI:59885
 name: XTP(3-)
 is_a: CHEBI:53012 ! xanthosine 5'-phosphate
@@ -107329,6 +107349,7 @@ is_a: CHEBI:63551 ! carbohydrate acid derivative anion
 [Term]
 id: CHEBI:63563
 name: oligosaccharide derivative
+is_a: CHEBI:167559 ! glycan
 is_a: CHEBI:63299 ! carbohydrate derivative
 
 [Term]
@@ -111515,7 +111536,9 @@ is_a: CHEBI:25697 ! organic cation
 id: CHEBI:65037
 name: miltiradiene
 subset: chebi_ph7_3
+is_a: CHEBI:38032 ! carbotricyclic compound
 is_a: CHEBI:50072 ! abietadiene
+relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:65040
@@ -112031,6 +112054,7 @@ relationship: has_role CHEBI:65254 ! LRH-1 agonist
 [Term]
 id: CHEBI:65212
 name: polysaccharide derivative
+is_a: CHEBI:167559 ! glycan
 is_a: CHEBI:33694 ! biomacromolecule
 is_a: CHEBI:63299 ! carbohydrate derivative
 
@@ -126147,7 +126171,6 @@ is_a: CHEBI:64898 ! anionic amino-acid residue
 id: CHEBI:76180
 name: arachidonoyl bioconjugate
 subset: chebi_ph7_3
-is_a: CHEBI:15843 ! arachidonic acid
 is_a: CHEBI:64985 ! bioconjugate
 
 [Term]
@@ -130713,6 +130736,7 @@ is_a: CHEBI:57514 ! 1-(alk-1-enyl)-sn-glycero-3-phosphoethanolamine zwitterion
 id: CHEBI:77290
 name: 1-(Z)-alk-1-enyl-2-acyl-sn-glycero-3-phosphoethanolamine zwitterion
 subset: chebi_ph7_3
+is_a: CHEBI:167497 ! 1-O-(alk-1-enyl)-2-acyl-sn-glycerolipid
 is_a: CHEBI:60260 ! 1-(alk-1-enyl)-2-acyl-sn-glycero-3-phosphoethanolamine zwitterion
 
 [Term]
@@ -130752,6 +130776,7 @@ is_a: CHEBI:77290 ! 1-(Z)-alk-1-enyl-2-acyl-sn-glycero-3-phosphoethanolamine zwi
 id: CHEBI:77296
 name: 1-(Z)-alk-1-enyl-2-acyl-sn-glycerol
 subset: chebi_ph7_3
+is_a: CHEBI:167497 ! 1-O-(alk-1-enyl)-2-acyl-sn-glycerolipid
 is_a: CHEBI:73320 ! 1-(alk-1-enyl)-2-acyl-sn-glycerol
 is_a: CHEBI:77999 ! 1(3)-O-(alk-1-enyl)-2-acylglycerol
 
@@ -138838,6 +138863,7 @@ relationship: has_role CHEBI:76956 ! Aspergillus metabolite
 id: CHEBI:8298
 name: poly[(R)-3-hydroxybutanoate]
 subset: chebi_ph7_3
+is_a: CHEBI:167457 ! poly[(R)-3-hydroxyalkanoate]
 is_a: CHEBI:60160 ! polyester polymer
 
 [Term]
@@ -145232,7 +145258,6 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:85835
 name: CDP-1,2-diarachidonoyl-sn-glycerol
-is_a: CHEBI:15843 ! arachidonic acid
 is_a: CHEBI:17962 ! CDP-diacylglycerol
 
 [Term]
@@ -146723,6 +146748,7 @@ id: CHEBI:87007
 name: 1-stearoyl 2-acylglycerolipid
 subset: chebi_ph7_3
 is_a: CHEBI:144368 ! 1,2-diacyl-sn-glycerolipid
+is_a: CHEBI:167498 ! 1-(1,2-saturated-acyl)-2-acyl-sn-glycerolipid
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:35741 ! glycerolipid
 
@@ -146731,6 +146757,7 @@ id: CHEBI:87008
 name: 1-oleoyl-2-acylglycerolipid
 subset: chebi_ph7_3
 is_a: CHEBI:144368 ! 1,2-diacyl-sn-glycerolipid
+is_a: CHEBI:167498 ! 1-(1,2-saturated-acyl)-2-acyl-sn-glycerolipid
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:35741 ! glycerolipid
 
@@ -146739,6 +146766,7 @@ id: CHEBI:87010
 name: 1-linoleoyl-2-acylglycerolipid
 subset: chebi_ph7_3
 is_a: CHEBI:144368 ! 1,2-diacyl-sn-glycerolipid
+is_a: CHEBI:167498 ! 1-(1,2-saturated-acyl)-2-acyl-sn-glycerolipid
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:35741 ! glycerolipid
 
@@ -149326,9 +149354,11 @@ relationship: has_role CHEBI:84087 ! human urinary metabolite
 
 [Term]
 id: CHEBI:88609
-name: trans-2-dodecene
+name: (E)-2-dodecene
 subset: chebi_ph7_3
-is_a: CHEBI:33645 ! acyclic olefin
+is_a: CHEBI:167555 ! 2-dodecene
+relationship: has_role CHEBI:27311 ! volatile oil component
+relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
 id: CHEBI:8871
