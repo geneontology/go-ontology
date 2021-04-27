@@ -1,4 +1,8 @@
-pattern_name: 'import_into_cell'
+pattern_name: import_into_cell
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/import_into_cell.yaml
+
+description: TODO
 
 classes:
   transport: 'GO:0006810'

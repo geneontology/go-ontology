@@ -1,4 +1,8 @@
-pattern_name: 'occursIn'
+pattern_name: occursIn
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml
+
+description: TODO
 
 classes:
   process: 'GO:0008150'

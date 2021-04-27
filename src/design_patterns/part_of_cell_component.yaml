@@ -1,4 +1,8 @@
-pattern_name: 'part_of_cell_component'
+pattern_name: part_of_cell_component
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml
+
+description: TODO
 
 classes:
   cellular component: 'GO:0005575'

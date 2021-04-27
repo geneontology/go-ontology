@@ -1,6 +1,10 @@
 # This is a YAML file.  Use a consistent number of spaces for indent.  Do not use tabs.
 pattern_name: 'x_structural_organization_template.yaml' # Add a name used to identify the pattern here.
 
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_structural_organization_template.yaml
+
+description: TODO
+
 classes:
   anatomical structure: 'UBERON:0000061'
   anatomical structure arrangement: 'GO:0048532'

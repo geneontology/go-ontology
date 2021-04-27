@@ -1,5 +1,9 @@
 pattern_name: vesicle-mediated_transport_from_to
 
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/vesicle-mediated_transport_from_to.yaml
+
+description: TODO
+
 classes:
   vesicle-mediated transport: GO:0016192
   cellular component: GO:0005575

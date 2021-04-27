@@ -1,4 +1,8 @@
-pattern_name: 'multi_organism_process'
+pattern_name: multi_organism_process
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/multi_organism_process.yaml
+
+description: TODO
 
 classes:
   biological process: 'GO:0008150'

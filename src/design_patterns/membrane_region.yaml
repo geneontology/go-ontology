@@ -1,4 +1,8 @@
-pattern_name: 'membrane_region'
+pattern_name: membrane_region
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/membrane_region.yaml
+
+description: TODO
 
 classes:
   membrane: 'GO:0016020'

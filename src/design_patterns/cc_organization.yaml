@@ -1,4 +1,8 @@
-pattern_name: 'cc_organization'
+pattern_name: cc_organization
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cc_organization.yaml
+
+description: TODO
 
 classes:
   cellular component: 'GO:0005575'

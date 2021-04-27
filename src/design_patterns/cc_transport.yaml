@@ -1,4 +1,8 @@
-pattern_name: 'cc_transport'
+pattern_name: cc_transport
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cc_transport.yaml
+
+description: TODO
 
 classes:
   transport: 'GO:0006810'

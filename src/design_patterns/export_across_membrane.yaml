@@ -1,4 +1,8 @@
-pattern_name: 'import_across_membrane'
+pattern_name: import_across_membrane
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml
+
+description: TODO
 
 classes:
   membrane: 'GO:0016020'

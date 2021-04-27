@@ -1,4 +1,8 @@
-pattern_name: 'chromosomal_region'
+pattern_name: chromosomal_region
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/chromosomal_region.yaml
+
+description: TODO
 
 classes:
   sequence_region: 'SO:0000110'

@@ -1,4 +1,8 @@
-pattern_name: 'involved_in_x_y'
+pattern_name: involved_in_x_y
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml
+
+description: TODO
 
 classes:
   biological process: 'GO:0008150'

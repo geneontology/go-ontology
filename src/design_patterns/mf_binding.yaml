@@ -1,4 +1,8 @@
-pattern_name: 'binding'
+pattern_name: binding
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/binding.yaml
+
+description: TODO
 
 classes:
   binding: 'GO:0005488'
