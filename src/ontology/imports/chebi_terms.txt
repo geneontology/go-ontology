@@ -8193,3 +8193,4 @@ http://purl.obolibrary.org/obo/CHEBI_167605 ## 1,8-dihydroxynaphthalene-melanin
 http://purl.obolibrary.org/obo/CHEBI_167637 ## mycofactocin
 http://purl.obolibrary.org/obo/CHEBI_6618 ## MET-enkephalin
 http://purl.obolibrary.org/obo/CHEBI_89656 ## Enkephalin L 
+http://purl.obolibrary.org/obo/CHEBI_78257 ## isogloboside
