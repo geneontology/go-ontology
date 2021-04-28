@@ -534,3 +534,5 @@ GO:0071818	BAT3 complex	NCBITaxon:4890 	Ascomycota
 GO:0019933	cAMP-mediated signaling	NCBITaxon:33083	Dictyostelids
 GO:0016922	nuclear receptor binding	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
 GO:0048309	endoplasmic reticulum inheritance	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0044728	DNA methylation or demethylation	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0044728	DNA methylation or demethylation	NCBITaxon:4932	Saccharomyces cerevisiae
