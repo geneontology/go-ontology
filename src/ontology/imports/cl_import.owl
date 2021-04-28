@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-03-07/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-04-25/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -24250,17 +24250,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000359"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002049"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000955"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000955"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -30435,6 +30425,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_2000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000049">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000598"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001384"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any pyramidal cell that is part of a primary motor cortex.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary motor cortex pyramidal cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_2000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000051">
@@ -30519,17 +30529,13 @@
     <!-- http://purl.obolibrary.org/obo/CL_2000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000056">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000598"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000956"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000598"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001384"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any pyramidal cell that is part of a regional part of cerebral cortex.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meynert cell</rdfs:label>
     </owl:Class>
@@ -34202,6 +34208,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001384"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001473 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001473"/>
@@ -34349,6 +34361,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001893 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001893"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001896 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001896"/>
     
 
 
@@ -34817,6 +34835,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002512 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002512"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002707"/>
     
 
 
