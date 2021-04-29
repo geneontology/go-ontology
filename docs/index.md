@@ -1,0 +1,49 @@
+# Design Patterns
+
+| Pattern | Description |
+|:--------|:------------|
+| [activator_activity](activator_activity.md) | TODO |
+| [anchored_membrane_component](anchored_membrane_component.md) | TODO |
+| [bounding_membrane_of_organelle](bounding_membrane_of_organelle.md) | TODO |
+| [cc_assembly](cc_assembly.md) | TODO |
+| [cc_disassembly](cc_disassembly.md) | TODO |
+| [cc_organization](cc_organization.md) | TODO |
+| [cc_transport](cc_transport.md) | TODO |
+| [cc_transport_from_to](cc_transport_from_to.md) | TODO |
+| [chemical_transport](chemical_transport.md) | TODO |
+| [chromosomal_region](chromosomal_region.md) | TODO |
+| [envenomation](envenomation.md) | TODO |
+| [establishment_of_protein_localization_to](establishment_of_protein_localization_to.md) | TODO |
+| [import_across_membrane](export_across_membrane.md) | TODO |
+| [extrinsic_membrane_component](extrinsic_membrane_component.md) | TODO |
+| [import_across_membrane](import_across_membrane.md) | TODO |
+| [import_across_plasma_membrane](import_across_plasma_membrane.md) | TODO |
+| [import_into_cell](import_into_cell.md) | TODO |
+| [inhibitor_activity](inhibitor_activity.md) | TODO |
+| [integral_membrane_component](integral_membrane_component.md) | TODO |
+| [intrinsic_membrane_component](intrinsic_membrane_component.md) | TODO |
+| [involved_in_x_y](involved_in_x_y.md) | TODO |
+| [macromolecular_complex_binding](macromolecular_complex_binding.md) | TODO |
+| [membrane_region](membrane_region.md) | TODO |
+| [spanning_component_of_membrane](membrane_spanning_component.md) | TODO |
+| [binding](mf_binding.md) | TODO |
+| [multi_organism_process](multi_organism_process.md) | TODO |
+| [negative_regulation](negative_regulation.md) | TODO |
+| [occursIn](occursIn.md) | TODO |
+| [part_of_cell_component](part_of_cell_component.md) | TODO |
+| [positive_regulation](positive_regulation.md) | TODO |
+| [protein_complex_by_activity](protein_complex_by_activity.md) | TODO |
+| [protein_localization_to](protein_localization_to.md) | TODO |
+| [regulation](regulation.md) | One of three core patterns for regulation terms in the GO. Do not use this pattern for the 3 grouping classes: regulation of MF, regulation of BP, regulation of BQ |
+| [regulation_by](regulation_by.md) | TODO |
+| [regulator_activity](regulator_activity.md) | TODO |
+| [single_organism_process](single_organism_process.md) | TODO |
+| [transmembrane_import_into_cytosol](transmembrane_import_into_cell.md) | TODO |
+| [vesicle-mediated_transport](vesicle_mediated_transport.md) | TODO |
+| [vesicle-mediated_transport_from_to](vesicle_mediated_transport_from_to.md) | TODO |
+| [x_development](x_development.md) | TODO |
+| [x_formation](x_formation.md) | TODO |
+| [x_maturation](x_maturation.md) | TODO |
+| [x_morphogenesis](x_morphogenesis.md) | TODO |
+| [x_specification](x_specification.md) | TODO |
+| [x_structural_organization_template.yaml](x_structural_organization.md) | TODO |
