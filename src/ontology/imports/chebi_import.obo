@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-03-01/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-04-01/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -5822,6 +5822,7 @@ is_a: CHEBI:64775 ! organic anionic group
 id: CHEBI:133969
 name: 5'-(N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyl-purine-ribonucleotide)(2-) residue
 subset: chebi_ph7_3
+is_a: CHEBI:167609 ! 5'-(N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyl-ribonucleoside)(2-) residue
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -9626,6 +9627,7 @@ is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 id: CHEBI:136896
 name: 5'-(5'-triphosphoguanosine)-(purine-ribonucleotide)(3-) residue
 subset: chebi_ph7_3
+is_a: CHEBI:167617 ! 5'-(5'-triphosphoguanosine)-(ribonucleotide)(3-) residue
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -9890,12 +9892,14 @@ is_a: CHEBI:83411 ! beta-D-glucosiduronate
 id: CHEBI:136977
 name: 5'-(N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyl-purine-ribonucleotide)-(ribonucleotide)(3-) residue
 subset: chebi_ph7_3
+is_a: CHEBI:167612 ! 5'-(N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyl-ribonucleoside)-(ribonucleotide)(3-) residue
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
 id: CHEBI:136978
 name: 5'-(N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyl-purine-ribonucleotide)-(2'-O-methyl-ribonucleotide)(3-) residue
 subset: chebi_ph7_3
+is_a: CHEBI:167614 ! 5'-(N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyl-ribonucleoside)-(2'-O-methyl-ribonucleotide)(3-) residue
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -13373,6 +13377,7 @@ is_a: CHEBI:25696 ! organic anion
 id: CHEBI:138276
 name: 5'-end purine ribonucleoside 5'-diphosphate(3-) residue
 subset: chebi_ph7_3
+is_a: CHEBI:167616 ! 5'-end ribonucleoside 5'-diphosphate(3-) residue
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -13433,6 +13438,7 @@ is_a: CHEBI:134400 ! cationic peptidyl group
 id: CHEBI:138288
 name: 5'-end purine ribonucleotide 5'-triphosphate(4-) residue
 subset: chebi_ph7_3
+is_a: CHEBI:167618 ! 5'-end ribonucleotide 5'-triphosphate(4-) residue
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -24784,9 +24790,9 @@ relationship: has_part CHEBI:68836 ! diphosphate group
 
 [Term]
 id: CHEBI:15999
-name: (4-hydroxyphenyl)pyruvic acid
-is_a: CHEBI:25754 ! oxo carboxylic acid
+name: 4-hydroxyphenylpyruvic acid
 is_a: CHEBI:33853 ! phenols
+is_a: CHEBI:35910 ! 2-oxo monocarboxylic acid
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -25223,8 +25229,6 @@ id: CHEBI:16069
 name: 1H-imidazole
 subset: chebi_ph7_3
 is_a: CHEBI:14434 ! imidazole
-is_a: CHEBI:35555 ! mancude organic heteromonocyclic parent
-is_a: CHEBI:38179 ! monocyclic heteroarene
 
 [Term]
 id: CHEBI:16070
@@ -29592,12 +29596,57 @@ is_a: CHEBI:37453 ! phenanthrenediol
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
+id: CHEBI:167604
+name: naphthalene-1,8-diol
+is_a: CHEBI:38133 ! naphthalenediol
+relationship: has_role CHEBI:76946 ! fungal metabolite
+
+[Term]
+id: CHEBI:167605
+name: 1,8-dihydroxynaphthalene-melanin
+is_a: CHEBI:25179 ! melanins
+is_a: CHEBI:26188 ! polyketide
+relationship: has_role CHEBI:72316 ! virulence factor
+relationship: has_role CHEBI:76946 ! fungal metabolite
+relationship: has_role CHEBI:76956 ! Aspergillus metabolite
+
+[Term]
+id: CHEBI:167609
+name: 5'-(N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyl-ribonucleoside)(2-) residue
+is_a: CHEBI:64775 ! organic anionic group
+
+[Term]
 id: CHEBI:16761
 name: ADP
 is_a: CHEBI:37038 ! purine ribonucleoside 5'-diphosphate
 is_a: CHEBI:37096 ! adenosine 5'-phosphate
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:78675 ! fundamental metabolite
+
+[Term]
+id: CHEBI:167612
+name: 5'-(N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyl-ribonucleoside)-(ribonucleotide)(3-) residue
+is_a: CHEBI:64775 ! organic anionic group
+
+[Term]
+id: CHEBI:167614
+name: 5'-(N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyl-ribonucleoside)-(2'-O-methyl-ribonucleotide)(3-) residue
+is_a: CHEBI:64775 ! organic anionic group
+
+[Term]
+id: CHEBI:167616
+name: 5'-end ribonucleoside 5'-diphosphate(3-) residue
+is_a: CHEBI:64775 ! organic anionic group
+
+[Term]
+id: CHEBI:167617
+name: 5'-(5'-triphosphoguanosine)-(ribonucleotide)(3-) residue
+is_a: CHEBI:64775 ! organic anionic group
+
+[Term]
+id: CHEBI:167618
+name: 5'-end ribonucleotide 5'-triphosphate(4-) residue
+is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
 id: CHEBI:16763
@@ -29607,6 +29656,11 @@ is_a: CHEBI:35179 ! 2-oxo monocarboxylic acid anion
 is_a: CHEBI:58951 ! short-chain fatty acid anion
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
+
+[Term]
+id: CHEBI:167637
+name: mycofactocin
+is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:16764
@@ -37581,6 +37635,7 @@ id: CHEBI:18051
 name: L-aspartic 4-semialdehyde
 is_a: CHEBI:26643 ! aldehydic acid
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
+relationship: has_role CHEBI:76969 ! bacterial metabolite
 
 [Term]
 id: CHEBI:18052
@@ -45067,7 +45122,6 @@ is_a: CHEBI:36711 ! phosphoethanolamine
 [Term]
 id: CHEBI:24455
 name: guanosine phosphate
-is_a: CHEBI:24458 ! guanosines
 is_a: CHEBI:25608 ! nucleoside phosphate
 is_a: CHEBI:61295 ! guanyl ribonucleotide
 
@@ -49341,7 +49395,8 @@ is_a: CHEBI:35508 ! steroid fundamental parent
 id: CHEBI:26775
 name: stilbene
 subset: chebi_ph7_3
-is_a: CHEBI:33645 ! acyclic olefin
+is_a: CHEBI:22712 ! benzenes
+is_a: CHEBI:78840 ! olefinic compound
 
 [Term]
 id: CHEBI:26776
@@ -50515,7 +50570,6 @@ name: styrene
 subset: chebi_ph7_3
 is_a: CHEBI:134179 ! volatile organic compound
 is_a: CHEBI:26799 ! styrenes
-is_a: CHEBI:33645 ! acyclic olefin
 is_a: CHEBI:51324 ! vinylarene
 relationship: has_role CHEBI:25435 ! mutagen
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -68758,6 +68812,7 @@ is_a: CHEBI:36526 ! acidic glycosphingolipid
 id: CHEBI:36480
 name: bisabolane
 subset: chebi_ph7_3
+is_a: CHEBI:23453 ! cycloalkane
 is_a: CHEBI:35189 ! sesquiterpene
 is_a: CHEBI:35662 ! terpenoid fundamental parent
 
@@ -79110,6 +79165,7 @@ is_a: CHEBI:20937 ! D-fructuronic acid
 id: CHEBI:47951
 name: primary fluorescent chlorophyll catabolite
 is_a: CHEBI:36736 ! bilenes
+relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:47952
@@ -87090,9 +87146,9 @@ is_a: CHEBI:76835 ! EC 1.1.1.* (oxidoreductase acting on donor CH-OH group, NAD(
 
 [Term]
 id: CHEBI:537519
-name: L-aspartic acid 4-semialdehyde betaine
+name: L-aspartic acid 4-semialdehyde zwitterion
 subset: chebi_ph7_3
-is_a: CHEBI:22860 ! amino-acid betaine
+is_a: CHEBI:59869 ! L-alpha-amino acid zwitterion
 
 [Term]
 id: CHEBI:53753
@@ -96557,6 +96613,7 @@ is_a: CHEBI:63470 ! sulfur-containing amino-acid anion
 [Term]
 id: CHEBI:58719
 name: primary fluorescent chlorophyll catabolite(2-)
+is_a: CHEBI:38716 ! carboxylic acid dianion
 is_a: CHEBI:59252 ! linear tetrapyrrole anion
 
 [Term]
@@ -100536,6 +100593,11 @@ is_a: CHEBI:35942 ! neurotransmitter agent
 [Term]
 id: CHEBI:60599
 name: mu-opioid agent
+is_a: CHEBI:60598 ! opioid agent
+
+[Term]
+id: CHEBI:60601
+name: delta-opioid agent
 is_a: CHEBI:60598 ! opioid agent
 
 [Term]
@@ -108388,6 +108450,12 @@ name: food acidity regulator
 is_a: CHEBI:64047 ! food additive
 
 [Term]
+id: CHEBI:64054
+name: delta-opioid receptor agonist
+is_a: CHEBI:60601 ! delta-opioid agent
+is_a: CHEBI:60606 ! opioid receptor agonist
+
+[Term]
 id: CHEBI:64074
 name: (S)-NADHX(2-)
 subset: chebi_ph7_3
@@ -112454,6 +112522,11 @@ is_a: CHEBI:51689 ! enone
 is_a: CHEBI:51959 ! organic tricyclic compound
 relationship: has_role CHEBI:67189 ! EC 3.4.24.3 (microbial collagenase) inhibitor
 relationship: has_role CHEBI:76956 ! Aspergillus metabolite
+
+[Term]
+id: CHEBI:6618
+name: MET-enkephalin
+is_a: CHEBI:16670 ! peptide
 
 [Term]
 id: CHEBI:66331
@@ -120320,7 +120393,7 @@ is_a: CHEBI:34117 ! batilol
 
 [Term]
 id: CHEBI:74004
-name: CDP-2,3-bis-(O-phytanyl)-sn-glycerol(2-)
+name: CDP-2,3-bis-O-(phytanyl)-sn-glycerol(2-)
 subset: chebi_ph7_3
 is_a: CHEBI:58945 ! organophosphate oxoanion
 
@@ -120490,7 +120563,7 @@ is_a: CHEBI:21167 ! GDP-hexose
 
 [Term]
 id: CHEBI:74050
-name: CDP-2,3-bis-(O-phytanyl)-sn-glycerol
+name: CDP-2,3-bis-O-(phytanyl)-sn-glycerol
 is_a: CHEBI:35774 ! CDP-glycerols
 is_a: CHEBI:64611 ! ether lipid
 
@@ -131873,6 +131946,7 @@ id: CHEBI:77670
 name: primary fluorescent chlorophyll catabolite(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:35757 ! monocarboxylic acid anion
+is_a: CHEBI:59252 ! linear tetrapyrrole anion
 
 [Term]
 id: CHEBI:77671
@@ -149472,6 +149546,17 @@ relationship: has_role CHEBI:61908 ! EC 1.14.13.39 (nitric oxide synthase) inhib
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:84087 ! human urinary metabolite
+
+[Term]
+id: CHEBI:89656
+name: Leu-enkephalin
+is_a: CHEBI:48545 ! pentapeptide
+relationship: has_role CHEBI:25512 ! neurotransmitter
+relationship: has_role CHEBI:35480 ! analgesic
+relationship: has_role CHEBI:55322 ! mu-opioid receptor agonist
+relationship: has_role CHEBI:64054 ! delta-opioid receptor agonist
+relationship: has_role CHEBI:77746 ! human metabolite
+relationship: has_role CHEBI:86264 ! rat metabolite
 
 [Term]
 id: CHEBI:89719
