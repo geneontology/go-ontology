@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-04-01/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-04-29/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -134196,6 +134196,11 @@ name: oryzalexin D
 subset: chebi_ph7_3
 is_a: CHEBI:79084 ! tricyclic diterpenoid
 relationship: has_role CHEBI:76924 ! plant metabolite
+
+[Term]
+id: CHEBI:78257
+name: isoglobside
+is_a: CHEBI:36520 ! oligoglycosylceramide
 
 [Term]
 id: CHEBI:78259
