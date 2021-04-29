@@ -30,7 +30,7 @@ data_list_vars:
   related_syn: "xsd:string"
   
 name:
-  text: "% structural organization"  # text with var slots specified as %s.
+  text: "%s structural organization"  # text with var slots specified as %s.
   vars:   # A list of var names. These don't need to be quoted. 
   # The order of variables = the order of intended insertion into slots.
     - 'target'
