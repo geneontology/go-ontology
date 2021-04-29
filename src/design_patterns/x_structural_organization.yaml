@@ -1,6 +1,10 @@
 # This is a YAML file.  Use a consistent number of spaces for indent.  Do not use tabs.
 pattern_name: 'x_structural_organization_template.yaml' # Add a name used to identify the pattern here.
 
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_structural_organization_template.yaml
+
+description: TODO
+
 classes:
   anatomical structure: 'UBERON:0000061'
   anatomical structure arrangement: 'GO:0048532'
@@ -26,7 +30,7 @@ data_list_vars:
   related_syn: "xsd:string"
   
 name:
-  text: "% structural organization"  # text with var slots specified as %s.
+  text: "%s structural organization"  # text with var slots specified as %s.
   vars:   # A list of var names. These don't need to be quoted. 
   # The order of variables = the order of intended insertion into slots.
     - 'target'

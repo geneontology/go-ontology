@@ -1,5 +1,9 @@
 pattern_name: regulation_by
 
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml
+
+description: TODO
+
 classes:
   biological process: "GO:0008150"
 

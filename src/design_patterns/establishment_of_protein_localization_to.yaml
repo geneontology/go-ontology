@@ -1,4 +1,8 @@
-pattern_name: 'establishment_of_protein_localization_to'
+pattern_name: establishment_of_protein_localization_to
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/establishment_of_protein_localization_to.yaml
+
+description: TODO
 
 classes:
   cellular component: 'GO:0005575'

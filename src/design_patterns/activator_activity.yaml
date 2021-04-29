@@ -1,4 +1,8 @@
-pattern_name: 'activator_activity'
+pattern_name: activator_activity
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/activator_activity.yaml
+
+description: TODO
 
 classes:
   molecular_function: 'GO:0003674'

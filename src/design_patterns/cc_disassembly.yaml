@@ -1,4 +1,8 @@
-pattern_name: 'cc_disassembly'
+pattern_name: cc_disassembly
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cc_disassembly.yaml
+
+description: TODO
 
 classes:
   cellular component: 'GO:0005575'

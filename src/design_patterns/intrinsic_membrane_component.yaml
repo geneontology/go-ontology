@@ -1,4 +1,8 @@
-pattern_name: 'intrinsic_membrane_component'
+pattern_name: intrinsic_membrane_component
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml
+
+description: TODO
 
 classes:
   membrane: 'GO:0016020'

@@ -1,5 +1,9 @@
 pattern_name: import_across_plasma_membrane
 
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml
+
+description: TODO
+
 classes:
   transport: 'GO:0006810'
   extracellular region: 'GO:0005576'

@@ -1,4 +1,8 @@
-pattern_name: 'bounding_membrane_of_organelle'
+pattern_name: bounding_membrane_of_organelle
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/bounding_membrane_of_organelle.yaml
+
+description: TODO
 
 classes:
   'whole membrane': 'GO:0098805'

@@ -1,4 +1,8 @@
-pattern_name: 'envenomation'
+pattern_name: envenomation
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/envenomation.yaml
+
+description: TODO
 
 classes:
   envenomation resulting in modification of morphology or physiology of other organism: 'GO:0044468'

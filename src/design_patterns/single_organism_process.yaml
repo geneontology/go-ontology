@@ -1,5 +1,9 @@
 pattern_name: single_organism_process
 
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/single_organism_process.yaml
+
+description: TODO
+
 classes:
   biological process: "GO:0008150"
   single organismal process quality: "PATO:0002487"

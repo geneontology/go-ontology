@@ -1,5 +1,9 @@
 pattern_name: protein_localization_to
 
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/protein_localization_to.yaml
+
+description: TODO
+
 classes:
   cellular component: "GO:0005575"
   protein localization: "GO:0008104"

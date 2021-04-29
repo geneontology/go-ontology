@@ -1,4 +1,8 @@
-pattern_name: 'negative_regulation'
+pattern_name: negative_regulation
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml
+
+description: TODO
 
 classes:
   Thing: 'owl:Thing'

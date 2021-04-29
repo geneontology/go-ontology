@@ -1,5 +1,9 @@
 pattern_name: x_maturation
 
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_maturation.yaml
+
+description: TODO
+
 classes:
   anatomical structure: "UBERON:0000061"
   developmental maturation: "GO:0021700"
