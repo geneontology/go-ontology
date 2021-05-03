@@ -1,4 +1,4 @@
-# transmembrane_import_into_cytosol
+# transmembrane import into cytosol
 
 [http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml](http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml)
 
@@ -43,9 +43,9 @@ TODO
 
 | defined_class | defined_class_label | imported | imported_label |
 |:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_0070779](http://purl.obolibrary.org/obo/GO_0070779) | D-aspartate import across plasma membrane | [http://purl.obolibrary.org/obo/CHEBI_29994](http://purl.obolibrary.org/obo/CHEBI_29994) | D-aspartate(2-) |
-| [http://purl.obolibrary.org/obo/GO_1904273](http://purl.obolibrary.org/obo/GO_1904273) | L-alanine import across plasma membrane | [http://purl.obolibrary.org/obo/CHEBI_16977](http://purl.obolibrary.org/obo/CHEBI_16977) | L-alanine |
-| [http://purl.obolibrary.org/obo/GO_0097638](http://purl.obolibrary.org/obo/GO_0097638) | L-arginine import across plasma membrane | [http://purl.obolibrary.org/obo/CHEBI_16467](http://purl.obolibrary.org/obo/CHEBI_16467) | L-arginine |
-| [http://purl.obolibrary.org/obo/GO_1903811](http://purl.obolibrary.org/obo/GO_1903811) | L-asparagine import across plasma membrane | [http://purl.obolibrary.org/obo/CHEBI_17196](http://purl.obolibrary.org/obo/CHEBI_17196) | L-asparagine |
-| [http://purl.obolibrary.org/obo/GO_0098712](http://purl.obolibrary.org/obo/GO_0098712) | L-glutamate import across plasma membrane | [http://purl.obolibrary.org/obo/CHEBI_29985](http://purl.obolibrary.org/obo/CHEBI_29985) | L-glutamate(1-) |
+| [http://purl.obolibrary.org/obo/GO_0140484](http://purl.obolibrary.org/obo/GO_0140484) | 5-aminolevulinic acid import across plasma membrane | [http://purl.obolibrary.org/obo/CHEBI_356416](http://purl.obolibrary.org/obo/CHEBI_356416) | 5-ammoniolevulinate |
+| [http://purl.obolibrary.org/obo/GO_0070779](http://purl.obolibrary.org/obo/GO_0070779) | D-aspartate import across plasma membrane | [http://purl.obolibrary.org/obo/CHEBI_29990](http://purl.obolibrary.org/obo/CHEBI_29990) | D-aspartate(1-) |
+| [http://purl.obolibrary.org/obo/GO_1904273](http://purl.obolibrary.org/obo/GO_1904273) | L-alanine import across plasma membrane | [http://purl.obolibrary.org/obo/CHEBI_57972](http://purl.obolibrary.org/obo/CHEBI_57972) | L-alanine zwitterion |
+| [http://purl.obolibrary.org/obo/GO_0097638](http://purl.obolibrary.org/obo/GO_0097638) | L-arginine import across plasma membrane | [http://purl.obolibrary.org/obo/CHEBI_32682](http://purl.obolibrary.org/obo/CHEBI_32682) | L-argininium(1+) |
+| [http://purl.obolibrary.org/obo/GO_1903811](http://purl.obolibrary.org/obo/GO_1903811) | L-asparagine import across plasma membrane | [http://purl.obolibrary.org/obo/CHEBI_58048](http://purl.obolibrary.org/obo/CHEBI_58048) | L-asparagine zwitterion |
 

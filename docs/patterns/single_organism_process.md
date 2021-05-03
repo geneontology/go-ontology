@@ -1,4 +1,4 @@
-# single_organism_process
+# single-organism process
 
 [http://purl.obolibrary.org/obo/go/patterns/single_organism_process.yaml](http://purl.obolibrary.org/obo/go/patterns/single_organism_process.yaml)
 

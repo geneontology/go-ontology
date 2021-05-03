@@ -1,4 +1,4 @@
-# import_into_cell
+# import into cell
 
 [http://purl.obolibrary.org/obo/go/patterns/import_into_cell.yaml](http://purl.obolibrary.org/obo/go/patterns/import_into_cell.yaml)
 
@@ -14,12 +14,6 @@ TODO
 | Variable name | Allowed type |
 |:--------------|:-------------|
 | `{imported}` | [chemical entity](http://purl.obolibrary.org/obo/CHEBI_24431) or [GO_0043234](http://purl.obolibrary.org/obo/GO_0043234) |
-| `{exact_syn}` | xsd:string |
-| `{narrow_syn}` | xsd:string |
-| `{def_xrefs}` | xsd:string |
-| `{cross_references}` | xsd:string |
-| `{broad_syn}` | xsd:string |
-| `{related_syn}` | xsd:string |
 
 ## Name
 
@@ -28,7 +22,6 @@ TODO
 ## Annotations
 
 - [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace): "biological_process"^^[string](http://www.w3.org/2001/XMLSchema#string)
-- [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref): "`{cross_references}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Definition
 

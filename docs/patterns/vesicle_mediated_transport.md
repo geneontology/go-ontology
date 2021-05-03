@@ -1,6 +1,6 @@
-# vesicle-mediated_transport
+# vesicle-mediated transport
 
-[http://purl.obolibrary.org/obo/go/patterns/vesicle-mediated_transport.yaml](http://purl.obolibrary.org/obo/go/patterns/vesicle-mediated_transport.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport.yaml](http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport.yaml)
 
 ## Description
 

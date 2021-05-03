@@ -1,4 +1,4 @@
-# membrane_region
+# membrane region
 
 [http://purl.obolibrary.org/obo/go/patterns/membrane_region.yaml](http://purl.obolibrary.org/obo/go/patterns/membrane_region.yaml)
 
@@ -15,12 +15,6 @@ TODO
 |:--------------|:-------------|
 | `{encompassing_membrane}` | [membrane](http://purl.obolibrary.org/obo/GO_0016020) |
 | `{intersecting_region}` | [cellular_component](http://purl.obolibrary.org/obo/GO_0005575) |
-| `{exact_syn}` | xsd:string |
-| `{narrow_syn}` | xsd:string |
-| `{def_xrefs}` | xsd:string |
-| `{cross_references}` | xsd:string |
-| `{broad_syn}` | xsd:string |
-| `{related_syn}` | xsd:string |
 
 ## Name
 
@@ -29,7 +23,6 @@ TODO
 ## Annotations
 
 - [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace): "biological_process"^^[string](http://www.w3.org/2001/XMLSchema#string)
-- [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref): "`{cross_references}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Definition
 

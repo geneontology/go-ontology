@@ -1,6 +1,6 @@
-# binding
+# mf binding
 
-[http://purl.obolibrary.org/obo/go/patterns/binding.yaml](http://purl.obolibrary.org/obo/go/patterns/binding.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/mf_binding.yaml](http://purl.obolibrary.org/obo/go/patterns/mf_binding.yaml)
 
 ## Description
 
@@ -14,12 +14,6 @@ TODO
 | Variable name | Allowed type |
 |:--------------|:-------------|
 | `{input}` | [chemical entity](http://purl.obolibrary.org/obo/CHEBI_24431) |
-| `{exact_syn}` | xsd:string |
-| `{narrow_syn}` | xsd:string |
-| `{def_xrefs}` | xsd:string |
-| `{cross_references}` | xsd:string |
-| `{broad_syn}` | xsd:string |
-| `{related_syn}` | xsd:string |
 
 ## Name
 
