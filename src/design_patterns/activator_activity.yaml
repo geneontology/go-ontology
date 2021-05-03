@@ -1,4 +1,4 @@
-pattern_name: activator_activity
+pattern_name: activator activity
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/activator_activity.yaml
 
@@ -23,15 +23,6 @@ substitutions:
 
 data_list_vars:
   def_dbxrefs: "xsd:string"
-
-# Boilerplate - don't edit
-data_list_vars:
-  def_xrefs: "xsd:string"
-  cross_references: "xsd:string"
-  exact_syn: "xsd:string"
-  narrow_syn: "xsd:string"
-  broad_syn: "xsd:string"
-  related_syn: "xsd:string"
   
 name:
   text: "%s activator activity"
@@ -46,11 +37,6 @@ def:
   vars:
     - 'regulated_activity'
     - 'regulated_activity'
-  xrefs: def_xrefs
-
-# Boilerplate - don't edit
-xref: 
-   value: cross_references
 
 namespace: 
   text: 'biological_process'  # e.g. biological_process, quoting is optional
@@ -59,13 +45,3 @@ equivalentTo:
   text: "'molecular_function' that 'directly positively regulates' some %s" 
   vars:
     - 'regulated_activity'
-
-# Boilerplate - don't edit
-exact_synonyms: 
-   value: exact_syn
-narrow_synonyms: 
-   value: narrow_syn
-broad_synonyms: 
-   value: broad_syn
-related_synonyms: 
-   value: related_syn

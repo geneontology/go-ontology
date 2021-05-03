@@ -1,4 +1,4 @@
-pattern_name: bounding_membrane_of_organelle
+pattern_name: bounding membrane of organelle
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/bounding_membrane_of_organelle.yaml
 
@@ -13,14 +13,6 @@ relations:
 
 vars: 
   'organelle': "'membrane-bounded organelle'"
-  
-# Boilerplate - don't edit
-data_list_vars:
-  def_xrefs: "xsd:string"
-  cross_references: "xsd:string"
-  exact_syn: "xsd:string"
-  narrow_syn: "xsd:string"
-  broad_syn: "xsd:string"  
 
 name:
   text: "%s membrane"
@@ -31,9 +23,7 @@ def:
   text: "The lipid bilayer that forms the outer layer of a %s."
   vars:
     - 'organelle'
-    
-xref: 
-   value: cross_references
+
 
 namespace: 
   text: 'biological_process'  # e.g. biological_process, quoting is optional
@@ -42,13 +32,3 @@ equivalentTo:
   text: "'whole membrane' that ('bounding layer of' some %s)"
   vars:
     - 'organelle'
-    
-# Boilerplate - don't edit
-exact_synonyms: 
-   value: exact_syn
-narrow_synonyms: 
-   value: narrow_syn
-broad_synonyms: 
-   value: broad_syn
-related_synonyms: 
-   value: related_syn
