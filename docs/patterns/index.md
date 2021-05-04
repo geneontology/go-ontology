@@ -11,7 +11,7 @@
 | [cc transport](cc_transport.md) | TODO |
 | [cc transport from to](cc_transport_from_to.md) | TODO |
 | [chemical transport](chemical_transport.md) | TODO |
-| [chromosomal_region](chromosomal_region.md) | TODO |
+| [chromosomal region](chromosomal_region.md) | TODO |
 | [envenomation](envenomation.md) | TODO |
 | [establishment of protein localization to](establishment_of_protein_localization_to.md) | TODO |
 | [export across membrane](export_across_membrane.md) | TODO |
@@ -22,20 +22,20 @@
 | [inhibitor activity](inhibitor_activity.md) | TODO |
 | [integral membrane component](integral_membrane_component.md) | TODO |
 | [intrinsic membrane component](intrinsic_membrane_component.md) | TODO |
-| [involved_in_x_y](involved_in_x_y.md) | TODO |
-| [macromolecular_complex_binding](macromolecular_complex_binding.md) | TODO |
+| [involved in x y](involved_in_x_y.md) | TODO |
+| [macromolecular complex binding](macromolecular_complex_binding.md) | TODO |
 | [membrane region](membrane_region.md) | TODO |
 | [spanning component of membrane](membrane_spanning_component.md) | TODO |
 | [mf binding](mf_binding.md) | TODO |
 | [multi-organism process](multi_organism_process.md) | TODO |
-| [negative_regulation](negative_regulation.md) | TODO |
+| [negative regulation](negative_regulation.md) | TODO |
 | [occurs in](occursIn.md) | TODO |
 | [part of cell component](part_of_cell_component.md) | TODO |
 | [positive regulation](positive_regulation.md) | TODO |
 | [protein complex by activity](protein_complex_by_activity.md) | TODO |
 | [protein localization to](protein_localization_to.md) | TODO |
 | [regulation](regulation.md) | One of three core patterns for regulation terms in the GO. Do not use this pattern for the 3 grouping classes: regulation of MF, regulation of BP, regulation of BQ |
-| [regulation_by](regulation_by.md) | TODO |
+| [regulation by](regulation_by.md) | TODO |
 | [regulator activity](regulator_activity.md) | TODO |
 | [single-organism process](single_organism_process.md) | TODO |
 | [transmembrane import into cytosol](transmembrane_import_into_cell.md) | TODO |

@@ -1,4 +1,4 @@
-# macromolecular_complex_binding
+# macromolecular complex binding
 
 [http://purl.obolibrary.org/obo/go/patterns/macromolecular_complex_binding.yaml](http://purl.obolibrary.org/obo/go/patterns/macromolecular_complex_binding.yaml)
 

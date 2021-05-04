@@ -1,4 +1,4 @@
-# negative_regulation
+# negative regulation
 
 [http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml)
 
