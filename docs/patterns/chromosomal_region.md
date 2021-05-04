@@ -1,4 +1,4 @@
-# chromosomal_region
+# chromosomal region
 
 [http://purl.obolibrary.org/obo/go/patterns/chromosomal_region.yaml](http://purl.obolibrary.org/obo/go/patterns/chromosomal_region.yaml)
 

@@ -1,4 +1,4 @@
-# involved_in_x_y
+# involved in x y
 
 [http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml](http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml)
 

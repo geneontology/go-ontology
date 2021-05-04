@@ -1,4 +1,4 @@
-# regulation_by
+# regulation by
 
 [http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml)
 
