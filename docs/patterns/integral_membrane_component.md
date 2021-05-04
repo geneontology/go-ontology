@@ -1,4 +1,4 @@
-# integral_membrane_component
+# integral membrane component
 
 [http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml](http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml)
 
@@ -14,12 +14,6 @@ TODO
 | Variable name | Allowed type |
 |:--------------|:-------------|
 | `{membrane}` | [membrane](http://purl.obolibrary.org/obo/GO_0016020) or [side of membrane](http://purl.obolibrary.org/obo/GO_0098552) |
-| `{exact_syn}` | xsd:string |
-| `{narrow_syn}` | xsd:string |
-| `{def_xrefs}` | xsd:string |
-| `{cross_references}` | xsd:string |
-| `{broad_syn}` | xsd:string |
-| `{related_syn}` | xsd:string |
 
 ## Name
 
@@ -28,7 +22,6 @@ TODO
 ## Annotations
 
 - [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace): "biological_process"^^[string](http://www.w3.org/2001/XMLSchema#string)
-- [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref): "`{cross_references}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Definition
 

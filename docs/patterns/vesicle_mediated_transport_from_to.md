@@ -1,6 +1,6 @@
-# vesicle-mediated_transport_from_to
+# vesicle-mediated transport from to
 
-[http://purl.obolibrary.org/obo/go/patterns/vesicle-mediated_transport_from_to.yaml](http://purl.obolibrary.org/obo/go/patterns/vesicle-mediated_transport_from_to.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml](http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml)
 
 ## Description
 
@@ -44,6 +44,5 @@ TODO
 
 | start_location_label | end_location | defined_class_label | end_location_label | start_location | defined_class |
 |:--|:--|:--|:--|:--|:--|
-| Golgi apparatus | [http://purl.obolibrary.org/obo/GO_0005886](http://purl.obolibrary.org/obo/GO_0005886) | Golgi to plasma membrane transport | plasma membrane | [http://purl.obolibrary.org/obo/GO_0005794](http://purl.obolibrary.org/obo/GO_0005794) | [http://purl.obolibrary.org/obo/GO_0006893](http://purl.obolibrary.org/obo/GO_0006893) |
 | endosome | [http://purl.obolibrary.org/obo/GO_0005768](http://purl.obolibrary.org/obo/GO_0005768) | vesicle-mediated transport between endosomal compartments | endosome | [http://purl.obolibrary.org/obo/GO_0005768](http://purl.obolibrary.org/obo/GO_0005768) | [http://purl.obolibrary.org/obo/GO_0098927](http://purl.obolibrary.org/obo/GO_0098927) |
 

@@ -1,4 +1,4 @@
-# x_morphogenesis
+# x morphogenesis
 
 [http://purl.obolibrary.org/obo/go/patterns/x_morphogenesis.yaml](http://purl.obolibrary.org/obo/go/patterns/x_morphogenesis.yaml)
 

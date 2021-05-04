@@ -1,13 +1,9 @@
 defined_class	defined_class_label	location	location_label	process	process_label
-http://purl.obolibrary.org/obo/GO_0086016	AV node cell action potential	http://purl.obolibrary.org/obo/CL_1000410	myocyte of atrioventricular node	http://purl.obolibrary.org/obo/GO_0001508	action potential
 http://purl.obolibrary.org/obo/GO_0002450	B cell antigen processing and presentation	http://purl.obolibrary.org/obo/CL_0000236	B cell	http://purl.obolibrary.org/obo/GO_0019882	antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_0002421	B cell antigen processing and presentation following pinocytosis	http://purl.obolibrary.org/obo/CL_0000236	B cell	http://purl.obolibrary.org/obo/GO_0002746	antigen processing and presentation following pinocytosis
 http://purl.obolibrary.org/obo/GO_0001783	B cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000236	B cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0050853	B cell receptor signaling pathway	http://purl.obolibrary.org/obo/CL_0000236	B cell	http://purl.obolibrary.org/obo/GO_0050851	antigen receptor-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0002514	B cell tolerance induction	http://purl.obolibrary.org/obo/CL_0000236	B cell	http://purl.obolibrary.org/obo/GO_0002507	tolerance induction
-http://purl.obolibrary.org/obo/GO_1904381	Golgi apparatus mannose trimming	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus	http://purl.obolibrary.org/obo/GO_0036508	protein alpha-1,2-demannosylation
-http://purl.obolibrary.org/obo/GO_0086017	Purkinje myocyte action potential	http://purl.obolibrary.org/obo/CL_0002068	Purkinje myocyte	http://purl.obolibrary.org/obo/GO_0001508	action potential
-http://purl.obolibrary.org/obo/GO_0086015	SA node cell action potential	http://purl.obolibrary.org/obo/CL_1000409	myocyte of sinoatrial node	http://purl.obolibrary.org/obo/GO_0001508	action potential
 http://purl.obolibrary.org/obo/GO_1902484	Sertoli cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000216	Sertoli cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0002457	T cell antigen processing and presentation	http://purl.obolibrary.org/obo/CL_0000084	T cell	http://purl.obolibrary.org/obo/GO_0019882	antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_0070231	T cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000084	T cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
@@ -16,23 +12,15 @@ http://purl.obolibrary.org/obo/GO_0002517	T cell tolerance induction	http://purl
 http://purl.obolibrary.org/obo/GO_0001507	acetylcholine catabolic process in synaptic cleft	http://purl.obolibrary.org/obo/GO_0043083	synaptic cleft	http://purl.obolibrary.org/obo/GO_0006581	acetylcholine catabolic process
 http://purl.obolibrary.org/obo/GO_1905398	activated CD4-positive, alpha-beta T cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000896	activated CD4-positive, alpha-beta T cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_1905397	activated CD8-positive, alpha-beta T cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000906	activated CD8-positive, alpha-beta T cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
-http://purl.obolibrary.org/obo/GO_0086014	atrial cardiac muscle cell action potential	http://purl.obolibrary.org/obo/CL_0002129	regular atrial cardiac myocyte	http://purl.obolibrary.org/obo/GO_0001508	action potential
-http://purl.obolibrary.org/obo/GO_0099624	atrial cardiac muscle cell membrane repolarization	http://purl.obolibrary.org/obo/CL_0002129	regular atrial cardiac myocyte	http://purl.obolibrary.org/obo/GO_0086009	membrane repolarization
 http://purl.obolibrary.org/obo/GO_0032291	axon ensheathment in central nervous system	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system	http://purl.obolibrary.org/obo/GO_0008366	axon ensheathment
 http://purl.obolibrary.org/obo/GO_0060404	axonemal microtubule depolymerization	http://purl.obolibrary.org/obo/GO_0005930	axoneme	http://purl.obolibrary.org/obo/GO_0007019	microtubule depolymerization
 http://purl.obolibrary.org/obo/GO_0036386	bacterial nucleoid DNA packaging	http://purl.obolibrary.org/obo/GO_0043590	bacterial nucleoid	http://purl.obolibrary.org/obo/GO_0006323	DNA packaging
 http://purl.obolibrary.org/obo/GO_0002561	basophil degranulation	http://purl.obolibrary.org/obo/CL_0000767	basophil	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
 http://purl.obolibrary.org/obo/GO_0097497	blood vessel endothelial cell delamination	http://purl.obolibrary.org/obo/CL_0000071	blood vessel endothelial cell	http://purl.obolibrary.org/obo/GO_0060232	delamination
-http://purl.obolibrary.org/obo/GO_0030709	border follicle cell delamination	http://purl.obolibrary.org/obo/CL_0000579	border follicle cell	http://purl.obolibrary.org/obo/GO_0060232	delamination
 http://purl.obolibrary.org/obo/GO_0021786	branchiomotor neuron axon guidance in neural tube	http://purl.obolibrary.org/obo/UBERON_0001049	neural tube	http://purl.obolibrary.org/obo/GO_0021785	branchiomotor neuron axon guidance
-http://purl.obolibrary.org/obo/GO_0086043	bundle of His cell action potential	http://purl.obolibrary.org/obo/CL_0010005	atrioventricular bundle cell	http://purl.obolibrary.org/obo/GO_0001508	action potential
 http://purl.obolibrary.org/obo/GO_0014887	cardiac muscle adaptation	http://purl.obolibrary.org/obo/UBERON_0001133	cardiac muscle tissue	http://purl.obolibrary.org/obo/GO_0043500	muscle adaptation
 http://purl.obolibrary.org/obo/GO_0014899	cardiac muscle atrophy	http://purl.obolibrary.org/obo/UBERON_0001133	cardiac muscle tissue	http://purl.obolibrary.org/obo/GO_0014889	muscle atrophy
-http://purl.obolibrary.org/obo/GO_0086001	cardiac muscle cell action potential	http://purl.obolibrary.org/obo/CL_0000746	cardiac muscle cell	http://purl.obolibrary.org/obo/GO_0001508	action potential
-http://purl.obolibrary.org/obo/GO_0010659	cardiac muscle cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000746	cardiac muscle cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
-http://purl.obolibrary.org/obo/GO_0099622	cardiac muscle cell membrane repolarization	http://purl.obolibrary.org/obo/CL_0000746	cardiac muscle cell	http://purl.obolibrary.org/obo/GO_0086009	membrane repolarization
 http://purl.obolibrary.org/obo/GO_0060048	cardiac muscle contraction	http://purl.obolibrary.org/obo/UBERON_0001133	cardiac muscle tissue	http://purl.obolibrary.org/obo/GO_0006936	muscle contraction
-http://purl.obolibrary.org/obo/GO_0021883	cell cycle arrest of committed forebrain neuronal progenitor cell	http://purl.obolibrary.org/obo/CL_1000042	forebrain neuroblast	http://purl.obolibrary.org/obo/GO_0007050	cell cycle arrest
 http://purl.obolibrary.org/obo/GO_0021533	cell differentiation in hindbrain	http://purl.obolibrary.org/obo/UBERON_0002028	hindbrain	http://purl.obolibrary.org/obo/GO_0030154	cell differentiation
 http://purl.obolibrary.org/obo/GO_0021515	cell differentiation in spinal cord	http://purl.obolibrary.org/obo/UBERON_0002240	spinal cord	http://purl.obolibrary.org/obo/GO_0030154	cell differentiation
 http://purl.obolibrary.org/obo/GO_0021535	cell migration in hindbrain	http://purl.obolibrary.org/obo/UBERON_0002028	hindbrain	http://purl.obolibrary.org/obo/GO_0016477	cell migration
@@ -45,6 +33,7 @@ http://purl.obolibrary.org/obo/GO_0019725	cellular homeostasis	http://purl.oboli
 http://purl.obolibrary.org/obo/GO_0032289	central nervous system myelin formation	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system	http://purl.obolibrary.org/obo/GO_0032288	myelin assembly
 http://purl.obolibrary.org/obo/GO_0032286	central nervous system myelin maintenance	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system	http://purl.obolibrary.org/obo/GO_0043217	myelin maintenance
 http://purl.obolibrary.org/obo/GO_0022010	central nervous system myelination	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system	http://purl.obolibrary.org/obo/GO_0042552	myelination
+http://purl.obolibrary.org/obo/GO_0120275	cerebral blood circulation	http://purl.obolibrary.org/obo/UBERON_0001893	telencephalon	http://purl.obolibrary.org/obo/GO_0008015	blood circulation
 http://purl.obolibrary.org/obo/GO_0021788	chemoattraction of branchiomotor neuron axon in neural tube	http://purl.obolibrary.org/obo/UBERON_0001049	neural tube	http://purl.obolibrary.org/obo/GO_0021792	chemoattraction of branchiomotor axon
 http://purl.obolibrary.org/obo/GO_0021787	chemorepulsion of branchiomotor neuron axon in neural tube	http://purl.obolibrary.org/obo/UBERON_0001049	neural tube	http://purl.obolibrary.org/obo/GO_0021793	chemorepulsion of branchiomotor axon
 http://purl.obolibrary.org/obo/GO_1902488	cholangiocyte apoptotic process	http://purl.obolibrary.org/obo/CL_1000488	cholangiocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
@@ -66,15 +55,12 @@ http://purl.obolibrary.org/obo/GO_1904380	endoplasmic reticulum mannose trimming
 http://purl.obolibrary.org/obo/GO_2000803	endosomal signal transduction	http://purl.obolibrary.org/obo/GO_0005768	endosome	http://purl.obolibrary.org/obo/GO_0007165	signal transduction
 http://purl.obolibrary.org/obo/GO_0072577	endothelial cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000115	endothelial cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0043308	eosinophil degranulation	http://purl.obolibrary.org/obo/CL_0000771	eosinophil	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
-http://purl.obolibrary.org/obo/GO_1904019	epithelial cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000066	epithelial cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_1902217	erythrocyte apoptotic process	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0001769	establishment of B cell polarity	http://purl.obolibrary.org/obo/CL_0000236	B cell	http://purl.obolibrary.org/obo/GO_0030010	establishment of cell polarity
 http://purl.obolibrary.org/obo/GO_0001768	establishment of T cell polarity	http://purl.obolibrary.org/obo/CL_0000084	T cell	http://purl.obolibrary.org/obo/GO_0030010	establishment of cell polarity
-http://purl.obolibrary.org/obo/GO_0090162	establishment of epithelial cell polarity	http://purl.obolibrary.org/obo/CL_0000066	epithelial cell	http://purl.obolibrary.org/obo/GO_0030010	establishment of cell polarity
 http://purl.obolibrary.org/obo/GO_0051649	establishment of localization in cell	http://purl.obolibrary.org/obo/CL_0000000	cell	http://purl.obolibrary.org/obo/GO_0051234	establishment of localization
 http://purl.obolibrary.org/obo/GO_0001767	establishment of lymphocyte polarity	http://purl.obolibrary.org/obo/CL_0000542	lymphocyte	http://purl.obolibrary.org/obo/GO_0030010	establishment of cell polarity
-http://purl.obolibrary.org/obo/GO_0001770	establishment of natural killer cell polarity	http://purl.obolibrary.org/obo/CL_0000623	natural killer cell	http://purl.obolibrary.org/obo/GO_0030010	establishment of cell polarity
-http://purl.obolibrary.org/obo/GO_0045200	establishment of neuroblast polarity	http://purl.obolibrary.org/obo/CL_0000031	neuroblast	http://purl.obolibrary.org/obo/GO_0030010	establishment of cell polarity
+http://purl.obolibrary.org/obo/GO_0045200	establishment of neuroblast polarity	http://purl.obolibrary.org/obo/CL_0000031	neuroblast (sensu Vertebrata)	http://purl.obolibrary.org/obo/GO_0030010	establishment of cell polarity
 http://purl.obolibrary.org/obo/GO_0006859	extracellular carbohydrate transport	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0008643	carbohydrate transport
 http://purl.obolibrary.org/obo/GO_1900116	extracellular negative regulation of signal transduction	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0009968	negative regulation of signal transduction
 http://purl.obolibrary.org/obo/GO_1900115	extracellular regulation of signal transduction	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0009966	regulation of signal transduction
@@ -92,44 +78,34 @@ http://purl.obolibrary.org/obo/GO_1903210	glomerular visceral epithelial cell ap
 http://purl.obolibrary.org/obo/GO_1904700	granulosa cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000501	granulosa cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_1990064	ground tissue pattern formation	http://purl.obolibrary.org/obo/PO_0025059	portion of ground tissue	http://purl.obolibrary.org/obo/GO_0007389	pattern specification process
 http://purl.obolibrary.org/obo/GO_0002384	hepatic immune response	http://purl.obolibrary.org/obo/UBERON_0002107	liver	http://purl.obolibrary.org/obo/GO_0006955	immune response
-http://purl.obolibrary.org/obo/GO_1902489	hepatoblast apoptotic process	http://purl.obolibrary.org/obo/CL_0005026	hepatoblast	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0097284	hepatocyte apoptotic process	http://purl.obolibrary.org/obo/CL_0000182	hepatocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0043133	hindgut contraction	http://purl.obolibrary.org/obo/UBERON_0001046	hindgut	http://purl.obolibrary.org/obo/GO_0006939	smooth muscle contraction
 http://purl.obolibrary.org/obo/GO_0110088	hippocampal neuron apoptotic process	http://purl.obolibrary.org/obo/CL_0002608	hippocampal neuron	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0002388	immune response in Peyer's patch	http://purl.obolibrary.org/obo/UBERON_0001211	Peyer's patch	http://purl.obolibrary.org/obo/GO_0006955	immune response
 http://purl.obolibrary.org/obo/GO_0002387	immune response in gut-associated lymphoid tissue	http://purl.obolibrary.org/obo/UBERON_0001962	gut-associated lymphoid tissue	http://purl.obolibrary.org/obo/GO_0006955	immune response
-http://purl.obolibrary.org/obo/GO_0002386	immune response in mucosal-associated lymphoid tissue	http://purl.obolibrary.org/obo/UBERON_0001961	mucosa-associated lymphoid tissue	http://purl.obolibrary.org/obo/GO_0006955	immune response
 http://purl.obolibrary.org/obo/GO_0002395	immune response in nasopharyngeal-associated lymphoid tissue	http://purl.obolibrary.org/obo/UBERON_0012330	nasal-associated lymphoid tissue	http://purl.obolibrary.org/obo/GO_0006955	immune response
 http://purl.obolibrary.org/obo/GO_0010450	inflorescence meristem growth	http://purl.obolibrary.org/obo/PO_0000230	inflorescence meristem	http://purl.obolibrary.org/obo/GO_0048589	developmental growth
 http://purl.obolibrary.org/obo/GO_0002227	innate immune response in mucosa	http://purl.obolibrary.org/obo/UBERON_0000344	mucosa	http://purl.obolibrary.org/obo/GO_0045087	innate immune response
-http://purl.obolibrary.org/obo/GO_0080162	intracellular auxin transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular	http://purl.obolibrary.org/obo/GO_0060918	auxin transport
-http://purl.obolibrary.org/obo/GO_0097580	intracellular sequestering of copper ion	http://purl.obolibrary.org/obo/GO_0005622	intracellular	http://purl.obolibrary.org/obo/GO_0097578	sequestering of copper ion
-http://purl.obolibrary.org/obo/GO_0035556	intracellular signal transduction	http://purl.obolibrary.org/obo/GO_0005622	intracellular	http://purl.obolibrary.org/obo/GO_0007165	signal transduction
-http://purl.obolibrary.org/obo/GO_0046907	intracellular transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular	http://purl.obolibrary.org/obo/GO_0006810	transport
+http://purl.obolibrary.org/obo/GO_0080162	intracellular auxin transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0060918	auxin transport
+http://purl.obolibrary.org/obo/GO_0097580	intracellular sequestering of copper ion	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0097578	sequestering of copper ion
+http://purl.obolibrary.org/obo/GO_0035556	intracellular signal transduction	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0007165	signal transduction
+http://purl.obolibrary.org/obo/GO_0046907	intracellular transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0006810	transport
 http://purl.obolibrary.org/obo/GO_0075733	intracellular transport of virus	http://purl.obolibrary.org/obo/GO_0043657	host cell	http://purl.obolibrary.org/obo/GO_0046794	transport of virus
 http://purl.obolibrary.org/obo/GO_0097283	keratinocyte apoptotic process	http://purl.obolibrary.org/obo/CL_0000312	keratinocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_1990086	lens fiber cell apoptotic process	http://purl.obolibrary.org/obo/CL_0011004	lens fiber cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0071887	leukocyte apoptotic process	http://purl.obolibrary.org/obo/CL_0000738	leukocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0043299	leukocyte degranulation	http://purl.obolibrary.org/obo/CL_0000738	leukocyte	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
-http://purl.obolibrary.org/obo/GO_0051668	localization within membrane	http://purl.obolibrary.org/obo/GO_0016020	membrane	http://purl.obolibrary.org/obo/GO_0051179	localization
 http://purl.obolibrary.org/obo/GO_0070227	lymphocyte apoptotic process	http://purl.obolibrary.org/obo/CL_0000542	lymphocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
-http://purl.obolibrary.org/obo/GO_1905146	lysosomal protein catabolic process	http://purl.obolibrary.org/obo/GO_0005764	lysosome	http://purl.obolibrary.org/obo/GO_0044257	cellular protein catabolic process
 http://purl.obolibrary.org/obo/GO_0002472	macrophage antigen processing and presentation	http://purl.obolibrary.org/obo/CL_0000235	macrophage	http://purl.obolibrary.org/obo/GO_0019882	antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_0071888	macrophage apoptotic process	http://purl.obolibrary.org/obo/CL_0000235	macrophage	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0010934	macrophage cytokine production	http://purl.obolibrary.org/obo/CL_0000235	macrophage	http://purl.obolibrary.org/obo/GO_0001816	cytokine production
 http://purl.obolibrary.org/obo/GO_0010931	macrophage tolerance induction	http://purl.obolibrary.org/obo/CL_0000235	macrophage	http://purl.obolibrary.org/obo/GO_0002507	tolerance induction
 http://purl.obolibrary.org/obo/GO_0051651	maintenance of location in cell	http://purl.obolibrary.org/obo/CL_0000000	cell	http://purl.obolibrary.org/obo/GO_0051235	maintenance of location
-http://purl.obolibrary.org/obo/GO_0045201	maintenance of neuroblast polarity	http://purl.obolibrary.org/obo/CL_0000031	neuroblast	http://purl.obolibrary.org/obo/GO_0030011	maintenance of cell polarity
+http://purl.obolibrary.org/obo/GO_0045201	maintenance of neuroblast polarity	http://purl.obolibrary.org/obo/CL_0000031	neuroblast (sensu Vertebrata)	http://purl.obolibrary.org/obo/GO_0030011	maintenance of cell polarity
 http://purl.obolibrary.org/obo/GO_0099017	maintenance of protein localization at cell tip	http://purl.obolibrary.org/obo/GO_0051286	cell tip	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
 http://purl.obolibrary.org/obo/GO_0099019	maintenance of protein localization at growing cell tip	http://purl.obolibrary.org/obo/GO_0035838	growing cell tip	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
-http://purl.obolibrary.org/obo/GO_0035437	maintenance of protein localization in endoplasmic reticulum	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
 http://purl.obolibrary.org/obo/GO_0072595	maintenance of protein localization in organelle	http://purl.obolibrary.org/obo/GO_0043226	organelle	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
 http://purl.obolibrary.org/obo/GO_0032507	maintenance of protein location in cell	http://purl.obolibrary.org/obo/CL_0000000	cell	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
-http://purl.obolibrary.org/obo/GO_0072597	maintenance of protein location in chloroplast	http://purl.obolibrary.org/obo/GO_0009507	chloroplast	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
-http://purl.obolibrary.org/obo/GO_0072656	maintenance of protein location in mitochondrion	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
-http://purl.obolibrary.org/obo/GO_0051457	maintenance of protein location in nucleus	http://purl.obolibrary.org/obo/GO_0005634	nucleus	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
-http://purl.obolibrary.org/obo/GO_0072664	maintenance of protein location in peroxisome	http://purl.obolibrary.org/obo/GO_0005777	peroxisome	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
-http://purl.obolibrary.org/obo/GO_0072667	maintenance of protein location in vacuole	http://purl.obolibrary.org/obo/GO_0005773	vacuole	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
 http://purl.obolibrary.org/obo/GO_0071990	maintenance of protein location to spindle pole body	http://purl.obolibrary.org/obo/GO_0005816	spindle pole body	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
 http://purl.obolibrary.org/obo/GO_0033024	mast cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000097	mast cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0032762	mast cell cytokine production	http://purl.obolibrary.org/obo/CL_0000097	mast cell	http://purl.obolibrary.org/obo/GO_0001816	cytokine production
@@ -137,45 +113,6 @@ http://purl.obolibrary.org/obo/GO_0002901	mature B cell apoptotic process	http:/
 http://purl.obolibrary.org/obo/GO_1902362	melanocyte apoptotic process	http://purl.obolibrary.org/obo/CL_0000148	melanocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0035266	meristem growth	http://purl.obolibrary.org/obo/PO_0009013	portion of meristem tissue	http://purl.obolibrary.org/obo/GO_0048589	developmental growth
 http://purl.obolibrary.org/obo/GO_0097152	mesenchymal cell apoptotic process	http://purl.obolibrary.org/obo/CL_0008019	mesenchymal cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
-http://purl.obolibrary.org/obo/GO_0042775	mitochondrial ATP synthesis coupled electron transport	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0042773	ATP synthesis coupled electron transport
-http://purl.obolibrary.org/obo/GO_0042776	mitochondrial ATP synthesis coupled proton transport	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0015986	ATP synthesis coupled proton transport
-http://purl.obolibrary.org/obo/GO_0032043	mitochondrial DNA catabolic process	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006308	DNA catabolic process
-http://purl.obolibrary.org/obo/GO_0032042	mitochondrial DNA metabolic process	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006259	DNA metabolic process
-http://purl.obolibrary.org/obo/GO_0090139	mitochondrial DNA packaging	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006323	DNA packaging
-http://purl.obolibrary.org/obo/GO_0043504	mitochondrial DNA repair	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006281	DNA repair
-http://purl.obolibrary.org/obo/GO_0006264	mitochondrial DNA replication	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006260	DNA replication
-http://purl.obolibrary.org/obo/GO_0000957	mitochondrial RNA catabolic process	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006401	RNA catabolic process
-http://purl.obolibrary.org/obo/GO_0019093	mitochondrial RNA localization	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006403	RNA localization
-http://purl.obolibrary.org/obo/GO_2000827	mitochondrial RNA surveillance	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0071025	RNA surveillance
-http://purl.obolibrary.org/obo/GO_0070143	mitochondrial alanyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006419	alanyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070144	mitochondrial arginyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006420	arginyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070145	mitochondrial asparaginyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006421	asparaginyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070146	mitochondrial aspartyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006422	aspartyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070147	mitochondrial cysteinyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006423	cysteinyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0051882	mitochondrial depolarization	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0051899	membrane depolarization
-http://purl.obolibrary.org/obo/GO_0070148	mitochondrial glutaminyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006425	glutaminyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070149	mitochondrial glutamyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006424	glutamyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070150	mitochondrial glycyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006426	glycyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070151	mitochondrial histidyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006427	histidyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070152	mitochondrial isoleucyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006428	isoleucyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070153	mitochondrial leucyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006429	leucyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070154	mitochondrial lysyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006430	lysyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_1990613	mitochondrial membrane fusion	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0061025	membrane fusion
-http://purl.obolibrary.org/obo/GO_0007006	mitochondrial membrane organization	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0061024	membrane organization
-http://purl.obolibrary.org/obo/GO_0070155	mitochondrial methionyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006431	methionyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0090144	mitochondrial nucleoid organization	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0090143	nucleoid organization
-http://purl.obolibrary.org/obo/GO_0070156	mitochondrial phenylalanyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006432	phenylalanyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070157	mitochondrial prolyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006433	prolyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0034982	mitochondrial protein processing	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0016485	protein processing
-http://purl.obolibrary.org/obo/GO_0070158	mitochondrial seryl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006434	seryl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070901	mitochondrial tRNA methylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0030488	tRNA methylation
-http://purl.obolibrary.org/obo/GO_0070159	mitochondrial threonyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006435	threonyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070125	mitochondrial translational elongation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006414	translational elongation
-http://purl.obolibrary.org/obo/GO_0070124	mitochondrial translational initiation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006413	translational initiation
-http://purl.obolibrary.org/obo/GO_0070183	mitochondrial tryptophanyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006436	tryptophanyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070184	mitochondrial tyrosyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006437	tyrosyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0070185	mitochondrial valyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006438	valyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_1905951	mitochondrion DNA recombination	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006310	DNA recombination
 http://purl.obolibrary.org/obo/GO_0002471	monocyte antigen processing and presentation	http://purl.obolibrary.org/obo/CL_0000576	monocyte	http://purl.obolibrary.org/obo/GO_0019882	antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_0097049	motor neuron apoptotic process	http://purl.obolibrary.org/obo/CL_0000100	motor neuron	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0008045	motor neuron axon guidance	http://purl.obolibrary.org/obo/CL_0000100	motor neuron	http://purl.obolibrary.org/obo/GO_0007411	axon guidance
@@ -187,10 +124,7 @@ http://purl.obolibrary.org/obo/GO_0002469	myeloid dendritic cell antigen process
 http://purl.obolibrary.org/obo/GO_0014714	myoblast fate commitment in head	http://purl.obolibrary.org/obo/UBERON_0000033	head	http://purl.obolibrary.org/obo/GO_0048625	myoblast fate commitment
 http://purl.obolibrary.org/obo/GO_0014715	myoblast fate commitment in trunk	http://purl.obolibrary.org/obo/UBERON_0002100	trunk	http://purl.obolibrary.org/obo/GO_0048625	myoblast fate commitment
 http://purl.obolibrary.org/obo/GO_1904516	myofibroblast cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000186	myofibroblast cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
-http://purl.obolibrary.org/obo/GO_0070246	natural killer cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000623	natural killer cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
-http://purl.obolibrary.org/obo/GO_0043320	natural killer cell degranulation	http://purl.obolibrary.org/obo/CL_0000623	natural killer cell	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
-http://purl.obolibrary.org/obo/GO_0002519	natural killer cell tolerance induction	http://purl.obolibrary.org/obo/CL_0000623	natural killer cell	http://purl.obolibrary.org/obo/GO_0002507	tolerance induction
-http://purl.obolibrary.org/obo/GO_0060234	neuroblast delamination	http://purl.obolibrary.org/obo/CL_0000031	neuroblast	http://purl.obolibrary.org/obo/GO_0060232	delamination
+http://purl.obolibrary.org/obo/GO_0060234	neuroblast delamination	http://purl.obolibrary.org/obo/CL_0000031	neuroblast (sensu Vertebrata)	http://purl.obolibrary.org/obo/GO_0060232	delamination
 http://purl.obolibrary.org/obo/GO_0051402	neuron apoptotic process	http://purl.obolibrary.org/obo/CL_0000540	neuron	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0070050	neuron cellular homeostasis	http://purl.obolibrary.org/obo/CL_0000540	neuron	http://purl.obolibrary.org/obo/GO_0019725	cellular homeostasis
 http://purl.obolibrary.org/obo/GO_0070997	neuron death	http://purl.obolibrary.org/obo/CL_0000540	neuron	http://purl.obolibrary.org/obo/GO_0008219	cell death
@@ -204,9 +138,7 @@ http://purl.obolibrary.org/obo/GO_0019228	neuronal action potential	http://purl.
 http://purl.obolibrary.org/obo/GO_0001781	neutrophil apoptotic process	http://purl.obolibrary.org/obo/CL_0000775	neutrophil	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0043312	neutrophil degranulation	http://purl.obolibrary.org/obo/CL_0000775	neutrophil	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
 http://purl.obolibrary.org/obo/GO_0032293	non-myelinated axon ensheathment in central nervous system	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system	http://purl.obolibrary.org/obo/GO_0032285	non-myelinated axon ensheathment
-http://purl.obolibrary.org/obo/GO_0071027	nuclear RNA surveillance	http://purl.obolibrary.org/obo/GO_0005634	nucleus	http://purl.obolibrary.org/obo/GO_0071025	RNA surveillance
 http://purl.obolibrary.org/obo/GO_0036385	nucleoid DNA packaging	http://purl.obolibrary.org/obo/GO_0009295	nucleoid	http://purl.obolibrary.org/obo/GO_0006323	DNA packaging
-http://purl.obolibrary.org/obo/GO_0060233	oenocyte delamination	http://purl.obolibrary.org/obo/CL_0000487	oenocyte	http://purl.obolibrary.org/obo/GO_0060232	delamination
 http://purl.obolibrary.org/obo/GO_0071678	olfactory bulb axon guidance	http://purl.obolibrary.org/obo/CL_1001434	olfactory bulb interneuron	http://purl.obolibrary.org/obo/GO_0007411	axon guidance
 http://purl.obolibrary.org/obo/GO_0097252	oligodendrocyte apoptotic process	http://purl.obolibrary.org/obo/CL_0000128	oligodendrocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0007314	oocyte anterior/posterior axis specification	http://purl.obolibrary.org/obo/CL_0000023	oocyte	http://purl.obolibrary.org/obo/GO_0009948	anterior/posterior axis specification
@@ -222,19 +154,12 @@ http://purl.obolibrary.org/obo/GO_0080172	petal epidermis patterning	http://purl
 http://purl.obolibrary.org/obo/GO_0080175	phragmoplast microtubule organization	http://purl.obolibrary.org/obo/GO_0009524	phragmoplast	http://purl.obolibrary.org/obo/GO_0000226	microtubule cytoskeleton organization
 http://purl.obolibrary.org/obo/GO_0042774	plasma membrane ATP synthesis coupled electron transport	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane	http://purl.obolibrary.org/obo/GO_0042773	ATP synthesis coupled electron transport
 http://purl.obolibrary.org/obo/GO_0002470	plasmacytoid dendritic cell antigen processing and presentation	http://purl.obolibrary.org/obo/CL_0000784	plasmacytoid dendritic cell	http://purl.obolibrary.org/obo/GO_0019882	antigen processing and presentation
-http://purl.obolibrary.org/obo/GO_1900160	plastid DNA packaging	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006323	DNA packaging
-http://purl.obolibrary.org/obo/GO_0033259	plastid DNA replication	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006261	DNA-dependent DNA replication
-http://purl.obolibrary.org/obo/GO_0032544	plastid translation	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006412	translation
 http://purl.obolibrary.org/obo/GO_0002576	platelet degranulation	http://purl.obolibrary.org/obo/CL_0000233	platelet	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
 http://purl.obolibrary.org/obo/GO_0099170	postsynaptic modulation of chemical synaptic transmission	http://purl.obolibrary.org/obo/GO_0098794	postsynapse	http://purl.obolibrary.org/obo/GO_0050804	modulation of chemical synaptic transmission
 http://purl.obolibrary.org/obo/GO_0099630	postsynaptic neurotransmitter receptor cycle	http://purl.obolibrary.org/obo/GO_0098794	postsynapse	http://purl.obolibrary.org/obo/GO_0099627	neurotransmitter receptor cycle
 http://purl.obolibrary.org/obo/GO_0099171	presynaptic modulation of chemical synaptic transmission	http://purl.obolibrary.org/obo/GO_0098793	presynapse	http://purl.obolibrary.org/obo/GO_0050804	modulation of chemical synaptic transmission
-http://purl.obolibrary.org/obo/GO_0033581	protein galactosylation in Golgi	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus	http://purl.obolibrary.org/obo/GO_0042125	protein galactosylation
 http://purl.obolibrary.org/obo/GO_0033582	protein galactosylation in cytosol	http://purl.obolibrary.org/obo/GO_0005829	cytosol	http://purl.obolibrary.org/obo/GO_0042125	protein galactosylation
-http://purl.obolibrary.org/obo/GO_0033579	protein galactosylation in endoplasmic reticulum	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum	http://purl.obolibrary.org/obo/GO_0042125	protein galactosylation
-http://purl.obolibrary.org/obo/GO_0033578	protein glycosylation in Golgi	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus	http://purl.obolibrary.org/obo/GO_0006486	protein glycosylation
 http://purl.obolibrary.org/obo/GO_0033576	protein glycosylation in cytosol	http://purl.obolibrary.org/obo/GO_0005829	cytosol	http://purl.obolibrary.org/obo/GO_0006486	protein glycosylation
-http://purl.obolibrary.org/obo/GO_0033577	protein glycosylation in endoplasmic reticulum	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum	http://purl.obolibrary.org/obo/GO_0006486	protein glycosylation
 http://purl.obolibrary.org/obo/GO_1900756	protein processing in phagocytic vesicle	http://purl.obolibrary.org/obo/GO_0045335	phagocytic vesicle	http://purl.obolibrary.org/obo/GO_0016485	protein processing
 http://purl.obolibrary.org/obo/GO_0032594	protein transport within lipid bilayer	http://purl.obolibrary.org/obo/GO_0016020	membrane	http://purl.obolibrary.org/obo/GO_0015031	protein transport
 http://purl.obolibrary.org/obo/GO_0101010	pulmonary blood vessel remodeling	http://purl.obolibrary.org/obo/UBERON_0008886	pulmonary vascular system	http://purl.obolibrary.org/obo/GO_0001974	blood vessel remodeling
@@ -247,9 +172,7 @@ http://purl.obolibrary.org/obo/GO_0003091	renal water homeostasis	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0003092	renal water retention	http://purl.obolibrary.org/obo/UBERON_0001008	renal system	http://purl.obolibrary.org/obo/GO_0035811	negative regulation of urine volume
 http://purl.obolibrary.org/obo/GO_0003097	renal water transport	http://purl.obolibrary.org/obo/UBERON_0001008	renal system	http://purl.obolibrary.org/obo/GO_0006833	water transport
 http://purl.obolibrary.org/obo/GO_1990009	retinal cell apoptotic process	http://purl.obolibrary.org/obo/CL_0009004	retinal cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
-http://purl.obolibrary.org/obo/GO_0097474	retinal cone cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000573	retinal cone cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0031290	retinal ganglion cell axon guidance	http://purl.obolibrary.org/obo/CL_0000740	retinal ganglion cell	http://purl.obolibrary.org/obo/GO_0007411	axon guidance
-http://purl.obolibrary.org/obo/GO_0097473	retinal rod cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000604	retinal rod cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0010449	root meristem growth	http://purl.obolibrary.org/obo/PO_0006085	root meristem	http://purl.obolibrary.org/obo/GO_0048589	developmental growth
 http://purl.obolibrary.org/obo/GO_0080112	seed growth	http://purl.obolibrary.org/obo/PO_0009010	seed	http://purl.obolibrary.org/obo/GO_0048589	developmental growth
 http://purl.obolibrary.org/obo/GO_0036515	serotonergic neuron axon guidance	http://purl.obolibrary.org/obo/CL_0000850	serotonergic neuron	http://purl.obolibrary.org/obo/GO_0007411	axon guidance
@@ -258,7 +181,6 @@ http://purl.obolibrary.org/obo/GO_0043501	skeletal muscle adaptation	http://purl
 http://purl.obolibrary.org/obo/GO_0014732	skeletal muscle atrophy	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue	http://purl.obolibrary.org/obo/GO_0014889	muscle atrophy
 http://purl.obolibrary.org/obo/GO_0003009	skeletal muscle contraction	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue	http://purl.obolibrary.org/obo/GO_0006936	muscle contraction
 http://purl.obolibrary.org/obo/GO_0014734	skeletal muscle hypertrophy	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue	http://purl.obolibrary.org/obo/GO_0014896	muscle hypertrophy
-http://purl.obolibrary.org/obo/GO_0014866	skeletal myofibril assembly	http://purl.obolibrary.org/obo/CL_0000188	cell of skeletal muscle	http://purl.obolibrary.org/obo/GO_0030239	myofibril assembly
 http://purl.obolibrary.org/obo/GO_1990770	small intestine smooth muscle contraction	http://purl.obolibrary.org/obo/UBERON_0002108	small intestine	http://purl.obolibrary.org/obo/GO_0006939	smooth muscle contraction
 http://purl.obolibrary.org/obo/GO_0014805	smooth muscle adaptation	http://purl.obolibrary.org/obo/UBERON_0001135	smooth muscle tissue	http://purl.obolibrary.org/obo/GO_0043500	muscle adaptation
 http://purl.obolibrary.org/obo/GO_0014890	smooth muscle atrophy	http://purl.obolibrary.org/obo/UBERON_0001135	smooth muscle tissue	http://purl.obolibrary.org/obo/GO_0014889	muscle atrophy
@@ -268,7 +190,7 @@ http://purl.obolibrary.org/obo/GO_0014806	smooth muscle hyperplasia	http://purl.
 http://purl.obolibrary.org/obo/GO_0014895	smooth muscle hypertrophy	http://purl.obolibrary.org/obo/UBERON_0001135	smooth muscle tissue	http://purl.obolibrary.org/obo/GO_0014896	muscle hypertrophy
 http://purl.obolibrary.org/obo/GO_0099123	somato-dendritic dopamine secretion	http://purl.obolibrary.org/obo/GO_0036477	somatodendritic compartment	http://purl.obolibrary.org/obo/GO_0014046	dopamine secretion
 http://purl.obolibrary.org/obo/GO_0007288	sperm axoneme assembly	http://purl.obolibrary.org/obo/CL_0000019	sperm	http://purl.obolibrary.org/obo/GO_0035082	axoneme assembly
-http://purl.obolibrary.org/obo/GO_0035040	sperm nuclear envelope removal	http://purl.obolibrary.org/obo/CL_0000019	sperm	http://purl.obolibrary.org/obo/GO_0051081	nuclear envelope disassembly
+http://purl.obolibrary.org/obo/GO_0035040	sperm nuclear envelope removal	http://purl.obolibrary.org/obo/CL_0000019	sperm	http://purl.obolibrary.org/obo/GO_0051081	nuclear membrane disassembly
 http://purl.obolibrary.org/obo/GO_0010375	stomatal complex patterning	http://purl.obolibrary.org/obo/PO_0002000	stomatal complex	http://purl.obolibrary.org/obo/GO_0007389	pattern specification process
 http://purl.obolibrary.org/obo/GO_0014888	striated muscle adaptation	http://purl.obolibrary.org/obo/UBERON_0002036	striated muscle tissue	http://purl.obolibrary.org/obo/GO_0043500	muscle adaptation
 http://purl.obolibrary.org/obo/GO_0014891	striated muscle atrophy	http://purl.obolibrary.org/obo/UBERON_0002036	striated muscle tissue	http://purl.obolibrary.org/obo/GO_0014889	muscle atrophy
@@ -287,10 +209,7 @@ http://purl.obolibrary.org/obo/GO_0140236	translation at presynapse	http://purl.
 http://purl.obolibrary.org/obo/GO_0140241	translation at synapse	http://purl.obolibrary.org/obo/GO_0045202	synapse	http://purl.obolibrary.org/obo/GO_0006412	translation
 http://purl.obolibrary.org/obo/GO_0097050	type B pancreatic cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000169	type B pancreatic cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0072105	ureteric peristalsis	http://purl.obolibrary.org/obo/UBERON_0000056	ureter	http://purl.obolibrary.org/obo/GO_0030432	peristalsis
-http://purl.obolibrary.org/obo/GO_0006624	vacuolar protein processing	http://purl.obolibrary.org/obo/GO_0005773	vacuole	http://purl.obolibrary.org/obo/GO_0016485	protein processing
 http://purl.obolibrary.org/obo/GO_1905288	vascular associated smooth muscle cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000359	vascular associated smooth muscle cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
-http://purl.obolibrary.org/obo/GO_0086005	ventricular cardiac muscle cell action potential	http://purl.obolibrary.org/obo/CL_0002131	regular ventricular cardiac myocyte	http://purl.obolibrary.org/obo/GO_0001508	action potential
-http://purl.obolibrary.org/obo/GO_0099625	ventricular cardiac muscle cell membrane repolarization	http://purl.obolibrary.org/obo/CL_0002131	regular ventricular cardiac myocyte	http://purl.obolibrary.org/obo/GO_0086009	membrane repolarization
 http://purl.obolibrary.org/obo/GO_0099003	vesicle-mediated transport in synapse	http://purl.obolibrary.org/obo/GO_0045202	synapse	http://purl.obolibrary.org/obo/GO_0016192	vesicle-mediated transport
 http://purl.obolibrary.org/obo/GO_0010051	xylem and phloem pattern formation	http://purl.obolibrary.org/obo/PO_0009015	portion of vascular tissue	http://purl.obolibrary.org/obo/GO_0007389	pattern specification process
 http://purl.obolibrary.org/obo/GO_0007354	zygotic determination of anterior/posterior axis, embryo	http://purl.obolibrary.org/obo/CL_0000365	animal zygote	http://purl.obolibrary.org/obo/GO_0008595	anterior/posterior axis specification, embryo

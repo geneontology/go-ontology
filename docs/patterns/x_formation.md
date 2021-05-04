@@ -1,4 +1,4 @@
-# x_formation
+# x formation
 
 [http://purl.obolibrary.org/obo/go/patterns/x_formation.yaml](http://purl.obolibrary.org/obo/go/patterns/x_formation.yaml)
 

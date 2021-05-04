@@ -1,4 +1,4 @@
-# cc_organization
+# cc organization
 
 [http://purl.obolibrary.org/obo/go/patterns/cc_organization.yaml](http://purl.obolibrary.org/obo/go/patterns/cc_organization.yaml)
 
@@ -14,12 +14,6 @@ TODO
 | Variable name | Allowed type |
 |:--------------|:-------------|
 | `{component}` | [cellular_component](http://purl.obolibrary.org/obo/GO_0005575) |
-| `{exact_syn}` | xsd:string |
-| `{narrow_syn}` | xsd:string |
-| `{def_xrefs}` | xsd:string |
-| `{cross_references}` | xsd:string |
-| `{broad_syn}` | xsd:string |
-| `{related_syn}` | xsd:string |
 
 ## Name
 
@@ -35,14 +29,14 @@ TODO
 
 ## Equivalent to
 
-[cellular process](http://purl.obolibrary.org/obo/GO_0009987)  and ([results_in_organization_of](http://purl.obolibrary.org/obo/RO_0002592) some `{component}`)
+[cellular process](http://purl.obolibrary.org/obo/GO_0009987)  and ([results in organization of](http://purl.obolibrary.org/obo/RO_0002592) some `{component}`)
 
 
 
 
 ## Other axioms
 
-- [cellular process](http://purl.obolibrary.org/obo/GO_0009987) and ([results_in_organization_of](http://purl.obolibrary.org/obo/RO_0002592) some ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some `{component}`)) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some  ([cellular process](http://purl.obolibrary.org/obo/GO_0009987) and ([results_in_organization_of](http://purl.obolibrary.org/obo/RO_0002592) some `{component}`))
+- [cellular process](http://purl.obolibrary.org/obo/GO_0009987) and ([results in organization of](http://purl.obolibrary.org/obo/RO_0002592) some ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some `{component}`)) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some  ([cellular process](http://purl.obolibrary.org/obo/GO_0009987) and ([results in organization of](http://purl.obolibrary.org/obo/RO_0002592) some `{component}`))
 
 ## Data preview
 

@@ -1,4 +1,4 @@
-pattern_name: cc_assembly
+pattern_name: cc assembly
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml
 
@@ -13,16 +13,7 @@ relations:
 
 vars:
  'target': "'cellular component'"
- 
-# Boilerplate - don't edit
-data_list_vars:
-  def_xrefs: "xsd:string"
-  cross_references: "xsd:string"
-  exact_syn: "xsd:string"
-  narrow_syn: "xsd:string"
-  broad_syn: "xsd:string"
-  related_syn: "xsd:string"
-  
+
 name:
      text: "%s assembly"
      vars:
@@ -32,12 +23,6 @@ def:
   text: "The aggregation, arrangement and bonding together of a set of components to form %s." 
   vars:
      - 'target'
-  xrefs: # Boilerplate - don't edit
-    value: def_xrefs
-
-# Boilerplate - don't edit
-xref: 
-  value: cross_references
 
 namespace: 
   text: 'biological_process'  # e.g. biological_process, quoting is optional
@@ -51,17 +36,7 @@ equivalentTo:
   text: " 'cellular component assembly' and 'results_in_assembly_of' some %s "
   vars:
     - 'target'
-    
-# Boilerplate - don't edit
-exact_synonyms: 
-   value: exact_syn
-narrow_synonyms: 
-   value: narrow_syn
-broad_synonyms: 
-   value: broad_syn
-related_synonyms: 
-   value: related_syn
-   
+
 generated_synonyms:
    - 
       text: "%s formation"

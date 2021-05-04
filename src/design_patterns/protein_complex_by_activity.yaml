@@ -1,4 +1,4 @@
-pattern_name: protein_complex_by_activity
+pattern_name: protein complex by activity
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml
 
@@ -28,4 +28,3 @@ equivalentTo:
   text: " 'protein complex' and 'capable of' some %s "
   vars:
     - function
-    

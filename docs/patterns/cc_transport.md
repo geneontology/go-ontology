@@ -1,4 +1,4 @@
-# cc_transport
+# cc transport
 
 [http://purl.obolibrary.org/obo/go/patterns/cc_transport.yaml](http://purl.obolibrary.org/obo/go/patterns/cc_transport.yaml)
 
@@ -14,12 +14,6 @@ TODO
 | Variable name | Allowed type |
 |:--------------|:-------------|
 | `{cellular component}` | [cellular_component](http://purl.obolibrary.org/obo/GO_0005575) |
-| `{exact_syn}` | xsd:string |
-| `{narrow_syn}` | xsd:string |
-| `{def_xrefs}` | xsd:string |
-| `{cross_references}` | xsd:string |
-| `{broad_syn}` | xsd:string |
-| `{related_syn}` | xsd:string |
 
 ## Name
 
@@ -28,7 +22,6 @@ TODO
 ## Annotations
 
 - [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace): "biological_process"^^[string](http://www.w3.org/2001/XMLSchema#string)
-- [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref): "`{cross_references}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Definition
 
@@ -54,5 +47,4 @@ TODO
 | [http://purl.obolibrary.org/obo/GO_0051904](http://purl.obolibrary.org/obo/GO_0051904) | pigment granule transport | [http://purl.obolibrary.org/obo/GO_0048770](http://purl.obolibrary.org/obo/GO_0048770) | pigment granule |
 | [http://purl.obolibrary.org/obo/GO_0015869](http://purl.obolibrary.org/obo/GO_0015869) | protein-DNA complex transport | [http://purl.obolibrary.org/obo/GO_0032993](http://purl.obolibrary.org/obo/GO_0032993) | protein-DNA complex |
 | [http://purl.obolibrary.org/obo/GO_0048489](http://purl.obolibrary.org/obo/GO_0048489) | synaptic vesicle transport | [http://purl.obolibrary.org/obo/GO_0008021](http://purl.obolibrary.org/obo/GO_0008021) | synaptic vesicle |
-| [http://purl.obolibrary.org/obo/GO_0046794](http://purl.obolibrary.org/obo/GO_0046794) | transport of virus | [http://purl.obolibrary.org/obo/GO_0019012](http://purl.obolibrary.org/obo/GO_0019012) | virion |
 

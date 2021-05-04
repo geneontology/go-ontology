@@ -1,4 +1,4 @@
-# x_development
+# x development
 
 [http://purl.obolibrary.org/obo/go/patterns/x_development.yaml](http://purl.obolibrary.org/obo/go/patterns/x_development.yaml)
 

@@ -1,4 +1,4 @@
-pattern_name: import_across_membrane
+pattern_name: import across membrane
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml
 
@@ -25,15 +25,6 @@ vars:
   start: "cellular_component"
   end: "cellular_component"
 
-# Boilerplate - don't edit
-data_list_vars:
-  def_xrefs: "xsd:string"
-  cross_references: "xsd:string"
-  exact_syn: "xsd:string"
-  narrow_syn: "xsd:string"
-  broad_syn: "xsd:string"
-  related_syn: "xsd:string"
-  
 name:
   text: "%s import across %s" 
   vars:
@@ -47,7 +38,6 @@ def:
     - 'start'
     - 'membrane'
     - 'end'
-  xrefs: def_xrefs
 
 comment: 
   text: "This term covers %s *across* the %s through a channel or pore. It does not cover import via vesicle fusion with %s or vesiculation, as in these cases transport does not involve crossing the membrane."
@@ -55,10 +45,6 @@ comment:
     - 'cargo'
     - 'membrane'
     - 'membrane'
-
-# Boilerplate - don't edit
-xref: 
-   value: cross_references
 
 namespace: 
   text: 'biological_process'
@@ -70,14 +56,3 @@ equivalentTo:
     - 'end'
     - 'cargo'
     - 'membrane'
-    
-
-# Boilerplate - don't edit
-exact_synonyms: 
-   value: exact_syn
-narrow_synonyms: 
-   value: narrow_syn
-broad_synonyms: 
-   value: broad_syn
-related_synonyms: 
-   value: related_syn

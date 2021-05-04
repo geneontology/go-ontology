@@ -1,4 +1,4 @@
-# x_specification
+# x specification
 
 [http://purl.obolibrary.org/obo/go/patterns/x_specification.yaml](http://purl.obolibrary.org/obo/go/patterns/x_specification.yaml)
 

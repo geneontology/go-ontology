@@ -1,4 +1,4 @@
-pattern_name: single_organism_process
+pattern_name: single-organism process
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/single_organism_process.yaml
 
@@ -28,6 +28,3 @@ equivalentTo:
   text: " %s and 'bearer of' some 'single organismal process quality'"
   vars:
     - process
-    
-
-

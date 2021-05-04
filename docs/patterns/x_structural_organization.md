@@ -1,6 +1,6 @@
-# x_structural_organization_template.yaml
+# x structural organization
 
-[http://purl.obolibrary.org/obo/go/patterns/x_structural_organization_template.yaml](http://purl.obolibrary.org/obo/go/patterns/x_structural_organization_template.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/x_structural_organization.yaml](http://purl.obolibrary.org/obo/go/patterns/x_structural_organization.yaml)
 
 ## Description
 
@@ -14,12 +14,6 @@ TODO
 | Variable name | Allowed type |
 |:--------------|:-------------|
 | `{target}` | [anatomical structure](http://purl.obolibrary.org/obo/UBERON_0000061) |
-| `{exact_syn}` | xsd:string |
-| `{narrow_syn}` | xsd:string |
-| `{def_xrefs}` | xsd:string |
-| `{cross_references}` | xsd:string |
-| `{broad_syn}` | xsd:string |
-| `{related_syn}` | xsd:string |
 
 ## Name
 
@@ -28,7 +22,6 @@ TODO
 ## Annotations
 
 - [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace): "biological_process"^^[string](http://www.w3.org/2001/XMLSchema#string)
-- [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref): "`{cross_references}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Definition
 

@@ -1,13 +1,1 @@
 defined_class	defined_class_label	regulated_activity	regulated_activity_label
-http://purl.obolibrary.org/obo/GO_0004862	cAMP-dependent protein kinase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004691	cAMP-dependent protein kinase activity
-http://purl.obolibrary.org/obo/GO_0008427	calcium-dependent protein kinase inhibitor activity	http://purl.obolibrary.org/obo/GO_0010857	calcium-dependent protein kinase activity
-http://purl.obolibrary.org/obo/GO_0004861	cyclin-dependent protein serine/threonine kinase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004693	cyclin-dependent protein serine/threonine kinase activity
-http://purl.obolibrary.org/obo/GO_0004857	enzyme inhibitor activity	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
-http://purl.obolibrary.org/obo/GO_0019210	kinase inhibitor activity	http://purl.obolibrary.org/obo/GO_0016301	kinase activity
-http://purl.obolibrary.org/obo/GO_0019212	phosphatase inhibitor activity	http://purl.obolibrary.org/obo/GO_0016791	phosphatase activity
-http://purl.obolibrary.org/obo/GO_0008426	protein kinase C inhibitor activity	http://purl.obolibrary.org/obo/GO_0004697	protein kinase C activity
-http://purl.obolibrary.org/obo/GO_0004860	protein kinase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004672	protein kinase activity
-http://purl.obolibrary.org/obo/GO_0004864	protein phosphatase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004721	phosphoprotein phosphatase activity
-http://purl.obolibrary.org/obo/GO_0030291	protein serine/threonine kinase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004674	protein serine/threonine kinase activity
-http://purl.obolibrary.org/obo/GO_0004865	protein serine/threonine phosphatase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004722	protein serine/threonine phosphatase activity
-http://purl.obolibrary.org/obo/GO_0030292	protein tyrosine kinase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004713	protein tyrosine kinase activity

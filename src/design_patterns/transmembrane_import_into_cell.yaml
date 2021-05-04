@@ -1,4 +1,4 @@
-pattern_name: transmembrane_import_into_cytosol
+pattern_name: transmembrane import into cytosol
 # implicitly import into cell across plamsa membrane
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml
