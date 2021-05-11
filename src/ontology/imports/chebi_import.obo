@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-04-29/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-05-01/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -913,7 +913,7 @@ is_a: CHEBI:50170 ! 3-hydroxy-5alpha-pregnan-20-one
 id: CHEBI:11935
 name: 4-(beta-D-glucosyloxy)benzoate
 subset: chebi_ph7_3
-is_a: CHEBI:16150 ! benzoate
+is_a: CHEBI:22718 ! benzoates
 
 [Term]
 id: CHEBI:11944
@@ -6476,10 +6476,7 @@ relationship: has_role CHEBI:76969 ! bacterial metabolite
 [Term]
 id: CHEBI:134196
 name: (2R,5Z)-4-methyl-5-[2-(phosphonooxy)ethylidene]-2,5-dihydro-1,3-thiazole-2-carboxylic acid
-is_a: CHEBI:25384 ! monocarboxylic acid
-is_a: CHEBI:38418 ! 1,3-thiazoles
-is_a: CHEBI:7794 ! phosphate monoester
-is_a: CHEBI:78840 ! olefinic compound
+is_a: CHEBI:52564 ! 2-carboxy-4-methyl-5-[(2-phosphonooxy)ethylidene]-2,5-dihydrothiazole
 relationship: has_role CHEBI:76969 ! bacterial metabolite
 
 [Term]
@@ -14687,8 +14684,8 @@ is_a: CHEBI:131622 ! steroidal acyl-CoA(4-)
 
 [Term]
 id: CHEBI:138844
-name: 2-[(2R,5Z)-2-carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate
-is_a: CHEBI:52564 ! 2-carboxy-4-methyl-5-[(2-phosphonooxy)ethylidene]-2,5-dihydrothiazole
+is_obsolete: true
+replaced_by: CHEBI:134196
 
 [Term]
 id: CHEBI:138881
@@ -31115,6 +31112,16 @@ subset: chebi_ph7_3
 is_a: CHEBI:18390 ! N-acyl-beta-D-galactosylsphingosine
 
 [Term]
+id: CHEBI:169942
+name: kaempferol 3-O-beta-D-glucoside(1-)
+is_a: CHEBI:16816 ! flavonol 3-O-beta-D-glucoside
+
+[Term]
+id: CHEBI:169944
+name: kaempferol 7-O-beta-D-glucoside(1-)
+is_a: CHEBI:52144 ! flavonol 7-O-beta-D-glucoside
+
+[Term]
 id: CHEBI:16995
 name: oxalic acid
 is_a: CHEBI:28383 ! alpha,omega-dicarboxylic acid
@@ -31138,6 +31145,11 @@ relationship: has_role CHEBI:48356 ! protic solvent
 relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
+
+[Term]
+id: CHEBI:169979
+name: (+)-trans-isopiperitenol
+is_a: CHEBI:24911 ! isopiperitenol
 
 [Term]
 id: CHEBI:16998
@@ -32400,7 +32412,7 @@ is_a: CHEBI:24274 ! glucosaminylphosphodolichol
 [Term]
 id: CHEBI:17199
 name: 4,5-dihydroxyphthalic acid
-is_a: CHEBI:26094 ! benzenedicarboxylic acid
+is_a: CHEBI:24676 ! hydroxybenzoic acid
 
 [Term]
 id: CHEBI:17200
@@ -33834,7 +33846,7 @@ is_a: CHEBI:35951 ! dioxo monocarboxylic acid
 [Term]
 id: CHEBI:17416
 name: 3,4-dihydroxyphthalic acid
-is_a: CHEBI:26094 ! benzenedicarboxylic acid
+is_a: CHEBI:24676 ! hydroxybenzoic acid
 
 [Term]
 id: CHEBI:17417
@@ -34664,6 +34676,7 @@ id: CHEBI:17563
 name: phthalate(2-)
 subset: chebi_ph7_3
 is_a: CHEBI:26092 ! phthalate
+is_a: CHEBI:28965 ! dicarboxylic acid dianion
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
 [Term]
@@ -48129,7 +48142,7 @@ is_a: CHEBI:38496 ! electron-transport chain inhibitor
 id: CHEBI:26092
 name: phthalate
 is_a: CHEBI:22712 ! benzenes
-is_a: CHEBI:28965 ! dicarboxylic acid dianion
+is_a: CHEBI:29067 ! carboxylic acid anion
 
 [Term]
 id: CHEBI:26094
@@ -57341,8 +57354,8 @@ relationship: has_role CHEBI:25212 ! metabolite
 
 [Term]
 id: CHEBI:29715
-name: dTDP 1-ester with (6R)-5,6-dihydro-4-hydroxy-6-methyl-5-oxo-2H-pyran
-is_a: CHEBI:26433 ! pyrimidine 2'-deoxyribonucleoside diphosphate
+is_obsolete: true
+replaced_by: CHEBI:90167
 
 [Term]
 id: CHEBI:29726
@@ -57972,7 +57985,7 @@ is_a: CHEBI:50367 ! taxane diterpenoid
 id: CHEBI:30043
 name: terephthalate(2-)
 subset: chebi_ph7_3
-is_a: CHEBI:26092 ! phthalate
+is_a: CHEBI:28965 ! dicarboxylic acid dianion
 
 [Term]
 id: CHEBI:30049
@@ -58864,6 +58877,7 @@ is_a: CHEBI:6650 ! malic acid
 id: CHEBI:30800
 name: phthalate(1-)
 is_a: CHEBI:26092 ! phthalate
+is_a: CHEBI:35695 ! dicarboxylic acid monoanion
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
 [Term]
@@ -86086,8 +86100,10 @@ is_a: CHEBI:23849 ! diterpenoid
 [Term]
 id: CHEBI:52564
 name: 2-carboxy-4-methyl-5-[(2-phosphonooxy)ethylidene]-2,5-dihydrothiazole
-is_a: CHEBI:25381 ! monoalkyl phosphate
+is_a: CHEBI:25384 ! monocarboxylic acid
 is_a: CHEBI:38418 ! 1,3-thiazoles
+is_a: CHEBI:7794 ! phosphate monoester
+is_a: CHEBI:78840 ! olefinic compound
 
 [Term]
 id: CHEBI:52565
@@ -137430,8 +137446,8 @@ is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:80352
-name: 4,4'-Diaponeurosporenic acid
-is_a: CHEBI:36615 ! triterpenoid
+is_obsolete: true
+replaced_by: CHEBI:83048
 
 [Term]
 id: CHEBI:80489
@@ -142480,7 +142496,7 @@ is_a: CHEBI:133447 ! methyl-branched fatty acyl-L-carnitine
 [Term]
 id: CHEBI:84656
 name: alpha-Neu5Ac-(2->3)-beta-D-Gal(1->3)beta-GalNAc-(1->4)-[alpha-Neu5Ac-(2->3)]-beta-Gal-(1->4)-beta-Glc-(1->1')-Cer(d18:1/18:0)
-is_a: CHEBI:36542 ! sialopentaosylceramide
+is_a: CHEBI:18163 ! alpha-NeuNAc-(2->3)-beta-D-Gal-(1->3)-beta-D-GalNAc-(1->4)-[alpha-NeuNAc-(2->3)]-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
@@ -149477,8 +149493,8 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:88823
-name: 14R,15S-EpETrE
-is_a: CHEBI:64007 ! EET
+is_obsolete: true
+replaced_by: CHEBI:132275
 
 [Term]
 id: CHEBI:88824
@@ -150069,8 +150085,8 @@ is_a: CHEBI:36640 ! glycoheptaosylceramide
 
 [Term]
 id: CHEBI:90361
-name: alpha-Neu5Ac-(2->3)-beta-Gal-(1->3)-beta-GalNAc-(1->4)-[alpha-Neu5Ac-(2->3)]-beta-Gal-(1->4)-beta-Glc-(1<->1')-Cer(d18:1/18:0)
-is_a: CHEBI:18163 ! alpha-NeuNAc-(2->3)-beta-D-Gal-(1->3)-beta-D-GalNAc-(1->4)-[alpha-NeuNAc-(2->3)]-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
+is_obsolete: true
+replaced_by: CHEBI:84656
 
 [Term]
 id: CHEBI:90362
