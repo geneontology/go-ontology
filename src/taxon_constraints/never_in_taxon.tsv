@@ -536,3 +536,4 @@ GO:0016922	nuclear receptor binding	NCBITaxon:Union_0000023	Fungi or Bacteria or
 GO:0048309	endoplasmic reticulum inheritance	NCBITaxon:4896	Schizosaccharomyces pombe
 GO:0044728	DNA methylation or demethylation	NCBITaxon:4896	Schizosaccharomyces pombe
 GO:0044728	DNA methylation or demethylation	NCBITaxon:4932	Saccharomyces cerevisiae
+GO:0140643	hydroxymethylglutaryl-CoA reductase (NADH) activity	NCBITaxon:2759	Eukaryota
