@@ -19,7 +19,7 @@ annotations:
 
 logical_axioms:
   - axiom_type: subClassOf
-    text: 'in_taxon only (not %s)'
+    text: 'not (in_taxon some %s)'
     vars:
       - taxon
   - axiom_type: disjointWith
