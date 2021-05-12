@@ -7,25 +7,27 @@ assignees: ''
 
 ---
 
-**Suggested term label:**
+Please provide as much information as you can: 
+
+* **Suggested term label:**
 
 
-**Definition (free text)**
+* **Definition (free text)**
 
 
-**Reference, in format PMID:#######**
+* **Reference, in format PMID:#######**
 
 
-**Parent term(s)**
+* **Parent term(s)**
 
 
-**Children terms (if applicable)** Should any existing terms that should be moved underneath this new proposed term?
+* **Children terms (if applicable)** Should any existing terms that should be moved underneath this new proposed term?
 
 
-**Synonyms (please specify, EXACT, BROAD, NARROW or RELATED)**
+* **Synonyms (please specify, EXACT, BROAD, NARROW or RELATED)**
 
-**Cross-references**
+* **Cross-references**
 * For enzymes, please provide RHEA and/or EC numbers. 
 * Can also provide MetaCyc, KEGG, Wikipedia, and other links.
 
-**Any other information**
+* **Any other information**
