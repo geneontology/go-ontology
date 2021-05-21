@@ -173,7 +173,6 @@ GO:0009704	de-etiolation	NCBITaxon:33090	Viridiplantae
 GO:0009705	plant-type vacuole membrane	NCBITaxon:33090	Viridiplantae
 GO:0009760	C4 photosynthesis	NCBITaxon:33090	Viridiplantae
 GO:0009761	CAM photosynthesis	NCBITaxon:33090	Viridiplantae
-GO:0009766	primary charge separation	NCBITaxon:Union_0000007	Viridiplantae or Bacteria or Euglenozoa
 GO:0009792	embryo development ending in birth or egg hatching	NCBITaxon:33208	Metazoa
 GO:0009832	plant-type cell wall biogenesis	NCBITaxon:33090	Viridiplantae
 GO:0009840	chloroplastic endopeptidase Clp complex	NCBITaxon:33090	Viridiplantae
