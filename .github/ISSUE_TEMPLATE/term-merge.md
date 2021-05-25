@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-**Term to be merged: Provide GO ID and term label **
+**Term to be merged: Provide GO ID and term label**
 
-**Which term do you propose this term merge into? Provide GO ID and term label **
+**Which term do you propose this term merge into? Provide GO ID and term label**
 
 **Reason for merge**
 
