@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-05-01/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-05-27/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -110276,6 +110276,25 @@ id: CHEBI:64694
 name: 3,4-dihydroxy-5-polyprenylbenzoate
 subset: chebi_ph7_3
 is_a: CHEBI:36084 ! dihydroxybenzoate
+
+[Term]
+id: CHEBI:64695
+name: pyripyropene A
+subset: chebi_ph7_3
+is_a: CHEBI:26658 ! sesquiterpenoid
+is_a: CHEBI:38163 ! organic heterotetracyclic compound
+relationship: has_role CHEBI:25212 ! metabolite
+relationship: has_role CHEBI:64697 ! acyl-CoA:cholesterol acyltransferase 2 inhibitor
+
+[Term]
+id: CHEBI:64696
+name: EC 2.3.1.26 (sterol O-acyltransferase) inhibitor
+is_a: CHEBI:76878 ! EC 2.3.1.* (acyltransferase transferring other than amino-acyl group) inhibitor
+
+[Term]
+id: CHEBI:64697
+name: acyl-CoA:cholesterol acyltransferase 2 inhibitor
+is_a: CHEBI:64696 ! EC 2.3.1.26 (sterol O-acyltransferase) inhibitor
 
 [Term]
 id: CHEBI:64702
