@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-05-27/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-06-01/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -12707,6 +12707,7 @@ relationship: has_role CHEBI:76969 ! bacterial metabolite
 id: CHEBI:138078
 name: 5'-(N(2),N(7)-dimethyl 5'-triphosphoguanosine)-(purine ribonucleotide)(2-) residue
 subset: chebi_ph7_3
+is_a: CHEBI:172880 ! 5'-(N(2),N(7)-dimethyl 5'-triphosphoguanosine)-ribonucleoside(2-) residue
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -16227,7 +16228,6 @@ is_a: CHEBI:63551 ! carbohydrate acid derivative anion
 id: CHEBI:139510
 name: N(4)-\{beta-D-GlcNAc-(1->2)-[beta-D-GlcNAc-(1->4)]-alpha-D-Man-(1->3)-[beta-D-GlcNAc-(1->2)-[beta-D-GlcNAc-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-beta-D-GlcNAc}-L-Asn residue
 subset: chebi_ph7_3
-is_a: CHEBI:22485 ! glucosamine oligosaccharide
 is_a: CHEBI:59108 ! N(4)-glycosylated L-asparagine residue
 
 [Term]
@@ -16242,7 +16242,6 @@ is_a: CHEBI:61469 ! polyanionic polymer
 id: CHEBI:139513
 name: N(4)-\{beta-D-GlcNAc-(1->2)-[beta-D-GlcNAc-(1->4)]-alpha-D-Man-(1->3)-[beta-D-GlcNAc-(1->2)-[beta-D-GlcNAc-(1->4)]-[beta-D-GlcNAc-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-beta-D-GlcNAc}-L-Asn residue
 subset: chebi_ph7_3
-is_a: CHEBI:22485 ! glucosamine oligosaccharide
 is_a: CHEBI:59108 ! N(4)-glycosylated L-asparagine residue
 
 [Term]
@@ -17969,7 +17968,7 @@ is_a: CHEBI:37163 ! glucan
 
 [Term]
 id: CHEBI:140785
-name: alkylcob(III)alamin
+name: R-cob(III)alamin
 subset: chebi_ph7_3
 is_a: CHEBI:23333 ! cob(III)alamins
 
@@ -19922,6 +19921,11 @@ relationship: has_role CHEBI:59517 ! DNA synthesis inhibitor
 id: CHEBI:1472
 name: 3-chloro-cis,cis-muconic acid
 is_a: CHEBI:38428 ! 3-chloromuconic acid
+
+[Term]
+id: CHEBI:147285
+name: EC 3.4.22.69 (SARS coronavirus main proteinase) inhibitor
+is_a: CHEBI:76796 ! EC 3.4.22.* (cysteine endopeptidase) inhibitor
 
 [Term]
 id: CHEBI:147288
@@ -22622,7 +22626,7 @@ is_a: CHEBI:50699 ! oligosaccharide
 [Term]
 id: CHEBI:156548
 name: kainate(1-)
-is_a: CHEBI:28965 ! dicarboxylic acid dianion
+is_a: CHEBI:35695 ! dicarboxylic acid monoanion
 
 [Term]
 id: CHEBI:15655
@@ -23958,7 +23962,7 @@ is_a: CHEBI:83943 ! L-alanine derivative
 id: CHEBI:15852
 name: aquacob(III)alamin
 subset: chebi_ph7_3
-is_a: CHEBI:140785 ! alkylcob(III)alamin
+is_a: CHEBI:140785 ! R-cob(III)alamin
 is_a: CHEBI:23333 ! cob(III)alamins
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -24890,6 +24894,7 @@ is_a: CHEBI:15705 ! L-alpha-amino acid
 is_a: CHEBI:18237 ! glutamic acid
 is_a: CHEBI:24318 ! glutamine family amino acid
 is_a: CHEBI:83813 ! proteinogenic amino acid
+relationship: has_role CHEBI:173085 ! ferroptosis inducer
 relationship: has_role CHEBI:25512 ! neurotransmitter
 relationship: has_role CHEBI:27027 ! micronutrient
 relationship: has_role CHEBI:50733 ! nutraceutical
@@ -32200,6 +32205,11 @@ is_a: CHEBI:26406 ! N-substituted putrescine
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
+id: CHEBI:171664
+name: antiamoebic agent
+is_a: CHEBI:35442 ! antiparasitic agent
+
+[Term]
 id: CHEBI:17167
 name: (R)-lactaldehyde
 subset: chebi_ph7_3
@@ -32647,6 +32657,13 @@ is_a: CHEBI:38436 ! muconic semialdehyde
 is_a: CHEBI:79020 ! alpha,beta-unsaturated monocarboxylic acid
 
 [Term]
+id: CHEBI:172368
+name: brominated flame retardant
+is_a: CHEBI:37141 ! organobromine compound
+relationship: has_role CHEBI:77853 ! persistent organic pollutant
+relationship: has_role CHEBI:79314 ! flame retardant
+
+[Term]
 id: CHEBI:17237
 name: (E)-4-(trimethylammonio)but-2-enoate
 subset: chebi_ph7_3
@@ -33005,6 +33022,11 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
+id: CHEBI:172880
+name: 5'-(N(2),N(7)-dimethyl 5'-triphosphoguanosine)-ribonucleoside(2-) residue
+is_a: CHEBI:64775 ! organic anionic group
+
+[Term]
 id: CHEBI:17289
 name: homoserine lactone
 is_a: CHEBI:22950 ! butan-4-olide
@@ -33171,6 +33193,17 @@ is_a: CHEBI:59202 ! straight-chain fatty acid
 is_a: CHEBI:59554 ! medium-chain fatty acid
 is_a: CHEBI:59644 ! oxo fatty acid
 relationship: has_role CHEBI:85234 ! human blood serum metabolite
+
+[Term]
+id: CHEBI:173084
+name: ferroptosis inhibitor
+is_a: CHEBI:35222 ! inhibitor
+is_a: CHEBI:52206 ! biochemical role
+
+[Term]
+id: CHEBI:173085
+name: ferroptosis inducer
+is_a: CHEBI:52206 ! biochemical role
 
 [Term]
 id: CHEBI:17309
@@ -33977,7 +34010,7 @@ is_a: CHEBI:63367 ! monosaccharide derivative
 id: CHEBI:17439
 name: cyanocob(III)alamin
 subset: chebi_ph7_3
-is_a: CHEBI:140785 ! alkylcob(III)alamin
+is_a: CHEBI:140785 ! R-cob(III)alamin
 is_a: CHEBI:23333 ! cob(III)alamins
 relationship: has_role CHEBI:33229 ! vitamin
 
@@ -51751,6 +51784,7 @@ subset: chebi_ph7_3
 is_a: CHEBI:36016 ! chloroethanes
 relationship: has_role CHEBI:25435 ! mutagen
 relationship: has_role CHEBI:48355 ! non-polar solvent
+relationship: has_role CHEBI:50908 ! hepatotoxic agent
 
 [Term]
 id: CHEBI:27798
@@ -52729,6 +52763,7 @@ is_a: CHEBI:46847 ! N-iminopiperazine
 is_a: CHEBI:46920 ! N-methylpiperazine
 is_a: CHEBI:59779 ! cyclic ketal
 is_a: CHEBI:72588 ! semisynthetic derivative
+relationship: has_role CHEBI:171664 ! antiamoebic agent
 relationship: has_role CHEBI:33231 ! antitubercular agent
 relationship: has_role CHEBI:35610 ! antineoplastic agent
 relationship: has_role CHEBI:35816 ! leprostatic drug
@@ -52858,7 +52893,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:28115
 name: methylcobalamin
 subset: chebi_ph7_3
-is_a: CHEBI:140785 ! alkylcob(III)alamin
+is_a: CHEBI:140785 ! R-cob(III)alamin
 is_a: CHEBI:23334 ! cobalamins
 relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -57480,7 +57515,14 @@ is_a: CHEBI:51144 ! nitrogen group
 id: CHEBI:2979
 name: baicalein
 is_a: CHEBI:27116 ! trihydroxyflavone
+relationship: has_role CHEBI:139556 ! EC 4.1.1.17 (ornithine decarboxylase) inhibitor
+relationship: has_role CHEBI:147285 ! EC 3.4.22.69 (SARS coronavirus main proteinase) inhibitor
+relationship: has_role CHEBI:149553 ! anticoronaviral agent
+relationship: has_role CHEBI:173084 ! ferroptosis inhibitor
 relationship: has_role CHEBI:22586 ! antioxidant
+relationship: has_role CHEBI:33282 ! antibacterial agent
+relationship: has_role CHEBI:35610 ! antineoplastic agent
+relationship: has_role CHEBI:48422 ! angiogenesis inhibitor
 relationship: has_role CHEBI:48578 ! radical scavenger
 relationship: has_role CHEBI:49020 ! hormone antagonist
 relationship: has_role CHEBI:49023 ! prostaglandin antagonist
@@ -64503,10 +64545,10 @@ is_a: CHEBI:37812 ! dialkylglycerol
 id: CHEBI:34238
 name: 2,4-dibromophenol
 subset: chebi_ph7_3
+is_a: CHEBI:172368 ! brominated flame retardant
 is_a: CHEBI:33624 ! bromophenol
 is_a: CHEBI:37147 ! dibromobenzene
 relationship: has_role CHEBI:76507 ! marine metabolite
-relationship: has_role CHEBI:79314 ! flame retardant
 
 [Term]
 id: CHEBI:3424
@@ -64528,7 +64570,9 @@ id: CHEBI:34310
 name: (24S)-24-hydroxycholesterol
 subset: chebi_ph7_3
 is_a: CHEBI:50515 ! 24-hydroxycholesterol
-relationship: has_role CHEBI:77746 ! human metabolite
+relationship: has_role CHEBI:59163 ! biomarker
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:85234 ! human blood serum metabolite
 
 [Term]
 id: CHEBI:34311
@@ -77390,6 +77434,7 @@ id: CHEBI:46245
 name: coenzyme Q10
 subset: chebi_ph7_3
 is_a: CHEBI:16389 ! ubiquinones
+relationship: has_role CHEBI:173084 ! ferroptosis inhibitor
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -83480,7 +83525,8 @@ id: CHEBI:50516
 name: (24R)-24-hydroxycholesterol
 subset: chebi_ph7_3
 is_a: CHEBI:50515 ! 24-hydroxycholesterol
-is_a: CHEBI:53030 ! oxysterol
+relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:90709 ! nuclear receptor modulator
 
 [Term]
 id: CHEBI:50517
@@ -84554,12 +84600,6 @@ is_a: CHEBI:24433 ! group
 [Term]
 id: CHEBI:51145
 name: secondary amino group
-is_a: CHEBI:51142 ! amino groups
-
-[Term]
-id: CHEBI:51146
-name: tertiary amino group
-subset: chebi_ph7_3
 is_a: CHEBI:51142 ! amino groups
 
 [Term]
@@ -99254,7 +99294,7 @@ name: N,N-dimethyl-4-nitrosoaniline
 subset: chebi_ph7_3
 is_a: CHEBI:23806 ! dimethylaniline
 is_a: CHEBI:35800 ! nitroso compound
-is_a: CHEBI:51146 ! tertiary amino group
+is_a: CHEBI:50996 ! tertiary amino compound
 
 [Term]
 id: CHEBI:59991
@@ -100489,7 +100529,7 @@ is_a: CHEBI:25111 ! magnesium porphyrin
 id: CHEBI:60493
 name: adenosylcobalamin 5'-phosphate(2-)
 subset: chebi_ph7_3
-is_a: CHEBI:140785 ! alkylcob(III)alamin
+is_a: CHEBI:140785 ! R-cob(III)alamin
 is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
@@ -134234,7 +134274,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:78257
-name: isoglobside
+name: isogloboside
 is_a: CHEBI:36520 ! oligoglycosylceramide
 
 [Term]
@@ -140988,9 +141028,9 @@ is_a: CHEBI:84090 ! hydroxyretinoic glucuronide
 id: CHEBI:84095
 name: 2,6-dimethylheptanoyl carnitine
 subset: chebi_ph7_3
-is_a: CHEBI:17387 ! O-acylcarnitine
 is_a: CHEBI:33308 ! carboxylic ester
 is_a: CHEBI:35284 ! ammonium betaine
+is_a: CHEBI:86493 ! C9-acylcarnitine
 relationship: has_role CHEBI:84087 ! human urinary metabolite
 relationship: has_role CHEBI:85234 ! human blood serum metabolite
 
@@ -146615,6 +146655,12 @@ is_a: CHEBI:17387 ! O-acylcarnitine
 [Term]
 id: CHEBI:86492
 name: C5-acylcarnitine
+subset: chebi_ph7_3
+is_a: CHEBI:17387 ! O-acylcarnitine
+
+[Term]
+id: CHEBI:86493
+name: C9-acylcarnitine
 subset: chebi_ph7_3
 is_a: CHEBI:17387 ! O-acylcarnitine
 
