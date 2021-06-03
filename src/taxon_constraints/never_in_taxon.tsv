@@ -67,7 +67,6 @@ GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteri
 GO:0007182	common-partner SMAD protein phosphorylation	NCBITaxon:4751	Fungi
 GO:0007218	neuropeptide signaling pathway	NCBITaxon:4751	Fungi
 GO:0007252	I-kappaB phosphorylation	NCBITaxon:4751	Fungi
-GO:0007257	activation of JUN kinase activity	NCBITaxon:4895	Schizosaccharomyces
 GO:0007258	JUN phosphorylation	NCBITaxon:4895	Schizosaccharomyces
 GO:0007276	gamete generation	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
 GO:0007540	sex determination, establishment of X:A ratio	NCBITaxon:8782	Aves
