@@ -182,18 +182,10 @@
     <!-- http://purl.obolibrary.org/obo/GO_0000188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000188">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/GO_0030291"/>
+        <oboInOwl:consider rdf:resource="http://purl.obolibrary.org/obo/GO_0043409"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This term was obsoleted because it represents a molecular function.</rdfs:comment>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
