@@ -1,9 +1,6 @@
 defined_class	defined_class_label	taxon	taxon_label
 GO:0000132	establishment of mitotic spindle orientation	NCBITaxon:2759	Eukaryota
 GO:0000165	MAPK cascade	NCBITaxon:2759	Eukaryota
-GO:0000185	activation of MAPKKK activity	NCBITaxon:2759	Eukaryota
-GO:0000186	activation of MAPKK activity	NCBITaxon:2759	Eukaryota
-GO:0000188	inactivation of MAPK activity	NCBITaxon:2759	Eukaryota
 GO:0000278	mitotic cell cycle	NCBITaxon:2759	Eukaryota
 GO:0000282	cellular bud site selection	NCBITaxon:4751	Fungi
 GO:0000324	fungal-type vacuole	NCBITaxon:4751	Fungi
