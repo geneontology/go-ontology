@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-02-19/imports/uberon_import.owl
+data-version: go/releases/2021-06-04/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -62281,6 +62281,15 @@ intersection_of: part_of UBERON:0000033 ! head
 relationship: part_of UBERON:0000033 ! head
 
 [Term]
+id: UBERON:6000119
+name: insect anterior ectoderm
+def: "The region of the ectoderm anterior to the cephalic furrow." []
+is_a: CARO:0000000
+is_a: UBERON:0010000 ! multicellular anatomical structure
+relationship: only_in_taxon NCBITaxon:50557
+relationship: part_of UBERON:0000924 ! ectoderm
+
+[Term]
 id: UBERON:6000137
 name: embryonic tagma
 def: "Any tagma (UBERON:6000002) that is part of some embryo (UBERON:6000052)." []
@@ -62307,6 +62316,17 @@ is_a: UBERON:6000154 ! embryonic segment
 intersection_of: UBERON:0000914 ! organismal segment
 intersection_of: part_of UBERON:0008816 ! embryonic head
 relationship: part_of UBERON:0008816 ! embryonic head
+
+[Term]
+id: UBERON:6001059
+name: insect visual primordium
+synonym: "optic lobe placode" RELATED []
+synonym: "optic lobe primordium" RELATED []
+synonym: "P2 VisSys" RELATED []
+is_a: UBERON:0001048 ! primordium
+is_a: UBERON:0002050 ! embryonic structure
+is_a: UBERON:6025991 ! insect anterior ectoderm derivative
+relationship: develops_from UBERON:6005434 ! insect visual anlage
 
 [Term]
 id: UBERON:6001728
@@ -62396,6 +62416,33 @@ intersection_of: part_of UBERON:6003007 ! insect adult head
 relationship: part_of UBERON:6003007 ! insect adult head
 
 [Term]
+id: UBERON:6005413
+name: insect anlage in statu nascendi
+def: "\"anlagen in statu nascendi\" are domains that do not yet coincide 1:1 with a later organ. Anlagen in statu nascendi are typically defined for the early blastoderm by the expression domains of genes which, in the late blastoderm or later, are expressed in specific anlagen, but initially come on in larger domains." []
+synonym: "A0" RELATED []
+is_a: UBERON:0002050 ! embryonic structure
+relationship: only_in_taxon NCBITaxon:50557
+
+[Term]
+id: UBERON:6005425
+name: insect visual anlage in statu nascendi
+synonym: "A0Vis" RELATED []
+synonym: "Asn VisSys" RELATED []
+is_a: UBERON:6005413 ! insect anlage in statu nascendi
+
+[Term]
+id: UBERON:6005434
+name: insect visual anlage
+synonym: "A VisSys" RELATED []
+synonym: "AVis" RELATED []
+is_a: CARO:0000000
+is_a: UBERON:0002050 ! embryonic structure
+is_a: UBERON:0005291 ! embryonic tissue
+is_a: UBERON:0007688 ! anlage
+relationship: develops_from UBERON:6005425 ! insect visual anlage in statu nascendi
+relationship: part_of UBERON:6000119 ! insect anterior ectoderm
+
+[Term]
 id: UBERON:6007149
 name: insect segment of antenna
 def: "Any appendage segment that is part of some antenna." []
@@ -62444,6 +62491,13 @@ is_a: UBERON:6002639 ! insect larval sense organ
 intersection_of: UBERON:0000020 ! sense organ
 intersection_of: part_of UBERON:6001730 ! insect larval head
 relationship: part_of UBERON:6001730 ! insect larval head
+
+[Term]
+id: UBERON:6025991
+name: insect anterior ectoderm derivative
+def: "." []
+is_a: UBERON:0004121 ! ectoderm-derived structure
+relationship: develops_from UBERON:6000119 ! insect anterior ectoderm
 
 [Term]
 id: UBERON:6057001
