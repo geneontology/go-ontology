@@ -2058,14 +2058,13 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_147385 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_147385">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147368"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2822797"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147385"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1648038"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brachypodieae</rdfs:label>
     </owl:Class>
     
@@ -2849,6 +2848,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1648038"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2822797"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Triticodae</rdfs:label>
     </owl:Class>
     
@@ -3005,7 +3005,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_170"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treponemataceae</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptospiraceae</rdfs:label>
     </owl:Class>
     
@@ -3553,8 +3552,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186802"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eubacteriales</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clostridiales</rdfs:label>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clostridiales</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eubacteriales</rdfs:label>
     </owl:Class>
     
 
@@ -4259,6 +4258,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203692"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Leptospiria&quot; Cavalier-Smith 2020</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spirochaetes</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spirochaetia</rdfs:label>
     </owl:Class>
@@ -4827,36 +4827,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methanosarcina acetivorans</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2218736 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2218736">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_55824"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2218736"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirudinida</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2218738 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2218738">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2218736"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2218738"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glossiphoniiformes</rdfs:label>
     </owl:Class>
     
 
@@ -5734,9 +5704,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_251221"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gloeobacter violaceus str. PCC 7421</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gloeobacter violaceus strain PCC 7421</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gloeobacter violaceus ATCC 29082</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gloeobacter violaceus ATCC 29082</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gloeobacter violaceus PCC 7421</rdfs:label>
     </owl:Class>
     
@@ -6388,6 +6356,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2812636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2812636">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3166"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2812636"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS clade</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_28211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28211">
@@ -6455,6 +6438,21 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delta subdivision</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delta subgroup</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deltaproteobacteria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2822797 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2822797">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147368"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2822797"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stipodae</rdfs:label>
     </owl:Class>
     
 
@@ -6949,7 +6947,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_3042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3166"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2812636"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -7842,7 +7840,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33169"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ashbya gossipii</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ashbya gossypii</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nematospora gossypii</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eremothecium gossypii</rdfs:label>
     </owl:Class>
@@ -8486,10 +8484,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_356"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizobacteria</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizobiaceae group</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizobiales</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-2 proteobacteria</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizobiales</rdfs:label>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizobacteria</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyphomicrobiales</rdfs:label>
     </owl:Class>
     
 
@@ -9216,6 +9215,7 @@
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soybean</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soybeans</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phaseolus max</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycine max</rdfs:label>
     </owl:Class>
     
@@ -10840,6 +10840,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4557"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemisorghum</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sorghum</rdfs:label>
     </owl:Class>
     
@@ -11581,6 +11582,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5052"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chaetosartorya</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petromyces</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phialosimplex</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polypaecilum</oboInOwl:hasRelatedSynonym>
@@ -13135,10 +13137,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6406">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_55824"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6406"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhynchobdelliformes</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhynchobdellida</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_6407 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6407">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2218738"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6406"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -14420,6 +14438,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7625"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea urchin</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea urchins</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea urchins</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinoidea</rdfs:label>
@@ -16584,13 +16603,13 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_976"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BCF group</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BCF group</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteroides-Cytophaga-Flexibacter group</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CFB group</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytophaga-Flexibacter-Bacteroides phylum</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteroidaeota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteroides-Cytophaga-Flexibacter group</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteroidota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CFB group</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CFB group bacteria</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytophaga-Flexibacter-Bacteroides phylum</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteroidetes</rdfs:label>
     </owl:Class>
     
@@ -17462,16 +17481,6 @@
     </owl:Restriction>
     <owl:Restriction>
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147385"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1648038"/>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147537"/>
         <owl:disjointWith>
             <owl:Restriction>
@@ -17577,6 +17586,16 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1648036"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1648038"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2822797"/>
             </owl:Restriction>
         </owl:disjointWith>
     </owl:Restriction>
