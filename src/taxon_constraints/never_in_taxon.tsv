@@ -226,6 +226,8 @@ GO:0048010	vascular endothelial growth factor receptor signaling pathway	NCBITax
 GO:0048104	establishment of body hair or bristle planar orientation	NCBITaxon:8782	Aves
 GO:0050764	regulation of phagocytosis	NCBITaxon:147537	Saccharomycotina
 GO:0050873	brown fat cell differentiation	NCBITaxon:8782	Aves
+GO:0050959	echolocation	NCBITaxon:10090	Mus musculus
+GO:0050959	echolocation	NCBITaxon:9443	Primates
 GO:0051644	plastid localization	NCBITaxon:28009	Choanoflagellida
 GO:0051644	plastid localization	NCBITaxon:33208	Metazoa
 GO:0051644	plastid localization	NCBITaxon:4751	Fungi
