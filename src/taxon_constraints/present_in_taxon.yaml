@@ -8,9 +8,15 @@ classes:
 relations: 
   in_taxon: RO:0002162
 
+annotationProperties:
+  has_source: oio:source
+
 vars:
   term: thing
   taxon: thing
+
+data_list_vars:
+  source: xsd:string
 
 name:
   text: "%s in %s"
@@ -23,3 +29,6 @@ subClassOf:
   vars:
     - term
     - taxon
+  annotations:
+    - annotationProperty: has_source
+      value: source

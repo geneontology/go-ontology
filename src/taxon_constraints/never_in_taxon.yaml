@@ -9,20 +9,33 @@ relations:
 
 annotationProperties:
   never_in_taxon: RO:0002161
+  has_source: oio:source
 
 vars:
   taxon: thing
 
+data_list_vars:
+  source: xsd:string
+
 annotations:
   - annotationProperty: never_in_taxon
     var: taxon
+    annotations:
+      - annotationProperty: has_source
+        value: source
 
 logical_axioms:
   - axiom_type: subClassOf
     text: 'not (in_taxon some %s)'
     vars:
       - taxon
+    annotations:
+      - annotationProperty: has_source
+        value: source
   - axiom_type: disjointWith
     text: 'in_taxon some %s'
     vars:
       - taxon
+    annotations:
+      - annotationProperty: has_source
+        value: source
