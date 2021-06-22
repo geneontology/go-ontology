@@ -467,6 +467,7 @@ GO:0048838	release of seed from dormancy	NCBITaxon:33090	Viridiplantae
 GO:0048840	otolith development	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0050845	teichuronic acid biosynthetic process	NCBITaxon:2	Bacteria	
 GO:0050877	nervous system process	NCBITaxon:33208	Metazoa	
+GO:0050959	echolocation	NCBITaxon:40674	Mammalia	PMID:34140356
 GO:0051077	secondary cell septum	NCBITaxon:2759	Eukaryota	
 GO:0051300	spindle pole body organization	NCBITaxon:4751	Fungi	
 GO:0051321	meiotic cell cycle	NCBITaxon:2759	Eukaryota	
