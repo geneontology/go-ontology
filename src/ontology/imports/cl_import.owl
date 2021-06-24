@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-04-25/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-06-24/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -21238,6 +21238,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0002346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002346">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000823"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002104"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000002977"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_plasma_membrane_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001008"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An immature natural killer cell that is NK1.1-positive and DX-5 negative.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dx5-negative, NK1.1-positive immature natural killer cell, mouse</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0002350 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002350">
@@ -32669,6 +32697,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0098977 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098977"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
     
 
 

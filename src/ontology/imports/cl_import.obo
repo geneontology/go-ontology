@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-04-25/imports/cl_import.owl
+data-version: go/releases/2021-06-24/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -8278,6 +8278,15 @@ intersection_of: RO:0002104 PR:000001381
 intersection_of: RO:0002104 PR:000001874
 intersection_of: RO:0002104 PR:000002065
 intersection_of: RO:0002162 NCBITaxon:9606
+
+[Term]
+id: CL:0002346
+name: Dx5-negative, NK1.1-positive immature natural killer cell, mouse
+def: "An immature natural killer cell that is NK1.1-positive and DX-5 negative." []
+intersection_of: CL:0000823 ! immature natural killer cell
+intersection_of: lacks_plasma_membrane_part PR:000001008
+intersection_of: RO:0002104 PR:000002977
+intersection_of: RO:0002162 NCBITaxon:10090
 
 [Term]
 id: CL:0002350

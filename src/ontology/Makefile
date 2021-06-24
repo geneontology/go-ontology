@@ -373,7 +373,7 @@ imports/%_import.obo: imports/%_import.owl
 
 # Fix external ontologies to specific versions. These should be updated regularly!
 CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.obo
-CL_SOURCE=http://purl.obolibrary.org/obo/cl/cl-base.owl
+CL_SOURCE=http://purl.obolibrary.org/obo/cl/releases/2021-04-22/cl-base.owl
 UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/uberon-base.owl
 
 WGET_OUT = -O $@.tmp && cp $@.tmp $@ && touch $@
@@ -423,7 +423,6 @@ mirror/oba-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo -O $@.tmp && $(OWLTOOLS) $@.tmp --make-subset-by-properties -n // -o $@
 .PRECIOUS: mirror/oba-download.owl
 
-# special case: use basic for cl until base is compatible
 mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(CL_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
