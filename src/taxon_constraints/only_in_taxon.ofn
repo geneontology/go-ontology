@@ -566,6 +566,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050323>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050325>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050845>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050877>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050959>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051077>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051300>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051321>))
@@ -3686,6 +3687,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0050845> ObjectAllValuesFrom(<http
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0050877> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0050877> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0050959> (<http://purl.obolibrary.org/obo/GO_0050959>)
+
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "https://en.wikipedia.org/wiki/Animal_echolocation"^^xsd:string) <http://purl.obolibrary.org/obo/GO_0050959> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_32524>))
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "https://en.wikipedia.org/wiki/Animal_echolocation"^^xsd:string) <http://purl.obolibrary.org/obo/GO_0050959> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_32524>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0051077> (<http://purl.obolibrary.org/obo/GO_0051077>)
 
