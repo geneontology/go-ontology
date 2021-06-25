@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-06-04/imports/uberon_import.owl
+data-version: go/releases/2021-06-25/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -5136,6 +5136,7 @@ synonym: "parathyroid secreting cell" RELATED []
 is_a: UBERON:0002368 ! endocrine gland
 relationship: capable_of GO:0035898
 relationship: capable_of_part_of GO:0055074
+relationship: develops_from UBERON:0007124 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! pharyngeal pouch 3
 relationship: develops_from UBERON:0007125 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! pharyngeal pouch 4
 relationship: has_developmental_contribution_from UBERON:0010025 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! dorsal part of pharyngeal pouch 3
 relationship: has_developmental_contribution_from UBERON:0010026 {gci_relation="part_of", gci_filler="NCBITaxon:8782"} ! ventral part of pharyngeal pouch 3
@@ -13137,6 +13138,7 @@ is_a: UBERON:0004121 ! ectoderm-derived structure
 relationship: develops_from UBERON:0008425 ! mammary ridge
 relationship: only_in_taxon NCBITaxon:32525
 relationship: part_of UBERON:0000310 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! breast
+relationship: part_of UBERON:0001911 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! mammary gland
 
 [Term]
 id: UBERON:0002031
