@@ -543,4 +543,4 @@ GO:0044003	modulation by symbiont of host process	NCBITaxon:7742	Vertebrata <Met
 GO:0052200	response to host defenses	NCBITaxon:33090	Viridiplantae	
 GO:0052200	response to host defenses	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0019035	viral integration complex	NCBITaxon:2759	Eukaryota
-GO:0019035	viral integration complex	NCBITaxon:10239	Viruses
+GO:0019035	viral integration complex	NCBITaxon:2157	Archaea	
