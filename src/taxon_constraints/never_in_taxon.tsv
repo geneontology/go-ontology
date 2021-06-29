@@ -541,4 +541,4 @@ GO:0140643	hydroxymethylglutaryl-CoA reductase (NADH) activity	NCBITaxon:2759	Eu
 GO:0044003	modulation by symbiont of host process	NCBITaxon:33090	Viridiplantae	
 GO:0044003	modulation by symbiont of host process	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0052200	response to host defenses	NCBITaxon:33090	Viridiplantae	
-GO:0052200	response to host defenses	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0052200	response to host defenses	NCBITaxon:7742	Vertebrata <Metazoa>	
