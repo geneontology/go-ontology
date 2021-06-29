@@ -834,4 +834,4 @@ GO:0120309	cilium attachment to cell body	NCBITaxon:5653	Kinetoplastida
 GO:0120310	amastigogenesis	NCBITaxon:5654	Trypanosomatidae	
 GO:0120307	Hechtian strand	NCBITaxon:33090	Viridiplantae	
 GO:0007533 	mating type switching	NCBITaxon:4751	Fungi	
-GO:0019035	viral integration complex	NCBITaxon:10239	Viruses
+GO:0019035	viral integration complex	NCBITaxon:10239	Viruses	
