@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-06-24/imports/cl_import.owl
+data-version: go/releases/2021-07-04/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -313,15 +313,6 @@ synonym: "polymorphonuclear leucocyte" BROAD []
 synonym: "polymorphonuclear leukocyte" BROAD []
 is_a: CL:0000767 ! basophil
 is_a: CL:0002274 ! histamine secreting cell
-intersection_of: CL:0000767 ! basophil
-intersection_of: BFO:0000051 GO:0098537
-intersection_of: RO:0002215 GO:0002349
-intersection_of: RO:0002215 GO:0002351
-intersection_of: RO:0002215 GO:0002830
-intersection_of: RO:0002215 GO:0008015
-intersection_of: RO:0002215 GO:0032616
-intersection_of: RO:0002215 GO:0032633
-intersection_of: RO:0002215 GO:0048295
 relationship: RO:0002202 CL:0000770 ! band form basophil
 
 [Term]
@@ -647,24 +638,6 @@ synonym: "polymorphonuclear neutrophil" EXACT []
 synonym: "polynuclear neutrophilic leucocyte" EXACT []
 synonym: "polynuclear neutrophilic leukocyte" EXACT []
 is_a: CL:0000775 ! neutrophil
-intersection_of: CL:0000775 ! neutrophil
-intersection_of: BFO:0000051 CP:0000000 ! neutrophillic cytoplasm
-intersection_of: BFO:0000051 GO:0070820
-intersection_of: BFO:0000051 GO:0098537
-intersection_of: lacks_part PR:000009978
-intersection_of: lacks_part PR:000010543
-intersection_of: lacks_part PR:000010799
-intersection_of: RO:0002104 PR:000001256
-intersection_of: RO:0002104 PR:000001257
-intersection_of: RO:0002104 PR:000001456
-intersection_of: RO:0002104 PR:000001483
-intersection_of: RO:0002104 PR:000001879
-intersection_of: RO:0002104 PR:000001944
-intersection_of: RO:0002104 PR:000007597
-intersection_of: RO:0002215 GO:0002536
-intersection_of: RO:0002215 GO:0002690
-intersection_of: RO:0002215 GO:0006909
-intersection_of: RO:0002215 GO:0032637
 
 [Term]
 id: CL:0000097
@@ -727,7 +700,8 @@ intersection_of: RO:0002215 GO:0050906
 id: CL:0000103
 name: bipolar neuron
 def: "A type of interneuron that has two neurites, usually an axon and a dendrite, extending from opposite poles of an ovoid cell body." []
-is_a: CL:0000099 ! interneuron
+intersection_of: CL:0000099 ! interneuron
+intersection_of: RO:0000053 PATO:0070006
 
 [Term]
 id: CL:0000106
@@ -741,7 +715,7 @@ name: autonomic neuron
 def: "A neruon whose cell body is within an autonomic ganglion." []
 is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
-intersection_of: BFO:0000050 UBERON:0002410
+intersection_of: RO:0002100 UBERON:0002410
 
 [Term]
 id: CL:0000108
@@ -798,12 +772,14 @@ synonym: "Purkinje neuron" EXACT []
 synonym: "Purkinje's cell" EXACT []
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 is_a: CL:0000527 ! efferent neuron
-relationship: BFO:0000050 UBERON:0002129
+relationship: RO:0002100 UBERON:0002129
 
 [Term]
 id: CL:0000122
 name: stellate neuron
-is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
+def: "A neuron that has dendritic processes radiating from the cell body forming a star-like shape." []
+intersection_of: CL:0000117 ! CNS neuron (sensu Vertebrata)
+intersection_of: RO:0000053 PATO:0070010
 
 [Term]
 id: CL:0000123
@@ -1869,7 +1845,7 @@ id: CL:0000397
 name: ganglion interneuron
 is_a: CL:0000099 ! interneuron
 intersection_of: CL:0000099 ! interneuron
-intersection_of: BFO:0000050 UBERON:0000045
+intersection_of: RO:0002100 UBERON:0000045
 
 [Term]
 id: CL:0000402
@@ -1877,7 +1853,7 @@ name: CNS interneuron
 is_a: CL:0000099 ! interneuron
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 intersection_of: CL:0000099 ! interneuron
-intersection_of: BFO:0000050 UBERON:0001017
+intersection_of: RO:0002100 UBERON:0001017
 
 [Term]
 id: CL:0000404
@@ -2188,6 +2164,7 @@ id: CL:0000487
 name: oenocyte
 def: "A large secretory cell found in clusters underlying the epidermis of the abdominal segments of larval abdominal segments." []
 is_a: CL:0000151 ! secretory cell
+relationship: RO:0002162 NCBITaxon:6656
 
 [Term]
 id: CL:0000488
@@ -2798,11 +2775,12 @@ is_a: CL:0002369 ! fungal spore
 [Term]
 id: CL:0000598
 name: pyramidal neuron
-def: "Pyramidal neurons have a pyramid-shaped soma with the apex and an apical dendrite pointed toward the pial surface and other dendrites and an axon emerging from the base. The axons may have local collaterals but also project outside their  region. Pyramidal neurons are found in the cerebral cortex, the hippocampus, and the amygdala." []
+def: "Pyramidal neurons have a pyramid-shaped soma with a single axon, a large apical dendrite and multiple basal dendrites. The apex and an apical dendrite typically point toward the pial surface and other dendrites and an axon emerging from the base. The axons may have local collaterals but also project outside their region. Pyramidal neurons are found in the cerebral cortex, the hippocampus, and the amygdala." []
 synonym: "projection neuron" EXACT []
 synonym: "pyramidal cell" EXACT []
 synonym: "pyramidal neuron" EXACT []
-is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
+intersection_of: CL:0000117 ! CNS neuron (sensu Vertebrata)
+intersection_of: RO:0000053 PATO:0070015
 
 [Term]
 id: CL:0000599
@@ -3235,6 +3213,7 @@ id: CL:0000677
 name: gut absorptive cell
 def: "Cell of the intestinal epithelium with a brush border made up of many parallel packed microvilli; associated with absorption, particularly of macromolecules." []
 is_a: CL:0000212 ! absorptive cell
+relationship: BFO:0000050 UBERON:0001277
 
 [Term]
 id: CL:0000678
@@ -3282,6 +3261,12 @@ is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0033326
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
+
+[Term]
+id: CL:0000691
+name: stellate interneuron
+intersection_of: CL:0000099 ! interneuron
+intersection_of: RO:0000053 PATO:0070010
 
 [Term]
 id: CL:0000695
@@ -3475,7 +3460,7 @@ synonym: "gangliocyte" EXACT []
 synonym: "ganglion cell of retina" EXACT []
 synonym: "RGC" EXACT []
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
-relationship: BFO:0000050 UBERON:0000966
+relationship: RO:0002100 UBERON:0000966
 
 [Term]
 id: CL:0000746
@@ -9356,7 +9341,6 @@ intersection_of: BFO:0000050 UBERON:0002073
 id: CL:0002563
 name: intestinal epithelial cell
 def: "An epithelial cell of the intestine." []
-is_a: CL:0002251 ! epithelial cell of alimentary canal
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0000160
 relationship: BFO:0000050 UBERON:0001277
@@ -9543,7 +9527,7 @@ def: "A CNS neuron of the cerebral cortex." []
 synonym: "cortical neuron" EXACT []
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 intersection_of: CL:0000117 ! CNS neuron (sensu Vertebrata)
-intersection_of: BFO:0000050 UBERON:0000956
+intersection_of: RO:0002100 UBERON:0000956
 
 [Term]
 id: CL:0002611
@@ -9551,7 +9535,7 @@ name: neuron of the dorsal spinal cord
 def: "A CNS neuron of the dorsal spinal cord." []
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 intersection_of: CL:0000117 ! CNS neuron (sensu Vertebrata)
-intersection_of: BFO:0000050 UBERON:0002256
+intersection_of: RO:0002100 UBERON:0002256
 
 [Term]
 id: CL:0002612
@@ -9559,7 +9543,7 @@ name: neuron of the ventral spinal cord
 def: "A neuron of the ventral spinal cord." []
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 intersection_of: CL:0000117 ! CNS neuron (sensu Vertebrata)
-intersection_of: BFO:0000050 UBERON:0002257
+intersection_of: RO:0002100 UBERON:0002257
 
 [Term]
 id: CL:0002613
@@ -9567,7 +9551,7 @@ name: striatum neuron
 def: "A neuron of the striatum." []
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 intersection_of: CL:0000117 ! CNS neuron (sensu Vertebrata)
-intersection_of: BFO:0000050 UBERON:0002435
+intersection_of: RO:0002100 UBERON:0002435
 
 [Term]
 id: CL:0002614
@@ -9575,7 +9559,7 @@ name: neuron of the substantia nigra
 def: "A neuron of the substantia nigra." []
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 intersection_of: CL:0000117 ! CNS neuron (sensu Vertebrata)
-intersection_of: BFO:0000050 UBERON:0002038
+intersection_of: RO:0002100 UBERON:0002038
 
 [Term]
 id: CL:0002620
@@ -9761,7 +9745,7 @@ name: spinal cord interneuron
 def: "A CNS interneuron located in the spinal cord." []
 is_a: CL:0000402 ! CNS interneuron
 intersection_of: CL:0000099 ! interneuron
-intersection_of: BFO:0000050 UBERON:0002240
+intersection_of: RO:0002100 UBERON:0002240
 
 [Term]
 id: CL:0005001
@@ -9925,7 +9909,7 @@ name: enteric neuron
 def: "Neuron that is part of the enteric nervous system." []
 is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
-intersection_of: BFO:0000050 UBERON:0002005
+intersection_of: RO:0002100 UBERON:0002005
 relationship: BFO:0000050 UBERON:0002005
 relationship: RO:0002202 CL:0002607 ! migratory enteric neural crest cell
 
@@ -10038,7 +10022,7 @@ relationship: RO:0002215 GO:0016477
 id: CL:0008021
 name: anterior lateral line ganglion neuron
 intersection_of: CL:0000540 ! neuron
-intersection_of: BFO:0000050 UBERON:2001391
+intersection_of: RO:0002100 UBERON:2001391
 
 [Term]
 id: CL:0008022
@@ -10241,7 +10225,7 @@ id: CL:0010012
 name: cerebral cortex neuron
 def: "A neuron that is part_of a cerebral cortex." []
 intersection_of: CL:0000540 ! neuron
-intersection_of: BFO:0000050 UBERON:0000956
+intersection_of: RO:0002100 UBERON:0000956
 
 [Term]
 id: CL:0010017
@@ -10274,7 +10258,7 @@ def: "A CNS interneuron located in the dorsal horn of the spinal cord." []
 synonym: "dorsal spinal cord interneuron" RELATED []
 is_a: CL:0005000 ! spinal cord interneuron
 intersection_of: CL:0000099 ! interneuron
-intersection_of: BFO:0000050 UBERON:0002256
+intersection_of: RO:0002100 UBERON:0002256
 
 [Term]
 id: CL:0011001
@@ -10464,7 +10448,7 @@ def: "A CNS neuron of the forebrain." []
 synonym: "forebrain neuron" EXACT []
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 intersection_of: CL:0000117 ! CNS neuron (sensu Vertebrata)
-intersection_of: BFO:0000050 UBERON:0001890
+intersection_of: RO:0002100 UBERON:0001890
 
 [Term]
 id: CL:0013000
@@ -10525,7 +10509,7 @@ intersection_of: BFO:0000050 UBERON:0001277
 id: CL:1000001
 name: retrotrapezoid nucleus neuron
 intersection_of: CL:0000540 ! neuron
-intersection_of: BFO:0000050 UBERON:0009918
+intersection_of: RO:0002100 UBERON:0009918
 
 [Term]
 id: CL:1000022
@@ -10623,7 +10607,7 @@ intersection_of: BFO:0000050 UBERON:2000425
 id: CL:1000245
 name: posterior lateral line ganglion neuron
 intersection_of: CL:0000540 ! neuron
-intersection_of: BFO:0000050 UBERON:2001314
+intersection_of: RO:0002100 UBERON:2001314
 
 [Term]
 id: CL:1000271
@@ -11069,7 +11053,7 @@ id: CL:1000606
 name: kidney nerve cell
 is_a: CL:1000500 ! kidney interstitial cell
 intersection_of: CL:0000540 ! neuron
-intersection_of: BFO:0000050 UBERON:0002113
+intersection_of: RO:0002100 UBERON:0002113
 
 [Term]
 id: CL:1000612
@@ -11255,7 +11239,7 @@ name: olfactory bulb interneuron
 def: "A neuron residing in the olfactory bulb that serve to process and refine signals arising from olfactory sensory neurons" []
 is_a: CL:0000101 ! sensory neuron
 intersection_of: CL:0000099 ! interneuron
-intersection_of: BFO:0000050 UBERON:0002264
+intersection_of: RO:0002100 UBERON:0002264
 relationship: BFO:0000050 UBERON:0002264
 
 [Term]
@@ -11397,7 +11381,7 @@ synonym: "lateral ventricle neural cell" RELATED []
 synonym: "lateral ventricle neuronal cell" RELATED []
 synonym: "lateral ventricle neuronal cells" RELATED []
 intersection_of: CL:0000540 ! neuron
-intersection_of: BFO:0000050 UBERON:0002285
+intersection_of: RO:0002100 UBERON:0002285
 
 [Term]
 id: CL:1001586
@@ -11562,7 +11546,7 @@ name: cerebellar neuron
 def: "Neuron of the cerebellum." []
 synonym: "cerebellum neuron" RELATED []
 intersection_of: CL:0000540 ! neuron
-intersection_of: BFO:0000050 UBERON:0002037
+intersection_of: RO:0002100 UBERON:0002037
 
 [Term]
 id: CL:2000000
@@ -11639,7 +11623,7 @@ id: CL:2000029
 name: central nervous system neuron
 def: "Any neuron that is part of a central nervous system." []
 intersection_of: CL:0000540 ! neuron
-intersection_of: BFO:0000050 UBERON:0001017
+intersection_of: RO:0002100 UBERON:0001017
 
 [Term]
 id: CL:2000030
@@ -11653,14 +11637,14 @@ id: CL:2000031
 name: lateral line ganglion neuron
 def: "Any neuron that is part of a lateral line ganglion." []
 intersection_of: CL:0000540 ! neuron
-intersection_of: BFO:0000050 UBERON:2000120
+intersection_of: RO:0002100 UBERON:2000120
 
 [Term]
 id: CL:2000032
 name: peripheral nervous system neuron
 def: "Any neuron that is part of a peripheral nervous system." []
 intersection_of: CL:0000540 ! neuron
-intersection_of: BFO:0000050 UBERON:0000010
+intersection_of: RO:0002100 UBERON:0000010
 
 [Term]
 id: CL:2000033
