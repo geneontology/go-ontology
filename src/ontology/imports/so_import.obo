@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-06-13/imports/so_import.owl
+data-version: go/releases/2021-07-04/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -403,7 +403,7 @@ is_a: SO:0000655 ! ncRNA
 id: SO:0000646
 name: siRNA
 namespace: sequence
-def: "A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. SRNAs trigger the cleavage of their target molecules." [PMID:12592000]
+def: "A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. siRNAs trigger the cleavage of their target molecules." [PMID:12592000]
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:siRNA" EXACT []
