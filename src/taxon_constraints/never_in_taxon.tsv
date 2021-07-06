@@ -542,3 +542,5 @@ GO:0044003	modulation by symbiont of host process	NCBITaxon:33090	Viridiplantae
 GO:0044003	modulation by symbiont of host process	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0052200	response to host defenses	NCBITaxon:33090	Viridiplantae	
 GO:0052200	response to host defenses	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0019746	hopanoid biosynthetic process	NCBITaxon:2	Bacteria	PMID:29456243
+GO:0019746	hopanoid biosynthetic process	NCBITaxon:33208	Metazoa	PMID:29456243
