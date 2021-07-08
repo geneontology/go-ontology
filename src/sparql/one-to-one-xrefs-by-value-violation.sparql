@@ -2,6 +2,7 @@
 
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
 
 SELECT ?x ?one_to_one_prefix (GROUP_CONCAT(?c ; separator=";") AS ?cs) WHERE 
@@ -10,6 +11,16 @@ SELECT ?x ?one_to_one_prefix (GROUP_CONCAT(?c ; separator=";") AS ?cs) WHERE
   ?c oio:hasDbXref ?x .
   FILTER(isIRI(?c))
   FILTER(STRSTARTS(STR(?x), ?one_to_one_prefix))
+  # only enforce this constraint for xrefs with either no mapping scope or scope of skos:exactMatch
+  OPTIONAL {
+    ?axiom a owl:Axiom ;
+        owl:annotatedSource ?c ;
+        owl:annotatedProperty oio:hasDbXref ;
+        owl:annotatedTarget ?x ;
+        oio:source ?value .
+  }
+  BIND(COALESCE(?value, "skos:exactMatch"^^xsd:string) AS ?scope)
+  FILTER(?scope = "skos:exactMatch"^^xsd:string)
 }
 GROUP BY ?x ?one_to_one_prefix
 HAVING(COUNT(DISTINCT ?c) > 1)
