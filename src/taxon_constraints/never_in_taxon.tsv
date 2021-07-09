@@ -546,3 +546,5 @@ GO:0019746	hopanoid biosynthetic process	NCBITaxon:2	Bacteria	PMID:29456243
 GO:0019746	hopanoid biosynthetic process	NCBITaxon:33208	Metazoa	PMID:29456243
 GO:0007114	cell budding	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0007114	cell budding	NCBITaxon:33208	Metazoa	
+GO:0140671	ADA complex	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0140672	ATAC complex	NCBITaxon:4751	Fungi	
