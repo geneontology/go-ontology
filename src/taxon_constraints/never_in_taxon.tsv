@@ -544,3 +544,5 @@ GO:0052200	response to host defenses	NCBITaxon:33090	Viridiplantae
 GO:0052200	response to host defenses	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0019746	hopanoid biosynthetic process	NCBITaxon:2	Bacteria	PMID:29456243
 GO:0019746	hopanoid biosynthetic process	NCBITaxon:33208	Metazoa	PMID:29456243
+GO:0007114	cell budding	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0007114	cell budding	NCBITaxon:33208	Metazoa	
