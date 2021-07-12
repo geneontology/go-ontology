@@ -27,3 +27,12 @@ http://purl.obolibrary.org/obo/SO_0000305 ## modified_DNA_base
 http://purl.obolibrary.org/obo/SO_0001700 ## histone_modification
 http://purl.obolibrary.org/obo/SO_0000613 ## bacterial_RNApol_promoter
 http://purl.obolibrary.org/obo/SO_0000235 ## TF_binding_site
+http://purl.obolibrary.org/obo/SO_0001217 ## protein_coding_gene
+http://purl.obolibrary.org/obo/SO_0001263 ## ncRNA_gene
+http://purl.obolibrary.org/obo/SO_0000234 ## mRNA
+http://purl.obolibrary.org/obo/SO_0000655 ## ncRNA
+http://purl.obolibrary.org/obo/SO_0001645 ## genetic_marker
+http://purl.obolibrary.org/obo/SO_3000000 ## gene segment
+http://purl.obolibrary.org/obo/SO_0000336 ## pseudogene
+http://purl.obolibrary.org/obo/SO_0000704 ## gene
+http://purl.obolibrary.org/obo/SO_0001411 ## biological region

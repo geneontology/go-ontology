@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-06-13/imports/so_import.owl
+data-version: go/releases/2021-07-12/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -231,6 +231,19 @@ xref: http://en.wikipedia.org/wiki/Conserved_region "wiki"
 is_a: SO:0001410 ! experimental_feature
 
 [Term]
+id: SO:0000336
+name: pseudogene
+namespace: sequence
+def: "A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their \"normal\" paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its \"normal\" paralog)." [http://www.ucl.ac.uk/~ucbhjow/b241/glossary.html]
+subset: Alliance_of_Genome_Resources
+subset: SOFA
+synonym: "INSDC_feature:gene" BROAD []
+synonym: "INSDC_qualifier:pseudo" EXACT []
+synonym: "INSDC_qualifier:unknown" EXACT []
+xref: http://en.wikipedia.org/wiki/Pseudogene "wiki"
+is_a: SO:0001411 ! biological_region
+
+[Term]
 id: SO:0000370
 name: small_regulatory_ncRNA
 namespace: sequence
@@ -403,7 +416,7 @@ is_a: SO:0000655 ! ncRNA
 id: SO:0000646
 name: siRNA
 namespace: sequence
-def: "A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. SRNAs trigger the cleavage of their target molecules." [PMID:12592000]
+def: "A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. siRNAs trigger the cleavage of their target molecules." [PMID:12592000]
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:siRNA" EXACT []
@@ -469,6 +482,17 @@ subset: SOFA
 synonym: "boundary" EXACT []
 synonym: "breakpoint" EXACT []
 is_a: SO:0000110 ! sequence_feature
+
+[Term]
+id: SO:0000704
+name: gene
+namespace: sequence
+def: "A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions." [SO:immuno_workshop]
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. A gene may be considered as a unit of inheritance.
+subset: SOFA
+synonym: "INSDC_feature:gene" EXACT []
+xref: http://en.wikipedia.org/wiki/Gene "wiki"
+is_a: SO:0001411 ! biological_region
 
 [Term]
 id: SO:0000713
@@ -657,6 +681,15 @@ xref: http://en.wikipedia.org/wiki/Post_translational_modification "wiki"
 is_a: SO:0100001 ! biochemical_region_of_peptide
 
 [Term]
+id: SO:0001217
+name: protein_coding_gene
+namespace: sequence
+def: "A gene that codes for an RNA that can be translated into a protein." []
+subset: Alliance_of_Genome_Resources
+synonym: "protein coding gene" EXACT []
+is_a: SO:0000704 ! gene
+
+[Term]
 id: SO:0001236
 name: base
 namespace: sequence
@@ -674,6 +707,16 @@ comment: Merged into promoter (SO:0000167) on 11 Feb 2021 by Dave Sant. GREEKC h
 synonym: "TSS region" EXACT []
 is_obsolete: true
 replaced_by: SO:0000167
+
+[Term]
+id: SO:0001263
+name: ncRNA_gene
+namespace: sequence
+def: "A gene that encodes a non-coding RNA." []
+subset: Alliance_of_Genome_Resources
+synonym: "ncRNA gene" EXACT []
+synonym: "non-coding RNA gene" EXACT []
+is_a: SO:0000704 ! gene
 
 [Term]
 id: SO:0001410
@@ -705,6 +748,16 @@ def: "A DNA region within which self-interaction occurs more often than expected
 subset: SOFA
 synonym: "topologically defined region" EXACT []
 is_a: SO:0000001 ! region
+
+[Term]
+id: SO:0001645
+name: genetic_marker
+namespace: sequence
+def: "A measurable sequence feature that varies within a population." [SO:db]
+synonym: "genetic marker" RELATED []
+is_a: SO:0001411 ! biological_region
+created_by: kareneilbeck
+creation_date: 2010-05-28T02:33:07Z
 
 [Term]
 id: SO:0001654
@@ -1012,4 +1065,13 @@ def: "A subsection of sequence with biological interest that is conserved in dif
 subset: biosapiens
 synonym: "polypeptide conserved region" EXACT []
 is_a: SO:0000839 ! polypeptide_region
+
+[Term]
+id: SO:3000000
+name: gene_segment
+namespace: sequence
+def: "A gene component region which acts as a recombinational unit of a gene whose functional form is generated through somatic recombination." [GOC:add]
+comment: Requested by tracker 2021594, July 2008, by Alex.
+synonym: "gene segment" EXACT []
+is_a: SO:0000842 ! gene_component_region
 
