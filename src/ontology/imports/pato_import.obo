@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-03-13/imports/pato_import.owl
+data-version: go/releases/2021-07-12/imports/pato_import.owl
 ontology: go/imports/pato_import
 
 [Term]
@@ -214,12 +214,10 @@ xref: has_cross_section
 [Typedef]
 id: has_part
 name: has_part
-def: "Q1 has_part Q2 if and only if: every instance of Q1 is a quality_of an entity that has_quality some Q2." []
 xref: BFO:0000051
 
 [Typedef]
 id: part_of
 name: part_of
 xref: BFO:0000050
-is_transitive: true
 
