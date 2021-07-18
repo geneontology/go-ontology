@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-07-12/imports/so_import.owl
+data-version: go/releases/2021-07-18/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -891,7 +891,7 @@ creation_date: 2012-06-11T02:55:02Z
 id: SO:0001997
 name: subtelomere
 namespace: sequence
-def: "A heterochromatic region of the chromosome,  adjacent to the telomere (on the centromeric side) that contains repetitive DNA and sometimes genes and it is transcribed." [POMBE:al]
+def: "A heterochromatic region of the chromosome, adjacent to the telomere (on the centromeric side) that contains repetitive DNA and sometimes genes and it is transcribed." [POMBE:al]
 is_a: SO:0000628 ! chromosomal_structural_element
 created_by: kareneilbeck
 creation_date: 2014-01-05T07:02:01Z
