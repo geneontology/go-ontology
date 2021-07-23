@@ -1,4 +1,8 @@
-pattern_name: 'inhibitor_activity'
+pattern_name: inhibitor activity
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/inhibitor_activity.yaml
+
+description: TODO
 
 classes:
   molecular function: 'GO:0003674'
@@ -10,15 +14,6 @@ relations:
 vars: 
   regulated_activity: "'catalytic activity'" 
 
-# Boilerplate - don't edit
-data_list_vars:
-  def_xrefs: "xsd:string"
-  cross_references: "xsd:string"
-  exact_syn: "xsd:string"
-  narrow_syn: "xsd:string"
-  broad_syn: "xsd:string"
-  related_syn: "xsd:string"
-  
 name:
   text: "%s inhibitor activity" 
   vars:
@@ -32,11 +27,6 @@ def:
   vars:
     - 'regulated_activity'
     - 'regulated_activity'
-  xrefs: def_xrefs
-
-# Boilerplate - don't edit
-xref: 
-  value: cross_references
 
 namespace: 
   text: 'biological_process'
@@ -45,14 +35,3 @@ equivalentTo:
   text: "'molecular function' that 'directly negatively regulates' some %s"
   vars:
     - 'regulated_activity'
-    
-
-# Boilerplate - don't edit
-exact_synonyms: 
-   value: exact_syn
-narrow_synonyms: 
-   value: narrow_syn
-broad_synonyms: 
-   value: broad_syn
-related_synonyms: 
-   value: related_syn

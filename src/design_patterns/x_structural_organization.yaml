@@ -1,63 +1,33 @@
-# This is a YAML file.  Use a consistent number of spaces for indent.  Do not use tabs.
-pattern_name: 'x_structural_organization_template.yaml' # Add a name used to identify the pattern here.
+pattern_name: x structural organization
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_structural_organization.yaml
+
+description: TODO
 
 classes:
   anatomical structure: 'UBERON:0000061'
   anatomical structure arrangement: 'GO:0048532'
-   # A dictionary of OWL classes, references in the pattern. Key = label (name); Value = OBO style ID (e.g. GO:1234567)
 
-  
 relations:
   results in structural organization of: 'RO:0002355' 
-  # A dictionary of OWL object properties (relations, referenced in the pattern. Key = label (name); Value = OBO style ID.
-  
-vars: # A dictionary of class variable names (Keys = var name, value = range, specified as Manchester Syntax class expression.)
-  # Manchester syntax class expression must be double-quoted.  
-  # OWL entities referenced must be single quoted and in dictionaries.
-  target: "'anatomical structure'" # Please choose informative var names without special characters or spaces (apart from '_')
 
-# Boilerplate - don't edit
-data_list_vars:
-  def_xrefs: "xsd:string"
-  cross_references: "xsd:string"
-  exact_syn: "xsd:string"
-  narrow_syn: "xsd:string"
-  broad_syn: "xsd:string"
-  related_syn: "xsd:string"
-  
+vars:
+  target: "'anatomical structure'"
+
 name:
-  text: "% structural organization"  # text with var slots specified as %s.
-  vars:   # A list of var names. These don't need to be quoted. 
-  # The order of variables = the order of intended insertion into slots.
+  text: "%s structural organization"  # text with var slots specified as %s.
+  vars:
     - 'target'
-    
-def: # See comments on name field
+
+def:
   text: "The process that contributes to the act of creating the structural organization of the %s. This process pertains to the physical shapin of a rudimetary structure."
   vars:
     - 'target'
-  xrefs: def_xrefs
-
-# Boilerplate - don't edit
-xref: 
-   value: cross_references
 
 namespace: 
   text: 'biological_process'  # e.g. biological_process, quoting is optional
 
 equivalentTo: 
-  # text = manchester syntax class expression  with var slots specified as %s and owl entities 
-  # Text must be double quoted or start with '>' return - indent.
-  # specified as *single* quoted names.  All names must be in dict.  All vars must be in vars list.
   text: "'anatomical structure arrangement' and 'results in structural organization of' some %s" 
   vars:
     - 'target'
-
-# Boilerplate - don't edit
-exact_synonyms: 
-   value: exact_syn
-narrow_synonyms: 
-   value: narrow_syn
-broad_synonyms: 
-   value: broad_syn
-related_synonyms: 
-   value: related_syn

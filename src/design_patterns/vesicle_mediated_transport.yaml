@@ -1,4 +1,8 @@
-pattern_name: vesicle-mediated_transport
+pattern_name: vesicle-mediated transport
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport.yaml
+
+description: TODO
 
 classes:
   vesicle-mediated transport: "GO:0016192"
@@ -9,7 +13,6 @@ relations:
 
 vars:
  target: "'cellular component'"
- 
 
 name:
   text: "%s vesicle-mediated transport"

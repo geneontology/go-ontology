@@ -1,4 +1,8 @@
-pattern_name: 'cc_organization'
+pattern_name: cc organization
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cc_organization.yaml
+
+description: TODO
 
 classes:
   cellular component: 'GO:0005575'
@@ -11,15 +15,6 @@ relations:
 vars:
   component: "'cellular component'"
 
-# Boilerplate - don't edit
-data_list_vars:
-  def_xrefs: "xsd:string"
-  cross_references: "xsd:string"
-  exact_syn: "xsd:string"
-  narrow_syn: "xsd:string"
-  broad_syn: "xsd:string"
-  related_syn: "xsd:string"
-
 name:
   text: "%s organization"
   vars:
@@ -30,13 +25,7 @@ def:
     arrangement of constituent parts, or disassembly of %s." 
   vars:
      - 'component'
-  xrefs: def_xrefs
 
-# Boilerplate - don't edit
-xrefs: 
-   value: cross_references
-
-     
 namespace:
    text: 'biological_process'
 
@@ -52,13 +41,3 @@ GCI:
   vars: 
      - component
      - component
-    
-# Boilerplate - don't edit
-exact_synonyms: 
-   value: exact_syn
-narrow_synonyms: 
-   value: narrow_syn
-broad_synonyms: 
-   value: broad_syn
-related_synonyms: 
-   value: related_syn

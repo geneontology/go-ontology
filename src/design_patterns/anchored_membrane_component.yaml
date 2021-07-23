@@ -1,4 +1,8 @@
-pattern_name: 'anchored_membrane_component'
+pattern_name: anchored membrane component
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml
+
+description: TODO
 
 classes:
   membrane: 'GO:0016020'
@@ -10,16 +14,8 @@ relations:
 
 vars: 
   membrane: "'membrane' or 'side of membrane'"
-  
-# Boilerplate - don't edit
-data_list_vars:
-  def_xrefs: "xsd:string"
-  cross_references: "xsd:string"
-  exact_syn: "xsd:string"
-  narrow_syn: "xsd:string"
-  broad_syn: "xsd:string"
-  related_syn: "xsd:string"
-  
+
+
 name:
   text: "anchored component of %s"
   vars: 
@@ -29,12 +25,6 @@ def:
   text: "The component of the %s consisting of the gene products that are tethered to the membrane only by a covalently attached anchor, such as a lipid group that is embedded in the membrane. Gene products with peptide sequences that are embedded in the membrane are excluded from this grouping."
   vars:
     - 'membrane'
-xref: # Boilerplate - don't edit
-  value: def_xrefs
-
-# Boilerplate - don't edit
-xrefs: 
-   value: cross_references
 
 namespace: 
   text: 'biological_process'  # e.g. biological_process, quoting is optional
@@ -43,13 +33,4 @@ equivalentTo:
   text: "'anchored component of membrane' and 'part of' some %s"
   vars:
     - 'membrane'
-    
-# Boilerplate - don't edit
-exact_synonyms: 
-   value: exact_syn
-narrow_synonyms: 
-   value: narrow_syn
-broad_synonyms: 
-   value: broad_syn
-related_synonyms: 
-   value: related_syn
+

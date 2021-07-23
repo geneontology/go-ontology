@@ -1,4 +1,8 @@
-pattern_name: 'extrinsic_membrane_component'
+pattern_name: extrinsic membrane component
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml
+
+description: TODO
 
 classes:
   membrane: 'GO:0016020'
@@ -11,15 +15,6 @@ relations:
 vars: 
   membrane: "membrane or 'side of membrane'"
 
-# Boilerplate - don't edit
-data_list_vars:
-  def_xrefs: "xsd:string"
-  cross_references: "xsd:string"
-  exact_syn: "xsd:string"
-  narrow_syn: "xsd:string"
-  broad_syn: "xsd:string"
-  related_syn: "xsd:string"
-  
 name:
   text: "extrinsic component of %s" 
   vars:
@@ -29,11 +24,6 @@ def:
   text: "The component of the %s consisting of gene products and protein complexes that are loosely bound to one of its surfaces, but not integrated into the hydrophobic region."
   vars:
     - 'membrane'
-  xrefs: def_xrefs
-
-# Boilerplate - don't edit
-xref: 
-   value: cross_references
 
 namespace: 
   text: 'biological_process'
@@ -42,14 +32,3 @@ equivalentTo:
   text: "'extrinsic component of membrane' and 'part of' some %s"
   vars:
     - 'membrane'
-    
-
-# Boilerplate - don't edit
-exact_synonyms: 
-   value: exact_syn
-narrow_synonyms: 
-   value: narrow_syn
-broad_synonyms: 
-   value: broad_syn
-related_synonyms: 
-   value: related_syn

@@ -1,4 +1,8 @@
-pattern_name: 'involved_in_x_y'
+pattern_name: involved in x y
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml
+
+description: TODO
 
 classes:
   biological process: 'GO:0008150'
@@ -10,16 +14,6 @@ vars:
   process1: "'biological process'" 
   process2: "'biological process'" 
 
-
-# Boilerplate - don't edit
-data_list_vars:
-  def_xrefs: "xsd:string"
-  cross_references: "xsd:string"
-  exact_syn: "xsd:string"
-  narrow_syn: "xsd:string"
-  broad_syn: "xsd:string"
-  related_syn: "xsd:string"
-  
 name:
   text: "%s involved in %s" 
   vars:
@@ -31,11 +25,6 @@ def:
   vars:
     - 'process1'
     - 'process2'
-  xrefs: def_xrefs
-
-# Boilerplate - don't edit
-xref: 
-   value: cross_references
 
 namespace: 
   text: 'biological_process'
@@ -45,13 +34,3 @@ equivalentTo:
   vars:
     - 'process1'
     - 'process2'
-
-# Boilerplate - don't edit
-exact_synonyms: 
-   value: exact_syn
-narrow_synonyms: 
-   value: narrow_syn
-broad_synonyms: 
-   value: broad_syn
-related_synonyms: 
-   value: related_syn

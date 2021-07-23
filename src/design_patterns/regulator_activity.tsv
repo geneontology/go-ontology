@@ -1,12 +1,1 @@
 defined_class	defined_class_label	regulated_activity	regulated_activity_label
-http://purl.obolibrary.org/obo/GO_0008603	cAMP-dependent protein kinase regulator activity	http://purl.obolibrary.org/obo/GO_0004691	cAMP-dependent protein kinase activity
-http://purl.obolibrary.org/obo/GO_0010858	calcium-dependent protein kinase regulator activity	http://purl.obolibrary.org/obo/GO_0010857	calcium-dependent protein kinase activity
-http://purl.obolibrary.org/obo/GO_0016538	cyclin-dependent protein serine/threonine kinase regulator activity	http://purl.obolibrary.org/obo/GO_0004693	cyclin-dependent protein serine/threonine kinase activity
-http://purl.obolibrary.org/obo/GO_0030234	enzyme regulator activity	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
-http://purl.obolibrary.org/obo/GO_0042556	eukaryotic elongation factor-2 kinase regulator activity	http://purl.obolibrary.org/obo/GO_0004686	elongation factor-2 kinase activity
-http://purl.obolibrary.org/obo/GO_0019207	kinase regulator activity	http://purl.obolibrary.org/obo/GO_0016301	kinase activity
-http://purl.obolibrary.org/obo/GO_0017020	myosin phosphatase regulator activity	http://purl.obolibrary.org/obo/GO_0017018	myosin phosphatase activity
-http://purl.obolibrary.org/obo/GO_0019208	phosphatase regulator activity	http://purl.obolibrary.org/obo/GO_0016791	phosphatase activity
-http://purl.obolibrary.org/obo/GO_0008607	phosphorylase kinase regulator activity	http://purl.obolibrary.org/obo/GO_0004689	phosphorylase kinase activity
-http://purl.obolibrary.org/obo/GO_0019887	protein kinase regulator activity	http://purl.obolibrary.org/obo/GO_0004672	protein kinase activity
-http://purl.obolibrary.org/obo/GO_0019888	protein phosphatase regulator activity	http://purl.obolibrary.org/obo/GO_0004721	phosphoprotein phosphatase activity

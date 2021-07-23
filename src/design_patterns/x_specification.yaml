@@ -1,4 +1,8 @@
-pattern_name: x_specification
+pattern_name: x specification
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_specification.yaml
+
+description: TODO
 
 classes:
   anatomical structure: "UBERON:0000061"

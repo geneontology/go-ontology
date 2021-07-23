@@ -1,4 +1,8 @@
-pattern_name: x_formation
+pattern_name: x formation
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_formation.yaml
+
+description: TODO
 
 classes:
   anatomical structure: "UBERON:0000061"
@@ -24,4 +28,3 @@ equivalentTo:
   text: " 'anatomical structure formation involved in morphogenesis' and 'results in formation of' some %s"
   vars:
     - target
-

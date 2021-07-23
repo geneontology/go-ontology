@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-03-12/imports/ro_import.owl
+data-version: go/releases/2021-06-25/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -222,13 +222,6 @@ range: BFO:0000004 ! independent continuant
 is_a: spatially_disjoint_from ! spatially disjoint from
 
 [Typedef]
-id: bearer_of
-name: bearer of
-def: "a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence" []
-xref: RO:0000053
-range: BFO:0000020 ! specifically dependent continuant
-
-[Typedef]
 id: bounding_layer_of
 name: bounding layer of
 def: "X outer_layer_of Y iff:\n. X :continuant that bearer_of some PATO:laminar\n. X part_of Y\n. exists Z :surface\n. X has_boundary Z\n. Z boundary_of Y\n\nhas_boundary: http://purl.obolibrary.org/obo/RO_0002002\nboundary_of: http://purl.obolibrary.org/obo/RO_0002000" []
@@ -397,6 +390,24 @@ xref: RO:0004047
 is_a: causally_upstream_of_or_within ! causally upstream of or within
 
 [Typedef]
+id: characteristic_of
+name: characteristic of
+def: "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence." []
+xref: RO:0000052
+is_functional: true
+is_a: characteristic_of_part_of ! characteristic of part of
+inverse_of: has_characteristic ! has characteristic
+
+[Typedef]
+id: characteristic_of_part_of
+name: characteristic of part of
+def: "q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w." []
+xref: RO:0002314
+holds_over_chain: characteristic_of part_of
+is_a: depends_on ! depends on
+transitive_over: part_of ! part of
+
+[Typedef]
 id: coincident_with
 name: coincident with
 def: "A relation that holds between two linear structures that are approximately parallel to each other for their entire length and where either the two structures are adjacent to each other or one is part of the other." []
@@ -546,6 +557,13 @@ is_a: molecularly_interacts_with ! molecularly interacts with
 is_a: regulates_activity_of ! regulates activity of
 
 [Typedef]
+id: disposition_of
+name: disposition of
+def: "inverse of has disposition" []
+xref: RO:0000092
+is_a: characteristic_of ! characteristic of
+
+[Typedef]
 id: during_which_ends
 name: during which ends
 xref: RO:0002084
@@ -644,6 +662,15 @@ xref: RO:0002354
 is_a: output_of ! output of
 
 [Typedef]
+id: function_of
+name: function of
+def: "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence" []
+xref: RO:0000079
+domain: BFO:0000034 ! function
+is_a: characteristic_of ! characteristic of
+inverse_of: has_function ! has function
+
+[Typedef]
 id: functionally_related_to
 name: functionally related to
 def: "A grouping relationship for any relationship directly involving a function, or that holds because of a function of one of the related entities." []
@@ -663,6 +690,14 @@ name: has anatomical participant
 def: "p has anatomical participant c iff p has participant c, and c is an anatomical entity" []
 xref: RO:0040036
 is_a: has_participant ! has participant
+
+[Typedef]
+id: has_characteristic
+name: has characteristic
+def: "Inverse of characteristic_of" []
+xref: RO:0000053
+range: BFO:0000020 ! specifically dependent continuant
+is_inverse_functional: true
 
 [Typedef]
 id: has_component
@@ -707,6 +742,16 @@ range: CARO:0000000 ! anatomical entity
 is_a: developmentally_related_to ! developmentally related to
 
 [Typedef]
+id: has_disposition
+name: has disposition
+def: "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence" []
+xref: RO:0000091
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000016 ! disposition
+is_a: has_characteristic ! has characteristic
+inverse_of: disposition_of ! disposition of
+
+[Typedef]
 id: has_effector_activity
 name: has effector activity
 def: "A 'has effector activity' B if A and B are GO molecular functions (GO_0003674),  A 'has component activity' B and B is the effector (output function) of B.  Each compound function has only one effector activity." []
@@ -723,6 +768,15 @@ domain: BFO:0000015 ! process
 range: BFO:0000004 ! independent continuant
 holds_over_chain: ends_with occurs_in
 is_a: has_part_that_occurs_in ! has part that occurs in
+
+[Typedef]
+id: has_function
+name: has function
+def: "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence" []
+xref: RO:0000085
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000034 ! function
+is_a: has_characteristic ! has characteristic
 
 [Typedef]
 id: has_input
@@ -860,12 +914,29 @@ is_a: has_output ! has output
 is_a: has_primary_input_or_output ! has primary input or output
 
 [Typedef]
+id: has_quality
+name: has quality
+def: "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence" []
+xref: RO:0000086
+range: BFO:0000019 ! quality
+is_a: has_characteristic ! has characteristic
+
+[Typedef]
 id: has_regulatory_component_activity
 name: has regulatory component activity
 def: "A 'has regulatory component activity' B if A and B are GO molecular functions (GO_0003674), A has_component B and A is regulated by B." []
 xref: RO:0002013
 is_a: has_component_activity ! has component activity
 is_a: regulated_by ! regulated by
+
+[Typedef]
+id: has_role
+name: has role
+def: "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence" []
+xref: RO:0000087
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000023 ! role
+is_a: has_characteristic ! has characteristic
 
 [Typedef]
 id: has_start_location
@@ -944,23 +1015,6 @@ holds_over_chain: has_part in_taxon
 holds_over_chain: part_of in_taxon
 holds_over_chain: results_in_developmental_progression_of in_taxon
 is_a: evolutionarily_related_to ! evolutionarily related to
-
-[Typedef]
-id: inheres_in
-name: inheres in
-def: "a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence" []
-xref: RO:0000052
-is_a: inheres_in_part_of ! inheres in part of
-inverse_of: bearer_of ! bearer of
-
-[Typedef]
-id: inheres_in_part_of
-name: inheres in part of
-def: "q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w." []
-xref: RO:0002314
-holds_over_chain: inheres_in part_of
-is_a: depends_on ! depends on
-transitive_over: part_of ! part of
 
 [Typedef]
 id: input_of
@@ -1214,6 +1268,14 @@ range: BFO:0000040 ! material entity
 inverse_of: produced_by ! produced by
 
 [Typedef]
+id: quality_of
+name: quality of
+def: "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence" []
+xref: RO:0000080
+is_a: characteristic_of ! characteristic of
+inverse_of: has_quality ! has quality
+
+[Typedef]
 id: regulated_by
 name: regulated by
 def: "inverse of regulates" []
@@ -1427,6 +1489,14 @@ id: results_in_transport_to_from_or_in
 name: results in transport to from or in
 xref: RO:0002344
 is_a: related_via_localization_to ! related via localization to
+
+[Typedef]
+id: role_of
+name: role of
+def: "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence" []
+xref: RO:0000081
+is_a: characteristic_of ! characteristic of
+inverse_of: has_role ! has role
 
 [Typedef]
 id: spatially_disjoint_from

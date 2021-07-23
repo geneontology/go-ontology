@@ -222,10 +222,11 @@ $(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro-download.ow
 
 extensions/reacto.owl: $(GO_LEGO).owl mirror/chebi.owl
 	mkdir -p reacto-tmp
-	wget -O ./reacto-tmp/biopax2go.jar --no-check-certificate https://github.com/geneontology/pathways2GO/releases/download/v1.0.0/biopax2go.jar
+	wget -O ./reacto-tmp/biopax2go.jar --no-check-certificate https://github.com/geneontology/pathways2GO/releases/download/v1.1.3/biopax2go.jar
 	wget -O ./reacto-tmp/biopax.zip --no-check-certificate https://reactome.org/download/current/biopax.zip
 	unzip -o ./reacto-tmp/biopax.zip -d ./reacto-tmp/
 	java -jar -Xmx8G ./reacto-tmp/biopax2go.jar -b ./reacto-tmp/Homo_sapiens.owl -reacto ./extensions/reacto -lego $(GO_LEGO).owl -chebi ./mirror/chebi.owl
+	$(ROBOT) convert -i extensions/reacto.ttl -o extensions/reacto.owl
 	rm ./reacto-tmp/*
 	rmdir ./reacto-tmp
 
@@ -422,7 +423,6 @@ mirror/oba-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo -O $@.tmp && $(OWLTOOLS) $@.tmp --make-subset-by-properties -n // -o $@
 .PRECIOUS: mirror/oba-download.owl
 
-# special case: use basic for cl until base is compatible
 mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(CL_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl

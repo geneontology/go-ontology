@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-02-21/imports/so_import.owl
+data-version: go/releases/2021-07-18/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -114,7 +114,8 @@ is_a: SO:0001654 ! nucleotide_to_protein_binding_site
 id: SO:0000252
 name: rRNA
 namespace: sequence
-def: "RNA that comprises part of a ribosome, and that can provide both structural scaffolding and catalytic activity." [http://www.insdc.org/files/feature_table.html, ISBN:0198506732]
+def: "rRNA is an RNA component of a ribosome that can provide both structural scaffolding and catalytic activity." [http://www.insdc.org/files/feature_table.html, ISBN:0198506732]
+comment: Definition updated 10 June 2021 as part of restructuring rRNA terms and reforming definitions to have similar structures. Request from EBI. See GitHub Issue #493
 subset: SOFA
 synonym: "INSDC_feature:rRNA" EXACT []
 synonym: "INSDC_qualifier:unknown" BROAD []
@@ -230,6 +231,19 @@ xref: http://en.wikipedia.org/wiki/Conserved_region "wiki"
 is_a: SO:0001410 ! experimental_feature
 
 [Term]
+id: SO:0000336
+name: pseudogene
+namespace: sequence
+def: "A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their \"normal\" paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its \"normal\" paralog)." [http://www.ucl.ac.uk/~ucbhjow/b241/glossary.html]
+subset: Alliance_of_Genome_Resources
+subset: SOFA
+synonym: "INSDC_feature:gene" BROAD []
+synonym: "INSDC_qualifier:pseudo" EXACT []
+synonym: "INSDC_qualifier:unknown" EXACT []
+xref: http://en.wikipedia.org/wiki/Pseudogene "wiki"
+is_a: SO:0001411 ! biological_region
+
+[Term]
 id: SO:0000370
 name: small_regulatory_ncRNA
 namespace: sequence
@@ -240,17 +254,17 @@ is_a: SO:0002247 ! sncRNA
 
 [Term]
 id: SO:0000375
-name: rRNA_5_8S
+name: cytosolic_5_8S_rRNA
 namespace: sequence
-def: "5_8S ribosomal RNA (5.8S rRNA) is a component of the large subunit of the eukaryotic ribosome. It is transcribed by RNA polymerase I as part of the 45S precursor that also contains 18S and 28S rRNA. Functionally, it is thought that 5.8S rRNA may be involved in ribosome translocation. It is also known to form covalent linkage to the p53 tumour suppressor protein." [https://rfam.xfam.org/family/RF00002]
-comment: Dave Sant removed '5_8S rRNA is also found in archaea.' from definition due to lack of references mentioning this on 1 Feb 2021. See GitHub Issue #505.
+def: "Cytosolic 5.8S rRNA is an RNA component of the large subunit of cytosolic ribosomes in eukaryotes." [https://rfam.xfam.org/family/RF00002]
+comment: Dave Sant removed '5_8S rRNA is also found in archaea.' from definition due to lack of references mentioning this on 1 Feb 2021. See GitHub Issue #505. Renamed from rRNA_5_8S to cytosolic_5_8S_rRNA on 10 June 2021 with the restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Requested by EBI. See GitHub Issue #493.
 subset: SOFA
-synonym: "5.8S LSU rRNA" EXACT []
-synonym: "5.8S ribosomal RNA" EXACT []
-synonym: "5.8S rRNA" EXACT []
-synonym: "rRNA 5 8S" EXACT []
+synonym: "cytosolic 5.8S LSU rRNA" EXACT []
+synonym: "cytosolic 5.8S ribosomal RNA" EXACT []
+synonym: "cytosolic 5.8S rRNA" EXACT []
+synonym: "cytosolic rRNA 5 8S" EXACT []
 xref: http://en.wikipedia.org/wiki/5.8S_ribosomal_RNA "wiki"
-is_a: SO:0000651 ! large_subunit_rRNA
+is_a: SO:0000651 ! cytosolic_LSU_rRNA
 
 [Term]
 id: SO:0000409
@@ -402,7 +416,7 @@ is_a: SO:0000655 ! ncRNA
 id: SO:0000646
 name: siRNA
 namespace: sequence
-def: "A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. SRNAs trigger the cleavage of their target molecules." [PMID:12592000]
+def: "A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. siRNAs trigger the cleavage of their target molecules." [PMID:12592000]
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:siRNA" EXACT []
@@ -412,14 +426,15 @@ is_a: SO:0000370 ! small_regulatory_ncRNA
 
 [Term]
 id: SO:0000651
-name: large_subunit_rRNA
+name: cytosolic_LSU_rRNA
 namespace: sequence
-def: "Ribosomal RNA transcript that structures the large subunit of the ribosome." [SO:ke]
+def: "Cytosolic LSU rRNA is an RNA component of the large subunit of cytosolic ribosomes." [SO:ke]
+comment: Renamed to cytosolic_LSU_rRNA from large_subunit_rRNA on 10 June 2021 as per restructuring of rRNA child terms. Updated definition to be consistent with format of other rRNA definitions. Request from EBI. See GitHub Issue #493.
 subset: SOFA
-synonym: "large subunit rRNA" EXACT []
-synonym: "LSU RNA" EXACT [RSC:cb]
-synonym: "LSU rRNA" EXACT [RSC:cb]
-is_a: SO:0000252 ! rRNA
+synonym: "cytosolic large subunit rRNA" EXACT []
+synonym: "cytosolic LSU RNA" EXACT []
+synonym: "cytosolic LSU rRNA" EXACT []
+is_a: SO:0002343 ! cytosolic_rRNA
 
 [Term]
 id: SO:0000655
@@ -467,6 +482,17 @@ subset: SOFA
 synonym: "boundary" EXACT []
 synonym: "breakpoint" EXACT []
 is_a: SO:0000110 ! sequence_feature
+
+[Term]
+id: SO:0000704
+name: gene
+namespace: sequence
+def: "A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions." [SO:immuno_workshop]
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. A gene may be considered as a unit of inheritance.
+subset: SOFA
+synonym: "INSDC_feature:gene" EXACT []
+xref: http://en.wikipedia.org/wiki/Gene "wiki"
+is_a: SO:0001411 ! biological_region
 
 [Term]
 id: SO:0000713
@@ -655,6 +681,15 @@ xref: http://en.wikipedia.org/wiki/Post_translational_modification "wiki"
 is_a: SO:0100001 ! biochemical_region_of_peptide
 
 [Term]
+id: SO:0001217
+name: protein_coding_gene
+namespace: sequence
+def: "A gene that codes for an RNA that can be translated into a protein." []
+subset: Alliance_of_Genome_Resources
+synonym: "protein coding gene" EXACT []
+is_a: SO:0000704 ! gene
+
+[Term]
 id: SO:0001236
 name: base
 namespace: sequence
@@ -672,6 +707,16 @@ comment: Merged into promoter (SO:0000167) on 11 Feb 2021 by Dave Sant. GREEKC h
 synonym: "TSS region" EXACT []
 is_obsolete: true
 replaced_by: SO:0000167
+
+[Term]
+id: SO:0001263
+name: ncRNA_gene
+namespace: sequence
+def: "A gene that encodes a non-coding RNA." []
+subset: Alliance_of_Genome_Resources
+synonym: "ncRNA gene" EXACT []
+synonym: "non-coding RNA gene" EXACT []
+is_a: SO:0000704 ! gene
 
 [Term]
 id: SO:0001410
@@ -703,6 +748,16 @@ def: "A DNA region within which self-interaction occurs more often than expected
 subset: SOFA
 synonym: "topologically defined region" EXACT []
 is_a: SO:0000001 ! region
+
+[Term]
+id: SO:0001645
+name: genetic_marker
+namespace: sequence
+def: "A measurable sequence feature that varies within a population." [SO:db]
+synonym: "genetic marker" RELATED []
+is_a: SO:0001411 ! biological_region
+created_by: kareneilbeck
+creation_date: 2010-05-28T02:33:07Z
 
 [Term]
 id: SO:0001654
@@ -836,7 +891,7 @@ creation_date: 2012-06-11T02:55:02Z
 id: SO:0001997
 name: subtelomere
 namespace: sequence
-def: "A heterochromatic region of the chromosome,  adjacent to the telomere (on the centromeric side) that contains repetitive DNA and sometimes genes and it is transcribed." [POMBE:al]
+def: "A heterochromatic region of the chromosome, adjacent to the telomere (on the centromeric side) that contains repetitive DNA and sometimes genes and it is transcribed." [POMBE:al]
 is_a: SO:0000628 ! chromosomal_structural_element
 created_by: kareneilbeck
 creation_date: 2014-01-05T07:02:01Z
@@ -967,6 +1022,18 @@ created_by: david
 creation_date: 2020-08-12T14:01:30Z
 
 [Term]
+id: SO:0002343
+name: cytosolic_rRNA
+namespace: sequence
+def: "Cytosolic rRNA is an RNA component of the small or large subunits of cytosolic ribosomes." [PMID:3044395]
+comment: Added as a request from EBI. See GitHub Issue #493
+synonym: "cytosolic ribosomal RNA" EXACT []
+synonym: "cytosolic rRNA" EXACT []
+is_a: SO:0000252 ! rRNA
+created_by: david
+creation_date: 2021-06-10T16:45:30Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 namespace: sequence
@@ -998,4 +1065,13 @@ def: "A subsection of sequence with biological interest that is conserved in dif
 subset: biosapiens
 synonym: "polypeptide conserved region" EXACT []
 is_a: SO:0000839 ! polypeptide_region
+
+[Term]
+id: SO:3000000
+name: gene_segment
+namespace: sequence
+def: "A gene component region which acts as a recombinational unit of a gene whose functional form is generated through somatic recombination." [GOC:add]
+comment: Requested by tracker 2021594, July 2008, by Alex.
+synonym: "gene segment" EXACT []
+is_a: SO:0000842 ! gene_component_region
 

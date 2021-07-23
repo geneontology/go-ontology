@@ -29,6 +29,7 @@ relationship: RO:0002162 NCBITaxon:100474 ! in taxon Batrachochytrium
 id: NCBITaxon:10066
 name: Muridae
 is_a: NCBITaxon:337687 ! Muroidea
+disjoint_from: NCBITaxon:687453 ! Platacanthomyidae
 relationship: RO:0002162 NCBITaxon:10066 ! in taxon Muridae
 
 [Term]
@@ -884,8 +885,7 @@ relationship: RO:0002162 NCBITaxon:147380 ! in taxon Oryzeae
 [Term]
 id: NCBITaxon:147385
 name: Brachypodieae
-is_a: NCBITaxon:147368 ! Pooideae
-disjoint_from: NCBITaxon:1648038 ! Triticodae
+is_a: NCBITaxon:2822797 ! Stipodae
 relationship: RO:0002162 NCBITaxon:147385 ! in taxon Brachypodieae
 
 [Term]
@@ -1237,6 +1237,7 @@ relationship: RO:0002162 NCBITaxon:1648036 ! in taxon Panicodae
 id: NCBITaxon:1648038
 name: Triticodae
 is_a: NCBITaxon:147368 ! Pooideae
+disjoint_from: NCBITaxon:2822797 ! Stipodae
 relationship: RO:0002162 NCBITaxon:1648038 ! in taxon Triticodae
 
 [Term]
@@ -1302,7 +1303,6 @@ relationship: RO:0002162 NCBITaxon:169963 ! in taxon Listeria monocytogenes EGD-
 [Term]
 id: NCBITaxon:170
 name: Leptospiraceae
-synonym: "Treponemataceae" RELATED []
 is_a: NCBITaxon:1643688 ! Leptospirales
 relationship: RO:0002162 NCBITaxon:170 ! in taxon Leptospiraceae
 
@@ -1561,10 +1561,10 @@ relationship: RO:0002162 NCBITaxon:186801 ! in taxon Clostridia
 
 [Term]
 id: NCBITaxon:186802
-name: Clostridiales
-synonym: "Eubacteriales" RELATED []
+name: Eubacteriales
+synonym: "Clostridiales" RELATED []
 is_a: NCBITaxon:186801 ! Clostridia
-relationship: RO:0002162 NCBITaxon:186802 ! in taxon Clostridiales
+relationship: RO:0002162 NCBITaxon:186802 ! in taxon Eubacteriales
 
 [Term]
 id: NCBITaxon:186817
@@ -1890,6 +1890,7 @@ relationship: RO:0002162 NCBITaxon:203691 ! in taxon Spirochaetes
 [Term]
 id: NCBITaxon:203692
 name: Spirochaetia
+synonym: "\"Leptospiria\" Cavalier-Smith 2020" RELATED []
 synonym: "Spirochaetes" RELATED []
 is_a: NCBITaxon:203691 ! Spirochaetes
 relationship: RO:0002162 NCBITaxon:203692 ! in taxon Spirochaetia
@@ -2153,18 +2154,6 @@ id: NCBITaxon:2214
 name: Methanosarcina acetivorans
 is_a: NCBITaxon:2207 ! Methanosarcina
 relationship: RO:0002162 NCBITaxon:2214 ! in taxon Methanosarcina acetivorans
-
-[Term]
-id: NCBITaxon:2218736
-name: Hirudinida
-is_a: NCBITaxon:55824 ! Hirudinea
-relationship: RO:0002162 NCBITaxon:2218736 ! in taxon Hirudinida
-
-[Term]
-id: NCBITaxon:2218738
-name: Glossiphoniiformes
-is_a: NCBITaxon:2218736 ! Hirudinida
-relationship: RO:0002162 NCBITaxon:2218738 ! in taxon Glossiphoniiformes
 
 [Term]
 id: NCBITaxon:222544
@@ -2555,9 +2544,7 @@ relationship: RO:0002162 NCBITaxon:2493110 ! in taxon Trichoplacidae
 [Term]
 id: NCBITaxon:251221
 name: Gloeobacter violaceus PCC 7421
-synonym: "Gloeobacter violaceus ATCC 29082" RELATED []
-synonym: "Gloeobacter violaceus str. PCC 7421" EXACT []
-synonym: "Gloeobacter violaceus strain PCC 7421" EXACT []
+synonym: "Gloeobacter violaceus ATCC 29082" EXACT []
 is_a: NCBITaxon:33072 ! Gloeobacter violaceus
 relationship: RO:0002162 NCBITaxon:251221 ! in taxon Gloeobacter violaceus PCC 7421
 
@@ -2605,6 +2592,14 @@ id: NCBITaxon:2640012
 name: unclassified Synechocystis
 is_a: NCBITaxon:1142 ! Synechocystis
 relationship: RO:0002162 NCBITaxon:2640012 ! in taxon unclassified Synechocystis
+
+[Term]
+id: NCBITaxon:2653789
+name: Whippomorpha
+is_a: NCBITaxon:91561 ! Artiodactyla
+disjoint_from: NCBITaxon:35497 ! Suina
+disjoint_from: NCBITaxon:9845 ! Ruminantia
+relationship: RO:0002162 NCBITaxon:2653789 ! in taxon Whippomorpha
 
 [Term]
 id: NCBITaxon:265488
@@ -2848,6 +2843,12 @@ is_a: NCBITaxon:2811503 ! Thermodesulfovibrionales
 relationship: RO:0002162 NCBITaxon:2811504 ! in taxon Thermodesulfovibrionaceae
 
 [Term]
+id: NCBITaxon:2812636
+name: CS clade
+is_a: NCBITaxon:3166 ! Chlorophyceae
+relationship: RO:0002162 NCBITaxon:2812636 ! in taxon CS clade
+
+[Term]
 id: NCBITaxon:28211
 name: Alphaproteobacteria
 synonym: "a-proteobacteria" RELATED []
@@ -2890,6 +2891,12 @@ synonym: "Purple bacteria, delta subdivision" RELATED []
 is_a: NCBITaxon:68525 ! delta/epsilon subdivisions
 disjoint_from: NCBITaxon:29547 ! Epsilonproteobacteria
 relationship: RO:0002162 NCBITaxon:28221 ! in taxon Deltaproteobacteria
+
+[Term]
+id: NCBITaxon:2822797
+name: Stipodae
+is_a: NCBITaxon:147368 ! Pooideae
+relationship: RO:0002162 NCBITaxon:2822797 ! in taxon Stipodae
 
 [Term]
 id: NCBITaxon:28231
@@ -3141,7 +3148,7 @@ name: Chlamydomonadales
 synonym: "Chlorococcales" RELATED []
 synonym: "Volvocales" RELATED []
 synonym: "Volvocida" RELATED []
-is_a: NCBITaxon:3166 ! Chlorophyceae
+is_a: NCBITaxon:2812636 ! CS clade
 relationship: RO:0002162 NCBITaxon:3042 ! in taxon Chlamydomonadales
 
 [Term]
@@ -3285,7 +3292,7 @@ relationship: RO:0002162 NCBITaxon:31969 ! in taxon Mollicutes
 [Term]
 id: NCBITaxon:31979
 name: Clostridiaceae
-is_a: NCBITaxon:186802 ! Clostridiales
+is_a: NCBITaxon:186802 ! Eubacteriales
 relationship: RO:0002162 NCBITaxon:31979 ! in taxon Clostridiaceae
 
 [Term]
@@ -3547,7 +3554,7 @@ relationship: RO:0002162 NCBITaxon:33154 ! in taxon Opisthokonta
 [Term]
 id: NCBITaxon:33169
 name: Eremothecium gossypii
-synonym: "Ashbya gossipii" RELATED []
+synonym: "Ashbya gossypii" RELATED []
 synonym: "Nematospora gossypii" RELATED []
 is_a: NCBITaxon:33170 ! Eremothecium
 relationship: RO:0002162 NCBITaxon:33169 ! in taxon Eremothecium gossypii
@@ -3613,6 +3620,7 @@ synonym: "carnivores" EXACT []
 synonym: "carnivores" RELATED []
 is_a: NCBITaxon:314145 ! Laurasiatheria
 disjoint_from: NCBITaxon:91561 ! Artiodactyla
+disjoint_from: NCBITaxon:9397 ! Chiroptera
 disjoint_from: NCBITaxon:9787 ! Perissodactyla
 relationship: RO:0002162 NCBITaxon:33554 ! in taxon Carnivora
 
@@ -3839,12 +3847,13 @@ relationship: RO:0002162 NCBITaxon:35554 ! in taxon Geobacter sulfurreducens
 
 [Term]
 id: NCBITaxon:356
-name: Rhizobiales
+name: Hyphomicrobiales
 synonym: "alpha-2 proteobacteria" RELATED []
-synonym: "rhizobacteria" EXACT []
+synonym: "rhizobacteria" RELATED []
 synonym: "Rhizobiaceae group" RELATED []
+synonym: "Rhizobiales" RELATED []
 is_a: NCBITaxon:28211 ! Alphaproteobacteria
-relationship: RO:0002162 NCBITaxon:356 ! in taxon Rhizobiales
+relationship: RO:0002162 NCBITaxon:356 ! in taxon Hyphomicrobiales
 
 [Term]
 id: NCBITaxon:3561
@@ -4181,6 +4190,7 @@ relationship: RO:0002162 NCBITaxon:3846 ! in taxon Glycine
 [Term]
 id: NCBITaxon:3847
 name: Glycine max
+synonym: "Phaseolus max" RELATED []
 synonym: "soybean" EXACT []
 synonym: "soybeans" EXACT []
 is_a: NCBITaxon:1462606 ! Glycine subgen. Soja
@@ -4446,7 +4456,7 @@ name: Bradyrhizobiaceae
 synonym: "alpha-2 proteobacteria" RELATED []
 synonym: "BANA domain" RELATED []
 synonym: "Bradyrhizobium group" RELATED []
-is_a: NCBITaxon:356 ! Rhizobiales
+is_a: NCBITaxon:356 ! Hyphomicrobiales
 relationship: RO:0002162 NCBITaxon:41294 ! in taxon Bradyrhizobiaceae
 
 [Term]
@@ -4898,6 +4908,7 @@ relationship: RO:0002162 NCBITaxon:4555 ! in taxon Setaria italica
 [Term]
 id: NCBITaxon:4557
 name: Sorghum
+synonym: "Hemisorghum" RELATED []
 is_a: NCBITaxon:1648028 ! Sorghinae
 relationship: RO:0002162 NCBITaxon:4557 ! in taxon Sorghum
 
@@ -5243,6 +5254,7 @@ relationship: RO:0002162 NCBITaxon:5042 ! in taxon Eurotiales
 [Term]
 id: NCBITaxon:5052
 name: Aspergillus
+synonym: "Chaetosartorya" RELATED []
 synonym: "Petromyces" RELATED []
 synonym: "Phialosimplex" RELATED []
 synonym: "Polypaecilum" RELATED []
@@ -5959,9 +5971,16 @@ is_a: NCBITaxon:1206795 ! Lophotrochozoa
 relationship: RO:0002162 NCBITaxon:6340 ! in taxon Annelida
 
 [Term]
+id: NCBITaxon:6406
+name: Rhynchobdellida
+synonym: "Rhynchobdelliformes" RELATED []
+is_a: NCBITaxon:55824 ! Hirudinea
+relationship: RO:0002162 NCBITaxon:6406 ! in taxon Rhynchobdellida
+
+[Term]
 id: NCBITaxon:6407
 name: Glossiphoniidae
-is_a: NCBITaxon:2218738 ! Glossiphoniiformes
+is_a: NCBITaxon:6406 ! Rhynchobdellida
 relationship: RO:0002162 NCBITaxon:6407 ! in taxon Glossiphoniidae
 
 [Term]
@@ -6163,6 +6182,18 @@ synonym: "Vibrio cholerae O1 biovar eltor" EXACT []
 synonym: "Vibrio eltor" RELATED []
 is_a: NCBITaxon:127906 ! Vibrio cholerae O1
 relationship: RO:0002162 NCBITaxon:686 ! in taxon Vibrio cholerae O1 biovar El Tor
+
+[Term]
+id: NCBITaxon:687453
+name: Platacanthomyidae
+is_a: NCBITaxon:337687 ! Muroidea
+relationship: RO:0002162 NCBITaxon:687453 ! in taxon Platacanthomyidae
+
+[Term]
+id: NCBITaxon:687454
+name: Typhlomys
+is_a: NCBITaxon:687453 ! Platacanthomyidae
+relationship: RO:0002162 NCBITaxon:687454 ! in taxon Typhlomys
 
 [Term]
 id: NCBITaxon:69014
@@ -6552,6 +6583,7 @@ relationship: RO:0002162 NCBITaxon:7624 ! in taxon Echinozoa
 [Term]
 id: NCBITaxon:7625
 name: Echinoidea
+synonym: "sea urchin" EXACT []
 synonym: "sea urchins" EXACT []
 synonym: "sea urchins" RELATED []
 is_a: NCBITaxon:7624 ! Echinozoa
@@ -7259,6 +7291,7 @@ synonym: "Cetartiodactyla" RELATED []
 synonym: "even-toed ungulates" RELATED []
 synonym: "whales, hippos, ruminants, pigs, camels etc." EXACT []
 is_a: NCBITaxon:314145 ! Laurasiatheria
+disjoint_from: NCBITaxon:9397 ! Chiroptera
 disjoint_from: NCBITaxon:9787 ! Perissodactyla
 relationship: RO:0002162 NCBITaxon:91561 ! in taxon Artiodactyla
 
@@ -7386,6 +7419,15 @@ synonym: "placentals" EXACT []
 synonym: "placentals" RELATED []
 is_a: NCBITaxon:32525 ! Theria <mammals>
 relationship: RO:0002162 NCBITaxon:9347 ! in taxon Eutheria
+
+[Term]
+id: NCBITaxon:9397
+name: Chiroptera
+synonym: "bats" EXACT []
+synonym: "bats" RELATED []
+is_a: NCBITaxon:314145 ! Laurasiatheria
+disjoint_from: NCBITaxon:9787 ! Perissodactyla
+relationship: RO:0002162 NCBITaxon:9397 ! in taxon Chiroptera
 
 [Term]
 id: NCBITaxon:9443
@@ -7562,15 +7604,33 @@ is_a: NCBITaxon:9682 ! Felis
 relationship: RO:0002162 NCBITaxon:9685 ! in taxon Felis catus
 
 [Term]
+id: NCBITaxon:9721
+name: Cetacea
+synonym: "cetaceans" EXACT []
+synonym: "whale" EXACT []
+synonym: "whales" EXACT []
+synonym: "whales & dolphins" RELATED []
+synonym: "whales, dolphins, and porpoises" EXACT []
+is_a: NCBITaxon:2653789 ! Whippomorpha
+relationship: RO:0002162 NCBITaxon:9721 ! in taxon Cetacea
+
+[Term]
+id: NCBITaxon:9722
+name: Odontoceti
+synonym: "tooth whales" EXACT []
+is_a: NCBITaxon:9721 ! Cetacea
+relationship: RO:0002162 NCBITaxon:9722 ! in taxon Odontoceti
+
+[Term]
 id: NCBITaxon:976
 name: Bacteroidetes
 synonym: "Bacteroidaeota" RELATED []
-synonym: "Bacteroides-Cytophaga-Flexibacter group" RELATED []
+synonym: "Bacteroides-Cytophaga-Flexibacter group" EXACT []
 synonym: "Bacteroidota" RELATED []
-synonym: "BCF group" RELATED []
-synonym: "CFB group" RELATED []
+synonym: "BCF group" EXACT []
+synonym: "CFB group" EXACT []
 synonym: "CFB group bacteria" RELATED []
-synonym: "Cytophaga-Flexibacter-Bacteroides phylum" RELATED []
+synonym: "Cytophaga-Flexibacter-Bacteroides phylum" EXACT []
 is_a: NCBITaxon:68336 ! Bacteroidetes/Chlorobi group
 relationship: RO:0002162 NCBITaxon:976 ! in taxon Bacteroidetes
 
