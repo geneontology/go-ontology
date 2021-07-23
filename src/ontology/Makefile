@@ -195,7 +195,7 @@ enhanced.owl: go-edit-trimmed-imports.obo imports/go_taxon_constraints.owl impor
 # reasoned.owl is equivalent to editors source, after materialize-reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
 reasoned.owl: enhanced.owl $(SRC)-check regulates_chains.ofn
-	$(ROBOT) materialize -i $< -r ELK --term BFO:0000050 reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl unmerge -i regulates_chains.ofn -o $@
+	$(ROBOT) materialize -i $< -r ELK --term BFO:0000050 reason -r whelk -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl unmerge -i regulates_chains.ofn -o $@
 
 present_in_taxon_check.ofn: enhanced.owl ../taxon_constraints/present_in_taxon.ofn
 	$(ROBOT) merge --collapse-import-closure false -i $< -i ../taxon_constraints/present_in_taxon.ofn reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural -o $@
@@ -514,9 +514,13 @@ imports/substance_by_role.obo: imports/substance_by_role.owl
 rhea.ttl: ../sparql/construct-rhea-reactions.sparql
 	curl -X POST -F query="`cat ../sparql/construct-rhea-reactions.sparql`" --header "Accept:text/turtle" 'https://sparql.rhea-db.org/sparql' >$@.tmp && mv $@.tmp $@
 
-extensions/rhea-reactions.ttl: rhea.ttl
+extensions/rhea-reactions.ttl: rhea.ttl ../util/construct_rhea_ontology.sc
 	$(AMM) ../util/construct_rhea_ontology.sc $< rhea-reactions.ofn && \
 	robot annotate -i rhea-reactions.ofn -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+
+imports/go-catalytic-activities.owl: $(SRC) extensions/rhea-reactions.ttl catalog-v001.xml ../util/import_rhea_logical_defs.sc
+	$(AMM) ../util/import_rhea_logical_defs.sc extensions/rhea-reactions.ttl $(SRC) catalog-v001.xml $@.tmp && \
+	robot annotate -i $@.tmp -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
 
 # ----------------------------------------
 # MAPPINGS
