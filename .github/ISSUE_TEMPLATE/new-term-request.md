@@ -17,6 +17,7 @@ Please provide as much information as you can:
 
 * **Reference, in format PMID:#######**
 
+* **Gene product name and ID to be annotated to this term**
 
 * **Parent term(s)**
 
