@@ -2,3 +2,5 @@ http://purl.obolibrary.org/obo/OPL_0000149
 http://purl.obolibrary.org/obo/OPL_0000006
 http://purl.obolibrary.org/obo/OPL_0000322
 http://purl.obolibrary.org/obo/OPL_0000114
+http://purl.obolibrary.org/obo/OPL_0000022 ## bloodstream trypomastigote stage
+http://purl.obolibrary.org/obo/OPL_0000076 ## procyclic trypomastigote stage
