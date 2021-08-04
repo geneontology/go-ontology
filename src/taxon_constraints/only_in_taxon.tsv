@@ -837,6 +837,6 @@ GO:0007533 	mating type switching	NCBITaxon:4751	Fungi
 GO:0019035	viral integration complex	NCBITaxon:10239	Viruses	
 GO:0044105	L-xylulose reductase (NAD+) activity	NCBITaxon:4890	Ascomycota	
 GO:0120324	procyclogenesis	NCBITaxon:5654	Trypanosomatidae	
-GO:0140690 dihydropyrimidine dehydrogenase (NAD+) complex	NCBITaxon:2	Bacteria	
-GO:0004159 dihydropyrimidine dehydrogenase (NAD+) activity	NCBITaxon:2	Bacteria	
-GO:0017113 dihydropyrimidine dehydrogenase (NADP+) activity	NCBITaxon:2759	Eukaryota	
+GO:0140690	dihydropyrimidine dehydrogenase (NAD+) complex	NCBITaxon:2	Bacteria	
+GO:0004159	dihydropyrimidine dehydrogenase (NAD+) activity	NCBITaxon:2	Bacteria	
+GO:0017113	dihydropyrimidine dehydrogenase (NADP+) activity	NCBITaxon:2759	Eukaryota	
