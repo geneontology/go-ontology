@@ -1725,12 +1725,19 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002454> <http://purl.obo
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002490> (existence overlaps)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002490> "RO:0002490")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/go#AE_biological_process>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/go#AE_developmental_stages>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/go#display_for_curators>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/GOREL_0000000>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002491> (existence starts and ends during)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002491> "RO:0002491")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/go#AE_biological_process>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/go#AE_developmental_stages>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/go#display_for_curators>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/GOREL_0000000>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002556> (pathogen of)
