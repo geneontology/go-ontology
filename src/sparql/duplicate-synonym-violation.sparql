@@ -24,8 +24,10 @@ WHERE {
         oboInOwl:hasRelatedSynonym
     }
 
-    ?c ?oneSynonym ?syn .
-    ?c ?anotherSynonym ?syn .
+    ?c ?oneSynonym ?syn1 .
+    ?c ?anotherSynonym ?syn2 .
+    
+    FILTER(LCASE(?syn1) = LCASE(?syn2))
 
     FILTER NOT EXISTS {
         ?c owl:deprecated true .
