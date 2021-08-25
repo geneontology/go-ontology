@@ -1724,21 +1724,31 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002454> <http://purl.obo
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002490> (existence overlaps)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002490> "BFO:0000004"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002490> "GO:0008150 WBls:0000075 ZFS:0100000"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002490> "Identifies a process or life stage during which a cellular component is present"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002490> "RO:0002490")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/go#AE_biological_process>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/go#AE_developmental_stages>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/go#display_for_curators>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/GOREL_0000000>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/BFO_0000004>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002491> (existence starts and ends during)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002491> "BFO:0000004"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002491> "GO:0008150 WBls:0000075 ZFS:0100000"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002491> "Identifies a process or life stage during which a cellular component is present"^^xsd:string)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002491> "RO:0002491")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/go#AE_biological_process>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/go#AE_developmental_stages>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/go#display_for_curators>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/GOREL_0000000>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/BFO_0000004>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002556> (pathogen of)
 
