@@ -48,7 +48,3 @@ WHERE {
     }
 
 }
-
-## check for violation in GO_2001289
-## label approved by the SynGO project ??
-## Nebenkern assembly PMID
