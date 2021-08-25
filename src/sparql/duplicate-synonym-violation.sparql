@@ -5,10 +5,11 @@ PREFIX metago: <http://model.geneontology.org/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
 
-SELECT ?c ?oneSynonym ?anotherSynonym ?syn
+SELECT DISTINCT ?c ?oneSynonymRel ?anotherSynonymRel ?syn1 ?syn2
 WHERE {
 
-    VALUES ?oneSynonym {
+    VALUES ?oneSynonymRel {
+        rdfs:label
         oboInOwl:hasSynonym
         oboInOwl:hasExactSynonym
         oboInOwl:hasNarrowSynonym
@@ -16,21 +17,38 @@ WHERE {
         oboInOwl:hasRelatedSynonym
     }
 
-    VALUES ?anotherSynonym {
+    VALUES ?anotherSynonymRel {
+        rdfs:label
         oboInOwl:hasSynonym
         oboInOwl:hasExactSynonym
         oboInOwl:hasNarrowSynonym
         oboInOwl:hasBroadSynonym
         oboInOwl:hasRelatedSynonym
     }
-
-    ?c ?oneSynonym ?syn1 .
-    ?c ?anotherSynonym ?syn2 .
-    
-    FILTER(LCASE(?syn1) = LCASE(?syn2))
 
     FILTER NOT EXISTS {
         ?c owl:deprecated true .
     }
-    FILTER (STR(?anotherSynonym) < STR(?oneSynonym))
+    
+    { 
+      # Different synonym relations, but term is same (case-insensitive)
+      ?c ?oneSynonymRel ?syn1 .
+      ?c ?anotherSynonymRel ?syn2 .
+      FILTER(LCASE(?syn1) = LCASE(?syn2))
+      FILTER(STR(?anotherSynonymRel) < STR(?oneSynonymRel))
+    }
+    UNION
+    { 
+      # Same synonym relation, but term is different case
+      ?c ?oneSynonymRel ?syn1 .
+      ?c ?anotherSynonymRel ?syn2 .
+      FILTER(LCASE(?syn1) = LCASE(?syn2))
+      FILTER(?syn1 < ?syn2) 
+      FILTER(?anotherSynonymRel = ?oneSynonymRel)
+    }
+
 }
+
+## check for violation in GO_2001289
+## label approved by the SynGO project ??
+## Nebenkern assembly PMID
