@@ -1733,8 +1733,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/go#display_for_curators>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/GOREL_0000000>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/BFO_0000004>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002491> (existence starts and ends during)
 
@@ -1747,8 +1745,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/go#display_for_curators>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/GOREL_0000000>)
-ObjectPropertyDomain(<http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/BFO_0000004>)
-ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002556> (pathogen of)
 
