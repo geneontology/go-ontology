@@ -5443,6 +5443,9 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002487"/>
         <obo:IAO_0000115>x existence overlaps y if and only if either (a) the start of x is part of y or (b) the end of x is part of y. Formally: x existence starts and ends during y iff (α(x) &gt;= α(y) &amp; α(x) &lt;= ω(y)) OR (ω(x) &lt;= ω(y) &amp; ω(x) &gt;= α(y))</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000004</go_annotation_extension_relations:local_domain>
+        <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0008150 WBls:0000075 ZFS:0100000</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a process or life stage during which a cellular component is present</go_annotation_extension_relations:usage>
         <oboInOwl:hasDbXref>RO:0002490</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_biological_process"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_developmental_stages"/>
@@ -5463,6 +5466,9 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002492"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x exists during y if and only if: 1) the time point at which x begins to exist is after or equal to the time point at which y begins and 2) the time point at which x ceases to exist is before or equal to the point at which y ends. Formally: x existence starts and ends during y iff α(x) &gt;= α(y) &amp; α(x) &lt;= ω(y) &amp; ω(x) &lt;= ω(y) &amp; ω(x) &gt;= α(y)</obo:IAO_0000115>
         <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <go_annotation_extension_relations:local_domain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000004</go_annotation_extension_relations:local_domain>
+        <go_annotation_extension_relations:local_range rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0008150 WBls:0000075 ZFS:0100000</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:usage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifies a process or life stage during which a cellular component is present</go_annotation_extension_relations:usage>
         <oboInOwl:hasDbXref>RO:0002491</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exists during</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_biological_process"/>

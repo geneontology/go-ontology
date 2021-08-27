@@ -831,6 +831,9 @@ subset: display_for_curators
 subset: valid_for_annotation_extension
 xref: RO:0002490
 property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: local_domain BFO:0000004 xsd:string
+property_value: local_range "GO:0008150 WBls:0000075 ZFS:0100000" xsd:string
+property_value: usage "Identifies a process or life stage during which a cellular component is present" xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: relation_between_physical_entity_and_a_process_or_stage ! relation between physical entity and a process or stage
 
@@ -846,6 +849,9 @@ subset: valid_for_annotation_extension
 synonym: "exists during" EXACT []
 xref: RO:0002491
 property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: local_domain BFO:0000004 xsd:string
+property_value: local_range "GO:0008150 WBls:0000075 ZFS:0100000" xsd:string
+property_value: usage "Identifies a process or life stage during which a cellular component is present" xsd:string
 is_a: existence_ends_during ! existence ends during
 is_a: existence_starts_during ! existence starts during
 is_a: go_annotation_extension_relation ! go annotation extension relation
