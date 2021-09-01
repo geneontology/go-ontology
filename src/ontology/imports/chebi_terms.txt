@@ -8195,3 +8195,5 @@ http://purl.obolibrary.org/obo/CHEBI_6618 ## MET-enkephalin
 http://purl.obolibrary.org/obo/CHEBI_89656 ## enkephalin L 
 http://purl.obolibrary.org/obo/CHEBI_78257 ## isogloboside
 http://purl.obolibrary.org/obo/CHEBI_64695 ## pyripyropene A
+http://purl.obolibrary.org/obo/CHEBI_143093 ## 2'-3'-cGAMP(2−)
+http://purl.obolibrary.org/obo/CHEBI_177334 ## 3'-2'-cGAMP(2−)
