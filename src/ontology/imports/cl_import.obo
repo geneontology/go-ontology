@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-07-04/imports/cl_import.owl
+data-version: go/releases/2021-09-05/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -178,7 +178,8 @@ relationship: RO:0002202 CL:0000008 ! migratory cranial neural crest cell
 
 [Term]
 id: CL:0000029
-name: neuron neural crest derived
+name: neural crest derived neuron
+synonym: "neuron neural crest derived" EXACT []
 is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002202 CL:0000333 ! migratory neural crest cell
@@ -468,9 +469,8 @@ name: epithelial cell
 def: "A cell that is usually found in a two-dimensional sheet with a free surface. The cell has a cytoskeleton that allows for tight cell to cell contact and for cell polarity where apical part is directed towards the lumen and the basal part to the basal lamina." []
 synonym: "epitheliocyte" EXACT []
 is_a: CL:0000548 ! animal cell
-intersection_of: CL:0000548 ! animal cell
-intersection_of: BFO:0000050 UBERON:0000483
 disjoint_from: CL:0000738 ! leukocyte
+relationship: BFO:0000050 UBERON:0000483
 
 [Term]
 id: CL:0000067
@@ -712,7 +712,7 @@ is_a: CL:0000540 ! neuron
 [Term]
 id: CL:0000107
 name: autonomic neuron
-def: "A neruon whose cell body is within an autonomic ganglion." []
+def: "A neuron whose cell body is within an autonomic ganglion." []
 is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0002410
@@ -10121,6 +10121,14 @@ intersection_of: CL:0002319 ! neural cell
 intersection_of: BFO:0000050 UBERON:0005388
 
 [Term]
+id: CL:0009006
+name: enteroendocrine cell of small intestine
+def: "An enteroendocrine cell that is located in the small intestine." []
+synonym: "small intestine enteroendocrine cell" EXACT []
+intersection_of: CL:0000164 ! enteroendocrine cell
+intersection_of: BFO:0000050 UBERON:0002108
+
+[Term]
 id: CL:0009014
 name: Peyer's patch lymphocyte
 def: "A lymphocyte that is part of a Peyer's patch. These cells have a major role in driving the immune response to antigens sampled from the intestinal lumen, and in regulating the formation of follicle-associated epithelium and M cells in Peyer's patches by converting intestitial enterocytes into M cells." []
@@ -10145,10 +10153,35 @@ intersection_of: BFO:0000050 UBERON:0002108
 
 [Term]
 id: CL:0009025
-name: mesothelial cell of large intestine
-def: "A mesothelial cell that is part of the large intestine." []
+name: mesothelial cell of colon
+def: "A mesothelial cell that is part of the colon." []
+synonym: "mesothelial cell of large intestine" BROAD []
 intersection_of: CL:0000077 ! mesothelial cell
-intersection_of: BFO:0000050 UBERON:0000059
+intersection_of: BFO:0000050 UBERON:0001155
+
+[Term]
+id: CL:0009038
+name: colon macrophage
+def: "A macrophage that is located in the colon." []
+synonym: "macrophage of colon" EXACT []
+intersection_of: CL:0000235 ! macrophage
+intersection_of: BFO:0000050 UBERON:0001155
+
+[Term]
+id: CL:0009039
+name: colon goblet cell
+def: "A goblet cell that is located in the colon." []
+synonym: "goblet cell of colon" EXACT []
+intersection_of: CL:0000160 ! goblet cell
+intersection_of: BFO:0000050 UBERON:0001155
+
+[Term]
+id: CL:0009042
+name: enteroendocrine cell of colon
+def: "An enteroendocrine cell that is located in the colon." []
+synonym: "colon enteroendocrine cell" EXACT []
+intersection_of: CL:0000164 ! enteroendocrine cell
+intersection_of: BFO:0000050 UBERON:0001155
 
 [Term]
 id: CL:0010001
