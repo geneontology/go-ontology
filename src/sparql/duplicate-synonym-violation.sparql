@@ -5,9 +5,8 @@ PREFIX metago: <http://model.geneontology.org/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
 
-SELECT DISTINCT ?c ?oneSynonymRel ?anotherSynonymRel ?syn1 ?syn2
+SELECT DISTINCT ?error
 WHERE {
-
     VALUES ?oneSynonymRel {
         rdfs:label
         oboInOwl:hasSynonym
@@ -46,5 +45,5 @@ WHERE {
       FILTER(?syn1 < ?syn2) 
       FILTER(?anotherSynonymRel = ?oneSynonymRel)
     }
-
+    BIND(CONCAT("Error: synonyms and/or label for class ", STR(?c), " are duplicates or differ only by case: ", STR(?oneSynonymRel), " has value \"", ?syn1, "\"; ", STR(?anotherSynonymRel), " has value \"", ?syn2, "\"") AS ?error)
 }
