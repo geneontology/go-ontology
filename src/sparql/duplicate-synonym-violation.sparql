@@ -4,6 +4,7 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX metago: <http://model.geneontology.org/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX has_synonym_type: <http://www.geneontology.org/formats/oboInOwl#hasSynonymType>
 
 SELECT DISTINCT ?error
 WHERE {
@@ -27,6 +28,26 @@ WHERE {
 
     FILTER NOT EXISTS {
         ?c owl:deprecated true .
+    }
+    
+    # Bypass check when synonyms are annotated with synonym types
+    FILTER NOT EXISTS {
+      [
+          rdf:type owl:Axiom ;
+          owl:annotatedSource ?c ;
+          owl:annotatedProperty ?oneSynonymRel ;
+          owl:annotatedTarget ?syn1 ;
+          has_synonym_type: ?some_synonym_type1
+      ]
+    }
+    FILTER NOT EXISTS {
+      [
+          rdf:type owl:Axiom ;
+          owl:annotatedSource ?c ;
+          owl:annotatedProperty ?anotherSynonymRel ;
+          owl:annotatedTarget ?syn2 ;
+          has_synonym_type: ?some_synonym_type2
+      ]
     }
     
     { 
