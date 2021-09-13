@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-09-05/imports/cl_import.owl
+data-version: go/releases/2021-09-12/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -110,6 +110,7 @@ relationship: RO:0002202 CL:0000018 ! spermatid
 id: CL:0000020
 name: spermatogonium
 def: "An euploid male germ cell of an early stage of spermatogenesis." []
+synonym: "spermatogonial cell" EXACT []
 intersection_of: CL:0000015 ! male germ cell
 intersection_of: RO:0000053 PATO:0001394
 intersection_of: RO:0000053 PATO:0001501
@@ -749,7 +750,7 @@ relationship: RO:0002202 CL:0000031 ! neuroblast (sensu Vertebrata)
 [Term]
 id: CL:0000119
 name: cerebellar Golgi cell
-def: "Large intrinsic neuron located in the granule layer of the cerebellar cortex that extends its dendrites into the molecular layer where they receive contact from parallel fibers. The axon of the Golgi cell enters ramifies densely in the granule layer and enters into a complex arrangement with mossy fiber terminals and granule cell dendrites to form the cerebellar glomerulus. Llinas, Walton and Lang. In The Synaptic Organization of the Brain. 5th ed. 2004." []
+def: "Large intrinsic neuron located in the granule layer of the cerebellar cortex that extends its dendrites into the molecular layer where they receive contact from parallel fibers. The axon of the Golgi cell ramifies densely in the granule layer and enters into a complex arrangement with mossy fiber terminals and granule cell dendrites to form the cerebellar glomerulus. Llinas, Walton and Lang. In The Synaptic Organization of the Brain. 5th ed. 2004." []
 synonym: "cerebellar Golgi neuron" EXACT []
 synonym: "cerebellum Golgi cell" EXACT []
 synonym: "Golgi cell" EXACT []
@@ -2779,7 +2780,7 @@ def: "Pyramidal neurons have a pyramid-shaped soma with a single axon, a large a
 synonym: "projection neuron" EXACT []
 synonym: "pyramidal cell" EXACT []
 synonym: "pyramidal neuron" EXACT []
-intersection_of: CL:0000117 ! CNS neuron (sensu Vertebrata)
+intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0000053 PATO:0070015
 
 [Term]
@@ -4689,15 +4690,18 @@ relationship: RO:0002202 CL:0000843 ! follicular B cell
 
 [Term]
 id: CL:0000845
-name: marginal zone B cell
+name: marginal zone B cell of spleen
 def: "A mature B cell that is located in the marginal zone of the spleen with the phenotype CD23-negative and CD21-positive and expressing a B cell receptor usually reactive to bacterial cell wall components or senescent self components such as oxidized-LDL. This cell type is also described as being CD19-positive, B220-positive, IgM-high, AA4-negative, CD35-high." []
-synonym: "marginal zone B lymphocyte" EXACT []
-synonym: "marginal zone B-cell" EXACT []
-synonym: "marginal zone B-lymphocyte" EXACT []
-synonym: "MZ B cell" EXACT []
-synonym: "MZ B lymphocyte" EXACT []
-synonym: "MZ B-cell" EXACT []
-synonym: "MZ B-lymphocyte" EXACT []
+synonym: "B cell of marginal zone of spleen" EXACT []
+synonym: "marginal zone B cell" BROAD []
+synonym: "marginal zone B lymphocyte" BROAD []
+synonym: "marginal zone B-cell" BROAD []
+synonym: "marginal zone B-lymphocyte" BROAD []
+synonym: "marginal zone of spleen B cell" EXACT []
+synonym: "MZ B cell" BROAD []
+synonym: "MZ B lymphocyte" BROAD []
+synonym: "MZ B-cell" BROAD []
+synonym: "MZ B-lymphocyte" BROAD []
 is_a: CL:0000785 ! mature B cell
 intersection_of: CL:0000785 ! mature B cell
 intersection_of: BFO:0000050 UBERON:0001251
@@ -6996,7 +7000,7 @@ intersection_of: RO:0002104 PR:000001839
 [Term]
 id: CL:0002038
 name: T follicular helper cell
-def: "A CD4-positive, CXCR5-positive, CCR7-negative alpha-beta T cell located in follicles of secondary lymph nodes that expresses is BCL6-high, ICOS-high and PD1-high, and stimulates follicular B cells to undergo class-switching and antibody production." []
+def: "A CD4-positive, CXCR5-positive, CCR7-negative alpha-beta T cell located in follicles of secondary lymph nodes that is BCL6-high, ICOS-high and PD1-high, and stimulates follicular B cells to undergo class-switching and antibody production." []
 synonym: "follicular B helper T cell" RELATED []
 synonym: "follicular helper T cell" RELATED []
 synonym: "follicular helper T-cell" RELATED []
