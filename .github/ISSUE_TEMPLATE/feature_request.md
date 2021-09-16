@@ -1,6 +1,6 @@
 ---
 name: Term definition update
-about: Suggest an idea for this project
+about: Request a change in a term definition
 title: 'Textual definition update: '
 labels: textual definition
 assignees: ''
