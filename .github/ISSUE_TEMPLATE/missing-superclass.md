@@ -1,7 +1,7 @@
 ---
 name: Missing superclass
 about: Request new superclass (parent term) to be added to a GO term
-title: ''
+title: 'Missing parent: [GO term]'
 labels: missing parentage
 assignees: ''
 
