@@ -466,18 +466,6 @@ disjoint_from: NCBITaxon:5690 ! Trypanosoma
 relationship: RO:0002162 NCBITaxon:1286322 ! in taxon Leishmaniinae
 
 [Term]
-id: NCBITaxon:1292243
-name: Continenticola
-is_a: NCBITaxon:6159 ! Tricladida
-relationship: RO:0002162 NCBITaxon:1292243 ! in taxon Continenticola
-
-[Term]
-id: NCBITaxon:1292248
-name: Planarioidea
-is_a: NCBITaxon:1292243 ! Continenticola
-relationship: RO:0002162 NCBITaxon:1292248 ! in taxon Planarioidea
-
-[Term]
 id: NCBITaxon:1293361
 name: Cenchrinae
 is_a: NCBITaxon:147428 ! Paniceae
@@ -546,18 +534,6 @@ id: NCBITaxon:1307796
 name: Chenopodioideae
 is_a: NCBITaxon:1804623 ! Chenopodiaceae
 relationship: RO:0002162 NCBITaxon:1307796 ! in taxon Chenopodioideae
-
-[Term]
-id: NCBITaxon:131209
-name: Zygnemophyceae
-synonym: "Conjugatophyceae" RELATED []
-synonym: "Gamophyceae" RELATED []
-synonym: "Gamophyta" RELATED []
-synonym: "gamophytes" EXACT []
-synonym: "Zygnematophyceae" RELATED []
-is_a: NCBITaxon:131221 ! Streptophytina
-disjoint_from: NCBITaxon:3193 ! Embryophyta
-relationship: RO:0002162 NCBITaxon:131209 ! in taxon Zygnemophyceae
 
 [Term]
 id: NCBITaxon:131221
@@ -803,13 +779,6 @@ is_a: NCBITaxon:9347 ! Eutheria
 relationship: RO:0002162 NCBITaxon:1437010 ! in taxon Boreoeutheria
 
 [Term]
-id: NCBITaxon:1437180
-name: Acrogymnospermae
-is_a: NCBITaxon:58024 ! Spermatophyta
-disjoint_from: NCBITaxon:3398 ! Magnoliopsida
-relationship: RO:0002162 NCBITaxon:1437180 ! in taxon Acrogymnospermae
-
-[Term]
 id: NCBITaxon:1437183
 name: Mesangiospermae
 is_a: NCBITaxon:3398 ! Magnoliopsida
@@ -830,22 +799,10 @@ is_a: NCBITaxon:91827 ! Gunneridae
 relationship: RO:0002162 NCBITaxon:1437201 ! in taxon Pentapetalae
 
 [Term]
-id: NCBITaxon:1445966
-name: Gnetidae
-is_a: NCBITaxon:3372 ! Gnetopsida
-relationship: RO:0002162 NCBITaxon:1445966 ! in taxon Gnetidae
-
-[Term]
 id: NCBITaxon:1462606
 name: Glycine subgen. Soja
 is_a: NCBITaxon:3846 ! Glycine
 relationship: RO:0002162 NCBITaxon:1462606 ! in taxon Glycine subgen. Soja
-
-[Term]
-id: NCBITaxon:147100
-name: Rhabditophora
-is_a: NCBITaxon:6157 ! Platyhelminthes
-relationship: RO:0002162 NCBITaxon:147100 ! in taxon Rhabditophora
 
 [Term]
 id: NCBITaxon:147367
@@ -1244,12 +1201,6 @@ id: NCBITaxon:1649845
 name: Yersinia pseudotuberculosis complex
 is_a: NCBITaxon:629 ! Yersinia <enterobacteria>
 relationship: RO:0002162 NCBITaxon:1649845 ! in taxon Yersinia pseudotuberculosis complex
-
-[Term]
-id: NCBITaxon:166126
-name: Seriata
-is_a: NCBITaxon:147100 ! Rhabditophora
-relationship: RO:0002162 NCBITaxon:166126 ! in taxon Seriata
 
 [Term]
 id: NCBITaxon:16714
@@ -2459,15 +2410,6 @@ is_a: NCBITaxon:3688 ! Salicaceae
 relationship: RO:0002162 NCBITaxon:238069 ! in taxon Saliceae
 
 [Term]
-id: NCBITaxon:241407
-name: Saccharomycetales incertae sedis
-is_a: NCBITaxon:4892 ! Saccharomycetales
-disjoint_from: NCBITaxon:34353 ! Dipodascaceae
-disjoint_from: NCBITaxon:4893 ! Saccharomycetaceae
-disjoint_from: NCBITaxon:766764 ! Debaryomycetaceae
-relationship: RO:0002162 NCBITaxon:241407 ! in taxon Saccharomycetales incertae sedis
-
-[Term]
 id: NCBITaxon:2419
 name: Thermotogales
 synonym: "thermotogales" RELATED []
@@ -2570,7 +2512,6 @@ disjoint_from: NCBITaxon:2698737 ! Sar
 disjoint_from: NCBITaxon:3027 ! Cryptophyceae
 disjoint_from: NCBITaxon:33090 ! Viridiplantae
 disjoint_from: NCBITaxon:33154 ! Opisthokonta
-disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
 disjoint_from: NCBITaxon:554915 ! Amoebozoa
 relationship: RO:0002162 NCBITaxon:2611341 ! in taxon Metamonada
 
@@ -2582,7 +2523,6 @@ disjoint_from: NCBITaxon:2698737 ! Sar
 disjoint_from: NCBITaxon:3027 ! Cryptophyceae
 disjoint_from: NCBITaxon:33090 ! Viridiplantae
 disjoint_from: NCBITaxon:33154 ! Opisthokonta
-disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
 disjoint_from: NCBITaxon:554915 ! Amoebozoa
 relationship: RO:0002162 NCBITaxon:2611352 ! in taxon Discoba
 
@@ -2635,12 +2575,6 @@ is_a: NCBITaxon:4761 ! Chytridiomycota
 relationship: RO:0002162 NCBITaxon:2683659 ! in taxon Chytridiomycota incertae sedis
 
 [Term]
-id: NCBITaxon:2684882
-name: Zygnematophycidae
-is_a: NCBITaxon:131209 ! Zygnemophyceae
-relationship: RO:0002162 NCBITaxon:2684882 ! in taxon Zygnematophycidae
-
-[Term]
 id: NCBITaxon:2691354
 name: Pirellulales
 is_a: NCBITaxon:203683 ! Planctomycetia
@@ -2679,7 +2613,6 @@ is_a: NCBITaxon:2759 ! Eukaryota
 disjoint_from: NCBITaxon:3027 ! Cryptophyceae
 disjoint_from: NCBITaxon:33090 ! Viridiplantae
 disjoint_from: NCBITaxon:33154 ! Opisthokonta
-disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
 disjoint_from: NCBITaxon:554915 ! Amoebozoa
 relationship: RO:0002162 NCBITaxon:2698737 ! in taxon Sar
 
@@ -2795,12 +2728,6 @@ id: NCBITaxon:2785018
 name: Camarodonta
 is_a: NCBITaxon:7674 ! Echinacea <sea urchins>
 relationship: RO:0002162 NCBITaxon:2785018 ! in taxon Camarodonta
-
-[Term]
-id: NCBITaxon:27896
-name: Planariidae
-is_a: NCBITaxon:1292248 ! Planarioidea
-relationship: RO:0002162 NCBITaxon:27896 ! in taxon Planariidae
 
 [Term]
 id: NCBITaxon:28009
@@ -2968,24 +2895,6 @@ is_a: NCBITaxon:135621 ! Pseudomonadaceae
 relationship: RO:0002162 NCBITaxon:286 ! in taxon Pseudomonas
 
 [Term]
-id: NCBITaxon:2864
-name: Dinophyceae
-synonym: "algae" RELATED []
-synonym: "Chromophyta" RELATED []
-synonym: "Dinoflagellata" RELATED []
-synonym: "dinoflagellates" EXACT []
-synonym: "dinoflagellates" RELATED []
-synonym: "Dinophycidae" RELATED []
-synonym: "Dinophyta" RELATED []
-synonym: "dinophytes" EXACT []
-synonym: "Pyrrhophyta" RELATED []
-synonym: "Pyrrophyta" RELATED []
-is_a: NCBITaxon:33630 ! Alveolata
-disjoint_from: NCBITaxon:5794 ! Apicomplexa
-disjoint_from: NCBITaxon:5878 ! Ciliophora
-relationship: RO:0002162 NCBITaxon:2864 ! in taxon Dinophyceae
-
-[Term]
 id: NCBITaxon:287
 name: Pseudomonas aeruginosa
 synonym: "Bacillus aeruginosus" RELATED []
@@ -3111,7 +3020,6 @@ synonym: "cryptophytes" RELATED []
 is_a: NCBITaxon:2759 ! Eukaryota
 disjoint_from: NCBITaxon:33090 ! Viridiplantae
 disjoint_from: NCBITaxon:33154 ! Opisthokonta
-disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
 disjoint_from: NCBITaxon:554915 ! Amoebozoa
 relationship: RO:0002162 NCBITaxon:3027 ! in taxon Cryptophyceae
 
@@ -3243,12 +3151,6 @@ id: NCBITaxon:3166
 name: Chlorophyceae
 is_a: NCBITaxon:2692248 ! core chlorophytes
 relationship: RO:0002162 NCBITaxon:3166 ! in taxon Chlorophyceae
-
-[Term]
-id: NCBITaxon:3176
-name: Zygnematales
-is_a: NCBITaxon:2684882 ! Zygnematophycidae
-relationship: RO:0002162 NCBITaxon:3176 ! in taxon Zygnematales
 
 [Term]
 id: NCBITaxon:3193
@@ -3519,18 +3421,8 @@ synonym: "green plants" EXACT []
 synonym: "green plants" RELATED []
 is_a: NCBITaxon:2759 ! Eukaryota
 disjoint_from: NCBITaxon:33154 ! Opisthokonta
-disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
 disjoint_from: NCBITaxon:554915 ! Amoebozoa
 relationship: RO:0002162 NCBITaxon:33090 ! in taxon Viridiplantae
-
-[Term]
-id: NCBITaxon:3312
-name: Coniferophyta
-synonym: "conifers" RELATED []
-is_a: NCBITaxon:1437180 ! Acrogymnospermae
-disjoint_from: NCBITaxon:3372 ! Gnetopsida
-disjoint_from: NCBITaxon:58022 ! Gnetophyta
-relationship: RO:0002162 NCBITaxon:3312 ! in taxon Coniferophyta
 
 [Term]
 id: NCBITaxon:33154
@@ -3538,7 +3430,6 @@ name: Opisthokonta
 synonym: "Fungi/Metazoa group" RELATED []
 synonym: "opisthokonts" RELATED []
 is_a: NCBITaxon:2759 ! Eukaryota
-disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
 disjoint_from: NCBITaxon:554915 ! Amoebozoa
 relationship: RO:0002162 NCBITaxon:33154 ! in taxon Opisthokonta
 
@@ -3640,25 +3531,10 @@ is_a: NCBITaxon:2611352 ! Discoba
 relationship: RO:0002162 NCBITaxon:33682 ! in taxon Euglenozoa
 
 [Term]
-id: NCBITaxon:3372
-name: Gnetopsida
-synonym: "Chlamydospermopsida" RELATED []
-synonym: "Gneticae" RELATED []
-is_a: NCBITaxon:1437180 ! Acrogymnospermae
-disjoint_from: NCBITaxon:58022 ! Gnetophyta
-relationship: RO:0002162 NCBITaxon:3372 ! in taxon Gnetopsida
-
-[Term]
 id: NCBITaxon:337687
 name: Muroidea
 is_a: NCBITaxon:1963758 ! Myomorpha
 relationship: RO:0002162 NCBITaxon:337687 ! in taxon Muroidea
-
-[Term]
-id: NCBITaxon:3378
-name: Gnetales
-is_a: NCBITaxon:1445966 ! Gnetidae
-relationship: RO:0002162 NCBITaxon:3378 ! in taxon Gnetales
 
 [Term]
 id: NCBITaxon:338
@@ -4161,17 +4037,6 @@ is_a: NCBITaxon:3803 ! Fabaceae
 relationship: RO:0002162 NCBITaxon:3814 ! in taxon Papilionoideae
 
 [Term]
-id: NCBITaxon:38254
-name: Glaucocystophyceae
-synonym: "algae" RELATED []
-synonym: "glaucocystophytes" EXACT []
-synonym: "Glaucophyceae" RELATED []
-synonym: "Glaucophyta" RELATED []
-is_a: NCBITaxon:2759 ! Eukaryota
-disjoint_from: NCBITaxon:554915 ! Amoebozoa
-relationship: RO:0002162 NCBITaxon:38254 ! in taxon Glaucocystophyceae
-
-[Term]
 id: NCBITaxon:3846
 name: Glycine
 is_a: NCBITaxon:163735 ! Phaseoleae
@@ -4417,13 +4282,6 @@ name: Polyphaga <beetles>
 synonym: "Polyphaga" EXACT []
 is_a: NCBITaxon:7041 ! Coleoptera
 relationship: RO:0002162 NCBITaxon:41084 ! in taxon Polyphaga <beetles>
-
-[Term]
-id: NCBITaxon:41087
-name: Elateriformia
-is_a: NCBITaxon:41084 ! Polyphaga <beetles>
-disjoint_from: NCBITaxon:41088 ! Cucujiformia
-relationship: RO:0002162 NCBITaxon:41087 ! in taxon Elateriformia
 
 [Term]
 id: NCBITaxon:41088
@@ -5733,12 +5591,6 @@ disjoint_from: NCBITaxon:5878 ! Ciliophora
 relationship: RO:0002162 NCBITaxon:5794 ! in taxon Apicomplexa
 
 [Term]
-id: NCBITaxon:58022
-name: Gnetophyta
-is_a: NCBITaxon:1437180 ! Acrogymnospermae
-relationship: RO:0002162 NCBITaxon:58022 ! in taxon Gnetophyta
-
-[Term]
 id: NCBITaxon:58023
 name: Tracheophyta
 synonym: "vascular plants" EXACT []
@@ -5865,22 +5717,6 @@ synonym: "sea anemones" EXACT []
 synonym: "sea anemones" RELATED []
 is_a: NCBITaxon:6102 ! Hexacorallia
 relationship: RO:0002162 NCBITaxon:6103 ! in taxon Actiniaria
-
-[Term]
-id: NCBITaxon:6157
-name: Platyhelminthes
-synonym: "flatworm" EXACT []
-synonym: "flatworms" EXACT []
-synonym: "flatworms" RELATED []
-is_a: NCBITaxon:1206795 ! Lophotrochozoa
-disjoint_from: NCBITaxon:6340 ! Annelida
-relationship: RO:0002162 NCBITaxon:6157 ! in taxon Platyhelminthes
-
-[Term]
-id: NCBITaxon:6159
-name: Tricladida
-is_a: NCBITaxon:166126 ! Seriata
-relationship: RO:0002162 NCBITaxon:6159 ! in taxon Tricladida
 
 [Term]
 id: NCBITaxon:6231
@@ -6309,12 +6145,6 @@ name: Eucalyptus grandis
 synonym: "rose gum" EXACT []
 is_a: NCBITaxon:3932 ! Eucalyptus
 relationship: RO:0002162 NCBITaxon:71139 ! in taxon Eucalyptus grandis
-
-[Term]
-id: NCBITaxon:71193
-name: Elateroidea
-is_a: NCBITaxon:41087 ! Elateriformia
-relationship: RO:0002162 NCBITaxon:71193 ! in taxon Elateroidea
 
 [Term]
 id: NCBITaxon:712

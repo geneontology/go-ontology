@@ -20,13 +20,11 @@ id: NCBITaxon:2
 is_a: NCBITaxon_Union:0000000 ! Viridiplantae or Bacteria
 is_a: NCBITaxon_Union:0000004 ! Prokaryota
 is_a: NCBITaxon_Union:0000032 ! Bacteria or Dikarya
-is_a: NCBITaxon_Union:0000033 ! Archaea or Bacteria
 
 [Term]
 id: NCBITaxon:2157
 is_a: NCBITaxon_Union:0000004 ! Prokaryota
 is_a: NCBITaxon_Union:0000025 ! Archaea or Eukaryota
-is_a: NCBITaxon_Union:0000033 ! Archaea or Bacteria
 
 [Term]
 id: NCBITaxon:2759
@@ -85,10 +83,15 @@ is_a: NCBITaxon_Union:0000038 ! Metazoa or Dikarya or Embryophyta or Dictyosteli
 [Term]
 id: NCBITaxon:5794
 is_a: NCBITaxon_Union:0000036 ! Viridiplantae or Apicomplexa
+is_a: NCBITaxon_Union:0000039 ! Apicomplex or Arthropoda
 
 [Term]
 id: NCBITaxon:6072
 is_a: NCBITaxon_Union:0000035 ! Embryophyta or Eumetazoa
+
+[Term]
+id: NCBITaxon:6656
+is_a: NCBITaxon_Union:0000039 ! Apicomplex or Arthropoda
 
 [Term]
 id: NCBITaxon:7746
@@ -244,16 +247,6 @@ created_by: balhoff
 creation_date: 2021-09-15
 
 [Term]
-id: NCBITaxon_Union:0000033
-name: Archaea or Bacteria
-is_a: NCBITaxon_Union:0000006 ! Viridiplantae or Archaea or Bacteria
-is_a: NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
-union_of: NCBITaxon:2
-union_of: NCBITaxon:2157
-created_by: balhoff
-creation_date: 2021-09-15
-
-[Term]
 id: NCBITaxon_Union:0000034
 name: Archaea or Bacteria or Fungi or Viridiplantae
 is_a: NCBITaxon:131567
@@ -302,4 +295,13 @@ union_of: NCBITaxon:451864
 union_of: NCBITaxon:5782
 created_by: balhoff
 creation_date: 2021-09-15
+
+[Term]
+id: NCBITaxon_Union:0000039
+name: Apicomplex or Arthropoda
+is_a: NCBITaxon:2759
+union_of: NCBITaxon:5794
+union_of: NCBITaxon:6656
+created_by: balhoff
+creation_date: 2021-09-23
 

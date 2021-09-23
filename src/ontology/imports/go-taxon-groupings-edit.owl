@@ -54,6 +54,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_Union_0000035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_Union_0000036>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_Union_0000037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_Union_0000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_Union_0000039>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(dc:description))
 Declaration(AnnotationProperty(dc:title))
@@ -228,6 +229,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <h
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/NCBITaxon_Union_0000038> "2021-09-15"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_Union_0000038> "Metazoa or Dikarya or Embryophyta or Dictyostelium"^^xsd:string)
 EquivalentClasses(<http://purl.obolibrary.org/obo/NCBITaxon_Union_0000038> ObjectUnionOf(<http://purl.obolibrary.org/obo/NCBITaxon_3193> <http://purl.obolibrary.org/obo/NCBITaxon_33208> <http://purl.obolibrary.org/obo/NCBITaxon_451864> <http://purl.obolibrary.org/obo/NCBITaxon_5782>))
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_Union_0000039> (Apicomplex or Arthropoda)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/NCBITaxon_Union_0000039> "balhoff"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/NCBITaxon_Union_0000039> "2021-09-23"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_Union_0000039> "Apicomplex or Arthropoda")
+EquivalentClasses(<http://purl.obolibrary.org/obo/NCBITaxon_Union_0000039> ObjectUnionOf(<http://purl.obolibrary.org/obo/NCBITaxon_5794> <http://purl.obolibrary.org/obo/NCBITaxon_6656>))
 
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Wikipedia:Euteleostomi"^^xsd:string) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_117571> "Osteichthyes"^^xsd:string)
