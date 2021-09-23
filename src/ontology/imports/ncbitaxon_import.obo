@@ -29,7 +29,6 @@ relationship: RO:0002162 NCBITaxon:100474 ! in taxon Batrachochytrium
 id: NCBITaxon:10066
 name: Muridae
 is_a: NCBITaxon:337687 ! Muroidea
-disjoint_from: NCBITaxon:687453 ! Platacanthomyidae
 relationship: RO:0002162 NCBITaxon:10066 ! in taxon Muridae
 
 [Term]
@@ -2594,14 +2593,6 @@ is_a: NCBITaxon:1142 ! Synechocystis
 relationship: RO:0002162 NCBITaxon:2640012 ! in taxon unclassified Synechocystis
 
 [Term]
-id: NCBITaxon:2653789
-name: Whippomorpha
-is_a: NCBITaxon:91561 ! Artiodactyla
-disjoint_from: NCBITaxon:35497 ! Suina
-disjoint_from: NCBITaxon:9845 ! Ruminantia
-relationship: RO:0002162 NCBITaxon:2653789 ! in taxon Whippomorpha
-
-[Term]
 id: NCBITaxon:265488
 name: Rhodopirellula
 is_a: NCBITaxon:2691357 ! Pirellulaceae
@@ -3620,7 +3611,6 @@ synonym: "carnivores" EXACT []
 synonym: "carnivores" RELATED []
 is_a: NCBITaxon:314145 ! Laurasiatheria
 disjoint_from: NCBITaxon:91561 ! Artiodactyla
-disjoint_from: NCBITaxon:9397 ! Chiroptera
 disjoint_from: NCBITaxon:9787 ! Perissodactyla
 relationship: RO:0002162 NCBITaxon:33554 ! in taxon Carnivora
 
@@ -6184,18 +6174,6 @@ is_a: NCBITaxon:127906 ! Vibrio cholerae O1
 relationship: RO:0002162 NCBITaxon:686 ! in taxon Vibrio cholerae O1 biovar El Tor
 
 [Term]
-id: NCBITaxon:687453
-name: Platacanthomyidae
-is_a: NCBITaxon:337687 ! Muroidea
-relationship: RO:0002162 NCBITaxon:687453 ! in taxon Platacanthomyidae
-
-[Term]
-id: NCBITaxon:687454
-name: Typhlomys
-is_a: NCBITaxon:687453 ! Platacanthomyidae
-relationship: RO:0002162 NCBITaxon:687454 ! in taxon Typhlomys
-
-[Term]
 id: NCBITaxon:69014
 name: Thermococcus kodakarensis KOD1
 synonym: "Pyrococcus sp. (strain KOD1)" RELATED []
@@ -7291,7 +7269,6 @@ synonym: "Cetartiodactyla" RELATED []
 synonym: "even-toed ungulates" RELATED []
 synonym: "whales, hippos, ruminants, pigs, camels etc." EXACT []
 is_a: NCBITaxon:314145 ! Laurasiatheria
-disjoint_from: NCBITaxon:9397 ! Chiroptera
 disjoint_from: NCBITaxon:9787 ! Perissodactyla
 relationship: RO:0002162 NCBITaxon:91561 ! in taxon Artiodactyla
 
@@ -7419,15 +7396,6 @@ synonym: "placentals" EXACT []
 synonym: "placentals" RELATED []
 is_a: NCBITaxon:32525 ! Theria <mammals>
 relationship: RO:0002162 NCBITaxon:9347 ! in taxon Eutheria
-
-[Term]
-id: NCBITaxon:9397
-name: Chiroptera
-synonym: "bats" EXACT []
-synonym: "bats" RELATED []
-is_a: NCBITaxon:314145 ! Laurasiatheria
-disjoint_from: NCBITaxon:9787 ! Perissodactyla
-relationship: RO:0002162 NCBITaxon:9397 ! in taxon Chiroptera
 
 [Term]
 id: NCBITaxon:9443
@@ -7602,24 +7570,6 @@ synonym: "Felis domesticus" RELATED []
 synonym: "Felis silvestris catus" RELATED []
 is_a: NCBITaxon:9682 ! Felis
 relationship: RO:0002162 NCBITaxon:9685 ! in taxon Felis catus
-
-[Term]
-id: NCBITaxon:9721
-name: Cetacea
-synonym: "cetaceans" EXACT []
-synonym: "whale" EXACT []
-synonym: "whales" EXACT []
-synonym: "whales & dolphins" RELATED []
-synonym: "whales, dolphins, and porpoises" EXACT []
-is_a: NCBITaxon:2653789 ! Whippomorpha
-relationship: RO:0002162 NCBITaxon:9721 ! in taxon Cetacea
-
-[Term]
-id: NCBITaxon:9722
-name: Odontoceti
-synonym: "tooth whales" EXACT []
-is_a: NCBITaxon:9721 ! Cetacea
-relationship: RO:0002162 NCBITaxon:9722 ! in taxon Odontoceti
 
 [Term]
 id: NCBITaxon:976
