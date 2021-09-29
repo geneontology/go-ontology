@@ -19,7 +19,7 @@ is_a: NCBITaxon_Union:0000030 ! cellular organisms or viruses
 id: NCBITaxon:2
 is_a: NCBITaxon_Union:0000000 ! Viridiplantae or Bacteria
 is_a: NCBITaxon_Union:0000004 ! Prokaryota
-is_a: NCBITaxon_Union:0000020 ! Fungi or Bacteria
+is_a: NCBITaxon_Union:0000032 ! Bacteria or Dikarya
 
 [Term]
 id: NCBITaxon:2157
@@ -35,13 +35,23 @@ id: NCBITaxon:3027
 is_a: NCBITaxon_Union:0000031 ! Stramenopiles or Cryptophyta
 
 [Term]
+id: NCBITaxon:3193
+is_a: NCBITaxon_Union:0000035 ! Embryophyta or Eumetazoa
+
+[Term]
 id: NCBITaxon:33090
 is_a: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
 is_a: NCBITaxon_Union:0000008 ! Viridiplantae or Euglenozoa
+is_a: NCBITaxon_Union:0000036 ! Viridiplantae or Apicomplexa
 
 [Term]
 id: NCBITaxon:33154
 is_a: NCBITaxon_Union:0000024 ! Unikonta
+is_a: NCBITaxon_Union:0000037 ! Opisthokonta or Embryophyta
+
+[Term]
+id: NCBITaxon:33208
+is_a: NCBITaxon_Union:0000038 ! Metazoa or Dikarya or Embryophyta or Dictyostelium
 
 [Term]
 id: NCBITaxon:33634
@@ -50,6 +60,11 @@ is_a: NCBITaxon_Union:0000031 ! Stramenopiles or Cryptophyta
 [Term]
 id: NCBITaxon:33682
 is_a: NCBITaxon_Union:0000008 ! Viridiplantae or Euglenozoa
+
+[Term]
+id: NCBITaxon:451864
+is_a: NCBITaxon_Union:0000032 ! Bacteria or Dikarya
+is_a: NCBITaxon_Union:0000038 ! Metazoa or Dikarya or Embryophyta or Dictyostelium
 
 [Term]
 id: NCBITaxon:4751
@@ -63,6 +78,20 @@ is_a: NCBITaxon_Union:0000024 ! Unikonta
 [Term]
 id: NCBITaxon:5782
 is_a: NCBITaxon_Union:0000022 ! Fungi or Dictyostelium
+is_a: NCBITaxon_Union:0000038 ! Metazoa or Dikarya or Embryophyta or Dictyostelium
+
+[Term]
+id: NCBITaxon:5794
+is_a: NCBITaxon_Union:0000036 ! Viridiplantae or Apicomplexa
+is_a: NCBITaxon_Union:0000039 ! Apicomplex or Arthropoda
+
+[Term]
+id: NCBITaxon:6072
+is_a: NCBITaxon_Union:0000035 ! Embryophyta or Eumetazoa
+
+[Term]
+id: NCBITaxon:6656
+is_a: NCBITaxon_Union:0000039 ! Apicomplex or Arthropoda
 
 [Term]
 id: NCBITaxon:7746
@@ -115,6 +144,7 @@ creation_date: 2008-07-24T11:56:07Z
 id: NCBITaxon_Union:0000006
 name: Viridiplantae or Archaea or Bacteria
 is_a: NCBITaxon_Union:0000021 ! Viridiplantae or Bacteria or Euglenozoa or Archaea
+is_a: NCBITaxon_Union:0000034 ! Archaea or Bacteria or Fungi or Viridiplantae
 union_of: NCBITaxon:2
 union_of: NCBITaxon:2157
 union_of: NCBITaxon:33090
@@ -171,7 +201,7 @@ union_of: NCBITaxon:5782
 [Term]
 id: NCBITaxon_Union:0000023
 name: Fungi or Bacteria or Archaea
-is_a: NCBITaxon:131567
+is_a: NCBITaxon_Union:0000034 ! Archaea or Bacteria or Fungi or Viridiplantae
 union_of: NCBITaxon:2
 union_of: NCBITaxon:2157
 union_of: NCBITaxon:4751
@@ -206,4 +236,72 @@ name: Stramenopiles or Cryptophyta
 is_a: NCBITaxon:2759
 union_of: NCBITaxon:3027
 union_of: NCBITaxon:33634
+
+[Term]
+id: NCBITaxon_Union:0000032
+name: Bacteria or Dikarya
+is_a: NCBITaxon_Union:0000020 ! Fungi or Bacteria
+union_of: NCBITaxon:2
+union_of: NCBITaxon:451864
+created_by: balhoff
+creation_date: 2021-09-15
+
+[Term]
+id: NCBITaxon_Union:0000034
+name: Archaea or Bacteria or Fungi or Viridiplantae
+is_a: NCBITaxon:131567
+union_of: NCBITaxon:2
+union_of: NCBITaxon:2157
+union_of: NCBITaxon:33090
+union_of: NCBITaxon:4751
+created_by: balhoff
+creation_date: 2021-09-15
+
+[Term]
+id: NCBITaxon_Union:0000035
+name: Embryophyta or Eumetazoa
+is_a: NCBITaxon_Union:0000037 ! Opisthokonta or Embryophyta
+is_a: NCBITaxon_Union:0000038 ! Metazoa or Dikarya or Embryophyta or Dictyostelium
+union_of: NCBITaxon:3193
+union_of: NCBITaxon:6072
+created_by: balhoff
+creation_date: 2021-09-15
+
+[Term]
+id: NCBITaxon_Union:0000036
+name: Viridiplantae or Apicomplexa
+is_a: NCBITaxon:2759
+union_of: NCBITaxon:33090
+union_of: NCBITaxon:5794
+created_by: balhoff
+creation_date: 2021-09-15
+
+[Term]
+id: NCBITaxon_Union:0000037
+name: Opisthokonta or Embryophyta
+is_a: NCBITaxon:2759
+union_of: NCBITaxon:3193
+union_of: NCBITaxon:33154
+created_by: balhoff
+creation_date: 2021-09-15
+
+[Term]
+id: NCBITaxon_Union:0000038
+name: Metazoa or Dikarya or Embryophyta or Dictyostelium
+is_a: NCBITaxon:2759
+union_of: NCBITaxon:3193
+union_of: NCBITaxon:33208
+union_of: NCBITaxon:451864
+union_of: NCBITaxon:5782
+created_by: balhoff
+creation_date: 2021-09-15
+
+[Term]
+id: NCBITaxon_Union:0000039
+name: Apicomplex or Arthropoda
+is_a: NCBITaxon:2759
+union_of: NCBITaxon:5794
+union_of: NCBITaxon:6656
+created_by: balhoff
+creation_date: 2021-09-23
 
