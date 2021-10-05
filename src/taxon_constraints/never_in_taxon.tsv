@@ -364,7 +364,6 @@ GO:1903719	regulation of I-kappaB phosphorylation	NCBITaxon:4751	Fungi
 GO:1904019	epithelial cell apoptotic process	NCBITaxon:33090	Viridiplantae	
 GO:1904019	epithelial cell apoptotic process	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
 GO:1990182	exosomal secretion	NCBITaxon:4890	Ascomycota	
-GO:1990257	piccolo-bassoon transport vesicle	NCBITaxon:4895	Schizosaccharomyces	
 GO:1990377	organomineral extracellular matrix	NCBITaxon:33090	Viridiplantae	
 GO:1990377	organomineral extracellular matrix	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
 GO:1990405	protein antigen binding	NCBITaxon:4751	Fungi	
