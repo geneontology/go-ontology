@@ -88,8 +88,8 @@ travis_test: travis_build $(SRC)-check change-report.txt chebi_pH_7_3_check
 
 # This target combines features from reasoned.owl, enhanced.owl, sparql_test into a faster mode for Travis.
 # These must be kept in sync.
-travis_build: go-edit-trimmed-imports.obo imports/go_taxon_constraints.owl imports/reactome_xrefs_import.owl regulates_chains.ofn ../taxon_constraints/present_in_taxon.ofn
-	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn remove --term 'IAO:0000116' --axioms annotation --signature true repair --annotation-property oboInOwl:hasDbXref reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl --annotation owl:versionInfo $(RELEASEDATE) unmerge -i regulates_chains.ofn verify --queries $(VARGS) $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql -O reports/
+travis_build: go-edit-filtered-xrefs.ofn imports/go_taxon_constraints.owl imports/reactome_xrefs_import.owl regulates_chains.ofn ../taxon_constraints/present_in_taxon.ofn
+	$(ROBOT) merge --collapse-import-closure false -i go-edit-filtered-xrefs.ofn -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn remove --term 'IAO:0000116' --axioms annotation --signature true repair --annotation-property oboInOwl:hasDbXref reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl --annotation owl:versionInfo $(RELEASEDATE) unmerge -i regulates_chains.ofn verify --queries $(VARGS) $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql -O reports/
 
 unsatisfiable: $(GO_GAF).owl
 	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
@@ -187,10 +187,13 @@ go-edit-trimmed-imports.obo: $(SRC)
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl' $< |\
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl' >$@
 
+go-edit-filtered-xrefs.ofn: go-edit-trimmed-imports.obo ../util/filter-rhea-xrefs.sc mirror/rhea.rdf
+	$(AMM) ../util/filter-rhea-xrefs.sc $< catalog-v001.xml mirror/rhea.rdf $@
+
 # merge in some imported GO modules
 # remove editor-only annotations
-enhanced.owl: go-edit-trimmed-imports.obo imports/go_taxon_constraints.owl imports/reactome_xrefs_import.owl
-	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl remove --term 'IAO:0000116' --axioms annotation --signature true repair --annotation-property oboInOwl:hasDbXref annotate --annotation owl:versionInfo $(RELEASEDATE) -o $@
+enhanced.owl: go-edit-filtered-xrefs.ofn imports/go_taxon_constraints.owl imports/reactome_xrefs_import.owl
+	$(ROBOT) merge --collapse-import-closure false -i go-edit-filtered-xrefs.ofn -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl remove --term 'IAO:0000116' --axioms annotation --signature true repair --annotation-property oboInOwl:hasDbXref annotate --annotation owl:versionInfo $(RELEASEDATE) -o $@
 
 # reasoned.owl is equivalent to editors source, after materialize-reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
@@ -440,6 +443,9 @@ mirror/ro-download.owl: $(SRC)
 mirror/%-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
 .PRECIOUS: mirror/%-download.owl
+
+mirror/rhea.rdf:
+	curl -L -o $@.gz 'https://ftp.expasy.org/databases/rhea/rdf/rhea.rdf.gz' && gunzip $@.gz
 
 # bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
 bio-chebi.owl: mirror/chebi.owl chebi-ph7_3-slim.ofn biochebi_gcis.ofn imports/substance_by_role.owl 
