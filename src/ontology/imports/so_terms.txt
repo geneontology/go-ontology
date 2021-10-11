@@ -35,4 +35,5 @@ http://purl.obolibrary.org/obo/SO_0001645 ## genetic_marker
 http://purl.obolibrary.org/obo/SO_3000000 ## gene segment
 http://purl.obolibrary.org/obo/SO_0000336 ## pseudogene
 http://purl.obolibrary.org/obo/SO_0000704 ## gene
+http://purl.obolibrary.org/obo/SO_0001244 ## pre_miRNA
 http://purl.obolibrary.org/obo/SO_0001411 ## biological region
