@@ -36,7 +36,7 @@ OWLTOOLS = $(OWLTOOLS_ENV) owltools
 DOSDP_ENV = JAVA_OPTS=-Xmx8G
 DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
 
-AMM_ENV = JAVA_OPTS=-Xmx8G
+AMM_ENV = JAVA_OPTS=-Xmx6G
 AMM = $(AMM_ENV) amm --silent
 
 # Oort build dir;
