@@ -37,7 +37,7 @@ DOSDP_ENV = JAVA_OPTS=-Xmx8G
 DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
 
 AMM_ENV = JAVA_OPTS=-Xmx8G
-AMM = $(AMM_ENV) amm
+AMM = $(AMM_ENV) amm --silent
 
 # Oort build dir;
 # This also should be replaced by robot
