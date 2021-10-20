@@ -23,17 +23,17 @@ RELEASEDIR=../../target
 RELEASEDIR_IMPORTS=$(RELEASEDIR)/imports
 
 # ROBOT is the main release release tool
-ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
+ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx6G
 ROBOT = $(ROBOT_ENV) robot --catalog catalog-v001.xml
 
 # OWLTools is a swiss-army knife;
 # It does some things robot can't do, but eventually functionality should
 # move to robot
-OWLTOOLS_ENV = OWLTOOLS_MEMORY=8G
+OWLTOOLS_ENV = OWLTOOLS_MEMORY=6G
 OWLTOOLS = $(OWLTOOLS_ENV) owltools
 
 #DOSDP is used for turning tsv files into pieces of ontologies for imports
-DOSDP_ENV = JAVA_OPTS=-Xmx8G
+DOSDP_ENV = JAVA_OPTS=-Xmx6G
 DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
 
 AMM_ENV = JAVA_OPTS=-Xmx6G
