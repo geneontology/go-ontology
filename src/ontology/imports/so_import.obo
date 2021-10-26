@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-07-18/imports/so_import.owl
+data-version: go/releases/2021-10-26/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -707,6 +707,22 @@ comment: Merged into promoter (SO:0000167) on 11 Feb 2021 by Dave Sant. GREEKC h
 synonym: "TSS region" EXACT []
 is_obsolete: true
 replaced_by: SO:0000167
+
+[Term]
+id: SO:0001243
+name: miRNA_primary_transcript_region
+namespace: sequence
+def: "A part of an miRNA primary_transcript." [SO:ke]
+synonym: "miRNA primary transcript region" EXACT []
+is_a: SO:0000835 ! primary_transcript_region
+
+[Term]
+id: SO:0001244
+name: pre_miRNA
+namespace: sequence
+def: "The 60-70 nucleotide region remain after Drosha processing of the primary transcript, that folds back upon itself to form a hairpin structure." [SO:ke]
+synonym: "pre-miRNA" EXACT []
+is_a: SO:0001243 ! miRNA_primary_transcript_region
 
 [Term]
 id: SO:0001263
