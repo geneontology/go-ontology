@@ -161,6 +161,8 @@ GO:0031556	transcriptional attenuation by ribosome	NCBITaxon:2759	Eukaryota
 GO:0031720	haptoglobin binding	NCBITaxon:4751	Fungi	
 GO:0032501	multicellular organismal process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0032501	multicellular organismal process	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0032501	multicellular organismal process	NCBITaxon:2	Bacteria	
+GO:0032501	multicellular organismal process	NCBITaxon:2157	Archaea	
 GO:0034185	apolipoprotein binding	NCBITaxon:4751	Fungi	
 GO:0034189	very-low-density lipoprotein particle binding	NCBITaxon:4751	Fungi	
 GO:0034293	sexual sporulation	NCBITaxon:33083	Dictyostelids	
