@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-10-01/imports/uberon_import.owl
+data-version: go/releases/2021-11-12/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -1833,7 +1833,6 @@ def: "." []
 synonym: "vertebral foramen of cervical vertebra 1" EXACT []
 is_a: UBERON:0001131 ! vertebral foramen
 is_a: UBERON:0005744 ! bone foramen
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001131 ! vertebral foramen
 intersection_of: part_of UBERON:0001092 ! vertebral bone 1
 relationship: part_of UBERON:0001092 ! vertebral bone 1
@@ -1915,7 +1914,6 @@ synonym: "cartilage of tibia" RELATED []
 synonym: "tibial cartilage" EXACT []
 is_a: UBERON:0004270 ! lower leg connective tissue
 is_a: UBERON:0007391 ! pelvic appendage cartilage tissue
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0002418 ! cartilage tissue
 intersection_of: part_of UBERON:0000979 ! tibia
 relationship: part_of UBERON:0000979 ! tibia
@@ -6285,6 +6283,7 @@ synonym: "ureteric tree" RELATED []
 is_a: CARO:0000000
 is_a: UBERON:0006555 ! excretory tube
 relationship: part_of UBERON:0001285 ! nephron
+relationship: part_of UBERON:0004100 ! renal collecting system
 relationship: part_of UBERON:0007684 ! uriniferous tubule
 relationship: RO:0002433 UBERON:0002113 ! kidney
 
@@ -11967,7 +11966,7 @@ relationship: part_of UBERON:0001884 ! phrenic nerve
 [Term]
 id: UBERON:0001890
 name: forebrain
-def: "The most anterior region the brain including both the telencephalon and diencephalon." []
+def: "The most anterior region of the brain including both the telencephalon and diencephalon." []
 synonym: "FB" BROAD []
 synonym: "prosencephalon" RELATED []
 is_a: UBERON:0002616 ! regional part of brain
@@ -13089,7 +13088,7 @@ relationship: RO:0002220 UBERON:0002194 ! capsule of lymph node
 [Term]
 id: UBERON:0002007
 name: medulla of lymph node
-def: "The mdeullary portion of the lymph node, which contains large blood vessels, sinuses and medullary cords that contain antibody-secreting plasma cells." []
+def: "The medullary portion of the lymph node, which contains large blood vessels, sinuses and medullary cords that contain antibody-secreting plasma cells." []
 synonym: "lymph node medulla" EXACT []
 synonym: "medulla nodi lymphoidei" RELATED []
 is_a: CARO:0000000
@@ -14359,6 +14358,7 @@ relationship: has_part CL:0000235
 relationship: has_part CL:0000432
 relationship: has_part CL:0000542
 relationship: part_of UBERON:0002370 ! thymus
+relationship: part_of UBERON:0005483 ! thymus lobe
 relationship: RO:0002433 UBERON:0002370 ! thymus
 
 [Term]
@@ -15110,7 +15110,6 @@ def: "An intersegmental rod-shaped bone that forms in the peritoneal membrane an
 synonym: "dorsal rib" RELATED []
 synonym: "pleural rib" RELATED []
 synonym: "ribs" RELATED []
-is_a: UBERON:0002495 ! long bone
 is_a: UBERON:0002513 ! endochondral bone
 is_a: UBERON:0015019 ! rib endochondral element
 intersection_of: UBERON:0015019 ! rib endochondral element
@@ -15587,13 +15586,14 @@ relationship: RO:0002433 UBERON:0008874 ! pulmonary acinus
 [Term]
 id: UBERON:0002301
 name: layer of neocortex
-def: "One of the layers of the neocortex." []
+def: "One of the layers of the neocortex. These layers are defined by distinctive populations of cells based on somata size, shape, or density, that are aligned into sheets." []
 synonym: "cerebral cortex layer" RELATED []
 synonym: "cortical layer" BROAD []
 synonym: "lamina of neocortex" RELATED []
 synonym: "layer of neocortex" EXACT []
 synonym: "neocortex layer" EXACT []
 is_a: UBERON:0022303 ! nervous system cell part layer
+is_a: UBERON:8440004 ! laminar subdivision of the cortex
 intersection_of: UBERON:0022303 ! nervous system cell part layer
 intersection_of: part_of UBERON:0001950 ! neocortex
 relationship: part_of UBERON:0001950 ! neocortex
@@ -16165,9 +16165,11 @@ synonym: "sinuatrial nodal muscle tissue" EXACT []
 synonym: "sinuatrial node" EXACT []
 synonym: "sinus node" EXACT []
 synonym: "sinus node of Keith and Flack" EXACT []
-is_a: UBERON:0004493 ! cardiac muscle tissue of myocardium
+is_a: UBERON:0003379 ! cardiac muscle of right atrium
 is_a: UBERON:0010131 ! conducting tissue of heart
+relationship: part_of UBERON:0002078 ! right cardiac atrium
 relationship: part_of UBERON:0002350 ! conducting system of heart
+relationship: RO:0002162 NCBITaxon:7742
 relationship: RO:0002215 GO:0002027
 relationship: RO:0002216 GO:0060048
 relationship: RO:0002433 UBERON:0002350 ! conducting system of heart
@@ -17679,7 +17681,7 @@ relationship: RO:0002176 UBERON:0000210 ! tetrapod parietal bone
 [Term]
 id: UBERON:0002495
 name: long bone
-def: "Long bone is a limb bone that is subcylindrical and has a shaft with periosteum separating the ends of the bones. Long bones are present only in the limbs[VSAO:wd]." []
+def: "A long bone is a bone that has a shaft and 2 ends and is longer than it is wide. Long bones have a thick outside layer of compact bone and an inner medullary cavity containing bone marrow.  The ends of a long bone contain spongy bone and an epiphyseal plate or line depending on the stage of development. The epiphyseal plate is a hyaline cartilage, where new bone growth takes place, lengthening the bone prior to adulthood. Bone lengthening ceases when this cartilage is lost, leaving a remnant referred to as an epiphyseal line." []
 synonym: "os longum" RELATED []
 is_a: UBERON:0001474 ! bone element
 relationship: part_of UBERON:0002091 ! appendicular skeleton
@@ -17694,7 +17696,6 @@ synonym: "acromion of the scapula" RELATED []
 synonym: "acromion process" EXACT []
 synonym: "scapular acromion" EXACT []
 is_a: UBERON:0004530 ! bony projection
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: part_of UBERON:0006849 ! scapula
 
 [Term]
@@ -17715,7 +17716,6 @@ synonym: "tuberositas deltoidea (corpus humeri)" EXACT []
 synonym: "tuberositas deltoidea humeri" EXACT []
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0005813 ! tubercle
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:4100000 ! skeletal element projection
 relationship: part_of UBERON:0004652 ! humerus diaphysis
 relationship: RO:0002433 UBERON:0000976 ! humerus
@@ -17790,13 +17790,11 @@ synonym: "cartilaginous bone" RELATED []
 synonym: "endochondral bones" RELATED []
 synonym: "ossified chondrogenic bone" EXACT []
 is_a: UBERON:0001474 ! bone element
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0010363 ! endochondral element
 intersection_of: UBERON:0001474 ! bone element
 intersection_of: RO:0002202 UBERON:0005863 ! cartilaginous condensation
 relationship: RO:0002202 UBERON:0005863 ! cartilaginous condensation
 relationship: RO:0002202 UBERON:0007844 ! cartilage element
-relationship: RO:0002202 UBERON:2001544 ! sublingual cartilage
 relationship: RO:0002285 UBERON:0002418 ! cartilage tissue
 
 [Term]
@@ -20730,8 +20728,6 @@ def: "The neck of the rib is the flattened portion which extends lateralward fro
 synonym: "collum costae" EXACT []
 synonym: "collum costae" RELATED []
 synonym: "rib neck" EXACT []
-is_a: UBERON:0005055 ! zone of long bone
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0018664 ! neck of bone element
 intersection_of: UBERON:0001560 ! neck of organ
 intersection_of: part_of UBERON:0002228 ! rib
@@ -22990,7 +22986,7 @@ relationship: RO:0002380 UBERON:0001612 ! facial artery
 [Term]
 id: UBERON:0003471
 name: artery of lower lip
-def: "The Iinferior labial artery (inferior labial branch of facial artery) arises near the angle of the mouth; it passes upward and forward beneath the Triangularis and, penetrating the Orbicularis oris, runs in a tortuous course along the edge of the lower lip between this muscle and the mucous membrane. It supplies the labial glands, the mucous membrane, and the muscles of the lower lip; and anastomoses with the artery of the opposite side, and with the mental branch of the inferior alveolar artery." []
+def: "The inferior labial artery (inferior labial branch of facial artery) arises near the angle of the mouth; it passes upward and forward beneath the Triangularis and, penetrating the Orbicularis oris, runs in a tortuous course along the edge of the lower lip between this muscle and the mucous membrane. It supplies the labial glands, the mucous membrane, and the muscles of the lower lip; and anastomoses with the artery of the opposite side, and with the mental branch of the inferior alveolar artery." []
 synonym: "arteria labialis inferior" EXACT []
 synonym: "inferior labial artery" EXACT []
 synonym: "inferior labial branch of facial artery" EXACT []
@@ -27493,6 +27489,17 @@ relationship: part_of UBERON:0001490 ! elbow joint
 relationship: RO:0002572 UBERON:0001490 ! elbow joint
 
 [Term]
+id: UBERON:0004100
+name: renal collecting system
+def: "The collecting duct system of the kidney consists of a series of tubules and ducts that connect the nephrons to the ureter. It participates in electrolyte and fluid balance through reabsorption and excretion, processes regulated by the hormones aldosterone and antidiuretic hormone." []
+synonym: "collecting duct system" EXACT []
+synonym: "kidney collecting duct system" EXACT []
+synonym: "tubulus renalis colligens" RELATED []
+is_a: CARO:0000000
+is_a: UBERON:0000467 ! anatomical system
+relationship: part_of UBERON:0002113 ! kidney
+
+[Term]
 id: UBERON:0004103
 name: alveolar ridge
 def: "One of the two jaw ridges either on the roof of the mouth between the upper teeth and the hard palate or on the bottom of the mouth behind the lower teeth[WP]. The alveolar ridges contain the sockets (alveoli) of the teeth[HP]." []
@@ -30124,7 +30131,6 @@ def: "An epiphysis that is part of a humerus [Automatically generated definition
 synonym: "humeral epiphysis" EXACT []
 is_a: UBERON:0001437 ! epiphysis
 is_a: UBERON:0004120 ! mesoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001437 ! epiphysis
 intersection_of: part_of UBERON:0000976 ! humerus
 relationship: part_of UBERON:0000976 ! humerus
@@ -30136,7 +30142,6 @@ def: "An epiphysis that is part of a tibia [Automatically generated definition].
 synonym: "tibial epiphysis" EXACT []
 is_a: UBERON:0001437 ! epiphysis
 is_a: UBERON:0004120 ! mesoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001437 ! epiphysis
 intersection_of: part_of UBERON:0000979 ! tibia
 relationship: part_of UBERON:0000979 ! tibia
@@ -30148,7 +30153,6 @@ def: "An epiphysis that is part of a femur [Automatically generated definition].
 synonym: "femoral epiphysis" EXACT []
 is_a: UBERON:0001437 ! epiphysis
 is_a: UBERON:0004120 ! mesoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001437 ! epiphysis
 intersection_of: part_of UBERON:0000981 ! femur
 relationship: part_of UBERON:0000981 ! femur
@@ -30171,7 +30175,6 @@ def: "An epiphysis that is part of a fibula [Automatically generated definition]
 synonym: "fibula epiphysis" EXACT []
 is_a: UBERON:0001437 ! epiphysis
 is_a: UBERON:0004120 ! mesoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001437 ! epiphysis
 intersection_of: part_of UBERON:0001446 ! fibula
 relationship: part_of UBERON:0001446 ! fibula
@@ -30184,7 +30187,6 @@ synonym: "epiphysis of metatarsal" EXACT []
 synonym: "metatarsal bone epiphysis" EXACT []
 synonym: "metatarsal epiphysis" EXACT []
 is_a: UBERON:0004120 ! mesoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0011973 ! epiphysis of phalanx of pes
 intersection_of: UBERON:0001437 ! epiphysis
 intersection_of: part_of UBERON:0001448 ! metatarsal bone
@@ -30199,7 +30201,6 @@ synonym: "metacarpal bone epiphysis" EXACT []
 synonym: "metacarpal epiphysis" EXACT []
 is_a: UBERON:0001437 ! epiphysis
 is_a: UBERON:0004120 ! mesoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001437 ! epiphysis
 intersection_of: part_of UBERON:0002374 ! metacarpal bone
 relationship: part_of UBERON:0002374 ! metacarpal bone
@@ -30374,7 +30375,6 @@ name: epiphysis of phalanx
 def: "An epiphysis that is part of a phalanx [Automatically generated definition]." []
 is_a: UBERON:0001437 ! epiphysis
 is_a: UBERON:0004120 ! mesoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001437 ! epiphysis
 intersection_of: part_of UBERON:0003221 ! phalanx
 relationship: part_of UBERON:0003221 ! phalanx
@@ -31365,7 +31365,6 @@ synonym: "shaft of humerus" EXACT []
 synonym: "shaft of the humerus" RELATED []
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0004769 ! diaphysis
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0004769 ! diaphysis
 intersection_of: part_of UBERON:0000976 ! humerus
 relationship: part_of UBERON:0000976 ! humerus
@@ -32138,7 +32137,6 @@ id: UBERON:0004763
 name: endochondral bone tissue
 def: "Replacement bone tissue that forms within cartilage[VSAO, modified]." []
 is_a: UBERON:0002481 ! bone tissue
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0002481 ! bone tissue
 intersection_of: RO:0002353 GO:0001958
 disjoint_from: UBERON:0004764 ! intramembranous bone tissue
@@ -38924,7 +38922,7 @@ relationship: part_of UBERON:0003054 ! roof plate
 [Term]
 id: UBERON:0005725
 name: olfactory system
-def: "A sensory system that is capable of olfacttion (the sensory perception of smell)." []
+def: "A sensory system that is capable of olfaction (the sensory perception of smell)." []
 intersection_of: UBERON:0001032 ! sensory system
 intersection_of: RO:0002215 GO:0007608
 relationship: RO:0002215 GO:0007608
@@ -39223,7 +39221,8 @@ relationship: part_of UBERON:0002495 ! long bone
 [Term]
 id: UBERON:0005813
 name: tubercle
-def: "A round nodule, small eminence, or warty outgrowth found on bones, skin, or within the lungs in tuberculosis. They are also found on the leading edge of Humpback Whale's flippers, improving fluid flow over the flipper's surface[WP]." []
+def: "A round nodule, small eminence, or warty outgrowth on an anatomical surface, such as bones, skin, or within the lungs (in the case of tuberculosis). They are also found on the leading edge of Humpback Whale's flippers, improving fluid flow over the flipper's surface[WP]." []
+synonym: "tuber" RELATED []
 is_a: UBERON:0004529 ! anatomical projection
 
 [Term]
@@ -40145,7 +40144,7 @@ def: "A process projection from a part of the vertebra such as centrum or arches
 synonym: "spinous process" NARROW []
 synonym: "vertebra process" EXACT []
 synonym: "vertebral process" EXACT []
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+is_a: CARO:0000000
 is_a: UBERON:4100000 ! skeletal element projection
 relationship: part_of UBERON:0002412 ! vertebra
 
@@ -42457,7 +42456,6 @@ synonym: "femoral shaft" EXACT []
 synonym: "shaft of femur" EXACT []
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0004769 ! diaphysis
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0004769 ! diaphysis
 intersection_of: part_of UBERON:0000981 ! femur
 relationship: part_of UBERON:0000981 ! femur
@@ -42491,7 +42489,6 @@ def: "A metaphysis that is part of a femur." []
 synonym: "femoral metaphysis" EXACT []
 is_a: UBERON:0001438 ! metaphysis
 is_a: UBERON:0004120 ! mesoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001438 ! metaphysis
 intersection_of: part_of UBERON:0000981 ! femur
 relationship: part_of UBERON:0000981 ! femur
@@ -42524,8 +42521,8 @@ name: embryonic footplate
 def: "The distal elements of the developing limb of vertebrates that will give rise to the pes (foot)." []
 synonym: "distal part of hindlimb bud" RELATED []
 synonym: "foot disk" RELATED []
-synonym: "foot plate" EXACT []
-synonym: "footplate" EXACT []
+synonym: "foot plate" BROAD []
+synonym: "footplate" BROAD []
 is_a: UBERON:0010130 ! embryonic autopod plate
 intersection_of: UBERON:0010130 ! embryonic autopod plate
 intersection_of: RO:0002387 UBERON:0002387 ! pes
@@ -43106,7 +43103,6 @@ synonym: "femur neck" RELATED []
 synonym: "neck of the femur" RELATED []
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0005055 ! zone of long bone
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0018664 ! neck of bone element
 intersection_of: UBERON:0001560 ! neck of organ
 intersection_of: part_of UBERON:0000981 ! femur
@@ -43323,7 +43319,7 @@ relationship: RO:0002572 UBERON:0001155 ! colon
 id: UBERON:0007171
 name: border of scapula
 synonym: "scapular border" EXACT []
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+is_a: CARO:0000000
 is_a: UBERON:0036304 ! anatomical border
 intersection_of: UBERON:0036304 ! anatomical border
 intersection_of: part_of UBERON:0006849 ! scapula
@@ -43334,7 +43330,6 @@ id: UBERON:0007172
 name: angle of scapula
 synonym: "scapular angle" EXACT []
 is_a: UBERON:0005913 ! zone of bone organ
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: part_of UBERON:0006849 ! scapula
 
 [Term]
@@ -45343,7 +45338,6 @@ name: cervical vertebral foramen
 def: "A vertebral foramen that is part of a cervical vertebra." []
 is_a: UBERON:0001131 ! vertebral foramen
 is_a: UBERON:0005744 ! bone foramen
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001131 ! vertebral foramen
 intersection_of: part_of UBERON:0002413 ! cervical vertebra
 relationship: part_of UBERON:0002413 ! cervical vertebra
@@ -45354,7 +45348,6 @@ name: thoracic vertebral foramen
 def: "A vertebral foramen that is part of a thoracic vertebra." []
 is_a: UBERON:0001131 ! vertebral foramen
 is_a: UBERON:0005744 ! bone foramen
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001131 ! vertebral foramen
 intersection_of: part_of UBERON:0002347 ! thoracic vertebra
 relationship: part_of UBERON:0002347 ! thoracic vertebra
@@ -46865,7 +46858,6 @@ synonym: "digit tip" EXACT []
 synonym: "distal digit segment" EXACT []
 synonym: "tip of digit" EXACT []
 is_a: UBERON:0002529 ! limb segment
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: has_part UBERON:0004300 ! distal phalanx
 relationship: part_of UBERON:0002544 ! digit
 
@@ -49811,8 +49803,8 @@ synonym: "arch of vertebra" NARROW []
 synonym: "arcus vertebrae (vertebralis)" NARROW []
 synonym: "vertebra arch" NARROW []
 synonym: "vertebral arch" NARROW []
+is_a: CARO:0000000
 is_a: UBERON:0004765 ! skeletal element
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: part_of UBERON:0002412 ! vertebra
 
 [Term]
@@ -50027,8 +50019,7 @@ synonym: "proximal part of rib" EXACT []
 synonym: "proximal rib" EXACT []
 synonym: "proximal rib segment" EXACT []
 synonym: "vertebral part of rib" RELATED []
-is_a: UBERON:0005055 ! zone of long bone
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+is_a: UBERON:0005913 ! zone of bone organ
 relationship: part_of UBERON:0002228 ! rib
 relationship: RO:0002170 UBERON:0002412 ! vertebra
 
@@ -54531,7 +54522,6 @@ synonym: "popliteal region" RELATED []
 synonym: "popliteal space" RELATED []
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0005055 ! zone of long bone
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: part_of UBERON:0000981 ! femur
 
 [Term]
@@ -54907,7 +54897,6 @@ synonym: "fibula diaphysis" EXACT []
 synonym: "shaft of fibula" EXACT []
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0004769 ! diaphysis
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0004769 ! diaphysis
 intersection_of: part_of UBERON:0001446 ! fibula
 relationship: part_of UBERON:0001446 ! fibula
@@ -54924,7 +54913,6 @@ synonym: "shaft of tibia" RELATED []
 synonym: "tibial diaphysis" EXACT []
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0004769 ! diaphysis
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0004769 ! diaphysis
 intersection_of: part_of UBERON:0000979 ! tibia
 relationship: part_of UBERON:0000979 ! tibia
@@ -55386,7 +55374,6 @@ synonym: "diaphyseal end of humerus" EXACT []
 synonym: "humeral metaphysis" EXACT []
 is_a: UBERON:0001438 ! metaphysis
 is_a: UBERON:0004120 ! mesoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001438 ! metaphysis
 intersection_of: part_of UBERON:0000976 ! humerus
 relationship: part_of UBERON:0000976 ! humerus
@@ -55398,7 +55385,6 @@ def: "A metaphysis that is part of a tibia." []
 synonym: "tibial metaphysis" EXACT []
 is_a: UBERON:0001438 ! metaphysis
 is_a: UBERON:0004120 ! mesoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001438 ! metaphysis
 intersection_of: part_of UBERON:0000979 ! tibia
 relationship: part_of UBERON:0000979 ! tibia
@@ -55414,7 +55400,6 @@ synonym: "shaft of metacarpal" EXACT []
 synonym: "shaft of metacarpal bone" EXACT []
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0004769 ! diaphysis
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0004769 ! diaphysis
 intersection_of: part_of UBERON:0002374 ! metacarpal bone
 relationship: part_of UBERON:0002374 ! metacarpal bone
@@ -55592,7 +55577,6 @@ synonym: "metatarsal diaphysis" EXACT []
 synonym: "shaft of metatarsal bone" EXACT []
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0004769 ! diaphysis
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0004769 ! diaphysis
 intersection_of: part_of UBERON:0001448 ! metatarsal bone
 relationship: part_of UBERON:0001448 ! metatarsal bone
@@ -57923,7 +57907,7 @@ relationship: RO:0002176 UBERON:0001682 ! palatine bone
 id: UBERON:0016446
 name: hair of head
 def: "A strand of hair that is part of a head." []
-synonym: "hair of scalp" EXACT []
+synonym: "hair of scalp" NARROW []
 synonym: "head hair" EXACT []
 is_a: UBERON:0001037 ! strand of hair
 intersection_of: UBERON:0001037 ! strand of hair
@@ -58476,7 +58460,6 @@ synonym: "fibula metaphysis" EXACT []
 synonym: "fibular metaphysis" EXACT []
 is_a: UBERON:0001438 ! metaphysis
 is_a: UBERON:0004120 ! mesoderm-derived structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001438 ! metaphysis
 intersection_of: part_of UBERON:0001446 ! fibula
 relationship: part_of UBERON:0001446 ! fibula
@@ -59173,7 +59156,6 @@ id: UBERON:0018667
 name: neck of scapula
 synonym: "anatomical neck of scapula" EXACT []
 synonym: "scapular neck" EXACT []
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0018664 ! neck of bone element
 intersection_of: UBERON:0001560 ! neck of organ
 intersection_of: part_of UBERON:0006849 ! scapula
@@ -59186,7 +59168,6 @@ synonym: "fibula neck" EXACT []
 synonym: "fibular neck" EXACT []
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0005055 ! zone of long bone
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0018664 ! neck of bone element
 intersection_of: UBERON:0001560 ! neck of organ
 intersection_of: part_of UBERON:0001446 ! fibula
@@ -62392,12 +62373,6 @@ is_a: UBERON:0008904 ! neuromast
 relationship: part_of UBERON:2001470 ! anterior lateral line
 
 [Term]
-id: UBERON:2001544
-name: sublingual cartilage
-def: "Pharyngeal arch cartilage that is the median cartilage of the ventral hyoid arch, generally lying between the paired ventral hypohyals." []
-is_a: UBERON:0011004 ! pharyngeal arch cartilage
-
-[Term]
 id: UBERON:2001626
 name: premaxillary tooth
 def: "Tooth that is attached to the premaxilla." []
@@ -62659,7 +62634,6 @@ synonym: "collum anatomicum humeri" EXACT []
 synonym: "humeral neck" EXACT []
 is_a: UBERON:0004120 ! mesoderm-derived structure
 is_a: UBERON:0005055 ! zone of long bone
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0018664 ! neck of bone element
 intersection_of: UBERON:0001560 ! neck of organ
 intersection_of: part_of UBERON:0000976 ! humerus
@@ -62889,6 +62863,7 @@ intersection_of: part_of UBERON:0000922 ! embryo
 intersection_of: RO:0002160 NCBITaxon:50557
 relationship: part_of UBERON:0000922 ! embryo
 relationship: RO:0002160 NCBITaxon:50557
+relationship: RO:0002162 NCBITaxon:6656
 
 [Term]
 id: UBERON:6000157
@@ -62985,6 +62960,7 @@ intersection_of: part_of UBERON:0007023 ! adult organism
 intersection_of: RO:0002160 NCBITaxon:50557
 relationship: part_of UBERON:0007023 ! adult organism
 relationship: RO:0002160 NCBITaxon:50557
+relationship: RO:0002162 NCBITaxon:6656
 
 [Term]
 id: UBERON:6003007
@@ -63099,6 +63075,18 @@ id: UBERON:6057001
 name: insect anterior-posterior subdivision of organism
 is_a: UBERON:0000475 ! organism subdivision
 relationship: RO:0002160 NCBITaxon:50557
+
+[Term]
+id: UBERON:7500062
+name: tibial tuberosity
+def: "The tibial tuberosity is on the anterior side of a tibia and is where a patella ligament attaches." []
+synonym: "fossa digitalis" EXACT []
+is_a: UBERON:0004120 ! mesoderm-derived structure
+is_a: UBERON:0005813 ! tubercle
+is_a: UBERON:4100000 ! skeletal element projection
+intersection_of: UBERON:0005813 ! tubercle
+intersection_of: part_of UBERON:0008772 ! proximal epiphysis of tibia
+relationship: part_of UBERON:0008772 ! proximal epiphysis of tibia
 
 [Term]
 id: UBERON:8000006
@@ -63467,6 +63455,12 @@ is_a: UBERON:0001982 ! capillary
 intersection_of: UBERON:0001982 ! capillary
 intersection_of: part_of UBERON:0001155 ! colon
 relationship: part_of UBERON:0001155 ! colon
+
+[Term]
+id: UBERON:8440004
+name: laminar subdivision of the cortex
+def: "One or a subset of adjacent layers of the neocortex." []
+is_a: UBERON:0011215 ! central nervous system cell part cluster
 
 [Typedef]
 id: RO:0000053
