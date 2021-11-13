@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-07-12/imports/pato_import.owl
+data-version: go/releases/2021-11-13/imports/pato_import.owl
 ontology: go/imports/pato_import
 
 [Term]
@@ -168,12 +168,6 @@ name: superelliptic
 def: "A shape constituting a transition between a rectangle and a circle; a closed curve, of which the circle and ellipse are special cases, whose parametric equation is x = a.cos2/rt, y = b.cos2/rt" []
 synonym: "Lamé curve" EXACT []
 is_a: PATO:0002006 ! 2-D shape
-
-[Term]
-id: PATO:0002486
-name: multi-organismal process quality
-def: "A quality inhering in a process by virtue of that process having two or more organisms as participants." []
-is_a: PATO:0001236 ! process quality
 
 [Term]
 id: PATO:0002487
