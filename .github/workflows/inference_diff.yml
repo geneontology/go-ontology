@@ -13,7 +13,7 @@ jobs:
   # This workflow contains a single job called "build"
   classify_pr:
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.2.27
+    container: obolibrary/odkfull:v1.2.30
     steps:
       - uses: actions/checkout@v2
       - name: Classify ontology
@@ -26,7 +26,7 @@ jobs:
           retention-days: 1
   classify_master:
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.2.27
+    container: obolibrary/odkfull:v1.2.30
     steps:
       - uses: actions/checkout@v2
         with:
@@ -44,7 +44,7 @@ jobs:
       - classify_pr
       - classify_master
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.2.27
+    container: obolibrary/odkfull:v1.2.30
     steps:
       - name: Download master classification
         uses: actions/download-artifact@v2
