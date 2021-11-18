@@ -7,15 +7,14 @@ assignees: ''
 
 ---
 
-Please provide as much information as you can: 
+_Please provide as much information as you can:_ 
 
 * **Suggested term label:**
 
 * **ChEBI ID and label of the substance:**
 
-
 * **Definition (free text)**
-Please add 'description of substance' as appropriate:
+_Please add 'description of substance' as appropriate:_
 * *  **substance metabolic process:** The chemical reactions and pathways involving substance, [description of substance].
 * * **substance biosynthetic process:** The chemical reactions and pathways resulting in the formation of substance, [description of substance].
 * * **substance catabolic process:** The chemical reactions and pathways resulting in the breakdown of substance, [description of substance]. 
@@ -27,7 +26,7 @@ Please add 'description of substance' as appropriate:
 
 * **Parent term(s)**
 
-* **Synonym(s)**
+* **Synonym(s) (please specify, EXACT, BROAD, NARROW or RELATED)**
 _Other than the standard synonyms below_
 
 * **Children terms (if applicable)** Should any existing terms that should be moved underneath this new proposed term?
@@ -52,7 +51,7 @@ _Other than the standard synonyms below_
 'catabolic process'
  and ('has primary output' some [substance] 
 
-* **Synonyms (please specify, EXACT, BROAD, NARROW or RELATED)**
+* **Standard synonyms**
 * *  **substance metabolic process:**
 * * * EXACT: substance metabolism
 * * **substance biosynthetic process:** 
