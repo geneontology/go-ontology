@@ -1,14 +1,1 @@
 defined_class	defined_class_label	process	process_label
-http://purl.obolibrary.org/obo/GO_0044706	multi-multicellular organism process	http://purl.obolibrary.org/obo/GO_0032501	multicellular organismal process
-http://purl.obolibrary.org/obo/GO_0044040	multi-organism carbohydrate metabolic process	http://purl.obolibrary.org/obo/GO_0005975	carbohydrate metabolic process
-http://purl.obolibrary.org/obo/GO_0044035	multi-organism catabolic process	http://purl.obolibrary.org/obo/GO_0009056	catabolic process
-http://purl.obolibrary.org/obo/GO_1902581	multi-organism cellular localization	http://purl.obolibrary.org/obo/GO_0051641	cellular localization
-http://purl.obolibrary.org/obo/GO_0044764	multi-organism cellular process	http://purl.obolibrary.org/obo/GO_0009987	cellular process
-http://purl.obolibrary.org/obo/GO_1902579	multi-organism localization	http://purl.obolibrary.org/obo/GO_0051179	localization
-http://purl.obolibrary.org/obo/GO_0044800	multi-organism membrane fusion	http://purl.obolibrary.org/obo/GO_0061025	membrane fusion
-http://purl.obolibrary.org/obo/GO_1902535	multi-organism membrane invagination	http://purl.obolibrary.org/obo/GO_0010324	membrane invagination
-http://purl.obolibrary.org/obo/GO_0044803	multi-organism membrane organization	http://purl.obolibrary.org/obo/GO_0061024	membrane organization
-http://purl.obolibrary.org/obo/GO_0044033	multi-organism metabolic process	http://purl.obolibrary.org/obo/GO_0008152	metabolic process
-http://purl.obolibrary.org/obo/GO_0051704	multi-organism process	http://purl.obolibrary.org/obo/GO_0008150	biological_process
-http://purl.obolibrary.org/obo/GO_0044703	multi-organism reproductive process	http://purl.obolibrary.org/obo/GO_0022414	reproductive process
-http://purl.obolibrary.org/obo/GO_0044766	multi-organism transport	http://purl.obolibrary.org/obo/GO_0006810	transport

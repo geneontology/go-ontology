@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[GO_0043234](http://purl.obolibrary.org/obo/GO_0043234)  and ([capable of](http://purl.obolibrary.org/obo/RO_0002215) some `{function}`)
+[GO_0043234](http://purl.obolibrary.org/obo/GO_0043234)  and ([capable_of](http://purl.obolibrary.org/obo/RO_0002215) some `{function}`)
 
 
 

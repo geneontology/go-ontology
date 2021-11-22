@@ -47,7 +47,7 @@ TODO
 |:--|:--|:--|:--|
 | [http://purl.obolibrary.org/obo/GO_0061644](http://purl.obolibrary.org/obo/GO_0061644) | protein localization to CENP-A containing chromatin | [http://purl.obolibrary.org/obo/GO_0061638](http://purl.obolibrary.org/obo/GO_0061638) | CENP-A containing chromatin |
 | [http://purl.obolibrary.org/obo/GO_1904867](http://purl.obolibrary.org/obo/GO_1904867) | protein localization to Cajal body | [http://purl.obolibrary.org/obo/GO_0015030](http://purl.obolibrary.org/obo/GO_0015030) | Cajal body |
+| [http://purl.obolibrary.org/obo/GO_0034067](http://purl.obolibrary.org/obo/GO_0034067) | protein localization to Golgi apparatus | [http://purl.obolibrary.org/obo/GO_0005794](http://purl.obolibrary.org/obo/GO_0005794) | Golgi apparatus |
+| [http://purl.obolibrary.org/obo/GO_1903292](http://purl.obolibrary.org/obo/GO_1903292) | protein localization to Golgi membrane | [http://purl.obolibrary.org/obo/GO_0000139](http://purl.obolibrary.org/obo/GO_0000139) | Golgi membrane |
 | [http://purl.obolibrary.org/obo/GO_0036309](http://purl.obolibrary.org/obo/GO_0036309) | protein localization to M-band | [http://purl.obolibrary.org/obo/GO_0031430](http://purl.obolibrary.org/obo/GO_0031430) | M band |
-| [http://purl.obolibrary.org/obo/GO_0110012](http://purl.obolibrary.org/obo/GO_0110012) | protein localization to P-body | [http://purl.obolibrary.org/obo/GO_0000932](http://purl.obolibrary.org/obo/GO_0000932) | P-body |
-| [http://purl.obolibrary.org/obo/GO_0036371](http://purl.obolibrary.org/obo/GO_0036371) | protein localization to T-tubule | [http://purl.obolibrary.org/obo/GO_0030315](http://purl.obolibrary.org/obo/GO_0030315) | T-tubule |
 

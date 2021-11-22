@@ -41,12 +41,11 @@ http://purl.obolibrary.org/obo/GO_0002467	germinal center formation	http://purl.
 http://purl.obolibrary.org/obo/GO_0072104	glomerular capillary formation	http://purl.obolibrary.org/obo/UBERON_0004212	glomerular capillary
 http://purl.obolibrary.org/obo/GO_0072117	head kidney formation	http://purl.obolibrary.org/obo/UBERON_0007132	head kidney
 http://purl.obolibrary.org/obo/GO_0060914	heart formation	http://purl.obolibrary.org/obo/UBERON_0000948	heart
-http://purl.obolibrary.org/obo/GO_0003315	heart rudiment formation	http://purl.obolibrary.org/obo/UBERON_0004291	heart rudiment
 http://purl.obolibrary.org/obo/GO_0060347	heart trabecula formation	http://purl.obolibrary.org/obo/UBERON_0002511	trabecula carnea
 http://purl.obolibrary.org/obo/GO_0003188	heart valve formation	http://purl.obolibrary.org/obo/UBERON_0000946	cardial valve
-http://purl.obolibrary.org/obo/GO_0021576	hindbrain formation	http://purl.obolibrary.org/obo/UBERON_0002028	hindbrain
 http://purl.obolibrary.org/obo/GO_0021906	hindbrain-spinal cord boundary formation	http://purl.obolibrary.org/obo/UBERON_0005076	hindbrain-spinal cord boundary
 http://purl.obolibrary.org/obo/GO_0048851	hypophysis formation	http://purl.obolibrary.org/obo/UBERON_0000007	pituitary gland
+http://purl.obolibrary.org/obo/GO_0001744	insect visual primordium formation	http://purl.obolibrary.org/obo/UBERON_6001059	insect visual primordium
 http://purl.obolibrary.org/obo/GO_0060714	labyrinthine layer formation	http://purl.obolibrary.org/obo/UBERON_0003946	placenta labyrinth
 http://purl.obolibrary.org/obo/GO_0021996	lamina terminalis formation	http://purl.obolibrary.org/obo/UBERON_0005078	lamina terminalis of neural tube
 http://purl.obolibrary.org/obo/GO_0060174	limb bud formation	http://purl.obolibrary.org/obo/UBERON_0002101	limb
@@ -80,7 +79,6 @@ http://purl.obolibrary.org/obo/GO_0001841	neural tube formation	http://purl.obol
 http://purl.obolibrary.org/obo/GO_0048849	neurohypophysis formation	http://purl.obolibrary.org/obo/UBERON_0002198	neurohypophysis
 http://purl.obolibrary.org/obo/GO_0060659	nipple sheath formation	http://purl.obolibrary.org/obo/UBERON_0005083	nipple sheath
 http://purl.obolibrary.org/obo/GO_0014028	notochord formation	http://purl.obolibrary.org/obo/UBERON_0002328	notochord
-http://purl.obolibrary.org/obo/GO_0001743	optic placode formation	http://purl.obolibrary.org/obo/UBERON_0003071	eye primordium
 http://purl.obolibrary.org/obo/GO_0003403	optic vesicle formation	http://purl.obolibrary.org/obo/UBERON_0004128	optic vesicle
 http://purl.obolibrary.org/obo/GO_0030916	otic vesicle formation	http://purl.obolibrary.org/obo/UBERON_0003051	ear vesicle
 http://purl.obolibrary.org/obo/GO_0032475	otolith formation	http://purl.obolibrary.org/obo/UBERON_0002280	otolith

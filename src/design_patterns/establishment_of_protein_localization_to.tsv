@@ -1,9 +1,17 @@
 defined_class	defined_class_label	target	target_label
+http://purl.obolibrary.org/obo/GO_0072596	establishment of protein localization to chloroplast	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
 http://purl.obolibrary.org/obo/GO_0071169	establishment of protein localization to chromatin	http://purl.obolibrary.org/obo/GO_0000785	chromatin
 http://purl.obolibrary.org/obo/GO_0070199	establishment of protein localization to chromosome	http://purl.obolibrary.org/obo/GO_0005694	chromosome
+http://purl.obolibrary.org/obo/GO_0072599	establishment of protein localization to endoplasmic reticulum	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0097051	establishment of protein localization to endoplasmic reticulum membrane	http://purl.obolibrary.org/obo/GO_0005789	endoplasmic reticulum membrane
 http://purl.obolibrary.org/obo/GO_1905633	establishment of protein localization to euchromatin	http://purl.obolibrary.org/obo/GO_0000791	euchromatin
 http://purl.obolibrary.org/obo/GO_0035592	establishment of protein localization to extracellular region	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_0071206	establishment of protein localization to juxtaparanode region of axon	http://purl.obolibrary.org/obo/GO_0044224	juxtaparanode region of axon
 http://purl.obolibrary.org/obo/GO_0090150	establishment of protein localization to membrane	http://purl.obolibrary.org/obo/GO_0016020	membrane
+http://purl.obolibrary.org/obo/GO_0090151	establishment of protein localization to mitochondrial membrane	http://purl.obolibrary.org/obo/GO_0031966	mitochondrial membrane
+http://purl.obolibrary.org/obo/GO_0072655	establishment of protein localization to mitochondrion	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
 http://purl.obolibrary.org/obo/GO_0072594	establishment of protein localization to organelle	http://purl.obolibrary.org/obo/GO_0043226	organelle
+http://purl.obolibrary.org/obo/GO_0072663	establishment of protein localization to peroxisome	http://purl.obolibrary.org/obo/GO_0005777	peroxisome
 http://purl.obolibrary.org/obo/GO_1903540	establishment of protein localization to postsynaptic membrane	http://purl.obolibrary.org/obo/GO_0045211	postsynaptic membrane
+http://purl.obolibrary.org/obo/GO_0070200	establishment of protein localization to telomere	http://purl.obolibrary.org/obo/GO_0000781	chromosome, telomeric region
+http://purl.obolibrary.org/obo/GO_0072666	establishment of protein localization to vacuole	http://purl.obolibrary.org/obo/GO_0005773	vacuole
