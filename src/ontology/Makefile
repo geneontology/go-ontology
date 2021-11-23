@@ -674,3 +674,18 @@ idiff: go_inferences_difflog.txt
 	cp go_inferences_difflog.txt $(RELEASEDIR) && \
 	cp go_inferences.diff $(RELEASEDIR) && \
 	cp go_inferences.obo $(RELEASEDIR)
+
+
+# ----------------------------------------
+# DESIGN PATTERNS
+# ----------------------------------------
+
+ALL_PATTERN_YAMLS=$(wildcard ../design_patterns/*.yaml)
+ALL_PATTERN_NAMES=$(patsubst ../design_patterns/%.yaml,%,$(ALL_PATTERN_YAMLS))
+ALL_PATTERN_TSVS=$(patsubst %.yaml,%.tsv,$(ALL_PATTERN_YAMLS))
+
+pattern-matches: reasoned.owl $(ALL_PATTERN_YAMLS)
+	$(DOSDP_TOOLS) query --obo-prefixes=true --batch-patterns="$(ALL_PATTERN_NAMES)" --template=../design_patterns --outfile=../design_patterns --ontology=reasoned.owl --catalog=catalog-v001.xml --reasoner=elk
+
+pattern-docs: pattern-matches reasoned.owl $(ALL_PATTERN_YAMLS) $(ALL_PATTERN_TSVS)
+	$(DOSDP_TOOLS) docs --obo-prefixes=true --batch-patterns="$(ALL_PATTERN_NAMES)" --template=../design_patterns --outfile=../../docs/patterns --infile=../design_patterns --data-location-prefix='https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/' --ontology=reasoned.owl --catalog=catalog-v001.xml
