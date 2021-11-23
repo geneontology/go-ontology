@@ -12,6 +12,7 @@ _Please provide as much information as you can:_
 * **Suggested term label:**
 
 * **ChEBI ID and label of the substance:**
+_Please ensure that the ChEBI ID corresponds to the physiological form (pH7.3) of the compound. In the ChEBI entry, pH7.3 compounds have a 'UniProt synonym', as in the example for [mycophenolate](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI%3A62932)_
 
 * **Definition (free text)**
 _Please add 'description of substance' as appropriate:_
