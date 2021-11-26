@@ -8199,3 +8199,5 @@ http://purl.obolibrary.org/obo/CHEBI_143093 ## 2'-3'-cGAMP(2−)
 http://purl.obolibrary.org/obo/CHEBI_177334 ## 3'-2'-cGAMP(2−)
 http://purl.obolibrary.org/obo/CHEBI_74926 ## patulin
 http://purl.obolibrary.org/obo/CHEBI_10106 ## zearalenone
+http://purl.obolibrary.org/obo/CHEBI_156460 ## novofumigatonin
+http://purl.obolibrary.org/obo/CHEBI_146007 ## (M)-viriditoxin
