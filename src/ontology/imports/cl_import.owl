@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-09-12/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-11-28/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -3572,25 +3572,15 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000202 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000202">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002374"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002491"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002227"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000855"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050910"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanoreceptor cell located in the inner ear that is sensitive to auditory stimuli. The accessory sensory structures are arranged so that appropriate stimuli cause movement of the hair-like projections (stereocilia and kinocilia) which relay the information centrally in the nervous system.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory receptor cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cochlear hair cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inner ear hair cell</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inner ear receptor cell</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanoreceptor cell of the auditory or vestibular system that is sensitive to auditory stimuli. The accessory sensory structures are arranged so that appropriate stimuli cause movement of the hair-like projections (stereocilia and kinocilia) which relay the information centrally in the nervous system.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory receptor cell</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory hair cell</rdfs:label>
     </owl:Class>
     
@@ -7301,8 +7291,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mechanoreceptor in the organ of Corti. In mammals the outer hair cells are arranged in three rows which are further from the modiolus than the single row of inner hair cells. The motile properties of the outer hair cells may contribute actively to tuning the sensitivity and frequency selectivity of the cochlea.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cochlear outer hair cell</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outer hair cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cochlear outer hair cell</rdfs:label>
     </owl:Class>
     
 
@@ -8460,7 +8449,21 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000695">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000117"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of a transient population of pioneering neurons in the cerebral cortex. These cells are slender bipolar cells of the developing marginal zone. One feature of these cells in mammals is that they express the Reelin gene.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0070006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010403"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neuron of the human embryonic marginal zone which display, as a salient feature, radial ascending processes that contact the pial surface, and a horizontal axon plexus located in the deep marginal zone. One feature of these cells in mammals is that they express the Reelin gene.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>CR cells</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Horizontal cells of Cajal</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cajal-Retzius cell</rdfs:label>
     </owl:Class>
     
@@ -9729,12 +9732,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000990"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000576"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A dendritic cell of the myeloid lineage.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interdigitating cell</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">veiled cell</oboInOwl:hasBroadSynonym>
@@ -10507,7 +10504,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -10559,7 +10555,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -10612,7 +10607,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -21374,8 +21368,8 @@
     <!-- http://purl.obolibrary.org/obo/CL_0002351 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002351">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000048"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi-fate stem cell that is able to differentiate into the pancreas alpha, beta and delta endocrine cells. This cell type expresses neurogenin-3 and Isl-1.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A progenitor cell that is able to differentiate into the pancreas alpha, beta and delta endocrine cells. This cell type expresses neurogenin-3 and Isl-1.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic endocrine progenitor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic islet progenitor cell</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">progenitor cell of endocrine pancreas</rdfs:label>
@@ -21845,7 +21839,17 @@
     <!-- http://purl.obolibrary.org/obo/CL_0002374 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002374">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000855"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000855"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001690"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hair cell of the ear that contains the organs of balance and hearing.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ear receptor cell</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ear hair cell</rdfs:label>
@@ -22901,7 +22905,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000989"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A CD11c-low plasmacytoid dendritic cell that is CD8alpha-negative and CD4-positive.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DC.pDC.8-</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD8_alpha-negative plasmactyoid dendritic cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD8_alpha-negative plasmacytoid dendritic cell</rdfs:label>
     </owl:Class>
     
 
@@ -22927,7 +22931,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000989"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A CD11c-low plasmacytoid dendritic cell that is CD8alpha-positive and CD4-positive.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DC.pDC.8+</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD8_alpha-positive plasmactyoid dendritic cell</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD8_alpha-positive plasmacytoid dendritic cell</rdfs:label>
     </owl:Class>
     
 
@@ -23535,7 +23539,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000893"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thymocyte that lacks expression of CD4 and CD8.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CD4-CD8- T cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double negative T cell</oboInOwl:hasExactSynonym>
@@ -25323,8 +25326,19 @@
     <!-- http://purl.obolibrary.org/obo/CL_0005019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0005019">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0008024"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0036321"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0005018"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghrelin secreting cells found in the exocrine pancreas.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ghrelin secreting cells found in the endocrine pancreas.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>pancreatic E cell</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pancreatic epsilon cell</rdfs:label>
     </owl:Class>
@@ -27880,7 +27894,8 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002071"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A columnar cell of the colon that is part of the colonic epithelium.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vacuolar absorptive cell of epithelium of colon</rdfs:label>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vacuolar absorptive cell of epithelium of colon</oboInOwl:hasNarrowSynonym>
+        <rdfs:label>enterocyte of colon</rdfs:label>
     </owl:Class>
     
 
@@ -31128,6 +31143,67 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_4023110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4023110">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000598"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001876"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A pyramidal neuron with soma located in the amygdala.</obo:IAO_0000115>
+        <rdfs:label>amygdala pyramidal neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4023111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4023111">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000598"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000956"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A pyramidal neuron with soma located in the cerebral cortex.</obo:IAO_0000115>
+        <rdfs:label>cerebral cortex pyramidal neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4023120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4023120">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000202"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002227"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An auditory hair cell found in the cochlea.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>cochlear hair cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>cochlea auditory hair cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CP_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CP_0000000">
@@ -32246,6 +32322,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0042151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042151"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0042267 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042267"/>
@@ -32339,6 +32421,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0043134 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043134"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043195"/>
     
 
 
@@ -32876,6 +32964,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0099096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0099096"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -32921,6 +33015,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_4896 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4896"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_6073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6073"/>
     
 
 
@@ -34508,6 +34608,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001690"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001711 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001711"/>
@@ -34589,6 +34695,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001844 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001844"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001876 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001876"/>
     
 
 
@@ -35132,6 +35244,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0003846 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003846"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0003902 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0003902"/>
@@ -35483,6 +35601,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0010302 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010302"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010403"/>
     
 
 

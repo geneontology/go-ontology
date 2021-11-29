@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-09-12/imports/cl_import.owl
+data-version: go/releases/2021-11-28/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -1265,14 +1265,9 @@ intersection_of: RO:0002215 GO:0050976
 [Term]
 id: CL:0000202
 name: auditory hair cell
-def: "A mechanoreceptor cell located in the inner ear that is sensitive to auditory stimuli. The accessory sensory structures are arranged so that appropriate stimuli cause movement of the hair-like projections (stereocilia and kinocilia) which relay the information centrally in the nervous system." []
-synonym: "auditory receptor cell" EXACT []
-synonym: "cochlear hair cell" EXACT []
-synonym: "inner ear hair cell" RELATED []
-synonym: "inner ear receptor cell" RELATED []
-is_a: CL:0002374 ! ear hair cell
-is_a: CL:0002491 ! auditory epithelial cell
-relationship: BFO:0000050 UBERON:0002227
+def: "A mechanoreceptor cell of the auditory or vestibular system that is sensitive to auditory stimuli. The accessory sensory structures are arranged so that appropriate stimuli cause movement of the hair-like projections (stereocilia and kinocilia) which relay the information centrally in the nervous system." []
+synonym: "auditory receptor cell" RELATED []
+is_a: CL:0000855 ! sensory hair cell
 relationship: RO:0002215 GO:0050910
 
 [Term]
@@ -2791,9 +2786,8 @@ is_a: CL:0000605 ! fungal asexual spore
 
 [Term]
 id: CL:0000601
-name: outer hair cell
+name: cochlear outer hair cell
 def: "A mechanoreceptor in the organ of Corti. In mammals the outer hair cells are arranged in three rows which are further from the modiolus than the single row of inner hair cells. The motile properties of the outer hair cells may contribute actively to tuning the sensitivity and frequency selectivity of the cochlea." []
-synonym: "cochlear outer hair cell" EXACT []
 is_a: CL:0000202 ! auditory hair cell
 relationship: BFO:0000050 UBERON:0002227
 
@@ -3272,8 +3266,12 @@ intersection_of: RO:0000053 PATO:0070010
 [Term]
 id: CL:0000695
 name: Cajal-Retzius cell
-def: "One of a transient population of pioneering neurons in the cerebral cortex. These cells are slender bipolar cells of the developing marginal zone. One feature of these cells in mammals is that they express the Reelin gene." []
+def: "A neuron of the human embryonic marginal zone which display, as a salient feature, radial ascending processes that contact the pial surface, and a horizontal axon plexus located in the deep marginal zone. One feature of these cells in mammals is that they express the Reelin gene." []
+synonym: "CR cells" EXACT []
+synonym: "Horizontal cells of Cajal" EXACT []
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
+relationship: RO:0000053 PATO:0070006
+relationship: RO:0002100 UBERON:0010403
 
 [Term]
 id: CL:0000696
@@ -3777,7 +3775,6 @@ is_a: CL:0000990 ! conventional dendritic cell
 intersection_of: CL:0000990 ! conventional dendritic cell
 intersection_of: lacks_plasma_membrane_part PR:000001865
 intersection_of: RO:0002202 CL:0000763 ! myeloid cell
-relationship: RO:0002202 CL:0000576 ! monocyte
 
 [Term]
 id: CL:0000784
@@ -4115,7 +4112,6 @@ synonym: "double negative 2" EXACT []
 synonym: "preT.DN2.Th" EXACT []
 synonym: "TN2 cell" EXACT []
 synonym: "TN2 thymocyte" EXACT []
-is_a: CL:0000893 ! thymocyte
 intersection_of: CL:0000893 ! thymocyte
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000025402
@@ -4137,7 +4133,6 @@ synonym: "early cortical thymocyte" BROAD []
 synonym: "preT.DN3.Th" EXACT []
 synonym: "TN3 cell" EXACT []
 synonym: "TN3 thymocyte" EXACT []
-is_a: CL:0000893 ! thymocyte
 intersection_of: CL:0000893 ! thymocyte
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000001307
@@ -4158,7 +4153,6 @@ synonym: "DN4 immature T-cell" EXACT []
 synonym: "double negative 4" EXACT []
 synonym: "early cortical thymocyte" BROAD []
 synonym: "T.DN4.th" EXACT []
-is_a: CL:0000893 ! thymocyte
 intersection_of: CL:0000893 ! thymocyte
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000001307
@@ -8290,10 +8284,10 @@ intersection_of: BFO:0000050 UBERON:0002165
 [Term]
 id: CL:0002351
 name: progenitor cell of endocrine pancreas
-def: "A multi-fate stem cell that is able to differentiate into the pancreas alpha, beta and delta endocrine cells. This cell type expresses neurogenin-3 and Isl-1." []
+def: "A progenitor cell that is able to differentiate into the pancreas alpha, beta and delta endocrine cells. This cell type expresses neurogenin-3 and Isl-1." []
 synonym: "pancreatic endocrine progenitor" EXACT []
 synonym: "pancreatic islet progenitor cell" EXACT []
-is_a: CL:0000048 ! multi fate stem cell
+is_a: CL:0011026 ! progenitor cell
 
 [Term]
 id: CL:0002352
@@ -8464,7 +8458,8 @@ id: CL:0002374
 name: ear hair cell
 def: "A hair cell of the ear that contains the organs of balance and hearing." []
 synonym: "ear receptor cell" EXACT []
-is_a: CL:0000855 ! sensory hair cell
+intersection_of: CL:0000855 ! sensory hair cell
+intersection_of: BFO:0000050 UBERON:0001690
 
 [Term]
 id: CL:0002375
@@ -8851,7 +8846,7 @@ intersection_of: lacks_plasma_membrane_part PR:000001084
 
 [Term]
 id: CL:0002455
-name: CD8_alpha-negative plasmactyoid dendritic cell
+name: CD8_alpha-negative plasmacytoid dendritic cell
 def: "A CD11c-low plasmacytoid dendritic cell that is CD8alpha-negative and CD4-positive." []
 synonym: "DC.pDC.8-" EXACT []
 is_a: CL:0000989 ! CD11c-low plasmacytoid dendritic cell
@@ -8861,7 +8856,7 @@ intersection_of: RO:0002104 PR:000001004
 
 [Term]
 id: CL:0002456
-name: CD8_alpha-positive plasmactyoid dendritic cell
+name: CD8_alpha-positive plasmacytoid dendritic cell
 def: "A CD11c-low plasmacytoid dendritic cell that is CD8alpha-positive and CD4-positive." []
 synonym: "DC.pDC.8+" EXACT []
 is_a: CL:0000989 ! CD11c-low plasmacytoid dendritic cell
@@ -9094,7 +9089,6 @@ name: double negative thymocyte
 def: "A thymocyte that lacks expression of CD4 and CD8." []
 synonym: "CD4-CD8- T cell" EXACT []
 synonym: "double negative T cell" EXACT []
-is_a: CL:0000893 ! thymocyte
 intersection_of: CL:0000893 ! thymocyte
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000025402
@@ -9814,9 +9808,11 @@ intersection_of: RO:0002215 GO:0036321
 [Term]
 id: CL:0005019
 name: pancreatic epsilon cell
-def: "Ghrelin secreting cells found in the exocrine pancreas." []
+def: "Ghrelin secreting cells found in the endocrine pancreas." []
 synonym: "pancreatic E cell" EXACT []
 is_a: CL:0005018 ! ghrelin secreting cell
+intersection_of: CL:0008024 ! pancreatic endocrine cell
+intersection_of: RO:0002215 GO:0036321
 
 [Term]
 id: CL:0005020
@@ -10757,8 +10753,9 @@ intersection_of: BFO:0000050 UBERON:0001902
 
 [Term]
 id: CL:1000347
-name: vacuolar absorptive cell of epithelium of colon
+name: enterocyte of colon
 def: "A columnar cell of the colon that is part of the colonic epithelium." []
+synonym: "vacuolar absorptive cell of epithelium of colon" NARROW []
 is_a: CL:0002071 ! enterocyte of epithelium of large intestine
 intersection_of: CL:0002071 ! enterocyte of epithelium of large intestine
 intersection_of: BFO:0000050 UBERON:0000397
@@ -11937,6 +11934,28 @@ name: sympathetic cholinergic neuron
 def: "Sympathetic cholinergic neuron." []
 intersection_of: CL:0011103 ! sympathetic neuron
 intersection_of: RO:0002215 GO:0014055
+
+[Term]
+id: CL:4023110
+name: amygdala pyramidal neuron
+def: "A pyramidal neuron with soma located in the amygdala." []
+intersection_of: CL:0000598 ! pyramidal neuron
+intersection_of: RO:0002100 UBERON:0001876
+
+[Term]
+id: CL:4023111
+name: cerebral cortex pyramidal neuron
+def: "A pyramidal neuron with soma located in the cerebral cortex." []
+intersection_of: CL:0000598 ! pyramidal neuron
+intersection_of: RO:0002100 UBERON:0000956
+
+[Term]
+id: CL:4023120
+name: cochlea auditory hair cell
+def: "An auditory hair cell found in the cochlea." []
+synonym: "cochlear hair cell" EXACT []
+intersection_of: CL:0000202 ! auditory hair cell
+intersection_of: BFO:0000050 UBERON:0002227
 
 [Term]
 id: CP:0000000
