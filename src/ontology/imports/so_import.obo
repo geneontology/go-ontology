@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-11-14/imports/so_import.owl
+data-version: go/releases/2021-11-28/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -61,6 +61,17 @@ synonym: "polymerase II promoter" EXACT []
 synonym: "RNA polymerase B promoter" EXACT []
 synonym: "RNApol II promoter" EXACT []
 is_a: SO:0002221 ! eukaryotic_promoter
+
+[Term]
+id: SO:0000173
+name: GC_rich_promoter_region
+namespace: sequence
+def: "A conserved GC-rich region located upstream of the start point of eukaryotic transcription units which may occur in multiple copies or in either orientation; consensus=GGGCGG." [http://www.insdc.org/files/feature_table.html]
+synonym: "GC rich promoter region" EXACT []
+synonym: "GC-rich region" EXACT []
+synonym: "INSDC_feature:regulatory" BROAD []
+synonym: "INSDC_qualifier:GC_rich_promoter_region" EXACT []
+is_a: SO:0001659 ! promoter_element
 
 [Term]
 id: SO:0000188
