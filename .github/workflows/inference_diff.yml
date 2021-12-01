@@ -46,6 +46,8 @@ jobs:
     runs-on: ubuntu-latest
     container: obolibrary/odkfull:v1.2.30
     steps:
+      - uses: actions/checkout@v2
+      - run: cd src/ontology
       - name: Download master classification
         uses: actions/download-artifact@v2
         with:
@@ -57,7 +59,7 @@ jobs:
           name: reasoned-pr.owl
           path: reasoned-pr.owl
       - name: Diff classification
-        run: export ROBOT_JAVA_ARGS=-Xmx6G; cd src/ontology; robot --catalog catalog-v001.xml diff --left reasoned-master.owl/reasoned.owl --right reasoned-pr.owl/reasoned.owl -f markdown -o classification-diff.md
+        run: export ROBOT_JAVA_ARGS=-Xmx6G; robot --catalog catalog-v001.xml diff --left reasoned-master.owl/reasoned.owl --right reasoned-pr.owl/reasoned.owl -f markdown -o classification-diff.md
       - name: Upload diff
         uses: actions/upload-artifact@v2
         with:
