@@ -62,7 +62,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: classification-diff.md
-          path: classification-diff.md
+          path: src/ontology/classification-diff.md
   post_comment:
     needs: diff_classification
     runs-on: ubuntu-latest
