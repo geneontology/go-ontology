@@ -10,7 +10,6 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   classify_pr:
     runs-on: ubuntu-latest
     container: obolibrary/odkfull:v1.2.30
@@ -59,7 +58,7 @@ jobs:
           name: reasoned-pr.owl
           path: reasoned-pr.owl
       - name: Diff classification
-        run: export ROBOT_JAVA_ARGS=-Xmx6G; robot --catalog catalog-v001.xml diff --left reasoned-master.owl/reasoned.owl --right reasoned-pr.owl/reasoned.owl -f markdown -o classification-diff.md
+        run: pwd; export ROBOT_JAVA_ARGS=-Xmx6G; robot --catalog catalog-v001.xml diff --left reasoned-master.owl/reasoned.owl --right reasoned-pr.owl/reasoned.owl -f markdown -o classification-diff.md
       - name: Upload diff
         uses: actions/upload-artifact@v2
         with:
