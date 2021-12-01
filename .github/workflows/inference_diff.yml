@@ -57,7 +57,7 @@ jobs:
           name: reasoned-pr.owl
           path: reasoned-pr.owl
       - name: Diff classification
-        run: export ROBOT_JAVA_ARGS=-Xmx6G; robot diff --left reasoned-master.owl/reasoned.owl --right reasoned-pr.owl/reasoned.owl -f markdown -o classification-diff.md
+        run: export ROBOT_JAVA_ARGS=-Xmx6G; cd src/ontology; robot --catalog catalog-v001.xml diff --left reasoned-master.owl/reasoned.owl --right reasoned-pr.owl/reasoned.owl -f markdown -o classification-diff.md
       - name: Upload diff
         uses: actions/upload-artifact@v2
         with:
