@@ -232,7 +232,7 @@ http://purl.obolibrary.org/obo/GO_0097252	oligodendrocyte apoptotic process	http
 http://purl.obolibrary.org/obo/GO_0007314	oocyte anterior/posterior axis specification	http://purl.obolibrary.org/obo/CL_0000023	oocyte	http://purl.obolibrary.org/obo/GO_0009948	anterior/posterior axis specification
 http://purl.obolibrary.org/obo/GO_0007309	oocyte axis specification	http://purl.obolibrary.org/obo/CL_0000023	oocyte	http://purl.obolibrary.org/obo/GO_0009798	axis specification
 http://purl.obolibrary.org/obo/GO_0007310	oocyte dorsal/ventral axis specification	http://purl.obolibrary.org/obo/CL_0000023	oocyte	http://purl.obolibrary.org/obo/GO_0009950	dorsal/ventral axis specification
-http://purl.obolibrary.org/obo/GO_1905584	outer hair cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000601	outer hair cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
+http://purl.obolibrary.org/obo/GO_1905584	outer hair cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000601	cochlear outer hair cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0032292	peripheral nervous system axon ensheathment	http://purl.obolibrary.org/obo/UBERON_0000010	peripheral nervous system	http://purl.obolibrary.org/obo/GO_0008366	axon ensheathment
 http://purl.obolibrary.org/obo/GO_0014012	peripheral nervous system axon regeneration	http://purl.obolibrary.org/obo/UBERON_0000010	peripheral nervous system	http://purl.obolibrary.org/obo/GO_0031103	axon regeneration
 http://purl.obolibrary.org/obo/GO_0032290	peripheral nervous system myelin formation	http://purl.obolibrary.org/obo/UBERON_0000010	peripheral nervous system	http://purl.obolibrary.org/obo/GO_0032288	myelin assembly

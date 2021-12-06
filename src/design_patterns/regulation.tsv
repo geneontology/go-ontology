@@ -85,7 +85,6 @@ http://purl.obolibrary.org/obo/GO_1904217	regulation of CDP-diacylglycerol-serin
 http://purl.obolibrary.org/obo/GO_1903097	regulation of CENP-A containing nucleosome assembly	http://purl.obolibrary.org/obo/GO_0034080	CENP-A containing chromatin assembly
 http://purl.obolibrary.org/obo/GO_0003400	regulation of COPII vesicle coating	http://purl.obolibrary.org/obo/GO_0048208	COPII vesicle coating
 http://purl.obolibrary.org/obo/GO_0090111	regulation of COPII vesicle uncoating	http://purl.obolibrary.org/obo/GO_0090112	COPII vesicle uncoating
-http://purl.obolibrary.org/obo/GO_0110132	regulation of CRISPR-cas system	http://purl.obolibrary.org/obo/GO_0099048	CRISPR-cas system
 http://purl.obolibrary.org/obo/GO_0032489	regulation of Cdc42 protein signal transduction	http://purl.obolibrary.org/obo/GO_0032488	Cdc42 protein signal transduction
 http://purl.obolibrary.org/obo/GO_1905918	regulation of CoA-transferase activity	http://purl.obolibrary.org/obo/GO_0008410	CoA-transferase activity
 http://purl.obolibrary.org/obo/GO_1900757	regulation of D-amino-acid oxidase activity	http://purl.obolibrary.org/obo/GO_0003884	D-amino-acid oxidase activity
@@ -420,6 +419,7 @@ http://purl.obolibrary.org/obo/GO_1903630	regulation of aminoacyl-tRNA ligase ac
 http://purl.obolibrary.org/obo/GO_2001248	regulation of ammonia assimilation cycle	http://purl.obolibrary.org/obo/GO_0019676	ammonia assimilation cycle
 http://purl.obolibrary.org/obo/GO_2000797	regulation of amniotic stem cell differentiation	http://purl.obolibrary.org/obo/GO_0097086	amniotic stem cell differentiation
 http://purl.obolibrary.org/obo/GO_1905416	regulation of amoeboid sperm motility	http://purl.obolibrary.org/obo/GO_0097723	amoeboid sperm motility
+http://purl.obolibrary.org/obo/GO_0140731	regulation of amphiregulin production	http://purl.obolibrary.org/obo/GO_0140730	amphiregulin production
 http://purl.obolibrary.org/obo/GO_1905906	regulation of amyloid fibril formation	http://purl.obolibrary.org/obo/GO_1990000	amyloid fibril formation
 http://purl.obolibrary.org/obo/GO_0042984	regulation of amyloid precursor protein biosynthetic process	http://purl.obolibrary.org/obo/GO_0042983	amyloid precursor protein biosynthetic process
 http://purl.obolibrary.org/obo/GO_1902991	regulation of amyloid precursor protein catabolic process	http://purl.obolibrary.org/obo/GO_0042987	amyloid precursor protein catabolic process
@@ -1567,7 +1567,6 @@ http://purl.obolibrary.org/obo/GO_1903593	regulation of histamine secretion by m
 http://purl.obolibrary.org/obo/GO_0051616	regulation of histamine uptake	http://purl.obolibrary.org/obo/GO_0051615	histamine uptake
 http://purl.obolibrary.org/obo/GO_0120213	regulation of histidine biosynthetic process	http://purl.obolibrary.org/obo/GO_0000105	histidine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1901314	regulation of histone H2A K63-linked ubiquitination	http://purl.obolibrary.org/obo/GO_0070535	histone H2A K63-linked ubiquitination
-http://purl.obolibrary.org/obo/GO_1902649	regulation of histone H2A-H2B dimer displacement	http://purl.obolibrary.org/obo/GO_0001208	histone H2A-H2B dimer displacement
 http://purl.obolibrary.org/obo/GO_2001173	regulation of histone H2B conserved C-terminal lysine ubiquitination	http://purl.obolibrary.org/obo/GO_0071894	histone H2B conserved C-terminal lysine ubiquitination
 http://purl.obolibrary.org/obo/GO_2001166	regulation of histone H2B ubiquitination	http://purl.obolibrary.org/obo/GO_0033523	histone H2B ubiquitination
 http://purl.obolibrary.org/obo/GO_0071440	regulation of histone H3-K14 acetylation	http://purl.obolibrary.org/obo/GO_0044154	histone H3-K14 acetylation
@@ -1694,7 +1693,6 @@ http://purl.obolibrary.org/obo/GO_0032653	regulation of interleukin-10 productio
 http://purl.obolibrary.org/obo/GO_0032654	regulation of interleukin-11 production	http://purl.obolibrary.org/obo/GO_0032614	interleukin-11 production
 http://purl.obolibrary.org/obo/GO_0032655	regulation of interleukin-12 production	http://purl.obolibrary.org/obo/GO_0032615	interleukin-12 production
 http://purl.obolibrary.org/obo/GO_0032656	regulation of interleukin-13 production	http://purl.obolibrary.org/obo/GO_0032616	interleukin-13 production
-http://purl.obolibrary.org/obo/GO_0032657	regulation of interleukin-14 production	http://purl.obolibrary.org/obo/GO_0032617	interleukin-14 production
 http://purl.obolibrary.org/obo/GO_0032658	regulation of interleukin-15 production	http://purl.obolibrary.org/obo/GO_0032618	interleukin-15 production
 http://purl.obolibrary.org/obo/GO_0032659	regulation of interleukin-16 production	http://purl.obolibrary.org/obo/GO_0032619	interleukin-16 production
 http://purl.obolibrary.org/obo/GO_0032660	regulation of interleukin-17 production	http://purl.obolibrary.org/obo/GO_0032620	interleukin-17 production
@@ -2100,8 +2098,8 @@ http://purl.obolibrary.org/obo/GO_1902322	regulation of methyl-branched fatty ac
 http://purl.obolibrary.org/obo/GO_1903868	regulation of methylenetetrahydrofolate reductase (NAD(P)H) activity	http://purl.obolibrary.org/obo/GO_0004489	methylenetetrahydrofolate reductase (NAD(P)H) activity
 http://purl.obolibrary.org/obo/GO_0070802	regulation of metula development	http://purl.obolibrary.org/obo/GO_0070789	metula development
 http://purl.obolibrary.org/obo/GO_2000625	regulation of miRNA catabolic process	http://purl.obolibrary.org/obo/GO_0010587	miRNA catabolic process
-http://purl.obolibrary.org/obo/GO_1905616	regulation of miRNA mediated inhibition of translation	http://purl.obolibrary.org/obo/GO_0035278	miRNA mediated inhibition of translation
 http://purl.obolibrary.org/obo/GO_2000628	regulation of miRNA metabolic process	http://purl.obolibrary.org/obo/GO_0010586	miRNA metabolic process
+http://purl.obolibrary.org/obo/GO_1905616	regulation of miRNA-mediated gene silencing by inhibition of translation	http://purl.obolibrary.org/obo/GO_0035278	miRNA-mediated gene silencing by inhibition of translation
 http://purl.obolibrary.org/obo/GO_0014006	regulation of microglia differentiation	http://purl.obolibrary.org/obo/GO_0014004	microglia differentiation
 http://purl.obolibrary.org/obo/GO_1903978	regulation of microglial cell activation	http://purl.obolibrary.org/obo/GO_0001774	microglial cell activation
 http://purl.obolibrary.org/obo/GO_1904149	regulation of microglial cell mediated cytotoxicity	http://purl.obolibrary.org/obo/GO_0090634	microglial cell mediated cytotoxicity
@@ -3246,7 +3244,6 @@ http://purl.obolibrary.org/obo/GO_1903123	regulation of thioredoxin peroxidase a
 http://purl.obolibrary.org/obo/GO_1905021	regulation of threonine-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004829	threonine-tRNA ligase activity
 http://purl.obolibrary.org/obo/GO_0070494	regulation of thrombin-activated receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0070493	thrombin-activated receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0010548	regulation of thylakoid membrane disassembly	http://purl.obolibrary.org/obo/GO_0010547	thylakoid membrane disassembly
-http://purl.obolibrary.org/obo/GO_0050758	regulation of thymidylate synthase biosynthetic process	http://purl.obolibrary.org/obo/GO_0050757	thymidylate synthase biosynthetic process
 http://purl.obolibrary.org/obo/GO_0035365	regulation of thymine transport	http://purl.obolibrary.org/obo/GO_0035364	thymine transport
 http://purl.obolibrary.org/obo/GO_2000398	regulation of thymocyte aggregation	http://purl.obolibrary.org/obo/GO_0071594	thymocyte aggregation
 http://purl.obolibrary.org/obo/GO_0070243	regulation of thymocyte apoptotic process	http://purl.obolibrary.org/obo/GO_0070242	thymocyte apoptotic process
