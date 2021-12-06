@@ -69,7 +69,6 @@ http://purl.obolibrary.org/obo/GO_0150144	negative regulation of CD80 production
 http://purl.obolibrary.org/obo/GO_0150141	negative regulation of CD86 production	http://purl.obolibrary.org/obo/GO_0035781	CD86 biosynthetic process
 http://purl.obolibrary.org/obo/GO_1904218	negative regulation of CDP-diacylglycerol-serine O-phosphatidyltransferase activity	http://purl.obolibrary.org/obo/GO_0003882	CDP-diacylglycerol-serine O-phosphatidyltransferase activity
 http://purl.obolibrary.org/obo/GO_1903098	negative regulation of CENP-A containing nucleosome assembly	http://purl.obolibrary.org/obo/GO_0034080	CENP-A containing chromatin assembly
-http://purl.obolibrary.org/obo/GO_0110133	negative regulation of CRISPR-cas system	http://purl.obolibrary.org/obo/GO_0099048	CRISPR-cas system
 http://purl.obolibrary.org/obo/GO_1905919	negative regulation of CoA-transferase activity	http://purl.obolibrary.org/obo/GO_0008410	CoA-transferase activity
 http://purl.obolibrary.org/obo/GO_1900758	negative regulation of D-amino-acid oxidase activity	http://purl.obolibrary.org/obo/GO_0003884	D-amino-acid oxidase activity
 http://purl.obolibrary.org/obo/GO_0140216	negative regulation of D-aspartate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0070779	D-aspartate import across plasma membrane
@@ -1368,7 +1367,6 @@ http://purl.obolibrary.org/obo/GO_1903594	negative regulation of histamine secre
 http://purl.obolibrary.org/obo/GO_0051617	negative regulation of histamine uptake	http://purl.obolibrary.org/obo/GO_0051615	histamine uptake
 http://purl.obolibrary.org/obo/GO_0120214	negative regulation of histidine biosynthetic process	http://purl.obolibrary.org/obo/GO_0000105	histidine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1901315	negative regulation of histone H2A K63-linked ubiquitination	http://purl.obolibrary.org/obo/GO_0070535	histone H2A K63-linked ubiquitination
-http://purl.obolibrary.org/obo/GO_1902650	negative regulation of histone H2A-H2B dimer displacement	http://purl.obolibrary.org/obo/GO_0001208	histone H2A-H2B dimer displacement
 http://purl.obolibrary.org/obo/GO_2001174	negative regulation of histone H2B conserved C-terminal lysine ubiquitination	http://purl.obolibrary.org/obo/GO_0071894	histone H2B conserved C-terminal lysine ubiquitination
 http://purl.obolibrary.org/obo/GO_2001167	negative regulation of histone H2B ubiquitination	http://purl.obolibrary.org/obo/GO_0033523	histone H2B ubiquitination
 http://purl.obolibrary.org/obo/GO_0071441	negative regulation of histone H3-K14 acetylation	http://purl.obolibrary.org/obo/GO_0044154	histone H3-K14 acetylation
@@ -1487,7 +1485,6 @@ http://purl.obolibrary.org/obo/GO_0032693	negative regulation of interleukin-10 
 http://purl.obolibrary.org/obo/GO_0032694	negative regulation of interleukin-11 production	http://purl.obolibrary.org/obo/GO_0032614	interleukin-11 production
 http://purl.obolibrary.org/obo/GO_0032695	negative regulation of interleukin-12 production	http://purl.obolibrary.org/obo/GO_0032615	interleukin-12 production
 http://purl.obolibrary.org/obo/GO_0032696	negative regulation of interleukin-13 production	http://purl.obolibrary.org/obo/GO_0032616	interleukin-13 production
-http://purl.obolibrary.org/obo/GO_0032697	negative regulation of interleukin-14 production	http://purl.obolibrary.org/obo/GO_0032617	interleukin-14 production
 http://purl.obolibrary.org/obo/GO_0032698	negative regulation of interleukin-15 production	http://purl.obolibrary.org/obo/GO_0032618	interleukin-15 production
 http://purl.obolibrary.org/obo/GO_0032699	negative regulation of interleukin-16 production	http://purl.obolibrary.org/obo/GO_0032619	interleukin-16 production
 http://purl.obolibrary.org/obo/GO_0032700	negative regulation of interleukin-17 production	http://purl.obolibrary.org/obo/GO_0032620	interleukin-17 production
@@ -1845,8 +1842,8 @@ http://purl.obolibrary.org/obo/GO_1902323	negative regulation of methyl-branched
 http://purl.obolibrary.org/obo/GO_1903869	negative regulation of methylenetetrahydrofolate reductase (NAD(P)H) activity	http://purl.obolibrary.org/obo/GO_0004489	methylenetetrahydrofolate reductase (NAD(P)H) activity
 http://purl.obolibrary.org/obo/GO_0070803	negative regulation of metula development	http://purl.obolibrary.org/obo/GO_0070789	metula development
 http://purl.obolibrary.org/obo/GO_2000626	negative regulation of miRNA catabolic process	http://purl.obolibrary.org/obo/GO_0010587	miRNA catabolic process
-http://purl.obolibrary.org/obo/GO_1905617	negative regulation of miRNA mediated inhibition of translation	http://purl.obolibrary.org/obo/GO_0035278	miRNA mediated inhibition of translation
 http://purl.obolibrary.org/obo/GO_2000629	negative regulation of miRNA metabolic process	http://purl.obolibrary.org/obo/GO_0010586	miRNA metabolic process
+http://purl.obolibrary.org/obo/GO_1905617	negative regulation of miRNA-mediated gene silencing by inhibition of translation	http://purl.obolibrary.org/obo/GO_0035278	miRNA-mediated gene silencing by inhibition of translation
 http://purl.obolibrary.org/obo/GO_0014007	negative regulation of microglia differentiation	http://purl.obolibrary.org/obo/GO_0014004	microglia differentiation
 http://purl.obolibrary.org/obo/GO_1903979	negative regulation of microglial cell activation	http://purl.obolibrary.org/obo/GO_0001774	microglial cell activation
 http://purl.obolibrary.org/obo/GO_1904150	negative regulation of microglial cell mediated cytotoxicity	http://purl.obolibrary.org/obo/GO_0090634	microglial cell mediated cytotoxicity
@@ -2787,7 +2784,6 @@ http://purl.obolibrary.org/obo/GO_0070617	negative regulation of thiamine diphos
 http://purl.obolibrary.org/obo/GO_1903124	negative regulation of thioredoxin peroxidase activity	http://purl.obolibrary.org/obo/GO_0008379	thioredoxin peroxidase activity
 http://purl.obolibrary.org/obo/GO_1905022	negative regulation of threonine-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004829	threonine-tRNA ligase activity
 http://purl.obolibrary.org/obo/GO_0070495	negative regulation of thrombin-activated receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0070493	thrombin-activated receptor signaling pathway
-http://purl.obolibrary.org/obo/GO_0050760	negative regulation of thymidylate synthase biosynthetic process	http://purl.obolibrary.org/obo/GO_0050757	thymidylate synthase biosynthetic process
 http://purl.obolibrary.org/obo/GO_0035366	negative regulation of thymine transport	http://purl.obolibrary.org/obo/GO_0035364	thymine transport
 http://purl.obolibrary.org/obo/GO_2000399	negative regulation of thymocyte aggregation	http://purl.obolibrary.org/obo/GO_0071594	thymocyte aggregation
 http://purl.obolibrary.org/obo/GO_0070244	negative regulation of thymocyte apoptotic process	http://purl.obolibrary.org/obo/GO_0070242	thymocyte apoptotic process

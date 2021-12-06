@@ -355,6 +355,7 @@ http://purl.obolibrary.org/obo/GO_1903632	positive regulation of aminoacyl-tRNA 
 http://purl.obolibrary.org/obo/GO_2001250	positive regulation of ammonia assimilation cycle	http://purl.obolibrary.org/obo/GO_0019676	ammonia assimilation cycle
 http://purl.obolibrary.org/obo/GO_2000799	positive regulation of amniotic stem cell differentiation	http://purl.obolibrary.org/obo/GO_0097086	amniotic stem cell differentiation
 http://purl.obolibrary.org/obo/GO_1905418	positive regulation of amoeboid sperm motility	http://purl.obolibrary.org/obo/GO_0097723	amoeboid sperm motility
+http://purl.obolibrary.org/obo/GO_0140732	positive regulation of amphiregulin production	http://purl.obolibrary.org/obo/GO_0140730	amphiregulin production
 http://purl.obolibrary.org/obo/GO_1905908	positive regulation of amyloid fibril formation	http://purl.obolibrary.org/obo/GO_1990000	amyloid fibril formation
 http://purl.obolibrary.org/obo/GO_0042986	positive regulation of amyloid precursor protein biosynthetic process	http://purl.obolibrary.org/obo/GO_0042983	amyloid precursor protein biosynthetic process
 http://purl.obolibrary.org/obo/GO_1902993	positive regulation of amyloid precursor protein catabolic process	http://purl.obolibrary.org/obo/GO_0042987	amyloid precursor protein catabolic process
@@ -1345,7 +1346,6 @@ http://purl.obolibrary.org/obo/GO_1903595	positive regulation of histamine secre
 http://purl.obolibrary.org/obo/GO_0051618	positive regulation of histamine uptake	http://purl.obolibrary.org/obo/GO_0051615	histamine uptake
 http://purl.obolibrary.org/obo/GO_0120215	positive regulation of histidine biosynthetic process	http://purl.obolibrary.org/obo/GO_0000105	histidine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1901316	positive regulation of histone H2A K63-linked ubiquitination	http://purl.obolibrary.org/obo/GO_0070535	histone H2A K63-linked ubiquitination
-http://purl.obolibrary.org/obo/GO_1902651	positive regulation of histone H2A-H2B dimer displacement	http://purl.obolibrary.org/obo/GO_0001208	histone H2A-H2B dimer displacement
 http://purl.obolibrary.org/obo/GO_2001175	positive regulation of histone H2B conserved C-terminal lysine ubiquitination	http://purl.obolibrary.org/obo/GO_0071894	histone H2B conserved C-terminal lysine ubiquitination
 http://purl.obolibrary.org/obo/GO_2001168	positive regulation of histone H2B ubiquitination	http://purl.obolibrary.org/obo/GO_0033523	histone H2B ubiquitination
 http://purl.obolibrary.org/obo/GO_0071442	positive regulation of histone H3-K14 acetylation	http://purl.obolibrary.org/obo/GO_0044154	histone H3-K14 acetylation
@@ -1461,7 +1461,6 @@ http://purl.obolibrary.org/obo/GO_0032733	positive regulation of interleukin-10 
 http://purl.obolibrary.org/obo/GO_0032734	positive regulation of interleukin-11 production	http://purl.obolibrary.org/obo/GO_0032614	interleukin-11 production
 http://purl.obolibrary.org/obo/GO_0032735	positive regulation of interleukin-12 production	http://purl.obolibrary.org/obo/GO_0032615	interleukin-12 production
 http://purl.obolibrary.org/obo/GO_0032736	positive regulation of interleukin-13 production	http://purl.obolibrary.org/obo/GO_0032616	interleukin-13 production
-http://purl.obolibrary.org/obo/GO_0032737	positive regulation of interleukin-14 production	http://purl.obolibrary.org/obo/GO_0032617	interleukin-14 production
 http://purl.obolibrary.org/obo/GO_0032738	positive regulation of interleukin-15 production	http://purl.obolibrary.org/obo/GO_0032618	interleukin-15 production
 http://purl.obolibrary.org/obo/GO_0032739	positive regulation of interleukin-16 production	http://purl.obolibrary.org/obo/GO_0032619	interleukin-16 production
 http://purl.obolibrary.org/obo/GO_0032740	positive regulation of interleukin-17 production	http://purl.obolibrary.org/obo/GO_0032620	interleukin-17 production
@@ -1635,6 +1634,7 @@ http://purl.obolibrary.org/obo/GO_0140214	positive regulation of long-chain fatt
 http://purl.obolibrary.org/obo/GO_0048578	positive regulation of long-day photoperiodism, flowering	http://purl.obolibrary.org/obo/GO_0048574	long-day photoperiodism, flowering
 http://purl.obolibrary.org/obo/GO_1900454	positive regulation of long-term synaptic depression	http://purl.obolibrary.org/obo/GO_0060292	long-term synaptic depression
 http://purl.obolibrary.org/obo/GO_1900273	positive regulation of long-term synaptic potentiation	http://purl.obolibrary.org/obo/GO_0060291	long-term synaptic potentiation
+http://purl.obolibrary.org/obo/GO_0140736	positive regulation of lovastatin biosynthetic process	http://purl.obolibrary.org/obo/GO_0140735	lovastatin biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905581	positive regulation of low-density lipoprotein particle clearance	http://purl.obolibrary.org/obo/GO_0034383	low-density lipoprotein particle clearance
 http://purl.obolibrary.org/obo/GO_1905597	positive regulation of low-density lipoprotein particle receptor binding	http://purl.obolibrary.org/obo/GO_0050750	low-density lipoprotein particle receptor binding
 http://purl.obolibrary.org/obo/GO_0032805	positive regulation of low-density lipoprotein particle receptor catabolic process	http://purl.obolibrary.org/obo/GO_0032802	low-density lipoprotein particle receptor catabolic process
@@ -1818,8 +1818,8 @@ http://purl.obolibrary.org/obo/GO_1902324	positive regulation of methyl-branched
 http://purl.obolibrary.org/obo/GO_1903870	positive regulation of methylenetetrahydrofolate reductase (NAD(P)H) activity	http://purl.obolibrary.org/obo/GO_0004489	methylenetetrahydrofolate reductase (NAD(P)H) activity
 http://purl.obolibrary.org/obo/GO_0070804	positive regulation of metula development	http://purl.obolibrary.org/obo/GO_0070789	metula development
 http://purl.obolibrary.org/obo/GO_2000627	positive regulation of miRNA catabolic process	http://purl.obolibrary.org/obo/GO_0010587	miRNA catabolic process
-http://purl.obolibrary.org/obo/GO_1905618	positive regulation of miRNA mediated inhibition of translation	http://purl.obolibrary.org/obo/GO_0035278	miRNA mediated inhibition of translation
 http://purl.obolibrary.org/obo/GO_2000630	positive regulation of miRNA metabolic process	http://purl.obolibrary.org/obo/GO_0010586	miRNA metabolic process
+http://purl.obolibrary.org/obo/GO_1905618	positive regulation of miRNA-mediated gene silencing by inhibition of translation	http://purl.obolibrary.org/obo/GO_0035278	miRNA-mediated gene silencing by inhibition of translation
 http://purl.obolibrary.org/obo/GO_0014008	positive regulation of microglia differentiation	http://purl.obolibrary.org/obo/GO_0014004	microglia differentiation
 http://purl.obolibrary.org/obo/GO_1903980	positive regulation of microglial cell activation	http://purl.obolibrary.org/obo/GO_0001774	microglial cell activation
 http://purl.obolibrary.org/obo/GO_1904151	positive regulation of microglial cell mediated cytotoxicity	http://purl.obolibrary.org/obo/GO_0090634	microglial cell mediated cytotoxicity
@@ -2118,6 +2118,7 @@ http://purl.obolibrary.org/obo/GO_0048350	positive regulation of paraxial mesode
 http://purl.obolibrary.org/obo/GO_1905091	positive regulation of parkin-mediated stimulation of mitophagy in response to mitochondrial depolarization	http://purl.obolibrary.org/obo/GO_0061734	parkin-mediated stimulation of mitophagy in response to mitochondrial depolarization
 http://purl.obolibrary.org/obo/GO_0010862	positive regulation of pathway-restricted SMAD protein phosphorylation	http://purl.obolibrary.org/obo/GO_0060389	pathway-restricted SMAD protein phosphorylation
 http://purl.obolibrary.org/obo/GO_0062208	positive regulation of pattern recognition receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0002221	pattern recognition receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0140724	positive regulation of patulin biosynthetic process	http://purl.obolibrary.org/obo/GO_0140723	patulin biosynthetic process
 http://purl.obolibrary.org/obo/GO_2001005	positive regulation of pectin catabolic process	http://purl.obolibrary.org/obo/GO_0045490	pectin catabolic process
 http://purl.obolibrary.org/obo/GO_0075203	positive regulation of penetration hypha formation	http://purl.obolibrary.org/obo/GO_0075201	penetration hypha formation
 http://purl.obolibrary.org/obo/GO_0075055	positive regulation of penetration peg formation	http://purl.obolibrary.org/obo/GO_0075053	penetration peg formation
@@ -2771,7 +2772,6 @@ http://purl.obolibrary.org/obo/GO_1901403	positive regulation of tetrapyrrole me
 http://purl.obolibrary.org/obo/GO_0090180	positive regulation of thiamine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009228	thiamine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905023	positive regulation of threonine-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004829	threonine-tRNA ligase activity
 http://purl.obolibrary.org/obo/GO_0070496	positive regulation of thrombin-activated receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0070493	thrombin-activated receptor signaling pathway
-http://purl.obolibrary.org/obo/GO_0050759	positive regulation of thymidylate synthase biosynthetic process	http://purl.obolibrary.org/obo/GO_0050757	thymidylate synthase biosynthetic process
 http://purl.obolibrary.org/obo/GO_0035367	positive regulation of thymine transport	http://purl.obolibrary.org/obo/GO_0035364	thymine transport
 http://purl.obolibrary.org/obo/GO_2000400	positive regulation of thymocyte aggregation	http://purl.obolibrary.org/obo/GO_0071594	thymocyte aggregation
 http://purl.obolibrary.org/obo/GO_0070245	positive regulation of thymocyte apoptotic process	http://purl.obolibrary.org/obo/GO_0070242	thymocyte apoptotic process
