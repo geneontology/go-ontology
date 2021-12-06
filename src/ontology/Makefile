@@ -415,7 +415,7 @@ mirror/chebi-download.owl: $(SRC)
 
 # special case: use ext for uberon
 mirror/uberon-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/uberon/ext.owl $(WGET_OUT)
+	wget --no-check-certificate $(UBERON_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/uberon-download.owl
 
 # special case: use base for pato
@@ -477,12 +477,10 @@ FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remo
 
 # todo: uberon currently has some chebi inferences
 mirror/uberon.owl: mirror/uberon-download.owl
-	$(OWLTOOLS) --use-catalog $< --remove-equivalent-to-nothing-axioms --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL  $(FILTER_EXTERNAL) -o $@
-.PRECIOUS: mirror/uberon.owl
+	$(ROBOT) reason -i $< --exclude-duplicate-axioms true --exclude-tautologies structural -o $@
 
 mirror/so.owl: mirror/so-download.owl
 	$(OWLTOOLS) --use-catalog $< --make-subset-by-properties // -o $@
-.PRECIOUS: mirror/uberon.owl
 
 # Removing all external axioms from PR; considering refactoring all imports to create a "base"-ish version if not published
 mirror/pr.owl: mirror/pr-download.owl
