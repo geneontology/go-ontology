@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-10-06/imports/ro_import.owl
+data-version: go/releases/2021-12-08/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -94,11 +94,6 @@ id: CARO:0000006
 name: material anatomical entity
 is_a: BFO:0000040 ! material entity
 is_a: CARO:0000000 ! anatomical entity
-
-[Term]
-id: CARO:0000007
-name: immaterial anatomical entity
-is_a: BFO:0000141 ! immaterial entity
 
 [Term]
 id: CARO:0001010
@@ -685,13 +680,6 @@ is_a: ends_during ! ends during
 is_a: starts_during ! starts during
 
 [Typedef]
-id: has_anatomical_participant
-name: has anatomical participant
-def: "p has anatomical participant c iff p has participant c, and c is an anatomical entity" []
-xref: RO:0040036
-is_a: has_participant ! has participant
-
-[Typedef]
 id: has_characteristic
 name: has characteristic
 def: "Inverse of characteristic_of" []
@@ -820,7 +808,7 @@ is_a: negatively_regulated_by ! negatively regulated by
 [Typedef]
 id: has_output
 name: has output
-def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p." []
+def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p." []
 xref: RO:0002234
 holds_over_chain: ends_with has_output
 is_a: has_participant ! has participant
@@ -1338,7 +1326,7 @@ name: results in acquisition of features of
 def: "The relationship that links a specified entity with the process that results in an unspecified entity acquiring the features and characteristics of the specified entity" []
 xref: RO:0002315
 range: CARO:0000003 ! connected anatomical structure
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1354,6 +1342,13 @@ name: results in breakdown of
 def: "p results in breakdown of c if and only if the execution of p leads to c no longer being present at the end of p" []
 xref: RO:0002586
 is_a: has_input ! has input
+
+[Typedef]
+id: results_in_changes_to_anatomical_or_cellular_structure
+name: results in changes to anatomical or cellular structure
+def: "p has anatomical participant c iff p has participant c, and c is an anatomical entity" []
+xref: RO:0040036
+is_a: has_participant ! has participant
 
 [Typedef]
 id: results_in_commitment_to
@@ -1376,7 +1371,7 @@ id: results_in_development_of
 name: results in development of
 def: "p 'results in development of' c if and only if p is a developmental process and p results in the state of c changing from its initial state as a primordium or anlage through its mature state and to its final state." []
 xref: RO:0002296
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1413,7 +1408,7 @@ is_a: results_in_organization_of ! results in organization of
 id: results_in_growth_of
 name: results in growth of
 xref: RO:0002343
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1421,7 +1416,7 @@ id: results_in_maturation_of
 name: results in maturation of
 def: "The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in it's shape and results in an end point state of that entity." []
 xref: RO:0002299
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1429,7 +1424,7 @@ id: results_in_morphogenesis_of
 name: results in morphogenesis of
 def: "The relationship that links an entity with the process that results in the formation and shaping of that entity over time from an immature to a mature state." []
 xref: RO:0002298
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1437,14 +1432,14 @@ id: results_in_movement_of
 name: results in movement of
 def: "Holds between p and c when p is locomotion process and the outcome of this process is the change of location of c" []
 xref: RO:0002565
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 
 [Typedef]
 id: results_in_organization_of
 name: results in organization of
 def: "p results in organization of c iff p results in the assembly, arrangement of constituent parts, or disassembly of c" []
 xref: RO:0002592
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 
 [Typedef]
 id: results_in_remodeling_of
@@ -1466,7 +1461,7 @@ id: results_in_structural_organization_of
 name: results in structural organization of
 def: "A relationship between a process and an anatomical entity such that the process contributes to the act of creating the structural organization of the anatomical entity." []
 xref: RO:0002355
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1558,6 +1553,13 @@ id: transports_or_maintains_localization_of
 name: transports or maintains localization of
 def: "Holds between p and c when p is a localization process (localization covers maintenance of localization as well as its establishment)  and the outcome of this process is to regulate the localization of c." []
 xref: RO:0002313
-is_a: has_anatomical_participant ! has anatomical participant
 is_a: related_via_localization_to ! related via localization to
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
+
+[Typedef]
+id: utilizes
+name: utilizes
+def: "X utilizes Y means X and Y are material entities, and X is capable of some process P that has input Y." []
+xref: RO:0017001
+holds_over_chain: capable_of has_input
 
