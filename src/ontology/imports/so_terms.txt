@@ -38,3 +38,4 @@ http://purl.obolibrary.org/obo/SO_0000704 ## gene
 http://purl.obolibrary.org/obo/SO_0001244 ## pre_miRNA
 http://purl.obolibrary.org/obo/SO_0001411 ## biological region
 http://purl.obolibrary.org/obo/SO_0000173 ## GC_rich_promoter_region
+http://purl.obolibrary.org/obo/SO_0001877 ## lncRNA
