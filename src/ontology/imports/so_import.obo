@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-11-28/imports/so_import.owl
+data-version: go/releases/2021-12-10/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -898,6 +898,20 @@ synonym: "regional centromere outer repeat region" EXACT []
 is_a: SO:0001797 ! centromeric_repeat
 created_by: kareneilbeck
 creation_date: 2011-05-31T01:03:23Z
+
+[Term]
+id: SO:0001877
+name: lncRNA
+namespace: sequence
+def: "A non-coding RNA over 200nucleotides in length." [HGNC:mw]
+synonym: "INSDC_feature:ncRNA" BROAD []
+synonym: "INSDC_qualifier:lncRNA" EXACT []
+synonym: "lncRNA_transcript" EXACT []
+synonym: "long non-coding RNA" EXACT []
+xref: http://www.gencodegenes.org/gencode_biotypes.html "GENCODE"
+is_a: SO:0000655 ! ncRNA
+created_by: kareneilbeck
+creation_date: 2012-02-14T05:18:01Z
 
 [Term]
 id: SO:0001914
