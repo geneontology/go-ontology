@@ -2,7 +2,7 @@ pattern_name: biosynthetic process
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml
 
-description: TODO
+description: This pattern is for classes representing biosynthetic processes differentiated by their primary outputs.
 
 classes:
   Thing: 'owl:Thing'
