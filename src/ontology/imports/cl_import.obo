@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-11-28/imports/cl_import.owl
+data-version: go/releases/2021-12-12/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -1231,7 +1231,7 @@ id: CL:0000192
 name: smooth muscle cell
 def: "A non-striated, elongated, spindle-shaped cell found lining the digestive tract, uterus, and blood vessels. They develop from specialized myoblasts (smooth muscle myoblast)." []
 synonym: "myocytes, smooth muscle" EXACT []
-synonym: "non-striated muscle cell" NARROW []
+synonym: "non-striated muscle cell" BROAD []
 synonym: "SMCs" EXACT []
 synonym: "smooth muscle fiber" EXACT []
 is_a: CL:0008000 ! non-striated muscle cell
@@ -2581,7 +2581,9 @@ name: amacrine cell
 def: "Interneuron of the vertebrate retina. They integrate, modulate, and interpose a temporal domain in the visual message presented to the retinal ganglion cells, with which they synapse in the inner plexiform layer. They lack large axons." []
 synonym: "amacrine neuron" EXACT []
 is_a: CL:0000099 ! interneuron
+relationship: BFO:0000050 UBERON:0000966
 relationship: RO:0002120 CL:0000740 ! retinal ganglion cell
+relationship: RO:0002162 NCBITaxon:7742
 
 [Term]
 id: CL:0000562
@@ -9127,6 +9129,7 @@ intersection_of: RO:0002215 GO:0002385
 id: CL:0002499
 name: spongiotrophoblast cell
 def: "A trophoblast cell that arises in the junctional zone (basal plate) of the placenta." []
+synonym: "spongiotrophoblast" EXACT []
 is_a: CL:0000351 ! trophoblast cell
 
 [Term]
@@ -10182,6 +10185,23 @@ def: "An enteroendocrine cell that is located in the colon." []
 synonym: "colon enteroendocrine cell" EXACT []
 intersection_of: CL:0000164 ! enteroendocrine cell
 intersection_of: BFO:0000050 UBERON:0001155
+
+[Term]
+id: CL:0009084
+name: epithelial cell of endometrial gland
+def: "An epithelial cell that is part of an endometrial gland." []
+synonym: "endometrial glandular epithelial cell" EXACT []
+intersection_of: CL:0000066 ! epithelial cell
+intersection_of: BFO:0000050 UBERON:0002451
+
+[Term]
+id: CL:0009089
+name: lung pericyte
+def: "A pericyte cell that is part of a lung." []
+synonym: "lung pericyte cell" EXACT []
+synonym: "pulmonary pericyte" EXACT []
+intersection_of: CL:0000669 ! pericyte cell
+intersection_of: BFO:0000050 UBERON:0002048
 
 [Term]
 id: CL:0010001
