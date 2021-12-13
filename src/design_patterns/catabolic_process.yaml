@@ -2,7 +2,7 @@ pattern_name: catabolic process
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml
 
-description: This pattern is for classes representing biosynthetic processes differentiated by their primary inputs.
+description: This pattern is for classes representing catabolic processes differentiated by their primary inputs.
 
 classes:
   Thing: 'owl:Thing'
