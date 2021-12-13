@@ -2,7 +2,7 @@ pattern_name: metabolic process
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml
 
-description: TODO
+description: This pattern is for classes representing metabolic processes differentiated by their primary inputs or primary outputs.
 
 classes:
   Thing: 'owl:Thing'
