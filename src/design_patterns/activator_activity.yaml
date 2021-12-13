@@ -39,7 +39,7 @@ def:
     - 'regulated_activity'
 
 namespace: 
-  text: 'biological_process'
+  text: 'molecular_function'
 
 equivalentTo: 
   text: "'molecular function regulator' that 'positively regulates' some %s" 
