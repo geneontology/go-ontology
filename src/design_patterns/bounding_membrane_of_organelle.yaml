@@ -5,7 +5,7 @@ pattern_iri: http://purl.obolibrary.org/obo/go/patterns/bounding_membrane_of_org
 description: TODO
 
 classes:
-  'whole membrane': 'GO:0098805'
+  'membrane': 'GO:0016020'
   'membrane-bounded organelle': 'GO:0043227'
 
 relations:
@@ -26,9 +26,9 @@ def:
 
 
 namespace: 
-  text: 'biological_process'  # e.g. biological_process, quoting is optional
+  text: 'biological_process'
 
 equivalentTo: 
-  text: "'whole membrane' that ('bounding layer of' some %s)"
+  text: "'membrane' that ('bounding layer of' some %s)"
   vars:
     - 'organelle'
