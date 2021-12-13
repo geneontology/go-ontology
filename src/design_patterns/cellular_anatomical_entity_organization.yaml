@@ -29,7 +29,7 @@ namespace:
    text: 'biological_process'
 
 equivalentTo:
-  text: " 'cellular component organization' and 'results_in_organization_of' some %s "
+  text: "'cellular component organization' and 'results_in_organization_of' some %s"
   vars:
      - 'component'
     
