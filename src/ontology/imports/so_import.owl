@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/so_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-12-10/imports/so_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-12-14/imports/so_import.owl"/>
     </owl:Ontology>
     
 
@@ -30,12 +30,6 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
     
 
 
@@ -362,6 +356,36 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
+        <obo:IAO_0000115>A transcript that in its initial state requires modification to be functional.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Primary_transcript</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>INSDC_feature:precursor_RNA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>INSDC_feature:prim_transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>precursor RNA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000185</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:label>primary_transcript</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000185"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>http://en.wikipedia.org/wiki/Primary_transcript</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000185"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A transcript that in its initial state requires modification to be functional.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ma</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0000188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000188">
@@ -377,15 +401,54 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000188"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A region of a primary transcript that is transcribed, but removed from within the transcript by splicing together the sequences (exons) on either side of it.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.insdc.org/files/feature_table.html</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000188"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>http://en.wikipedia.org/wiki/Intron</owl:annotatedTarget>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000483"/>
+        <obo:IAO_0000115>A primary transcript encoding a small nuclear RNA (SO:0000274).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>snRNA primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000231</oboInOwl:id>
+        <rdfs:label>snRNA_primary_transcript</rdfs:label>
+    </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000188"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000231"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A region of a primary transcript that is transcribed, but removed from within the transcript by splicing together the sequences (exons) on either side of it.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.insdc.org/files/feature_table.html</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>A primary transcript encoding a small nuclear RNA (SO:0000274).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000483"/>
+        <obo:IAO_0000115>A primary transcript encoding one or more small nucleolar RNAs (SO:0000275).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>snoRNA primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000232</oboInOwl:id>
+        <rdfs:comment>This definition was broadened 26 Jan 2021 to reflect that a single transcript can encode one or more snoRNAs. Brought to our attention by FlyBase. GitHub Issue #520 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/520).</rdfs:comment>
+        <rdfs:label>snoRNA_primary_transcript</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000232"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A primary transcript encoding one or more small nucleolar RNAs (SO:0000275).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -890,6 +953,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000483">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000185"/>
+        <obo:IAO_0000115>A primary transcript that is never translated into a protein.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>nc primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>noncoding primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000483</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:label>nc_primary_transcript</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000483"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A primary transcript that is never translated into a protein.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0000577 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000577">
@@ -1187,6 +1271,30 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>http://en.wikipedia.org/wiki/SiRNA</owl:annotatedTarget>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000483"/>
+        <obo:IAO_0000115>A primary transcript encoding a micro RNA.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>SO:0000648</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>miRNA primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>micro RNA primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>small temporal RNA primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stRNA primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stRNA_primary_transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000647</oboInOwl:id>
+        <rdfs:label>miRNA_primary_transcript</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000647"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A primary transcript encoding a micro RNA.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1662,6 +1770,34 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An mRNA that is polyadenylated.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:xp</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000370"/>
+        <obo:IAO_0000115>A small non coding RNA, part of a silencing system that prevents the spreading of selfish genetic elements.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>INSDC_feature:ncRNA</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/PiRNA</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>INSDC_qualifier:piRNA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>piwi-associated RNA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0001035</oboInOwl:id>
+        <rdfs:label>piRNA</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001035"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A small non coding RNA, part of a silencing system that prevents the spreading of selfish genetic elements.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001035"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>http://en.wikipedia.org/wiki/PiRNA</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
     </owl:Axiom>
     
 
@@ -2183,6 +2319,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0001801 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001801">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000483"/>
+        <obo:IAO_0000115>A primary transcript encoding a tasiRNA.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-05-31T03:27:35Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>tasiRNA primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0001801</oboInOwl:id>
+        <rdfs:label>tasiRNA_primary_transcript</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001801"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A primary transcript encoding a tasiRNA.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:16145017</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0001877 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001877">
@@ -2240,6 +2397,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0001927 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001927">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <obo:IAO_0000115>A non-coding transcript derived from the transcript of the telomere.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-10-31T01:42:15Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>telomeric transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0001927</oboInOwl:id>
+        <rdfs:label>telomeric_transcript</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001927"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A non-coding transcript derived from the transcript of the telomere.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22139915</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0001997 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001997">
@@ -2256,6 +2434,27 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A heterochromatic region of the chromosome, adjacent to the telomere (on the centromeric side) that contains repetitive DNA and sometimes genes and it is transcribed.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POMBE:al</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0002035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000483"/>
+        <obo:IAO_0000115>A primary transcript encoding a lncRNA.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2015-01-09T15:23:03Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>lncRNA primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0002035</oboInOwl:id>
+        <rdfs:label>lncRNA_primary_transcript</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0002035"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A primary transcript encoding a lncRNA.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
