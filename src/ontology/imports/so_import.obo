@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-12-10/imports/so_import.owl
+data-version: go/releases/2021-12-14/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -74,6 +74,19 @@ synonym: "INSDC_qualifier:GC_rich_promoter_region" EXACT []
 is_a: SO:0001659 ! promoter_element
 
 [Term]
+id: SO:0000185
+name: primary_transcript
+namespace: sequence
+def: "A transcript that in its initial state requires modification to be functional." [SO:ma]
+subset: SOFA
+synonym: "INSDC_feature:precursor_RNA" EXACT []
+synonym: "INSDC_feature:prim_transcript" EXACT []
+synonym: "precursor RNA" EXACT []
+synonym: "primary transcript" EXACT []
+xref: http://en.wikipedia.org/wiki/Primary_transcript "wiki"
+is_a: SO:0000673 ! transcript
+
+[Term]
 id: SO:0000188
 name: intron
 namespace: sequence
@@ -83,6 +96,23 @@ subset: SOFA
 synonym: "INSDC_feature:intron" EXACT []
 xref: http://en.wikipedia.org/wiki/Intron "wiki"
 is_a: SO:0000835 ! primary_transcript_region
+
+[Term]
+id: SO:0000231
+name: snRNA_primary_transcript
+namespace: sequence
+def: "A primary transcript encoding a small nuclear RNA (SO:0000274)." [SO:ke]
+synonym: "snRNA primary transcript" EXACT []
+is_a: SO:0000483 ! nc_primary_transcript
+
+[Term]
+id: SO:0000232
+name: snoRNA_primary_transcript
+namespace: sequence
+def: "A primary transcript encoding one or more small nucleolar RNAs (SO:0000275)." [SO:ke]
+comment: This definition was broadened 26 Jan 2021 to reflect that a single transcript can encode one or more snoRNAs. Brought to our attention by FlyBase. GitHub Issue #520 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/520).
+synonym: "snoRNA primary transcript" EXACT []
+is_a: SO:0000483 ! nc_primary_transcript
 
 [Term]
 id: SO:0000233
@@ -305,6 +335,16 @@ synonym: "protein binding site" EXACT []
 is_a: SO:0000409 ! binding_site
 
 [Term]
+id: SO:0000483
+name: nc_primary_transcript
+namespace: sequence
+def: "A primary transcript that is never translated into a protein." [SO:ke]
+subset: SOFA
+synonym: "nc primary transcript" EXACT []
+synonym: "noncoding primary transcript" EXACT []
+is_a: SO:0000185 ! primary_transcript
+
+[Term]
 id: SO:0000577
 name: centromere
 namespace: sequence
@@ -434,6 +474,19 @@ synonym: "INSDC_qualifier:siRNA" EXACT []
 synonym: "small interfering RNA" EXACT []
 xref: http://en.wikipedia.org/wiki/SiRNA "wiki"
 is_a: SO:0000370 ! small_regulatory_ncRNA
+
+[Term]
+id: SO:0000647
+name: miRNA_primary_transcript
+namespace: sequence
+alt_id: SO:0000648
+def: "A primary transcript encoding a micro RNA." [SO:ke]
+synonym: "micro RNA primary transcript" EXACT []
+synonym: "miRNA primary transcript" EXACT []
+synonym: "small temporal RNA primary transcript" EXACT []
+synonym: "stRNA primary transcript" EXACT []
+synonym: "stRNA_primary_transcript" EXACT []
+is_a: SO:0000483 ! nc_primary_transcript
 
 [Term]
 id: SO:0000651
@@ -651,6 +704,17 @@ namespace: sequence
 def: "An mRNA that is polyadenylated." [SO:xp]
 synonym: "polyadenylated mRNA" EXACT []
 is_a: SO:0000234 ! mRNA
+
+[Term]
+id: SO:0001035
+name: piRNA
+namespace: sequence
+def: "A small non coding RNA, part of a silencing system that prevents the spreading of selfish genetic elements." [SO:ke]
+synonym: "INSDC_feature:ncRNA" BROAD []
+synonym: "INSDC_qualifier:piRNA" EXACT []
+synonym: "piwi-associated RNA" EXACT []
+xref: http://en.wikipedia.org/wiki/PiRNA "wiki"
+is_a: SO:0000370 ! small_regulatory_ncRNA
 
 [Term]
 id: SO:0001055
@@ -900,6 +964,16 @@ created_by: kareneilbeck
 creation_date: 2011-05-31T01:03:23Z
 
 [Term]
+id: SO:0001801
+name: tasiRNA_primary_transcript
+namespace: sequence
+def: "A primary transcript encoding a tasiRNA." [PMID:16145017]
+synonym: "tasiRNA primary transcript" EXACT []
+is_a: SO:0000483 ! nc_primary_transcript
+created_by: kareneilbeck
+creation_date: 2011-05-31T03:27:35Z
+
+[Term]
 id: SO:0001877
 name: lncRNA
 namespace: sequence
@@ -929,6 +1003,16 @@ created_by: kareneilbeck
 creation_date: 2012-06-11T02:55:02Z
 
 [Term]
+id: SO:0001927
+name: telomeric_transcript
+namespace: sequence
+def: "A non-coding transcript derived from the transcript of the telomere." [PMID:22139915]
+synonym: "telomeric transcript" EXACT []
+is_a: SO:0000655 ! ncRNA
+created_by: kareneilbeck
+creation_date: 2012-10-31T01:42:15Z
+
+[Term]
 id: SO:0001997
 name: subtelomere
 namespace: sequence
@@ -936,6 +1020,16 @@ def: "A heterochromatic region of the chromosome, adjacent to the telomere (on t
 is_a: SO:0000628 ! chromosomal_structural_element
 created_by: kareneilbeck
 creation_date: 2014-01-05T07:02:01Z
+
+[Term]
+id: SO:0002035
+name: lncRNA_primary_transcript
+namespace: sequence
+def: "A primary transcript encoding a lncRNA." [SO:ke]
+synonym: "lncRNA primary transcript" EXACT []
+is_a: SO:0000483 ! nc_primary_transcript
+created_by: kareneilbeck
+creation_date: 2015-01-09T15:23:03Z
 
 [Term]
 id: SO:0002140
