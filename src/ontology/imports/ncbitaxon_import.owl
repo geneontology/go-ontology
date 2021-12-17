@@ -2143,6 +2143,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147538"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>filamentous ascomycetes</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Euascomycota</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Pezizomycotina</rdfs:label>
     </owl:Class>
@@ -2212,6 +2213,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147550"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym>Pyrenomycetes</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Sordariomycetes</rdfs:label>
     </owl:Class>
     
@@ -2490,6 +2492,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym>Candida</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Torulopsis</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Candida &lt;clade Candida/Lodderomyces clade&gt;</rdfs:label>
     </owl:Class>
     
@@ -3122,9 +3125,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym>high G+C Gram-positive bacteria</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>Actinobacteria</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Actinomycetes</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>High GC gram-positive bacteria</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>high GC Gram+</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Actinomycetia</rdfs:label>
     </owl:Class>
@@ -3538,6 +3539,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91061"/>
+        <oboInOwl:hasRelatedSynonym>Natranaerobiia</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Clostridia</rdfs:label>
     </owl:Class>
     
@@ -3633,7 +3635,13 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1883"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym>&quot;Microstreptospora&quot; Yan et al.</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Actinopycnidium Krasil&apos;nikov 1962</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Actinosporangium Krasil&apos;nikov and Yuan 1961</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Chainia</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Elytrosporangium Falcao de Morais et al. 1966</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Kitasatoa Matsumae and Hata 1968</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Streptoverticillium Baldacci 1958</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Streptomyces</rdfs:label>
     </owl:Class>
     
@@ -5736,8 +5744,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_261009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>ANA grade angiosperms</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>ANITA grade angiosperms</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>ANA grade angiosperms</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ANITA grade angiosperms</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Amborellales</rdfs:label>
     </owl:Class>
     
@@ -7878,6 +7886,7 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4930"/>
         <oboInOwl:hasRelatedSynonym>Ashbya</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Holleya</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Nematospora</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Eremothecium</rdfs:label>
     </owl:Class>
     
@@ -8916,6 +8925,7 @@
         <oboInOwl:hasExactSynonym>mouse-ear cress</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>thale cress</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>thale-cress</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Arabis thaliana</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Arabidopsis thaliana</rdfs:label>
     </owl:Class>
     
@@ -11602,6 +11612,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasRelatedSynonym>Chaetosartorya</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Emericella</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Petromyces</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Phialosimplex</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Polypaecilum</oboInOwl:hasRelatedSynonym>
@@ -15892,7 +15903,7 @@
         <oboInOwl:hasRelatedSynonym>Salmonella enterica ser. typhimurium</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Salmonella enterica serotype Typhimurium</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Salmonella enterica serovar Typhimurium</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Salmonella enterica subsp. enterica serovar 1,4,[5],12,:i:1,2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Salmonella enterica subsp. enterica serovar 1,4,[5],12:i:1,2</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Salmonella typhi-murium</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Salmonella typhimurium</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Salmonella enterica subsp. enterica serovar Typhimurium</rdfs:label>
@@ -16536,7 +16547,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym>human</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>man</oboInOwl:hasExactSynonym>
         <rdfs:label>Homo sapiens</rdfs:label>
     </owl:Class>
     
