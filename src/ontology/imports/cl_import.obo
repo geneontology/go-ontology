@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-12-12/imports/cl_import.owl
+data-version: go/releases/2021-12-19/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -1351,9 +1351,9 @@ name: Sertoli cell
 def: "A supporting cell projecting inward from the basement membrane of seminiferous tubules. They surround and nourish the developing male germ cells and secrete androgen binding protein. Their tight junctions with the spermatogonia and spermatocytes provide a blood-testis barrier." []
 is_a: CL:0000215 ! barrier cell
 is_a: CL:0000511 ! androgen binding protein secreting cell
-is_a: CL:0000630 ! supportive cell
+is_a: CL:0000630 ! supporting cell
 is_a: CL:0002625 ! seminiferous tubule epithelial cell
-intersection_of: CL:0000630 ! supportive cell
+intersection_of: CL:0000630 ! supporting cell
 intersection_of: BFO:0000050 UBERON:0001343
 
 [Term]
@@ -1782,7 +1782,7 @@ is_a: CL:0000390 ! blood cell (sensu Nematoda and Protostomia)
 [Term]
 id: CL:0000386
 name: attachment cell
-is_a: CL:0000630 ! supportive cell
+is_a: CL:0000630 ! supporting cell
 
 [Term]
 id: CL:0000387
@@ -3003,8 +3003,9 @@ intersection_of: BFO:0000050 UBERON:0002264
 
 [Term]
 id: CL:0000630
-name: supportive cell
+name: supporting cell
 def: "A cell whose primary function is to support other cell types." []
+synonym: "supportive cell" EXACT []
 is_a: CL:0000003 ! native cell
 
 [Term]
@@ -3177,7 +3178,7 @@ synonym: "cell of Rouget" EXACT []
 synonym: "pericyte" EXACT []
 synonym: "pericyte of Rouget" EXACT []
 is_a: CL:0000183 ! contractile cell
-is_a: CL:0000630 ! supportive cell
+is_a: CL:0000630 ! supporting cell
 is_a: CL:0002320 ! connective tissue cell
 is_a: CL:0008034 ! mural cell
 
@@ -4738,9 +4739,10 @@ relationship: BFO:0000050 UBERON:0008904
 
 [Term]
 id: CL:0000852
-name: neuromast support cell
+name: neuromast supporting cell
 def: "Neuromast support cell is a non-sensory cell of the neuromast that extend between the sensory hair cells from the basement membrane to the apical surface; neuromast support cells are surrounded by neuromast mantle cells." []
-is_a: CL:0000630 ! supportive cell
+synonym: "neuromast support cell" EXACT []
+is_a: CL:0000630 ! supporting cell
 disjoint_from: CL:0000855 ! sensory hair cell
 relationship: BFO:0000050 UBERON:0008904
 
@@ -9348,8 +9350,9 @@ relationship: BFO:0000050 UBERON:0001277
 
 [Term]
 id: CL:0002570
-name: mesenchymal stem cell of adipose
+name: mesenchymal stem cell of adipose tissue
 def: "A mesenchymal stem cell of adipose tissue." []
+synonym: "mesenchymal stem cell of adipose" EXACT []
 intersection_of: CL:0000134 ! mesenchymal stem cell
 intersection_of: BFO:0000050 UBERON:0001013
 
@@ -9520,15 +9523,6 @@ def: "A neuron of the hippocampus." []
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 intersection_of: CL:0000117 ! CNS neuron (sensu Vertebrata)
 intersection_of: BFO:0000050 UBERON:0001954
-
-[Term]
-id: CL:0002609
-name: neuron of cerebral cortex
-def: "A CNS neuron of the cerebral cortex." []
-synonym: "cortical neuron" EXACT []
-is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
-intersection_of: CL:0000117 ! CNS neuron (sensu Vertebrata)
-intersection_of: RO:0002100 UBERON:0000956
 
 [Term]
 id: CL:0002611
@@ -10204,6 +10198,30 @@ intersection_of: CL:0000669 ! pericyte cell
 intersection_of: BFO:0000050 UBERON:0002048
 
 [Term]
+id: CL:0009092
+name: endothelial cell of placenta
+def: "An endothelial cell that is part of a placenta." []
+synonym: "placental endothelial cell" EXACT []
+intersection_of: CL:0000115 ! endothelial cell
+intersection_of: BFO:0000050 UBERON:0001987
+
+[Term]
+id: CL:0009093
+name: smooth muscle cell of placenta
+def: "A smooth muscle cell that is part of a placenta." []
+synonym: "placental smooth muscle cell" EXACT []
+intersection_of: CL:0000192 ! smooth muscle cell
+intersection_of: BFO:0000050 UBERON:0001987
+
+[Term]
+id: CL:0009095
+name: endothelial cell of uterus
+def: "An endothelial cell that is part of a uterus." []
+synonym: "uterine endothelial cell" EXACT []
+intersection_of: CL:0000115 ! endothelial cell
+intersection_of: BFO:0000050 UBERON:0000995
+
+[Term]
 id: CL:0010001
 name: stromal cell of bone marrow
 def: "A stromal cell that is part_of a bone marrow." []
@@ -10276,7 +10294,8 @@ intersection_of: RO:0002100 UBERON:0000956
 [Term]
 id: CL:0010012
 name: cerebral cortex neuron
-def: "A neuron that is part_of a cerebral cortex." []
+def: "A CNS neuron of the cerebral cortex." []
+synonym: "cortical neuron" EXACT []
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0000956
 
@@ -11723,9 +11742,10 @@ intersection_of: BFO:0000050 UBERON:2001470
 
 [Term]
 id: CL:2000036
-name: anterior lateral line neuromast support cell
+name: anterior lateral line neuromast supporting cell
 def: "Any neuromast support cell that is part of a anterior lateral line." []
-intersection_of: CL:0000852 ! neuromast support cell
+synonym: "anterior lateral line neuromast support cell" EXACT []
+intersection_of: CL:0000852 ! neuromast supporting cell
 intersection_of: BFO:0000050 UBERON:2001470
 
 [Term]
@@ -11744,9 +11764,10 @@ intersection_of: BFO:0000050 UBERON:0006334
 
 [Term]
 id: CL:2000039
-name: posterior lateral line neuromast support cell
+name: posterior lateral line neuromast supporting cell
 def: "Any neuromast support cell that is part of a posterior lateral line." []
-intersection_of: CL:0000852 ! neuromast support cell
+synonym: "posterior lateral line neuromast support cell" EXACT []
+intersection_of: CL:0000852 ! neuromast supporting cell
 intersection_of: BFO:0000050 UBERON:0006334
 
 [Term]

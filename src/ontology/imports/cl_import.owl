@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-12-12/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-12-19/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -7880,7 +7880,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000630">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
         <obo:IAO_0000115>A cell whose primary function is to support other cell types.</obo:IAO_0000115>
-        <rdfs:label>supportive cell</rdfs:label>
+        <oboInOwl:hasExactSynonym>supportive cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>supporting cell</rdfs:label>
     </owl:Class>
     
 
@@ -12126,7 +12127,8 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CL_0000855"/>
         <obo:IAO_0000115>Neuromast support cell is a non-sensory cell of the neuromast that extend between the sensory hair cells from the basement membrane to the apical surface; neuromast support cells are surrounded by neuromast mantle cells.</obo:IAO_0000115>
-        <rdfs:label>neuromast support cell</rdfs:label>
+        <oboInOwl:hasExactSynonym>neuromast support cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>neuromast supporting cell</rdfs:label>
     </owl:Class>
     
 
@@ -24194,7 +24196,8 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A mesenchymal stem cell of adipose tissue.</obo:IAO_0000115>
-        <rdfs:label>mesenchymal stem cell of adipose</rdfs:label>
+        <oboInOwl:hasExactSynonym>mesenchymal stem cell of adipose</oboInOwl:hasExactSynonym>
+        <rdfs:label>mesenchymal stem cell of adipose tissue</rdfs:label>
     </owl:Class>
     
 
@@ -24632,28 +24635,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000117"/>
         <obo:IAO_0000115>A neuron of the hippocampus.</obo:IAO_0000115>
         <rdfs:label>hippocampal neuron</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0002609 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002609">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000117"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000956"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000117"/>
-        <obo:IAO_0000115>A CNS neuron of the cerebral cortex.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>cortical neuron</oboInOwl:hasExactSynonym>
-        <rdfs:label>neuron of cerebral cortex</rdfs:label>
     </owl:Class>
     
 
@@ -26429,6 +26410,69 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0009092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0009092">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000115"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001987"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An endothelial cell that is part of a placenta.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>placental endothelial cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>endothelial cell of placenta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0009093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0009093">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000192"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001987"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A smooth muscle cell that is part of a placenta.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>placental smooth muscle cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>smooth muscle cell of placenta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0009095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0009095">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000115"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000995"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An endothelial cell that is part of a uterus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>uterine endothelial cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>endothelial cell of uterus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0010001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0010001">
@@ -26643,7 +26687,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A neuron that is part_of a cerebral cortex.</obo:IAO_0000115>
+        <obo:IAO_0000115>A CNS neuron of the cerebral cortex.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>cortical neuron</oboInOwl:hasExactSynonym>
         <rdfs:label>cerebral cortex neuron</rdfs:label>
     </owl:Class>
     
@@ -30555,7 +30600,8 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>Any neuromast support cell that is part of a anterior lateral line.</obo:IAO_0000115>
-        <rdfs:label>anterior lateral line neuromast support cell</rdfs:label>
+        <oboInOwl:hasExactSynonym>anterior lateral line neuromast support cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>anterior lateral line neuromast supporting cell</rdfs:label>
     </owl:Class>
     
 
@@ -30615,7 +30661,8 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>Any neuromast support cell that is part of a posterior lateral line.</obo:IAO_0000115>
-        <rdfs:label>posterior lateral line neuromast support cell</rdfs:label>
+        <oboInOwl:hasExactSynonym>posterior lateral line neuromast support cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>posterior lateral line neuromast supporting cell</rdfs:label>
     </owl:Class>
     
 
