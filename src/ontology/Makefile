@@ -620,12 +620,6 @@ reports/referenced_chebi_terms.tsv: $(SRC)
 # ----------------------------------------
 # ADDING INFERENCES
 # ----------------------------------------
-# see: https://github.com/geneontology/go-ontology/issues/12315
-# and: https://build.berkeleybop.org/view/GO/job/build-go-ontology-inferences/configure
-#
-# go inferences now go into a separate file.
-# this is imported during an OE session (see oboedit.catalog)
-# (for Protege all inferences are dynamic)
 
 # first strip the go_inferences import; we need to do this
 # because we cannot create a new ontology with the same name
