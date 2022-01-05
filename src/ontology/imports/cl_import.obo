@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-12-19/imports/cl_import.owl
+data-version: go/releases/2021-12-26/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -1520,12 +1520,6 @@ id: CL:0000240
 name: stratified squamous epithelial cell
 is_a: CL:0000076 ! squamous epithelial cell
 is_a: CL:0000079 ! stratified epithelial cell
-
-[Term]
-id: CL:0000243
-name: obsolete glial cell (sensu Vertebrata)
-def: "A non-neuronal cell of the nervous system. They not only provide physical support, but also respond to injury, regulate the ionic and chemical composition of the extracellular milieu. Form the myelin insulation of nervous pathways, guide neuronal migration during development, and exchange metabolites with neurons. Neuroglia have high-affinity transmitter uptake systems, voltage-dependent and transmitter-gated ion channels, and can release transmitters, but their role in signaling (as in many other functions) is unclear." []
-is_obsolete: true
 
 [Term]
 id: CL:0000244
