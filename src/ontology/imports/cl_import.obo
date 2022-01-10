@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-12-26/imports/cl_import.owl
+data-version: go/releases/2022-01-09/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -204,8 +204,10 @@ relationship: RO:0002160 NCBITaxon:7742
 id: CL:0000034
 name: stem cell
 def: "A relatively undifferentiated cell that retains the ability to divide and proliferate throughout life to provide progenitor cells that can differentiate into specialized cells." []
+synonym: "animal stem cell" EXACT []
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0002215 GO:0017145
+relationship: RO:0002162 NCBITaxon:33208
 relationship: RO:0002215 GO:0030154
 
 [Term]
@@ -283,7 +285,7 @@ synonym: "colony forming unit monocyte" RELATED []
 synonym: "monocyte stem cell" RELATED []
 is_a: CL:0002194 ! monopoietic cell
 intersection_of: CL:0002194 ! monopoietic cell
-intersection_of: BFO:0000051 CP:0000028 ! basophilic cytoplasm
+intersection_of: BFO:0000051 CL:0017503 ! basophilic cytoplasm
 intersection_of: BFO:0000051 GO:0000791
 intersection_of: BFO:0000051 GO:0005730
 intersection_of: RO:0002104 PR:000001012
@@ -1728,7 +1730,7 @@ is_a: CL:0000036 ! epithelial fate stem cell
 [Term]
 id: CL:0000359
 name: vascular associated smooth muscle cell
-def: "A smooth muscle cell assocatiated with the vasculature." []
+def: "A smooth muscle cell associated with the vasculature." []
 synonym: "vascular smooth muscle cell" EXACT []
 synonym: "VSMC" EXACT []
 is_a: CL:0000192 ! smooth muscle cell
@@ -2339,8 +2341,8 @@ name: lymphocyte
 def: "A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin." []
 is_a: CL:0000738 ! leukocyte
 intersection_of: CL:0000738 ! leukocyte
-intersection_of: BFO:0000051 CP:0000000 ! neutrophillic cytoplasm
-intersection_of: BFO:0000051 CP:0000037 ! increased nucleus size
+intersection_of: BFO:0000051 CL:0017500 ! neutrophillic cytoplasm
+intersection_of: BFO:0000051 CL:0017505 ! increased nucleus size
 intersection_of: BFO:0000051 GO:0000792
 intersection_of: RO:0000053 PATO:0001407
 disjoint_from: CL:0000766 ! myeloid leukocyte
@@ -2395,8 +2397,8 @@ synonym: "pronormoblast" RELATED []
 synonym: "rubriblast" EXACT []
 is_a: CL:0000764 ! erythroid lineage cell
 intersection_of: CL:0000764 ! erythroid lineage cell
-intersection_of: BFO:0000051 CP:0000028 ! basophilic cytoplasm
-intersection_of: BFO:0000051 CP:0000037 ! increased nucleus size
+intersection_of: BFO:0000051 CL:0017503 ! basophilic cytoplasm
+intersection_of: BFO:0000051 CL:0017505 ! increased nucleus size
 intersection_of: BFO:0000051 GO:0005730
 intersection_of: lacks_plasma_membrane_part PR:000001002
 intersection_of: lacks_plasma_membrane_part PR:000001004
@@ -2431,7 +2433,7 @@ synonym: "early normoblast" EXACT []
 synonym: "prorubricyte" EXACT []
 is_a: CL:0000765 ! erythroblast
 intersection_of: CL:0000765 ! erythroblast
-intersection_of: BFO:0000051 CP:0000028 ! basophilic cytoplasm
+intersection_of: BFO:0000051 CL:0017503 ! basophilic cytoplasm
 intersection_of: BFO:0000051 GO:0000792
 intersection_of: RO:0002104 PR:000001945
 relationship: RO:0002202 CL:0000547 ! proerythroblast
@@ -2448,7 +2450,7 @@ synonym: "polychromatophilic normoblast" EXACT []
 synonym: "rubricyte" EXACT []
 is_a: CL:0000765 ! erythroblast
 intersection_of: CL:0000765 ! erythroblast
-intersection_of: BFO:0000051 CP:0000035 ! polychromatophilic cytoplasm
+intersection_of: BFO:0000051 CL:0017504 ! polychromatophilic cytoplasm
 intersection_of: BFO:0000051 GO:0000792
 intersection_of: RO:0002104 PR:000001945
 relationship: RO:0002202 CL:0000549 ! basophilic erythroblast
@@ -2464,7 +2466,7 @@ synonym: "orthochromatic normoblast" EXACT []
 synonym: "pyknotic eto enrythroblast" EXACT []
 is_a: CL:0000765 ! erythroblast
 intersection_of: CL:0000765 ! erythroblast
-intersection_of: BFO:0000051 CP:0000027 ! acidophilic cytoplasm
+intersection_of: BFO:0000051 CL:0017502 ! acidophilic cytoplasm
 intersection_of: RO:0000056 GO:0030263
 relationship: RO:0002202 CL:0000550 ! polychromatophilic erythroblast
 
@@ -2993,7 +2995,7 @@ name: olfactory granule cell
 def: "Granule cell that is part of the olfactory bulb." []
 is_a: CL:0000120 ! granule cell
 intersection_of: CL:0000120 ! granule cell
-intersection_of: BFO:0000050 UBERON:0002264
+intersection_of: RO:0002100 UBERON:0002264
 
 [Term]
 id: CL:0000630
@@ -3587,7 +3589,7 @@ synonym: "immature basophilic leucocyte" EXACT []
 synonym: "immature basophilic leukocyte" EXACT []
 is_a: CL:0000767 ! basophil
 intersection_of: CL:0000767 ! basophil
-intersection_of: BFO:0000051 http://purl.obolibrary.org/obo/D96882F1-8709-49AB-BCA9-772A67EA6C33 ! alobate nucleus
+intersection_of: BFO:0000051 CL:0017509 ! alobate nucleus
 relationship: RO:0002202 CL:0000830 ! basophilic promyelocyte
 
 [Term]
@@ -3597,7 +3599,7 @@ def: "A basophil precursor in the granulocytic series, being a cell intermediate
 is_a: CL:0000768 ! immature basophil
 is_a: CL:0002192 ! metamyelocyte
 intersection_of: CL:0000768 ! immature basophil
-intersection_of: BFO:0000051 CP:0000040 ! reniform nucleus
+intersection_of: BFO:0000051 CL:0017507 ! reniform nucleus
 intersection_of: BFO:0000051 GO:0000792
 intersection_of: BFO:0000051 GO:0042582
 intersection_of: BFO:0000051 GO:0070820
@@ -3615,7 +3617,7 @@ name: band form basophil
 def: "A late basophilic metamyelocyte in which the nucleus is in the form of a curved or coiled band, not having acquired the typical multilobar shape of the mature basophil." []
 is_a: CL:0000768 ! immature basophil
 intersection_of: CL:0000768 ! immature basophil
-intersection_of: BFO:0000051 CP:0000039 ! banded nucleus
+intersection_of: BFO:0000051 CL:0017506 ! banded nucleus
 relationship: RO:0002202 CL:0000769 ! basophilic metamyelocyte
 
 [Term]
@@ -3645,7 +3647,7 @@ synonym: "immature eosinophilic leucocyte" EXACT []
 synonym: "immature eosinophilic leukocyte" EXACT []
 is_a: CL:0000771 ! eosinophil
 intersection_of: CL:0000771 ! eosinophil
-intersection_of: BFO:0000051 http://purl.obolibrary.org/obo/D96882F1-8709-49AB-BCA9-772A67EA6C33 ! alobate nucleus
+intersection_of: BFO:0000051 CL:0017509 ! alobate nucleus
 relationship: RO:0002202 CL:0000833 ! eosinophilic promyelocyte
 
 [Term]
@@ -3655,8 +3657,8 @@ def: "A eosinophil precursor in the granulocytic series, being a cell intermedia
 is_a: CL:0000772 ! immature eosinophil
 is_a: CL:0002192 ! metamyelocyte
 intersection_of: CL:0000772 ! immature eosinophil
-intersection_of: BFO:0000051 CP:0000027 ! acidophilic cytoplasm
-intersection_of: BFO:0000051 CP:0000040 ! reniform nucleus
+intersection_of: BFO:0000051 CL:0017502 ! acidophilic cytoplasm
+intersection_of: BFO:0000051 CL:0017507 ! reniform nucleus
 intersection_of: BFO:0000051 GO:0000792
 intersection_of: BFO:0000051 GO:0042582
 intersection_of: BFO:0000051 GO:0070820
@@ -3674,7 +3676,7 @@ name: band form eosinophil
 def: "A late eosinophilic metamyelocyte in which the nucleus is in the form of a curved or coiled band, not having acquired the typical multilobar shape of the mature eosinophil." []
 is_a: CL:0000772 ! immature eosinophil
 intersection_of: CL:0000772 ! immature eosinophil
-intersection_of: BFO:0000051 CP:0000039 ! banded nucleus
+intersection_of: BFO:0000051 CL:0017506 ! banded nucleus
 relationship: RO:0002202 CL:0000773 ! eosinophilic metamyelocyte
 
 [Term]
@@ -3709,7 +3711,7 @@ synonym: "immature neutrophil leukocyte" EXACT []
 synonym: "immature neutrophilic leucocyte" EXACT []
 is_a: CL:0000775 ! neutrophil
 intersection_of: CL:0000775 ! neutrophil
-intersection_of: BFO:0000051 http://purl.obolibrary.org/obo/D96882F1-8709-49AB-BCA9-772A67EA6C33 ! alobate nucleus
+intersection_of: BFO:0000051 CL:0017509 ! alobate nucleus
 relationship: RO:0002202 CL:0000564 ! neutrophilic promyelocyte
 
 [Term]
@@ -3820,7 +3822,7 @@ synonym: "plasmacyte" EXACT []
 synonym: "plasmocyte" EXACT []
 is_a: CL:0000946 ! antibody secreting cell
 intersection_of: CL:0000946 ! antibody secreting cell
-intersection_of: BFO:0000051 CP:0000043 ! cartwheel heterochromatin
+intersection_of: BFO:0000051 CL:0017508 ! cartwheel heterochromatin
 intersection_of: BFO:0000051 GO:0005794
 intersection_of: lacks_plasma_membrane_part GO:0019814
 intersection_of: lacks_plasma_membrane_part GO:0042613
@@ -4537,8 +4539,8 @@ name: myeloblast
 def: "The most primitive precursor in the granulocytic series, having fine, evenly distributed chromatin, several nucleoli, a high nuclear-to-cytoplasmic ration (5:1-7:1), and a nongranular basophilic cytoplasm. They reside in the bone marrow." []
 is_a: CL:0002191 ! granulocytopoietic cell
 intersection_of: CL:0002191 ! granulocytopoietic cell
-intersection_of: BFO:0000051 CP:0000028 ! basophilic cytoplasm
-intersection_of: BFO:0000051 CP:0000037 ! increased nucleus size
+intersection_of: BFO:0000051 CL:0017503 ! basophilic cytoplasm
+intersection_of: BFO:0000051 CL:0017505 ! increased nucleus size
 intersection_of: BFO:0000051 GO:0000791
 intersection_of: lacks_part GO:0042582
 relationship: RO:0002202 CL:0000557 ! granulocyte monocyte progenitor cell
@@ -4549,8 +4551,8 @@ name: promyelocyte
 def: "A precursor in the granulocytic series, being a cell intermediate in development between a myeloblast and myelocyte, that has distinct nucleoli, a nuclear-to-cytoplasmic ratio of 5:1 to 3:1, and containing a few primary cytoplasmic granules. Markers for this cell are fucosyltransferase FUT4-positive, CD33-positive, integrin alpha-M-negative, low affinity immunoglobulin gamma Fc region receptor III-negative, and CD24-negative." []
 is_a: CL:0002191 ! granulocytopoietic cell
 intersection_of: CL:0000839 ! myeloid lineage restricted progenitor cell
-intersection_of: BFO:0000051 CP:0000028 ! basophilic cytoplasm
-intersection_of: BFO:0000051 CP:0000037 ! increased nucleus size
+intersection_of: BFO:0000051 CL:0017503 ! basophilic cytoplasm
+intersection_of: BFO:0000051 CL:0017505 ! increased nucleus size
 intersection_of: BFO:0000051 GO:0005730
 intersection_of: BFO:0000051 GO:0042582
 intersection_of: lacks_plasma_membrane_part PR:000001012
@@ -6260,14 +6262,14 @@ id: CL:0001032
 name: cortical granule cell
 def: "Granule cell that is part of the cerebral cortex." []
 intersection_of: CL:0000120 ! granule cell
-intersection_of: BFO:0000050 UBERON:0000956
+intersection_of: RO:0002100 UBERON:0000956
 
 [Term]
 id: CL:0001033
 name: hippocampal granule cell
 def: "Granule cell that is part of the hippocampus." []
 intersection_of: CL:0000120 ! granule cell
-intersection_of: BFO:0000050 UBERON:0001954
+intersection_of: RO:0002100 UBERON:0001954
 
 [Term]
 id: CL:0001035
@@ -10276,7 +10278,7 @@ intersection_of: BFO:0000050 UBERON:0000019
 id: CL:0010010
 name: cerebellar stellate cell
 intersection_of: CL:0000122 ! stellate neuron
-intersection_of: BFO:0000050 UBERON:0002037
+intersection_of: RO:0002100 UBERON:0002037
 
 [Term]
 id: CL:0010011
@@ -10522,6 +10524,68 @@ name: forebrain radial glial cell
 is_a: CL:0000681 ! radial glial cell
 intersection_of: CL:0000681 ! radial glial cell
 intersection_of: BFO:0000050 UBERON:0001890
+
+[Term]
+id: CL:0017500
+name: neutrophillic cytoplasm
+def: "Cytoplasm that exhibits a characteristic staining and color, pale-pink, with Wright-Giemsa stain." []
+is_a: GO:0005737
+
+[Term]
+id: CL:0017502
+name: acidophilic cytoplasm
+def: "Cytoplasm that exhibits a characteristic staining and color, red or pink, with Eosin stain." []
+synonym: "eosinophilic" NARROW []
+is_a: GO:0005737
+
+[Term]
+id: CL:0017503
+name: basophilic cytoplasm
+def: "Cytoplasm that exhibits molecular interaction for basic dyes under specific pH conditions." []
+is_a: GO:0005737
+intersection_of: GO:0005737
+intersection_of: RO:0000053 PATO:0002094
+
+[Term]
+id: CL:0017504
+name: polychromatophilic cytoplasm
+def: "Cytoplasm that exhibits affinity for both basic and acid stains under specific pH conditions." []
+is_a: GO:0005737
+
+[Term]
+id: CL:0017505
+name: increased nucleus size
+def: "A nucleus size quality which is relatively high compared to the amount of cytoplasm present in the same cell." []
+is_a: GO:0005634
+intersection_of: GO:0005634
+intersection_of: RO:0000053 PATO:0000586
+
+[Term]
+id: CL:0017506
+name: banded nucleus
+def: "A concave nuclear shape where the nucleus is indented to more than half the distance to the farthest nuclear margin, but in no area is the chromatin condensed to a single filament." []
+is_a: GO:0005634
+
+[Term]
+id: CL:0017507
+name: reniform nucleus
+def: "A concave nucleus shape where the indentation is smaller than half of the distance to the farthest nuclear margin." []
+is_a: GO:0005634
+intersection_of: GO:0005634
+intersection_of: RO:0000053 PATO:0001871
+
+[Term]
+id: CL:0017508
+name: cartwheel heterochromatin
+def: "Heterochromatin that is arranged in a carthwheel pattern." []
+is_a: GO:0000792
+
+[Term]
+id: CL:0017509
+name: alobate nucleus
+is_a: GO:0005634
+intersection_of: GO:0005634
+intersection_of: RO:0000053 PATO:0002506
 
 [Term]
 id: CL:0019002
@@ -11926,14 +11990,14 @@ id: CL:2000089
 name: dentate gyrus of hippocampal formation granule cell
 def: "The principal cell type of the dentate gyrus." []
 intersection_of: CL:0000120 ! granule cell
-intersection_of: BFO:0000050 UBERON:0001885
+intersection_of: RO:0002100 UBERON:0001885
 
 [Term]
 id: CL:2000090
 name: dentate gyrus of hippocampal formation stellate cell
 def: "Any stellate cell that is part of a dentate gyrus of hippocampal formation." []
 intersection_of: CL:0000122 ! stellate neuron
-intersection_of: BFO:0000050 UBERON:0001885
+intersection_of: RO:0002100 UBERON:0001885
 
 [Term]
 id: CL:2000092
@@ -11991,68 +12055,6 @@ def: "An auditory hair cell found in the cochlea." []
 synonym: "cochlear hair cell" EXACT []
 intersection_of: CL:0000202 ! auditory hair cell
 intersection_of: BFO:0000050 UBERON:0002227
-
-[Term]
-id: CP:0000000
-name: neutrophillic cytoplasm
-def: "Cytoplasm that exhibits a characteristic staining and color, pale-pink, with Wright-Giemsa stain." []
-is_a: GO:0005737
-
-[Term]
-id: CP:0000027
-name: acidophilic cytoplasm
-def: "Cytoplasm that exhibits a characteristic staining and color, red or pink, with Eosin stain." []
-synonym: "eosinophilic" NARROW []
-is_a: GO:0005737
-
-[Term]
-id: CP:0000028
-name: basophilic cytoplasm
-def: "Cytoplasm that exhibits molecular interaction for basic dyes under specific pH conditions." []
-is_a: GO:0005737
-intersection_of: GO:0005737
-intersection_of: RO:0000053 PATO:0002094
-
-[Term]
-id: CP:0000035
-name: polychromatophilic cytoplasm
-def: "Cytoplasm that exhibits affinity for both basic and acid stains under specific pH conditions." []
-is_a: GO:0005737
-
-[Term]
-id: CP:0000037
-name: increased nucleus size
-def: "A nucleus size quality which is relatively high compared to the amount of cytoplasm present in the same cell." []
-is_a: GO:0005634
-intersection_of: GO:0005634
-intersection_of: RO:0000053 PATO:0000586
-
-[Term]
-id: CP:0000039
-name: banded nucleus
-def: "A concave nuclear shape where the nucleus is indented to more than half the distance to the farthest nuclear margin, but in no area is the chromatin condensed to a single filament." []
-is_a: GO:0005634
-
-[Term]
-id: CP:0000040
-name: reniform nucleus
-def: "A concave nucleus shape where the indentation is smaller than half of the distance to the farthest nuclear margin." []
-is_a: GO:0005634
-intersection_of: GO:0005634
-intersection_of: RO:0000053 PATO:0001871
-
-[Term]
-id: CP:0000043
-name: cartwheel heterochromatin
-def: "Heterochromatin that is arranged in a carthwheel pattern." []
-is_a: GO:0000792
-
-[Term]
-id: http://purl.obolibrary.org/obo/D96882F1-8709-49AB-BCA9-772A67EA6C33
-name: alobate nucleus
-is_a: GO:0005634
-intersection_of: GO:0005634
-intersection_of: RO:0000053 PATO:0002506
 
 [Typedef]
 id: BFO:0000050
