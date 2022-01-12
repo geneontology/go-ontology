@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-08-01/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-01-12/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -115,7 +115,9 @@ subset: chebi_ph7_3
 is_a: CHEBI:35189 ! sesquiterpene
 is_a: CHEBI:35714 ! polycyclic olefin
 is_a: CHEBI:35990 ! bridged compound
-relationship: has_role CHEBI:25212 ! metabolite
+is_a: CHEBI:38032 ! carbotricyclic compound
+relationship: has_role CHEBI:27311 ! volatile oil component
+relationship: has_role CHEBI:84087 ! human urinary metabolite
 
 [Term]
 id: CHEBI:10221
@@ -870,6 +872,7 @@ is_a: CHEBI:36235 ! bile acid anion
 id: CHEBI:1189
 name: 2-methoxyestrone
 subset: chebi_ph7_3
+is_a: CHEBI:177917 ! phenolic steroid
 is_a: CHEBI:19168 ! 17-oxo steroid
 is_a: CHEBI:33853 ! phenols
 is_a: CHEBI:35618 ! aromatic ether
@@ -1129,7 +1132,7 @@ is_a: CHEBI:17984 ! acyl-CoA
 id: CHEBI:12777
 name: vitamin A
 is_a: CHEBI:26537 ! retinoid
-relationship: has_role CHEBI:24020 ! fat-soluble vitamin
+relationship: has_role CHEBI:24020 ! fat-soluble vitamin (role)
 relationship: has_role CHEBI:25212 ! metabolite
 
 [Term]
@@ -1138,6 +1141,7 @@ name: phosphonoformic acid
 is_a: CHEBI:26069 ! phosphonic acids
 is_a: CHEBI:33575 ! carboxylic acid
 is_a: CHEBI:64708 ! one-carbon compound
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:36044 ! antiviral drug
 relationship: has_role CHEBI:53756 ! HIV-1 reverse transcriptase inhibitor
 relationship: has_role CHEBI:63330 ! sodium-dependent Pi-transporter inhibitor
@@ -1365,7 +1369,7 @@ is_a: CHEBI:35757 ! monocarboxylic acid anion
 id: CHEBI:131445
 name: 4-methylpentanoyl-CoA(4-)
 subset: chebi_ph7_3
-is_a: CHEBI:77636 ! fatty acyl-CoA(4-)
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 relationship: has_role CHEBI:76969 ! bacterial metabolite
 
 [Term]
@@ -1948,6 +1952,7 @@ is_a: CHEBI:59835 ! hydroxy fatty acid anion
 id: CHEBI:131862
 name: HPODE(1-)
 is_a: CHEBI:131860 ! octadecanoid anion
+is_a: CHEBI:134019 ! hydroperoxy polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:131863
@@ -1958,6 +1963,7 @@ is_a: CHEBI:26208 ! polyunsaturated fatty acid
 [Term]
 id: CHEBI:131864
 name: docosanoid anion
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:29067 ! carboxylic acid anion
 
 [Term]
@@ -1975,6 +1981,7 @@ is_a: CHEBI:131871 ! hydroxy polyunsaturated fatty acid anion
 id: CHEBI:131868
 name: HPDHE(1-)
 is_a: CHEBI:131864 ! docosanoid anion
+is_a: CHEBI:134019 ! hydroperoxy polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:131869
@@ -4905,7 +4912,8 @@ is_a: CHEBI:134316 ! 2-acylphloroglucinol
 id: CHEBI:133421
 name: prostaglandin F1alpha (1-)
 subset: chebi_ph7_3
-is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:178049 ! Prostaglandin F1(1-)
+is_a: CHEBI:59326 ! prostaglandin carboxylic acid anion
 
 [Term]
 id: CHEBI:133424
@@ -5482,6 +5490,7 @@ id: CHEBI:133795
 name: (4Z,7Z,10Z,13Z,15E,17S,19Z)-17-hydroperoxydocosahexaenoate
 subset: chebi_ph7_3
 is_a: CHEBI:131864 ! docosanoid anion
+is_a: CHEBI:131868 ! HPDHE(1-)
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:64012 ! hydroperoxy fatty acid anion
 
@@ -5931,6 +5940,7 @@ id: CHEBI:133991
 name: (9S,10E,12Z,14E,16S)-9,16-bis(hydroperoxy)octadecatrienoate
 subset: chebi_ph7_3
 is_a: CHEBI:131860 ! octadecanoid anion
+is_a: CHEBI:133558 ! hydroperoxyoctadecatrienoate
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:64012 ! hydroperoxy fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
@@ -8823,6 +8833,7 @@ is_a: CHEBI:83411 ! beta-D-glucosiduronate
 [Term]
 id: CHEBI:136637
 name: steroid glucosiduronic acid anion
+is_a: CHEBI:50160 ! steroid acid anion
 is_a: CHEBI:63551 ! carbohydrate acid derivative anion
 
 [Term]
@@ -9108,6 +9119,7 @@ id: CHEBI:136712
 name: pivaloyl-CoA(4-)
 subset: chebi_ph7_3
 is_a: CHEBI:137040 ! short chain fatty acyl-CoA(4-)
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:77332 ! saturated fatty acyl-CoA(4-)
 
 [Term]
@@ -9561,6 +9573,7 @@ id: CHEBI:136881
 name: 3-carboxy-3-hydroxypropanoyl-CoA(5-)
 subset: chebi_ph7_3
 is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 
 [Term]
@@ -14193,6 +14206,7 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 id: CHEBI:138532
 name: lysophosphatidylethanolamine 17:0
 is_a: CHEBI:64574 ! lysophosphatidylethanolamine
+relationship: has_role CHEBI:25212 ! metabolite
 
 [Term]
 id: CHEBI:138538
@@ -14416,12 +14430,14 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 id: CHEBI:138632
 name: 2-hydroxy-3-methylundecanoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:90546 ! medium-chain fatty acyl-CoA(4-)
 
 [Term]
 id: CHEBI:138633
 name: 2-hydroxy-3-methylnonanoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:90546 ! medium-chain fatty acyl-CoA(4-)
 
 [Term]
@@ -14429,6 +14445,7 @@ id: CHEBI:138634
 name: 3-methylnonanoyl-CoA(4-)
 subset: chebi_ph7_3
 is_a: CHEBI:77332 ! saturated fatty acyl-CoA(4-)
+is_a: CHEBI:83968 ! 3-methyl fatty acyl-CoA(4-)
 is_a: CHEBI:90546 ! medium-chain fatty acyl-CoA(4-)
 
 [Term]
@@ -14441,6 +14458,7 @@ is_a: CHEBI:50626 ! 2-hydroxyhexadecanal
 id: CHEBI:138636
 name: 2-hydroxy-3-methyldodecanoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:90546 ! medium-chain fatty acyl-CoA(4-)
 
 [Term]
@@ -14448,6 +14466,7 @@ id: CHEBI:138637
 name: 3-methyldodecanoyl-CoA(4-)
 subset: chebi_ph7_3
 is_a: CHEBI:77332 ! saturated fatty acyl-CoA(4-)
+is_a: CHEBI:83968 ! 3-methyl fatty acyl-CoA(4-)
 is_a: CHEBI:90546 ! medium-chain fatty acyl-CoA(4-)
 
 [Term]
@@ -14709,6 +14728,11 @@ is_a: CHEBI:131622 ! steroidal acyl-CoA(4-)
 id: CHEBI:138844
 is_obsolete: true
 replaced_by: CHEBI:134196
+
+[Term]
+id: CHEBI:138880
+name: autophagy inducer
+is_a: CHEBI:52206 ! biochemical role
 
 [Term]
 id: CHEBI:138881
@@ -16583,6 +16607,7 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 id: CHEBI:13997
 name: citramalate(2-)
 subset: chebi_ph7_3
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -17364,6 +17389,7 @@ is_a: CHEBI:35757 ! monocarboxylic acid anion
 id: CHEBI:140468
 name: gypsogenate(2-)
 subset: chebi_ph7_3
+is_a: CHEBI:24913 ! isoprenoid
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 
 [Term]
@@ -17451,6 +17477,7 @@ is_a: CHEBI:17815 ! 1,2-diacyl-sn-glycerol
 id: CHEBI:140526
 name: 1,2-dihexanoyl-sn-glycerol
 subset: chebi_ph7_3
+is_a: CHEBI:177077 ! 1,2-dihexanoylglycerol
 is_a: CHEBI:17815 ! 1,2-diacyl-sn-glycerol
 
 [Term]
@@ -17670,7 +17697,7 @@ id: CHEBI:140614
 name: alpha-D-galactosyl-(1->4)-N-acetyl-beta-D-galactosaminyl-(1->3)-alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-Ceramide
 subset: chebi_ph7_3
 is_a: CHEBI:23073 ! glycopentaosylceramide
-is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:61360 ! globoside
 
 [Term]
 id: CHEBI:140615
@@ -17684,7 +17711,7 @@ id: CHEBI:140616
 name: N-acetyl-beta-D-galactosaminyl-(1->3)-alpha-D-galactosyl-(1->4)-N-acetyl-beta-D-galactosaminyl-(1->3)-alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-Ceramide
 subset: chebi_ph7_3
 is_a: CHEBI:36642 ! glycohexaosylceramide
-is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:61360 ! globoside
 
 [Term]
 id: CHEBI:140617
@@ -17697,7 +17724,7 @@ id: CHEBI:140619
 name: alpha-D-galactosyl-(1->4)-N-acetyl-beta-D-galactosaminyl-(1->3)-alpha-D-galactosyl-(1->4)-N-acetyl-beta-D-galactosaminyl-(1->3)-alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide
 subset: chebi_ph7_3
 is_a: CHEBI:36640 ! glycoheptaosylceramide
-is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:61360 ! globoside
 
 [Term]
 id: CHEBI:140620
@@ -17711,14 +17738,14 @@ id: CHEBI:140623
 name: Monosialyl-Gb5(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:36642 ! glycohexaosylceramide
-is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:61360 ! globoside
 
 [Term]
 id: CHEBI:140624
 name: Disialosyl Gb5(2-)
 subset: chebi_ph7_3
 is_a: CHEBI:36640 ! glycoheptaosylceramide
-is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:61360 ! globoside
 
 [Term]
 id: CHEBI:140625
@@ -17933,12 +17960,13 @@ id: CHEBI:140691
 name: beta-D-Gal-(1->3)-beta-D-GalNAc-(1->3)-alpha-D-Gal-(1->4)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 subset: chebi_ph7_3
 is_a: CHEBI:23073 ! glycopentaosylceramide
+is_a: CHEBI:61360 ! globoside
 
 [Term]
 id: CHEBI:140714
 name: alpha-L-Fuc-(1->2)-beta-D-Gal-(1->3)-beta-D-GalNAc-(1->3)-alpha-D-Gal-(1->4)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1)-Cer
 subset: chebi_ph7_3
-is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:61360 ! globoside
 
 [Term]
 id: CHEBI:140725
@@ -17955,7 +17983,7 @@ id: CHEBI:140743
 name: alpha-D-Gal-(1->3)-alpha-D-Gal-(1->4)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 subset: chebi_ph7_3
 is_a: CHEBI:23075 ! glycotetraosylceramide
-is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:61360 ! globoside
 
 [Term]
 id: CHEBI:140750
@@ -18011,7 +18039,7 @@ id: CHEBI:140817
 name: alpha-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 subset: chebi_ph7_3
 is_a: CHEBI:36508 ! glycotriaosylceramide
-is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:78257 ! isogloboside
 
 [Term]
 id: CHEBI:14086
@@ -18398,6 +18426,12 @@ id: CHEBI:142209
 name: pyrimidine 2'-deoxyribonucleoside 5'-phosphate(2-)
 subset: chebi_ph7_3
 is_a: CHEBI:65317 ! 2'-deoxynucleoside 5'-monophosphate(2-)
+
+[Term]
+id: CHEBI:142279
+name: sesquiterpene phytoalexin
+is_a: CHEBI:180906 ! terpenoid phytoalexin
+is_a: CHEBI:26658 ! sesquiterpenoid
 
 [Term]
 id: CHEBI:142345
@@ -18824,6 +18858,7 @@ is_a: CHEBI:35618 ! aromatic ether
 is_a: CHEBI:35681 ! secondary alcohol
 is_a: CHEBI:76250 ! hydroxyisoflavans
 is_a: CHEBI:77002 ! methoxyisoflavan
+relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:142921
@@ -19359,6 +19394,11 @@ subset: chebi_ph7_3
 is_a: CHEBI:65296 ! primary ammonium ion
 
 [Term]
+id: CHEBI:144829
+name: tumour antigen
+is_a: CHEBI:59132 ! antigen
+
+[Term]
 id: CHEBI:144833
 name: L-beta-ethynylserine
 is_a: CHEBI:73477 ! terminal acetylenic compound
@@ -19563,7 +19603,7 @@ is_a: CHEBI:37622 ! carboxamide
 id: CHEBI:145544
 name: S-nitrosoglutathione(1-)
 subset: chebi_ph7_3
-is_a: CHEBI:24337 ! glutathione derivative
+is_a: CHEBI:60334 ! peptide anion
 
 [Term]
 id: CHEBI:145545
@@ -19800,6 +19840,42 @@ subset: chebi_ph7_3
 is_a: CHEBI:50525 ! phenolate anion
 
 [Term]
+id: CHEBI:146007
+name: (M)-viriditoxin
+subset: chebi_ph7_3
+is_a: CHEBI:146015 ! dimethyl 2,2'-(9,9',10,10'-tetrahydroxy-7,7'-dimethoxy-1,1'-dioxo-3,3',4,4'-tetrahydro-[6,6'-binaphtho[2,3-c]pyran]-3,3'-diyl)diacetate
+relationship: has_role CHEBI:25442 ! mycotoxin
+relationship: has_role CHEBI:33282 ! antibacterial agent
+relationship: has_role CHEBI:76956 ! Aspergillus metabolite
+
+[Term]
+id: CHEBI:146008
+name: semiviriditoxin
+subset: chebi_ph7_3
+is_a: CHEBI:146280 ! naphtho-alpha-pyrone
+is_a: CHEBI:18946 ! delta-lactone
+is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:33853 ! phenols
+is_a: CHEBI:59872 ! heptaketide
+relationship: has_role CHEBI:76946 ! fungal metabolite
+
+[Term]
+id: CHEBI:146014
+name: binaphthopyran
+is_a: CHEBI:64459 ! biaryl
+
+[Term]
+id: CHEBI:146015
+name: dimethyl 2,2'-(9,9',10,10'-tetrahydroxy-7,7'-dimethoxy-1,1'-dioxo-3,3',4,4'-tetrahydro-[6,6'-binaphtho[2,3-c]pyran]-3,3'-diyl)diacetate
+subset: chebi_ph7_3
+is_a: CHEBI:146014 ! binaphthopyran
+is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:26188 ! polyketide
+is_a: CHEBI:33853 ! phenols
+is_a: CHEBI:35618 ! aromatic ether
+is_a: CHEBI:36820 ! ring assembly
+
+[Term]
 id: CHEBI:146021
 name: N-acetyl-alpha-neuraminyl-(2->3)-beta-D-galactosyl-(1->3)-N-acetyl-D-glucosaminide(1-)
 subset: chebi_ph7_3
@@ -19862,6 +19938,11 @@ is_a: CHEBI:27150 ! trisaccharide
 id: CHEBI:146270
 name: oneirogen
 is_a: CHEBI:35471 ! psychotropic drug
+
+[Term]
+id: CHEBI:146280
+name: naphtho-alpha-pyrone
+is_a: CHEBI:86027 ! naphthopyran
 
 [Term]
 id: CHEBI:146281
@@ -19942,6 +20023,7 @@ is_a: CHEBI:22484 ! galactosamine oligosaccharide
 [Term]
 id: CHEBI:1467
 name: (2S)-2-isopropyl-3-oxosuccinic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:36145 ! oxo dicarboxylic acid
 
 [Term]
@@ -20645,6 +20727,7 @@ name: acetylsalicylic acid
 is_a: CHEBI:140310 ! phenyl acetates
 is_a: CHEBI:22723 ! benzoic acids
 is_a: CHEBI:26596 ! salicylates
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:35475 ! non-steroidal anti-inflammatory drug
 relationship: has_role CHEBI:35481 ! non-narcotic analgesic
 relationship: has_role CHEBI:35493 ! antipyretic
@@ -21277,12 +21360,12 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 [Term]
 id: CHEBI:15450
 name: (2R)-2-methylacyl-CoA
-is_a: CHEBI:25271 ! methyl-branched fatty acyl-CoA
+is_a: CHEBI:183511 ! 2-methylacyl-CoA
 
 [Term]
 id: CHEBI:15451
 name: (2S)-2-methylacyl-CoA
-is_a: CHEBI:25271 ! methyl-branched fatty acyl-CoA
+is_a: CHEBI:183511 ! 2-methylacyl-CoA
 
 [Term]
 id: CHEBI:15452
@@ -21489,6 +21572,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 id: CHEBI:15487
 name: isovaleryl-CoA
 is_a: CHEBI:25286 ! methylbutanoyl-CoA
+is_a: CHEBI:61905 ! short-chain fatty acyl-CoA
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
@@ -22086,10 +22170,12 @@ is_a: CHEBI:51702 ! enoate ester
 id: CHEBI:15582
 name: (2R,3S)-2,3-dimethylmalic acid
 is_a: CHEBI:15590 ! 2,3-dimethylmalic acid
+is_a: CHEBI:18059 ! lipid
 
 [Term]
 id: CHEBI:15583
 name: (R)-2-ethylmalic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:50263 ! 2-hydroxydicarboxylic acid
 
 [Term]
@@ -22125,6 +22211,7 @@ is_a: CHEBI:15584 ! citramalic acid
 [Term]
 id: CHEBI:15587
 name: (R)-3,3-dimethylmalic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:50263 ! 2-hydroxydicarboxylic acid
 
 [Term]
@@ -22581,6 +22668,15 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
+id: CHEBI:156460
+name: novofumigatonin
+subset: chebi_ph7_3
+is_a: CHEBI:38166 ! organic heteropolycyclic compound
+is_a: CHEBI:3992 ! cyclic ketone
+is_a: CHEBI:64419 ! meroterpenoid
+is_a: CHEBI:71989 ! ortho ester
+
+[Term]
 id: CHEBI:156461
 name: 5'-(N(7)-methyl 5'-triphosphoguanosine)-ribonucleoside(2-) residue
 subset: chebi_ph7_3
@@ -22705,6 +22801,7 @@ is_a: CHEBI:87230 ! nitrofuran antibiotic
 [Term]
 id: CHEBI:15661
 name: (2E)-2-(methoxycarbonylmethyl)but-2-enedioic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:25248 ! methyl ester
 is_a: CHEBI:35692 ! dicarboxylic acid
 
@@ -22717,6 +22814,7 @@ is_a: CHEBI:25636 ! octadienediol
 [Term]
 id: CHEBI:15663
 name: (2E)-3-(methoxycarbonyl)pent-2-enedioic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:25248 ! methyl ester
 is_a: CHEBI:35692 ! dicarboxylic acid
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
@@ -23175,7 +23273,10 @@ id: CHEBI:15738
 name: staurosporine
 is_a: CHEBI:37697 ! indolocarbazole alkaloid
 is_a: CHEBI:38165 ! organic heterooctacyclic compound
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:37700 ! EC 2.7.11.13 (protein kinase C) inhibitor
+relationship: has_role CHEBI:68495 ! apoptosis inducer
+relationship: has_role CHEBI:76969 ! bacterial metabolite
 
 [Term]
 id: CHEBI:15739
@@ -23428,12 +23529,6 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
-id: CHEBI:157685
-name: primary alkyl sulfate ester(1-)
-subset: chebi_ph7_3
-is_a: CHEBI:58958 ! organosulfate oxoanion
-
-[Term]
 id: CHEBI:15769
 name: N-[(R)-4-phosphopantothenoyl]-L-cysteine
 is_a: CHEBI:83824 ! L-cysteine derivative
@@ -23563,6 +23658,7 @@ is_a: CHEBI:142622 ! primary fatty alcohol
 id: CHEBI:157771
 name: hydroperoxydocosapentaenoate
 is_a: CHEBI:131864 ! docosanoid anion
+is_a: CHEBI:134019 ! hydroperoxy polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:157772
@@ -23694,7 +23790,9 @@ id: CHEBI:15794
 name: juglone
 subset: chebi_ph7_3
 is_a: CHEBI:132157 ! hydroxy-1,4-naphthoquinone
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:24527 ! herbicide
+relationship: has_role CHEBI:70982 ! reactive oxygen species generator
 
 [Term]
 id: CHEBI:15795
@@ -24084,6 +24182,7 @@ is_a: CHEBI:24962 ! ketoaldonic acid phosphate
 id: CHEBI:15866
 name: 2-deoxy-D-glucose
 is_a: CHEBI:23623 ! deoxyglucose
+relationship: has_role CHEBI:176497 ! geroprotector
 
 [Term]
 id: CHEBI:15867
@@ -24411,6 +24510,7 @@ name: N-ribosylnicotinamide
 subset: chebi_ph7_3
 is_a: CHEBI:25526 ! N-glycosylnicotinamide
 is_a: CHEBI:47896 ! pyridine nucleoside
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -25550,6 +25650,7 @@ is_a: CHEBI:22754 ! berberine alkaloid
 is_a: CHEBI:38164 ! organic heteropentacyclic compound
 is_a: CHEBI:86322 ! alkaloid antibiotic
 is_a: CHEBI:86494 ! botanical anti-fungal agent
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:25212 ! metabolite
 relationship: has_role CHEBI:35526 ! hypoglycemic agent
@@ -26395,6 +26496,7 @@ id: CHEBI:16243
 name: quercetin
 is_a: CHEBI:25883 ! pentahydroxyflavone
 is_a: CHEBI:52267 ! 7-hydroxyflavonol
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:33282 ! antibacterial agent
 relationship: has_role CHEBI:35610 ! antineoplastic agent
@@ -26449,6 +26551,7 @@ is_a: CHEBI:38762 ! isochromanes
 [Term]
 id: CHEBI:16253
 name: 2-(acetamidomethylidene)succinic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:22160 ! acetamides
 is_a: CHEBI:35692 ! dicarboxylic acid
 is_a: CHEBI:78840 ! olefinic compound
@@ -26581,6 +26684,7 @@ is_a: CHEBI:25384 ! monocarboxylic acid
 [Term]
 id: CHEBI:16278
 name: 2-hydroxy-3-oxoadipic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:2468 ! secondary alpha-hydroxy ketone
 is_a: CHEBI:36145 ! oxo dicarboxylic acid
 
@@ -26868,6 +26972,7 @@ name: lithocholic acid
 is_a: CHEBI:131620 ! C24-steroid
 is_a: CHEBI:3098 ! bile acid
 is_a: CHEBI:36260 ! monohydroxy-5beta-cholanic acid
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -26991,8 +27096,7 @@ id: CHEBI:16347
 name: (R)-carnitine
 subset: chebi_ph7_3
 is_a: CHEBI:17126 ! carnitine
-relationship: has_role CHEBI:27314 ! water-soluble vitamin
-relationship: has_role CHEBI:33229 ! vitamin
+relationship: has_role CHEBI:27314 ! water-soluble vitamin (role)
 relationship: has_role CHEBI:35679 ! antilipemic drug
 relationship: has_role CHEBI:50733 ! nutraceutical
 relationship: has_role CHEBI:66980 ! nootropic agent
@@ -27505,6 +27609,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 id: CHEBI:16433
 name: trans-caffeic acid
 is_a: CHEBI:36281 ! caffeic acid
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
@@ -27717,6 +27822,7 @@ name: 17beta-estradiol
 subset: chebi_ph7_3
 is_a: CHEBI:23965 ! estradiol
 is_a: CHEBI:35343 ! 17beta-hydroxy steroid
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:50114 ! estrogen
 relationship: has_role CHEBI:62872 ! EC 1.2.3.1 (aldehyde oxidase) inhibitor
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -27888,6 +27994,7 @@ name: lipoic acid
 is_a: CHEBI:39192 ! dithiolanes
 is_a: CHEBI:48847 ! heterocyclic fatty acid
 is_a: CHEBI:59643 ! thia fatty acid
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
 [Term]
@@ -28009,6 +28116,7 @@ is_a: CHEBI:35267 ! quaternary ammonium ion
 [Term]
 id: CHEBI:16513
 name: hydroxymalonic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:35692 ! dicarboxylic acid
 relationship: has_role CHEBI:76924 ! plant metabolite
 
@@ -28255,6 +28363,7 @@ id: CHEBI:16551
 name: alpha,alpha-trehalose
 subset: chebi_ph7_3
 is_a: CHEBI:27082 ! trehalose
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
@@ -28552,6 +28661,7 @@ is_a: CHEBI:23733 ! dihydrocarvone
 [Term]
 id: CHEBI:16600
 name: mesaconic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:35692 ! dicarboxylic acid
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -28616,6 +28726,8 @@ id: CHEBI:16610
 name: spermidine
 is_a: CHEBI:38751 ! triamine
 is_a: CHEBI:39474 ! polyazaalkane
+relationship: has_role CHEBI:138880 ! autophagy inducer
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
 [Term]
@@ -30030,6 +30142,7 @@ id: CHEBI:16810
 name: 2-oxoglutarate(2-)
 subset: chebi_ph7_3
 is_a: CHEBI:36147 ! oxo dicarboxylate
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:84735 ! algal metabolite
@@ -30369,6 +30482,7 @@ name: glutathione
 is_a: CHEBI:29256 ! thiol
 is_a: CHEBI:47923 ! tripeptide
 is_a: CHEBI:83824 ! L-cysteine derivative
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -30552,6 +30666,7 @@ is_a: CHEBI:27150 ! trisaccharide
 [Term]
 id: CHEBI:16886
 name: 2-aminomuconic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:83925 ! non-proteinogenic alpha-amino acid
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
@@ -30741,6 +30856,7 @@ id: CHEBI:16919
 name: creatine
 is_a: CHEBI:24373 ! glycine derivative
 is_a: CHEBI:24436 ! guanidines
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:50733 ! nutraceutical
 relationship: has_role CHEBI:63726 ! neuroprotective agent
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -31360,6 +31476,7 @@ is_a: CHEBI:24337 ! glutathione derivative
 [Term]
 id: CHEBI:17023
 name: 2-hydroxyadipic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:50263 ! 2-hydroxydicarboxylic acid
 
 [Term]
@@ -31740,6 +31857,7 @@ relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 [Term]
 id: CHEBI:17084
 name: 2-hydroxyglutaric acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:50263 ! 2-hydroxydicarboxylic acid
 relationship: has_role CHEBI:25212 ! metabolite
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -32089,6 +32207,7 @@ id: CHEBI:17141
 name: cysteamine
 is_a: CHEBI:29256 ! thiol
 is_a: CHEBI:32952 ! amine
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:66987 ! radiation protective agent
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -32179,6 +32298,7 @@ subset: chebi_ph7_3
 is_a: CHEBI:176839 ! vitamin B3
 is_a: CHEBI:25529 ! pyridinecarboxamide
 is_a: CHEBI:26416 ! pyridine alkaloid
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:25212 ! metabolite
@@ -32234,6 +32354,8 @@ subset: chebi_ph7_3
 is_a: CHEBI:23965 ! estradiol
 is_a: CHEBI:35342 ! 17alpha-hydroxy steroid
 is_a: CHEBI:36834 ! 3-hydroxy steroid
+relationship: has_role CHEBI:176497 ! geroprotector
+relationship: has_role CHEBI:50114 ! estrogen
 
 [Term]
 id: CHEBI:17161
@@ -32551,6 +32673,7 @@ is_a: CHEBI:61313 ! C21-steroid
 [Term]
 id: CHEBI:17207
 name: 2-methylideneglutaric acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:35692 ! dicarboxylic acid
 
 [Term]
@@ -32931,7 +33054,9 @@ is_a: CHEBI:33808 ! galacturonic acids
 id: CHEBI:17263
 name: estrone
 subset: chebi_ph7_3
+is_a: CHEBI:177917 ! phenolic steroid
 is_a: CHEBI:19168 ! 17-oxo steroid
+is_a: CHEBI:33853 ! phenols
 is_a: CHEBI:36834 ! 3-hydroxy steroid
 relationship: has_role CHEBI:35610 ! antineoplastic agent
 relationship: has_role CHEBI:50114 ! estrogen
@@ -33220,6 +33345,7 @@ name: morphine
 is_a: CHEBI:25418 ! morphinane alkaloid
 is_a: CHEBI:38164 ! organic heteropentacyclic compound
 is_a: CHEBI:50996 ! tertiary amino compound
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:35482 ! opioid analgesic
 relationship: has_role CHEBI:35620 ! vasodilator agent
 relationship: has_role CHEBI:35703 ! xenobiotic
@@ -33571,6 +33697,7 @@ is_a: CHEBI:36840 ! 16-hydroxy steroid
 [Term]
 id: CHEBI:17355
 name: (S)-2-acetamido-6-oxopimelic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:36145 ! oxo dicarboxylic acid
 is_a: CHEBI:51569 ! N-acyl-amino acid
 
@@ -33822,6 +33949,7 @@ is_a: CHEBI:37690 ! allose
 id: CHEBI:17394
 name: N(5)-ethyl-L-glutamine
 is_a: CHEBI:21844 ! N(5)-alkyl-L-glutamine
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:63726 ! neuroprotective agent
 relationship: has_role CHEBI:76924 ! plant metabolite
 
@@ -33970,6 +34098,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:17419
 name: 3-hydroxy-cis,cis-muconic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:24553 ! hexadienedioic acid
 
 [Term]
@@ -34086,7 +34215,6 @@ name: cyanocob(III)alamin
 subset: chebi_ph7_3
 is_a: CHEBI:140785 ! R-cob(III)alamin
 is_a: CHEBI:23333 ! cob(III)alamins
-relationship: has_role CHEBI:33229 ! vitamin
 
 [Term]
 id: CHEBI:17440
@@ -34315,6 +34443,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:17484
 name: benzyl isothiocyanate
 subset: chebi_ph7_3
+is_a: CHEBI:22712 ! benzenes
 is_a: CHEBI:52221 ! isothiocyanate
 relationship: has_role CHEBI:36047 ! antibacterial drug
 
@@ -34918,6 +35047,7 @@ is_a: CHEBI:36166 ! 5-[(1-carboxyethenyl)oxy]-6-hydroxycyclohexa-1,3-diene-1-car
 id: CHEBI:17583
 name: N-(long-chain-fatty-acyl)-L-glutamate
 subset: chebi_ph7_3
+is_a: CHEBI:136716 ! N-(fatty acyl)-L-alpha-amino acid anion
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 
 [Term]
@@ -35223,6 +35353,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:17626
 name: citraconic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:35692 ! dicarboxylic acid
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -35347,7 +35478,7 @@ is_a: CHEBI:60086 ! lipid A oxoanion
 
 [Term]
 id: CHEBI:176431
-name: an alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-lipid A(6-)
+name: an alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-(acyl)2-lipid A(6-)
 is_a: CHEBI:60086 ! lipid A oxoanion
 is_a: CHEBI:62643 ! anionic phospholipid
 is_a: CHEBI:63551 ! carbohydrate acid derivative anion
@@ -35522,6 +35653,16 @@ is_a: CHEBI:4170 ! D-glucopyranose 6-phosphate
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
+id: CHEBI:176657
+name: 1,7-bis(4-hydroxy-3-methoxyphenyl)hept-1-ene-3,5-dione
+is_a: CHEBI:25235 ! monomethoxybenzene
+is_a: CHEBI:26195 ! polyphenol
+is_a: CHEBI:51689 ! enone
+is_a: CHEBI:67265 ! beta-diketone
+is_a: CHEBI:78802 ! diarylheptanoid
+relationship: has_role CHEBI:76924 ! plant metabolite
+
+[Term]
 id: CHEBI:17666
 name: L-ribulose 5-phosphate
 is_a: CHEBI:37455 ! ribulose 5-phosphate
@@ -35590,7 +35731,7 @@ relationship: has_role CHEBI:67079 ! anti-inflammatory agent
 id: CHEBI:176783
 name: vitamin C
 is_a: CHEBI:50523 ! butenolide
-relationship: has_role CHEBI:27314 ! water-soluble vitamin
+relationship: has_role CHEBI:27314 ! water-soluble vitamin (role)
 
 [Term]
 id: CHEBI:17679
@@ -35602,6 +35743,12 @@ relationship: has_role CHEBI:23357 ! cofactor
 id: CHEBI:17680
 name: D-glucose 1,6-bisphosphate
 is_a: CHEBI:21005 ! D-glucose bisphosphate
+
+[Term]
+id: CHEBI:176809
+name: cis-alpha-bergamotene
+is_a: CHEBI:62755 ! alpha-bergamotene
+relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:17681
@@ -35714,6 +35861,7 @@ is_a: CHEBI:16180 ! N-acylglycine
 [Term]
 id: CHEBI:176910
 name: fatty acyl-L-carnitine
+is_a: CHEBI:61697 ! fatty acid derivative
 is_a: CHEBI:75659 ! O-acyl-L-carnitine
 
 [Term]
@@ -35753,6 +35901,11 @@ is_a: CHEBI:38779 ! 1,3,5-triazinanes
 relationship: has_role CHEBI:35703 ! xenobiotic
 
 [Term]
+id: CHEBI:176962
+name: presqualene alcohol
+is_a: CHEBI:36615 ! triterpenoid
+
+[Term]
 id: CHEBI:17697
 name: N-acetylserotonin
 subset: chebi_ph7_3
@@ -35773,6 +35926,7 @@ is_a: CHEBI:35716 ! C-nitro compound
 is_a: CHEBI:36683 ! organochlorine compound
 is_a: CHEBI:37622 ! carboxamide
 relationship: has_role CHEBI:131604 ! Mycoplasma genitalium metabolite
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:33281 ! antimicrobial agent
 relationship: has_role CHEBI:36047 ! antibacterial drug
 relationship: has_role CHEBI:48001 ! protein synthesis inhibitor
@@ -35840,6 +35994,11 @@ is_a: CHEBI:37839 ! heterocyclyl sulfate
 id: CHEBI:17707
 name: glucuronoxylan D-glucuronate
 is_a: CHEBI:33903 ! glucuronates
+
+[Term]
+id: CHEBI:177077
+name: 1,2-dihexanoylglycerol
+is_a: CHEBI:49172 ! 1,2-diglyceride
 
 [Term]
 id: CHEBI:17708
@@ -35992,6 +36151,16 @@ is_a: CHEBI:12937 ! D-galactose 6-phosphate
 relationship: has_role CHEBI:25212 ! metabolite
 
 [Term]
+id: CHEBI:177333
+name: organic tetracyclic compound
+is_a: CHEBI:51958 ! organic polycyclic compound
+
+[Term]
+id: CHEBI:177334
+name: 3',2'-cGAMP(2-)
+is_a: CHEBI:58945 ! organophosphate oxoanion
+
+[Term]
 id: CHEBI:17734
 name: alpha-cyclopiazonic acid
 is_a: CHEBI:12336 ! alpha-cyclopiazonic acids
@@ -36043,6 +36212,7 @@ name: N,N-dimethylformamide
 subset: chebi_ph7_3
 is_a: CHEBI:134179 ! volatile organic compound
 is_a: CHEBI:24079 ! formamides
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:48358 ! polar aprotic solvent
 relationship: has_role CHEBI:50908 ! hepatotoxic agent
 
@@ -36119,6 +36289,7 @@ name: glycerol
 subset: chebi_ph7_3
 is_a: CHEBI:17522 ! alditol
 is_a: CHEBI:27136 ! triol
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:25728 ! osmolyte
 relationship: has_role CHEBI:27780 ! detergent
 relationship: has_role CHEBI:46787 ! solvent
@@ -36317,6 +36488,12 @@ is_a: CHEBI:38517 ! benzophenanthridine alkaloid
 relationship: has_role CHEBI:25212 ! metabolite
 
 [Term]
+id: CHEBI:177898
+name: omega-carboxy-(fatty acyl)-CoA(5-)
+is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:18059 ! lipid
+
+[Term]
 id: CHEBI:17790
 name: methanol
 subset: chebi_ph7_3
@@ -36338,6 +36515,12 @@ subset: chebi_ph7_3
 is_a: CHEBI:138029 ! 14alpha-methyl steroid
 is_a: CHEBI:35348 ! 3beta-sterol
 relationship: has_role CHEBI:75771 ! mouse metabolite
+
+[Term]
+id: CHEBI:177917
+name: phenolic steroid
+is_a: CHEBI:33853 ! phenols
+is_a: CHEBI:36834 ! 3-hydroxy steroid
 
 [Term]
 id: CHEBI:17792
@@ -36427,6 +36610,11 @@ is_a: CHEBI:30436 ! tetrahydropterin
 relationship: has_role CHEBI:25212 ! metabolite
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
+
+[Term]
+id: CHEBI:178049
+name: Prostaglandin F1(1-)
+is_a: CHEBI:59326 ! prostaglandin carboxylic acid anion
 
 [Term]
 id: CHEBI:17805
@@ -36554,7 +36742,6 @@ is_a: CHEBI:47042 ! hydroxycalciol
 is_a: CHEBI:73558 ! D3 vitamins
 relationship: has_role CHEBI:24621 ! hormone
 relationship: has_role CHEBI:25212 ! metabolite
-relationship: has_role CHEBI:33229 ! vitamin
 relationship: has_role CHEBI:35610 ! antineoplastic agent
 relationship: has_role CHEBI:38807 ! calcium channel agonist
 relationship: has_role CHEBI:38808 ! calcium channel modulator
@@ -36777,6 +36964,7 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 [Term]
 id: CHEBI:17859
 name: glutaric acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:28383 ! alpha,omega-dicarboxylic acid
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:83056 ! Daphnia magna metabolite
@@ -37160,7 +37348,6 @@ is_a: CHEBI:23824 ! diol
 is_a: CHEBI:47042 ! hydroxycalciol
 is_a: CHEBI:73558 ! D3 vitamins
 relationship: has_role CHEBI:25212 ! metabolite
-relationship: has_role CHEBI:33229 ! vitamin
 relationship: has_role CHEBI:50646 ! bone density conservation agent
 relationship: has_role CHEBI:50733 ! nutraceutical
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -37626,6 +37813,7 @@ is_a: CHEBI:36835 ! 3alpha-hydroxy steroid
 id: CHEBI:18012
 name: fumaric acid
 is_a: CHEBI:22958 ! butenedioic acid
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:64049 ! food acidity regulator
 relationship: has_role CHEBI:78675 ! fundamental metabolite
 
@@ -37852,6 +38040,16 @@ relationship: has_role CHEBI:62215 ! allelochemical
 relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
+id: CHEBI:180482
+name: 1,2,4-triazole-3-carboxamide
+is_a: CHEBI:140324 ! primary carboxamide
+is_a: CHEBI:29347 ! monocarboxylic acid amide
+is_a: CHEBI:35727 ! triazoles
+is_a: CHEBI:62733 ! aromatic amide
+relationship: has_role CHEBI:49103 ! drug metabolite
+relationship: has_role CHEBI:84087 ! human urinary metabolite
+
+[Term]
 id: CHEBI:18049
 name: piperidine
 is_a: CHEBI:26151 ! piperidines
@@ -37865,6 +38063,12 @@ relationship: has_role CHEBI:48355 ! non-polar solvent
 relationship: has_role CHEBI:48356 ! protic solvent
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
+
+[Term]
+id: CHEBI:180496
+name: gamma-cadinene
+is_a: CHEBI:138397 ! octahydronaphthalenes
+is_a: CHEBI:22976 ! cadinene
 
 [Term]
 id: CHEBI:18050
@@ -38045,6 +38249,13 @@ name: 1,2,3,4,6-pentakis-O-galloyl-beta-D-glucose
 subset: chebi_ph7_3
 is_a: CHEBI:24183 ! galloyl beta-D-glucose
 is_a: CHEBI:37576 ! gallate ester
+relationship: has_role CHEBI:176497 ! geroprotector
+relationship: has_role CHEBI:35610 ! antineoplastic agent
+relationship: has_role CHEBI:48578 ! radical scavenger
+relationship: has_role CHEBI:62868 ! hepatoprotective agent
+relationship: has_role CHEBI:66987 ! radiation protective agent
+relationship: has_role CHEBI:67079 ! anti-inflammatory agent
+relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:18083
@@ -38103,11 +38314,22 @@ is_a: CHEBI:26282 ! propanals
 is_a: CHEBI:27390 ! omega-aminoaldehyde
 
 [Term]
+id: CHEBI:180906
+name: terpenoid phytoalexin
+is_a: CHEBI:26873 ! terpenoid
+relationship: has_role CHEBI:26115 ! phytoalexin
+
+[Term]
 id: CHEBI:18091
 name: asparagusic acid
 is_a: CHEBI:33576 ! sulfur-containing carboxylic acid
 is_a: CHEBI:38336 ! dithiolanecarboxylic acid
 is_a: CHEBI:39192 ! dithiolanes
+
+[Term]
+id: CHEBI:180911
+name: suramin(6-)
+is_a: CHEBI:58958 ! organosulfate oxoanion
 
 [Term]
 id: CHEBI:18092
@@ -38416,18 +38638,18 @@ is_a: CHEBI:55337 ! all-trans-polyprenyl diphosphate
 
 [Term]
 id: CHEBI:18145
-name: (+)-alpha-tocopherol
+name: (R,R,R)-alpha-tocopherol
 subset: chebi_ph7_3
 is_a: CHEBI:22470 ! alpha-tocopherol
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:22587 ! antiviral agent
 relationship: has_role CHEBI:27027 ! micronutrient
-relationship: has_role CHEBI:33229 ! vitamin
 relationship: has_role CHEBI:37700 ! EC 2.7.11.13 (protein kinase C) inhibitor
 relationship: has_role CHEBI:50249 ! anticoagulant
 relationship: has_role CHEBI:50733 ! nutraceutical
 relationship: has_role CHEBI:50846 ! immunomodulator
 relationship: has_role CHEBI:50855 ! antiatherogenic agent
+relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:84735 ! algal metabolite
 
 [Term]
@@ -38441,6 +38663,7 @@ id: CHEBI:18147
 name: beta-maltose
 subset: chebi_ph7_3
 is_a: CHEBI:17306 ! maltose
+relationship: has_role CHEBI:176497 ! geroprotector
 
 [Term]
 id: CHEBI:18148
@@ -38475,6 +38698,7 @@ id: CHEBI:18152
 name: myricetin
 is_a: CHEBI:24561 ! hexahydroxyflavone
 is_a: CHEBI:52267 ! 7-hydroxyflavonol
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:35526 ! hypoglycemic agent
 relationship: has_role CHEBI:35610 ! antineoplastic agent
@@ -38607,9 +38831,9 @@ id: CHEBI:18185
 name: gamma-tocopherol
 subset: chebi_ph7_3
 is_a: CHEBI:27013 ! tocopherol
+is_a: CHEBI:33234 ! vitamin E
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:77962 ! food antioxidant
-relationship: has_role CHEBI:78295 ! food component
 relationship: has_role CHEBI:84735 ! algal metabolite
 
 [Term]
@@ -39302,6 +39526,17 @@ is_a: CHEBI:79020 ! alpha,beta-unsaturated monocarboxylic acid
 relationship: has_role CHEBI:25212 ! metabolite
 
 [Term]
+id: CHEBI:183086
+name: (omega-1)-methyl-3-oxo-fatty acyl-CoA(4-)
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
+is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
+
+[Term]
+id: CHEBI:183098
+name: (Z)-glucosinolate(1-)
+is_a: CHEBI:24279 ! glucosinolate
+
+[Term]
 id: CHEBI:18310
 name: alkane
 subset: chebi_ph7_3
@@ -39339,8 +39574,10 @@ name: pyrroloquinoline quinone
 is_a: CHEBI:25622 ! orthoquinones
 is_a: CHEBI:26461 ! pyrroloquinoline cofactor
 is_a: CHEBI:27093 ! tricarboxylic acid
+relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:23357 ! cofactor
-relationship: has_role CHEBI:27314 ! water-soluble vitamin
+relationship: has_role CHEBI:27314 ! water-soluble vitamin (role)
+relationship: has_role CHEBI:67079 ! anti-inflammatory agent
 
 [Term]
 id: CHEBI:18316
@@ -39405,10 +39642,30 @@ relationship: has_role CHEBI:75767 ! animal metabolite
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
+id: CHEBI:183249
+name: lysophosphatidylinositol 16:0
+is_a: CHEBI:64931 ! lysophosphatidyl-1D-myo-inositol
+
+[Term]
 id: CHEBI:18325
 name: 2-succinatobenzoate
 subset: chebi_ph7_3
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
+
+[Term]
+id: CHEBI:183252
+name: lysophosphatidylserine 16:0
+is_a: CHEBI:68510 ! lysophosphatidylserine
+
+[Term]
+id: CHEBI:183253
+name: lysophosphatidylserine 18:0
+is_a: CHEBI:68510 ! lysophosphatidylserine
+
+[Term]
+id: CHEBI:183255
+name: lysophosphatidylserine 18:1
+is_a: CHEBI:68510 ! lysophosphatidylserine
 
 [Term]
 id: CHEBI:18327
@@ -39556,12 +39813,32 @@ subset: chebi_ph7_3
 is_a: CHEBI:24922 ! isoquinolines
 
 [Term]
+id: CHEBI:183508
+name: methyl-branched fatty acyl-CoA(4-)
+is_a: CHEBI:183509 ! branched-chain fatty acyl-CoA(4-)
+
+[Term]
+id: CHEBI:183509
+name: branched-chain fatty acyl-CoA(4-)
+is_a: CHEBI:77636 ! fatty acyl-CoA(4-)
+
+[Term]
 id: CHEBI:18351
 name: 4-hydroxyhexan-3-one
 subset: chebi_ph7_3
 is_a: CHEBI:24573 ! hexanone
 is_a: CHEBI:2468 ! secondary alpha-hydroxy ketone
 is_a: CHEBI:35681 ! secondary alcohol
+
+[Term]
+id: CHEBI:183510
+name: 2-methylacyl-CoA(4-)
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
+
+[Term]
+id: CHEBI:183511
+name: 2-methylacyl-CoA
+is_a: CHEBI:25271 ! methyl-branched fatty acyl-CoA
 
 [Term]
 id: CHEBI:18353
@@ -39749,10 +40026,30 @@ is_a: CHEBI:23424 ! cyanides
 relationship: has_part CHEBI:48819 ! cyano group
 
 [Term]
+id: CHEBI:183799
+name: CE(18:2)
+is_a: CHEBI:17002 ! cholesteryl ester
+
+[Term]
 id: CHEBI:18380
 name: 2,3,2',3'-tetrakis(3-hydroxytetradecanoyl)-alpha-D-glucosaminyl-1,6-beta-D-glucosamine 1-phosphate
 is_a: CHEBI:25051 ! lipid As
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+
+[Term]
+id: CHEBI:183800
+name: CE(18:1)
+is_a: CHEBI:17002 ! cholesteryl ester
+
+[Term]
+id: CHEBI:183806
+name: 7beta-hydroxypregnenolone
+is_a: CHEBI:1722 ! 3beta-hydroxy-Delta(5)-steroid
+is_a: CHEBI:35349 ! 7beta-hydroxy steroid
+is_a: CHEBI:36885 ! 20-oxo steroid
+is_a: CHEBI:61313 ! C21-steroid
+relationship: has_role CHEBI:75767 ! animal metabolite
+relationship: has_role CHEBI:76968 ! fungal xenobiotic metabolite
 
 [Term]
 id: CHEBI:18381
@@ -40039,6 +40336,7 @@ subset: chebi_ph7_3
 is_a: CHEBI:30412 ! monoatomic dication
 is_a: CHEBI:39127 ! magnesium cation
 is_a: CHEBI:60240 ! divalent metal cation
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:23357 ! cofactor
 
 [Term]
@@ -40116,6 +40414,11 @@ relationship: has_role CHEBI:24937 ! jasmonates
 relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
+id: CHEBI:184376
+name: streptidine(2+)
+is_a: CHEBI:60251 ! guanidinium ion
+
+[Term]
 id: CHEBI:1845
 name: 4-hydroxy-3-polyprenylbenzoic acid
 is_a: CHEBI:25389 ! monohydroxybenzoic acid
@@ -40158,6 +40461,7 @@ id: CHEBI:18534
 name: campest-4-en-3-one
 subset: chebi_ph7_3
 is_a: CHEBI:47788 ! 3-oxo steroid
+is_a: CHEBI:47909 ! 3-oxo-Delta(4) steroid
 
 [Term]
 id: CHEBI:18584
@@ -40222,6 +40526,11 @@ subset: chebi_ph7_3
 is_a: CHEBI:25350 ! mevalonate
 
 [Term]
+id: CHEBI:187903
+name: luteolin 4'-O-beta-D-glucoside(1-)
+is_a: CHEBI:60038 ! flavonoid oxoanion
+
+[Term]
 id: CHEBI:18822
 name: (Z,Z,Z)-geranylgeraniol
 subset: chebi_ph7_3
@@ -40234,6 +40543,17 @@ subset: chebi_ph7_3
 is_a: CHEBI:33853 ! phenols
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 relationship: has_role CHEBI:84087 ! human urinary metabolite
+
+[Term]
+id: CHEBI:188358
+name: (S)-2-benzylsuccinate
+is_a: CHEBI:28965 ! dicarboxylic acid dianion
+is_a: CHEBI:57621 ! 2-benzylsuccinate(2-)
+
+[Term]
+id: CHEBI:188445
+name: 2-oxindole-3-acetate
+is_a: CHEBI:35757 ! monocarboxylic acid anion
 
 [Term]
 id: CHEBI:18859
@@ -42326,6 +42646,7 @@ is_a: CHEBI:59650 ! amino fatty acid
 id: CHEBI:22470
 name: alpha-tocopherol
 is_a: CHEBI:27013 ! tocopherol
+is_a: CHEBI:33234 ! vitamin E
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:77962 ! food antioxidant
 
@@ -44170,6 +44491,7 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 [Term]
 id: CHEBI:23673
 name: 2,6-diaminopimelic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:36164 ! amino dicarboxylic acid
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
@@ -44302,6 +44624,7 @@ is_a: CHEBI:33261 ! organosulfur compound
 id: CHEBI:2376
 name: acarbose
 is_a: CHEBI:63567 ! tetrasaccharide derivative
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:35526 ! hypoglycemic agent
 relationship: has_role CHEBI:50627 ! EC 3.2.1.1 (alpha-amylase) inhibitor
 relationship: has_role CHEBI:67239 ! EC 3.2.1.20 (alpha-glucosidase) inhibitor
@@ -44599,6 +44922,7 @@ is_a: CHEBI:24981 ! ketotetrose
 id: CHEBI:23965
 name: estradiol
 subset: chebi_ph7_3
+is_a: CHEBI:177917 ! phenolic steroid
 is_a: CHEBI:36834 ! 3-hydroxy steroid
 is_a: CHEBI:36838 ! 17-hydroxy steroid
 relationship: has_role CHEBI:50114 ! estrogen
@@ -44656,8 +44980,8 @@ is_a: CHEBI:16460 ! polyprenol phosphate
 
 [Term]
 id: CHEBI:24020
-name: fat-soluble vitamin
-is_a: CHEBI:33229 ! vitamin
+name: fat-soluble vitamin (role)
+is_a: CHEBI:33229 ! vitamin (role)
 
 [Term]
 id: CHEBI:24026
@@ -47069,6 +47393,7 @@ is_a: CHEBI:27093 ! tricarboxylic acid
 [Term]
 id: CHEBI:25312
 name: 3-methylmalic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:35692 ! dicarboxylic acid
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -47575,6 +47900,7 @@ is_a: CHEBI:38777 ! azetidines
 id: CHEBI:25575
 name: nonadienedioate
 is_a: CHEBI:133492 ! polyunsaturated dicarboxylic acid dianion
+is_a: CHEBI:18059 ! lipid
 
 [Term]
 id: CHEBI:25576
@@ -48052,7 +48378,7 @@ name: pantothenic acids
 is_a: CHEBI:22823 ! beta-alanine derivative
 is_a: CHEBI:37622 ! carboxamide
 relationship: has_role CHEBI:23357 ! cofactor
-relationship: has_role CHEBI:27314 ! water-soluble vitamin
+relationship: has_role CHEBI:27314 ! water-soluble vitamin (role)
 
 [Term]
 id: CHEBI:25858
@@ -49867,8 +50193,8 @@ is_a: CHEBI:23132 ! chlorobenzenes
 [Term]
 id: CHEBI:26893
 name: tetracyclic triterpenoid
+is_a: CHEBI:177333 ! organic tetracyclic compound
 is_a: CHEBI:36615 ! triterpenoid
-is_a: CHEBI:51958 ! organic polycyclic compound
 
 [Term]
 id: CHEBI:26895
@@ -50129,7 +50455,6 @@ relationship: has_part CHEBI:27007 ! tin atom
 [Term]
 id: CHEBI:27013
 name: tocopherol
-is_a: CHEBI:33234 ! vitamin E
 is_a: CHEBI:39437 ! tocol
 
 [Term]
@@ -50482,7 +50807,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 id: CHEBI:27300
 name: vitamin D
 is_a: CHEBI:36853 ! hydroxy seco-steroid
-relationship: has_role CHEBI:24020 ! fat-soluble vitamin
+relationship: has_role CHEBI:24020 ! fat-soluble vitamin (role)
 
 [Term]
 id: CHEBI:27306
@@ -50498,8 +50823,8 @@ is_a: CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:27314
-name: water-soluble vitamin
-is_a: CHEBI:33229 ! vitamin
+name: water-soluble vitamin (role)
+is_a: CHEBI:33229 ! vitamin (role)
 
 [Term]
 id: CHEBI:27323
@@ -50615,6 +50940,7 @@ id: CHEBI:27372
 name: 1D-chiro-inositol
 subset: chebi_ph7_3
 is_a: CHEBI:23098 ! chiro-inositol
+relationship: has_role CHEBI:176497 ! geroprotector
 
 [Term]
 id: CHEBI:27374
@@ -51801,6 +52127,7 @@ name: caffeine
 subset: chebi_ph7_3
 is_a: CHEBI:26385 ! purine alkaloid
 is_a: CHEBI:27134 ! trimethylxanthine
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:25435 ! mutagen
 relationship: has_role CHEBI:35337 ! central nervous system stimulant
 relationship: has_role CHEBI:35471 ! psychotropic drug
@@ -52178,11 +52505,11 @@ is_a: CHEBI:49018 ! neuraminic acid
 id: CHEBI:27852
 name: 3,4-dihydroxymandelaldehyde
 subset: chebi_ph7_3
-is_a: CHEBI:17478 ! aldehyde
 is_a: CHEBI:33566 ! catechols
-relationship: has_role CHEBI:25212 ! metabolite
+is_a: CHEBI:50413 ! hydroxyaldehyde
 relationship: has_role CHEBI:50910 ! neurotoxin
 relationship: has_role CHEBI:75771 ! mouse metabolite
+relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
 id: CHEBI:27855
@@ -52280,6 +52607,7 @@ is_a: CHEBI:26195 ! polyphenol
 is_a: CHEBI:33572 ! resorcinols
 is_a: CHEBI:36027 ! stilbenol
 relationship: has_role CHEBI:140922 ! glioma-associated oncogene inhibitor
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:26115 ! phytoalexin
 
@@ -52976,6 +53304,7 @@ is_a: CHEBI:46920 ! N-methylpiperazine
 is_a: CHEBI:59779 ! cyclic ketal
 is_a: CHEBI:72588 ! semisynthetic derivative
 relationship: has_role CHEBI:171664 ! antiamoebic agent
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:33231 ! antitubercular agent
 relationship: has_role CHEBI:35610 ! antineoplastic agent
 relationship: has_role CHEBI:35816 ! leprostatic drug
@@ -53012,11 +53341,13 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 id: CHEBI:28088
 name: genistein
 is_a: CHEBI:55465 ! 7-hydroxyisoflavones
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:35610 ! antineoplastic agent
 relationship: has_role CHEBI:38637 ! tyrosine kinase inhibitor
 relationship: has_role CHEBI:50750 ! EC 5.99.1.3 [DNA topoisomerase (ATP-hydrolysing)] inhibitor
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:76989 ! phytoestrogen
+relationship: has_role CHEBI:84087 ! human urinary metabolite
 
 [Term]
 id: CHEBI:28089
@@ -53587,6 +53918,7 @@ name: dimethyl sulfoxide
 subset: chebi_ph7_3
 is_a: CHEBI:134179 ! volatile organic compound
 is_a: CHEBI:22063 ! sulfoxide
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:22333 ! alkylating agent
 relationship: has_role CHEBI:35481 ! non-narcotic analgesic
 relationship: has_role CHEBI:37335 ! MRI contrast agent
@@ -53652,8 +53984,11 @@ is_a: CHEBI:25018 ! L-leucine derivative
 id: CHEBI:28283
 name: capsidiol
 subset: chebi_ph7_3
+is_a: CHEBI:138397 ! octahydronaphthalenes
+is_a: CHEBI:142279 ! sesquiterpene phytoalexin
 is_a: CHEBI:36753 ! eremophilane sesquiterpenoid
-relationship: has_role CHEBI:25212 ! metabolite
+relationship: has_role CHEBI:35718 ! antifungal agent
+relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:28286
@@ -53924,7 +54259,7 @@ is_a: CHEBI:35692 ! dicarboxylic acid
 id: CHEBI:28384
 name: vitamin K
 is_a: CHEBI:132142 ! 1,4-naphthoquinones
-relationship: has_role CHEBI:24020 ! fat-soluble vitamin
+relationship: has_role CHEBI:24020 ! fat-soluble vitamin (role)
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
@@ -53948,6 +54283,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:28394
 name: enol-oxaloacetic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:33823 ! enol
 is_a: CHEBI:35692 ! dicarboxylic acid
 is_a: CHEBI:52618 ! 2-hydroxy carboxylic acid
@@ -54228,6 +54564,7 @@ name: L-methionine sulfoximine
 is_a: CHEBI:47833 ! methionine sulfoximine
 is_a: CHEBI:83822 ! non-proteinogenic L-alpha-amino acid
 is_a: CHEBI:84121 ! L-methionine derivative
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:24319 ! EC 6.3.1.2 (glutamate--ammonia ligase) inhibitor
 
 [Term]
@@ -54279,6 +54616,7 @@ name: kaempferol
 is_a: CHEBI:28802 ! flavonols
 is_a: CHEBI:38684 ! tetrahydroxyflavone
 is_a: CHEBI:52267 ! 7-hydroxyflavonol
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:33282 ! antibacterial agent
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
@@ -54403,6 +54741,7 @@ id: CHEBI:28548
 name: D-pinitol
 subset: chebi_ph7_3
 is_a: CHEBI:37208 ! pinitol
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:23366 ! compatible osmolytes
 
 [Term]
@@ -55353,7 +55692,6 @@ is_a: CHEBI:131703 ! stigmastane sterol
 is_a: CHEBI:1722 ! 3beta-hydroxy-Delta(5)-steroid
 is_a: CHEBI:26125 ! phytosterols
 is_a: CHEBI:35348 ! 3beta-sterol
-relationship: has_role CHEBI:33229 ! vitamin
 relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
@@ -55956,6 +56294,7 @@ is_a: CHEBI:21545 ! N-acetyl-L-amino acid
 is_a: CHEBI:22198 ! acetylcysteine
 is_a: CHEBI:83824 ! L-cysteine derivative
 relationship: has_role CHEBI:173084 ! ferroptosis inhibitor
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:35441 ! antiinfective agent
 relationship: has_role CHEBI:36044 ! antiviral drug
@@ -55974,6 +56313,7 @@ is_a: CHEBI:35681 ! secondary alcohol
 is_a: CHEBI:36818 ! seco-cholestane
 is_a: CHEBI:36853 ! hydroxy seco-steroid
 is_a: CHEBI:73558 ! D3 vitamins
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -56513,6 +56853,7 @@ id: CHEBI:29073
 name: L-ascorbic acid
 is_a: CHEBI:176783 ! vitamin C
 is_a: CHEBI:22652 ! ascorbic acid
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:23354 ! coenzyme
 relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:64577 ! flour treatment agent
@@ -57735,6 +58076,7 @@ relationship: has_role CHEBI:139556 ! EC 4.1.1.17 (ornithine decarboxylase) inhi
 relationship: has_role CHEBI:147285 ! EC 3.4.22.69 (SARS coronavirus main proteinase) inhibitor
 relationship: has_role CHEBI:149553 ! anticoronaviral agent
 relationship: has_role CHEBI:173084 ! ferroptosis inhibitor
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:33282 ! antibacterial agent
 relationship: has_role CHEBI:35610 ! antineoplastic agent
@@ -58712,6 +59054,7 @@ is_a: CHEBI:35405 ! transition element oxoanion
 [Term]
 id: CHEBI:30531
 name: pimelic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:28383 ! alpha,omega-dicarboxylic acid
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 relationship: has_role CHEBI:83056 ! Daphnia magna metabolite
@@ -58914,6 +59257,7 @@ id: CHEBI:30744
 name: oxaloacetic acid
 is_a: CHEBI:36145 ! oxo dicarboxylic acid
 is_a: CHEBI:66873 ! C4-dicarboxylic acid
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:25212 ! metabolite
 
 [Term]
@@ -58987,7 +59331,6 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 id: CHEBI:30754
 name: anthranilic acid
 is_a: CHEBI:22495 ! aminobenzoic acid
-relationship: has_role CHEBI:27314 ! water-soluble vitamin
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -59071,6 +59414,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:30778
 name: gallic acid
 is_a: CHEBI:27115 ! trihydroxybenzoic acid
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:35610 ! antineoplastic agent
 relationship: has_role CHEBI:50629 ! cyclooxygenase 2 inhibitor
@@ -59140,6 +59484,7 @@ is_a: CHEBI:6650 ! malic acid
 id: CHEBI:30797
 name: (S)-malic acid
 is_a: CHEBI:6650 ! malic acid
+relationship: has_role CHEBI:176497 ! geroprotector
 
 [Term]
 id: CHEBI:30800
@@ -59260,6 +59605,7 @@ is_a: CHEBI:35910 ! 2-oxo monocarboxylic acid
 [Term]
 id: CHEBI:30832
 name: adipic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:28383 ! alpha,omega-dicarboxylic acid
 relationship: has_role CHEBI:64049 ! food acidity regulator
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
@@ -59285,6 +59631,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:30838
 name: itaconic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:35692 ! dicarboxylic acid
 is_a: CHEBI:78840 ! olefinic compound
 relationship: has_role CHEBI:76946 ! fungal metabolite
@@ -59349,6 +59696,7 @@ relationship: has_role CHEBI:84735 ! algal metabolite
 [Term]
 id: CHEBI:30850
 name: 3-propylmalic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:35692 ! dicarboxylic acid
 is_a: CHEBI:52618 ! 2-hydroxy carboxylic acid
 is_a: CHEBI:61355 ! 3-hydroxy carboxylic acid
@@ -59494,6 +59842,7 @@ relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 [Term]
 id: CHEBI:30907
 name: 4-fumarylacetoacetic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:36145 ! oxo dicarboxylic acid
 is_a: CHEBI:67265 ! beta-diketone
 
@@ -59757,8 +60106,10 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:310312
 name: isoliquiritigenin
 is_a: CHEBI:23086 ! chalcones
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:25212 ! metabolite
 relationship: has_role CHEBI:26130 ! biological pigment
+relationship: has_role CHEBI:35610 ! antineoplastic agent
 relationship: has_role CHEBI:50268 ! GABA modulator
 relationship: has_role CHEBI:59997 ! EC 1.14.18.1 (tyrosinase) inhibitor
 relationship: has_role CHEBI:60643 ! NMDA receptor antagonist
@@ -61123,6 +61474,9 @@ subset: chebi_ph7_3
 is_a: CHEBI:18379 ! nitrile
 is_a: CHEBI:38532 ! hydrazone
 is_a: CHEBI:83403 ! monochlorobenzenes
+relationship: has_role CHEBI:176497 ! geroprotector
+relationship: has_role CHEBI:24869 ! ionophore
+relationship: has_role CHEBI:33282 ! antibacterial agent
 
 [Term]
 id: CHEBI:32600
@@ -62427,7 +62781,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:33229
-name: vitamin
+name: vitamin (role)
 is_a: CHEBI:27027 ! micronutrient
 is_a: CHEBI:52206 ! biochemical role
 
@@ -62451,7 +62805,7 @@ id: CHEBI:33234
 name: vitamin E
 is_a: CHEBI:23229 ! chromanol
 relationship: has_role CHEBI:22586 ! antioxidant
-relationship: has_role CHEBI:24020 ! fat-soluble vitamin
+relationship: has_role CHEBI:24020 ! fat-soluble vitamin (role)
 
 [Term]
 id: CHEBI:33235
@@ -62464,7 +62818,7 @@ name: vitamin D4
 subset: chebi_ph7_3
 is_a: CHEBI:27300 ! vitamin D
 is_a: CHEBI:36819 ! seco-ergostane
-is_a: CHEBI:36853 ! hydroxy seco-steroid
+relationship: has_role CHEBI:76946 ! fungal metabolite
 
 [Term]
 id: CHEBI:33238
@@ -63354,6 +63708,7 @@ is_a: CHEBI:33521 ! metal atom
 [Term]
 id: CHEBI:33563
 name: glycolipid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:35740 ! liposaccharide
 
 [Term]
@@ -65041,6 +65396,7 @@ id: CHEBI:34905
 name: paraquat
 subset: chebi_ph7_3
 is_a: CHEBI:25697 ! organic cation
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:24527 ! herbicide
 
 [Term]
@@ -65123,6 +65479,7 @@ is_a: CHEBI:25196 ! mercury molecular entity
 [Term]
 id: CHEBI:35114
 name: 3-isopropylmalic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:50263 ! 2-hydroxydicarboxylic acid
 
 [Term]
@@ -70730,6 +71087,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:37024
 name: 2-aminoadipic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:36164 ! amino dicarboxylic acid
 is_a: CHEBI:83925 ! non-proteinogenic alpha-amino acid
 relationship: has_role CHEBI:75768 ! mammalian metabolite
@@ -71619,6 +71977,7 @@ is_a: CHEBI:22302 ! aldonolactone
 [Term]
 id: CHEBI:37440
 name: 3-oxoadipic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:36145 ! oxo dicarboxylic acid
 relationship: has_role CHEBI:76976 ! bacterial xenobiotic metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -71842,7 +72201,12 @@ is_a: CHEBI:47622 ! acetate ester
 is_a: CHEBI:51307 ! diester
 is_a: CHEBI:87691 ! tetradecanoate ester
 relationship: has_role CHEBI:35610 ! antineoplastic agent
+relationship: has_role CHEBI:50903 ! carcinogenic agent
+relationship: has_role CHEBI:52290 ! mitogen
 relationship: has_role CHEBI:64018 ! protein kinase C agonist
+relationship: has_role CHEBI:68495 ! apoptosis inducer
+relationship: has_role CHEBI:70982 ! reactive oxygen species generator
+relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:37545
@@ -75372,6 +75736,7 @@ is_a: CHEBI:35618 ! aromatic ether
 is_a: CHEBI:51689 ! enone
 is_a: CHEBI:67265 ! beta-diketone
 is_a: CHEBI:78802 ! diarylheptanoid
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:25212 ! metabolite
 relationship: has_role CHEBI:26130 ! biological pigment
 relationship: has_role CHEBI:35610 ! antineoplastic agent
@@ -75528,6 +75893,7 @@ name: cyclosporin A
 subset: chebi_ph7_3
 is_a: CHEBI:24613 ! homodetic cyclic peptide
 relationship: has_role CHEBI:149553 ! anticoronaviral agent
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:25212 ! metabolite
 relationship: has_role CHEBI:35705 ! immunosuppressive agent
 relationship: has_role CHEBI:35718 ! antifungal agent
@@ -75772,6 +76138,7 @@ name: mercaptoethanol
 subset: chebi_ph7_3
 is_a: CHEBI:15734 ! primary alcohol
 is_a: CHEBI:47908 ! alkanethiol
+relationship: has_role CHEBI:176497 ! geroprotector
 
 [Term]
 id: CHEBI:41237
@@ -75889,6 +76256,7 @@ relationship: has_role CHEBI:25747 ! oxidized luciferins
 id: CHEBI:41509
 name: cholesteryl linoleate
 subset: chebi_ph7_3
+is_a: CHEBI:183799 ! CE(18:2)
 is_a: CHEBI:46903 ! cholesteryl octadeca-9,12-dienoate
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -76033,6 +76401,7 @@ is_a: CHEBI:86987 ! diacylglycerol 36:0
 [Term]
 id: CHEBI:41865
 name: sebacic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:28383 ! alpha,omega-dicarboxylic acid
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -76128,6 +76497,7 @@ is_a: CHEBI:64678 ! anthracycline cation
 id: CHEBI:42017
 name: 2,4-dinitrophenol
 is_a: CHEBI:39352 ! dinitrophenol
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:48218 ! antiseptic drug
 relationship: has_role CHEBI:50904 ! allergen
 relationship: has_role CHEBI:73267 ! oxidative phosphorylation inhibitor
@@ -76214,6 +76584,7 @@ is_a: CHEBI:31577 ! ethylenediamine derivative
 is_a: CHEBI:35742 ! tetracarboxylic acid
 is_a: CHEBI:60892 ! polyamino carboxylic acid
 relationship: has_role CHEBI:166831 ! copper chelator
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:38161 ! chelator
 relationship: has_role CHEBI:50247 ! antidote
 relationship: has_role CHEBI:50249 ! anticoagulant
@@ -76514,9 +76885,9 @@ is_a: CHEBI:48526 ! hydratropic acid
 
 [Term]
 id: CHEBI:43056
-name: L-gamma-glutamyl-S-nitroso-D-cysteinylglycine(2-)
+name: S-nitrosoglutathione(2-)
 subset: chebi_ph7_3
-is_a: CHEBI:24337 ! glutathione derivative
+is_a: CHEBI:60334 ! peptide anion
 
 [Term]
 id: CHEBI:43065
@@ -76806,7 +77177,7 @@ is_a: CHEBI:46874 ! alpha-amino acid ester
 [Term]
 id: CHEBI:44089
 name: (2S)-2-methyltetradecanoyl-CoA
-is_a: CHEBI:15450 ! (2R)-2-methylacyl-CoA
+is_a: CHEBI:15451 ! (2S)-2-methylacyl-CoA
 is_a: CHEBI:33184 ! long-chain fatty acyl-CoA
 
 [Term]
@@ -76852,6 +77223,7 @@ is_a: CHEBI:24433 ! group
 id: CHEBI:44215
 name: NAD zwitterion
 is_a: CHEBI:13389 ! NAD
+relationship: has_role CHEBI:176497 ! geroprotector
 
 [Term]
 id: CHEBI:44219
@@ -77626,6 +77998,9 @@ name: trichostatin A
 subset: chebi_ph7_3
 is_a: CHEBI:24650 ! hydroxamic acid
 is_a: CHEBI:39146 ! trichostatin
+is_a: CHEBI:86478 ! antibiotic antifungal agent
+relationship: has_role CHEBI:176497 ! geroprotector
+relationship: has_role CHEBI:61115 ! EC 3.5.1.98 (histone deacetylase) inhibitor
 relationship: has_role CHEBI:76969 ! bacterial metabolite
 
 [Term]
@@ -77672,6 +78047,7 @@ subset: chebi_ph7_3
 is_a: CHEBI:22160 ! acetamides
 is_a: CHEBI:33853 ! phenols
 relationship: has_role CHEBI:173085 ! ferroptosis inducer
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:35475 ! non-steroidal anti-inflammatory drug
 relationship: has_role CHEBI:35481 ! non-narcotic analgesic
 relationship: has_role CHEBI:35493 ! antipyretic
@@ -77781,7 +78157,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
 id: CHEBI:46430
-name: (-)-alpha-tocopherol
+name: (S,S,S)-alpha-tocopherol
 subset: chebi_ph7_3
 is_a: CHEBI:22470 ! alpha-tocopherol
 
@@ -78011,6 +78387,7 @@ is_a: CHEBI:33716 ! N-terminal proteinogenic amino-acid residue
 [Term]
 id: CHEBI:4676
 name: dodecanedioic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:28383 ! alpha,omega-dicarboxylic acid
 relationship: has_role CHEBI:50269 ! EC 1.1.1.1 (alcohol dehydrogenase) inhibitor
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -78324,6 +78701,7 @@ is_a: CHEBI:46895 ! lipopeptide
 id: CHEBI:46898
 name: cholesteryl oleate
 subset: chebi_ph7_3
+is_a: CHEBI:183800 ! CE(18:1)
 is_a: CHEBI:46900 ! cholesteryl octadec-9-enoate
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
@@ -78352,6 +78730,7 @@ id: CHEBI:46905
 name: (R)-pantothenic acid
 is_a: CHEBI:176840 ! vitamin B5
 is_a: CHEBI:7916 ! pantothenic acid
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:74530 ! antidote to curare poisoning
 relationship: has_role CHEBI:85234 ! human blood serum metabolite
 
@@ -78916,6 +79295,7 @@ id: CHEBI:47771
 name: beta-tocopherol
 subset: chebi_ph7_3
 is_a: CHEBI:27013 ! tocopherol
+is_a: CHEBI:33234 ! vitamin E
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:78295 ! food component
 
@@ -78924,6 +79304,7 @@ id: CHEBI:47772
 name: delta-tocopherol
 subset: chebi_ph7_3
 is_a: CHEBI:27013 ! tocopherol
+is_a: CHEBI:33234 ! vitamin E
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:77962 ! food antioxidant
 
@@ -79582,6 +79963,7 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 id: CHEBI:47977
 name: 2-amino-2-deoxy-D-glucopyranose
 is_a: CHEBI:17315 ! D-glucosamine
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
@@ -79789,10 +80171,12 @@ subset: chebi_ph7_3
 is_a: CHEBI:26195 ! polyphenol
 is_a: CHEBI:37576 ! gallate ester
 is_a: CHEBI:38672 ! flavans
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:22586 ! antioxidant
 relationship: has_role CHEBI:35610 ! antineoplastic agent
 relationship: has_role CHEBI:63726 ! neuroprotective agent
 relationship: has_role CHEBI:63962 ! Hsp90 inhibitor
+relationship: has_role CHEBI:68495 ! apoptosis inducer
 relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
@@ -79941,6 +80325,7 @@ is_a: CHEBI:36141 ! quinone
 [Term]
 id: CHEBI:48131
 name: nonanedioic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:28383 ! alpha,omega-dicarboxylic acid
 relationship: has_role CHEBI:33282 ! antibacterial agent
 relationship: has_role CHEBI:35610 ! antineoplastic agent
@@ -81512,11 +81897,13 @@ relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 id: CHEBI:49075
 name: 2-formylglutaric acid
 is_a: CHEBI:17478 ! aldehyde
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:35692 ! dicarboxylic acid
 
 [Term]
 id: CHEBI:49077
 name: 2-hydroxymethylglutaric acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:35692 ! dicarboxylic acid
 
 [Term]
@@ -82496,6 +82883,7 @@ is_a: CHEBI:23135 ! chlorobenzophenone
 is_a: CHEBI:35618 ! aromatic ether
 is_a: CHEBI:35725 ! isopropyl ester
 is_a: CHEBI:83403 ! monochlorobenzenes
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:35679 ! antilipemic drug
 relationship: has_role CHEBI:35703 ! xenobiotic
 relationship: has_role CHEBI:78298 ! environmental contaminant
@@ -82867,6 +83255,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:50160
 name: steroid acid anion
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:29067 ! carboxylic acid anion
 
 [Term]
@@ -83527,6 +83916,7 @@ is_a: CHEBI:48873 ! cholinergic antagonist
 id: CHEBI:50371
 name: (R)-rosmarinic acid
 is_a: CHEBI:17226 ! rosmarinic acid
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
@@ -84224,6 +84614,7 @@ name: minocycline
 is_a: CHEBI:139592 ! tertiary alpha-hydroxy ketone
 is_a: CHEBI:26895 ! tetracyclines
 is_a: CHEBI:48132 ! tetracenomycin
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:36047 ! antibacterial drug
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
@@ -84528,6 +84919,7 @@ is_a: CHEBI:83822 ! non-proteinogenic L-alpha-amino acid
 [Term]
 id: CHEBI:50793
 name: 2-methyl-3-oxosuccinic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:28383 ! alpha,omega-dicarboxylic acid
 
 [Term]
@@ -85969,8 +86361,13 @@ is_a: CHEBI:18946 ! delta-lactone
 is_a: CHEBI:38164 ! organic heteropentacyclic compound
 is_a: CHEBI:3992 ! cyclic ketone
 is_a: CHEBI:47622 ! acetate ester
+relationship: has_role CHEBI:132992 ! radiosensitizing agent
 relationship: has_role CHEBI:149553 ! anticoronaviral agent
+relationship: has_role CHEBI:176497 ! geroprotector
+relationship: has_role CHEBI:35610 ! antineoplastic agent
 relationship: has_role CHEBI:50914 ! EC 2.7.1.137 (phosphatidylinositol 3-kinase) inhibitor
+relationship: has_role CHEBI:76964 ! Penicillium metabolite
+relationship: has_role CHEBI:88230 ! autophagy inhibitor
 
 [Term]
 id: CHEBI:52290
@@ -87400,7 +87797,7 @@ is_a: CHEBI:24864 ! iodothyronine
 
 [Term]
 id: CHEBI:53604
-name: N-acetyl-alpha-D-galactosaminyl-L-serine residue
+name: O-(N-acetyl-alpha-D-galactosaminyl)-L-serine residue
 subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 relationship: has_role CHEBI:53000 ! epitope
@@ -87410,12 +87807,14 @@ id: CHEBI:53608
 name: O-(N-acetyl-alpha-D-galactosaminyl)-L-serine
 is_a: CHEBI:83822 ! non-proteinogenic L-alpha-amino acid
 is_a: CHEBI:84135 ! L-serine derivative
+relationship: has_role CHEBI:144829 ! tumour antigen
 
 [Term]
 id: CHEBI:53609
 name: O-(N-acetyl-alpha-D-galactosaminyl)-L-threonine
 is_a: CHEBI:83822 ! non-proteinogenic L-alpha-amino acid
 is_a: CHEBI:84189 ! L-threonine derivative
+relationship: has_role CHEBI:144829 ! tumour antigen
 
 [Term]
 id: CHEBI:53628
@@ -88436,6 +88835,7 @@ id: CHEBI:57292
 name: succinyl-CoA(5-)
 subset: chebi_ph7_3
 is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -88573,13 +88973,13 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:57313
 name: (2R)-2-methylacyl-CoA(4-)
 subset: chebi_ph7_3
-is_a: CHEBI:58342 ! acyl-CoA(4-)
+is_a: CHEBI:183510 ! 2-methylacyl-CoA(4-)
 
 [Term]
 id: CHEBI:57314
 name: (2S)-2-methylacyl-CoA(4-)
 subset: chebi_ph7_3
-is_a: CHEBI:58342 ! acyl-CoA(4-)
+is_a: CHEBI:183510 ! 2-methylacyl-CoA(4-)
 
 [Term]
 id: CHEBI:57315
@@ -88725,7 +89125,8 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:57336
 name: 2-methylbutanoyl-CoA(4-)
 subset: chebi_ph7_3
-is_a: CHEBI:58342 ! acyl-CoA(4-)
+is_a: CHEBI:137040 ! short chain fatty acyl-CoA(4-)
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -88739,7 +89140,8 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:57338
 name: isobutyryl-CoA(4-)
 subset: chebi_ph7_3
-is_a: CHEBI:58342 ! acyl-CoA(4-)
+is_a: CHEBI:137040 ! short chain fatty acyl-CoA(4-)
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -88760,6 +89162,7 @@ id: CHEBI:57341
 name: 3-hydroxy-3-(4-methylpent-3-en-1-yl)glutaryl-CoA(5-)
 subset: chebi_ph7_3
 is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 
 [Term]
 id: CHEBI:57342
@@ -88772,6 +89175,7 @@ id: CHEBI:57343
 name: 3-hydroxypimeloyl-CoA(5-)
 subset: chebi_ph7_3
 is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 
 [Term]
 id: CHEBI:57344
@@ -88784,13 +89188,14 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:57345
 name: isovaleryl-CoA(4-)
 subset: chebi_ph7_3
-is_a: CHEBI:58342 ! acyl-CoA(4-)
+is_a: CHEBI:137040 ! short chain fatty acyl-CoA(4-)
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
 id: CHEBI:57346
 name: trans-3-methylglutaconyl-CoA(5-)
 subset: chebi_ph7_3
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 is_a: CHEBI:58946 ! acyl-CoA oxoanion
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -88884,6 +89289,7 @@ id: CHEBI:57360
 name: pimeloyl-CoA(5-)
 subset: chebi_ph7_3
 is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 
 [Term]
@@ -89006,6 +89412,7 @@ id: CHEBI:57378
 name: glutaryl-CoA(5-)
 subset: chebi_ph7_3
 is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -92884,6 +93291,7 @@ is_a: CHEBI:33558 ! alpha-amino-acid anion
 id: CHEBI:58021
 name: glucotropeolin(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:183098 ! (Z)-glucosinolate(1-)
 is_a: CHEBI:36452 ! aralkylglucosinolate
 
 [Term]
@@ -95084,7 +95492,7 @@ is_a: CHEBI:76724 ! 2-hydroxyoctadecanoate
 id: CHEBI:58387
 name: 3beta-hydroxy-4beta-methyl-5alpha-cholest-7-ene-4alpha-carboxylate
 subset: chebi_ph7_3
-is_a: CHEBI:50160 ! steroid acid anion
+is_a: CHEBI:136966 ! 3beta-hydroxysteroid-4alpha-carboxylate
 
 [Term]
 id: CHEBI:58388
@@ -96019,7 +96427,7 @@ is_a: CHEBI:25696 ! organic anion
 id: CHEBI:58540
 name: (Kdo)2-lipid A(6-) (E. coli)
 subset: chebi_ph7_3
-is_a: CHEBI:176431 ! an alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-lipid A(6-)
+is_a: CHEBI:176431 ! an alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-(acyl)2-lipid A(6-)
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 is_a: CHEBI:62643 ! anionic phospholipid
 is_a: CHEBI:63551 ! carbohydrate acid derivative anion
@@ -96796,6 +97204,7 @@ id: CHEBI:58692
 name: (R)-2-benzylsuccinate
 subset: chebi_ph7_3
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
+is_a: CHEBI:57621 ! 2-benzylsuccinate(2-)
 
 [Term]
 id: CHEBI:58693
@@ -97920,6 +98329,7 @@ subset: chebi_ph7_3
 is_a: CHEBI:138068 ! ribonucleoside 5'-diphosphate-alpha-D-glucose(2-)
 is_a: CHEBI:140359 ! UDP-monosaccharide(2-)
 is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
+is_a: CHEBI:76533 ! NDP-alpha-D-glucose(2-)
 
 [Term]
 id: CHEBI:58886
@@ -98390,6 +98800,7 @@ is_a: CHEBI:59137 ! (8xi)-cinchonan
 [Term]
 id: CHEBI:59139
 name: gibberellin carboxylic acid anion
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:29067 ! carboxylic acid anion
 
 [Term]
@@ -99007,6 +99418,7 @@ is_a: CHEBI:59258 ! N-hydroxy-alpha-amino-acid anion
 id: CHEBI:59720
 name: HPETE anion
 subset: chebi_ph7_3
+is_a: CHEBI:134019 ! hydroperoxy polyunsaturated fatty acid anion
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:62937 ! icosanoid anion
 is_a: CHEBI:64012 ! hydroperoxy fatty acid anion
@@ -101489,6 +101901,7 @@ id: CHEBI:60909
 name: (S)-ethylmalonyl-CoA(5-)
 subset: chebi_ph7_3
 is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 is_a: CHEBI:29067 ! carboxylic acid anion
 
 [Term]
@@ -101575,8 +101988,8 @@ relationship: has_role CHEBI:26115 ! phytoalexin
 [Term]
 id: CHEBI:60952
 name: diterpene phytoalexin
+is_a: CHEBI:180906 ! terpenoid phytoalexin
 is_a: CHEBI:23849 ! diterpenoid
-relationship: has_role CHEBI:26115 ! phytoalexin
 
 [Term]
 id: CHEBI:60954
@@ -101765,6 +102178,7 @@ is_a: CHEBI:55337 ! all-trans-polyprenyl diphosphate
 [Term]
 id: CHEBI:61015
 name: nephrotoxin
+is_a: CHEBI:50909 ! nephrotoxic agent
 is_a: CHEBI:64909 ! poison
 
 [Term]
@@ -103421,7 +103835,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 id: CHEBI:61679
 name: (-)-endo-alpha-bergamotene
 subset: chebi_ph7_3
-is_a: CHEBI:62755 ! alpha-bergamotene
+is_a: CHEBI:176809 ! cis-alpha-bergamotene
 relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
@@ -103522,7 +103936,7 @@ is_a: CHEBI:90799 ! dipeptide zwitterion
 [Term]
 id: CHEBI:61697
 name: fatty acid derivative
-is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:18059 ! lipid
 
 [Term]
 id: CHEBI:61698
@@ -105727,6 +106141,7 @@ is_a: CHEBI:35757 ! monocarboxylic acid anion
 [Term]
 id: CHEBI:62643
 name: anionic phospholipid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
@@ -106339,6 +106754,7 @@ is_a: CHEBI:63470 ! sulfur-containing amino-acid anion
 [Term]
 id: CHEBI:62937
 name: icosanoid anion
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:29067 ! carboxylic acid anion
 
 [Term]
@@ -106679,6 +107095,7 @@ id: CHEBI:63203
 name: (-)-gamma-cadinene
 subset: chebi_ph7_3
 is_a: CHEBI:138397 ! octahydronaphthalenes
+is_a: CHEBI:180496 ! gamma-cadinene
 is_a: CHEBI:22976 ! cadinene
 relationship: has_role CHEBI:25212 ! metabolite
 
@@ -106687,6 +107104,7 @@ id: CHEBI:63205
 name: (+)-gamma-cadinene
 subset: chebi_ph7_3
 is_a: CHEBI:138397 ! octahydronaphthalenes
+is_a: CHEBI:180496 ! gamma-cadinene
 is_a: CHEBI:22976 ! cadinene
 
 [Term]
@@ -107100,6 +107518,7 @@ is_a: CHEBI:35757 ! monocarboxylic acid anion
 id: CHEBI:63324
 name: (8E,10R,12Z)-10-hydroperoxy-8,12-octadecadienoate
 subset: chebi_ph7_3
+is_a: CHEBI:131862 ! HPODE(1-)
 is_a: CHEBI:134019 ! hydroperoxy polyunsaturated fatty acid anion
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:64012 ! hydroperoxy fatty acid anion
@@ -107808,6 +108227,7 @@ is_a: CHEBI:36275 ! HETE
 id: CHEBI:63580
 name: ribavirin
 subset: chebi_ph7_3
+is_a: CHEBI:140324 ! primary carboxamide
 is_a: CHEBI:29347 ! monocarboxylic acid amide
 is_a: CHEBI:62733 ! aromatic amide
 is_a: CHEBI:63594 ! 1-ribosyltriazole
@@ -108783,6 +109203,7 @@ is_a: CHEBI:76807 ! EC 3.5.1.* (non-peptide linear amide C-N hydrolase) inhibito
 [Term]
 id: CHEBI:64037
 name: (2E,4Z)-2-hydroxymuconic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:24553 ! hexadienedioic acid
 is_a: CHEBI:50263 ! 2-hydroxydicarboxylic acid
 
@@ -114195,11 +114616,7 @@ is_a: CHEBI:58946 ! acyl-CoA oxoanion
 id: CHEBI:67262
 name: dihydrocurcumin
 subset: chebi_ph7_3
-is_a: CHEBI:26195 ! polyphenol
-is_a: CHEBI:51689 ! enone
-is_a: CHEBI:67265 ! beta-diketone
-is_a: CHEBI:78802 ! diarylheptanoid
-relationship: has_role CHEBI:25212 ! metabolite
+is_a: CHEBI:176657 ! 1,7-bis(4-hydroxy-3-methoxyphenyl)hept-1-ene-3,5-dione
 
 [Term]
 id: CHEBI:67263
@@ -114393,7 +114810,7 @@ is_a: CHEBI:38179 ! monocyclic heteroarene
 [Term]
 id: CHEBI:68458
 name: multi-methyl-branched fatty acyl-CoA(4-)
-is_a: CHEBI:77636 ! fatty acyl-CoA(4-)
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 
 [Term]
 id: CHEBI:68464
@@ -115496,6 +115913,7 @@ is_a: CHEBI:78122 ! fatty acid anion 15:0
 id: CHEBI:70827
 name: isopentadecanoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:65111 ! 3-substituted propionyl-CoA(4-)
 is_a: CHEBI:77332 ! saturated fatty acyl-CoA(4-)
 is_a: CHEBI:83139 ! long-chain fatty acyl-CoA(4-)
@@ -115677,6 +116095,11 @@ id: CHEBI:70980
 name: (R)-lactoyl-CoA(4-)
 subset: chebi_ph7_3
 is_a: CHEBI:57382 ! lactoyl-CoA(4-)
+
+[Term]
+id: CHEBI:70982
+name: reactive oxygen species generator
+is_a: CHEBI:51086 ! chemical role
 
 [Term]
 id: CHEBI:70983
@@ -116482,6 +116905,7 @@ is_a: CHEBI:58856 ! 2,3-trans-enoyl CoA(4-)
 id: CHEBI:71427
 name: isotridecanoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:77332 ! saturated fatty acyl-CoA(4-)
 is_a: CHEBI:83139 ! long-chain fatty acyl-CoA(4-)
 is_a: CHEBI:90546 ! medium-chain fatty acyl-CoA(4-)
@@ -116496,12 +116920,14 @@ id: CHEBI:71430
 name: 3-oxoisopentadecanoyl-CoA(4-)
 subset: chebi_ph7_3
 is_a: CHEBI:136758 ! long-chain 3-oxo-fatty acyl-CoA(4-)
+is_a: CHEBI:183086 ! (omega-1)-methyl-3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
 
 [Term]
 id: CHEBI:71435
 name: 3-hydroxyisopentadecanoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:65102 ! 3-hydroxy fatty acyl-CoA(4-)
 is_a: CHEBI:83139 ! long-chain fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
@@ -116532,12 +116958,14 @@ id: CHEBI:71445
 name: 3-oxoisoheptadecanoyl-CoA(4-)
 subset: chebi_ph7_3
 is_a: CHEBI:136758 ! long-chain 3-oxo-fatty acyl-CoA(4-)
+is_a: CHEBI:183086 ! (omega-1)-methyl-3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
 
 [Term]
 id: CHEBI:71446
 name: 3-hydroxyisoheptadecanoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:65102 ! 3-hydroxy fatty acyl-CoA(4-)
 is_a: CHEBI:83139 ! long-chain fatty acyl-CoA(4-)
 
@@ -116582,12 +117010,14 @@ is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
 id: CHEBI:71460
 name: (E)-isopentadec-2-enoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:58856 ! 2,3-trans-enoyl CoA(4-)
 
 [Term]
 id: CHEBI:71461
 name: isoheptadecanoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:65111 ! 3-substituted propionyl-CoA(4-)
 is_a: CHEBI:77332 ! saturated fatty acyl-CoA(4-)
 is_a: CHEBI:83139 ! long-chain fatty acyl-CoA(4-)
@@ -116596,6 +117026,7 @@ is_a: CHEBI:83139 ! long-chain fatty acyl-CoA(4-)
 id: CHEBI:71462
 name: (E)-isoheptadec-2-enoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:58856 ! 2,3-trans-enoyl CoA(4-)
 
 [Term]
@@ -116627,6 +117058,7 @@ subset: chebi_ph7_3
 is_a: CHEBI:134158 ! N-acylethanolamine 18:1
 is_a: CHEBI:15897 ! N-(long-chain-acyl)ethanolamine
 is_a: CHEBI:67197 ! endocannabinoid
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:70782 ! PPARalpha agonist
 relationship: has_role CHEBI:71551 ! EC 3.5.1.23 (ceramidase) inhibitor
 
@@ -116948,7 +117380,7 @@ is_a: CHEBI:26228 ! precorrin
 id: CHEBI:71567
 name: (25S)-cholestenoate
 subset: chebi_ph7_3
-is_a: CHEBI:50160 ! steroid acid anion
+is_a: CHEBI:84146 ! 3beta-hydroxycholest-5-en-26-oate
 
 [Term]
 id: CHEBI:71570
@@ -117113,11 +117545,7 @@ is_a: CHEBI:78686 ! Delta(4)-dafachronic acid
 [Term]
 id: CHEBI:71616
 name: (25S)-cholestenoic acid
-is_a: CHEBI:1722 ! 3beta-hydroxy-Delta(5)-steroid
-is_a: CHEBI:25384 ! monocarboxylic acid
-is_a: CHEBI:35348 ! 3beta-sterol
-is_a: CHEBI:47891 ! steroid acid
-is_a: CHEBI:50401 ! cholestanoid
+is_a: CHEBI:81014 ! 3beta-hydroxycholest-5-en-26-oic acid
 
 [Term]
 id: CHEBI:71618
@@ -119225,6 +119653,7 @@ is_a: CHEBI:25384 ! monocarboxylic acid
 [Term]
 id: CHEBI:73089
 name: 4-hydroxy-2-oxoheptanedioic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:36145 ! oxo dicarboxylic acid
 
 [Term]
@@ -120184,6 +120613,7 @@ is_a: CHEBI:35692 ! dicarboxylic acid
 [Term]
 id: CHEBI:73722
 name: hexadecanedioic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:28383 ! alpha,omega-dicarboxylic acid
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -121270,6 +121700,7 @@ is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 [Term]
 id: CHEBI:741548
 name: ethylmalonic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:35692 ! dicarboxylic acid
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -123655,6 +124086,26 @@ name: EC 3.4.23.46 (memapsin 2) inhibitor
 is_a: CHEBI:76885 ! EC 3.4.23.* (aspartic endopeptidase) inhibitor
 
 [Term]
+id: CHEBI:74926
+name: patulin
+subset: chebi_ph7_3
+is_a: CHEBI:37581 ! gamma-lactone
+is_a: CHEBI:38131 ! lactol
+is_a: CHEBI:74927 ! furopyran
+relationship: has_role CHEBI:25435 ! mutagen
+relationship: has_role CHEBI:25442 ! mycotoxin
+relationship: has_role CHEBI:33281 ! antimicrobial agent
+relationship: has_role CHEBI:50903 ! carcinogenic agent
+relationship: has_role CHEBI:76956 ! Aspergillus metabolite
+relationship: has_role CHEBI:76964 ! Penicillium metabolite
+
+[Term]
+id: CHEBI:74927
+name: furopyran
+is_a: CHEBI:27171 ! organic heterobicyclic compound
+is_a: CHEBI:38104 ! oxacycle
+
+[Term]
 id: CHEBI:74928
 name: 1-oleoyl-2-arachidonoyl-sn-glycero-3-phosphate(2-)
 subset: chebi_ph7_3
@@ -124866,6 +125317,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 id: CHEBI:75346
 name: (8E,10S,12Z)-10-hydroperoxyoctadeca-8,12-dienoate
 subset: chebi_ph7_3
+is_a: CHEBI:131862 ! HPODE(1-)
 is_a: CHEBI:134019 ! hydroperoxy polyunsaturated fatty acid anion
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:64012 ! hydroperoxy fatty acid anion
@@ -125577,12 +126029,14 @@ id: CHEBI:75635
 name: mesaconyl-CoA(5-)
 subset: chebi_ph7_3
 is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 
 [Term]
 id: CHEBI:75636
 name: 3-methylfumaryl-CoA(5-)
 subset: chebi_ph7_3
 is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 
 [Term]
 id: CHEBI:75637
@@ -125759,7 +126213,7 @@ id: CHEBI:75769
 name: B vitamin
 is_a: CHEBI:35352 ! organonitrogen compound
 is_a: CHEBI:36963 ! organooxygen compound
-relationship: has_role CHEBI:27314 ! water-soluble vitamin
+relationship: has_role CHEBI:27314 ! water-soluble vitamin (role)
 relationship: has_role CHEBI:50733 ! nutraceutical
 
 [Term]
@@ -127096,6 +127550,7 @@ is_a: CHEBI:59835 ! hydroxy fatty acid anion
 [Term]
 id: CHEBI:76308
 name: tetradecanedioic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:28383 ! alpha,omega-dicarboxylic acid
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -127128,18 +127583,21 @@ id: CHEBI:76315
 name: dodecanedioyl-CoA(5-)
 subset: chebi_ph7_3
 is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 
 [Term]
 id: CHEBI:76316
 name: decanedioyl-CoA(5-)
 subset: chebi_ph7_3
 is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 
 [Term]
 id: CHEBI:76317
 name: octanedioyl-CoA(5-)
 subset: chebi_ph7_3
 is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 
 [Term]
 id: CHEBI:76318
@@ -127151,6 +127609,7 @@ is_a: CHEBI:76328 ! omega-oxo fatty acid
 [Term]
 id: CHEBI:76319
 name: docosanedioic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:28383 ! alpha,omega-dicarboxylic acid
 relationship: has_role CHEBI:25212 ! metabolite
 
@@ -127172,6 +127631,7 @@ id: CHEBI:76327
 name: adipoyl-CoA(5-)
 subset: chebi_ph7_3
 is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 
 [Term]
 id: CHEBI:76328
@@ -127201,6 +127661,7 @@ is_a: CHEBI:58946 ! acyl-CoA oxoanion
 [Term]
 id: CHEBI:76334
 name: hexacosanedioic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:28383 ! alpha,omega-dicarboxylic acid
 
 [Term]
@@ -127313,6 +127774,7 @@ name: (R)-3-hydroxystearoyl-CoA(4-)
 subset: chebi_ph7_3
 is_a: CHEBI:57319 ! (R)-3-hydroxyacyl-CoA(4-)
 is_a: CHEBI:65102 ! 3-hydroxy fatty acyl-CoA(4-)
+is_a: CHEBI:71408 ! 3-hydroxyoctadecanoyl-CoA(4-)
 is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
 
 [Term]
@@ -129865,6 +130327,7 @@ is_a: CHEBI:76328 ! omega-oxo fatty acid
 [Term]
 id: CHEBI:76966
 name: (5Z,8Z,11Z,14Z)-icosatetraenedioic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:28383 ! alpha,omega-dicarboxylic acid
 is_a: CHEBI:36046 ! icosatetraenedioic acid
 
@@ -132276,7 +132739,6 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 id: CHEBI:77636
 name: fatty acyl-CoA(4-)
 subset: chebi_ph7_3
-is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:58342 ! acyl-CoA(4-)
 
 [Term]
@@ -140811,6 +141273,7 @@ is_a: CHEBI:35342 ! 17alpha-hydroxy steroid
 is_a: CHEBI:35344 ! 21-hydroxy steroid
 is_a: CHEBI:36885 ! 20-oxo steroid
 is_a: CHEBI:47787 ! 11-oxo steroid
+is_a: CHEBI:61313 ! C21-steroid
 is_a: CHEBI:77166 ! 3-oxo-Delta(1),Delta(4)-steroid
 relationship: has_role CHEBI:35472 ! anti-inflammatory drug
 relationship: has_role CHEBI:35610 ! antineoplastic agent
@@ -141155,7 +141618,7 @@ is_a: CHEBI:83812 ! non-proteinogenic amino acid derivative
 id: CHEBI:83968
 name: 3-methyl fatty acyl-CoA(4-)
 subset: chebi_ph7_3
-is_a: CHEBI:77636 ! fatty acyl-CoA(4-)
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 
 [Term]
 id: CHEBI:83969
@@ -141731,6 +142194,7 @@ is_a: CHEBI:134615 ! hydroperoxyoctadecatrienoic acid
 id: CHEBI:84181
 name: 12-methyloctadecanoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:77332 ! saturated fatty acyl-CoA(4-)
 is_a: CHEBI:83139 ! long-chain fatty acyl-CoA(4-)
 
@@ -141738,6 +142202,7 @@ is_a: CHEBI:83139 ! long-chain fatty acyl-CoA(4-)
 id: CHEBI:84182
 name: 2-methylhexadecanoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:77332 ! saturated fatty acyl-CoA(4-)
 is_a: CHEBI:83139 ! long-chain fatty acyl-CoA(4-)
 
@@ -141815,7 +142280,7 @@ is_a: CHEBI:27164 ! tryptophan derivative
 id: CHEBI:84195
 name: isomyristoyl-CoA(4-)
 subset: chebi_ph7_3
-is_a: CHEBI:25271 ! methyl-branched fatty acyl-CoA
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:83139 ! long-chain fatty acyl-CoA(4-)
 
 [Term]
@@ -144425,6 +144890,7 @@ id: CHEBI:85316
 name: (R)-ethylmalonyl-CoA(5-)
 subset: chebi_ph7_3
 is_a: CHEBI:133241 ! omega-carboxyacyl-CoA(5-)
+is_a: CHEBI:177898 ! omega-carboxy-(fatty acyl)-CoA(5-)
 is_a: CHEBI:29067 ! carboxylic acid anion
 
 [Term]
@@ -146242,6 +146708,7 @@ is_a: CHEBI:90546 ! medium-chain fatty acyl-CoA(4-)
 id: CHEBI:86042
 name: 2-methyl-3-oxopalmitoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 is_a: CHEBI:83139 ! long-chain fatty acyl-CoA(4-)
 
@@ -147542,6 +148009,7 @@ id: CHEBI:87075
 name: O-(N-acetyl-alpha-D-galactosaminyl)-L-threonine residue
 subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
+relationship: has_role CHEBI:53000 ! epitope
 
 [Term]
 id: CHEBI:87079
@@ -147634,12 +148102,14 @@ relationship: has_role CHEBI:24127 ! fungicide
 id: CHEBI:87119
 name: (R)-2-hydroxy-4-methylpentanoyl-CoA(4-)
 subset: chebi_ph7_3
-is_a: CHEBI:77636 ! fatty acyl-CoA(4-)
+is_a: CHEBI:157766 ! 2-hydroxy-fatty acyl-CoA(4-)
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 
 [Term]
 id: CHEBI:87120
 name: 4-methylpent-2-enoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:77331 ! monounsaturated fatty acyl-CoA(4-)
 
 [Term]
@@ -147933,7 +148403,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:87287
 name: 4beta-methylzymosterol-4-carbaldehyde
 subset: chebi_ph7_3
-is_a: CHEBI:131565 ! steroid aldehyde
+is_a: CHEBI:145954 ! 4alpha-formyl steroid
 is_a: CHEBI:35348 ! 3beta-sterol
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -148236,6 +148706,7 @@ relationship: has_role CHEBI:83399 ! marine xenobiotic metabolite
 id: CHEBI:87598
 name: 7alpha-hydroxyestradiol
 subset: chebi_ph7_3
+is_a: CHEBI:177917 ! phenolic steroid
 is_a: CHEBI:33853 ! phenols
 is_a: CHEBI:35343 ! 17beta-hydroxy steroid
 is_a: CHEBI:36834 ! 3-hydroxy steroid
@@ -148246,6 +148717,7 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 id: CHEBI:87602
 name: 4-hydroxyestrone
 subset: chebi_ph7_3
+is_a: CHEBI:177917 ! phenolic steroid
 is_a: CHEBI:18135 ! catechol
 is_a: CHEBI:19168 ! 17-oxo steroid
 is_a: CHEBI:36834 ! 3-hydroxy steroid
@@ -148273,6 +148745,7 @@ is_a: CHEBI:16180 ! N-acylglycine
 id: CHEBI:87618
 name: 15alpha-hydroxyestrone
 subset: chebi_ph7_3
+is_a: CHEBI:177917 ! phenolic steroid
 is_a: CHEBI:19168 ! 17-oxo steroid
 is_a: CHEBI:33853 ! phenols
 is_a: CHEBI:36834 ! 3-hydroxy steroid
@@ -148285,6 +148758,7 @@ id: CHEBI:87620
 name: 16beta-hydroxyestradiol
 subset: chebi_ph7_3
 is_a: CHEBI:17354 ! 16beta-hydroxy steroid
+is_a: CHEBI:177917 ! phenolic steroid
 is_a: CHEBI:33853 ! phenols
 is_a: CHEBI:35343 ! 17beta-hydroxy steroid
 is_a: CHEBI:36834 ! 3-hydroxy steroid
@@ -148596,11 +149070,13 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:87771
 name: (2Z,4Z)-2-hydroxyhepta-2,4-dienedioic acid
 is_a: CHEBI:134531 ! polyunsaturated dicarboxylic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:33823 ! enol
 
 [Term]
 id: CHEBI:87772
 name: (4Z)-2-oxohept-4-enedioic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:36145 ! oxo dicarboxylic acid
 is_a: CHEBI:78840 ! olefinic compound
 
@@ -148720,7 +149196,6 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 id: CHEBI:87808
 name: 2-ethylhexyl sulfate(1-)
 subset: chebi_ph7_3
-is_a: CHEBI:157685 ! primary alkyl sulfate ester(1-)
 is_a: CHEBI:58958 ! organosulfate oxoanion
 
 [Term]
@@ -149484,6 +149959,7 @@ id: CHEBI:88154
 name: alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide
 subset: chebi_ph7_3
 is_a: CHEBI:36508 ! glycotriaosylceramide
+is_a: CHEBI:61360 ! globoside
 
 [Term]
 id: CHEBI:88155
@@ -150268,12 +150744,13 @@ is_a: CHEBI:78445 ! alpha-N-acetylneuraminosyl-(2->3)-beta-D-galactosyl-(1->3)-N
 id: CHEBI:90156
 name: 2-methylhexanoyl-CoA(4-)
 subset: chebi_ph7_3
-is_a: CHEBI:77636 ! fatty acyl-CoA(4-)
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 
 [Term]
 id: CHEBI:90157
 name: 2-methylhexenoyl-CoA(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:77331 ! monounsaturated fatty acyl-CoA(4-)
 is_a: CHEBI:88148 ! 2,3-saturated fatty acyl-CoA(4-)
 is_a: CHEBI:90546 ! medium-chain fatty acyl-CoA(4-)
@@ -150673,6 +151150,7 @@ id: CHEBI:90400
 name: alpha-D-GalNAc-(1->3)-beta-D-GalNAc-(1->3)-alpha-D-Gal-(1->4)-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer
 subset: chebi_ph7_3
 is_a: CHEBI:23073 ! glycopentaosylceramide
+is_a: CHEBI:61360 ! globoside
 
 [Term]
 id: CHEBI:90409
@@ -152874,6 +153352,7 @@ is_a: CHEBI:18946 ! delta-lactone
 is_a: CHEBI:35748 ! fatty acid ester
 is_a: CHEBI:87633 ! statin (semi-synthetic)
 relationship: has_role CHEBI:173085 ! ferroptosis inducer
+relationship: has_role CHEBI:176497 ! geroprotector
 relationship: has_role CHEBI:35664 ! EC 1.1.1.34/EC 1.1.1.88 (hydroxymethylglutaryl-CoA reductase) inhibitor
 relationship: has_role CHEBI:50266 ! prodrug
 relationship: has_role CHEBI:77255 ! EC 3.4.24.83 (anthrax lethal factor endopeptidase) inhibitor
@@ -152936,6 +153415,7 @@ relationship: has_role CHEBI:62915 ! sialyltransferase inhibitor
 [Term]
 id: CHEBI:9300
 name: suberic acid
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:28383 ! alpha,omega-dicarboxylic acid
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -153265,9 +153745,9 @@ is_a: GOCHE:52206 ! substance with biochemical role role
 
 [Term]
 id: GOCHE:24020
-name: substance with fat-soluble vitamin role
+name: substance with fat-soluble vitamin (role) role
 subset: 3_STAR
-is_a: GOCHE:33229 ! substance with vitamin role
+is_a: GOCHE:33229 ! substance with vitamin (role) role
 
 [Term]
 id: GOCHE:24028
@@ -153398,13 +153878,13 @@ is_a: GOCHE:33284 ! substance with nutrient role
 
 [Term]
 id: GOCHE:27314
-name: substance with water-soluble vitamin role
+name: substance with water-soluble vitamin (role) role
 subset: 3_STAR
-is_a: GOCHE:33229 ! substance with vitamin role
+is_a: GOCHE:33229 ! substance with vitamin (role) role
 
 [Term]
 id: GOCHE:33229
-name: substance with vitamin role
+name: substance with vitamin (role) role
 subset: 3_STAR
 is_a: GOCHE:27027 ! substance with micronutrient role
 is_a: GOCHE:52206 ! substance with biochemical role role
