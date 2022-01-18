@@ -918,6 +918,7 @@ relationship: RO:0002162 NCBITaxon:147537 ! in taxon Saccharomycotina
 id: NCBITaxon:147538
 name: Pezizomycotina
 synonym: "Euascomycota" RELATED []
+synonym: "filamentous ascomycetes" EXACT []
 is_a: NCBITaxon:716545 ! saccharomyceta
 relationship: RO:0002162 NCBITaxon:147538 ! in taxon Pezizomycotina
 
@@ -950,6 +951,7 @@ relationship: RO:0002162 NCBITaxon:147548 ! in taxon Leotiomycetes
 [Term]
 id: NCBITaxon:147550
 name: Sordariomycetes
+synonym: "Pyrenomycetes" RELATED []
 is_a: NCBITaxon:715989 ! sordariomyceta
 relationship: RO:0002162 NCBITaxon:147550 ! in taxon Sordariomycetes
 
@@ -1075,6 +1077,7 @@ relationship: RO:0002162 NCBITaxon:1535325 ! in taxon Candida/Lodderomyces clade
 id: NCBITaxon:1535326
 name: Candida <clade Candida/Lodderomyces clade>
 synonym: "Candida" EXACT []
+synonym: "Torulopsis" RELATED []
 is_a: NCBITaxon:1535325 ! Candida/Lodderomyces clade
 relationship: RO:0002162 NCBITaxon:1535326 ! in taxon Candida <clade Candida/Lodderomyces clade>
 
@@ -1355,11 +1358,9 @@ relationship: RO:0002162 NCBITaxon:173 ! in taxon Leptospira interrogans
 [Term]
 id: NCBITaxon:1760
 name: Actinomycetia
-synonym: "Actinobacteria" RELATED []
 synonym: "Actinomycetes" RELATED []
 synonym: "high G+C Gram-positive bacteria" EXACT []
 synonym: "high GC Gram+" RELATED []
-synonym: "High GC gram-positive bacteria" RELATED []
 is_a: NCBITaxon:201174 ! Actinobacteria
 relationship: RO:0002162 NCBITaxon:1760 ! in taxon Actinomycetia
 
@@ -1555,6 +1556,7 @@ relationship: RO:0002162 NCBITaxon:186634 ! in taxon Otomorpha
 [Term]
 id: NCBITaxon:186801
 name: Clostridia
+synonym: "Natranaerobiia" RELATED []
 is_a: NCBITaxon:1239 ! Firmicutes
 disjoint_from: NCBITaxon:91061 ! Bacilli
 relationship: RO:0002162 NCBITaxon:186801 ! in taxon Clostridia
@@ -1597,7 +1599,13 @@ relationship: RO:0002162 NCBITaxon:187857 ! in taxon Aquificae <class>
 [Term]
 id: NCBITaxon:1883
 name: Streptomyces
+synonym: "\"Microstreptospora\" Yan et al." RELATED []
+synonym: "Actinopycnidium Krasil'nikov 1962" RELATED []
+synonym: "Actinosporangium Krasil'nikov and Yuan 1961" RELATED []
 synonym: "Chainia" RELATED []
+synonym: "Elytrosporangium Falcao de Morais et al. 1966" RELATED []
+synonym: "Kitasatoa Matsumae and Hata 1968" RELATED []
+synonym: "Streptoverticillium Baldacci 1958" RELATED []
 is_a: NCBITaxon:2062 ! Streptomycetaceae
 relationship: RO:0002162 NCBITaxon:1883 ! in taxon Streptomyces
 
@@ -2557,8 +2565,8 @@ relationship: RO:0002162 NCBITaxon:2605435 ! in taxon Evosea
 [Term]
 id: NCBITaxon:261009
 name: Amborellales
-synonym: "ANA grade angiosperms" EXACT []
-synonym: "ANITA grade angiosperms" EXACT []
+synonym: "ANA grade angiosperms" RELATED []
+synonym: "ANITA grade angiosperms" RELATED []
 is_a: NCBITaxon:3398 ! Magnoliopsida
 relationship: RO:0002162 NCBITaxon:261009 ! in taxon Amborellales
 
@@ -3564,6 +3572,7 @@ id: NCBITaxon:33170
 name: Eremothecium
 synonym: "Ashbya" RELATED []
 synonym: "Holleya" RELATED []
+synonym: "Nematospora" RELATED []
 is_a: NCBITaxon:4893 ! Saccharomycetaceae
 disjoint_from: NCBITaxon:4930 ! Saccharomyces
 relationship: RO:0002162 NCBITaxon:33170 ! in taxon Eremothecium
@@ -4042,6 +4051,7 @@ relationship: RO:0002162 NCBITaxon:3701 ! in taxon Arabidopsis
 [Term]
 id: NCBITaxon:3702
 name: Arabidopsis thaliana
+synonym: "Arabis thaliana" RELATED []
 synonym: "mouse-ear cress" EXACT []
 synonym: "thale cress" EXACT []
 synonym: "thale-cress" EXACT []
@@ -5255,6 +5265,7 @@ relationship: RO:0002162 NCBITaxon:5042 ! in taxon Eurotiales
 id: NCBITaxon:5052
 name: Aspergillus
 synonym: "Chaetosartorya" RELATED []
+synonym: "Emericella" RELATED []
 synonym: "Petromyces" RELATED []
 synonym: "Phialosimplex" RELATED []
 synonym: "Polypaecilum" RELATED []
@@ -7241,7 +7252,7 @@ synonym: "Salmonella enterica 1,4,[5],12,:i:1,2" RELATED []
 synonym: "Salmonella enterica ser. typhimurium" RELATED []
 synonym: "Salmonella enterica serotype Typhimurium" RELATED []
 synonym: "Salmonella enterica serovar Typhimurium" RELATED []
-synonym: "Salmonella enterica subsp. enterica serovar 1,4,[5],12,:i:1,2" RELATED []
+synonym: "Salmonella enterica subsp. enterica serovar 1,4,[5],12:i:1,2" RELATED []
 synonym: "Salmonella typhi-murium" RELATED []
 synonym: "Salmonella typhimurium" RELATED []
 is_a: NCBITaxon:59201 ! Salmonella enterica subsp. enterica
@@ -7543,7 +7554,6 @@ relationship: RO:0002162 NCBITaxon:9605 ! in taxon Homo
 id: NCBITaxon:9606
 name: Homo sapiens
 synonym: "human" EXACT []
-synonym: "man" EXACT []
 is_a: NCBITaxon:9605 ! Homo
 relationship: RO:0002162 NCBITaxon:9606 ! in taxon Homo sapiens
 
