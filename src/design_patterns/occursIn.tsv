@@ -127,6 +127,7 @@ http://purl.obolibrary.org/obo/GO_0072667	maintenance of protein location in vac
 http://purl.obolibrary.org/obo/GO_0071990	maintenance of protein location to spindle pole body	http://purl.obolibrary.org/obo/GO_0005816	spindle pole body	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
 http://purl.obolibrary.org/obo/GO_0033024	mast cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000097	mast cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0032762	mast cell cytokine production	http://purl.obolibrary.org/obo/CL_0000097	mast cell	http://purl.obolibrary.org/obo/GO_0001816	cytokine production
+http://purl.obolibrary.org/obo/GO_0071515	mating-type locus imprinting	http://purl.obolibrary.org/obo/GO_0031934	mating-type region heterochromatin	http://purl.obolibrary.org/obo/GO_0031507	heterochromatin assembly
 http://purl.obolibrary.org/obo/GO_0002901	mature B cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000785	mature B cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_1902362	melanocyte apoptotic process	http://purl.obolibrary.org/obo/CL_0000148	melanocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0035266	meristem growth	http://purl.obolibrary.org/obo/PO_0009013	portion of meristem tissue	http://purl.obolibrary.org/obo/GO_0048589	developmental growth
@@ -243,7 +244,7 @@ http://purl.obolibrary.org/obo/GO_0080175	phragmoplast microtubule organization	
 http://purl.obolibrary.org/obo/GO_0042774	plasma membrane ATP synthesis coupled electron transport	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane	http://purl.obolibrary.org/obo/GO_0042773	ATP synthesis coupled electron transport
 http://purl.obolibrary.org/obo/GO_0002470	plasmacytoid dendritic cell antigen processing and presentation	http://purl.obolibrary.org/obo/CL_0000784	plasmacytoid dendritic cell	http://purl.obolibrary.org/obo/GO_0019882	antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_1900160	plastid DNA packaging	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006323	DNA packaging
-http://purl.obolibrary.org/obo/GO_0033259	plastid DNA replication	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006261	DNA-dependent DNA replication
+http://purl.obolibrary.org/obo/GO_0033259	plastid DNA replication	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006261	DNA-templated DNA replication
 http://purl.obolibrary.org/obo/GO_0032544	plastid translation	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006412	translation
 http://purl.obolibrary.org/obo/GO_0002576	platelet degranulation	http://purl.obolibrary.org/obo/CL_0000233	platelet	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
 http://purl.obolibrary.org/obo/GO_0099588	positive regulation of postsynaptic cytosolic calcium concentration	http://purl.obolibrary.org/obo/GO_0098794	postsynapse	http://purl.obolibrary.org/obo/GO_0007204	positive regulation of cytosolic calcium ion concentration

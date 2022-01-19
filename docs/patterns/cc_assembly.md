@@ -30,7 +30,7 @@ TODO
 
 ## Equivalent to
 
-[cellular component assembly](http://purl.obolibrary.org/obo/GO_0022607)  and ([results_in_assembly_of](http://purl.obolibrary.org/obo/RO_0002588) some `{target}`)
+[cellular component assembly](http://purl.obolibrary.org/obo/GO_0022607)  and ([results in assembly of](http://purl.obolibrary.org/obo/RO_0002588) some `{target}`)
 
 
 

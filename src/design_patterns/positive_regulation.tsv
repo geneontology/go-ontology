@@ -103,9 +103,9 @@ http://purl.obolibrary.org/obo/GO_0106253	positive regulation of DNA strand rese
 http://purl.obolibrary.org/obo/GO_2000373	positive regulation of DNA topoisomerase (ATP-hydrolyzing) activity	http://purl.obolibrary.org/obo/GO_0003918	DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity
 http://purl.obolibrary.org/obo/GO_1901972	positive regulation of DNA-5-methylcytosine glycosylase activity	http://purl.obolibrary.org/obo/GO_1990053	DNA-5-methylcytosine glycosylase activity
 http://purl.obolibrary.org/obo/GO_0051091	positive regulation of DNA-binding transcription factor activity	http://purl.obolibrary.org/obo/GO_0003700	DNA-binding transcription factor activity
-http://purl.obolibrary.org/obo/GO_2000105	positive regulation of DNA-dependent DNA replication	http://purl.obolibrary.org/obo/GO_0006261	DNA-dependent DNA replication
-http://purl.obolibrary.org/obo/GO_0032298	positive regulation of DNA-dependent DNA replication initiation	http://purl.obolibrary.org/obo/GO_0006270	DNA replication initiation
 http://purl.obolibrary.org/obo/GO_1900264	positive regulation of DNA-directed DNA polymerase activity	http://purl.obolibrary.org/obo/GO_0003887	DNA-directed DNA polymerase activity
+http://purl.obolibrary.org/obo/GO_2000105	positive regulation of DNA-templated DNA replication	http://purl.obolibrary.org/obo/GO_0006261	DNA-templated DNA replication
+http://purl.obolibrary.org/obo/GO_0032298	positive regulation of DNA-templated DNA replication initiation	http://purl.obolibrary.org/obo/GO_0006270	DNA replication initiation
 http://purl.obolibrary.org/obo/GO_0032786	positive regulation of DNA-templated transcription, elongation	http://purl.obolibrary.org/obo/GO_0006354	DNA-templated transcription, elongation
 http://purl.obolibrary.org/obo/GO_2000144	positive regulation of DNA-templated transcription, initiation	http://purl.obolibrary.org/obo/GO_0006352	DNA-templated transcription, initiation
 http://purl.obolibrary.org/obo/GO_0060566	positive regulation of DNA-templated transcription, termination	http://purl.obolibrary.org/obo/GO_0006353	DNA-templated transcription, termination
@@ -899,7 +899,7 @@ http://purl.obolibrary.org/obo/GO_2000076	positive regulation of cytokinesis, si
 http://purl.obolibrary.org/obo/GO_0080038	positive regulation of cytokinin-activated signaling pathway	http://purl.obolibrary.org/obo/GO_0009736	cytokinin-activated signaling pathway
 http://purl.obolibrary.org/obo/GO_0045919	positive regulation of cytolysis	http://purl.obolibrary.org/obo/GO_0019835	cytolysis
 http://purl.obolibrary.org/obo/GO_0001900	positive regulation of cytolysis by symbiont of host cells	http://purl.obolibrary.org/obo/GO_0001897	cytolysis by symbiont of host cells
-http://purl.obolibrary.org/obo/GO_0051714	positive regulation of cytolysis in other organism	http://purl.obolibrary.org/obo/GO_0051715	cytolysis in other organism
+http://purl.obolibrary.org/obo/GO_0051714	positive regulation of cytolysis in another organism	http://purl.obolibrary.org/obo/GO_0051715	cytolysis in another organism
 http://purl.obolibrary.org/obo/GO_0010606	positive regulation of cytoplasmic mRNA processing body assembly	http://purl.obolibrary.org/obo/GO_0033962	P-body assembly
 http://purl.obolibrary.org/obo/GO_2000767	positive regulation of cytoplasmic translation	http://purl.obolibrary.org/obo/GO_0002181	cytoplasmic translation
 http://purl.obolibrary.org/obo/GO_1900249	positive regulation of cytoplasmic translational elongation	http://purl.obolibrary.org/obo/GO_0002182	cytoplasmic translational elongation
@@ -1398,7 +1398,6 @@ http://purl.obolibrary.org/obo/GO_1905206	positive regulation of hydrogen peroxi
 http://purl.obolibrary.org/obo/GO_1901300	positive regulation of hydrogen peroxide-mediated programmed cell death	http://purl.obolibrary.org/obo/GO_0010421	hydrogen peroxide-mediated programmed cell death
 http://purl.obolibrary.org/obo/GO_1904828	positive regulation of hydrogen sulfide biosynthetic process	http://purl.obolibrary.org/obo/GO_0070814	hydrogen sulfide biosynthetic process
 http://purl.obolibrary.org/obo/GO_0051345	positive regulation of hydrolase activity	http://purl.obolibrary.org/obo/GO_0016787	hydrolase activity
-http://purl.obolibrary.org/obo/GO_1900490	positive regulation of hydroxymethylglutaryl-CoA reductase (NADPH) activity	http://purl.obolibrary.org/obo/GO_0004420	hydroxymethylglutaryl-CoA reductase (NADPH) activity
 http://purl.obolibrary.org/obo/GO_0002885	positive regulation of hypersensitivity	http://purl.obolibrary.org/obo/GO_0002524	hypersensitivity
 http://purl.obolibrary.org/obo/GO_0075189	positive regulation of hyphopodium formation	http://purl.obolibrary.org/obo/GO_0075187	hyphopodium formation
 http://purl.obolibrary.org/obo/GO_0035346	positive regulation of hypoxanthine transport	http://purl.obolibrary.org/obo/GO_0035344	hypoxanthine transport
@@ -1562,7 +1561,7 @@ http://purl.obolibrary.org/obo/GO_0051549	positive regulation of keratinocyte mi
 http://purl.obolibrary.org/obo/GO_0010838	positive regulation of keratinocyte proliferation	http://purl.obolibrary.org/obo/GO_0043616	keratinocyte proliferation
 http://purl.obolibrary.org/obo/GO_0090184	positive regulation of kidney development	http://purl.obolibrary.org/obo/GO_0001822	kidney development
 http://purl.obolibrary.org/obo/GO_2000358	positive regulation of kidney smooth muscle cell differentiation	http://purl.obolibrary.org/obo/GO_0072195	kidney smooth muscle cell differentiation
-http://purl.obolibrary.org/obo/GO_0051712	positive regulation of killing of cells of other organism	http://purl.obolibrary.org/obo/GO_0031640	killing of cells of other organism
+http://purl.obolibrary.org/obo/GO_0051712	positive regulation of killing of cells of another organism	http://purl.obolibrary.org/obo/GO_0031640	killing of cells of another organism
 http://purl.obolibrary.org/obo/GO_0033674	positive regulation of kinase activity	http://purl.obolibrary.org/obo/GO_0016301	kinase activity
 http://purl.obolibrary.org/obo/GO_1905561	positive regulation of kinetochore assembly	http://purl.obolibrary.org/obo/GO_0051382	kinetochore assembly
 http://purl.obolibrary.org/obo/GO_0002258	positive regulation of kinin cascade	http://purl.obolibrary.org/obo/GO_0002254	kinin cascade
@@ -1819,6 +1818,7 @@ http://purl.obolibrary.org/obo/GO_1903870	positive regulation of methylenetetrah
 http://purl.obolibrary.org/obo/GO_0070804	positive regulation of metula development	http://purl.obolibrary.org/obo/GO_0070789	metula development
 http://purl.obolibrary.org/obo/GO_2000627	positive regulation of miRNA catabolic process	http://purl.obolibrary.org/obo/GO_0010587	miRNA catabolic process
 http://purl.obolibrary.org/obo/GO_2000630	positive regulation of miRNA metabolic process	http://purl.obolibrary.org/obo/GO_0010586	miRNA metabolic process
+http://purl.obolibrary.org/obo/GO_1902895	positive regulation of miRNA transcription	http://purl.obolibrary.org/obo/GO_0061614	miRNA transcription
 http://purl.obolibrary.org/obo/GO_1905618	positive regulation of miRNA-mediated gene silencing by inhibition of translation	http://purl.obolibrary.org/obo/GO_0035278	miRNA-mediated gene silencing by inhibition of translation
 http://purl.obolibrary.org/obo/GO_0014008	positive regulation of microglia differentiation	http://purl.obolibrary.org/obo/GO_0014004	microglia differentiation
 http://purl.obolibrary.org/obo/GO_1903980	positive regulation of microglial cell activation	http://purl.obolibrary.org/obo/GO_0001774	microglial cell activation
@@ -2229,6 +2229,7 @@ http://purl.obolibrary.org/obo/GO_0010756	positive regulation of plasminogen act
 http://purl.obolibrary.org/obo/GO_0010572	positive regulation of platelet activation	http://purl.obolibrary.org/obo/GO_0030168	platelet activation
 http://purl.obolibrary.org/obo/GO_1901731	positive regulation of platelet aggregation	http://purl.obolibrary.org/obo/GO_0070527	platelet aggregation
 http://purl.obolibrary.org/obo/GO_1905221	positive regulation of platelet formation	http://purl.obolibrary.org/obo/GO_0030220	platelet formation
+http://purl.obolibrary.org/obo/GO_0160018	positive regulation of platelet rolling	http://purl.obolibrary.org/obo/GO_0160015	platelet rolling
 http://purl.obolibrary.org/obo/GO_0090362	positive regulation of platelet-derived growth factor production	http://purl.obolibrary.org/obo/GO_0090360	platelet-derived growth factor production
 http://purl.obolibrary.org/obo/GO_0010641	positive regulation of platelet-derived growth factor receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0048008	platelet-derived growth factor receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_2000585	positive regulation of platelet-derived growth factor receptor-alpha signaling pathway	http://purl.obolibrary.org/obo/GO_0035790	platelet-derived growth factor receptor-alpha signaling pathway
@@ -2260,7 +2261,6 @@ http://purl.obolibrary.org/obo/GO_0046002	positive regulation of preblastoderm m
 http://purl.obolibrary.org/obo/GO_1905608	positive regulation of presynapse assembly	http://purl.obolibrary.org/obo/GO_0099054	presynapse assembly
 http://purl.obolibrary.org/obo/GO_1905520	positive regulation of presynaptic active zone assembly	http://purl.obolibrary.org/obo/GO_1904071	presynaptic active zone assembly
 http://purl.obolibrary.org/obo/GO_1901631	positive regulation of presynaptic membrane organization	http://purl.obolibrary.org/obo/GO_0097090	presynaptic membrane organization
-http://purl.obolibrary.org/obo/GO_1902895	positive regulation of pri-miRNA transcription by RNA polymerase II	http://purl.obolibrary.org/obo/GO_0061614	pri-miRNA transcription by RNA polymerase II
 http://purl.obolibrary.org/obo/GO_1905758	positive regulation of primary cell septum biogenesis	http://purl.obolibrary.org/obo/GO_0031671	primary cell septum biogenesis
 http://purl.obolibrary.org/obo/GO_2000636	positive regulation of primary miRNA processing	http://purl.obolibrary.org/obo/GO_0031053	primary miRNA processing
 http://purl.obolibrary.org/obo/GO_2000975	positive regulation of pro-B cell differentiation	http://purl.obolibrary.org/obo/GO_0002328	pro-B cell differentiation
@@ -2440,6 +2440,7 @@ http://purl.obolibrary.org/obo/GO_0010845	positive regulation of reciprocal meio
 http://purl.obolibrary.org/obo/GO_1903643	positive regulation of recombination hotspot binding	http://purl.obolibrary.org/obo/GO_0010844	recombination hotspot binding
 http://purl.obolibrary.org/obo/GO_0090228	positive regulation of red or far-red light signaling pathway	http://purl.obolibrary.org/obo/GO_0010017	red or far-red light signaling pathway
 http://purl.obolibrary.org/obo/GO_1903307	positive regulation of regulated secretory pathway	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
+http://purl.obolibrary.org/obo/GO_0140748	positive regulation of regulation of ascospore wall (1->3)-beta-D-glucan biosynthetic process	http://purl.obolibrary.org/obo/GO_0034413	ascospore wall (1->3)-beta-D-glucan biosynthetic process
 http://purl.obolibrary.org/obo/GO_1904199	positive regulation of regulation of vascular associated smooth muscle cell membrane depolarization	http://purl.obolibrary.org/obo/GO_1990736	regulation of vascular associated smooth muscle cell membrane depolarization
 http://purl.obolibrary.org/obo/GO_0045591	positive regulation of regulatory T cell differentiation	http://purl.obolibrary.org/obo/GO_0045066	regulatory T cell differentiation
 http://purl.obolibrary.org/obo/GO_1901899	positive regulation of relaxation of cardiac muscle	http://purl.obolibrary.org/obo/GO_0055119	relaxation of cardiac muscle
@@ -2598,7 +2599,6 @@ http://purl.obolibrary.org/obo/GO_0043415	positive regulation of skeletal muscle
 http://purl.obolibrary.org/obo/GO_0031451	positive regulation of slow-twitch skeletal muscle fiber contraction	http://purl.obolibrary.org/obo/GO_0031444	slow-twitch skeletal muscle fiber contraction
 http://purl.obolibrary.org/obo/GO_1904477	positive regulation of small GTPase binding	http://purl.obolibrary.org/obo/GO_0031267	small GTPase binding
 http://purl.obolibrary.org/obo/GO_0051057	positive regulation of small GTPase mediated signal transduction	http://purl.obolibrary.org/obo/GO_0007264	small GTPase mediated signal transduction
-http://purl.obolibrary.org/obo/GO_0106161	positive regulation of small RNA loading onto RISC	http://purl.obolibrary.org/obo/GO_0070922	small RNA loading onto RISC
 http://purl.obolibrary.org/obo/GO_0120058	positive regulation of small intestinal transit	http://purl.obolibrary.org/obo/GO_0120055	small intestinal transit
 http://purl.obolibrary.org/obo/GO_1904349	positive regulation of small intestine smooth muscle contraction	http://purl.obolibrary.org/obo/GO_1990770	small intestine smooth muscle contraction
 http://purl.obolibrary.org/obo/GO_0062013	positive regulation of small molecule metabolic process	http://purl.obolibrary.org/obo/GO_0044281	small molecule metabolic process
