@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO
+This pattern is for classes representing metabolic processes differentiated by their primary inputs or primary outputs.
 
 
 
