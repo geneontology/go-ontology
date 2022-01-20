@@ -60,6 +60,7 @@ http://purl.obolibrary.org/obo/GO_0140203	spermidine import across plasma membra
 http://purl.obolibrary.org/obo/GO_0098720	succinate import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_30031	succinate(2-)
 http://purl.obolibrary.org/obo/GO_0106082	sucrose import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_17992	sucrose
 http://purl.obolibrary.org/obo/GO_1902434	sulfate import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_16189	sulfate
+http://purl.obolibrary.org/obo/GO_1901583	tetrapeptide import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_48030	tetrapeptide
 http://purl.obolibrary.org/obo/GO_0140125	thiamine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_26948	vitamin B1
 http://purl.obolibrary.org/obo/GO_0140207	tripeptide import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_47923	tripeptide
 http://purl.obolibrary.org/obo/GO_0098721	uracil import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_17568	uracil

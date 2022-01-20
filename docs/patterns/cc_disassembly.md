@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[cellular component disassembly](http://purl.obolibrary.org/obo/GO_0022411)  and ([results_in_disassembly_of](http://purl.obolibrary.org/obo/RO_0002590) some `{target}`)
+[cellular component disassembly](http://purl.obolibrary.org/obo/GO_0022411)  and ([results in disassembly of](http://purl.obolibrary.org/obo/RO_0002590) some `{target}`)
 
 
 
