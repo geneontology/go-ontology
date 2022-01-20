@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-12-08/imports/ro_import.owl
+data-version: go/releases/2022-01-19/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -1111,6 +1111,15 @@ is_a: regulates ! regulates
 inverse_of: negatively_regulated_by ! negatively regulated by
 
 [Typedef]
+id: negatively_regulates_characteristic
+name: negatively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C." []
+xref: RO:0019002
+holds_over_chain: negatively_regulates positively_regulates_characteristic
+holds_over_chain: positively_regulates negatively_regulates_characteristic
+is_a: regulates_characteristic ! regulates characteristic
+
+[Typedef]
 id: occurs_across
 name: occurs across
 def: "A relationship between a process and a barrier, where the process occurs in a region spanning the barrier. For cellular processes the barrier is typically a membrane. Examples include transport across a membrane and membrane depolarization." []
@@ -1206,6 +1215,14 @@ is_a: regulates ! regulates
 inverse_of: positively_regulated_by ! positively regulated by
 
 [Typedef]
+id: positively_regulates_characteristic
+name: positively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C." []
+xref: RO:0019001
+holds_over_chain: positively_regulates positively_regulates_characteristic
+is_a: regulates_characteristic ! regulates characteristic
+
+[Typedef]
 id: preceded_by
 name: preceded by
 def: "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
@@ -1295,6 +1312,16 @@ xref: RO:0011002
 domain: BFO:0000040 ! material entity
 range: BFO:0000040 ! material entity
 is_a: causally_influences ! causally influences
+
+[Typedef]
+id: regulates_characteristic
+name: regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
+xref: RO:0019000
+domain: BFO:0000015 ! process
+range: PATO:0000001 ! quality
+holds_over_chain: regulates regulates_characteristic
+is_a: causally_related_to ! causally related to
 
 [Typedef]
 id: regulates_levels_of
