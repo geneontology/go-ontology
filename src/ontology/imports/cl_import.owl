@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-01-09/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-01-25/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -3758,6 +3758,31 @@
         <obo:IAO_0000115>A cell within an epithelial cell sheet whose main function is to act as an internal or external covering for a tissue or an organism.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>boundary cell</oboInOwl:hasExactSynonym>
         <rdfs:label>lining cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000214">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002078"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002018"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000153"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000213"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002078"/>
+        <obo:IAO_0000115>A meso-epithelial cell that lies between the cartilaginous fibers in the synovial membrane of a joint and produces hyaluronic acid.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>synoviocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>hyaluronic acid secreting cell</oboInOwl:hasNarrowSynonym>
+        <rdfs:label>synovial cell</rdfs:label>
     </owl:Class>
     
 
@@ -20880,6 +20905,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0002301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000214"/>
+        <obo:IAO_0000115>A synovial cell type that resembles fibroblasts, has abundant granular endoplasmic reticulum but contains fewer vacuoles and vesicles. This cell type secretes glycoproteins and hyaluronic acid.</obo:IAO_0000115>
+        <rdfs:label>type B synovial cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0002305 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002305">
@@ -34903,6 +34938,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002012"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002018"/>
     
 
 
