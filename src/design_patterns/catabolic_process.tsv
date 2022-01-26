@@ -203,6 +203,7 @@ http://purl.obolibrary.org/obo/GO_0006710	androgen catabolic process	http://purl
 http://purl.obolibrary.org/obo/GO_0046284	anthocyanin-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_35218	anthocyanin cation
 http://purl.obolibrary.org/obo/GO_0043421	anthranilate catabolic process	http://purl.obolibrary.org/obo/CHEBI_16567	anthranilate
 http://purl.obolibrary.org/obo/GO_0017001	antibiotic catabolic process	http://purl.obolibrary.org/obo/GOCHE_33281	substance with antimicrobial agent role
+http://purl.obolibrary.org/obo/GO_0071041	antisense RNA transcript catabolic process	http://purl.obolibrary.org/obo/SO_0000644	antisense_RNA
 http://purl.obolibrary.org/obo/GO_0043290	apocarotenoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_53183	apo carotenoid
 http://purl.obolibrary.org/obo/GO_0031222	arabinan catabolic process	http://purl.obolibrary.org/obo/CHEBI_22590	arabinan
 http://purl.obolibrary.org/obo/GO_0019568	arabinose catabolic process	http://purl.obolibrary.org/obo/CHEBI_22599	arabinose
@@ -588,6 +589,7 @@ http://purl.obolibrary.org/obo/GO_1901270	lipooligosaccharide catabolic process	
 http://purl.obolibrary.org/obo/GO_0009104	lipopolysaccharide catabolic process	http://purl.obolibrary.org/obo/CHEBI_16412	lipopolysaccharide
 http://purl.obolibrary.org/obo/GO_0042159	lipoprotein catabolic process	http://purl.obolibrary.org/obo/CHEBI_6495	lipoprotein
 http://purl.obolibrary.org/obo/GO_0070396	lipoteichoic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_28640	lipoteichoic acid
+http://purl.obolibrary.org/obo/GO_0110064	lncRNA catabolic process	http://purl.obolibrary.org/obo/SO_0001877	lncRNA
 http://purl.obolibrary.org/obo/GO_0042758	long-chain fatty acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_57560	long-chain fatty acid anion
 http://purl.obolibrary.org/obo/GO_0036116	long-chain fatty-acyl-CoA catabolic process	http://purl.obolibrary.org/obo/CHEBI_33184	long-chain fatty acyl-CoA
 http://purl.obolibrary.org/obo/GO_0062172	lutein catabolic process	http://purl.obolibrary.org/obo/CHEBI_28838	lutein
@@ -839,6 +841,7 @@ http://purl.obolibrary.org/obo/GO_0016107	sesquiterpenoid catabolic process	http
 http://purl.obolibrary.org/obo/GO_1900792	shamixanthone catabolic process	http://purl.obolibrary.org/obo/CHEBI_64499	shamixanthone
 http://purl.obolibrary.org/obo/GO_0019633	shikimate catabolic process	http://purl.obolibrary.org/obo/CHEBI_36208	shikimate
 http://purl.obolibrary.org/obo/GO_0019626	short-chain fatty acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_58951	short-chain fatty acid anion
+http://purl.obolibrary.org/obo/GO_0140746	siRNA catabolic process	http://purl.obolibrary.org/obo/SO_0000646	siRNA
 http://purl.obolibrary.org/obo/GO_0046215	siderophore catabolic process	http://purl.obolibrary.org/obo/GOCHE_26672	substance with siderophore role
 http://purl.obolibrary.org/obo/GO_0046157	siroheme catabolic process	http://purl.obolibrary.org/obo/CHEBI_28599	siroheme
 http://purl.obolibrary.org/obo/GO_0016076	snRNA catabolic process	http://purl.obolibrary.org/obo/SO_0000274	snRNA

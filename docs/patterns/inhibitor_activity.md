@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[molecular_function](http://purl.obolibrary.org/obo/GO_0003674)  and ([directly negatively regulates](http://purl.obolibrary.org/obo/RO_0002630) some `{regulated_activity}`)
+[molecular function regulator](http://purl.obolibrary.org/obo/GO_0098772)  and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some `{regulated_activity}`)
 
 
 
@@ -41,7 +41,11 @@ TODO
 
 *See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/inhibitor_activity.tsv)*
 
-|  |
-|
-
+| defined_class | defined_class_label | regulated_activity | regulated_activity_label |
+|:--|:--|:--|:--|
+| [http://purl.obolibrary.org/obo/GO_0140620](http://purl.obolibrary.org/obo/GO_0140620) | DNA strand exchange inhibitor activity | [http://purl.obolibrary.org/obo/GO_0000150](http://purl.obolibrary.org/obo/GO_0000150) | DNA strand exchange activity |
+| [http://purl.obolibrary.org/obo/GO_0005095](http://purl.obolibrary.org/obo/GO_0005095) | GTPase inhibitor activity | [http://purl.obolibrary.org/obo/GO_0003924](http://purl.obolibrary.org/obo/GO_0003924) | GTPase activity |
+| [http://purl.obolibrary.org/obo/GO_0010854](http://purl.obolibrary.org/obo/GO_0010854) | adenylate cyclase regulator activity | [http://purl.obolibrary.org/obo/GO_0004016](http://purl.obolibrary.org/obo/GO_0004016) | adenylate cyclase activity |
+| [http://purl.obolibrary.org/obo/GO_0140631](http://purl.obolibrary.org/obo/GO_0140631) | aldehyde dehydrogenase (NAD+) inhibitor activity | [http://purl.obolibrary.org/obo/GO_0004029](http://purl.obolibrary.org/obo/GO_0004029) | aldehyde dehydrogenase (NAD+) activity |
+| [http://purl.obolibrary.org/obo/GO_0019828](http://purl.obolibrary.org/obo/GO_0019828) | aspartic-type endopeptidase inhibitor activity | [http://purl.obolibrary.org/obo/GO_0004190](http://purl.obolibrary.org/obo/GO_0004190) | aspartic-type endopeptidase activity |
 

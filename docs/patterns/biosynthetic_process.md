@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO
+This pattern is for classes representing biosynthetic processes differentiated by their primary outputs.
 
 
 

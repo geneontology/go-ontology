@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-01-09/imports/cl_import.owl
+data-version: go/releases/2022-01-25/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -1340,6 +1340,18 @@ name: lining cell
 def: "A cell within an epithelial cell sheet whose main function is to act as an internal or external covering for a tissue or an organism." []
 synonym: "boundary cell" EXACT []
 is_a: CL:0000215 ! barrier cell
+
+[Term]
+id: CL:0000214
+name: synovial cell
+def: "A meso-epithelial cell that lies between the cartilaginous fibers in the synovial membrane of a joint and produces hyaluronic acid." []
+synonym: "hyaluronic acid secreting cell" NARROW []
+synonym: "synoviocyte" EXACT []
+is_a: CL:0000153 ! glycosaminoglycan secreting cell
+is_a: CL:0000213 ! lining cell
+is_a: CL:0002078 ! meso-epithelial cell
+intersection_of: CL:0002078 ! meso-epithelial cell
+intersection_of: BFO:0000050 UBERON:0002018
 
 [Term]
 id: CL:0000215
@@ -8080,6 +8092,12 @@ synonym: "thymic epithelial cell" EXACT []
 is_a: CL:0002076 ! endo-epithelial cell
 intersection_of: CL:0002076 ! endo-epithelial cell
 intersection_of: BFO:0000050 UBERON:0002370
+
+[Term]
+id: CL:0002301
+name: type B synovial cell
+def: "A synovial cell type that resembles fibroblasts, has abundant granular endoplasmic reticulum but contains fewer vacuoles and vesicles. This cell type secretes glycoproteins and hyaluronic acid." []
+is_a: CL:0000214 ! synovial cell
 
 [Term]
 id: CL:0002305

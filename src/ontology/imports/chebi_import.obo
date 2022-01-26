@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2021-08-01/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-01-25/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -19800,6 +19800,42 @@ subset: chebi_ph7_3
 is_a: CHEBI:50525 ! phenolate anion
 
 [Term]
+id: CHEBI:146007
+name: (M)-viriditoxin
+subset: chebi_ph7_3
+is_a: CHEBI:146015 ! dimethyl 2,2'-(9,9',10,10'-tetrahydroxy-7,7'-dimethoxy-1,1'-dioxo-3,3',4,4'-tetrahydro-[6,6'-binaphtho[2,3-c]pyran]-3,3'-diyl)diacetate
+relationship: has_role CHEBI:25442 ! mycotoxin
+relationship: has_role CHEBI:33282 ! antibacterial agent
+relationship: has_role CHEBI:76956 ! Aspergillus metabolite
+
+[Term]
+id: CHEBI:146008
+name: semiviriditoxin
+subset: chebi_ph7_3
+is_a: CHEBI:146280 ! naphtho-alpha-pyrone
+is_a: CHEBI:18946 ! delta-lactone
+is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:33853 ! phenols
+is_a: CHEBI:59872 ! heptaketide
+relationship: has_role CHEBI:76946 ! fungal metabolite
+
+[Term]
+id: CHEBI:146014
+name: binaphthopyran
+is_a: CHEBI:64459 ! biaryl
+
+[Term]
+id: CHEBI:146015
+name: dimethyl 2,2'-(9,9',10,10'-tetrahydroxy-7,7'-dimethoxy-1,1'-dioxo-3,3',4,4'-tetrahydro-[6,6'-binaphtho[2,3-c]pyran]-3,3'-diyl)diacetate
+subset: chebi_ph7_3
+is_a: CHEBI:146014 ! binaphthopyran
+is_a: CHEBI:25248 ! methyl ester
+is_a: CHEBI:26188 ! polyketide
+is_a: CHEBI:33853 ! phenols
+is_a: CHEBI:35618 ! aromatic ether
+is_a: CHEBI:36820 ! ring assembly
+
+[Term]
 id: CHEBI:146021
 name: N-acetyl-alpha-neuraminyl-(2->3)-beta-D-galactosyl-(1->3)-N-acetyl-D-glucosaminide(1-)
 subset: chebi_ph7_3
@@ -19862,6 +19898,11 @@ is_a: CHEBI:27150 ! trisaccharide
 id: CHEBI:146270
 name: oneirogen
 is_a: CHEBI:35471 ! psychotropic drug
+
+[Term]
+id: CHEBI:146280
+name: naphtho-alpha-pyrone
+is_a: CHEBI:86027 ! naphthopyran
 
 [Term]
 id: CHEBI:146281
@@ -22579,6 +22620,15 @@ name: 20-hydroxy-leukotriene B4
 is_a: CHEBI:35868 ! hydroxy monocarboxylic acid
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
+
+[Term]
+id: CHEBI:156460
+name: novofumigatonin
+subset: chebi_ph7_3
+is_a: CHEBI:38166 ! organic heteropolycyclic compound
+is_a: CHEBI:3992 ! cyclic ketone
+is_a: CHEBI:64419 ! meroterpenoid
+is_a: CHEBI:71989 ! ortho ester
 
 [Term]
 id: CHEBI:156461
@@ -123653,6 +123703,26 @@ is_a: CHEBI:64678 ! anthracycline cation
 id: CHEBI:74925
 name: EC 3.4.23.46 (memapsin 2) inhibitor
 is_a: CHEBI:76885 ! EC 3.4.23.* (aspartic endopeptidase) inhibitor
+
+[Term]
+id: CHEBI:74926
+name: patulin
+subset: chebi_ph7_3
+is_a: CHEBI:37581 ! gamma-lactone
+is_a: CHEBI:38131 ! lactol
+is_a: CHEBI:74927 ! furopyran
+relationship: has_role CHEBI:25435 ! mutagen
+relationship: has_role CHEBI:25442 ! mycotoxin
+relationship: has_role CHEBI:33281 ! antimicrobial agent
+relationship: has_role CHEBI:50903 ! carcinogenic agent
+relationship: has_role CHEBI:76956 ! Aspergillus metabolite
+relationship: has_role CHEBI:76964 ! Penicillium metabolite
+
+[Term]
+id: CHEBI:74927
+name: furopyran
+is_a: CHEBI:27171 ! organic heterobicyclic compound
+is_a: CHEBI:38104 ! oxacycle
 
 [Term]
 id: CHEBI:74928
