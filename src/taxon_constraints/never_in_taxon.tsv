@@ -546,4 +546,6 @@ GO:0007114	cell budding	NCBITaxon:4896	Schizosaccharomyces pombe
 GO:0007114	cell budding	NCBITaxon:33208	Metazoa	
 GO:0140671	ADA complex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0140672	ATAC complex	NCBITaxon:4751	Fungi	
-GO:0140737	encapsulin nanocompartment	NCBITaxon:2759	Eukaryota		
+GO:0140737	encapsulin nanocompartment	NCBITaxon:2759	Eukaryota	
+GO:0035194	post-transcriptional gene silencing by RNA	NCBITaxon:4896	Schizosaccharomyces pombe 
+GO:0035194	post-transcriptional gene silencing by RNA	NCBITaxon:4932	Saccharomyces cerevisiae 
