@@ -1,7 +1,5 @@
 defined_class	defined_class_label	entity	entity_label
 http://purl.obolibrary.org/obo/GO_0007250	activation of NF-kappaB-inducing kinase activity	http://purl.obolibrary.org/obo/GO_0004704	NF-kappaB-inducing kinase activity
-http://purl.obolibrary.org/obo/GO_0051454	intracellular pH elevation	http://purl.obolibrary.org/obo/OBA_0000050	cell pH
-http://purl.obolibrary.org/obo/GO_0035752	lysosomal lumen pH elevation	http://purl.obolibrary.org/obo/OBA_0000091	lysosomal lumen pH
 http://purl.obolibrary.org/obo/GO_0045852	pH elevation	http://purl.obolibrary.org/obo/OBA_0000121	pH
 http://purl.obolibrary.org/obo/GO_0075294	positive regulation by symbiont of entry into host	http://purl.obolibrary.org/obo/GO_0044409	entry into host
 http://purl.obolibrary.org/obo/GO_1905014	positive regulation of 'de novo' NAD biosynthetic process from tryptophan	http://purl.obolibrary.org/obo/GO_0034354	'de novo' NAD biosynthetic process from tryptophan
@@ -539,7 +537,6 @@ http://purl.obolibrary.org/obo/GO_0014712	positive regulation of branchiomeric s
 http://purl.obolibrary.org/obo/GO_2000488	positive regulation of brassinosteroid biosynthetic process	http://purl.obolibrary.org/obo/GO_0016132	brassinosteroid biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900459	positive regulation of brassinosteroid mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0009742	brassinosteroid mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_1900860	positive regulation of brevianamide F biosynthetic process	http://purl.obolibrary.org/obo/GO_1900805	brevianamide F biosynthetic process
-http://purl.obolibrary.org/obo/GO_0090727	positive regulation of brood size	http://purl.obolibrary.org/obo/OBA_0000037	brood size
 http://purl.obolibrary.org/obo/GO_0090336	positive regulation of brown fat cell differentiation	http://purl.obolibrary.org/obo/GO_0050873	brown fat cell differentiation
 http://purl.obolibrary.org/obo/GO_0070349	positive regulation of brown fat cell proliferation	http://purl.obolibrary.org/obo/GO_0070342	brown fat cell proliferation
 http://purl.obolibrary.org/obo/GO_1900496	positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA	http://purl.obolibrary.org/obo/GO_0044579	butyryl-CoA biosynthetic process from acetyl-CoA
@@ -807,7 +804,6 @@ http://purl.obolibrary.org/obo/GO_0046005	positive regulation of circadian sleep
 http://purl.obolibrary.org/obo/GO_0046010	positive regulation of circadian sleep/wake cycle, non-REM sleep	http://purl.obolibrary.org/obo/GO_0042748	circadian sleep/wake cycle, non-REM sleep
 http://purl.obolibrary.org/obo/GO_0045938	positive regulation of circadian sleep/wake cycle, sleep	http://purl.obolibrary.org/obo/GO_0050802	circadian sleep/wake cycle, sleep
 http://purl.obolibrary.org/obo/GO_0010841	positive regulation of circadian sleep/wake cycle, wakefulness	http://purl.obolibrary.org/obo/GO_0042746	circadian sleep/wake cycle, wakefulness
-http://purl.obolibrary.org/obo/GO_0061755	positive regulation of circulating fibrinogen levels	http://purl.obolibrary.org/obo/OBA_0000061	circulating fibrinogen levels
 http://purl.obolibrary.org/obo/GO_1903250	positive regulation of citrulline biosynthetic process	http://purl.obolibrary.org/obo/GO_0019240	citrulline biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905445	positive regulation of clathrin coat assembly	http://purl.obolibrary.org/obo/GO_0048268	clathrin coat assembly
 http://purl.obolibrary.org/obo/GO_1905470	positive regulation of clathrin-coated pit assembly	http://purl.obolibrary.org/obo/GO_1905224	clathrin-coated pit assembly
@@ -1130,6 +1126,7 @@ http://purl.obolibrary.org/obo/GO_2000196	positive regulation of female gonad de
 http://purl.obolibrary.org/obo/GO_0048091	positive regulation of female pigmentation	http://purl.obolibrary.org/obo/GO_0048095	female pigmentation
 http://purl.obolibrary.org/obo/GO_1905570	positive regulation of ferrichrome biosynthetic process	http://purl.obolibrary.org/obo/GO_0031169	ferrichrome biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900680	positive regulation of ferricrocin biosynthetic process	http://purl.obolibrary.org/obo/GO_0031171	ferricrocin biosynthetic process
+http://purl.obolibrary.org/obo/GO_0160020	positive regulation of ferroptosis	http://purl.obolibrary.org/obo/GO_0097707	ferroptosis
 http://purl.obolibrary.org/obo/GO_1904434	positive regulation of ferrous iron binding	http://purl.obolibrary.org/obo/GO_0008198	ferrous iron binding
 http://purl.obolibrary.org/obo/GO_1905516	positive regulation of fertilization	http://purl.obolibrary.org/obo/GO_0009566	fertilization
 http://purl.obolibrary.org/obo/GO_1901468	positive regulation of ferulate catabolic process	http://purl.obolibrary.org/obo/GO_1901067	ferulate catabolic process
@@ -1405,7 +1402,6 @@ http://purl.obolibrary.org/obo/GO_1902073	positive regulation of hypoxia-inducib
 http://purl.obolibrary.org/obo/GO_0032305	positive regulation of icosanoid secretion	http://purl.obolibrary.org/obo/GO_0032309	icosanoid secretion
 http://purl.obolibrary.org/obo/GO_0045572	positive regulation of imaginal disc growth	http://purl.obolibrary.org/obo/GO_0007446	imaginal disc growth
 http://purl.obolibrary.org/obo/GO_0110138	positive regulation of imaginal disc-derived leg joint morphogenesis	http://purl.obolibrary.org/obo/GO_0007480	imaginal disc-derived leg morphogenesis
-http://purl.obolibrary.org/obo/GO_0120198	positive regulation of imaginal disc-derived wing size	http://purl.obolibrary.org/obo/OBA_0000084	imaginal disc-derived wing size
 http://purl.obolibrary.org/obo/GO_0110108	positive regulation of imaginal disc-derived wing vein specification	http://purl.obolibrary.org/obo/GO_0007474	imaginal disc-derived wing vein specification
 http://purl.obolibrary.org/obo/GO_0033091	positive regulation of immature T cell proliferation	http://purl.obolibrary.org/obo/GO_0033079	immature T cell proliferation
 http://purl.obolibrary.org/obo/GO_0033092	positive regulation of immature T cell proliferation in thymus	http://purl.obolibrary.org/obo/GO_0033080	immature T cell proliferation in thymus
@@ -1625,7 +1621,6 @@ http://purl.obolibrary.org/obo/GO_0051006	positive regulation of lipoprotein lip
 http://purl.obolibrary.org/obo/GO_0050747	positive regulation of lipoprotein metabolic process	http://purl.obolibrary.org/obo/GO_0042157	lipoprotein metabolic process
 http://purl.obolibrary.org/obo/GO_0010986	positive regulation of lipoprotein particle clearance	http://purl.obolibrary.org/obo/GO_0034381	plasma lipoprotein particle clearance
 http://purl.obolibrary.org/obo/GO_0140077	positive regulation of lipoprotein transport	http://purl.obolibrary.org/obo/GO_0042953	lipoprotein transport
-http://purl.obolibrary.org/obo/GO_0101028	positive regulation of liquid surface tension	http://purl.obolibrary.org/obo/OBA_0000088	liquid surface tension
 http://purl.obolibrary.org/obo/GO_0040017	positive regulation of locomotion	http://purl.obolibrary.org/obo/GO_0040011	locomotion
 http://purl.obolibrary.org/obo/GO_1904061	positive regulation of locomotor rhythm	http://purl.obolibrary.org/obo/GO_0045475	locomotor rhythm
 http://purl.obolibrary.org/obo/GO_0010747	positive regulation of long-chain fatty acid import across plasma membrane	http://purl.obolibrary.org/obo/GO_0015911	long-chain fatty acid import across plasma membrane
@@ -1639,7 +1634,6 @@ http://purl.obolibrary.org/obo/GO_1905597	positive regulation of low-density lip
 http://purl.obolibrary.org/obo/GO_0032805	positive regulation of low-density lipoprotein particle receptor catabolic process	http://purl.obolibrary.org/obo/GO_0032802	low-density lipoprotein particle receptor catabolic process
 http://purl.obolibrary.org/obo/GO_1905599	positive regulation of low-density lipoprotein receptor activity	http://purl.obolibrary.org/obo/GO_0005041	low-density lipoprotein particle receptor activity
 http://purl.obolibrary.org/obo/GO_1904655	positive regulation of lung alveolus development	http://purl.obolibrary.org/obo/GO_0048286	lung alveolus development
-http://purl.obolibrary.org/obo/GO_0061766	positive regulation of lung blood pressure	http://purl.obolibrary.org/obo/OBA_0000090	lung blood pressure
 http://purl.obolibrary.org/obo/GO_1901248	positive regulation of lung ciliated cell differentiation	http://purl.obolibrary.org/obo/GO_0061141	lung ciliated cell differentiation
 http://purl.obolibrary.org/obo/GO_1901251	positive regulation of lung goblet cell differentiation	http://purl.obolibrary.org/obo/GO_0060480	lung goblet cell differentiation
 http://purl.obolibrary.org/obo/GO_0033686	positive regulation of luteinizing hormone secretion	http://purl.obolibrary.org/obo/GO_0032275	luteinizing hormone secretion
@@ -2898,7 +2892,7 @@ http://purl.obolibrary.org/obo/GO_1904668	positive regulation of ubiquitin prote
 http://purl.obolibrary.org/obo/GO_2000397	positive regulation of ubiquitin-dependent endocytosis	http://purl.obolibrary.org/obo/GO_0070086	ubiquitin-dependent endocytosis
 http://purl.obolibrary.org/obo/GO_2000060	positive regulation of ubiquitin-dependent protein catabolic process	http://purl.obolibrary.org/obo/GO_0006511	ubiquitin-dependent protein catabolic process
 http://purl.obolibrary.org/obo/GO_0051443	positive regulation of ubiquitin-protein transferase activity	http://purl.obolibrary.org/obo/GO_0004842	ubiquitin-protein transferase activity
-http://purl.obolibrary.org/obo/GO_2000158	positive regulation of ubiquitin-specific protease activity	http://purl.obolibrary.org/obo/GO_0004843	thiol-dependent deubiquitinase
+http://purl.obolibrary.org/obo/GO_2000158	positive regulation of ubiquitin-specific protease activity	http://purl.obolibrary.org/obo/GO_0004843	cysteine-type deubiquitinase activity
 http://purl.obolibrary.org/obo/GO_0051512	positive regulation of unidimensional cell growth	http://purl.obolibrary.org/obo/GO_0009826	unidimensional cell growth
 http://purl.obolibrary.org/obo/GO_2001280	positive regulation of unsaturated fatty acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0006636	unsaturated fatty acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905531	positive regulation of uracil import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098721	uracil import across plasma membrane
@@ -2979,4 +2973,3 @@ http://purl.obolibrary.org/obo/GO_0075220	positive regulation of zoospore encyst
 http://purl.obolibrary.org/obo/GO_0075241	positive regulation of zoospore formation	http://purl.obolibrary.org/obo/GO_0075239	zoospore formation
 http://purl.obolibrary.org/obo/GO_0075273	positive regulation of zygosporangium development	http://purl.obolibrary.org/obo/GO_0075271	zygosporangium development
 http://purl.obolibrary.org/obo/GO_0075299	positive regulation of zygospore formation	http://purl.obolibrary.org/obo/GO_0034296	zygospore formation
-http://purl.obolibrary.org/obo/GO_0050821	protein stabilization	http://purl.obolibrary.org/obo/OBA_0000128	protein stability

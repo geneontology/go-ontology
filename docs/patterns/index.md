@@ -30,13 +30,16 @@
 | [mf binding](mf_binding.md) | TODO |
 | [multi-organism process](multi_organism_process.md) | TODO |
 | [negative regulation](negative_regulation.md) | TODO |
+| [negative_regulation_of_characteristic](negative_regulation_of_characteristic.md) | Negative regulation of a particular characteristic. |
 | [occurs in](occursIn.md) | TODO |
 | [part of cell component](part_of_cell_component.md) | TODO |
 | [positive regulation](positive_regulation.md) | TODO |
+| [positive_regulation_of_characteristic](positive_regulation_of_characteristic.md) | Positive regulation of a particular characteristic. |
 | [protein complex by activity](protein_complex_by_activity.md) | TODO |
 | [protein localization to](protein_localization_to.md) | TODO |
 | [regulation](regulation.md) | One of three core patterns for regulation terms in the GO. Do not use this pattern for the 3 grouping classes: regulation of MF, regulation of BP, regulation of BQ |
 | [regulation by](regulation_by.md) | TODO |
+| [regulation_of_characteristic](regulation_of_characteristic.md) | Regulation of a particular characteristic. |
 | [regulator activity](regulator_activity.md) | TODO |
 | [single-organism process](single_organism_process.md) | TODO |
 | [spanning component of membrane](membrane_spanning_component.md) | TODO |

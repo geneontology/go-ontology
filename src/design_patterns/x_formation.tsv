@@ -34,6 +34,7 @@ http://purl.obolibrary.org/obo/GO_0060214	endocardium formation	http://purl.obol
 http://purl.obolibrary.org/obo/GO_0001706	endoderm formation	http://purl.obolibrary.org/obo/UBERON_0000925	endoderm
 http://purl.obolibrary.org/obo/GO_0021508	floor plate formation	http://purl.obolibrary.org/obo/UBERON_0003079	floor plate
 http://purl.obolibrary.org/obo/GO_0021905	forebrain-midbrain boundary formation	http://purl.obolibrary.org/obo/UBERON_0005075	forebrain-midbrain boundary
+http://purl.obolibrary.org/obo/GO_0048859	formation of anatomical boundary	http://purl.obolibrary.org/obo/UBERON_0007651	anatomical junction
 http://purl.obolibrary.org/obo/GO_0001704	formation of primary germ layer	http://purl.obolibrary.org/obo/UBERON_0000923	germ layer
 http://purl.obolibrary.org/obo/GO_0061198	fungiform papilla formation	http://purl.obolibrary.org/obo/UBERON_0002448	fungiform papilla
 http://purl.obolibrary.org/obo/GO_0061554	ganglion formation	http://purl.obolibrary.org/obo/UBERON_0000045	ganglion
