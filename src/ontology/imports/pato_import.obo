@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-11-13/imports/pato_import.owl
+data-version: go/releases/2022-02-12/imports/pato_import.owl
 ontology: go/imports/pato_import
 
 [Term]
@@ -81,7 +81,7 @@ is_a: PATO:0000001 ! quality
 id: PATO:0001396
 name: cellular quality
 def: "A monadic quality of continuant that exists at the cellular level of organisation." []
-is_a: PATO:0001241 ! physical object quality
+is_a: PATO:0070044 ! anatomical structure quality
 
 [Term]
 id: PATO:0001404
@@ -121,7 +121,7 @@ synonym: "rod-like" EXACT []
 synonym: "rod-shaped" EXACT []
 synonym: "tubulate" NARROW []
 is_a: PATO:0002007 ! convex 3-D shape
-relationship: has_cross_section PATO:0000411 ! circular
+relationship: RO:0015011 PATO:0000411 ! circular
 
 [Term]
 id: PATO:0001908
@@ -142,7 +142,7 @@ id: PATO:0002007
 name: convex 3-D shape
 def: "A complete three dimensional shape in which for every line connecting pair of points on the object is within the object. Or: a shape lacking cavities. Contrast: concave." []
 is_a: PATO:0002266 ! 3-D shape
-relationship: has_cross_section PATO:0002006 ! 2-D shape
+relationship: RO:0015011 PATO:0002006 ! 2-D shape
 
 [Term]
 id: PATO:0002226
@@ -187,6 +187,12 @@ name: polymeric
 def: "A quality inhering in a structure by virtue of it consisting of many of repeated, similar or identical subunits, arranged in some orderly array." []
 is_a: PATO:0000141 ! structure
 
+[Term]
+id: PATO:0070044
+name: anatomical structure quality
+def: "A quality of continuant that exist at the anatomical level of organisation and anything under it. This includes, but is not limited to, cells , tissues, and components." []
+is_a: PATO:0001241 ! physical object quality
+
 [Typedef]
 id: RO:0000053
 xref: RO:0000053
@@ -200,10 +206,8 @@ id: RO:0002180
 xref: RO:0002180
 
 [Typedef]
-id: has_cross_section
-name: has_cross_section
-def: "s3 has_cross_section s3 if and only if : there exists some 2d plane that intersects the bearer of s3, and the impression of s3 upon that plane has shape quality s2." []
-xref: has_cross_section
+id: RO:0015011
+xref: RO:0015011
 
 [Typedef]
 id: has_part
