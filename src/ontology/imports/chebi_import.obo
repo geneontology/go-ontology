@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-01-25/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-02-11/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -40028,12 +40028,6 @@ name: N-formylanthranilate
 subset: chebi_ph7_3
 is_a: CHEBI:61666 ! amidobenzoate
 relationship: has_role CHEBI:77746 ! human metabolite
-
-[Term]
-id: CHEBI:18411
-name: laminarabiose
-subset: chebi_ph7_3
-is_a: CHEBI:24405 ! glycosylglucose
 
 [Term]
 id: CHEBI:18412
