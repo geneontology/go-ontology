@@ -415,7 +415,7 @@ mirror/chebi-download.owl: $(SRC)
 
 # special case: use ext for uberon
 mirror/uberon-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/uberon/ext.owl $(WGET_OUT)
+	wget --no-check-certificate $(UBERON_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/uberon-download.owl
 
 # special case: use base for pato
@@ -474,11 +474,6 @@ biochebi_gcis.ofn: biochebi_gcis.tsv ../biochebi/biochebi_gcis.yaml
 
 # filter axioms
 FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
-
-# todo: uberon currently has some chebi inferences
-mirror/uberon.owl: mirror/uberon-download.owl
-	$(OWLTOOLS) --use-catalog $< --remove-equivalent-to-nothing-axioms --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL  $(FILTER_EXTERNAL) -o $@
-.PRECIOUS: mirror/uberon.owl
 
 mirror/so.owl: mirror/so-download.owl
 	$(OWLTOOLS) --use-catalog $< --make-subset-by-properties // -o $@
