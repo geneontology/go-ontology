@@ -842,3 +842,4 @@ GO:1990257	piccolo-bassoon transport vesicle	NCBITaxon:6072	Eumetazoa
 GO:0043386	mycotoxin biosynthetic process	NCBITaxon:4751	Fungi	
 GO:0031469	bacterial microcompartment	NCBITaxon:2	Bacteria	
 GO:0050450	citrate (Re)-synthase activity	NCBITaxon:2157 Archae	PMID:17400742
+GO:0040033	sRNA-mediated gene silencing	NCBITaxon:2	Bacteria	
