@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-01-25/imports/cl_import.owl
+data-version: go/releases/2022-02-20/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -224,6 +224,7 @@ intersection_of: RO:0002215 GO:0017145
 [Term]
 id: CL:0000036
 name: epithelial fate stem cell
+synonym: "epithelial stem cell" EXACT []
 is_a: CL:0000035 ! single fate stem cell
 
 [Term]
@@ -1344,14 +1345,11 @@ is_a: CL:0000215 ! barrier cell
 [Term]
 id: CL:0000214
 name: synovial cell
-def: "A meso-epithelial cell that lies between the cartilaginous fibers in the synovial membrane of a joint and produces hyaluronic acid." []
-synonym: "hyaluronic acid secreting cell" NARROW []
+def: "A cell located in the synovial joint." []
 synonym: "synoviocyte" EXACT []
-is_a: CL:0000153 ! glycosaminoglycan secreting cell
 is_a: CL:0000213 ! lining cell
 is_a: CL:0002078 ! meso-epithelial cell
-intersection_of: CL:0002078 ! meso-epithelial cell
-intersection_of: BFO:0000050 UBERON:0002018
+relationship: BFO:0000050 UBERON:0002217
 
 [Term]
 id: CL:0000215
@@ -1662,8 +1660,6 @@ is_a: CL:0000003 ! native cell
 id: CL:0000327
 name: extracellular matrix secreting cell
 is_a: CL:0000499 ! stromal cell
-intersection_of: CL:0000151 ! secretory cell
-intersection_of: RO:0002215 GO:0070278
 
 [Term]
 id: CL:0000328
@@ -8096,8 +8092,15 @@ intersection_of: BFO:0000050 UBERON:0002370
 [Term]
 id: CL:0002301
 name: type B synovial cell
-def: "A synovial cell type that resembles fibroblasts, has abundant granular endoplasmic reticulum but contains fewer vacuoles and vesicles. This cell type secretes glycoproteins and hyaluronic acid." []
+def: "A resident stromal cell located in the synovial membrane and responsible for the production of immune-related cytokines and chemokines. This cell type secretes glycoproteins and hyaluronic acid, has abundant granular endoplasmic reticulum, but contains fewer vacuoles and vesicles." []
+synonym: "fibroblast-like synoviocyte" EXACT []
+synonym: "synovial fibroblast" EXACT []
 is_a: CL:0000214 ! synovial cell
+is_a: CL:0000499 ! stromal cell
+intersection_of: CL:0000499 ! stromal cell
+intersection_of: BFO:0000050 UBERON:0002018
+relationship: RO:0002215 GO:0030213
+relationship: RO:0003000 UBERON:0001090
 
 [Term]
 id: CL:0002305
@@ -8180,6 +8183,8 @@ name: mammary alveolar cell
 def: "The milk-producing cell of the alveolar unit that emerges during pregnancy." []
 synonym: "epithelial cell of lactiferous gland" EXACT []
 synonym: "luminal cell of alveolus of lactiferous gland" EXACT []
+synonym: "mammary alveolar epithelial cell" EXACT []
+synonym: "mammary gland alveolar epithelial cell" EXACT []
 is_a: CL:0000314 ! milk secreting cell
 is_a: CL:0002159 ! general ecto-epithelial cell
 intersection_of: CL:0000150 ! glandular epithelial cell
@@ -8751,6 +8756,7 @@ id: CL:0002430
 name: CD4-intermediate, CD8-positive double-positive thymocyte
 def: "A double-positive thymocyte that is undergoing positive selection, has high expression of the alpha-beta T cell receptor, is CD69-positive, and is in the process of down regulating the CD4 co-receptor." []
 synonym: "T.4int8+.Th" EXACT []
+synonym: "T_4int8+_Th" EXACT []
 is_a: CL:0000809 ! double-positive, alpha-beta thymocyte
 intersection_of: CL:0000809 ! double-positive, alpha-beta thymocyte
 intersection_of: has_high_plasma_membrane_amount GO:0042105
@@ -8763,7 +8769,8 @@ relationship: RO:0002202 CL:0002429 ! CD69-positive double-positive thymocyte
 id: CL:0002431
 name: CD4-positive, CD8-intermediate double-positive thymocyte
 def: "A double-positive thymocyte that is undergoing positive selection, has high expression of the alpha-beta T cell receptor, is CD69-positive, and is in the process of down regulating the CD8 co-receptor." []
-synonym: "T.4int8+.th" EXACT []
+synonym: "T.4+8int.Th" EXACT []
+synonym: "T_4+8int_Th" EXACT []
 is_a: CL:0000809 ! double-positive, alpha-beta thymocyte
 intersection_of: CL:0000809 ! double-positive, alpha-beta thymocyte
 intersection_of: has_high_plasma_membrane_amount GO:0042105
@@ -8845,10 +8852,11 @@ relationship: RO:0002202 CL:0002434 ! CD24-positive, CD8 single-positive thymocy
 [Term]
 id: CL:0002453
 name: oligodendrocyte precursor cell
-def: "The cell type from which oligodendrocytes develop. This cell originates from multiple structures within the developing brain including the medial ganglion eminence and the lateral ganglionic eminence. These cells migrate throughout the central nervous system and persist into adulthood where they play an important role in remyelination of injured neurons." []
-is_a: CL:0000123 ! neuron associated cell (sensu Vertebrata)
-intersection_of: CL:0000123 ! neuron associated cell (sensu Vertebrata)
-intersection_of: BFO:0000050 UBERON:0001017
+def: "A progenitor cell of the central nervous system that can differentiate into oligodendrocytes or type-2 astrocytes. This cell originates from multiple structures within the developing brain including the medial ganglion eminence and the lateral ganglionic eminence. These cells migrate throughout the central nervous system and persist into adulthood where they play an important role in remyelination of injured neurons." []
+synonym: "O-2A/OPC" BROAD []
+synonym: "O2A/OPC" BROAD []
+synonym: "oligodendrocyte-type 2 astrocyte (O-2A) progenitor cell" BROAD []
+synonym: "oligodendrocyte/type-2 astrocyte progenitor cell" BROAD []
 relationship: RO:0002202 CL:0000339 ! glioblast (sensu Vertebrata)
 
 [Term]
@@ -10310,6 +10318,7 @@ id: CL:0010012
 name: cerebral cortex neuron
 def: "A CNS neuron of the cerebral cortex." []
 synonym: "cortical neuron" EXACT []
+synonym: "neuron of cerebral cortex" EXACT []
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0000956
 
@@ -10547,14 +10556,16 @@ intersection_of: BFO:0000050 UBERON:0001890
 id: CL:0017500
 name: neutrophillic cytoplasm
 def: "Cytoplasm that exhibits a characteristic staining and color, pale-pink, with Wright-Giemsa stain." []
-is_a: GO:0005737
+intersection_of: GO:0005737
+intersection_of: RO:0000053 PATO:0070046
 
 [Term]
 id: CL:0017502
 name: acidophilic cytoplasm
 def: "Cytoplasm that exhibits a characteristic staining and color, red or pink, with Eosin stain." []
 synonym: "eosinophilic" NARROW []
-is_a: GO:0005737
+intersection_of: GO:0005737
+intersection_of: RO:0000053 PATO:0002418
 
 [Term]
 id: CL:0017503
@@ -10568,7 +10579,8 @@ intersection_of: RO:0000053 PATO:0002094
 id: CL:0017504
 name: polychromatophilic cytoplasm
 def: "Cytoplasm that exhibits affinity for both basic and acid stains under specific pH conditions." []
-is_a: GO:0005737
+intersection_of: GO:0005737
+intersection_of: RO:0000053 PATO:0070047
 
 [Term]
 id: CL:0017505
