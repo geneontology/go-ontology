@@ -8,9 +8,10 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-01-25/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-02-20/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -63,6 +64,12 @@
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -1003,6 +1010,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000035"/>
+        <oboInOwl:hasExactSynonym>epithelial stem cell</oboInOwl:hasExactSynonym>
         <rdfs:label>epithelial fate stem cell</rdfs:label>
     </owl:Class>
     
@@ -3765,23 +3773,16 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000214 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000214">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002078"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002018"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000153"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000213"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002078"/>
-        <obo:IAO_0000115>A meso-epithelial cell that lies between the cartilaginous fibers in the synovial membrane of a joint and produces hyaluronic acid.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002217"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A cell located in the synovial joint.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>synoviocyte</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym>hyaluronic acid secreting cell</oboInOwl:hasNarrowSynonym>
         <rdfs:label>synovial cell</rdfs:label>
     </owl:Class>
     
@@ -4511,17 +4512,6 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000327 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000327">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000151"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0070278"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000499"/>
         <rdfs:label>extracellular matrix secreting cell</rdfs:label>
     </owl:Class>
@@ -20908,8 +20898,34 @@
     <!-- http://purl.obolibrary.org/obo/CL_0002301 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002301">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000499"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002018"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000214"/>
-        <obo:IAO_0000115>A synovial cell type that resembles fibroblasts, has abundant granular endoplasmic reticulum but contains fewer vacuoles and vesicles. This cell type secretes glycoproteins and hyaluronic acid.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000499"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030213"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A resident stromal cell located in the synovial membrane and responsible for the production of immune-related cytokines and chemokines. This cell type secretes glycoproteins and hyaluronic acid, has abundant granular endoplasmic reticulum, but contains fewer vacuoles and vesicles.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>fibroblast-like synoviocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>synovial fibroblast</oboInOwl:hasExactSynonym>
         <rdfs:label>type B synovial cell</rdfs:label>
     </owl:Class>
     
@@ -21108,6 +21124,8 @@
         <obo:IAO_0000115>The milk-producing cell of the alveolar unit that emerges during pregnancy.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>epithelial cell of lactiferous gland</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>luminal cell of alveolus of lactiferous gland</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mammary alveolar epithelial cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mammary gland alveolar epithelial cell</oboInOwl:hasExactSynonym>
         <rdfs:label>mammary alveolar cell</rdfs:label>
     </owl:Class>
     
@@ -22635,6 +22653,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>A double-positive thymocyte that is undergoing positive selection, has high expression of the alpha-beta T cell receptor, is CD69-positive, and is in the process of down regulating the CD4 co-receptor.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>T.4int8+.Th</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>T_4int8+_Th</oboInOwl:hasExactSynonym>
         <rdfs:label>CD4-intermediate, CD8-positive double-positive thymocyte</rdfs:label>
     </owl:Class>
     
@@ -22674,7 +22693,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A double-positive thymocyte that is undergoing positive selection, has high expression of the alpha-beta T cell receptor, is CD69-positive, and is in the process of down regulating the CD8 co-receptor.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>T.4int8+.th</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>T.4+8int.Th</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>T_4+8int_Th</oboInOwl:hasExactSynonym>
         <rdfs:label>CD4-positive, CD8-intermediate double-positive thymocyte</rdfs:label>
     </owl:Class>
     
@@ -22879,7 +22899,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0002453 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002453">
-        <owl:equivalentClass>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000123"/>
@@ -22889,15 +22909,18 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000123"/>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000339"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The cell type from which oligodendrocytes develop. This cell originates from multiple structures within the developing brain including the medial ganglion eminence and the lateral ganglionic eminence. These cells migrate throughout the central nervous system and persist into adulthood where they play an important role in remyelination of injured neurons.</obo:IAO_0000115>
+        <obo:IAO_0000115>A progenitor cell of the central nervous system that can differentiate into oligodendrocytes or type-2 astrocytes. This cell originates from multiple structures within the developing brain including the medial ganglion eminence and the lateral ganglionic eminence. These cells migrate throughout the central nervous system and persist into adulthood where they play an important role in remyelination of injured neurons.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>O-2A/OPC</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>O2A/OPC</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>oligodendrocyte-type 2 astrocyte (O-2A) progenitor cell</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>oligodendrocyte/type-2 astrocyte progenitor cell</oboInOwl:hasBroadSynonym>
         <rdfs:label>oligodendrocyte precursor cell</rdfs:label>
     </owl:Class>
     
@@ -26721,6 +26744,7 @@
         </owl:equivalentClass>
         <obo:IAO_0000115>A CNS neuron of the cerebral cortex.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>cortical neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neuron of cerebral cortex</oboInOwl:hasExactSynonym>
         <rdfs:label>cerebral cortex neuron</rdfs:label>
     </owl:Class>
     
@@ -27278,7 +27302,17 @@
     <!-- http://purl.obolibrary.org/obo/CL_0017500 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0017500">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005737"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005737"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0070046"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <obo:IAO_0000115>Cytoplasm that exhibits a characteristic staining and color, pale-pink, with Wright-Giemsa stain.</obo:IAO_0000115>
         <rdfs:label>neutrophillic cytoplasm</rdfs:label>
     </owl:Class>
@@ -27288,7 +27322,17 @@
     <!-- http://purl.obolibrary.org/obo/CL_0017502 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0017502">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005737"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005737"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0002418"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <obo:IAO_0000115>Cytoplasm that exhibits a characteristic staining and color, red or pink, with Eosin stain.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym>eosinophilic</oboInOwl:hasNarrowSynonym>
         <rdfs:label>acidophilic cytoplasm</rdfs:label>
@@ -27320,7 +27364,17 @@
     <!-- http://purl.obolibrary.org/obo/CL_0017504 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0017504">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005737"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005737"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0070047"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <obo:IAO_0000115>Cytoplasm that exhibits affinity for both basic and acid stains under specific pH conditions.</obo:IAO_0000115>
         <rdfs:label>polychromatophilic cytoplasm</rdfs:label>
     </owl:Class>
@@ -31779,6 +31833,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0004990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004990"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0005044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005044"/>
@@ -32106,6 +32166,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0030210 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030210"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030213"/>
     
 
 
@@ -32955,12 +33021,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0070278 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070278"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0070459 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070459"/>
@@ -33315,6 +33375,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0002418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002418"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0002478 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002478"/>
@@ -33354,6 +33420,18 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0070015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0070015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0070046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0070046"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0070047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0070047"/>
     
 
 
@@ -33630,6 +33708,12 @@
     <!-- http://purl.obolibrary.org/obo/PR_000001483 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001483"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001635"/>
     
 
 
@@ -34473,6 +34557,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001090"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001132 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001132"/>
@@ -35124,6 +35214,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002196"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002217"/>
     
 
 
