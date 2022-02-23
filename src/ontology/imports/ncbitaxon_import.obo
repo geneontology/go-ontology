@@ -763,7 +763,7 @@ relationship: RO:0002162 NCBITaxon:1385 ! in taxon Bacillales
 id: NCBITaxon:1386
 name: Bacillus <firmicutes>
 synonym: "Bacillus" EXACT []
-synonym: "Bacillus rRNA group 1" RELATED []
+synonym: "Bacillus rRNA group 1" EXACT []
 is_a: NCBITaxon:186817 ! Bacillaceae
 relationship: RO:0002162 NCBITaxon:1386 ! in taxon Bacillus <firmicutes>
 
@@ -1604,7 +1604,7 @@ synonym: "Actinopycnidium Krasil'nikov 1962" RELATED []
 synonym: "Actinosporangium Krasil'nikov and Yuan 1961" RELATED []
 synonym: "Chainia" RELATED []
 synonym: "Elytrosporangium Falcao de Morais et al. 1966" RELATED []
-synonym: "Kitasatoa Matsumae and Hata 1968" RELATED []
+synonym: "Kitasatoa Matsumae and Hata 1968 (Approved Lists 1980)" RELATED []
 synonym: "Streptoverticillium Baldacci 1958" RELATED []
 is_a: NCBITaxon:2062 ! Streptomycetaceae
 relationship: RO:0002162 NCBITaxon:1883 ! in taxon Streptomyces
@@ -2061,9 +2061,9 @@ relationship: RO:0002162 NCBITaxon:213849 ! in taxon Campylobacterales
 id: NCBITaxon:214684
 name: Cryptococcus neoformans var. neoformans JEC21
 synonym: "Cryptococcus neoformans JEC21" EXACT []
-synonym: "Cryptococcus neoformans var. neoformans serotype D JEC21" RELATED []
+synonym: "Cryptococcus neoformans var. neoformans serotype D JEC21" EXACT []
 synonym: "Cryptococcus neoformans var. neoformans strain JEC21" EXACT []
-synonym: "Filobasidiella neoformans var. neoformans strain JEC21" RELATED []
+synonym: "Filobasidiella neoformans var. neoformans strain JEC21" EXACT []
 is_a: NCBITaxon:40410 ! Cryptococcus neoformans var. neoformans
 relationship: RO:0002162 NCBITaxon:214684 ! in taxon Cryptococcus neoformans var. neoformans JEC21
 
@@ -2909,7 +2909,6 @@ relationship: RO:0002162 NCBITaxon:2822797 ! in taxon Stipodae
 [Term]
 id: NCBITaxon:28231
 name: Geobacter
-synonym: "Trichlorobacter" RELATED []
 is_a: NCBITaxon:213422 ! Geobacteraceae
 relationship: RO:0002162 NCBITaxon:28231 ! in taxon Geobacter
 
@@ -5939,7 +5938,6 @@ relationship: RO:0002162 NCBITaxon:6238 ! in taxon Caenorhabditis briggsae
 id: NCBITaxon:6239
 name: Caenorhabditis elegans
 synonym: "Rhabditis elegans" RELATED []
-synonym: "roundworm" EXACT []
 is_a: NCBITaxon:6237 ! Caenorhabditis
 relationship: RO:0002162 NCBITaxon:6239 ! in taxon Caenorhabditis elegans
 
@@ -7744,6 +7742,8 @@ synonym: "cow" EXACT []
 synonym: "dairy cow" EXACT []
 synonym: "domestic cattle" EXACT []
 synonym: "domestic cow" EXACT []
+synonym: "ox" EXACT []
+synonym: "oxen" EXACT []
 is_a: NCBITaxon:9903 ! Bos
 relationship: RO:0002162 NCBITaxon:9913 ! in taxon Bos taurus
 

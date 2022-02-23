@@ -1791,7 +1791,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym>Bacillus</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>Bacillus rRNA group 1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>Bacillus rRNA group 1</oboInOwl:hasExactSynonym>
         <rdfs:label>Bacillus &lt;firmicutes&gt;</rdfs:label>
     </owl:Class>
     
@@ -3640,7 +3640,7 @@
         <oboInOwl:hasRelatedSynonym>Actinosporangium Krasil&apos;nikov and Yuan 1961</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Chainia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Elytrosporangium Falcao de Morais et al. 1966</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Kitasatoa Matsumae and Hata 1968</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Kitasatoa Matsumae and Hata 1968 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Streptoverticillium Baldacci 1958</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Streptomyces</rdfs:label>
     </owl:Class>
@@ -4619,9 +4619,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym>Cryptococcus neoformans JEC21</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cryptococcus neoformans var. neoformans serotype D JEC21</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Cryptococcus neoformans var. neoformans strain JEC21</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>Cryptococcus neoformans var. neoformans serotype D JEC21</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Filobasidiella neoformans var. neoformans strain JEC21</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>Filobasidiella neoformans var. neoformans strain JEC21</oboInOwl:hasExactSynonym>
         <rdfs:label>Cryptococcus neoformans var. neoformans JEC21</rdfs:label>
     </owl:Class>
     
@@ -6493,7 +6493,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28231"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym>Trichlorobacter</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Geobacter</rdfs:label>
     </owl:Class>
     
@@ -13077,7 +13076,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6239"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>roundworm</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Rhabditis elegans</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Caenorhabditis elegans</rdfs:label>
     </owl:Class>
@@ -16942,6 +16940,8 @@
         <oboInOwl:hasExactSynonym>dairy cow</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>domestic cattle</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>domestic cow</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ox</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>oxen</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Bos bovis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bos primigenius taurus</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Bos taurus</rdfs:label>
