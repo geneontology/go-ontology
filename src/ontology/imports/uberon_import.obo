@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-02-14/imports/uberon_import.owl
+data-version: go/releases/2022-02-23/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -339,7 +339,7 @@ relationship: has_part UBERON:0002006 ! cortex of lymph node
 relationship: has_part UBERON:0002007 ! medulla of lymph node
 relationship: has_part UBERON:0002194 ! capsule of lymph node
 relationship: has_part UBERON:0002391 ! lymph
-relationship: only_in_taxon NCBITaxon:7776
+relationship: in_taxon NCBITaxon:40674
 relationship: part_of UBERON:0002465 ! lymphoid system
 
 [Term]
@@ -2464,7 +2464,7 @@ def: "." []
 synonym: "folliculus lymphaticus" RELATED []
 synonym: "lymphatic follicle" RELATED []
 synonym: "lymphatic nodule" RELATED []
-synonym: "lymphoid nodule" EXACT []
+synonym: "lymphoid nodule" RELATED []
 synonym: "nodular lymphoid tissue" EXACT []
 synonym: "nodulus lymphaticus" RELATED []
 synonym: "nodulus lymphoideus" RELATED []
@@ -2546,7 +2546,6 @@ synonym: "lumen" BROAD []
 synonym: "lumen space" EXACT []
 synonym: "space" BROAD []
 is_a: UBERON:0000466 ! immaterial anatomical entity
-disjoint_from: UBERON:0006800 ! anatomical line
 relationship: surrounded_by UBERON:0000061 ! anatomical structure
 
 [Term]
@@ -2580,7 +2579,6 @@ relationship: part_of UBERON:0000468 ! multicellular organism
 id: UBERON:0000468
 name: multicellular organism
 def: "Anatomical structure that is an individual member of a species and consists of more than one cell." []
-synonym: "animal" NARROW []
 synonym: "body" RELATED []
 synonym: "Koerper" RELATED []
 synonym: "multi-cellular organism" EXACT []
@@ -3667,8 +3665,6 @@ synonym: "pudendum" RELATED []
 synonym: "pudendum femininum" EXACT []
 synonym: "pudendum femininum" RELATED []
 synonym: "pudendum muliebre" RELATED []
-synonym: "skin of female pudendum" EXACT []
-synonym: "skin of vulva" EXACT []
 synonym: "vulva" EXACT []
 is_a: UBERON:0000062 ! organ
 relationship: only_in_taxon NCBITaxon:40674
@@ -6169,7 +6165,7 @@ relationship: part_of UBERON:0002355 ! pelvic region of trunk
 [Term]
 id: UBERON:0001272
 name: innominate bone
-def: "A fused bone consisting of the ilium, ischium and and pubis. Together with the sacrum and coccyx, it comprises the pelvis. [WP,modified]." []
+def: "A fused bone consisting of the ilium, ischium and pubis. Together with the sacrum and coccyx, it comprises the pelvis. [WP,modified]." []
 synonym: "basipterygium" RELATED []
 synonym: "bone of pelvic girdle" BROAD []
 synonym: "coxal bone" EXACT []
@@ -10209,7 +10205,7 @@ id: UBERON:0001810
 name: nerve plexus
 def: "Anatomical junction where subdivisions of two or more neural trees interconnect with one another to form a network through which nerve fibers of the constituent nerve trees become regrouped; together with other nerve plexuses, nerves and ganglia, it constitutes the peripheral nervous system. Examples: cervical nerve plexus, brachial nerve plexus, sacral nerve plexus[FMA]." []
 synonym: "plexus" BROAD []
-is_a: UBERON:0003714 ! neural tissue
+is_a: UBERON:0007651 ! anatomical junction
 relationship: has_part CL:0000526
 relationship: has_part CL:0000527
 relationship: part_of UBERON:0001016 ! nervous system
@@ -13415,7 +13411,9 @@ id: UBERON:0002195
 name: trabecula of lymph node
 def: "Membranous process coming from capsule of lymph node[WP]." []
 synonym: "lymph node trabecula" EXACT []
+synonym: "lymph node trabeculae" EXACT []
 synonym: "lymph node trabeculum" EXACT []
+synonym: "trabeculae of lymph node" EXACT []
 intersection_of: UBERON:0000440 ! trabecula
 intersection_of: part_of UBERON:0000029 ! lymph node
 
@@ -18368,7 +18366,7 @@ intersection_of: part_of UBERON:0003117 ! pharyngeal arch 6
 [Term]
 id: UBERON:0003124
 name: chorion membrane
-def: "The outermost extraembryonic membrane." []
+def: "The outermost extraembryonic membrane of amniotes." []
 synonym: "chorion" EXACT []
 synonym: "chorion (vertebrates)" EXACT []
 synonym: "chorion frondosum" RELATED []
@@ -23682,6 +23680,7 @@ id: UBERON:0003886
 name: future coelemic cavity lumen
 def: "An anatomical cavity that has the potential to develop into a coelemic cavity lumen." []
 synonym: "body cavity precursor" RELATED []
+synonym: "future coelomic cavity lumen" EXACT []
 intersection_of: UBERON:0000464 ! anatomical space
 intersection_of: has_potential_to_develop_into UBERON:0002323 ! coelemic cavity lumen
 relationship: existence_ends_during UBERON:0000111 ! organogenesis stage
@@ -37356,12 +37355,6 @@ intersection_of: UBERON:0000483 ! epithelium
 intersection_of: composed_primarily_of CL:0000150
 
 [Term]
-id: UBERON:0006800
-name: anatomical line
-def: "Non-material anatomical entity of one dimension, which forms a boundary of an anatomical surface or is a modulation of an anatomical surface." []
-is_a: UBERON:0000015 ! non-material anatomical boundary
-
-[Term]
 id: UBERON:0006813
 name: nasal skeleton
 def: "Structural framework that provides support to the nasal sacs and ducts." []
@@ -40701,6 +40694,16 @@ intersection_of: UBERON:0001637 ! artery
 intersection_of: supplies UBERON:0001255 ! urinary bladder
 
 [Term]
+id: UBERON:0009029
+name: pudendal vein
+def: "Either the internal or external pudendal vein, running from the genital-vulvar area and abdomen and down the leg." []
+synonym: "pudic vein" RELATED []
+synonym: "vena pudendae" EXACT []
+synonym: "vena pudendales" EXACT []
+is_a: UBERON:0001638 ! vein
+relationship: part_of UBERON:0002355 ! pelvic region of trunk
+
+[Term]
 id: UBERON:0009030
 name: left pulmonary vein
 def: "Vein that drains left lung and returns blood to the heart." []
@@ -41728,7 +41731,7 @@ intersection_of: supplies UBERON:0001691 ! external ear
 [Term]
 id: UBERON:0009657
 name: artery of lip
-synonym: "labial artery" EXACT []
+synonym: "labial artery" BROAD []
 intersection_of: UBERON:0001637 ! artery
 intersection_of: supplies UBERON:0001833 ! lip
 
@@ -42087,7 +42090,7 @@ synonym: "MDO" RELATED []
 synonym: "mid-diencephalic organizer" RELATED []
 synonym: "ZLI" EXACT []
 synonym: "ZLI organizer" RELATED []
-intersection_of: UBERON:0006800 ! anatomical line
+intersection_of: UBERON:0007651 ! anatomical junction
 intersection_of: adjacent_to UBERON:0001900 ! ventral thalamus
 intersection_of: adjacent_to UBERON:0004703 ! dorsal thalamus
 relationship: part_of UBERON:0001897 ! dorsal plus ventral thalamus
@@ -43246,16 +43249,6 @@ synonym: "globe" RELATED []
 is_a: UBERON:0000020 ! sense organ
 relationship: contributes_to_morphology_of UBERON:0000019 ! camera-type eye
 relationship: part_of UBERON:0000019 ! camera-type eye
-
-[Term]
-id: UBERON:0010231
-name: anatomical line between outer ears
-synonym: "inter-otic line" RELATED []
-synonym: "inter-pinna line" RELATED []
-synonym: "otic line" RELATED []
-intersection_of: UBERON:0006800 ! anatomical line
-intersection_of: connects UBERON:0006616 ! right external ear
-intersection_of: connects UBERON:0006617 ! left external ear
 
 [Term]
 id: UBERON:0010233
@@ -46306,17 +46299,6 @@ intersection_of: UBERON:0008846 ! skeletal ligament
 intersection_of: part_of UBERON:0001469 ! sternoclavicular joint
 
 [Term]
-id: UBERON:0011877
-name: margin of tongue
-def: "The lateral border that separates the dorsum from the inferior surface of the tongue on each side, the two borders meeting anteriorly at the apex.." []
-synonym: "margo linguae" EXACT []
-synonym: "tongue margin" EXACT []
-intersection_of: UBERON:0006800 ! anatomical line
-intersection_of: connects UBERON:0007371 ! superior surface of tongue
-intersection_of: connects UBERON:0007373 ! inferior surface of tongue
-relationship: part_of UBERON:0001723 ! tongue
-
-[Term]
 id: UBERON:0011878
 name: muscle layer of esophagus
 def: "A muscle layer that is part of a wall of esophagus." []
@@ -47384,15 +47366,6 @@ relationship: has_part UBERON:0001773 ! sclera
 relationship: part_of UBERON:0010230 ! eyeball of camera-type eye
 
 [Term]
-id: UBERON:0012437
-name: epithelial-mesenchymal boundary
-def: "An anatomical line that adjacent_to a epithelium and adjacent_to a mesenchyme." []
-intersection_of: UBERON:0006800 ! anatomical line
-intersection_of: adjacent_to UBERON:0000483 ! epithelium
-intersection_of: adjacent_to UBERON:0003104 ! mesenchyme
-relationship: only_in_taxon NCBITaxon:6072
-
-[Term]
 id: UBERON:0012449
 name: mechanoreceptor
 def: "A sensory receptor that responds to mechanical pressure or distortion." []
@@ -48037,17 +48010,6 @@ synonym: "intracranial cavity" RELATED []
 synonym: "intracranial space" RELATED []
 intersection_of: UBERON:0002553 ! anatomical cavity
 intersection_of: luminal_space_of UBERON:0003129 ! skull
-relationship: part_of UBERON:0003129 ! skull
-
-[Term]
-id: UBERON:0013455
-name: spheno-petrosal fissure
-def: "The sphenopetrosal fissure (or sphenopetrosal suture) is the cranial suture between the sphenoid bone and the petrous portion of the temporal bone. It is in the middle cranial fossa." []
-synonym: "fissura sphenopetrosa" EXACT []
-synonym: "sphenopetrosal fissure" EXACT []
-intersection_of: UBERON:0006800 ! anatomical line
-intersection_of: connects UBERON:0001677 ! sphenoid bone
-intersection_of: connects UBERON:0001694 ! petrous part of temporal bone
 relationship: part_of UBERON:0003129 ! skull
 
 [Term]
@@ -49134,15 +49096,6 @@ is_a: UBERON:0035050 ! excretory duct
 intersection_of: UBERON:0000058 ! duct
 intersection_of: connects UBERON:0009912 ! anatomical lobe
 intersection_of: part_of UBERON:0002384 ! connective tissue
-
-[Term]
-id: UBERON:0014764
-name: anatomical line along groove
-def: "Anatomical line that delineates a furrow or depression in an organ or tissue." []
-synonym: "groove" RELATED []
-synonym: "line delineating groove" EXACT []
-intersection_of: UBERON:0006800 ! anatomical line
-intersection_of: in_superficial_part_of UBERON:0006846 ! surface groove
 
 [Term]
 id: UBERON:0014769
@@ -51238,6 +51191,14 @@ intersection_of: UBERON:0001638 ! vein
 intersection_of: drains UBERON:0002360 ! meninx
 
 [Term]
+id: UBERON:0018252
+name: internal pudendal vein
+def: "Accompanying vein of internal pudendal artery." []
+synonym: "internal pudic vein" RELATED []
+synonym: "vena pudenda interna" EXACT []
+is_a: UBERON:0009029 ! pudendal vein
+
+[Term]
 id: UBERON:0018254
 name: skeletal musculature
 is_a: UBERON:0000061 ! anatomical structure
@@ -51409,6 +51370,7 @@ intersection_of: part_of UBERON:0001474 ! bone element
 id: UBERON:0018667
 name: neck of scapula
 synonym: "anatomical neck of scapula" EXACT []
+synonym: "collum scapulae" EXACT []
 synonym: "scapular neck" EXACT []
 intersection_of: UBERON:0001560 ! neck of organ
 intersection_of: part_of UBERON:0006849 ! scapula
@@ -53768,6 +53730,21 @@ intersection_of: supplies UBERON:0001264 ! pancreas
 relationship: branching_part_of UBERON:0001194 ! splenic artery
 
 [Term]
+id: UBERON:0039355
+name: urethral artery
+synonym: "arteria urethralis" EXACT []
+intersection_of: UBERON:0001637 ! artery
+intersection_of: supplies UBERON:0000057 ! urethra
+
+[Term]
+id: UBERON:0039377
+name: urethral vein
+def: "A vein that drains the urethra." []
+intersection_of: UBERON:0001638 ! vein
+intersection_of: drains UBERON:0000057 ! urethra
+relationship: tributary_of UBERON:0018252 ! internal pudendal vein
+
+[Term]
 id: UBERON:1000004
 name: collection of hair on external ear
 def: "A collection of hairs that grows on the external ear." []
@@ -53962,13 +53939,6 @@ synonym: "anterior lateral line placodes" RELATED []
 synonym: "pre-auditory lateral line placode" RELATED []
 intersection_of: UBERON:0003067 ! dorsolateral placode
 intersection_of: part_of UBERON:2001468 ! anterior lateral line system
-
-[Term]
-id: UBERON:2001388
-name: epithelial mesenchymal boundary of regenerating fin/limb
-def: "An epithelial-mesenchymal boundary that is part of a regenerating fin/limb." []
-intersection_of: UBERON:0012437 ! epithelial-mesenchymal boundary
-intersection_of: part_of UBERON:2001269 ! regenerating fin/limb
 
 [Term]
 id: UBERON:2001389
@@ -54639,6 +54609,20 @@ intersection_of: UBERON:0005813 ! tubercle
 intersection_of: part_of UBERON:0008772 ! proximal epiphysis of tibia
 
 [Term]
+id: UBERON:7500073
+name: left nasal bone
+def: "Nasal bone on the left side of an organism when in anatomical position." []
+intersection_of: UBERON:0001681 ! nasal bone
+intersection_of: in_left_side_of UBERON:0000468 ! multicellular organism
+
+[Term]
+id: UBERON:7500074
+name: right nasal bone
+def: "Nasal bone on the right side of an organism when in anatomical position." []
+intersection_of: UBERON:0001681 ! nasal bone
+intersection_of: in_right_side_of UBERON:0000468 ! multicellular organism
+
+[Term]
 id: UBERON:8000006
 name: left side of back
 def: "Left part of the organism dorsal to a horizontal plane and bounded on one side by the same transverse plane." []
@@ -54922,10 +54906,20 @@ intersection_of: UBERON:0001982 ! capillary
 intersection_of: part_of UBERON:0001155 ! colon
 
 [Term]
+id: UBERON:8410068
+name: capillary of small intestine
+def: "A capillary that is part of a small intestine." []
+synonym: "blood vessel capillary of small intestine" EXACT []
+synonym: "small intestine capillary" EXACT []
+intersection_of: UBERON:0001982 ! capillary
+intersection_of: part_of UBERON:0002108 ! small intestine
+
+[Term]
 id: UBERON:8440004
 name: laminar subdivision of the cortex
 def: "One or a subset of adjacent layers of the neocortex." []
 is_a: UBERON:0011215 ! central nervous system cell part cluster
+relationship: part_of UBERON:0001950 ! neocortex
 
 [Typedef]
 id: adjacent_to
