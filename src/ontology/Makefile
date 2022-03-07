@@ -514,8 +514,8 @@ imports/substance_by_role.obo: imports/substance_by_role.owl
 # IMPORTED AND TRANSFERRED RHEA AXIOMS
 # ----------------------------------------
 
-rhea.ttl: ../sparql/construct-rhea-reactions.sparql
-	curl -X POST -F query="`cat ../sparql/construct-rhea-reactions.sparql`" --header "Accept:text/turtle" 'https://sparql.rhea-db.org/sparql' >$@.tmp && mv $@.tmp $@
+rhea.ttl: ../sparql/construct-rhea-reactions.sparql mirror/rhea.rdf
+	arq -q --data=mirror/rhea.rdf --query=../sparql/construct-rhea-reactions.sparql --results=turtle >$@
 
 extensions/rhea-reactions.ttl: rhea.ttl
 	$(AMM) ../util/construct_rhea_ontology.sc $< rhea-reactions.ofn && \
