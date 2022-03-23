@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-02-11/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-03-21/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -153851,20 +153851,8 @@ id: RO:0002234
 xref: RO:0002234
 
 [Typedef]
-id: RO:0002313
-xref: RO:0002313
-
-[Typedef]
 id: RO:0002332
 xref: RO:0002332
-
-[Typedef]
-id: RO:0002340
-xref: RO:0002340
-
-[Typedef]
-id: RO:0002345
-xref: RO:0002345
 
 [Typedef]
 id: RO:0004007
