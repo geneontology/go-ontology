@@ -447,9 +447,7 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0032504 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032504">
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/GO_0032505"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032504"/>
     
 
 

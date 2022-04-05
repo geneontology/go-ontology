@@ -8201,3 +8201,4 @@ http://purl.obolibrary.org/obo/CHEBI_74926 ## patulin
 http://purl.obolibrary.org/obo/CHEBI_10106 ## zearalenone
 http://purl.obolibrary.org/obo/CHEBI_156460 ## novofumigatonin
 http://purl.obolibrary.org/obo/CHEBI_146007 ## (M)-viriditoxin
+http://purl.obolibrary.org/obo/CHEBI_77772 ## ilicicolin H
