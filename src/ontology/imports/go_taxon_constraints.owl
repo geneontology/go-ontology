@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-04-06/imports/go_taxon_constraints.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-04-07/imports/go_taxon_constraints.owl"/>
     </owl:Ontology>
     
 
@@ -14961,6 +14961,7 @@
     
 
 
+<<<<<<< HEAD
     <!-- http://purl.obolibrary.org/obo/GO_0033577 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0033577">
@@ -15001,6 +15002,8 @@
     
 
 
+=======
+>>>>>>> e56a0690b3e03b50c9a25c541801e50b903734ef
     <!-- http://purl.obolibrary.org/obo/GO_0033614 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0033614">
