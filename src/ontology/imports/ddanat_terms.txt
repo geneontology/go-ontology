@@ -1,5 +1,0 @@
-http://purl.obolibrary.org/obo/DDANAT_0000012
-http://purl.obolibrary.org/obo/DDANAT_0000094
-http://purl.obolibrary.org/obo/DDANAT_0000012
-http://purl.obolibrary.org/obo/DDANAT_0000413
-http://purl.obolibrary.org/obo/DDANAT_0000414
