@@ -1,8 +1,0 @@
-prefix oio: <http://www.geneontology.org/formats/oboInOwl#>
-prefix owl: <http://www.w3.org/2002/07/owl#>
-
-SELECT ?c (COUNT(DISTINCT ?i) AS ?number) WHERE 
-{
-  ?i a ?c
-}
-GROUP BY ?c
