@@ -891,7 +891,11 @@
 <http://purl.obolibrary.org/obo/GO_0001968> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/macromolecular_complex_binding.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0001969> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0001969> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0001970> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
@@ -4650,7 +4654,11 @@
 <http://purl.obolibrary.org/obo/GO_0006933> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0006937> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0006937> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0006939> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
@@ -4875,7 +4883,11 @@
 <http://purl.obolibrary.org/obo/GO_0007315> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0007317> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0007317> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0007346> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
@@ -6276,7 +6288,11 @@
 <http://purl.obolibrary.org/obo/GO_0010027> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_organization.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0010029> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0010029> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0010030> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
@@ -7689,7 +7705,11 @@
 <http://purl.obolibrary.org/obo/GO_0010968> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0010969> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0010969> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0010971> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
@@ -7923,7 +7943,11 @@
 <http://purl.obolibrary.org/obo/GO_0014724> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0014725> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0014725> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0014726> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -13038,6 +13062,15 @@
 <http://purl.obolibrary.org/obo/GO_0032268> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
 
+<<<<<<< HEAD
+=======
+<http://purl.obolibrary.org/obo/GO_0032269> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032270> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0032271> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
 
@@ -13335,7 +13368,11 @@
 <http://purl.obolibrary.org/obo/GO_0032430> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0032434> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0032434> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0032435> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -13547,6 +13584,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0032643> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0032644> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
@@ -13656,6 +13694,117 @@
 <http://purl.obolibrary.org/obo/GO_0032680> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0032644> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032645> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032646> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032647> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032648> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032649> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032650> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032651> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032652> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032653> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032654> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032655> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032656> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032658> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032659> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032660> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032661> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032662> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032663> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032664> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032665> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032666> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032667> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032668> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032669> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032670> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032671> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032672> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032673> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032674> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032675> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032676> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032677> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032678> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032679> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032680> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0032681> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
 
@@ -14090,6 +14239,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0032879> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0032880> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
@@ -14118,6 +14268,36 @@
 <http://purl.obolibrary.org/obo/GO_0032888> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0032880> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032881> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032882> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032883> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032884> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032885> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032886> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032887> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0032888> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0032889> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
 
@@ -15002,6 +15182,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0033572> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/chemical_transport.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0033576> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
 # 
@@ -15014,13 +15195,21 @@
 
 <http://purl.obolibrary.org/obo/GO_0033579> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
 # 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0033578> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+# 
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 
 <http://purl.obolibrary.org/obo/GO_0033581> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0033582> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
 # 
 
+=======
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0033599> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
 
@@ -16238,6 +16427,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0035449> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0035450> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
 # 
@@ -16248,6 +16438,18 @@
 <http://purl.obolibrary.org/obo/GO_0035452> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> .
 # 
 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0035450> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0035451> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0035452> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0035453> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> .
 # 
 
@@ -16844,6 +17046,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0036405> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0036406> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
 # 
@@ -16851,6 +17054,15 @@
 <http://purl.obolibrary.org/obo/GO_0036418> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
 # 
 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0036406> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0036418> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0036419> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> .
 # 
 
@@ -16992,7 +17204,11 @@
 <http://purl.obolibrary.org/obo/GO_0039532> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0039533> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0039533> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0039534> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -17883,7 +18099,11 @@
 <http://purl.obolibrary.org/obo/GO_0042749> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0042752> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0042752> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0042753> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
@@ -22065,7 +22285,11 @@
 <http://purl.obolibrary.org/obo/GO_0046604> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0046605> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0046605> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0046606> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -22668,7 +22892,11 @@
 <http://purl.obolibrary.org/obo/GO_0048288> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0048293> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0048293> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0048294> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -25098,7 +25326,11 @@
 <http://purl.obolibrary.org/obo/GO_0051930> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0051931> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0051931> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0051937> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/chemical_transport.yaml> .
@@ -25572,7 +25804,11 @@
 <http://purl.obolibrary.org/obo/GO_0060101> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0060123> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0060123> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0060124> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
@@ -25602,7 +25838,11 @@
 <http://purl.obolibrary.org/obo/GO_0060157> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/x_development.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0060159> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0060159> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0060160> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -28545,7 +28785,11 @@
 <http://purl.obolibrary.org/obo/GO_0070234> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0070235> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0070235> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0070236> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -29240,9 +29484,12 @@
 
 <http://purl.obolibrary.org/obo/GO_0070920> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0070921> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
+=======
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 
 <http://purl.obolibrary.org/obo/GO_0070925> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml> .
 # 
@@ -29261,6 +29508,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0070949> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0070950> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
@@ -29271,6 +29519,18 @@
 <http://purl.obolibrary.org/obo/GO_0070952> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0070950> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0070951> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0070952> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0070953> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
 
@@ -30831,7 +31091,11 @@
 <http://purl.obolibrary.org/obo/GO_0075225> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0075227> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0075227> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0075228> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
@@ -30867,7 +31131,11 @@
 <http://purl.obolibrary.org/obo/GO_0075250> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0075252> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0075252> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0075253> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
@@ -30921,7 +31189,11 @@
 <http://purl.obolibrary.org/obo/GO_0075274> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0075276> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0075276> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0075277> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
@@ -31130,6 +31402,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0080135> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0080140> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
@@ -31137,6 +31410,15 @@
 <http://purl.obolibrary.org/obo/GO_0080141> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0080140> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0080141> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0080142> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
 
@@ -31379,6 +31661,12 @@
 
 <http://purl.obolibrary.org/obo/GO_0090063> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
+<<<<<<< HEAD
+=======
+
+<http://purl.obolibrary.org/obo/GO_0090065> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 
 <http://purl.obolibrary.org/obo/GO_0090066> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_of_characteristic.yaml> .
 # 
@@ -31839,6 +32127,7 @@
 <http://purl.obolibrary.org/obo/GO_0090282> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0090283> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
 
@@ -31848,6 +32137,8 @@
 <http://purl.obolibrary.org/obo/GO_0090285> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 # 
 
+=======
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0090287> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
 
@@ -32205,7 +32496,11 @@
 <http://purl.obolibrary.org/obo/GO_0097041> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0097042> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0097042> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0097048> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
@@ -32471,6 +32766,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0097630> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0097631> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> .
 # 
@@ -32499,6 +32795,36 @@
 <http://purl.obolibrary.org/obo/GO_0097639> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
 # 
 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0097631> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0097632> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0097633> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0097634> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0097635> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0097636> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0097637> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0097638> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0097639> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0097640> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
 # 
 
@@ -32558,6 +32884,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0098659> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0098674> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> .
 # 
@@ -32580,6 +32907,30 @@
 <http://purl.obolibrary.org/obo/GO_0098703> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
 # 
 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0098674> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098675> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098693> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098694> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098696> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098702> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098703> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0098704> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> .
 # 
 
@@ -32594,6 +32945,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0098709> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0098710> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
 # 
@@ -32638,6 +32990,52 @@
 # 
 
 <http://purl.obolibrary.org/obo/GO_0098753> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+=======
+
+<http://purl.obolibrary.org/obo/GO_0098710> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098711> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098712> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098713> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098714> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098715> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098716> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098717> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098718> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098719> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098720> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098721> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098735> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation_of_characteristic.yaml> , <http://purl.obolibrary.org/obo/go/patterns/negative_regulation_of_characteristic.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098752> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098753> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0098755> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
@@ -32732,6 +33130,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0098889> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0098890> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
 # 
@@ -32742,6 +33141,18 @@
 <http://purl.obolibrary.org/obo/GO_0098892> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> .
 # 
 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0098890> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098891> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098892> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0098893> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> .
 # 
 
@@ -32831,6 +33242,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0098946> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0098947> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
 # 
@@ -32844,6 +33256,21 @@
 <http://purl.obolibrary.org/obo/GO_0098950> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
 # 
 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0098947> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098948> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098949> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0098950> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0098951> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
 # 
 
@@ -32910,11 +33337,16 @@
 <http://purl.obolibrary.org/obo/GO_0099021> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_0099025> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_0099025> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0099026> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0099027> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
 # 
@@ -32947,6 +33379,40 @@
 # 
 
 <http://purl.obolibrary.org/obo/GO_0099037> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+=======
+
+<http://purl.obolibrary.org/obo/GO_0099027> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099028> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099029> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099030> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099031> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099032> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099033> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099034> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099035> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099036> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099037> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/anchored_membrane_component.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_0099043> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
@@ -32963,6 +33429,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0099056> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0099057> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> .
 # 
@@ -32994,6 +33461,39 @@
 <http://purl.obolibrary.org/obo/GO_0099066> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
 # 
 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0099057> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099058> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099059> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099060> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099061> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099062> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099063> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099064> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099065> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099066> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0099067> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/integral_membrane_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
 # 
 
@@ -33029,6 +33529,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0099145> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0099146> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
 # 
@@ -33051,6 +33552,30 @@
 <http://purl.obolibrary.org/obo/GO_0099152> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0099146> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/intrinsic_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099147> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> , <http://purl.obolibrary.org/obo/go/patterns/extrinsic_membrane_component.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099148> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099149> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099150> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099151> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099152> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0099158> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
 
@@ -33092,6 +33617,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0099175> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0099176> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
@@ -33102,6 +33628,18 @@
 <http://purl.obolibrary.org/obo/GO_0099178> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0099176> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099177> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0099178> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0099179> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 # 
 
@@ -34208,6 +34746,7 @@
 
 <http://purl.obolibrary.org/obo/GO_0140202> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> .
 # 
+<<<<<<< HEAD
 
 <http://purl.obolibrary.org/obo/GO_0140203> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> .
 # 
@@ -34221,6 +34760,21 @@
 <http://purl.obolibrary.org/obo/GO_0140206> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> .
 # 
 
+=======
+
+<http://purl.obolibrary.org/obo/GO_0140203> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0140204> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0140205> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_0140206> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_0140207> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml> , <http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml> , <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> .
 # 
 
@@ -35934,7 +36488,11 @@
 <http://purl.obolibrary.org/obo/GO_1900470> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1900480> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1900480> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1900481> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -36636,7 +37194,11 @@
 <http://purl.obolibrary.org/obo/GO_1900731> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1900732> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1900732> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1900733> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -38118,7 +38680,11 @@
 <http://purl.obolibrary.org/obo/GO_1901255> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1901256> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1901256> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1901257> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -41187,7 +41753,11 @@
 <http://purl.obolibrary.org/obo/GO_1902512> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1902513> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1902513> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1902514> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
@@ -41793,7 +42363,11 @@
 <http://purl.obolibrary.org/obo/GO_1902836> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1902838> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1902838> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1902839> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -41856,7 +42430,11 @@
 <http://purl.obolibrary.org/obo/GO_1902860> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1902863> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1902863> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1902864> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -42957,7 +43535,11 @@
 <http://purl.obolibrary.org/obo/GO_1903313> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1903314> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1903314> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1903315> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -43092,6 +43674,18 @@
 <http://purl.obolibrary.org/obo/GO_1903361> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_localization_to.yaml> .
 # 
 
+<<<<<<< HEAD
+=======
+<http://purl.obolibrary.org/obo/GO_1903362> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_1903363> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
+# 
+
+<http://purl.obolibrary.org/obo/GO_1903364> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
+# 
+
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 <http://purl.obolibrary.org/obo/GO_1903365> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 # 
 
@@ -43644,7 +44238,11 @@
 <http://purl.obolibrary.org/obo/GO_1903592> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1903593> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1903593> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1903594> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -44637,7 +45235,11 @@
 <http://purl.obolibrary.org/obo/GO_1904018> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1904020> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1904020> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1904021> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -44841,7 +45443,11 @@
 <http://purl.obolibrary.org/obo/GO_1904100> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1904103> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1904103> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1904104> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -44952,7 +45558,11 @@
 <http://purl.obolibrary.org/obo/GO_1904151> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1904152> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1904152> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1904153> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -47919,7 +48529,11 @@
 <http://purl.obolibrary.org/obo/GO_1905434> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1905435> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1905435> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1905436> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -47976,7 +48590,11 @@
 <http://purl.obolibrary.org/obo/GO_1905458> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1905459> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1905459> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1905460> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -48135,7 +48753,11 @@
 <http://purl.obolibrary.org/obo/GO_1905516> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1905518> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1905518> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1905519> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -48465,7 +49087,11 @@
 <http://purl.obolibrary.org/obo/GO_1905650> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1905651> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1905651> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1905652> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -49182,7 +49808,11 @@
 <http://purl.obolibrary.org/obo/GO_1905938> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_1905939> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_1905939> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_1905940> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -51615,7 +52245,11 @@
 <http://purl.obolibrary.org/obo/GO_2000781> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_2000782> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_2000782> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_2000783> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -51651,7 +52285,11 @@
 <http://purl.obolibrary.org/obo/GO_2000793> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_2000794> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_2000794> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_2000795> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -51681,7 +52319,11 @@
 <http://purl.obolibrary.org/obo/GO_2000803> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_2000804> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_2000804> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_2000805> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -52866,7 +53508,11 @@
 <http://purl.obolibrary.org/obo/GO_2001232> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 # 
 
+<<<<<<< HEAD
 <http://purl.obolibrary.org/obo/GO_2001233> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
+=======
+<http://purl.obolibrary.org/obo/GO_2001233> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> , <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+>>>>>>> 96a5d195977b0ccb7e1e7bc60427dbaedbdd8c04
 # 
 
 <http://purl.obolibrary.org/obo/GO_2001234> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .

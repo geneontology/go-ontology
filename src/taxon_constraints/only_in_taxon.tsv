@@ -632,8 +632,6 @@ GO:0002499	proteolysis within endosome associated with antigen processing and pr
 GO:0032468	Golgi calcium ion homeostasis	NCBITaxon:2759	Eukaryota	
 GO:0033260	nuclear DNA replication	NCBITaxon:2759	Eukaryota	
 GO:0033260	nuclear DNA replication	NCBITaxon:2759	Eukaryota	
-GO:0033578	protein glycosylation in Golgi	NCBITaxon:2759	Eukaryota	
-GO:0033581	protein galactosylation in Golgi	NCBITaxon:2759	Eukaryota	
 GO:0042073	intraciliary transport	NCBITaxon:2759	Eukaryota	
 GO:0099003	vesicle-mediated transport in synapse	NCBITaxon:33208	Metazoa	
 GO:0099003	vesicle-mediated transport in synapse	NCBITaxon:33208	Metazoa	
@@ -688,7 +686,6 @@ GO:0140250	regulation protein catabolic process at synapse	NCBITaxon:33208	Metaz
 GO:1904381	Golgi apparatus mannose trimming	NCBITaxon:2759	Eukaryota	
 GO:1905951	mitochondrion DNA recombination	NCBITaxon:2759	Eukaryota	
 GO:1990180	mitochondrial tRNA 3'-end processing	NCBITaxon:2759	Eukaryota	
-GO:1990613	mitochondrial membrane fusion	NCBITaxon:2759	Eukaryota	
 GO:2000803	endosomal signal transduction	NCBITaxon:2759	Eukaryota	
 GO:0000957	mitochondrial RNA catabolic process	NCBITaxon:2759	Eukaryota	
 GO:0000958	mitochondrial mRNA catabolic process	NCBITaxon:2759	Eukaryota	
@@ -715,8 +712,6 @@ GO:0032043	mitochondrial DNA catabolic process	NCBITaxon:2759	Eukaryota
 GO:0032469	endoplasmic reticulum calcium ion homeostasis	NCBITaxon:2759	Eukaryota	
 GO:0032507	maintenance of protein location in cell	NCBITaxon:131567	cellular organisms	
 GO:0032543	mitochondrial translation	NCBITaxon:2759	Eukaryota	
-GO:0033577	protein glycosylation in endoplasmic reticulum	NCBITaxon:2759	Eukaryota	
-GO:0033579	protein galactosylation in endoplasmic reticulum	NCBITaxon:2759	Eukaryota	
 GO:0033615	mitochondrial proton-transporting ATP synthase complex assembly	NCBITaxon:2759	Eukaryota	
 GO:0033617	mitochondrial respiratory chain complex IV assembly	NCBITaxon:2759	Eukaryota	
 GO:0034551	mitochondrial respiratory chain complex III assembly	NCBITaxon:2759	Eukaryota	
