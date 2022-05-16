@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-02-12/imports/pato_import.owl
+data-version: go/releases/2022-05-16/imports/pato_import.owl
 ontology: go/imports/pato_import
 
 [Term]
@@ -11,6 +11,13 @@ relationship: has_part GO:0005634 {gci_filler="PATO:0001407", gci_relation="RO:0
 id: PATO:0000001
 name: quality
 def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" []
+
+[Term]
+id: PATO:0000033
+name: concentration of
+def: "A quality inhering in a substance by virtue of the amount of the bearer's there is mixed with another substance." []
+synonym: "concentration" EXACT []
+is_a: PATO:0002182 ! molecular quality
 
 [Term]
 id: PATO:0000051
@@ -114,6 +121,13 @@ def: "A cellular quality inhering in a bearer by virtue of the bearer's having t
 is_a: PATO:0001396 ! cellular quality
 
 [Term]
+id: PATO:0001842
+name: acidity
+def: "A concentration quality inhering in a bearer by virtue of the bearer's containing acid (hydrogen ions)." []
+synonym: "pH" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
 id: PATO:0001873
 name: cylindrical
 def: "A convex 3-D shape quality inhering in a bearer by virtue of the bearer's exhibiting a consistently-sized round cross section." []
@@ -143,6 +157,13 @@ name: convex 3-D shape
 def: "A complete three dimensional shape in which for every line connecting pair of points on the object is within the object. Or: a shape lacking cavities. Contrast: concave." []
 is_a: PATO:0002266 ! 3-D shape
 relationship: RO:0015011 PATO:0002006 ! 2-D shape
+
+[Term]
+id: PATO:0002182
+name: molecular quality
+def: "A quality which inheres in a molecular entity, a single molecule, atom, ion, radical etc." []
+synonym: "relational molecular quality" EXACT []
+is_a: PATO:0001241 ! physical object quality
 
 [Term]
 id: PATO:0002226
