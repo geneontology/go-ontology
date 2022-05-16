@@ -421,6 +421,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_0000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000076"/>
+        <obo:IAO_0000115>The acidity when measured in cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>cell acidity</oboInOwl:hasExactSynonym>
+        <rdfs:label>cellular pH</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_0000061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000061">
@@ -739,16 +750,6 @@
         <obo:IAO_0000115>The size of a nucleus.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>size of nucleus</oboInOwl:hasExactSynonym>
         <rdfs:label>nuclear size</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_0000121 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000121">
-        <obo:IAO_0100001>PATO:0001842</obo:IAO_0100001>
-        <rdfs:label>obsolete pH</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1310,6 +1311,17 @@
         <obo:IAO_0000115>The morphology of a cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>morphology of cell</oboInOwl:hasExactSynonym>
         <rdfs:label>cell morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1001087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100002"/>
+        <obo:IAO_0000115>The rate of a heart contraction.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>rate of heart contraction</oboInOwl:hasExactSynonym>
+        <rdfs:label>heart rate</rdfs:label>
     </owl:Class>
     
 

@@ -162,6 +162,13 @@ is_a: OBA:0000015 ! anatomical structure size
 is_a: OBA:0100001 ! cellular component attribute
 
 [Term]
+id: OBA:0000058
+name: cellular pH
+def: "The acidity when measured in cell." []
+synonym: "cell acidity" EXACT []
+is_a: OBA:1000076 ! attribute of cell
+
+[Term]
 id: OBA:0000061
 name: circulating fibrinogen levels
 def: "The amount of a fibrinogen complex." []
@@ -366,12 +373,6 @@ def: "The size of a nucleus." []
 synonym: "size of nucleus" EXACT []
 is_a: OBA:0000057 ! cellular component size
 is_a: OBA:1000019 ! nucleus morphology
-
-[Term]
-id: OBA:0000121
-name: obsolete pH
-is_obsolete: true
-replaced_by: PATO:0001842
 
 [Term]
 id: OBA:0000122
@@ -733,6 +734,13 @@ name: cell morphology
 def: "The morphology of a cell." []
 synonym: "morphology of cell" EXACT []
 is_a: OBA:1000076 ! attribute of cell
+
+[Term]
+id: OBA:1001087
+name: heart rate
+def: "The rate of a heart contraction." []
+synonym: "rate of heart contraction" EXACT []
+is_a: OBA:0100002 ! biological process attribute
 
 [Term]
 id: OBA:VT0000056
