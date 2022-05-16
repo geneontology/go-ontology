@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/go/imports/oba_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/go/imports/oba_import.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/oba_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2017-04-25/imports/oba_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-05-16/imports/oba_import.owl"/>
     </owl:Ontology>
     
 
@@ -27,25 +27,135 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
+        <rdfs:label>term replaced by</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label>has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label>shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#deprecated -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#deprecated"/>
     
 
 
@@ -63,7 +173,7 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological attribute</rdfs:label>
+        <rdfs:label>biological attribute</rdfs:label>
     </owl:Class>
     
 
@@ -73,9 +183,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000007"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000171"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The diameter of a Malpighian tubule.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diameter of Malpighian tubule</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malpighian tubule diameter</rdfs:label>
+        <obo:IAO_0000115>The diameter of a Malpighian tubule.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>diameter of Malpighian tubule</oboInOwl:hasExactSynonym>
+        <rdfs:label>Malpighian tubule diameter</rdfs:label>
     </owl:Class>
     
 
@@ -84,11 +194,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000172"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010454"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000777"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a Malpighian tubule.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of Malpighian tubule</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malpighian tubule size</rdfs:label>
+        <obo:IAO_0000115>The size of a Malpighian tubule.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of Malpighian tubule</oboInOwl:hasExactSynonym>
+        <rdfs:label>Malpighian tubule size</rdfs:label>
     </owl:Class>
     
 
@@ -97,9 +205,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0001001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The macromolecular stability of a RNA.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecular stability of RNA</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA stability</rdfs:label>
+        <obo:IAO_0000115>The macromolecular stability of a RNA.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>macromolecular stability of RNA</oboInOwl:hasExactSynonym>
+        <rdfs:label>RNA stability</rdfs:label>
     </owl:Class>
     
 
@@ -108,9 +216,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000057"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of a actin filament.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length of actin filament</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">actin filament length</rdfs:label>
+        <obo:IAO_0000115>The length of a actin filament.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>length of actin filament</oboInOwl:hasExactSynonym>
+        <rdfs:label>actin filament length</rdfs:label>
     </owl:Class>
     
 
@@ -119,9 +227,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a anatomical structure.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of anatomical structure</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical structure size</rdfs:label>
+        <obo:IAO_0000115>The size of a anatomical structure.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of anatomical structure</oboInOwl:hasExactSynonym>
+        <rdfs:label>anatomical structure size</rdfs:label>
     </owl:Class>
     
 
@@ -130,12 +238,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000079"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010248"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010454"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000784"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of a angiotensin II when measured in blood.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood angiotensin II amount</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angiotensin levels in blood</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005416"/>
+        <obo:IAO_0000115>The amount of a angiotensin II when measured in blood.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>blood angiotensin II amount</oboInOwl:hasExactSynonym>
+        <rdfs:label>angiotensin levels in blood</rdfs:label>
     </owl:Class>
     
 
@@ -143,10 +249,10 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a hunger motivation behavior.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of hunger motivation behavior</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appetite</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000369"/>
+        <obo:IAO_0000115>The quality of a hunger motivation behavior.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of hunger motivation behavior</oboInOwl:hasExactSynonym>
+        <rdfs:label>appetite</rdfs:label>
     </owl:Class>
     
 
@@ -156,9 +262,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000057"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a autophagosome.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of autophagosome</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autophagic vacuole size</rdfs:label>
+        <obo:IAO_0000115>The size of a autophagosome.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of autophagosome</oboInOwl:hasExactSynonym>
+        <rdfs:label>autophagic vacuole size</rdfs:label>
     </owl:Class>
     
 
@@ -166,10 +272,10 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000115"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The diameter of a axon.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diameter of axon</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">axon diameter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003797"/>
+        <obo:IAO_0000115>The diameter of a axon.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>diameter of axon</oboInOwl:hasExactSynonym>
+        <rdfs:label>axon diameter</rdfs:label>
     </owl:Class>
     
 
@@ -179,9 +285,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000172"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001614"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a blood vessel.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of blood vessel</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood vessel size</rdfs:label>
+        <obo:IAO_0000115>The size of a blood vessel.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of blood vessel</oboInOwl:hasExactSynonym>
+        <rdfs:label>blood vessel size</rdfs:label>
     </owl:Class>
     
 
@@ -189,10 +295,10 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010454"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The volume when measured in multicellular organism.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body fluid levels</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <obo:IAO_0000115>The volume of a bodily fluid.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>volume of bodily fluid</oboInOwl:hasExactSynonym>
+        <rdfs:label>body fluid levels</rdfs:label>
     </owl:Class>
     
 
@@ -200,8 +306,8 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brood size</rdfs:label>
+        <obo:IAO_0100001>PATO:0000276</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -209,8 +315,8 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">buoyancy</rdfs:label>
+        <obo:IAO_0100001>PATO:0001420</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -219,9 +325,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of of a calcium ion.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of of calcium ion</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calcium ion concentration</rdfs:label>
+        <obo:IAO_0000115>The concentration of of a calcium ion.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>concentration of of calcium ion</oboInOwl:hasExactSynonym>
+        <rdfs:label>calcium ion concentration</rdfs:label>
     </owl:Class>
     
 
@@ -231,11 +337,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000099"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000076"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010454"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000784"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The membrane potential of a cardiac muscle cell.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane potential of cardiac muscle cell</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiac muscle cell membrane potential</rdfs:label>
+        <obo:IAO_0000115>The membrane potential of a cardiac muscle cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>membrane potential of cardiac muscle cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>cardiac muscle cell membrane potential</rdfs:label>
     </owl:Class>
     
 
@@ -244,9 +348,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000055"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The diameter of a cell.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diameter of cell</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell diameter</rdfs:label>
+        <obo:IAO_0000115>The diameter of a cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>diameter of cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>cell diameter</rdfs:label>
     </owl:Class>
     
 
@@ -254,11 +358,8 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000058"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000076"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The pH of a cell.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH of cell</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell pH</rdfs:label>
+        <obo:IAO_0100001>OBA:0000058</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -267,9 +368,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000057"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a cell projection.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of cell projection</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell projection size</rdfs:label>
+        <obo:IAO_0000115>The size of a cell projection.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of cell projection</oboInOwl:hasExactSynonym>
+        <rdfs:label>cell projection size</rdfs:label>
     </owl:Class>
     
 
@@ -278,9 +379,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1001065"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The shape of a cell.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shape of cell</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell shape</rdfs:label>
+        <obo:IAO_0000115>The shape of a cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>shape of cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>cell shape</rdfs:label>
     </owl:Class>
     
 
@@ -290,9 +391,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000057"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1001065"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a cell.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of cell</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell size</rdfs:label>
+        <obo:IAO_0000115>The size of a cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>cell size</rdfs:label>
     </owl:Class>
     
 
@@ -301,9 +402,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000055"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The volume of a cell.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume of cell</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell volume</rdfs:label>
+        <obo:IAO_0000115>The volume of a cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>volume of cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>cell volume</rdfs:label>
     </owl:Class>
     
 
@@ -313,19 +414,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a cellular_component.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of cellular_component</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular component size</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_0000058 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000058">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000121"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The acidity when measured in cell.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular pH</rdfs:label>
+        <obo:IAO_0000115>The size of a cellular_component.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of cellular_component</oboInOwl:hasExactSynonym>
+        <rdfs:label>cellular component size</rdfs:label>
     </owl:Class>
     
 
@@ -334,10 +425,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of a fibrinogen complex.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amount of fibrinogen complex</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circulating fibrinogen levels</rdfs:label>
+        <obo:IAO_0000115>The amount of a fibrinogen complex.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>amount of fibrinogen complex</oboInOwl:hasExactSynonym>
+        <rdfs:label>circulating fibrinogen levels</rdfs:label>
     </owl:Class>
     
 
@@ -347,9 +437,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000052"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0100007"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The direction of a cell growth.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">direction of cell growth</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">direction of cell growth</rdfs:label>
+        <obo:IAO_0000115>The direction of a cell growth.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>direction of cell growth</oboInOwl:hasExactSynonym>
+        <rdfs:label>direction of cell growth</rdfs:label>
     </owl:Class>
     
 
@@ -358,9 +448,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000052"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The shape of a embryonic cell.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shape of embryonic cell</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryonic cell shape</rdfs:label>
+        <obo:IAO_0000115>The shape of a embryonic cell (metazoa).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>shape of embryonic cell (metazoa)</oboInOwl:hasExactSynonym>
+        <rdfs:label>embryonic cell shape</rdfs:label>
     </owl:Class>
     
 
@@ -369,9 +459,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000142"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a endosome.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of endosome</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endosome size</rdfs:label>
+        <obo:IAO_0000115>The size of a endosome.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of endosome</oboInOwl:hasExactSynonym>
+        <rdfs:label>endosome size</rdfs:label>
     </owl:Class>
     
 
@@ -381,10 +471,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000055"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000102"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010454"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The microvillus length of a follicle cell.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microvillus length of follicle cell</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicle cell microvillus length</rdfs:label>
+        <obo:IAO_0000115>The microvillus length of a ovarian follicle cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>microvillus length of ovarian follicle cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>follicle cell microvillus length</rdfs:label>
     </owl:Class>
     
 
@@ -392,10 +481,8 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000074">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The rate of a heart contraction.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rate of heart contraction</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart contraction rate</rdfs:label>
+        <obo:IAO_0100001>OBA:1001087</obo:IAO_0100001>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -403,10 +490,10 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000079">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of a hormone.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amount of hormone</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hormone levels</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100004"/>
+        <obo:IAO_0000115>The amount of hormone.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>amount of hormone</oboInOwl:hasExactSynonym>
+        <rdfs:label>hormone levels</rdfs:label>
     </owl:Class>
     
 
@@ -416,9 +503,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0015071"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a imaginal disc-derived wing.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of imaginal disc-derived wing</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaginal disc-derived wing size</rdfs:label>
+        <obo:IAO_0000115>The size of a imaginal disc-derived wing.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of imaginal disc-derived wing</oboInOwl:hasExactSynonym>
+        <rdfs:label>imaginal disc-derived wing size</rdfs:label>
     </owl:Class>
     
 
@@ -427,9 +514,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The surface tension of a liquid configuration.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface tension of liquid configuration</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid surface tension</rdfs:label>
+        <obo:IAO_0000115>The surface tension of a liquid configuration.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>surface tension of liquid configuration</oboInOwl:hasExactSynonym>
+        <rdfs:label>liquid surface tension</rdfs:label>
     </owl:Class>
     
 
@@ -438,7 +525,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000114"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">long-term neuronal synaptic plasticity</rdfs:label>
+        <rdfs:label>long-term neuronal synaptic plasticity</rdfs:label>
     </owl:Class>
     
 
@@ -447,10 +534,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000183"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005388"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The pressure of a blood when measured in lung.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung blood pressure</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung blood pressure</rdfs:label>
+        <obo:IAO_0000115>The pressure of a blood when measured in lung.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>lung blood pressure</oboInOwl:hasExactSynonym>
+        <rdfs:label>lung blood pressure</rdfs:label>
     </owl:Class>
     
 
@@ -458,9 +544,10 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000050"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The acidity when measured in lysosomal lumen.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lysosomal lumen pH</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100001"/>
+        <obo:IAO_0000115>The acidity when measured in lysosomal lumen.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>lysosomal lumen acidity</oboInOwl:hasExactSynonym>
+        <rdfs:label>lysosomal lumen pH</rdfs:label>
     </owl:Class>
     
 
@@ -469,9 +556,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000092">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000028"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The permeability of a lysosomal membrane.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permeability of lysosomal membrane</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lysosomal membrane permeability</rdfs:label>
+        <obo:IAO_0000115>The permeability of a lysosomal membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>permeability of lysosomal membrane</oboInOwl:hasExactSynonym>
+        <rdfs:label>lysosomal membrane permeability</rdfs:label>
     </owl:Class>
     
 
@@ -480,9 +567,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000009"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The macromolecular stability of a mRNA.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecular stability of mRNA</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mRNA stability</rdfs:label>
+        <obo:IAO_0000115>The macromolecular stability of a mRNA.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>macromolecular stability of mRNA</oboInOwl:hasExactSynonym>
+        <rdfs:label>mRNA stability</rdfs:label>
     </owl:Class>
     
 
@@ -491,9 +578,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The spatial pattern of a lipid when measured in membrane.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane lipid spatial pattern</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane lipid distribution</rdfs:label>
+        <obo:IAO_0000115>The spatial pattern of a lipid when measured in membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>membrane lipid spatial pattern</oboInOwl:hasExactSynonym>
+        <rdfs:label>membrane lipid distribution</rdfs:label>
     </owl:Class>
     
 
@@ -502,9 +589,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000090"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The electric potential of a membrane.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electric potential of membrane</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane potential</rdfs:label>
+        <obo:IAO_0000115>The electric potential of a membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>electric potential of membrane</oboInOwl:hasExactSynonym>
+        <rdfs:label>membrane potential</rdfs:label>
     </owl:Class>
     
 
@@ -514,9 +601,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005425"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002706"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a metanephros.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of metanephros</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metanephric kidney size</rdfs:label>
+        <obo:IAO_0000115>The size of a metanephros.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of metanephros</oboInOwl:hasExactSynonym>
+        <rdfs:label>metanephric kidney size</rdfs:label>
     </owl:Class>
     
 
@@ -525,9 +612,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000051"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of a microvillus.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length of microvillus</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microvillus length</rdfs:label>
+        <obo:IAO_0000115>The length of a microvillus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>length of microvillus</oboInOwl:hasExactSynonym>
+        <rdfs:label>microvillus length</rdfs:label>
     </owl:Class>
     
 
@@ -536,9 +623,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000093"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The macromolecular stability of a mRNA when measured in mitochondrion.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrion mRNA macromolecular stability</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial mRNA stability</rdfs:label>
+        <obo:IAO_0000115>The macromolecular stability of a mRNA when measured in mitochondrion.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>mitochondrion mRNA macromolecular stability</oboInOwl:hasExactSynonym>
+        <rdfs:label>mitochondrial mRNA stability</rdfs:label>
     </owl:Class>
     
 
@@ -547,9 +634,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000028"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The permeability of a mitochondrial membrane.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permeability of mitochondrial membrane</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial membrane permeability</rdfs:label>
+        <obo:IAO_0000115>The permeability of a mitochondrial membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>permeability of mitochondrial membrane</oboInOwl:hasExactSynonym>
+        <rdfs:label>mitochondrial membrane permeability</rdfs:label>
     </owl:Class>
     
 
@@ -558,9 +645,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000099"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The membrane potential of a mitochondrial membrane.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane potential of mitochondrial membrane</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial membrane potential</rdfs:label>
+        <obo:IAO_0000115>The membrane potential of a mitochondrial membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>membrane potential of mitochondrial membrane</oboInOwl:hasExactSynonym>
+        <rdfs:label>mitochondrial membrane potential</rdfs:label>
     </owl:Class>
     
 
@@ -569,9 +656,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000129"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The macromolecular stability of a rRNA when measured in mitochondrion.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrion rRNA macromolecular stability</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial rRNA stability</rdfs:label>
+        <obo:IAO_0000115>The macromolecular stability of a rRNA when measured in mitochondrion.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>mitochondrion rRNA macromolecular stability</oboInOwl:hasExactSynonym>
+        <rdfs:label>mitochondrial rRNA stability</rdfs:label>
     </owl:Class>
     
 
@@ -580,9 +667,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000068"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a multivesicular body.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of multivesicular body</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multivesicular body size</rdfs:label>
+        <obo:IAO_0000115>The size of a multivesicular body.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of multivesicular body</oboInOwl:hasExactSynonym>
+        <rdfs:label>multivesicular body size</rdfs:label>
     </owl:Class>
     
 
@@ -591,9 +678,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The speed of a muscle filament sliding.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">speed of muscle filament sliding</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">muscle filament sliding speed</rdfs:label>
+        <obo:IAO_0000115>The speed of a muscle filament sliding.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>speed of muscle filament sliding</oboInOwl:hasExactSynonym>
+        <rdfs:label>muscle filament sliding speed</rdfs:label>
     </owl:Class>
     
 
@@ -602,9 +689,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of a myofibril.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amount of myofibril</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myofibril number</rdfs:label>
+        <obo:IAO_0000115>The amount of a myofibril.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>amount of myofibril</oboInOwl:hasExactSynonym>
+        <rdfs:label>myofibril number</rdfs:label>
     </owl:Class>
     
 
@@ -614,9 +701,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000057"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a myofibril.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of myofibril</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myofibril size</rdfs:label>
+        <obo:IAO_0000115>The size of a myofibril.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of myofibril</oboInOwl:hasExactSynonym>
+        <rdfs:label>myofibril size</rdfs:label>
     </owl:Class>
     
 
@@ -626,11 +713,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000114">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000141"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000076"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010454"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000781"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The synaptic plasticity of a neuron.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synaptic plasticity of neuron</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuronal synaptic plasticity</rdfs:label>
+        <obo:IAO_0000115>The synaptic plasticity of a neuron.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>synaptic plasticity of neuron</oboInOwl:hasExactSynonym>
+        <rdfs:label>neuronal synaptic plasticity</rdfs:label>
     </owl:Class>
     
 
@@ -639,9 +724,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of a neurotransmitter.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amount of neurotransmitter</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurotransmitter levels</rdfs:label>
+        <obo:IAO_0000115>The amount of a http://purl.obolibrary.org/obo/GOCHE_25512.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>amount of http://purl.obolibrary.org/obo/GOCHE_25512</oboInOwl:hasExactSynonym>
+        <rdfs:label>neurotransmitter levels</rdfs:label>
     </owl:Class>
     
 
@@ -651,21 +736,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000117">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000057"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000019"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a nucleus.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of nucleus</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear size</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_0000119 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000119">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of a nucleosome.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amount of nucleosome</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleosome density</rdfs:label>
+        <obo:IAO_0000115>The size of a nucleus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of nucleus</oboInOwl:hasExactSynonym>
+        <rdfs:label>nuclear size</rdfs:label>
     </owl:Class>
     
 
@@ -673,7 +746,9 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000121">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pH</rdfs:label>
+        <obo:IAO_0100001>PATO:0001842</obo:IAO_0100001>
+        <rdfs:label>obsolete pH</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -683,9 +758,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000122">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000057"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005997"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a peroxisome.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of peroxisome</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peroxisome size</rdfs:label>
+        <obo:IAO_0000115>The size of a peroxisome.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of peroxisome</oboInOwl:hasExactSynonym>
+        <rdfs:label>peroxisome size</rdfs:label>
     </owl:Class>
     
 
@@ -694,9 +769,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000123">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000098"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The spatial pattern of a sterol when measured in plasma membrane.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma membrane sterol spatial pattern</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plasma membrane sterol distribution</rdfs:label>
+        <obo:IAO_0000115>The spatial pattern of a sterol when measured in plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>plasma membrane sterol spatial pattern</oboInOwl:hasExactSynonym>
+        <rdfs:label>plasma membrane sterol distribution</rdfs:label>
     </owl:Class>
     
 
@@ -705,9 +780,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000142"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a post-lysosomal vacuole.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of post-lysosomal vacuole</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post-lysosomal vacuole size</rdfs:label>
+        <obo:IAO_0000115>The size of a post-lysosomal vacuole.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of post-lysosomal vacuole</oboInOwl:hasExactSynonym>
+        <rdfs:label>post-lysosomal vacuole size</rdfs:label>
     </owl:Class>
     
 
@@ -716,9 +791,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002706"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a pronephros.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of pronephros</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pronephric kidney size</rdfs:label>
+        <obo:IAO_0000115>The size of a pronephros.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of pronephros</oboInOwl:hasExactSynonym>
+        <rdfs:label>pronephric kidney size</rdfs:label>
     </owl:Class>
     
 
@@ -728,9 +803,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0001001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100005"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The macromolecular stability of a protein.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecular stability of protein</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein stability</rdfs:label>
+        <obo:IAO_0000115>The macromolecular stability of a protein.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>macromolecular stability of protein</oboInOwl:hasExactSynonym>
+        <rdfs:label>protein stability</rdfs:label>
     </owl:Class>
     
 
@@ -739,9 +814,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0001001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The macromolecular stability of a rRNA.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecular stability of rRNA</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rRNA stability</rdfs:label>
+        <obo:IAO_0000115>The macromolecular stability of a rRNA.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>macromolecular stability of rRNA</oboInOwl:hasExactSynonym>
+        <rdfs:label>rRNA stability</rdfs:label>
     </owl:Class>
     
 
@@ -750,7 +825,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000134">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000099"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resting membrane potential</rdfs:label>
+        <rdfs:label>resting membrane potential</rdfs:label>
     </owl:Class>
     
 
@@ -759,7 +834,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000136">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000114"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">short-term neuronal synaptic plasticity</rdfs:label>
+        <rdfs:label>short-term neuronal synaptic plasticity</rdfs:label>
     </owl:Class>
     
 
@@ -768,9 +843,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000138">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The amount of a spindle.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amount of spindle</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spindle density</rdfs:label>
+        <obo:IAO_0000115>The amount of a spindle.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>amount of spindle</oboInOwl:hasExactSynonym>
+        <rdfs:label>spindle density</rdfs:label>
     </owl:Class>
     
 
@@ -779,9 +854,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000139">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a synapse.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of synapse</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synapse structure and activity</rdfs:label>
+        <obo:IAO_0000115>The quality of a synapse.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of synapse</oboInOwl:hasExactSynonym>
+        <rdfs:label>synapse structure and activity</rdfs:label>
     </owl:Class>
     
 
@@ -790,7 +865,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000141"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synaptic metaplasticity</rdfs:label>
+        <rdfs:label>synaptic metaplasticity</rdfs:label>
     </owl:Class>
     
 
@@ -799,7 +874,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synaptic plasticity</rdfs:label>
+        <rdfs:label>synaptic plasticity</rdfs:label>
     </owl:Class>
     
 
@@ -808,9 +883,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000143">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT2000000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The pressure of a blood when measured in systemic artery.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">systemic artery blood pressure</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">systemic arterial blood pressure</rdfs:label>
+        <obo:IAO_0000115>The pressure of a blood when measured in systemic artery.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>systemic artery blood pressure</oboInOwl:hasExactSynonym>
+        <rdfs:label>systemic arterial blood pressure</rdfs:label>
     </owl:Class>
     
 
@@ -820,9 +895,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000832"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a dorsal plus ventral thalamus.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of dorsal plus ventral thalamus</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thalamus size</rdfs:label>
+        <obo:IAO_0000115>The size of a dorsal plus ventral thalamus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of dorsal plus ventral thalamus</oboInOwl:hasExactSynonym>
+        <rdfs:label>thalamus size</rdfs:label>
     </owl:Class>
     
 
@@ -831,10 +906,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000161">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The force of a heart contraction.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">force of heart contraction</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the force of heart contraction</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">force of heart contraction</rdfs:label>
+        <obo:IAO_0000115>The force of a heart contraction.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>force of heart contraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>the force of heart contraction</oboInOwl:hasExactSynonym>
+        <rdfs:label>force of heart contraction</rdfs:label>
     </owl:Class>
     
 
@@ -843,11 +918,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The speed of a skeletal muscle contraction.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">speed of skeletal muscle contraction</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the velocity of shortening of skeletal muscle modulating contraction</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">velocity of shortening of skeletal muscle</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">velocity of shortening of skeletal muscle modulating contraction</rdfs:label>
+        <obo:IAO_0000115>The speed of a skeletal muscle contraction.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>speed of skeletal muscle contraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>the velocity of shortening of skeletal muscle modulating contraction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>velocity of shortening of skeletal muscle</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>velocity of shortening of skeletal muscle modulating contraction</rdfs:label>
     </owl:Class>
     
 
@@ -855,11 +930,11 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000166 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000166">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000167"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000168"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000171"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The diameter of a respiratory tube.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diameter of respiratory tube</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tracheal tube diameter</rdfs:label>
+        <obo:IAO_0000115>The diameter of a respiratory tube.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>diameter of respiratory tube</oboInOwl:hasExactSynonym>
+        <rdfs:label>tracheal tube diameter</rdfs:label>
     </owl:Class>
     
 
@@ -868,9 +943,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000167">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000168"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of a respiratory tube.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length of respiratory tube</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tracheal tube length</rdfs:label>
+        <obo:IAO_0000115>The length of a respiratory tube.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>length of respiratory tube</oboInOwl:hasExactSynonym>
+        <rdfs:label>tracheal tube length</rdfs:label>
     </owl:Class>
     
 
@@ -880,9 +955,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000168">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000172"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004391"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a respiratory tube.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of respiratory tube</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tracheal tube size</rdfs:label>
+        <obo:IAO_0000115>The size of a respiratory tube.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of respiratory tube</oboInOwl:hasExactSynonym>
+        <rdfs:label>tracheal tube size</rdfs:label>
     </owl:Class>
     
 
@@ -891,10 +966,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000169">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002121"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The functionality of a translation.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">functionality of translation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translational fidelity</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">translational accuracy</rdfs:label>
+        <obo:IAO_0000115>The functionality of a translation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>functionality of translation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>translational fidelity</oboInOwl:hasExactSynonym>
+        <rdfs:label>translational accuracy</rdfs:label>
     </owl:Class>
     
 
@@ -903,9 +978,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000172"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The diameter of a tube.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diameter of tube</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tube diameter</rdfs:label>
+        <obo:IAO_0000115>The diameter of a tube.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>diameter of tube</oboInOwl:hasExactSynonym>
+        <rdfs:label>tube diameter</rdfs:label>
     </owl:Class>
     
 
@@ -914,9 +989,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a tube.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of tube</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tube size</rdfs:label>
+        <obo:IAO_0000115>The size of a tube.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of tube</oboInOwl:hasExactSynonym>
+        <rdfs:label>tube size</rdfs:label>
     </owl:Class>
     
 
@@ -925,11 +1000,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000036"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000056"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The volume of a urine.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume of urine</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urinary volume</rdfs:label>
+        <obo:IAO_0000115>The volume of a urine.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>volume of urine</oboInOwl:hasExactSynonym>
+        <rdfs:label>urinary volume</rdfs:label>
     </owl:Class>
     
 
@@ -938,9 +1012,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The permeability of a vessel.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permeability of vessel</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular permeability</rdfs:label>
+        <obo:IAO_0000115>The permeability of a vessel.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>permeability of vessel</oboInOwl:hasExactSynonym>
+        <rdfs:label>vascular permeability</rdfs:label>
     </owl:Class>
     
 
@@ -949,7 +1023,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral protein levels</rdfs:label>
+        <rdfs:label>viral protein levels</rdfs:label>
     </owl:Class>
     
 
@@ -959,9 +1033,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000183">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000032"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000171"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The diameter of a blood vessel.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diameter of blood vessel</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood vessel diameter</rdfs:label>
+        <obo:IAO_0000115>The diameter of a blood vessel.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>diameter of blood vessel</oboInOwl:hasExactSynonym>
+        <rdfs:label>blood vessel diameter</rdfs:label>
     </owl:Class>
     
 
@@ -970,7 +1044,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0001001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecular stability</rdfs:label>
+        <rdfs:label>macromolecular stability</rdfs:label>
     </owl:Class>
     
 
@@ -980,9 +1054,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003797">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000051"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005404"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a axon.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of axon</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">axon size</rdfs:label>
+        <obo:IAO_0000115>The size of a axon.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of axon</oboInOwl:hasExactSynonym>
+        <rdfs:label>axon size</rdfs:label>
     </owl:Class>
     
 
@@ -991,9 +1065,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0005425">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002135"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The morphology of a metanephros.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphology of metanephros</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metanephros morphology</rdfs:label>
+        <obo:IAO_0000115>The morphology of a metanephros.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of metanephros</oboInOwl:hasExactSynonym>
+        <rdfs:label>metanephros morphology</rdfs:label>
     </owl:Class>
     
 
@@ -1002,9 +1076,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0005997">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The morphology of a peroxisome.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphology of peroxisome</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peroxisome morphology</rdfs:label>
+        <obo:IAO_0000115>The morphology of a peroxisome.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of peroxisome</oboInOwl:hasExactSynonym>
+        <rdfs:label>peroxisome morphology</rdfs:label>
     </owl:Class>
     
 
@@ -1013,9 +1087,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0006038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000040"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The concentration of of a calcium ion when measured in cytosol.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytosol calcium ion concentration of</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration of of calcium ion in cytosol</rdfs:label>
+        <obo:IAO_0000115>The concentration of of a calcium ion when measured in cytosol.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>cytosol calcium ion concentration of</oboInOwl:hasExactSynonym>
+        <rdfs:label>concentration of of calcium ion in cytosol</rdfs:label>
     </owl:Class>
     
 
@@ -1024,9 +1098,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0007000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0001001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The macromolecular stability of a DNA.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecular stability of DNA</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA stability</rdfs:label>
+        <obo:IAO_0000115>The macromolecular stability of a DNA.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>macromolecular stability of DNA</oboInOwl:hasExactSynonym>
+        <rdfs:label>DNA stability</rdfs:label>
     </owl:Class>
     
 
@@ -1035,9 +1109,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0100001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a cellular_component.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of cellular_component</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular component attribute</rdfs:label>
+        <obo:IAO_0000115>The quality of a cellular_component.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of cellular_component</oboInOwl:hasExactSynonym>
+        <rdfs:label>cellular component attribute</rdfs:label>
     </owl:Class>
     
 
@@ -1046,9 +1120,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0100002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a biological_process.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of biological_process</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological process attribute</rdfs:label>
+        <obo:IAO_0000115>The quality of a biological_process.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of biological_process</oboInOwl:hasExactSynonym>
+        <rdfs:label>biological process attribute</rdfs:label>
     </owl:Class>
     
 
@@ -1057,9 +1131,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0100003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a anatomical entity.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of anatomical entity</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anatomical entity attribute</rdfs:label>
+        <obo:IAO_0000115>The quality of a anatomical entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of anatomical entity</oboInOwl:hasExactSynonym>
+        <rdfs:label>anatomical entity attribute</rdfs:label>
     </owl:Class>
     
 
@@ -1068,9 +1142,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0100004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a chemical entity.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of chemical entity</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity attribute</rdfs:label>
+        <obo:IAO_0000115>The quality of a chemical entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of chemical entity</oboInOwl:hasExactSynonym>
+        <rdfs:label>chemical entity attribute</rdfs:label>
     </owl:Class>
     
 
@@ -1079,9 +1153,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0100005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a protein.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of protein</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein attribute</rdfs:label>
+        <obo:IAO_0000115>The quality of a protein.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of protein</oboInOwl:hasExactSynonym>
+        <rdfs:label>protein attribute</rdfs:label>
     </owl:Class>
     
 
@@ -1090,10 +1164,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The morphology of a nucleus.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphology of nucleus</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleus morphology trait</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleus morphology</rdfs:label>
+        <obo:IAO_0000115>The morphology of a nucleus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of nucleus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nucleus morphology trait</oboInOwl:hasExactSynonym>
+        <rdfs:label>nucleus morphology</rdfs:label>
     </owl:Class>
     
 
@@ -1102,10 +1176,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000091"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The permeability of a membrane.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane permeability trait</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">permeability of membrane</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane permeability</rdfs:label>
+        <obo:IAO_0000115>The permeability of a membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>membrane permeability trait</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>permeability of membrane</oboInOwl:hasExactSynonym>
+        <rdfs:label>membrane permeability</rdfs:label>
     </owl:Class>
     
 
@@ -1114,12 +1188,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000227"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The opacity of a lens of camera-type eye.</obo:IAO_0000115>
-        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lens opacity</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lens transparency</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lens of camera-type eye opacity trait</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opacity of lens of camera-type eye</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lens of camera-type eye opacity</rdfs:label>
+        <obo:IAO_0000115>The opacity of a lens of camera-type eye.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>lens opacity</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>lens transparency</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>lens of camera-type eye opacity trait</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>opacity of lens of camera-type eye</oboInOwl:hasExactSynonym>
+        <rdfs:label>lens of camera-type eye opacity</rdfs:label>
     </owl:Class>
     
 
@@ -1127,12 +1201,10 @@
     <!-- http://purl.obolibrary.org/obo/OBA_1000076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a cell.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell quality trait</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of cell</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attribute of cell</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell attribute</rdfs:label>
+        <obo:IAO_0000115>The quality of a cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>cell quality trait</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>quality of cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>attribute of cell</rdfs:label>
     </owl:Class>
     
 
@@ -1141,11 +1213,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a organelle.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organelle quality trait</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of organelle</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attribute of organelle</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organelle attribute</rdfs:label>
+        <obo:IAO_0000115>The quality of a organelle.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>organelle quality trait</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>quality of organelle</oboInOwl:hasExactSynonym>
+        <rdfs:label>attribute of organelle</rdfs:label>
     </owl:Class>
     
 
@@ -1154,10 +1225,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a membrane.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane quality trait</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of membrane</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane quality</rdfs:label>
+        <obo:IAO_0000115>The quality of a membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>membrane quality trait</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>quality of membrane</oboInOwl:hasExactSynonym>
+        <rdfs:label>membrane quality</rdfs:label>
     </owl:Class>
     
 
@@ -1166,10 +1237,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000090"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The morphology of a membrane.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane morphology trait</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphology of membrane</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane morphology</rdfs:label>
+        <obo:IAO_0000115>The morphology of a membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>membrane morphology trait</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>morphology of membrane</oboInOwl:hasExactSynonym>
+        <rdfs:label>membrane morphology</rdfs:label>
     </owl:Class>
     
 
@@ -1178,22 +1249,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0100003"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a appendage.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appendage quality trait</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of appendage</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appendage trait</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_1000115 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000115">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003797"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The length of a axon.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">axon length trait</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length of axon</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">axon length</rdfs:label>
+        <obo:IAO_0000115>The quality of a appendage.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>appendage quality trait</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>quality of appendage</oboInOwl:hasExactSynonym>
+        <rdfs:label>appendage trait</rdfs:label>
     </owl:Class>
     
 
@@ -1203,10 +1262,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000057"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a vesicle.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of vesicle</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vesicle size trait</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vesicle size</rdfs:label>
+        <obo:IAO_0000115>The size of a vesicle.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of vesicle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>vesicle size trait</oboInOwl:hasExactSynonym>
+        <rdfs:label>vesicle size</rdfs:label>
     </owl:Class>
     
 
@@ -1215,11 +1274,31 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000227">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010454"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0015074"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a lens of camera-type eye.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of lens of camera-type eye</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lens of camera-type eye quality</rdfs:label>
+        <obo:IAO_0000115>The quality of a lens of camera-type eye.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of lens of camera-type eye</oboInOwl:hasExactSynonym>
+        <rdfs:label>lens of camera-type eye quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000369">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010442"/>
+        <obo:IAO_0000115>The quality of a behavior process.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of behavior process</oboInOwl:hasExactSynonym>
+        <rdfs:label>behavior process quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000947 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000947">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100004"/>
+        <obo:IAO_0000115>The amount of a nitrogen molecular entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>amount of nitrogen molecular entity</oboInOwl:hasExactSynonym>
+        <rdfs:label>nitrogen molecular entity amount</rdfs:label>
     </owl:Class>
     
 
@@ -1228,9 +1307,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000076"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The morphology of a cell.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphology of cell</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell morphology</rdfs:label>
+        <obo:IAO_0000115>The morphology of a cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>cell morphology</rdfs:label>
     </owl:Class>
     
 
@@ -1238,8 +1317,10 @@
     <!-- http://purl.obolibrary.org/obo/OBA_VT0000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000056">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality when measured in urine.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urine trait</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <obo:IAO_0000115>The quality when measured in urine.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>urine quality</oboInOwl:hasExactSynonym>
+        <rdfs:label>urine trait</rdfs:label>
     </owl:Class>
     
 
@@ -1248,12 +1329,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000183">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010248"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010454"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000784"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The pressure of a blood.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressure of blood</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood pressure trait</rdfs:label>
+        <obo:IAO_0000115>The pressure of a blood.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>pressure of blood</oboInOwl:hasExactSynonym>
+        <rdfs:label>blood pressure trait</rdfs:label>
     </owl:Class>
     
 
@@ -1262,11 +1340,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000832">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010454"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000781"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The morphology of a dorsal plus ventral thalamus.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphology of dorsal plus ventral thalamus</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thalamus morphology trait</rdfs:label>
+        <obo:IAO_0000115>The morphology of a dorsal plus ventral thalamus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of dorsal plus ventral thalamus</oboInOwl:hasExactSynonym>
+        <rdfs:label>thalamus morphology trait</rdfs:label>
     </owl:Class>
     
 
@@ -1275,11 +1351,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0001614">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010454"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000784"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The morphology of a blood vessel.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphology of blood vessel</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood vessel morphology trait</rdfs:label>
+        <obo:IAO_0000115>The morphology of a blood vessel.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of blood vessel</oboInOwl:hasExactSynonym>
+        <rdfs:label>blood vessel morphology trait</rdfs:label>
     </owl:Class>
     
 
@@ -1288,9 +1362,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002121">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a metabolic process.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of metabolic process</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolism trait</rdfs:label>
+        <obo:IAO_0000115>The quality of a metabolic process.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of metabolic process</oboInOwl:hasExactSynonym>
+        <rdfs:label>metabolism trait</rdfs:label>
     </owl:Class>
     
 
@@ -1299,11 +1373,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002135">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010454"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT1000777"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The morphology of a kidney.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphology of kidney</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney morphology trait</rdfs:label>
+        <obo:IAO_0000115>The morphology of a kidney.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of kidney</oboInOwl:hasExactSynonym>
+        <rdfs:label>kidney morphology trait</rdfs:label>
     </owl:Class>
     
 
@@ -1313,9 +1385,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002706">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002135"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The size of a kidney.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">size of kidney</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney size trait</rdfs:label>
+        <obo:IAO_0000115>The size of a kidney.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>size of kidney</oboInOwl:hasExactSynonym>
+        <rdfs:label>kidney size trait</rdfs:label>
     </owl:Class>
     
 
@@ -1324,21 +1396,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004391">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005388"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010454"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The morphology of a respiratory tube.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphology of respiratory tube</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory conducting tube morphology trait</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_VT0005388 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0005388">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0015074"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality when measured in respiratory system.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory system trait</rdfs:label>
+        <obo:IAO_0000115>The morphology of a respiratory tube.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of respiratory tube</oboInOwl:hasExactSynonym>
+        <rdfs:label>respiratory conducting tube morphology trait</rdfs:label>
     </owl:Class>
     
 
@@ -1347,28 +1407,43 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0005404">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0015108"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The morphology of a axon.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphology of axon</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">axon morphology trait</rdfs:label>
+        <obo:IAO_0000115>The morphology of a axon.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of axon</oboInOwl:hasExactSynonym>
+        <rdfs:label>axon morphology trait</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBA_VT0010248 -->
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0005416 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0010248">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0015074"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality when measured in hemolymphoid system.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemolymphoid system trait</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0005416">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010120"/>
+        <obo:IAO_0000115>The amount of a protein when measured in blood.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>blood protein amount</oboInOwl:hasExactSynonym>
+        <rdfs:label>blood protein amount</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBA_VT0010454 -->
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0010120 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0010454">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality when measured in multicellular organism.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism trait</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0010120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000947"/>
+        <obo:IAO_0000115>The amount of a protein.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>amount of protein</oboInOwl:hasExactSynonym>
+        <rdfs:label>protein amount</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0010442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0010442">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100002"/>
+        <obo:IAO_0000115>The quality of a behavior.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of behavior</oboInOwl:hasExactSynonym>
+        <rdfs:label>behavior trait</rdfs:label>
     </owl:Class>
     
 
@@ -1377,18 +1452,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0015071">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000099"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The morphology of a appendage.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphology of appendage</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">appendage morphology trait</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_VT0015074 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0015074">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality when measured in anatomical system.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ system trait</rdfs:label>
+        <obo:IAO_0000115>The morphology of a appendage.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of appendage</oboInOwl:hasExactSynonym>
+        <rdfs:label>appendage morphology trait</rdfs:label>
     </owl:Class>
     
 
@@ -1397,9 +1463,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0015108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100001"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The morphology of a neuron projection.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morphology of neuron projection</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurite morphology trait</rdfs:label>
+        <obo:IAO_0000115>The morphology of a neuron projection.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of neuron projection</oboInOwl:hasExactSynonym>
+        <rdfs:label>neurite morphology trait</rdfs:label>
     </owl:Class>
     
 
@@ -1408,10 +1474,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0100003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010454"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a organism subdivision.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of organism subdivision</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism subdivision trait</rdfs:label>
+        <obo:IAO_0000115>The quality of a organism subdivision.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of organism subdivision</oboInOwl:hasExactSynonym>
+        <rdfs:label>organism subdivision trait</rdfs:label>
     </owl:Class>
     
 
@@ -1420,39 +1485,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0100007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality of a growth.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of growth</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth trait</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_VT1000777 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT1000777">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0015074"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality when measured in renal system.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urinary system trait</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_VT1000781 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT1000781">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0015074"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality when measured in nervous system.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nervous/sensory system trait</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_VT1000784 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT1000784">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0015074"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The quality when measured in circulatory system.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circulatory system trait</rdfs:label>
+        <obo:IAO_0000115>The quality of a growth.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of growth</oboInOwl:hasExactSynonym>
+        <rdfs:label>growth trait</rdfs:label>
     </owl:Class>
     
 
@@ -1461,13 +1496,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT2000000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000183"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The pressure of a arterial blood.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pressure of arterial blood</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arterial blood pressure trait</rdfs:label>
+        <obo:IAO_0000115>The pressure of a arterial blood.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>pressure of arterial blood</oboInOwl:hasExactSynonym>
+        <rdfs:label>arterial blood pressure trait</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 
