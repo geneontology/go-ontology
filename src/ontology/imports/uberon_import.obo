@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-02-23/imports/uberon_import.owl
+data-version: go/releases/2022-05-19/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -284,7 +284,7 @@ synonym: "epidermal appendage" NARROW []
 synonym: "epidermal growth" RELATED []
 synonym: "skin appendage" EXACT []
 is_a: UBERON:0004529 ! anatomical projection
-relationship: attaches_to UBERON:0002097 ! skin of body
+relationship: attached_to UBERON:0002097 ! skin of body
 relationship: part_of UBERON:0002416 ! integumental system
 
 [Term]
@@ -623,7 +623,7 @@ synonym: "biological structure" EXACT []
 synonym: "connected biological structure" EXACT []
 is_a: UBERON:0000465 ! material anatomical entity
 relationship: existence_ends_during_or_before UBERON:0000071 ! death stage
-relationship: existence_starts_during_or_after UBERON:0000106 ! zygote stage
+relationship: existence_starts_during_or_after UBERON:0000106 {gci_relation="in_taxon", gci_filler="NCBITaxon:33208"} ! zygote stage
 
 [Term]
 id: UBERON:0000062
@@ -636,8 +636,8 @@ is_a: UBERON:0010000 ! multicellular anatomical structure
 disjoint_from: UBERON:0002095 ! mesentery
 disjoint_from: UBERON:0034921 ! multi organ part structure
 relationship: capable_of GO:0008150
-relationship: existence_starts_during_or_after UBERON:0000111 ! organogenesis stage
-relationship: has_boundary UBERON:0006984 ! anatomical surface
+relationship: existence_starts_during_or_after UBERON:0000111 {gci_filler="NCBITaxon:6072", gci_relation="in_taxon"} ! organogenesis stage
+relationship: has_2D_boundary UBERON:0006984 ! anatomical surface
 relationship: part_of UBERON:0000467 ! anatomical system
 
 [Term]
@@ -1787,12 +1787,15 @@ synonym: "cavum subarachnoideale" RELATED []
 synonym: "spatium leptomeningeum" RELATED []
 synonym: "spatium subarachnoideum" RELATED []
 synonym: "subarachnoid cavity" RELATED []
+synonym: "subarachnoid space of central nervous system" EXACT []
+synonym: "subarachnoid space of CNS" EXACT []
+synonym: "subarachnoid space of neuraxis" EXACT []
 intersection_of: UBERON:0000464 ! anatomical space
 intersection_of: adjacent_to UBERON:0002361 ! pia mater
 intersection_of: adjacent_to UBERON:0002362 ! arachnoid mater
 relationship: contains UBERON:0001359 ! cerebrospinal fluid
 relationship: contains UBERON:0001981 ! blood vessel
-relationship: part_of UBERON:0000955 ! brain
+relationship: part_of UBERON:0010743 ! meningeal cluster
 
 [Term]
 id: UBERON:0000316
@@ -1990,8 +1993,8 @@ synonym: "ligamentum nuchae" EXACT []
 synonym: "paddywhack" NARROW []
 synonym: "paxwax" RELATED []
 is_a: UBERON:0008846 ! skeletal ligament
-relationship: attaches_to UBERON:0001676 ! occipital bone
-relationship: attaches_to UBERON:0002413 ! cervical vertebra
+relationship: attached_to UBERON:0001676 ! occipital bone
+relationship: attached_to UBERON:0002413 ! cervical vertebra
 relationship: part_of UBERON:0012477 ! dorsal part of neck
 
 [Term]
@@ -2160,7 +2163,7 @@ synonym: "tongue skeletal muscle" EXACT []
 synonym: "tongue skeletal muscle tissue" EXACT []
 is_a: UBERON:0014892 ! skeletal muscle organ
 intersection_of: UBERON:0014892 ! skeletal muscle organ
-intersection_of: attaches_to_part_of UBERON:0001723 ! tongue
+intersection_of: attached_to_part_of UBERON:0001723 ! tongue
 union_of: UBERON:0001575 ! extrinsic muscle of tongue
 union_of: UBERON:0001576 ! intrinsic muscle of tongue
 relationship: contributes_to_morphology_of UBERON:0001723 ! tongue
@@ -2199,7 +2202,7 @@ name: apocrine sweat gland
 def: "Apocrine sweat glands are sweat glands composed of a coiled secretory portion located at the junction of the dermis and subcutaneous fat, from which a straight portion inserts and secretes into the infundibular portion of the hair follicle. The ducts of apocrine glands open into the canals of hair follicles. The stimulus for the secretion of apocrine sweat glands is adrenaline, which is a hormone carried in the blood[WP]." []
 synonym: "glandula sudorifera apocrina" EXACT []
 is_a: UBERON:0001820 ! sweat gland
-is_a: UBERON:0010243 ! merocrine gland
+is_a: UBERON:0008974 ! apocrine gland
 relationship: part_of UBERON:0001003 ! skin epidermis
 
 [Term]
@@ -2429,6 +2432,7 @@ relationship: has_part GO:0005581
 id: UBERON:0000440
 name: trabecula
 def: "A small, often microscopic, tissue element in the form of a small beam, strut or rod, generally having a mechanical function, and usually but not necessarily composed of dense collagenous tissue. On histological section, a trabecula can look like a septum, but in three dimensions they are topologically distinct, with trabeculae being roughly rod or pillar-shaped and septa being sheet-like. Trabeculae are usually composed of dense fibrous tissue, i.e. mainly of collagen, and in most cases provide mechanical strengthening or stiffening to a soft solid organ, such as the spleen. They can be composed of other materials, such as bone or muscle[WP]." []
+synonym: "trabeculae" EXACT []
 is_a: UBERON:0000064 ! organ part
 relationship: has_part UBERON:0002384 ! connective tissue
 relationship: has_quality PATO:0001873
@@ -2571,7 +2575,7 @@ synonym: "connected anatomical system" EXACT []
 synonym: "organ system" EXACT []
 synonym: "system" BROAD []
 is_a: UBERON:0000061 ! anatomical structure
-relationship: existence_starts_during_or_after UBERON:0000111 ! organogenesis stage
+relationship: existence_starts_during_or_after UBERON:0000111 {gci_filler="NCBITaxon:6072", gci_relation="in_taxon"} ! organogenesis stage
 relationship: has_part UBERON:0000062 ! organ
 relationship: part_of UBERON:0000468 ! multicellular organism
 
@@ -2645,11 +2649,11 @@ synonym: "cardinal body part" RELATED []
 is_a: UBERON:0010000 ! multicellular anatomical structure
 relationship: has_part UBERON:0000075 {gci_relation="part_of", gci_filler="NCBITaxon:7742"} ! subdivision of skeletal system
 relationship: has_part UBERON:0034929 {gci_relation="part_of", gci_filler="NCBITaxon:7742"} ! external soft tissue zone
-relationship: overlaps UBERON:0001009 ! circulatory system
-relationship: overlaps UBERON:0001015 ! musculature
-relationship: overlaps UBERON:0001016 ! nervous system
-relationship: overlaps UBERON:0001434 ! skeletal system
-relationship: overlaps UBERON:0002416 ! integumental system
+relationship: overlaps UBERON:0001009 {gci_filler="NCBITaxon:33213", gci_relation="in_taxon"} ! circulatory system
+relationship: overlaps UBERON:0001015 {gci_filler="NCBITaxon:6072", gci_relation="in_taxon"} ! musculature
+relationship: overlaps UBERON:0001016 {gci_filler="NCBITaxon:6072", gci_relation="in_taxon"} ! nervous system
+relationship: overlaps UBERON:0001434 {gci_filler="NCBITaxon:33213", gci_relation="in_taxon"} ! skeletal system
+relationship: overlaps UBERON:0002416 {gci_filler="NCBITaxon:6072", gci_relation="in_taxon"} ! integumental system
 relationship: part_of UBERON:0000468 ! multicellular organism
 
 [Term]
@@ -2675,7 +2679,7 @@ synonym: "extraembryonic structures" RELATED []
 synonym: "extraembryonic tissue" RELATED []
 intersection_of: UBERON:0005423 ! developing anatomical structure
 intersection_of: part_of UBERON:0016887 ! entire extraembryonic component
-relationship: existence_starts_and_ends_during UBERON:0000068 ! embryo stage
+relationship: existence_starts_and_ends_during UBERON:0000068 {gci_filler="NCBITaxon:6072", gci_relation="in_taxon"} ! embryo stage
 
 [Term]
 id: UBERON:0000479
@@ -2695,7 +2699,7 @@ def: "Anatomical structure that has as its parts two or more portions of tissue 
 synonym: "multi-tissue structures" RELATED []
 is_a: UBERON:0010000 ! multicellular anatomical structure
 relationship: has_part UBERON:0000479 ! tissue
-relationship: part_of NCBITaxon:6072
+relationship: part_of NCBITaxon:6072 {gci_filler="NCBITaxon:6072", gci_relation="in_taxon"}
 
 [Term]
 id: UBERON:0000483
@@ -5914,8 +5918,8 @@ synonym: "ligamentum falciforme (hepatis)" EXACT []
 synonym: "ligamentum falciforme hepatis" EXACT []
 is_a: UBERON:0013139 ! ligament of liver
 intersection_of: UBERON:0008845 ! nonskeletal ligament
-intersection_of: attaches_to UBERON:0000309 ! body wall
-intersection_of: attaches_to UBERON:0002107 ! liver
+intersection_of: attached_to UBERON:0000309 ! body wall
+intersection_of: attached_to UBERON:0002107 ! liver
 relationship: part_of UBERON:0002095 ! mesentery
 relationship: part_of UBERON:0005626 ! ventral mesogastrium
 
@@ -6137,6 +6141,7 @@ name: trabecula of spleen
 def: "A trabecula that is part of a spleen." []
 synonym: "spleen trabeculum" EXACT []
 synonym: "splenic trabecula" EXACT []
+synonym: "trabeculae of spleen" EXACT []
 intersection_of: UBERON:0000440 ! trabecula
 intersection_of: part_of UBERON:0002106 ! spleen
 relationship: part_of UBERON:1000024 ! parenchyma of spleen
@@ -6152,7 +6157,7 @@ intersection_of: located_in UBERON:0001179 ! peritoneal cavity
 [Term]
 id: UBERON:0001271
 name: pelvic girdle region
-def: "The organism subdivision that includes the pelvic girdle skeleton and associated soft tissue. Note that this includes both the skeletal elements and associated tissues (integument, muscle, etc). Examples: There are only two instances in an organism, right and left pectoral girdle regions." []
+def: "The organism subdivision that includes the pelvic girdle skeleton and associated soft tissue. Note that this includes both the skeletal elements and associated tissues (integument, muscle, etc). Examples: There are only two instances in an organism, right and left pelvic girdle regions." []
 synonym: "girdle - pelvic" RELATED []
 synonym: "pelvic girdle" RELATED []
 intersection_of: UBERON:0007823 ! appendage girdle region
@@ -6554,12 +6559,11 @@ synonym: "follicle of ovary viewed macroscopically" EXACT []
 synonym: "folliculi ovarici primarii" RELATED []
 synonym: "folliculi ovarici vesiculosi" RELATED []
 synonym: "ovary follicle" EXACT []
-is_a: UBERON:0000064 ! organ part
+is_a: UBERON:8450001 ! egg follicle
 relationship: develops_from UBERON:0005296 ! ovary sex cord
 relationship: has_part CL:0000023
 relationship: has_part CL:0002174
 relationship: has_part UBERON:0000038 ! follicular fluid
-relationship: part_of UBERON:0000992 ! ovary
 
 [Term]
 id: UBERON:0001306
@@ -6842,7 +6846,7 @@ synonym: "parietal serous membrane of peritoneum" EXACT []
 synonym: "peritoneal cavity lining" RELATED []
 intersection_of: UBERON:0022351 ! parietal serous membrane
 intersection_of: part_of UBERON:0002358 ! peritoneum
-relationship: attaches_to UBERON:0003697 ! abdominal wall
+relationship: attached_to UBERON:0003697 ! abdominal wall
 
 [Term]
 id: UBERON:0001383
@@ -7446,10 +7450,10 @@ synonym: "musculus deltoideus" EXACT []
 synonym: "musculus deltoideus" RELATED []
 is_a: UBERON:0001482 ! muscle of shoulder
 intersection_of: UBERON:0014892 ! skeletal muscle organ
-intersection_of: attaches_to UBERON:0000976 ! humerus
-intersection_of: attaches_to UBERON:0001105 ! clavicle bone
-intersection_of: attaches_to UBERON:0006849 ! scapula
-relationship: attaches_to UBERON:0002498 ! deltopectoral crest
+intersection_of: attached_to UBERON:0000976 ! humerus
+intersection_of: attached_to UBERON:0001105 ! clavicle bone
+intersection_of: attached_to UBERON:0006849 ! scapula
+relationship: attached_to UBERON:0002498 ! deltopectoral crest
 relationship: composed_primarily_of UBERON:0002036 ! striated muscle tissue
 relationship: develops_from UBERON:0006219 ! deltoid pre-muscle mass
 relationship: has_muscle_antagonist UBERON:0001112 ! latissimus dorsi muscle
@@ -7487,7 +7491,7 @@ synonym: "muscle organ of shoulder" EXACT []
 synonym: "shoulder muscle" EXACT []
 synonym: "shoulder muscle organ" EXACT []
 intersection_of: UBERON:0014892 ! skeletal muscle organ
-intersection_of: attaches_to UBERON:0003461 ! shoulder bone
+intersection_of: attached_to UBERON:0003461 ! shoulder bone
 relationship: overlaps UBERON:0001467 ! shoulder
 relationship: part_of UBERON:0004476 ! musculature of shoulder
 
@@ -8047,8 +8051,8 @@ synonym: "hyoglossus" EXACT []
 synonym: "m. hyoglossus" EXACT []
 is_a: UBERON:0001575 ! extrinsic muscle of tongue
 intersection_of: UBERON:0014892 ! skeletal muscle organ
-intersection_of: attaches_to UBERON:0001685 ! hyoid bone
-intersection_of: attaches_to UBERON:0001723 ! tongue
+intersection_of: attached_to UBERON:0001685 ! hyoid bone
+intersection_of: attached_to UBERON:0001723 ! tongue
 intersection_of: innervated_by UBERON:0001650 ! hypoglossal nerve
 relationship: has_muscle_insertion UBERON:0001723 ! tongue
 relationship: has_muscle_origin UBERON:0001685 ! hyoid bone
@@ -8061,8 +8065,8 @@ synonym: "extrinsic lingual muscle" EXACT []
 synonym: "extrinsic tongue muscle" EXACT []
 is_a: UBERON:0000378 ! tongue muscle
 intersection_of: UBERON:0014892 ! skeletal muscle organ
-intersection_of: attaches_to UBERON:0004765 ! skeletal element
-intersection_of: attaches_to_part_of UBERON:0001723 ! tongue
+intersection_of: attached_to UBERON:0004765 ! skeletal element
+intersection_of: attached_to_part_of UBERON:0001723 ! tongue
 intersection_of: innervated_by UBERON:0001650 ! hypoglossal nerve
 relationship: immediate_transformation_of UBERON:0011332 ! extrinsic tongue pre-muscle mass
 relationship: innervated_by UBERON:0001650 ! hypoglossal nerve
@@ -8075,7 +8079,7 @@ synonym: "intrinsic lingual muscle" EXACT []
 synonym: "intrinsic tongue muscle" EXACT []
 is_a: UBERON:0000378 ! tongue muscle
 intersection_of: UBERON:0014892 ! skeletal muscle organ
-intersection_of: attaches_to_part_of UBERON:0001723 ! tongue
+intersection_of: attached_to_part_of UBERON:0001723 ! tongue
 intersection_of: innervated_by UBERON:0001650 ! hypoglossal nerve
 intersection_of: part_of UBERON:0001723 ! tongue
 relationship: develops_from UBERON:0010059 ! hypoglossal cord
@@ -10243,18 +10247,8 @@ name: brachial nerve plexus
 def: "An arrangement of nerve fibers, running from the spine where it proceeds through the neck then the axilla and into the arm where it innervates skin and muscle. [WP,modified]." []
 synonym: "brachial plexus" EXACT []
 synonym: "plexus brachialis" RELATED []
-intersection_of: UBERON:0001813 ! spinal nerve plexus
-intersection_of: innervates UBERON:0002102 ! forelimb
-
-[Term]
-id: UBERON:0001815
-name: lumbosacral nerve plexus
-def: "An arrangement of nerve fibers, running from the spine that travels to the pelvic appendage where it innervates skin and muscle." []
-synonym: "lumbosacral plexus" EXACT []
-synonym: "plexus lumbosacralis" EXACT []
-synonym: "plexus lumbosacralis" RELATED []
-intersection_of: UBERON:0001813 ! spinal nerve plexus
-intersection_of: innervates UBERON:0002103 ! hindlimb
+is_a: UBERON:0001813 ! spinal nerve plexus
+relationship: innervates UBERON:0002102 ! forelimb
 
 [Term]
 id: UBERON:0001816
@@ -10834,6 +10828,7 @@ def: "The most anterior region of the brain including both the telencephalon and
 synonym: "FB" BROAD []
 synonym: "prosencephalon" RELATED []
 is_a: UBERON:0002616 ! regional part of brain
+disjoint_from: UBERON:0002298 ! brainstem
 relationship: contributes_to_morphology_of UBERON:0000955 ! brain
 relationship: develops_from UBERON:0003080 ! anterior neural tube
 relationship: immediate_transformation_of UBERON:0006240 ! future forebrain
@@ -11663,6 +11658,7 @@ name: venule
 def: "One of the minute vessels that collect deoxygenated blood from the capillary plexuses returns it to the veins." []
 synonym: "venula" RELATED []
 is_a: UBERON:0003920 ! venous blood vessel
+is_a: UBERON:8410081 ! blood microvessel
 relationship: connects UBERON:0001638 ! vein
 relationship: connects UBERON:0001982 ! capillary
 relationship: part_of UBERON:0001009 ! circulatory system
@@ -11673,6 +11669,7 @@ name: arteriole
 def: "The smallest division of the artery located between the muscular arteries and the capillaries[GO]." []
 synonym: "arteriola" RELATED []
 is_a: UBERON:0003509 ! arterial blood vessel
+is_a: UBERON:8410081 ! blood microvessel
 intersection_of: UBERON:0001981 ! blood vessel
 intersection_of: connects UBERON:0001637 ! artery
 intersection_of: connects UBERON:0001982 ! capillary
@@ -11702,9 +11699,7 @@ name: capillary
 def: "Any of the smallest blood vessels connecting arterioles with venules." []
 synonym: "blood capillary" EXACT []
 synonym: "capillary vessel" EXACT []
-is_a: UBERON:0001981 ! blood vessel
-is_a: UBERON:0010523 ! microcirculatory vessel
-intersection_of: UBERON:0001981 ! blood vessel
+intersection_of: UBERON:8410081 ! blood microvessel
 intersection_of: connects UBERON:0001979 ! venule
 intersection_of: connects UBERON:0001980 ! arteriole
 
@@ -12084,7 +12079,7 @@ synonym: "erector pili" RELATED []
 synonym: "erectores pilorum" RELATED []
 synonym: "pilomotor muscle" RELATED []
 is_a: UBERON:0001135 ! smooth muscle tissue
-relationship: attaches_to UBERON:0002073 ! hair follicle
+relationship: attached_to UBERON:0002073 ! hair follicle
 relationship: part_of UBERON:0011932 ! pilosebaceous unit
 
 [Term]
@@ -13115,7 +13110,7 @@ def: "A cardial valve in the atrioventricular region that separates the atrium f
 synonym: "atrio-ventricular valve" RELATED []
 synonym: "AV valve" EXACT []
 is_a: UBERON:0000946 ! cardial valve
-relationship: attaches_to UBERON:0004292 ! cardiac skeleton
+relationship: attached_to UBERON:0004292 ! cardiac skeleton
 relationship: connects UBERON:0002081 ! cardiac atrium
 relationship: connects UBERON:0002082 ! cardiac ventricle
 relationship: develops_from UBERON:0002062 ! endocardial cushion
@@ -13144,7 +13139,7 @@ synonym: "valva atrioventricularis sinistra" EXACT []
 synonym: "valva mitralis" RELATED []
 intersection_of: UBERON:0002133 ! atrioventricular valve
 intersection_of: part_of UBERON:0005966 ! outflow part of left atrium
-relationship: attaches_to UBERON:0005995 ! mitral valve anulus
+relationship: attached_to UBERON:0005995 ! mitral valve anulus
 relationship: connects UBERON:0002079 ! left cardiac atrium
 relationship: connects UBERON:0002084 ! heart left ventricle
 
@@ -14615,7 +14610,7 @@ synonym: "pericardium visceral mesothelium" RELATED []
 synonym: "visceral serous pericardium of heart" EXACT []
 synonym: "visceral serous pericardium proper" EXACT []
 is_a: UBERON:0000481 ! multi-tissue structure
-relationship: attaches_to UBERON:0002349 ! myocardium
+relationship: attached_to UBERON:0002349 ! myocardium
 relationship: develops_from UBERON:0004160 ! proepicardium
 relationship: part_of UBERON:0000948 ! heart
 relationship: part_of UBERON:0002425 ! visceral serous pericardium
@@ -14759,7 +14754,7 @@ def: "Serous membrane which is divided into parietal and visceral serous pericar
 synonym: "pericardium serosum" RELATED []
 synonym: "serous portion of pericardium" EXACT []
 is_a: UBERON:0000042 ! serous membrane
-relationship: attaches_to UBERON:0002359 ! fibrous pericardium
+relationship: attached_to UBERON:0002359 ! fibrous pericardium
 relationship: has_part UBERON:0002408 ! parietal serous pericardium
 relationship: has_part UBERON:0002425 ! visceral serous pericardium
 relationship: part_of UBERON:0002406 ! pericardial sac
@@ -14972,7 +14967,7 @@ synonym: "muscle organ of head" EXACT []
 synonym: "musculus caput" EXACT []
 is_a: UBERON:0010959 ! craniocervical muscle
 intersection_of: UBERON:0014892 ! skeletal muscle organ
-intersection_of: attaches_to UBERON:0003129 ! skull
+intersection_of: attached_to UBERON:0003129 ! skull
 intersection_of: part_of UBERON:0000033 ! head
 relationship: develops_from UBERON:0006904 ! head mesenchyme from mesoderm
 relationship: has_developmental_contribution_from UBERON:0002342 {gci_relation="part_of", gci_filler="NCBITaxon:7742"} ! neural crest
@@ -15249,7 +15244,7 @@ synonym: "pulmonary visceral pleura" EXACT []
 intersection_of: UBERON:0004923 ! organ component layer
 intersection_of: adjacent_to UBERON:0002048 ! lung
 intersection_of: part_of UBERON:0000977 ! pleura
-relationship: attaches_to UBERON:0008946 ! lung parenchyma
+relationship: attached_to UBERON:0008946 ! lung parenchyma
 relationship: contributes_to_morphology_of UBERON:0000977 ! pleura
 relationship: part_of UBERON:0002048 ! lung
 
@@ -15311,7 +15306,7 @@ synonym: "parietal pericardium" EXACT []
 synonym: "pericardial sac" RELATED []
 intersection_of: UBERON:0022351 ! parietal serous membrane
 intersection_of: part_of UBERON:0002357 ! serous pericardium
-relationship: attaches_to UBERON:0006670 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! central tendon of diaphragm
+relationship: attached_to UBERON:0006670 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! central tendon of diaphragm
 
 [Term]
 id: UBERON:0002409
@@ -15528,7 +15523,7 @@ synonym: "visceral layer of serous pericardium" EXACT []
 synonym: "visceral pericardium" EXACT []
 intersection_of: UBERON:0022350 ! visceral serous membrane
 intersection_of: part_of UBERON:0002357 ! serous pericardium
-relationship: attaches_to UBERON:0002349 ! myocardium
+relationship: attached_to UBERON:0002349 ! myocardium
 relationship: contributes_to_morphology_of UBERON:0002407 ! pericardium
 relationship: has_part UBERON:0002348 ! epicardium
 
@@ -18126,8 +18121,6 @@ synonym: "surface region" RELATED []
 synonym: "surface structures" RELATED []
 is_a: UBERON:0000061 ! anatomical structure
 relationship: adjacent_to UBERON:0013514 ! space surrounding organism
-relationship: overlaps UBERON:0007376 ! outer epithelium
-relationship: part_of UBERON:0002416 ! integumental system
 
 [Term]
 id: UBERON:0003103
@@ -18135,7 +18128,6 @@ name: compound organ
 def: "Anatomical structure that has as its parts two or more multi-tissue structures of at least two different types and which through specific morphogenetic processes forms a single distinct structural unit demarcated by bona fide boundaries from other distinct anatomical structures of different types." []
 synonym: "organ" RELATED []
 is_a: UBERON:0000062 ! organ
-relationship: only_in_taxon NCBITaxon:6072
 
 [Term]
 id: UBERON:0003104
@@ -18903,7 +18895,7 @@ synonym: "maxillary tooth" NARROW []
 synonym: "upper jaw tooth" EXACT []
 intersection_of: UBERON:0001091 ! calcareous tooth
 intersection_of: part_of UBERON:0001709 ! upper jaw region
-relationship: attaches_to UBERON:0011597 ! bone of upper jaw
+relationship: attached_to UBERON:0011597 ! bone of upper jaw
 relationship: part_of UBERON:0009680 ! set of upper jaw teeth
 
 [Term]
@@ -18918,7 +18910,7 @@ synonym: "lower jaw vertebrate tooth" EXACT []
 synonym: "mandibular tooth" NARROW []
 intersection_of: UBERON:0001091 ! calcareous tooth
 intersection_of: part_of UBERON:0001710 ! lower jaw region
-relationship: attaches_to UBERON:0004768 ! bone of lower jaw
+relationship: attached_to UBERON:0004768 ! bone of lower jaw
 relationship: part_of UBERON:0009679 ! set of lower jaw teeth
 
 [Term]
@@ -22608,7 +22600,7 @@ synonym: "eyelid muscle organ" EXACT []
 synonym: "muscle organ of blepharon" EXACT []
 synonym: "muscle organ of eyelid" EXACT []
 intersection_of: UBERON:0001630 ! muscle organ
-intersection_of: attaches_to UBERON:0001711 ! eyelid
+intersection_of: attached_to UBERON:0001711 ! eyelid
 
 [Term]
 id: UBERON:0003661
@@ -22694,7 +22686,7 @@ synonym: "post-vent region muscle organ" EXACT []
 synonym: "tail muscle" EXACT []
 synonym: "tail muscle organ" EXACT []
 intersection_of: UBERON:0014892 ! skeletal muscle organ
-intersection_of: attaches_to UBERON:0001095 ! caudal vertebra
+intersection_of: attached_to UBERON:0001095 ! caudal vertebra
 relationship: overlaps UBERON:0007812 ! post-anal tail
 
 [Term]
@@ -22984,17 +22976,6 @@ intersection_of: extends_fibers_into UBERON:0007228 ! vestibular nucleus
 intersection_of: innervates UBERON:0001840 ! semicircular canal
 intersection_of: innervates UBERON:0006585 ! vestibular organ
 relationship: part_of UBERON:0004681 ! vestibular system
-
-[Term]
-id: UBERON:0003725
-name: cervical nerve plexus
-def: "An arrangement of nerve fibers, running from the spine that travels to the head and neck where it innervates skin and muscle." []
-synonym: "cervical nerve plexus" EXACT []
-synonym: "cervical plexus" EXACT []
-synonym: "plexus cervicalis" EXACT []
-synonym: "plexus cervicalis" RELATED []
-intersection_of: UBERON:0001813 ! spinal nerve plexus
-intersection_of: innervates UBERON:0007811 ! craniocervical region
 
 [Term]
 id: UBERON:0003726
@@ -23436,7 +23417,7 @@ synonym: "gonada vein" EXACT []
 synonym: "vein of gonad" EXACT []
 synonym: "vein of gonada" EXACT []
 intersection_of: UBERON:0001638 ! vein
-intersection_of: attaches_to UBERON:0000991 ! gonad
+intersection_of: attached_to UBERON:0000991 ! gonad
 
 [Term]
 id: UBERON:0003849
@@ -23769,7 +23750,7 @@ id: UBERON:0003897
 name: axial muscle
 def: "One of the skeletal muscles of the head and neck, spine, and ribs." []
 intersection_of: UBERON:0014892 ! skeletal muscle organ
-intersection_of: attaches_to_part_of UBERON:0005944 ! axial skeleton plus cranial skeleton
+intersection_of: attached_to_part_of UBERON:0005944 ! axial skeleton plus cranial skeleton
 intersection_of: part_of UBERON:0013701 ! main body axis
 relationship: part_of UBERON:0013700 ! axial musculature
 
@@ -24672,7 +24653,7 @@ synonym: "ossicular muscle" EXACT []
 synonym: "tympanic cavity muscle" EXACT []
 is_a: UBERON:0002376 ! cranial muscle
 intersection_of: UBERON:0001630 ! muscle organ
-intersection_of: attaches_to UBERON:0001686 ! auditory ossicle bone
+intersection_of: attached_to UBERON:0001686 ! auditory ossicle bone
 relationship: located_in UBERON:0004114 ! tympanic cavity
 relationship: part_of UBERON:0001756 ! middle ear
 
@@ -26909,7 +26890,7 @@ synonym: "lamina limitans anterior (cornea)" EXACT []
 synonym: "lamina limitans anterior corneae" EXACT []
 synonym: "Reichert's membrane" RELATED []
 intersection_of: UBERON:0005769 ! basement membrane of epithelium
-intersection_of: attaches_to UBERON:0001772 ! corneal epithelium
+intersection_of: attached_to UBERON:0001772 ! corneal epithelium
 intersection_of: part_of UBERON:0000964 ! cornea
 
 [Term]
@@ -26943,29 +26924,12 @@ intersection_of: part_of UBERON:0008897 ! fin
 relationship: part_of UBERON:0012353 ! fin skeleton
 
 [Term]
-id: UBERON:0004377
-name: distal metaphysis
-def: "A metaphysis that is in the distal side of a diaphysis." []
-synonym: "distal diaphyseal end of long bone" EXACT []
-intersection_of: UBERON:0001438 ! metaphysis
-intersection_of: in_distal_side_of UBERON:0004769 ! diaphysis
-
-[Term]
 id: UBERON:0004378
 name: proximal metaphysis
 def: "A metaphysis that is in the proximal side of a diaphysis." []
 synonym: "proximal diaphyseal end of long bone" EXACT []
 intersection_of: UBERON:0001438 ! metaphysis
 intersection_of: in_proximal_side_of UBERON:0004769 ! diaphysis
-
-[Term]
-id: UBERON:0004379
-name: distal epiphysis
-def: "An epiphysis that is on the distal side of the bone." []
-synonym: "distal end of long bone" EXACT []
-intersection_of: UBERON:0001437 ! epiphysis
-intersection_of: in_distal_side_of UBERON:0001474 ! bone element
-relationship: adjacent_to UBERON:0004377 ! distal metaphysis
 
 [Term]
 id: UBERON:0004380
@@ -27056,67 +27020,11 @@ intersection_of: UBERON:0002481 ! bone tissue
 intersection_of: part_of UBERON:0001437 ! epiphysis
 
 [Term]
-id: UBERON:0004401
-name: bone tissue of distal epiphysis
-def: "A portion of bone tissue that is part of a distal epiphysis [Automatically generated definition]." []
-intersection_of: UBERON:0002481 ! bone tissue
-intersection_of: part_of UBERON:0004379 ! distal epiphysis
-
-[Term]
 id: UBERON:0004402
 name: bone tissue of proximal epiphysis
 def: "A portion of bone tissue that is part of a proximal epiphysis [Automatically generated definition]." []
 intersection_of: UBERON:0002481 ! bone tissue
 intersection_of: part_of UBERON:0004380 ! proximal epiphysis
-
-[Term]
-id: UBERON:0004404
-name: distal epiphysis of humerus
-def: "A distal epiphysis that is part of a humerus [Automatically generated definition]." []
-synonym: "distal end of humerus" EXACT []
-synonym: "lower end of humerus" EXACT []
-intersection_of: UBERON:0004379 ! distal epiphysis
-intersection_of: part_of UBERON:0000976 ! humerus
-
-[Term]
-id: UBERON:0004405
-name: distal epiphysis of tibia
-def: "A distal epiphysis that is part of a tibia [Automatically generated definition]." []
-synonym: "distal end of tibia" EXACT []
-synonym: "lower end of tibia" EXACT []
-intersection_of: UBERON:0004379 ! distal epiphysis
-intersection_of: part_of UBERON:0000979 ! tibia
-
-[Term]
-id: UBERON:0004406
-name: distal epiphysis of femur
-def: "A distal epiphysis that is part of a femur [Automatically generated definition]." []
-synonym: "distal femoral epiphysis" EXACT []
-synonym: "distal head of femur" RELATED []
-intersection_of: UBERON:0004379 ! distal epiphysis
-intersection_of: part_of UBERON:0000981 ! femur
-
-[Term]
-id: UBERON:0004409
-name: distal epiphysis of phalanx of manus
-def: "A distal epiphysis that is part of a phalanx of manus [Automatically generated definition]." []
-synonym: "distal end of phalanx of hand" RELATED []
-synonym: "distal epiphysis of phalanx of finger" EXACT []
-synonym: "distal epiphysis of phalanx of hand" RELATED []
-synonym: "head of phalanx of finger" RELATED []
-synonym: "head of phalanx of hand" RELATED []
-synonym: "ungual tuberosity of distal phalanx of finger" RELATED []
-intersection_of: UBERON:0004379 ! distal epiphysis
-intersection_of: part_of UBERON:0001436 ! phalanx of manus
-
-[Term]
-id: UBERON:0004410
-name: distal epiphysis of fibula
-def: "A distal epiphysis that is part of a fibula [Automatically generated definition]." []
-synonym: "distal end of fibula" EXACT []
-synonym: "lower end of fibula" EXACT []
-intersection_of: UBERON:0004379 ! distal epiphysis
-intersection_of: part_of UBERON:0001446 ! fibula
 
 [Term]
 id: UBERON:0004411
@@ -27188,14 +27096,6 @@ id: UBERON:0004447
 name: proximal epiphysis of phalanx
 def: "A proximal epiphysis that is part of a phalanx [Automatically generated definition]." []
 intersection_of: UBERON:0004380 ! proximal epiphysis
-intersection_of: part_of UBERON:0003221 ! phalanx
-
-[Term]
-id: UBERON:0004448
-name: distal epiphysis of phalanx
-def: "A distal epiphysis that is part of a phalanx [Automatically generated definition]." []
-synonym: "head of phalanx" EXACT []
-intersection_of: UBERON:0004379 ! distal epiphysis
 intersection_of: part_of UBERON:0003221 ! phalanx
 
 [Term]
@@ -27304,7 +27204,7 @@ synonym: "muscles of head" EXACT []
 synonym: "musculi capitis" EXACT []
 synonym: "set of muscles of head" EXACT []
 intersection_of: UBERON:0001015 ! musculature
-intersection_of: attaches_to UBERON:0003129 ! skull
+intersection_of: attached_to UBERON:0003129 ! skull
 intersection_of: part_of UBERON:0000033 ! head
 relationship: develops_from UBERON:0005253 ! head mesenchyme
 relationship: part_of UBERON:0013700 ! axial musculature
@@ -27377,7 +27277,7 @@ id: UBERON:0004468
 name: set of muscles of vertebral column
 synonym: "muscle group of vertebral column" EXACT []
 intersection_of: UBERON:0001015 ! musculature
-intersection_of: attaches_to UBERON:0001130 ! vertebral column
+intersection_of: attached_to UBERON:0001130 ! vertebral column
 
 [Term]
 id: UBERON:0004469
@@ -27448,7 +27348,7 @@ synonym: "hip musculature" EXACT []
 synonym: "muscle group of hip" EXACT []
 synonym: "set of muscles of hip" EXACT []
 intersection_of: UBERON:0001015 ! musculature
-intersection_of: attaches_to UBERON:0008202 ! bone of hip region
+intersection_of: attached_to UBERON:0008202 ! bone of hip region
 relationship: overlaps UBERON:0001464 ! hip
 
 [Term]
@@ -27458,7 +27358,7 @@ def: "The collection of muscles that form attachments to the shoulder skeleton."
 synonym: "muscle group of shoulder" EXACT []
 synonym: "set of muscles of shoulder" EXACT []
 intersection_of: UBERON:0001015 ! musculature
-intersection_of: attaches_to UBERON:0003461 ! shoulder bone
+intersection_of: attached_to UBERON:0003461 ! shoulder bone
 relationship: overlaps UBERON:0001467 ! shoulder
 
 [Term]
@@ -27634,7 +27534,7 @@ name: muscle of vertebral column
 def: "A muscle that is attached to a vertebra of the vertebral column." []
 synonym: "vertebral column muscle" EXACT []
 intersection_of: UBERON:0014892 ! skeletal muscle organ
-intersection_of: attaches_to UBERON:0002412 ! vertebra
+intersection_of: attached_to UBERON:0002412 ! vertebra
 
 [Term]
 id: UBERON:0004520
@@ -28398,7 +28298,6 @@ synonym: "jugular" RELATED []
 synonym: "vena jugularis" RELATED []
 is_a: UBERON:0001638 ! vein
 relationship: drains UBERON:0000033 ! head
-relationship: part_of UBERON:0000974 ! neck
 
 [Term]
 id: UBERON:0004716
@@ -28732,7 +28631,7 @@ id: UBERON:0004767
 name: vomerine tooth
 def: "A tooth that is on the vomer." []
 intersection_of: UBERON:0001091 ! calcareous tooth
-intersection_of: attaches_to UBERON:0002396 ! vomer
+intersection_of: attached_to UBERON:0002396 ! vomer
 relationship: part_of UBERON:0017615 ! vomerine dentition
 
 [Term]
@@ -29017,6 +28916,7 @@ name: thymus trabecula
 def: "The thymic connective tissue which extends into the parenchyma." []
 synonym: "thymic trabecula" EXACT []
 synonym: "thymus gland trabecula" EXACT []
+synonym: "thymus trabeculae" EXACT []
 synonym: "trabecula of thymus" EXACT []
 synonym: "trabecula of thymus gland" EXACT []
 intersection_of: UBERON:0000440 ! trabecula
@@ -31491,6 +31391,7 @@ synonym: "thin descending limb of the loop of Henle" RELATED []
 synonym: "thin descending loop of Henle" RELATED []
 is_a: UBERON:0000064 ! organ part
 relationship: part_of UBERON:0001288 ! loop of Henle
+relationship: part_of UBERON:0001289 ! descending limb of loop of Henle
 relationship: part_of UBERON:0004136 ! intermediate tubule
 
 [Term]
@@ -33589,8 +33490,8 @@ synonym: "levator scapulæ" RELATED []
 synonym: "musculus levator scapulae" RELATED []
 is_a: UBERON:0001482 ! muscle of shoulder
 intersection_of: UBERON:0014892 ! skeletal muscle organ
-intersection_of: attaches_to UBERON:0002413 ! cervical vertebra
-intersection_of: attaches_to UBERON:0006849 ! scapula
+intersection_of: attached_to UBERON:0002413 ! cervical vertebra
+intersection_of: attached_to UBERON:0006849 ! scapula
 relationship: develops_from UBERON:0010983 ! levator scapulae pre-muscle mass
 relationship: has_muscle_insertion UBERON:0007174 ! medial border of scapula
 relationship: has_muscle_origin UBERON:0001077 ! transverse process of vertebra
@@ -33676,7 +33577,7 @@ synonym: "tricuspid valve leaflets" EXACT []
 synonym: "tricuspid valvular leaflet" EXACT []
 intersection_of: UBERON:0011741 ! cardiac valve leaflet
 intersection_of: part_of UBERON:0002134 ! tricuspid valve
-relationship: attaches_to UBERON:0014851 ! chorda tendinea of left ventricle
+relationship: attached_to UBERON:0014851 ! chorda tendinea of left ventricle
 
 [Term]
 id: UBERON:0005487
@@ -35448,7 +35349,7 @@ def: "The tendinous strands that connect the papillary muscles on the wall of th
 synonym: "chordae tendinea" RELATED []
 synonym: "chordae tendineae cordis" RELATED []
 is_a: UBERON:0004923 ! organ component layer
-relationship: attaches_to UBERON:0005484 ! tricuspid valve leaflet
+relationship: attached_to UBERON:0005484 ! tricuspid valve leaflet
 relationship: contributes_to_morphology_of UBERON:0002133 ! atrioventricular valve
 relationship: part_of UBERON:0002133 ! atrioventricular valve
 
@@ -35462,7 +35363,7 @@ synonym: "mitral annulus" EXACT []
 synonym: "mitral anulus" EXACT []
 synonym: "mitral valvar anulus" EXACT []
 intersection_of: UBERON:0006008 ! fibrous ring of heart
-intersection_of: attaches_to UBERON:0005996 ! mitral valve cusp
+intersection_of: attached_to UBERON:0005996 ! mitral valve cusp
 intersection_of: part_of UBERON:0002135 ! mitral valve
 relationship: contributes_to_morphology_of UBERON:0002135 ! mitral valve
 
@@ -37028,7 +36929,7 @@ synonym: "central tendon" EXACT []
 synonym: "centrum tendineum" EXACT []
 synonym: "centrum tendineum diaphragmatis" EXACT []
 is_a: UBERON:0000043 ! tendon
-relationship: attaches_to UBERON:0002359 ! fibrous pericardium
+relationship: attached_to UBERON:0002359 ! fibrous pericardium
 relationship: immediate_transformation_of UBERON:0006239 ! future central tendon
 relationship: part_of UBERON:0001103 ! diaphragm
 
@@ -37533,14 +37434,6 @@ id: UBERON:0006863
 name: proximal metaphysis of femur
 def: "A proximal metaphysis that is part of a femur." []
 intersection_of: UBERON:0004378 ! proximal metaphysis
-intersection_of: part_of UBERON:0000981 ! femur
-relationship: part_of UBERON:0006862 ! diaphysis of femur
-
-[Term]
-id: UBERON:0006864
-name: distal metaphysis of femur
-def: "A distal metaphysis that is part of a femur." []
-intersection_of: UBERON:0004377 ! distal metaphysis
 intersection_of: part_of UBERON:0000981 ! femur
 relationship: part_of UBERON:0006862 ! diaphysis of femur
 
@@ -38231,8 +38124,8 @@ synonym: "mitral valve leaflets" RELATED []
 synonym: "mitral valvular leaflet" EXACT []
 intersection_of: UBERON:0011741 ! cardiac valve leaflet
 intersection_of: part_of UBERON:0002135 ! mitral valve
-relationship: attaches_to UBERON:0005995 ! mitral valve anulus
-relationship: attaches_to UBERON:0014851 ! chorda tendinea of left ventricle
+relationship: attached_to UBERON:0005995 ! mitral valve anulus
+relationship: attached_to UBERON:0014851 ! chorda tendinea of left ventricle
 
 [Term]
 id: UBERON:0007158
@@ -39922,6 +39815,13 @@ intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: part_of UBERON:0002411 ! clitoris
 
 [Term]
+id: UBERON:0008339
+name: microvascular endothelium
+is_a: UBERON:0004852 ! cardiovascular system endothelium
+intersection_of: UBERON:0001986 ! endothelium
+intersection_of: part_of UBERON:8410081 ! blood microvessel
+
+[Term]
 id: UBERON:0008342
 name: intestinal villus of duodenum
 def: "An intestinal villus in the duodenum." []
@@ -40612,6 +40512,14 @@ is_a: UBERON:0007499 ! epithelial sac
 relationship: develops_from UBERON:0002342 ! neural crest
 relationship: has_part CL:0007002
 relationship: part_of UBERON:0008281 ! tooth bud
+
+[Term]
+id: UBERON:0008974
+name: apocrine gland
+def: "Any exocrine gland whose cells bud their secretions off through the plasma membrane producing membrane-bound vesicles in the lumen; the apical portion of the secretory cell of the gland pinches off and enters the lumen; it loses part of its cytoplasm in their secretions; apocrine secretion is functional during hormonal stress or puberty; an example of true apocrine glands are mammary glands, responsible for secreting breast milk." []
+synonym: "true apocrine gland" EXACT []
+is_a: UBERON:0002365 ! exocrine gland
+disjoint_from: UBERON:0010243 ! merocrine gland
 
 [Term]
 id: UBERON:0008987
@@ -41863,7 +41771,7 @@ synonym: "right ventricle endocardium" EXACT []
 synonym: "right ventricular endocardium" EXACT []
 intersection_of: UBERON:0001081 ! endocardium of ventricle
 intersection_of: part_of UBERON:0002080 ! heart right ventricle
-relationship: attaches_to UBERON:0006567 ! right ventricle myocardium
+relationship: attached_to UBERON:0006567 ! right ventricle myocardium
 relationship: develops_from UBERON:0004706 ! bulbus cordis
 
 [Term]
@@ -41876,7 +41784,7 @@ synonym: "left ventricle endocardium" EXACT []
 synonym: "left ventricular endocardium" EXACT []
 intersection_of: UBERON:0001081 ! endocardium of ventricle
 intersection_of: part_of UBERON:0002084 ! heart left ventricle
-relationship: attaches_to UBERON:0006566 ! left ventricle myocardium
+relationship: attached_to UBERON:0006566 ! left ventricle myocardium
 
 [Term]
 id: UBERON:0009714
@@ -43083,6 +42991,7 @@ id: UBERON:0010183
 name: liver trabecula
 def: "A trabecula that is part of a liver." []
 synonym: "hepatic trabecula" RELATED []
+synonym: "liver trabeculae" EXACT []
 intersection_of: UBERON:0000440 ! trabecula
 intersection_of: part_of UBERON:0002107 ! liver
 
@@ -45033,8 +44942,8 @@ synonym: "cleido-occipitalis muscle" EXACT []
 synonym: "cleidooccipital" EXACT []
 is_a: UBERON:0000933 ! pharyngeal muscle
 intersection_of: UBERON:0014892 ! skeletal muscle organ
-intersection_of: attaches_to UBERON:0001105 ! clavicle bone
-intersection_of: attaches_to UBERON:0001676 ! occipital bone
+intersection_of: attached_to UBERON:0001105 ! clavicle bone
+intersection_of: attached_to UBERON:0001676 ! occipital bone
 
 [Term]
 id: UBERON:0010949
@@ -45810,7 +45719,7 @@ name: maxillary tooth
 def: "A tooth that is attached to a maxilla[TAO,modified]." []
 synonym: "maxillary teeth" EXACT []
 intersection_of: UBERON:0001091 ! calcareous tooth
-intersection_of: attaches_to UBERON:0002397 ! maxilla
+intersection_of: attached_to UBERON:0002397 ! maxilla
 relationship: part_of UBERON:0009680 ! set of upper jaw teeth
 
 [Term]
@@ -45821,7 +45730,7 @@ synonym: "mandibular teeth" RELATED []
 synonym: "mandibular tooth" RELATED []
 synonym: "tooth of dentary" RELATED []
 intersection_of: UBERON:0001091 ! calcareous tooth
-intersection_of: attaches_to UBERON:0004742 ! dentary
+intersection_of: attached_to UBERON:0004742 ! dentary
 relationship: part_of UBERON:0009679 ! set of lower jaw teeth
 
 [Term]
@@ -46619,7 +46528,7 @@ name: palatal tooth
 def: "A tooth that is on the roof of the mouth." []
 synonym: "palatal teeth" EXACT []
 intersection_of: UBERON:0001091 ! calcareous tooth
-intersection_of: attaches_to UBERON:0012071 ! palate bone
+intersection_of: attached_to UBERON:0012071 ! palate bone
 relationship: part_of UBERON:0009680 ! set of upper jaw teeth
 
 [Term]
@@ -46647,7 +46556,7 @@ def: "A tooth that is attached to a palatine bone." []
 synonym: "palatine teeth" EXACT []
 synonym: "palatine tooth" EXACT []
 intersection_of: UBERON:0001091 ! calcareous tooth
-intersection_of: attaches_to UBERON:0001682 ! palatine bone
+intersection_of: attached_to UBERON:0001682 ! palatine bone
 
 [Term]
 id: UBERON:0012074
@@ -46812,6 +46721,14 @@ synonym: "facio-acoustic VII-VIII ganglion complex" RELATED []
 is_a: UBERON:0001714 ! cranial ganglion
 relationship: develops_from UBERON:0003051 ! ear vesicle
 relationship: develops_from UBERON:0006232 ! facio-acoustic VII-VIII preganglion complex
+
+[Term]
+id: UBERON:0012177
+name: skin apocrine gland
+def: "An apocrine gland that is part of a skin of body." []
+is_a: UBERON:0002419 ! skin gland
+intersection_of: UBERON:0008974 ! apocrine gland
+intersection_of: part_of UBERON:0002097 ! skin of body
 
 [Term]
 id: UBERON:0012180
@@ -47077,11 +46994,11 @@ name: primitive palate
 def: "Roof of the buccal cavity, formed from the fusion of vomer, pterygoid, parasphenoid, palatine, ectopterygoid." []
 synonym: "palate" RELATED []
 is_a: UBERON:0007375 ! roof of mouth
-relationship: has_fused_element UBERON:0001682 ! palatine bone
-relationship: has_fused_element UBERON:0002396 ! vomer
-relationship: has_fused_element UBERON:0004745 ! parasphenoid
-relationship: has_fused_element UBERON:0010389 ! pterygoid bone
-relationship: has_fused_element UBERON:0011634 ! ectopterygoid bone
+relationship: derived_from_ancestral_fusion_of UBERON:0001682 ! palatine bone
+relationship: derived_from_ancestral_fusion_of UBERON:0002396 ! vomer
+relationship: derived_from_ancestral_fusion_of UBERON:0004745 ! parasphenoid
+relationship: derived_from_ancestral_fusion_of UBERON:0010389 ! pterygoid bone
+relationship: derived_from_ancestral_fusion_of UBERON:0011634 ! ectopterygoid bone
 relationship: part_of UBERON:0012072 ! palatal part of dermatocranium
 
 [Term]
@@ -47706,18 +47623,6 @@ intersection_of: UBERON:0004380 ! proximal epiphysis
 intersection_of: part_of UBERON:0001449 ! phalanx of pes
 
 [Term]
-id: UBERON:0013122
-name: distal epiphysis of phalanx of pes
-synonym: "caput phalangis (pedis)" EXACT []
-synonym: "caput phalangis pedis" EXACT []
-synonym: "distal end of phalanx of foot" EXACT []
-synonym: "distal epiphysis of phalanx of toe" EXACT []
-synonym: "head of phalanx of foot" EXACT []
-synonym: "ungual tuberosity of distal phalanx of toe" RELATED []
-intersection_of: UBERON:0004379 ! distal epiphysis
-intersection_of: part_of UBERON:0001449 ! phalanx of pes
-
-[Term]
 id: UBERON:0013126
 name: vein of abdomen
 def: "A vein that is part of a abdomen." []
@@ -48302,7 +48207,7 @@ id: UBERON:0013700
 name: axial musculature
 def: "Musculature of the head and neck, spine, and ribs." []
 intersection_of: UBERON:0001015 ! musculature
-intersection_of: attaches_to UBERON:0005944 ! axial skeleton plus cranial skeleton
+intersection_of: attached_to UBERON:0005944 ! axial skeleton plus cranial skeleton
 intersection_of: part_of UBERON:0013701 ! main body axis
 
 [Term]
@@ -48378,17 +48283,6 @@ intersection_of: UBERON:0004769 ! diaphysis
 intersection_of: part_of UBERON:0002374 ! metacarpal bone
 
 [Term]
-id: UBERON:0013753
-name: distal epiphysis of metacarpal bone
-def: "A distal epiphysis that is part of a metacarpal bone." []
-synonym: "caput ossis metacarpi" EXACT []
-synonym: "distal end of metacarpal bone" EXACT []
-synonym: "head of metacarpal bone" EXACT []
-synonym: "lower end of metacarpal bone" EXACT []
-intersection_of: UBERON:0004379 ! distal epiphysis
-intersection_of: part_of UBERON:0002374 ! metacarpal bone
-
-[Term]
 id: UBERON:0013754
 name: integumentary system layer
 def: "An organ component layer that is part of a integumental system." []
@@ -48405,7 +48299,7 @@ synonym: "arterial blood" EXACT []
 synonym: "blood in artery" EXACT []
 synonym: "portion of arterial blood" EXACT []
 intersection_of: UBERON:0000178 ! blood
-intersection_of: part_of UBERON:0001637 ! artery
+intersection_of: located_in UBERON:0001637 ! artery
 
 [Term]
 id: UBERON:0013756
@@ -48415,7 +48309,7 @@ synonym: "blood in vein" EXACT []
 synonym: "portion of venous blood" EXACT []
 synonym: "venous blood" EXACT []
 intersection_of: UBERON:0000178 ! blood
-intersection_of: part_of UBERON:0001638 ! vein
+intersection_of: located_in UBERON:0001638 ! vein
 
 [Term]
 id: UBERON:0013757
@@ -48425,7 +48319,7 @@ synonym: "blood in capillary" EXACT []
 synonym: "portion of blood in capillary" EXACT []
 synonym: "portion of capillary blood" EXACT []
 intersection_of: UBERON:0000178 ! blood
-intersection_of: part_of UBERON:0001982 ! capillary
+intersection_of: located_in UBERON:0001982 ! capillary
 
 [Term]
 id: UBERON:0013758
@@ -49253,37 +49147,6 @@ intersection_of: UBERON:0005994 ! chorda tendineae
 intersection_of: part_of UBERON:0002080 ! heart right ventricle
 
 [Term]
-id: UBERON:0014876
-name: distal epiphysis of distal phalanx of pedal digit
-synonym: "distal end of distal phalanx of toe" EXACT []
-synonym: "head of distal phalanx of digit of foot" EXACT []
-synonym: "head of distal phalanx of digit of pes" EXACT []
-synonym: "head of distal phalanx of toe" EXACT []
-intersection_of: UBERON:0004379 ! distal epiphysis
-intersection_of: part_of UBERON:0003867 ! distal phalanx of pes
-
-[Term]
-id: UBERON:0014886
-name: distal epiphysis of distal phalanx of manual digit
-synonym: "distal end of distal phalanx of finger" EXACT []
-synonym: "head of distal phalanx of digit of hand" EXACT []
-synonym: "head of distal phalanx of digit of manus" EXACT []
-synonym: "head of distal phalanx of finger" EXACT []
-intersection_of: UBERON:0004379 ! distal epiphysis
-intersection_of: part_of UBERON:0003865 ! distal phalanx of manus
-
-[Term]
-id: UBERON:0014887
-name: distal epiphysis of distal phalanx of digit
-def: "A distal epiphysis that is part of a distal phalanx." []
-synonym: "distal end of distal phalanx of digit" EXACT []
-synonym: "head of distal phalanx" EXACT []
-synonym: "head of distal phalanx of digit" EXACT []
-synonym: "head of distal phalanx of digit of autopod" EXACT []
-intersection_of: UBERON:0004379 ! distal epiphysis
-intersection_of: part_of UBERON:0004300 ! distal phalanx
-
-[Term]
 id: UBERON:0014891
 name: brainstem white matter
 def: "White matter that is part of a brainstem [Automatically generated definition]." []
@@ -49312,7 +49175,7 @@ name: somatic muscle
 def: "A muscle structure of invertebrates whose origin and insertion sites are in basal side of the epidermis or structures derived from it. The simplest somatic muscles consist of a single cell and associated extracellular structures." []
 synonym: "skeletal muscle" RELATED []
 is_a: UBERON:0005090 ! muscle structure
-relationship: attaches_to UBERON:0002416 ! integumental system
+relationship: attached_to UBERON:0002416 ! integumental system
 relationship: part_of UBERON:0007095 ! somatic musculature
 
 [Term]
@@ -50840,7 +50703,7 @@ name: vomerine dentition
 def: "A set of teeth in which each tooth that attaches to a vomer." []
 synonym: "vomerine teeth" RELATED []
 intersection_of: UBERON:0003672 ! dentition
-intersection_of: attaches_to UBERON:0002396 ! vomer
+intersection_of: attached_to UBERON:0002396 ! vomer
 
 [Term]
 id: UBERON:0017628
@@ -52209,7 +52072,7 @@ id: UBERON:0034908
 name: scapular muscle
 def: "Any of the muscles that are responsible for moving the scapula. In humans these are the levator scapulae, the infraspinatus muscle, the teres major, the teres minor, and the supraspinatus muscle." []
 intersection_of: UBERON:0014892 ! skeletal muscle organ
-intersection_of: attaches_to UBERON:0006849 ! scapula
+intersection_of: attached_to UBERON:0006849 ! scapula
 
 [Term]
 id: UBERON:0034909
@@ -52511,7 +52374,7 @@ id: UBERON:0035091
 name: extrinsic post-anal tail muscle
 def: "A post-anal tail that attaches outside the tail." []
 intersection_of: UBERON:0003665 ! post-anal tail muscle
-intersection_of: attaches_to UBERON:0010742 ! bone of pelvic complex
+intersection_of: attached_to UBERON:0010742 ! bone of pelvic complex
 
 [Term]
 id: UBERON:0035102
@@ -53661,8 +53524,8 @@ synonym: "cardiac wall" EXACT []
 is_a: UBERON:0000060 ! anatomical wall
 intersection_of: UBERON:0000060 ! anatomical wall
 intersection_of: part_of UBERON:0000948 ! heart
-relationship: attaches_to UBERON:0002406 ! pericardial sac
-relationship: attaches_to UBERON:0004292 ! cardiac skeleton
+relationship: attached_to UBERON:0002406 ! pericardial sac
+relationship: attached_to UBERON:0004292 ! cardiac skeleton
 relationship: part_of UBERON:0000948 ! heart
 
 [Term]
@@ -53707,6 +53570,20 @@ intersection_of: UBERON:0001037 ! strand of hair
 intersection_of: part_of UBERON:0002101 ! limb
 
 [Term]
+id: UBERON:0039175
+name: subarachnoid space of brain
+is_a: UBERON:0000315 ! subarachnoid space
+intersection_of: UBERON:0000315 ! subarachnoid space
+intersection_of: part_of UBERON:0000955 ! brain
+
+[Term]
+id: UBERON:0039176
+name: subarachnoid space of spinal cord
+is_a: UBERON:0000315 ! subarachnoid space
+intersection_of: UBERON:0000315 ! subarachnoid space
+intersection_of: part_of UBERON:0002240 ! spinal cord
+
+[Term]
 id: UBERON:0039222
 name: cystic artery
 def: "An artery that supplies oxygenated blood to the cystic duct." []
@@ -53743,6 +53620,23 @@ def: "A vein that drains the urethra." []
 intersection_of: UBERON:0001638 ! vein
 intersection_of: drains UBERON:0000057 ! urethra
 relationship: tributary_of UBERON:0018252 ! internal pudendal vein
+
+[Term]
+id: UBERON:0039856
+name: right ovarian vein
+def: "Ovarian vein, each instance of which is a tributary  of some inferior vena cava that drains the right pampiniform plexus of some broad ligament." []
+is_a: UBERON:0001145 ! ovarian vein
+intersection_of: UBERON:0001145 ! ovarian vein
+intersection_of: drains UBERON:0002118 ! right ovary
+relationship: tributary_of UBERON:0001072 ! posterior vena cava
+
+[Term]
+id: UBERON:0039857
+name: left ovarian vein
+def: "Ovarian vein, each instance of which is a tributary  of some left renal vein that drains the left pampiniform plexus of some broad ligament." []
+is_a: UBERON:0001145 ! ovarian vein
+intersection_of: UBERON:0001145 ! ovarian vein
+intersection_of: drains UBERON:0002119 ! left ovary
 
 [Term]
 id: UBERON:1000004
@@ -54010,7 +53904,7 @@ name: premaxillary tooth
 def: "Tooth that is attached to the premaxilla." []
 is_a: UBERON:0001091 ! calcareous tooth
 intersection_of: UBERON:0001091 ! calcareous tooth
-intersection_of: attaches_to UBERON:0002244 ! premaxilla
+intersection_of: attached_to UBERON:0002244 ! premaxilla
 relationship: part_of UBERON:0009680 ! set of upper jaw teeth
 
 [Term]
@@ -54018,7 +53912,7 @@ id: UBERON:2001632
 name: ectopterygoid tooth
 def: "Tooth that is attached to the ectopterygoid bone." []
 intersection_of: UBERON:0001091 ! calcareous tooth
-intersection_of: attaches_to UBERON:0011634 ! ectopterygoid bone
+intersection_of: attached_to UBERON:0011634 ! ectopterygoid bone
 relationship: part_of UBERON:0001709 ! upper jaw region
 
 [Term]
@@ -54371,17 +54265,11 @@ relationship: part_of UBERON:5002544 ! digit plus metapodial segment
 
 [Term]
 id: UBERON:6000002
-name: panarthropod tagma
-def: "The three main divisions of the whole organism formed from groups of segments." []
-is_a: UBERON:6057001 ! insect anterior-posterior subdivision of organism
-relationship: only_in_taxon NCBITaxon:88770
+name: arthropod tagma
+def: "One of the main divisions of the whole organism of arthropods formed from groups of segments." []
+is_a: UBERON:0011676 ! subdivision of organism along main body axis
+relationship: only_in_taxon NCBITaxon:6656
 relationship: part_of UBERON:0000468 ! multicellular organism
-
-[Term]
-id: UBERON:6000004
-name: panarthropod head
-intersection_of: UBERON:0000033 ! head
-intersection_of: part_of NCBITaxon:88770
 
 [Term]
 id: UBERON:6000006
@@ -54402,8 +54290,8 @@ relationship: part_of UBERON:0000924 ! ectoderm
 id: UBERON:6000137
 name: embryonic tagma
 def: "Any tagma (UBERON:6000002) that is part of some embryo (UBERON:6000052)." []
-is_a: UBERON:6000002 ! panarthropod tagma
-intersection_of: UBERON:6000002 ! panarthropod tagma
+is_a: UBERON:6000002 ! arthropod tagma
+intersection_of: UBERON:6000002 ! arthropod tagma
 intersection_of: part_of UBERON:0000922 ! embryo
 relationship: part_of UBERON:0000922 ! embryo
 
@@ -54439,8 +54327,8 @@ relationship: part_of UBERON:0000922 ! embryo
 id: UBERON:6001728
 name: insect larval tagma
 def: "Any tagma (UBERON:6000002) that is part of some larva (UBERON:6001727)." []
-is_a: UBERON:6000002 ! panarthropod tagma
-intersection_of: UBERON:6000002 ! panarthropod tagma
+is_a: UBERON:6000002 ! arthropod tagma
+intersection_of: UBERON:6000002 ! arthropod tagma
 intersection_of: part_of UBERON:0002548 ! larva
 relationship: part_of UBERON:0002548 ! larva
 
@@ -54481,8 +54369,8 @@ intersection_of: part_of UBERON:0002548 ! larva
 id: UBERON:6003005
 name: insect adult tagma
 def: "Any tagma (UBERON:6000002) that is part of some adult (UBERON:6003004)." []
-is_a: UBERON:6000002 ! panarthropod tagma
-intersection_of: UBERON:6000002 ! panarthropod tagma
+is_a: UBERON:6000002 ! arthropod tagma
+intersection_of: UBERON:6000002 ! arthropod tagma
 intersection_of: part_of UBERON:0007023 ! adult organism
 relationship: part_of UBERON:0007023 ! adult organism
 
@@ -54514,27 +54402,11 @@ intersection_of: part_of UBERON:6003007 ! insect adult head
 relationship: part_of UBERON:6003007 ! insect adult head
 
 [Term]
-id: UBERON:6005413
-name: insect anlage in statu nascendi
-def: "'anlagen in statu nascendi' are domains that do not yet coincide 1:1 with a later organ. Anlagen in statu nascendi are typically defined for the early blastoderm by the expression domains of genes which, in the late blastoderm or later, are expressed in specific anlagen, but initially come on in larger domains." []
-synonym: "A0" RELATED []
-is_a: UBERON:0002050 ! embryonic structure
-relationship: only_in_taxon NCBITaxon:50557
-
-[Term]
-id: UBERON:6005425
-name: insect visual anlage in statu nascendi
-synonym: "A0Vis" RELATED []
-synonym: "Asn VisSys" RELATED []
-is_a: UBERON:6005413 ! insect anlage in statu nascendi
-
-[Term]
 id: UBERON:6005434
 name: insect visual anlage
 synonym: "A VisSys" RELATED []
 synonym: "AVis" RELATED []
 is_a: UBERON:0007688 ! anlage
-relationship: develops_from UBERON:6005425 ! insect visual anlage in statu nascendi
 relationship: part_of UBERON:6000119 ! insect anterior ectoderm
 
 [Term]
@@ -54593,12 +54465,6 @@ name: insect anterior ectoderm derivative
 def: "." []
 is_a: UBERON:0004121 ! ectoderm-derived structure
 relationship: develops_from UBERON:6000119 ! insect anterior ectoderm
-
-[Term]
-id: UBERON:6057001
-name: insect anterior-posterior subdivision of organism
-is_a: UBERON:0000475 ! organism subdivision
-relationship: only_in_taxon NCBITaxon:50557
 
 [Term]
 id: UBERON:7500062
@@ -54915,25 +54781,53 @@ intersection_of: UBERON:0001982 ! capillary
 intersection_of: part_of UBERON:0002108 ! small intestine
 
 [Term]
+id: UBERON:8410077
+name: airway submucosal gland
+def: "A submucosal gland found in a respiratory tract." []
+synonym: "respiratory tract submucosal gland" EXACT []
+synonym: "submucosal gland of respiratory tract" EXACT []
+intersection_of: UBERON:0011148 ! submucosal gland
+intersection_of: part_of UBERON:0000065 ! respiratory tract
+
+[Term]
+id: UBERON:8410081
+name: blood microvessel
+def: "Any of the smallest blood vessels where blood circulates within organ tissues. Microvessels include terminal arterioles, metarterioles, capillaries, and venules (but exclude lymphatic capillaries). Arterioles carry oxygenated blood to the capillaries, and blood flows out of the capillaries through venules into veins." []
+synonym: "microvasculature" BROAD []
+synonym: "microvessel" BROAD []
+is_a: UBERON:0001981 ! blood vessel
+is_a: UBERON:0010523 ! microcirculatory vessel
+
+[Term]
 id: UBERON:8440004
 name: laminar subdivision of the cortex
 def: "One or a subset of adjacent layers of the neocortex." []
 is_a: UBERON:0011215 ! central nervous system cell part cluster
 relationship: part_of UBERON:0001950 ! neocortex
 
+[Term]
+id: UBERON:8450001
+name: egg follicle
+def: "An individual reproductive unit containing a single oocyte and one or several layers of support cells (Armstrong et al., 2020)." []
+is_a: UBERON:0000064 ! organ part
+relationship: part_of UBERON:0000992 ! ovary
+
+[Term]
+id: UBERON:8470000
+name: placental blood
+def: "Blood located in the placenta." []
+intersection_of: UBERON:0000178 ! blood
+intersection_of: located_in UBERON:0001987 ! placenta
+
 [Typedef]
 id: adjacent_to
-name: adjacent_to
-def: "x adjacent_to y iff: x and y share a boundary." []
+name: adjacent to
 xref: RO:0002220
-is_symmetric: true
 
 [Typedef]
 id: anterior_to
-name: anterior_to
-def: "x anterior_to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail: bearer." []
+name: anterior to
 xref: BSPO:0000096
-is_transitive: true
 
 [Typedef]
 id: anteriorly_connected_to
@@ -54941,39 +54835,28 @@ name: anteriorly connected to
 def: "x anteriorly_connected_to y iff the anterior part of x is connected to y. i.e. x connected_to y and x posterior_to y." []
 xref: anteriorly_connected_to
 is_a: connected_to ! connected to
-is_a: posterior_to ! posterior_to
+is_a: posterior_to ! posterior to
 is_a: transitively_anteriorly_connected_to ! transitively anteriorly connected to
 
 [Typedef]
-id: attaches_to
-name: attaches_to
+id: attached_to
+name: attached to
 xref: RO:0002371
-is_a: attaches_to_part_of ! attaches_to_part_of
-is_a: connects ! connects
 
 [Typedef]
-id: attaches_to_part_of
-name: attaches_to_part_of
+id: attached_to_part_of
+name: attached to part of
 xref: RO:0002177
-holds_over_chain: attaches_to part_of
-
-[Typedef]
-id: bearer_of
-name: bearer of
-xref: RO:0000053
 
 [Typedef]
 id: bounding_layer_of
 name: bounding layer of
 xref: RO:0002007
-is_a: part_of ! part of
 
 [Typedef]
 id: branching_part_of
-name: branching_part_of
+name: branching part of
 xref: RO:0002380
-is_a: part_of ! part of
-inverse_of: has_branching_part ! has branching part
 
 [Typedef]
 id: capable_of
@@ -54985,7 +54868,6 @@ is_a: functionally_related_to ! functionally related to
 id: capable_of_part_of
 name: capable of part of
 xref: RO:0002216
-is_a: functionally_related_to ! functionally related to
 
 [Typedef]
 id: channel_for
@@ -55010,9 +54892,7 @@ is_transitive: true
 [Typedef]
 id: composed_primarily_of
 name: composed primarily of
-def: "x composed_primarily_of y iff: more than half of the mass of x is made from parts of y." []
 xref: RO:0002473
-is_a: has_part ! has part
 
 [Typedef]
 id: conduit_for
@@ -55022,21 +54902,18 @@ xref: conduit_for
 
 [Typedef]
 id: confers_advantage_in
-name: confers_advantage_in
-synonym: "adapted_for" NARROW []
+name: confers advantage in
 xref: RO:0002322
 
 [Typedef]
 id: connected_to
 name: connected to
-def: "Binary relationship: x connected_to y if and only if there exists some z such that z connects x and y in a ternary connected_to(x,y,z) relationship." []
 xref: RO:0002170
 is_a: transitively_connected_to ! transitively_connected to
 
 [Typedef]
 id: connects
 name: connects
-def: "Binary relationship: z connects x if and only if there exists some y such that z connects x and y in a ternary connected_to(x,y,z) relationship." []
 xref: RO:0002176
 
 [Typedef]
@@ -55051,7 +54928,7 @@ xref: BFO:0000067
 
 [Typedef]
 id: continuous_with
-name: continuous_with
+name: continuous with
 xref: RO:0002150
 is_symmetric: true
 
@@ -55062,63 +54939,48 @@ xref: RO:0002433
 
 [Typedef]
 id: deep_to
-name: deep_to
+name: deep to
 xref: BSPO:0000107
-is_transitive: true
 
 [Typedef]
-id: developmentally_contributes_to
-name: developmentally_contributes_to
-xref: RO:0002255
-holds_over_chain: develops_into part_of
-is_a: has_potential_to_developmentally_contribute_to ! has potential to developmentally contribute to
+id: derived_from_ancestral_fusion_of
+name: derived from ancestral fusion of
+xref: RO:0002374
 
 [Typedef]
 id: developmentally_induced_by
-name: developmentally_induced_by
-def: "t1 developmentally_induced_by t2 if there is a process of organ induction (GO:0001759) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor tissue type T to T', where T' develops_from T." []
+name: developmentally induced by
 xref: RO:0002256
 
 [Typedef]
 id: developmentally_replaces
-name: developmentally_replaces
+name: developmentally replaces
 xref: RO:0002285
 
 [Typedef]
 id: develops_from
-name: develops_from
+name: develops from
 xref: RO:0002202
-is_transitive: true
 is_a: has_developmental_contribution_from ! has developmental contribution from
-inverse_of: develops_into ! develops_into
 
 [Typedef]
 id: develops_from_part_of
-name: develops_from_part_of
+name: develops from part of
 xref: RO:0002225
-holds_over_chain: directly_develops_from part_of
-is_a: develops_from ! develops_from
 
 [Typedef]
 id: develops_in
-name: develops_in
+name: develops in
 xref: RO:0002226
 
 [Typedef]
-id: develops_into
-name: develops_into
-xref: RO:0002203
-is_a: has_potential_to_develop_into ! has potential to develop into
-
-[Typedef]
 id: directly_develops_from
-name: directly_develops_from
+name: directly develops from
 xref: RO:0002207
 
 [Typedef]
 id: distal_to
-name: distal_to
-def: "x distal_to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal)." []
+name: distal to
 xref: BSPO:0000097
 
 [Typedef]
@@ -55127,48 +54989,35 @@ name: distally connected to
 def: "x distally_connected_to y iff the distal part of x is connected to y. i.e. x connected_to y and x proximal_to y." []
 xref: distally_connected_to
 is_a: connected_to ! connected to
-is_a: proximal_to ! proximal_to
+is_a: proximal_to ! proximal to
 is_a: transitively_distally_connected_to ! transitively distally connected to
 inverse_of: proximally_connected_to ! proximally connected to
 
 [Typedef]
 id: distalmost_part_of
-name: distalmost_part_of
-def: "X distalmost_part_of Y <=> X is part_of Y and X is adjacent_to the distal boundary of Y." []
+name: distalmost part of
 xref: BSPO:0001108
-is_a: in_distal_side_of ! in_distal_side_of
 
 [Typedef]
 id: dorsal_to
-name: dorsal_to
-def: "x dorsal_to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly)." []
+name: dorsal to
 xref: BSPO:0000098
-is_transitive: true
-inverse_of: ventral_to ! ventral_to
 
 [Typedef]
 id: drains
 name: drains
-synonym: "drains blood from" EXACT []
-synonym: "drains from" EXACT []
 xref: RO:0002179
 domain: UBERON:0001638 ! vein
-is_a: connected_to ! connected to
 
 [Typedef]
 id: ends
 name: ends
-def: "Relation between occurrents, shares an end boundary with." []
-synonym: "finishes" EXACT []
 xref: RO:0002229
-is_a: part_of ! part of
 
 [Typedef]
 id: ends_with
 name: ends with
 xref: RO:0002230
-is_transitive: true
-is_a: has_part ! has part
 
 [Typedef]
 id: existence_ends_during
@@ -55176,56 +55025,36 @@ name: existence ends during
 def: "Relation between continuant c and occurrent s, such that every instance of c ceases to exist during some s, if it does not die prematurely." []
 synonym: "ceases_to_exist_during" EXACT []
 xref: RO:0002492
-is_a: existence_ends_during_or_before ! existence ends during or before
-transitive_over: part_of ! part of
 
 [Typedef]
 id: existence_ends_during_or_before
 name: existence ends during or before
 xref: RO:0002497
-holds_over_chain: part_of existence_ends_during_or_before
-transitive_over: part_of ! part of
-transitive_over: precedes ! precedes
-transitive_over: simultaneous_with ! simultaneous_with
 
 [Typedef]
 id: existence_ends_with
 name: existence ends with
-def: "Relation between continuant and occurrent, such that c ceases to exist at the end of p." []
 xref: RO:0002493
-is_a: existence_ends_during ! existence ends during
 
 [Typedef]
 id: existence_starts_and_ends_during
 name: existence starts and ends during
 xref: RO:0002491
-is_a: existence_ends_during ! existence ends during
-is_a: existence_starts_during ! existence starts during
 
 [Typedef]
 id: existence_starts_during
 name: existence starts during
-def: "Relation between continuant c and occurrent s, such that every instance of c comes into existing during some s." []
-synonym: "begins_to_exist_during" EXACT []
 xref: RO:0002488
-is_a: existence_starts_during_or_after ! existence starts during or after
-transitive_over: part_of ! part of
 
 [Typedef]
 id: existence_starts_during_or_after
 name: existence starts during or after
 xref: RO:0002496
-holds_over_chain: part_of existence_starts_during_or_after
-transitive_over: part_of ! part of
-transitive_over: preceded_by ! preceded_by
-transitive_over: simultaneous_with ! simultaneous_with
 
 [Typedef]
 id: existence_starts_with
 name: existence starts with
-def: "Relation between continuant and occurrent, such that c comes into existence at the start of p." []
 xref: RO:0002489
-is_a: existence_starts_during ! existence starts during
 
 [Typedef]
 id: extends_fibers_into
@@ -55246,263 +55075,180 @@ name: functionally related to
 xref: RO:0002328
 
 [Typedef]
-id: has_boundary
-name: has boundary
+id: has_2D_boundary
+name: has 2D boundary
 xref: RO:0002002
-
-[Typedef]
-id: has_branching_part
-name: has branching part
-xref: RO:0002569
-is_transitive: true
 
 [Typedef]
 id: has_component
 name: has component
 xref: RO:0002180
-is_a: has_part ! has part
 
 [Typedef]
 id: has_developmental_contribution_from
 name: has developmental contribution from
 xref: RO:0002254
-holds_over_chain: has_part develops_from
 is_transitive: true
-
-[Typedef]
-id: has_fused_element
-name: has_fused_element
-def: "x has_fused_element y iff: there exists some z : x has_part z, z homologous_to y, and y is a distinct element, the boundary between x and z is largely fiat." []
-xref: RO:0002374
 
 [Typedef]
 id: has_member
 name: has member
 xref: RO:0002351
-is_a: has_part ! has part
 
 [Typedef]
 id: has_muscle_antagonist
-name: has_muscle_antagonist
-def: "m1 has_muscle_antagonist m2 iff m1 acts in opposition to m2, and m2 is responsible for returning the structure to its initial position." []
+name: has muscle antagonist
 xref: RO:0002568
 
 [Typedef]
 id: has_muscle_insertion
-name: has_muscle_insertion
-def: "m has_muscle_insertion s iff m is attaches_to s, and it is the case that when m contracts, s moves. Insertions are usually connections of muscle via tendon to bone." []
+name: has muscle insertion
 xref: RO:0002373
-is_a: attaches_to ! attaches_to
 
 [Typedef]
 id: has_muscle_origin
-name: has_muscle_origin
-def: "m has_muscle_origin s iff m is attaches_to s, and it is the case that when m contracts, s does not move. The site of the origin tends to be more proximal and have greater mass than what the other end attaches to." []
+name: has muscle origin
 xref: RO:0002372
-is_a: attaches_to ! attaches_to
 
 [Typedef]
 id: has_part
 name: has part
 xref: BFO:0000051
-is_transitive: true
 
 [Typedef]
 id: has_potential_to_develop_into
 name: has potential to develop into
-def: "x has the potential to develop into y iff x develops into y or if x is capable of developing into y." []
 xref: RO:0002387
 
 [Typedef]
 id: has_potential_to_developmentally_contribute_to
 name: has potential to developmentally contribute to
-def: "x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y." []
 xref: RO:0002385
 
 [Typedef]
 id: has_quality
 name: has quality
 xref: RO:0000086
-is_a: bearer_of ! bearer of
 
 [Typedef]
 id: has_skeleton
 name: has skeleton
-def: "A relation between a subdivision of an organism and the single subdivision of skeleton that provides structural support for that subdivision." []
-synonym: "has sekeletal support" RELATED []
-synonym: "has supporting framework" RELATED []
 xref: RO:0002551
 domain: UBERON:0000475 ! organism subdivision
 range: UBERON:0010912 ! subdivision of skeleton
-is_a: has_part ! has part
-inverse_of: skeleton_of ! skeleton of
-
-[Typedef]
-id: homologous_to
-name: homologous_to
-xref: RO:0002158
 
 [Typedef]
 id: immediate_transformation_of
 name: immediate transformation of
-synonym: "direct_transformation_of" EXACT []
-synonym: "immediately transforms from" EXACT []
 xref: RO:0002495
-is_a: transformation_of ! transformation of
 
 [Typedef]
 id: immediately_deep_to
-name: immediately_deep_to
-def: "This relation holds when both the deep_to and ajdacent_to relationship similarly hold." []
+name: immediately deep to
 xref: BSPO:0001107
-is_a: adjacent_to ! adjacent_to
-is_a: deep_to ! deep_to
 
 [Typedef]
 id: immediately_preceded_by
-name: immediately_preceded_by
-def: "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)." []
-synonym: "directly preceded by" EXACT []
-synonym: "is directly preceded by" EXACT []
-synonym: "is immediately preceded by" EXACT []
-synonym: "starts_at_end_of" EXACT []
+name: immediately preceded by
 xref: RO:0002087
-is_a: preceded_by ! preceded_by
 
 [Typedef]
 id: immediately_superficial_to
-name: immediately_superficial_to
+name: immediately superficial to
 xref: BSPO:0015014
-is_a: adjacent_to ! adjacent_to
-is_a: superficial_to ! superficial_to
+is_a: adjacent_to ! adjacent to
 
 [Typedef]
 id: in_anterior_side_of
-name: in_anterior_side_of
-def: "X anterior_side_of Y <=> if Y is subdivided into two anterior and posterior portions, X is part_of the anterior portion." []
+name: in anterior side of
 xref: BSPO:0000123
-is_a: part_of ! part of
 
 [Typedef]
 id: in_deep_part_of
-name: in_deep_part_of
-def: "X superficial_part_of Y <=> if Y is subdivided into two superficial and deep portions, X is part_of the deep portion." []
+name: in deep part of
 xref: BSPO:0001101
-is_a: part_of ! part of
-
-[Typedef]
-id: in_distal_side_of
-name: in_distal_side_of
-def: "X distal_side_of Y <=> if Y is subdivided into distal and proximal portions, X is part_of the distal portion." []
-xref: BSPO:0000125
-is_a: part_of ! part of
 
 [Typedef]
 id: in_dorsal_side_of
-name: in_dorsal_side_of
+name: in dorsal side of
 xref: BSPO:0015101
-is_a: part_of ! part of
 
 [Typedef]
 id: in_lateral_side_of
-name: in_lateral_side_of
-def: "X in_lateral_side_of Y <=> if X is in_left_side_of Y or X is in_right_side_of Y. X is often, but not always a paired structure." []
+name: in lateral side of
 xref: BSPO:0000126
-is_a: part_of ! part of
 
 [Typedef]
 id: in_left_side_of
-name: in_left_side_of
-def: "X in_left_side_of Y <=> if Y is subdivided into left and right portions, X is part_of the left portion." []
+name: in left side of
 xref: BSPO:0000120
-is_a: in_lateral_side_of ! in_lateral_side_of
 
 [Typedef]
 id: in_posterior_side_of
-name: in_posterior_side_of
-def: "X posterior_side_of Y <=> if Y is subdivided into two anterior and posterior portions, X is part_of the posterior portion." []
+name: in posterior side of
 xref: BSPO:0000122
-is_a: part_of ! part of
 
 [Typedef]
 id: in_proximal_side_of
-name: in_proximal_side_of
-def: "X proximal_side_of Y <=> if Y is subdivided into distal and proximal portions, X is part_of the proximal portion." []
+name: in proximal side of
 xref: BSPO:0000124
-is_a: part_of ! part of
-inverse_of: in_distal_side_of ! in_distal_side_of
 
 [Typedef]
 id: in_right_side_of
-name: in_right_side_of
-def: "X in_right_side_of Y <=> if Y is subdivided into left and right portions, X is part_of the right portion." []
+name: in right side of
 xref: BSPO:0000121
-is_a: in_lateral_side_of ! in_lateral_side_of
 
 [Typedef]
 id: in_superficial_part_of
-name: in_superficial_part_of
-def: "X superficial_part_of Y <=> if Y is subdivided into two superficial and deep portions, X is part_of the superficial portion." []
+name: in superficial part of
 xref: BSPO:0001100
-is_a: part_of ! part of
 
 [Typedef]
 id: in_taxon
 name: in taxon
 xref: RO:0002162
-holds_over_chain: attaches_to in_taxon
+holds_over_chain: attached_to in_taxon
 holds_over_chain: connected_to in_taxon
 holds_over_chain: connects in_taxon
 holds_over_chain: continuous_with in_taxon
 holds_over_chain: developmentally_induced_by in_taxon
-holds_over_chain: develops_from in_taxon
 holds_over_chain: existence_ends_during in_taxon
 holds_over_chain: existence_starts_during in_taxon
 holds_over_chain: extends_fibers_into in_taxon
-holds_over_chain: has_developmental_contribution_from in_taxon
 holds_over_chain: has_potential_to_develop_into in_taxon
 holds_over_chain: innervated_by in_taxon
 holds_over_chain: overlaps in_taxon
-holds_over_chain: part_of in_taxon
 holds_over_chain: produced_by in_taxon
 holds_over_chain: produces in_taxon
 holds_over_chain: supplies in_taxon
 
 [Typedef]
 id: in_ventral_side_of
-name: in_ventral_side_of
+name: in ventral side of
 xref: BSPO:0015102
-is_a: part_of ! part of
 
 [Typedef]
 id: indirectly_supplies
 name: indirectly_supplies
 def: "a indirectly_supplies s iff a has a branch and the branch supplies or indirectly supplies s." []
 xref: indirectly_supplies
-holds_over_chain: has_branching_part indirectly_supplies
-holds_over_chain: has_branching_part supplies
 is_transitive: true
 
 [Typedef]
 id: innervated_by
 name: innervated_by
-synonym: "nerve supply" EXACT []
 xref: RO:0002005
-inverse_of: innervates ! innervates
-transitive_over: branching_part_of ! branching_part_of
+transitive_over: branching_part_of ! branching part of
 
 [Typedef]
 id: innervates
 name: innervates
 xref: RO:0002134
-transitive_over: part_of ! part of
 
 [Typedef]
 id: intersects_midsagittal_plane_of
-name: intersects_midsagittal_plane_of
-def: "X intersects_median_plane of iff X crosses the midine plane of Y." []
+name: intersects midsagittal plane of
 xref: BSPO:0005001
-is_a: part_of ! part of
 
 [Typedef]
 id: layer_part_of
@@ -55512,45 +55258,33 @@ is_a: part_of ! part of
 
 [Typedef]
 id: located_in
-name: located_in
+name: located in
 xref: RO:0001025
 
 [Typedef]
 id: location_of
-name: location_of
+name: location of
 xref: RO:0001015
 
 [Typedef]
 id: lumen_of
 name: lumen of
 xref: RO:0002571
-is_a: part_of ! part of
 
 [Typedef]
 id: luminal_space_of
 name: luminal space of
 xref: RO:0002572
-is_a: part_of ! part of
-
-[Typedef]
-id: member_of
-name: member of
-xref: RO:0002350
-is_a: part_of ! part of
-inverse_of: has_member ! has member
 
 [Typedef]
 id: only_in_taxon
-name: only_in_taxon
-def: "S only_in_taxon T iff: S SubClassOf in_taxon only T." []
+name: only in taxon
 xref: RO:0002160
-is_a: in_taxon ! in taxon
 
 [Typedef]
 id: output_of
 name: output of
 xref: RO:0002353
-is_a: functionally_related_to ! functionally related to
 
 [Typedef]
 id: overlaps
@@ -55561,15 +55295,6 @@ xref: RO:0002131
 id: part_of
 name: part of
 xref: BFO:0000050
-is_transitive: true
-inverse_of: has_part ! has part
-
-[Typedef]
-id: part_of_structure_that_is_capable_of
-name: part of structure that is capable of
-xref: RO:0002329
-holds_over_chain: part_of capable_of
-is_a: functionally_related_to ! functionally related to
 
 [Typedef]
 id: participates_in
@@ -55578,50 +55303,40 @@ xref: RO:0000056
 
 [Typedef]
 id: postaxialmost_part_of
-name: postaxialmost_part_of
+name: postaxialmost part of
 xref: BSPO:0001115
-is_a: part_of ! part of
 
 [Typedef]
 id: posterior_to
-name: posterior_to
-def: "x posterior_to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail." []
-synonym: "caudal_to" NARROW []
+name: posterior to
 xref: BSPO:0000099
-is_transitive: true
 
 [Typedef]
 id: posteriorly_connected_to
 name: posteriorly connected to
 def: "x posteriorly_connected_to y iff the posterior part of x is connected to y. i.e. x connected_to y and x anterior_to y." []
 xref: posteriorly_connected_to
-is_a: anterior_to ! anterior_to
+is_a: anterior_to ! anterior to
 is_a: connected_to ! connected to
 
 [Typedef]
 id: preaxialmost_part_of
-name: preaxialmost_part_of
+name: preaxialmost part of
 xref: BSPO:0001113
-is_a: part_of ! part of
 
 [Typedef]
 id: preceded_by
-name: preceded_by
-def: "X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)." []
-synonym: "is preceded by" EXACT []
-synonym: "takes place after" EXACT []
+name: preceded by
 xref: BFO:0000062
-is_transitive: true
 
 [Typedef]
 id: precedes
 name: precedes
 xref: BFO:0000063
-is_transitive: true
 
 [Typedef]
 id: produced_by
-name: produced_by
+name: produced by
 xref: RO:0003001
 
 [Typedef]
@@ -55636,8 +55351,7 @@ xref: protects
 
 [Typedef]
 id: proximal_to
-name: proximal_to
-def: "x proximal_to y iff x is closer to the point of attachment with the body than y." []
+name: proximal to
 xref: BSPO:0000100
 
 [Typedef]
@@ -55646,33 +55360,33 @@ name: proximally connected to
 def: "x proximally_connected_to y iff the proximal part of x is connected to y. i.e. x connected_to y and x distal_to y." []
 xref: proximally_connected_to
 is_a: connected_to ! connected to
-is_a: distal_to ! distal_to
+is_a: distal_to ! distal to
 is_a: transitively_proximally_connected_to ! transitively proximally connected to
 
 [Typedef]
 id: proximalmost_part_of
-name: proximalmost_part_of
-def: "X proximalmost_part_of Y <=> X is part_of Y and X is adjacent_to the proximal boundary of Y." []
+name: proximalmost part of
 xref: BSPO:0001106
-is_a: in_proximal_side_of ! in_proximal_side_of
 
 [Typedef]
 id: serially_homologous_to
-name: serially_homologous_to
+name: serially homologous to
 xref: RO:0002159
 
 [Typedef]
 id: sexually_homologous_to
 name: sexually_homologous_to
 xref: sexually_homologous_to
-is_a: homologous_to ! homologous_to
+is_a: shares_ancestor_with ! shares ancestor with
+
+[Typedef]
+id: shares_ancestor_with
+name: shares ancestor with
+xref: RO:0002158
 
 [Typedef]
 id: simultaneous_with
-name: simultaneous_with
-def: "Relation between occurrents, shares start and end boundaries." []
-synonym: "coincides_with" EXACT []
-synonym: "is_equal_to" EXACT []
+name: simultaneous with
 xref: RO:0002082
 is_a: ends ! ends
 is_a: starts ! starts
@@ -55688,22 +55402,16 @@ xref: site_of
 id: skeleton_of
 name: skeleton of
 xref: RO:0002576
-is_a: part_of ! part of
 
 [Typedef]
 id: starts
 name: starts
-def: "Relation between occurrents, shares a start boundary with." []
 xref: RO:0002223
-is_a: part_of ! part of
-inverse_of: starts_with ! starts with
 
 [Typedef]
 id: starts_with
 name: starts with
 xref: RO:0002224
-is_transitive: true
-is_a: has_part ! has part
 
 [Typedef]
 id: subdivision_of
@@ -55712,29 +55420,23 @@ xref: subdivision_of
 
 [Typedef]
 id: superficial_to
-name: superficial_to
+name: superficial to
 xref: BSPO:0000108
 
 [Typedef]
 id: supplies
 name: supplies
-def: "relation between an artery and the structure is supplies with blood." []
-synonym: "arterial supply of" EXACT []
 xref: RO:0002178
 domain: UBERON:0001637 ! artery
-is_a: connected_to ! connected to
 
 [Typedef]
 id: surrounded_by
-name: surrounded_by
-def: "x surrounded_by y iff: x is adjacent to y and for every region r adjacent to x, r overlaps y." []
+name: surrounded by
 xref: RO:0002219
-inverse_of: surrounds ! surrounds
 
 [Typedef]
 id: surrounds
 name: surrounds
-def: "inverse of surrounded_by." []
 xref: RO:0002221
 
 [Typedef]
@@ -55746,10 +55448,7 @@ xref: synapsed_by
 [Typedef]
 id: transformation_of
 name: transformation of
-synonym: "transforms from" EXACT []
 xref: RO:0002494
-is_transitive: true
-is_a: develops_from ! develops_from
 
 [Typedef]
 id: transitively_anteriorly_connected_to
@@ -55780,8 +55479,7 @@ is_transitive: true
 
 [Typedef]
 id: tributary_of
-name: tributary_of
-synonym: "drains into" RELATED []
+name: tributary of
 xref: RO:0002376
 
 [Typedef]
@@ -55792,8 +55490,6 @@ is_a: part_of ! part of
 
 [Typedef]
 id: ventral_to
-name: ventral_to
-def: "x ventral_to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly)." []
+name: ventral to
 xref: BSPO:0000102
-is_transitive: true
 
