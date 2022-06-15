@@ -379,7 +379,7 @@ imports/%_import.obo: imports/%_import.owl
 # Fix external ontologies to specific versions. These should be updated regularly!
 CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.obo
 CL_SOURCE=http://purl.obolibrary.org/obo/cl/cl-base.owl
-UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/uberon-base.owl
+UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/releases/2022-05-17/uberon-base.owl
 
 WGET_OUT = -O $@.tmp && cp $@.tmp $@ && touch $@
 
@@ -562,7 +562,7 @@ imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 # these live in the ../sparql directory, and have suffix -violation.sparql
 # adding the name here will make the violation check live
 
-VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match replacedby-obsolete duplicate-exact-synonym duplicate-synonym non-IRI-value non-anyURI-value obsolete-definition definition-constraints one-to-one-xrefs-by-subject one-to-one-xrefs-by-value xref-syntax
+VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match replacedby-obsolete replacedby-namespace duplicate-exact-synonym duplicate-synonym non-IRI-value non-anyURI-value obsolete-definition definition-constraints one-to-one-xrefs-by-subject one-to-one-xrefs-by-value xref-syntax
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
