@@ -377,7 +377,7 @@ imports/%_import.obo: imports/%_import.owl
 # ----------------------------------------
 
 # Fix external ontologies to specific versions. These should be updated regularly!
-CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi/202/chebi.obo
+CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.obo
 CL_SOURCE=http://purl.obolibrary.org/obo/cl/cl-base.owl
 UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/releases/2022-05-17/uberon-base.owl
 
