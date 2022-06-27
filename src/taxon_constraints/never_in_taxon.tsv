@@ -548,3 +548,15 @@ GO:0140672	ATAC complex	NCBITaxon:4751	Fungi
 GO:0140737	encapsulin nanocompartment	NCBITaxon:2759	Eukaryota	
 GO:0035194	post-transcriptional gene silencing by RNA	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0035194	post-transcriptional gene silencing by RNA	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0032420	stereocilium	NCBITaxon:4751	Fungi	
+GO:0043005	neuron projection	NCBITaxon:4751	Fungi	
+GO:0005902	microvillus	NCBITaxon:4751	Fungi	
+GO:0032528	microvillus organization	NCBITaxon:4751	Fungi	
+GO:0030175	filopodium	NCBITaxon:4751	Fungi	
+GO:0046847	filopodium assembly	NCBITaxon:4751	Fungi	
+GO:0005903	brush border	NCBITaxon:4751	Fungi	
+GO:1904970	brush border assembly	NCBITaxon:4751	Fungi	
+GO:0001931	uropod	NCBITaxon:4751	Fungi	
+GO:0034460	uropod assembly	NCBITaxon:4751	Fungi	
+GO:0044393	microspike	NCBITaxon:4751	Fungi	
+GO:0030035	microspike assembly	NCBITaxon:4751	Fungi	
