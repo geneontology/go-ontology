@@ -826,7 +826,7 @@ GO:0043711	pilus organization	NCBITaxon:2	Bacteria
 GO:0120309	cilium attachment to cell body	NCBITaxon:5653	Kinetoplastida	
 GO:0120310	amastigogenesis	NCBITaxon:5654	Trypanosomatidae	
 GO:0120307	Hechtian strand	NCBITaxon:33090	Viridiplantae	
-GO:0007533 	mating type switching	NCBITaxon:4751	Fungi	
+GO:0007533	mating type switching	NCBITaxon:4751	Fungi	
 GO:0019035	viral integration complex	NCBITaxon:10239	Viruses	
 GO:0044105	L-xylulose reductase (NAD+) activity	NCBITaxon:4890	Ascomycota	
 GO:0120324	procyclogenesis	NCBITaxon:5654	Trypanosomatidae	
@@ -843,3 +843,4 @@ GO:0140781	ilicicolin H biosynthetic process	NCBITaxon:4751	Fungi
 GO:0140782	novofumigatonin biosynthetic process	NCBITaxon:4751	Fungi	
 GO:0140783	(M)-viriditoxin biosynthetic process	NCBITaxon:4751	Fungi	
 GO:0007179	transforming growth factor beta receptor signaling pathway	NCBITaxon:33511	Deuterostomia	
+GO:0160032	Toll receptor ligand protein activation cascade	NCBITaxon:50557	Insecta	
