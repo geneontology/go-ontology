@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-06-15/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-06-30/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -40415,6 +40415,11 @@ name: streptidine(2+)
 is_a: CHEBI:60251 ! guanidinium ion
 
 [Term]
+id: CHEBI:184381
+name: bacitracin A zwitterion
+is_a: CHEBI:27369 ! zwitterion
+
+[Term]
 id: CHEBI:1845
 name: 4-hydroxy-3-polyprenylbenzoic acid
 is_a: CHEBI:25389 ! monohydroxybenzoic acid
@@ -55257,6 +55262,14 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
+id: CHEBI:28669
+name: bacitracin
+is_a: CHEBI:60004 ! mixture
+relationship: has_part CHEBI:35862 ! bacitracin A
+relationship: has_role CHEBI:176497 ! geroprotector
+relationship: has_role CHEBI:33282 ! antibacterial agent
+
+[Term]
 id: CHEBI:28673
 name: 3-oxopropanoyl-CoA
 is_a: CHEBI:26296 ! propanoyl-CoAs
@@ -58048,24 +58061,6 @@ relationship: has_role CHEBI:33288 ! rodenticide
 relationship: has_role CHEBI:35610 ! antineoplastic agent
 relationship: has_role CHEBI:35718 ! antifungal agent
 relationship: has_role CHEBI:50903 ! carcinogenic agent
-
-[Term]
-id: CHEBI:29699
-name: tunicamycin
-subset: chebi_ph7_3
-is_a: CHEBI:60004 ! mixture
-relationship: has_part CHEBI:64228 ! tunicamycin A0
-relationship: has_part CHEBI:64245 ! tunicamycin A1
-relationship: has_part CHEBI:64246 ! tunicamycin A2
-relationship: has_part CHEBI:64248 ! tunicamycin B1
-relationship: has_part CHEBI:64250 ! tunicamycin B2
-relationship: has_part CHEBI:64255 ! tunicamycin B3
-relationship: has_part CHEBI:64256 ! tunicamycin C1
-relationship: has_part CHEBI:64257 ! tunicamycin C2
-relationship: has_part CHEBI:64271 ! tunicamycin D1
-relationship: has_part CHEBI:64272 ! tunicamycin D2
-relationship: has_role CHEBI:33281 ! antimicrobial agent
-relationship: has_role CHEBI:64237 ! EC 2.7.8.15 (UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase) inhibitor
 
 [Term]
 id: CHEBI:29700
@@ -100795,11 +100790,6 @@ name: 5-hydroxylysine
 is_a: CHEBI:86498 ! hydroxylysine
 
 [Term]
-id: CHEBI:60186
-name: EC 3.6.3.8 (Ca(2+)-transporting ATPase) inhibitor
-is_a: CHEBI:76895 ! EC 3.6.3.* (acid anhydride hydrolase catalysing transmembrane movement of substances) inhibitor
-
-[Term]
 id: CHEBI:60187
 name: alpha-D-Gal-(1->3)-beta-D-Gal-(1->4)-D-Gal
 subset: chebi_ph7_3
@@ -109600,13 +109590,6 @@ subset: chebi_ph7_3
 is_a: CHEBI:64224 ! 6-hydroxy-3-isopropenylheptanoate
 
 [Term]
-id: CHEBI:64228
-name: tunicamycin A0
-subset: chebi_ph7_3
-is_a: CHEBI:33838 ! nucleoside
-relationship: has_role CHEBI:33281 ! antimicrobial agent
-
-[Term]
 id: CHEBI:64229
 name: 6-isopropenyl-3-methyloxepan-2-one
 subset: chebi_ph7_3
@@ -109647,11 +109630,6 @@ subset: chebi_ph7_3
 is_a: CHEBI:25409 ! monoterpenoid
 is_a: CHEBI:26244 ! prenols
 is_a: CHEBI:51688 ! enal
-
-[Term]
-id: CHEBI:64237
-name: EC 2.7.8.15 (UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase) inhibitor
-is_a: CHEBI:76816 ! EC 2.7.8.* (transferases for other substituted phosphate groups) inhibitor
 
 [Term]
 id: CHEBI:64238
@@ -109695,42 +109673,14 @@ is_a: CHEBI:64220 ! monosodium glutamate
 relationship: has_part CHEBI:29986 ! D-glutamate(1-)
 
 [Term]
-id: CHEBI:64245
-name: tunicamycin A1
-subset: chebi_ph7_3
-is_a: CHEBI:33838 ! nucleoside
-relationship: has_role CHEBI:33281 ! antimicrobial agent
-
-[Term]
-id: CHEBI:64246
-name: tunicamycin A2
-subset: chebi_ph7_3
-is_a: CHEBI:33838 ! nucleoside
-relationship: has_role CHEBI:33281 ! antimicrobial agent
-
-[Term]
 id: CHEBI:64247
 name: (3R,6R)-6-hydroxy-3-isopropenylheptanoic acid
 is_a: CHEBI:50452 ! 6-hydroxy-3-isopropenylheptanoic acid
 
 [Term]
-id: CHEBI:64248
-name: tunicamycin B1
-subset: chebi_ph7_3
-is_a: CHEBI:33838 ! nucleoside
-relationship: has_role CHEBI:33281 ! antimicrobial agent
-
-[Term]
 id: CHEBI:64249
 name: (3S,6R)-6-hydroxy-3-isopropenylheptanoic acid
 is_a: CHEBI:50452 ! 6-hydroxy-3-isopropenylheptanoic acid
-
-[Term]
-id: CHEBI:64250
-name: tunicamycin B2
-subset: chebi_ph7_3
-is_a: CHEBI:33838 ! nucleoside
-relationship: has_role CHEBI:33281 ! antimicrobial agent
 
 [Term]
 id: CHEBI:64252
@@ -109749,29 +109699,6 @@ id: CHEBI:64254
 name: 1,4-dihydroxy-6-naphthoate
 subset: chebi_ph7_3
 is_a: CHEBI:35757 ! monocarboxylic acid anion
-
-[Term]
-id: CHEBI:64255
-name: tunicamycin B3
-subset: chebi_ph7_3
-is_a: CHEBI:33838 ! nucleoside
-relationship: has_role CHEBI:33281 ! antimicrobial agent
-
-[Term]
-id: CHEBI:64256
-name: tunicamycin C1
-subset: chebi_ph7_3
-is_a: CHEBI:33838 ! nucleoside
-relationship: has_role CHEBI:33281 ! antimicrobial agent
-relationship: has_role CHEBI:76507 ! marine metabolite
-relationship: has_role CHEBI:76969 ! bacterial metabolite
-
-[Term]
-id: CHEBI:64257
-name: tunicamycin C2
-subset: chebi_ph7_3
-is_a: CHEBI:33838 ! nucleoside
-relationship: has_role CHEBI:33281 ! antimicrobial agent
 
 [Term]
 id: CHEBI:64258
@@ -109848,20 +109775,6 @@ id: CHEBI:64270
 name: cyclic dehypoxanthinylfutalosinate(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:22718 ! benzoates
-
-[Term]
-id: CHEBI:64271
-name: tunicamycin D1
-subset: chebi_ph7_3
-is_a: CHEBI:33838 ! nucleoside
-relationship: has_role CHEBI:33281 ! antimicrobial agent
-
-[Term]
-id: CHEBI:64272
-name: tunicamycin D2
-subset: chebi_ph7_3
-is_a: CHEBI:33838 ! nucleoside
-relationship: has_role CHEBI:33281 ! antimicrobial agent
 
 [Term]
 id: CHEBI:64273
@@ -110640,21 +110553,8 @@ is_a: CHEBI:38166 ! organic heteropolycyclic compound
 is_a: CHEBI:38958 ! indole alkaloid
 
 [Term]
-id: CHEBI:64546
-name: fumiquinazoline A
-subset: chebi_ph7_3
-is_a: CHEBI:64545 ! fumiquinazoline
-is_a: CHEBI:64547 ! imidazoindole
-is_a: CHEBI:64548 ! pyrazinoquinazoline
-
-[Term]
 id: CHEBI:64547
 name: imidazoindole
-is_a: CHEBI:26979 ! organic heterotricyclic compound
-
-[Term]
-id: CHEBI:64548
-name: pyrazinoquinazoline
 is_a: CHEBI:26979 ! organic heterotricyclic compound
 
 [Term]
@@ -110662,14 +110562,6 @@ id: CHEBI:64549
 name: lysophosphatidylcholine 18:2
 subset: chebi_ph7_3
 is_a: CHEBI:60479 ! lysophosphatidylcholine
-
-[Term]
-id: CHEBI:64550
-name: fumiquinazoline F
-subset: chebi_ph7_3
-is_a: CHEBI:24828 ! indoles
-is_a: CHEBI:64545 ! fumiquinazoline
-is_a: CHEBI:64548 ! pyrazinoquinazoline
 
 [Term]
 id: CHEBI:64551
@@ -129911,11 +129803,6 @@ is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 [Term]
 id: CHEBI:76815
 name: EC 2.7.7.* (nucleotidyltransferase) inhibitor
-is_a: CHEBI:76668 ! EC 2.7.* (P-containing group transferase) inhibitor
-
-[Term]
-id: CHEBI:76816
-name: EC 2.7.8.* (transferases for other substituted phosphate groups) inhibitor
 is_a: CHEBI:76668 ! EC 2.7.* (P-containing group transferase) inhibitor
 
 [Term]
@@ -153701,16 +153588,6 @@ id: CHEBI:9493
 name: tetrahymanol
 subset: chebi_ph7_3
 is_a: CHEBI:25872 ! pentacyclic triterpenoid
-
-[Term]
-id: CHEBI:9516
-name: thapsigargin
-subset: chebi_ph7_3
-is_a: CHEBI:26979 ! organic heterotricyclic compound
-is_a: CHEBI:37667 ! sesquiterpene lactone
-is_a: CHEBI:50477 ! butyrate ester
-relationship: has_role CHEBI:38215 ! calcium channel blocker
-relationship: has_role CHEBI:60186 ! EC 3.6.3.8 (Ca(2+)-transporting ATPase) inhibitor
 
 [Term]
 id: CHEBI:9519
