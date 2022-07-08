@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-07-05/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-07-08/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -36219,6 +36219,12 @@ relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: has_role CHEBI:84735 ! algal metabolite
+
+[Term]
+id: CHEBI:177543
+name: terrein
+subset: chebi_ph7_3
+is_a: CHEBI:26191 ! polyol
 
 [Term]
 id: CHEBI:17755
