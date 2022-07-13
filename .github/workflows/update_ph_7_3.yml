@@ -1,4 +1,4 @@
-name: Makefile CI
+name: Update ChEBI pH 7.3 mapping 
 
 on:
   workflow_dispatch:
