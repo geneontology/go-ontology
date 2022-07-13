@@ -1,0 +1,23 @@
+name: Makefile CI
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 4 * * 0'
+
+jobs:
+  update:
+
+    runs-on: obolibrary/odkfull:v1.3.1
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      
+    - name: Update ChEBI pH 7.3 mapping
+      run: cd src/ontology; rm ../biochebi/chebi_pH7_3_mapping.tsv; make ../biochebi/chebi_pH7_3_mapping.tsv
+    
+    - name: Create PR
+      uses: peter-evans/create-pull-request@v4
+      with:
+        title: Update ChEBI pH 7.3 mapping
