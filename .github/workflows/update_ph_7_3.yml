@@ -8,7 +8,8 @@ on:
 jobs:
   update:
 
-    runs-on: obolibrary/odkfull:v1.3.1
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:v1.3.1
 
     steps:
     - name: Checkout repo
