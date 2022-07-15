@@ -16,7 +16,7 @@ jobs:
       uses: actions/checkout@v3
       
     - name: Update ChEBI pH 7.3 mapping
-      run: cd src/ontology; rm ../biochebi/chebi_pH7_3_mapping.tsv; make ../biochebi/chebi_pH7_3_mapping.tsv
+      run: cd src/ontology && rm ../biochebi/chebi_pH7_3_mapping.tsv && make ../biochebi/chebi_pH7_3_mapping.tsv && cd ../..
     
     - name: Create PR
       uses: peter-evans/create-pull-request@v4
