@@ -348,7 +348,7 @@ imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/present_in_taxon.tsv --generate-defined-class=true --obo-prefixes=true --template=$< --outfile=$@
 
 imports/go_taxon_constraints.owl: ../taxon_constraints/only_in_taxon.ofn ../taxon_constraints/never_in_taxon.ofn
-	$(ROBOT) merge $(addprefix -i , $^) annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) merge $(addprefix -i , $^) annotate -O $(BASE)/$@ -o $@
 
 imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
