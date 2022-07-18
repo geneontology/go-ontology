@@ -332,7 +332,7 @@ imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 
 # Inserting extra taxon disjoints here because ROBOT is used (standard disjoints come from owltools; could migrate to all via SPARQL like this one)
 imports/%_import_pre.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC) ../sparql/add-taxon-disjoints.ru
-	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT query --update ../sparql/add-taxon-disjoints.ru annotate -O $(BASE)/imports/$*_import.owl -V $(RELEASE_URIBASE)/imports/$*_import.owl -o $@
+	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT query --update ../sparql/add-taxon-disjoints.ru reason --exclude-duplicate-axioms true --exclude-tautologies structural annotate -O $(BASE)/imports/$*_import.owl -V $(RELEASE_URIBASE)/imports/$*_import.owl -o $@
 .PRECIOUS: imports/%_import_pre.owl
 
 imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
