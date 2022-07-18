@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-02-20/imports/cl_import.owl
+data-version: go/releases/2022-07-18/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -28,6 +28,7 @@ relationship: RO:0002202 CL:0000008 ! migratory cranial neural crest cell
 id: CL:0000006
 name: neuronal receptor cell
 synonym: "neuronal receptor cell (sensu Animalia)" EXACT []
+is_a: CL:0000101 ! sensory neuron
 is_a: CL:0000197 ! sensory receptor cell
 intersection_of: CL:0000197 ! sensory receptor cell
 intersection_of: CL:0000540 ! neuron
@@ -89,6 +90,7 @@ name: spermatid
 def: "A male germ cell that develops from the haploid secondary spermatocytes. Without further division, spermatids undergo structural changes and give rise to spermatozoa." []
 synonym: "nematoblast" EXACT []
 is_a: CL:0000015 ! male germ cell
+is_a: CL:0000413 ! haploid cell
 intersection_of: CL:0000015 ! male germ cell
 intersection_of: RO:0000053 PATO:0001375
 intersection_of: RO:0002215 GO:0001675
@@ -111,6 +113,7 @@ id: CL:0000020
 name: spermatogonium
 def: "An euploid male germ cell of an early stage of spermatogenesis." []
 synonym: "spermatogonial cell" EXACT []
+is_a: CL:0000015 ! male germ cell
 intersection_of: CL:0000015 ! male germ cell
 intersection_of: RO:0000053 PATO:0001394
 intersection_of: RO:0000053 PATO:0001501
@@ -137,6 +140,7 @@ name: oocyte
 def: "A female germ cell that has entered meiosis." []
 synonym: "oogonium" RELATED []
 is_a: CL:0000021 ! female germ cell
+is_a: CL:0000548 ! animal cell
 relationship: RO:0000056 GO:0007143
 relationship: RO:0002160 NCBITaxon:33208
 
@@ -205,6 +209,7 @@ id: CL:0000034
 name: stem cell
 def: "A relatively undifferentiated cell that retains the ability to divide and proliferate throughout life to provide progenitor cells that can differentiate into specialized cells." []
 synonym: "animal stem cell" EXACT []
+is_a: CL:0011115 ! precursor cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0002215 GO:0017145
 relationship: RO:0002162 NCBITaxon:33208
@@ -235,7 +240,6 @@ synonym: "blood forming stem cell" EXACT []
 synonym: "colony forming unit hematopoietic" RELATED []
 synonym: "hemopoietic stem cell" EXACT []
 synonym: "HSC" EXACT []
-is_a: CL:0000988 ! hematopoietic cell
 is_a: CL:0008001 ! hematopoietic precursor cell
 intersection_of: CL:0000988 ! hematopoietic cell
 intersection_of: lacks_plasma_membrane_part PR:000001002
@@ -298,6 +302,7 @@ id: CL:0000042
 name: neutrophilic myeloblast
 def: "A myeloblast committed to the neutrophil lineage. This cell type is GATA-1 positive, C/EBPa-positive, AML-1-positive, c-myb-positive and has low expression of PU.1 transcription factor." []
 synonym: "neutrophilic granuloblast" RELATED []
+is_a: CL:0000834 ! neutrophil progenitor cell
 is_a: CL:0000835 ! myeloblast
 intersection_of: CL:0000835 ! myeloblast
 intersection_of: BFO:0000051 PR:000001944
@@ -339,6 +344,8 @@ synonym: "multi-fate stem cell" EXACT []
 synonym: "multifate stem cell" EXACT []
 synonym: "multipotent cell" EXACT []
 synonym: "multipotent stem cell" EXACT []
+is_a: CL:0000034 ! stem cell
+is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0002371 ! somatic cell
 intersection_of: RO:0000053 PATO:0001402
 intersection_of: RO:0002215 GO:0017145
@@ -371,6 +378,7 @@ synonym: "Meg/E progenitor" EXACT []
 synonym: "megakaryocyte/erythrocyte progenitor" EXACT []
 synonym: "megakaryocyte/erythroid progenitor cell" EXACT []
 synonym: "MEP" EXACT []
+is_a: CL:0000763 ! myeloid cell
 is_a: CL:0002032 ! hematopoietic oligopotent progenitor cell
 intersection_of: CL:0002032 ! hematopoietic oligopotent progenitor cell
 intersection_of: RO:0002215 GO:0030218
@@ -401,7 +409,7 @@ id: CL:0000055
 name: non-terminally differentiated cell
 def: "A precursor cell with a limited number of potential fates." []
 synonym: "blast cell" EXACT []
-is_a: CL:0000003 ! native cell
+is_a: CL:0011115 ! precursor cell
 relationship: RO:0002215 GO:0030154
 
 [Term]
@@ -464,6 +472,7 @@ relationship: RO:0003000 UBERON:0008883
 id: CL:0000064
 name: ciliated cell
 def: "A cell that has a filiform extrusion of the cell surface." []
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000051 GO:0005929
 
@@ -480,6 +489,8 @@ relationship: BFO:0000050 UBERON:0000483
 id: CL:0000067
 name: ciliated epithelial cell
 def: "An epithelial cell that has a cilia." []
+is_a: CL:0000064 ! ciliated cell
+is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000051 GO:0005929
 
@@ -504,7 +515,6 @@ def: "An endothelial cell that lines the vasculature." []
 synonym: "cuboidal endothelial cell of vascular tree" EXACT []
 is_a: CL:0000076 ! squamous epithelial cell
 is_a: CL:0002139 ! endothelial cell of vascular tree
-is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000076 ! squamous epithelial cell
 intersection_of: BFO:0000050 UBERON:0004638
 relationship: RO:0002202 CL:0002546 ! embryonic blood vessel endothelial progenitor cell
@@ -528,6 +538,7 @@ def: "A flattened epithelial cell of mesenchymal origin that lines the serous ca
 synonym: "mesotheliocyte" EXACT []
 is_a: CL:0000076 ! squamous epithelial cell
 is_a: CL:0000213 ! lining cell
+is_a: CL:0002078 ! meso-epithelial cell
 relationship: RO:0002202 CL:0000222 ! mesodermal cell
 
 [Term]
@@ -550,6 +561,7 @@ id: CL:0000082
 name: epithelial cell of lung
 def: "An epithelial cell of the lung." []
 synonym: "lung epithelial cell" EXACT []
+is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0002048
 relationship: BFO:0000050 UBERON:0000115
@@ -607,6 +619,7 @@ def: "A leukocyte with abundant granules in the cytoplasm." []
 synonym: "granular leucocyte" EXACT []
 synonym: "granular leukocyte" EXACT []
 synonym: "polymorphonuclear leukocyte" EXACT []
+is_a: CL:0000081 ! blood cell
 is_a: CL:0000766 ! myeloid leukocyte
 intersection_of: CL:0000766 ! myeloid leukocyte
 intersection_of: BFO:0000051 GO:0030141
@@ -641,6 +654,7 @@ synonym: "polymorphonuclear leukocyte" BROAD []
 synonym: "polymorphonuclear neutrophil" EXACT []
 synonym: "polynuclear neutrophilic leucocyte" EXACT []
 synonym: "polynuclear neutrophilic leukocyte" EXACT []
+is_a: CL:0000234 ! phagocyte
 is_a: CL:0000775 ! neutrophil
 
 [Term]
@@ -704,6 +718,7 @@ intersection_of: RO:0002215 GO:0050906
 id: CL:0000103
 name: bipolar neuron
 def: "A type of interneuron that has two neurites, usually an axon and a dendrite, extending from opposite poles of an ovoid cell body." []
+is_a: CL:0000099 ! interneuron
 intersection_of: CL:0000099 ! interneuron
 intersection_of: RO:0000053 PATO:0070006
 
@@ -725,6 +740,7 @@ intersection_of: RO:0002100 UBERON:0002410
 id: CL:0000108
 name: cholinergic neuron
 def: "A neuron that uses acetylcholine as a vesicular neurotransmitter." []
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002215 GO:0014055
 
@@ -782,6 +798,7 @@ relationship: RO:0002100 UBERON:0002129
 id: CL:0000122
 name: stellate neuron
 def: "A neuron that has dendritic processes radiating from the cell body forming a star-like shape." []
+is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 intersection_of: CL:0000117 ! CNS neuron (sensu Vertebrata)
 intersection_of: RO:0000053 PATO:0070010
 
@@ -836,6 +853,7 @@ synonym: "hortega cells" EXACT []
 synonym: "MF.microglia.CNS" RELATED []
 synonym: "microglia" EXACT []
 synonym: "microgliocyte" EXACT []
+is_a: CL:0000125 ! glial cell
 is_a: CL:0000878 ! central nervous system macrophage
 intersection_of: CL:0000125 ! glial cell
 intersection_of: BFO:0000050 UBERON:0001017
@@ -898,7 +916,6 @@ def: "Skeletogenic cell that is terminally differentiated, secretes an avascular
 synonym: "cartilage cell" EXACT []
 is_a: CL:0000153 ! glycosaminoglycan secreting cell
 is_a: CL:0000667 ! collagen secreting cell
-is_a: CL:0002320 ! connective tissue cell
 relationship: RO:0001025 UBERON:0002418
 relationship: RO:0002202 CL:0000058 ! chondroblast
 
@@ -954,6 +971,7 @@ relationship: BFO:0000050 UBERON:0006799
 id: CL:0000151
 name: secretory cell
 def: "A cell that specializes in controlled release of one or more substances." []
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0002215 GO:0032940
 
@@ -969,6 +987,7 @@ is_a: CL:0000447 ! carbohydrate secreting cell
 [Term]
 id: CL:0000154
 name: protein secreting cell
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0009306
 
@@ -987,6 +1006,7 @@ def: "Epithelial progenitor cell of the lung. Club cells are dome-shaped with sh
 synonym: "bronchiolar non-ciliated cell" EXACT []
 synonym: "Clara cell" EXACT []
 synonym: "club cell of bronchiole" EXACT []
+is_a: CL:0000157 ! surfactant secreting cell
 is_a: CL:0002328 ! bronchial epithelial cell
 intersection_of: CL:0002328 ! bronchial epithelial cell
 intersection_of: RO:0000053 PATO:0001789
@@ -1005,6 +1025,7 @@ name: goblet cell
 def: "A cell of the epithelial lining that produce and secrete mucins." []
 synonym: "chalice cell" EXACT []
 is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0000319 ! mucus secreting cell
 relationship: RO:0002215 GO:0070254
 
 [Term]
@@ -1019,6 +1040,7 @@ id: CL:0000163
 name: endocrine cell
 def: "A cell of an endocrine gland, ductless glands that secrete substances which are released directly into the circulation and which influence metabolism and other body functions." []
 synonym: "endocrinocyte" EXACT []
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0060986
 relationship: BFO:0000050 UBERON:0002368
@@ -1050,12 +1072,14 @@ relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 [Term]
 id: CL:0000167
 name: peptide hormone secreting cell
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0030072
 
 [Term]
 id: CL:0000168
 name: insulin secreting cell
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0030073
 
@@ -1085,6 +1109,7 @@ id: CL:0000170
 name: glucagon secreting cell
 def: "A cell that secretes glucagon." []
 synonym: "glucagon-secreting cell" EXACT []
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0070091
 
@@ -1094,7 +1119,9 @@ name: pancreatic A cell
 def: "A type of enteocrine cell found in the periphery of the islets of Langerhans that secretes glucagon." []
 synonym: "alpha cell of islet of Langerhans" EXACT []
 synonym: "pancreatic alpha cell" EXACT []
+is_a: CL:0000083 ! epithelial cell of pancreas
 is_a: CL:0002067 ! type A enteroendocrine cell
+is_a: CL:0008024 ! pancreatic endocrine cell
 intersection_of: CL:0002067 ! type A enteroendocrine cell
 intersection_of: BFO:0000050 UBERON:0001264
 relationship: BFO:0000050 UBERON:0000006
@@ -1104,6 +1131,7 @@ relationship: RO:0002215 GO:0070091
 [Term]
 id: CL:0000172
 name: somatostatin secreting cell
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0070253
 
@@ -1117,7 +1145,9 @@ synonym: "delta cell of pancreatic islet" EXACT []
 synonym: "pancreatic D-cell" EXACT []
 synonym: "pancreatic delta cell" EXACT []
 synonym: "somatostatin-secreting pancreatic cell" EXACT []
+is_a: CL:0000083 ! epithelial cell of pancreas
 is_a: CL:0000502 ! type D enteroendocrine cell
+is_a: CL:0008024 ! pancreatic endocrine cell
 intersection_of: CL:0000502 ! type D enteroendocrine cell
 intersection_of: BFO:0000050 UBERON:0001264
 relationship: BFO:0000050 UBERON:0000006
@@ -1126,6 +1156,7 @@ relationship: RO:0002202 CL:0002351 ! progenitor cell of endocrine pancreas
 [Term]
 id: CL:0000174
 name: steroid hormone secreting cell
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0035929
 
@@ -1135,6 +1166,7 @@ name: luteal cell
 def: "A progesterone secreting cell in the corpus luteum. The large luteal cells develop from the granulosa cells. The small luteal cells develop from the theca cells." []
 synonym: "lutein cell" EXACT []
 is_a: CL:0000174 ! steroid hormone secreting cell
+is_a: CL:0000179 ! progesterone secreting cell
 is_a: CL:0002132 ! stromal cell of ovary
 relationship: BFO:0000050 UBERON:0002512
 relationship: RO:0002215 GO:0042701
@@ -1142,12 +1174,14 @@ relationship: RO:0002215 GO:0042701
 [Term]
 id: CL:0000176
 name: ecdysteroid secreting cell
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0045457
 
 [Term]
 id: CL:0000177
 name: testosterone secreting cell
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0035936
 
@@ -1163,6 +1197,7 @@ relationship: BFO:0000050 UBERON:0005212
 [Term]
 id: CL:0000179
 name: progesterone secreting cell
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0042701
 
@@ -1170,6 +1205,7 @@ intersection_of: RO:0002215 GO:0042701
 id: CL:0000180
 name: estradiol secreting cell
 def: "A steroid hormone secreting cell that secretes estradiol." []
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0035938
 
@@ -1218,6 +1254,7 @@ id: CL:0000188
 name: cell of skeletal muscle
 def: "A somatic cell located in skeletal muscle." []
 synonym: "skeletal muscle cell" EXACT []
+is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0002371 ! somatic cell
 intersection_of: BFO:0000050 UBERON:0001134
 
@@ -1256,12 +1293,14 @@ id: CL:0000199
 name: mechanoreceptor cell
 def: "A cell specialized to transduce mechanical stimuli and relay that information centrally in the nervous system." []
 synonym: "mechanoreceptor" RELATED []
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002215 GO:0050974
 
 [Term]
 id: CL:0000200
 name: touch receptor cell
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002215 GO:0050976
 
@@ -1276,6 +1315,7 @@ relationship: RO:0002215 GO:0050910
 [Term]
 id: CL:0000203
 name: gravity sensitive cell
+is_a: CL:0000006 ! neuronal receptor cell
 intersection_of: CL:0000006 ! neuronal receptor cell
 intersection_of: RO:0002215 GO:0070999
 
@@ -1283,6 +1323,7 @@ intersection_of: RO:0002215 GO:0070999
 id: CL:0000205
 name: thermoreceptor cell
 def: "A cellular receptor which mediates the sense of temperature. Thermoreceptor cells in vertebrates are mostly located under the skin. In mammals there are separate types of thermoreceptors for cold and for warmth and pain receptor cells which detect cold or heat extreme enough to cause pain." []
+is_a: CL:0000006 ! neuronal receptor cell
 intersection_of: CL:0000006 ! neuronal receptor cell
 intersection_of: RO:0002215 GO:0050960
 
@@ -1290,6 +1331,7 @@ intersection_of: RO:0002215 GO:0050960
 id: CL:0000206
 name: chemoreceptor cell
 def: "A cell specialized to detect chemical substances and relay that information centrally in the nervous system. Chemoreceptors may monitor external stimuli, as in taste and olfaction, or internal stimuli, such as the concentrations of oxygen and carbon dioxide in the blood." []
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002215 GO:0050907
 
@@ -1300,6 +1342,7 @@ synonym: "odorant receptor cell" EXACT []
 synonym: "olfactory receptor neuron" EXACT []
 synonym: "olfactory sensory neuron" EXACT []
 synonym: "Schultze's cell" EXACT []
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002215 GO:0050911
 relationship: BFO:0000050 UBERON:0005725
@@ -1309,6 +1352,7 @@ id: CL:0000209
 name: taste receptor cell
 def: "A cell type found in the spherical or ovoid clusters of receptor cells found mainly in the epithelium of the tongue and constituting the end organs of the sense of taste." []
 synonym: "taste bud cell" EXACT []
+is_a: CL:0000006 ! neuronal receptor cell
 is_a: CL:0000098 ! sensory epithelial cell
 is_a: CL:0002076 ! endo-epithelial cell
 intersection_of: CL:0000540 ! neuron
@@ -1361,7 +1405,6 @@ is_a: CL:0000003 ! native cell
 id: CL:0000216
 name: Sertoli cell
 def: "A supporting cell projecting inward from the basement membrane of seminiferous tubules. They surround and nourish the developing male germ cells and secrete androgen binding protein. Their tight junctions with the spermatogonia and spermatocytes provide a blood-testis barrier." []
-is_a: CL:0000215 ! barrier cell
 is_a: CL:0000511 ! androgen binding protein secreting cell
 is_a: CL:0000630 ! supporting cell
 is_a: CL:0002625 ! seminiferous tubule epithelial cell
@@ -1389,6 +1432,7 @@ relationship: RO:0002202 CL:0002377 ! immature Schwann cell
 id: CL:0000219
 name: motile cell
 def: "A cell that moves by its own activities." []
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0002215 GO:0048870
 
@@ -1422,6 +1466,7 @@ id: CL:0000225
 name: anucleate cell
 def: "A cell that lacks a nucleus." []
 synonym: "non-nucleated cell" EXACT []
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0000053 PATO:0001405
 disjoint_from: CL:0002242 ! nucleate cell
@@ -1430,12 +1475,14 @@ disjoint_from: CL:0002242 ! nucleate cell
 id: CL:0000226
 name: single nucleate cell
 def: "A cell with a single nucleus." []
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0000053 PATO:0001407
 
 [Term]
 id: CL:0000227
 name: binucleate cell
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0000053 PATO:0001406
 
@@ -1446,6 +1493,7 @@ def: "A cell with more than one nucleus." []
 synonym: "syncitium" EXACT []
 synonym: "syncytial cell" EXACT []
 synonym: "syncytium" EXACT []
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0000053 PATO:0001908
 
@@ -1455,6 +1503,8 @@ name: erythrocyte
 def: "A red blood cell. In mammals, mature erythrocytes are biconcave disks containing hemoglobin whose function is to transport oxygen." []
 synonym: "RBC" EXACT []
 synonym: "red blood cell" EXACT []
+is_a: CL:0000081 ! blood cell
+is_a: CL:0000329 ! oxygen accumulating cell
 is_a: CL:0000764 ! erythroid lineage cell
 intersection_of: CL:0000764 ! erythroid lineage cell
 intersection_of: lacks_part GO:0005840
@@ -1471,6 +1521,8 @@ def: "A non-nucleated disk-shaped cell formed by extrusion from megakaryocytes, 
 synonym: "anucleate thrombocyte" EXACT []
 synonym: "blood platelet" EXACT []
 synonym: "enucleate thrombocyte" EXACT []
+is_a: CL:0000081 ! blood cell
+is_a: CL:0000225 ! anucleate cell
 is_a: CL:0000763 ! myeloid cell
 intersection_of: CL:0000763 ! myeloid cell
 intersection_of: RO:0000053 PATO:0001405
@@ -1495,6 +1547,8 @@ id: CL:0000235
 name: macrophage
 def: "A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells." []
 synonym: "histiocyte" EXACT []
+is_a: CL:0000145 ! professional antigen presenting cell
+is_a: CL:0000234 ! phagocyte
 is_a: CL:0000766 ! myeloid leukocyte
 intersection_of: CL:0000766 ! myeloid leukocyte
 intersection_of: RO:0002215 GO:0002504
@@ -1519,11 +1573,13 @@ id: CL:0000237
 name: keratinizing barrier epithelial cell
 is_a: CL:0000240 ! stratified squamous epithelial cell
 is_a: CL:0000311 ! keratin accumulating cell
+is_a: CL:0002077 ! ecto-epithelial cell
 relationship: RO:0002202 CL:0000114 ! surface ectodermal cell
 
 [Term]
 id: CL:0000239
 name: brush border epithelial cell
+is_a: CL:0000067 ! ciliated epithelial cell
 is_a: CL:0000075 ! columnar/cuboidal epithelial cell
 relationship: BFO:0000051 GO:0005929
 
@@ -1557,6 +1613,7 @@ is_a: CL:0000527 ! efferent neuron
 [Term]
 id: CL:0000255
 name: eukaryotic cell
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0002160 NCBITaxon:2759
 disjoint_from: CL:0000520 ! prokaryotic cell
@@ -1574,6 +1631,7 @@ name: somatotropin secreting cell
 def: "A peptide hormone secreting cell that produces growth hormone, somatotropin." []
 synonym: "growth hormone secreting cell" EXACT []
 synonym: "somatotrophin secreting cell" EXACT []
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0030252
 
@@ -1583,6 +1641,7 @@ name: gamete
 def: "A mature sexual reproductive cell having a single set of unpaired chromosomes." []
 synonym: "haploid germ cell" RELATED []
 synonym: "haploid nucleated cell" EXACT []
+is_a: CL:0000413 ! haploid cell
 is_a: CL:0000586 ! germ cell
 intersection_of: CL:0000586 ! germ cell
 intersection_of: RO:0000053 PATO:0001375
@@ -1629,6 +1688,7 @@ name: sebum secreting cell
 def: "A cell secreting sebun, an oily substance secreted by sebaceous glands, composed of keratin, fat, and cellular debris." []
 synonym: "sebocyte" EXACT []
 is_a: CL:0000151 ! secretory cell
+is_a: CL:2000021 ! sebaceous gland cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: BFO:0000050 UBERON:0001821
 
@@ -1669,6 +1729,7 @@ is_a: CL:0000325 ! stuff accumulating cell
 [Term]
 id: CL:0000329
 name: oxygen accumulating cell
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0002215 GO:0015671
 
@@ -1676,9 +1737,9 @@ intersection_of: RO:0002215 GO:0015671
 id: CL:0000333
 name: migratory neural crest cell
 def: "A cell derived from the specialized ectoderm flanking each side of the embryonic neural plate, which after the closure of the neural tube, forms masses of cells that migrate out from the dorsal aspect of the neural tube to spread throughout the body." []
-is_a: CL:0000003 ! native cell
 is_a: CL:0000219 ! motile cell
 is_a: CL:0011012 ! neural crest cell
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0007004 ! premigratory neural crest cell
 
 [Term]
@@ -1694,6 +1755,7 @@ def: "An early neural cell developing from the early ependymal cell of the neura
 synonym: "spongioblast" EXACT []
 is_a: CL:0000030 ! glioblast
 is_a: CL:0000123 ! neuron associated cell (sensu Vertebrata)
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002160 NCBITaxon:7742
 
 [Term]
@@ -1704,6 +1766,7 @@ is_a: CL:0000147 ! pigment cell
 [Term]
 id: CL:0000349
 name: extraembryonic cell
+is_a: CL:0000548 ! animal cell
 is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000548 ! animal cell
 intersection_of: BFO:0000050 UBERON:0000478
@@ -1711,6 +1774,7 @@ intersection_of: BFO:0000050 UBERON:0000478
 [Term]
 id: CL:0000350
 name: amnioserosal cell
+is_a: CL:0000349 ! extraembryonic cell
 intersection_of: CL:0000349 ! extraembryonic cell
 intersection_of: BFO:0000050 UBERON:0010302
 
@@ -1727,6 +1791,7 @@ id: CL:0000355
 name: multi-potent skeletal muscle stem cell
 def: "A multifate stem cell found in skeletal muscle than can differentiate into many different cell types, including muscle. Distinct cell type from satellite cell." []
 is_a: CL:0000048 ! multi fate stem cell
+is_a: CL:0000188 ! cell of skeletal muscle
 intersection_of: CL:0000048 ! multi fate stem cell
 intersection_of: BFO:0000050 UBERON:0001134
 
@@ -1752,7 +1817,6 @@ def: "An epithelial cell of the integument (the outer layer of an organism)." []
 synonym: "cell of epidermis" EXACT []
 synonym: "epithelial cell of skin" NARROW []
 is_a: CL:0002159 ! general ecto-epithelial cell
-is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0007376
 
@@ -1852,6 +1916,7 @@ id: CL:0000402
 name: CNS interneuron
 is_a: CL:0000099 ! interneuron
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
+is_a: CL:2000029 ! central nervous system neuron
 intersection_of: CL:0000099 ! interneuron
 intersection_of: RO:0002100 UBERON:0001017
 
@@ -1880,6 +1945,7 @@ is_a: CL:0000003 ! native cell
 id: CL:0000413
 name: haploid cell
 def: "A cell whose nucleus contains a single haploid genome." []
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0000053 PATO:0001375
 
@@ -1925,6 +1991,7 @@ relationship: RO:0002202 CL:0005001 ! iridoblast
 id: CL:0000438
 name: luteinizing hormone secreting cell
 def: "A peptide hormone secreting cell pituitary that produces luteinizing hormone." []
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0032275
 
@@ -1932,6 +1999,7 @@ intersection_of: RO:0002215 GO:0032275
 id: CL:0000439
 name: prolactin secreting cell
 def: "A peptide hormone cell that secretes prolactin." []
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0070459
 
@@ -1941,6 +2009,7 @@ name: melanocyte stimulating hormone secreting cell
 def: "A cell of the intermediate pituitary that produces melanocyte stimulating hormone." []
 synonym: "melanotrope" EXACT []
 synonym: "melanotroph" EXACT []
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0036160
 
@@ -1958,6 +2027,7 @@ is_a: CL:0000473 ! defensive cell
 [Term]
 id: CL:0000443
 name: calcitonin secreting cell
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0036161
 
@@ -1993,7 +2063,8 @@ name: dendritic cell
 def: "A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation. These cells are lineage negative (CD3-negative, CD19-negative, CD34-negative, and CD56-negative)." []
 synonym: "interdigitating cell" RELATED []
 synonym: "veiled cell" RELATED []
-is_a: CL:0000738 ! leukocyte
+is_a: CL:0000145 ! professional antigen presenting cell
+is_a: CL:0000842 ! mononuclear cell
 intersection_of: CL:0000738 ! leukocyte
 intersection_of: BFO:0000051 GO:0042613
 intersection_of: lacks_plasma_membrane_part PR:000001002
@@ -2033,6 +2104,7 @@ intersection_of: RO:0002215 GO:0048242
 [Term]
 id: CL:0000456
 name: mineralocorticoid secreting cell
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0035931
 
@@ -2065,6 +2137,7 @@ intersection_of: RO:0002215 GO:0048243
 [Term]
 id: CL:0000460
 name: glucocorticoid secreting cell
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0035933
 
@@ -2077,6 +2150,7 @@ synonym: "adrenocorticotrophic hormone secreting cell" EXACT []
 synonym: "corticotrophin hormone secreting cell" EXACT []
 synonym: "corticotropin hormone secreting cell" EXACT []
 synonym: "corticotropin secreting cell" EXACT []
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0051458
 
@@ -2085,6 +2159,7 @@ id: CL:0000469
 name: ganglion mother cell
 def: "A neural progenitor cell that is the daughter of a neuroblast (sensu arthopoda).  The progeny of ganglion mother cells develop into neurons, glia and (occasionally) epithelial cells." []
 is_a: CL:0011020 ! neural progenitor cell
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000338 ! neuroblast (sensu Nematoda and Protostomia)
 
 [Term]
@@ -2116,7 +2191,7 @@ id: CL:0000477
 name: ovarian follicle cell
 def: "A somatic epithelial cell of the ovarian follicle/egg chamber." []
 synonym: "follicle cell" BROAD []
-is_a: CL:0000066 ! epithelial cell
+is_a: CL:2000064 ! ovarian surface epithelial cell
 relationship: BFO:0000050 UBERON:0000992
 relationship: RO:0002202 CL:0000441 ! follicle stem cell
 
@@ -2124,6 +2199,7 @@ relationship: RO:0002202 CL:0000441 ! follicle stem cell
 id: CL:0000482
 name: juvenile hormone secreting cell
 def: "An endocrine cell that secretes juvenile hormone." []
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0045443
 
@@ -2135,6 +2211,7 @@ synonym: "MC(TC)" EXACT []
 synonym: "MCTC" EXACT []
 synonym: "TC mast cells" EXACT []
 is_a: CL:0000097 ! mast cell
+is_a: CL:0002320 ! connective tissue cell
 intersection_of: CL:0000097 ! mast cell
 intersection_of: BFO:0000050 UBERON:0002384
 
@@ -2223,6 +2300,7 @@ name: type D enteroendocrine cell
 def: "A cell found throughout the gastrointestinal tract and in the pancreas. They secrete somatostatin in both an endocrine and paracrine manner. Somatostatin inhibits gastrin, cholecystokinin, insulin, glucagon, pancreatic enzymes, and gastric hydrochloric acid. A variety of substances which inhibit gastric acid secretion (vasoactive intestinal peptide, calcitonin gene-related peptide, cholecystokinin, beta-adrenergic agonists, and gastric inhibitory peptide) are thought to act by releasing somatostatin." []
 synonym: "D cell" EXACT []
 is_a: CL:0000164 ! enteroendocrine cell
+is_a: CL:0000172 ! somatostatin secreting cell
 relationship: RO:0002215 GO:0070253
 
 [Term]
@@ -2237,7 +2315,7 @@ name: cardiac muscle myoblast
 def: "A precursor cell destined to differentiate into cardiac muscle cell." []
 synonym: "cardiac muscle progenitor cell" EXACT []
 synonym: "cardiomyocyte progenitor cell" EXACT []
-is_a: CL:0000056 ! myoblast
+is_a: CL:0010021 ! cardiac myoblast
 intersection_of: CL:0000056 ! myoblast
 intersection_of: BFO:0000050 UBERON:0001133
 intersection_of: RO:0002203 CL:0000746 ! cardiac muscle cell
@@ -2258,6 +2336,7 @@ name: skeletal muscle myoblast
 def: "A myoblast that differentiates into skeletal muscle fibers." []
 synonym: "skeletal myoblast" EXACT []
 is_a: CL:0000056 ! myoblast
+is_a: CL:0011026 ! progenitor cell
 intersection_of: CL:0000056 ! myoblast
 intersection_of: RO:0002203 CL:0008002 ! skeletal muscle fiber
 relationship: RO:0002202 CL:0000355 ! multi-potent skeletal muscle stem cell
@@ -2295,6 +2374,8 @@ def: "A cell from the outer syncytial layer of the trophoblast of an early mamma
 synonym: "plasmidotrophoblast" EXACT []
 synonym: "syncytial trophoblast" EXACT []
 synonym: "syntrophoblast" EXACT []
+is_a: CL:0000228 ! multinucleate cell
+is_a: CL:2000060 ! placental villous trophoblast
 intersection_of: CL:0000351 ! trophoblast cell
 intersection_of: RO:0000053 PATO:0001908
 relationship: BFO:0000050 UBERON:0010005
@@ -2321,6 +2402,8 @@ is_a: CL:0000540 ! neuron
 [Term]
 id: CL:0000531
 name: primary sensory neuron
+is_a: CL:0000101 ! sensory neuron
+is_a: CL:0000530 ! primary neuron
 intersection_of: CL:0000101 ! sensory neuron
 intersection_of: CL:0000530 ! primary neuron
 
@@ -2341,13 +2424,14 @@ name: melanoblast
 def: "A cell that originates from the neural crest and differentiates into a pigment cell." []
 is_a: CL:0000055 ! non-terminally differentiated cell
 is_a: CL:0002371 ! somatic cell
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 
 [Term]
 id: CL:0000542
 name: lymphocyte
 def: "A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin." []
-is_a: CL:0000738 ! leukocyte
+is_a: CL:0000842 ! mononuclear cell
 intersection_of: CL:0000738 ! leukocyte
 intersection_of: BFO:0000051 CL:0017500 ! neutrophillic cytoplasm
 intersection_of: BFO:0000051 CL:0017505 ! increased nucleus size
@@ -2390,6 +2474,7 @@ synonym: "Th2 T lymphocyte" EXACT []
 synonym: "Th2 T-cell" EXACT []
 synonym: "Th2 T-lymphocyte" EXACT []
 is_a: CL:0000492 ! CD4-positive helper T cell
+is_a: CL:0001051 ! CD4-positive, CXCR3-negative, CCR6-negative, alpha-beta T cell
 intersection_of: CL:0000492 ! CD4-positive helper T cell
 intersection_of: BFO:0000051 PR:000001941
 intersection_of: lacks_plasma_membrane_part PR:000001202
@@ -2404,6 +2489,7 @@ def: "An immature, nucleated erythrocyte occupying the stage of erythropoeisis t
 synonym: "pronormoblast" RELATED []
 synonym: "rubriblast" EXACT []
 is_a: CL:0000764 ! erythroid lineage cell
+is_a: CL:0002242 ! nucleate cell
 intersection_of: CL:0000764 ! erythroid lineage cell
 intersection_of: BFO:0000051 CL:0017503 ! basophilic cytoplasm
 intersection_of: BFO:0000051 CL:0017505 ! increased nucleus size
@@ -2518,6 +2604,7 @@ synonym: "megacaryocyte" EXACT []
 synonym: "megalocaryocyte" EXACT []
 synonym: "megalokaryocyte" EXACT []
 is_a: CL:0000763 ! myeloid cell
+is_a: CL:1001610 ! bone marrow hematopoietic cell
 intersection_of: CL:0000763 ! myeloid cell
 intersection_of: BFO:0000050 UBERON:0002371
 intersection_of: RO:0000053 PATO:0001393
@@ -2535,7 +2622,9 @@ synonym: "GMP" EXACT []
 synonym: "granulocyte-macrophage progenitor" EXACT []
 synonym: "granulocyte/monocyte precursor" EXACT []
 synonym: "granulocyte/monocyte progenitor" EXACT []
-is_a: CL:0002032 ! hematopoietic oligopotent progenitor cell
+is_a: CL:0000763 ! myeloid cell
+is_a: CL:0001012 ! CD7-negative lymphoid progenitor OR granulocyte monocyte progenitor
+is_a: CL:1001610 ! bone marrow hematopoietic cell
 intersection_of: CL:0002032 ! hematopoietic oligopotent progenitor cell
 intersection_of: BFO:0000050 UBERON:0002371
 intersection_of: BFO:0000051 PR:000001944
@@ -2596,6 +2685,7 @@ def: "An erythrocyte having a nucleus." []
 synonym: "RBC" BROAD []
 synonym: "red blood cell" BROAD []
 is_a: CL:0000232 ! erythrocyte
+is_a: CL:0002242 ! nucleate cell
 intersection_of: CL:0000232 ! erythrocyte
 intersection_of: RO:0000053 PATO:0002505
 relationship: RO:0002202 CL:0002421 ! nucleated reticulocyte
@@ -2613,6 +2703,7 @@ name: neutrophilic promyelocyte
 def: "A promyelocyte committed to the neutrophil lineage. This cell type is GATA-1-positive, C/EBPa-positive, AML-1-positive, MPO-positive, has low expression of PU.1 transcription factor and lacks lactotransferrin expression." []
 synonym: "neutrophilic premyelocyte" EXACT []
 synonym: "neutrophilic progranulocyte" EXACT []
+is_a: CL:0000834 ! neutrophil progenitor cell
 is_a: CL:0000836 ! promyelocyte
 intersection_of: CL:0000836 ! promyelocyte
 intersection_of: BFO:0000051 PR:000001944
@@ -2631,6 +2722,7 @@ def: "A mesenchymal stem cell capable of developing into blood vessel endotheliu
 synonym: "angioblast" EXACT []
 synonym: "chondroplast" EXACT []
 is_a: CL:0000134 ! mesenchymal stem cell
+is_a: CL:0011026 ! progenitor cell
 intersection_of: CL:0000134 ! mesenchymal stem cell
 intersection_of: RO:0002104 PR:000001444
 intersection_of: RO:0002104 PR:000002112
@@ -2648,6 +2740,7 @@ is_a: CL:0000165 ! neuroendocrine cell
 id: CL:0000569
 name: cardiac mesenchymal cell
 def: "A mesenchymal cell found in the developing heart and that develops into some part of the heart.  These cells derive from intra- and extra-cardiac sources, including the endocardium, epicardium, neural crest, and second heart field." []
+is_a: CL:0008019 ! mesenchymal cell
 intersection_of: CL:0008019 ! mesenchymal cell
 intersection_of: RO:0002203 CL:0002494 ! cardiocyte
 
@@ -2661,6 +2754,7 @@ synonym: "clear cell of thyroid gland" EXACT []
 synonym: "parafollicular cell of thyroid gland" EXACT []
 synonym: "thyroid parafollicular cell" EXACT []
 is_a: CL:0000443 ! calcitonin secreting cell
+is_a: CL:0000458 ! serotonin secreting cell
 is_a: CL:0000710 ! neurecto-epithelial cell
 intersection_of: CL:0000710 ! neurecto-epithelial cell
 intersection_of: RO:0002104 PR:000001024
@@ -2698,7 +2792,6 @@ def: "An epithelial cell of the cornea." []
 synonym: "epithelial cell of cornea" EXACT []
 is_a: CL:0000076 ! squamous epithelial cell
 is_a: CL:0002159 ! general ecto-epithelial cell
-is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000076 ! squamous epithelial cell
 intersection_of: BFO:0000050 UBERON:0000964
 
@@ -2707,6 +2800,7 @@ id: CL:0000576
 name: monocyte
 def: "Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells." []
 is_a: CL:0000766 ! myeloid leukocyte
+is_a: CL:0000842 ! mononuclear cell
 intersection_of: CL:0000766 ! myeloid leukocyte
 intersection_of: RO:0000053 PATO:0001407
 intersection_of: RO:0002215 GO:0030225
@@ -2746,6 +2840,7 @@ intersection_of: RO:0002215 GO:0042483
 id: CL:0000593
 name: androgen secreting cell
 def: "A steroid hormone secreting cell that secretes androgen." []
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0035935
 
@@ -2753,6 +2848,7 @@ intersection_of: RO:0002215 GO:0035935
 id: CL:0000594
 name: skeletal muscle satellite cell
 def: "An elongated, spindle-shaped, cell that is located between the basal lamina and the plasmalemma of a muscle fiber. These cells are mostly quiescent, but upon activation they divide to produce cells that generate new muscle fibers." []
+is_a: CL:0000188 ! cell of skeletal muscle
 is_a: CL:0000680 ! muscle precursor cell
 relationship: BFO:0000050 UBERON:0001134
 
@@ -2762,6 +2858,7 @@ name: enucleate erythrocyte
 def: "An erythrocyte lacking a nucleus." []
 synonym: "RBC" BROAD []
 synonym: "red blood cell" BROAD []
+is_a: CL:0000225 ! anucleate cell
 is_a: CL:0000232 ! erythrocyte
 intersection_of: CL:0000232 ! erythrocyte
 intersection_of: RO:0000053 PATO:0001405
@@ -2781,6 +2878,7 @@ def: "Pyramidal neurons have a pyramid-shaped soma with a single axon, a large a
 synonym: "projection neuron" EXACT []
 synonym: "pyramidal cell" EXACT []
 synonym: "pyramidal neuron" EXACT []
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0000053 PATO:0070015
 
@@ -2794,7 +2892,7 @@ is_a: CL:0000605 ! fungal asexual spore
 id: CL:0000601
 name: cochlear outer hair cell
 def: "A mechanoreceptor in the organ of Corti. In mammals the outer hair cells are arranged in three rows which are further from the modiolus than the single row of inner hair cells. The motile properties of the outer hair cells may contribute actively to tuning the sensitivity and frequency selectivity of the cochlea." []
-is_a: CL:0000202 ! auditory hair cell
+is_a: CL:4023120 ! cochlea auditory hair cell
 relationship: BFO:0000050 UBERON:0002227
 
 [Term]
@@ -2963,6 +3061,7 @@ def: "A lymphocyte that can spontaneously kill a variety of target cells without
 synonym: "large granular lymphocyte" BROAD []
 synonym: "NK cell" EXACT []
 synonym: "null cell" BROAD []
+is_a: CL:0001067 ! group 1 innate lymphoid cell
 intersection_of: CL:0001067 ! group 1 innate lymphoid cell
 intersection_of: lacks_plasma_membrane_part PR:000001002
 intersection_of: lacks_plasma_membrane_part PR:000001020
@@ -3024,7 +3123,6 @@ synonym: "perisinusoidal cell" EXACT []
 synonym: "vitamin A-storing cells" RELATED []
 is_a: CL:0000057 ! fibroblast
 is_a: CL:0000327 ! extracellular matrix secreting cell
-is_a: CL:0002320 ! connective tissue cell
 intersection_of: CL:0002320 ! connective tissue cell
 intersection_of: BFO:0000050 UBERON:0002107
 intersection_of: RO:0002104 PR:000007939
@@ -3034,6 +3132,8 @@ id: CL:0000637
 name: chromophil cell of anterior pituitary gland
 def: "A cell that stains readily in the anterior pituitary gland." []
 is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0000166 ! chromaffin cell
+is_a: CL:0000167 ! peptide hormone secreting cell
 intersection_of: CL:0000166 ! chromaffin cell
 intersection_of: BFO:0000050 UBERON:0002196
 relationship: RO:0002215 GO:0030072
@@ -3070,6 +3170,7 @@ synonym: "Langerhans giant cell" EXACT []
 synonym: "macrophage polykaryon" EXACT []
 synonym: "multinucleate giant cell" EXACT []
 synonym: "syncytial giant cell" EXACT []
+is_a: CL:0000228 ! multinucleate cell
 is_a: CL:0000766 ! myeloid leukocyte
 intersection_of: CL:0000766 ! myeloid leukocyte
 intersection_of: RO:0000053 PATO:0001908
@@ -3084,7 +3185,9 @@ def: "A smooth muscle cell that synthesizes, stores, and secretes the enzyme ren
 synonym: "JG cell" EXACT []
 synonym: "juxtaglomerular cell" BROAD []
 synonym: "renin secreting cell" EXACT []
+is_a: CL:0000151 ! secretory cell
 is_a: CL:0000192 ! smooth muscle cell
+is_a: CL:1000497 ! kidney cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: BFO:0000050 UBERON:0002113
 intersection_of: RO:0002215 GO:0002001
@@ -3143,6 +3246,7 @@ id: CL:0000657
 name: secondary spermatocyte
 def: "One of the two haploid cells into which a primary spermatocyte divides, and which in turn gives origin to spermatids." []
 is_a: CL:0000017 ! spermatocyte
+is_a: CL:0000413 ! haploid cell
 intersection_of: CL:0000017 ! spermatocyte
 intersection_of: RO:0000053 PATO:0001375
 intersection_of: RO:0002215 GO:0007142
@@ -3267,6 +3371,7 @@ relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 [Term]
 id: CL:0000691
 name: stellate interneuron
+is_a: CL:0000099 ! interneuron
 intersection_of: CL:0000099 ! interneuron
 intersection_of: RO:0000053 PATO:0070010
 
@@ -3316,7 +3421,6 @@ name: leptomeningeal cell
 def: "Stromal cell that forms the internal covering of the vertebrate brain and produces ECM for this and the choroid plexus." []
 synonym: "leptomemingeal cell" RELATED []
 is_a: CL:0000327 ! extracellular matrix secreting cell
-is_a: CL:0002320 ! connective tissue cell
 intersection_of: CL:0000327 ! extracellular matrix secreting cell
 intersection_of: BFO:0000050 UBERON:0003210
 
@@ -3333,6 +3437,7 @@ name: neurecto-epithelial cell
 def: "Epithelial cells derived from neural plate and neural crest." []
 synonym: "neuroepithelial cell" BROAD []
 is_a: CL:0000075 ! columnar/cuboidal epithelial cell
+is_a: CL:0002077 ! ecto-epithelial cell
 intersection_of: CL:0002077 ! ecto-epithelial cell
 intersection_of: RO:0002202 CL:0000133 ! neurectodermal cell
 
@@ -3413,7 +3518,6 @@ synonym: "bladder transitional cell" NARROW []
 synonym: "transitional epithelial cell of urinary bladder" NARROW []
 synonym: "urinary tract transitional epithelial cell" NARROW []
 is_a: CL:0000244 ! transitional epithelial cell
-is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000244 ! transitional epithelial cell
 intersection_of: BFO:0000050 UBERON:0000365
 
@@ -3451,6 +3555,7 @@ synonym: "immune cell" EXACT []
 synonym: "leucocyte" EXACT []
 synonym: "white blood cell" EXACT []
 is_a: CL:0000988 ! hematopoietic cell
+is_a: CL:0002242 ! nucleate cell
 intersection_of: CL:0000988 ! hematopoietic cell
 intersection_of: RO:0000053 PATO:0002505
 intersection_of: RO:0002215 GO:0001667
@@ -3477,6 +3582,8 @@ synonym: "cardiac myocyte" EXACT []
 synonym: "cardiocyte" BROAD []
 synonym: "cardiomyocyte" EXACT []
 synonym: "heart muscle cell" EXACT []
+is_a: CL:0000187 ! muscle cell
+is_a: CL:0002494 ! cardiocyte
 intersection_of: CL:0000187 ! muscle cell
 intersection_of: BFO:0000050 UBERON:0007100
 intersection_of: BFO:0000051 GO:0030017
@@ -3496,6 +3603,9 @@ relationship: RO:0002202 CL:0005005 ! cyanoblast
 id: CL:0000748
 name: retinal bipolar neuron
 def: "A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner plexiform layer." []
+is_a: CL:0000103 ! bipolar neuron
+is_a: CL:0000679 ! glutamatergic neuron
+is_a: CL:0008028 ! visual system neuron
 intersection_of: CL:0000103 ! bipolar neuron
 intersection_of: BFO:0000050 UBERON:0000966
 relationship: RO:0002216 GO:0007601
@@ -3521,6 +3631,7 @@ intersection_of: RO:0002103 CL:0000573 ! retinal cone cell
 id: CL:0000762
 name: nucleated thrombocyte
 def: "A nucleated blood cell involved in coagulation, typically seen in birds and other non-mammalian vertebrates." []
+is_a: CL:0000226 ! single nucleate cell
 is_a: CL:0000763 ! myeloid cell
 intersection_of: CL:0000763 ! myeloid cell
 intersection_of: RO:0000053 PATO:0001407
@@ -3570,6 +3681,7 @@ id: CL:0000766
 name: myeloid leukocyte
 def: "A cell of the monocyte, granulocyte, or mast cell lineage." []
 is_a: CL:0000738 ! leukocyte
+is_a: CL:0000763 ! myeloid cell
 intersection_of: CL:0000738 ! leukocyte
 intersection_of: RO:0002202 CL:0000049 ! common myeloid progenitor
 
@@ -3738,6 +3850,7 @@ id: CL:0000778
 name: mononuclear osteoclast
 def: "A specialized mononuclear osteoclast associated with the absorption and removal of bone, precursor of multinuclear osteoclasts." []
 is_a: CL:0000092 ! osteoclast
+is_a: CL:0000842 ! mononuclear cell
 intersection_of: CL:0000092 ! osteoclast
 intersection_of: RO:0000053 PATO:0001407
 
@@ -3747,6 +3860,7 @@ name: multinuclear osteoclast
 def: "A specialized multinuclear osteoclast associated with the absorption and removal of bone." []
 synonym: "multinucleated osteoclast" EXACT []
 is_a: CL:0000092 ! osteoclast
+is_a: CL:0000228 ! multinucleate cell
 intersection_of: CL:0000092 ! osteoclast
 intersection_of: RO:0000053 PATO:0001908
 relationship: RO:0002202 CL:0000778 ! mononuclear osteoclast
@@ -3757,6 +3871,7 @@ name: multinuclear odontoclast
 def: "A specialized multinuclear osteoclast associated with the absorption and removal of cementum." []
 synonym: "multinucleated odontoclast" EXACT []
 is_a: CL:0000588 ! odontoclast
+is_a: CL:0000779 ! multinuclear osteoclast
 intersection_of: CL:0000588 ! odontoclast
 intersection_of: RO:0000053 PATO:0001908
 relationship: RO:0002202 CL:0000781 ! mononuclear odontoclast
@@ -3808,6 +3923,7 @@ def: "A B cell that is mature, having left the bone marrow. Initially, these cel
 synonym: "mature B lymphocyte" EXACT []
 synonym: "mature B-cell" EXACT []
 synonym: "mature B-lymphocyte" EXACT []
+is_a: CL:0000145 ! professional antigen presenting cell
 is_a: CL:0001201 ! B cell, CD19-positive
 intersection_of: CL:0001201 ! B cell, CD19-positive
 intersection_of: has_completed GO:0002335
@@ -3888,6 +4004,7 @@ synonym: "immature alpha-beta T lymphocyte" EXACT []
 synonym: "immature alpha-beta T-cell" EXACT []
 synonym: "immature alpha-beta T-lymphocyte" EXACT []
 is_a: CL:0000789 ! alpha-beta T cell
+is_a: CL:0002420 ! immature T cell
 intersection_of: CL:0000789 ! alpha-beta T cell
 intersection_of: has_not_completed GO:0045058
 
@@ -3931,6 +4048,7 @@ synonym: "CD4-positive, alpha-beta intraepithelial T-lymphocyte" EXACT []
 synonym: "IEL" BROAD []
 synonym: "intraepithelial lymphocyte" BROAD []
 is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
+is_a: CL:0000797 ! alpha-beta intraepithelial T cell
 intersection_of: CL:0000624 ! CD4-positive, alpha-beta T cell
 intersection_of: RO:0001025 UBERON:0001277
 intersection_of: RO:0002215 GO:0002385
@@ -4029,6 +4147,7 @@ synonym: "immature gamma-delta T lymphocyte" EXACT []
 synonym: "immature gamma-delta T-cell" EXACT []
 synonym: "immature gamma-delta T-lymphocyte" EXACT []
 is_a: CL:0000798 ! gamma-delta T cell
+is_a: CL:0002420 ! immature T cell
 intersection_of: CL:0000798 ! gamma-delta T cell
 intersection_of: has_not_completed GO:0042492
 intersection_of: has_not_completed GO:0045058
@@ -4119,6 +4238,7 @@ synonym: "double negative 2" EXACT []
 synonym: "preT.DN2.Th" EXACT []
 synonym: "TN2 cell" EXACT []
 synonym: "TN2 thymocyte" EXACT []
+is_a: CL:0002489 ! double negative thymocyte
 intersection_of: CL:0000893 ! thymocyte
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000025402
@@ -4140,6 +4260,7 @@ synonym: "early cortical thymocyte" BROAD []
 synonym: "preT.DN3.Th" EXACT []
 synonym: "TN3 cell" EXACT []
 synonym: "TN3 thymocyte" EXACT []
+is_a: CL:0002489 ! double negative thymocyte
 intersection_of: CL:0000893 ! thymocyte
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000001307
@@ -4160,6 +4281,7 @@ synonym: "DN4 immature T-cell" EXACT []
 synonym: "double negative 4" EXACT []
 synonym: "early cortical thymocyte" BROAD []
 synonym: "T.DN4.th" EXACT []
+is_a: CL:0002489 ! double negative thymocyte
 intersection_of: CL:0000893 ! thymocyte
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000001307
@@ -4177,6 +4299,7 @@ synonym: "DP cell" EXACT []
 synonym: "DP thymocyte" EXACT []
 synonym: "late cortical thymocyte" BROAD []
 is_a: CL:0000790 ! immature alpha-beta T cell
+is_a: CL:0000893 ! thymocyte
 intersection_of: CL:0000790 ! immature alpha-beta T cell
 intersection_of: BFO:0000050 UBERON:0002370
 intersection_of: RO:0002104 PR:000001004
@@ -4192,6 +4315,7 @@ synonym: "CD4-positive, alpha-beta immature T-cell" EXACT []
 synonym: "CD4-positive, alpha-beta immature T-lymphocyte" EXACT []
 synonym: "SP CD4 cell" EXACT []
 is_a: CL:0000790 ! immature alpha-beta T cell
+is_a: CL:0000893 ! thymocyte
 intersection_of: CL:0000790 ! immature alpha-beta T cell
 intersection_of: BFO:0000050 UBERON:0002370
 intersection_of: lacks_plasma_membrane_part PR:000001084
@@ -4208,6 +4332,7 @@ synonym: "CD8-positive, alpha-beta immature T-cell" EXACT []
 synonym: "CD8-positive, alpha-beta immature T-lymphocyte" EXACT []
 synonym: "SP CD8 cell" EXACT []
 is_a: CL:0000790 ! immature alpha-beta T cell
+is_a: CL:0000893 ! thymocyte
 intersection_of: CL:0000790 ! immature alpha-beta T cell
 intersection_of: BFO:0000050 UBERON:0002370
 intersection_of: lacks_plasma_membrane_part PR:000001004
@@ -4391,6 +4516,8 @@ name: immature natural killer cell
 def: "A natural killer cell that is developmentally immature and expresses natural killer cell receptors (NKR)." []
 synonym: "immature NK cell" EXACT []
 synonym: "p-NK" RELATED []
+is_a: CL:0000623 ! natural killer cell
+is_a: CL:0001082 ! immature innate lymphoid cell
 intersection_of: CL:0000623 ! natural killer cell
 intersection_of: RO:0000053 PATO:0001501
 disjoint_from: CL:0000937 ! pre-natural killer cell
@@ -4453,6 +4580,7 @@ relationship: RO:0002202 CL:0000051 ! common lymphoid progenitor
 id: CL:0000828
 name: thromboblast
 def: "A progenitor cell of the thrombocyte, a nucleated blood cell involved in coagulation typically seen in birds and other non-mammalian vertebrates." []
+is_a: CL:0000226 ! single nucleate cell
 is_a: CL:0000839 ! myeloid lineage restricted progenitor cell
 intersection_of: CL:0000839 ! myeloid lineage restricted progenitor cell
 intersection_of: RO:0000053 PATO:0001407
@@ -4576,7 +4704,6 @@ name: hematopoietic multipotent progenitor cell
 def: "A hematopoietic multipotent progenitor cell is multipotent, but not capable of long-term self-renewal. These cells are characterized as lacking lineage cell surface markers and being CD34-positive in both mice and humans." []
 synonym: "hemopoietic progenitor cell" EXACT []
 synonym: "MPP" EXACT []
-is_a: CL:0000988 ! hematopoietic cell
 is_a: CL:0008001 ! hematopoietic precursor cell
 intersection_of: CL:0000988 ! hematopoietic cell
 intersection_of: lacks_plasma_membrane_part PR:000001002
@@ -4648,6 +4775,7 @@ name: mononuclear cell
 def: "A leukocyte with a single non-segmented nucleus in the mature form." []
 synonym: "mononuclear leukocyte" EXACT []
 synonym: "peripheral blood mononuclear cell" NARROW []
+is_a: CL:0000226 ! single nucleate cell
 is_a: CL:0000738 ! leukocyte
 intersection_of: CL:0000738 ! leukocyte
 intersection_of: RO:0000053 PATO:0001407
@@ -4661,7 +4789,7 @@ synonym: "Fo B-cell" EXACT []
 synonym: "follicular B lymphocyte" EXACT []
 synonym: "follicular B-cell" EXACT []
 synonym: "follicular B-lymphocyte" EXACT []
-is_a: CL:0000785 ! mature B cell
+is_a: CL:0000822 ! B-2 B cell
 intersection_of: CL:0000785 ! mature B cell
 intersection_of: lacks_plasma_membrane_part PR:000001839
 intersection_of: lacks_plasma_membrane_part PR:000001879
@@ -4719,6 +4847,8 @@ name: ciliated olfactory receptor neuron
 def: "An olfactory receptor cell in which the apical ending of the dendrite is a pronounced ciliated olfactory knob." []
 synonym: "ciliated olfactory sensory neuron" EXACT []
 synonym: "ciliated sensory neuron" EXACT []
+is_a: CL:0000064 ! ciliated cell
+is_a: CL:0000207 ! olfactory receptor cell
 intersection_of: CL:0000207 ! olfactory receptor cell
 intersection_of: BFO:0000051 GO:0005929
 
@@ -4769,6 +4899,7 @@ intersection_of: BFO:0000050 UBERON:0008904
 id: CL:0000857
 name: slow muscle myoblast
 def: "A skeletal muscle myoblast that differentiates into slow muscle fibers." []
+is_a: CL:0000515 ! skeletal muscle myoblast
 intersection_of: CL:0000056 ! myoblast
 intersection_of: RO:0002203 CL:0000189 ! slow muscle cell
 
@@ -4777,6 +4908,7 @@ id: CL:0000860
 name: classical monocyte
 def: "A monocyte that responds rapidly to microbial stimuli by secreting cytokines and antimicrobial factors and which is characterized by high expression of CCR2 in both rodents and humans, negative for the lineage markers CD3, CD19, and CD20, and of larger size than non-classical monocytes." []
 synonym: "inflammatory monocyte" EXACT []
+is_a: CL:0000234 ! phagocyte
 is_a: CL:0000576 ! monocyte
 intersection_of: CL:0000576 ! monocyte
 intersection_of: has_high_plasma_membrane_amount PR:000001199
@@ -5089,6 +5221,7 @@ synonym: "CD8-positive, alpha-beta memory T lymphocyte" EXACT []
 synonym: "CD8-positive, alpha-beta memory T-cell" EXACT []
 synonym: "CD8-positive, alpha-beta memory T-lymphocyte" EXACT []
 synonym: "T.8Mem.Sp" RELATED []
+is_a: CL:0000625 ! CD8-positive, alpha-beta T cell
 intersection_of: CL:0000625 ! CD8-positive, alpha-beta T cell
 intersection_of: has_completed GO:0002286
 intersection_of: has_completed GO:0043379
@@ -5184,6 +5317,7 @@ synonym: "Tc2 T-lymphocyte" EXACT []
 synonym: "Th2 CD8-positive T cell" EXACT []
 synonym: "Th2 non-TFH CD8-positive T cell" EXACT []
 is_a: CL:0000908 ! CD8-positive, alpha-beta cytokine secreting effector T cell
+is_a: CL:0001052 ! CD8-positive, CXCR3-negative, CCR6-negative, alpha-beta T cell
 intersection_of: CL:0000908 ! CD8-positive, alpha-beta cytokine secreting effector T cell
 intersection_of: BFO:0000051 PR:000001941
 intersection_of: lacks_plasma_membrane_part PR:000001202
@@ -5251,7 +5385,7 @@ synonym: "activated CD4-positive type I NK T lymphocyte" EXACT []
 synonym: "activated CD4-positive type I NK T-cell" EXACT []
 synonym: "activated CD4-positive type I NK T-lymphocyte" EXACT []
 synonym: "activated CD4-positive type I NKT cell" EXACT []
-is_a: CL:0000921 ! type I NK T cell
+is_a: CL:0000923 ! CD4-positive type I NK T cell
 intersection_of: CL:0000921 ! type I NK T cell
 intersection_of: RO:0002104 PR:000001004
 intersection_of: RO:0002104 PR:000001343
@@ -5268,7 +5402,7 @@ synonym: "CD4-positive type I NK T lymphocyte secreting interferon-gamma" EXACT 
 synonym: "CD4-positive type I NK T-cell secreting interferon-gamma" EXACT []
 synonym: "CD4-positive type I NK T-lymphocyte secreting interferon-gamma" EXACT []
 synonym: "CD4-positive type I NKT cell secreting interferon-gamma" EXACT []
-is_a: CL:0000921 ! type I NK T cell
+is_a: CL:0000923 ! CD4-positive type I NK T cell
 intersection_of: CL:0000921 ! type I NK T cell
 intersection_of: RO:0002104 PR:000001004
 intersection_of: RO:0002215 GO:0002827
@@ -5284,7 +5418,7 @@ synonym: "CD4-positive type I NK T lymphocyte secreting interleukin-4" EXACT []
 synonym: "CD4-positive type I NK T-cell secreting interleukin-4" EXACT []
 synonym: "CD4-positive type I NK T-lymphocyte secreting interleukin-4" EXACT []
 synonym: "CD4-positive type I NKT cell secreting interleukin-4" EXACT []
-is_a: CL:0000921 ! type I NK T cell
+is_a: CL:0000923 ! CD4-positive type I NK T cell
 intersection_of: CL:0000921 ! type I NK T cell
 intersection_of: RO:0002104 PR:000001004
 intersection_of: RO:0002215 GO:0002830
@@ -5300,7 +5434,7 @@ synonym: "activated CD4-negative, CD8-negative type I NK T lymphocyte" EXACT []
 synonym: "activated CD4-negative, CD8-negative type I NK T-cell" EXACT []
 synonym: "activated CD4-negative, CD8-negative type I NK T-lymphocyte" EXACT []
 synonym: "activated CD4-negative, CD8-negative type I NKT cell" EXACT []
-is_a: CL:0000921 ! type I NK T cell
+is_a: CL:0000924 ! CD4-negative, CD8-negative type I NK T cell
 intersection_of: CL:0000921 ! type I NK T cell
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000001084
@@ -5317,7 +5451,7 @@ synonym: "CD4-negative, CD8-negative type I NK T lymphocyte secreting interferon
 synonym: "CD4-negative, CD8-negative type I NK T-cell secreting interferon-gamma" EXACT []
 synonym: "CD4-negative, CD8-negative type I NK T-lymphocyte secreting interferon-gamma" EXACT []
 synonym: "CD4-negative, CD8-negative type I NKT cell secreting interferon-gamma" EXACT []
-is_a: CL:0000921 ! type I NK T cell
+is_a: CL:0000924 ! CD4-negative, CD8-negative type I NK T cell
 intersection_of: CL:0000921 ! type I NK T cell
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000001084
@@ -5334,7 +5468,7 @@ synonym: "CD4-negative, CD8-negative type I NK T lymphocyte secreting interleuki
 synonym: "CD4-negative, CD8-negative type I NK T-cell secreting interleukin-4" EXACT []
 synonym: "CD4-negative, CD8-negative type I NK T-lymphocyte secreting interleukin-4" EXACT []
 synonym: "CD4-negative, CD8-negative type I NKT cell secreting interleukin-4" EXACT []
-is_a: CL:0000921 ! type I NK T cell
+is_a: CL:0000924 ! CD4-negative, CD8-negative type I NK T cell
 intersection_of: CL:0000921 ! type I NK T cell
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000001084
@@ -5421,6 +5555,7 @@ id: CL:0000937
 name: pre-natural killer cell
 def: "Cell committed to natural killer cell lineage that has the phenotype CD122-positive, CD34-positive, and CD117-positive. This cell type lacks expression of natural killer receptor proteins." []
 synonym: "pre-NK cell" EXACT []
+is_a: CL:0000623 ! natural killer cell
 intersection_of: CL:0000623 ! natural killer cell
 intersection_of: RO:0002104 PR:000001003
 intersection_of: RO:0002104 PR:000001381
@@ -5690,6 +5825,7 @@ synonym: "Bm1 B lymphocyte" EXACT []
 synonym: "Bm1 B-cell" EXACT []
 synonym: "Bm1 B-lymphocyte" EXACT []
 is_a: CL:0000843 ! follicular B cell
+is_a: CL:0002056 ! Fraction F mature B cell
 intersection_of: CL:0000843 ! follicular B cell
 intersection_of: lacks_plasma_membrane_part PR:000001408
 intersection_of: lacks_plasma_membrane_part PR:000001880
@@ -5780,7 +5916,7 @@ def: "A memory B cell arising in the germinal center that is IgD-negative and ha
 synonym: "Bm5 B lymphocyte" EXACT []
 synonym: "Bm5 B-cell" EXACT []
 synonym: "Bm5 B-lymphocyte" EXACT []
-is_a: CL:0000787 ! memory B cell
+is_a: CL:0001053 ! IgD-negative memory B cell
 intersection_of: CL:0000787 ! memory B cell
 intersection_of: has_completed GO:0002314
 intersection_of: has_completed GO:0016446
@@ -5833,7 +5969,7 @@ synonym: "memory IgM B cell" EXACT []
 synonym: "memory IgM B lymphocyte" EXACT []
 synonym: "memory IgM B-cell" EXACT []
 synonym: "memory IgM B-lymphocyte" EXACT []
-is_a: CL:0000787 ! memory B cell
+is_a: CL:0001053 ! IgD-negative memory B cell
 intersection_of: CL:0000787 ! memory B cell
 intersection_of: lacks_plasma_membrane_part GO:0071738
 intersection_of: RO:0002104 GO:0071753
@@ -5937,6 +6073,7 @@ def: "An activated mature (naive or memory) B cell that is secreting immunoglobu
 synonym: "CD20-negative B cell" BROAD []
 synonym: "CD27-positive, CD38-positive, CD20-negative B cell" EXACT []
 is_a: CL:0000785 ! mature B cell
+is_a: CL:0000946 ! antibody secreting cell
 intersection_of: CL:0000785 ! mature B cell
 intersection_of: has_high_plasma_membrane_amount PR:000001408
 intersection_of: has_high_plasma_membrane_amount PR:000001963
@@ -5956,7 +6093,7 @@ synonym: "dn memory B-lymphocyte" EXACT []
 synonym: "double negative memory B lymphocyte" EXACT []
 synonym: "double negative memory B-cell" EXACT []
 synonym: "double negative memory B-lymphocyte" EXACT []
-is_a: CL:0000787 ! memory B cell
+is_a: CL:0001053 ! IgD-negative memory B cell
 intersection_of: CL:0000787 ! memory B cell
 intersection_of: lacks_plasma_membrane_part GO:0071738
 intersection_of: lacks_plasma_membrane_part PR:000001963
@@ -6117,6 +6254,7 @@ synonym: "CD10-positive common lymphocyte precursor" EXACT []
 synonym: "CD10-positive common lymphocyte progenitor" EXACT []
 synonym: "CD10-positive common lymphoid precursor" EXACT []
 is_a: CL:0000051 ! common lymphoid progenitor
+is_a: CL:0000995 ! CD34-positive, CD38-positive common myeloid progenitor OR CD34-positive, CD38-positive common lymphoid progenitor
 intersection_of: CL:0000051 ! common lymphoid progenitor
 intersection_of: RO:0002104 PR:000001003
 intersection_of: RO:0002104 PR:000001015
@@ -6130,6 +6268,7 @@ id: CL:0001022
 name: CD115-positive monocyte
 def: "CD115-positive monocyte is a monocyte that is CD115-positive and CD11b-positive." []
 is_a: CL:0000576 ! monocyte
+is_a: CL:0001019 ! CD115-positive monocyte OR common dendritic progenitor
 intersection_of: CL:0000576 ! monocyte
 intersection_of: RO:0002104 PR:000001012
 intersection_of: RO:0002104 PR:000002062
@@ -6140,6 +6279,7 @@ id: CL:0001023
 name: Kit-positive, CD34-positive common myeloid progenitor
 def: "A common myeloid progenitor that is Kit-positive and CD34-positive, Il7ra-negative, and is SCA1-low and Fcgr2-low and Fcgr3-low." []
 synonym: "CD117-positive common myeloid precursor" BROAD []
+is_a: CL:0001030 ! CD117-positive common myeloid progenitor OR CD217-positive common lymphoid progenitor
 is_a: CL:0001059 ! common myeloid progenitor, CD34-positive
 intersection_of: CL:0001059 ! common myeloid progenitor, CD34-positive
 intersection_of: has_low_plasma_membrane_amount GO:0033001
@@ -6175,6 +6315,7 @@ synonym: "CD217-positive common lymphocyte precursor" EXACT []
 synonym: "CD217-positive common lymphocyte progenitor" EXACT []
 synonym: "CD217-positive common lymphoid precursor" EXACT []
 is_a: CL:0000051 ! common lymphoid progenitor
+is_a: CL:0001030 ! CD117-positive common myeloid progenitor OR CD217-positive common lymphoid progenitor
 intersection_of: CL:0000051 ! common lymphoid progenitor
 intersection_of: has_low_plasma_membrane_amount PR:000002065
 intersection_of: has_low_plasma_membrane_amount PR:000002979
@@ -6190,6 +6331,7 @@ id: CL:0001026
 name: CD34-positive, CD38-positive common myeloid progenitor
 def: "A common myeloid progenitor that is CD34-positive, CD38-positive, IL3ra-low, CD10-negative, CD7-negative, CD45RA-negative, and IL-5Ralpha-negative." []
 synonym: "CD71-positive common myeloid precursor" NARROW []
+is_a: CL:0000995 ! CD34-positive, CD38-positive common myeloid progenitor OR CD34-positive, CD38-positive common lymphoid progenitor
 is_a: CL:0001059 ! common myeloid progenitor, CD34-positive
 intersection_of: CL:0001059 ! common myeloid progenitor, CD34-positive
 intersection_of: has_low_plasma_membrane_amount PR:000001865
@@ -6206,6 +6348,7 @@ name: CD7-negative lymphoid progenitor cell
 def: "CD7-negative lymphoid progenitor cell is a lymphoid progenitor cell that is CD34-positive, CD7-negative and CD45RA-negative." []
 synonym: "CD7-negative lymphoid precursor" EXACT []
 is_a: CL:0000051 ! common lymphoid progenitor
+is_a: CL:0001012 ! CD7-negative lymphoid progenitor OR granulocyte monocyte progenitor
 intersection_of: CL:0000051 ! common lymphoid progenitor
 intersection_of: lacks_plasma_membrane_part PR:000001015
 intersection_of: lacks_plasma_membrane_part PR:000001836
@@ -6231,7 +6374,7 @@ def: "Common dendritic precursor is a hematopoietic progenitor cell that is CD11
 synonym: "CDP" EXACT []
 synonym: "common dendritic precursor" EXACT []
 synonym: "pro-DCs" EXACT []
-is_a: CL:0002031 ! hematopoietic lineage restricted progenitor cell
+is_a: CL:0001019 ! CD115-positive monocyte OR common dendritic progenitor
 intersection_of: CL:0002031 ! hematopoietic lineage restricted progenitor cell
 intersection_of: has_low_plasma_membrane_amount PR:000002065
 intersection_of: lacks_plasma_membrane_part PR:000001002
@@ -6269,6 +6412,8 @@ intersection_of: BFO:0000050 UBERON:0002037
 id: CL:0001032
 name: cortical granule cell
 def: "Granule cell that is part of the cerebral cortex." []
+is_a: CL:0000120 ! granule cell
+is_a: CL:0010012 ! cerebral cortex neuron
 intersection_of: CL:0000120 ! granule cell
 intersection_of: RO:0002100 UBERON:0000956
 
@@ -6276,6 +6421,7 @@ intersection_of: RO:0002100 UBERON:0000956
 id: CL:0001033
 name: hippocampal granule cell
 def: "Granule cell that is part of the hippocampus." []
+is_a: CL:0000120 ! granule cell
 intersection_of: CL:0000120 ! granule cell
 intersection_of: RO:0002100 UBERON:0001954
 
@@ -6332,6 +6478,7 @@ synonym: "effector CD4+ T cell" BROAD []
 synonym: "effector CD4-positive, alpha-beta T lymphocyte" EXACT []
 synonym: "effector CD4-positive, alpha-beta T-cell" EXACT []
 synonym: "effector CD4-positive, alpha-beta T-lymphocyte" EXACT []
+is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
 is_a: CL:0000911 ! effector T cell
 intersection_of: CL:0000911 ! effector T cell
 intersection_of: lacks_plasma_membrane_part PR:000001203
@@ -6348,6 +6495,7 @@ synonym: "effector CD8+ T cell" BROAD []
 synonym: "effector CD8-positive, alpha-beta T lymphocyte" EXACT []
 synonym: "effector CD8-positive, alpha-beta T-cell" EXACT []
 synonym: "effector CD8-positive, alpha-beta T-lymphocyte" EXACT []
+is_a: CL:0000625 ! CD8-positive, alpha-beta T cell
 is_a: CL:0000911 ! effector T cell
 intersection_of: CL:0000911 ! effector T cell
 intersection_of: lacks_plasma_membrane_part PR:000001004
@@ -6409,6 +6557,7 @@ name: CD14-positive, CD16-low monocyte
 def: "An intermediate monocyte that is CD14-positive and with low amounts of CD16." []
 synonym: "intermediate monocyte, human" EXACT []
 is_a: CL:0002393 ! intermediate monocyte
+is_a: CL:0002397 ! CD14-positive, CD16-positive monocyte
 intersection_of: CL:0002393 ! intermediate monocyte
 intersection_of: has_low_plasma_membrane_amount PR:000001483
 intersection_of: RO:0002104 PR:000001889
@@ -6440,7 +6589,6 @@ id: CL:0001060
 name: hematopoietic oligopotent progenitor cell, lineage-negative
 def: "A hematopoietic oligopotent progenitor cell that has the ability to differentiate into limited cell types but lacks lineage cell markers and self renewal capabilities. Cell lacks hematopoeitic lineage markers." []
 is_a: CL:0002032 ! hematopoietic oligopotent progenitor cell
-is_a: CL:0008001 ! hematopoietic precursor cell
 intersection_of: CL:0002032 ! hematopoietic oligopotent progenitor cell
 intersection_of: lacks_plasma_membrane_part PR:000001002
 intersection_of: lacks_plasma_membrane_part PR:000001004
@@ -6461,6 +6609,7 @@ relationship: RO:0002202 CL:0000837 ! hematopoietic multipotent progenitor cell
 id: CL:0001065
 name: innate lymphoid cell
 def: "A lymphocyte that lacks characteristic T cell, B cell, myeloid cell, and dendritic cell markers, that functions as part of the innate immune response to produce cytokines and other effector responses." []
+is_a: CL:0000542 ! lymphocyte
 intersection_of: CL:0000542 ! lymphocyte
 intersection_of: lacks_plasma_membrane_part PR:000001002
 intersection_of: lacks_plasma_membrane_part PR:000001020
@@ -6497,6 +6646,7 @@ intersection_of: RO:0002215 GO:0030218
 id: CL:0001067
 name: group 1 innate lymphoid cell
 def: "An innate lymphoid cell that is capable of producing the type 1 cytokine IFN-gamma, but not Th2 or Th17 cell-associated cytokines." []
+is_a: CL:0001065 ! innate lymphoid cell
 intersection_of: CL:0001065 ! innate lymphoid cell
 intersection_of: RO:0002215 GO:0032609
 
@@ -6504,6 +6654,7 @@ intersection_of: RO:0002215 GO:0032609
 id: CL:0001068
 name: ILC1
 def: "A group 1 innate lymphoid cell that is non-cytotoxic." []
+is_a: CL:0001067 ! group 1 innate lymphoid cell
 
 [Term]
 id: CL:0001069
@@ -6512,6 +6663,7 @@ def: "An innate lymphoid cell that is capable of producing T-helper 2-cell assoc
 synonym: "ILC2" EXACT []
 synonym: "natural helper cell" EXACT []
 synonym: "nuocyte" EXACT []
+is_a: CL:0001065 ! innate lymphoid cell
 intersection_of: CL:0001065 ! innate lymphoid cell
 intersection_of: RO:0002215 GO:0032634
 
@@ -6520,6 +6672,7 @@ id: CL:0001071
 name: group 3 innate lymphoid cell
 def: "An innate lymphoid cell that constituitively expresses RORgt and is capable of expressing IL17A and/or IL-22." []
 synonym: "ILC3" EXACT []
+is_a: CL:0001065 ! innate lymphoid cell
 intersection_of: CL:0001065 ! innate lymphoid cell
 intersection_of: BFO:0000051 PR:000003455
 
@@ -6528,6 +6681,7 @@ id: CL:0001082
 name: immature innate lymphoid cell
 def: "An innate lyphoid cell with an immature phenotype." []
 synonym: "immature ILC" EXACT []
+is_a: CL:0001065 ! innate lymphoid cell
 intersection_of: CL:0001065 ! innate lymphoid cell
 intersection_of: RO:0000053 PATO:0001501
 
@@ -6551,6 +6705,7 @@ synonym: "B-lymphocyte, CD19-positive" EXACT []
 synonym: "CD19+ B cell" EXACT []
 synonym: "CD19-positive B cell" EXACT []
 is_a: CL:0000236 ! B cell
+is_a: CL:0001200 ! lymphocyte of B lineage, CD19-positive
 intersection_of: CL:0001200 ! lymphocyte of B lineage, CD19-positive
 intersection_of: RO:0002104 PR:000001002
 intersection_of: RO:0002162 NCBITaxon:40674
@@ -6920,7 +7075,6 @@ relationship: RO:0002202 CL:0002044 ! Kit-positive, integrin beta7-high basophil
 id: CL:0002031
 name: hematopoietic lineage restricted progenitor cell
 def: "A hematopoietic progenitor cell that is capable of developing into only one lineage of hematopoietic cells." []
-is_a: CL:0000988 ! hematopoietic cell
 is_a: CL:0008001 ! hematopoietic precursor cell
 intersection_of: CL:0000988 ! hematopoietic cell
 intersection_of: RO:0000053 PATO:0001400
@@ -6931,7 +7085,6 @@ relationship: RO:0002202 CL:0002032 ! hematopoietic oligopotent progenitor cell
 id: CL:0002032
 name: hematopoietic oligopotent progenitor cell
 def: "A hematopoietic oligopotent progenitor cell that has the ability to differentiate into limited cell types but lacks lineage cell markers and self renewal capabilities." []
-is_a: CL:0000988 ! hematopoietic cell
 is_a: CL:0008001 ! hematopoietic precursor cell
 intersection_of: CL:0000988 ! hematopoietic cell
 intersection_of: RO:0000053 PATO:0001401
@@ -7165,7 +7318,7 @@ name: Fraction D precursor B cell
 def: "A pre-B cell that is pre-BCR-negative, and the kappa- and lambda- light immunoglobulin light chain-negative, CD43-low, and is BP-1-positive, CD45R-positive and CD25-positive. This cell type is also described as being AA4-positive, IgM-negative, CD19-positive, CD43-low/negative, and HSA-positive." []
 synonym: "Fr. D" EXACT []
 synonym: "Fraction D pre-B cell" EXACT []
-is_a: CL:0000817 ! precursor B cell
+is_a: CL:0002400 ! Fraction B/C precursor B cell
 intersection_of: CL:0000817 ! precursor B cell
 intersection_of: has_low_plasma_membrane_amount PR:000001879
 intersection_of: has_not_completed GO:0071708
@@ -7196,7 +7349,7 @@ relationship: RO:0002202 CL:0002052 ! Fraction D precursor B cell
 id: CL:0002056
 name: Fraction F mature B cell
 def: "A mature B cell subset originally defined as having being CD45R-positive, IgM-positive, IgD-positive and CD43-negative. Subsequent research demonstrated being CD21-positive and CD23-negative and CD93 negative." []
-is_a: CL:0000785 ! mature B cell
+is_a: CL:0000822 ! B-2 B cell
 intersection_of: CL:0000785 ! mature B cell
 intersection_of: lacks_plasma_membrane_part PR:000001879
 intersection_of: lacks_plasma_membrane_part PR:000001880
@@ -7213,6 +7366,7 @@ id: CL:0002058
 name: Gr1-low non-classical monocyte
 def: "A resident monocyte that is Gr-1 low, CD43-positive, and CX3CR1-positive." []
 is_a: CL:0000875 ! non-classical monocyte
+is_a: CL:0002398 ! Gr1-positive, CD43-positive monocyte
 intersection_of: CL:0000875 ! non-classical monocyte
 intersection_of: has_low_plasma_membrane_amount PR:000001199
 intersection_of: has_low_plasma_membrane_amount PR:000002980
@@ -7258,6 +7412,7 @@ synonym: "type 1 alveolar epithelial cells" EXACT []
 synonym: "type 1 pneumocyte" EXACT []
 synonym: "type I alveolar cells" EXACT []
 synonym: "type I alveolar epithelial cells" EXACT []
+is_a: CL:0000322 ! pneumocyte
 intersection_of: CL:0000322 ! pneumocyte
 intersection_of: RO:0002215 GO:0007585
 
@@ -7279,6 +7434,8 @@ synonym: "type 2 pneumocyte" EXACT []
 synonym: "type II alveolar cell" EXACT []
 synonym: "type II alveolar epithelial cell" EXACT []
 synonym: "type II alveolocyte" EXACT []
+is_a: CL:0000157 ! surfactant secreting cell
+is_a: CL:0000322 ! pneumocyte
 intersection_of: CL:0000322 ! pneumocyte
 intersection_of: RO:0002215 GO:0032940
 intersection_of: RO:0002215 GO:0043129
@@ -7287,6 +7444,8 @@ intersection_of: RO:0002215 GO:0043129
 id: CL:0002067
 name: type A enteroendocrine cell
 def: "An enteroendocrine cell that produces glucagon." []
+is_a: CL:0000164 ! enteroendocrine cell
+is_a: CL:0000170 ! glucagon secreting cell
 intersection_of: CL:0000164 ! enteroendocrine cell
 intersection_of: RO:0002215 GO:0070091
 
@@ -7306,6 +7465,7 @@ def: "Columnar cell which populate the epithelium of large intestine and absorb 
 synonym: "columnar cell" BROAD []
 synonym: "columnar cell of the colon" EXACT []
 synonym: "vacuolar absorptive cell" EXACT []
+is_a: CL:0000584 ! enterocyte
 is_a: CL:0002253 ! epithelial cell of large intestine
 intersection_of: CL:0000584 ! enterocyte
 intersection_of: BFO:0000050 UBERON:0001278
@@ -7332,6 +7492,7 @@ relationship: RO:0002202 CL:0000223 ! endodermal cell
 id: CL:0002077
 name: ecto-epithelial cell
 def: "An epithelial cell derived from ectoderm." []
+is_a: CL:0000066 ! epithelial cell
 is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: RO:0002202 CL:0000221 ! ectodermal cell
@@ -7341,6 +7502,7 @@ id: CL:0002078
 name: meso-epithelial cell
 def: "Epithelial cell derived from mesoderm or mesenchyme." []
 synonym: "epithelial mesenchymal cell" EXACT []
+is_a: CL:0000066 ! epithelial cell
 is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: RO:0002202 CL:0000222 ! mesodermal cell
@@ -7391,9 +7553,9 @@ name: cortical cell of adrenal gland
 def: "A cell of the adrenal cortex. Cell types include those that synthesize and secrete chemical derivatives (steroids) of cholesterol." []
 synonym: "adrenal cortex cell" EXACT []
 synonym: "adrenocortical cell" EXACT []
-is_a: CL:0000150 ! glandular epithelial cell
 is_a: CL:0000174 ! steroid hormone secreting cell
 is_a: CL:0002078 ! meso-epithelial cell
+is_a: CL:1001601 ! adrenal gland glandular cell
 intersection_of: CL:0002078 ! meso-epithelial cell
 intersection_of: BFO:0000050 UBERON:0001235
 
@@ -7508,6 +7670,7 @@ intersection_of: RO:0002104 GO:0071738
 id: CL:0002107
 name: IgD-negative CD38-positive IgG memory B cell
 def: "An IgD-negative CD38-positive IgG memory B cell is a CD38-positive IgG-positive that has class switched and lacks expression of IgD on the cell surface with the phenotype IgD-negative, CD38-positive, and IgG-positive." []
+is_a: CL:0001053 ! IgD-negative memory B cell
 is_a: CL:0002105 ! CD38-positive IgG memory B cell
 intersection_of: CL:0002105 ! CD38-positive IgG memory B cell
 intersection_of: lacks_plasma_membrane_part GO:0071738
@@ -7517,6 +7680,7 @@ id: CL:0002108
 name: CD38-negative IgG memory B cell
 def: "A CD38-negative IgG memory B cell is a IgG-positive class switched memory B cell that has class switched and expresses IgG on the cell surface with the phenotype CD38-negative, IgD-negative, and IgG-positive." []
 is_a: CL:0000979 ! IgG memory B cell
+is_a: CL:0001053 ! IgD-negative memory B cell
 intersection_of: CL:0000979 ! IgG memory B cell
 intersection_of: lacks_plasma_membrane_part GO:0071738
 intersection_of: lacks_plasma_membrane_part PR:000001408
@@ -7544,7 +7708,7 @@ intersection_of: RO:0002104 PR:000001014
 id: CL:0002110
 name: B220-low CD38-positive naive B cell
 def: "A B220-low CD38-positive naive B cell is a CD38-positive naive B cell that has the phenotype B220-low, CD38-positive, surface IgD-positive, surface IgM-positive, and CD27-negative, that has not yet been activated by antigen in the periphery." []
-is_a: CL:0002101 ! CD38-positive naive B cell
+is_a: CL:0002109 ! B220-positive CD38-positive naive B cell
 intersection_of: CL:0002101 ! CD38-positive naive B cell
 intersection_of: has_low_plasma_membrane_amount PR:000001014
 
@@ -7575,7 +7739,7 @@ intersection_of: RO:0002104 PR:000001014
 id: CL:0002113
 name: B220-low CD38-negative unswitched memory B cell
 def: "A B220-low CD38-negative unswitched memory B cell is a CD38-negative unswitched memory B cell that has the phenotype B220-low, CD38-negative, IgD-positive, CD138-negative, and IgG-negative." []
-is_a: CL:0002111 ! CD38-negative unswitched memory B cell
+is_a: CL:0002112 ! B220-positive CD38-negative unswitched memory B cell
 intersection_of: CL:0002111 ! CD38-negative unswitched memory B cell
 intersection_of: has_low_plasma_membrane_amount PR:000001014
 
@@ -7606,7 +7770,7 @@ intersection_of: RO:0002104 PR:000001014
 id: CL:0002116
 name: B220-low CD38-positive unswitched memory B cell
 def: "A B220-low CD38-positive unswitched memory B cell is a CD38-positive unswitched memory B cell that has the phenotype B220-low, CD38-positive, IgD-positive, CD138-negative, and IgG-negative." []
-is_a: CL:0002114 ! CD38-positive unswitched memory B cell
+is_a: CL:0002115 ! B220-positive CD38-positive unswitched memory B cell
 intersection_of: CL:0002114 ! CD38-positive unswitched memory B cell
 intersection_of: has_low_plasma_membrane_amount PR:000001014
 
@@ -7669,7 +7833,7 @@ intersection_of: RO:0002104 PR:000001014
 id: CL:0002123
 name: B220-low CD38-positive IgG-negative class switched memory B cell
 def: "A B220-low CD38-positive IgG-negative memory B cell is a CD38-positive IgG-negative class switched memory B cell that lacks IgG on the cell surface with the phenotype B220-low, CD38-positive, and IgG-positive." []
-is_a: CL:0002119 ! CD38-positive IgG-negative class switched memory B cell
+is_a: CL:0002122 ! B220-positive CD38-positive IgG-negative class switched memory B cell
 intersection_of: CL:0002119 ! CD38-positive IgG-negative class switched memory B cell
 intersection_of: has_low_plasma_membrane_amount PR:000001014
 
@@ -7704,6 +7868,7 @@ id: CL:0002126
 name: CD25-positive, CD27-positive immature gamma-delta T cell
 def: "A CD25-positive, CD27-positive immature gamma-delta T cell found in the thymus that has an immature phenotype (i.e. CD24-high, CD25-high, CD62L-high, CD44-high, CD2-low, CD5-low)." []
 is_a: CL:0000799 ! immature gamma-delta T cell
+is_a: CL:0000893 ! thymocyte
 intersection_of: CL:0000799 ! immature gamma-delta T cell
 intersection_of: BFO:0000050 UBERON:0002370
 intersection_of: has_high_plasma_membrane_amount PR:000001307
@@ -7747,6 +7912,7 @@ id: CL:0002132
 name: stromal cell of ovary
 def: "A stomal cell of the ovary" []
 synonym: "ovarian stromal cell" EXACT []
+is_a: CL:0000499 ! stromal cell
 intersection_of: CL:0000499 ! stromal cell
 intersection_of: BFO:0000050 UBERON:0000992
 
@@ -7840,6 +8006,8 @@ name: basal cell of epidermis
 def: "A basally situated, mitotically active, columnar-shaped keratinocyte attached to the basement membrane." []
 is_a: CL:0000312 ! keratinocyte
 is_a: CL:0000646 ! basal cell
+is_a: CL:0011026 ! progenitor cell
+is_a: CL:1000428 ! stem cell of epidermis
 intersection_of: CL:0000646 ! basal cell
 intersection_of: BFO:0000050 UBERON:0001003
 
@@ -7945,6 +8113,8 @@ id: CL:0002234
 name: basal cell of prostatic acinus
 def: "A cell of the basal layer of the epithelium in the prostatic acinus." []
 synonym: "basal epithelial cell of prostatic acinus" EXACT []
+is_a: CL:0002233 ! epithelial cell of prostatic acinus
+is_a: CL:0002341 ! basal cell of prostate epithelium
 intersection_of: CL:0002341 ! basal cell of prostate epithelium
 intersection_of: BFO:0000050 UBERON:0004179
 
@@ -7960,6 +8130,7 @@ intersection_of: BFO:0000050 UBERON:0002371
 id: CL:0002242
 name: nucleate cell
 def: "A cell containing at least one nucleus." []
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0000053 PATO:0002505
 
@@ -8009,8 +8180,8 @@ intersection_of: BFO:0000050 UBERON:0002046
 id: CL:0002260
 name: epithelial cell of parathyroid gland
 def: "An epithelial cell of the parathyroid gland." []
-is_a: CL:0000150 ! glandular epithelial cell
 is_a: CL:0002076 ! endo-epithelial cell
+is_a: CL:1001593 ! parathyroid glandular cell
 intersection_of: CL:0002076 ! endo-epithelial cell
 intersection_of: BFO:0000050 UBERON:0001132
 
@@ -8019,6 +8190,7 @@ id: CL:0002264
 name: type A cell of stomach
 def: "A type of enteroendocrine cell found in the stomach that secretes glucagon." []
 is_a: CL:0002067 ! type A enteroendocrine cell
+is_a: CL:0002659 ! glandular cell of stomach
 intersection_of: CL:0002067 ! type A enteroendocrine cell
 intersection_of: BFO:0000050 UBERON:0000945
 
@@ -8031,6 +8203,7 @@ synonym: "colonic delta cell" EXACT []
 synonym: "delta cell of colon" EXACT []
 is_a: CL:0000502 ! type D enteroendocrine cell
 is_a: CL:0002658 ! glandular cell of the large intestine
+is_a: CL:0009042 ! enteroendocrine cell of colon
 intersection_of: CL:0000502 ! type D enteroendocrine cell
 intersection_of: BFO:0000050 UBERON:0001155
 
@@ -8043,6 +8216,7 @@ synonym: "small intestine D-cell" EXACT []
 synonym: "small intestine delta cell" EXACT []
 is_a: CL:0000502 ! type D enteroendocrine cell
 is_a: CL:0002254 ! epithelial cell of small intestine
+is_a: CL:0009006 ! enteroendocrine cell of small intestine
 intersection_of: CL:0000502 ! type D enteroendocrine cell
 intersection_of: BFO:0000050 UBERON:0002108
 
@@ -8073,6 +8247,9 @@ def: "A PP cell located in the islets of the pancreas." []
 synonym: "pancreatic polypeptide-secreting cell" EXACT []
 synonym: "PP cell of pancreatic islet" EXACT []
 synonym: "PP-cell of pancreatic islet" EXACT []
+is_a: CL:0000083 ! epithelial cell of pancreas
+is_a: CL:0000696 ! PP cell
+is_a: CL:0008024 ! pancreatic endocrine cell
 intersection_of: CL:0000696 ! PP cell
 intersection_of: BFO:0000050 UBERON:0000006
 intersection_of: BFO:0000050 UBERON:0001264
@@ -8133,6 +8310,7 @@ def: "An ecto-epithelial cell of the prostate gland that secretes hormones." []
 synonym: "glandular cell of prostate" EXACT []
 synonym: "neuro-epithelial cell of prostate gland" EXACT []
 is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0002159 ! general ecto-epithelial cell
 intersection_of: CL:0002159 ! general ecto-epithelial cell
 intersection_of: BFO:0000050 UBERON:0002367
 intersection_of: RO:0002215 GO:0046879
@@ -8185,6 +8363,7 @@ synonym: "epithelial cell of lactiferous gland" EXACT []
 synonym: "luminal cell of alveolus of lactiferous gland" EXACT []
 synonym: "mammary alveolar epithelial cell" EXACT []
 synonym: "mammary gland alveolar epithelial cell" EXACT []
+is_a: CL:0000150 ! glandular epithelial cell
 is_a: CL:0000314 ! milk secreting cell
 is_a: CL:0002159 ! general ecto-epithelial cell
 intersection_of: CL:0000150 ! glandular epithelial cell
@@ -8196,6 +8375,7 @@ name: mammary gland epithelial cell
 def: "An epithelial cell of the mammary gland." []
 synonym: "breast epithelial cell" EXACT []
 synonym: "mammary epithelial cell" EXACT []
+is_a: CL:0000066 ! epithelial cell
 is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0001911
@@ -8204,6 +8384,7 @@ intersection_of: BFO:0000050 UBERON:0001911
 id: CL:0002328
 name: bronchial epithelial cell
 def: "An epithelial cell of the bronchus." []
+is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0002185
 relationship: BFO:0000050 UBERON:0002031
@@ -8219,6 +8400,7 @@ id: CL:0002332
 name: ciliated cell of the bronchus
 def: "A ciliated cell of the bronchus." []
 is_a: CL:0002145 ! ciliated columnar cell of tracheobronchial tree
+is_a: CL:0002328 ! bronchial epithelial cell
 intersection_of: CL:0000064 ! ciliated cell
 intersection_of: BFO:0000050 UBERON:0002185
 
@@ -8226,6 +8408,7 @@ intersection_of: BFO:0000050 UBERON:0002185
 id: CL:0002333
 name: neural crest derived fat cell
 def: "A fat cell derived from a neural crest cell." []
+is_a: CL:0000136 ! fat cell
 intersection_of: CL:0000136 ! fat cell
 intersection_of: RO:0002202 CL:0000333 ! migratory neural crest cell
 relationship: RO:0002202 CL:0000005 ! fibroblast neural crest derived
@@ -8247,6 +8430,7 @@ id: CL:0002338
 name: CD56-positive, CD161-positive immature natural killer cell, human
 def: "A natural killer cell that is developmentally immature, has the phenotype CD34-negative, CD56-positive, CD117-positive, CD122-positive,and CD161-positive." []
 synonym: "p-NK" RELATED []
+is_a: CL:0000823 ! immature natural killer cell
 intersection_of: CL:0000823 ! immature natural killer cell
 intersection_of: lacks_plasma_membrane_part PR:000001003
 intersection_of: RO:0002104 PR:000001024
@@ -8277,6 +8461,7 @@ id: CL:0002344
 name: CD56-negative, CD161-positive immature natural killer cell, human
 def: "A natural killer cell that is developmentally immature, has the phenotype CD34-negative, CD56-negative, CD117-positive, CD122-positive,and CD161-positive." []
 synonym: "p-NK" RELATED []
+is_a: CL:0000823 ! immature natural killer cell
 intersection_of: CL:0000823 ! immature natural killer cell
 intersection_of: lacks_plasma_membrane_part PR:000001003
 intersection_of: lacks_plasma_membrane_part PR:000001024
@@ -8289,6 +8474,7 @@ intersection_of: RO:0002162 NCBITaxon:9606
 id: CL:0002346
 name: Dx5-negative, NK1.1-positive immature natural killer cell, mouse
 def: "An immature natural killer cell that is NK1.1-positive and DX-5 negative." []
+is_a: CL:0000823 ! immature natural killer cell
 intersection_of: CL:0000823 ! immature natural killer cell
 intersection_of: lacks_plasma_membrane_part PR:000001008
 intersection_of: RO:0002104 PR:000002977
@@ -8421,7 +8607,7 @@ name: keratocyte
 def: "A keratocyte is a specialized fibroblastÂ residing in the cornea stroma that has a flattened, dendritic cell located between the lamellae with a large flattened nucleus and lengthy processes which communicate with neighboring cells. ThisÂ cornealÂ layer, representing about 85-90% of corneal thickness, is built up from highly regular collagenous lamellae and extracellular matrix components. Keratocytes play the major role in keeping it transparent, healing its wounds, and synthesizing its components. This cell type secretes collagen I, V, VI, and keratin sulfate." []
 synonym: "corneal fibroblast" EXACT []
 synonym: "corneal keratocyte" EXACT []
-is_a: CL:0000057 ! fibroblast
+is_a: CL:0000005 ! fibroblast neural crest derived
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0001777
 relationship: RO:0002202 CL:0000008 ! migratory cranial neural crest cell
@@ -8455,6 +8641,7 @@ id: CL:0002370
 name: respiratory goblet cell
 def: "A simple columnar epithelial cell that secretes mucin. Rough endoplasmic reticulum, mitochondria, the nucleus, and other organelles are concentrated in the basal portion. The apical plasma membrane projects microvilli to increase surface area for secretion." []
 synonym: "respiratory mucosa goblet cells" EXACT []
+is_a: CL:0000160 ! goblet cell
 intersection_of: CL:0000160 ! goblet cell
 intersection_of: BFO:0000050 UBERON:0000065
 relationship: BFO:0000050 UBERON:0004802
@@ -8471,6 +8658,8 @@ name: myotube
 def: "A transversely striated, synctial muscle cell, formed by the fusion of myoblasts." []
 synonym: "myotubule" EXACT []
 synonym: "single cell sarcomere" EXACT []
+is_a: CL:0000187 ! muscle cell
+is_a: CL:0000228 ! multinucleate cell
 intersection_of: CL:0000187 ! muscle cell
 intersection_of: BFO:0000051 GO:0030017
 intersection_of: RO:0000053 PATO:0001908
@@ -8481,6 +8670,7 @@ id: CL:0002374
 name: ear hair cell
 def: "A hair cell of the ear that contains the organs of balance and hearing." []
 synonym: "ear receptor cell" EXACT []
+is_a: CL:0000855 ! sensory hair cell
 intersection_of: CL:0000855 ! sensory hair cell
 intersection_of: BFO:0000050 UBERON:0001690
 
@@ -8490,6 +8680,7 @@ name: Schwann cell precursor
 def: "A giioblast cell that develops from a migratory neural crest cell. The SCP is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has no basal lamina. In rodents SCPs are the only cells in the Schwann cell linage that expresses Cdh19." []
 synonym: "Schwann cell precursor cell" EXACT []
 is_a: CL:0000030 ! glioblast
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 
 [Term]
@@ -8532,6 +8723,7 @@ id: CL:0002395
 name: Gr1-high classical monocyte
 def: "A resident monocyte that is Gr-1 high, CD43-negative, CX3CR1-negative, CD115-positive, and B220-negative." []
 is_a: CL:0000860 ! classical monocyte
+is_a: CL:0001022 ! CD115-positive monocyte
 intersection_of: CL:0000860 ! classical monocyte
 intersection_of: has_high_plasma_membrane_amount PR:000002980
 intersection_of: lacks_plasma_membrane_part PR:000001014
@@ -8546,6 +8738,7 @@ name: CD14-low, CD16-positive monocyte
 def: "A patrolling monocyte that is CD14-low and CD16-positive." []
 synonym: "non-classical monocyte, human" EXACT []
 is_a: CL:0000875 ! non-classical monocyte
+is_a: CL:0001054 ! CD14-positive monocyte
 intersection_of: CL:0000875 ! non-classical monocyte
 intersection_of: has_low_plasma_membrane_amount PR:000001889
 intersection_of: RO:0002104 PR:000001483
@@ -8565,6 +8758,7 @@ intersection_of: RO:0002104 PR:000001483
 id: CL:0002398
 name: Gr1-positive, CD43-positive monocyte
 def: "An intermediate monocyte that is Gr1-positive, CD43-positive." []
+is_a: CL:0001022 ! CD115-positive monocyte
 is_a: CL:0002393 ! intermediate monocyte
 intersection_of: CL:0000576 ! monocyte
 intersection_of: RO:0002104 PR:000001012
@@ -8599,7 +8793,8 @@ id: CL:0002402
 name: Peyer's patch B cell
 def: "A resting mature B cell within the Peyer's patch that is CD19-positive, B220-positive, IgM-positive, AA4-negative, CD23-positive, CD43-negative, and CD5-negative." []
 synonym: "Peyers patch B cell" EXACT []
-is_a: CL:0000785 ! mature B cell
+is_a: CL:0000822 ! B-2 B cell
+is_a: CL:0009014 ! Peyer's patch lymphocyte
 intersection_of: CL:0000785 ! mature B cell
 intersection_of: BFO:0000050 UBERON:0001211
 intersection_of: lacks_plasma_membrane_part PR:000001839
@@ -8622,7 +8817,8 @@ name: gamma-delta thymocyte
 def: "A post-natal thymocyte expressing components of the gamma-delta T cell receptor. This cell type is always double-negative (i.e. CD4-negative, CD8-negative)." []
 synonym: "gammadelta thymocyte" EXACT []
 synonym: "gd thymocyte" EXACT []
-is_a: CL:0000893 ! thymocyte
+is_a: CL:0000798 ! gamma-delta T cell
+is_a: CL:0002489 ! double negative thymocyte
 intersection_of: CL:0000893 ! thymocyte
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000025402
@@ -8676,6 +8872,7 @@ id: CL:0002421
 name: nucleated reticulocyte
 def: "A reticulocyte that retains the nucleus and other organelles. Found in birds, fish, amphibians and reptiles." []
 is_a: CL:0000558 ! reticulocyte
+is_a: CL:0002242 ! nucleate cell
 intersection_of: CL:0000558 ! reticulocyte
 intersection_of: RO:0000053 PATO:0002505
 
@@ -8683,6 +8880,7 @@ intersection_of: RO:0000053 PATO:0002505
 id: CL:0002422
 name: enucleated reticulocyte
 def: "A reticulocyte lacking a nucleus and showing a basophilic reticulum under vital staining due to the presence of ribosomes." []
+is_a: CL:0000225 ! anucleate cell
 is_a: CL:0000558 ! reticulocyte
 intersection_of: CL:0000558 ! reticulocyte
 intersection_of: BFO:0000051 GO:0005840
@@ -8857,6 +9055,7 @@ synonym: "O-2A/OPC" BROAD []
 synonym: "O2A/OPC" BROAD []
 synonym: "oligodendrocyte-type 2 astrocyte (O-2A) progenitor cell" BROAD []
 synonym: "oligodendrocyte/type-2 astrocyte progenitor cell" BROAD []
+is_a: CL:0000123 ! neuron associated cell (sensu Vertebrata)
 relationship: RO:0002202 CL:0000339 ! glioblast (sensu Vertebrata)
 
 [Term]
@@ -8895,6 +9094,7 @@ id: CL:0002457
 name: epidermal Langerhans cell
 def: "A Langerhans cell that is in the epidermis and is CD45-positive, MHCII-positive, and CD11b-positive." []
 is_a: CL:0000453 ! Langerhans cell
+is_a: CL:0002465 ! CD11b-positive dendritic cell
 intersection_of: CL:0000453 ! Langerhans cell
 intersection_of: RO:0001025 UBERON:0001003
 intersection_of: RO:0002104 GO:0042613
@@ -9037,6 +9237,7 @@ name: bone marrow macrophage
 def: "A tissue-resident macrophage located in the bone marrow. This cell type is B220-negative, CD3e-negative, Ly-6C-negative, CD115-positive, F4/80-positive." []
 synonym: "MF.BM" RELATED []
 is_a: CL:0000864 ! tissue-resident macrophage
+is_a: CL:1001610 ! bone marrow hematopoietic cell
 intersection_of: CL:0000864 ! tissue-resident macrophage
 intersection_of: lacks_plasma_membrane_part PR:000001014
 intersection_of: lacks_plasma_membrane_part PR:000001020
@@ -9080,6 +9281,7 @@ id: CL:0002483
 name: hair follicle melanocyte
 def: "A melanocyte that produces pigment within the hair follicle." []
 is_a: CL:0000148 ! melanocyte
+is_a: CL:0002559 ! hair follicle cell
 intersection_of: CL:0000148 ! melanocyte
 intersection_of: BFO:0000050 UBERON:0002073
 
@@ -9115,6 +9317,7 @@ name: double negative thymocyte
 def: "A thymocyte that lacks expression of CD4 and CD8." []
 synonym: "CD4-CD8- T cell" EXACT []
 synonym: "double negative T cell" EXACT []
+is_a: CL:0000893 ! thymocyte
 intersection_of: CL:0000893 ! thymocyte
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000025402
@@ -9180,6 +9383,7 @@ intersection_of: RO:0002104 PR:000001293
 id: CL:0002518
 name: kidney epithelial cell
 def: "An epithelial cell of the kidney." []
+is_a: CL:0000066 ! epithelial cell
 is_a: CL:1000497 ! kidney cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0002113
@@ -9234,6 +9438,7 @@ intersection_of: RO:0002215 GO:0032640
 id: CL:0002533
 name: immature CD16-positive myeloid dendritic cell
 def: "An immature CD16-positive myeloid dendritic cell is CD80-low, CD86-low, and MHCII-low." []
+is_a: CL:0000840 ! immature conventional dendritic cell
 is_a: CL:0002532 ! CD16-positive myeloid dendritic cell
 intersection_of: CL:0002532 ! CD16-positive myeloid dendritic cell
 intersection_of: has_low_plasma_membrane_amount GO:0042613
@@ -9244,6 +9449,7 @@ intersection_of: has_low_plasma_membrane_amount PR:000001438
 id: CL:0002534
 name: mature CD16-positive myeloid dendritic cell
 def: "A mature CD16-positive myeloid dendritic cell is CD80-high, CD83-positive, CD86-high, and MHCII-high." []
+is_a: CL:0000841 ! mature conventional dendritic cell
 is_a: CL:0002532 ! CD16-positive myeloid dendritic cell
 intersection_of: CL:0002532 ! CD16-positive myeloid dendritic cell
 intersection_of: has_high_plasma_membrane_amount GO:0042613
@@ -9285,6 +9491,7 @@ intersection_of: BFO:0000050 UBERON:0004178
 id: CL:0002540
 name: mesenchymal stem cell of the bone marrow
 def: "A mesenchymal stem cell that is part of the bone marrow." []
+is_a: CL:0000134 ! mesenchymal stem cell
 intersection_of: CL:0000134 ! mesenchymal stem cell
 intersection_of: BFO:0000050 UBERON:0002371
 
@@ -9292,6 +9499,7 @@ intersection_of: BFO:0000050 UBERON:0002371
 id: CL:0002541
 name: chorionic membrane mesenchymal stem cell
 def: "A mesenchymal stem cell of the chorionic membrane." []
+is_a: CL:0000134 ! mesenchymal stem cell
 intersection_of: CL:0000134 ! mesenchymal stem cell
 intersection_of: BFO:0000050 UBERON:0003124
 
@@ -9366,6 +9574,7 @@ intersection_of: BFO:0000050 UBERON:0002073
 id: CL:0002563
 name: intestinal epithelial cell
 def: "An epithelial cell of the intestine." []
+is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0000160
 relationship: BFO:0000050 UBERON:0001277
@@ -9375,6 +9584,7 @@ id: CL:0002570
 name: mesenchymal stem cell of adipose tissue
 def: "A mesenchymal stem cell of adipose tissue." []
 synonym: "mesenchymal stem cell of adipose" EXACT []
+is_a: CL:0000134 ! mesenchymal stem cell
 intersection_of: CL:0000134 ! mesenchymal stem cell
 intersection_of: BFO:0000050 UBERON:0001013
 
@@ -9383,6 +9593,7 @@ id: CL:0002571
 name: hepatic mesenchymal stem cell
 def: "A mesenchymal stem cell of liver." []
 is_a: CL:0000134 ! mesenchymal stem cell
+is_a: CL:0002195 ! hepatic stem cell
 intersection_of: CL:0000134 ! mesenchymal stem cell
 intersection_of: BFO:0000050 UBERON:0002107
 
@@ -9390,6 +9601,7 @@ intersection_of: BFO:0000050 UBERON:0002107
 id: CL:0002573
 name: Schwann cell
 def: "A glial cell that ensheathes axons of neuron in the peripheral nervous system and are necessary for their maintainance and function." []
+is_a: CL:0000125 ! glial cell
 intersection_of: CL:0000125 ! glial cell
 intersection_of: BFO:0000050 UBERON:0000010
 
@@ -9413,8 +9625,8 @@ intersection_of: BFO:0000050 UBERON:0001017
 id: CL:0002577
 name: placental epithelial cell
 def: "An epithelial cell of the placenta." []
+is_a: CL:0000066 ! epithelial cell
 is_a: CL:0000349 ! extraembryonic cell
-is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0001987
 
@@ -9475,6 +9687,7 @@ id: CL:0002597
 name: smooth muscle cell of bladder
 def: "A smooth muscle cell of the bladder." []
 is_a: CL:0000192 ! smooth muscle cell
+is_a: CL:1001319 ! bladder cell
 intersection_of: CL:0000192 ! smooth muscle cell
 intersection_of: BFO:0000050 UBERON:0001255
 
@@ -9513,6 +9726,7 @@ intersection_of: BFO:0000050 UBERON:0002037
 id: CL:0002604
 name: astrocyte of the hippocampus
 is_a: CL:0000127 ! astrocyte
+is_a: CL:1001580 ! hippocampus glial cell
 intersection_of: CL:0000127 ! astrocyte
 intersection_of: BFO:0000050 UBERON:0001954
 
@@ -9521,6 +9735,7 @@ id: CL:0002605
 name: astrocyte of the cerebral cortex
 def: "An astrocyte of the cerebral cortex." []
 is_a: CL:0000127 ! astrocyte
+is_a: CL:1001579 ! cerebral cortex glial cell
 intersection_of: CL:0000127 ! astrocyte
 intersection_of: BFO:0000050 UBERON:0000956
 
@@ -9599,6 +9814,7 @@ id: CL:0002623
 name: acinar cell of salivary gland
 def: "An acinar cell of salivary gland." []
 is_a: CL:0000622 ! acinar cell
+is_a: CL:1001596 ! salivary gland glandular cell
 intersection_of: CL:0000622 ! acinar cell
 intersection_of: BFO:0000050 UBERON:0001044
 
@@ -9677,6 +9893,7 @@ id: CL:0002659
 name: glandular cell of stomach
 def: "A glandular epithelial cell that is part of the stomach." []
 is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0002178 ! epithelial cell of stomach
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0000945
 
@@ -9705,6 +9922,7 @@ relationship: RO:0002202 CL:0000133 ! neurectodermal cell
 id: CL:0002673
 name: tongue muscle cell
 def: "A skeletal muscle cell that is part of the tongue." []
+is_a: CL:0008002 ! skeletal muscle fiber
 intersection_of: CL:0008002 ! skeletal muscle fiber
 intersection_of: BFO:0000050 UBERON:0000378
 
@@ -9713,6 +9931,7 @@ id: CL:0002676
 name: neural crest derived neuroblast
 def: "A neuroblast derived from a neural crest cell." []
 is_a: CL:0000031 ! neuroblast (sensu Vertebrata)
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 
 [Term]
@@ -9721,6 +9940,8 @@ name: memory regulatory T cell
 def: "A CD4-positive, CD25-positive alpha-beta regulatory T cell that has encountered antigen." []
 is_a: CL:0000792 ! CD4-positive, CD25-positive, alpha-beta regulatory T cell
 is_a: CL:0000813 ! memory T cell
+is_a: CL:0000815 ! regulatory T cell
+is_a: CL:0000897 ! CD4-positive, alpha-beta memory T cell
 intersection_of: CL:0000792 ! CD4-positive, CD25-positive, alpha-beta regulatory T cell
 intersection_of: has_completed GO:0043379
 
@@ -9746,6 +9967,7 @@ id: CL:0002680
 name: PP cell of intestine
 def: "A PP cell found in intestine." []
 is_a: CL:0000696 ! PP cell
+is_a: CL:0002563 ! intestinal epithelial cell
 intersection_of: CL:0000696 ! PP cell
 intersection_of: BFO:0000050 UBERON:0000160
 
@@ -9769,6 +9991,7 @@ id: CL:0005001
 name: iridoblast
 def: "A non-terminally differentiated cell that originates from the neural crest and differentiates into an iridophore." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 
 [Term]
@@ -9776,6 +9999,7 @@ id: CL:0005002
 name: xanthoblast
 def: "A non-terminally differentiated cell that differentiates into a xanthophore." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 
 [Term]
@@ -9783,6 +10007,7 @@ id: CL:0005003
 name: leucoblast
 def: "A non-terminally differentiated cell that originates from the neural crest and differentiates into a leucophore." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 
 [Term]
@@ -9790,6 +10015,7 @@ id: CL:0005004
 name: pigment erythroblast
 def: "A non-terminally differentiated cell that originates from the neural crest and differentiates into an erythrophore." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 
 [Term]
@@ -9797,6 +10023,7 @@ id: CL:0005005
 name: cyanoblast
 def: "A non-terminally differentiated cell that originates from the neural crest and differentiates into a cyanophore." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 
 [Term]
@@ -9814,13 +10041,14 @@ synonym: "MCC" BROAD []
 synonym: "multi-ciliated cell" BROAD []
 synonym: "multiciliated cell" BROAD []
 synonym: "multiciliated epithelial cell" EXACT []
-is_a: CL:0000066 ! epithelial cell
+is_a: CL:0000067 ! ciliated epithelial cell
 relationship: BFO:0000051 GO:0005929
 
 [Term]
 id: CL:0005018
 name: ghrelin secreting cell
 def: "A cell that secretes ghrelin, the peptide hormone that stimulates hunger." []
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: RO:0002215 GO:0036321
 
@@ -9830,6 +10058,7 @@ name: pancreatic epsilon cell
 def: "Ghrelin secreting cells found in the endocrine pancreas." []
 synonym: "pancreatic E cell" EXACT []
 is_a: CL:0005018 ! ghrelin secreting cell
+is_a: CL:0008024 ! pancreatic endocrine cell
 intersection_of: CL:0008024 ! pancreatic endocrine cell
 intersection_of: RO:0002215 GO:0036321
 
@@ -9855,6 +10084,8 @@ id: CL:0005024
 name: somatomotor neuron
 def: "A motor neuron that innervates a skeletal muscle.  These motor neurons are all excitatory and cholinergic." []
 synonym: "somatic motor neuron" EXACT []
+is_a: CL:0000100 ! motor neuron
+is_a: CL:0000108 ! cholinergic neuron
 intersection_of: CL:0000100 ! motor neuron
 intersection_of: RO:0002120 CL:0008002 ! skeletal muscle fiber
 relationship: RO:0002215 GO:0014055
@@ -9879,6 +10110,7 @@ id: CL:0007003
 name: preodontoblast
 def: "Skeletogenic cell that has the potential to form an odontoblast, deposits predentine, and arises from a cranial neural crest cell." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0011026 ! progenitor cell
 relationship: BFO:0000050 UBERON:0005176
 relationship: RO:0002202 CL:0000008 ! migratory cranial neural crest cell
 
@@ -9918,6 +10150,7 @@ name: preosteoblast
 def: "Skeletogenic cell that has the potential to transform into an osteoblast, and develops from neural crest or mesodermal cells." []
 synonym: "osteoprogenitor cell" EXACT []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0011026 ! progenitor cell
 relationship: BFO:0000050 UBERON:0008883
 relationship: RO:0002202 CL:0000222 ! mesodermal cell
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
@@ -9926,7 +10159,7 @@ relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 id: CL:0007011
 name: enteric neuron
 def: "Neuron that is part of the enteric nervous system." []
-is_a: CL:0000540 ! neuron
+is_a: CL:0000029 ! neural crest derived neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0002005
 relationship: BFO:0000050 UBERON:0002005
@@ -9948,6 +10181,8 @@ is_a: CL:0000988 ! hematopoietic cell
 id: CL:0008002
 name: skeletal muscle fiber
 def: "A transversely striated, synctial cell of skeletal muscle. It is formed when proliferating myoblasts exit the cell cycle, differentiate and fuse." []
+is_a: CL:0000188 ! cell of skeletal muscle
+is_a: CL:0002372 ! myotube
 intersection_of: CL:0000187 ! muscle cell
 intersection_of: BFO:0000050 UBERON:0001134
 intersection_of: BFO:0000051 GO:0030017
@@ -9959,6 +10194,8 @@ relationship: RO:0002202 CL:0000515 ! skeletal muscle myoblast
 id: CL:0008003
 name: somatic muscle myotube
 def: "A myotube that is part of some somatic muscle.  Examples include arthropod somatic muscle cells." []
+is_a: CL:0002372 ! myotube
+is_a: CL:0008004 ! somatic muscle cell
 intersection_of: CL:0008004 ! somatic muscle cell
 intersection_of: BFO:0000051 GO:0030017
 intersection_of: RO:0000053 PATO:0001908
@@ -9980,6 +10217,8 @@ is_a: CL:0000187 ! muscle cell
 id: CL:0008008
 name: striated visceral muscle cell
 def: "A visceral muscle cell that is striated.  Examples include the visceral muscle cells of arhtropods." []
+is_a: CL:0000737 ! striated muscle cell
+is_a: CL:0008007 ! visceral muscle cell
 intersection_of: CL:0008007 ! visceral muscle cell
 intersection_of: RO:0000053 PATO:0001410 {all_some="true"}
 
@@ -9987,6 +10226,7 @@ intersection_of: RO:0000053 PATO:0001410 {all_some="true"}
 id: CL:0008009
 name: transversely striated visceral muscle cell
 def: "A visceral muscle that is transversely striated.  Examples include the visceral muscle cells of arthropods." []
+is_a: CL:0008007 ! visceral muscle cell
 intersection_of: CL:0008007 ! visceral muscle cell
 intersection_of: RO:0000053 PATO:0002478 {all_some="true"}
 
@@ -9994,6 +10234,8 @@ intersection_of: RO:0000053 PATO:0002478 {all_some="true"}
 id: CL:0008011
 name: skeletal muscle satellite stem cell
 def: "A skeletal muscle satellite cell that divides by stem cell division.  A proportion of this population undergoes symmetric stem cell division, producing two skeletal muscle satellite stem cells. The rest undergo asymmetric stem cell division - retaining their identity while budding off a daughter cell that differentiates into an adult skeletal muscle myoblast." []
+is_a: CL:0000035 ! single fate stem cell
+is_a: CL:0000594 ! skeletal muscle satellite cell
 intersection_of: CL:0000594 ! skeletal muscle satellite cell
 intersection_of: RO:0000053 PATO:0001400
 intersection_of: RO:0002215 GO:0017145
@@ -10016,6 +10258,8 @@ id: CL:0008017
 name: adult skeletal muscle myoblast
 def: "A skeletal muscle myoblast that is part of a skeletal mucle.  These cells are formed following acivation and division of skeletal muscle satellite cells. They form a transient population that is lost when they fuse to form skeletal muscle fibers." []
 synonym: "myogenic precursor cell" BROAD []
+is_a: CL:0000188 ! cell of skeletal muscle
+is_a: CL:0000515 ! skeletal muscle myoblast
 intersection_of: CL:0000056 ! myoblast
 intersection_of: BFO:0000050 UBERON:0001134
 intersection_of: RO:0002203 CL:0008002 ! skeletal muscle fiber
@@ -10040,6 +10284,7 @@ relationship: RO:0002215 GO:0016477
 [Term]
 id: CL:0008021
 name: anterior lateral line ganglion neuron
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:2001391
 
@@ -10047,6 +10292,7 @@ intersection_of: RO:0002100 UBERON:2001391
 id: CL:0008022
 name: endocardial cushion cell
 def: "A mesenchymal cell of the endocardial cushion.   These cells develop via an epithelial to mesenchymal transition when endocardial cells break cell-to-cell contacts and migrate into the cardiac jelly. Cells from this population form the heart septa and valves." []
+is_a: CL:0000569 ! cardiac mesenchymal cell
 intersection_of: CL:0000569 ! cardiac mesenchymal cell
 intersection_of: BFO:0000050 UBERON:0002062
 
@@ -10062,6 +10308,7 @@ intersection_of: BFO:0000050 UBERON:0001264
 id: CL:0008025
 name: noradrenergic neuron
 def: "A neuron that release noradrenaline (noriphinephrine) as a neurotransmitter." []
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002215 GO:0061533
 
@@ -10069,22 +10316,26 @@ intersection_of: RO:0002215 GO:0061533
 id: CL:0008026
 name: open tracheal system tracheocyte
 def: "An epithelial cell that is part of the epithelium of a tracheal tube in an open tracheal system, such as that found in insects." []
+is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0003127
 
 [Term]
 id: CL:0008028
 name: visual system neuron
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002216 GO:0007601
 
 [Term]
 id: CL:0008029
 name: inhibitory neuron
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:0008030
 name: excitatory neuron
+is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:0008033
@@ -10113,7 +10364,7 @@ relationship: RO:0002120 CL:0008046 ! extrafusal muscle fiber
 id: CL:0008039
 name: lower motor neuron
 def: "The motor neurons of vertebrates that directly innervate skeletal muscles. They receive input from upper motor neurons." []
-is_a: CL:0000100 ! motor neuron
+is_a: CL:0005024 ! somatomotor neuron
 relationship: RO:0002120 CL:0008002 ! skeletal muscle fiber
 relationship: RO:0002162 NCBITaxon:7742
 
@@ -10144,6 +10395,8 @@ id: CL:0009006
 name: enteroendocrine cell of small intestine
 def: "An enteroendocrine cell that is located in the small intestine." []
 synonym: "small intestine enteroendocrine cell" EXACT []
+is_a: CL:0000164 ! enteroendocrine cell
+is_a: CL:1001598 ! small intestine glandular cell
 intersection_of: CL:0000164 ! enteroendocrine cell
 intersection_of: BFO:0000050 UBERON:0002108
 
@@ -10153,6 +10406,7 @@ name: Peyer's patch lymphocyte
 def: "A lymphocyte that is part of a Peyer's patch. These cells have a major role in driving the immune response to antigens sampled from the intestinal lumen, and in regulating the formation of follicle-associated epithelium and M cells in Peyer's patches by converting intestitial enterocytes into M cells." []
 synonym: "Peyer's patch resident lymphocyte" EXACT []
 synonym: "small intestine Peyer's patch lymphocyte" NARROW []
+is_a: CL:0000542 ! lymphocyte
 intersection_of: CL:0000542 ! lymphocyte
 intersection_of: BFO:0000050 UBERON:0001211
 
@@ -10160,6 +10414,7 @@ intersection_of: BFO:0000050 UBERON:0001211
 id: CL:0009015
 name: Peyer's patch follicular dendritic cell
 def: "A follicular dendritic cell located in the Peyer's patch. These cells from a meshwork in which Peyer's patch B cells reside." []
+is_a: CL:0000442 ! follicular dendritic cell
 intersection_of: CL:0000442 ! follicular dendritic cell
 intersection_of: BFO:0000050 UBERON:0001211
 
@@ -10167,6 +10422,7 @@ intersection_of: BFO:0000050 UBERON:0001211
 id: CL:0009024
 name: mesothelial cell of small intestine
 def: "A mesothelial cell that is part of the small intestine." []
+is_a: CL:0000077 ! mesothelial cell
 intersection_of: CL:0000077 ! mesothelial cell
 intersection_of: BFO:0000050 UBERON:0002108
 
@@ -10175,6 +10431,8 @@ id: CL:0009025
 name: mesothelial cell of colon
 def: "A mesothelial cell that is part of the colon." []
 synonym: "mesothelial cell of large intestine" BROAD []
+is_a: CL:0000077 ! mesothelial cell
+is_a: CL:0011108 ! colon epithelial cell
 intersection_of: CL:0000077 ! mesothelial cell
 intersection_of: BFO:0000050 UBERON:0001155
 
@@ -10183,6 +10441,7 @@ id: CL:0009038
 name: colon macrophage
 def: "A macrophage that is located in the colon." []
 synonym: "macrophage of colon" EXACT []
+is_a: CL:0000235 ! macrophage
 intersection_of: CL:0000235 ! macrophage
 intersection_of: BFO:0000050 UBERON:0001155
 
@@ -10191,6 +10450,8 @@ id: CL:0009039
 name: colon goblet cell
 def: "A goblet cell that is located in the colon." []
 synonym: "goblet cell of colon" EXACT []
+is_a: CL:0000160 ! goblet cell
+is_a: CL:1001588 ! colon glandular cell
 intersection_of: CL:0000160 ! goblet cell
 intersection_of: BFO:0000050 UBERON:0001155
 
@@ -10199,6 +10460,8 @@ id: CL:0009042
 name: enteroendocrine cell of colon
 def: "An enteroendocrine cell that is located in the colon." []
 synonym: "colon enteroendocrine cell" EXACT []
+is_a: CL:0000164 ! enteroendocrine cell
+is_a: CL:1001588 ! colon glandular cell
 intersection_of: CL:0000164 ! enteroendocrine cell
 intersection_of: BFO:0000050 UBERON:0001155
 
@@ -10207,6 +10470,7 @@ id: CL:0009084
 name: epithelial cell of endometrial gland
 def: "An epithelial cell that is part of an endometrial gland." []
 synonym: "endometrial glandular epithelial cell" EXACT []
+is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0002451
 
@@ -10216,6 +10480,7 @@ name: lung pericyte
 def: "A pericyte cell that is part of a lung." []
 synonym: "lung pericyte cell" EXACT []
 synonym: "pulmonary pericyte" EXACT []
+is_a: CL:0000669 ! pericyte cell
 intersection_of: CL:0000669 ! pericyte cell
 intersection_of: BFO:0000050 UBERON:0002048
 
@@ -10224,6 +10489,8 @@ id: CL:0009092
 name: endothelial cell of placenta
 def: "An endothelial cell that is part of a placenta." []
 synonym: "placental endothelial cell" EXACT []
+is_a: CL:0000115 ! endothelial cell
+is_a: CL:0002577 ! placental epithelial cell
 intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0001987
 
@@ -10232,6 +10499,7 @@ id: CL:0009093
 name: smooth muscle cell of placenta
 def: "A smooth muscle cell that is part of a placenta." []
 synonym: "placental smooth muscle cell" EXACT []
+is_a: CL:0000192 ! smooth muscle cell
 intersection_of: CL:0000192 ! smooth muscle cell
 intersection_of: BFO:0000050 UBERON:0001987
 
@@ -10240,6 +10508,7 @@ id: CL:0009095
 name: endothelial cell of uterus
 def: "An endothelial cell that is part of a uterus." []
 synonym: "uterine endothelial cell" EXACT []
+is_a: CL:0000115 ! endothelial cell
 intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0000995
 
@@ -10248,6 +10517,7 @@ id: CL:0010001
 name: stromal cell of bone marrow
 def: "A stromal cell that is part_of a bone marrow." []
 synonym: "bone marrow stromal cell" EXACT []
+is_a: CL:0000499 ! stromal cell
 intersection_of: CL:0000499 ! stromal cell
 intersection_of: BFO:0000050 UBERON:0002371
 
@@ -10256,6 +10526,7 @@ id: CL:0010003
 name: epithelial cell of alveolus of lung
 def: "An epithelial cell that is part_of a alveolus of lung." []
 synonym: "alveolus of lung epithelial cell" EXACT []
+is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0002299
 
@@ -10264,6 +10535,8 @@ id: CL:0010004
 name: mononuclear cell of bone marrow
 def: "A mononuclear cell that is part_of a bone marrow." []
 synonym: "bone marrow mononuclear cell" EXACT []
+is_a: CL:0000842 ! mononuclear cell
+is_a: CL:1001610 ! bone marrow hematopoietic cell
 intersection_of: CL:0000842 ! mononuclear cell
 intersection_of: BFO:0000050 UBERON:0002371
 
@@ -10272,24 +10545,29 @@ id: CL:0010005
 name: atrioventricular bundle cell
 def: "A specialized cardiomyocyte that transmit signals from the AV node to the cardiac Purkinje fibers." []
 synonym: "AV bundle cell" EXACT []
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000050 UBERON:0002353
 
 [Term]
 id: CL:0010006
 name: cardiac blood vessel endothelial cell
+is_a: CL:0000071 ! blood vessel endothelial cell
+is_a: CL:0010008 ! cardiac endothelial cell
 intersection_of: CL:0000071 ! blood vessel endothelial cell
 intersection_of: BFO:0000050 UBERON:0000948
 
 [Term]
 id: CL:0010007
 name: His-Purkinje system cell
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000050 UBERON:0004146
 
 [Term]
 id: CL:0010008
 name: cardiac endothelial cell
+is_a: CL:0000115 ! endothelial cell
 intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0000948
 
@@ -10297,12 +10575,15 @@ intersection_of: BFO:0000050 UBERON:0000948
 id: CL:0010009
 name: camera-type eye photoreceptor cell
 synonym: "camera type eye photoreceptor cell" EXACT []
+is_a: CL:0000210 ! photoreceptor cell
 intersection_of: CL:0000210 ! photoreceptor cell
 intersection_of: BFO:0000050 UBERON:0000019
 
 [Term]
 id: CL:0010010
 name: cerebellar stellate cell
+is_a: CL:0000122 ! stellate neuron
+is_a: CL:1001611 ! cerebellar neuron
 intersection_of: CL:0000122 ! stellate neuron
 intersection_of: RO:0002100 UBERON:0002037
 
@@ -10310,6 +10591,8 @@ intersection_of: RO:0002100 UBERON:0002037
 id: CL:0010011
 name: cerebral cortex GABAergic interneuron
 def: "A GABAergic interneuron whose soma is located in the cerebral cortex." []
+is_a: CL:0010012 ! cerebral cortex neuron
+is_a: CL:0011005 ! GABAergic interneuron
 intersection_of: CL:0011005 ! GABAergic interneuron
 intersection_of: RO:0002100 UBERON:0000956
 
@@ -10319,6 +10602,7 @@ name: cerebral cortex neuron
 def: "A CNS neuron of the cerebral cortex." []
 synonym: "cortical neuron" EXACT []
 synonym: "neuron of cerebral cortex" EXACT []
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0000956
 
@@ -10331,18 +10615,21 @@ is_a: CL:0000003 ! native cell
 [Term]
 id: CL:0010020
 name: cardiac glial cell
+is_a: CL:0000125 ! glial cell
 intersection_of: CL:0000125 ! glial cell
 intersection_of: BFO:0000050 UBERON:0000948
 
 [Term]
 id: CL:0010021
 name: cardiac myoblast
+is_a: CL:0000056 ! myoblast
 intersection_of: CL:0000056 ! myoblast
 intersection_of: RO:0002203 CL:0000746 ! cardiac muscle cell
 
 [Term]
 id: CL:0010022
 name: cardiac neuron
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: BFO:0000050 UBERON:0000948
 
@@ -10351,6 +10638,7 @@ id: CL:0011000
 name: dorsal horn interneuron
 def: "A CNS interneuron located in the dorsal horn of the spinal cord." []
 synonym: "dorsal spinal cord interneuron" RELATED []
+is_a: CL:0002611 ! neuron of the dorsal spinal cord
 is_a: CL:0005000 ! spinal cord interneuron
 intersection_of: CL:0000099 ! interneuron
 intersection_of: RO:0002100 UBERON:0002256
@@ -10382,6 +10670,7 @@ name: GABAergic interneuron
 def: "An interneuron that uses GABA as a vesicular neurotransmitter.  These interneurons are inhibitory" []
 synonym: "GABAergic inhibitory interneuron" EXACT []
 is_a: CL:0000498 ! inhibitory interneuron
+is_a: CL:0000617 ! GABAergic neuron
 intersection_of: CL:0000099 ! interneuron
 intersection_of: RO:0002215 GO:0061534
 
@@ -10466,6 +10755,7 @@ name: skeletal muscle fibroblast
 def: "Any fibroblast that is part of skeletal muscle tissue." []
 synonym: "skeleton muscle fibroblast" EXACT []
 is_a: CL:0000057 ! fibroblast
+is_a: CL:0000188 ! cell of skeletal muscle
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0001134
 
@@ -10488,6 +10778,7 @@ id: CL:0011108
 name: colon epithelial cell
 def: "Epithelial cell that is part of the colon epithelium." []
 synonym: "colonic epithelial cell" EXACT []
+is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0001155
 relationship: BFO:0000050 UBERON:0000397
@@ -10556,6 +10847,7 @@ intersection_of: BFO:0000050 UBERON:0001890
 id: CL:0017500
 name: neutrophillic cytoplasm
 def: "Cytoplasm that exhibits a characteristic staining and color, pale-pink, with Wright-Giemsa stain." []
+is_a: GO:0005737
 intersection_of: GO:0005737
 intersection_of: RO:0000053 PATO:0070046
 
@@ -10564,6 +10856,7 @@ id: CL:0017502
 name: acidophilic cytoplasm
 def: "Cytoplasm that exhibits a characteristic staining and color, red or pink, with Eosin stain." []
 synonym: "eosinophilic" NARROW []
+is_a: GO:0005737
 intersection_of: GO:0005737
 intersection_of: RO:0000053 PATO:0002418
 
@@ -10579,6 +10872,7 @@ intersection_of: RO:0000053 PATO:0002094
 id: CL:0017504
 name: polychromatophilic cytoplasm
 def: "Cytoplasm that exhibits affinity for both basic and acid stains under specific pH conditions." []
+is_a: GO:0005737
 intersection_of: GO:0005737
 intersection_of: RO:0000053 PATO:0070047
 
@@ -10622,6 +10916,7 @@ id: CL:0019002
 name: tracheobronchial chondrocyte
 def: "Any chondrocyte that is part of the tracheobronchial tree." []
 synonym: "chondrocyte of tracheobronchial tree" EXACT []
+is_a: CL:0000138 ! chondrocyte
 intersection_of: CL:0000138 ! chondrocyte
 intersection_of: BFO:0000050 UBERON:0007196
 
@@ -10630,6 +10925,8 @@ id: CL:0019003
 name: tracheobronchial goblet cell
 def: "Any goblet cell that is part of the tracheobronchial epithelium." []
 synonym: "goblet cell of tracheobronchial tree" EXACT []
+is_a: CL:0002202 ! epithelial cell of tracheobronchial tree
+is_a: CL:0002370 ! respiratory goblet cell
 intersection_of: CL:0000160 ! goblet cell
 intersection_of: BFO:0000050 UBERON:0007196
 
@@ -10638,6 +10935,7 @@ id: CL:0019017
 name: lymphatic vessel smooth muscle cell
 def: "A smooth muscle cell that is part of any lymphatic vessel." []
 synonym: "smooth muscle cell of lymphatic vessel" EXACT []
+is_a: CL:0000192 ! smooth muscle cell
 intersection_of: CL:0000192 ! smooth muscle cell
 intersection_of: BFO:0000050 UBERON:0001473
 
@@ -10646,6 +10944,7 @@ id: CL:0019018
 name: blood vessel smooth muscle cell
 def: "A smooth muscle cell that is part of any blood vessel." []
 synonym: "smooth muscle cell of blood vessel" EXACT []
+is_a: CL:0000192 ! smooth muscle cell
 intersection_of: CL:0000192 ! smooth muscle cell
 intersection_of: BFO:0000050 UBERON:0001981
 
@@ -10654,6 +10953,7 @@ id: CL:0019019
 name: tracheobronchial smooth muscle cell
 def: "A smooth muscle cell that is part of the tracheobronchial tree." []
 synonym: "smooth muscle cell of tracheobronchial tree" EXACT []
+is_a: CL:0000192 ! smooth muscle cell
 intersection_of: CL:0000192 ! smooth muscle cell
 intersection_of: BFO:0000050 UBERON:0007196
 
@@ -10662,60 +10962,72 @@ id: CL:0019031
 name: intestine goblet cell
 def: "Goblet cells reside throughout the length of the small and large intestine and are responsible for the production and maintenance of the protective mucus blanket by synthesizing and secreting high-molecular-weight glycoproteins known as mucins. Human intestinal goblet cells secrete the MUC2 mucin, as well as a number of typical mucus components: CLCA1, FCGBP, AGR2, ZG16, and TFF3." []
 synonym: "intestinal goblet cell" EXACT []
+is_a: CL:0000160 ! goblet cell
 intersection_of: CL:0000160 ! goblet cell
 intersection_of: BFO:0000050 UBERON:0001277
 
 [Term]
 id: CL:1000001
 name: retrotrapezoid nucleus neuron
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0009918
 
 [Term]
 id: CL:1000022
 name: mesonephric nephron tubule epithelial cell
+is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0005329
 
 [Term]
 id: CL:1000042
 name: forebrain neuroblast
+is_a: CL:0000031 ! neuroblast (sensu Vertebrata)
 intersection_of: CL:0000031 ! neuroblast (sensu Vertebrata)
 intersection_of: BFO:0000050 UBERON:0001890
 
 [Term]
 id: CL:1000050
 name: lateral line nerve glial cell
+is_a: CL:0000125 ! glial cell
 intersection_of: CL:0000125 ! glial cell
 intersection_of: BFO:0000050 UBERON:0008906
 
 [Term]
 id: CL:1000073
 name: spinal cord radial glial cell
+is_a: CL:0000681 ! radial glial cell
 intersection_of: CL:0000681 ! radial glial cell
 intersection_of: BFO:0000050 UBERON:0002240
 
 [Term]
 id: CL:1000090
 name: pronephric nephron tubule epithelial cell
+is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0005310
 
 [Term]
 id: CL:1000123
 name: metanephric nephron tubule epithelial cell
+is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0005146
 
 [Term]
 id: CL:1000143
 name: lung goblet cell
+is_a: CL:0000082 ! epithelial cell of lung
+is_a: CL:0000160 ! goblet cell
+is_a: CL:1000272 ! lung secretory cell
 intersection_of: CL:0000160 ! goblet cell
 intersection_of: BFO:0000050 UBERON:0002048
 
 [Term]
 id: CL:1000147
 name: heart valve cell
+is_a: CL:0000663 ! valve cell
 intersection_of: CL:0000663 ! valve cell
 intersection_of: BFO:0000050 UBERON:0000948
 
@@ -10730,54 +11042,66 @@ relationship: BFO:0000050 UBERON:0001054
 [Term]
 id: CL:1000182
 name: malpighian tubule tip cell
+is_a: CL:0000423 ! tip cell
 intersection_of: CL:0000423 ! tip cell
 intersection_of: BFO:0000050 UBERON:0001054
 
 [Term]
 id: CL:1000217
 name: growth plate cartilage chondrocyte
+is_a: CL:0000138 ! chondrocyte
 intersection_of: CL:0000138 ! chondrocyte
 intersection_of: BFO:0000050 UBERON:0004129
 
 [Term]
 id: CL:1000222
 name: stomach neuroendocrine cell
+is_a: CL:0000165 ! neuroendocrine cell
+is_a: CL:0002178 ! epithelial cell of stomach
 intersection_of: CL:0000165 ! neuroendocrine cell
 intersection_of: BFO:0000050 UBERON:0000945
 
 [Term]
 id: CL:1000223
 name: lung neuroendocrine cell
+is_a: CL:0000082 ! epithelial cell of lung
+is_a: CL:0000165 ! neuroendocrine cell
+is_a: CL:1000272 ! lung secretory cell
 intersection_of: CL:0000165 ! neuroendocrine cell
 intersection_of: BFO:0000050 UBERON:0002048
 
 [Term]
 id: CL:1000236
 name: posterior lateral line nerve glial cell
+is_a: CL:0000125 ! glial cell
 intersection_of: CL:0000125 ! glial cell
 intersection_of: BFO:0000050 UBERON:2000175
 
 [Term]
 id: CL:1000239
 name: anterior lateral line nerve glial cell
+is_a: CL:0000125 ! glial cell
 intersection_of: CL:0000125 ! glial cell
 intersection_of: BFO:0000050 UBERON:2000425
 
 [Term]
 id: CL:1000245
 name: posterior lateral line ganglion neuron
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:2001314
 
 [Term]
 id: CL:1000271
 name: lung ciliated cell
+is_a: CL:0000064 ! ciliated cell
 intersection_of: CL:0000064 ! ciliated cell
 intersection_of: BFO:0000050 UBERON:0002048
 
 [Term]
 id: CL:1000272
 name: lung secretory cell
+is_a: CL:0000151 ! secretory cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: BFO:0000050 UBERON:0002048
 
@@ -10830,6 +11154,7 @@ name: epithelial cell of urethra
 def: "An epithelial cell that is part of the urethra." []
 is_a: CL:0000066 ! epithelial cell
 is_a: CL:0002371 ! somatic cell
+is_a: CL:1001320 ! urethra cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0000057
 
@@ -10838,6 +11163,8 @@ id: CL:1000312
 name: bronchial goblet cell
 def: "A goblet cell that is part of the epithelium of bronchus." []
 synonym: "goblet cell of epithelium of bronchus" EXACT []
+is_a: CL:0000160 ! goblet cell
+is_a: CL:0002328 ! bronchial epithelial cell
 intersection_of: CL:0000160 ! goblet cell
 intersection_of: BFO:0000050 UBERON:0002185
 relationship: BFO:0000050 UBERON:0002031
@@ -10847,6 +11174,8 @@ id: CL:1000313
 name: gastric goblet cell
 def: "A goblet cell that is part of the epithelium of stomach." []
 synonym: "goblet cell of epithelium of stomach" EXACT []
+is_a: CL:0000160 ! goblet cell
+is_a: CL:0002659 ! glandular cell of stomach
 intersection_of: CL:0000160 ! goblet cell
 intersection_of: BFO:0000050 UBERON:0000945
 relationship: BFO:0000050 UBERON:0001276
@@ -10856,6 +11185,8 @@ id: CL:1000320
 name: large intestine goblet cell
 def: "A goblet cell that is part of the epithelium of large intestine." []
 synonym: "goblet cell of epithelium of large intestine" EXACT []
+is_a: CL:0000160 ! goblet cell
+is_a: CL:0002658 ! glandular cell of the large intestine
 intersection_of: CL:0000160 ! goblet cell
 intersection_of: BFO:0000050 UBERON:0000059
 relationship: BFO:0000050 UBERON:0001278
@@ -10866,6 +11197,8 @@ name: pancreatic goblet cell
 def: "A goblet cell that is part of the epithelium of pancreatic duct." []
 synonym: "goblet cell of epithelium of pancreatic duct" EXACT []
 is_a: CL:0000069 ! branched duct epithelial cell
+is_a: CL:0000083 ! epithelial cell of pancreas
+is_a: CL:0000160 ! goblet cell
 intersection_of: CL:0000160 ! goblet cell
 intersection_of: BFO:0000050 UBERON:0001264
 relationship: BFO:0000050 UBERON:0009970
@@ -10893,6 +11226,7 @@ name: basal cell of epithelium of bronchus
 def: "A basal cell found in the bronchus epithelium." []
 synonym: "basal cell of bronchus" EXACT []
 is_a: CL:0002329 ! basal epithelial cell of tracheobronchial tree
+is_a: CL:0002633 ! respiratory basal cell
 intersection_of: CL:0002633 ! respiratory basal cell
 intersection_of: BFO:0000050 UBERON:0002031
 
@@ -11021,8 +11355,6 @@ name: epithelial cell of glomerular capsule
 def: "An epithelial cell that is part of the glomerular capsule." []
 synonym: "Bowmans capsule epithelial cell" EXACT []
 synonym: "epithelial cell of Bowman's capsule" EXACT []
-is_a: CL:0000066 ! epithelial cell
-is_a: CL:0002371 ! somatic cell
 is_a: CL:1000510 ! kidney glomerular epithelial cell
 is_a: CL:1000612 ! kidney corpuscule cell
 intersection_of: CL:0000066 ! epithelial cell
@@ -11033,7 +11365,6 @@ id: CL:1000456
 name: mesothelial cell of parietal peritoneum
 def: "A mesothelial cell that is part of the parietal peritoneum." []
 is_a: CL:0000077 ! mesothelial cell
-is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000077 ! mesothelial cell
 intersection_of: BFO:0000050 UBERON:0001366
 
@@ -11042,7 +11373,6 @@ id: CL:1000457
 name: mesothelial cell of visceral peritoneum
 def: "A mesothelial cell that is part of the visceral peritoneum." []
 is_a: CL:0000077 ! mesothelial cell
-is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000077 ! mesothelial cell
 intersection_of: BFO:0000050 UBERON:0001178
 
@@ -11060,6 +11390,7 @@ id: CL:1000465
 name: chromaffin cell of ovary
 def: "A chromaffin cell that is part of the ovary." []
 is_a: CL:0000166 ! chromaffin cell
+is_a: CL:2000064 ! ovarian surface epithelial cell
 intersection_of: CL:0000166 ! chromaffin cell
 intersection_of: BFO:0000050 UBERON:0000992
 
@@ -11068,6 +11399,7 @@ id: CL:1000479
 name: Purkinje myocyte of atrioventricular node
 def: "A Purkinje myocyte that is part of the atrioventricular node." []
 is_a: CL:0002068 ! Purkinje myocyte
+is_a: CL:1000410 ! myocyte of atrioventricular node
 intersection_of: CL:0002068 ! Purkinje myocyte
 intersection_of: BFO:0000050 UBERON:0002352
 
@@ -11076,6 +11408,7 @@ id: CL:1000484
 name: Purkinje myocyte of atrioventricular bundle
 def: "A Purkinje myocyte that is part of the atrioventricular bundle." []
 is_a: CL:0002068 ! Purkinje myocyte
+is_a: CL:0010005 ! atrioventricular bundle cell
 intersection_of: CL:0002068 ! Purkinje myocyte
 intersection_of: BFO:0000050 UBERON:0002353
 
@@ -11113,7 +11446,6 @@ name: mesothelial cell of peritoneum
 def: "A mesothelial cell that is part of the peritoneum." []
 synonym: "peritoneal mesothelial cell" EXACT []
 is_a: CL:0000077 ! mesothelial cell
-is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000077 ! mesothelial cell
 intersection_of: BFO:0000050 UBERON:0002358
 
@@ -11122,6 +11454,7 @@ id: CL:1000494
 name: nephron tubule epithelial cell
 def: "An epithelial cell that is part of a nephron tubule." []
 synonym: "kidney tubule epithelial cell" EXACT []
+is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0004810
 
@@ -11132,6 +11465,8 @@ def: "A goblet cell that is part of the small intestine." []
 synonym: "goblet cell of epithelium of small intestine" EXACT []
 synonym: "goblet cell of small intestine" EXACT []
 synonym: "small intestinal goblet cell" EXACT []
+is_a: CL:0000160 ! goblet cell
+is_a: CL:1001598 ! small intestine glandular cell
 intersection_of: CL:0000160 ! goblet cell
 intersection_of: BFO:0000050 UBERON:0002108
 relationship: BFO:0000050 UBERON:0001902
@@ -11212,6 +11547,7 @@ relationship: BFO:0000050 UBERON:0000056
 [Term]
 id: CL:1000606
 name: kidney nerve cell
+is_a: CL:0000540 ! neuron
 is_a: CL:1000500 ! kidney interstitial cell
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0002113
@@ -11280,6 +11616,7 @@ def: "Intraglomerular mesangial cells are specialized pericytes located among th
 synonym: "intraglomerular mesangial cell" EXACT []
 is_a: CL:0000650 ! mesangial cell
 is_a: CL:1000612 ! kidney corpuscule cell
+is_a: CL:1001318 ! renal interstitial pericyte
 intersection_of: CL:1000612 ! kidney corpuscule cell
 intersection_of: BFO:0000050 UBERON:0002320
 relationship: BFO:0000050 UBERON:0002320
@@ -11287,7 +11624,6 @@ relationship: BFO:0000050 UBERON:0002320
 [Term]
 id: CL:1000746
 name: glomerular cell
-is_a: CL:0002584 ! renal cortical epithelial cell
 is_a: CL:1000612 ! kidney corpuscule cell
 intersection_of: CL:1000612 ! kidney corpuscule cell
 intersection_of: BFO:0000050 UBERON:0000074
@@ -11333,7 +11669,6 @@ relationship: BFO:0000050 UBERON:0001292
 id: CL:1000850
 name: macula densa epithelial cell
 is_a: CL:0002305 ! epithelial cell of distal tubule
-is_a: CL:0002584 ! renal cortical epithelial cell
 is_a: CL:1000618 ! juxtaglomerular complex cell
 intersection_of: CL:0002305 ! epithelial cell of distal tubule
 intersection_of: BFO:0000050 UBERON:0002335
@@ -11367,6 +11702,7 @@ intersection_of: BFO:0000050 UBERON:0001232
 id: CL:1001318
 name: renal interstitial pericyte
 is_a: CL:0000669 ! pericyte cell
+is_a: CL:1000497 ! kidney cell
 intersection_of: CL:0000669 ! pericyte cell
 intersection_of: BFO:0000050 UBERON:0002113
 
@@ -11391,6 +11727,7 @@ id: CL:1001433
 name: epithelial cell of exocrine pancreas
 def: "An epithelial cell of the exocrine pancreas." []
 synonym: "exocrine pancreas cell" EXACT []
+is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0000017
 
@@ -11398,6 +11735,7 @@ intersection_of: BFO:0000050 UBERON:0000017
 id: CL:1001434
 name: olfactory bulb interneuron
 def: "A neuron residing in the olfactory bulb that serve to process and refine signals arising from olfactory sensory neurons" []
+is_a: CL:0000099 ! interneuron
 is_a: CL:0000101 ! sensory neuron
 intersection_of: CL:0000099 ! interneuron
 intersection_of: RO:0002100 UBERON:0002264
@@ -11442,6 +11780,8 @@ id: CL:1001567
 name: lung endothelial cell
 synonym: "endothelial cell of lung" RELATED []
 synonym: "pulmonary vessel endothelial cell" RELATED []
+is_a: CL:0000082 ! epithelial cell of lung
+is_a: CL:0002139 ! endothelial cell of vascular tree
 intersection_of: CL:0002139 ! endothelial cell of vascular tree
 intersection_of: BFO:0000050 UBERON:0002048
 relationship: BFO:0000050 UBERON:0000102
@@ -11450,6 +11790,7 @@ relationship: BFO:0000050 UBERON:0000102
 id: CL:1001568
 name: pulmonary artery endothelial cell
 synonym: "PAEC cell" RELATED []
+is_a: CL:0002139 ! endothelial cell of vascular tree
 intersection_of: CL:0002139 ! endothelial cell of vascular tree
 intersection_of: BFO:0000050 UBERON:0002012
 relationship: BFO:0000050 UBERON:0005317
@@ -11458,6 +11799,7 @@ relationship: BFO:0000050 UBERON:0005317
 id: CL:1001569
 name: hippocampal interneuron
 def: "An interneuron of the hippocampus." []
+is_a: CL:0000099 ! interneuron
 intersection_of: CL:0000099 ! interneuron
 intersection_of: BFO:0000050 UBERON:0001954
 
@@ -11467,6 +11809,7 @@ name: hippocampal pyramidal neuron
 def: "A pyramidal neuron of the hippocampus." []
 synonym: "hippocampus (CA) pyramidal cell" EXACT []
 synonym: "hippocampus (CA) pyramidal neuron" EXACT []
+is_a: CL:0000598 ! pyramidal neuron
 intersection_of: CL:0000598 ! pyramidal neuron
 intersection_of: BFO:0000050 UBERON:0001954
 relationship: BFO:0000050 UBERON:0002313
@@ -11477,6 +11820,8 @@ name: colon endothelial cell
 def: "A vascular endothelial cell found in colon blood vessels." []
 synonym: "colon endothelial cells" RELATED []
 synonym: "colonic endothelial cell" RELATED []
+is_a: CL:0000115 ! endothelial cell
+is_a: CL:0011108 ! colon epithelial cell
 intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0001155
 relationship: BFO:0000050 UBERON:0013695
@@ -11490,6 +11835,8 @@ synonym: "cervix squamous epithelial cell" RELATED []
 synonym: "cervix, uterine squamous epithelial cells" RELATED []
 synonym: "uterine cervix squamous epithelial cell" RELATED []
 synonym: "uterine cervix squamous epithelial cells" RELATED []
+is_a: CL:0000076 ! squamous epithelial cell
+is_a: CL:0002535 ! epithelial cell of cervix
 intersection_of: CL:0000076 ! squamous epithelial cell
 intersection_of: BFO:0000050 UBERON:0000002
 relationship: BFO:0000050 UBERON:0004801
@@ -11502,6 +11849,7 @@ synonym: "vagina squamous epithelial cell" RELATED []
 synonym: "vagina squamous epithelial cells" RELATED []
 synonym: "vaginal squamous cell" RELATED []
 synonym: "vaginal squamous epithelial cell" RELATED []
+is_a: CL:0000076 ! squamous epithelial cell
 intersection_of: CL:0000076 ! squamous epithelial cell
 intersection_of: BFO:0000050 UBERON:0000996
 relationship: BFO:0000050 UBERON:0001344
@@ -11513,6 +11861,7 @@ def: "Glial cell of cerebral cortex." []
 synonym: "brain cortex glial cell" RELATED []
 synonym: "cerebral cortex glial cells" RELATED []
 synonym: "cerebrum cortex glial cell" RELATED []
+is_a: CL:0000125 ! glial cell
 intersection_of: CL:0000125 ! glial cell
 intersection_of: BFO:0000050 UBERON:0000956
 
@@ -11523,6 +11872,7 @@ def: "Glial cell of hippocampus." []
 synonym: "hippocampal glial cell" RELATED []
 synonym: "hippocampus glial cells" RELATED []
 synonym: "hippocampus neuroglial cell" RELATED []
+is_a: CL:0000125 ! glial cell
 intersection_of: CL:0000125 ! glial cell
 intersection_of: BFO:0000050 UBERON:0001954
 
@@ -11531,6 +11881,7 @@ id: CL:1001581
 name: lateral ventricle glial cell
 def: "Glial cell of lateral ventricle." []
 synonym: "lateral ventricle glial cells" RELATED []
+is_a: CL:0000125 ! glial cell
 intersection_of: CL:0000125 ! glial cell
 intersection_of: BFO:0000050 UBERON:0002285
 
@@ -11541,6 +11892,7 @@ def: "Neuron of lateral ventricle." []
 synonym: "lateral ventricle neural cell" RELATED []
 synonym: "lateral ventricle neuronal cell" RELATED []
 synonym: "lateral ventricle neuronal cells" RELATED []
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0002285
 
@@ -11551,6 +11903,8 @@ def: "Glandular cell of mammary epithelium. Example: glandular cells of large an
 synonym: "breast glandular cell" RELATED []
 synonym: "breast glandular cells" RELATED []
 synonym: "mammary glandular cell" RELATED []
+is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0002327 ! mammary gland epithelial cell
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0001911
 relationship: BFO:0000050 UBERON:0003244
@@ -11562,6 +11916,8 @@ def: "Glandular cell of uterine cervix epithelium." []
 synonym: "cervix glandular cell" RELATED []
 synonym: "cervix, uterine glandular cell" RELATED []
 synonym: "cervix, uterine glandular cells" RELATED []
+is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0002535 ! epithelial cell of cervix
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0000002
 relationship: BFO:0000050 UBERON:0004801
@@ -11571,6 +11927,8 @@ id: CL:1001588
 name: colon glandular cell
 def: "Glandular cell of colon epithelium. Example: Goblet cells; enterocytes or absorptive cells; enteroendocrine and M cells." []
 synonym: "colon glandular cells" RELATED []
+is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:0011108 ! colon epithelial cell
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0001155
 relationship: BFO:0000050 UBERON:0000397
@@ -11581,6 +11939,7 @@ name: epididymis glandular cell
 def: "Glandular cell of epididymal epithelium." []
 synonym: "epididymal glandular cell" RELATED []
 synonym: "epididymis glandular cells" RELATED []
+is_a: CL:0000150 ! glandular epithelial cell
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0001301
 relationship: BFO:0000050 UBERON:0004544
@@ -11592,6 +11951,7 @@ def: "Glandular cell of oviduct epithelium. Example: peg cells, ciliated cells."
 synonym: "fallopian tube glandular cell" RELATED []
 synonym: "fallopian tube glandular cells" RELATED []
 synonym: "uterine tube glandular cell" RELATED []
+is_a: CL:0000150 ! glandular epithelial cell
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0000993
 relationship: BFO:0000050 UBERON:0004804
@@ -11603,6 +11963,8 @@ def: "Glandular cell of gall bladder epithelium." []
 synonym: "gall bladder glandular cells" RELATED []
 synonym: "gallbladder glandular cell" RELATED []
 synonym: "gallbladder glandular cells" RELATED []
+is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:1000415 ! epithelial cell of gall bladder
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0002110
 relationship: BFO:0000050 UBERON:0002029
@@ -11613,6 +11975,7 @@ name: parathyroid glandular cell
 def: "Glandular cell of parathyroid epithelium. Example: Parathyroid chief cell and parathyroid oxyphil cells." []
 synonym: "parathyroid gland glandular cell" RELATED []
 synonym: "parathyroid gland glandular cells" RELATED []
+is_a: CL:0000150 ! glandular epithelial cell
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0001132
 relationship: BFO:0000050 UBERON:0011197
@@ -11622,6 +11985,7 @@ id: CL:1001596
 name: salivary gland glandular cell
 def: "Glandular cell of salivary gland. Example: Serous cells, mucous cells, cuboidal epithelial cells of the intercalated ducts, simple cuboidal epithelium of the striated ducts, epithelial cells of excretory ducts." []
 synonym: "salivary gland glandular cells" RELATED []
+is_a: CL:0000150 ! glandular epithelial cell
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0001044
 relationship: BFO:0000050 UBERON:0004809
@@ -11631,6 +11995,7 @@ id: CL:1001597
 name: seminal vesicle glandular cell
 def: "Glandular cell of seminal vesicle epithelium." []
 synonym: "seminal vesicle glandular cells" RELATED []
+is_a: CL:0000150 ! glandular epithelial cell
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0000998
 relationship: BFO:0000050 UBERON:0004805
@@ -11642,6 +12007,7 @@ def: "A glandular cell found in the epithelium of the small intestine. Example: 
 synonym: "small bowel glandular cell" RELATED []
 synonym: "small intestinal glandular cell" RELATED []
 synonym: "small intestine glandular cells" RELATED []
+is_a: CL:0000150 ! glandular epithelial cell
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0002108
 relationship: BFO:0000050 UBERON:0001902
@@ -11652,6 +12018,8 @@ name: pancreas exocrine glandular cell
 def: "Glandular cell of exocrine pancreas epithelium. Example: pancreatic acinar cell, glandular cells in pancreatic canaliculi, glandular cells in pancreatic ducts." []
 synonym: "exocrine pancreas glandular cell" RELATED []
 synonym: "pancreas exocrine glandular cells" RELATED []
+is_a: CL:0000150 ! glandular epithelial cell
+is_a: CL:1001433 ! epithelial cell of exocrine pancreas
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0000017
 relationship: BFO:0000050 UBERON:0013697
@@ -11663,6 +12031,7 @@ def: "Hormone secreting cell located in the cortex of adrenal gland. Glandular c
 synonym: "adrenal gland glandular cells" RELATED []
 synonym: "adrenal glandular cell" RELATED []
 synonym: "suprarenal gland glandular cell" RELATED []
+is_a: CL:0000150 ! glandular epithelial cell
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0001235
 
@@ -11672,6 +12041,7 @@ name: cerebral cortex endothelial cell
 def: "Endothelial cells forming the walls of the capillaries within the cerebral cortex." []
 synonym: "cerebral cortex endothelial cells" RELATED []
 synonym: "endothelial cells of cerebral cortex" RELATED []
+is_a: CL:0000115 ! endothelial cell
 intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0000956
 relationship: BFO:0000050 UBERON:0013694
@@ -11681,6 +12051,7 @@ id: CL:1001603
 name: lung macrophage
 def: "Circulating macrophages and tissue macrophages (alveolar macrophages) of lung." []
 synonym: "lung macrophages" RELATED []
+is_a: CL:0000235 ! macrophage
 intersection_of: CL:0000235 ! macrophage
 intersection_of: BFO:0000050 UBERON:0002048
 
@@ -11688,6 +12059,7 @@ intersection_of: BFO:0000050 UBERON:0002048
 id: CL:1001609
 name: muscle fibroblast
 def: "Fibroblast from muscle organ." []
+is_a: CL:0000057 ! fibroblast
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0001630
 
@@ -11697,6 +12069,7 @@ name: bone marrow hematopoietic cell
 def: "Hematopoietic cells resident in the bone marrow. Include: hematopoietic stem cells (lymphoid stem cells and myeloid stem cells) and the precursor cells for thrombocytes, erythrocytes, basophils, neutrophils, eosinophils, monocytes and lymphocytes." []
 synonym: "bone marrow hematopoietic cells" RELATED []
 synonym: "bone marrow poietic cells" RELATED []
+is_a: CL:0000988 ! hematopoietic cell
 intersection_of: CL:0000988 ! hematopoietic cell
 intersection_of: BFO:0000050 UBERON:0002371
 relationship: BFO:0000050 UBERON:0012429
@@ -11706,6 +12079,7 @@ id: CL:1001611
 name: cerebellar neuron
 def: "Neuron of the cerebellum." []
 synonym: "cerebellum neuron" RELATED []
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0002037
 
@@ -11713,6 +12087,7 @@ intersection_of: RO:0002100 UBERON:0002037
 id: CL:2000000
 name: epidermal melanocyte
 def: "Any melanocyte that is part of a epidermis." []
+is_a: CL:0000148 ! melanocyte
 intersection_of: CL:0000148 ! melanocyte
 intersection_of: BFO:0000050 UBERON:0001003
 
@@ -11720,6 +12095,7 @@ intersection_of: BFO:0000050 UBERON:0001003
 id: CL:2000004
 name: pituitary gland cell
 def: "Any cell that is part of a pituitary gland." []
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000050 UBERON:0000007
 
@@ -11727,6 +12103,7 @@ intersection_of: BFO:0000050 UBERON:0000007
 id: CL:2000005
 name: brain macroglial cell
 def: "Any macroglial cell that is part of a brain." []
+is_a: CL:0000126 ! macroglial cell
 intersection_of: CL:0000126 ! macroglial cell
 intersection_of: BFO:0000050 UBERON:0000955
 
@@ -11734,6 +12111,7 @@ intersection_of: BFO:0000050 UBERON:0000955
 id: CL:2000018
 name: endothelial cell of coronary artery
 def: "Any endothelial cell of artery that is part of a coronary artery." []
+is_a: CL:1000413 ! endothelial cell of artery
 intersection_of: CL:1000413 ! endothelial cell of artery
 intersection_of: BFO:0000050 UBERON:0001621
 
@@ -11741,6 +12119,7 @@ intersection_of: BFO:0000050 UBERON:0001621
 id: CL:2000019
 name: compound eye photoreceptor cell
 def: "Any photoreceptor cell that is part of a compound eye." []
+is_a: CL:0000210 ! photoreceptor cell
 intersection_of: CL:0000210 ! photoreceptor cell
 intersection_of: BFO:0000050 UBERON:0000018
 
@@ -11748,6 +12127,7 @@ intersection_of: BFO:0000050 UBERON:0000018
 id: CL:2000020
 name: inner cell mass cell
 def: "Any native cell that is part of a inner cell mass." []
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000050 UBERON:0000087
 
@@ -11755,6 +12135,7 @@ intersection_of: BFO:0000050 UBERON:0000087
 id: CL:2000021
 name: sebaceous gland cell
 def: "Any native cell that is part of a sebaceous gland." []
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000050 UBERON:0001821
 
@@ -11762,6 +12143,7 @@ intersection_of: BFO:0000050 UBERON:0001821
 id: CL:2000022
 name: cardiac septum cell
 def: "Any native cell that is part of a cardiac septum." []
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000050 UBERON:0002099
 
@@ -11769,6 +12151,7 @@ intersection_of: BFO:0000050 UBERON:0002099
 id: CL:2000025
 name: spinal cord oligodendrocyte
 def: "Any oligodendrocyte that is part of a spinal cord." []
+is_a: CL:0000128 ! oligodendrocyte
 intersection_of: CL:0000128 ! oligodendrocyte
 intersection_of: BFO:0000050 UBERON:0002240
 
@@ -11776,6 +12159,7 @@ intersection_of: BFO:0000050 UBERON:0002240
 id: CL:2000028
 name: cerebellum glutamatergic neuron
 def: "Any glutamatergic neuron that is part of a cerebellum." []
+is_a: CL:0000679 ! glutamatergic neuron
 intersection_of: CL:0000679 ! glutamatergic neuron
 intersection_of: BFO:0000050 UBERON:0002037
 
@@ -11783,6 +12167,7 @@ intersection_of: BFO:0000050 UBERON:0002037
 id: CL:2000029
 name: central nervous system neuron
 def: "Any neuron that is part of a central nervous system." []
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0001017
 
@@ -11790,6 +12175,7 @@ intersection_of: RO:0002100 UBERON:0001017
 id: CL:2000030
 name: hypothalamus cell
 def: "Any native cell that is part of a hypothalamus." []
+is_a: CL:0000003 ! native cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000050 UBERON:0001898
 
@@ -11797,6 +12183,7 @@ intersection_of: BFO:0000050 UBERON:0001898
 id: CL:2000031
 name: lateral line ganglion neuron
 def: "Any neuron that is part of a lateral line ganglion." []
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:2000120
 
@@ -11804,6 +12191,7 @@ intersection_of: RO:0002100 UBERON:2000120
 id: CL:2000032
 name: peripheral nervous system neuron
 def: "Any neuron that is part of a peripheral nervous system." []
+is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0000010
 
@@ -11811,6 +12199,7 @@ intersection_of: RO:0002100 UBERON:0000010
 id: CL:2000033
 name: limb basal cell of epidermis
 def: "Any basal cell of epidermis that is part of a limb." []
+is_a: CL:0002187 ! basal cell of epidermis
 intersection_of: CL:0002187 ! basal cell of epidermis
 intersection_of: BFO:0000050 UBERON:0002101
 
@@ -11818,6 +12207,7 @@ intersection_of: BFO:0000050 UBERON:0002101
 id: CL:2000034
 name: anterior lateral line neuromast hair cell
 def: "Any neuromast hair cell that is part of a anterior lateral line." []
+is_a: CL:0000856 ! neuromast hair cell
 intersection_of: CL:0000856 ! neuromast hair cell
 intersection_of: BFO:0000050 UBERON:2001470
 
@@ -11825,6 +12215,7 @@ intersection_of: BFO:0000050 UBERON:2001470
 id: CL:2000035
 name: anterior lateral line neuromast mantle cell
 def: "Any neuromast mantle cell that is part of a anterior lateral line." []
+is_a: CL:0000851 ! neuromast mantle cell
 intersection_of: CL:0000851 ! neuromast mantle cell
 intersection_of: BFO:0000050 UBERON:2001470
 
@@ -11833,6 +12224,7 @@ id: CL:2000036
 name: anterior lateral line neuromast supporting cell
 def: "Any neuromast support cell that is part of a anterior lateral line." []
 synonym: "anterior lateral line neuromast support cell" EXACT []
+is_a: CL:0000852 ! neuromast supporting cell
 intersection_of: CL:0000852 ! neuromast supporting cell
 intersection_of: BFO:0000050 UBERON:2001470
 
@@ -11840,6 +12232,7 @@ intersection_of: BFO:0000050 UBERON:2001470
 id: CL:2000037
 name: posterior lateral line neuromast hair cell
 def: "Any neuromast hair cell that is part of a posterior lateral line." []
+is_a: CL:0000856 ! neuromast hair cell
 intersection_of: CL:0000856 ! neuromast hair cell
 intersection_of: BFO:0000050 UBERON:0006334
 
@@ -11847,6 +12240,7 @@ intersection_of: BFO:0000050 UBERON:0006334
 id: CL:2000038
 name: posterior lateral line neuromast mantle cell
 def: "Any neuromast mantle cell that is part of a posterior lateral line." []
+is_a: CL:0000851 ! neuromast mantle cell
 intersection_of: CL:0000851 ! neuromast mantle cell
 intersection_of: BFO:0000050 UBERON:0006334
 
@@ -11855,6 +12249,7 @@ id: CL:2000039
 name: posterior lateral line neuromast supporting cell
 def: "Any neuromast support cell that is part of a posterior lateral line." []
 synonym: "posterior lateral line neuromast support cell" EXACT []
+is_a: CL:0000852 ! neuromast supporting cell
 intersection_of: CL:0000852 ! neuromast supporting cell
 intersection_of: BFO:0000050 UBERON:0006334
 
@@ -11862,6 +12257,7 @@ intersection_of: BFO:0000050 UBERON:0006334
 id: CL:2000042
 name: embryonic fibroblast
 def: "Any fibroblast that is part of a embryo." []
+is_a: CL:0000057 ! fibroblast
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0000922
 
@@ -11869,6 +12265,7 @@ intersection_of: BFO:0000050 UBERON:0000922
 id: CL:2000043
 name: brain pericyte
 def: "Any pericyte cell that is part of a brain." []
+is_a: CL:0000669 ! pericyte cell
 intersection_of: CL:0000669 ! pericyte cell
 intersection_of: BFO:0000050 UBERON:0000955
 
@@ -11876,6 +12273,7 @@ intersection_of: BFO:0000050 UBERON:0000955
 id: CL:2000046
 name: ventricular cardiac muscle cell
 def: "Any cardiac muscle cell that is part of a cardiac ventricle." []
+is_a: CL:0000746 ! cardiac muscle cell
 intersection_of: CL:0000746 ! cardiac muscle cell
 intersection_of: BFO:0000050 UBERON:0002082
 
@@ -11883,6 +12281,7 @@ intersection_of: BFO:0000050 UBERON:0002082
 id: CL:2000047
 name: brainstem motor neuron
 def: "Any motor neuron that is part of a brainstem." []
+is_a: CL:0000100 ! motor neuron
 intersection_of: CL:0000100 ! motor neuron
 intersection_of: RO:0002100 UBERON:0002298
 
@@ -11890,6 +12289,7 @@ intersection_of: RO:0002100 UBERON:0002298
 id: CL:2000049
 name: primary motor cortex pyramidal cell
 def: "Any pyramidal cell that is part of a primary motor cortex." []
+is_a: CL:0000598 ! pyramidal neuron
 intersection_of: CL:0000598 ! pyramidal neuron
 intersection_of: RO:0002100 UBERON:0001384
 
@@ -11897,6 +12297,7 @@ intersection_of: RO:0002100 UBERON:0001384
 id: CL:2000051
 name: splenic fibroblast
 def: "Any fibroblast that is part of a spleen." []
+is_a: CL:0000057 ! fibroblast
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0002106
 
@@ -11904,6 +12305,7 @@ intersection_of: BFO:0000050 UBERON:0002106
 id: CL:2000052
 name: umbilical artery endothelial cell
 def: "Any endothelial cell of artery that is part of a umbilical cord." []
+is_a: CL:1000413 ! endothelial cell of artery
 intersection_of: CL:1000413 ! endothelial cell of artery
 intersection_of: BFO:0000050 UBERON:0002331
 
@@ -11911,6 +12313,7 @@ intersection_of: BFO:0000050 UBERON:0002331
 id: CL:2000053
 name: splenic endothelial cell
 def: "Any endothelial cell that is part of a spleen." []
+is_a: CL:0000115 ! endothelial cell
 intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0002106
 
@@ -11919,6 +12322,7 @@ id: CL:2000055
 name: liver dendritic cell
 def: "Any dendritic cell that is part of a liver." []
 synonym: "hepatic dendritic cell" EXACT []
+is_a: CL:0000451 ! dendritic cell
 intersection_of: CL:0000451 ! dendritic cell
 intersection_of: BFO:0000050 UBERON:0002107
 
@@ -11926,7 +12330,7 @@ intersection_of: BFO:0000050 UBERON:0002107
 id: CL:2000056
 name: Meynert cell
 def: "Any pyramidal cell that is part of a regional part of cerebral cortex." []
-is_a: CL:0000598 ! pyramidal neuron
+is_a: CL:2000049 ! primary motor cortex pyramidal cell
 relationship: RO:0002100 UBERON:0001384
 
 [Term]
@@ -11935,6 +12339,7 @@ name: placental villous trophoblast
 def: "A trophoblast of placental villi.  These cells fuse to form synctial  trophoplast - the placental side of the interface between the placenta and maternal blood sinusoids in the decidua." []
 synonym: "vCTB" EXACT []
 synonym: "villous cytotrophoblast" EXACT []
+is_a: CL:0000351 ! trophoblast cell
 intersection_of: CL:0000351 ! trophoblast cell
 intersection_of: BFO:0000050 UBERON:0010005
 
@@ -11942,6 +12347,7 @@ intersection_of: BFO:0000050 UBERON:0010005
 id: CL:2000061
 name: placental amniotic mesenchymal stromal cell
 def: "Any mesenchymal stem cell that is part of a placenta." []
+is_a: CL:0000134 ! mesenchymal stem cell
 intersection_of: CL:0000134 ! mesenchymal stem cell
 intersection_of: BFO:0000050 UBERON:0001987
 
@@ -11949,6 +12355,7 @@ intersection_of: BFO:0000050 UBERON:0001987
 id: CL:2000063
 name: ovarian fibroblast
 def: "Any fibroblast that is part of a female gonad." []
+is_a: CL:0000057 ! fibroblast
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0000992
 
@@ -11956,6 +12363,7 @@ intersection_of: BFO:0000050 UBERON:0000992
 id: CL:2000064
 name: ovarian surface epithelial cell
 def: "Any epithelial cell that is part of a female gonad." []
+is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0000992
 
@@ -11963,6 +12371,7 @@ intersection_of: BFO:0000050 UBERON:0000992
 id: CL:2000066
 name: cardiac ventricle fibroblast
 def: "Any fibroblast that is part of a cardiac ventricle." []
+is_a: CL:0000057 ! fibroblast
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0002082
 
@@ -11970,6 +12379,7 @@ intersection_of: BFO:0000050 UBERON:0002082
 id: CL:2000067
 name: cardiac atrium fibroblast
 def: "Any fibroblast that is part of a cardiac atrium." []
+is_a: CL:0000057 ! fibroblast
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0002081
 
@@ -11977,6 +12387,7 @@ intersection_of: BFO:0000050 UBERON:0002081
 id: CL:2000068
 name: pericardium fibroblast
 def: "Any fibroblast that is part of a pericardium." []
+is_a: CL:0000057 ! fibroblast
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0002407
 
@@ -11984,6 +12395,7 @@ intersection_of: BFO:0000050 UBERON:0002407
 id: CL:2000069
 name: gallbladder fibroblast
 def: "Any fibroblast that is part of a gallbladder." []
+is_a: CL:0000057 ! fibroblast
 intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0002110
 
@@ -11991,6 +12403,7 @@ intersection_of: BFO:0000050 UBERON:0002110
 id: CL:2000074
 name: splenocyte
 def: "Any leukocyte that is part of a spleen." []
+is_a: CL:0000738 ! leukocyte
 intersection_of: CL:0000738 ! leukocyte
 intersection_of: BFO:0000050 UBERON:0002106
 
@@ -11998,6 +12411,7 @@ intersection_of: BFO:0000050 UBERON:0002106
 id: CL:2000075
 name: anterior visceral endoderm cell
 def: "Any endodermal cell that is part of a anterior visceral endoderm." []
+is_a: CL:0000223 ! endodermal cell
 intersection_of: CL:0000223 ! endodermal cell
 intersection_of: BFO:0000050 UBERON:0004044
 
@@ -12005,6 +12419,7 @@ intersection_of: BFO:0000050 UBERON:0004044
 id: CL:2000078
 name: placental pericyte
 def: "Any pericyte cell that is part of a placenta." []
+is_a: CL:0000669 ! pericyte cell
 intersection_of: CL:0000669 ! pericyte cell
 intersection_of: BFO:0000050 UBERON:0001987
 
@@ -12012,6 +12427,7 @@ intersection_of: BFO:0000050 UBERON:0001987
 id: CL:2000085
 name: mononuclear cell of umbilical cord
 def: "Any mononuclear cell that is part of a umbilical cord." []
+is_a: CL:0000842 ! mononuclear cell
 intersection_of: CL:0000842 ! mononuclear cell
 intersection_of: BFO:0000050 UBERON:0002331
 
@@ -12019,6 +12435,7 @@ intersection_of: BFO:0000050 UBERON:0002331
 id: CL:2000089
 name: dentate gyrus of hippocampal formation granule cell
 def: "The principal cell type of the dentate gyrus." []
+is_a: CL:0000120 ! granule cell
 intersection_of: CL:0000120 ! granule cell
 intersection_of: RO:0002100 UBERON:0001885
 
@@ -12026,6 +12443,7 @@ intersection_of: RO:0002100 UBERON:0001885
 id: CL:2000090
 name: dentate gyrus of hippocampal formation stellate cell
 def: "Any stellate cell that is part of a dentate gyrus of hippocampal formation." []
+is_a: CL:0000122 ! stellate neuron
 intersection_of: CL:0000122 ! stellate neuron
 intersection_of: RO:0002100 UBERON:0001885
 
@@ -12033,6 +12451,8 @@ intersection_of: RO:0002100 UBERON:0001885
 id: CL:2000092
 name: hair follicular keratinocyte
 def: "Any keratinocyte that is part of a hair follicle." []
+is_a: CL:0000312 ! keratinocyte
+is_a: CL:0002559 ! hair follicle cell
 intersection_of: CL:0000312 ! keratinocyte
 intersection_of: BFO:0000050 UBERON:0002073
 
@@ -12040,6 +12460,7 @@ intersection_of: BFO:0000050 UBERON:0002073
 id: CL:2000093
 name: bronchus fibroblast of lung
 def: "Any fibroblast of lung that is part of a bronchus." []
+is_a: CL:0002553 ! fibroblast of lung
 intersection_of: CL:0002553 ! fibroblast of lung
 intersection_of: BFO:0000050 UBERON:0002185
 
@@ -12047,6 +12468,7 @@ intersection_of: BFO:0000050 UBERON:0002185
 id: CL:2000097
 name: midbrain dopaminergic neuron
 def: "Any dopaminergic neuron that is part of a midbrain." []
+is_a: CL:0000700 ! dopaminergic neuron
 intersection_of: CL:0000700 ! dopaminergic neuron
 intersection_of: BFO:0000050 UBERON:0001891
 
@@ -12054,6 +12476,8 @@ intersection_of: BFO:0000050 UBERON:0001891
 id: CL:3000002
 name: sympathetic noradrenergic neuron
 def: "Sympathetic noradrenergic neuron." []
+is_a: CL:0008025 ! noradrenergic neuron
+is_a: CL:0011103 ! sympathetic neuron
 intersection_of: CL:0011103 ! sympathetic neuron
 intersection_of: RO:0002215 GO:0061533
 
@@ -12061,6 +12485,8 @@ intersection_of: RO:0002215 GO:0061533
 id: CL:3000003
 name: sympathetic cholinergic neuron
 def: "Sympathetic cholinergic neuron." []
+is_a: CL:0000108 ! cholinergic neuron
+is_a: CL:0011103 ! sympathetic neuron
 intersection_of: CL:0011103 ! sympathetic neuron
 intersection_of: RO:0002215 GO:0014055
 
@@ -12068,6 +12494,7 @@ intersection_of: RO:0002215 GO:0014055
 id: CL:4023110
 name: amygdala pyramidal neuron
 def: "A pyramidal neuron with soma located in the amygdala." []
+is_a: CL:0000598 ! pyramidal neuron
 intersection_of: CL:0000598 ! pyramidal neuron
 intersection_of: RO:0002100 UBERON:0001876
 
@@ -12075,6 +12502,8 @@ intersection_of: RO:0002100 UBERON:0001876
 id: CL:4023111
 name: cerebral cortex pyramidal neuron
 def: "A pyramidal neuron with soma located in the cerebral cortex." []
+is_a: CL:0000598 ! pyramidal neuron
+is_a: CL:0010012 ! cerebral cortex neuron
 intersection_of: CL:0000598 ! pyramidal neuron
 intersection_of: RO:0002100 UBERON:0000956
 
@@ -12083,6 +12512,7 @@ id: CL:4023120
 name: cochlea auditory hair cell
 def: "An auditory hair cell found in the cochlea." []
 synonym: "cochlear hair cell" EXACT []
+is_a: CL:0000202 ! auditory hair cell
 intersection_of: CL:0000202 ! auditory hair cell
 intersection_of: BFO:0000050 UBERON:0002227
 
