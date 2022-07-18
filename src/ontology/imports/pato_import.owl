@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/pato_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-05-16/imports/pato_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-07-18/imports/pato_import.owl"/>
     </owl:Ontology>
     
 
@@ -342,6 +342,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001496"/>
+        <obo:IAO_0000115>A reproductive quality inhering in the young of an animal by virtue of their number.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>litter size</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>brood size</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000411 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000411">
@@ -365,6 +376,17 @@
         <oboInOwl:hasRelatedSynonym>oval</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>ovoid</oboInOwl:hasRelatedSynonym>
         <rdfs:label>elliptic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <obo:IAO_0000115>A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>relational physical quality</oboInOwl:hasExactSynonym>
+        <rdfs:label>physical quality</rdfs:label>
     </owl:Class>
     
 
@@ -462,6 +484,36 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001420">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115>A physical quality inhering in a bearer by virtue of the bearer&apos;s disposition to rise or float in a fluid medium such as water or air.</obo:IAO_0000115>
+        <rdfs:label>buoyancy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001434">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
+        <obo:IAO_0000115>An organismal quality inhering in a bearer by virtue of the bearer&apos;s ability to produce new life or offspring.</obo:IAO_0000115>
+        <rdfs:label>reproductive quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001496">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001434"/>
+        <obo:IAO_0000115>A reproductive quality inhering in the young of an animal by virtue of the bearer&apos;s being cared for at one time.</obo:IAO_0000115>
+        <rdfs:label>brood quality</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001842 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001842">
@@ -498,6 +550,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002505"/>
         <obo:IAO_0000115>A nucleate quality inhering in a bearer by virtue of the bearer&apos;s having more than one nucleus.</obo:IAO_0000115>
         <rdfs:label>multinucleate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001995">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <obo:IAO_0000115>A quality that inheres in an entire organism or part of an organism.</obo:IAO_0000115>
+        <rdfs:label>organismal quality</rdfs:label>
     </owl:Class>
     
 

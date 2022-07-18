@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-05-16/imports/pato_import.owl
+data-version: go/releases/2022-07-18/imports/pato_import.owl
 ontology: go/imports/pato_import
 
 [Term]
@@ -41,6 +41,13 @@ synonym: "relational structural quality" EXACT []
 is_a: PATO:0000051 ! morphology
 
 [Term]
+id: PATO:0000276
+name: brood size
+def: "A reproductive quality inhering in the young of an animal by virtue of their number." []
+synonym: "litter size" RELATED []
+is_a: PATO:0001496 ! brood quality
+
+[Term]
 id: PATO:0000411
 name: circular
 def: "A shape quality inhering in a bearer by virtue of the bearer's being such that every part of the surface or the circumference is equidistant from the center." []
@@ -58,6 +65,13 @@ synonym: "elliptical" EXACT []
 synonym: "oval" RELATED []
 synonym: "ovoid" RELATED []
 is_a: PATO:0002318 ! superelliptic
+
+[Term]
+id: PATO:0001018
+name: physical quality
+def: "A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities." []
+synonym: "relational physical quality" EXACT []
+is_a: PATO:0001241 ! physical object quality
 
 [Term]
 id: PATO:0001236
@@ -121,6 +135,24 @@ def: "A cellular quality inhering in a bearer by virtue of the bearer's having t
 is_a: PATO:0001396 ! cellular quality
 
 [Term]
+id: PATO:0001420
+name: buoyancy
+def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to rise or float in a fluid medium such as water or air." []
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0001434
+name: reproductive quality
+def: "An organismal quality inhering in a bearer by virtue of the bearer's ability to produce new life or offspring." []
+is_a: PATO:0001995 ! organismal quality
+
+[Term]
+id: PATO:0001496
+name: brood quality
+def: "A reproductive quality inhering in the young of an animal by virtue of the bearer's being cared for at one time." []
+is_a: PATO:0001434 ! reproductive quality
+
+[Term]
 id: PATO:0001842
 name: acidity
 def: "A concentration quality inhering in a bearer by virtue of the bearer's containing acid (hydrogen ions)." []
@@ -142,6 +174,12 @@ id: PATO:0001908
 name: multinucleate
 def: "A nucleate quality inhering in a bearer by virtue of the bearer's having more than one nucleus." []
 is_a: PATO:0002505 ! nucleated
+
+[Term]
+id: PATO:0001995
+name: organismal quality
+def: "A quality that inheres in an entire organism or part of an organism." []
+is_a: PATO:0001241 ! physical object quality
 
 [Term]
 id: PATO:0002006
