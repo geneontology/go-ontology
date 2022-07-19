@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2019-06-28/imports/po_import.owl
+data-version: go/releases/2022-07-18/imports/po_import.owl
 ontology: go/imports/po_import
 
 [Term]
@@ -183,7 +183,6 @@ def: "An undeveloped shoot system (PO:0009006)." []
 synonym: "adventitious bud (narrow)" NARROW []
 synonym: "yema (Spanish, exact)" EXACT []
 synonym: "芽 (Japanese, exact)" EXACT []
-is_a: BFO:0000002
 is_a: PO:0009006 ! shoot system
 relationship: participates_in PO:0025528 ! bud development stage
 
@@ -204,7 +203,6 @@ def: "A parenchyma cell (PO:0000074) that is adjacent to a sieve tube element (P
 synonym: "c&#233lula acompa&#241iante (Spanish, exact)" EXACT []
 synonym: "minor vein companion cell (exact)" EXACT []
 synonym: "伴細胞 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0000074 ! parenchyma cell
 relationship: adjacent_to PO:0000289 ! sieve tube element
 relationship: part_of PO:0005417 ! phloem
@@ -245,7 +243,6 @@ synonym: "microgamete (exact)" EXACT []
 synonym: "sperm cell (broad)" BROAD []
 synonym: "sperm nucleus (related)" RELATED []
 synonym: "植物精子細胞 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025006 ! plant gamete
 relationship: develops_from PO:0025525 ! spermatogenous cell
 
@@ -269,7 +266,6 @@ synonym: "c&#233lula de encaje (Spanish, exact)" EXACT []
 synonym: "cell located at the base of the trichome (related)" RELATED []
 synonym: "trichome support cell (related)" RELATED []
 synonym: "ソケット細胞 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025165 ! shoot epidermal cell
 disjoint_from: PO:0000332 ! epidermal pavement cell
 relationship: develops_from PO:0000349 ! epidermal initial cell
@@ -333,7 +329,6 @@ name: root hair cell
 def: "A root epidermal cell (PO:0025164) that develops from a trichoblast (PO:0000262) and has as part a root hair (GO:0035618)." []
 synonym: "c&#233lula del pelo de la ra&#237z (Spanish, exact)" EXACT []
 synonym: "根毛細胞 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025164 ! root epidermal cell
 relationship: develops_from PO:0000262 ! trichoblast
 
@@ -344,7 +339,6 @@ def: "A root epidermal cell that is the smaller cell produced by the asymmetric 
 synonym: "hair cell (related)" RELATED []
 synonym: "tricoblasto (Spanish, exact)" EXACT []
 synonym: "根毛形成細胞、トリコブラスト (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025164 ! root epidermal cell
 relationship: develops_from PO:0000349 ! epidermal initial cell
 
@@ -356,7 +350,6 @@ synonym: "atrichoblast (exact)" EXACT []
 synonym: "atricoblasto (Spanish, exact)" EXACT []
 synonym: "non-hair cell (broad)" BROAD []
 synonym: "非毛根形成細胞、アトリコブラスト (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025164 ! root epidermal cell
 relationship: develops_from PO:0000349 ! epidermal initial cell
 
@@ -396,7 +389,6 @@ synonym: "squamellae (narrow)" NARROW []
 synonym: "squamule (narrow)" NARROW []
 synonym: "tricoma (Spanish, exact)" EXACT []
 synonym: "毛茸、糸状体、毛 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0009011 ! plant structure
 relationship: develops_from PO:0000349 ! epidermal initial cell
 relationship: part_of PO:0005679 ! epidermis
@@ -429,7 +421,6 @@ def: "One of a pair of cells flanking the stomatal pore." []
 synonym: "c&#233lula guardiana (Spanish, exact)" EXACT []
 synonym: "occlusive cell (exact)" EXACT []
 synonym: "孔辺細胞 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025165 ! shoot epidermal cell
 disjoint_from: PO:0000332 ! epidermal pavement cell
 relationship: develops_from PO:0000351 ! guard mother cell
@@ -441,7 +432,6 @@ name: epidermal pavement cell
 def: "A shoot epidermal cell that is relatively unspecialized at maturity." []
 synonym: "c&#233lula del pavimento epidermal (Spanish, exact)" EXACT []
 synonym: "表皮被蓋細胞 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025165 ! shoot epidermal cell
 disjoint_from: PO:0008030 ! trichome cell
 relationship: develops_from PO:0000349 ! epidermal initial cell
@@ -462,7 +452,6 @@ name: guard mother cell
 def: "A shoot epidermal cell that divides to produce the guard cells." []
 synonym: "c&#233lula madre de la c&#233lula guardiana (Spanish, exact)" EXACT []
 synonym: "孔辺母細胞 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025165 ! shoot epidermal cell
 relationship: develops_from PO:0000062 ! stomatal initial cell
 
@@ -482,7 +471,6 @@ def: "A native plant cell (PO:0025606) which is a whole plant (PO:0000003) in th
 synonym: "cigoto (Spanish, exact)" EXACT []
 synonym: "zygote (broad)" BROAD []
 synonym: "植物接合子、接合体 (Japanese, exact)" EXACT []
-is_a: BFO:0000002
 is_a: PO:0025606 ! native plant cell
 relationship: participates_in PO:0001097 ! plant zygote stage
 
@@ -536,7 +524,6 @@ def: "A native plant cell (PO:0025606) that is the lower-most cell formed after 
 synonym: "c&#233lula basal (Spanish, exact)" EXACT []
 synonym: "embryonic basal cell (exact)" EXACT []
 synonym: "胚基底細胞 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025028 ! embryo plant cell
 relationship: develops_from PO:0000423 ! plant zygote
 
@@ -598,7 +585,6 @@ name: fruit placenta
 def: "A portion of placenta tissue (PO:0025078) that is part of a fruit (PO:0009001) and to which seeds (PO:0009010) are attached." []
 synonym: "placenta del fruto (Spanish, exact)" EXACT []
 synonym: "果実の胎座 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0020001 ! plant ovary placenta
 relationship: develops_from PO:0025078 ! placenta
 relationship: part_of PO:0009001 ! fruit
@@ -694,7 +680,6 @@ synonym: "portion of root primordium tissue (exact)" EXACT []
 synonym: "primordio de ra&#237z (Spanish, exact)" EXACT []
 synonym: "root primordia (exact, plural)" EXACT []
 synonym: "根原基（可視的）  (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025127 ! primordium
 relationship: develops_from PO:0025433 ! root anlagen
 
@@ -788,7 +773,6 @@ synonym: "epidermises (exact, plural)" EXACT []
 synonym: "multiseriate epidermis (related)" RELATED []
 synonym: "portion of epidermal tissue (exact)" EXACT []
 synonym: "表皮 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0009007 ! portion of plant tissue
 relationship: develops_from PO:0006210 ! protoderm
 
@@ -808,7 +792,6 @@ def: "A portion of xylem (PO:0005352) tissue that develops from the procambium (
 synonym: "portion of primary xylem tissue (exact)" EXACT []
 synonym: "xilema primario (Spanish, exact)" EXACT []
 synonym: "一次木部 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0005352 ! xylem
 relationship: develops_from PO:0025275 ! procambium
 
@@ -818,7 +801,6 @@ name: phyllome
 def: "A lateral plant organ (PO:0009008) produced by a shoot apical meristem (PO:0020148)." []
 synonym: "filoma (Spanish, exact)" EXACT []
 synonym: "フィロム、葉(的）器官 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0009008 ! plant organ
 relationship: develops_from PO:0025128 ! phyllome primordium
 relationship: part_of PO:0009006 ! shoot system
@@ -1015,7 +997,6 @@ name: primary sporogenous cell
 def: "A native plant cell (PO:0025606) is formed by the division of the male archesporial initial. After several mitotic divisions these cells differentiate into pollen mother cells." []
 synonym: "c&#233lula espor&#243gena primaria (Spanish, exact)" EXACT []
 synonym: "一次胞子形成細胞 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025606 ! native plant cell
 relationship: develops_from PO:0006014 ! male archesporial cell
 
@@ -1036,7 +1017,6 @@ synonym: "esporocito (Spanish, exact)" EXACT []
 synonym: "meiocyte (exact)" EXACT []
 synonym: "spore mother cell (exact)" EXACT []
 synonym: "胞子母細胞 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025606 ! native plant cell
 relationship: develops_from PO:0030056 ! archesporial cell
 relationship: part_of PO:0025094 ! sporangium
@@ -1068,7 +1048,6 @@ synonym: "axillary branch (related)" RELATED []
 synonym: "Musa sucker (narrow)" NARROW []
 synonym: "sistema axilar del epiblasto (epiblastema) (Spanish, exact)" EXACT []
 synonym: "腋苗条系 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0004545 ! shoot-borne shoot system
 relationship: develops_from PO:0004709 ! axillary bud
 
@@ -1083,7 +1062,6 @@ synonym: "rice growth stage (GRO:0007040) (related)" RELATED []
 synonym: "Solanaceae whole plant growth stages (SGN:0000001) (related)" RELATED []
 synonym: "sorghum growth stage (GRO:0007124) (related)" RELATED []
 synonym: "wheat, barley and oat growth stage (GRO:0007156) (related)" RELATED []
-is_a: BFO:0000003
 is_a: PO:0009012 ! plant structure development stage
 relationship: has_participant PO:0000003 ! whole plant
 
@@ -1111,7 +1089,6 @@ name: trichome cell
 def: "A plant cell (PO:0009002) that is part of a multicellular trichome (PO:0000282)." []
 synonym: "c&#233lula del tricoma (Spanish, exact)" EXACT []
 synonym: "毛（毛茸、糸状体）細胞 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025606 ! native plant cell
 relationship: develops_from PO:0004013 ! epidermal cell
 relationship: part_of PO:0025162 ! multicellular trichome
@@ -1132,7 +1109,6 @@ synonym: "multiple fruit  (broad)" BROAD []
 synonym: "propagule  (broad)" BROAD []
 synonym: "syncarp (narrow)" NARROW []
 synonym: "果実 (exact, Japanese)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025496 ! multi-tissue plant structure
 relationship: develops_from PO:0009062 ! gynoecium
 
@@ -1160,7 +1136,6 @@ synonym: "ra&#237z (Spanish, exact)" EXACT []
 synonym: "radices (exact, plural)" EXACT []
 synonym: "radix (exact)" EXACT []
 synonym: "根 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025004 ! plant axis
 relationship: develops_from PO:0005029 ! root primordium
 relationship: part_of PO:0025025 ! root system
@@ -1223,7 +1198,6 @@ synonym: "diaspore (broad)" BROAD []
 synonym: "pyrene (narrow)" NARROW []
 synonym: "semilla (Spanish, exact)" EXACT []
 synonym: "種子 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025496 ! multi-tissue plant structure
 relationship: develops_from PO:0020003 ! plant ovule
 relationship: has_part PO:0009009 ! plant embryo
@@ -1243,6 +1217,7 @@ def: "A stage in the life of a plant structure (PO:0009011) during which the pla
 synonym: "Arabidopsis growth (related)" RELATED []
 synonym: "etapa de desarrollo de estructura vegetal (Spanish, exact)" EXACT []
 synonym: "plant growth and development stage (exact)" EXACT []
+is_a: BFO:0000015
 
 [Term]
 id: PO:0009013
@@ -1401,7 +1376,6 @@ synonym: "hermaphrodite flower (narrow)" NARROW []
 synonym: "monoclinous flower (narrow)" NARROW []
 synonym: "perfect flower (narrow)" NARROW []
 synonym: "花 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025082 ! reproductive shoot system
 relationship: develops_from PO:0000229 ! flower meristem
 
@@ -1482,7 +1456,6 @@ synonym: "androecium of upper floret of sessile spikelet of tassel (narrow)" NAR
 synonym: "Poaceae androecium (narrow)" NARROW []
 synonym: "Zea androecium (narrow)" NARROW []
 synonym: "雄蕊群 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025023 ! collective phyllome structure
 relationship: develops_from PO:0025478 ! androecium primordium
 relationship: part_of PO:0009046 ! flower
@@ -1510,7 +1483,6 @@ synonym: "Poaceae gynoecium (narrow)" NARROW []
 synonym: "syncarpous gynoecium (narrow)" NARROW []
 synonym: "Zea gynoecium (narrow)" NARROW []
 synonym: "雌蕊群 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025023 ! collective phyllome structure
 relationship: develops_from PO:0000019 ! gynoecium primordium
 relationship: part_of PO:0009046 ! flower
@@ -1523,7 +1495,6 @@ synonym: "antera (Spanish, exact)" EXACT []
 synonym: "Poaceae anther (narrow)" NARROW []
 synonym: "Zea anther (narrow)" NARROW []
 synonym: "半葯,花粉のう (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025007 ! collective plant organ structure
 relationship: develops_from PO:0006089 ! anther primordium
 relationship: has_part PO:0025277 ! pollen sac
@@ -1627,7 +1598,6 @@ synonym: "&#243vulo vegetal (Spanish, exact)" EXACT []
 synonym: "Poaceae ovule (narrow)" NARROW []
 synonym: "Zea ovule (narrow)" NARROW []
 synonym: "胚珠 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0009008 ! plant organ
 relationship: develops_from PO:0000018 ! ovule primordium
 
@@ -1818,7 +1788,6 @@ name: suspensor
 def: "An embryonic plant structure at the base of a plant embryo that develops from an embryonic basal cell and connects an embryo proper to the wall of a megagametophyte." []
 synonym: "suspensor (Spanish, exact)" EXACT []
 synonym: "胚柄 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025099 ! embryo plant structure
 relationship: develops_from PO:0002002 ! embryo basal cell
 
@@ -1965,7 +1934,6 @@ def: "A collective plant organ structure (PO:0025007) that produces root meriste
 synonym: "root (broad)" BROAD []
 synonym: "sistema de ra&#237z (Spanish, exact)" EXACT []
 synonym: "根系 (Japanese, exact)" EXACT []
-is_a: BFO:0000002
 is_a: PO:0025007 ! collective plant organ structure
 relationship: participates_in PO:0028002 ! sporophyte development stage
 
@@ -2032,7 +2000,6 @@ def: "Any portion of plant tissue (PO:0009007) other than epidermis (PO:0005679)
 synonym: "fundamental tissue (exact)" EXACT []
 synonym: "porci&#243n del tejido fundamental (Spanish, exact)" EXACT []
 synonym: "基本組織の一部 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0009007 ! portion of plant tissue
 relationship: develops_from PO:0025594 ! ground meristem
 
@@ -2051,7 +2018,6 @@ name: embryo sac
 def: "A megagametophyte (PO:0025279) that is located in a plant ovary ovule (PO:0025490)." []
 synonym: "saco embrionario (Spanish, exact)" EXACT []
 synonym: "胚嚢 (Japanese, exact)" EXACT []
-is_a: BFO:0000040
 is_a: PO:0025279 ! megagametophyte
 relationship: develops_from PO:0020019 ! megaspore
 relationship: located_in PO:0025490 ! plant ovary ovule
@@ -2073,7 +2039,6 @@ name: reproductive shoot system
 def: "A shoot system (PO:0009006) in the sporophytic phase that has as part at least one sporangium (PO:0025094)." []
 synonym: "sistema de brote reproductivo (Spanish, exact)" EXACT []
 synonym: "生殖シュート 系、苗条系 (Japanese, exact)" EXACT []
-is_a: BFO:0000002
 is_a: PO:0009006 ! shoot system
 relationship: participates_in PO:0025530 ! reproductive shoot system development stage
 
@@ -2095,7 +2060,6 @@ synonym: "sporangia (exact, plural)" EXACT []
 synonym: "spore capsule (exact)" EXACT []
 synonym: "spore case (exact)" EXACT []
 synonym: "胞子嚢 (Japanese, exact)" EXACT []
-is_a: BFO:0000002
 is_a: PO:0009008 ! plant organ
 relationship: participates_in PO:0028002 ! sporophyte development stage
 
@@ -2112,7 +2076,7 @@ relationship: part_of PO:0009005 ! root
 id: PO:0025096
 name: carpel epidermis
 def: "A portion of phyllome epidermis (PO:0025157) that is part of a carpel (PO:0009030)." []
-synonym: "A portion of carpel epidermis (PO:0025096) that covers the abaxial surface of a carpel (PO:0009030). \" (broad)" BROAD []
+synonym: "A portion of carpel epidermis (PO:0025096) that covers the abaxial surface of a carpel (PO:0009030). (broad)" BROAD []
 synonym: "epidermis del carpelo (Spanish, exact)" EXACT []
 synonym: "心皮 表皮 (Japanese, exact)" EXACT []
 is_a: PO:0025157 ! phyllome epidermis
@@ -2195,7 +2159,6 @@ synonym: "phyllome primordia (exact, plural)" EXACT []
 synonym: "portion of phyllome primordium tissue (exact)" EXACT []
 synonym: "primordio del filoma (Spanish, exact)" EXACT []
 synonym: "フィロム原基（可視的）  (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025127 ! primordium
 relationship: develops_from PO:0025430 ! phyllome anlagen
 relationship: part_of PO:0000037 ! shoot axis apex
@@ -2206,6 +2169,7 @@ name: plant anatomical entity
 def: "An anatomical entity that is or was part of a plant." []
 synonym: "entidad anat&#243mica vegetal (Spanish, exact)" EXACT []
 synonym: "植物 解剖学（形態）的実体 (Japanese, exact)" EXACT []
+is_a: BFO:0000040
 relationship: only_in_taxon NCBITaxon:33090
 
 [Term]
@@ -2274,7 +2238,6 @@ name: pollen tube cell
 def: "A native plant cell (PO:0025606) that develops from a microgametophyte vegetative cell (PO:0020099) and forms a tubular extension of the pollen (PO:0025281)." []
 synonym: "c&#233lula del tubo pol&#237nico (Spanish, exact)" EXACT []
 synonym: "花粉管細胞 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0025606 ! native plant cell
 relationship: develops_from PO:0020099 ! microgametophyte vegetative cell
 
@@ -2363,7 +2326,6 @@ synonym: "ovary dissepiment (broad)" BROAD []
 synonym: "ovary septa (exact, plural)" EXACT []
 synonym: "septo del ovario (Spanish, exact)" EXACT []
 synonym: "子房隔壁   (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0000030 ! septum
 relationship: develops_from PO:0005022 ! plant ovary wall
 relationship: part_of PO:0009062 ! gynoecium
@@ -2385,7 +2347,6 @@ def: "A septum that divides a cavity or mass of tissue in a fruit and develops f
 synonym: "fruit dissepiment (broad)" BROAD []
 synonym: "septo del fruto (Spanish, exact)" EXACT []
 synonym: "果実隔壁 (Japanese, exact)" EXACT []
-is_a: BFO:0000004
 is_a: PO:0000030 ! septum
 relationship: develops_from PO:0025262 ! plant ovary septum
 relationship: part_of PO:0009001 ! fruit
@@ -2456,7 +2417,6 @@ def: "A microgametophyte (PO:0025280) that develops from a microspore (PO:002004
 synonym: "polen (Spanish, exact)" EXACT []
 synonym: "pollen grain (exact)" EXACT []
 synonym: "花粉 (Japanese, exact)" EXACT []
-is_a: BFO:0000040
 is_a: PO:0025280 ! microgametophyte
 relationship: develops_from PO:0020048 ! microspore
 relationship: located_in PO:0025277 ! pollen sac
@@ -2532,7 +2492,6 @@ name: collective plant organ structure development stage
 def: "A plant structure development stage (PO:0009012) that has as primary participant a collective plant structure (PO:0025497)." []
 synonym: "etapa de desarrollo de una estructura colectiva de la planta (Spanish, exact)" EXACT []
 synonym: "集合的植物構造の発生過程 (Japanese, exact)" EXACT []
-is_a: BFO:0000003
 is_a: PO:0009012 ! plant structure development stage
 relationship: has_participant PO:0025007 ! collective plant organ structure
 
@@ -2883,12 +2842,6 @@ relationship: part_of PO:0025306 ! sporangium wall
 id: adjacent_to
 name: adjacent_to
 xref: RO:0002220
-
-[Typedef]
-id: developmentally_preceded_by
-name: developmentally_preceded_by
-def: "X developmentally related to y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p." []
-xref: RO:0002258
 
 [Typedef]
 id: develops_from
