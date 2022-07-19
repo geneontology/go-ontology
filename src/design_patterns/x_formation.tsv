@@ -42,8 +42,10 @@ http://purl.obolibrary.org/obo/GO_0002467	germinal center formation	http://purl.
 http://purl.obolibrary.org/obo/GO_0072104	glomerular capillary formation	http://purl.obolibrary.org/obo/UBERON_0004212	glomerular capillary
 http://purl.obolibrary.org/obo/GO_0072117	head kidney formation	http://purl.obolibrary.org/obo/UBERON_0007132	head kidney
 http://purl.obolibrary.org/obo/GO_0060914	heart formation	http://purl.obolibrary.org/obo/UBERON_0000948	heart
+http://purl.obolibrary.org/obo/GO_0003315	heart rudiment formation	http://purl.obolibrary.org/obo/UBERON_0004291	heart rudiment
 http://purl.obolibrary.org/obo/GO_0060347	heart trabecula formation	http://purl.obolibrary.org/obo/UBERON_0002511	trabecula carnea
 http://purl.obolibrary.org/obo/GO_0003188	heart valve formation	http://purl.obolibrary.org/obo/UBERON_0000946	cardial valve
+http://purl.obolibrary.org/obo/GO_0021576	hindbrain formation	http://purl.obolibrary.org/obo/UBERON_0002028	hindbrain
 http://purl.obolibrary.org/obo/GO_0021906	hindbrain-spinal cord boundary formation	http://purl.obolibrary.org/obo/UBERON_0005076	hindbrain-spinal cord boundary
 http://purl.obolibrary.org/obo/GO_0048851	hypophysis formation	http://purl.obolibrary.org/obo/UBERON_0000007	pituitary gland
 http://purl.obolibrary.org/obo/GO_0001744	insect visual primordium formation	http://purl.obolibrary.org/obo/UBERON_6001059	insect visual primordium
@@ -123,3 +125,4 @@ http://purl.obolibrary.org/obo/GO_0035148	tube formation	http://purl.obolibrary.
 http://purl.obolibrary.org/obo/GO_0060676	ureteric bud formation	http://purl.obolibrary.org/obo/UBERON_0000084	ureteric bud
 http://purl.obolibrary.org/obo/GO_0003196	ventriculo bulbo valve formation	http://purl.obolibrary.org/obo/UBERON_0004149	ventriculo bulbo valve
 http://purl.obolibrary.org/obo/GO_0030704	vitelline membrane formation	http://purl.obolibrary.org/obo/UBERON_0003125	vitelline membrane
+http://purl.obolibrary.org/obo/GO_0022006	zona limitans intrathalamica formation	http://purl.obolibrary.org/obo/UBERON_0009848	zona limitans intrathalamica

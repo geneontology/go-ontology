@@ -43,9 +43,9 @@ Positive regulation of a particular characteristic.
 
 | defined_class | defined_class_label | characteristic | characteristic_label |
 |:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_0051454](http://purl.obolibrary.org/obo/GO_0051454) | intracellular pH elevation | [http://purl.obolibrary.org/obo/OBA_0000050](http://purl.obolibrary.org/obo/OBA_0000050) | cell pH |
 | [http://purl.obolibrary.org/obo/GO_0035752](http://purl.obolibrary.org/obo/GO_0035752) | lysosomal lumen pH elevation | [http://purl.obolibrary.org/obo/OBA_0000091](http://purl.obolibrary.org/obo/OBA_0000091) | lysosomal lumen pH |
-| [http://purl.obolibrary.org/obo/GO_0090727](http://purl.obolibrary.org/obo/GO_0090727) | positive regulation of brood size | [http://purl.obolibrary.org/obo/OBA_0000037](http://purl.obolibrary.org/obo/OBA_0000037) | brood size |
 | [http://purl.obolibrary.org/obo/GO_0061755](http://purl.obolibrary.org/obo/GO_0061755) | positive regulation of circulating fibrinogen levels | [http://purl.obolibrary.org/obo/OBA_0000061](http://purl.obolibrary.org/obo/OBA_0000061) | circulating fibrinogen levels |
 | [http://purl.obolibrary.org/obo/GO_0120198](http://purl.obolibrary.org/obo/GO_0120198) | positive regulation of imaginal disc-derived wing size | [http://purl.obolibrary.org/obo/OBA_0000084](http://purl.obolibrary.org/obo/OBA_0000084) | imaginal disc-derived wing size |
+| [http://purl.obolibrary.org/obo/GO_0101028](http://purl.obolibrary.org/obo/GO_0101028) | positive regulation of liquid surface tension | [http://purl.obolibrary.org/obo/OBA_0000088](http://purl.obolibrary.org/obo/OBA_0000088) | liquid surface tension |
+| [http://purl.obolibrary.org/obo/GO_0048170](http://purl.obolibrary.org/obo/GO_0048170) | positive regulation of long-term neuronal synaptic plasticity | [http://purl.obolibrary.org/obo/OBA_0000089](http://purl.obolibrary.org/obo/OBA_0000089) | long-term neuronal synaptic plasticity |
 

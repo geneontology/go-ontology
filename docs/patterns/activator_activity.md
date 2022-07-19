@@ -30,7 +30,7 @@ TODO
 
 ## Equivalent to
 
-[molecular function regulator](http://purl.obolibrary.org/obo/GO_0098772)  and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some `{regulated_activity}`)
+[molecular function regulator activity](http://purl.obolibrary.org/obo/GO_0098772)  and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some `{regulated_activity}`)
 
 
 

@@ -4,6 +4,7 @@ http://purl.obolibrary.org/obo/GO_1904867	protein localization to Cajal body	htt
 http://purl.obolibrary.org/obo/GO_0034067	protein localization to Golgi apparatus	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus
 http://purl.obolibrary.org/obo/GO_1903292	protein localization to Golgi membrane	http://purl.obolibrary.org/obo/GO_0000139	Golgi membrane
 http://purl.obolibrary.org/obo/GO_0036309	protein localization to M-band	http://purl.obolibrary.org/obo/GO_0031430	M band
+http://purl.obolibrary.org/obo/GO_1902549	protein localization to Mei2 nuclear dot	http://purl.obolibrary.org/obo/GO_0033620	Mei2 nuclear dot complex
 http://purl.obolibrary.org/obo/GO_0110012	protein localization to P-body	http://purl.obolibrary.org/obo/GO_0000932	P-body
 http://purl.obolibrary.org/obo/GO_0036371	protein localization to T-tubule	http://purl.obolibrary.org/obo/GO_0030315	T-tubule
 http://purl.obolibrary.org/obo/GO_0044379	protein localization to actin cortical patch	http://purl.obolibrary.org/obo/GO_0030479	actin cortical patch
@@ -27,6 +28,7 @@ http://purl.obolibrary.org/obo/GO_1990778	protein localization to cell periphery
 http://purl.obolibrary.org/obo/GO_0034394	protein localization to cell surface	http://purl.obolibrary.org/obo/GO_0009986	cell surface
 http://purl.obolibrary.org/obo/GO_1990151	protein localization to cell tip	http://purl.obolibrary.org/obo/GO_0051286	cell tip
 http://purl.obolibrary.org/obo/GO_0150105	protein localization to cell-cell junction	http://purl.obolibrary.org/obo/GO_0005911	cell-cell junction
+http://purl.obolibrary.org/obo/GO_0120329	protein localization to centriolar satellite	http://purl.obolibrary.org/obo/GO_0034451	centriolar satellite
 http://purl.obolibrary.org/obo/GO_0071539	protein localization to centrosome	http://purl.obolibrary.org/obo/GO_0005813	centrosome
 http://purl.obolibrary.org/obo/GO_0072598	protein localization to chloroplast	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
 http://purl.obolibrary.org/obo/GO_1904160	protein localization to chloroplast starch grain	http://purl.obolibrary.org/obo/GO_0009569	chloroplast starch grain
@@ -49,6 +51,7 @@ http://purl.obolibrary.org/obo/GO_1904518	protein localization to cytoplasmic mi
 http://purl.obolibrary.org/obo/GO_1903608	protein localization to cytoplasmic stress granule	http://purl.obolibrary.org/obo/GO_0010494	cytoplasmic stress granule
 http://purl.obolibrary.org/obo/GO_0044380	protein localization to cytoskeleton	http://purl.obolibrary.org/obo/GO_0005856	cytoskeleton
 http://purl.obolibrary.org/obo/GO_1904327	protein localization to cytosolic proteasome complex	http://purl.obolibrary.org/obo/GO_0031597	cytosolic proteasome complex
+http://purl.obolibrary.org/obo/GO_1902432	protein localization to division septum	http://purl.obolibrary.org/obo/GO_0000935	division septum
 http://purl.obolibrary.org/obo/GO_1902946	protein localization to early endosome	http://purl.obolibrary.org/obo/GO_0005769	early endosome
 http://purl.obolibrary.org/obo/GO_0097446	protein localization to eisosome filament	http://purl.obolibrary.org/obo/GO_0036286	eisosome filament
 http://purl.obolibrary.org/obo/GO_0070972	protein localization to endoplasmic reticulum	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
@@ -71,6 +74,7 @@ http://purl.obolibrary.org/obo/GO_0061462	protein localization to lysosome	http:
 http://purl.obolibrary.org/obo/GO_1903260	protein localization to mating projection tip	http://purl.obolibrary.org/obo/GO_0043332	mating projection tip
 http://purl.obolibrary.org/obo/GO_1903212	protein localization to mating-type region heterochromatin	http://purl.obolibrary.org/obo/GO_0031934	mating-type region heterochromatin
 http://purl.obolibrary.org/obo/GO_0071574	protein localization to medial cortex	http://purl.obolibrary.org/obo/GO_0031097	medial cortex
+http://purl.obolibrary.org/obo/GO_1902577	protein localization to medial cortical node	http://purl.obolibrary.org/obo/GO_0071341	medial cortical node
 http://purl.obolibrary.org/obo/GO_1905359	protein localization to meiotic spindle	http://purl.obolibrary.org/obo/GO_0072687	meiotic spindle
 http://purl.obolibrary.org/obo/GO_1903096	protein localization to meiotic spindle midzone	http://purl.obolibrary.org/obo/GO_1990385	meiotic spindle midzone
 http://purl.obolibrary.org/obo/GO_1902441	protein localization to meiotic spindle pole body	http://purl.obolibrary.org/obo/GO_0035974	meiotic spindle pole body

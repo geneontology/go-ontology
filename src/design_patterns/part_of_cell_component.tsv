@@ -379,7 +379,6 @@ http://purl.obolibrary.org/obo/GO_0055029	nuclear DNA-directed RNA polymerase co
 http://purl.obolibrary.org/obo/GO_0043224	nuclear SCF ubiquitin ligase complex	http://purl.obolibrary.org/obo/GO_0019005	SCF ubiquitin ligase complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/GO_0034753	nuclear aryl hydrocarbon receptor complex	http://purl.obolibrary.org/obo/GO_0034751	aryl hydrocarbon receptor complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/GO_0000228	nuclear chromosome	http://purl.obolibrary.org/obo/GO_0005694	chromosome	http://purl.obolibrary.org/obo/GO_0005634	nucleus
-http://purl.obolibrary.org/obo/GO_0000798	nuclear cohesin complex	http://purl.obolibrary.org/obo/GO_0008278	cohesin complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/GO_0019908	nuclear cyclin-dependent protein kinase holoenzyme complex	http://purl.obolibrary.org/obo/GO_0000307	cyclin-dependent protein kinase holoenzyme complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/GO_0000176	nuclear exosome (RNase complex)	http://purl.obolibrary.org/obo/GO_0000178	exosome (RNase complex)	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/GO_0042405	nuclear inclusion body	http://purl.obolibrary.org/obo/GO_0016234	inclusion body	http://purl.obolibrary.org/obo/GO_0005634	nucleus
