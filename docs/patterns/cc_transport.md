@@ -41,10 +41,7 @@ TODO
 
 *See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/cc_transport.tsv)*
 
-| defined_class | defined_class_label | cellular_component | cellular_component_label |
-|:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_0032402](http://purl.obolibrary.org/obo/GO_0032402) | melanosome transport | [http://purl.obolibrary.org/obo/GO_0042470](http://purl.obolibrary.org/obo/GO_0042470) | melanosome |
-| [http://purl.obolibrary.org/obo/GO_0051904](http://purl.obolibrary.org/obo/GO_0051904) | pigment granule transport | [http://purl.obolibrary.org/obo/GO_0048770](http://purl.obolibrary.org/obo/GO_0048770) | pigment granule |
-| [http://purl.obolibrary.org/obo/GO_0015869](http://purl.obolibrary.org/obo/GO_0015869) | protein-DNA complex transport | [http://purl.obolibrary.org/obo/GO_0032993](http://purl.obolibrary.org/obo/GO_0032993) | protein-DNA complex |
-| [http://purl.obolibrary.org/obo/GO_0048489](http://purl.obolibrary.org/obo/GO_0048489) | synaptic vesicle transport | [http://purl.obolibrary.org/obo/GO_0008021](http://purl.obolibrary.org/obo/GO_0008021) | synaptic vesicle |
+|  |
+|
+
 

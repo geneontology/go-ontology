@@ -45,7 +45,7 @@ TODO
 |:--|:--|:--|:--|
 | [http://purl.obolibrary.org/obo/GO_0021597](http://purl.obolibrary.org/obo/GO_0021597) | central nervous system structural organization | [http://purl.obolibrary.org/obo/UBERON_0001017](http://purl.obolibrary.org/obo/UBERON_0001017) | central nervous system |
 | [http://purl.obolibrary.org/obo/GO_0021589](http://purl.obolibrary.org/obo/GO_0021589) | cerebellum structural organization | [http://purl.obolibrary.org/obo/UBERON_0002037](http://purl.obolibrary.org/obo/UBERON_0002037) | cerebellum |
+| [http://purl.obolibrary.org/obo/GO_0021577](http://purl.obolibrary.org/obo/GO_0021577) | hindbrain structural organization | [http://purl.obolibrary.org/obo/UBERON_0002028](http://purl.obolibrary.org/obo/UBERON_0002028) | hindbrain |
 | [http://purl.obolibrary.org/obo/GO_0021581](http://purl.obolibrary.org/obo/GO_0021581) | medulla oblongata structural organization | [http://purl.obolibrary.org/obo/UBERON_0001896](http://purl.obolibrary.org/obo/UBERON_0001896) | medulla oblongata |
 | [http://purl.obolibrary.org/obo/GO_0048338](http://purl.obolibrary.org/obo/GO_0048338) | mesoderm structural organization | [http://purl.obolibrary.org/obo/UBERON_0000926](http://purl.obolibrary.org/obo/UBERON_0000926) | mesoderm |
-| [http://purl.obolibrary.org/obo/GO_0021552](http://purl.obolibrary.org/obo/GO_0021552) | midbrain-hindbrain boundary structural organization | [http://purl.obolibrary.org/obo/UBERON_0003052](http://purl.obolibrary.org/obo/UBERON_0003052) | midbrain-hindbrain boundary |
 

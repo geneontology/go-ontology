@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[molecular function regulator](http://purl.obolibrary.org/obo/GO_0098772)  and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some `{regulated_activity}`)
+[molecular function regulator activity](http://purl.obolibrary.org/obo/GO_0098772)  and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some `{regulated_activity}`)
 
 
 

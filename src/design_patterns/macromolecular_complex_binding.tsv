@@ -175,7 +175,6 @@ http://purl.obolibrary.org/obo/GO_0001540	amyloid-beta binding	http://purl.oboli
 http://purl.obolibrary.org/obo/GO_2001066	amylopectin binding	http://purl.obolibrary.org/obo/CHEBI_28057	amylopectin
 http://purl.obolibrary.org/obo/GO_0010997	anaphase-promoting complex binding	http://purl.obolibrary.org/obo/GO_0005680	anaphase-promoting complex
 http://purl.obolibrary.org/obo/GO_0005497	androgen binding	http://purl.obolibrary.org/obo/GOCHE_50113	substance with androgen role
-http://purl.obolibrary.org/obo/GO_0050681	androgen receptor binding	http://purl.obolibrary.org/obo/PR_000004191	androgen receptor
 http://purl.obolibrary.org/obo/GO_0043168	anion binding	http://purl.obolibrary.org/obo/CHEBI_22563	anion
 http://purl.obolibrary.org/obo/GO_0031704	apelin receptor binding	http://purl.obolibrary.org/obo/PR_000001120	apelin receptor
 http://purl.obolibrary.org/obo/GO_0034186	apolipoprotein A-I binding	http://purl.obolibrary.org/obo/PR_000004140	apolipoprotein A-I
@@ -326,7 +325,6 @@ http://purl.obolibrary.org/obo/GO_0051379	epinephrine binding	http://purl.obolib
 http://purl.obolibrary.org/obo/GO_0005128	erythropoietin receptor binding	http://purl.obolibrary.org/obo/PR_000007142	erythropoietin receptor
 http://purl.obolibrary.org/obo/GO_1903924	estradiol binding	http://purl.obolibrary.org/obo/CHEBI_23965	estradiol
 http://purl.obolibrary.org/obo/GO_0099130	estrogen binding	http://purl.obolibrary.org/obo/GOCHE_50114	substance with estrogen role
-http://purl.obolibrary.org/obo/GO_0030331	estrogen receptor binding	http://purl.obolibrary.org/obo/PR_000007204	estrogen receptor
 http://purl.obolibrary.org/obo/GO_0035276	ethanol binding	http://purl.obolibrary.org/obo/CHEBI_16236	ethanol
 http://purl.obolibrary.org/obo/GO_0051740	ethylene binding	http://purl.obolibrary.org/obo/CHEBI_18153	ethene
 http://purl.obolibrary.org/obo/GO_1990188	euchromatin binding	http://purl.obolibrary.org/obo/GO_0000791	euchromatin
@@ -368,7 +366,6 @@ http://purl.obolibrary.org/obo/GO_0031709	gastrin-releasing peptide receptor bin
 http://purl.obolibrary.org/obo/GO_0031768	ghrelin receptor binding	http://purl.obolibrary.org/obo/PR_000001225	growth hormone secretagogue receptor
 http://purl.obolibrary.org/obo/GO_0010331	gibberellin binding	http://purl.obolibrary.org/obo/CHEBI_24250	gibberellin
 http://purl.obolibrary.org/obo/GO_0031769	glucagon receptor binding	http://purl.obolibrary.org/obo/PR_000007892	glucagon receptor
-http://purl.obolibrary.org/obo/GO_0035259	glucocorticoid receptor binding	http://purl.obolibrary.org/obo/PR_000011406	glucocorticoid receptor
 http://purl.obolibrary.org/obo/GO_2001063	glucomannan binding	http://purl.obolibrary.org/obo/CHEBI_17020	glucomannan
 http://purl.obolibrary.org/obo/GO_0005536	glucose binding	http://purl.obolibrary.org/obo/CHEBI_17234	glucose
 http://purl.obolibrary.org/obo/GO_0016595	glutamate binding	http://purl.obolibrary.org/obo/CHEBI_14321	glutamate(1-)
@@ -412,7 +409,6 @@ http://purl.obolibrary.org/obo/GO_1902314	hydroquinone binding	http://purl.oboli
 http://purl.obolibrary.org/obo/GO_0046848	hydroxyapatite binding	http://purl.obolibrary.org/obo/CHEBI_52255	hydroxylapatite
 http://purl.obolibrary.org/obo/GO_0033295	hydroxyectoine binding	http://purl.obolibrary.org/obo/CHEBI_85413	5-hydroxyectoine zwitterion
 http://purl.obolibrary.org/obo/GO_1901531	hypochlorite binding	http://purl.obolibrary.org/obo/CHEBI_24757	hypochlorous acid
-http://purl.obolibrary.org/obo/GO_0042324	hypocretin receptor binding	http://purl.obolibrary.org/obo/PR_000001499	orexin receptor
 http://purl.obolibrary.org/obo/GO_0050542	icosanoid binding	http://purl.obolibrary.org/obo/CHEBI_62937	icosanoid anion
 http://purl.obolibrary.org/obo/GO_0050543	icosatetraenoic acid binding	http://purl.obolibrary.org/obo/CHEBI_62920	icosatetraenoate
 http://purl.obolibrary.org/obo/GO_0034710	inhibin complex binding	http://purl.obolibrary.org/obo/GO_0043511	inhibin complex
@@ -423,7 +419,6 @@ http://purl.obolibrary.org/obo/GO_0043559	insulin binding	http://purl.obolibrary
 http://purl.obolibrary.org/obo/GO_0005158	insulin receptor binding	http://purl.obolibrary.org/obo/PR_000009064	insulin receptor
 http://purl.obolibrary.org/obo/GO_0031994	insulin-like growth factor I binding	http://purl.obolibrary.org/obo/PR_000009182	insulin-like growth factor I
 http://purl.obolibrary.org/obo/GO_0031995	insulin-like growth factor II binding	http://purl.obolibrary.org/obo/PR_000008942	insulin-like growth factor II
-http://purl.obolibrary.org/obo/GO_0019964	interferon-gamma binding	http://purl.obolibrary.org/obo/PR_000000017	interferon gamma
 http://purl.obolibrary.org/obo/GO_0019966	interleukin-1 binding	http://purl.obolibrary.org/obo/PR_000001091	interleukin-1
 http://purl.obolibrary.org/obo/GO_0019969	interleukin-10 binding	http://purl.obolibrary.org/obo/PR_000001471	interleukin-10
 http://purl.obolibrary.org/obo/GO_0019970	interleukin-11 binding	http://purl.obolibrary.org/obo/PR_000001366	interleukin-11
@@ -516,7 +511,6 @@ http://purl.obolibrary.org/obo/GO_0050436	microfibril binding	http://purl.obolib
 http://purl.obolibrary.org/obo/GO_0008017	microtubule binding	http://purl.obolibrary.org/obo/GO_0005874	microtubule
 http://purl.obolibrary.org/obo/GO_0051011	microtubule minus-end binding	http://purl.obolibrary.org/obo/GO_0036449	microtubule minus-end
 http://purl.obolibrary.org/obo/GO_0051010	microtubule plus-end binding	http://purl.obolibrary.org/obo/GO_0035371	microtubule plus-end
-http://purl.obolibrary.org/obo/GO_0031962	mineralocorticoid receptor binding	http://purl.obolibrary.org/obo/PR_000011407	mineralocorticoid receptor
 http://purl.obolibrary.org/obo/GO_0032404	mismatch repair complex binding	http://purl.obolibrary.org/obo/GO_0032300	mismatch repair complex
 http://purl.obolibrary.org/obo/GO_0140260	mitochondrial proton-transporting ATP synthase complex binding	http://purl.obolibrary.org/obo/GO_0005753	mitochondrial proton-transporting ATP synthase complex
 http://purl.obolibrary.org/obo/GO_0097177	mitochondrial ribosome binding	http://purl.obolibrary.org/obo/GO_0005761	mitochondrial ribosome
@@ -539,7 +533,13 @@ http://purl.obolibrary.org/obo/GO_0016151	nickel cation binding	http://purl.obol
 http://purl.obolibrary.org/obo/GO_0070026	nitric oxide binding	http://purl.obolibrary.org/obo/CHEBI_35196	nitrogen oxide
 http://purl.obolibrary.org/obo/GO_0031853	nociceptin receptor binding	http://purl.obolibrary.org/obo/PR_000001631	nociceptin receptor
 http://purl.obolibrary.org/obo/GO_0038100	nodal binding	http://purl.obolibrary.org/obo/PR_000000105	nodal protein
-http://purl.obolibrary.org/obo/GO_0051380	norepinephrine binding	http://purl.obolibrary.org/obo/CHEBI_33569	noradrenaline
+http://purl.obolibrary.org/obo/GO_0051380	norepinephrine binding	http://purl.obolibrary.org/obo/CHEBI_72587	(R)-noradrenaline(1+)
+http://purl.obolibrary.org/obo/GO_0050681	nuclear androgen receptor binding	http://purl.obolibrary.org/obo/PR_000004191	androgen receptor
+http://purl.obolibrary.org/obo/GO_0030331	nuclear estrogen receptor binding	http://purl.obolibrary.org/obo/PR_000007204	estrogen receptor
+http://purl.obolibrary.org/obo/GO_0035259	nuclear glucocorticoid receptor binding	http://purl.obolibrary.org/obo/PR_000011406	glucocorticoid receptor
+http://purl.obolibrary.org/obo/GO_0031962	nuclear mineralocorticoid receptor binding	http://purl.obolibrary.org/obo/PR_000011407	mineralocorticoid receptor
+http://purl.obolibrary.org/obo/GO_0033142	nuclear progesterone receptor binding	http://purl.obolibrary.org/obo/PR_000012621	progesterone receptor
+http://purl.obolibrary.org/obo/GO_0042809	nuclear vitamin D receptor binding	http://purl.obolibrary.org/obo/PR_000017283	vitamin D3 receptor
 http://purl.obolibrary.org/obo/GO_0003676	nucleic acid binding	http://purl.obolibrary.org/obo/CHEBI_33696	nucleic acid
 http://purl.obolibrary.org/obo/GO_0002054	nucleobase binding	http://purl.obolibrary.org/obo/CHEBI_18282	nucleobase
 http://purl.obolibrary.org/obo/GO_0001882	nucleoside binding	http://purl.obolibrary.org/obo/CHEBI_33838	nucleoside
@@ -553,6 +553,7 @@ http://purl.obolibrary.org/obo/GO_0070492	oligosaccharide binding	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0062062	oligosaccharyltransferase complex binding	http://purl.obolibrary.org/obo/GO_0008250	oligosaccharyltransferase complex
 http://purl.obolibrary.org/obo/GO_0031628	opioid receptor binding	http://purl.obolibrary.org/obo/PR_000001497	opioid receptor protein
 http://purl.obolibrary.org/obo/GO_0031854	orexigenic neuropeptide QRFP receptor binding	http://purl.obolibrary.org/obo/PR_000001498	pyroglutamylated RF-amide peptide receptor
+http://purl.obolibrary.org/obo/GO_0042324	orexin receptor binding	http://purl.obolibrary.org/obo/PR_000001499	orexin receptor
 http://purl.obolibrary.org/obo/GO_0043177	organic acid binding	http://purl.obolibrary.org/obo/CHEBI_64709	organic acid
 http://purl.obolibrary.org/obo/GO_0097159	organic cyclic compound binding	http://purl.obolibrary.org/obo/CHEBI_33832	organic cyclic compound
 http://purl.obolibrary.org/obo/GO_0019825	oxygen binding	http://purl.obolibrary.org/obo/CHEBI_15379	dioxygen
@@ -596,7 +597,6 @@ http://purl.obolibrary.org/obo/GO_1905538	polysome binding	http://purl.obolibrar
 http://purl.obolibrary.org/obo/GO_0030955	potassium ion binding	http://purl.obolibrary.org/obo/CHEBI_29103	potassium(1+)
 http://purl.obolibrary.org/obo/GO_0120233	prenyl-FMNH2 binding	http://purl.obolibrary.org/obo/CHEBI_87467	prenyl-FMNH2(2-)
 http://purl.obolibrary.org/obo/GO_1990275	preribosome binding	http://purl.obolibrary.org/obo/GO_0030684	preribosome
-http://purl.obolibrary.org/obo/GO_0033142	progesterone receptor binding	http://purl.obolibrary.org/obo/PR_000012621	progesterone receptor
 http://purl.obolibrary.org/obo/GO_0005148	prolactin receptor binding	http://purl.obolibrary.org/obo/PR_000013248	prolactin receptor
 http://purl.obolibrary.org/obo/GO_0031861	prolactin-releasing peptide receptor binding	http://purl.obolibrary.org/obo/PR_000001546	prolactin-releasing peptide receptor
 http://purl.obolibrary.org/obo/GO_1901973	proline binding	http://purl.obolibrary.org/obo/CHEBI_26271	proline
@@ -684,7 +684,7 @@ http://purl.obolibrary.org/obo/GO_0032934	sterol binding	http://purl.obolibrary.
 http://purl.obolibrary.org/obo/GO_0120226	succinyl-CoA binding	http://purl.obolibrary.org/obo/CHEBI_57292	succinyl-CoA(5-)
 http://purl.obolibrary.org/obo/GO_0043199	sulfate binding	http://purl.obolibrary.org/obo/CHEBI_16189	sulfate
 http://purl.obolibrary.org/obo/GO_1901681	sulfur compound binding	http://purl.obolibrary.org/obo/CHEBI_26835	sulfur molecular entity
-http://purl.obolibrary.org/obo/GO_0043924	suramin binding	http://purl.obolibrary.org/obo/CHEBI_45906	suramin
+http://purl.obolibrary.org/obo/GO_0043924	suramin binding	http://purl.obolibrary.org/obo/CHEBI_180911	suramin(6-)
 http://purl.obolibrary.org/obo/GO_0030348	syntaxin-3 binding	http://purl.obolibrary.org/obo/PR_000015795	syntaxin-3
 http://purl.obolibrary.org/obo/GO_1904483	synthetic cannabinoid binding	http://purl.obolibrary.org/obo/CHEBI_67201	synthetic cannabinoid
 http://purl.obolibrary.org/obo/GO_0000049	tRNA binding	http://purl.obolibrary.org/obo/CHEBI_17843	transfer RNA
@@ -717,6 +717,7 @@ http://purl.obolibrary.org/obo/GO_1901359	tungstate binding	http://purl.obolibra
 http://purl.obolibrary.org/obo/GO_0031872	type 1 proteinase activated receptor binding	http://purl.obolibrary.org/obo/PR_000001661	proteinase-activated receptor 1
 http://purl.obolibrary.org/obo/GO_0005111	type 2 fibroblast growth factor receptor binding	http://purl.obolibrary.org/obo/PR_000001449	fibroblast growth factor receptor 2
 http://purl.obolibrary.org/obo/GO_0019962	type I interferon binding	http://purl.obolibrary.org/obo/PR_000025848	type I interferon
+http://purl.obolibrary.org/obo/GO_0019964	type II interferon binding	http://purl.obolibrary.org/obo/PR_000000017	interferon gamma
 http://purl.obolibrary.org/obo/GO_0034347	type III interferon binding	http://purl.obolibrary.org/obo/PR_000028205	type III interferon
 http://purl.obolibrary.org/obo/GO_0072545	tyrosine binding	http://purl.obolibrary.org/obo/CHEBI_18186	tyrosine
 http://purl.obolibrary.org/obo/GO_0048039	ubiquinone binding	http://purl.obolibrary.org/obo/CHEBI_16389	ubiquinones
@@ -733,9 +734,8 @@ http://purl.obolibrary.org/obo/GO_0034189	very-low-density lipoprotein particle 
 http://purl.obolibrary.org/obo/GO_0017166	vinculin binding	http://purl.obolibrary.org/obo/PR_000017272	vinculin
 http://purl.obolibrary.org/obo/GO_0070279	vitamin B6 binding	http://purl.obolibrary.org/obo/CHEBI_27306	vitamin B6
 http://purl.obolibrary.org/obo/GO_0005499	vitamin D binding	http://purl.obolibrary.org/obo/CHEBI_27300	vitamin D
-http://purl.obolibrary.org/obo/GO_0042809	vitamin D receptor binding	http://purl.obolibrary.org/obo/PR_000017283	vitamin D3 receptor
 http://purl.obolibrary.org/obo/GO_0008431	vitamin E binding	http://purl.obolibrary.org/obo/CHEBI_33234	vitamin E
-http://purl.obolibrary.org/obo/GO_0019842	vitamin binding	http://purl.obolibrary.org/obo/GOCHE_33229	substance with vitamin role
+http://purl.obolibrary.org/obo/GO_0019842	vitamin binding	http://purl.obolibrary.org/obo/GOCHE_33229	substance with vitamin (role) role
 http://purl.obolibrary.org/obo/GO_0051738	xanthophyll binding	http://purl.obolibrary.org/obo/CHEBI_27325	xanthophyll
 http://purl.obolibrary.org/obo/GO_2001062	xylan binding	http://purl.obolibrary.org/obo/CHEBI_37166	xylan
 http://purl.obolibrary.org/obo/GO_0033222	xylose binding	http://purl.obolibrary.org/obo/CHEBI_18222	xylose

@@ -29,6 +29,7 @@ http://purl.obolibrary.org/obo/GO_0032186	cellular bud neck septin ring organiza
 http://purl.obolibrary.org/obo/GO_0010215	cellulose microfibril organization	http://purl.obolibrary.org/obo/GO_0009549	cellulose microfibril
 http://purl.obolibrary.org/obo/GO_0007098	centrosome cycle	http://purl.obolibrary.org/obo/GO_0005813	centrosome
 http://purl.obolibrary.org/obo/GO_0009658	chloroplast organization	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0006325	chromatin organization	http://purl.obolibrary.org/obo/GO_0000785	chromatin
 http://purl.obolibrary.org/obo/GO_0009661	chromoplast organization	http://purl.obolibrary.org/obo/GO_0009509	chromoplast
 http://purl.obolibrary.org/obo/GO_0051276	chromosome organization	http://purl.obolibrary.org/obo/GO_0005694	chromosome
 http://purl.obolibrary.org/obo/GO_0032053	ciliary basal body organization	http://purl.obolibrary.org/obo/GO_0036064	ciliary basal body
@@ -63,7 +64,6 @@ http://purl.obolibrary.org/obo/GO_0110009	formin-nucleated actin cable organizat
 http://purl.obolibrary.org/obo/GO_0031505	fungal-type cell wall organization	http://purl.obolibrary.org/obo/GO_0009277	fungal-type cell wall
 http://purl.obolibrary.org/obo/GO_0045478	fusome organization	http://purl.obolibrary.org/obo/GO_0045169	fusome
 http://purl.obolibrary.org/obo/GO_0010111	glyoxysome organization	http://purl.obolibrary.org/obo/GO_0009514	glyoxysome
-http://purl.obolibrary.org/obo/GO_0070828	heterochromatin organization	http://purl.obolibrary.org/obo/GO_0000792	heterochromatin
 http://purl.obolibrary.org/obo/GO_0032118	horsetail-astral microtubule organization	http://purl.obolibrary.org/obo/GO_0032117	horsetail-astral microtubule array
 http://purl.obolibrary.org/obo/GO_0007007	inner mitochondrial membrane organization	http://purl.obolibrary.org/obo/GO_0005743	mitochondrial inner membrane
 http://purl.obolibrary.org/obo/GO_0043063	intercellular bridge organization	http://purl.obolibrary.org/obo/GO_0045171	intercellular bridge
@@ -111,7 +111,6 @@ http://purl.obolibrary.org/obo/GO_0032122	oral apparatus organization	http://pur
 http://purl.obolibrary.org/obo/GO_0006996	organelle organization	http://purl.obolibrary.org/obo/GO_0043226	organelle
 http://purl.obolibrary.org/obo/GO_0007008	outer mitochondrial membrane organization	http://purl.obolibrary.org/obo/GO_0005741	mitochondrial outer membrane
 http://purl.obolibrary.org/obo/GO_0031504	peptidoglycan-based cell wall organization	http://purl.obolibrary.org/obo/GO_0009274	peptidoglycan-based cell wall
-http://purl.obolibrary.org/obo/GO_0140462	pericentric heterochromatin organization	http://purl.obolibrary.org/obo/GO_0005721	pericentric heterochromatin
 http://purl.obolibrary.org/obo/GO_0043580	periplasmic space organization	http://purl.obolibrary.org/obo/GO_0042597	periplasmic space
 http://purl.obolibrary.org/obo/GO_0007031	peroxisome organization	http://purl.obolibrary.org/obo/GO_0005777	peroxisome
 http://purl.obolibrary.org/obo/GO_0035845	photoreceptor cell outer segment organization	http://purl.obolibrary.org/obo/GO_0001750	photoreceptor outer segment

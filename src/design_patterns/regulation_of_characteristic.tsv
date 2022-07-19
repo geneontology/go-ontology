@@ -13,23 +13,18 @@ http://purl.obolibrary.org/obo/GO_0016243	regulation of autophagosome size	http:
 http://purl.obolibrary.org/obo/GO_0031133	regulation of axon diameter	http://purl.obolibrary.org/obo/OBA_0000023	axon diameter
 http://purl.obolibrary.org/obo/GO_0065008	regulation of biological quality	http://purl.obolibrary.org/obo/OBA_0000001	biological attribute
 http://purl.obolibrary.org/obo/GO_0050878	regulation of body fluid levels	http://purl.obolibrary.org/obo/OBA_0000036	body fluid levels
-http://purl.obolibrary.org/obo/GO_0060378	regulation of brood size	http://purl.obolibrary.org/obo/OBA_0000037	brood size
-http://purl.obolibrary.org/obo/GO_0031413	regulation of buoyancy	http://purl.obolibrary.org/obo/OBA_0000039	buoyancy
 http://purl.obolibrary.org/obo/GO_0086036	regulation of cardiac muscle cell membrane potential	http://purl.obolibrary.org/obo/OBA_0000046	cardiac muscle cell membrane potential
 http://purl.obolibrary.org/obo/GO_0060305	regulation of cell diameter	http://purl.obolibrary.org/obo/OBA_0000048	cell diameter
 http://purl.obolibrary.org/obo/GO_0032536	regulation of cell projection size	http://purl.obolibrary.org/obo/OBA_0000051	cell projection size
-http://purl.obolibrary.org/obo/GO_0008360	regulation of cell shape	http://purl.obolibrary.org/obo/OBA_0000052	cell shape
 http://purl.obolibrary.org/obo/GO_0008361	regulation of cell size	http://purl.obolibrary.org/obo/OBA_0000055	cell size
 http://purl.obolibrary.org/obo/GO_0032535	regulation of cellular component size	http://purl.obolibrary.org/obo/OBA_0000057	cellular component size
 http://purl.obolibrary.org/obo/GO_0044537	regulation of circulating fibrinogen levels	http://purl.obolibrary.org/obo/OBA_0000061	circulating fibrinogen levels
 http://purl.obolibrary.org/obo/GO_0061389	regulation of direction of cell growth	http://purl.obolibrary.org/obo/OBA_0000066	direction of cell growth
-http://purl.obolibrary.org/obo/GO_0016476	regulation of embryonic cell shape	http://purl.obolibrary.org/obo/OBA_0000067	embryonic cell shape
 http://purl.obolibrary.org/obo/GO_0051036	regulation of endosome size	http://purl.obolibrary.org/obo/OBA_0000068	endosome size
 http://purl.obolibrary.org/obo/GO_0032533	regulation of follicle cell microvillus length	http://purl.obolibrary.org/obo/OBA_0000072	follicle cell microvillus length
-http://purl.obolibrary.org/obo/GO_0002027	regulation of heart rate	http://purl.obolibrary.org/obo/OBA_0000074	heart contraction rate
+http://purl.obolibrary.org/obo/GO_0002027	regulation of heart rate	http://purl.obolibrary.org/obo/OBA_1001087	heart rate
 http://purl.obolibrary.org/obo/GO_0010817	regulation of hormone levels	http://purl.obolibrary.org/obo/OBA_0000079	hormone levels
 http://purl.obolibrary.org/obo/GO_0044719	regulation of imaginal disc-derived wing size	http://purl.obolibrary.org/obo/OBA_0000084	imaginal disc-derived wing size
-http://purl.obolibrary.org/obo/GO_0051453	regulation of intracellular pH	http://purl.obolibrary.org/obo/OBA_0000050	cell pH
 http://purl.obolibrary.org/obo/GO_0050828	regulation of liquid surface tension	http://purl.obolibrary.org/obo/OBA_0000088	liquid surface tension
 http://purl.obolibrary.org/obo/GO_0048169	regulation of long-term neuronal synaptic plasticity	http://purl.obolibrary.org/obo/OBA_0000089	long-term neuronal synaptic plasticity
 http://purl.obolibrary.org/obo/GO_0014916	regulation of lung blood pressure	http://purl.obolibrary.org/obo/OBA_0000090	lung blood pressure

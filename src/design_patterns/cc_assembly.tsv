@@ -1,7 +1,6 @@
 defined_class	defined_class_label	target	target_label
 http://purl.obolibrary.org/obo/GO_0034463	90S preribosome assembly	http://purl.obolibrary.org/obo/GO_0030686	90S preribosome
 http://purl.obolibrary.org/obo/GO_1904745	Atg1/ULK1 kinase complex assembly	http://purl.obolibrary.org/obo/GO_1990316	Atg1/ULK1 kinase complex
-http://purl.obolibrary.org/obo/GO_0034080	CENP-A containing chromatin assembly	http://purl.obolibrary.org/obo/GO_0043505	CENP-A containing nucleosome
 http://purl.obolibrary.org/obo/GO_0010387	COP9 signalosome assembly	http://purl.obolibrary.org/obo/GO_0008180	COP9 signalosome
 http://purl.obolibrary.org/obo/GO_0048208	COPII vesicle coating	http://purl.obolibrary.org/obo/GO_0030127	COPII vesicle coat
 http://purl.obolibrary.org/obo/GO_0071255	Cvt vesicle assembly	http://purl.obolibrary.org/obo/GO_0033107	Cvt vesicle
@@ -89,7 +88,6 @@ http://purl.obolibrary.org/obo/GO_0034508	centromere complex assembly	http://pur
 http://purl.obolibrary.org/obo/GO_1904763	chaperone-mediated autophagy translocation complex assembly	http://purl.obolibrary.org/obo/GO_0061742	chaperone-mediated autophagy translocation complex
 http://purl.obolibrary.org/obo/GO_0051026	chiasma assembly	http://purl.obolibrary.org/obo/GO_0005712	chiasma
 http://purl.obolibrary.org/obo/GO_0033614	chloroplast proton-transporting ATP synthase complex assembly	http://purl.obolibrary.org/obo/GO_0045320	chloroplast proton-transporting ATP synthase complex
-http://purl.obolibrary.org/obo/GO_0031497	chromatin assembly	http://purl.obolibrary.org/obo/GO_0000785	chromatin
 http://purl.obolibrary.org/obo/GO_0034378	chylomicron assembly	http://purl.obolibrary.org/obo/GO_0042627	chylomicron
 http://purl.obolibrary.org/obo/GO_0120273	ciliary centrin arm assembly	http://purl.obolibrary.org/obo/GO_0120269	ciliary centrin arm
 http://purl.obolibrary.org/obo/GO_1905352	ciliary necklace assembly	http://purl.obolibrary.org/obo/GO_0097538	ciliary necklace
@@ -138,7 +136,6 @@ http://purl.obolibrary.org/obo/GO_0016264	gap junction assembly	http://purl.obol
 http://purl.obolibrary.org/obo/GO_0090391	granum assembly	http://purl.obolibrary.org/obo/GO_0009542	granum
 http://purl.obolibrary.org/obo/GO_1902900	gut granule assembly	http://purl.obolibrary.org/obo/GO_0044840	gut granule
 http://purl.obolibrary.org/obo/GO_0031581	hemidesmosome assembly	http://purl.obolibrary.org/obo/GO_0030056	hemidesmosome
-http://purl.obolibrary.org/obo/GO_0031507	heterochromatin assembly	http://purl.obolibrary.org/obo/GO_0000792	heterochromatin
 http://purl.obolibrary.org/obo/GO_1902605	heterotrimeric G-protein complex assembly	http://purl.obolibrary.org/obo/GO_0005834	heterotrimeric G-protein complex
 http://purl.obolibrary.org/obo/GO_0034380	high-density lipoprotein particle assembly	http://purl.obolibrary.org/obo/GO_0034364	high-density lipoprotein particle
 http://purl.obolibrary.org/obo/GO_0036118	hyaluranon cable assembly	http://purl.obolibrary.org/obo/GO_0036117	hyaluranon cable
@@ -195,7 +192,6 @@ http://purl.obolibrary.org/obo/GO_0036158	outer dynein arm assembly	http://purl.
 http://purl.obolibrary.org/obo/GO_0120268	paraflagellar rod assembly	http://purl.obolibrary.org/obo/GO_0097740	paraflagellar rod
 http://purl.obolibrary.org/obo/GO_0030046	parallel actin filament bundle assembly	http://purl.obolibrary.org/obo/GO_0097518	parallel actin filament bundle
 http://purl.obolibrary.org/obo/GO_0030913	paranodal junction assembly	http://purl.obolibrary.org/obo/GO_0033010	paranodal junction
-http://purl.obolibrary.org/obo/GO_0031508	pericentric heterochromatin assembly	http://purl.obolibrary.org/obo/GO_0005721	pericentric heterochromatin
 http://purl.obolibrary.org/obo/GO_0001845	phagolysosome assembly	http://purl.obolibrary.org/obo/GO_0032010	phagolysosome
 http://purl.obolibrary.org/obo/GO_0048564	photosystem I assembly	http://purl.obolibrary.org/obo/GO_0009522	photosystem I
 http://purl.obolibrary.org/obo/GO_0010207	photosystem II assembly	http://purl.obolibrary.org/obo/GO_0009523	photosystem II
@@ -212,6 +208,7 @@ http://purl.obolibrary.org/obo/GO_0071800	podosome assembly	http://purl.obolibra
 http://purl.obolibrary.org/obo/GO_0007315	pole plasm assembly	http://purl.obolibrary.org/obo/GO_0045495	pole plasm
 http://purl.obolibrary.org/obo/GO_0062075	pollen aperture formation	http://purl.obolibrary.org/obo/GO_0062074	pollen aperture
 http://purl.obolibrary.org/obo/GO_0010584	pollen exine formation	http://purl.obolibrary.org/obo/GO_0043668	exine
+http://purl.obolibrary.org/obo/GO_0160030	pollen intine formation	http://purl.obolibrary.org/obo/GO_0043678	intine
 http://purl.obolibrary.org/obo/GO_0010208	pollen wall assembly	http://purl.obolibrary.org/obo/GO_0043667	pollen wall
 http://purl.obolibrary.org/obo/GO_0046931	pore complex assembly	http://purl.obolibrary.org/obo/GO_0046930	pore complex
 http://purl.obolibrary.org/obo/GO_0036388	pre-replicative complex assembly	http://purl.obolibrary.org/obo/GO_0036387	pre-replicative complex

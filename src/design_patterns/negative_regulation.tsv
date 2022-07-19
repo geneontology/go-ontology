@@ -66,7 +66,6 @@ http://purl.obolibrary.org/obo/GO_2000453	negative regulation of CD8-positive, a
 http://purl.obolibrary.org/obo/GO_0150144	negative regulation of CD80 production	http://purl.obolibrary.org/obo/GO_0035780	CD80 biosynthetic process
 http://purl.obolibrary.org/obo/GO_0150141	negative regulation of CD86 production	http://purl.obolibrary.org/obo/GO_0035781	CD86 biosynthetic process
 http://purl.obolibrary.org/obo/GO_1904218	negative regulation of CDP-diacylglycerol-serine O-phosphatidyltransferase activity	http://purl.obolibrary.org/obo/GO_0003882	CDP-diacylglycerol-serine O-phosphatidyltransferase activity
-http://purl.obolibrary.org/obo/GO_1903098	negative regulation of CENP-A containing nucleosome assembly	http://purl.obolibrary.org/obo/GO_0034080	CENP-A containing chromatin assembly
 http://purl.obolibrary.org/obo/GO_1905919	negative regulation of CoA-transferase activity	http://purl.obolibrary.org/obo/GO_0008410	CoA-transferase activity
 http://purl.obolibrary.org/obo/GO_1900758	negative regulation of D-amino-acid oxidase activity	http://purl.obolibrary.org/obo/GO_0003884	D-amino-acid oxidase activity
 http://purl.obolibrary.org/obo/GO_0140216	negative regulation of D-aspartate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0070779	D-aspartate import across plasma membrane
@@ -86,7 +85,7 @@ http://purl.obolibrary.org/obo/GO_1904876	negative regulation of DNA ligase acti
 http://purl.obolibrary.org/obo/GO_0051107	negative regulation of DNA ligation	http://purl.obolibrary.org/obo/GO_0006266	DNA ligation
 http://purl.obolibrary.org/obo/GO_0051053	negative regulation of DNA metabolic process	http://purl.obolibrary.org/obo/GO_0006259	DNA metabolic process
 http://purl.obolibrary.org/obo/GO_1905642	negative regulation of DNA methylation	http://purl.obolibrary.org/obo/GO_0006306	DNA methylation
-http://purl.obolibrary.org/obo/GO_0090310	negative regulation of DNA methylation-dependent heterochromatin assembly	http://purl.obolibrary.org/obo/GO_0006346	DNA methylation-dependent heterochromatin assembly
+http://purl.obolibrary.org/obo/GO_0090310	negative regulation of DNA methylation-dependent heterochromatin formation	http://purl.obolibrary.org/obo/GO_0006346	DNA methylation-dependent heterochromatin formation
 http://purl.obolibrary.org/obo/GO_1904940	negative regulation of DNA nucleotidylexotransferase activity	http://purl.obolibrary.org/obo/GO_0003912	DNA nucleotidylexotransferase activity
 http://purl.obolibrary.org/obo/GO_1903933	negative regulation of DNA primase activity	http://purl.obolibrary.org/obo/GO_0003896	DNA primase activity
 http://purl.obolibrary.org/obo/GO_0062110	negative regulation of DNA recombinase disassembly	http://purl.obolibrary.org/obo/GO_1990986	DNA recombinase disassembly
@@ -101,9 +100,9 @@ http://purl.obolibrary.org/obo/GO_0043433	negative regulation of DNA-binding tra
 http://purl.obolibrary.org/obo/GO_1900263	negative regulation of DNA-directed DNA polymerase activity	http://purl.obolibrary.org/obo/GO_0003887	DNA-directed DNA polymerase activity
 http://purl.obolibrary.org/obo/GO_2000104	negative regulation of DNA-templated DNA replication	http://purl.obolibrary.org/obo/GO_0006261	DNA-templated DNA replication
 http://purl.obolibrary.org/obo/GO_0032297	negative regulation of DNA-templated DNA replication initiation	http://purl.obolibrary.org/obo/GO_0006270	DNA replication initiation
-http://purl.obolibrary.org/obo/GO_0032785	negative regulation of DNA-templated transcription, elongation	http://purl.obolibrary.org/obo/GO_0006354	DNA-templated transcription, elongation
-http://purl.obolibrary.org/obo/GO_2000143	negative regulation of DNA-templated transcription, initiation	http://purl.obolibrary.org/obo/GO_0006352	DNA-templated transcription, initiation
-http://purl.obolibrary.org/obo/GO_0060567	negative regulation of DNA-templated transcription, termination	http://purl.obolibrary.org/obo/GO_0006353	DNA-templated transcription, termination
+http://purl.obolibrary.org/obo/GO_0045892	negative regulation of DNA-templated transcription	http://purl.obolibrary.org/obo/GO_0006351	DNA-templated transcription
+http://purl.obolibrary.org/obo/GO_2000143	negative regulation of DNA-templated transcription initiation	http://purl.obolibrary.org/obo/GO_0006352	DNA-templated transcription initiation
+http://purl.obolibrary.org/obo/GO_0032785	negative regulation of DNA-templated transcription, elongation	http://purl.obolibrary.org/obo/GO_0006354	DNA-templated transcription elongation
 http://purl.obolibrary.org/obo/GO_1903070	negative regulation of ER-associated ubiquitin-dependent protein catabolic process	http://purl.obolibrary.org/obo/GO_0030433	ubiquitin-dependent ERAD pathway
 http://purl.obolibrary.org/obo/GO_1904293	negative regulation of ERAD pathway	http://purl.obolibrary.org/obo/GO_0036503	ERAD pathway
 http://purl.obolibrary.org/obo/GO_1901185	negative regulation of ERBB signaling pathway	http://purl.obolibrary.org/obo/GO_0038127	ERBB signaling pathway
@@ -194,7 +193,6 @@ http://purl.obolibrary.org/obo/GO_1902369	negative regulation of RNA catabolic p
 http://purl.obolibrary.org/obo/GO_0046832	negative regulation of RNA export from nucleus	http://purl.obolibrary.org/obo/GO_0006405	RNA export from nucleus
 http://purl.obolibrary.org/obo/GO_1902281	negative regulation of RNA helicase activity	http://purl.obolibrary.org/obo/GO_0003724	RNA helicase activity
 http://purl.obolibrary.org/obo/GO_0046829	negative regulation of RNA import into nucleus	http://purl.obolibrary.org/obo/GO_0006404	RNA import into nucleus
-http://purl.obolibrary.org/obo/GO_1900369	negative regulation of RNA interference	http://purl.obolibrary.org/obo/GO_0016246	RNA interference
 http://purl.obolibrary.org/obo/GO_0051253	negative regulation of RNA metabolic process	http://purl.obolibrary.org/obo/GO_0016070	RNA metabolic process
 http://purl.obolibrary.org/obo/GO_1901840	negative regulation of RNA polymerase I regulatory region sequence-specific DNA binding	http://purl.obolibrary.org/obo/GO_0001163	RNA polymerase I transcription regulatory region sequence-specific DNA binding
 http://purl.obolibrary.org/obo/GO_1903026	negative regulation of RNA polymerase II regulatory region sequence-specific DNA binding	http://purl.obolibrary.org/obo/GO_0000977	RNA polymerase II transcription regulatory region sequence-specific DNA binding
@@ -256,6 +254,7 @@ http://purl.obolibrary.org/obo/GO_1904262	negative regulation of TORC1 signaling
 http://purl.obolibrary.org/obo/GO_1903940	negative regulation of TORC2 signaling	http://purl.obolibrary.org/obo/GO_0038203	TORC2 signaling
 http://purl.obolibrary.org/obo/GO_0032719	negative regulation of TRAIL production	http://purl.obolibrary.org/obo/GO_0032639	TRAIL production
 http://purl.obolibrary.org/obo/GO_1903122	negative regulation of TRAIL-activated apoptotic signaling pathway	http://purl.obolibrary.org/obo/GO_0036462	TRAIL-activated apoptotic signaling pathway
+http://purl.obolibrary.org/obo/GO_0160035	negative regulation of Toll receptor ligand protein activation cascade	http://purl.obolibrary.org/obo/GO_0160032	Toll receptor ligand protein activation cascade
 http://purl.obolibrary.org/obo/GO_0045751	negative regulation of Toll signaling pathway	http://purl.obolibrary.org/obo/GO_0008063	Toll signaling pathway
 http://purl.obolibrary.org/obo/GO_0106279	negative regulation of UDP-N-acetylglucosamine biosynthetic process	http://purl.obolibrary.org/obo/GO_0006048	UDP-N-acetylglucosamine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0010905	negative regulation of UDP-glucose catabolic process	http://purl.obolibrary.org/obo/GO_0006258	UDP-glucose catabolic process
@@ -427,8 +426,6 @@ http://purl.obolibrary.org/obo/GO_1902338	negative regulation of apoptotic proce
 http://purl.obolibrary.org/obo/GO_1902257	negative regulation of apoptotic process involved in outflow tract morphogenesis	http://purl.obolibrary.org/obo/GO_0003275	apoptotic process involved in outflow tract morphogenesis
 http://purl.obolibrary.org/obo/GO_2001234	negative regulation of apoptotic signaling pathway	http://purl.obolibrary.org/obo/GO_0097190	apoptotic signaling pathway
 http://purl.obolibrary.org/obo/GO_0075019	negative regulation of appressorium formation	http://purl.obolibrary.org/obo/GO_0075016	appressorium formation
-http://purl.obolibrary.org/obo/GO_0075028	negative regulation of appressorium initiation	http://purl.obolibrary.org/obo/GO_0075025	initiation of appressorium formation
-http://purl.obolibrary.org/obo/GO_0075038	negative regulation of appressorium maturation	http://purl.obolibrary.org/obo/GO_0075035	appressorium maturation
 http://purl.obolibrary.org/obo/GO_2000922	negative regulation of arabinoxylan-containing compound catabolic process	http://purl.obolibrary.org/obo/GO_2000888	arabinoxylan-containing compound catabolic process
 http://purl.obolibrary.org/obo/GO_1900139	negative regulation of arachidonic acid secretion	http://purl.obolibrary.org/obo/GO_0050482	arachidonic acid secretion
 http://purl.obolibrary.org/obo/GO_0075331	negative regulation of arbuscule formation for nutrient acquisition from host	http://purl.obolibrary.org/obo/GO_0075328	formation of arbuscule for nutrient acquisition
@@ -528,7 +525,7 @@ http://purl.obolibrary.org/obo/GO_1900155	negative regulation of bone trabecula 
 http://purl.obolibrary.org/obo/GO_0030712	negative regulation of border follicle cell delamination	http://purl.obolibrary.org/obo/GO_0030709	border follicle cell delamination
 http://purl.obolibrary.org/obo/GO_1903687	negative regulation of border follicle cell migration	http://purl.obolibrary.org/obo/GO_0007298	border follicle cell migration
 http://purl.obolibrary.org/obo/GO_0031549	negative regulation of brain-derived neurotrophic factor receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0031547	brain-derived neurotrophic factor receptor signaling pathway
-http://purl.obolibrary.org/obo/GO_0031552	negative regulation of brain-derived neurotrophic factor-activated receptor activity	http://purl.obolibrary.org/obo/GO_0060175	brain-derived neurotrophic factor-activated receptor activity
+http://purl.obolibrary.org/obo/GO_0031552	negative regulation of brain-derived neurotrophic factor-activated receptor activity	http://purl.obolibrary.org/obo/GO_0060175	brain-derived neurotrophic factor receptor activity
 http://purl.obolibrary.org/obo/GO_0072096	negative regulation of branch elongation involved in ureteric bud branching	http://purl.obolibrary.org/obo/GO_0060681	branch elongation involved in ureteric bud branching
 http://purl.obolibrary.org/obo/GO_0061048	negative regulation of branching involved in lung morphogenesis	http://purl.obolibrary.org/obo/GO_0060441	epithelial tube branching involved in lung morphogenesis
 http://purl.obolibrary.org/obo/GO_0090191	negative regulation of branching involved in ureteric bud morphogenesis	http://purl.obolibrary.org/obo/GO_0001658	branching involved in ureteric bud morphogenesis
@@ -536,7 +533,6 @@ http://purl.obolibrary.org/obo/GO_2000173	negative regulation of branching morph
 http://purl.obolibrary.org/obo/GO_0014713	negative regulation of branchiomeric skeletal muscle development	http://purl.obolibrary.org/obo/GO_0014707	branchiomeric skeletal muscle development
 http://purl.obolibrary.org/obo/GO_0010423	negative regulation of brassinosteroid biosynthetic process	http://purl.obolibrary.org/obo/GO_0016132	brassinosteroid biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900458	negative regulation of brassinosteroid mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0009742	brassinosteroid mediated signaling pathway
-http://purl.obolibrary.org/obo/GO_1900859	negative regulation of brevianamide F biosynthetic process	http://purl.obolibrary.org/obo/GO_1900805	brevianamide F biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903444	negative regulation of brown fat cell differentiation	http://purl.obolibrary.org/obo/GO_0050873	brown fat cell differentiation
 http://purl.obolibrary.org/obo/GO_0070348	negative regulation of brown fat cell proliferation	http://purl.obolibrary.org/obo/GO_0070342	brown fat cell proliferation
 http://purl.obolibrary.org/obo/GO_0061112	negative regulation of bud outgrowth involved in lung branching	http://purl.obolibrary.org/obo/GO_0060447	bud outgrowth involved in lung branching
@@ -629,7 +625,6 @@ http://purl.obolibrary.org/obo/GO_1900188	negative regulation of cell adhesion i
 http://purl.obolibrary.org/obo/GO_0106089	negative regulation of cell adhesion involved in sprouting angiogenesis	http://purl.obolibrary.org/obo/GO_0120078	cell adhesion involved in sprouting angiogenesis
 http://purl.obolibrary.org/obo/GO_0033629	negative regulation of cell adhesion mediated by integrin	http://purl.obolibrary.org/obo/GO_0033627	cell adhesion mediated by integrin
 http://purl.obolibrary.org/obo/GO_0060354	negative regulation of cell adhesion molecule production	http://purl.obolibrary.org/obo/GO_0060352	cell adhesion molecule production
-http://purl.obolibrary.org/obo/GO_0090344	negative regulation of cell aging	http://purl.obolibrary.org/obo/GO_0007569	cell aging
 http://purl.obolibrary.org/obo/GO_0045781	negative regulation of cell budding	http://purl.obolibrary.org/obo/GO_0007114	cell budding
 http://purl.obolibrary.org/obo/GO_1904848	negative regulation of cell chemotaxis to fibroblast growth factor	http://purl.obolibrary.org/obo/GO_0035766	cell chemotaxis to fibroblast growth factor
 http://purl.obolibrary.org/obo/GO_0010648	negative regulation of cell communication	http://purl.obolibrary.org/obo/GO_0007154	cell communication
@@ -701,7 +696,6 @@ http://purl.obolibrary.org/obo/GO_0045763	negative regulation of cellular amino 
 http://purl.obolibrary.org/obo/GO_0031327	negative regulation of cellular biosynthetic process	http://purl.obolibrary.org/obo/GO_0044249	cellular biosynthetic process
 http://purl.obolibrary.org/obo/GO_0010677	negative regulation of cellular carbohydrate metabolic process	http://purl.obolibrary.org/obo/GO_0044262	cellular carbohydrate metabolic process
 http://purl.obolibrary.org/obo/GO_0031330	negative regulation of cellular catabolic process	http://purl.obolibrary.org/obo/GO_0044248	cellular catabolic process
-http://purl.obolibrary.org/obo/GO_0051271	negative regulation of cellular component movement	http://purl.obolibrary.org/obo/GO_0006928	movement of cell or subcellular component
 http://purl.obolibrary.org/obo/GO_0051129	negative regulation of cellular component organization	http://purl.obolibrary.org/obo/GO_0016043	cellular component organization
 http://purl.obolibrary.org/obo/GO_0051245	negative regulation of cellular defense response	http://purl.obolibrary.org/obo/GO_0006968	cellular defense response
 http://purl.obolibrary.org/obo/GO_0002692	negative regulation of cellular extravasation	http://purl.obolibrary.org/obo/GO_0045123	cellular extravasation
@@ -713,8 +707,6 @@ http://purl.obolibrary.org/obo/GO_0090350	negative regulation of cellular organo
 http://purl.obolibrary.org/obo/GO_0090349	negative regulation of cellular organohalogen metabolic process	http://purl.obolibrary.org/obo/GO_0090345	cellular organohalogen metabolic process
 http://purl.obolibrary.org/obo/GO_0032848	negative regulation of cellular pH reduction	http://purl.obolibrary.org/obo/GO_0051452	intracellular pH reduction
 http://purl.obolibrary.org/obo/GO_0048523	negative regulation of cellular process	http://purl.obolibrary.org/obo/GO_0009987	cellular process
-http://purl.obolibrary.org/obo/GO_1903363	negative regulation of cellular protein catabolic process	http://purl.obolibrary.org/obo/GO_0044257	cellular protein catabolic process
-http://purl.obolibrary.org/obo/GO_0032269	negative regulation of cellular protein metabolic process	http://purl.obolibrary.org/obo/GO_0044267	cellular protein metabolic process
 http://purl.obolibrary.org/obo/GO_1901856	negative regulation of cellular respiration	http://purl.obolibrary.org/obo/GO_0045333	cellular respiration
 http://purl.obolibrary.org/obo/GO_2000684	negative regulation of cellular response to X-ray	http://purl.obolibrary.org/obo/GO_0071481	cellular response to X-ray
 http://purl.obolibrary.org/obo/GO_1905958	negative regulation of cellular response to alcohol	http://purl.obolibrary.org/obo/GO_0097306	cellular response to alcohol
@@ -736,9 +728,7 @@ http://purl.obolibrary.org/obo/GO_1900408	negative regulation of cellular respon
 http://purl.obolibrary.org/obo/GO_1905847	negative regulation of cellular response to oxidopamine	http://purl.obolibrary.org/obo/GO_1905842	cellular response to oxidopamine
 http://purl.obolibrary.org/obo/GO_0140256	negative regulation of cellular response to phosphate starvation	http://purl.obolibrary.org/obo/GO_0016036	cellular response to phosphate starvation
 http://purl.obolibrary.org/obo/GO_2000655	negative regulation of cellular response to testosterone stimulus	http://purl.obolibrary.org/obo/GO_0071394	cellular response to testosterone stimulus
-http://purl.obolibrary.org/obo/GO_1905892	negative regulation of cellular response to thapsigargin	http://purl.obolibrary.org/obo/GO_1904579	cellular response to thapsigargin
 http://purl.obolibrary.org/obo/GO_1903845	negative regulation of cellular response to transforming growth factor beta stimulus	http://purl.obolibrary.org/obo/GO_0071560	cellular response to transforming growth factor beta stimulus
-http://purl.obolibrary.org/obo/GO_1905895	negative regulation of cellular response to tunicamycin	http://purl.obolibrary.org/obo/GO_1904577	cellular response to tunicamycin
 http://purl.obolibrary.org/obo/GO_1902548	negative regulation of cellular response to vascular endothelial growth factor stimulus	http://purl.obolibrary.org/obo/GO_0035924	cellular response to vascular endothelial growth factor stimulus
 http://purl.obolibrary.org/obo/GO_1905888	negative regulation of cellular response to very-low-density lipoprotein particle stimulus	http://purl.obolibrary.org/obo/GO_0090731	cellular response to very-low-density lipoprotein particle stimulus
 http://purl.obolibrary.org/obo/GO_2000773	negative regulation of cellular senescence	http://purl.obolibrary.org/obo/GO_0090398	cellular senescence
@@ -759,7 +749,6 @@ http://purl.obolibrary.org/obo/GO_0021941	negative regulation of cerebellar gran
 http://purl.obolibrary.org/obo/GO_1905080	negative regulation of cerebellar neuron development	http://purl.obolibrary.org/obo/GO_0098749	cerebellar neuron development
 http://purl.obolibrary.org/obo/GO_0120278	negative regulation of cerebral blood circulation	http://purl.obolibrary.org/obo/GO_0120275	cerebral blood circulation
 http://purl.obolibrary.org/obo/GO_1900647	negative regulation of chanoclavine-I aldehyde biosynthetic process	http://purl.obolibrary.org/obo/GO_1900569	chanoclavine-I aldehyde biosynthetic process
-http://purl.obolibrary.org/obo/GO_1900644	negative regulation of chanoclavine-I biosynthetic process	http://purl.obolibrary.org/obo/GO_1900566	chanoclavine-I biosynthetic process
 http://purl.obolibrary.org/obo/GO_1904715	negative regulation of chaperone-mediated autophagy	http://purl.obolibrary.org/obo/GO_0061684	chaperone-mediated autophagy
 http://purl.obolibrary.org/obo/GO_1903645	negative regulation of chaperone-mediated protein folding	http://purl.obolibrary.org/obo/GO_0061077	chaperone-mediated protein folding
 http://purl.obolibrary.org/obo/GO_0071653	negative regulation of chemokine (C-C motif) ligand 1 production	http://purl.obolibrary.org/obo/GO_0071610	chemokine (C-C motif) ligand 1 production
@@ -798,7 +787,6 @@ http://purl.obolibrary.org/obo/GO_0032331	negative regulation of chondrocyte dif
 http://purl.obolibrary.org/obo/GO_1903042	negative regulation of chondrocyte hypertrophy	http://purl.obolibrary.org/obo/GO_0003415	chondrocyte hypertrophy
 http://purl.obolibrary.org/obo/GO_1902731	negative regulation of chondrocyte proliferation	http://purl.obolibrary.org/obo/GO_0035988	chondrocyte proliferation
 http://purl.obolibrary.org/obo/GO_1901383	negative regulation of chorionic trophoblast cell proliferation	http://purl.obolibrary.org/obo/GO_0097360	chorionic trophoblast cell proliferation
-http://purl.obolibrary.org/obo/GO_0045798	negative regulation of chromatin assembly or disassembly	http://purl.obolibrary.org/obo/GO_0006333	chromatin assembly or disassembly
 http://purl.obolibrary.org/obo/GO_0035562	negative regulation of chromatin binding	http://purl.obolibrary.org/obo/GO_0003682	chromatin binding
 http://purl.obolibrary.org/obo/GO_1905268	negative regulation of chromatin organization	http://purl.obolibrary.org/obo/GO_0006325	chromatin organization
 http://purl.obolibrary.org/obo/GO_0120265	negative regulation of chromosome attachment to the nuclear envelope	http://purl.obolibrary.org/obo/GO_0097240	chromosome attachment to the nuclear envelope
@@ -853,7 +841,6 @@ http://purl.obolibrary.org/obo/GO_0046673	negative regulation of compound eye re
 http://purl.obolibrary.org/obo/GO_0070794	negative regulation of conidiophore development	http://purl.obolibrary.org/obo/GO_0070787	conidiophore development
 http://purl.obolibrary.org/obo/GO_0070800	negative regulation of conidiophore stalk development	http://purl.obolibrary.org/obo/GO_0070788	conidiophore stalk development
 http://purl.obolibrary.org/obo/GO_0075308	negative regulation of conidium formation	http://purl.obolibrary.org/obo/GO_0048315	conidium formation
-http://purl.obolibrary.org/obo/GO_0031135	negative regulation of conjugation	http://purl.obolibrary.org/obo/GO_0000746	conjugation
 http://purl.obolibrary.org/obo/GO_0031138	negative regulation of conjugation with cellular fusion	http://purl.obolibrary.org/obo/GO_0000747	conjugation with cellular fusion
 http://purl.obolibrary.org/obo/GO_0032683	negative regulation of connective tissue growth factor production	http://purl.obolibrary.org/obo/GO_0032601	connective tissue growth factor production
 http://purl.obolibrary.org/obo/GO_1905204	negative regulation of connective tissue replacement	http://purl.obolibrary.org/obo/GO_0097709	connective tissue replacement
@@ -1061,7 +1048,7 @@ http://purl.obolibrary.org/obo/GO_1904087	negative regulation of epiboly involve
 http://purl.obolibrary.org/obo/GO_0045605	negative regulation of epidermal cell differentiation	http://purl.obolibrary.org/obo/GO_0009913	epidermal cell differentiation
 http://purl.obolibrary.org/obo/GO_0042059	negative regulation of epidermal growth factor receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007173	epidermal growth factor receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_1905283	negative regulation of epidermal growth factor receptor signaling pathway involved in heart process	http://purl.obolibrary.org/obo/GO_1905251	epidermal growth factor receptor signaling pathway involved in heart process
-http://purl.obolibrary.org/obo/GO_0007175	negative regulation of epidermal growth factor-activated receptor activity	http://purl.obolibrary.org/obo/GO_0005006	epidermal growth factor-activated receptor activity
+http://purl.obolibrary.org/obo/GO_0007175	negative regulation of epidermal growth factor-activated receptor activity	http://purl.obolibrary.org/obo/GO_0005006	epidermal growth factor receptor activity
 http://purl.obolibrary.org/obo/GO_0045683	negative regulation of epidermis development	http://purl.obolibrary.org/obo/GO_0008544	epidermis development
 http://purl.obolibrary.org/obo/GO_0032811	negative regulation of epinephrine secretion	http://purl.obolibrary.org/obo/GO_0048242	epinephrine secretion
 http://purl.obolibrary.org/obo/GO_0051627	negative regulation of epinephrine uptake	http://purl.obolibrary.org/obo/GO_0051625	epinephrine uptake
@@ -1098,7 +1085,6 @@ http://purl.obolibrary.org/obo/GO_1904950	negative regulation of establishment o
 http://purl.obolibrary.org/obo/GO_1903748	negative regulation of establishment of protein localization to mitochondrion	http://purl.obolibrary.org/obo/GO_0072655	establishment of protein localization to mitochondrion
 http://purl.obolibrary.org/obo/GO_1904850	negative regulation of establishment of protein localization to telomere	http://purl.obolibrary.org/obo/GO_0070200	establishment of protein localization to telomere
 http://purl.obolibrary.org/obo/GO_1904914	negative regulation of establishment of protein-containing complex localization to telomere	http://purl.obolibrary.org/obo/GO_0097695	establishment of protein-containing complex localization to telomere
-http://purl.obolibrary.org/obo/GO_0075042	negative regulation of establishment of turgor in appressorium	http://purl.obolibrary.org/obo/GO_0075039	establishment of turgor in appressorium
 http://purl.obolibrary.org/obo/GO_2000750	negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape	http://purl.obolibrary.org/obo/GO_0061246	establishment or maintenance of bipolar cell polarity regulating cell shape
 http://purl.obolibrary.org/obo/GO_2000770	negative regulation of establishment or maintenance of cell polarity regulating cell shape	http://purl.obolibrary.org/obo/GO_0071963	establishment or maintenance of cell polarity regulating cell shape
 http://purl.obolibrary.org/obo/GO_2000248	negative regulation of establishment or maintenance of neuroblast polarity	http://purl.obolibrary.org/obo/GO_0045196	establishment or maintenance of neuroblast polarity
@@ -1199,7 +1185,6 @@ http://purl.obolibrary.org/obo/GO_0032684	negative regulation of fractalkine pro
 http://purl.obolibrary.org/obo/GO_1904543	negative regulation of free ubiquitin chain polymerization	http://purl.obolibrary.org/obo/GO_0010994	free ubiquitin chain polymerization
 http://purl.obolibrary.org/obo/GO_1902091	negative regulation of fumagillin biosynthetic process	http://purl.obolibrary.org/obo/GO_1902086	fumagillin biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900838	negative regulation of fumigaclavine C biosynthetic process	http://purl.obolibrary.org/obo/GO_1900809	fumigaclavine C biosynthetic process
-http://purl.obolibrary.org/obo/GO_1900856	negative regulation of fumitremorgin B biosynthetic process	http://purl.obolibrary.org/obo/GO_1900772	fumitremorgin B biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900684	negative regulation of fumonisin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900541	fumonisin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0035157	negative regulation of fusion cell fate specification	http://purl.obolibrary.org/obo/GO_0035156	fusion cell fate specification
 http://purl.obolibrary.org/obo/GO_0043013	negative regulation of fusion of sperm to egg plasma membrane	http://purl.obolibrary.org/obo/GO_0007342	fusion of sperm to egg plasma membrane involved in single fertilization
@@ -1223,7 +1208,6 @@ http://purl.obolibrary.org/obo/GO_1904305	negative regulation of gastro-intestin
 http://purl.obolibrary.org/obo/GO_2000542	negative regulation of gastrulation	http://purl.obolibrary.org/obo/GO_0007369	gastrulation
 http://purl.obolibrary.org/obo/GO_0010629	negative regulation of gene expression	http://purl.obolibrary.org/obo/GO_0010467	gene expression
 http://purl.obolibrary.org/obo/GO_0060967	negative regulation of gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0031047	gene silencing by RNA
-http://purl.obolibrary.org/obo/GO_0060965	negative regulation of gene silencing by miRNA	http://purl.obolibrary.org/obo/GO_0035195	gene silencing by miRNA
 http://purl.obolibrary.org/obo/GO_1900687	negative regulation of gerfelin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900578	gerfelin biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905937	negative regulation of germ cell proliferation	http://purl.obolibrary.org/obo/GO_0036093	germ cell proliferation
 http://purl.obolibrary.org/obo/GO_0075012	negative regulation of germ tube formation	http://purl.obolibrary.org/obo/GO_0075009	germ tube formation
@@ -1240,7 +1224,6 @@ http://purl.obolibrary.org/obo/GO_0014014	negative regulation of gliogenesis	htt
 http://purl.obolibrary.org/obo/GO_1900690	negative regulation of gliotoxin biosynthetic process	http://purl.obolibrary.org/obo/GO_2001310	gliotoxin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0003105	negative regulation of glomerular filtration	http://purl.obolibrary.org/obo/GO_0003094	glomerular filtration
 http://purl.obolibrary.org/obo/GO_0072125	negative regulation of glomerular mesangial cell proliferation	http://purl.obolibrary.org/obo/GO_0072110	glomerular mesangial cell proliferation
-http://purl.obolibrary.org/obo/GO_1904634	negative regulation of glomerular visceral epithelial cell apoptotic process	http://purl.obolibrary.org/obo/GO_1903210	glomerular visceral epithelial cell apoptotic process
 http://purl.obolibrary.org/obo/GO_0090194	negative regulation of glomerulus development	http://purl.obolibrary.org/obo/GO_0032835	glomerulus development
 http://purl.obolibrary.org/obo/GO_0070093	negative regulation of glucagon secretion	http://purl.obolibrary.org/obo/GO_0070091	glucagon secretion
 http://purl.obolibrary.org/obo/GO_0031947	negative regulation of glucocorticoid biosynthetic process	http://purl.obolibrary.org/obo/GO_0006704	glucocorticoid biosynthetic process
@@ -1273,7 +1256,7 @@ http://purl.obolibrary.org/obo/GO_0120007	negative regulation of glutamatergic n
 http://purl.obolibrary.org/obo/GO_2000486	negative regulation of glutamine transport	http://purl.obolibrary.org/obo/GO_0006868	glutamine transport
 http://purl.obolibrary.org/obo/GO_1903787	negative regulation of glutathione biosynthetic process	http://purl.obolibrary.org/obo/GO_0006750	glutathione biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903283	negative regulation of glutathione peroxidase activity	http://purl.obolibrary.org/obo/GO_0004602	glutathione peroxidase activity
-http://purl.obolibrary.org/obo/GO_0090373	negative regulation of glycerol transport	http://purl.obolibrary.org/obo/GO_0015793	glycerol transport
+http://purl.obolibrary.org/obo/GO_0090373	negative regulation of glycerol transport	http://purl.obolibrary.org/obo/GO_0015793	glycerol transmembrane transport
 http://purl.obolibrary.org/obo/GO_1900924	negative regulation of glycine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903804	glycine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1904625	negative regulation of glycine secretion, neurotransmission	http://purl.obolibrary.org/obo/GO_0061537	glycine secretion, neurotransmission
 http://purl.obolibrary.org/obo/GO_2000466	negative regulation of glycogen (starch) synthase activity	http://purl.obolibrary.org/obo/GO_0004373	glycogen (starch) synthase activity
@@ -1346,8 +1329,7 @@ http://purl.obolibrary.org/obo/GO_2000346	negative regulation of hepatocyte prol
 http://purl.obolibrary.org/obo/GO_1900897	negative regulation of heptadecane biosynthetic process	http://purl.obolibrary.org/obo/GO_1900636	heptadecane biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900900	negative regulation of heptadecane metabolic process	http://purl.obolibrary.org/obo/GO_1900635	heptadecane metabolic process
 http://purl.obolibrary.org/obo/GO_1900295	negative regulation of heptasaccharide transport	http://purl.obolibrary.org/obo/GO_2001104	heptasaccharide transport
-http://purl.obolibrary.org/obo/GO_0031452	negative regulation of heterochromatin assembly	http://purl.obolibrary.org/obo/GO_0031507	heterochromatin assembly
-http://purl.obolibrary.org/obo/GO_0060906	negative regulation of heterochromatin assembly by small RNA	http://purl.obolibrary.org/obo/GO_0031048	heterochromatin assembly by small RNA
+http://purl.obolibrary.org/obo/GO_0031452	negative regulation of heterochromatin formation	http://purl.obolibrary.org/obo/GO_0031507	heterochromatin formation
 http://purl.obolibrary.org/obo/GO_0120262	negative regulation of heterochromatin organization	http://purl.obolibrary.org/obo/GO_0070828	heterochromatin organization
 http://purl.obolibrary.org/obo/GO_0034115	negative regulation of heterotypic cell-cell adhesion	http://purl.obolibrary.org/obo/GO_0034113	heterotypic cell-cell adhesion
 http://purl.obolibrary.org/obo/GO_1900903	negative regulation of hexadecanal biosynthetic process	http://purl.obolibrary.org/obo/GO_0006634	hexadecanal biosynthetic process
@@ -1381,7 +1363,6 @@ http://purl.obolibrary.org/obo/GO_2000616	negative regulation of histone H3-K9 a
 http://purl.obolibrary.org/obo/GO_1900110	negative regulation of histone H3-K9 dimethylation	http://purl.obolibrary.org/obo/GO_0036123	histone H3-K9 dimethylation
 http://purl.obolibrary.org/obo/GO_0051573	negative regulation of histone H3-K9 methylation	http://purl.obolibrary.org/obo/GO_0051567	histone H3-K9 methylation
 http://purl.obolibrary.org/obo/GO_1900113	negative regulation of histone H3-K9 trimethylation	http://purl.obolibrary.org/obo/GO_0036124	histone H3-K9 trimethylation
-http://purl.obolibrary.org/obo/GO_0061866	negative regulation of histone H3-S10 phosphorylation	http://purl.obolibrary.org/obo/GO_0043987	histone H3-S10 phosphorylation
 http://purl.obolibrary.org/obo/GO_0090241	negative regulation of histone H4 acetylation	http://purl.obolibrary.org/obo/GO_0043967	histone H4 acetylation
 http://purl.obolibrary.org/obo/GO_2000619	negative regulation of histone H4-K16 acetylation	http://purl.obolibrary.org/obo/GO_0043984	histone H4-K16 acetylation
 http://purl.obolibrary.org/obo/GO_0070511	negative regulation of histone H4-K20 methylation	http://purl.obolibrary.org/obo/GO_0034770	histone H4-K20 methylation
@@ -1391,10 +1372,8 @@ http://purl.obolibrary.org/obo/GO_0031064	negative regulation of histone deacety
 http://purl.obolibrary.org/obo/GO_0031067	negative regulation of histone deacetylation at centromere	http://purl.obolibrary.org/obo/GO_0031059	histone deacetylation at centromere
 http://purl.obolibrary.org/obo/GO_1904174	negative regulation of histone demethylase activity (H3-K4 specific)	http://purl.obolibrary.org/obo/GO_0032453	histone H3-methyl-lysine-4 demethylase activity
 http://purl.obolibrary.org/obo/GO_1903585	negative regulation of histone deubiquitination	http://purl.obolibrary.org/obo/GO_0016578	histone deubiquitination
-http://purl.obolibrary.org/obo/GO_1900050	negative regulation of histone exchange	http://purl.obolibrary.org/obo/GO_0043486	histone exchange
 http://purl.obolibrary.org/obo/GO_0031061	negative regulation of histone methylation	http://purl.obolibrary.org/obo/GO_0016571	histone methylation
 http://purl.obolibrary.org/obo/GO_0031057	negative regulation of histone modification	http://purl.obolibrary.org/obo/GO_0016570	histone modification
-http://purl.obolibrary.org/obo/GO_0033128	negative regulation of histone phosphorylation	http://purl.obolibrary.org/obo/GO_0016572	histone phosphorylation
 http://purl.obolibrary.org/obo/GO_0033183	negative regulation of histone ubiquitination	http://purl.obolibrary.org/obo/GO_0016574	histone ubiquitination
 http://purl.obolibrary.org/obo/GO_1901218	negative regulation of holin activity	http://purl.obolibrary.org/obo/GO_0034290	holin activity
 http://purl.obolibrary.org/obo/GO_0050669	negative regulation of homocysteine metabolic process	http://purl.obolibrary.org/obo/GO_0050667	homocysteine metabolic process
@@ -1460,7 +1439,6 @@ http://purl.obolibrary.org/obo/GO_1900089	negative regulation of inositol biosyn
 http://purl.obolibrary.org/obo/GO_0010920	negative regulation of inositol phosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_0032958	inositol phosphate biosynthetic process
 http://purl.obolibrary.org/obo/GO_0032961	negative regulation of inositol trisphosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_0032959	inositol trisphosphate biosynthetic process
 http://purl.obolibrary.org/obo/GO_0046627	negative regulation of insulin receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0008286	insulin receptor signaling pathway
-http://purl.obolibrary.org/obo/GO_1903105	negative regulation of insulin receptor signaling pathway involved in determination of adult lifespan	http://purl.obolibrary.org/obo/GO_1901047	insulin receptor signaling pathway involved in determination of adult lifespan
 http://purl.obolibrary.org/obo/GO_0046676	negative regulation of insulin secretion	http://purl.obolibrary.org/obo/GO_0030073	insulin secretion
 http://purl.obolibrary.org/obo/GO_0061179	negative regulation of insulin secretion involved in cellular response to glucose stimulus	http://purl.obolibrary.org/obo/GO_0035773	insulin secretion involved in cellular response to glucose stimulus
 http://purl.obolibrary.org/obo/GO_0043569	negative regulation of insulin-like growth factor receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0048009	insulin-like growth factor receptor signaling pathway
@@ -1469,8 +1447,6 @@ http://purl.obolibrary.org/obo/GO_0045720	negative regulation of integrin biosyn
 http://purl.obolibrary.org/obo/GO_2001045	negative regulation of integrin-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0007229	integrin-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0032687	negative regulation of interferon-alpha production	http://purl.obolibrary.org/obo/GO_0032607	interferon-alpha production
 http://purl.obolibrary.org/obo/GO_0032688	negative regulation of interferon-beta production	http://purl.obolibrary.org/obo/GO_0032608	interferon-beta production
-http://purl.obolibrary.org/obo/GO_0032689	negative regulation of interferon-gamma production	http://purl.obolibrary.org/obo/GO_0032609	interferon-gamma production
-http://purl.obolibrary.org/obo/GO_0060336	negative regulation of interferon-gamma-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0060333	interferon-gamma-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0032690	negative regulation of interleukin-1 alpha production	http://purl.obolibrary.org/obo/GO_0032610	interleukin-1 alpha production
 http://purl.obolibrary.org/obo/GO_0032691	negative regulation of interleukin-1 beta production	http://purl.obolibrary.org/obo/GO_0032611	interleukin-1 beta production
 http://purl.obolibrary.org/obo/GO_0032692	negative regulation of interleukin-1 production	http://purl.obolibrary.org/obo/GO_0032612	interleukin-1 production
@@ -1574,6 +1550,7 @@ http://purl.obolibrary.org/obo/GO_0045968	negative regulation of juvenile hormon
 http://purl.obolibrary.org/obo/GO_0045970	negative regulation of juvenile hormone catabolic process	http://purl.obolibrary.org/obo/GO_0006719	juvenile hormone catabolic process
 http://purl.obolibrary.org/obo/GO_0045928	negative regulation of juvenile hormone metabolic process	http://purl.obolibrary.org/obo/GO_0006716	juvenile hormone metabolic process
 http://purl.obolibrary.org/obo/GO_0045972	negative regulation of juvenile hormone secretion	http://purl.obolibrary.org/obo/GO_0045443	juvenile hormone secretion
+http://purl.obolibrary.org/obo/GO_0106427	negative regulation of kainate selective glutamate receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0106426	regulation of kainate selective glutamate receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_1902173	negative regulation of keratinocyte apoptotic process	http://purl.obolibrary.org/obo/GO_0097283	keratinocyte apoptotic process
 http://purl.obolibrary.org/obo/GO_0045617	negative regulation of keratinocyte differentiation	http://purl.obolibrary.org/obo/GO_0030216	keratinocyte differentiation
 http://purl.obolibrary.org/obo/GO_0051548	negative regulation of keratinocyte migration	http://purl.obolibrary.org/obo/GO_0051546	keratinocyte migration
@@ -1591,7 +1568,6 @@ http://purl.obolibrary.org/obo/GO_0010593	negative regulation of lamellipodium a
 http://purl.obolibrary.org/obo/GO_2000393	negative regulation of lamellipodium morphogenesis	http://purl.obolibrary.org/obo/GO_0072673	lamellipodium morphogenesis
 http://purl.obolibrary.org/obo/GO_1902744	negative regulation of lamellipodium organization	http://purl.obolibrary.org/obo/GO_0097581	lamellipodium organization
 http://purl.obolibrary.org/obo/GO_0035204	negative regulation of lamellocyte differentiation	http://purl.obolibrary.org/obo/GO_0035171	lamellocyte differentiation
-http://purl.obolibrary.org/obo/GO_1900301	negative regulation of laminarabiose transport	http://purl.obolibrary.org/obo/GO_2001086	laminarabiose transport
 http://purl.obolibrary.org/obo/GO_1900304	negative regulation of laminaritriose transport	http://purl.obolibrary.org/obo/GO_2001097	laminaritriose transport
 http://purl.obolibrary.org/obo/GO_1902607	negative regulation of large conductance calcium-activated potassium channel activity	http://purl.obolibrary.org/obo/GO_0060072	large conductance calcium-activated potassium channel activity
 http://purl.obolibrary.org/obo/GO_0045710	negative regulation of larval salivary gland boundary specification	http://purl.obolibrary.org/obo/GO_0007433	larval salivary gland boundary specification
@@ -1835,9 +1811,10 @@ http://purl.obolibrary.org/obo/GO_1902323	negative regulation of methyl-branched
 http://purl.obolibrary.org/obo/GO_1903869	negative regulation of methylenetetrahydrofolate reductase (NAD(P)H) activity	http://purl.obolibrary.org/obo/GO_0004489	methylenetetrahydrofolate reductase (NAD(P)H) activity
 http://purl.obolibrary.org/obo/GO_0070803	negative regulation of metula development	http://purl.obolibrary.org/obo/GO_0070789	metula development
 http://purl.obolibrary.org/obo/GO_2000626	negative regulation of miRNA catabolic process	http://purl.obolibrary.org/obo/GO_0010587	miRNA catabolic process
+http://purl.obolibrary.org/obo/GO_1903799	negative regulation of miRNA maturation	http://purl.obolibrary.org/obo/GO_0035196	miRNA processing
 http://purl.obolibrary.org/obo/GO_2000629	negative regulation of miRNA metabolic process	http://purl.obolibrary.org/obo/GO_0010586	miRNA metabolic process
 http://purl.obolibrary.org/obo/GO_1902894	negative regulation of miRNA transcription	http://purl.obolibrary.org/obo/GO_0061614	miRNA transcription
-http://purl.obolibrary.org/obo/GO_1905617	negative regulation of miRNA-mediated gene silencing by inhibition of translation	http://purl.obolibrary.org/obo/GO_0035278	miRNA-mediated gene silencing by inhibition of translation
+http://purl.obolibrary.org/obo/GO_0060965	negative regulation of miRNA-mediated gene silencing	http://purl.obolibrary.org/obo/GO_0035195	miRNA-mediated gene silencing
 http://purl.obolibrary.org/obo/GO_0014007	negative regulation of microglia differentiation	http://purl.obolibrary.org/obo/GO_0014004	microglia differentiation
 http://purl.obolibrary.org/obo/GO_1903979	negative regulation of microglial cell activation	http://purl.obolibrary.org/obo/GO_0001774	microglial cell activation
 http://purl.obolibrary.org/obo/GO_1904150	negative regulation of microglial cell mediated cytotoxicity	http://purl.obolibrary.org/obo/GO_0090634	microglial cell mediated cytotoxicity
@@ -1889,6 +1866,7 @@ http://purl.obolibrary.org/obo/GO_0045841	negative regulation of mitotic metapha
 http://purl.obolibrary.org/obo/GO_0045839	negative regulation of mitotic nuclear division	http://purl.obolibrary.org/obo/GO_0140014	mitotic nuclear division
 http://purl.obolibrary.org/obo/GO_1905558	negative regulation of mitotic nuclear envelope disassembly	http://purl.obolibrary.org/obo/GO_0007077	mitotic nuclear membrane disassembly
 http://purl.obolibrary.org/obo/GO_0045950	negative regulation of mitotic recombination	http://purl.obolibrary.org/obo/GO_0006312	mitotic recombination
+http://purl.obolibrary.org/obo/GO_0120291	negative regulation of mitotic recombination-dependent replication fork processing	http://purl.obolibrary.org/obo/GO_1990426	mitotic recombination-dependent replication fork processing
 http://purl.obolibrary.org/obo/GO_1905823	negative regulation of mitotic sister chromatid arm separation	http://purl.obolibrary.org/obo/GO_1990891	mitotic sister chromatid arm separation
 http://purl.obolibrary.org/obo/GO_0033048	negative regulation of mitotic sister chromatid segregation	http://purl.obolibrary.org/obo/GO_0000070	mitotic sister chromatid segregation
 http://purl.obolibrary.org/obo/GO_2000816	negative regulation of mitotic sister chromatid separation	http://purl.obolibrary.org/obo/GO_0051306	mitotic sister chromatid separation
@@ -1899,6 +1877,7 @@ http://purl.obolibrary.org/obo/GO_0110160	negative regulation of mitotic spindle
 http://purl.obolibrary.org/obo/GO_0010697	negative regulation of mitotic spindle pole body separation	http://purl.obolibrary.org/obo/GO_0000073	initial mitotic spindle pole body separation
 http://purl.obolibrary.org/obo/GO_1904537	negative regulation of mitotic telomere tethering at nuclear periphery	http://purl.obolibrary.org/obo/GO_0044820	mitotic telomere tethering at nuclear periphery
 http://purl.obolibrary.org/obo/GO_0044092	negative regulation of molecular function	http://purl.obolibrary.org/obo/GO_0003674	molecular_function
+http://purl.obolibrary.org/obo/GO_0150102	negative regulation of monocyte activation	http://purl.obolibrary.org/obo/GO_0042117	monocyte activation
 http://purl.obolibrary.org/obo/GO_1900624	negative regulation of monocyte aggregation	http://purl.obolibrary.org/obo/GO_0070487	monocyte aggregation
 http://purl.obolibrary.org/obo/GO_0002614	negative regulation of monocyte antigen processing and presentation	http://purl.obolibrary.org/obo/GO_0002471	monocyte antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_0071638	negative regulation of monocyte chemotactic protein-1 production	http://purl.obolibrary.org/obo/GO_0071605	monocyte chemotactic protein-1 production
@@ -2250,6 +2229,7 @@ http://purl.obolibrary.org/obo/GO_0010642	negative regulation of platelet-derive
 http://purl.obolibrary.org/obo/GO_2000584	negative regulation of platelet-derived growth factor receptor-alpha signaling pathway	http://purl.obolibrary.org/obo/GO_0035790	platelet-derived growth factor receptor-alpha signaling pathway
 http://purl.obolibrary.org/obo/GO_2000587	negative regulation of platelet-derived growth factor receptor-beta signaling pathway	http://purl.obolibrary.org/obo/GO_0035791	platelet-derived growth factor receptor-beta signaling pathway
 http://purl.obolibrary.org/obo/GO_0062168	negative regulation of plus-end directed microtubule sliding	http://purl.obolibrary.org/obo/GO_0031535	plus-end directed microtubule sliding
+http://purl.obolibrary.org/obo/GO_1904634	negative regulation of podocyte apoptotic process	http://purl.obolibrary.org/obo/GO_1903210	podocyte apoptotic process
 http://purl.obolibrary.org/obo/GO_0071802	negative regulation of podosome assembly	http://purl.obolibrary.org/obo/GO_0071800	podosome assembly
 http://purl.obolibrary.org/obo/GO_0030861	negative regulation of polarized epithelial cell differentiation	http://purl.obolibrary.org/obo/GO_0030859	polarized epithelial cell differentiation
 http://purl.obolibrary.org/obo/GO_0045855	negative regulation of pole plasm oskar mRNA localization	http://purl.obolibrary.org/obo/GO_0045451	pole plasm oskar mRNA localization
@@ -2261,11 +2241,13 @@ http://purl.obolibrary.org/obo/GO_1905697	negative regulation of polysome bindin
 http://purl.obolibrary.org/obo/GO_0050928	negative regulation of positive chemotaxis	http://purl.obolibrary.org/obo/GO_0050918	positive chemotaxis
 http://purl.obolibrary.org/obo/GO_1902233	negative regulation of positive thymic T cell selection	http://purl.obolibrary.org/obo/GO_0045059	positive thymic T cell selection
 http://purl.obolibrary.org/obo/GO_0048581	negative regulation of post-embryonic development	http://purl.obolibrary.org/obo/GO_0009791	post-embryonic development
+http://purl.obolibrary.org/obo/GO_0060149	negative regulation of post-transcriptional gene silencing	http://purl.obolibrary.org/obo/GO_0016441	post-transcriptional gene silencing
+http://purl.obolibrary.org/obo/GO_1900369	negative regulation of post-transcriptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	post-transcriptional gene silencing by RNA
 http://purl.obolibrary.org/obo/GO_1901874	negative regulation of post-translational protein modification	http://purl.obolibrary.org/obo/GO_0043687	post-translational protein modification
+http://purl.obolibrary.org/obo/GO_0120236	negative regulation of post-translational protein targeting to membrane, translocation	http://purl.obolibrary.org/obo/GO_0031204	post-translational protein targeting to membrane, translocation
+http://purl.obolibrary.org/obo/GO_0160037	negative regulation of postsynaptic density assembly	http://purl.obolibrary.org/obo/GO_0097107	postsynaptic density assembly
 http://purl.obolibrary.org/obo/GO_1905875	negative regulation of postsynaptic density organization	http://purl.obolibrary.org/obo/GO_0097106	postsynaptic density organization
 http://purl.obolibrary.org/obo/GO_1901627	negative regulation of postsynaptic membrane organization	http://purl.obolibrary.org/obo/GO_0001941	postsynaptic membrane organization
-http://purl.obolibrary.org/obo/GO_0060149	negative regulation of posttranscriptional gene silencing	http://purl.obolibrary.org/obo/GO_0016441	posttranscriptional gene silencing
-http://purl.obolibrary.org/obo/GO_0120236	negative regulation of posttranslational protein targeting to membrane, translocation	http://purl.obolibrary.org/obo/GO_0031204	posttranslational protein targeting to membrane, translocation
 http://purl.obolibrary.org/obo/GO_1903765	negative regulation of potassium ion export across plasma membrane	http://purl.obolibrary.org/obo/GO_0097623	potassium ion export across plasma membrane
 http://purl.obolibrary.org/obo/GO_1903287	negative regulation of potassium ion import across plasma membrane	http://purl.obolibrary.org/obo/GO_1990573	potassium ion import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1901380	negative regulation of potassium ion transmembrane transport	http://purl.obolibrary.org/obo/GO_0071805	potassium ion transmembrane transport
@@ -2284,9 +2266,7 @@ http://purl.obolibrary.org/obo/GO_1905757	negative regulation of primary cell se
 http://purl.obolibrary.org/obo/GO_2000635	negative regulation of primary miRNA processing	http://purl.obolibrary.org/obo/GO_0031053	primary miRNA processing
 http://purl.obolibrary.org/obo/GO_2000974	negative regulation of pro-B cell differentiation	http://purl.obolibrary.org/obo/GO_0002328	pro-B cell differentiation
 http://purl.obolibrary.org/obo/GO_2000175	negative regulation of pro-T cell differentiation	http://purl.obolibrary.org/obo/GO_0002572	pro-T cell differentiation
-http://purl.obolibrary.org/obo/GO_1903799	negative regulation of production of miRNAs involved in gene silencing by miRNA	http://purl.obolibrary.org/obo/GO_0035196	production of miRNAs involved in gene silencing by miRNA
 http://purl.obolibrary.org/obo/GO_0002701	negative regulation of production of molecular mediator of immune response	http://purl.obolibrary.org/obo/GO_0002440	production of molecular mediator of immune response
-http://purl.obolibrary.org/obo/GO_1903704	negative regulation of production of siRNA involved in RNA interference	http://purl.obolibrary.org/obo/GO_0030422	production of siRNA involved in RNA interference
 http://purl.obolibrary.org/obo/GO_2000183	negative regulation of progesterone biosynthetic process	http://purl.obolibrary.org/obo/GO_0006701	progesterone biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000871	negative regulation of progesterone secretion	http://purl.obolibrary.org/obo/GO_0042701	progesterone secretion
 http://purl.obolibrary.org/obo/GO_0043069	negative regulation of programmed cell death	http://purl.obolibrary.org/obo/GO_0012501	programmed cell death
@@ -2303,7 +2283,6 @@ http://purl.obolibrary.org/obo/GO_1905829	negative regulation of prostaglandin c
 http://purl.obolibrary.org/obo/GO_0032307	negative regulation of prostaglandin secretion	http://purl.obolibrary.org/obo/GO_0032310	prostaglandin secretion
 http://purl.obolibrary.org/obo/GO_2000362	negative regulation of prostaglandin-E synthase activity	http://purl.obolibrary.org/obo/GO_0050220	prostaglandin-E synthase activity
 http://purl.obolibrary.org/obo/GO_0060686	negative regulation of prostatic bud formation	http://purl.obolibrary.org/obo/GO_0060513	prostatic bud formation
-http://purl.obolibrary.org/obo/GO_0051201	negative regulation of prosthetic group metabolic process	http://purl.obolibrary.org/obo/GO_0051189	prosthetic group metabolic process
 http://purl.obolibrary.org/obo/GO_1901799	negative regulation of proteasomal protein catabolic process	http://purl.obolibrary.org/obo/GO_0010498	proteasomal protein catabolic process
 http://purl.obolibrary.org/obo/GO_0032435	negative regulation of proteasomal ubiquitin-dependent protein catabolic process	http://purl.obolibrary.org/obo/GO_0043161	proteasome-mediated ubiquitin-dependent protein catabolic process
 http://purl.obolibrary.org/obo/GO_1905765	negative regulation of protection from non-homologous end joining at telomere	http://purl.obolibrary.org/obo/GO_0031848	protection from non-homologous end joining at telomere
@@ -2331,7 +2310,6 @@ http://purl.obolibrary.org/obo/GO_1903333	negative regulation of protein folding
 http://purl.obolibrary.org/obo/GO_2000540	negative regulation of protein geranylgeranylation	http://purl.obolibrary.org/obo/GO_0018344	protein geranylgeranylation
 http://purl.obolibrary.org/obo/GO_0010734	negative regulation of protein glutathionylation	http://purl.obolibrary.org/obo/GO_0010731	protein glutathionylation
 http://purl.obolibrary.org/obo/GO_0060051	negative regulation of protein glycosylation	http://purl.obolibrary.org/obo/GO_0006486	protein glycosylation
-http://purl.obolibrary.org/obo/GO_0090285	negative regulation of protein glycosylation in Golgi	http://purl.obolibrary.org/obo/GO_0033578	protein glycosylation in Golgi
 http://purl.obolibrary.org/obo/GO_0032112	negative regulation of protein histidine kinase activity	http://purl.obolibrary.org/obo/GO_0004673	protein histidine kinase activity
 http://purl.obolibrary.org/obo/GO_0090074	negative regulation of protein homodimerization activity	http://purl.obolibrary.org/obo/GO_0042803	protein homodimerization activity
 http://purl.obolibrary.org/obo/GO_0032463	negative regulation of protein homooligomerization	http://purl.obolibrary.org/obo/GO_0051260	protein homooligomerization
@@ -2381,7 +2359,7 @@ http://purl.obolibrary.org/obo/GO_1902364	negative regulation of protein localiz
 http://purl.obolibrary.org/obo/GO_1903318	negative regulation of protein maturation	http://purl.obolibrary.org/obo/GO_0051604	protein maturation
 http://purl.obolibrary.org/obo/GO_0051248	negative regulation of protein metabolic process	http://purl.obolibrary.org/obo/GO_0019538	protein metabolic process
 http://purl.obolibrary.org/obo/GO_1903321	negative regulation of protein modification by small protein conjugation or removal	http://purl.obolibrary.org/obo/GO_0070647	protein modification by small protein conjugation or removal
-http://purl.obolibrary.org/obo/GO_0031400	negative regulation of protein modification process	http://purl.obolibrary.org/obo/GO_0006464	cellular protein modification process
+http://purl.obolibrary.org/obo/GO_0031400	negative regulation of protein modification process	http://purl.obolibrary.org/obo/GO_0036211	protein modification process
 http://purl.obolibrary.org/obo/GO_1902526	negative regulation of protein monoubiquitination	http://purl.obolibrary.org/obo/GO_0006513	protein monoubiquitination
 http://purl.obolibrary.org/obo/GO_2000435	negative regulation of protein neddylation	http://purl.obolibrary.org/obo/GO_0045116	protein neddylation
 http://purl.obolibrary.org/obo/GO_0032460	negative regulation of protein oligomerization	http://purl.obolibrary.org/obo/GO_0051259	protein complex oligomerization
@@ -2411,11 +2389,11 @@ http://purl.obolibrary.org/obo/GO_0031333	negative regulation of protein-contain
 http://purl.obolibrary.org/obo/GO_0043242	negative regulation of protein-containing complex disassembly	http://purl.obolibrary.org/obo/GO_0032984	protein-containing complex disassembly
 http://purl.obolibrary.org/obo/GO_0150075	negative regulation of protein-glutamine gamma-glutamyltransferase activity	http://purl.obolibrary.org/obo/GO_0003810	protein-glutamine gamma-glutamyltransferase activity
 http://purl.obolibrary.org/obo/GO_1904286	negative regulation of protein-pyridoxal-5-phosphate linkage	http://purl.obolibrary.org/obo/GO_0018352	protein-pyridoxal-5-phosphate linkage
-http://purl.obolibrary.org/obo/GO_1900277	negative regulation of proteinase activated receptor activity	http://purl.obolibrary.org/obo/GO_0001648	proteinase activated receptor activity
+http://purl.obolibrary.org/obo/GO_1900277	negative regulation of proteinase activated receptor activity	http://purl.obolibrary.org/obo/GO_0001648	proteinase-activated receptor activity
 http://purl.obolibrary.org/obo/GO_1902729	negative regulation of proteoglycan biosynthetic process	http://purl.obolibrary.org/obo/GO_0030166	proteoglycan biosynthetic process
 http://purl.obolibrary.org/obo/GO_0045861	negative regulation of proteolysis	http://purl.obolibrary.org/obo/GO_0006508	proteolysis
 http://purl.obolibrary.org/obo/GO_0002629	negative regulation of proteolysis associated with antigen processing and presentation	http://purl.obolibrary.org/obo/GO_0002496	proteolysis associated with antigen processing and presentation
-http://purl.obolibrary.org/obo/GO_1903051	negative regulation of proteolysis involved in cellular protein catabolic process	http://purl.obolibrary.org/obo/GO_0051603	proteolysis involved in cellular protein catabolic process
+http://purl.obolibrary.org/obo/GO_1903051	negative regulation of proteolysis involved in protein catabolic process	http://purl.obolibrary.org/obo/GO_0051603	proteolysis involved in protein catabolic process
 http://purl.obolibrary.org/obo/GO_1905272	negative regulation of proton-transporting ATP synthase activity, rotational mechanism	http://purl.obolibrary.org/obo/GO_0046933	proton-transporting ATP synthase activity, rotational mechanism
 http://purl.obolibrary.org/obo/GO_2000221	negative regulation of pseudohyphal growth	http://purl.obolibrary.org/obo/GO_0007124	pseudohyphal growth
 http://purl.obolibrary.org/obo/GO_0062166	negative regulation of pseudohyphal septin ring assembly	http://purl.obolibrary.org/obo/GO_0062163	pseudohyphal septin ring assembly
@@ -2431,6 +2409,7 @@ http://purl.obolibrary.org/obo/GO_1900543	negative regulation of purine nucleoti
 http://purl.obolibrary.org/obo/GO_0120073	negative regulation of pyloric antrum smooth muscle contraction	http://purl.obolibrary.org/obo/GO_0120065	pyloric antrum smooth muscle contraction
 http://purl.obolibrary.org/obo/GO_0045984	negative regulation of pyrimidine nucleobase metabolic process	http://purl.obolibrary.org/obo/GO_0006206	pyrimidine nucleobase metabolic process
 http://purl.obolibrary.org/obo/GO_1900398	negative regulation of pyrimidine nucleotide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006221	pyrimidine nucleotide biosynthetic process
+http://purl.obolibrary.org/obo/GO_0160028	negative regulation of pyroptosis	http://purl.obolibrary.org/obo/GO_0070269	pyroptosis
 http://purl.obolibrary.org/obo/GO_1904183	negative regulation of pyruvate dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004738	pyruvate dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_1903303	negative regulation of pyruvate kinase activity	http://purl.obolibrary.org/obo/GO_0004743	pyruvate kinase activity
 http://purl.obolibrary.org/obo/GO_1904985	negative regulation of quinolinate biosynthetic process	http://purl.obolibrary.org/obo/GO_0019805	quinolinate biosynthetic process
@@ -2490,7 +2469,6 @@ http://purl.obolibrary.org/obo/GO_0032096	negative regulation of response to foo
 http://purl.obolibrary.org/obo/GO_1901461	negative regulation of response to formic acid	http://purl.obolibrary.org/obo/GO_1901425	response to formic acid
 http://purl.obolibrary.org/obo/GO_1901443	negative regulation of response to furfural	http://purl.obolibrary.org/obo/GO_1901426	response to furfural
 http://purl.obolibrary.org/obo/GO_2001229	negative regulation of response to gamma radiation	http://purl.obolibrary.org/obo/GO_0010332	response to gamma radiation
-http://purl.obolibrary.org/obo/GO_0060331	negative regulation of response to interferon-gamma	http://purl.obolibrary.org/obo/GO_0034341	response to interferon-gamma
 http://purl.obolibrary.org/obo/GO_1903970	negative regulation of response to macrophage colony-stimulating factor	http://purl.obolibrary.org/obo/GO_0036005	response to macrophage colony-stimulating factor
 http://purl.obolibrary.org/obo/GO_0032108	negative regulation of response to nutrient levels	http://purl.obolibrary.org/obo/GO_0031667	response to nutrient levels
 http://purl.obolibrary.org/obo/GO_1902883	negative regulation of response to oxidative stress	http://purl.obolibrary.org/obo/GO_0006979	response to oxidative stress
@@ -2501,6 +2479,7 @@ http://purl.obolibrary.org/obo/GO_1901001	negative regulation of response to sal
 http://purl.obolibrary.org/obo/GO_0048585	negative regulation of response to stimulus	http://purl.obolibrary.org/obo/GO_0050896	response to stimulus
 http://purl.obolibrary.org/obo/GO_1901455	negative regulation of response to toluene	http://purl.obolibrary.org/obo/GO_1901424	response to toluene
 http://purl.obolibrary.org/obo/GO_0002835	negative regulation of response to tumor cell	http://purl.obolibrary.org/obo/GO_0002347	response to tumor cell
+http://purl.obolibrary.org/obo/GO_0060331	negative regulation of response to type II interferon	http://purl.obolibrary.org/obo/GO_0034341	response to type II interferon
 http://purl.obolibrary.org/obo/GO_1903035	negative regulation of response to wounding	http://purl.obolibrary.org/obo/GO_0009611	response to wounding
 http://purl.obolibrary.org/obo/GO_0032073	negative regulation of restriction endodeoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0015666	restriction endodeoxyribonuclease activity
 http://purl.obolibrary.org/obo/GO_1902867	negative regulation of retina development in camera-type eye	http://purl.obolibrary.org/obo/GO_0060041	retina development in camera-type eye
@@ -2518,7 +2497,7 @@ http://purl.obolibrary.org/obo/GO_1903063	negative regulation of reverse cholest
 http://purl.obolibrary.org/obo/GO_1900269	negative regulation of reverse transcription	http://purl.obolibrary.org/obo/GO_0001171	reverse transcription
 http://purl.obolibrary.org/obo/GO_0060701	negative regulation of ribonuclease activity	http://purl.obolibrary.org/obo/GO_0004540	ribonuclease activity
 http://purl.obolibrary.org/obo/GO_2000198	negative regulation of ribonucleoprotein complex localization	http://purl.obolibrary.org/obo/GO_0071166	ribonucleoprotein complex localization
-http://purl.obolibrary.org/obo/GO_0061188	negative regulation of ribosomal DNA heterochromatin assembly	http://purl.obolibrary.org/obo/GO_0000183	rDNA heterochromatin assembly
+http://purl.obolibrary.org/obo/GO_0061188	negative regulation of ribosomal DNA heterochromatin formation	http://purl.obolibrary.org/obo/GO_0000183	rDNA heterochromatin formation
 http://purl.obolibrary.org/obo/GO_2000204	negative regulation of ribosomal large subunit export from nucleus	http://purl.obolibrary.org/obo/GO_0000055	ribosomal large subunit export from nucleus
 http://purl.obolibrary.org/obo/GO_2000207	negative regulation of ribosomal small subunit export from nucleus	http://purl.obolibrary.org/obo/GO_0000056	ribosomal small subunit export from nucleus
 http://purl.obolibrary.org/obo/GO_2000201	negative regulation of ribosomal subunit export from nucleus	http://purl.obolibrary.org/obo/GO_0000054	ribosomal subunit export from nucleus
@@ -2573,6 +2552,7 @@ http://purl.obolibrary.org/obo/GO_1904791	negative regulation of shelterin compl
 http://purl.obolibrary.org/obo/GO_1902184	negative regulation of shoot apical meristem development	http://purl.obolibrary.org/obo/GO_1902182	shoot apical meristem development
 http://purl.obolibrary.org/obo/GO_0048577	negative regulation of short-day photoperiodism, flowering	http://purl.obolibrary.org/obo/GO_0048575	short-day photoperiodism, flowering
 http://purl.obolibrary.org/obo/GO_1905513	negative regulation of short-term synaptic potentiation	http://purl.obolibrary.org/obo/GO_1990926	short-term synaptic potentiation
+http://purl.obolibrary.org/obo/GO_1903704	negative regulation of siRNA production	http://purl.obolibrary.org/obo/GO_0030422	siRNA processing
 http://purl.obolibrary.org/obo/GO_1900705	negative regulation of siderophore biosynthetic process	http://purl.obolibrary.org/obo/GO_0019290	siderophore biosynthetic process
 http://purl.obolibrary.org/obo/GO_0009968	negative regulation of signal transduction	http://purl.obolibrary.org/obo/GO_0007165	signal transduction
 http://purl.obolibrary.org/obo/GO_1901797	negative regulation of signal transduction by p53 class mediator	http://purl.obolibrary.org/obo/GO_0072331	signal transduction by p53 class mediator
@@ -2580,7 +2560,7 @@ http://purl.obolibrary.org/obo/GO_1901099	negative regulation of signal transduc
 http://purl.obolibrary.org/obo/GO_0060240	negative regulation of signal transduction involved in conjugation with cellular fusion	http://purl.obolibrary.org/obo/GO_0032005	signal transduction involved in positive regulation of conjugation with cellular fusion
 http://purl.obolibrary.org/obo/GO_0023057	negative regulation of signaling	http://purl.obolibrary.org/obo/GO_0023052	signaling
 http://purl.obolibrary.org/obo/GO_2000272	negative regulation of signaling receptor activity	http://purl.obolibrary.org/obo/GO_0038023	signaling receptor activity
-http://purl.obolibrary.org/obo/GO_0061186	negative regulation of silent mating-type cassette heterochromatin assembly	http://purl.obolibrary.org/obo/GO_0030466	silent mating-type cassette heterochromatin assembly
+http://purl.obolibrary.org/obo/GO_0061186	negative regulation of silent mating-type cassette heterochromatin formation	http://purl.obolibrary.org/obo/GO_0030466	silent mating-type cassette heterochromatin formation
 http://purl.obolibrary.org/obo/GO_1903086	negative regulation of sinapate ester biosynthetic process	http://purl.obolibrary.org/obo/GO_0033525	sinapate ester biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903517	negative regulation of single strand break repair	http://purl.obolibrary.org/obo/GO_0000012	single strand break repair
 http://purl.obolibrary.org/obo/GO_0045869	negative regulation of single stranded viral RNA replication via double stranded DNA intermediate	http://purl.obolibrary.org/obo/GO_0039692	single stranded viral RNA replication via double stranded DNA intermediate
@@ -2607,6 +2587,7 @@ http://purl.obolibrary.org/obo/GO_0051058	negative regulation of small GTPase me
 http://purl.obolibrary.org/obo/GO_0120059	negative regulation of small intestinal transit	http://purl.obolibrary.org/obo/GO_0120055	small intestinal transit
 http://purl.obolibrary.org/obo/GO_1904348	negative regulation of small intestine smooth muscle contraction	http://purl.obolibrary.org/obo/GO_1990770	small intestine smooth muscle contraction
 http://purl.obolibrary.org/obo/GO_0062014	negative regulation of small molecule metabolic process	http://purl.obolibrary.org/obo/GO_0044281	small molecule metabolic process
+http://purl.obolibrary.org/obo/GO_0060906	negative regulation of small non-coding RNA-mediated heterochromatin formation	http://purl.obolibrary.org/obo/GO_0031048	small non-coding RNA-dependent heterochromatin formation
 http://purl.obolibrary.org/obo/GO_0034392	negative regulation of smooth muscle cell apoptotic process	http://purl.obolibrary.org/obo/GO_0034390	smooth muscle cell apoptotic process
 http://purl.obolibrary.org/obo/GO_0071672	negative regulation of smooth muscle cell chemotaxis	http://purl.obolibrary.org/obo/GO_0071670	smooth muscle cell chemotaxis
 http://purl.obolibrary.org/obo/GO_0051151	negative regulation of smooth muscle cell differentiation	http://purl.obolibrary.org/obo/GO_0051145	smooth muscle cell differentiation
@@ -2761,10 +2742,10 @@ http://purl.obolibrary.org/obo/GO_1900708	negative regulation of tensidol A bios
 http://purl.obolibrary.org/obo/GO_1900711	negative regulation of tensidol B biosynthetic process	http://purl.obolibrary.org/obo/GO_1900608	tensidol B biosynthetic process
 http://purl.obolibrary.org/obo/GO_1901613	negative regulation of terminal button organization	http://purl.obolibrary.org/obo/GO_0072553	terminal button organization
 http://purl.obolibrary.org/obo/GO_0035155	negative regulation of terminal cell fate specification, open tracheal system	http://purl.obolibrary.org/obo/GO_0035154	terminal cell fate specification, open tracheal system
+http://purl.obolibrary.org/obo/GO_0060567	negative regulation of termination of DNA-templated transcription	http://purl.obolibrary.org/obo/GO_0006353	DNA-templated transcription termination
 http://purl.obolibrary.org/obo/GO_2000731	negative regulation of termination of RNA polymerase I transcription	http://purl.obolibrary.org/obo/GO_0006363	termination of RNA polymerase I transcription
 http://purl.obolibrary.org/obo/GO_0120191	negative regulation of termination of RNA polymerase II transcription	http://purl.obolibrary.org/obo/GO_0006369	termination of RNA polymerase II transcription
 http://purl.obolibrary.org/obo/GO_2000805	negative regulation of termination of RNA polymerase II transcription, poly(A)-coupled	http://purl.obolibrary.org/obo/GO_0030846	termination of RNA polymerase II transcription, poly(A)-coupled
-http://purl.obolibrary.org/obo/GO_1900853	negative regulation of terrequinone A biosynthetic process	http://purl.obolibrary.org/obo/GO_1900796	terrequinone A biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000225	negative regulation of testosterone biosynthetic process	http://purl.obolibrary.org/obo/GO_0061370	testosterone biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000844	negative regulation of testosterone secretion	http://purl.obolibrary.org/obo/GO_0035936	testosterone secretion
 http://purl.obolibrary.org/obo/GO_1901464	negative regulation of tetrapyrrole biosynthetic process	http://purl.obolibrary.org/obo/GO_0033014	tetrapyrrole biosynthetic process
@@ -2823,13 +2804,12 @@ http://purl.obolibrary.org/obo/GO_0016479	negative regulation of transcription b
 http://purl.obolibrary.org/obo/GO_0000122	negative regulation of transcription by RNA polymerase II	http://purl.obolibrary.org/obo/GO_0006366	transcription by RNA polymerase II
 http://purl.obolibrary.org/obo/GO_0016480	negative regulation of transcription by RNA polymerase III	http://purl.obolibrary.org/obo/GO_0006383	transcription by RNA polymerase III
 http://purl.obolibrary.org/obo/GO_1904280	negative regulation of transcription by RNA polymerase V	http://purl.obolibrary.org/obo/GO_0001060	transcription by RNA polymerase V
-http://purl.obolibrary.org/obo/GO_2001208	negative regulation of transcription elongation by RNA polymerase I	http://purl.obolibrary.org/obo/GO_0006362	transcription elongation from RNA polymerase I promoter
-http://purl.obolibrary.org/obo/GO_0034244	negative regulation of transcription elongation from RNA polymerase II promoter	http://purl.obolibrary.org/obo/GO_0006368	transcription elongation from RNA polymerase II promoter
+http://purl.obolibrary.org/obo/GO_2001208	negative regulation of transcription elongation by RNA polymerase I	http://purl.obolibrary.org/obo/GO_0006362	transcription elongation by RNA polymerase I
+http://purl.obolibrary.org/obo/GO_0034244	negative regulation of transcription elongation by RNA polymerase II	http://purl.obolibrary.org/obo/GO_0006368	transcription elongation by RNA polymerase II promoter
 http://purl.obolibrary.org/obo/GO_1901484	negative regulation of transcription factor catabolic process	http://purl.obolibrary.org/obo/GO_0036369	transcription factor catabolic process
-http://purl.obolibrary.org/obo/GO_0060633	negative regulation of transcription initiation from RNA polymerase II promoter	http://purl.obolibrary.org/obo/GO_0006367	transcription initiation from RNA polymerase II promoter
+http://purl.obolibrary.org/obo/GO_0060633	negative regulation of transcription initiation by RNA polymerase II	http://purl.obolibrary.org/obo/GO_0006367	transcription initiation at RNA polymerase II promoter
 http://purl.obolibrary.org/obo/GO_1901837	negative regulation of transcription of nucleolar large rRNA by RNA polymerase I	http://purl.obolibrary.org/obo/GO_0042790	nucleolar large rRNA transcription by RNA polymerase I
 http://purl.obolibrary.org/obo/GO_2000678	negative regulation of transcription regulatory region DNA binding	http://purl.obolibrary.org/obo/GO_0000976	transcription cis-regulatory region binding
-http://purl.obolibrary.org/obo/GO_0045892	negative regulation of transcription, DNA-templated	http://purl.obolibrary.org/obo/GO_0006351	transcription, DNA-templated
 http://purl.obolibrary.org/obo/GO_1904299	negative regulation of transcytosis	http://purl.obolibrary.org/obo/GO_0045056	transcytosis
 http://purl.obolibrary.org/obo/GO_1903619	negative regulation of transdifferentiation	http://purl.obolibrary.org/obo/GO_0060290	transdifferentiation
 http://purl.obolibrary.org/obo/GO_0051348	negative regulation of transferase activity	http://purl.obolibrary.org/obo/GO_0016740	transferase activity
@@ -2886,9 +2866,11 @@ http://purl.obolibrary.org/obo/GO_2000077	negative regulation of type B pancreat
 http://purl.obolibrary.org/obo/GO_1904691	negative regulation of type B pancreatic cell proliferation	http://purl.obolibrary.org/obo/GO_0044342	type B pancreatic cell proliferation
 http://purl.obolibrary.org/obo/GO_0001811	negative regulation of type I hypersensitivity	http://purl.obolibrary.org/obo/GO_0016068	type I hypersensitivity
 http://purl.obolibrary.org/obo/GO_0032480	negative regulation of type I interferon production	http://purl.obolibrary.org/obo/GO_0032606	type I interferon production
-http://purl.obolibrary.org/obo/GO_0060339	negative regulation of type I interferon-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0060337	type I interferon signaling pathway
+http://purl.obolibrary.org/obo/GO_0060339	negative regulation of type I interferon-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0060337	type I interferon-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0032080	negative regulation of type I site-specific deoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0009035	type I site-specific deoxyribonuclease activity
 http://purl.obolibrary.org/obo/GO_0002893	negative regulation of type II hypersensitivity	http://purl.obolibrary.org/obo/GO_0002445	type II hypersensitivity
+http://purl.obolibrary.org/obo/GO_0032689	negative regulation of type II interferon production	http://purl.obolibrary.org/obo/GO_0032609	type II interferon production
+http://purl.obolibrary.org/obo/GO_0060336	negative regulation of type II interferon-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0060333	type II interferon-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0032081	negative regulation of type II site-specific deoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0009036	type II site-specific deoxyribonuclease activity
 http://purl.obolibrary.org/obo/GO_0001804	negative regulation of type III hypersensitivity	http://purl.obolibrary.org/obo/GO_0001802	type III hypersensitivity
 http://purl.obolibrary.org/obo/GO_0034345	negative regulation of type III interferon production	http://purl.obolibrary.org/obo/GO_0034343	type III interferon production
@@ -2986,4 +2968,3 @@ http://purl.obolibrary.org/obo/GO_0075221	negative regulation of zoospore encyst
 http://purl.obolibrary.org/obo/GO_0075242	negative regulation of zoospore formation	http://purl.obolibrary.org/obo/GO_0075239	zoospore formation
 http://purl.obolibrary.org/obo/GO_0075274	negative regulation of zygosporangium development	http://purl.obolibrary.org/obo/GO_0075271	zygosporangium development
 http://purl.obolibrary.org/obo/GO_0075300	negative regulation of zygospore formation	http://purl.obolibrary.org/obo/GO_0034296	zygospore formation
-http://purl.obolibrary.org/obo/GO_0045851	pH reduction	http://purl.obolibrary.org/obo/OBA_0000121	pH
