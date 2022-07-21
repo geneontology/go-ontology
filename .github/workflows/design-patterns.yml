@@ -25,3 +25,6 @@ jobs:
       uses: peter-evans/create-pull-request@v4
       with:
         title: Update taxon constraints
+        add-paths: |
+            src/design_patterns/*.tsv
+            docs/patterns/*.md
