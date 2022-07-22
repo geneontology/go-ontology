@@ -1350,7 +1350,7 @@ http://purl.obolibrary.org/obo/GO_0035066	positive regulation of histone acetyla
 http://purl.obolibrary.org/obo/GO_1901727	positive regulation of histone deacetylase activity	http://purl.obolibrary.org/obo/GO_0004407	histone deacetylase activity
 http://purl.obolibrary.org/obo/GO_0031065	positive regulation of histone deacetylation	http://purl.obolibrary.org/obo/GO_0016575	histone deacetylation
 http://purl.obolibrary.org/obo/GO_0031068	positive regulation of histone deacetylation at centromere	http://purl.obolibrary.org/obo/GO_0031059	histone deacetylation at centromere
-http://purl.obolibrary.org/obo/GO_1904175	positive regulation of histone demethylase activity (H3-K4 specific)	http://purl.obolibrary.org/obo/GO_0032453	histone H3-methyl-lysine-4 demethylase activity
+http://purl.obolibrary.org/obo/GO_1904175	positive regulation of histone demethylase activity (H3-K4 specific)	http://purl.obolibrary.org/obo/GO_0032453	histone H3K4 demethylase activity
 http://purl.obolibrary.org/obo/GO_1903586	positive regulation of histone deubiquitination	http://purl.obolibrary.org/obo/GO_0016578	histone deubiquitination
 http://purl.obolibrary.org/obo/GO_0031062	positive regulation of histone methylation	http://purl.obolibrary.org/obo/GO_0016571	histone methylation
 http://purl.obolibrary.org/obo/GO_0031058	positive regulation of histone modification	http://purl.obolibrary.org/obo/GO_0016570	histone modification
