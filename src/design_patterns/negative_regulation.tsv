@@ -1370,7 +1370,7 @@ http://purl.obolibrary.org/obo/GO_0035067	negative regulation of histone acetyla
 http://purl.obolibrary.org/obo/GO_1901726	negative regulation of histone deacetylase activity	http://purl.obolibrary.org/obo/GO_0004407	histone deacetylase activity
 http://purl.obolibrary.org/obo/GO_0031064	negative regulation of histone deacetylation	http://purl.obolibrary.org/obo/GO_0016575	histone deacetylation
 http://purl.obolibrary.org/obo/GO_0031067	negative regulation of histone deacetylation at centromere	http://purl.obolibrary.org/obo/GO_0031059	histone deacetylation at centromere
-http://purl.obolibrary.org/obo/GO_1904174	negative regulation of histone demethylase activity (H3-K4 specific)	http://purl.obolibrary.org/obo/GO_0032453	histone H3-methyl-lysine-4 demethylase activity
+http://purl.obolibrary.org/obo/GO_1904174	negative regulation of histone demethylase activity (H3-K4 specific)	http://purl.obolibrary.org/obo/GO_0032453	histone H3K4 demethylase activity
 http://purl.obolibrary.org/obo/GO_1903585	negative regulation of histone deubiquitination	http://purl.obolibrary.org/obo/GO_0016578	histone deubiquitination
 http://purl.obolibrary.org/obo/GO_0031061	negative regulation of histone methylation	http://purl.obolibrary.org/obo/GO_0016571	histone methylation
 http://purl.obolibrary.org/obo/GO_0031057	negative regulation of histone modification	http://purl.obolibrary.org/obo/GO_0016570	histone modification
