@@ -23,20 +23,20 @@ RELEASEDIR=../../target
 RELEASEDIR_IMPORTS=$(RELEASEDIR)/imports
 
 # ROBOT is the main release release tool
-ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx6G
+ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx5G
 ROBOT = $(ROBOT_ENV) robot --catalog catalog-v001.xml
 
 # OWLTools is a swiss-army knife;
 # It does some things robot can't do, but eventually functionality should
 # move to robot
-OWLTOOLS_ENV = OWLTOOLS_MEMORY=6G
+OWLTOOLS_ENV = OWLTOOLS_MEMORY=5G
 OWLTOOLS = $(OWLTOOLS_ENV) owltools
 
 #DOSDP is used for turning tsv files into pieces of ontologies for imports
-DOSDP_ENV = JAVA_OPTS=-Xmx6G
+DOSDP_ENV = JAVA_OPTS=-Xmx5G
 DOSDP_TOOLS = $(DOSDP_ENV) ./dosdp-tools-0.19.3/bin/dosdp-tools
 
-AMM_ENV = JAVA_OPTS=-Xmx6G
+AMM_ENV = JAVA_OPTS=-Xmx5G
 AMM = $(AMM_ENV) amm --silent
 
 # Oort build dir;
