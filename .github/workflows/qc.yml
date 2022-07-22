@@ -27,4 +27,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Run ontology QC checks
-        run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' travis_test
+        run: cd src/ontology; make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' travis_test
