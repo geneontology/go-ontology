@@ -25,6 +25,7 @@ jobs:
       uses: peter-evans/create-pull-request@v4
       with:
         title: Update taxon constraints
+        branch: update-taxon-constraints
         add-paths: |
           src/taxon_constraints/never_in_taxon.ofn
           src/taxon_constraints/only_in_taxon.ofn
