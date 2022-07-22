@@ -24,7 +24,8 @@ jobs:
     - name: Create PR
       uses: peter-evans/create-pull-request@v4
       with:
-        title: Update taxon constraints
+        title: Update design pattern docs
+        branch: update-design-patterns
         add-paths: |
             src/design_patterns/*.tsv
             docs/patterns/*.md
