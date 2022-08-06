@@ -61,7 +61,6 @@ http://purl.obolibrary.org/obo/GO_1990010	compound eye retinal cell apoptotic pr
 http://purl.obolibrary.org/obo/GO_0071026	cytoplasmic RNA surveillance	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0071025	RNA surveillance
 http://purl.obolibrary.org/obo/GO_0039709	cytoplasmic capsid assembly	http://purl.obolibrary.org/obo/GO_0030430	host cell cytoplasm	http://purl.obolibrary.org/obo/GO_0019069	viral capsid assembly
 http://purl.obolibrary.org/obo/GO_0010938	cytoplasmic microtubule depolymerization	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0007019	microtubule depolymerization
-http://purl.obolibrary.org/obo/GO_0002753	cytoplasmic pattern recognition receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0002221	pattern recognition receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0002184	cytoplasmic translational termination	http://purl.obolibrary.org/obo/GO_0005829	cytosol	http://purl.obolibrary.org/obo/GO_0006415	translational termination
 http://purl.obolibrary.org/obo/GO_0016482	cytosolic transport	http://purl.obolibrary.org/obo/GO_0005829	cytosol	http://purl.obolibrary.org/obo/GO_0006810	transport
 http://purl.obolibrary.org/obo/GO_0061475	cytosolic valyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005829	cytosol	http://purl.obolibrary.org/obo/GO_0006438	valyl-tRNA aminoacylation

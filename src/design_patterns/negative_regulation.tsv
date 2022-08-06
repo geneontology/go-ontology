@@ -775,7 +775,6 @@ http://purl.obolibrary.org/obo/GO_1904193	negative regulation of cholangiocyte a
 http://purl.obolibrary.org/obo/GO_1904055	negative regulation of cholangiocyte proliferation	http://purl.obolibrary.org/obo/GO_1990705	cholangiocyte proliferation
 http://purl.obolibrary.org/obo/GO_0045541	negative regulation of cholesterol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006695	cholesterol biosynthetic process
 http://purl.obolibrary.org/obo/GO_0090370	negative regulation of cholesterol efflux	http://purl.obolibrary.org/obo/GO_0033344	cholesterol efflux
-http://purl.obolibrary.org/obo/GO_0150110	negative regulation of cholesterol esterification	http://purl.obolibrary.org/obo/GO_0034435	cholesterol esterification
 http://purl.obolibrary.org/obo/GO_0060621	negative regulation of cholesterol import	http://purl.obolibrary.org/obo/GO_0070508	cholesterol import
 http://purl.obolibrary.org/obo/GO_0090206	negative regulation of cholesterol metabolic process	http://purl.obolibrary.org/obo/GO_0008203	cholesterol metabolic process
 http://purl.obolibrary.org/obo/GO_0010887	negative regulation of cholesterol storage	http://purl.obolibrary.org/obo/GO_0010878	cholesterol storage
@@ -2286,7 +2285,7 @@ http://purl.obolibrary.org/obo/GO_0060686	negative regulation of prostatic bud f
 http://purl.obolibrary.org/obo/GO_1901799	negative regulation of proteasomal protein catabolic process	http://purl.obolibrary.org/obo/GO_0010498	proteasomal protein catabolic process
 http://purl.obolibrary.org/obo/GO_0032435	negative regulation of proteasomal ubiquitin-dependent protein catabolic process	http://purl.obolibrary.org/obo/GO_0043161	proteasome-mediated ubiquitin-dependent protein catabolic process
 http://purl.obolibrary.org/obo/GO_1905765	negative regulation of protection from non-homologous end joining at telomere	http://purl.obolibrary.org/obo/GO_0031848	protection from non-homologous end joining at telomere
-http://purl.obolibrary.org/obo/GO_0010836	negative regulation of protein ADP-ribosylation	http://purl.obolibrary.org/obo/GO_0006471	protein ADP-ribosylation
+http://purl.obolibrary.org/obo/GO_0010836	negative regulation of protein ADP-ribosylation	http://purl.obolibrary.org/obo/GO_1990404	NAD+-protein ADP-ribosyltransferase activity
 http://purl.obolibrary.org/obo/GO_1903094	negative regulation of protein K48-linked deubiquitination	http://purl.obolibrary.org/obo/GO_0071108	protein K48-linked deubiquitination
 http://purl.obolibrary.org/obo/GO_0061944	negative regulation of protein K48-linked ubiquitination	http://purl.obolibrary.org/obo/GO_0070936	protein K48-linked ubiquitination
 http://purl.obolibrary.org/obo/GO_1903005	negative regulation of protein K63-linked deubiquitination	http://purl.obolibrary.org/obo/GO_0070536	protein K63-linked deubiquitination
@@ -2936,7 +2935,7 @@ http://purl.obolibrary.org/obo/GO_1903901	negative regulation of viral life cycl
 http://purl.obolibrary.org/obo/GO_0048525	negative regulation of viral process	http://purl.obolibrary.org/obo/GO_0016032	viral process
 http://purl.obolibrary.org/obo/GO_0032897	negative regulation of viral transcription	http://purl.obolibrary.org/obo/GO_0019083	viral transcription
 http://purl.obolibrary.org/obo/GO_1904972	negative regulation of viral translation	http://purl.obolibrary.org/obo/GO_0019081	viral translation
-http://purl.obolibrary.org/obo/GO_0039532	negative regulation of viral-induced cytoplasmic pattern recognition receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0039528	cytoplasmic pattern recognition receptor signaling pathway in response to virus
+http://purl.obolibrary.org/obo/GO_0039532	negative regulation of viral-induced cytoplasmic pattern recognition receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0002753	cytosolic pattern recognition receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0010957	negative regulation of vitamin D biosynthetic process	http://purl.obolibrary.org/obo/GO_0042368	vitamin D biosynthetic process
 http://purl.obolibrary.org/obo/GO_0070563	negative regulation of vitamin D receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0070561	vitamin D receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0046137	negative regulation of vitamin metabolic process	http://purl.obolibrary.org/obo/GO_0006766	vitamin metabolic process
