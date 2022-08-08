@@ -890,7 +890,6 @@ http://purl.obolibrary.org/obo/GO_1904192	regulation of cholangiocyte apoptotic 
 http://purl.obolibrary.org/obo/GO_1904054	regulation of cholangiocyte proliferation	http://purl.obolibrary.org/obo/GO_1990705	cholangiocyte proliferation
 http://purl.obolibrary.org/obo/GO_0045540	regulation of cholesterol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006695	cholesterol biosynthetic process
 http://purl.obolibrary.org/obo/GO_0010874	regulation of cholesterol efflux	http://purl.obolibrary.org/obo/GO_0033344	cholesterol efflux
-http://purl.obolibrary.org/obo/GO_0010872	regulation of cholesterol esterification	http://purl.obolibrary.org/obo/GO_0034435	cholesterol esterification
 http://purl.obolibrary.org/obo/GO_0060620	regulation of cholesterol import	http://purl.obolibrary.org/obo/GO_0070508	cholesterol import
 http://purl.obolibrary.org/obo/GO_0090181	regulation of cholesterol metabolic process	http://purl.obolibrary.org/obo/GO_0008203	cholesterol metabolic process
 http://purl.obolibrary.org/obo/GO_0010885	regulation of cholesterol storage	http://purl.obolibrary.org/obo/GO_0010878	cholesterol storage
@@ -2589,7 +2588,7 @@ http://purl.obolibrary.org/obo/GO_0032434	regulation of proteasomal ubiquitin-de
 http://purl.obolibrary.org/obo/GO_0090364	regulation of proteasome assembly	http://purl.obolibrary.org/obo/GO_0043248	proteasome assembly
 http://purl.obolibrary.org/obo/GO_0090363	regulation of proteasome core complex assembly	http://purl.obolibrary.org/obo/GO_0080129	proteasome core complex assembly
 http://purl.obolibrary.org/obo/GO_1905764	regulation of protection from non-homologous end joining at telomere	http://purl.obolibrary.org/obo/GO_0031848	protection from non-homologous end joining at telomere
-http://purl.obolibrary.org/obo/GO_0010835	regulation of protein ADP-ribosylation	http://purl.obolibrary.org/obo/GO_0006471	protein ADP-ribosylation
+http://purl.obolibrary.org/obo/GO_0010835	regulation of protein ADP-ribosylation	http://purl.obolibrary.org/obo/GO_1990404	NAD+-protein ADP-ribosyltransferase activity
 http://purl.obolibrary.org/obo/GO_1903093	regulation of protein K48-linked deubiquitination	http://purl.obolibrary.org/obo/GO_0071108	protein K48-linked deubiquitination
 http://purl.obolibrary.org/obo/GO_0061945	regulation of protein K48-linked ubiquitination	http://purl.obolibrary.org/obo/GO_0070936	protein K48-linked ubiquitination
 http://purl.obolibrary.org/obo/GO_1903004	regulation of protein K63-linked deubiquitination	http://purl.obolibrary.org/obo/GO_0070536	protein K63-linked deubiquitination
@@ -3351,7 +3350,7 @@ http://purl.obolibrary.org/obo/GO_1903900	regulation of viral life cycle	http://
 http://purl.obolibrary.org/obo/GO_0050792	regulation of viral process	http://purl.obolibrary.org/obo/GO_0016032	viral process
 http://purl.obolibrary.org/obo/GO_0046782	regulation of viral transcription	http://purl.obolibrary.org/obo/GO_0019083	viral transcription
 http://purl.obolibrary.org/obo/GO_1904971	regulation of viral translation	http://purl.obolibrary.org/obo/GO_0019081	viral translation
-http://purl.obolibrary.org/obo/GO_0039531	regulation of viral-induced cytoplasmic pattern recognition receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0039528	cytoplasmic pattern recognition receptor signaling pathway in response to virus
+http://purl.obolibrary.org/obo/GO_0039531	regulation of viral-induced cytoplasmic pattern recognition receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0002753	cytosolic pattern recognition receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_1901738	regulation of vitamin A metabolic process	http://purl.obolibrary.org/obo/GO_0006776	vitamin A metabolic process
 http://purl.obolibrary.org/obo/GO_0010979	regulation of vitamin D 24-hydroxylase activity	http://purl.obolibrary.org/obo/GO_0070576	vitamin D 24-hydroxylase activity
 http://purl.obolibrary.org/obo/GO_0060556	regulation of vitamin D biosynthetic process	http://purl.obolibrary.org/obo/GO_0042368	vitamin D biosynthetic process
