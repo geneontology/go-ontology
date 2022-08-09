@@ -377,7 +377,7 @@ imports/%_import.obo: imports/%_import.owl
 # ----------------------------------------
 
 # Fix external ontologies to specific versions. These should be updated regularly!
-CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.obo
+CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.owl.gz
 CL_SOURCE=http://purl.obolibrary.org/obo/cl/releases/2022-02-16/cl-base.owl
 UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/releases/2022-05-17/uberon-base.owl
 
@@ -410,7 +410,7 @@ mirror/pr-download.owl: $(SRC)
 # special case: download obo for speed for chebi
 # See also: https://github.com/ebi-chebi/ChEBI/issues/3269
 mirror/chebi-download.owl: $(SRC)
-	wget --no-check-certificate $(CHEBI_SOURCE) $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
+	wget --no-check-certificate $(CHEBI_SOURCE) -O $@.tmp.gz && cp $@.tmp.gz $@.gz && gunzip $@.gz && touch $@
 .PRECIOUS: mirror/chebi-download.owl
 
 # special case: use ext for uberon
