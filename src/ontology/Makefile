@@ -407,10 +407,9 @@ mirror/pr-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/pr.owl $(WGET_OUT)
 .PRECIOUS: mirror/pr-download.owl
 
-# special case: download obo for speed for chebi
-# See also: https://github.com/ebi-chebi/ChEBI/issues/3269
+# special case: download gz for speed for chebi
 mirror/chebi-download.owl: $(SRC)
-	wget --no-check-certificate $(CHEBI_SOURCE) -O $@.tmp.gz && cp $@.tmp.gz $@.gz && gunzip $@.gz && touch $@
+	wget --no-check-certificate $(CHEBI_SOURCE) -O $@.tmp.gz && mv $@.tmp.gz $@.gz && gunzip -f $@.gz && touch $@
 .PRECIOUS: mirror/chebi-download.owl
 
 # special case: use ext for uberon
