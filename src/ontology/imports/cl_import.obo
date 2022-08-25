@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-07-18/imports/cl_import.owl
+data-version: go/releases/2022-08-25/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -64,10 +64,9 @@ intersection_of: RO:0002215 GO:0017145
 [Term]
 id: CL:0000015
 name: male germ cell
-def: "Male germ cell is a germ cell that supports male gamete production." []
+def: "A germ cell that supports male gamete production. In some species, non-germ cells known as Sertoli cells also play a role in spermatogenesis." []
 is_a: CL:0000586 ! germ cell
-intersection_of: CL:0000586 ! germ cell
-intersection_of: RO:0002215 GO:0007283
+relationship: RO:0002216 GO:0007283
 
 [Term]
 id: CL:0000016
@@ -168,8 +167,8 @@ id: CL:0000026
 name: invertebrate nurse cell
 def: "A germline cell that contributes to the development of the oocyte by transferring cytoplasm directly to oocyte." []
 synonym: "nurse cell" RELATED []
-is_a: CL:0000039 ! germ line cell
 is_a: CL:0000412 ! polyploid cell
+is_a: CL:4029002 ! germline-derived nurse cell
 relationship: RO:0002202 CL:0000722 ! cystoblast
 
 [Term]
@@ -209,6 +208,7 @@ id: CL:0000034
 name: stem cell
 def: "A relatively undifferentiated cell that retains the ability to divide and proliferate throughout life to provide progenitor cells that can differentiate into specialized cells." []
 synonym: "animal stem cell" EXACT []
+is_a: CL:0000548 ! animal cell
 is_a: CL:0011115 ! precursor cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0002215 GO:0017145
@@ -327,13 +327,11 @@ relationship: RO:0002202 CL:0000770 ! band form basophil
 
 [Term]
 id: CL:0000047
-name: neuronal stem cell
-def: "Neural stem cell is characterized as an undifferentiated cell that originates from the neuroectoderm and has the capacity both to perpetually self-renew without differentiating and to generate multiple types of lineage-restricted progenitors." []
-synonym: "neural stem cell" EXACT []
+name: neural stem cell
+def: "An undifferentiated neural cell that originates from the neuroectoderm and has the capacity both to perpetually self-renew without differentiating and to generate multiple central nervous system neuronal and glial cell types." []
+synonym: "neuronal stem cell" EXACT []
 synonym: "NSC" EXACT []
-is_a: CL:0000048 ! multi fate stem cell
-intersection_of: CL:0000048 ! multi fate stem cell
-intersection_of: BFO:0000050 UBERON:0001017
+is_a: CL:0002319 ! neural cell
 relationship: RO:0002202 CL:0000133 ! neurectodermal cell
 
 [Term]
@@ -669,8 +667,6 @@ is_a: CL:0000766 ! myeloid leukocyte
 is_a: CL:0002274 ! histamine secreting cell
 intersection_of: CL:0000766 ! myeloid leukocyte
 intersection_of: BFO:0000051 GO:0030141
-intersection_of: has_high_plasma_membrane_amount PR:000002065
-intersection_of: has_high_plasma_membrane_amount PR:000007431
 intersection_of: lacks_plasma_membrane_part PR:000001865
 intersection_of: RO:0002104 PR:000001255
 intersection_of: RO:0002104 PR:000006169
@@ -680,6 +676,8 @@ intersection_of: RO:0002215 GO:0002660
 intersection_of: RO:0002215 GO:0002690
 intersection_of: RO:0002215 GO:0002830
 intersection_of: RO:0002215 GO:0030210
+intersection_of: RO:0015015 PR:000002065
+intersection_of: RO:0015015 PR:000007431
 relationship: RO:0002202 CL:0000831 ! mast cell progenitor
 
 [Term]
@@ -775,7 +773,7 @@ synonym: "cerebellum Golgi cell" EXACT []
 synonym: "Golgi cell" EXACT []
 synonym: "Golgi neuron" EXACT []
 is_a: CL:0011005 ! GABAergic interneuron
-relationship: BFO:0000050 UBERON:0002129
+relationship: RO:0002100 UBERON:0002129
 
 [Term]
 id: CL:0000120
@@ -816,7 +814,6 @@ def: "A non-neuronal cell of the nervous system. They not only provide physical 
 synonym: "neuroglia" RELATED []
 synonym: "neuroglial cell" EXACT []
 is_a: CL:0000095 ! neuron associated cell
-relationship: RO:0002202 CL:0000030 ! glioblast
 
 [Term]
 id: CL:0000126
@@ -840,7 +837,9 @@ def: "A class of large neuroglial (macroglial) cells in the central nervous syst
 synonym: "oligodendroglia" RELATED []
 synonym: "OLs" EXACT []
 is_a: CL:0000126 ! macroglial cell
+is_a: CL:4023154 ! myelinating glial cell
 relationship: BFO:0000050 UBERON:0001017
+relationship: BFO:0000051 GO:0043209
 relationship: RO:0002202 CL:0002453 ! oligodendrocyte precursor cell
 
 [Term]
@@ -861,7 +860,7 @@ intersection_of: RO:0002104 PR:000001012
 intersection_of: RO:0002104 PR:000001813
 intersection_of: RO:0002104 PR:000002064
 intersection_of: RO:0002215 GO:0045087
-relationship: RO:0002202 CL:0002453 ! oligodendrocyte precursor cell
+relationship: RO:0002202 CL:0000222 ! mesodermal cell
 
 [Term]
 id: CL:0000133
@@ -1193,6 +1192,7 @@ synonym: "interstitial cell" BROAD []
 synonym: "interstitial cell of Leydig" EXACT []
 is_a: CL:0000177 ! testosterone secreting cell
 relationship: BFO:0000050 UBERON:0005212
+relationship: RO:0002202 CL:0009091 ! Leydig stem cell
 
 [Term]
 id: CL:0000179
@@ -1424,8 +1424,9 @@ synonym: "neurilemmal cell" EXACT []
 synonym: "peripheral neuroglial cell" BROAD []
 synonym: "Schwann cell" BROAD []
 is_a: CL:0000217 ! insulating cell
-is_a: CL:0000328 ! myelin accumulating cell
 is_a: CL:0002573 ! Schwann cell
+is_a: CL:4023154 ! myelinating glial cell
+relationship: BFO:0000051 GO:0043209
 relationship: RO:0002202 CL:0002377 ! immature Schwann cell
 
 [Term]
@@ -1604,6 +1605,7 @@ synonym: "RB neuron" RELATED []
 synonym: "Rohon Beard cell" EXACT []
 synonym: "Rohon-Beard cell" EXACT []
 is_a: CL:0000531 ! primary sensory neuron
+is_a: CL:4023168 ! somatosensory neuron
 
 [Term]
 id: CL:0000253
@@ -1722,11 +1724,6 @@ name: extracellular matrix secreting cell
 is_a: CL:0000499 ! stromal cell
 
 [Term]
-id: CL:0000328
-name: myelin accumulating cell
-is_a: CL:0000325 ! stuff accumulating cell
-
-[Term]
 id: CL:0000329
 name: oxygen accumulating cell
 is_a: CL:0000003 ! native cell
@@ -1746,7 +1743,7 @@ relationship: RO:0002202 CL:0007004 ! premigratory neural crest cell
 id: CL:0000338
 name: neuroblast (sensu Nematoda and Protostomia)
 synonym: "neuroblast" BROAD []
-is_a: CL:0000047 ! neuronal stem cell
+is_a: CL:0000047 ! neural stem cell
 
 [Term]
 id: CL:0000339
@@ -2159,7 +2156,6 @@ id: CL:0000469
 name: ganglion mother cell
 def: "A neural progenitor cell that is the daughter of a neuroblast (sensu arthopoda).  The progeny of ganglion mother cells develop into neurons, glia and (occasionally) epithelial cells." []
 is_a: CL:0011020 ! neural progenitor cell
-is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000338 ! neuroblast (sensu Nematoda and Protostomia)
 
 [Term]
@@ -2188,11 +2184,14 @@ relationship: RO:0002215 GO:0070460
 
 [Term]
 id: CL:0000477
-name: ovarian follicle cell
-def: "A somatic epithelial cell of the ovarian follicle/egg chamber." []
+name: follicle cell of egg chamber
+def: "A somatic epithelial cell of the insect egg chamber." []
 synonym: "follicle cell" BROAD []
+synonym: "ovarian follicle cell" BROAD []
+is_a: CL:0000500 ! follicular epithelial cell
 is_a: CL:2000064 ! ovarian surface epithelial cell
 relationship: BFO:0000050 UBERON:0000992
+relationship: RO:0002160 NCBITaxon:50557
 relationship: RO:0002202 CL:0000441 ! follicle stem cell
 
 [Term]
@@ -2287,6 +2286,13 @@ is_a: CL:0002320 ! connective tissue cell
 relationship: RO:0002202 CL:0000134 ! mesenchymal stem cell
 
 [Term]
+id: CL:0000500
+name: follicular epithelial cell
+def: "An epithelial somatic cell associated with a maturing oocyte." []
+is_a: CL:0000066 ! epithelial cell
+is_a: CL:0002371 ! somatic cell
+
+[Term]
 id: CL:0000501
 name: granulosa cell
 def: "A supporting cell for the developing female gamete in the ovary of mammals. They develop from the coelomic epithelial cells of the gonadal ridge. Granulosa cells form a single layer around the mammalian oocyte in the primordial ovarian follicle and advance to form a multilayered cumulus oophorus surrounding the ovum in the Graafian follicle. The major functions of granulosa cells include the production of steroids and LH receptors." []
@@ -2345,6 +2351,7 @@ relationship: RO:0002202 CL:0000355 ! multi-potent skeletal muscle stem cell
 id: CL:0000517
 name: macrophage derived foam cell
 def: "A type of foam cell derived from a macrophage containing lipids in small vacuoles and typically seen in atherolosclerotic lesions, as well as other conditions." []
+synonym: "lipophage" EXACT []
 is_a: CL:0000891 ! foam cell
 relationship: RO:0002202 CL:0000235 ! macrophage
 
@@ -2741,6 +2748,7 @@ id: CL:0000569
 name: cardiac mesenchymal cell
 def: "A mesenchymal cell found in the developing heart and that develops into some part of the heart.  These cells derive from intra- and extra-cardiac sources, including the endocardium, epicardium, neural crest, and second heart field." []
 is_a: CL:0008019 ! mesenchymal cell
+is_a: CL:2000073 ! migratory cardiac neural crest cell
 intersection_of: CL:0008019 ! mesenchymal cell
 intersection_of: RO:0002203 CL:0002494 ! cardiocyte
 
@@ -2793,7 +2801,7 @@ synonym: "epithelial cell of cornea" EXACT []
 is_a: CL:0000076 ! squamous epithelial cell
 is_a: CL:0002159 ! general ecto-epithelial cell
 intersection_of: CL:0000076 ! squamous epithelial cell
-intersection_of: BFO:0000050 UBERON:0000964
+intersection_of: BFO:0000050 UBERON:0001772
 
 [Term]
 id: CL:0000576
@@ -2811,12 +2819,14 @@ relationship: RO:0002202 CL:0000559 ! promonocyte
 [Term]
 id: CL:0000579
 name: border follicle cell
-is_a: CL:0000477 ! ovarian follicle cell
+is_a: CL:0000477 ! follicle cell of egg chamber
 
 [Term]
 id: CL:0000584
 name: enterocyte
 def: "An epithelial cell that has its apical plasma membrane folded into microvilli to provide ample surface for the absorption of nutrients from the intestinal lumen." []
+synonym: "differentiated enterocyte" NARROW []
+synonym: "mature enterocyte" NARROW []
 is_a: CL:0000239 ! brush border epithelial cell
 is_a: CL:0000677 ! gut absorptive cell
 is_a: CL:0002563 ! intestinal epithelial cell
@@ -2826,7 +2836,7 @@ id: CL:0000586
 name: germ cell
 def: "The reproductive cell in multicellular organisms." []
 is_a: CL:0000039 ! germ line cell
-relationship: RO:0002215 GO:0048609
+relationship: RO:0002216 GO:0009566
 
 [Term]
 id: CL:0000588
@@ -2994,8 +3004,6 @@ intersection_of: CL:0002191 ! granulocytopoietic cell
 intersection_of: BFO:0000051 PR:000005307
 intersection_of: BFO:0000051 PR:000007857
 intersection_of: BFO:0000051 PR:000007858
-intersection_of: has_high_plasma_membrane_amount PR:000007431
-intersection_of: has_low_plasma_membrane_amount PR:000016401
 intersection_of: lacks_plasma_membrane_part PR:000001002
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000001012
@@ -3010,6 +3018,8 @@ intersection_of: lacks_plasma_membrane_part PR:000002065
 intersection_of: lacks_plasma_membrane_part PR:000002978
 intersection_of: lacks_plasma_membrane_part PR:000002981
 intersection_of: RO:0002215 GO:0030221
+intersection_of: RO:0015015 PR:000007431
+intersection_of: RO:0015016 PR:000016401
 relationship: RO:0002202 CL:0002028 ! basophil mast progenitor cell
 
 [Term]
@@ -3198,19 +3208,22 @@ id: CL:0000650
 name: mesangial cell
 def: "A cell type that encapsulates the capillaries and venules in the kidney. This cell secretes mesangial matrix that provides the structural support for the capillaries." []
 synonym: "kidney mesangial cell" EXACT []
-is_a: CL:0000669 ! pericyte cell
+is_a: CL:0000669 ! pericyte
 relationship: RO:0002202 CL:0000134 ! mesenchymal stem cell
 
 [Term]
 id: CL:0000653
-name: glomerular visceral epithelial cell
-def: "A glomerular visceral epithelial cell is a specialized kidney epithelial cell that contains \"feet\" that interdigitate with the \"feet\" of other glomerular epithelial cells." []
+name: podocyte
+def: "A specialized kidney epithelial cell, contained within a glomerulus, that contains \"feet\" that interdigitate with the \"feet\" of other podocytes." []
 synonym: "epithelial cell of visceral layer of glomerular capsule" BROAD []
 synonym: "glomerular podocyte" EXACT []
-synonym: "podocyte" EXACT []
-is_a: CL:0002518 ! kidney epithelial cell
+synonym: "glomerular visceral epithelial cell" EXACT []
+synonym: "kidney podocyte" EXACT []
+synonym: "renal podocyte" EXACT []
+is_a: CL:0000066 ! epithelial cell
 is_a: CL:0002522 ! renal filtration cell
-relationship: BFO:0000050 UBERON:0005751
+intersection_of: CL:0000066 ! epithelial cell
+intersection_of: BFO:0000050 UBERON:0005751
 
 [Term]
 id: CL:0000654
@@ -3277,13 +3290,13 @@ is_a: CL:0000327 ! extracellular matrix secreting cell
 
 [Term]
 id: CL:0000669
-name: pericyte cell
+name: pericyte
 def: "An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane. Pericytes are present in capillaries where proper adventitia and muscle layer are missing (thus distingushing this cell type from adventitial cells). They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells." []
 synonym: "adventitial cell" RELATED []
 synonym: "adventitial reticular cell" EXACT []
 synonym: "ARC" EXACT []
 synonym: "cell of Rouget" EXACT []
-synonym: "pericyte" EXACT []
+synonym: "pericyte cell" EXACT []
 synonym: "pericyte of Rouget" EXACT []
 is_a: CL:0000183 ! contractile cell
 is_a: CL:0000630 ! supporting cell
@@ -3305,7 +3318,7 @@ intersection_of: RO:0002215 GO:0048870
 [Term]
 id: CL:0000671
 name: centripetally migrating follicle cell
-is_a: CL:0000477 ! ovarian follicle cell
+is_a: CL:0000477 ! follicle cell of egg chamber
 
 [Term]
 id: CL:0000675
@@ -3606,8 +3619,9 @@ def: "A bipolar neuron found in the retina and having connections with photorece
 is_a: CL:0000103 ! bipolar neuron
 is_a: CL:0000679 ! glutamatergic neuron
 is_a: CL:0008028 ! visual system neuron
+is_a: CL:0009004 ! retinal cell
 intersection_of: CL:0000103 ! bipolar neuron
-intersection_of: BFO:0000050 UBERON:0000966
+intersection_of: RO:0002100 UBERON:0000966
 relationship: RO:0002216 GO:0007601
 
 [Term]
@@ -3695,11 +3709,11 @@ synonym: "polymorphonuclear leucocyte" BROAD []
 synonym: "polymorphonuclear leukocyte" BROAD []
 is_a: CL:0000094 ! granulocyte
 intersection_of: CL:0000094 ! granulocyte
-intersection_of: has_high_plasma_membrane_amount PR:000001255
-intersection_of: has_high_plasma_membrane_amount PR:000001865
-intersection_of: has_high_plasma_membrane_amount PR:000007431
 intersection_of: RO:0002104 PR:000001344
 intersection_of: RO:0002104 PR:000001950
+intersection_of: RO:0015015 PR:000001255
+intersection_of: RO:0015015 PR:000001865
+intersection_of: RO:0015015 PR:000007431
 
 [Term]
 id: CL:0000768
@@ -4034,9 +4048,9 @@ synonym: "suppressor T-lymphocyte" BROAD []
 synonym: "Treg" BROAD []
 is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
 intersection_of: CL:0000624 ! CD4-positive, alpha-beta T cell
-intersection_of: has_low_plasma_membrane_amount PR:000001869
 intersection_of: RO:0002104 PR:000001380
 intersection_of: RO:0002215 GO:0050777
+intersection_of: RO:0015016 PR:000001869
 
 [Term]
 id: CL:0000793
@@ -4217,12 +4231,12 @@ synonym: "ISP" EXACT []
 synonym: "T.ISP.th" EXACT []
 is_a: CL:0000893 ! thymocyte
 intersection_of: CL:0000893 ! thymocyte
-intersection_of: has_high_plasma_membrane_amount PR:000001932
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000001307
 intersection_of: lacks_plasma_membrane_part PR:000001380
 intersection_of: RO:0002104 GO:0043384
 intersection_of: RO:0002104 PR:000025402
+intersection_of: RO:0015015 PR:000001932
 relationship: RO:0002202 CL:0000808 ! DN4 thymocyte
 
 [Term]
@@ -4429,11 +4443,11 @@ synonym: "transitional stage B-cell" EXACT []
 synonym: "transitional stage B-lymphocyte" EXACT []
 is_a: CL:0001201 ! B cell, CD19-positive
 intersection_of: CL:0001201 ! B cell, CD19-positive
-intersection_of: has_high_plasma_membrane_amount PR:000001408
-intersection_of: has_high_plasma_membrane_amount PR:000001932
 intersection_of: has_not_completed GO:0002335
 intersection_of: RO:0002104 GO:0071753
 intersection_of: RO:0002104 PR:000001289
+intersection_of: RO:0015015 PR:000001408
+intersection_of: RO:0015015 PR:000001932
 relationship: RO:0002202 CL:0000816 ! immature B cell
 
 [Term]
@@ -4451,11 +4465,11 @@ synonym: "B1 B-lymphocyte" EXACT []
 synonym: "B1 cell" EXACT []
 is_a: CL:0000785 ! mature B cell
 intersection_of: CL:0000785 ! mature B cell
-intersection_of: has_high_plasma_membrane_amount GO:0071753
 intersection_of: RO:0002104 PR:000001014
 intersection_of: RO:0002104 PR:000001289
 intersection_of: RO:0002104 PR:000001879
 intersection_of: RO:0002215 GO:0045087
+intersection_of: RO:0015015 GO:0071753
 
 [Term]
 id: CL:0000820
@@ -4617,9 +4631,6 @@ is_a: CL:0000839 ! myeloid lineage restricted progenitor cell
 intersection_of: CL:0000839 ! myeloid lineage restricted progenitor cell
 intersection_of: BFO:0000051 PR:000007857
 intersection_of: BFO:0000051 PR:000007858
-intersection_of: has_high_plasma_membrane_amount PR:000009143
-intersection_of: has_low_plasma_membrane_amount PR:000002065
-intersection_of: has_low_plasma_membrane_amount PR:000007431
 intersection_of: lacks_part PR:000005307
 intersection_of: lacks_plasma_membrane_part PR:000001002
 intersection_of: lacks_plasma_membrane_part PR:000001004
@@ -4639,6 +4650,9 @@ intersection_of: lacks_plasma_membrane_part PR:000002981
 intersection_of: RO:0002104 PR:000005178
 intersection_of: RO:0002104 PR:000016401
 intersection_of: RO:0002215 GO:0060374
+intersection_of: RO:0015015 PR:000009143
+intersection_of: RO:0015016 PR:000002065
+intersection_of: RO:0015016 PR:000007431
 relationship: RO:0002202 CL:0002028 ! basophil mast progenitor cell
 
 [Term]
@@ -4750,9 +4764,9 @@ def: "An immature cell of the conventional dendritic cell lineage, characterized
 synonym: "immature myeloid dendritic cell" NARROW []
 is_a: CL:0000990 ! conventional dendritic cell
 intersection_of: CL:0000990 ! conventional dendritic cell
-intersection_of: has_low_plasma_membrane_amount GO:0042613
-intersection_of: has_low_plasma_membrane_amount PR:000001412
-intersection_of: has_low_plasma_membrane_amount PR:000001438
+intersection_of: RO:0015016 GO:0042613
+intersection_of: RO:0015016 PR:000001412
+intersection_of: RO:0015016 PR:000001438
 relationship: RO:0002202 CL:0001029 ! common dendritic progenitor
 
 [Term]
@@ -4763,10 +4777,10 @@ synonym: "mature dendritic cell" BROAD []
 synonym: "mature myeloid dendritic cell" NARROW []
 is_a: CL:0000990 ! conventional dendritic cell
 intersection_of: CL:0000990 ! conventional dendritic cell
-intersection_of: has_high_plasma_membrane_amount GO:0042613
-intersection_of: has_high_plasma_membrane_amount PR:000001412
-intersection_of: has_high_plasma_membrane_amount PR:000001438
 intersection_of: RO:0002104 PR:000001310
+intersection_of: RO:0015015 GO:0042613
+intersection_of: RO:0015015 PR:000001412
+intersection_of: RO:0015015 PR:000001438
 relationship: RO:0002202 CL:0000840 ! immature conventional dendritic cell
 
 [Term]
@@ -4834,12 +4848,12 @@ synonym: "MZ B-lymphocyte" BROAD []
 is_a: CL:0000785 ! mature B cell
 intersection_of: CL:0000785 ! mature B cell
 intersection_of: BFO:0000050 UBERON:0001251
-intersection_of: has_high_plasma_membrane_amount GO:0071753
 intersection_of: lacks_plasma_membrane_part PR:000001880
 intersection_of: lacks_plasma_membrane_part PR:000002037
 intersection_of: RO:0002104 PR:000001289
 intersection_of: RO:0002104 PR:000001338
 intersection_of: RO:0002215 GO:0042742
+intersection_of: RO:0015015 GO:0071753
 
 [Term]
 id: CL:0000847
@@ -4911,13 +4925,13 @@ synonym: "inflammatory monocyte" EXACT []
 is_a: CL:0000234 ! phagocyte
 is_a: CL:0000576 ! monocyte
 intersection_of: CL:0000576 ! monocyte
-intersection_of: has_high_plasma_membrane_amount PR:000001199
 intersection_of: lacks_plasma_membrane_part PR:000001002
 intersection_of: lacks_plasma_membrane_part PR:000001020
 intersection_of: lacks_plasma_membrane_part PR:000001289
 intersection_of: RO:0002215 GO:0002548
 intersection_of: RO:0002215 GO:0006909
 intersection_of: RO:0002215 GO:0006954
+intersection_of: RO:0015015 PR:000001199
 
 [Term]
 id: CL:0000861
@@ -4984,12 +4998,12 @@ synonym: "resident monocyte" EXACT []
 is_a: CL:0000576 ! monocyte
 intersection_of: CL:0000576 ! monocyte
 intersection_of: has_completed GO:0030224
-intersection_of: has_high_plasma_membrane_amount PR:000001206
 intersection_of: lacks_plasma_membrane_part PR:000001002
 intersection_of: lacks_plasma_membrane_part PR:000001020
 intersection_of: lacks_plasma_membrane_part PR:000001289
 intersection_of: RO:0000053 PATO:0000587
 intersection_of: RO:0002215 GO:0031294
+intersection_of: RO:0015015 PR:000001206
 relationship: RO:0002202 CL:0002393 ! intermediate monocyte
 
 [Term]
@@ -5071,12 +5085,12 @@ synonym: "T.4Nve.Sp" EXACT []
 synonym: "Th0" EXACT []
 is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
 intersection_of: CL:0000624 ! CD4-positive, alpha-beta T cell
-intersection_of: has_high_plasma_membrane_amount PR:000001318
-intersection_of: has_low_plasma_membrane_amount PR:000001307
 intersection_of: lacks_plasma_membrane_part PR:000001380
 intersection_of: RO:0002104 PR:000001015
 intersection_of: RO:0002104 PR:000001203
 intersection_of: RO:0002104 PR:000001869
+intersection_of: RO:0015015 PR:000001318
+intersection_of: RO:0015016 PR:000001307
 relationship: RO:0002202 CL:0002436 ! mature CD4 single-positive thymocyte
 
 [Term]
@@ -5118,11 +5132,11 @@ synonym: "naive T-lymphocyte" EXACT []
 is_a: CL:0002419 ! mature T cell
 intersection_of: CL:0002419 ! mature T cell
 intersection_of: has_completed GO:0045058
-intersection_of: has_high_plasma_membrane_amount PR:000001318
-intersection_of: has_low_plasma_membrane_amount PR:000001307
 intersection_of: RO:0002104 PR:000001015
 intersection_of: RO:0002104 PR:000001203
 intersection_of: RO:0002104 PR:000001869
+intersection_of: RO:0015015 PR:000001318
+intersection_of: RO:0015016 PR:000001307
 
 [Term]
 id: CL:0000899
@@ -5157,12 +5171,12 @@ synonym: "naive thymus-dervied CD8-positive, alpha-beta T-lymphocyte" EXACT []
 synonym: "T.8Nve.Sp" NARROW []
 is_a: CL:0000625 ! CD8-positive, alpha-beta T cell
 intersection_of: CL:0000625 ! CD8-positive, alpha-beta T cell
-intersection_of: has_high_plasma_membrane_amount PR:000001318
-intersection_of: has_low_plasma_membrane_amount PR:000001307
 intersection_of: lacks_plasma_membrane_part PR:000001380
 intersection_of: RO:0002104 PR:000001015
 intersection_of: RO:0002104 PR:000001203
 intersection_of: RO:0002104 PR:000001869
+intersection_of: RO:0015015 PR:000001318
+intersection_of: RO:0015016 PR:000001307
 relationship: RO:0002202 CL:0002437 ! mature CD8 single-positive thymocyte
 
 [Term]
@@ -5825,7 +5839,7 @@ synonym: "Bm1 B lymphocyte" EXACT []
 synonym: "Bm1 B-cell" EXACT []
 synonym: "Bm1 B-lymphocyte" EXACT []
 is_a: CL:0000843 ! follicular B cell
-is_a: CL:0002056 ! Fraction F mature B cell
+is_a: CL:0002056 ! fraction F mature B cell
 intersection_of: CL:0000843 ! follicular B cell
 intersection_of: lacks_plasma_membrane_part PR:000001408
 intersection_of: lacks_plasma_membrane_part PR:000001880
@@ -6009,13 +6023,13 @@ name: long lived plasma cell
 def: "A fully differentiated plasma cell that lives for years, as opposed to months, secretes immunoglobulin, and has the phenotype weakly CD19-positive, CD20-negative, CD38-negative, strongly CD138-positive, MHC Class II-negative, surface immunoglobulin-negative, IgD-negative, and strongly CXCR4-positive. The majority of these cells of this type reside in the bone marrow." []
 is_a: CL:0000786 ! plasma cell
 intersection_of: CL:0000786 ! plasma cell
-intersection_of: has_high_plasma_membrane_amount PR:000001208
-intersection_of: has_high_plasma_membrane_amount PR:000001935
-intersection_of: has_low_plasma_membrane_amount PR:000001002
 intersection_of: lacks_plasma_membrane_part GO:0019814
 intersection_of: lacks_plasma_membrane_part GO:0042613
 intersection_of: lacks_plasma_membrane_part PR:000001289
 intersection_of: lacks_plasma_membrane_part PR:000001408
+intersection_of: RO:0015015 PR:000001208
+intersection_of: RO:0015015 PR:000001935
+intersection_of: RO:0015016 PR:000001002
 relationship: RO:0002202 CL:0000975 ! short lived plasma cell
 
 [Term]
@@ -6075,11 +6089,11 @@ synonym: "CD27-positive, CD38-positive, CD20-negative B cell" EXACT []
 is_a: CL:0000785 ! mature B cell
 is_a: CL:0000946 ! antibody secreting cell
 intersection_of: CL:0000785 ! mature B cell
-intersection_of: has_high_plasma_membrane_amount PR:000001408
-intersection_of: has_high_plasma_membrane_amount PR:000001963
 intersection_of: lacks_plasma_membrane_part PR:000001289
 intersection_of: lacks_plasma_membrane_part PR:000001935
 intersection_of: RO:0003000 GO:0042571
+intersection_of: RO:0015015 PR:000001408
+intersection_of: RO:0015015 PR:000001963
 relationship: RO:0002202 CL:0000785 ! mature B cell
 
 [Term]
@@ -6162,10 +6176,10 @@ name: CD11c-low plasmacytoid dendritic cell
 def: "CD11c-low plasmacytoid dendritic cell is a leukocyte that is CD11c-low, CD45R-positive, GR1-positive and CD11b-negative." []
 is_a: CL:0000784 ! plasmacytoid dendritic cell
 intersection_of: CL:0000784 ! plasmacytoid dendritic cell
-intersection_of: has_low_plasma_membrane_amount PR:000001013
 intersection_of: lacks_plasma_membrane_part PR:000001012
 intersection_of: RO:0002104 PR:000001014
 intersection_of: RO:0002104 PR:000002978
+intersection_of: RO:0015016 PR:000001013
 
 [Term]
 id: CL:0000990
@@ -6179,7 +6193,7 @@ synonym: "type 1 DC" EXACT []
 synonym: "veiled cell" BROAD []
 is_a: CL:0000451 ! dendritic cell
 intersection_of: CL:0000451 ! dendritic cell
-intersection_of: has_high_plasma_membrane_amount PR:000001013
+intersection_of: RO:0015015 PR:000001013
 
 [Term]
 id: CL:0000992
@@ -6187,8 +6201,8 @@ name: immature CD11c-low plasmacytoid dendritic cell
 def: "Immature CD11c-low plasmacytoid dendritic cell is a CD11c-low plasmacytoid dendritic cell that is CD80-low and CD86-low." []
 is_a: CL:0000989 ! CD11c-low plasmacytoid dendritic cell
 intersection_of: CL:0000989 ! CD11c-low plasmacytoid dendritic cell
-intersection_of: has_low_plasma_membrane_amount PR:000001412
-intersection_of: has_low_plasma_membrane_amount PR:000001438
+intersection_of: RO:0015016 PR:000001412
+intersection_of: RO:0015016 PR:000001438
 relationship: RO:0002202 CL:0001029 ! common dendritic progenitor
 
 [Term]
@@ -6197,10 +6211,10 @@ name: mature CD11c-low plasmacytoid dendritic cell
 def: "Mature CD11c-low plasmacytoid dendritic cell is a CD11c-low plasmacytoid dendritic cell that is CD83-high and is CD80-positive, CD86-positive, and MHCII-positive." []
 is_a: CL:0000989 ! CD11c-low plasmacytoid dendritic cell
 intersection_of: CL:0000989 ! CD11c-low plasmacytoid dendritic cell
-intersection_of: has_high_plasma_membrane_amount GO:0042613
-intersection_of: has_high_plasma_membrane_amount PR:000001412
-intersection_of: has_high_plasma_membrane_amount PR:000001438
 intersection_of: RO:0002104 PR:000001310
+intersection_of: RO:0015015 GO:0042613
+intersection_of: RO:0015015 PR:000001412
+intersection_of: RO:0015015 PR:000001438
 relationship: RO:0002202 CL:0000992 ! immature CD11c-low plasmacytoid dendritic cell
 
 [Term]
@@ -6282,11 +6296,11 @@ synonym: "CD117-positive common myeloid precursor" BROAD []
 is_a: CL:0001030 ! CD117-positive common myeloid progenitor OR CD217-positive common lymphoid progenitor
 is_a: CL:0001059 ! common myeloid progenitor, CD34-positive
 intersection_of: CL:0001059 ! common myeloid progenitor, CD34-positive
-intersection_of: has_low_plasma_membrane_amount GO:0033001
-intersection_of: has_low_plasma_membrane_amount PR:000001481
 intersection_of: lacks_plasma_membrane_part PR:000001869
 intersection_of: lacks_plasma_membrane_part PR:000002979
 intersection_of: RO:0002104 PR:000002065
+intersection_of: RO:0015016 GO:0033001
+intersection_of: RO:0015016 PR:000001481
 disjoint_from: CL:0001026 ! CD34-positive, CD38-positive common myeloid progenitor
 relationship: RO:0002202 CL:0002035 ! Slamf1-negative multipotent progenitor cell
 
@@ -6317,13 +6331,13 @@ synonym: "CD217-positive common lymphoid precursor" EXACT []
 is_a: CL:0000051 ! common lymphoid progenitor
 is_a: CL:0001030 ! CD117-positive common myeloid progenitor OR CD217-positive common lymphoid progenitor
 intersection_of: CL:0000051 ! common lymphoid progenitor
-intersection_of: has_low_plasma_membrane_amount PR:000002065
-intersection_of: has_low_plasma_membrane_amount PR:000002979
 intersection_of: lacks_plasma_membrane_part PR:000001014
 intersection_of: RO:0002104 PR:000001869
 intersection_of: RO:0002104 PR:000001963
 intersection_of: RO:0002104 PR:000002001
 intersection_of: RO:0002104 PR:000002037
+intersection_of: RO:0015016 PR:000002065
+intersection_of: RO:0015016 PR:000002979
 relationship: RO:0002202 CL:0000936 ! early lymphoid progenitor
 
 [Term]
@@ -6334,12 +6348,12 @@ synonym: "CD71-positive common myeloid precursor" NARROW []
 is_a: CL:0000995 ! CD34-positive, CD38-positive common myeloid progenitor OR CD34-positive, CD38-positive common lymphoid progenitor
 is_a: CL:0001059 ! common myeloid progenitor, CD34-positive
 intersection_of: CL:0001059 ! common myeloid progenitor, CD34-positive
-intersection_of: has_low_plasma_membrane_amount PR:000001865
 intersection_of: lacks_plasma_membrane_part PR:000001015
 intersection_of: lacks_plasma_membrane_part PR:000001836
 intersection_of: lacks_plasma_membrane_part PR:000001867
 intersection_of: lacks_plasma_membrane_part PR:000001898
 intersection_of: RO:0002104 PR:000001408
+intersection_of: RO:0015016 PR:000001865
 relationship: RO:0002202 CL:0002043 ! CD34-positive, CD38-negative multipotent progenitor cell
 
 [Term]
@@ -6376,7 +6390,6 @@ synonym: "common dendritic precursor" EXACT []
 synonym: "pro-DCs" EXACT []
 is_a: CL:0001019 ! CD115-positive monocyte OR common dendritic progenitor
 intersection_of: CL:0002031 ! hematopoietic lineage restricted progenitor cell
-intersection_of: has_low_plasma_membrane_amount PR:000002065
 intersection_of: lacks_plasma_membrane_part PR:000001002
 intersection_of: lacks_plasma_membrane_part PR:000001004
 intersection_of: lacks_plasma_membrane_part PR:000001012
@@ -6391,6 +6404,7 @@ intersection_of: lacks_plasma_membrane_part PR:000002978
 intersection_of: lacks_plasma_membrane_part PR:000002981
 intersection_of: RO:0002104 PR:000002001
 intersection_of: RO:0002104 PR:000002062
+intersection_of: RO:0015016 PR:000002065
 relationship: RO:0002202 CL:0002009 ! macrophage dendritic cell progenitor
 
 [Term]
@@ -6405,8 +6419,9 @@ id: CL:0001031
 name: cerebellar granule cell
 def: "Granule cell that is part of the cerebellum." []
 is_a: CL:0000120 ! granule cell
+is_a: CL:1001611 ! cerebellar neuron
 intersection_of: CL:0000120 ! granule cell
-intersection_of: BFO:0000050 UBERON:0002037
+intersection_of: RO:0002100 UBERON:0002037
 
 [Term]
 id: CL:0001032
@@ -6422,6 +6437,7 @@ id: CL:0001033
 name: hippocampal granule cell
 def: "Granule cell that is part of the hippocampus." []
 is_a: CL:0000120 ! granule cell
+is_a: CL:0002608 ! hippocampal neuron
 intersection_of: CL:0000120 ! granule cell
 intersection_of: RO:0002100 UBERON:0001954
 
@@ -6556,11 +6572,11 @@ id: CL:0001055
 name: CD14-positive, CD16-low monocyte
 def: "An intermediate monocyte that is CD14-positive and with low amounts of CD16." []
 synonym: "intermediate monocyte, human" EXACT []
+is_a: CL:0001054 ! CD14-positive monocyte
 is_a: CL:0002393 ! intermediate monocyte
-is_a: CL:0002397 ! CD14-positive, CD16-positive monocyte
 intersection_of: CL:0002393 ! intermediate monocyte
-intersection_of: has_low_plasma_membrane_amount PR:000001483
 intersection_of: RO:0002104 PR:000001889
+intersection_of: RO:0015016 PR:000001483
 
 [Term]
 id: CL:0001059
@@ -6761,14 +6777,14 @@ name: Kit-positive granulocyte monocyte progenitor
 def: "A granulocyte monocyte progenitor that is Kit-positive, CD34-positive, Fc-gamma receptor II/II-positive, and is Sca-1-negative, Il7ra-negative, Cxc3r1-negative, and CD90-negative." []
 is_a: CL:0000557 ! granulocyte monocyte progenitor cell
 intersection_of: CL:0000557 ! granulocyte monocyte progenitor cell
-intersection_of: has_high_plasma_membrane_amount GO:0033001
-intersection_of: has_high_plasma_membrane_amount PR:000001479
 intersection_of: lacks_plasma_membrane_part PR:000001206
 intersection_of: lacks_plasma_membrane_part PR:000001843
 intersection_of: lacks_plasma_membrane_part PR:000001869
 intersection_of: lacks_plasma_membrane_part PR:000002979
 intersection_of: RO:0002104 PR:000001003
 intersection_of: RO:0002104 PR:000002065
+intersection_of: RO:0015015 GO:0033001
+intersection_of: RO:0015015 PR:000001479
 relationship: RO:0002202 CL:0001023 ! Kit-positive, CD34-positive common myeloid progenitor
 
 [Term]
@@ -6808,13 +6824,13 @@ name: Kit-positive, CD34-negative megakaryocyte erythroid progenitor cell
 def: "A megakaryocyte erythroid progenitor cell that is Kit-positive and is Sca1-negative, CD34-negative, CD90-negative, IL7r-alpha-negative and Fcgr II/III-low." []
 is_a: CL:0000050 ! megakaryocyte-erythroid progenitor cell
 intersection_of: CL:0000050 ! megakaryocyte-erythroid progenitor cell
-intersection_of: has_low_plasma_membrane_amount GO:0033001
 intersection_of: lacks_plasma_membrane_part PR:000001003
 intersection_of: lacks_plasma_membrane_part PR:000001479
 intersection_of: lacks_plasma_membrane_part PR:000001843
 intersection_of: lacks_plasma_membrane_part PR:000001869
 intersection_of: lacks_plasma_membrane_part PR:000002979
 intersection_of: RO:0002104 PR:000002065
+intersection_of: RO:0015016 GO:0033001
 
 [Term]
 id: CL:0002007
@@ -6822,10 +6838,10 @@ name: Kit-low, CD34-positive eosinophil progenitor cell
 def: "A lineage marker-negative, CD34-positive, IL5r-alpha-positive, and Sca1-negative eosinophil progenitor cell." []
 is_a: CL:0000611 ! eosinophil progenitor cell
 intersection_of: CL:0000611 ! eosinophil progenitor cell
-intersection_of: has_low_plasma_membrane_amount PR:000002065
 intersection_of: lacks_plasma_membrane_part PR:000002979
 intersection_of: RO:0002104 PR:000001003
 intersection_of: RO:0002104 PR:000001867
+intersection_of: RO:0015016 PR:000002065
 relationship: RO:0002202 CL:0002002 ! Kit-positive granulocyte monocyte progenitor
 
 [Term]
@@ -6881,10 +6897,10 @@ def: "A progenitor cell that can give rise to plasmacytoid and myeloid dendritic
 synonym: "murine MDP" EXACT []
 is_a: CL:0002009 ! macrophage dendritic cell progenitor
 intersection_of: CL:0002009 ! macrophage dendritic cell progenitor
-intersection_of: has_high_plasma_membrane_amount PR:000002065
 intersection_of: RO:0002104 PR:000001206
 intersection_of: RO:0002104 PR:000002001
 intersection_of: RO:0002104 PR:000002062
+intersection_of: RO:0015015 PR:000002065
 relationship: RO:0002202 CL:0002002 ! Kit-positive granulocyte monocyte progenitor
 
 [Term]
@@ -6893,11 +6909,11 @@ name: Kit-low proerythroblast
 def: "A proerythoblast that is Kit-low, Lyg76-positive, and CD71-positive." []
 is_a: CL:0000547 ! proerythroblast
 intersection_of: CL:0000547 ! proerythroblast
-intersection_of: has_high_plasma_membrane_amount PR:000001945
-intersection_of: has_low_plasma_membrane_amount PR:000002065
 intersection_of: lacks_plasma_membrane_part PR:000001869
 intersection_of: lacks_plasma_membrane_part PR:000002979
 intersection_of: RO:0002104 PR:000002981
+intersection_of: RO:0015015 PR:000001945
+intersection_of: RO:0015016 PR:000002065
 relationship: RO:0002202 CL:0002000 ! Kit-positive erythroid progenitor cell
 
 [Term]
@@ -6916,10 +6932,10 @@ name: Kit-negative, Ly-76 high basophilic erythroblast
 def: "A basophilic erythroblast that is Lyg 76-high and is Kit-negative." []
 is_a: CL:0000549 ! basophilic erythroblast
 intersection_of: CL:0000549 ! basophilic erythroblast
-intersection_of: has_high_plasma_membrane_amount PR:000002981
 intersection_of: lacks_plasma_membrane_part PR:000001869
 intersection_of: lacks_plasma_membrane_part PR:000002065
 intersection_of: lacks_plasma_membrane_part PR:000002979
+intersection_of: RO:0015015 PR:000002981
 relationship: RO:0002202 CL:0002012 ! Kit-low proerythroblast
 
 [Term]
@@ -6929,10 +6945,10 @@ def: "A polychromatophilic erythroblast that is Lyg 76-high and is Kit-negative.
 synonym: "late basophilic and polychromatophilic erythroblast" BROAD []
 is_a: CL:0000550 ! polychromatophilic erythroblast
 intersection_of: CL:0000550 ! polychromatophilic erythroblast
-intersection_of: has_high_plasma_membrane_amount PR:000002981
 intersection_of: lacks_plasma_membrane_part PR:000001869
 intersection_of: lacks_plasma_membrane_part PR:000002065
 intersection_of: lacks_plasma_membrane_part PR:000002979
+intersection_of: RO:0015015 PR:000002981
 relationship: RO:0002202 CL:0002014 ! Kit-negative, Ly-76 high basophilic erythroblast
 
 [Term]
@@ -6941,8 +6957,8 @@ name: CD71-low, GlyA-positive polychromatic erythroblast
 def: "A polychromatiic erythroblast that is Gly-A-positive and CD71-low." []
 is_a: CL:0000550 ! polychromatophilic erythroblast
 intersection_of: CL:0000550 ! polychromatophilic erythroblast
-intersection_of: has_low_plasma_membrane_amount PR:000001945
 intersection_of: RO:0002104 PR:000001460
+intersection_of: RO:0015016 PR:000001945
 relationship: RO:0002202 CL:0002013 ! GlyA-positive basophillic erythroblast
 
 [Term]
@@ -6951,11 +6967,11 @@ name: Kit-negative, Ly-76 high orthochromatophilic erythroblasts
 def: "An orthochromatophilic erythroblast that is ter119-high, CD71-low, and Kit-negative." []
 is_a: CL:0000552 ! orthochromatic erythroblast
 intersection_of: CL:0000552 ! orthochromatic erythroblast
-intersection_of: has_high_plasma_membrane_amount PR:000002981
-intersection_of: has_low_plasma_membrane_amount PR:000001945
 intersection_of: lacks_plasma_membrane_part PR:000001869
 intersection_of: lacks_plasma_membrane_part PR:000002065
 intersection_of: lacks_plasma_membrane_part PR:000002979
+intersection_of: RO:0015015 PR:000002981
+intersection_of: RO:0015016 PR:000001945
 relationship: RO:0002202 CL:0002015 ! Kit-negative, Ly-76 high polychromatophilic erythroblast
 
 [Term]
@@ -6974,7 +6990,7 @@ name: Ly-76 high reticulocyte
 def: "A reticulocyte that is Ly76-high and is Kit-negative." []
 is_a: CL:0002422 ! enucleated reticulocyte
 intersection_of: CL:0002422 ! enucleated reticulocyte
-intersection_of: has_high_plasma_membrane_amount PR:000002981
+intersection_of: RO:0015015 PR:000002981
 relationship: RO:0002202 CL:0002017 ! Kit-negative, Ly-76 high orthochromatophilic erythroblasts
 
 [Term]
@@ -7001,7 +7017,7 @@ name: Ly-76 high positive erythrocyte
 def: "An enucleate erythrocyte that is Lyg-76-high." []
 is_a: CL:0000595 ! enucleate erythrocyte
 intersection_of: CL:0000595 ! enucleate erythrocyte
-intersection_of: has_high_plasma_membrane_amount PR:000002981
+intersection_of: RO:0015015 PR:000002981
 relationship: RO:0002202 CL:0002019 ! Ly-76 high reticulocyte
 
 [Term]
@@ -7010,13 +7026,13 @@ name: Kit-positive megakaryocyte progenitor cell
 def: "A megakaryocyte progenitor cell that is Kit-positive, CD41-positive, CD9-positive, Sca-1-negative, IL7ralpha-negative, CD150-negative, and Fcgamma receptor II/III-low." []
 is_a: CL:0000553 ! megakaryocyte progenitor cell
 intersection_of: CL:0000553 ! megakaryocyte progenitor cell
-intersection_of: has_low_plasma_membrane_amount PR:000001479
-intersection_of: has_low_plasma_membrane_amount PR:000001483
 intersection_of: lacks_plasma_membrane_part PR:000001833
 intersection_of: lacks_plasma_membrane_part PR:000001869
 intersection_of: lacks_plasma_membrane_part PR:000002979
 intersection_of: RO:0002104 PR:000002065
 intersection_of: RO:0002104 PR:000005178
+intersection_of: RO:0015016 PR:000001479
+intersection_of: RO:0015016 PR:000001483
 relationship: RO:0002202 CL:0002006 ! Kit-positive, CD34-negative megakaryocyte erythroid progenitor cell
 
 [Term]
@@ -7052,11 +7068,11 @@ name: Fc-epsilon RIalpha-low mast cell progenitor
 def: "A lineage-negative, Kit-positive, CD45-positive mast cell progenitor that is Fc-epsilon RIalpha-low." []
 is_a: CL:0000831 ! mast cell progenitor
 intersection_of: CL:0000831 ! mast cell progenitor
-intersection_of: has_low_plasma_membrane_amount PR:000007431
 intersection_of: lacks_plasma_membrane_part PR:000002979
 intersection_of: RO:0002104 PR:000001006
 intersection_of: RO:0002104 PR:000002065
 intersection_of: RO:0002104 PR:000009143
+intersection_of: RO:0015016 PR:000007431
 relationship: RO:0002202 CL:0002044 ! Kit-positive, integrin beta7-high basophil mast progenitor cell
 
 [Term]
@@ -7065,10 +7081,10 @@ name: Fc-epsilon RIalpha-high basophil progenitor cell
 def: "A lineage negative, Sca1-negative basophil progenitor cell that is Fc epsilon RIalpha-high." []
 is_a: CL:0000613 ! basophil progenitor cell
 intersection_of: CL:0000613 ! basophil progenitor cell
-intersection_of: has_high_plasma_membrane_amount PR:000007431
 intersection_of: lacks_plasma_membrane_part PR:000002065
 intersection_of: lacks_plasma_membrane_part PR:000002979
 intersection_of: RO:0002104 PR:000001003
+intersection_of: RO:0015015 PR:000007431
 relationship: RO:0002202 CL:0002044 ! Kit-positive, integrin beta7-high basophil mast progenitor cell
 
 [Term]
@@ -7111,10 +7127,10 @@ synonym: "LT stem cell" EXACT []
 synonym: "LT-HSC" EXACT []
 is_a: CL:0001008 ! Kit and Sca1-positive hematopoietic stem cell
 intersection_of: CL:0001008 ! Kit and Sca1-positive hematopoietic stem cell
-intersection_of: has_low_plasma_membrane_amount PR:000001843
 intersection_of: lacks_plasma_membrane_part PR:000001003
 intersection_of: lacks_plasma_membrane_part PR:000002001
 intersection_of: RO:0002104 PR:000001833
+intersection_of: RO:0015016 PR:000001843
 
 [Term]
 id: CL:0002035
@@ -7181,11 +7197,11 @@ name: immature NK T cell stage I
 def: "A CD24-high, CD4-low, CD8-low, CD44-negative, NK1.1-negative NK T cell." []
 is_a: CL:0000914 ! immature NK T cell
 intersection_of: CL:0000914 ! immature NK T cell
-intersection_of: has_high_plasma_membrane_amount PR:000001932
-intersection_of: has_low_plasma_membrane_amount PR:000001004
-intersection_of: has_low_plasma_membrane_amount PR:000025402
 intersection_of: lacks_plasma_membrane_part PR:000001307
 intersection_of: lacks_plasma_membrane_part PR:000001874
+intersection_of: RO:0015015 PR:000001932
+intersection_of: RO:0015016 PR:000001004
+intersection_of: RO:0015016 PR:000025402
 relationship: RO:0002202 CL:0000809 ! double-positive, alpha-beta thymocyte
 
 [Term]
@@ -7195,9 +7211,9 @@ def: "A CD24-low, CD44-negative, NK1.1-negative NK T cell." []
 synonym: "NKT.44-NK1.1-.Th" EXACT []
 is_a: CL:0000914 ! immature NK T cell
 intersection_of: CL:0000914 ! immature NK T cell
-intersection_of: has_low_plasma_membrane_amount PR:000001932
 intersection_of: lacks_plasma_membrane_part PR:000001307
 intersection_of: lacks_plasma_membrane_part PR:000001874
+intersection_of: RO:0015016 PR:000001932
 relationship: RO:0002202 CL:0002039 ! immature NK T cell stage I
 
 [Term]
@@ -7207,10 +7223,10 @@ def: "A CD24-low, CD44-positive, DX5-low, NK1.1-negative NK T cell." []
 synonym: "NKT.44+.NK1.1-.Th" BROAD []
 is_a: CL:0000914 ! immature NK T cell
 intersection_of: CL:0000914 ! immature NK T cell
-intersection_of: has_low_plasma_membrane_amount PR:000001008
-intersection_of: has_low_plasma_membrane_amount PR:000001932
 intersection_of: lacks_plasma_membrane_part PR:000001874
 intersection_of: RO:0002104 PR:000001307
+intersection_of: RO:0015016 PR:000001008
+intersection_of: RO:0015016 PR:000001932
 relationship: RO:0002202 CL:0002040 ! immature NK T cell stage II
 
 [Term]
@@ -7220,10 +7236,10 @@ def: "A CD24-low, CD44-positive, DX5-high, NK1.1-negative NK T cell." []
 synonym: "NKT.44+.NK1.1-.Th" BROAD []
 is_a: CL:0000914 ! immature NK T cell
 intersection_of: CL:0000914 ! immature NK T cell
-intersection_of: has_high_plasma_membrane_amount PR:000001008
-intersection_of: has_low_plasma_membrane_amount PR:000001932
 intersection_of: lacks_plasma_membrane_part PR:000001874
 intersection_of: RO:0002104 PR:000001307
+intersection_of: RO:0015015 PR:000001008
+intersection_of: RO:0015016 PR:000001932
 relationship: RO:0002202 CL:0002041 ! immature NK T cell stage III
 
 [Term]
@@ -7244,48 +7260,48 @@ name: Kit-positive, integrin beta7-high basophil mast progenitor cell
 def: "A basophil mast progenitor cell that is Beta-7 integrin-high, Kit-positive FcRgammaII/III-positive and Sca1-negative." []
 is_a: CL:0002028 ! basophil mast progenitor cell
 intersection_of: CL:0002028 ! basophil mast progenitor cell
-intersection_of: has_high_plasma_membrane_amount PR:000009143
 intersection_of: lacks_plasma_membrane_part PR:000002065
 intersection_of: lacks_plasma_membrane_part PR:000002979
 intersection_of: RO:0002104 PR:000001479
 intersection_of: RO:0002104 PR:000001483
+intersection_of: RO:0015015 PR:000009143
 
 [Term]
 id: CL:0002045
-name: Fraction A pre-pro B cell
-def: "A pro-B cell that CD45R/B220-positive, CD43-positive, HSA-low, BP-1-negative and Ly6c-negative. This cell type is also described as being lin-negative, AA4-positive, Kit-positive, IL7Ra-positive and CD45R-positive." []
-synonym: "fraction A" EXACT []
+name: fraction A pre-pro B cell
+def: "A pro-B cell that is CD45R/B220-positive, CD43-positive, HSA-low, BP-1-negative and Ly6c-negative. This cell type is also described as being lin-negative, AA4-positive, Kit-positive, IL7Ra-positive and CD45R-positive." []
+synonym: "fraction A" BROAD []
 synonym: "pre pro B cell" RELATED []
 is_a: CL:0000826 ! pro-B cell
 intersection_of: CL:0000826 ! pro-B cell
-intersection_of: has_low_plasma_membrane_amount PR:000001932
 intersection_of: lacks_plasma_membrane_part PR:000002039
 intersection_of: lacks_plasma_membrane_part PR:000002980
 intersection_of: RO:0002104 PR:000001015
 intersection_of: RO:0002104 PR:000001879
 intersection_of: RO:0002104 PR:000002037
 intersection_of: RO:0002104 PR:000002065
+intersection_of: RO:0015016 PR:000001932
 
 [Term]
 id: CL:0002047
-name: Fraction B precursor B cell
+name: fraction B precursor B cell
 def: "A precursor B cell that is CD45RA-positive, CD43-positive, CD24-positive and BP-1-negative." []
-synonym: "Fr. B" EXACT []
-synonym: "Fraction B" EXACT []
-is_a: CL:0002400 ! Fraction B/C precursor B cell
-intersection_of: CL:0002400 ! Fraction B/C precursor B cell
+synonym: "Fr. B" BROAD []
+synonym: "Fraction B" BROAD []
+is_a: CL:0002400 ! fraction B/C precursor B cell
+intersection_of: CL:0002400 ! fraction B/C precursor B cell
 intersection_of: lacks_plasma_membrane_part PR:000002039
 intersection_of: RO:0002104 PR:000001014
 intersection_of: RO:0002104 PR:000001932
-relationship: RO:0002202 CL:0002045 ! Fraction A pre-pro B cell
+relationship: RO:0002202 CL:0002045 ! fraction A pre-pro B cell
 
 [Term]
 id: CL:0002049
-name: Fraction C precursor B cell
-def: "A precursor B cell is CD45R-positive, CD43-positive, CD24-positive, and BP-positive. Intracellularly expression of surrogate light chain, Rag1 and Rag2, TdT, occurs while there is no expression of mu heavy chain." []
+name: fraction C precursor B cell
+def: "A precursor B cell that is CD45R-positive, CD43-positive, CD24-positive, and BP-positive. Intracellularly expression of surrogate light chain, Rag1 and Rag2, TdT, occurs while there is no expression of mu heavy chain." []
 synonym: "Fraction C" RELATED []
-is_a: CL:0002400 ! Fraction B/C precursor B cell
-intersection_of: CL:0002400 ! Fraction B/C precursor B cell
+is_a: CL:0002400 ! fraction B/C precursor B cell
+intersection_of: CL:0002400 ! fraction B/C precursor B cell
 intersection_of: BFO:0000051 PR:000001858
 intersection_of: BFO:0000051 PR:000001859
 intersection_of: has_not_completed GO:0071707
@@ -7294,33 +7310,32 @@ intersection_of: RO:0002104 PR:000001932
 intersection_of: RO:0002104 PR:000002039
 intersection_of: RO:0002104 PR:000003457
 intersection_of: RO:0002104 PR:000003460
-relationship: RO:0002202 CL:0002047 ! Fraction B precursor B cell
+relationship: RO:0002202 CL:0002047 ! fraction B precursor B cell
 
 [Term]
 id: CL:0002050
-name: Fraction C' precursor B cell
+name: fraction C' precursor B cell
 def: "A pre-BCR-positive precursor B cell that is CD24-high, CD25-positive, CD43-positive, CD45R-positive and BP-positive." []
-synonym: "Fr. C'" EXACT []
-synonym: "Fraction C-prime" EXACT []
+synonym: "Fr. C'" BROAD []
+synonym: "Fraction C-prime" BROAD []
 is_a: CL:0000817 ! precursor B cell
 intersection_of: CL:0000817 ! precursor B cell
-intersection_of: has_high_plasma_membrane_amount PR:000001932
 intersection_of: RO:0002104 GO:0035369
 intersection_of: RO:0002104 PR:000001014
 intersection_of: RO:0002104 PR:000001380
 intersection_of: RO:0002104 PR:000001879
 intersection_of: RO:0002104 PR:000002039
-relationship: RO:0002202 CL:0002049 ! Fraction C precursor B cell
+intersection_of: RO:0015015 PR:000001932
+relationship: RO:0002202 CL:0002049 ! fraction C precursor B cell
 
 [Term]
 id: CL:0002052
-name: Fraction D precursor B cell
+name: fraction D precursor B cell
 def: "A pre-B cell that is pre-BCR-negative, and the kappa- and lambda- light immunoglobulin light chain-negative, CD43-low, and is BP-1-positive, CD45R-positive and CD25-positive. This cell type is also described as being AA4-positive, IgM-negative, CD19-positive, CD43-low/negative, and HSA-positive." []
-synonym: "Fr. D" EXACT []
-synonym: "Fraction D pre-B cell" EXACT []
-is_a: CL:0002400 ! Fraction B/C precursor B cell
+synonym: "Fr. D" BROAD []
+synonym: "fraction D pre-B cell" EXACT []
+is_a: CL:0000817 ! precursor B cell
 intersection_of: CL:0000817 ! precursor B cell
-intersection_of: has_low_plasma_membrane_amount PR:000001879
 intersection_of: has_not_completed GO:0071708
 intersection_of: lacks_plasma_membrane_part GO:0035369
 intersection_of: RO:0002104 PR:000001002
@@ -7329,25 +7344,26 @@ intersection_of: RO:0002104 PR:000001380
 intersection_of: RO:0002104 PR:000001932
 intersection_of: RO:0002104 PR:000002037
 intersection_of: RO:0002104 PR:000002039
-relationship: RO:0002202 CL:0002050 ! Fraction C' precursor B cell
+intersection_of: RO:0015016 PR:000001879
+relationship: RO:0002202 CL:0002050 ! fraction C' precursor B cell
 
 [Term]
 id: CL:0002054
-name: Fraction E immature B cell
+name: fraction E immature B cell
 def: "An immature B cell that is IgM-positive, CD45R-positive, CD43-low, CD25-negative, and CD127-negative. This cell type has also been described as being AA4-positive, IgM-positive, CD19-positive, CD43-low/negative, and HSA-positive." []
 is_a: CL:0000816 ! immature B cell
 intersection_of: CL:0000816 ! immature B cell
-intersection_of: has_low_plasma_membrane_amount PR:000001879
 intersection_of: lacks_plasma_membrane_part PR:000001380
 intersection_of: lacks_plasma_membrane_part PR:000001869
 intersection_of: RO:0002104 PR:000001002
 intersection_of: RO:0002104 PR:000001932
 intersection_of: RO:0002104 PR:000002037
-relationship: RO:0002202 CL:0002052 ! Fraction D precursor B cell
+intersection_of: RO:0015016 PR:000001879
+relationship: RO:0002202 CL:0002052 ! fraction D precursor B cell
 
 [Term]
 id: CL:0002056
-name: Fraction F mature B cell
+name: fraction F mature B cell
 def: "A mature B cell subset originally defined as having being CD45R-positive, IgM-positive, IgD-positive and CD43-negative. Subsequent research demonstrated being CD21-positive and CD23-negative and CD93 negative." []
 is_a: CL:0000822 ! B-2 B cell
 intersection_of: CL:0000785 ! mature B cell
@@ -7359,22 +7375,22 @@ intersection_of: RO:0002104 GO:0071753
 intersection_of: RO:0002104 PR:000001014
 intersection_of: RO:0002104 PR:000001289
 intersection_of: RO:0002104 PR:000001338
-relationship: RO:0002202 CL:0002054 ! Fraction E immature B cell
+relationship: RO:0002202 CL:0002054 ! fraction E immature B cell
 
 [Term]
 id: CL:0002058
 name: Gr1-low non-classical monocyte
 def: "A resident monocyte that is Gr-1 low, CD43-positive, and CX3CR1-positive." []
 is_a: CL:0000875 ! non-classical monocyte
-is_a: CL:0002398 ! Gr1-positive, CD43-positive monocyte
+is_a: CL:0001022 ! CD115-positive monocyte
 intersection_of: CL:0000875 ! non-classical monocyte
-intersection_of: has_low_plasma_membrane_amount PR:000001199
-intersection_of: has_low_plasma_membrane_amount PR:000002980
 intersection_of: lacks_plasma_membrane_part PR:000001014
 intersection_of: RO:0002104 PR:000001012
 intersection_of: RO:0002104 PR:000001206
 intersection_of: RO:0002104 PR:000001879
 intersection_of: RO:0002104 PR:000002062
+intersection_of: RO:0015016 PR:000001199
+intersection_of: RO:0015016 PR:000002980
 relationship: RO:0002202 CL:0002398 ! Gr1-positive, CD43-positive monocyte
 
 [Term]
@@ -7708,9 +7724,9 @@ intersection_of: RO:0002104 PR:000001014
 id: CL:0002110
 name: B220-low CD38-positive naive B cell
 def: "A B220-low CD38-positive naive B cell is a CD38-positive naive B cell that has the phenotype B220-low, CD38-positive, surface IgD-positive, surface IgM-positive, and CD27-negative, that has not yet been activated by antigen in the periphery." []
-is_a: CL:0002109 ! B220-positive CD38-positive naive B cell
+is_a: CL:0002101 ! CD38-positive naive B cell
 intersection_of: CL:0002101 ! CD38-positive naive B cell
-intersection_of: has_low_plasma_membrane_amount PR:000001014
+intersection_of: RO:0015016 PR:000001014
 
 [Term]
 id: CL:0002111
@@ -7739,9 +7755,9 @@ intersection_of: RO:0002104 PR:000001014
 id: CL:0002113
 name: B220-low CD38-negative unswitched memory B cell
 def: "A B220-low CD38-negative unswitched memory B cell is a CD38-negative unswitched memory B cell that has the phenotype B220-low, CD38-negative, IgD-positive, CD138-negative, and IgG-negative." []
-is_a: CL:0002112 ! B220-positive CD38-negative unswitched memory B cell
+is_a: CL:0002111 ! CD38-negative unswitched memory B cell
 intersection_of: CL:0002111 ! CD38-negative unswitched memory B cell
-intersection_of: has_low_plasma_membrane_amount PR:000001014
+intersection_of: RO:0015016 PR:000001014
 
 [Term]
 id: CL:0002114
@@ -7770,9 +7786,9 @@ intersection_of: RO:0002104 PR:000001014
 id: CL:0002116
 name: B220-low CD38-positive unswitched memory B cell
 def: "A B220-low CD38-positive unswitched memory B cell is a CD38-positive unswitched memory B cell that has the phenotype B220-low, CD38-positive, IgD-positive, CD138-negative, and IgG-negative." []
-is_a: CL:0002115 ! B220-positive CD38-positive unswitched memory B cell
+is_a: CL:0002114 ! CD38-positive unswitched memory B cell
 intersection_of: CL:0002114 ! CD38-positive unswitched memory B cell
-intersection_of: has_low_plasma_membrane_amount PR:000001014
+intersection_of: RO:0015016 PR:000001014
 
 [Term]
 id: CL:0002117
@@ -7833,9 +7849,9 @@ intersection_of: RO:0002104 PR:000001014
 id: CL:0002123
 name: B220-low CD38-positive IgG-negative class switched memory B cell
 def: "A B220-low CD38-positive IgG-negative memory B cell is a CD38-positive IgG-negative class switched memory B cell that lacks IgG on the cell surface with the phenotype B220-low, CD38-positive, and IgG-positive." []
-is_a: CL:0002122 ! B220-positive CD38-positive IgG-negative class switched memory B cell
+is_a: CL:0002119 ! CD38-positive IgG-negative class switched memory B cell
 intersection_of: CL:0002119 ! CD38-positive IgG-negative class switched memory B cell
-intersection_of: has_low_plasma_membrane_amount PR:000001014
+intersection_of: RO:0015016 PR:000001014
 
 [Term]
 id: CL:0002124
@@ -7871,13 +7887,13 @@ is_a: CL:0000799 ! immature gamma-delta T cell
 is_a: CL:0000893 ! thymocyte
 intersection_of: CL:0000799 ! immature gamma-delta T cell
 intersection_of: BFO:0000050 UBERON:0002370
-intersection_of: has_high_plasma_membrane_amount PR:000001307
-intersection_of: has_high_plasma_membrane_amount PR:000001318
-intersection_of: has_high_plasma_membrane_amount PR:000001932
-intersection_of: has_low_plasma_membrane_amount PR:000001083
-intersection_of: has_low_plasma_membrane_amount PR:000001839
 intersection_of: RO:0002104 PR:000001380
 intersection_of: RO:0002104 PR:000001919
+intersection_of: RO:0015015 PR:000001307
+intersection_of: RO:0015015 PR:000001318
+intersection_of: RO:0015015 PR:000001932
+intersection_of: RO:0015016 PR:000001083
+intersection_of: RO:0015016 PR:000001839
 
 [Term]
 id: CL:0002127
@@ -7990,6 +8006,7 @@ intersection_of: RO:0002215 GO:0050911
 id: CL:0002174
 name: follicular cell of ovary
 def: "A cell within the follicle of an ovary." []
+is_a: CL:0000500 ! follicular epithelial cell
 is_a: CL:0002078 ! meso-epithelial cell
 
 [Term]
@@ -8053,7 +8070,8 @@ intersection_of: RO:0002215 GO:0030224
 [Term]
 id: CL:0002195
 name: hepatic stem cell
-def: "A stem cell that can give rise to the cells of the liver." []
+def: "A stem cell that can give rise to the cells of the liver. The term usually refers to the self-renewing pool of hepatocyte precursors in the adult liver (differently from 'hepatoblast', often used for fetal precursors of hepatocytes)." []
+synonym: "HpSC" EXACT []
 is_a: CL:0000048 ! multi fate stem cell
 intersection_of: CL:0000048 ! multi fate stem cell
 intersection_of: BFO:0000050 UBERON:0002107
@@ -8725,12 +8743,12 @@ def: "A resident monocyte that is Gr-1 high, CD43-negative, CX3CR1-negative, CD1
 is_a: CL:0000860 ! classical monocyte
 is_a: CL:0001022 ! CD115-positive monocyte
 intersection_of: CL:0000860 ! classical monocyte
-intersection_of: has_high_plasma_membrane_amount PR:000002980
 intersection_of: lacks_plasma_membrane_part PR:000001014
 intersection_of: lacks_plasma_membrane_part PR:000001206
 intersection_of: lacks_plasma_membrane_part PR:000001879
 intersection_of: RO:0002104 PR:000001012
 intersection_of: RO:0002104 PR:000002062
+intersection_of: RO:0015015 PR:000002980
 
 [Term]
 id: CL:0002396
@@ -8738,10 +8756,9 @@ name: CD14-low, CD16-positive monocyte
 def: "A patrolling monocyte that is CD14-low and CD16-positive." []
 synonym: "non-classical monocyte, human" EXACT []
 is_a: CL:0000875 ! non-classical monocyte
-is_a: CL:0001054 ! CD14-positive monocyte
 intersection_of: CL:0000875 ! non-classical monocyte
-intersection_of: has_low_plasma_membrane_amount PR:000001889
 intersection_of: RO:0002104 PR:000001483
+intersection_of: RO:0015016 PR:000001889
 relationship: RO:0002202 CL:0002397 ! CD14-positive, CD16-positive monocyte
 
 [Term]
@@ -8769,7 +8786,7 @@ relationship: RO:0002202 CL:0002395 ! Gr1-high classical monocyte
 
 [Term]
 id: CL:0002400
-name: Fraction B/C precursor B cell
+name: fraction B/C precursor B cell
 def: "A precursor B cell that is AA4-positive, IgM-negative, CD19-positive, CD43-positive and HSA-positive." []
 is_a: CL:0000817 ! precursor B cell
 intersection_of: CL:0000817 ! precursor B cell
@@ -8892,7 +8909,7 @@ name: DN2a thymocyte
 def: "A DN2 thymocyte that is Kit-hi." []
 is_a: CL:0000806 ! DN2 thymocyte
 intersection_of: CL:0000806 ! DN2 thymocyte
-intersection_of: has_high_plasma_membrane_amount PR:000002065
+intersection_of: RO:0015015 PR:000002065
 
 [Term]
 id: CL:0002424
@@ -8900,7 +8917,7 @@ name: DN2b thymocyte
 def: "A DN2 thymocyte that is Kit-low." []
 is_a: CL:0000806 ! DN2 thymocyte
 intersection_of: CL:0000806 ! DN2 thymocyte
-intersection_of: has_low_plasma_membrane_amount PR:000002065
+intersection_of: RO:0015016 PR:000002065
 relationship: RO:0002202 CL:0002423 ! DN2a thymocyte
 
 [Term]
@@ -8944,9 +8961,9 @@ def: "A double-positive thymocyte that is CD69-positive and has begun positive s
 synonym: "T.DP69+.Th" EXACT []
 is_a: CL:0000809 ! double-positive, alpha-beta thymocyte
 intersection_of: CL:0000809 ! double-positive, alpha-beta thymocyte
-intersection_of: has_low_plasma_membrane_amount GO:0042105
 intersection_of: RO:0000056 GO:0043368
 intersection_of: RO:0002104 PR:000001343
+intersection_of: RO:0015016 GO:0042105
 relationship: RO:0002202 CL:0002428 ! double-positive blast
 
 [Term]
@@ -8957,10 +8974,10 @@ synonym: "T.4int8+.Th" EXACT []
 synonym: "T_4int8+_Th" EXACT []
 is_a: CL:0000809 ! double-positive, alpha-beta thymocyte
 intersection_of: CL:0000809 ! double-positive, alpha-beta thymocyte
-intersection_of: has_high_plasma_membrane_amount GO:0042105
-intersection_of: has_low_plasma_membrane_amount PR:000001004
 intersection_of: RO:0000056 GO:0043368
 intersection_of: RO:0002104 PR:000001343
+intersection_of: RO:0015015 GO:0042105
+intersection_of: RO:0015016 PR:000001004
 relationship: RO:0002202 CL:0002429 ! CD69-positive double-positive thymocyte
 
 [Term]
@@ -8971,10 +8988,10 @@ synonym: "T.4+8int.Th" EXACT []
 synonym: "T_4+8int_Th" EXACT []
 is_a: CL:0000809 ! double-positive, alpha-beta thymocyte
 intersection_of: CL:0000809 ! double-positive, alpha-beta thymocyte
-intersection_of: has_high_plasma_membrane_amount GO:0042105
-intersection_of: has_low_plasma_membrane_amount PR:000025402
 intersection_of: RO:0000056 GO:0043368
 intersection_of: RO:0002104 PR:000001343
+intersection_of: RO:0015015 GO:0042105
+intersection_of: RO:0015016 PR:000025402
 relationship: RO:0002202 CL:0002429 ! CD69-positive double-positive thymocyte
 
 [Term]
@@ -8985,8 +9002,8 @@ synonym: "CD24-positive, CD4 single-positive semimature thymocyte" EXACT []
 synonym: "T.4SP24int.Th" EXACT []
 is_a: CL:0000810 ! CD4-positive, alpha-beta thymocyte
 intersection_of: CL:0000810 ! CD4-positive, alpha-beta thymocyte
-intersection_of: has_high_plasma_membrane_amount GO:0042105
 intersection_of: RO:0002104 PR:000001932
+intersection_of: RO:0015015 GO:0042105
 relationship: RO:0002202 CL:0002433 ! CD69-positive, CD4-positive single-positive thymocyte
 
 [Term]
@@ -8997,8 +9014,8 @@ synonym: "intermediate CD4-single-positive" EXACT []
 synonym: "T.4SP69+.Th" EXACT []
 is_a: CL:0000810 ! CD4-positive, alpha-beta thymocyte
 intersection_of: CL:0000810 ! CD4-positive, alpha-beta thymocyte
-intersection_of: has_high_plasma_membrane_amount GO:0042105
 intersection_of: RO:0002104 PR:000001343
+intersection_of: RO:0015015 GO:0042105
 relationship: RO:0002202 CL:0002431 ! CD4-positive, CD8-intermediate double-positive thymocyte
 
 [Term]
@@ -9009,8 +9026,8 @@ synonym: "CD24-positive, CD8 single-positive semimature thymocyte" EXACT []
 synonym: "T.8SP24int.Th" EXACT []
 is_a: CL:0000811 ! CD8-positive, alpha-beta thymocyte
 intersection_of: CL:0000811 ! CD8-positive, alpha-beta thymocyte
-intersection_of: has_high_plasma_membrane_amount GO:0042105
 intersection_of: RO:0002104 PR:000001932
+intersection_of: RO:0015015 GO:0042105
 relationship: RO:0002202 CL:0002435 ! CD69-positive, CD8-positive single-positive thymocyte
 
 [Term]
@@ -9021,8 +9038,8 @@ synonym: "intermediate CD8-single-positive" EXACT []
 synonym: "T.8SP69+.Th" EXACT []
 is_a: CL:0000811 ! CD8-positive, alpha-beta thymocyte
 intersection_of: CL:0000811 ! CD8-positive, alpha-beta thymocyte
-intersection_of: has_high_plasma_membrane_amount GO:0042105
 intersection_of: RO:0002104 PR:000001343
+intersection_of: RO:0015015 GO:0042105
 relationship: RO:0002202 CL:0002430 ! CD4-intermediate, CD8-positive double-positive thymocyte
 
 [Term]
@@ -9032,8 +9049,8 @@ def: "A mature CD4-positive, CD8-negative alpha-beta T cell found in the thymus 
 synonym: "T.4SP24-.Th" RELATED []
 is_a: CL:0000624 ! CD4-positive, alpha-beta T cell
 intersection_of: CL:0000624 ! CD4-positive, alpha-beta T cell
-intersection_of: has_high_plasma_membrane_amount GO:0042105
-intersection_of: has_low_plasma_membrane_amount PR:000001932
+intersection_of: RO:0015015 GO:0042105
+intersection_of: RO:0015016 PR:000001932
 relationship: RO:0002202 CL:0002432 ! CD24-positive, CD4 single-positive thymocyte
 
 [Term]
@@ -9043,8 +9060,8 @@ def: "A mature CD8-positive, CD4-negative alpha-beta T cell found in the thymus 
 synonym: "T.8SP24-.Th" EXACT []
 is_a: CL:0000625 ! CD8-positive, alpha-beta T cell
 intersection_of: CL:0000625 ! CD8-positive, alpha-beta T cell
-intersection_of: has_high_plasma_membrane_amount GO:0042105
-intersection_of: has_low_plasma_membrane_amount PR:000001932
+intersection_of: RO:0015015 GO:0042105
+intersection_of: RO:0015016 PR:000001932
 relationship: RO:0002202 CL:0002434 ! CD24-positive, CD8 single-positive thymocyte
 
 [Term]
@@ -9056,7 +9073,9 @@ synonym: "O2A/OPC" BROAD []
 synonym: "oligodendrocyte-type 2 astrocyte (O-2A) progenitor cell" BROAD []
 synonym: "oligodendrocyte/type-2 astrocyte progenitor cell" BROAD []
 is_a: CL:0000123 ! neuron associated cell (sensu Vertebrata)
+is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000339 ! glioblast (sensu Vertebrata)
+relationship: RO:0002215 GO:0030154
 
 [Term]
 id: CL:0002454
@@ -9153,8 +9172,8 @@ def: "A myeloid suppressor cell that is Gr1-high and CD11c-negative." []
 synonym: "MDS.Gr1hi" EXACT []
 is_a: CL:0000889 ! myeloid suppressor cell
 intersection_of: CL:0000889 ! myeloid suppressor cell
-intersection_of: has_high_plasma_membrane_amount PR:000002980
 intersection_of: lacks_plasma_membrane_part PR:000001013
+intersection_of: RO:0015015 PR:000002980
 
 [Term]
 id: CL:0002468
@@ -9163,8 +9182,8 @@ def: "A myeloid suppressor cell that is Gr1-low and CD11c-positive." []
 synonym: "MDS.Gr1lo" EXACT []
 is_a: CL:0000889 ! myeloid suppressor cell
 intersection_of: CL:0000889 ! myeloid suppressor cell
-intersection_of: has_low_plasma_membrane_amount PR:000002980
 intersection_of: RO:0002104 PR:000001013
+intersection_of: RO:0015016 PR:000002980
 
 [Term]
 id: CL:0002469
@@ -9200,7 +9219,7 @@ def: "Gr1-low non-classical monocyte that has low to intermediate expression of 
 synonym: "Mo.6C-IIint" EXACT []
 is_a: CL:0002058 ! Gr1-low non-classical monocyte
 intersection_of: CL:0002058 ! Gr1-low non-classical monocyte
-intersection_of: has_low_plasma_membrane_amount GO:0042613
+intersection_of: RO:0015016 GO:0042613
 
 [Term]
 id: CL:0002473
@@ -9209,7 +9228,7 @@ def: "Gr1-low non-classical monocyte that has high surface expression of a MHC-I
 synonym: "Mo.6C-II+" EXACT []
 is_a: CL:0002058 ! Gr1-low non-classical monocyte
 intersection_of: CL:0002058 ! Gr1-low non-classical monocyte
-intersection_of: has_high_plasma_membrane_amount GO:0042613
+intersection_of: RO:0015015 GO:0042613
 
 [Term]
 id: CL:0002474
@@ -9217,9 +9236,9 @@ name: lymphoid MHC-II-negative classical monocyte
 def: "A MHC-II-negative classical monocyte located in lymphoid tissue that is F4/80-positive, CD11c-negative, and CD11b-high." []
 is_a: CL:0002469 ! MHC-II-negative classical monocyte
 intersection_of: CL:0002469 ! MHC-II-negative classical monocyte
-intersection_of: has_high_plasma_membrane_amount PR:000001012
 intersection_of: lacks_plasma_membrane_part PR:000001013
 intersection_of: RO:0002104 PR:000001813
+intersection_of: RO:0015015 PR:000001012
 
 [Term]
 id: CL:0002475
@@ -9227,9 +9246,9 @@ name: lymphoid MHC-II-negative non-classical monocyte
 def: "A MHC-II-negative classical monocyte located in lymphoid tissue that is F4/80-positive, CD11c-intermediate, and CD11b-high." []
 is_a: CL:0002471 ! MHC-II-negative non-classical monocyte
 intersection_of: CL:0002471 ! MHC-II-negative non-classical monocyte
-intersection_of: has_high_plasma_membrane_amount PR:000001012
 intersection_of: RO:0002104 PR:000001013
 intersection_of: RO:0002104 PR:000001813
+intersection_of: RO:0015015 PR:000001012
 
 [Term]
 id: CL:0002476
@@ -9358,6 +9377,7 @@ name: spongiotrophoblast cell
 def: "A trophoblast cell that arises in the junctional zone (basal plate) of the placenta." []
 synonym: "spongiotrophoblast" EXACT []
 is_a: CL:0000351 ! trophoblast cell
+relationship: BFO:0000050 UBERON:0004021
 
 [Term]
 id: CL:0002504
@@ -9391,8 +9411,9 @@ intersection_of: BFO:0000050 UBERON:0002113
 [Term]
 id: CL:0002520
 name: nephrocyte
-def: "An insect excretory cell that regulates haemolymph composition by filtration and filtrate endocytosis." []
+def: "An insect excretory cell that regulates hemolymph composition by filtration and filtrate endocytosis." []
 is_a: CL:0002522 ! renal filtration cell
+relationship: RO:0002160 NCBITaxon:50557
 
 [Term]
 id: CL:0002522
@@ -9403,10 +9424,11 @@ relationship: BFO:0000050 UBERON:0001008
 
 [Term]
 id: CL:0002523
-name: mesonephric glomerular visceral epithelial cell
-def: "A mesonephric glomerular visceral epithelial cell is a specialized epithelial cell that contains \"feet\" that interdigitate with the \"feet\" of other glomerular epithelial cells in the mesonephros" []
-is_a: CL:0000653 ! glomerular visceral epithelial cell
-intersection_of: CL:0000653 ! glomerular visceral epithelial cell
+name: mesonephric podocyte
+def: "A specialized epithelial cell that contains \"feet\" that interdigitate with the \"feet\" of other glomerular epithelial cells in the mesonephros." []
+synonym: "mesonephric glomerular visceral epithelial cell" EXACT []
+is_a: CL:0000653 ! podocyte
+intersection_of: CL:0000653 ! podocyte
 intersection_of: BFO:0000050 UBERON:0000080
 
 [Term]
@@ -9417,10 +9439,11 @@ is_a: CL:0002520 ! nephrocyte
 
 [Term]
 id: CL:0002525
-name: metanephric glomerular visceral epithelial cell
-def: "A metanephric glomerular visceral epithelial cell is a specialized epithelial cell that contains \"feet\" that interdigitate with the \"feet\" of other glomerular epithelial cells in the metanephros." []
-is_a: CL:0000653 ! glomerular visceral epithelial cell
-intersection_of: CL:0000653 ! glomerular visceral epithelial cell
+name: metanephric podocyte
+def: "A specialized epithelial cell that contains \"feet\" that interdigitate with the \"feet\" of other glomerular epithelial cells in the metanephros." []
+synonym: "metanephric glomerular visceral epithelial cell" EXACT []
+is_a: CL:0000653 ! podocyte
+intersection_of: CL:0000653 ! podocyte
 intersection_of: BFO:0000050 UBERON:0000081
 
 [Term]
@@ -9441,9 +9464,9 @@ def: "An immature CD16-positive myeloid dendritic cell is CD80-low, CD86-low, an
 is_a: CL:0000840 ! immature conventional dendritic cell
 is_a: CL:0002532 ! CD16-positive myeloid dendritic cell
 intersection_of: CL:0002532 ! CD16-positive myeloid dendritic cell
-intersection_of: has_low_plasma_membrane_amount GO:0042613
-intersection_of: has_low_plasma_membrane_amount PR:000001412
-intersection_of: has_low_plasma_membrane_amount PR:000001438
+intersection_of: RO:0015016 GO:0042613
+intersection_of: RO:0015016 PR:000001412
+intersection_of: RO:0015016 PR:000001438
 
 [Term]
 id: CL:0002534
@@ -9452,10 +9475,10 @@ def: "A mature CD16-positive myeloid dendritic cell is CD80-high, CD83-positive,
 is_a: CL:0000841 ! mature conventional dendritic cell
 is_a: CL:0002532 ! CD16-positive myeloid dendritic cell
 intersection_of: CL:0002532 ! CD16-positive myeloid dendritic cell
-intersection_of: has_high_plasma_membrane_amount GO:0042613
-intersection_of: has_high_plasma_membrane_amount PR:000001412
-intersection_of: has_high_plasma_membrane_amount PR:000001438
 intersection_of: RO:0002104 PR:000001310
+intersection_of: RO:0015015 GO:0042613
+intersection_of: RO:0015015 PR:000001412
+intersection_of: RO:0015015 PR:000001438
 relationship: RO:0002202 CL:0002533 ! immature CD16-positive myeloid dendritic cell
 
 [Term]
@@ -9617,8 +9640,8 @@ intersection_of: BFO:0000050 UBERON:0001264
 id: CL:0002575
 name: central nervous system pericyte
 def: "A pericyte of the central nervous system." []
-is_a: CL:0000669 ! pericyte cell
-intersection_of: CL:0000669 ! pericyte cell
+is_a: CL:0000669 ! pericyte
+intersection_of: CL:0000669 ! pericyte
 intersection_of: BFO:0000050 UBERON:0001017
 
 [Term]
@@ -9759,7 +9782,7 @@ name: hippocampal neuron
 def: "A neuron of the hippocampus." []
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 intersection_of: CL:0000117 ! CNS neuron (sensu Vertebrata)
-intersection_of: BFO:0000050 UBERON:0001954
+intersection_of: RO:0002100 UBERON:0001954
 
 [Term]
 id: CL:0002611
@@ -10093,7 +10116,7 @@ relationship: RO:0002215 GO:0014055
 [Term]
 id: CL:0005026
 name: hepatoblast
-def: "Multi fate stem cell that gives rise to both hepatocytes and cholangiocytes as descendants." []
+def: "Multi fate stem cell that gives rise to both hepatocytes and cholangiocytes as descendants. The term often refers to fetal precursors of hepatocytes (differently from 'hepatic stem cell', usually applied to the self-renewing pool of hepatocyte precursors in the adult liver). Hepatoblasts may also be endogenous, as some stem cells found in the liver come from the bone marrow via blood circulation." []
 is_a: CL:0000048 ! multi fate stem cell
 
 [Term]
@@ -10249,7 +10272,7 @@ is_a: CL:0000594 ! skeletal muscle satellite cell
 [Term]
 id: CL:0008016
 name: activated skeletal muscle satellite cell
-def: "A skeletal muscle cell that has become mitotically active - typically following muscle damage." []
+def: "A skeletal muscle satellite cell that has become mitotically active - typically following muscle damage." []
 is_a: CL:0000594 ! skeletal muscle satellite cell
 relationship: RO:0002202 CL:0008012 ! quiescent skeletal muscle satellite cell
 
@@ -10328,22 +10351,22 @@ intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002216 GO:0007601
 
 [Term]
-id: CL:0008029
-name: inhibitory neuron
-is_a: CL:0000540 ! neuron
-
-[Term]
-id: CL:0008030
-name: excitatory neuron
-is_a: CL:0000540 ! neuron
+id: CL:0008031
+name: cortical interneuron
+def: "An interneuron that has its soma located in the cerebral cortex." []
+synonym: "cerebral cortex interneuron" EXACT []
+is_a: CL:0000099 ! interneuron
+is_a: CL:0010012 ! cerebral cortex neuron
+intersection_of: CL:0000099 ! interneuron
+intersection_of: RO:0002100 UBERON:0000956
 
 [Term]
 id: CL:0008033
 name: decidual pericyte
 def: "A pericyte of the decidual vasculature." []
 synonym: "decidual perivascular cell" EXACT []
-is_a: CL:0000669 ! pericyte cell
-intersection_of: CL:0000669 ! pericyte cell
+is_a: CL:0000669 ! pericyte
+intersection_of: CL:0000669 ! pericyte
 intersection_of: BFO:0000050 UBERON:0002450
 
 [Term]
@@ -10480,9 +10503,17 @@ name: lung pericyte
 def: "A pericyte cell that is part of a lung." []
 synonym: "lung pericyte cell" EXACT []
 synonym: "pulmonary pericyte" EXACT []
-is_a: CL:0000669 ! pericyte cell
-intersection_of: CL:0000669 ! pericyte cell
+is_a: CL:0000669 ! pericyte
+intersection_of: CL:0000669 ! pericyte
 intersection_of: BFO:0000050 UBERON:0002048
+
+[Term]
+id: CL:0009091
+name: Leydig stem cell
+def: "A stem cell found in the interstitial compartment of the neonatal testis; it is capable of self-renewal as well as differentiation into steroidogenic cells (adult Leydig cells). Intermediate stages of development include progenitor Leydig cells and immature Leydig cells." []
+synonym: "stem Leydig cell" EXACT []
+is_a: CL:0000034 ! stem cell
+relationship: BFO:0000050 UBERON:0005212
 
 [Term]
 id: CL:0009092
@@ -10511,6 +10542,15 @@ synonym: "uterine endothelial cell" EXACT []
 is_a: CL:0000115 ! endothelial cell
 intersection_of: CL:0000115 ! endothelial cell
 intersection_of: BFO:0000050 UBERON:0000995
+
+[Term]
+id: CL:0009115
+name: lymph node lymphatic vessel endothelial cell
+def: "An endothelial cell located in a lymph node lymphatic vessel." []
+is_a: CL:0000115 ! endothelial cell
+intersection_of: CL:0000115 ! endothelial cell
+intersection_of: BFO:0000050 UBERON:0000029
+intersection_of: BFO:0000050 UBERON:0001473
 
 [Term]
 id: CL:0010001
@@ -10591,7 +10631,7 @@ intersection_of: RO:0002100 UBERON:0002037
 id: CL:0010011
 name: cerebral cortex GABAergic interneuron
 def: "A GABAergic interneuron whose soma is located in the cerebral cortex." []
-is_a: CL:0010012 ! cerebral cortex neuron
+is_a: CL:0008031 ! cortical interneuron
 is_a: CL:0011005 ! GABAergic interneuron
 intersection_of: CL:0011005 ! GABAergic interneuron
 intersection_of: RO:0002100 UBERON:0000956
@@ -10629,9 +10669,10 @@ intersection_of: RO:0002203 CL:0000746 ! cardiac muscle cell
 [Term]
 id: CL:0010022
 name: cardiac neuron
+def: "A neuron that has its soma in the heart." []
 is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
-intersection_of: BFO:0000050 UBERON:0000948
+intersection_of: RO:0002100 UBERON:0000948
 
 [Term]
 id: CL:0011000
@@ -10842,6 +10883,16 @@ name: forebrain radial glial cell
 is_a: CL:0000681 ! radial glial cell
 intersection_of: CL:0000681 ! radial glial cell
 intersection_of: BFO:0000050 UBERON:0001890
+
+[Term]
+id: CL:0017002
+name: prostate neuroendocrine cell
+def: "A neuroendocrine cell that is part of the prostate epithelium." []
+synonym: "neuroendocrine cell of prostate epithelium" EXACT []
+synonym: "neuroendocrine cell of the prostate" EXACT []
+is_a: CL:0000165 ! neuroendocrine cell
+intersection_of: CL:0000165 ! neuroendocrine cell
+intersection_of: BFO:0000050 UBERON:0000428
 
 [Term]
 id: CL:0017500
@@ -11287,7 +11338,7 @@ relationship: BFO:0000050 UBERON:0001917
 
 [Term]
 id: CL:1000415
-name: epithelial cell of gall bladder
+name: epithelial cell of gallbladder
 def: "An epithelial cell that is part of the gallbladder." []
 is_a: CL:0000066 ! epithelial cell
 is_a: CL:0002371 ! somatic cell
@@ -11547,8 +11598,8 @@ relationship: BFO:0000050 UBERON:0000056
 [Term]
 id: CL:1000606
 name: kidney nerve cell
-is_a: CL:0000540 ! neuron
 is_a: CL:1000500 ! kidney interstitial cell
+is_a: CL:2000032 ! peripheral nervous system neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0002113
 
@@ -11598,7 +11649,8 @@ relationship: BFO:0000050 UBERON:0002303
 id: CL:1000692
 name: kidney interstitial fibroblast
 is_a: CL:0000057 ! fibroblast
-is_a: CL:1000500 ! kidney interstitial cell
+intersection_of: CL:0000057 ! fibroblast
+intersection_of: BFO:0000050 UBERON:0005215
 
 [Term]
 id: CL:1000706
@@ -11614,12 +11666,14 @@ id: CL:1000742
 name: glomerular mesangial cell
 def: "Intraglomerular mesangial cells are specialized pericytes located among the glomerular capillaries within a renal corpuscle of a kidney." []
 synonym: "intraglomerular mesangial cell" EXACT []
+is_a: CL:0000234 ! phagocyte
 is_a: CL:0000650 ! mesangial cell
 is_a: CL:1000612 ! kidney corpuscule cell
-is_a: CL:1001318 ! renal interstitial pericyte
 intersection_of: CL:1000612 ! kidney corpuscule cell
 intersection_of: BFO:0000050 UBERON:0002320
 relationship: BFO:0000050 UBERON:0002320
+relationship: RO:0002215 GO:0006909
+relationship: RO:0002215 GO:0070252
 
 [Term]
 id: CL:1000746
@@ -11701,10 +11755,10 @@ intersection_of: BFO:0000050 UBERON:0001232
 [Term]
 id: CL:1001318
 name: renal interstitial pericyte
-is_a: CL:0000669 ! pericyte cell
-is_a: CL:1000497 ! kidney cell
-intersection_of: CL:0000669 ! pericyte cell
-intersection_of: BFO:0000050 UBERON:0002113
+def: "A pericyte cell located in the kidney interstitium." []
+is_a: CL:0000669 ! pericyte
+intersection_of: CL:0000669 ! pericyte
+intersection_of: BFO:0000050 UBERON:0005215
 
 [Term]
 id: CL:1001319
@@ -11747,8 +11801,9 @@ name: sensory neuron of dorsal root ganglion
 def: "A sensory neuron of the dorsal root ganglia that senses body position and sends information about how much the muscle is stretched to the spinal cord." []
 synonym: "proprioceptive neuron" EXACT []
 is_a: CL:0000101 ! sensory neuron
+is_a: CL:4023168 ! somatosensory neuron
 intersection_of: CL:0000101 ! sensory neuron
-intersection_of: BFO:0000050 UBERON:0000044
+intersection_of: RO:0002100 UBERON:0000044
 relationship: BFO:0000050 UBERON:0000044
 
 [Term]
@@ -11811,7 +11866,7 @@ synonym: "hippocampus (CA) pyramidal cell" EXACT []
 synonym: "hippocampus (CA) pyramidal neuron" EXACT []
 is_a: CL:0000598 ! pyramidal neuron
 intersection_of: CL:0000598 ! pyramidal neuron
-intersection_of: BFO:0000050 UBERON:0001954
+intersection_of: RO:0002100 UBERON:0001954
 relationship: BFO:0000050 UBERON:0002313
 
 [Term]
@@ -11958,13 +12013,13 @@ relationship: BFO:0000050 UBERON:0004804
 
 [Term]
 id: CL:1001592
-name: gall bladder glandular cell
-def: "Glandular cell of gall bladder epithelium." []
+name: gallbladder glandular cell
+def: "Glandular cell of gallbladder epithelium." []
+synonym: "gall bladder glandular cell" EXACT []
 synonym: "gall bladder glandular cells" RELATED []
-synonym: "gallbladder glandular cell" RELATED []
 synonym: "gallbladder glandular cells" RELATED []
 is_a: CL:0000150 ! glandular epithelial cell
-is_a: CL:1000415 ! epithelial cell of gall bladder
+is_a: CL:1000415 ! epithelial cell of gallbladder
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0002110
 relationship: BFO:0000050 UBERON:0002029
@@ -12160,8 +12215,9 @@ id: CL:2000028
 name: cerebellum glutamatergic neuron
 def: "Any glutamatergic neuron that is part of a cerebellum." []
 is_a: CL:0000679 ! glutamatergic neuron
+is_a: CL:1001611 ! cerebellar neuron
 intersection_of: CL:0000679 ! glutamatergic neuron
-intersection_of: BFO:0000050 UBERON:0002037
+intersection_of: RO:0002100 UBERON:0002037
 
 [Term]
 id: CL:2000029
@@ -12190,7 +12246,9 @@ intersection_of: RO:0002100 UBERON:2000120
 [Term]
 id: CL:2000032
 name: peripheral nervous system neuron
-def: "Any neuron that is part of a peripheral nervous system." []
+def: "A neuron that is part of a peripheral nervous system." []
+synonym: "peripheral neuron" EXACT []
+synonym: "PNS neuron" EXACT []
 is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0000010
@@ -12265,8 +12323,8 @@ intersection_of: BFO:0000050 UBERON:0000922
 id: CL:2000043
 name: brain pericyte
 def: "Any pericyte cell that is part of a brain." []
-is_a: CL:0000669 ! pericyte cell
-intersection_of: CL:0000669 ! pericyte cell
+is_a: CL:0000669 ! pericyte
+intersection_of: CL:0000669 ! pericyte
 intersection_of: BFO:0000050 UBERON:0000955
 
 [Term]
@@ -12400,6 +12458,15 @@ intersection_of: CL:0000057 ! fibroblast
 intersection_of: BFO:0000050 UBERON:0002110
 
 [Term]
+id: CL:2000073
+name: migratory cardiac neural crest cell
+def: "Any migratory neural crest cell that is part of a cardiac neural crest." []
+synonym: "cardiac neural crest cell" EXACT []
+is_a: CL:0000333 ! migratory neural crest cell
+intersection_of: CL:0000333 ! migratory neural crest cell
+intersection_of: BFO:0000050 UBERON:0000095
+
+[Term]
 id: CL:2000074
 name: splenocyte
 def: "Any leukocyte that is part of a spleen." []
@@ -12419,8 +12486,8 @@ intersection_of: BFO:0000050 UBERON:0004044
 id: CL:2000078
 name: placental pericyte
 def: "Any pericyte cell that is part of a placenta." []
-is_a: CL:0000669 ! pericyte cell
-intersection_of: CL:0000669 ! pericyte cell
+is_a: CL:0000669 ! pericyte
+intersection_of: CL:0000669 ! pericyte
 intersection_of: BFO:0000050 UBERON:0001987
 
 [Term]
@@ -12470,7 +12537,7 @@ name: midbrain dopaminergic neuron
 def: "Any dopaminergic neuron that is part of a midbrain." []
 is_a: CL:0000700 ! dopaminergic neuron
 intersection_of: CL:0000700 ! dopaminergic neuron
-intersection_of: BFO:0000050 UBERON:0001891
+intersection_of: RO:0002100 UBERON:0001891
 
 [Term]
 id: CL:3000002
@@ -12489,6 +12556,15 @@ is_a: CL:0000108 ! cholinergic neuron
 is_a: CL:0011103 ! sympathetic neuron
 intersection_of: CL:0011103 ! sympathetic neuron
 intersection_of: RO:0002215 GO:0014055
+
+[Term]
+id: CL:3000004
+name: peripheral sensory neuron
+def: "Peripheral sensory neuron." []
+is_a: CL:0000101 ! sensory neuron
+is_a: CL:2000032 ! peripheral nervous system neuron
+intersection_of: CL:2000032 ! peripheral nervous system neuron
+intersection_of: RO:0002215 GO:0050906
 
 [Term]
 id: CL:4023110
@@ -12515,6 +12591,71 @@ synonym: "cochlear hair cell" EXACT []
 is_a: CL:0000202 ! auditory hair cell
 intersection_of: CL:0000202 ! auditory hair cell
 intersection_of: BFO:0000050 UBERON:0002227
+
+[Term]
+id: CL:4023154
+name: myelinating glial cell
+def: "A glial cell that myelinates axonal processes." []
+is_a: CL:0000125 ! glial cell
+intersection_of: CL:0000125 ! glial cell
+intersection_of: BFO:0000051 GO:0043209
+
+[Term]
+id: CL:4023168
+name: somatosensory neuron
+def: "A neuron that is part of the somatic sensory system. Somatosensory neurons innervate the skin or integument to detect different types of thermal, chemical, and mechanical touch stimuli." []
+is_a: CL:0000540 ! neuron
+intersection_of: CL:0000540 ! neuron
+intersection_of: BFO:0000050 UBERON:0003942
+
+[Term]
+id: CL:4029001
+name: gamete-nursing cell
+def: "A cell that supports the development of a gamete by providing it cytoplasmic material (including entire organelles) by direct cross-membrane channels (del Pino, 2021)." []
+is_a: CL:0000003 ! native cell
+
+[Term]
+id: CL:4029002
+name: germline-derived nurse cell
+def: "A gamete-nursing cell that derives from a germline cell (del Pino, 2021)." []
+is_a: CL:0000039 ! germ line cell
+is_a: CL:4029001 ! gamete-nursing cell
+
+[Term]
+id: CL:4030001
+name: stromal cell of thymus
+def: "A stromal cell that is part of the thymus." []
+synonym: "thymic stromal cell" EXACT []
+is_a: CL:0000499 ! stromal cell
+intersection_of: CL:0000499 ! stromal cell
+intersection_of: BFO:0000050 UBERON:0002370
+
+[Term]
+id: CL:4030008
+name: pronephric podocyte
+def: "A specialized epithelial cell that contains \"feet\" that interdigitate with the \"feet\" of other glomerular epithelial cells in the pronephros." []
+synonym: "pronephric glomerular visceral epithelial cell" EXACT []
+is_a: CL:0000653 ! podocyte
+intersection_of: CL:0000653 ! podocyte
+intersection_of: BFO:0000050 UBERON:0002120
+
+[Term]
+id: CL:4030016
+name: epithelial cell of early distal convoluted tubule
+def: "An epithelial cell located in the early distal convoluted tubule." []
+synonym: "DCT1 cell" BROAD []
+is_a: CL:0000066 ! epithelial cell
+intersection_of: CL:0000066 ! epithelial cell
+intersection_of: BFO:0000050 UBERON:0005101
+
+[Term]
+id: CL:4030017
+name: epithelial cell of late distal convoluted tubule
+def: "An epithelial cell located in the late distal convoluted tubule." []
+synonym: "DCT2 cell" BROAD []
+is_a: CL:0000066 ! epithelial cell
+intersection_of: CL:0000066 ! epithelial cell
+intersection_of: BFO:0000050 UBERON:0005102
 
 [Typedef]
 id: BFO:0000050
@@ -12589,23 +12730,17 @@ id: RO:0003000
 xref: RO:0003000
 
 [Typedef]
+id: RO:0015015
+xref: RO:0015015
+
+[Typedef]
+id: RO:0015016
+xref: RO:0015016
+
+[Typedef]
 id: has_completed
 name: has_completed
 xref: has_completed
-
-[Typedef]
-id: has_high_plasma_membrane_amount
-name: has_high_plasma_membrane_amount
-def: "A relation between a cell and molecule or complex such that every instance of the cell has a high number of instances of that molecule expressed on the cell surface. For the formal definition, see Masci et al (PMID:19243617)." []
-xref: has_high_plasma_membrane_amount
-is_a: RO:0002104
-
-[Typedef]
-id: has_low_plasma_membrane_amount
-name: has_low_plasma_membrane_amount
-def: "A relation between a cell and molecule or complex such that every instance of the cell has a low number of instances of that molecule expressed on the cell surface. For the formal definition, see Masci et al (PMID:19243617)." []
-xref: has_low_plasma_membrane_amount
-is_a: RO:0002104
 
 [Typedef]
 id: has_not_completed
