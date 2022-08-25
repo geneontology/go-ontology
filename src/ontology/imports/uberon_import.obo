@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-07-18/imports/uberon_import.owl
+data-version: go/releases/2022-08-25/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -1093,7 +1093,7 @@ synonym: "lifespan" EXACT []
 is_a: UBERON:0000000 ! processual entity
 relationship: ends_with UBERON:0000071 ! death stage
 relationship: has_part UBERON:0000105 ! life cycle stage
-relationship: starts_with UBERON:0000106 ! zygote stage
+relationship: starts_with UBERON:0000106 {gci_relation="in_taxon", gci_filler="NCBITaxon:33208"} ! zygote stage
 
 [Term]
 id: UBERON:0000105
@@ -2103,6 +2103,19 @@ relationship: only_in_taxon NCBITaxon:32525
 relationship: part_of UBERON:0000307 ! blastula
 
 [Term]
+id: UBERON:0000361
+name: red bone marrow
+def: "The red vascular substance consisting of connective tissue and blood vessels, containing primitive blood cells, macrophages, megakaryocytes, and fat cells. Red marrow is found in the cavities of many bones. It manufactures and releases leukocytes and erythrocytes into the bloodstream." []
+synonym: "medulla ossium rubra" EXACT []
+synonym: "parenchyma of none marrow marrow" RELATED []
+synonym: "parenchymal red marrow" EXACT []
+synonym: "red marrow" EXACT []
+is_a: UBERON:0002371 ! bone marrow
+intersection_of: UBERON:0002371 ! bone marrow
+intersection_of: composed_primarily_of CL:0000988
+relationship: part_of UBERON:0012429 ! hematopoietic tissue
+
+[Term]
 id: UBERON:0000362
 name: renal medulla
 def: "The inner portion of the kidney consisting of the renal pyramids." []
@@ -2538,6 +2551,7 @@ synonym: "vena testicularis sinistra" RELATED []
 is_a: UBERON:0001144 ! testicular vein
 intersection_of: UBERON:0001144 ! testicular vein
 intersection_of: drains UBERON:0004533 ! left testis
+relationship: connected_to UBERON:0001142 ! left renal vein
 relationship: in_left_side_of UBERON:0000468 ! multicellular organism
 
 [Term]
@@ -3170,6 +3184,7 @@ synonym: "trunk of systemic arterial tree" EXACT []
 is_a: UBERON:0003509 ! arterial blood vessel
 is_a: UBERON:0003519 ! thoracic cavity blood vessel
 is_a: UBERON:0013768 ! great vessel of heart
+relationship: connected_to UBERON:0002084 ! heart left ventricle
 relationship: located_in UBERON:0002224 ! thoracic cavity
 relationship: part_of UBERON:0010191 ! aortic system
 
@@ -3204,7 +3219,6 @@ intersection_of: capable_of GO:0050886
 disjoint_from: UBERON:0000990 ! reproductive system
 disjoint_from: UBERON:0001004 ! respiratory system
 disjoint_from: UBERON:0001007 ! digestive system
-disjoint_from: UBERON:0001008 ! renal system
 disjoint_from: UBERON:0001009 ! circulatory system
 disjoint_from: UBERON:0001016 ! nervous system
 disjoint_from: UBERON:0001033 ! gustatory system
@@ -3217,6 +3231,7 @@ disjoint_from: UBERON:0002405 ! immune system
 disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: composed_primarily_of UBERON:0002368 ! endocrine gland
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: only_in_taxon NCBITaxon:6072
@@ -3610,6 +3625,7 @@ synonym: "vena axillaris" EXACT []
 is_a: UBERON:0001638 ! vein
 intersection_of: UBERON:0001638 ! vein
 intersection_of: drains UBERON:0009472 ! axilla
+relationship: connected_to UBERON:0001587 ! subclavian vein
 relationship: part_of UBERON:0001467 ! shoulder
 
 [Term]
@@ -3650,9 +3666,9 @@ id: UBERON:0000990
 name: reproductive system
 def: "Anatomical system that has as its parts the organs concerned with reproduction." []
 synonym: "animal reproductive system" RELATED []
-synonym: "genital system" RELATED []
+synonym: "genital system" NARROW []
 synonym: "genital tract" RELATED []
-synonym: "genitalia" RELATED []
+synonym: "genitalia" NARROW []
 synonym: "Geschlechtsorgan" RELATED []
 synonym: "organa genitalia" RELATED []
 synonym: "reproductive tissue" RELATED []
@@ -3663,7 +3679,6 @@ intersection_of: UBERON:0000467 ! anatomical system
 intersection_of: capable_of_part_of GO:0000003
 disjoint_from: UBERON:0001004 ! respiratory system
 disjoint_from: UBERON:0001007 ! digestive system
-disjoint_from: UBERON:0001008 ! renal system
 disjoint_from: UBERON:0001009 ! circulatory system
 disjoint_from: UBERON:0001016 ! nervous system
 disjoint_from: UBERON:0001033 ! gustatory system
@@ -3676,6 +3691,7 @@ disjoint_from: UBERON:0002405 ! immune system
 disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: has_part UBERON:0000991 ! gonad
 
@@ -3909,7 +3925,6 @@ is_a: UBERON:0000467 ! anatomical system
 intersection_of: UBERON:0000467 ! anatomical system
 intersection_of: capable_of GO:0007585
 disjoint_from: UBERON:0001007 ! digestive system
-disjoint_from: UBERON:0001008 ! renal system
 disjoint_from: UBERON:0001009 ! circulatory system
 disjoint_from: UBERON:0001016 ! nervous system
 disjoint_from: UBERON:0001033 ! gustatory system
@@ -3922,6 +3937,7 @@ disjoint_from: UBERON:0002405 ! immune system
 disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: capable_of GO:0003016
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: only_in_taxon NCBITaxon:33213
@@ -3948,7 +3964,6 @@ synonym: "gut" RELATED []
 is_a: UBERON:0000467 ! anatomical system
 intersection_of: UBERON:0000467 ! anatomical system
 intersection_of: capable_of GO:0022600
-disjoint_from: UBERON:0001008 ! renal system
 disjoint_from: UBERON:0001009 ! circulatory system
 disjoint_from: UBERON:0001016 ! nervous system
 disjoint_from: UBERON:0001033 ! gustatory system
@@ -3961,35 +3976,23 @@ disjoint_from: UBERON:0002405 ! immune system
 disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 
 [Term]
 id: UBERON:0001008
 name: renal system
-def: "The renal system in an anatomical system that maintains fluid balance and contributes to electrolyte balance, acid/base balance, and disposal of nitrogenous waste products.." []
-synonym: "excretory system" EXACT []
+def: "The renal system in an anatomical system that maintains fluid balance and contributes to electrolyte balance, acid/base balance, and disposal of nitrogenous waste products." []
+synonym: "excretory system" BROAD []
 synonym: "renal or urinary system" RELATED []
-synonym: "renal system" EXACT []
 synonym: "renal/urinary system" RELATED []
 synonym: "systema urinaria" EXACT []
 synonym: "systema urinarium" EXACT []
 synonym: "urinary system" EXACT []
 synonym: "urinary tract" EXACT []
-is_a: UBERON:0000467 ! anatomical system
-intersection_of: UBERON:0000467 ! anatomical system
-intersection_of: capable_of GO:0007588
-disjoint_from: UBERON:0001009 ! circulatory system
-disjoint_from: UBERON:0001016 ! nervous system
-disjoint_from: UBERON:0001033 ! gustatory system
-disjoint_from: UBERON:0001434 ! skeletal system
-disjoint_from: UBERON:0002204 ! musculoskeletal system
-disjoint_from: UBERON:0002294 ! biliary system
-disjoint_from: UBERON:0002330 ! exocrine system
-disjoint_from: UBERON:0002390 ! hematopoietic system
-disjoint_from: UBERON:0002405 ! immune system
-disjoint_from: UBERON:0002416 ! integumental system
-disjoint_from: UBERON:0002423 ! hepatobiliary system
-disjoint_from: UBERON:0004456 ! entire sense organ system
+is_a: UBERON:8450002 ! excretory system
+intersection_of: UBERON:8450002 ! excretory system
+intersection_of: capable_of GO:0097254
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: only_in_taxon NCBITaxon:6072
 
@@ -4010,6 +4013,7 @@ disjoint_from: UBERON:0002405 ! immune system
 disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: capable_of GO:0003013
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: only_in_taxon NCBITaxon:33213
@@ -4065,6 +4069,7 @@ disjoint_from: UBERON:0002405 ! immune system
 disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: capable_of GO:0050877
 relationship: composed_primarily_of CL:0002319
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
@@ -4181,6 +4186,7 @@ disjoint_from: UBERON:0002405 ! immune system
 disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: only_in_taxon NCBITaxon:6072
 
@@ -4351,6 +4357,8 @@ relationship: part_of UBERON:0000955 ! brain
 id: UBERON:0001062
 name: anatomical entity
 def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species." []
+relationship: part_of UBERON:0003942 {gci_filler="GO:0050975", gci_relation="capable_of_part_of"} ! somatosensory system
+relationship: part_of UBERON:0003942 {gci_relation="capable_of_part_of", gci_filler="GO:0019233"} ! somatosensory system
 
 [Term]
 id: UBERON:0001064
@@ -4405,6 +4413,7 @@ synonym: "superficial branch of transverse cervical artery" EXACT []
 is_a: UBERON:0012320 ! cervical artery
 intersection_of: UBERON:0012320 ! cervical artery
 intersection_of: part_of UBERON:0035549 ! vasculature of integument
+relationship: connected_to UBERON:0012324 ! transverse cervical artery
 
 [Term]
 id: UBERON:0001072
@@ -4421,6 +4430,7 @@ intersection_of: UBERON:0004087 ! vena cava
 intersection_of: drains UBERON:0000154 ! posterior region of body
 disjoint_from: UBERON:0001585 ! anterior vena cava
 relationship: channels_into UBERON:0002078 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! right cardiac atrium
+relationship: connected_to UBERON:0002078 ! right cardiac atrium
 relationship: develops_from UBERON:0005487 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! vitelline vein
 
 [Term]
@@ -4973,8 +4983,20 @@ synonym: "vena mesenterica superior" RELATED []
 is_a: UBERON:0005617 ! mesenteric vein
 intersection_of: UBERON:0005617 ! mesenteric vein
 intersection_of: drains UBERON:0002108 ! small intestine
+relationship: connected_to UBERON:0001639 ! hepatic portal vein
 relationship: develops_from UBERON:0005487 ! vitelline vein
 relationship: part_of UBERON:0005806 ! portal system
+
+[Term]
+id: UBERON:0001139
+name: common iliac vein
+def: "A vein that drains the pelvis and lower limbs into the inferior vena cava." []
+synonym: "common iliac venous tree" EXACT []
+synonym: "vena iliaca communis" RELATED []
+is_a: UBERON:0005610 ! iliac vein
+is_a: UBERON:0015212 ! lateral structure
+relationship: drains UBERON:0010708 ! pectoral complex
+relationship: in_lateral_side_of UBERON:0001072 ! posterior vena cava
 
 [Term]
 id: UBERON:0001140
@@ -5017,6 +5039,7 @@ synonym: "venae hepaticae" RELATED []
 is_a: UBERON:0001638 ! vein
 intersection_of: UBERON:0001638 ! vein
 intersection_of: drains UBERON:0002107 ! liver
+disjoint_from: UBERON:0001639 ! hepatic portal vein
 relationship: develops_from UBERON:0005487 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! vitelline vein
 relationship: part_of UBERON:0006877 ! vasculature of liver
 relationship: tributary_of UBERON:0001072 ! posterior vena cava
@@ -5082,7 +5105,7 @@ synonym: "ductus cysticus" RELATED []
 is_a: UBERON:0003703 ! extrahepatic bile duct
 intersection_of: UBERON:0000058 ! duct
 intersection_of: continuous_with UBERON:0001174 ! common bile duct
-intersection_of: continuous_with UBERON:0002110 ! gall bladder
+intersection_of: continuous_with UBERON:0002110 ! gallbladder
 disjoint_from: UBERON:0005171 ! hepatic duct
 relationship: channel_for UBERON:0001970 ! bile
 relationship: channels_into UBERON:0001174 ! common bile duct
@@ -5471,6 +5494,7 @@ synonym: "ovarian arterial tree" EXACT []
 is_a: UBERON:0001637 ! artery
 intersection_of: UBERON:0001637 ! artery
 intersection_of: supplies UBERON:0000992 ! ovary
+relationship: connected_to UBERON:0001516 ! abdominal aorta
 
 [Term]
 id: UBERON:0001191
@@ -6344,7 +6368,7 @@ relationship: part_of UBERON:0007324 ! pancreatic lobule
 [Term]
 id: UBERON:0001264
 name: pancreas
-def: "An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating enzymes[GO]." []
+def: "An endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating hormones[GO]." []
 is_a: UBERON:0002075 ! viscus
 relationship: has_developmental_contribution_from UBERON:0003922 ! pancreatic epithelial bud
 relationship: has_developmental_contribution_from UBERON:0003923 ! dorsal pancreatic bud
@@ -6506,6 +6530,7 @@ is_a: UBERON:0003909 ! sinusoid
 is_a: UBERON:0015796 ! liver blood vessel
 intersection_of: UBERON:0003909 ! sinusoid
 intersection_of: part_of UBERON:0002107 ! liver
+relationship: connected_to UBERON:0006841 ! central vein of liver
 relationship: contributes_to_morphology_of UBERON:0004647 ! liver lobule
 relationship: develops_in UBERON:0001113 ! lobe of liver
 relationship: part_of UBERON:0004647 ! liver lobule
@@ -6865,6 +6890,15 @@ intersection_of: supplies UBERON:0000056 ! ureter
 relationship: supplies UBERON:0001255 ! urinary bladder
 
 [Term]
+id: UBERON:0001316
+name: external iliac vein
+def: "A large vein that connects the femoral vein to the common iliac vein. Their origin is at the inferior margin of the inguinal ligaments and they terminate when they join the internal iliac veins (to form the common iliac veins). Both external iliac veins are accompanied along their course by external iliac arteries. [WP,modified]." []
+synonym: "vena iliaca externa" RELATED []
+is_a: UBERON:0005610 ! iliac vein
+relationship: connected_to UBERON:0001139 ! common iliac vein
+relationship: drains UBERON:0002103 ! hindlimb
+
+[Term]
 id: UBERON:0001317
 name: internal iliac vein
 def: "A vein that begins near the upper part of the greater sciatic foramen, passes upward behind and slightly medial to the hypogastric artery and, at the brim of the pelvis, joins with the external iliac to form the common iliac vein. [WP,unvetted]." []
@@ -6872,6 +6906,7 @@ synonym: "hypogastric vein" RELATED []
 synonym: "v. hypogastrica" RELATED []
 synonym: "v. iliaca interna" RELATED []
 is_a: UBERON:0005610 ! iliac vein
+relationship: connected_to UBERON:0001139 ! common iliac vein
 relationship: drains UBERON:0005179 ! pelvic region element
 
 [Term]
@@ -6919,6 +6954,7 @@ synonym: "plexus venosus pampiniformis" EXACT []
 synonym: "venous plexus of fascia of prostate" EXACT []
 synonym: "venous plexus of fascia of prostate gland" EXACT []
 is_a: UBERON:0001593 ! venous plexus
+relationship: connected_to UBERON:0000442 ! right testicular vein
 relationship: located_in UBERON:0005352 ! spermatic cord
 
 [Term]
@@ -7091,6 +7127,27 @@ relationship: filtered_through UBERON:0001886 ! choroid plexus
 relationship: located_in UBERON:0005281 ! ventricular system of central nervous system
 
 [Term]
+id: UBERON:0001361
+name: femoral vein
+def: "In the human body, the femoral vein is a blood vessel that accompanies the femoral artery in the femoral sheath. It begins at the adductor canal (also known as Hunter's canal) and is a continuation of the popliteal vein. It ends at the inferior margin of the inguinal ligament, where it becomes the external iliac vein. [WP,unvetted]." []
+synonym: "vena femoralis" RELATED []
+is_a: UBERON:0001638 ! vein
+is_a: UBERON:0003516 ! hindlimb blood vessel
+relationship: connected_to UBERON:0001316 ! external iliac vein
+relationship: part_of UBERON:0002103 ! hindlimb
+
+[Term]
+id: UBERON:0001363
+name: great saphenous vein
+def: "The great saphenous vein (GSV), also greater saphenous vein, is the large (subcutaneous) superficial vein of the leg and thigh. The terms 'safaina' (Greek) and 'el safin' (Arabic) have both been claimed as the origin for the word 'saphenous'. [WP,unvetted]." []
+synonym: "greater saphenous vein" EXACT []
+synonym: "large saphenous vein" RELATED []
+synonym: "long saphenous vein" RELATED []
+synonym: "vena saphena magna" RELATED []
+is_a: UBERON:0007318 ! saphenous vein
+relationship: tributary_of UBERON:0001361 ! femoral vein
+
+[Term]
 id: UBERON:0001366
 name: parietal peritoneum
 def: "The outer layer of peritoneum that is attached to the abdominal and pelvic walls." []
@@ -7130,7 +7187,16 @@ synonym: "axillary part of trunk of subclavian artery" EXACT []
 is_a: UBERON:0001637 ! artery
 intersection_of: UBERON:0001637 ! artery
 intersection_of: supplies UBERON:0009472 ! axilla
+relationship: connected_to UBERON:0001533 ! subclavian artery
 relationship: part_of UBERON:0001467 ! shoulder
+
+[Term]
+id: UBERON:0001397
+name: subscapular artery
+def: "The subscapular artery, the largest branch of the axillary artery, arises at the lower border of the Subscapularis, which it follows to the inferior angle of the scapula, where it anastomoses with the lateral thoracic and intercostal arteries and with the descending branch of the transverse cervical, and ends in the neighboring muscles. About 4 cm. from its origin it gives off two branches, first the scapular circumflex artery and then the thoracodorsal artery. [WP,unvetted]." []
+synonym: "arteria subscapularis" RELATED []
+is_a: UBERON:0001637 ! artery
+relationship: connected_to UBERON:0001394 ! axillary artery
 
 [Term]
 id: UBERON:0001415
@@ -7256,6 +7322,7 @@ disjoint_from: UBERON:0002405 ! immune system
 disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: part_of UBERON:0002204 ! musculoskeletal system
 
@@ -8011,6 +8078,7 @@ synonym: "arcus aortae" EXACT []
 synonym: "thoracic aorta" RELATED []
 is_a: UBERON:0005800 ! section of aorta
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+relationship: connected_to UBERON:0001496 ! ascending aorta
 relationship: contributes_to_morphology_of UBERON:0001515 ! thoracic aorta
 relationship: develops_from UBERON:0003121 ! pharyngeal arch artery 4
 relationship: has_developmental_contribution_from UBERON:0005432 ! aortic sac
@@ -8074,6 +8142,7 @@ synonym: "aorta descendens" RELATED []
 synonym: "pars descendens aortae" EXACT []
 synonym: "pars descendens aortae" RELATED []
 is_a: UBERON:0005800 ! section of aorta
+relationship: connected_to UBERON:0001508 ! arch of aorta
 relationship: develops_from UBERON:0005805 ! dorsal aorta
 relationship: has_developmental_contribution_from UBERON:0005613 ! left dorsal aorta
 relationship: has_developmental_contribution_from UBERON:0005622 ! right dorsal aorta
@@ -8104,6 +8173,7 @@ synonym: "descending abdominal aorta" EXACT []
 synonym: "pars abdominalis aortae" EXACT []
 synonym: "pars abdominalis aortae" RELATED []
 is_a: UBERON:0005800 ! section of aorta
+relationship: connected_to UBERON:0002345 ! descending thoracic aorta
 relationship: contributes_to_morphology_of UBERON:0001514 ! descending aorta
 relationship: overlaps UBERON:0000916 ! abdomen
 relationship: part_of UBERON:0001514 ! descending aorta
@@ -8161,6 +8231,7 @@ synonym: "truncus brachiocephalicus" EXACT []
 synonym: "truncus brachiocephalicus" RELATED []
 is_a: UBERON:0004573 ! systemic artery
 relationship: channels_from UBERON:0001508 ! arch of aorta
+relationship: connected_to UBERON:0001508 ! arch of aorta
 relationship: part_of UBERON:0007204 ! brachiocephalic vasculature
 
 [Term]
@@ -8174,6 +8245,7 @@ synonym: "common carotid artery" EXACT []
 synonym: "trunk of common carotid tree" EXACT []
 is_a: UBERON:0004573 ! systemic artery
 is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
+relationship: connected_to UBERON:0001508 ! arch of aorta
 relationship: develops_from UBERON:0004363 ! pharyngeal arch artery
 relationship: existence_starts_during UBERON:0000068 ! embryo stage
 
@@ -8186,6 +8258,7 @@ synonym: "right common carotid artery" RELATED []
 synonym: "trunk of right common carotid tree" EXACT []
 is_a: UBERON:0001530 ! common carotid artery plus branches
 relationship: branching_part_of UBERON:0001529 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! brachiocephalic artery
+relationship: connected_to UBERON:0001529 ! brachiocephalic artery
 
 [Term]
 id: UBERON:0001532
@@ -8216,6 +8289,7 @@ synonym: "PA" RELATED []
 synonym: "pectoral artery" EXACT []
 synonym: "subclavian arterial tree" EXACT []
 is_a: UBERON:0004573 ! systemic artery
+relationship: connected_to UBERON:0001508 ! arch of aorta
 relationship: develops_from UBERON:0002457 ! intersomitic artery
 relationship: develops_from UBERON:0005622 ! right dorsal aorta
 relationship: overlaps UBERON:0000915 ! thoracic segment of trunk
@@ -8230,6 +8304,7 @@ is_a: UBERON:0001533 ! subclavian artery
 intersection_of: UBERON:0001533 ! subclavian artery
 intersection_of: in_right_side_of UBERON:0000468 ! multicellular organism
 relationship: branching_part_of UBERON:0001529 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! brachiocephalic artery
+relationship: connected_to UBERON:0001529 ! brachiocephalic artery
 relationship: develops_from UBERON:0003121 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! pharyngeal arch artery 4
 
 [Term]
@@ -8240,6 +8315,7 @@ synonym: "left common carotid artery" EXACT []
 synonym: "left common carotid artery" RELATED []
 synonym: "trunk of left common carotid tree" EXACT []
 is_a: UBERON:0001530 ! common carotid artery plus branches
+relationship: connected_to UBERON:0001508 ! arch of aorta
 
 [Term]
 id: UBERON:0001543
@@ -8254,6 +8330,34 @@ intersection_of: located_in UBERON:0016400 ! infrapatellar fat pad
 intersection_of: part_of UBERON:0001485 ! knee joint
 
 [Term]
+id: UBERON:0001544
+name: popliteal vein
+def: "The popliteal vein course runs alongside the popliteal artery but carries the blood from the knee joint and muscles in the thigh and calf back to the heart. Its origin is defined by the junction of the posterior tibial vein and anterior tibial vein. It drains the peroneal vein before reaching the knee joint and turns into the femoral vein when leaving the adductor canal (also known as Hunter's canal). The popliteal artery extends from the femoral artery behind the popliteal fossa which is the space behind the knee. [WP,unvetted]." []
+synonym: "vena poplitea" RELATED []
+is_a: UBERON:0001638 ! vein
+relationship: overlaps UBERON:0001465 ! knee
+relationship: tributary_of UBERON:0001361 ! femoral vein
+
+[Term]
+id: UBERON:0001545
+name: anterior tibial vein
+def: "A vein of the lower limb that carries blood from the anterior compartment of the leg to the popliteal vein which is forms when it joins with the posterior tibial vein. Like most deep veins, the anterior tibial vein is accompanied by an artery of the same name, the anterior tibial artery, along its course. [WP,unvetted]." []
+synonym: "venae tibiales anteriores" RELATED []
+is_a: UBERON:0010370 ! tibial vein
+relationship: tributary_of UBERON:0001361 ! femoral vein
+relationship: tributary_of UBERON:0001544 ! popliteal vein
+
+[Term]
+id: UBERON:0001547
+name: small saphenous vein
+def: "The small saphenous vein (also lesser saphenous vein), is a relatively large vein of the superficial posterior leg. [WP,unvetted]." []
+synonym: "lesser saphenous vein" EXACT []
+synonym: "short saphenous vein" EXACT []
+synonym: "vena saphena parva" EXACT []
+is_a: UBERON:0007318 ! saphenous vein
+relationship: tributary_of UBERON:0001544 ! popliteal vein
+
+[Term]
 id: UBERON:0001549
 name: dorsal metatarsal vein
 def: "The dorsal metatarsal veins are veins which drain the metatarsus of the foot. [WP,unvetted]." []
@@ -8263,6 +8367,26 @@ is_a: UBERON:0001638 ! vein
 intersection_of: UBERON:0001638 ! vein
 intersection_of: drains UBERON:0000983 ! metatarsus region
 relationship: tributary_of UBERON:0008783 ! dorsal venous arch
+
+[Term]
+id: UBERON:0001550
+name: medial marginal vein
+def: "A continuation of the Dorsal venous arch of the foot and is the origin of the long saphenous vein." []
+synonym: "medial marginal vein of foot" EXACT []
+synonym: "vena marginalis medialis" EXACT []
+synonym: "vena marginalis medialis pedis" EXACT []
+is_a: UBERON:0001638 ! vein
+relationship: tributary_of UBERON:0001363 ! great saphenous vein
+
+[Term]
+id: UBERON:0001552
+name: kidney arcuate artery
+def: "One of the curved arteries at the corticomedullary border of the kidney that arise from the interlobar arteries and give rise to the interlobular arteries." []
+synonym: "arcuate artery" BROAD []
+synonym: "renal arcuate artery" EXACT []
+is_a: UBERON:0001637 ! artery
+relationship: branching_part_of UBERON:0009885 ! interlobar artery
+relationship: part_of UBERON:0001225 ! cortex of kidney
 
 [Term]
 id: UBERON:0001554
@@ -8458,6 +8582,8 @@ synonym: "arteria subclavia (sinistra)" EXACT []
 is_a: UBERON:0001533 ! subclavian artery
 intersection_of: UBERON:0001533 ! subclavian artery
 intersection_of: in_left_side_of UBERON:0000468 ! multicellular organism
+relationship: channels_from UBERON:0001508 ! arch of aorta
+relationship: connected_to UBERON:0001508 ! arch of aorta
 
 [Term]
 id: UBERON:0001585
@@ -8472,6 +8598,7 @@ synonym: "vena maxima" RELATED []
 is_a: UBERON:0004087 ! vena cava
 intersection_of: UBERON:0004087 ! vena cava
 intersection_of: drains UBERON:0000153 ! anterior region of body
+relationship: connected_to UBERON:0002078 ! right cardiac atrium
 
 [Term]
 id: UBERON:0001586
@@ -8481,8 +8608,19 @@ synonym: "internal jugular" EXACT []
 synonym: "internal jugular venous tree" EXACT []
 synonym: "vena jugularis interna" RELATED []
 is_a: UBERON:0004711 ! jugular vein
+relationship: connected_to UBERON:0003711 ! brachiocephalic vein
 relationship: drains UBERON:0000955 ! brain
 relationship: drains UBERON:0001456 ! face
+
+[Term]
+id: UBERON:0001587
+name: subclavian vein
+def: "The subclavian vein is a paired large vein, one on either side of the body. Their diameter is approximately that of the smallest finger." []
+synonym: "subclavian venous tree" EXACT []
+synonym: "vena subclavia" EXACT []
+is_a: UBERON:0001638 ! vein
+relationship: connected_to UBERON:0003711 ! brachiocephalic vein
+relationship: drains UBERON:0004710 ! pectoral appendage
 
 [Term]
 id: UBERON:0001591
@@ -8685,6 +8823,7 @@ synonym: "internal maxillary artery" RELATED []
 is_a: UBERON:0001637 ! artery
 intersection_of: UBERON:0001637 ! artery
 intersection_of: directly_develops_from UBERON:0003118 ! pharyngeal arch artery 1
+relationship: connected_to UBERON:0001070 ! external carotid artery
 
 [Term]
 id: UBERON:0001619
@@ -8771,6 +8910,24 @@ is_a: UBERON:0003920 ! venous blood vessel
 intersection_of: UBERON:0003920 ! venous blood vessel
 intersection_of: channel_for UBERON:0013756 ! venous blood
 relationship: channels_from UBERON:0001982 ! capillary
+
+[Term]
+id: UBERON:0001639
+name: hepatic portal vein
+def: "A portal vein that transports nutrients from the digestive tract to the liver[Kardong]." []
+synonym: "hepatic portal tree" EXACT []
+synonym: "HPV" RELATED []
+synonym: "liver portal vein" EXACT []
+synonym: "portal vein" RELATED []
+synonym: "portal vein of liver" EXACT []
+synonym: "primary hepatic portal vein" RELATED []
+synonym: "primary hepatic portal veins" RELATED []
+synonym: "vena portae hepatis" RELATED []
+is_a: UBERON:0002017 ! portal vein
+relationship: channels_into UBERON:0002107 ! liver
+relationship: develops_from UBERON:0005487 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! vitelline vein
+relationship: overlaps UBERON:0002107 ! liver
+relationship: part_of UBERON:0010194 ! hepatic portal system
 
 [Term]
 id: UBERON:0001640
@@ -9018,6 +9175,7 @@ synonym: "right pulmonary arterial tree" EXACT []
 is_a: UBERON:0001637 ! artery
 intersection_of: UBERON:0001637 ! artery
 intersection_of: supplies UBERON:0002167 ! right lung
+relationship: connected_to UBERON:0002333 ! pulmonary trunk
 
 [Term]
 id: UBERON:0001652
@@ -9029,6 +9187,7 @@ synonym: "left pulmonary arterial tree" EXACT []
 is_a: UBERON:0001637 ! artery
 intersection_of: UBERON:0001637 ! artery
 intersection_of: supplies UBERON:0002168 ! left lung
+relationship: connected_to UBERON:0002333 ! pulmonary trunk
 
 [Term]
 id: UBERON:0001653
@@ -9184,7 +9343,7 @@ relationship: part_of UBERON:0011156 ! facial skeleton
 [Term]
 id: UBERON:0001682
 name: palatine bone
-def: "A paired dermal bone situated in the mid-palate[Palaeos]." []
+def: "A paired dermal bone situated in the mid-palate that helps form the hard palate [Palaeos]." []
 synonym: "dermopalatine" NARROW []
 synonym: "os palatinum" RELATED []
 synonym: "palate bone" RELATED []
@@ -12360,6 +12519,7 @@ synonym: "arteria thoracodorsalis" RELATED []
 is_a: UBERON:0001637 ! artery
 intersection_of: UBERON:0001637 ! artery
 intersection_of: supplies UBERON:0001112 ! latissimus dorsi muscle
+relationship: connected_to UBERON:0001397 ! subscapular artery
 
 [Term]
 id: UBERON:0002012
@@ -12406,6 +12566,7 @@ is_a: UBERON:0010314 ! structure with developmental contribution from neural cre
 is_a: UBERON:0013768 ! great vessel of heart
 intersection_of: UBERON:0001638 ! vein
 intersection_of: drains UBERON:0002048 ! lung
+relationship: connected_to UBERON:0002079 ! left cardiac atrium
 relationship: develops_from UBERON:0002061 ! truncus arteriosus
 relationship: part_of UBERON:0008886 ! pulmonary vascular system
 
@@ -12486,9 +12647,9 @@ synonym: "gallbladder epithelial tissue" EXACT []
 synonym: "gallbladder epithelium" EXACT []
 is_a: UBERON:0000485 ! simple columnar epithelium
 intersection_of: UBERON:0000483 ! epithelium
-intersection_of: part_of UBERON:0002110 ! gall bladder
-relationship: contributes_to_morphology_of UBERON:0002110 ! gall bladder
-relationship: part_of UBERON:0002110 ! gall bladder
+intersection_of: part_of UBERON:0002110 ! gallbladder
+relationship: contributes_to_morphology_of UBERON:0002110 ! gallbladder
+relationship: part_of UBERON:0002110 ! gallbladder
 
 [Term]
 id: UBERON:0002030
@@ -12827,6 +12988,7 @@ synonym: "venarum" RELATED []
 synonym: "venarum sinus" RELATED []
 synonym: "venosus" RELATED []
 is_a: UBERON:0004151 ! cardiac chamber
+disjoint_from: UBERON:0006615 ! venous sinus
 relationship: immediate_transformation_of UBERON:0007278 ! presumptive sinus venosus
 relationship: part_of UBERON:0002350 ! conducting system of heart
 
@@ -12942,6 +13104,7 @@ is_a: UBERON:0002081 ! cardiac atrium
 is_a: UBERON:0035554 ! right cardiac chamber
 intersection_of: UBERON:0002081 ! cardiac atrium
 intersection_of: in_right_side_of UBERON:0000948 ! heart
+relationship: connected_to UBERON:0004537 ! blood vasculature
 
 [Term]
 id: UBERON:0002079
@@ -12957,6 +13120,7 @@ is_a: UBERON:0002081 ! cardiac atrium
 is_a: UBERON:0035553 ! left cardiac chamber
 intersection_of: UBERON:0002081 ! cardiac atrium
 intersection_of: in_left_side_of UBERON:0000948 ! heart
+relationship: connected_to UBERON:0004537 ! blood vasculature
 
 [Term]
 id: UBERON:0002080
@@ -12971,6 +13135,7 @@ is_a: UBERON:0002082 ! cardiac ventricle
 is_a: UBERON:0035554 ! right cardiac chamber
 intersection_of: UBERON:0002082 ! cardiac ventricle
 intersection_of: in_right_side_of UBERON:0000948 ! heart
+relationship: connected_to UBERON:0004537 ! blood vasculature
 relationship: develops_from UBERON:0009889 ! secondary heart field
 relationship: has_developmental_contribution_from UBERON:0004706 ! bulbus cordis
 
@@ -13013,6 +13178,7 @@ is_a: UBERON:0002082 ! cardiac ventricle
 is_a: UBERON:0035553 ! left cardiac chamber
 intersection_of: UBERON:0002082 ! cardiac ventricle
 intersection_of: in_left_side_of UBERON:0000948 ! heart
+relationship: connected_to UBERON:0004537 ! blood vasculature
 relationship: continuous_with UBERON:0000947 ! aorta
 relationship: develops_from UBERON:0004140 ! primary heart field
 
@@ -13266,7 +13432,7 @@ def: "The sensory system subserving the sense of vision." []
 synonym: "photosensory system" EXACT []
 synonym: "visual organ system" EXACT []
 is_a: UBERON:0001032 ! sensory system
-relationship: capable_of GO:0007601
+relationship: capable_of_part_of GO:0007601
 
 [Term]
 id: UBERON:0002105
@@ -13278,6 +13444,7 @@ synonym: "auditory/vestibular system" RELATED []
 synonym: "vestibuloauditory system" EXACT []
 synonym: "vestibuloauditory system" RELATED []
 is_a: UBERON:0001032 ! sensory system
+relationship: capable_of_part_of GO:0007605
 
 [Term]
 id: UBERON:0002106
@@ -13353,19 +13520,20 @@ relationship: part_of UBERON:0000004 ! nose
 
 [Term]
 id: UBERON:0002110
-name: gall bladder
+name: gallbladder
 def: "An organ that aids digestion and stores bile produced by the liver[WP]." []
+synonym: "cholecyst" EXACT []
 synonym: "gall bladder" EXACT []
-synonym: "gallbladder" EXACT []
 synonym: "vesica biliaris" RELATED []
 synonym: "vesica fellea" RELATED []
 is_a: UBERON:0017672 ! abdominal viscera
 is_a: UBERON:0018707 ! bladder organ
 relationship: contributes_to_morphology_of UBERON:0001173 ! biliary tree
 relationship: develops_from UBERON:0004912 ! biliary bud
-relationship: develops_from UBERON:0006242 ! gall bladder primordium
+relationship: develops_from UBERON:0006242 ! gallbladder primordium
 relationship: located_in UBERON:0002323 ! coelemic cavity lumen
 relationship: part_of UBERON:0000916 ! abdomen
+relationship: part_of UBERON:0002294 ! biliary system
 relationship: part_of UBERON:0002423 ! hepatobiliary system
 
 [Term]
@@ -13705,12 +13873,14 @@ synonym: "locus cinereus" RELATED []
 synonym: "locus coeruleu" EXACT []
 synonym: "locus coeruleus" EXACT []
 synonym: "locus coeruleus (Vicq d'Azyr)" RELATED []
+synonym: "Noradrenergic cell group A6" EXACT []
 synonym: "nucleus caeruleus" EXACT []
 synonym: "nucleus loci caerulei" RELATED []
 synonym: "nucleus of locus caeruleus" EXACT []
 synonym: "nucleus pigmentosus pontis" EXACT []
 synonym: "substantia ferruginea" EXACT []
 is_a: UBERON:0002308 ! nucleus of brain
+is_a: UBERON:8440015 ! noradrenergic cell groups
 relationship: capable_of GO:0048243
 relationship: part_of UBERON:0003023 ! pontine tegmentum
 
@@ -14099,6 +14269,7 @@ disjoint_from: UBERON:0002405 ! immune system
 disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: capable_of_part_of GO:0040011
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: has_developmental_contribution_from UBERON:0000926 ! mesoderm
@@ -14629,6 +14800,7 @@ disjoint_from: UBERON:0002405 ! immune system
 disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: part_of UBERON:0002423 ! hepatobiliary system
 
 [Term]
@@ -14930,6 +15102,7 @@ def: "A flexible rod-shaped body found in embryos of all chordates. It is compos
 synonym: "embryonic notocord" EXACT []
 synonym: "notochorda" RELATED []
 synonym: "notocord" EXACT []
+is_a: UBERON:0000062 ! organ
 is_a: UBERON:0000481 ! multi-tissue structure
 relationship: develops_from UBERON:0004880 ! chordamesoderm
 relationship: develops_from UBERON:0006267 ! notochordal plate
@@ -14968,6 +15141,7 @@ disjoint_from: UBERON:0002405 ! immune system
 disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: composed_primarily_of UBERON:0002365 ! exocrine gland
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: only_in_taxon NCBITaxon:6072
@@ -14995,6 +15169,7 @@ synonym: "main pulmonary artery" RELATED []
 synonym: "pulmonary artery (trunk)" EXACT []
 synonym: "trunk of pulmonary arterial tree" EXACT []
 is_a: UBERON:0001637 ! artery
+relationship: connected_to UBERON:0002080 ! heart right ventricle
 relationship: continuous_with UBERON:0000948 ! heart
 relationship: continuous_with UBERON:0002080 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! heart right ventricle
 relationship: part_of UBERON:0008886 ! pulmonary vascular system
@@ -15131,6 +15306,16 @@ synonym: "set of muscles of abdomen" EXACT []
 is_a: UBERON:0001015 ! musculature
 intersection_of: UBERON:0001015 ! musculature
 intersection_of: part_of UBERON:0000916 ! abdomen
+
+[Term]
+id: UBERON:0002345
+name: descending thoracic aorta
+def: "The part of the aorta that extends from the arch of the aorta to the diaphragm, and from which arises numerous branches that supply oxygenated blood to the chest cage and the organs within the chest." []
+is_a: UBERON:0013522 ! subdivision of tube
+relationship: contributes_to_morphology_of UBERON:0001514 ! descending aorta
+relationship: contributes_to_morphology_of UBERON:0001515 ! thoracic aorta
+relationship: part_of UBERON:0001514 ! descending aorta
+relationship: part_of UBERON:0001515 ! thoracic aorta
 
 [Term]
 id: UBERON:0002346
@@ -15724,6 +15909,7 @@ disjoint_from: UBERON:0002405 ! immune system
 disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: develops_from UBERON:0003061 ! blood island
 relationship: only_in_taxon NCBITaxon:7711
 relationship: part_of UBERON:0002193 ! hemolymphoid system
@@ -15863,6 +16049,7 @@ is_a: UBERON:0000467 ! anatomical system
 disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: capable_of GO:0002376
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: protects UBERON:0000468 ! multicellular organism
@@ -15990,6 +16177,7 @@ synonym: "surface" RELATED []
 is_a: UBERON:0000467 ! anatomical system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: bounding_layer_of UBERON:0000468 ! multicellular organism
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: has_part UBERON:0007376 ! outer epithelium
@@ -16093,6 +16281,7 @@ synonym: "liver and biliary system" EXACT []
 synonym: "liver/biliary system" RELATED []
 is_a: UBERON:0011216 ! organ system subdivision
 disjoint_from: UBERON:0004456 ! entire sense organ system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: capable_of GO:0061007
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: has_part UBERON:0002107 ! liver
@@ -18522,7 +18711,7 @@ synonym: "trigeminal placode" EXACT []
 synonym: "trigeminal placodes" RELATED []
 synonym: "trigeminal V placode" EXACT []
 is_a: UBERON:0003067 ! dorsolateral placode
-relationship: has_potential_to_developmentally_contribute_to UBERON:0003942 ! somatic sensory system
+relationship: has_potential_to_developmentally_contribute_to UBERON:0003942 ! somatosensory system
 
 [Term]
 id: UBERON:0003071
@@ -19142,7 +19331,7 @@ synonym: "sex organ" EXACT []
 is_a: UBERON:0000062 ! organ
 is_a: UBERON:0005156 ! reproductive structure
 intersection_of: UBERON:0000062 ! organ
-intersection_of: capable_of GO:0000003
+intersection_of: capable_of_part_of GO:0000003
 relationship: part_of UBERON:0000990 ! reproductive system
 
 [Term]
@@ -19282,7 +19471,7 @@ is_a: UBERON:0000064 ! organ part
 [Term]
 id: UBERON:0003216
 name: hard palate
-def: "Anterior portion of the palate consisting of bone and mucous membranes[GO]. The hard palate is formed from bony processes of the maxilla, premaxilla and palatine[Kardong]." []
+def: "Anterior portion of the palate consisting of bone and mucous membranes [GO]. The hard palate is formed from bony processes of the maxilla, premaxilla and palatine bone [Kardong]." []
 synonym: "hard palate" EXACT []
 synonym: "palatum durum" EXACT []
 is_a: UBERON:0000477 ! anatomical cluster
@@ -23993,7 +24182,21 @@ synonym: "innominate veins" RELATED []
 synonym: "vena brachiocephalica" RELATED []
 synonym: "venae anonyma" RELATED []
 is_a: UBERON:0001638 ! vein
+relationship: connected_to UBERON:0001585 ! anterior vena cava
 relationship: part_of UBERON:0007204 ! brachiocephalic vasculature
+
+[Term]
+id: UBERON:0003712
+name: cavernous sinus
+def: "The cavernous sinus (or lateral sellar compartment), within the human head, is a large collection of thin-walled veins creating a cavity bordered by the temporal bone of the skull and the sphenoid bone, lateral to the sella turcica." []
+synonym: "cavernous" RELATED []
+synonym: "cavernous sinus syndrome" RELATED []
+synonym: "cavernous sinuses" RELATED []
+synonym: "cavernus sinus vein" RELATED []
+synonym: "parasellar syndrome" RELATED []
+synonym: "sinus cavernosus" RELATED []
+is_a: UBERON:0005486 ! venous dural sinus
+relationship: connected_to UBERON:0007160 ! inferior petrosal sinus
 
 [Term]
 id: UBERON:0003713
@@ -24003,6 +24206,7 @@ synonym: "lienal vein" RELATED []
 synonym: "vena lienalis" RELATED []
 synonym: "vena splenica" EXACT []
 is_a: UBERON:0001638 ! vein
+relationship: connected_to UBERON:0001639 ! hepatic portal vein
 
 [Term]
 id: UBERON:0003714
@@ -25257,15 +25461,13 @@ intersection_of: part_of UBERON:0000990 ! reproductive system
 
 [Term]
 id: UBERON:0003942
-name: somatic sensory system
+name: somatosensory system
 def: "The sensory system for the sense of touch and pain." []
 synonym: "somatic sensory system" EXACT []
-synonym: "somatosensory system" EXACT []
 synonym: "system for detection of somatic senses" EXACT []
 is_a: UBERON:0001032 ! sensory system
-intersection_of: UBERON:0001032 ! sensory system
-intersection_of: part_of UBERON:0000012 ! somatic nervous system
-relationship: contributes_to_morphology_of UBERON:0000012 ! somatic nervous system
+relationship: capable_of_part_of GO:0019233
+relationship: capable_of_part_of GO:0050975
 
 [Term]
 id: UBERON:0003946
@@ -26433,6 +26635,7 @@ synonym: "external genitalia" EXACT []
 synonym: "external reproductive organ" RELATED []
 synonym: "external sex organ" RELATED []
 is_a: UBERON:0003133 ! reproductive organ
+relationship: part_of UBERON:0000990 ! reproductive system
 
 [Term]
 id: UBERON:0004177
@@ -26843,6 +27046,7 @@ synonym: "renal glomerulus capillary vessel" EXACT []
 is_a: UBERON:0001982 ! capillary
 intersection_of: UBERON:0001982 ! capillary
 intersection_of: part_of UBERON:0000074 ! renal glomerulus
+relationship: connected_to UBERON:0004639 ! renal afferent arteriole
 relationship: contributes_to_morphology_of UBERON:0000074 ! renal glomerulus
 relationship: part_of UBERON:0004190 ! renal glomerulus vasculature
 
@@ -27286,15 +27490,15 @@ relationship: part_of UBERON:0001168 ! wall of small intestine
 
 [Term]
 id: UBERON:0004240
-name: gall bladder smooth muscle
+name: gallbladder smooth muscle
 def: "A portion of smooth muscle tissue that is part of a gallbladder [Automatically generated definition]." []
 synonym: "biliary smooth muscle" RELATED []
 synonym: "gall bladder involuntary muscle" EXACT []
 synonym: "gall bladder non-striated muscle" EXACT []
+synonym: "gall bladder smooth muscle" EXACT []
 synonym: "gall bladder smooth muscle tissue" EXACT []
 synonym: "gallbladder involuntary muscle" EXACT []
 synonym: "gallbladder non-striated muscle" EXACT []
-synonym: "gallbladder smooth muscle" EXACT []
 synonym: "gallbladder smooth muscle tissue" EXACT []
 synonym: "involuntary muscle of gall bladder" EXACT []
 synonym: "involuntary muscle of gallbladder" EXACT []
@@ -27306,7 +27510,7 @@ synonym: "smooth muscle tissue of gall bladder" EXACT []
 synonym: "smooth muscle tissue of gallbladder" EXACT []
 is_a: UBERON:0001135 ! smooth muscle tissue
 intersection_of: UBERON:0001135 ! smooth muscle tissue
-intersection_of: part_of UBERON:0002110 ! gall bladder
+intersection_of: part_of UBERON:0002110 ! gallbladder
 
 [Term]
 id: UBERON:0004242
@@ -28540,6 +28744,7 @@ name: entire sense organ system
 def: "Sum of all sensory systems in an organism." []
 synonym: "sense organ system" EXACT []
 is_a: UBERON:0000467 ! anatomical system
+disjoint_from: UBERON:8450002 ! excretory system
 relationship: existence_ends_during UBERON:0000066 ! fully formed stage
 relationship: overlaps UBERON:0001016 ! nervous system
 
@@ -29244,6 +29449,24 @@ intersection_of: UBERON:0001986 ! endothelium
 intersection_of: part_of UBERON:0001981 ! blood vessel
 
 [Term]
+id: UBERON:0004639
+name: renal afferent arteriole
+def: "The blood vessels that branch from the kidney interlobular artery, convey blood to the glomerular capillaries, and play an important role in the regulation of blood pressure as a part of the tubuloglomerular feedback mechanism." []
+synonym: "afferent arteriole" EXACT []
+synonym: "afferent glomerular arteriole" EXACT []
+synonym: "afferent glomerular arteriole of kidney" EXACT []
+synonym: "arteriola glomerularis afferens" RELATED []
+synonym: "arteriola glomerularis afferens renis" EXACT []
+synonym: "kidney afferent arteriole" EXACT []
+is_a: UBERON:0001637 ! artery
+is_a: UBERON:0001980 ! arteriole
+relationship: branching_part_of UBERON:0004723 ! interlobular artery
+relationship: capable_of GO:0003093
+relationship: contributes_to_morphology_of UBERON:0001229 ! renal corpuscle
+relationship: part_of UBERON:0001229 ! renal corpuscle
+relationship: supplies UBERON:0001285 ! nephron
+
+[Term]
 id: UBERON:0004641
 name: spleen capsule
 def: "The connective tissue that surrounds the spleen." []
@@ -29529,6 +29752,7 @@ synonym: "costocervical trunk" EXACT []
 synonym: "truncus costocervicalis" RELATED []
 synonym: "trunk of costocervical artery" EXACT []
 is_a: UBERON:0001637 ! artery
+relationship: connected_to UBERON:0001533 ! subclavian artery
 
 [Term]
 id: UBERON:0004692
@@ -29739,6 +29963,7 @@ synonym: "jugular" RELATED []
 synonym: "vena jugularis" RELATED []
 is_a: UBERON:0001638 ! vein
 relationship: drains UBERON:0000033 ! head
+relationship: part_of UBERON:0000974 {gci_filler="NCBITaxon:40674", gci_relation="in_taxon"} ! neck
 
 [Term]
 id: UBERON:0004716
@@ -29751,6 +29976,21 @@ relationship: existence_ends_with UBERON:0000068 ! embryo stage
 relationship: existence_starts_with UBERON:0000068 ! embryo stage
 relationship: has_part UBERON:0002050 ! embryonic structure
 relationship: has_part UBERON:0016887 ! entire extraembryonic component
+
+[Term]
+id: UBERON:0004723
+name: interlobular artery
+def: "The branches of the arcuate arteries of the kidney that radiate outward throught the renal columns and supply the glomeruli[MP]. The first set of renal bloodvessels, the interlobular arteries (or cortical radiate arteries, or cortical radial arteries), are given off at right angles from the side of the arcuate arteries looking toward the cortical substance, and pass directly outward between the medullary rays to reach the fibrous tunic, where they end in the capillary network of this part. These vessels do not anastomose with each other, but form what are called end-arteries. In their outward course they give off lateral branches; these are the afferent vessels for the renal corpuscles; they enter the capsule, and end in the glomerulus. From each tuft the corresponding efferent vessel arises, and, having made its egress from the capsule near to the point where the afferent vessel enters, breaks up into a number of branches, which form a dense plexus within Bowman's capsule." []
+synonym: "arteriae corticales radiatae" RELATED []
+synonym: "arteriae interlobulares renis" RELATED []
+synonym: "cortical radial arteries" RELATED []
+synonym: "interlobular" RELATED []
+synonym: "interlobular renal artery" EXACT []
+synonym: "kidney interlobular artery" EXACT []
+synonym: "renal interlobular artery" RELATED []
+is_a: UBERON:0003644 ! kidney arterial blood vessel
+disjoint_from: UBERON:0009885 ! interlobar artery
+relationship: connected_to UBERON:0001552 ! kidney arcuate artery
 
 [Term]
 id: UBERON:0004725
@@ -30214,11 +30454,11 @@ relationship: part_of UBERON:0004786 ! gastrointestinal system mucosa
 
 [Term]
 id: UBERON:0004781
-name: gall bladder lamina propria
+name: gallbladder lamina propria
 def: "A lamina propria that is part of a gallbladder [Automatically generated definition]." []
 synonym: "biliary lamina propria" RELATED []
+synonym: "gall bladder lamina propria" EXACT []
 synonym: "gall bladder lamina propria mucosa" EXACT []
-synonym: "gallbladder lamina propria" EXACT []
 synonym: "gallbladder lamina propria mucosa" EXACT []
 synonym: "lamina propria mucosa of gall bladder" EXACT []
 synonym: "lamina propria mucosa of gallbladder" EXACT []
@@ -30226,7 +30466,7 @@ synonym: "lamina propria of gall bladder" EXACT []
 synonym: "lamina propria of gallbladder" EXACT []
 is_a: UBERON:0000030 ! lamina propria
 intersection_of: UBERON:0000030 ! lamina propria
-intersection_of: part_of UBERON:0002110 ! gall bladder
+intersection_of: part_of UBERON:0002110 ! gallbladder
 relationship: part_of UBERON:0005033 ! mucosa of gallbladder
 
 [Term]
@@ -30247,11 +30487,11 @@ relationship: part_of UBERON:0005409 ! alimentary part of gastrointestinal syste
 
 [Term]
 id: UBERON:0004783
-name: gall bladder serosa
+name: gallbladder serosa
 def: "A serous membrane that is part of a gallbladder [Automatically generated definition]." []
 synonym: "biliary serosa" RELATED []
+synonym: "gall bladder serosa" EXACT []
 synonym: "gall bladder serous membrane" EXACT []
-synonym: "gallbladder serosa" EXACT []
 synonym: "gallbladder serous membrane" EXACT []
 synonym: "serosa of gall bladder" EXACT []
 synonym: "serosa of gallbladder" EXACT []
@@ -30262,7 +30502,7 @@ synonym: "tunica serosa (vesica biliaris)" EXACT []
 synonym: "tunica serosa vesicae biliaris" EXACT []
 is_a: UBERON:0000042 ! serous membrane
 intersection_of: UBERON:0000042 ! serous membrane
-intersection_of: part_of UBERON:0002110 ! gall bladder
+intersection_of: part_of UBERON:0002110 ! gallbladder
 
 [Term]
 id: UBERON:0004784
@@ -32467,7 +32707,7 @@ synonym: "tunica mucosa (vesica biliaris)" EXACT []
 synonym: "tunica mucosa vesicae biliaris" EXACT []
 is_a: UBERON:0000344 ! mucosa
 intersection_of: UBERON:0000344 ! mucosa
-intersection_of: part_of UBERON:0002110 ! gall bladder
+intersection_of: part_of UBERON:0002110 ! gallbladder
 
 [Term]
 id: UBERON:0005037
@@ -35222,6 +35462,15 @@ relationship: only_in_taxon NCBITaxon:8287
 relationship: part_of UBERON:0000974 ! neck
 
 [Term]
+id: UBERON:0005436
+name: common hepatic artery
+def: "In anatomy, the common hepatic artery is a short blood vessel that supplies oxygenated blood to the liver, pylorus (a part of the stomach), duodenum (a part of the small intestine) and pancreas. It arises from the celiac artery and has the following branches:." []
+synonym: "arteria hepatica communis" RELATED []
+synonym: "common hepatic" RELATED []
+is_a: UBERON:0004573 ! systemic artery
+relationship: branching_part_of UBERON:0001640 ! celiac artery
+
+[Term]
 id: UBERON:0005445
 name: segment of pes
 def: "A segment of autopod that is part of a pes." []
@@ -35423,6 +35672,23 @@ is_a: UBERON:0011741 ! cardiac valve leaflet
 intersection_of: UBERON:0011741 ! cardiac valve leaflet
 intersection_of: part_of UBERON:0002134 ! tricuspid valve
 relationship: attached_to UBERON:0014851 ! chorda tendinea of left ventricle
+
+[Term]
+id: UBERON:0005486
+name: venous dural sinus
+def: "A venous channel found between layers of dura mater in the brain. Receives blood from internal and external veins of the brain, receive cerebrospinal fluid (CSF) from the subarachnoid space, and ultimately empty into the internal jugular vein." []
+synonym: "cranial dural venous sinus" EXACT []
+synonym: "dural sinus" EXACT []
+synonym: "dural vein" EXACT []
+synonym: "dural venous sinus" EXACT []
+synonym: "s. durae matris" RELATED []
+synonym: "venous dural" EXACT []
+synonym: "venous dural sinus" EXACT []
+is_a: UBERON:0006615 ! venous sinus
+intersection_of: UBERON:0006615 ! venous sinus
+intersection_of: located_in UBERON:0002363 ! dura mater
+relationship: part_of UBERON:0003711 ! brachiocephalic vein
+relationship: part_of UBERON:0010743 ! meningeal cluster
 
 [Term]
 id: UBERON:0005487
@@ -38029,15 +38295,15 @@ relationship: part_of UBERON:0001017 ! central nervous system
 
 [Term]
 id: UBERON:0006242
-name: gall bladder primordium
+name: gallbladder primordium
 def: "A sac-like cavity ventral to the liver, lying in the sub-mesodermal space and closed by a thin sheet of ectodermal cells, from which the future gall bladder develops." []
+synonym: "gall bladder primordium" EXACT []
 is_a: UBERON:0001048 ! primordium
 is_a: UBERON:0006598 ! presumptive structure
 intersection_of: UBERON:0001048 ! primordium
-intersection_of: has_potential_to_develop_into UBERON:0002110 ! gall bladder
+intersection_of: has_potential_to_develop_into UBERON:0002110 ! gallbladder
 relationship: develops_from UBERON:0001152 ! cystic duct
 relationship: part_of UBERON:0000922 ! embryo
-relationship: part_of UBERON:0001173 ! biliary tree
 relationship: part_of UBERON:0004912 ! biliary bud
 
 [Term]
@@ -38855,6 +39121,13 @@ relationship: connects UBERON:0004742 ! dentary
 relationship: part_of UBERON:0001710 ! lower jaw region
 
 [Term]
+id: UBERON:0006615
+name: venous sinus
+def: "A large vein or channel for the circulation of venous blood." []
+synonym: "blood sinus" RELATED []
+is_a: UBERON:0003920 ! venous blood vessel
+
+[Term]
 id: UBERON:0006616
 name: right external ear
 def: "An external ear that is in the right side of a multicellular organism." []
@@ -39431,6 +39704,17 @@ intersection_of: UBERON:0013522 ! subdivision of tube
 intersection_of: site_of GO:0009790
 relationship: only_in_taxon NCBITaxon:33208
 relationship: part_of UBERON:0000474 ! female reproductive system
+
+[Term]
+id: UBERON:0006841
+name: central vein of liver
+def: "Vein that is central to a lobule in the liver." []
+synonym: "central vein" BROAD []
+synonym: "terminal branch of hepatic vein" EXACT []
+synonym: "terminal hepatic venule" EXACT []
+synonym: "vena centralis (hepar)" EXACT []
+is_a: UBERON:0001638 ! vein
+relationship: part_of UBERON:0004647 ! liver lobule
 
 [Term]
 id: UBERON:0006843
@@ -40351,6 +40635,14 @@ intersection_of: luminal_space_of UBERON:0001155 ! colon
 relationship: part_of UBERON:0001155 ! colon
 
 [Term]
+id: UBERON:0007160
+name: inferior petrosal sinus
+def: "The inferior petrosal sinus, within the human head, is an area beneath the brain, which allows blood veins to span the area, from the center of the head downward. It drains from the cavernous sinus (beneath the brain) to the sigmoid sinuses above the internal jugular vein." []
+synonym: "sinus petrosal inferior" EXACT []
+is_a: UBERON:0017635 ! paired venous dural sinus
+relationship: connected_to UBERON:0001586 ! internal jugular vein
+
+[Term]
 id: UBERON:0007171
 name: border of scapula
 synonym: "scapular border" EXACT []
@@ -40981,6 +41273,14 @@ is_a: UBERON:0005777 ! glomerular basement membrane
 intersection_of: UBERON:0005777 ! glomerular basement membrane
 intersection_of: part_of UBERON:0002120 ! pronephros
 relationship: part_of UBERON:0004739 ! pronephric glomerulus
+
+[Term]
+id: UBERON:0007318
+name: saphenous vein
+def: "Either of two main superficial veins of the leg, one larger than the other, that begin at the foot." []
+is_a: UBERON:0004261 ! lower leg blood vessel
+is_a: UBERON:0035550 ! superficial vein
+relationship: part_of UBERON:0003823 ! hindlimb zeugopod
 
 [Term]
 id: UBERON:0007324
@@ -42366,6 +42666,9 @@ synonym: "arcus venosus dorsalis pedis" EXACT []
 synonym: "arcus venosus dorsalis pedis" RELATED []
 synonym: "dorsal venous arch of foot" EXACT []
 is_a: UBERON:0001638 ! vein
+relationship: connected_to UBERON:0001545 ! anterior tibial vein
+relationship: connected_to UBERON:0001547 ! small saphenous vein
+relationship: connected_to UBERON:0001550 ! medial marginal vein
 
 [Term]
 id: UBERON:0008784
@@ -42440,6 +42743,7 @@ is_a: UBERON:0003133 ! reproductive organ
 relationship: capable_of_part_of GO:0007620
 relationship: only_in_taxon NCBITaxon:6072
 relationship: part_of UBERON:0000079 ! male reproductive system
+relationship: part_of UBERON:0000990 ! reproductive system
 
 [Term]
 id: UBERON:0008814
@@ -44680,6 +44984,7 @@ synonym: "venae interlobares renis" RELATED []
 is_a: UBERON:0001638 ! vein
 intersection_of: UBERON:0001638 ! vein
 intersection_of: drains UBERON:0009913 ! renal lobe
+relationship: connected_to UBERON:0001140 ! renal vein
 
 [Term]
 id: UBERON:0009889
@@ -45620,6 +45925,16 @@ intersection_of: supplies UBERON:0000991 ! gonad
 relationship: branching_part_of UBERON:0001516 ! abdominal aorta
 
 [Term]
+id: UBERON:0010194
+name: hepatic portal system
+def: "A portal system that begins in capillaries in the wall of the digestive tract and and runs as the hepatic portal vein to the liver." []
+synonym: "hepatic-portal system" EXACT []
+synonym: "portal system of liver" EXACT []
+is_a: UBERON:0005806 ! portal system
+relationship: connects UBERON:0001555 ! digestive tract
+relationship: connects UBERON:0002107 ! liver
+
+[Term]
 id: UBERON:0010199
 name: bona-fide anatomical boundary
 def: "An anatomical boundary that corresponds to some physical discontinuity." []
@@ -46391,6 +46706,15 @@ intersection_of: part_of UBERON:0002048 ! lung
 relationship: has_part UBERON:0002187 ! terminal bronchiole
 
 [Term]
+id: UBERON:0010370
+name: tibial vein
+def: "One of the veins of the lower leg; empty into the popliteal vein." []
+synonym: "vena tibialis" EXACT []
+is_a: UBERON:0001638 ! vein
+is_a: UBERON:0003503 ! leg blood vessel
+relationship: part_of UBERON:0000978 ! leg
+
+[Term]
 id: UBERON:0010371
 name: ecto-epithelium
 def: "Epithelium composed of cells that develops from the ectoderm[FMA,modified]." []
@@ -46561,6 +46885,7 @@ synonym: "trabecular vein" RELATED []
 is_a: UBERON:0001638 ! vein
 intersection_of: UBERON:0001638 ! vein
 intersection_of: part_of UBERON:0001265 ! trabecula of spleen
+relationship: connected_to UBERON:0003713 ! splenic vein
 relationship: contributes_to_morphology_of UBERON:0002106 ! spleen
 
 [Term]
@@ -48106,6 +48431,25 @@ intersection_of: UBERON:0000030 ! lamina propria
 intersection_of: part_of UBERON:0000059 ! large intestine
 relationship: part_of UBERON:0001169 ! wall of large intestine
 relationship: part_of UBERON:0001207 ! mucosa of large intestine
+
+[Term]
+id: UBERON:0011191
+name: ophthalmic vein
+def: "Ophthalmic veins are veins which drain the eye. More specifically, they can refer to: Superior ophthalmic vein Inferior ophthalmic vein." []
+synonym: "opthalmic vein" EXACT []
+synonym: "vena ophthalmica" RELATED []
+is_a: UBERON:0009141 ! craniocervical region vein
+
+[Term]
+id: UBERON:0011192
+name: superior ophthalmic vein
+def: "The superior ophthalmic vein begins at the inner angle of the orbit in a vein named the nasofrontal which communicates anteriorly with the angular vein; it pursues the same course as the ophthalmic artery, and receives tributaries corresponding to the branches of that vessel. Forming a short single trunk, it passes between the two heads of the Rectus lateralis and through the medial part of the superior orbital fissure, and ends in the cavernous sinus. The ethmoidal veins drain into the superior ophthalmic vein. Vorticose veins also drain into the superior ophthalmic vein." []
+synonym: "anterior ethmoidal vein" RELATED []
+synonym: "posterior ethmoidal vein" RELATED []
+synonym: "superior ophthalmic" RELATED []
+synonym: "superior opthalmic vein" RELATED []
+is_a: UBERON:0011191 ! ophthalmic vein
+relationship: connected_to UBERON:0003712 ! cavernous sinus
 
 [Term]
 id: UBERON:0011197
@@ -49925,6 +50269,19 @@ intersection_of: UBERON:0012320 ! cervical artery
 intersection_of: part_of UBERON:0035551 ! deep vasculature
 relationship: branching_part_of UBERON:0004688 ! costo-cervical trunk
 relationship: part_of UBERON:0000974 ! neck
+
+[Term]
+id: UBERON:0012324
+name: transverse cervical artery
+def: "The transverse cervical artery (transverse artery of neck, transversa colli artery) is a branch of the thyrocervical trunk, running at a higher level than the suprascapular artery." []
+synonym: "cervical artery" RELATED []
+synonym: "cervical transverse artery" RELATED []
+synonym: "descending branch of the transverse cervical" RELATED []
+synonym: "transversalis artery colli" RELATED []
+synonym: "transversalis colli artery" RELATED []
+synonym: "transverse cervical" RELATED []
+synonym: "transverse cervical vessels" RELATED []
+is_a: UBERON:0012320 ! cervical artery
 
 [Term]
 id: UBERON:0012329
@@ -53116,6 +53473,15 @@ intersection_of: UBERON:0003916 ! fat pad
 intersection_of: part_of UBERON:0009472 ! axilla
 
 [Term]
+id: UBERON:0015480
+name: proper hepatic artery
+def: "The hepatic artery proper (also proper hepatic artery), arises from the common hepatic artery and runs alongside the portal vein and the common bile duct to form the portal triad. The hepatic artery proper gives off a small supraduodenal artery to the duodenal bulb. Then the right gastric artery comes off and runs to the left along the lesser curvature of the stomach to meet the left gastric artery, which is a branch of the celiac trunk. It subsequently gives off the cystic artery, which feeds the gallbladder, before bifurcating into the right and left hepatic arteries. Of note, the right and left hepatic arteries may demonstrate variant anatomy. A replaced right hepatic artery may arise from the superior mesenteric artery (SMA) and a replaced left hepatic artery may arise from the left gastric artery." []
+synonym: "hepatic artery proper" EXACT []
+synonym: "proper hepatic" RELATED []
+is_a: UBERON:0001193 ! hepatic artery
+relationship: branching_part_of UBERON:0005436 ! common hepatic artery
+
+[Term]
 id: UBERON:0015481
 name: left hepatic artery
 def: "A hepatic artery that is part of a left lobe of liver." []
@@ -53125,6 +53491,7 @@ synonym: "ramus sinister (arteria hepatica propria)" EXACT []
 is_a: UBERON:0001193 ! hepatic artery
 intersection_of: UBERON:0001193 ! hepatic artery
 intersection_of: part_of UBERON:0001115 ! left lobe of liver
+relationship: connected_to UBERON:0015480 ! proper hepatic artery
 relationship: part_of UBERON:0001115 ! left lobe of liver
 
 [Term]
@@ -53137,6 +53504,7 @@ synonym: "right part of hepatic artery proper" EXACT []
 is_a: UBERON:0001193 ! hepatic artery
 intersection_of: UBERON:0001193 ! hepatic artery
 intersection_of: part_of UBERON:0001114 ! right lobe of liver
+relationship: connected_to UBERON:0015480 ! proper hepatic artery
 relationship: part_of UBERON:0001114 ! right lobe of liver
 
 [Term]
@@ -53960,6 +54328,15 @@ intersection_of: part_of UBERON:0006860 ! swim bladder
 relationship: has_part UBERON:0013218 ! rete mirabile
 
 [Term]
+id: UBERON:0017635
+name: paired venous dural sinus
+synonym: "paired dural venous sinus" EXACT []
+is_a: UBERON:0005486 ! venous dural sinus
+is_a: UBERON:0015212 ! lateral structure
+intersection_of: UBERON:0005486 ! venous dural sinus
+intersection_of: in_lateral_side_of UBERON:0000033 ! head
+
+[Term]
 id: UBERON:0017648
 name: ventral body wall
 def: "The ventral part of the body wall." []
@@ -54345,6 +54722,7 @@ def: "Accompanying vein of internal pudendal artery." []
 synonym: "internal pudic vein" RELATED []
 synonym: "vena pudenda interna" EXACT []
 is_a: UBERON:0009029 ! pudendal vein
+relationship: connected_to UBERON:0001317 ! internal iliac vein
 
 [Term]
 id: UBERON:0018254
@@ -54360,6 +54738,7 @@ def: "A vein that drains a lacrimal gland." []
 is_a: UBERON:0001638 ! vein
 intersection_of: UBERON:0001638 ! vein
 intersection_of: drains UBERON:0001817 ! lacrimal gland
+relationship: connected_to UBERON:0011192 ! superior ophthalmic vein
 
 [Term]
 id: UBERON:0018257
@@ -55555,6 +55934,16 @@ intersection_of: UBERON:0004923 ! organ component layer
 intersection_of: composed_primarily_of UBERON:0001135 ! smooth muscle tissue
 
 [Term]
+id: UBERON:0034940
+name: venous sinus cavity
+def: "An enlarged chamber in the blood sinus capable of accumulating a large volume of blood." []
+synonym: "blood sinus cavity" EXACT []
+synonym: "blood sinus lumen" EXACT []
+is_a: UBERON:0010161 ! lumen of blood vessel
+intersection_of: UBERON:0000464 ! anatomical space
+intersection_of: luminal_space_of UBERON:0006615 ! venous sinus
+
+[Term]
 id: UBERON:0034944
 name: zone of organ
 synonym: "organ region with floating fiat boundary" RELATED []
@@ -55939,7 +56328,7 @@ synonym: "cervix of gallbladder" EXACT []
 synonym: "gallbladder neck" EXACT []
 is_a: UBERON:0001560 ! neck of organ
 intersection_of: UBERON:0001560 ! neck of organ
-intersection_of: part_of UBERON:0002110 ! gall bladder
+intersection_of: part_of UBERON:0002110 ! gallbladder
 
 [Term]
 id: UBERON:0035295
@@ -56031,6 +56420,7 @@ synonym: "vena suprarenalis (adrenalis) dextra" EXACT []
 is_a: UBERON:0001146 ! suprarenal vein
 intersection_of: UBERON:0001146 ! suprarenal vein
 intersection_of: in_right_side_of UBERON:0000468 ! multicellular organism
+relationship: connected_to UBERON:0001072 ! posterior vena cava
 
 [Term]
 id: UBERON:0035471
@@ -56059,6 +56449,7 @@ def: "A vein that drains blood from the left adrenal gland into the left renal a
 is_a: UBERON:0001146 ! suprarenal vein
 intersection_of: UBERON:0001146 ! suprarenal vein
 intersection_of: in_left_side_of UBERON:0000468 ! multicellular organism
+relationship: connected_to UBERON:0001142 ! left renal vein
 
 [Term]
 id: UBERON:0035523
@@ -56090,6 +56481,7 @@ is_a: UBERON:0004573 ! systemic artery
 intersection_of: UBERON:0001637 ! artery
 intersection_of: supplies UBERON:0001043 ! esophagus
 relationship: branching_part_of UBERON:0001515 ! thoracic aorta
+relationship: connected_to UBERON:0002345 ! descending thoracic aorta
 
 [Term]
 id: UBERON:0035545
@@ -56867,8 +57259,8 @@ name: wall of gallbladder
 synonym: "gallbladder wall" EXACT []
 is_a: UBERON:0000060 ! anatomical wall
 intersection_of: UBERON:0000060 ! anatomical wall
-intersection_of: part_of UBERON:0002110 ! gall bladder
-relationship: part_of UBERON:0002110 ! gall bladder
+intersection_of: part_of UBERON:0002110 ! gallbladder
+relationship: part_of UBERON:0002110 ! gallbladder
 
 [Term]
 id: UBERON:0036351
@@ -58079,6 +58471,15 @@ intersection_of: UBERON:0001681 ! nasal bone
 intersection_of: in_right_side_of UBERON:0000468 ! multicellular organism
 
 [Term]
+id: UBERON:7500107
+name: sphenovomerine suture
+def: "A suture joining a sphenoid bone with the alae of a vomer to form a schindylesis type of joint." []
+is_a: UBERON:0009199 ! facial suture
+intersection_of: UBERON:0009199 ! facial suture
+intersection_of: connects UBERON:0001677 ! sphenoid bone
+intersection_of: connects UBERON:0002396 ! vomer
+
+[Term]
 id: UBERON:8000006
 name: left side of back
 def: "Left part of the organism dorsal to a horizontal plane and bounded on one side by the same transverse plane." []
@@ -58412,6 +58813,15 @@ intersection_of: UBERON:0011148 ! submucosal gland
 intersection_of: part_of UBERON:0000065 ! respiratory tract
 
 [Term]
+id: UBERON:8410080
+name: red bone marrow of sternum
+def: "Red bone marrow located in the sternum." []
+synonym: "sternum red bone marrow" EXACT []
+is_a: UBERON:0000361 ! red bone marrow
+intersection_of: UBERON:0000361 ! red bone marrow
+intersection_of: part_of UBERON:0000975 ! sternum
+
+[Term]
 id: UBERON:8410081
 name: blood microvessel
 def: "Any of the smallest blood vessels where blood circulates within organ tissues. Microvessels include terminal arterioles, metarterioles, capillaries, and venules (but exclude lymphatic capillaries). Arterioles carry oxygenated blood to the capillaries, and blood flows out of the capillaries through venules into veins." []
@@ -58428,11 +58838,26 @@ is_a: UBERON:0011215 ! central nervous system cell part cluster
 relationship: part_of UBERON:0001950 ! neocortex
 
 [Term]
+id: UBERON:8440015
+name: noradrenergic cell groups
+def: "Collections of neurons in the central nervous system that have been demonstrated by histochemical fluorescence to contain the neurotransmitter norepinephrine (noradrenalin)." []
+is_a: UBERON:0002616 ! regional part of brain
+relationship: composed_primarily_of CL:0000459
+
+[Term]
 id: UBERON:8450001
 name: egg follicle
 def: "An individual reproductive unit containing a single oocyte and one or several layers of support cells (Armstrong et al., 2020)." []
 is_a: UBERON:0000064 ! organ part
 relationship: part_of UBERON:0000992 ! ovary
+
+[Term]
+id: UBERON:8450002
+name: excretory system
+def: "An anatomical system that eliminates waste products that arise as a result of metabolic activity." []
+is_a: UBERON:0000467 ! anatomical system
+intersection_of: UBERON:0000467 ! anatomical system
+intersection_of: capable_of GO:0046903
 
 [Term]
 id: UBERON:8470000
@@ -58441,6 +58866,81 @@ def: "Blood located in the placenta." []
 is_a: UBERON:0000178 ! blood
 intersection_of: UBERON:0000178 ! blood
 intersection_of: located_in UBERON:0001987 ! placenta
+
+[Term]
+id: UBERON:8480000
+name: iliac vein smooth muscle tissue
+def: "A portion of smooth muscle tissue that is part of an iliac vein." []
+is_a: UBERON:0004237 ! blood vessel smooth muscle
+intersection_of: UBERON:0001135 ! smooth muscle tissue
+intersection_of: part_of UBERON:0005610 ! iliac vein
+
+[Term]
+id: UBERON:8480001
+name: capillary of brain
+def: "A capillary that is part of the brain." []
+is_a: UBERON:0001982 ! capillary
+is_a: UBERON:0003499 ! brain blood vessel
+intersection_of: UBERON:0001982 ! capillary
+intersection_of: part_of UBERON:0000955 ! brain
+
+[Term]
+id: UBERON:8480002
+name: thoracic aorta smooth muscle tissue
+def: "A portion of smooth muscle tissue that is part of the thoracic aorta." []
+is_a: UBERON:0001135 ! smooth muscle tissue
+intersection_of: UBERON:0001135 ! smooth muscle tissue
+intersection_of: part_of UBERON:0001515 ! thoracic aorta
+
+[Term]
+id: UBERON:8480003
+name: iliac artery smooth muscle tissue
+def: "A portion of smooth muscle tissue that is part of an iliac artery." []
+is_a: UBERON:0002111 ! artery smooth muscle tissue
+intersection_of: UBERON:0001135 ! smooth muscle tissue
+intersection_of: part_of UBERON:0005609 ! iliac artery
+
+[Term]
+id: UBERON:8480004
+name: iliac vein endothelium
+def: "An endothelium that is part of an iliac vein." []
+is_a: UBERON:0001919 ! endothelium of vein
+intersection_of: UBERON:0001986 ! endothelium
+intersection_of: part_of UBERON:0005610 ! iliac vein
+
+[Term]
+id: UBERON:8480005
+name: placental artery endothelium
+def: "An endothelium that is part of the placental artery." []
+is_a: UBERON:0001917 ! endothelium of artery
+intersection_of: UBERON:0001986 ! endothelium
+intersection_of: part_of UBERON:8480007 ! placental artery
+
+[Term]
+id: UBERON:8480006
+name: mesenteric lymphatic vessel
+def: "Lymphatic vessel that is part of the mesentery." []
+is_a: UBERON:0001473 ! lymphatic vessel
+intersection_of: UBERON:0001473 ! lymphatic vessel
+intersection_of: part_of UBERON:0002095 ! mesentery
+
+[Term]
+id: UBERON:8480007
+name: placental artery
+def: "An artery that is part of the placenta." []
+is_a: UBERON:0001637 ! artery
+is_a: UBERON:0022358 ! placenta blood vessel
+intersection_of: UBERON:0001637 ! artery
+intersection_of: part_of UBERON:0001987 ! placenta
+
+[Term]
+id: UBERON:8480008
+name: placental vein
+def: "A vein that is part of the placenta." []
+is_a: UBERON:0001638 ! vein
+is_a: UBERON:0022358 ! placenta blood vessel
+intersection_of: UBERON:0001638 ! vein
+intersection_of: part_of UBERON:0001987 ! placenta
 
 [Typedef]
 id: adjacent_to
@@ -58779,7 +59279,6 @@ xref: RO:0002087
 id: immediately_superficial_to
 name: immediately superficial to
 xref: BSPO:0015014
-is_a: adjacent_to ! adjacent to
 
 [Typedef]
 id: in_anterior_side_of
