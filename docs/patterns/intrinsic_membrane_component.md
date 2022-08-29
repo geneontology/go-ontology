@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[intrinsic component of membrane](http://purl.obolibrary.org/obo/GO_0031224)  and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some `{membrane}`)
+[obsolete intrinsic component of membrane](http://purl.obolibrary.org/obo/GO_0031224)  and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some `{membrane}`)
 
 
 
@@ -41,11 +41,7 @@ TODO
 
 *See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/intrinsic_membrane_component.tsv)*
 
-| defined_class | defined_class_label | membrane | membrane_label |
-|:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_1990693](http://purl.obolibrary.org/obo/GO_1990693) | intrinsic component of Golgi cis cisterna membrane | [http://purl.obolibrary.org/obo/GO_1990674](http://purl.obolibrary.org/obo/GO_1990674) | Golgi cis cisterna membrane |
-| [http://purl.obolibrary.org/obo/GO_1990694](http://purl.obolibrary.org/obo/GO_1990694) | intrinsic component of Golgi medial cisterna membrane | [http://purl.obolibrary.org/obo/GO_1990675](http://purl.obolibrary.org/obo/GO_1990675) | Golgi medial cisterna membrane |
-| [http://purl.obolibrary.org/obo/GO_0031228](http://purl.obolibrary.org/obo/GO_0031228) | intrinsic component of Golgi membrane | [http://purl.obolibrary.org/obo/GO_0000139](http://purl.obolibrary.org/obo/GO_0000139) | Golgi membrane |
-| [http://purl.obolibrary.org/obo/GO_1990695](http://purl.obolibrary.org/obo/GO_1990695) | intrinsic component of Golgi trans cisterna membrane | [http://purl.obolibrary.org/obo/GO_1990676](http://purl.obolibrary.org/obo/GO_1990676) | Golgi trans cisterna membrane |
-| [http://purl.obolibrary.org/obo/GO_0097636](http://purl.obolibrary.org/obo/GO_0097636) | intrinsic component of autophagosome membrane | [http://purl.obolibrary.org/obo/GO_0000421](http://purl.obolibrary.org/obo/GO_0000421) | autophagosome membrane |
+|  |
+|
+
 

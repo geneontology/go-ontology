@@ -215,6 +215,7 @@ http://purl.obolibrary.org/obo/GO_0097290	alpha-ribazole biosynthetic process	ht
 http://purl.obolibrary.org/obo/GO_1901821	alpha-zeacarotene biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_35063	alpha-zeacarotene
 http://purl.obolibrary.org/obo/GO_0043604	amide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_32988	amide
 http://purl.obolibrary.org/obo/GO_0009309	amine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_32952	amine
+http://purl.obolibrary.org/obo/GO_0008652	amino acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_37022	amino-acid anion
 http://purl.obolibrary.org/obo/GO_0046349	amino sugar biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_28963	amino sugar
 http://purl.obolibrary.org/obo/GO_0006578	amino-acid betaine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_22860	amino-acid betaine
 http://purl.obolibrary.org/obo/GO_0006023	aminoglycan biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_22506	aminoglycan
@@ -304,7 +305,6 @@ http://purl.obolibrary.org/obo/GO_0016120	carotene biosynthetic process	http://p
 http://purl.obolibrary.org/obo/GO_0016117	carotenoid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_23044	carotenoid
 http://purl.obolibrary.org/obo/GO_0009713	catechol-containing compound biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_33566	catechols
 http://purl.obolibrary.org/obo/GO_0042423	catecholamine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_33567	catecholamine
-http://purl.obolibrary.org/obo/GO_0008652	cellular amino acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_37022	amino-acid anion
 http://purl.obolibrary.org/obo/GO_0042398	cellular modified amino acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_83821	amino acid derivative
 http://purl.obolibrary.org/obo/GO_0052703	cellular modified histidine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_24599	histidine derivative
 http://purl.obolibrary.org/obo/GO_0030244	cellulose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_18246	(1->4)-beta-D-glucan
@@ -353,7 +353,6 @@ http://purl.obolibrary.org/obo/GO_0033485	cyanidin 3-O-glucoside biosynthetic pr
 http://purl.obolibrary.org/obo/GO_0019756	cyanogenic glycoside biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_23436	cyanogenic glycoside
 http://purl.obolibrary.org/obo/GO_1901369	cyclic 2,3-bisphospho-D-glycerate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_79081	cyclic 2,3-bisphospho-D-glycerate(3-)
 http://purl.obolibrary.org/obo/GO_0009190	cyclic nucleotide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_23447	cyclic nucleotide
-http://purl.obolibrary.org/obo/GO_0052652	cyclic purine nucleotide metabolic process	http://purl.obolibrary.org/obo/CHEBI_36982	cyclic purine nucleotide
 http://purl.obolibrary.org/obo/GO_0033021	cyclopentanol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16133	cyclopentanol
 http://purl.obolibrary.org/obo/GO_0019344	cysteine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_35237	cysteine zwitterion
 http://purl.obolibrary.org/obo/GO_0046088	cytidine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17562	cytidine

@@ -1,6 +1,5 @@
 defined_class	defined_class_label	membrane	membrane_label
 http://purl.obolibrary.org/obo/GO_0090498	extrinsic component of Golgi membrane	http://purl.obolibrary.org/obo/GO_0000139	Golgi membrane
-http://purl.obolibrary.org/obo/GO_0097635	extrinsic component of autophagosome membrane	http://purl.obolibrary.org/obo/GO_0000421	autophagosome membrane
 http://purl.obolibrary.org/obo/GO_0031244	extrinsic component of cell outer membrane	http://purl.obolibrary.org/obo/GO_0009279	cell outer membrane
 http://purl.obolibrary.org/obo/GO_0031234	extrinsic component of cytoplasmic side of plasma membrane	http://purl.obolibrary.org/obo/GO_0009898	cytoplasmic side of plasma membrane
 http://purl.obolibrary.org/obo/GO_0098922	extrinsic component of dense core granule membrane	http://purl.obolibrary.org/obo/GO_0032127	dense core granule membrane
@@ -9,10 +8,8 @@ http://purl.obolibrary.org/obo/GO_0031313	extrinsic component of endosome membra
 http://purl.obolibrary.org/obo/GO_0031242	extrinsic component of external side of cell outer membrane	http://purl.obolibrary.org/obo/GO_0031240	external side of cell outer membrane
 http://purl.obolibrary.org/obo/GO_0036421	extrinsic component of external side of mycolate outer membrane	http://purl.obolibrary.org/obo/GO_0098568	external side of mycolate outer membrane
 http://purl.obolibrary.org/obo/GO_0031232	extrinsic component of external side of plasma membrane	http://purl.obolibrary.org/obo/GO_0009897	external side of plasma membrane
-http://purl.obolibrary.org/obo/GO_0097042	extrinsic component of fungal-type vacuolar membrane	http://purl.obolibrary.org/obo/GO_0000329	fungal-type vacuole membrane
 http://purl.obolibrary.org/obo/GO_0005780	extrinsic component of intraperoxisomal membrane	http://purl.obolibrary.org/obo/GO_0005778	peroxisomal membrane
 http://purl.obolibrary.org/obo/GO_0035450	extrinsic component of lumenal side of plastid thylakoid membrane	http://purl.obolibrary.org/obo/GO_0098570	stromal side of plastid inner membrane
-http://purl.obolibrary.org/obo/GO_0032419	extrinsic component of lysosome membrane	http://purl.obolibrary.org/obo/GO_0005765	lysosomal membrane
 http://purl.obolibrary.org/obo/GO_0099616	extrinsic component of matrix side of mitochondrial inner membrane	http://purl.obolibrary.org/obo/GO_0099617	matrix side of mitochondrial inner membrane
 http://purl.obolibrary.org/obo/GO_0031314	extrinsic component of mitochondrial inner membrane	http://purl.obolibrary.org/obo/GO_0005743	mitochondrial inner membrane
 http://purl.obolibrary.org/obo/GO_0031315	extrinsic component of mitochondrial outer membrane	http://purl.obolibrary.org/obo/GO_0005741	mitochondrial outer membrane
@@ -34,14 +31,11 @@ http://purl.obolibrary.org/obo/GO_0098999	extrinsic component of postsynaptic en
 http://purl.obolibrary.org/obo/GO_0098890	extrinsic component of postsynaptic membrane	http://purl.obolibrary.org/obo/GO_0045211	postsynaptic membrane
 http://purl.obolibrary.org/obo/GO_0099005	extrinsic component of postsynaptic recycling endosome membrane	http://purl.obolibrary.org/obo/GO_0098944	postsynaptic recycling endosome membrane
 http://purl.obolibrary.org/obo/GO_0098892	extrinsic component of postsynaptic specialization membrane	http://purl.obolibrary.org/obo/GO_0099634	postsynaptic specialization membrane
-http://purl.obolibrary.org/obo/GO_0099168	extrinsic component of postsynaptic specialization membrane of symmetric synapse	http://purl.obolibrary.org/obo/GO_0099164	postsynaptic specialization membrane of symmetric synapse
 http://purl.obolibrary.org/obo/GO_0098891	extrinsic component of presynaptic active zone membrane	http://purl.obolibrary.org/obo/GO_0048787	presynaptic active zone membrane
 http://purl.obolibrary.org/obo/GO_0098894	extrinsic component of presynaptic endocytic zone membrane	http://purl.obolibrary.org/obo/GO_0098835	presynaptic endocytic zone membrane
 http://purl.obolibrary.org/obo/GO_0099007	extrinsic component of presynaptic endosome membrane	http://purl.obolibrary.org/obo/GO_0098954	presynaptic endosome membrane
 http://purl.obolibrary.org/obo/GO_0098888	extrinsic component of presynaptic membrane	http://purl.obolibrary.org/obo/GO_0042734	presynaptic membrane
-http://purl.obolibrary.org/obo/GO_0098929	extrinsic component of spine apparatus membrane	http://purl.obolibrary.org/obo/GO_0098897	spine apparatus membrane
 http://purl.obolibrary.org/obo/GO_0035451	extrinsic component of stromal side of plastid thylakoid membrane	http://purl.obolibrary.org/obo/GO_0098572	stromal side of plastid thylakoid membrane
 http://purl.obolibrary.org/obo/GO_0099243	extrinsic component of synaptic membrane	http://purl.obolibrary.org/obo/GO_0097060	synaptic membrane
 http://purl.obolibrary.org/obo/GO_0098850	extrinsic component of synaptic vesicle membrane	http://purl.obolibrary.org/obo/GO_0030672	synaptic vesicle membrane
 http://purl.obolibrary.org/obo/GO_0035448	extrinsic component of thylakoid membrane	http://purl.obolibrary.org/obo/GO_0042651	thylakoid membrane
-http://purl.obolibrary.org/obo/GO_0000306	extrinsic component of vacuolar membrane	http://purl.obolibrary.org/obo/GO_0005774	vacuolar membrane

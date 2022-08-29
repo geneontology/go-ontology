@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[anchored component of membrane](http://purl.obolibrary.org/obo/GO_0031225)  and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some `{membrane}`)
+[obsolete anchored component of membrane](http://purl.obolibrary.org/obo/GO_0031225)  and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some `{membrane}`)
 
 
 
@@ -41,11 +41,7 @@ TODO
 
 *See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/anchored_membrane_component.tsv)*
 
-| defined_class | defined_class_label | membrane | membrane_label |
-|:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_0036405](http://purl.obolibrary.org/obo/GO_0036405) | anchored component of cell outer membrane | [http://purl.obolibrary.org/obo/GO_0009279](http://purl.obolibrary.org/obo/GO_0009279) | cell outer membrane |
-| [http://purl.obolibrary.org/obo/GO_0099036](http://purl.obolibrary.org/obo/GO_0099036) | anchored component of neuronal dense core vesicle membrane | [http://purl.obolibrary.org/obo/GO_0099012](http://purl.obolibrary.org/obo/GO_0099012) | neuronal dense core vesicle membrane |
-| [http://purl.obolibrary.org/obo/GO_0046658](http://purl.obolibrary.org/obo/GO_0046658) | anchored component of plasma membrane | [http://purl.obolibrary.org/obo/GO_0005886](http://purl.obolibrary.org/obo/GO_0005886) | plasma membrane |
-| [http://purl.obolibrary.org/obo/GO_0099031](http://purl.obolibrary.org/obo/GO_0099031) | anchored component of postsynaptic density membrane | [http://purl.obolibrary.org/obo/GO_0098839](http://purl.obolibrary.org/obo/GO_0098839) | postsynaptic density membrane |
-| [http://purl.obolibrary.org/obo/GO_0099032](http://purl.obolibrary.org/obo/GO_0099032) | anchored component of postsynaptic early endosome membrane | [http://purl.obolibrary.org/obo/GO_0098896](http://purl.obolibrary.org/obo/GO_0098896) | postsynaptic early endosome membrane |
+|  |
+|
+
 
