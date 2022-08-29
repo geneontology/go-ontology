@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[spanning component of membrane](http://purl.obolibrary.org/obo/GO_0089717)  and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some `{membrane}`)
+[obsolete spanning component of membrane](http://purl.obolibrary.org/obo/GO_0089717)  and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some `{membrane}`)
 
 
 
@@ -41,7 +41,7 @@ TODO
 
 *See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/membrane_spanning_component.tsv)*
 
-| defined_class | defined_class_label | membrane | membrane_label |
-|:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_0044214](http://purl.obolibrary.org/obo/GO_0044214) | spanning component of plasma membrane | [http://purl.obolibrary.org/obo/GO_0005886](http://purl.obolibrary.org/obo/GO_0005886) | plasma membrane |
+|  |
+|
+
 

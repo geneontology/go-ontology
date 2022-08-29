@@ -44,8 +44,8 @@ TODO
 | defined_class | defined_class_label | membrane | membrane_label |
 |:--|:--|:--|:--|
 | [http://purl.obolibrary.org/obo/GO_0090498](http://purl.obolibrary.org/obo/GO_0090498) | extrinsic component of Golgi membrane | [http://purl.obolibrary.org/obo/GO_0000139](http://purl.obolibrary.org/obo/GO_0000139) | Golgi membrane |
-| [http://purl.obolibrary.org/obo/GO_0097635](http://purl.obolibrary.org/obo/GO_0097635) | extrinsic component of autophagosome membrane | [http://purl.obolibrary.org/obo/GO_0000421](http://purl.obolibrary.org/obo/GO_0000421) | autophagosome membrane |
 | [http://purl.obolibrary.org/obo/GO_0031244](http://purl.obolibrary.org/obo/GO_0031244) | extrinsic component of cell outer membrane | [http://purl.obolibrary.org/obo/GO_0009279](http://purl.obolibrary.org/obo/GO_0009279) | cell outer membrane |
 | [http://purl.obolibrary.org/obo/GO_0031234](http://purl.obolibrary.org/obo/GO_0031234) | extrinsic component of cytoplasmic side of plasma membrane | [http://purl.obolibrary.org/obo/GO_0009898](http://purl.obolibrary.org/obo/GO_0009898) | cytoplasmic side of plasma membrane |
 | [http://purl.obolibrary.org/obo/GO_0098922](http://purl.obolibrary.org/obo/GO_0098922) | extrinsic component of dense core granule membrane | [http://purl.obolibrary.org/obo/GO_0032127](http://purl.obolibrary.org/obo/GO_0032127) | dense core granule membrane |
+| [http://purl.obolibrary.org/obo/GO_0042406](http://purl.obolibrary.org/obo/GO_0042406) | extrinsic component of endoplasmic reticulum membrane | [http://purl.obolibrary.org/obo/GO_0005789](http://purl.obolibrary.org/obo/GO_0005789) | endoplasmic reticulum membrane |
 

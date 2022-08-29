@@ -92,7 +92,7 @@ http://purl.obolibrary.org/obo/GO_0006858	extracellular transport	http://purl.ob
 http://purl.obolibrary.org/obo/GO_1904606	fat cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000136	fat cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0044346	fibroblast apoptotic process	http://purl.obolibrary.org/obo/CL_0000057	fibroblast	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0010451	floral meristem growth	http://purl.obolibrary.org/obo/PO_0000229	flower meristem	http://purl.obolibrary.org/obo/GO_0048589	developmental growth
-http://purl.obolibrary.org/obo/GO_0032529	follicle cell microvillus organization	http://purl.obolibrary.org/obo/CL_0000477	ovarian follicle cell	http://purl.obolibrary.org/obo/GO_0032528	microvillus organization
+http://purl.obolibrary.org/obo/GO_0032529	follicle cell microvillus organization	http://purl.obolibrary.org/obo/CL_0000477	follicle cell of egg chamber	http://purl.obolibrary.org/obo/GO_0032528	microvillus organization
 http://purl.obolibrary.org/obo/GO_0010160	formation of animal organ boundary	http://purl.obolibrary.org/obo/UBERON_0000062	organ	http://purl.obolibrary.org/obo/GO_0048859	formation of anatomical boundary
 http://purl.obolibrary.org/obo/GO_0090691	formation of plant organ boundary	http://purl.obolibrary.org/obo/PO_0009008	plant organ	http://purl.obolibrary.org/obo/GO_0048859	formation of anatomical boundary
 http://purl.obolibrary.org/obo/GO_1990768	gastric mucosal blood circulation	http://purl.obolibrary.org/obo/UBERON_0004786	gastrointestinal system mucosa	http://purl.obolibrary.org/obo/GO_0008015	blood circulation
@@ -262,9 +262,10 @@ http://purl.obolibrary.org/obo/GO_0042774	plasma membrane ATP synthesis coupled 
 http://purl.obolibrary.org/obo/GO_0002470	plasmacytoid dendritic cell antigen processing and presentation	http://purl.obolibrary.org/obo/CL_0000784	plasmacytoid dendritic cell	http://purl.obolibrary.org/obo/GO_0019882	antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_0033259	plastid DNA replication	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006261	DNA-templated DNA replication
 http://purl.obolibrary.org/obo/GO_1900160	plastid chromosome packaging	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0051276	chromosome organization
+http://purl.obolibrary.org/obo/GO_0140899	plastid gene expression	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0010467	gene expression
 http://purl.obolibrary.org/obo/GO_0032544	plastid translation	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006412	translation
 http://purl.obolibrary.org/obo/GO_0002576	platelet degranulation	http://purl.obolibrary.org/obo/CL_0000233	platelet	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
-http://purl.obolibrary.org/obo/GO_1903210	podocyte apoptotic process	http://purl.obolibrary.org/obo/CL_0000653	glomerular visceral epithelial cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
+http://purl.obolibrary.org/obo/GO_1903210	podocyte apoptotic process	http://purl.obolibrary.org/obo/CL_0000653	podocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0099588	positive regulation of postsynaptic cytosolic calcium concentration	http://purl.obolibrary.org/obo/GO_0098794	postsynapse	http://purl.obolibrary.org/obo/GO_0007204	positive regulation of cytosolic calcium ion concentration
 http://purl.obolibrary.org/obo/GO_0099533	positive regulation of presynaptic cytosolic calcium concentration	http://purl.obolibrary.org/obo/GO_0098793	presynapse	http://purl.obolibrary.org/obo/GO_0007204	positive regulation of cytosolic calcium ion concentration
 http://purl.obolibrary.org/obo/GO_0150038	postsynaptic dense core vesicle exocytosis	http://purl.obolibrary.org/obo/GO_0098794	postsynapse	http://purl.obolibrary.org/obo/GO_0099011	neuronal dense core vesicle exocytosis

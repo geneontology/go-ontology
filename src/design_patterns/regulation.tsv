@@ -230,7 +230,7 @@ http://purl.obolibrary.org/obo/GO_1903025	regulation of RNA polymerase II regula
 http://purl.obolibrary.org/obo/GO_0045898	regulation of RNA polymerase II transcription preinitiation complex assembly	http://purl.obolibrary.org/obo/GO_0051123	RNA polymerase II preinitiation complex assembly
 http://purl.obolibrary.org/obo/GO_1903622	regulation of RNA polymerase III activity	http://purl.obolibrary.org/obo/GO_0001056	RNA polymerase III activity
 http://purl.obolibrary.org/obo/GO_0043484	regulation of RNA splicing	http://purl.obolibrary.org/obo/GO_0008380	RNA splicing
-http://purl.obolibrary.org/obo/GO_1900259	regulation of RNA-directed 5'-3' RNA polymerase activity	http://purl.obolibrary.org/obo/GO_0003968	RNA-directed 5'-3' RNA polymerase activity
+http://purl.obolibrary.org/obo/GO_1900259	regulation of RNA-dependent RNA polymerase activity	http://purl.obolibrary.org/obo/GO_0003968	RNA-dependent RNA polymerase activity
 http://purl.obolibrary.org/obo/GO_0032483	regulation of Rab protein signal transduction	http://purl.obolibrary.org/obo/GO_0032482	Rab protein signal transduction
 http://purl.obolibrary.org/obo/GO_0035020	regulation of Rac protein signal transduction	http://purl.obolibrary.org/obo/GO_0016601	Rac protein signal transduction
 http://purl.obolibrary.org/obo/GO_0032485	regulation of Ral protein signal transduction	http://purl.obolibrary.org/obo/GO_0032484	Ral protein signal transduction
@@ -795,8 +795,8 @@ http://purl.obolibrary.org/obo/GO_0034251	regulation of cellular amide catabolic
 http://purl.obolibrary.org/obo/GO_0034248	regulation of cellular amide metabolic process	http://purl.obolibrary.org/obo/GO_0043603	cellular amide metabolic process
 http://purl.obolibrary.org/obo/GO_0033241	regulation of cellular amine catabolic process	http://purl.obolibrary.org/obo/GO_0009310	amine catabolic process
 http://purl.obolibrary.org/obo/GO_0033238	regulation of cellular amine metabolic process	http://purl.obolibrary.org/obo/GO_0044106	cellular amine metabolic process
-http://purl.obolibrary.org/obo/GO_2000282	regulation of cellular amino acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0008652	cellular amino acid biosynthetic process
-http://purl.obolibrary.org/obo/GO_0006521	regulation of cellular amino acid metabolic process	http://purl.obolibrary.org/obo/GO_0006520	cellular amino acid metabolic process
+http://purl.obolibrary.org/obo/GO_2000282	regulation of cellular amino acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0008652	amino acid biosynthetic process
+http://purl.obolibrary.org/obo/GO_0006521	regulation of cellular amino acid metabolic process	http://purl.obolibrary.org/obo/GO_0006520	amino acid metabolic process
 http://purl.obolibrary.org/obo/GO_0031326	regulation of cellular biosynthetic process	http://purl.obolibrary.org/obo/GO_0044249	cellular biosynthetic process
 http://purl.obolibrary.org/obo/GO_0043471	regulation of cellular carbohydrate catabolic process	http://purl.obolibrary.org/obo/GO_0044275	cellular carbohydrate catabolic process
 http://purl.obolibrary.org/obo/GO_0010675	regulation of cellular carbohydrate metabolic process	http://purl.obolibrary.org/obo/GO_0044262	cellular carbohydrate metabolic process

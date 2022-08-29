@@ -133,7 +133,7 @@ http://purl.obolibrary.org/obo/GO_0033504	floor plate development	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0030900	forebrain development	http://purl.obolibrary.org/obo/UBERON_0001890	forebrain
 http://purl.obolibrary.org/obo/GO_0021592	fourth ventricle development	http://purl.obolibrary.org/obo/UBERON_0002422	fourth ventricle
 http://purl.obolibrary.org/obo/GO_0061196	fungiform papilla development	http://purl.obolibrary.org/obo/UBERON_0002448	fungiform papilla
-http://purl.obolibrary.org/obo/GO_0061010	gallbladder development	http://purl.obolibrary.org/obo/UBERON_0002110	gall bladder
+http://purl.obolibrary.org/obo/GO_0061010	gallbladder development	http://purl.obolibrary.org/obo/UBERON_0002110	gallbladder
 http://purl.obolibrary.org/obo/GO_0061548	ganglion development	http://purl.obolibrary.org/obo/UBERON_0000045	ganglion
 http://purl.obolibrary.org/obo/GO_0048732	gland development	http://purl.obolibrary.org/obo/UBERON_0002530	gland
 http://purl.obolibrary.org/obo/GO_0032836	glomerular basement membrane development	http://purl.obolibrary.org/obo/UBERON_0005777	glomerular basement membrane
@@ -193,6 +193,7 @@ http://purl.obolibrary.org/obo/GO_0001889	liver development	http://purl.obolibra
 http://purl.obolibrary.org/obo/GO_0060482	lobar bronchus development	http://purl.obolibrary.org/obo/UBERON_0002183	lobar bronchus
 http://purl.obolibrary.org/obo/GO_0060481	lobar bronchus epithelium development	http://purl.obolibrary.org/obo/UBERON_0002339	epithelium of lobar bronchus
 http://purl.obolibrary.org/obo/GO_0060483	lobar bronchus mesenchyme development	http://purl.obolibrary.org/obo/UBERON_0004884	lobar bronchus mesenchyme
+http://purl.obolibrary.org/obo/GO_0021703	locus ceruleus development	http://purl.obolibrary.org/obo/UBERON_0002148	locus ceruleus
 http://purl.obolibrary.org/obo/GO_0072065	long descending thin limb bend development	http://purl.obolibrary.org/obo/UBERON_0004206	long descending thin limb bend
 http://purl.obolibrary.org/obo/GO_0072064	long descending thin limb development	http://purl.obolibrary.org/obo/UBERON_0005100	long descending thin limb
 http://purl.obolibrary.org/obo/GO_0072029	long nephron development	http://purl.obolibrary.org/obo/UBERON_0004194	long nephron
@@ -407,7 +408,7 @@ http://purl.obolibrary.org/obo/GO_0043588	skin development	http://purl.obolibrar
 http://purl.obolibrary.org/obo/GO_0098773	skin epidermis development	http://purl.obolibrary.org/obo/UBERON_0001003	skin epidermis
 http://purl.obolibrary.org/obo/GO_0048745	smooth muscle tissue development	http://purl.obolibrary.org/obo/UBERON_0001135	smooth muscle tissue
 http://purl.obolibrary.org/obo/GO_0007525	somatic muscle development	http://purl.obolibrary.org/obo/UBERON_0014895	somatic muscle
-http://purl.obolibrary.org/obo/GO_0160038	somatic sensory system development	http://purl.obolibrary.org/obo/UBERON_0003942	somatic sensory system
+http://purl.obolibrary.org/obo/GO_0160038	somatic sensory system development	http://purl.obolibrary.org/obo/UBERON_0003942	somatosensory system
 http://purl.obolibrary.org/obo/GO_0061053	somite development	http://purl.obolibrary.org/obo/UBERON_0002329	somite
 http://purl.obolibrary.org/obo/GO_0002075	somitomeric trunk muscle development	http://purl.obolibrary.org/obo/UBERON_0004138	somitomeric trunk muscle
 http://purl.obolibrary.org/obo/GO_0021510	spinal cord development	http://purl.obolibrary.org/obo/UBERON_0002240	spinal cord

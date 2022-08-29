@@ -190,6 +190,7 @@ http://purl.obolibrary.org/obo/GO_0030980	alpha-glucan catabolic process	http://
 http://purl.obolibrary.org/obo/GO_0046249	alpha-pinene catabolic process	http://purl.obolibrary.org/obo/CHEBI_36740	alpha-pinene
 http://purl.obolibrary.org/obo/GO_1901820	alpha-zeacarotene catabolic process	http://purl.obolibrary.org/obo/CHEBI_35063	alpha-zeacarotene
 http://purl.obolibrary.org/obo/GO_0009310	amine catabolic process	http://purl.obolibrary.org/obo/CHEBI_32952	amine
+http://purl.obolibrary.org/obo/GO_0009063	amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_37022	amino-acid anion
 http://purl.obolibrary.org/obo/GO_0052782	amino disaccharide catabolic process	http://purl.obolibrary.org/obo/CHEBI_22480	amino disaccharide
 http://purl.obolibrary.org/obo/GO_0046348	amino sugar catabolic process	http://purl.obolibrary.org/obo/CHEBI_28963	amino sugar
 http://purl.obolibrary.org/obo/GO_0006579	amino-acid betaine catabolic process	http://purl.obolibrary.org/obo/CHEBI_22860	amino-acid betaine
@@ -280,7 +281,6 @@ http://purl.obolibrary.org/obo/GO_2000892	cellobiose catabolic process	http://pu
 http://purl.obolibrary.org/obo/GO_2000890	cellodextrin catabolic process	http://purl.obolibrary.org/obo/CHEBI_3523	cellodextrin
 http://purl.obolibrary.org/obo/GO_2000903	cellooligosaccharide catabolic process	http://purl.obolibrary.org/obo/CHEBI_62563	cellooligosaccharide
 http://purl.obolibrary.org/obo/GO_2000894	cellotriose catabolic process	http://purl.obolibrary.org/obo/CHEBI_3528	cellotriose
-http://purl.obolibrary.org/obo/GO_0009063	cellular amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_37022	amino-acid anion
 http://purl.obolibrary.org/obo/GO_0042219	cellular modified amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_83821	amino acid derivative
 http://purl.obolibrary.org/obo/GO_0052702	cellular modified histidine catabolic process	http://purl.obolibrary.org/obo/CHEBI_24599	histidine derivative
 http://purl.obolibrary.org/obo/GO_0030245	cellulose catabolic process	http://purl.obolibrary.org/obo/CHEBI_18246	(1->4)-beta-D-glucan

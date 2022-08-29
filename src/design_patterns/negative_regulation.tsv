@@ -199,7 +199,7 @@ http://purl.obolibrary.org/obo/GO_1903026	negative regulation of RNA polymerase 
 http://purl.obolibrary.org/obo/GO_0017055	negative regulation of RNA polymerase II transcription preinitiation complex assembly	http://purl.obolibrary.org/obo/GO_0051123	RNA polymerase II preinitiation complex assembly
 http://purl.obolibrary.org/obo/GO_1903623	negative regulation of RNA polymerase III activity	http://purl.obolibrary.org/obo/GO_0001056	RNA polymerase III activity
 http://purl.obolibrary.org/obo/GO_0033119	negative regulation of RNA splicing	http://purl.obolibrary.org/obo/GO_0008380	RNA splicing
-http://purl.obolibrary.org/obo/GO_1900260	negative regulation of RNA-directed 5'-3' RNA polymerase activity	http://purl.obolibrary.org/obo/GO_0003968	RNA-directed 5'-3' RNA polymerase activity
+http://purl.obolibrary.org/obo/GO_1900260	negative regulation of RNA-dependent RNA polymerase activity	http://purl.obolibrary.org/obo/GO_0003968	RNA-dependent RNA polymerase activity
 http://purl.obolibrary.org/obo/GO_0035021	negative regulation of Rac protein signal transduction	http://purl.obolibrary.org/obo/GO_0016601	Rac protein signal transduction
 http://purl.obolibrary.org/obo/GO_0032016	negative regulation of Ran protein signal transduction	http://purl.obolibrary.org/obo/GO_0031291	Ran protein signal transduction
 http://purl.obolibrary.org/obo/GO_0046580	negative regulation of Ras protein signal transduction	http://purl.obolibrary.org/obo/GO_0007265	Ras protein signal transduction
@@ -691,8 +691,8 @@ http://purl.obolibrary.org/obo/GO_0034252	negative regulation of cellular amide 
 http://purl.obolibrary.org/obo/GO_0034249	negative regulation of cellular amide metabolic process	http://purl.obolibrary.org/obo/GO_0043603	cellular amide metabolic process
 http://purl.obolibrary.org/obo/GO_0033242	negative regulation of cellular amine catabolic process	http://purl.obolibrary.org/obo/GO_0009310	amine catabolic process
 http://purl.obolibrary.org/obo/GO_0033239	negative regulation of cellular amine metabolic process	http://purl.obolibrary.org/obo/GO_0044106	cellular amine metabolic process
-http://purl.obolibrary.org/obo/GO_2000283	negative regulation of cellular amino acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0008652	cellular amino acid biosynthetic process
-http://purl.obolibrary.org/obo/GO_0045763	negative regulation of cellular amino acid metabolic process	http://purl.obolibrary.org/obo/GO_0006520	cellular amino acid metabolic process
+http://purl.obolibrary.org/obo/GO_2000283	negative regulation of cellular amino acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0008652	amino acid biosynthetic process
+http://purl.obolibrary.org/obo/GO_0045763	negative regulation of cellular amino acid metabolic process	http://purl.obolibrary.org/obo/GO_0006520	amino acid metabolic process
 http://purl.obolibrary.org/obo/GO_0031327	negative regulation of cellular biosynthetic process	http://purl.obolibrary.org/obo/GO_0044249	cellular biosynthetic process
 http://purl.obolibrary.org/obo/GO_0010677	negative regulation of cellular carbohydrate metabolic process	http://purl.obolibrary.org/obo/GO_0044262	cellular carbohydrate metabolic process
 http://purl.obolibrary.org/obo/GO_0031330	negative regulation of cellular catabolic process	http://purl.obolibrary.org/obo/GO_0044248	cellular catabolic process
@@ -2412,6 +2412,7 @@ http://purl.obolibrary.org/obo/GO_0160028	negative regulation of pyroptosis	http
 http://purl.obolibrary.org/obo/GO_1904183	negative regulation of pyruvate dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004738	pyruvate dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_1903303	negative regulation of pyruvate kinase activity	http://purl.obolibrary.org/obo/GO_0004743	pyruvate kinase activity
 http://purl.obolibrary.org/obo/GO_1904985	negative regulation of quinolinate biosynthetic process	http://purl.obolibrary.org/obo/GO_0019805	quinolinate biosynthetic process
+http://purl.obolibrary.org/obo/GO_0061188	negative regulation of rDNA heterochromatin formation	http://purl.obolibrary.org/obo/GO_0000183	rDNA heterochromatin formation
 http://purl.obolibrary.org/obo/GO_2000233	negative regulation of rRNA processing	http://purl.obolibrary.org/obo/GO_0006364	rRNA processing
 http://purl.obolibrary.org/obo/GO_1900092	negative regulation of raffinose biosynthetic process	http://purl.obolibrary.org/obo/GO_0033529	raffinose biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903427	negative regulation of reactive oxygen species biosynthetic process	http://purl.obolibrary.org/obo/GO_1903409	reactive oxygen species biosynthetic process
@@ -2496,7 +2497,6 @@ http://purl.obolibrary.org/obo/GO_1903063	negative regulation of reverse cholest
 http://purl.obolibrary.org/obo/GO_1900269	negative regulation of reverse transcription	http://purl.obolibrary.org/obo/GO_0001171	reverse transcription
 http://purl.obolibrary.org/obo/GO_0060701	negative regulation of ribonuclease activity	http://purl.obolibrary.org/obo/GO_0004540	ribonuclease activity
 http://purl.obolibrary.org/obo/GO_2000198	negative regulation of ribonucleoprotein complex localization	http://purl.obolibrary.org/obo/GO_0071166	ribonucleoprotein complex localization
-http://purl.obolibrary.org/obo/GO_0061188	negative regulation of ribosomal DNA heterochromatin formation	http://purl.obolibrary.org/obo/GO_0000183	rDNA heterochromatin formation
 http://purl.obolibrary.org/obo/GO_2000204	negative regulation of ribosomal large subunit export from nucleus	http://purl.obolibrary.org/obo/GO_0000055	ribosomal large subunit export from nucleus
 http://purl.obolibrary.org/obo/GO_2000207	negative regulation of ribosomal small subunit export from nucleus	http://purl.obolibrary.org/obo/GO_0000056	ribosomal small subunit export from nucleus
 http://purl.obolibrary.org/obo/GO_2000201	negative regulation of ribosomal subunit export from nucleus	http://purl.obolibrary.org/obo/GO_0000054	ribosomal subunit export from nucleus
