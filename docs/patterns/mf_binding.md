@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO
+This pattern is for representing molecular interactions differentiated by the target of the interaction.
 
 
 
@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[binding](http://purl.obolibrary.org/obo/GO_0005488)  and ([directly positively regulates](http://purl.obolibrary.org/obo/RO_0002629) some `{input}`)
+[binding](http://purl.obolibrary.org/obo/GO_0005488)  and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some `{input}`)
 
 
 
