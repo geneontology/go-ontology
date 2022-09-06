@@ -4,7 +4,8 @@
 
 ## Description
 
-TODO
+This pattern is for representing inhibitors of molecular functions differentiated by the specific molecular function inhibited.
+
 
 
 
