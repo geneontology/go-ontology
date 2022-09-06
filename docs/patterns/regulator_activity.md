@@ -4,7 +4,8 @@
 
 ## Description
 
-TODO
+This pattern is for representing regulators of molecular functions differentiated by the specific molecular function regulated.
+
 
 
 
