@@ -1206,7 +1206,7 @@ http://purl.obolibrary.org/obo/GO_1903640	negative regulation of gastrin-induced
 http://purl.obolibrary.org/obo/GO_1904305	negative regulation of gastro-intestinal system smooth muscle contraction	http://purl.obolibrary.org/obo/GO_0014831	gastro-intestinal system smooth muscle contraction
 http://purl.obolibrary.org/obo/GO_2000542	negative regulation of gastrulation	http://purl.obolibrary.org/obo/GO_0007369	gastrulation
 http://purl.obolibrary.org/obo/GO_0010629	negative regulation of gene expression	http://purl.obolibrary.org/obo/GO_0010467	gene expression
-http://purl.obolibrary.org/obo/GO_0060967	negative regulation of gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0031047	gene silencing by RNA
+http://purl.obolibrary.org/obo/GO_0060967	negative regulation of gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0031047	RNA-mediated gene silencing
 http://purl.obolibrary.org/obo/GO_1900687	negative regulation of gerfelin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900578	gerfelin biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905937	negative regulation of germ cell proliferation	http://purl.obolibrary.org/obo/GO_0036093	germ cell proliferation
 http://purl.obolibrary.org/obo/GO_0075012	negative regulation of germ tube formation	http://purl.obolibrary.org/obo/GO_0075009	germ tube formation
@@ -2241,7 +2241,7 @@ http://purl.obolibrary.org/obo/GO_0050928	negative regulation of positive chemot
 http://purl.obolibrary.org/obo/GO_1902233	negative regulation of positive thymic T cell selection	http://purl.obolibrary.org/obo/GO_0045059	positive thymic T cell selection
 http://purl.obolibrary.org/obo/GO_0048581	negative regulation of post-embryonic development	http://purl.obolibrary.org/obo/GO_0009791	post-embryonic development
 http://purl.obolibrary.org/obo/GO_0060149	negative regulation of post-transcriptional gene silencing	http://purl.obolibrary.org/obo/GO_0016441	post-transcriptional gene silencing
-http://purl.obolibrary.org/obo/GO_1900369	negative regulation of post-transcriptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	post-transcriptional gene silencing by RNA
+http://purl.obolibrary.org/obo/GO_1900369	negative regulation of post-transcriptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	RNA-mediated post-transcriptional gene silencing
 http://purl.obolibrary.org/obo/GO_1901874	negative regulation of post-translational protein modification	http://purl.obolibrary.org/obo/GO_0043687	post-translational protein modification
 http://purl.obolibrary.org/obo/GO_0120236	negative regulation of post-translational protein targeting to membrane, translocation	http://purl.obolibrary.org/obo/GO_0031204	post-translational protein targeting to membrane, translocation
 http://purl.obolibrary.org/obo/GO_0160037	negative regulation of postsynaptic density assembly	http://purl.obolibrary.org/obo/GO_0097107	postsynaptic density assembly
@@ -2586,7 +2586,7 @@ http://purl.obolibrary.org/obo/GO_0051058	negative regulation of small GTPase me
 http://purl.obolibrary.org/obo/GO_0120059	negative regulation of small intestinal transit	http://purl.obolibrary.org/obo/GO_0120055	small intestinal transit
 http://purl.obolibrary.org/obo/GO_1904348	negative regulation of small intestine smooth muscle contraction	http://purl.obolibrary.org/obo/GO_1990770	small intestine smooth muscle contraction
 http://purl.obolibrary.org/obo/GO_0062014	negative regulation of small molecule metabolic process	http://purl.obolibrary.org/obo/GO_0044281	small molecule metabolic process
-http://purl.obolibrary.org/obo/GO_0060906	negative regulation of small non-coding RNA-mediated heterochromatin formation	http://purl.obolibrary.org/obo/GO_0031048	small non-coding RNA-dependent heterochromatin formation
+http://purl.obolibrary.org/obo/GO_0060906	negative regulation of small non-coding RNA-mediated heterochromatin formation	http://purl.obolibrary.org/obo/GO_0031048	RNA-mediated heterochromatin formation
 http://purl.obolibrary.org/obo/GO_0034392	negative regulation of smooth muscle cell apoptotic process	http://purl.obolibrary.org/obo/GO_0034390	smooth muscle cell apoptotic process
 http://purl.obolibrary.org/obo/GO_0071672	negative regulation of smooth muscle cell chemotaxis	http://purl.obolibrary.org/obo/GO_0071670	smooth muscle cell chemotaxis
 http://purl.obolibrary.org/obo/GO_0051151	negative regulation of smooth muscle cell differentiation	http://purl.obolibrary.org/obo/GO_0051145	smooth muscle cell differentiation

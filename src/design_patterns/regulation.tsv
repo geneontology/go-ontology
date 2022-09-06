@@ -1364,7 +1364,7 @@ http://purl.obolibrary.org/obo/GO_1903639	regulation of gastrin-induced gastric 
 http://purl.obolibrary.org/obo/GO_1904304	regulation of gastro-intestinal system smooth muscle contraction	http://purl.obolibrary.org/obo/GO_0014831	gastro-intestinal system smooth muscle contraction
 http://purl.obolibrary.org/obo/GO_0010470	regulation of gastrulation	http://purl.obolibrary.org/obo/GO_0007369	gastrulation
 http://purl.obolibrary.org/obo/GO_0010468	regulation of gene expression	http://purl.obolibrary.org/obo/GO_0010467	gene expression
-http://purl.obolibrary.org/obo/GO_0060966	regulation of gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0031047	gene silencing by RNA
+http://purl.obolibrary.org/obo/GO_0060966	regulation of gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0031047	RNA-mediated gene silencing
 http://purl.obolibrary.org/obo/GO_0043467	regulation of generation of precursor metabolites and energy	http://purl.obolibrary.org/obo/GO_0006091	generation of precursor metabolites and energy
 http://purl.obolibrary.org/obo/GO_2000653	regulation of genetic imprinting	http://purl.obolibrary.org/obo/GO_0071514	genomic imprinting
 http://purl.obolibrary.org/obo/GO_1900686	regulation of gerfelin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900578	gerfelin biosynthetic process
@@ -2528,7 +2528,7 @@ http://purl.obolibrary.org/obo/GO_1902232	regulation of positive thymic T cell s
 http://purl.obolibrary.org/obo/GO_0048580	regulation of post-embryonic development	http://purl.obolibrary.org/obo/GO_0009791	post-embryonic development
 http://purl.obolibrary.org/obo/GO_2000069	regulation of post-embryonic root development	http://purl.obolibrary.org/obo/GO_0048528	post-embryonic root development
 http://purl.obolibrary.org/obo/GO_0060147	regulation of post-transcriptional gene silencing	http://purl.obolibrary.org/obo/GO_0016441	post-transcriptional gene silencing
-http://purl.obolibrary.org/obo/GO_1900368	regulation of post-transcriptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	post-transcriptional gene silencing by RNA
+http://purl.obolibrary.org/obo/GO_1900368	regulation of post-transcriptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	RNA-mediated post-transcriptional gene silencing
 http://purl.obolibrary.org/obo/GO_1901873	regulation of post-translational protein modification	http://purl.obolibrary.org/obo/GO_0043687	post-translational protein modification
 http://purl.obolibrary.org/obo/GO_0120235	regulation of post-translational protein targeting to membrane, translocation	http://purl.obolibrary.org/obo/GO_0031204	post-translational protein targeting to membrane, translocation
 http://purl.obolibrary.org/obo/GO_0150052	regulation of postsynapse assembly	http://purl.obolibrary.org/obo/GO_0099068	postsynapse assembly
@@ -2919,7 +2919,7 @@ http://purl.obolibrary.org/obo/GO_1900618	regulation of shoot system morphogenes
 http://purl.obolibrary.org/obo/GO_0048587	regulation of short-day photoperiodism, flowering	http://purl.obolibrary.org/obo/GO_0048575	short-day photoperiodism, flowering
 http://purl.obolibrary.org/obo/GO_1905512	regulation of short-term synaptic potentiation	http://purl.obolibrary.org/obo/GO_1990926	short-term synaptic potentiation
 http://purl.obolibrary.org/obo/GO_0070921	regulation of siRNA production	http://purl.obolibrary.org/obo/GO_0030422	siRNA processing
-http://purl.obolibrary.org/obo/GO_1902802	regulation of siRNA-dependent facultative heterochromatin formation	http://purl.obolibrary.org/obo/GO_1902795	siRNA-dependent facultative heterochromatin formation
+http://purl.obolibrary.org/obo/GO_1902802	regulation of siRNA-dependent facultative heterochromatin formation	http://purl.obolibrary.org/obo/GO_1902795	siRNA-mediated facultative heterochromatin formation
 http://purl.obolibrary.org/obo/GO_1902801	regulation of siRNA-independent facultative heterochromatin formation	http://purl.obolibrary.org/obo/GO_1902794	siRNA-independent facultative heterochromatin formation
 http://purl.obolibrary.org/obo/GO_1900704	regulation of siderophore biosynthetic process	http://purl.obolibrary.org/obo/GO_0019290	siderophore biosynthetic process
 http://purl.obolibrary.org/obo/GO_0009966	regulation of signal transduction	http://purl.obolibrary.org/obo/GO_0007165	signal transduction
@@ -2956,7 +2956,7 @@ http://purl.obolibrary.org/obo/GO_0051056	regulation of small GTPase mediated si
 http://purl.obolibrary.org/obo/GO_0120057	regulation of small intestinal transit	http://purl.obolibrary.org/obo/GO_0120055	small intestinal transit
 http://purl.obolibrary.org/obo/GO_1904347	regulation of small intestine smooth muscle contraction	http://purl.obolibrary.org/obo/GO_1990770	small intestine smooth muscle contraction
 http://purl.obolibrary.org/obo/GO_0062012	regulation of small molecule metabolic process	http://purl.obolibrary.org/obo/GO_0044281	small molecule metabolic process
-http://purl.obolibrary.org/obo/GO_0010964	regulation of small non-coding RNA-mediated heterochromatin formation	http://purl.obolibrary.org/obo/GO_0031048	small non-coding RNA-dependent heterochromatin formation
+http://purl.obolibrary.org/obo/GO_0010964	regulation of small non-coding RNA-mediated heterochromatin formation	http://purl.obolibrary.org/obo/GO_0031048	RNA-mediated heterochromatin formation
 http://purl.obolibrary.org/obo/GO_0034391	regulation of smooth muscle cell apoptotic process	http://purl.obolibrary.org/obo/GO_0034390	smooth muscle cell apoptotic process
 http://purl.obolibrary.org/obo/GO_0071671	regulation of smooth muscle cell chemotaxis	http://purl.obolibrary.org/obo/GO_0071670	smooth muscle cell chemotaxis
 http://purl.obolibrary.org/obo/GO_0051150	regulation of smooth muscle cell differentiation	http://purl.obolibrary.org/obo/GO_0051145	smooth muscle cell differentiation
