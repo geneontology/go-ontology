@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO
+This pattern is for representing activators of molecular functions differentiated by the specific molecular function activated.
 
 
 
