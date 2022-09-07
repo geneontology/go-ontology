@@ -1,6 +1,6 @@
 pattern_name: cellular anatomical entity organization
 
-pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cc_organization.yaml
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cellular_anatomical_entity_organization.yaml
 
 description: TODO
 
