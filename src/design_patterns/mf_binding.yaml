@@ -9,7 +9,7 @@ classes:
   chemical entity: 'CHEBI:24431'
 
 relations:
-  has input: 'RO:0002629' 
+  has input: 'RO:0002233' 
   
 vars:
   input: "'chemical entity'"
