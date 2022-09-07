@@ -1,23 +1,23 @@
-pattern_name: cc transport
+pattern_name: transport of a cellular component
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cc_transport.yaml
 
-description: TODO
+description: Transport of a cellular component, differentiated by the component being transported.
 
 classes:
   transport: 'GO:0006810'
   cellular component: 'GO:0005575'
 
-relations: 
-  transports_or_maintains_localization_of: 'RO:0002313'
+relations:
+  has_primary_input: 'RO:0004009'
 
 vars:
   cellular component: "'cellular component'" 
 
 name:
-     text: "%s transport"
-     vars:
-       - 'cellular component'
+  text: "%s transport"
+  vars:
+    - 'cellular component'
 
 def:
   text: "The directed movement of %s into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore."
@@ -28,6 +28,6 @@ namespace:
   text: 'biological_process'
   
 equivalentTo:
-  text: " 'transport' and 'transports_or_maintains_localization_of' some %s "
+  text: " 'transport' and 'has_primary_input' some %s "
   vars:
     - 'cellular component'
