@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[transport](http://purl.obolibrary.org/obo/GO_0006810)  and ([transports or maintains localization of](http://purl.obolibrary.org/obo/RO_0002313) some `{chemical}`)
+[transport](http://purl.obolibrary.org/obo/GO_0006810)  and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some `{chemical}`)
 
 
 
@@ -41,7 +41,11 @@ TODO
 
 *See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/chemical_transport.tsv)*
 
-|  |
-|
-
+| defined_class | defined_class_label | chemical | chemical_label |
+|:--|:--|:--|:--|
+| [http://purl.obolibrary.org/obo/GO_1900749](http://purl.obolibrary.org/obo/GO_1900749) | (R)-carnitine transport | [http://purl.obolibrary.org/obo/CHEBI_16347](http://purl.obolibrary.org/obo/CHEBI_16347) | (R)-carnitine |
+| [http://purl.obolibrary.org/obo/GO_0033223](http://purl.obolibrary.org/obo/GO_0033223) | 2-aminoethylphosphonate transport | [http://purl.obolibrary.org/obo/CHEBI_57418](http://purl.obolibrary.org/obo/CHEBI_57418) | (2-aminoethyl)phosphonic acid zwitterion |
+| [http://purl.obolibrary.org/obo/GO_0046963](http://purl.obolibrary.org/obo/GO_0046963) | 3'-phosphoadenosine 5'-phosphosulfate transport | [http://purl.obolibrary.org/obo/CHEBI_58339](http://purl.obolibrary.org/obo/CHEBI_58339) | 3'-phosphonato-5'-adenylyl sulfate(4-) |
+| [http://purl.obolibrary.org/obo/GO_0015731](http://purl.obolibrary.org/obo/GO_0015731) | 3-hydroxyphenyl propanoate transport | [http://purl.obolibrary.org/obo/CHEBI_65228](http://purl.obolibrary.org/obo/CHEBI_65228) | 3-hydroxyphenyl propanoate |
+| [http://purl.obolibrary.org/obo/GO_0042920](http://purl.obolibrary.org/obo/GO_0042920) | 3-hydroxyphenylpropionic acid transmembrane transport | [http://purl.obolibrary.org/obo/CHEBI_46957](http://purl.obolibrary.org/obo/CHEBI_46957) | 3-(2-hydroxyphenyl)propanoate |
 

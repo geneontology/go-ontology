@@ -3,26 +3,21 @@
 | Pattern | Description |
 |:--------|:------------|
 | [activator activity](activator_activity.md) | TODO |
-| [anchored membrane component](anchored_membrane_component.md) | TODO |
 | [biosynthetic process](biosynthetic_process.md) | This pattern is for classes representing biosynthetic processes differentiated by their primary outputs. |
 | [bounding membrane of organelle](bounding_membrane_of_organelle.md) | TODO |
 | [catabolic process](catabolic_process.md) | This pattern is for classes representing catabolic processes differentiated by their primary inputs. |
 | [cc assembly](cc_assembly.md) | TODO |
 | [cc disassembly](cc_disassembly.md) | TODO |
-| [cc transport](cc_transport.md) | TODO |
 | [cc transport from to](cc_transport_from_to.md) | TODO |
 | [cellular anatomical entity organization](cellular_anatomical_entity_organization.md) | TODO |
 | [chemical transport](chemical_transport.md) | TODO |
 | [chromosomal region](chromosomal_region.md) | TODO |
 | [establishment of protein localization to](establishment_of_protein_localization_to.md) | TODO |
 | [export across membrane](export_across_membrane.md) | TODO |
-| [extrinsic membrane component](extrinsic_membrane_component.md) | TODO |
 | [import across membrane](import_across_membrane.md) | TODO |
 | [import across plasma membrane](import_across_plasma_membrane.md) | TODO |
 | [import into cell](import_into_cell.md) | TODO |
 | [inhibitor activity](inhibitor_activity.md) | TODO |
-| [integral membrane component](integral_membrane_component.md) | TODO |
-| [intrinsic membrane component](intrinsic_membrane_component.md) | TODO |
 | [involved in x y](involved_in_x_y.md) | TODO |
 | [macromolecular complex binding](macromolecular_complex_binding.md) | TODO |
 | [membrane region](membrane_region.md) | TODO |
@@ -42,8 +37,8 @@
 | [regulation_of_characteristic](regulation_of_characteristic.md) | Regulation of a particular characteristic. |
 | [regulator activity](regulator_activity.md) | TODO |
 | [single-organism process](single_organism_process.md) | TODO |
-| [spanning component of membrane](membrane_spanning_component.md) | TODO |
-| [transmembrane import into cytosol](transmembrane_import_into_cell.md) | TODO |
+| [transmembrane import into cytosol](transmembrane_import_into_cytosol.md) | TODO |
+| [transport of a cellular component](cc_transport.md) | Transport of a cellular component, differentiated by the component being transported. |
 | [vesicle-mediated transport differentiated by cargo](vesicle_mediated_transport_differentiated_by_cargo.md) | TODO |
 | [vesicle-mediated transport differentiated by start and end locations](vesicle_mediated_transport_differentiated_by_start_and_end_locations.md) | TODO |
 | [x development](x_development.md) | TODO |
