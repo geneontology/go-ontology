@@ -1,6 +1,6 @@
-# import across plasma membrane
+# transmembrane import into cytosol
 
-[http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml](http://purl.obolibrary.org/obo/go/patterns/import_across_plasma_membrane.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml](http://purl.obolibrary.org/obo/go/patterns/transmembrane_import_into_cytosol.yaml)
 
 ## Description
 
@@ -13,7 +13,7 @@ TODO
 
 | Variable name | Allowed type |
 |:--------------|:-------------|
-| `{imported}` | [chemical entity](http://purl.obolibrary.org/obo/CHEBI_24431) |
+| `{imported}` | [chemical entity](http://purl.obolibrary.org/obo/CHEBI_24431) or [GO_0043234](http://purl.obolibrary.org/obo/GO_0043234) |
 
 ## Name
 
@@ -21,7 +21,7 @@ TODO
 
 ## Annotations
 
-- [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace): "biological_process"^^[string](http://www.w3.org/2001/XMLSchema#string)
+
 
 ## Definition
 
@@ -39,7 +39,7 @@ TODO
 
 ## Data preview
 
-*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/import_across_plasma_membrane.tsv)*
+*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/transmembrane_import_into_cytosol.tsv)*
 
 | defined_class | defined_class_label | imported | imported_label |
 |:--|:--|:--|:--|

@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0016192)  and ([transports or maintains localization of](http://purl.obolibrary.org/obo/RO_0002313) some `{target}`)
+[vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0016192)  and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some `{target}`)
 
 
 

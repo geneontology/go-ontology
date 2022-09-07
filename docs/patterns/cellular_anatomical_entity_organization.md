@@ -1,6 +1,6 @@
 # cellular anatomical entity organization
 
-[http://purl.obolibrary.org/obo/go/patterns/cc_organization.yaml](http://purl.obolibrary.org/obo/go/patterns/cc_organization.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/cellular_anatomical_entity_organization.yaml](http://purl.obolibrary.org/obo/go/patterns/cellular_anatomical_entity_organization.yaml)
 
 ## Description
 

@@ -1,10 +1,10 @@
-# cc transport
+# transport of a cellular component
 
 [http://purl.obolibrary.org/obo/go/patterns/cc_transport.yaml](http://purl.obolibrary.org/obo/go/patterns/cc_transport.yaml)
 
 ## Description
 
-TODO
+Transport of a cellular component, differentiated by the component being transported.
 
 
 
@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[transport](http://purl.obolibrary.org/obo/GO_0006810)  and ([transports or maintains localization of](http://purl.obolibrary.org/obo/RO_0002313) some `{cellular component}`)
+[transport](http://purl.obolibrary.org/obo/GO_0006810)  and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some `{cellular component}`)
 
 
 
@@ -41,7 +41,10 @@ TODO
 
 *See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/cc_transport.tsv)*
 
-|  |
-|
-
+| defined_class | defined_class_label | cellular_component | cellular_component_label |
+|:--|:--|:--|:--|
+| [http://purl.obolibrary.org/obo/GO_0032402](http://purl.obolibrary.org/obo/GO_0032402) | melanosome transport | [http://purl.obolibrary.org/obo/GO_0042470](http://purl.obolibrary.org/obo/GO_0042470) | melanosome |
+| [http://purl.obolibrary.org/obo/GO_0051904](http://purl.obolibrary.org/obo/GO_0051904) | pigment granule transport | [http://purl.obolibrary.org/obo/GO_0048770](http://purl.obolibrary.org/obo/GO_0048770) | pigment granule |
+| [http://purl.obolibrary.org/obo/GO_0015869](http://purl.obolibrary.org/obo/GO_0015869) | protein-DNA complex transport | [http://purl.obolibrary.org/obo/GO_0032993](http://purl.obolibrary.org/obo/GO_0032993) | protein-DNA complex |
+| [http://purl.obolibrary.org/obo/GO_0048489](http://purl.obolibrary.org/obo/GO_0048489) | synaptic vesicle transport | [http://purl.obolibrary.org/obo/GO_0008021](http://purl.obolibrary.org/obo/GO_0008021) | synaptic vesicle |
 
