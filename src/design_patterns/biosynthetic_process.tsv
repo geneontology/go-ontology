@@ -107,6 +107,7 @@ http://purl.obolibrary.org/obo/GO_0019306	GDP-D-rhamnose biosynthetic process	ht
 http://purl.obolibrary.org/obo/GO_0042350	GDP-L-fucose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57984	GDP-L-fucose(2-)
 http://purl.obolibrary.org/obo/GO_0033472	GDP-L-galactose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58355	GDP-L-galactose(2-)
 http://purl.obolibrary.org/obo/GO_0019347	GDP-alpha-D-mannosylchitobiosyldiphosphodolichol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_21165	GDP-alpha-D-mannosylchitobiosyldiphosphodolichol
+http://purl.obolibrary.org/obo/GO_0009298	GDP-mannose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_21168	GDP-mannose
 http://purl.obolibrary.org/obo/GO_0006177	GMP biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58115	guanosine 5'-monophosphate(2-)
 http://purl.obolibrary.org/obo/GO_0006506	GPI anchor biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_24410	glycosylphosphatidylinositol
 http://purl.obolibrary.org/obo/GO_0006183	GTP biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_37565	GTP(4-)
@@ -179,6 +180,7 @@ http://purl.obolibrary.org/obo/GO_0045151	acetoin biosynthetic process	http://pu
 http://purl.obolibrary.org/obo/GO_0043445	acetone biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_15347	acetone
 http://purl.obolibrary.org/obo/GO_0006085	acetyl-CoA biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57288	acetyl-CoA(4-)
 http://purl.obolibrary.org/obo/GO_0008292	acetylcholine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_15355	acetylcholine
+http://purl.obolibrary.org/obo/GO_0120247	acetylenic compound biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_73474	acetylenic compound
 http://purl.obolibrary.org/obo/GO_0042861	achromobactin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_61346	achromobactin
 http://purl.obolibrary.org/obo/GO_1901112	actinorhodin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_91020	actinorhodin(3-)
 http://purl.obolibrary.org/obo/GO_0071616	acyl-CoA biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17984	acyl-CoA
@@ -246,6 +248,7 @@ http://purl.obolibrary.org/obo/GO_0036184	asperthecin biosynthetic process	http:
 http://purl.obolibrary.org/obo/GO_1901518	aspyridone A biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64704	aspyridone A
 http://purl.obolibrary.org/obo/GO_1901521	aspyridone B biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64705	aspyridone B
 http://purl.obolibrary.org/obo/GO_1901815	astaxanthin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_40968	astaxanthin
+http://purl.obolibrary.org/obo/GO_1901051	atropine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57858	atropinium
 http://purl.obolibrary.org/obo/GO_0051551	aurone biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_47964	aurone
 http://purl.obolibrary.org/obo/GO_1900560	austinol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64418	austinol
 http://purl.obolibrary.org/obo/GO_0009851	auxin biosynthetic process	http://purl.obolibrary.org/obo/GOCHE_22676	substance with auxin role
@@ -563,6 +566,7 @@ http://purl.obolibrary.org/obo/GO_0006786	heme C biosynthetic process	http://pur
 http://purl.obolibrary.org/obo/GO_0048034	heme O biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_24480	heme o
 http://purl.obolibrary.org/obo/GO_0006783	heme biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_30413	heme
 http://purl.obolibrary.org/obo/GO_0042541	hemoglobin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin
+http://purl.obolibrary.org/obo/GO_0015012	heparan sulfate proteoglycan biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_24499	heparan sulfate proteoglycan
 http://purl.obolibrary.org/obo/GO_0030210	heparin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_24505	heparins
 http://purl.obolibrary.org/obo/GO_0051122	hepoxilin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_62938	hepoxilin anion
 http://purl.obolibrary.org/obo/GO_1900875	heptadec-1-ene biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64502	1-heptadecene
@@ -696,6 +700,7 @@ http://purl.obolibrary.org/obo/GO_0140877	mevastatin biosynthetic process	http:/
 http://purl.obolibrary.org/obo/GO_1901946	miltiradiene biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_65037	miltiradiene
 http://purl.obolibrary.org/obo/GO_0006705	mineralocorticoid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_25354	mineralocorticoid
 http://purl.obolibrary.org/obo/GO_1901777	mitomycin C biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_27504	mitomycin C
+http://purl.obolibrary.org/obo/GO_0032324	molybdopterin cofactor biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_25372	molybdopterin cofactor
 http://purl.obolibrary.org/obo/GO_1901730	monensin A biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_27617	monensin A
 http://purl.obolibrary.org/obo/GO_0006640	monoacylglycerol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17408	monoacylglycerol
 http://purl.obolibrary.org/obo/GO_0072330	monocarboxylic acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_35757	monocarboxylic acid anion
@@ -747,6 +752,7 @@ http://purl.obolibrary.org/obo/GO_1900682	octadecene biosynthetic process	http:/
 http://purl.obolibrary.org/obo/GO_0046171	octanol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16188	octan-1-ol
 http://purl.obolibrary.org/obo/GO_0006589	octopamine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58025	octopaminium
 http://purl.obolibrary.org/obo/GO_1900674	olefin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_33641	olefin
+http://purl.obolibrary.org/obo/GO_0120255	olefinic compound biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_78840	olefinic compound
 http://purl.obolibrary.org/obo/GO_0009312	oligosaccharide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_50699	oligosaccharide
 http://purl.obolibrary.org/obo/GO_1901697	olivetolic acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_66950	olivetolate
 http://purl.obolibrary.org/obo/GO_0006727	ommochrome biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_25692	ommochrome
@@ -819,6 +825,7 @@ http://purl.obolibrary.org/obo/GO_0140609	phycocyanobilin biosynthetic process	h
 http://purl.obolibrary.org/obo/GO_0042372	phylloquinone biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_18067	phylloquinone
 http://purl.obolibrary.org/obo/GO_0052315	phytoalexin biosynthetic process	http://purl.obolibrary.org/obo/GOCHE_26115	substance with phytoalexin role
 http://purl.obolibrary.org/obo/GO_0046938	phytochelatin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_60836	phytochelatin
+http://purl.obolibrary.org/obo/GO_0048543	phytochrome chromophore biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_82632	phytochrome chromophore
 http://purl.obolibrary.org/obo/GO_0010024	phytochromobilin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57439	(3Z)-phytochromobilin(2-)
 http://purl.obolibrary.org/obo/GO_1901174	phytoene biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26119	phytoene
 http://purl.obolibrary.org/obo/GO_0033520	phytol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17327	phytol
@@ -866,6 +873,7 @@ http://purl.obolibrary.org/obo/GO_0051191	prosthetic group biosynthetic process	
 http://purl.obolibrary.org/obo/GO_0030166	proteoglycan biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_37396	proteoglycan
 http://purl.obolibrary.org/obo/GO_0006782	protoporphyrinogen IX biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57307	protoporphyrinogen(2-)
 http://purl.obolibrary.org/obo/GO_1900790	pseurotin A biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64535	pseurotin A
+http://purl.obolibrary.org/obo/GO_0140380	psilocybin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_139072	psilocybin(1-)
 http://purl.obolibrary.org/obo/GO_0006728	pteridine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_27601	pteridine
 http://purl.obolibrary.org/obo/GO_0042559	pteridine-containing compound biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26373	pteridines
 http://purl.obolibrary.org/obo/GO_0051677	pullulan biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_27941	pullulan
@@ -893,6 +901,7 @@ http://purl.obolibrary.org/obo/GO_0043638	puromycin biosynthetic process	http://
 http://purl.obolibrary.org/obo/GO_0009446	putrescine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_326268	1,4-butanediammonium
 http://purl.obolibrary.org/obo/GO_0042864	pyochelin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_29669	pyochelin
 http://purl.obolibrary.org/obo/GO_0106220	pyocyanine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_62220	pyocyanine(1+)
+http://purl.obolibrary.org/obo/GO_0002049	pyoverdine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_84046	pyoverdine
 http://purl.obolibrary.org/obo/GO_0046220	pyridine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16227	pyridine
 http://purl.obolibrary.org/obo/GO_0071589	pyridine nucleoside biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_47896	pyridine nucleoside
 http://purl.obolibrary.org/obo/GO_0019363	pyridine nucleotide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_36980	pyridine nucleotide
@@ -932,6 +941,7 @@ http://purl.obolibrary.org/obo/GO_1901663	quinone biosynthetic process	http://pu
 http://purl.obolibrary.org/obo/GO_0033529	raffinose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16634	raffinose
 http://purl.obolibrary.org/obo/GO_0010325	raffinose family oligosaccharide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_74961	raffinose family oligosaccharide
 http://purl.obolibrary.org/obo/GO_1903409	reactive oxygen species biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26523	reactive oxygen species
+http://purl.obolibrary.org/obo/GO_0106295	resolvin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_132120	resolvin
 http://purl.obolibrary.org/obo/GO_0002138	retinoic acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_15036	retinoate
 http://purl.obolibrary.org/obo/GO_0052784	reuteran biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64622	reuteran
 http://purl.obolibrary.org/obo/GO_0010246	rhamnogalacturonan I biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_60174	rhamnogalacturonan I
@@ -952,6 +962,7 @@ http://purl.obolibrary.org/obo/GO_0009697	salicylic acid biosynthetic process	ht
 http://purl.obolibrary.org/obo/GO_0016135	saponin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26605	saponin
 http://purl.obolibrary.org/obo/GO_1900868	sarcinapterin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64514	sarcinapterin(4-)
 http://purl.obolibrary.org/obo/GO_1901054	sarcosine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57433	sarcosine zwitterion
+http://purl.obolibrary.org/obo/GO_1900991	scopolamine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16794	scopolamine
 http://purl.obolibrary.org/obo/GO_1902653	secondary alcohol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_35681	secondary alcohol
 http://purl.obolibrary.org/obo/GO_0016260	selenocysteine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_9093	selenocysteine
 http://purl.obolibrary.org/obo/GO_0097056	selenocysteinyl-tRNA(Sec) biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_13166	Sec-tRNA(Sec)
@@ -1003,6 +1014,7 @@ http://purl.obolibrary.org/obo/GO_0019350	teichoic acid biosynthetic process	htt
 http://purl.obolibrary.org/obo/GO_0050845	teichuronic acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64626	teichuronic acid
 http://purl.obolibrary.org/obo/GO_1900605	tensidol A biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_69403	carbonarone A
 http://purl.obolibrary.org/obo/GO_1900608	tensidol B biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_69404	pestalamide A
+http://purl.obolibrary.org/obo/GO_0120237	terminal acetylenic compound biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_73477	terminal acetylenic compound
 http://purl.obolibrary.org/obo/GO_0046246	terpene biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_35186	terpene
 http://purl.obolibrary.org/obo/GO_0016114	terpenoid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26873	terpenoid
 http://purl.obolibrary.org/obo/GO_0009709	terpenoid indole alkaloid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_65321	terpenoid indole alkaloid
