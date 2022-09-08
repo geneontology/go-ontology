@@ -26,9 +26,11 @@ vars:
   end: "cellular_component"
 
 name:
-  text: "%s import across %s" 
+  text: "%s import from %s into %s, across %s"
   vars:
     - 'cargo'
+    - 'start'
+    - 'end'
     - 'membrane'
 
 def:
