@@ -13,7 +13,7 @@ TODO
 
 | Variable name | Allowed type |
 |:--------------|:-------------|
-| `{imported}` | [chemical entity](http://purl.obolibrary.org/obo/CHEBI_24431) or [GO_0043234](http://purl.obolibrary.org/obo/GO_0043234) |
+| `{imported}` | [chemical entity](http://purl.obolibrary.org/obo/CHEBI_24431) or [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) |
 
 ## Name
 
