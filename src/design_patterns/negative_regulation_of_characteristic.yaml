@@ -1,4 +1,4 @@
-pattern_name: negative_regulation_of_characteristic
+pattern_name: negative regulation of characteristic
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/negative_regulation_of_characteristic.yaml
 
@@ -10,7 +10,7 @@ classes:
   biological attribute: "OBA:0000001"
 
 relations: 
-  negatively regulates characteristic: "RO:0019001"
+  negatively regulates characteristic: "RO:0019002"
 
 vars:
  characteristic: "'biological attribute'"
