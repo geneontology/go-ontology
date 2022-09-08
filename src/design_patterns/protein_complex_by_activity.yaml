@@ -6,7 +6,7 @@ description: TODO
 
 classes:
   molecular function: "GO:0003674"
-  protein complex: "GO:0043234"
+  protein complex: "GO:0032991"
 
 relations: 
   capable of: "RO:0002215"
