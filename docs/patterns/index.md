@@ -25,7 +25,7 @@
 | [mf binding](mf_binding.md) | TODO |
 | [multi-organism process](multi_organism_process.md) | TODO |
 | [negative regulation](negative_regulation.md) | TODO |
-| [negative_regulation_of_characteristic](negative_regulation_of_characteristic.md) | Negative regulation of a particular characteristic. |
+| [negative regulation of characteristic](negative_regulation_of_characteristic.md) | Negative regulation of a particular characteristic. |
 | [occurs in](occursIn.md) | TODO |
 | [part of cell component](part_of_cell_component.md) | TODO |
 | [positive regulation](positive_regulation.md) | TODO |
