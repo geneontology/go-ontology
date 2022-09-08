@@ -1,8 +1,8 @@
-pattern_name: regulator activity
+pattern_name: molecular function regulator activity
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/regulator_activity.yaml
 
-description: TODO
+description: This pattern is for representing a function that modulates some molecular function, differentiated by the specific molecular function modulated.
 
 classes:
   molecular function regulator: "GO:0098772"
@@ -21,10 +21,7 @@ name:
 
 def:
   text: >
-    Direct interaction with a gene product or complex that has %s, 
-    resulting in regulation of its %s. Direct interaction 
-    in this case includes binding and interactions leading to 
-    covalent modification.
+    Binds to and modulates the activity of %s.
   vars: 
     - regulated_activity
     - regulated_activity
@@ -33,6 +30,6 @@ namespace:
   text: 'biological_process'
 
 equivalentTo:
-  text: "'molecular function regulator' that 'regulates' some %s"
+  text: "'molecular function regulator activity' and 'regulates' some %s"
   vars: 
     - regulated_activity
