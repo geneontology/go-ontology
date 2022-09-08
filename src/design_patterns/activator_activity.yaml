@@ -1,8 +1,8 @@
-pattern_name: activator activity
+pattern_name: molecular function activator activity
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/activator_activity.yaml
 
-description: TODO
+description: This pattern is for representing a function that activates some molecular function, differentiated by the specific molecular function activated.
 
 classes:
   molecular function regulator: 'GO:0098772'
@@ -30,10 +30,7 @@ name:
     - 'regulated_activity_munged'
     
 def: 
-  text: "Direct interaction with a gene product or complex that has %s, 
-    resulting in positive regulation of its %s. Direct interaction 
-    in this case includes binding and interactions leading to 
-    covalent modification."
+  text: "Binds to and increases the activity of %s.
   vars:
     - 'regulated_activity'
     - 'regulated_activity'
@@ -42,6 +39,6 @@ namespace:
   text: 'molecular_function'
 
 equivalentTo: 
-  text: "'molecular function regulator' that 'positively regulates' some %s" 
+  text: "'molecular function regulator' and 'positively regulates' some %s" 
   vars:
     - 'regulated_activity'
