@@ -1,8 +1,8 @@
-pattern_name: inhibitor activity
+pattern_name: molecular function inhibitor activity
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/inhibitor_activity.yaml
 
-description: TODO
+description: This pattern is for representing a function that inhibits some molecular function, differentiated by the specific molecular function inhibited.
 
 classes:
   molecular function regulator: 'GO:0098772'
@@ -20,10 +20,7 @@ name:
     - 'regulated_activity'
 
 def:
-  text: "Direct interaction with a gene product or complex that has %s, 
-    resulting in negative regulation of its %s. Direct interaction 
-    in this case includes binding and interactions leading to 
-    covalent modification."
+  text: "Binds to and stops, prevents, or reduces the activity of %s.
   vars:
     - 'regulated_activity'
     - 'regulated_activity'
@@ -32,6 +29,6 @@ namespace:
   text: 'biological_process'
 
 equivalentTo: 
-  text: "'molecular function regulator' that 'negatively regulates' some %s"
+  text: "'molecular function inhibitor activity' and 'negatively regulates' some %s"
   vars:
     - 'regulated_activity'
