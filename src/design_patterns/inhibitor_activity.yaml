@@ -20,7 +20,7 @@ name:
     - 'regulated_activity'
 
 def:
-  text: "Binds to and stops, prevents, or reduces the activity of %s.
+  text: "Binds to and stops, prevents, or reduces the activity of %s."
   vars:
     - 'regulated_activity'
     - 'regulated_activity'

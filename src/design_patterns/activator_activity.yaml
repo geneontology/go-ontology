@@ -30,7 +30,7 @@ name:
     - 'regulated_activity_munged'
     
 def: 
-  text: "Binds to and increases the activity of %s.
+  text: "Binds to and increases the activity of %s."
   vars:
     - 'regulated_activity'
     - 'regulated_activity'
