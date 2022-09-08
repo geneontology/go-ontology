@@ -18,7 +18,7 @@ relations:
   has target start location: 'RO:0002338'
   has target end location: 'RO:0002339'
   results in transport across: 'RO:0002342'
-  exports: 'RO:0002345'
+  has primary input: 'RO:0004009'
   
 vars: 
   membrane: "membrane"
@@ -27,9 +27,11 @@ vars:
   end: "'cellular component'"
 
 name:
-  text: "%s export across %s" 
+  text: "%s export from %s into %s, across %s"
   vars:
     - 'cargo'
+    - 'start'
+    - 'end'
     - 'membrane'
 
 def:
@@ -51,7 +53,7 @@ namespace:
   text: 'biological_process'
 
 equivalentTo: 
-  text: "'transport' and 'has target end location' some %s and 'has target end location' some %s and 'exports' some %s and 'results in transport across' some %s"
+  text: "'transport' and 'has target start location' some %s and 'has target end location' some %s and 'has primary input' some %s and 'results in transport across' some %s"
   vars:
     - 'start'
     - 'end'
