@@ -39,6 +39,6 @@ namespace:
   text: 'molecular_function'
 
 equivalentTo: 
-  text: "'molecular function regulator' and 'positively regulates' some %s" 
+  text: "'molecular function activator activity' and 'positively regulates' some %s" 
   vars:
     - 'regulated_activity'
