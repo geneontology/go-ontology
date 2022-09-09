@@ -2,7 +2,6 @@
 
 | Pattern | Description |
 |:--------|:------------|
-| [activator activity](activator_activity.md) | TODO |
 | [biosynthetic process](biosynthetic_process.md) | This pattern is for classes representing biosynthetic processes differentiated by their primary outputs. |
 | [bounding membrane of organelle](bounding_membrane_of_organelle.md) | TODO |
 | [catabolic process](catabolic_process.md) | This pattern is for classes representing catabolic processes differentiated by their primary inputs. |
@@ -17,15 +16,17 @@
 | [import across membrane](import_across_membrane.md) | TODO |
 | [import across plasma membrane](import_across_plasma_membrane.md) | TODO |
 | [import into cell](import_into_cell.md) | TODO |
-| [inhibitor activity](inhibitor_activity.md) | TODO |
 | [involved in x y](involved_in_x_y.md) | TODO |
 | [macromolecular complex binding](macromolecular_complex_binding.md) | TODO |
 | [membrane region](membrane_region.md) | TODO |
 | [metabolic process](metabolic_process.md) | This pattern is for classes representing metabolic processes differentiated by their primary inputs or primary outputs. |
 | [mf binding](mf_binding.md) | TODO |
+| [molecular function activator activity](activator_activity.md) | This pattern is for representing a function that activates some molecular function, differentiated by the specific molecular function activated. |
+| [molecular function inhibitor activity](inhibitor_activity.md) | This pattern is for representing a function that inhibits some molecular function, differentiated by the specific molecular function inhibited. |
+| [molecular function regulator activity](regulator_activity.md) | This pattern is for representing a function that modulates some molecular function, differentiated by the specific molecular function modulated. |
 | [multi-organism process](multi_organism_process.md) | TODO |
 | [negative regulation](negative_regulation.md) | TODO |
-| [negative_regulation_of_characteristic](negative_regulation_of_characteristic.md) | Negative regulation of a particular characteristic. |
+| [negative regulation of characteristic](negative_regulation_of_characteristic.md) | Negative regulation of a particular characteristic. |
 | [occurs in](occursIn.md) | TODO |
 | [part of cell component](part_of_cell_component.md) | TODO |
 | [positive regulation](positive_regulation.md) | TODO |
@@ -35,7 +36,6 @@
 | [regulation](regulation.md) | One of three core patterns for regulation terms in the GO. Do not use this pattern for the 3 grouping classes: regulation of MF, regulation of BP, regulation of BQ |
 | [regulation by](regulation_by.md) | TODO |
 | [regulation_of_characteristic](regulation_of_characteristic.md) | Regulation of a particular characteristic. |
-| [regulator activity](regulator_activity.md) | TODO |
 | [single-organism process](single_organism_process.md) | TODO |
 | [transmembrane import into cytosol](transmembrane_import_into_cytosol.md) | TODO |
 | [transport of a cellular component](cc_transport.md) | Transport of a cellular component, differentiated by the component being transported. |

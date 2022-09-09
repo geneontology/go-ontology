@@ -1,10 +1,10 @@
-# inhibitor activity
+# molecular function inhibitor activity
 
 [http://purl.obolibrary.org/obo/go/patterns/inhibitor_activity.yaml](http://purl.obolibrary.org/obo/go/patterns/inhibitor_activity.yaml)
 
 ## Description
 
-TODO
+This pattern is for representing a function that inhibits some molecular function, differentiated by the specific molecular function inhibited.
 
 
 
@@ -25,11 +25,11 @@ TODO
 
 ## Definition
 
-"Direct interaction with a gene product or complex that has `{regulated_activity}`, resulting in negative regulation of its `{regulated_activity}`. Direct interaction in this case includes binding and interactions leading to covalent modification."^^[string](http://www.w3.org/2001/XMLSchema#string)
+"Binds to and stops, prevents, or reduces the activity of `{regulated_activity}`."^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Equivalent to
 
-[molecular function regulator activity](http://purl.obolibrary.org/obo/GO_0098772)  and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some `{regulated_activity}`)
+[molecular function inhibitor activity](http://purl.obolibrary.org/obo/GO_0140678)  and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some `{regulated_activity}`)
 
 
 
@@ -43,9 +43,9 @@ TODO
 
 | defined_class | defined_class_label | regulated_activity | regulated_activity_label |
 |:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_0140620](http://purl.obolibrary.org/obo/GO_0140620) | DNA strand exchange inhibitor activity | [http://purl.obolibrary.org/obo/GO_0000150](http://purl.obolibrary.org/obo/GO_0000150) | DNA strand exchange activity |
-| [http://purl.obolibrary.org/obo/GO_0005095](http://purl.obolibrary.org/obo/GO_0005095) | GTPase inhibitor activity | [http://purl.obolibrary.org/obo/GO_0003924](http://purl.obolibrary.org/obo/GO_0003924) | GTPase activity |
-| [http://purl.obolibrary.org/obo/GO_0010854](http://purl.obolibrary.org/obo/GO_0010854) | adenylate cyclase regulator activity | [http://purl.obolibrary.org/obo/GO_0004016](http://purl.obolibrary.org/obo/GO_0004016) | adenylate cyclase activity |
-| [http://purl.obolibrary.org/obo/GO_0140631](http://purl.obolibrary.org/obo/GO_0140631) | aldehyde dehydrogenase (NAD+) inhibitor activity | [http://purl.obolibrary.org/obo/GO_0004029](http://purl.obolibrary.org/obo/GO_0004029) | aldehyde dehydrogenase (NAD+) activity |
+| [http://purl.obolibrary.org/obo/GO_0008657](http://purl.obolibrary.org/obo/GO_0008657) | DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) inhibitor activity | [http://purl.obolibrary.org/obo/GO_0003918](http://purl.obolibrary.org/obo/GO_0003918) | DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity |
+| [http://purl.obolibrary.org/obo/GO_0010855](http://purl.obolibrary.org/obo/GO_0010855) | adenylate cyclase inhibitor activity | [http://purl.obolibrary.org/obo/GO_0004016](http://purl.obolibrary.org/obo/GO_0004016) | adenylate cyclase activity |
 | [http://purl.obolibrary.org/obo/GO_0019828](http://purl.obolibrary.org/obo/GO_0019828) | aspartic-type endopeptidase inhibitor activity | [http://purl.obolibrary.org/obo/GO_0004190](http://purl.obolibrary.org/obo/GO_0004190) | aspartic-type endopeptidase activity |
+| [http://purl.obolibrary.org/obo/GO_0010852](http://purl.obolibrary.org/obo/GO_0010852) | cyclase inhibitor activity | [http://purl.obolibrary.org/obo/GO_0009975](http://purl.obolibrary.org/obo/GO_0009975) | cyclase activity |
+| [http://purl.obolibrary.org/obo/GO_0004869](http://purl.obolibrary.org/obo/GO_0004869) | cysteine-type endopeptidase inhibitor activity | [http://purl.obolibrary.org/obo/GO_0004197](http://purl.obolibrary.org/obo/GO_0004197) | cysteine-type endopeptidase activity |
 

@@ -344,7 +344,13 @@ http://purl.obolibrary.org/obo/GO_0046635	positive regulation of alpha-beta T ce
 http://purl.obolibrary.org/obo/GO_0046638	positive regulation of alpha-beta T cell differentiation	http://purl.obolibrary.org/obo/GO_0046632	alpha-beta T cell differentiation
 http://purl.obolibrary.org/obo/GO_0046641	positive regulation of alpha-beta T cell proliferation	http://purl.obolibrary.org/obo/GO_0046633	alpha-beta T cell proliferation
 http://purl.obolibrary.org/obo/GO_1902871	positive regulation of amacrine cell differentiation	http://purl.obolibrary.org/obo/GO_0035881	amacrine cell differentiation
+http://purl.obolibrary.org/obo/GO_0034253	positive regulation of amide catabolic process	http://purl.obolibrary.org/obo/GO_0043605	amide catabolic process
+http://purl.obolibrary.org/obo/GO_0034250	positive regulation of amide metabolic process	http://purl.obolibrary.org/obo/GO_0043603	amide metabolic process
+http://purl.obolibrary.org/obo/GO_0033243	positive regulation of amine catabolic process	http://purl.obolibrary.org/obo/GO_0009310	amine catabolic process
+http://purl.obolibrary.org/obo/GO_0033240	positive regulation of amine metabolic process	http://purl.obolibrary.org/obo/GO_0009308	amine metabolic process
 http://purl.obolibrary.org/obo/GO_0051954	positive regulation of amine transport	http://purl.obolibrary.org/obo/GO_0015837	amine transport
+http://purl.obolibrary.org/obo/GO_2000284	positive regulation of amino acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0008652	amino acid biosynthetic process
+http://purl.obolibrary.org/obo/GO_0045764	positive regulation of amino acid metabolic process	http://purl.obolibrary.org/obo/GO_0006520	amino acid metabolic process
 http://purl.obolibrary.org/obo/GO_0051957	positive regulation of amino acid transport	http://purl.obolibrary.org/obo/GO_0006865	amino acid transport
 http://purl.obolibrary.org/obo/GO_0051943	positive regulation of amino acid uptake involved in synaptic transmission	http://purl.obolibrary.org/obo/GO_0051933	amino acid neurotransmitter reuptake
 http://purl.obolibrary.org/obo/GO_1903632	positive regulation of aminoacyl-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004812	aminoacyl-tRNA ligase activity
@@ -682,12 +688,6 @@ http://purl.obolibrary.org/obo/GO_2000938	positive regulation of cellotriose cat
 http://purl.obolibrary.org/obo/GO_2000935	positive regulation of cellotriose metabolic process	http://purl.obolibrary.org/obo/GO_2000893	cellotriose metabolic process
 http://purl.obolibrary.org/obo/GO_1900287	positive regulation of cellotriose transport	http://purl.obolibrary.org/obo/GO_2001096	cellotriose transport
 http://purl.obolibrary.org/obo/GO_1900421	positive regulation of cellular alcohol catabolic process	http://purl.obolibrary.org/obo/GO_0044109	cellular alcohol catabolic process
-http://purl.obolibrary.org/obo/GO_0034253	positive regulation of cellular amide catabolic process	http://purl.obolibrary.org/obo/GO_0043605	cellular amide catabolic process
-http://purl.obolibrary.org/obo/GO_0034250	positive regulation of cellular amide metabolic process	http://purl.obolibrary.org/obo/GO_0043603	cellular amide metabolic process
-http://purl.obolibrary.org/obo/GO_0033243	positive regulation of cellular amine catabolic process	http://purl.obolibrary.org/obo/GO_0009310	amine catabolic process
-http://purl.obolibrary.org/obo/GO_0033240	positive regulation of cellular amine metabolic process	http://purl.obolibrary.org/obo/GO_0044106	cellular amine metabolic process
-http://purl.obolibrary.org/obo/GO_2000284	positive regulation of cellular amino acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0008652	amino acid biosynthetic process
-http://purl.obolibrary.org/obo/GO_0045764	positive regulation of cellular amino acid metabolic process	http://purl.obolibrary.org/obo/GO_0006520	amino acid metabolic process
 http://purl.obolibrary.org/obo/GO_0031328	positive regulation of cellular biosynthetic process	http://purl.obolibrary.org/obo/GO_0044249	cellular biosynthetic process
 http://purl.obolibrary.org/obo/GO_0010676	positive regulation of cellular carbohydrate metabolic process	http://purl.obolibrary.org/obo/GO_0044262	cellular carbohydrate metabolic process
 http://purl.obolibrary.org/obo/GO_0031331	positive regulation of cellular catabolic process	http://purl.obolibrary.org/obo/GO_0044248	cellular catabolic process

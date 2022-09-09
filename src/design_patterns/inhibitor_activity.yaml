@@ -5,7 +5,7 @@ pattern_iri: http://purl.obolibrary.org/obo/go/patterns/inhibitor_activity.yaml
 description: This pattern is for representing a function that inhibits some molecular function, differentiated by the specific molecular function inhibited.
 
 classes:
-  molecular function regulator: 'GO:0098772'
+  molecular function inhibitor activity: 'GO:0140678'
   catalytic activity: 'GO:0003824'
 
 relations:
@@ -20,7 +20,7 @@ name:
     - 'regulated_activity'
 
 def:
-  text: "Binds to and stops, prevents, or reduces the activity of %s.
+  text: "Binds to and stops, prevents, or reduces the activity of %s."
   vars:
     - 'regulated_activity'
     - 'regulated_activity'

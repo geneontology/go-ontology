@@ -5,7 +5,7 @@ pattern_iri: http://purl.obolibrary.org/obo/go/patterns/regulator_activity.yaml
 description: This pattern is for representing a function that modulates some molecular function, differentiated by the specific molecular function modulated.
 
 classes:
-  molecular function regulator: "GO:0098772"
+  molecular function regulator activity: "GO:0098772"
   catalytic activity: "GO:0003824"
 
 relations:

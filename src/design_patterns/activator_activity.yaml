@@ -5,7 +5,7 @@ pattern_iri: http://purl.obolibrary.org/obo/go/patterns/activator_activity.yaml
 description: This pattern is for representing a function that activates some molecular function, differentiated by the specific molecular function activated.
 
 classes:
-  molecular function regulator: 'GO:0098772'
+  molecular function activator activity: 'GO:0140677'
   catalytic activity: 'GO:0003824'
 
 relations:
@@ -30,7 +30,7 @@ name:
     - 'regulated_activity_munged'
     
 def: 
-  text: "Binds to and increases the activity of %s.
+  text: "Binds to and increases the activity of %s."
   vars:
     - 'regulated_activity'
     - 'regulated_activity'

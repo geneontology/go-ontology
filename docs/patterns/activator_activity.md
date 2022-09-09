@@ -1,10 +1,10 @@
-# activator activity
+# molecular function activator activity
 
 [http://purl.obolibrary.org/obo/go/patterns/activator_activity.yaml](http://purl.obolibrary.org/obo/go/patterns/activator_activity.yaml)
 
 ## Description
 
-TODO
+This pattern is for representing a function that activates some molecular function, differentiated by the specific molecular function activated.
 
 
 
@@ -26,11 +26,11 @@ TODO
 
 ## Definition
 
-"Direct interaction with a gene product or complex that has `{regulated_activity}`, resulting in positive regulation of its `{regulated_activity}`. Direct interaction in this case includes binding and interactions leading to covalent modification."^^[string](http://www.w3.org/2001/XMLSchema#string)
+"Binds to and increases the activity of `{regulated_activity}`."^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Equivalent to
 
-[molecular function regulator activity](http://purl.obolibrary.org/obo/GO_0098772)  and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some `{regulated_activity}`)
+[molecular function activator activity](http://purl.obolibrary.org/obo/GO_0140677)  and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some `{regulated_activity}`)
 
 
 
@@ -46,7 +46,7 @@ TODO
 |:--|:--|:--|:--|
 | [http://purl.obolibrary.org/obo/GO_0030337](http://purl.obolibrary.org/obo/GO_0030337) | DNA polymerase processivity factor activity | [http://purl.obolibrary.org/obo/GO_0034061](http://purl.obolibrary.org/obo/GO_0034061) | DNA polymerase activity |
 | [http://purl.obolibrary.org/obo/GO_0140619](http://purl.obolibrary.org/obo/GO_0140619) | DNA strand exchange activator activity | [http://purl.obolibrary.org/obo/GO_0000150](http://purl.obolibrary.org/obo/GO_0000150) | DNA strand exchange activity |
+| [http://purl.obolibrary.org/obo/GO_0072587](http://purl.obolibrary.org/obo/GO_0072587) | DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activator activity | [http://purl.obolibrary.org/obo/GO_0003918](http://purl.obolibrary.org/obo/GO_0003918) | DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity |
 | [http://purl.obolibrary.org/obo/GO_0005096](http://purl.obolibrary.org/obo/GO_0005096) | GTPase activator activity | [http://purl.obolibrary.org/obo/GO_0003924](http://purl.obolibrary.org/obo/GO_0003924) | GTPase activity |
-| [http://purl.obolibrary.org/obo/GO_0140608](http://purl.obolibrary.org/obo/GO_0140608) | cysteine-type endopeptidase activator activity | [http://purl.obolibrary.org/obo/GO_0004197](http://purl.obolibrary.org/obo/GO_0004197) | cysteine-type endopeptidase activity |
-| [http://purl.obolibrary.org/obo/GO_0035800](http://purl.obolibrary.org/obo/GO_0035800) | deubiquitinase activator activity | [http://purl.obolibrary.org/obo/GO_0101005](http://purl.obolibrary.org/obo/GO_0101005) | deubiquitinase activity |
+| [http://purl.obolibrary.org/obo/GO_0036478](http://purl.obolibrary.org/obo/GO_0036478) | L-dopa decarboxylase activator activity | [http://purl.obolibrary.org/obo/GO_0036468](http://purl.obolibrary.org/obo/GO_0036468) | L-dopa decarboxylase activity |
 
