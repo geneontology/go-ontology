@@ -264,6 +264,7 @@ http://purl.obolibrary.org/obo/GO_0036109	alpha-linolenic acid metabolic process
 http://purl.obolibrary.org/obo/GO_0018867	alpha-pinene metabolic process	http://purl.obolibrary.org/obo/CHEBI_36740	alpha-pinene
 http://purl.obolibrary.org/obo/GO_0097289	alpha-ribazole metabolic process	http://purl.obolibrary.org/obo/CHEBI_10329	alpha-ribazole
 http://purl.obolibrary.org/obo/GO_1901819	alpha-zeacarotene metabolic process	http://purl.obolibrary.org/obo/CHEBI_35063	alpha-zeacarotene
+http://purl.obolibrary.org/obo/GO_0043603	amide metabolic process	http://purl.obolibrary.org/obo/CHEBI_32988	amide
 http://purl.obolibrary.org/obo/GO_0009308	amine metabolic process	http://purl.obolibrary.org/obo/CHEBI_32952	amine
 http://purl.obolibrary.org/obo/GO_0006520	amino acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_37022	amino-acid anion
 http://purl.obolibrary.org/obo/GO_0052779	amino disaccharide metabolic process	http://purl.obolibrary.org/obo/CHEBI_22480	amino disaccharide
@@ -380,7 +381,6 @@ http://purl.obolibrary.org/obo/GO_0006081	cellular aldehyde metabolic process	ht
 http://purl.obolibrary.org/obo/GO_0043446	cellular alkane metabolic process	http://purl.obolibrary.org/obo/CHEBI_18310	alkane
 http://purl.obolibrary.org/obo/GO_0043449	cellular alkene metabolic process	http://purl.obolibrary.org/obo/CHEBI_32878	alkene
 http://purl.obolibrary.org/obo/GO_0043452	cellular alkyne metabolic process	http://purl.obolibrary.org/obo/CHEBI_22339	alkyne
-http://purl.obolibrary.org/obo/GO_0043603	cellular amide metabolic process	http://purl.obolibrary.org/obo/CHEBI_32988	amide
 http://purl.obolibrary.org/obo/GO_0006725	cellular aromatic compound metabolic process	http://purl.obolibrary.org/obo/CHEBI_33655	aromatic compound
 http://purl.obolibrary.org/obo/GO_0042180	cellular ketone metabolic process	http://purl.obolibrary.org/obo/CHEBI_17087	ketone
 http://purl.obolibrary.org/obo/GO_0006575	cellular modified amino acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_83821	amino acid derivative
@@ -765,6 +765,7 @@ http://purl.obolibrary.org/obo/GO_1902224	ketone body metabolic process	http://p
 http://purl.obolibrary.org/obo/GO_2001316	kojic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_43572	kojic acid
 http://purl.obolibrary.org/obo/GO_0034275	kynurenic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_58454	kynurenate
 http://purl.obolibrary.org/obo/GO_0070189	kynurenine metabolic process	http://purl.obolibrary.org/obo/CHEBI_28683	kynurenine
+http://purl.obolibrary.org/obo/GO_0072338	lactam metabolic process	http://purl.obolibrary.org/obo/CHEBI_24995	lactam
 http://purl.obolibrary.org/obo/GO_0006089	lactate metabolic process	http://purl.obolibrary.org/obo/CHEBI_24996	lactate
 http://purl.obolibrary.org/obo/GO_1901334	lactone metabolic process	http://purl.obolibrary.org/obo/CHEBI_25000	lactone
 http://purl.obolibrary.org/obo/GO_0005988	lactose metabolic process	http://purl.obolibrary.org/obo/CHEBI_17716	lactose

@@ -401,6 +401,10 @@ http://purl.obolibrary.org/obo/GO_0032949	regulation of alpha-glucan biosyntheti
 http://purl.obolibrary.org/obo/GO_0032948	regulation of alpha-glucan metabolic process	http://purl.obolibrary.org/obo/GO_0030978	alpha-glucan metabolic process
 http://purl.obolibrary.org/obo/GO_0000381	regulation of alternative mRNA splicing, via spliceosome	http://purl.obolibrary.org/obo/GO_0000380	alternative mRNA splicing, via spliceosome
 http://purl.obolibrary.org/obo/GO_1902869	regulation of amacrine cell differentiation	http://purl.obolibrary.org/obo/GO_0035881	amacrine cell differentiation
+http://purl.obolibrary.org/obo/GO_0034251	regulation of amide catabolic process	http://purl.obolibrary.org/obo/GO_0043605	amide catabolic process
+http://purl.obolibrary.org/obo/GO_0034248	regulation of amide metabolic process	http://purl.obolibrary.org/obo/GO_0043603	amide metabolic process
+http://purl.obolibrary.org/obo/GO_0033241	regulation of amine catabolic process	http://purl.obolibrary.org/obo/GO_0009310	amine catabolic process
+http://purl.obolibrary.org/obo/GO_0033238	regulation of amine metabolic process	http://purl.obolibrary.org/obo/GO_0009308	amine metabolic process
 http://purl.obolibrary.org/obo/GO_0051952	regulation of amine transport	http://purl.obolibrary.org/obo/GO_0015837	amine transport
 http://purl.obolibrary.org/obo/GO_0010958	regulation of amino acid import across plasma membrane	http://purl.obolibrary.org/obo/GO_0089718	amino acid import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1903789	regulation of amino acid transmembrane transport	http://purl.obolibrary.org/obo/GO_0003333	amino acid transmembrane transport
@@ -791,10 +795,6 @@ http://purl.obolibrary.org/obo/GO_2000936	regulation of cellotriose catabolic pr
 http://purl.obolibrary.org/obo/GO_2000933	regulation of cellotriose metabolic process	http://purl.obolibrary.org/obo/GO_2000893	cellotriose metabolic process
 http://purl.obolibrary.org/obo/GO_1900285	regulation of cellotriose transport	http://purl.obolibrary.org/obo/GO_2001096	cellotriose transport
 http://purl.obolibrary.org/obo/GO_1900419	regulation of cellular alcohol catabolic process	http://purl.obolibrary.org/obo/GO_0044109	cellular alcohol catabolic process
-http://purl.obolibrary.org/obo/GO_0034251	regulation of cellular amide catabolic process	http://purl.obolibrary.org/obo/GO_0043605	cellular amide catabolic process
-http://purl.obolibrary.org/obo/GO_0034248	regulation of cellular amide metabolic process	http://purl.obolibrary.org/obo/GO_0043603	cellular amide metabolic process
-http://purl.obolibrary.org/obo/GO_0033241	regulation of cellular amine catabolic process	http://purl.obolibrary.org/obo/GO_0009310	amine catabolic process
-http://purl.obolibrary.org/obo/GO_0033238	regulation of cellular amine metabolic process	http://purl.obolibrary.org/obo/GO_0044106	cellular amine metabolic process
 http://purl.obolibrary.org/obo/GO_2000282	regulation of cellular amino acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0008652	amino acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0006521	regulation of cellular amino acid metabolic process	http://purl.obolibrary.org/obo/GO_0006520	amino acid metabolic process
 http://purl.obolibrary.org/obo/GO_0031326	regulation of cellular biosynthetic process	http://purl.obolibrary.org/obo/GO_0044249	cellular biosynthetic process
