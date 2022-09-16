@@ -560,4 +560,4 @@ GO:0001931	uropod	NCBITaxon:4751	Fungi
 GO:0034460	uropod assembly	NCBITaxon:4751	Fungi	
 GO:0044393	microspike	NCBITaxon:4751	Fungi	
 GO:0030035	microspike assembly	NCBITaxon:4751	Fungi	
-GO:0140858	histone ubiquitin ligase activity (H2A-K15 specific)	NCBITaxon:4890 	Ascomycota
+GO:0140858	histone ubiquitin ligase activity (H2A-K15 specific)	NCBITaxon:4890 	Ascomycota  
