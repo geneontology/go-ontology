@@ -136,7 +136,6 @@ http://purl.obolibrary.org/obo/GO_1904426	positive regulation of GTP binding	htt
 http://purl.obolibrary.org/obo/GO_0043104	positive regulation of GTP cyclohydrolase I activity	http://purl.obolibrary.org/obo/GO_0003934	GTP cyclohydrolase I activity
 http://purl.obolibrary.org/obo/GO_0043547	positive regulation of GTPase activity	http://purl.obolibrary.org/obo/GO_0003924	GTPase activity
 http://purl.obolibrary.org/obo/GO_1905528	positive regulation of Golgi lumen acidification	http://purl.obolibrary.org/obo/GO_0061795	Golgi lumen acidification
-http://purl.obolibrary.org/obo/GO_0043003	positive regulation of Golgi to plasma membrane CFTR protein transport	http://purl.obolibrary.org/obo/GO_0043000	Golgi to plasma membrane CFTR protein transport
 http://purl.obolibrary.org/obo/GO_0042998	positive regulation of Golgi to plasma membrane protein transport	http://purl.obolibrary.org/obo/GO_0043001	Golgi to plasma membrane protein transport
 http://purl.obolibrary.org/obo/GO_0048215	positive regulation of Golgi vesicle fusion to target membrane	http://purl.obolibrary.org/obo/GO_0048210	Golgi vesicle fusion to target membrane
 http://purl.obolibrary.org/obo/GO_0070810	positive regulation of Hulle cell development	http://purl.obolibrary.org/obo/GO_0070792	Hulle cell development
@@ -181,7 +180,6 @@ http://purl.obolibrary.org/obo/GO_0051138	positive regulation of NK T cell diffe
 http://purl.obolibrary.org/obo/GO_0051142	positive regulation of NK T cell proliferation	http://purl.obolibrary.org/obo/GO_0001866	NK T cell proliferation
 http://purl.obolibrary.org/obo/GO_1900227	positive regulation of NLRP3 inflammasome complex assembly	http://purl.obolibrary.org/obo/GO_0044546	NLRP3 inflammasome complex assembly
 http://purl.obolibrary.org/obo/GO_1904783	positive regulation of NMDA glutamate receptor activity	http://purl.obolibrary.org/obo/GO_0004972	NMDA glutamate receptor activity
-http://purl.obolibrary.org/obo/GO_1901721	positive regulation of NMS complex assembly	http://purl.obolibrary.org/obo/GO_0044768	NMS complex assembly
 http://purl.obolibrary.org/obo/GO_0045747	positive regulation of Notch signaling pathway	http://purl.obolibrary.org/obo/GO_0007219	Notch signaling pathway
 http://purl.obolibrary.org/obo/GO_0035481	positive regulation of Notch signaling pathway involved in heart induction	http://purl.obolibrary.org/obo/GO_0003137	Notch signaling pathway involved in heart induction
 http://purl.obolibrary.org/obo/GO_1903408	positive regulation of P-type sodium:potassium-exchanging transporter activity	http://purl.obolibrary.org/obo/GO_0005391	P-type sodium:potassium-exchanging transporter activity

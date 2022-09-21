@@ -159,7 +159,6 @@ http://purl.obolibrary.org/obo/GO_1901472	regulation of Golgi calcium ion export
 http://purl.obolibrary.org/obo/GO_0090170	regulation of Golgi inheritance	http://purl.obolibrary.org/obo/GO_0048313	Golgi inheritance
 http://purl.obolibrary.org/obo/GO_1905526	regulation of Golgi lumen acidification	http://purl.obolibrary.org/obo/GO_0061795	Golgi lumen acidification
 http://purl.obolibrary.org/obo/GO_1903358	regulation of Golgi organization	http://purl.obolibrary.org/obo/GO_0007030	Golgi organization
-http://purl.obolibrary.org/obo/GO_0042999	regulation of Golgi to plasma membrane CFTR protein transport	http://purl.obolibrary.org/obo/GO_0043000	Golgi to plasma membrane CFTR protein transport
 http://purl.obolibrary.org/obo/GO_0042996	regulation of Golgi to plasma membrane protein transport	http://purl.obolibrary.org/obo/GO_0043001	Golgi to plasma membrane protein transport
 http://purl.obolibrary.org/obo/GO_0048214	regulation of Golgi vesicle fusion to target membrane	http://purl.obolibrary.org/obo/GO_0048210	Golgi vesicle fusion to target membrane
 http://purl.obolibrary.org/obo/GO_0070808	regulation of Hulle cell development	http://purl.obolibrary.org/obo/GO_0070792	Hulle cell development
@@ -207,7 +206,6 @@ http://purl.obolibrary.org/obo/GO_0051136	regulation of NK T cell differentiatio
 http://purl.obolibrary.org/obo/GO_0051140	regulation of NK T cell proliferation	http://purl.obolibrary.org/obo/GO_0001866	NK T cell proliferation
 http://purl.obolibrary.org/obo/GO_1900225	regulation of NLRP3 inflammasome complex assembly	http://purl.obolibrary.org/obo/GO_0044546	NLRP3 inflammasome complex assembly
 http://purl.obolibrary.org/obo/GO_2000310	regulation of NMDA receptor activity	http://purl.obolibrary.org/obo/GO_0004972	NMDA glutamate receptor activity
-http://purl.obolibrary.org/obo/GO_1901719	regulation of NMS complex assembly	http://purl.obolibrary.org/obo/GO_0044768	NMS complex assembly
 http://purl.obolibrary.org/obo/GO_0008593	regulation of Notch signaling pathway	http://purl.obolibrary.org/obo/GO_0007219	Notch signaling pathway
 http://purl.obolibrary.org/obo/GO_0035480	regulation of Notch signaling pathway involved in heart induction	http://purl.obolibrary.org/obo/GO_0003137	Notch signaling pathway involved in heart induction
 http://purl.obolibrary.org/obo/GO_1902366	regulation of Notch signaling pathway involved in somitogenesis	http://purl.obolibrary.org/obo/GO_1902359	Notch signaling pathway involved in somitogenesis
@@ -1548,7 +1546,6 @@ http://purl.obolibrary.org/obo/GO_1903584	regulation of histone deubiquitination
 http://purl.obolibrary.org/obo/GO_0031060	regulation of histone methylation	http://purl.obolibrary.org/obo/GO_0016571	histone methylation
 http://purl.obolibrary.org/obo/GO_0031056	regulation of histone modification	http://purl.obolibrary.org/obo/GO_0016570	histone modification
 http://purl.obolibrary.org/obo/GO_0033182	regulation of histone ubiquitination	http://purl.obolibrary.org/obo/GO_0016574	histone ubiquitination
-http://purl.obolibrary.org/obo/GO_1901217	regulation of holin activity	http://purl.obolibrary.org/obo/GO_0034290	holin activity
 http://purl.obolibrary.org/obo/GO_0050666	regulation of homocysteine metabolic process	http://purl.obolibrary.org/obo/GO_0050667	homocysteine metabolic process
 http://purl.obolibrary.org/obo/GO_0060629	regulation of homologous chromosome segregation	http://purl.obolibrary.org/obo/GO_0045143	homologous chromosome segregation
 http://purl.obolibrary.org/obo/GO_1903385	regulation of homophilic cell adhesion	http://purl.obolibrary.org/obo/GO_0007156	homophilic cell adhesion via plasma membrane adhesion molecules
