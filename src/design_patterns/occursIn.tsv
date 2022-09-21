@@ -119,6 +119,7 @@ http://purl.obolibrary.org/obo/GO_0032366	intracellular sterol transport	http://
 http://purl.obolibrary.org/obo/GO_0046907	intracellular transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0006810	transport
 http://purl.obolibrary.org/obo/GO_0075733	intracellular transport of virus	http://purl.obolibrary.org/obo/GO_0043657	host cell	http://purl.obolibrary.org/obo/GO_0046794	transport of virus
 http://purl.obolibrary.org/obo/GO_0097283	keratinocyte apoptotic process	http://purl.obolibrary.org/obo/CL_0000312	keratinocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
+http://purl.obolibrary.org/obo/GO_0140909	kinetoplast DNA replication	http://purl.obolibrary.org/obo/GO_0020023	kinetoplast	http://purl.obolibrary.org/obo/GO_0006260	DNA replication
 http://purl.obolibrary.org/obo/GO_1990086	lens fiber cell apoptotic process	http://purl.obolibrary.org/obo/CL_0011004	lens fiber cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0071887	leukocyte apoptotic process	http://purl.obolibrary.org/obo/CL_0000738	leukocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0043299	leukocyte degranulation	http://purl.obolibrary.org/obo/CL_0000738	leukocyte	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
