@@ -644,6 +644,7 @@ http://purl.obolibrary.org/obo/GO_0070279	vitamin B6 binding	http://purl.obolibr
 http://purl.obolibrary.org/obo/GO_0005499	vitamin D binding	http://purl.obolibrary.org/obo/CHEBI_27300	vitamin D
 http://purl.obolibrary.org/obo/GO_0008431	vitamin E binding	http://purl.obolibrary.org/obo/CHEBI_33234	vitamin E
 http://purl.obolibrary.org/obo/GO_0019842	vitamin binding	http://purl.obolibrary.org/obo/GOCHE_33229	substance with vitamin (role) role
+http://purl.obolibrary.org/obo/GO_0160050	xanthine binding	http://purl.obolibrary.org/obo/CHEBI_15318	xanthine
 http://purl.obolibrary.org/obo/GO_0051738	xanthophyll binding	http://purl.obolibrary.org/obo/CHEBI_27325	xanthophyll
 http://purl.obolibrary.org/obo/GO_2001062	xylan binding	http://purl.obolibrary.org/obo/CHEBI_37166	xylan
 http://purl.obolibrary.org/obo/GO_0033222	xylose binding	http://purl.obolibrary.org/obo/CHEBI_18222	xylose
