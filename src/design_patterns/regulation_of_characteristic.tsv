@@ -32,6 +32,7 @@ http://purl.obolibrary.org/obo/GO_0035751	regulation of lysosomal lumen pH	http:
 http://purl.obolibrary.org/obo/GO_0097213	regulation of lysosomal membrane permeability	http://purl.obolibrary.org/obo/OBA_0000092	lysosomal membrane permeability
 http://purl.obolibrary.org/obo/GO_0043488	regulation of mRNA stability	http://purl.obolibrary.org/obo/OBA_0000093	mRNA stability
 http://purl.obolibrary.org/obo/GO_0097035	regulation of membrane lipid distribution	http://purl.obolibrary.org/obo/OBA_0000098	membrane lipid distribution
+http://purl.obolibrary.org/obo/GO_0090559	regulation of membrane permeability	http://purl.obolibrary.org/obo/OBA_1000028	membrane permeability
 http://purl.obolibrary.org/obo/GO_0042391	regulation of membrane potential	http://purl.obolibrary.org/obo/OBA_0000099	membrane potential
 http://purl.obolibrary.org/obo/GO_0035566	regulation of metanephros size	http://purl.obolibrary.org/obo/OBA_0000101	metanephric kidney size
 http://purl.obolibrary.org/obo/GO_0032532	regulation of microvillus length	http://purl.obolibrary.org/obo/OBA_0000102	microvillus length
@@ -54,7 +55,6 @@ http://purl.obolibrary.org/obo/GO_0031647	regulation of protein stability	http:/
 http://purl.obolibrary.org/obo/GO_0044357	regulation of rRNA stability	http://purl.obolibrary.org/obo/OBA_0000129	rRNA stability
 http://purl.obolibrary.org/obo/GO_0060075	regulation of resting membrane potential	http://purl.obolibrary.org/obo/OBA_0000134	resting membrane potential
 http://purl.obolibrary.org/obo/GO_0048172	regulation of short-term neuronal synaptic plasticity	http://purl.obolibrary.org/obo/OBA_0000136	short-term neuronal synaptic plasticity
-http://purl.obolibrary.org/obo/GO_0090225	regulation of spindle density	http://purl.obolibrary.org/obo/OBA_0000138	spindle density
 http://purl.obolibrary.org/obo/GO_0050803	regulation of synapse structure or activity	http://purl.obolibrary.org/obo/OBA_0000139	synapse structure and activity
 http://purl.obolibrary.org/obo/GO_0031916	regulation of synaptic metaplasticity	http://purl.obolibrary.org/obo/OBA_0000140	synaptic metaplasticity
 http://purl.obolibrary.org/obo/GO_0048167	regulation of synaptic plasticity	http://purl.obolibrary.org/obo/OBA_0000141	synaptic plasticity
@@ -69,3 +69,4 @@ http://purl.obolibrary.org/obo/GO_0035159	regulation of tube length, open trache
 http://purl.obolibrary.org/obo/GO_0035150	regulation of tube size	http://purl.obolibrary.org/obo/OBA_0000172	tube size
 http://purl.obolibrary.org/obo/GO_0035809	regulation of urine volume	http://purl.obolibrary.org/obo/OBA_0000173	urinary volume
 http://purl.obolibrary.org/obo/GO_0043114	regulation of vascular permeability	http://purl.obolibrary.org/obo/OBA_0000174	vascular permeability
+http://purl.obolibrary.org/obo/GO_0097494	regulation of vesicle size	http://purl.obolibrary.org/obo/OBA_1000142	vesicle size
