@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-05-16/imports/oba_import.owl
+data-version: go/releases/2022-10-11/imports/oba_import.owl
 ontology: go/imports/oba_import
 
 [Term]
@@ -91,11 +91,6 @@ is_a: OBA:0100003 ! anatomical entity attribute
 id: OBA:0000037
 is_obsolete: true
 replaced_by: PATO:0000276
-
-[Term]
-id: OBA:0000039
-is_obsolete: true
-replaced_by: PATO:0001420
 
 [Term]
 id: OBA:0000040
@@ -200,15 +195,10 @@ is_a: OBA:1000142 ! vesicle size
 [Term]
 id: OBA:0000072
 name: follicle cell microvillus length
-def: "The microvillus length of a ovarian follicle cell." []
-synonym: "microvillus length of ovarian follicle cell" EXACT []
-is_a: OBA:0000055 ! cell size
+def: "The microvillus length of a follicle cell of egg chamber." []
+synonym: "microvillus length of follicle cell of egg chamber" EXACT []
 is_a: OBA:0000102 ! microvillus length
-
-[Term]
-id: OBA:0000074
-is_obsolete: true
-replaced_by: OBA:1001087
+is_a: OBA:2040145 ! cell length
 
 [Term]
 id: OBA:0000079
@@ -427,13 +417,6 @@ is_a: OBA:0000099 ! membrane potential
 id: OBA:0000136
 name: short-term neuronal synaptic plasticity
 is_a: OBA:0000114 ! neuronal synaptic plasticity
-
-[Term]
-id: OBA:0000138
-name: spindle density
-def: "The amount of a spindle." []
-synonym: "amount of spindle" EXACT []
-is_a: OBA:1000078 ! attribute of organelle
 
 [Term]
 id: OBA:0000139
@@ -741,6 +724,13 @@ name: heart rate
 def: "The rate of a heart contraction." []
 synonym: "rate of heart contraction" EXACT []
 is_a: OBA:0100002 ! biological process attribute
+
+[Term]
+id: OBA:2040145
+name: cell length
+def: "The length of a native cell." []
+synonym: "length of native cell" EXACT []
+is_a: OBA:0000055 ! cell size
 
 [Term]
 id: OBA:VT0000056
