@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-08-25/imports/uberon_import.owl
+data-version: go/releases/2022-10-11/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -540,7 +540,6 @@ intersection_of: UBERON:0000045 ! ganglion
 intersection_of: extends_fibers_into UBERON:0001780 ! spinal nerve
 intersection_of: extends_fibers_into UBERON:0002261 ! dorsal root of spinal cord
 relationship: develops_from UBERON:0003083 ! trunk neural crest
-relationship: located_in UBERON:0006692 ! vertebral canal
 
 [Term]
 id: UBERON:0000045
@@ -548,7 +547,7 @@ name: ganglion
 def: "A biological tissue mass, most commonly a mass of nerve cell bodies." []
 synonym: "ganglia" RELATED []
 synonym: "neural ganglion" RELATED []
-is_a: UBERON:0010001 ! cell cluster organ
+is_a: UBERON:0000061 ! anatomical structure
 disjoint_from: UBERON:0002420 ! basal ganglion
 relationship: composed_primarily_of UBERON:0003714 ! neural tissue
 relationship: immediate_transformation_of UBERON:0003869 ! presumptive ganglion
@@ -1085,7 +1084,7 @@ intersection_of: part_of UBERON:0002048 ! lung
 [Term]
 id: UBERON:0000104
 name: life cycle
-def: "An entire span of an organism's life, commencing with the zygote stage and ending in the death of the organism." []
+def: "An entire span of an organism's life. In metazoans, commences with the zygote stage and ends with the death of the organism." []
 synonym: "entire life cycle" EXACT []
 synonym: "entire lifespan" EXACT []
 synonym: "life" EXACT []
@@ -1719,16 +1718,6 @@ synonym: "vertebral foramen of cervical vertebra 2" EXACT []
 is_a: UBERON:0003861 ! neural arch
 intersection_of: UBERON:0003861 ! neural arch
 intersection_of: part_of UBERON:0001093 ! vertebral bone 2
-
-[Term]
-id: UBERON:0000219
-name: vertebral foramen of atlas
-def: "." []
-synonym: "vertebral foramen of cervical vertebra 1" EXACT []
-is_a: UBERON:0001131 ! vertebral foramen
-is_a: UBERON:0005744 ! bone foramen
-intersection_of: UBERON:0001131 ! vertebral foramen
-intersection_of: part_of UBERON:0001092 ! vertebral bone 1
 
 [Term]
 id: UBERON:0000220
@@ -4856,19 +4845,6 @@ intersection_of: composed_primarily_of UBERON:0010913 ! vertebral element
 relationship: only_in_taxon NCBITaxon:7742
 relationship: part_of UBERON:0011138 ! postcranial axial skeletal system
 relationship: protects UBERON:0002240 ! spinal cord
-
-[Term]
-id: UBERON:0001131
-name: vertebral foramen
-def: "A foramen within a vertebral element through which the spinal cord runs. It is formed by the anterior segment, and the posterior part, the vertebral arch." []
-synonym: "foramen vertebrale" RELATED []
-synonym: "vertebra neural canal" EXACT []
-is_a: UBERON:0004111 ! anatomical conduit
-intersection_of: UBERON:0004111 ! anatomical conduit
-intersection_of: conduit_for UBERON:0002240 ! spinal cord
-intersection_of: lumen_of UBERON:0010913 ! vertebral element
-relationship: part_of UBERON:0006692 ! vertebral canal
-relationship: part_of UBERON:0010913 ! vertebral element
 
 [Term]
 id: UBERON:0001132
@@ -12058,21 +12034,6 @@ relationship: composed_primarily_of CL:0000542
 relationship: contributes_to_morphology_of UBERON:0002106 ! spleen
 
 [Term]
-id: UBERON:0001960
-name: periarterial lymphatic sheath
-def: "The area of the spleen in which T cells surround the central arteriole." []
-synonym: "PALS" EXACT []
-synonym: "periarterial lymphoid sheath" EXACT []
-synonym: "periarteriolar sheath" EXACT []
-synonym: "spleen periarteriolar lymphatic sheath" EXACT []
-synonym: "splenic periarteriolar lymphoid sheath" RELATED []
-synonym: "T cell domain of the splenic white pulp" EXACT []
-is_a: UBERON:0010393 ! T cell domain
-intersection_of: UBERON:0010393 ! T cell domain
-intersection_of: part_of UBERON:0001959 ! white pulp of spleen
-relationship: contributes_to_morphology_of UBERON:0001959 ! white pulp of spleen
-
-[Term]
 id: UBERON:0001961
 name: mucosa-associated lymphoid tissue
 def: "Diffuse system of small concentrations of lymphoid tissue found in various sites of the body such as the gastrointestinal tract, thyroid, breast, lung, salivary glands, eye, and skin[WP]. Mucosal-associated lymphoid tissue is typically found as nodules associated with mucosal epithelia with distinct internal structures including B- and T-zones for the activation of lymphocytes[GO]." []
@@ -12666,7 +12627,7 @@ is_a: UBERON:0000475 ! organism subdivision
 relationship: develops_from UBERON:0008425 ! mammary ridge
 relationship: only_in_taxon NCBITaxon:32525
 relationship: part_of UBERON:0000310 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! breast
-relationship: part_of UBERON:0001911 {gci_relation="part_of", gci_filler="NCBITaxon:10090"} ! mammary gland
+relationship: part_of UBERON:0001911 ! mammary gland
 
 [Term]
 id: UBERON:0002031
@@ -15637,7 +15598,7 @@ synonym: "glandulae endocrinae" RELATED []
 is_a: UBERON:0002530 ! gland
 intersection_of: UBERON:0002530 ! gland
 intersection_of: part_of UBERON:0000949 ! endocrine system
-relationship: capable_of GO:0060986
+relationship: capable_of GO:0046879
 
 [Term]
 id: UBERON:0002369
@@ -17916,7 +17877,6 @@ synonym: "vestibulocochlear ganglion vestibular component" RELATED []
 synonym: "vestibulocochlear VIII ganglion vestibular component" EXACT []
 is_a: UBERON:0001714 ! cranial ganglion
 is_a: UBERON:0001800 ! sensory ganglion
-is_a: UBERON:0006585 ! vestibular organ
 intersection_of: UBERON:0001714 ! cranial ganglion
 intersection_of: extends_fibers_into UBERON:0003723 ! vestibular nerve
 relationship: part_of UBERON:0001862 ! vestibular labyrinth
@@ -24032,21 +23992,6 @@ is_a: UBERON:0013685 ! foramen of skull
 intersection_of: UBERON:0013685 ! foramen of skull
 intersection_of: conduit_for UBERON:0001896 ! medulla oblongata
 relationship: located_in UBERON:0001676 ! occipital bone
-
-[Term]
-id: UBERON:0003691
-name: epidural space
-def: "The outermost part of the spinal canal. It is the space within the canal (formed by the surrounding vertebrae) lying outside the dura mater." []
-synonym: "cavum epidurale" EXACT []
-synonym: "cavum extradurale" EXACT []
-synonym: "epidural cavity" RELATED []
-synonym: "extradural space" EXACT []
-synonym: "spatium epidurale" EXACT []
-synonym: "spatium extradurale" EXACT []
-is_a: UBERON:0000464 ! anatomical space
-intersection_of: UBERON:0000464 ! anatomical space
-intersection_of: part_of UBERON:0006692 ! vertebral canal
-intersection_of: surrounds UBERON:0002363 ! dura mater
 
 [Term]
 id: UBERON:0003692
@@ -39372,23 +39317,6 @@ intersection_of: UBERON:0001638 ! vein
 intersection_of: part_of UBERON:0001130 ! vertebral column
 
 [Term]
-id: UBERON:0006692
-name: vertebral canal
-def: "A conduit enclosed within the vertebral foramen of the vertebrae through which the spinal cord passes." []
-synonym: "c. vertebralis" RELATED []
-synonym: "foramen vertebrale" RELATED []
-synonym: "neural canal" RELATED []
-synonym: "spinal canal" RELATED []
-synonym: "spinal cavity" RELATED []
-synonym: "vertebral canal" RELATED []
-is_a: UBERON:0004111 ! anatomical conduit
-intersection_of: UBERON:0004111 ! anatomical conduit
-intersection_of: conduit_for UBERON:0002240 ! spinal cord
-intersection_of: lumen_of UBERON:0001130 ! vertebral column
-relationship: part_of UBERON:0001130 ! vertebral column
-relationship: surrounds UBERON:0002240 ! spinal cord
-
-[Term]
 id: UBERON:0006694
 name: cerebellum vasculature
 def: "A vasculature that is part of a cerebellum." []
@@ -40536,7 +40464,6 @@ def: "Ganglion which is located in the trunk." []
 synonym: "body ganglion" EXACT []
 synonym: "trunk ganglia" EXACT []
 is_a: UBERON:0000045 ! ganglion
-is_a: UBERON:0005177 ! trunk region element
 intersection_of: UBERON:0000045 ! ganglion
 intersection_of: part_of UBERON:0002100 ! trunk
 
@@ -42530,24 +42457,6 @@ relationship: part_of UBERON:0000922 ! embryo
 relationship: part_of UBERON:0002100 ! trunk
 
 [Term]
-id: UBERON:0008429
-name: cervical vertebral foramen
-def: "A vertebral foramen that is part of a cervical vertebra." []
-is_a: UBERON:0001131 ! vertebral foramen
-is_a: UBERON:0005744 ! bone foramen
-intersection_of: UBERON:0001131 ! vertebral foramen
-intersection_of: part_of UBERON:0002413 ! cervical vertebra
-
-[Term]
-id: UBERON:0008432
-name: thoracic vertebral foramen
-def: "A vertebral foramen that is part of a thoracic vertebra." []
-is_a: UBERON:0001131 ! vertebral foramen
-is_a: UBERON:0005744 ! bone foramen
-intersection_of: UBERON:0001131 ! vertebral foramen
-intersection_of: part_of UBERON:0002347 ! thoracic vertebra
-
-[Term]
 id: UBERON:0008434
 name: cervical vertebral arch
 def: "A neural arch that is part of a cervical vertebra." []
@@ -44307,7 +44216,6 @@ intersection_of: extends_fibers_into UBERON:0001780 ! spinal nerve
 intersection_of: extends_fibers_into UBERON:0002240 ! spinal cord
 relationship: contributes_to_morphology_of UBERON:0001780 ! spinal nerve
 relationship: contributes_to_morphology_of UBERON:0002240 ! spinal cord
-relationship: located_in UBERON:0006692 ! vertebral canal
 
 [Term]
 id: UBERON:0009630
@@ -44647,7 +44555,6 @@ id: UBERON:0009758
 name: abdominal ganglion
 def: "A ganglion that is part of a abdominal segment of trunk." []
 is_a: UBERON:0000045 ! ganglion
-is_a: UBERON:0005173 ! abdominal segment element
 intersection_of: UBERON:0000045 ! ganglion
 intersection_of: part_of UBERON:0002417 ! abdominal segment of trunk
 
@@ -45218,14 +45125,6 @@ is_a: UBERON:0000061 ! anatomical structure
 intersection_of: UBERON:0000061 ! anatomical structure
 intersection_of: has_quality PATO:0001993
 relationship: has_part CL:0000000
-
-[Term]
-id: UBERON:0010001
-name: cell cluster organ
-def: "A small cluster of cells of various types which form a discrete structure, largely delimited by a morphological boundary and whose components work together to make the whole structure capable of a specific function." []
-is_a: UBERON:0000062 ! organ
-is_a: UBERON:0034922 ! cell cluster
-disjoint_from: UBERON:0011216 ! organ system subdivision
 
 [Term]
 id: UBERON:0010009
@@ -46785,14 +46684,6 @@ intersection_of: part_of UBERON:0001211 ! Peyer's patch
 relationship: contributes_to_morphology_of UBERON:0001211 ! Peyer's patch
 
 [Term]
-id: UBERON:0010387
-name: Peyer's patch T cell area
-def: "The Peyer's patch area normally occupied by T lymphocytes." []
-is_a: UBERON:0010393 ! T cell domain
-intersection_of: UBERON:0010393 ! T cell domain
-intersection_of: part_of UBERON:0001211 ! Peyer's patch
-
-[Term]
 id: UBERON:0010388
 name: proximal segment of rib
 def: "The segment of the rib that connects to a vertebra[MP]. a small part of the rib composed of the head, neck, tuberculum and a short proximal part of the body[PMID]." []
@@ -46832,29 +46723,6 @@ is_a: UBERON:0000464 ! anatomical space
 intersection_of: UBERON:0000464 ! anatomical space
 intersection_of: luminal_space_of UBERON:0000057 ! urethra
 relationship: part_of UBERON:0000057 ! urethra
-
-[Term]
-id: UBERON:0010392
-name: B cell domain
-is_a: UBERON:0010394 ! lymphocyte domain
-intersection_of: UBERON:0010394 ! lymphocyte domain
-intersection_of: has_part CL:0000236
-
-[Term]
-id: UBERON:0010393
-name: T cell domain
-is_a: UBERON:0010394 ! lymphocyte domain
-intersection_of: UBERON:0010394 ! lymphocyte domain
-intersection_of: has_part CL:0000084
-
-[Term]
-id: UBERON:0010394
-name: lymphocyte domain
-is_a: UBERON:0010001 ! cell cluster organ
-intersection_of: UBERON:0010001 ! cell cluster organ
-intersection_of: composed_primarily_of CL:0000542
-relationship: only_in_taxon NCBITaxon:7711
-relationship: part_of UBERON:0002465 ! lymphoid system
 
 [Term]
 id: UBERON:0010395
@@ -46917,33 +46785,6 @@ synonym: "periepididymal fat pad" EXACT []
 is_a: UBERON:0003916 ! fat pad
 intersection_of: UBERON:0003916 ! fat pad
 intersection_of: part_of UBERON:0001301 ! epididymis
-
-[Term]
-id: UBERON:0010416
-name: lymph node B cell domain
-def: "A part of the lymph node cortex in which B lymphocytes home to primary follicles to survey follicular dendritic cells (FDCs); antigen stimulated B cells proliferate and differentiate within the follicles forming distinctive germinal centers." []
-synonym: "lymph node B cell dependent cortex" EXACT []
-synonym: "lymph node B-cell domain" EXACT []
-synonym: "nodular lymph node cortex" EXACT []
-is_a: UBERON:0010392 ! B cell domain
-intersection_of: UBERON:0010392 ! B cell domain
-intersection_of: part_of UBERON:0000029 ! lymph node
-relationship: part_of UBERON:0002006 ! cortex of lymph node
-
-[Term]
-id: UBERON:0010417
-name: lymph node T cell domain
-def: "The paracortex and interfollicular cortex of the lymph node in which T lymphocytes home to survey dendritic cells." []
-synonym: "lymph node deep cortex" EXACT []
-synonym: "lymph node T cell dependent paracortex" EXACT []
-synonym: "lymph node T zone" EXACT []
-synonym: "lymph node T-cell domain" EXACT []
-synonym: "T cell zone of lymph node" EXACT []
-synonym: "T zone of lymph node" EXACT []
-is_a: UBERON:0010393 ! T cell domain
-intersection_of: UBERON:0010393 ! T cell domain
-intersection_of: part_of UBERON:0000029 ! lymph node
-relationship: part_of UBERON:0002006 ! cortex of lymph node
 
 [Term]
 id: UBERON:0010418
@@ -59387,11 +59228,6 @@ xref: RO:0001025
 id: location_of
 name: location of
 xref: RO:0001015
-
-[Typedef]
-id: lumen_of
-name: lumen of
-xref: RO:0002571
 
 [Typedef]
 id: luminal_space_of
