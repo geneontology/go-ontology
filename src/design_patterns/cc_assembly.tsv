@@ -160,6 +160,7 @@ http://purl.obolibrary.org/obo/GO_1903232	melanosome assembly	http://purl.obolib
 http://purl.obolibrary.org/obo/GO_0071709	membrane assembly	http://purl.obolibrary.org/obo/GO_0016020	membrane
 http://purl.obolibrary.org/obo/GO_0001765	membrane raft assembly	http://purl.obolibrary.org/obo/GO_0045121	membrane raft
 http://purl.obolibrary.org/obo/GO_1990120	messenger ribonucleoprotein complex assembly	http://purl.obolibrary.org/obo/GO_1990124	messenger ribonucleoprotein complex
+http://purl.obolibrary.org/obo/GO_0160054	microfibril assembly	http://purl.obolibrary.org/obo/GO_0001527	microfibril
 http://purl.obolibrary.org/obo/GO_0030035	microspike assembly	http://purl.obolibrary.org/obo/GO_0044393	microspike
 http://purl.obolibrary.org/obo/GO_0046785	microtubule polymerization	http://purl.obolibrary.org/obo/GO_0005874	microtubule
 http://purl.obolibrary.org/obo/GO_0030034	microvillar actin bundle assembly	http://purl.obolibrary.org/obo/GO_0097516	microvillar actin bundle
