@@ -8,10 +8,9 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-08-25/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-10-11/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -41,12 +40,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
@@ -70,12 +63,6 @@
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/license -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -4637,16 +4624,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000338">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000047"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33511"/>
-                    </owl:Class>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <oboInOwl:hasBroadSynonym>neuroblast</oboInOwl:hasBroadSynonym>
         <rdfs:label>neuroblast (sensu Nematoda and Protostomia)</rdfs:label>
     </owl:Class>
@@ -4676,16 +4653,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000341">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000147"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33511"/>
-                    </owl:Class>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label>pigment cell (sensu Nematoda and Protostomia)</rdfs:label>
     </owl:Class>
     
@@ -4882,16 +4849,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000385">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000390"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33511"/>
-                    </owl:Class>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label>prohemocyte (sensu Nematoda and Protostomia)</rdfs:label>
     </owl:Class>
     
@@ -4961,16 +4918,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000390">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000081"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33511"/>
-                    </owl:Class>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label>blood cell (sensu Nematoda and Protostomia)</rdfs:label>
     </owl:Class>
     
@@ -5463,7 +5410,6 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>Langerhans cell is a conventional dendritic cell that has plasma membrane part CD207. A Langerhans cell is a stellate dendritic cell of myeloid origin, that appears clear on light microscopy and has a dark-staining, indented nucleus and characteristic inclusions (Birbeck granules) in the cytoplasm; Langerhans cells are found principally in the stratum spinosum of the epidermis, but they also occur in other stratified epithelia and have been identified in the lung, lymph nodes, spleen, and thymus.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>LC</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Langerhans&apos; cell</oboInOwl:hasExactSynonym>
         <rdfs:label>Langerhans cell</rdfs:label>
     </owl:Class>
     
@@ -6061,16 +6007,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000519">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000234"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33511"/>
-                    </owl:Class>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A phagocyte from organisms in the Nematoda or Protostomia clades.</obo:IAO_0000115>
         <rdfs:label>phagocyte (sensu Nematoda and Protostomia)</rdfs:label>
     </owl:Class>
@@ -6081,16 +6017,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000520">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:allValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
-                    </owl:Class>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label>prokaryotic cell</rdfs:label>
     </owl:Class>
     
@@ -9011,9 +8937,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>immune cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>leucocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>white blood cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>immune cell</oboInOwl:hasRelatedSynonym>
         <rdfs:label>leukocyte</rdfs:label>
     </owl:Class>
     
@@ -16932,31 +16858,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_0001068 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0001068">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0001067"/>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001909"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001067"/>
-        <obo:IAO_0000115>A group 1 innate lymphoid cell that is non-cytotoxic.</obo:IAO_0000115>
-        <rdfs:label>ILC1</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CL_0001069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0001069">
@@ -22082,16 +21983,6 @@
     <!-- http://purl.obolibrary.org/obo/CL_0002371 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002371">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000003"/>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000039"/>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
         <obo:IAO_0000115>A cell of an organism that does not pass on its genetic material to the organism&apos;s offspring (i.e. a non-germ line cell).</obo:IAO_0000115>
         <rdfs:label>somatic cell</rdfs:label>
@@ -32317,12 +32208,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0001909 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001909"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0001913 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0001913"/>
@@ -33922,12 +33807,6 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33208 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33511 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33511"/>
     
 
 
