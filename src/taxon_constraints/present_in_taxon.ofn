@@ -1,4 +1,4 @@
-Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(:=<urn:unnamed:ontology#ont1>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -10,10 +10,18 @@ Ontology(<urn:unnamed:ontology#ont1>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007507>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050881>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050959>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_687454>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_7227>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9397>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9722>))
 Declaration(Class(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#a5570108f6b4f0b195236b0c252c68879b2d85da>))
+Declaration(Class(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#0f3020a31eefa1fd5e31274c51145609608ebee8>))
+Declaration(Class(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#00eb006fb5f3a851e11b760d4cb9ba4cb80b546b>))
 Declaration(Class(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#3b7cb0265ca3a1c2760a0014674a60c29ed96e5e>))
+Declaration(Class(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#92dd503e978e7f21f36c82f28e363877d495891b>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#source>))
 
 
 
@@ -26,10 +34,25 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#a5570108f6b4f0b195236b0c252c68879b2d85da> "musculoskeletal movement in Drosophila melanogaster"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#a5570108f6b4f0b195236b0c252c68879b2d85da> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0050881> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_7227>)))
 
+# Class: <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#0f3020a31eefa1fd5e31274c51145609608ebee8> (echolocation in Chiroptera)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#0f3020a31eefa1fd5e31274c51145609608ebee8> "echolocation in Chiroptera"^^xsd:string)
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "PMID:34140356"^^xsd:string) <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#0f3020a31eefa1fd5e31274c51145609608ebee8> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0050959> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9397>)))
+
+# Class: <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#00eb006fb5f3a851e11b760d4cb9ba4cb80b546b> (echolocation in Odontoceti)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#00eb006fb5f3a851e11b760d4cb9ba4cb80b546b> "echolocation in Odontoceti"^^xsd:string)
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "PMID:34140356"^^xsd:string) <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#00eb006fb5f3a851e11b760d4cb9ba4cb80b546b> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0050959> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9722>)))
+
 # Class: <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#3b7cb0265ca3a1c2760a0014674a60c29ed96e5e> (heart development in Drosophila melanogaster)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#3b7cb0265ca3a1c2760a0014674a60c29ed96e5e> "heart development in Drosophila melanogaster"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#3b7cb0265ca3a1c2760a0014674a60c29ed96e5e> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0007507> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_7227>)))
+
+# Class: <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#92dd503e978e7f21f36c82f28e363877d495891b> (echolocation in Typhlomys)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#92dd503e978e7f21f36c82f28e363877d495891b> "echolocation in Typhlomys"^^xsd:string)
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "PMID:34140356"^^xsd:string) <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#92dd503e978e7f21f36c82f28e363877d495891b> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0050959> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_687454>)))
 
 
 )
