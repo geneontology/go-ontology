@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-08-25/imports/cl_import.owl
+data-version: go/releases/2022-10-11/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -2080,7 +2080,6 @@ disjoint_from: CL:0000542 ! lymphocyte
 id: CL:0000453
 name: Langerhans cell
 def: "Langerhans cell is a conventional dendritic cell that has plasma membrane part CD207. A Langerhans cell is a stellate dendritic cell of myeloid origin, that appears clear on light microscopy and has a dark-staining, indented nucleus and characteristic inclusions (Birbeck granules) in the cytoplasm; Langerhans cells are found principally in the stratum spinosum of the epidermis, but they also occur in other stratified epithelia and have been identified in the lung, lymph nodes, spleen, and thymus." []
-synonym: "Langerhans' cell" EXACT []
 synonym: "LC" EXACT []
 is_a: CL:0000990 ! conventional dendritic cell
 intersection_of: CL:0000990 ! conventional dendritic cell
@@ -3564,7 +3563,7 @@ disjoint_from: CL:0008000 ! non-striated muscle cell
 id: CL:0000738
 name: leukocyte
 def: "An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue." []
-synonym: "immune cell" EXACT []
+synonym: "immune cell" RELATED []
 synonym: "leucocyte" EXACT []
 synonym: "white blood cell" EXACT []
 is_a: CL:0000988 ! hematopoietic cell
@@ -6665,12 +6664,6 @@ def: "An innate lymphoid cell that is capable of producing the type 1 cytokine I
 is_a: CL:0001065 ! innate lymphoid cell
 intersection_of: CL:0001065 ! innate lymphoid cell
 intersection_of: RO:0002215 GO:0032609
-
-[Term]
-id: CL:0001068
-name: ILC1
-def: "A group 1 innate lymphoid cell that is non-cytotoxic." []
-is_a: CL:0001067 ! group 1 innate lymphoid cell
 
 [Term]
 id: CL:0001069
