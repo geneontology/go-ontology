@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-08-04/imports/opl_import.owl
+data-version: go/releases/2022-10-11/imports/opl_import.owl
 ontology: go/imports/opl_import
 
 [Term]
@@ -81,6 +81,7 @@ intersection_of: part_of NCBITaxon:7393
 id: OPL:0000232
 name: parasite organism
 def: "An organism living in, with, or on another organism in parasitism. Individual members of parasite species, such as Leishmania, Plasmodium, Trypanosoma, etc. are members of this class." []
+is_a: BFO:0000004
 is_a: OBI:0100026
 intersection_of: OBI:0100026
 intersection_of: has_role IDO:0000403
@@ -89,6 +90,7 @@ intersection_of: has_role IDO:0000403
 id: OPL:0000322
 name: Trypanosomatida metacyclic stage
 def: "A parasite lifecycle stage of trypanosomatidae in which the organism is infectious and does not multiply." []
+is_a: BFO:0000015
 is_a: OPL:0000181 ! parasite lifecycle stage
 intersection_of: only_in_taxon NCBITaxon:5654
 intersection_of: realizes IDO:0000404
@@ -97,6 +99,7 @@ intersection_of: realizes IDO:0000404
 id: OPL:0000323
 name: Trypanosomatida procyclic stage
 def: "A parasite lifecycle stage of trypanosomatidae in which the organism is in dividing form and it occurs in fly vector." []
+is_a: BFO:0000003
 is_a: OPL:0000181 ! parasite lifecycle stage
 
 [Typedef]
