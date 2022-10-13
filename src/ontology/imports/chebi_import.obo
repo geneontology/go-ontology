@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-07-08/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-10-13/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -3743,9 +3743,9 @@ is_a: CHEBI:2651 ! alpha-aminoacyl-tRNA
 
 [Term]
 id: CHEBI:132537
-name: N(4)-(alpha-D-Glc-(1->2)-alpha-D-Glc-(1->3)-alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl residue
+name: N(4)-(alpha-D-Glc-(1->2)-alpha-D-Glc-(1->3)-alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-beta-D-GlcNAc)-L-asparaginyl residue
 subset: chebi_ph7_3
-is_a: CHEBI:132529 ! N(4)-(oligosaccharide-(1->4)-N-acetyl-beta-D-glucosaminyl-(1->4)-N-acetyl-beta-D-glucosaminyl)-L-asparagine residue
+is_a: CHEBI:192714 ! an N(4)-(oligosaccharide-(1->3)-[oligosaccharide-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl residue
 
 [Term]
 id: CHEBI:132538
@@ -16075,6 +16075,7 @@ is_a: CHEBI:52209 ! aetiopathogenetic role
 id: CHEBI:139493
 name: N(4)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-beta-D-GlcNAc]-L-Asn residue
 subset: chebi_ph7_3
+is_a: CHEBI:192714 ! an N(4)-(oligosaccharide-(1->3)-[oligosaccharide-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl residue
 is_a: CHEBI:59108 ! N(4)-glycosylated L-asparagine residue
 
 [Term]
@@ -18912,6 +18913,12 @@ is_a: CHEBI:35348 ! 3beta-sterol
 is_a: CHEBI:36836 ! 3beta-hydroxy steroid
 
 [Term]
+id: CHEBI:143576
+name: anthocyanidin betaine
+subset: chebi_ph7_3
+is_a: CHEBI:138177 ! 4-unsubstituted 3-hydroxyanthocyanidin betaine
+
+[Term]
 id: CHEBI:143593
 name: beta-galactosylceramide
 subset: chebi_ph7_3
@@ -19176,6 +19183,7 @@ is_a: CHEBI:50860 ! organic molecular entity
 id: CHEBI:144775
 name: delphinidin(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:143576 ! anthocyanidin betaine
 is_a: CHEBI:25696 ! organic anion
 relationship: has_role CHEBI:26130 ! biological pigment
 relationship: has_role CHEBI:35610 ! antineoplastic agent
@@ -19184,18 +19192,21 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:144776
 name: delphinidin 3-O-beta-D-glucoside betaine
+is_a: CHEBI:16307 ! anthocyanidin 3-O-beta-D-glucoside
 is_a: CHEBI:51978 ! oxonium betaine
 
 [Term]
 id: CHEBI:144777
 name: pelargonidin(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:143576 ! anthocyanidin betaine
 is_a: CHEBI:25696 ! organic anion
 
 [Term]
 id: CHEBI:144778
 name: pelargonidin 3-O-beta-D-glucoside betaine
 subset: chebi_ph7_3
+is_a: CHEBI:16307 ! anthocyanidin 3-O-beta-D-glucoside
 is_a: CHEBI:51978 ! oxonium betaine
 
 [Term]
@@ -22052,6 +22063,7 @@ is_a: CHEBI:36188 ! malate ester
 id: CHEBI:15597
 name: (2R)-2-O-phosphonato-3-sulfonatolactate(4-)
 subset: chebi_ph7_3
+is_a: CHEBI:193092 ! O-phospho-3-sulfolactate(4-)
 is_a: CHEBI:61693 ! carboxyalkyl phosphate oxoanion
 
 [Term]
@@ -31461,12 +31473,13 @@ is_a: CHEBI:25622 ! orthoquinones
 
 [Term]
 id: CHEBI:17037
-name: geissoschizine
+name: (19E)-geissoschizine
 subset: chebi_ph7_3
 is_a: CHEBI:25248 ! methyl ester
 is_a: CHEBI:33823 ! enol
 is_a: CHEBI:38163 ! organic heterotetracyclic compound
 is_a: CHEBI:38958 ! indole alkaloid
+relationship: has_role CHEBI:76924 ! plant metabolite
 
 [Term]
 id: CHEBI:17038
@@ -35373,7 +35386,7 @@ is_a: CHEBI:60086 ! lipid A oxoanion
 
 [Term]
 id: CHEBI:176431
-name: an alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-(acyl)2-lipid A(6-)
+name: an alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-lipid A(6-)
 subset: chebi_ph7_3
 is_a: CHEBI:60086 ! lipid A oxoanion
 is_a: CHEBI:62643 ! anionic phospholipid
@@ -39509,7 +39522,8 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 id: CHEBI:18314
 name: L-2-aminopentanoic acid
 is_a: CHEBI:19475 ! 2-aminopentanoic acid
-is_a: CHEBI:83922 ! (R)-fenbuconazole
+relationship: has_role CHEBI:35526 ! hypoglycemic agent
+relationship: has_role CHEBI:63726 ! neuroprotective agent
 relationship: has_role CHEBI:76969 ! bacterial metabolite
 
 [Term]
@@ -40489,12 +40503,6 @@ subset: chebi_ph7_3
 is_a: CHEBI:25350 ! mevalonate
 
 [Term]
-id: CHEBI:187903
-name: luteolin 4'-O-beta-D-glucoside(1-)
-subset: chebi_ph7_3
-is_a: CHEBI:60038 ! flavonoid oxoanion
-
-[Term]
 id: CHEBI:188092
 name: Lyso-PAF C-16-d4
 is_a: CHEBI:78196 ! monoalkylglycerophosphocholine
@@ -40786,11 +40794,13 @@ relationship: has_role CHEBI:25212 ! metabolite
 [Term]
 id: CHEBI:190689
 name: Leu-enkephalin zwitterion
+subset: chebi_ph7_3
 is_a: CHEBI:60466 ! peptide zwitterion
 
 [Term]
 id: CHEBI:190692
 name: substance P(3+)
+subset: chebi_ph7_3
 is_a: CHEBI:25676 ! oligopeptide
 
 [Term]
@@ -40809,6 +40819,11 @@ id: CHEBI:19092
 name: 1-pyrroline
 is_a: CHEBI:23763 ! pyrroline
 is_a: CHEBI:24783 ! imine
+
+[Term]
+id: CHEBI:190958
+name: 1-palmitoyl-2-lauroyl-sn-glycero-3-phosphorylcholine
+is_a: CHEBI:57643 ! 1,2-diacyl-sn-glycero-3-phosphocholine
 
 [Term]
 id: CHEBI:19098
@@ -40874,6 +40889,7 @@ is_a: CHEBI:35556 ! pyrrole
 [Term]
 id: CHEBI:1921
 name: 4-oxocyclohexanecarboxylic acid
+is_a: CHEBI:23482 ! cyclohexanones
 is_a: CHEBI:35952 ! 5-oxo monocarboxylic acid
 
 [Term]
@@ -40894,15 +40910,33 @@ name: 2'-deoxyadenosine 5'-phosphate
 is_a: CHEBI:19239 ! 2'-deoxyadenosine phosphate
 
 [Term]
+id: CHEBI:192377
+name: 2,4-dihydroxypyrimidine-5-carboxylic acid
+is_a: CHEBI:26447 ! pyrimidinemonocarboxylic acid
+is_a: CHEBI:38340 ! hydroxypyrimidine
+
+[Term]
 id: CHEBI:19239
 name: 2'-deoxyadenosine phosphate
 is_a: CHEBI:23612 ! deoxyadenosine phosphate
+
+[Term]
+id: CHEBI:192499
+name: anthoxanthin
+is_a: CHEBI:47916 ! flavonoid
 
 [Term]
 id: CHEBI:19252
 name: 2'-deoxyribonucleoside 3'-monophosphate
 is_a: CHEBI:19257 ! 2'-deoxyribonucleoside monophosphate
 is_a: CHEBI:37014 ! 2'-deoxyribonucleoside 3'-phosphate
+
+[Term]
+id: CHEBI:192527
+name: ochratoxin alpha(1-)
+is_a: CHEBI:36683 ! organochlorine compound
+is_a: CHEBI:38758 ! isocoumarins
+is_a: CHEBI:38762 ! isochromanes
 
 [Term]
 id: CHEBI:19254
@@ -40918,6 +40952,11 @@ is_a: CHEBI:18274 ! 2'-deoxyribonucleoside
 is_a: CHEBI:68472 ! pyrimidine deoxyribonucleoside
 
 [Term]
+id: CHEBI:192560
+name: N(tele)-methyl-L-histidine zwitterion
+is_a: CHEBI:27369 ! zwitterion
+
+[Term]
 id: CHEBI:19257
 name: 2'-deoxyribonucleoside monophosphate
 is_a: CHEBI:17188 ! nucleoside 5'-monophosphate
@@ -40930,9 +40969,29 @@ is_a: CHEBI:4431 ! deoxyribonucleotide
 is_a: CHEBI:47018 ! monohydroxytetrahydrofuran
 
 [Term]
+id: CHEBI:192698
+name: L-altritol
+is_a: CHEBI:24583 ! hexitol
+
+[Term]
+id: CHEBI:192708
+name: a (Kdo)3-lipid IVA(7-)
+is_a: CHEBI:60373 ! lipid IVA oxoanion
+
+[Term]
+id: CHEBI:192714
+name: an N(4)-(oligosaccharide-(1->3)-[oligosaccharide-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl residue
+is_a: CHEBI:132529 ! N(4)-(oligosaccharide-(1->4)-N-acetyl-beta-D-glucosaminyl-(1->4)-N-acetyl-beta-D-glucosaminyl)-L-asparagine residue
+
+[Term]
 id: CHEBI:19274
 name: 2'-deoxymugineic acid
 is_a: CHEBI:27093 ! tricarboxylic acid
+
+[Term]
+id: CHEBI:192797
+name: carcininium
+is_a: CHEBI:65296 ! primary ammonium ion
 
 [Term]
 id: CHEBI:19281
@@ -40941,10 +41000,59 @@ is_a: CHEBI:26961 ! thiophenes
 is_a: CHEBI:36820 ! ring assembly
 
 [Term]
+id: CHEBI:192831
+name: (E,E)-piperate
+is_a: CHEBI:29067 ! carboxylic acid anion
+
+[Term]
 id: CHEBI:19298
 name: 2,3,5-trichloro-cis,cis-muconate(2-)
 subset: chebi_ph7_3
 is_a: CHEBI:38411 ! chlorocarboxylic acid anion
+
+[Term]
+id: CHEBI:193024
+name: an alpha-Kdo-(2->8)-[alpha-Kdo-(2->4)]-alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-lipid IVA(8-)
+is_a: CHEBI:60373 ! lipid IVA oxoanion
+
+[Term]
+id: CHEBI:193025
+name: an alpha-Kdo-(2->4)-alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-lipid IVA(7-)
+is_a: CHEBI:60373 ! lipid IVA oxoanion
+
+[Term]
+id: CHEBI:193059
+name: psilocinium
+is_a: CHEBI:137982 ! tertiary ammonium ion
+
+[Term]
+id: CHEBI:193068
+name: an L-alpha-D-Hep-(1->5)-[alpha-Kdo-(2->4)]-alpha-Kdo-(2->6)-lipid A(6-)
+is_a: CHEBI:60086 ! lipid A oxoanion
+is_a: CHEBI:62643 ! anionic phospholipid
+is_a: CHEBI:63551 ! carbohydrate acid derivative anion
+
+[Term]
+id: CHEBI:193069
+name: an L-alpha-D-Hep-(1->3)-L-alpha-D-Hep-(1->5)-[alpha-Kdo-(2->4)]-alpha-Kdo-(2->6)-lipid A(6-)
+is_a: CHEBI:60086 ! lipid A oxoanion
+is_a: CHEBI:62643 ! anionic phospholipid
+is_a: CHEBI:63551 ! carbohydrate acid derivative anion
+
+[Term]
+id: CHEBI:193073
+name: (S)-nephthenol
+is_a: CHEBI:60687 ! cembrane diterpenoid
+
+[Term]
+id: CHEBI:193092
+name: O-phospho-3-sulfolactate(4-)
+is_a: CHEBI:61693 ! carboxyalkyl phosphate oxoanion
+
+[Term]
+id: CHEBI:193107
+name: N(6),N(6)-dimethyl-L-lysinium
+is_a: CHEBI:62031 ! polar amino acid zwitterion
 
 [Term]
 id: CHEBI:19324
@@ -44933,6 +45041,12 @@ is_a: CHEBI:26816 ! carbohydrate phosphate
 is_a: CHEBI:63353 ! disaccharide derivative
 
 [Term]
+id: CHEBI:23847
+name: diterpene alkaloid
+is_a: CHEBI:23849 ! diterpenoid
+is_a: CHEBI:26871 ! terpene alkaloid
+
+[Term]
 id: CHEBI:23849
 name: diterpenoid
 is_a: CHEBI:26873 ! terpenoid
@@ -45215,6 +45329,7 @@ relationship: has_role CHEBI:23357 ! cofactor
 id: CHEBI:24043
 name: flavones
 subset: chebi_ph7_3
+is_a: CHEBI:192499 ! anthoxanthin
 is_a: CHEBI:47916 ! flavonoid
 
 [Term]
@@ -47060,7 +47175,6 @@ is_a: CHEBI:25750 ! oxime
 id: CHEBI:24990
 name: kynurenamines
 is_a: CHEBI:48975 ! substituted aniline
-is_a: CHEBI:50994 ! primary amino compound
 is_a: CHEBI:76224 ! aromatic ketone
 
 [Term]
@@ -47987,6 +48101,7 @@ is_a: CHEBI:25524 ! NAD(P)
 id: CHEBI:25524
 name: NAD(P)
 is_a: CHEBI:37007 ! nicotinamide dinucleotide
+is_a: CHEBI:61293 ! adenyl nucleotide
 relationship: has_role CHEBI:23354 ! coenzyme
 
 [Term]
@@ -48714,6 +48829,7 @@ name: peroxides
 subset: chebi_ph7_3
 is_a: CHEBI:25741 ! oxide
 relationship: has_part CHEBI:29369 ! peroxy group
+relationship: has_role CHEBI:63248 ! oxidising agent
 
 [Term]
 id: CHEBI:25941
@@ -50333,6 +50449,12 @@ is_a: CHEBI:36836 ! 3beta-hydroxy steroid
 is_a: CHEBI:36863 ! 22-hydroxy steroid
 is_a: CHEBI:36866 ! 23-hydroxy steroid
 is_a: CHEBI:36883 ! 6-oxo steroid
+
+[Term]
+id: CHEBI:26871
+name: terpene alkaloid
+is_a: CHEBI:22315 ! alkaloid
+is_a: CHEBI:26873 ! terpenoid
 
 [Term]
 id: CHEBI:26872
@@ -53901,7 +54023,7 @@ relationship: has_role CHEBI:76989 ! phytoestrogen
 id: CHEBI:28199
 name: ferrienterobactin(3-)
 is_a: CHEBI:25696 ! organic anion
-is_a: CHEBI:33892 ! iron coordination entity
+is_a: CHEBI:84734 ! Fe(III)-complexed siderophore
 relationship: has_part CHEBI:38150 ! enterobactin(6-)
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 
@@ -55417,6 +55539,7 @@ is_a: CHEBI:59644 ! oxo fatty acid
 id: CHEBI:28715
 name: 5-hydroxykynurenamine
 is_a: CHEBI:24705 ! hydroxykynurenamine
+is_a: CHEBI:50994 ! primary amino compound
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
@@ -55773,6 +55896,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 id: CHEBI:28802
 name: flavonols
 subset: chebi_ph7_3
+is_a: CHEBI:192499 ! anthoxanthin
 is_a: CHEBI:24698 ! hydroxyflavone
 
 [Term]
@@ -55787,6 +55911,7 @@ id: CHEBI:28804
 name: D-2-aminopentanoic acid
 is_a: CHEBI:16733 ! D-alpha-amino acid
 is_a: CHEBI:19475 ! 2-aminopentanoic acid
+relationship: has_role CHEBI:77953 ! EC 6.1.1.4 (leucine--tRNA ligase) inhibitor
 
 [Term]
 id: CHEBI:28806
@@ -60672,6 +60797,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 id: CHEBI:31832
 name: methyl salicylate
 subset: chebi_ph7_3
+is_a: CHEBI:25248 ! methyl ester
 is_a: CHEBI:26596 ! salicylates
 is_a: CHEBI:36054 ! benzoate ester
 relationship: has_role CHEBI:24850 ! insect attractant
@@ -65547,10 +65673,21 @@ relationship: has_role CHEBI:24527 ! herbicide
 
 [Term]
 id: CHEBI:34907
-name: Paxilline
+name: paxilline
 subset: chebi_ph7_3
-is_a: CHEBI:26979 ! organic heterotricyclic compound
-is_a: CHEBI:36963 ! organooxygen compound
+is_a: CHEBI:23847 ! diterpene alkaloid
+is_a: CHEBI:26878 ! tertiary alcohol
+is_a: CHEBI:51689 ! enone
+is_a: CHEBI:51914 ! organic heterohexacyclic compound
+is_a: CHEBI:65321 ! terpenoid indole alkaloid
+relationship: has_role CHEBI:176497 ! geroprotector
+relationship: has_role CHEBI:25442 ! mycotoxin
+relationship: has_role CHEBI:35623 ! anticonvulsant
+relationship: has_role CHEBI:50509 ! potassium channel blocker
+relationship: has_role CHEBI:50902 ! genotoxin
+relationship: has_role CHEBI:60186 ! EC 3.6.3.8 (Ca(2+)-transporting ATPase) inhibitor
+relationship: has_role CHEBI:76956 ! Aspergillus metabolite
+relationship: has_role CHEBI:76964 ! Penicillium metabolite
 
 [Term]
 id: CHEBI:34911
@@ -90604,7 +90741,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 
 [Term]
 id: CHEBI:57545
-name: 2-(3,4-dihydroxyphenyl)-5-hydroxy-4-oxo-4H-chromen-7-olate luteolin-7-olate(1-)
+name: luteolin-7-olate
 subset: chebi_ph7_3
 is_a: CHEBI:60038 ! flavonoid oxoanion
 
@@ -96148,7 +96285,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:58470
 name: apigenin-7-olate
 subset: chebi_ph7_3
-is_a: CHEBI:25696 ! organic anion
+is_a: CHEBI:60038 ! flavonoid oxoanion
 
 [Term]
 id: CHEBI:58471
@@ -96537,7 +96674,7 @@ is_a: CHEBI:25696 ! organic anion
 id: CHEBI:58540
 name: (Kdo)2-lipid A(6-) (E. coli)
 subset: chebi_ph7_3
-is_a: CHEBI:176431 ! an alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-(acyl)2-lipid A(6-)
+is_a: CHEBI:176431 ! an alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-lipid A(6-)
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 is_a: CHEBI:62643 ! anionic phospholipid
 is_a: CHEBI:63551 ! carbohydrate acid derivative anion
@@ -96808,7 +96945,7 @@ is_a: CHEBI:59139 ! gibberellin carboxylic acid anion
 [Term]
 id: CHEBI:58588
 name: flavonol oxoanion
-is_a: CHEBI:25696 ! organic anion
+is_a: CHEBI:60038 ! flavonoid oxoanion
 
 [Term]
 id: CHEBI:58589
@@ -98854,6 +98991,7 @@ relationship: has_role CHEBI:33282 ! antibacterial agent
 id: CHEBI:59080
 name: N-\{alpha-Glc-(1->3)-alpha-Man-(1->2)-alpha-Man-(1->2)-alpha-Man-(1->3)-[alpha-Man-(1->2)-alpha-Man-(1->3)-[alpha-Man-(1->2)-alpha-Man-(1->6)]-alpha-Man-(1->6)]-beta-Man-(1->4)-beta-GlcNAc-(1->4)-beta-GlcNAc}-L-Asn residue
 subset: chebi_ph7_3
+is_a: CHEBI:192714 ! an N(4)-(oligosaccharide-(1->3)-[oligosaccharide-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl residue
 is_a: CHEBI:59108 ! N(4)-glycosylated L-asparagine residue
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
@@ -98861,6 +98999,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 id: CHEBI:59082
 name: N-\{alpha-Glc-(1->3)-alpha-Glc-(1->3)-alpha-Man-(1->2)-alpha-Man-(1->2)-alpha-Man-(1->3)-[alpha-Man-(1->2)-alpha-Man-(1->3)-[alpha-Man-(1->2)-alpha-Man-(1->6)]-alpha-Man-(1->6)]-beta-Man-(1->4)-beta-GlcNAc-(1->4)-beta-GlcNAc}-L-Asn residue
 subset: chebi_ph7_3
+is_a: CHEBI:192714 ! an N(4)-(oligosaccharide-(1->3)-[oligosaccharide-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc)-L-asparaginyl residue
 is_a: CHEBI:59108 ! N(4)-glycosylated L-asparagine residue
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
@@ -100637,7 +100776,7 @@ is_a: CHEBI:36465 ! cis-1,6-dihydroxycyclohexa-2,4-dienecarboxylate
 [Term]
 id: CHEBI:60151
 name: oxidised LDL
-is_a: CHEBI:6495 ! lipoprotein
+is_a: CHEBI:39026 ! low-density lipoprotein
 
 [Term]
 id: CHEBI:60152
@@ -100684,6 +100823,11 @@ is_a: CHEBI:26543 ! rhamnogalacturonan
 id: CHEBI:60175
 name: 5-hydroxylysine
 is_a: CHEBI:86498 ! hydroxylysine
+
+[Term]
+id: CHEBI:60186
+name: EC 3.6.3.8 (Ca(2+)-transporting ATPase) inhibitor
+is_a: CHEBI:76895 ! EC 3.6.3.* (acid anhydride hydrolase catalysing transmembrane movement of substances) inhibitor
 
 [Term]
 id: CHEBI:60187
@@ -101039,6 +101183,7 @@ is_a: CHEBI:60373 ! lipid IVA oxoanion
 id: CHEBI:60367
 name: (KDO)3-lipid IVA(7-)
 subset: chebi_ph7_3
+is_a: CHEBI:193025 ! an alpha-Kdo-(2->4)-alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-lipid IVA(7-)
 is_a: CHEBI:60373 ! lipid IVA oxoanion
 
 [Term]
@@ -101821,12 +101966,6 @@ id: CHEBI:60863
 name: (1S,6R)-6-ammonio-5-oxocyclohex-2-ene-1-carboxylate
 subset: chebi_ph7_3
 is_a: CHEBI:60860 ! 6-ammonio-5-oxocyclohex-2-ene-1-carboxylate
-
-[Term]
-id: CHEBI:60869
-name: (3-aminopropyl)(L-aspartyl-1-amino)phosphoryl-5'-adenosine
-is_a: CHEBI:37773 ! organic phosphoramidate
-is_a: CHEBI:48116 ! nucleotide-amino acid
 
 [Term]
 id: CHEBI:60870
@@ -103461,6 +103600,7 @@ is_a: CHEBI:79020 ! alpha,beta-unsaturated monocarboxylic acid
 id: CHEBI:61502
 name: heptosyl-(KDO)2-lipid A(6-)
 subset: chebi_ph7_3
+is_a: CHEBI:193068 ! an L-alpha-D-Hep-(1->5)-[alpha-Kdo-(2->4)]-alpha-Kdo-(2->6)-lipid A(6-)
 is_a: CHEBI:60086 ! lipid A oxoanion
 
 [Term]
@@ -103479,6 +103619,7 @@ is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 id: CHEBI:61507
 name: (heptosyl)2-(KDO)2-lipid A(6-)
 subset: chebi_ph7_3
+is_a: CHEBI:193069 ! an L-alpha-D-Hep-(1->3)-L-alpha-D-Hep-(1->5)-[alpha-Kdo-(2->4)]-alpha-Kdo-(2->6)-lipid A(6-)
 is_a: CHEBI:60086 ! lipid A oxoanion
 
 [Term]
@@ -115351,15 +115492,6 @@ relationship: has_role CHEBI:25212 ! metabolite
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
-id: CHEBI:68986
-name: luteolin-4'-O-beta-D-glucopyranoside
-is_a: CHEBI:22798 ! beta-D-glucoside
-is_a: CHEBI:27116 ! trihydroxyflavone
-is_a: CHEBI:50018 ! glycosyloxyflavone
-is_a: CHEBI:63367 ! monosaccharide derivative
-relationship: has_role CHEBI:76924 ! plant metabolite
-
-[Term]
 id: CHEBI:69042
 name: 7-demethylsuberosin
 subset: chebi_ph7_3
@@ -117680,6 +117812,7 @@ is_a: CHEBI:60334 ! peptide anion
 id: CHEBI:71682
 name: cyanidin(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:143576 ! anthocyanidin betaine
 is_a: CHEBI:25696 ! organic anion
 
 [Term]
@@ -133404,6 +133537,7 @@ is_a: CHEBI:78298 ! environmental contaminant
 id: CHEBI:77857
 name: cyanidin 3-O-beta-D-glucoside(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:16307 ! anthocyanidin 3-O-beta-D-glucoside
 is_a: CHEBI:25696 ! organic anion
 
 [Term]
@@ -133748,6 +133882,11 @@ id: CHEBI:77951
 name: versicolorin B(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:50525 ! phenolate anion
+
+[Term]
+id: CHEBI:77953
+name: EC 6.1.1.4 (leucine--tRNA ligase) inhibitor
+is_a: CHEBI:75416 ! EC 6.1.1.* (ligases forming aminoacyl tRNA and related compounds) inhibitor
 
 [Term]
 id: CHEBI:77956
@@ -141284,26 +141423,6 @@ is_a: CHEBI:59835 ! hydroxy fatty acid anion
 is_a: CHEBI:67013 ! methyl-branched fatty acid anion
 
 [Term]
-id: CHEBI:83920
-name: 4-(4-chlorophenyl)-2-phenyl-2-(1,2,4-triazol-1-ylmethyl)butanenitrile
-subset: chebi_ph7_3
-is_a: CHEBI:18379 ! nitrile
-is_a: CHEBI:35727 ! triazoles
-is_a: CHEBI:83403 ! monochlorobenzenes
-
-[Term]
-id: CHEBI:83921
-name: (S)-fenbuconazole
-subset: chebi_ph7_3
-is_a: CHEBI:83920 ! 4-(4-chlorophenyl)-2-phenyl-2-(1,2,4-triazol-1-ylmethyl)butanenitrile
-
-[Term]
-id: CHEBI:83922
-name: (R)-fenbuconazole
-subset: chebi_ph7_3
-is_a: CHEBI:83920 ! 4-(4-chlorophenyl)-2-phenyl-2-(1,2,4-triazol-1-ylmethyl)butanenitrile
-
-[Term]
 id: CHEBI:83925
 name: non-proteinogenic alpha-amino acid
 is_a: CHEBI:33704 ! alpha-amino acid
@@ -141343,9 +141462,9 @@ is_a: CHEBI:57880 ! 1-phosphatidyl-1D-myo-inositol(1-)
 
 [Term]
 id: CHEBI:83940
-name: 1-stearoyl-2-acyl-sn-glycero-3-phospho-(1D-myo-inositol)(1-)
 subset: chebi_ph7_3
-is_a: CHEBI:57880 ! 1-phosphatidyl-1D-myo-inositol(1-)
+is_obsolete: true
+replaced_by: CHEBI:65055
 
 [Term]
 id: CHEBI:83941
@@ -146908,12 +147027,14 @@ is_a: CHEBI:60086 ! lipid A oxoanion
 id: CHEBI:86234
 name: alpha-Kdo-(2->8)-alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-lipid IVA(7-)
 subset: chebi_ph7_3
+is_a: CHEBI:192708 ! a (Kdo)3-lipid IVA(7-)
 is_a: CHEBI:60373 ! lipid IVA oxoanion
 
 [Term]
 id: CHEBI:86236
 name: alpha-Kdo-(2->8)-[alpha-Kdo-(2->4)]-alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-lipid IVA(8-)
 subset: chebi_ph7_3
+is_a: CHEBI:193024 ! an alpha-Kdo-(2->8)-[alpha-Kdo-(2->4)]-alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-lipid IVA(8-)
 is_a: CHEBI:60373 ! lipid IVA oxoanion
 
 [Term]
