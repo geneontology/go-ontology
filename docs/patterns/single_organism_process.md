@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-`{process}`  and ([bearer of](http://purl.obolibrary.org/obo/RO_0000053) some [single organismal process quality](http://purl.obolibrary.org/obo/PATO_0002487))
+`{process}`  and ([has characteristic](http://purl.obolibrary.org/obo/RO_0000053) some [single organismal process quality](http://purl.obolibrary.org/obo/PATO_0002487))
 
 
 
