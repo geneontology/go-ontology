@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/so_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2021-12-14/imports/so_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-10-13/imports/so_import.owl"/>
     </owl:Ontology>
     
 
@@ -30,6 +30,12 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
     
 
 
@@ -2293,27 +2299,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001798"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The inner inverted repeat region of a modular centromere and part of the central core surrounding a non-conserved central region. This region is adjacent to the central core, on each chromosome arm.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:vw</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SO_0001799 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001799">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001797"/>
-        <obo:IAO_0000115>The heterochromatic outer repeat region of a modular centromere. These repeats exist in tandem arrays on both chromosome arms.</obo:IAO_0000115>
-        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
-        <oboInOwl:creation_date>2011-05-31T01:03:23Z</oboInOwl:creation_date>
-        <oboInOwl:hasExactSynonym>regional centromere outer repeat region</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>SO:0001799</oboInOwl:id>
-        <rdfs:label>regional_centromere_outer_repeat_region</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001799"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The heterochromatic outer repeat region of a modular centromere. These repeats exist in tandem arrays on both chromosome arms.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:vw</oboInOwl:hasDbXref>
     </owl:Axiom>
     
