@@ -539,18 +539,18 @@ EXTERNAL2GO_DBS = EC KEGG_REACTION MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD
 .PHONY: generate-mappings
 generate-mappings: $(ONT)-pre.owl
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals $(EXTERNAL2GO_DBS)
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/interpro2go -O external2go/interpro2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pfam2go -O external2go/pfam2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pirsf2go -O external2go/pirsf2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prints2go -O external2go/prints2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prodom2go -O external2go/prodom2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prosite2go -O external2go/prosite2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/smart2go -O external2go/smart2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_kw2go -O external2go/uniprotkb_kw2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_sl2go -O external2go/uniprotkb_sl2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/unirule2go -O external2go/unirule2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/hamap2go -O external2go/hamap2go
-	wget http://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/rfam2go/rfam2go -O external2go/rfam2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/interpro2go -O external2go/interpro2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pfam2go -O external2go/pfam2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pirsf2go -O external2go/pirsf2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prints2go -O external2go/prints2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prodom2go -O external2go/prodom2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prosite2go -O external2go/prosite2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/smart2go -O external2go/smart2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_kw2go -O external2go/uniprotkb_kw2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_sl2go -O external2go/uniprotkb_sl2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/unirule2go -O external2go/unirule2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/hamap2go -O external2go/hamap2go
+	wget https://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/rfam2go/rfam2go -O external2go/rfam2go
 
 # ----------------------------------------
 # TAXON GROUPINGS
