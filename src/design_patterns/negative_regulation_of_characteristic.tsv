@@ -2,7 +2,6 @@ defined_class	defined_class_label	characteristic	characteristic_label
 http://purl.obolibrary.org/obo/GO_0007042	lysosomal lumen acidification	http://purl.obolibrary.org/obo/OBA_0000091	lysosomal lumen pH
 http://purl.obolibrary.org/obo/GO_0061754	negative regulation of circulating fibrinogen levels	http://purl.obolibrary.org/obo/OBA_0000061	circulating fibrinogen levels
 http://purl.obolibrary.org/obo/GO_0044720	negative regulation of imaginal disc-derived wing size	http://purl.obolibrary.org/obo/OBA_0000084	imaginal disc-derived wing size
-http://purl.obolibrary.org/obo/GO_0101029	negative regulation of liquid surface tension	http://purl.obolibrary.org/obo/OBA_0000088	liquid surface tension
 http://purl.obolibrary.org/obo/GO_0048171	negative regulation of long-term neuronal synaptic plasticity	http://purl.obolibrary.org/obo/OBA_0000089	long-term neuronal synaptic plasticity
 http://purl.obolibrary.org/obo/GO_0061767	negative regulation of lung blood pressure	http://purl.obolibrary.org/obo/OBA_0000090	lung blood pressure
 http://purl.obolibrary.org/obo/GO_0097215	negative regulation of lysosomal membrane permeability	http://purl.obolibrary.org/obo/OBA_0000092	lysosomal membrane permeability
