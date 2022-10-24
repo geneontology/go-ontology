@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/oba_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-05-16/imports/oba_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-10-11/imports/oba_import.owl"/>
     </owl:Ontology>
     
 
@@ -312,15 +312,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0000039 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000039">
-        <obo:IAO_0100001>PATO:0001420</obo:IAO_0100001>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBA_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000040">
@@ -480,20 +471,11 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000072 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000072">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000055"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000102"/>
-        <obo:IAO_0000115>The microvillus length of a ovarian follicle cell.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>microvillus length of ovarian follicle cell</oboInOwl:hasExactSynonym>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_2040145"/>
+        <obo:IAO_0000115>The microvillus length of a follicle cell of egg chamber.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>microvillus length of follicle cell of egg chamber</oboInOwl:hasExactSynonym>
         <rdfs:label>follicle cell microvillus length</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_0000074 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000074">
-        <obo:IAO_0100001>OBA:1001087</obo:IAO_0100001>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -836,17 +818,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000136">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000114"/>
         <rdfs:label>short-term neuronal synaptic plasticity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBA_0000138 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000138">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
-        <obo:IAO_0000115>The amount of a spindle.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>amount of spindle</oboInOwl:hasExactSynonym>
-        <rdfs:label>spindle density</rdfs:label>
     </owl:Class>
     
 
@@ -1322,6 +1293,17 @@
         <obo:IAO_0000115>The rate of a heart contraction.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>rate of heart contraction</oboInOwl:hasExactSynonym>
         <rdfs:label>heart rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_2040145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_2040145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000055"/>
+        <obo:IAO_0000115>The length of a native cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>length of native cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>cell length</rdfs:label>
     </owl:Class>
     
 

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-01-19/imports/ro_import.owl
+data-version: go/releases/2022-10-13/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -474,6 +474,14 @@ is_a: has_potential_to_develop_into ! has potential to develop into
 is_a: has_potential_to_directly_develop_into ! has potential to directly develop into
 
 [Typedef]
+id: device_utilizes_material
+name: device utilizes material
+def: "X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y." []
+synonym: "utilizes" BROAD []
+xref: RO:0017001
+holds_over_chain: capable_of has_input
+
+[Typedef]
 id: directly_negatively_regulated_by
 name: directly negatively regulated by
 def: "Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1." []
@@ -642,13 +650,6 @@ id: evolutionarily_related_to
 name: evolutionarily related to
 def: "A relationship that holds via some environmental process" []
 xref: RO:0002320
-
-[Typedef]
-id: exports
-name: exports
-def: "Holds between p and c when p is a transportation or localization process and the outcome of this process is to move c to a destination that is part of some s, where the end location of c is part of the region that surrounds s." []
-xref: RO:0002345
-is_a: transports ! transports
 
 [Typedef]
 id: formed_as_result_of
@@ -984,13 +985,6 @@ holds_over_chain: ends_with starts_with
 is_a: precedes ! precedes
 
 [Typedef]
-id: imports
-name: imports
-def: "Holds between p and c when p is a transportation or localization process and the outcome of this process is to move c to a destination that is part of some s, where the start location of c is part of the region that surrounds s." []
-xref: RO:0002340
-is_a: transports ! transports
-
-[Typedef]
 id: in_taxon
 name: in taxon
 def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
@@ -1160,6 +1154,7 @@ xref: RO:0002131
 holds_over_chain: has_part overlaps
 holds_over_chain: has_part part_of
 holds_over_chain: part_of part_of
+is_symmetric: true
 is_a: mereotopologically_related_to ! mereotopologically related to
 transitive_over: part_of ! part of
 
@@ -1331,13 +1326,6 @@ xref: RO:0002332
 domain: BFO:0000015 ! process
 range: BFO:0000040 ! material entity
 is_a: functionally_related_to ! functionally related to
-
-[Typedef]
-id: regulates_transport_of
-name: regulates transport of
-def: "A relationship that holds between a  process that regulates a transport process and the entity transported by that process." []
-xref: RO:0002011
-holds_over_chain: regulates transports_or_maintains_localization_of
 
 [Typedef]
 id: related_via_localization_to
@@ -1567,26 +1555,4 @@ def: "x transformation of y if x is the immediate transformation of y, or is lin
 xref: RO:0002494
 is_transitive: true
 is_a: develops_from ! develops from
-
-[Typedef]
-id: transports
-name: transports
-def: "Holds between p and c when p is a transport process or transporter activity and the outcome of this p is to move c from one location to another." []
-xref: RO:0002020
-is_a: transports_or_maintains_localization_of ! transports or maintains localization of
-
-[Typedef]
-id: transports_or_maintains_localization_of
-name: transports or maintains localization of
-def: "Holds between p and c when p is a localization process (localization covers maintenance of localization as well as its establishment)  and the outcome of this process is to regulate the localization of c." []
-xref: RO:0002313
-is_a: related_via_localization_to ! related via localization to
-is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
-
-[Typedef]
-id: utilizes
-name: utilizes
-def: "X utilizes Y means X and Y are material entities, and X is capable of some process P that has input Y." []
-xref: RO:0017001
-holds_over_chain: capable_of has_input
 

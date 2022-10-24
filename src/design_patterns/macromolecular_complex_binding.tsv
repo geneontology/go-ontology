@@ -42,7 +42,7 @@ http://purl.obolibrary.org/obo/GO_0031713	B2 bradykinin receptor binding	http://
 http://purl.obolibrary.org/obo/GO_1904288	BAT3 complex binding	http://purl.obolibrary.org/obo/GO_0071818	BAT3 complex
 http://purl.obolibrary.org/obo/GO_0062063	BBSome binding	http://purl.obolibrary.org/obo/GO_0034464	BBSome
 http://purl.obolibrary.org/obo/GO_0036461	BLOC-2 complex binding	http://purl.obolibrary.org/obo/GO_0031084	BLOC-2 complex
-http://purl.obolibrary.org/obo/GO_0036122	BMP binding	http://purl.obolibrary.org/obo/PR_000000034	BMP
+http://purl.obolibrary.org/obo/GO_0036122	BMP binding	http://purl.obolibrary.org/obo/PR_000000034	bone morphogenetic protein
 http://purl.obolibrary.org/obo/GO_0031714	C5a anaphylatoxin chemotactic receptor binding	http://purl.obolibrary.org/obo/PR_000001105	C5a anaphylatoxin chemotactic receptor
 http://purl.obolibrary.org/obo/GO_0031727	CCR2 chemokine receptor binding	http://purl.obolibrary.org/obo/PR_000001199	C-C chemokine receptor type 2
 http://purl.obolibrary.org/obo/GO_0031728	CCR3 chemokine receptor binding	http://purl.obolibrary.org/obo/PR_000001255	C-C chemokine receptor type 3
@@ -111,7 +111,7 @@ http://purl.obolibrary.org/obo/GO_0120325	NuRD complex binding	http://purl.oboli
 http://purl.obolibrary.org/obo/GO_0106140	P-TEFb complex binding	http://purl.obolibrary.org/obo/GO_0070691	P-TEFb complex
 http://purl.obolibrary.org/obo/GO_0140259	PRC1 complex binding	http://purl.obolibrary.org/obo/GO_0035102	PRC1 complex
 http://purl.obolibrary.org/obo/GO_0062066	PSII associated light-harvesting complex II binding	http://purl.obolibrary.org/obo/GO_0009517	PSII associated light-harvesting complex II
-http://purl.obolibrary.org/obo/GO_0039552	RIG-I binding	http://purl.obolibrary.org/obo/PR_000029394	ATP-dependent RNA helicase DDX58
+http://purl.obolibrary.org/obo/GO_0039552	RIG-I binding	http://purl.obolibrary.org/obo/PR_000029394	antiviral innate immune response receptor RIG-I
 http://purl.obolibrary.org/obo/GO_1905172	RISC complex binding	http://purl.obolibrary.org/obo/GO_0016442	RISC complex
 http://purl.obolibrary.org/obo/GO_0003723	RNA binding	http://purl.obolibrary.org/obo/CHEBI_33697	ribonucleic acid
 http://purl.obolibrary.org/obo/GO_0044197	Rel homology domain binding	http://purl.obolibrary.org/obo/PR_000001442	blood group Rh(D) polypeptide
@@ -313,7 +313,7 @@ http://purl.obolibrary.org/obo/GO_0003690	double-stranded DNA binding	http://pur
 http://purl.obolibrary.org/obo/GO_0003725	double-stranded RNA binding	http://purl.obolibrary.org/obo/CHEBI_67208	double-stranded RNA
 http://purl.obolibrary.org/obo/GO_0070840	dynein complex binding	http://purl.obolibrary.org/obo/GO_0030286	dynein complex
 http://purl.obolibrary.org/obo/GO_0045503	dynein light chain binding	http://purl.obolibrary.org/obo/PR_000002201	dynein light chain
-http://purl.obolibrary.org/obo/GO_0002162	dystroglycan binding	http://purl.obolibrary.org/obo/PR_000006267	dystroglycan
+http://purl.obolibrary.org/obo/GO_0002162	dystroglycan binding	http://purl.obolibrary.org/obo/PR_000006267	dystroglycan 1
 http://purl.obolibrary.org/obo/GO_0035100	ecdysone binding	http://purl.obolibrary.org/obo/CHEBI_16688	ecdysone
 http://purl.obolibrary.org/obo/GO_0033294	ectoine binding	http://purl.obolibrary.org/obo/CHEBI_58515	ectoine zwitterion
 http://purl.obolibrary.org/obo/GO_0031707	endothelin A receptor binding	http://purl.obolibrary.org/obo/PR_000001221	endothelin-1 receptor
@@ -416,7 +416,7 @@ http://purl.obolibrary.org/obo/GO_0034710	inhibin complex binding	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0043533	inositol 1,3,4,5 tetrakisphosphate binding	http://purl.obolibrary.org/obo/CHEBI_57895	1D-myo-inositol 1,3,4,5-tetrakisphosphate(8-)
 http://purl.obolibrary.org/obo/GO_0070679	inositol 1,4,5 trisphosphate binding	http://purl.obolibrary.org/obo/CHEBI_203600	1D-myo-inositol 1,4,5-trisphosphate(6-)
 http://purl.obolibrary.org/obo/GO_0000822	inositol hexakisphosphate binding	http://purl.obolibrary.org/obo/CHEBI_58130	myo-inositol hexakisphosphate(12-)
-http://purl.obolibrary.org/obo/GO_0043559	insulin binding	http://purl.obolibrary.org/obo/PR_000009054	insulin
+http://purl.obolibrary.org/obo/GO_0043559	insulin binding	http://purl.obolibrary.org/obo/PR_000009054	insulin gene translation product
 http://purl.obolibrary.org/obo/GO_0005158	insulin receptor binding	http://purl.obolibrary.org/obo/PR_000009064	insulin receptor
 http://purl.obolibrary.org/obo/GO_0031994	insulin-like growth factor I binding	http://purl.obolibrary.org/obo/PR_000009182	insulin-like growth factor I
 http://purl.obolibrary.org/obo/GO_0031995	insulin-like growth factor II binding	http://purl.obolibrary.org/obo/PR_000008942	insulin-like growth factor II

@@ -2275,6 +2275,7 @@ http://purl.obolibrary.org/obo/GO_1902006	negative regulation of proline biosynt
 http://purl.obolibrary.org/obo/GO_2001157	negative regulation of proline catabolic process to glutamate	http://purl.obolibrary.org/obo/GO_0010133	proline catabolic process to glutamate
 http://purl.obolibrary.org/obo/GO_1902835	negative regulation of proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905647	proline import across plasma membrane
 http://purl.obolibrary.org/obo/GO_2000215	negative regulation of proline metabolic process	http://purl.obolibrary.org/obo/GO_0006560	proline metabolic process
+http://purl.obolibrary.org/obo/GO_0140847	negative regulation of promoter clearance from RNA polymerase II promoter	http://purl.obolibrary.org/obo/GO_0001111	RNA polymerase II promoter clearance
 http://purl.obolibrary.org/obo/GO_1900207	negative regulation of pronephric nephron tubule development	http://purl.obolibrary.org/obo/GO_0039020	pronephric nephron tubule development
 http://purl.obolibrary.org/obo/GO_0031393	negative regulation of prostaglandin biosynthetic process	http://purl.obolibrary.org/obo/GO_0001516	prostaglandin biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905829	negative regulation of prostaglandin catabolic process	http://purl.obolibrary.org/obo/GO_1905344	prostaglandin catabolic process

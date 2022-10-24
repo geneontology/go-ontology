@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-12-14/imports/so_import.owl
+data-version: go/releases/2022-10-13/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -952,16 +952,6 @@ synonym: "regional centromere inner repeat region" EXACT []
 is_a: SO:0001797 ! centromeric_repeat
 created_by: kareneilbeck
 creation_date: 2011-05-31T01:01:08Z
-
-[Term]
-id: SO:0001799
-name: regional_centromere_outer_repeat_region
-namespace: sequence
-def: "The heterochromatic outer repeat region of a modular centromere. These repeats exist in tandem arrays on both chromosome arms." [SO:vw]
-synonym: "regional centromere outer repeat region" EXACT []
-is_a: SO:0001797 ! centromeric_repeat
-created_by: kareneilbeck
-creation_date: 2011-05-31T01:03:23Z
 
 [Term]
 id: SO:0001801
