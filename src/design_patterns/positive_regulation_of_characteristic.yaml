@@ -7,13 +7,13 @@ description: >-
 
 classes:
   biological regulation: "GO:0065007"
-  biological attribute: "OBA:0000001"
+  characteristic: "PATO:0000001"
 
 relations: 
   positively regulates characteristic: "RO:0019001"
 
 vars:
- characteristic: "'biological attribute'"
+ characteristic: "'characteristic'"
 
 name:
      text: "positive regulation of %s"
