@@ -40,6 +40,7 @@ def main(rheaFile: os.Path, goFile: os.Path, catalog: os.Path, outfile: os.Path)
   val RHEAPattern = raw"RHEA:(.+)".r
   val axioms = (for {
     AnnotationAssertion(anns, HasDbXref, goTermIRI: IRI, RHEAPattern(id) ^^ _) <- goAxioms
+    if !isDeprecated(goTermIRI, go)
     if !anns.exists {
       case Annotation(_, Source, ("skos:narrowMatch" ^^ _) | ("skos:relatedMatch" ^^ _)) => true
       case _ => false
@@ -55,6 +56,13 @@ def main(rheaFile: os.Path, goFile: os.Path, catalog: os.Path, outfile: os.Path)
   val ontology = OWLManager.createOWLOntologyManager().createOntology(axioms.asJava, IRI.create("http://purl.obolibrary.org/obo/go/imports/go-catalytic-activities-participants.owl"))
   manager.saveOntology(ontology, new RDFXMLDocumentFormat(), IRI.create(outfile.toIO))
 }
+
+def isDeprecated(term: IRI, ontology: OWLOntology) = 
+  EntitySearcher.getAnnotationObjects(term, ontology, OWLManager.getOWLDataFactory().getOWLDeprecated()).asScala
+  .flatMap(_.getValue().asLiteral().asSet().asScala).exists {
+    case "true" ^^ _ => true
+    case _ => false
+  }
 
 def ecXrefs(term: OWLClass, rhea: OWLOntology): Set[String] = {
   val ECPattern = raw"EC:(.+)".r
