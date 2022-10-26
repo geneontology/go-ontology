@@ -13,6 +13,8 @@ http://purl.obolibrary.org/obo/GO_0016243	regulation of autophagosome size	http:
 http://purl.obolibrary.org/obo/GO_0031133	regulation of axon diameter	http://purl.obolibrary.org/obo/OBA_0000023	axon diameter
 http://purl.obolibrary.org/obo/GO_0065008	regulation of biological quality	http://purl.obolibrary.org/obo/OBA_0000001	biological attribute
 http://purl.obolibrary.org/obo/GO_0050878	regulation of body fluid levels	http://purl.obolibrary.org/obo/OBA_0000036	body fluid levels
+http://purl.obolibrary.org/obo/GO_0060378	regulation of brood size	http://purl.obolibrary.org/obo/PATO_0000276	brood size
+http://purl.obolibrary.org/obo/GO_0031413	regulation of buoyancy	http://purl.obolibrary.org/obo/PATO_0001420	buoyancy
 http://purl.obolibrary.org/obo/GO_0086036	regulation of cardiac muscle cell membrane potential	http://purl.obolibrary.org/obo/OBA_0000046	cardiac muscle cell membrane potential
 http://purl.obolibrary.org/obo/GO_0060305	regulation of cell diameter	http://purl.obolibrary.org/obo/OBA_0000048	cell diameter
 http://purl.obolibrary.org/obo/GO_0032536	regulation of cell projection size	http://purl.obolibrary.org/obo/OBA_0000051	cell projection size
@@ -46,6 +48,7 @@ http://purl.obolibrary.org/obo/GO_0014881	regulation of myofibril size	http://pu
 http://purl.obolibrary.org/obo/GO_0048168	regulation of neuronal synaptic plasticity	http://purl.obolibrary.org/obo/OBA_0000114	neuronal synaptic plasticity
 http://purl.obolibrary.org/obo/GO_0001505	regulation of neurotransmitter levels	http://purl.obolibrary.org/obo/OBA_0000116	neurotransmitter levels
 http://purl.obolibrary.org/obo/GO_0097298	regulation of nucleus size	http://purl.obolibrary.org/obo/OBA_0000117	nuclear size
+http://purl.obolibrary.org/obo/GO_0006885	regulation of pH	http://purl.obolibrary.org/obo/PATO_0001842	acidity
 http://purl.obolibrary.org/obo/GO_0044375	regulation of peroxisome size	http://purl.obolibrary.org/obo/OBA_0000122	peroxisome size
 http://purl.obolibrary.org/obo/GO_0097036	regulation of plasma membrane sterol distribution	http://purl.obolibrary.org/obo/OBA_0000123	plasma membrane sterol distribution
 http://purl.obolibrary.org/obo/GO_0044656	regulation of post-lysosomal vacuole size	http://purl.obolibrary.org/obo/OBA_0000124	post-lysosomal vacuole size
