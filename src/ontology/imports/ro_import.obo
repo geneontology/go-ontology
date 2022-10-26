@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-10-13/imports/ro_import.owl
+data-version: go/releases/2022-10-26/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -294,7 +294,7 @@ is_a: causally_related_to ! causally related to
 [Typedef]
 id: causal_relation_between_processes
 name: causal relation between processes
-def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q." []
+def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one where the execution of p influences the execution of q. p may be upstream, downstream, part of, or a container of q." []
 xref: RO:0002501
 domain: BFO:0000003 ! occurrent
 range: BFO:0000003 ! occurrent
@@ -336,13 +336,13 @@ is_a: causal_relation_between_entities ! causal relation between entities
 [Typedef]
 id: causally_related_to
 name: causally related to
-def: "This relation groups causal relations between material entities and causal relations between processes" []
+def: "relation that links two events, processes, states, or objects such that one event, process, state, or object (a cause) contributes to the production of another event, process, state, or object (an effect) where the cause is partly or wholly responsible for the effect, and the effect is partly or wholly dependent on the cause." []
 xref: RO:0002410
 
 [Typedef]
 id: causally_upstream_of
 name: causally upstream of
-def: "p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain" []
+def: "p is causally upstream of q iff p is causally related to q, the end of p precedes the end of q, and p is not an occurrent part of q." []
 xref: RO:0002411
 is_transitive: true
 is_a: causally_upstream_of_or_within ! causally upstream of or within
@@ -351,6 +351,7 @@ is_a: precedes ! precedes
 [Typedef]
 id: causally_upstream_of,_negative_effect
 name: causally upstream of, negative effect
+def: "p is causally upstream of, negative effect q iff p is casually upstream of q, and the execution of p decreases the execution of q." []
 xref: RO:0002305
 is_a: causally_upstream_of ! causally upstream of
 is_a: causally_upstream_of_or_within,_negative_effect ! causally upstream of or within, negative effect
@@ -358,6 +359,7 @@ is_a: causally_upstream_of_or_within,_negative_effect ! causally upstream of or 
 [Typedef]
 id: causally_upstream_of,_positive_effect
 name: causally upstream of, positive effect
+def: "p is causally upstream of, positive effect q iff p is casually upstream of q, and the execution of p is required for the execution of q." []
 xref: RO:0002304
 is_a: causally_upstream_of ! causally upstream of
 is_a: causally_upstream_of_or_within,_positive_effect ! causally upstream of or within, positive effect
@@ -365,7 +367,7 @@ is_a: causally_upstream_of_or_within,_positive_effect ! causally upstream of or 
 [Typedef]
 id: causally_upstream_of_or_within
 name: causally upstream of or within
-def: "p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q." []
+def: "p is 'causally upstream or within' q iff p is causally related to q, and the end of p precedes, or is coincident with, the end of q." []
 synonym: "affects" RELATED []
 xref: RO:0002418
 is_transitive: true
@@ -408,6 +410,13 @@ name: coincident with
 def: "A relation that holds between two linear structures that are approximately parallel to each other for their entire length and where either the two structures are adjacent to each other or one is part of the other." []
 xref: RO:0002008
 is_a: mereotopologically_related_to ! mereotopologically related to
+
+[Typedef]
+id: constitutively_upstream_of
+name: constitutively upstream of
+def: "p is constitutively upstream of q iff p is causally upstream of q, p is required for execution of q or a part of q, and the execution of p is approximately constant." []
+xref: RO:0012009
+is_a: causally_upstream_of,_positive_effect ! causally upstream of, positive effect
 
 [Typedef]
 id: contains_process
@@ -492,7 +501,7 @@ inverse_of: directly_negatively_regulates ! directly negatively regulates
 [Typedef]
 id: directly_negatively_regulates
 name: directly negatively regulates
-def: "Process(P1) directly negatively regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2." []
+def: "p directly negatively regulates q iff p is immediately causally upstream of q, and p negatively regulates q." []
 xref: RO:0002630
 is_a: directly_regulates ! directly regulates
 is_a: negatively_regulates ! negatively regulates
@@ -518,7 +527,7 @@ inverse_of: directly_positively_regulates ! directly positively regulates
 [Typedef]
 id: directly_positively_regulates
 name: directly positively regulates
-def: "Process(P1) directly postively regulates process(P2) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P1 directly positively regulates P2." []
+def: "p directly positively regulates q iff p is immediately causally upstream of q, and p positively regulates q." []
 xref: RO:0002629
 is_a: directly_regulates ! directly regulates
 is_a: positively_regulates ! positively regulates
@@ -543,7 +552,7 @@ inverse_of: directly_regulates ! directly regulates
 [Typedef]
 id: directly_regulates
 name: directly regulates
-def: "Process(P1) directly regulates process(P2) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2." []
+def: "p directly regulates q iff p is immediately causally upstream of q and p regulates q." []
 xref: RO:0002578
 is_a: immediately_causally_upstream_of ! immediately causally upstream of
 is_a: regulates ! regulates
@@ -591,6 +600,7 @@ is_a: has_participant ! has participant
 [Typedef]
 id: enables
 name: enables
+def: "c enables p iff c is capable of p and c acts to execute p." []
 xref: RO:0002327
 is_a: capable_of ! capable of
 inverse_of: enabled_by ! enabled by
@@ -964,7 +974,7 @@ inverse_of: immediately_causally_upstream_of ! immediately causally upstream of
 [Typedef]
 id: immediately_causally_upstream_of
 name: immediately causally upstream of
-def: "p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q." []
+def: "p is immediately causally upstream of q iff p is causally upstream of q, and the end of p is coincident with the beginning of q." []
 xref: RO:0002412
 is_a: causally_upstream_of ! causally upstream of
 is_a: immediately_precedes ! immediately precedes
@@ -997,6 +1007,46 @@ holds_over_chain: has_part in_taxon
 holds_over_chain: part_of in_taxon
 holds_over_chain: results_in_developmental_progression_of in_taxon
 is_a: evolutionarily_related_to ! evolutionarily related to
+
+[Typedef]
+id: indirectly_causally_upstream_of
+name: indirectly causally upstream of
+def: "p is indirectly causally upstream of q iff p is causally upstream of q and there exists some process r such that p is causally upstream of r and r is causally upstream of q." []
+xref: RO:0012011
+is_a: causally_upstream_of ! causally upstream of
+
+[Typedef]
+id: indirectly_negatively_regulates
+name: indirectly negatively regulates
+def: "p indirectly negatively regulates q iff p is indirectly causally upstream of q and p negatively regulates q." []
+xref: RO:0002409
+holds_over_chain: directly_negatively_regulates directly_negatively_regulates
+holds_over_chain: directly_negatively_regulates indirectly_negatively_regulates
+is_transitive: true
+is_a: indirectly_regulates ! indirectly regulates
+is_a: negatively_regulates ! negatively regulates
+transitive_over: directly_negatively_regulates ! directly negatively regulates
+
+[Typedef]
+id: indirectly_positively_regulates
+name: indirectly positively regulates
+def: "p indirectly positively regulates q iff p is indirectly causally upstream of q and p positively regulates q." []
+xref: RO:0002407
+holds_over_chain: directly_positively_regulates directly_positively_regulates
+holds_over_chain: directly_positively_regulates indirectly_positively_regulates
+holds_over_chain: indirectly_negatively_regulates indirectly_negatively_regulates
+is_transitive: true
+is_a: indirectly_regulates ! indirectly regulates
+is_a: positively_regulates ! positively regulates
+transitive_over: directly_positively_regulates ! directly positively regulates
+
+[Typedef]
+id: indirectly_regulates
+name: indirectly regulates
+def: "p indirectly regulates q iff p is indirectly causally upstream of q and p regulates q." []
+xref: RO:0012012
+is_a: indirectly_causally_upstream_of ! indirectly causally upstream of
+is_a: regulates ! regulates
 
 [Typedef]
 id: input_of
@@ -1097,7 +1147,7 @@ is_a: regulated_by ! regulated by
 [Typedef]
 id: negatively_regulates
 name: negatively regulates
-def: "Process(P1) negatively regulates process(P2) iff: P1 terminates P2, or P1 descreases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
+def: "p negatively regulates q iff p regulates q, and p decreases the rate or magnitude of execution of q." []
 xref: RO:0002212
 holds_over_chain: ends_with negatively_regulates
 is_a: causally_upstream_of,_negative_effect ! causally upstream of, negative effect
@@ -1200,7 +1250,7 @@ is_a: regulated_by ! regulated by
 [Typedef]
 id: positively_regulates
 name: positively regulates
-def: "Process(P1) postively regulates process(P2) iff: P1 initiates P2, or P1 increases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
+def: "p positively regulates q iff p regulates q, and p increases the rate or magnitude of execution of q." []
 xref: RO:0002213
 holds_over_chain: ends_with positively_regulates
 holds_over_chain: negatively_regulates negatively_regulates
@@ -1288,7 +1338,7 @@ is_a: causally_downstream_of_or_within ! causally downstream of or within
 [Typedef]
 id: regulates
 name: regulates
-def: "process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2." []
+def: "p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q." []
 xref: RO:0002211
 domain: BFO:0000015 ! process
 range: BFO:0000015 ! process
