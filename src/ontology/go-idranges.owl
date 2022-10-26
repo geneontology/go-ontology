@@ -125,3 +125,11 @@ EquivalentTo: xsd:integer[>= GO:0150001 , <= GO:0160000]
 Datatype: idrange:23
 Annotations: allocatedto: "Raymond Lee"
 EquivalentTo: xsd:integer[>= GO:0160001 , <= GO:0170000]
+
+Datatype: idrange:24
+Annotations: allocatedto: "Edith Wong"
+EquivalentTo: xsd:integer[>= GO:0170001 , <= GO:0180000]
+
+Datatype: idrange:25
+Annotations: allocatedto: "Val Wood"
+EquivalentTo: xsd:integer[>= GO:0180001 , <= GO:0190000]
