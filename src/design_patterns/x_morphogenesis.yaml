@@ -7,9 +7,12 @@ description: TODO
 classes:
   anatomical structure: "UBERON:0000061"
   anatomical structure morphogenesis: "GO:0009653"
+  anatomical structure development: "GO:0048856"
+  results in development of: "RO:0002296"
 
 relations: 
   results in morphogenesis of: RO:0002298
+  part_of: 
 
 vars:
  target: "'anatomical structure'"
@@ -28,3 +31,9 @@ equivalentTo:
   text: " 'anatomical structure morphogenesis' and 'results in morphogenesis of' some %s"
   vars:
     - target
+
+GCI:
+  text: " ('anatomical structure development' and 'results in morphogenesis of' some %s) SubClassOf 'part of' some ('anatomical structure morphogenesis' and 'results in development of' some %s)"
+  vars:
+    - target
+    - target    
