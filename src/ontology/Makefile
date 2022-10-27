@@ -312,8 +312,8 @@ all_imports: $(IMPORTS_OWL)
 clean_imports:
 	rm mirror/*
 
-seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupings-edit.owl ../taxon_constraints/present_in_taxon.ofn
-	$(ROBOT) merge --collapse-import-closure false -i enhanced.owl -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings-edit.owl -i ../taxon_constraints/present_in_taxon.ofn query -f csv --select ../sparql/terms.sparql $@
+seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupings-edit.owl ../taxon_constraints/present_in_taxon.ofn imports/go-catalytic-activities-participants.owl
+	$(ROBOT) merge --collapse-import-closure false -i enhanced.owl -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings-edit.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl query -f csv --select ../sparql/terms.sparql $@
 
 # Specialize seed terms for PR. The inclusion of taxon IRIs in the full seed was causing PR to pull
 # in overly specific proteins (e.g. human forms of everything) and referencing gene IRIs. This is kind
