@@ -2,17 +2,22 @@ pattern_name: x morphogenesis
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_morphogenesis.yaml
 
-description: TODO
+description: >-
+  Classes that describe the biological process of morphogenesis in which a single *target* is undergoing morphogenesis.
 
 classes:
   anatomical structure: "UBERON:0000061"
   anatomical structure morphogenesis: "GO:0009653"
+  
+  # used for GCIs:
   anatomical structure development: "GO:0048856"
-  results in development of: "RO:0002296"
 
 relations: 
   results in morphogenesis of: RO:0002298
-  part_of: 
+  part of: BFO:0000050
+  
+  # used for GCIs:
+  results in development of: "RO:0002296"
 
 vars:
  target: "'anatomical structure'"
@@ -32,8 +37,19 @@ equivalentTo:
   vars:
     - target
 
-GCI:
-  text: " ('anatomical structure development' and 'results in morphogenesis of' some %s) SubClassOf 'part of' some ('anatomical structure morphogenesis' and 'results in development of' some %s)"
-  vars:
-    - target
-    - target    
+
+logical_axioms:
+  
+  # Morphogenesis of an X is part-of development of an X    
+  - axiom_type: GCI
+    text: "('anatomical structure morphogenesis' and ('results in morphogenesis of' some %s)) SubClassOf ('part of' some ('anatomical structure development' and ('results in development of' some %s)))"
+    vars:
+      - target
+      - target    
+  
+  # Morphogenesis of a part of X is part-of morphogenesis of an X
+  - axiom_type: GCI
+    text: "('anatomical structure morphogenesis' and ('results in morphogenesis of' some ('part of' some %s))) SubClassOf ('part of' some ('anatomical structure morphogenesis' and ('results in morphogenesis of' some %s)))"
+    vars:
+      - target
+      - target    
