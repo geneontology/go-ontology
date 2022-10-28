@@ -13,7 +13,7 @@ Positive regulation of a particular characteristic.
 
 | Variable name | Allowed type |
 |:--------------|:-------------|
-| `{characteristic}` | [biological attribute](http://purl.obolibrary.org/obo/OBA_0000001) |
+| `{characteristic}` | [quality](http://purl.obolibrary.org/obo/PATO_0000001) |
 
 ## Name
 
@@ -44,8 +44,8 @@ Positive regulation of a particular characteristic.
 | defined_class | defined_class_label | characteristic | characteristic_label |
 |:--|:--|:--|:--|
 | [http://purl.obolibrary.org/obo/GO_0035752](http://purl.obolibrary.org/obo/GO_0035752) | lysosomal lumen pH elevation | [http://purl.obolibrary.org/obo/OBA_0000091](http://purl.obolibrary.org/obo/OBA_0000091) | lysosomal lumen pH |
+| [http://purl.obolibrary.org/obo/GO_0045852](http://purl.obolibrary.org/obo/GO_0045852) | pH elevation | [http://purl.obolibrary.org/obo/PATO_0001842](http://purl.obolibrary.org/obo/PATO_0001842) | acidity |
+| [http://purl.obolibrary.org/obo/GO_0090727](http://purl.obolibrary.org/obo/GO_0090727) | positive regulation of brood size | [http://purl.obolibrary.org/obo/PATO_0000276](http://purl.obolibrary.org/obo/PATO_0000276) | brood size |
 | [http://purl.obolibrary.org/obo/GO_0061755](http://purl.obolibrary.org/obo/GO_0061755) | positive regulation of circulating fibrinogen levels | [http://purl.obolibrary.org/obo/OBA_0000061](http://purl.obolibrary.org/obo/OBA_0000061) | circulating fibrinogen levels |
 | [http://purl.obolibrary.org/obo/GO_0120198](http://purl.obolibrary.org/obo/GO_0120198) | positive regulation of imaginal disc-derived wing size | [http://purl.obolibrary.org/obo/OBA_0000084](http://purl.obolibrary.org/obo/OBA_0000084) | imaginal disc-derived wing size |
-| [http://purl.obolibrary.org/obo/GO_0048170](http://purl.obolibrary.org/obo/GO_0048170) | positive regulation of long-term neuronal synaptic plasticity | [http://purl.obolibrary.org/obo/OBA_0000089](http://purl.obolibrary.org/obo/OBA_0000089) | long-term neuronal synaptic plasticity |
-| [http://purl.obolibrary.org/obo/GO_0061766](http://purl.obolibrary.org/obo/GO_0061766) | positive regulation of lung blood pressure | [http://purl.obolibrary.org/obo/OBA_0000090](http://purl.obolibrary.org/obo/OBA_0000090) | lung blood pressure |
 

@@ -853,4 +853,7 @@ GO:0001909	leukocyte mediated cytotoxicity			NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0001776	leukocyte homeostasis				NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0043299	leukocyte degranulation				NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0007159	leukocyte cell-cell adhesion			NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0071887	leukocyte apoptotic process			NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0071887	leukocyte apoptotic process			NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0080175	phragmoplast microtubule organization	NCBITaxon:33090	Viridiplantae
+GO:1902896	terminal web assembly	NCBITaxon:6072	Eumetazoa
+GO:1990357	terminal web	NCBITaxon:6072	Eumetazoa	
