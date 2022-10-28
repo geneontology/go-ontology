@@ -47,4 +47,5 @@
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-lego.owl" uri="extensions/go-lego.owl"/>
   <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/reacto.owl" uri="extensions/reacto.owl"/>
   <uri id="go-lego-chebi-import" name="http://purl.obolibrary.org/obo/go/imports/go-lego-chebi-import.owl" uri="imports/go-lego-chebi-import.owl"/>
+    <uri id="go-generated-gcis" name="http://purl.obolibrary.org/obo/go/imports/go-generated-gcis.ofn" uri="imports/go-generated-gcis.ofn"/>
 </catalog>
