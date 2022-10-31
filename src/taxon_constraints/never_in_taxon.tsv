@@ -572,4 +572,5 @@ GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:2157	Archaea
 GO:0106037	apicomedial cortex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0106037	apicomedial cortex	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0106037	apicomedial cortex	NCBITaxon:2	Bacteria	
-GO:0106037	apicomedial cortex	NCBITaxon:2157	Archaea	
+GO:0106037	apicomedial cortex	NCBITaxon:2157	Archaea
+GO:0005725	intercalary heterochromatin	NCBITaxon:4751	Fungi	
