@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1652767789336" name="http://purl.obolibrary.org/obo/go/extensions/go-nifstd-bridge.owl.owl" uri="go-nifstd-bridge.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1652767789336" name="http://purl.obolibrary.org/obo/go/extensions/go-taxon-subsets.owl" uri="go-taxon-subsets.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1652767789336" name="http://purl.obolibrary.org/obo/go/extensions/gorel.owl" uri="gorel.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1652767789336" name="http://purl.obolibrary.org/obo/go/extensions/ro_pending.owl" uri="ro_pending.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1652767789336" name="http://purl.obolibrary.org/obo/go/extensions/x-bfo.owl" uri="go-bfo-bridge.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1652767789336" name="http://purl.obolibrary.org/obo/go/extensions/x-disjoint.owl" uri="x-disjoint.owl"/>
+    </group>
+</catalog>

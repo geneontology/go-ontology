@@ -1,0 +1,146 @@
+name: H3-H4 histone complex chaperone activity
+name: H2A-H2B histone complex chaperone activity
+name: obsolete histone-specific chaperone activity
+name: histone acetyltransferase activity
+name: histone deacetylase activity
+name: histone-arginine N-methyltransferase activity
+name: H3 histone acetyltransferase activity
+name: H4 histone acetyltransferase activity
+name: NAD-dependent histone deacetylase activity
+name: histone-lysine N-methyltransferase activity
+name: histone arginine kinase activity
+name: histone deacetylase activity (H3-K14 specific)
+name: histone-H3K79 methyltransferase activity
+name: NAD-dependent histone deacetylase activity (H3-K14 specific)
+name: histone deacetylase activity (H3-K9 specific)
+name: histone demethylase activity
+name: histone H3-methyl-lysine-4 demethylase activity
+name: histone H3-methyl-lysine-9 demethylase activity
+name: histone acetyltransferase activity (H3-K56 specific)
+name: histone H3-methyl-arginine-2 demethylase activity
+name: histone H3-methyl-arginine-3 demethylase activity
+name: histone H3-tri/di/monomethyl-lysine-4 demethylase activity
+name: obsolete histone demethylase activity (H3-dimethyl-K4 specific)
+name: obsolete histone demethylase activity (H3-monomethyl-K4 specific)
+name: histone deacetylase activity (H4-K16 specific)
+name: histone deacetylase regulator activity
+name: histone acetyltransferase regulator activity
+name: histone kinase activity
+name: histone-serine kinase activity
+name: histone H3S10 kinase activity
+name: histone threonine kinase activity
+name: histone tyrosine kinase activity
+name: histone kinase activity (H3-Y41 specific)
+name: histone kinase activity (H3-T11 specific)
+name: histone kinase activity (H3-T6 specific)
+name: histone H4-methyl-lysine-20 demethylase activity
+name: histone-H3R17 methyltransferase activity
+name: histone H2AS139 kinase activity
+name: histone acetyltransferase activity (H3-K14 specific)
+name: histone methyltransferase activity
+name: histone-H4K20 methyltransferase activity
+name: histone-H3K4 methyltransferase activity
+name: histone acetyltransferase activity (H3-K9 specific)
+name: histone acetyltransferase activity (H3-K18 specific)
+name: histone acetyltransferase activity (H3-K23 specific)
+name: histone acetyltransferase activity (H4-K5 specific)
+name: histone acetyltransferase activity (H4-K8 specific)
+name: histone acetyltransferase activity (H4-K12 specific)
+name: H2A histone acetyltransferase activity
+name: histone acetyltransferase activity (H2A-K5 specific)
+name: histone acetyltransferase activity (H2A-K9 specific)
+name: H2B histone acetyltransferase activity
+name: histone acetyltransferase activity (H2B-K5 specific)
+name: histone acetyltransferase activity (H2B-K12 specific)
+name: histone acetyltransferase activity (H3-K4 specific)
+name: histone acetyltransferase activity (H3-K27 specific)
+name: histone acetyltransferase activity (H3-K36 specific)
+name: histone acetyltransferase activity (H3-K72 specific)
+name: histone-H4R3 methyltransferase activity
+name: histone H3S28 kinase activity
+name: histone H4S1 kinase activity
+name: histone H2AS1 kinase activity
+name: histone H2BS14 kinase activity
+name: NAD-independent histone deacetylase activity
+name: histone deacetylase inhibitor activity
+name: NAD-dependent histone deacetylase activity (H3-K9 specific)
+name: NAD-dependent histone deacetylase activity (H4-K16 specific)
+name: histone acetyltransferase activity (H4-K16 specific)
+name: obsolete histone lysine N-methyltransferase activity (H3-K24 specific)
+name: histone-H3K9 methyltransferase activity
+name: histone-H3K36 methyltransferase activity
+name: histone-H3K27 methyltransferase activity
+name: histone H3-methyl-lysine-36 demethylase activity
+name: histone propionyltransferase activity
+name: histone-H3K37 methyltransferase activity
+name: histone-H3R2 methyltransferase activity
+name: histone-H2AR3 methyltransferase activity
+name: histone H3-tri/di-methyl-lysine-27 demethylase activity
+name: histone kinase activity (H3-T3 specific)
+name: histone kinase activity (H2A-S121 specific)
+name: NAD-dependent histone deacetylase activity (H3-K18 specific)
+name: histone succinyltransferase activity
+name: histone glutaryltransferase activity
+name: histone serotonyltransferase activity
+name: histone dopaminyltransferase activity
+name: histone lactyltransferase activity
+name: histone crotonyltransferase activity
+name: histone butyryltransferase activity
+name: histone reader activity
+name: histone-H3R8 methyltransferase activity
+name: ATP-dependent H3-H4 histone complex chaperone activity
+name: ATP-dependent histone chaperone activity
+name: histone H3-di/monomethyl-lysine-36 demethylase activity
+name: histone H3-tri/dimethyl-lysine-36 demethylase activity
+name: histone H3-di/monomethyl-lysine-4 FAD-dependent demethylase activity
+name: histone H3-di/monomethyl-lysine-9 demethylase activity
+name: histone H3-tri/dimethyl-lysine-9 demethylase activity
+name: histone H3-di/monomethyl-lysine-9 FAD-dependent demethylase activity
+name: histone chaperone activity
+name: histone octamer slider activity
+name: histone-H3K56 methyltransferase activity
+name: histone H3-tri/dimethyl-lysine-56 demethylase activity
+name: NAD-dependent histone deacetylase activity (H3-K56 specific)
+name: histone phosphatase activity
+name: histone serine/threonine phosphatase activity
+name: histone serine phosphatase activity (H2-S140 specific)
+name: histone tyrosine phosphatase activity
+name: histone tyrosine phosphatase activity (H2-Y142 specific)
+name: histone-arginine deiminase activity
+name: histone-arginine deiminase activity (H3-R2 specific)
+name: histone-arginine deiminase activity (H3-R8 specific)
+name: histone-arginine deiminase activity (H3-R17 specific)
+name: histone-arginine deiminase activity (H3-R26 specific)
+name: histone kinase activity (H2A-Y142 specific)
+name: histone-arginine deiminase activity (H4-R3 specific)
+name: histone-arginine deiminase activity (H1-R54 specific)
+name: histone-arginine deiminase activity (H2A-R3 specific)
+name: NAD+-histone-serine ADP-ribosyltransferase activity (H2B-S6 specific)
+name: NAD+-histone-serine ADP-ribosyltransferase activity (H3-S10 specific)
+name: NAD+-histone-glutamate ADP-ribosyltransferase activity (H2B-E35 specific)
+name: histone kinase activity (H2B-S36 specific)
+name: NAD+-histone-glutamate ADP-ribosyltransferase activity (H2B-E2 specific)
+name: ATP-dependent H2AZ histone chaperone activity
+name: histone ubiquitin ligase activity (H2B-K120 specific)
+name: histone ubiquitin ligase activity (H3-K14 specific)
+name: histone ubiquitin ligase activity
+name: histone H3S57-serine kinase activity
+name: histone H2AK13 ubiquitin ligase activity
+name: histone H3T45 kinase activity
+name: histone H2AK15 ubiquitin ligase activity
+name: histone ubiquitin ligase activity (H2A-K119 specific)
+name: histone ubiquitin ligase activity (H2A-K127 specific)
+name: histone ubiquitin ligase activity (H2A-K129 specific)
+name: NAD+-histone-glutamate ADP-ribosyltransferase activity (H2B-E18 specific)
+name: H1 histone chaperone activity
+name: histone decrotonylase activity
+name: NAD-dependent histone decrotonylase activity
+name: regulation of histone deacetylase activity
+name: negative regulation of histone deacetylase activity
+name: positive regulation of histone deacetylase activity
+name: regulation of histone demethylase activity (H3-K4 specific)
+name: negative regulation of histone demethylase activity (H3-K4 specific)
+name: positive regulation of histone demethylase activity (H3-K4 specific)
+name: histone deacetylase activity (H3-K4 specific)
+name: histone kinase activity (H2A-T120 specific)
+name: histone-glutamine N-methyltransferase activity
