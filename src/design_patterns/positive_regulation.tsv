@@ -158,7 +158,7 @@ http://purl.obolibrary.org/obo/GO_1905737	positive regulation of L-proline impor
 http://purl.obolibrary.org/obo/GO_1900928	positive regulation of L-threonine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903807	L-threonine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1900931	positive regulation of L-tyrosine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903808	L-tyrosine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0140124	positive regulation of Lewy body formation	http://purl.obolibrary.org/obo/GO_0140121	Lewy body formation
-http://purl.obolibrary.org/obo/GO_1903007	positive regulation of Lys63-specific deubiquitinase activity	http://purl.obolibrary.org/obo/GO_0061578	Lys63-specific deubiquitinase activity
+http://purl.obolibrary.org/obo/GO_1903007	positive regulation of Lys63-specific deubiquitinase activity	http://purl.obolibrary.org/obo/GO_0061578	K63-linked deubiquitinase activity
 http://purl.obolibrary.org/obo/GO_0043406	positive regulation of MAP kinase activity	http://purl.obolibrary.org/obo/GO_0004707	MAP kinase activity
 http://purl.obolibrary.org/obo/GO_0043410	positive regulation of MAPK cascade	http://purl.obolibrary.org/obo/GO_0000165	MAPK cascade
 http://purl.obolibrary.org/obo/GO_1900245	positive regulation of MDA-5 signaling pathway	http://purl.obolibrary.org/obo/GO_0039530	MDA-5 signaling pathway
@@ -876,8 +876,6 @@ http://purl.obolibrary.org/obo/GO_2000433	positive regulation of cytokinesis, ac
 http://purl.obolibrary.org/obo/GO_2000076	positive regulation of cytokinesis, site selection	http://purl.obolibrary.org/obo/GO_0007105	cytokinesis, site selection
 http://purl.obolibrary.org/obo/GO_0080038	positive regulation of cytokinin-activated signaling pathway	http://purl.obolibrary.org/obo/GO_0009736	cytokinin-activated signaling pathway
 http://purl.obolibrary.org/obo/GO_0045919	positive regulation of cytolysis	http://purl.obolibrary.org/obo/GO_0019835	cytolysis
-http://purl.obolibrary.org/obo/GO_0001900	positive regulation of cytolysis by symbiont of host cells	http://purl.obolibrary.org/obo/GO_0001897	cytolysis by symbiont of host cells
-http://purl.obolibrary.org/obo/GO_0051714	positive regulation of cytolysis in another organism	http://purl.obolibrary.org/obo/GO_0051715	cytolysis in another organism
 http://purl.obolibrary.org/obo/GO_0010606	positive regulation of cytoplasmic mRNA processing body assembly	http://purl.obolibrary.org/obo/GO_0033962	P-body assembly
 http://purl.obolibrary.org/obo/GO_2000767	positive regulation of cytoplasmic translation	http://purl.obolibrary.org/obo/GO_0002181	cytoplasmic translation
 http://purl.obolibrary.org/obo/GO_1900249	positive regulation of cytoplasmic translational elongation	http://purl.obolibrary.org/obo/GO_0002182	cytoplasmic translational elongation
@@ -1321,18 +1319,13 @@ http://purl.obolibrary.org/obo/GO_1903595	positive regulation of histamine secre
 http://purl.obolibrary.org/obo/GO_0051618	positive regulation of histamine uptake	http://purl.obolibrary.org/obo/GO_0051615	histamine uptake
 http://purl.obolibrary.org/obo/GO_0120215	positive regulation of histidine biosynthetic process	http://purl.obolibrary.org/obo/GO_0000105	histidine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1901316	positive regulation of histone H2A K63-linked ubiquitination	http://purl.obolibrary.org/obo/GO_0070535	histone H2A K63-linked ubiquitination
-http://purl.obolibrary.org/obo/GO_2001175	positive regulation of histone H2B conserved C-terminal lysine ubiquitination	http://purl.obolibrary.org/obo/GO_0071894	histone H2B conserved C-terminal lysine ubiquitination
 http://purl.obolibrary.org/obo/GO_2001168	positive regulation of histone H2B ubiquitination	http://purl.obolibrary.org/obo/GO_0033523	histone H2B ubiquitination
 http://purl.obolibrary.org/obo/GO_0071442	positive regulation of histone H3-K14 acetylation	http://purl.obolibrary.org/obo/GO_0044154	histone H3-K14 acetylation
-http://purl.obolibrary.org/obo/GO_1902029	positive regulation of histone H3-K18 acetylation	http://purl.obolibrary.org/obo/GO_0043971	histone H3-K18 acetylation
 http://purl.obolibrary.org/obo/GO_1901676	positive regulation of histone H3-K27 acetylation	http://purl.obolibrary.org/obo/GO_0043974	histone H3-K27 acetylation
 http://purl.obolibrary.org/obo/GO_0061087	positive regulation of histone H3-K27 methylation	http://purl.obolibrary.org/obo/GO_0070734	histone H3-K27 methylation
 http://purl.obolibrary.org/obo/GO_1902466	positive regulation of histone H3-K27 trimethylation	http://purl.obolibrary.org/obo/GO_0098532	histone H3-K27 trimethylation
-http://purl.obolibrary.org/obo/GO_0000416	positive regulation of histone H3-K36 methylation	http://purl.obolibrary.org/obo/GO_0010452	histone H3-K36 methylation
 http://purl.obolibrary.org/obo/GO_2001255	positive regulation of histone H3-K36 trimethylation	http://purl.obolibrary.org/obo/GO_0097198	histone H3-K36 trimethylation
-http://purl.obolibrary.org/obo/GO_0150167	positive regulation of histone H3-K4 acetylation	http://purl.obolibrary.org/obo/GO_0043973	histone H3-K4 acetylation
 http://purl.obolibrary.org/obo/GO_0051571	positive regulation of histone H3-K4 methylation	http://purl.obolibrary.org/obo/GO_0051568	histone H3-K4 methylation
-http://purl.obolibrary.org/obo/GO_1905437	positive regulation of histone H3-K4 trimethylation	http://purl.obolibrary.org/obo/GO_0080182	histone H3-K4 trimethylation
 http://purl.obolibrary.org/obo/GO_2001162	positive regulation of histone H3-K79 methylation	http://purl.obolibrary.org/obo/GO_0034729	histone H3-K79 methylation
 http://purl.obolibrary.org/obo/GO_2000617	positive regulation of histone H3-K9 acetylation	http://purl.obolibrary.org/obo/GO_0043970	histone H3-K9 acetylation
 http://purl.obolibrary.org/obo/GO_1900111	positive regulation of histone H3-K9 dimethylation	http://purl.obolibrary.org/obo/GO_0036123	histone H3-K9 dimethylation
