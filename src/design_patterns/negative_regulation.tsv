@@ -893,8 +893,6 @@ http://purl.obolibrary.org/obo/GO_2000075	negative regulation of cytokinesis, si
 http://purl.obolibrary.org/obo/GO_1903857	negative regulation of cytokinin dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0019139	cytokinin dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_0080037	negative regulation of cytokinin-activated signaling pathway	http://purl.obolibrary.org/obo/GO_0009736	cytokinin-activated signaling pathway
 http://purl.obolibrary.org/obo/GO_0045918	negative regulation of cytolysis	http://purl.obolibrary.org/obo/GO_0019835	cytolysis
-http://purl.obolibrary.org/obo/GO_0001899	negative regulation of cytolysis by symbiont of host cells	http://purl.obolibrary.org/obo/GO_0001897	cytolysis by symbiont of host cells
-http://purl.obolibrary.org/obo/GO_0051713	negative regulation of cytolysis in another organism	http://purl.obolibrary.org/obo/GO_0051715	cytolysis in another organism
 http://purl.obolibrary.org/obo/GO_0010607	negative regulation of cytoplasmic mRNA processing body assembly	http://purl.obolibrary.org/obo/GO_0033962	P-body assembly
 http://purl.obolibrary.org/obo/GO_2000766	negative regulation of cytoplasmic translation	http://purl.obolibrary.org/obo/GO_0002181	cytoplasmic translation
 http://purl.obolibrary.org/obo/GO_1900248	negative regulation of cytoplasmic translational elongation	http://purl.obolibrary.org/obo/GO_0002182	cytoplasmic translational elongation
@@ -1343,18 +1341,13 @@ http://purl.obolibrary.org/obo/GO_1903594	negative regulation of histamine secre
 http://purl.obolibrary.org/obo/GO_0051617	negative regulation of histamine uptake	http://purl.obolibrary.org/obo/GO_0051615	histamine uptake
 http://purl.obolibrary.org/obo/GO_0120214	negative regulation of histidine biosynthetic process	http://purl.obolibrary.org/obo/GO_0000105	histidine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1901315	negative regulation of histone H2A K63-linked ubiquitination	http://purl.obolibrary.org/obo/GO_0070535	histone H2A K63-linked ubiquitination
-http://purl.obolibrary.org/obo/GO_2001174	negative regulation of histone H2B conserved C-terminal lysine ubiquitination	http://purl.obolibrary.org/obo/GO_0071894	histone H2B conserved C-terminal lysine ubiquitination
-http://purl.obolibrary.org/obo/GO_2001167	negative regulation of histone H2B ubiquitination	http://purl.obolibrary.org/obo/GO_0033523	histone H2B ubiquitination
 http://purl.obolibrary.org/obo/GO_0071441	negative regulation of histone H3-K14 acetylation	http://purl.obolibrary.org/obo/GO_0044154	histone H3-K14 acetylation
-http://purl.obolibrary.org/obo/GO_1902030	negative regulation of histone H3-K18 acetylation	http://purl.obolibrary.org/obo/GO_0043971	histone H3-K18 acetylation
 http://purl.obolibrary.org/obo/GO_1901675	negative regulation of histone H3-K27 acetylation	http://purl.obolibrary.org/obo/GO_0043974	histone H3-K27 acetylation
 http://purl.obolibrary.org/obo/GO_0061086	negative regulation of histone H3-K27 methylation	http://purl.obolibrary.org/obo/GO_0070734	histone H3-K27 methylation
 http://purl.obolibrary.org/obo/GO_1902465	negative regulation of histone H3-K27 trimethylation	http://purl.obolibrary.org/obo/GO_0098532	histone H3-K27 trimethylation
 http://purl.obolibrary.org/obo/GO_0000415	negative regulation of histone H3-K36 methylation	http://purl.obolibrary.org/obo/GO_0010452	histone H3-K36 methylation
 http://purl.obolibrary.org/obo/GO_2001254	negative regulation of histone H3-K36 trimethylation	http://purl.obolibrary.org/obo/GO_0097198	histone H3-K36 trimethylation
-http://purl.obolibrary.org/obo/GO_0150168	negative regulation of histone H3-K4 acetylation	http://purl.obolibrary.org/obo/GO_0043973	histone H3-K4 acetylation
 http://purl.obolibrary.org/obo/GO_0051572	negative regulation of histone H3-K4 methylation	http://purl.obolibrary.org/obo/GO_0051568	histone H3-K4 methylation
-http://purl.obolibrary.org/obo/GO_1905436	negative regulation of histone H3-K4 trimethylation	http://purl.obolibrary.org/obo/GO_0080182	histone H3-K4 trimethylation
 http://purl.obolibrary.org/obo/GO_2001161	negative regulation of histone H3-K79 methylation	http://purl.obolibrary.org/obo/GO_0034729	histone H3-K79 methylation
 http://purl.obolibrary.org/obo/GO_2000616	negative regulation of histone H3-K9 acetylation	http://purl.obolibrary.org/obo/GO_0043970	histone H3-K9 acetylation
 http://purl.obolibrary.org/obo/GO_1900110	negative regulation of histone H3-K9 dimethylation	http://purl.obolibrary.org/obo/GO_0036123	histone H3-K9 dimethylation
