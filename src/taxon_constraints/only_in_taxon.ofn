@@ -799,6 +799,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0150064>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0150077>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0150104>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0160032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0160062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0198738>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1900727>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1900864>))
@@ -849,6 +850,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2157>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2759>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2864>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3193>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32443>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32524>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_32525>))
@@ -4869,6 +4871,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0150104> ObjectAllValuesFrom(<http
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0160032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_50557>))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0160032> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_50557>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0160062> (<http://purl.obolibrary.org/obo/GO_0160062>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0160062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_3193>))
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0160062> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_3193>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0198738> (<http://purl.obolibrary.org/obo/GO_0198738>)
 
