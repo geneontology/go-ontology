@@ -15,7 +15,7 @@ relations:
   regulates: "RO:0002211"
 
 vars:
- entity: Thing
+  entity: Thing
 
 name:
      text: "regulation of %s"

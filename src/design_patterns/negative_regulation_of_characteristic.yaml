@@ -2,8 +2,7 @@ pattern_name: negative regulation of characteristic
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/negative_regulation_of_characteristic.yaml
 
-description: >-
-   Negative regulation of a particular characteristic.
+description: Negative regulation of a particular characteristic.
 
 classes:
   biological regulation: "GO:0065007"

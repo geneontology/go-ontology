@@ -2,7 +2,7 @@ pattern_name: regulation by
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml
 
-description: TODO
+description: This pattern is for classes representing types of regulation differentiated by the process they regulate and the mechanism of regulation.
 
 classes:
   biological process: "GO:0008150"
@@ -11,23 +11,23 @@ relations:
   regulates: "RO:0002211"
 
 vars:
- mechanism: "'biological process'"
- target: "'biological process'"
+  mechanism: "'biological process'"
+  target: "'biological process'"
 
 name:
-     text: "regulation of %s by %s"
-     vars:
-       - target
-       - mechanism
+  text: "regulation of %s by %s"
+  vars:
+    - target
+    - mechanism
 
 def:
   text: "%s that results in regulation of %s."
   vars:
-       - mechanism
-       - target
+    - mechanism
+    - target
 
 equivalentTo:
   text: " %s and 'regulates' some %s"
   vars:
-       - mechanism
-       - target
+    - mechanism
+    - target

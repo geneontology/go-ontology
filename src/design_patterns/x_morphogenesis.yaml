@@ -2,7 +2,7 @@ pattern_name: x morphogenesis
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_morphogenesis.yaml
 
-description: TODO
+description: This pattern is for classes representing the generation and organization of the shape of an anatomical structure or a cell, differentiated by the anatomical structure or cell being generated.
 
 classes:
   anatomical structure: "UBERON:0000061"
@@ -12,7 +12,8 @@ relations:
   results in morphogenesis of: RO:0002298
 
 vars:
- target: "'anatomical structure'"
+  # Currently cell isn't classified under 'anatomical structure'
+  target: "'anatomical structure'"
 
 name:
   text: "%s morphogenesis"
