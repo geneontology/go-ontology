@@ -1,18 +1,18 @@
-pattern_name: x specification
+pattern_name: cell specification
 
-pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_specification.yaml
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cell_specification.yaml
 
-description: TODO
+description: This pattern is for classes representing the specification of cells, differentiated by the cell being specified.
 
 classes:
-  anatomical structure: "UBERON:0000061"
+  native cell: "CL:0000003" # Should ensure native plant cells are subclasses
   cell fate specification: "GO:0001708"
 
 relations: 
   results in specification of: "RO:0002356"
 
 vars:
- target: "'anatomical structure'"
+  target: "'anatomical structure'"
 
 name:
   text: "%s specification"
