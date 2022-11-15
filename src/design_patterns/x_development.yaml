@@ -2,7 +2,7 @@ pattern_name: x development
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_development.yaml
 
-description: TODO
+description: This pattern is for classes representing developmental processes, differentiated by the anatomical structure or cell being developed.
 
 classes:
   anatomical structure: "UBERON:0000061"
