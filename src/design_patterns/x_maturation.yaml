@@ -2,7 +2,7 @@ pattern_name: x maturation
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_maturation.yaml
 
-description: TODO
+description: This pattern is for classes representing the maturation of an anatomical structure or a cell, differentiated by the anatomical structure or cell being in its final state.
 
 classes:
   anatomical structure: "UBERON:0000061"
@@ -12,7 +12,7 @@ relations:
   results in maturation of: "RO:0002299"
 
 vars:
- target: "'anatomical structure'"
+  target: "'anatomical structure'"
 
 name:
   text: "%s maturation"
