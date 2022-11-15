@@ -1,4 +1,4 @@
-# positive_regulation_of_characteristic
+# positive regulation of characteristic
 
 [http://purl.obolibrary.org/obo/go/patterns/positive_regulation_of_characteristic.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation_of_characteristic.yaml)
 

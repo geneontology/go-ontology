@@ -1,4 +1,4 @@
-defined_class	defined_class_label	target1	target1_label	target2	target2_label
+defined_class	defined_class_label	mechanism	mechanism_label	target	target_label
 http://purl.obolibrary.org/obo/GO_0060069	Wnt signaling pathway, regulating spindle positioning	http://purl.obolibrary.org/obo/GO_0035567	non-canonical Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0040001	establishment of mitotic spindle localization
 http://purl.obolibrary.org/obo/GO_0019055	modification by virus of host cell cycle regulation	http://purl.obolibrary.org/obo/GO_0019048	modulation by virus of host process	http://purl.obolibrary.org/obo/GO_0022402	cell cycle process
 http://purl.obolibrary.org/obo/GO_0044830	modulation by host of viral RNA genome replication	http://purl.obolibrary.org/obo/GO_0044788	modulation by host of viral process	http://purl.obolibrary.org/obo/GO_0039694	viral RNA genome replication

@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO
+This pattern is for classes representing the maturation of an anatomical structure or a cell, differentiated by the anatomical structure or cell being in its final state.
 
 
 

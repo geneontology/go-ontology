@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO
+This pattern is for classes representing the generation and organization of the shape of an anatomical structure or a cell, differentiated by the anatomical structure or cell being generated.
 
 
 
