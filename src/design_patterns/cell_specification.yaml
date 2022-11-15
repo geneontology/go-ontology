@@ -12,7 +12,7 @@ relations:
   results in specification of: "RO:0002356"
 
 vars:
-  target: "'anatomical structure'"
+  target: "'native cell'"
 
 name:
   text: "%s specification"
