@@ -11,23 +11,23 @@ relations:
   regulates: "RO:0002211"
 
 vars:
- target1: "'biological process'"
- target2: "'biological process'"
+ mechanism: "'biological process'"
+ target: "'biological process'"
 
 name:
      text: "regulation of %s by %s"
      vars:
-       - target1
-       - target2
+       - target
+       - mechanism
 
 def:
   text: "%s that results in regulation of %s."
   vars:
-       - target1
-       - target2
+       - mechanism
+       - target
 
 equivalentTo:
   text: " %s and 'regulates' some %s"
   vars:
-       - target1
-       - target2
+       - mechanism
+       - target
