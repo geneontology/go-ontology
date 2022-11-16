@@ -1,18 +1,18 @@
-pattern_name: mf binding
+pattern_name: binding
 
-pattern_iri: http://purl.obolibrary.org/obo/go/patterns/mf_binding.yaml
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/binding.yaml
 
 description: TODO
 
 classes:
   binding: 'GO:0005488'
-  chemical entity: 'CHEBI:24431'
+  material entity: 'BFO:0000040'
 
 relations:
   has input: 'RO:0002233' 
   
 vars:
-  input: "'chemical entity'"
+  input: "'material entity'"
 
 name:
   text: "%s binding"
@@ -25,7 +25,7 @@ def:
     - input
 
 namespace: 
-  text: molecular_function  # e.g. biological_process, quoting is optional
+  text: molecular_function
 
 equivalentTo: 
   text: "'binding' and ('has input' some %s)" 
