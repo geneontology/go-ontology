@@ -1,4 +1,4 @@
-# regulation_of_characteristic
+# regulation of characteristic
 
 [http://purl.obolibrary.org/obo/go/patterns/regulation_of_characteristic.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_of_characteristic.yaml)
 

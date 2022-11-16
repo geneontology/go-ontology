@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO
+This pattern is for classes representing formation of anatomical structures from their initial state, differentiated by the anatomical structure being formed. Not used for cells.
 
 
 
