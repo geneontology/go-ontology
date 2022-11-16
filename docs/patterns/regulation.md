@@ -4,7 +4,7 @@
 
 ## Description
 
-One of three core patterns for regulation terms in the GO. Do not use this pattern for the 3 grouping classes: regulation of MF, regulation of BP, regulation of BQ
+This pattern is for classes representing types of regulation differentiated by the process they regulate. One of three core patterns for regulation terms in the GO. Do not use this pattern for the 3 grouping classes: regulation of MF, regulation of BP, regulation of BQ
 
 
 

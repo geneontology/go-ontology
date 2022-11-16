@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO
+This pattern is for classes representing developmental processes, differentiated by the anatomical structure or cell being developed.
 
 
 
