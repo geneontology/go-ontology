@@ -1,6 +1,6 @@
 pattern_name: cell fate commitment
 
-pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cell_commitment.yaml
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cell_fate_commitment.yaml
 
 description: This pattern is for classes representing the commitment of cells to a specific cell type, differentiated by the type of cell.
 
@@ -20,11 +20,11 @@ name:
     - target
 
 def:
-  text: "The process involved in the commitment of %s cell identity. "
+  text: "The process involved in the commitment of %s cell identity."
   vars:
      - target
 
 equivalentTo:
-  text: " 'cell fate commitment' and 'results in commitment of' some %s"
+  text: "'cell fate commitment' and 'results in commitment of' some %s"
   vars:
     - target
