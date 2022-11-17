@@ -1,6 +1,6 @@
-# mf binding
+# binding
 
-[http://purl.obolibrary.org/obo/go/patterns/mf_binding.yaml](http://purl.obolibrary.org/obo/go/patterns/mf_binding.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/binding.yaml](http://purl.obolibrary.org/obo/go/patterns/binding.yaml)
 
 ## Description
 
@@ -13,7 +13,7 @@ TODO
 
 | Variable name | Allowed type |
 |:--------------|:-------------|
-| `{input}` | [chemical entity](http://purl.obolibrary.org/obo/CHEBI_24431) |
+| `{input}` | [material entity](http://purl.obolibrary.org/obo/BFO_0000040) |
 
 ## Name
 
@@ -39,7 +39,7 @@ TODO
 
 ## Data preview
 
-*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/mf_binding.tsv)*
+*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/binding.tsv)*
 
 | defined_class | defined_class_label | input | input_label |
 |:--|:--|:--|:--|
