@@ -1,6 +1,6 @@
-pattern_name: x morphogenesis
+pattern_name: anatomical structure morphogenesis
 
-pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_morphogenesis.yaml
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_morphogenesis.yaml
 
 description: This pattern is for classes representing the generation and organization of the shape of an anatomical structure or a cell, differentiated by the anatomical structure or cell being generated.
 

@@ -1,6 +1,6 @@
-pattern_name: x maturation
+pattern_name: anatomical structure maturation
 
-pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_maturation.yaml
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_maturation.yaml
 
 description: This pattern is for classes representing the maturation of an anatomical structure or a cell, differentiated by the anatomical structure or cell being in its final state.
 
