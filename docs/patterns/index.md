@@ -2,12 +2,15 @@
 
 | Pattern | Description |
 |:--------|:------------|
+| [binding](binding.md) | TODO |
 | [biosynthetic process](biosynthetic_process.md) | This pattern is for classes representing biosynthetic processes differentiated by their primary outputs. |
 | [bounding membrane of organelle](bounding_membrane_of_organelle.md) | TODO |
 | [catabolic process](catabolic_process.md) | This pattern is for classes representing catabolic processes differentiated by their primary inputs. |
 | [cc assembly](cc_assembly.md) | TODO |
 | [cc disassembly](cc_disassembly.md) | TODO |
 | [cc transport from to](cc_transport_from_to.md) | TODO |
+| [cell fate commitment](cell_fate_commitment.md) | This pattern is for classes representing the commitment of cells to a specific cell type, differentiated by the type of cell. |
+| [cell fate determination](cell_fate_determination.md) | This pattern is for classes representing the determination of cell fate, differentiated by the cell being differentiated. |
 | [cell specification](cell_specification.md) | This pattern is for classes representing the specification of cells, differentiated by the cell being specified. |
 | [cellular anatomical entity organization](cellular_anatomical_entity_organization.md) | TODO |
 | [chemical transport](chemical_transport.md) | TODO |
@@ -18,10 +21,8 @@
 | [import across plasma membrane](import_across_plasma_membrane.md) | TODO |
 | [import into cell](import_into_cell.md) | TODO |
 | [involved in x y](involved_in_x_y.md) | TODO |
-| [macromolecular complex binding](macromolecular_complex_binding.md) | TODO |
 | [membrane region](membrane_region.md) | TODO |
 | [metabolic process](metabolic_process.md) | This pattern is for classes representing metabolic processes differentiated by their primary inputs or primary outputs. |
-| [mf binding](mf_binding.md) | TODO |
 | [molecular function activator activity](activator_activity.md) | This pattern is for representing a function that activates some molecular function, differentiated by the specific molecular function activated. |
 | [molecular function inhibitor activity](inhibitor_activity.md) | This pattern is for representing a function that inhibits some molecular function, differentiated by the specific molecular function inhibited. |
 | [molecular function regulator activity](regulator_activity.md) | This pattern is for representing a function that modulates some molecular function, differentiated by the specific molecular function modulated. |
