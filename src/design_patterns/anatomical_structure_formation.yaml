@@ -1,6 +1,6 @@
-pattern_name: x formation
+pattern_name: anatomical structure formation
 
-pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_formation.yaml
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_formation.yaml
 
 description: This pattern is for classes representing formation of anatomical structures from their initial state, differentiated by the anatomical structure being formed. Not used for cells.
 

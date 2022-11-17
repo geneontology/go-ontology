@@ -1,6 +1,6 @@
-pattern_name: x development
+pattern_name: anatomical structure development
 
-pattern_iri: http://purl.obolibrary.org/obo/go/patterns/x_development.yaml
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml
 
 description: This pattern is for classes representing developmental processes, differentiated by the anatomical structure or cell being developed.
 
