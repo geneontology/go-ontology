@@ -1,6 +1,6 @@
-# x development
+# anatomical structure development
 
-[http://purl.obolibrary.org/obo/go/patterns/x_development.yaml](http://purl.obolibrary.org/obo/go/patterns/x_development.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml)
 
 ## Description
 
@@ -39,7 +39,7 @@ This pattern is for classes representing developmental processes, differentiated
 
 ## Data preview
 
-*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/x_development.tsv)*
+*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/anatomical_structure_development.tsv)*
 
 | defined_class | defined_class_label | target | target_label |
 |:--|:--|:--|:--|

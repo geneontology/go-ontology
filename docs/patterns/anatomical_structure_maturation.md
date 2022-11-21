@@ -1,6 +1,6 @@
-# x maturation
+# anatomical structure maturation
 
-[http://purl.obolibrary.org/obo/go/patterns/x_maturation.yaml](http://purl.obolibrary.org/obo/go/patterns/x_maturation.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_maturation.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_maturation.yaml)
 
 ## Description
 
@@ -39,7 +39,7 @@ This pattern is for classes representing the maturation of an anatomical structu
 
 ## Data preview
 
-*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/x_maturation.tsv)*
+*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/anatomical_structure_maturation.tsv)*
 
 | defined_class | defined_class_label | target | target_label |
 |:--|:--|:--|:--|
