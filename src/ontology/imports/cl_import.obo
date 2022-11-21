@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-10-11/imports/cl_import.owl
+data-version: go/releases/2022-11-21/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -11739,6 +11739,24 @@ intersection_of: BFO:0000050 UBERON:0006855
 relationship: BFO:0000050 UBERON:0006855
 
 [Term]
+id: CL:1001021
+name: kidney loop of Henle descending limb epithelial cell
+is_a: CL:1000909 ! kidney loop of Henle epithelial cell
+intersection_of: CL:1000909 ! kidney loop of Henle epithelial cell
+intersection_of: BFO:0000050 UBERON:0001289
+relationship: BFO:0000050 UBERON:0001289
+
+[Term]
+id: CL:1001111
+name: kidney loop of Henle thin descending limb epithelial cell
+is_a: CL:0002518 ! kidney epithelial cell
+is_a: CL:1000616 ! kidney outer medulla cell
+is_a: CL:1001021 ! kidney loop of Henle descending limb epithelial cell
+intersection_of: CL:1001021 ! kidney loop of Henle descending limb epithelial cell
+intersection_of: BFO:0000050 UBERON:0005096
+relationship: BFO:0000050 UBERON:0005096
+
+[Term]
 id: CL:1001225
 name: kidney collecting duct cell
 is_a: CL:1000497 ! kidney cell
@@ -12633,6 +12651,15 @@ intersection_of: CL:0000653 ! podocyte
 intersection_of: BFO:0000050 UBERON:0002120
 
 [Term]
+id: CL:4030012
+name: kidney loop of Henle short descending thin limb epithelial cell
+def: "Epithelial cell of the descending thin limb of the short loop (cortical) nephron limited to the outer medulla (mainly inner strip). It is known in some mammalian species that the short descending limb of the loop of Henle selectively expresses the serine protease Corin, the homeobox TF Uncx, and the urea channel Slc14a2." []
+synonym: "epithelial cell of the descending thin limb of the short loop of Henle" EXACT []
+is_a: CL:1001111 ! kidney loop of Henle thin descending limb epithelial cell
+intersection_of: CL:0000066 ! epithelial cell
+intersection_of: BFO:0000050 UBERON:0005099
+
+[Term]
 id: CL:4030016
 name: epithelial cell of early distal convoluted tubule
 def: "An epithelial cell located in the early distal convoluted tubule." []
@@ -12649,6 +12676,26 @@ synonym: "DCT2 cell" BROAD []
 is_a: CL:0000066 ! epithelial cell
 intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0005102
+
+[Term]
+id: CL:4030027
+name: GABAergic amacrine cell
+def: "An amacrine cell that uses GABA as a neurotransmitter." []
+synonym: "amacrine cell, GABAergic" EXACT []
+is_a: CL:0000561 ! amacrine cell
+is_a: CL:0011005 ! GABAergic interneuron
+intersection_of: CL:0000561 ! amacrine cell
+intersection_of: RO:0002215 GO:0061534
+
+[Term]
+id: CL:4030028
+name: glycinergic amacrine cell
+def: "An amacrine cell that uses glycine as a neurotransmitter." []
+synonym: "amacrine cell, glycinergic" EXACT []
+is_a: CL:0000561 ! amacrine cell
+is_a: CL:1001509 ! glycinergic neuron
+intersection_of: CL:0000561 ! amacrine cell
+intersection_of: RO:0002215 GO:0061537
 
 [Typedef]
 id: BFO:0000050
@@ -12717,6 +12764,10 @@ xref: RO:0002216
 [Typedef]
 id: RO:0002220
 xref: RO:0002220
+
+[Typedef]
+id: RO:0002353
+xref: RO:0002353
 
 [Typedef]
 id: RO:0003000
