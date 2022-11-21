@@ -8,9 +8,10 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-10-11/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-11-21/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -63,6 +64,12 @@
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -353,6 +360,14 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002220">
         <oboInOwl:hasDbXref>RO:0002220</oboInOwl:hasDbXref>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002353 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002353">
+        <oboInOwl:hasDbXref>RO:0002353</oboInOwl:hasDbXref>
     </owl:ObjectProperty>
     
 
@@ -29850,6 +29865,60 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_1001021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001021">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000909"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001289"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000909"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001289"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>kidney loop of Henle descending limb epithelial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_1001111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001111">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1001021"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005096"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002518"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000616"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1001021"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005096"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>kidney loop of Henle thin descending limb epithelial cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_1001225 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001225">
@@ -32116,6 +32185,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_4030012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4030012">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000066"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005099"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1001111"/>
+        <obo:IAO_0000115>Epithelial cell of the descending thin limb of the short loop (cortical) nephron limited to the outer medulla (mainly inner strip). It is known in some mammalian species that the short descending limb of the loop of Henle selectively expresses the serine protease Corin, the homeobox TF Uncx, and the urea channel Slc14a2.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>epithelial cell of the descending thin limb of the short loop of Henle</oboInOwl:hasExactSynonym>
+        <rdfs:label>kidney loop of Henle short descending thin limb epithelial cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_4030016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4030016">
@@ -32156,6 +32247,52 @@
         <obo:IAO_0000115>An epithelial cell located in the late distal convoluted tubule.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>DCT2 cell</oboInOwl:hasBroadSynonym>
         <rdfs:label>epithelial cell of late distal convoluted tubule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4030027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4030027">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000561"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000561"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
+        <obo:IAO_0000115>An amacrine cell that uses GABA as a neurotransmitter.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>amacrine cell, GABAergic</oboInOwl:hasExactSynonym>
+        <rdfs:label>GABAergic amacrine cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4030028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4030028">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000561"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061537"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000561"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1001509"/>
+        <obo:IAO_0000115>An amacrine cell that uses glycine as a neurotransmitter.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>amacrine cell, glycinergic</oboInOwl:hasExactSynonym>
+        <rdfs:label>glycinergic amacrine cell</rdfs:label>
     </owl:Class>
     
 
@@ -33369,6 +33506,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0045830 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045830"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0046649 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046649"/>
     
 
 
@@ -35328,6 +35471,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001289"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001290 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001290"/>
@@ -36339,6 +36488,18 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0005097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005097"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005099"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005100"/>
     
 
 
