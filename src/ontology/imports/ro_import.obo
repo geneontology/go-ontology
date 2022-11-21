@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-10-26/imports/ro_import.owl
+data-version: go/releases/2022-11-21/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -410,13 +410,6 @@ name: coincident with
 def: "A relation that holds between two linear structures that are approximately parallel to each other for their entire length and where either the two structures are adjacent to each other or one is part of the other." []
 xref: RO:0002008
 is_a: mereotopologically_related_to ! mereotopologically related to
-
-[Typedef]
-id: constitutively_upstream_of
-name: constitutively upstream of
-def: "p is constitutively upstream of q iff p is causally upstream of q, p is required for execution of q or a part of q, and the execution of p is approximately constant." []
-xref: RO:0012009
-is_a: causally_upstream_of,_positive_effect ! causally upstream of, positive effect
 
 [Typedef]
 id: contains_process
