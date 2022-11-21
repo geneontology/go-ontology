@@ -10,9 +10,10 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/ro_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-10-26/imports/ro_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-11-21/imports/ro_import.owl"/>
     </owl:Ontology>
     
 
@@ -44,6 +45,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
+        <rdfs:label xml:lang="en">OBO foundry unique label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
@@ -70,6 +79,12 @@
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -2697,18 +2712,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasDbXref>RO:0012008</oboInOwl:hasDbXref>
         <oboInOwl:shorthand>results_in_fusion_of</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">results in fusion of</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0012009 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0012009">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002304"/>
-        <obo:IAO_0000115>p is constitutively upstream of q iff p is causally upstream of q, p is required for execution of q or a part of q, and the execution of p is approximately constant.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>RO:0012009</oboInOwl:hasDbXref>
-        <oboInOwl:shorthand>constitutively_upstream_of</oboInOwl:shorthand>
-        <rdfs:label xml:lang="en">constitutively upstream of</rdfs:label>
     </owl:ObjectProperty>
     
 
