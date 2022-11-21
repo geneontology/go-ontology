@@ -1,6 +1,6 @@
-# x formation
+# anatomical structure formation
 
-[http://purl.obolibrary.org/obo/go/patterns/x_formation.yaml](http://purl.obolibrary.org/obo/go/patterns/x_formation.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_formation.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_formation.yaml)
 
 ## Description
 
@@ -39,7 +39,7 @@ This pattern is for classes representing formation of anatomical structures from
 
 ## Data preview
 
-*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/x_formation.tsv)*
+*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/anatomical_structure_formation.tsv)*
 
 | defined_class | defined_class_label | target | target_label |
 |:--|:--|:--|:--|

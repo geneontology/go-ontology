@@ -2,6 +2,11 @@
 
 | Pattern | Description |
 |:--------|:------------|
+| [anatomical structure development](anatomical_structure_development.md) | This pattern is for classes representing developmental processes, differentiated by the anatomical structure or cell being developed. |
+| [anatomical structure formation](anatomical_structure_formation.md) | This pattern is for classes representing formation of anatomical structures from their initial state, differentiated by the anatomical structure being formed. Not used for cells. |
+| [anatomical structure maturation](anatomical_structure_maturation.md) | This pattern is for classes representing the maturation of an anatomical structure or a cell, differentiated by the anatomical structure or cell being in its final state. |
+| [anatomical structure morphogenesis](anatomical_structure_morphogenesis.md) | This pattern is for classes representing the generation and organization of the shape of an anatomical structure or a cell, differentiated by the anatomical structure or cell being generated. |
+| [anatomical structure organization](anatomical_structure_organization.md) | TODO |
 | [binding](binding.md) | TODO |
 | [biosynthetic process](biosynthetic_process.md) | This pattern is for classes representing biosynthetic processes differentiated by their primary outputs. |
 | [bounding membrane of organelle](bounding_membrane_of_organelle.md) | TODO |
@@ -43,8 +48,3 @@
 | [transport of a cellular component](cc_transport.md) | Transport of a cellular component, differentiated by the component being transported. |
 | [vesicle-mediated transport differentiated by cargo](vesicle_mediated_transport_differentiated_by_cargo.md) | TODO |
 | [vesicle-mediated transport differentiated by start and end locations](vesicle_mediated_transport_differentiated_by_start_and_end_locations.md) | TODO |
-| [x development](x_development.md) | This pattern is for classes representing developmental processes, differentiated by the anatomical structure or cell being developed. |
-| [x formation](x_formation.md) | This pattern is for classes representing formation of anatomical structures from their initial state, differentiated by the anatomical structure being formed. Not used for cells. |
-| [x maturation](x_maturation.md) | This pattern is for classes representing the maturation of an anatomical structure or a cell, differentiated by the anatomical structure or cell being in its final state. |
-| [x morphogenesis](x_morphogenesis.md) | This pattern is for classes representing the generation and organization of the shape of an anatomical structure or a cell, differentiated by the anatomical structure or cell being generated. |
-| [x structural organization](x_structural_organization.md) | TODO |

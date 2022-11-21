@@ -1,6 +1,6 @@
-# x structural organization
+# anatomical structure organization
 
-[http://purl.obolibrary.org/obo/go/patterns/x_structural_organization.yaml](http://purl.obolibrary.org/obo/go/patterns/x_structural_organization.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_organization.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_organization.yaml)
 
 ## Description
 
@@ -39,7 +39,7 @@ TODO
 
 ## Data preview
 
-*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/x_structural_organization.tsv)*
+*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/anatomical_structure_organization.tsv)*
 
 | defined_class | defined_class_label | target | target_label |
 |:--|:--|:--|:--|

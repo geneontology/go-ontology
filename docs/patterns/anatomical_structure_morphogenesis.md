@@ -1,6 +1,6 @@
-# x morphogenesis
+# anatomical structure morphogenesis
 
-[http://purl.obolibrary.org/obo/go/patterns/x_morphogenesis.yaml](http://purl.obolibrary.org/obo/go/patterns/x_morphogenesis.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_morphogenesis.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_morphogenesis.yaml)
 
 ## Description
 
@@ -39,7 +39,7 @@ This pattern is for classes representing the generation and organization of the 
 
 ## Data preview
 
-*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/x_morphogenesis.tsv)*
+*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/anatomical_structure_morphogenesis.tsv)*
 
 | defined_class | defined_class_label | target | target_label |
 |:--|:--|:--|:--|
