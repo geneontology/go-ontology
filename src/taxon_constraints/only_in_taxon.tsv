@@ -845,15 +845,15 @@ GO:0140783	(M)-viriditoxin biosynthetic process	NCBITaxon:4751	Fungi
 GO:0007179	transforming growth factor beta receptor signaling pathway	NCBITaxon:33511	Deuterostomia	
 GO:0160032	Toll receptor ligand protein activation cascade	NCBITaxon:50557	Insecta	
 GO:0035244	peptidyl-arginine C-methyltransferase activity	NCBITaxon:2	Bacteria	
-GO:0045321	leukocyte activation		  NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0002443	leukocyte mediated immunity	  NCBITaxon:7742	Vertebrata <Metazoa>
-GO:0050900	leukocyte migration	  NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0070661	leukocyte proliferation	  NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0001909	leukocyte mediated cytotoxicity			NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0001776	leukocyte homeostasis				NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0043299	leukocyte degranulation				NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0007159	leukocyte cell-cell adhesion			NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0071887	leukocyte apoptotic process			NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0045321	leukocyte activation	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0002443	leukocyte mediated immunity	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0050900	leukocyte migration	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0070661	leukocyte proliferation	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0001909	leukocyte mediated cytotoxicity	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0001776	leukocyte homeostasis	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0043299	leukocyte degranulation	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0071887	leukocyte apoptotic process	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0080175	phragmoplast microtubule organization	NCBITaxon:33090	Viridiplantae
 GO:1902896	terminal web assembly	NCBITaxon:6072	Eumetazoa
 GO:1990357	terminal web	NCBITaxon:6072	Eumetazoa
