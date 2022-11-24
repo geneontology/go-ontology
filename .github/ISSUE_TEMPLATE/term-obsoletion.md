@@ -11,7 +11,22 @@ Please provide as much information as you can:
 
 * **GO term ID and Label**
 
-* **Reason for deprecation**
+* **Reason for deprecation** Put an x in the appropriate box: 
+ - [ ] The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
+ - [ ]  The reason for obsoletion is that this term is pre-composed and should be represented as a GO-CAM model.
+ - [ ]  The reason for obsoletion is that this term represent an assay and not a GO process.
+ - [ ]  The reason for obsoletion is that this represents a phenotype.
+ - [ ] The reason for obsoletion is that the data from the paper for which the term was requested can be accurately described using [appropriate GO term].
+ - [ ] The reason for obsoletion is that this term represents a molecular function.
+ - [ ]  The reason for obsoletion is that this term represents a gene product.
+ - [ ] The reason for obsoletion is that this term refers to a class of proteins.
+ - [ ]  The reason for obsoletion is that this term was added in error.
+ - [ ]  The reason for obsoletion is that more specific terms were created.
+ - [ ]  The reason for obsoletion is that this term was an unnecessary grouping term.
+ - [ ]  The reason for obsoletion is that the meaning of the term is ambiguous.
+ - [ ]  The reason for obsoletion is that is not known to be catalyzed by any gene product.
+ - [ ]  The reason for obsoletion is that it more specific than the specificity of any known gene product.
+ - [ ]  The reason for obsoletion is that there is no evidence that this function/process/component exists.
 
 * **"Replace by" term (ID and label)**
 If all annotations can safely be moved to that term
