@@ -846,15 +846,35 @@ GO:0007179	transforming growth factor beta receptor signaling pathway	NCBITaxon:
 GO:0160032	Toll receptor ligand protein activation cascade	NCBITaxon:50557	Insecta	
 GO:0035244	peptidyl-arginine C-methyltransferase activity	NCBITaxon:2	Bacteria	
 GO:0045321	leukocyte activation	NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0002443	leukocyte mediated immunity	NCBITaxon:7742	Vertebrata <Metazoa>
+GO:0002443  leukocyte mediated immunity NCBITaxon:7742  Vertebrata <Metazoa>    
 GO:0050900	leukocyte migration	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0070661	leukocyte proliferation	NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0001909	leukocyte mediated cytotoxicity	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0001909	leukocyte mediated cytotoxicity	NCBITaxon:7742	Vertebrata <Metazoa>    	
 GO:0001776	leukocyte homeostasis	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0043299	leukocyte degranulation	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0071887	leukocyte apoptotic process	NCBITaxon:7742	Vertebrata <Metazoa>
-GO:0080175	phragmoplast microtubule organization	NCBITaxon:33090	Viridiplantae
-GO:1902896	terminal web assembly	NCBITaxon:6072	Eumetazoa
-GO:1990357	terminal web	NCBITaxon:6072	Eumetazoa
-GO:0160062	cutin-based cuticle development	NCBITaxon:3193	Embryophyta	
+GO:0071887	leukocyte apoptotic process	NCBITaxon:7742	Vertebrata <Metazoa>    
+GO:0080175	phragmoplast microtubule organization	NCBITaxon:33090	Viridiplantae   
+GO:1902896	terminal web assembly	NCBITaxon:6072	Eumetazoa   
+GO:1990357	terminal web	NCBITaxon:6072	Eumetazoa   
+GO:0160062	cutin-based cuticle development	NCBITaxon:3193	Embryophyta 	
+GO:0060417  yolk	NCBITaxon:6072	Eumetazoa   
+GO:0005883  neurofilament	NCBITaxon:6072	Eumetazoa   
+GO:0120098  procentriole	NCBITaxon:6072	Eumetazoa   
+GO:0120099  procentriole replication complex	NCBITaxon:6072	Eumetazoa   
+GO:0071142  homomeric SMAD protein complex	NCBITaxon:6072	Eumetazoa   
+GO:0036457  keratohyalin granule NCBITaxon:6072	Eumetazoa   
+GO:0045169  fusome	NCBITaxon:6072	Eumetazoa   
+GO:0019812  type I site-specific deoxyribonuclease complex  NCBITaxon:Union_0000004	Prokaryota  
+GO:0009359  type II site-specific deoxyribonuclease complex NCBITaxon:Union_0000004	Prokaryota  
+GO:0019813  type III site-specific deoxyribonuclease complex    NCBITaxon:Union_0000004	Prokaryota    
+GO:0032068  type IV site-specific deoxyribonuclease complex NCBITaxon:Union_0000004	Prokaryota  
+GO:0044222  anammoxosome    NCBITaxon:Union_0000004	Prokaryota   
+GO:0044227  methane-oxidizing organelle NCBITaxon:Union_0000004	Prokaryota  
+GO:0009504  cell plate  NCBITaxon:33090	Viridiplantae  
+GO:0072562  blood microparticle	NCBITaxon:6072	Eumetazoa   
+GO:0050803  regulation of synapse structure or activity	NCBITaxon:6072	Eumetazoa   
+GO:1990523  bone regeneration	NCBITaxon:6072	Eumetazoa   
+GO:0048872  homeostasis of number of cells	NCBITaxon:6072	Eumetazoa   
+GO:0010597  green leaf volatile biosynthetic process  NCBITaxon:33090	Viridiplantae  
+GO:0009524  phragmoplast  NCBITaxon:33090	Viridiplantae   
