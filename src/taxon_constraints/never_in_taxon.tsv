@@ -576,3 +576,4 @@ GO:0106037	apicomedial cortex	NCBITaxon:2157	Archaea
 GO:0005725	intercalary heterochromatin	NCBITaxon:4751	Fungi	
 GO:0017145	stem cell division	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
 GO:0038055	BMP secretion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0020022  acidocalcisome  NCBITaxon:4890	Ascomycota  
