@@ -860,7 +860,7 @@ GO:1990357	terminal web	NCBITaxon:6072	Eumetazoa
 GO:0160062	cutin-based cuticle development	NCBITaxon:3193	Embryophyta	
 GO:0060417 	yolk	NCBITaxon:6072	Eumetazoa	
 GO:0005883 	neurofilament	NCBITaxon:6072	Eumetazoa	
-GO:0120098 	procentriole	NCBITaxon:6072	Eumetazoa   
+GO:0120098 	procentriole	NCBITaxon:6072	Eumetazoa	  
 GO:0120099 	procentriole replication complex	NCBITaxon:6072	Eumetazoa	
 GO:0071142 	homomeric SMAD protein complex	NCBITaxon:6072	Eumetazoa	
 GO:0036457 	keratohyalin granule NCBITaxon:6072	Eumetazoa	
