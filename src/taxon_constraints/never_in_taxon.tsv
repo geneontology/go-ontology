@@ -561,9 +561,9 @@ GO:0044393	microspike	NCBITaxon:4751	Fungi
 GO:0030035	microspike assembly	NCBITaxon:4751	Fungi	
 GO:0140858	histone ubiquitin ligase activity (H2A-K15 specific)	NCBITaxon:4890	Ascomycota	
 GO:0005689	U12-type spliceosomal complex	NCBITaxon:4890	Ascomycota	
-GO:0098619	selenocysteine-tRNA ligase activity	NCBITaxon:451864	Dikarya 
-GO:0098619	selenocysteine-tRNA ligase activity	NCBITaxon:3193	Embryophyta 
-GO:0001514	selenocysteine incorporation	NCBITaxon:451864	Dikarya 
+GO:0098619	selenocysteine-tRNA ligase activity	NCBITaxon:451864	Dikarya	
+GO:0098619	selenocysteine-tRNA ligase activity	NCBITaxon:3193	Embryophyta	
+GO:0001514	selenocysteine incorporation	NCBITaxon:451864	Dikarya	
 GO:0001514	selenocysteine incorporation	NCBITaxon:3193	Embryophyta 
 GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:4932	Saccharomyces cerevisiae	
