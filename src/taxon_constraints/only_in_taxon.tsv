@@ -877,4 +877,4 @@ GO:0050803 	regulation of synapse structure or activity	NCBITaxon:6072	Eumetazoa
 GO:1990523 	bone regeneration	NCBITaxon:6072	Eumetazoa   
 GO:0048872 	homeostasis of number of cells	NCBITaxon:6072	Eumetazoa   
 GO:0010597 	green leaf volatile biosynthetic process  NCBITaxon:33090	Viridiplantae  
-GO:0009524 	phragmoplast  NCBITaxon:33090	Viridiplantae	 
+GO:0009524 	phragmoplast  NCBITaxon:33090	Viridiplantae		
