@@ -846,7 +846,7 @@ GO:0007179	transforming growth factor beta receptor signaling pathway	NCBITaxon:
 GO:0160032	Toll receptor ligand protein activation cascade	NCBITaxon:50557	Insecta	
 GO:0035244	peptidyl-arginine C-methyltransferase activity	NCBITaxon:2	Bacteria	
 GO:0045321	leukocyte activation	NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0002443	leukocyte mediated immunity	NCBITaxon:7742	Vertebrata <Metazoa>    
+GO:0002443	leukocyte mediated immunity	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0050900	leukocyte migration	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0070661	leukocyte proliferation	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0001909	leukocyte mediated cytotoxicity	NCBITaxon:7742	Vertebrata <Metazoa>    	
