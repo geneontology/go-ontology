@@ -863,19 +863,19 @@ GO:0005883 	neurofilament	NCBITaxon:6072	Eumetazoa
 GO:0120098 	procentriole	NCBITaxon:6072	Eumetazoa	  
 GO:0120099 	procentriole replication complex	NCBITaxon:6072	Eumetazoa	
 GO:0071142 	homomeric SMAD protein complex	NCBITaxon:6072	Eumetazoa	
-GO:0036457 	keratohyalin granule NCBITaxon:6072	Eumetazoa	
-GO:0045169 	fusome	NCBITaxon:6072	Eumetazoa	
-GO:0019812 	type I site-specific deoxyribonuclease complex  NCBITaxon:Union_0000004	Prokaryota	
-GO:0009359 	type II site-specific deoxyribonuclease complex NCBITaxon:Union_0000004	Prokaryota	
-GO:0019813 	type III site-specific deoxyribonuclease complex    NCBITaxon:Union_0000004	Prokaryota	
-GO:0032068 	type IV site-specific deoxyribonuclease complex NCBITaxon:Union_0000004	Prokaryota	
-GO:0044222 	anammoxosome	NCBITaxon:Union_0000004	Prokaryota	
-GO:0044227 	methane-oxidizing organelle	NCBITaxon:Union_0000004	Prokaryota	
-GO:0009504 	cell plate  NCBITaxon:33090	Viridiplantae	
-GO:0072562 	blood microparticle	NCBITaxon:6072	Eumetazoa	
-GO:0050803 	regulation of synapse structure or activity	NCBITaxon:6072	Eumetazoa	
-GO:1990523 	bone regeneration	NCBITaxon:6072	Eumetazoa	
-GO:0048872 	homeostasis of number of cells	NCBITaxon:6072	Eumetazoa	
-GO:0010597 	green leaf volatile biosynthetic process  NCBITaxon:33090	Viridiplantae	
-GO:0009524 	phragmoplast  NCBITaxon:33090	Viridiplantae	
+GO:0036457	keratohyalin granule	NCBITaxon:6072	Eumetazoa	
+GO:0045169	fusome	NCBITaxon:6072	Eumetazoa	
+GO:0019812	type I site-specific deoxyribonuclease complex	NCBITaxon:Union_0000004	Prokaryota	
+GO:0009359	type II site-specific deoxyribonuclease complex	NCBITaxon:Union_0000004	Prokaryota	
+GO:0019813	type III site-specific deoxyribonuclease complex	NCBITaxon:Union_0000004	Prokaryota	
+GO:0032068	type IV site-specific deoxyribonuclease complex	NCBITaxon:Union_0000004	Prokaryota	
+GO:0044222	anammoxosome	NCBITaxon:Union_0000004	Prokaryota	
+GO:0044227	methane-oxidizing organelle		CBITaxon:Union_0000004	Prokaryota	
+GO:0009504	cell plate	NCBITaxon:33090	Viridiplantae	
+GO:0072562	blood microparticle	NCBITaxon:6072	Eumetazoa	
+GO:0050803	regulation of synapse structure or activity	NCBITaxon:6072	Eumetazoa	
+GO:1990523	bone regeneration	NCBITaxon:6072	Eumetazoa	
+GO:0048872	homeostasis of number of cells	NCBITaxon:6072	Eumetazoa	
+GO:0010597	green leaf volatile biosynthetic process	NCBITaxon:33090	Viridiplantae	
+GO:0009524	phragmoplast	NCBITaxon:33090	Viridiplantae	
 GO:0022620	microgametophyte vegetative cell differentiation	NCBITaxon:58024	Spermatophyta	
