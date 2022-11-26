@@ -564,18 +564,18 @@ GO:0005689	U12-type spliceosomal complex	NCBITaxon:4890	Ascomycota
 GO:0098619	selenocysteine-tRNA ligase activity	NCBITaxon:451864	Dikarya	
 GO:0098619	selenocysteine-tRNA ligase activity	NCBITaxon:3193	Embryophyta	
 GO:0001514	selenocysteine incorporation	NCBITaxon:451864	Dikarya	
-GO:0001514	selenocysteine incorporation	NCBITaxon:3193	Embryophyta 
+GO:0001514	selenocysteine incorporation	NCBITaxon:3193	Embryophyta	
 GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:2	Bacteria	
-GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:2157	Archaea 
+GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:2157	Archaea	
 GO:0106037	apicomedial cortex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0106037	apicomedial cortex	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0106037	apicomedial cortex	NCBITaxon:2	Bacteria	
-GO:0106037	apicomedial cortex	NCBITaxon:2157	Archaea
+GO:0106037	apicomedial cortex	NCBITaxon:2157	Archaea	
 GO:0005725	intercalary heterochromatin	NCBITaxon:4751	Fungi	
-GO:0017145	stem cell division	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
-GO:0038055	BMP secretion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
+GO:0017145	stem cell division	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0038055	BMP secretion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
 GO:0020022	acidocalcisome	NCBITaxon:4890	Ascomycota	
-GO:0042246  tissue regeneration NCBITaxon:4751  Fungi 
-GO:0060250  germ-line stem-cell niche homeostasis NCBITaxon:4751  Fungi 
+GO:0042246 	tissue regeneration	NCBITaxon:4751	Fungi	
+GO:0060250 	germ-line stem-cell niche homeostasis NCBITaxon:4751	Fungi	
