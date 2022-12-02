@@ -820,7 +820,6 @@ GO:0140604	mycofactocin biosynthetic process	NCBITaxon:Union_0000004	Prokaryota
 GO:0009486	cytochrome bo3 ubiquinol oxidase activity	NCBITaxon:2	Bacteria	
 GO:0008815	citrate (pro-3S)-lyase activity	NCBITaxon:2	Bacteria	
 GO:0009346	ATP-independent citrate lyase complex	NCBITaxon:2	Bacteria	
-GO:0140617	transvection	NCBITaxon:7147	Diptera	
 GO:0009289	pilus	NCBITaxon:2	Bacteria	
 GO:0043711	pilus organization	NCBITaxon:2	Bacteria	
 GO:0120309	cilium attachment to cell body	NCBITaxon:5653	Kinetoplastida	
