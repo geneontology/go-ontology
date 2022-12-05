@@ -32824,12 +32824,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0140617 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0140617"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0140643 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0140643">
