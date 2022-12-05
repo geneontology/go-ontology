@@ -32824,25 +32824,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0140617 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0140617">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7147"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7147"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0140643 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0140643">
