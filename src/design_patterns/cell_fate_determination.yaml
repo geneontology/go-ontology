@@ -20,7 +20,7 @@ name:
     - target
 
 def:
-  text: "The process in which a cell becomes capable of differentiating autonomously into a %s cell."
+  text: "The cell determination process in which a cell becomes capable of terminally differentiating autonomously into a %s cell."
   vars:
      - target
 
