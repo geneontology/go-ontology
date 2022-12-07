@@ -371,9 +371,8 @@ http://purl.obolibrary.org/obo/GO_2000839	positive regulation of androstenedione
 http://purl.obolibrary.org/obo/GO_0045766	positive regulation of angiogenesis	http://purl.obolibrary.org/obo/GO_0001525	angiogenesis
 http://purl.obolibrary.org/obo/GO_0110063	positive regulation of angiotensin-activated signaling pathway	http://purl.obolibrary.org/obo/GO_0038166	angiotensin-activated signaling pathway
 http://purl.obolibrary.org/obo/GO_0110110	positive regulation of animal organ morphogenesis	http://purl.obolibrary.org/obo/GO_0009887	animal organ morphogenesis
-http://purl.obolibrary.org/obo/GO_1901529	positive regulation of anion channel activity	http://purl.obolibrary.org/obo/GO_0005253	anion channel activity
-http://purl.obolibrary.org/obo/GO_1903961	positive regulation of anion transmembrane transport	http://purl.obolibrary.org/obo/GO_0098656	anion transmembrane transport
-http://purl.obolibrary.org/obo/GO_1903793	positive regulation of anion transport	http://purl.obolibrary.org/obo/GO_0006820	anion transport
+http://purl.obolibrary.org/obo/GO_1901529	positive regulation of anion channel activity	http://purl.obolibrary.org/obo/GO_0005253	monoatomic anion channel activity
+http://purl.obolibrary.org/obo/GO_1903961	positive regulation of anion transmembrane transport	http://purl.obolibrary.org/obo/GO_0098656	monoatomic anion transmembrane transport
 http://purl.obolibrary.org/obo/GO_2000210	positive regulation of anoikis	http://purl.obolibrary.org/obo/GO_0043276	anoikis
 http://purl.obolibrary.org/obo/GO_2000744	positive regulation of anterior head development	http://purl.obolibrary.org/obo/GO_0097065	anterior head development
 http://purl.obolibrary.org/obo/GO_1905488	positive regulation of anterior/posterior axon guidance	http://purl.obolibrary.org/obo/GO_0033564	anterior/posterior axon guidance
@@ -615,8 +614,8 @@ http://purl.obolibrary.org/obo/GO_0043085	positive regulation of catalytic activ
 http://purl.obolibrary.org/obo/GO_0045915	positive regulation of catecholamine metabolic process	http://purl.obolibrary.org/obo/GO_0006584	catecholamine metabolic process
 http://purl.obolibrary.org/obo/GO_0033605	positive regulation of catecholamine secretion	http://purl.obolibrary.org/obo/GO_0050432	catecholamine secretion
 http://purl.obolibrary.org/obo/GO_0051944	positive regulation of catecholamine uptake involved in synaptic transmission	http://purl.obolibrary.org/obo/GO_0051934	catecholamine uptake involved in synaptic transmission
-http://purl.obolibrary.org/obo/GO_2001259	positive regulation of cation channel activity	http://purl.obolibrary.org/obo/GO_0005261	cation channel activity
-http://purl.obolibrary.org/obo/GO_1904064	positive regulation of cation transmembrane transport	http://purl.obolibrary.org/obo/GO_0098655	cation transmembrane transport
+http://purl.obolibrary.org/obo/GO_2001259	positive regulation of cation channel activity	http://purl.obolibrary.org/obo/GO_0005261	monoatomic cation channel activity
+http://purl.obolibrary.org/obo/GO_1904064	positive regulation of cation transmembrane transport	http://purl.obolibrary.org/obo/GO_0098655	monoatomic cation transmembrane transport
 http://purl.obolibrary.org/obo/GO_2001288	positive regulation of caveolin-mediated endocytosis	http://purl.obolibrary.org/obo/GO_0072584	caveolin-mediated endocytosis
 http://purl.obolibrary.org/obo/GO_0050867	positive regulation of cell activation	http://purl.obolibrary.org/obo/GO_0001775	cell activation
 http://purl.obolibrary.org/obo/GO_0045785	positive regulation of cell adhesion	http://purl.obolibrary.org/obo/GO_0007155	cell adhesion
@@ -853,7 +852,7 @@ http://purl.obolibrary.org/obo/GO_0048081	positive regulation of cuticle pigment
 http://purl.obolibrary.org/obo/GO_1901959	positive regulation of cutin biosynthetic process	http://purl.obolibrary.org/obo/GO_0010143	cutin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0048783	positive regulation of cyanophore differentiation	http://purl.obolibrary.org/obo/GO_0048774	cyanophore differentiation
 http://purl.obolibrary.org/obo/GO_0031281	positive regulation of cyclase activity	http://purl.obolibrary.org/obo/GO_0009975	cyclase activity
-http://purl.obolibrary.org/obo/GO_1902161	positive regulation of cyclic nucleotide-gated ion channel activity	http://purl.obolibrary.org/obo/GO_0043855	cyclic nucleotide-gated ion channel activity
+http://purl.obolibrary.org/obo/GO_1902161	positive regulation of cyclic nucleotide-gated ion channel activity	http://purl.obolibrary.org/obo/GO_0043855	cyclic nucleotide-gated monoatomic ion channel activity
 http://purl.obolibrary.org/obo/GO_0051343	positive regulation of cyclic-nucleotide phosphodiesterase activity	http://purl.obolibrary.org/obo/GO_0004112	cyclic-nucleotide phosphodiesterase activity
 http://purl.obolibrary.org/obo/GO_1904031	positive regulation of cyclin-dependent protein kinase activity	http://purl.obolibrary.org/obo/GO_0097472	cyclin-dependent protein kinase activity
 http://purl.obolibrary.org/obo/GO_0045737	positive regulation of cyclin-dependent protein serine/threonine kinase activity	http://purl.obolibrary.org/obo/GO_0004693	cyclin-dependent protein serine/threonine kinase activity
@@ -1488,9 +1487,7 @@ http://purl.obolibrary.org/obo/GO_2000219	positive regulation of invasive growth
 http://purl.obolibrary.org/obo/GO_1901980	positive regulation of inward rectifier potassium channel activity	http://purl.obolibrary.org/obo/GO_0005242	inward rectifier potassium channel activity
 http://purl.obolibrary.org/obo/GO_1904214	positive regulation of iodide transmembrane transport	http://purl.obolibrary.org/obo/GO_1904200	iodide transmembrane transport
 http://purl.obolibrary.org/obo/GO_1904203	positive regulation of iodide transport	http://purl.obolibrary.org/obo/GO_0015705	iodide transport
-http://purl.obolibrary.org/obo/GO_0034767	positive regulation of ion transmembrane transport	http://purl.obolibrary.org/obo/GO_0034220	ion transmembrane transport
-http://purl.obolibrary.org/obo/GO_0032414	positive regulation of ion transmembrane transporter activity	http://purl.obolibrary.org/obo/GO_0015075	ion transmembrane transporter activity
-http://purl.obolibrary.org/obo/GO_0043270	positive regulation of ion transport	http://purl.obolibrary.org/obo/GO_0006811	ion transport
+http://purl.obolibrary.org/obo/GO_0032414	positive regulation of ion transmembrane transporter activity	http://purl.obolibrary.org/obo/GO_0015075	monoatomic ion transmembrane transporter activity
 http://purl.obolibrary.org/obo/GO_0050945	positive regulation of iridophore differentiation	http://purl.obolibrary.org/obo/GO_0050935	iridophore differentiation
 http://purl.obolibrary.org/obo/GO_1904040	positive regulation of iron export across plasma membrane	http://purl.obolibrary.org/obo/GO_1903988	iron ion export across plasma membrane
 http://purl.obolibrary.org/obo/GO_1904440	positive regulation of iron ion import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098711	iron ion import across plasma membrane
@@ -1845,6 +1842,9 @@ http://purl.obolibrary.org/obo/GO_0110161	positive regulation of mitotic spindle
 http://purl.obolibrary.org/obo/GO_0110028	positive regulation of mitotic spindle organization	http://purl.obolibrary.org/obo/GO_0007052	mitotic spindle organization
 http://purl.obolibrary.org/obo/GO_0010696	positive regulation of mitotic spindle pole body separation	http://purl.obolibrary.org/obo/GO_0000073	initial mitotic spindle pole body separation
 http://purl.obolibrary.org/obo/GO_0044093	positive regulation of molecular function	http://purl.obolibrary.org/obo/GO_0003674	molecular_function
+http://purl.obolibrary.org/obo/GO_1903793	positive regulation of monoatomic anion transport	http://purl.obolibrary.org/obo/GO_0006820	monoatomic anion transport
+http://purl.obolibrary.org/obo/GO_0034767	positive regulation of monoatomic ion transmembrane transport	http://purl.obolibrary.org/obo/GO_0034220	monoatomic ion transmembrane transport
+http://purl.obolibrary.org/obo/GO_0043270	positive regulation of monoatomic ion transport	http://purl.obolibrary.org/obo/GO_0006811	monoatomic ion transport
 http://purl.obolibrary.org/obo/GO_1900625	positive regulation of monocyte aggregation	http://purl.obolibrary.org/obo/GO_0070487	monocyte aggregation
 http://purl.obolibrary.org/obo/GO_0002615	positive regulation of monocyte antigen processing and presentation	http://purl.obolibrary.org/obo/GO_0002471	monocyte antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_0071639	positive regulation of monocyte chemotactic protein-1 production	http://purl.obolibrary.org/obo/GO_0071605	monocyte chemotactic protein-1 production
@@ -2043,7 +2043,7 @@ http://purl.obolibrary.org/obo/GO_1902117	positive regulation of organelle assem
 http://purl.obolibrary.org/obo/GO_0010638	positive regulation of organelle organization	http://purl.obolibrary.org/obo/GO_0006996	organelle organization
 http://purl.obolibrary.org/obo/GO_0032892	positive regulation of organic acid transport	http://purl.obolibrary.org/obo/GO_0015849	organic acid transport
 http://purl.obolibrary.org/obo/GO_1903268	positive regulation of ornithine catabolic process	http://purl.obolibrary.org/obo/GO_0006593	ornithine catabolic process
-http://purl.obolibrary.org/obo/GO_1904297	positive regulation of osmolarity-sensing cation channel activity	http://purl.obolibrary.org/obo/GO_1990760	osmolarity-sensing cation channel activity
+http://purl.obolibrary.org/obo/GO_1904297	positive regulation of osmolarity-sensing cation channel activity	http://purl.obolibrary.org/obo/GO_1990760	osmolarity-sensing monoatomic cation channel activity
 http://purl.obolibrary.org/obo/GO_0045778	positive regulation of ossification	http://purl.obolibrary.org/obo/GO_0001503	ossification
 http://purl.obolibrary.org/obo/GO_0045669	positive regulation of osteoblast differentiation	http://purl.obolibrary.org/obo/GO_0001649	osteoblast differentiation
 http://purl.obolibrary.org/obo/GO_0033690	positive regulation of osteoblast proliferation	http://purl.obolibrary.org/obo/GO_0033687	osteoblast proliferation

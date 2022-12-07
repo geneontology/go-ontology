@@ -274,7 +274,7 @@ http://purl.obolibrary.org/obo/GO_1905922	negative regulation of acetylcholine b
 http://purl.obolibrary.org/obo/GO_0060410	negative regulation of acetylcholine metabolic process	http://purl.obolibrary.org/obo/GO_0008291	acetylcholine metabolic process
 http://purl.obolibrary.org/obo/GO_0014058	negative regulation of acetylcholine secretion, neurotransmission	http://purl.obolibrary.org/obo/GO_0014055	acetylcholine secretion, neurotransmission
 http://purl.obolibrary.org/obo/GO_0051632	negative regulation of acetylcholine uptake	http://purl.obolibrary.org/obo/GO_0051630	acetylcholine uptake
-http://purl.obolibrary.org/obo/GO_1903049	negative regulation of acetylcholine-gated cation channel activity	http://purl.obolibrary.org/obo/GO_0022848	acetylcholine-gated cation-selective channel activity
+http://purl.obolibrary.org/obo/GO_1903049	negative regulation of acetylcholine-gated cation channel activity	http://purl.obolibrary.org/obo/GO_0022848	acetylcholine-gated monoatomic cation-selective channel activity
 http://purl.obolibrary.org/obo/GO_1901586	negative regulation of acid-sensing ion channel activity	http://purl.obolibrary.org/obo/GO_0044736	acid-sensing ion channel activity
 http://purl.obolibrary.org/obo/GO_1904698	negative regulation of acinar cell proliferation	http://purl.obolibrary.org/obo/GO_1990863	acinar cell proliferation
 http://purl.obolibrary.org/obo/GO_1904233	negative regulation of aconitate hydratase activity	http://purl.obolibrary.org/obo/GO_0003994	aconitate hydratase activity
@@ -372,9 +372,8 @@ http://purl.obolibrary.org/obo/GO_2000838	negative regulation of androstenedione
 http://purl.obolibrary.org/obo/GO_0016525	negative regulation of angiogenesis	http://purl.obolibrary.org/obo/GO_0001525	angiogenesis
 http://purl.obolibrary.org/obo/GO_0110062	negative regulation of angiotensin-activated signaling pathway	http://purl.obolibrary.org/obo/GO_0038166	angiotensin-activated signaling pathway
 http://purl.obolibrary.org/obo/GO_0110111	negative regulation of animal organ morphogenesis	http://purl.obolibrary.org/obo/GO_0009887	animal organ morphogenesis
-http://purl.obolibrary.org/obo/GO_0010360	negative regulation of anion channel activity	http://purl.obolibrary.org/obo/GO_0005253	anion channel activity
-http://purl.obolibrary.org/obo/GO_1903960	negative regulation of anion transmembrane transport	http://purl.obolibrary.org/obo/GO_0098656	anion transmembrane transport
-http://purl.obolibrary.org/obo/GO_1903792	negative regulation of anion transport	http://purl.obolibrary.org/obo/GO_0006820	anion transport
+http://purl.obolibrary.org/obo/GO_0010360	negative regulation of anion channel activity	http://purl.obolibrary.org/obo/GO_0005253	monoatomic anion channel activity
+http://purl.obolibrary.org/obo/GO_1903960	negative regulation of anion transmembrane transport	http://purl.obolibrary.org/obo/GO_0098656	monoatomic anion transmembrane transport
 http://purl.obolibrary.org/obo/GO_2000811	negative regulation of anoikis	http://purl.obolibrary.org/obo/GO_0043276	anoikis
 http://purl.obolibrary.org/obo/GO_2000743	negative regulation of anterior head development	http://purl.obolibrary.org/obo/GO_0097065	anterior head development
 http://purl.obolibrary.org/obo/GO_1905487	negative regulation of anterior/posterior axon guidance	http://purl.obolibrary.org/obo/GO_0033564	anterior/posterior axon guidance
@@ -619,8 +618,8 @@ http://purl.obolibrary.org/obo/GO_0043086	negative regulation of catalytic activ
 http://purl.obolibrary.org/obo/GO_0045914	negative regulation of catecholamine metabolic process	http://purl.obolibrary.org/obo/GO_0006584	catecholamine metabolic process
 http://purl.obolibrary.org/obo/GO_0033604	negative regulation of catecholamine secretion	http://purl.obolibrary.org/obo/GO_0050432	catecholamine secretion
 http://purl.obolibrary.org/obo/GO_0051945	negative regulation of catecholamine uptake involved in synaptic transmission	http://purl.obolibrary.org/obo/GO_0051934	catecholamine uptake involved in synaptic transmission
-http://purl.obolibrary.org/obo/GO_2001258	negative regulation of cation channel activity	http://purl.obolibrary.org/obo/GO_0005261	cation channel activity
-http://purl.obolibrary.org/obo/GO_1904063	negative regulation of cation transmembrane transport	http://purl.obolibrary.org/obo/GO_0098655	cation transmembrane transport
+http://purl.obolibrary.org/obo/GO_2001258	negative regulation of cation channel activity	http://purl.obolibrary.org/obo/GO_0005261	monoatomic cation channel activity
+http://purl.obolibrary.org/obo/GO_1904063	negative regulation of cation transmembrane transport	http://purl.obolibrary.org/obo/GO_0098655	monoatomic cation transmembrane transport
 http://purl.obolibrary.org/obo/GO_2001287	negative regulation of caveolin-mediated endocytosis	http://purl.obolibrary.org/obo/GO_0072584	caveolin-mediated endocytosis
 http://purl.obolibrary.org/obo/GO_0050866	negative regulation of cell activation	http://purl.obolibrary.org/obo/GO_0001775	cell activation
 http://purl.obolibrary.org/obo/GO_0007162	negative regulation of cell adhesion	http://purl.obolibrary.org/obo/GO_0007155	cell adhesion
@@ -869,7 +868,7 @@ http://purl.obolibrary.org/obo/GO_0048080	negative regulation of cuticle pigment
 http://purl.obolibrary.org/obo/GO_1901958	negative regulation of cutin biosynthetic process	http://purl.obolibrary.org/obo/GO_0010143	cutin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0048782	negative regulation of cyanophore differentiation	http://purl.obolibrary.org/obo/GO_0048774	cyanophore differentiation
 http://purl.obolibrary.org/obo/GO_0031280	negative regulation of cyclase activity	http://purl.obolibrary.org/obo/GO_0009975	cyclase activity
-http://purl.obolibrary.org/obo/GO_1902160	negative regulation of cyclic nucleotide-gated ion channel activity	http://purl.obolibrary.org/obo/GO_0043855	cyclic nucleotide-gated ion channel activity
+http://purl.obolibrary.org/obo/GO_1902160	negative regulation of cyclic nucleotide-gated ion channel activity	http://purl.obolibrary.org/obo/GO_0043855	cyclic nucleotide-gated monoatomic ion channel activity
 http://purl.obolibrary.org/obo/GO_0051344	negative regulation of cyclic-nucleotide phosphodiesterase activity	http://purl.obolibrary.org/obo/GO_0004112	cyclic-nucleotide phosphodiesterase activity
 http://purl.obolibrary.org/obo/GO_1904030	negative regulation of cyclin-dependent protein kinase activity	http://purl.obolibrary.org/obo/GO_0097472	cyclin-dependent protein kinase activity
 http://purl.obolibrary.org/obo/GO_0045736	negative regulation of cyclin-dependent protein serine/threonine kinase activity	http://purl.obolibrary.org/obo/GO_0004693	cyclin-dependent protein serine/threonine kinase activity
@@ -1511,9 +1510,7 @@ http://purl.obolibrary.org/obo/GO_2000218	negative regulation of invasive growth
 http://purl.obolibrary.org/obo/GO_1903609	negative regulation of inward rectifier potassium channel activity	http://purl.obolibrary.org/obo/GO_0005242	inward rectifier potassium channel activity
 http://purl.obolibrary.org/obo/GO_1904213	negative regulation of iodide transmembrane transport	http://purl.obolibrary.org/obo/GO_1904200	iodide transmembrane transport
 http://purl.obolibrary.org/obo/GO_1904202	negative regulation of iodide transport	http://purl.obolibrary.org/obo/GO_0015705	iodide transport
-http://purl.obolibrary.org/obo/GO_0034766	negative regulation of ion transmembrane transport	http://purl.obolibrary.org/obo/GO_0034220	ion transmembrane transport
-http://purl.obolibrary.org/obo/GO_0032413	negative regulation of ion transmembrane transporter activity	http://purl.obolibrary.org/obo/GO_0015075	ion transmembrane transporter activity
-http://purl.obolibrary.org/obo/GO_0043271	negative regulation of ion transport	http://purl.obolibrary.org/obo/GO_0006811	ion transport
+http://purl.obolibrary.org/obo/GO_0032413	negative regulation of ion transmembrane transporter activity	http://purl.obolibrary.org/obo/GO_0015075	monoatomic ion transmembrane transporter activity
 http://purl.obolibrary.org/obo/GO_0050943	negative regulation of iridophore differentiation	http://purl.obolibrary.org/obo/GO_0050935	iridophore differentiation
 http://purl.obolibrary.org/obo/GO_1904039	negative regulation of iron export across plasma membrane	http://purl.obolibrary.org/obo/GO_1903988	iron ion export across plasma membrane
 http://purl.obolibrary.org/obo/GO_1904439	negative regulation of iron ion import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098711	iron ion import across plasma membrane
@@ -1864,6 +1861,9 @@ http://purl.obolibrary.org/obo/GO_0110160	negative regulation of mitotic spindle
 http://purl.obolibrary.org/obo/GO_0010697	negative regulation of mitotic spindle pole body separation	http://purl.obolibrary.org/obo/GO_0000073	initial mitotic spindle pole body separation
 http://purl.obolibrary.org/obo/GO_1904537	negative regulation of mitotic telomere tethering at nuclear periphery	http://purl.obolibrary.org/obo/GO_0044820	mitotic telomere tethering at nuclear periphery
 http://purl.obolibrary.org/obo/GO_0044092	negative regulation of molecular function	http://purl.obolibrary.org/obo/GO_0003674	molecular_function
+http://purl.obolibrary.org/obo/GO_1903792	negative regulation of monoatomic anion transport	http://purl.obolibrary.org/obo/GO_0006820	monoatomic anion transport
+http://purl.obolibrary.org/obo/GO_0034766	negative regulation of monoatomic ion transmembrane transport	http://purl.obolibrary.org/obo/GO_0034220	monoatomic ion transmembrane transport
+http://purl.obolibrary.org/obo/GO_0043271	negative regulation of monoatomic ion transport	http://purl.obolibrary.org/obo/GO_0006811	monoatomic ion transport
 http://purl.obolibrary.org/obo/GO_0150102	negative regulation of monocyte activation	http://purl.obolibrary.org/obo/GO_0042117	monocyte activation
 http://purl.obolibrary.org/obo/GO_1900624	negative regulation of monocyte aggregation	http://purl.obolibrary.org/obo/GO_0070487	monocyte aggregation
 http://purl.obolibrary.org/obo/GO_0002614	negative regulation of monocyte antigen processing and presentation	http://purl.obolibrary.org/obo/GO_0002471	monocyte antigen processing and presentation
@@ -2063,7 +2063,7 @@ http://purl.obolibrary.org/obo/GO_1902116	negative regulation of organelle assem
 http://purl.obolibrary.org/obo/GO_0010639	negative regulation of organelle organization	http://purl.obolibrary.org/obo/GO_0006996	organelle organization
 http://purl.obolibrary.org/obo/GO_0032891	negative regulation of organic acid transport	http://purl.obolibrary.org/obo/GO_0015849	organic acid transport
 http://purl.obolibrary.org/obo/GO_1903267	negative regulation of ornithine catabolic process	http://purl.obolibrary.org/obo/GO_0006593	ornithine catabolic process
-http://purl.obolibrary.org/obo/GO_1904296	negative regulation of osmolarity-sensing cation channel activity	http://purl.obolibrary.org/obo/GO_1990760	osmolarity-sensing cation channel activity
+http://purl.obolibrary.org/obo/GO_1904296	negative regulation of osmolarity-sensing cation channel activity	http://purl.obolibrary.org/obo/GO_1990760	osmolarity-sensing monoatomic cation channel activity
 http://purl.obolibrary.org/obo/GO_0140532	negative regulation of osmosensory signaling MAPK cascade	http://purl.obolibrary.org/obo/GO_0000161	osmosensory signaling MAPK cascade
 http://purl.obolibrary.org/obo/GO_0120028	negative regulation of osmosensory signaling pathway	http://purl.obolibrary.org/obo/GO_0007231	osmosensory signaling pathway
 http://purl.obolibrary.org/obo/GO_0030279	negative regulation of ossification	http://purl.obolibrary.org/obo/GO_0001503	ossification

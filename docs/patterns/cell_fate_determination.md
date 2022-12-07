@@ -25,7 +25,7 @@ This pattern is for classes representing the determination of cell fate, differe
 
 ## Definition
 
-"The process in which a cell becomes capable of differentiating autonomously into a `{target}` cell."^^[string](http://www.w3.org/2001/XMLSchema#string)
+"The cell determination process by which a cell becomes capable of terminally differentiating autonomously into a `{target}` cell."^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Equivalent to
 

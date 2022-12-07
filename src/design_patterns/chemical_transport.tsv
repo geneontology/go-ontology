@@ -62,7 +62,6 @@ http://purl.obolibrary.org/obo/GO_0006865	amino acid transport	http://purl.oboli
 http://purl.obolibrary.org/obo/GO_0015838	amino-acid betaine transport	http://purl.obolibrary.org/obo/CHEBI_22860	amino-acid betaine
 http://purl.obolibrary.org/obo/GO_0015917	aminophospholipid transport	http://purl.obolibrary.org/obo/CHEBI_60971	aminophospholipid
 http://purl.obolibrary.org/obo/GO_0015899	aminotriazole transport	http://purl.obolibrary.org/obo/CHEBI_40036	amitrole
-http://purl.obolibrary.org/obo/GO_0006820	anion transport	http://purl.obolibrary.org/obo/CHEBI_22563	anion
 http://purl.obolibrary.org/obo/GO_0015699	antimonite transport	http://purl.obolibrary.org/obo/CHEBI_49870	antimonous acid
 http://purl.obolibrary.org/obo/GO_2001092	arabinotriose transport	http://purl.obolibrary.org/obo/CHEBI_62781	alpha-L-Araf-(1->5)-alpha-L-Araf-(1->5)-L-Araf
 http://purl.obolibrary.org/obo/GO_1903963	arachidonate transport	http://purl.obolibrary.org/obo/CHEBI_32395	arachidonate
@@ -97,7 +96,6 @@ http://purl.obolibrary.org/obo/GO_0046942	carboxylic acid transport	http://purl.
 http://purl.obolibrary.org/obo/GO_0015879	carnitine transport	http://purl.obolibrary.org/obo/CHEBI_17126	carnitine
 http://purl.obolibrary.org/obo/GO_0046867	carotenoid transport	http://purl.obolibrary.org/obo/CHEBI_23044	carotenoid
 http://purl.obolibrary.org/obo/GO_0051937	catecholamine transport	http://purl.obolibrary.org/obo/CHEBI_33567	catecholamine
-http://purl.obolibrary.org/obo/GO_0006812	cation transport	http://purl.obolibrary.org/obo/CHEBI_36916	cation
 http://purl.obolibrary.org/obo/GO_0019533	cellobiose transport	http://purl.obolibrary.org/obo/CHEBI_17057	cellobiose
 http://purl.obolibrary.org/obo/GO_2001096	cellotriose transport	http://purl.obolibrary.org/obo/CHEBI_3528	cellotriose
 http://purl.obolibrary.org/obo/GO_1902389	ceramide 1-phosphate transport	http://purl.obolibrary.org/obo/CHEBI_57674	N-acylsphingosine 1-phosphate(2-)
@@ -175,7 +173,6 @@ http://purl.obolibrary.org/obo/GO_0015698	inorganic anion transport	http://purl.
 http://purl.obolibrary.org/obo/GO_0030505	inorganic diphosphate transport	http://purl.obolibrary.org/obo/CHEBI_35782	diphosphate ion
 http://purl.obolibrary.org/obo/GO_0035340	inosine transport	http://purl.obolibrary.org/obo/CHEBI_17596	inosine
 http://purl.obolibrary.org/obo/GO_0015705	iodide transport	http://purl.obolibrary.org/obo/CHEBI_16382	iodide
-http://purl.obolibrary.org/obo/GO_0006811	ion transport	http://purl.obolibrary.org/obo/CHEBI_24870	ion
 http://purl.obolibrary.org/obo/GO_1901678	iron coordination entity transport	http://purl.obolibrary.org/obo/CHEBI_33892	iron coordination entity
 http://purl.obolibrary.org/obo/GO_0006826	iron ion transport	http://purl.obolibrary.org/obo/CHEBI_24875	iron cation
 http://purl.obolibrary.org/obo/GO_0015818	isoleucine transport	http://purl.obolibrary.org/obo/CHEBI_24898	isoleucine
@@ -226,6 +223,9 @@ http://purl.obolibrary.org/obo/GO_1905431	microcystin transport	http://purl.obol
 http://purl.obolibrary.org/obo/GO_0072337	modified amino acid transport	http://purl.obolibrary.org/obo/CHEBI_83821	amino acid derivative
 http://purl.obolibrary.org/obo/GO_0015689	molybdate ion transport	http://purl.obolibrary.org/obo/CHEBI_36264	molybdate
 http://purl.obolibrary.org/obo/GO_0015844	monoamine transport	http://purl.obolibrary.org/obo/CHEBI_63534	monoamine
+http://purl.obolibrary.org/obo/GO_0006820	monoatomic anion transport	http://purl.obolibrary.org/obo/CHEBI_23905	monoatomic anion
+http://purl.obolibrary.org/obo/GO_0006812	monoatomic cation transport	http://purl.obolibrary.org/obo/CHEBI_23906	monoatomic cation
+http://purl.obolibrary.org/obo/GO_0006811	monoatomic ion transport	http://purl.obolibrary.org/obo/CHEBI_24867	monoatomic ion
 http://purl.obolibrary.org/obo/GO_0015718	monocarboxylic acid transport	http://purl.obolibrary.org/obo/CHEBI_35757	monocarboxylic acid anion
 http://purl.obolibrary.org/obo/GO_0033272	myo-inositol hexakisphosphate transport	http://purl.obolibrary.org/obo/CHEBI_58130	myo-inositol hexakisphosphate(12-)
 http://purl.obolibrary.org/obo/GO_0033271	myo-inositol phosphate transport	http://purl.obolibrary.org/obo/CHEBI_25448	myo-inositol phosphate
