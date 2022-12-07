@@ -30,6 +30,6 @@ namespace:
   text: 'biological_process'
 
 equivalentTo:
-  text: "'molecular function regulator activity' and 'regulates' some %s"
+  text: "'molecular function regulator activity' and 'directly regulates' some %s"
   vars: 
     - regulated_activity
