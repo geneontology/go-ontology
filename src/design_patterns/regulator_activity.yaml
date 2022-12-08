@@ -24,7 +24,6 @@ def:
     Binds to and modulates the activity of %s.
   vars: 
     - regulated_activity
-    - regulated_activity
 
 namespace: 
   text: 'biological_process'
