@@ -312,7 +312,7 @@ http://purl.obolibrary.org/obo/GO_1905921	regulation of acetylcholine biosynthet
 http://purl.obolibrary.org/obo/GO_0060408	regulation of acetylcholine metabolic process	http://purl.obolibrary.org/obo/GO_0008291	acetylcholine metabolic process
 http://purl.obolibrary.org/obo/GO_0014056	regulation of acetylcholine secretion, neurotransmission	http://purl.obolibrary.org/obo/GO_0014055	acetylcholine secretion, neurotransmission
 http://purl.obolibrary.org/obo/GO_0051631	regulation of acetylcholine uptake	http://purl.obolibrary.org/obo/GO_0051630	acetylcholine uptake
-http://purl.obolibrary.org/obo/GO_1903048	regulation of acetylcholine-gated cation channel activity	http://purl.obolibrary.org/obo/GO_0022848	acetylcholine-gated cation-selective channel activity
+http://purl.obolibrary.org/obo/GO_1903048	regulation of acetylcholine-gated cation channel activity	http://purl.obolibrary.org/obo/GO_0022848	acetylcholine-gated monoatomic cation-selective channel activity
 http://purl.obolibrary.org/obo/GO_1901585	regulation of acid-sensing ion channel activity	http://purl.obolibrary.org/obo/GO_0044736	acid-sensing ion channel activity
 http://purl.obolibrary.org/obo/GO_1904697	regulation of acinar cell proliferation	http://purl.obolibrary.org/obo/GO_1990863	acinar cell proliferation
 http://purl.obolibrary.org/obo/GO_1904232	regulation of aconitate hydratase activity	http://purl.obolibrary.org/obo/GO_0003994	aconitate hydratase activity
@@ -430,9 +430,7 @@ http://purl.obolibrary.org/obo/GO_0045765	regulation of angiogenesis	http://purl
 http://purl.obolibrary.org/obo/GO_0110061	regulation of angiotensin-activated signaling pathway	http://purl.obolibrary.org/obo/GO_0038166	angiotensin-activated signaling pathway
 http://purl.obolibrary.org/obo/GO_0003156	regulation of animal organ formation	http://purl.obolibrary.org/obo/GO_0048645	animal organ formation
 http://purl.obolibrary.org/obo/GO_2000027	regulation of animal organ morphogenesis	http://purl.obolibrary.org/obo/GO_0009887	animal organ morphogenesis
-http://purl.obolibrary.org/obo/GO_0010359	regulation of anion channel activity	http://purl.obolibrary.org/obo/GO_0005253	anion channel activity
-http://purl.obolibrary.org/obo/GO_1903959	regulation of anion transmembrane transport	http://purl.obolibrary.org/obo/GO_0098656	anion transmembrane transport
-http://purl.obolibrary.org/obo/GO_0044070	regulation of anion transport	http://purl.obolibrary.org/obo/GO_0006820	anion transport
+http://purl.obolibrary.org/obo/GO_0010359	regulation of anion channel activity	http://purl.obolibrary.org/obo/GO_0005253	monoatomic anion channel activity
 http://purl.obolibrary.org/obo/GO_2000209	regulation of anoikis	http://purl.obolibrary.org/obo/GO_0043276	anoikis
 http://purl.obolibrary.org/obo/GO_2000742	regulation of anterior head development	http://purl.obolibrary.org/obo/GO_0097065	anterior head development
 http://purl.obolibrary.org/obo/GO_1905486	regulation of anterior/posterior axon guidance	http://purl.obolibrary.org/obo/GO_0033564	anterior/posterior axon guidance
@@ -705,8 +703,7 @@ http://purl.obolibrary.org/obo/GO_0050790	regulation of catalytic activity	http:
 http://purl.obolibrary.org/obo/GO_0042069	regulation of catecholamine metabolic process	http://purl.obolibrary.org/obo/GO_0006584	catecholamine metabolic process
 http://purl.obolibrary.org/obo/GO_0050433	regulation of catecholamine secretion	http://purl.obolibrary.org/obo/GO_0050432	catecholamine secretion
 http://purl.obolibrary.org/obo/GO_0051940	regulation of catecholamine uptake involved in synaptic transmission	http://purl.obolibrary.org/obo/GO_0051934	catecholamine uptake involved in synaptic transmission
-http://purl.obolibrary.org/obo/GO_2001257	regulation of cation channel activity	http://purl.obolibrary.org/obo/GO_0005261	cation channel activity
-http://purl.obolibrary.org/obo/GO_1904062	regulation of cation transmembrane transport	http://purl.obolibrary.org/obo/GO_0098655	cation transmembrane transport
+http://purl.obolibrary.org/obo/GO_2001257	regulation of cation channel activity	http://purl.obolibrary.org/obo/GO_0005261	monoatomic cation channel activity
 http://purl.obolibrary.org/obo/GO_2001286	regulation of caveolin-mediated endocytosis	http://purl.obolibrary.org/obo/GO_0072584	caveolin-mediated endocytosis
 http://purl.obolibrary.org/obo/GO_0050865	regulation of cell activation	http://purl.obolibrary.org/obo/GO_0001775	cell activation
 http://purl.obolibrary.org/obo/GO_0030155	regulation of cell adhesion	http://purl.obolibrary.org/obo/GO_0007155	cell adhesion
@@ -990,7 +987,7 @@ http://purl.obolibrary.org/obo/GO_1901957	regulation of cutin biosynthetic proce
 http://purl.obolibrary.org/obo/GO_0048781	regulation of cyanophore differentiation	http://purl.obolibrary.org/obo/GO_0048774	cyanophore differentiation
 http://purl.obolibrary.org/obo/GO_0031279	regulation of cyclase activity	http://purl.obolibrary.org/obo/GO_0009975	cyclase activity
 http://purl.obolibrary.org/obo/GO_0030805	regulation of cyclic nucleotide catabolic process	http://purl.obolibrary.org/obo/GO_0009214	cyclic nucleotide catabolic process
-http://purl.obolibrary.org/obo/GO_1902159	regulation of cyclic nucleotide-gated ion channel activity	http://purl.obolibrary.org/obo/GO_0043855	cyclic nucleotide-gated ion channel activity
+http://purl.obolibrary.org/obo/GO_1902159	regulation of cyclic nucleotide-gated ion channel activity	http://purl.obolibrary.org/obo/GO_0043855	cyclic nucleotide-gated monoatomic ion channel activity
 http://purl.obolibrary.org/obo/GO_0051342	regulation of cyclic-nucleotide phosphodiesterase activity	http://purl.obolibrary.org/obo/GO_0004112	cyclic-nucleotide phosphodiesterase activity
 http://purl.obolibrary.org/obo/GO_1904029	regulation of cyclin-dependent protein kinase activity	http://purl.obolibrary.org/obo/GO_0097472	cyclin-dependent protein kinase activity
 http://purl.obolibrary.org/obo/GO_0000079	regulation of cyclin-dependent protein serine/threonine kinase activity	http://purl.obolibrary.org/obo/GO_0004693	cyclin-dependent protein serine/threonine kinase activity
@@ -1693,9 +1690,6 @@ http://purl.obolibrary.org/obo/GO_2000217	regulation of invasive growth in respo
 http://purl.obolibrary.org/obo/GO_1901979	regulation of inward rectifier potassium channel activity	http://purl.obolibrary.org/obo/GO_0005242	inward rectifier potassium channel activity
 http://purl.obolibrary.org/obo/GO_1904212	regulation of iodide transmembrane transport	http://purl.obolibrary.org/obo/GO_1904200	iodide transmembrane transport
 http://purl.obolibrary.org/obo/GO_1904201	regulation of iodide transport	http://purl.obolibrary.org/obo/GO_0015705	iodide transport
-http://purl.obolibrary.org/obo/GO_0034765	regulation of ion transmembrane transport	http://purl.obolibrary.org/obo/GO_0034220	ion transmembrane transport
-http://purl.obolibrary.org/obo/GO_0032412	regulation of ion transmembrane transporter activity	http://purl.obolibrary.org/obo/GO_0015075	ion transmembrane transporter activity
-http://purl.obolibrary.org/obo/GO_0043269	regulation of ion transport	http://purl.obolibrary.org/obo/GO_0006811	ion transport
 http://purl.obolibrary.org/obo/GO_0050937	regulation of iridophore differentiation	http://purl.obolibrary.org/obo/GO_0050935	iridophore differentiation
 http://purl.obolibrary.org/obo/GO_1904038	regulation of iron export across plasma membrane	http://purl.obolibrary.org/obo/GO_1903988	iron ion export across plasma membrane
 http://purl.obolibrary.org/obo/GO_1904438	regulation of iron ion import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098711	iron ion import across plasma membrane
@@ -2104,6 +2098,12 @@ http://purl.obolibrary.org/obo/GO_1905274	regulation of modification of postsyna
 http://purl.obolibrary.org/obo/GO_0099159	regulation of modification of postsynaptic structure	http://purl.obolibrary.org/obo/GO_0099010	modification of postsynaptic structure
 http://purl.obolibrary.org/obo/GO_1905244	regulation of modification of synaptic structure	http://purl.obolibrary.org/obo/GO_0099563	modification of synaptic structure
 http://purl.obolibrary.org/obo/GO_0065009	regulation of molecular function	http://purl.obolibrary.org/obo/GO_0003674	molecular_function
+http://purl.obolibrary.org/obo/GO_1903959	regulation of monoatomic anion transmembrane transport	http://purl.obolibrary.org/obo/GO_0098656	monoatomic anion transmembrane transport
+http://purl.obolibrary.org/obo/GO_0044070	regulation of monoatomic anion transport	http://purl.obolibrary.org/obo/GO_0006820	monoatomic anion transport
+http://purl.obolibrary.org/obo/GO_1904062	regulation of monoatomic cation transmembrane transport	http://purl.obolibrary.org/obo/GO_0098655	monoatomic cation transmembrane transport
+http://purl.obolibrary.org/obo/GO_0034765	regulation of monoatomic ion transmembrane transport	http://purl.obolibrary.org/obo/GO_0034220	monoatomic ion transmembrane transport
+http://purl.obolibrary.org/obo/GO_0032412	regulation of monoatomic ion transmembrane transporter activity	http://purl.obolibrary.org/obo/GO_0015075	monoatomic ion transmembrane transporter activity
+http://purl.obolibrary.org/obo/GO_0043269	regulation of monoatomic ion transport	http://purl.obolibrary.org/obo/GO_0006811	monoatomic ion transport
 http://purl.obolibrary.org/obo/GO_1900623	regulation of monocyte aggregation	http://purl.obolibrary.org/obo/GO_0070487	monocyte aggregation
 http://purl.obolibrary.org/obo/GO_0002613	regulation of monocyte antigen processing and presentation	http://purl.obolibrary.org/obo/GO_0002471	monocyte antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_0071637	regulation of monocyte chemotactic protein-1 production	http://purl.obolibrary.org/obo/GO_0071605	monocyte chemotactic protein-1 production
@@ -2318,7 +2318,7 @@ http://purl.obolibrary.org/obo/GO_1902513	regulation of organelle transport alon
 http://purl.obolibrary.org/obo/GO_0032890	regulation of organic acid transport	http://purl.obolibrary.org/obo/GO_0015849	organic acid transport
 http://purl.obolibrary.org/obo/GO_1903266	regulation of ornithine catabolic process	http://purl.obolibrary.org/obo/GO_0006593	ornithine catabolic process
 http://purl.obolibrary.org/obo/GO_0090368	regulation of ornithine metabolic process	http://purl.obolibrary.org/obo/GO_0006591	ornithine metabolic process
-http://purl.obolibrary.org/obo/GO_1904295	regulation of osmolarity-sensing cation channel activity	http://purl.obolibrary.org/obo/GO_1990760	osmolarity-sensing cation channel activity
+http://purl.obolibrary.org/obo/GO_1904295	regulation of osmolarity-sensing cation channel activity	http://purl.obolibrary.org/obo/GO_1990760	osmolarity-sensing monoatomic cation channel activity
 http://purl.obolibrary.org/obo/GO_0140531	regulation of osmosensory signaling MAPK cascade	http://purl.obolibrary.org/obo/GO_0000161	osmosensory signaling MAPK cascade
 http://purl.obolibrary.org/obo/GO_0120027	regulation of osmosensory signaling pathway	http://purl.obolibrary.org/obo/GO_0007231	osmosensory signaling pathway
 http://purl.obolibrary.org/obo/GO_0030278	regulation of ossification	http://purl.obolibrary.org/obo/GO_0001503	ossification

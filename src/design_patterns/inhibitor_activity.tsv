@@ -1,18 +1,1 @@
 defined_class	defined_class_label	regulated_activity	regulated_activity_label
-http://purl.obolibrary.org/obo/GO_0008657	DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) inhibitor activity	http://purl.obolibrary.org/obo/GO_0003918	DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity
-http://purl.obolibrary.org/obo/GO_0010855	adenylate cyclase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004016	adenylate cyclase activity
-http://purl.obolibrary.org/obo/GO_0019828	aspartic-type endopeptidase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004190	aspartic-type endopeptidase activity
-http://purl.obolibrary.org/obo/GO_0010852	cyclase inhibitor activity	http://purl.obolibrary.org/obo/GO_0009975	cyclase activity
-http://purl.obolibrary.org/obo/GO_0004869	cysteine-type endopeptidase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004197	cysteine-type endopeptidase activity
-http://purl.obolibrary.org/obo/GO_0004866	endopeptidase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004175	endopeptidase activity
-http://purl.obolibrary.org/obo/GO_0030251	guanylate cyclase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004383	guanylate cyclase activity
-http://purl.obolibrary.org/obo/GO_0046811	histone deacetylase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004407	histone deacetylase activity
-http://purl.obolibrary.org/obo/GO_0019210	kinase inhibitor activity	http://purl.obolibrary.org/obo/GO_0016301	kinase activity
-http://purl.obolibrary.org/obo/GO_0008191	metalloendopeptidase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004222	metalloendopeptidase activity
-http://purl.obolibrary.org/obo/GO_0036487	nitric-oxide synthase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004517	nitric-oxide synthase activity
-http://purl.obolibrary.org/obo/GO_0008073	ornithine decarboxylase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004586	ornithine decarboxylase activity
-http://purl.obolibrary.org/obo/GO_0019212	phosphatase inhibitor activity	http://purl.obolibrary.org/obo/GO_0016791	phosphatase activity
-http://purl.obolibrary.org/obo/GO_0004860	protein kinase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004672	protein kinase activity
-http://purl.obolibrary.org/obo/GO_0004864	protein phosphatase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004721	phosphoprotein phosphatase activity
-http://purl.obolibrary.org/obo/GO_0004865	protein serine/threonine phosphatase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004722	protein serine/threonine phosphatase activity
-http://purl.obolibrary.org/obo/GO_0004867	serine-type endopeptidase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004252	serine-type endopeptidase activity
