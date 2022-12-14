@@ -9,10 +9,10 @@ classes:
   catalytic activity: 'GO:0003824'
 
 relations:
-  positively regulates: 'RO:0002213' 
+  directly positively regulates: 'RO:0002629'
   
 vars:
-  regulated_activity: "'catalytic activity'" 
+  regulated_activity: "'catalytic activity'"
 
 substitutions:
    - 
