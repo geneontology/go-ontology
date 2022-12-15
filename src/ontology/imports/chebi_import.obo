@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-12-07/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-12-15/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -10518,6 +10518,12 @@ subset: chebi_ph7_3
 is_a: CHEBI:86340 ! L-5-monosubstituted hydantoin
 
 [Term]
+id: CHEBI:137132
+name: 8-[(1S,2S)-3-oxo-2-\{(Z)-pent-2-en-1-yl}cyclopentyl]octanoic acid
+is_a: CHEBI:191853 ! 8-{3-oxo-2-[(2Z)-pent-2-en-1-yl]cyclopentyl}octanoic acid
+relationship: has_role CHEBI:76924 ! plant metabolite
+
+[Term]
 id: CHEBI:13714
 name: 1-O-acetylmaltose
 subset: chebi_ph7_3
@@ -18610,11 +18616,6 @@ subset: chebi_ph7_3
 is_a: CHEBI:58342 ! acyl-CoA(4-)
 
 [Term]
-id: CHEBI:142408
-is_obsolete: true
-replaced_by: CHEBI:88332
-
-[Term]
 id: CHEBI:142409
 name: S-alkyl-L-cysteine S-oxide zwitterion
 subset: chebi_ph7_3
@@ -18643,6 +18644,12 @@ name: beta-D-GlcpNAc-(1->3)-beta-D-Galp-(1->4)-beta-D-GlcpNAc-(1->3)-beta-D-Galp
 subset: chebi_ph7_3
 is_a: CHEBI:144378 ! N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-ceramide
 is_a: CHEBI:23073 ! glycopentaosylceramide
+
+[Term]
+id: CHEBI:142460
+name: alpha-D-Glcp-(1->2)-D-Glcp
+subset: chebi_ph7_3
+is_a: CHEBI:24405 ! glycosylglucose
 
 [Term]
 id: CHEBI:142464
@@ -19972,6 +19979,12 @@ id: CHEBI:144842
 name: N(6)-methyl-AMP(2-)
 subset: chebi_ph7_3
 is_a: CHEBI:58043 ! nucleoside 5'-monophosphate(2-)
+
+[Term]
+id: CHEBI:144889
+name: D-xylulofuranose
+subset: chebi_ph7_3
+is_a: CHEBI:25901 ! pentose
 
 [Term]
 id: CHEBI:144897
@@ -29966,6 +29979,12 @@ is_a: CHEBI:137983 ! methylated tertiary amine
 is_a: CHEBI:33822 ! organic hydroxy compound
 
 [Term]
+id: CHEBI:166868
+name: (5S)-C-methyl-L-argininium residue
+is_a: CHEBI:32699 ! argininium residue
+is_a: CHEBI:33727 ! proteinogenic amino-acid residue cation
+
+[Term]
 id: CHEBI:16688
 name: ecdysone
 subset: chebi_ph7_3
@@ -36637,6 +36656,20 @@ name: electron acceptor
 is_a: CHEBI:15339 ! acceptor
 
 [Term]
+id: CHEBI:176541
+name: omega-methyl-very-long-chain fatty acid anion
+subset: chebi_ph7_3
+is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:76619 ! omega-methyl fatty acid anion
+
+[Term]
+id: CHEBI:176542
+name: omega-hydroxy-very-long-chain fatty acid anion
+subset: chebi_ph7_3
+is_a: CHEBI:58950 ! very long-chain fatty acid anion
+is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+
+[Term]
 id: CHEBI:17655
 name: 4-hydroxy-2-oxopentanoic acid
 is_a: CHEBI:35910 ! 2-oxo monocarboxylic acid
@@ -37640,6 +37673,12 @@ name: phenolic steroid
 subset: chebi_ph7_3
 is_a: CHEBI:33853 ! phenols
 is_a: CHEBI:36834 ! 3-hydroxy steroid
+
+[Term]
+id: CHEBI:177918
+name: phenolic steroid 3-O-sulfate(1-)
+subset: chebi_ph7_3
+is_a: CHEBI:16158 ! steroid sulfate
 
 [Term]
 id: CHEBI:17792
@@ -39238,6 +39277,12 @@ name: diphthine
 is_a: CHEBI:35267 ! quaternary ammonium ion
 
 [Term]
+id: CHEBI:180543
+name: (S)-2-hydroxymethylglutarate
+subset: chebi_ph7_3
+is_a: CHEBI:58777 ! 2-hydroxymethylglutarate
+
+[Term]
 id: CHEBI:18056
 name: N-acetyl-alpha-D-galactosaminyl-(1->3)-N-acetyl-beta-D-galactosaminyl-(1->3)-alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosylceramide
 subset: chebi_ph7_3
@@ -40680,6 +40725,13 @@ is_a: CHEBI:183508 ! methyl-branched fatty acyl-CoA(4-)
 is_a: CHEBI:57347 ! 3-oxo-fatty acyl-CoA(4-)
 
 [Term]
+id: CHEBI:183096
+name: (Z)-progoitrin(1-)
+subset: chebi_ph7_3
+is_a: CHEBI:183098 ! (Z)-glucosinolate(1-)
+is_a: CHEBI:8454 ! progoitrin(1-)
+
+[Term]
 id: CHEBI:183098
 name: (Z)-glucosinolate(1-)
 subset: chebi_ph7_3
@@ -40790,6 +40842,12 @@ is_a: CHEBI:22823 ! beta-alanine derivative
 is_a: CHEBI:46761 ! dipeptide
 relationship: has_role CHEBI:75767 ! animal metabolite
 relationship: has_role CHEBI:75771 ! mouse metabolite
+
+[Term]
+id: CHEBI:183235
+name: 2''-O-crotonyl-ADP-D-ribose
+subset: chebi_ph7_3
+is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 
 [Term]
 id: CHEBI:183249
@@ -41564,6 +41622,12 @@ is_a: CHEBI:38164 ! organic heteropentacyclic compound
 is_a: CHEBI:65323 ! monoterpenoid indole alkaloid
 
 [Term]
+id: CHEBI:184300
+name: ADP-2'-imine-ribofurano[1',2':4,5]oxazolidine(2-) residue
+is_a: CHEBI:64775 ! organic anionic group
+is_a: CHEBI:83228 ! L-alpha-amino acid residue
+
+[Term]
 id: CHEBI:18431
 name: 7alpha,26-dihydroxycholesterol
 subset: chebi_ph7_3
@@ -41776,6 +41840,27 @@ subset: chebi_ph7_3
 is_a: CHEBI:35341 ! steroid
 
 [Term]
+id: CHEBI:188998
+name: alpha-D-xylulofuranose
+subset: chebi_ph7_3
+is_a: CHEBI:144889 ! D-xylulofuranose
+
+[Term]
+id: CHEBI:188999
+name: dopaminechrome (enol form)
+is_a: CHEBI:24829 ! indolones
+is_a: CHEBI:33823 ! enol
+is_a: CHEBI:84729 ! hydroxyindoles
+
+[Term]
+id: CHEBI:189002
+name: dopaminechrome (keto form)
+subset: chebi_ph7_3
+is_a: CHEBI:24793 ! indoledione
+is_a: CHEBI:25622 ! orthoquinones
+relationship: has_role CHEBI:50910 ! neurotoxin
+
+[Term]
 id: CHEBI:18904
 name: (3R,6R)-1,3,4,6-tetrachlorocyclohexa-1,4-diene
 subset: chebi_ph7_3
@@ -41871,6 +41956,18 @@ is_a: CHEBI:137935 ! S-polyprenyl-L-cysteine zwitterion
 is_a: CHEBI:35238 ! amino acid zwitterion
 
 [Term]
+id: CHEBI:189572
+name: 2''-O-lipoyl-ADP-D-ribose(2-)
+subset: chebi_ph7_3
+is_a: CHEBI:138087 ! O-acyl-ADP-D-ribose(2-)
+
+[Term]
+id: CHEBI:189573
+name: 2''-O-biotinyl-ADP-D-ribose(2-)
+subset: chebi_ph7_3
+is_a: CHEBI:138087 ! O-acyl-ADP-D-ribose(2-)
+
+[Term]
 id: CHEBI:189642
 name: alpha-D-glucuronate
 subset: chebi_ph7_3
@@ -41882,6 +41979,18 @@ name: 5-methyltetrahydrofolate(2-)
 subset: chebi_ph7_3
 is_a: CHEBI:20612 ! 5-methyltetrahydrofolate
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
+
+[Term]
+id: CHEBI:189673
+name: 2''-O-hexadecanoyl-ADP-D-ribose(2-)
+subset: chebi_ph7_3
+is_a: CHEBI:138087 ! O-acyl-ADP-D-ribose(2-)
+
+[Term]
+id: CHEBI:189674
+name: 2''-O-tetradecanoyl-ADP-D-ribose(2-)
+subset: chebi_ph7_3
+is_a: CHEBI:138087 ! O-acyl-ADP-D-ribose(2-)
 
 [Term]
 id: CHEBI:189697
@@ -42057,6 +42166,11 @@ is_a: CHEBI:36275 ! HETE
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
+id: CHEBI:191398
+name: N(tele)-(ADP-D-ribosyl)-L-histidyl(2-) residue
+is_a: CHEBI:84076 ! L-histidine derivative
+
+[Term]
 id: CHEBI:191408
 name: ADP-alpha-D-ribose
 is_a: CHEBI:16960 ! ADP-D-ribose
@@ -42077,6 +42191,12 @@ is_a: CHEBI:35744 ! carbocyclic fatty acid
 is_a: CHEBI:35871 ! oxo monocarboxylic acid
 is_a: CHEBI:36140 ! cyclopentanones
 is_a: CHEBI:59644 ! oxo fatty acid
+
+[Term]
+id: CHEBI:191855
+name: 8-[(1S,2S)-3-oxo-2-\{(Z)-pent-2-en-1-yl}cyclopentyl]octanoate
+subset: chebi_ph7_3
+is_a: CHEBI:35902 ! oxo monocarboxylic acid anion
 
 [Term]
 id: CHEBI:191874
@@ -56945,6 +57065,12 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
+id: CHEBI:28708
+name: 3-isopropylcatechol
+subset: chebi_ph7_3
+is_a: CHEBI:33566 ! catechols
+
+[Term]
 id: CHEBI:28710
 name: 3-hydroxy-3-methyl-2-oxopentanoic acid
 is_a: CHEBI:139592 ! tertiary alpha-hydroxy ketone
@@ -67087,6 +67213,12 @@ subset: chebi_ph7_3
 is_a: CHEBI:51972 ! 12'-apo-carotenal
 
 [Term]
+id: CHEBI:34656
+name: cumene
+subset: chebi_ph7_3
+is_a: CHEBI:38976 ! alkylbenzene
+
+[Term]
 id: CHEBI:34687
 name: dibutyl phthalate
 subset: chebi_ph7_3
@@ -76330,6 +76462,12 @@ is_a: CHEBI:38497 ! respiratory-chain inhibitor
 is_a: CHEBI:76866 ! EC 1.6.5.* (oxidoreductase acting on NADH or NADPH with a quinone or similar as acceptor) inhibitor
 
 [Term]
+id: CHEBI:38506
+name: 2-isopropylphenol
+subset: chebi_ph7_3
+is_a: CHEBI:33853 ! phenols
+
+[Term]
 id: CHEBI:38512
 name: dibenzoquinolizine
 is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
@@ -83794,10 +83932,20 @@ is_a: CHEBI:189840 ! dicarboxylic fatty acid
 is_a: CHEBI:35692 ! dicarboxylic acid
 
 [Term]
+id: CHEBI:49076
+name: (S)-2-hydroxymethylglutaric acid
+is_a: CHEBI:49077 ! 2-hydroxymethylglutaric acid
+
+[Term]
 id: CHEBI:49077
 name: 2-hydroxymethylglutaric acid
 is_a: CHEBI:189840 ! dicarboxylic fatty acid
 is_a: CHEBI:35692 ! dicarboxylic acid
+
+[Term]
+id: CHEBI:49078
+name: (R)-2-hydroxymethylglutaric acid
+is_a: CHEBI:49077 ! 2-hydroxymethylglutaric acid
 
 [Term]
 id: CHEBI:49080
