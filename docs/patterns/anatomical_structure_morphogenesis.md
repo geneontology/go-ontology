@@ -45,7 +45,7 @@ This pattern is for classes representing the generation and organization of the 
 |:--|:--|:--|:--|
 | [http://purl.obolibrary.org/obo/GO_0007443](http://purl.obolibrary.org/obo/GO_0007443) | Malpighian tubule morphogenesis | [http://purl.obolibrary.org/obo/UBERON_0001054](http://purl.obolibrary.org/obo/UBERON_0001054) | Malpighian tubule |
 | [http://purl.obolibrary.org/obo/GO_0061146](http://purl.obolibrary.org/obo/GO_0061146) | Peyer's patch morphogenesis | [http://purl.obolibrary.org/obo/UBERON_0001211](http://purl.obolibrary.org/obo/UBERON_0001211) | Peyer's patch |
+| [http://purl.obolibrary.org/obo/GO_0021598](http://purl.obolibrary.org/obo/GO_0021598) | abducens nerve morphogenesis | [http://purl.obolibrary.org/obo/UBERON_0001646](http://purl.obolibrary.org/obo/UBERON_0001646) | abducens nerve |
+| [http://purl.obolibrary.org/obo/GO_0021607](http://purl.obolibrary.org/obo/GO_0021607) | accessory nerve morphogenesis | [http://purl.obolibrary.org/obo/UBERON_0002019](http://purl.obolibrary.org/obo/UBERON_0002019) | accessory XI nerve |
 | [http://purl.obolibrary.org/obo/GO_0048855](http://purl.obolibrary.org/obo/GO_0048855) | adenohypophysis morphogenesis | [http://purl.obolibrary.org/obo/UBERON_0002196](http://purl.obolibrary.org/obo/UBERON_0002196) | adenohypophysis |
-| [http://purl.obolibrary.org/obo/GO_0035144](http://purl.obolibrary.org/obo/GO_0035144) | anal fin morphogenesis | [http://purl.obolibrary.org/obo/UBERON_4000163](http://purl.obolibrary.org/obo/UBERON_4000163) | anal fin |
-| [http://purl.obolibrary.org/obo/GO_0009887](http://purl.obolibrary.org/obo/GO_0009887) | animal organ morphogenesis | [http://purl.obolibrary.org/obo/UBERON_0000062](http://purl.obolibrary.org/obo/UBERON_0000062) | organ |
 

@@ -43,9 +43,9 @@ TODO
 
 | defined_class | defined_class_label | target | target_label |
 |:--|:--|:--|:--|
+| [http://purl.obolibrary.org/obo/GO_0021600](http://purl.obolibrary.org/obo/GO_0021600) | abducens nerve structural organization | [http://purl.obolibrary.org/obo/UBERON_0001646](http://purl.obolibrary.org/obo/UBERON_0001646) | abducens nerve |
+| [http://purl.obolibrary.org/obo/GO_0021609](http://purl.obolibrary.org/obo/GO_0021609) | accessory nerve structural organization | [http://purl.obolibrary.org/obo/UBERON_0002019](http://purl.obolibrary.org/obo/UBERON_0002019) | accessory XI nerve |
 | [http://purl.obolibrary.org/obo/GO_0021597](http://purl.obolibrary.org/obo/GO_0021597) | central nervous system structural organization | [http://purl.obolibrary.org/obo/UBERON_0001017](http://purl.obolibrary.org/obo/UBERON_0001017) | central nervous system |
-| [http://purl.obolibrary.org/obo/GO_0021589](http://purl.obolibrary.org/obo/GO_0021589) | cerebellum structural organization | [http://purl.obolibrary.org/obo/UBERON_0002037](http://purl.obolibrary.org/obo/UBERON_0002037) | cerebellum |
-| [http://purl.obolibrary.org/obo/GO_0021577](http://purl.obolibrary.org/obo/GO_0021577) | hindbrain structural organization | [http://purl.obolibrary.org/obo/UBERON_0002028](http://purl.obolibrary.org/obo/UBERON_0002028) | hindbrain |
-| [http://purl.obolibrary.org/obo/GO_0021581](http://purl.obolibrary.org/obo/GO_0021581) | medulla oblongata structural organization | [http://purl.obolibrary.org/obo/UBERON_0001896](http://purl.obolibrary.org/obo/UBERON_0001896) | medulla oblongata |
-| [http://purl.obolibrary.org/obo/GO_0048338](http://purl.obolibrary.org/obo/GO_0048338) | mesoderm structural organization | [http://purl.obolibrary.org/obo/UBERON_0000926](http://purl.obolibrary.org/obo/UBERON_0000926) | mesoderm |
+| [http://purl.obolibrary.org/obo/GO_0021698](http://purl.obolibrary.org/obo/GO_0021698) | cerebellar cortex structural organization | [http://purl.obolibrary.org/obo/UBERON_0002129](http://purl.obolibrary.org/obo/UBERON_0002129) | cerebellar cortex |
+| [http://purl.obolibrary.org/obo/GO_0021685](http://purl.obolibrary.org/obo/GO_0021685) | cerebellar granular layer structural organization | [http://purl.obolibrary.org/obo/UBERON_0002956](http://purl.obolibrary.org/obo/UBERON_0002956) | granular layer of cerebellar cortex |
 
