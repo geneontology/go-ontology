@@ -45,7 +45,7 @@ This pattern is for classes representing formation of anatomical structures from
 |:--|:--|:--|:--|
 | [http://purl.obolibrary.org/obo/GO_0061332](http://purl.obolibrary.org/obo/GO_0061332) | Malpighian tubule bud morphogenesis | [http://purl.obolibrary.org/obo/UBERON_0001054](http://purl.obolibrary.org/obo/UBERON_0001054) | Malpighian tubule |
 | [http://purl.obolibrary.org/obo/GO_0060061](http://purl.obolibrary.org/obo/GO_0060061) | Spemann organizer formation | [http://purl.obolibrary.org/obo/UBERON_0003062](http://purl.obolibrary.org/obo/UBERON_0003062) | primitive knot |
+| [http://purl.obolibrary.org/obo/GO_0021599](http://purl.obolibrary.org/obo/GO_0021599) | abducens nerve formation | [http://purl.obolibrary.org/obo/UBERON_0001646](http://purl.obolibrary.org/obo/UBERON_0001646) | abducens nerve |
+| [http://purl.obolibrary.org/obo/GO_0021608](http://purl.obolibrary.org/obo/GO_0021608) | accessory nerve formation | [http://purl.obolibrary.org/obo/UBERON_0002019](http://purl.obolibrary.org/obo/UBERON_0002019) | accessory XI nerve |
 | [http://purl.obolibrary.org/obo/GO_0048847](http://purl.obolibrary.org/obo/GO_0048847) | adenohypophysis formation | [http://purl.obolibrary.org/obo/UBERON_0002196](http://purl.obolibrary.org/obo/UBERON_0002196) | adenohypophysis |
-| [http://purl.obolibrary.org/obo/GO_0035802](http://purl.obolibrary.org/obo/GO_0035802) | adrenal cortex formation | [http://purl.obolibrary.org/obo/UBERON_0001235](http://purl.obolibrary.org/obo/UBERON_0001235) | adrenal cortex |
-| [http://purl.obolibrary.org/obo/GO_0097186](http://purl.obolibrary.org/obo/GO_0097186) | amelogenesis | [http://purl.obolibrary.org/obo/UBERON_0001752](http://purl.obolibrary.org/obo/UBERON_0001752) | enamel |
 

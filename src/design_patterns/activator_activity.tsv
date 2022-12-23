@@ -1,1 +1,47 @@
 defined_class	defined_class_label	regulated_activity	regulated_activity_label
+http://purl.obolibrary.org/obo/GO_0098744	1-phosphatidylinositol 4-kinase activator activity	http://purl.obolibrary.org/obo/GO_0004430	1-phosphatidylinositol 4-kinase activity
+http://purl.obolibrary.org/obo/GO_0030337	DNA polymerase processivity factor activity	http://purl.obolibrary.org/obo/GO_0034061	DNA polymerase activity
+http://purl.obolibrary.org/obo/GO_0140619	DNA strand exchange activator activity	http://purl.obolibrary.org/obo/GO_0000150	DNA strand exchange activity
+http://purl.obolibrary.org/obo/GO_0072587	DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activator activity	http://purl.obolibrary.org/obo/GO_0003918	DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity
+http://purl.obolibrary.org/obo/GO_0005096	GTPase activator activity	http://purl.obolibrary.org/obo/GO_0003924	GTPase activity
+http://purl.obolibrary.org/obo/GO_0036478	L-dopa decarboxylase activator activity	http://purl.obolibrary.org/obo/GO_0036468	L-dopa decarboxylase activity
+http://purl.obolibrary.org/obo/GO_0061632	RNA lariat debranching enzyme activator activity	http://purl.obolibrary.org/obo/GO_0008419	RNA lariat debranching enzyme activity
+http://purl.obolibrary.org/obo/GO_0010698	acetyltransferase activator activity	http://purl.obolibrary.org/obo/GO_0016407	acetyltransferase activity
+http://purl.obolibrary.org/obo/GO_0010856	adenylate cyclase activator activity	http://purl.obolibrary.org/obo/GO_0004016	adenylate cyclase activity
+http://purl.obolibrary.org/obo/GO_0010853	cyclase activator activity	http://purl.obolibrary.org/obo/GO_0009975	cyclase activity
+http://purl.obolibrary.org/obo/GO_0061575	cyclin-dependent protein serine/threonine kinase activator activity	http://purl.obolibrary.org/obo/GO_0004693	cyclin-dependent protein serine/threonine kinase activity
+http://purl.obolibrary.org/obo/GO_0140608	cysteine-type endopeptidase activator activity	http://purl.obolibrary.org/obo/GO_0004197	cysteine-type endopeptidase activity
+http://purl.obolibrary.org/obo/GO_0035800	deubiquitinase activator activity	http://purl.obolibrary.org/obo/GO_0101005	deubiquitinase activity
+http://purl.obolibrary.org/obo/GO_0140656	endodeoxyribonuclease activator activity	http://purl.obolibrary.org/obo/GO_0004520	DNA endonuclease activity
+http://purl.obolibrary.org/obo/GO_0061133	endopeptidase activator activity	http://purl.obolibrary.org/obo/GO_0004175	endopeptidase activity
+http://purl.obolibrary.org/obo/GO_0008047	enzyme activator activity	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
+http://purl.obolibrary.org/obo/GO_0042557	eukaryotic elongation factor-2 kinase activator activity	http://purl.obolibrary.org/obo/GO_0004686	elongation factor-2 kinase activity
+http://purl.obolibrary.org/obo/GO_0044692	exoribonuclease activator activity	http://purl.obolibrary.org/obo/GO_0004532	exoribonuclease activity
+http://purl.obolibrary.org/obo/GO_0030250	guanylate cyclase activator activity	http://purl.obolibrary.org/obo/GO_0004383	guanylate cyclase activity
+http://purl.obolibrary.org/obo/GO_0019209	kinase activator activity	http://purl.obolibrary.org/obo/GO_0016301	kinase activity
+http://purl.obolibrary.org/obo/GO_0060229	lipase activator activity	http://purl.obolibrary.org/obo/GO_0016298	lipase activity
+http://purl.obolibrary.org/obo/GO_0060230	lipoprotein lipase activator activity	http://purl.obolibrary.org/obo/GO_0004465	lipoprotein lipase activity
+http://purl.obolibrary.org/obo/GO_1990521	m7G(5')pppN diphosphatase activator activity	http://purl.obolibrary.org/obo/GO_0050072	m7G(5')pppN diphosphatase activity
+http://purl.obolibrary.org/obo/GO_0042978	ornithine decarboxylase activator activity	http://purl.obolibrary.org/obo/GO_0004586	ornithine decarboxylase activity
+http://purl.obolibrary.org/obo/GO_0016504	peptidase activator activity	http://purl.obolibrary.org/obo/GO_0008233	peptidase activity
+http://purl.obolibrary.org/obo/GO_0019211	phosphatase activator activity	http://purl.obolibrary.org/obo/GO_0016791	phosphatase activity
+http://purl.obolibrary.org/obo/GO_0060228	phosphatidylcholine-sterol O-acyltransferase activator activity	http://purl.obolibrary.org/obo/GO_0004607	phosphatidylcholine-sterol O-acyltransferase activity
+http://purl.obolibrary.org/obo/GO_0016005	phospholipase A2 activator activity	http://purl.obolibrary.org/obo/GO_0004623	phospholipase A2 activity
+http://purl.obolibrary.org/obo/GO_1990583	phospholipase D activator activity	http://purl.obolibrary.org/obo/GO_0004630	phospholipase D activity
+http://purl.obolibrary.org/obo/GO_0016004	phospholipase activator activity	http://purl.obolibrary.org/obo/GO_0004620	phospholipase activity
+http://purl.obolibrary.org/obo/GO_1990749	polynucleotide adenylyltransferase activator activity	http://purl.obolibrary.org/obo/GO_0004652	polynucleotide adenylyltransferase activity
+http://purl.obolibrary.org/obo/GO_0030295	protein kinase activator activity	http://purl.obolibrary.org/obo/GO_0004672	protein kinase activity
+http://purl.obolibrary.org/obo/GO_0072542	protein phosphatase activator activity	http://purl.obolibrary.org/obo/GO_0004721	phosphoprotein phosphatase activity
+http://purl.obolibrary.org/obo/GO_0043539	protein serine/threonine kinase activator activity	http://purl.obolibrary.org/obo/GO_0004674	protein serine/threonine kinase activity
+http://purl.obolibrary.org/obo/GO_0030296	protein tyrosine kinase activator activity	http://purl.obolibrary.org/obo/GO_0004713	protein tyrosine kinase activity
+http://purl.obolibrary.org/obo/GO_0008160	protein tyrosine phosphatase activator activity	http://purl.obolibrary.org/obo/GO_0004725	protein tyrosine phosphatase activity
+http://purl.obolibrary.org/obo/GO_0046863	ribulose-1,5-bisphosphate carboxylase/oxygenase activator activity	http://purl.obolibrary.org/obo/GO_0016984	ribulose-bisphosphate carboxylase activity
+http://purl.obolibrary.org/obo/GO_1990600	single-stranded DNA endodeoxyribonuclease activator activity	http://purl.obolibrary.org/obo/GO_0000014	single-stranded DNA endodeoxyribonuclease activity
+http://purl.obolibrary.org/obo/GO_0016230	sphingomyelin phosphodiesterase activator activity	http://purl.obolibrary.org/obo/GO_0004767	sphingomyelin phosphodiesterase activity
+http://purl.obolibrary.org/obo/GO_0016176	superoxide-generating NADPH oxidase activator activity	http://purl.obolibrary.org/obo/GO_0106292	superoxide-generating NADPH oxidase activity
+http://purl.obolibrary.org/obo/GO_0140733	tRNA ligase activator activity	http://purl.obolibrary.org/obo/GO_0004812	aminoacyl-tRNA ligase activity
+http://purl.obolibrary.org/obo/GO_0030297	transmembrane receptor protein tyrosine kinase activator activity	http://purl.obolibrary.org/obo/GO_0004714	transmembrane receptor protein tyrosine kinase activity
+http://purl.obolibrary.org/obo/GO_0016483	tryptophan hydroxylase activator activity	http://purl.obolibrary.org/obo/GO_0004510	tryptophan 5-monooxygenase activity
+http://purl.obolibrary.org/obo/GO_0036470	tyrosine 3-monooxygenase activator activity	http://purl.obolibrary.org/obo/GO_0004511	tyrosine 3-monooxygenase activity
+http://purl.obolibrary.org/obo/GO_0097027	ubiquitin-protein transferase activator activity	http://purl.obolibrary.org/obo/GO_0004842	ubiquitin-protein transferase activity
+http://purl.obolibrary.org/obo/GO_0018237	urease activator activity	http://purl.obolibrary.org/obo/GO_0009039	urease activity

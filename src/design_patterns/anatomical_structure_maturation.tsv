@@ -1,14 +1,34 @@
 defined_class	defined_class_label	target	target_label
+http://purl.obolibrary.org/obo/GO_0021601	abducens nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001646	abducens nerve
+http://purl.obolibrary.org/obo/GO_0021606	accessory nerve maturation	http://purl.obolibrary.org/obo/UBERON_0002019	accessory XI nerve
 http://purl.obolibrary.org/obo/GO_0048799	animal organ maturation	http://purl.obolibrary.org/obo/UBERON_0000062	organ
 http://purl.obolibrary.org/obo/GO_0001955	blood vessel maturation	http://purl.obolibrary.org/obo/UBERON_0001981	blood vessel
 http://purl.obolibrary.org/obo/GO_0070977	bone maturation	http://purl.obolibrary.org/obo/UBERON_0001474	bone element
 http://purl.obolibrary.org/obo/GO_0021626	central nervous system maturation	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
+http://purl.obolibrary.org/obo/GO_0021691	cerebellar Purkinje cell layer maturation	http://purl.obolibrary.org/obo/UBERON_0002979	Purkinje cell layer of cerebellar cortex
+http://purl.obolibrary.org/obo/GO_0021699	cerebellar cortex maturation	http://purl.obolibrary.org/obo/UBERON_0002129	cerebellar cortex
+http://purl.obolibrary.org/obo/GO_0021686	cerebellar granular layer maturation	http://purl.obolibrary.org/obo/UBERON_0002956	granular layer of cerebellar cortex
+http://purl.obolibrary.org/obo/GO_0021690	cerebellar molecular layer maturation	http://purl.obolibrary.org/obo/UBERON_0002974	molecular layer of cerebellar cortex
 http://purl.obolibrary.org/obo/GO_0021590	cerebellum maturation	http://purl.obolibrary.org/obo/UBERON_0002037	cerebellum
+http://purl.obolibrary.org/obo/GO_0021605	cranial nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001785	cranial nerve
+http://purl.obolibrary.org/obo/GO_0021613	facial nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001647	facial nerve
+http://purl.obolibrary.org/obo/GO_0021614	glossopharyngeal nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001649	glossopharyngeal nerve
 http://purl.obolibrary.org/obo/GO_0048820	hair follicle maturation	http://purl.obolibrary.org/obo/UBERON_0002073	hair follicle
 http://purl.obolibrary.org/obo/GO_0072121	head kidney maturation	http://purl.obolibrary.org/obo/UBERON_0007132	head kidney
 http://purl.obolibrary.org/obo/GO_0021578	hindbrain maturation	http://purl.obolibrary.org/obo/UBERON_0002028	hindbrain
+http://purl.obolibrary.org/obo/GO_0021619	hypoglossal nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001650	hypoglossal nerve
+http://purl.obolibrary.org/obo/GO_0021717	inferior olivary nucleus maturation	http://purl.obolibrary.org/obo/UBERON_0007244	inferior olivary nucleus
 http://purl.obolibrary.org/obo/GO_0021706	locus ceruleus maturation	http://purl.obolibrary.org/obo/UBERON_0002148	locus ceruleus
 http://purl.obolibrary.org/obo/GO_0021582	medulla oblongata maturation	http://purl.obolibrary.org/obo/UBERON_0001896	medulla oblongata
 http://purl.obolibrary.org/obo/GO_0021732	midbrain-hindbrain boundary maturation	http://purl.obolibrary.org/obo/UBERON_0003052	midbrain-hindbrain boundary
+http://purl.obolibrary.org/obo/GO_0021682	nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001021	nerve
+http://purl.obolibrary.org/obo/GO_0021625	oculomotor nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001643	oculomotor nerve
+http://purl.obolibrary.org/obo/GO_0021630	olfactory nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001579	olfactory nerve
+http://purl.obolibrary.org/obo/GO_0021632	optic nerve maturation	http://purl.obolibrary.org/obo/UBERON_0000941	cranial nerve II
 http://purl.obolibrary.org/obo/GO_0021586	pons maturation	http://purl.obolibrary.org/obo/UBERON_0000988	pons
 http://purl.obolibrary.org/obo/GO_0072120	pronephros maturation	http://purl.obolibrary.org/obo/UBERON_0002120	pronephros
+http://purl.obolibrary.org/obo/GO_0021722	superior olivary nucleus maturation	http://purl.obolibrary.org/obo/UBERON_0007247	nucleus of superior olivary complex
+http://purl.obolibrary.org/obo/GO_0021635	trigeminal nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001645	trigeminal nerve
+http://purl.obolibrary.org/obo/GO_0021640	trochlear nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001644	trochlear nerve
+http://purl.obolibrary.org/obo/GO_0021643	vagus nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001759	vagus nerve
+http://purl.obolibrary.org/obo/GO_0021647	vestibulocochlear nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001648	vestibulocochlear nerve

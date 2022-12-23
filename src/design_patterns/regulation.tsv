@@ -1131,7 +1131,7 @@ http://purl.obolibrary.org/obo/GO_0044060	regulation of endocrine process	http:/
 http://purl.obolibrary.org/obo/GO_1900667	regulation of endocrocin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900602	endocrocin biosynthetic process
 http://purl.obolibrary.org/obo/GO_2001135	regulation of endocytic recycling	http://purl.obolibrary.org/obo/GO_0032456	endocytic recycling
 http://purl.obolibrary.org/obo/GO_0030100	regulation of endocytosis	http://purl.obolibrary.org/obo/GO_0006897	endocytosis
-http://purl.obolibrary.org/obo/GO_0032071	regulation of endodeoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004520	endodeoxyribonuclease activity
+http://purl.obolibrary.org/obo/GO_0032071	regulation of endodeoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004520	DNA endonuclease activity
 http://purl.obolibrary.org/obo/GO_1903224	regulation of endodermal cell differentiation	http://purl.obolibrary.org/obo/GO_0035987	endodermal cell differentiation
 http://purl.obolibrary.org/obo/GO_0042663	regulation of endodermal cell fate specification	http://purl.obolibrary.org/obo/GO_0001714	endodermal cell fate specification
 http://purl.obolibrary.org/obo/GO_0052548	regulation of endopeptidase activity	http://purl.obolibrary.org/obo/GO_0004175	endopeptidase activity
@@ -1140,7 +1140,7 @@ http://purl.obolibrary.org/obo/GO_1902235	regulation of endoplasmic reticulum st
 http://purl.obolibrary.org/obo/GO_1903381	regulation of endoplasmic reticulum stress-induced neuron intrinsic apoptotic signaling pathway	http://purl.obolibrary.org/obo/GO_0036483	neuron intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress
 http://purl.obolibrary.org/obo/GO_1903371	regulation of endoplasmic reticulum tubular network organization	http://purl.obolibrary.org/obo/GO_0071786	endoplasmic reticulum tubular network organization
 http://purl.obolibrary.org/obo/GO_1900101	regulation of endoplasmic reticulum unfolded protein response	http://purl.obolibrary.org/obo/GO_0030968	endoplasmic reticulum unfolded protein response
-http://purl.obolibrary.org/obo/GO_0060699	regulation of endoribonuclease activity	http://purl.obolibrary.org/obo/GO_0004521	endoribonuclease activity
+http://purl.obolibrary.org/obo/GO_0060699	regulation of endoribonuclease activity	http://purl.obolibrary.org/obo/GO_0004521	RNA endonuclease activity
 http://purl.obolibrary.org/obo/GO_1905364	regulation of endosomal vesicle fusion	http://purl.obolibrary.org/obo/GO_0034058	endosomal vesicle fusion
 http://purl.obolibrary.org/obo/GO_1904978	regulation of endosome organization	http://purl.obolibrary.org/obo/GO_0007032	endosome organization
 http://purl.obolibrary.org/obo/GO_1905749	regulation of endosome to plasma membrane protein transport	http://purl.obolibrary.org/obo/GO_0099638	endosome to plasma membrane protein transport
@@ -1243,7 +1243,7 @@ http://purl.obolibrary.org/obo/GO_0001928	regulation of exocyst assembly	http://
 http://purl.obolibrary.org/obo/GO_0060178	regulation of exocyst localization	http://purl.obolibrary.org/obo/GO_0051601	exocyst localization
 http://purl.obolibrary.org/obo/GO_0099145	regulation of exocytic insertion of neurotransmitter receptor to postsynaptic membrane	http://purl.obolibrary.org/obo/GO_0098967	exocytic insertion of neurotransmitter receptor to postsynaptic membrane
 http://purl.obolibrary.org/obo/GO_0017157	regulation of exocytosis	http://purl.obolibrary.org/obo/GO_0006887	exocytosis
-http://purl.obolibrary.org/obo/GO_1902392	regulation of exodeoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004529	exodeoxyribonuclease activity
+http://purl.obolibrary.org/obo/GO_1902392	regulation of exodeoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004529	DNA exonuclease activity
 http://purl.obolibrary.org/obo/GO_1905777	regulation of exonuclease activity	http://purl.obolibrary.org/obo/GO_0004527	exonuclease activity
 http://purl.obolibrary.org/obo/GO_0106163	regulation of exonucleolytic catabolism of deadenylated mRNA	http://purl.obolibrary.org/obo/GO_0043928	exonucleolytic catabolism of deadenylated mRNA
 http://purl.obolibrary.org/obo/GO_1901917	regulation of exoribonuclease activity	http://purl.obolibrary.org/obo/GO_0004532	exoribonuclease activity
@@ -1777,7 +1777,7 @@ http://purl.obolibrary.org/obo/GO_0070663	regulation of leukocyte proliferation	
 http://purl.obolibrary.org/obo/GO_1903236	regulation of leukocyte tethering or rolling	http://purl.obolibrary.org/obo/GO_0050901	leukocyte tethering or rolling
 http://purl.obolibrary.org/obo/GO_0035490	regulation of leukotriene production involved in inflammatory response	http://purl.obolibrary.org/obo/GO_0002540	leukotriene production involved in inflammatory response
 http://purl.obolibrary.org/obo/GO_0051340	regulation of ligase activity	http://purl.obolibrary.org/obo/GO_0016874	ligase activity
-http://purl.obolibrary.org/obo/GO_0016061	regulation of light-activated channel activity	http://purl.obolibrary.org/obo/GO_0010461	light-activated ion channel activity
+http://purl.obolibrary.org/obo/GO_0016061	regulation of light-activated channel activity	http://purl.obolibrary.org/obo/GO_0010461	light-activated monoatomic ion channel activity
 http://purl.obolibrary.org/obo/GO_0010462	regulation of light-activated voltage-gated calcium channel activity	http://purl.obolibrary.org/obo/GO_0008086	light-activated voltage-gated calcium channel activity
 http://purl.obolibrary.org/obo/GO_1901141	regulation of lignin biosynthetic process	http://purl.obolibrary.org/obo/GO_0009809	lignin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0090006	regulation of linear element assembly	http://purl.obolibrary.org/obo/GO_0030999	linear element assembly
@@ -3228,7 +3228,6 @@ http://purl.obolibrary.org/obo/GO_0032409	regulation of transporter activity	htt
 http://purl.obolibrary.org/obo/GO_0010528	regulation of transposition	http://purl.obolibrary.org/obo/GO_0032196	transposition
 http://purl.obolibrary.org/obo/GO_0000337	regulation of transposition, DNA-mediated	http://purl.obolibrary.org/obo/GO_0006313	transposition, DNA-mediated
 http://purl.obolibrary.org/obo/GO_0010525	regulation of transposition, RNA-mediated	http://purl.obolibrary.org/obo/GO_0032197	transposition, RNA-mediated
-http://purl.obolibrary.org/obo/GO_0070894	regulation of transposon integration	http://purl.obolibrary.org/obo/GO_0070893	transposon integration
 http://purl.obolibrary.org/obo/GO_0090062	regulation of trehalose metabolic process	http://purl.obolibrary.org/obo/GO_0005991	trehalose metabolic process
 http://purl.obolibrary.org/obo/GO_0010061	regulation of trichoblast fate specification	http://purl.obolibrary.org/obo/GO_0010057	trichoblast fate specification
 http://purl.obolibrary.org/obo/GO_2000039	regulation of trichome morphogenesis	http://purl.obolibrary.org/obo/GO_0010090	trichome morphogenesis

@@ -43,9 +43,9 @@ This pattern is for classes representing the maturation of an anatomical structu
 
 | defined_class | defined_class_label | target | target_label |
 |:--|:--|:--|:--|
+| [http://purl.obolibrary.org/obo/GO_0021601](http://purl.obolibrary.org/obo/GO_0021601) | abducens nerve maturation | [http://purl.obolibrary.org/obo/UBERON_0001646](http://purl.obolibrary.org/obo/UBERON_0001646) | abducens nerve |
+| [http://purl.obolibrary.org/obo/GO_0021606](http://purl.obolibrary.org/obo/GO_0021606) | accessory nerve maturation | [http://purl.obolibrary.org/obo/UBERON_0002019](http://purl.obolibrary.org/obo/UBERON_0002019) | accessory XI nerve |
 | [http://purl.obolibrary.org/obo/GO_0048799](http://purl.obolibrary.org/obo/GO_0048799) | animal organ maturation | [http://purl.obolibrary.org/obo/UBERON_0000062](http://purl.obolibrary.org/obo/UBERON_0000062) | organ |
 | [http://purl.obolibrary.org/obo/GO_0001955](http://purl.obolibrary.org/obo/GO_0001955) | blood vessel maturation | [http://purl.obolibrary.org/obo/UBERON_0001981](http://purl.obolibrary.org/obo/UBERON_0001981) | blood vessel |
 | [http://purl.obolibrary.org/obo/GO_0070977](http://purl.obolibrary.org/obo/GO_0070977) | bone maturation | [http://purl.obolibrary.org/obo/UBERON_0001474](http://purl.obolibrary.org/obo/UBERON_0001474) | bone element |
-| [http://purl.obolibrary.org/obo/GO_0021626](http://purl.obolibrary.org/obo/GO_0021626) | central nervous system maturation | [http://purl.obolibrary.org/obo/UBERON_0001017](http://purl.obolibrary.org/obo/UBERON_0001017) | central nervous system |
-| [http://purl.obolibrary.org/obo/GO_0021590](http://purl.obolibrary.org/obo/GO_0021590) | cerebellum maturation | [http://purl.obolibrary.org/obo/UBERON_0002037](http://purl.obolibrary.org/obo/UBERON_0002037) | cerebellum |
 
