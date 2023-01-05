@@ -1000,7 +1000,7 @@ http://purl.obolibrary.org/obo/GO_2000801	negative regulation of endocardial cus
 http://purl.obolibrary.org/obo/GO_1900668	negative regulation of endocrocin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900602	endocrocin biosynthetic process
 http://purl.obolibrary.org/obo/GO_2001136	negative regulation of endocytic recycling	http://purl.obolibrary.org/obo/GO_0032456	endocytic recycling
 http://purl.obolibrary.org/obo/GO_0045806	negative regulation of endocytosis	http://purl.obolibrary.org/obo/GO_0006897	endocytosis
-http://purl.obolibrary.org/obo/GO_0032078	negative regulation of endodeoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004520	endodeoxyribonuclease activity
+http://purl.obolibrary.org/obo/GO_0032078	negative regulation of endodeoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004520	DNA endonuclease activity
 http://purl.obolibrary.org/obo/GO_1903225	negative regulation of endodermal cell differentiation	http://purl.obolibrary.org/obo/GO_0035987	endodermal cell differentiation
 http://purl.obolibrary.org/obo/GO_0042664	negative regulation of endodermal cell fate specification	http://purl.obolibrary.org/obo/GO_0001714	endodermal cell fate specification
 http://purl.obolibrary.org/obo/GO_0010951	negative regulation of endopeptidase activity	http://purl.obolibrary.org/obo/GO_0004175	endopeptidase activity
@@ -1009,7 +1009,7 @@ http://purl.obolibrary.org/obo/GO_1902236	negative regulation of endoplasmic ret
 http://purl.obolibrary.org/obo/GO_1903382	negative regulation of endoplasmic reticulum stress-induced neuron intrinsic apoptotic signaling pathway	http://purl.obolibrary.org/obo/GO_0036483	neuron intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress
 http://purl.obolibrary.org/obo/GO_1903372	negative regulation of endoplasmic reticulum tubular network organization	http://purl.obolibrary.org/obo/GO_0071786	endoplasmic reticulum tubular network organization
 http://purl.obolibrary.org/obo/GO_1900102	negative regulation of endoplasmic reticulum unfolded protein response	http://purl.obolibrary.org/obo/GO_0030968	endoplasmic reticulum unfolded protein response
-http://purl.obolibrary.org/obo/GO_0060702	negative regulation of endoribonuclease activity	http://purl.obolibrary.org/obo/GO_0004521	endoribonuclease activity
+http://purl.obolibrary.org/obo/GO_0060702	negative regulation of endoribonuclease activity	http://purl.obolibrary.org/obo/GO_0004521	RNA endonuclease activity
 http://purl.obolibrary.org/obo/GO_1905362	negative regulation of endosomal vesicle fusion	http://purl.obolibrary.org/obo/GO_0034058	endosomal vesicle fusion
 http://purl.obolibrary.org/obo/GO_1904979	negative regulation of endosome organization	http://purl.obolibrary.org/obo/GO_0007032	endosome organization
 http://purl.obolibrary.org/obo/GO_1905750	negative regulation of endosome to plasma membrane protein transport	http://purl.obolibrary.org/obo/GO_0099638	endosome to plasma membrane protein transport
@@ -1099,7 +1099,7 @@ http://purl.obolibrary.org/obo/GO_0001100	negative regulation of exit from mitos
 http://purl.obolibrary.org/obo/GO_1903016	negative regulation of exo-alpha-sialidase activity	http://purl.obolibrary.org/obo/GO_0004308	exo-alpha-sialidase activity
 http://purl.obolibrary.org/obo/GO_0001929	negative regulation of exocyst assembly	http://purl.obolibrary.org/obo/GO_0001927	exocyst assembly
 http://purl.obolibrary.org/obo/GO_0045920	negative regulation of exocytosis	http://purl.obolibrary.org/obo/GO_0006887	exocytosis
-http://purl.obolibrary.org/obo/GO_1902393	negative regulation of exodeoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004529	exodeoxyribonuclease activity
+http://purl.obolibrary.org/obo/GO_1902393	negative regulation of exodeoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004529	DNA exonuclease activity
 http://purl.obolibrary.org/obo/GO_1905778	negative regulation of exonuclease activity	http://purl.obolibrary.org/obo/GO_0004527	exonuclease activity
 http://purl.obolibrary.org/obo/GO_0106165	negative regulation of exonucleolytic catabolism of deadenylated mRNA	http://purl.obolibrary.org/obo/GO_0043928	exonucleolytic catabolism of deadenylated mRNA
 http://purl.obolibrary.org/obo/GO_1901918	negative regulation of exoribonuclease activity	http://purl.obolibrary.org/obo/GO_0004532	exoribonuclease activity
@@ -1586,7 +1586,7 @@ http://purl.obolibrary.org/obo/GO_0070664	negative regulation of leukocyte proli
 http://purl.obolibrary.org/obo/GO_1903237	negative regulation of leukocyte tethering or rolling	http://purl.obolibrary.org/obo/GO_0050901	leukocyte tethering or rolling
 http://purl.obolibrary.org/obo/GO_0035492	negative regulation of leukotriene production involved in inflammatory response	http://purl.obolibrary.org/obo/GO_0002540	leukotriene production involved in inflammatory response
 http://purl.obolibrary.org/obo/GO_0051352	negative regulation of ligase activity	http://purl.obolibrary.org/obo/GO_0016874	ligase activity
-http://purl.obolibrary.org/obo/GO_0045831	negative regulation of light-activated channel activity	http://purl.obolibrary.org/obo/GO_0010461	light-activated ion channel activity
+http://purl.obolibrary.org/obo/GO_0045831	negative regulation of light-activated channel activity	http://purl.obolibrary.org/obo/GO_0010461	light-activated monoatomic ion channel activity
 http://purl.obolibrary.org/obo/GO_0060192	negative regulation of lipase activity	http://purl.obolibrary.org/obo/GO_0016298	lipase activity
 http://purl.obolibrary.org/obo/GO_1900131	negative regulation of lipid binding	http://purl.obolibrary.org/obo/GO_0008289	lipid binding
 http://purl.obolibrary.org/obo/GO_0051055	negative regulation of lipid biosynthetic process	http://purl.obolibrary.org/obo/GO_0008610	lipid biosynthetic process
@@ -2828,7 +2828,6 @@ http://purl.obolibrary.org/obo/GO_0032410	negative regulation of transporter act
 http://purl.obolibrary.org/obo/GO_0010529	negative regulation of transposition	http://purl.obolibrary.org/obo/GO_0032196	transposition
 http://purl.obolibrary.org/obo/GO_0000335	negative regulation of transposition, DNA-mediated	http://purl.obolibrary.org/obo/GO_0006313	transposition, DNA-mediated
 http://purl.obolibrary.org/obo/GO_0010526	negative regulation of transposition, RNA-mediated	http://purl.obolibrary.org/obo/GO_0032197	transposition, RNA-mediated
-http://purl.obolibrary.org/obo/GO_0070895	negative regulation of transposon integration	http://purl.obolibrary.org/obo/GO_0070893	transposon integration
 http://purl.obolibrary.org/obo/GO_0010062	negative regulation of trichoblast fate specification	http://purl.obolibrary.org/obo/GO_0010057	trichoblast fate specification
 http://purl.obolibrary.org/obo/GO_1900033	negative regulation of trichome patterning	http://purl.obolibrary.org/obo/GO_0048629	trichome patterning
 http://purl.obolibrary.org/obo/GO_1900885	negative regulation of tridecane biosynthetic process	http://purl.obolibrary.org/obo/GO_1900632	tridecane biosynthetic process

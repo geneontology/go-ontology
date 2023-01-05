@@ -166,6 +166,7 @@ name: Cyanobacteria
 synonym: "blue-green algae" EXACT []
 synonym: "blue-green bacteria" EXACT []
 synonym: "cyanobacteria" RELATED []
+synonym: "Cyanobacteriota" RELATED []
 synonym: "Cyanophyceae" RELATED []
 synonym: "Cyanophycota" RELATED []
 synonym: "Cyanophyta" RELATED []
@@ -1868,8 +1869,10 @@ relationship: RO:0002162 NCBITaxon:203492 ! in taxon Fusobacteriaceae
 [Term]
 id: NCBITaxon:203682
 name: Planctomycetota
+synonym: "\"Planctobacteria\" (Cavalier-Smith 1987) Cavalier-Smith 2002" RELATED []
+synonym: "\"Planctomycetes\" Garrity and Holt 2001" RELATED []
+synonym: "\"Planctomycetota\" Whitman et al. 2018" RELATED []
 synonym: "Planctobacteria" RELATED []
-synonym: "Planctomycetaeota" RELATED []
 synonym: "Planctomycetes" RELATED []
 is_a: NCBITaxon:1783257 ! PVC group
 disjoint_from: NCBITaxon:204428 ! Chlamydiae
@@ -1968,18 +1971,6 @@ is_a: NCBITaxon:9604 ! Hominidae
 relationship: RO:0002162 NCBITaxon:207598 ! in taxon Homininae
 
 [Term]
-id: NCBITaxon:2085
-name: Mycoplasmatales
-synonym: "Borrelomycetales" RELATED []
-synonym: "Mollicutales" RELATED []
-synonym: "Mycoplasmas" RELATED []
-synonym: "Paramycetales" RELATED []
-synonym: "Pleuropneumoniales" RELATED []
-synonym: "The Mycoplasmas" RELATED []
-is_a: NCBITaxon:31969 ! Mollicutes
-relationship: RO:0002162 NCBITaxon:2085 ! in taxon Mycoplasmatales
-
-[Term]
 id: NCBITaxon:208964
 name: Pseudomonas aeruginosa PAO1
 synonym: "Pseudomonas sp. PAO1" EXACT []
@@ -1993,32 +1984,11 @@ is_a: NCBITaxon:72293 ! Helicobacteraceae
 relationship: RO:0002162 NCBITaxon:209 ! in taxon Helicobacter
 
 [Term]
-id: NCBITaxon:2092
-name: Mycoplasmataceae
-synonym: "Borrelomycetaceae" RELATED []
-synonym: "Parasitaceae" RELATED []
-synonym: "Pleuropneumoniaceae" RELATED []
-is_a: NCBITaxon:2085 ! Mycoplasmatales
-relationship: RO:0002162 NCBITaxon:2092 ! in taxon Mycoplasmataceae
-
-[Term]
-id: NCBITaxon:2093
-name: Mycoplasma
-synonym: "Asterococcus" RELATED []
-synonym: "Asteromyces" RELATED []
-synonym: "Borrelomyces" RELATED []
-synonym: "Bovimyces" RELATED []
-synonym: "Eperythrozoon" RELATED []
-synonym: "Haemobartonella" RELATED []
-synonym: "Pleuropneumonia" RELATED []
-is_a: NCBITaxon:2092 ! Mycoplasmataceae
-relationship: RO:0002162 NCBITaxon:2093 ! in taxon Mycoplasma
-
-[Term]
 id: NCBITaxon:2097
-name: Mycoplasma genitalium
-is_a: NCBITaxon:2093 ! Mycoplasma
-relationship: RO:0002162 NCBITaxon:2097 ! in taxon Mycoplasma genitalium
+name: Mycoplasmoides genitalium
+synonym: "Mycoplasma genitalium" RELATED []
+is_a: NCBITaxon:2995234 ! Mycoplasmoides
+relationship: RO:0002162 NCBITaxon:2097 ! in taxon Mycoplasmoides genitalium
 
 [Term]
 id: NCBITaxon:210
@@ -2518,12 +2488,13 @@ relationship: RO:0002162 NCBITaxon:243232 ! in taxon Methanocaldococcus jannasch
 
 [Term]
 id: NCBITaxon:243273
-name: Mycoplasma genitalium G37
+name: Mycoplasmoides genitalium G37
 synonym: "Mycoplasma genitalium ATCC 33530" RELATED []
+synonym: "Mycoplasma genitalium G37" RELATED []
 synonym: "Mycoplasma genitalium str. G37" EXACT []
 synonym: "Mycoplasma genitalium strain G37" EXACT []
-is_a: NCBITaxon:2097 ! Mycoplasma genitalium
-relationship: RO:0002162 NCBITaxon:243273 ! in taxon Mycoplasma genitalium G37
+is_a: NCBITaxon:2097 ! Mycoplasmoides genitalium
+relationship: RO:0002162 NCBITaxon:243273 ! in taxon Mycoplasmoides genitalium G37
 
 [Term]
 id: NCBITaxon:243274
@@ -2821,6 +2792,12 @@ is_a: NCBITaxon:1292248 ! Planarioidea
 relationship: RO:0002162 NCBITaxon:27896 ! in taxon Planariidae
 
 [Term]
+id: NCBITaxon:2790996
+name: Mycoplasmoidales
+is_a: NCBITaxon:544448 ! Tenericutes
+relationship: RO:0002162 NCBITaxon:2790996 ! in taxon Mycoplasmoidales
+
+[Term]
 id: NCBITaxon:28009
 name: Choanoflagellata
 synonym: "Choanoflagellatea" RELATED []
@@ -3061,6 +3038,12 @@ is_a: NCBITaxon:28262 ! Thermodesulfovibrio yellowstonii
 relationship: RO:0002162 NCBITaxon:289376 ! in taxon Thermodesulfovibrio yellowstonii DSM 11347
 
 [Term]
+id: NCBITaxon:2895623
+name: Metamycoplasmataceae
+is_a: NCBITaxon:2790996 ! Mycoplasmoidales
+relationship: RO:0002162 NCBITaxon:2895623 ! in taxon Metamycoplasmataceae
+
+[Term]
 id: NCBITaxon:28983
 name: Sclerotiniaceae
 is_a: NCBITaxon:5178 ! Helotiales
@@ -3123,6 +3106,12 @@ synonym: "Vitis vinifera subsp. vinifera" RELATED []
 synonym: "wine grape" EXACT []
 is_a: NCBITaxon:3603 ! Vitis
 relationship: RO:0002162 NCBITaxon:29760 ! in taxon Vitis vinifera
+
+[Term]
+id: NCBITaxon:2995234
+name: Mycoplasmoides
+is_a: NCBITaxon:2895623 ! Metamycoplasmataceae
+relationship: RO:0002162 NCBITaxon:2995234 ! in taxon Mycoplasmoides
 
 [Term]
 id: NCBITaxon:3027
@@ -3296,15 +3285,6 @@ synonym: "marine group1 Crenarchaeota" RELATED []
 synonym: "marine group1 Thaumarchaeota" RELATED []
 is_a: NCBITaxon:651137 ! Thaumarchaeota
 relationship: RO:0002162 NCBITaxon:31932 ! in taxon Nitrosopumilales
-
-[Term]
-id: NCBITaxon:31969
-name: Mollicutes
-synonym: "mycoplasmas" RELATED []
-synonym: "Mycoplasmas and walled relatives" RELATED []
-synonym: "Paramycetes" RELATED []
-is_a: NCBITaxon:544448 ! Tenericutes
-relationship: RO:0002162 NCBITaxon:31969 ! in taxon Mollicutes
 
 [Term]
 id: NCBITaxon:31979
@@ -4143,6 +4123,7 @@ name: Prunus persica
 synonym: "Amygdalus persica" RELATED []
 synonym: "peach" EXACT []
 synonym: "Persica vulgaris" RELATED []
+synonym: "Prunus persica var. densa" RELATED []
 is_a: NCBITaxon:3754 ! Prunus
 relationship: RO:0002162 NCBITaxon:3760 ! in taxon Prunus persica
 
@@ -6568,8 +6549,7 @@ relationship: RO:0002162 NCBITaxon:745062 ! in taxon Lactucinae
 [Term]
 id: NCBITaxon:746128
 name: Aspergillus fumigatus
-synonym: "Aspergillus fumigates" RELATED []
-synonym: "Aspergillus fumigatus Fresen. 1863" RELATED []
+synonym: "Aspergillus fumigatus Fresen., 1863" RELATED []
 synonym: "Aspergillus fumigatus var. ellipticus" RELATED []
 synonym: "Aspergillus neoellipticus" RELATED []
 synonym: "Neosartorya fumigata" RELATED []
@@ -6728,18 +6708,18 @@ relationship: RO:0002162 NCBITaxon:7735 ! in taxon Cephalochordata
 
 [Term]
 id: NCBITaxon:7736
-name: Branchiostomidae
+name: Branchiostomatidae
 synonym: "amphioxi" EXACT []
 synonym: "amphioxius" EXACT []
-synonym: "Branchiostomatidae" RELATED []
+synonym: "Branchiostomidae" RELATED []
 synonym: "lancelets" EXACT []
 is_a: NCBITaxon:2682553 ! Amphioxiformes
-relationship: RO:0002162 NCBITaxon:7736 ! in taxon Branchiostomidae
+relationship: RO:0002162 NCBITaxon:7736 ! in taxon Branchiostomatidae
 
 [Term]
 id: NCBITaxon:7737
 name: Branchiostoma
-is_a: NCBITaxon:7736 ! Branchiostomidae
+is_a: NCBITaxon:7736 ! Branchiostomatidae
 relationship: RO:0002162 NCBITaxon:7737 ! in taxon Branchiostoma
 
 [Term]
@@ -7653,8 +7633,8 @@ relationship: RO:0002162 NCBITaxon:9722 ! in taxon Odontoceti
 [Term]
 id: NCBITaxon:976
 name: Bacteroidota
+synonym: "\"Bacteroidota\" Whitman et al. 2018" RELATED []
 synonym: "'Bacteroidota'" RELATED []
-synonym: "Bacteroidaeota" RELATED []
 synonym: "Bacteroides-Cytophaga-Flexibacter group" EXACT []
 synonym: "Bacteroidetes" RELATED []
 synonym: "BCF group" EXACT []

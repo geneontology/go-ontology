@@ -27,7 +27,7 @@ http://purl.obolibrary.org/obo/GO_1900878	(Z)-nonadeca-1,14-diene metabolic proc
 http://purl.obolibrary.org/obo/GO_0018977	1,1,1-trichloro-2,2-bis-(4-chlorophenyl)ethane metabolic process	http://purl.obolibrary.org/obo/CHEBI_16130	DDT
 http://purl.obolibrary.org/obo/GO_0018976	1,2,3-tribromopropane metabolic process	http://purl.obolibrary.org/obo/CHEBI_18859	1,2,3-tribromopropane
 http://purl.obolibrary.org/obo/GO_0018911	1,2,4-trichlorobenzene metabolic process	http://purl.obolibrary.org/obo/CHEBI_28222	1,2,4-trichlorobenzene
-http://purl.obolibrary.org/obo/GO_0006653	1,2-diacyl-sn-glycero-3-phosphocholine metabolic process	http://purl.obolibrary.org/obo/CHEBI_16110	1,2-diacyl-sn-glycero-3-phosphocholine(1+)
+http://purl.obolibrary.org/obo/GO_0006653	1,2-diacyl-sn-glycero-3-phosphocholine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57643	1,2-diacyl-sn-glycero-3-phosphocholine
 http://purl.obolibrary.org/obo/GO_0018899	1,2-dichloroethane metabolic process	http://purl.obolibrary.org/obo/CHEBI_27789	1,2-dichloroethane
 http://purl.obolibrary.org/obo/GO_0018902	1,3-dichloro-2-propanol metabolic process	http://purl.obolibrary.org/obo/CHEBI_18917	1,3-dichloropropan-2-ol
 http://purl.obolibrary.org/obo/GO_0018903	1,3-dichloropropene metabolic process	http://purl.obolibrary.org/obo/CHEBI_18918	1,3-dichloropropene
@@ -159,7 +159,7 @@ http://purl.obolibrary.org/obo/GO_0046041	ITP metabolic process	http://purl.obol
 http://purl.obolibrary.org/obo/GO_0046375	K antigen metabolic process	http://purl.obolibrary.org/obo/CHEBI_73772	K antigen
 http://purl.obolibrary.org/obo/GO_0036103	Kdo2-lipid A metabolic process	http://purl.obolibrary.org/obo/CHEBI_58540	(Kdo)2-lipid A(6-) (E. coli)
 http://purl.obolibrary.org/obo/GO_0042851	L-alanine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57972	L-alanine zwitterion
-http://purl.obolibrary.org/obo/GO_1903662	L-altrarate metabolic process	http://purl.obolibrary.org/obo/CHEBI_21397	L-altrarate(1-)
+http://purl.obolibrary.org/obo/GO_1903662	L-altrarate metabolic process	http://purl.obolibrary.org/obo/CHEBI_37547	L-altrarate(2-)
 http://purl.obolibrary.org/obo/GO_0046373	L-arabinose metabolic process	http://purl.obolibrary.org/obo/CHEBI_30849	L-arabinose
 http://purl.obolibrary.org/obo/GO_0051162	L-arabitol metabolic process	http://purl.obolibrary.org/obo/CHEBI_18403	L-arabinitol
 http://purl.obolibrary.org/obo/GO_0019852	L-ascorbic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_38290	L-ascorbate
@@ -179,7 +179,7 @@ http://purl.obolibrary.org/obo/GO_0019502	L-proline betaine metabolic process	ht
 http://purl.obolibrary.org/obo/GO_0006563	L-serine metabolic process	http://purl.obolibrary.org/obo/CHEBI_33384	L-serine zwitterion
 http://purl.obolibrary.org/obo/GO_0019312	L-sorbose metabolic process	http://purl.obolibrary.org/obo/CHEBI_17266	L-sorbose
 http://purl.obolibrary.org/obo/GO_0051164	L-xylitol metabolic process	http://purl.obolibrary.org/obo/CHEBI_17151	xylitol
-http://purl.obolibrary.org/obo/GO_1902759	Mo(VI)-molybdopterin cytosine dinucleotide metabolic process	http://purl.obolibrary.org/obo/CHEBI_71353	Mo(VI)-molybdopterin cytosine dinucleotide
+http://purl.obolibrary.org/obo/GO_1902759	Mo(VI)-molybdopterin cytosine dinucleotide metabolic process	http://purl.obolibrary.org/obo/CHEBI_71308	Mo(VI)-molybdopterin cytosine dinucleotide(2-)
 http://purl.obolibrary.org/obo/GO_0019720	Mo-molybdopterin cofactor metabolic process	http://purl.obolibrary.org/obo/CHEBI_21437	Mo-molybdopterin cofactor
 http://purl.obolibrary.org/obo/GO_1900549	N',N'',N'''-triacetylfusarinine C metabolic process	http://purl.obolibrary.org/obo/CHEBI_60481	N',N'',N'''-triacetylfusarinine C
 http://purl.obolibrary.org/obo/GO_2001298	N(omega),N(omega)-dimethyl-L-arginine metabolic process	http://purl.obolibrary.org/obo/CHEBI_58326	N(omega),N(omega)-dimethyl-L-argininium(1+)
@@ -235,7 +235,7 @@ http://purl.obolibrary.org/obo/GO_0120246	acetylenic compound metabolic process	
 http://purl.obolibrary.org/obo/GO_0042860	achromobactin metabolic process	http://purl.obolibrary.org/obo/CHEBI_61346	achromobactin
 http://purl.obolibrary.org/obo/GO_0018865	acrylonitrile metabolic process	http://purl.obolibrary.org/obo/CHEBI_28217	acrylonitrile
 http://purl.obolibrary.org/obo/GO_1901110	actinorhodin metabolic process	http://purl.obolibrary.org/obo/CHEBI_91020	actinorhodin(3-)
-http://purl.obolibrary.org/obo/GO_0006637	acyl-CoA metabolic process	http://purl.obolibrary.org/obo/CHEBI_17984	acyl-CoA
+http://purl.obolibrary.org/obo/GO_0006637	acyl-CoA metabolic process	http://purl.obolibrary.org/obo/CHEBI_58342	acyl-CoA(4-)
 http://purl.obolibrary.org/obo/GO_0006639	acylglycerol metabolic process	http://purl.obolibrary.org/obo/CHEBI_47778	glyceride
 http://purl.obolibrary.org/obo/GO_0018866	adamantanone metabolic process	http://purl.obolibrary.org/obo/CHEBI_40611	adamantanone
 http://purl.obolibrary.org/obo/GO_0046083	adenine metabolic process	http://purl.obolibrary.org/obo/CHEBI_16708	adenine
@@ -258,7 +258,7 @@ http://purl.obolibrary.org/obo/GO_0019694	alkanesulfonate metabolic process	http
 http://purl.obolibrary.org/obo/GO_1901831	all-trans-neoxanthin metabolic process	http://purl.obolibrary.org/obo/CHEBI_32446	all-trans-neoxanthin
 http://purl.obolibrary.org/obo/GO_0000255	allantoin metabolic process	http://purl.obolibrary.org/obo/CHEBI_15676	allantoin
 http://purl.obolibrary.org/obo/GO_0019313	allose metabolic process	http://purl.obolibrary.org/obo/CHEBI_37690	allose
-http://purl.obolibrary.org/obo/GO_1901605	alpha-amino acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_33704	alpha-amino acid
+http://purl.obolibrary.org/obo/GO_1901605	alpha-amino acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_78608	alpha-amino acid zwitterion
 http://purl.obolibrary.org/obo/GO_1901929	alpha-copaene metabolic process	http://purl.obolibrary.org/obo/CHEBI_10221	alpha-copaene
 http://purl.obolibrary.org/obo/GO_0030978	alpha-glucan metabolic process	http://purl.obolibrary.org/obo/CHEBI_22385	alpha-D-glucan
 http://purl.obolibrary.org/obo/GO_0036109	alpha-linolenic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_32387	alpha-linolenate
@@ -367,7 +367,7 @@ http://purl.obolibrary.org/obo/GO_1901135	carbohydrate derivative metabolic proc
 http://purl.obolibrary.org/obo/GO_0005975	carbohydrate metabolic process	http://purl.obolibrary.org/obo/CHEBI_16646	carbohydrate
 http://purl.obolibrary.org/obo/GO_0018885	carbon tetrachloride metabolic process	http://purl.obolibrary.org/obo/CHEBI_27385	tetrachloromethane
 http://purl.obolibrary.org/obo/GO_0019752	carboxylic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_29067	carboxylic acid anion
-http://purl.obolibrary.org/obo/GO_0032048	cardiolipin metabolic process	http://purl.obolibrary.org/obo/CHEBI_28494	cardiolipin
+http://purl.obolibrary.org/obo/GO_0032048	cardiolipin metabolic process	http://purl.obolibrary.org/obo/CHEBI_62237	cardiolipin(2-)
 http://purl.obolibrary.org/obo/GO_0009437	carnitine metabolic process	http://purl.obolibrary.org/obo/CHEBI_17126	carnitine
 http://purl.obolibrary.org/obo/GO_0035498	carnosine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57485	carnosine zwitterion
 http://purl.obolibrary.org/obo/GO_0016119	carotene metabolic process	http://purl.obolibrary.org/obo/CHEBI_23042	carotene
@@ -391,7 +391,7 @@ http://purl.obolibrary.org/obo/GO_1901266	cephalosporin C metabolic process	http
 http://purl.obolibrary.org/obo/GO_0043645	cephalosporin metabolic process	http://purl.obolibrary.org/obo/CHEBI_23066	cephalosporin
 http://purl.obolibrary.org/obo/GO_1901116	cephamycin C metabolic process	http://purl.obolibrary.org/obo/CHEBI_3543	cephamycin C
 http://purl.obolibrary.org/obo/GO_0006672	ceramide metabolic process	http://purl.obolibrary.org/obo/CHEBI_17761	ceramide
-http://purl.obolibrary.org/obo/GO_1905371	ceramide phosphoethanolamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_73204	ceramide phosphoethanolamine
+http://purl.obolibrary.org/obo/GO_1905371	ceramide phosphoethanolamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_73202	ceramide phosphoethanolamine zwitterion
 http://purl.obolibrary.org/obo/GO_0009714	chalcone metabolic process	http://purl.obolibrary.org/obo/CHEBI_23086	chalcones
 http://purl.obolibrary.org/obo/GO_1900567	chanoclavine-I aldehyde metabolic process	http://purl.obolibrary.org/obo/CHEBI_71487	chanoclavine-I aldehyde(1+)
 http://purl.obolibrary.org/obo/GO_1900564	chanoclavine-I metabolic process	http://purl.obolibrary.org/obo/CHEBI_72949	chanoclavine-I(1+)
@@ -399,9 +399,9 @@ http://purl.obolibrary.org/obo/GO_0006030	chitin metabolic process	http://purl.o
 http://purl.obolibrary.org/obo/GO_0052780	chitobiose metabolic process	http://purl.obolibrary.org/obo/CHEBI_50674	chitobioses
 http://purl.obolibrary.org/obo/GO_0042196	chlorinated hydrocarbon metabolic process	http://purl.obolibrary.org/obo/CHEBI_23115	chlorohydrocarbon
 http://purl.obolibrary.org/obo/GO_0018914	chlorobenzene metabolic process	http://purl.obolibrary.org/obo/CHEBI_28097	chlorobenzene
-http://purl.obolibrary.org/obo/GO_0033304	chlorophyll a metabolic process	http://purl.obolibrary.org/obo/CHEBI_18230	chlorophyll a
+http://purl.obolibrary.org/obo/GO_0033304	chlorophyll a metabolic process	http://purl.obolibrary.org/obo/CHEBI_58416	chlorophyll a(1-)
 http://purl.obolibrary.org/obo/GO_0015994	chlorophyll metabolic process	http://purl.obolibrary.org/obo/CHEBI_28966	chlorophyll
-http://purl.obolibrary.org/obo/GO_0052644	chlorophyllide a metabolic process	http://purl.obolibrary.org/obo/CHEBI_16900	chlorophyllide a
+http://purl.obolibrary.org/obo/GO_0052644	chlorophyllide a metabolic process	http://purl.obolibrary.org/obo/CHEBI_83348	chlorophyllide a(2-)
 http://purl.obolibrary.org/obo/GO_0052643	chlorophyllide metabolic process	http://purl.obolibrary.org/obo/CHEBI_38206	chlorophyllide
 http://purl.obolibrary.org/obo/GO_0008203	cholesterol metabolic process	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol
 http://purl.obolibrary.org/obo/GO_0019695	choline metabolic process	http://purl.obolibrary.org/obo/CHEBI_15354	choline
@@ -492,7 +492,7 @@ http://purl.obolibrary.org/obo/GO_0046389	deoxyribose 5-phosphate metabolic proc
 http://purl.obolibrary.org/obo/GO_0019692	deoxyribose phosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_19569	2-deoxyribose phosphate
 http://purl.obolibrary.org/obo/GO_0046096	deoxyuridine metabolic process	http://purl.obolibrary.org/obo/CHEBI_16450	2'-deoxyuridine
 http://purl.obolibrary.org/obo/GO_0050761	depsipeptide metabolic process	http://purl.obolibrary.org/obo/CHEBI_23643	depsipeptide
-http://purl.obolibrary.org/obo/GO_0030205	dermatan sulfate metabolic process	http://purl.obolibrary.org/obo/CHEBI_18376	dermatan sulfate
+http://purl.obolibrary.org/obo/GO_0030205	dermatan sulfate metabolic process	http://purl.obolibrary.org/obo/CHEBI_58465	dermatan sulfate polyanion
 http://purl.obolibrary.org/obo/GO_0050655	dermatan sulfate proteoglycan metabolic process	http://purl.obolibrary.org/obo/CHEBI_64602	dermatan sulfate proteoglycan
 http://purl.obolibrary.org/obo/GO_0046450	dethiobiotin metabolic process	http://purl.obolibrary.org/obo/CHEBI_57861	dethiobiotin(1-)
 http://purl.obolibrary.org/obo/GO_0052778	diacetylchitobiose metabolic process	http://purl.obolibrary.org/obo/CHEBI_28681	N,N'-diacetylchitobiose
@@ -527,7 +527,7 @@ http://purl.obolibrary.org/obo/GO_0051501	diterpene phytoalexin metabolic proces
 http://purl.obolibrary.org/obo/GO_0016101	diterpenoid metabolic process	http://purl.obolibrary.org/obo/CHEBI_23849	diterpenoid
 http://purl.obolibrary.org/obo/GO_0018909	dodecyl sulfate metabolic process	http://purl.obolibrary.org/obo/CHEBI_23872	dodecyl sulfate
 http://purl.obolibrary.org/obo/GO_0019348	dolichol metabolic process	http://purl.obolibrary.org/obo/CHEBI_16091	dolichol
-http://purl.obolibrary.org/obo/GO_0046465	dolichyl diphosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_15750	dolichyl diphosphate
+http://purl.obolibrary.org/obo/GO_0046465	dolichyl diphosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_57497	dolichyl diphosphate(3-)
 http://purl.obolibrary.org/obo/GO_0042417	dopamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_59905	dopaminium(1+)
 http://purl.obolibrary.org/obo/GO_0044598	doxorubicin metabolic process	http://purl.obolibrary.org/obo/CHEBI_64816	doxorubicin(1+)
 http://purl.obolibrary.org/obo/GO_0008205	ecdysone metabolic process	http://purl.obolibrary.org/obo/CHEBI_16688	ecdysone
@@ -574,7 +574,7 @@ http://purl.obolibrary.org/obo/GO_0006631	fatty acid metabolic process	http://pu
 http://purl.obolibrary.org/obo/GO_1902898	fatty acid methyl ester metabolic process	http://purl.obolibrary.org/obo/CHEBI_4986	fatty acid methyl ester
 http://purl.obolibrary.org/obo/GO_0062126	fatty acid primary amide metabolic process	http://purl.obolibrary.org/obo/CHEBI_143129	primary fatty amide
 http://purl.obolibrary.org/obo/GO_1903173	fatty alcohol metabolic process	http://purl.obolibrary.org/obo/CHEBI_24026	fatty alcohol
-http://purl.obolibrary.org/obo/GO_0035337	fatty-acyl-CoA metabolic process	http://purl.obolibrary.org/obo/CHEBI_37554	fatty acyl-CoA
+http://purl.obolibrary.org/obo/GO_0035337	fatty-acyl-CoA metabolic process	http://purl.obolibrary.org/obo/CHEBI_77636	fatty acyl-CoA(4-)
 http://purl.obolibrary.org/obo/GO_0006124	ferredoxin metabolic process	http://purl.obolibrary.org/obo/CHEBI_5017	ferredoxin
 http://purl.obolibrary.org/obo/GO_0031168	ferrichrome metabolic process	http://purl.obolibrary.org/obo/CHEBI_61414	ferrichromes
 http://purl.obolibrary.org/obo/GO_0031170	ferricrocin metabolic process	http://purl.obolibrary.org/obo/CHEBI_64492	ferricrocin
@@ -684,7 +684,7 @@ http://purl.obolibrary.org/obo/GO_0070276	halogen metabolic process	http://purl.
 http://purl.obolibrary.org/obo/GO_0042197	halogenated hydrocarbon metabolic process	http://purl.obolibrary.org/obo/CHEBI_24472	halohydrocarbon
 http://purl.obolibrary.org/obo/GO_1900810	helvolic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_62461	helvolate
 http://purl.obolibrary.org/obo/GO_0046492	heme B metabolic process	http://purl.obolibrary.org/obo/CHEBI_26355	heme b
-http://purl.obolibrary.org/obo/GO_0046162	heme C metabolic process	http://purl.obolibrary.org/obo/CHEBI_60562	ferroheme c
+http://purl.obolibrary.org/obo/GO_0046162	heme C metabolic process	http://purl.obolibrary.org/obo/CHEBI_61717	ferroheme c(2-)
 http://purl.obolibrary.org/obo/GO_0048033	heme O metabolic process	http://purl.obolibrary.org/obo/CHEBI_24480	heme o
 http://purl.obolibrary.org/obo/GO_0046160	heme a metabolic process	http://purl.obolibrary.org/obo/CHEBI_24479	heme a
 http://purl.obolibrary.org/obo/GO_0042168	heme metabolic process	http://purl.obolibrary.org/obo/CHEBI_30413	heme
@@ -734,7 +734,7 @@ http://purl.obolibrary.org/obo/GO_0080024	indolebutyric acid metabolic process	h
 http://purl.obolibrary.org/obo/GO_0046102	inosine metabolic process	http://purl.obolibrary.org/obo/CHEBI_17596	inosine
 http://purl.obolibrary.org/obo/GO_0006020	inositol metabolic process	http://purl.obolibrary.org/obo/CHEBI_24848	inositol
 http://purl.obolibrary.org/obo/GO_0043647	inositol phosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_24846	inositol phosphate
-http://purl.obolibrary.org/obo/GO_0006673	inositol phosphoceramide metabolic process	http://purl.obolibrary.org/obo/CHEBI_60245	inositol phosphoceramide
+http://purl.obolibrary.org/obo/GO_0006673	inositol phosphoceramide metabolic process	http://purl.obolibrary.org/obo/CHEBI_64916	inositol phosphoceramide(1-)
 http://purl.obolibrary.org/obo/GO_0032957	inositol trisphosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_25450	myo-inositol trisphosphate
 http://purl.obolibrary.org/obo/GO_0017143	insecticide metabolic process	http://purl.obolibrary.org/obo/GOCHE_24852	substance with insecticide role
 http://purl.obolibrary.org/obo/GO_1901142	insulin metabolic process	http://purl.obolibrary.org/obo/PR_000009054	insulin gene translation product
@@ -797,7 +797,7 @@ http://purl.obolibrary.org/obo/GO_2001302	lipoxin A4 metabolic process	http://pu
 http://purl.obolibrary.org/obo/GO_2001304	lipoxin B4 metabolic process	http://purl.obolibrary.org/obo/CHEBI_67031	lipoxin B4(1-)
 http://purl.obolibrary.org/obo/GO_2001300	lipoxin metabolic process	http://purl.obolibrary.org/obo/CHEBI_6497	lipoxin
 http://purl.obolibrary.org/obo/GO_0001676	long-chain fatty acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_57560	long-chain fatty acid anion
-http://purl.obolibrary.org/obo/GO_0035336	long-chain fatty-acyl-CoA metabolic process	http://purl.obolibrary.org/obo/CHEBI_33184	long-chain fatty acyl-CoA
+http://purl.obolibrary.org/obo/GO_0035336	long-chain fatty-acyl-CoA metabolic process	http://purl.obolibrary.org/obo/CHEBI_83139	long-chain fatty acyl-CoA(4-)
 http://purl.obolibrary.org/obo/GO_0062170	lutein metabolic process	http://purl.obolibrary.org/obo/CHEBI_28838	lutein
 http://purl.obolibrary.org/obo/GO_0033510	luteolin metabolic process	http://purl.obolibrary.org/obo/CHEBI_57545	luteolin-7-olate
 http://purl.obolibrary.org/obo/GO_1901175	lycopene metabolic process	http://purl.obolibrary.org/obo/CHEBI_15948	lycopene
@@ -818,8 +818,8 @@ http://purl.obolibrary.org/obo/GO_0019594	mannitol metabolic process	http://purl
 http://purl.obolibrary.org/obo/GO_0006056	mannoprotein metabolic process	http://purl.obolibrary.org/obo/CHEBI_78903	mannoprotein
 http://purl.obolibrary.org/obo/GO_0006050	mannosamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_25166	mannosamine
 http://purl.obolibrary.org/obo/GO_0006013	mannose metabolic process	http://purl.obolibrary.org/obo/CHEBI_37684	mannose
-http://purl.obolibrary.org/obo/GO_0006676	mannosyl diphosphorylinositol ceramide metabolic process	http://purl.obolibrary.org/obo/CHEBI_61006	mannosyl diphosphorylinositol ceramide
-http://purl.obolibrary.org/obo/GO_0006675	mannosyl-inositol phosphorylceramide metabolic process	http://purl.obolibrary.org/obo/CHEBI_25168	mannosylinositol phosphorylceramide
+http://purl.obolibrary.org/obo/GO_0006676	mannosyl diphosphorylinositol ceramide metabolic process	http://purl.obolibrary.org/obo/CHEBI_74997	mannosyl diphosphorylinositol ceramide(2-)
+http://purl.obolibrary.org/obo/GO_0006675	mannosyl-inositol phosphorylceramide metabolic process	http://purl.obolibrary.org/obo/CHEBI_64997	mannosylinositol phosphorylceramide(1-)
 http://purl.obolibrary.org/obo/GO_0051478	mannosylglycerate metabolic process	http://purl.obolibrary.org/obo/CHEBI_60940	D-mannosyl-D-glyceric acid
 http://purl.obolibrary.org/obo/GO_0051791	medium-chain fatty acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_59558	medium-chain fatty acid anion
 http://purl.obolibrary.org/obo/GO_0036112	medium-chain fatty-acyl-CoA metabolic process	http://purl.obolibrary.org/obo/CHEBI_61907	medium-chain fatty acyl-CoA
@@ -1150,7 +1150,7 @@ http://purl.obolibrary.org/obo/GO_0009237	siderophore metabolic process	http://p
 http://purl.obolibrary.org/obo/GO_0051206	silicate metabolic process	http://purl.obolibrary.org/obo/CHEBI_26675	silicic acid
 http://purl.obolibrary.org/obo/GO_0033524	sinapate ester metabolic process	http://purl.obolibrary.org/obo/CHEBI_60935	sinapate ester
 http://purl.obolibrary.org/obo/GO_0033496	sinapate metabolic process	http://purl.obolibrary.org/obo/CHEBI_30023	trans-sinapate
-http://purl.obolibrary.org/obo/GO_0046156	siroheme metabolic process	http://purl.obolibrary.org/obo/CHEBI_28599	siroheme
+http://purl.obolibrary.org/obo/GO_0046156	siroheme metabolic process	http://purl.obolibrary.org/obo/CHEBI_60052	siroheme(8-)
 http://purl.obolibrary.org/obo/GO_0016073	snRNA metabolic process	http://purl.obolibrary.org/obo/SO_0000274	snRNA
 http://purl.obolibrary.org/obo/GO_0016074	sno(s)RNA metabolic process	http://purl.obolibrary.org/obo/SO_0000275	snoRNA
 http://purl.obolibrary.org/obo/GO_0019434	sophorosyloxydocosanoate metabolic process	http://purl.obolibrary.org/obo/CHEBI_51078	13-sophorosyloxydocosanoate 6',6''-diacetate
@@ -1267,7 +1267,7 @@ http://purl.obolibrary.org/obo/GO_0019536	vibriobactin metabolic process	http://
 http://purl.obolibrary.org/obo/GO_1900983	vindoline metabolic process	http://purl.obolibrary.org/obo/CHEBI_57753	vindolinium(1+)
 http://purl.obolibrary.org/obo/GO_1900588	violaceol I metabolic process	http://purl.obolibrary.org/obo/CHEBI_64415	violaceol I
 http://purl.obolibrary.org/obo/GO_1900591	violaceol II metabolic process	http://purl.obolibrary.org/obo/CHEBI_64417	violaceol II
-http://purl.obolibrary.org/obo/GO_1901150	vistamycin metabolic process	http://purl.obolibrary.org/obo/CHEBI_10003	ribostamycin sulfate
+http://purl.obolibrary.org/obo/GO_1901150	vistamycin metabolic process	http://purl.obolibrary.org/obo/CHEBI_65028	ribostamycin(4+)
 http://purl.obolibrary.org/obo/GO_0006776	vitamin A metabolic process	http://purl.obolibrary.org/obo/CHEBI_12777	vitamin A
 http://purl.obolibrary.org/obo/GO_0042816	vitamin B6 metabolic process	http://purl.obolibrary.org/obo/CHEBI_27306	vitamin B6
 http://purl.obolibrary.org/obo/GO_0042359	vitamin D metabolic process	http://purl.obolibrary.org/obo/CHEBI_27300	vitamin D

@@ -1,10 +1,13 @@
 defined_class	defined_class_label	target	target_label
 http://purl.obolibrary.org/obo/GO_0007443	Malpighian tubule morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001054	Malpighian tubule
 http://purl.obolibrary.org/obo/GO_0061146	Peyer's patch morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001211	Peyer's patch
+http://purl.obolibrary.org/obo/GO_0021598	abducens nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001646	abducens nerve
+http://purl.obolibrary.org/obo/GO_0021607	accessory nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002019	accessory XI nerve
 http://purl.obolibrary.org/obo/GO_0048855	adenohypophysis morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002196	adenohypophysis
 http://purl.obolibrary.org/obo/GO_0035144	anal fin morphogenesis	http://purl.obolibrary.org/obo/UBERON_4000163	anal fin
 http://purl.obolibrary.org/obo/GO_0009887	animal organ morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000062	organ
 http://purl.obolibrary.org/obo/GO_0048800	antennal morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000972	antenna
+http://purl.obolibrary.org/obo/GO_0021960	anterior commissure morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000935	anterior commissure
 http://purl.obolibrary.org/obo/GO_0035909	aorta morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000947	aorta
 http://purl.obolibrary.org/obo/GO_0060414	aorta smooth muscle tissue morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004178	aorta smooth muscle tissue
 http://purl.obolibrary.org/obo/GO_0003180	aortic valve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002137	aortic valve
@@ -39,6 +42,10 @@ http://purl.obolibrary.org/obo/GO_0003208	cardiac ventricle morphogenesis	http:/
 http://purl.obolibrary.org/obo/GO_0060536	cartilage morphogenesis	http://purl.obolibrary.org/obo/UBERON_0007844	cartilage element
 http://purl.obolibrary.org/obo/GO_0035143	caudal fin morphogenesis	http://purl.obolibrary.org/obo/UBERON_4000164	caudal fin
 http://purl.obolibrary.org/obo/GO_0021551	central nervous system morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
+http://purl.obolibrary.org/obo/GO_0021692	cerebellar Purkinje cell layer morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002979	Purkinje cell layer of cerebellar cortex
+http://purl.obolibrary.org/obo/GO_0021696	cerebellar cortex morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002129	cerebellar cortex
+http://purl.obolibrary.org/obo/GO_0021683	cerebellar granular layer morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002956	granular layer of cerebellar cortex
+http://purl.obolibrary.org/obo/GO_0021687	cerebellar molecular layer morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002974	molecular layer of cerebellar cortex
 http://purl.obolibrary.org/obo/GO_0021587	cerebellum morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002037	cerebellum
 http://purl.obolibrary.org/obo/GO_0061073	ciliary body morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001775	ciliary body
 http://purl.obolibrary.org/obo/GO_0090103	cochlea morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001844	cochlea
@@ -49,8 +56,12 @@ http://purl.obolibrary.org/obo/GO_0060982	coronary artery morphogenesis	http://p
 http://purl.obolibrary.org/obo/GO_0003182	coronary sinus valve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004150	coronary sinus valve
 http://purl.obolibrary.org/obo/GO_0060977	coronary vasculature morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003498	heart blood vessel
 http://purl.obolibrary.org/obo/GO_0003169	coronary vein morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004148	cardiac vein
+http://purl.obolibrary.org/obo/GO_0021540	corpus callosum morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002336	corpus callosum
+http://purl.obolibrary.org/obo/GO_0021957	corticospinal tract morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002707	corticospinal tract
 http://purl.obolibrary.org/obo/GO_0061559	cranial ganglion morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001714	cranial ganglion
+http://purl.obolibrary.org/obo/GO_0021602	cranial nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001785	cranial nerve
 http://purl.obolibrary.org/obo/GO_0060363	cranial suture morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003685	cranial suture
+http://purl.obolibrary.org/obo/GO_0021959	cuneatus tract morphogenesis	http://purl.obolibrary.org/obo/UBERON_0005832	cuneate fasciculus
 http://purl.obolibrary.org/obo/GO_0035911	descending aorta morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001514	descending aorta
 http://purl.obolibrary.org/obo/GO_0060540	diaphragm morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001103	diaphragm
 http://purl.obolibrary.org/obo/GO_0048852	diencephalon morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001894	diencephalon
@@ -58,6 +69,7 @@ http://purl.obolibrary.org/obo/GO_0048546	digestive tract morphogenesis	http://p
 http://purl.obolibrary.org/obo/GO_0072156	distal tubule morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004135	distal tubule
 http://purl.obolibrary.org/obo/GO_0035912	dorsal aorta morphogenesis	http://purl.obolibrary.org/obo/UBERON_0005805	dorsal aorta
 http://purl.obolibrary.org/obo/GO_0035142	dorsal fin morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003097	dorsal fin
+http://purl.obolibrary.org/obo/GO_0035762	dorsal motor nucleus of vagus nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002870	dorsal motor nucleus of vagus nerve
 http://purl.obolibrary.org/obo/GO_1904835	dorsal root ganglion morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000044	dorsal root ganglion
 http://purl.obolibrary.org/obo/GO_0042471	ear morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001690	ear
 http://purl.obolibrary.org/obo/GO_0003143	embryonic heart tube morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004141	heart tube
@@ -70,6 +82,7 @@ http://purl.obolibrary.org/obo/GO_0060562	epithelial tube morphogenesis	http://p
 http://purl.obolibrary.org/obo/GO_0035261	external genitalia morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004176	external genitalia
 http://purl.obolibrary.org/obo/GO_0048592	eye morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000970	eye
 http://purl.obolibrary.org/obo/GO_0060325	face morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001456	face
+http://purl.obolibrary.org/obo/GO_0021610	facial nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001647	facial nerve
 http://purl.obolibrary.org/obo/GO_1904836	facioacoustic ganglion morphogenesis	http://purl.obolibrary.org/obo/UBERON_0012175	acoustico-facial VII-VIII ganglion complex
 http://purl.obolibrary.org/obo/GO_0061040	female gonad morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/GO_1905285	fibrous ring of heart morphogenesis	http://purl.obolibrary.org/obo/UBERON_0006008	fibrous ring of heart
@@ -84,7 +97,9 @@ http://purl.obolibrary.org/obo/GO_0061552	ganglion morphogenesis	http://purl.obo
 http://purl.obolibrary.org/obo/GO_0035112	genitalia morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000990	reproductive system
 http://purl.obolibrary.org/obo/GO_0022612	gland morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002530	gland
 http://purl.obolibrary.org/obo/GO_0072102	glomerulus morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000074	renal glomerulus
+http://purl.obolibrary.org/obo/GO_0021615	glossopharyngeal nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001649	glossopharyngeal nerve
 http://purl.obolibrary.org/obo/GO_0035262	gonad morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000991	gonad
+http://purl.obolibrary.org/obo/GO_0021958	gracilis tract morphogenesis	http://purl.obolibrary.org/obo/UBERON_0005821	gracile fasciculus
 http://purl.obolibrary.org/obo/GO_0003422	growth plate cartilage morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004129	growth plate cartilage
 http://purl.obolibrary.org/obo/GO_0031069	hair follicle morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002073	hair follicle
 http://purl.obolibrary.org/obo/GO_0048735	haltere morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000987	haltere
@@ -93,16 +108,18 @@ http://purl.obolibrary.org/obo/GO_0060323	head morphogenesis	http://purl.obolibr
 http://purl.obolibrary.org/obo/GO_0003007	heart morphogenesis	http://purl.obolibrary.org/obo/UBERON_0007100	primary circulatory organ
 http://purl.obolibrary.org/obo/GO_0003314	heart rudiment morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004291	heart rudiment
 http://purl.obolibrary.org/obo/GO_0061384	heart trabecula morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002511	trabecula carnea
-http://purl.obolibrary.org/obo/GO_0003179	heart valve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000946	cardial valve
+http://purl.obolibrary.org/obo/GO_0003179	heart valve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000946	cardiac valve
 http://purl.obolibrary.org/obo/GO_0021575	hindbrain morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002028	hindbrain
 http://purl.obolibrary.org/obo/GO_0007442	hindgut morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001046	hindgut
 http://purl.obolibrary.org/obo/GO_0035137	hindlimb morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002103	hindlimb
+http://purl.obolibrary.org/obo/GO_0021618	hypoglossal nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001650	hypoglossal nerve
 http://purl.obolibrary.org/obo/GO_0048850	hypophysis morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000007	pituitary gland
 http://purl.obolibrary.org/obo/GO_0007560	imaginal disc morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000939	imaginal disc
 http://purl.obolibrary.org/obo/GO_0007480	imaginal disc-derived leg morphogenesis	http://purl.obolibrary.org/obo/UBERON_0005895	insect leg
 http://purl.obolibrary.org/obo/GO_0007476	imaginal disc-derived wing morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000984	imaginal disc-derived wing
 http://purl.obolibrary.org/obo/GO_0008586	imaginal disc-derived wing vein morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003194	imaginal disc-derived wing vein
 http://purl.obolibrary.org/obo/GO_1905317	inferior endocardial cushion morphogenesis	http://purl.obolibrary.org/obo/UBERON_0036066	inferior endocardial cushion
+http://purl.obolibrary.org/obo/GO_0021714	inferior olivary nucleus morphogenesis	http://purl.obolibrary.org/obo/UBERON_0007244	inferior olivary nucleus
 http://purl.obolibrary.org/obo/GO_0042472	inner ear morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001846	internal ear
 http://purl.obolibrary.org/obo/GO_0035260	internal genitalia morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004175	internal genitalia
 http://purl.obolibrary.org/obo/GO_1904770	intramembranous bone morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002514	intramembranous bone
@@ -133,6 +150,7 @@ http://purl.obolibrary.org/obo/GO_0060603	mammary gland duct morphogenesis	http:
 http://purl.obolibrary.org/obo/GO_0060443	mammary gland morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001911	mammary gland
 http://purl.obolibrary.org/obo/GO_0035141	medial fin morphogenesis	http://purl.obolibrary.org/obo/UBERON_4000162	median fin
 http://purl.obolibrary.org/obo/GO_0021579	medulla oblongata morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001896	medulla oblongata
+http://purl.obolibrary.org/obo/GO_0021976	medulla reticulospinal tract morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004173	medulla reticulospinal tract
 http://purl.obolibrary.org/obo/GO_0003149	membranous septum morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004666	interventricular septum membranous part
 http://purl.obolibrary.org/obo/GO_0072132	mesenchyme morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003104	mesenchyme
 http://purl.obolibrary.org/obo/GO_0048332	mesoderm morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000926	mesoderm
@@ -180,9 +198,12 @@ http://purl.obolibrary.org/obo/GO_0060658	nipple morphogenesis	http://purl.oboli
 http://purl.obolibrary.org/obo/GO_0043585	nose morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000004	nose
 http://purl.obolibrary.org/obo/GO_0048570	notochord morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002328	notochord
 http://purl.obolibrary.org/obo/GO_0048816	ocellus morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003161	dorsal ocellus
+http://purl.obolibrary.org/obo/GO_0021622	oculomotor nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001643	oculomotor nerve
 http://purl.obolibrary.org/obo/GO_0042476	odontogenesis	http://purl.obolibrary.org/obo/UBERON_0003913	tooth-like structure
 http://purl.obolibrary.org/obo/GO_0042475	odontogenesis of dentin-containing tooth	http://purl.obolibrary.org/obo/UBERON_0001091	calcareous tooth
+http://purl.obolibrary.org/obo/GO_0021627	olfactory nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001579	olfactory nerve
 http://purl.obolibrary.org/obo/GO_0002072	optic cup morphogenesis involved in camera-type eye development	http://purl.obolibrary.org/obo/UBERON_0003072	optic cup
+http://purl.obolibrary.org/obo/GO_0021631	optic nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000941	cranial nerve II
 http://purl.obolibrary.org/obo/GO_0003404	optic vesicle morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004128	optic vesicle
 http://purl.obolibrary.org/obo/GO_0071600	otic vesicle morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003051	ear vesicle
 http://purl.obolibrary.org/obo/GO_0032474	otolith morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002280	otolith
@@ -199,7 +220,9 @@ http://purl.obolibrary.org/obo/GO_0061626	pharyngeal arch artery morphogenesis	h
 http://purl.obolibrary.org/obo/GO_1905905	pharyngeal gland morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003295	pharyngeal gland
 http://purl.obolibrary.org/obo/GO_0110040	pharynx morphogenesis	http://purl.obolibrary.org/obo/UBERON_0006562	pharynx
 http://purl.obolibrary.org/obo/GO_0021583	pons morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000988	pons
+http://purl.obolibrary.org/obo/GO_0021975	pons reticulospinal tract morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004172	pons reticulospinal tract
 http://purl.obolibrary.org/obo/GO_0036342	post-anal tail morphogenesis	http://purl.obolibrary.org/obo/UBERON_0007812	post-anal tail
+http://purl.obolibrary.org/obo/GO_0021961	posterior commissure morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000936	posterior commissure
 http://purl.obolibrary.org/obo/GO_0039013	pronephric distal tubule morphogenesis	http://purl.obolibrary.org/obo/UBERON_0006175	pronephric distal tubule
 http://purl.obolibrary.org/obo/GO_0039023	pronephric duct morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003060	pronephric duct
 http://purl.obolibrary.org/obo/GO_0035775	pronephric glomerulus morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004739	pronephric glomerulus
@@ -234,6 +257,7 @@ http://purl.obolibrary.org/obo/GO_0060461	right lung morphogenesis	http://purl.o
 http://purl.obolibrary.org/obo/GO_0003221	right ventricular cardiac muscle tissue morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003381	cardiac muscle of right ventricle
 http://purl.obolibrary.org/obo/GO_0003226	right ventricular compact myocardium morphogenesis	http://purl.obolibrary.org/obo/UBERON_0005065	right ventricular compact myocardium
 http://purl.obolibrary.org/obo/GO_0003227	right ventricular trabecular myocardium morphogenesis	http://purl.obolibrary.org/obo/UBERON_0005066	right ventricular trabecular myocardium
+http://purl.obolibrary.org/obo/GO_0021964	rubrospinal tract morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002714	rubrospinal tract
 http://purl.obolibrary.org/obo/GO_0060367	sagittal suture morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002492	sagittal suture
 http://purl.obolibrary.org/obo/GO_0048752	semicircular canal morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001840	semicircular canal
 http://purl.obolibrary.org/obo/GO_0061682	seminal vesicle morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000998	seminal vesicle
@@ -243,10 +267,15 @@ http://purl.obolibrary.org/obo/GO_0003236	sinus venosus morphogenesis	http://pur
 http://purl.obolibrary.org/obo/GO_0048705	skeletal system morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001434	skeletal system
 http://purl.obolibrary.org/obo/GO_0043589	skin morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002097	skin of body
 http://purl.obolibrary.org/obo/GO_0035211	spermathecum morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000994	spermathecum
+http://purl.obolibrary.org/obo/GO_0021965	spinal cord ventral commissure morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004170	spinal cord ventral commissure
+http://purl.obolibrary.org/obo/GO_0021963	spinothalamic tract morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002944	spinothalamic tract of medulla
 http://purl.obolibrary.org/obo/GO_1905316	superior endocardial cushion morphogenesis	http://purl.obolibrary.org/obo/UBERON_0036067	superior endocardial cushion
+http://purl.obolibrary.org/obo/GO_0021719	superior olivary nucleus morphogenesis	http://purl.obolibrary.org/obo/UBERON_0007247	nucleus of superior olivary complex
 http://purl.obolibrary.org/obo/GO_0060578	superior vena cava morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001585	anterior vena cava
 http://purl.obolibrary.org/obo/GO_0048795	swim bladder morphogenesis	http://purl.obolibrary.org/obo/UBERON_0006860	swim bladder
 http://purl.obolibrary.org/obo/GO_0061194	taste bud morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001727	taste bud
+http://purl.obolibrary.org/obo/GO_0034429	tectobulbar tract morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002164	tectobulbar tract
+http://purl.obolibrary.org/obo/GO_0021977	tectospinal tract morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002949	tectospinal tract
 http://purl.obolibrary.org/obo/GO_0097536	thymus epithelium morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003846	thymus epithelium
 http://purl.obolibrary.org/obo/GO_0048729	tissue morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000479	tissue
 http://purl.obolibrary.org/obo/GO_0043587	tongue morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001723	tongue
@@ -255,10 +284,14 @@ http://purl.obolibrary.org/obo/GO_0060535	trachea cartilage morphogenesis	http:/
 http://purl.obolibrary.org/obo/GO_0060439	trachea morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001005	respiratory airway
 http://purl.obolibrary.org/obo/GO_0003186	tricuspid valve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002134	tricuspid valve
 http://purl.obolibrary.org/obo/GO_0061556	trigeminal ganglion morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001675	trigeminal ganglion
+http://purl.obolibrary.org/obo/GO_0021636	trigeminal nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001645	trigeminal nerve
+http://purl.obolibrary.org/obo/GO_0021974	trigeminothalamic tract morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004171	trigeminothalamic tract
+http://purl.obolibrary.org/obo/GO_0021639	trochlear nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001644	trochlear nerve
 http://purl.obolibrary.org/obo/GO_0035239	tube morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000025	tube
 http://purl.obolibrary.org/obo/GO_0072197	ureter morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000056	ureter
 http://purl.obolibrary.org/obo/GO_0060675	ureteric bud morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000084	ureteric bud
 http://purl.obolibrary.org/obo/GO_0061038	uterus morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000995	uterus
+http://purl.obolibrary.org/obo/GO_0021644	vagus nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001759	vagus nerve
 http://purl.obolibrary.org/obo/GO_0048845	venous blood vessel morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001638	vein
 http://purl.obolibrary.org/obo/GO_0035913	ventral aorta morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003085	ventral aorta
 http://purl.obolibrary.org/obo/GO_0055010	ventricular cardiac muscle tissue morphogenesis	http://purl.obolibrary.org/obo/UBERON_0018649	cardiac muscle tissue of ventricle
@@ -267,3 +300,5 @@ http://purl.obolibrary.org/obo/GO_0003288	ventricular septum intermedium morphog
 http://purl.obolibrary.org/obo/GO_0060412	ventricular septum morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002094	interventricular septum
 http://purl.obolibrary.org/obo/GO_0003222	ventricular trabecula myocardium morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004126	trabecular layer of ventricle
 http://purl.obolibrary.org/obo/GO_0003187	ventriculo bulbo valve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004149	ventriculo bulbo valve
+http://purl.obolibrary.org/obo/GO_0021648	vestibulocochlear nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001648	vestibulocochlear nerve
+http://purl.obolibrary.org/obo/GO_0021962	vestibulospinal tract morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002768	vestibulospinal tract

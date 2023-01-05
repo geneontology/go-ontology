@@ -1,2 +1,34 @@
 defined_class	defined_class_label	regulated_activity	regulated_activity_label
-http://purl.obolibrary.org/obo/GO_0030234	enzyme regulator activity	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
+http://purl.obolibrary.org/obo/GO_0046935	1-phosphatidylinositol-3-kinase regulator activity	http://purl.obolibrary.org/obo/GO_0016303	1-phosphatidylinositol-3-kinase activity
+http://purl.obolibrary.org/obo/GO_0072586	DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) regulator activity	http://purl.obolibrary.org/obo/GO_0003918	DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity
+http://purl.obolibrary.org/obo/GO_0060308	GTP cyclohydrolase I regulator activity	http://purl.obolibrary.org/obo/GO_0003934	GTP cyclohydrolase I activity
+http://purl.obolibrary.org/obo/GO_0030695	GTPase regulator activity	http://purl.obolibrary.org/obo/GO_0003924	GTPase activity
+http://purl.obolibrary.org/obo/GO_0043763	UTP:glucose-1-phosphate uridylyltransferase regulator activity	http://purl.obolibrary.org/obo/GO_0003983	UTP:glucose-1-phosphate uridylyltransferase activity
+http://purl.obolibrary.org/obo/GO_0019909	[pyruvate dehydrogenase (lipoamide)] phosphatase regulator activity	http://purl.obolibrary.org/obo/GO_0004741	[pyruvate dehydrogenase (lipoamide)] phosphatase activity
+http://purl.obolibrary.org/obo/GO_1990610	acetolactate synthase regulator activity	http://purl.obolibrary.org/obo/GO_0003984	acetolactate synthase activity
+http://purl.obolibrary.org/obo/GO_0010307	acetylglutamate kinase regulator activity	http://purl.obolibrary.org/obo/GO_0003991	acetylglutamate kinase activity
+http://purl.obolibrary.org/obo/GO_0010854	adenylate cyclase regulator activity	http://purl.obolibrary.org/obo/GO_0004016	adenylate cyclase activity
+http://purl.obolibrary.org/obo/GO_0008597	calcium-dependent protein serine/threonine phosphatase regulator activity	http://purl.obolibrary.org/obo/GO_0004723	calcium-dependent protein serine/threonine phosphatase activity
+http://purl.obolibrary.org/obo/GO_0010851	cyclase regulator activity	http://purl.obolibrary.org/obo/GO_0009975	cyclase activity
+http://purl.obolibrary.org/obo/GO_0019914	cyclin-dependent protein kinase activating kinase regulator activity	http://purl.obolibrary.org/obo/GO_0019912	cyclin-dependent protein kinase activating kinase activity
+http://purl.obolibrary.org/obo/GO_0097713	dolichol-phosphate-mannose synthase regulator activity	http://purl.obolibrary.org/obo/GO_0004169	dolichyl-phosphate-mannose-protein mannosyltransferase activity
+http://purl.obolibrary.org/obo/GO_0061135	endopeptidase regulator activity	http://purl.obolibrary.org/obo/GO_0004175	endopeptidase activity
+http://purl.obolibrary.org/obo/GO_1990609	glutamate-cysteine ligase regulator activity	http://purl.obolibrary.org/obo/GO_0004357	glutamate-cysteine ligase activity
+http://purl.obolibrary.org/obo/GO_0030249	guanylate cyclase regulator activity	http://purl.obolibrary.org/obo/GO_0004383	guanylate cyclase activity
+http://purl.obolibrary.org/obo/GO_0035034	histone acetyltransferase regulator activity	http://purl.obolibrary.org/obo/GO_0004402	histone acetyltransferase activity
+http://purl.obolibrary.org/obo/GO_0035033	histone deacetylase regulator activity	http://purl.obolibrary.org/obo/GO_0004407	histone deacetylase activity
+http://purl.obolibrary.org/obo/GO_0070917	inositol phosphoceramide synthase regulator activity	http://purl.obolibrary.org/obo/GO_0045140	inositol phosphoceramide synthase activity
+http://purl.obolibrary.org/obo/GO_0019207	kinase regulator activity	http://purl.obolibrary.org/obo/GO_0016301	kinase activity
+http://purl.obolibrary.org/obo/GO_0055103	ligase regulator activity	http://purl.obolibrary.org/obo/GO_0016874	ligase activity
+http://purl.obolibrary.org/obo/GO_0048270	methionine adenosyltransferase regulator activity	http://purl.obolibrary.org/obo/GO_0004478	methionine adenosyltransferase activity
+http://purl.obolibrary.org/obo/GO_0017020	myosin phosphatase regulator activity	http://purl.obolibrary.org/obo/GO_0017018	myosin phosphatase activity
+http://purl.obolibrary.org/obo/GO_0030235	nitric-oxide synthase regulator activity	http://purl.obolibrary.org/obo/GO_0004517	nitric-oxide synthase activity
+http://purl.obolibrary.org/obo/GO_0060589	nucleoside-triphosphatase regulator activity	http://purl.obolibrary.org/obo/GO_0017111	ribonucleoside triphosphate phosphatase activity
+http://purl.obolibrary.org/obo/GO_0042979	ornithine decarboxylase regulator activity	http://purl.obolibrary.org/obo/GO_0004586	ornithine decarboxylase activity
+http://purl.obolibrary.org/obo/GO_0061134	peptidase regulator activity	http://purl.obolibrary.org/obo/GO_0008233	peptidase activity
+http://purl.obolibrary.org/obo/GO_0019208	phosphatase regulator activity	http://purl.obolibrary.org/obo/GO_0016791	phosphatase activity
+http://purl.obolibrary.org/obo/GO_0035014	phosphatidylinositol 3-kinase regulator activity	http://purl.obolibrary.org/obo/GO_0035004	phosphatidylinositol 3-kinase activity
+http://purl.obolibrary.org/obo/GO_0008607	phosphorylase kinase regulator activity	http://purl.obolibrary.org/obo/GO_0004689	phosphorylase kinase activity
+http://purl.obolibrary.org/obo/GO_0019887	protein kinase regulator activity	http://purl.obolibrary.org/obo/GO_0004672	protein kinase activity
+http://purl.obolibrary.org/obo/GO_0019888	protein phosphatase regulator activity	http://purl.obolibrary.org/obo/GO_0004721	phosphoprotein phosphatase activity
+http://purl.obolibrary.org/obo/GO_0055106	ubiquitin-protein transferase regulator activity	http://purl.obolibrary.org/obo/GO_0004842	ubiquitin-protein transferase activity
