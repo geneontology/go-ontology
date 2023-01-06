@@ -18,6 +18,7 @@ http://purl.obolibrary.org/obo/GO_1900960	negative regulation of 17-methylnonade
 http://purl.obolibrary.org/obo/GO_1900951	negative regulation of 18-methylnonadec-1-ene biosynthetic process	http://purl.obolibrary.org/obo/GO_1900881	18-methylnonadec-1-ene biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900954	negative regulation of 18-methylnonadec-1-ene metabolic process	http://purl.obolibrary.org/obo/GO_1900880	18-methylnonadec-1-ene metabolic process
 http://purl.obolibrary.org/obo/GO_1905869	negative regulation of 3'-UTR-mediated mRNA stabilization	http://purl.obolibrary.org/obo/GO_0070935	3'-UTR-mediated mRNA stabilization
+http://purl.obolibrary.org/obo/GO_0140972	negative regulation of AIM2 inflammasome complex assembly	http://purl.obolibrary.org/obo/GO_0140970	AIM2 inflammasome complex assembly
 http://purl.obolibrary.org/obo/GO_1904718	negative regulation of AMPA glutamate receptor clustering	http://purl.obolibrary.org/obo/GO_0097113	AMPA glutamate receptor clustering
 http://purl.obolibrary.org/obo/GO_0061907	negative regulation of AMPA receptor activity	http://purl.obolibrary.org/obo/GO_0004971	AMPA glutamate receptor activity
 http://purl.obolibrary.org/obo/GO_0032013	negative regulation of ARF protein signal transduction	http://purl.obolibrary.org/obo/GO_0032011	ARF protein signal transduction
@@ -691,14 +692,12 @@ http://purl.obolibrary.org/obo/GO_1900286	negative regulation of cellotriose tra
 http://purl.obolibrary.org/obo/GO_1900420	negative regulation of cellular alcohol catabolic process	http://purl.obolibrary.org/obo/GO_0044109	cellular alcohol catabolic process
 http://purl.obolibrary.org/obo/GO_0045763	negative regulation of cellular amino acid metabolic process	http://purl.obolibrary.org/obo/GO_0006520	amino acid metabolic process
 http://purl.obolibrary.org/obo/GO_0031327	negative regulation of cellular biosynthetic process	http://purl.obolibrary.org/obo/GO_0044249	cellular biosynthetic process
-http://purl.obolibrary.org/obo/GO_0010677	negative regulation of cellular carbohydrate metabolic process	http://purl.obolibrary.org/obo/GO_0044262	cellular carbohydrate metabolic process
 http://purl.obolibrary.org/obo/GO_0031330	negative regulation of cellular catabolic process	http://purl.obolibrary.org/obo/GO_0044248	cellular catabolic process
 http://purl.obolibrary.org/obo/GO_0051129	negative regulation of cellular component organization	http://purl.obolibrary.org/obo/GO_0016043	cellular component organization
 http://purl.obolibrary.org/obo/GO_0051245	negative regulation of cellular defense response	http://purl.obolibrary.org/obo/GO_0006968	cellular defense response
 http://purl.obolibrary.org/obo/GO_0002692	negative regulation of cellular extravasation	http://purl.obolibrary.org/obo/GO_0045123	cellular extravasation
 http://purl.obolibrary.org/obo/GO_2001030	negative regulation of cellular glucuronidation	http://purl.obolibrary.org/obo/GO_0052695	cellular glucuronidation
 http://purl.obolibrary.org/obo/GO_1900070	negative regulation of cellular hyperosmotic salinity response	http://purl.obolibrary.org/obo/GO_0071475	cellular hyperosmotic salinity response
-http://purl.obolibrary.org/obo/GO_2000113	negative regulation of cellular macromolecule biosynthetic process	http://purl.obolibrary.org/obo/GO_0034645	cellular macromolecule biosynthetic process
 http://purl.obolibrary.org/obo/GO_0031324	negative regulation of cellular metabolic process	http://purl.obolibrary.org/obo/GO_0044237	cellular metabolic process
 http://purl.obolibrary.org/obo/GO_0090350	negative regulation of cellular organofluorine metabolic process	http://purl.obolibrary.org/obo/GO_0090346	cellular organofluorine metabolic process
 http://purl.obolibrary.org/obo/GO_0090349	negative regulation of cellular organohalogen metabolic process	http://purl.obolibrary.org/obo/GO_0090345	cellular organohalogen metabolic process

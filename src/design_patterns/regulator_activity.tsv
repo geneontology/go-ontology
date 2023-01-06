@@ -13,6 +13,7 @@ http://purl.obolibrary.org/obo/GO_0010851	cyclase regulator activity	http://purl
 http://purl.obolibrary.org/obo/GO_0019914	cyclin-dependent protein kinase activating kinase regulator activity	http://purl.obolibrary.org/obo/GO_0019912	cyclin-dependent protein kinase activating kinase activity
 http://purl.obolibrary.org/obo/GO_0097713	dolichol-phosphate-mannose synthase regulator activity	http://purl.obolibrary.org/obo/GO_0004169	dolichyl-phosphate-mannose-protein mannosyltransferase activity
 http://purl.obolibrary.org/obo/GO_0061135	endopeptidase regulator activity	http://purl.obolibrary.org/obo/GO_0004175	endopeptidase activity
+http://purl.obolibrary.org/obo/GO_0030234	enzyme regulator activity	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
 http://purl.obolibrary.org/obo/GO_1990609	glutamate-cysteine ligase regulator activity	http://purl.obolibrary.org/obo/GO_0004357	glutamate-cysteine ligase activity
 http://purl.obolibrary.org/obo/GO_0030249	guanylate cyclase regulator activity	http://purl.obolibrary.org/obo/GO_0004383	guanylate cyclase activity
 http://purl.obolibrary.org/obo/GO_0035034	histone acetyltransferase regulator activity	http://purl.obolibrary.org/obo/GO_0004402	histone acetyltransferase activity
