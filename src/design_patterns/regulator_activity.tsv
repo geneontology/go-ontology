@@ -8,12 +8,16 @@ http://purl.obolibrary.org/obo/GO_0019909	[pyruvate dehydrogenase (lipoamide)] p
 http://purl.obolibrary.org/obo/GO_1990610	acetolactate synthase regulator activity	http://purl.obolibrary.org/obo/GO_0003984	acetolactate synthase activity
 http://purl.obolibrary.org/obo/GO_0010307	acetylglutamate kinase regulator activity	http://purl.obolibrary.org/obo/GO_0003991	acetylglutamate kinase activity
 http://purl.obolibrary.org/obo/GO_0010854	adenylate cyclase regulator activity	http://purl.obolibrary.org/obo/GO_0004016	adenylate cyclase activity
+http://purl.obolibrary.org/obo/GO_0008603	cAMP-dependent protein kinase regulator activity	http://purl.obolibrary.org/obo/GO_0004691	cAMP-dependent protein kinase activity
+http://purl.obolibrary.org/obo/GO_0010858	calcium-dependent protein kinase regulator activity	http://purl.obolibrary.org/obo/GO_0010857	calcium-dependent protein kinase activity
 http://purl.obolibrary.org/obo/GO_0008597	calcium-dependent protein serine/threonine phosphatase regulator activity	http://purl.obolibrary.org/obo/GO_0004723	calcium-dependent protein serine/threonine phosphatase activity
 http://purl.obolibrary.org/obo/GO_0010851	cyclase regulator activity	http://purl.obolibrary.org/obo/GO_0009975	cyclase activity
 http://purl.obolibrary.org/obo/GO_0019914	cyclin-dependent protein kinase activating kinase regulator activity	http://purl.obolibrary.org/obo/GO_0019912	cyclin-dependent protein kinase activating kinase activity
+http://purl.obolibrary.org/obo/GO_0016538	cyclin-dependent protein serine/threonine kinase regulator activity	http://purl.obolibrary.org/obo/GO_0004693	cyclin-dependent protein serine/threonine kinase activity
 http://purl.obolibrary.org/obo/GO_0097713	dolichol-phosphate-mannose synthase regulator activity	http://purl.obolibrary.org/obo/GO_0004169	dolichyl-phosphate-mannose-protein mannosyltransferase activity
 http://purl.obolibrary.org/obo/GO_0061135	endopeptidase regulator activity	http://purl.obolibrary.org/obo/GO_0004175	endopeptidase activity
 http://purl.obolibrary.org/obo/GO_0030234	enzyme regulator activity	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
+http://purl.obolibrary.org/obo/GO_0042556	eukaryotic elongation factor-2 kinase regulator activity	http://purl.obolibrary.org/obo/GO_0004686	elongation factor-2 kinase activity
 http://purl.obolibrary.org/obo/GO_1990609	glutamate-cysteine ligase regulator activity	http://purl.obolibrary.org/obo/GO_0004357	glutamate-cysteine ligase activity
 http://purl.obolibrary.org/obo/GO_0030249	guanylate cyclase regulator activity	http://purl.obolibrary.org/obo/GO_0004383	guanylate cyclase activity
 http://purl.obolibrary.org/obo/GO_0035034	histone acetyltransferase regulator activity	http://purl.obolibrary.org/obo/GO_0004402	histone acetyltransferase activity

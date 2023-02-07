@@ -23,7 +23,6 @@ http://purl.obolibrary.org/obo/GO_1901737	(R)-mevalonic acid biosynthetic proces
 http://purl.obolibrary.org/obo/GO_1901012	(S)-reticuline biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57873	(S)-reticulinium(1+)
 http://purl.obolibrary.org/obo/GO_1901009	(S)-scoulerine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17129	(S)-scoulerine
 http://purl.obolibrary.org/obo/GO_1900879	(Z)-nonadeca-1,14-diene biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64506	(Z)-nonadeca-1,14-diene
-http://purl.obolibrary.org/obo/GO_0046309	1,3-dichloro-2-propanol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_18917	1,3-dichloropropan-2-ol
 http://purl.obolibrary.org/obo/GO_1901803	1,5-anhydro-D-fructose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16715	1,5-anhydro-D-fructose
 http://purl.obolibrary.org/obo/GO_0140614	1,8-dihydroxynaphthalene-melanin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_167605	1,8-dihydroxynaphthalene-melanin
 http://purl.obolibrary.org/obo/GO_0042218	1-aminocyclopropane-1-carboxylate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58360	1-aminocyclopropanecarboxylic acid zwitterion
@@ -178,7 +177,6 @@ http://purl.obolibrary.org/obo/GO_0019413	acetate biosynthetic process	http://pu
 http://purl.obolibrary.org/obo/GO_1900620	acetate ester biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_47622	acetate ester
 http://purl.obolibrary.org/obo/GO_0043441	acetoacetic acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_13705	acetoacetate
 http://purl.obolibrary.org/obo/GO_0045151	acetoin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_15688	acetoin
-http://purl.obolibrary.org/obo/GO_0043445	acetone biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_15347	acetone
 http://purl.obolibrary.org/obo/GO_0006085	acetyl-CoA biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57288	acetyl-CoA(4-)
 http://purl.obolibrary.org/obo/GO_0008292	acetylcholine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_15355	acetylcholine
 http://purl.obolibrary.org/obo/GO_0120247	acetylenic compound biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_73474	acetylenic compound

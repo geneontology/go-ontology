@@ -290,7 +290,6 @@ http://purl.obolibrary.org/obo/GO_0055119	relaxation of cardiac muscle	http://pu
 http://purl.obolibrary.org/obo/GO_0090076	relaxation of skeletal muscle	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue	http://purl.obolibrary.org/obo/GO_0090075	relaxation of muscle
 http://purl.obolibrary.org/obo/GO_0044557	relaxation of smooth muscle	http://purl.obolibrary.org/obo/UBERON_0001135	smooth muscle tissue	http://purl.obolibrary.org/obo/GO_0090075	relaxation of muscle
 http://purl.obolibrary.org/obo/GO_0003096	renal sodium ion transport	http://purl.obolibrary.org/obo/UBERON_0001008	renal system	http://purl.obolibrary.org/obo/GO_0006814	sodium ion transport
-http://purl.obolibrary.org/obo/GO_0003091	renal water homeostasis	http://purl.obolibrary.org/obo/UBERON_0001008	renal system	http://purl.obolibrary.org/obo/GO_0030104	water homeostasis
 http://purl.obolibrary.org/obo/GO_0003092	renal water retention	http://purl.obolibrary.org/obo/UBERON_0001008	renal system	http://purl.obolibrary.org/obo/GO_0035811	negative regulation of urine volume
 http://purl.obolibrary.org/obo/GO_0003097	renal water transport	http://purl.obolibrary.org/obo/UBERON_0001008	renal system	http://purl.obolibrary.org/obo/GO_0006833	water transport
 http://purl.obolibrary.org/obo/GO_1990009	retinal cell apoptotic process	http://purl.obolibrary.org/obo/CL_0009004	retinal cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process

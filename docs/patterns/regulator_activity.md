@@ -21,7 +21,7 @@ This pattern is for representing a function that modulates some molecular functi
 
 ## Annotations
 
-- [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace): "biological_process"^^[string](http://www.w3.org/2001/XMLSchema#string)
+- [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace): "molecular_function"^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Definition
 

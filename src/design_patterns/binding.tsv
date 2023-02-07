@@ -512,6 +512,7 @@ http://purl.obolibrary.org/obo/GO_0008017	microtubule binding	http://purl.obolib
 http://purl.obolibrary.org/obo/GO_0051011	microtubule minus-end binding	http://purl.obolibrary.org/obo/GO_0036449	microtubule minus-end
 http://purl.obolibrary.org/obo/GO_0051010	microtubule plus-end binding	http://purl.obolibrary.org/obo/GO_0035371	microtubule plus-end
 http://purl.obolibrary.org/obo/GO_0032404	mismatch repair complex binding	http://purl.obolibrary.org/obo/GO_0032300	mismatch repair complex
+http://purl.obolibrary.org/obo/GO_0140978	mitochondrial large ribosomal subunit binding	http://purl.obolibrary.org/obo/GO_0005762	mitochondrial large ribosomal subunit
 http://purl.obolibrary.org/obo/GO_0140260	mitochondrial proton-transporting ATP synthase complex binding	http://purl.obolibrary.org/obo/GO_0005753	mitochondrial proton-transporting ATP synthase complex
 http://purl.obolibrary.org/obo/GO_0097177	mitochondrial ribosome binding	http://purl.obolibrary.org/obo/GO_0005761	mitochondrial ribosome
 http://purl.obolibrary.org/obo/GO_0051019	mitogen-activated protein kinase binding	http://purl.obolibrary.org/obo/PR_000000019	mitogen-activated protein kinase

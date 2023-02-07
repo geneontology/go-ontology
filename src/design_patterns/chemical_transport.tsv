@@ -4,7 +4,6 @@ http://purl.obolibrary.org/obo/GO_0033223	2-aminoethylphosphonate transport	http
 http://purl.obolibrary.org/obo/GO_0046963	3'-phosphoadenosine 5'-phosphosulfate transport	http://purl.obolibrary.org/obo/CHEBI_58339	3'-phosphonato-5'-adenylyl sulfate(4-)
 http://purl.obolibrary.org/obo/GO_0015731	3-hydroxyphenyl propanoate transport	http://purl.obolibrary.org/obo/CHEBI_65228	3-hydroxyphenyl propanoate
 http://purl.obolibrary.org/obo/GO_0042920	3-hydroxyphenylpropionic acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_46957	3-(2-hydroxyphenyl)propanoate
-http://purl.obolibrary.org/obo/GO_0042889	3-phenylpropionic acid transport	http://purl.obolibrary.org/obo/CHEBI_51057	3-phenylpropionate
 http://purl.obolibrary.org/obo/GO_1900751	4-(trimethylammonio)butanoate transport	http://purl.obolibrary.org/obo/CHEBI_16244	4-(trimethylammonio)butanoate
 http://purl.obolibrary.org/obo/GO_1900754	4-hydroxyphenylacetate transport	http://purl.obolibrary.org/obo/CHEBI_48999	4-hydroxyphenylacetate
 http://purl.obolibrary.org/obo/GO_0015885	5-formyltetrahydrofolate transport	http://purl.obolibrary.org/obo/CHEBI_65340	5-formyltetrahydrofolate(2-)
@@ -39,8 +38,6 @@ http://purl.obolibrary.org/obo/GO_0006846	acetate transport	http://purl.obolibra
 http://purl.obolibrary.org/obo/GO_0015876	acetyl-CoA transport	http://purl.obolibrary.org/obo/CHEBI_57288	acetyl-CoA(4-)
 http://purl.obolibrary.org/obo/GO_0015870	acetylcholine transport	http://purl.obolibrary.org/obo/CHEBI_15355	acetylcholine
 http://purl.obolibrary.org/obo/GO_0042935	achromobactin transport	http://purl.obolibrary.org/obo/CHEBI_61346	achromobactin
-http://purl.obolibrary.org/obo/GO_0042909	acridine transport	http://purl.obolibrary.org/obo/CHEBI_36420	acridine
-http://purl.obolibrary.org/obo/GO_0015894	acriflavine transport	http://purl.obolibrary.org/obo/CHEBI_60585	3,6-diamino-10-methylacridinium
 http://purl.obolibrary.org/obo/GO_0006844	acyl carnitine transport	http://purl.obolibrary.org/obo/CHEBI_17387	O-acylcarnitine
 http://purl.obolibrary.org/obo/GO_0034196	acylglycerol transport	http://purl.obolibrary.org/obo/CHEBI_47778	glyceride
 http://purl.obolibrary.org/obo/GO_0051503	adenine nucleotide transport	http://purl.obolibrary.org/obo/CHEBI_61293	adenyl nucleotide
@@ -56,7 +53,6 @@ http://purl.obolibrary.org/obo/GO_0000017	alpha-glucoside transport	http://purl.
 http://purl.obolibrary.org/obo/GO_0015742	alpha-ketoglutarate transport	http://purl.obolibrary.org/obo/CHEBI_16810	2-oxoglutarate(2-)
 http://purl.obolibrary.org/obo/GO_0015690	aluminum cation transport	http://purl.obolibrary.org/obo/CHEBI_63062	aluminium cation
 http://purl.obolibrary.org/obo/GO_0042886	amide transport	http://purl.obolibrary.org/obo/CHEBI_32988	amide
-http://purl.obolibrary.org/obo/GO_0015898	amiloride transport	http://purl.obolibrary.org/obo/CHEBI_2639	amiloride
 http://purl.obolibrary.org/obo/GO_0015837	amine transport	http://purl.obolibrary.org/obo/CHEBI_32952	amine
 http://purl.obolibrary.org/obo/GO_0006865	amino acid transport	http://purl.obolibrary.org/obo/CHEBI_33709	amino acid
 http://purl.obolibrary.org/obo/GO_0015838	amino-acid betaine transport	http://purl.obolibrary.org/obo/CHEBI_22860	amino-acid betaine
@@ -71,7 +67,6 @@ http://purl.obolibrary.org/obo/GO_0015700	arsenite transport	http://purl.obolibr
 http://purl.obolibrary.org/obo/GO_0006867	asparagine transport	http://purl.obolibrary.org/obo/CHEBI_32660	asparaginate
 http://purl.obolibrary.org/obo/GO_0060918	auxin transport	http://purl.obolibrary.org/obo/GOCHE_22676	substance with auxin role
 http://purl.obolibrary.org/obo/GO_0043213	bacteriocin transport	http://purl.obolibrary.org/obo/CHEBI_48081	bacteriocin
-http://purl.obolibrary.org/obo/GO_0015900	benomyl transport	http://purl.obolibrary.org/obo/CHEBI_3015	benomyl
 http://purl.obolibrary.org/obo/GO_0042919	benzoate transport	http://purl.obolibrary.org/obo/CHEBI_16150	benzoate
 http://purl.obolibrary.org/obo/GO_0001762	beta-alanine transport	http://purl.obolibrary.org/obo/CHEBI_57966	beta-alanine zwitterion
 http://purl.obolibrary.org/obo/GO_0015775	beta-glucan transport	http://purl.obolibrary.org/obo/CHEBI_28793	beta-D-glucan
@@ -91,7 +86,6 @@ http://purl.obolibrary.org/obo/GO_0006816	calcium ion transport	http://purl.obol
 http://purl.obolibrary.org/obo/GO_1901264	carbohydrate derivative transport	http://purl.obolibrary.org/obo/CHEBI_63299	carbohydrate derivative
 http://purl.obolibrary.org/obo/GO_0008643	carbohydrate transport	http://purl.obolibrary.org/obo/CHEBI_16646	carbohydrate
 http://purl.obolibrary.org/obo/GO_0015670	carbon dioxide transport	http://purl.obolibrary.org/obo/CHEBI_16526	carbon dioxide
-http://purl.obolibrary.org/obo/GO_0015902	carbonyl cyanide m-chlorophenylhydrazone transport	http://purl.obolibrary.org/obo/CHEBI_3259	CCCP
 http://purl.obolibrary.org/obo/GO_0046942	carboxylic acid transport	http://purl.obolibrary.org/obo/CHEBI_29067	carboxylic acid anion
 http://purl.obolibrary.org/obo/GO_0015879	carnitine transport	http://purl.obolibrary.org/obo/CHEBI_17126	carnitine
 http://purl.obolibrary.org/obo/GO_0046867	carotenoid transport	http://purl.obolibrary.org/obo/CHEBI_23044	carotenoid
@@ -230,7 +224,6 @@ http://purl.obolibrary.org/obo/GO_0015718	monocarboxylic acid transport	http://p
 http://purl.obolibrary.org/obo/GO_0033272	myo-inositol hexakisphosphate transport	http://purl.obolibrary.org/obo/CHEBI_58130	myo-inositol hexakisphosphate(12-)
 http://purl.obolibrary.org/obo/GO_0033271	myo-inositol phosphate transport	http://purl.obolibrary.org/obo/CHEBI_25448	myo-inositol phosphate
 http://purl.obolibrary.org/obo/GO_0015798	myo-inositol transport	http://purl.obolibrary.org/obo/CHEBI_17268	myo-inositol
-http://purl.obolibrary.org/obo/GO_0015896	nalidixic acid transport	http://purl.obolibrary.org/obo/CHEBI_62070	nalidixic acid anion
 http://purl.obolibrary.org/obo/GO_0006836	neurotransmitter transport	http://purl.obolibrary.org/obo/GOCHE_25512	substance with neurotransmitter role
 http://purl.obolibrary.org/obo/GO_0015675	nickel cation transport	http://purl.obolibrary.org/obo/CHEBI_25516	nickel cation
 http://purl.obolibrary.org/obo/GO_0015890	nicotinamide mononucleotide transport	http://purl.obolibrary.org/obo/CHEBI_50383	nicotinamide mononucleotide
