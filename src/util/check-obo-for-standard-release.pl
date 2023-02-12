@@ -589,7 +589,7 @@ sub check_xref {
     if ($x =~ /^([\w\-]+):/) {
         my $prefix = $1;
         if (!$abbsh{$prefix} && $prefix ne 'GOCHEREL') {
-            flag('valid-id-space',"bad id space '$1' in xref $x");
+            flag('valid-id-space',"bad id space '$1' in xref $x. If this is incorrect, consider adding $1 to https://github.com/geneontology/go-site/blob/master/metadata/db-xrefs.yaml.");
         }
         else {
         }
