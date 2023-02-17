@@ -80,7 +80,7 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl subset-reports generate-mappings
+stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl subset-owls subset-reports generate-mappings
 
 test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
@@ -259,7 +259,6 @@ $(ONT)-pre-reduced.owl: $(ONT)-pre.owl
 $(ONT).obo: $(ONT)-pre-reduced.owl
 	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
 	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge $(BUILD_DIR)/go.obo &&\
-	cp $(BUILD_DIR)/subsets/* subsets/ &&\
 	cp $(BUILD_DIR)/go.obo $@ &&\
 	cp $(BUILD_DIR)/go-simple.obo . &&\
 	cp $(BUILD_DIR)/go.owl .
@@ -286,17 +285,25 @@ go-basic.owl: go-basic.obo
 	$(ROBOT) convert -i $< -o $@
 
 # ----------------------------------------
-# SUBSET REPORTS
+# SUBSETS AND REPORTS
 # ----------------------------------------
 # Currently the only per-subset report is id-label pairs
 # See: https://github.com/geneontology/go-ontology/issues/14028
 
 # get all subsets
-subset-files = $(shell ls subsets/*.owl)
+subset-files = $(shell ls $(BUILD_DIR)/subsets/*.owl)
+
+SUBSET_OWLS = $(patsubst %,subsets/%,$(notdir $(subset-files)))
+# Also generates %.obo and %.json
+subset-owls: $(SUBSET_OWLS)
+	
+# Also generates %.obo and %.json
+subsets/%.owl: $(BUILD_DIR)/subsets/%.owl
+	$(ROBOT) annotate -i $< --annotation owl:versionInfo $(RELEASEDATE) -o $@ convert -o $(patsubst %.owl,%.obo,$@) convert -o $(patsubst %.owl,%.json,$@)
 
 # so far we only make simple .tsv reports
 SUBSET_REPORTS = $(patsubst %,%.tsv,$(basename $(subset-files)))
-subset-reports: $(SUBSET_REPORTS)
+subset-reports: $(SUBSET_REPORTS) subset-owls
 subsets/%.tsv: subsets/%.owl
 	$(ROBOT) query -f tsv -i $< -s ../sparql/labels.sparql $@
 
