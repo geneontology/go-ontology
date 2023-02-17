@@ -295,15 +295,15 @@ subset-files = $(shell ls $(BUILD_DIR)/subsets/*.owl)
 
 SUBSET_OWLS = $(patsubst %,subsets/%,$(notdir $(subset-files)))
 # Also generates %.obo and %.json
-subset-owls: $(SUBSET_OWLS)
-	
+subset-owls: $(ONT).obo $(SUBSET_OWLS)
+
 # Also generates %.obo and %.json
 subsets/%.owl: $(BUILD_DIR)/subsets/%.owl
 	$(ROBOT) annotate -i $< --annotation owl:versionInfo $(RELEASEDATE) -o $@ convert -o $(patsubst %.owl,%.obo,$@) convert -o $(patsubst %.owl,%.json,$@)
 
 # so far we only make simple .tsv reports
-SUBSET_REPORTS = $(patsubst %,%.tsv,$(basename $(subset-files)))
-subset-reports: $(SUBSET_REPORTS) subset-owls
+SUBSET_REPORTS = $(patsubst %,%.tsv,$(basename $(SUBSET_OWLS)))
+subset-reports: $(ONT).obo subset-owls $(SUBSET_REPORTS)
 subsets/%.tsv: subsets/%.owl
 	$(ROBOT) query -f tsv -i $< -s ../sparql/labels.sparql $@
 
