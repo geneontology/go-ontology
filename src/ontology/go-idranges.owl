@@ -24,112 +24,112 @@ AnnotationProperty: allocatedto:
 
 Datatype: idrange:2
 Annotations: allocatedto: "David Hill"
-EquivalentTo: xsd:integer[>= GO:0060001 , <= GO:0065000]
+EquivalentTo: xsd:integer[>= 60001 , <= 65000]
 
 Datatype: idrange:3
 Annotations: allocatedto: "Midori Harris"
-EquivalentTo: xsd:integer[>= GO:0070001 , <= GO:0072315]
+EquivalentTo: xsd:integer[>= 70001 , <= 72315]
 
 Datatype: idrange:4
 Annotations: allocatedto: "Midori Harris"
-EquivalentTo: xsd:integer[>= GO:0072001 , <= GO:0072315]
+EquivalentTo: xsd:integer[>= 72001 , <= 72315]
 
 Datatype: idrange:5
 Annotations: allocatedto: "Donghui Li"
-EquivalentTo: xsd:integer[>= GO:0080001 , <= GO:0085000]
+EquivalentTo: xsd:integer[>= 80001 , <= 85000]
 
 Datatype: idrange:6
 Annotations: allocatedto: "Rebecca Foulger and Ruth Lovering and Varsha Khodiyar"
-EquivalentTo: xsd:integer[>= GO:0086001 , <= GO:0087000]
+EquivalentTo: xsd:integer[>= 86001 , <= 87000]
 
 Datatype: idrange:7
 Annotations: allocatedto: "Tanya Berardini"
-EquivalentTo: xsd:integer[>= GO:0090001 , <= GO:0095000]
+EquivalentTo: xsd:integer[>= 90001 , <= 95000]
 
 Datatype: idrange:8
 Annotations: allocatedto: "Paola Roncaglia"
-EquivalentTo: xsd:integer[>= GO:0097001 , <= GO:0098000]
+EquivalentTo: xsd:integer[>= 97001 , <= 98000]
 
 Datatype: idrange:9
 Annotations: allocatedto: "Brenley McIntosh"
-EquivalentTo: xsd:integer[>= GO:0098001 , <= GO:0098500]
+EquivalentTo: xsd:integer[>= 98001 , <= 98500]
 
 Datatype: idrange:10
 Annotations: allocatedto: "David Osumi-Sutherland"
-EquivalentTo: xsd:integer[>= GO:0098501 , <= GO:0100000]
+EquivalentTo: xsd:integer[>= 98501 , <= 100000]
 
 Datatype: idrange:11
 Annotations: allocatedto: "David Osumi-Sutherland"
-EquivalentTo: xsd:integer[>= GO:0099000 , <= GO:0099100]
+EquivalentTo: xsd:integer[>= 99000 , <= 99100]
 
 Datatype: idrange:12
 Annotations: allocatedto: "David Osumi-Sutherland"
-EquivalentTo: xsd:integer[>= GO:0099200 , <= GO:0099300]
+EquivalentTo: xsd:integer[>= 99200 , <= 99300]
 
 Datatype: idrange:13
 Annotations: allocatedto: "Chris Mungall"
-EquivalentTo: xsd:integer[>= GO:0100001 , <= GO:0101000]
+EquivalentTo: xsd:integer[>= 100001 , <= 101000]
 
 Datatype: idrange:14
 Annotations: allocatedto: "Melanie Courtot"
-EquivalentTo: xsd:integer[>= GO:0101001 , <= GO:0102000]
+EquivalentTo: xsd:integer[>= 101001 , <= 102000]
 
 Datatype: idrange:15
 Annotations: allocatedto: "Molecular Functions for Sue Rhee"
-EquivalentTo: xsd:integer[>= GO:0102001 , <= GO:0104000]
+EquivalentTo: xsd:integer[>= 102001 , <= 104000]
 
 Datatype: idrange:16
 Annotations: allocatedto: "Molecular Function refactoring"
-EquivalentTo: xsd:integer[>= GO:0104001 , <= GO:0106000]
+EquivalentTo: xsd:integer[>= 104001 , <= 106000]
 
 Datatype: idrange:17
 Annotations: allocatedto: "Harold Drabkin"
-EquivalentTo: xsd:integer[>= GO:0106001 , <= GO:0110000]
+EquivalentTo: xsd:integer[>= 106001 , <= 110000]
 
 Datatype: idrange:18
 Annotations: allocatedto: "Kimberly Van Auken"
-EquivalentTo: xsd:integer[>= GO:0110001 , <= GO:0120000]
+EquivalentTo: xsd:integer[>= 110001 , <= 120000]
 
 Datatype: idrange:19
 Annotations: allocatedto: "Karen Christie"
-EquivalentTo: xsd:integer[>= GO:0120001 , <= GO:0130000]
+EquivalentTo: xsd:integer[>= 120001 , <= 130000]
 
 Datatype: idrange:20
 Annotations: allocatedto: "Paul Thomas"
-EquivalentTo: xsd:integer[>= GO:0130001 , <= GO:0140000]
+EquivalentTo: xsd:integer[>= 130001 , <= 140000]
 
 Datatype: idrange:21
 Annotations: allocatedto: "Pascale Gaudet"
-EquivalentTo: xsd:integer[>= GO:0140001 , <= GO:0150000]
+EquivalentTo: xsd:integer[>= 140001 , <= 150000]
 
 Datatype: idrange:90
 Annotations: allocatedto: "Automatic Term Generation"
-EquivalentTo: xsd:integer[>= GO:1000001 , <= GO:1899999]
+EquivalentTo: xsd:integer[>= 1000001 , <= 1899999]
 
 Datatype: idrange:91
 Annotations: allocatedto: "TermGenie Templated"
-EquivalentTo: xsd:integer[>= GO:1900000 , <= GO:1989999]
+EquivalentTo: xsd:integer[>= 1900000 , <= 1989999]
 
 Datatype: idrange:92
 Annotations: allocatedto: "TermGenie FreeForm"
-EquivalentTo: xsd:integer[>= GO:1990000 , <= GO:1999999]
+EquivalentTo: xsd:integer[>= 1990000 , <= 1999999]
 
 Datatype: idrange:93
 Annotations: allocatedto: "TermGenie, historic"
-EquivalentTo: xsd:integer[>= GO:2000000 , <= GO:3000000]
+EquivalentTo: xsd:integer[>= 2000000 , <= 3000000]
 
 Datatype: idrange:22
 Annotations: allocatedto: "Barbara Kramarz"
-EquivalentTo: xsd:integer[>= GO:0150001 , <= GO:0160000]
+EquivalentTo: xsd:integer[>= 150001 , <= 160000]
 
 Datatype: idrange:23
 Annotations: allocatedto: "Raymond Lee"
-EquivalentTo: xsd:integer[>= GO:0160001 , <= GO:0170000]
+EquivalentTo: xsd:integer[>= 160001 , <= 170000]
 
 Datatype: idrange:24
 Annotations: allocatedto: "Edith Wong"
-EquivalentTo: xsd:integer[>= GO:0170001 , <= GO:0180000]
+EquivalentTo: xsd:integer[>= 170001 , <= 180000]
 
 Datatype: idrange:25
 Annotations: allocatedto: "Val Wood"
-EquivalentTo: xsd:integer[>= GO:0180001 , <= GO:0190000]
+EquivalentTo: xsd:integer[>= 180001 , <= 190000]
