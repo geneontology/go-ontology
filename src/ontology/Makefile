@@ -290,20 +290,20 @@ go-basic.owl: go-basic.obo
 # Currently the only per-subset report is id-label pairs
 # See: https://github.com/geneontology/go-ontology/issues/14028
 
-# get all subsets
-subset-files = $(shell ls $(BUILD_DIR)/subsets/*.owl)
+PUBLISH_SUBSETS = gocheck_do_not_annotate gocheck_do_not_manually_annotate goslim_agr goslim_candida goslim_chembl goslim_drosophila goslim_flybase_ribbon goslim_generic goslim_metagenomics goslim_mouse goslim_pir goslim_plant goslim_pombe goslim_synapse goslim_yeast prokaryote_subset
 
-SUBSET_OWLS = $(patsubst %,subsets/%,$(notdir $(subset-files)))
+SUBSET_OWLS = $(patsubst %,subsets/%.owl,$(PUBLISH_SUBSETS))
 # Also generates %.obo and %.json
-subset-owls: $(ONT).obo $(SUBSET_OWLS)
+subset-owls: $(SUBSET_OWLS)
 
 # Also generates %.obo and %.json
-subsets/%.owl: $(BUILD_DIR)/subsets/%.owl
-	$(ROBOT) annotate -i $< --annotation owl:versionInfo $(RELEASEDATE) -o $@ convert -o $(patsubst %.owl,%.obo,$@) convert -o $(patsubst %.owl,%.json,$@)
+# Implicitly depends on build/subsets/%.owl generated as side effect of go.obo
+subsets/%.owl: $(ONT).obo 
+	$(ROBOT) annotate -i $(BUILD_DIR)/$@ --annotation owl:versionInfo $(RELEASEDATE) -o $@ convert -o $(patsubst %.owl,%.obo,$@) convert -o $(patsubst %.owl,%.json,$@)
 
 # so far we only make simple .tsv reports
 SUBSET_REPORTS = $(patsubst %,%.tsv,$(basename $(SUBSET_OWLS)))
-subset-reports: $(ONT).obo subset-owls $(SUBSET_REPORTS)
+subset-reports: $(SUBSET_REPORTS)
 subsets/%.tsv: subsets/%.owl
 	$(ROBOT) query -f tsv -i $< -s ../sparql/labels.sparql $@
 
