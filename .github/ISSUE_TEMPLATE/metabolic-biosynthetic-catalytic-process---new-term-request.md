@@ -1,8 +1,8 @@
 ---
-name: 'New term request: metabolic/biosynthetic/catalytic process'
+name: Metabolic/biosynthetic/catalytic process - New term request
 about: Request to create a term for x metabolic, biosynthetic or catalytic process
 title: 'NTR - metabolism: [proposed new label]'
-labels: New term request
+labels: metabolism, New term request
 assignees: ''
 
 ---
@@ -22,6 +22,7 @@ _Please add 'description of substance' as appropriate:_
 
 
 * **Reference, in format PMID:#######**
+REQUIRED
 
 * **Gene product name and ID to be annotated to this term**
 
