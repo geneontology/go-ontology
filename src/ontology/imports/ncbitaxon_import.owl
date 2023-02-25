@@ -292,6 +292,7 @@
         <oboInOwl:hasExactSynonym>brown rat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>rat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>rats</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Mus norvegicus</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Rattus norvegicus</rdfs:label>
     </owl:Class>
     
@@ -519,14 +520,13 @@
         <oboInOwl:hasExactSynonym>blue-green algae</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>blue-green bacteria</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>cyanophytes</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>Cyanobacteriota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Cyanophyceae</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Cyanobacteria</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Cyanophycota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Cyanophyta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Oxygenic photosynthetic bacteria</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Oxyphotobacteria</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>cyanobacteria</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Cyanobacteria</rdfs:label>
+        <rdfs:label>Cyanobacteriota</rdfs:label>
     </owl:Class>
     
 
@@ -884,16 +884,13 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32066"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40117"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68297"/>
-        <oboInOwl:hasExactSynonym>purple bacteria</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>purple bacteria and relatives</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>purple non-sulfur bacteria</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>purple photosynthetic bacteria</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>purple photosynthetic bacteria and relatives</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>Alphaproteobacteraeota</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>&quot;Alphaproteobacteriota&quot; Whitman et al. 2018</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Alphaproteobacteriota</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Proteobacteria</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Proteobacteriota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>proteobacteria</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Proteobacteria</rdfs:label>
+        <rdfs:label>Pseudomonadota</rdfs:label>
     </owl:Class>
     
 
@@ -1031,18 +1028,19 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_201174"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
+        <oboInOwl:hasExactSynonym>Firmicutes</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>low G+C Gram-positive bacteria</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>low GC Gram+</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>&quot;Firmicutes&quot; corrig. Gibbons and Murray 1978 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacillaeota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Bacillota</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Bacillota corrig. Gibbons and Murray 2021</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacillus/Clostridium group</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Clostridium group firmicutes</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Firmacutes</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Firmicutes corrig. Gibbons and Murray 1978</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Firmicuteota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Low G+C firmicutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>clostridial firmicutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>firmicutes</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Firmicutes</rdfs:label>
+        <rdfs:label>Bacillota</rdfs:label>
     </owl:Class>
     
 
@@ -1189,10 +1187,10 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_201174"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
+        <oboInOwl:hasExactSynonym>Thermus/Deinococcus group</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Deinococcaeota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Deinococcota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Thermus/Deinococcus group</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Deinococcus-Thermus</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Deinococcus-Thermus</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Deinococcota</rdfs:label>
     </owl:Class>
     
 
@@ -3116,9 +3114,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym>high G+C Gram-positive bacteria</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>Actinomycetes</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Actinobacteria Stackebrandt et al. 1997</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Actinomycetia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>high G+C Gram-positive bacteria</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Actinomycetia</rdfs:label>
+        <rdfs:label>Actinomycetes</rdfs:label>
     </owl:Class>
     
 
@@ -3148,6 +3147,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1763"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym>Mycobacterium Lehmann and Neumann 1896 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Mycobacterium</rdfs:label>
     </owl:Class>
     
@@ -3288,7 +3288,7 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_201174"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
-        <rdfs:label>Cyanobacteria/Melainabacteria group</rdfs:label>
+        <rdfs:label>Cyanobacteriota/Melainabacteria group</rdfs:label>
     </owl:Class>
     
 
@@ -3610,8 +3610,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_187857"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>Aquificae</oboInOwl:hasExactSynonym>
-        <rdfs:label>Aquificae &lt;class&gt;</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Aquificae Reysenbach 2002</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Aquificae</rdfs:label>
     </owl:Class>
     
 
@@ -3663,9 +3663,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_188708"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>Thermotogae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Thermotogae Reysenbach 2002</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Thermotogia</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Togobacteria</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Thermotogae &lt;class&gt;</rdfs:label>
+        <rdfs:label>Thermotogae</rdfs:label>
     </owl:Class>
     
 
@@ -3735,14 +3736,14 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1890424 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1890424">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1117"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3028117"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1890424"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_307596"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_307595"/>
         <rdfs:label>Synechococcales</rdfs:label>
     </owl:Class>
     
@@ -4012,9 +4013,9 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32066"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40117"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68297"/>
-        <oboInOwl:hasExactSynonym>Aquificae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Aquificae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Aquificaeota</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Aquificae &lt;phylum&gt;</rdfs:label>
+        <rdfs:label>Aquificota</rdfs:label>
     </owl:Class>
     
 
@@ -4031,15 +4032,13 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_201174"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
+        <oboInOwl:hasExactSynonym>Chloroflexi</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>green non-sulfur bacteria</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>green nonsulfur bacteria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>&quot;Chloroflexi&quot; Garrity and Holt 2001</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Chloroflexaeota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Chloroflexota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>GNS bacteria</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Thermomicrobaeota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Thermomicrobiota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Thermomicrobiota Garrity and Holt 2021</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Chloroflexi</rdfs:label>
+        <rdfs:label>Chloroflexota</rdfs:label>
     </owl:Class>
     
 
@@ -4060,8 +4059,7 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68297"/>
         <oboInOwl:hasExactSynonym>Thermotogae</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Thermotogaeota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Thermotogota</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Thermotogae &lt;phylum&gt;</rdfs:label>
+        <rdfs:label>Thermotogota</rdfs:label>
     </owl:Class>
     
 
@@ -4078,9 +4076,10 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
         <oboInOwl:hasRelatedSynonym>Actinobacteraeota</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Actinobacteria</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Actinobacteriota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>actinobacteria</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Actinobacteria</rdfs:label>
+        <rdfs:label>Actinomycetota</rdfs:label>
     </owl:Class>
     
 
@@ -4110,7 +4109,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203486"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym>Dictyoglomi</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Dictyoglomia</rdfs:label>
     </owl:Class>
     
@@ -4203,11 +4201,11 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_204428"/>
+        <oboInOwl:hasExactSynonym>Planctomycetes</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>&quot;Planctobacteria&quot; (Cavalier-Smith 1987) Cavalier-Smith 2002</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>&quot;Planctomycetes&quot; Garrity and Holt 2001</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>&quot;Planctomycetota&quot; Whitman et al. 2018</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Planctobacteria</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Planctomycetes</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Planctomycetota</rdfs:label>
     </owl:Class>
     
@@ -4246,8 +4244,8 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68297"/>
         <oboInOwl:hasRelatedSynonym>Spirochaetae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Spirochaetaeota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Spirochaetota</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Spirochaetes</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Spirochaetes</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Spirochaetota</rdfs:label>
     </owl:Class>
     
 
@@ -4297,8 +4295,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasRelatedSynonym>Chlamydaeota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Chlamydiota</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Chlamydiae</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Chlamydiae</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Chlamydiota</rdfs:label>
     </owl:Class>
     
 
@@ -4313,7 +4311,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_204429"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym>Chlamydiae</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Chlamydiia</rdfs:label>
     </owl:Class>
     
@@ -4800,7 +4797,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2231382"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym>Canavanine-accumulating clade</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>canavanine-accumulating clade</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>non-protein amino acid accumulating clade</oboInOwl:hasRelatedSynonym>
         <rdfs:label>NPAAA clade</rdfs:label>
     </owl:Class>
@@ -6932,6 +6929,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3028117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3028117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1117"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3028117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym>Gloeobacteria</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Cyanophyceae</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_30319 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_30319">
@@ -7051,7 +7064,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_307595 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_307595">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_307596"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3028117"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -7059,21 +7072,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Gloeobacterales</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_307596 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_307596">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1117"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_307596"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>Gloeobacteria</rdfs:label>
     </owl:Class>
     
 
@@ -7358,9 +7356,9 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40117"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68297"/>
         <oboInOwl:hasRelatedSynonym>Fusobacteraeota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Fusobacteriota</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Fusobacteria</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>fusobacteria</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Fusobacteria</rdfs:label>
+        <rdfs:label>Fusobacteriota</rdfs:label>
     </owl:Class>
     
 
@@ -9485,10 +9483,10 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68297"/>
         <oboInOwl:hasRelatedSynonym>Nitrospira group</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Nitrospirae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Nitrospiraeota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Nitrospirota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Thermodesulfovibrio group</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Nitrospirae</rdfs:label>
+        <rdfs:label>Nitrospirota</rdfs:label>
     </owl:Class>
     
 
@@ -12143,10 +12141,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym>Mollicutaeota</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>&quot;Mollicutaeota&quot; Oren et al. 2015</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mollicutota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Tenericuteota</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Tenericutes</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Tenericutes</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Mycoplasmatota</rdfs:label>
     </owl:Class>
     
 
@@ -12546,8 +12545,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5740"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>Giardia</oboInOwl:hasExactSynonym>
-        <rdfs:label>Giardia &lt;diplomonads&gt;</rdfs:label>
+        <rdfs:label>Giardia</rdfs:label>
     </owl:Class>
     
 
@@ -15562,11 +15560,11 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_85011"/>
+        <oboInOwl:hasRelatedSynonym>Corynebacteriales</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Corynebacteriales Goodfellow and Jones 2015</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Corynebacterineae</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Mycobacteriales</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mycobacteriales Janke 1924 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Corynebacteriales</rdfs:label>
+        <rdfs:label>Mycobacteriales</rdfs:label>
     </owl:Class>
     
 
@@ -15581,10 +15579,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_85011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>Streptomycetineae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Streptomycetales</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Streptomycetes</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Streptomycetineae corrig. Rainey et al. 1997</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Streptomycineae</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Streptomycetales</rdfs:label>
+        <rdfs:label>Kitasatosporales</rdfs:label>
     </owl:Class>
     
 
@@ -16403,6 +16402,7 @@
         <oboInOwl:hasExactSynonym>rhesus macaque</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>rhesus macaques</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>rhesus monkeys</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Cercopithecus mulatta</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Macaca mulatta</rdfs:label>
     </owl:Class>
     
@@ -16712,7 +16712,6 @@
         <oboInOwl:hasExactSynonym>CFB group</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Cytophaga-Flexibacter-Bacteroides phylum</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>&quot;Bacteroidota&quot; Whitman et al. 2018</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>&apos;Bacteroidota&apos;</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacteroidetes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>CFB group bacteria</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Sphingobacteria</oboInOwl:hasRelatedSynonym>
@@ -21051,7 +21050,7 @@
         <owl:disjointWith>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_307596"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_307595"/>
             </owl:Restriction>
         </owl:disjointWith>
     </owl:Restriction>
@@ -24481,6 +24480,20 @@
     </owl:Restriction>
     <owl:Restriction>
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3028117"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3028117"/>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_30319"/>
         <owl:disjointWith>
             <owl:Restriction>
@@ -24596,20 +24609,6 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_307595"/>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_307596"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_307596"/>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
