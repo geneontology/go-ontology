@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/pr_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-10-13/imports/pr_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2023-02-28/imports/pr_import.owl"/>
     </owl:Ontology>
     
 
@@ -123,6 +123,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002330 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002330">
+        <oboInOwl:hasDbXref>RO:0002330</oboInOwl:hasDbXref>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002353 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002353">
@@ -133,9 +141,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/pr#has_constituent_monomer -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/pr#has_constituent_monomer">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+        <obo:IAO_0000115>A relation that holds between a polymer and its constituent monomers. P has_constituent_monomer c if and only if P has_component multiple instances of c and each instance of c is covalently attached to another instance of c.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>has_constituent_monomer</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand>has_constituent_monomer</oboInOwl:shorthand>
+        <rdfs:label>has_constituent_monomer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/pr#has_gene_template -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/pr#has_gene_template">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002330"/>
+        <obo:IAO_0000115>See document https://docs.google.com/document/d/15iVMtMyYbQSlvUDgn2XUaDzpwkB0USZI for full definition.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>has_gene_template</oboInOwl:hasDbXref>
         <oboInOwl:shorthand>has_gene_template</oboInOwl:shorthand>
         <rdfs:label>has_gene_template</rdfs:label>
@@ -151,6 +173,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
     
 
 
@@ -233,6 +261,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018263"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050567"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -263,7 +292,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115>A protein with a core domain composition consisting of a signal peptide, a variable propeptide region and a Transforming growth factor beta like domain (Pfam:PF00019), which is a cystine-knot domain containing four conserved beta strands, S1-S4, which form two antiparallel beta sheets (SI-S2 and S3-S4) interconnected by three disulfide bridges in a knot-like topology. Cystines [II-V] and [III-VI] form a ring through which the remaining disulfide bond (Cys[I-IV]) penetrates. Insertion of different variable regions into this common motif has given rise to various subclasses of the growth factor cystine-knot domain.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein that has a core domain composition consisting of a signal peptide, a variable propeptide region and a Transforming growth factor beta like domain (Pfam:PF00019), which is a cystine-knot domain containing four conserved beta strands, S1-S4, which form two antiparallel beta sheets (SI-S2 and S3-S4) interconnected by three disulfide bridges in a knot-like topology. Cystines [II-V] and [III-VI] form a ring through which the remaining disulfide bond (Cys[I-IV]) penetrates. Insertion of different variable regions into this common motif has given rise to various subclasses of the growth factor cystine-knot domain.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>TGF-beta superfamily</oboInOwl:hasRelatedSynonym>
         <rdfs:label>TGF-beta-like cystine-knot cytokine</rdfs:label>
     </owl:Class>
@@ -299,7 +328,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115>A protein with a core domain composition consisting of a Ras family domain (Pfam:PF00071). The small GTPases are monomeric G-proteins which function as GDP/GTP-regulated molecular switches.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein that has a core domain composition consisting of a Ras family domain (Pfam:PF00071). The small GTPases are monomeric G-proteins which function as GDP/GTP-regulated molecular switches.</obo:IAO_0000115>
         <rdfs:label>small GTPase</rdfs:label>
     </owl:Class>
     
@@ -309,7 +338,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115>A protein with a core domain composition consisting of an N-terminal cytosolic domain, a type II transmembrane domain and a C-terminal TNF domain (Pfam:PF00229).</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein that has a core domain composition consisting of an N-terminal cytosolic domain, a type II transmembrane domain and a C-terminal TNF domain (Pfam:PF00229).</obo:IAO_0000115>
         <rdfs:label>tumor necrosis factor, TNF-like</rdfs:label>
     </owl:Class>
     
@@ -365,7 +394,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115>A protein with a core domain composition consisting of a propeptide region and an Interleukin-1 / 18 domain.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein that has a core domain composition consisting of a propeptide region and an Interleukin-1 / 18 domain.</obo:IAO_0000115>
         <rdfs:label>interleukin-1</rdfs:label>
     </owl:Class>
     
@@ -414,7 +443,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115>A protein with a core domain composition consisting of a signal peptide, an extracellular domain with multiple Leucine rich repeat (Pfam:PF13855) domain (LRR), a cysteine-rich region, a single-pass transmembrane domain and a C-terminal cytoplasmic tail containing a TIR domain (Pfam:PF01582).</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein that has a core domain composition consisting of a signal peptide, an extracellular domain with multiple Leucine rich repeat (Pfam:PF13855) domain (LRR), a cysteine-rich region, a single-pass transmembrane domain and a C-terminal cytoplasmic tail containing a TIR domain (Pfam:PF01582).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>fam:TLR</oboInOwl:hasExactSynonym>
         <rdfs:label>Toll-like receptor</rdfs:label>
     </owl:Class>
@@ -2128,7 +2157,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001753">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115>A protein with a core domain composition consisting of a Rel homology domain (RHD) (Pfam:PF00554), an IPT/TIG domain (Pfam:PF01833), six copies of the Ankyrin repeat (Pfam:PF00023), a Death domain (Pfam:PF00531) and a C-terminal PEST region.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein that has a core domain composition consisting of a Rel homology domain (RHD) (Pfam:PF00554), an IPT/TIG domain (Pfam:PF01833), six copies of the Ankyrin repeat (Pfam:PF00023), a Death domain (Pfam:PF00531) and a C-terminal PEST region.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>transcription factor NF-kappa-B</oboInOwl:hasRelatedSynonym>
         <rdfs:label>transcription factor NF-kappa-B subunit</rdfs:label>
     </owl:Class>
@@ -3387,10 +3416,14 @@
         <oboInOwl:hasExactSynonym>HCRT</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Hcrt</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hypocretin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>orexin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>orexin precursor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>prepro-orexin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>preprohypocretin</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>OX</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>PPORX</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>PPOX</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>orexin</rdfs:label>
+        <rdfs:label>hypocretin neuropeptide precursor</rdfs:label>
     </owl:Class>
     
 
@@ -4448,8 +4481,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33708"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_constituent_monomer"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33708"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An organic amino compound that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds.</obo:IAO_0000115>
@@ -5208,9 +5242,9 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An orexin that has been processed by proteolytic cleavage.</obo:IAO_0000115>
+        <obo:IAO_0000115>A hypocretin neuropeptide precursor that has been processed by proteolytic cleavage.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>HCRT/ClvPrd</oboInOwl:hasExactSynonym>
-        <rdfs:label>orexin proteolytic cleavage product</rdfs:label>
+        <rdfs:label>hypocretin neuropeptide precursor proteolytic cleavage product</rdfs:label>
     </owl:Class>
     
 
@@ -5986,17 +6020,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000029394">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115>A protein that is a translation product of the human DDX58 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein that is a translation product of the human RIGI gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ATP-dependent RNA helicase DDX58</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>DDX58</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>DEAD box protein 58</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>RIG-1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>RIG-I</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>RIG-I-like receptor 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RIGI</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>RLR-1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RNA sensor RIG-I</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>probable ATP-dependent RNA helicase DDX58</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>retinoic acid-inducible gene 1 protein</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>retinoic acid-inducible gene I protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>DDX58</oboInOwl:hasRelatedSynonym>
         <rdfs:label>antiviral innate immune response receptor RIG-I</rdfs:label>
     </owl:Class>
     
@@ -6141,6 +6177,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
         <obo:IAO_0000115>A proteolytic cleavage product that gives rise to a protein that corresponds to the stand-alone version of the Ubiquitin (Pfam:PF00240) domain. Example: UniProtKB:P0CG48, 1-76.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Ubiq</oboInOwl:hasExactSynonym>
         <rdfs:label>ubiquitin</rdfs:label>
     </owl:Class>
     
@@ -6258,7 +6295,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000044813">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115>A protein with a core domain composition consisting of a signal peptide followed by a single copy of the Cys_knot (Pfam:PF00007) domain. The Cysteine knot is a protein structural motif containing three disulfide bridges.</obo:IAO_0000115>
+        <obo:IAO_0000115>A protein that has a core domain composition consisting of a signal peptide followed by a single copy of the Cys_knot (Pfam:PF00007) domain. The Cysteine knot is a protein structural motif containing three disulfide bridges.</obo:IAO_0000115>
         <rdfs:label>glycoprotein hormone beta chain</rdfs:label>
     </owl:Class>
     
@@ -6351,6 +6388,66 @@
         <obo:IAO_0000115>A tumor necrosis factor, TNF-like that is a translation product of the human LTA or LTB genes, or 1:1 orthologs thereof.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>fam:LT</oboInOwl:hasExactSynonym>
         <rdfs:label>lymphotoxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050567">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A material entity that minimally consists of a protein.</obo:IAO_0000115>
+        <oboInOwl:hasNarrowSynonym>protein</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>protein aggregate</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>protein complex</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>protein-containing complex</oboInOwl:hasNarrowSynonym>
+        <rdfs:label>protein-containing material entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000060228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000060228">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000035728"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_constituent_monomer"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/PR_000035728"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_constituent_monomer"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/PR_000035728"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A ubiquitin that is a monomer.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>monoUbiq</oboInOwl:hasExactSynonym>
+        <rdfs:label>monoubiquitin</rdfs:label>
     </owl:Class>
     
 
