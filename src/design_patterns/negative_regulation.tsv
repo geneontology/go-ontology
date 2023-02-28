@@ -976,6 +976,7 @@ http://purl.obolibrary.org/obo/GO_0045999	negative regulation of ecdysteroid sec
 http://purl.obolibrary.org/obo/GO_0045804	negative regulation of eclosion	http://purl.obolibrary.org/obo/GO_0007562	eclosion
 http://purl.obolibrary.org/obo/GO_2000384	negative regulation of ectoderm development	http://purl.obolibrary.org/obo/GO_0007398	ectoderm development
 http://purl.obolibrary.org/obo/GO_0042666	negative regulation of ectodermal cell fate specification	http://purl.obolibrary.org/obo/GO_0001715	ectodermal cell fate specification
+http://purl.obolibrary.org/obo/GO_1901045	negative regulation of egg-laying behavior	http://purl.obolibrary.org/obo/GO_0018991	egg-laying behavior
 http://purl.obolibrary.org/obo/GO_0051545	negative regulation of elastin biosynthetic process	http://purl.obolibrary.org/obo/GO_0051542	elastin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0060311	negative regulation of elastin catabolic process	http://purl.obolibrary.org/obo/GO_0060309	elastin catabolic process
 http://purl.obolibrary.org/obo/GO_1904733	negative regulation of electron transfer activity	http://purl.obolibrary.org/obo/GO_0009055	electron transfer activity
@@ -2075,7 +2076,6 @@ http://purl.obolibrary.org/obo/GO_0090291	negative regulation of osteoclast prol
 http://purl.obolibrary.org/obo/GO_1904119	negative regulation of otic vesicle morphogenesis	http://purl.obolibrary.org/obo/GO_0071600	otic vesicle morphogenesis
 http://purl.obolibrary.org/obo/GO_1905586	negative regulation of outer hair cell apoptotic process	http://purl.obolibrary.org/obo/GO_1905584	outer hair cell apoptotic process
 http://purl.obolibrary.org/obo/GO_2000355	negative regulation of ovarian follicle development	http://purl.obolibrary.org/obo/GO_0001541	ovarian follicle development
-http://purl.obolibrary.org/obo/GO_1901045	negative regulation of oviposition	http://purl.obolibrary.org/obo/GO_0018991	oviposition
 http://purl.obolibrary.org/obo/GO_0060280	negative regulation of ovulation	http://purl.obolibrary.org/obo/GO_0030728	ovulation
 http://purl.obolibrary.org/obo/GO_0090324	negative regulation of oxidative phosphorylation	http://purl.obolibrary.org/obo/GO_0006119	oxidative phosphorylation
 http://purl.obolibrary.org/obo/GO_2000276	negative regulation of oxidative phosphorylation uncoupler activity	http://purl.obolibrary.org/obo/GO_0017077	oxidative phosphorylation uncoupler activity
@@ -2822,8 +2822,6 @@ http://purl.obolibrary.org/obo/GO_0051051	negative regulation of transport	http:
 http://purl.obolibrary.org/obo/GO_0150202	negative regulation of transport across blood-brain barrier	http://purl.obolibrary.org/obo/GO_0150104	transport across blood-brain barrier
 http://purl.obolibrary.org/obo/GO_0032410	negative regulation of transporter activity	http://purl.obolibrary.org/obo/GO_0005215	transporter activity
 http://purl.obolibrary.org/obo/GO_0010529	negative regulation of transposition	http://purl.obolibrary.org/obo/GO_0032196	transposition
-http://purl.obolibrary.org/obo/GO_0000335	negative regulation of transposition, DNA-mediated	http://purl.obolibrary.org/obo/GO_0006313	transposition, DNA-mediated
-http://purl.obolibrary.org/obo/GO_0010526	negative regulation of transposition, RNA-mediated	http://purl.obolibrary.org/obo/GO_0032197	transposition, RNA-mediated
 http://purl.obolibrary.org/obo/GO_0010062	negative regulation of trichoblast fate specification	http://purl.obolibrary.org/obo/GO_0010057	trichoblast fate specification
 http://purl.obolibrary.org/obo/GO_1900033	negative regulation of trichome patterning	http://purl.obolibrary.org/obo/GO_0048629	trichome patterning
 http://purl.obolibrary.org/obo/GO_1900885	negative regulation of tridecane biosynthetic process	http://purl.obolibrary.org/obo/GO_1900632	tridecane biosynthetic process
@@ -2952,3 +2950,4 @@ http://purl.obolibrary.org/obo/GO_0075221	negative regulation of zoospore encyst
 http://purl.obolibrary.org/obo/GO_0075242	negative regulation of zoospore formation	http://purl.obolibrary.org/obo/GO_0075239	zoospore formation
 http://purl.obolibrary.org/obo/GO_0075274	negative regulation of zygosporangium development	http://purl.obolibrary.org/obo/GO_0075271	zygosporangium development
 http://purl.obolibrary.org/obo/GO_0075300	negative regulation of zygospore formation	http://purl.obolibrary.org/obo/GO_0034296	zygospore formation
+http://purl.obolibrary.org/obo/GO_0010526	retrotransposon silencing	http://purl.obolibrary.org/obo/GO_0032197	retrotransposition
