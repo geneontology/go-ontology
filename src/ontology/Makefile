@@ -438,13 +438,8 @@ mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(CL_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
-
-# special case: the RO imports closure is unusual
-# typically we use only the main ontology, not the imports.
-# for RO we merge these, in order to get ro/core, bfo classes
-# see https://github.com/geneontology/go-ontology/issues/12946
 mirror/ro-download.owl: $(SRC)
-	$(OWLTOOLS) $(OBO)/ro.owl --merge-imports-closure -o $@
+	wget --no-check-certificate $(OBO)/ro/ro-base.owl $(WGET_OUT)
 .PRECIOUS: mirror/ro-download.owl
 
 # general case: download remote OWL first
