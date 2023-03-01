@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2022-12-15/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2023-02-28/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -18,16 +18,6 @@ relationship: has_part CHEBI:65028 ! ribostamycin(4+)
 relationship: has_role CHEBI:33281 ! antimicrobial agent
 relationship: has_role CHEBI:33282 ! antibacterial agent
 relationship: has_role CHEBI:36047 ! antibacterial drug
-
-[Term]
-id: CHEBI:100147
-name: nalidixic acid
-is_a: CHEBI:25384 ! monocarboxylic acid
-is_a: CHEBI:73537 ! 1,8-naphthyridine derivative
-is_a: CHEBI:86324 ! quinolone antibiotic
-relationship: has_role CHEBI:33281 ! antimicrobial agent
-relationship: has_role CHEBI:36047 ! antibacterial drug
-relationship: has_role CHEBI:59517 ! DNA synthesis inhibitor
 
 [Term]
 id: CHEBI:10022
@@ -630,7 +620,7 @@ is_a: CHEBI:50367 ! taxane diterpenoid
 id: CHEBI:11305
 name: 10-hydroxycaprate
 subset: chebi_ph7_3
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:194241 ! omega-hydroxy-medium-chain fatty acid anion
 
 [Term]
 id: CHEBI:11320
@@ -1325,7 +1315,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:128770
 name: 12,18-dihydroxyoctadecanoic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 is_a: CHEBI:24747 ! hydroxyoctadecanoic acid
 
 [Term]
@@ -1343,9 +1333,8 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:129091
 name: (9Z,12R)-12,18-dihydroxyoctadecenoic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
 is_a: CHEBI:131869 ! hydroxy monounsaturated fatty acid
-is_a: CHEBI:15904 ! long-chain fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 
 [Term]
 id: CHEBI:12931
@@ -1397,10 +1386,9 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:130073
 name: 5,20-diHEPE
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
 is_a: CHEBI:134362 ! homoallylic alcohol
 is_a: CHEBI:134396 ! secondary allylic alcohol
-is_a: CHEBI:15904 ! long-chain fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 is_a: CHEBI:23899 ! icosanoid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
 
@@ -1926,11 +1914,13 @@ is_a: CHEBI:27369 ! zwitterion
 [Term]
 id: CHEBI:131708
 name: N(omega)-(1-hydroxy-2-oxopropyl)-L-arginine residue(1+)
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
 id: CHEBI:131709
 name: N(6)-(1-hydroxy-2-oxopropyl)-L-lysine residue(1+)
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
@@ -2083,6 +2073,7 @@ is_a: CHEBI:90779 ! S-substituted glutathione(1-)
 [Term]
 id: CHEBI:131803
 name: L-allysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -2161,6 +2152,7 @@ is_a: CHEBI:62937 ! icosanoid anion
 [Term]
 id: CHEBI:131859
 name: oxo-ETE anion
+subset: chebi_ph7_3
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:59836 ! oxo fatty acid anion
 is_a: CHEBI:62937 ! icosanoid anion
@@ -2308,11 +2300,13 @@ is_a: CHEBI:3992 ! cyclic ketone
 [Term]
 id: CHEBI:131912
 name: O-[S-(3-hydroxy-4-methylanthraniloyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:131913
 name: O-[S-(3,5-dihydroxy-4-methylanthraniloyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -2830,9 +2824,8 @@ id: CHEBI:132026
 name: 20-HETrE(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:131871 ! hydroxy polyunsaturated fatty acid anion
-is_a: CHEBI:57560 ! long-chain fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 is_a: CHEBI:62937 ! icosanoid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
 
 [Term]
 id: CHEBI:132028
@@ -3822,7 +3815,7 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 [Term]
 id: CHEBI:132324
 name: 20-HETrE
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 is_a: CHEBI:72793 ! HETrE
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
@@ -3854,6 +3847,7 @@ is_a: CHEBI:71017 ! 1-hydroxy steroid
 [Term]
 id: CHEBI:132361
 name: O-(S-[2S,4S,6S]-2,4,6-trimethyl-very-long-chain fatty acyl-pantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -4123,11 +4117,13 @@ is_a: CHEBI:25367 ! molecule
 [Term]
 id: CHEBI:132569
 name: O-(S-[2R,4R,6R,8R]-2,4,6,8-tetramethyl-very-long-chain fatty acyl-pantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:132570
 name: O-(S-[2R,4R,6R]-2,4,6-trimethyl-very-long-chain fatty acyl-pantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64479 ! O-(pantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -4313,21 +4309,6 @@ relationship: has_role CHEBI:26013 ! pheromone
 relationship: has_role CHEBI:48318 ! fragrance
 relationship: has_role CHEBI:75767 ! animal metabolite
 relationship: has_role CHEBI:76924 ! plant metabolite
-
-[Term]
-id: CHEBI:132753
-name: triethanolamine hydrochloride
-is_a: CHEBI:36807 ! hydrochloride
-relationship: has_part CHEBI:132755 ! triethanolammonium
-relationship: has_role CHEBI:35195 ! surfactant
-
-[Term]
-id: CHEBI:132755
-name: triethanolammonium
-subset: chebi_ph7_3
-is_a: CHEBI:25697 ! organic cation
-is_a: CHEBI:35274 ! ammonium ion derivative
-relationship: has_role CHEBI:35225 ! buffer
 
 [Term]
 id: CHEBI:132758
@@ -4863,11 +4844,13 @@ is_a: CHEBI:58946 ! acyl-CoA oxoanion
 [Term]
 id: CHEBI:133242
 name: O-[S-(medium-chain fatty acyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:133243
 name: O-[S-(long-chain fatty acyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -4913,11 +4896,13 @@ is_a: CHEBI:35903 ! oxo carboxylic acid anion
 [Term]
 id: CHEBI:133300
 name: O-\{S-[17-(4-hydroxyphenyl)heptadecanoyl]pantetheine-4'-phosphoryl}serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:133301
 name: O-\{S-[19-(4-hydroxyphenyl)nonadecanoyl]pantetheine-4'-phosphoryl}serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -5101,7 +5086,7 @@ is_a: CHEBI:134400 ! cationic peptidyl group
 [Term]
 id: CHEBI:133381
 name: 9,10-epoxy-18-hydroxyoctadecanoic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 is_a: CHEBI:24747 ! hydroxyoctadecanoic acid
 is_a: CHEBI:61498 ! epoxy fatty acid
 relationship: has_role CHEBI:76924 ! plant metabolite
@@ -5255,11 +5240,13 @@ is_a: CHEBI:78598 ! N-acetylamino-acid residue
 [Term]
 id: CHEBI:133415
 name: O-(S-malonamoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:133417
 name: O-[S-(18-carbamoyl-3,5,7,9,11,13,15,17-octaoxooctadecanoyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -5290,12 +5277,14 @@ is_a: CHEBI:65296 ! primary ammonium ion
 [Term]
 id: CHEBI:133442
 name: (5R)-5-hydroxy-L-lysine(1+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:141817 ! 5-hydroxy-L-lysinium residue
 is_a: CHEBI:58942 ! amino-acid cation residue
 
 [Term]
 id: CHEBI:133443
 name: (5R)-5-(beta-D-galactosyloxy)-L-lysine(1+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:58943 ! alpha-amino-acid cation residue
 
 [Term]
@@ -5348,6 +5337,7 @@ is_a: CHEBI:75659 ! O-acyl-L-carnitine
 [Term]
 id: CHEBI:133452
 name: (5R)-5-[(alpha-D-glucosyl-(1->2)-beta-D-galactosyl)oxy]-L-lysine(1+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:58943 ! alpha-amino-acid cation residue
 
 [Term]
@@ -5838,8 +5828,8 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:133793
 name: prostaglandin G1
+is_a: CHEBI:194320 ! hydroperoxy monounsaturated fatty acid
 is_a: CHEBI:26343 ! prostaglandins G
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
 is_a: CHEBI:78840 ! olefinic compound
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -5957,11 +5947,10 @@ is_a: CHEBI:28965 ! dicarboxylic acid dianion
 id: CHEBI:133899
 name: 8(S),15(S)-DiHPETE(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:134019 ! hydroperoxy polyunsaturated fatty acid anion
 is_a: CHEBI:137544 ! bis(hydroperoxy)icosatetraenoate
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:62937 ! icosanoid anion
-is_a: CHEBI:64012 ! hydroperoxy fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:13390
@@ -6900,6 +6889,7 @@ is_a: CHEBI:38338 ! aminopyrimidine
 [Term]
 id: CHEBI:134208
 name: N-acetyl-alpha-D-glucosaminyl-L-tyrosyl residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -7236,11 +7226,13 @@ is_a: CHEBI:134348 ! beta-bitter acid(1-)
 [Term]
 id: CHEBI:134350
 name: lipid A 4'-(2-aminoethyl diphosphate) oxoanion
+subset: chebi_ph7_3
 is_a: CHEBI:60086 ! lipid A oxoanion
 
 [Term]
 id: CHEBI:134351
 name: lipid A 1-(2-aminoethyl diphosphate) oxoanion
+subset: chebi_ph7_3
 is_a: CHEBI:60086 ! lipid A oxoanion
 
 [Term]
@@ -7412,8 +7404,8 @@ is_a: CHEBI:83824 ! L-cysteine derivative
 [Term]
 id: CHEBI:134406
 name: prostaglandin G3
+is_a: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
 is_a: CHEBI:26343 ! prostaglandins G
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
 is_a: CHEBI:78840 ! olefinic compound
 
 [Term]
@@ -7687,10 +7679,8 @@ is_a: CHEBI:36300 ! tricarboxylic acid dianion
 [Term]
 id: CHEBI:134613
 name: hydroperoxyoctadecenoic acid
-is_a: CHEBI:15904 ! long-chain fatty acid
-is_a: CHEBI:25413 ! monounsaturated fatty acid
+is_a: CHEBI:194320 ! hydroperoxy monounsaturated fatty acid
 is_a: CHEBI:36326 ! octadecanoid
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
 
 [Term]
 id: CHEBI:134615
@@ -8073,7 +8063,7 @@ id: CHEBI:136113
 name: (4Z,7Z,10Z,13Z,15E,17S,19Z)-17-hydroperoxydocosahexaenoic acid
 is_a: CHEBI:131863 ! docosanoid
 is_a: CHEBI:15904 ! long-chain fatty acid
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
+is_a: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
 relationship: has_role CHEBI:75771 ! mouse metabolite
 
 [Term]
@@ -8733,8 +8723,8 @@ is_a: CHEBI:59635 ! organophosphonate oxoanion
 id: CHEBI:136542
 name: (+)-sesamin monocatechol
 subset: chebi_ph7_3
-is_a: CHEBI:18135 ! catechol
 is_a: CHEBI:25036 ! lignan
+is_a: CHEBI:33566 ! catechols
 is_a: CHEBI:38298 ! benzodioxoles
 is_a: CHEBI:47790 ! furofuran
 
@@ -8742,8 +8732,8 @@ is_a: CHEBI:47790 ! furofuran
 id: CHEBI:136543
 name: (+)-sesamin dicatechol
 subset: chebi_ph7_3
-is_a: CHEBI:18135 ! catechol
 is_a: CHEBI:25036 ! lignan
+is_a: CHEBI:33566 ! catechols
 is_a: CHEBI:47790 ! furofuran
 relationship: has_role CHEBI:76924 ! plant metabolite
 
@@ -8911,7 +8901,7 @@ id: CHEBI:136587
 name: (4Z,7Z,11Z,13Z,15E,17S,19Z)-10,17-bis(hydroperoxy)docosahexaenoic acid
 is_a: CHEBI:131863 ! docosanoid
 is_a: CHEBI:15904 ! long-chain fatty acid
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
+is_a: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
 [Term]
@@ -9194,15 +9184,14 @@ is_a: CHEBI:50860 ! organic molecular entity
 id: CHEBI:136656
 name: (5Z,9E,11Z,14Z,17Z)-8-hydroperoxyicosapentaenoic acid
 is_a: CHEBI:15904 ! long-chain fatty acid
-is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
+is_a: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
 
 [Term]
 id: CHEBI:136657
 name: (4Z,7Z,11E,13Z,16Z,19Z)-10-hydroperoxydocosahexaenoic acid
 is_a: CHEBI:131863 ! docosanoid
 is_a: CHEBI:15904 ! long-chain fatty acid
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
+is_a: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
 
 [Term]
 id: CHEBI:136661
@@ -9385,11 +9374,13 @@ is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 [Term]
 id: CHEBI:136709
 name: N-acetyl-beta-D-galactosaminyl-(1->3)-N-acetyl-beta-D-glucosaminyl-(1->4)-alpha-D-mannosyl-L-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:136710
 name: N-acetyl-beta-D-galactosaminyl-(1->3)-N-acetyl-beta-D-glucosaminyl-(1->4)-6-O-phosphonato-alpha-D-mannosyl-L-threonine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -9415,6 +9406,7 @@ is_a: CHEBI:21650 ! N-acyl-L-glutamic acid
 [Term]
 id: CHEBI:136714
 name: C-terminal-gamma-(L-glutamyl)-L-glutamyl(3-) group
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -9427,6 +9419,7 @@ is_a: CHEBI:59874 ! N-acyl-L-alpha-amino acid anion
 [Term]
 id: CHEBI:136717
 name: C-terminal-gamma-(5-phospho-L-glutamyl )-L-glutamyl(4-) group
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -9555,11 +9548,13 @@ is_a: CHEBI:65102 ! 3-hydroxy fatty acyl-CoA(4-)
 [Term]
 id: CHEBI:136761
 name: C-terminal-gamma-(L-glutamyl 5-semialdehyde)-L-glutamyl(2-) group
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
 id: CHEBI:136763
 name: C-terminal-gamma-(L-ornithyl)-L-glutamyl(1-) group
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -9844,6 +9839,7 @@ is_a: CHEBI:90675 ! ribonucleotide residue(1-)
 [Term]
 id: CHEBI:136878
 name: C2-C8-saturated long-chain fatty acyl pantetheine-4-phosphorylserine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:133243 ! O-[S-(long-chain fatty acyl)pantetheine-4'-phosphoryl]serine(1-) residue
 
 [Term]
@@ -9947,6 +9943,7 @@ is_a: CHEBI:64775 ! organic anionic group
 [Term]
 id: CHEBI:136897
 name: O-[S-(3S)-hydroxy-3-methylglutarylpantetheine-4'-phosphoryl]-L-serine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 
 [Term]
@@ -10016,22 +10013,26 @@ is_a: CHEBI:83411 ! beta-D-glucosiduronate
 [Term]
 id: CHEBI:136907
 name: (7S)-7-hydroxy-C2-C8-saturated long-chain fatty acyl pantetheine-4-phosphorylserine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:133243 ! O-[S-(long-chain fatty acyl)pantetheine-4'-phosphoryl]serine(1-) residue
 is_a: CHEBI:133479 ! S-(long-chain fatty acyl)-L-cysteine residue
 
 [Term]
 id: CHEBI:136908
 name: (7R,8R)-7,8-dihydroxy-C2-C8-saturated long-chain fatty acyl pantetheine-4-phosphorylserine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:133243 ! O-[S-(long-chain fatty acyl)pantetheine-4'-phosphoryl]serine(1-) residue
 
 [Term]
 id: CHEBI:136910
 name: O-[S-(7-oxoheptanoyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:136911
 name: N-(4-ammoniobutylidene)-L-lysinium(2+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
@@ -10363,11 +10364,13 @@ is_a: CHEBI:50711 ! trihomomethionine
 [Term]
 id: CHEBI:137000
 name: C-terminal Xaa-Gly(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
 id: CHEBI:137001
 name: C-terminal alpha-amino-acid amide residue
+subset: chebi_ph7_3
 is_a: CHEBI:22332 ! alkylamino group
 
 [Term]
@@ -10379,6 +10382,7 @@ is_a: CHEBI:50712 ! tetrahomomethionine
 [Term]
 id: CHEBI:137003
 name: C-terminal Xaa-hydroxyglycino(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -11059,11 +11063,13 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:137323
 name: O-(alpha-D-mannosyl)-L-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:137328
 name: epoxy(hydroxy)icosatrienoate
+subset: chebi_ph7_3
 is_a: CHEBI:131871 ! hydroxy polyunsaturated fatty acid anion
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:62937 ! icosanoid anion
@@ -11186,7 +11192,7 @@ is_a: CHEBI:83621 ! fatty acyl-AMP
 id: CHEBI:137385
 name: (24S)-hydroxycholesterol 24-sulfate
 is_a: CHEBI:16158 ! steroid sulfate
-is_a: CHEBI:36836 ! 3beta-hydroxy steroid
+is_a: CHEBI:1722 ! 3beta-hydroxy-Delta(5)-steroid
 
 [Term]
 id: CHEBI:137386
@@ -11354,7 +11360,8 @@ is_a: CHEBI:35972 ! dihydroxy monocarboxylic acid
 id: CHEBI:137457
 name: 9,10-epoxy-18-hydroxyoctadecanoate
 subset: chebi_ph7_3
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
+is_a: CHEBI:190711 ! epoxy fatty acid anion
 
 [Term]
 id: CHEBI:137458
@@ -11390,40 +11397,40 @@ id: CHEBI:137467
 name: 9,10-epoxy-18-hydroxy-(12Z)-octadecenoate
 subset: chebi_ph7_3
 is_a: CHEBI:131860 ! octadecanoid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
+is_a: CHEBI:190711 ! epoxy fatty acid anion
 
 [Term]
 id: CHEBI:137469
 name: 12,13-epoxy-18-hydroxy-(9Z)-octadecenoate
 subset: chebi_ph7_3
 is_a: CHEBI:131860 ! octadecanoid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
+is_a: CHEBI:190711 ! epoxy fatty acid anion
 
 [Term]
 id: CHEBI:137474
 name: 8,9-epoxy-20-hydroxy-(5Z,11Z,14Z)-icosatrienoate
 subset: chebi_ph7_3
-is_a: CHEBI:59835 ! hydroxy fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
+is_a: CHEBI:190711 ! epoxy fatty acid anion
 is_a: CHEBI:62937 ! icosanoid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:137475
 name: 11,12-epoxy-20-hydroxy-(5Z,8Z,14Z)-icosatrienoate
 subset: chebi_ph7_3
-is_a: CHEBI:59835 ! hydroxy fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 is_a: CHEBI:62937 ! icosanoid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:137476
 name: 14,15-epoxy-20-hydroxy-(5Z,8Z,11Z)-icosatrienoate
 subset: chebi_ph7_3
-is_a: CHEBI:59835 ! hydroxy fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 is_a: CHEBI:62937 ! icosanoid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
@@ -11657,6 +11664,7 @@ is_a: CHEBI:23218 ! choloyl-CoAs
 [Term]
 id: CHEBI:137540
 name: N-acetyl-beta-D-glucosaminyl-(1->4)-alpha-D-mannosyl-L-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -12434,6 +12442,7 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:137950
 name: O(3)-(beta-D-galactosyl-(1->3)-N-acetyl-alpha-D-galactosaminyl)-L-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -12444,11 +12453,13 @@ is_a: CHEBI:35262 ! UDP-amino sugar
 [Term]
 id: CHEBI:137954
 name: N(6)-[(E)-but-2-enoyl]-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:137967 ! N(6)-acyl-L-lysine residue
 
 [Term]
 id: CHEBI:137955
 name: N(6)-butyryl-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:137967 ! N(6)-acyl-L-lysine residue
 
 [Term]
@@ -12491,11 +12502,13 @@ is_a: CHEBI:35618 ! aromatic ether
 [Term]
 id: CHEBI:137967
 name: N(6)-acyl-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:137976
 name: S-acetyl-O-[2'-(5-phosphoribosyl)-3'-dephospho-CoA]-L-serine(3-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -12517,6 +12530,7 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 [Term]
 id: CHEBI:137982
 name: tertiary ammonium ion
+subset: chebi_ph7_3
 is_a: CHEBI:25697 ! organic cation
 
 [Term]
@@ -12528,6 +12542,7 @@ is_a: CHEBI:35267 ! quaternary ammonium ion
 [Term]
 id: CHEBI:137984
 name: methylated secondary ammonium ion
+subset: chebi_ph7_3
 is_a: CHEBI:137982 ! tertiary ammonium ion
 
 [Term]
@@ -12576,21 +12591,25 @@ relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 [Term]
 id: CHEBI:137996
 name: O-[S-(gamma-L-glutamyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:137997
 name: O-[S-4-(aminobutanoyl)pantetheine-4'-phosphoryl]serine zwitterionic residue
+subset: chebi_ph7_3
 is_a: CHEBI:64768 ! zwitterionic group
 
 [Term]
 id: CHEBI:137998
 name: O-\{S-[4-(gamma-L-glutamylamino)butanoyl]pantetheine-4'-phosphoryl}serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:137999
 name: O-[S-4-(gamma-L-glutamylamino)-(2S)-2-hydroxybutanoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -12620,6 +12639,7 @@ is_a: CHEBI:51061 ! hormone receptor modulator
 [Term]
 id: CHEBI:138019
 name: N(6)-propanoyl-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:137967 ! N(6)-acyl-L-lysine residue
 
 [Term]
@@ -12688,6 +12708,7 @@ is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 [Term]
 id: CHEBI:138035
 name: S-mycothiol-L-cysteine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -12864,6 +12885,7 @@ is_a: CHEBI:134400 ! cationic peptidyl group
 [Term]
 id: CHEBI:138060
 name: N-terminal N-methyl-L-prolyl-L-prolyl-L-lysyl(2+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:134400 ! cationic peptidyl group
 
 [Term]
@@ -12892,6 +12914,7 @@ relationship: has_role CHEBI:25747 ! oxidized luciferins
 [Term]
 id: CHEBI:138067
 name: N-acetyl-beta-D-glucosaminyl-(1->2)-alpha-D-mannosyl-L-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -13053,6 +13076,7 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 [Term]
 id: CHEBI:138111
 name: (3S)-3-hydroxy-L-aspartate residue
+subset: chebi_ph7_3
 is_a: CHEBI:17427 ! 3-hydroxy-L-aspartate residue
 
 [Term]
@@ -13064,11 +13088,13 @@ is_a: CHEBI:62196 ! polysaccharide acid oxoanion
 [Term]
 id: CHEBI:138113
 name: O-adenyl-L-threonine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 
 [Term]
 id: CHEBI:138114
 name: O-guanylyl-L-tyrosine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 
 [Term]
@@ -13200,6 +13226,7 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 [Term]
 id: CHEBI:138175
 name: O-[S-(L-alpha-aminoacyl)pantetheine-4'-phosphoryl]serine zwitterionic residue
+subset: chebi_ph7_3
 is_a: CHEBI:64768 ! zwitterionic group
 
 [Term]
@@ -13478,6 +13505,7 @@ relationship: has_role CHEBI:76976 ! bacterial xenobiotic metabolite
 [Term]
 id: CHEBI:138238
 name: pyrimidine ribonucleoside 5'-monophosphate(2-)
+subset: chebi_ph7_3
 is_a: CHEBI:58043 ! nucleoside 5'-monophosphate(2-)
 
 [Term]
@@ -13530,7 +13558,7 @@ is_a: CHEBI:82464 ! cis-9,10-epoxyoctadecanoic acid
 [Term]
 id: CHEBI:138265
 name: 9,10-epoxy-18-hydroxy-(12Z)-octadecenoic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 is_a: CHEBI:36326 ! octadecanoid
 is_a: CHEBI:61498 ! epoxy fatty acid
 
@@ -13564,27 +13592,27 @@ is_a: CHEBI:62643 ! anionic phospholipid
 [Term]
 id: CHEBI:138270
 name: 12,13-epoxy-18-hydroxy-(9Z)-octadecenoic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 is_a: CHEBI:36326 ! octadecanoid
 is_a: CHEBI:61498 ! epoxy fatty acid
 
 [Term]
 id: CHEBI:138272
 name: 8,9-epoxy-20-hydroxy-(5Z,11Z,14Z)-icosatrienoic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
 is_a: CHEBI:138138 ! epoxy(hydroxy)icosatrienoic acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 
 [Term]
 id: CHEBI:138273
 name: 11,12-epoxy-20-hydroxy-(5Z,8Z,14Z)-icosatrienoic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
 is_a: CHEBI:138138 ! epoxy(hydroxy)icosatrienoic acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 
 [Term]
 id: CHEBI:138274
 name: 14,15-epoxy-20-hydroxy-(5Z,8Z,11Z)-icosatrienoic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
 is_a: CHEBI:138138 ! epoxy(hydroxy)icosatrienoic acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 
 [Term]
 id: CHEBI:138275
@@ -13650,6 +13678,7 @@ is_a: CHEBI:50320 ! nucleoside residue
 [Term]
 id: CHEBI:138286
 name: N-terminal N,N-dimethyl-L-alanyl-L-prolyl-L-lysyl(2+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:134400 ! cationic peptidyl group
 
 [Term]
@@ -13685,13 +13714,13 @@ is_a: CHEBI:77636 ! fatty acyl-CoA(4-)
 id: CHEBI:138293
 name: bis(hydroperoxy)icosatetraenoic acid
 is_a: CHEBI:15904 ! long-chain fatty acid
+is_a: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
 is_a: CHEBI:23899 ! icosanoid
-is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
 
 [Term]
 id: CHEBI:138294
 name: N(epsilon)-(5'-guanylyl)-L-lysine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 
 [Term]
@@ -13788,6 +13817,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:138309
 name: C-terminal L-alpha-amino-acid-L-tyrosinate residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -13827,6 +13857,7 @@ is_a: CHEBI:134400 ! cationic peptidyl group
 [Term]
 id: CHEBI:138316
 name: N-terminal N,N-dimethyl-L-seryl-L-prolyl-L-lysyl(2+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:134400 ! cationic peptidyl group
 
 [Term]
@@ -13854,6 +13885,7 @@ is_a: CHEBI:36314 ! glycerophosphoethanolamine
 [Term]
 id: CHEBI:138321
 name: O-[S-(4-hydroxybenzoyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -13913,6 +13945,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 [Term]
 id: CHEBI:138334
 name: N(tele)-(N(7)-methylguanosine 5'-phosphonato)-L-histidine zwitterion residue
+subset: chebi_ph7_3
 is_a: CHEBI:33710 ! alpha-amino-acid residue
 is_a: CHEBI:64768 ! zwitterionic group
 
@@ -13999,6 +14032,7 @@ is_a: CHEBI:62196 ! polysaccharide acid oxoanion
 [Term]
 id: CHEBI:138370
 name: N(6)-(gamma-glutamyl)lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -14072,6 +14106,7 @@ is_a: CHEBI:47789 ! 7-oxo steroid
 [Term]
 id: CHEBI:138385
 name: N(omega)-(2'-phospho-ADP-D-ribosyl)-L-arginine(3-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -14184,6 +14219,7 @@ is_a: CHEBI:35692 ! dicarboxylic acid
 [Term]
 id: CHEBI:138403
 name: O-[S-(2E,9Z)-hexadecadienoylpantetheine-4'-phosphoryl]-L-serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78784 ! O-[S-(2E)-2-enoylpantetheine-4'-phosphoryl]-L-serine(1-) residue
 
 [Term]
@@ -14196,16 +14232,19 @@ is_a: CHEBI:90546 ! medium-chain fatty acyl-CoA(4-)
 [Term]
 id: CHEBI:138405
 name: O-(S-(7Z)-tetradecenoylpantetheine-4'-phosphoryl)-L-serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:138406
 name: O-\{S-[(9Z)-3-oxohexadecenoylpantetheine]-4'-phosphoryl}-L-serine(1-)    residue
+subset: chebi_ph7_3
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:138407
 name: O-[S-(3R)-hydroxy-(9Z)-hexadecenoylpantetheine-4'-phosphoryl]-L-serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -14395,6 +14434,7 @@ relationship: has_role CHEBI:25212 ! metabolite
 [Term]
 id: CHEBI:138538
 name: O-\{S-[3-oxo-(11Z)-octadecenoyl]pantetheine-4'-phosphoryl}-L-serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
@@ -14453,6 +14493,7 @@ relationship: has_role CHEBI:76946 ! fungal metabolite
 [Term]
 id: CHEBI:138595
 name: O-phosphocholine-L-serine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -14522,11 +14563,13 @@ is_a: CHEBI:57319 ! (R)-3-hydroxyacyl-CoA(4-)
 [Term]
 id: CHEBI:138610
 name: O-[S-(2E)-isoheptenoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78784 ! O-[S-(2E)-2-enoylpantetheine-4'-phosphoryl]-L-serine(1-) residue
 
 [Term]
 id: CHEBI:138611
 name: O-[S-(isoheptanoyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -14545,6 +14588,7 @@ is_a: CHEBI:39192 ! dithiolanes
 [Term]
 id: CHEBI:138620
 name: O-[S-(D-alanyl)pantetheine-4'-phosphoryl]-L-serine zwitterionic residue
+subset: chebi_ph7_3
 is_a: CHEBI:138175 ! O-[S-(L-alpha-aminoacyl)pantetheine-4'-phosphoryl]serine zwitterionic residue
 
 [Term]
@@ -14556,11 +14600,13 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 [Term]
 id: CHEBI:138622
 name: O-(S-L-prolylpantetheine-4'-phosphoryl)serine zwitterionic residue
+subset: chebi_ph7_3
 is_a: CHEBI:138175 ! O-[S-(L-alpha-aminoacyl)pantetheine-4'-phosphoryl]serine zwitterionic residue
 
 [Term]
 id: CHEBI:138623
 name: O-[S-(pyrrole-2-carbonyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -14657,6 +14703,7 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 [Term]
 id: CHEBI:138651
 name: O-(S-fatty acylpantetheine-4'-phosphoryl)-L-serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -15000,6 +15047,7 @@ is_a: CHEBI:46761 ! dipeptide
 [Term]
 id: CHEBI:138936
 name: N(6)-hexadecanoyl-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:137967 ! N(6)-acyl-L-lysine residue
 is_a: CHEBI:189854 ! N(6)-(fatty acyl)-L-lysine residue
 
@@ -15557,11 +15605,13 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:139126
 name: C-terminal S-carbamoyl-L-cysteinate residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
 id: CHEBI:139127
 name: C-terminal S-cyano-L-cysteinate residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -16079,11 +16129,13 @@ is_a: CHEBI:61469 ! polyanionic polymer
 [Term]
 id: CHEBI:139291
 name: chlorophyll(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
 
 [Term]
 id: CHEBI:139292
 name: chlorophyllide(2-)
+subset: chebi_ph7_3
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
 
@@ -16130,11 +16182,13 @@ is_a: CHEBI:61907 ! medium-chain fatty acyl-CoA
 [Term]
 id: CHEBI:139319
 name: S-disulfanyl-L-cysteine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:139321
 name: S-(sulfosulfanyl)-L-cysteine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -16672,6 +16726,7 @@ is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
 [Term]
 id: CHEBI:139580
 name: O(3)-[N-acetyl-beta-D-glucosaminyl-(1->3)-[N-acetyl-beta-D-glucosaminyl-(1->6)]-N-acetyl-alpha-D-galactosaminyl]-L-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -16738,6 +16793,7 @@ is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 [Term]
 id: CHEBI:139598
 name: O(3)-[N-acetyl-alpha-neuraminyl-(2->3)-beta-D-galactosyl-(1->3)-N-acetyl-alpha-D-galactosaminyl]-L-threonine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -16764,6 +16820,7 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:139607
 name: O(3)-\{beta-D-galactosyl-(1->3)-[N-acetyl-beta-D-glucosaminyl-(1->6)]-N-acetyl-alpha-D-galactosaminyl}-L-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -16783,6 +16840,7 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:139612
 name: O(3)-\{N-acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->3)-[N-acetyl-beta-D-glucosaminyl-(1->6)]-N-acetyl-alpha-D-galactosaminyl}-L-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -16823,6 +16881,7 @@ is_a: CHEBI:57875 ! 2-acyl-sn-glycero-3-phosphocholine
 [Term]
 id: CHEBI:140083
 name: O(3)-[N-acetyl-beta-D-glucosaminyl-(1->2)-alpha-D-mannosyl]-L-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -16848,6 +16907,7 @@ is_a: CHEBI:83822 ! non-proteinogenic L-alpha-amino acid
 [Term]
 id: CHEBI:140087
 name: O(3)-\{N-acetyl-beta-D-glucosaminyl-(1->2)-[N-acetyl-beta-D-glucosaminyl-(1->6)]-alpha-D-mannosyl}-L-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -16901,6 +16961,7 @@ is_a: CHEBI:33859 ! aromatic carboxylic acid
 [Term]
 id: CHEBI:140159
 name: D-hexose phosphate(2-)
+subset: chebi_ph7_3
 is_a: CHEBI:58945 ! organophosphate oxoanion
 
 [Term]
@@ -17018,11 +17079,13 @@ relationship: has_role CHEBI:84735 ! algal metabolite
 [Term]
 id: CHEBI:140219
 name: O-[S-(4,5-dichloropyrrole-2-carbonyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:140221
 name: O-[S-(5-chloropyrrole-2-carbonyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -17362,6 +17425,7 @@ is_a: CHEBI:64898 ! anionic amino-acid residue
 [Term]
 id: CHEBI:140371
 name: N(4)-[6-phospho-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-glycan]-L-asparagine residue
+subset: chebi_ph7_3
 is_a: CHEBI:59108 ! N(4)-glycosylated L-asparagine residue
 
 [Term]
@@ -17442,6 +17506,7 @@ is_a: CHEBI:35868 ! hydroxy monocarboxylic acid
 [Term]
 id: CHEBI:140395
 name: poly(nucleoside 5'-monophosphate) polyanion
+subset: chebi_ph7_3
 is_a: CHEBI:60164 ! ionic polymer
 
 [Term]
@@ -17478,6 +17543,7 @@ is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 [Term]
 id: CHEBI:140434
 name: 3-[(Z)-2-isocyanovinyl]indole
+subset: chebi_ph7_3
 is_a: CHEBI:144370 ! 3-(2-isocyanovinyl)indole
 relationship: has_role CHEBI:33282 ! antibacterial agent
 relationship: has_role CHEBI:76969 ! bacterial metabolite
@@ -17485,6 +17551,7 @@ relationship: has_role CHEBI:76969 ! bacterial metabolite
 [Term]
 id: CHEBI:140439
 name: 3-geranyl-3-[(Z)-2-isocyanovinyl]-3H-indole
+subset: chebi_ph7_3
 is_a: CHEBI:24828 ! indoles
 is_a: CHEBI:35353 ! isocyanide
 is_a: CHEBI:78840 ! olefinic compound
@@ -17492,6 +17559,7 @@ is_a: CHEBI:78840 ! olefinic compound
 [Term]
 id: CHEBI:140440
 name: hapalindole H
+subset: chebi_ph7_3
 is_a: CHEBI:141617 ! hapalindole
 is_a: CHEBI:35353 ! isocyanide
 is_a: CHEBI:38163 ! organic heterotetracyclic compound
@@ -17500,6 +17568,7 @@ relationship: has_role CHEBI:76969 ! bacterial metabolite
 [Term]
 id: CHEBI:140441
 name: 12-epi-hapalindole U
+subset: chebi_ph7_3
 is_a: CHEBI:141617 ! hapalindole
 is_a: CHEBI:35353 ! isocyanide
 is_a: CHEBI:38163 ! organic heterotetracyclic compound
@@ -17508,6 +17577,7 @@ relationship: has_role CHEBI:76969 ! bacterial metabolite
 [Term]
 id: CHEBI:140442
 name: 12-epi-fischerindole U
+subset: chebi_ph7_3
 is_a: CHEBI:141619 ! fischerindole alkaloid
 is_a: CHEBI:35353 ! isocyanide
 is_a: CHEBI:38163 ! organic heterotetracyclic compound
@@ -17547,16 +17617,19 @@ is_a: CHEBI:77284 ! 1-(Z)-alk-1-enyl-2-acyl-sn-glycero-3-phosphate(2-)
 [Term]
 id: CHEBI:140454
 name: O-[S-(5-bromopyrrole-2-carbonyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:140455
 name: O-[S-(4,5-dibromopyrrole-2-carbonyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:140456
 name: O-[S-(3,4,5-tribromopyrrole-2-carbonyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -17747,11 +17820,13 @@ is_a: CHEBI:63551 ! carbohydrate acid derivative anion
 [Term]
 id: CHEBI:140573
 name: alpha-D-glucosyl-L-tyrosyl residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:140574
 name: (1,4-alpha-D-glucosyl)(n)-L-tyrosyl residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -17769,11 +17844,13 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:140577
 name: beta-D-glucosyl-L-threonyl residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:140578
 name: alpha-D-xylose-(1->3)-beta-D-glucose-L-threonyl residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -17813,6 +17890,7 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:140600
 name: alpha-D-xylose-(1->3)-alpha-D-xylose-(1->3)-beta-D-glucose-L-threonyl residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -17855,6 +17933,7 @@ is_a: CHEBI:50860 ! organic molecular entity
 [Term]
 id: CHEBI:140607
 name: S-(ADP-D-ribosyl)-L-cysteine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
@@ -18035,26 +18114,31 @@ is_a: CHEBI:60164 ! ionic polymer
 [Term]
 id: CHEBI:140647
 name: (2S)-3-(4-hydroxyphenyl)-2-isocyanopropanoate
+subset: chebi_ph7_3
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:140648
 name: (2E)-3-(4-hydroxyphenyl)-2-isocyanoprop-2-enoate
+subset: chebi_ph7_3
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:140650
 name: 4-[(E)-2-isocyanoethenyl]phenol
+subset: chebi_ph7_3
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:140652
 name: (2S)-3-(1H-indol-3-yl)-2-isocyanopropanoate
+subset: chebi_ph7_3
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:140654
 name: 3-[(E)-2-isocyanovinyl]indole
+subset: chebi_ph7_3
 is_a: CHEBI:144370 ! 3-(2-isocyanovinyl)indole
 
 [Term]
@@ -18078,6 +18162,7 @@ is_a: CHEBI:50860 ! organic molecular entity
 [Term]
 id: CHEBI:140658
 name: S-1,2-diacyl-sn-glyceryl-L-cysteine residue
+subset: chebi_ph7_3
 is_a: CHEBI:29950 ! L-cysteine residue
 
 [Term]
@@ -18102,6 +18187,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 [Term]
 id: CHEBI:140664
 name: S-(2-sulfodisulfanyl)-L-cysteine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -18301,6 +18387,7 @@ is_a: CHEBI:23390 ! cobalt-corrinoid hexaamide
 [Term]
 id: CHEBI:141014
 name: a pyrimidine ribonucleoside
+subset: chebi_ph7_3
 is_a: CHEBI:18254 ! ribonucleoside
 
 [Term]
@@ -18332,6 +18419,7 @@ is_a: CHEBI:37584 ! nicotinic acid dinucleotide
 [Term]
 id: CHEBI:141129
 name: N(6)-tetradecanoyl-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:189854 ! N(6)-(fatty acyl)-L-lysine residue
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
@@ -18393,11 +18481,13 @@ is_a: CHEBI:58025 ! octopaminium
 [Term]
 id: CHEBI:141492
 name: (3S)-3-hydroxy-L-lysine(1+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:58943 ! alpha-amino-acid cation residue
 
 [Term]
 id: CHEBI:141495
 name: 4-hydroxy-L-lysine(1+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:58943 ! alpha-amino-acid cation residue
 
 [Term]
@@ -18517,6 +18607,7 @@ is_a: CHEBI:27092 ! tricarboxylic acid trianion
 [Term]
 id: CHEBI:141817
 name: 5-hydroxy-L-lysinium residue
+subset: chebi_ph7_3
 is_a: CHEBI:58943 ! alpha-amino-acid cation residue
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
@@ -18574,6 +18665,7 @@ is_a: CHEBI:142232 ! 2,5,7-trihydroxy-2-phenyl-2,3-dihydro-4H-chromen-4-one
 [Term]
 id: CHEBI:141997
 name: hydroxy-L-argininium residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -18662,11 +18754,13 @@ relationship: has_role CHEBI:53000 ! epitope
 [Term]
 id: CHEBI:142198
 name: purine 2'-deoxyribonucleoside 5'-phosphate(2-)
+subset: chebi_ph7_3
 is_a: CHEBI:65317 ! 2'-deoxynucleoside 5'-monophosphate(2-)
 
 [Term]
 id: CHEBI:142209
 name: pyrimidine 2'-deoxyribonucleoside 5'-phosphate(2-)
+subset: chebi_ph7_3
 is_a: CHEBI:65317 ! 2'-deoxynucleoside 5'-monophosphate(2-)
 
 [Term]
@@ -18713,6 +18807,7 @@ is_a: CHEBI:38739 ! trihydroxyflavanone
 [Term]
 id: CHEBI:142235
 name: Se-L-selenocysteine-S-L-cysteine residue
+subset: chebi_ph7_3
 is_a: CHEBI:26629 ! selenoamino acid
 
 [Term]
@@ -18735,11 +18830,13 @@ is_a: CHEBI:36785 ! carbobicyclic compound
 [Term]
 id: CHEBI:142355
 name: purines D-ribonucleoside
+subset: chebi_ph7_3
 is_a: CHEBI:26399 ! purine ribonucleoside
 
 [Term]
 id: CHEBI:142361
 name: purines 2'-deoxy-D-ribonucleoside
+subset: chebi_ph7_3
 is_a: CHEBI:19254 ! purine 2'-deoxyribonucleoside
 is_a: CHEBI:50860 ! organic molecular entity
 
@@ -18859,6 +18956,7 @@ relationship: has_role CHEBI:53000 ! epitope
 [Term]
 id: CHEBI:142515
 name: 6-N-(ADP-D-ribosyl)-L-lysinium(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
@@ -18928,6 +19026,7 @@ relationship: has_part CHEBI:142549 ! ent-tamsulosin(1+)
 [Term]
 id: CHEBI:142554
 name: N(omega)-(ADP-D-ribosyl)-L-argininium(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
@@ -18941,6 +19040,7 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:142557
 name: O-(ADP-D-ribosyl)-L-tyrosine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
@@ -19070,6 +19170,7 @@ relationship: has_role CHEBI:53000 ! epitope
 [Term]
 id: CHEBI:142768
 name: C-terminal Xaa-(2S)-hydroxyglycino(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:137003 ! C-terminal Xaa-hydroxyglycino(1-) residue
 
 [Term]
@@ -19532,11 +19633,13 @@ relationship: has_role CHEBI:78675 ! fundamental metabolite
 [Term]
 id: CHEBI:143253
 name: N(6)-(D-fructosyl)-L-lysinium residue
+subset: chebi_ph7_3
 is_a: CHEBI:29969 ! L-lysinium residue
 
 [Term]
 id: CHEBI:143254
 name: N(6)-(3-O-phospho-D-fructosyl)-L-lysinium(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:29969 ! L-lysinium residue
 
 [Term]
@@ -19709,6 +19812,7 @@ is_a: CHEBI:50860 ! organic molecular entity
 [Term]
 id: CHEBI:143819
 name: C-terminal amino acid residue(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -19756,6 +19860,7 @@ is_a: CHEBI:25154 ! manganese molecular entity
 [Term]
 id: CHEBI:143915
 name: N(6)-(pyridoxal phosphate)-L-lysine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 
 [Term]
@@ -19992,11 +20097,13 @@ is_a: CHEBI:84185 ! D-proline derivative
 [Term]
 id: CHEBI:144644
 name: a tetracycline zwitterion
+subset: chebi_ph7_3
 is_a: CHEBI:26895 ! tetracyclines
 
 [Term]
 id: CHEBI:144645
 name: an 11a-hydroxytetracyline zwitterion
+subset: chebi_ph7_3
 is_a: CHEBI:27369 ! zwitterion
 
 [Term]
@@ -20109,6 +20216,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:144776
 name: delphinidin 3-O-beta-D-glucoside betaine
+subset: chebi_ph7_3
 is_a: CHEBI:16307 ! anthocyanidin 3-O-beta-D-glucoside
 is_a: CHEBI:51978 ! oxonium betaine
 
@@ -20193,6 +20301,7 @@ is_a: CHEBI:27369 ! zwitterion
 [Term]
 id: CHEBI:144968
 name: N(6)-(2-hydroxyisobutanoyl)-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:137967 ! N(6)-acyl-L-lysine residue
 
 [Term]
@@ -20299,6 +20408,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:145324
 name: N(6)-lactoyl-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:137967 ! N(6)-acyl-L-lysine residue
 
 [Term]
@@ -20794,6 +20904,7 @@ is_a: CHEBI:27150 ! trisaccharide
 [Term]
 id: CHEBI:146199
 name: S-(S-glutathionyl)-L-cysteine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:29950 ! L-cysteine residue
 
 [Term]
@@ -21165,12 +21276,14 @@ is_a: CHEBI:22587 ! antiviral agent
 [Term]
 id: CHEBI:149554
 name: C-terminal alpha-amino-acyl-L-glutamyl-L-glutamyl-L-tyrosinate(3-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:33710 ! alpha-amino-acid residue
 is_a: CHEBI:33711 ! C-terminal amino-acid residue
 
 [Term]
 id: CHEBI:149555
 name: C-terminal alpha-amino-acyl-L-glutamyl-L-glutamate(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:33710 ! alpha-amino-acid residue
 is_a: CHEBI:33711 ! C-terminal amino-acid residue
 
@@ -21262,8 +21375,9 @@ is_a: CHEBI:83982 ! L-glutamic acid derivative
 
 [Term]
 id: CHEBI:149779
-name: Mannogen
-is_a: CHEBI:50860 ! organic molecular entity
+name: mannogen
+is_a: CHEBI:18154 ! polysaccharide
+relationship: has_role CHEBI:72316 ! virulence factor
 
 [Term]
 id: CHEBI:150
@@ -21798,6 +21912,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:15378
 name: hydron
+subset: chebi_ph7_3
 is_a: CHEBI:25414 ! monoatomic monocation
 is_a: CHEBI:33251 ! monoatomic hydrogen
 is_a: CHEBI:33252 ! atomic nucleus
@@ -22980,8 +23095,8 @@ relationship: has_role CHEBI:77746 ! human metabolite
 id: CHEBI:15560
 name: (15Z)-12-oxophyto-10,15-dienoic acid
 is_a: CHEBI:25754 ! oxo carboxylic acid
-is_a: CHEBI:27208 ! unsaturated fatty acid
 is_a: CHEBI:35744 ! carbocyclic fatty acid
+is_a: CHEBI:53339 ! olefinic fatty acid
 
 [Term]
 id: CHEBI:15561
@@ -23440,6 +23555,8 @@ is_a: CHEBI:22260 ! adenosines
 is_a: CHEBI:26830 ! sulfonium compound
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
+relationship: has_role CHEBI:84087 ! human urinary metabolite
+relationship: has_role CHEBI:86264 ! rat metabolite
 
 [Term]
 id: CHEBI:156255
@@ -24483,6 +24600,12 @@ is_a: CHEBI:27177 ! L-tyrosine derivative
 is_a: CHEBI:83822 ! non-proteinogenic L-alpha-amino acid
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
+
+[Term]
+id: CHEBI:157685
+name: primary linear alkyl sulfate ester(1-)
+subset: chebi_ph7_3
+is_a: CHEBI:58958 ! organosulfate oxoanion
 
 [Term]
 id: CHEBI:15769
@@ -25878,6 +26001,7 @@ is_a: CHEBI:48154 ! sulfur oxide
 [Term]
 id: CHEBI:15989
 name: L-methionine S-oxide residue
+subset: chebi_ph7_3
 is_a: CHEBI:33708 ! amino-acid residue
 
 [Term]
@@ -27513,6 +27637,7 @@ is_a: CHEBI:37534 ! ribitol 5-phosphate
 [Term]
 id: CHEBI:16247
 name: phospholipid
+subset: chebi_ph7_3
 is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:25703 ! organic phosphate
 is_a: CHEBI:37734 ! phosphoric ester
@@ -27592,7 +27717,9 @@ id: CHEBI:16261
 name: chitosan
 is_a: CHEBI:22506 ! aminoglycan
 is_a: CHEBI:72813 ! exopolysaccharide
+relationship: has_role CHEBI:192504 ! elicitor
 relationship: has_role CHEBI:73182 ! plant activator
+relationship: has_role CHEBI:73336 ! vulnerary
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 
 [Term]
@@ -27857,6 +27984,7 @@ is_a: CHEBI:21806 ! N(2),N(5)-diacyl-L-ornithine
 [Term]
 id: CHEBI:16307
 name: anthocyanidin 3-O-beta-D-glucoside
+subset: chebi_ph7_3
 is_a: CHEBI:22569 ! anthocyanidin glucoside
 
 [Term]
@@ -27951,6 +28079,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 [Term]
 id: CHEBI:16324
 name: rifamycin O
+subset: chebi_ph7_3
 is_a: CHEBI:26580 ! rifamycins
 
 [Term]
@@ -28555,6 +28684,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:16425
 name: 16-epivellosimine
+subset: chebi_ph7_3
 is_a: CHEBI:17478 ! aldehyde
 is_a: CHEBI:38164 ! organic heteropentacyclic compound
 is_a: CHEBI:38958 ! indole alkaloid
@@ -29209,7 +29339,7 @@ relationship: has_role CHEBI:78433 ! refrigerant
 [Term]
 id: CHEBI:165279
 name: 11-HpETE
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
+is_a: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
 
 [Term]
 id: CHEBI:16530
@@ -30132,6 +30262,7 @@ is_a: CHEBI:33822 ! organic hydroxy compound
 [Term]
 id: CHEBI:166868
 name: (5S)-C-methyl-L-argininium residue
+subset: chebi_ph7_3
 is_a: CHEBI:32699 ! argininium residue
 is_a: CHEBI:33727 ! proteinogenic amino-acid residue cation
 
@@ -30246,6 +30377,16 @@ subset: chebi_ph7_3
 is_a: CHEBI:18379 ! nitrile
 is_a: CHEBI:64708 ! one-carbon compound
 relationship: has_role CHEBI:35487 ! EC 1.2.1.3 [aldehyde dehydrogenase (NAD(+))] inhibitor
+
+[Term]
+id: CHEBI:166986
+name: alkyldiacylglyceride
+subset: chebi_ph7_3
+is_a: CHEBI:24353 ! glycerol ether
+is_a: CHEBI:33308 ! carboxylic ester
+is_a: CHEBI:47778 ! glyceride
+is_a: CHEBI:64611 ! ether lipid
+is_a: CHEBI:76579 ! triradylglycerol
 
 [Term]
 id: CHEBI:166988
@@ -30548,24 +30689,28 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 [Term]
 id: CHEBI:167174
 name: N-[2-(5-hydroxy-1H-indol-3-yl)ethyl]-L-glutamine residue
+subset: chebi_ph7_3
 is_a: CHEBI:24317 ! L-glutamine derivative
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:167175
 name: N-[2-(3,4-dihydroxyphenyl)ethyl]-L-glutamine residue
+subset: chebi_ph7_3
 is_a: CHEBI:24317 ! L-glutamine derivative
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:167178
 name: N-[(2R)-2-(3,4-dihydroxyphenyl)-2-hydroxyethyl]-L-glutamine residue
+subset: chebi_ph7_3
 is_a: CHEBI:24317 ! L-glutamine derivative
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:167179
 name: N-[2-(1H-imidazol-4-yl)ethyl]-L-glutamine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -30669,6 +30814,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 [Term]
 id: CHEBI:167322
 name: N(omega)-(N-acetyl-beta-D-glucosaminyl)-L-arginyl(1+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
@@ -30715,6 +30861,7 @@ relationship: has_role CHEBI:76976 ! bacterial xenobiotic metabolite
 [Term]
 id: CHEBI:16740
 name: trans-cyclohexa-3,5-diene-1,2-diol
+subset: chebi_ph7_3
 is_a: CHEBI:18887 ! cyclohexa-3,5-diene-1,2-diol
 
 [Term]
@@ -30749,6 +30896,7 @@ is_a: CHEBI:61313 ! C21-steroid
 [Term]
 id: CHEBI:167445
 name: N(omega)-(6-deoxy-alpha-L-mannosyl)-L-arginyl(2+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
@@ -31112,6 +31260,7 @@ is_a: CHEBI:20878 ! CMP-sugar
 [Term]
 id: CHEBI:167885
 name: primary fluorescent dioxobilin-type chlorophyll catabolite(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 is_a: CHEBI:59252 ! linear tetrapyrrole anion
 
@@ -31518,6 +31667,8 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 id: CHEBI:16841
 name: bis(3-aminopropyl)amine
 is_a: CHEBI:39474 ! polyazaalkane
+relationship: has_role CHEBI:76924 ! plant metabolite
+relationship: has_role CHEBI:84735 ! algal metabolite
 
 [Term]
 id: CHEBI:16842
@@ -32042,6 +32193,7 @@ is_a: CHEBI:35258 ! glyco-amino acid
 id: CHEBI:16933
 name: ergosterol
 subset: chebi_ph7_3
+is_a: CHEBI:1722 ! 3beta-hydroxy-Delta(5)-steroid
 is_a: CHEBI:26125 ! phytosterols
 is_a: CHEBI:35348 ! 3beta-sterol
 is_a: CHEBI:50403 ! ergostanoid
@@ -33706,6 +33858,7 @@ is_a: CHEBI:27119 ! trihydroxytoluene
 [Term]
 id: CHEBI:17187
 name: pinene
+subset: chebi_ph7_3
 is_a: CHEBI:35187 ! monoterpene
 
 [Term]
@@ -34647,16 +34800,19 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:173114
 name: tRNA 5'-phosphate polyanion
+subset: chebi_ph7_3
 is_a: CHEBI:140395 ! poly(nucleoside 5'-monophosphate) polyanion
 
 [Term]
 id: CHEBI:173115
 name: poly(RNA)-3'-adenine ribonucleotide polyanion
+subset: chebi_ph7_3
 is_a: CHEBI:60164 ! ionic polymer
 
 [Term]
 id: CHEBI:173116
 name: poly(RNA)-3'-uridine ribonucleotide polyanion
+subset: chebi_ph7_3
 is_a: CHEBI:60164 ! ionic polymer
 
 [Term]
@@ -35271,8 +35427,8 @@ is_a: CHEBI:47778 ! glyceride
 [Term]
 id: CHEBI:17409
 name: 10-hydroxycapric acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
-is_a: CHEBI:59554 ! medium-chain fatty acid
+is_a: CHEBI:194303 ! omega-hydroxy-medium-chain fatty acid
+is_a: CHEBI:39418 ! straight-chain saturated fatty acid
 
 [Term]
 id: CHEBI:17410
@@ -35363,6 +35519,7 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 [Term]
 id: CHEBI:17427
 name: 3-hydroxy-L-aspartate residue
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 
 [Term]
@@ -35899,6 +36056,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 [Term]
 id: CHEBI:17527
 name: 1,2,3,6-tetrakis-O-galloyl-beta-D-glucose
+subset: chebi_ph7_3
 is_a: CHEBI:24183 ! galloyl beta-D-glucose
 is_a: CHEBI:37576 ! gallate ester
 
@@ -37649,6 +37807,7 @@ id: CHEBI:17759
 name: cholesta-5,7-dien-3beta-ol
 subset: chebi_ph7_3
 is_a: CHEBI:138131 ! Delta(5),Delta(7)-sterol
+is_a: CHEBI:1722 ! 3beta-hydroxy-Delta(5)-steroid
 is_a: CHEBI:35348 ! 3beta-sterol
 is_a: CHEBI:50401 ! cholestanoid
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -37802,8 +37961,8 @@ relationship: has_role CHEBI:76969 ! bacterial metabolite
 [Term]
 id: CHEBI:177850
 name: (10E,12Z)-9-Hydroperoxy-10,12-octadecadienoic acid
+is_a: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
 is_a: CHEBI:25627 ! octadecadienoic acid
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
 
 [Term]
 id: CHEBI:17786
@@ -38392,10 +38551,9 @@ is_a: CHEBI:15835 ! 1-acylglycerone 3-phosphate
 [Term]
 id: CHEBI:17869
 name: 6-hydroxyhexanoic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:194303 ! omega-hydroxy-medium-chain fatty acid
 is_a: CHEBI:35971 ! 6-hydroxy monocarboxylic acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
-is_a: CHEBI:59554 ! medium-chain fatty acid
 relationship: has_role CHEBI:76976 ! bacterial xenobiotic metabolite
 
 [Term]
@@ -39340,6 +39498,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:18036
 name: triphosphate(5-)
+subset: chebi_ph7_3
 is_a: CHEBI:15266 ! triphosphate ion
 is_a: CHEBI:33461 ! phosphorus oxoanion
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -39508,6 +39667,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 [Term]
 id: CHEBI:18057
 name: vellosimine
+subset: chebi_ph7_3
 is_a: CHEBI:17478 ! aldehyde
 is_a: CHEBI:38164 ! organic heteropentacyclic compound
 is_a: CHEBI:38958 ! indole alkaloid
@@ -40628,6 +40788,7 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 id: CHEBI:18249
 name: ergosta-5,7,22,24(28)-tetraen-3beta-ol
 subset: chebi_ph7_3
+is_a: CHEBI:1722 ! 3beta-hydroxy-Delta(5)-steroid
 is_a: CHEBI:35348 ! 3beta-sterol
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 
@@ -40730,6 +40891,7 @@ relationship: has_role CHEBI:75771 ! mouse metabolite
 id: CHEBI:18262
 name: dodecanoate
 subset: chebi_ph7_3
+is_a: CHEBI:194240 ! omega-methyl-medium-chain fatty acid anion
 is_a: CHEBI:58954 ! straight-chain saturated fatty acid anion
 is_a: CHEBI:59558 ! medium-chain fatty acid anion
 is_a: CHEBI:76619 ! omega-methyl fatty acid anion
@@ -41950,6 +42112,7 @@ is_a: CHEBI:65323 ! monoterpenoid indole alkaloid
 [Term]
 id: CHEBI:184300
 name: ADP-2'-imine-ribofurano[1',2':4,5]oxazolidine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
@@ -42148,8 +42311,10 @@ relationship: has_role CHEBI:84087 ! human urinary metabolite
 
 [Term]
 id: CHEBI:188326
-name: Ammonium isovalerate
-is_a: CHEBI:62499 ! methyl-branched fatty acid
+name: ammonium isovalerate
+is_a: CHEBI:143100 ! organic ammonium salt
+relationship: has_part CHEBI:48942 ! isovalerate
+relationship: has_role CHEBI:35617 ! flavouring agent
 
 [Term]
 id: CHEBI:188358
@@ -42249,15 +42414,6 @@ relationship: has_role CHEBI:76964 ! Penicillium metabolite
 id: CHEBI:18913
 name: (1->3)-alpha-D-mannooligosaccharide
 is_a: CHEBI:25174 ! mannooligosaccharide
-
-[Term]
-id: CHEBI:18917
-name: 1,3-dichloropropan-2-ol
-subset: chebi_ph7_3
-is_a: CHEBI:35681 ! secondary alcohol
-is_a: CHEBI:36683 ! organochlorine compound
-relationship: has_role CHEBI:48356 ! protic solvent
-relationship: has_role CHEBI:50684 ! cross-linking reagent
 
 [Term]
 id: CHEBI:18918
@@ -42422,8 +42578,8 @@ is_a: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
 [Term]
 id: CHEBI:189832
 name: hydroperoxy polyunsaturated fatty acid
+is_a: CHEBI:194321 ! hydroperoxy unsaturated fatty acid
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
 
 [Term]
 id: CHEBI:189840
@@ -42445,6 +42601,7 @@ is_a: CHEBI:18059 ! lipid
 [Term]
 id: CHEBI:189854
 name: N(6)-(fatty acyl)-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:137967 ! N(6)-acyl-L-lysine residue
 
 [Term]
@@ -42467,6 +42624,7 @@ is_a: CHEBI:33554 ! organosulfonate oxoanion
 [Term]
 id: CHEBI:190135
 name: di-mu-sulfido-diiron
+subset: chebi_ph7_3
 is_a: CHEBI:49601 ! Fe2S2 iron-sulfur cluster
 
 [Term]
@@ -42630,7 +42788,7 @@ is_a: CHEBI:60466 ! peptide zwitterion
 id: CHEBI:190692
 name: substance P(3+)
 subset: chebi_ph7_3
-is_a: CHEBI:25676 ! oligopeptide
+is_a: CHEBI:60194 ! peptide cation
 
 [Term]
 id: CHEBI:190711
@@ -42642,6 +42800,13 @@ id: CHEBI:190712
 name: epoxy monocarboxylic acid anion
 is_a: CHEBI:32955 ! epoxide
 is_a: CHEBI:35757 ! monocarboxylic acid anion
+
+[Term]
+id: CHEBI:190744
+name: dihydrodemethylsterigmatocystin
+subset: chebi_ph7_3
+is_a: CHEBI:26759 ! sterigmatocystins
+relationship: has_role CHEBI:76956 ! Aspergillus metabolite
 
 [Term]
 id: CHEBI:19092
@@ -42664,6 +42829,14 @@ is_a: CHEBI:25384 ! monocarboxylic acid
 id: CHEBI:191197
 name: branched-chain keto acid
 is_a: CHEBI:25754 ! oxo carboxylic acid
+
+[Term]
+id: CHEBI:191200
+name: medium-chain (3S)-hydroxy fatty acyl-CoA(4-)
+subset: chebi_ph7_3
+is_a: CHEBI:57318 ! (S)-3-hydroxyacyl-CoA(4-)
+is_a: CHEBI:65102 ! 3-hydroxy fatty acyl-CoA(4-)
+is_a: CHEBI:90546 ! medium-chain fatty acyl-CoA(4-)
 
 [Term]
 id: CHEBI:191201
@@ -42689,11 +42862,17 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:191398
 name: N(tele)-(ADP-D-ribosyl)-L-histidyl(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:84076 ! L-histidine derivative
 
 [Term]
 id: CHEBI:191408
 name: ADP-alpha-D-ribose
+is_a: CHEBI:16960 ! ADP-D-ribose
+
+[Term]
+id: CHEBI:191409
+name: ADP-beta-D-ribose
 is_a: CHEBI:16960 ! ADP-D-ribose
 
 [Term]
@@ -42798,6 +42977,11 @@ id: CHEBI:192500
 name: flavanonol
 subset: chebi_ph7_3
 is_a: CHEBI:38691 ! flavan
+
+[Term]
+id: CHEBI:192504
+name: elicitor
+is_a: CHEBI:52206 ! biochemical role
 
 [Term]
 id: CHEBI:19252
@@ -43098,15 +43282,67 @@ relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
+id: CHEBI:194137
+name: neurokinin-1 receptor agonist
+is_a: CHEBI:48705 ! agonist
+
+[Term]
+id: CHEBI:194140
+name: dipalmitoleoylglycerol
+is_a: CHEBI:18035 ! diglyceride
+
+[Term]
 id: CHEBI:19418
 name: 3-(acetamidomethylene)-2-(hydroxymethyl)succinate(2-)
 subset: chebi_ph7_3
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 
 [Term]
+id: CHEBI:194240
+name: omega-methyl-medium-chain fatty acid anion
+is_a: CHEBI:59558 ! medium-chain fatty acid anion
+is_a: CHEBI:76619 ! omega-methyl fatty acid anion
+
+[Term]
+id: CHEBI:194241
+name: omega-hydroxy-medium-chain fatty acid anion
+is_a: CHEBI:59558 ! medium-chain fatty acid anion
+is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+
+[Term]
+id: CHEBI:194303
+name: omega-hydroxy-medium-chain fatty acid
+is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:59554 ! medium-chain fatty acid
+
+[Term]
+id: CHEBI:194304
+name: omega-hydroxy-very-long-chain fatty acid
+is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:27283 ! very long-chain fatty acid
+
+[Term]
+id: CHEBI:194306
+name: omega-hydroxy-short-chain fatty acid
+is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:26666 ! short-chain fatty acid
+
+[Term]
 id: CHEBI:19432
 name: 2-acetamidofluorenes
 is_a: CHEBI:24059 ! fluorenes
+
+[Term]
+id: CHEBI:194320
+name: hydroperoxy monounsaturated fatty acid
+is_a: CHEBI:194321 ! hydroperoxy unsaturated fatty acid
+is_a: CHEBI:25413 ! monounsaturated fatty acid
+
+[Term]
+id: CHEBI:194321
+name: hydroperoxy unsaturated fatty acid
+is_a: CHEBI:27208 ! unsaturated fatty acid
+is_a: CHEBI:64009 ! hydroperoxy fatty acid
 
 [Term]
 id: CHEBI:19448
@@ -46417,6 +46653,7 @@ relationship: has_part CHEBI:28694 ! copper atom
 [Term]
 id: CHEBI:23378
 name: copper cation
+subset: chebi_ph7_3
 is_a: CHEBI:33515 ! transition element cation
 is_a: CHEBI:37404 ! elemental copper
 relationship: has_role CHEBI:23357 ! cofactor
@@ -48028,6 +48265,7 @@ is_a: CHEBI:28874 ! phosphatidylinositol
 [Term]
 id: CHEBI:24431
 name: chemical entity
+subset: chebi_ph7_3
 
 [Term]
 id: CHEBI:24432
@@ -48128,6 +48366,7 @@ relationship: has_role CHEBI:76969 ! bacterial metabolite
 [Term]
 id: CHEBI:24480
 name: heme o
+subset: chebi_ph7_3
 is_a: CHEBI:30413 ! heme
 relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75771 ! mouse metabolite
@@ -48420,8 +48659,8 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:24644
 name: HPETE
+is_a: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
 is_a: CHEBI:23899 ! icosanoid
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
 
 [Term]
 id: CHEBI:24646
@@ -49033,6 +49272,7 @@ is_a: CHEBI:24869 ! ionophore
 [Term]
 id: CHEBI:24875
 name: iron cation
+subset: chebi_ph7_3
 is_a: CHEBI:33515 ! transition element cation
 is_a: CHEBI:82663 ! elemental iron
 relationship: has_role CHEBI:23357 ! cofactor
@@ -49096,6 +49336,7 @@ is_a: CHEBI:38166 ! organic heteropolycyclic compound
 id: CHEBI:24923
 name: isoquinolinol
 is_a: CHEBI:24922 ! isoquinolines
+is_a: CHEBI:33822 ! organic hydroxy compound
 
 [Term]
 id: CHEBI:24928
@@ -49595,6 +49836,7 @@ is_a: CHEBI:52206 ! biochemical role
 [Term]
 id: CHEBI:25213
 name: metal cation
+subset: chebi_ph7_3
 is_a: CHEBI:23906 ! monoatomic cation
 is_a: CHEBI:36915 ! inorganic cation
 
@@ -50180,6 +50422,7 @@ is_a: CHEBI:24402 ! glycosphingolipid
 [Term]
 id: CHEBI:25516
 name: nickel cation
+subset: chebi_ph7_3
 is_a: CHEBI:33515 ! transition element cation
 is_a: CHEBI:60248 ! nickel ion
 relationship: has_role CHEBI:23357 ! cofactor
@@ -51631,6 +51874,7 @@ is_a: CHEBI:26401 ! purines
 [Term]
 id: CHEBI:26386
 name: purine nucleobase
+subset: chebi_ph7_3
 is_a: CHEBI:18282 ! nucleobase
 is_a: CHEBI:26401 ! purines
 
@@ -51651,17 +51895,6 @@ id: CHEBI:26389
 name: purine deoxyribonucleoside triphosphate
 is_a: CHEBI:16516 ! 2'-deoxyribonucleoside triphosphate
 is_a: CHEBI:26393 ! purine nucleoside triphosphate
-
-[Term]
-id: CHEBI:2639
-name: amiloride
-subset: chebi_ph7_3
-is_a: CHEBI:24436 ! guanidines
-is_a: CHEBI:33860 ! aromatic amine
-is_a: CHEBI:36683 ! organochlorine compound
-is_a: CHEBI:38314 ! pyrazines
-relationship: has_role CHEBI:35498 ! diuretic
-relationship: has_role CHEBI:38633 ! sodium channel blocker
 
 [Term]
 id: CHEBI:26390
@@ -51720,14 +51953,6 @@ name: purine ribonucleoside
 subset: chebi_ph7_3
 is_a: CHEBI:18254 ! ribonucleoside
 is_a: CHEBI:26394 ! purine nucleoside
-
-[Term]
-id: CHEBI:2640
-name: amiloride hydrochloride dihydrate
-is_a: CHEBI:35505 ! hydrate
-relationship: has_part CHEBI:84743 ! amiloride hydrochloride
-relationship: has_role CHEBI:35498 ! diuretic
-relationship: has_role CHEBI:38633 ! sodium channel blocker
 
 [Term]
 id: CHEBI:26400
@@ -51796,6 +52021,7 @@ is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
 [Term]
 id: CHEBI:26432
 name: pyrimidine nucleobase
+subset: chebi_ph7_3
 is_a: CHEBI:18282 ! nucleobase
 is_a: CHEBI:39447 ! pyrimidines
 
@@ -54485,6 +54711,7 @@ is_a: CHEBI:22712 ! benzenes
 id: CHEBI:27689
 name: decanoate
 subset: chebi_ph7_3
+is_a: CHEBI:194240 ! omega-methyl-medium-chain fatty acid anion
 is_a: CHEBI:58954 ! straight-chain saturated fatty acid anion
 is_a: CHEBI:59558 ! medium-chain fatty acid anion
 is_a: CHEBI:78118 ! fatty acid anion 10:0
@@ -56626,6 +56853,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:28304
 name: heparin
+subset: chebi_ph7_3
 is_a: CHEBI:24505 ! heparins
 relationship: has_role CHEBI:50249 ! anticoagulant
 
@@ -57521,15 +57749,6 @@ relationship: has_role CHEBI:50910 ! neurotoxin
 relationship: has_role CHEBI:77523 ! Maillard reaction product
 
 [Term]
-id: CHEBI:28621
-name: triethanolamine
-is_a: CHEBI:22478 ! amino alcohol
-is_a: CHEBI:27136 ! triol
-is_a: CHEBI:50996 ! tertiary amino compound
-relationship: has_role CHEBI:35195 ! surfactant
-relationship: has_role CHEBI:35225 ! buffer
-
-[Term]
 id: CHEBI:28624
 name: tetrahydrofolyl-poly(glutamic acid) macromolecule
 is_a: CHEBI:26908 ! tetrahydrofolyl glutamate
@@ -58020,7 +58239,6 @@ is_a: CHEBI:139592 ! tertiary alpha-hydroxy ketone
 is_a: CHEBI:1722 ! 3beta-hydroxy-Delta(5)-steroid
 is_a: CHEBI:35342 ! 17alpha-hydroxy steroid
 is_a: CHEBI:36730 ! hydroxypregnenolone
-is_a: CHEBI:36836 ! 3beta-hydroxy steroid
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 
@@ -60171,6 +60389,7 @@ is_a: CHEBI:36903 ! selenium hydride
 [Term]
 id: CHEBI:29323
 name: methylazoxymethanol
+subset: chebi_ph7_3
 is_a: CHEBI:37390 ! azoxy compound
 
 [Term]
@@ -60888,11 +61107,13 @@ relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 [Term]
 id: CHEBI:29947
 name: glycine residue
+subset: chebi_ph7_3
 is_a: CHEBI:33700 ! proteinogenic amino-acid residue
 
 [Term]
 id: CHEBI:29950
 name: L-cysteine residue
+subset: chebi_ph7_3
 is_a: CHEBI:32460 ! cysteine residue
 is_a: CHEBI:33700 ! proteinogenic amino-acid residue
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
@@ -60934,12 +61155,14 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:29961
 name: L-aspartate residue
+subset: chebi_ph7_3
 is_a: CHEBI:32471 ! aspartate residue
 is_a: CHEBI:33726 ! proteinogenic amino-acid residue anion
 
 [Term]
 id: CHEBI:29962
 name: D-aspartate residue
+subset: chebi_ph7_3
 is_a: CHEBI:32471 ! aspartate residue
 
 [Term]
@@ -60956,6 +61179,7 @@ is_a: CHEBI:33726 ! proteinogenic amino-acid residue anion
 [Term]
 id: CHEBI:29965
 name: L-argininium residue
+subset: chebi_ph7_3
 is_a: CHEBI:32699 ! argininium residue
 is_a: CHEBI:33727 ! proteinogenic amino-acid residue cation
 
@@ -60979,6 +61203,7 @@ is_a: CHEBI:32568 ! lysine residue
 [Term]
 id: CHEBI:29969
 name: L-lysinium residue
+subset: chebi_ph7_3
 is_a: CHEBI:32579 ! lysinium residue
 is_a: CHEBI:33727 ! proteinogenic amino-acid residue cation
 
@@ -60997,6 +61222,7 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:29973
 name: L-glutamate residue
+subset: chebi_ph7_3
 is_a: CHEBI:32484 ! glutamate residue
 is_a: CHEBI:33726 ! proteinogenic amino-acid residue anion
 
@@ -61013,6 +61239,7 @@ is_a: CHEBI:32789 ! tyrosine residue
 [Term]
 id: CHEBI:29979
 name: L-histidine residue
+subset: chebi_ph7_3
 is_a: CHEBI:32535 ! histidine residue
 is_a: CHEBI:33700 ! proteinogenic amino-acid residue
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
@@ -61036,6 +61263,7 @@ is_a: CHEBI:33727 ! proteinogenic amino-acid residue cation
 [Term]
 id: CHEBI:29984
 name: D-methionine residue
+subset: chebi_ph7_3
 is_a: CHEBI:32648 ! methionine residue
 
 [Term]
@@ -61131,6 +61359,7 @@ is_a: CHEBI:22469 ! alpha-terpineol
 [Term]
 id: CHEBI:30000
 name: L-selenocysteine residue
+subset: chebi_ph7_3
 is_a: CHEBI:32757 ! selenocysteine residue
 is_a: CHEBI:33700 ! proteinogenic amino-acid residue
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
@@ -61160,6 +61389,7 @@ is_a: CHEBI:32758 ! selenocysteinate residue
 [Term]
 id: CHEBI:30011
 name: L-glutamine residue
+subset: chebi_ph7_3
 is_a: CHEBI:32677 ! glutamine residue
 is_a: CHEBI:33700 ! proteinogenic amino-acid residue
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
@@ -61167,6 +61397,7 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:30013
 name: L-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:32835 ! threonine residue
 is_a: CHEBI:33700 ! proteinogenic amino-acid residue
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
@@ -61174,6 +61405,7 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:30014
 name: D-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:32835 ! threonine residue
 
 [Term]
@@ -61593,6 +61825,7 @@ is_a: CHEBI:38596 ! pyrazolide
 id: CHEBI:30379
 name: ethylenediaminetetraacetatonickelate(2-)
 is_a: CHEBI:35438 ! nickel coordination entity
+relationship: has_part CHEBI:42191 ! EDTA(4-)
 
 [Term]
 id: CHEBI:30395
@@ -61608,12 +61841,14 @@ relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 [Term]
 id: CHEBI:30408
 name: iron-sulfur cluster
+subset: chebi_ph7_3
 is_a: CHEBI:25214 ! metal-sulfur cluster
 is_a: CHEBI:33892 ! iron coordination entity
 
 [Term]
 id: CHEBI:30409
 name: iron-sulfur-molybdenum cofactor
+subset: chebi_ph7_3
 is_a: CHEBI:35202 ! molybdenum coordination entity
 relationship: has_part CHEBI:48796 ! iron-sulfur-molybdenum cluster
 relationship: has_role CHEBI:23357 ! cofactor
@@ -61634,6 +61869,7 @@ is_a: CHEBI:23906 ! monoatomic cation
 [Term]
 id: CHEBI:30413
 name: heme
+subset: chebi_ph7_3
 is_a: CHEBI:25216 ! metalloporphyrin
 is_a: CHEBI:33892 ! iron coordination entity
 is_a: CHEBI:33909 ! metallotetrapyrrole
@@ -61951,11 +62187,13 @@ is_a: CHEBI:28965 ! dicarboxylic acid dianion
 id: CHEBI:30729
 name: ethylenediaminetetraacetatoferrate(1-)
 is_a: CHEBI:33892 ! iron coordination entity
+relationship: has_part CHEBI:42191 ! EDTA(4-)
 
 [Term]
 id: CHEBI:30730
 name: ethylenediaminetetraacetatoferrate(2-)
 is_a: CHEBI:33892 ! iron coordination entity
+relationship: has_part CHEBI:42191 ! EDTA(4-)
 
 [Term]
 id: CHEBI:30737
@@ -63204,7 +63442,7 @@ relationship: has_part CHEBI:23414 ! copper(II) sulfate
 
 [Term]
 id: CHEBI:31445
-name: cyclic ADP-ribose
+name: cyclic ADP-beta-D-ribose
 is_a: CHEBI:25609 ! nucleotide-sugar
 is_a: CHEBI:36982 ! cyclic purine nucleotide
 relationship: has_role CHEBI:25212 ! metabolite
@@ -63381,6 +63619,7 @@ relationship: has_role CHEBI:85234 ! human blood serum metabolite
 id: CHEBI:3168
 name: brassicasterol
 subset: chebi_ph7_3
+is_a: CHEBI:1722 ! 3beta-hydroxy-Delta(5)-steroid
 is_a: CHEBI:26125 ! phytosterols
 is_a: CHEBI:35348 ! 3beta-sterol
 is_a: CHEBI:50403 ! ergostanoid
@@ -64048,8 +64287,7 @@ is_a: CHEBI:25147 ! mandelate
 id: CHEBI:32383
 name: 6-hydroxyhexanoate
 subset: chebi_ph7_3
-is_a: CHEBI:59558 ! medium-chain fatty acid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:194241 ! omega-hydroxy-medium-chain fatty acid anion
 
 [Term]
 id: CHEBI:32387
@@ -64210,6 +64448,7 @@ relationship: has_role CHEBI:78675 ! fundamental metabolite
 [Term]
 id: CHEBI:32446
 name: all-trans-neoxanthin
+subset: chebi_ph7_3
 is_a: CHEBI:25501 ! neoxanthin
 relationship: has_role CHEBI:26130 ! biological pigment
 relationship: has_role CHEBI:76924 ! plant metabolite
@@ -64632,17 +64871,6 @@ is_a: CHEBI:36093 ! inorganic chloride
 relationship: has_role CHEBI:33287 ! fertilizer
 
 [Term]
-id: CHEBI:3259
-name: CCCP
-subset: chebi_ph7_3
-is_a: CHEBI:18379 ! nitrile
-is_a: CHEBI:38532 ! hydrazone
-is_a: CHEBI:83403 ! monochlorobenzenes
-relationship: has_role CHEBI:176497 ! geroprotector
-relationship: has_role CHEBI:24869 ! ionophore
-relationship: has_role CHEBI:33282 ! antibacterial agent
-
-[Term]
 id: CHEBI:32594
 name: barium atom
 subset: chebi_ph7_3
@@ -65022,6 +65250,7 @@ relationship: has_role CHEBI:78675 ! fundamental metabolite
 [Term]
 id: CHEBI:32722
 name: glycyl radical residue
+subset: chebi_ph7_3
 is_a: CHEBI:33728 ! proteinogenic amino-acid residue radical
 
 [Term]
@@ -65914,27 +66143,6 @@ name: long-chain fatty acyl-CoA
 is_a: CHEBI:37554 ! fatty acyl-CoA
 
 [Term]
-id: CHEBI:33186
-name: malononitrile
-subset: chebi_ph7_3
-is_a: CHEBI:51308 ! dinitrile
-is_a: CHEBI:80291 ! aliphatic nitrile
-
-[Term]
-id: CHEBI:33187
-name: oxomalononitrile
-subset: chebi_ph7_3
-is_a: CHEBI:18379 ! nitrile
-is_a: CHEBI:51852 ! alpha-ketonitrile
-
-[Term]
-id: CHEBI:33189
-name: hydrazonomalononitrile
-subset: chebi_ph7_3
-is_a: CHEBI:18379 ! nitrile
-is_a: CHEBI:38532 ! hydrazone
-
-[Term]
 id: CHEBI:33190
 name: 3-oxopropanoate
 subset: chebi_ph7_3
@@ -66557,7 +66765,7 @@ is_a: CHEBI:33259 ! elemental molecular entity
 [Term]
 id: CHEBI:33404
 name: 3-hydroxypropionic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:194306 ! omega-hydroxy-short-chain fatty acid
 is_a: CHEBI:35969 ! 3-hydroxy monocarboxylic acid
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -68129,6 +68337,7 @@ is_a: CHEBI:48513 ! carbazoles
 [Term]
 id: CHEBI:33913
 name: corrinoid
+subset: chebi_ph7_3
 is_a: CHEBI:36309 ! cyclic tetrapyrrole
 relationship: has_role CHEBI:23357 ! cofactor
 
@@ -68474,7 +68683,7 @@ id: CHEBI:34146
 name: 12(S)-HETE
 is_a: CHEBI:36275 ! HETE
 is_a: CHEBI:84447 ! (5Z,8Z,10E,14Z)-12-hydroxyicosatetraenoic acid
-relationship: has_role CHEBI:50927 ! angiogenesis inducing agent
+relationship: has_role CHEBI:72571 ! pro-angiogenic agent
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -68677,6 +68886,7 @@ is_a: CHEBI:77166 ! 3-oxo-Delta(1),Delta(4)-steroid
 [Term]
 id: CHEBI:34596
 name: (3S,5R,6R)-3,5-dihydroxy-6,7-didehydro-5,6-dihydro-12'-apo-beta-caroten-12'-al
+subset: chebi_ph7_3
 is_a: CHEBI:37602 ! allenes
 is_a: CHEBI:51972 ! 12'-apo-carotenal
 
@@ -69141,6 +69351,7 @@ is_a: CHEBI:27275 ! vanadium molecular entity
 [Term]
 id: CHEBI:35172
 name: vanadium cation
+subset: chebi_ph7_3
 is_a: CHEBI:33515 ! transition element cation
 is_a: CHEBI:35171 ! elemental vanadium
 relationship: has_role CHEBI:23357 ! cofactor
@@ -69641,6 +69852,7 @@ is_a: CHEBI:51973 ! 9-cis-epoxycarotenoid
 [Term]
 id: CHEBI:35306
 name: 9'-cis-neoxanthin
+subset: chebi_ph7_3
 is_a: CHEBI:25501 ! neoxanthin
 is_a: CHEBI:51973 ! 9-cis-epoxycarotenoid
 
@@ -71770,7 +71982,6 @@ is_a: CHEBI:36033 ! icosatetraenoic acid
 id: CHEBI:36036
 name: fatty acid 20:3
 is_a: CHEBI:15904 ! long-chain fatty acid
-is_a: CHEBI:35366 ! fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 is_a: CHEBI:73155 ! trienoic fatty acid
 
@@ -72301,7 +72512,7 @@ is_a: CHEBI:36201 ! trioxilin
 id: CHEBI:36204
 name: 12-hydroxylaurate
 subset: chebi_ph7_3
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:194241 ! omega-hydroxy-medium-chain fatty acid anion
 
 [Term]
 id: CHEBI:36205
@@ -73522,21 +73733,6 @@ subset: chebi_ph7_3
 is_a: CHEBI:36622 ! benzimidazole
 
 [Term]
-id: CHEBI:36624
-name: naphthyridine
-is_a: CHEBI:27171 ! organic heterobicyclic compound
-is_a: CHEBI:35570 ! mancude organic heterobicyclic parent
-is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
-is_a: CHEBI:50893 ! azaarene
-is_a: CHEBI:52362 ! ortho-fused heteroarene
-
-[Term]
-id: CHEBI:36628
-name: 1,8-naphthyridine
-subset: chebi_ph7_3
-is_a: CHEBI:36624 ! naphthyridine
-
-[Term]
 id: CHEBI:3663
 name: cholesteryl palmitate
 subset: chebi_ph7_3
@@ -73774,7 +73970,7 @@ is_a: CHEBI:61313 ! C21-steroid
 id: CHEBI:36727
 name: 1-alkyl-2,3-diacylglycerol
 subset: chebi_ph7_3
-is_a: CHEBI:76584 ! monoalkyldiacylglycerol
+is_a: CHEBI:166986 ! alkyldiacylglyceride
 
 [Term]
 id: CHEBI:36728
@@ -77563,6 +77759,7 @@ is_a: CHEBI:26421 ! pyridines
 [Term]
 id: CHEBI:38201
 name: bacteriochlorophyll
+subset: chebi_ph7_3
 is_a: CHEBI:28966 ! chlorophyll
 
 [Term]
@@ -77584,6 +77781,7 @@ is_a: CHEBI:38206 ! chlorophyllide
 id: CHEBI:38215
 name: calcium channel blocker
 is_a: CHEBI:38808 ! calcium channel modulator
+is_a: CHEBI:48706 ! antagonist
 
 [Term]
 id: CHEBI:38221
@@ -77981,17 +78179,6 @@ id: CHEBI:38358
 name: (2E,4E)-hexa-2,4-dienoic acid
 is_a: CHEBI:35962 ! sorbic acid
 is_a: CHEBI:79020 ! alpha,beta-unsaturated monocarboxylic acid
-
-[Term]
-id: CHEBI:383703
-name: 3,6-diamino-10-methylacridinium chloride
-is_a: CHEBI:36094 ! organic chloride salt
-relationship: has_part CHEBI:60585 ! 3,6-diamino-10-methylacridinium
-relationship: has_role CHEBI:24853 ! intercalator
-relationship: has_role CHEBI:33282 ! antibacterial agent
-relationship: has_role CHEBI:48218 ! antiseptic drug
-relationship: has_role CHEBI:50903 ! carcinogenic agent
-relationship: has_role CHEBI:77178 ! histological dye
 
 [Term]
 id: CHEBI:38371
@@ -78987,6 +79174,7 @@ is_a: CHEBI:33847 ! monocyclic arene
 id: CHEBI:38999
 name: GABA-gated chloride channel antagonist
 is_a: CHEBI:38632 ! membrane transport modulator
+is_a: CHEBI:48706 ! antagonist
 
 [Term]
 id: CHEBI:3900
@@ -79586,8 +79774,7 @@ is_a: CHEBI:11656 ! 2-succinyl-6-hydroxycyclohexa-2,4-diene-1-carboxylic acid
 [Term]
 id: CHEBI:39567
 name: 12-hydroxylauric acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
-is_a: CHEBI:59554 ! medium-chain fatty acid
+is_a: CHEBI:194303 ! omega-hydroxy-medium-chain fatty acid
 relationship: has_role CHEBI:77746 ! human metabolite
 
 [Term]
@@ -80315,6 +80502,7 @@ is_a: CHEBI:36995 ! pyrimidine 2'-deoxyribonucleoside 5'-monophosphate
 [Term]
 id: CHEBI:4194
 name: D-hexose
+subset: chebi_ph7_3
 is_a: CHEBI:18133 ! hexose
 
 [Term]
@@ -80448,15 +80636,8 @@ is_a: CHEBI:33719 ! alpha-amino-acid cation
 
 [Term]
 id: CHEBI:42191
-name: ethylenediaminetetraacetic acid
-is_a: CHEBI:31577 ! ethylenediamine derivative
-is_a: CHEBI:35742 ! tetracarboxylic acid
-is_a: CHEBI:60892 ! polyamino carboxylic acid
-relationship: has_role CHEBI:166831 ! copper chelator
-relationship: has_role CHEBI:176497 ! geroprotector
-relationship: has_role CHEBI:38161 ! chelator
-relationship: has_role CHEBI:50247 ! antidote
-relationship: has_role CHEBI:50249 ! anticoagulant
+name: EDTA(4-)
+is_a: CHEBI:35754 ! tetracarboxylic acid anion
 
 [Term]
 id: CHEBI:422
@@ -81003,6 +81184,7 @@ relationship: has_role CHEBI:53000 ! epitope
 [Term]
 id: CHEBI:43903
 name: N(pros)-methyl-L-histidine residue
+subset: chebi_ph7_3
 is_a: CHEBI:33708 ! amino-acid residue
 
 [Term]
@@ -81649,7 +81831,7 @@ is_a: CHEBI:50325 ! proteinogenic amino-acid side-chain group
 [Term]
 id: CHEBI:45564
 name: 5-hydroxypentanoic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:194306 ! omega-hydroxy-short-chain fatty acid
 is_a: CHEBI:37125 ! 5-hydroxy monocarboxylic acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
@@ -82560,6 +82742,7 @@ is_a: CHEBI:26536 ! retinoic acid
 [Term]
 id: CHEBI:46858
 name: L-tyrosine residue
+subset: chebi_ph7_3
 is_a: CHEBI:32789 ! tyrosine residue
 is_a: CHEBI:33700 ! proteinogenic amino-acid residue
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
@@ -83138,6 +83321,18 @@ name: 3-chloro-D-alanine zwitterion
 subset: chebi_ph7_3
 is_a: CHEBI:35238 ! amino acid zwitterion
 is_a: CHEBI:36683 ! organochlorine compound
+
+[Term]
+id: CHEBI:4735
+name: ethylenediaminetetraacetic acid
+is_a: CHEBI:31577 ! ethylenediamine derivative
+is_a: CHEBI:35742 ! tetracarboxylic acid
+is_a: CHEBI:60892 ! polyamino carboxylic acid
+relationship: has_role CHEBI:166831 ! copper chelator
+relationship: has_role CHEBI:176497 ! geroprotector
+relationship: has_role CHEBI:38161 ! chelator
+relationship: has_role CHEBI:50247 ! antidote
+relationship: has_role CHEBI:50249 ! anticoagulant
 
 [Term]
 id: CHEBI:47356
@@ -84823,6 +85018,7 @@ is_a: CHEBI:35942 ! neurotransmitter agent
 id: CHEBI:48561
 name: dopaminergic antagonist
 is_a: CHEBI:48560 ! dopaminergic agent
+is_a: CHEBI:48706 ! antagonist
 
 [Term]
 id: CHEBI:48563
@@ -85735,15 +85931,6 @@ relationship: has_role CHEBI:53000 ! epitope
 id: CHEBI:49028
 name: acetimidic acid
 is_a: CHEBI:48378 ! carboximidic acid
-
-[Term]
-id: CHEBI:4903
-name: 17alpha-ethynylestradiol
-subset: chebi_ph7_3
-is_a: CHEBI:36834 ! 3-hydroxy steroid
-is_a: CHEBI:36838 ! 17-hydroxy steroid
-is_a: CHEBI:73477 ! terminal acetylenic compound
-relationship: has_role CHEBI:76988 ! xenoestrogen
 
 [Term]
 id: CHEBI:49030
@@ -87125,6 +87312,7 @@ is_a: CHEBI:33708 ! amino-acid residue
 [Term]
 id: CHEBI:50058
 name: L-cystine residue
+subset: chebi_ph7_3
 is_a: CHEBI:50051 ! cystine residue
 
 [Term]
@@ -88276,6 +88464,7 @@ is_a: CHEBI:76773 ! EC 3.1.1.* (carboxylic ester hydrolase) inhibitor
 [Term]
 id: CHEBI:50471
 name: primary arylamine
+subset: chebi_ph7_3
 is_a: CHEBI:32877 ! primary amine
 is_a: CHEBI:33860 ! aromatic amine
 
@@ -89287,11 +89476,6 @@ is_a: CHEBI:76812 ! EC 2.7.11.* (protein-serine/threonine kinase) inhibitor
 id: CHEBI:50926
 name: angiogenesis modulating agent
 is_a: CHEBI:23888 ! drug
-
-[Term]
-id: CHEBI:50927
-name: angiogenesis inducing agent
-is_a: CHEBI:50926 ! angiogenesis modulating agent
 
 [Term]
 id: CHEBI:50934
@@ -90420,6 +90604,7 @@ is_a: CHEBI:26044 ! phosphinic acids
 [Term]
 id: CHEBI:52058
 name: 5-hydroxyfurocoumarin
+subset: chebi_ph7_3
 is_a: CHEBI:24128 ! furanocoumarin
 
 [Term]
@@ -91511,11 +91696,6 @@ name: quinolinium ion
 is_a: CHEBI:25697 ! organic cation
 
 [Term]
-id: CHEBI:52839
-name: acridinium ion
-is_a: CHEBI:25697 ! organic cation
-
-[Term]
 id: CHEBI:52845
 name: cyclic organic group
 is_a: CHEBI:33247 ! organic group
@@ -91589,6 +91769,7 @@ id: CHEBI:52972
 name: ergosta-5,7,24(28)-trien-3beta-ol
 subset: chebi_ph7_3
 is_a: CHEBI:138131 ! Delta(5),Delta(7)-sterol
+is_a: CHEBI:1722 ! 3beta-hydroxy-Delta(5)-steroid
 is_a: CHEBI:35348 ! 3beta-sterol
 relationship: has_role CHEBI:75771 ! mouse metabolite
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
@@ -93140,6 +93321,7 @@ is_a: CHEBI:30879 ! alcohol
 [Term]
 id: CHEBI:566274
 name: malonaldehyde
+subset: chebi_ph7_3
 is_a: CHEBI:38124 ! dialdehyde
 relationship: has_role CHEBI:59163 ! biomarker
 
@@ -96408,6 +96590,7 @@ is_a: CHEBI:36059 ! hydroxy monocarboxylic acid anion
 [Term]
 id: CHEBI:57769
 name: precorrin-4(8-)
+subset: chebi_ph7_3
 is_a: CHEBI:59140 ! precorrin carboxylic acid anion
 
 [Term]
@@ -100158,6 +100341,7 @@ relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 [Term]
 id: CHEBI:58395
 name: myricetin(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:58588 ! flavonol oxoanion
 
 [Term]
@@ -100263,6 +100447,7 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 [Term]
 id: CHEBI:58412
 name: syringetin(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:58588 ! flavonol oxoanion
 
 [Term]
@@ -100817,6 +101002,7 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 [Term]
 id: CHEBI:58503
 name: adenosylcob(III)yrinate a,c-diamide(4-)
+subset: chebi_ph7_3
 is_a: CHEBI:35755 ! pentacarboxylic acid anion
 
 [Term]
@@ -100983,6 +101169,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 [Term]
 id: CHEBI:58532
 name: precorrin-6Y(6-)
+subset: chebi_ph7_3
 is_a: CHEBI:59140 ! precorrin carboxylic acid anion
 
 [Term]
@@ -101061,6 +101248,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:58544
 name: 3',4',5,7-pentahydroxy-8-methoxyflavon-3-olate
+subset: chebi_ph7_3
 is_a: CHEBI:60038 ! flavonoid oxoanion
 
 [Term]
@@ -101150,6 +101338,7 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 [Term]
 id: CHEBI:58561
 name: precorrin-3A(7-)
+subset: chebi_ph7_3
 is_a: CHEBI:59140 ! precorrin carboxylic acid anion
 
 [Term]
@@ -101213,6 +101402,7 @@ is_a: CHEBI:33558 ! alpha-amino-acid anion
 [Term]
 id: CHEBI:58573
 name: kaempferol oxoanion
+subset: chebi_ph7_3
 is_a: CHEBI:58588 ! flavonol oxoanion
 
 [Term]
@@ -101939,6 +102129,7 @@ is_a: CHEBI:27369 ! zwitterion
 [Term]
 id: CHEBI:58712
 name: lipid A(4-)
+subset: chebi_ph7_3
 is_a: CHEBI:58945 ! organophosphate oxoanion
 is_a: CHEBI:60086 ! lipid A oxoanion
 
@@ -101951,6 +102142,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 [Term]
 id: CHEBI:58714
 name: beta-L-Ara4N-lipid A(2-)
+subset: chebi_ph7_3
 is_a: CHEBI:58945 ! organophosphate oxoanion
 is_a: CHEBI:60086 ! lipid A oxoanion
 
@@ -102199,6 +102391,7 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 id: CHEBI:58756
 name: 2-trans,6-trans,10-trans-geranylgeranyl diphosphate(3-)
 subset: chebi_ph7_3
+is_a: CHEBI:57533 ! geranylgeranyl diphosphate(3-)
 is_a: CHEBI:58945 ! organophosphate oxoanion
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -102608,6 +102801,7 @@ is_a: CHEBI:57513 ! N-acetyl-D-glucosamine 6-phosphate(2-)
 [Term]
 id: CHEBI:58827
 name: precorrin-2(7-)
+subset: chebi_ph7_3
 is_a: CHEBI:59140 ! precorrin carboxylic acid anion
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 
@@ -102981,6 +103175,7 @@ is_a: CHEBI:59140 ! precorrin carboxylic acid anion
 [Term]
 id: CHEBI:58894
 name: cob(II)yrinate(6-)
+subset: chebi_ph7_3
 is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
 
 [Term]
@@ -103164,6 +103359,7 @@ is_a: CHEBI:35757 ! monocarboxylic acid anion
 [Term]
 id: CHEBI:58925
 name: kaempferide(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:58588 ! flavonol oxoanion
 
 [Term]
@@ -104054,6 +104250,7 @@ is_a: CHEBI:59258 ! N-hydroxy-alpha-amino-acid anion
 [Term]
 id: CHEBI:59720
 name: HPETE anion
+subset: chebi_ph7_3
 is_a: CHEBI:134019 ! hydroperoxy polyunsaturated fatty acid anion
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:62937 ! icosanoid anion
@@ -104703,6 +104900,7 @@ is_a: CHEBI:63473 ! aromatic amino-acid anion
 [Term]
 id: CHEBI:60006
 name: laricitrin(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:58588 ! flavonol oxoanion
 
 [Term]
@@ -105284,6 +105482,7 @@ is_a: CHEBI:60194 ! peptide cation
 [Term]
 id: CHEBI:60197
 name: bacteriochlorophyll c
+subset: chebi_ph7_3
 is_a: CHEBI:38201 ! bacteriochlorophyll
 
 [Term]
@@ -105346,12 +105545,14 @@ is_a: CHEBI:59412 ! amino tetrasaccharide
 [Term]
 id: CHEBI:60240
 name: divalent metal cation
+subset: chebi_ph7_3
 is_a: CHEBI:25213 ! metal cation
 is_a: CHEBI:64641 ! divalent inorganic cation
 
 [Term]
 id: CHEBI:60242
 name: monovalent inorganic cation
+subset: chebi_ph7_3
 is_a: CHEBI:36915 ! inorganic cation
 
 [Term]
@@ -105981,12 +106182,6 @@ is_a: CHEBI:38295 ! azabicycloalkane
 relationship: has_role CHEBI:33282 ! antibacterial agent
 relationship: has_role CHEBI:35441 ! antiinfective agent
 relationship: has_role CHEBI:55323 ! antidiarrhoeal drug
-
-[Term]
-id: CHEBI:60585
-name: 3,6-diamino-10-methylacridinium
-subset: chebi_ph7_3
-is_a: CHEBI:52839 ! acridinium ion
 
 [Term]
 id: CHEBI:60598
@@ -108529,6 +108724,7 @@ is_a: CHEBI:63551 ! carbohydrate acid derivative anion
 [Term]
 id: CHEBI:61677
 name: (+)-alpha-santalene
+subset: chebi_ph7_3
 is_a: CHEBI:35189 ! sesquiterpene
 is_a: CHEBI:35990 ! bridged compound
 
@@ -108910,6 +109106,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:61891
 name: N(5)-methyl-L-glutamine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -108920,6 +109117,7 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:61897
 name: N(omega),N(omega)-dimethyl-L-arginine(1+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
@@ -109030,11 +109228,13 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:61929
 name: N(6)-methyl-L-lysinium residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
 id: CHEBI:61930
 name: N(6)-acetyl-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:137967 ! N(6)-acyl-L-lysine residue
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
@@ -109180,6 +109380,7 @@ is_a: CHEBI:47901 ! alkanesulfonic acid
 [Term]
 id: CHEBI:61961
 name: N(6),N(6),N(6)-trimethyl-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
@@ -109190,6 +109391,7 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:61963
 name: 3-disulfanyl-L-alanine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -109252,16 +109454,19 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:61974
 name: 3-sulfino-L-alanine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
 id: CHEBI:61976
 name: N(6),N(6)-dimethyl-L-lysine(1+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
 id: CHEBI:61977
 name: O-phosphonato-L-threonine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -109531,12 +109736,6 @@ is_a: CHEBI:62196 ! polysaccharide acid oxoanion
 [Term]
 id: CHEBI:62069
 name: phaseic acid anion
-subset: chebi_ph7_3
-is_a: CHEBI:35757 ! monocarboxylic acid anion
-
-[Term]
-id: CHEBI:62070
-name: nalidixic acid anion
 subset: chebi_ph7_3
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 
@@ -113981,14 +114180,6 @@ is_a: CHEBI:22713 ! arenesulfonate oxoanion
 is_a: CHEBI:38170 ! diamino-1,3,5-triazine
 
 [Term]
-id: CHEBI:63960
-name: triethanolammonium nitrate
-is_a: CHEBI:46850 ! organoammonium salt
-is_a: CHEBI:63895 ! ionic liquid
-relationship: has_part CHEBI:17632 ! nitrate
-relationship: has_role CHEBI:48356 ! protic solvent
-
-[Term]
 id: CHEBI:63962
 name: Hsp90 inhibitor
 is_a: CHEBI:76939 ! EC 3.6.4.10 (non-chaperonin molecular chaperone ATPase) inhibitor
@@ -114134,8 +114325,7 @@ relationship: has_role CHEBI:50427 ! platelet aggregation inhibitor
 id: CHEBI:64008
 name: (8E,12Z)-10-hydroperoxy-8,12-octadecadienoic acid
 is_a: CHEBI:15904 ! long-chain fatty acid
-is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
+is_a: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
 
 [Term]
 id: CHEBI:64009
@@ -115148,6 +115338,7 @@ is_a: CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:64479
 name: O-(pantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 
 [Term]
@@ -118125,6 +118316,7 @@ is_a: CHEBI:64775 ! organic anionic group
 [Term]
 id: CHEBI:65264
 name: dodecanoyl-pantetheine-4-phosphorylserine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -118136,6 +118328,7 @@ is_a: CHEBI:52210 ! pharmacological role
 [Term]
 id: CHEBI:65280
 name: N(omega)-methyl-argininium(1+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
@@ -118153,6 +118346,7 @@ is_a: CHEBI:37622 ! carboxamide
 [Term]
 id: CHEBI:65286
 name: L-tyrosine-O-sulfate(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -122486,6 +122680,7 @@ relationship: has_role CHEBI:25212 ! metabolite
 [Term]
 id: CHEBI:71536
 name: (1'S,5'R)-5'-hydroxyaverantin
+subset: chebi_ph7_3
 is_a: CHEBI:26188 ! polyketide
 is_a: CHEBI:26195 ! polyphenol
 is_a: CHEBI:37496 ! tetrahydroxyanthraquinone
@@ -122494,6 +122689,7 @@ relationship: has_role CHEBI:76946 ! fungal metabolite
 [Term]
 id: CHEBI:71537
 name: (1'S,5'S)-averufin
+subset: chebi_ph7_3
 is_a: CHEBI:26188 ! polyketide
 is_a: CHEBI:26195 ! polyphenol
 is_a: CHEBI:38164 ! organic heteropentacyclic compound
@@ -122739,6 +122935,7 @@ relationship: has_role CHEBI:25212 ! metabolite
 [Term]
 id: CHEBI:71609
 name: albonoursin
+subset: chebi_ph7_3
 is_a: CHEBI:65061 ! 2,5-diketopiperazines
 relationship: has_role CHEBI:25212 ! metabolite
 
@@ -124210,7 +124407,8 @@ relationship: has_role CHEBI:25212 ! metabolite
 [Term]
 id: CHEBI:72793
 name: HETrE
-is_a: CHEBI:133539 ! hydroxyicosatrienoate
+is_a: CHEBI:140345 ! hydroxy polyunsaturated fatty acid
+is_a: CHEBI:36036 ! fatty acid 20:3
 relationship: has_role CHEBI:25212 ! metabolite
 
 [Term]
@@ -125540,17 +125738,6 @@ is_a: CHEBI:84135 ! L-serine derivative
 relationship: has_role CHEBI:25212 ! metabolite
 
 [Term]
-id: CHEBI:73537
-name: 1,8-naphthyridine derivative
-is_a: CHEBI:73539 ! naphthyridine derivative
-
-[Term]
-id: CHEBI:73539
-name: naphthyridine derivative
-is_a: CHEBI:27171 ! organic heterobicyclic compound
-is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
-
-[Term]
 id: CHEBI:73541
 name: organic heterobicyclic ring
 is_a: CHEBI:52845 ! cyclic organic group
@@ -125641,6 +125828,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 [Term]
 id: CHEBI:73599
 name: 3-methylthioaspartate residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -125695,7 +125883,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 
 [Term]
 id: CHEBI:73672
-name: cyclic ADP-ribose(2-)
+name: cyclic ADP-beta-D-ribose(2-)
 subset: chebi_ph7_3
 is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 
@@ -125845,12 +126033,14 @@ relationship: has_role CHEBI:25212 ! metabolite
 [Term]
 id: CHEBI:73743
 name: 2-(3-amino-3-carboxypropyl)-L-histidine zwitterion residue
+subset: chebi_ph7_3
 is_a: CHEBI:64768 ! zwitterionic group
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:73745
 name: 2-[3-carboxylato-3-(dimethylammonio)propyl]-L-histidine residue
+subset: chebi_ph7_3
 is_a: CHEBI:64768 ! zwitterionic group
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
@@ -126379,6 +126569,7 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 [Term]
 id: CHEBI:73995
 name: 2-[(3S)-3-amino-3-carboxypropyl]-L-histidine zwitterion residue
+subset: chebi_ph7_3
 is_a: CHEBI:73743 ! 2-(3-amino-3-carboxypropyl)-L-histidine zwitterion residue
 
 [Term]
@@ -126921,6 +127112,7 @@ is_a: CHEBI:25388 ! monohydroxybenzoate
 [Term]
 id: CHEBI:74156
 name: 3-amino-4,7-dihydroxycoumarin(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:25696 ! organic anion
 
 [Term]
@@ -127182,6 +127374,7 @@ is_a: CHEBI:84948 ! 11,12-saturated fatty acyl-CoA(4-)
 [Term]
 id: CHEBI:74257
 name: FMN-L-threonine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -128959,16 +129152,6 @@ is_a: CHEBI:50319 ! nucleotide residue
 id: CHEBI:74725
 name: 5-methylcytidine 5'-monophosphate
 is_a: CHEBI:39457 ! pyrimidine ribonucleoside 5'-monophosphate
-
-[Term]
-id: CHEBI:74727
-name: 3,6-diamino-10-methylacridinium chloride.HCl
-is_a: CHEBI:36807 ! hydrochloride
-relationship: has_part CHEBI:383703 ! 3,6-diamino-10-methylacridinium chloride
-relationship: has_role CHEBI:24853 ! intercalator
-relationship: has_role CHEBI:33282 ! antibacterial agent
-relationship: has_role CHEBI:48218 ! antiseptic drug
-relationship: has_role CHEBI:50903 ! carcinogenic agent
 
 [Term]
 id: CHEBI:74730
@@ -131260,8 +131443,8 @@ is_a: CHEBI:49172 ! 1,2-diglyceride
 [Term]
 id: CHEBI:75615
 name: (8E,10S,12Z,15Z)-10-hydroperoxyoctadeca-8,12,15-trienoic acid
+is_a: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
 is_a: CHEBI:25384 ! monocarboxylic acid
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
 
 [Term]
 id: CHEBI:75616
@@ -131719,6 +131902,7 @@ is_a: CHEBI:17855 ! triglyceride
 id: CHEBI:75849
 name: 1,3-dipalmitoleoylglycerol
 subset: chebi_ph7_3
+is_a: CHEBI:194140 ! dipalmitoleoylglycerol
 is_a: CHEBI:47777 ! 1,3-diglyceride
 
 [Term]
@@ -132094,7 +132278,7 @@ relationship: has_part CHEBI:29036 ! copper(2+)
 
 [Term]
 id: CHEBI:75956
-name: galactosylceramide sulfate(1-)
+name: beta-D-galactosylceramide sulfate(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:83875 ! N-acyl-(3-O-sulfo-D-galactosyl)sphingosine(1-)
 
@@ -132538,6 +132722,7 @@ is_a: CHEBI:76176 ! 2-hydroxy fatty acid anion
 [Term]
 id: CHEBI:76179
 name: O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 
 [Term]
@@ -132966,8 +133151,7 @@ is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 id: CHEBI:76305
 name: 26-hydroxyhexacosanoate
 subset: chebi_ph7_3
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:176542 ! omega-hydroxy-very-long-chain fatty acid anion
 
 [Term]
 id: CHEBI:76306
@@ -133056,8 +133240,7 @@ relationship: has_role CHEBI:25212 ! metabolite
 [Term]
 id: CHEBI:76325
 name: 26-hydroxyhexacosanoic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
+is_a: CHEBI:194304 ! omega-hydroxy-very-long-chain fatty acid
 relationship: has_role CHEBI:25212 ! metabolite
 
 [Term]
@@ -134293,14 +134476,6 @@ is_a: CHEBI:64611 ! ether lipid
 is_a: CHEBI:76578 ! diradylglycerol
 
 [Term]
-id: CHEBI:76584
-name: monoalkyldiacylglycerol
-is_a: CHEBI:24353 ! glycerol ether
-is_a: CHEBI:33308 ! carboxylic ester
-is_a: CHEBI:35741 ! glycerolipid
-is_a: CHEBI:64611 ! ether lipid
-
-[Term]
 id: CHEBI:76585
 name: 1-alkyl-2,3-diacyl-sn-glycerol
 subset: chebi_ph7_3
@@ -134372,8 +134547,7 @@ is_a: CHEBI:33272 ! ketimine
 id: CHEBI:76610
 name: omega-hydroxytetracosanoate
 subset: chebi_ph7_3
-is_a: CHEBI:58950 ! very long-chain fatty acid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 
 [Term]
 id: CHEBI:76613
@@ -134393,8 +134567,7 @@ is_a: CHEBI:84196 ! 3-hydroxy fatty acid anion
 id: CHEBI:76615
 name: 3,18-dihydroxyoctadecanoate
 subset: chebi_ph7_3
-is_a: CHEBI:57560 ! long-chain fatty acid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 
 [Term]
 id: CHEBI:76616
@@ -134413,8 +134586,7 @@ is_a: CHEBI:76817 ! EC 2.7.10.* (protein-tyrosine kinase) inhibitor
 id: CHEBI:76618
 name: 3,12-dihydroxylaurate
 subset: chebi_ph7_3
-is_a: CHEBI:59558 ! medium-chain fatty acid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:194241 ! omega-hydroxy-medium-chain fatty acid anion
 
 [Term]
 id: CHEBI:76619
@@ -134440,8 +134612,7 @@ is_a: CHEBI:51006 ! unsaturated fatty acyl-CoA
 id: CHEBI:76624
 name: 20-HETE(1-)
 subset: chebi_ph7_3
-is_a: CHEBI:57560 ! long-chain fatty acid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
@@ -134536,8 +134707,7 @@ id: CHEBI:76639
 name: 20-HEPE(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:131874 ! HEPE(1-)
-is_a: CHEBI:57560 ! long-chain fatty acid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
@@ -135552,6 +135722,7 @@ is_a: CHEBI:33184 ! long-chain fatty acyl-CoA
 [Term]
 id: CHEBI:76913
 name: L-cysteinate group
+subset: chebi_ph7_3
 is_a: CHEBI:90782 ! C-terminal proteinogenic amino-acid residue(1-)
 
 [Term]
@@ -135593,8 +135764,7 @@ is_a: CHEBI:35366 ! fatty acid
 [Term]
 id: CHEBI:76930
 name: omega-hydroxytetracosanoic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
-is_a: CHEBI:27283 ! very long-chain fatty acid
+is_a: CHEBI:194304 ! omega-hydroxy-very-long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
@@ -135611,7 +135781,7 @@ is_a: CHEBI:23924 ! enzyme inhibitor
 [Term]
 id: CHEBI:76933
 name: 3,18-dihydroxyoctadecanoic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 is_a: CHEBI:24747 ! hydroxyoctadecanoic acid
 is_a: CHEBI:35972 ! dihydroxy monocarboxylic acid
 is_a: CHEBI:59845 ! 3-hydroxy fatty acid
@@ -135619,9 +135789,8 @@ is_a: CHEBI:59845 ! 3-hydroxy fatty acid
 [Term]
 id: CHEBI:76934
 name: 3,12-dihydroxylauric acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:194303 ! omega-hydroxy-medium-chain fatty acid
 is_a: CHEBI:35972 ! dihydroxy monocarboxylic acid
-is_a: CHEBI:59554 ! medium-chain fatty acid
 is_a: CHEBI:59845 ! 3-hydroxy fatty acid
 
 [Term]
@@ -135900,8 +136069,7 @@ id: CHEBI:77015
 name: (4Z,7Z,10Z,13Z,16Z,19Z)-22-hydroxydocosahexaenoate
 subset: chebi_ph7_3
 is_a: CHEBI:131871 ! hydroxy polyunsaturated fatty acid anion
-is_a: CHEBI:57560 ! long-chain fatty acid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 
 [Term]
 id: CHEBI:77016
@@ -138312,6 +138480,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:77660
 name: pyrroloquinoline quinol(4-)
+subset: chebi_ph7_3
 is_a: CHEBI:35753 ! tricarboxylic acid anion
 
 [Term]
@@ -138336,6 +138505,7 @@ is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
 [Term]
 id: CHEBI:77670
 name: primary fluorescent chlorophyll catabolite(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 is_a: CHEBI:59252 ! linear tetrapyrrole anion
 
@@ -140917,6 +141087,7 @@ relationship: has_role CHEBI:76946 ! fungal metabolite
 [Term]
 id: CHEBI:78294
 name: (3R)-3-hydroxy-L-argininium residue
+subset: chebi_ph7_3
 is_a: CHEBI:141997 ! hydroxy-L-argininium residue
 is_a: CHEBI:58942 ! amino-acid cation residue
 
@@ -141297,7 +141468,7 @@ is_a: CHEBI:76628 ! 11-hydroxylaurate
 id: CHEBI:78424
 name: 18-hydroxyoleate
 subset: chebi_ph7_3
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 
 [Term]
 id: CHEBI:78426
@@ -141382,6 +141553,7 @@ is_a: CHEBI:88057 ! ganglioside GD1(2-)
 [Term]
 id: CHEBI:78446
 name: O-(S-acetylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -141395,17 +141567,20 @@ is_a: CHEBI:90501 ! alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->3)-be
 [Term]
 id: CHEBI:78449
 name: O-(S-malonylpantetheine-4'-phosphoryl)serine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78450
 name: O-(S-acetoacetylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78451
 name: O-[S-(3R)-hydroxybutanoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -141419,11 +141594,13 @@ is_a: CHEBI:88058 ! ganglioside GT1(3-)
 [Term]
 id: CHEBI:78453
 name: O-[S-(2E)-butenoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78784 ! O-[S-(2E)-2-enoylpantetheine-4'-phosphoryl]-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78454
 name: O-(S-butanoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -141437,119 +141614,141 @@ is_a: CHEBI:90862 ! alpha-Neu5Ac-(2->8)-alpha-Neu5Ac-(2->3)-beta-Gal-(1->3)-beta
 [Term]
 id: CHEBI:78456
 name: O-(S-3-oxohexanoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78457
 name: O-[S-(3R)-hydroxyhexanoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78458
 name: O-[S-(2E)-hexenoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 is_a: CHEBI:78784 ! O-[S-(2E)-2-enoylpantetheine-4'-phosphoryl]-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78459
 name: O-(S-hexanoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78460
 name: O-(S-3-oxooctanoylpantetheine-4-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78461
 name: O-[S-(3R)-hydroxyoctanoylpantetheine-4-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78462
 name: O-[S-(2E)-octenoylpantetheine-4-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78784 ! O-[S-(2E)-2-enoylpantetheine-4'-phosphoryl]-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78463
 name: O-(S-octanoylpantetheine-4-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78464
 name: O-(S-3-oxodecanoylpantetheine-4-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78466
 name: O-[S-(3R)-hydroxydecanoylpantetheine-4-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78467
 name: O-[S-(2E)-decenoylpantetheine-4-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78784 ! O-[S-(2E)-2-enoylpantetheine-4'-phosphoryl]-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78468
 name: O-(S-decanoylpantetheine-4-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78469
 name: O-(S-3-oxododecanoylpantetheine-4-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78470
 name: O-[S-(3R)-hydroxydodecanoylpantetheine-4-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78472
 name: O-[S-(2E)-dodecenoylpantetheine-4-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 is_a: CHEBI:78784 ! O-[S-(2E)-2-enoylpantetheine-4'-phosphoryl]-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78473
 name: O-(S-3-oxotetradecanoylpantetheine-4-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78474
 name: O-[S-(3R)-hydroxytetradecanoylpantetheine-4-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78475
 name: O-[S-(2E)-tetradecenoylpantetheine-4-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78477
 name: O-(S-tetradecanoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78478
 name: O-(S-3-oxohexadecanoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78480
 name: O-[S-(3R)-hydroxyhexadecanoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78481
 name: O-[S-(2E)-hexadecenoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 is_a: CHEBI:78784 ! O-[S-(2E)-2-enoylpantetheine-4'-phosphoryl]-L-serine(1-) residue
 
@@ -141563,6 +141762,7 @@ is_a: CHEBI:88068 ! monosialomonoglycosylceramide(1-)
 [Term]
 id: CHEBI:78483
 name: O-(S-hexadecanoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -141587,17 +141787,20 @@ is_a: CHEBI:27731 ! N-acetyl-beta-D-galactosaminyl-(1->4)-beta-D-galactosyl-(1->
 [Term]
 id: CHEBI:78487
 name: O-(S-3-oxooctadecanoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78488
 name: O-[S-(3R)-hydroxyoctadecanoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78489
 name: O-[S-(2E)-octadecenoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 is_a: CHEBI:78784 ! O-[S-(2E)-2-enoylpantetheine-4'-phosphoryl]-L-serine(1-) residue
 
@@ -141610,6 +141813,7 @@ is_a: CHEBI:64768 ! zwitterionic group
 [Term]
 id: CHEBI:78495
 name: O-(S-octadecanoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -141621,11 +141825,13 @@ is_a: CHEBI:64768 ! zwitterionic group
 [Term]
 id: CHEBI:78499
 name: C-terminal-gamma-L-glutamyl-L-2-aminoadipate 6-phosphate(4-) group
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
 id: CHEBI:78501
 name: C-terminal-gamma-L-glutamyl-L-2-aminoadipate semialdehyde(2-) group
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -141638,6 +141844,7 @@ is_a: CHEBI:50994 ! primary amino compound
 [Term]
 id: CHEBI:78503
 name: C-terminal-gamma-L-glutamyl-L-2-aminoadipate(3-) group
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -141692,11 +141899,13 @@ is_a: CHEBI:78442 ! AMP 3'-end(1-) residue
 [Term]
 id: CHEBI:78525
 name: L-glutamo(2-) group
+subset: chebi_ph7_3
 is_a: CHEBI:90782 ! C-terminal proteinogenic amino-acid residue(1-)
 
 [Term]
 id: CHEBI:78526
 name: C-terminal-gamma-L-glutamyl-L-lysine(1-) group
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -142444,31 +142653,37 @@ is_a: CHEBI:78771 ! ascarylopyranose
 [Term]
 id: CHEBI:78776
 name: O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78778
 name: O-[S-(11Z)-hexadecenoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78779
 name: O-[S-(13Z)-3-oxooctadecenoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78783
 name: O-(S-oleoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78784
 name: O-[S-(2E)-2-enoylpantetheine-4'-phosphoryl]-L-serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78785
 name: O-(S-2,3-saturated acylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -142492,6 +142707,7 @@ relationship: has_role CHEBI:76946 ! fungal metabolite
 [Term]
 id: CHEBI:78798
 name: O-[S-(3Z)-decenoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -142520,6 +142736,7 @@ is_a: CHEBI:78055 ! hexacosenoate
 [Term]
 id: CHEBI:78809
 name: N(6)-octanoyl-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:189854 ! N(6)-(fatty acyl)-L-lysine residue
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
@@ -142579,36 +142796,43 @@ is_a: CHEBI:78816 ! 5-hydroxyhexan-2-one
 [Term]
 id: CHEBI:78818
 name: O-(S-3-oxopentanoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78820
 name: O-(S-3-oxo-4-methylpentanoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78822
 name: O-(S-3-oxo-5-methylhexanoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78823
 name: O-(S-3-oxo-4-methylhexanoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78824
 name: O-(S-3-oxoheptanoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78826
 name: O-(S-3-oxononanoylpantetheine-4'-phosphoryl)serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:78827
 name: O-[S-(3R)-3-hydroxyacylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -142656,11 +142880,13 @@ is_a: CHEBI:64775 ! organic anionic group
 [Term]
 id: CHEBI:78845
 name: O-[S-(methoxycarbonylacetyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78846
 name: O-(S-pimeloylpantetheine-4'-phosphoryl)serine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 
 [Term]
@@ -142987,26 +143213,31 @@ is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 [Term]
 id: CHEBI:78983
 name: O-[S-(3R)-hydroxypentanoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78985
 name: O-[S-(3R)-hydroxy-4-methylhexanoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78986
 name: O-[S-(3R)-hydroxy-5-methylhexanoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78987
 name: O-[S-(3R)-hydroxyheptanoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:78988
 name: O-[S-(3R)-hydroxynonanoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -143031,6 +143262,7 @@ is_a: CHEBI:78993 ! 1,2-dipalmitoylglycero-3-phospho-(1'-D-myo-inositol-3'-phosp
 [Term]
 id: CHEBI:79005
 name: diphthine methyl ester residue
+subset: chebi_ph7_3
 is_a: CHEBI:33708 ! amino-acid residue
 
 [Term]
@@ -143078,6 +143310,7 @@ is_a: CHEBI:36059 ! hydroxy monocarboxylic acid anion
 [Term]
 id: CHEBI:79032
 name: O-[S-(dihydromonacolin L carboxy)pantetheine-4'-phosphoryl]-L-serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
@@ -143704,9 +143937,8 @@ is_a: CHEBI:17106 ! 1-alkyl-sn-glycerol 3-phosphate
 [Term]
 id: CHEBI:79312
 name: 18-hydroxyoleic acid
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
 is_a: CHEBI:131869 ! hydroxy monounsaturated fatty acid
-is_a: CHEBI:15904 ! long-chain fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 relationship: has_role CHEBI:76924 ! plant metabolite
 
@@ -143959,7 +144191,10 @@ is_a: CHEBI:18379 ! nitrile
 [Term]
 id: CHEBI:80308
 name: substance P
-is_a: CHEBI:50860 ! organic molecular entity
+is_a: CHEBI:16670 ! peptide
+relationship: has_role CHEBI:194137 ! neurokinin-1 receptor agonist
+relationship: has_role CHEBI:25512 ! neurotransmitter
+relationship: has_role CHEBI:35620 ! vasodilator agent
 
 [Term]
 id: CHEBI:80448
@@ -144728,11 +144963,13 @@ relationship: has_role CHEBI:76969 ! bacterial metabolite
 [Term]
 id: CHEBI:82612
 name: S-methyl-L-cysteine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:82620
 name: L-tyrosine-O-phosphate(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -144781,7 +145018,7 @@ id: CHEBI:82635
 name: 4-nitrophenyl acetate
 subset: chebi_ph7_3
 is_a: CHEBI:140310 ! phenyl acetates
-is_a: CHEBI:48109 ! nitrobenzenes
+is_a: CHEBI:35716 ! C-nitro compound
 
 [Term]
 id: CHEBI:82637
@@ -144809,6 +145046,7 @@ is_a: CHEBI:33286 ! agrochemical
 [Term]
 id: CHEBI:82657
 name: deoxyhypusine(2+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
@@ -144856,6 +145094,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:82683
 name: O-[2'-(5-phosphoribosyl)-3'-dephospho-CoA]-L-serine(3-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -144883,22 +145122,26 @@ is_a: CHEBI:38418 ! 1,3-thiazoles
 [Term]
 id: CHEBI:82693
 name: 2-[(3S)-3-carboxylato-3-(methylammonio)propyl]-L-histidine residue
+subset: chebi_ph7_3
 is_a: CHEBI:64768 ! zwitterionic group
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:82695
 name: 2-[(3S)-3-carboxylato-3-(dimethylammonio)propyl]-L-histidine residue
+subset: chebi_ph7_3
 is_a: CHEBI:73745 ! 2-[3-carboxylato-3-(dimethylammonio)propyl]-L-histidine residue
 
 [Term]
 id: CHEBI:82696
 name: diphthine betaine residue
+subset: chebi_ph7_3
 is_a: CHEBI:64768 ! zwitterionic group
 
 [Term]
 id: CHEBI:82697
-name: N-(ADP-D-ribosyl)diphthamide(1-) residue
+name: N-(ADP-alpha-D-ribosyl)diphthamide(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -144978,6 +145221,7 @@ is_a: CHEBI:73204 ! ceramide phosphoethanolamine
 [Term]
 id: CHEBI:82735
 name: O-[S-(6-methoxycarbonylhexanoyl)pantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -145091,6 +145335,7 @@ is_a: CHEBI:75112 ! 1-acyl-2-arachidonoyl-sn-glycero-3-phosphate
 [Term]
 id: CHEBI:82764
 name: O-[S-2-methylbutanoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -145812,11 +146057,13 @@ is_a: CHEBI:16807 ! S(6)-acetyldihydrolipoamide
 [Term]
 id: CHEBI:83099
 name: N(6)-[(R)-lipoyl]-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:14919 ! N(6)-lipoyl-L-lysine residue
 
 [Term]
 id: CHEBI:83100
 name: N(6)-[(R)-dihydrolipoyl]-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:50746 ! N(6)-dihydrolipoyl-L-lysine residue
 
 [Term]
@@ -145827,11 +146074,13 @@ is_a: CHEBI:14949 ! N(6)-(S(8)-aminomethyldihydrolipoyl)-L-lysine residue
 [Term]
 id: CHEBI:83111
 name: N(6)-[(R)-S(8)-acetyldihydrolipoyl]-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:78815 ! N(6)-(S(8)-acetyldihydrolipoyl)-L-lysine residue
 
 [Term]
 id: CHEBI:83120
 name: N(6)-[(R)-S(8)-succinyldihydrolipoyl]-L-lysine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -145843,21 +146092,25 @@ is_a: CHEBI:77636 ! fatty acyl-CoA(4-)
 [Term]
 id: CHEBI:83142
 name: N(6)-[(R)-S(8)-isobutyryldihydrolipoyl]-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:83143
 name: N(6)-[(R)-S(8)-ammoniomethyldihydrolipoyl]-L-lysine(1+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
 id: CHEBI:83144
 name: biotinyl-L-lysine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:83145
 name: carboxybiotinyl-L-lysine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 is_a: CHEBI:64775 ! organic anionic group
 
@@ -145874,6 +146127,7 @@ is_a: CHEBI:38089 ! 15-hydroxy steroid
 [Term]
 id: CHEBI:83148
 name: glycino(1-) group
+subset: chebi_ph7_3
 is_a: CHEBI:143819 ! C-terminal amino acid residue(1-)
 is_a: CHEBI:90782 ! C-terminal proteinogenic amino-acid residue(1-)
 
@@ -145911,6 +146165,7 @@ is_a: CHEBI:62643 ! anionic phospholipid
 [Term]
 id: CHEBI:83191
 name: phosphatidylinositol bisphosphate(5-)
+subset: chebi_ph7_3
 is_a: CHEBI:62643 ! anionic phospholipid
 
 [Term]
@@ -145949,11 +146204,13 @@ is_a: CHEBI:83264 ! beta-D-glucosylceramide
 [Term]
 id: CHEBI:83226
 name: N(omega)-phospho-L-arginine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
 id: CHEBI:83228
 name: L-alpha-amino acid residue
+subset: chebi_ph7_3
 is_a: CHEBI:33710 ! alpha-amino-acid residue
 
 [Term]
@@ -146132,10 +146389,9 @@ id: CHEBI:83334
 name: 12-HPE(8,10,14)TrE(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:131875 ! hydroperoxyicosatrienoate
+is_a: CHEBI:134019 ! hydroperoxy polyunsaturated fatty acid anion
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:62937 ! icosanoid anion
-is_a: CHEBI:64012 ! hydroperoxy fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:83336
@@ -146300,6 +146556,7 @@ is_a: CHEBI:23132 ! chlorobenzenes
 [Term]
 id: CHEBI:83397
 name: L-citrulline residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -146404,6 +146661,7 @@ is_a: CHEBI:57836 ! 1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate(7-)
 [Term]
 id: CHEBI:83421
 name: O-phospho-L-serine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -146467,11 +146725,13 @@ is_a: CHEBI:60251 ! guanidinium ion
 [Term]
 id: CHEBI:83440
 name: O-(S-3-oxoicosanoylpantetheine-4'-phosphoryl)-L-serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78776 ! O-(S-3-oxoacylpantetheine-4'-phosphoryl)-L-serine(1-) residue
 
 [Term]
 id: CHEBI:83441
 name: O-[S-(3R)-hydroxyicosanoylpantetheine-4-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:78827 ! O-[S-(3R)-3-hydroxyacylpantetheine-4'-phosphoryl]serine(1-) residue
 
 [Term]
@@ -146622,6 +146882,7 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:83586
 name: N(tele)-phosphonato-L-histidine residue
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 
 [Term]
@@ -146673,6 +146934,7 @@ is_a: CHEBI:83622 ! fatty acyl-AMP(1-)
 [Term]
 id: CHEBI:83624
 name: O-adenyl-L-tyrosine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -146767,6 +147029,7 @@ is_a: CHEBI:33715 ! N-terminal alpha-amino-acid residue
 [Term]
 id: CHEBI:83697
 name: N(5)-alkyl-L-glutamine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -146857,6 +147120,7 @@ is_a: CHEBI:157669 ! carbocyclic fatty acyl-CoA(4-)
 [Term]
 id: CHEBI:83739
 name: ferroheme c di-L-cysteine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -147173,10 +147437,9 @@ is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 id: CHEBI:83914
 name: omega-hydroxy-15-methylpalmitate
 subset: chebi_ph7_3
-is_a: CHEBI:57560 ! long-chain fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 is_a: CHEBI:58956 ! branched-chain saturated fatty acid anion
 is_a: CHEBI:67013 ! methyl-branched fatty acid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
 
 [Term]
 id: CHEBI:83916
@@ -147306,6 +147569,7 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 [Term]
 id: CHEBI:83960
 name: N(omega)-alpha-(ADP-D-ribosyl)-L-arginine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:142554 ! N(omega)-(ADP-D-ribosyl)-L-argininium(1-) residue
 is_a: CHEBI:64775 ! organic anionic group
 
@@ -147400,6 +147664,7 @@ is_a: CHEBI:70813 ! glutamine derivative
 [Term]
 id: CHEBI:83989
 name: O-[S-(9Z)-hexadecenoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -147445,6 +147710,7 @@ id: CHEBI:84026
 name: vernolate
 subset: chebi_ph7_3
 is_a: CHEBI:133586 ! epoxyoctadecenoate
+is_a: CHEBI:190711 ! epoxy fatty acid anion
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:82680 ! monounsaturated fatty acid anion
 
@@ -147735,6 +148001,7 @@ is_a: CHEBI:33703 ! amino-acid cation
 [Term]
 id: CHEBI:84139
 name: myo-inositol phosphate(2-)
+subset: chebi_ph7_3
 is_a: CHEBI:67140 ! phosphate monoester dianion
 is_a: CHEBI:76301 ! inositol phosphate oxoanion
 
@@ -147816,6 +148083,7 @@ relationship: has_role CHEBI:75767 ! animal metabolite
 [Term]
 id: CHEBI:84163
 name: anthocyanidin 3-O-(6-O-malonyl-beta-D-glucoside) betaine
+subset: chebi_ph7_3
 is_a: CHEBI:51978 ! oxonium betaine
 
 [Term]
@@ -147879,9 +148147,8 @@ is_a: CHEBI:75885 ! 2-pyranones
 id: CHEBI:84174
 name: 12-HPE(8,10,14)TrE
 is_a: CHEBI:15904 ! long-chain fatty acid
+is_a: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
 is_a: CHEBI:23899 ! icosanoid
-is_a: CHEBI:26208 ! polyunsaturated fatty acid
-is_a: CHEBI:64009 ! hydroperoxy fatty acid
 
 [Term]
 id: CHEBI:84175
@@ -149235,19 +149502,6 @@ name: algal metabolite
 is_a: CHEBI:75763 ! eukaryotic metabolite
 
 [Term]
-id: CHEBI:84743
-name: amiloride hydrochloride
-is_a: CHEBI:36807 ! hydrochloride
-relationship: has_part CHEBI:84745 ! amiloride(1+)
-relationship: has_role CHEBI:35498 ! diuretic
-relationship: has_role CHEBI:38633 ! sodium channel blocker
-
-[Term]
-id: CHEBI:84745
-name: amiloride(1+)
-is_a: CHEBI:25697 ! organic cation
-
-[Term]
 id: CHEBI:84755
 name: 2-deoxy-D-glucopyranose
 subset: chebi_ph7_3
@@ -149682,6 +149936,7 @@ is_a: CHEBI:78840 ! olefinic compound
 [Term]
 id: CHEBI:84990
 name: gamma-carboxy-L-glutamate(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -150439,11 +150694,13 @@ is_a: CHEBI:47788 ! 3-oxo steroid
 [Term]
 id: CHEBI:85279
 name: S-3-[(2R)-phycoerythrobilin]-L-cysteine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
 id: CHEBI:85280
 name: S-3-[(2R)-phycocyanobilin]-L-cysteine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -150491,6 +150748,7 @@ is_a: CHEBI:85201 ! N-icosenoylphytosphingosine
 [Term]
 id: CHEBI:85288
 name: S-3-[(2R)-phycoviolobilin]-L-cysteine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -150584,6 +150842,7 @@ is_a: CHEBI:85283 ! N-(saturated fatty acyl)ethanolamine
 [Term]
 id: CHEBI:85305
 name: S-3-[(2R)-phycourobilin]-L-cysteine(2-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -150707,6 +150966,7 @@ is_a: CHEBI:35238 ! amino acid zwitterion
 [Term]
 id: CHEBI:85339
 name: O-[S-(L-alloisoleucyl)pantetheine-4'-phosphoryl]serine zwitterionic residue
+subset: chebi_ph7_3
 is_a: CHEBI:64768 ! zwitterionic group
 
 [Term]
@@ -150987,7 +151247,6 @@ relationship: has_role CHEBI:76969 ! bacterial metabolite
 id: CHEBI:85418
 name: 7-demethylmitomycin B
 is_a: CHEBI:25357 ! mitomycin
-is_a: CHEBI:38163 ! organic heterotetracyclic compound
 is_a: CHEBI:73080 ! hemiaminal
 
 [Term]
@@ -152260,6 +152519,7 @@ is_a: CHEBI:83139 ! long-chain fatty acyl-CoA(4-)
 [Term]
 id: CHEBI:85919
 name: O-[S-(4Z)-hexadecenoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -152416,6 +152676,7 @@ is_a: CHEBI:131622 ! steroidal acyl-CoA(4-)
 [Term]
 id: CHEBI:86019
 name: S-[(2E,6E)-farnesyl]-L-cysteine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -152435,6 +152696,7 @@ is_a: CHEBI:131622 ! steroidal acyl-CoA(4-)
 [Term]
 id: CHEBI:86021
 name: S-geranylgeranyl-L-cysteine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -152561,8 +152823,8 @@ relationship: has_role CHEBI:25212 ! metabolite
 id: CHEBI:86071
 name: caffeyl alcohol
 subset: chebi_ph7_3
-is_a: CHEBI:18135 ! catechol
 is_a: CHEBI:26004 ! phenylpropanoid
+is_a: CHEBI:33566 ! catechols
 
 [Term]
 id: CHEBI:86074
@@ -152623,6 +152885,7 @@ is_a: CHEBI:87691 ! tetradecanoate ester
 [Term]
 id: CHEBI:86110
 name: O-[S-(6Z)-hexadecenoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -153050,11 +153313,13 @@ is_a: CHEBI:17761 ! ceramide
 [Term]
 id: CHEBI:86298
 name: O-[S-5-hexenoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
 id: CHEBI:86299
 name: O-[S-5-hexynoylpantetheine-4'-phosphoryl]serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -153147,12 +153412,6 @@ name: conazole antifungal agent
 is_a: CHEBI:68452 ! azole
 relationship: has_role CHEBI:35718 ! antifungal agent
 relationship: has_role CHEBI:75282 ! ergosterol biosynthesis inhibitor
-
-[Term]
-id: CHEBI:86324
-name: quinolone antibiotic
-is_a: CHEBI:25558 ! organonitrogen heterocyclic antibiotic
-relationship: has_role CHEBI:33281 ! antimicrobial agent
 
 [Term]
 id: CHEBI:86327
@@ -153488,6 +153747,7 @@ relationship: has_role CHEBI:79314 ! flame retardant
 [Term]
 id: CHEBI:86464
 name: O-(S-2-hydroxybenzoylpantetheine-4'-phosphoryl)-L-serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -154064,6 +154324,7 @@ relationship: has_role CHEBI:86327 ! antifungal drug
 [Term]
 id: CHEBI:87075
 name: O-(N-acetyl-alpha-D-galactosaminyl)-L-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 relationship: has_role CHEBI:53000 ! epitope
 
@@ -154076,6 +154337,7 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:87080
 name: N-acetyl-beta-D-glucosaminyl-(1->3)-N-acetyl-alpha-D-galactosaminyl-L-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -154222,6 +154484,7 @@ relationship: has_role CHEBI:86327 ! antifungal drug
 [Term]
 id: CHEBI:87131
 name: O-(S-L-2-amino-6-adipoylpantetheine-4'-phosphoryl)-L-serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -154312,6 +154575,7 @@ is_a: CHEBI:26207 ! polyterpenoid
 [Term]
 id: CHEBI:87169
 name: S-sulfo-L-cysteine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -154784,8 +155048,8 @@ id: CHEBI:87602
 name: 4-hydroxyestrone
 subset: chebi_ph7_3
 is_a: CHEBI:177917 ! phenolic steroid
-is_a: CHEBI:18135 ! catechol
 is_a: CHEBI:19168 ! 17-oxo steroid
+is_a: CHEBI:33566 ! catechols
 is_a: CHEBI:36834 ! 3-hydroxy steroid
 is_a: CHEBI:62846 ! 4-hydroxy steroid
 relationship: has_role CHEBI:50114 ! estrogen
@@ -155342,6 +155606,7 @@ is_a: CHEBI:59874 ! N-acyl-L-alpha-amino acid anion
 [Term]
 id: CHEBI:87828
 name: N(6)-glutaryl-L-lysine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 
 [Term]
@@ -155354,11 +155619,13 @@ is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 [Term]
 id: CHEBI:87830
 name: N(6)-succinyl-L-lysine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 
 [Term]
 id: CHEBI:87831
 name: N(6)-malonyl-L-lysine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 
 [Term]
@@ -155916,6 +156183,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:88115
 name: N(2)-L-glutamino(1-) group
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 is_a: CHEBI:90782 ! C-terminal proteinogenic amino-acid residue(1-)
 
@@ -156148,11 +156416,13 @@ is_a: CHEBI:25696 ! organic anion
 [Term]
 id: CHEBI:88221
 name: N(omega),N('omega)-dimethyl-L-arginine(1+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
 id: CHEBI:88222
 name: N(5)-methyl-argininium(1+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
@@ -157257,11 +157527,13 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 [Term]
 id: CHEBI:90418
 name: N(6)-D-ribulosyl-L-lysinium residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
 id: CHEBI:90420
 name: N(6)-(3-O-phospho-D-ribulosyl)-L-lysinium residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
@@ -157393,6 +157665,7 @@ is_a: CHEBI:17615 ! 1,2-diacyl-3-beta-D-galactosyl-sn-glycerol
 [Term]
 id: CHEBI:90510
 name: S-[(2E,6E)-farnesyl]-L-cysteinate residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -157429,6 +157702,7 @@ is_a: CHEBI:24145 ! galactoglycerolipid
 [Term]
 id: CHEBI:90516
 name: L-leucinate residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -157522,6 +157796,7 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:90596
 name: L-beta-isoaspartate residue
+subset: chebi_ph7_3
 is_a: CHEBI:64898 ! anionic amino-acid residue
 
 [Term]
@@ -157533,6 +157808,7 @@ is_a: CHEBI:33708 ! amino-acid residue
 [Term]
 id: CHEBI:90602
 name: uridylyl-L-tyrosine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
@@ -157545,6 +157821,7 @@ is_a: CHEBI:87658 ! decanoate ester
 [Term]
 id: CHEBI:90610
 name: O-[S-2,3-dihydroxybenzoylpantetheine-4'-phosphoryl]-L-serine(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:76179 ! O-(S-acylpantetheine-4'-phosphoryl)serine(1-) residue
 
 [Term]
@@ -157562,11 +157839,13 @@ is_a: CHEBI:64775 ! organic anionic group
 [Term]
 id: CHEBI:90618
 name: C-terminal Gly-Gly-AMP(1-) group
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
 id: CHEBI:90619
 name: C-terminal N-glycylaminoethanethioic S-acid residue
+subset: chebi_ph7_3
 is_a: CHEBI:22332 ! alkylamino group
 
 [Term]
@@ -157664,8 +157943,8 @@ is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 id: CHEBI:90707
 name: 20-hydroxylipoxin A4(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 is_a: CHEBI:67022 ! lipoxin anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
 
 [Term]
 id: CHEBI:90708
@@ -157686,17 +157965,16 @@ is_a: CHEBI:23888 ! drug
 id: CHEBI:90711
 name: 20-hydroxylipoxin B4(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 is_a: CHEBI:67022 ! lipoxin anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
 
 [Term]
 id: CHEBI:90715
 name: 5,20-DiHETE(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:131877 ! dihydroxyicosatetraenoate
-is_a: CHEBI:57560 ! long-chain fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 is_a: CHEBI:62937 ! icosanoid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
@@ -157713,9 +157991,8 @@ id: CHEBI:90717
 name: 8,20-DiHETE(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:131877 ! dihydroxyicosatetraenoate
-is_a: CHEBI:57560 ! long-chain fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 is_a: CHEBI:62937 ! icosanoid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
@@ -157731,9 +158008,8 @@ id: CHEBI:90719
 name: 12,20-DiHETE(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:131877 ! dihydroxyicosatetraenoate
-is_a: CHEBI:57560 ! long-chain fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 is_a: CHEBI:62937 ! icosanoid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
@@ -157775,8 +158051,8 @@ is_a: CHEBI:58342 ! acyl-CoA(4-)
 id: CHEBI:90732
 name: 20-hydroxy-6-trans-leukotriene B4(1-)
 subset: chebi_ph7_3
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 is_a: CHEBI:62942 ! leukotriene anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
 
 [Term]
 id: CHEBI:90736
@@ -157870,6 +158146,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:90778
 name: C-terminal Gly-Gly(1-) residue
+subset: chebi_ph7_3
 is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
@@ -157890,12 +158167,14 @@ is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 [Term]
 id: CHEBI:90782
 name: C-terminal proteinogenic amino-acid residue(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:143819 ! C-terminal amino acid residue(1-)
 is_a: CHEBI:35416 ! alpha-amino-acid residue anion
 
 [Term]
 id: CHEBI:90783
 name: C-terminal S-(Gly-Gly)-L-Cys zwitterion residue
+subset: chebi_ph7_3
 is_a: CHEBI:64768 ! zwitterionic group
 
 [Term]
@@ -158137,9 +158416,6 @@ id: CHEBI:90823
 name: 13-HPODE(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:131862 ! HPODE(1-)
-is_a: CHEBI:57560 ! long-chain fatty acid anion
-is_a: CHEBI:64012 ! hydroperoxy fatty acid anion
-is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
 [Term]
@@ -158202,6 +158478,7 @@ is_a: CHEBI:83822 ! non-proteinogenic L-alpha-amino acid
 [Term]
 id: CHEBI:90840
 name: O-(N-acetyl-beta-D-glucosaminyl)-L-threonine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -158292,11 +158569,13 @@ relationship: has_role CHEBI:86328 ! antifungal agrochemical
 [Term]
 id: CHEBI:90870
 name: 3-iodo-L-tyrosine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
 id: CHEBI:90871
 name: 3,5-diiodo-L-tyrosine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -158314,6 +158593,7 @@ is_a: CHEBI:33710 ! alpha-amino-acid residue
 [Term]
 id: CHEBI:90874
 name: 3,3',5-triiodo-L-thyronine residue
+subset: chebi_ph7_3
 is_a: CHEBI:83228 ! L-alpha-amino acid residue
 
 [Term]
@@ -158701,25 +158981,23 @@ is_a: CHEBI:83228 ! L-alpha-amino acid residue
 [Term]
 id: CHEBI:90976
 name: 20-hydroxylipoxin A4
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
 is_a: CHEBI:140345 ! hydroxy polyunsaturated fatty acid
-is_a: CHEBI:15904 ! long-chain fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 is_a: CHEBI:6497 ! lipoxin
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
 [Term]
 id: CHEBI:90978
 name: 20-hydroxylipoxin B4
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
 is_a: CHEBI:140345 ! hydroxy polyunsaturated fatty acid
-is_a: CHEBI:15904 ! long-chain fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 is_a: CHEBI:6497 ! lipoxin
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
 [Term]
 id: CHEBI:90979
 name: 5,20-DiHETE
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 is_a: CHEBI:72868 ! dihydroxyicosatetraenoic acid
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
@@ -158738,7 +159016,7 @@ relationship: has_role CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:90982
 name: 8,20-DiHETE
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 is_a: CHEBI:72868 ! dihydroxyicosatetraenoic acid
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
@@ -158802,16 +159080,15 @@ is_a: CHEBI:59737 ! nucleotide-sugar oxoanion
 [Term]
 id: CHEBI:90990
 name: 12,20-DiHETE
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 is_a: CHEBI:72868 ! dihydroxyicosatetraenoic acid
 relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 
 [Term]
 id: CHEBI:90992
 name: 20-hydroxy-6-trans-leukotriene B4
-is_a: CHEBI:10615 ! omega-hydroxy fatty acid
 is_a: CHEBI:140345 ! hydroxy polyunsaturated fatty acid
-is_a: CHEBI:15904 ! long-chain fatty acid
+is_a: CHEBI:140997 ! omega-hydroxy-long-chain fatty acid
 is_a: CHEBI:25029 ! leukotriene
 
 [Term]
@@ -159113,6 +159390,7 @@ relationship: has_role CHEBI:76924 ! plant metabolite
 [Term]
 id: CHEBI:91175
 name: hypusine(2+) residue
+subset: chebi_ph7_3
 is_a: CHEBI:35415 ! alpha-amino-acid residue cation
 
 [Term]
@@ -159463,8 +159741,7 @@ relationship: has_role CHEBI:76967 ! human xenobiotic metabolite
 id: CHEBI:91294
 name: 12,18-dihydroxyoctadecanoate
 subset: chebi_ph7_3
-is_a: CHEBI:57560 ! long-chain fatty acid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 
 [Term]
 id: CHEBI:91295
@@ -159502,16 +159779,14 @@ id: CHEBI:91300
 name: (9Z,12R)-12,18-dihydroxyoctadecenoate
 subset: chebi_ph7_3
 is_a: CHEBI:131870 ! hydroxy monounsaturated fatty acid anion
-is_a: CHEBI:57560 ! long-chain fatty acid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 
 [Term]
 id: CHEBI:91301
 name: 5,20-diHEPE(1-)
 subset: chebi_ph7_3
-is_a: CHEBI:57560 ! long-chain fatty acid anion
+is_a: CHEBI:140992 ! omega-hydroxy-long-chain fatty acid anion
 is_a: CHEBI:62937 ! icosanoid anion
-is_a: CHEBI:76307 ! omega-hydroxy fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
