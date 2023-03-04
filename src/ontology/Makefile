@@ -80,7 +80,7 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl subset-reports generate-mappings
+stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl subset-owls subset-reports generate-mappings
 
 test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
@@ -225,7 +225,7 @@ $(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro-download.ow
 
 extensions/reacto.owl: $(GO_LEGO).owl mirror/chebi.owl
 	mkdir -p reacto-tmp
-	wget -O ./reacto-tmp/biopax2go.jar --no-check-certificate https://github.com/geneontology/pathways2GO/releases/download/v1.1.3/biopax2go.jar
+	wget -O ./reacto-tmp/biopax2go.jar --no-check-certificate https://github.com/geneontology/pathways2GO/releases/download/v1.1.4/biopax2go.jar
 	wget -O ./reacto-tmp/biopax.zip --no-check-certificate https://reactome.org/download/current/biopax.zip
 	unzip -o ./reacto-tmp/biopax.zip -d ./reacto-tmp/
 	java -jar -Xmx8G ./reacto-tmp/biopax2go.jar -b ./reacto-tmp/Homo_sapiens.owl -reacto ./extensions/reacto -lego $(GO_LEGO).owl -chebi ./mirror/chebi.owl
@@ -259,7 +259,6 @@ $(ONT)-pre-reduced.owl: $(ONT)-pre.owl
 $(ONT).obo: $(ONT)-pre-reduced.owl
 	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
 	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge $(BUILD_DIR)/go.obo &&\
-	cp $(BUILD_DIR)/subsets/* subsets/ &&\
 	cp $(BUILD_DIR)/go.obo $@ &&\
 	cp $(BUILD_DIR)/go-simple.obo . &&\
 	cp $(BUILD_DIR)/go.owl .
@@ -286,16 +285,24 @@ go-basic.owl: go-basic.obo
 	$(ROBOT) convert -i $< -o $@
 
 # ----------------------------------------
-# SUBSET REPORTS
+# SUBSETS AND REPORTS
 # ----------------------------------------
 # Currently the only per-subset report is id-label pairs
 # See: https://github.com/geneontology/go-ontology/issues/14028
 
-# get all subsets
-subset-files = $(shell ls subsets/*.owl)
+PUBLISH_SUBSETS = gocheck_do_not_annotate gocheck_do_not_manually_annotate goslim_agr goslim_candida goslim_chembl goslim_drosophila goslim_flybase_ribbon goslim_generic goslim_metagenomics goslim_mouse goslim_pir goslim_plant goslim_pombe goslim_synapse goslim_yeast prokaryote_subset
+
+SUBSET_OWLS = $(patsubst %,subsets/%.owl,$(PUBLISH_SUBSETS))
+# Also generates %.obo and %.json
+subset-owls: $(SUBSET_OWLS)
+
+# Also generates %.obo and %.json
+# Implicitly depends on build/subsets/%.owl generated as side effect of go.obo
+subsets/%.owl: $(ONT).obo 
+	$(ROBOT) annotate -i $(BUILD_DIR)/$@ --annotation owl:versionInfo $(RELEASEDATE) -o $@ convert -o $(patsubst %.owl,%.obo,$@) convert -o $(patsubst %.owl,%.json,$@)
 
 # so far we only make simple .tsv reports
-SUBSET_REPORTS = $(patsubst %,%.tsv,$(basename $(subset-files)))
+SUBSET_REPORTS = $(patsubst %,%.tsv,$(basename $(SUBSET_OWLS)))
 subset-reports: $(SUBSET_REPORTS)
 subsets/%.tsv: subsets/%.owl
 	$(ROBOT) query -f tsv -i $< -s ../sparql/labels.sparql $@
@@ -431,13 +438,8 @@ mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(CL_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
-
-# special case: the RO imports closure is unusual
-# typically we use only the main ontology, not the imports.
-# for RO we merge these, in order to get ro/core, bfo classes
-# see https://github.com/geneontology/go-ontology/issues/12946
 mirror/ro-download.owl: $(SRC)
-	$(OWLTOOLS) $(OBO)/ro.owl --merge-imports-closure -o $@
+	wget --no-check-certificate $(OBO)/ro/ro-base.owl $(WGET_OUT)
 .PRECIOUS: mirror/ro-download.owl
 
 # general case: download remote OWL first

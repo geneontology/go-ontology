@@ -298,7 +298,6 @@ http://purl.obolibrary.org/obo/GO_0030094	plasma membrane-derived photosystem I	
 http://purl.obolibrary.org/obo/GO_0030096	plasma membrane-derived thylakoid photosystem II	http://purl.obolibrary.org/obo/GO_0009523	photosystem II	http://purl.obolibrary.org/obo/GO_0030075	bacterial thylakoid
 http://purl.obolibrary.org/obo/GO_0048493	plasma membrane-derived thylakoid ribulose bisphosphate carboxylase complex	http://purl.obolibrary.org/obo/GO_0048492	ribulose bisphosphate carboxylase complex	http://purl.obolibrary.org/obo/GO_0030075	bacterial thylakoid
 http://purl.obolibrary.org/obo/GO_0031009	plastid ADPG pyrophosphorylase complex	http://purl.obolibrary.org/obo/GO_0030929	ADPG pyrophosphorylase complex	http://purl.obolibrary.org/obo/GO_0009536	plastid
-http://purl.obolibrary.org/obo/GO_0032284	plastid biotin carboxylase complex	http://purl.obolibrary.org/obo/GO_0009343	biotin carboxylase complex	http://purl.obolibrary.org/obo/GO_0009536	plastid
 http://purl.obolibrary.org/obo/GO_0009508	plastid chromosome	http://purl.obolibrary.org/obo/GO_0005694	chromosome	http://purl.obolibrary.org/obo/GO_0009536	plastid
 http://purl.obolibrary.org/obo/GO_0000311	plastid large ribosomal subunit	http://purl.obolibrary.org/obo/GO_0015934	large ribosomal subunit	http://purl.obolibrary.org/obo/GO_0009547	plastid ribosome
 http://purl.obolibrary.org/obo/GO_0031020	plastid mRNA editing complex	http://purl.obolibrary.org/obo/GO_0045293	mRNA editing complex	http://purl.obolibrary.org/obo/GO_0009536	plastid

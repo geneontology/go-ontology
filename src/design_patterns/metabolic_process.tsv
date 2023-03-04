@@ -29,7 +29,6 @@ http://purl.obolibrary.org/obo/GO_0018976	1,2,3-tribromopropane metabolic proces
 http://purl.obolibrary.org/obo/GO_0018911	1,2,4-trichlorobenzene metabolic process	http://purl.obolibrary.org/obo/CHEBI_28222	1,2,4-trichlorobenzene
 http://purl.obolibrary.org/obo/GO_0006653	1,2-diacyl-sn-glycero-3-phosphocholine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57643	1,2-diacyl-sn-glycero-3-phosphocholine
 http://purl.obolibrary.org/obo/GO_0018899	1,2-dichloroethane metabolic process	http://purl.obolibrary.org/obo/CHEBI_27789	1,2-dichloroethane
-http://purl.obolibrary.org/obo/GO_0018902	1,3-dichloro-2-propanol metabolic process	http://purl.obolibrary.org/obo/CHEBI_18917	1,3-dichloropropan-2-ol
 http://purl.obolibrary.org/obo/GO_0018903	1,3-dichloropropene metabolic process	http://purl.obolibrary.org/obo/CHEBI_18918	1,3-dichloropropene
 http://purl.obolibrary.org/obo/GO_0018912	1,4-dichlorobenzene metabolic process	http://purl.obolibrary.org/obo/CHEBI_28618	1,4-dichlorobenzene
 http://purl.obolibrary.org/obo/GO_1901801	1,5-anhydro-D-fructose metabolic process	http://purl.obolibrary.org/obo/CHEBI_16715	1,5-anhydro-D-fructose
@@ -227,7 +226,6 @@ http://purl.obolibrary.org/obo/GO_1900619	acetate ester metabolic process	http:/
 http://purl.obolibrary.org/obo/GO_0006083	acetate metabolic process	http://purl.obolibrary.org/obo/CHEBI_30089	acetate
 http://purl.obolibrary.org/obo/GO_0043438	acetoacetic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_13705	acetoacetate
 http://purl.obolibrary.org/obo/GO_0045149	acetoin metabolic process	http://purl.obolibrary.org/obo/CHEBI_15688	acetoin
-http://purl.obolibrary.org/obo/GO_0043443	acetone metabolic process	http://purl.obolibrary.org/obo/CHEBI_15347	acetone
 http://purl.obolibrary.org/obo/GO_0006084	acetyl-CoA metabolic process	http://purl.obolibrary.org/obo/CHEBI_57288	acetyl-CoA(4-)
 http://purl.obolibrary.org/obo/GO_0008291	acetylcholine metabolic process	http://purl.obolibrary.org/obo/CHEBI_15355	acetylcholine
 http://purl.obolibrary.org/obo/GO_0018864	acetylene metabolic process	http://purl.obolibrary.org/obo/CHEBI_27518	acetylene
@@ -1014,7 +1012,6 @@ http://purl.obolibrary.org/obo/GO_1901440	poly(hydroxyalkanoate) metabolic proce
 http://purl.obolibrary.org/obo/GO_1902920	poly(hydroxyvalerate) metabolic process	http://purl.obolibrary.org/obo/CHEBI_53390	poly(hydroxyvalerate)
 http://purl.obolibrary.org/obo/GO_1902011	poly(ribitol phosphate) teichoic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_72454	poly(ribitol phosphate) teichoic acid
 http://purl.obolibrary.org/obo/GO_0030309	poly-N-acetyllactosamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_26174	poly(N-acetyllactosamine)
-http://purl.obolibrary.org/obo/GO_0070500	poly-gamma-glutamate metabolic process	http://purl.obolibrary.org/obo/CHEBI_61444	gamma-poly(glutamate) polymer
 http://purl.obolibrary.org/obo/GO_0042618	poly-hydroxybutyrate metabolic process	http://purl.obolibrary.org/obo/CHEBI_53388	poly(hydroxybutyrate)
 http://purl.obolibrary.org/obo/GO_0097092	polyacyltrehalose metabolic process	http://purl.obolibrary.org/obo/CHEBI_62547	polyacyl alpha,alpha-trehalose
 http://purl.obolibrary.org/obo/GO_0006595	polyamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_88061	polyamine
@@ -1236,7 +1233,6 @@ http://purl.obolibrary.org/obo/GO_0072350	tricarboxylic acid metabolic process	h
 http://purl.obolibrary.org/obo/GO_0018979	trichloroethylene metabolic process	http://purl.obolibrary.org/obo/CHEBI_16602	trichloroethene
 http://purl.obolibrary.org/obo/GO_0010683	tricyclic triterpenoid metabolic process	http://purl.obolibrary.org/obo/CHEBI_52340	tricyclic triterpenoid
 http://purl.obolibrary.org/obo/GO_1900631	tridecane metabolic process	http://purl.obolibrary.org/obo/CHEBI_35998	tridecane
-http://purl.obolibrary.org/obo/GO_0018981	triethanolamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_132755	triethanolammonium
 http://purl.obolibrary.org/obo/GO_0006641	triglyceride metabolic process	http://purl.obolibrary.org/obo/CHEBI_17855	triglyceride
 http://purl.obolibrary.org/obo/GO_1901055	trimethylenediamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57484	trimethylenediaminium
 http://purl.obolibrary.org/obo/GO_0018973	trinitrotoluene metabolic process	http://purl.obolibrary.org/obo/CHEBI_27135	trinitrotoluene

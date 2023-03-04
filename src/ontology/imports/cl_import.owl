@@ -8,10 +8,9 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-11-21/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2023-02-28/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -64,12 +63,6 @@
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/license -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -396,16 +389,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/cl#has_completed -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/cl#has_completed">
-        <oboInOwl:hasDbXref>has_completed</oboInOwl:hasDbXref>
-        <oboInOwl:shorthand>has_completed</oboInOwl:shorthand>
-        <rdfs:label>has_completed</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/cl#has_not_completed -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/cl#has_not_completed">
@@ -452,12 +435,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_25179 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25179"/>
     
 
 
@@ -1564,7 +1541,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002159"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002148"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -2403,7 +2380,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000119">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023057"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
@@ -3036,11 +3013,23 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000165">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000540"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0046879"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000163"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000393"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000527"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000710"/>
-        <obo:IAO_0000115>An endocrine cell that has the specialized function to produce and secrete hormones in response to neuronal signals.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>neurosecretory cell</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A neuron that is capable of some hormone secretion in response to neuronal signals.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>neurosecretory cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>neurosecretory neuron</oboInOwl:hasRelatedSynonym>
         <rdfs:label>neuroendocrine cell</rdfs:label>
     </owl:Class>
     
@@ -3049,6 +3038,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000166 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000029"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000568"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4840,26 +4830,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_0000381 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000381">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000540"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0046879"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000527"/>
-        <rdfs:label>neurosecretory neuron</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CL_0000385 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000385">
@@ -5164,7 +5134,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0005001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A pigment cell derived from the neural crest. The cell contains flat light-reflecting platelets, probably of guanine, in stacks called reflecting platets or iridisomes. The color-generating components produce a silver, gold, or iridescent color.</obo:IAO_0000115>
+        <obo:IAO_0000115>A pigment cell derived from the neural crest. The cell contains flat light-reflecting platelets, probably of guanine, in stacks called reflecting platelets or iridisomes. The color-generating components produce a silver, gold, or iridescent color.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>guanophore</oboInOwl:hasRelatedSynonym>
         <rdfs:label>iridophore</rdfs:label>
     </owl:Class>
@@ -5810,7 +5780,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030217"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6422,6 +6392,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A native cell that is part of some Metazoa.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>metazoan cell</oboInOwl:hasExactSynonym>
         <rdfs:label>animal cell</rdfs:label>
     </owl:Class>
     
@@ -8033,7 +8005,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000639">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000637"/>
-        <obo:IAO_0000115>A basophillic chromophil cell that of the anterior pituitary gland.</obo:IAO_0000115>
+        <obo:IAO_0000115>A basophilic chromophil cell that of the anterior pituitary gland.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>basophil cell of anterior lobe of hypophysis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>beta cell</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>pituitary beta cell</oboInOwl:hasRelatedSynonym>
@@ -8307,15 +8279,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_0000663 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000663">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
-        <rdfs:label>valve cell</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CL_0000666 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000666">
@@ -8444,6 +8407,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <obo:IAO_0000115>A neuron that is capable of some neurotansmission by glutamate secretion.</obo:IAO_0000115>
         <rdfs:label>glutamatergic neuron</rdfs:label>
     </owl:Class>
     
@@ -9913,7 +9877,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042113"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0002335"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -10008,7 +9972,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001289"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0002344"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -10132,7 +10096,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000789"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045058"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -10252,7 +10216,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0033380"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030217"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -10441,7 +10405,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000798"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045058"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -10886,11 +10850,11 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001603"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0002286"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043379"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -10927,7 +10891,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045087"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030217"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -12523,12 +12487,12 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0031294"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015015"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001206"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030224"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030224"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015015"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001206"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_plasma_membrane_part"/>
@@ -12828,11 +12792,11 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001603"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0002286"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043379"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -12869,16 +12833,16 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001869"/>
                     </owl:Restriction>
                     <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045058"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015015"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001318"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0015016"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001307"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045058"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -13096,7 +13060,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001816"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030217"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -13138,11 +13102,11 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001603"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0002286"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043379"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -13195,11 +13159,11 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0045026"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030217"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045058"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -13865,7 +13829,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001913"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030217"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -13984,7 +13948,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0032394"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030217"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -14409,7 +14373,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000817"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0071707"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -14881,7 +14845,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001408"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016446"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -14920,11 +14884,11 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000787"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0002314"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016446"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -15084,7 +15048,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001963"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045190"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -16280,14 +16244,14 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000120"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001954"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002421"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000120"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002608"/>
-        <obo:IAO_0000115>Granule cell that is part of the hippocampus.</obo:IAO_0000115>
+        <obo:IAO_0000115>Granule cell with a soma found in the hippocampus.</obo:IAO_0000115>
         <rdfs:label>hippocampal granule cell</rdfs:label>
     </owl:Class>
     
@@ -17626,7 +17590,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A basophilic erythroblast that is GlyA-positive.</obo:IAO_0000115>
-        <rdfs:label>GlyA-positive basophillic erythroblast</rdfs:label>
+        <rdfs:label>GlyA-positive basophilic erythroblast</rdfs:label>
     </owl:Class>
     
 
@@ -19097,31 +19061,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_0002060 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002060">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000864"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002097"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25179"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000864"/>
-        <obo:IAO_0000115>A melanin-containing macrophage that obtains the pigment by phagocytosis of melanosomes.</obo:IAO_0000115>
-        <rdfs:label>melanophage</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CL_0002062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002062">
@@ -20043,7 +19982,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0032609"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030217"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -20080,7 +20019,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0032620"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030217"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -20293,6 +20232,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002145">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002202"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0005012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4030034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -20301,6 +20241,27 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>A ciliated columnar cell found in the trachea and bronchus. Vary from low to tall columnar; possesses up to 300 cilia at its surface, interspersed with long irregular microvilli with the cilia varying in length from about 6um in the trachea to about 4um in the terminal bronchioles; driving force of the ciliary current in the bronchial tree.</obo:IAO_0000115>
         <rdfs:label>ciliated columnar cell of tracheobronchial tree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002148">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002159"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001754"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002159"/>
+        <obo:IAO_0000115>A cell found within the dental pulp.</obo:IAO_0000115>
+        <rdfs:label>dental pulp cell</rdfs:label>
     </owl:Class>
     
 
@@ -22503,7 +22464,7 @@
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042101"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045058"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -24791,14 +24752,17 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000127"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001954"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002421"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000127"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1001580"/>
-        <rdfs:label>astrocyte of the hippocampus</rdfs:label>
+        <obo:IAO_0000115>An astrocyte that is part of the hippocampus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>astrocyte of the hippocampal formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>astrocyte of the hippocampus</oboInOwl:hasExactSynonym>
+        <rdfs:label>hippocampal astrocyte</rdfs:label>
     </owl:Class>
     
 
@@ -24862,16 +24826,16 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000117"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000540"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001954"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002421"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000117"/>
-        <obo:IAO_0000115>A neuron of the hippocampus.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <obo:IAO_0000115>A neuron with a soma found in the hippocampus.</obo:IAO_0000115>
         <rdfs:label>hippocampal neuron</rdfs:label>
     </owl:Class>
     
@@ -25295,7 +25259,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000792"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#has_completed"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043379"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -25537,7 +25501,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005929"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A ciliated epithelial cell with many cilium.</obo:IAO_0000115>
+        <obo:IAO_0000115>A ciliated epithelial cell with many cilia.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym xml:lang="en">MCC</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym xml:lang="en">multi-ciliated cell</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym xml:lang="en">multiciliated cell</oboInOwl:hasBroadSynonym>
@@ -27169,7 +27133,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0011006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023057"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
@@ -28055,16 +28019,18 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000663"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000003"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000948"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000946"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000663"/>
-        <rdfs:label>heart valve cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <obo:IAO_0000115>A cell that is part of a cardiac valve.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>heart valve cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>cardiac valve cell</rdfs:label>
     </owl:Class>
     
 
@@ -28243,7 +28209,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4030034"/>
         <rdfs:label>lung ciliated cell</rdfs:label>
     </owl:Class>
     
@@ -29326,6 +29292,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004205"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>An epithelial cell that is part of some inner medullary collecting duct.</obo:IAO_0000115>
         <rdfs:label>kidney inner medulla collecting duct epithelial cell</rdfs:label>
     </owl:Class>
     
@@ -29914,6 +29881,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005096"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>An epithelial cell that is part of some loop of Henle thin descending limb.</obo:IAO_0000115>
         <rdfs:label>kidney loop of Henle thin descending limb epithelial cell</rdfs:label>
     </owl:Class>
     
@@ -30210,14 +30178,15 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000099"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001954"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002421"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000099"/>
-        <obo:IAO_0000115>An interneuron of the hippocampus.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002608"/>
+        <obo:IAO_0000115>An interneuron with a soma found in the hippocampus.</obo:IAO_0000115>
         <rdfs:label>hippocampal interneuron</rdfs:label>
     </owl:Class>
     
@@ -30232,21 +30201,22 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000598"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001954"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002421"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000598"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002608"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002313"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A pyramidal neuron of the hippocampus.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>hippocampus (CA) pyramidal cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>hippocampus (CA) pyramidal neuron</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A pyramidal neuron with a soma found in the hippocampus.</obo:IAO_0000115>
+        <oboInOwl:hasNarrowSynonym>hippocampus (CA) pyramidal cell</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>hippocampus (CA) pyramidal neuron</oboInOwl:hasNarrowSynonym>
         <rdfs:label>hippocampal pyramidal neuron</rdfs:label>
     </owl:Class>
     
@@ -30379,17 +30349,16 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000125"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001954"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002421"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000125"/>
-        <obo:IAO_0000115>Glial cell of hippocampus.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym>hippocampal glial cell</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>hippocampus glial cells</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>hippocampus neuroglial cell</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>hippocampus glial cell</rdfs:label>
+        <obo:IAO_0000115>A glial cell that is part of the hippocampus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>hippocampus glial cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hippocampus neuroglial cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>hippocampal glial cell</rdfs:label>
     </owl:Class>
     
 
@@ -31267,7 +31236,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000851"/>
-        <obo:IAO_0000115>Any neuromast mantle cell that is part of a anterior lateral line.</obo:IAO_0000115>
+        <obo:IAO_0000115>Any neuromast mantle cell that is part of an anterior lateral line.</obo:IAO_0000115>
         <rdfs:label>anterior lateral line neuromast mantle cell</rdfs:label>
     </owl:Class>
     
@@ -31856,6 +31825,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000120"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023062"/>
         <obo:IAO_0000115>The principal cell type of the dentate gyrus.</obo:IAO_0000115>
         <rdfs:label>dentate gyrus of hippocampal formation granule cell</rdfs:label>
     </owl:Class>
@@ -31877,6 +31847,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000122"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023062"/>
         <obo:IAO_0000115>Any stellate cell that is part of a dentate gyrus of hippocampal formation.</obo:IAO_0000115>
         <rdfs:label>dentate gyrus of hippocampal formation stellate cell</rdfs:label>
     </owl:Class>
@@ -32009,6 +31980,113 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000032"/>
         <obo:IAO_0000115>Peripheral sensory neuron.</obo:IAO_0000115>
         <rdfs:label>peripheral sensory neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4023039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4023039">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000540"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001876"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061535"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000679"/>
+        <rdfs:label>amgydala excitatory neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4023057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4023057">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0011005"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002129"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011005"/>
+        <rdfs:label>cerebellar inhibitory GABAergic interneuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4023062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4023062">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000540"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001885"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <obo:IAO_0000115>A neuron with its soma located in the dentate gyrus of the hippocampus.</obo:IAO_0000115>
+        <rdfs:label>dentate gyrus neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4023074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4023074">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000540"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002206"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <obo:IAO_0000115>A neuron that has its soma located in the mammillary body.</obo:IAO_0000115>
+        <rdfs:label>mammillary body neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4023079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4023079">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000540"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001891"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <obo:IAO_0000115>A GABAergic inhibitory neuron that is derived from the midbrain.</obo:IAO_0000115>
+        <rdfs:label>midbrain-derived inhibitory neuron</rdfs:label>
     </owl:Class>
     
 
@@ -32293,6 +32371,144 @@
         <obo:IAO_0000115>An amacrine cell that uses glycine as a neurotransmitter.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>amacrine cell, glycinergic</oboInOwl:hasExactSynonym>
         <rdfs:label>glycinergic amacrine cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4030033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4030033">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000115"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000946"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000147"/>
+        <obo:IAO_0000115>An endothelial cell that lines a surface of a cardiac valve leaflet. Along with valve interstitial cells, a valve endothelial cell maintains tissue homeostasis for the function of cardiac valves through secreting biochemical signals, matrix proteins and matrix remodeling enzymes.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>VEC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>valvular endothelial cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>valve endothelial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4030034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4030034">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000064"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004802"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000064"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A ciliated cell of the respiratory system. Ciliated cells are present in airway epithelium.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ciliated cell of the respiratory tract</oboInOwl:hasExactSynonym>
+        <rdfs:label>respiratory ciliated cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4030035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4030035">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000034"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001754"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000034"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002148"/>
+        <obo:IAO_0000115>A dental pulp cell that possesses stem-cell-like qualities, including self-renewal capability and multi-lineage differentiation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>DPSC</oboInOwl:hasExactSynonym>
+        <rdfs:label>dental pulp stem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4033008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4033008">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002543"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001004"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002543"/>
+        <obo:IAO_0000115>A(n) vein endothelial cell that is part of a(n) respiratory system.</obo:IAO_0000115>
+        <rdfs:label>vein endothelial cell of respiratory system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4033009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4033009">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000160"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002339"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000160"/>
+        <obo:IAO_0000115>A(n) goblet cell that is part of a(n) epithelium of lobar bronchus.</obo:IAO_0000115>
+        <rdfs:label>goblet cell of epithelium of lobar bronchus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4033010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4033010">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000165"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002339"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000165"/>
+        <obo:IAO_0000115>A(n) neuroendocrine cell that is part of a(n) epithelium of lobar bronchus.</obo:IAO_0000115>
+        <rdfs:label>neuroendocrine cell of epithelium of lobar bronchus</rdfs:label>
     </owl:Class>
     
 
@@ -32705,6 +32921,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0007286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007286"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0007288 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007288"/>
@@ -32996,6 +33218,18 @@
     <!-- http://purl.obolibrary.org/obo/GO_0030317 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030317"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030424 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030424"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0030425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030425"/>
     
 
 
@@ -33431,6 +33665,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0044316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044316"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0045058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045058"/>
@@ -33782,6 +34022,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0070254 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070254"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0070278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0070278"/>
     
 
 
@@ -35045,6 +35291,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000079"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000080 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000080"/>
@@ -35186,6 +35438,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0000945 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000945"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000946 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000946"/>
     
 
 
@@ -35645,6 +35903,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001754"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001763 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001763"/>
@@ -36011,6 +36275,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002206"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0002217 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002217"/>
@@ -36098,6 +36368,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002335 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002335"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002339"/>
     
 
 
@@ -36200,6 +36476,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002418 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002418"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002421"/>
     
 
 
