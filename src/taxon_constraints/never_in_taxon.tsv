@@ -581,3 +581,4 @@ GO:0038055	BMP secretion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea
 GO:0020022	acidocalcisome	NCBITaxon:4890	Ascomycota	
 GO:0042246 	tissue regeneration	NCBITaxon:4751	Fungi	
 GO:0060250 	germ-line stem-cell niche homeostasis	NCBITaxon:4751	Fungi	
+GO:0035658	Mon1-Ccz1 complex	NCBITaxon:4896	Schizosaccharomyces pombe	
