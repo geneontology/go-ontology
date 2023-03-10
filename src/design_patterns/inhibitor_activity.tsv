@@ -14,7 +14,7 @@ http://purl.obolibrary.org/obo/GO_0010852	cyclase inhibitor activity	http://purl
 http://purl.obolibrary.org/obo/GO_0004861	cyclin-dependent protein serine/threonine kinase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004693	cyclin-dependent protein serine/threonine kinase activity
 http://purl.obolibrary.org/obo/GO_0004869	cysteine-type endopeptidase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004197	cysteine-type endopeptidase activity
 http://purl.obolibrary.org/obo/GO_0004858	dUTP pyrophosphatase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004170	dUTP diphosphatase activity
-http://purl.obolibrary.org/obo/GO_0060703	deoxyribonuclease inhibitor activity	http://purl.obolibrary.org/obo/GO_0004536	deoxyribonuclease activity
+http://purl.obolibrary.org/obo/GO_0060703	deoxyribonuclease inhibitor activity	http://purl.obolibrary.org/obo/GO_0004536	DNA nuclease activity
 http://purl.obolibrary.org/obo/GO_0004866	endopeptidase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004175	endopeptidase activity
 http://purl.obolibrary.org/obo/GO_0060698	endoribonuclease inhibitor activity	http://purl.obolibrary.org/obo/GO_0004521	RNA endonuclease activity
 http://purl.obolibrary.org/obo/GO_0004857	enzyme inhibitor activity	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
@@ -44,7 +44,7 @@ http://purl.obolibrary.org/obo/GO_0004864	protein phosphatase inhibitor activity
 http://purl.obolibrary.org/obo/GO_0030291	protein serine/threonine kinase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004674	protein serine/threonine kinase activity
 http://purl.obolibrary.org/obo/GO_0004865	protein serine/threonine phosphatase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004722	protein serine/threonine phosphatase activity
 http://purl.obolibrary.org/obo/GO_0030292	protein tyrosine kinase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004713	protein tyrosine kinase activity
-http://purl.obolibrary.org/obo/GO_0008428	ribonuclease inhibitor activity	http://purl.obolibrary.org/obo/GO_0004540	ribonuclease activity
+http://purl.obolibrary.org/obo/GO_0008428	ribonuclease inhibitor activity	http://purl.obolibrary.org/obo/GO_0004540	RNA nuclease activity
 http://purl.obolibrary.org/obo/GO_1990846	ribonucleoside-diphosphate reductase inhibitor activity	http://purl.obolibrary.org/obo/GO_0061731	ribonucleoside-diphosphate reductase activity
 http://purl.obolibrary.org/obo/GO_0004867	serine-type endopeptidase inhibitor activity	http://purl.obolibrary.org/obo/GO_0004252	serine-type endopeptidase activity
 http://purl.obolibrary.org/obo/GO_0010521	telomerase inhibitor activity	http://purl.obolibrary.org/obo/GO_0003720	telomerase activity

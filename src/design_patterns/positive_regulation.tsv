@@ -786,7 +786,6 @@ http://purl.obolibrary.org/obo/GO_0045938	positive regulation of circadian sleep
 http://purl.obolibrary.org/obo/GO_0010841	positive regulation of circadian sleep/wake cycle, wakefulness	http://purl.obolibrary.org/obo/GO_0042746	circadian sleep/wake cycle, wakefulness
 http://purl.obolibrary.org/obo/GO_1903250	positive regulation of citrulline biosynthetic process	http://purl.obolibrary.org/obo/GO_0019240	citrulline biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905445	positive regulation of clathrin coat assembly	http://purl.obolibrary.org/obo/GO_0048268	clathrin coat assembly
-http://purl.obolibrary.org/obo/GO_1905470	positive regulation of clathrin-coated pit assembly	http://purl.obolibrary.org/obo/GO_1905224	clathrin-coated pit assembly
 http://purl.obolibrary.org/obo/GO_2000370	positive regulation of clathrin-dependent endocytosis	http://purl.obolibrary.org/obo/GO_0072583	clathrin-dependent endocytosis
 http://purl.obolibrary.org/obo/GO_0070798	positive regulation of cleistothecium development	http://purl.obolibrary.org/obo/GO_0070791	cleistothecium development
 http://purl.obolibrary.org/obo/GO_0050820	positive regulation of coagulation	http://purl.obolibrary.org/obo/GO_0050817	coagulation
@@ -870,7 +869,7 @@ http://purl.obolibrary.org/obo/GO_1900017	positive regulation of cytokine produc
 http://purl.obolibrary.org/obo/GO_0001961	positive regulation of cytokine-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0019221	cytokine-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0032467	positive regulation of cytokinesis	http://purl.obolibrary.org/obo/GO_0000910	cytokinesis
 http://purl.obolibrary.org/obo/GO_2000433	positive regulation of cytokinesis, actomyosin contractile ring assembly	http://purl.obolibrary.org/obo/GO_0000915	actomyosin contractile ring assembly
-http://purl.obolibrary.org/obo/GO_2000076	positive regulation of cytokinesis, site selection	http://purl.obolibrary.org/obo/GO_0007105	cytokinesis, site selection
+http://purl.obolibrary.org/obo/GO_2000076	positive regulation of cytokinesis, site selection	http://purl.obolibrary.org/obo/GO_0007105	cytokinesis, division site positioning
 http://purl.obolibrary.org/obo/GO_0080038	positive regulation of cytokinin-activated signaling pathway	http://purl.obolibrary.org/obo/GO_0009736	cytokinin-activated signaling pathway
 http://purl.obolibrary.org/obo/GO_0045919	positive regulation of cytolysis	http://purl.obolibrary.org/obo/GO_0019835	cytolysis
 http://purl.obolibrary.org/obo/GO_0010606	positive regulation of cytoplasmic mRNA processing body assembly	http://purl.obolibrary.org/obo/GO_0033962	P-body assembly
@@ -912,7 +911,7 @@ http://purl.obolibrary.org/obo/GO_0061003	positive regulation of dendritic spine
 http://purl.obolibrary.org/obo/GO_2000707	positive regulation of dense core granule biogenesis	http://purl.obolibrary.org/obo/GO_0061110	dense core granule biogenesis
 http://purl.obolibrary.org/obo/GO_1905415	positive regulation of dense core granule exocytosis	http://purl.obolibrary.org/obo/GO_1990504	dense core granule exocytosis
 http://purl.obolibrary.org/obo/GO_1904811	positive regulation of dense core granule transport	http://purl.obolibrary.org/obo/GO_1901950	dense core granule transport
-http://purl.obolibrary.org/obo/GO_0032077	positive regulation of deoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004536	deoxyribonuclease activity
+http://purl.obolibrary.org/obo/GO_0032077	positive regulation of deoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004536	DNA nuclease activity
 http://purl.obolibrary.org/obo/GO_0035306	positive regulation of dephosphorylation	http://purl.obolibrary.org/obo/GO_0016311	dephosphorylation
 http://purl.obolibrary.org/obo/GO_0061184	positive regulation of dermatome development	http://purl.obolibrary.org/obo/GO_0061054	dermatome development
 http://purl.obolibrary.org/obo/GO_2000972	positive regulation of detection of glucose	http://purl.obolibrary.org/obo/GO_0051594	detection of glucose
@@ -1073,7 +1072,7 @@ http://purl.obolibrary.org/obo/GO_0045921	positive regulation of exocytosis	http
 http://purl.obolibrary.org/obo/GO_1902394	positive regulation of exodeoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004529	DNA exonuclease activity
 http://purl.obolibrary.org/obo/GO_1905779	positive regulation of exonuclease activity	http://purl.obolibrary.org/obo/GO_0004527	exonuclease activity
 http://purl.obolibrary.org/obo/GO_0106164	positive regulation of exonucleolytic catabolism of deadenylated mRNA	http://purl.obolibrary.org/obo/GO_0043928	exonucleolytic catabolism of deadenylated mRNA
-http://purl.obolibrary.org/obo/GO_1901919	positive regulation of exoribonuclease activity	http://purl.obolibrary.org/obo/GO_0004532	exoribonuclease activity
+http://purl.obolibrary.org/obo/GO_1901919	positive regulation of exoribonuclease activity	http://purl.obolibrary.org/obo/GO_0004532	RNA exonuclease activity
 http://purl.obolibrary.org/obo/GO_1903543	positive regulation of exosomal secretion	http://purl.obolibrary.org/obo/GO_1990182	exosomal secretion
 http://purl.obolibrary.org/obo/GO_1903553	positive regulation of extracellular exosome assembly	http://purl.obolibrary.org/obo/GO_0071971	extracellular exosome assembly
 http://purl.obolibrary.org/obo/GO_1901203	positive regulation of extracellular matrix assembly	http://purl.obolibrary.org/obo/GO_0085029	extracellular matrix assembly
@@ -1318,13 +1317,9 @@ http://purl.obolibrary.org/obo/GO_0051618	positive regulation of histamine uptak
 http://purl.obolibrary.org/obo/GO_0120215	positive regulation of histidine biosynthetic process	http://purl.obolibrary.org/obo/GO_0000105	histidine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1901316	positive regulation of histone H2A K63-linked ubiquitination	http://purl.obolibrary.org/obo/GO_0070535	histone H2A K63-linked ubiquitination
 http://purl.obolibrary.org/obo/GO_2001168	positive regulation of histone H2B ubiquitination	http://purl.obolibrary.org/obo/GO_0033523	histone H2B ubiquitination
-http://purl.obolibrary.org/obo/GO_0071442	positive regulation of histone H3-K14 acetylation	http://purl.obolibrary.org/obo/GO_0044154	histone H3-K14 acetylation
-http://purl.obolibrary.org/obo/GO_1901676	positive regulation of histone H3-K27 acetylation	http://purl.obolibrary.org/obo/GO_0043974	histone H3-K27 acetylation
 http://purl.obolibrary.org/obo/GO_0061087	positive regulation of histone H3-K27 methylation	http://purl.obolibrary.org/obo/GO_0070734	histone H3-K27 methylation
 http://purl.obolibrary.org/obo/GO_1902466	positive regulation of histone H3-K27 trimethylation	http://purl.obolibrary.org/obo/GO_0098532	histone H3-K27 trimethylation
-http://purl.obolibrary.org/obo/GO_2001255	positive regulation of histone H3-K36 trimethylation	http://purl.obolibrary.org/obo/GO_0097198	histone H3-K36 trimethylation
 http://purl.obolibrary.org/obo/GO_0051571	positive regulation of histone H3-K4 methylation	http://purl.obolibrary.org/obo/GO_0051568	histone H3-K4 methylation
-http://purl.obolibrary.org/obo/GO_2001162	positive regulation of histone H3-K79 methylation	http://purl.obolibrary.org/obo/GO_0034729	histone H3-K79 methylation
 http://purl.obolibrary.org/obo/GO_2000617	positive regulation of histone H3-K9 acetylation	http://purl.obolibrary.org/obo/GO_0043970	histone H3-K9 acetylation
 http://purl.obolibrary.org/obo/GO_1900111	positive regulation of histone H3-K9 dimethylation	http://purl.obolibrary.org/obo/GO_0036123	histone H3-K9 dimethylation
 http://purl.obolibrary.org/obo/GO_0051574	positive regulation of histone H3-K9 methylation	http://purl.obolibrary.org/obo/GO_0051567	histone H3-K9 methylation
@@ -1334,10 +1329,8 @@ http://purl.obolibrary.org/obo/GO_2000620	positive regulation of histone H4-K16 
 http://purl.obolibrary.org/obo/GO_0035066	positive regulation of histone acetylation	http://purl.obolibrary.org/obo/GO_0016573	histone acetylation
 http://purl.obolibrary.org/obo/GO_1901727	positive regulation of histone deacetylase activity	http://purl.obolibrary.org/obo/GO_0004407	histone deacetylase activity
 http://purl.obolibrary.org/obo/GO_0031065	positive regulation of histone deacetylation	http://purl.obolibrary.org/obo/GO_0016575	histone deacetylation
-http://purl.obolibrary.org/obo/GO_1904175	positive regulation of histone demethylase activity (H3-K4 specific)	http://purl.obolibrary.org/obo/GO_0032453	histone H3K4 demethylase activity
 http://purl.obolibrary.org/obo/GO_1903586	positive regulation of histone deubiquitination	http://purl.obolibrary.org/obo/GO_0016578	histone deubiquitination
 http://purl.obolibrary.org/obo/GO_0031062	positive regulation of histone methylation	http://purl.obolibrary.org/obo/GO_0016571	histone methylation
-http://purl.obolibrary.org/obo/GO_0031058	positive regulation of histone modification	http://purl.obolibrary.org/obo/GO_0016570	histone modification
 http://purl.obolibrary.org/obo/GO_0033184	positive regulation of histone ubiquitination	http://purl.obolibrary.org/obo/GO_0016574	histone ubiquitination
 http://purl.obolibrary.org/obo/GO_0050668	positive regulation of homocysteine metabolic process	http://purl.obolibrary.org/obo/GO_0050667	homocysteine metabolic process
 http://purl.obolibrary.org/obo/GO_1903387	positive regulation of homophilic cell adhesion	http://purl.obolibrary.org/obo/GO_0007156	homophilic cell adhesion via plasma membrane adhesion molecules
@@ -1769,8 +1762,8 @@ http://purl.obolibrary.org/obo/GO_1902324	positive regulation of methyl-branched
 http://purl.obolibrary.org/obo/GO_1903870	positive regulation of methylenetetrahydrofolate reductase (NAD(P)H) activity	http://purl.obolibrary.org/obo/GO_0004489	methylenetetrahydrofolate reductase (NAD(P)H) activity
 http://purl.obolibrary.org/obo/GO_0070804	positive regulation of metula development	http://purl.obolibrary.org/obo/GO_0070789	metula development
 http://purl.obolibrary.org/obo/GO_2000627	positive regulation of miRNA catabolic process	http://purl.obolibrary.org/obo/GO_0010587	miRNA catabolic process
-http://purl.obolibrary.org/obo/GO_1903800	positive regulation of miRNA maturation	http://purl.obolibrary.org/obo/GO_0035196	miRNA processing
 http://purl.obolibrary.org/obo/GO_2000630	positive regulation of miRNA metabolic process	http://purl.obolibrary.org/obo/GO_0010586	miRNA metabolic process
+http://purl.obolibrary.org/obo/GO_1903800	positive regulation of miRNA processing	http://purl.obolibrary.org/obo/GO_0035196	miRNA processing
 http://purl.obolibrary.org/obo/GO_1902895	positive regulation of miRNA transcription	http://purl.obolibrary.org/obo/GO_0061614	miRNA transcription
 http://purl.obolibrary.org/obo/GO_2000637	positive regulation of miRNA-mediated gene silencing	http://purl.obolibrary.org/obo/GO_0035195	miRNA-mediated gene silencing
 http://purl.obolibrary.org/obo/GO_0014008	positive regulation of microglia differentiation	http://purl.obolibrary.org/obo/GO_0014004	microglia differentiation
@@ -1821,7 +1814,7 @@ http://purl.obolibrary.org/obo/GO_1905406	positive regulation of mitotic cohesin
 http://purl.obolibrary.org/obo/GO_0106113	positive regulation of mitotic cohesin ssDNA (lagging strand) loading	http://purl.obolibrary.org/obo/GO_0062022	mitotic cohesin ssDNA (lagging strand) loading
 http://purl.obolibrary.org/obo/GO_1905411	positive regulation of mitotic cohesin unloading	http://purl.obolibrary.org/obo/GO_0061781	mitotic cohesin unloading
 http://purl.obolibrary.org/obo/GO_1903490	positive regulation of mitotic cytokinesis	http://purl.obolibrary.org/obo/GO_0000281	mitotic cytokinesis
-http://purl.obolibrary.org/obo/GO_1903617	positive regulation of mitotic cytokinesis, site selection	http://purl.obolibrary.org/obo/GO_1902408	mitotic cytokinesis, site selection
+http://purl.obolibrary.org/obo/GO_1903617	positive regulation of mitotic cytokinesis, division site positioning	http://purl.obolibrary.org/obo/GO_1902408	mitotic cytokinesis, division site positioning
 http://purl.obolibrary.org/obo/GO_1903438	positive regulation of mitotic cytokinetic process	http://purl.obolibrary.org/obo/GO_1902410	mitotic cytokinetic process
 http://purl.obolibrary.org/obo/GO_0140281	positive regulation of mitotic division septum assembly	http://purl.obolibrary.org/obo/GO_0140278	mitotic division septum assembly
 http://purl.obolibrary.org/obo/GO_0045842	positive regulation of mitotic metaphase/anaphase transition	http://purl.obolibrary.org/obo/GO_0007091	metaphase/anaphase transition of mitotic cell cycle
@@ -2523,7 +2516,7 @@ http://purl.obolibrary.org/obo/GO_1904792	positive regulation of shelterin compl
 http://purl.obolibrary.org/obo/GO_1902185	positive regulation of shoot apical meristem development	http://purl.obolibrary.org/obo/GO_1902182	shoot apical meristem development
 http://purl.obolibrary.org/obo/GO_0048576	positive regulation of short-day photoperiodism, flowering	http://purl.obolibrary.org/obo/GO_0048575	short-day photoperiodism, flowering
 http://purl.obolibrary.org/obo/GO_1905514	positive regulation of short-term synaptic potentiation	http://purl.obolibrary.org/obo/GO_1990926	short-term synaptic potentiation
-http://purl.obolibrary.org/obo/GO_1903705	positive regulation of siRNA production	http://purl.obolibrary.org/obo/GO_0030422	siRNA processing
+http://purl.obolibrary.org/obo/GO_1903705	positive regulation of siRNA processing	http://purl.obolibrary.org/obo/GO_0030422	siRNA processing
 http://purl.obolibrary.org/obo/GO_1900706	positive regulation of siderophore biosynthetic process	http://purl.obolibrary.org/obo/GO_0019290	siderophore biosynthetic process
 http://purl.obolibrary.org/obo/GO_0009967	positive regulation of signal transduction	http://purl.obolibrary.org/obo/GO_0007165	signal transduction
 http://purl.obolibrary.org/obo/GO_1901798	positive regulation of signal transduction by p53 class mediator	http://purl.obolibrary.org/obo/GO_0072331	signal transduction by p53 class mediator
