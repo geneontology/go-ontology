@@ -48,7 +48,6 @@ http://purl.obolibrary.org/obo/GO_1905350	Y-shaped link assembly	http://purl.obo
 http://purl.obolibrary.org/obo/GO_0001675	acrosome assembly	http://purl.obolibrary.org/obo/GO_0001669	acrosomal vesicle
 http://purl.obolibrary.org/obo/GO_0000147	actin cortical patch assembly	http://purl.obolibrary.org/obo/GO_0030479	actin cortical patch
 http://purl.obolibrary.org/obo/GO_0051017	actin filament bundle assembly	http://purl.obolibrary.org/obo/GO_0032432	actin filament bundle
-http://purl.obolibrary.org/obo/GO_1904600	actin fusion focus assembly	http://purl.obolibrary.org/obo/GO_1990819	actin fusion focus
 http://purl.obolibrary.org/obo/GO_0031247	actin rod assembly	http://purl.obolibrary.org/obo/GO_0031002	actin rod
 http://purl.obolibrary.org/obo/GO_0000915	actomyosin contractile ring assembly	http://purl.obolibrary.org/obo/GO_0005826	actomyosin contractile ring
 http://purl.obolibrary.org/obo/GO_0034333	adherens junction assembly	http://purl.obolibrary.org/obo/GO_0005912	adherens junction
@@ -95,7 +94,6 @@ http://purl.obolibrary.org/obo/GO_1905353	ciliary transition fiber assembly	http
 http://purl.obolibrary.org/obo/GO_1905349	ciliary transition zone assembly	http://purl.obolibrary.org/obo/GO_0035869	ciliary transition zone
 http://purl.obolibrary.org/obo/GO_1905556	ciliary vesicle assembly	http://purl.obolibrary.org/obo/GO_0097721	ciliary vesicle
 http://purl.obolibrary.org/obo/GO_0060271	cilium assembly	http://purl.obolibrary.org/obo/GO_0005929	cilium
-http://purl.obolibrary.org/obo/GO_1905224	clathrin-coated pit assembly	http://purl.obolibrary.org/obo/GO_0005905	clathrin-coated pit
 http://purl.obolibrary.org/obo/GO_0030038	contractile actin filament bundle assembly	http://purl.obolibrary.org/obo/GO_0097517	contractile actin filament bundle
 http://purl.obolibrary.org/obo/GO_1903575	cornified envelope assembly	http://purl.obolibrary.org/obo/GO_0001533	cornified envelope
 http://purl.obolibrary.org/obo/GO_0098775	curli assembly	http://purl.obolibrary.org/obo/GO_0098774	curli
@@ -154,6 +152,7 @@ http://purl.obolibrary.org/obo/GO_0060988	lipid tube assembly	http://purl.obolib
 http://purl.obolibrary.org/obo/GO_0110105	mRNA cleavage and polyadenylation specificity factor complex assembly	http://purl.obolibrary.org/obo/GO_0005847	mRNA cleavage and polyadenylation specificity factor complex
 http://purl.obolibrary.org/obo/GO_0035039	male pronucleus assembly	http://purl.obolibrary.org/obo/GO_0001940	male pronucleus
 http://purl.obolibrary.org/obo/GO_1905198	manchette assembly	http://purl.obolibrary.org/obo/GO_0002177	manchette
+http://purl.obolibrary.org/obo/GO_1904600	mating projection actin fusion focus assembly	http://purl.obolibrary.org/obo/GO_1990819	mating projection actin fusion focus
 http://purl.obolibrary.org/obo/GO_0031382	mating projection formation	http://purl.obolibrary.org/obo/GO_0005937	mating projection
 http://purl.obolibrary.org/obo/GO_0032130	medial membrane band assembly	http://purl.obolibrary.org/obo/GO_0032178	medial membrane band
 http://purl.obolibrary.org/obo/GO_0036034	mediator complex assembly	http://purl.obolibrary.org/obo/GO_0016592	mediator complex

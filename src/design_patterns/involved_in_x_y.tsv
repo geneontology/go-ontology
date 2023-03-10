@@ -733,7 +733,7 @@ http://purl.obolibrary.org/obo/GO_0061780	mitotic cohesin loading	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0061781	mitotic cohesin unloading	http://purl.obolibrary.org/obo/GO_0061774	cohesin unloading	http://purl.obolibrary.org/obo/GO_0000278	mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_1903477	mitotic contractile ring actin filament bundle assembly	http://purl.obolibrary.org/obo/GO_0051017	actin filament bundle assembly	http://purl.obolibrary.org/obo/GO_1903475	mitotic actomyosin contractile ring assembly
 http://purl.obolibrary.org/obo/GO_0000281	mitotic cytokinesis	http://purl.obolibrary.org/obo/GO_0061640	cytoskeleton-dependent cytokinesis	http://purl.obolibrary.org/obo/GO_0000278	mitotic cell cycle
-http://purl.obolibrary.org/obo/GO_1902408	mitotic cytokinesis, site selection	http://purl.obolibrary.org/obo/GO_0007105	cytokinesis, site selection	http://purl.obolibrary.org/obo/GO_0000278	mitotic cell cycle
+http://purl.obolibrary.org/obo/GO_1902408	mitotic cytokinesis, division site positioning	http://purl.obolibrary.org/obo/GO_0007105	cytokinesis, division site positioning	http://purl.obolibrary.org/obo/GO_0000278	mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_1902410	mitotic cytokinetic process	http://purl.obolibrary.org/obo/GO_0032506	cytokinetic process	http://purl.obolibrary.org/obo/GO_0000278	mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_0007080	mitotic metaphase plate congression	http://purl.obolibrary.org/obo/GO_0051310	metaphase plate congression	http://purl.obolibrary.org/obo/GO_0000278	mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_0140014	mitotic nuclear division	http://purl.obolibrary.org/obo/GO_0000280	nuclear division	http://purl.obolibrary.org/obo/GO_0000278	mitotic cell cycle

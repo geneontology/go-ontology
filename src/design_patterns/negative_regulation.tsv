@@ -801,7 +801,6 @@ http://purl.obolibrary.org/obo/GO_0042321	negative regulation of circadian sleep
 http://purl.obolibrary.org/obo/GO_1904326	negative regulation of circadian sleep/wake cycle, wakefulness	http://purl.obolibrary.org/obo/GO_0042746	circadian sleep/wake cycle, wakefulness
 http://purl.obolibrary.org/obo/GO_1903249	negative regulation of citrulline biosynthetic process	http://purl.obolibrary.org/obo/GO_0019240	citrulline biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905444	negative regulation of clathrin coat assembly	http://purl.obolibrary.org/obo/GO_0048268	clathrin coat assembly
-http://purl.obolibrary.org/obo/GO_1905469	negative regulation of clathrin-coated pit assembly	http://purl.obolibrary.org/obo/GO_1905224	clathrin-coated pit assembly
 http://purl.obolibrary.org/obo/GO_1900186	negative regulation of clathrin-dependent endocytosis	http://purl.obolibrary.org/obo/GO_0072583	clathrin-dependent endocytosis
 http://purl.obolibrary.org/obo/GO_0070797	negative regulation of cleistothecium development	http://purl.obolibrary.org/obo/GO_0070791	cleistothecium development
 http://purl.obolibrary.org/obo/GO_0050819	negative regulation of coagulation	http://purl.obolibrary.org/obo/GO_0050817	coagulation
@@ -886,7 +885,7 @@ http://purl.obolibrary.org/obo/GO_1900016	negative regulation of cytokine produc
 http://purl.obolibrary.org/obo/GO_0001960	negative regulation of cytokine-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0019221	cytokine-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0032466	negative regulation of cytokinesis	http://purl.obolibrary.org/obo/GO_0000910	cytokinesis
 http://purl.obolibrary.org/obo/GO_2000432	negative regulation of cytokinesis, actomyosin contractile ring assembly	http://purl.obolibrary.org/obo/GO_0000915	actomyosin contractile ring assembly
-http://purl.obolibrary.org/obo/GO_2000075	negative regulation of cytokinesis, site selection	http://purl.obolibrary.org/obo/GO_0007105	cytokinesis, site selection
+http://purl.obolibrary.org/obo/GO_2000075	negative regulation of cytokinesis, site selection	http://purl.obolibrary.org/obo/GO_0007105	cytokinesis, division site positioning
 http://purl.obolibrary.org/obo/GO_1903857	negative regulation of cytokinin dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0019139	cytokinin dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_0080037	negative regulation of cytokinin-activated signaling pathway	http://purl.obolibrary.org/obo/GO_0009736	cytokinin-activated signaling pathway
 http://purl.obolibrary.org/obo/GO_0045918	negative regulation of cytolysis	http://purl.obolibrary.org/obo/GO_0019835	cytolysis
@@ -932,7 +931,7 @@ http://purl.obolibrary.org/obo/GO_0061002	negative regulation of dendritic spine
 http://purl.obolibrary.org/obo/GO_2000706	negative regulation of dense core granule biogenesis	http://purl.obolibrary.org/obo/GO_0061110	dense core granule biogenesis
 http://purl.obolibrary.org/obo/GO_1905414	negative regulation of dense core granule exocytosis	http://purl.obolibrary.org/obo/GO_1990504	dense core granule exocytosis
 http://purl.obolibrary.org/obo/GO_1904810	negative regulation of dense core granule transport	http://purl.obolibrary.org/obo/GO_1901950	dense core granule transport
-http://purl.obolibrary.org/obo/GO_0032076	negative regulation of deoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004536	deoxyribonuclease activity
+http://purl.obolibrary.org/obo/GO_0032076	negative regulation of deoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004536	DNA nuclease activity
 http://purl.obolibrary.org/obo/GO_0035305	negative regulation of dephosphorylation	http://purl.obolibrary.org/obo/GO_0016311	dephosphorylation
 http://purl.obolibrary.org/obo/GO_0061185	negative regulation of dermatome development	http://purl.obolibrary.org/obo/GO_0061054	dermatome development
 http://purl.obolibrary.org/obo/GO_2000971	negative regulation of detection of glucose	http://purl.obolibrary.org/obo/GO_0051594	detection of glucose
@@ -1101,7 +1100,7 @@ http://purl.obolibrary.org/obo/GO_0045920	negative regulation of exocytosis	http
 http://purl.obolibrary.org/obo/GO_1902393	negative regulation of exodeoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004529	DNA exonuclease activity
 http://purl.obolibrary.org/obo/GO_1905778	negative regulation of exonuclease activity	http://purl.obolibrary.org/obo/GO_0004527	exonuclease activity
 http://purl.obolibrary.org/obo/GO_0106165	negative regulation of exonucleolytic catabolism of deadenylated mRNA	http://purl.obolibrary.org/obo/GO_0043928	exonucleolytic catabolism of deadenylated mRNA
-http://purl.obolibrary.org/obo/GO_1901918	negative regulation of exoribonuclease activity	http://purl.obolibrary.org/obo/GO_0004532	exoribonuclease activity
+http://purl.obolibrary.org/obo/GO_1901918	negative regulation of exoribonuclease activity	http://purl.obolibrary.org/obo/GO_0004532	RNA exonuclease activity
 http://purl.obolibrary.org/obo/GO_1903542	negative regulation of exosomal secretion	http://purl.obolibrary.org/obo/GO_1990182	exosomal secretion
 http://purl.obolibrary.org/obo/GO_1903552	negative regulation of extracellular exosome assembly	http://purl.obolibrary.org/obo/GO_0071971	extracellular exosome assembly
 http://purl.obolibrary.org/obo/GO_1901202	negative regulation of extracellular matrix assembly	http://purl.obolibrary.org/obo/GO_0085029	extracellular matrix assembly
@@ -1339,27 +1338,19 @@ http://purl.obolibrary.org/obo/GO_1903594	negative regulation of histamine secre
 http://purl.obolibrary.org/obo/GO_0051617	negative regulation of histamine uptake	http://purl.obolibrary.org/obo/GO_0051615	histamine uptake
 http://purl.obolibrary.org/obo/GO_0120214	negative regulation of histidine biosynthetic process	http://purl.obolibrary.org/obo/GO_0000105	histidine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1901315	negative regulation of histone H2A K63-linked ubiquitination	http://purl.obolibrary.org/obo/GO_0070535	histone H2A K63-linked ubiquitination
-http://purl.obolibrary.org/obo/GO_0071441	negative regulation of histone H3-K14 acetylation	http://purl.obolibrary.org/obo/GO_0044154	histone H3-K14 acetylation
-http://purl.obolibrary.org/obo/GO_1901675	negative regulation of histone H3-K27 acetylation	http://purl.obolibrary.org/obo/GO_0043974	histone H3-K27 acetylation
 http://purl.obolibrary.org/obo/GO_0061086	negative regulation of histone H3-K27 methylation	http://purl.obolibrary.org/obo/GO_0070734	histone H3-K27 methylation
 http://purl.obolibrary.org/obo/GO_1902465	negative regulation of histone H3-K27 trimethylation	http://purl.obolibrary.org/obo/GO_0098532	histone H3-K27 trimethylation
-http://purl.obolibrary.org/obo/GO_0000415	negative regulation of histone H3-K36 methylation	http://purl.obolibrary.org/obo/GO_0010452	histone H3-K36 methylation
-http://purl.obolibrary.org/obo/GO_2001254	negative regulation of histone H3-K36 trimethylation	http://purl.obolibrary.org/obo/GO_0097198	histone H3-K36 trimethylation
 http://purl.obolibrary.org/obo/GO_0051572	negative regulation of histone H3-K4 methylation	http://purl.obolibrary.org/obo/GO_0051568	histone H3-K4 methylation
-http://purl.obolibrary.org/obo/GO_2001161	negative regulation of histone H3-K79 methylation	http://purl.obolibrary.org/obo/GO_0034729	histone H3-K79 methylation
 http://purl.obolibrary.org/obo/GO_2000616	negative regulation of histone H3-K9 acetylation	http://purl.obolibrary.org/obo/GO_0043970	histone H3-K9 acetylation
 http://purl.obolibrary.org/obo/GO_1900110	negative regulation of histone H3-K9 dimethylation	http://purl.obolibrary.org/obo/GO_0036123	histone H3-K9 dimethylation
 http://purl.obolibrary.org/obo/GO_0051573	negative regulation of histone H3-K9 methylation	http://purl.obolibrary.org/obo/GO_0051567	histone H3-K9 methylation
 http://purl.obolibrary.org/obo/GO_1900113	negative regulation of histone H3-K9 trimethylation	http://purl.obolibrary.org/obo/GO_0036124	histone H3-K9 trimethylation
 http://purl.obolibrary.org/obo/GO_0090241	negative regulation of histone H4 acetylation	http://purl.obolibrary.org/obo/GO_0043967	histone H4 acetylation
-http://purl.obolibrary.org/obo/GO_2000619	negative regulation of histone H4-K16 acetylation	http://purl.obolibrary.org/obo/GO_0043984	histone H4-K16 acetylation
 http://purl.obolibrary.org/obo/GO_0035067	negative regulation of histone acetylation	http://purl.obolibrary.org/obo/GO_0016573	histone acetylation
 http://purl.obolibrary.org/obo/GO_1901726	negative regulation of histone deacetylase activity	http://purl.obolibrary.org/obo/GO_0004407	histone deacetylase activity
 http://purl.obolibrary.org/obo/GO_0031064	negative regulation of histone deacetylation	http://purl.obolibrary.org/obo/GO_0016575	histone deacetylation
-http://purl.obolibrary.org/obo/GO_1904174	negative regulation of histone demethylase activity (H3-K4 specific)	http://purl.obolibrary.org/obo/GO_0032453	histone H3K4 demethylase activity
 http://purl.obolibrary.org/obo/GO_1903585	negative regulation of histone deubiquitination	http://purl.obolibrary.org/obo/GO_0016578	histone deubiquitination
 http://purl.obolibrary.org/obo/GO_0031061	negative regulation of histone methylation	http://purl.obolibrary.org/obo/GO_0016571	histone methylation
-http://purl.obolibrary.org/obo/GO_0031057	negative regulation of histone modification	http://purl.obolibrary.org/obo/GO_0016570	histone modification
 http://purl.obolibrary.org/obo/GO_0033183	negative regulation of histone ubiquitination	http://purl.obolibrary.org/obo/GO_0016574	histone ubiquitination
 http://purl.obolibrary.org/obo/GO_0050669	negative regulation of homocysteine metabolic process	http://purl.obolibrary.org/obo/GO_0050667	homocysteine metabolic process
 http://purl.obolibrary.org/obo/GO_1903386	negative regulation of homophilic cell adhesion	http://purl.obolibrary.org/obo/GO_0007156	homophilic cell adhesion via plasma membrane adhesion molecules
@@ -1795,8 +1786,8 @@ http://purl.obolibrary.org/obo/GO_1902323	negative regulation of methyl-branched
 http://purl.obolibrary.org/obo/GO_1903869	negative regulation of methylenetetrahydrofolate reductase (NAD(P)H) activity	http://purl.obolibrary.org/obo/GO_0004489	methylenetetrahydrofolate reductase (NAD(P)H) activity
 http://purl.obolibrary.org/obo/GO_0070803	negative regulation of metula development	http://purl.obolibrary.org/obo/GO_0070789	metula development
 http://purl.obolibrary.org/obo/GO_2000626	negative regulation of miRNA catabolic process	http://purl.obolibrary.org/obo/GO_0010587	miRNA catabolic process
-http://purl.obolibrary.org/obo/GO_1903799	negative regulation of miRNA maturation	http://purl.obolibrary.org/obo/GO_0035196	miRNA processing
 http://purl.obolibrary.org/obo/GO_2000629	negative regulation of miRNA metabolic process	http://purl.obolibrary.org/obo/GO_0010586	miRNA metabolic process
+http://purl.obolibrary.org/obo/GO_1903799	negative regulation of miRNA processing	http://purl.obolibrary.org/obo/GO_0035196	miRNA processing
 http://purl.obolibrary.org/obo/GO_1902894	negative regulation of miRNA transcription	http://purl.obolibrary.org/obo/GO_0061614	miRNA transcription
 http://purl.obolibrary.org/obo/GO_0060965	negative regulation of miRNA-mediated gene silencing	http://purl.obolibrary.org/obo/GO_0035195	miRNA-mediated gene silencing
 http://purl.obolibrary.org/obo/GO_0014007	negative regulation of microglia differentiation	http://purl.obolibrary.org/obo/GO_0014004	microglia differentiation
@@ -2481,7 +2472,7 @@ http://purl.obolibrary.org/obo/GO_1905433	negative regulation of retrograde tran
 http://purl.obolibrary.org/obo/GO_1905280	negative regulation of retrograde transport, endosome to Golgi	http://purl.obolibrary.org/obo/GO_0042147	retrograde transport, endosome to Golgi
 http://purl.obolibrary.org/obo/GO_1903063	negative regulation of reverse cholesterol transport	http://purl.obolibrary.org/obo/GO_0043691	reverse cholesterol transport
 http://purl.obolibrary.org/obo/GO_1900269	negative regulation of reverse transcription	http://purl.obolibrary.org/obo/GO_0001171	reverse transcription
-http://purl.obolibrary.org/obo/GO_0060701	negative regulation of ribonuclease activity	http://purl.obolibrary.org/obo/GO_0004540	ribonuclease activity
+http://purl.obolibrary.org/obo/GO_0060701	negative regulation of ribonuclease activity	http://purl.obolibrary.org/obo/GO_0004540	RNA nuclease activity
 http://purl.obolibrary.org/obo/GO_2000198	negative regulation of ribonucleoprotein complex localization	http://purl.obolibrary.org/obo/GO_0071166	ribonucleoprotein complex localization
 http://purl.obolibrary.org/obo/GO_2000204	negative regulation of ribosomal large subunit export from nucleus	http://purl.obolibrary.org/obo/GO_0000055	ribosomal large subunit export from nucleus
 http://purl.obolibrary.org/obo/GO_2000207	negative regulation of ribosomal small subunit export from nucleus	http://purl.obolibrary.org/obo/GO_0000056	ribosomal small subunit export from nucleus
@@ -2537,7 +2528,7 @@ http://purl.obolibrary.org/obo/GO_1904791	negative regulation of shelterin compl
 http://purl.obolibrary.org/obo/GO_1902184	negative regulation of shoot apical meristem development	http://purl.obolibrary.org/obo/GO_1902182	shoot apical meristem development
 http://purl.obolibrary.org/obo/GO_0048577	negative regulation of short-day photoperiodism, flowering	http://purl.obolibrary.org/obo/GO_0048575	short-day photoperiodism, flowering
 http://purl.obolibrary.org/obo/GO_1905513	negative regulation of short-term synaptic potentiation	http://purl.obolibrary.org/obo/GO_1990926	short-term synaptic potentiation
-http://purl.obolibrary.org/obo/GO_1903704	negative regulation of siRNA production	http://purl.obolibrary.org/obo/GO_0030422	siRNA processing
+http://purl.obolibrary.org/obo/GO_1903704	negative regulation of siRNA processing	http://purl.obolibrary.org/obo/GO_0030422	siRNA processing
 http://purl.obolibrary.org/obo/GO_1900705	negative regulation of siderophore biosynthetic process	http://purl.obolibrary.org/obo/GO_0019290	siderophore biosynthetic process
 http://purl.obolibrary.org/obo/GO_0009968	negative regulation of signal transduction	http://purl.obolibrary.org/obo/GO_0007165	signal transduction
 http://purl.obolibrary.org/obo/GO_1901797	negative regulation of signal transduction by p53 class mediator	http://purl.obolibrary.org/obo/GO_0072331	signal transduction by p53 class mediator
