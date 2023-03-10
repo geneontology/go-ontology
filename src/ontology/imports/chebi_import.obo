@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: go/imports/chebi_import
-property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2023-02-28/extensions/bio-chebi.owl
+property_value: http://purl.org/dc/elements/1.1/source http://purl.obolibrary.org/obo/go/releases/2023-03-10/extensions/bio-chebi.owl
 
 [Term]
 id: CHEBI:100
@@ -2939,6 +2939,7 @@ id: CHEBI:132064
 name: 11-hydroxy-(12S,13S)-epoxy-(9Z)-octadecenoate(1-)
 subset: chebi_ph7_3
 is_a: CHEBI:131860 ! octadecanoid anion
+is_a: CHEBI:194353 ! (9Z)-11-hydroxy-12,13-epoxyoctadecenoate(1-)
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:59835 ! hydroxy fatty acid anion
 is_a: CHEBI:82680 ! monounsaturated fatty acid anion
@@ -38019,7 +38020,7 @@ is_a: CHEBI:36834 ! 3-hydroxy steroid
 id: CHEBI:177918
 name: phenolic steroid 3-O-sulfate(1-)
 subset: chebi_ph7_3
-is_a: CHEBI:16158 ! steroid sulfate
+is_a: CHEBI:59696 ! steroid sulfate oxoanion
 
 [Term]
 id: CHEBI:17792
@@ -43238,11 +43239,13 @@ is_a: CHEBI:23151 ! chlorophenoxyacetate anion
 [Term]
 id: CHEBI:193570
 name: 5(R)-HPETE(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:90822 ! 5-HPETE(1-)
 
 [Term]
 id: CHEBI:193571
 name: epi-leukotriene A4(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:62942 ! leukotriene anion
 
 [Term]
@@ -43253,6 +43256,7 @@ is_a: CHEBI:23899 ! icosanoid
 [Term]
 id: CHEBI:193594
 name: 1-(Z)-alk-1-enyl-2-lyso-sn-glycerolipid
+subset: chebi_ph7_3
 is_a: CHEBI:35741 ! glycerolipid
 
 [Term]
@@ -43269,8 +43273,15 @@ is_a: CHEBI:33625 ! dibromophenol
 relationship: has_role CHEBI:76507 ! marine metabolite
 
 [Term]
+id: CHEBI:194019
+name: fumagillin(1-)
+subset: chebi_ph7_3
+is_a: CHEBI:35757 ! monocarboxylic acid anion
+
+[Term]
 id: CHEBI:194095
 name: mitomycin C(1-)
+subset: chebi_ph7_3
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
@@ -43289,6 +43300,7 @@ is_a: CHEBI:48705 ! agonist
 [Term]
 id: CHEBI:194140
 name: dipalmitoleoylglycerol
+subset: chebi_ph7_3
 is_a: CHEBI:18035 ! diglyceride
 
 [Term]
@@ -43343,6 +43355,29 @@ id: CHEBI:194321
 name: hydroperoxy unsaturated fatty acid
 is_a: CHEBI:27208 ! unsaturated fatty acid
 is_a: CHEBI:64009 ! hydroperoxy fatty acid
+
+[Term]
+id: CHEBI:194353
+name: (9Z)-11-hydroxy-12,13-epoxyoctadecenoate(1-)
+is_a: CHEBI:131860 ! octadecanoid anion
+is_a: CHEBI:57560 ! long-chain fatty acid anion
+is_a: CHEBI:59835 ! hydroxy fatty acid anion
+is_a: CHEBI:82680 ! monounsaturated fatty acid anion
+
+[Term]
+id: CHEBI:194431
+name: queuosine 5'-phosphate(1-) residue
+is_a: CHEBI:90675 ! ribonucleotide residue(1-)
+
+[Term]
+id: CHEBI:194442
+name: alpha-D-mannosyl-4''-O-queuosine 5'-phosphate(1-) residue
+is_a: CHEBI:90675 ! ribonucleotide residue(1-)
+
+[Term]
+id: CHEBI:194443
+name: epoxyqueuosine 5'-phosphate(1-) residue
+is_a: CHEBI:90675 ! ribonucleotide residue(1-)
 
 [Term]
 id: CHEBI:19448
@@ -83908,6 +83943,7 @@ is_a: CHEBI:83824 ! L-cysteine derivative
 [Term]
 id: CHEBI:47911
 name: S-substituted N-acetyl-L-cysteine
+is_a: CHEBI:22160 ! acetamides
 is_a: CHEBI:83824 ! L-cysteine derivative
 
 [Term]
@@ -112158,6 +112194,7 @@ relationship: has_role CHEBI:25212 ! metabolite
 [Term]
 id: CHEBI:63191
 name: beta-caryophyllene
+subset: chebi_ph7_3
 is_a: CHEBI:35189 ! sesquiterpene
 is_a: CHEBI:35428 ! ortho-fused bicyclic hydrocarbon
 
@@ -144340,6 +144377,7 @@ subset: chebi_ph7_3
 is_a: CHEBI:18044 ! dialkyl ketone
 relationship: has_role CHEBI:22583 ! antifeedant
 relationship: has_role CHEBI:24850 ! insect attractant
+relationship: has_role CHEBI:27026 ! toxin
 relationship: has_role CHEBI:59163 ! biomarker
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:76946 ! fungal metabolite
