@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-02-28/imports/uberon_import.owl
+data-version: go/releases/2023-03-23/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -3367,7 +3367,7 @@ relationship: part_of UBERON:0012430 ! tunica fibrosa of eyeball
 [Term]
 id: UBERON:0000965
 name: lens of camera-type eye
-def: "Transparent part of camera-type eye that helps to refract light to be focused on the retina." []
+def: "A transparent and refractive lens located posterior to the iris. The lens of camera-type eye refracts light to be focused on the retina." []
 synonym: "camera-type eye lens" EXACT []
 synonym: "crystalline lens" RELATED []
 synonym: "eye lens" EXACT []
@@ -4888,7 +4888,7 @@ synonym: "textus muscularis of heart muscle" EXACT []
 synonym: "textus muscularis of heart myocardium" EXACT []
 synonym: "textus muscularis of muscle of heart" EXACT []
 synonym: "textus muscularis of myocardium" EXACT []
-is_a: UBERON:0002036 ! striated muscle tissue
+is_a: UBERON:8600006 ! visceral striated muscle tissue
 intersection_of: UBERON:0002036 ! striated muscle tissue
 intersection_of: has_part CL:0000746
 disjoint_from: UBERON:0001134 ! skeletal muscle tissue
@@ -6990,7 +6990,6 @@ is_a: UBERON:0000058 ! duct
 relationship: channel_for CL:0000019
 relationship: channels_into UBERON:0003959 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! rete testis
 relationship: contains_process GO:0007283
-relationship: contains_process GO:0051321
 relationship: develops_from UBERON:0005297 ! testis sex cord
 relationship: part_of UBERON:0000473 ! testis
 
@@ -18532,8 +18531,6 @@ synonym: "VBI" RELATED []
 synonym: "ventral blood island" RELATED []
 synonym: "ventral lateral plate mesoderm" BROAD []
 is_a: UBERON:0006598 ! presumptive structure
-relationship: contains_process GO:0001525
-relationship: contains_process GO:0030097
 relationship: develops_from UBERON:0003081 ! lateral plate mesoderm
 relationship: has_potential_to_develop_into UBERON:0002390 ! hematopoietic system
 relationship: part_of UBERON:0000922 ! embryo
@@ -24319,8 +24316,6 @@ relationship: part_of UBERON:0001460 ! arm
 id: UBERON:0003823
 name: hindlimb zeugopod
 def: "The middle limb segment of the pelvic free limb, between the autopod and stylopod segments. Includes as parts the hindlimb zeugopodial skeleton, which includes as parts the tibia and fibula, or their cartilage precursors, or evolutionary variants." []
-synonym: "calf" NARROW []
-synonym: "calf of leg" EXACT []
 synonym: "crus" EXACT []
 synonym: "crus of hindlimb" EXACT []
 synonym: "hind epipodium" RELATED []
@@ -24339,15 +24334,7 @@ synonym: "lower extremity zeugopod" EXACT []
 synonym: "lower leg" EXACT []
 synonym: "middle limb segment of hind limb" EXACT []
 synonym: "middle limb segment of hindlimb" EXACT []
-synonym: "posterior curral region" EXACT []
-synonym: "posterior leg region" EXACT []
-synonym: "posterior part of leg" EXACT []
-synonym: "posterior region of leg" EXACT []
-synonym: "regio cruris posterior" EXACT []
-synonym: "regio surae" EXACT []
 synonym: "shank" EXACT []
-synonym: "sura" EXACT []
-synonym: "sural region" EXACT []
 synonym: "zeugopod of hind limb" EXACT []
 synonym: "zeugopod of hindlimb" EXACT []
 is_a: UBERON:0002471 ! zeugopod
@@ -53003,12 +52990,10 @@ synonym: "ramus inferior nervus oculomotorii" EXACT []
 synonym: "ventral ramus of occulomotor nerve" RELATED []
 synonym: "ventral ramus of oculomotor nerve" RELATED []
 is_a: UBERON:0001021 ! nerve
-is_a: UBERON:0001637 ! artery
 intersection_of: UBERON:0001021 ! nerve
 intersection_of: branching_part_of UBERON:0001643 ! oculomotor nerve
-intersection_of: supplies UBERON:0006322 ! inferior rectus extraocular muscle
-relationship: supplies UBERON:0001602 ! medial rectus extraocular muscle
-relationship: supplies UBERON:0006322 ! inferior rectus extraocular muscle
+intersection_of: innervates UBERON:0006322 ! inferior rectus extraocular muscle
+relationship: innervates UBERON:0001602 ! medial rectus extraocular muscle
 
 [Term]
 id: UBERON:0015165
@@ -58785,6 +58770,22 @@ is_a: UBERON:0012375 ! subserosa
 intersection_of: UBERON:0012375 ! subserosa
 intersection_of: part_of UBERON:0003889 ! fallopian tube
 
+[Term]
+id: UBERON:8600004
+name: visceral muscle tissue
+def: "A muscle tissue that is associated with soft internal organs (viscera)." []
+synonym: "visceral muscle" EXACT []
+is_a: UBERON:0002385 ! muscle tissue
+relationship: composed_primarily_of CL:0008007
+
+[Term]
+id: UBERON:8600006
+name: visceral striated muscle tissue
+def: "A striated muscle tissue that is associated with soft internal organs (viscera)." []
+synonym: "striated visceral muscle tissue" EXACT []
+is_a: UBERON:0002036 ! striated muscle tissue
+is_a: UBERON:8600004 ! visceral muscle tissue
+
 [Typedef]
 id: adjacent_to
 name: adjacent to
@@ -59345,8 +59346,6 @@ xref: RO:0002158
 id: simultaneous_with
 name: simultaneous with
 xref: RO:0002082
-is_a: ends ! ends
-is_a: starts ! starts
 
 [Typedef]
 id: site_of
