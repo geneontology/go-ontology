@@ -1,11 +1,12 @@
 format-version: 1.2
-data-version: go/releases/2023-02-28/imports/cl_import.owl
+data-version: go/releases/2023-03-23/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
 id: CL:0000000
 name: cell
 def: "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." []
+is_a: UBERON:0000061
 relationship: RO:0002160 NCBITaxon:131567
 
 [Term]
@@ -1039,10 +1040,11 @@ id: CL:0000163
 name: endocrine cell
 def: "A cell of an endocrine gland, ductless glands that secrete substances which are released directly into the circulation and which influence metabolism and other body functions." []
 synonym: "endocrinocyte" EXACT []
-is_a: CL:0000151 ! secretory cell
-intersection_of: CL:0000151 ! secretory cell
-intersection_of: RO:0002215 GO:0060986
-relationship: BFO:0000050 UBERON:0002368
+is_a: CL:0000003 ! native cell
+is_a: CL:0000164 {gci_filler="UBERON:0000160", gci_relation="BFO:0000050"} ! enteroendocrine cell
+is_a: CL:0000164 {gci_filler="UBERON:0001264", gci_relation="BFO:0000050"} ! enteroendocrine cell
+is_a: CL:0000164 {gci_filler="UBERON:0000945", gci_relation="BFO:0000050"} ! enteroendocrine cell
+relationship: BFO:0000050 UBERON:0000949
 
 [Term]
 id: CL:0000164
@@ -1122,7 +1124,6 @@ name: pancreatic A cell
 def: "A type of enteocrine cell found in the periphery of the islets of Langerhans that secretes glucagon." []
 synonym: "alpha cell of islet of Langerhans" EXACT []
 synonym: "pancreatic alpha cell" EXACT []
-is_a: CL:0000083 ! epithelial cell of pancreas
 is_a: CL:0002067 ! type A enteroendocrine cell
 is_a: CL:0008024 ! pancreatic endocrine cell
 intersection_of: CL:0002067 ! type A enteroendocrine cell
@@ -1148,7 +1149,6 @@ synonym: "delta cell of pancreatic islet" EXACT []
 synonym: "pancreatic D-cell" EXACT []
 synonym: "pancreatic delta cell" EXACT []
 synonym: "somatostatin-secreting pancreatic cell" EXACT []
-is_a: CL:0000083 ! epithelial cell of pancreas
 is_a: CL:0000502 ! type D enteroendocrine cell
 is_a: CL:0008024 ! pancreatic endocrine cell
 intersection_of: CL:0000502 ! type D enteroendocrine cell
@@ -2604,16 +2604,14 @@ relationship: RO:0002202 CL:0000050 ! megakaryocyte-erythroid progenitor cell
 [Term]
 id: CL:0000556
 name: megakaryocyte
-def: "A giant cell 50 to 100 micron in diameter, with a greatly lobulated nucleus, found in the bone marrow; mature blood platelets are released from its cytoplasm." []
+def: "A large hematopoietic cell (50 to 100 micron) with a lobated nucleus. Once mature, this cell undergoes multiple rounds of endomitosis and cytoplasmic restructuring to allow platelet formation and release." []
 synonym: "megacaryocyte" EXACT []
 synonym: "megalocaryocyte" EXACT []
 synonym: "megalokaryocyte" EXACT []
 is_a: CL:0000763 ! myeloid cell
-is_a: CL:1001610 ! bone marrow hematopoietic cell
-intersection_of: CL:0000763 ! myeloid cell
-intersection_of: BFO:0000050 UBERON:0002371
-intersection_of: RO:0000053 PATO:0001393
+is_a: CL:4033018 {gci_relation="BFO:0000050", gci_filler="UBERON:0000114"} ! lung megakaryocyte
 disjoint_from: CL:0000764 ! erythroid lineage cell
+relationship: RO:0000053 PATO:0001393
 relationship: RO:0002202 CL:0000553 ! megakaryocyte progenitor cell
 
 [Term]
@@ -8253,7 +8251,6 @@ def: "A PP cell located in the islets of the pancreas." []
 synonym: "pancreatic polypeptide-secreting cell" EXACT []
 synonym: "PP cell of pancreatic islet" EXACT []
 synonym: "PP-cell of pancreatic islet" EXACT []
-is_a: CL:0000083 ! epithelial cell of pancreas
 is_a: CL:0000696 ! PP cell
 is_a: CL:0008024 ! pancreatic endocrine cell
 intersection_of: CL:0000696 ! PP cell
@@ -10224,8 +10221,10 @@ is_a: CL:0000187 ! muscle cell
 [Term]
 id: CL:0008007
 name: visceral muscle cell
-def: "A muscle cell that is part of some visceral muscle" []
+def: "A muscle cell that is part of some visceral muscle." []
 is_a: CL:0000187 ! muscle cell
+intersection_of: CL:0000187 ! muscle cell
+intersection_of: BFO:0000050 UBERON:8600004
 
 [Term]
 id: CL:0008008
@@ -10314,7 +10313,8 @@ intersection_of: BFO:0000050 UBERON:0002062
 id: CL:0008024
 name: pancreatic endocrine cell
 def: "An endocrine cell that is part of the pancreas." []
-is_a: CL:0000163 ! endocrine cell
+is_a: CL:0000083 ! epithelial cell of pancreas
+is_a: CL:0000164 ! enteroendocrine cell
 intersection_of: CL:0000163 ! endocrine cell
 intersection_of: BFO:0000050 UBERON:0001264
 
@@ -10833,16 +10833,6 @@ intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002215 GO:0061538
 
 [Term]
-id: CL:0011111
-name: gonadotropin releasing neuron
-def: "Neuroendocrine cells that are born in the nasal placode during embryonic development and migrate through the nose and forebrain to the hypothalamus, where they regulate reproduction." []
-synonym: "GnRH neuron" EXACT []
-synonym: "GnRH-secreting neuron" EXACT []
-is_a: CL:0000540 ! neuron
-intersection_of: CL:0000540 ! neuron
-intersection_of: RO:0002215 GO:0032274
-
-[Term]
 id: CL:0011115
 name: precursor cell
 def: "A cell that, by division or terminal differentiation, can give rise to other cell types." []
@@ -11100,8 +11090,9 @@ intersection_of: BFO:0000050 UBERON:0004129
 [Term]
 id: CL:1000222
 name: stomach neuroendocrine cell
+is_a: CL:0000164 ! enteroendocrine cell
 is_a: CL:0000165 ! neuroendocrine cell
-is_a: CL:0002178 ! epithelial cell of stomach
+is_a: CL:0002659 ! glandular cell of stomach
 intersection_of: CL:0000165 ! neuroendocrine cell
 intersection_of: BFO:0000050 UBERON:0000945
 
@@ -11110,7 +11101,6 @@ id: CL:1000223
 name: lung neuroendocrine cell
 is_a: CL:0000082 ! epithelial cell of lung
 is_a: CL:0000165 ! neuroendocrine cell
-is_a: CL:1000272 ! lung secretory cell
 intersection_of: CL:0000165 ! neuroendocrine cell
 intersection_of: BFO:0000050 UBERON:0002048
 
@@ -12796,6 +12786,39 @@ is_a: CL:0000165 ! neuroendocrine cell
 intersection_of: CL:0000165 ! neuroendocrine cell
 intersection_of: BFO:0000050 UBERON:0002339
 
+[Term]
+id: CL:4033015
+name: retinal astrocyte
+def: "A star-shaped glial cell that is part of some retina. This cell links neurons to blood vessels and may provide structural and physiological support to optic nerve head axons." []
+synonym: "retinal astroglia" RELATED []
+is_a: CL:0000127 ! astrocyte
+intersection_of: CL:0000127 ! astrocyte
+intersection_of: BFO:0000050 UBERON:0000966
+
+[Term]
+id: CL:4033017
+name: bronchiolar smooth muscle cell
+def: "A smooth muscle cell that is part of a bronchiole." []
+is_a: CL:0000192 ! smooth muscle cell
+intersection_of: CL:0000192 ! smooth muscle cell
+intersection_of: BFO:0000050 UBERON:0002186
+
+[Term]
+id: CL:4033018
+name: lung megakaryocyte
+def: "A megakaryocyte that is resident in the lung connective tissue." []
+synonym: "lung MKs" RELATED []
+is_a: CL:0000556 ! megakaryocyte
+
+[Term]
+id: CL:4033020
+name: mucus secreting cell of trachea gland
+def: "A mucus secreting cell that is part of a submucosal gland of the trachea." []
+synonym: "tracheal submucosal gland mucous cell" EXACT []
+is_a: CL:0000319 ! mucus secreting cell
+intersection_of: CL:0000319 ! mucus secreting cell
+intersection_of: BFO:0000050 UBERON:0005203
+
 [Typedef]
 id: BFO:0000050
 xref: BFO:0000050
@@ -12865,6 +12888,10 @@ id: RO:0002220
 xref: RO:0002220
 
 [Typedef]
+id: RO:0002339
+xref: RO:0002339
+
+[Typedef]
 id: RO:0002353
 xref: RO:0002353
 
@@ -12883,15 +12910,15 @@ xref: RO:0015016
 [Typedef]
 id: has_not_completed
 name: has_not_completed
-xref: has_not_completed
+xref: CL:4030044
 
 [Typedef]
 id: lacks_part
 name: lacks_part
-xref: lacks_part
+xref: CL:4030045
 
 [Typedef]
 id: lacks_plasma_membrane_part
 name: lacks_plasma_membrane_part
-xref: lacks_plasma_membrane_part
+xref: CL:4030046
 
