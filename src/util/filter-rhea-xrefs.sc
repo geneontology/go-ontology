@@ -74,6 +74,9 @@ def main(ontologyFile: os.Path, catalogFile: os.Path, rheaFile: os.Path, outFile
     _ = obsoleteUsages ++= subAnnotations
         .collect { case subAnn @ Annotation(_, DbXref, s"RHEA:${rhea}" ^^ _) => rhea }
         .filter(obsoleteReactions)
+    allDefXrefs = subAnnotations.collect {
+      case subAnn @ Annotation(_, DbXref, _) => subAnn
+      }
     subAnnotationsToRemove = subAnnotations.collect {
       case subAnn @ Annotation(_, DbXref, s"RHEA:${rhea}" ^^ _) if !allReactions(rhea) => {
         scribe.warn(s"No such Rhea identifier, filtering definition xref: RHEA:$rhea")
@@ -82,12 +85,19 @@ def main(ontologyFile: os.Path, catalogFile: os.Path, rheaFile: os.Path, outFile
     }
     if subAnnotationsToRemove.nonEmpty
   } yield {
+    if (allDefXrefs.size == subAnnotationsToRemove.size) {
+      scribe.error(s"Filtering unknown Rhea ID from definition xref for annotation would remove all definition xrefs:\n$ann")
+      System.exit(1)
+    }
     val newAxiom = ann.getAxiomWithoutAnnotations.getAnnotatedAxiom((subAnnotations -- subAnnotationsToRemove).asJava)
     (new RemoveAxiom(ontology, ann), new AddAxiom(ontology, newAxiom))
   }
   val (defXrefsToRemove, defXrefsToAdd) = defXrefsChanges.unzip
   // Consider exiting to fail the build when obsoletes are present
   obsoleteUsages.foreach(rhea => scribe.error(s"Obsolete Rhea ID used in xref: RHEA:$rhea"))
+  //if (obsoleteUsages.nonEmpty) {
+    //System.exit(1)
+    //}
   manager.applyChanges(xrefsToRemove.to(List).asJava)
   manager.applyChanges(defXrefsToRemove.to(List).asJava)
   manager.applyChanges(defXrefsToAdd.to(List).asJava)
