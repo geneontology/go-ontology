@@ -878,3 +878,5 @@ GO:0010597	green leaf volatile biosynthetic process	NCBITaxon:33090	Viridiplanta
 GO:0009524	phragmoplast	NCBITaxon:33090	Viridiplantae	
 GO:0022620	microgametophyte vegetative cell differentiation	NCBITaxon:58024	Spermatophyta	
 GO:0034587	piRNA processing	NCBITaxon:6072	Eumetazoa	
+GO:0099536	synaptic signaling  NCBITaxon:33208 Metazoa
+GO:0030594  neurotransmitter receptor activity  NCBITaxon:33208 Metazoa
