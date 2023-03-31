@@ -348,7 +348,6 @@ GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:3398	Magnoliop
 GO:0098521	inhibitory neuromuscular junction	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0098769	TIMP family protein binding	NCBITaxon:4751	Fungi	
 GO:0098770	FBXO family protein binding	NCBITaxon:4751	Fungi	
-GO:0099536	synaptic signaling	NCBITaxon:4895	Schizosaccharomyces	
 GO:0102084	L-dopa O-methyltransferase activity	NCBITaxon:4890	Ascomycota	
 GO:0102938	orcinol O-methyltransferase activity	NCBITaxon:4890	Ascomycota	
 GO:0120164	conidium germination	NCBITaxon:147554	Schizosaccharomycetes	
