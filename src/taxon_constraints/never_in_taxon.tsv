@@ -124,7 +124,7 @@ GO:0014832	urinary bladder smooth muscle contraction	NCBITaxon:8782	Aves
 GO:0015979	photosynthesis	NCBITaxon:33208	Metazoa	
 GO:0015979	photosynthesis	NCBITaxon:4895	Schizosaccharomyces	
 GO:0015994	chlorophyll metabolic process	NCBITaxon:33208	Metazoa	
-GO:0016032	viral process	NCBITaxon:4896	Schizosaccharomyces pombe 
+GO:0016032	viral process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0016116	carotenoid metabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0016116	carotenoid metabolic process	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0016168	chlorophyll binding	NCBITaxon:33208	Metazoa	
