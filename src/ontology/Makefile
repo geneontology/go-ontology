@@ -70,6 +70,7 @@ GO_MAIN_RELATIONS = $(GO_BASIC_RELATIONS) BFO:0000051 BFO:0000066 RO:0002091 RO:
 
 GO_PLUS = extensions/go-plus
 GO_GAF = extensions/go-gaf
+GO_AMIGO = extensions/go-amigo
 GO_LEGO = extensions/go-lego
 GO_LEGO_REACTO = extensions/go-lego-reacto
 
@@ -80,7 +81,7 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl subset-owls subset-reports generate-mappings
+stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl subset-owls subset-reports generate-mappings
 
 test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
@@ -219,8 +220,11 @@ go-base.owl: enhanced.owl
 $(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).owl extensions/gorel.owl mirror/cl.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
+$(GO_AMIGO).owl: extensions/go-amigo-edit.ofn $(GO_GAF).owl extensions/go-modules-annotations.owl extensions/go-taxon-subsets.owl mirror/eco.owl mirror/pato.owl mirror/po.owl mirror/chebi.owl mirror/uberon.owl mirror/wbbt.owl
+	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+
 # Not all imports are being pre-mirrored; the ones that are should be dependencies
-$(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro-download.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl mirror/cl.owl mirror/uberon.owl imports/go-lego-chebi-import.owl
+$(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro-download.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl mirror/cl.owl mirror/uberon.owl imports/go-lego-chebi-import.owl mirror/wbbt.owl mirror/eco.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural relax reduce --named-classes-only true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 extensions/reacto.owl: $(GO_LEGO).owl mirror/chebi.owl
@@ -387,6 +391,8 @@ imports/%_import.obo: imports/%_import.owl
 CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.owl.gz
 CL_SOURCE=http://purl.obolibrary.org/obo/cl/cl-base.owl
 UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/uberon-base.owl
+WBBT_SOURCE=http://purl.obolibrary.org/obo/wbbt/wbbt-base.owl
+ECO_SOURCE=http://purl.obolibrary.org/obo/eco/eco-basic.owl
 
 WGET_OUT = -O $@.tmp && cp $@.tmp $@ && touch $@
 
@@ -437,6 +443,14 @@ mirror/oba-download.owl: $(SRC)
 mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(CL_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
+
+mirror/wbbt-download.owl: $(SRC)
+	wget --no-check-certificate $(WBBT_SOURCE) $(WGET_OUT)
+.PRECIOUS: mirror/wbbt-download.owl
+
+mirror/eco-download.owl: $(SRC)
+	wget --no-check-certificate $(ECO_SOURCE) $(WGET_OUT)
+.PRECIOUS: mirror/eco-download.owl
 
 mirror/ro-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/ro/ro-base.owl $(WGET_OUT)
