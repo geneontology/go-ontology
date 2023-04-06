@@ -661,7 +661,6 @@ GO:0070902	mitochondrial tRNA pseudouridine synthesis	NCBITaxon:2759	Eukaryota
 GO:0070903	mitochondrial tRNA thio-modification	NCBITaxon:2759	Eukaryota	
 GO:0071990	maintenance of protein location to spindle pole body	NCBITaxon:4751	Fungi	
 GO:0072656	maintenance of protein location in mitochondrion	NCBITaxon:2759	Eukaryota	
-GO:0072684	mitochondrial tRNA 3'-trailer cleavage, endonucleolytic	NCBITaxon:2759	Eukaryota	
 GO:0080156	mitochondrial mRNA modification	NCBITaxon:2759	Eukaryota	
 GO:0090139	mitochondrial DNA packaging	NCBITaxon:2759	Eukaryota	
 GO:0090144	mitochondrial nucleoid organization	NCBITaxon:2759	Eukaryota	
