@@ -745,8 +745,6 @@ GO:0090616	mitochondrial mRNA 3'-end processing	NCBITaxon:2759	Eukaryota
 GO:0140040	mitochondrial polycistronic RNA processing	NCBITaxon:2759	Eukaryota	
 GO:0140041	cellular detoxification of methylglyoxal	NCBITaxon:131567	cellular organisms	
 GO:1900864	mitochondrial RNA modification	NCBITaxon:2759	Eukaryota	
-GO:1902375	nuclear tRNA 3'-trailer cleavage, endonucleolytic	NCBITaxon:2759	Eukaryota	
-GO:1902375	nuclear tRNA 3'-trailer cleavage, endonucleolytic	NCBITaxon:2759	Eukaryota	
 GO:1990770	small intestine smooth muscle contraction	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0008147	structural constituent of bone	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0021533	cell differentiation in hindbrain	NCBITaxon:89593	Craniata <chordata>	
@@ -879,4 +877,4 @@ GO:0009524	phragmoplast	NCBITaxon:33090	Viridiplantae
 GO:0022620	microgametophyte vegetative cell differentiation	NCBITaxon:58024	Spermatophyta	
 GO:0034587	piRNA processing	NCBITaxon:6072	Eumetazoa	
 GO:0099536	synaptic signaling  NCBITaxon:33208 Metazoa
-GO:0030594  neurotransmitter receptor activity  NCBITaxon:33208 Metazoa
+GO:0030594  neurotransmitter receptor activity  NCBITaxon:33208 Metazoa 
