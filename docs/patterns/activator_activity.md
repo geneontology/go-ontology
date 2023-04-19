@@ -30,7 +30,7 @@ This pattern is for representing a function that activates some molecular functi
 
 ## Equivalent to
 
-[molecular function regulator activity](http://purl.obolibrary.org/obo/GO_0098772)  and ([directly positively regulates](http://purl.obolibrary.org/obo/RO_0002629) some `{regulated_activity}`)
+[molecular function activator activity](http://purl.obolibrary.org/obo/GO_0140677)  and ([directly positively regulates](http://purl.obolibrary.org/obo/RO_0002629) some `{regulated_activity}`)
 
 
 

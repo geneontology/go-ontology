@@ -29,7 +29,7 @@ This pattern is for representing a function that inhibits some molecular functio
 
 ## Equivalent to
 
-[molecular function regulator activity](http://purl.obolibrary.org/obo/GO_0098772)  and ([directly negatively regulates](http://purl.obolibrary.org/obo/RO_0002630) some `{regulated_activity}`)
+[molecular function inhibitor activity](http://purl.obolibrary.org/obo/GO_0140678)  and ([directly negatively regulates](http://purl.obolibrary.org/obo/RO_0002630) some `{regulated_activity}`)
 
 
 
