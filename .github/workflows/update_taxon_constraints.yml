@@ -19,7 +19,7 @@ jobs:
       run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       
     - name: Update taxon constraints
-      run: cd src/ontology && make imports/go_taxon_constraints.owl && cd ../..
+      run: touch src/taxon_constraints/never_in_taxon.tsv src/taxon_constraints/only_in_taxon.tsv src/taxon_constraints/present_in_taxon.tsv cd src/ontology && make imports/go_taxon_constraints.owl && cd ../..
     
     - name: Create PR
       uses: peter-evans/create-pull-request@v4
