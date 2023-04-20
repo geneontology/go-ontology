@@ -518,7 +518,6 @@ GO:0005368	taurine transmembrane transporter activity	NCBITaxon:4751	Fungi
 GO:0015411	ATPase-coupled taurine transporter activity	NCBITaxon:4751	Fungi	
 GO:0000011	vacuole inheritance	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0071563	Myo2p-Vac17p-Vac8p transport complex	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0036473	cell death in response to oxidative stress	NCBITaxon:4890 	Ascomycota	
 GO:0031911	cytoproct	NCBITaxon:33208	Metazoa	
 GO:0044297	cell body	NCBITaxon:4890 	Ascomycota	
 GO:0045180	basal cortex	NCBITaxon:4890 	Ascomycota	
