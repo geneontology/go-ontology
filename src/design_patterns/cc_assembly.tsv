@@ -221,6 +221,7 @@ http://purl.obolibrary.org/obo/GO_1902906	proteasome storage granule assembly	ht
 http://purl.obolibrary.org/obo/GO_0035362	protein-DNA ISRE complex assembly	http://purl.obolibrary.org/obo/GO_0097522	protein-DNA ISRE complex
 http://purl.obolibrary.org/obo/GO_0065004	protein-DNA complex assembly	http://purl.obolibrary.org/obo/GO_0032993	protein-DNA complex
 http://purl.obolibrary.org/obo/GO_0001116	protein-DNA-RNA complex assembly	http://purl.obolibrary.org/obo/GO_0001114	protein-DNA-RNA complex
+http://purl.obolibrary.org/obo/GO_0022618	protein-RNA complex assembly	http://purl.obolibrary.org/obo/GO_1990904	ribonucleoprotein complex
 http://purl.obolibrary.org/obo/GO_0065003	protein-containing complex assembly	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex
 http://purl.obolibrary.org/obo/GO_0065005	protein-lipid complex assembly	http://purl.obolibrary.org/obo/GO_0032994	protein-lipid complex
 http://purl.obolibrary.org/obo/GO_0043461	proton-transporting ATP synthase complex assembly	http://purl.obolibrary.org/obo/GO_0045259	proton-transporting ATP synthase complex
@@ -232,7 +233,6 @@ http://purl.obolibrary.org/obo/GO_1904270	pyroptosome complex assembly	http://pu
 http://purl.obolibrary.org/obo/GO_0034552	respiratory chain complex II assembly	http://purl.obolibrary.org/obo/GO_0045273	respiratory chain complex II
 http://purl.obolibrary.org/obo/GO_0017062	respiratory chain complex III assembly	http://purl.obolibrary.org/obo/GO_0045275	respiratory chain complex III
 http://purl.obolibrary.org/obo/GO_0008535	respiratory chain complex IV assembly	http://purl.obolibrary.org/obo/GO_0045277	respiratory chain complex IV
-http://purl.obolibrary.org/obo/GO_0022618	ribonucleoprotein complex assembly	http://purl.obolibrary.org/obo/GO_1990904	ribonucleoprotein complex
 http://purl.obolibrary.org/obo/GO_0000027	ribosomal large subunit assembly	http://purl.obolibrary.org/obo/GO_0015934	large ribosomal subunit
 http://purl.obolibrary.org/obo/GO_0000028	ribosomal small subunit assembly	http://purl.obolibrary.org/obo/GO_0015935	small ribosomal subunit
 http://purl.obolibrary.org/obo/GO_0042255	ribosome assembly	http://purl.obolibrary.org/obo/GO_0005840	ribosome
