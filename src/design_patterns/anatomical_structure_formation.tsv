@@ -10,7 +10,9 @@ http://purl.obolibrary.org/obo/GO_0007378	amnioserosa formation	http://purl.obol
 http://purl.obolibrary.org/obo/GO_0001525	angiogenesis	http://purl.obolibrary.org/obo/UBERON_0001981	blood vessel
 http://purl.obolibrary.org/obo/GO_0048645	animal organ formation	http://purl.obolibrary.org/obo/UBERON_0003103	compound organ
 http://purl.obolibrary.org/obo/GO_0003189	aortic valve formation	http://purl.obolibrary.org/obo/UBERON_0002137	aortic valve
+http://purl.obolibrary.org/obo/GO_0030437	ascospore formation	http://purl.obolibrary.org/obo/CL_0000607	ascospore
 http://purl.obolibrary.org/obo/GO_0003190	atrioventricular valve formation	http://purl.obolibrary.org/obo/UBERON_0002133	atrioventricular valve
+http://purl.obolibrary.org/obo/GO_0034295	basidiospore formation	http://purl.obolibrary.org/obo/CL_0000615	basidiospore
 http://purl.obolibrary.org/obo/GO_0071730	beak formation	http://purl.obolibrary.org/obo/UBERON_0005094	beak
 http://purl.obolibrary.org/obo/GO_0060346	bone trabecula formation	http://purl.obolibrary.org/obo/UBERON_0008867	trabecular network of bone
 http://purl.obolibrary.org/obo/GO_0003234	bulbus arteriosus formation	http://purl.obolibrary.org/obo/UBERON_0004152	bulbus arteriosus
@@ -103,6 +105,8 @@ http://purl.obolibrary.org/obo/GO_0030916	otic vesicle formation	http://purl.obo
 http://purl.obolibrary.org/obo/GO_0032475	otolith formation	http://purl.obolibrary.org/obo/UBERON_0002280	otolith
 http://purl.obolibrary.org/obo/GO_0061130	pancreatic bud formation	http://purl.obolibrary.org/obo/UBERON_0003922	pancreatic epithelial bud
 http://purl.obolibrary.org/obo/GO_0048341	paraxial mesoderm formation	http://purl.obolibrary.org/obo/UBERON_0003077	paraxial mesoderm
+http://purl.obolibrary.org/obo/GO_0030220	platelet formation	http://purl.obolibrary.org/obo/CL_0000233	platelet
+http://purl.obolibrary.org/obo/GO_0007279	pole cell formation	http://purl.obolibrary.org/obo/CL_0000301	pole cell
 http://purl.obolibrary.org/obo/GO_0021584	pons formation	http://purl.obolibrary.org/obo/UBERON_0000988	pons
 http://purl.obolibrary.org/obo/GO_0060431	primary lung bud formation	http://purl.obolibrary.org/obo/UBERON_0002048	lung
 http://purl.obolibrary.org/obo/GO_0090009	primitive streak formation	http://purl.obolibrary.org/obo/UBERON_0004341	primitive streak
@@ -132,6 +136,7 @@ http://purl.obolibrary.org/obo/GO_0060345	spleen trabecula formation	http://purl
 http://purl.obolibrary.org/obo/GO_0060661	submandibular salivary gland formation	http://purl.obolibrary.org/obo/UBERON_0001736	submandibular gland
 http://purl.obolibrary.org/obo/GO_0021720	superior olivary nucleus formation	http://purl.obolibrary.org/obo/UBERON_0007247	nucleus of superior olivary complex
 http://purl.obolibrary.org/obo/GO_0048797	swim bladder formation	http://purl.obolibrary.org/obo/UBERON_0006860	swim bladder
+http://purl.obolibrary.org/obo/GO_0006949	syncytium formation	http://purl.obolibrary.org/obo/CL_0000228	multinucleate cell
 http://purl.obolibrary.org/obo/GO_0061195	taste bud formation	http://purl.obolibrary.org/obo/UBERON_0001727	taste bud
 http://purl.obolibrary.org/obo/GO_0035992	tendon formation	http://purl.obolibrary.org/obo/UBERON_0000043	tendon
 http://purl.obolibrary.org/obo/GO_0060343	trabecula formation	http://purl.obolibrary.org/obo/UBERON_0000440	trabecula
@@ -148,3 +153,4 @@ http://purl.obolibrary.org/obo/GO_0003196	ventriculo bulbo valve formation	http:
 http://purl.obolibrary.org/obo/GO_0021650	vestibulocochlear nerve formation	http://purl.obolibrary.org/obo/UBERON_0001648	vestibulocochlear nerve
 http://purl.obolibrary.org/obo/GO_0030704	vitelline membrane formation	http://purl.obolibrary.org/obo/UBERON_0003125	vitelline membrane
 http://purl.obolibrary.org/obo/GO_0022006	zona limitans intrathalamica formation	http://purl.obolibrary.org/obo/UBERON_0009848	zona limitans intrathalamica
+http://purl.obolibrary.org/obo/GO_0034296	zygospore formation	http://purl.obolibrary.org/obo/CL_0000608	zygospore
