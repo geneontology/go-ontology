@@ -9,7 +9,7 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 Prefix(x-disjoint:=<http://purl.obolibrary.org/obo/go/extensions/x-disjoint#>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl>
+Ontology(<http://purl.obolibrary.org/obo/go/imports/x-disjoint.ofn>
 Annotation(rdfs:comment "This is an external bridge ontology that contains OWL disjointness constraints.")
 Annotation(rdfs:seeAlso "http://wiki.geneontology.org/index.php/Disjoint_Documentation"^^xsd:anyURI)
 
