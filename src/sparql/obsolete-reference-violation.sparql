@@ -35,4 +35,8 @@ WHERE {
   { # Check for obsolete term used in intersection or union
     ?ref rdf:first ?obsolete . 
   }
+  UNION
+  { # Check for obsolete term used in slim
+    ?obsolete oio:inSubset ?subset .
+  }
 }
