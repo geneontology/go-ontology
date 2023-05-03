@@ -1,0 +1,241 @@
+Prefix(:=<http://purl.obolibrary.org/obo/go/extensions/x-disjoint.owl#>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+Prefix(x-disjoint:=<http://purl.obolibrary.org/obo/go/extensions/x-disjoint#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl>
+Annotation(rdfs:comment "This is an external bridge ontology that contains OWL disjointness constraints.")
+Annotation(rdfs:seeAlso "http://wiki.geneontology.org/index.php/Disjoint_Documentation"^^xsd:anyURI)
+
+Declaration(Class(obo:CL_0000000))
+Declaration(Class(obo:GO_0000003))
+Declaration(Class(obo:GO_0000236))
+Declaration(Class(obo:GO_0000237))
+Declaration(Class(obo:GO_0000238))
+Declaration(Class(obo:GO_0000239))
+Declaration(Class(obo:GO_0000240))
+Declaration(Class(obo:GO_0000241))
+Declaration(Class(obo:GO_0000279))
+Declaration(Class(obo:GO_0001708))
+Declaration(Class(obo:GO_0001906))
+Declaration(Class(obo:GO_0002376))
+Declaration(Class(obo:GO_0003674))
+Declaration(Class(obo:GO_0005575))
+Declaration(Class(obo:GO_0005576))
+Declaration(Class(obo:GO_0005623))
+Declaration(Class(obo:GO_0005634))
+Declaration(Class(obo:GO_0005737))
+Declaration(Class(obo:GO_0005829))
+Declaration(Class(obo:GO_0007067))
+Declaration(Class(obo:GO_0007126))
+Declaration(Class(obo:GO_0007127))
+Declaration(Class(obo:GO_0007135))
+Declaration(Class(obo:GO_0007292))
+Declaration(Class(obo:GO_0007610))
+Declaration(Class(obo:GO_0008150))
+Declaration(Class(obo:GO_0008152))
+Declaration(Class(obo:GO_0009507))
+Declaration(Class(obo:GO_0009561))
+Declaration(Class(obo:GO_0009653))
+Declaration(Class(obo:GO_0009792))
+Declaration(Class(obo:GO_0009793))
+Declaration(Class(obo:GO_0009987))
+Declaration(Class(obo:GO_0016020))
+Declaration(Class(obo:GO_0016265))
+Declaration(Class(obo:GO_0019012))
+Declaration(Class(obo:GO_0019725))
+Declaration(Class(obo:GO_0019953))
+Declaration(Class(obo:GO_0019954))
+Declaration(Class(obo:GO_0022402))
+Declaration(Class(obo:GO_0022403))
+Declaration(Class(obo:GO_0022414))
+Declaration(Class(obo:GO_0023052))
+Declaration(Class(obo:GO_0031012))
+Declaration(Class(obo:GO_0031974))
+Declaration(Class(obo:GO_0031975))
+Declaration(Class(obo:GO_0032501))
+Declaration(Class(obo:GO_0032502))
+Declaration(Class(obo:GO_0032504))
+Declaration(Class(obo:GO_0032505))
+Declaration(Class(obo:GO_0032991))
+Declaration(Class(obo:GO_0040007))
+Declaration(Class(obo:GO_0040011))
+Declaration(Class(obo:GO_0042063))
+Declaration(Class(obo:GO_0043226))
+Declaration(Class(obo:GO_0043227))
+Declaration(Class(obo:GO_0043228))
+Declaration(Class(obo:GO_0043229))
+Declaration(Class(obo:GO_0043230))
+Declaration(Class(obo:GO_0044421))
+Declaration(Class(obo:GO_0044422))
+Declaration(Class(obo:GO_0044428))
+Declaration(Class(obo:GO_0044434))
+Declaration(Class(obo:GO_0044444))
+Declaration(Class(obo:GO_0044445))
+Declaration(Class(obo:GO_0044446))
+Declaration(Class(obo:GO_0044464))
+Declaration(Class(obo:GO_0044699))
+Declaration(Class(obo:GO_0044848))
+Declaration(Class(obo:GO_0045202))
+Declaration(Class(obo:GO_0045759))
+Declaration(Class(obo:GO_0045760))
+Declaration(Class(obo:GO_0046879))
+Declaration(Class(obo:GO_0048468))
+Declaration(Class(obo:GO_0048511))
+Declaration(Class(obo:GO_0048856))
+Declaration(Class(obo:GO_0048872))
+Declaration(Class(obo:GO_0050896))
+Declaration(Class(obo:GO_0051179))
+Declaration(Class(obo:GO_0051234))
+Declaration(Class(obo:GO_0051235))
+Declaration(Class(obo:GO_0051318))
+Declaration(Class(obo:GO_0051319))
+Declaration(Class(obo:GO_0051320))
+Declaration(Class(obo:GO_0051322))
+Declaration(Class(obo:GO_0051323))
+Declaration(Class(obo:GO_0051324))
+Declaration(Class(obo:GO_0051325))
+Declaration(Class(obo:GO_0051326))
+Declaration(Class(obo:GO_0051704))
+Declaration(Class(obo:GO_0055044))
+Declaration(Class(obo:GO_0055046))
+Declaration(Class(obo:GO_0061088))
+Declaration(Class(obo:GO_0065007))
+Declaration(Class(obo:GO_0071695))
+Declaration(Class(obo:GO_0071840))
+Declaration(Class(obo:GO_0110165))
+Declaration(ObjectProperty(obo:BFO_0000050))
+Declaration(AnnotationProperty(oboInOwl:hasOBONamespace))
+Declaration(AnnotationProperty(oboInOwl:id))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: obo:CL_0000000 (obo:CL_0000000)
+
+DisjointClasses(obo:CL_0000000 obo:GO_0019012)
+DisjointClasses(obo:CL_0000000 obo:GO_0031012)
+DisjointClasses(obo:CL_0000000 obo:GO_0032991)
+DisjointClasses(obo:CL_0000000 obo:GO_0043226)
+DisjointClasses(obo:CL_0000000 obo:GO_0055044)
+
+# Class: obo:GO_0001708 (obo:GO_0001708)
+
+DisjointClasses(Annotation(rdfs:comment "Cell differentiation consists of two separate parts: commitment of cell to its fate and the subsequent development of the cell") obo:GO_0001708 obo:GO_0048468)
+
+# Class: obo:GO_0003674 (obo:GO_0003674)
+
+DisjointClasses(obo:GO_0003674 obo:GO_0005575)
+DisjointClasses(obo:GO_0003674 obo:GO_0008150)
+
+# Class: obo:GO_0005575 (obo:GO_0005575)
+
+DisjointClasses(obo:GO_0005575 obo:GO_0008150)
+
+# Class: obo:GO_0005576 (extracellular region)
+
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:GO_0005576 "cellular_component")
+AnnotationAssertion(oboInOwl:id obo:GO_0005576 "GO:0005576")
+AnnotationAssertion(rdfs:label obo:GO_0005576 "extracellular region")
+
+# Class: obo:GO_0005634 (obo:GO_0005634)
+
+DisjointClasses(obo:GO_0005634 obo:GO_0005737)
+DisjointClasses(obo:GO_0005634 obo:GO_0005829)
+DisjointClasses(obo:GO_0005634 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0005737))
+DisjointClasses(obo:GO_0005634 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0005829))
+
+# Class: obo:GO_0005829 (obo:GO_0005829)
+
+DisjointClasses(obo:GO_0005829 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0005634))
+DisjointClasses(obo:GO_0005829 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0009507))
+DisjointClasses(obo:GO_0005829 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0043226))
+
+# Class: obo:GO_0007610 (obo:GO_0007610)
+
+DisjointClasses(obo:GO_0007610 obo:GO_0032502)
+
+# Class: obo:GO_0009561 (obo:GO_0009561)
+
+DisjointClasses(obo:GO_0009561 obo:GO_0055046)
+
+# Class: obo:GO_0009653 (obo:GO_0009653)
+
+DisjointClasses(obo:GO_0009653 obo:GO_0048856)
+DisjointClasses(obo:GO_0009653 obo:GO_0071695)
+
+# Class: obo:GO_0009792 (obo:GO_0009792)
+
+DisjointClasses(obo:GO_0009792 obo:GO_0009793)
+
+# Class: obo:GO_0016020 (obo:GO_0016020)
+
+DisjointClasses(obo:GO_0016020 obo:GO_0031012)
+
+# Class: obo:GO_0019012 (obo:GO_0019012)
+
+DisjointClasses(obo:GO_0019012 obo:GO_0031012)
+DisjointClasses(obo:GO_0019012 obo:GO_0032991)
+DisjointClasses(obo:GO_0019012 obo:GO_0043226)
+DisjointClasses(obo:GO_0019012 obo:GO_0055044)
+
+# Class: obo:GO_0019725 (obo:GO_0019725)
+
+DisjointClasses(obo:GO_0019725 obo:GO_0048872)
+
+# Class: obo:GO_0019953 (obo:GO_0019953)
+
+DisjointClasses(obo:GO_0019953 obo:GO_0019954)
+
+# Class: obo:GO_0022402 (obo:GO_0022402)
+
+DisjointClasses(obo:GO_0022402 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0022403))
+
+# Class: obo:GO_0031012 (obo:GO_0031012)
+
+DisjointClasses(obo:GO_0031012 obo:GO_0032991)
+DisjointClasses(obo:GO_0031012 obo:GO_0043226)
+DisjointClasses(obo:GO_0031012 obo:GO_0055044)
+
+# Class: obo:GO_0031974 (obo:GO_0031974)
+
+DisjointClasses(obo:GO_0031974 obo:GO_0045202)
+
+# Class: obo:GO_0032504 (obo:GO_0032504)
+
+DisjointClasses(obo:GO_0032504 obo:GO_0032505)
+
+# Class: obo:GO_0032991 (obo:GO_0032991)
+
+DisjointClasses(obo:GO_0032991 obo:GO_0055044)
+DisjointClasses(obo:GO_0032991 obo:GO_0110165)
+
+# Class: obo:GO_0043226 (obo:GO_0043226)
+
+DisjointClasses(obo:GO_0043226 obo:GO_0055044)
+
+# Class: obo:GO_0043227 (obo:GO_0043227)
+
+DisjointClasses(obo:GO_0043227 obo:GO_0043228)
+
+# Class: obo:GO_0043229 (obo:GO_0043229)
+
+DisjointClasses(obo:GO_0043229 obo:GO_0043230)
+
+
+DisjointClasses(ObjectSomeValuesFrom(obo:BFO_0000050 obo:CL_0000000) ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0005576))
+DisjointClasses(ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0000279) ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0051320))
+DisjointClasses(ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0005634) ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0005737))
+DisjointClasses(ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0005634) ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0005829))
+DisjointClasses(ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0043229) ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0043230))
+DisjointClasses(ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0051318) ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0051319))
+)
