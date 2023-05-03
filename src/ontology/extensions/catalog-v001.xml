@@ -6,6 +6,6 @@
         <uri id="Automatically generated entry, Timestamp=1652767789336" name="http://purl.obolibrary.org/obo/go/extensions/gorel.owl" uri="gorel.owl"/>
         <uri id="Automatically generated entry, Timestamp=1652767789336" name="http://purl.obolibrary.org/obo/go/extensions/ro_pending.owl" uri="ro_pending.owl"/>
         <uri id="Automatically generated entry, Timestamp=1652767789336" name="http://purl.obolibrary.org/obo/go/extensions/x-bfo.owl" uri="go-bfo-bridge.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1652767789336" name="http://purl.obolibrary.org/obo/go/extensions/x-disjoint.owl" uri="x-disjoint.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1652767789336" name="http://purl.obolibrary.org/obo/go/extensions/x-disjoint.ofn" uri="x-disjoint.ofn"/>
     </group>
 </catalog>
