@@ -48,7 +48,6 @@ Declaration(Class(obo:GO_0009793))
 Declaration(Class(obo:GO_0009987))
 Declaration(Class(obo:GO_0016020))
 Declaration(Class(obo:GO_0016265))
-Declaration(Class(obo:GO_0044423))
 Declaration(Class(obo:GO_0019725))
 Declaration(Class(obo:GO_0019953))
 Declaration(Class(obo:GO_0019954))
@@ -74,6 +73,7 @@ Declaration(Class(obo:GO_0043229))
 Declaration(Class(obo:GO_0043230))
 Declaration(Class(obo:GO_0044421))
 Declaration(Class(obo:GO_0044422))
+Declaration(Class(obo:GO_0044423))
 Declaration(Class(obo:GO_0044428))
 Declaration(Class(obo:GO_0044434))
 Declaration(Class(obo:GO_0044444))
@@ -122,10 +122,10 @@ Declaration(AnnotationProperty(oboInOwl:id))
 
 # Class: obo:CL_0000000 (obo:CL_0000000)
 
-DisjointClasses(obo:CL_0000000 obo:GO_0044423)
 DisjointClasses(obo:CL_0000000 obo:GO_0031012)
 DisjointClasses(obo:CL_0000000 obo:GO_0032991)
 DisjointClasses(obo:CL_0000000 obo:GO_0043226)
+DisjointClasses(obo:CL_0000000 obo:GO_0044423)
 DisjointClasses(obo:CL_0000000 obo:GO_0055044)
 
 # Class: obo:GO_0001708 (obo:GO_0001708)
@@ -181,13 +181,6 @@ DisjointClasses(obo:GO_0009792 obo:GO_0009793)
 
 DisjointClasses(obo:GO_0016020 obo:GO_0031012)
 
-# Class: obo:GO_0044423 (obo:GO_0044423)
-
-DisjointClasses(obo:GO_0044423 obo:GO_0031012)
-DisjointClasses(obo:GO_0044423 obo:GO_0032991)
-DisjointClasses(obo:GO_0044423 obo:GO_0043226)
-DisjointClasses(obo:GO_0044423 obo:GO_0055044)
-
 # Class: obo:GO_0019725 (obo:GO_0019725)
 
 DisjointClasses(obo:GO_0019725 obo:GO_0048872)
@@ -204,6 +197,7 @@ DisjointClasses(obo:GO_0022402 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_00224
 
 DisjointClasses(obo:GO_0031012 obo:GO_0032991)
 DisjointClasses(obo:GO_0031012 obo:GO_0043226)
+DisjointClasses(obo:GO_0031012 obo:GO_0044423)
 DisjointClasses(obo:GO_0031012 obo:GO_0055044)
 
 # Class: obo:GO_0031974 (obo:GO_0031974)
@@ -216,11 +210,13 @@ DisjointClasses(obo:GO_0032504 obo:GO_0032505)
 
 # Class: obo:GO_0032991 (obo:GO_0032991)
 
+DisjointClasses(obo:GO_0032991 obo:GO_0044423)
 DisjointClasses(obo:GO_0032991 obo:GO_0055044)
 DisjointClasses(obo:GO_0032991 obo:GO_0110165)
 
 # Class: obo:GO_0043226 (obo:GO_0043226)
 
+DisjointClasses(obo:GO_0043226 obo:GO_0044423)
 DisjointClasses(obo:GO_0043226 obo:GO_0055044)
 
 # Class: obo:GO_0043227 (obo:GO_0043227)
@@ -230,6 +226,10 @@ DisjointClasses(obo:GO_0043227 obo:GO_0043228)
 # Class: obo:GO_0043229 (obo:GO_0043229)
 
 DisjointClasses(obo:GO_0043229 obo:GO_0043230)
+
+# Class: obo:GO_0044423 (obo:GO_0044423)
+
+DisjointClasses(obo:GO_0044423 obo:GO_0055044)
 
 
 DisjointClasses(ObjectSomeValuesFrom(obo:BFO_0000050 obo:CL_0000000) ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0005576))
