@@ -30,4 +30,4 @@ jobs:
             src/design_patterns/*.tsv
             docs/patterns/*.md
             src/ontology/imports/go-pattern-conformance.ttl
-        token: GH_TOKEN
+        token: ${{ secrets.PR_ACTION_TOKEN }}
