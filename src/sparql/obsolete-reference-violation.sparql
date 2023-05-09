@@ -4,39 +4,47 @@ prefix owl: <http://www.w3.org/2002/07/owl#>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT DISTINCT ?obsolete
+SELECT DISTINCT ?obsolete ?reason
 WHERE {
   ?obsolete owl:deprecated "true"^^xsd:boolean .  
   { # Check for obsolete term used as subclass
     ?obsolete rdfs:subClassOf ?ref . 
     FILTER(?ref != owl:Thing) # This filter is needed as long as this check is being run against reasoned.owl
+    BIND("Obsolete term should not have a superclass" AS ?reason)
   }
   UNION 
   { # Check for obsolete term used as superclass
     ?ref rdfs:subClassOf ?obsolete . 
+    BIND("Obsolete term should not have a subclass" AS ?reason)
   }
   UNION 
   { # Check for obsolete term used as subject of equivalence
     ?obsolete owl:equivalentClass ?ref . 
+    BIND("Obsolete term should not have an equivalent class" AS ?reason)
   }
   UNION 
   { # Check for obsolete term used as object of equivalence
     ?ref owl:equivalentClass ?obsolete . 
+    BIND("Obsolete term should not have an equivalent class" AS ?reason)
   }
   UNION
   { # Check for obsolete term used as existential filler
     ?ref owl:someValuesFrom ?obsolete . 
+    BIND("Obsolete term should not be used as a relation value" AS ?reason)
   }
   UNION
   { # Check for obsolete term used as universal filler
     ?ref owl:allValuesFrom ?obsolete . 
+    BIND("Obsolete term should not be used as a relation value" AS ?reason)
   }
   UNION
   { # Check for obsolete term used in intersection or union
     ?ref rdf:first ?obsolete . 
+    BIND("Obsolete term should not be used in axioms (probably in intersection or union)" AS ?reason)
   }
   UNION
-  { # Check for obsolete term used in slim
+  {
     ?obsolete oio:inSubset ?subset .
+    BIND(CONCAT("Obsolete term should not be in subset: ", STR(?subset)) AS ?reason)
   }
 }
