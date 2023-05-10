@@ -86,7 +86,6 @@ http://purl.obolibrary.org/obo/GO_1900757	regulation of D-amino-acid oxidase act
 http://purl.obolibrary.org/obo/GO_0140215	regulation of D-aspartate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0070779	D-aspartate import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1900022	regulation of D-erythro-sphingosine kinase activity	http://purl.obolibrary.org/obo/GO_0017050	D-erythro-sphingosine kinase activity
 http://purl.obolibrary.org/obo/GO_0043469	regulation of D-xylose catabolic process	http://purl.obolibrary.org/obo/GO_0042843	D-xylose catabolic process
-http://purl.obolibrary.org/obo/GO_1902544	regulation of DNA N-glycosylase activity	http://purl.obolibrary.org/obo/GO_0019104	DNA N-glycosylase activity
 http://purl.obolibrary.org/obo/GO_1904523	regulation of DNA amplification	http://purl.obolibrary.org/obo/GO_0006277	DNA amplification
 http://purl.obolibrary.org/obo/GO_0051101	regulation of DNA binding	http://purl.obolibrary.org/obo/GO_0003677	DNA binding
 http://purl.obolibrary.org/obo/GO_2000278	regulation of DNA biosynthetic process	http://purl.obolibrary.org/obo/GO_0071897	DNA biosynthetic process
@@ -115,7 +114,6 @@ http://purl.obolibrary.org/obo/GO_2000621	regulation of DNA replication terminat
 http://purl.obolibrary.org/obo/GO_0060382	regulation of DNA strand elongation	http://purl.obolibrary.org/obo/GO_0022616	DNA strand elongation
 http://purl.obolibrary.org/obo/GO_0110026	regulation of DNA strand resection involved in replication fork processing	http://purl.obolibrary.org/obo/GO_0110025	DNA strand resection involved in replication fork processing
 http://purl.obolibrary.org/obo/GO_2000371	regulation of DNA topoisomerase (ATP-hydrolyzing) activity	http://purl.obolibrary.org/obo/GO_0003918	DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity
-http://purl.obolibrary.org/obo/GO_1901971	regulation of DNA-5-methylcytosine glycosylase activity	http://purl.obolibrary.org/obo/GO_1990053	DNA-5-methylcytosine glycosylase activity
 http://purl.obolibrary.org/obo/GO_0051090	regulation of DNA-binding transcription factor activity	http://purl.obolibrary.org/obo/GO_0003700	DNA-binding transcription factor activity
 http://purl.obolibrary.org/obo/GO_1900262	regulation of DNA-directed DNA polymerase activity	http://purl.obolibrary.org/obo/GO_0003887	DNA-directed DNA polymerase activity
 http://purl.obolibrary.org/obo/GO_0090329	regulation of DNA-templated DNA replication	http://purl.obolibrary.org/obo/GO_0006261	DNA-templated DNA replication
@@ -1010,7 +1008,6 @@ http://purl.obolibrary.org/obo/GO_0003427	regulation of cytoskeleton polarizatio
 http://purl.obolibrary.org/obo/GO_0043317	regulation of cytotoxic T cell degranulation	http://purl.obolibrary.org/obo/GO_0043316	cytotoxic T cell degranulation
 http://purl.obolibrary.org/obo/GO_0045583	regulation of cytotoxic T cell differentiation	http://purl.obolibrary.org/obo/GO_0045065	cytotoxic T cell differentiation
 http://purl.obolibrary.org/obo/GO_1903528	regulation of dCDP biosynthetic process	http://purl.obolibrary.org/obo/GO_0006240	dCDP biosynthetic process
-http://purl.obolibrary.org/obo/GO_1903627	regulation of dUTP diphosphatase activity	http://purl.obolibrary.org/obo/GO_0004170	dUTP diphosphatase activity
 http://purl.obolibrary.org/obo/GO_1905909	regulation of dauer entry	http://purl.obolibrary.org/obo/GO_0043053	dauer entry
 http://purl.obolibrary.org/obo/GO_0061065	regulation of dauer larval development	http://purl.obolibrary.org/obo/GO_0040024	dauer larval development
 http://purl.obolibrary.org/obo/GO_0150065	regulation of deacetylase activity	http://purl.obolibrary.org/obo/GO_0019213	deacetylase activity
@@ -1108,7 +1105,6 @@ http://purl.obolibrary.org/obo/GO_1900834	regulation of emericellin biosynthetic
 http://purl.obolibrary.org/obo/GO_1900664	regulation of emodin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900575	emodin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0070173	regulation of enamel mineralization	http://purl.obolibrary.org/obo/GO_0070166	enamel mineralization
 http://purl.obolibrary.org/obo/GO_0075227	regulation of encysted zoospore germination	http://purl.obolibrary.org/obo/GO_0075226	encysted zoospore germination
-http://purl.obolibrary.org/obo/GO_0051421	regulation of endo-1,4-beta-xylanase activity	http://purl.obolibrary.org/obo/GO_0031176	endo-1,4-beta-xylanase activity
 http://purl.obolibrary.org/obo/GO_2000124	regulation of endocannabinoid signaling pathway	http://purl.obolibrary.org/obo/GO_0071926	endocannabinoid signaling pathway
 http://purl.obolibrary.org/obo/GO_0120074	regulation of endocardial cushion cell differentiation	http://purl.obolibrary.org/obo/GO_0061443	endocardial cushion cell differentiation
 http://purl.obolibrary.org/obo/GO_0140049	regulation of endocardial cushion to mesenchymal transition	http://purl.obolibrary.org/obo/GO_0090500	endocardial cushion to mesenchymal transition
@@ -1674,7 +1670,6 @@ http://purl.obolibrary.org/obo/GO_1904254	regulation of iron ion transmembrane t
 http://purl.obolibrary.org/obo/GO_0034756	regulation of iron ion transport	http://purl.obolibrary.org/obo/GO_0006826	iron ion transport
 http://purl.obolibrary.org/obo/GO_1903329	regulation of iron-sulfur cluster assembly	http://purl.obolibrary.org/obo/GO_0016226	iron-sulfur cluster assembly
 http://purl.obolibrary.org/obo/GO_1900506	regulation of iron-sulfur-molybdenum cofactor assembly	http://purl.obolibrary.org/obo/GO_0044593	iron-sulfur-molybdenum cofactor assembly
-http://purl.obolibrary.org/obo/GO_1905015	regulation of isoleucine-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004822	isoleucine-tRNA ligase activity
 http://purl.obolibrary.org/obo/GO_0010911	regulation of isomerase activity	http://purl.obolibrary.org/obo/GO_0016853	isomerase activity
 http://purl.obolibrary.org/obo/GO_0010322	regulation of isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	http://purl.obolibrary.org/obo/GO_0019288	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway
 http://purl.obolibrary.org/obo/GO_2001210	regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway	http://purl.obolibrary.org/obo/GO_0019287	isopentenyl diphosphate biosynthetic process, mevalonate pathway
@@ -1736,7 +1731,6 @@ http://purl.obolibrary.org/obo/GO_1902746	regulation of lens fiber cell differen
 http://purl.obolibrary.org/obo/GO_2001276	regulation of leucine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009098	leucine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0060357	regulation of leucine import	http://purl.obolibrary.org/obo/GO_1903801	L-leucine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905532	regulation of leucine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098713	leucine import across plasma membrane
-http://purl.obolibrary.org/obo/GO_1903633	regulation of leucine-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004823	leucine-tRNA ligase activity
 http://purl.obolibrary.org/obo/GO_0048775	regulation of leucophore differentiation	http://purl.obolibrary.org/obo/GO_0048772	leucophore differentiation
 http://purl.obolibrary.org/obo/GO_0002694	regulation of leukocyte activation	http://purl.obolibrary.org/obo/GO_0045321	leukocyte activation
 http://purl.obolibrary.org/obo/GO_1904997	regulation of leukocyte adhesion to arterial endothelial cell	http://purl.obolibrary.org/obo/GO_0061757	leukocyte adhesion to arterial endothelial cell
@@ -1979,7 +1973,6 @@ http://purl.obolibrary.org/obo/GO_1900351	regulation of methanofuran biosyntheti
 http://purl.obolibrary.org/obo/GO_1900354	regulation of methanofuran metabolic process	http://purl.obolibrary.org/obo/GO_2001119	methanofuran metabolic process
 http://purl.obolibrary.org/obo/GO_1900962	regulation of methanophenazine biosynthetic process	http://purl.obolibrary.org/obo/GO_1900630	methanophenazine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900965	regulation of methanophenazine metabolic process	http://purl.obolibrary.org/obo/GO_1900629	methanophenazine metabolic process
-http://purl.obolibrary.org/obo/GO_1905018	regulation of methionine-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004825	methionine-tRNA ligase activity
 http://purl.obolibrary.org/obo/GO_1902322	regulation of methyl-branched fatty acid biosynthetic process	http://purl.obolibrary.org/obo/GO_1902321	methyl-branched fatty acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903868	regulation of methylenetetrahydrofolate reductase (NAD(P)H) activity	http://purl.obolibrary.org/obo/GO_0004489	methylenetetrahydrofolate reductase (NAD(P)H) activity
 http://purl.obolibrary.org/obo/GO_0070802	regulation of metula development	http://purl.obolibrary.org/obo/GO_0070789	metula development
@@ -3097,7 +3090,6 @@ http://purl.obolibrary.org/obo/GO_0140920	regulation of thermomorphogenesis	http
 http://purl.obolibrary.org/obo/GO_0070623	regulation of thiamine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009228	thiamine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0070616	regulation of thiamine diphosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_0009229	thiamine diphosphate biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903123	regulation of thioredoxin peroxidase activity	http://purl.obolibrary.org/obo/GO_0008379	thioredoxin peroxidase activity
-http://purl.obolibrary.org/obo/GO_1905021	regulation of threonine-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004829	threonine-tRNA ligase activity
 http://purl.obolibrary.org/obo/GO_0070494	regulation of thrombin-activated receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0070493	thrombin-activated receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0010548	regulation of thylakoid membrane disassembly	http://purl.obolibrary.org/obo/GO_0010547	thylakoid membrane disassembly
 http://purl.obolibrary.org/obo/GO_0035365	regulation of thymine transport	http://purl.obolibrary.org/obo/GO_0035364	thymine transport

@@ -70,7 +70,6 @@ http://purl.obolibrary.org/obo/GO_1905920	positive regulation of CoA-transferase
 http://purl.obolibrary.org/obo/GO_1900759	positive regulation of D-amino-acid oxidase activity	http://purl.obolibrary.org/obo/GO_0003884	D-amino-acid oxidase activity
 http://purl.obolibrary.org/obo/GO_0140217	positive regulation of D-aspartate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0070779	D-aspartate import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1900023	positive regulation of D-erythro-sphingosine kinase activity	http://purl.obolibrary.org/obo/GO_0017050	D-erythro-sphingosine kinase activity
-http://purl.obolibrary.org/obo/GO_1902546	positive regulation of DNA N-glycosylase activity	http://purl.obolibrary.org/obo/GO_0019104	DNA N-glycosylase activity
 http://purl.obolibrary.org/obo/GO_1904525	positive regulation of DNA amplification	http://purl.obolibrary.org/obo/GO_0006277	DNA amplification
 http://purl.obolibrary.org/obo/GO_0043388	positive regulation of DNA binding	http://purl.obolibrary.org/obo/GO_0003677	DNA binding
 http://purl.obolibrary.org/obo/GO_2000573	positive regulation of DNA biosynthetic process	http://purl.obolibrary.org/obo/GO_0071897	DNA biosynthetic process
@@ -96,7 +95,6 @@ http://purl.obolibrary.org/obo/GO_1902597	positive regulation of DNA replication
 http://purl.obolibrary.org/obo/GO_0060383	positive regulation of DNA strand elongation	http://purl.obolibrary.org/obo/GO_0022616	DNA strand elongation
 http://purl.obolibrary.org/obo/GO_0106253	positive regulation of DNA strand resection involved in replication fork processing	http://purl.obolibrary.org/obo/GO_0110025	DNA strand resection involved in replication fork processing
 http://purl.obolibrary.org/obo/GO_2000373	positive regulation of DNA topoisomerase (ATP-hydrolyzing) activity	http://purl.obolibrary.org/obo/GO_0003918	DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity
-http://purl.obolibrary.org/obo/GO_1901972	positive regulation of DNA-5-methylcytosine glycosylase activity	http://purl.obolibrary.org/obo/GO_1990053	DNA-5-methylcytosine glycosylase activity
 http://purl.obolibrary.org/obo/GO_0051091	positive regulation of DNA-binding transcription factor activity	http://purl.obolibrary.org/obo/GO_0003700	DNA-binding transcription factor activity
 http://purl.obolibrary.org/obo/GO_1900264	positive regulation of DNA-directed DNA polymerase activity	http://purl.obolibrary.org/obo/GO_0003887	DNA-directed DNA polymerase activity
 http://purl.obolibrary.org/obo/GO_2000105	positive regulation of DNA-templated DNA replication	http://purl.obolibrary.org/obo/GO_0006261	DNA-templated DNA replication
@@ -348,7 +346,6 @@ http://purl.obolibrary.org/obo/GO_2000284	positive regulation of amino acid bios
 http://purl.obolibrary.org/obo/GO_0045764	positive regulation of amino acid metabolic process	http://purl.obolibrary.org/obo/GO_0006520	amino acid metabolic process
 http://purl.obolibrary.org/obo/GO_0051957	positive regulation of amino acid transport	http://purl.obolibrary.org/obo/GO_0006865	amino acid transport
 http://purl.obolibrary.org/obo/GO_0051943	positive regulation of amino acid uptake involved in synaptic transmission	http://purl.obolibrary.org/obo/GO_0051933	amino acid neurotransmitter reuptake
-http://purl.obolibrary.org/obo/GO_1903632	positive regulation of aminoacyl-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004812	aminoacyl-tRNA ligase activity
 http://purl.obolibrary.org/obo/GO_2001250	positive regulation of ammonia assimilation cycle	http://purl.obolibrary.org/obo/GO_0019676	ammonia assimilation cycle
 http://purl.obolibrary.org/obo/GO_2000799	positive regulation of amniotic stem cell differentiation	http://purl.obolibrary.org/obo/GO_0097086	amniotic stem cell differentiation
 http://purl.obolibrary.org/obo/GO_1905418	positive regulation of amoeboid sperm motility	http://purl.obolibrary.org/obo/GO_0097723	amoeboid sperm motility
@@ -962,7 +959,6 @@ http://purl.obolibrary.org/obo/GO_1900836	positive regulation of emericellin bio
 http://purl.obolibrary.org/obo/GO_1900666	positive regulation of emodin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900575	emodin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0070175	positive regulation of enamel mineralization	http://purl.obolibrary.org/obo/GO_0070166	enamel mineralization
 http://purl.obolibrary.org/obo/GO_0075228	positive regulation of encysted zoospore germination	http://purl.obolibrary.org/obo/GO_0075226	encysted zoospore germination
-http://purl.obolibrary.org/obo/GO_0051423	positive regulation of endo-1,4-beta-xylanase activity	http://purl.obolibrary.org/obo/GO_0031176	endo-1,4-beta-xylanase activity
 http://purl.obolibrary.org/obo/GO_0120075	positive regulation of endocardial cushion cell differentiation	http://purl.obolibrary.org/obo/GO_0061443	endocardial cushion cell differentiation
 http://purl.obolibrary.org/obo/GO_0140051	positive regulation of endocardial cushion to mesenchymal transition	http://purl.obolibrary.org/obo/GO_0090500	endocardial cushion to mesenchymal transition
 http://purl.obolibrary.org/obo/GO_2000802	positive regulation of endocardial cushion to mesenchymal transition involved in heart valve formation	http://purl.obolibrary.org/obo/GO_0003199	endocardial cushion to mesenchymal transition involved in heart valve formation
@@ -1530,7 +1526,6 @@ http://purl.obolibrary.org/obo/GO_2001111	positive regulation of lens epithelial
 http://purl.obolibrary.org/obo/GO_1902748	positive regulation of lens fiber cell differentiation	http://purl.obolibrary.org/obo/GO_0070306	lens fiber cell differentiation
 http://purl.obolibrary.org/obo/GO_2001278	positive regulation of leucine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009098	leucine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905534	positive regulation of leucine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098713	leucine import across plasma membrane
-http://purl.obolibrary.org/obo/GO_1903635	positive regulation of leucine-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004823	leucine-tRNA ligase activity
 http://purl.obolibrary.org/obo/GO_0048777	positive regulation of leucophore differentiation	http://purl.obolibrary.org/obo/GO_0048772	leucophore differentiation
 http://purl.obolibrary.org/obo/GO_0002696	positive regulation of leukocyte activation	http://purl.obolibrary.org/obo/GO_0045321	leukocyte activation
 http://purl.obolibrary.org/obo/GO_1904999	positive regulation of leukocyte adhesion to arterial endothelial cell	http://purl.obolibrary.org/obo/GO_0061757	leukocyte adhesion to arterial endothelial cell

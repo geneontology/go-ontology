@@ -68,7 +68,6 @@ http://purl.obolibrary.org/obo/GO_1904218	negative regulation of CDP-diacylglyce
 http://purl.obolibrary.org/obo/GO_1905919	negative regulation of CoA-transferase activity	http://purl.obolibrary.org/obo/GO_0008410	CoA-transferase activity
 http://purl.obolibrary.org/obo/GO_1900758	negative regulation of D-amino-acid oxidase activity	http://purl.obolibrary.org/obo/GO_0003884	D-amino-acid oxidase activity
 http://purl.obolibrary.org/obo/GO_0140216	negative regulation of D-aspartate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0070779	D-aspartate import across plasma membrane
-http://purl.obolibrary.org/obo/GO_1902545	negative regulation of DNA N-glycosylase activity	http://purl.obolibrary.org/obo/GO_0019104	DNA N-glycosylase activity
 http://purl.obolibrary.org/obo/GO_1904524	negative regulation of DNA amplification	http://purl.obolibrary.org/obo/GO_0006277	DNA amplification
 http://purl.obolibrary.org/obo/GO_0043392	negative regulation of DNA binding	http://purl.obolibrary.org/obo/GO_0003677	DNA binding
 http://purl.obolibrary.org/obo/GO_2000279	negative regulation of DNA biosynthetic process	http://purl.obolibrary.org/obo/GO_0071897	DNA biosynthetic process
@@ -349,7 +348,6 @@ http://purl.obolibrary.org/obo/GO_0051953	negative regulation of amine transport
 http://purl.obolibrary.org/obo/GO_2000283	negative regulation of amino acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0008652	amino acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0051956	negative regulation of amino acid transport	http://purl.obolibrary.org/obo/GO_0006865	amino acid transport
 http://purl.obolibrary.org/obo/GO_0051942	negative regulation of amino acid uptake involved in synaptic transmission	http://purl.obolibrary.org/obo/GO_0051933	amino acid neurotransmitter reuptake
-http://purl.obolibrary.org/obo/GO_1903631	negative regulation of aminoacyl-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004812	aminoacyl-tRNA ligase activity
 http://purl.obolibrary.org/obo/GO_2001249	negative regulation of ammonia assimilation cycle	http://purl.obolibrary.org/obo/GO_0019676	ammonia assimilation cycle
 http://purl.obolibrary.org/obo/GO_2000798	negative regulation of amniotic stem cell differentiation	http://purl.obolibrary.org/obo/GO_0097086	amniotic stem cell differentiation
 http://purl.obolibrary.org/obo/GO_1905417	negative regulation of amoeboid sperm motility	http://purl.obolibrary.org/obo/GO_0097723	amoeboid sperm motility
@@ -892,7 +890,6 @@ http://purl.obolibrary.org/obo/GO_0051494	negative regulation of cytoskeleton or
 http://purl.obolibrary.org/obo/GO_0043318	negative regulation of cytotoxic T cell degranulation	http://purl.obolibrary.org/obo/GO_0043316	cytotoxic T cell degranulation
 http://purl.obolibrary.org/obo/GO_0045584	negative regulation of cytotoxic T cell differentiation	http://purl.obolibrary.org/obo/GO_0045065	cytotoxic T cell differentiation
 http://purl.obolibrary.org/obo/GO_1903529	negative regulation of dCDP biosynthetic process	http://purl.obolibrary.org/obo/GO_0006240	dCDP biosynthetic process
-http://purl.obolibrary.org/obo/GO_1903628	negative regulation of dUTP diphosphatase activity	http://purl.obolibrary.org/obo/GO_0004170	dUTP diphosphatase activity
 http://purl.obolibrary.org/obo/GO_1905910	negative regulation of dauer entry	http://purl.obolibrary.org/obo/GO_0043053	dauer entry
 http://purl.obolibrary.org/obo/GO_0061067	negative regulation of dauer larval development	http://purl.obolibrary.org/obo/GO_0040024	dauer larval development
 http://purl.obolibrary.org/obo/GO_0150066	negative regulation of deacetylase activity	http://purl.obolibrary.org/obo/GO_0019213	deacetylase activity
@@ -984,7 +981,6 @@ http://purl.obolibrary.org/obo/GO_1900835	negative regulation of emericellin bio
 http://purl.obolibrary.org/obo/GO_1900665	negative regulation of emodin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900575	emodin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0070174	negative regulation of enamel mineralization	http://purl.obolibrary.org/obo/GO_0070166	enamel mineralization
 http://purl.obolibrary.org/obo/GO_0075229	negative regulation of encysted zoospore germination	http://purl.obolibrary.org/obo/GO_0075226	encysted zoospore germination
-http://purl.obolibrary.org/obo/GO_0051422	negative regulation of endo-1,4-beta-xylanase activity	http://purl.obolibrary.org/obo/GO_0031176	endo-1,4-beta-xylanase activity
 http://purl.obolibrary.org/obo/GO_0120076	negative regulation of endocardial cushion cell differentiation	http://purl.obolibrary.org/obo/GO_0061443	endocardial cushion cell differentiation
 http://purl.obolibrary.org/obo/GO_0140050	negative regulation of endocardial cushion to mesenchymal transition	http://purl.obolibrary.org/obo/GO_0090500	endocardial cushion to mesenchymal transition
 http://purl.obolibrary.org/obo/GO_2000801	negative regulation of endocardial cushion to mesenchymal transition involved in heart valve formation	http://purl.obolibrary.org/obo/GO_0003199	endocardial cushion to mesenchymal transition involved in heart valve formation
@@ -1500,7 +1496,6 @@ http://purl.obolibrary.org/obo/GO_1904255	negative regulation of iron ion transm
 http://purl.obolibrary.org/obo/GO_0034757	negative regulation of iron ion transport	http://purl.obolibrary.org/obo/GO_0006826	iron ion transport
 http://purl.obolibrary.org/obo/GO_1903330	negative regulation of iron-sulfur cluster assembly	http://purl.obolibrary.org/obo/GO_0016226	iron-sulfur cluster assembly
 http://purl.obolibrary.org/obo/GO_1900507	negative regulation of iron-sulfur-molybdenum cofactor assembly	http://purl.obolibrary.org/obo/GO_0044593	iron-sulfur-molybdenum cofactor assembly
-http://purl.obolibrary.org/obo/GO_1905016	negative regulation of isoleucine-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004822	isoleucine-tRNA ligase activity
 http://purl.obolibrary.org/obo/GO_0010323	negative regulation of isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	http://purl.obolibrary.org/obo/GO_0019288	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway
 http://purl.obolibrary.org/obo/GO_2001211	negative regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway	http://purl.obolibrary.org/obo/GO_0019287	isopentenyl diphosphate biosynthetic process, mevalonate pathway
 http://purl.obolibrary.org/obo/GO_1900948	negative regulation of isoprene biosynthetic process	http://purl.obolibrary.org/obo/GO_0043612	isoprene biosynthetic process
@@ -1770,7 +1765,6 @@ http://purl.obolibrary.org/obo/GO_1900352	negative regulation of methanofuran bi
 http://purl.obolibrary.org/obo/GO_1900355	negative regulation of methanofuran metabolic process	http://purl.obolibrary.org/obo/GO_2001119	methanofuran metabolic process
 http://purl.obolibrary.org/obo/GO_1900963	negative regulation of methanophenazine biosynthetic process	http://purl.obolibrary.org/obo/GO_1900630	methanophenazine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900966	negative regulation of methanophenazine metabolic process	http://purl.obolibrary.org/obo/GO_1900629	methanophenazine metabolic process
-http://purl.obolibrary.org/obo/GO_1905019	negative regulation of methionine-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004825	methionine-tRNA ligase activity
 http://purl.obolibrary.org/obo/GO_1902323	negative regulation of methyl-branched fatty acid biosynthetic process	http://purl.obolibrary.org/obo/GO_1902321	methyl-branched fatty acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903869	negative regulation of methylenetetrahydrofolate reductase (NAD(P)H) activity	http://purl.obolibrary.org/obo/GO_0004489	methylenetetrahydrofolate reductase (NAD(P)H) activity
 http://purl.obolibrary.org/obo/GO_0070803	negative regulation of metula development	http://purl.obolibrary.org/obo/GO_0070789	metula development
@@ -2718,7 +2712,6 @@ http://purl.obolibrary.org/obo/GO_0140921	negative regulation of thermomorphogen
 http://purl.obolibrary.org/obo/GO_0070624	negative regulation of thiamine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009228	thiamine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0070617	negative regulation of thiamine diphosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_0009229	thiamine diphosphate biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903124	negative regulation of thioredoxin peroxidase activity	http://purl.obolibrary.org/obo/GO_0008379	thioredoxin peroxidase activity
-http://purl.obolibrary.org/obo/GO_1905022	negative regulation of threonine-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004829	threonine-tRNA ligase activity
 http://purl.obolibrary.org/obo/GO_0070495	negative regulation of thrombin-activated receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0070493	thrombin-activated receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0035366	negative regulation of thymine transport	http://purl.obolibrary.org/obo/GO_0035364	thymine transport
 http://purl.obolibrary.org/obo/GO_2000399	negative regulation of thymocyte aggregation	http://purl.obolibrary.org/obo/GO_0071594	thymocyte aggregation
