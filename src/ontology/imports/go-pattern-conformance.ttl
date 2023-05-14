@@ -7,7 +7,7 @@
 @base <http://purl.obolibrary.org/obo/go/imports/go-pattern-conformance.ttl> .
 
 <http://purl.obolibrary.org/obo/go/imports/go-pattern-conformance.ttl> rdf:type owl:Ontology ;
-                                                                        owl:versionIRI <http://purl.obolibrary.org/obo/go/releases/2023-05-10/imports/go-pattern-conformance.ttl> .
+                                                                        owl:versionIRI <http://purl.obolibrary.org/obo/go/releases/2023-05-14/imports/go-pattern-conformance.ttl> .
 
 #################################################################
 #    Annotation properties
@@ -16979,9 +16979,6 @@
 <http://purl.obolibrary.org/obo/GO_0035009> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0035014> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulator_activity.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0035020> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
@@ -20097,9 +20094,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0043551> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0043552> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0043553> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
