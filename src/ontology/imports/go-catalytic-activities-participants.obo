@@ -2222,6 +2222,14 @@ relationship: RO:0000057 CHEBI:78480
 relationship: RO:0000057 CHEBI:78481
 
 [Term]
+id: GO:0004318
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:57540
+relationship: RO:0000057 CHEBI:57945
+relationship: RO:0000057 CHEBI:78784
+relationship: RO:0000057 CHEBI:78785
+
+[Term]
 id: GO:0004320
 relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:15378
@@ -7439,6 +7447,15 @@ relationship: RO:0000057 CHEBI:58553
 id: GO:0009905
 relationship: RO:0000057 CHEBI:58553
 relationship: RO:0000057 CHEBI:58756
+
+[Term]
+id: GO:0009922
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:16526
+relationship: RO:0000057 CHEBI:57287
+relationship: RO:0000057 CHEBI:57384
+relationship: RO:0000057 CHEBI:90725
+relationship: RO:0000057 CHEBI:90736
 
 [Term]
 id: GO:0009924
@@ -28788,6 +28805,13 @@ relationship: RO:0000057 CHEBI:57287
 relationship: RO:0000057 CHEBI:57384
 
 [Term]
+id: GO:0090447
+relationship: RO:0000057 CHEBI:57287
+relationship: RO:0000057 CHEBI:57597
+relationship: RO:0000057 CHEBI:58342
+relationship: RO:0000057 CHEBI:64982
+
+[Term]
 id: GO:0090486
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:57856
@@ -30284,13 +30308,6 @@ relationship: RO:0000057 CHEBI:33019
 relationship: RO:0000057 CHEBI:68625
 
 [Term]
-id: GO:0102419
-relationship: RO:0000057 CHEBI:57287
-relationship: RO:0000057 CHEBI:57597
-relationship: RO:0000057 CHEBI:58342
-relationship: RO:0000057 CHEBI:64982
-
-[Term]
 id: GO:0102443
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:35179
@@ -30900,15 +30917,6 @@ relationship: RO:0000057 CHEBI:140574
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:58223
 relationship: RO:0000057 CHEBI:58885
-
-[Term]
-id: GO:0102756
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:16526
-relationship: RO:0000057 CHEBI:57287
-relationship: RO:0000057 CHEBI:57384
-relationship: RO:0000057 CHEBI:90725
-relationship: RO:0000057 CHEBI:90736
 
 [Term]
 id: GO:0102757
