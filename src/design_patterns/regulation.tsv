@@ -2374,7 +2374,7 @@ http://purl.obolibrary.org/obo/GO_0010899	regulation of phosphatidylcholine cata
 http://purl.obolibrary.org/obo/GO_0150172	regulation of phosphatidylcholine metabolic process	http://purl.obolibrary.org/obo/GO_0046470	phosphatidylcholine metabolic process
 http://purl.obolibrary.org/obo/GO_0150175	regulation of phosphatidylethanolamine metabolic process	http://purl.obolibrary.org/obo/GO_0046337	phosphatidylethanolamine metabolic process
 http://purl.obolibrary.org/obo/GO_1901351	regulation of phosphatidylglycerol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006655	phosphatidylglycerol biosynthetic process
-http://purl.obolibrary.org/obo/GO_0043551	regulation of phosphatidylinositol 3-kinase activity	http://purl.obolibrary.org/obo/GO_0035004	phosphatidylinositol 3-kinase activity
+http://purl.obolibrary.org/obo/GO_0043551	regulation of phosphatidylinositol 3-kinase activity	http://purl.obolibrary.org/obo/GO_0016303	1-phosphatidylinositol-3-kinase activity
 http://purl.obolibrary.org/obo/GO_0014066	regulation of phosphatidylinositol 3-kinase signaling	http://purl.obolibrary.org/obo/GO_0014065	phosphatidylinositol 3-kinase signaling
 http://purl.obolibrary.org/obo/GO_0010511	regulation of phosphatidylinositol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006661	phosphatidylinositol biosynthetic process
 http://purl.obolibrary.org/obo/GO_0060304	regulation of phosphatidylinositol dephosphorylation	http://purl.obolibrary.org/obo/GO_0046856	phosphatidylinositol dephosphorylation
