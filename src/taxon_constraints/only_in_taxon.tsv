@@ -885,5 +885,5 @@ GO:0019270  aerobactin biosynthetic process 	NCBITaxon:Union_0000004	Prokaryota
 GO:0001505  regulation of neurotransmitter levels   NCBITaxon:6072	Eumetazoa   
 GO:0005326  neurotransmitter transmembrane transporter activity NCBITaxon:6072	Eumetazoa   
 GO:0010098  suspensor development   NCBITaxon:6072	Eumetazoa   
-GO:0001775  cell activation NCBITaxon:6072	Eumetazoa   
-GO:0036051  protein localization to trailing edge   NCBITaxon:6072	Eumetazoa   
+GO:0001775  cell activation NCBITaxon:33208 Metazoa 	   
+GO:0036051  protein localization to trailing edge   NCBITaxon:33208	Metazoa    
