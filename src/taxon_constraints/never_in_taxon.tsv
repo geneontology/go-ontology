@@ -580,8 +580,8 @@ GO:0020022	acidocalcisome	NCBITaxon:4890	Ascomycota
 GO:0042246 	tissue regeneration	NCBITaxon:4751	Fungi	
 GO:0060250 	germ-line stem-cell niche homeostasis	NCBITaxon:4751	Fungi	
 GO:0035658	Mon1-Ccz1 complex	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0048863  stem cell differentiation   NCBITaxon:4751  Fungi   
-GO:0003365  establishment of cell polarity involved in ameboidal cell migration NCBITaxon:4751  Fungi   
-GO:0090398  cellular senescence NCBITaxon:4751  Fungi   
-GO:0000365  mRNA trans splicing, via spliceosome    NCBITaxon:4751  Fungi   
-GO:0016477  cell migration  NCBITaxon:4890	Ascomycota  
+GO:0048863	stem cell differentiation	NCBITaxon:4751	Fungi	
+GO:0003365	establishment of cell polarity involved in ameboidal cell migration	NCBITaxon:4751	Fungi	
+GO:0090398	cellular senescence	NCBITaxon:4751	Fungi	
+GO:0000365	mRNA trans splicing, via spliceosome	NCBITaxon:4751	Fungi	
+GO:0016477	cell migration	NCBITaxon:4890	Ascomycota	
