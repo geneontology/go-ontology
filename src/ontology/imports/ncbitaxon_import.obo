@@ -3497,6 +3497,7 @@ synonym: "Dictyostelida" RELATED []
 synonym: "Dictyostelids" RELATED []
 synonym: "Dictyosteliida" RELATED []
 is_a: NCBITaxon:142796 ! Eumycetozoa
+disjoint_from: NCBITaxon:33680 ! Myxogastria
 relationship: RO:0002162 NCBITaxon:33083 ! in taxon Dictyostelia
 
 [Term]
@@ -3637,6 +3638,17 @@ synonym: "heterokonts" EXACT []
 synonym: "Straminipila" RELATED []
 is_a: NCBITaxon:2698737 ! Sar
 relationship: RO:0002162 NCBITaxon:33634 ! in taxon Stramenopiles
+
+[Term]
+id: NCBITaxon:33680
+name: Myxogastria
+synonym: "myxomycete" RELATED []
+synonym: "Myxomycetes" RELATED []
+synonym: "Myxomycota" RELATED []
+synonym: "plasmodial slime molds" EXACT []
+synonym: "plasmodial slime molds" RELATED []
+is_a: NCBITaxon:142796 ! Eumycetozoa
+relationship: RO:0002162 NCBITaxon:33680 ! in taxon Myxogastria
 
 [Term]
 id: NCBITaxon:33682
