@@ -878,9 +878,6 @@ GO:0034587	piRNA processing	NCBITaxon:6072	Eumetazoa
 GO:0099536	synaptic signaling	NCBITaxon:33208	Metazoa	
 GO:0030594	neurotransmitter receptor activity	NCBITaxon:33208	Metazoa	
 GO:0141035	CTP-dependent diacylglycerol kinase activity	NCBITaxon:4751	Fungi	
-GO:0031154	culmination involved in sorocarp development	NCBITaxon:33680	Myxogastria	
-GO:0099138	altruistic chimeric sorocarp development	NCBITaxon:33680	Myxogastria	
-GO:0031152	aggregation involved in sorocarp development	NCBITaxon:33680	Myxogastria	
 GO:0019270	aerobactin biosynthetic process	NCBITaxon:Union_0000004	Prokaryota	
 GO:0001505	regulation of neurotransmitter levels	NCBITaxon:6072	Eumetazoa	
 GO:0005326	neurotransmitter transmembrane transporter activity	NCBITaxon:6072	Eumetazoa	
