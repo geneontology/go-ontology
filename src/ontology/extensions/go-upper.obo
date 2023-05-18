@@ -254,3 +254,9 @@ id: NCBITaxon:1
 name: root
 comment: The root term of the NCBI taxonomy tree.
 
+[Term]
+id: SO:0001683
+name: sequence_motif
+is_a: SO:0000110
+
+
