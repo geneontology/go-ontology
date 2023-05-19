@@ -143,7 +143,6 @@ GO:0030054	cell junction	NCBITaxon:4751	Fungi
 GO:0030141	secretory granule	NCBITaxon:4890	Ascomycota	
 GO:0030436	asexual sporulation	NCBITaxon:33083	Dictyostelids	
 GO:0030492	hemoglobin binding	NCBITaxon:4751	Fungi	
-GO:0030579	ubiquitin-dependent SMAD protein catabolic process	NCBITaxon:4751	Fungi	
 GO:0030634	carbon fixation by acetyl-CoA pathway	NCBITaxon:2759	Eukaryota	
 GO:0030881	beta-2-microglobulin binding	NCBITaxon:4751	Fungi	
 GO:0030984	kininogen binding	NCBITaxon:4751	Fungi	
