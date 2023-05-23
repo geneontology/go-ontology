@@ -1189,7 +1189,7 @@ http://purl.obolibrary.org/obo/GO_1903640	negative regulation of gastrin-induced
 http://purl.obolibrary.org/obo/GO_1904305	negative regulation of gastro-intestinal system smooth muscle contraction	http://purl.obolibrary.org/obo/GO_0014831	gastro-intestinal system smooth muscle contraction
 http://purl.obolibrary.org/obo/GO_2000542	negative regulation of gastrulation	http://purl.obolibrary.org/obo/GO_0007369	gastrulation
 http://purl.obolibrary.org/obo/GO_0010629	negative regulation of gene expression	http://purl.obolibrary.org/obo/GO_0010467	gene expression
-http://purl.obolibrary.org/obo/GO_0060967	negative regulation of gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0031047	RNA-mediated gene silencing
+http://purl.obolibrary.org/obo/GO_0060967	negative regulation of gene silencing by regulatory ncRNA	http://purl.obolibrary.org/obo/GO_0031047	regulatory ncRNA-mediated gene silencing
 http://purl.obolibrary.org/obo/GO_1900687	negative regulation of gerfelin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900578	gerfelin biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905937	negative regulation of germ cell proliferation	http://purl.obolibrary.org/obo/GO_0036093	germ cell proliferation
 http://purl.obolibrary.org/obo/GO_0075012	negative regulation of germ tube formation	http://purl.obolibrary.org/obo/GO_0075009	germ tube formation
@@ -2198,7 +2198,7 @@ http://purl.obolibrary.org/obo/GO_0050928	negative regulation of positive chemot
 http://purl.obolibrary.org/obo/GO_1902233	negative regulation of positive thymic T cell selection	http://purl.obolibrary.org/obo/GO_0045059	positive thymic T cell selection
 http://purl.obolibrary.org/obo/GO_0048581	negative regulation of post-embryonic development	http://purl.obolibrary.org/obo/GO_0009791	post-embryonic development
 http://purl.obolibrary.org/obo/GO_0060149	negative regulation of post-transcriptional gene silencing	http://purl.obolibrary.org/obo/GO_0016441	post-transcriptional gene silencing
-http://purl.obolibrary.org/obo/GO_1900369	negative regulation of post-transcriptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	ncRNA-mediated post-transcriptional gene silencing
+http://purl.obolibrary.org/obo/GO_1900369	negative regulation of post-transcriptional gene silencing by regulatory ncRNA	http://purl.obolibrary.org/obo/GO_0035194	regulatory ncRNA-mediated post-transcriptional gene silencing
 http://purl.obolibrary.org/obo/GO_1901874	negative regulation of post-translational protein modification	http://purl.obolibrary.org/obo/GO_0043687	post-translational protein modification
 http://purl.obolibrary.org/obo/GO_0120236	negative regulation of post-translational protein targeting to membrane, translocation	http://purl.obolibrary.org/obo/GO_0031204	post-translational protein targeting to membrane, translocation
 http://purl.obolibrary.org/obo/GO_0160037	negative regulation of postsynaptic density assembly	http://purl.obolibrary.org/obo/GO_0097107	postsynaptic density assembly
@@ -2391,6 +2391,7 @@ http://purl.obolibrary.org/obo/GO_0090229	negative regulation of red or far-red 
 http://purl.obolibrary.org/obo/GO_1903306	negative regulation of regulated secretory pathway	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
 http://purl.obolibrary.org/obo/GO_1904198	negative regulation of regulation of vascular associated smooth muscle cell membrane depolarization	http://purl.obolibrary.org/obo/GO_1990736	regulation of vascular associated smooth muscle cell membrane depolarization
 http://purl.obolibrary.org/obo/GO_0045590	negative regulation of regulatory T cell differentiation	http://purl.obolibrary.org/obo/GO_0045066	regulatory T cell differentiation
+http://purl.obolibrary.org/obo/GO_0060906	negative regulation of regulatory ncRNA-mediated heterochromatin formation	http://purl.obolibrary.org/obo/GO_0031048	regulatory ncRNA-mediated heterochromatin formation
 http://purl.obolibrary.org/obo/GO_1901898	negative regulation of relaxation of cardiac muscle	http://purl.obolibrary.org/obo/GO_0055119	relaxation of cardiac muscle
 http://purl.obolibrary.org/obo/GO_1901078	negative regulation of relaxation of muscle	http://purl.obolibrary.org/obo/GO_0090075	relaxation of muscle
 http://purl.obolibrary.org/obo/GO_1901081	negative regulation of relaxation of smooth muscle	http://purl.obolibrary.org/obo/GO_0044557	relaxation of smooth muscle
@@ -2543,7 +2544,6 @@ http://purl.obolibrary.org/obo/GO_0051058	negative regulation of small GTPase me
 http://purl.obolibrary.org/obo/GO_0120059	negative regulation of small intestinal transit	http://purl.obolibrary.org/obo/GO_0120055	small intestinal transit
 http://purl.obolibrary.org/obo/GO_1904348	negative regulation of small intestine smooth muscle contraction	http://purl.obolibrary.org/obo/GO_1990770	small intestine smooth muscle contraction
 http://purl.obolibrary.org/obo/GO_0062014	negative regulation of small molecule metabolic process	http://purl.obolibrary.org/obo/GO_0044281	small molecule metabolic process
-http://purl.obolibrary.org/obo/GO_0060906	negative regulation of small non-coding RNA-mediated heterochromatin formation	http://purl.obolibrary.org/obo/GO_0031048	small ncRNA-mediated heterochromatin formation
 http://purl.obolibrary.org/obo/GO_0034392	negative regulation of smooth muscle cell apoptotic process	http://purl.obolibrary.org/obo/GO_0034390	smooth muscle cell apoptotic process
 http://purl.obolibrary.org/obo/GO_0071672	negative regulation of smooth muscle cell chemotaxis	http://purl.obolibrary.org/obo/GO_0071670	smooth muscle cell chemotaxis
 http://purl.obolibrary.org/obo/GO_0051151	negative regulation of smooth muscle cell differentiation	http://purl.obolibrary.org/obo/GO_0051145	smooth muscle cell differentiation
@@ -2761,7 +2761,6 @@ http://purl.obolibrary.org/obo/GO_0016480	negative regulation of transcription b
 http://purl.obolibrary.org/obo/GO_1904280	negative regulation of transcription by RNA polymerase V	http://purl.obolibrary.org/obo/GO_0001060	transcription by RNA polymerase V
 http://purl.obolibrary.org/obo/GO_2001208	negative regulation of transcription elongation by RNA polymerase I	http://purl.obolibrary.org/obo/GO_0006362	transcription elongation by RNA polymerase I
 http://purl.obolibrary.org/obo/GO_0034244	negative regulation of transcription elongation by RNA polymerase II	http://purl.obolibrary.org/obo/GO_0006368	transcription elongation by RNA polymerase II
-http://purl.obolibrary.org/obo/GO_1901484	negative regulation of transcription factor catabolic process	http://purl.obolibrary.org/obo/GO_0036369	transcription factor catabolic process
 http://purl.obolibrary.org/obo/GO_0060633	negative regulation of transcription initiation by RNA polymerase II	http://purl.obolibrary.org/obo/GO_0006367	transcription initiation at RNA polymerase II promoter
 http://purl.obolibrary.org/obo/GO_1901837	negative regulation of transcription of nucleolar large rRNA by RNA polymerase I	http://purl.obolibrary.org/obo/GO_0042790	nucleolar large rRNA transcription by RNA polymerase I
 http://purl.obolibrary.org/obo/GO_2000678	negative regulation of transcription regulatory region DNA binding	http://purl.obolibrary.org/obo/GO_0000976	transcription cis-regulatory region binding
