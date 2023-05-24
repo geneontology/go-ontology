@@ -6,8 +6,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://purl.obolibrary.org/obo/go/imports/go-pattern-conformance.ttl> .
 
-<http://purl.obolibrary.org/obo/go/imports/go-pattern-conformance.ttl> rdf:type owl:Ontology ;
-                                                                        owl:versionIRI <http://purl.obolibrary.org/obo/go/releases/2023-05-23/imports/go-pattern-conformance.ttl> .
+<http://purl.obolibrary.org/obo/go/imports/go-pattern-conformance.ttl> rdf:type owl:Ontology .
 
 #################################################################
 #    Annotation properties
