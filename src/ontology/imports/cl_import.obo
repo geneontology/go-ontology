@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-03-23/imports/cl_import.owl
+data-version: go/releases/2023-05-24/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -56,6 +56,7 @@ is_a: CL:0000333 ! migratory neural crest cell
 [Term]
 id: CL:0000014
 name: germ line stem cell
+def: "A stem cell that is the precursor of gametes." []
 synonym: "germline stem cell" EXACT []
 is_a: CL:0000034 ! stem cell
 is_a: CL:0000039 ! germ line cell
@@ -72,6 +73,7 @@ relationship: RO:0002216 GO:0007283
 [Term]
 id: CL:0000016
 name: male germ line stem cell
+def: "A stem cell that is the precursor of male gametes." []
 is_a: CL:0000014 ! germ line stem cell
 is_a: CL:0000015 ! male germ cell
 
@@ -80,6 +82,7 @@ id: CL:0000017
 name: spermatocyte
 def: "A male germ cell that develops from spermatogonia. The euploid primary spermatocytes undergo meiosis and give rise to the haploid secondary spermatocytes which in turn give rise to spermatids." []
 is_a: CL:0000015 ! male germ cell
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000015 ! male germ cell
 intersection_of: RO:0002215 GO:0048137
 relationship: RO:0002202 CL:0000020 ! spermatogonium
@@ -91,6 +94,7 @@ def: "A male germ cell that develops from the haploid secondary spermatocytes. W
 synonym: "nematoblast" EXACT []
 is_a: CL:0000015 ! male germ cell
 is_a: CL:0000413 ! haploid cell
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000015 ! male germ cell
 intersection_of: RO:0000053 PATO:0001375
 intersection_of: RO:0002215 GO:0001675
@@ -114,6 +118,7 @@ name: spermatogonium
 def: "An euploid male germ cell of an early stage of spermatogenesis." []
 synonym: "spermatogonial cell" EXACT []
 is_a: CL:0000015 ! male germ cell
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000015 ! male germ cell
 intersection_of: RO:0000053 PATO:0001394
 intersection_of: RO:0000053 PATO:0001501
@@ -129,6 +134,7 @@ intersection_of: RO:0002215 GO:0048477
 [Term]
 id: CL:0000022
 name: female germ line stem cell
+def: "A stem cell that is the precursor of female gametes." []
 is_a: CL:0000014 ! germ line stem cell
 is_a: CL:0000021 ! female germ cell
 intersection_of: CL:0000021 ! female germ cell
@@ -149,6 +155,7 @@ id: CL:0000024
 name: oogonial cell
 def: "An undifferentiated germ cell that proliferates rapidly and gives rise to oocytes." []
 is_a: CL:0000021 ! female germ cell
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000021 ! female germ cell
 intersection_of: RO:0002215 GO:0000278
 relationship: RO:0002202 CL:0000670 ! primordial germ cell
@@ -159,6 +166,7 @@ name: egg cell
 def: "A female gamete where meiosis has progressed to metaphase II and is able to participate in fertilization." []
 synonym: "mature oocyte" EXACT []
 synonym: "ovum" EXACT []
+is_a: CL:0000548 ! animal cell
 is_a: CL:0000675 ! female gamete
 relationship: RO:0000056 GO:0007143
 relationship: RO:0002202 CL:0000023 ! oocyte
@@ -194,6 +202,7 @@ relationship: RO:0002202 CL:0002676 ! neural crest derived neuroblast
 id: CL:0000030
 name: glioblast
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0000548 ! animal cell
 relationship: RO:0002202 CL:0000133 ! neurectodermal cell
 
 [Term]
@@ -957,6 +966,7 @@ id: CL:0000149
 name: visual pigment cell
 synonym: "pigment cell" BROAD []
 is_a: CL:0000147 ! pigment cell
+is_a: CL:0000548 ! animal cell
 
 [Term]
 id: CL:0000150
@@ -1002,17 +1012,14 @@ intersection_of: RO:0002215 GO:0043129
 [Term]
 id: CL:0000158
 name: club cell
-def: "Epithelial progenitor cell of the lung. Club cells are dome-shaped with short microvilli but no cilia. They function to protect the bronchiolar epithelium. Club cells also multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium." []
-synonym: "bronchiolar non-ciliated cell" EXACT []
+def: "A non-mucous, epithelial secretory cell that is part of the tracheobronchial tree. A club cell has short microvilli but no cilia. A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium." []
 synonym: "Clara cell" EXACT []
-synonym: "club cell of bronchiole" EXACT []
 is_a: CL:0000157 ! surfactant secreting cell
-is_a: CL:0002328 ! bronchial epithelial cell
-intersection_of: CL:0002328 ! bronchial epithelial cell
-intersection_of: RO:0000053 PATO:0001789
-intersection_of: RO:0002104 GO:0005902
-intersection_of: RO:0002215 GO:0032940
-intersection_of: RO:0002215 GO:0043129
+is_a: CL:0002202 ! epithelial cell of tracheobronchial tree
+is_a: CL:0011026 ! progenitor cell
+relationship: RO:0002104 GO:0005902
+relationship: RO:0002215 GO:0032940
+relationship: RO:0002215 GO:0043129
 
 [Term]
 id: CL:0000159
@@ -1040,10 +1047,10 @@ id: CL:0000163
 name: endocrine cell
 def: "A cell of an endocrine gland, ductless glands that secrete substances which are released directly into the circulation and which influence metabolism and other body functions." []
 synonym: "endocrinocyte" EXACT []
-is_a: CL:0000003 ! native cell
 is_a: CL:0000164 {gci_filler="UBERON:0000160", gci_relation="BFO:0000050"} ! enteroendocrine cell
 is_a: CL:0000164 {gci_filler="UBERON:0001264", gci_relation="BFO:0000050"} ! enteroendocrine cell
 is_a: CL:0000164 {gci_filler="UBERON:0000945", gci_relation="BFO:0000050"} ! enteroendocrine cell
+is_a: CL:0000548 ! animal cell
 relationship: BFO:0000050 UBERON:0000949
 
 [Term]
@@ -1195,6 +1202,7 @@ def: "A Leydig cell is a testosterone-secreting cell in the interstitial area, b
 synonym: "interstitial cell" BROAD []
 synonym: "interstitial cell of Leydig" EXACT []
 is_a: CL:0000177 ! testosterone secreting cell
+is_a: CL:0000548 ! animal cell
 relationship: BFO:0000050 UBERON:0005212
 relationship: RO:0002202 CL:0009091 ! Leydig stem cell
 
@@ -1238,7 +1246,6 @@ name: myofibroblast cell
 def: "An animal cell that has characteristics of both a fibroblast cell and a smooth muscle cell." []
 synonym: "MFB" EXACT []
 is_a: CL:0000183 ! contractile cell
-is_a: CL:0000548 ! animal cell
 is_a: CL:0002371 ! somatic cell
 
 [Term]
@@ -1249,7 +1256,6 @@ synonym: "muscle fiber" EXACT []
 synonym: "myocyte" EXACT []
 is_a: CL:0000183 ! contractile cell
 is_a: CL:0000393 ! electrically responsive cell
-is_a: CL:0000548 ! animal cell
 is_a: CL:0002371 ! somatic cell
 relationship: RO:0002202 CL:0000056 ! myoblast
 
@@ -1335,8 +1341,8 @@ intersection_of: RO:0002215 GO:0050960
 id: CL:0000206
 name: chemoreceptor cell
 def: "A cell specialized to detect chemical substances and relay that information centrally in the nervous system. Chemoreceptors may monitor external stimuli, as in taste and olfaction, or internal stimuli, such as the concentrations of oxygen and carbon dioxide in the blood." []
-is_a: CL:0000540 ! neuron
-intersection_of: CL:0000540 ! neuron
+is_a: CL:0000197 ! sensory receptor cell
+intersection_of: CL:0000197 ! sensory receptor cell
 intersection_of: RO:0002215 GO:0050907
 
 [Term]
@@ -1354,14 +1360,13 @@ relationship: BFO:0000050 UBERON:0005725
 [Term]
 id: CL:0000209
 name: taste receptor cell
-def: "A cell type found in the spherical or ovoid clusters of receptor cells found mainly in the epithelium of the tongue and constituting the end organs of the sense of taste." []
+def: "A specialized cell involved in gustatory sensory perception." []
 synonym: "taste bud cell" EXACT []
-is_a: CL:0000006 ! neuronal receptor cell
 is_a: CL:0000098 ! sensory epithelial cell
+is_a: CL:0000206 ! chemoreceptor cell
 is_a: CL:0002076 ! endo-epithelial cell
-intersection_of: CL:0000540 ! neuron
+intersection_of: CL:0000206 ! chemoreceptor cell
 intersection_of: RO:0002215 GO:0050912
-relationship: BFO:0000050 UBERON:0002025
 
 [Term]
 id: CL:0000210
@@ -1544,6 +1549,7 @@ def: "Any cell capable of ingesting particulate matter via phagocytosis." []
 is_a: CL:0000219 ! motile cell
 is_a: CL:0000325 ! stuff accumulating cell
 is_a: CL:0000473 ! defensive cell
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: RO:0002215 GO:0006909
 
@@ -1656,6 +1662,7 @@ intersection_of: RO:0002215 GO:0009566
 [Term]
 id: CL:0000301
 name: pole cell
+def: "A primordial germ cell of insects. Such cells form at the posterior pole of the early embryo." []
 is_a: CL:0000670 ! primordial germ cell
 
 [Term]
@@ -1746,8 +1753,10 @@ relationship: RO:0002202 CL:0007004 ! premigratory neural crest cell
 [Term]
 id: CL:0000338
 name: neuroblast (sensu Nematoda and Protostomia)
+def: "A neural precursor of the central nervous system." []
 synonym: "neuroblast" BROAD []
 is_a: CL:0000047 ! neural stem cell
+relationship: RO:0002160 NCBITaxon:33317
 
 [Term]
 id: CL:0000339
@@ -1763,11 +1772,11 @@ relationship: RO:0002160 NCBITaxon:7742
 id: CL:0000341
 name: pigment cell (sensu Nematoda and Protostomia)
 is_a: CL:0000147 ! pigment cell
+is_a: CL:0000548 ! animal cell
 
 [Term]
 id: CL:0000349
 name: extraembryonic cell
-is_a: CL:0000548 ! animal cell
 is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000548 ! animal cell
 intersection_of: BFO:0000050 UBERON:0000478
@@ -1834,12 +1843,15 @@ intersection_of: RO:0002160 NCBITaxon:33208
 [Term]
 id: CL:0000373
 name: histoblast
-is_a: CL:0000146 ! simple columnar epithelial cell
+def: "A progenitor cell found in the larval epidermis of insects and that gives rise to the adult abdominal epidermis." []
+is_a: CL:0011026 ! progenitor cell
+relationship: RO:0002160 NCBITaxon:50557
 
 [Term]
 id: CL:0000385
 name: prohemocyte (sensu Nematoda and Protostomia)
-is_a: CL:0000390 ! blood cell (sensu Nematoda and Protostomia)
+def: "A precursor of mature hemocytes." []
+is_a: CL:0008001 ! hematopoietic precursor cell
 
 [Term]
 id: CL:0000386
@@ -1849,10 +1861,10 @@ is_a: CL:0000630 ! supporting cell
 [Term]
 id: CL:0000387
 name: hemocyte (sensu Arthropoda)
-is_a: CL:0000519 ! phagocyte (sensu Nematoda and Protostomia)
+def: "A blood cell of the circulatory system of arthropods." []
+is_a: CL:0000390 ! blood cell (sensu Nematoda and Protostomia)
 relationship: RO:0002160 NCBITaxon:6656
 relationship: RO:0002202 CL:0000385 ! prohemocyte (sensu Nematoda and Protostomia)
-relationship: RO:0002215 GO:0035010
 
 [Term]
 id: CL:0000388
@@ -1871,16 +1883,11 @@ name: blood cell (sensu Nematoda and Protostomia)
 is_a: CL:0000081 ! blood cell
 
 [Term]
-id: CL:0000391
-name: podocyte (sensu Diptera)
-def: "An insect immune cell that develops from plasmatocyte." []
-is_a: CL:0000387 ! hemocyte (sensu Arthropoda)
-relationship: RO:0002202 CL:0000394 ! plasmatocyte
-
-[Term]
 id: CL:0000392
 name: crystal cell
-is_a: CL:0000391 ! podocyte (sensu Diptera)
+def: "A hemocyte that synthesizes and secretes melanins as part of the antimicrobial immune response. It is characterized morphologically by crystal inclusions of phenoloxidases in its cytoplasm, hence its name." []
+is_a: CL:0000387 ! hemocyte (sensu Arthropoda)
+relationship: RO:0002202 CL:0000395 ! procrystal cell
 
 [Term]
 id: CL:0000393
@@ -1891,12 +1898,22 @@ is_a: CL:0000211 ! electrically active cell
 [Term]
 id: CL:0000394
 name: plasmatocyte
+def: "A phagocytic hemocyte, responsible for the engulfment of small particles, microbes, and apoptotic tissue debris. It may also secretes antimicrobial peptides and contribute to the production and secretion of proteins of the hemolymph." []
+synonym: "macrophage" RELATED []
 is_a: CL:0000387 ! hemocyte (sensu Arthropoda)
+relationship: RO:0002215 GO:0035010
+
+[Term]
+id: CL:0000395
+name: procrystal cell
+def: "A precursor of mature crystal cells." []
+is_a: CL:0000385 ! prohemocyte (sensu Nematoda and Protostomia)
 
 [Term]
 id: CL:0000396
 name: lamellocyte
-is_a: CL:0000394 ! plasmatocyte
+def: "A hemocyte found in immuno-stimulated larvae." []
+is_a: CL:0000387 ! hemocyte (sensu Arthropoda)
 
 [Term]
 id: CL:0000397
@@ -1908,8 +1925,8 @@ intersection_of: RO:0002100 UBERON:0000045
 [Term]
 id: CL:0000402
 name: CNS interneuron
+def: "An interneuron that has its cell body in a central nervous system." []
 is_a: CL:0000099 ! interneuron
-is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 is_a: CL:2000029 ! central nervous system neuron
 intersection_of: CL:0000099 ! interneuron
 intersection_of: RO:0002100 UBERON:0001017
@@ -1925,6 +1942,7 @@ id: CL:0000408
 name: male gamete
 is_a: CL:0000015 ! male germ cell
 is_a: CL:0000300 ! gamete
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000015 ! male germ cell
 intersection_of: RO:0000053 PATO:0001375
 intersection_of: RO:0002215 GO:0009566
@@ -1958,6 +1976,7 @@ is_a: CL:0000003 ! native cell
 id: CL:0000423
 name: tip cell
 is_a: CL:0000422 ! mitogenic signaling cell
+is_a: CL:0000548 ! animal cell
 
 [Term]
 id: CL:0000424
@@ -1979,6 +1998,7 @@ name: iridophore
 def: "A pigment cell derived from the neural crest. The cell contains flat light-reflecting platelets, probably of guanine, in stacks called reflecting platelets or iridisomes. The color-generating components produce a silver, gold, or iridescent color." []
 synonym: "guanophore" RELATED []
 is_a: CL:0000147 ! pigment cell
+is_a: CL:0000548 ! animal cell
 relationship: RO:0002202 CL:0005001 ! iridoblast
 
 [Term]
@@ -2017,6 +2037,7 @@ id: CL:0000442
 name: follicular dendritic cell
 def: "A cell with extensive dendritic processes found in the B cell areas (primary follicles and germinal centers) of lymphoid tissue. They are unrelated to the dendritic cell associated with T cells. Follicular dendritic cells have Fc receptors and C3b receptors, but unlike other dendritic cells, they do not process or present antigen in a way that allows recognition by T cells. Instead, they hold antigen in the form of immune complexes on their surfaces for long periods and can present antigen to B cells during an immune response." []
 is_a: CL:0000473 ! defensive cell
+is_a: CL:0000548 ! animal cell
 
 [Term]
 id: CL:0000443
@@ -2234,9 +2255,10 @@ is_a: CL:0002520 ! nephrocyte
 [Term]
 id: CL:0000487
 name: oenocyte
-def: "A large secretory cell found in clusters underlying the epidermis of the abdominal segments of larval abdominal segments." []
+def: "A secretory cell of ectodermal origin. This cell may have important functions in fatty acid and hydrocarbon metabolism and is metabolically linked to the fat body and tracheae. This cell is exclusive of arthropods." []
 is_a: CL:0000151 ! secretory cell
-relationship: RO:0002162 NCBITaxon:6656
+is_a: CL:0000548 ! animal cell
+relationship: RO:0002160 NCBITaxon:6656
 
 [Term]
 id: CL:0000488
@@ -2773,6 +2795,7 @@ id: CL:0000571
 name: leucophore
 def: "A pigment cell derived from the neural crest. Contains uric acid or other purine crystals deposited in stacks called leucosomes. The crystals reflect light and this gives a white appearance under white light." []
 is_a: CL:0000147 ! pigment cell
+is_a: CL:0000548 ! animal cell
 relationship: RO:0002202 CL:0005003 ! leucoblast
 
 [Term]
@@ -2787,6 +2810,7 @@ id: CL:0000574
 name: erythrophore
 def: "A pigment cell derived from the neural crest. Contains pteridine and/or carotenoid pigments in structures called pterinosomes or erythrosomes. This gives an orange to red appearance." []
 is_a: CL:0000147 ! pigment cell
+is_a: CL:0000548 ! animal cell
 relationship: RO:0002202 CL:0005004 ! pigment erythroblast
 
 [Term]
@@ -2815,6 +2839,7 @@ relationship: RO:0002202 CL:0000559 ! promonocyte
 [Term]
 id: CL:0000579
 name: border follicle cell
+def: "A follicle cell that migrates from the anterior pole of the insect egg chamber to the anterior of the oocyte where they participate in the formation of the micropyle." []
 is_a: CL:0000477 ! follicle cell of egg chamber
 
 [Term]
@@ -3265,6 +3290,7 @@ relationship: RO:0002202 CL:0000656 ! primary spermatocyte
 id: CL:0000661
 name: distal tip cell (sensu Nematoda)
 is_a: CL:0000422 ! mitogenic signaling cell
+is_a: CL:0000548 ! animal cell
 
 [Term]
 id: CL:0000666
@@ -3302,6 +3328,7 @@ synonym: "gonocyte" EXACT []
 synonym: "primitive germ cell" EXACT []
 is_a: CL:0000039 ! germ line cell
 is_a: CL:0000219 ! motile cell
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000039 ! germ line cell
 intersection_of: BFO:0000050 UBERON:0000922
 intersection_of: RO:0002215 GO:0048870
@@ -3309,6 +3336,8 @@ intersection_of: RO:0002215 GO:0048870
 [Term]
 id: CL:0000671
 name: centripetally migrating follicle cell
+def: "A follicle cell that migrates from the dorso-anterior part of the oocyte associated follicular epithelium, in between the nurse cells and the oocyte, and participates in the formation of the operculum." []
+synonym: "centripetal follicle cell" EXACT []
 is_a: CL:0000477 ! follicle cell of egg chamber
 
 [Term]
@@ -3403,7 +3432,7 @@ id: CL:0000700
 name: dopaminergic neuron
 def: "A neuron that releases dopamine as a neurotransmitter." []
 synonym: "dopaminergic cell" EXACT []
-is_a: CL:0000540 ! neuron
+is_a: CL:4033050 ! catecholaminergic neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002215 GO:0061527
 
@@ -3457,21 +3486,26 @@ relationship: RO:0002202 CL:0000501 ! granulosa cell
 [Term]
 id: CL:0000715
 name: embryonic crystal cell
+def: "A crystal cell that derives from the embryonic head mesoderm." []
 is_a: CL:0000392 ! crystal cell
-is_a: CL:0000736 ! embryonic gland hemocyte
+is_a: CL:0011008 ! embryonic hemocyte
 
 [Term]
 id: CL:0000716
 name: lymph gland crystal cell
+def: "A crystal cell that derives from the larval lymph gland." []
 is_a: CL:0000392 ! crystal cell
 is_a: CL:0000735 ! lymph gland hemocyte
 
 [Term]
 id: CL:0000718
 name: compound eye cone cell
+def: "A cell of an ommatidium that secretes lens materials." []
 synonym: "cone cell (sensu Endopterygota)" RELATED []
+synonym: "Semper cell" EXACT []
 is_a: CL:0000306 ! crystallin accumulating cell
-relationship: BFO:0000050 UBERON:0000018
+is_a: CL:0000548 ! animal cell
+relationship: BFO:0000050 UBERON:0000971
 
 [Term]
 id: CL:0000722
@@ -3529,17 +3563,14 @@ intersection_of: BFO:0000050 UBERON:0000365
 [Term]
 id: CL:0000733
 name: lymph gland plasmatocyte
+def: "A plasmatocyte that derives from the larval lymph gland." []
 is_a: CL:0000394 ! plasmatocyte
 is_a: CL:0000735 ! lymph gland hemocyte
 
 [Term]
 id: CL:0000735
 name: lymph gland hemocyte
-is_a: CL:0000387 ! hemocyte (sensu Arthropoda)
-
-[Term]
-id: CL:0000736
-name: embryonic gland hemocyte
+def: "A hemocyte that derives from the larval lymph gland." []
 is_a: CL:0000387 ! hemocyte (sensu Arthropoda)
 
 [Term]
@@ -3602,6 +3633,7 @@ name: cyanophore
 def: "A pigment cell derived from the neural crest. Contains blue pigment of unknown chemical composition in fibrous organelles termed cyanosomes. This gives a blue appearance." []
 synonym: "blue chromatophore" RELATED []
 is_a: CL:0000147 ! pigment cell
+is_a: CL:0000548 ! animal cell
 relationship: RO:0002202 CL:0005005 ! cyanoblast
 
 [Term]
@@ -3617,13 +3649,21 @@ intersection_of: RO:0002100 UBERON:0000966
 relationship: RO:0002216 GO:0007601
 
 [Term]
+id: CL:0000749
+name: ON-bipolar cell
+def: "A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner half of the inner plexiform layer. These cells depolarize in response to light stimulation of their corresponding photoreceptors." []
+is_a: CL:0000748 ! retinal bipolar neuron
+relationship: RO:0002100 UBERON:0001791
+
+[Term]
 id: CL:0000751
 name: rod bipolar cell
 def: "A bipolar neuron found in the retina that is synapsed by rod photoreceptor cells but not by cone photoreceptor cells.  These neurons depolarize in response to light." []
-is_a: CL:0000748 ! retinal bipolar neuron
+is_a: CL:0000749 ! ON-bipolar cell
 relationship: RO:0002102 UBERON:0008925
 relationship: RO:0002102 UBERON:0008926
 relationship: RO:0002103 CL:0000604 ! retinal rod cell
+relationship: RO:0002160 NCBITaxon:40674
 
 [Term]
 id: CL:0000752
@@ -4874,6 +4914,7 @@ id: CL:0000851
 name: neuromast mantle cell
 def: "Neuromast mantle cell is a non-sensory cell. Neuromast mantle cells surround the neuromast support cells and neuromast hair cells, separating the neuromast from the epidermis, and secrete cupula in which the ciliary bundles of all the hair cells are embedded." []
 is_a: CL:0000151 ! secretory cell
+is_a: CL:0000548 ! animal cell
 disjoint_from: CL:0000855 ! sensory hair cell
 relationship: BFO:0000050 UBERON:0008904
 
@@ -6159,7 +6200,6 @@ def: "A cell of a hematopoietic lineage." []
 synonym: "haematopoietic cell" EXACT []
 synonym: "haemopoietic cell" EXACT []
 synonym: "hemopoietic cell" EXACT []
-is_a: CL:0000548 ! animal cell
 is_a: CL:0002371 ! somatic cell
 
 [Term]
@@ -7970,6 +8010,7 @@ name: corneocyte
 def: "The dead keratin-filled squamous cell of the stratum corneum. This cell type lacks a nucleus." []
 is_a: CL:0000225 ! anucleate cell
 is_a: CL:0000311 ! keratin accumulating cell
+is_a: CL:0000548 ! animal cell
 relationship: BFO:0000050 UBERON:0002027
 relationship: RO:0002202 CL:0000312 ! keratinocyte
 
@@ -8322,7 +8363,6 @@ intersection_of: RO:0002215 GO:0046879
 id: CL:0002319
 name: neural cell
 def: "A cell that is part of the nervous system." []
-is_a: CL:0000548 ! animal cell
 is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000548 ! animal cell
 intersection_of: BFO:0000050 UBERON:0001016
@@ -8331,7 +8371,6 @@ intersection_of: BFO:0000050 UBERON:0001016
 id: CL:0002320
 name: connective tissue cell
 def: "A cell of the supporting or framework tissue of the body, arising chiefly from the embryonic mesoderm and including adipose tissue, cartilage, and bone." []
-is_a: CL:0000548 ! animal cell
 is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0002371 ! somatic cell
 intersection_of: BFO:0000050 UBERON:0002384
@@ -8499,6 +8538,7 @@ name: progenitor cell of endocrine pancreas
 def: "A progenitor cell that is able to differentiate into the pancreas alpha, beta and delta endocrine cells. This cell type expresses neurogenin-3 and Isl-1." []
 synonym: "pancreatic endocrine progenitor" EXACT []
 synonym: "pancreatic islet progenitor cell" EXACT []
+is_a: CL:0000548 ! animal cell
 is_a: CL:0011026 ! progenitor cell
 
 [Term]
@@ -8653,7 +8693,7 @@ relationship: BFO:0000050 UBERON:0004802
 id: CL:0002371
 name: somatic cell
 def: "A cell of an organism that does not pass on its genetic material to the organism's offspring (i.e. a non-germ line cell)." []
-is_a: CL:0000003 ! native cell
+is_a: CL:0000548 ! animal cell
 
 [Term]
 id: CL:0002372
@@ -9339,7 +9379,6 @@ id: CL:0002494
 name: cardiocyte
 def: "A cell located in the heart, including both muscle and non muscle cells." []
 synonym: "heart cell" EXACT []
-is_a: CL:0000548 ! animal cell
 is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0002371 ! somatic cell
 intersection_of: BFO:0000050 UBERON:0007100
@@ -9608,10 +9647,9 @@ intersection_of: BFO:0000050 UBERON:0002107
 [Term]
 id: CL:0002573
 name: Schwann cell
-def: "A glial cell that ensheathes axons of neuron in the peripheral nervous system and are necessary for their maintainance and function." []
+def: "A glial cell that myelinates or ensheathes axons in the peripheral nervous system." []
 is_a: CL:0000125 ! glial cell
-intersection_of: CL:0000125 ! glial cell
-intersection_of: BFO:0000050 UBERON:0000010
+relationship: BFO:0000050 UBERON:0000010
 
 [Term]
 id: CL:0002574
@@ -10002,6 +10040,7 @@ id: CL:0005001
 name: iridoblast
 def: "A non-terminally differentiated cell that originates from the neural crest and differentiates into an iridophore." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0000548 ! animal cell
 is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 
@@ -10010,6 +10049,7 @@ id: CL:0005002
 name: xanthoblast
 def: "A non-terminally differentiated cell that differentiates into a xanthophore." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0000548 ! animal cell
 is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 
@@ -10018,6 +10058,7 @@ id: CL:0005003
 name: leucoblast
 def: "A non-terminally differentiated cell that originates from the neural crest and differentiates into a leucophore." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0000548 ! animal cell
 is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 
@@ -10026,6 +10067,7 @@ id: CL:0005004
 name: pigment erythroblast
 def: "A non-terminally differentiated cell that originates from the neural crest and differentiates into an erythrophore." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0000548 ! animal cell
 is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 
@@ -10034,6 +10076,7 @@ id: CL:0005005
 name: cyanoblast
 def: "A non-terminally differentiated cell that originates from the neural crest and differentiates into a cyanophore." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0000548 ! animal cell
 is_a: CL:0011026 ! progenitor cell
 relationship: RO:0002202 CL:0000333 ! migratory neural crest cell
 
@@ -10112,6 +10155,7 @@ id: CL:0007000
 name: preameloblast
 def: "Skeletogenic cell that has the potential to develop into an ameloblast. Located in the inner enamel epithelium, these cells elongate, their nuclei shift distally (away from the dental papilla), and their cytoplasm becomes filled with organelles needed for synthesis and secretion of enamel proteins." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0000548 ! animal cell
 relationship: BFO:0000050 UBERON:0005176
 relationship: RO:0002202 CL:0002077 ! ecto-epithelial cell
 relationship: RO:0002220 UBERON:0001763
@@ -10121,6 +10165,7 @@ id: CL:0007003
 name: preodontoblast
 def: "Skeletogenic cell that has the potential to form an odontoblast, deposits predentine, and arises from a cranial neural crest cell." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0000548 ! animal cell
 is_a: CL:0011026 ! progenitor cell
 relationship: BFO:0000050 UBERON:0005176
 relationship: RO:0002202 CL:0000008 ! migratory cranial neural crest cell
@@ -10137,7 +10182,7 @@ relationship: RO:0002202 CL:0000133 ! neurectodermal cell
 id: CL:0007005
 name: notochordal cell
 def: "Cell that is part of the notochord." []
-is_a: CL:0000003 ! native cell
+is_a: CL:0000548 ! animal cell
 relationship: BFO:0000050 UBERON:0002328
 relationship: RO:0002202 CL:0007006 ! chordamesodermal cell
 
@@ -10154,6 +10199,7 @@ id: CL:0007009
 name: prechondroblast
 def: "Skeletogenic cell that has the potential to develop into a chondroblast; and arises from neural crest, meseosdermal and notochordal and connective tissue cells." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0000548 ! animal cell
 
 [Term]
 id: CL:0007010
@@ -10161,6 +10207,7 @@ name: preosteoblast
 def: "Skeletogenic cell that has the potential to transform into an osteoblast, and develops from neural crest or mesodermal cells." []
 synonym: "osteoprogenitor cell" EXACT []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0000548 ! animal cell
 is_a: CL:0011026 ! progenitor cell
 relationship: BFO:0000050 UBERON:0008883
 relationship: RO:0002202 CL:0000222 ! mesodermal cell
@@ -10576,7 +10623,7 @@ id: CL:0010005
 name: atrioventricular bundle cell
 def: "A specialized cardiomyocyte that transmit signals from the AV node to the cardiac Purkinje fibers." []
 synonym: "AV bundle cell" EXACT []
-is_a: CL:0000003 ! native cell
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000050 UBERON:0002353
 
@@ -10591,7 +10638,7 @@ intersection_of: BFO:0000050 UBERON:0000948
 [Term]
 id: CL:0010007
 name: His-Purkinje system cell
-is_a: CL:0000003 ! native cell
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000050 UBERON:0004146
 
@@ -10670,7 +10717,6 @@ id: CL:0011000
 name: dorsal horn interneuron
 def: "A CNS interneuron located in the dorsal horn of the spinal cord." []
 synonym: "dorsal spinal cord interneuron" RELATED []
-is_a: CL:0002611 ! neuron of the dorsal spinal cord
 is_a: CL:0005000 ! spinal cord interneuron
 intersection_of: CL:0000099 ! interneuron
 intersection_of: RO:0002100 UBERON:0002256
@@ -10712,6 +10758,12 @@ name: Lugaro cell
 def: "An inhibitory GABAergic interneuron found in the cerebellar cortex." []
 is_a: CL:4023057 ! cerebellar inhibitory GABAergic interneuron
 relationship: RO:0002100 UBERON:0002129
+
+[Term]
+id: CL:0011008
+name: embryonic hemocyte
+def: "A hemocyte derived from the embryonic head mesoderm, which enters the hemolymph as a circulating cell." []
+is_a: CL:0000387 ! hemocyte (sensu Arthropoda)
 
 [Term]
 id: CL:0011012
@@ -10761,6 +10813,7 @@ id: CL:0011020
 name: neural progenitor cell
 def: "An undifferentiated cell that originates from a neural stem cell and has the capacity to generate multiple types of lineage-restricted progenitors but not to self-renew." []
 is_a: CL:0000055 ! non-terminally differentiated cell
+is_a: CL:0000548 ! animal cell
 
 [Term]
 id: CL:0011024
@@ -11061,7 +11114,7 @@ id: CL:1000147
 name: cardiac valve cell
 def: "A cell that is part of a cardiac valve." []
 synonym: "heart valve cell" EXACT []
-is_a: CL:0000003 ! native cell
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000050 UBERON:0000946
 
@@ -11071,6 +11124,7 @@ name: Malpighian tubule stellate cell
 def: "A specialized epithelial secretory cell that moves chloride ions and water across the tubule epithelium." []
 synonym: "Malpighian tubule Type II cell" EXACT []
 is_a: CL:0000151 ! secretory cell
+is_a: CL:0000548 ! animal cell
 relationship: BFO:0000050 UBERON:0001054
 
 [Term]
@@ -11128,6 +11182,7 @@ intersection_of: RO:0002100 UBERON:2001314
 [Term]
 id: CL:1000271
 name: lung ciliated cell
+is_a: CL:0000548 ! animal cell
 is_a: CL:4030034 ! respiratory ciliated cell
 intersection_of: CL:0000064 ! ciliated cell
 intersection_of: BFO:0000050 UBERON:0002048
@@ -11136,6 +11191,7 @@ intersection_of: BFO:0000050 UBERON:0002048
 id: CL:1000272
 name: lung secretory cell
 is_a: CL:0000151 ! secretory cell
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000151 ! secretory cell
 intersection_of: BFO:0000050 UBERON:0002048
 
@@ -11508,7 +11564,6 @@ relationship: BFO:0000050 UBERON:0001902
 [Term]
 id: CL:1000497
 name: kidney cell
-is_a: CL:0000548 ! animal cell
 is_a: CL:0002371 ! somatic cell
 intersection_of: CL:0000548 ! animal cell
 intersection_of: BFO:0000050 UBERON:0002113
@@ -11648,13 +11703,11 @@ relationship: BFO:0000050 UBERON:0001254
 [Term]
 id: CL:1000742
 name: glomerular mesangial cell
-def: "Intraglomerular mesangial cells are specialized pericytes located among the glomerular capillaries within a renal corpuscle of a kidney." []
+def: "A mesangial cell located among the glomerular capillaries in a renal corpuscle." []
 synonym: "intraglomerular mesangial cell" EXACT []
 is_a: CL:0000234 ! phagocyte
 is_a: CL:0000650 ! mesangial cell
 is_a: CL:1000612 ! kidney corpuscule cell
-intersection_of: CL:1000612 ! kidney corpuscule cell
-intersection_of: BFO:0000050 UBERON:0002320
 relationship: BFO:0000050 UBERON:0002320
 relationship: RO:0002215 GO:0006909
 relationship: RO:0002215 GO:0070252
@@ -12154,7 +12207,7 @@ intersection_of: BFO:0000050 UBERON:0001003
 id: CL:2000004
 name: pituitary gland cell
 def: "Any cell that is part of a pituitary gland." []
-is_a: CL:0000003 ! native cell
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000050 UBERON:0000007
 
@@ -12194,7 +12247,7 @@ intersection_of: BFO:0000050 UBERON:0000087
 id: CL:2000021
 name: sebaceous gland cell
 def: "Any native cell that is part of a sebaceous gland." []
-is_a: CL:0000003 ! native cell
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000050 UBERON:0001821
 
@@ -12202,7 +12255,7 @@ intersection_of: BFO:0000050 UBERON:0001821
 id: CL:2000022
 name: cardiac septum cell
 def: "Any native cell that is part of a cardiac septum." []
-is_a: CL:0000003 ! native cell
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000050 UBERON:0002099
 
@@ -12235,7 +12288,7 @@ intersection_of: RO:0002100 UBERON:0001017
 id: CL:2000030
 name: hypothalamus cell
 def: "Any native cell that is part of a hypothalamus." []
-is_a: CL:0000003 ! native cell
+is_a: CL:0000548 ! animal cell
 intersection_of: CL:0000003 ! native cell
 intersection_of: BFO:0000050 UBERON:0001898
 
@@ -12311,6 +12364,7 @@ id: CL:2000039
 name: posterior lateral line neuromast supporting cell
 def: "Any neuromast support cell that is part of a posterior lateral line." []
 synonym: "posterior lateral line neuromast support cell" EXACT []
+is_a: CL:0000548 ! animal cell
 is_a: CL:0000852 ! neuromast supporting cell
 intersection_of: CL:0000852 ! neuromast supporting cell
 intersection_of: BFO:0000050 UBERON:0006334
@@ -12574,7 +12628,7 @@ intersection_of: RO:0002215 GO:0050906
 
 [Term]
 id: CL:4023039
-name: amgydala excitatory neuron
+name: amygdala excitatory neuron
 is_a: CL:0000679 ! glutamatergic neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002100 UBERON:0001876
@@ -12664,6 +12718,7 @@ id: CL:4029002
 name: germline-derived nurse cell
 def: "A gamete-nursing cell that derives from a germline cell (del Pino, 2021)." []
 is_a: CL:0000039 ! germ line cell
+is_a: CL:0000548 ! animal cell
 is_a: CL:4029001 ! gamete-nursing cell
 
 [Term]
@@ -12819,6 +12874,25 @@ is_a: CL:0000319 ! mucus secreting cell
 intersection_of: CL:0000319 ! mucus secreting cell
 intersection_of: BFO:0000050 UBERON:0005203
 
+[Term]
+id: CL:4033050
+name: catecholaminergic neuron
+def: "A neuron that releases catecholamine as a neurotransmitter." []
+is_a: CL:0000540 ! neuron
+intersection_of: CL:0000540 ! neuron
+intersection_of: RO:0002215 GO:0160043
+
+[Term]
+id: CL:4040002
+name: enteroglial cell
+def: "Glial cell that provides support to the enteric nervous system. It is involved in enteric neurotransmission, in maintaining the integrity of the mucosal barrier of the gut and serves as a link between the nervous and immune systems of the gut. In enteric nerve strands, glial processes ensheath multiaxonal bundles which distinguishes enteric glia from all other peripheral glia. Ultrastructurally, the most conspicuous trait of an enteroglial cell is the presence of 10 nm filaments, which criss-cross the cell body, form axial bundles in the processes and appear to firmly anchor the cells to the ganglionic surfaces. Similar to astrocytes, their main constituent is glial fibrillary acidic protein (GFAP)." []
+synonym: "enteric glia" RELATED []
+synonym: "enteric glial cell" EXACT []
+is_a: CL:0000125 ! glial cell
+intersection_of: CL:0000125 ! glial cell
+intersection_of: BFO:0000050 UBERON:0002005
+relationship: RO:0002292 PR:000007939
+
 [Typedef]
 id: BFO:0000050
 xref: BFO:0000050
@@ -12886,6 +12960,10 @@ xref: RO:0002216
 [Typedef]
 id: RO:0002220
 xref: RO:0002220
+
+[Typedef]
+id: RO:0002292
+xref: RO:0002292
 
 [Typedef]
 id: RO:0002339
