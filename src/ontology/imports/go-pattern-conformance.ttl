@@ -25665,6 +25665,12 @@
 <http://purl.obolibrary.org/obo/GO_0060021> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
 
 
+<http://purl.obolibrary.org/obo/GO_0060022> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0060023> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
+
+
 <http://purl.obolibrary.org/obo/GO_0060027> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
@@ -25672,6 +25678,9 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0060029> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0060037> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0060039> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
@@ -27752,6 +27761,9 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0061211> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0061212> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0061213> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
@@ -30260,6 +30272,9 @@
 <http://purl.obolibrary.org/obo/GO_0072047> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
+<http://purl.obolibrary.org/obo/GO_0072051> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
+
+
 <http://purl.obolibrary.org/obo/GO_0072053> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
 
 
@@ -30564,6 +30579,9 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0072205> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0072206> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0072207> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
@@ -49534,6 +49552,9 @@
 
 
 <http://purl.obolibrary.org/obo/GO_1905747> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_1905748> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_morphogenesis.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_1905749> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
