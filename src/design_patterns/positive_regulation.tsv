@@ -2175,7 +2175,7 @@ http://purl.obolibrary.org/obo/GO_0050927	positive regulation of positive chemot
 http://purl.obolibrary.org/obo/GO_1902234	positive regulation of positive thymic T cell selection	http://purl.obolibrary.org/obo/GO_0045059	positive thymic T cell selection
 http://purl.obolibrary.org/obo/GO_0048582	positive regulation of post-embryonic development	http://purl.obolibrary.org/obo/GO_0009791	post-embryonic development
 http://purl.obolibrary.org/obo/GO_0060148	positive regulation of post-transcriptional gene silencing	http://purl.obolibrary.org/obo/GO_0016441	post-transcriptional gene silencing
-http://purl.obolibrary.org/obo/GO_1900370	positive regulation of post-transcriptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	ncRNA-mediated post-transcriptional gene silencing
+http://purl.obolibrary.org/obo/GO_1900370	positive regulation of post-transcriptional gene silencing by RNA	http://purl.obolibrary.org/obo/GO_0035194	regulatory ncRNA-mediated post-transcriptional gene silencing
 http://purl.obolibrary.org/obo/GO_1901875	positive regulation of post-translational protein modification	http://purl.obolibrary.org/obo/GO_0043687	post-translational protein modification
 http://purl.obolibrary.org/obo/GO_0160036	positive regulation of postsynaptic density assembly	http://purl.obolibrary.org/obo/GO_0097107	postsynaptic density assembly
 http://purl.obolibrary.org/obo/GO_1905876	positive regulation of postsynaptic density organization	http://purl.obolibrary.org/obo/GO_0097106	postsynaptic density organization
@@ -2748,7 +2748,6 @@ http://purl.obolibrary.org/obo/GO_0045945	positive regulation of transcription b
 http://purl.obolibrary.org/obo/GO_1904281	positive regulation of transcription by RNA polymerase V	http://purl.obolibrary.org/obo/GO_0001060	transcription by RNA polymerase V
 http://purl.obolibrary.org/obo/GO_2001209	positive regulation of transcription elongation by RNA polymerase I	http://purl.obolibrary.org/obo/GO_0006362	transcription elongation by RNA polymerase I
 http://purl.obolibrary.org/obo/GO_0032968	positive regulation of transcription elongation by RNA polymerase II	http://purl.obolibrary.org/obo/GO_0006368	transcription elongation by RNA polymerase II
-http://purl.obolibrary.org/obo/GO_1901485	positive regulation of transcription factor catabolic process	http://purl.obolibrary.org/obo/GO_0036369	transcription factor catabolic process
 http://purl.obolibrary.org/obo/GO_0060261	positive regulation of transcription initiation by RNA polymerase II	http://purl.obolibrary.org/obo/GO_0006367	transcription initiation at RNA polymerase II promoter
 http://purl.obolibrary.org/obo/GO_1901838	positive regulation of transcription of nucleolar large rRNA by RNA polymerase I	http://purl.obolibrary.org/obo/GO_0042790	nucleolar large rRNA transcription by RNA polymerase I
 http://purl.obolibrary.org/obo/GO_2000679	positive regulation of transcription regulatory region DNA binding	http://purl.obolibrary.org/obo/GO_0000976	transcription cis-regulatory region binding

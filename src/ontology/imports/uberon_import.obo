@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-03-23/imports/uberon_import.owl
+data-version: go/releases/2023-05-24/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -2756,7 +2756,7 @@ disjoint_from: UBERON:0010000 ! multicellular anatomical structure
 [Term]
 id: UBERON:0000477
 name: anatomical cluster
-def: "Anatomical group that has its parts adjacent to one another." []
+def: "Anatomical group whose component anatomical structures lie in close proximity to each other." []
 is_a: UBERON:0034923 ! disconnected anatomical group
 
 [Term]
@@ -3037,7 +3037,7 @@ relationship: part_of UBERON:0007026 ! presumptive gut
 
 [Term]
 id: UBERON:0000933
-name: pharyngeal muscle
+name: chordate pharyngeal muscle
 def: "A muscle that acts on the pharynx[WP, vetted]." []
 synonym: "branchial muscle" EXACT []
 synonym: "branchial muscles" RELATED []
@@ -3045,6 +3045,7 @@ synonym: "muscle of pharynx" EXACT []
 synonym: "muscle organ of pharynx" EXACT []
 synonym: "musculi pharyngis" RELATED []
 synonym: "musculus pharyngis" RELATED []
+synonym: "pharyngeal muscle" EXACT []
 synonym: "pharynx muscle" EXACT []
 synonym: "pharynx muscle organ" EXACT []
 synonym: "tunica muscularis pharyngis" RELATED []
@@ -3561,7 +3562,7 @@ relationship: proximally_connected_to UBERON:0007832 ! pelvic girdle skeleton
 [Term]
 id: UBERON:0000982
 name: skeletal joint
-def: "Anatomical cluster that consists of two or more adjacent skeletal structures, which may be interconnected by various types of tissue[VSAO]." []
+def: "Anatomical structure that consists of two or more adjacent skeletal structures, which may be interconnected by various types of tissue[VSAO]." []
 synonym: "articular joint" RELATED []
 synonym: "articulation" BROAD []
 synonym: "joint" BROAD []
@@ -4893,7 +4894,7 @@ intersection_of: UBERON:0002036 ! striated muscle tissue
 intersection_of: has_part CL:0000746
 disjoint_from: UBERON:0001134 ! skeletal muscle tissue
 relationship: composed_primarily_of CL:0000746
-relationship: part_of UBERON:0000948 ! heart
+relationship: part_of UBERON:0007100 ! primary circulatory organ
 
 [Term]
 id: UBERON:0001134
@@ -8393,7 +8394,7 @@ relationship: part_of UBERON:0001007 ! digestive system
 id: UBERON:0001556
 name: lower urinary tract
 def: "Subdivision of urinary system which consists of the urinary bladder and the urethra." []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0011216 ! organ system subdivision
 relationship: has_part UBERON:0000057 ! urethra
 relationship: has_part UBERON:0001255 ! urinary bladder
 relationship: part_of UBERON:0001008 ! renal system
@@ -9803,7 +9804,7 @@ synonym: "muscular palate" RELATED []
 synonym: "palatum molle" RELATED []
 synonym: "velum" RELATED []
 synonym: "velum palatinum" RELATED []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0034921 ! multi organ part structure
 relationship: part_of UBERON:0000165 ! mouth
 relationship: part_of UBERON:0001716 ! secondary palate
 
@@ -13946,6 +13947,7 @@ is_a: UBERON:0007499 ! epithelial sac
 intersection_of: UBERON:0007499 ! epithelial sac
 intersection_of: part_of UBERON:0008874 ! pulmonary acinus
 relationship: contributes_to_morphology_of UBERON:0008874 ! pulmonary acinus
+relationship: has_part UBERON:0002299 ! alveolus of lung
 relationship: part_of UBERON:0006524 ! alveolar system
 relationship: part_of UBERON:0008874 ! pulmonary acinus
 
@@ -14794,8 +14796,8 @@ intersection_of: part_of UBERON:0002048 ! lung
 relationship: contains_process GO:0007585
 relationship: contributes_to_morphology_of UBERON:0008874 ! pulmonary acinus
 relationship: only_in_taxon NCBITaxon:40674
-relationship: part_of UBERON:0002169 ! alveolar sac
 relationship: part_of UBERON:0006524 ! alveolar system
+relationship: part_of UBERON:0008874 ! pulmonary acinus
 
 [Term]
 id: UBERON:0002301
@@ -14829,7 +14831,7 @@ name: juxtaglomerular apparatus
 def: "An anatomical structure which consists of juxtaglomerular cells, extraglomerular mesangial cells and the macula densa. The juxtaglomerular apparatus lies adjacent to the glomerulus and regulates kidney function by maintaining the blood flow to the kidney and the filtration rate[GO]. a microscopic structure in the kidney, which regulates the function of each nephron. The juxtaglomerular apparatus is named for its proximity to the glomerulus: it is found between the vascular pole of the renal corpuscle and the returning distal convoluted tubule of the same nephron. This location is critical to its function in regulating renal blood flow and glomerular filtration rate. The three cellular components of the apparatus are the macula densa, extraglomerular mesangial cells, and juxtaglomerular cells (also known as granular cells)[WP]." []
 synonym: "complexus juxtaglomerularis" EXACT []
 synonym: "juxtaglomerular complex" EXACT []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0000061 ! anatomical structure
 relationship: capable_of GO:0003093
 relationship: has_part CL:0000648
 relationship: has_part CL:0002173
@@ -15275,7 +15277,6 @@ is_a: UBERON:0000923 ! germ layer
 is_a: UBERON:0004121 ! ectoderm-derived structure
 relationship: develops_from UBERON:0000924 ! ectoderm
 relationship: has_part CL:0000133
-relationship: has_part CL:0000530
 
 [Term]
 id: UBERON:0002347
@@ -19413,7 +19414,7 @@ name: hard palate
 def: "Anterior portion of the palate consisting of bone and mucous membranes [GO]. The hard palate is formed from bony processes of the maxilla, premaxilla and palatine bone [Kardong]." []
 synonym: "hard palate" EXACT []
 synonym: "palatum durum" EXACT []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0034921 ! multi organ part structure
 relationship: part_of UBERON:0001716 ! secondary palate
 
 [Term]
@@ -31401,7 +31402,7 @@ relationship: part_of UBERON:0002104 ! visual system
 [Term]
 id: UBERON:0004905
 name: articulation
-def: "Anatomical cluster that connects two or more adjacent skeletal elements or hardened body parts." []
+def: "Anatomical structure that connects two or more adjacent skeletal elements or hardened body parts." []
 synonym: "joint" NARROW []
 is_a: UBERON:0034921 ! multi organ part structure
 relationship: part_of UBERON:0004770 ! articular system
@@ -31551,6 +31552,7 @@ id: UBERON:0004921
 name: subdivision of digestive tract
 def: "A proximal-distal subdivision of the digestive tract." []
 synonym: "alimentary system subdivision" RELATED []
+synonym: "gut section" RELATED []
 synonym: "intestinal tract" RELATED []
 synonym: "segment of intestinal tract" RELATED []
 synonym: "subdivision of alimentary system" RELATED []
@@ -33909,7 +33911,7 @@ synonym: "tubular seromucous gland of trachea" RELATED []
 is_a: UBERON:0011148 ! submucosal gland
 intersection_of: UBERON:0011148 ! submucosal gland
 intersection_of: has_part CL:0000159
-intersection_of: part_of UBERON:0002202 ! submucosa of trachea
+intersection_of: part_of UBERON:0003126 ! trachea
 
 [Term]
 id: UBERON:0005204
@@ -40696,7 +40698,7 @@ relationship: preceded_by UBERON:0004707 ! pharyngula stage
 id: UBERON:0007223
 name: osseus cochlea
 def: "The osseous cochlea is the bony foundation that forms the small shell arrangement for the cochlear nerve." []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0000061 ! anatomical structure
 relationship: part_of UBERON:0001839 ! bony labyrinth
 relationship: part_of UBERON:0001844 ! cochlea
 
@@ -42609,7 +42611,7 @@ synonym: "pharyngeal arch region" RELATED []
 synonym: "pharyngeal arches and clefts" RELATED []
 synonym: "pharyngeal complex" RELATED []
 synonym: "pharyngeal system" EXACT []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0034921 ! multi organ part structure
 relationship: only_in_taxon NCBITaxon:7711
 relationship: part_of UBERON:0000922 ! embryo
 relationship: part_of UBERON:0009145 ! pharyngeal region of foregut
@@ -47773,7 +47775,7 @@ def: "A muscle organ that attaches_to a clavicle and attaches_to a occipital bon
 synonym: "cleido-occipitalis" EXACT []
 synonym: "cleido-occipitalis muscle" EXACT []
 synonym: "cleidooccipital" EXACT []
-is_a: UBERON:0000933 ! pharyngeal muscle
+is_a: UBERON:0000933 ! chordate pharyngeal muscle
 is_a: UBERON:0014892 ! skeletal muscle organ
 intersection_of: UBERON:0014892 ! skeletal muscle organ
 intersection_of: attached_to UBERON:0001105 ! clavicle bone
@@ -48115,7 +48117,8 @@ intersection_of: part_of UBERON:0002090 ! postcranial axial skeleton
 id: UBERON:0011143
 name: upper urinary tract
 def: "Subdivision of urinary system which consists of the kidney and the ureters." []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0011216 ! organ system subdivision
+is_a: UBERON:0015212 ! lateral structure
 relationship: has_part UBERON:0000056 ! ureter
 relationship: has_part UBERON:0002113 ! kidney
 relationship: in_lateral_side_of UBERON:0001008 ! renal system
@@ -56425,7 +56428,7 @@ synonym: "appendages of the eye" RELATED []
 synonym: "eye adnexa" RELATED []
 synonym: "set of accessory visual structures" RELATED []
 synonym: "structurae oculi accessoriae" RELATED []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0034921 ! multi organ part structure
 relationship: part_of UBERON:0004088 ! orbital region
 
 [Term]
@@ -58786,6 +58789,14 @@ synonym: "striated visceral muscle tissue" EXACT []
 is_a: UBERON:0002036 ! striated muscle tissue
 is_a: UBERON:8600004 ! visceral muscle tissue
 
+[Term]
+id: UBERON:8600012
+name: submucosal gland acinus
+def: "A spherical or tubular structure in a submucosal gland that produces and secretes mucus and other substances into the ducts leading to the surface epithelium." []
+is_a: UBERON:0014717 ! mucous acinus
+intersection_of: UBERON:0009842 ! glandular acinus
+intersection_of: part_of UBERON:0011148 ! submucosal gland
+
 [Typedef]
 id: adjacent_to
 name: adjacent to
@@ -58863,8 +58874,7 @@ xref: RO:0002473
 [Typedef]
 id: conduit_for
 name: conduit for
-def: "x is a conduit for y iff y passes through the lumen of x." []
-xref: conduit_for
+xref: RO:0002570
 
 [Typedef]
 id: confers_advantage_in
@@ -59398,8 +59408,7 @@ xref: RO:0002221
 [Typedef]
 id: synapsed_by
 name: synapsed by
-def: "Relation between an anatomical structure (including cells) and a neuron that chemically synapses to it." []
-xref: synapsed_by
+xref: RO:0002103
 
 [Typedef]
 id: transformation_of

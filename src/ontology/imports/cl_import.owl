@@ -8,10 +8,9 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2023-03-23/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2023-05-24/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -41,9 +40,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
     
 
 
@@ -70,12 +69,6 @@
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/license -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -400,6 +393,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002292 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002292">
+        <oboInOwl:hasDbXref>RO:0002292</oboInOwl:hasDbXref>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002339 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002339">
@@ -574,6 +575,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000034"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000039"/>
+        <obo:IAO_0000115>A stem cell that is the precursor of gametes.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>germline stem cell</oboInOwl:hasExactSynonym>
         <rdfs:label>germ line stem cell</rdfs:label>
     </owl:Class>
@@ -601,6 +603,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000015"/>
+        <obo:IAO_0000115>A stem cell that is the precursor of male gametes.</obo:IAO_0000115>
         <rdfs:label>male germ line stem cell</rdfs:label>
     </owl:Class>
     
@@ -621,6 +624,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -661,6 +665,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000413"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -712,6 +717,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>An euploid male germ cell of an early stage of spermatogenesis.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>spermatogonial cell</oboInOwl:hasExactSynonym>
         <rdfs:label>spermatogonium</rdfs:label>
@@ -756,6 +762,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000021"/>
+        <obo:IAO_0000115>A stem cell that is the precursor of female gametes.</obo:IAO_0000115>
         <rdfs:label>female germ line stem cell</rdfs:label>
     </owl:Class>
     
@@ -800,6 +807,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000021"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -815,6 +823,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000675"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -912,6 +921,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -2802,6 +2812,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000147"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <oboInOwl:hasBroadSynonym>pigment cell</oboInOwl:hasBroadSynonym>
         <rdfs:label>visual pigment cell</rdfs:label>
     </owl:Class>
@@ -2904,35 +2915,29 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000158 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000158">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002328"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001789"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002104"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005902"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0032940"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043129"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000157"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002328"/>
-        <obo:IAO_0000115>Epithelial progenitor cell of the lung. Club cells are dome-shaped with short microvilli but no cilia. They function to protect the bronchiolar epithelium. Club cells also multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002202"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002104"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005902"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0032940"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043129"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A non-mucous, epithelial secretory cell that is part of the tracheobronchial tree. A club cell has short microvilli but no cilia. A club cell is able to multiply and differentiate into ciliated cells to regenerate the bronchiolar epithelium and it also protects the tracheobronchial epithelium.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Clara cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>bronchiolar non-ciliated cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>club cell of bronchiole</oboInOwl:hasExactSynonym>
         <rdfs:label>club cell</rdfs:label>
     </owl:Class>
     
@@ -3009,7 +3014,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -3372,6 +3377,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000177"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -3489,7 +3495,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000183"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <obo:IAO_0000115>An animal cell that has characteristics of both a fibroblast cell and a smooth muscle cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>MFB</oboInOwl:hasExactSynonym>
@@ -3503,7 +3508,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000187">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000183"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000393"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3711,7 +3715,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000540"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000197"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050907"/>
@@ -3719,7 +3723,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000197"/>
         <obo:IAO_0000115>A cell specialized to detect chemical substances and relay that information centrally in the nervous system. Chemoreceptors may monitor external stimuli, as in taste and olfaction, or internal stimuli, such as the concentrations of oxygen and carbon dioxide in the blood.</obo:IAO_0000115>
         <rdfs:label>chemoreceptor cell</rdfs:label>
     </owl:Class>
@@ -3762,7 +3766,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000540"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000206"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050912"/>
@@ -3770,16 +3774,10 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000006"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000098"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000206"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002076"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002025"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A cell type found in the spherical or ovoid clusters of receptor cells found mainly in the epithelium of the tongue and constituting the end organs of the sense of taste.</obo:IAO_0000115>
+        <obo:IAO_0000115>A specialized cell involved in gustatory sensory perception.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>taste bud cell</oboInOwl:hasExactSynonym>
         <rdfs:label>taste receptor cell</rdfs:label>
     </owl:Class>
@@ -4200,6 +4198,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000219"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000325"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000473"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>Any cell capable of ingesting particulate matter via phagocytosis.</obo:IAO_0000115>
         <rdfs:label>phagocyte</rdfs:label>
     </owl:Class>
@@ -4447,6 +4446,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000301">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000670"/>
+        <obo:IAO_0000115>A primordial germ cell of insects. Such cells form at the posterior pole of the early embryo.</obo:IAO_0000115>
         <rdfs:label>pole cell</rdfs:label>
     </owl:Class>
     
@@ -4651,6 +4651,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000338">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A neural precursor of the central nervous system.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>neuroblast</oboInOwl:hasBroadSynonym>
         <rdfs:label>neuroblast (sensu Nematoda and Protostomia)</rdfs:label>
     </owl:Class>
@@ -4680,6 +4687,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000341">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000147"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:label>pigment cell (sensu Nematoda and Protostomia)</rdfs:label>
     </owl:Class>
     
@@ -4699,7 +4707,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <rdfs:label>extraembryonic cell</rdfs:label>
     </owl:Class>
@@ -4846,7 +4853,14 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000373 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000373">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50557"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A progenitor cell found in the larval epidermis of insects and that gives rise to the adult abdominal epidermis.</obo:IAO_0000115>
         <rdfs:label>histoblast</rdfs:label>
     </owl:Class>
     
@@ -4855,7 +4869,8 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000385 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000385">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000390"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0008001"/>
+        <obo:IAO_0000115>A precursor of mature hemocytes.</obo:IAO_0000115>
         <rdfs:label>prohemocyte (sensu Nematoda and Protostomia)</rdfs:label>
     </owl:Class>
     
@@ -4873,7 +4888,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000387 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000387">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000519"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000390"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -4886,12 +4901,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000385"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0035010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <obo:IAO_0000115>A blood cell of the circulatory system of arthropods.</obo:IAO_0000115>
         <rdfs:label>hemocyte (sensu Arthropoda)</rdfs:label>
     </owl:Class>
     
@@ -4930,26 +4940,17 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_0000391 -->
+    <!-- http://purl.obolibrary.org/obo/CL_0000392 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000391">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000392">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000387"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000394"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000395"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An insect immune cell that develops from plasmatocyte.</obo:IAO_0000115>
-        <rdfs:label>podocyte (sensu Diptera)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0000392 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000392">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000391"/>
+        <obo:IAO_0000115>A hemocyte that synthesizes and secretes melanins as part of the antimicrobial immune response. It is characterized morphologically by crystal inclusions of phenoloxidases in its cytoplasm, hence its name.</obo:IAO_0000115>
         <rdfs:label>crystal cell</rdfs:label>
     </owl:Class>
     
@@ -4969,7 +4970,25 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000394">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000387"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0035010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A phagocytic hemocyte, responsible for the engulfment of small particles, microbes, and apoptotic tissue debris. It may also secretes antimicrobial peptides and contribute to the production and secretion of proteins of the hemolymph.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>macrophage</oboInOwl:hasRelatedSynonym>
         <rdfs:label>plasmatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000395">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000385"/>
+        <obo:IAO_0000115>A precursor of mature crystal cells.</obo:IAO_0000115>
+        <rdfs:label>procrystal cell</rdfs:label>
     </owl:Class>
     
 
@@ -4977,7 +4996,8 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000396 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000396">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000394"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000387"/>
+        <obo:IAO_0000115>A hemocyte found in immuno-stimulated larvae.</obo:IAO_0000115>
         <rdfs:label>lamellocyte</rdfs:label>
     </owl:Class>
     
@@ -5018,8 +5038,8 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000099"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000117"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000029"/>
+        <obo:IAO_0000115>An interneuron that has its cell body in a central nervous system.</obo:IAO_0000115>
         <rdfs:label>CNS interneuron</rdfs:label>
     </owl:Class>
     
@@ -5055,6 +5075,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000015"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000300"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:label>male gamete</rdfs:label>
     </owl:Class>
     
@@ -5114,6 +5135,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000423">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:label>tip cell</rdfs:label>
     </owl:Class>
     
@@ -5150,6 +5172,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000431">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000147"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -5241,6 +5264,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000442">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000473"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>A cell with extensive dendritic processes found in the B cell areas (primary follicles and germinal centers) of lymphoid tissue. They are unrelated to the dendritic cell associated with T cells. Follicular dendritic cells have Fc receptors and C3b receptors, but unlike other dendritic cells, they do not process or present antigen in a way that allows recognition by T cells. Instead, they hold antigen in the form of immune complexes on their surfaces for long periods and can present antigen to B cells during an immune response.</obo:IAO_0000115>
         <rdfs:label>follicular dendritic cell</rdfs:label>
     </owl:Class>
@@ -5746,13 +5770,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000487">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6656"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A large secretory cell found in clusters underlying the epidermis of the abdominal segments of larval abdominal segments.</obo:IAO_0000115>
+        <obo:IAO_0000115>A secretory cell of ectodermal origin. This cell may have important functions in fatty acid and hydrocarbon metabolism and is metabolically linked to the fat body and tracheae. This cell is exclusive of arthropods.</obo:IAO_0000115>
         <rdfs:label>oenocyte</rdfs:label>
     </owl:Class>
     
@@ -7077,6 +7102,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000571">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000147"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -7109,6 +7135,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000574">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000147"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -7188,6 +7215,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000579">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000477"/>
+        <obo:IAO_0000115>A follicle cell that migrates from the anterior pole of the insect egg chamber to the anterior of the oocyte where they participate in the formation of the micropyle.</obo:IAO_0000115>
         <rdfs:label>border follicle cell</rdfs:label>
     </owl:Class>
     
@@ -8286,6 +8314,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000661">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000422"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:label>distal tip cell (sensu Nematoda)</rdfs:label>
     </owl:Class>
     
@@ -8351,6 +8380,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000039"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000219"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>A primordial germ cell is a diploid germ cell precursors that transiently exist in the embryo before they enter into close association with the somatic cells of the gonad and become irreversibly committed as germ cells.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>gonocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>primitive germ cell</oboInOwl:hasExactSynonym>
@@ -8363,6 +8393,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000671">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000477"/>
+        <obo:IAO_0000115>A follicle cell that migrates from the dorso-anterior part of the oocyte associated follicular epithelium, in between the nurse cells and the oocyte, and participates in the formation of the operculum.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>centripetal follicle cell</oboInOwl:hasExactSynonym>
         <rdfs:label>centripetally migrating follicle cell</rdfs:label>
     </owl:Class>
     
@@ -8579,7 +8611,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4033050"/>
         <obo:IAO_0000115>A neuron that releases dopamine as a neurotransmitter.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>dopaminergic cell</oboInOwl:hasExactSynonym>
         <rdfs:label>dopaminergic neuron</rdfs:label>
@@ -8690,7 +8722,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000715">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000392"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000736"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011008"/>
+        <obo:IAO_0000115>A crystal cell that derives from the embryonic head mesoderm.</obo:IAO_0000115>
         <rdfs:label>embryonic crystal cell</rdfs:label>
     </owl:Class>
     
@@ -8701,6 +8734,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000716">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000392"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000735"/>
+        <obo:IAO_0000115>A crystal cell that derives from the larval lymph gland.</obo:IAO_0000115>
         <rdfs:label>lymph gland crystal cell</rdfs:label>
     </owl:Class>
     
@@ -8710,12 +8744,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000718">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000306"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000018"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000971"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A cell of an ommatidium that secretes lens materials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Semper cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>cone cell (sensu Endopterygota)</oboInOwl:hasRelatedSynonym>
         <rdfs:label>compound eye cone cell</rdfs:label>
     </owl:Class>
@@ -8840,6 +8877,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000733">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000394"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000735"/>
+        <obo:IAO_0000115>A plasmatocyte that derives from the larval lymph gland.</obo:IAO_0000115>
         <rdfs:label>lymph gland plasmatocyte</rdfs:label>
     </owl:Class>
     
@@ -8849,16 +8887,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000735">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000387"/>
+        <obo:IAO_0000115>A hemocyte that derives from the larval lymph gland.</obo:IAO_0000115>
         <rdfs:label>lymph gland hemocyte</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0000736 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000736">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000387"/>
-        <rdfs:label>embryonic gland hemocyte</rdfs:label>
     </owl:Class>
     
 
@@ -9004,6 +9034,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000747">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000147"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -9063,10 +9094,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000749">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000748"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001791"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner half of the inner plexiform layer. These cells depolarize in response to light stimulation of their corresponding photoreceptors.</obo:IAO_0000115>
+        <rdfs:label>ON-bipolar cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000751 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000751">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000748"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000749"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002102"/>
@@ -9083,6 +9130,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002103"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000604"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40674"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A bipolar neuron found in the retina that is synapsed by rod photoreceptor cells but not by cone photoreceptor cells.  These neurons depolarize in response to light.</obo:IAO_0000115>
@@ -12199,6 +12252,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000851">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -15490,7 +15544,6 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000988 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000988">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <obo:IAO_0000115>A cell of a hematopoietic lineage.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>haematopoietic cell</oboInOwl:hasExactSynonym>
@@ -20304,6 +20357,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000225"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000311"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -21140,7 +21194,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <obo:IAO_0000115>A cell that is part of the nervous system.</obo:IAO_0000115>
         <rdfs:label>neural cell</rdfs:label>
@@ -21162,7 +21215,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <obo:IAO_0000115>A cell of the supporting or framework tissue of the body, arising chiefly from the embryonic mesoderm and including adipose tissue, cartilage, and bone.</obo:IAO_0000115>
         <rdfs:label>connective tissue cell</rdfs:label>
@@ -21548,6 +21600,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0002351 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <obo:IAO_0000115>A progenitor cell that is able to differentiate into the pancreas alpha, beta and delta endocrine cells. This cell type expresses neurogenin-3 and Isl-1.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>pancreatic endocrine progenitor</oboInOwl:hasExactSynonym>
@@ -21970,7 +22023,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0002371 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002371">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>A cell of an organism that does not pass on its genetic material to the organism&apos;s offspring (i.e. a non-germ line cell).</obo:IAO_0000115>
         <rdfs:label>somatic cell</rdfs:label>
     </owl:Class>
@@ -23780,7 +23833,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <obo:IAO_0000115>A cell located in the heart, including both muscle and non muscle cells.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>heart cell</oboInOwl:hasExactSynonym>
@@ -24432,19 +24484,14 @@
     <!-- http://purl.obolibrary.org/obo/CL_0002573 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002573">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000125"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000010"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000125"/>
-        <obo:IAO_0000115>A glial cell that ensheathes axons of neuron in the peripheral nervous system and are necessary for their maintainance and function.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A glial cell that myelinates or ensheathes axons in the peripheral nervous system.</obo:IAO_0000115>
         <rdfs:label>Schwann cell</rdfs:label>
     </owl:Class>
     
@@ -25410,6 +25457,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0005001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -25427,6 +25475,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0005002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -25444,6 +25493,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0005003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -25461,6 +25511,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0005004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -25478,6 +25529,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0005005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -25652,6 +25704,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0007000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -25680,6 +25733,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0007003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -25724,7 +25778,7 @@
     <!-- http://purl.obolibrary.org/obo/CL_0007005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0007005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -25764,6 +25818,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0007009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>Skeletogenic cell that has the potential to develop into a chondroblast; and arises from neural crest, meseosdermal and notochordal and connective tissue cells.</obo:IAO_0000115>
         <rdfs:label>prechondroblast</rdfs:label>
     </owl:Class>
@@ -25774,6 +25829,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0007010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -26838,7 +26894,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>A specialized cardiomyocyte that transmit signals from the AV node to the cardiac Purkinje fibers.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>AV bundle cell</oboInOwl:hasExactSynonym>
         <rdfs:label>atrioventricular bundle cell</rdfs:label>
@@ -26881,7 +26937,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:label>His-Purkinje system cell</rdfs:label>
     </owl:Class>
     
@@ -27079,7 +27135,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002611"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0005000"/>
         <obo:IAO_0000115>A CNS interneuron located in the dorsal horn of the spinal cord.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>dorsal spinal cord interneuron</oboInOwl:hasRelatedSynonym>
@@ -27165,6 +27220,16 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>An inhibitory GABAergic interneuron found in the cerebellar cortex.</obo:IAO_0000115>
         <rdfs:label>Lugaro cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0011008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000387"/>
+        <obo:IAO_0000115>A hemocyte derived from the embryonic head mesoderm, which enters the hemolymph as a circulating cell.</obo:IAO_0000115>
+        <rdfs:label>embryonic hemocyte</rdfs:label>
     </owl:Class>
     
 
@@ -27267,6 +27332,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000055"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>An undifferentiated cell that originates from a neural stem cell and has the capacity to generate multiple types of lineage-restricted progenitors but not to self-renew.</obo:IAO_0000115>
         <rdfs:label>neural progenitor cell</rdfs:label>
     </owl:Class>
@@ -28027,7 +28093,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>A cell that is part of a cardiac valve.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>heart valve cell</oboInOwl:hasExactSynonym>
         <rdfs:label>cardiac valve cell</rdfs:label>
@@ -28039,6 +28105,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000155">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -28209,6 +28276,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4030034"/>
         <rdfs:label>lung ciliated cell</rdfs:label>
     </owl:Class>
@@ -28230,6 +28298,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:label>lung secretory cell</rdfs:label>
     </owl:Class>
     
@@ -29154,7 +29223,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -29579,17 +29647,6 @@
     <!-- http://purl.obolibrary.org/obo/CL_1000742 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000742">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000612"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002320"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000234"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000650"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000612"/>
@@ -29611,7 +29668,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0070252"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Intraglomerular mesangial cells are specialized pericytes located among the glomerular capillaries within a renal corpuscle of a kidney.</obo:IAO_0000115>
+        <obo:IAO_0000115>A mesangial cell located among the glomerular capillaries in a renal corpuscle.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>intraglomerular mesangial cell</oboInOwl:hasExactSynonym>
         <rdfs:label>glomerular mesangial cell</rdfs:label>
     </owl:Class>
@@ -30917,7 +30974,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>Any cell that is part of a pituitary gland.</obo:IAO_0000115>
         <rdfs:label>pituitary gland cell</rdfs:label>
     </owl:Class>
@@ -31022,7 +31079,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>Any native cell that is part of a sebaceous gland.</obo:IAO_0000115>
         <rdfs:label>sebaceous gland cell</rdfs:label>
     </owl:Class>
@@ -31043,7 +31100,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>Any native cell that is part of a cardiac septum.</obo:IAO_0000115>
         <rdfs:label>cardiac septum cell</rdfs:label>
     </owl:Class>
@@ -31128,7 +31185,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <obo:IAO_0000115>Any native cell that is part of a hypothalamus.</obo:IAO_0000115>
         <rdfs:label>hypothalamus cell</rdfs:label>
     </owl:Class>
@@ -31320,6 +31377,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000852"/>
         <obo:IAO_0000115>Any neuromast support cell that is part of a posterior lateral line.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>posterior lateral line neuromast support cell</oboInOwl:hasExactSynonym>
@@ -32003,7 +32061,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000679"/>
-        <rdfs:label>amgydala excitatory neuron</rdfs:label>
+        <rdfs:label>amygdala excitatory neuron</rdfs:label>
     </owl:Class>
     
 
@@ -32212,6 +32270,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4029002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000039"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4029001"/>
         <obo:IAO_0000115>A gamete-nursing cell that derives from a germline cell (del Pino, 2021).</obo:IAO_0000115>
         <rdfs:label>germline-derived nurse cell</rdfs:label>
@@ -32585,6 +32644,56 @@
         <obo:IAO_0000115>A mucus secreting cell that is part of a submucosal gland of the trachea.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>tracheal submucosal gland mucous cell</oboInOwl:hasExactSynonym>
         <rdfs:label>mucus secreting cell of trachea gland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4033050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4033050">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000540"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0160043"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <obo:IAO_0000115>A neuron that releases catecholamine as a neurotransmitter.</obo:IAO_0000115>
+        <rdfs:label>catecholaminergic neuron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4040002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4040002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000125"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002005"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000125"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000007939"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Glial cell that provides support to the enteric nervous system. It is involved in enteric neurotransmission, in maintaining the integrity of the mucosal barrier of the gut and serves as a link between the nervous and immune systems of the gut. In enteric nerve strands, glial processes ensheath multiaxonal bundles which distinguishes enteric glia from all other peripheral glia. Ultrastructurally, the most conspicuous trait of an enteroglial cell is the presence of 10 nm filaments, which criss-cross the cell body, form axial bundles in the processes and appear to firmly anchor the cells to the ganglionic surfaces. Similar to astrocytes, their main constituent is glial fibrillary acidic protein (GFAP).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>enteric glial cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>enteric glia</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>enteroglial cell</rdfs:label>
     </owl:Class>
     
 
@@ -34251,6 +34360,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0160043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0160043"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -34272,6 +34387,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33208 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33317"/>
     
 
 
@@ -34416,12 +34537,6 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0001604 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001604"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001789 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001789"/>
     
 
 
@@ -35139,6 +35254,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000005110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005110"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000005178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005178"/>
@@ -35523,6 +35644,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000939"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000945 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000945"/>
@@ -35682,6 +35809,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0001054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001054"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001058"/>
     
 
 
@@ -36045,6 +36178,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001791 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001791"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001817 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001817"/>
@@ -36180,12 +36319,6 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0002018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002018"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002025 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002025"/>
     
 
 
