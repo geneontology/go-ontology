@@ -43,9 +43,9 @@ TODO
 
 | defined_class | defined_class_label | input | input_label |
 |:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_0071889](http://purl.obolibrary.org/obo/GO_0071889) | 14-3-3 protein binding | [http://purl.obolibrary.org/obo/PR_000003237](http://purl.obolibrary.org/obo/PR_000003237) | 14-3-3 protein |
-| [http://purl.obolibrary.org/obo/GO_0031712](http://purl.obolibrary.org/obo/GO_0031712) | B1 bradykinin receptor binding | [http://purl.obolibrary.org/obo/PR_000001171](http://purl.obolibrary.org/obo/PR_000001171) | B1 bradykinin receptor |
-| [http://purl.obolibrary.org/obo/GO_0031713](http://purl.obolibrary.org/obo/GO_0031713) | B2 bradykinin receptor binding | [http://purl.obolibrary.org/obo/PR_000001172](http://purl.obolibrary.org/obo/PR_000001172) | B2 bradykinin receptor |
-| [http://purl.obolibrary.org/obo/GO_1904288](http://purl.obolibrary.org/obo/GO_1904288) | BAT3 complex binding | [http://purl.obolibrary.org/obo/GO_0071818](http://purl.obolibrary.org/obo/GO_0071818) | BAT3 complex |
-| [http://purl.obolibrary.org/obo/GO_0062063](http://purl.obolibrary.org/obo/GO_0062063) | BBSome binding | [http://purl.obolibrary.org/obo/GO_0034464](http://purl.obolibrary.org/obo/GO_0034464) | BBSome |
+| [http://purl.obolibrary.org/obo/GO_2001077](http://purl.obolibrary.org/obo/GO_2001077) | (1->3),(1->4)-beta-glucan binding | [http://purl.obolibrary.org/obo/CHEBI_18504](http://purl.obolibrary.org/obo/CHEBI_18504) | (1->3,1->4)-beta-D-glucan |
+| [http://purl.obolibrary.org/obo/GO_0001872](http://purl.obolibrary.org/obo/GO_0001872) | (1->3)-beta-D-glucan binding | [http://purl.obolibrary.org/obo/CHEBI_37671](http://purl.obolibrary.org/obo/CHEBI_37671) | (1->3)-beta-D-glucan |
+| [http://purl.obolibrary.org/obo/GO_2001081](http://purl.obolibrary.org/obo/GO_2001081) | (1->4)-beta-D-galactan binding | [http://purl.obolibrary.org/obo/CHEBI_62776](http://purl.obolibrary.org/obo/CHEBI_62776) | (1->4)-beta-D-galactan |
+| [http://purl.obolibrary.org/obo/GO_2001078](http://purl.obolibrary.org/obo/GO_2001078) | (1->6)-beta-D-glucan binding | [http://purl.obolibrary.org/obo/CHEBI_27380](http://purl.obolibrary.org/obo/CHEBI_27380) | (1->6)-beta-D-glucan |
+| [http://purl.obolibrary.org/obo/GO_1902051](http://purl.obolibrary.org/obo/GO_1902051) | (25S)-Delta(4)-dafachronate binding | [http://purl.obolibrary.org/obo/CHEBI_71541](http://purl.obolibrary.org/obo/CHEBI_71541) | (25S)-Delta(4)-dafachronate |
 

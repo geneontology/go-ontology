@@ -43,7 +43,9 @@ Regulation of a particular characteristic.
 
 | defined_class | defined_class_label | characteristic | characteristic_label |
 |:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_0060378](http://purl.obolibrary.org/obo/GO_0060378) | regulation of brood size | [http://purl.obolibrary.org/obo/PATO_0000276](http://purl.obolibrary.org/obo/PATO_0000276) | brood size |
-| [http://purl.obolibrary.org/obo/GO_0031413](http://purl.obolibrary.org/obo/GO_0031413) | regulation of buoyancy | [http://purl.obolibrary.org/obo/PATO_0001420](http://purl.obolibrary.org/obo/PATO_0001420) | buoyancy |
-| [http://purl.obolibrary.org/obo/GO_0006885](http://purl.obolibrary.org/obo/GO_0006885) | regulation of pH | [http://purl.obolibrary.org/obo/PATO_0001842](http://purl.obolibrary.org/obo/PATO_0001842) | acidity |
+| [http://purl.obolibrary.org/obo/GO_0006884](http://purl.obolibrary.org/obo/GO_0006884) | cell volume homeostasis | [http://purl.obolibrary.org/obo/OBA_0000056](http://purl.obolibrary.org/obo/OBA_0000056) | cell volume |
+| [http://purl.obolibrary.org/obo/GO_0046719](http://purl.obolibrary.org/obo/GO_0046719) | regulation by virus of viral protein levels in host cell | [http://purl.obolibrary.org/obo/OBA_0000181](http://purl.obolibrary.org/obo/OBA_0000181) | viral protein levels |
+| [http://purl.obolibrary.org/obo/GO_0097752](http://purl.obolibrary.org/obo/GO_0097752) | regulation of DNA stability | [http://purl.obolibrary.org/obo/OBA_0007000](http://purl.obolibrary.org/obo/OBA_0007000) | DNA stability |
+| [http://purl.obolibrary.org/obo/GO_0035297](http://purl.obolibrary.org/obo/GO_0035297) | regulation of Malpighian tubule diameter | [http://purl.obolibrary.org/obo/OBA_0000006](http://purl.obolibrary.org/obo/OBA_0000006) | Malpighian tubule diameter |
+| [http://purl.obolibrary.org/obo/GO_0035298](http://purl.obolibrary.org/obo/GO_0035298) | regulation of Malpighian tubule size | [http://purl.obolibrary.org/obo/OBA_0000007](http://purl.obolibrary.org/obo/OBA_0000007) | Malpighian tubule size |
 
