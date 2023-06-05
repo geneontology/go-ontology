@@ -1,4 +1,77 @@
 defined_class	defined_class_label	characteristic	characteristic_label
+http://purl.obolibrary.org/obo/GO_0006884	cell volume homeostasis	http://purl.obolibrary.org/obo/OBA_0000056	cell volume
+http://purl.obolibrary.org/obo/GO_0046719	regulation by virus of viral protein levels in host cell	http://purl.obolibrary.org/obo/OBA_0000181	viral protein levels
+http://purl.obolibrary.org/obo/GO_0097752	regulation of DNA stability	http://purl.obolibrary.org/obo/OBA_0007000	DNA stability
+http://purl.obolibrary.org/obo/GO_0035297	regulation of Malpighian tubule diameter	http://purl.obolibrary.org/obo/OBA_0000006	Malpighian tubule diameter
+http://purl.obolibrary.org/obo/GO_0035298	regulation of Malpighian tubule size	http://purl.obolibrary.org/obo/OBA_0000007	Malpighian tubule size
+http://purl.obolibrary.org/obo/GO_0043487	regulation of RNA stability	http://purl.obolibrary.org/obo/OBA_0000009	RNA stability
+http://purl.obolibrary.org/obo/GO_0030832	regulation of actin filament length	http://purl.obolibrary.org/obo/OBA_0000011	actin filament length
+http://purl.obolibrary.org/obo/GO_0090066	regulation of anatomical structure size	http://purl.obolibrary.org/obo/OBA_0000015	anatomical structure size
+http://purl.obolibrary.org/obo/GO_0002002	regulation of angiotensin levels in blood	http://purl.obolibrary.org/obo/OBA_0000016	angiotensin levels in blood
+http://purl.obolibrary.org/obo/GO_0032098	regulation of appetite	http://purl.obolibrary.org/obo/OBA_0000018	appetite
+http://purl.obolibrary.org/obo/GO_0016243	regulation of autophagosome size	http://purl.obolibrary.org/obo/OBA_0000022	autophagic vacuole size
+http://purl.obolibrary.org/obo/GO_0031133	regulation of axon diameter	http://purl.obolibrary.org/obo/OBA_0000023	axon diameter
+http://purl.obolibrary.org/obo/GO_0065008	regulation of biological quality	http://purl.obolibrary.org/obo/OBA_0000001	biological attribute
+http://purl.obolibrary.org/obo/GO_0050878	regulation of body fluid levels	http://purl.obolibrary.org/obo/OBA_0000036	body fluid levels
 http://purl.obolibrary.org/obo/GO_0060378	regulation of brood size	http://purl.obolibrary.org/obo/PATO_0000276	brood size
 http://purl.obolibrary.org/obo/GO_0031413	regulation of buoyancy	http://purl.obolibrary.org/obo/PATO_0001420	buoyancy
+http://purl.obolibrary.org/obo/GO_0086036	regulation of cardiac muscle cell membrane potential	http://purl.obolibrary.org/obo/OBA_0000046	cardiac muscle cell membrane potential
+http://purl.obolibrary.org/obo/GO_0060305	regulation of cell diameter	http://purl.obolibrary.org/obo/OBA_0000048	cell diameter
+http://purl.obolibrary.org/obo/GO_0032536	regulation of cell projection size	http://purl.obolibrary.org/obo/OBA_0000051	cell projection size
+http://purl.obolibrary.org/obo/GO_0008360	regulation of cell shape	http://purl.obolibrary.org/obo/OBA_0000052	cell shape
+http://purl.obolibrary.org/obo/GO_0008361	regulation of cell size	http://purl.obolibrary.org/obo/OBA_0000055	cell size
+http://purl.obolibrary.org/obo/GO_0032535	regulation of cellular component size	http://purl.obolibrary.org/obo/OBA_0000057	cellular component size
+http://purl.obolibrary.org/obo/GO_0044537	regulation of circulating fibrinogen levels	http://purl.obolibrary.org/obo/OBA_0000061	circulating fibrinogen levels
+http://purl.obolibrary.org/obo/GO_0061389	regulation of direction of cell growth	http://purl.obolibrary.org/obo/OBA_0000066	direction of cell growth
+http://purl.obolibrary.org/obo/GO_0016476	regulation of embryonic cell shape	http://purl.obolibrary.org/obo/OBA_0000067	embryonic cell shape
+http://purl.obolibrary.org/obo/GO_0051036	regulation of endosome size	http://purl.obolibrary.org/obo/OBA_0000068	endosome size
+http://purl.obolibrary.org/obo/GO_0032533	regulation of follicle cell microvillus length	http://purl.obolibrary.org/obo/OBA_0000072	follicle cell microvillus length
+http://purl.obolibrary.org/obo/GO_0002027	regulation of heart rate	http://purl.obolibrary.org/obo/OBA_1001087	heart rate
+http://purl.obolibrary.org/obo/GO_0010817	regulation of hormone levels	http://purl.obolibrary.org/obo/OBA_0000079	hormone levels
+http://purl.obolibrary.org/obo/GO_0044719	regulation of imaginal disc-derived wing size	http://purl.obolibrary.org/obo/OBA_0000084	imaginal disc-derived wing size
+http://purl.obolibrary.org/obo/GO_0051453	regulation of intracellular pH	http://purl.obolibrary.org/obo/OBA_0000058	cellular pH
+http://purl.obolibrary.org/obo/GO_0048169	regulation of long-term neuronal synaptic plasticity	http://purl.obolibrary.org/obo/OBA_0000089	long-term neuronal synaptic plasticity
+http://purl.obolibrary.org/obo/GO_0014916	regulation of lung blood pressure	http://purl.obolibrary.org/obo/OBA_0000090	lung blood pressure
+http://purl.obolibrary.org/obo/GO_0035751	regulation of lysosomal lumen pH	http://purl.obolibrary.org/obo/OBA_0000091	lysosomal lumen pH
+http://purl.obolibrary.org/obo/GO_0097213	regulation of lysosomal membrane permeability	http://purl.obolibrary.org/obo/OBA_0000092	lysosomal membrane permeability
+http://purl.obolibrary.org/obo/GO_0043488	regulation of mRNA stability	http://purl.obolibrary.org/obo/OBA_0000093	mRNA stability
+http://purl.obolibrary.org/obo/GO_0097035	regulation of membrane lipid distribution	http://purl.obolibrary.org/obo/OBA_0000098	membrane lipid distribution
+http://purl.obolibrary.org/obo/GO_0090559	regulation of membrane permeability	http://purl.obolibrary.org/obo/OBA_1000028	membrane permeability
+http://purl.obolibrary.org/obo/GO_0042391	regulation of membrane potential	http://purl.obolibrary.org/obo/OBA_0000099	membrane potential trait
+http://purl.obolibrary.org/obo/GO_0035566	regulation of metanephros size	http://purl.obolibrary.org/obo/OBA_0000101	metanephric kidney size
+http://purl.obolibrary.org/obo/GO_0032532	regulation of microvillus length	http://purl.obolibrary.org/obo/OBA_0000102	microvillus length
+http://purl.obolibrary.org/obo/GO_0044528	regulation of mitochondrial mRNA stability	http://purl.obolibrary.org/obo/OBA_0000103	mitochondrial mRNA stability
+http://purl.obolibrary.org/obo/GO_0046902	regulation of mitochondrial membrane permeability	http://purl.obolibrary.org/obo/OBA_0000104	mitochondrial membrane permeability
+http://purl.obolibrary.org/obo/GO_0051881	regulation of mitochondrial membrane potential	http://purl.obolibrary.org/obo/OBA_0000105	mitochondrial membrane potential
+http://purl.obolibrary.org/obo/GO_0044529	regulation of mitochondrial rRNA stability	http://purl.obolibrary.org/obo/OBA_0000106	mitochondrial rRNA stability
+http://purl.obolibrary.org/obo/GO_0010796	regulation of multivesicular body size	http://purl.obolibrary.org/obo/OBA_0000107	multivesicular body size
+http://purl.obolibrary.org/obo/GO_0032972	regulation of muscle filament sliding speed	http://purl.obolibrary.org/obo/OBA_0000110	muscle filament sliding speed
+http://purl.obolibrary.org/obo/GO_0014882	regulation of myofibril number	http://purl.obolibrary.org/obo/OBA_0000112	myofibril number
+http://purl.obolibrary.org/obo/GO_0014881	regulation of myofibril size	http://purl.obolibrary.org/obo/OBA_0000113	myofibril size
+http://purl.obolibrary.org/obo/GO_0048168	regulation of neuronal synaptic plasticity	http://purl.obolibrary.org/obo/OBA_0000114	neuronal synaptic plasticity
+http://purl.obolibrary.org/obo/GO_0001505	regulation of neurotransmitter levels	http://purl.obolibrary.org/obo/OBA_0000116	neurotransmitter levels
+http://purl.obolibrary.org/obo/GO_0097298	regulation of nucleus size	http://purl.obolibrary.org/obo/OBA_0000117	nuclear size
 http://purl.obolibrary.org/obo/GO_0006885	regulation of pH	http://purl.obolibrary.org/obo/PATO_0001842	acidity
+http://purl.obolibrary.org/obo/GO_0044375	regulation of peroxisome size	http://purl.obolibrary.org/obo/OBA_0000122	peroxisome size
+http://purl.obolibrary.org/obo/GO_0097036	regulation of plasma membrane sterol distribution	http://purl.obolibrary.org/obo/OBA_0000123	plasma membrane sterol distribution
+http://purl.obolibrary.org/obo/GO_0044656	regulation of post-lysosomal vacuole size	http://purl.obolibrary.org/obo/OBA_0000124	post-lysosomal vacuole size
+http://purl.obolibrary.org/obo/GO_0035565	regulation of pronephros size	http://purl.obolibrary.org/obo/OBA_0000127	pronephric kidney size
+http://purl.obolibrary.org/obo/GO_0031647	regulation of protein stability	http://purl.obolibrary.org/obo/OBA_0000128	protein stability
+http://purl.obolibrary.org/obo/GO_0044357	regulation of rRNA stability	http://purl.obolibrary.org/obo/OBA_0000129	rRNA stability
+http://purl.obolibrary.org/obo/GO_0060075	regulation of resting membrane potential	http://purl.obolibrary.org/obo/OBA_0000134	resting membrane potential
+http://purl.obolibrary.org/obo/GO_0048172	regulation of short-term neuronal synaptic plasticity	http://purl.obolibrary.org/obo/OBA_0000136	short-term neuronal synaptic plasticity
+http://purl.obolibrary.org/obo/GO_0050803	regulation of synapse structure or activity	http://purl.obolibrary.org/obo/OBA_0000139	synapse structure and activity
+http://purl.obolibrary.org/obo/GO_0031916	regulation of synaptic metaplasticity	http://purl.obolibrary.org/obo/OBA_0000140	synaptic metaplasticity
+http://purl.obolibrary.org/obo/GO_0048167	regulation of synaptic plasticity	http://purl.obolibrary.org/obo/OBA_0000141	synaptic plasticity
+http://purl.obolibrary.org/obo/GO_0003073	regulation of systemic arterial blood pressure	http://purl.obolibrary.org/obo/OBA_0000143	systemic arterial blood pressure
+http://purl.obolibrary.org/obo/GO_0090067	regulation of thalamus size	http://purl.obolibrary.org/obo/OBA_0000160	thalamus size
+http://purl.obolibrary.org/obo/GO_0002026	regulation of the force of heart contraction	http://purl.obolibrary.org/obo/OBA_0000161	force of heart contraction
+http://purl.obolibrary.org/obo/GO_0014729	regulation of the velocity of shortening of skeletal muscle modulating contraction	http://purl.obolibrary.org/obo/OBA_0000164	velocity of shortening of skeletal muscle modulating contraction
+http://purl.obolibrary.org/obo/GO_0006450	regulation of translational fidelity	http://purl.obolibrary.org/obo/OBA_0000169	translational accuracy
+http://purl.obolibrary.org/obo/GO_0035296	regulation of tube diameter	http://purl.obolibrary.org/obo/OBA_0000171	tube diameter
+http://purl.obolibrary.org/obo/GO_0035158	regulation of tube diameter, open tracheal system	http://purl.obolibrary.org/obo/OBA_0000166	tracheal tube diameter
+http://purl.obolibrary.org/obo/GO_0035159	regulation of tube length, open tracheal system	http://purl.obolibrary.org/obo/OBA_0000167	tracheal tube length
+http://purl.obolibrary.org/obo/GO_0035150	regulation of tube size	http://purl.obolibrary.org/obo/OBA_0000172	tube size
+http://purl.obolibrary.org/obo/GO_0035809	regulation of urine volume	http://purl.obolibrary.org/obo/OBA_0000173	urinary volume
+http://purl.obolibrary.org/obo/GO_0043114	regulation of vascular permeability	http://purl.obolibrary.org/obo/OBA_0000174	vascular permeability
+http://purl.obolibrary.org/obo/GO_0097494	regulation of vesicle size	http://purl.obolibrary.org/obo/OBA_1000142	vesicle size
