@@ -202,7 +202,6 @@ http://purl.obolibrary.org/obo/GO_0035024	negative regulation of Rho protein sig
 http://purl.obolibrary.org/obo/GO_2000299	negative regulation of Rho-dependent protein serine/threonine kinase activity	http://purl.obolibrary.org/obo/GO_0072518	Rho-dependent protein serine/threonine kinase activity
 http://purl.obolibrary.org/obo/GO_0035387	negative regulation of Roundabout signaling pathway	http://purl.obolibrary.org/obo/GO_0035385	Roundabout signaling pathway
 http://purl.obolibrary.org/obo/GO_0062026	negative regulation of SCF-dependent proteasomal ubiquitin-dependent catabolic process	http://purl.obolibrary.org/obo/GO_0031146	SCF-dependent proteasomal ubiquitin-dependent protein catabolic process
-http://purl.obolibrary.org/obo/GO_0010991	negative regulation of SMAD protein complex assembly	http://purl.obolibrary.org/obo/GO_0007183	SMAD protein complex assembly
 http://purl.obolibrary.org/obo/GO_0060392	negative regulation of SMAD protein signal transduction	http://purl.obolibrary.org/obo/GO_0060395	SMAD protein signal transduction
 http://purl.obolibrary.org/obo/GO_0035544	negative regulation of SNARE complex assembly	http://purl.obolibrary.org/obo/GO_0035493	SNARE complex assembly
 http://purl.obolibrary.org/obo/GO_0035541	negative regulation of SNARE complex disassembly	http://purl.obolibrary.org/obo/GO_0035494	SNARE complex disassembly
@@ -278,7 +277,6 @@ http://purl.obolibrary.org/obo/GO_1904233	negative regulation of aconitate hydra
 http://purl.obolibrary.org/obo/GO_1902225	negative regulation of acrosome reaction	http://purl.obolibrary.org/obo/GO_0007340	acrosome reaction
 http://purl.obolibrary.org/obo/GO_1904617	negative regulation of actin binding	http://purl.obolibrary.org/obo/GO_0003779	actin binding
 http://purl.obolibrary.org/obo/GO_0120133	negative regulation of actin cortical patch assembly	http://purl.obolibrary.org/obo/GO_0000147	actin cortical patch assembly
-http://purl.obolibrary.org/obo/GO_2000250	negative regulation of actin cytoskeleton reorganization	http://purl.obolibrary.org/obo/GO_0031532	actin cytoskeleton reorganization
 http://purl.obolibrary.org/obo/GO_1904530	negative regulation of actin filament binding	http://purl.obolibrary.org/obo/GO_0051015	actin filament binding
 http://purl.obolibrary.org/obo/GO_0032232	negative regulation of actin filament bundle assembly	http://purl.obolibrary.org/obo/GO_0051017	actin filament bundle assembly
 http://purl.obolibrary.org/obo/GO_0030835	negative regulation of actin filament depolymerization	http://purl.obolibrary.org/obo/GO_0030042	actin filament depolymerization
@@ -295,7 +293,6 @@ http://purl.obolibrary.org/obo/GO_0001971	negative regulation of activation of m
 http://purl.obolibrary.org/obo/GO_0070236	negative regulation of activation-induced cell death of T cells	http://purl.obolibrary.org/obo/GO_0006924	activation-induced cell death of T cells
 http://purl.obolibrary.org/obo/GO_0032926	negative regulation of activin receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0032924	activin receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0032336	negative regulation of activin secretion	http://purl.obolibrary.org/obo/GO_0032333	activin secretion
-http://purl.obolibrary.org/obo/GO_1901649	negative regulation of actomyosin contractile ring localization	http://purl.obolibrary.org/obo/GO_0032187	actomyosin contractile ring localization
 http://purl.obolibrary.org/obo/GO_0002674	negative regulation of acute inflammatory response	http://purl.obolibrary.org/obo/GO_0002526	acute inflammatory response
 http://purl.obolibrary.org/obo/GO_0002865	negative regulation of acute inflammatory response to antigenic stimulus	http://purl.obolibrary.org/obo/GO_0002438	acute inflammatory response to antigenic stimulus
 http://purl.obolibrary.org/obo/GO_0002878	negative regulation of acute inflammatory response to non-antigenic stimulus	http://purl.obolibrary.org/obo/GO_0002525	acute inflammatory response to non-antigenic stimulus

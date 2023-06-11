@@ -235,7 +235,6 @@ http://purl.obolibrary.org/obo/GO_0035023	regulation of Rho protein signal trans
 http://purl.obolibrary.org/obo/GO_2000298	regulation of Rho-dependent protein serine/threonine kinase activity	http://purl.obolibrary.org/obo/GO_0072518	Rho-dependent protein serine/threonine kinase activity
 http://purl.obolibrary.org/obo/GO_0035386	regulation of Roundabout signaling pathway	http://purl.obolibrary.org/obo/GO_0035385	Roundabout signaling pathway
 http://purl.obolibrary.org/obo/GO_0062025	regulation of SCF-dependent proteasomal ubiquitin-dependent protein catabolic process	http://purl.obolibrary.org/obo/GO_0031146	SCF-dependent proteasomal ubiquitin-dependent protein catabolic process
-http://purl.obolibrary.org/obo/GO_0010990	regulation of SMAD protein complex assembly	http://purl.obolibrary.org/obo/GO_0007183	SMAD protein complex assembly
 http://purl.obolibrary.org/obo/GO_0060390	regulation of SMAD protein signal transduction	http://purl.obolibrary.org/obo/GO_0060395	SMAD protein signal transduction
 http://purl.obolibrary.org/obo/GO_0035542	regulation of SNARE complex assembly	http://purl.obolibrary.org/obo/GO_0035493	SNARE complex assembly
 http://purl.obolibrary.org/obo/GO_0035495	regulation of SNARE complex disassembly	http://purl.obolibrary.org/obo/GO_0035494	SNARE complex disassembly
@@ -317,7 +316,6 @@ http://purl.obolibrary.org/obo/GO_0060046	regulation of acrosome reaction	http:/
 http://purl.obolibrary.org/obo/GO_1904616	regulation of actin binding	http://purl.obolibrary.org/obo/GO_0003779	actin binding
 http://purl.obolibrary.org/obo/GO_0060583	regulation of actin cortical patch localization	http://purl.obolibrary.org/obo/GO_0051666	actin cortical patch localization
 http://purl.obolibrary.org/obo/GO_0032956	regulation of actin cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0030036	actin cytoskeleton organization
-http://purl.obolibrary.org/obo/GO_2000249	regulation of actin cytoskeleton reorganization	http://purl.obolibrary.org/obo/GO_0031532	actin cytoskeleton reorganization
 http://purl.obolibrary.org/obo/GO_1904529	regulation of actin filament binding	http://purl.obolibrary.org/obo/GO_0051015	actin filament binding
 http://purl.obolibrary.org/obo/GO_0032231	regulation of actin filament bundle assembly	http://purl.obolibrary.org/obo/GO_0051017	actin filament bundle assembly
 http://purl.obolibrary.org/obo/GO_0030834	regulation of actin filament depolymerization	http://purl.obolibrary.org/obo/GO_0030042	actin filament depolymerization
@@ -339,7 +337,6 @@ http://purl.obolibrary.org/obo/GO_0070235	regulation of activation-induced cell 
 http://purl.obolibrary.org/obo/GO_0032925	regulation of activin receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0032924	activin receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0032335	regulation of activin secretion	http://purl.obolibrary.org/obo/GO_0032333	activin secretion
 http://purl.obolibrary.org/obo/GO_0031991	regulation of actomyosin contractile ring contraction	http://purl.obolibrary.org/obo/GO_0000916	actomyosin contractile ring contraction
-http://purl.obolibrary.org/obo/GO_1901648	regulation of actomyosin contractile ring localization	http://purl.obolibrary.org/obo/GO_0032187	actomyosin contractile ring localization
 http://purl.obolibrary.org/obo/GO_0110020	regulation of actomyosin structure organization	http://purl.obolibrary.org/obo/GO_0031032	actomyosin structure organization
 http://purl.obolibrary.org/obo/GO_0002673	regulation of acute inflammatory response	http://purl.obolibrary.org/obo/GO_0002526	acute inflammatory response
 http://purl.obolibrary.org/obo/GO_0002864	regulation of acute inflammatory response to antigenic stimulus	http://purl.obolibrary.org/obo/GO_0002438	acute inflammatory response to antigenic stimulus
@@ -1186,8 +1183,6 @@ http://purl.obolibrary.org/obo/GO_0048778	regulation of erythrophore differentia
 http://purl.obolibrary.org/obo/GO_1904910	regulation of establishment of RNA localization to telomere	http://purl.obolibrary.org/obo/GO_0097694	establishment of RNA localization to telomere
 http://purl.obolibrary.org/obo/GO_1904444	regulation of establishment of Sertoli cell barrier	http://purl.obolibrary.org/obo/GO_0097368	establishment of Sertoli cell barrier
 http://purl.obolibrary.org/obo/GO_1903903	regulation of establishment of T cell polarity	http://purl.obolibrary.org/obo/GO_0001768	establishment of T cell polarity
-http://purl.obolibrary.org/obo/GO_0071342	regulation of establishment of actomyosin contractile ring localization	http://purl.obolibrary.org/obo/GO_0032188	establishment of actomyosin contractile ring localization
-http://purl.obolibrary.org/obo/GO_1903505	regulation of establishment of actomyosin contractile ring localization involved in mitotic cell cycle	http://purl.obolibrary.org/obo/GO_1903486	establishment of mitotic actomyosin contractile ring localization
 http://purl.obolibrary.org/obo/GO_0061172	regulation of establishment of bipolar cell polarity	http://purl.obolibrary.org/obo/GO_0061171	establishment of bipolar cell polarity
 http://purl.obolibrary.org/obo/GO_0090210	regulation of establishment of blood-brain barrier	http://purl.obolibrary.org/obo/GO_0060856	establishment of blood-brain barrier
 http://purl.obolibrary.org/obo/GO_2000114	regulation of establishment of cell polarity	http://purl.obolibrary.org/obo/GO_0030010	establishment of cell polarity
@@ -2026,7 +2021,6 @@ http://purl.obolibrary.org/obo/GO_1903466	regulation of mitotic DNA replication 
 http://purl.obolibrary.org/obo/GO_1903499	regulation of mitotic actomyosin contractile ring assembly	http://purl.obolibrary.org/obo/GO_1903475	mitotic actomyosin contractile ring assembly
 http://purl.obolibrary.org/obo/GO_1903471	regulation of mitotic actomyosin contractile ring contraction	http://purl.obolibrary.org/obo/GO_1902404	mitotic actomyosin contractile ring contraction
 http://purl.obolibrary.org/obo/GO_0120150	regulation of mitotic actomyosin contractile ring disassembly	http://purl.obolibrary.org/obo/GO_1990274	mitotic actomyosin contractile ring disassembly
-http://purl.obolibrary.org/obo/GO_1902471	regulation of mitotic actomyosin contractile ring localization	http://purl.obolibrary.org/obo/GO_1902405	mitotic actomyosin contractile ring localization
 http://purl.obolibrary.org/obo/GO_1904789	regulation of mitotic actomyosin contractile ring maintenance	http://purl.obolibrary.org/obo/GO_1902406	mitotic actomyosin contractile ring maintenance
 http://purl.obolibrary.org/obo/GO_0007346	regulation of mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000278	mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_1903463	regulation of mitotic cell cycle DNA replication	http://purl.obolibrary.org/obo/GO_1902969	mitotic DNA replication
