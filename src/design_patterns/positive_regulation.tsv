@@ -275,7 +275,6 @@ http://purl.obolibrary.org/obo/GO_1904234	positive regulation of aconitate hydra
 http://purl.obolibrary.org/obo/GO_2000368	positive regulation of acrosomal vesicle exocytosis	http://purl.obolibrary.org/obo/GO_0060478	acrosomal vesicle exocytosis
 http://purl.obolibrary.org/obo/GO_2000344	positive regulation of acrosome reaction	http://purl.obolibrary.org/obo/GO_0007340	acrosome reaction
 http://purl.obolibrary.org/obo/GO_1904618	positive regulation of actin binding	http://purl.obolibrary.org/obo/GO_0003779	actin binding
-http://purl.obolibrary.org/obo/GO_2000251	positive regulation of actin cytoskeleton reorganization	http://purl.obolibrary.org/obo/GO_0031532	actin cytoskeleton reorganization
 http://purl.obolibrary.org/obo/GO_1904531	positive regulation of actin filament binding	http://purl.obolibrary.org/obo/GO_0051015	actin filament binding
 http://purl.obolibrary.org/obo/GO_0032233	positive regulation of actin filament bundle assembly	http://purl.obolibrary.org/obo/GO_0051017	actin filament bundle assembly
 http://purl.obolibrary.org/obo/GO_0030836	positive regulation of actin filament depolymerization	http://purl.obolibrary.org/obo/GO_0030042	actin filament depolymerization
@@ -293,7 +292,6 @@ http://purl.obolibrary.org/obo/GO_0001970	positive regulation of activation of m
 http://purl.obolibrary.org/obo/GO_0070237	positive regulation of activation-induced cell death of T cells	http://purl.obolibrary.org/obo/GO_0006924	activation-induced cell death of T cells
 http://purl.obolibrary.org/obo/GO_0032927	positive regulation of activin receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0032924	activin receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0032337	positive regulation of activin secretion	http://purl.obolibrary.org/obo/GO_0032333	activin secretion
-http://purl.obolibrary.org/obo/GO_1901650	positive regulation of actomyosin contractile ring localization	http://purl.obolibrary.org/obo/GO_0032187	actomyosin contractile ring localization
 http://purl.obolibrary.org/obo/GO_0002675	positive regulation of acute inflammatory response	http://purl.obolibrary.org/obo/GO_0002526	acute inflammatory response
 http://purl.obolibrary.org/obo/GO_0002866	positive regulation of acute inflammatory response to antigenic stimulus	http://purl.obolibrary.org/obo/GO_0002438	acute inflammatory response to antigenic stimulus
 http://purl.obolibrary.org/obo/GO_0002879	positive regulation of acute inflammatory response to non-antigenic stimulus	http://purl.obolibrary.org/obo/GO_0002525	acute inflammatory response to non-antigenic stimulus
