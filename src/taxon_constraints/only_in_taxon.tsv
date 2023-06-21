@@ -685,7 +685,6 @@ GO:0140250	regulation protein catabolic process at synapse	NCBITaxon:33208	Metaz
 GO:1904381	Golgi apparatus mannose trimming	NCBITaxon:2759	Eukaryota	
 GO:1905951	mitochondrion DNA recombination	NCBITaxon:2759	Eukaryota	
 GO:1990180	mitochondrial tRNA 3'-end processing	NCBITaxon:2759	Eukaryota	
-GO:2000803	endosomal signal transduction	NCBITaxon:2759	Eukaryota	
 GO:0000957	mitochondrial RNA catabolic process	NCBITaxon:2759	Eukaryota	
 GO:0000958	mitochondrial mRNA catabolic process	NCBITaxon:2759	Eukaryota	
 GO:0000959	mitochondrial RNA metabolic process	NCBITaxon:2759	Eukaryota	
