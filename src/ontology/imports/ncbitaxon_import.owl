@@ -7732,7 +7732,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33083"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33680"/>
         <oboInOwl:hasExactSynonym>dictyostelid cellular slime molds</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Dictyostelida</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Dictyostelids</oboInOwl:hasRelatedSynonym>
@@ -8022,26 +8021,6 @@
         <oboInOwl:hasRelatedSynonym>Heterokonta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Straminipila</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Stramenopiles</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33680 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33680">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_142796"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33680"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>plasmodial slime molds</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>Myxomycetes</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Myxomycota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>myxomycete</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>plasmodial slime molds</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Myxogastria</rdfs:label>
     </owl:Class>
     
 
@@ -25267,16 +25246,6 @@
         <owl:disjointWith>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33680"/>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33083"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33083"/>
@@ -25654,20 +25623,6 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33634"/>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33680"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33680"/>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
