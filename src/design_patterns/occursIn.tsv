@@ -8,7 +8,6 @@ http://purl.obolibrary.org/obo/GO_0002514	B cell tolerance induction	http://purl
 http://purl.obolibrary.org/obo/GO_1904381	Golgi apparatus mannose trimming	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus	http://purl.obolibrary.org/obo/GO_0036508	protein alpha-1,2-demannosylation
 http://purl.obolibrary.org/obo/GO_0032468	Golgi calcium ion homeostasis	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus	http://purl.obolibrary.org/obo/GO_0055074	calcium ion homeostasis
 http://purl.obolibrary.org/obo/GO_0086017	Purkinje myocyte action potential	http://purl.obolibrary.org/obo/CL_0002068	Purkinje myocyte	http://purl.obolibrary.org/obo/GO_0001508	action potential
-http://purl.obolibrary.org/obo/GO_0140235	RNA polyadenylation at postsynapse	http://purl.obolibrary.org/obo/GO_0098794	postsynapse	http://purl.obolibrary.org/obo/GO_0043631	RNA polyadenylation
 http://purl.obolibrary.org/obo/GO_0086015	SA node cell action potential	http://purl.obolibrary.org/obo/CL_1000409	myocyte of sinoatrial node	http://purl.obolibrary.org/obo/GO_0001508	action potential
 http://purl.obolibrary.org/obo/GO_1902484	Sertoli cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000216	Sertoli cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0002457	T cell antigen processing and presentation	http://purl.obolibrary.org/obo/CL_0000084	T cell	http://purl.obolibrary.org/obo/GO_0019882	antigen processing and presentation
@@ -182,7 +181,6 @@ http://purl.obolibrary.org/obo/GO_0070154	mitochondrial lysyl-tRNA aminoacylatio
 http://purl.obolibrary.org/obo/GO_0090616	mitochondrial mRNA 3'-end processing	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0031124	mRNA 3'-end processing
 http://purl.obolibrary.org/obo/GO_0000958	mitochondrial mRNA catabolic process	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006402	mRNA catabolic process
 http://purl.obolibrary.org/obo/GO_0080156	mitochondrial mRNA modification	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0016556	mRNA modification
-http://purl.obolibrary.org/obo/GO_0097222	mitochondrial mRNA polyadenylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006378	mRNA polyadenylation
 http://purl.obolibrary.org/obo/GO_0090615	mitochondrial mRNA processing	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006397	mRNA processing
 http://purl.obolibrary.org/obo/GO_0007006	mitochondrial membrane organization	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0061024	membrane organization
 http://purl.obolibrary.org/obo/GO_0070155	mitochondrial methionyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006431	methionyl-tRNA aminoacylation
@@ -197,7 +195,6 @@ http://purl.obolibrary.org/obo/GO_0034553	mitochondrial respiratory chain comple
 http://purl.obolibrary.org/obo/GO_0034551	mitochondrial respiratory chain complex III assembly	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0017062	respiratory chain complex III assembly
 http://purl.obolibrary.org/obo/GO_0070158	mitochondrial seryl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006434	seryl-tRNA aminoacylation
 http://purl.obolibrary.org/obo/GO_1990180	mitochondrial tRNA 3'-end processing	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0042780	tRNA 3'-end processing
-http://purl.obolibrary.org/obo/GO_0072684	mitochondrial tRNA 3'-trailer cleavage, endonucleolytic	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0034414	tRNA 3'-trailer cleavage, endonucleolytic
 http://purl.obolibrary.org/obo/GO_0070901	mitochondrial tRNA methylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0030488	tRNA methylation
 http://purl.obolibrary.org/obo/GO_0070900	mitochondrial tRNA modification	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006400	tRNA modification
 http://purl.obolibrary.org/obo/GO_0070902	mitochondrial tRNA pseudouridine synthesis	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0031119	tRNA pseudouridine synthesis
@@ -232,8 +229,6 @@ http://purl.obolibrary.org/obo/GO_0021849	neuroblast division in subventricular 
 http://purl.obolibrary.org/obo/GO_0051402	neuron apoptotic process	http://purl.obolibrary.org/obo/CL_0000540	neuron	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0070050	neuron cellular homeostasis	http://purl.obolibrary.org/obo/CL_0000540	neuron	http://purl.obolibrary.org/obo/GO_0019725	cellular homeostasis
 http://purl.obolibrary.org/obo/GO_0070997	neuron death	http://purl.obolibrary.org/obo/CL_0000540	neuron	http://purl.obolibrary.org/obo/GO_0008219	cell death
-http://purl.obolibrary.org/obo/GO_0036476	neuron death in response to hydrogen peroxide	http://purl.obolibrary.org/obo/CL_0000540	neuron	http://purl.obolibrary.org/obo/GO_0036474	cell death in response to hydrogen peroxide
-http://purl.obolibrary.org/obo/GO_0036475	neuron death in response to oxidative stress	http://purl.obolibrary.org/obo/CL_0000540	neuron	http://purl.obolibrary.org/obo/GO_0036473	cell death in response to oxidative stress
 http://purl.obolibrary.org/obo/GO_0036483	neuron intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	http://purl.obolibrary.org/obo/CL_0000540	neuron	http://purl.obolibrary.org/obo/GO_0070059	intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress
 http://purl.obolibrary.org/obo/GO_0036482	neuron intrinsic apoptotic signaling pathway in response to hydrogen peroxide	http://purl.obolibrary.org/obo/CL_0000540	neuron	http://purl.obolibrary.org/obo/GO_0036481	intrinsic apoptotic signaling pathway in response to hydrogen peroxide
 http://purl.obolibrary.org/obo/GO_0036480	neuron intrinsic apoptotic signaling pathway in response to oxidative stress	http://purl.obolibrary.org/obo/CL_0000540	neuron	http://purl.obolibrary.org/obo/GO_0008631	intrinsic apoptotic signaling pathway in response to oxidative stress
@@ -244,7 +239,6 @@ http://purl.obolibrary.org/obo/GO_0043312	neutrophil degranulation	http://purl.o
 http://purl.obolibrary.org/obo/GO_0032293	non-myelinated axon ensheathment in central nervous system	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system	http://purl.obolibrary.org/obo/GO_0032285	non-myelinated axon ensheathment
 http://purl.obolibrary.org/obo/GO_0071027	nuclear RNA surveillance	http://purl.obolibrary.org/obo/GO_0005634	nucleus	http://purl.obolibrary.org/obo/GO_0071025	RNA surveillance
 http://purl.obolibrary.org/obo/GO_0039708	nuclear capsid assembly	http://purl.obolibrary.org/obo/GO_0042025	host cell nucleus	http://purl.obolibrary.org/obo/GO_0019069	viral capsid assembly
-http://purl.obolibrary.org/obo/GO_1902375	nuclear tRNA 3'-trailer cleavage, endonucleolytic	http://purl.obolibrary.org/obo/GO_0005634	nucleus	http://purl.obolibrary.org/obo/GO_0034414	tRNA 3'-trailer cleavage, endonucleolytic
 http://purl.obolibrary.org/obo/GO_0060233	oenocyte delamination	http://purl.obolibrary.org/obo/CL_0000487	oenocyte	http://purl.obolibrary.org/obo/GO_0060232	delamination
 http://purl.obolibrary.org/obo/GO_0071678	olfactory bulb axon guidance	http://purl.obolibrary.org/obo/CL_1001434	olfactory bulb interneuron	http://purl.obolibrary.org/obo/GO_0007411	axon guidance
 http://purl.obolibrary.org/obo/GO_0097252	oligodendrocyte apoptotic process	http://purl.obolibrary.org/obo/CL_0000128	oligodendrocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
@@ -290,7 +284,6 @@ http://purl.obolibrary.org/obo/GO_0055119	relaxation of cardiac muscle	http://pu
 http://purl.obolibrary.org/obo/GO_0090076	relaxation of skeletal muscle	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue	http://purl.obolibrary.org/obo/GO_0090075	relaxation of muscle
 http://purl.obolibrary.org/obo/GO_0044557	relaxation of smooth muscle	http://purl.obolibrary.org/obo/UBERON_0001135	smooth muscle tissue	http://purl.obolibrary.org/obo/GO_0090075	relaxation of muscle
 http://purl.obolibrary.org/obo/GO_0003096	renal sodium ion transport	http://purl.obolibrary.org/obo/UBERON_0001008	renal system	http://purl.obolibrary.org/obo/GO_0006814	sodium ion transport
-http://purl.obolibrary.org/obo/GO_0003091	renal water homeostasis	http://purl.obolibrary.org/obo/UBERON_0001008	renal system	http://purl.obolibrary.org/obo/GO_0030104	water homeostasis
 http://purl.obolibrary.org/obo/GO_0003092	renal water retention	http://purl.obolibrary.org/obo/UBERON_0001008	renal system	http://purl.obolibrary.org/obo/GO_0035811	negative regulation of urine volume
 http://purl.obolibrary.org/obo/GO_0003097	renal water transport	http://purl.obolibrary.org/obo/UBERON_0001008	renal system	http://purl.obolibrary.org/obo/GO_0006833	water transport
 http://purl.obolibrary.org/obo/GO_1990009	retinal cell apoptotic process	http://purl.obolibrary.org/obo/CL_0009004	retinal cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process

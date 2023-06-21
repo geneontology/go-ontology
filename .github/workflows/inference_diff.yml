@@ -12,7 +12,7 @@ on:
 jobs:
   classify_pr:
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.3.1
+    container: obolibrary/odkfull:v1.4
     steps:
       - uses: actions/checkout@v2
       - name: Classify ontology

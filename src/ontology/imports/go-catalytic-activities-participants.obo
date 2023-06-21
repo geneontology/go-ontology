@@ -368,6 +368,14 @@ relationship: RO:0000057 CHEBI:57973
 relationship: RO:0000057 CHEBI:63166
 
 [Term]
+id: GO:0003726
+relationship: RO:0000057 CHEBI:15377
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:28938
+relationship: RO:0000057 CHEBI:74411
+relationship: RO:0000057 CHEBI:82852
+
+[Term]
 id: GO:0003755
 relationship: RO:0000057 CHEBI:83833
 relationship: RO:0000057 CHEBI:83834
@@ -432,14 +440,6 @@ id: GO:0003834
 relationship: RO:0000057 CHEBI:15379
 relationship: RO:0000057 CHEBI:17579
 relationship: RO:0000057 CHEBI:17898
-
-[Term]
-id: GO:0003835
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:16153
-relationship: RO:0000057 CHEBI:57812
-relationship: RO:0000057 CHEBI:60040
-relationship: RO:0000057 CHEBI:60377
 
 [Term]
 id: GO:0003836
@@ -596,12 +596,6 @@ relationship: RO:0000057 CHEBI:13705
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:57540
 relationship: RO:0000057 CHEBI:57945
-
-[Term]
-id: GO:0003859
-relationship: RO:0000057 CHEBI:15377
-relationship: RO:0000057 CHEBI:57315
-relationship: RO:0000057 CHEBI:57332
 
 [Term]
 id: GO:0003860
@@ -1660,17 +1654,17 @@ relationship: RO:0000057 CHEBI:57604
 relationship: RO:0000057 CHEBI:58248
 
 [Term]
-id: GO:0004083
-relationship: RO:0000057 CHEBI:15377
-relationship: RO:0000057 CHEBI:43474
-relationship: RO:0000057 CHEBI:58248
-relationship: RO:0000057 CHEBI:58272
+id: GO:0004085
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:57332
+relationship: RO:0000057 CHEBI:57371
+relationship: RO:0000057 CHEBI:57692
+relationship: RO:0000057 CHEBI:58307
 
 [Term]
 id: GO:0004087
-relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:16526
+relationship: RO:0000057 CHEBI:17544
 relationship: RO:0000057 CHEBI:28938
 relationship: RO:0000057 CHEBI:30616
 relationship: RO:0000057 CHEBI:43474
@@ -2146,12 +2140,6 @@ relationship: RO:0000057 CHEBI:57305
 relationship: RO:0000057 CHEBI:61694
 
 [Term]
-id: GO:0004300
-relationship: RO:0000057 CHEBI:15377
-relationship: RO:0000057 CHEBI:57318
-relationship: RO:0000057 CHEBI:58856
-
-[Term]
 id: GO:0004301
 relationship: RO:0000057 CHEBI:140594
 relationship: RO:0000057 CHEBI:15377
@@ -2232,6 +2220,14 @@ id: GO:0004317
 relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:78480
 relationship: RO:0000057 CHEBI:78481
+
+[Term]
+id: GO:0004318
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:57540
+relationship: RO:0000057 CHEBI:57945
+relationship: RO:0000057 CHEBI:78784
+relationship: RO:0000057 CHEBI:78785
 
 [Term]
 id: GO:0004320
@@ -3286,14 +3282,6 @@ relationship: RO:0000057 CHEBI:58401
 relationship: RO:0000057 CHEBI:61548
 
 [Term]
-id: GO:0004513
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:17006
-relationship: RO:0000057 CHEBI:57812
-relationship: RO:0000057 CHEBI:58665
-relationship: RO:0000057 CHEBI:60377
-
-[Term]
 id: GO:0004514
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:16526
@@ -3802,13 +3790,6 @@ relationship: RO:0000057 CHEBI:138288
 relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:43474
-
-[Term]
-id: GO:0004652
-relationship: RO:0000057 CHEBI:140395
-relationship: RO:0000057 CHEBI:173115
-relationship: RO:0000057 CHEBI:30616
-relationship: RO:0000057 CHEBI:33019
 
 [Term]
 id: GO:0004654
@@ -4925,14 +4906,6 @@ relationship: RO:0000057 CHEBI:57939
 relationship: RO:0000057 CHEBI:58190
 
 [Term]
-id: GO:0008118
-relationship: RO:0000057 CHEBI:133507
-relationship: RO:0000057 CHEBI:136545
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:57812
-relationship: RO:0000057 CHEBI:60377
-
-[Term]
 id: GO:0008120
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:22801
@@ -6013,6 +5986,16 @@ relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:44348
 relationship: RO:0000057 CHEBI:44485
 relationship: RO:0000057 CHEBI:57783
+relationship: RO:0000057 CHEBI:58349
+
+[Term]
+id: GO:0008752
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:57540
+relationship: RO:0000057 CHEBI:57618
+relationship: RO:0000057 CHEBI:57783
+relationship: RO:0000057 CHEBI:57945
+relationship: RO:0000057 CHEBI:58210
 relationship: RO:0000057 CHEBI:58349
 
 [Term]
@@ -7466,6 +7449,15 @@ relationship: RO:0000057 CHEBI:58553
 relationship: RO:0000057 CHEBI:58756
 
 [Term]
+id: GO:0009922
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:16526
+relationship: RO:0000057 CHEBI:57287
+relationship: RO:0000057 CHEBI:57384
+relationship: RO:0000057 CHEBI:90725
+relationship: RO:0000057 CHEBI:90736
+
+[Term]
 id: GO:0009924
 relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:15378
@@ -8532,6 +8524,14 @@ relationship: RO:0000057 CHEBI:43474
 relationship: RO:0000057 CHEBI:456216
 
 [Term]
+id: GO:0016509
+relationship: RO:0000057 CHEBI:136757
+relationship: RO:0000057 CHEBI:136758
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:57540
+relationship: RO:0000057 CHEBI:57945
+
+[Term]
 id: GO:0016603
 relationship: RO:0000057 CHEBI:28938
 relationship: RO:0000057 CHEBI:64722
@@ -8565,7 +8565,7 @@ relationship: RO:0000057 CHEBI:58349
 [Term]
 id: GO:0016629
 relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:15720
+relationship: RO:0000057 CHEBI:191855
 relationship: RO:0000057 CHEBI:57411
 relationship: RO:0000057 CHEBI:57783
 relationship: RO:0000057 CHEBI:58349
@@ -10162,6 +10162,14 @@ relationship: RO:0000057 CHEBI:17359
 relationship: RO:0000057 CHEBI:18218
 
 [Term]
+id: GO:0018741
+relationship: RO:0000057 CHEBI:15377
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:15734
+relationship: RO:0000057 CHEBI:157685
+relationship: RO:0000057 CHEBI:16189
+
+[Term]
 id: GO:0018744
 relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:16431
@@ -10376,6 +10384,12 @@ relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:57343
 relationship: RO:0000057 CHEBI:76526
+
+[Term]
+id: GO:0018812
+relationship: RO:0000057 CHEBI:15377
+relationship: RO:0000057 CHEBI:58856
+relationship: RO:0000057 CHEBI:65102
 
 [Term]
 id: GO:0018813
@@ -13820,6 +13834,14 @@ relationship: RO:0000057 CHEBI:57783
 relationship: RO:0000057 CHEBI:58349
 
 [Term]
+id: GO:0036307
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:74411
+relationship: RO:0000057 CHEBI:74449
+
+[Term]
 id: GO:0036348
 relationship: RO:0000057 CHEBI:86339
 relationship: RO:0000057 CHEBI:86340
@@ -14442,6 +14464,14 @@ relationship: RO:0000057 CHEBI:58195
 relationship: RO:0000057 CHEBI:58199
 
 [Term]
+id: GO:0043771
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:17562
+relationship: RO:0000057 CHEBI:30616
+relationship: RO:0000057 CHEBI:456216
+relationship: RO:0000057 CHEBI:60377
+
+[Term]
 id: GO:0043774
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:29985
@@ -14639,6 +14669,13 @@ relationship: RO:0000057 CHEBI:57880
 relationship: RO:0000057 CHEBI:58178
 
 [Term]
+id: GO:0043813
+relationship: RO:0000057 CHEBI:15377
+relationship: RO:0000057 CHEBI:43474
+relationship: RO:0000057 CHEBI:57923
+relationship: RO:0000057 CHEBI:58088
+
+[Term]
 id: GO:0043814
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:33019
@@ -14736,6 +14773,14 @@ relationship: RO:0000057 CHEBI:43474
 relationship: RO:0000057 CHEBI:58057
 relationship: RO:0000057 CHEBI:74455
 relationship: RO:0000057 CHEBI:82743
+
+[Term]
+id: GO:0043829
+relationship: RO:0000057 CHEBI:15377
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:28938
+relationship: RO:0000057 CHEBI:74411
+relationship: RO:0000057 CHEBI:82852
 
 [Term]
 id: GO:0043831
@@ -14986,14 +15031,6 @@ relationship: RO:0000057 CHEBI:35491
 relationship: RO:0000057 CHEBI:58591
 
 [Term]
-id: GO:0044594
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:16469
-relationship: RO:0000057 CHEBI:17263
-relationship: RO:0000057 CHEBI:57540
-relationship: RO:0000057 CHEBI:57945
-
-[Term]
 id: GO:0044595
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:57856
@@ -15204,6 +15241,13 @@ relationship: RO:0000057 CHEBI:16810
 relationship: RO:0000057 CHEBI:30031
 relationship: RO:0000057 CHEBI:58524
 relationship: RO:0000057 CHEBI:58594
+
+[Term]
+id: GO:0045547
+relationship: RO:0000057 CHEBI:128769
+relationship: RO:0000057 CHEBI:136960
+relationship: RO:0000057 CHEBI:175763
+relationship: RO:0000057 CHEBI:33019
 
 [Term]
 id: GO:0045548
@@ -17523,14 +17567,6 @@ relationship: RO:0000057 CHEBI:57540
 relationship: RO:0000057 CHEBI:82697
 
 [Term]
-id: GO:0047287
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:17950
-relationship: RO:0000057 CHEBI:57812
-relationship: RO:0000057 CHEBI:60079
-relationship: RO:0000057 CHEBI:60377
-
-[Term]
 id: GO:0047288
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:57812
@@ -18623,6 +18659,12 @@ relationship: RO:0000057 CHEBI:35173
 relationship: RO:0000057 CHEBI:58136
 
 [Term]
+id: GO:0047450
+relationship: RO:0000057 CHEBI:15377
+relationship: RO:0000057 CHEBI:78451
+relationship: RO:0000057 CHEBI:78453
+
+[Term]
 id: GO:0047451
 relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:78461
@@ -19049,13 +19091,6 @@ id: GO:0047529
 relationship: RO:0000057 CHEBI:15361
 relationship: RO:0000057 CHEBI:17272
 relationship: RO:0000057 CHEBI:57422
-
-[Term]
-id: GO:0047531
-relationship: RO:0000057 CHEBI:16810
-relationship: RO:0000057 CHEBI:29985
-relationship: RO:0000057 CHEBI:46911
-relationship: RO:0000057 CHEBI:58802
 
 [Term]
 id: GO:0047532
@@ -19726,15 +19761,7 @@ relationship: RO:0000057 CHEBI:58450
 [Term]
 id: GO:0047625
 relationship: RO:0000057 CHEBI:17509
-relationship: RO:0000057 CHEBI:58093
-relationship: RO:0000057 CHEBI:59789
-
-[Term]
-id: GO:0047626
-relationship: RO:0000057 CHEBI:15377
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:17509
-relationship: RO:0000057 CHEBI:57476
+relationship: RO:0000057 CHEBI:58633
 relationship: RO:0000057 CHEBI:59789
 
 [Term]
@@ -20602,9 +20629,9 @@ relationship: RO:0000057 CHEBI:17168
 
 [Term]
 id: GO:0047751
+relationship: RO:0000057 CHEBI:13601
 relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:16175
-relationship: RO:0000057 CHEBI:17762
+relationship: RO:0000057 CHEBI:47909
 relationship: RO:0000057 CHEBI:57783
 relationship: RO:0000057 CHEBI:58349
 
@@ -21943,15 +21970,6 @@ relationship: RO:0000057 CHEBI:57287
 relationship: RO:0000057 CHEBI:57378
 
 [Term]
-id: GO:0047949
-relationship: RO:0000057 CHEBI:15377
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:16120
-relationship: RO:0000057 CHEBI:30921
-relationship: RO:0000057 CHEBI:57540
-relationship: RO:0000057 CHEBI:57945
-
-[Term]
 id: GO:0047950
 relationship: RO:0000057 CHEBI:15379
 relationship: RO:0000057 CHEBI:16240
@@ -23059,9 +23077,10 @@ relationship: RO:0000057 CHEBI:57637
 
 [Term]
 id: GO:0050101
+relationship: RO:0000057 CHEBI:15361
 relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:28630
-relationship: RO:0000057 CHEBI:33384
+relationship: RO:0000057 CHEBI:28938
 relationship: RO:0000057 CHEBI:77689
 
 [Term]
@@ -23592,16 +23611,6 @@ relationship: RO:0000057 CHEBI:58293
 relationship: RO:0000057 CHEBI:86048
 
 [Term]
-id: GO:0050184
-relationship: RO:0000057 CHEBI:15377
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:15379
-relationship: RO:0000057 CHEBI:29033
-relationship: RO:0000057 CHEBI:29034
-relationship: RO:0000057 CHEBI:88240
-relationship: RO:0000057 CHEBI:88351
-
-[Term]
 id: GO:0050185
 relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:15378
@@ -23799,14 +23808,6 @@ relationship: RO:0000057 CHEBI:15379
 relationship: RO:0000057 CHEBI:16076
 relationship: RO:0000057 CHEBI:17026
 relationship: RO:0000057 CHEBI:17499
-
-[Term]
-id: GO:0050213
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:17026
-relationship: RO:0000057 CHEBI:28952
-relationship: RO:0000057 CHEBI:57783
-relationship: RO:0000057 CHEBI:58349
 
 [Term]
 id: GO:0050214
@@ -24361,6 +24362,14 @@ relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:18084
 relationship: RO:0000057 CHEBI:58177
+
+[Term]
+id: GO:0050294
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:177917
+relationship: RO:0000057 CHEBI:177918
+relationship: RO:0000057 CHEBI:58339
+relationship: RO:0000057 CHEBI:58343
 
 [Term]
 id: GO:0050295
@@ -25317,14 +25326,6 @@ relationship: RO:0000057 CHEBI:58349
 relationship: RO:0000057 CHEBI:60023
 
 [Term]
-id: GO:0050453
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:16304
-relationship: RO:0000057 CHEBI:57540
-relationship: RO:0000057 CHEBI:57945
-relationship: RO:0000057 CHEBI:60488
-
-[Term]
 id: GO:0050454
 relationship: RO:0000057 CHEBI:133980
 relationship: RO:0000057 CHEBI:139511
@@ -25823,9 +25824,8 @@ relationship: RO:0000057 CHEBI:87305
 [Term]
 id: GO:0050549
 relationship: RO:0000057 CHEBI:15377
-relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:17945
-relationship: RO:0000057 CHEBI:58334
+relationship: RO:0000057 CHEBI:17966
 
 [Term]
 id: GO:0050551
@@ -26705,7 +26705,7 @@ relationship: RO:0000057 CHEBI:58307
 relationship: RO:0000057 CHEBI:60039
 
 [Term]
-id: GO:0051734
+id: GO:0051736
 relationship: RO:0000057 CHEBI:138282
 relationship: RO:0000057 CHEBI:138284
 relationship: RO:0000057 CHEBI:15378
@@ -27360,6 +27360,13 @@ relationship: RO:0000057 CHEBI:61457
 relationship: RO:0000057 CHEBI:61463
 
 [Term]
+id: GO:0052692
+relationship: RO:0000057 CHEBI:15377
+relationship: RO:0000057 CHEBI:16634
+relationship: RO:0000057 CHEBI:17992
+relationship: RO:0000057 CHEBI:4139
+
+[Term]
 id: GO:0052693
 relationship: RO:0000057 CHEBI:13193
 relationship: RO:0000057 CHEBI:15377
@@ -27383,6 +27390,14 @@ relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:15379
 relationship: RO:0000057 CHEBI:17594
 relationship: RO:0000057 CHEBI:17977
+
+[Term]
+id: GO:0052717
+relationship: RO:0000057 CHEBI:15377
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:28938
+relationship: RO:0000057 CHEBI:74411
+relationship: RO:0000057 CHEBI:82852
 
 [Term]
 id: GO:0052722
@@ -27905,18 +27920,6 @@ relationship: RO:0000057 CHEBI:57683
 relationship: RO:0000057 CHEBI:58211
 
 [Term]
-id: GO:0052920
-relationship: RO:0000057 CHEBI:18407
-relationship: RO:0000057 CHEBI:28398
-relationship: RO:0000057 CHEBI:60908
-
-[Term]
-id: GO:0052921
-relationship: RO:0000057 CHEBI:15347
-relationship: RO:0000057 CHEBI:15348
-relationship: RO:0000057 CHEBI:18407
-
-[Term]
 id: GO:0052922
 relationship: RO:0000057 CHEBI:128769
 relationship: RO:0000057 CHEBI:33019
@@ -28200,6 +28203,14 @@ relationship: RO:0000057 CHEBI:15379
 relationship: RO:0000057 CHEBI:17336
 relationship: RO:0000057 CHEBI:33737
 relationship: RO:0000057 CHEBI:33738
+
+[Term]
+id: GO:0061920
+relationship: RO:0000057 CHEBI:138019
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57287
+relationship: RO:0000057 CHEBI:57392
 
 [Term]
 id: GO:0061928
@@ -28551,15 +28562,6 @@ relationship: RO:0000057 CHEBI:57783
 relationship: RO:0000057 CHEBI:58349
 
 [Term]
-id: GO:0070579
-relationship: RO:0000057 CHEBI:136731
-relationship: RO:0000057 CHEBI:15379
-relationship: RO:0000057 CHEBI:16526
-relationship: RO:0000057 CHEBI:16810
-relationship: RO:0000057 CHEBI:30031
-relationship: RO:0000057 CHEBI:85454
-
-[Term]
 id: GO:0070626
 relationship: RO:0000057 CHEBI:29806
 relationship: RO:0000057 CHEBI:58443
@@ -28792,6 +28794,13 @@ relationship: RO:0000057 CHEBI:33019
 relationship: RO:0000057 CHEBI:456215
 relationship: RO:0000057 CHEBI:57287
 relationship: RO:0000057 CHEBI:57384
+
+[Term]
+id: GO:0090447
+relationship: RO:0000057 CHEBI:57287
+relationship: RO:0000057 CHEBI:57597
+relationship: RO:0000057 CHEBI:58342
+relationship: RO:0000057 CHEBI:64982
 
 [Term]
 id: GO:0090486
@@ -29543,12 +29552,6 @@ relationship: RO:0000057 CHEBI:57945
 relationship: RO:0000057 CHEBI:61289
 
 [Term]
-id: GO:0102158
-relationship: RO:0000057 CHEBI:15377
-relationship: RO:0000057 CHEBI:83728
-relationship: RO:0000057 CHEBI:85440
-
-[Term]
 id: GO:0102159
 relationship: RO:0000057 CHEBI:58052
 relationship: RO:0000057 CHEBI:58223
@@ -29815,16 +29818,6 @@ relationship: RO:0000057 CHEBI:16113
 relationship: RO:0000057 CHEBI:17495
 relationship: RO:0000057 CHEBI:58223
 relationship: RO:0000057 CHEBI:58885
-
-[Term]
-id: GO:0102207
-relationship: RO:0000057 CHEBI:15377
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:15379
-relationship: RO:0000057 CHEBI:23858
-relationship: RO:0000057 CHEBI:57618
-relationship: RO:0000057 CHEBI:58210
-relationship: RO:0000057 CHEBI:76304
 
 [Term]
 id: GO:0102208
@@ -30159,6 +30152,16 @@ relationship: RO:0000057 CHEBI:57540
 relationship: RO:0000057 CHEBI:57945
 
 [Term]
+id: GO:0102322
+relationship: RO:0000057 CHEBI:147331
+relationship: RO:0000057 CHEBI:147332
+relationship: RO:0000057 CHEBI:15377
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:15379
+relationship: RO:0000057 CHEBI:57540
+relationship: RO:0000057 CHEBI:57945
+
+[Term]
 id: GO:0102323
 relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:15378
@@ -30192,33 +30195,6 @@ relationship: RO:0000057 CHEBI:58223
 relationship: RO:0000057 CHEBI:67138
 relationship: RO:0000057 CHEBI:68652
 relationship: RO:0000057 CHEBI:68672
-
-[Term]
-id: GO:0102336
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:16526
-relationship: RO:0000057 CHEBI:57287
-relationship: RO:0000057 CHEBI:57384
-relationship: RO:0000057 CHEBI:57394
-relationship: RO:0000057 CHEBI:65115
-
-[Term]
-id: GO:0102337
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:16526
-relationship: RO:0000057 CHEBI:57287
-relationship: RO:0000057 CHEBI:57384
-relationship: RO:0000057 CHEBI:65052
-relationship: RO:0000057 CHEBI:73980
-
-[Term]
-id: GO:0102338
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:16526
-relationship: RO:0000057 CHEBI:57287
-relationship: RO:0000057 CHEBI:57384
-relationship: RO:0000057 CHEBI:65059
-relationship: RO:0000057 CHEBI:73977
 
 [Term]
 id: GO:0102351
@@ -30321,13 +30297,6 @@ id: GO:0102412
 relationship: RO:0000057 CHEBI:175763
 relationship: RO:0000057 CHEBI:33019
 relationship: RO:0000057 CHEBI:68625
-
-[Term]
-id: GO:0102419
-relationship: RO:0000057 CHEBI:57287
-relationship: RO:0000057 CHEBI:57597
-relationship: RO:0000057 CHEBI:58342
-relationship: RO:0000057 CHEBI:64982
 
 [Term]
 id: GO:0102443
@@ -30939,15 +30908,6 @@ relationship: RO:0000057 CHEBI:140574
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:58223
 relationship: RO:0000057 CHEBI:58885
-
-[Term]
-id: GO:0102756
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:16526
-relationship: RO:0000057 CHEBI:57287
-relationship: RO:0000057 CHEBI:57384
-relationship: RO:0000057 CHEBI:90725
-relationship: RO:0000057 CHEBI:90736
 
 [Term]
 id: GO:0102757
@@ -31727,14 +31687,6 @@ relationship: RO:0000057 CHEBI:37721
 relationship: RO:0000057 CHEBI:43474
 
 [Term]
-id: GO:0103030
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:17158
-relationship: RO:0000057 CHEBI:27957
-relationship: RO:0000057 CHEBI:57540
-relationship: RO:0000057 CHEBI:57945
-
-[Term]
 id: GO:0103031
 relationship: RO:0000057 CHEBI:61395
 relationship: RO:0000057 CHEBI:61396
@@ -31962,6 +31914,14 @@ relationship: RO:0000057 CHEBI:71685
 id: GO:0106029
 relationship: RO:0000057 CHEBI:65314
 relationship: RO:0000057 CHEBI:65315
+
+[Term]
+id: GO:0106059
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:74495
+relationship: RO:0000057 CHEBI:82748
 
 [Term]
 id: GO:0106073
@@ -32685,12 +32645,6 @@ relationship: RO:0000057 CHEBI:57783
 relationship: RO:0000057 CHEBI:58349
 
 [Term]
-id: GO:0106360
-relationship: RO:0000057 CHEBI:49190
-relationship: RO:0000057 CHEBI:57376
-relationship: RO:0000057 CHEBI:58784
-
-[Term]
 id: GO:0106361
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:167445
@@ -32979,6 +32933,11 @@ relationship: RO:0000057 CHEBI:24646
 relationship: RO:0000057 CHEBI:29919
 relationship: RO:0000057 CHEBI:57925
 relationship: RO:0000057 CHEBI:58905
+
+[Term]
+id: GO:0106439
+relationship: RO:0000057 CHEBI:32551
+relationship: RO:0000057 CHEBI:32682
 
 [Term]
 id: GO:0110050
@@ -33306,15 +33265,6 @@ relationship: RO:0000057 CHEBI:57632
 relationship: RO:0000057 CHEBI:58223
 
 [Term]
-id: GO:0140567
-relationship: RO:0000057 CHEBI:15377
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:30616
-relationship: RO:0000057 CHEBI:43474
-relationship: RO:0000057 CHEBI:456216
-relationship: RO:0000057 CHEBI:90782
-
-[Term]
 id: GO:0140571
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:29033
@@ -33637,6 +33587,11 @@ relationship: RO:0000057 CHEBI:62738
 relationship: RO:0000057 CHEBI:62743
 
 [Term]
+id: GO:0140900
+relationship: RO:0000057 CHEBI:17544
+relationship: RO:0000057 CHEBI:17996
+
+[Term]
 id: GO:0140901
 relationship: RO:0000057 CHEBI:29101
 relationship: RO:0000057 CHEBI:58048
@@ -33648,6 +33603,179 @@ relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:156461
 relationship: RO:0000057 CHEBI:63714
+
+[Term]
+id: GO:0140941
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61929
+relationship: RO:0000057 CHEBI:61976
+
+[Term]
+id: GO:0140942
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61976
+
+[Term]
+id: GO:0140943
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61961
+
+[Term]
+id: GO:0140944
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61929
+
+[Term]
+id: GO:0140945
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61929
+
+[Term]
+id: GO:0140946
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61976
+
+[Term]
+id: GO:0140947
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61929
+
+[Term]
+id: GO:0140948
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61961
+relationship: RO:0000057 CHEBI:61976
+
+[Term]
+id: GO:0140949
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61961
+
+[Term]
+id: GO:0140951
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61961
+
+[Term]
+id: GO:0140952
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61976
+
+[Term]
+id: GO:0140953
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61929
+
+[Term]
+id: GO:0140954
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61976
+
+[Term]
+id: GO:0140955
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61961
+
+[Term]
+id: GO:0140956
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61961
+
+[Term]
+id: GO:0140981
+relationship: RO:0000057 CHEBI:15377
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:15379
+relationship: RO:0000057 CHEBI:194240
+relationship: RO:0000057 CHEBI:194241
+relationship: RO:0000057 CHEBI:57618
+relationship: RO:0000057 CHEBI:58210
+
+[Term]
+id: GO:0140983
+relationship: RO:0000057 CHEBI:29035
+relationship: RO:0000057 CHEBI:29108
+
+[Term]
+id: GO:0140987
+relationship: RO:0000057 CHEBI:18420
+relationship: RO:0000057 CHEBI:30616
+relationship: RO:0000057 CHEBI:43474
+
+[Term]
+id: GO:0140988
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:43474
+relationship: RO:0000057 CHEBI:456216
+
+[Term]
+id: GO:0140989
+relationship: RO:0000057 CHEBI:15377
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:15379
+relationship: RO:0000057 CHEBI:18052
+relationship: RO:0000057 CHEBI:57618
+relationship: RO:0000057 CHEBI:58210
+relationship: RO:0000057 CHEBI:76844
+
+[Term]
+id: GO:0140999
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:29969
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
+relationship: RO:0000057 CHEBI:61961
+
+[Term]
+id: GO:0141035
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:17815
+relationship: RO:0000057 CHEBI:37563
+relationship: RO:0000057 CHEBI:58069
+relationship: RO:0000057 CHEBI:58608
 
 [Term]
 id: GO:0160008
@@ -33680,6 +33808,11 @@ relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:17154
 relationship: RO:0000057 CHEBI:29969
 relationship: RO:0000057 CHEBI:57540
+
+[Term]
+id: GO:0180003
+relationship: RO:0000057 CHEBI:57856
+relationship: RO:0000057 CHEBI:59789
 
 [Term]
 id: GO:1901235
@@ -33816,6 +33949,13 @@ relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:17802
 relationship: RO:0000057 CHEBI:43474
 relationship: RO:0000057 CHEBI:58380
+
+[Term]
+id: GO:1990817
+relationship: RO:0000057 CHEBI:140395
+relationship: RO:0000057 CHEBI:173115
+relationship: RO:0000057 CHEBI:30616
+relationship: RO:0000057 CHEBI:33019
 
 [Term]
 id: GO:1990930

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-10-11/imports/uberon_import.owl
+data-version: go/releases/2023-05-24/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -2642,13 +2642,16 @@ relationship: surrounded_by UBERON:0000061 ! anatomical structure
 id: UBERON:0000465
 name: material anatomical entity
 def: "Anatomical entity that has mass." []
+is_a: BFO:0000040
 is_a: UBERON:0001062 ! anatomical entity
+disjoint_from: UBERON:0000466 ! immaterial anatomical entity
 
 [Term]
 id: UBERON:0000466
 name: immaterial anatomical entity
 def: "Anatomical entity that has no mass." []
 synonym: "immaterial physical anatomical entity" EXACT []
+is_a: BFO:0000141
 is_a: UBERON:0001062 ! anatomical entity
 
 [Term]
@@ -2753,8 +2756,8 @@ disjoint_from: UBERON:0010000 ! multicellular anatomical structure
 [Term]
 id: UBERON:0000477
 name: anatomical cluster
-def: "Anatomical group that has its parts adjacent to one another." []
-is_a: UBERON:0001062 ! anatomical entity
+def: "Anatomical group whose component anatomical structures lie in close proximity to each other." []
+is_a: UBERON:0034923 ! disconnected anatomical group
 
 [Term]
 id: UBERON:0000478
@@ -3034,7 +3037,7 @@ relationship: part_of UBERON:0007026 ! presumptive gut
 
 [Term]
 id: UBERON:0000933
-name: pharyngeal muscle
+name: chordate pharyngeal muscle
 def: "A muscle that acts on the pharynx[WP, vetted]." []
 synonym: "branchial muscle" EXACT []
 synonym: "branchial muscles" RELATED []
@@ -3042,6 +3045,7 @@ synonym: "muscle of pharynx" EXACT []
 synonym: "muscle organ of pharynx" EXACT []
 synonym: "musculi pharyngis" RELATED []
 synonym: "musculus pharyngis" RELATED []
+synonym: "pharyngeal muscle" EXACT []
 synonym: "pharynx muscle" EXACT []
 synonym: "pharynx muscle organ" EXACT []
 synonym: "tunica muscularis pharyngis" RELATED []
@@ -3098,7 +3102,7 @@ id: UBERON:0000939
 name: imaginal disc
 def: "One of the parts of a holometabolous insect larva that will become a portion of the outside of the adult insect during the pupal transformation." []
 synonym: "imaginal disk" RELATED []
-is_a: UBERON:0007499 ! epithelial sac
+is_a: UBERON:0000481 ! multi-tissue structure
 relationship: only_in_taxon NCBITaxon:50557
 relationship: part_of UBERON:0002548 ! larva
 
@@ -3148,9 +3152,8 @@ relationship: part_of UBERON:0001041 ! foregut
 
 [Term]
 id: UBERON:0000946
-name: cardial valve
+name: cardiac valve
 def: "A membranous fold of the heart that prevents reflux of fluid." []
-synonym: "cardiac valve" RELATED []
 synonym: "heart valve" EXACT []
 synonym: "heart valve" RELATED []
 synonym: "heart valves" RELATED []
@@ -3158,7 +3161,6 @@ synonym: "stomodaeal valve" RELATED []
 synonym: "valve of heart" EXACT []
 synonym: "valvule" RELATED []
 is_a: UBERON:0003978 ! valve
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0002062 ! endocardial cushion
 relationship: part_of UBERON:0000948 ! heart
 
@@ -3202,8 +3204,8 @@ def: "Anatomical system that consists of the glands and parts of glands that pro
 synonym: "endocrine glandular system" EXACT []
 synonym: "endocrine system" EXACT []
 synonym: "systema endocrinum" EXACT []
-is_a: UBERON:0000467 ! anatomical system
-intersection_of: UBERON:0000467 ! anatomical system
+is_a: UBERON:0015204 ! glandular system
+intersection_of: UBERON:0015203 ! non-connected functional system
 intersection_of: capable_of GO:0050886
 disjoint_from: UBERON:0000990 ! reproductive system
 disjoint_from: UBERON:0001004 ! respiratory system
@@ -3351,7 +3353,6 @@ synonym: "cornea of camera-type eye" EXACT []
 synonym: "corneas" RELATED []
 synonym: "tunica cornea" RELATED []
 is_a: UBERON:0010000 ! multicellular anatomical structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: continuous_with UBERON:0001773 ! sclera
 relationship: contributes_to_morphology_of UBERON:0001801 ! anterior segment of eyeball
 relationship: developmentally_induced_by UBERON:0005426 ! lens vesicle
@@ -3367,7 +3368,7 @@ relationship: part_of UBERON:0012430 ! tunica fibrosa of eyeball
 [Term]
 id: UBERON:0000965
 name: lens of camera-type eye
-def: "Transparent part of camera-type eye that helps to refract light to be focused on the retina." []
+def: "A transparent and refractive lens located posterior to the iris. The lens of camera-type eye refracts light to be focused on the retina." []
 synonym: "camera-type eye lens" EXACT []
 synonym: "crystalline lens" RELATED []
 synonym: "eye lens" EXACT []
@@ -3561,7 +3562,7 @@ relationship: proximally_connected_to UBERON:0007832 ! pelvic girdle skeleton
 [Term]
 id: UBERON:0000982
 name: skeletal joint
-def: "Anatomical cluster that consists of two or more adjacent skeletal structures, which may be interconnected by various types of tissue[VSAO]." []
+def: "Anatomical structure that consists of two or more adjacent skeletal structures, which may be interconnected by various types of tissue[VSAO]." []
 synonym: "articular joint" RELATED []
 synonym: "articulation" BROAD []
 synonym: "joint" BROAD []
@@ -4152,7 +4153,7 @@ synonym: "sensory organ system" RELATED []
 synonym: "sensory subsystem" EXACT []
 synonym: "sensory systems" EXACT []
 synonym: "set of sense organs" RELATED []
-is_a: UBERON:0000467 ! anatomical system
+is_a: UBERON:0015203 ! non-connected functional system
 relationship: capable_of_part_of GO:0007600
 relationship: overlaps UBERON:0001016 ! nervous system
 relationship: part_of UBERON:0004456 ! entire sense organ system
@@ -4193,7 +4194,6 @@ synonym: "setulae" RELATED []
 synonym: "vibrissa" RELATED []
 synonym: "whisker" RELATED []
 is_a: UBERON:0000021 ! cutaneous appendage
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0002073 ! hair follicle
 relationship: has_part GO:0045095
 relationship: only_in_taxon NCBITaxon:40674
@@ -4388,7 +4388,6 @@ def: "A terminal branch of the left or right common carotid artery which supplie
 synonym: "arteria carotis externa" RELATED []
 synonym: "external carotid" EXACT []
 is_a: UBERON:0005396 ! carotid artery segment
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: branching_part_of UBERON:0001530 ! common carotid artery plus branches
 relationship: develops_from UBERON:0001530 ! common carotid artery plus branches
 relationship: develops_from UBERON:0004363 ! pharyngeal arch artery
@@ -4711,7 +4710,6 @@ synonym: "collar bone" EXACT []
 synonym: "collarbone" EXACT []
 is_a: UBERON:0002495 ! long bone
 is_a: UBERON:0003461 {gci_relation="part_of", gci_filler="NCBITaxon:32523"} ! shoulder bone
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0015212 ! lateral structure
 relationship: connected_to UBERON:0000975 {gci_relation="part_of", gci_filler="NCBITaxon:9606"} ! sternum
 relationship: develops_from UBERON:0010905 ! clavicle bone primordium
@@ -4891,12 +4889,12 @@ synonym: "textus muscularis of heart muscle" EXACT []
 synonym: "textus muscularis of heart myocardium" EXACT []
 synonym: "textus muscularis of muscle of heart" EXACT []
 synonym: "textus muscularis of myocardium" EXACT []
-is_a: UBERON:0002036 ! striated muscle tissue
+is_a: UBERON:8600006 ! visceral striated muscle tissue
 intersection_of: UBERON:0002036 ! striated muscle tissue
 intersection_of: has_part CL:0000746
 disjoint_from: UBERON:0001134 ! skeletal muscle tissue
 relationship: composed_primarily_of CL:0000746
-relationship: part_of UBERON:0000948 ! heart
+relationship: part_of UBERON:0007100 ! primary circulatory organ
 
 [Term]
 id: UBERON:0001134
@@ -6993,7 +6991,6 @@ is_a: UBERON:0000058 ! duct
 relationship: channel_for CL:0000019
 relationship: channels_into UBERON:0003959 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! rete testis
 relationship: contains_process GO:0007283
-relationship: contains_process GO:0051321
 relationship: develops_from UBERON:0005297 ! testis sex cord
 relationship: part_of UBERON:0000473 ! testis
 
@@ -7978,7 +7975,6 @@ synonym: "ascending thoracic aorta" EXACT []
 synonym: "pars ascendens aortae" EXACT []
 synonym: "pars ascendens aortae" RELATED []
 is_a: UBERON:0005800 ! section of aorta
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: contributes_to_morphology_of UBERON:0001515 ! thoracic aorta
 relationship: develops_from UBERON:0005338 ! outflow tract aortic component
 relationship: has_developmental_contribution_from UBERON:0002061 ! truncus arteriosus
@@ -8053,7 +8049,6 @@ synonym: "aortic arch" RELATED []
 synonym: "arcus aortae" EXACT []
 synonym: "thoracic aorta" RELATED []
 is_a: UBERON:0005800 ! section of aorta
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: connected_to UBERON:0001496 ! ascending aorta
 relationship: contributes_to_morphology_of UBERON:0001515 ! thoracic aorta
 relationship: develops_from UBERON:0003121 ! pharyngeal arch artery 4
@@ -8220,7 +8215,6 @@ synonym: "carotid artery system" EXACT []
 synonym: "common carotid artery" EXACT []
 synonym: "trunk of common carotid tree" EXACT []
 is_a: UBERON:0004573 ! systemic artery
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: connected_to UBERON:0001508 ! arch of aorta
 relationship: develops_from UBERON:0004363 ! pharyngeal arch artery
 relationship: existence_starts_during UBERON:0000068 ! embryo stage
@@ -8246,7 +8240,6 @@ synonym: "ICA" RELATED []
 synonym: "internal carotid" EXACT []
 is_a: UBERON:0003496 ! head blood vessel
 is_a: UBERON:0005396 ! carotid artery segment
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: branching_part_of UBERON:0001530 ! common carotid artery plus branches
 relationship: develops_from UBERON:0004363 ! pharyngeal arch artery
 relationship: develops_from UBERON:2001053 ! future internal carotid artery
@@ -8401,7 +8394,7 @@ relationship: part_of UBERON:0001007 ! digestive system
 id: UBERON:0001556
 name: lower urinary tract
 def: "Subdivision of urinary system which consists of the urinary bladder and the urethra." []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0011216 ! organ system subdivision
 relationship: has_part UBERON:0000057 ! urethra
 relationship: has_part UBERON:0001255 ! urinary bladder
 relationship: part_of UBERON:0001008 ! renal system
@@ -8519,7 +8512,6 @@ synonym: "muscle of facil expression" RELATED []
 synonym: "muscle organ of face" EXACT []
 synonym: "muscles of facial expression" RELATED []
 synonym: "musculi faciei" RELATED []
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0015789 ! cranial or facial muscle
 intersection_of: UBERON:0014892 ! skeletal muscle organ
 intersection_of: innervated_by UBERON:0001647 ! facial nerve
@@ -9052,6 +9044,7 @@ synonym: "nervus facialis" RELATED []
 synonym: "nervus facialis [vii]" EXACT []
 synonym: "seventh cranial nerve" EXACT []
 is_a: UBERON:0001785 ! cranial nerve
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001021 ! nerve
 intersection_of: extends_fibers_into UBERON:0000127 ! facial nucleus
 intersection_of: innervates UBERON:0001577 ! facial muscle
@@ -9352,7 +9345,6 @@ synonym: "hyoideum" RELATED []
 synonym: "lingual bone" RELATED []
 synonym: "os hyoideum" RELATED []
 is_a: UBERON:0008001 ! irregular bone
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: has_developmental_contribution_from UBERON:0003066 ! pharyngeal arch 2
 relationship: has_developmental_contribution_from UBERON:0003114 ! pharyngeal arch 3
 relationship: part_of UBERON:0008895 ! splanchnocranium
@@ -9456,7 +9448,6 @@ synonym: "gVII" EXACT []
 synonym: "internal genu" RELATED []
 is_a: UBERON:0001800 ! sensory ganglion
 is_a: UBERON:0009127 ! epibranchial ganglion
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001714 ! cranial ganglion
 intersection_of: extends_fibers_into UBERON:0001647 ! facial nerve
 relationship: develops_from UBERON:0005565 ! facio-acoustic neural crest
@@ -9732,7 +9723,6 @@ name: tongue
 def: "A muscular organ in the floor of the mouth." []
 synonym: "glossus" RELATED []
 is_a: UBERON:0000020 ! sense organ
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: adjacent_to UBERON:0000166 ! oral opening
 relationship: contributes_to_morphology_of UBERON:0001007 ! digestive system
 relationship: develops_from UBERON:0008814 ! pharyngeal arch system
@@ -9774,7 +9764,6 @@ relationship: capable_of GO:0050912
 relationship: contributes_to_morphology_of UBERON:0001033 ! gustatory system
 relationship: develops_from UBERON:0007690 ! early pharyngeal endoderm
 relationship: has_part CL:0000209
-relationship: has_part GO:0008527
 relationship: part_of UBERON:0001033 ! gustatory system
 relationship: part_of UBERON:0002926 ! gustatory epithelium
 
@@ -9815,7 +9804,7 @@ synonym: "muscular palate" RELATED []
 synonym: "palatum molle" RELATED []
 synonym: "velum" RELATED []
 synonym: "velum palatinum" RELATED []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0034921 ! multi organ part structure
 relationship: part_of UBERON:0000165 ! mouth
 relationship: part_of UBERON:0001716 ! secondary palate
 
@@ -10053,6 +10042,7 @@ synonym: "vagus nerve or its root" RELATED []
 synonym: "vagus nerve tree" EXACT []
 synonym: "vagus X nerve" EXACT []
 is_a: UBERON:0001785 ! cranial nerve
+is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001785 ! cranial nerve
 intersection_of: extends_fibers_into UBERON:0011775 ! vagus nerve nucleus
 relationship: extends_fibers_into UBERON:0002075 ! viscus
@@ -11311,9 +11301,8 @@ synonym: "diaphragmatic nerve" RELATED []
 synonym: "nervus phrenicus" RELATED []
 synonym: "phrenic" RELATED []
 is_a: UBERON:0003443 ! thoracic cavity nerve
-is_a: UBERON:0003473 ! thoracic cavity artery
 intersection_of: UBERON:0001021 ! nerve
-intersection_of: supplies UBERON:0001103 ! diaphragm
+intersection_of: innervates UBERON:0001103 ! diaphragm
 relationship: branching_part_of UBERON:0000962 ! nerve of cervical vertebra
 relationship: located_in UBERON:0002224 ! thoracic cavity
 
@@ -11495,6 +11484,7 @@ synonym: "thalamus" BROAD []
 synonym: "thalamus opticus" RELATED []
 synonym: "wider thalamus" EXACT []
 is_a: UBERON:0002616 ! regional part of brain
+is_a: UBERON:0015212 ! lateral structure
 relationship: contributes_to_morphology_of UBERON:0001894 ! diencephalon
 relationship: in_lateral_side_of UBERON:0010225 ! thalamic complex
 relationship: part_of UBERON:0010225 ! thalamic complex
@@ -12492,7 +12482,6 @@ synonym: "pulmonary arterial tree" EXACT []
 synonym: "pulmonary arterial tree organ part" EXACT []
 synonym: "truncus pulmonalis" RELATED []
 is_a: UBERON:0001637 ! artery
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0013768 ! great vessel of heart
 intersection_of: UBERON:0001637 ! artery
 intersection_of: part_of UBERON:0008886 ! pulmonary vascular system
@@ -12523,7 +12512,6 @@ def: "Pulmonary veins are blood vessels that transport blood from the lungs to t
 synonym: "pulmonary venous tree organ part" EXACT []
 synonym: "venae pulmonales" RELATED []
 is_a: UBERON:0001638 ! vein
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0013768 ! great vessel of heart
 intersection_of: UBERON:0001638 ! vein
 intersection_of: drains UBERON:0002048 ! lung
@@ -12707,6 +12695,7 @@ synonym: "Soemmering's substance" EXACT []
 synonym: "substancia nigra" RELATED []
 synonym: "substantia nigra (Soemmerringi)" RELATED []
 is_a: UBERON:0009661 ! midbrain nucleus
+is_a: UBERON:0015212 ! lateral structure
 relationship: contributes_to_morphology_of UBERON:0001891 ! midbrain
 relationship: contributes_to_morphology_of UBERON:0010011 ! collection of basal ganglia
 relationship: in_lateral_side_of UBERON:0001891 ! midbrain
@@ -12843,10 +12832,6 @@ synonym: "bronchiolar epithelium" EXACT []
 synonym: "bronchiole epithelial tissue" EXACT []
 synonym: "bronchiole epithelium" EXACT []
 synonym: "epithelial tissue of bronchiole" EXACT []
-synonym: "epithelial tissue of lobular bronchiole" EXACT []
-synonym: "epithelium of lobular bronchiole" EXACT []
-synonym: "lobular bronchiole epithelial tissue" EXACT []
-synonym: "lobular bronchiole epithelium" EXACT []
 is_a: UBERON:0003350 ! epithelium of mucosa
 is_a: UBERON:0004802 ! respiratory tract epithelium
 intersection_of: UBERON:0000483 ! epithelium
@@ -12914,7 +12899,6 @@ name: truncus arteriosus
 def: "The truncus arteriosus and bulbus cordis are divided by the aorticopulmonary septum. The truncus arteriosus gives rise to the ascending aorta and the pulmonary trunk. The bulbus cordis gives rise to the smooth parts (outflow tract) of the left and right ventricles." []
 is_a: UBERON:0001637 ! artery
 is_a: UBERON:0002050 ! embryonic structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0005432 ! aortic sac
 relationship: part_of UBERON:0004145 ! outflow tract
 relationship: part_of UBERON:0005498 ! primitive heart tube
@@ -12997,7 +12981,6 @@ id: UBERON:0002073
 name: hair follicle
 def: "A tube-like opening in the epidermis where the hair shaft develops and into which the sebaceous glands open[GO]." []
 synonym: "folliculus pili" RELATED []
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0036150 ! skin appendage follicle
 relationship: develops_from UBERON:0005086 ! hair follicle placode
 relationship: overlaps UBERON:0001037 ! strand of hair
@@ -13054,7 +13037,7 @@ relationship: part_of UBERON:0002074 ! hair shaft
 [Term]
 id: UBERON:0002078
 name: right cardiac atrium
-def: "A cardiac atrium that is in the left side of the heart. It receives deoxygenated blood. In mammals, this comes from the superior and inferior vena cava and the coronary sinus, and pumps it into the right ventricle through the tricuspid valve." []
+def: "A cardiac atrium that is in the right side of the heart. It receives deoxygenated blood. In mammals, this comes from the superior and inferior vena cava and the coronary sinus, and pumps it into the right ventricle through the tricuspid valve." []
 synonym: "atrium dextrum" RELATED []
 synonym: "cardiac right atrium" EXACT []
 synonym: "heart right atrium" EXACT []
@@ -13161,7 +13144,7 @@ name: sinoatrial valve
 def: "A valve at the opening of the sinus venosus into the primordial atrium[TFD,modified]." []
 synonym: "sinoatrial valves" RELATED []
 synonym: "sinuatrial valve" EXACT []
-is_a: UBERON:0000946 ! cardial valve
+is_a: UBERON:0000946 ! cardiac valve
 is_a: UBERON:0002050 ! embryonic structure
 relationship: connects UBERON:0002063 ! sinus venosus
 relationship: connects UBERON:0002081 ! cardiac atrium
@@ -13754,7 +13737,7 @@ name: atrioventricular valve
 def: "A cardial valve in the atrioventricular region that separates the atrium from the ventricle and prevent backflow from the ventricles into the atria during systole." []
 synonym: "atrio-ventricular valve" RELATED []
 synonym: "AV valve" EXACT []
-is_a: UBERON:0000946 ! cardial valve
+is_a: UBERON:0000946 ! cardiac valve
 relationship: attached_to UBERON:0004292 ! cardiac skeleton
 relationship: connects UBERON:0002081 ! cardiac atrium
 relationship: connects UBERON:0002082 ! cardiac ventricle
@@ -13964,6 +13947,7 @@ is_a: UBERON:0007499 ! epithelial sac
 intersection_of: UBERON:0007499 ! epithelial sac
 intersection_of: part_of UBERON:0008874 ! pulmonary acinus
 relationship: contributes_to_morphology_of UBERON:0008874 ! pulmonary acinus
+relationship: has_part UBERON:0002299 ! alveolus of lung
 relationship: part_of UBERON:0006524 ! alveolar system
 relationship: part_of UBERON:0008874 ! pulmonary acinus
 
@@ -14005,11 +13989,9 @@ name: bronchiole
 def: "The conducting airway of the lungs found terminal to the bronchi; these structures contain neither cartilage nor mucous-secreting glands; the epithelium of the bronchioles becomes thinner with each branching." []
 synonym: "bronchioli" RELATED []
 synonym: "bronchiolus" RELATED []
-synonym: "lobular bronchiole" EXACT []
 is_a: UBERON:0000117 ! respiratory tube
-relationship: branching_part_of UBERON:0002185 ! bronchus
+relationship: branching_part_of UBERON:0007196 ! tracheobronchial tree
 relationship: part_of UBERON:0002048 ! lung
-relationship: part_of UBERON:0007196 ! tracheobronchial tree
 relationship: part_of UBERON:0010368 ! pulmonary lobule
 
 [Term]
@@ -14467,6 +14449,7 @@ synonym: "posterior horn of spinal cord" EXACT []
 synonym: "spinal cord dorsal horn" EXACT []
 synonym: "spinal cord dorsal horns" RELATED []
 synonym: "spinal cord posterior horn" EXACT []
+is_a: UBERON:0015212 ! lateral structure
 is_a: UBERON:0016550 ! spinal cord column
 disjoint_from: UBERON:0002257 ! ventral horn of spinal cord
 relationship: capable_of_part_of GO:0019230
@@ -14499,6 +14482,7 @@ synonym: "ventral horn spinal cord" EXACT []
 synonym: "ventral horns spinal cord" RELATED []
 synonym: "ventral region of spinal cord" EXACT []
 synonym: "ventral spinal cord" EXACT []
+is_a: UBERON:0015212 ! lateral structure
 is_a: UBERON:0016550 ! spinal cord column
 relationship: contributes_to_morphology_of UBERON:0002315 ! gray matter of spinal cord
 relationship: has_part CL:0000100
@@ -14518,6 +14502,7 @@ synonym: "posterior funiculus" EXACT []
 synonym: "posterior funiculus of spinal cord" EXACT []
 synonym: "posterior white column of spinal cord" EXACT []
 is_a: UBERON:0006127 ! funiculus of spinal cord
+is_a: UBERON:0015212 ! lateral structure
 relationship: in_lateral_side_of UBERON:0002318 ! white matter of spinal cord
 
 [Term]
@@ -14811,8 +14796,8 @@ intersection_of: part_of UBERON:0002048 ! lung
 relationship: contains_process GO:0007585
 relationship: contributes_to_morphology_of UBERON:0008874 ! pulmonary acinus
 relationship: only_in_taxon NCBITaxon:40674
-relationship: part_of UBERON:0002169 ! alveolar sac
 relationship: part_of UBERON:0006524 ! alveolar system
+relationship: part_of UBERON:0008874 ! pulmonary acinus
 
 [Term]
 id: UBERON:0002301
@@ -14846,7 +14831,7 @@ name: juxtaglomerular apparatus
 def: "An anatomical structure which consists of juxtaglomerular cells, extraglomerular mesangial cells and the macula densa. The juxtaglomerular apparatus lies adjacent to the glomerulus and regulates kidney function by maintaining the blood flow to the kidney and the filtration rate[GO]. a microscopic structure in the kidney, which regulates the function of each nephron. The juxtaglomerular apparatus is named for its proximity to the glomerulus: it is found between the vascular pole of the renal corpuscle and the returning distal convoluted tubule of the same nephron. This location is critical to its function in regulating renal blood flow and glomerular filtration rate. The three cellular components of the apparatus are the macula densa, extraglomerular mesangial cells, and juxtaglomerular cells (also known as granular cells)[WP]." []
 synonym: "complexus juxtaglomerularis" EXACT []
 synonym: "juxtaglomerular complex" EXACT []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0000061 ! anatomical structure
 relationship: capable_of GO:0003093
 relationship: has_part CL:0000648
 relationship: has_part CL:0002173
@@ -15292,7 +15277,6 @@ is_a: UBERON:0000923 ! germ layer
 is_a: UBERON:0004121 ! ectoderm-derived structure
 relationship: develops_from UBERON:0000924 ! ectoderm
 relationship: has_part CL:0000133
-relationship: has_part CL:0000530
 
 [Term]
 id: UBERON:0002347
@@ -15735,7 +15719,6 @@ synonym: "musculus trapezius" RELATED []
 synonym: "spinotrapezius" RELATED []
 synonym: "trapezius" EXACT []
 is_a: UBERON:0001482 ! muscle of shoulder
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0010955 ! trapezius pre-muscle mass
 relationship: has_muscle_antagonist UBERON:0001112 ! latissimus dorsi muscle
 relationship: has_muscle_antagonist UBERON:0001125 ! serratus ventralis
@@ -16006,7 +15989,7 @@ relationship: develops_from UBERON:0003887 ! intraembryonic coelom
 id: UBERON:0002405
 name: immune system
 def: "Anatomical system that protects the body from foreign substances, cells, and tissues by producing the immune response and that includes especially the thymus, spleen, lymphoid tissue, lymphocytes including the B cells and T cells, and antibodies." []
-is_a: UBERON:0000467 ! anatomical system
+is_a: UBERON:0015203 ! non-connected functional system
 disjoint_from: UBERON:0002416 ! integumental system
 disjoint_from: UBERON:0002423 ! hepatobiliary system
 disjoint_from: UBERON:0004456 ! entire sense organ system
@@ -17904,7 +17887,6 @@ synonym: "statoacoustic VIII ganglion" RELATED []
 synonym: "vestibulocochlear ganglia" RELATED []
 synonym: "vestibulocochlear VIII ganglion" EXACT []
 is_a: UBERON:0001714 ! cranial ganglion
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0003249 ! epithelium of otic placode
 relationship: develops_from UBERON:0005565 ! facio-acoustic neural crest
 relationship: develops_from UBERON:0012175 ! acoustico-facial VII-VIII ganglion complex
@@ -18550,8 +18532,6 @@ synonym: "VBI" RELATED []
 synonym: "ventral blood island" RELATED []
 synonym: "ventral lateral plate mesoderm" BROAD []
 is_a: UBERON:0006598 ! presumptive structure
-relationship: contains_process GO:0001525
-relationship: contains_process GO:0030097
 relationship: develops_from UBERON:0003081 ! lateral plate mesoderm
 relationship: has_potential_to_develop_into UBERON:0002390 ! hematopoietic system
 relationship: part_of UBERON:0000922 ! embryo
@@ -19434,7 +19414,7 @@ name: hard palate
 def: "Anterior portion of the palate consisting of bone and mucous membranes [GO]. The hard palate is formed from bony processes of the maxilla, premaxilla and palatine bone [Kardong]." []
 synonym: "hard palate" EXACT []
 synonym: "palatum durum" EXACT []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0034921 ! multi organ part structure
 relationship: part_of UBERON:0001716 ! secondary palate
 
 [Term]
@@ -22536,8 +22516,6 @@ id: UBERON:0003538
 name: right lung bronchiole
 def: "A bronchiole that is part of a right lung [Automatically generated definition]." []
 synonym: "bronchiole of right lung" EXACT []
-synonym: "lobular bronchiole of right lung" EXACT []
-synonym: "right lung lobular bronchiole" EXACT []
 is_a: UBERON:0002186 ! bronchiole
 intersection_of: UBERON:0002186 ! bronchiole
 intersection_of: part_of UBERON:0002167 ! right lung
@@ -22547,8 +22525,6 @@ id: UBERON:0003539
 name: left lung bronchiole
 def: "A bronchiole that is part of a left lung [Automatically generated definition]." []
 synonym: "bronchiole of left lung" EXACT []
-synonym: "left lung lobular bronchiole" EXACT []
-synonym: "lobular bronchiole of left lung" EXACT []
 is_a: UBERON:0002186 ! bronchiole
 intersection_of: UBERON:0002186 ! bronchiole
 intersection_of: part_of UBERON:0002168 ! left lung
@@ -23455,7 +23431,6 @@ synonym: "tracheal cartilage" EXACT []
 synonym: "tracheal ring" RELATED []
 synonym: "windpipe cartilage" EXACT []
 is_a: UBERON:0007844 ! cartilage element
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0007844 ! cartilage element
 intersection_of: part_of UBERON:0003126 ! trachea
 relationship: develops_from UBERON:0007267 ! trachea pre-cartilage rings
@@ -24342,8 +24317,6 @@ relationship: part_of UBERON:0001460 ! arm
 id: UBERON:0003823
 name: hindlimb zeugopod
 def: "The middle limb segment of the pelvic free limb, between the autopod and stylopod segments. Includes as parts the hindlimb zeugopodial skeleton, which includes as parts the tibia and fibula, or their cartilage precursors, or evolutionary variants." []
-synonym: "calf" NARROW []
-synonym: "calf of leg" EXACT []
 synonym: "crus" EXACT []
 synonym: "crus of hindlimb" EXACT []
 synonym: "hind epipodium" RELATED []
@@ -24362,15 +24335,7 @@ synonym: "lower extremity zeugopod" EXACT []
 synonym: "lower leg" EXACT []
 synonym: "middle limb segment of hind limb" EXACT []
 synonym: "middle limb segment of hindlimb" EXACT []
-synonym: "posterior curral region" EXACT []
-synonym: "posterior leg region" EXACT []
-synonym: "posterior part of leg" EXACT []
-synonym: "posterior region of leg" EXACT []
-synonym: "regio cruris posterior" EXACT []
-synonym: "regio surae" EXACT []
 synonym: "shank" EXACT []
-synonym: "sura" EXACT []
-synonym: "sural region" EXACT []
 synonym: "zeugopod of hind limb" EXACT []
 synonym: "zeugopod of hindlimb" EXACT []
 is_a: UBERON:0002471 ! zeugopod
@@ -24658,7 +24623,6 @@ synonym: "odontogenic epithelium" EXACT []
 synonym: "reduced enamel epithelium" RELATED []
 synonym: "tooth epithelium" EXACT []
 is_a: UBERON:0000483 ! epithelium
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: part_of UBERON:0005176 ! tooth enamel organ
 relationship: develops_from UBERON:0004362 ! pharyngeal arch 1
@@ -25971,7 +25935,6 @@ synonym: "alveolar margin" EXACT []
 synonym: "alveolar process" EXACT []
 synonym: "margo alveolaris" EXACT []
 is_a: UBERON:0005913 ! zone of bone organ
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: has_developmental_contribution_from UBERON:0008969 ! dental follicle
 relationship: part_of UBERON:0001708 ! jaw skeleton
 
@@ -26398,7 +26361,7 @@ id: UBERON:0004149
 name: ventriculo bulbo valve
 def: "A heart valve located between the ventricle and bulbus arteriosus." []
 synonym: "bulboventricular valve" EXACT []
-is_a: UBERON:0000946 ! cardial valve
+is_a: UBERON:0000946 ! cardiac valve
 relationship: develops_from UBERON:0002062 ! endocardial cushion
 
 [Term]
@@ -26408,7 +26371,7 @@ def: "Vestigial cardiac valve which is continuous with the valve of the inferior
 synonym: "thebesian valve" EXACT []
 synonym: "thebesius valve" EXACT []
 synonym: "valve of coronary sinus" EXACT []
-is_a: UBERON:0000946 ! cardial valve
+is_a: UBERON:0000946 ! cardiac valve
 
 [Term]
 id: UBERON:0004151
@@ -26433,7 +26396,6 @@ name: ventricular septum intermedium
 def: "Endocardial cushions project into the atrial canal, and, meeting in the middle line, unite to form the septum intermedium which divides the canal into two channels, the future right and left atrioventricular orifices[Gray's via WP]." []
 synonym: "septum intermedium" EXACT []
 is_a: UBERON:0002094 ! interventricular septum
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0002062 ! endocardial cushion
 
 [Term]
@@ -29047,7 +29009,6 @@ intersection_of: part_of UBERON:0002380 ! trapezius muscle
 id: UBERON:0004515
 name: smooth muscle tissue of bronchiole
 def: "A portion of smooth muscle tissue that is part of a bronchiole [Automatically generated definition]." []
-synonym: "smooth muscle tissue of lobular bronchiole" EXACT []
 is_a: UBERON:0001135 ! smooth muscle tissue
 intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: part_of UBERON:0002186 ! bronchiole
@@ -30169,7 +30130,6 @@ name: dermal skeletal element
 def: "Dermis-derived entity that is made of skeletal tissue." []
 synonym: "dermal element" EXACT []
 is_a: UBERON:0004765 ! skeletal element
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0004765 ! skeletal element
 intersection_of: develops_from UBERON:0002067 ! dermis
 intersection_of: has_part UBERON:0004755 ! skeletal tissue
@@ -31442,7 +31402,7 @@ relationship: part_of UBERON:0002104 ! visual system
 [Term]
 id: UBERON:0004905
 name: articulation
-def: "Anatomical cluster that connects two or more adjacent skeletal elements or hardened body parts." []
+def: "Anatomical structure that connects two or more adjacent skeletal elements or hardened body parts." []
 synonym: "joint" NARROW []
 is_a: UBERON:0034921 ! multi organ part structure
 relationship: part_of UBERON:0004770 ! articular system
@@ -31495,7 +31455,6 @@ id: UBERON:0004910
 name: epithelium of male gonad
 def: "An epithelium surrounding a testis." []
 synonym: "testis epithelium" EXACT []
-synonym: "testis sheath" NARROW []
 is_a: UBERON:0004909 ! epithelium of gonad
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: part_of UBERON:0000473 ! testis
@@ -31593,6 +31552,7 @@ id: UBERON:0004921
 name: subdivision of digestive tract
 def: "A proximal-distal subdivision of the digestive tract." []
 synonym: "alimentary system subdivision" RELATED []
+synonym: "gut section" RELATED []
 synonym: "intestinal tract" RELATED []
 synonym: "segment of intestinal tract" RELATED []
 synonym: "subdivision of alimentary system" RELATED []
@@ -31865,8 +31825,6 @@ id: UBERON:0004952
 name: submucosa of bronchiole
 def: "A submucosa that is part of a bronchiole [Automatically generated definition]." []
 synonym: "bronchiole submucosa" EXACT []
-synonym: "lobular bronchiole submucosa" EXACT []
-synonym: "submucosa of lobular bronchiole" EXACT []
 is_a: UBERON:0000009 ! submucosa
 intersection_of: UBERON:0000009 ! submucosa
 intersection_of: part_of UBERON:0002186 ! bronchiole
@@ -32710,17 +32668,9 @@ synonym: "bronchiole mucosa" EXACT []
 synonym: "bronchiole mucosa of organ" EXACT []
 synonym: "bronchiole mucous membrane" EXACT []
 synonym: "bronchiole organ mucosa" EXACT []
-synonym: "lobular bronchiole mucosa" EXACT []
-synonym: "lobular bronchiole mucosa of organ" EXACT []
-synonym: "lobular bronchiole mucous membrane" EXACT []
-synonym: "lobular bronchiole organ mucosa" EXACT []
-synonym: "mucosa of lobular bronchiole" EXACT []
 synonym: "mucosa of organ of bronchiole" EXACT []
-synonym: "mucosa of organ of lobular bronchiole" EXACT []
 synonym: "mucous membrane of bronchiole" EXACT []
-synonym: "mucous membrane of lobular bronchiole" EXACT []
 synonym: "organ mucosa of bronchiole" EXACT []
-synonym: "organ mucosa of lobular bronchiole" EXACT []
 is_a: UBERON:0000344 ! mucosa
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: part_of UBERON:0002186 ! bronchiole
@@ -32837,7 +32787,8 @@ name: primary nerve cord
 def: "A cluster of neurons that is the most prominent longitudinally extending condensed part of a nervous system." []
 synonym: "nerve cord" EXACT []
 synonym: "true nerve cord" EXACT []
-is_a: UBERON:0011215 ! central nervous system cell part cluster
+is_a: UBERON:0004121 ! ectoderm-derived structure
+is_a: UBERON:0010000 ! multicellular anatomical structure
 relationship: develops_from UBERON:0000924 ! ectoderm
 relationship: only_in_taxon NCBITaxon:33213
 relationship: part_of UBERON:0001016 ! nervous system
@@ -33715,7 +33666,7 @@ def: "A structure consisting of multiple cell components but which is not itself
 synonym: "cell part cluster" RELATED []
 synonym: "multi-cell-component structure" EXACT []
 synonym: "multi-cell-part structure" EXACT []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0000061 ! anatomical structure
 relationship: composed_primarily_of GO:0005575
 
 [Term]
@@ -33960,7 +33911,7 @@ synonym: "tubular seromucous gland of trachea" RELATED []
 is_a: UBERON:0011148 ! submucosal gland
 intersection_of: UBERON:0011148 ! submucosal gland
 intersection_of: has_part CL:0000159
-intersection_of: part_of UBERON:0002202 ! submucosa of trachea
+intersection_of: part_of UBERON:0003126 ! trachea
 
 [Term]
 id: UBERON:0005204
@@ -35390,7 +35341,6 @@ def: "The dilated structure that is lined by endothelial cells and located at th
 synonym: "saccus aorticus" EXACT []
 is_a: UBERON:0001637 ! artery
 is_a: UBERON:0002050 ! embryonic structure
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0004363 ! pharyngeal arch artery
 relationship: part_of UBERON:0000922 ! embryo
 relationship: part_of UBERON:0004145 ! outflow tract
@@ -36129,7 +36079,7 @@ name: semi-lunar valve
 def: "The valves that gate the flow of blood from the ventricles into the aorta and pulmonary trunk." []
 synonym: "semilunar valve" EXACT []
 synonym: "semilunar valves" EXACT []
-is_a: UBERON:0000946 ! cardial valve
+is_a: UBERON:0000946 ! cardiac valve
 
 [Term]
 id: UBERON:0005624
@@ -36427,7 +36377,6 @@ id: UBERON:0005705
 name: primary palate mesenchyme
 def: "Mesenchyme that is part of a developing primary palate." []
 is_a: UBERON:0003104 ! mesenchyme
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: part_of UBERON:0005620 ! primary palate
 relationship: develops_from UBERON:0009204 ! medial nasal process mesenchyme
@@ -37085,10 +37034,10 @@ synonym: "pharyngeal groove ectoderm" EXACT []
 synonym: "pharyngeal slit" RELATED []
 synonym: "sulcus pharyngei" RELATED []
 is_a: UBERON:0006846 ! surface groove
-is_a: UBERON:0016545 ! pharyngeal ectoderm
 relationship: adjacent_to UBERON:0004117 ! pharyngeal pouch
 relationship: overlaps UBERON:0002539 ! pharyngeal arch
 relationship: part_of UBERON:0000076 ! external ectoderm
+relationship: part_of UBERON:0016545 ! pharyngeal ectoderm
 
 [Term]
 id: UBERON:0005881
@@ -37124,7 +37073,6 @@ synonym: "hyoid arch skeleton" EXACT []
 synonym: "hyoid bars" NARROW []
 synonym: "pharyngeal arch 2 skeleton" EXACT []
 synonym: "visceral arch 2" RELATED []
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0010912 ! subdivision of skeleton
 relationship: develops_from UBERON:0003066 ! pharyngeal arch 2
 relationship: part_of UBERON:0008895 ! splanchnocranium
@@ -37471,7 +37419,6 @@ name: atrioventricular septum
 def: "The wall of the heart that separates the right atrium and left ventricle; and is located just above the septal cusp of the tricuspid valve." []
 synonym: "membranous atrioventricular septum" EXACT []
 is_a: UBERON:0002099 ! cardiac septum
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0002099 ! cardiac septum
 intersection_of: adjacent_to UBERON:0002078 ! right cardiac atrium
 intersection_of: adjacent_to UBERON:0002084 ! heart left ventricle
@@ -37642,7 +37589,7 @@ synonym: "cardiac valvule" EXACT []
 synonym: "cardial valve cusp" EXACT []
 synonym: "semilunar valvule" EXACT []
 is_a: UBERON:0000064 ! organ part
-relationship: part_of UBERON:0000946 ! cardial valve
+relationship: part_of UBERON:0000946 ! cardiac valve
 
 [Term]
 id: UBERON:0006056
@@ -38295,7 +38242,6 @@ name: lingual swellings
 synonym: "lingual swelling" RELATED []
 is_a: UBERON:0002050 ! embryonic structure
 is_a: UBERON:0010188 ! protuberance
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0004362 ! pharyngeal arch 1
 relationship: part_of UBERON:0000922 ! embryo
 relationship: part_of UBERON:0010056 ! future tongue
@@ -38713,6 +38659,7 @@ name: seminal fluid
 def: "A substance formed from the secretion of one or more glands of the male genital tract in which sperm cells are suspended." []
 synonym: "male genital fluid" RELATED []
 synonym: "male genital secretion" RELATED []
+synonym: "milt" NARROW []
 synonym: "seminal fluid" RELATED []
 synonym: "seminal plasma" EXACT []
 is_a: UBERON:0000456 ! secretion of exocrine gland
@@ -39661,9 +39608,8 @@ id: UBERON:0006846
 name: surface groove
 def: "A furrow or an incomplete tube." []
 synonym: "groove" RELATED []
-is_a: UBERON:0003102 ! surface structure
-intersection_of: UBERON:0003102 ! surface structure
-intersection_of: has_quality PATO:0002255
+is_a: UBERON:0000466 ! immaterial anatomical entity
+relationship: has_quality PATO:0002255
 
 [Term]
 id: UBERON:0006849
@@ -40752,7 +40698,7 @@ relationship: preceded_by UBERON:0004707 ! pharyngula stage
 id: UBERON:0007223
 name: osseus cochlea
 def: "The osseous cochlea is the bony foundation that forms the small shell arrangement for the cochlear nerve." []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0000061 ! anatomical structure
 relationship: part_of UBERON:0001839 ! bony labyrinth
 relationship: part_of UBERON:0001844 ! cochlea
 
@@ -42665,7 +42611,7 @@ synonym: "pharyngeal arch region" RELATED []
 synonym: "pharyngeal arches and clefts" RELATED []
 synonym: "pharyngeal complex" RELATED []
 synonym: "pharyngeal system" EXACT []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0034921 ! multi organ part structure
 relationship: only_in_taxon NCBITaxon:7711
 relationship: part_of UBERON:0000922 ! embryo
 relationship: part_of UBERON:0009145 ! pharyngeal region of foregut
@@ -42960,7 +42906,6 @@ synonym: "visceral cranium" RELATED []
 synonym: "visceral skeletal system" RELATED []
 synonym: "visceral skeleton" RELATED []
 synonym: "viscerocranium" EXACT []
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0011159 ! primary subdivision of cranial skeletal system
 disjoint_from: UBERON:0011156 ! facial skeleton
 relationship: develops_from UBERON:0002539 ! pharyngeal arch
@@ -43729,7 +43674,6 @@ name: mesenchyme of trachea
 def: "Mesenchyme that is part of a developing trachea." []
 synonym: "trachea associated mesenchyme" EXACT []
 is_a: UBERON:0007524 ! dense mesenchyme tissue
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: part_of UBERON:0003126 ! trachea
 relationship: develops_from UBERON:0002539 ! pharyngeal arch
@@ -44129,7 +44073,6 @@ id: UBERON:0009614
 name: hindbrain neural plate
 def: "A neural plate that develops_from a presumptive hindbrain." []
 is_a: UBERON:0003075 ! neural plate
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0003075 ! neural plate
 intersection_of: develops_from UBERON:0007277 ! presumptive hindbrain
 relationship: part_of UBERON:0003057 ! chordal neural plate
@@ -45235,7 +45178,6 @@ synonym: "front of the tongue" RELATED []
 synonym: "oral part of the tongue" RELATED []
 synonym: "pars anterior dorsi linguae" RELATED []
 is_a: UBERON:0000064 ! organ part
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0000064 ! organ part
 intersection_of: develops_from UBERON:0006260 ! lingual swellings
 intersection_of: part_of UBERON:0001723 ! tongue
@@ -45902,7 +45844,6 @@ relationship: part_of UBERON:0008895 ! splanchnocranium
 id: UBERON:0010213
 name: laryngeal pre-cartilage condensation
 is_a: UBERON:0005866 ! pre-cartilage condensation
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0010221 ! laryngeal associated mesenchyme
 relationship: part_of UBERON:0008895 ! splanchnocranium
 relationship: part_of UBERON:0010212 ! laryngeal apparatus
@@ -45911,7 +45852,6 @@ relationship: part_of UBERON:0010212 ! laryngeal apparatus
 id: UBERON:0010221
 name: laryngeal associated mesenchyme
 is_a: UBERON:0007524 ! dense mesenchyme tissue
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0002539 ! pharyngeal arch
 relationship: has_developmental_contribution_from UBERON:0003115 ! pharyngeal arch 4
 relationship: has_developmental_contribution_from UBERON:0003117 ! pharyngeal arch 6
@@ -47835,7 +47775,7 @@ def: "A muscle organ that attaches_to a clavicle and attaches_to a occipital bon
 synonym: "cleido-occipitalis" EXACT []
 synonym: "cleido-occipitalis muscle" EXACT []
 synonym: "cleidooccipital" EXACT []
-is_a: UBERON:0000933 ! pharyngeal muscle
+is_a: UBERON:0000933 ! chordate pharyngeal muscle
 is_a: UBERON:0014892 ! skeletal muscle organ
 intersection_of: UBERON:0014892 ! skeletal muscle organ
 intersection_of: attached_to UBERON:0001105 ! clavicle bone
@@ -47855,7 +47795,6 @@ intersection_of: has_muscle_origin UBERON:0000975 ! sternum
 id: UBERON:0010955
 name: trapezius pre-muscle mass
 is_a: UBERON:0005865 ! pre-muscle condensation
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0010258 ! mesenchyme from rhombencephalic neural crest
 relationship: part_of UBERON:0008713 ! pectoral girdle and thoracic body wall skeletal muscle
 
@@ -47905,7 +47844,6 @@ def: "A cartilage element that is part of a splanchnocranium." []
 synonym: "pharyngeal arch cartilages" EXACT []
 synonym: "splanchnocranium cartilage" EXACT []
 is_a: UBERON:0003933 ! cranial cartilage
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0007844 ! cartilage element
 intersection_of: part_of UBERON:0008895 ! splanchnocranium
 relationship: develops_from UBERON:0002539 ! pharyngeal arch
@@ -47923,7 +47861,6 @@ synonym: "palatoquadrate arch" RELATED []
 synonym: "upper jaw" RELATED []
 synonym: "upper pharyngeal jaw" EXACT []
 synonym: "upper pharyngeal jaw" RELATED []
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 is_a: UBERON:0010912 ! subdivision of skeleton
 relationship: develops_from UBERON:0004362 ! pharyngeal arch 1
 relationship: part_of UBERON:0003277 ! skeleton of upper jaw
@@ -48180,7 +48117,8 @@ intersection_of: part_of UBERON:0002090 ! postcranial axial skeleton
 id: UBERON:0011143
 name: upper urinary tract
 def: "Subdivision of urinary system which consists of the kidney and the ureters." []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0011216 ! organ system subdivision
+is_a: UBERON:0015212 ! lateral structure
 relationship: has_part UBERON:0000056 ! ureter
 relationship: has_part UBERON:0002113 ! kidney
 relationship: in_lateral_side_of UBERON:0001008 ! renal system
@@ -48764,7 +48702,6 @@ id: UBERON:0011628
 name: early premaxilla
 synonym: "future premaxilla" EXACT []
 is_a: UBERON:0007842 ! membrane bone
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0010334 ! maxillary process mesenchyme from neural crest
 relationship: part_of UBERON:0000922 ! embryo
 relationship: part_of UBERON:0003113 ! dermatocranium
@@ -48872,7 +48809,7 @@ id: UBERON:0011741
 name: cardiac valve leaflet
 synonym: "valve leaflet" RELATED []
 is_a: UBERON:0000064 ! organ part
-relationship: part_of UBERON:0000946 ! cardial valve
+relationship: part_of UBERON:0000946 ! cardiac valve
 
 [Term]
 id: UBERON:0011742
@@ -49764,7 +49701,6 @@ synonym: "facio-acoustic ganglion complex" RELATED []
 synonym: "facio-acoustic ganglion complex VII-VIII" EXACT []
 synonym: "facio-acoustic VII-VIII ganglion complex" RELATED []
 is_a: UBERON:0001714 ! cranial ganglion
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0003051 ! ear vesicle
 relationship: develops_from UBERON:0006232 ! facio-acoustic VII-VIII preganglion complex
 
@@ -53057,12 +52993,10 @@ synonym: "ramus inferior nervus oculomotorii" EXACT []
 synonym: "ventral ramus of occulomotor nerve" RELATED []
 synonym: "ventral ramus of oculomotor nerve" RELATED []
 is_a: UBERON:0001021 ! nerve
-is_a: UBERON:0001637 ! artery
 intersection_of: UBERON:0001021 ! nerve
 intersection_of: branching_part_of UBERON:0001643 ! oculomotor nerve
-intersection_of: supplies UBERON:0006322 ! inferior rectus extraocular muscle
-relationship: supplies UBERON:0001602 ! medial rectus extraocular muscle
-relationship: supplies UBERON:0006322 ! inferior rectus extraocular muscle
+intersection_of: innervates UBERON:0006322 ! inferior rectus extraocular muscle
+relationship: innervates UBERON:0001602 ! medial rectus extraocular muscle
 
 [Term]
 id: UBERON:0015165
@@ -53120,6 +53054,20 @@ synonym: "tooth neck" EXACT []
 is_a: UBERON:0001560 ! neck of organ
 intersection_of: UBERON:0001560 ! neck of organ
 intersection_of: part_of UBERON:0001091 ! calcareous tooth
+
+[Term]
+id: UBERON:0015203
+name: non-connected functional system
+def: "An anatomical group whose component structures share a common function." []
+is_a: UBERON:0034923 ! disconnected anatomical group
+
+[Term]
+id: UBERON:0015204
+name: glandular system
+def: "A non-connected functional system that is composed primarily of a gland." []
+is_a: UBERON:0015203 ! non-connected functional system
+intersection_of: UBERON:0015203 ! non-connected functional system
+intersection_of: composed_primarily_of UBERON:0002530 ! gland
 
 [Term]
 id: UBERON:0015212
@@ -54716,7 +54664,6 @@ def: "Muscle innervated by the trigeminal nerve (Cranial Nerve V)." []
 synonym: "muscle innervated by the trigeminal nerve" EXACT []
 synonym: "muscles innervated by the trigeminal nerve" EXACT []
 is_a: UBERON:0001630 ! muscle organ
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 intersection_of: UBERON:0001630 ! muscle organ
 intersection_of: innervated_by UBERON:0001645 ! trigeminal nerve
 relationship: develops_from UBERON:0004362 ! pharyngeal arch 1
@@ -55435,6 +55382,7 @@ synonym: "cranial nerve fiber tract" RELATED []
 synonym: "cranial nerve or tract" RELATED []
 synonym: "neuron projection bundle from brain" RELATED []
 is_a: UBERON:0000122 ! neuron projection bundle
+is_a: UBERON:0015212 ! lateral structure
 relationship: extends_fibers_into UBERON:0000955 ! brain
 relationship: in_lateral_side_of UBERON:0000033 ! head
 relationship: only_in_taxon NCBITaxon:89593
@@ -56480,7 +56428,7 @@ synonym: "appendages of the eye" RELATED []
 synonym: "eye adnexa" RELATED []
 synonym: "set of accessory visual structures" RELATED []
 synonym: "structurae oculi accessoriae" RELATED []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0034921 ! multi organ part structure
 relationship: part_of UBERON:0004088 ! orbital region
 
 [Term]
@@ -57551,7 +57499,6 @@ name: future internal carotid artery
 synonym: "PICA" EXACT []
 synonym: "primitive internal carotid artery" EXACT []
 is_a: UBERON:0001637 ! artery
-is_a: UBERON:0010314 ! structure with developmental contribution from neural crest
 relationship: develops_from UBERON:0003120 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! pharyngeal arch artery 3
 relationship: develops_from UBERON:0004363 ! pharyngeal arch artery
 relationship: part_of UBERON:0001530 ! common carotid artery plus branches
@@ -58783,6 +58730,73 @@ is_a: UBERON:0022358 ! placenta blood vessel
 intersection_of: UBERON:0001638 ! vein
 intersection_of: part_of UBERON:0001987 ! placenta
 
+[Term]
+id: UBERON:8480025
+name: skin of clavicle region
+def: "A zone of skin that is above the clavicle zone in the pectoral girdle region." []
+is_a: UBERON:0000014 ! zone of skin
+intersection_of: UBERON:0000014 ! zone of skin
+intersection_of: part_of UBERON:0001421 ! pectoral girdle region
+
+[Term]
+id: UBERON:8480026
+name: skin of iliac crest region
+def: "A zone of skin that is above the iliac crest in the pelvic girdle bone/zone." []
+synonym: "skin of posterior iliac crest region" BROAD []
+is_a: UBERON:0000014 ! zone of skin
+intersection_of: UBERON:0000014 ! zone of skin
+intersection_of: part_of UBERON:0007830 ! pelvic girdle bone/zone
+
+[Term]
+id: UBERON:8480029
+name: skin of external genitalia
+def: "A zone of skin that is part of the external genitalia." []
+is_a: UBERON:0000014 ! zone of skin
+intersection_of: UBERON:0000014 ! zone of skin
+intersection_of: part_of UBERON:0004176 ! external genitalia
+
+[Term]
+id: UBERON:8480030
+name: skin of breast
+def: "A zone of skin that is part of the breast." []
+is_a: UBERON:0000014 ! zone of skin
+intersection_of: UBERON:0000014 ! zone of skin
+intersection_of: part_of UBERON:0000310 ! breast
+
+[Term]
+id: UBERON:8480037
+name: subserosa of uterine tube
+def: "Subserosa that is part of the uterine tube. It contains loose connective tissue, blood vessels and lymphatic tissue." []
+synonym: "subserosa of fallopian tube" EXACT []
+synonym: "subserosa of oviduct" EXACT []
+is_a: UBERON:0012375 ! subserosa
+intersection_of: UBERON:0012375 ! subserosa
+intersection_of: part_of UBERON:0003889 ! fallopian tube
+
+[Term]
+id: UBERON:8600004
+name: visceral muscle tissue
+def: "A muscle tissue that is associated with soft internal organs (viscera)." []
+synonym: "visceral muscle" EXACT []
+is_a: UBERON:0002385 ! muscle tissue
+relationship: composed_primarily_of CL:0008007
+
+[Term]
+id: UBERON:8600006
+name: visceral striated muscle tissue
+def: "A striated muscle tissue that is associated with soft internal organs (viscera)." []
+synonym: "striated visceral muscle tissue" EXACT []
+is_a: UBERON:0002036 ! striated muscle tissue
+is_a: UBERON:8600004 ! visceral muscle tissue
+
+[Term]
+id: UBERON:8600012
+name: submucosal gland acinus
+def: "A spherical or tubular structure in a submucosal gland that produces and secretes mucus and other substances into the ducts leading to the surface epithelium." []
+is_a: UBERON:0014717 ! mucous acinus
+intersection_of: UBERON:0009842 ! glandular acinus
+intersection_of: part_of UBERON:0011148 ! submucosal gland
+
 [Typedef]
 id: adjacent_to
 name: adjacent to
@@ -58826,7 +58840,6 @@ xref: RO:0002380
 id: capable_of
 name: capable of
 xref: RO:0002215
-is_a: functionally_related_to ! functionally related to
 
 [Typedef]
 id: capable_of_part_of
@@ -58861,8 +58874,7 @@ xref: RO:0002473
 [Typedef]
 id: conduit_for
 name: conduit for
-def: "x is a conduit for y iff y passes through the lumen of x." []
-xref: conduit_for
+xref: RO:0002570
 
 [Typedef]
 id: confers_advantage_in
@@ -58873,7 +58885,6 @@ xref: RO:0002322
 id: connected_to
 name: connected to
 xref: RO:0002170
-is_a: transitively_connected_to ! transitively_connected to
 
 [Typedef]
 id: connects
@@ -58894,7 +58905,6 @@ xref: BFO:0000067
 id: continuous_with
 name: continuous with
 xref: RO:0002150
-is_symmetric: true
 
 [Typedef]
 id: contributes_to_morphology_of
@@ -59023,6 +59033,7 @@ xref: RO:0002489
 [Typedef]
 id: extends_fibers_into
 name: extends_fibers_into
+def: "X extends_fibers into Y iff there exists some neuron (N) and N has_soma_location X and N 'has synaptic IO in region' some Y" []
 xref: extends_fibers_into
 is_symmetric: true
 is_a: connected_to ! connected to
@@ -59052,7 +59063,6 @@ xref: RO:0002180
 id: has_developmental_contribution_from
 name: has developmental contribution from
 xref: RO:0002254
-is_transitive: true
 
 [Typedef]
 id: has_member
@@ -59346,8 +59356,6 @@ xref: RO:0002158
 id: simultaneous_with
 name: simultaneous with
 xref: RO:0002082
-is_a: ends ! ends
-is_a: starts ! starts
 
 [Typedef]
 id: site_of
@@ -59400,8 +59408,7 @@ xref: RO:0002221
 [Typedef]
 id: synapsed_by
 name: synapsed by
-def: "Relation between an anatomical structure (including cells) and a neuron that chemically synapses to it." []
-xref: synapsed_by
+xref: RO:0002103
 
 [Typedef]
 id: transformation_of
@@ -59413,12 +59420,6 @@ id: transitively_anteriorly_connected_to
 name: transitively anteriorly connected to
 def: "." []
 xref: transitively_anteriorly_connected_to
-is_transitive: true
-
-[Typedef]
-id: transitively_connected_to
-name: transitively_connected to
-xref: transitively_connected_to
 is_transitive: true
 
 [Typedef]

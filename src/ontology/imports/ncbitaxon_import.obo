@@ -62,6 +62,7 @@ relationship: RO:0002162 NCBITaxon:10114 ! in taxon Rattus
 id: NCBITaxon:10116
 name: Rattus norvegicus
 synonym: "brown rat" EXACT []
+synonym: "Mus norvegicus" RELATED []
 synonym: "Norway rat" EXACT []
 synonym: "rat" EXACT []
 synonym: "rats" EXACT []
@@ -162,18 +163,18 @@ relationship: RO:0002162 NCBITaxon:1113537 ! in taxon Chlamydia/Chlamydophila gr
 
 [Term]
 id: NCBITaxon:1117
-name: Cyanobacteria
+name: Cyanobacteriota
 synonym: "blue-green algae" EXACT []
 synonym: "blue-green bacteria" EXACT []
+synonym: "Cyanobacteria" RELATED []
 synonym: "cyanobacteria" RELATED []
-synonym: "Cyanophyceae" RELATED []
 synonym: "Cyanophycota" RELATED []
 synonym: "Cyanophyta" RELATED []
 synonym: "cyanophytes" EXACT []
 synonym: "Oxygenic photosynthetic bacteria" RELATED []
 synonym: "Oxyphotobacteria" RELATED []
-is_a: NCBITaxon:1798711 ! Cyanobacteria/Melainabacteria group
-relationship: RO:0002162 NCBITaxon:1117 ! in taxon Cyanobacteria
+is_a: NCBITaxon:1798711 ! Cyanobacteriota/Melainabacteria group
+relationship: RO:0002162 NCBITaxon:1117 ! in taxon Cyanobacteriota
 
 [Term]
 id: NCBITaxon:112252
@@ -331,27 +332,24 @@ relationship: RO:0002162 NCBITaxon:1206795 ! in taxon Lophotrochozoa
 
 [Term]
 id: NCBITaxon:1224
-name: Proteobacteria
-synonym: "Alphaproteobacteraeota" RELATED []
+name: Pseudomonadota
+synonym: "\"Alphaproteobacteriota\" Whitman et al. 2018" RELATED []
 synonym: "Alphaproteobacteriota" RELATED []
+synonym: "Proteobacteria" RELATED []
 synonym: "proteobacteria" RELATED []
 synonym: "Proteobacteriota" RELATED []
-synonym: "purple bacteria" EXACT []
-synonym: "purple bacteria and relatives" EXACT []
-synonym: "purple non-sulfur bacteria" EXACT []
-synonym: "purple photosynthetic bacteria" EXACT []
 synonym: "purple photosynthetic bacteria and relatives" EXACT []
 is_a: NCBITaxon:2 ! Bacteria
 disjoint_from: NCBITaxon:1783257 ! PVC group
 disjoint_from: NCBITaxon:1783270 ! FCB group
 disjoint_from: NCBITaxon:1783272 ! Terrabacteria group
-disjoint_from: NCBITaxon:200783 ! Aquificae <phylum>
-disjoint_from: NCBITaxon:200918 ! Thermotogae <phylum>
-disjoint_from: NCBITaxon:203691 ! Spirochaetes
-disjoint_from: NCBITaxon:32066 ! Fusobacteria
-disjoint_from: NCBITaxon:40117 ! Nitrospirae
+disjoint_from: NCBITaxon:200783 ! Aquificota
+disjoint_from: NCBITaxon:200918 ! Thermotogota
+disjoint_from: NCBITaxon:203691 ! Spirochaetota
+disjoint_from: NCBITaxon:32066 ! Fusobacteriota
+disjoint_from: NCBITaxon:40117 ! Nitrospirota
 disjoint_from: NCBITaxon:68297 ! Dictyoglomi
-relationship: RO:0002162 NCBITaxon:1224 ! in taxon Proteobacteria
+relationship: RO:0002162 NCBITaxon:1224 ! in taxon Pseudomonadota
 
 [Term]
 id: NCBITaxon:122586
@@ -402,7 +400,7 @@ synonym: "gamma subdivision" RELATED []
 synonym: "gamma subgroup" RELATED []
 synonym: "Proteobacteria gamma subdivision" RELATED []
 synonym: "Purple bacteria, gamma subdivision" RELATED []
-is_a: NCBITaxon:1224 ! Proteobacteria
+is_a: NCBITaxon:1224 ! Pseudomonadota
 disjoint_from: NCBITaxon:28211 ! Alphaproteobacteria
 disjoint_from: NCBITaxon:28216 ! Betaproteobacteria
 disjoint_from: NCBITaxon:68525 ! delta/epsilon subdivisions
@@ -410,25 +408,26 @@ relationship: RO:0002162 NCBITaxon:1236 ! in taxon Gammaproteobacteria
 
 [Term]
 id: NCBITaxon:1239
-name: Firmicutes
+name: Bacillota
+synonym: "\"Firmicutes\" corrig. Gibbons and Murray 1978 (Approved Lists 1980)" RELATED []
 synonym: "Bacillaeota" RELATED []
-synonym: "Bacillota" RELATED []
+synonym: "Bacillota corrig. Gibbons and Murray 2021" RELATED []
 synonym: "Bacillus/Clostridium group" RELATED []
 synonym: "clostridial firmicutes" RELATED []
 synonym: "Clostridium group firmicutes" RELATED []
-synonym: "Firmacutes" RELATED []
+synonym: "Firmicuteota" RELATED []
+synonym: "Firmicutes" EXACT []
 synonym: "firmicutes" RELATED []
-synonym: "Firmicutes corrig. Gibbons and Murray 1978" RELATED []
 synonym: "Low G+C firmicutes" RELATED []
 synonym: "low G+C Gram-positive bacteria" EXACT []
 synonym: "low GC Gram+" EXACT []
 is_a: NCBITaxon:1783272 ! Terrabacteria group
-disjoint_from: NCBITaxon:1297 ! Deinococcus-Thermus
-disjoint_from: NCBITaxon:1798711 ! Cyanobacteria/Melainabacteria group
-disjoint_from: NCBITaxon:200795 ! Chloroflexi
-disjoint_from: NCBITaxon:201174 ! Actinobacteria
-disjoint_from: NCBITaxon:544448 ! Tenericutes
-relationship: RO:0002162 NCBITaxon:1239 ! in taxon Firmicutes
+disjoint_from: NCBITaxon:1297 ! Deinococcota
+disjoint_from: NCBITaxon:1798711 ! Cyanobacteriota/Melainabacteria group
+disjoint_from: NCBITaxon:200795 ! Chloroflexota
+disjoint_from: NCBITaxon:201174 ! Actinomycetota
+disjoint_from: NCBITaxon:544448 ! Mycoplasmatota
+relationship: RO:0002162 NCBITaxon:1239 ! in taxon Bacillota
 
 [Term]
 id: NCBITaxon:126287
@@ -488,16 +487,16 @@ relationship: RO:0002162 NCBITaxon:1293361 ! in taxon Cenchrinae
 
 [Term]
 id: NCBITaxon:1297
-name: Deinococcus-Thermus
+name: Deinococcota
 synonym: "Deinococcaeota" RELATED []
-synonym: "Deinococcota" RELATED []
-synonym: "Thermus/Deinococcus group" RELATED []
+synonym: "Deinococcus-Thermus" RELATED []
+synonym: "Thermus/Deinococcus group" EXACT []
 is_a: NCBITaxon:1783272 ! Terrabacteria group
-disjoint_from: NCBITaxon:1798711 ! Cyanobacteria/Melainabacteria group
-disjoint_from: NCBITaxon:200795 ! Chloroflexi
-disjoint_from: NCBITaxon:201174 ! Actinobacteria
-disjoint_from: NCBITaxon:544448 ! Tenericutes
-relationship: RO:0002162 NCBITaxon:1297 ! in taxon Deinococcus-Thermus
+disjoint_from: NCBITaxon:1798711 ! Cyanobacteriota/Melainabacteria group
+disjoint_from: NCBITaxon:200795 ! Chloroflexota
+disjoint_from: NCBITaxon:201174 ! Actinomycetota
+disjoint_from: NCBITaxon:544448 ! Mycoplasmatota
+relationship: RO:0002162 NCBITaxon:1297 ! in taxon Deinococcota
 
 [Term]
 id: NCBITaxon:1298
@@ -1356,22 +1355,24 @@ relationship: RO:0002162 NCBITaxon:173 ! in taxon Leptospira interrogans
 
 [Term]
 id: NCBITaxon:1760
-name: Actinomycetia
-synonym: "Actinomycetes" RELATED []
+name: Actinomycetes
+synonym: "Actinobacteria Stackebrandt et al. 1997" RELATED []
+synonym: "Actinomycetia" RELATED []
 synonym: "high G+C Gram-positive bacteria" EXACT []
 synonym: "high G+C Gram-positive bacteria" RELATED []
-is_a: NCBITaxon:201174 ! Actinobacteria
-relationship: RO:0002162 NCBITaxon:1760 ! in taxon Actinomycetia
+is_a: NCBITaxon:201174 ! Actinomycetota
+relationship: RO:0002162 NCBITaxon:1760 ! in taxon Actinomycetes
 
 [Term]
 id: NCBITaxon:1762
 name: Mycobacteriaceae
-is_a: NCBITaxon:85007 ! Corynebacteriales
+is_a: NCBITaxon:85007 ! Mycobacteriales
 relationship: RO:0002162 NCBITaxon:1762 ! in taxon Mycobacteriaceae
 
 [Term]
 id: NCBITaxon:1763
 name: Mycobacterium
+synonym: "Mycobacterium Lehmann and Neumann 1896 (Approved Lists 1980)" RELATED []
 is_a: NCBITaxon:1762 ! Mycobacteriaceae
 relationship: RO:0002162 NCBITaxon:1763 ! in taxon Mycobacterium
 
@@ -1400,11 +1401,11 @@ name: PVC group
 is_a: NCBITaxon:2 ! Bacteria
 disjoint_from: NCBITaxon:1783270 ! FCB group
 disjoint_from: NCBITaxon:1783272 ! Terrabacteria group
-disjoint_from: NCBITaxon:200783 ! Aquificae <phylum>
-disjoint_from: NCBITaxon:200918 ! Thermotogae <phylum>
-disjoint_from: NCBITaxon:203691 ! Spirochaetes
-disjoint_from: NCBITaxon:32066 ! Fusobacteria
-disjoint_from: NCBITaxon:40117 ! Nitrospirae
+disjoint_from: NCBITaxon:200783 ! Aquificota
+disjoint_from: NCBITaxon:200918 ! Thermotogota
+disjoint_from: NCBITaxon:203691 ! Spirochaetota
+disjoint_from: NCBITaxon:32066 ! Fusobacteriota
+disjoint_from: NCBITaxon:40117 ! Nitrospirota
 disjoint_from: NCBITaxon:68297 ! Dictyoglomi
 relationship: RO:0002162 NCBITaxon:1783257 ! in taxon PVC group
 
@@ -1416,11 +1417,11 @@ synonym: "Fibrobacteres-Chlorobi-Bacteroidetes superphylum" RELATED []
 synonym: "Fibrobacteres/Acidobacteria group" RELATED []
 is_a: NCBITaxon:2 ! Bacteria
 disjoint_from: NCBITaxon:1783272 ! Terrabacteria group
-disjoint_from: NCBITaxon:200783 ! Aquificae <phylum>
-disjoint_from: NCBITaxon:200918 ! Thermotogae <phylum>
-disjoint_from: NCBITaxon:203691 ! Spirochaetes
-disjoint_from: NCBITaxon:32066 ! Fusobacteria
-disjoint_from: NCBITaxon:40117 ! Nitrospirae
+disjoint_from: NCBITaxon:200783 ! Aquificota
+disjoint_from: NCBITaxon:200918 ! Thermotogota
+disjoint_from: NCBITaxon:203691 ! Spirochaetota
+disjoint_from: NCBITaxon:32066 ! Fusobacteriota
+disjoint_from: NCBITaxon:40117 ! Nitrospirota
 disjoint_from: NCBITaxon:68297 ! Dictyoglomi
 relationship: RO:0002162 NCBITaxon:1783270 ! in taxon FCB group
 
@@ -1428,11 +1429,11 @@ relationship: RO:0002162 NCBITaxon:1783270 ! in taxon FCB group
 id: NCBITaxon:1783272
 name: Terrabacteria group
 is_a: NCBITaxon:2 ! Bacteria
-disjoint_from: NCBITaxon:200783 ! Aquificae <phylum>
-disjoint_from: NCBITaxon:200918 ! Thermotogae <phylum>
-disjoint_from: NCBITaxon:203691 ! Spirochaetes
-disjoint_from: NCBITaxon:32066 ! Fusobacteria
-disjoint_from: NCBITaxon:40117 ! Nitrospirae
+disjoint_from: NCBITaxon:200783 ! Aquificota
+disjoint_from: NCBITaxon:200918 ! Thermotogota
+disjoint_from: NCBITaxon:203691 ! Spirochaetota
+disjoint_from: NCBITaxon:32066 ! Fusobacteriota
+disjoint_from: NCBITaxon:40117 ! Nitrospirota
 disjoint_from: NCBITaxon:68297 ! Dictyoglomi
 relationship: RO:0002162 NCBITaxon:1783272 ! in taxon Terrabacteria group
 
@@ -1445,12 +1446,12 @@ relationship: RO:0002162 NCBITaxon:1783275 ! in taxon TACK group
 
 [Term]
 id: NCBITaxon:1798711
-name: Cyanobacteria/Melainabacteria group
+name: Cyanobacteriota/Melainabacteria group
 is_a: NCBITaxon:1783272 ! Terrabacteria group
-disjoint_from: NCBITaxon:200795 ! Chloroflexi
-disjoint_from: NCBITaxon:201174 ! Actinobacteria
-disjoint_from: NCBITaxon:544448 ! Tenericutes
-relationship: RO:0002162 NCBITaxon:1798711 ! in taxon Cyanobacteria/Melainabacteria group
+disjoint_from: NCBITaxon:200795 ! Chloroflexota
+disjoint_from: NCBITaxon:201174 ! Actinomycetota
+disjoint_from: NCBITaxon:544448 ! Mycoplasmatota
+relationship: RO:0002162 NCBITaxon:1798711 ! in taxon Cyanobacteriota/Melainabacteria group
 
 [Term]
 id: NCBITaxon:1804623
@@ -1556,7 +1557,7 @@ relationship: RO:0002162 NCBITaxon:186634 ! in taxon Otomorpha
 id: NCBITaxon:186801
 name: Clostridia
 synonym: "Natranaerobiia" RELATED []
-is_a: NCBITaxon:1239 ! Firmicutes
+is_a: NCBITaxon:1239 ! Bacillota
 disjoint_from: NCBITaxon:91061 ! Bacilli
 relationship: RO:0002162 NCBITaxon:186801 ! in taxon Clostridia
 
@@ -1590,10 +1591,10 @@ relationship: RO:0002162 NCBITaxon:186826 ! in taxon Lactobacillales
 
 [Term]
 id: NCBITaxon:187857
-name: Aquificae <class>
-synonym: "Aquificae" EXACT []
-is_a: NCBITaxon:200783 ! Aquificae <phylum>
-relationship: RO:0002162 NCBITaxon:187857 ! in taxon Aquificae <class>
+name: Aquificae
+synonym: "Aquificae Reysenbach 2002" RELATED []
+is_a: NCBITaxon:200783 ! Aquificota
+relationship: RO:0002162 NCBITaxon:187857 ! in taxon Aquificae
 
 [Term]
 id: NCBITaxon:1883
@@ -1616,11 +1617,12 @@ relationship: RO:0002162 NCBITaxon:1884633 ! in taxon Cryptococcaceae
 
 [Term]
 id: NCBITaxon:188708
-name: Thermotogae <class>
-synonym: "Thermotogae" EXACT []
+name: Thermotogae
+synonym: "Thermotogae Reysenbach 2002" RELATED []
+synonym: "Thermotogia" RELATED []
 synonym: "Togobacteria" RELATED []
-is_a: NCBITaxon:200918 ! Thermotogae <phylum>
-relationship: RO:0002162 NCBITaxon:188708 ! in taxon Thermotogae <class>
+is_a: NCBITaxon:200918 ! Thermotogota
+relationship: RO:0002162 NCBITaxon:188708 ! in taxon Thermotogae
 
 [Term]
 id: NCBITaxon:188709
@@ -1632,7 +1634,7 @@ relationship: RO:0002162 NCBITaxon:188709 ! in taxon Thermotogaceae
 id: NCBITaxon:188787
 name: Deinococci
 synonym: "Hadobacteria" RELATED []
-is_a: NCBITaxon:1297 ! Deinococcus-Thermus
+is_a: NCBITaxon:1297 ! Deinococcota
 relationship: RO:0002162 NCBITaxon:188787 ! in taxon Deinococci
 
 [Term]
@@ -1651,8 +1653,8 @@ relationship: RO:0002162 NCBITaxon:1890422 ! in taxon Gloeobacteraceae
 [Term]
 id: NCBITaxon:1890424
 name: Synechococcales
-is_a: NCBITaxon:1117 ! Cyanobacteria
-disjoint_from: NCBITaxon:307596 ! Gloeobacteria
+is_a: NCBITaxon:3028117 ! Cyanophyceae
+disjoint_from: NCBITaxon:307595 ! Gloeobacterales
 relationship: RO:0002162 NCBITaxon:1890424 ! in taxon Synechococcales
 
 [Term]
@@ -1771,55 +1773,53 @@ relationship: RO:0002162 NCBITaxon:200643 ! in taxon Bacteroidia
 
 [Term]
 id: NCBITaxon:200783
-name: Aquificae <phylum>
-synonym: "Aquificae" EXACT []
+name: Aquificota
+synonym: "Aquificae" RELATED []
 synonym: "Aquificaeota" RELATED []
 is_a: NCBITaxon:2 ! Bacteria
-disjoint_from: NCBITaxon:200918 ! Thermotogae <phylum>
-disjoint_from: NCBITaxon:203691 ! Spirochaetes
-disjoint_from: NCBITaxon:32066 ! Fusobacteria
-disjoint_from: NCBITaxon:40117 ! Nitrospirae
+disjoint_from: NCBITaxon:200918 ! Thermotogota
+disjoint_from: NCBITaxon:203691 ! Spirochaetota
+disjoint_from: NCBITaxon:32066 ! Fusobacteriota
+disjoint_from: NCBITaxon:40117 ! Nitrospirota
 disjoint_from: NCBITaxon:68297 ! Dictyoglomi
-relationship: RO:0002162 NCBITaxon:200783 ! in taxon Aquificae <phylum>
+relationship: RO:0002162 NCBITaxon:200783 ! in taxon Aquificota
 
 [Term]
 id: NCBITaxon:200795
-name: Chloroflexi
+name: Chloroflexota
+synonym: "\"Chloroflexi\" Garrity and Holt 2001" RELATED []
 synonym: "Chloroflexaeota" RELATED []
-synonym: "Chloroflexota" RELATED []
+synonym: "Chloroflexi" EXACT []
 synonym: "GNS bacteria" RELATED []
 synonym: "green non-sulfur bacteria" EXACT []
 synonym: "green nonsulfur bacteria" EXACT []
-synonym: "Thermomicrobaeota" RELATED []
-synonym: "Thermomicrobiota" RELATED []
-synonym: "Thermomicrobiota Garrity and Holt 2021" RELATED []
 is_a: NCBITaxon:1783272 ! Terrabacteria group
-disjoint_from: NCBITaxon:201174 ! Actinobacteria
-disjoint_from: NCBITaxon:544448 ! Tenericutes
-relationship: RO:0002162 NCBITaxon:200795 ! in taxon Chloroflexi
+disjoint_from: NCBITaxon:201174 ! Actinomycetota
+disjoint_from: NCBITaxon:544448 ! Mycoplasmatota
+relationship: RO:0002162 NCBITaxon:200795 ! in taxon Chloroflexota
 
 [Term]
 id: NCBITaxon:200918
-name: Thermotogae <phylum>
+name: Thermotogota
 synonym: "Thermotogae" EXACT []
 synonym: "Thermotogaeota" RELATED []
-synonym: "Thermotogota" RELATED []
 is_a: NCBITaxon:2 ! Bacteria
-disjoint_from: NCBITaxon:203691 ! Spirochaetes
-disjoint_from: NCBITaxon:32066 ! Fusobacteria
-disjoint_from: NCBITaxon:40117 ! Nitrospirae
+disjoint_from: NCBITaxon:203691 ! Spirochaetota
+disjoint_from: NCBITaxon:32066 ! Fusobacteriota
+disjoint_from: NCBITaxon:40117 ! Nitrospirota
 disjoint_from: NCBITaxon:68297 ! Dictyoglomi
-relationship: RO:0002162 NCBITaxon:200918 ! in taxon Thermotogae <phylum>
+relationship: RO:0002162 NCBITaxon:200918 ! in taxon Thermotogota
 
 [Term]
 id: NCBITaxon:201174
-name: Actinobacteria
+name: Actinomycetota
 synonym: "Actinobacteraeota" RELATED []
+synonym: "Actinobacteria" RELATED []
 synonym: "actinobacteria" RELATED []
 synonym: "Actinobacteriota" RELATED []
 is_a: NCBITaxon:1783272 ! Terrabacteria group
-disjoint_from: NCBITaxon:544448 ! Tenericutes
-relationship: RO:0002162 NCBITaxon:201174 ! in taxon Actinobacteria
+disjoint_from: NCBITaxon:544448 ! Mycoplasmatota
+relationship: RO:0002162 NCBITaxon:201174 ! in taxon Actinomycetota
 
 [Term]
 id: NCBITaxon:2024747
@@ -1830,7 +1830,6 @@ relationship: RO:0002162 NCBITaxon:2024747 ! in taxon Dactyloidae
 [Term]
 id: NCBITaxon:203486
 name: Dictyoglomia
-synonym: "Dictyoglomi" RELATED []
 is_a: NCBITaxon:68297 ! Dictyoglomi
 relationship: RO:0002162 NCBITaxon:203486 ! in taxon Dictyoglomia
 
@@ -1850,7 +1849,7 @@ relationship: RO:0002162 NCBITaxon:203488 ! in taxon Dictyoglomaceae
 id: NCBITaxon:203490
 name: Fusobacteriia
 synonym: "Fusobacteria" RELATED []
-is_a: NCBITaxon:32066 ! Fusobacteria
+is_a: NCBITaxon:32066 ! Fusobacteriota
 relationship: RO:0002162 NCBITaxon:203490 ! in taxon Fusobacteriia
 
 [Term]
@@ -1868,11 +1867,13 @@ relationship: RO:0002162 NCBITaxon:203492 ! in taxon Fusobacteriaceae
 [Term]
 id: NCBITaxon:203682
 name: Planctomycetota
+synonym: "\"Planctobacteria\" (Cavalier-Smith 1987) Cavalier-Smith 2002" RELATED []
+synonym: "\"Planctomycetes\" Garrity and Holt 2001" RELATED []
+synonym: "\"Planctomycetota\" Whitman et al. 2018" RELATED []
 synonym: "Planctobacteria" RELATED []
-synonym: "Planctomycetaeota" RELATED []
-synonym: "Planctomycetes" RELATED []
+synonym: "Planctomycetes" EXACT []
 is_a: NCBITaxon:1783257 ! PVC group
-disjoint_from: NCBITaxon:204428 ! Chlamydiae
+disjoint_from: NCBITaxon:204428 ! Chlamydiota
 relationship: RO:0002162 NCBITaxon:203682 ! in taxon Planctomycetota
 
 [Term]
@@ -1886,45 +1887,44 @@ relationship: RO:0002162 NCBITaxon:203683 ! in taxon Planctomycetia
 
 [Term]
 id: NCBITaxon:203691
-name: Spirochaetes
+name: Spirochaetota
 synonym: "Spirochaetae" RELATED []
 synonym: "Spirochaetaeota" RELATED []
-synonym: "Spirochaetota" RELATED []
+synonym: "Spirochaetes" RELATED []
 is_a: NCBITaxon:2 ! Bacteria
-disjoint_from: NCBITaxon:32066 ! Fusobacteria
-disjoint_from: NCBITaxon:40117 ! Nitrospirae
+disjoint_from: NCBITaxon:32066 ! Fusobacteriota
+disjoint_from: NCBITaxon:40117 ! Nitrospirota
 disjoint_from: NCBITaxon:68297 ! Dictyoglomi
-relationship: RO:0002162 NCBITaxon:203691 ! in taxon Spirochaetes
+relationship: RO:0002162 NCBITaxon:203691 ! in taxon Spirochaetota
 
 [Term]
 id: NCBITaxon:203692
 name: Spirochaetia
 synonym: "\"Leptospiria\" Cavalier-Smith 2020" RELATED []
 synonym: "Spirochaetes" RELATED []
-is_a: NCBITaxon:203691 ! Spirochaetes
+is_a: NCBITaxon:203691 ! Spirochaetota
 relationship: RO:0002162 NCBITaxon:203692 ! in taxon Spirochaetia
 
 [Term]
 id: NCBITaxon:2037
 name: Actinomycetales
-is_a: NCBITaxon:1760 ! Actinomycetia
-disjoint_from: NCBITaxon:85007 ! Corynebacteriales
-disjoint_from: NCBITaxon:85011 ! Streptomycetales
+is_a: NCBITaxon:1760 ! Actinomycetes
+disjoint_from: NCBITaxon:85007 ! Mycobacteriales
+disjoint_from: NCBITaxon:85011 ! Kitasatosporales
 relationship: RO:0002162 NCBITaxon:2037 ! in taxon Actinomycetales
 
 [Term]
 id: NCBITaxon:204428
-name: Chlamydiae
+name: Chlamydiota
 synonym: "Chlamydaeota" RELATED []
-synonym: "Chlamydiota" RELATED []
+synonym: "Chlamydiae" RELATED []
 is_a: NCBITaxon:1783257 ! PVC group
-relationship: RO:0002162 NCBITaxon:204428 ! in taxon Chlamydiae
+relationship: RO:0002162 NCBITaxon:204428 ! in taxon Chlamydiota
 
 [Term]
 id: NCBITaxon:204429
 name: Chlamydiia
-synonym: "Chlamydiae" RELATED []
-is_a: NCBITaxon:204428 ! Chlamydiae
+is_a: NCBITaxon:204428 ! Chlamydiota
 relationship: RO:0002162 NCBITaxon:204429 ! in taxon Chlamydiia
 
 [Term]
@@ -1943,7 +1943,7 @@ relationship: RO:0002162 NCBITaxon:2058949 ! in taxon Dictyosteliales
 id: NCBITaxon:2062
 name: Streptomycetaceae
 synonym: "Actinoplanaceae" RELATED []
-is_a: NCBITaxon:85011 ! Streptomycetales
+is_a: NCBITaxon:85011 ! Kitasatosporales
 relationship: RO:0002162 NCBITaxon:2062 ! in taxon Streptomycetaceae
 
 [Term]
@@ -1968,18 +1968,6 @@ is_a: NCBITaxon:9604 ! Hominidae
 relationship: RO:0002162 NCBITaxon:207598 ! in taxon Homininae
 
 [Term]
-id: NCBITaxon:2085
-name: Mycoplasmatales
-synonym: "Borrelomycetales" RELATED []
-synonym: "Mollicutales" RELATED []
-synonym: "Mycoplasmas" RELATED []
-synonym: "Paramycetales" RELATED []
-synonym: "Pleuropneumoniales" RELATED []
-synonym: "The Mycoplasmas" RELATED []
-is_a: NCBITaxon:31969 ! Mollicutes
-relationship: RO:0002162 NCBITaxon:2085 ! in taxon Mycoplasmatales
-
-[Term]
 id: NCBITaxon:208964
 name: Pseudomonas aeruginosa PAO1
 synonym: "Pseudomonas sp. PAO1" EXACT []
@@ -1993,32 +1981,11 @@ is_a: NCBITaxon:72293 ! Helicobacteraceae
 relationship: RO:0002162 NCBITaxon:209 ! in taxon Helicobacter
 
 [Term]
-id: NCBITaxon:2092
-name: Mycoplasmataceae
-synonym: "Borrelomycetaceae" RELATED []
-synonym: "Parasitaceae" RELATED []
-synonym: "Pleuropneumoniaceae" RELATED []
-is_a: NCBITaxon:2085 ! Mycoplasmatales
-relationship: RO:0002162 NCBITaxon:2092 ! in taxon Mycoplasmataceae
-
-[Term]
-id: NCBITaxon:2093
-name: Mycoplasma
-synonym: "Asterococcus" RELATED []
-synonym: "Asteromyces" RELATED []
-synonym: "Borrelomyces" RELATED []
-synonym: "Bovimyces" RELATED []
-synonym: "Eperythrozoon" RELATED []
-synonym: "Haemobartonella" RELATED []
-synonym: "Pleuropneumonia" RELATED []
-is_a: NCBITaxon:2092 ! Mycoplasmataceae
-relationship: RO:0002162 NCBITaxon:2093 ! in taxon Mycoplasma
-
-[Term]
 id: NCBITaxon:2097
-name: Mycoplasma genitalium
-is_a: NCBITaxon:2093 ! Mycoplasma
-relationship: RO:0002162 NCBITaxon:2097 ! in taxon Mycoplasma genitalium
+name: Mycoplasmoides genitalium
+synonym: "Mycoplasma genitalium" RELATED []
+is_a: NCBITaxon:2995234 ! Mycoplasmoides
+relationship: RO:0002162 NCBITaxon:2097 ! in taxon Mycoplasmoides genitalium
 
 [Term]
 id: NCBITaxon:210
@@ -2173,7 +2140,7 @@ relationship: RO:0002162 NCBITaxon:222544 ! in taxon Sordariomycetidae
 [Term]
 id: NCBITaxon:2231382
 name: NPAAA clade
-synonym: "Canavanine-accumulating clade" RELATED []
+synonym: "canavanine-accumulating clade" RELATED []
 synonym: "non-protein amino acid accumulating clade" RELATED []
 is_a: NCBITaxon:2231393 ! 50 kb inversion clade
 relationship: RO:0002162 NCBITaxon:2231382 ! in taxon NPAAA clade
@@ -2481,7 +2448,7 @@ relationship: RO:0002162 NCBITaxon:241407 ! in taxon Saccharomycetales incertae 
 id: NCBITaxon:2419
 name: Thermotogales
 synonym: "thermotogales" RELATED []
-is_a: NCBITaxon:188708 ! Thermotogae <class>
+is_a: NCBITaxon:188708 ! Thermotogae
 relationship: RO:0002162 NCBITaxon:2419 ! in taxon Thermotogales
 
 [Term]
@@ -2518,12 +2485,13 @@ relationship: RO:0002162 NCBITaxon:243232 ! in taxon Methanocaldococcus jannasch
 
 [Term]
 id: NCBITaxon:243273
-name: Mycoplasma genitalium G37
+name: Mycoplasmoides genitalium G37
 synonym: "Mycoplasma genitalium ATCC 33530" RELATED []
+synonym: "Mycoplasma genitalium G37" RELATED []
 synonym: "Mycoplasma genitalium str. G37" EXACT []
 synonym: "Mycoplasma genitalium strain G37" EXACT []
-is_a: NCBITaxon:2097 ! Mycoplasma genitalium
-relationship: RO:0002162 NCBITaxon:243273 ! in taxon Mycoplasma genitalium G37
+is_a: NCBITaxon:2097 ! Mycoplasmoides genitalium
+relationship: RO:0002162 NCBITaxon:243273 ! in taxon Mycoplasmoides genitalium G37
 
 [Term]
 id: NCBITaxon:243274
@@ -2821,6 +2789,12 @@ is_a: NCBITaxon:1292248 ! Planarioidea
 relationship: RO:0002162 NCBITaxon:27896 ! in taxon Planariidae
 
 [Term]
+id: NCBITaxon:2790996
+name: Mycoplasmoidales
+is_a: NCBITaxon:544448 ! Mycoplasmatota
+relationship: RO:0002162 NCBITaxon:2790996 ! in taxon Mycoplasmoidales
+
+[Term]
 id: NCBITaxon:28009
 name: Choanoflagellata
 synonym: "Choanoflagellatea" RELATED []
@@ -2836,7 +2810,7 @@ relationship: RO:0002162 NCBITaxon:28009 ! in taxon Choanoflagellata
 [Term]
 id: NCBITaxon:2811502
 name: Thermodesulfovibrionia
-is_a: NCBITaxon:40117 ! Nitrospirae
+is_a: NCBITaxon:40117 ! Nitrospirota
 relationship: RO:0002162 NCBITaxon:2811502 ! in taxon Thermodesulfovibrionia
 
 [Term]
@@ -2867,7 +2841,7 @@ synonym: "alpha subgroup" RELATED []
 synonym: "Alphabacteria" RELATED []
 synonym: "Proteobacteria alpha subdivision" RELATED []
 synonym: "Purple bacteria, alpha subdivision" RELATED []
-is_a: NCBITaxon:1224 ! Proteobacteria
+is_a: NCBITaxon:1224 ! Pseudomonadota
 disjoint_from: NCBITaxon:28216 ! Betaproteobacteria
 disjoint_from: NCBITaxon:68525 ! delta/epsilon subdivisions
 relationship: RO:0002162 NCBITaxon:28211 ! in taxon Alphaproteobacteria
@@ -2881,7 +2855,7 @@ synonym: "beta subdivision" RELATED []
 synonym: "beta subgroup" RELATED []
 synonym: "Proteobacteria beta subdivision" RELATED []
 synonym: "Purple bacteria, beta subdivision" RELATED []
-is_a: NCBITaxon:1224 ! Proteobacteria
+is_a: NCBITaxon:1224 ! Pseudomonadota
 disjoint_from: NCBITaxon:68525 ! delta/epsilon subdivisions
 relationship: RO:0002162 NCBITaxon:28216 ! in taxon Betaproteobacteria
 
@@ -3061,6 +3035,12 @@ is_a: NCBITaxon:28262 ! Thermodesulfovibrio yellowstonii
 relationship: RO:0002162 NCBITaxon:289376 ! in taxon Thermodesulfovibrio yellowstonii DSM 11347
 
 [Term]
+id: NCBITaxon:2895623
+name: Metamycoplasmataceae
+is_a: NCBITaxon:2790996 ! Mycoplasmoidales
+relationship: RO:0002162 NCBITaxon:2895623 ! in taxon Metamycoplasmataceae
+
+[Term]
 id: NCBITaxon:28983
 name: Sclerotiniaceae
 is_a: NCBITaxon:5178 ! Helotiales
@@ -3125,6 +3105,12 @@ is_a: NCBITaxon:3603 ! Vitis
 relationship: RO:0002162 NCBITaxon:29760 ! in taxon Vitis vinifera
 
 [Term]
+id: NCBITaxon:2995234
+name: Mycoplasmoides
+is_a: NCBITaxon:2895623 ! Metamycoplasmataceae
+relationship: RO:0002162 NCBITaxon:2995234 ! in taxon Mycoplasmoides
+
+[Term]
 id: NCBITaxon:3027
 name: Cryptophyceae
 synonym: "algae" RELATED []
@@ -3140,6 +3126,13 @@ disjoint_from: NCBITaxon:33154 ! Opisthokonta
 disjoint_from: NCBITaxon:38254 ! Glaucocystophyceae
 disjoint_from: NCBITaxon:554915 ! Amoebozoa
 relationship: RO:0002162 NCBITaxon:3027 ! in taxon Cryptophyceae
+
+[Term]
+id: NCBITaxon:3028117
+name: Cyanophyceae
+synonym: "Gloeobacteria" RELATED []
+is_a: NCBITaxon:1117 ! Cyanobacteriota
+relationship: RO:0002162 NCBITaxon:3028117 ! in taxon Cyanophyceae
 
 [Term]
 id: NCBITaxon:30319
@@ -3197,14 +3190,8 @@ relationship: RO:0002162 NCBITaxon:30727 ! in taxon Cyprinoidei
 [Term]
 id: NCBITaxon:307595
 name: Gloeobacterales
-is_a: NCBITaxon:307596 ! Gloeobacteria
+is_a: NCBITaxon:3028117 ! Cyanophyceae
 relationship: RO:0002162 NCBITaxon:307595 ! in taxon Gloeobacterales
-
-[Term]
-id: NCBITaxon:307596
-name: Gloeobacteria
-is_a: NCBITaxon:1117 ! Cyanobacteria
-relationship: RO:0002162 NCBITaxon:307596 ! in taxon Gloeobacteria
 
 [Term]
 id: NCBITaxon:311400
@@ -3298,15 +3285,6 @@ is_a: NCBITaxon:651137 ! Thaumarchaeota
 relationship: RO:0002162 NCBITaxon:31932 ! in taxon Nitrosopumilales
 
 [Term]
-id: NCBITaxon:31969
-name: Mollicutes
-synonym: "mycoplasmas" RELATED []
-synonym: "Mycoplasmas and walled relatives" RELATED []
-synonym: "Paramycetes" RELATED []
-is_a: NCBITaxon:544448 ! Tenericutes
-relationship: RO:0002162 NCBITaxon:31969 ! in taxon Mollicutes
-
-[Term]
 id: NCBITaxon:31979
 name: Clostridiaceae
 is_a: NCBITaxon:186802 ! Eubacteriales
@@ -3327,7 +3305,7 @@ synonym: "Chloroflexaceae/Deinococcaceae group" RELATED []
 synonym: "Chloroflexi" RELATED []
 synonym: "Chloroflexus/Deinococcaceae group" RELATED []
 synonym: "Chloroflexus/Deinococcus group" RELATED []
-is_a: NCBITaxon:200795 ! Chloroflexi
+is_a: NCBITaxon:200795 ! Chloroflexota
 relationship: RO:0002162 NCBITaxon:32061 ! in taxon Chloroflexia
 
 [Term]
@@ -3340,14 +3318,14 @@ relationship: RO:0002162 NCBITaxon:32064 ! in taxon Chloroflexales
 
 [Term]
 id: NCBITaxon:32066
-name: Fusobacteria
+name: Fusobacteriota
 synonym: "Fusobacteraeota" RELATED []
+synonym: "Fusobacteria" RELATED []
 synonym: "fusobacteria" RELATED []
-synonym: "Fusobacteriota" RELATED []
 is_a: NCBITaxon:2 ! Bacteria
-disjoint_from: NCBITaxon:40117 ! Nitrospirae
+disjoint_from: NCBITaxon:40117 ! Nitrospirota
 disjoint_from: NCBITaxon:68297 ! Dictyoglomi
-relationship: RO:0002162 NCBITaxon:32066 ! in taxon Fusobacteria
+relationship: RO:0002162 NCBITaxon:32066 ! in taxon Fusobacteriota
 
 [Term]
 id: NCBITaxon:32069
@@ -3357,7 +3335,7 @@ synonym: "Hydrogenic oxygen reducing bacteria" RELATED []
 synonym: "Obligately chemolithotrophic hydrogen bacteria" RELATED []
 synonym: "Oxygen reducing bacteria" RELATED []
 synonym: "Oxygen-reducing bacteria" RELATED []
-is_a: NCBITaxon:187857 ! Aquificae <class>
+is_a: NCBITaxon:187857 ! Aquificae
 relationship: RO:0002162 NCBITaxon:32069 ! in taxon Aquificales
 
 [Term]
@@ -3519,6 +3497,7 @@ synonym: "Dictyostelida" RELATED []
 synonym: "Dictyostelids" RELATED []
 synonym: "Dictyosteliida" RELATED []
 is_a: NCBITaxon:142796 ! Eumycetozoa
+disjoint_from: NCBITaxon:33680 ! Myxogastria
 relationship: RO:0002162 NCBITaxon:33083 ! in taxon Dictyostelia
 
 [Term]
@@ -3659,6 +3638,17 @@ synonym: "heterokonts" EXACT []
 synonym: "Straminipila" RELATED []
 is_a: NCBITaxon:2698737 ! Sar
 relationship: RO:0002162 NCBITaxon:33634 ! in taxon Stramenopiles
+
+[Term]
+id: NCBITaxon:33680
+name: Myxogastria
+synonym: "myxomycete" RELATED []
+synonym: "Myxomycetes" RELATED []
+synonym: "Myxomycota" RELATED []
+synonym: "plasmodial slime molds" EXACT []
+synonym: "plasmodial slime molds" RELATED []
+is_a: NCBITaxon:142796 ! Eumycetozoa
+relationship: RO:0002162 NCBITaxon:33680 ! in taxon Myxogastria
 
 [Term]
 id: NCBITaxon:33682
@@ -4143,6 +4133,7 @@ name: Prunus persica
 synonym: "Amygdalus persica" RELATED []
 synonym: "peach" EXACT []
 synonym: "Persica vulgaris" RELATED []
+synonym: "Prunus persica var. densa" RELATED []
 is_a: NCBITaxon:3754 ! Prunus
 relationship: RO:0002162 NCBITaxon:3760 ! in taxon Prunus persica
 
@@ -4324,14 +4315,14 @@ relationship: RO:0002162 NCBITaxon:39947 ! in taxon Oryza sativa Japonica Group
 
 [Term]
 id: NCBITaxon:40117
-name: Nitrospirae
+name: Nitrospirota
 synonym: "Nitrospira group" RELATED []
+synonym: "Nitrospirae" RELATED []
 synonym: "Nitrospiraeota" RELATED []
-synonym: "Nitrospirota" RELATED []
 synonym: "Thermodesulfovibrio group" RELATED []
 is_a: NCBITaxon:2 ! Bacteria
 disjoint_from: NCBITaxon:68297 ! Dictyoglomi
-relationship: RO:0002162 NCBITaxon:40117 ! in taxon Nitrospirae
+relationship: RO:0002162 NCBITaxon:40117 ! in taxon Nitrospirota
 
 [Term]
 id: NCBITaxon:403667
@@ -5526,12 +5517,13 @@ relationship: RO:0002162 NCBITaxon:543 ! in taxon Enterobacteriaceae
 
 [Term]
 id: NCBITaxon:544448
-name: Tenericutes
-synonym: "Mollicutaeota" RELATED []
+name: Mycoplasmatota
+synonym: "\"Mollicutaeota\" Oren et al. 2015" RELATED []
 synonym: "Mollicutota" RELATED []
 synonym: "Tenericuteota" RELATED []
+synonym: "Tenericutes" RELATED []
 is_a: NCBITaxon:1783272 ! Terrabacteria group
-relationship: RO:0002162 NCBITaxon:544448 ! in taxon Tenericutes
+relationship: RO:0002162 NCBITaxon:544448 ! in taxon Mycoplasmatota
 
 [Term]
 id: NCBITaxon:5475
@@ -5713,10 +5705,9 @@ relationship: RO:0002162 NCBITaxon:5739 ! in taxon Hexamitidae
 
 [Term]
 id: NCBITaxon:5740
-name: Giardia <diplomonads>
-synonym: "Giardia" EXACT []
+name: Giardia
 is_a: NCBITaxon:68459 ! Giardiinae
-relationship: RO:0002162 NCBITaxon:5740 ! in taxon Giardia <diplomonads>
+relationship: RO:0002162 NCBITaxon:5740 ! in taxon Giardia
 
 [Term]
 id: NCBITaxon:5741
@@ -5724,7 +5715,7 @@ name: Giardia intestinalis
 synonym: "Giardia duodenalis" RELATED []
 synonym: "Giardia lamblia" RELATED []
 synonym: "Lamblia intestinalis" RELATED []
-is_a: NCBITaxon:5740 ! Giardia <diplomonads>
+is_a: NCBITaxon:5740 ! Giardia
 relationship: RO:0002162 NCBITaxon:5741 ! in taxon Giardia intestinalis
 
 [Term]
@@ -6185,7 +6176,7 @@ relationship: RO:0002162 NCBITaxon:68459 ! in taxon Giardiinae
 [Term]
 id: NCBITaxon:68525
 name: delta/epsilon subdivisions
-is_a: NCBITaxon:1224 ! Proteobacteria
+is_a: NCBITaxon:1224 ! Pseudomonadota
 relationship: RO:0002162 NCBITaxon:68525 ! in taxon delta/epsilon subdivisions
 
 [Term]
@@ -6568,8 +6559,7 @@ relationship: RO:0002162 NCBITaxon:745062 ! in taxon Lactucinae
 [Term]
 id: NCBITaxon:746128
 name: Aspergillus fumigatus
-synonym: "Aspergillus fumigates" RELATED []
-synonym: "Aspergillus fumigatus Fresen. 1863" RELATED []
+synonym: "Aspergillus fumigatus Fresen., 1863" RELATED []
 synonym: "Aspergillus fumigatus var. ellipticus" RELATED []
 synonym: "Aspergillus neoellipticus" RELATED []
 synonym: "Neosartorya fumigata" RELATED []
@@ -6728,18 +6718,18 @@ relationship: RO:0002162 NCBITaxon:7735 ! in taxon Cephalochordata
 
 [Term]
 id: NCBITaxon:7736
-name: Branchiostomidae
+name: Branchiostomatidae
 synonym: "amphioxi" EXACT []
 synonym: "amphioxius" EXACT []
-synonym: "Branchiostomatidae" RELATED []
+synonym: "Branchiostomidae" RELATED []
 synonym: "lancelets" EXACT []
 is_a: NCBITaxon:2682553 ! Amphioxiformes
-relationship: RO:0002162 NCBITaxon:7736 ! in taxon Branchiostomidae
+relationship: RO:0002162 NCBITaxon:7736 ! in taxon Branchiostomatidae
 
 [Term]
 id: NCBITaxon:7737
 name: Branchiostoma
-is_a: NCBITaxon:7736 ! Branchiostomidae
+is_a: NCBITaxon:7736 ! Branchiostomatidae
 relationship: RO:0002162 NCBITaxon:7737 ! in taxon Branchiostoma
 
 [Term]
@@ -7109,23 +7099,24 @@ relationship: RO:0002162 NCBITaxon:8492 ! in taxon Archosauria
 
 [Term]
 id: NCBITaxon:85007
-name: Corynebacteriales
+name: Mycobacteriales
+synonym: "Corynebacteriales" RELATED []
 synonym: "Corynebacteriales Goodfellow and Jones 2015" RELATED []
 synonym: "Corynebacterineae" RELATED []
-synonym: "Mycobacteriales" RELATED []
 synonym: "Mycobacteriales Janke 1924 (Approved Lists 1980)" RELATED []
-is_a: NCBITaxon:1760 ! Actinomycetia
-disjoint_from: NCBITaxon:85011 ! Streptomycetales
-relationship: RO:0002162 NCBITaxon:85007 ! in taxon Corynebacteriales
+is_a: NCBITaxon:1760 ! Actinomycetes
+disjoint_from: NCBITaxon:85011 ! Kitasatosporales
+relationship: RO:0002162 NCBITaxon:85007 ! in taxon Mycobacteriales
 
 [Term]
 id: NCBITaxon:85011
-name: Streptomycetales
+name: Kitasatosporales
+synonym: "Streptomycetales" RELATED []
 synonym: "Streptomycetes" RELATED []
-synonym: "Streptomycetineae" EXACT []
+synonym: "Streptomycetineae corrig. Rainey et al. 1997" RELATED []
 synonym: "Streptomycineae" RELATED []
-is_a: NCBITaxon:1760 ! Actinomycetia
-relationship: RO:0002162 NCBITaxon:85011 ! in taxon Streptomycetales
+is_a: NCBITaxon:1760 ! Actinomycetes
+relationship: RO:0002162 NCBITaxon:85011 ! in taxon Kitasatosporales
 
 [Term]
 id: NCBITaxon:8504
@@ -7295,7 +7286,7 @@ id: NCBITaxon:91061
 name: Bacilli
 synonym: "Bacillus/Lactobacillus/Streptococcus group" RELATED []
 synonym: "Firmibacteria" RELATED []
-is_a: NCBITaxon:1239 ! Firmicutes
+is_a: NCBITaxon:1239 ! Bacillota
 relationship: RO:0002162 NCBITaxon:91061 ! in taxon Bacilli
 
 [Term]
@@ -7507,6 +7498,7 @@ relationship: RO:0002162 NCBITaxon:9539 ! in taxon Macaca
 [Term]
 id: NCBITaxon:9544
 name: Macaca mulatta
+synonym: "Cercopithecus mulatta" RELATED []
 synonym: "rhesus macaque" EXACT []
 synonym: "rhesus macaques" EXACT []
 synonym: "Rhesus monkey" EXACT []
@@ -7653,8 +7645,7 @@ relationship: RO:0002162 NCBITaxon:9722 ! in taxon Odontoceti
 [Term]
 id: NCBITaxon:976
 name: Bacteroidota
-synonym: "'Bacteroidota'" RELATED []
-synonym: "Bacteroidaeota" RELATED []
+synonym: "\"Bacteroidota\" Whitman et al. 2018" RELATED []
 synonym: "Bacteroides-Cytophaga-Flexibacter group" EXACT []
 synonym: "Bacteroidetes" RELATED []
 synonym: "BCF group" EXACT []

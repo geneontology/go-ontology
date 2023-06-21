@@ -4,7 +4,7 @@
 
 ## Description
 
-TODO
+This pattern is for classes representing types of positive regulation differentiated by the process they regulate.
 
 
 

@@ -8213,4 +8213,4 @@ http://purl.obolibrary.org/obo/CHEBI_7883 ## PR-toxin
 http://purl.obolibrary.org/obo/CHEBI_27779 ## griseofulvin
 http://purl.obolibrary.org/obo/CHEBI_189095 ## conidiogenone
 http://purl.obolibrary.org/obo/CHEBI_177543 ## terrein
-
+http://purl.obolibrary.org/obo/CHEBI_41132 ## tetrahydroxoborate(1-)

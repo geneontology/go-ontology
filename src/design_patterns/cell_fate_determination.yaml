@@ -1,0 +1,30 @@
+pattern_name: cell fate determination
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cell_fate_determination.yaml
+
+description: This pattern is for classes representing the determination of cell fate, differentiated by the cell being differentiated.
+
+classes:
+  native cell: "CL:0000003" # Should ensure native plant cells are subclasses
+  cell fate determination: "GO:0001709"
+
+relations: 
+  results in determination of: "RO:0002349"
+
+vars:
+  target: "'native cell'"
+
+name:
+  text: "%s determination"
+  vars:
+    - target
+
+def:
+  text: "The cell determination process by which a cell becomes capable of terminally differentiating autonomously into a %s cell."
+  vars:
+     - target
+
+equivalentTo:
+  text: "'cell fate determination' and 'results in determination of' some %s"
+  vars:
+    - target

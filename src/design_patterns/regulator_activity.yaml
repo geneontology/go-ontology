@@ -9,7 +9,7 @@ classes:
   catalytic activity: "GO:0003824"
 
 relations:
-  regulates: "RO:0002211"
+  directly regulates: "RO:0002578"
 
 vars:
   regulated_activity: "'catalytic activity'"
@@ -24,12 +24,11 @@ def:
     Binds to and modulates the activity of %s.
   vars: 
     - regulated_activity
-    - regulated_activity
 
 namespace: 
-  text: 'biological_process'
+  text: 'molecular_function'
 
 equivalentTo:
-  text: "'molecular function regulator activity' and 'regulates' some %s"
+  text: "'molecular function regulator activity' and 'directly regulates' some %s"
   vars: 
     - regulated_activity

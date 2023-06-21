@@ -1,4 +1,4 @@
-pattern_name: regulation_of_characteristic
+pattern_name: regulation of characteristic
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/regulation_of_characteristic.yaml
 
@@ -13,7 +13,7 @@ relations:
   regulates characteristic: "RO:0019000"
 
 vars:
- characteristic: "'characteristic'"
+  characteristic: "'characteristic'"
 
 name:
      text: "regulation of %s"

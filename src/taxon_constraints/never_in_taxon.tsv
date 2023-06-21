@@ -124,7 +124,7 @@ GO:0014832	urinary bladder smooth muscle contraction	NCBITaxon:8782	Aves
 GO:0015979	photosynthesis	NCBITaxon:33208	Metazoa	
 GO:0015979	photosynthesis	NCBITaxon:4895	Schizosaccharomyces	
 GO:0015994	chlorophyll metabolic process	NCBITaxon:33208	Metazoa	
-GO:0016032	viral process	NCBITaxon:4751	Fungi	
+GO:0016032	viral process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0016116	carotenoid metabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0016116	carotenoid metabolic process	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0016168	chlorophyll binding	NCBITaxon:33208	Metazoa	
@@ -143,7 +143,6 @@ GO:0030054	cell junction	NCBITaxon:4751	Fungi
 GO:0030141	secretory granule	NCBITaxon:4890	Ascomycota	
 GO:0030436	asexual sporulation	NCBITaxon:33083	Dictyostelids	
 GO:0030492	hemoglobin binding	NCBITaxon:4751	Fungi	
-GO:0030579	ubiquitin-dependent SMAD protein catabolic process	NCBITaxon:4751	Fungi	
 GO:0030634	carbon fixation by acetyl-CoA pathway	NCBITaxon:2759	Eukaryota	
 GO:0030881	beta-2-microglobulin binding	NCBITaxon:4751	Fungi	
 GO:0030984	kininogen binding	NCBITaxon:4751	Fungi	
@@ -348,7 +347,6 @@ GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:3398	Magnoliop
 GO:0098521	inhibitory neuromuscular junction	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0098769	TIMP family protein binding	NCBITaxon:4751	Fungi	
 GO:0098770	FBXO family protein binding	NCBITaxon:4751	Fungi	
-GO:0099536	synaptic signaling	NCBITaxon:4895	Schizosaccharomyces	
 GO:0102084	L-dopa O-methyltransferase activity	NCBITaxon:4890	Ascomycota	
 GO:0102938	orcinol O-methyltransferase activity	NCBITaxon:4890	Ascomycota	
 GO:0120164	conidium germination	NCBITaxon:147554	Schizosaccharomycetes	
@@ -477,7 +475,6 @@ GO:0098610	adhesion between unicellular organisms	NCBITaxon:33090	Viridiplantae
 GO:0001726	ruffle	NCBITaxon:4890	Ascomycota	
 GO:0043616	keratinocyte proliferation	NCBITaxon:6656	Arthropoda	
 GO:0043588	skin development	NCBITaxon:6656	Arthropoda	
-GO:0033561	regulation of water loss via skin	NCBITaxon:6656	Arthropoda	
 GO:0032980	keratinocyte activation	NCBITaxon:6656	Arthropoda	
 GO:0051546	keratinocyte migration	NCBITaxon:6656	Arthropoda	
 GO:0097283	keratinocyte apoptotic process	NCBITaxon:6656	Arthropoda	
@@ -520,7 +517,6 @@ GO:0005368	taurine transmembrane transporter activity	NCBITaxon:4751	Fungi
 GO:0015411	ATPase-coupled taurine transporter activity	NCBITaxon:4751	Fungi	
 GO:0000011	vacuole inheritance	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0071563	Myo2p-Vac17p-Vac8p transport complex	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0036473	cell death in response to oxidative stress	NCBITaxon:4890 	Ascomycota	
 GO:0031911	cytoproct	NCBITaxon:33208	Metazoa	
 GO:0044297	cell body	NCBITaxon:4890 	Ascomycota	
 GO:0045180	basal cortex	NCBITaxon:4890 	Ascomycota	
@@ -532,8 +528,10 @@ GO:0071588	hydrogen peroxide mediated signaling pathway	NCBITaxon:4751	Fungi
 GO:0071818	BAT3 complex	NCBITaxon:4890 	Ascomycota	
 GO:0016922	nuclear receptor binding	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
 GO:0048309	endoplasmic reticulum inheritance	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0044728	DNA methylation or demethylation	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0044728	DNA methylation or demethylation	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0080111	DNA demethylation	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0080111	DNA demethylation	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0006306	DNA methylation	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0006306	DNA methylation	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0140643	hydroxymethylglutaryl-CoA reductase (NADH) activity	NCBITaxon:2759	Eukaryota	
 GO:0044003	modulation by symbiont of host process	NCBITaxon:33090	Viridiplantae	
 GO:0044003	modulation by symbiont of host process	NCBITaxon:7742	Vertebrata <Metazoa>	
@@ -562,15 +560,27 @@ GO:0044393	microspike	NCBITaxon:4751	Fungi
 GO:0030035	microspike assembly	NCBITaxon:4751	Fungi	
 GO:0140858	histone ubiquitin ligase activity (H2A-K15 specific)	NCBITaxon:4890	Ascomycota	
 GO:0005689	U12-type spliceosomal complex	NCBITaxon:4890	Ascomycota	
-GO:0098619	selenocysteine-tRNA ligase activity	NCBITaxon:451864	Dikarya
-GO:0098619	selenocysteine-tRNA ligase activity	NCBITaxon:3193	Embryophyta
-GO:0001514	selenocysteine incorporation	NCBITaxon:451864	Dikarya
-GO:0001514	selenocysteine incorporation	NCBITaxon:3193	Embryophyta
+GO:0098619	selenocysteine-tRNA ligase activity	NCBITaxon:451864	Dikarya	
+GO:0098619	selenocysteine-tRNA ligase activity	NCBITaxon:3193	Embryophyta	
+GO:0001514	selenocysteine incorporation	NCBITaxon:451864	Dikarya	
+GO:0001514	selenocysteine incorporation	NCBITaxon:3193	Embryophyta	
 GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:2	Bacteria	
-GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:2157	Archaea
+GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:2157	Archaea	
 GO:0106037	apicomedial cortex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0106037	apicomedial cortex	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0106037	apicomedial cortex	NCBITaxon:2	Bacteria	
 GO:0106037	apicomedial cortex	NCBITaxon:2157	Archaea	
+GO:0005725	intercalary heterochromatin	NCBITaxon:4751	Fungi	
+GO:0017145	stem cell division	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0038055	BMP secretion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0020022	acidocalcisome	NCBITaxon:4890	Ascomycota	
+GO:0042246 	tissue regeneration	NCBITaxon:4751	Fungi	
+GO:0060250 	germ-line stem-cell niche homeostasis	NCBITaxon:4751	Fungi	
+GO:0035658	Mon1-Ccz1 complex	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0048863	stem cell differentiation	NCBITaxon:4751	Fungi	
+GO:0003365	establishment of cell polarity involved in ameboidal cell migration	NCBITaxon:4751	Fungi	
+GO:0090398	cellular senescence	NCBITaxon:4751	Fungi	
+GO:0000365	mRNA trans splicing, via spliceosome	NCBITaxon:4751	Fungi	
+GO:0016477	cell migration	NCBITaxon:4890	Ascomycota	

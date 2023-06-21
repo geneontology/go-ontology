@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-10-26/imports/ro_import.owl
+data-version: go/releases/2023-02-28/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -78,78 +78,6 @@ disjoint_from: BFO:0000141 ! immaterial entity
 id: BFO:0000141
 name: immaterial entity
 is_a: BFO:0000004 ! independent continuant
-
-[Term]
-id: CARO:0000000
-name: anatomical entity
-is_a: CARO:0030000 ! biological entity
-
-[Term]
-id: CARO:0000003
-name: connected anatomical structure
-is_a: CARO:0000006 ! material anatomical entity
-
-[Term]
-id: CARO:0000006
-name: material anatomical entity
-is_a: BFO:0000040 ! material entity
-is_a: CARO:0000000 ! anatomical entity
-
-[Term]
-id: CARO:0001010
-name: organism or virus or viroid
-is_a: BFO:0000040 ! material entity
-
-[Term]
-id: CARO:0030000
-name: biological entity
-is_a: BFO:0000004 ! independent continuant
-
-[Term]
-id: CL:0000000
-name: cell
-is_a: CARO:0000003 ! connected anatomical structure
-
-[Term]
-id: CL:0000540
-name: neuron
-is_a: CL:0000000 ! cell
-
-[Term]
-id: PATO:0000001
-name: quality
-is_a: BFO:0000020 ! specifically dependent continuant
-
-[Term]
-id: PATO:0000051
-name: morphology
-is_a: BFO:0000019 ! quality
-is_a: PATO:0001241 ! physical object quality
-
-[Term]
-id: PATO:0000052
-name: shape
-is_a: PATO:0000051 ! morphology
-
-[Term]
-id: PATO:0000141
-name: structure
-is_a: PATO:0000051 ! morphology
-
-[Term]
-id: PATO:0001199
-name: linear
-is_a: PATO:0000052 ! shape
-
-[Term]
-id: PATO:0001241
-name: physical object quality
-is_a: PATO:0000001 ! quality
-
-[Term]
-id: PATO:0002124
-name: laminar
-is_a: PATO:0000141 ! structure
 
 [Typedef]
 id: acts_on_population_of
@@ -410,13 +338,6 @@ name: coincident with
 def: "A relation that holds between two linear structures that are approximately parallel to each other for their entire length and where either the two structures are adjacent to each other or one is part of the other." []
 xref: RO:0002008
 is_a: mereotopologically_related_to ! mereotopologically related to
-
-[Typedef]
-id: constitutively_upstream_of
-name: constitutively upstream of
-def: "p is constitutively upstream of q iff p is causally upstream of q, p is required for execution of q or a part of q, and the execution of p is approximately constant." []
-xref: RO:0012009
-is_a: causally_upstream_of,_positive_effect ! causally upstream of, positive effect
 
 [Typedef]
 id: contains_process
@@ -725,8 +646,8 @@ id: has_developmental_contribution_from
 name: has developmental contribution from
 def: "x has developmental contribution from y iff x has some part z such that z develops from y" []
 xref: RO:0002254
-domain: CARO:0000000 ! anatomical entity
-range: CARO:0000000 ! anatomical entity
+domain: CARO:0000000
+range: CARO:0000000
 holds_over_chain: has_part develops_from
 is_a: developmentally_preceded_by ! developmentally preceded by
 inverse_of: developmentally_contributes_to ! developmentally contributes to
@@ -736,8 +657,8 @@ id: has_developmental_potential_involving
 name: has developmental potential involving
 def: "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)." []
 xref: RO:0002384
-domain: CARO:0000000 ! anatomical entity
-range: CARO:0000000 ! anatomical entity
+domain: CARO:0000000
+range: CARO:0000000
 is_a: developmentally_related_to ! developmentally related to
 
 [Typedef]
@@ -999,7 +920,7 @@ id: in_taxon
 name: in taxon
 def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
 xref: RO:0002162
-range: CARO:0001010 ! organism or virus or viroid
+range: CARO:0001010
 holds_over_chain: capable_of in_taxon
 holds_over_chain: develops_from in_taxon
 holds_over_chain: has_developmental_contribution_from in_taxon
@@ -1364,7 +1285,7 @@ name: regulates characteristic
 def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
 xref: RO:0019000
 domain: BFO:0000015 ! process
-range: PATO:0000001 ! quality
+range: PATO:0000001
 holds_over_chain: regulates regulates_characteristic
 is_a: causally_related_to ! causally related to
 
@@ -1390,7 +1311,7 @@ id: results_in_acquisition_of_features_of
 name: results in acquisition of features of
 def: "The relationship that links a specified entity with the process that results in an unspecified entity acquiring the features and characteristics of the specified entity" []
 xref: RO:0002315
-range: CARO:0000003 ! connected anatomical structure
+range: CARO:0000003
 is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
@@ -1420,7 +1341,7 @@ id: results_in_commitment_to
 name: results in commitment to
 def: "p 'results in commitment to' c if and only if p is a developmental process and c is a cell and p results in the state of c changing such that is can only develop into a single cell type." []
 xref: RO:0002348
-range: CL:0000000 ! cell
+range: CL:0000000
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1428,7 +1349,7 @@ id: results_in_determination_of
 name: results in determination of
 def: "p 'results in determination of' c if and only if p is a developmental process and c is a cell and p results in the state of c changing to be determined. Once a cell becomes determined, it becomes committed to differentiate down a particular pathway regardless of its environment." []
 xref: RO:0002349
-range: CL:0000000 ! cell
+range: CL:0000000
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1442,10 +1363,10 @@ is_a: results_in_developmental_progression_of ! results in developmental progres
 [Typedef]
 id: results_in_developmental_progression_of
 name: results in developmental progression of
-def: "p results in the developmental progression of s iff p is a developmental process and s is an anatomical structure and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss)." []
+def: "p results in the developmental progression of s iff p is a developmental process and s is an anatomical entity and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss)." []
 xref: RO:0002295
 domain: GO:0008150
-range: CARO:0000003 ! connected anatomical structure
+range: CARO:0000000
 is_a: developmentally_related_to ! developmentally related to
 
 [Typedef]
@@ -1518,7 +1439,7 @@ id: results_in_specification_of
 name: results in specification of
 def: "The relationship linking a cell and its participation in a process that results in the fate of the cell being specified. Once specification has taken place, a cell will be committed to differentiate down a specific pathway if left in its normal environment. " []
 xref: RO:0002356
-range: CL:0000000 ! cell
+range: CL:0000000
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]

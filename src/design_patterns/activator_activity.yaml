@@ -5,14 +5,14 @@ pattern_iri: http://purl.obolibrary.org/obo/go/patterns/activator_activity.yaml
 description: This pattern is for representing a function that activates some molecular function, differentiated by the specific molecular function activated.
 
 classes:
-  molecular function activator activity: 'GO:0140677'
+  molecular function regulator activity: 'GO:0098772'
   catalytic activity: 'GO:0003824'
 
 relations:
-  positively regulates: 'RO:0002213' 
+  directly positively regulates: 'RO:0002629'
   
 vars:
-  regulated_activity: "'catalytic activity'" 
+  regulated_activity: "'catalytic activity'"
 
 substitutions:
    - 
@@ -33,12 +33,11 @@ def:
   text: "Binds to and increases the activity of %s."
   vars:
     - 'regulated_activity'
-    - 'regulated_activity'
 
 namespace: 
   text: 'molecular_function'
 
 equivalentTo: 
-  text: "'molecular function activator activity' and 'positively regulates' some %s" 
+  text: "'molecular function regulator activity' and 'directly positively regulates' some %s" 
   vars:
     - 'regulated_activity'

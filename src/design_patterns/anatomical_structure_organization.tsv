@@ -1,0 +1,29 @@
+defined_class	defined_class_label	target	target_label
+http://purl.obolibrary.org/obo/GO_0021600	abducens nerve structural organization	http://purl.obolibrary.org/obo/UBERON_0001646	abducens nerve
+http://purl.obolibrary.org/obo/GO_0021609	accessory nerve structural organization	http://purl.obolibrary.org/obo/UBERON_0002019	accessory XI nerve
+http://purl.obolibrary.org/obo/GO_0021597	central nervous system structural organization	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
+http://purl.obolibrary.org/obo/GO_0021698	cerebellar cortex structural organization	http://purl.obolibrary.org/obo/UBERON_0002129	cerebellar cortex
+http://purl.obolibrary.org/obo/GO_0021685	cerebellar granular layer structural organization	http://purl.obolibrary.org/obo/UBERON_0002956	granular layer of cerebellar cortex
+http://purl.obolibrary.org/obo/GO_0021689	cerebellar molecular layer structural organization	http://purl.obolibrary.org/obo/UBERON_0002974	molecular layer of cerebellar cortex
+http://purl.obolibrary.org/obo/GO_0021589	cerebellum structural organization	http://purl.obolibrary.org/obo/UBERON_0002037	cerebellum
+http://purl.obolibrary.org/obo/GO_0021604	cranial nerve structural organization	http://purl.obolibrary.org/obo/UBERON_0001785	cranial nerve
+http://purl.obolibrary.org/obo/GO_0021612	facial nerve structural organization	http://purl.obolibrary.org/obo/UBERON_0001647	facial nerve
+http://purl.obolibrary.org/obo/GO_0021617	glossopharyngeal nerve structural organization	http://purl.obolibrary.org/obo/UBERON_0001649	glossopharyngeal nerve
+http://purl.obolibrary.org/obo/GO_0021577	hindbrain structural organization	http://purl.obolibrary.org/obo/UBERON_0002028	hindbrain
+http://purl.obolibrary.org/obo/GO_0021621	hypoglossal nerve structural organization	http://purl.obolibrary.org/obo/UBERON_0001650	hypoglossal nerve
+http://purl.obolibrary.org/obo/GO_0021716	inferior olivary nucleus structural organization	http://purl.obolibrary.org/obo/UBERON_0007244	inferior olivary nucleus
+http://purl.obolibrary.org/obo/GO_0021581	medulla oblongata structural organization	http://purl.obolibrary.org/obo/UBERON_0001896	medulla oblongata
+http://purl.obolibrary.org/obo/GO_0048338	mesoderm structural organization	http://purl.obolibrary.org/obo/UBERON_0000926	mesoderm
+http://purl.obolibrary.org/obo/GO_0021552	midbrain-hindbrain boundary structural organization	http://purl.obolibrary.org/obo/UBERON_0003052	midbrain-hindbrain boundary
+http://purl.obolibrary.org/obo/GO_0021624	oculomotor nerve structural organization	http://purl.obolibrary.org/obo/UBERON_0001643	oculomotor nerve
+http://purl.obolibrary.org/obo/GO_0021629	olfactory nerve structural organization	http://purl.obolibrary.org/obo/UBERON_0001579	olfactory nerve
+http://purl.obolibrary.org/obo/GO_0003409	optic cup structural organization	http://purl.obolibrary.org/obo/UBERON_0003072	optic cup
+http://purl.obolibrary.org/obo/GO_0021633	optic nerve structural organization	http://purl.obolibrary.org/obo/UBERON_0000941	cranial nerve II
+http://purl.obolibrary.org/obo/GO_0021585	pons structural organization	http://purl.obolibrary.org/obo/UBERON_0000988	pons
+http://purl.obolibrary.org/obo/GO_0072118	pronephros structural organization	http://purl.obolibrary.org/obo/UBERON_0002120	pronephros
+http://purl.obolibrary.org/obo/GO_0021595	rhombomere structural organization	http://purl.obolibrary.org/obo/UBERON_0001892	rhombomere
+http://purl.obolibrary.org/obo/GO_0021721	superior olivary nucleus structural organization	http://purl.obolibrary.org/obo/UBERON_0007247	nucleus of superior olivary complex
+http://purl.obolibrary.org/obo/GO_0021637	trigeminal nerve structural organization	http://purl.obolibrary.org/obo/UBERON_0001645	trigeminal nerve
+http://purl.obolibrary.org/obo/GO_0021641	trochlear nerve structural organization	http://purl.obolibrary.org/obo/UBERON_0001644	trochlear nerve
+http://purl.obolibrary.org/obo/GO_0021645	vagus nerve structural organization	http://purl.obolibrary.org/obo/UBERON_0001759	vagus nerve
+http://purl.obolibrary.org/obo/GO_0021649	vestibulocochlear nerve structural organization	http://purl.obolibrary.org/obo/UBERON_0001648	vestibulocochlear nerve
