@@ -2044,7 +2044,6 @@ http://purl.obolibrary.org/obo/GO_0150077	regulation of neuroinflammatory respon
 http://purl.obolibrary.org/obo/GO_1904396	regulation of neuromuscular junction development	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_0007528	neuromuscular junction development
 http://purl.obolibrary.org/obo/GO_1900073	regulation of neuromuscular synaptic transmission	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_0007274	neuromuscular synaptic transmission
 http://purl.obolibrary.org/obo/GO_0043523	regulation of neuron apoptotic process	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_0051402	neuron apoptotic process
-http://purl.obolibrary.org/obo/GO_1901214	regulation of neuron death	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_0070997	neuron death
 http://purl.obolibrary.org/obo/GO_0045664	regulation of neuron differentiation	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_0030182	neuron differentiation
 http://purl.obolibrary.org/obo/GO_0014041	regulation of neuron maturation	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_0042551	neuron maturation
 http://purl.obolibrary.org/obo/GO_2001222	regulation of neuron migration	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_0001764	neuron migration
