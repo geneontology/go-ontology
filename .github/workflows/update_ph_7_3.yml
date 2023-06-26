@@ -9,7 +9,7 @@ jobs:
   update:
 
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.4
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
 
     steps:
     - name: Checkout repo
