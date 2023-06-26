@@ -38,6 +38,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000253>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000356>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000673>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000833>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000061>))
+
 
 ############################
 #   Classes
@@ -82,6 +84,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/GO_0110165> (cellular anatomical entity)
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0110165> <http://purl.obolibrary.org/obo/CARO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0110165> <http://purl.obolibrary.org/obo/UBERON_0000061>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_1> (root)
 
