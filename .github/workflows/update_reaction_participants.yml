@@ -1,9 +1,9 @@
-name: Update design pattern membership
+name: Update reaction participants
 
 on:
   workflow_dispatch:
   schedule:
-  - cron: '13 14 * * *'
+  - cron: '23 2 * * *'
 
 jobs:
   update:
@@ -18,16 +18,15 @@ jobs:
     - name: Work around https://github.com/peter-evans/create-pull-request/issues/1170
       run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       
-    - name: Update design pattern membership
-      run: cd src/ontology && make pattern-docs && rm -rf dosdp-tools-0.19.3 && rm -rf dosdp-tools-0.19.3.tgz && cd ../..
+    - name: Update reaction participants
+      run: cd src/ontology && make imports/go-catalytic-activities-participants.owl imports/go-catalytic-activities-participants.obo && cd ../..
     
     - name: Create PR
       uses: peter-evans/create-pull-request@v4
       with:
-        title: Update design pattern docs
-        branch: update-design-patterns
+        title: Update reaction participants
+        branch: update-reaction-participants
         add-paths: |
-            src/design_patterns/*.tsv
-            docs/patterns/*.md
-            src/ontology/imports/go-pattern-conformance.ttl
+          src/ontology/imports/go-catalytic-activities-participants.owl
+          src/ontology/imports/go-catalytic-activities-participants.obo
         token: ${{ secrets.PR_ACTION_TOKEN }}
