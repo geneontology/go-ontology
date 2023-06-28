@@ -27,6 +27,7 @@ http://purl.obolibrary.org/obo/GO_0072165	anterior mesonephric tubule developmen
 http://purl.obolibrary.org/obo/GO_0060873	anterior semicircular canal development	http://purl.obolibrary.org/obo/UBERON_0001841	anterior semicircular canal
 http://purl.obolibrary.org/obo/GO_0035904	aorta development	http://purl.obolibrary.org/obo/UBERON_0000947	aorta
 http://purl.obolibrary.org/obo/GO_0003176	aortic valve development	http://purl.obolibrary.org/obo/UBERON_0002137	aortic valve
+http://purl.obolibrary.org/obo/GO_0150022	apical dendrite development	http://purl.obolibrary.org/obo/GO_0097440	apical dendrite
 http://purl.obolibrary.org/obo/GO_0048736	appendage development	http://purl.obolibrary.org/obo/UBERON_0000026	appendage
 http://purl.obolibrary.org/obo/GO_0060840	artery development	http://purl.obolibrary.org/obo/UBERON_0001637	artery
 http://purl.obolibrary.org/obo/GO_0035905	ascending aorta development	http://purl.obolibrary.org/obo/UBERON_0001496	ascending aorta
@@ -38,6 +39,7 @@ http://purl.obolibrary.org/obo/GO_0003162	atrioventricular node development	http
 http://purl.obolibrary.org/obo/GO_0003171	atrioventricular valve development	http://purl.obolibrary.org/obo/UBERON_0002133	atrioventricular valve
 http://purl.obolibrary.org/obo/GO_0048483	autonomic nervous system development	http://purl.obolibrary.org/obo/UBERON_0002410	autonomic nervous system
 http://purl.obolibrary.org/obo/GO_1990375	baculum development	http://purl.obolibrary.org/obo/UBERON_0006435	os penis
+http://purl.obolibrary.org/obo/GO_0150018	basal dendrite development	http://purl.obolibrary.org/obo/GO_0097441	basal dendrite
 http://purl.obolibrary.org/obo/GO_0071728	beak development	http://purl.obolibrary.org/obo/UBERON_0005094	beak
 http://purl.obolibrary.org/obo/GO_0001568	blood vessel development	http://purl.obolibrary.org/obo/UBERON_0001981	blood vessel
 http://purl.obolibrary.org/obo/GO_0048539	bone marrow development	http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
@@ -102,6 +104,7 @@ http://purl.obolibrary.org/obo/GO_1904888	cranial skeletal system development	ht
 http://purl.obolibrary.org/obo/GO_0042335	cuticle development	http://purl.obolibrary.org/obo/UBERON_0001002	cuticle
 http://purl.obolibrary.org/obo/GO_0035628	cystic duct development	http://purl.obolibrary.org/obo/UBERON_0001152	cystic duct
 http://purl.obolibrary.org/obo/GO_0035993	deltoid tuberosity development	http://purl.obolibrary.org/obo/UBERON_0002498	deltopectoral crest
+http://purl.obolibrary.org/obo/GO_0016358	dendrite development	http://purl.obolibrary.org/obo/GO_0030425	dendrite
 http://purl.obolibrary.org/obo/GO_0021542	dentate gyrus development	http://purl.obolibrary.org/obo/UBERON_0001885	dentate gyrus of hippocampal formation
 http://purl.obolibrary.org/obo/GO_0021735	dentate nucleus development	http://purl.obolibrary.org/obo/UBERON_0002132	dentate nucleus
 http://purl.obolibrary.org/obo/GO_0035906	descending aorta development	http://purl.obolibrary.org/obo/UBERON_0001514	descending aorta
@@ -393,6 +396,7 @@ http://purl.obolibrary.org/obo/GO_0021982	pineal gland development	http://purl.o
 http://purl.obolibrary.org/obo/GO_0021983	pituitary gland development	http://purl.obolibrary.org/obo/UBERON_0000007	pituitary gland
 http://purl.obolibrary.org/obo/GO_0001890	placenta development	http://purl.obolibrary.org/obo/UBERON_0001987	placenta
 http://purl.obolibrary.org/obo/GO_0072015	podocyte development	http://purl.obolibrary.org/obo/CL_0000653	podocyte
+http://purl.obolibrary.org/obo/GO_0048868	pollen tube development	http://purl.obolibrary.org/obo/GO_0090406	pollen tube
 http://purl.obolibrary.org/obo/GO_0021548	pons development	http://purl.obolibrary.org/obo/UBERON_0000988	pons
 http://purl.obolibrary.org/obo/GO_0048916	posterior lateral line development	http://purl.obolibrary.org/obo/UBERON_0006334	posterior lateral line
 http://purl.obolibrary.org/obo/GO_0048917	posterior lateral line ganglion development	http://purl.obolibrary.org/obo/UBERON_2001314	posterior lateral line ganglion
