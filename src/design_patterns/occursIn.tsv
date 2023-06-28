@@ -200,6 +200,7 @@ http://purl.obolibrary.org/obo/GO_0070902	mitochondrial tRNA pseudouridine synth
 http://purl.obolibrary.org/obo/GO_0070903	mitochondrial tRNA thio-modification	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0034227	tRNA thio-modification
 http://purl.obolibrary.org/obo/GO_0070899	mitochondrial tRNA wobble uridine modification	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0002098	tRNA wobble uridine modification
 http://purl.obolibrary.org/obo/GO_0070159	mitochondrial threonyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006435	threonyl-tRNA aminoacylation
+http://purl.obolibrary.org/obo/GO_0006390	mitochondrial transcription	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006351	DNA-templated transcription
 http://purl.obolibrary.org/obo/GO_0070125	mitochondrial translational elongation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006414	translational elongation
 http://purl.obolibrary.org/obo/GO_0070124	mitochondrial translational initiation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006413	translational initiation
 http://purl.obolibrary.org/obo/GO_0070126	mitochondrial translational termination	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006415	translational termination
@@ -256,6 +257,7 @@ http://purl.obolibrary.org/obo/GO_0002470	plasmacytoid dendritic cell antigen pr
 http://purl.obolibrary.org/obo/GO_0033259	plastid DNA replication	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006261	DNA-templated DNA replication
 http://purl.obolibrary.org/obo/GO_1900160	plastid chromosome packaging	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0051276	chromosome organization
 http://purl.obolibrary.org/obo/GO_0140899	plastid gene expression	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0010467	gene expression
+http://purl.obolibrary.org/obo/GO_0042793	plastid transcription	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006351	DNA-templated transcription
 http://purl.obolibrary.org/obo/GO_0032544	plastid translation	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006412	translation
 http://purl.obolibrary.org/obo/GO_0002576	platelet degranulation	http://purl.obolibrary.org/obo/CL_0000233	platelet	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
 http://purl.obolibrary.org/obo/GO_1903210	podocyte apoptotic process	http://purl.obolibrary.org/obo/CL_0000653	podocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process

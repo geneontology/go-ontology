@@ -1,6 +1,7 @@
 defined_class	defined_class_label	target	target_label
 http://purl.obolibrary.org/obo/GO_0021601	abducens nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001646	abducens nerve
 http://purl.obolibrary.org/obo/GO_0021606	accessory nerve maturation	http://purl.obolibrary.org/obo/UBERON_0002019	accessory XI nerve
+http://purl.obolibrary.org/obo/GO_0071695	anatomical structure maturation	http://purl.obolibrary.org/obo/UBERON_0000061	anatomical structure
 http://purl.obolibrary.org/obo/GO_0048799	animal organ maturation	http://purl.obolibrary.org/obo/UBERON_0000062	organ
 http://purl.obolibrary.org/obo/GO_0001955	blood vessel maturation	http://purl.obolibrary.org/obo/UBERON_0001981	blood vessel
 http://purl.obolibrary.org/obo/GO_0070977	bone maturation	http://purl.obolibrary.org/obo/UBERON_0001474	bone element
@@ -13,6 +14,7 @@ http://purl.obolibrary.org/obo/GO_0021690	cerebellar molecular layer maturation	
 http://purl.obolibrary.org/obo/GO_0021590	cerebellum maturation	http://purl.obolibrary.org/obo/UBERON_0002037	cerebellum
 http://purl.obolibrary.org/obo/GO_0002069	columnar/cuboidal epithelial cell maturation	http://purl.obolibrary.org/obo/CL_0000075	columnar/cuboidal epithelial cell
 http://purl.obolibrary.org/obo/GO_0021605	cranial nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001785	cranial nerve
+http://purl.obolibrary.org/obo/GO_1990502	dense core granule maturation	http://purl.obolibrary.org/obo/GO_0031045	dense core granule
 http://purl.obolibrary.org/obo/GO_0043354	enucleate erythrocyte maturation	http://purl.obolibrary.org/obo/CL_0000595	enucleate erythrocyte
 http://purl.obolibrary.org/obo/GO_0002070	epithelial cell maturation	http://purl.obolibrary.org/obo/CL_0000066	epithelial cell
 http://purl.obolibrary.org/obo/GO_0043249	erythrocyte maturation	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
@@ -40,6 +42,7 @@ http://purl.obolibrary.org/obo/GO_0036179	osteoclast maturation	http://purl.obol
 http://purl.obolibrary.org/obo/GO_0036345	platelet maturation	http://purl.obolibrary.org/obo/CL_0000233	platelet
 http://purl.obolibrary.org/obo/GO_0021586	pons maturation	http://purl.obolibrary.org/obo/UBERON_0000988	pons
 http://purl.obolibrary.org/obo/GO_0072120	pronephros maturation	http://purl.obolibrary.org/obo/UBERON_0002120	pronephros
+http://purl.obolibrary.org/obo/GO_0061792	secretory granule maturation	http://purl.obolibrary.org/obo/GO_0030141	secretory granule
 http://purl.obolibrary.org/obo/GO_0021722	superior olivary nucleus maturation	http://purl.obolibrary.org/obo/UBERON_0007247	nucleus of superior olivary complex
 http://purl.obolibrary.org/obo/GO_0021635	trigeminal nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001645	trigeminal nerve
 http://purl.obolibrary.org/obo/GO_0021640	trochlear nerve maturation	http://purl.obolibrary.org/obo/UBERON_0001644	trochlear nerve
