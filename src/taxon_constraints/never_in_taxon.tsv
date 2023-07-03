@@ -64,7 +64,6 @@ GO:0007140	male meiotic nuclear division	NCBITaxon:4751	Fungi
 GO:0007143	female meiotic nuclear division	NCBITaxon:4751	Fungi	
 GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:33090	Viridiplantae	
 GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
-GO:0007182	common-partner SMAD protein phosphorylation	NCBITaxon:4751	Fungi	
 GO:0007218	neuropeptide signaling pathway	NCBITaxon:4751	Fungi	
 GO:0007252	I-kappaB phosphorylation	NCBITaxon:4751	Fungi	
 GO:0007258	JUN phosphorylation	NCBITaxon:4895	Schizosaccharomyces	
@@ -241,10 +240,6 @@ GO:0060271	cilium assembly	NCBITaxon:3378	Gnetales
 GO:0060271	cilium assembly	NCBITaxon:3398	Magnoliophyta	
 GO:0060271	cilium assembly	NCBITaxon:4890	Ascomycota	
 GO:0060271	cilium assembly	NCBITaxon:5782	Dictyostelium	
-GO:0060389	pathway-restricted SMAD protein phosphorylation	NCBITaxon:4751	Fungi	
-GO:0060390	regulation of SMAD protein signal transduction	NCBITaxon:4751	Fungi	
-GO:0060393	regulation of pathway-restricted SMAD protein phosphorylation	NCBITaxon:4751	Fungi	
-GO:0060395	SMAD protein signal transduction	NCBITaxon:4751	Fungi	
 GO:0060539	diaphragm development	NCBITaxon:8782	Aves	
 GO:0060540	diaphragm morphogenesis	NCBITaxon:8782	Aves	
 GO:0061675	RBL family protein binding	NCBITaxon:4751	Fungi	
