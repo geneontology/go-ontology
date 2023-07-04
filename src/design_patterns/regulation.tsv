@@ -156,7 +156,6 @@ http://purl.obolibrary.org/obo/GO_1903358	regulation of Golgi organization	http:
 http://purl.obolibrary.org/obo/GO_0042996	regulation of Golgi to plasma membrane protein transport	http://purl.obolibrary.org/obo/GO_0043001	Golgi to plasma membrane protein transport
 http://purl.obolibrary.org/obo/GO_0048214	regulation of Golgi vesicle fusion to target membrane	http://purl.obolibrary.org/obo/GO_0048210	Golgi vesicle fusion to target membrane
 http://purl.obolibrary.org/obo/GO_0070808	regulation of Hulle cell development	http://purl.obolibrary.org/obo/GO_0070792	Hulle cell development
-http://purl.obolibrary.org/obo/GO_0043122	regulation of I-kappaB kinase/NF-kappaB signaling	http://purl.obolibrary.org/obo/GO_0007249	I-kappaB kinase/NF-kappaB signaling
 http://purl.obolibrary.org/obo/GO_1903719	regulation of I-kappaB phosphorylation	http://purl.obolibrary.org/obo/GO_0007252	I-kappaB phosphorylation
 http://purl.obolibrary.org/obo/GO_0071658	regulation of IP-10 production	http://purl.obolibrary.org/obo/GO_0071612	IP-10 production
 http://purl.obolibrary.org/obo/GO_1903894	regulation of IRE1-mediated unfolded protein response	http://purl.obolibrary.org/obo/GO_0036498	IRE1-mediated unfolded protein response
@@ -194,7 +193,6 @@ http://purl.obolibrary.org/obo/GO_0033860	regulation of NAD(P)H oxidase activity
 http://purl.obolibrary.org/obo/GO_1901664	regulation of NAD+ ADP-ribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0003950	NAD+ ADP-ribosyltransferase activity
 http://purl.obolibrary.org/obo/GO_0033670	regulation of NAD+ kinase activity	http://purl.obolibrary.org/obo/GO_0003951	NAD+ kinase activity
 http://purl.obolibrary.org/obo/GO_1902031	regulation of NADP metabolic process	http://purl.obolibrary.org/obo/GO_0006739	NADP metabolic process
-http://purl.obolibrary.org/obo/GO_1901222	regulation of NIK/NF-kappaB signaling	http://purl.obolibrary.org/obo/GO_0038061	NIK/NF-kappaB signaling
 http://purl.obolibrary.org/obo/GO_0051133	regulation of NK T cell activation	http://purl.obolibrary.org/obo/GO_0051132	NK T cell activation
 http://purl.obolibrary.org/obo/GO_0051136	regulation of NK T cell differentiation	http://purl.obolibrary.org/obo/GO_0001865	NK T cell differentiation
 http://purl.obolibrary.org/obo/GO_0051140	regulation of NK T cell proliferation	http://purl.obolibrary.org/obo/GO_0001866	NK T cell proliferation
@@ -631,6 +629,7 @@ http://purl.obolibrary.org/obo/GO_0051040	regulation of calcium-independent cell
 http://purl.obolibrary.org/obo/GO_0050848	regulation of calcium-mediated signaling	http://purl.obolibrary.org/obo/GO_0019722	calcium-mediated signaling
 http://purl.obolibrary.org/obo/GO_1903279	regulation of calcium:sodium antiporter activity	http://purl.obolibrary.org/obo/GO_0005432	calcium:sodium antiporter activity
 http://purl.obolibrary.org/obo/GO_1901182	regulation of camalexin biosynthetic process	http://purl.obolibrary.org/obo/GO_0010120	camalexin biosynthetic process
+http://purl.obolibrary.org/obo/GO_0043122	regulation of canonical NF-kappaB signal transduction	http://purl.obolibrary.org/obo/GO_0007249	canonical NF-kappaB signal transduction
 http://purl.obolibrary.org/obo/GO_0060828	regulation of canonical Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0060070	canonical Wnt signaling pathway
 http://purl.obolibrary.org/obo/GO_1901295	regulation of canonical Wnt signaling pathway involved in cardiac muscle cell fate commitment	http://purl.obolibrary.org/obo/GO_0061317	canonical Wnt signaling pathway involved in cardiac muscle cell fate commitment
 http://purl.obolibrary.org/obo/GO_2000079	regulation of canonical Wnt signaling pathway involved in controlling type B pancreatic cell proliferation	http://purl.obolibrary.org/obo/GO_0044343	canonical Wnt signaling pathway involved in regulation of type B pancreatic cell proliferation
@@ -2072,7 +2071,7 @@ http://purl.obolibrary.org/obo/GO_0071675	regulation of mononuclear cell migrati
 http://purl.obolibrary.org/obo/GO_0032944	regulation of mononuclear cell proliferation	http://purl.obolibrary.org/obo/GO_0032943	mononuclear cell proliferation
 http://purl.obolibrary.org/obo/GO_0032768	regulation of monooxygenase activity	http://purl.obolibrary.org/obo/GO_0004497	monooxygenase activity
 http://purl.obolibrary.org/obo/GO_0051513	regulation of monopolar cell growth	http://purl.obolibrary.org/obo/GO_0042814	monopolar cell growth
-http://purl.obolibrary.org/obo/GO_1904967	regulation of monopolar spindle attachment to meiosis I kinetochore	http://purl.obolibrary.org/obo/GO_0051455	monopolar spindle attachment to meiosis I kinetochore
+http://purl.obolibrary.org/obo/GO_1904967	regulation of monopolar spindle attachment to meiosis I kinetochore	http://purl.obolibrary.org/obo/GO_0051455	spindle attachment to meiosis I kinetochore
 http://purl.obolibrary.org/obo/GO_0060688	regulation of morphogenesis of a branching structure	http://purl.obolibrary.org/obo/GO_0001763	morphogenesis of a branching structure
 http://purl.obolibrary.org/obo/GO_1905330	regulation of morphogenesis of an epithelium	http://purl.obolibrary.org/obo/GO_0002009	morphogenesis of an epithelium
 http://purl.obolibrary.org/obo/GO_1905503	regulation of motile cilium assembly	http://purl.obolibrary.org/obo/GO_0044458	motile cilium assembly
@@ -2205,6 +2204,7 @@ http://purl.obolibrary.org/obo/GO_1900123	regulation of nodal receptor complex a
 http://purl.obolibrary.org/obo/GO_1900107	regulation of nodal signaling pathway	http://purl.obolibrary.org/obo/GO_0038092	nodal signaling pathway
 http://purl.obolibrary.org/obo/GO_1900175	regulation of nodal signaling pathway involved in determination of lateral mesoderm left/right asymmetry	http://purl.obolibrary.org/obo/GO_1900164	nodal signaling pathway involved in determination of lateral mesoderm left/right asymmetry
 http://purl.obolibrary.org/obo/GO_1900145	regulation of nodal signaling pathway involved in determination of left/right asymmetry	http://purl.obolibrary.org/obo/GO_0038107	nodal signaling pathway involved in determination of left/right asymmetry
+http://purl.obolibrary.org/obo/GO_1901222	regulation of non-canonical NF-kappaB signal transduction	http://purl.obolibrary.org/obo/GO_0038061	non-canonical NF-kappaB signal transduction
 http://purl.obolibrary.org/obo/GO_2000050	regulation of non-canonical Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0035567	non-canonical Wnt signaling pathway
 http://purl.obolibrary.org/obo/GO_1901229	regulation of non-canonical Wnt signaling pathway via JNK cascade	http://purl.obolibrary.org/obo/GO_0038031	non-canonical Wnt signaling pathway via JNK cascade
 http://purl.obolibrary.org/obo/GO_1903995	regulation of non-membrane spanning protein tyrosine kinase activity	http://purl.obolibrary.org/obo/GO_0004715	non-membrane spanning protein tyrosine kinase activity
@@ -2303,7 +2303,6 @@ http://purl.obolibrary.org/obo/GO_2000828	regulation of parathyroid hormone secr
 http://purl.obolibrary.org/obo/GO_0048345	regulation of paraxial mesodermal cell fate determination	http://purl.obolibrary.org/obo/GO_0048344	paraxial mesodermal cell fate determination
 http://purl.obolibrary.org/obo/GO_0048349	regulation of paraxial mesodermal cell fate specification	http://purl.obolibrary.org/obo/GO_0048348	paraxial mesodermal cell fate specification
 http://purl.obolibrary.org/obo/GO_1905089	regulation of parkin-mediated stimulation of mitophagy in response to mitochondrial depolarization	http://purl.obolibrary.org/obo/GO_0061734	parkin-mediated stimulation of mitophagy in response to mitochondrial depolarization
-http://purl.obolibrary.org/obo/GO_0060393	regulation of pathway-restricted SMAD protein phosphorylation	http://purl.obolibrary.org/obo/GO_0060389	pathway-restricted SMAD protein phosphorylation
 http://purl.obolibrary.org/obo/GO_0062207	regulation of pattern recognition receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0002221	pattern recognition receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_1900030	regulation of pectin biosynthetic process	http://purl.obolibrary.org/obo/GO_0045489	pectin biosynthetic process
 http://purl.obolibrary.org/obo/GO_2001003	regulation of pectin catabolic process	http://purl.obolibrary.org/obo/GO_0045490	pectin catabolic process
@@ -2365,7 +2364,7 @@ http://purl.obolibrary.org/obo/GO_0150172	regulation of phosphatidylcholine meta
 http://purl.obolibrary.org/obo/GO_0150175	regulation of phosphatidylethanolamine metabolic process	http://purl.obolibrary.org/obo/GO_0046337	phosphatidylethanolamine metabolic process
 http://purl.obolibrary.org/obo/GO_1901351	regulation of phosphatidylglycerol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006655	phosphatidylglycerol biosynthetic process
 http://purl.obolibrary.org/obo/GO_0043551	regulation of phosphatidylinositol 3-kinase activity	http://purl.obolibrary.org/obo/GO_0016303	1-phosphatidylinositol-3-kinase activity
-http://purl.obolibrary.org/obo/GO_0014066	regulation of phosphatidylinositol 3-kinase signaling	http://purl.obolibrary.org/obo/GO_0014065	phosphatidylinositol 3-kinase signaling
+http://purl.obolibrary.org/obo/GO_0051896	regulation of phosphatidylinositol 3-kinase signaling/protein kinase B signal transduction	http://purl.obolibrary.org/obo/GO_0043491	phosphatidylinositol 3-kinase signaling/protein kinase B signal transduction
 http://purl.obolibrary.org/obo/GO_0010511	regulation of phosphatidylinositol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006661	phosphatidylinositol biosynthetic process
 http://purl.obolibrary.org/obo/GO_0060304	regulation of phosphatidylinositol dephosphorylation	http://purl.obolibrary.org/obo/GO_0046856	phosphatidylinositol dephosphorylation
 http://purl.obolibrary.org/obo/GO_2001144	regulation of phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity	http://purl.obolibrary.org/obo/GO_0034485	phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity
@@ -2562,7 +2561,6 @@ http://purl.obolibrary.org/obo/GO_0042306	regulation of protein import into nucl
 http://purl.obolibrary.org/obo/GO_1900739	regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway	http://purl.obolibrary.org/obo/GO_0001844	protein insertion into mitochondrial membrane involved in apoptotic signaling pathway
 http://purl.obolibrary.org/obo/GO_1903636	regulation of protein insertion into mitochondrial outer membrane	http://purl.obolibrary.org/obo/GO_0045040	protein insertion into mitochondrial outer membrane
 http://purl.obolibrary.org/obo/GO_0010738	regulation of protein kinase A signaling	http://purl.obolibrary.org/obo/GO_0010737	protein kinase A signaling
-http://purl.obolibrary.org/obo/GO_0051896	regulation of protein kinase B signaling	http://purl.obolibrary.org/obo/GO_0043491	protein kinase B signaling
 http://purl.obolibrary.org/obo/GO_1900019	regulation of protein kinase C activity	http://purl.obolibrary.org/obo/GO_0004697	protein kinase C activity
 http://purl.obolibrary.org/obo/GO_0090036	regulation of protein kinase C signaling	http://purl.obolibrary.org/obo/GO_0070528	protein kinase C signaling
 http://purl.obolibrary.org/obo/GO_1903570	regulation of protein kinase D signaling	http://purl.obolibrary.org/obo/GO_0089700	protein kinase D signaling
@@ -3150,14 +3148,12 @@ http://purl.obolibrary.org/obo/GO_1904187	regulation of transformation of host c
 http://purl.obolibrary.org/obo/GO_1901388	regulation of transforming growth factor beta activation	http://purl.obolibrary.org/obo/GO_0036363	transforming growth factor beta activation
 http://purl.obolibrary.org/obo/GO_0071634	regulation of transforming growth factor beta production	http://purl.obolibrary.org/obo/GO_0071604	transforming growth factor beta production
 http://purl.obolibrary.org/obo/GO_0017015	regulation of transforming growth factor beta receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007179	transforming growth factor beta receptor signaling pathway
-http://purl.obolibrary.org/obo/GO_0090013	regulation of transforming growth factor beta receptor signaling pathway involved in primitive streak formation	http://purl.obolibrary.org/obo/GO_0090010	transforming growth factor beta receptor signaling pathway involved in primitive streak formation
 http://purl.obolibrary.org/obo/GO_1901392	regulation of transforming growth factor beta1 activation	http://purl.obolibrary.org/obo/GO_0036364	transforming growth factor beta1 activation
 http://purl.obolibrary.org/obo/GO_0032908	regulation of transforming growth factor beta1 production	http://purl.obolibrary.org/obo/GO_0032905	transforming growth factor beta1 production
 http://purl.obolibrary.org/obo/GO_1901395	regulation of transforming growth factor beta2 activation	http://purl.obolibrary.org/obo/GO_0036365	transforming growth factor beta2 activation
 http://purl.obolibrary.org/obo/GO_0032909	regulation of transforming growth factor beta2 production	http://purl.obolibrary.org/obo/GO_0032906	transforming growth factor beta2 production
 http://purl.obolibrary.org/obo/GO_1901398	regulation of transforming growth factor beta3 activation	http://purl.obolibrary.org/obo/GO_0036366	transforming growth factor beta3 activation
 http://purl.obolibrary.org/obo/GO_0032910	regulation of transforming growth factor beta3 production	http://purl.obolibrary.org/obo/GO_0032907	transforming growth factor beta3 production
-http://purl.obolibrary.org/obo/GO_0035464	regulation of transforming growth factor receptor beta signaling pathway involved in determination of left/right asymmetry	http://purl.obolibrary.org/obo/GO_0035463	transforming growth factor beta receptor signaling pathway involved in determination of left/right asymmetry
 http://purl.obolibrary.org/obo/GO_0006417	regulation of translation	http://purl.obolibrary.org/obo/GO_0006412	translation
 http://purl.obolibrary.org/obo/GO_0006448	regulation of translational elongation	http://purl.obolibrary.org/obo/GO_0006414	translational elongation
 http://purl.obolibrary.org/obo/GO_2001124	regulation of translational frameshifting	http://purl.obolibrary.org/obo/GO_0006452	translational frameshifting

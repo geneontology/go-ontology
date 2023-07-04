@@ -135,7 +135,6 @@ http://purl.obolibrary.org/obo/GO_1905528	positive regulation of Golgi lumen aci
 http://purl.obolibrary.org/obo/GO_0042998	positive regulation of Golgi to plasma membrane protein transport	http://purl.obolibrary.org/obo/GO_0043001	Golgi to plasma membrane protein transport
 http://purl.obolibrary.org/obo/GO_0048215	positive regulation of Golgi vesicle fusion to target membrane	http://purl.obolibrary.org/obo/GO_0048210	Golgi vesicle fusion to target membrane
 http://purl.obolibrary.org/obo/GO_0070810	positive regulation of Hulle cell development	http://purl.obolibrary.org/obo/GO_0070792	Hulle cell development
-http://purl.obolibrary.org/obo/GO_0043123	positive regulation of I-kappaB kinase/NF-kappaB signaling	http://purl.obolibrary.org/obo/GO_0007249	I-kappaB kinase/NF-kappaB signaling
 http://purl.obolibrary.org/obo/GO_1903721	positive regulation of I-kappaB phosphorylation	http://purl.obolibrary.org/obo/GO_0007252	I-kappaB phosphorylation
 http://purl.obolibrary.org/obo/GO_0071660	positive regulation of IP-10 production	http://purl.obolibrary.org/obo/GO_0071612	IP-10 production
 http://purl.obolibrary.org/obo/GO_1903896	positive regulation of IRE1-mediated unfolded protein response	http://purl.obolibrary.org/obo/GO_0036498	IRE1-mediated unfolded protein response
@@ -170,7 +169,6 @@ http://purl.obolibrary.org/obo/GO_1902690	positive regulation of NAD metabolic p
 http://purl.obolibrary.org/obo/GO_0033864	positive regulation of NAD(P)H oxidase activity	http://purl.obolibrary.org/obo/GO_0016174	NAD(P)H oxidase H2O2-forming activity
 http://purl.obolibrary.org/obo/GO_1901666	positive regulation of NAD+ ADP-ribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0003950	NAD+ ADP-ribosyltransferase activity
 http://purl.obolibrary.org/obo/GO_0033672	positive regulation of NAD+ kinase activity	http://purl.obolibrary.org/obo/GO_0003951	NAD+ kinase activity
-http://purl.obolibrary.org/obo/GO_1901224	positive regulation of NIK/NF-kappaB signaling	http://purl.obolibrary.org/obo/GO_0038061	NIK/NF-kappaB signaling
 http://purl.obolibrary.org/obo/GO_0051135	positive regulation of NK T cell activation	http://purl.obolibrary.org/obo/GO_0051132	NK T cell activation
 http://purl.obolibrary.org/obo/GO_0051138	positive regulation of NK T cell differentiation	http://purl.obolibrary.org/obo/GO_0001865	NK T cell differentiation
 http://purl.obolibrary.org/obo/GO_0051142	positive regulation of NK T cell proliferation	http://purl.obolibrary.org/obo/GO_0001866	NK T cell proliferation
@@ -554,6 +552,7 @@ http://purl.obolibrary.org/obo/GO_0051041	positive regulation of calcium-indepen
 http://purl.obolibrary.org/obo/GO_0050850	positive regulation of calcium-mediated signaling	http://purl.obolibrary.org/obo/GO_0019722	calcium-mediated signaling
 http://purl.obolibrary.org/obo/GO_1903281	positive regulation of calcium:sodium antiporter activity	http://purl.obolibrary.org/obo/GO_0005432	calcium:sodium antiporter activity
 http://purl.obolibrary.org/obo/GO_1901183	positive regulation of camalexin biosynthetic process	http://purl.obolibrary.org/obo/GO_0010120	camalexin biosynthetic process
+http://purl.obolibrary.org/obo/GO_0043123	positive regulation of canonical NF-kappaB signal transduction	http://purl.obolibrary.org/obo/GO_0007249	canonical NF-kappaB signal transduction
 http://purl.obolibrary.org/obo/GO_0090263	positive regulation of canonical Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0060070	canonical Wnt signaling pathway
 http://purl.obolibrary.org/obo/GO_1901297	positive regulation of canonical Wnt signaling pathway involved in cardiac muscle cell fate commitment	http://purl.obolibrary.org/obo/GO_0061317	canonical Wnt signaling pathway involved in cardiac muscle cell fate commitment
 http://purl.obolibrary.org/obo/GO_2000081	positive regulation of canonical Wnt signaling pathway involved in controlling type B pancreatic cell proliferation	http://purl.obolibrary.org/obo/GO_0044343	canonical Wnt signaling pathway involved in regulation of type B pancreatic cell proliferation
@@ -1828,7 +1827,7 @@ http://purl.obolibrary.org/obo/GO_0071677	positive regulation of mononuclear cel
 http://purl.obolibrary.org/obo/GO_0032946	positive regulation of mononuclear cell proliferation	http://purl.obolibrary.org/obo/GO_0032943	mononuclear cell proliferation
 http://purl.obolibrary.org/obo/GO_0032770	positive regulation of monooxygenase activity	http://purl.obolibrary.org/obo/GO_0004497	monooxygenase activity
 http://purl.obolibrary.org/obo/GO_0051515	positive regulation of monopolar cell growth	http://purl.obolibrary.org/obo/GO_0042814	monopolar cell growth
-http://purl.obolibrary.org/obo/GO_1904968	positive regulation of monopolar spindle attachment to meiosis I kinetochore	http://purl.obolibrary.org/obo/GO_0051455	monopolar spindle attachment to meiosis I kinetochore
+http://purl.obolibrary.org/obo/GO_1904968	positive regulation of monopolar spindle attachment to meiosis I kinetochore	http://purl.obolibrary.org/obo/GO_0051455	spindle attachment to meiosis I kinetochore
 http://purl.obolibrary.org/obo/GO_1905332	positive regulation of morphogenesis of an epithelium	http://purl.obolibrary.org/obo/GO_0002009	morphogenesis of an epithelium
 http://purl.obolibrary.org/obo/GO_1905505	positive regulation of motile cilium assembly	http://purl.obolibrary.org/obo/GO_0044458	motile cilium assembly
 http://purl.obolibrary.org/obo/GO_2000673	positive regulation of motor neuron apoptotic process	http://purl.obolibrary.org/obo/GO_0097049	motor neuron apoptotic process
@@ -1949,6 +1948,7 @@ http://purl.obolibrary.org/obo/GO_1903316	positive regulation of nitrogen cycle 
 http://purl.obolibrary.org/obo/GO_0045848	positive regulation of nitrogen utilization	http://purl.obolibrary.org/obo/GO_0019740	nitrogen utilization
 http://purl.obolibrary.org/obo/GO_1905260	positive regulation of nitrosative stress-induced intrinsic apoptotic signaling pathway	http://purl.obolibrary.org/obo/GO_1990442	intrinsic apoptotic signaling pathway in response to nitrosative stress
 http://purl.obolibrary.org/obo/GO_1900224	positive regulation of nodal signaling pathway involved in determination of lateral mesoderm left/right asymmetry	http://purl.obolibrary.org/obo/GO_1900164	nodal signaling pathway involved in determination of lateral mesoderm left/right asymmetry
+http://purl.obolibrary.org/obo/GO_1901224	positive regulation of non-canonical NF-kappaB signal transduction	http://purl.obolibrary.org/obo/GO_0038061	non-canonical NF-kappaB signal transduction
 http://purl.obolibrary.org/obo/GO_2000052	positive regulation of non-canonical Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0035567	non-canonical Wnt signaling pathway
 http://purl.obolibrary.org/obo/GO_1901231	positive regulation of non-canonical Wnt signaling pathway via JNK cascade	http://purl.obolibrary.org/obo/GO_0038031	non-canonical Wnt signaling pathway via JNK cascade
 http://purl.obolibrary.org/obo/GO_1903997	positive regulation of non-membrane spanning protein tyrosine kinase activity	http://purl.obolibrary.org/obo/GO_0004715	non-membrane spanning protein tyrosine kinase activity
@@ -2041,7 +2041,6 @@ http://purl.obolibrary.org/obo/GO_2000830	positive regulation of parathyroid hor
 http://purl.obolibrary.org/obo/GO_0048346	positive regulation of paraxial mesodermal cell fate determination	http://purl.obolibrary.org/obo/GO_0048344	paraxial mesodermal cell fate determination
 http://purl.obolibrary.org/obo/GO_0048350	positive regulation of paraxial mesodermal cell fate specification	http://purl.obolibrary.org/obo/GO_0048348	paraxial mesodermal cell fate specification
 http://purl.obolibrary.org/obo/GO_1905091	positive regulation of parkin-mediated stimulation of mitophagy in response to mitochondrial depolarization	http://purl.obolibrary.org/obo/GO_0061734	parkin-mediated stimulation of mitophagy in response to mitochondrial depolarization
-http://purl.obolibrary.org/obo/GO_0010862	positive regulation of pathway-restricted SMAD protein phosphorylation	http://purl.obolibrary.org/obo/GO_0060389	pathway-restricted SMAD protein phosphorylation
 http://purl.obolibrary.org/obo/GO_0062208	positive regulation of pattern recognition receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0002221	pattern recognition receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0140724	positive regulation of patulin biosynthetic process	http://purl.obolibrary.org/obo/GO_0140723	patulin biosynthetic process
 http://purl.obolibrary.org/obo/GO_2001005	positive regulation of pectin catabolic process	http://purl.obolibrary.org/obo/GO_0045490	pectin catabolic process
@@ -2098,7 +2097,7 @@ http://purl.obolibrary.org/obo/GO_2001247	positive regulation of phosphatidylcho
 http://purl.obolibrary.org/obo/GO_0150173	positive regulation of phosphatidylcholine metabolic process	http://purl.obolibrary.org/obo/GO_0046470	phosphatidylcholine metabolic process
 http://purl.obolibrary.org/obo/GO_0150176	positive regulation of phosphatidylethanolamine metabolic process	http://purl.obolibrary.org/obo/GO_0046337	phosphatidylethanolamine metabolic process
 http://purl.obolibrary.org/obo/GO_1901353	positive regulation of phosphatidylglycerol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006655	phosphatidylglycerol biosynthetic process
-http://purl.obolibrary.org/obo/GO_0014068	positive regulation of phosphatidylinositol 3-kinase signaling	http://purl.obolibrary.org/obo/GO_0014065	phosphatidylinositol 3-kinase signaling
+http://purl.obolibrary.org/obo/GO_0051897	positive regulation of phosphatidylinositol 3-kinase signaling/protein kinase B signal transduction	http://purl.obolibrary.org/obo/GO_0043491	phosphatidylinositol 3-kinase signaling/protein kinase B signal transduction
 http://purl.obolibrary.org/obo/GO_0010513	positive regulation of phosphatidylinositol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006661	phosphatidylinositol biosynthetic process
 http://purl.obolibrary.org/obo/GO_2001146	positive regulation of phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity	http://purl.obolibrary.org/obo/GO_0034485	phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity
 http://purl.obolibrary.org/obo/GO_0120139	positive regulation of phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity	http://purl.obolibrary.org/obo/GO_0004439	phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity
@@ -2242,7 +2241,6 @@ http://purl.obolibrary.org/obo/GO_0042307	positive regulation of protein import 
 http://purl.obolibrary.org/obo/GO_1900740	positive regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway	http://purl.obolibrary.org/obo/GO_0001844	protein insertion into mitochondrial membrane involved in apoptotic signaling pathway
 http://purl.obolibrary.org/obo/GO_1903638	positive regulation of protein insertion into mitochondrial outer membrane	http://purl.obolibrary.org/obo/GO_0045040	protein insertion into mitochondrial outer membrane
 http://purl.obolibrary.org/obo/GO_0010739	positive regulation of protein kinase A signaling	http://purl.obolibrary.org/obo/GO_0010737	protein kinase A signaling
-http://purl.obolibrary.org/obo/GO_0051897	positive regulation of protein kinase B signaling	http://purl.obolibrary.org/obo/GO_0043491	protein kinase B signaling
 http://purl.obolibrary.org/obo/GO_1900020	positive regulation of protein kinase C activity	http://purl.obolibrary.org/obo/GO_0004697	protein kinase C activity
 http://purl.obolibrary.org/obo/GO_0090037	positive regulation of protein kinase C signaling	http://purl.obolibrary.org/obo/GO_0070528	protein kinase C signaling
 http://purl.obolibrary.org/obo/GO_1903572	positive regulation of protein kinase D signaling	http://purl.obolibrary.org/obo/GO_0089700	protein kinase D signaling
