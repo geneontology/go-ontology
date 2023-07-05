@@ -131,7 +131,6 @@ http://purl.obolibrary.org/obo/GO_1905527	negative regulation of Golgi lumen aci
 http://purl.obolibrary.org/obo/GO_0042997	negative regulation of Golgi to plasma membrane protein transport	http://purl.obolibrary.org/obo/GO_0043001	Golgi to plasma membrane protein transport
 http://purl.obolibrary.org/obo/GO_0048216	negative regulation of Golgi vesicle fusion to target membrane	http://purl.obolibrary.org/obo/GO_0048210	Golgi vesicle fusion to target membrane
 http://purl.obolibrary.org/obo/GO_0070809	negative regulation of Hulle cell development	http://purl.obolibrary.org/obo/GO_0070792	Hulle cell development
-http://purl.obolibrary.org/obo/GO_0043124	negative regulation of I-kappaB kinase/NF-kappaB signaling	http://purl.obolibrary.org/obo/GO_0007249	I-kappaB kinase/NF-kappaB signaling
 http://purl.obolibrary.org/obo/GO_1903720	negative regulation of I-kappaB phosphorylation	http://purl.obolibrary.org/obo/GO_0007252	I-kappaB phosphorylation
 http://purl.obolibrary.org/obo/GO_0071659	negative regulation of IP-10 production	http://purl.obolibrary.org/obo/GO_0071612	IP-10 production
 http://purl.obolibrary.org/obo/GO_1903895	negative regulation of IRE1-mediated unfolded protein response	http://purl.obolibrary.org/obo/GO_0036498	IRE1-mediated unfolded protein response
@@ -166,7 +165,6 @@ http://purl.obolibrary.org/obo/GO_1902689	negative regulation of NAD metabolic p
 http://purl.obolibrary.org/obo/GO_0033861	negative regulation of NAD(P)H oxidase activity	http://purl.obolibrary.org/obo/GO_0016174	NAD(P)H oxidase H2O2-forming activity
 http://purl.obolibrary.org/obo/GO_1901665	negative regulation of NAD+ ADP-ribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0003950	NAD+ ADP-ribosyltransferase activity
 http://purl.obolibrary.org/obo/GO_0033671	negative regulation of NAD+ kinase activity	http://purl.obolibrary.org/obo/GO_0003951	NAD+ kinase activity
-http://purl.obolibrary.org/obo/GO_1901223	negative regulation of NIK/NF-kappaB signaling	http://purl.obolibrary.org/obo/GO_0038061	NIK/NF-kappaB signaling
 http://purl.obolibrary.org/obo/GO_0051134	negative regulation of NK T cell activation	http://purl.obolibrary.org/obo/GO_0051132	NK T cell activation
 http://purl.obolibrary.org/obo/GO_0051137	negative regulation of NK T cell differentiation	http://purl.obolibrary.org/obo/GO_0001865	NK T cell differentiation
 http://purl.obolibrary.org/obo/GO_0051141	negative regulation of NK T cell proliferation	http://purl.obolibrary.org/obo/GO_0001866	NK T cell proliferation
@@ -556,6 +554,7 @@ http://purl.obolibrary.org/obo/GO_0046588	negative regulation of calcium-depende
 http://purl.obolibrary.org/obo/GO_0051042	negative regulation of calcium-independent cell-cell adhesion	http://purl.obolibrary.org/obo/GO_0016338	calcium-independent cell-cell adhesion via plasma membrane cell-adhesion molecules
 http://purl.obolibrary.org/obo/GO_0050849	negative regulation of calcium-mediated signaling	http://purl.obolibrary.org/obo/GO_0019722	calcium-mediated signaling
 http://purl.obolibrary.org/obo/GO_1903280	negative regulation of calcium:sodium antiporter activity	http://purl.obolibrary.org/obo/GO_0005432	calcium:sodium antiporter activity
+http://purl.obolibrary.org/obo/GO_0043124	negative regulation of canonical NF-kappaB signal transduction	http://purl.obolibrary.org/obo/GO_0007249	canonical NF-kappaB signal transduction
 http://purl.obolibrary.org/obo/GO_0090090	negative regulation of canonical Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0060070	canonical Wnt signaling pathway
 http://purl.obolibrary.org/obo/GO_1901296	negative regulation of canonical Wnt signaling pathway involved in cardiac muscle cell fate commitment	http://purl.obolibrary.org/obo/GO_0061317	canonical Wnt signaling pathway involved in cardiac muscle cell fate commitment
 http://purl.obolibrary.org/obo/GO_2000080	negative regulation of canonical Wnt signaling pathway involved in controlling type B pancreatic cell proliferation	http://purl.obolibrary.org/obo/GO_0044343	canonical Wnt signaling pathway involved in regulation of type B pancreatic cell proliferation
@@ -1968,6 +1967,7 @@ http://purl.obolibrary.org/obo/GO_1900124	negative regulation of nodal receptor 
 http://purl.obolibrary.org/obo/GO_1900108	negative regulation of nodal signaling pathway	http://purl.obolibrary.org/obo/GO_0038092	nodal signaling pathway
 http://purl.obolibrary.org/obo/GO_1900176	negative regulation of nodal signaling pathway involved in determination of lateral mesoderm left/right asymmetry	http://purl.obolibrary.org/obo/GO_1900164	nodal signaling pathway involved in determination of lateral mesoderm left/right asymmetry
 http://purl.obolibrary.org/obo/GO_1900146	negative regulation of nodal signaling pathway involved in determination of left/right asymmetry	http://purl.obolibrary.org/obo/GO_0038107	nodal signaling pathway involved in determination of left/right asymmetry
+http://purl.obolibrary.org/obo/GO_1901223	negative regulation of non-canonical NF-kappaB signal transduction	http://purl.obolibrary.org/obo/GO_0038061	non-canonical NF-kappaB signal transduction
 http://purl.obolibrary.org/obo/GO_2000051	negative regulation of non-canonical Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0035567	non-canonical Wnt signaling pathway
 http://purl.obolibrary.org/obo/GO_1901230	negative regulation of non-canonical Wnt signaling pathway via JNK cascade	http://purl.obolibrary.org/obo/GO_0038031	non-canonical Wnt signaling pathway via JNK cascade
 http://purl.obolibrary.org/obo/GO_0160076	negative regulation of non-canonical inflammasome complex assembly	http://purl.obolibrary.org/obo/GO_0160075	non-canonical inflammasome complex assembly
@@ -2061,7 +2061,6 @@ http://purl.obolibrary.org/obo/GO_2000829	negative regulation of parathyroid hor
 http://purl.obolibrary.org/obo/GO_0048347	negative regulation of paraxial mesodermal cell fate determination	http://purl.obolibrary.org/obo/GO_0048344	paraxial mesodermal cell fate determination
 http://purl.obolibrary.org/obo/GO_0048351	negative regulation of paraxial mesodermal cell fate specification	http://purl.obolibrary.org/obo/GO_0048348	paraxial mesodermal cell fate specification
 http://purl.obolibrary.org/obo/GO_1905090	negative regulation of parkin-mediated stimulation of mitophagy in response to mitochondrial depolarization	http://purl.obolibrary.org/obo/GO_0061734	parkin-mediated stimulation of mitophagy in response to mitochondrial depolarization
-http://purl.obolibrary.org/obo/GO_0060394	negative regulation of pathway-restricted SMAD protein phosphorylation	http://purl.obolibrary.org/obo/GO_0060389	pathway-restricted SMAD protein phosphorylation
 http://purl.obolibrary.org/obo/GO_2001004	negative regulation of pectin catabolic process	http://purl.obolibrary.org/obo/GO_0045490	pectin catabolic process
 http://purl.obolibrary.org/obo/GO_1900197	negative regulation of penicillin biosynthetic process	http://purl.obolibrary.org/obo/GO_0042318	penicillin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0033248	negative regulation of penicillin catabolic process	http://purl.obolibrary.org/obo/GO_0042317	penicillin catabolic process
@@ -2114,7 +2113,7 @@ http://purl.obolibrary.org/obo/GO_0150174	negative regulation of phosphatidylcho
 http://purl.obolibrary.org/obo/GO_0150177	negative regulation of phosphatidylethanolamine metabolic process	http://purl.obolibrary.org/obo/GO_0046337	phosphatidylethanolamine metabolic process
 http://purl.obolibrary.org/obo/GO_1901352	negative regulation of phosphatidylglycerol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006655	phosphatidylglycerol biosynthetic process
 http://purl.obolibrary.org/obo/GO_0043553	negative regulation of phosphatidylinositol 3-kinase activity	http://purl.obolibrary.org/obo/GO_0016303	1-phosphatidylinositol-3-kinase activity
-http://purl.obolibrary.org/obo/GO_0014067	negative regulation of phosphatidylinositol 3-kinase signaling	http://purl.obolibrary.org/obo/GO_0014065	phosphatidylinositol 3-kinase signaling
+http://purl.obolibrary.org/obo/GO_0051898	negative regulation of phosphatidylinositol 3-kinase signaling/protein kinase B signal transduction	http://purl.obolibrary.org/obo/GO_0043491	phosphatidylinositol 3-kinase signaling/protein kinase B signal transduction
 http://purl.obolibrary.org/obo/GO_0010512	negative regulation of phosphatidylinositol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006661	phosphatidylinositol biosynthetic process
 http://purl.obolibrary.org/obo/GO_2001145	negative regulation of phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity	http://purl.obolibrary.org/obo/GO_0034485	phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity
 http://purl.obolibrary.org/obo/GO_0120140	negative regulation of phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity	http://purl.obolibrary.org/obo/GO_0004439	phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity
@@ -2268,7 +2267,6 @@ http://purl.obolibrary.org/obo/GO_1901094	negative regulation of protein homotet
 http://purl.obolibrary.org/obo/GO_1904590	negative regulation of protein import	http://purl.obolibrary.org/obo/GO_0017038	protein import
 http://purl.obolibrary.org/obo/GO_0042308	negative regulation of protein import into nucleus	http://purl.obolibrary.org/obo/GO_0006606	protein import into nucleus
 http://purl.obolibrary.org/obo/GO_1903637	negative regulation of protein insertion into mitochondrial outer membrane	http://purl.obolibrary.org/obo/GO_0045040	protein insertion into mitochondrial outer membrane
-http://purl.obolibrary.org/obo/GO_0051898	negative regulation of protein kinase B signaling	http://purl.obolibrary.org/obo/GO_0043491	protein kinase B signaling
 http://purl.obolibrary.org/obo/GO_0090038	negative regulation of protein kinase C signaling	http://purl.obolibrary.org/obo/GO_0070528	protein kinase C signaling
 http://purl.obolibrary.org/obo/GO_1903571	negative regulation of protein kinase D signaling	http://purl.obolibrary.org/obo/GO_0089700	protein kinase D signaling
 http://purl.obolibrary.org/obo/GO_0006469	negative regulation of protein kinase activity	http://purl.obolibrary.org/obo/GO_0004672	protein kinase activity
@@ -2766,7 +2764,6 @@ http://purl.obolibrary.org/obo/GO_1904188	negative regulation of transformation 
 http://purl.obolibrary.org/obo/GO_1901389	negative regulation of transforming growth factor beta activation	http://purl.obolibrary.org/obo/GO_0036363	transforming growth factor beta activation
 http://purl.obolibrary.org/obo/GO_0071635	negative regulation of transforming growth factor beta production	http://purl.obolibrary.org/obo/GO_0071604	transforming growth factor beta production
 http://purl.obolibrary.org/obo/GO_0030512	negative regulation of transforming growth factor beta receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007179	transforming growth factor beta receptor signaling pathway
-http://purl.obolibrary.org/obo/GO_0090012	negative regulation of transforming growth factor beta receptor signaling pathway involved in primitive streak formation	http://purl.obolibrary.org/obo/GO_0090010	transforming growth factor beta receptor signaling pathway involved in primitive streak formation
 http://purl.obolibrary.org/obo/GO_1901393	negative regulation of transforming growth factor beta1 activation	http://purl.obolibrary.org/obo/GO_0036364	transforming growth factor beta1 activation
 http://purl.obolibrary.org/obo/GO_0032911	negative regulation of transforming growth factor beta1 production	http://purl.obolibrary.org/obo/GO_0032905	transforming growth factor beta1 production
 http://purl.obolibrary.org/obo/GO_1901396	negative regulation of transforming growth factor beta2 activation	http://purl.obolibrary.org/obo/GO_0036365	transforming growth factor beta2 activation
