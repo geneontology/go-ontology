@@ -1971,7 +1971,7 @@ http://purl.obolibrary.org/obo/GO_2000625	regulation of miRNA catabolic process	
 http://purl.obolibrary.org/obo/GO_2000628	regulation of miRNA metabolic process	http://purl.obolibrary.org/obo/GO_0010586	miRNA metabolic process
 http://purl.obolibrary.org/obo/GO_1903798	regulation of miRNA processing	http://purl.obolibrary.org/obo/GO_0035196	miRNA processing
 http://purl.obolibrary.org/obo/GO_1902893	regulation of miRNA transcription	http://purl.obolibrary.org/obo/GO_0061614	miRNA transcription
-http://purl.obolibrary.org/obo/GO_0060964	regulation of miRNA-mediated gene silencing	http://purl.obolibrary.org/obo/GO_0035195	miRNA-mediated gene silencing
+http://purl.obolibrary.org/obo/GO_0060964	regulation of miRNA-mediated gene silencing	http://purl.obolibrary.org/obo/GO_0035195	miRNA-mediated post-transcriptional gene silencing
 http://purl.obolibrary.org/obo/GO_0014006	regulation of microglia differentiation	http://purl.obolibrary.org/obo/GO_0014004	microglia differentiation
 http://purl.obolibrary.org/obo/GO_1903978	regulation of microglial cell activation	http://purl.obolibrary.org/obo/GO_0001774	microglial cell activation
 http://purl.obolibrary.org/obo/GO_1904149	regulation of microglial cell mediated cytotoxicity	http://purl.obolibrary.org/obo/GO_0090634	microglial cell mediated cytotoxicity
