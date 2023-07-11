@@ -1766,7 +1766,7 @@ http://purl.obolibrary.org/obo/GO_2000626	negative regulation of miRNA catabolic
 http://purl.obolibrary.org/obo/GO_2000629	negative regulation of miRNA metabolic process	http://purl.obolibrary.org/obo/GO_0010586	miRNA metabolic process
 http://purl.obolibrary.org/obo/GO_1903799	negative regulation of miRNA processing	http://purl.obolibrary.org/obo/GO_0035196	miRNA processing
 http://purl.obolibrary.org/obo/GO_1902894	negative regulation of miRNA transcription	http://purl.obolibrary.org/obo/GO_0061614	miRNA transcription
-http://purl.obolibrary.org/obo/GO_0060965	negative regulation of miRNA-mediated gene silencing	http://purl.obolibrary.org/obo/GO_0035195	miRNA-mediated gene silencing
+http://purl.obolibrary.org/obo/GO_0060965	negative regulation of miRNA-mediated gene silencing	http://purl.obolibrary.org/obo/GO_0035195	miRNA-mediated post-transcriptional gene silencing
 http://purl.obolibrary.org/obo/GO_0014007	negative regulation of microglia differentiation	http://purl.obolibrary.org/obo/GO_0014004	microglia differentiation
 http://purl.obolibrary.org/obo/GO_1903979	negative regulation of microglial cell activation	http://purl.obolibrary.org/obo/GO_0001774	microglial cell activation
 http://purl.obolibrary.org/obo/GO_1904150	negative regulation of microglial cell mediated cytotoxicity	http://purl.obolibrary.org/obo/GO_0090634	microglial cell mediated cytotoxicity
