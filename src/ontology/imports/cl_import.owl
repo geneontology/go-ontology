@@ -8,9 +8,10 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2023-05-24/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2023-07-14/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -40,9 +41,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000700 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000700">
+        <rdfs:label>preferred_root</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -69,6 +84,12 @@
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -2425,6 +2446,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000120">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000117"/>
+        <obo:IAO_0000115>A neuron of the vertebrate central nervous system that is small in size. This general class includes small neurons in the granular layer of the cerebellar cortex, cerebral cortex neurons that are not pyramidal cells and small neurons without axons found in the olfactory bulb.</obo:IAO_0000115>
         <rdfs:label>granule cell</rdfs:label>
     </owl:Class>
     
@@ -3495,7 +3517,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000183"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002371"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002320"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002384"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An animal cell that has characteristics of both a fibroblast cell and a smooth muscle cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>MFB</oboInOwl:hasExactSynonym>
         <rdfs:label>myofibroblast cell</rdfs:label>
@@ -4134,32 +4162,21 @@
     <!-- http://purl.obolibrary.org/obo/CL_0000233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000233">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000763"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001405"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001874"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007596"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008015"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000081"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000225"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000763"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001405"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001874"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -4170,6 +4187,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0001820"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002216"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007596"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A non-nucleated disk-shaped cell formed by extrusion from megakaryocytes, found in the blood of all mammals, and mainly involved in blood coagulation.</obo:IAO_0000115>
@@ -5255,7 +5278,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000441">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000036"/>
-        <rdfs:label>follicle stem cell</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6656"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A stem cell that gives rise to the follicle cells that surround the oocyte in female arthropods.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>somatic stem cell</oboInOwl:hasBroadSynonym>
+        <rdfs:label>follicle stem cell (sensu Arthropoda)</rdfs:label>
     </owl:Class>
     
 
@@ -8863,9 +8894,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000244"/>
-        <obo:IAO_0000115>A cell of a layer of transitional epithelium in the wall of the bladder, ureter, and renal pelvis, external to the lamina propria.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym>bladder transitional cell</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>transitional epithelial cell of urinary bladder</oboInOwl:hasNarrowSynonym>
+        <obo:IAO_0000115>A cell of a layer of transitional epithelium in the wall of the proximal urethra, bladder, ureter or renal pelvis, external to the lamina propria.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym>urinary tract transitional epithelial cell</oboInOwl:hasNarrowSynonym>
         <rdfs:label>urothelial cell</rdfs:label>
     </owl:Class>
@@ -19179,6 +19208,12 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000157"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000322"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4040003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A type II pneumocyte is a pneumocyte that modulates the fluid surrounding the alveolar epithelium by secreting and recycling surfactants. This cell type also contributes to tissue repair and can differentiate after injury into a type I pneumocyte. Thicker than squamous alveolar cells, have a rounded apical surface that projects above the level of surrounding epithelium. The free surface is covered by short microvilli.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>AT2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ATII</oboInOwl:hasExactSynonym>
@@ -27363,6 +27398,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0011025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000911"/>
+        <oboInOwl:hasExactSynonym>An effector T cell that displays impaired effector functions (e.g., rapid production of effector cytokines, cytotoxicity) and has limited proliferative potential.</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tex cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>exhausted T cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0011026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0011026">
@@ -29058,7 +29104,9 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000646"/>
-        <obo:IAO_0000115>A basal cell that is part of the urothelium.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000731"/>
+        <obo:IAO_0000115>A basal cell that is part of the urothelium. Compared to other urothelial cell types, a basal cell of the urothelium is positioned along the basement membrane, is the most undifferentiated and serves a progenitor role.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>urothelial basal cell</oboInOwl:hasExactSynonym>
         <rdfs:label>basal cell of urothelium</rdfs:label>
     </owl:Class>
     
@@ -30119,14 +30167,22 @@
     <!-- http://purl.obolibrary.org/obo/CL_1001474 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1001474">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000617"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000369"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The inhibitory projection neurons located in the striatum that integrate glutamatergic signals arising from the cerebral cortex and thalamus.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0061534"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An inhibitory, GABAergic projection neuron in the striatum that integrates glutamatergic signals arising from the cerebral cortex and thalamus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>gamma-aminobutyric acid (GABA)ergic spiny projection neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gamma-aminobutyric acid ergic spiny projection neuron</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>striatal medium spiny neuron</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>medium-sized densely spiny neuron</oboInOwl:hasRelatedSynonym>
         <rdfs:label>medium spiny neuron</rdfs:label>
@@ -32694,6 +32750,19 @@
         <oboInOwl:hasExactSynonym>enteric glial cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>enteric glia</oboInOwl:hasRelatedSynonym>
         <rdfs:label>enteroglial cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4040003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4040003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000322"/>
+        <obo:IAO_0000115>Precursor of type II pneumocyte. These cells do not have lamellar bodies, which are a marker of type II pneumocyte maturity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>fetal alveolar pre-type II epithelial cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fetal pre-type 2 pneumocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fetal pre-type II alveolar epithelial cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>fetal pre-type II pneumocyte</rdfs:label>
     </owl:Class>
     
 

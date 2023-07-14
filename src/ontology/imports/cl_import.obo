@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-05-24/imports/cl_import.owl
+data-version: go/releases/2023-07-14/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -788,6 +788,7 @@ relationship: RO:0002100 UBERON:0002129
 [Term]
 id: CL:0000120
 name: granule cell
+def: "A neuron of the vertebrate central nervous system that is small in size. This general class includes small neurons in the granular layer of the cerebellar cortex, cerebral cortex neurons that are not pyramidal cells and small neurons without axons found in the olfactory bulb." []
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 
 [Term]
@@ -1246,7 +1247,8 @@ name: myofibroblast cell
 def: "An animal cell that has characteristics of both a fibroblast cell and a smooth muscle cell." []
 synonym: "MFB" EXACT []
 is_a: CL:0000183 ! contractile cell
-is_a: CL:0002371 ! somatic cell
+is_a: CL:0002320 ! connective tissue cell
+relationship: BFO:0000050 UBERON:0002384
 
 [Term]
 id: CL:0000187
@@ -1534,13 +1536,11 @@ synonym: "enucleate thrombocyte" EXACT []
 is_a: CL:0000081 ! blood cell
 is_a: CL:0000225 ! anucleate cell
 is_a: CL:0000763 ! myeloid cell
-intersection_of: CL:0000763 ! myeloid cell
-intersection_of: RO:0000053 PATO:0001405
-intersection_of: RO:0000053 PATO:0001874
-intersection_of: RO:0002215 GO:0007596
-intersection_of: RO:0002215 GO:0008015
+relationship: RO:0000053 PATO:0001405
+relationship: RO:0000053 PATO:0001874
 relationship: RO:0002202 CL:0000556 ! megakaryocyte
 relationship: RO:0002215 GO:0001820
+relationship: RO:0002216 GO:0007596
 
 [Term]
 id: CL:0000234
@@ -2029,8 +2029,11 @@ intersection_of: RO:0002215 GO:0036160
 
 [Term]
 id: CL:0000441
-name: follicle stem cell
+name: follicle stem cell (sensu Arthropoda)
+def: "A stem cell that gives rise to the follicle cells that surround the oocyte in female arthropods." []
+synonym: "somatic stem cell" BROAD []
 is_a: CL:0000036 ! epithelial fate stem cell
+relationship: RO:0002160 NCBITaxon:6656
 
 [Term]
 id: CL:0000442
@@ -2209,7 +2212,7 @@ is_a: CL:0000500 ! follicular epithelial cell
 is_a: CL:2000064 ! ovarian surface epithelial cell
 relationship: BFO:0000050 UBERON:0000992
 relationship: RO:0002160 NCBITaxon:50557
-relationship: RO:0002202 CL:0000441 ! follicle stem cell
+relationship: RO:0002202 CL:0000441 ! follicle stem cell (sensu Arthropoda)
 
 [Term]
 id: CL:0000482
@@ -3552,9 +3555,7 @@ is_a: CL:0002371 ! somatic cell
 [Term]
 id: CL:0000731
 name: urothelial cell
-def: "A cell of a layer of transitional epithelium in the wall of the bladder, ureter, and renal pelvis, external to the lamina propria." []
-synonym: "bladder transitional cell" NARROW []
-synonym: "transitional epithelial cell of urinary bladder" NARROW []
+def: "A cell of a layer of transitional epithelium in the wall of the proximal urethra, bladder, ureter or renal pelvis, external to the lamina propria." []
 synonym: "urinary tract transitional epithelial cell" NARROW []
 is_a: CL:0000244 ! transitional epithelial cell
 intersection_of: CL:0000244 ! transitional epithelial cell
@@ -7472,6 +7473,7 @@ is_a: CL:0000322 ! pneumocyte
 intersection_of: CL:0000322 ! pneumocyte
 intersection_of: RO:0002215 GO:0032940
 intersection_of: RO:0002215 GO:0043129
+relationship: RO:0002202 CL:4040003 ! fetal pre-type II pneumocyte
 
 [Term]
 id: CL:0002067
@@ -10827,6 +10829,13 @@ intersection_of: CL:0002489 ! double negative thymocyte
 intersection_of: RO:0002215 GO:0050777
 
 [Term]
+id: CL:0011025
+name: exhausted T cell
+synonym: "An effector T cell that displays impaired effector functions (e.g., rapid production of effector cytokines, cytotoxicity) and has limited proliferative potential." EXACT []
+synonym: "Tex cell" EXACT []
+is_a: CL:0000911 ! effector T cell
+
+[Term]
 id: CL:0011026
 name: progenitor cell
 def: "A precursor cell that has a tendency to differentiate into a specific type of cell. They are descendants of stem cells, only they are more constrained in their differentiation potential or capacity for self-renewal, and are often more limited in both senses." []
@@ -11505,8 +11514,10 @@ intersection_of: BFO:0000050 UBERON:0002353
 [Term]
 id: CL:1000486
 name: basal cell of urothelium
-def: "A basal cell that is part of the urothelium." []
+def: "A basal cell that is part of the urothelium. Compared to other urothelial cell types, a basal cell of the urothelium is positioned along the basement membrane, is the most undifferentiated and serves a progenitor role." []
+synonym: "urothelial basal cell" EXACT []
 is_a: CL:0000646 ! basal cell
+is_a: CL:0000731 ! urothelial cell
 intersection_of: CL:0000646 ! basal cell
 intersection_of: BFO:0000050 UBERON:0000365
 
@@ -11865,11 +11876,14 @@ relationship: BFO:0000050 UBERON:0000044
 [Term]
 id: CL:1001474
 name: medium spiny neuron
-def: "The inhibitory projection neurons located in the striatum that integrate glutamatergic signals arising from the cerebral cortex and thalamus." []
+def: "An inhibitory, GABAergic projection neuron in the striatum that integrates glutamatergic signals arising from the cerebral cortex and thalamus." []
+synonym: "gamma-aminobutyric acid (GABA)ergic spiny projection neuron" EXACT []
+synonym: "gamma-aminobutyric acid ergic spiny projection neuron" EXACT []
 synonym: "medium-sized densely spiny neuron" RELATED []
 synonym: "striatal medium spiny neuron" EXACT []
-is_a: CL:0000540 ! neuron
-relationship: BFO:0000050 UBERON:0000369
+is_a: CL:0000617 ! GABAergic neuron
+relationship: RO:0002100 UBERON:0000369
+relationship: RO:0002215 GO:0061534
 
 [Term]
 id: CL:1001503
@@ -12892,6 +12906,15 @@ is_a: CL:0000125 ! glial cell
 intersection_of: CL:0000125 ! glial cell
 intersection_of: BFO:0000050 UBERON:0002005
 relationship: RO:0002292 PR:000007939
+
+[Term]
+id: CL:4040003
+name: fetal pre-type II pneumocyte
+def: "Precursor of type II pneumocyte. These cells do not have lamellar bodies, which are a marker of type II pneumocyte maturity." []
+synonym: "fetal alveolar pre-type II epithelial cell" EXACT []
+synonym: "fetal pre-type 2 pneumocyte" EXACT []
+synonym: "fetal pre-type II alveolar epithelial cell" EXACT []
+is_a: CL:0000322 ! pneumocyte
 
 [Typedef]
 id: BFO:0000050
