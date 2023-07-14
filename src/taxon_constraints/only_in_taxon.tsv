@@ -289,14 +289,12 @@ GO:0031370	eukaryotic initiation factor 4G binding	NCBITaxon:2759	Eukaryota
 GO:0031504	peptidoglycan-based cell wall organization	NCBITaxon:2	Bacteria	
 GO:0031505	fungal-type cell wall organization	NCBITaxon:4751	Fungi	
 GO:0031522	cell envelope Sec protein transport complex	NCBITaxon:2	Bacteria	
-GO:0031566	actomyosin contractile ring maintenance	NCBITaxon:2759	Eukaryota	
 GO:0031578	mitotic spindle orientation checkpoint	NCBITaxon:716545	saccharomyceta	
 GO:0031633	xanthophore	NCBITaxon:Union_0000004	Prokaryota	
 GO:0031897	Tic complex	NCBITaxon:33090	Viridiplantae	
 GO:0031912	oral apparatus	NCBITaxon:5878	Ciliophora	
 GO:0031986	proteinoplast	NCBITaxon:33090	Viridiplantae	
 GO:0032121	meiotic attachment of telomeric heterochromatin to spindle pole body	NCBITaxon:4751	Fungi	
-GO:0032187	actomyosin contractile ring localization	NCBITaxon:2759	Eukaryota	
 GO:0032258	protein localization by the Cvt pathway	NCBITaxon:147537	Saccharomycotina	
 GO:0033009	nucleomorph	NCBITaxon:33090	Viridiplantae	
 GO:0033104	type VI protein secretion system complex	NCBITaxon:2	Bacteria	
