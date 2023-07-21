@@ -8,10 +8,9 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2023-07-14/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2023-07-21/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -38,12 +37,6 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
     
 
 
@@ -84,12 +77,6 @@
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/license -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -386,6 +373,14 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002203">
         <oboInOwl:hasDbXref>RO:0002203</oboInOwl:hasDbXref>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002207 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002207">
+        <oboInOwl:hasDbXref>RO:0002207</oboInOwl:hasDbXref>
     </owl:ObjectProperty>
     
 
@@ -2539,6 +2534,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>A neuroglial cell of ectodermal origin, i.e., the astrocytes and oligodendrocytes considered together.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>macrogliocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>macroglia</oboInOwl:hasRelatedSynonym>
         <rdfs:label>macroglial cell</rdfs:label>
     </owl:Class>
     
@@ -2644,9 +2640,9 @@
         <oboInOwl:hasBroadSynonym>brain macrophage</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>brain-resident macrophage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hortega cells</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>microglia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>microgliocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>MF.microglia.CNS</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>microglia</oboInOwl:hasRelatedSynonym>
         <rdfs:label>microglial cell</rdfs:label>
     </owl:Class>
     
@@ -6163,7 +6159,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000530">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000540"/>
-        <rdfs:label>primary neuron</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32443"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A neuron that develops during the early segmentation stages in teleosts, before the neural tube is formed.</obo:IAO_0000115>
+        <rdfs:label>primary neuron (sensu Teleostei)</rdfs:label>
     </owl:Class>
     
 
@@ -6181,7 +6184,8 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000101"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000530"/>
-        <rdfs:label>primary sensory neuron</rdfs:label>
+        <obo:IAO_0000115>A primary neuron (sensu Teleostei) that has a sensory function.</obo:IAO_0000115>
+        <rdfs:label>primary sensory neuron (sensu Teleostei)</rdfs:label>
     </owl:Class>
     
 
@@ -6906,6 +6910,8 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>Interneuron of the vertebrate retina. They integrate, modulate, and interpose a temporal domain in the visual message presented to the retinal ganglion cells, with which they synapse in the inner plexiform layer. They lack large axons.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>amacrine neuron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>AC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ACs</oboInOwl:hasRelatedSynonym>
         <rdfs:label>amacrine cell</rdfs:label>
     </owl:Class>
     
@@ -7157,6 +7163,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>One of the two photoreceptor cell types in the vertebrate retina. In cones the photopigment is in invaginations of the cell membrane of the outer segment. Cones are less sensitive to light than rods, but they provide vision with higher spatial and temporal acuity, and the combination of signals from cones with different pigments allows color vision.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>cone</oboInOwl:hasRelatedSynonym>
         <rdfs:label>retinal cone cell</rdfs:label>
     </owl:Class>
     
@@ -7443,6 +7450,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>One of the two photoreceptor cell types of the vertebrate retina. In rods the photopigment is in stacks of membranous disks separate from the outer cell membrane. Rods are more sensitive to light than cones, but rod mediated vision has less spatial and temporal resolution than cone vision.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>rod</oboInOwl:hasRelatedSynonym>
         <rdfs:label>retinal rod cell</rdfs:label>
     </owl:Class>
     
@@ -9006,9 +9014,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The set of neurons that receives neural inputs via bipolar, horizontal and amacrine cells. The axons of these cells make up the optic nerve.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>RGC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>gangliocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ganglion cell of retina</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>RGC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>RGCs</oboInOwl:hasRelatedSynonym>
         <rdfs:label>retinal ganglion cell</rdfs:label>
     </owl:Class>
     
@@ -9086,7 +9095,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000103"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000966"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001791"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -9118,6 +9127,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner plexiform layer.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>BC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>BCs</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>BPs</oboInOwl:hasRelatedSynonym>
         <rdfs:label>retinal bipolar neuron</rdfs:label>
     </owl:Class>
     
@@ -9127,12 +9139,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000749">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000748"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001791"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner half of the inner plexiform layer. These cells depolarize in response to light stimulation of their corresponding photoreceptors.</obo:IAO_0000115>
         <rdfs:label>ON-bipolar cell</rdfs:label>
     </owl:Class>
@@ -16300,8 +16306,15 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000120"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1001611"/>
-        <obo:IAO_0000115>Granule cell that is part of the cerebellum.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002207"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002362"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An excitatory granule cell with a soma located in the granular layer of cerebellar cortex. A mature cerebellar granule cell has short dendrites with a characteristic claw-like appearance and a long axon that ascends to the molecular layer where it bifurcates (except in non-teleost fish, where it does not bifurcate) and extends mediolaterally to form parallel fibers.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>granule cell of the cerebellum</oboInOwl:hasExactSynonym>
         <rdfs:label>cerebellar granule cell</rdfs:label>
     </owl:Class>
     
@@ -21940,6 +21953,25 @@
         <oboInOwl:hasExactSynonym>EryP-CFC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>inner blood island hemangioblast</oboInOwl:hasExactSynonym>
         <rdfs:label>primitive erythroid progenitor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000031"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0009841"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A cell located in the outermost proliferative zone of the external germinal layer that can differentiate into astroglial cells and granule cells. This cell type is glial fibrillary acidic protein-positive and HNK1-positive.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>granule cell precursor</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>granule cell progenitor</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasRelatedSynonym>GCP</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>cerebellar granule cell precursor</rdfs:label>
     </owl:Class>
     
 
@@ -31930,18 +31962,18 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000120"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0001033"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002100"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001885"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005381"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000120"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4023062"/>
-        <obo:IAO_0000115>The principal cell type of the dentate gyrus.</obo:IAO_0000115>
-        <rdfs:label>dentate gyrus of hippocampal formation granule cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001033"/>
+        <obo:IAO_0000115>A granule cell that has soma location in the dentate gyrus cell layer of the hippocampal formation and has an elliptical cell body and characteristic cone-shaped tree of spiny apical dendrites. The branches extend throughout the molecular layer and the distal tips of the dendritic tree end just at the hippocampal fissure or at the ventricular surface. The dentate gyrus granule cell is the principal cell type of the dentate gyrus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>dentate gyrus of hippocampal formation granule cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>dentate gyrus granule cell</rdfs:label>
     </owl:Class>
     
 
@@ -32665,6 +32697,12 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000192"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004515"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A smooth muscle cell that is part of a bronchiole.</obo:IAO_0000115>
         <rdfs:label>bronchiolar smooth muscle cell</rdfs:label>
     </owl:Class>
@@ -32674,8 +32712,22 @@
     <!-- http://purl.obolibrary.org/obo/CL_4033018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4033018">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000556"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000114"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000556"/>
         <obo:IAO_0000115>A megakaryocyte that is resident in the lung connective tissue.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>lung resident megakaryocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lung-resident megakaryocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>MKL</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>lung MKs</oboInOwl:hasRelatedSynonym>
         <rdfs:label>lung megakaryocyte</rdfs:label>
     </owl:Class>
@@ -34450,6 +34502,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_32443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32443"/>
     
 
 
@@ -36985,6 +37043,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0004515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004515"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0004536 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0004536"/>
@@ -37153,6 +37217,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005381"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0005388 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005388"/>
@@ -37246,6 +37316,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0008926 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0008926"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0009841 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0009841"/>
     
 
 
@@ -37409,16 +37485,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    <owl:Class>
-        <owl:intersectionOf rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000556"/>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000114"/>
-            </owl:Restriction>
-        </owl:intersectionOf>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_4033018"/>
     </owl:Class>
 </rdf:RDF>
 
