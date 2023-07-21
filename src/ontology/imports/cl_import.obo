@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-07-14/imports/cl_import.owl
+data-version: go/releases/2023-07-21/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -830,6 +830,7 @@ is_a: CL:0000095 ! neuron associated cell
 id: CL:0000126
 name: macroglial cell
 def: "A neuroglial cell of ectodermal origin, i.e., the astrocytes and oligodendrocytes considered together." []
+synonym: "macroglia" RELATED []
 synonym: "macrogliocyte" EXACT []
 is_a: CL:0000125 ! glial cell
 relationship: RO:0002202 CL:0000339 ! glioblast (sensu Vertebrata)
@@ -861,7 +862,7 @@ synonym: "brain macrophage" BROAD []
 synonym: "brain-resident macrophage" EXACT []
 synonym: "hortega cells" EXACT []
 synonym: "MF.microglia.CNS" RELATED []
-synonym: "microglia" EXACT []
+synonym: "microglia" RELATED []
 synonym: "microgliocyte" EXACT []
 is_a: CL:0000125 ! glial cell
 is_a: CL:0000878 ! central nervous system macrophage
@@ -1614,7 +1615,7 @@ def: "Type of neuron that is a primary mechanosensory cell, with peripheral neur
 synonym: "RB neuron" RELATED []
 synonym: "Rohon Beard cell" EXACT []
 synonym: "Rohon-Beard cell" EXACT []
-is_a: CL:0000531 ! primary sensory neuron
+is_a: CL:0000531 ! primary sensory neuron (sensu Teleostei)
 is_a: CL:4023168 ! somatosensory neuron
 
 [Term]
@@ -2424,16 +2425,19 @@ is_a: CL:0000540 ! neuron
 
 [Term]
 id: CL:0000530
-name: primary neuron
+name: primary neuron (sensu Teleostei)
+def: "A neuron that develops during the early segmentation stages in teleosts, before the neural tube is formed." []
 is_a: CL:0000540 ! neuron
+relationship: RO:0002160 NCBITaxon:32443
 
 [Term]
 id: CL:0000531
-name: primary sensory neuron
+name: primary sensory neuron (sensu Teleostei)
+def: "A primary neuron (sensu Teleostei) that has a sensory function." []
 is_a: CL:0000101 ! sensory neuron
-is_a: CL:0000530 ! primary neuron
+is_a: CL:0000530 ! primary neuron (sensu Teleostei)
 intersection_of: CL:0000101 ! sensory neuron
-intersection_of: CL:0000530 ! primary neuron
+intersection_of: CL:0000530 ! primary neuron (sensu Teleostei)
 
 [Term]
 id: CL:0000540
@@ -2634,7 +2638,6 @@ synonym: "megacaryocyte" EXACT []
 synonym: "megalocaryocyte" EXACT []
 synonym: "megalokaryocyte" EXACT []
 is_a: CL:0000763 ! myeloid cell
-is_a: CL:4033018 {gci_relation="BFO:0000050", gci_filler="UBERON:0000114"} ! lung megakaryocyte
 disjoint_from: CL:0000764 ! erythroid lineage cell
 relationship: RO:0000053 PATO:0001393
 relationship: RO:0002202 CL:0000553 ! megakaryocyte progenitor cell
@@ -2700,6 +2703,8 @@ relationship: RO:0002202 CL:0000040 ! monoblast
 id: CL:0000561
 name: amacrine cell
 def: "Interneuron of the vertebrate retina. They integrate, modulate, and interpose a temporal domain in the visual message presented to the retinal ganglion cells, with which they synapse in the inner plexiform layer. They lack large axons." []
+synonym: "AC" RELATED []
+synonym: "ACs" RELATED []
 synonym: "amacrine neuron" EXACT []
 is_a: CL:0000099 ! interneuron
 relationship: BFO:0000050 UBERON:0000966
@@ -2805,6 +2810,7 @@ relationship: RO:0002202 CL:0005003 ! leucoblast
 id: CL:0000573
 name: retinal cone cell
 def: "One of the two photoreceptor cell types in the vertebrate retina. In cones the photopigment is in invaginations of the cell membrane of the outer segment. Cones are less sensitive to light than rods, but they provide vision with higher spatial and temporal acuity, and the combination of signals from cones with different pigments allows color vision." []
+synonym: "cone" RELATED []
 is_a: CL:0010009 ! camera-type eye photoreceptor cell
 relationship: RO:0002202 CL:0002672 ! retinal progenitor cell
 
@@ -2933,6 +2939,7 @@ relationship: BFO:0000050 UBERON:0002227
 id: CL:0000604
 name: retinal rod cell
 def: "One of the two photoreceptor cell types of the vertebrate retina. In rods the photopigment is in stacks of membranous disks separate from the outer cell membrane. Rods are more sensitive to light than cones, but rod mediated vision has less spatial and temporal resolution than cone vision." []
+synonym: "rod" RELATED []
 is_a: CL:0010009 ! camera-type eye photoreceptor cell
 relationship: RO:0002202 CL:0002672 ! retinal progenitor cell
 
@@ -3606,7 +3613,8 @@ name: retinal ganglion cell
 def: "The set of neurons that receives neural inputs via bipolar, horizontal and amacrine cells. The axons of these cells make up the optic nerve." []
 synonym: "gangliocyte" EXACT []
 synonym: "ganglion cell of retina" EXACT []
-synonym: "RGC" EXACT []
+synonym: "RGC" RELATED []
+synonym: "RGCs" RELATED []
 is_a: CL:0000117 ! CNS neuron (sensu Vertebrata)
 relationship: RO:0002100 UBERON:0000966
 
@@ -3641,12 +3649,15 @@ relationship: RO:0002202 CL:0005005 ! cyanoblast
 id: CL:0000748
 name: retinal bipolar neuron
 def: "A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner plexiform layer." []
+synonym: "BC" RELATED []
+synonym: "BCs" RELATED []
+synonym: "BPs" RELATED []
 is_a: CL:0000103 ! bipolar neuron
 is_a: CL:0000679 ! glutamatergic neuron
 is_a: CL:0008028 ! visual system neuron
 is_a: CL:0009004 ! retinal cell
 intersection_of: CL:0000103 ! bipolar neuron
-intersection_of: RO:0002100 UBERON:0000966
+intersection_of: RO:0002100 UBERON:0001791
 relationship: RO:0002216 GO:0007601
 
 [Term]
@@ -3654,7 +3665,6 @@ id: CL:0000749
 name: ON-bipolar cell
 def: "A bipolar neuron found in the retina and having connections with photoreceptors cells and neurons in the inner half of the inner plexiform layer. These cells depolarize in response to light stimulation of their corresponding photoreceptors." []
 is_a: CL:0000748 ! retinal bipolar neuron
-relationship: RO:0002100 UBERON:0001791
 
 [Term]
 id: CL:0000751
@@ -6450,11 +6460,13 @@ union_of: CL:0001025 ! Kit-positive, Sca1-positive common lymphoid progenitor
 [Term]
 id: CL:0001031
 name: cerebellar granule cell
-def: "Granule cell that is part of the cerebellum." []
+def: "An excitatory granule cell with a soma located in the granular layer of cerebellar cortex. A mature cerebellar granule cell has short dendrites with a characteristic claw-like appearance and a long axon that ascends to the molecular layer where it bifurcates (except in non-teleost fish, where it does not bifurcate) and extends mediolaterally to form parallel fibers." []
+synonym: "granule cell of the cerebellum" EXACT []
 is_a: CL:0000120 ! granule cell
-is_a: CL:1001611 ! cerebellar neuron
+is_a: CL:2000028 ! cerebellum glutamatergic neuron
 intersection_of: CL:0000120 ! granule cell
 intersection_of: RO:0002100 UBERON:0002037
+relationship: RO:0002207 CL:0002362 ! cerebellar granule cell precursor
 
 [Term]
 id: CL:0001032
@@ -8645,6 +8657,16 @@ is_a: CL:0002417 ! primitive erythroid lineage cell
 intersection_of: CL:0002417 ! primitive erythroid lineage cell
 intersection_of: RO:0002104 PR:000009127
 relationship: RO:0002202 CL:0002418 ! hemangioblast
+
+[Term]
+id: CL:0002362
+name: cerebellar granule cell precursor
+def: "A cell located in the outermost proliferative zone of the external germinal layer that can differentiate into astroglial cells and granule cells. This cell type is glial fibrillary acidic protein-positive and HNK1-positive." []
+synonym: "GCP" RELATED []
+synonym: "granule cell precursor" BROAD []
+synonym: "granule cell progenitor" BROAD []
+is_a: CL:0000031 ! neuroblast (sensu Vertebrata)
+relationship: BFO:0000050 UBERON:0009841
 
 [Term]
 id: CL:0002363
@@ -12572,12 +12594,12 @@ intersection_of: BFO:0000050 UBERON:0002331
 
 [Term]
 id: CL:2000089
-name: dentate gyrus of hippocampal formation granule cell
-def: "The principal cell type of the dentate gyrus." []
-is_a: CL:0000120 ! granule cell
-is_a: CL:4023062 ! dentate gyrus neuron
-intersection_of: CL:0000120 ! granule cell
-intersection_of: RO:0002100 UBERON:0001885
+name: dentate gyrus granule cell
+def: "A granule cell that has soma location in the dentate gyrus cell layer of the hippocampal formation and has an elliptical cell body and characteristic cone-shaped tree of spiny apical dendrites. The branches extend throughout the molecular layer and the distal tips of the dendritic tree end just at the hippocampal fissure or at the ventricular surface. The dentate gyrus granule cell is the principal cell type of the dentate gyrus." []
+synonym: "dentate gyrus of hippocampal formation granule cell" EXACT []
+is_a: CL:0001033 ! hippocampal granule cell
+intersection_of: CL:0001033 ! hippocampal granule cell
+intersection_of: RO:0002100 UBERON:0005381
 
 [Term]
 id: CL:2000090
@@ -12871,13 +12893,19 @@ def: "A smooth muscle cell that is part of a bronchiole." []
 is_a: CL:0000192 ! smooth muscle cell
 intersection_of: CL:0000192 ! smooth muscle cell
 intersection_of: BFO:0000050 UBERON:0002186
+relationship: BFO:0000050 UBERON:0004515
 
 [Term]
 id: CL:4033018
 name: lung megakaryocyte
 def: "A megakaryocyte that is resident in the lung connective tissue." []
 synonym: "lung MKs" RELATED []
+synonym: "lung resident megakaryocyte" EXACT []
+synonym: "lung-resident megakaryocyte" EXACT []
+synonym: "MKL" RELATED []
 is_a: CL:0000556 ! megakaryocyte
+intersection_of: CL:0000556 ! megakaryocyte
+intersection_of: BFO:0000050 UBERON:0000114
 
 [Term]
 id: CL:4033020
@@ -12971,6 +12999,10 @@ xref: RO:0002202
 [Typedef]
 id: RO:0002203
 xref: RO:0002203
+
+[Typedef]
+id: RO:0002207
+xref: RO:0002207
 
 [Typedef]
 id: RO:0002215
