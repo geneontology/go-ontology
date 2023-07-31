@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-02-28/imports/ro_import.owl
+data-version: go/releases/2023-07-31/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -18,7 +18,7 @@ relationship: part_of BFO:0000003 ! occurrent
 [Term]
 id: BFO:0000004
 name: independent continuant
-def: "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." []
+def: "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])" []
 is_a: BFO:0000002 ! continuant
 disjoint_from: BFO:0000020 ! specifically dependent continuant
 relationship: part_of BFO:0000004 ! independent continuant
@@ -26,7 +26,7 @@ relationship: part_of BFO:0000004 ! independent continuant
 [Term]
 id: BFO:0000015
 name: process
-def: "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t." []
+def: "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])" []
 is_a: BFO:0000003 ! occurrent
 
 [Term]
@@ -52,7 +52,7 @@ relationship: part_of BFO:0000019 ! quality
 [Term]
 id: BFO:0000020
 name: specifically dependent continuant
-def: "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same." []
+def: "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])" []
 is_a: BFO:0000002 ! continuant
 relationship: part_of BFO:0000020 ! specifically dependent continuant
 
@@ -78,6 +78,10 @@ disjoint_from: BFO:0000141 ! immaterial entity
 id: BFO:0000141
 name: immaterial entity
 is_a: BFO:0000004 ! independent continuant
+
+[Term]
+id: CHEBI:50906
+is_a: PATO:0000001
 
 [Typedef]
 id: acts_on_population_of
@@ -344,6 +348,12 @@ id: contains_process
 name: contains process
 def: "[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
 xref: BFO:0000067
+
+[Typedef]
+id: correlated_with
+name: correlated with
+def: "A relationship that holds between two entities, where the entities exhibit a statistical dependence relationship. The entities may be statistical variables, or they may be other kinds of entities such as diseases, chemical entities or processes." []
+xref: RO:0002610
 
 [Typedef]
 id: depends_on
@@ -646,8 +656,8 @@ id: has_developmental_contribution_from
 name: has developmental contribution from
 def: "x has developmental contribution from y iff x has some part z such that z develops from y" []
 xref: RO:0002254
-domain: CARO:0000000
-range: CARO:0000000
+domain: UBERON:0001062
+range: UBERON:0001062
 holds_over_chain: has_part develops_from
 is_a: developmentally_preceded_by ! developmentally preceded by
 inverse_of: developmentally_contributes_to ! developmentally contributes to
@@ -657,8 +667,8 @@ id: has_developmental_potential_involving
 name: has developmental potential involving
 def: "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)." []
 xref: RO:0002384
-domain: CARO:0000000
-range: CARO:0000000
+domain: UBERON:0001062
+range: UBERON:0001062
 is_a: developmentally_related_to ! developmentally related to
 
 [Typedef]
@@ -920,7 +930,7 @@ id: in_taxon
 name: in taxon
 def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
 xref: RO:0002162
-range: CARO:0001010
+range: OBI:0100026
 holds_over_chain: capable_of in_taxon
 holds_over_chain: develops_from in_taxon
 holds_over_chain: has_developmental_contribution_from in_taxon
@@ -1162,6 +1172,15 @@ xref: RO:0002447
 is_a: molecularly_interacts_with ! molecularly interacts with
 
 [Typedef]
+id: positively_correlated_with
+name: positively correlated with
+def: "A relation between entities in which one increases or decreases as the other does the same." []
+xref: RO:0017003
+is_reflexive: true
+is_symmetric: true
+is_a: correlated_with ! correlated with
+
+[Typedef]
 id: positively_regulated_by
 name: positively regulated by
 def: "inverse of positively regulates" []
@@ -1311,7 +1330,7 @@ id: results_in_acquisition_of_features_of
 name: results in acquisition of features of
 def: "The relationship that links a specified entity with the process that results in an unspecified entity acquiring the features and characteristics of the specified entity" []
 xref: RO:0002315
-range: CARO:0000003
+range: UBERON:0000061
 is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
@@ -1366,7 +1385,7 @@ name: results in developmental progression of
 def: "p results in the developmental progression of s iff p is a developmental process and s is an anatomical entity and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss)." []
 xref: RO:0002295
 domain: GO:0008150
-range: CARO:0000000
+range: UBERON:0001062
 is_a: developmentally_related_to ! developmentally related to
 
 [Typedef]
