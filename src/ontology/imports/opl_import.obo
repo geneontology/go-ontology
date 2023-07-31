@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-10-11/imports/opl_import.owl
+data-version: go/releases/2023-07-31/imports/opl_import.owl
 ontology: go/imports/opl_import
 
 [Term]
@@ -21,7 +21,7 @@ id: OPL:0000033
 name: trypomastigote stage
 def: "A parasite lifecycle stage of trypanosomes. In trypomastigote stage, the kinetoplast is near the posterior end of the body, and the flagellum lies attached to the cell body for most of its length by an undulating membrane." []
 is_a: OPL:0000181 ! parasite lifecycle stage
-relationship: only_in_taxon NCBITaxon:5690
+relationship: in_taxon NCBITaxon:5690
 
 [Term]
 id: OPL:0000076
@@ -36,7 +36,7 @@ id: OPL:0000114
 name: amastigote stage
 def: "A parasite lifecycle stage is a nonflagellate intracellular developmental stage in the trypanosomatid parasites lifecycle that occurs in mammalian host." []
 is_a: OPL:0000181 ! parasite lifecycle stage
-relationship: only_in_taxon OPL:0000232 ! parasite organism
+relationship: in_taxon OPL:0000232 ! parasite organism
 
 [Term]
 id: OPL:0000149
@@ -51,7 +51,7 @@ id: OPL:0000151
 name: promastigote stage
 def: "A parasite lifecycle stage of Trypanosomatids. In this stage, the flagellum is found anterior of nucleus and flagellum not attached to the cell body. The kinetoplast is located in front of the nucleus, near the anterior end of the body. (Wikipedia: Trypanosomatid)" []
 is_a: OPL:0000181 ! parasite lifecycle stage
-relationship: only_in_taxon NCBITaxon:5654
+relationship: in_taxon NCBITaxon:5654
 
 [Term]
 id: OPL:0000181
@@ -59,7 +59,7 @@ name: parasite lifecycle stage
 def: "A life cycle stage of a parasite." []
 is_a: UBERON:0000105
 intersection_of: UBERON:0000105
-intersection_of: only_in_taxon OPL:0000232 ! parasite organism
+intersection_of: in_taxon OPL:0000232 ! parasite organism
 
 [Term]
 id: OPL:0000194
@@ -92,7 +92,8 @@ name: Trypanosomatida metacyclic stage
 def: "A parasite lifecycle stage of trypanosomatidae in which the organism is infectious and does not multiply." []
 is_a: BFO:0000015
 is_a: OPL:0000181 ! parasite lifecycle stage
-intersection_of: only_in_taxon NCBITaxon:5654
+intersection_of: OPL:0000181 ! parasite lifecycle stage
+intersection_of: in_taxon NCBITaxon:5654
 intersection_of: realizes IDO:0000404
 
 [Term]
@@ -103,11 +104,12 @@ is_a: BFO:0000003
 is_a: OPL:0000181 ! parasite lifecycle stage
 
 [Typedef]
-id: bearer_of
-name: bearer of
-def: "a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence" []
-xref: RO:0000053
-range: BFO:0000020
+id: characteristic_of
+name: characteristic of
+def: "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence." []
+xref: RO:0000052
+is_functional: true
+inverse_of: has_characteristic ! has characteristic
 
 [Typedef]
 id: contains_process
@@ -116,10 +118,52 @@ def: "[copied from inverse property 'occurs in'] b occurs_in c =def b is a proce
 xref: BFO:0000067
 
 [Typedef]
+id: disposition_of
+name: disposition of
+xref: RO:0000092
+is_a: characteristic_of ! characteristic of
+
+[Typedef]
 id: evolutionarily_related_to
 name: evolutionarily related to
 def: "A relationship that holds via some environmental process" []
 xref: RO:0002320
+
+[Typedef]
+id: function_of
+name: function of
+def: "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence" []
+xref: RO:0000079
+domain: BFO:0000034
+is_a: characteristic_of ! characteristic of
+inverse_of: has_function ! has function
+
+[Typedef]
+id: has_characteristic
+name: has characteristic
+def: "Inverse of characteristic_of" []
+xref: RO:0000053
+range: BFO:0000020
+is_inverse_functional: true
+
+[Typedef]
+id: has_disposition
+name: has disposition
+def: "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence" []
+xref: RO:0000091
+domain: BFO:0000004
+range: BFO:0000016
+is_a: has_characteristic ! has characteristic
+inverse_of: disposition_of ! disposition of
+
+[Typedef]
+id: has_function
+name: has function
+def: "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence" []
+xref: RO:0000085
+domain: BFO:0000004
+range: BFO:0000034
+is_a: has_characteristic ! has characteristic
 
 [Typedef]
 id: has_part
@@ -129,20 +173,28 @@ xref: BFO:0000051
 is_transitive: true
 
 [Typedef]
+id: has_quality
+name: has quality
+def: "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence" []
+xref: RO:0000086
+range: BFO:0000019
+is_a: has_characteristic ! has characteristic
+
+[Typedef]
 id: has_role
 name: has role
 def: "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence" []
 xref: RO:0000087
 domain: BFO:0000004
 range: BFO:0000023
-is_a: bearer_of ! bearer of
+is_a: has_characteristic ! has characteristic
 
 [Typedef]
-id: inheres_in
-name: inheres in
-def: "a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence" []
-xref: RO:0000052
-inverse_of: bearer_of ! bearer of
+id: in_taxon
+name: in taxon
+def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
+xref: RO:0002162
+is_a: evolutionarily_related_to ! evolutionarily related to
 
 [Typedef]
 id: occurs_in
@@ -156,19 +208,20 @@ inverse_of: contains_process ! contains process
 transitive_over: part_of ! part of
 
 [Typedef]
-id: only_in_taxon
-name: only in taxon
-def: "x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z." []
-xref: RO:0002160
-is_a: evolutionarily_related_to ! evolutionarily related to
-
-[Typedef]
 id: part_of
 name: part of
 def: "a core relation that holds between a part and its whole" []
 xref: BFO:0000050
 is_transitive: true
 inverse_of: has_part ! has part
+
+[Typedef]
+id: quality_of
+name: quality of
+def: "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence" []
+xref: RO:0000080
+is_a: characteristic_of ! characteristic of
+inverse_of: has_quality ! has quality
 
 [Typedef]
 id: realized_in
@@ -190,6 +243,6 @@ id: role_of
 name: role of
 def: "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence" []
 xref: RO:0000081
-is_a: inheres_in ! inheres in
+is_a: characteristic_of ! characteristic of
 inverse_of: has_role ! has role
 
