@@ -118,6 +118,7 @@ http://purl.obolibrary.org/obo/GO_1903621	protein localization to photoreceptor 
 http://purl.obolibrary.org/obo/GO_1903546	protein localization to photoreceptor outer segment	http://purl.obolibrary.org/obo/GO_0001750	photoreceptor outer segment
 http://purl.obolibrary.org/obo/GO_1903418	protein localization to plasma membrane of cell tip	http://purl.obolibrary.org/obo/GO_0031520	plasma membrane of cell tip
 http://purl.obolibrary.org/obo/GO_0044860	protein localization to plasma membrane raft	http://purl.obolibrary.org/obo/GO_0044853	plasma membrane raft
+http://purl.obolibrary.org/obo/GO_0160086	protein localization to polar microtubule	http://purl.obolibrary.org/obo/GO_0005827	polar microtubule
 http://purl.obolibrary.org/obo/GO_0062237	protein localization to postsynapse	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
 http://purl.obolibrary.org/obo/GO_1903539	protein localization to postsynaptic membrane	http://purl.obolibrary.org/obo/GO_0045211	postsynaptic membrane
 http://purl.obolibrary.org/obo/GO_0099633	protein localization to postsynaptic specialization membrane	http://purl.obolibrary.org/obo/GO_0099634	postsynaptic specialization membrane

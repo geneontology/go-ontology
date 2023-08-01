@@ -642,7 +642,7 @@ http://purl.obolibrary.org/obo/GO_0031342	negative regulation of cell killing	ht
 http://purl.obolibrary.org/obo/GO_1903430	negative regulation of cell maturation	http://purl.obolibrary.org/obo/GO_0048469	cell maturation
 http://purl.obolibrary.org/obo/GO_0030336	negative regulation of cell migration	http://purl.obolibrary.org/obo/GO_0016477	cell migration
 http://purl.obolibrary.org/obo/GO_0090051	negative regulation of cell migration involved in sprouting angiogenesis	http://purl.obolibrary.org/obo/GO_0002042	cell migration involved in sprouting angiogenesis
-http://purl.obolibrary.org/obo/GO_0010771	negative regulation of cell morphogenesis involved in differentiation	http://purl.obolibrary.org/obo/GO_0000904	cell morphogenesis involved in differentiation
+http://purl.obolibrary.org/obo/GO_0010771	negative regulation of cell morphogenesis	http://purl.obolibrary.org/obo/GO_0000902	cell morphogenesis
 http://purl.obolibrary.org/obo/GO_2000146	negative regulation of cell motility	http://purl.obolibrary.org/obo/GO_0048870	cell motility
 http://purl.obolibrary.org/obo/GO_0021822	negative regulation of cell motility involved in cerebral cortex radial glia guided migration	http://purl.obolibrary.org/obo/GO_0021814	cell motility involved in cerebral cortex radial glia guided migration
 http://purl.obolibrary.org/obo/GO_0008285	negative regulation of cell population proliferation	http://purl.obolibrary.org/obo/GO_0008283	cell population proliferation
@@ -1376,6 +1376,7 @@ http://purl.obolibrary.org/obo/GO_0090084	negative regulation of inclusion body 
 http://purl.obolibrary.org/obo/GO_1901997	negative regulation of indoleacetic acid biosynthetic process via tryptophan	http://purl.obolibrary.org/obo/GO_0009848	indoleacetic acid biosynthetic process via tryptophan
 http://purl.obolibrary.org/obo/GO_0010515	negative regulation of induction of conjugation with cellular fusion	http://purl.obolibrary.org/obo/GO_0010514	induction of conjugation with cellular fusion
 http://purl.obolibrary.org/obo/GO_0075186	negative regulation of infection cushion formation	http://purl.obolibrary.org/obo/GO_0075183	infection cushion formation
+http://purl.obolibrary.org/obo/GO_0141086	negative regulation of inflammasome-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0141084	inflammasome-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0050728	negative regulation of inflammatory response	http://purl.obolibrary.org/obo/GO_0006954	inflammatory response
 http://purl.obolibrary.org/obo/GO_0002862	negative regulation of inflammatory response to antigenic stimulus	http://purl.obolibrary.org/obo/GO_0002437	inflammatory response to antigenic stimulus
 http://purl.obolibrary.org/obo/GO_0106015	negative regulation of inflammatory response to wounding	http://purl.obolibrary.org/obo/GO_0090594	inflammatory response to wounding
@@ -2485,7 +2486,6 @@ http://purl.obolibrary.org/obo/GO_0031030	negative regulation of septation initi
 http://purl.obolibrary.org/obo/GO_2001042	negative regulation of septum digestion after cytokinesis	http://purl.obolibrary.org/obo/GO_0000920	septum digestion after cytokinesis
 http://purl.obolibrary.org/obo/GO_0051283	negative regulation of sequestering of calcium ion	http://purl.obolibrary.org/obo/GO_0051208	sequestering of calcium ion
 http://purl.obolibrary.org/obo/GO_0010891	negative regulation of sequestering of triglyceride	http://purl.obolibrary.org/obo/GO_0030730	sequestering of triglyceride
-http://purl.obolibrary.org/obo/GO_0061089	negative regulation of sequestering of zinc ion	http://purl.obolibrary.org/obo/GO_0032119	sequestering of zinc ion
 http://purl.obolibrary.org/obo/GO_1904221	negative regulation of serine C-palmitoyltransferase activity	http://purl.obolibrary.org/obo/GO_0004758	serine C-palmitoyltransferase activity
 http://purl.obolibrary.org/obo/GO_1900004	negative regulation of serine-type endopeptidase activity	http://purl.obolibrary.org/obo/GO_0004252	serine-type endopeptidase activity
 http://purl.obolibrary.org/obo/GO_1902572	negative regulation of serine-type peptidase activity	http://purl.obolibrary.org/obo/GO_0008236	serine-type peptidase activity
@@ -2680,7 +2680,6 @@ http://purl.obolibrary.org/obo/GO_1904357	negative regulation of telomere mainte
 http://purl.obolibrary.org/obo/GO_1903824	negative regulation of telomere single strand break repair	http://purl.obolibrary.org/obo/GO_1903823	telomere single strand break repair
 http://purl.obolibrary.org/obo/GO_1905839	negative regulation of telomeric D-loop disassembly	http://purl.obolibrary.org/obo/GO_0061820	telomeric D-loop disassembly
 http://purl.obolibrary.org/obo/GO_1904743	negative regulation of telomeric DNA binding	http://purl.obolibrary.org/obo/GO_0042162	telomeric DNA binding
-http://purl.obolibrary.org/obo/GO_1901581	negative regulation of telomeric RNA transcription from RNA pol II promoter	http://purl.obolibrary.org/obo/GO_0097394	telomeric repeat-containing RNA transcription by RNA polymerase II
 http://purl.obolibrary.org/obo/GO_1904534	negative regulation of telomeric loop disassembly	http://purl.obolibrary.org/obo/GO_0090657	telomeric loop disassembly
 http://purl.obolibrary.org/obo/GO_1904419	negative regulation of telomeric loop formation	http://purl.obolibrary.org/obo/GO_0031627	telomeric loop formation
 http://purl.obolibrary.org/obo/GO_2001050	negative regulation of tendon cell differentiation	http://purl.obolibrary.org/obo/GO_0035990	tendon cell differentiation

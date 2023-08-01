@@ -726,7 +726,6 @@ http://purl.obolibrary.org/obo/GO_0090249	regulation of cell migration involved 
 http://purl.obolibrary.org/obo/GO_0090049	regulation of cell migration involved in sprouting angiogenesis	http://purl.obolibrary.org/obo/GO_0002042	cell migration involved in sprouting angiogenesis
 http://purl.obolibrary.org/obo/GO_0022604	regulation of cell morphogenesis	http://purl.obolibrary.org/obo/GO_0000902	cell morphogenesis
 http://purl.obolibrary.org/obo/GO_1905708	regulation of cell morphogenesis involved in conjugation with cellular fusion	http://purl.obolibrary.org/obo/GO_0000753	cell morphogenesis involved in conjugation with cellular fusion
-http://purl.obolibrary.org/obo/GO_0010769	regulation of cell morphogenesis involved in differentiation	http://purl.obolibrary.org/obo/GO_0000904	cell morphogenesis involved in differentiation
 http://purl.obolibrary.org/obo/GO_2000145	regulation of cell motility	http://purl.obolibrary.org/obo/GO_0048870	cell motility
 http://purl.obolibrary.org/obo/GO_0042127	regulation of cell population proliferation	http://purl.obolibrary.org/obo/GO_0008283	cell population proliferation
 http://purl.obolibrary.org/obo/GO_0060491	regulation of cell projection assembly	http://purl.obolibrary.org/obo/GO_0030031	cell projection assembly
@@ -1542,6 +1541,7 @@ http://purl.obolibrary.org/obo/GO_0090083	regulation of inclusion body assembly	
 http://purl.obolibrary.org/obo/GO_1901996	regulation of indoleacetic acid biosynthetic process via tryptophan	http://purl.obolibrary.org/obo/GO_0009848	indoleacetic acid biosynthetic process via tryptophan
 http://purl.obolibrary.org/obo/GO_0060905	regulation of induction of conjugation upon nitrogen starvation	http://purl.obolibrary.org/obo/GO_0031142	induction of conjugation upon nitrogen starvation
 http://purl.obolibrary.org/obo/GO_0075184	regulation of infection cushion formation	http://purl.obolibrary.org/obo/GO_0075183	infection cushion formation
+http://purl.obolibrary.org/obo/GO_0141085	regulation of inflammasome-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0141084	inflammasome-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0050727	regulation of inflammatory response	http://purl.obolibrary.org/obo/GO_0006954	inflammatory response
 http://purl.obolibrary.org/obo/GO_0002861	regulation of inflammatory response to antigenic stimulus	http://purl.obolibrary.org/obo/GO_0002437	inflammatory response to antigenic stimulus
 http://purl.obolibrary.org/obo/GO_0106014	regulation of inflammatory response to wounding	http://purl.obolibrary.org/obo/GO_0090594	inflammatory response to wounding
@@ -2016,7 +2016,6 @@ http://purl.obolibrary.org/obo/GO_1903466	regulation of mitotic DNA replication 
 http://purl.obolibrary.org/obo/GO_1903499	regulation of mitotic actomyosin contractile ring assembly	http://purl.obolibrary.org/obo/GO_1903475	mitotic actomyosin contractile ring assembly
 http://purl.obolibrary.org/obo/GO_1903471	regulation of mitotic actomyosin contractile ring contraction	http://purl.obolibrary.org/obo/GO_1902404	mitotic actomyosin contractile ring contraction
 http://purl.obolibrary.org/obo/GO_0120150	regulation of mitotic actomyosin contractile ring disassembly	http://purl.obolibrary.org/obo/GO_1990274	mitotic actomyosin contractile ring disassembly
-http://purl.obolibrary.org/obo/GO_1904789	regulation of mitotic actomyosin contractile ring maintenance	http://purl.obolibrary.org/obo/GO_1902406	mitotic actomyosin contractile ring maintenance
 http://purl.obolibrary.org/obo/GO_0007346	regulation of mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000278	mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_1903463	regulation of mitotic cell cycle DNA replication	http://purl.obolibrary.org/obo/GO_1902969	mitotic DNA replication
 http://purl.obolibrary.org/obo/GO_1901990	regulation of mitotic cell cycle phase transition	http://purl.obolibrary.org/obo/GO_0044772	mitotic cell cycle phase transition
@@ -2070,7 +2069,6 @@ http://purl.obolibrary.org/obo/GO_0071675	regulation of mononuclear cell migrati
 http://purl.obolibrary.org/obo/GO_0032944	regulation of mononuclear cell proliferation	http://purl.obolibrary.org/obo/GO_0032943	mononuclear cell proliferation
 http://purl.obolibrary.org/obo/GO_0032768	regulation of monooxygenase activity	http://purl.obolibrary.org/obo/GO_0004497	monooxygenase activity
 http://purl.obolibrary.org/obo/GO_0051513	regulation of monopolar cell growth	http://purl.obolibrary.org/obo/GO_0042814	monopolar cell growth
-http://purl.obolibrary.org/obo/GO_1904967	regulation of monopolar spindle attachment to meiosis I kinetochore	http://purl.obolibrary.org/obo/GO_0051455	spindle attachment to meiosis I kinetochore
 http://purl.obolibrary.org/obo/GO_0060688	regulation of morphogenesis of a branching structure	http://purl.obolibrary.org/obo/GO_0001763	morphogenesis of a branching structure
 http://purl.obolibrary.org/obo/GO_1905330	regulation of morphogenesis of an epithelium	http://purl.obolibrary.org/obo/GO_0002009	morphogenesis of an epithelium
 http://purl.obolibrary.org/obo/GO_1905503	regulation of motile cilium assembly	http://purl.obolibrary.org/obo/GO_0044458	motile cilium assembly
@@ -2834,7 +2832,6 @@ http://purl.obolibrary.org/obo/GO_0031029	regulation of septation initiation sig
 http://purl.obolibrary.org/obo/GO_0010590	regulation of septum digestion after cytokinesis	http://purl.obolibrary.org/obo/GO_0000920	septum digestion after cytokinesis
 http://purl.obolibrary.org/obo/GO_0051282	regulation of sequestering of calcium ion	http://purl.obolibrary.org/obo/GO_0051208	sequestering of calcium ion
 http://purl.obolibrary.org/obo/GO_0010889	regulation of sequestering of triglyceride	http://purl.obolibrary.org/obo/GO_0030730	sequestering of triglyceride
-http://purl.obolibrary.org/obo/GO_0061088	regulation of sequestering of zinc ion	http://purl.obolibrary.org/obo/GO_0032119	sequestering of zinc ion
 http://purl.obolibrary.org/obo/GO_1904220	regulation of serine C-palmitoyltransferase activity	http://purl.obolibrary.org/obo/GO_0004758	serine C-palmitoyltransferase activity
 http://purl.obolibrary.org/obo/GO_1900003	regulation of serine-type endopeptidase activity	http://purl.obolibrary.org/obo/GO_0004252	serine-type endopeptidase activity
 http://purl.obolibrary.org/obo/GO_1902571	regulation of serine-type peptidase activity	http://purl.obolibrary.org/obo/GO_0008236	serine-type peptidase activity
@@ -2930,6 +2927,7 @@ http://purl.obolibrary.org/obo/GO_1902068	regulation of sphingolipid mediated si
 http://purl.obolibrary.org/obo/GO_2000754	regulation of sphingomyelin catabolic process	http://purl.obolibrary.org/obo/GO_0006685	sphingomyelin catabolic process
 http://purl.obolibrary.org/obo/GO_1902829	regulation of spinal cord association neuron differentiation	http://purl.obolibrary.org/obo/GO_0021527	spinal cord association neuron differentiation
 http://purl.obolibrary.org/obo/GO_0090169	regulation of spindle assembly	http://purl.obolibrary.org/obo/GO_0051225	spindle assembly
+http://purl.obolibrary.org/obo/GO_1904967	regulation of spindle attachment to meiosis I kinetochore	http://purl.obolibrary.org/obo/GO_0051455	spindle attachment to meiosis I kinetochore
 http://purl.obolibrary.org/obo/GO_0090231	regulation of spindle checkpoint	http://purl.obolibrary.org/obo/GO_0031577	spindle checkpoint signaling
 http://purl.obolibrary.org/obo/GO_0032887	regulation of spindle elongation	http://purl.obolibrary.org/obo/GO_0051231	spindle elongation
 http://purl.obolibrary.org/obo/GO_0090224	regulation of spindle organization	http://purl.obolibrary.org/obo/GO_0007051	spindle organization
@@ -3055,7 +3053,6 @@ http://purl.obolibrary.org/obo/GO_0032210	regulation of telomere maintenance via
 http://purl.obolibrary.org/obo/GO_1904356	regulation of telomere maintenance via telomere lengthening	http://purl.obolibrary.org/obo/GO_0010833	telomere maintenance via telomere lengthening
 http://purl.obolibrary.org/obo/GO_1905838	regulation of telomeric D-loop disassembly	http://purl.obolibrary.org/obo/GO_0061820	telomeric D-loop disassembly
 http://purl.obolibrary.org/obo/GO_1904742	regulation of telomeric DNA binding	http://purl.obolibrary.org/obo/GO_0042162	telomeric DNA binding
-http://purl.obolibrary.org/obo/GO_1901580	regulation of telomeric RNA transcription from RNA pol II promoter	http://purl.obolibrary.org/obo/GO_0097394	telomeric repeat-containing RNA transcription by RNA polymerase II
 http://purl.obolibrary.org/obo/GO_1904533	regulation of telomeric loop disassembly	http://purl.obolibrary.org/obo/GO_0090657	telomeric loop disassembly
 http://purl.obolibrary.org/obo/GO_1904418	regulation of telomeric loop formation	http://purl.obolibrary.org/obo/GO_0031627	telomeric loop formation
 http://purl.obolibrary.org/obo/GO_2001049	regulation of tendon cell differentiation	http://purl.obolibrary.org/obo/GO_0035990	tendon cell differentiation
