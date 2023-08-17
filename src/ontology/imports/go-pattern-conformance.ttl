@@ -37072,9 +37072,6 @@
 <http://purl.obolibrary.org/obo/GO_0160086> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_localization_to.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0180019> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_1900000> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
