@@ -1,7 +1,6 @@
 defined_class	defined_class_label	component1	component1_label	component2	component2_label
 http://purl.obolibrary.org/obo/GO_0000835	ER ubiquitin ligase complex	http://purl.obolibrary.org/obo/GO_0000151	ubiquitin ligase complex	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
 http://purl.obolibrary.org/obo/GO_0098791	Golgi apparatus subcompartment	http://purl.obolibrary.org/obo/GO_0031984	organelle subcompartment	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus
-http://purl.obolibrary.org/obo/GO_0180019	Knl1/Spc105 complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0000940	outer kinetochore
 http://purl.obolibrary.org/obo/GO_0005665	RNA polymerase II, core complex	http://purl.obolibrary.org/obo/GO_0000428	DNA-directed RNA polymerase complex	http://purl.obolibrary.org/obo/GO_0016591	RNA polymerase II, holoenzyme
 http://purl.obolibrary.org/obo/GO_0000445	THO complex part of transcription export complex	http://purl.obolibrary.org/obo/GO_0000347	THO complex	http://purl.obolibrary.org/obo/GO_0000346	transcription export complex
 http://purl.obolibrary.org/obo/GO_0005870	actin capping protein of dynactin complex	http://purl.obolibrary.org/obo/GO_0008290	F-actin capping protein complex	http://purl.obolibrary.org/obo/GO_0005869	dynactin complex
