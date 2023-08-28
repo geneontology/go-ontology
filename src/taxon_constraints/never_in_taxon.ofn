@@ -341,7 +341,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140672>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140737>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140858>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1900027>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_1900095>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1900136>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1900160>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_1900865>))
@@ -3502,13 +3501,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_1900027> ObjectSomeValuesFrom(<htt
 DisjointClasses(<http://purl.obolibrary.org/obo/GO_1900027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_2>))
 DisjointClasses(<http://purl.obolibrary.org/obo/GO_1900027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>))
 DisjointClasses(<http://purl.obolibrary.org/obo/GO_1900027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4751>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_1900095> (<http://purl.obolibrary.org/obo/GO_1900095>)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obolibrary.org/obo/GO_1900095> <http://purl.obolibrary.org/obo/NCBITaxon_8782>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_1900095> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8782>)))
-SubClassOf(<http://purl.obolibrary.org/obo/GO_1900095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> ObjectComplementOf(<http://purl.obolibrary.org/obo/NCBITaxon_8782>)))
-DisjointClasses(<http://purl.obolibrary.org/obo/GO_1900095> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8782>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_1900136> (<http://purl.obolibrary.org/obo/GO_1900136>)
 
