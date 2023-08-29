@@ -58241,6 +58241,13 @@ intersection_of: only_in_taxon NCBITaxon:50557
 intersection_of: part_of UBERON:0008816 ! embryonic head
 
 [Term]
+id: UBERON:60005380
+name: insect pharynx
+def: "Section of the insect foregut anterior to the esophagus." []
+is_a: UBERON:0006562 ! pharynx
+relationship: part_of UBERON:0003929 ! digestive tract epithelium
+
+[Term]
 id: UBERON:6001059
 name: insect visual primordium
 synonym: "optic lobe placode" RELATED []
