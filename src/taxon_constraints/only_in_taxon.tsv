@@ -879,4 +879,4 @@ GO:0005326	neurotransmitter transmembrane transporter activity	NCBITaxon:6072	Eu
 GO:0001775	cell activation	NCBITaxon:33208	Metazoa	
 GO:0141063	epigenetic programming in the central cell	NCBITaxon:33090	Viridiplantae	
 GO:0160092	hemozoin formation complex	NCBITaxon:5820	Plasmodium	
-GO:0060818	inactivation of paternal X chromosome by genomic imprinting	NCBITaxon:32525	Theria	
+GO:0009048	dosage compensation by inactivation of X chromosome	NCBITaxon:32525	Theria	
