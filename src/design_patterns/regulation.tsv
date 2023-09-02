@@ -1062,7 +1062,6 @@ http://purl.obolibrary.org/obo/GO_0014059	regulation of dopamine secretion	http:
 http://purl.obolibrary.org/obo/GO_0051584	regulation of dopamine uptake involved in synaptic transmission	http://purl.obolibrary.org/obo/GO_0051583	dopamine uptake involved in synaptic transmission
 http://purl.obolibrary.org/obo/GO_1904338	regulation of dopaminergic neuron differentiation	http://purl.obolibrary.org/obo/GO_0071542	dopaminergic neuron differentiation
 http://purl.obolibrary.org/obo/GO_1905815	regulation of dorsal/ventral axon guidance	http://purl.obolibrary.org/obo/GO_0033563	dorsal/ventral axon guidance
-http://purl.obolibrary.org/obo/GO_1900095	regulation of dosage compensation by inactivation of X chromosome	http://purl.obolibrary.org/obo/GO_0009048	dosage compensation by inactivation of X chromosome
 http://purl.obolibrary.org/obo/GO_2000779	regulation of double-strand break repair	http://purl.obolibrary.org/obo/GO_0006302	double-strand break repair
 http://purl.obolibrary.org/obo/GO_1901591	regulation of double-strand break repair via break-induced replication	http://purl.obolibrary.org/obo/GO_0000727	double-strand break repair via break-induced replication
 http://purl.obolibrary.org/obo/GO_0010569	regulation of double-strand break repair via homologous recombination	http://purl.obolibrary.org/obo/GO_0000724	double-strand break repair via homologous recombination
@@ -2135,6 +2134,8 @@ http://purl.obolibrary.org/obo/GO_0060544	regulation of necroptotic process	http
 http://purl.obolibrary.org/obo/GO_0050923	regulation of negative chemotaxis	http://purl.obolibrary.org/obo/GO_0050919	negative chemotaxis
 http://purl.obolibrary.org/obo/GO_0061062	regulation of nematode larval development	http://purl.obolibrary.org/obo/GO_0002119	nematode larval development
 http://purl.obolibrary.org/obo/GO_0110037	regulation of nematode male tail tip morphogenesis	http://purl.obolibrary.org/obo/GO_0045138	nematode male tail tip morphogenesis
+http://purl.obolibrary.org/obo/GO_0043051	regulation of nematode pharyngeal pumping	http://purl.obolibrary.org/obo/GO_0043050	nematode pharyngeal pumping
+http://purl.obolibrary.org/obo/GO_0110041	regulation of nematode pharynx morphogenesis	http://purl.obolibrary.org/obo/GO_0110040	nematode pharynx morphogenesis
 http://purl.obolibrary.org/obo/GO_1902053	regulation of neosartoricin biosynthetic process	http://purl.obolibrary.org/obo/GO_1902050	neosartoricin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0072182	regulation of nephron tubule epithelial cell differentiation	http://purl.obolibrary.org/obo/GO_0072160	nephron tubule epithelial cell differentiation
 http://purl.obolibrary.org/obo/GO_0032903	regulation of nerve growth factor production	http://purl.obolibrary.org/obo/GO_0032902	nerve growth factor production
@@ -2199,8 +2200,6 @@ http://purl.obolibrary.org/obo/GO_0006808	regulation of nitrogen utilization	htt
 http://purl.obolibrary.org/obo/GO_1905258	regulation of nitrosative stress-induced intrinsic apoptotic signaling pathway	http://purl.obolibrary.org/obo/GO_1990442	intrinsic apoptotic signaling pathway in response to nitrosative stress
 http://purl.obolibrary.org/obo/GO_1900123	regulation of nodal receptor complex assembly	http://purl.obolibrary.org/obo/GO_0038099	nodal receptor complex assembly
 http://purl.obolibrary.org/obo/GO_1900107	regulation of nodal signaling pathway	http://purl.obolibrary.org/obo/GO_0038092	nodal signaling pathway
-http://purl.obolibrary.org/obo/GO_1900175	regulation of nodal signaling pathway involved in determination of lateral mesoderm left/right asymmetry	http://purl.obolibrary.org/obo/GO_1900164	nodal signaling pathway involved in determination of lateral mesoderm left/right asymmetry
-http://purl.obolibrary.org/obo/GO_1900145	regulation of nodal signaling pathway involved in determination of left/right asymmetry	http://purl.obolibrary.org/obo/GO_0038107	nodal signaling pathway involved in determination of left/right asymmetry
 http://purl.obolibrary.org/obo/GO_1901222	regulation of non-canonical NF-kappaB signal transduction	http://purl.obolibrary.org/obo/GO_0038061	non-canonical NF-kappaB signal transduction
 http://purl.obolibrary.org/obo/GO_2000050	regulation of non-canonical Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0035567	non-canonical Wnt signaling pathway
 http://purl.obolibrary.org/obo/GO_1901229	regulation of non-canonical Wnt signaling pathway via JNK cascade	http://purl.obolibrary.org/obo/GO_0038031	non-canonical Wnt signaling pathway via JNK cascade
@@ -2342,8 +2341,6 @@ http://purl.obolibrary.org/obo/GO_0035358	regulation of peroxisome proliferator 
 http://purl.obolibrary.org/obo/GO_0050764	regulation of phagocytosis	http://purl.obolibrary.org/obo/GO_0006909	phagocytosis
 http://purl.obolibrary.org/obo/GO_0060099	regulation of phagocytosis, engulfment	http://purl.obolibrary.org/obo/GO_0006911	phagocytosis, engulfment
 http://purl.obolibrary.org/obo/GO_1905162	regulation of phagosome maturation	http://purl.obolibrary.org/obo/GO_0090382	phagosome maturation
-http://purl.obolibrary.org/obo/GO_0043051	regulation of pharyngeal pumping	http://purl.obolibrary.org/obo/GO_0043050	pharyngeal pumping
-http://purl.obolibrary.org/obo/GO_0110041	regulation of pharynx morphogenesis	http://purl.obolibrary.org/obo/GO_0110040	pharynx morphogenesis
 http://purl.obolibrary.org/obo/GO_1900980	regulation of phenazine biosynthetic process	http://purl.obolibrary.org/obo/GO_0002047	phenazine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900239	regulation of phenotypic switching	http://purl.obolibrary.org/obo/GO_0036166	phenotypic switching
 http://purl.obolibrary.org/obo/GO_2000762	regulation of phenylpropanoid metabolic process	http://purl.obolibrary.org/obo/GO_0009698	phenylpropanoid metabolic process
