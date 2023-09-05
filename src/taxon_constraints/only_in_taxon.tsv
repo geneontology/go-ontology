@@ -880,3 +880,4 @@ GO:0001775	cell activation	NCBITaxon:33208	Metazoa
 GO:0141063	epigenetic programming in the central cell	NCBITaxon:33090	Viridiplantae	
 GO:0160092	hemozoin formation complex	NCBITaxon:5820	Plasmodium	
 GO:0009048	dosage compensation by inactivation of X chromosome	NCBITaxon:32524	Amniota	PMID:19802707
+GO:0080188	gene silencing by RNA-directed DNA methylation	NCBITaxon:33090	Viridiplantae	PMID:33031395
