@@ -156,7 +156,6 @@ http://purl.obolibrary.org/obo/GO_1904599	advanced glycation end-product binding
 http://purl.obolibrary.org/obo/GO_0043178	alcohol binding	http://purl.obolibrary.org/obo/CHEBI_30879	alcohol
 http://purl.obolibrary.org/obo/GO_0031420	alkali metal ion binding	http://purl.obolibrary.org/obo/CHEBI_33504	alkali metal cation
 http://purl.obolibrary.org/obo/GO_0043210	alkanesulfonate binding	http://purl.obolibrary.org/obo/CHEBI_134249	alkanesulfonate oxoanion
-http://purl.obolibrary.org/obo/GO_0072328	alkene binding	http://purl.obolibrary.org/obo/CHEBI_32878	alkene
 http://purl.obolibrary.org/obo/GO_0032131	alkylated DNA binding	http://purl.obolibrary.org/obo/CHEBI_2588	Alkylated DNA
 http://purl.obolibrary.org/obo/GO_0005503	all-trans retinal binding	http://purl.obolibrary.org/obo/CHEBI_17898	all-trans-retinal
 http://purl.obolibrary.org/obo/GO_1904768	all-trans-retinol binding	http://purl.obolibrary.org/obo/CHEBI_17336	all-trans-retinol
@@ -395,7 +394,6 @@ http://purl.obolibrary.org/obo/GO_0043395	heparan sulfate proteoglycan binding	h
 http://purl.obolibrary.org/obo/GO_0008201	heparin binding	http://purl.obolibrary.org/obo/CHEBI_24505	heparins
 http://purl.obolibrary.org/obo/GO_0036458	hepatocyte growth factor binding	http://purl.obolibrary.org/obo/PR_000008534	hepatocyte growth factor
 http://purl.obolibrary.org/obo/GO_0005171	hepatocyte growth factor receptor binding	http://purl.obolibrary.org/obo/PR_000010335	hepatocyte growth factor receptor
-http://purl.obolibrary.org/obo/GO_1901363	heterocyclic compound binding	http://purl.obolibrary.org/obo/CHEBI_5686	heterocyclic compound
 http://purl.obolibrary.org/obo/GO_0010297	heteropolysaccharide binding	http://purl.obolibrary.org/obo/CHEBI_16966	heteroglycan
 http://purl.obolibrary.org/obo/GO_0070379	high mobility group box 1 binding	http://purl.obolibrary.org/obo/PR_000008630	high mobility group protein B1
 http://purl.obolibrary.org/obo/GO_0030985	high molecular weight kininogen binding	http://purl.obolibrary.org/obo/PR_000024067	homoserine kinase
@@ -611,7 +609,6 @@ http://purl.obolibrary.org/obo/GO_1904854	proteasome core complex binding	http:/
 http://purl.obolibrary.org/obo/GO_1904855	proteasome regulatory particle binding	http://purl.obolibrary.org/obo/GO_0005838	proteasome regulatory particle
 http://purl.obolibrary.org/obo/GO_0005515	protein binding	http://purl.obolibrary.org/obo/PR_000000001	protein
 http://purl.obolibrary.org/obo/GO_0043422	protein kinase B binding	http://purl.obolibrary.org/obo/PR_000002190	RAC-alpha serine/threonine-protein kinase
-http://purl.obolibrary.org/obo/GO_0044877	protein-containing complex binding	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex
 http://purl.obolibrary.org/obo/GO_0071814	protein-lipid complex binding	http://purl.obolibrary.org/obo/GO_0032994	protein-lipid complex
 http://purl.obolibrary.org/obo/GO_0043394	proteoglycan binding	http://purl.obolibrary.org/obo/CHEBI_37396	proteoglycan
 http://purl.obolibrary.org/obo/GO_1901691	proton binding	http://purl.obolibrary.org/obo/CHEBI_24636	proton
@@ -637,7 +634,6 @@ http://purl.obolibrary.org/obo/GO_0019103	pyrimidine nucleotide binding	http://p
 http://purl.obolibrary.org/obo/GO_0032551	pyrimidine ribonucleoside binding	http://purl.obolibrary.org/obo/CHEBI_39446	pyrimidine ribonucleosides
 http://purl.obolibrary.org/obo/GO_0032557	pyrimidine ribonucleotide binding	http://purl.obolibrary.org/obo/CHEBI_26446	pyrimidine ribonucleotide
 http://purl.obolibrary.org/obo/GO_0070968	pyrroloquinoline quinone binding	http://purl.obolibrary.org/obo/CHEBI_58442	pyrroloquinoline quinone(3-)
-http://purl.obolibrary.org/obo/GO_0050997	quaternary ammonium group binding	http://purl.obolibrary.org/obo/CHEBI_26469	quaternary nitrogen compound
 http://purl.obolibrary.org/obo/GO_2001227	quercitrin binding	http://purl.obolibrary.org/obo/CHEBI_58192	quercitrin-7-olate
 http://purl.obolibrary.org/obo/GO_0048038	quinone binding	http://purl.obolibrary.org/obo/CHEBI_36141	quinone
 http://purl.obolibrary.org/obo/GO_0019843	rRNA binding	http://purl.obolibrary.org/obo/CHEBI_18111	ribosomal RNA
