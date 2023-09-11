@@ -576,4 +576,5 @@ GO:0048863	stem cell differentiation	NCBITaxon:4751	Fungi
 GO:0003365	establishment of cell polarity involved in ameboidal cell migration	NCBITaxon:4751	Fungi	
 GO:0090398	cellular senescence	NCBITaxon:4751	Fungi	
 GO:0000365	mRNA trans splicing, via spliceosome	NCBITaxon:4751	Fungi	
-GO:0016477	cell migration	NCBITaxon:4890	Ascomycota	
+GGO:0016477	cell migration	NCBITaxon:4890	Ascomycota	
+GO:0106339	tRNA (cytidine 32-2'-O)-methyltransferase activity	NCBITaxon:2157	Archaea	PMID:18068186
