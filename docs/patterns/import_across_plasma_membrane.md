@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[transport](http://purl.obolibrary.org/obo/GO_0006810)  and ([has target start location](http://purl.obolibrary.org/obo/RO_0002338) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576))  and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [cytosol](http://purl.obolibrary.org/obo/GO_0005829))  and ([imports](http://purl.obolibrary.org/obo/RO_0002340) some `{imported}`)  and ([results in transport across](http://purl.obolibrary.org/obo/RO_0002342) some [plasma membrane](http://purl.obolibrary.org/obo/GO_0005886))
+[transport](http://purl.obolibrary.org/obo/GO_0006810)  and ([has target start location](http://purl.obolibrary.org/obo/RO_0002338) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576))  and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [cytosol](http://purl.obolibrary.org/obo/GO_0005829))  and ([results in transport across](http://purl.obolibrary.org/obo/RO_0002342) some [plasma membrane](http://purl.obolibrary.org/obo/GO_0005886))  and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some `{imported}`)
 
 
 

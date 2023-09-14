@@ -1,0 +1,161 @@
+defined_class	defined_class_label	component	component_label
+http://purl.obolibrary.org/obo/GO_0030576	Cajal body organization	http://purl.obolibrary.org/obo/GO_0015030	Cajal body
+http://purl.obolibrary.org/obo/GO_0080119	ER body organization	http://purl.obolibrary.org/obo/GO_0010168	ER body
+http://purl.obolibrary.org/obo/GO_0007030	Golgi organization	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus
+http://purl.obolibrary.org/obo/GO_0030577	Lands organization	http://purl.obolibrary.org/obo/GO_0016606	LYSP100-associated nuclear domain
+http://purl.obolibrary.org/obo/GO_0030719	P granule organization	http://purl.obolibrary.org/obo/GO_0043186	P granule
+http://purl.obolibrary.org/obo/GO_0030578	PML body organization	http://purl.obolibrary.org/obo/GO_0016605	PML body
+http://purl.obolibrary.org/obo/GO_0045232	S-layer organization	http://purl.obolibrary.org/obo/GO_0030115	S-layer
+http://purl.obolibrary.org/obo/GO_0033292	T-tubule organization	http://purl.obolibrary.org/obo/GO_0030315	T-tubule
+http://purl.obolibrary.org/obo/GO_0044396	actin cortical patch organization	http://purl.obolibrary.org/obo/GO_0030479	actin cortical patch
+http://purl.obolibrary.org/obo/GO_0030036	actin cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0015629	actin cytoskeleton
+http://purl.obolibrary.org/obo/GO_0061572	actin filament bundle organization	http://purl.obolibrary.org/obo/GO_0032432	actin filament bundle
+http://purl.obolibrary.org/obo/GO_0007015	actin filament organization	http://purl.obolibrary.org/obo/GO_0005884	actin filament
+http://purl.obolibrary.org/obo/GO_0044837	actomyosin contractile ring organization	http://purl.obolibrary.org/obo/GO_0005826	actomyosin contractile ring
+http://purl.obolibrary.org/obo/GO_0031032	actomyosin structure organization	http://purl.obolibrary.org/obo/GO_0042641	actomyosin
+http://purl.obolibrary.org/obo/GO_0009660	amyloplast organization	http://purl.obolibrary.org/obo/GO_0009501	amyloplast
+http://purl.obolibrary.org/obo/GO_0030953	astral microtubule organization	http://purl.obolibrary.org/obo/GO_0000235	astral microtubule
+http://purl.obolibrary.org/obo/GO_1905037	autophagosome organization	http://purl.obolibrary.org/obo/GO_0005776	autophagosome
+http://purl.obolibrary.org/obo/GO_0044781	bacterial-type flagellum organization	http://purl.obolibrary.org/obo/GO_0009288	bacterial-type flagellum
+http://purl.obolibrary.org/obo/GO_0071711	basement membrane organization	http://purl.obolibrary.org/obo/GO_0005604	basement membrane
+http://purl.obolibrary.org/obo/GO_0098784	biofilm matrix organization	http://purl.obolibrary.org/obo/GO_0062039	biofilm matrix
+http://purl.obolibrary.org/obo/GO_0072564	blood microparticle formation	http://purl.obolibrary.org/obo/GO_0072562	blood microparticle
+http://purl.obolibrary.org/obo/GO_0045230	capsule organization	http://purl.obolibrary.org/obo/GO_0042603	capsule
+http://purl.obolibrary.org/obo/GO_0043163	cell envelope organization	http://purl.obolibrary.org/obo/GO_0030313	cell envelope
+http://purl.obolibrary.org/obo/GO_0034330	cell junction organization	http://purl.obolibrary.org/obo/GO_0030054	cell junction
+http://purl.obolibrary.org/obo/GO_0030030	cell projection organization	http://purl.obolibrary.org/obo/GO_0042995	cell projection
+http://purl.obolibrary.org/obo/GO_0071555	cell wall organization	http://purl.obolibrary.org/obo/GO_0005618	cell wall
+http://purl.obolibrary.org/obo/GO_0032186	cellular bud neck septin ring organization	http://purl.obolibrary.org/obo/GO_0000144	cellular bud neck septin ring
+http://purl.obolibrary.org/obo/GO_0010215	cellulose microfibril organization	http://purl.obolibrary.org/obo/GO_0009549	cellulose microfibril
+http://purl.obolibrary.org/obo/GO_0007098	centrosome cycle	http://purl.obolibrary.org/obo/GO_0005813	centrosome
+http://purl.obolibrary.org/obo/GO_0009658	chloroplast organization	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0009661	chromoplast organization	http://purl.obolibrary.org/obo/GO_0009509	chromoplast
+http://purl.obolibrary.org/obo/GO_0051276	chromosome organization	http://purl.obolibrary.org/obo/GO_0005694	chromosome
+http://purl.obolibrary.org/obo/GO_0032053	ciliary basal body organization	http://purl.obolibrary.org/obo/GO_0036064	ciliary basal body
+http://purl.obolibrary.org/obo/GO_0044782	cilium organization	http://purl.obolibrary.org/obo/GO_0005929	cilium
+http://purl.obolibrary.org/obo/GO_0030199	collagen fibril organization	http://purl.obolibrary.org/obo/GO_0098643	banded collagen fibril
+http://purl.obolibrary.org/obo/GO_0033298	contractile vacuole organization	http://purl.obolibrary.org/obo/GO_0000331	contractile vacuole
+http://purl.obolibrary.org/obo/GO_0030866	cortical actin cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0030864	cortical actin cytoskeleton
+http://purl.obolibrary.org/obo/GO_0030865	cortical cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0030863	cortical cytoskeleton
+http://purl.obolibrary.org/obo/GO_0043622	cortical microtubule organization	http://purl.obolibrary.org/obo/GO_0055028	cortical microtubule
+http://purl.obolibrary.org/obo/GO_0140904	cytoophidium organization	http://purl.obolibrary.org/obo/GO_0097268	cytoophidium
+http://purl.obolibrary.org/obo/GO_0007028	cytoplasm organization	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
+http://purl.obolibrary.org/obo/GO_0031122	cytoplasmic microtubule organization	http://purl.obolibrary.org/obo/GO_0005881	cytoplasmic microtubule
+http://purl.obolibrary.org/obo/GO_0007010	cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0005856	cytoskeleton
+http://purl.obolibrary.org/obo/GO_0097061	dendritic spine organization	http://purl.obolibrary.org/obo/GO_0043197	dendritic spine
+http://purl.obolibrary.org/obo/GO_0061109	dense core granule organization	http://purl.obolibrary.org/obo/GO_0031045	dense core granule
+http://purl.obolibrary.org/obo/GO_0002934	desmosome organization	http://purl.obolibrary.org/obo/GO_0030057	desmosome
+http://purl.obolibrary.org/obo/GO_0043579	elaioplast organization	http://purl.obolibrary.org/obo/GO_0009545	elaioplast
+http://purl.obolibrary.org/obo/GO_0010256	endomembrane system organization	http://purl.obolibrary.org/obo/GO_0012505	endomembrane system
+http://purl.obolibrary.org/obo/GO_0071783	endoplasmic reticulum cisternal network organization	http://purl.obolibrary.org/obo/GO_0071781	endoplasmic reticulum cisternal network
+http://purl.obolibrary.org/obo/GO_0090158	endoplasmic reticulum membrane organization	http://purl.obolibrary.org/obo/GO_0005789	endoplasmic reticulum membrane
+http://purl.obolibrary.org/obo/GO_0007029	endoplasmic reticulum organization	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_1990809	endoplasmic reticulum tubular network membrane organization	http://purl.obolibrary.org/obo/GO_0098826	endoplasmic reticulum tubular network membrane
+http://purl.obolibrary.org/obo/GO_0071786	endoplasmic reticulum tubular network organization	http://purl.obolibrary.org/obo/GO_0071782	endoplasmic reticulum tubular network
+http://purl.obolibrary.org/obo/GO_0097111	endoplasmic reticulum-Golgi intermediate compartment organization	http://purl.obolibrary.org/obo/GO_0005793	endoplasmic reticulum-Golgi intermediate compartment
+http://purl.obolibrary.org/obo/GO_0007032	endosome organization	http://purl.obolibrary.org/obo/GO_0005768	endosome
+http://purl.obolibrary.org/obo/GO_0072565	endothelial microparticle formation	http://purl.obolibrary.org/obo/GO_0072563	endothelial microparticle
+http://purl.obolibrary.org/obo/GO_0009662	etioplast organization	http://purl.obolibrary.org/obo/GO_0009513	etioplast
+http://purl.obolibrary.org/obo/GO_0045229	external encapsulating structure organization	http://purl.obolibrary.org/obo/GO_0030312	external encapsulating structure
+http://purl.obolibrary.org/obo/GO_0030198	extracellular matrix organization	http://purl.obolibrary.org/obo/GO_0031012	extracellular matrix
+http://purl.obolibrary.org/obo/GO_0043062	extracellular structure organization	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
+http://purl.obolibrary.org/obo/GO_0110140	flagellum attachment zone organization	http://purl.obolibrary.org/obo/GO_0120119	flagellum attachment zone
+http://purl.obolibrary.org/obo/GO_0110009	formin-nucleated actin cable organization	http://purl.obolibrary.org/obo/GO_0070648	formin-nucleated actin cable
+http://purl.obolibrary.org/obo/GO_0031505	fungal-type cell wall organization	http://purl.obolibrary.org/obo/GO_0009277	fungal-type cell wall
+http://purl.obolibrary.org/obo/GO_0045478	fusome organization	http://purl.obolibrary.org/obo/GO_0045169	fusome
+http://purl.obolibrary.org/obo/GO_0010111	glyoxysome organization	http://purl.obolibrary.org/obo/GO_0009514	glyoxysome
+http://purl.obolibrary.org/obo/GO_0032118	horsetail-astral microtubule organization	http://purl.obolibrary.org/obo/GO_0032117	horsetail-astral microtubule array
+http://purl.obolibrary.org/obo/GO_0007007	inner mitochondrial membrane organization	http://purl.obolibrary.org/obo/GO_0005743	mitochondrial inner membrane
+http://purl.obolibrary.org/obo/GO_0043063	intercellular bridge organization	http://purl.obolibrary.org/obo/GO_0045171	intercellular bridge
+http://purl.obolibrary.org/obo/GO_0045104	intermediate filament cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0045111	intermediate filament cytoskeleton
+http://purl.obolibrary.org/obo/GO_0045109	intermediate filament organization	http://purl.obolibrary.org/obo/GO_0005882	intermediate filament
+http://purl.obolibrary.org/obo/GO_0051383	kinetochore organization	http://purl.obolibrary.org/obo/GO_0000776	kinetochore
+http://purl.obolibrary.org/obo/GO_0097581	lamellipodium organization	http://purl.obolibrary.org/obo/GO_0030027	lamellipodium
+http://purl.obolibrary.org/obo/GO_0009659	leucoplast organization	http://purl.obolibrary.org/obo/GO_0009516	leucoplast
+http://purl.obolibrary.org/obo/GO_0034389	lipid droplet organization	http://purl.obolibrary.org/obo/GO_0005811	lipid droplet
+http://purl.obolibrary.org/obo/GO_0097212	lysosomal membrane organization	http://purl.obolibrary.org/obo/GO_0005765	lysosomal membrane
+http://purl.obolibrary.org/obo/GO_0007040	lysosome organization	http://purl.obolibrary.org/obo/GO_0005764	lysosome
+http://purl.obolibrary.org/obo/GO_0080171	lytic vacuole organization	http://purl.obolibrary.org/obo/GO_0000323	lytic vacuole
+http://purl.obolibrary.org/obo/GO_0032124	macronucleus organization	http://purl.obolibrary.org/obo/GO_0031039	macronucleus
+http://purl.obolibrary.org/obo/GO_1990395	meiotic spindle pole body organization	http://purl.obolibrary.org/obo/GO_0035974	meiotic spindle pole body
+http://purl.obolibrary.org/obo/GO_0032438	melanosome organization	http://purl.obolibrary.org/obo/GO_0042470	melanosome
+http://purl.obolibrary.org/obo/GO_0061024	membrane organization	http://purl.obolibrary.org/obo/GO_0016020	membrane
+http://purl.obolibrary.org/obo/GO_0031579	membrane raft organization	http://purl.obolibrary.org/obo/GO_0045121	membrane raft
+http://purl.obolibrary.org/obo/GO_0032125	micronucleus organization	http://purl.obolibrary.org/obo/GO_0031040	micronucleus
+http://purl.obolibrary.org/obo/GO_0000226	microtubule cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0015630	microtubule cytoskeleton
+http://purl.obolibrary.org/obo/GO_0034994	microtubule organizing center attachment site organization	http://purl.obolibrary.org/obo/GO_0034992	microtubule organizing center attachment site
+http://purl.obolibrary.org/obo/GO_0031023	microtubule organizing center organization	http://purl.obolibrary.org/obo/GO_0005815	microtubule organizing center
+http://purl.obolibrary.org/obo/GO_0032528	microvillus organization	http://purl.obolibrary.org/obo/GO_0005902	microvillus
+http://purl.obolibrary.org/obo/GO_0007005	mitochondrion organization	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0036257	multivesicular body organization	http://purl.obolibrary.org/obo/GO_0005771	multivesicular body
+http://purl.obolibrary.org/obo/GO_0031038	myosin II filament organization	http://purl.obolibrary.org/obo/GO_0097513	myosin II filament
+http://purl.obolibrary.org/obo/GO_0031033	myosin filament organization	http://purl.obolibrary.org/obo/GO_0032982	myosin filament
+http://purl.obolibrary.org/obo/GO_0060052	neurofilament cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0060053	neurofilament cytoskeleton
+http://purl.obolibrary.org/obo/GO_0007528	neuromuscular junction development	http://purl.obolibrary.org/obo/GO_0031594	neuromuscular junction
+http://purl.obolibrary.org/obo/GO_0098529	neuromuscular junction development, skeletal muscle fiber	http://purl.obolibrary.org/obo/GO_0098522	neuromuscular junction of skeletal muscle fiber
+http://purl.obolibrary.org/obo/GO_0106027	neuron projection organization	http://purl.obolibrary.org/obo/GO_0043005	neuron projection
+http://purl.obolibrary.org/obo/GO_0099014	neuronal dense core vesicle organization	http://purl.obolibrary.org/obo/GO_0098992	neuronal dense core vesicle
+http://purl.obolibrary.org/obo/GO_0035316	non-sensory hair organization	http://purl.obolibrary.org/obo/GO_0070451	cell hair
+http://purl.obolibrary.org/obo/GO_0030575	nuclear body organization	http://purl.obolibrary.org/obo/GO_0016604	nuclear body
+http://purl.obolibrary.org/obo/GO_0006998	nuclear envelope organization	http://purl.obolibrary.org/obo/GO_0005635	nuclear envelope
+http://purl.obolibrary.org/obo/GO_0071765	nuclear inner membrane organization	http://purl.obolibrary.org/obo/GO_0005637	nuclear inner membrane
+http://purl.obolibrary.org/obo/GO_0043578	nuclear matrix organization	http://purl.obolibrary.org/obo/GO_0016363	nuclear matrix
+http://purl.obolibrary.org/obo/GO_0071763	nuclear membrane organization	http://purl.obolibrary.org/obo/GO_0031965	nuclear membrane
+http://purl.obolibrary.org/obo/GO_0071764	nuclear outer membrane organization	http://purl.obolibrary.org/obo/GO_0005640	nuclear outer membrane
+http://purl.obolibrary.org/obo/GO_0035063	nuclear speck organization	http://purl.obolibrary.org/obo/GO_0016607	nuclear speck
+http://purl.obolibrary.org/obo/GO_0090143	nucleoid organization	http://purl.obolibrary.org/obo/GO_0009295	nucleoid
+http://purl.obolibrary.org/obo/GO_1990700	nucleolar chromatin organization	http://purl.obolibrary.org/obo/GO_0030874	nucleolar chromatin
+http://purl.obolibrary.org/obo/GO_0007000	nucleolus organization	http://purl.obolibrary.org/obo/GO_0005730	nucleolus
+http://purl.obolibrary.org/obo/GO_0006997	nucleus organization	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0032122	oral apparatus organization	http://purl.obolibrary.org/obo/GO_0031912	oral apparatus
+http://purl.obolibrary.org/obo/GO_0006996	organelle organization	http://purl.obolibrary.org/obo/GO_0043226	organelle
+http://purl.obolibrary.org/obo/GO_0007008	outer mitochondrial membrane organization	http://purl.obolibrary.org/obo/GO_0005741	mitochondrial outer membrane
+http://purl.obolibrary.org/obo/GO_0031504	peptidoglycan-based cell wall organization	http://purl.obolibrary.org/obo/GO_0009274	peptidoglycan-based cell wall
+http://purl.obolibrary.org/obo/GO_0043580	periplasmic space organization	http://purl.obolibrary.org/obo/GO_0042597	periplasmic space
+http://purl.obolibrary.org/obo/GO_0007031	peroxisome organization	http://purl.obolibrary.org/obo/GO_0005777	peroxisome
+http://purl.obolibrary.org/obo/GO_0035845	photoreceptor cell outer segment organization	http://purl.obolibrary.org/obo/GO_0001750	photoreceptor outer segment
+http://purl.obolibrary.org/obo/GO_0048753	pigment granule organization	http://purl.obolibrary.org/obo/GO_0048770	pigment granule
+http://purl.obolibrary.org/obo/GO_0043711	pilus organization	http://purl.obolibrary.org/obo/GO_0009289	pilus
+http://purl.obolibrary.org/obo/GO_0009664	plant-type cell wall organization	http://purl.obolibrary.org/obo/GO_0009505	plant-type cell wall
+http://purl.obolibrary.org/obo/GO_0120036	plasma membrane bounded cell projection organization	http://purl.obolibrary.org/obo/GO_0120025	plasma membrane bounded cell projection
+http://purl.obolibrary.org/obo/GO_0007009	plasma membrane organization	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0044857	plasma membrane raft organization	http://purl.obolibrary.org/obo/GO_0044853	plasma membrane raft
+http://purl.obolibrary.org/obo/GO_0009663	plasmodesma organization	http://purl.obolibrary.org/obo/GO_0009506	plasmodesma
+http://purl.obolibrary.org/obo/GO_0009667	plastid inner membrane organization	http://purl.obolibrary.org/obo/GO_0009528	plastid inner membrane
+http://purl.obolibrary.org/obo/GO_0009668	plastid membrane organization	http://purl.obolibrary.org/obo/GO_0042170	plastid membrane
+http://purl.obolibrary.org/obo/GO_0009657	plastid organization	http://purl.obolibrary.org/obo/GO_0009536	plastid
+http://purl.obolibrary.org/obo/GO_0009666	plastid outer membrane organization	http://purl.obolibrary.org/obo/GO_0009527	plastid outer membrane
+http://purl.obolibrary.org/obo/GO_0080177	plastoglobule organization	http://purl.obolibrary.org/obo/GO_0010287	plastoglobule
+http://purl.obolibrary.org/obo/GO_0070889	platelet alpha granule organization	http://purl.obolibrary.org/obo/GO_0031091	platelet alpha granule
+http://purl.obolibrary.org/obo/GO_0060155	platelet dense granule organization	http://purl.obolibrary.org/obo/GO_0042827	platelet dense granule
+http://purl.obolibrary.org/obo/GO_1904186	post-anaphase microtubule array organization	http://purl.obolibrary.org/obo/GO_1990295	post-anaphase microtubule array
+http://purl.obolibrary.org/obo/GO_0098974	postsynaptic actin cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0098871	postsynaptic actin cytoskeleton
+http://purl.obolibrary.org/obo/GO_0099188	postsynaptic cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0099571	postsynaptic cytoskeleton
+http://purl.obolibrary.org/obo/GO_0099185	postsynaptic intermediate filament cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0099160	postsynaptic intermediate filament cytoskeleton
+http://purl.obolibrary.org/obo/GO_0001941	postsynaptic membrane organization	http://purl.obolibrary.org/obo/GO_0045211	postsynaptic membrane
+http://purl.obolibrary.org/obo/GO_0099140	presynaptic actin cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0099143	presynaptic actin cytoskeleton
+http://purl.obolibrary.org/obo/GO_0097090	presynaptic membrane organization	http://purl.obolibrary.org/obo/GO_0042734	presynaptic membrane
+http://purl.obolibrary.org/obo/GO_1990019	protein storage vacuole organization	http://purl.obolibrary.org/obo/GO_0000326	protein storage vacuole
+http://purl.obolibrary.org/obo/GO_0031268	pseudopodium organization	http://purl.obolibrary.org/obo/GO_0031143	pseudopodium
+http://purl.obolibrary.org/obo/GO_0031529	ruffle organization	http://purl.obolibrary.org/obo/GO_0001726	ruffle
+http://purl.obolibrary.org/obo/GO_0045214	sarcomere organization	http://purl.obolibrary.org/obo/GO_0030017	sarcomere
+http://purl.obolibrary.org/obo/GO_0033363	secretory granule organization	http://purl.obolibrary.org/obo/GO_0030141	secretory granule
+http://purl.obolibrary.org/obo/GO_0140544	septin collar organization	http://purl.obolibrary.org/obo/GO_0032173	septin collar
+http://purl.obolibrary.org/obo/GO_0032185	septin cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0032156	septin cytoskeleton
+http://purl.obolibrary.org/obo/GO_0031106	septin ring organization	http://purl.obolibrary.org/obo/GO_0005940	septin ring
+http://purl.obolibrary.org/obo/GO_0045231	slime layer organization	http://purl.obolibrary.org/obo/GO_0030114	slime layer
+http://purl.obolibrary.org/obo/GO_0030721	spectrosome organization	http://purl.obolibrary.org/obo/GO_0045170	spectrosome
+http://purl.obolibrary.org/obo/GO_0007051	spindle organization	http://purl.obolibrary.org/obo/GO_0005819	spindle
+http://purl.obolibrary.org/obo/GO_0051300	spindle pole body organization	http://purl.obolibrary.org/obo/GO_0005816	spindle pole body
+http://purl.obolibrary.org/obo/GO_1990255	subsynaptic reticulum organization	http://purl.obolibrary.org/obo/GO_0071212	subsynaptic reticulum
+http://purl.obolibrary.org/obo/GO_0097435	supramolecular fiber organization	http://purl.obolibrary.org/obo/GO_0099512	supramolecular fiber
+http://purl.obolibrary.org/obo/GO_0048499	synaptic vesicle membrane organization	http://purl.obolibrary.org/obo/GO_0030672	synaptic vesicle membrane
+http://purl.obolibrary.org/obo/GO_0070193	synaptonemal complex organization	http://purl.obolibrary.org/obo/GO_0000795	synaptonemal complex
+http://purl.obolibrary.org/obo/GO_0032200	telomere organization	http://purl.obolibrary.org/obo/GO_0000781	chromosome, telomeric region
+http://purl.obolibrary.org/obo/GO_0072553	terminal button organization	http://purl.obolibrary.org/obo/GO_0043195	terminal bouton
+http://purl.obolibrary.org/obo/GO_0010027	thylakoid membrane organization	http://purl.obolibrary.org/obo/GO_0042651	thylakoid membrane
+http://purl.obolibrary.org/obo/GO_0120193	tight junction organization	http://purl.obolibrary.org/obo/GO_0070160	tight junction
+http://purl.obolibrary.org/obo/GO_0098629	trans-Golgi network membrane organization	http://purl.obolibrary.org/obo/GO_0032588	trans-Golgi network membrane
+http://purl.obolibrary.org/obo/GO_0032796	uropod organization	http://purl.obolibrary.org/obo/GO_0001931	uropod
+http://purl.obolibrary.org/obo/GO_0007033	vacuole organization	http://purl.obolibrary.org/obo/GO_0005773	vacuole
+http://purl.obolibrary.org/obo/GO_0016050	vesicle organization	http://purl.obolibrary.org/obo/GO_0031982	vesicle

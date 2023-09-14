@@ -20,9 +20,7 @@ GO:0000755	cytogamy	NCBITaxon:4751	Fungi
 GO:0000911	cytokinesis by cell plate formation	NCBITaxon:33090	Viridiplantae	
 GO:0000916	actomyosin contractile ring contraction	NCBITaxon:2759	Eukaryota	
 GO:0000936	primary cell septum	NCBITaxon:2759	Eukaryota	
-GO:0000984	bacterial-type RNA polymerase transcription regulatory region sequence-specific DNA binding	NCBITaxon:2	Bacteria	
 GO:0001070	RNA-binding transcription regulator activity	NCBITaxon:10239	Viruses	
-GO:0001121	bacterial transcription	NCBITaxon:2	Bacteria	
 GO:0001403	invasive growth in response to glucose limitation	NCBITaxon:4751	Fungi	
 GO:0001410	chlamydospore formation	NCBITaxon:4751	Fungi	
 GO:0001520	outer dense fiber	NCBITaxon:40674	Mammalia	
@@ -220,8 +218,8 @@ GO:0014021	secondary neural tube formation	NCBITaxon:40674	Mammalia
 GO:0014023	neural rod formation	NCBITaxon:32443	Teleostei	
 GO:0015627	type II protein secretion system complex	NCBITaxon:2	Bacteria	
 GO:0015628	protein secretion by the type II secretion system	NCBITaxon:2	Bacteria	
-GO:0016028	rhabdomere	NCBITaxon:33208	Metazoa	
-GO:0016055	Wnt signaling pathway	NCBITaxon:33208	Metazoa	
+GO:0016028	rhabdomere	NCBITaxon:50557	Insecta	PMID:28193819
+GO:0198738	cell-cell signaling by wnt	NCBITaxon:33208	Metazoa	
 GO:0016281	eukaryotic translation initiation factor 4F complex	NCBITaxon:2759	Eukaryota	
 GO:0016282	eukaryotic 43S preinitiation complex	NCBITaxon:2759	Eukaryota	
 GO:0016348	imaginal disc-derived leg joint morphogenesis	NCBITaxon:33392	Holometabola	
@@ -291,14 +289,12 @@ GO:0031370	eukaryotic initiation factor 4G binding	NCBITaxon:2759	Eukaryota
 GO:0031504	peptidoglycan-based cell wall organization	NCBITaxon:2	Bacteria	
 GO:0031505	fungal-type cell wall organization	NCBITaxon:4751	Fungi	
 GO:0031522	cell envelope Sec protein transport complex	NCBITaxon:2	Bacteria	
-GO:0031566	actomyosin contractile ring maintenance	NCBITaxon:2759	Eukaryota	
 GO:0031578	mitotic spindle orientation checkpoint	NCBITaxon:716545	saccharomyceta	
 GO:0031633	xanthophore	NCBITaxon:Union_0000004	Prokaryota	
 GO:0031897	Tic complex	NCBITaxon:33090	Viridiplantae	
 GO:0031912	oral apparatus	NCBITaxon:5878	Ciliophora	
 GO:0031986	proteinoplast	NCBITaxon:33090	Viridiplantae	
 GO:0032121	meiotic attachment of telomeric heterochromatin to spindle pole body	NCBITaxon:4751	Fungi	
-GO:0032187	actomyosin contractile ring localization	NCBITaxon:2759	Eukaryota	
 GO:0032258	protein localization by the Cvt pathway	NCBITaxon:147537	Saccharomycotina	
 GO:0033009	nucleomorph	NCBITaxon:33090	Viridiplantae	
 GO:0033104	type VI protein secretion system complex	NCBITaxon:2	Bacteria	
@@ -634,8 +630,6 @@ GO:0002499	proteolysis within endosome associated with antigen processing and pr
 GO:0032468	Golgi calcium ion homeostasis	NCBITaxon:2759	Eukaryota	
 GO:0033260	nuclear DNA replication	NCBITaxon:2759	Eukaryota	
 GO:0033260	nuclear DNA replication	NCBITaxon:2759	Eukaryota	
-GO:0033578	protein glycosylation in Golgi	NCBITaxon:2759	Eukaryota	
-GO:0033581	protein galactosylation in Golgi	NCBITaxon:2759	Eukaryota	
 GO:0042073	intraciliary transport	NCBITaxon:2759	Eukaryota	
 GO:0099003	vesicle-mediated transport in synapse	NCBITaxon:33208	Metazoa	
 GO:0099003	vesicle-mediated transport in synapse	NCBITaxon:33208	Metazoa	
@@ -665,7 +659,6 @@ GO:0070902	mitochondrial tRNA pseudouridine synthesis	NCBITaxon:2759	Eukaryota
 GO:0070903	mitochondrial tRNA thio-modification	NCBITaxon:2759	Eukaryota	
 GO:0071990	maintenance of protein location to spindle pole body	NCBITaxon:4751	Fungi	
 GO:0072656	maintenance of protein location in mitochondrion	NCBITaxon:2759	Eukaryota	
-GO:0072684	mitochondrial tRNA 3'-trailer cleavage, endonucleolytic	NCBITaxon:2759	Eukaryota	
 GO:0080156	mitochondrial mRNA modification	NCBITaxon:2759	Eukaryota	
 GO:0090139	mitochondrial DNA packaging	NCBITaxon:2759	Eukaryota	
 GO:0090144	mitochondrial nucleoid organization	NCBITaxon:2759	Eukaryota	
@@ -690,8 +683,6 @@ GO:0140250	regulation protein catabolic process at synapse	NCBITaxon:33208	Metaz
 GO:1904381	Golgi apparatus mannose trimming	NCBITaxon:2759	Eukaryota	
 GO:1905951	mitochondrion DNA recombination	NCBITaxon:2759	Eukaryota	
 GO:1990180	mitochondrial tRNA 3'-end processing	NCBITaxon:2759	Eukaryota	
-GO:1990613	mitochondrial membrane fusion	NCBITaxon:2759	Eukaryota	
-GO:2000803	endosomal signal transduction	NCBITaxon:2759	Eukaryota	
 GO:0000957	mitochondrial RNA catabolic process	NCBITaxon:2759	Eukaryota	
 GO:0000958	mitochondrial mRNA catabolic process	NCBITaxon:2759	Eukaryota	
 GO:0000959	mitochondrial RNA metabolic process	NCBITaxon:2759	Eukaryota	
@@ -717,8 +708,6 @@ GO:0032043	mitochondrial DNA catabolic process	NCBITaxon:2759	Eukaryota
 GO:0032469	endoplasmic reticulum calcium ion homeostasis	NCBITaxon:2759	Eukaryota	
 GO:0032507	maintenance of protein location in cell	NCBITaxon:131567	cellular organisms	
 GO:0032543	mitochondrial translation	NCBITaxon:2759	Eukaryota	
-GO:0033577	protein glycosylation in endoplasmic reticulum	NCBITaxon:2759	Eukaryota	
-GO:0033579	protein galactosylation in endoplasmic reticulum	NCBITaxon:2759	Eukaryota	
 GO:0033615	mitochondrial proton-transporting ATP synthase complex assembly	NCBITaxon:2759	Eukaryota	
 GO:0033617	mitochondrial respiratory chain complex IV assembly	NCBITaxon:2759	Eukaryota	
 GO:0034551	mitochondrial respiratory chain complex III assembly	NCBITaxon:2759	Eukaryota	
@@ -752,8 +741,6 @@ GO:0090616	mitochondrial mRNA 3'-end processing	NCBITaxon:2759	Eukaryota
 GO:0140040	mitochondrial polycistronic RNA processing	NCBITaxon:2759	Eukaryota	
 GO:0140041	cellular detoxification of methylglyoxal	NCBITaxon:131567	cellular organisms	
 GO:1900864	mitochondrial RNA modification	NCBITaxon:2759	Eukaryota	
-GO:1902375	nuclear tRNA 3'-trailer cleavage, endonucleolytic	NCBITaxon:2759	Eukaryota	
-GO:1902375	nuclear tRNA 3'-trailer cleavage, endonucleolytic	NCBITaxon:2759	Eukaryota	
 GO:1990770	small intestine smooth muscle contraction	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0008147	structural constituent of bone	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0021533	cell differentiation in hindbrain	NCBITaxon:89593	Craniata <chordata>	
@@ -804,7 +791,6 @@ GO:0030386	ferredoxin:thioredoxin reductase complex	NCBITaxon_Union:0000002	Viri
 GO:0000908	taurine dioxygenase activity	NCBITaxon:2	Bacteria	
 GO:1990205	taurine dioxygenase complex	NCBITaxon:2	Bacteria	
 GO:0140549	spore inner membrane	NCBITaxon:2	Bacteria	
-GO:1901214	regulation of neuron death	NCBITaxon:33208	Metazoa	
 GO:0045664	regulation of neuron differentiation	NCBITaxon:33208	Metazoa	
 GO:2001222	regulation of neuron migration	NCBITaxon:33208	Metazoa	
 GO:0009877	nodulation	NCBITaxon:33090	Viridiplantae	
@@ -827,12 +813,72 @@ GO:0140604	mycofactocin biosynthetic process	NCBITaxon:Union_0000004	Prokaryota
 GO:0009486	cytochrome bo3 ubiquinol oxidase activity	NCBITaxon:2	Bacteria	
 GO:0008815	citrate (pro-3S)-lyase activity	NCBITaxon:2	Bacteria	
 GO:0009346	ATP-independent citrate lyase complex	NCBITaxon:2	Bacteria	
-GO:0140617	transvection	NCBITaxon:7147	Diptera	
 GO:0009289	pilus	NCBITaxon:2	Bacteria	
 GO:0043711	pilus organization	NCBITaxon:2	Bacteria	
 GO:0120309	cilium attachment to cell body	NCBITaxon:5653	Kinetoplastida	
 GO:0120310	amastigogenesis	NCBITaxon:5654	Trypanosomatidae	
 GO:0120307	Hechtian strand	NCBITaxon:33090	Viridiplantae	
-GO:0007533 	mating type switching	NCBITaxon:4751	Fungi	
+GO:0007533	mating type switching	NCBITaxon:4751	Fungi	
 GO:0019035	viral integration complex	NCBITaxon:10239	Viruses	
 GO:0044105	L-xylulose reductase (NAD+) activity	NCBITaxon:4890	Ascomycota	
+GO:0120324	procyclogenesis	NCBITaxon:5654	Trypanosomatidae	
+GO:0140690	dihydropyrimidine dehydrogenase (NAD+) complex	NCBITaxon:2	Bacteria	
+GO:0004159	dihydropyrimidine dehydrogenase (NAD+) activity	NCBITaxon:2	Bacteria	
+GO:0017113	dihydropyrimidine dehydrogenase (NADP+) activity	NCBITaxon:2759	Eukaryota	
+GO:1990257	piccolo-bassoon transport vesicle	NCBITaxon:6072	Eumetazoa	
+GO:0043386	mycotoxin biosynthetic process	NCBITaxon:4751	Fungi	
+GO:0031469	bacterial microcompartment	NCBITaxon:2	Bacteria	
+GO:0050450	citrate (Re)-synthase activity	NCBITaxon:2	Bacteria	PMID:17400742
+GO:0040033	sRNA-mediated gene silencing	NCBITaxon:2	Bacteria	
+GO:0140782	novofumigatonin biosynthetic process	NCBITaxon:4751	Fungi	
+GO:0140781	ilicicolin H biosynthetic process	NCBITaxon:4751	Fungi	
+GO:0140782	novofumigatonin biosynthetic process	NCBITaxon:4751	Fungi	
+GO:0140783	(M)-viriditoxin biosynthetic process	NCBITaxon:4751	Fungi	
+GO:0007179	transforming growth factor beta receptor signaling pathway	NCBITaxon:33511	Deuterostomia	
+GO:0160032	Toll receptor ligand protein activation cascade	NCBITaxon:50557	Insecta	
+GO:0035244	peptidyl-arginine C-methyltransferase activity	NCBITaxon:2	Bacteria	
+GO:0045321	leukocyte activation	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0002443	leukocyte mediated immunity	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0050900	leukocyte migration	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0070661	leukocyte proliferation	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0001909	leukocyte mediated cytotoxicity	NCBITaxon:7742	Vertebrata <Metazoa>    	
+GO:0001776	leukocyte homeostasis	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0043299	leukocyte degranulation	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0071887	leukocyte apoptotic process	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0080175	phragmoplast microtubule organization	NCBITaxon:33090	Viridiplantae	
+GO:1902896	terminal web assembly	NCBITaxon:6072	Eumetazoa	
+GO:1990357	terminal web	NCBITaxon:6072	Eumetazoa	
+GO:0160062	cutin-based cuticle development	NCBITaxon:3193	Embryophyta	
+GO:0060417 	yolk	NCBITaxon:6072	Eumetazoa	
+GO:0005883 	neurofilament	NCBITaxon:6072	Eumetazoa	
+GO:0120098 	procentriole	NCBITaxon:6072	Eumetazoa	  
+GO:0120099 	procentriole replication complex	NCBITaxon:6072	Eumetazoa	
+GO:0071142 	homomeric SMAD protein complex	NCBITaxon:6072	Eumetazoa	
+GO:0036457	keratohyalin granule	NCBITaxon:6072	Eumetazoa	
+GO:0045169	fusome	NCBITaxon:6072	Eumetazoa	
+GO:0019812	type I site-specific deoxyribonuclease complex	NCBITaxon:Union_0000004	Prokaryota	
+GO:0009359	type II site-specific deoxyribonuclease complex	NCBITaxon:Union_0000004	Prokaryota	
+GO:0019813	type III site-specific deoxyribonuclease complex	NCBITaxon:Union_0000004	Prokaryota	
+GO:0032068	type IV site-specific deoxyribonuclease complex	NCBITaxon:Union_0000004	Prokaryota	
+GO:0044222	anammoxosome	NCBITaxon:Union_0000004	Prokaryota	
+GO:0044227	methane-oxidizing organelle	NCBITaxon:Union_0000004	Prokaryota	
+GO:0009504	cell plate	NCBITaxon:33090	Viridiplantae	
+GO:0072562	blood microparticle	NCBITaxon:6072	Eumetazoa	
+GO:0050803	regulation of synapse structure or activity	NCBITaxon:6072	Eumetazoa	
+GO:1990523	bone regeneration	NCBITaxon:6072	Eumetazoa	
+GO:0010597	green leaf volatile biosynthetic process	NCBITaxon:33090	Viridiplantae	
+GO:0009524	phragmoplast	NCBITaxon:33090	Viridiplantae	
+GO:0022620	microgametophyte vegetative cell differentiation	NCBITaxon:58024	Spermatophyta	
+GO:0034587	piRNA processing	NCBITaxon:6072	Eumetazoa	
+GO:0099536	synaptic signaling	NCBITaxon:33208	Metazoa	
+GO:0030594	neurotransmitter receptor activity	NCBITaxon:33208	Metazoa	
+GO:0141035	CTP-dependent diacylglycerol kinase activity	NCBITaxon:4751	Fungi	
+GO:0019270	aerobactin biosynthetic process	NCBITaxon:Union_0000004	Prokaryota	
+GO:0005326	neurotransmitter transmembrane transporter activity	NCBITaxon:6072	Eumetazoa	
+GO:0001775	cell activation	NCBITaxon:33208	Metazoa	
+GO:0141063	epigenetic programming in the central cell	NCBITaxon:33090	Viridiplantae	
+GO:0160092	hemozoin formation complex	NCBITaxon:5820	Plasmodium	
+GO:0009048	dosage compensation by inactivation of X chromosome	NCBITaxon:32524	Amniota	PMID:19802707
+GO:0080188	gene silencing by RNA-directed DNA methylation	NCBITaxon:33090	Viridiplantae	PMID:33031395
+GO:0106059	tRNA (cytidine 56-2'-O)-methyltransferase activity	NCBITaxon:2157	Archaea	

@@ -15,6 +15,7 @@ Instructions for editing the ontology can be found in the [GO wiki/Ontology sect
 ## Ontology Pipeline Overview
 
  - GitHub Actions performs tests on every commit or pull request - https://github.com/geneontology/go-ontology/actions?query=workflow%3ACI
- - A Jenkins job producse nightly SNAPSHOT releases - https://build.geneontology.org/job/geneontology/job/pipeline/job/snapshot/
+ - A Jenkins job produces nightly SNAPSHOT releases - https://build.geneontology.org/job/geneontology/job/pipeline/job/snapshot/
     * The S3 bucket for go-data-product-snapshot/ontology/, mapped to http://snapshot.geneontology.org/ontology/, is redirected to from the OBO Library PURL (http://purl.obolibrary.org/obo/go/snapshot/FOO)
  - A Jenkins job produces monthly production releases (https://build.geneontology.org/job/geneontology/job/pipeline/job/release/)
+

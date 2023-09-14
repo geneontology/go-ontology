@@ -20,7 +20,7 @@ TODO
 
 ## Name
 
-"`{cargo}` import across `{membrane}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
+"`{cargo}` import from `{start}` into `{end}`, across `{membrane}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Annotations
 
@@ -33,7 +33,7 @@ TODO
 
 ## Equivalent to
 
-[transport](http://purl.obolibrary.org/obo/GO_0006810)  and ([has target start location](http://purl.obolibrary.org/obo/RO_0002338) some `{start}`)  and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some `{end}`)  and ([imports](http://purl.obolibrary.org/obo/RO_0002340) some `{cargo}`)  and ([results in transport across](http://purl.obolibrary.org/obo/RO_0002342) some `{membrane}`)
+[transport](http://purl.obolibrary.org/obo/GO_0006810)  and ([has target start location](http://purl.obolibrary.org/obo/RO_0002338) some `{start}`)  and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some `{end}`)  and ([results in transport across](http://purl.obolibrary.org/obo/RO_0002342) some `{membrane}`)  and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some `{cargo}`)
 
 
 
@@ -49,7 +49,7 @@ TODO
 |:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
 | extracellular region | 5-aminolevulinic acid import across plasma membrane | [http://purl.obolibrary.org/obo/GO_0005829](http://purl.obolibrary.org/obo/GO_0005829) | [http://purl.obolibrary.org/obo/GO_0005576](http://purl.obolibrary.org/obo/GO_0005576) | [http://purl.obolibrary.org/obo/GO_0005886](http://purl.obolibrary.org/obo/GO_0005886) | 5-ammoniolevulinate | [http://purl.obolibrary.org/obo/CHEBI_356416](http://purl.obolibrary.org/obo/CHEBI_356416) | cytosol | [http://purl.obolibrary.org/obo/GO_0140484](http://purl.obolibrary.org/obo/GO_0140484) | plasma membrane |
 | extracellular region | D-aspartate import across plasma membrane | [http://purl.obolibrary.org/obo/GO_0005829](http://purl.obolibrary.org/obo/GO_0005829) | [http://purl.obolibrary.org/obo/GO_0005576](http://purl.obolibrary.org/obo/GO_0005576) | [http://purl.obolibrary.org/obo/GO_0005886](http://purl.obolibrary.org/obo/GO_0005886) | D-aspartate(1-) | [http://purl.obolibrary.org/obo/CHEBI_29990](http://purl.obolibrary.org/obo/CHEBI_29990) | cytosol | [http://purl.obolibrary.org/obo/GO_0070779](http://purl.obolibrary.org/obo/GO_0070779) | plasma membrane |
-| extracellular region | L-alanine import across plasma membrane | [http://purl.obolibrary.org/obo/GO_0005829](http://purl.obolibrary.org/obo/GO_0005829) | [http://purl.obolibrary.org/obo/GO_0005576](http://purl.obolibrary.org/obo/GO_0005576) | [http://purl.obolibrary.org/obo/GO_0005886](http://purl.obolibrary.org/obo/GO_0005886) | L-alanine zwitterion | [http://purl.obolibrary.org/obo/CHEBI_57972](http://purl.obolibrary.org/obo/CHEBI_57972) | cytosol | [http://purl.obolibrary.org/obo/GO_1904273](http://purl.obolibrary.org/obo/GO_1904273) | plasma membrane |
-| extracellular region | L-arginine import across plasma membrane | [http://purl.obolibrary.org/obo/GO_0005829](http://purl.obolibrary.org/obo/GO_0005829) | [http://purl.obolibrary.org/obo/GO_0005576](http://purl.obolibrary.org/obo/GO_0005576) | [http://purl.obolibrary.org/obo/GO_0005886](http://purl.obolibrary.org/obo/GO_0005886) | L-argininium(1+) | [http://purl.obolibrary.org/obo/CHEBI_32682](http://purl.obolibrary.org/obo/CHEBI_32682) | cytosol | [http://purl.obolibrary.org/obo/GO_0097638](http://purl.obolibrary.org/obo/GO_0097638) | plasma membrane |
-| extracellular region | L-asparagine import across plasma membrane | [http://purl.obolibrary.org/obo/GO_0005829](http://purl.obolibrary.org/obo/GO_0005829) | [http://purl.obolibrary.org/obo/GO_0005576](http://purl.obolibrary.org/obo/GO_0005576) | [http://purl.obolibrary.org/obo/GO_0005886](http://purl.obolibrary.org/obo/GO_0005886) | L-asparagine zwitterion | [http://purl.obolibrary.org/obo/CHEBI_58048](http://purl.obolibrary.org/obo/CHEBI_58048) | cytosol | [http://purl.obolibrary.org/obo/GO_1903811](http://purl.obolibrary.org/obo/GO_1903811) | plasma membrane |
+| cytosol | GDP-fucose import into Golgi lumen | [http://purl.obolibrary.org/obo/GO_0005796](http://purl.obolibrary.org/obo/GO_0005796) | [http://purl.obolibrary.org/obo/GO_0005829](http://purl.obolibrary.org/obo/GO_0005829) | [http://purl.obolibrary.org/obo/GO_0000139](http://purl.obolibrary.org/obo/GO_0000139) | GDP-fucose | [http://purl.obolibrary.org/obo/CHEBI_64608](http://purl.obolibrary.org/obo/CHEBI_64608) | Golgi lumen | [http://purl.obolibrary.org/obo/GO_0036085](http://purl.obolibrary.org/obo/GO_0036085) | Golgi membrane |
+| cytosol | GDP-fucose import into endoplasmic reticulum lumen | [http://purl.obolibrary.org/obo/GO_0005783](http://purl.obolibrary.org/obo/GO_0005783) | [http://purl.obolibrary.org/obo/GO_0005829](http://purl.obolibrary.org/obo/GO_0005829) | [http://purl.obolibrary.org/obo/GO_0005789](http://purl.obolibrary.org/obo/GO_0005789) | GDP-fucose | [http://purl.obolibrary.org/obo/CHEBI_64608](http://purl.obolibrary.org/obo/CHEBI_64608) | endoplasmic reticulum | [http://purl.obolibrary.org/obo/GO_0036084](http://purl.obolibrary.org/obo/GO_0036084) | endoplasmic reticulum membrane |
+| cytosol | L-alanine export across the plasma membrane | [http://purl.obolibrary.org/obo/GO_0005576](http://purl.obolibrary.org/obo/GO_0005576) | [http://purl.obolibrary.org/obo/GO_0005829](http://purl.obolibrary.org/obo/GO_0005829) | [http://purl.obolibrary.org/obo/GO_0005886](http://purl.obolibrary.org/obo/GO_0005886) | L-alanine zwitterion | [http://purl.obolibrary.org/obo/CHEBI_57972](http://purl.obolibrary.org/obo/CHEBI_57972) | extracellular region | [http://purl.obolibrary.org/obo/GO_0140406](http://purl.obolibrary.org/obo/GO_0140406) | plasma membrane |
 

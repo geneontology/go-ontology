@@ -12,20 +12,21 @@ Import(<http://purl.obolibrary.org/obo/ddanat.owl>)
 Import(<http://purl.obolibrary.org/obo/emapa.owl>)
 Import(<http://purl.obolibrary.org/obo/ro.owl>)
 Import(<http://purl.obolibrary.org/obo/uberon.owl>)
-Import(<http://purl.obolibrary.org/obo/wbbt.owl>)
 Import(<http://purl.obolibrary.org/obo/xao.owl>)
-Import(<http://purl.obolibrary.org/obo/zfa.owl>)
+Import(<http://purl.obolibrary.org/obo/zfa/zfa-base.owl>)
 Import(<http://purl.obolibrary.org/obo/eco/eco-basic.owl>)
 Import(<http://purl.obolibrary.org/obo/go/extensions/go-bfo-bridge.owl>)
 Import(<http://purl.obolibrary.org/obo/go/extensions/go-plus.owl>)
+Import(<http://purl.obolibrary.org/obo/go/imports/go-lego-chebi-import.owl>)
 Import(<http://purl.obolibrary.org/obo/go/extensions/legorel.owl>)
 Import(<http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim-disjoint-over-in-taxon.owl>)
 Import(<http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl>)
 Import(<http://purl.obolibrary.org/obo/uberon/bridge/cl-bridge-to-wbbt.owl>)
 Import(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-caro.owl>)
 Import(<http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-wbbt.owl>)
+Import(<http://purl.obolibrary.org/obo/wbbt/wbbt-base.owl>)
+Import(<http://purl.obolibrary.org/obo/wbls/wbls-base.owl>)
 Import(<http://purl.obolibrary.org/obo/wbphenotype/wbphenotype-base.owl>)
-Import(<http://purl.obolibrary.org/obo/wbphenotype/imports/wbls_import.owl>)
 Import(<http://snapshot.geneontology.org/metadata/groups.ttl>)
 Import(<http://snapshot.geneontology.org/metadata/users.ttl>)
 Annotation(rdfs:comment "This ontology was created to handle the imports, required for a complex annotation model (a.k.a. LEGO). The starting point is the go-plus, which contains all of GO plus the modules from external ontologies, such as ChEBI, CL, or PO. In the future this may include other ontologies.")
@@ -59,12 +60,12 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/DDANAT_0000401> ObjectIntersec
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0010001> (Dictyostelium discoideum anatomical structure)
 
-EquivalentClasses(<http://purl.obolibrary.org/obo/DDANAT_0010001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_44689>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/DDANAT_0010001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000465> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_44689>)))
 
 # Class: <http://purl.obolibrary.org/obo/EMAPA_0> (Anatomical structure)
 
-SubClassOf(<http://purl.obolibrary.org/obo/EMAPA_0> <http://purl.obolibrary.org/obo/CARO_0000000>)
-SubClassOf(<http://purl.obolibrary.org/obo/EMAPA_0> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_10090>)))
+SubClassOf(<http://purl.obolibrary.org/obo/EMAPA_0> <http://purl.obolibrary.org/obo/UBERON_0001062>)
+SubClassOf(<http://purl.obolibrary.org/obo/EMAPA_0> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_10090>)))
 
 # Class: <http://purl.obolibrary.org/obo/IAO_0000311> (publication)
 
@@ -72,19 +73,31 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000311> "pub
 
 # Class: <http://purl.obolibrary.org/obo/PO_0025131> (plant anatomical entity)
 
-EquivalentClasses(<http://purl.obolibrary.org/obo/PO_0025131> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PO_0025131> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
 
 # Class: <http://purl.obolibrary.org/obo/PO_0025606> (native plant cell)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/PO_0025606> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
 
+# Class: <http://purl.obolibrary.org/obo/TS_0> (Theiler stage)
+
+SubClassOf(<http://purl.obolibrary.org/obo/TS_0> <http://purl.obolibrary.org/obo/UBERON_0000105>)
+
+# Class: <http://purl.obolibrary.org/obo/WBls_0000075> (worm life stage)
+
+SubClassOf(<http://purl.obolibrary.org/obo/WBls_0000075> <http://purl.obolibrary.org/obo/UBERON_0000105>)
+
 # Class: <http://purl.obolibrary.org/obo/XAO_0000000> (Xenopus anatomical entity)
 
-EquivalentClasses(<http://purl.obolibrary.org/obo/XAO_0000000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8353>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/XAO_0000000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8353>)))
 
 # Class: <http://purl.obolibrary.org/obo/XAO_0003012> (cell)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/XAO_0003012> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8353>)))
+
+# Class: <http://purl.obolibrary.org/obo/XAO_1000000> (Xenopus developmental stage)
+
+SubClassOf(<http://purl.obolibrary.org/obo/XAO_1000000> <http://purl.obolibrary.org/obo/UBERON_0000105>)
 
 # Class: <http://purl.obolibrary.org/obo/ZFA_0009000> (cell)
 
@@ -92,7 +105,11 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/ZFA_0009000> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/ZFA_0100000> (zebrafish anatomical entity)
 
-EquivalentClasses(<http://purl.obolibrary.org/obo/ZFA_0100000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_7955>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ZFA_0100000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_7955>)))
+
+# Class: <http://purl.obolibrary.org/obo/ZFS_0100000> (Stages)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ZFS_0100000> <http://purl.obolibrary.org/obo/UBERON_0000105>)
 
 
 SubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/emapa#ends_at> <http://purl.obolibrary.org/obo/TS_0>) <http://purl.obolibrary.org/obo/EMAPA_0>)

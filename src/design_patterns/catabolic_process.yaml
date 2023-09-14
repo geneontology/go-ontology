@@ -1,0 +1,48 @@
+pattern_name: catabolic process
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml
+
+description: This pattern is for classes representing catabolic processes differentiated by their primary inputs.
+
+classes:
+  Thing: 'owl:Thing'
+  catabolic process: 'GO:0009056'
+
+relations:
+  has primary input: 'RO:0004009'
+
+vars:
+  # Should this be chemical entity?
+  participant: "Thing" 
+
+name:
+  text: "%s catabolic process" 
+  vars:
+    - 'participant'
+
+def:
+  text: "The chemical reactions and pathways resulting in the breakdown of %s."
+  vars:
+    - 'participant'
+
+namespace: 
+  text: 'biological_process'
+
+generated_synonyms:
+   - 
+      text: "%s catabolism"
+      vars: 
+        - 'participant'
+   - 
+      text: "%s breakdown"
+      vars: 
+        - 'participant'
+   - 
+      text: "%s degradation"
+      vars: 
+        - 'participant'
+
+equivalentTo:
+  text: "'catabolic process' and 'has primary input' some %s"
+  vars:  
+    - 'participant'

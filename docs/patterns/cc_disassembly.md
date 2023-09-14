@@ -43,9 +43,9 @@ TODO
 
 | defined_class | defined_class_label | target | target_label |
 |:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_1905783](http://purl.obolibrary.org/obo/GO_1905783) | CENP-A containing nucleosome disassembly | [http://purl.obolibrary.org/obo/GO_0043505](http://purl.obolibrary.org/obo/GO_0043505) | CENP-A containing nucleosome |
 | [http://purl.obolibrary.org/obo/GO_1990986](http://purl.obolibrary.org/obo/GO_1990986) | DNA recombinase disassembly | [http://purl.obolibrary.org/obo/GO_0097519](http://purl.obolibrary.org/obo/GO_0097519) | DNA recombinase complex |
 | [http://purl.obolibrary.org/obo/GO_1904903](http://purl.obolibrary.org/obo/GO_1904903) | ESCRT III complex disassembly | [http://purl.obolibrary.org/obo/GO_0000815](http://purl.obolibrary.org/obo/GO_0000815) | ESCRT III complex |
 | [http://purl.obolibrary.org/obo/GO_1904896](http://purl.obolibrary.org/obo/GO_1904896) | ESCRT complex disassembly | [http://purl.obolibrary.org/obo/GO_0036452](http://purl.obolibrary.org/obo/GO_0036452) | ESCRT complex |
+| [http://purl.obolibrary.org/obo/GO_0090166](http://purl.obolibrary.org/obo/GO_0090166) | Golgi disassembly | [http://purl.obolibrary.org/obo/GO_0005794](http://purl.obolibrary.org/obo/GO_0005794) | Golgi apparatus |
 | [http://purl.obolibrary.org/obo/GO_1903864](http://purl.obolibrary.org/obo/GO_1903864) | P granule disassembly | [http://purl.obolibrary.org/obo/GO_0043186](http://purl.obolibrary.org/obo/GO_0043186) | P granule |
 

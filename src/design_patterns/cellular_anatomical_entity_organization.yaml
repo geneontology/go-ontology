@@ -1,0 +1,42 @@
+pattern_name: cellular anatomical entity organization
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cellular_anatomical_entity_organization.yaml
+
+description: TODO
+
+classes:
+  cellular anatomical entity: 'GO:0110165'
+  cellular component organization: 'GO:0016043'
+
+relations:
+  results_in_organization_of: 'RO:0002592'
+
+vars:
+  component: "'cellular anatomical entity'"
+
+name:
+  text: "%s organization"
+  vars:
+     - 'component'
+
+def:
+  text: "A process that is carried out at the cellular level which results in the assembly, 
+    arrangement of constituent parts, or disassembly of %s." 
+  vars:
+     - 'component'
+
+namespace:
+   text: 'biological_process'
+
+equivalentTo:
+  text: "'cellular component organization' and 'results_in_organization_of' some %s"
+  vars:
+     - 'component'
+    
+#GCI:
+#  text: >
+#    'cellular process' that results_in_organization_of some (part_of some %s) 
+#    SubClassOf part_of some ('cellular process' and (results_in_organization_of some %s))
+#  vars: 
+#     - component
+#     - component

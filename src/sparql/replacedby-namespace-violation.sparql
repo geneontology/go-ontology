@@ -1,0 +1,23 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX GO: <http://purl.obolibrary.org/obo/GO_>
+PREFIX metago: <http://model.geneontology.org/>
+PREFIX oboinowl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX ont_graph: <http://purl.obolibrary.org/obo/go/extensions/go-graphstore.owl>
+PREFIX MF: <http://purl.obolibrary.org/obo/GO_0003674>
+PREFIX CC: <http://purl.obolibrary.org/obo/GO_0005575>
+PREFIX BP: <http://purl.obolibrary.org/obo/GO_0008150>
+PREFIX replaced_by: <http://purl.obolibrary.org/obo/IAO_0100001>
+PREFIX consider: <http://www.geneontology.org/formats/oboInOwl#consider>
+PREFIX terms_merged: <http://purl.obolibrary.org/obo/IAO_0000227>
+PREFIX has_obsolescence_reason: <http://purl.obolibrary.org/obo/IAO_0000231>
+
+SELECT ?error
+WHERE {
+  ?class replaced_by:|consider: ?repl .
+  FILTER(STRSTARTS(STR(?class), "http://purl.obolibrary.org/obo/GO_"))
+  BIND(STR(?repl) AS ?repl_str)
+  FILTER(!STRSTARTS(?repl_str, "GO:") && !STRSTARTS(?repl_str, "http://purl.obolibrary.org/obo/GO_"))
+  BIND(CONCAT("ERROR: Non-GO replacement for obsolete term: ", STR(?class), " refers to non-GO term: ", ?repl_str) AS ?error)
+}

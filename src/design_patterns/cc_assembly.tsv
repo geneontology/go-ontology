@@ -1,33 +1,40 @@
 defined_class	defined_class_label	target	target_label
 http://purl.obolibrary.org/obo/GO_0034463	90S preribosome assembly	http://purl.obolibrary.org/obo/GO_0030686	90S preribosome
 http://purl.obolibrary.org/obo/GO_1904745	Atg1/ULK1 kinase complex assembly	http://purl.obolibrary.org/obo/GO_1990316	Atg1/ULK1 kinase complex
-http://purl.obolibrary.org/obo/GO_0034080	CENP-A containing nucleosome assembly	http://purl.obolibrary.org/obo/GO_0043505	CENP-A containing nucleosome
+http://purl.obolibrary.org/obo/GO_0010387	COP9 signalosome assembly	http://purl.obolibrary.org/obo/GO_0008180	COP9 signalosome
 http://purl.obolibrary.org/obo/GO_0048208	COPII vesicle coating	http://purl.obolibrary.org/obo/GO_0030127	COPII vesicle coat
+http://purl.obolibrary.org/obo/GO_0160073	Casparian strip assembly	http://purl.obolibrary.org/obo/GO_0048226	Casparian strip
 http://purl.obolibrary.org/obo/GO_0071255	Cvt vesicle assembly	http://purl.obolibrary.org/obo/GO_0033107	Cvt vesicle
 http://purl.obolibrary.org/obo/GO_0071770	DIM/DIP cell wall layer assembly	http://purl.obolibrary.org/obo/GO_0097735	DIM/DIP cell wall layer
 http://purl.obolibrary.org/obo/GO_0000730	DNA recombinase assembly	http://purl.obolibrary.org/obo/GO_0097519	DNA recombinase complex
 http://purl.obolibrary.org/obo/GO_1903871	DNA recombinase mediator complex assembly	http://purl.obolibrary.org/obo/GO_0033061	DNA recombinase mediator complex
+http://purl.obolibrary.org/obo/GO_0090735	DNA repair complex assembly	http://purl.obolibrary.org/obo/GO_1990391	DNA repair complex
 http://purl.obolibrary.org/obo/GO_0071163	DNA replication preinitiation complex assembly	http://purl.obolibrary.org/obo/GO_0031261	DNA replication preinitiation complex
+http://purl.obolibrary.org/obo/GO_1990155	Dsc E3 ubiquitin ligase complex assembly	http://purl.obolibrary.org/obo/GO_0044695	Dsc E3 ubiquitin ligase complex
 http://purl.obolibrary.org/obo/GO_1904902	ESCRT III complex assembly	http://purl.obolibrary.org/obo/GO_0000815	ESCRT III complex
 http://purl.obolibrary.org/obo/GO_1904895	ESCRT complex assembly	http://purl.obolibrary.org/obo/GO_0036452	ESCRT complex
 http://purl.obolibrary.org/obo/GO_1905635	FACT complex assembly	http://purl.obolibrary.org/obo/GO_0035101	FACT complex
 http://purl.obolibrary.org/obo/GO_0071165	GINS complex assembly	http://purl.obolibrary.org/obo/GO_0000811	GINS complex
 http://purl.obolibrary.org/obo/GO_0140121	Lewy body formation	http://purl.obolibrary.org/obo/GO_0097413	Lewy body
+http://purl.obolibrary.org/obo/GO_0120185	MBF transcription complex assembly	http://purl.obolibrary.org/obo/GO_0030907	MBF transcription complex
 http://purl.obolibrary.org/obo/GO_0072689	MCM complex assembly	http://purl.obolibrary.org/obo/GO_0042555	MCM complex
 http://purl.obolibrary.org/obo/GO_0002397	MHC class I protein complex assembly	http://purl.obolibrary.org/obo/GO_0042612	MHC class I protein complex
 http://purl.obolibrary.org/obo/GO_0002399	MHC class II protein complex assembly	http://purl.obolibrary.org/obo/GO_0042613	MHC class II protein complex
 http://purl.obolibrary.org/obo/GO_0002398	MHC class Ib protein complex assembly	http://purl.obolibrary.org/obo/GO_0032398	MHC class Ib protein complex
 http://purl.obolibrary.org/obo/GO_0002396	MHC protein complex assembly	http://purl.obolibrary.org/obo/GO_0042611	MHC protein complex
+http://purl.obolibrary.org/obo/GO_0072685	Mre11 complex assembly	http://purl.obolibrary.org/obo/GO_0030870	Mre11 complex
 http://purl.obolibrary.org/obo/GO_0010275	NAD(P)H dehydrogenase complex assembly	http://purl.obolibrary.org/obo/GO_0010598	NAD(P)H dehydrogenase complex (plastoquinone)
 http://purl.obolibrary.org/obo/GO_0010258	NADH dehydrogenase complex (plastoquinone) assembly	http://purl.obolibrary.org/obo/GO_0071685	NADH dehydrogenase complex (plastoquinone)
-http://purl.obolibrary.org/obo/GO_1904784	NLRP1 inflammasome complex assembly	http://purl.obolibrary.org/obo/GO_0072558	NLRP1 inflammasome complex
-http://purl.obolibrary.org/obo/GO_0044546	NLRP3 inflammasome complex assembly	http://purl.obolibrary.org/obo/GO_0072559	NLRP3 inflammasome complex
-http://purl.obolibrary.org/obo/GO_0044768	NMS complex assembly	http://purl.obolibrary.org/obo/GO_0031617	NMS complex
+http://purl.obolibrary.org/obo/GO_0010257	NADH dehydrogenase complex assembly	http://purl.obolibrary.org/obo/GO_0030964	NADH dehydrogenase complex
+http://purl.obolibrary.org/obo/GO_0007287	Nebenkern assembly	http://purl.obolibrary.org/obo/GO_0016006	Nebenkern
 http://purl.obolibrary.org/obo/GO_1903863	P granule assembly	http://purl.obolibrary.org/obo/GO_0043186	P granule
 http://purl.obolibrary.org/obo/GO_0033962	P-body assembly	http://purl.obolibrary.org/obo/GO_0000932	P-body
 http://purl.obolibrary.org/obo/GO_1904802	RITS complex assembly	http://purl.obolibrary.org/obo/GO_0030958	RITS complex
+http://purl.obolibrary.org/obo/GO_1990113	RNA polymerase I assembly	http://purl.obolibrary.org/obo/GO_0005736	RNA polymerase I complex
+http://purl.obolibrary.org/obo/GO_1990114	RNA polymerase II core complex assembly	http://purl.obolibrary.org/obo/GO_0005665	RNA polymerase II, core complex
+http://purl.obolibrary.org/obo/GO_1990115	RNA polymerase III assembly	http://purl.obolibrary.org/obo/GO_0005666	RNA polymerase III complex
 http://purl.obolibrary.org/obo/GO_0036285	SAGA complex assembly	http://purl.obolibrary.org/obo/GO_0000124	SAGA complex
-http://purl.obolibrary.org/obo/GO_0007183	SMAD protein complex assembly	http://purl.obolibrary.org/obo/GO_0071141	SMAD protein complex
+http://purl.obolibrary.org/obo/GO_0010265	SCF complex assembly	http://purl.obolibrary.org/obo/GO_0019005	SCF ubiquitin ligase complex
 http://purl.obolibrary.org/obo/GO_0035493	SNARE complex assembly	http://purl.obolibrary.org/obo/GO_0031201	SNARE complex
 http://purl.obolibrary.org/obo/GO_0036399	TCR signalosome assembly	http://purl.obolibrary.org/obo/GO_0036398	TCR signalosome
 http://purl.obolibrary.org/obo/GO_1905669	TORC1 complex assembly	http://purl.obolibrary.org/obo/GO_0031931	TORC1 complex
@@ -40,11 +47,11 @@ http://purl.obolibrary.org/obo/GO_1905350	Y-shaped link assembly	http://purl.obo
 http://purl.obolibrary.org/obo/GO_0001675	acrosome assembly	http://purl.obolibrary.org/obo/GO_0001669	acrosomal vesicle
 http://purl.obolibrary.org/obo/GO_0000147	actin cortical patch assembly	http://purl.obolibrary.org/obo/GO_0030479	actin cortical patch
 http://purl.obolibrary.org/obo/GO_0051017	actin filament bundle assembly	http://purl.obolibrary.org/obo/GO_0032432	actin filament bundle
-http://purl.obolibrary.org/obo/GO_1904600	actin fusion focus assembly	http://purl.obolibrary.org/obo/GO_1990819	actin fusion focus
 http://purl.obolibrary.org/obo/GO_0031247	actin rod assembly	http://purl.obolibrary.org/obo/GO_0031002	actin rod
 http://purl.obolibrary.org/obo/GO_0000915	actomyosin contractile ring assembly	http://purl.obolibrary.org/obo/GO_0005826	actomyosin contractile ring
 http://purl.obolibrary.org/obo/GO_0034333	adherens junction assembly	http://purl.obolibrary.org/obo/GO_0005912	adherens junction
 http://purl.obolibrary.org/obo/GO_0070842	aggresome assembly	http://purl.obolibrary.org/obo/GO_0016235	aggresome
+http://purl.obolibrary.org/obo/GO_1904824	anaphase-promoting complex assembly	http://purl.obolibrary.org/obo/GO_0005680	anaphase-promoting complex
 http://purl.obolibrary.org/obo/GO_0043297	apical junction assembly	http://purl.obolibrary.org/obo/GO_0043296	apical junction complex
 http://purl.obolibrary.org/obo/GO_0097314	apoptosome assembly	http://purl.obolibrary.org/obo/GO_0043293	apoptosome
 http://purl.obolibrary.org/obo/GO_0030476	ascospore wall assembly	http://purl.obolibrary.org/obo/GO_0005619	ascospore wall
@@ -52,14 +59,17 @@ http://purl.obolibrary.org/obo/GO_0031321	ascospore-type prospore assembly	http:
 http://purl.obolibrary.org/obo/GO_0032120	ascospore-type prospore membrane formation	http://purl.obolibrary.org/obo/GO_0005628	prospore membrane
 http://purl.obolibrary.org/obo/GO_0042243	asexual spore wall assembly	http://purl.obolibrary.org/obo/GO_0097515	asexual spore wall
 http://purl.obolibrary.org/obo/GO_1902626	assembly of large subunit precursor of preribosome	http://purl.obolibrary.org/obo/GO_0030687	preribosome, large subunit precursor
+http://purl.obolibrary.org/obo/GO_0000045	autophagosome assembly	http://purl.obolibrary.org/obo/GO_0005776	autophagosome
 http://purl.obolibrary.org/obo/GO_1904158	axonemal central apparatus assembly	http://purl.obolibrary.org/obo/GO_1990716	axonemal central apparatus
 http://purl.obolibrary.org/obo/GO_0070286	axonemal dynein complex assembly	http://purl.obolibrary.org/obo/GO_0005858	axonemal dynein complex
 http://purl.obolibrary.org/obo/GO_0035082	axoneme assembly	http://purl.obolibrary.org/obo/GO_0005930	axoneme
 http://purl.obolibrary.org/obo/GO_0044780	bacterial-type flagellum assembly	http://purl.obolibrary.org/obo/GO_0009288	bacterial-type flagellum
 http://purl.obolibrary.org/obo/GO_0070831	basement membrane assembly	http://purl.obolibrary.org/obo/GO_0005604	basement membrane
 http://purl.obolibrary.org/obo/GO_1904885	beta-catenin destruction complex assembly	http://purl.obolibrary.org/obo/GO_0030877	beta-catenin destruction complex
+http://purl.obolibrary.org/obo/GO_1904837	beta-catenin-TCF complex assembly	http://purl.obolibrary.org/obo/GO_1990907	beta-catenin-TCF complex
 http://purl.obolibrary.org/obo/GO_0070830	bicellular tight junction assembly	http://purl.obolibrary.org/obo/GO_0005923	bicellular tight junction
 http://purl.obolibrary.org/obo/GO_0140528	bilobe structure assembly	http://purl.obolibrary.org/obo/GO_0120120	bilobe structure
+http://purl.obolibrary.org/obo/GO_0032060	bleb assembly	http://purl.obolibrary.org/obo/GO_0032059	bleb
 http://purl.obolibrary.org/obo/GO_0000492	box C/D snoRNP assembly	http://purl.obolibrary.org/obo/GO_0031428	box C/D RNP complex
 http://purl.obolibrary.org/obo/GO_0000493	box H/ACA snoRNP assembly	http://purl.obolibrary.org/obo/GO_0031429	box H/ACA snoRNP complex
 http://purl.obolibrary.org/obo/GO_1904970	brush border assembly	http://purl.obolibrary.org/obo/GO_0005903	brush border
@@ -70,9 +80,12 @@ http://purl.obolibrary.org/obo/GO_0000919	cell plate assembly	http://purl.obolib
 http://purl.obolibrary.org/obo/GO_0030031	cell projection assembly	http://purl.obolibrary.org/obo/GO_0042995	cell projection
 http://purl.obolibrary.org/obo/GO_0090529	cell septum assembly	http://purl.obolibrary.org/obo/GO_0030428	cell septum
 http://purl.obolibrary.org/obo/GO_0070726	cell wall assembly	http://purl.obolibrary.org/obo/GO_0005618	cell wall
+http://purl.obolibrary.org/obo/GO_0044575	cellulosome assembly	http://purl.obolibrary.org/obo/GO_0043263	cellulosome
+http://purl.obolibrary.org/obo/GO_0098534	centriole assembly	http://purl.obolibrary.org/obo/GO_0005814	centriole
+http://purl.obolibrary.org/obo/GO_0034508	centromere complex assembly	http://purl.obolibrary.org/obo/GO_0000775	chromosome, centromeric region
 http://purl.obolibrary.org/obo/GO_1904763	chaperone-mediated autophagy translocation complex assembly	http://purl.obolibrary.org/obo/GO_0061742	chaperone-mediated autophagy translocation complex
 http://purl.obolibrary.org/obo/GO_0051026	chiasma assembly	http://purl.obolibrary.org/obo/GO_0005712	chiasma
-http://purl.obolibrary.org/obo/GO_0031497	chromatin assembly	http://purl.obolibrary.org/obo/GO_0000785	chromatin
+http://purl.obolibrary.org/obo/GO_0033614	chloroplast proton-transporting ATP synthase complex assembly	http://purl.obolibrary.org/obo/GO_0045320	chloroplast proton-transporting ATP synthase complex
 http://purl.obolibrary.org/obo/GO_0034378	chylomicron assembly	http://purl.obolibrary.org/obo/GO_0042627	chylomicron
 http://purl.obolibrary.org/obo/GO_0120273	ciliary centrin arm assembly	http://purl.obolibrary.org/obo/GO_0120269	ciliary centrin arm
 http://purl.obolibrary.org/obo/GO_1905352	ciliary necklace assembly	http://purl.obolibrary.org/obo/GO_0097538	ciliary necklace
@@ -80,27 +93,33 @@ http://purl.obolibrary.org/obo/GO_1905353	ciliary transition fiber assembly	http
 http://purl.obolibrary.org/obo/GO_1905349	ciliary transition zone assembly	http://purl.obolibrary.org/obo/GO_0035869	ciliary transition zone
 http://purl.obolibrary.org/obo/GO_1905556	ciliary vesicle assembly	http://purl.obolibrary.org/obo/GO_0097721	ciliary vesicle
 http://purl.obolibrary.org/obo/GO_0060271	cilium assembly	http://purl.obolibrary.org/obo/GO_0005929	cilium
-http://purl.obolibrary.org/obo/GO_1905224	clathrin-coated pit assembly	http://purl.obolibrary.org/obo/GO_0005905	clathrin-coated pit
 http://purl.obolibrary.org/obo/GO_0030038	contractile actin filament bundle assembly	http://purl.obolibrary.org/obo/GO_0097517	contractile actin filament bundle
 http://purl.obolibrary.org/obo/GO_1903575	cornified envelope assembly	http://purl.obolibrary.org/obo/GO_0001533	cornified envelope
 http://purl.obolibrary.org/obo/GO_0098775	curli assembly	http://purl.obolibrary.org/obo/GO_0098774	curli
 http://purl.obolibrary.org/obo/GO_0010190	cytochrome b6f complex assembly	http://purl.obolibrary.org/obo/GO_0009512	cytochrome b6f complex
 http://purl.obolibrary.org/obo/GO_0017004	cytochrome complex assembly	http://purl.obolibrary.org/obo/GO_0070069	cytochrome complex
+http://purl.obolibrary.org/obo/GO_0035231	cytoneme assembly	http://purl.obolibrary.org/obo/GO_0035230	cytoneme
 http://purl.obolibrary.org/obo/GO_1990194	cytoplasmic U snRNP body assembly	http://purl.obolibrary.org/obo/GO_0071254	cytoplasmic U snRNP body
 http://purl.obolibrary.org/obo/GO_0071550	death-inducing signaling complex assembly	http://purl.obolibrary.org/obo/GO_0031264	death-inducing signaling complex
+http://purl.obolibrary.org/obo/GO_0097026	dendritic cell dendrite assembly	http://purl.obolibrary.org/obo/GO_0097511	dendritic cell dendrite
 http://purl.obolibrary.org/obo/GO_0002159	desmosome assembly	http://purl.obolibrary.org/obo/GO_0030057	desmosome
+http://purl.obolibrary.org/obo/GO_0042714	dosage compensation complex assembly	http://purl.obolibrary.org/obo/GO_0046536	dosage compensation complex
 http://purl.obolibrary.org/obo/GO_0070941	eisosome assembly	http://purl.obolibrary.org/obo/GO_0032126	eisosome
 http://purl.obolibrary.org/obo/GO_0048251	elastic fiber assembly	http://purl.obolibrary.org/obo/GO_0071953	elastic fiber
 http://purl.obolibrary.org/obo/GO_0071784	endoplasmic reticulum cisternal network assembly	http://purl.obolibrary.org/obo/GO_0071781	endoplasmic reticulum cisternal network
 http://purl.obolibrary.org/obo/GO_0071787	endoplasmic reticulum tubular network formation	http://purl.obolibrary.org/obo/GO_0071782	endoplasmic reticulum tubular network
+http://purl.obolibrary.org/obo/GO_1904185	equatorial microtubule organizing center assembly	http://purl.obolibrary.org/obo/GO_0000923	equatorial microtubule organizing center
 http://purl.obolibrary.org/obo/GO_1905143	eukaryotic translation initiation factor 2 complex assembly	http://purl.obolibrary.org/obo/GO_0005850	eukaryotic translation initiation factor 2 complex
 http://purl.obolibrary.org/obo/GO_1905173	eukaryotic translation initiation factor 2B complex assembly	http://purl.obolibrary.org/obo/GO_0005851	eukaryotic translation initiation factor 2B complex
 http://purl.obolibrary.org/obo/GO_0070196	eukaryotic translation initiation factor 3 complex assembly	http://purl.obolibrary.org/obo/GO_0005852	eukaryotic translation initiation factor 3 complex
 http://purl.obolibrary.org/obo/GO_0097010	eukaryotic translation initiation factor 4F complex assembly	http://purl.obolibrary.org/obo/GO_0016281	eukaryotic translation initiation factor 4F complex
 http://purl.obolibrary.org/obo/GO_0001927	exocyst assembly	http://purl.obolibrary.org/obo/GO_0000145	exocyst
+http://purl.obolibrary.org/obo/GO_1903040	exon-exon junction complex assembly	http://purl.obolibrary.org/obo/GO_0035145	exon-exon junction complex
 http://purl.obolibrary.org/obo/GO_0070499	exosporium assembly	http://purl.obolibrary.org/obo/GO_0043592	exosporium
 http://purl.obolibrary.org/obo/GO_0071971	extracellular exosome assembly	http://purl.obolibrary.org/obo/GO_0070062	extracellular exosome
 http://purl.obolibrary.org/obo/GO_0085029	extracellular matrix assembly	http://purl.obolibrary.org/obo/GO_0031012	extracellular matrix
+http://purl.obolibrary.org/obo/GO_0035038	female pronucleus assembly	http://purl.obolibrary.org/obo/GO_0001939	female pronucleus
+http://purl.obolibrary.org/obo/GO_0046847	filopodium assembly	http://purl.obolibrary.org/obo/GO_0030175	filopodium
 http://purl.obolibrary.org/obo/GO_0036058	filtration diaphragm assembly	http://purl.obolibrary.org/obo/GO_0036056	filtration diaphragm
 http://purl.obolibrary.org/obo/GO_0048041	focal adhesion assembly	http://purl.obolibrary.org/obo/GO_0005925	focal adhesion
 http://purl.obolibrary.org/obo/GO_0001732	formation of cytoplasmic translation initiation complex	http://purl.obolibrary.org/obo/GO_0070992	translation initiation complex
@@ -114,8 +133,6 @@ http://purl.obolibrary.org/obo/GO_0016264	gap junction assembly	http://purl.obol
 http://purl.obolibrary.org/obo/GO_0090391	granum assembly	http://purl.obolibrary.org/obo/GO_0009542	granum
 http://purl.obolibrary.org/obo/GO_1902900	gut granule assembly	http://purl.obolibrary.org/obo/GO_0044840	gut granule
 http://purl.obolibrary.org/obo/GO_0031581	hemidesmosome assembly	http://purl.obolibrary.org/obo/GO_0030056	hemidesmosome
-http://purl.obolibrary.org/obo/GO_1902795	heterochromatin domain assembly	http://purl.obolibrary.org/obo/GO_1990343	heterochromatin domain
-http://purl.obolibrary.org/obo/GO_1902794	heterochromatin island assembly	http://purl.obolibrary.org/obo/GO_1990342	heterochromatin island
 http://purl.obolibrary.org/obo/GO_1902605	heterotrimeric G-protein complex assembly	http://purl.obolibrary.org/obo/GO_0005834	heterotrimeric G-protein complex
 http://purl.obolibrary.org/obo/GO_0034380	high-density lipoprotein particle assembly	http://purl.obolibrary.org/obo/GO_0034364	high-density lipoprotein particle
 http://purl.obolibrary.org/obo/GO_0036118	hyaluranon cable assembly	http://purl.obolibrary.org/obo/GO_0036117	hyaluranon cable
@@ -124,19 +141,35 @@ http://purl.obolibrary.org/obo/GO_0036159	inner dynein arm assembly	http://purl.
 http://purl.obolibrary.org/obo/GO_0033622	integrin activation	http://purl.obolibrary.org/obo/GO_0008305	integrin complex
 http://purl.obolibrary.org/obo/GO_0031024	interphase microtubule organizing center assembly	http://purl.obolibrary.org/obo/GO_0031021	interphase microtubule organizing center
 http://purl.obolibrary.org/obo/GO_1905861	intranuclear rod assembly	http://purl.obolibrary.org/obo/GO_0061836	intranuclear rod
+http://purl.obolibrary.org/obo/GO_0061471	karyomere assembly	http://purl.obolibrary.org/obo/GO_0061468	karyomere
 http://purl.obolibrary.org/obo/GO_0051382	kinetochore assembly	http://purl.obolibrary.org/obo/GO_0000776	kinetochore
+http://purl.obolibrary.org/obo/GO_0030032	lamellipodium assembly	http://purl.obolibrary.org/obo/GO_0030027	lamellipodium
 http://purl.obolibrary.org/obo/GO_1903359	lateral cortical node assembly	http://purl.obolibrary.org/obo/GO_1990463	lateral cortical node
 http://purl.obolibrary.org/obo/GO_0051878	lateral element assembly	http://purl.obolibrary.org/obo/GO_0000800	lateral element
 http://purl.obolibrary.org/obo/GO_0030999	linear element assembly	http://purl.obolibrary.org/obo/GO_0030998	linear element
 http://purl.obolibrary.org/obo/GO_0060988	lipid tube assembly	http://purl.obolibrary.org/obo/GO_0060987	lipid tube
+http://purl.obolibrary.org/obo/GO_0110105	mRNA cleavage and polyadenylation specificity factor complex assembly	http://purl.obolibrary.org/obo/GO_0005847	mRNA cleavage and polyadenylation specificity factor complex
+http://purl.obolibrary.org/obo/GO_0035039	male pronucleus assembly	http://purl.obolibrary.org/obo/GO_0001940	male pronucleus
 http://purl.obolibrary.org/obo/GO_1905198	manchette assembly	http://purl.obolibrary.org/obo/GO_0002177	manchette
+http://purl.obolibrary.org/obo/GO_1904600	mating projection actin fusion focus assembly	http://purl.obolibrary.org/obo/GO_1990819	mating projection actin fusion focus
+http://purl.obolibrary.org/obo/GO_0031382	mating projection formation	http://purl.obolibrary.org/obo/GO_0005937	mating projection
 http://purl.obolibrary.org/obo/GO_0032130	medial membrane band assembly	http://purl.obolibrary.org/obo/GO_0032178	medial membrane band
+http://purl.obolibrary.org/obo/GO_0036034	mediator complex assembly	http://purl.obolibrary.org/obo/GO_0016592	mediator complex
 http://purl.obolibrary.org/obo/GO_1903232	melanosome assembly	http://purl.obolibrary.org/obo/GO_0042470	melanosome
 http://purl.obolibrary.org/obo/GO_0071709	membrane assembly	http://purl.obolibrary.org/obo/GO_0016020	membrane
 http://purl.obolibrary.org/obo/GO_0001765	membrane raft assembly	http://purl.obolibrary.org/obo/GO_0045121	membrane raft
 http://purl.obolibrary.org/obo/GO_1990120	messenger ribonucleoprotein complex assembly	http://purl.obolibrary.org/obo/GO_1990124	messenger ribonucleoprotein complex
+http://purl.obolibrary.org/obo/GO_0160054	microfibril assembly	http://purl.obolibrary.org/obo/GO_0001527	microfibril
+http://purl.obolibrary.org/obo/GO_0030035	microspike assembly	http://purl.obolibrary.org/obo/GO_0044393	microspike
 http://purl.obolibrary.org/obo/GO_0046785	microtubule polymerization	http://purl.obolibrary.org/obo/GO_0005874	microtubule
 http://purl.obolibrary.org/obo/GO_0030034	microvillar actin bundle assembly	http://purl.obolibrary.org/obo/GO_0097516	microvillar actin bundle
+http://purl.obolibrary.org/obo/GO_0030033	microvillus assembly	http://purl.obolibrary.org/obo/GO_0005902	microvillus
+http://purl.obolibrary.org/obo/GO_1902775	mitochondrial large ribosomal subunit assembly	http://purl.obolibrary.org/obo/GO_0005762	mitochondrial large ribosomal subunit
+http://purl.obolibrary.org/obo/GO_0070096	mitochondrial outer membrane translocase complex assembly	http://purl.obolibrary.org/obo/GO_0005742	mitochondrial outer membrane translocase complex
+http://purl.obolibrary.org/obo/GO_0097250	mitochondrial respirasome assembly	http://purl.obolibrary.org/obo/GO_0005746	mitochondrial respirasome
+http://purl.obolibrary.org/obo/GO_0032981	mitochondrial respiratory chain complex I assembly	http://purl.obolibrary.org/obo/GO_0005747	mitochondrial respiratory chain complex I
+http://purl.obolibrary.org/obo/GO_0061668	mitochondrial ribosome assembly	http://purl.obolibrary.org/obo/GO_0005761	mitochondrial ribosome
+http://purl.obolibrary.org/obo/GO_1905660	mitotic checkpoint complex assembly	http://purl.obolibrary.org/obo/GO_0033597	mitotic checkpoint complex
 http://purl.obolibrary.org/obo/GO_0044458	motile cilium assembly	http://purl.obolibrary.org/obo/GO_0031514	motile cilium
 http://purl.obolibrary.org/obo/GO_0036258	multivesicular body assembly	http://purl.obolibrary.org/obo/GO_0005771	multivesicular body
 http://purl.obolibrary.org/obo/GO_0032288	myelin assembly	http://purl.obolibrary.org/obo/GO_0043209	myelin sheath
@@ -145,8 +178,11 @@ http://purl.obolibrary.org/obo/GO_0031036	myosin II filament assembly	http://pur
 http://purl.obolibrary.org/obo/GO_0031034	myosin filament assembly	http://purl.obolibrary.org/obo/GO_0032982	myosin filament
 http://purl.obolibrary.org/obo/GO_0036059	nephrocyte diaphragm assembly	http://purl.obolibrary.org/obo/GO_0005917	nephrocyte diaphragm
 http://purl.obolibrary.org/obo/GO_1902988	neurofibrillary tangle assembly	http://purl.obolibrary.org/obo/GO_0097418	neurofibrillary tangle
+http://purl.obolibrary.org/obo/GO_0038099	nodal receptor complex assembly	http://purl.obolibrary.org/obo/GO_0038104	nodal receptor complex
+http://purl.obolibrary.org/obo/GO_0140694	non-membrane-bounded organelle assembly	http://purl.obolibrary.org/obo/GO_0043228	non-membrane-bounded organelle
 http://purl.obolibrary.org/obo/GO_1905515	non-motile cilium assembly	http://purl.obolibrary.org/obo/GO_0097730	non-motile cilium
 http://purl.obolibrary.org/obo/GO_1904258	nuclear dicing body assembly	http://purl.obolibrary.org/obo/GO_0010445	nuclear dicing body
+http://purl.obolibrary.org/obo/GO_0051292	nuclear pore complex assembly	http://purl.obolibrary.org/obo/GO_0005643	nuclear pore
 http://purl.obolibrary.org/obo/GO_0006334	nucleosome assembly	http://purl.obolibrary.org/obo/GO_0000786	nucleosome
 http://purl.obolibrary.org/obo/GO_0006294	nucleotide-excision repair, preincision complex assembly	http://purl.obolibrary.org/obo/GO_0097520	nucleotide-excision repair, preincision complex
 http://purl.obolibrary.org/obo/GO_0070925	organelle assembly	http://purl.obolibrary.org/obo/GO_0043226	organelle
@@ -158,15 +194,20 @@ http://purl.obolibrary.org/obo/GO_0030913	paranodal junction assembly	http://pur
 http://purl.obolibrary.org/obo/GO_0001845	phagolysosome assembly	http://purl.obolibrary.org/obo/GO_0032010	phagolysosome
 http://purl.obolibrary.org/obo/GO_0048564	photosystem I assembly	http://purl.obolibrary.org/obo/GO_0009522	photosystem I
 http://purl.obolibrary.org/obo/GO_0010207	photosystem II assembly	http://purl.obolibrary.org/obo/GO_0009523	photosystem II
+http://purl.obolibrary.org/obo/GO_0010270	photosystem II oxygen evolving complex assembly	http://purl.obolibrary.org/obo/GO_0009654	photosystem II oxygen evolving complex
 http://purl.obolibrary.org/obo/GO_0000914	phragmoplast assembly	http://purl.obolibrary.org/obo/GO_0009524	phragmoplast
 http://purl.obolibrary.org/obo/GO_0009297	pilus assembly	http://purl.obolibrary.org/obo/GO_0009289	pilus
 http://purl.obolibrary.org/obo/GO_0071668	plant-type cell wall assembly	http://purl.obolibrary.org/obo/GO_0009505	plant-type cell wall
 http://purl.obolibrary.org/obo/GO_0034377	plasma lipoprotein particle assembly	http://purl.obolibrary.org/obo/GO_0034358	plasma lipoprotein particle
+http://purl.obolibrary.org/obo/GO_0120031	plasma membrane bounded cell projection assembly	http://purl.obolibrary.org/obo/GO_0120025	plasma membrane bounded cell projection
+http://purl.obolibrary.org/obo/GO_0033616	plasma membrane proton-transporting ATP synthase complex assembly	http://purl.obolibrary.org/obo/GO_0045260	plasma membrane proton-transporting ATP synthase complex
 http://purl.obolibrary.org/obo/GO_0044854	plasma membrane raft assembly	http://purl.obolibrary.org/obo/GO_0044853	plasma membrane raft
 http://purl.obolibrary.org/obo/GO_0033618	plasma membrane respiratory chain complex IV assembly	http://purl.obolibrary.org/obo/GO_0045278	plasma membrane respiratory chain complex IV
+http://purl.obolibrary.org/obo/GO_0071800	podosome assembly	http://purl.obolibrary.org/obo/GO_0002102	podosome
 http://purl.obolibrary.org/obo/GO_0007315	pole plasm assembly	http://purl.obolibrary.org/obo/GO_0045495	pole plasm
 http://purl.obolibrary.org/obo/GO_0062075	pollen aperture formation	http://purl.obolibrary.org/obo/GO_0062074	pollen aperture
 http://purl.obolibrary.org/obo/GO_0010584	pollen exine formation	http://purl.obolibrary.org/obo/GO_0043668	exine
+http://purl.obolibrary.org/obo/GO_0160030	pollen intine formation	http://purl.obolibrary.org/obo/GO_0043678	intine
 http://purl.obolibrary.org/obo/GO_0010208	pollen wall assembly	http://purl.obolibrary.org/obo/GO_0043667	pollen wall
 http://purl.obolibrary.org/obo/GO_0046931	pore complex assembly	http://purl.obolibrary.org/obo/GO_0046930	pore complex
 http://purl.obolibrary.org/obo/GO_0036388	pre-replicative complex assembly	http://purl.obolibrary.org/obo/GO_0036387	pre-replicative complex
@@ -175,24 +216,27 @@ http://purl.obolibrary.org/obo/GO_1904071	presynaptic active zone assembly	http:
 http://purl.obolibrary.org/obo/GO_0043248	proteasome assembly	http://purl.obolibrary.org/obo/GO_0000502	proteasome complex
 http://purl.obolibrary.org/obo/GO_0080129	proteasome core complex assembly	http://purl.obolibrary.org/obo/GO_0005839	proteasome core complex
 http://purl.obolibrary.org/obo/GO_0070682	proteasome regulatory particle assembly	http://purl.obolibrary.org/obo/GO_0005838	proteasome regulatory particle
+http://purl.obolibrary.org/obo/GO_1902906	proteasome storage granule assembly	http://purl.obolibrary.org/obo/GO_0034515	proteasome storage granule
 http://purl.obolibrary.org/obo/GO_0035362	protein-DNA ISRE complex assembly	http://purl.obolibrary.org/obo/GO_0097522	protein-DNA ISRE complex
 http://purl.obolibrary.org/obo/GO_0065004	protein-DNA complex assembly	http://purl.obolibrary.org/obo/GO_0032993	protein-DNA complex
 http://purl.obolibrary.org/obo/GO_0001116	protein-DNA-RNA complex assembly	http://purl.obolibrary.org/obo/GO_0001114	protein-DNA-RNA complex
+http://purl.obolibrary.org/obo/GO_0022618	protein-RNA complex assembly	http://purl.obolibrary.org/obo/GO_1990904	ribonucleoprotein complex
 http://purl.obolibrary.org/obo/GO_0065003	protein-containing complex assembly	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex
 http://purl.obolibrary.org/obo/GO_0065005	protein-lipid complex assembly	http://purl.obolibrary.org/obo/GO_0032994	protein-lipid complex
 http://purl.obolibrary.org/obo/GO_0043461	proton-transporting ATP synthase complex assembly	http://purl.obolibrary.org/obo/GO_0045259	proton-transporting ATP synthase complex
 http://purl.obolibrary.org/obo/GO_0070070	proton-transporting V-type ATPase complex assembly	http://purl.obolibrary.org/obo/GO_0033176	proton-transporting V-type ATPase complex
 http://purl.obolibrary.org/obo/GO_0070071	proton-transporting two-sector ATPase complex assembly	http://purl.obolibrary.org/obo/GO_0016469	proton-transporting two-sector ATPase complex
 http://purl.obolibrary.org/obo/GO_0062163	pseudohyphal septin ring assembly	http://purl.obolibrary.org/obo/GO_0032170	pseudohyphal septin ring
+http://purl.obolibrary.org/obo/GO_0031269	pseudopodium assembly	http://purl.obolibrary.org/obo/GO_0031143	pseudopodium
 http://purl.obolibrary.org/obo/GO_1904270	pyroptosome complex assembly	http://purl.obolibrary.org/obo/GO_0061703	pyroptosome complex
 http://purl.obolibrary.org/obo/GO_0034552	respiratory chain complex II assembly	http://purl.obolibrary.org/obo/GO_0045273	respiratory chain complex II
 http://purl.obolibrary.org/obo/GO_0017062	respiratory chain complex III assembly	http://purl.obolibrary.org/obo/GO_0045275	respiratory chain complex III
 http://purl.obolibrary.org/obo/GO_0008535	respiratory chain complex IV assembly	http://purl.obolibrary.org/obo/GO_0045277	respiratory chain complex IV
-http://purl.obolibrary.org/obo/GO_0022618	ribonucleoprotein complex assembly	http://purl.obolibrary.org/obo/GO_1990904	ribonucleoprotein complex
 http://purl.obolibrary.org/obo/GO_0000027	ribosomal large subunit assembly	http://purl.obolibrary.org/obo/GO_0015934	large ribosomal subunit
 http://purl.obolibrary.org/obo/GO_0000028	ribosomal small subunit assembly	http://purl.obolibrary.org/obo/GO_0015935	small ribosomal subunit
+http://purl.obolibrary.org/obo/GO_0042255	ribosome assembly	http://purl.obolibrary.org/obo/GO_0005840	ribosome
 http://purl.obolibrary.org/obo/GO_0097343	ripoptosome assembly	http://purl.obolibrary.org/obo/GO_0097342	ripoptosome
-http://purl.obolibrary.org/obo/GO_0035986	senescence-associated heterochromatin focus assembly	http://purl.obolibrary.org/obo/GO_0035985	senescence-associated heterochromatin focus
+http://purl.obolibrary.org/obo/GO_0097178	ruffle assembly	http://purl.obolibrary.org/obo/GO_0001726	ruffle
 http://purl.obolibrary.org/obo/GO_0019991	septate junction assembly	http://purl.obolibrary.org/obo/GO_0005918	septate junction
 http://purl.obolibrary.org/obo/GO_0000921	septin ring assembly	http://purl.obolibrary.org/obo/GO_0005940	septin ring
 http://purl.obolibrary.org/obo/GO_0034294	sexual spore wall assembly	http://purl.obolibrary.org/obo/GO_0097514	sexual spore wall
@@ -202,6 +246,7 @@ http://purl.obolibrary.org/obo/GO_0036060	slit diaphragm assembly	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0000491	small nucleolar ribonucleoprotein complex assembly	http://purl.obolibrary.org/obo/GO_0005732	sno(s)RNA-containing ribonucleoprotein complex
 http://purl.obolibrary.org/obo/GO_0034462	small-subunit processome assembly	http://purl.obolibrary.org/obo/GO_0032040	small-subunit processome
 http://purl.obolibrary.org/obo/GO_0090528	smooth septate junction assembly	http://purl.obolibrary.org/obo/GO_0005920	smooth septate junction
+http://purl.obolibrary.org/obo/GO_0051225	spindle assembly	http://purl.obolibrary.org/obo/GO_0005819	spindle
 http://purl.obolibrary.org/obo/GO_0051255	spindle midzone assembly	http://purl.obolibrary.org/obo/GO_0051233	spindle midzone
 http://purl.obolibrary.org/obo/GO_0030474	spindle pole body duplication	http://purl.obolibrary.org/obo/GO_0005816	spindle pole body
 http://purl.obolibrary.org/obo/GO_1905355	spine apparatus assembly	http://purl.obolibrary.org/obo/GO_0097444	spine apparatus
@@ -216,13 +261,19 @@ http://purl.obolibrary.org/obo/GO_0071688	striated muscle myosin thick filament 
 http://purl.obolibrary.org/obo/GO_0007130	synaptonemal complex assembly	http://purl.obolibrary.org/obo/GO_0000795	synaptonemal complex
 http://purl.obolibrary.org/obo/GO_1904868	telomerase catalytic core complex assembly	http://purl.obolibrary.org/obo/GO_0000333	telomerase catalytic core complex
 http://purl.obolibrary.org/obo/GO_1905323	telomerase holoenzyme complex assembly	http://purl.obolibrary.org/obo/GO_0005697	telomerase holoenzyme complex
+http://purl.obolibrary.org/obo/GO_0032202	telomere assembly	http://purl.obolibrary.org/obo/GO_0000781	chromosome, telomeric region
 http://purl.obolibrary.org/obo/GO_1905324	telomere-telomerase complex assembly	http://purl.obolibrary.org/obo/GO_0070565	telomere-telomerase complex
+http://purl.obolibrary.org/obo/GO_1902896	terminal web assembly	http://purl.obolibrary.org/obo/GO_1990357	terminal web
 http://purl.obolibrary.org/obo/GO_0120192	tight junction assembly	http://purl.obolibrary.org/obo/GO_0070160	tight junction
+http://purl.obolibrary.org/obo/GO_0070217	transcription factor TFIIIB complex assembly	http://purl.obolibrary.org/obo/GO_0000126	transcription factor TFIIIB complex
 http://purl.obolibrary.org/obo/GO_0070897	transcription preinitiation complex assembly	http://purl.obolibrary.org/obo/GO_0097550	transcription preinitiation complex
 http://purl.obolibrary.org/obo/GO_1904274	tricellular tight junction assembly	http://purl.obolibrary.org/obo/GO_0061689	tricellular tight junction
 http://purl.obolibrary.org/obo/GO_1905499	trichome papilla formation	http://purl.obolibrary.org/obo/GO_0090705	trichome papilla
 http://purl.obolibrary.org/obo/GO_0007021	tubulin complex assembly	http://purl.obolibrary.org/obo/GO_0045298	tubulin complex
 http://purl.obolibrary.org/obo/GO_0140623	type I pilus assembly	http://purl.obolibrary.org/obo/GO_0140621	type I pilus
 http://purl.obolibrary.org/obo/GO_0043683	type IV pilus assembly	http://purl.obolibrary.org/obo/GO_0044096	type IV pilus
+http://purl.obolibrary.org/obo/GO_0034460	uropod assembly	http://purl.obolibrary.org/obo/GO_0001931	uropod
+http://purl.obolibrary.org/obo/GO_0070072	vacuolar proton-transporting V-type ATPase complex assembly	http://purl.obolibrary.org/obo/GO_0016471	vacuolar proton-transporting V-type ATPase complex
 http://purl.obolibrary.org/obo/GO_0034379	very-low-density lipoprotein particle assembly	http://purl.obolibrary.org/obo/GO_0034361	very-low-density lipoprotein particle
+http://purl.obolibrary.org/obo/GO_0070978	voltage-gated calcium channel complex assembly	http://purl.obolibrary.org/obo/GO_0005891	voltage-gated calcium channel complex
 http://purl.obolibrary.org/obo/GO_0045186	zonula adherens assembly	http://purl.obolibrary.org/obo/GO_0005915	zonula adherens

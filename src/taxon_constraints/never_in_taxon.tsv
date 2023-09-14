@@ -64,7 +64,6 @@ GO:0007140	male meiotic nuclear division	NCBITaxon:4751	Fungi
 GO:0007143	female meiotic nuclear division	NCBITaxon:4751	Fungi	
 GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:33090	Viridiplantae	
 GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
-GO:0007182	common-partner SMAD protein phosphorylation	NCBITaxon:4751	Fungi	
 GO:0007218	neuropeptide signaling pathway	NCBITaxon:4751	Fungi	
 GO:0007252	I-kappaB phosphorylation	NCBITaxon:4751	Fungi	
 GO:0007258	JUN phosphorylation	NCBITaxon:4895	Schizosaccharomyces	
@@ -124,12 +123,11 @@ GO:0014832	urinary bladder smooth muscle contraction	NCBITaxon:8782	Aves
 GO:0015979	photosynthesis	NCBITaxon:33208	Metazoa	
 GO:0015979	photosynthesis	NCBITaxon:4895	Schizosaccharomyces	
 GO:0015994	chlorophyll metabolic process	NCBITaxon:33208	Metazoa	
-GO:0016032	viral process	NCBITaxon:4751	Fungi	
+GO:0016032	viral process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0016116	carotenoid metabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0016116	carotenoid metabolic process	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0016168	chlorophyll binding	NCBITaxon:33208	Metazoa	
 GO:0016206	catechol O-methyltransferase activity	NCBITaxon:4890	Ascomycota	
-GO:0016246	RNA interference	NCBITaxon:4895	Schizosaccharomyces	
 GO:0016456	X chromosome located dosage compensation complex, transcription activating	NCBITaxon:8782	Aves	
 GO:0016528	sarcoplasm	NCBITaxon:4751	Fungi	
 GO:0017147	Wnt-protein binding	NCBITaxon:4751	Fungi	
@@ -144,7 +142,6 @@ GO:0030054	cell junction	NCBITaxon:4751	Fungi
 GO:0030141	secretory granule	NCBITaxon:4890	Ascomycota	
 GO:0030436	asexual sporulation	NCBITaxon:33083	Dictyostelids	
 GO:0030492	hemoglobin binding	NCBITaxon:4751	Fungi	
-GO:0030579	ubiquitin-dependent SMAD protein catabolic process	NCBITaxon:4751	Fungi	
 GO:0030634	carbon fixation by acetyl-CoA pathway	NCBITaxon:2759	Eukaryota	
 GO:0030881	beta-2-microglobulin binding	NCBITaxon:4751	Fungi	
 GO:0030984	kininogen binding	NCBITaxon:4751	Fungi	
@@ -161,6 +158,8 @@ GO:0031556	transcriptional attenuation by ribosome	NCBITaxon:2759	Eukaryota
 GO:0031720	haptoglobin binding	NCBITaxon:4751	Fungi	
 GO:0032501	multicellular organismal process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0032501	multicellular organismal process	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0032501	multicellular organismal process	NCBITaxon:2	Bacteria	
+GO:0032501	multicellular organismal process	NCBITaxon:2157	Archaea	
 GO:0034185	apolipoprotein binding	NCBITaxon:4751	Fungi	
 GO:0034189	very-low-density lipoprotein particle binding	NCBITaxon:4751	Fungi	
 GO:0034293	sexual sporulation	NCBITaxon:33083	Dictyostelids	
@@ -178,7 +177,6 @@ GO:0039679	viral occlusion body	NCBITaxon:131567	cellular organisms
 GO:0040011	locomotion	NCBITaxon:451864	Dikarya	
 GO:0042023	DNA endoreduplication	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0042127	regulation of cell proliferation	NCBITaxon:4751	Fungi	
-GO:0042133	neurotransmitter metabolic process	NCBITaxon:4895	Schizosaccharomyces	
 GO:0042445	hormone metabolic process	NCBITaxon:4895	Schizosaccharomyces	
 GO:0042464	dosage compensation by hypoactivation of X chromosome	NCBITaxon:8782	Aves	
 GO:0042470	melanosome	NCBITaxon:4895	Schizosaccharomyces	
@@ -241,10 +239,6 @@ GO:0060271	cilium assembly	NCBITaxon:3378	Gnetales
 GO:0060271	cilium assembly	NCBITaxon:3398	Magnoliophyta	
 GO:0060271	cilium assembly	NCBITaxon:4890	Ascomycota	
 GO:0060271	cilium assembly	NCBITaxon:5782	Dictyostelium	
-GO:0060389	pathway-restricted SMAD protein phosphorylation	NCBITaxon:4751	Fungi	
-GO:0060390	regulation of SMAD protein signal transduction	NCBITaxon:4751	Fungi	
-GO:0060393	regulation of pathway-restricted SMAD protein phosphorylation	NCBITaxon:4751	Fungi	
-GO:0060395	SMAD protein signal transduction	NCBITaxon:4751	Fungi	
 GO:0060539	diaphragm development	NCBITaxon:8782	Aves	
 GO:0060540	diaphragm morphogenesis	NCBITaxon:8782	Aves	
 GO:0061675	RBL family protein binding	NCBITaxon:4751	Fungi	
@@ -347,7 +341,6 @@ GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:3398	Magnoliop
 GO:0098521	inhibitory neuromuscular junction	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0098769	TIMP family protein binding	NCBITaxon:4751	Fungi	
 GO:0098770	FBXO family protein binding	NCBITaxon:4751	Fungi	
-GO:0099536	synaptic signaling	NCBITaxon:4895	Schizosaccharomyces	
 GO:0102084	L-dopa O-methyltransferase activity	NCBITaxon:4890	Ascomycota	
 GO:0102938	orcinol O-methyltransferase activity	NCBITaxon:4890	Ascomycota	
 GO:0120164	conidium germination	NCBITaxon:147554	Schizosaccharomycetes	
@@ -357,14 +350,12 @@ GO:0120164	conidium germination	NCBITaxon:241407	Saccharomycetales incertae sedi
 GO:0120164	conidium germination	NCBITaxon:33208	Metazoa	
 GO:0120164	conidium germination	NCBITaxon:451866	Taphrinomycotina	
 GO:0120164	conidium germination	NCBITaxon:4930	Saccharomyces	
-GO:1900095	regulation of dosage compensation by inactivation of X chromosome	NCBITaxon:8782	Aves	
 GO:1901142	insulin metabolic process	NCBITaxon:33090	Viridiplantae	
 GO:1901142	insulin metabolic process	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
 GO:1903719	regulation of I-kappaB phosphorylation	NCBITaxon:4751	Fungi	
 GO:1904019	epithelial cell apoptotic process	NCBITaxon:33090	Viridiplantae	
 GO:1904019	epithelial cell apoptotic process	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
 GO:1990182	exosomal secretion	NCBITaxon:4890	Ascomycota	
-GO:1990257	piccolo-bassoon transport vesicle	NCBITaxon:4895	Schizosaccharomyces	
 GO:1990377	organomineral extracellular matrix	NCBITaxon:33090	Viridiplantae	
 GO:1990377	organomineral extracellular matrix	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
 GO:1990405	protein antigen binding	NCBITaxon:4751	Fungi	
@@ -389,7 +380,6 @@ GO:0014719	skeletal muscle satellite cell activation	NCBITaxon:4751	Fungi
 GO:2000097	regulation of smooth muscle cell-matrix adhesion	NCBITaxon:4751	Fungi	
 GO:0035994	response to muscle stretch	NCBITaxon:4751	Fungi	
 GO:0035995	detection of muscle stretch	NCBITaxon:4751	Fungi	
-GO:0030964	NADH dehydrogenase complex	NCBITaxon:4751	Fungi	
 GO:0033651	host cell plastid	NCBITaxon:4751	Fungi	
 GO:1902949	positive regulation of tau-protein kinase activity	NCBITaxon:4751	Fungi	
 GO:1902947	regulation of tau-protein kinase activity	NCBITaxon:4751	Fungi	
@@ -478,7 +468,6 @@ GO:0098610	adhesion between unicellular organisms	NCBITaxon:33090	Viridiplantae
 GO:0001726	ruffle	NCBITaxon:4890	Ascomycota	
 GO:0043616	keratinocyte proliferation	NCBITaxon:6656	Arthropoda	
 GO:0043588	skin development	NCBITaxon:6656	Arthropoda	
-GO:0033561	regulation of water loss via skin	NCBITaxon:6656	Arthropoda	
 GO:0032980	keratinocyte activation	NCBITaxon:6656	Arthropoda	
 GO:0051546	keratinocyte migration	NCBITaxon:6656	Arthropoda	
 GO:0097283	keratinocyte apoptotic process	NCBITaxon:6656	Arthropoda	
@@ -491,7 +480,6 @@ GO:0002046	opsin binding	NCBITaxon:4751	Fungi
 GO:0005521	lamin binding	NCBITaxon:4751	Fungi	
 GO:0030492	hemoglobin binding	NCBITaxon:4751	Fungi	
 GO:0030881	beta-2-microglobulin binding	NCBITaxon:4751	Fungi	
-GO:0017147	Wnt-protein binding	NCBITaxon:4751	Fungi	
 GO:0019838	growth factor binding	NCBITaxon:4751	Fungi	
 GO:0019955	cytokine binding	NCBITaxon:4751	Fungi	
 GO:1990405	protein antigen binding	NCBITaxon:4751	Fungi	
@@ -522,7 +510,6 @@ GO:0005368	taurine transmembrane transporter activity	NCBITaxon:4751	Fungi
 GO:0015411	ATPase-coupled taurine transporter activity	NCBITaxon:4751	Fungi	
 GO:0000011	vacuole inheritance	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0071563	Myo2p-Vac17p-Vac8p transport complex	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0036473	cell death in response to oxidative stress	NCBITaxon:4890 	Ascomycota	
 GO:0031911	cytoproct	NCBITaxon:33208	Metazoa	
 GO:0044297	cell body	NCBITaxon:4890 	Ascomycota	
 GO:0045180	basal cortex	NCBITaxon:4890 	Ascomycota	
@@ -532,11 +519,12 @@ GO:0043202	lysosomal lumen	NCBITaxon:4751	Fungi
 GO:0005765	lysosomal membrane	NCBITaxon:4751	Fungi	
 GO:0071588	hydrogen peroxide mediated signaling pathway	NCBITaxon:4751	Fungi	
 GO:0071818	BAT3 complex	NCBITaxon:4890 	Ascomycota	
-GO:0019933	cAMP-mediated signaling	NCBITaxon:33083	Dictyostelids	
 GO:0016922	nuclear receptor binding	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
 GO:0048309	endoplasmic reticulum inheritance	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0044728	DNA methylation or demethylation	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0044728	DNA methylation or demethylation	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0080111	DNA demethylation	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0080111	DNA demethylation	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0006306	DNA methylation	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0006306	DNA methylation	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0140643	hydroxymethylglutaryl-CoA reductase (NADH) activity	NCBITaxon:2759	Eukaryota	
 GO:0044003	modulation by symbiont of host process	NCBITaxon:33090	Viridiplantae	
 GO:0044003	modulation by symbiont of host process	NCBITaxon:7742	Vertebrata <Metazoa>	
@@ -548,3 +536,45 @@ GO:0007114	cell budding	NCBITaxon:4896	Schizosaccharomyces pombe
 GO:0007114	cell budding	NCBITaxon:33208	Metazoa	
 GO:0140671	ADA complex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0140672	ATAC complex	NCBITaxon:4751	Fungi	
+GO:0140737	encapsulin nanocompartment	NCBITaxon:2759	Eukaryota	
+GO:0035194	post-transcriptional gene silencing by RNA	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0035194	post-transcriptional gene silencing by RNA	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0032420	stereocilium	NCBITaxon:4751	Fungi	
+GO:0043005	neuron projection	NCBITaxon:4751	Fungi	
+GO:0005902	microvillus	NCBITaxon:4751	Fungi	
+GO:0032528	microvillus organization	NCBITaxon:4751	Fungi	
+GO:0030175	filopodium	NCBITaxon:4751	Fungi	
+GO:0046847	filopodium assembly	NCBITaxon:4751	Fungi	
+GO:0005903	brush border	NCBITaxon:4751	Fungi	
+GO:1904970	brush border assembly	NCBITaxon:4751	Fungi	
+GO:0001931	uropod	NCBITaxon:4751	Fungi	
+GO:0034460	uropod assembly	NCBITaxon:4751	Fungi	
+GO:0044393	microspike	NCBITaxon:4751	Fungi	
+GO:0030035	microspike assembly	NCBITaxon:4751	Fungi	
+GO:0140858	histone ubiquitin ligase activity (H2A-K15 specific)	NCBITaxon:4890	Ascomycota	
+GO:0005689	U12-type spliceosomal complex	NCBITaxon:4890	Ascomycota	
+GO:0098619	selenocysteine-tRNA ligase activity	NCBITaxon:451864	Dikarya	
+GO:0098619	selenocysteine-tRNA ligase activity	NCBITaxon:3193	Embryophyta	
+GO:0001514	selenocysteine incorporation	NCBITaxon:451864	Dikarya	
+GO:0001514	selenocysteine incorporation	NCBITaxon:3193	Embryophyta	
+GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:2	Bacteria	
+GO:0106036	assembly of apicomedial cortex actomyosin	NCBITaxon:2157	Archaea	
+GO:0106037	apicomedial cortex	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0106037	apicomedial cortex	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0106037	apicomedial cortex	NCBITaxon:2	Bacteria	
+GO:0106037	apicomedial cortex	NCBITaxon:2157	Archaea	
+GO:0005725	intercalary heterochromatin	NCBITaxon:4751	Fungi	
+GO:0017145	stem cell division	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0038055	BMP secretion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0020022	acidocalcisome	NCBITaxon:4890	Ascomycota	
+GO:0042246 	tissue regeneration	NCBITaxon:4751	Fungi	
+GO:0060250 	germ-line stem-cell niche homeostasis	NCBITaxon:4751	Fungi	
+GO:0035658	Mon1-Ccz1 complex	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0048863	stem cell differentiation	NCBITaxon:4751	Fungi	
+GO:0003365	establishment of cell polarity involved in ameboidal cell migration	NCBITaxon:4751	Fungi	
+GO:0090398	cellular senescence	NCBITaxon:4751	Fungi	
+GO:0000365	mRNA trans splicing, via spliceosome	NCBITaxon:4751	Fungi	
+GO:0016477	cell migration	NCBITaxon:4890	Ascomycota	
+GO:0106339	tRNA (cytidine 32-2'-O)-methyltransferase activity	NCBITaxon:2157	Archaea	PMID:18068186

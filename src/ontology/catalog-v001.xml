@@ -3,6 +3,7 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/ro_pending.owl" uri="extensions/ro_pending.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl" uri="extensions/go-bridge.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/go/extensions/go-gci.owl" uri="extensions/go-gci.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/go/extensions/go-modules-annotations.owl" uri="extensions/go-modules-annotations.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/bio-chebi.owl" uri="imports/bio-chebi.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go_inferences.owl" uri="go_inferences_null.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/substance_by_role.owl" uri="imports/substance_by_role.owl"/>
@@ -27,6 +28,10 @@
    	<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ro.owl" uri="mirror/ro-download.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/annotation_properties.owl" uri="imports/annotation_properties.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/pato_import.owl" uri="imports/pato_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pato.owl" uri="mirror/pato.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/eco/eco-basic.owl" uri="mirror/eco.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/wbbt/wbbt-base.owl" uri="mirror/wbbt.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/po.owl" uri="mirror/po.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl" uri="mirror/taxslim.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim-disjoint-over-in-taxon.owl" uri="mirror/taxslim-disjoint-over-in-taxon.owl"/>
@@ -36,12 +41,16 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-lego-edit-unsafe.ofn" uri="extensions/go-lego-edit-unsafe.ofn"/>
    	<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/chebi.owl" uri="mirror/chebi.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/uberon/reasoner_axioms.owl" uri="go_inferences_null.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-pattern-conformance.ttl" uri="imports/go-pattern-conformance.ttl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl" uri="imports/go-taxon-groupings.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl" uri="imports/go_taxon_constraints.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-taxon-subsets.owl" uri="imports/go-taxon-subsets.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-taxon-subsets.owl" uri="extensions/go-taxon-subsets.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-catalytic-activities-participants.owl" uri="imports/go-catalytic-activities-participants.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/gorel.owl" uri="imports/gorel.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl" uri="imports/x-disjoint.owl"/>
-	<uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl" uri="imports/reactome_xrefs_import.owl"/>
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-lego.owl" uri="extensions/go-lego.owl"/>
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/reacto.owl" uri="extensions/reacto.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/gorel.owl" uri="extensions/gorel.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/x-disjoint.ofn" uri="imports/x-disjoint.ofn"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl" uri="imports/reactome_xrefs_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-lego.owl" uri="extensions/go-lego.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/reacto.owl" uri="extensions/reacto.owl"/>
+    <uri id="go-lego-chebi-import" name="http://purl.obolibrary.org/obo/go/imports/go-lego-chebi-import.owl" uri="imports/go-lego-chebi-import.owl"/>
 </catalog>

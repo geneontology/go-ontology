@@ -1,0 +1,33 @@
+name: Update design pattern membership
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '13 14 * * *'
+
+jobs:
+  update:
+
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      
+    - name: Work around https://github.com/peter-evans/create-pull-request/issues/1170
+      run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      
+    - name: Update design pattern membership
+      run: cd src/ontology && make pattern-docs && rm -rf dosdp-tools-0.19.3 && rm -rf dosdp-tools-0.19.3.tgz && cd ../..
+    
+    - name: Create PR
+      uses: peter-evans/create-pull-request@v4
+      with:
+        title: Update design pattern docs
+        branch: update-design-patterns
+        add-paths: |
+            src/design_patterns/*.tsv
+            docs/patterns/*.md
+            src/ontology/imports/go-pattern-conformance.ttl
+        token: ${{ secrets.PR_ACTION_TOKEN }}

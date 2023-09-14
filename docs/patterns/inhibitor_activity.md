@@ -1,10 +1,10 @@
-# inhibitor activity
+# molecular function inhibitor activity
 
 [http://purl.obolibrary.org/obo/go/patterns/inhibitor_activity.yaml](http://purl.obolibrary.org/obo/go/patterns/inhibitor_activity.yaml)
 
 ## Description
 
-TODO
+This pattern is for representing a function that inhibits some molecular function, differentiated by the specific molecular function inhibited.
 
 
 
@@ -25,11 +25,11 @@ TODO
 
 ## Definition
 
-"Direct interaction with a gene product or complex that has `{regulated_activity}`, resulting in negative regulation of its `{regulated_activity}`. Direct interaction in this case includes binding and interactions leading to covalent modification."^^[string](http://www.w3.org/2001/XMLSchema#string)
+"Binds to and stops, prevents, or reduces the activity of `{regulated_activity}`."^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Equivalent to
 
-[molecular_function](http://purl.obolibrary.org/obo/GO_0003674)  and ([directly negatively regulates](http://purl.obolibrary.org/obo/RO_0002630) some `{regulated_activity}`)
+[molecular function regulator activity](http://purl.obolibrary.org/obo/GO_0098772)  and ([directly negatively regulates](http://purl.obolibrary.org/obo/RO_0002630) some `{regulated_activity}`)
 
 
 

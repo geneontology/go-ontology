@@ -1,0 +1,928 @@
+defined_class	defined_class_label	participant	participant_label
+http://purl.obolibrary.org/obo/GO_0019383	(+)-camphor catabolic process	http://purl.obolibrary.org/obo/CHEBI_15396	(R)-camphor
+http://purl.obolibrary.org/obo/GO_1901942	(+)-epi-alpha-bisabolol catabolic process	http://purl.obolibrary.org/obo/CHEBI_68658	(+)-epi-alpha-bisabolol
+http://purl.obolibrary.org/obo/GO_1900595	(+)-kotanin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64454	(+)-kotanin
+http://purl.obolibrary.org/obo/GO_1902131	(+)-lariciresinol catabolic process	http://purl.obolibrary.org/obo/CHEBI_67246	(+)-lariciresinol
+http://purl.obolibrary.org/obo/GO_1902125	(+)-pinoresinol catabolic process	http://purl.obolibrary.org/obo/CHEBI_40	(+)-pinoresinol
+http://purl.obolibrary.org/obo/GO_1902134	(+)-secoisolariciresinol catabolic process	http://purl.obolibrary.org/obo/CHEBI_67247	(+)-secoisolariciresinol
+http://purl.obolibrary.org/obo/GO_1901939	(-)-exo-alpha-bergamotene catabolic process	http://purl.obolibrary.org/obo/CHEBI_62756	(-)-exo-alpha-bergamotene
+http://purl.obolibrary.org/obo/GO_1902128	(-)-lariciresinol catabolic process	http://purl.obolibrary.org/obo/CHEBI_67244	(-)-lariciresinol
+http://purl.obolibrary.org/obo/GO_1901511	(-)-microperfuranone catabolic process	http://purl.obolibrary.org/obo/CHEBI_64974	(-)-microperfuranone
+http://purl.obolibrary.org/obo/GO_1902123	(-)-pinoresinol catabolic process	http://purl.obolibrary.org/obo/CHEBI_67245	(-)-pinoresinol
+http://purl.obolibrary.org/obo/GO_1902137	(-)-secoisolariciresinol catabolic process	http://purl.obolibrary.org/obo/CHEBI_65004	(-)-secoisolariciresinol
+http://purl.obolibrary.org/obo/GO_1900993	(-)-secologanin catabolic process	http://purl.obolibrary.org/obo/CHEBI_18002	(-)-secologanin
+http://purl.obolibrary.org/obo/GO_0006076	(1->3)-beta-D-glucan catabolic process	http://purl.obolibrary.org/obo/CHEBI_37671	(1->3)-beta-D-glucan
+http://purl.obolibrary.org/obo/GO_0006079	(1->6)-beta-D-glucan catabolic process	http://purl.obolibrary.org/obo/CHEBI_27380	(1->6)-beta-D-glucan
+http://purl.obolibrary.org/obo/GO_1900580	(17Z)-protosta-17(20),24-dien-3beta-ol catabolic process	http://purl.obolibrary.org/obo/CHEBI_62457	(17Z)-protosta-17(20),24-dien-3beta-ol
+http://purl.obolibrary.org/obo/GO_0019599	(R)-4-hydroxymandelate catabolic process	http://purl.obolibrary.org/obo/CHEBI_27996	(R)-4-hydroxymandelate
+http://purl.obolibrary.org/obo/GO_1901736	(R)-mevalonic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_36464	(R)-mevalonate
+http://purl.obolibrary.org/obo/GO_0042188	1,1,1-trichloro-2,2-bis-(4-chlorophenyl)ethane catabolic process	http://purl.obolibrary.org/obo/CHEBI_16130	DDT
+http://purl.obolibrary.org/obo/GO_0019260	1,2-dichloroethane catabolic process	http://purl.obolibrary.org/obo/CHEBI_27789	1,2-dichloroethane
+http://purl.obolibrary.org/obo/GO_0019261	1,4-dichlorobenzene catabolic process	http://purl.obolibrary.org/obo/CHEBI_28618	1,4-dichlorobenzene
+http://purl.obolibrary.org/obo/GO_1901802	1,5-anhydro-D-fructose catabolic process	http://purl.obolibrary.org/obo/CHEBI_16715	1,5-anhydro-D-fructose
+http://purl.obolibrary.org/obo/GO_0097175	1,6-anhydro-N-acetyl-beta-muramic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_58690	1,6-anhydro-N-acetyl-beta-muramate
+http://purl.obolibrary.org/obo/GO_0042217	1-aminocyclopropane-1-carboxylate catabolic process	http://purl.obolibrary.org/obo/CHEBI_58360	1-aminocyclopropanecarboxylic acid zwitterion
+http://purl.obolibrary.org/obo/GO_0052864	1-deoxy-D-xylulose 5-phosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_57792	1-deoxy-D-xylulose 5-phosphate(2-)
+http://purl.obolibrary.org/obo/GO_1903101	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_57923	1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate(5-)
+http://purl.obolibrary.org/obo/GO_1902634	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_58456	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate(5-)
+http://purl.obolibrary.org/obo/GO_0009258	10-formyltetrahydrofolate catabolic process	http://purl.obolibrary.org/obo/CHEBI_57454	10-formyltetrahydrofolate(2-)
+http://purl.obolibrary.org/obo/GO_1902382	11-oxo-beta-amyrin catabolic process	http://purl.obolibrary.org/obo/CHEBI_63184	11-oxo-beta-amyrin
+http://purl.obolibrary.org/obo/GO_0046228	2,4,5-trichlorophenoxyacetic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_19331	(2,4,5-trichlorophenoxy)acetate
+http://purl.obolibrary.org/obo/GO_0046256	2,4,6-trinitrotoluene catabolic process	http://purl.obolibrary.org/obo/CHEBI_46053	2,4,6-trinitrotoluene
+http://purl.obolibrary.org/obo/GO_0046298	2,4-dichlorobenzoate catabolic process	http://purl.obolibrary.org/obo/CHEBI_28995	2,4-dichlorobenzoate
+http://purl.obolibrary.org/obo/GO_0046300	2,4-dichlorophenoxyacetic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_19351	(2,4-dichlorophenoxy)acetate
+http://purl.obolibrary.org/obo/GO_0051166	2,5-dihydroxypyridine catabolic process	http://purl.obolibrary.org/obo/CHEBI_16364	pyridine-2,5-diol
+http://purl.obolibrary.org/obo/GO_0046230	2-aminobenzenesulfonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_15942	2-aminobenzenesulfonate
+http://purl.obolibrary.org/obo/GO_0019635	2-aminoethylphosphonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_57418	(2-aminoethyl)phosphonic acid zwitterion
+http://purl.obolibrary.org/obo/GO_0046302	2-chloro-N-isopropylacetanilide catabolic process	http://purl.obolibrary.org/obo/CHEBI_19503	propachlor
+http://purl.obolibrary.org/obo/GO_1901273	2-dehydro-3-deoxy-D-gluconic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_57990	2-dehydro-3-deoxy-D-gluconate
+http://purl.obolibrary.org/obo/GO_0006018	2-deoxyribose 1-phosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_19564	2-deoxyribose 1-phosphate
+http://purl.obolibrary.org/obo/GO_1901743	2-deoxystreptamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_65069	2-deoxystreptamine(2+)
+http://purl.obolibrary.org/obo/GO_1901886	2-hydroxybenzoyl-CoA catabolic process	http://purl.obolibrary.org/obo/CHEBI_67148	2-hydroxybenzoyl-CoA(4-)
+http://purl.obolibrary.org/obo/GO_1902193	2-methylbut-2-enoyl-CoA(4-) catabolic process	http://purl.obolibrary.org/obo/CHEBI_57260	2-methylbut-2-enoyl-CoA(4-)
+http://purl.obolibrary.org/obo/GO_1902190	2-methylbutanoyl-CoA(4-) catabolic process	http://purl.obolibrary.org/obo/CHEBI_57336	2-methylbutanoyl-CoA(4-)
+http://purl.obolibrary.org/obo/GO_0046304	2-nitropropane catabolic process	http://purl.obolibrary.org/obo/CHEBI_16037	2-nitropropane
+http://purl.obolibrary.org/obo/GO_0019606	2-oxobutyrate catabolic process	http://purl.obolibrary.org/obo/CHEBI_16763	2-oxobutanoate
+http://purl.obolibrary.org/obo/GO_0019619	3,4-dihydroxybenzoate catabolic process	http://purl.obolibrary.org/obo/CHEBI_36241	3,4-dihydroxybenzoate
+http://purl.obolibrary.org/obo/GO_1901791	3-(2,3-dihydroxyphenyl)propanoate catabolic process	http://purl.obolibrary.org/obo/CHEBI_46951	3-(2,3-dihydroxyphenyl)propanoate
+http://purl.obolibrary.org/obo/GO_0019622	3-(3-hydroxy)phenylpropionate catabolic process	http://purl.obolibrary.org/obo/CHEBI_63469	3-hydroxy-3-phenylpropionate
+http://purl.obolibrary.org/obo/GO_1901794	3-(3-hydroxyphenyl)propanoate catabolic process	http://purl.obolibrary.org/obo/CHEBI_57277	3-(3-hydroxyphenyl)propanoate
+http://purl.obolibrary.org/obo/GO_1901168	3-chlorocatechol catabolic process	http://purl.obolibrary.org/obo/CHEBI_27715	3-chlorocatechol
+http://purl.obolibrary.org/obo/GO_1903559	3-cyano-L-alanine catabolic process	http://purl.obolibrary.org/obo/CHEBI_77860	3-cyano-L-alanine zwitterion
+http://purl.obolibrary.org/obo/GO_0019610	3-hydroxyphenylacetate catabolic process	http://purl.obolibrary.org/obo/CHEBI_58149	3-hydroxyphenylacetate
+http://purl.obolibrary.org/obo/GO_1902199	3-methylbut-2-enoyl-CoA(4-) catabolic process	http://purl.obolibrary.org/obo/CHEBI_57344	3-methylbut-2-enoyl-CoA(4-)
+http://purl.obolibrary.org/obo/GO_0019335	3-methylquinoline catabolic process	http://purl.obolibrary.org/obo/CHEBI_20140	3-methylquinoline
+http://purl.obolibrary.org/obo/GO_0019380	3-phenylpropionate catabolic process	http://purl.obolibrary.org/obo/CHEBI_51057	3-phenylpropionate
+http://purl.obolibrary.org/obo/GO_1901883	4-hydroxycoumarin catabolic process	http://purl.obolibrary.org/obo/CHEBI_77858	4-hydroxycoumarin(1-)
+http://purl.obolibrary.org/obo/GO_1901023	4-hydroxyphenylacetate catabolic process	http://purl.obolibrary.org/obo/CHEBI_48999	4-hydroxyphenylacetate
+http://purl.obolibrary.org/obo/GO_0019470	4-hydroxyproline catabolic process	http://purl.obolibrary.org/obo/CHEBI_63137	4-hydroxyproline zwitterion
+http://purl.obolibrary.org/obo/GO_0046196	4-nitrophenol catabolic process	http://purl.obolibrary.org/obo/CHEBI_57917	4-nitrophenolate
+http://purl.obolibrary.org/obo/GO_0019258	4-nitrotoluene catabolic process	http://purl.obolibrary.org/obo/CHEBI_35227	4-nitrotoluene
+http://purl.obolibrary.org/obo/GO_0019612	4-toluenecarboxylate catabolic process	http://purl.obolibrary.org/obo/CHEBI_28856	p-toluate
+http://purl.obolibrary.org/obo/GO_1901284	5,6,7,8-tetrahydromethanopterin catabolic process	http://purl.obolibrary.org/obo/CHEBI_58103	5,6,7,8-tetrahydromethanopterin(3-)
+http://purl.obolibrary.org/obo/GO_1901854	5,6,7,8-tetrahydrosarcinapterin catabolic process	http://purl.obolibrary.org/obo/CHEBI_59924	5,6,7,8-tetrahydrosarcinapterin(4-)
+http://purl.obolibrary.org/obo/GO_0006211	5-methylcytosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_27551	5-methylcytosine
+http://purl.obolibrary.org/obo/GO_1901948	5alpha,9alpha,10beta-labda-8(20),13-dien-15-yl diphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_58635	5alpha,9alpha,10beta-labda-8(20),13-dien-15-yl diphosphate(3-)
+http://purl.obolibrary.org/obo/GO_0051681	6-alpha-maltosylglucose catabolic process	http://purl.obolibrary.org/obo/CHEBI_28191	6-alpha-maltosylglucose
+http://purl.obolibrary.org/obo/GO_0019639	6-hydroxycineole catabolic process	http://purl.obolibrary.org/obo/CHEBI_16271	2-exo-hydroxy-1,8-cineole
+http://purl.obolibrary.org/obo/GO_1902777	6-sulfoquinovose(1-) catabolic process	http://purl.obolibrary.org/obo/CHEBI_77132	6-sulfo-D-quinovose(1-)
+http://purl.obolibrary.org/obo/GO_1901851	7,8-didemethyl-8-hydroxy-5-deazariboflavin catabolic process	http://purl.obolibrary.org/obo/CHEBI_59904	7,8-didemethyl-8-hydroxy-5-deazariboflavin(1-)
+http://purl.obolibrary.org/obo/GO_0046119	7-methylguanosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_20794	7-methylguanosine
+http://purl.obolibrary.org/obo/GO_0046032	ADP catabolic process	http://purl.obolibrary.org/obo/CHEBI_456216	ADP(3-)
+http://purl.obolibrary.org/obo/GO_0006196	AMP catabolic process	http://purl.obolibrary.org/obo/CHEBI_456215	adenosine 5'-monophosphate(2-)
+http://purl.obolibrary.org/obo/GO_0008208	C21-steroid hormone catabolic process	http://purl.obolibrary.org/obo/CHEBI_64600	C21-steroid hormone
+http://purl.obolibrary.org/obo/GO_0046706	CDP catabolic process	http://purl.obolibrary.org/obo/CHEBI_58069	CDP(3-)
+http://purl.obolibrary.org/obo/GO_0046342	CDP-diacylglycerol catabolic process	http://purl.obolibrary.org/obo/CHEBI_58332	CDP-diacylglycerol(2-)
+http://purl.obolibrary.org/obo/GO_0006248	CMP catabolic process	http://purl.obolibrary.org/obo/CHEBI_60377	cytidine 5'-monophosphate(2-)
+http://purl.obolibrary.org/obo/GO_0006254	CTP catabolic process	http://purl.obolibrary.org/obo/CHEBI_37563	CTP(4-)
+http://purl.obolibrary.org/obo/GO_0055130	D-alanine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57416	D-alanine zwitterion
+http://purl.obolibrary.org/obo/GO_0019316	D-allose catabolic process	http://purl.obolibrary.org/obo/CHEBI_17393	D-allose
+http://purl.obolibrary.org/obo/GO_0019478	D-amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_59871	D-alpha-amino acid zwitterion
+http://purl.obolibrary.org/obo/GO_0019571	D-arabinose catabolic process	http://purl.obolibrary.org/obo/CHEBI_17108	D-arabinose
+http://purl.obolibrary.org/obo/GO_0051159	D-arabitol catabolic process	http://purl.obolibrary.org/obo/CHEBI_18333	D-arabinitol
+http://purl.obolibrary.org/obo/GO_0019447	D-cysteine catabolic process	http://purl.obolibrary.org/obo/CHEBI_35236	D-cysteine zwitterion
+http://purl.obolibrary.org/obo/GO_0034194	D-galactonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_12931	D-galactonate
+http://purl.obolibrary.org/obo/GO_0019698	D-galacturonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_12952	aldehydo-D-galacturonate
+http://purl.obolibrary.org/obo/GO_0042838	D-glucarate catabolic process	http://purl.obolibrary.org/obo/CHEBI_30612	D-glucarate(2-)
+http://purl.obolibrary.org/obo/GO_0046177	D-gluconate catabolic process	http://purl.obolibrary.org/obo/CHEBI_18391	D-gluconate
+http://purl.obolibrary.org/obo/GO_0042840	D-glucuronate catabolic process	http://purl.obolibrary.org/obo/CHEBI_15748	D-glucuronate
+http://purl.obolibrary.org/obo/GO_1900832	D-leucine catabolic process	http://purl.obolibrary.org/obo/CHEBI_143079	D-leucine zwitterion
+http://purl.obolibrary.org/obo/GO_0019476	D-lysine catabolic process	http://purl.obolibrary.org/obo/CHEBI_32557	D-lysinium(1+)
+http://purl.obolibrary.org/obo/GO_1901279	D-ribose 5-phosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_58273	aldehydo-D-ribose 5-phosphate(2-)
+http://purl.obolibrary.org/obo/GO_0019303	D-ribose catabolic process	http://purl.obolibrary.org/obo/CHEBI_16988	D-ribose
+http://purl.obolibrary.org/obo/GO_0036088	D-serine catabolic process	http://purl.obolibrary.org/obo/CHEBI_35247	D-serine zwitterion
+http://purl.obolibrary.org/obo/GO_2001059	D-tagatose 6-phosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_17837	D-tagatose 6-phosphate
+http://purl.obolibrary.org/obo/GO_1900829	D-tyrosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_58570	D-tyrosine zwitterion
+http://purl.obolibrary.org/obo/GO_1902079	D-valine catabolic process	http://purl.obolibrary.org/obo/CHEBI_74338	D-valine zwitterion
+http://purl.obolibrary.org/obo/GO_0042843	D-xylose catabolic process	http://purl.obolibrary.org/obo/CHEBI_15936	aldehydo-D-xylose
+http://purl.obolibrary.org/obo/GO_0006308	DNA catabolic process	http://purl.obolibrary.org/obo/CHEBI_16991	deoxyribonucleic acid
+http://purl.obolibrary.org/obo/GO_1900610	F-9775A catabolic process	http://purl.obolibrary.org/obo/CHEBI_64405	F-9775A
+http://purl.obolibrary.org/obo/GO_1900613	F-9775B catabolic process	http://purl.obolibrary.org/obo/CHEBI_64409	F-9775B
+http://purl.obolibrary.org/obo/GO_0062233	F2-isoprostane catabolic process	http://purl.obolibrary.org/obo/CHEBI_142058	F2-isoprostane
+http://purl.obolibrary.org/obo/GO_0032363	FMN catabolic process	http://purl.obolibrary.org/obo/CHEBI_58210	FMN(3-)
+http://purl.obolibrary.org/obo/GO_0046712	GDP catabolic process	http://purl.obolibrary.org/obo/CHEBI_58189	GDP(3-)
+http://purl.obolibrary.org/obo/GO_0046038	GMP catabolic process	http://purl.obolibrary.org/obo/CHEBI_58115	guanosine 5'-monophosphate(2-)
+http://purl.obolibrary.org/obo/GO_0046709	IDP catabolic process	http://purl.obolibrary.org/obo/CHEBI_58280	IDP(3-)
+http://purl.obolibrary.org/obo/GO_0006204	IMP catabolic process	http://purl.obolibrary.org/obo/CHEBI_58053	IMP(2-)
+http://purl.obolibrary.org/obo/GO_0006193	ITP catabolic process	http://purl.obolibrary.org/obo/CHEBI_61402	ITP(4-)
+http://purl.obolibrary.org/obo/GO_0042853	L-alanine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57972	L-alanine zwitterion
+http://purl.obolibrary.org/obo/GO_1903663	L-altrarate catabolic process	http://purl.obolibrary.org/obo/CHEBI_37547	L-altrarate(2-)
+http://purl.obolibrary.org/obo/GO_0019572	L-arabinose catabolic process	http://purl.obolibrary.org/obo/CHEBI_30849	L-arabinose
+http://purl.obolibrary.org/obo/GO_0051158	L-arabitol catabolic process	http://purl.obolibrary.org/obo/CHEBI_18403	L-arabinitol
+http://purl.obolibrary.org/obo/GO_0019854	L-ascorbic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_38290	L-ascorbate
+http://purl.obolibrary.org/obo/GO_0019448	L-cysteine catabolic process	http://purl.obolibrary.org/obo/CHEBI_35235	L-cysteine zwitterion
+http://purl.obolibrary.org/obo/GO_0042355	L-fucose catabolic process	http://purl.obolibrary.org/obo/CHEBI_18287	L-fucose
+http://purl.obolibrary.org/obo/GO_0034195	L-galactonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_53071	L-galactonate
+http://purl.obolibrary.org/obo/GO_0046183	L-idonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_17796	L-idonate
+http://purl.obolibrary.org/obo/GO_0097053	L-kynurenine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57959	L-kynurenine zwitterion
+http://purl.obolibrary.org/obo/GO_0019477	L-lysine catabolic process	http://purl.obolibrary.org/obo/CHEBI_32551	L-lysinium(1+)
+http://purl.obolibrary.org/obo/GO_0006559	L-phenylalanine catabolic process	http://purl.obolibrary.org/obo/CHEBI_58095	L-phenylalanine zwitterion
+http://purl.obolibrary.org/obo/GO_0019504	L-proline betaine catabolic process	http://purl.obolibrary.org/obo/CHEBI_35280	L-proline betaine
+http://purl.obolibrary.org/obo/GO_0006565	L-serine catabolic process	http://purl.obolibrary.org/obo/CHEBI_33384	L-serine zwitterion
+http://purl.obolibrary.org/obo/GO_0042850	L-sorbose catabolic process	http://purl.obolibrary.org/obo/CHEBI_17266	L-sorbose
+http://purl.obolibrary.org/obo/GO_0051160	L-xylitol catabolic process	http://purl.obolibrary.org/obo/CHEBI_17151	xylitol
+http://purl.obolibrary.org/obo/GO_0032326	Mo-molybdopterin cofactor catabolic process	http://purl.obolibrary.org/obo/CHEBI_21437	Mo-molybdopterin cofactor
+http://purl.obolibrary.org/obo/GO_1900550	N',N'',N'''-triacetylfusarinine C catabolic process	http://purl.obolibrary.org/obo/CHEBI_60481	N',N'',N'''-triacetylfusarinine C
+http://purl.obolibrary.org/obo/GO_2001299	N(omega),N(omega)-dimethyl-L-arginine catabolic process	http://purl.obolibrary.org/obo/CHEBI_58326	N(omega),N(omega)-dimethyl-L-argininium(1+)
+http://purl.obolibrary.org/obo/GO_2001297	N(omega)-methyl-L-arginine catabolic process	http://purl.obolibrary.org/obo/CHEBI_114953	(2S)-2-ammonio-5-{[iminio(methylamino)methyl]amino}pentanoate
+http://purl.obolibrary.org/obo/GO_0006046	N-acetylglucosamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_59640	N-acetylglucosamine
+http://purl.obolibrary.org/obo/GO_0006053	N-acetylmannosamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_62164	N-acetylmannosamine
+http://purl.obolibrary.org/obo/GO_0097173	N-acetylmuramic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_47978	N-acetylmuramate
+http://purl.obolibrary.org/obo/GO_0019262	N-acetylneuraminate catabolic process	http://purl.obolibrary.org/obo/CHEBI_35418	N-acetylneuraminate
+http://purl.obolibrary.org/obo/GO_0052710	N-alpha,N-alpha,N-alpha-trimethyl-L-histidine catabolic process	http://purl.obolibrary.org/obo/CHEBI_15781	N(alpha),N(alpha),N(alpha)-trimethyl-L-histidine
+http://purl.obolibrary.org/obo/GO_0042202	N-cyclopropylmelamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_30260	cyromazine
+http://purl.obolibrary.org/obo/GO_0019677	NAD catabolic process	http://purl.obolibrary.org/obo/CHEBI_13389	NAD
+http://purl.obolibrary.org/obo/GO_0006742	NADP catabolic process	http://purl.obolibrary.org/obo/CHEBI_25523	NADP
+http://purl.obolibrary.org/obo/GO_0010304	PSII associated light-harvesting complex II catabolic process	http://purl.obolibrary.org/obo/GO_0009517	PSII associated light-harvesting complex II
+http://purl.obolibrary.org/obo/GO_0006401	RNA catabolic process	http://purl.obolibrary.org/obo/CHEBI_33697	ribonucleic acid
+http://purl.obolibrary.org/obo/GO_0000292	RNA fragment catabolic process	http://purl.obolibrary.org/obo/SO_0000587	group_I_intron
+http://purl.obolibrary.org/obo/GO_0019510	S-adenosylhomocysteine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57856	S-adenosyl-L-homocysteine zwitterion
+http://purl.obolibrary.org/obo/GO_0050843	S-adenosylmethionine catabolic process	http://purl.obolibrary.org/obo/CHEBI_59789	S-adenosyl-L-methionine zwitterion
+http://purl.obolibrary.org/obo/GO_0016145	S-glycoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_35275	S-glycosyl compound
+http://purl.obolibrary.org/obo/GO_0006245	TDP catabolic process	http://purl.obolibrary.org/obo/CHEBI_61417	TDP(3-)
+http://purl.obolibrary.org/obo/GO_0046045	TMP catabolic process	http://purl.obolibrary.org/obo/CHEBI_142797	TMP(2-)
+http://purl.obolibrary.org/obo/GO_0046047	TTP catabolic process	http://purl.obolibrary.org/obo/CHEBI_63527	TTP(4-)
+http://purl.obolibrary.org/obo/GO_0006256	UDP catabolic process	http://purl.obolibrary.org/obo/CHEBI_58223	UDP(3-)
+http://purl.obolibrary.org/obo/GO_2001314	UDP-4-deoxy-4-formamido-beta-L-arabinopyranose catabolic process	http://purl.obolibrary.org/obo/CHEBI_58709	UDP-4-deoxy-4-formamido-beta-L-arabinopyranose(2-)
+http://purl.obolibrary.org/obo/GO_0019278	UDP-N-acetylgalactosamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57847	UDP-N-acetyl-D-galactosamine(2-)
+http://purl.obolibrary.org/obo/GO_0006049	UDP-N-acetylglucosamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57705	UDP-N-acetyl-alpha-D-glucosamine(2-)
+http://purl.obolibrary.org/obo/GO_0006258	UDP-glucose catabolic process	http://purl.obolibrary.org/obo/CHEBI_58367	UDP-D-glucose(2-)
+http://purl.obolibrary.org/obo/GO_0046050	UMP catabolic process	http://purl.obolibrary.org/obo/CHEBI_57865	uridine 5'-monophosphate(2-)
+http://purl.obolibrary.org/obo/GO_0046052	UTP catabolic process	http://purl.obolibrary.org/obo/CHEBI_46398	UTP(4-)
+http://purl.obolibrary.org/obo/GO_0032327	W-molybdopterin cofactor catabolic process	http://purl.obolibrary.org/obo/CHEBI_60215	W-molybdopterin cofactor
+http://purl.obolibrary.org/obo/GO_0046308	Z-phenylacetaldoxime catabolic process	http://purl.obolibrary.org/obo/CHEBI_50723	(Z)-phenylacetaldehyde oxime
+http://purl.obolibrary.org/obo/GO_0046345	abscisic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_62071	2-cis-abscisate
+http://purl.obolibrary.org/obo/GO_0046187	acetaldehyde catabolic process	http://purl.obolibrary.org/obo/CHEBI_15343	acetaldehyde
+http://purl.obolibrary.org/obo/GO_0045733	acetate catabolic process	http://purl.obolibrary.org/obo/CHEBI_30089	acetate
+http://purl.obolibrary.org/obo/GO_0043442	acetoacetic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_13705	acetoacetate
+http://purl.obolibrary.org/obo/GO_0045150	acetoin catabolic process	http://purl.obolibrary.org/obo/CHEBI_15688	acetoin
+http://purl.obolibrary.org/obo/GO_0046356	acetyl-CoA catabolic process	http://purl.obolibrary.org/obo/CHEBI_57288	acetyl-CoA(4-)
+http://purl.obolibrary.org/obo/GO_0006581	acetylcholine catabolic process	http://purl.obolibrary.org/obo/CHEBI_15355	acetylcholine
+http://purl.obolibrary.org/obo/GO_0120248	acetylenic compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_73474	acetylenic compound
+http://purl.obolibrary.org/obo/GO_0042862	achromobactin catabolic process	http://purl.obolibrary.org/obo/CHEBI_61346	achromobactin
+http://purl.obolibrary.org/obo/GO_0019256	acrylonitrile catabolic process	http://purl.obolibrary.org/obo/CHEBI_28217	acrylonitrile
+http://purl.obolibrary.org/obo/GO_1901111	actinorhodin catabolic process	http://purl.obolibrary.org/obo/CHEBI_91020	actinorhodin(3-)
+http://purl.obolibrary.org/obo/GO_0046464	acylglycerol catabolic process	http://purl.obolibrary.org/obo/CHEBI_47778	glyceride
+http://purl.obolibrary.org/obo/GO_0019263	adamantanone catabolic process	http://purl.obolibrary.org/obo/CHEBI_40611	adamantanone
+http://purl.obolibrary.org/obo/GO_0006146	adenine catabolic process	http://purl.obolibrary.org/obo/CHEBI_16708	adenine
+http://purl.obolibrary.org/obo/GO_1901911	adenosine 5'-(hexahydrogen pentaphosphate) catabolic process	http://purl.obolibrary.org/obo/CHEBI_63813	adenosine 5'-pentaphosphate(6-)
+http://purl.obolibrary.org/obo/GO_0006154	adenosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_16335	adenosine
+http://purl.obolibrary.org/obo/GO_0046223	aflatoxin catabolic process	http://purl.obolibrary.org/obo/CHEBI_22271	aflatoxin
+http://purl.obolibrary.org/obo/GO_0006524	alanine catabolic process	http://purl.obolibrary.org/obo/CHEBI_66916	alanine zwitterion
+http://purl.obolibrary.org/obo/GO_0046164	alcohol catabolic process	http://purl.obolibrary.org/obo/CHEBI_30879	alcohol
+http://purl.obolibrary.org/obo/GO_0019579	aldaric acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_22289	aldaric acid anion
+http://purl.obolibrary.org/obo/GO_0046185	aldehyde catabolic process	http://purl.obolibrary.org/obo/CHEBI_17478	aldehyde
+http://purl.obolibrary.org/obo/GO_0019405	alditol catabolic process	http://purl.obolibrary.org/obo/CHEBI_17522	alditol
+http://purl.obolibrary.org/obo/GO_0046176	aldonic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_22299	aldonate
+http://purl.obolibrary.org/obo/GO_0032343	aldosterone catabolic process	http://purl.obolibrary.org/obo/CHEBI_27584	aldosterone
+http://purl.obolibrary.org/obo/GO_0042122	alginic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_58187	alginate
+http://purl.obolibrary.org/obo/GO_0009822	alkaloid catabolic process	http://purl.obolibrary.org/obo/CHEBI_22315	alkaloid
+http://purl.obolibrary.org/obo/GO_0043448	alkane catabolic process	http://purl.obolibrary.org/obo/CHEBI_18310	alkane
+http://purl.obolibrary.org/obo/GO_0046306	alkanesulfonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_134249	alkanesulfonate oxoanion
+http://purl.obolibrary.org/obo/GO_0043451	alkene catabolic process	http://purl.obolibrary.org/obo/CHEBI_32878	alkene
+http://purl.obolibrary.org/obo/GO_0043454	alkyne catabolic process	http://purl.obolibrary.org/obo/CHEBI_22339	alkyne
+http://purl.obolibrary.org/obo/GO_1901832	all-trans-neoxanthin catabolic process	http://purl.obolibrary.org/obo/CHEBI_32446	all-trans-neoxanthin
+http://purl.obolibrary.org/obo/GO_0000256	allantoin catabolic process	http://purl.obolibrary.org/obo/CHEBI_15676	allantoin
+http://purl.obolibrary.org/obo/GO_0046367	allose catabolic process	http://purl.obolibrary.org/obo/CHEBI_37690	allose
+http://purl.obolibrary.org/obo/GO_1901606	alpha-amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_78608	alpha-amino acid zwitterion
+http://purl.obolibrary.org/obo/GO_1901930	alpha-copaene catabolic process	http://purl.obolibrary.org/obo/CHEBI_10221	alpha-copaene
+http://purl.obolibrary.org/obo/GO_0030980	alpha-glucan catabolic process	http://purl.obolibrary.org/obo/CHEBI_22385	alpha-D-glucan
+http://purl.obolibrary.org/obo/GO_0046249	alpha-pinene catabolic process	http://purl.obolibrary.org/obo/CHEBI_36740	alpha-pinene
+http://purl.obolibrary.org/obo/GO_1901820	alpha-zeacarotene catabolic process	http://purl.obolibrary.org/obo/CHEBI_35063	alpha-zeacarotene
+http://purl.obolibrary.org/obo/GO_0009310	amine catabolic process	http://purl.obolibrary.org/obo/CHEBI_32952	amine
+http://purl.obolibrary.org/obo/GO_0009063	amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_37022	amino-acid anion
+http://purl.obolibrary.org/obo/GO_0052782	amino disaccharide catabolic process	http://purl.obolibrary.org/obo/CHEBI_22480	amino disaccharide
+http://purl.obolibrary.org/obo/GO_0046348	amino sugar catabolic process	http://purl.obolibrary.org/obo/CHEBI_28963	amino sugar
+http://purl.obolibrary.org/obo/GO_0006579	amino-acid betaine catabolic process	http://purl.obolibrary.org/obo/CHEBI_22860	amino-acid betaine
+http://purl.obolibrary.org/obo/GO_0006026	aminoglycan catabolic process	http://purl.obolibrary.org/obo/CHEBI_22506	aminoglycan
+http://purl.obolibrary.org/obo/GO_0030649	aminoglycoside antibiotic catabolic process	http://purl.obolibrary.org/obo/CHEBI_22507	aminoglycoside antibiotic
+http://purl.obolibrary.org/obo/GO_2000897	amylopectin catabolic process	http://purl.obolibrary.org/obo/CHEBI_28057	amylopectin
+http://purl.obolibrary.org/obo/GO_0006710	androgen catabolic process	http://purl.obolibrary.org/obo/GOCHE_50113	substance with androgen role
+http://purl.obolibrary.org/obo/GO_0046284	anthocyanin-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_35218	anthocyanin cation
+http://purl.obolibrary.org/obo/GO_0043421	anthranilate catabolic process	http://purl.obolibrary.org/obo/CHEBI_16567	anthranilate
+http://purl.obolibrary.org/obo/GO_0017001	antibiotic catabolic process	http://purl.obolibrary.org/obo/GOCHE_33281	substance with antimicrobial agent role
+http://purl.obolibrary.org/obo/GO_0071041	antisense RNA transcript catabolic process	http://purl.obolibrary.org/obo/SO_0000644	antisense_RNA
+http://purl.obolibrary.org/obo/GO_0043290	apocarotenoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_53183	apo carotenoid
+http://purl.obolibrary.org/obo/GO_0031222	arabinan catabolic process	http://purl.obolibrary.org/obo/CHEBI_22590	arabinan
+http://purl.obolibrary.org/obo/GO_0019568	arabinose catabolic process	http://purl.obolibrary.org/obo/CHEBI_22599	arabinose
+http://purl.obolibrary.org/obo/GO_2000888	arabinoxylan-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_22603	arabinoxylans
+http://purl.obolibrary.org/obo/GO_0051157	arabitol catabolic process	http://purl.obolibrary.org/obo/CHEBI_22605	arabinitol
+http://purl.obolibrary.org/obo/GO_0006527	arginine catabolic process	http://purl.obolibrary.org/obo/CHEBI_32696	argininium(1+)
+http://purl.obolibrary.org/obo/GO_0009074	aromatic amino acid family catabolic process	http://purl.obolibrary.org/obo/CHEBI_33856	aromatic amino acid
+http://purl.obolibrary.org/obo/GO_0019439	aromatic compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_33655	aromatic compound
+http://purl.obolibrary.org/obo/GO_0019501	arsonoacetate catabolic process	http://purl.obolibrary.org/obo/CHEBI_28506	arsonoacetic acid
+http://purl.obolibrary.org/obo/GO_1900586	arugosin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64436	arugosin
+http://purl.obolibrary.org/obo/GO_0006530	asparagine catabolic process	http://purl.obolibrary.org/obo/CHEBI_32660	asparaginate
+http://purl.obolibrary.org/obo/GO_0006533	aspartate catabolic process	http://purl.obolibrary.org/obo/CHEBI_35391	aspartate(1-)
+http://purl.obolibrary.org/obo/GO_0009068	aspartate family amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_22658	aspartate family amino acid
+http://purl.obolibrary.org/obo/GO_1900553	asperfuranone catabolic process	http://purl.obolibrary.org/obo/CHEBI_64397	asperfuranone
+http://purl.obolibrary.org/obo/GO_0036183	asperthecin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64161	asperthecin
+http://purl.obolibrary.org/obo/GO_1901517	aspyridone A catabolic process	http://purl.obolibrary.org/obo/CHEBI_64704	aspyridone A
+http://purl.obolibrary.org/obo/GO_1901520	aspyridone B catabolic process	http://purl.obolibrary.org/obo/CHEBI_64705	aspyridone B
+http://purl.obolibrary.org/obo/GO_1901814	astaxanthin catabolic process	http://purl.obolibrary.org/obo/CHEBI_40968	astaxanthin
+http://purl.obolibrary.org/obo/GO_0019381	atrazine catabolic process	http://purl.obolibrary.org/obo/CHEBI_15930	atrazine
+http://purl.obolibrary.org/obo/GO_1900559	austinol catabolic process	http://purl.obolibrary.org/obo/CHEBI_64418	austinol
+http://purl.obolibrary.org/obo/GO_0009852	auxin catabolic process	http://purl.obolibrary.org/obo/GOCHE_22676	substance with auxin role
+http://purl.obolibrary.org/obo/GO_1900762	averantin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64522	averantin
+http://purl.obolibrary.org/obo/GO_1901123	bacitracin A catabolic process	http://purl.obolibrary.org/obo/CHEBI_184381	bacitracin A zwitterion
+http://purl.obolibrary.org/obo/GO_0030495	bacteriochlorophyll catabolic process	http://purl.obolibrary.org/obo/CHEBI_38201	bacteriochlorophyll
+http://purl.obolibrary.org/obo/GO_0046225	bacteriocin catabolic process	http://purl.obolibrary.org/obo/CHEBI_48081	bacteriocin
+http://purl.obolibrary.org/obo/GO_1900996	benzene catabolic process	http://purl.obolibrary.org/obo/CHEBI_16716	benzene
+http://purl.obolibrary.org/obo/GO_0043639	benzoate catabolic process	http://purl.obolibrary.org/obo/CHEBI_16150	benzoate
+http://purl.obolibrary.org/obo/GO_1901788	benzoyl-CoA catabolic process	http://purl.obolibrary.org/obo/CHEBI_57369	benzoyl-CoA(4-)
+http://purl.obolibrary.org/obo/GO_1901087	benzylpenicillin catabolic process	http://purl.obolibrary.org/obo/CHEBI_51354	benzylpenicillin(1-)
+http://purl.obolibrary.org/obo/GO_1901357	beta-D-galactofuranose catabolic process	http://purl.obolibrary.org/obo/CHEBI_59497	beta-D-galactofuranose
+http://purl.obolibrary.org/obo/GO_0019484	beta-alanine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57966	beta-alanine zwitterion
+http://purl.obolibrary.org/obo/GO_1901811	beta-carotene catabolic process	http://purl.obolibrary.org/obo/CHEBI_17579	beta-carotene
+http://purl.obolibrary.org/obo/GO_1901936	beta-caryophyllene catabolic process	http://purl.obolibrary.org/obo/CHEBI_63191	beta-caryophyllene
+http://purl.obolibrary.org/obo/GO_0051275	beta-glucan catabolic process	http://purl.obolibrary.org/obo/CHEBI_28793	beta-D-glucan
+http://purl.obolibrary.org/obo/GO_1901805	beta-glucoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_60980	beta-glucoside
+http://purl.obolibrary.org/obo/GO_0030655	beta-lactam antibiotic catabolic process	http://purl.obolibrary.org/obo/CHEBI_27933	beta-lactam antibiotic
+http://purl.obolibrary.org/obo/GO_1901817	beta-zeacarotene catabolic process	http://purl.obolibrary.org/obo/CHEBI_27533	beta-zeacarotene
+http://purl.obolibrary.org/obo/GO_1902062	betaine aldehyde catabolic process	http://purl.obolibrary.org/obo/CHEBI_15710	betaine aldehyde
+http://purl.obolibrary.org/obo/GO_0052800	bicyclic nitroimidazole catabolic process	http://purl.obolibrary.org/obo/CHEBI_64973	bicyclic nitroimidazole
+http://purl.obolibrary.org/obo/GO_1901933	bicyclogermacrene catabolic process	http://purl.obolibrary.org/obo/CHEBI_63709	bicyclogermacrene
+http://purl.obolibrary.org/obo/GO_0030573	bile acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_36235	bile acid anion
+http://purl.obolibrary.org/obo/GO_0042367	biotin catabolic process	http://purl.obolibrary.org/obo/CHEBI_57586	biotinate
+http://purl.obolibrary.org/obo/GO_0070980	biphenyl catabolic process	http://purl.obolibrary.org/obo/CHEBI_17097	biphenyl
+http://purl.obolibrary.org/obo/GO_0015958	bis(5'-nucleosidyl) oligophosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_61081	bis(5'-nucleosidyl) oliogophosphate
+http://purl.obolibrary.org/obo/GO_0043636	bisphenol A catabolic process	http://purl.obolibrary.org/obo/CHEBI_33216	bisphenol A
+http://purl.obolibrary.org/obo/GO_1905265	blasticidin S catabolic process	http://purl.obolibrary.org/obo/CHEBI_57289	blasticidin S(1+)
+http://purl.obolibrary.org/obo/GO_0010815	bradykinin catabolic process	http://purl.obolibrary.org/obo/CHEBI_132988	bradykinin(2+)
+http://purl.obolibrary.org/obo/GO_0009083	branched-chain amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_22918	branched-chain amino acid
+http://purl.obolibrary.org/obo/GO_0016133	brassinosteroid catabolic process	http://purl.obolibrary.org/obo/CHEBI_22921	brassinosteroid
+http://purl.obolibrary.org/obo/GO_0062175	brexanolone catabolic process	http://purl.obolibrary.org/obo/CHEBI_50169	brexanolone
+http://purl.obolibrary.org/obo/GO_0034078	butanediol catabolic process	http://purl.obolibrary.org/obo/CHEBI_62064	butane-2,3-diol
+http://purl.obolibrary.org/obo/GO_1901757	butirosin catabolic process	http://purl.obolibrary.org/obo/CHEBI_65109	butirosin
+http://purl.obolibrary.org/obo/GO_0046359	butyrate catabolic process	http://purl.obolibrary.org/obo/CHEBI_17968	butyrate
+http://purl.obolibrary.org/obo/GO_0044580	butyryl-CoA catabolic process	http://purl.obolibrary.org/obo/CHEBI_57371	butyryl-CoA(4-)
+http://purl.obolibrary.org/obo/GO_0006198	cAMP catabolic process	http://purl.obolibrary.org/obo/CHEBI_58165	3',5'-cyclic AMP(1-)
+http://purl.obolibrary.org/obo/GO_0046069	cGMP catabolic process	http://purl.obolibrary.org/obo/CHEBI_57746	3',5'-cyclic GMP(1-)
+http://purl.obolibrary.org/obo/GO_1901927	cadinene catabolic process	http://purl.obolibrary.org/obo/CHEBI_22976	cadinene
+http://purl.obolibrary.org/obo/GO_0010816	calcitonin catabolic process	http://purl.obolibrary.org/obo/CHEBI_3306	calcitonin
+http://purl.obolibrary.org/obo/GO_1901126	candicidin catabolic process	http://purl.obolibrary.org/obo/CHEBI_354984	candicidin
+http://purl.obolibrary.org/obo/GO_0019384	caprolactam catabolic process	http://purl.obolibrary.org/obo/CHEBI_28579	epsilon-caprolactam
+http://purl.obolibrary.org/obo/GO_1901808	capsanthin catabolic process	http://purl.obolibrary.org/obo/CHEBI_3375	capsanthin
+http://purl.obolibrary.org/obo/GO_1901865	capsorubin catabolic process	http://purl.obolibrary.org/obo/CHEBI_3378	capsorubin
+http://purl.obolibrary.org/obo/GO_0035975	carbamoyl phosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_58228	carbamoyl phosphate(2-)
+http://purl.obolibrary.org/obo/GO_1901768	carbapenem catabolic process	http://purl.obolibrary.org/obo/CHEBI_46765	carbapenem
+http://purl.obolibrary.org/obo/GO_0046232	carbazole catabolic process	http://purl.obolibrary.org/obo/CHEBI_3391	carbazole
+http://purl.obolibrary.org/obo/GO_0016052	carbohydrate catabolic process	http://purl.obolibrary.org/obo/CHEBI_16646	carbohydrate
+http://purl.obolibrary.org/obo/GO_1901136	carbohydrate derivative catabolic process	http://purl.obolibrary.org/obo/CHEBI_63299	carbohydrate derivative
+http://purl.obolibrary.org/obo/GO_0019382	carbon tetrachloride catabolic process	http://purl.obolibrary.org/obo/CHEBI_27385	tetrachloromethane
+http://purl.obolibrary.org/obo/GO_0046395	carboxylic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_29067	carboxylic acid anion
+http://purl.obolibrary.org/obo/GO_0042413	carnitine catabolic process	http://purl.obolibrary.org/obo/CHEBI_17126	carnitine
+http://purl.obolibrary.org/obo/GO_0016121	carotene catabolic process	http://purl.obolibrary.org/obo/CHEBI_23042	carotene
+http://purl.obolibrary.org/obo/GO_0016118	carotenoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_23044	carotenoid
+http://purl.obolibrary.org/obo/GO_0019614	catechol-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_33566	catechols
+http://purl.obolibrary.org/obo/GO_0042424	catecholamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_33567	catecholamine
+http://purl.obolibrary.org/obo/GO_0030995	cell septum edging catabolic process	http://purl.obolibrary.org/obo/GO_0043188	cell septum edging
+http://purl.obolibrary.org/obo/GO_2000892	cellobiose catabolic process	http://purl.obolibrary.org/obo/CHEBI_17057	cellobiose
+http://purl.obolibrary.org/obo/GO_2000890	cellodextrin catabolic process	http://purl.obolibrary.org/obo/CHEBI_3523	cellodextrin
+http://purl.obolibrary.org/obo/GO_2000903	cellooligosaccharide catabolic process	http://purl.obolibrary.org/obo/CHEBI_62563	cellooligosaccharide
+http://purl.obolibrary.org/obo/GO_2000894	cellotriose catabolic process	http://purl.obolibrary.org/obo/CHEBI_3528	cellotriose
+http://purl.obolibrary.org/obo/GO_0042219	cellular modified amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_83821	amino acid derivative
+http://purl.obolibrary.org/obo/GO_0052702	cellular modified histidine catabolic process	http://purl.obolibrary.org/obo/CHEBI_24599	histidine derivative
+http://purl.obolibrary.org/obo/GO_0030245	cellulose catabolic process	http://purl.obolibrary.org/obo/CHEBI_18246	(1->4)-beta-D-glucan
+http://purl.obolibrary.org/obo/GO_1901267	cephalosporin C catabolic process	http://purl.obolibrary.org/obo/CHEBI_57511	cephalosporin C(1-)
+http://purl.obolibrary.org/obo/GO_1901117	cephamycin C catabolic process	http://purl.obolibrary.org/obo/CHEBI_3543	cephamycin C
+http://purl.obolibrary.org/obo/GO_0046514	ceramide catabolic process	http://purl.obolibrary.org/obo/CHEBI_17761	ceramide
+http://purl.obolibrary.org/obo/GO_1905372	ceramide phosphoethanolamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_73202	ceramide phosphoethanolamine zwitterion
+http://purl.obolibrary.org/obo/GO_0046280	chalcone catabolic process	http://purl.obolibrary.org/obo/CHEBI_23086	chalcones
+http://purl.obolibrary.org/obo/GO_0006032	chitin catabolic process	http://purl.obolibrary.org/obo/CHEBI_17029	chitin
+http://purl.obolibrary.org/obo/GO_0042205	chlorinated hydrocarbon catabolic process	http://purl.obolibrary.org/obo/CHEBI_23115	chlorohydrocarbon
+http://purl.obolibrary.org/obo/GO_0033310	chlorophyll a catabolic process	http://purl.obolibrary.org/obo/CHEBI_58416	chlorophyll a(1-)
+http://purl.obolibrary.org/obo/GO_0015996	chlorophyll catabolic process	http://purl.obolibrary.org/obo/CHEBI_28966	chlorophyll
+http://purl.obolibrary.org/obo/GO_0006707	cholesterol catabolic process	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol
+http://purl.obolibrary.org/obo/GO_0042426	choline catabolic process	http://purl.obolibrary.org/obo/CHEBI_15354	choline
+http://purl.obolibrary.org/obo/GO_0030207	chondroitin sulfate catabolic process	http://purl.obolibrary.org/obo/CHEBI_37397	chondroitin sulfate
+http://purl.obolibrary.org/obo/GO_0042859	chrysobactin catabolic process	http://purl.obolibrary.org/obo/CHEBI_61345	chrysobactin
+http://purl.obolibrary.org/obo/GO_0046281	cinnamic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_23248	cinnamate
+http://purl.obolibrary.org/obo/GO_0046282	cinnamic acid ester catabolic process	http://purl.obolibrary.org/obo/CHEBI_36087	cinnamate ester
+http://purl.obolibrary.org/obo/GO_1902245	cis-abienol catabolic process	http://purl.obolibrary.org/obo/CHEBI_68624	cis-abienol
+http://purl.obolibrary.org/obo/GO_0019241	citrulline catabolic process	http://purl.obolibrary.org/obo/CHEBI_18211	citrulline
+http://purl.obolibrary.org/obo/GO_0042366	cobalamin catabolic process	http://purl.obolibrary.org/obo/CHEBI_30411	cobalamin
+http://purl.obolibrary.org/obo/GO_0050784	cocaine catabolic process	http://purl.obolibrary.org/obo/CHEBI_60056	cocaine(1+)
+http://purl.obolibrary.org/obo/GO_2001292	codeine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57871	codeine(1+)
+http://purl.obolibrary.org/obo/GO_0015938	coenzyme A catabolic process	http://purl.obolibrary.org/obo/CHEBI_57287	coenzyme A(4-)
+http://purl.obolibrary.org/obo/GO_0030574	collagen catabolic process	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer
+http://purl.obolibrary.org/obo/GO_1902242	copal-8-ol diphosphate(3-) catabolic process	http://purl.obolibrary.org/obo/CHEBI_64283	copal-8-ol diphosphate(3-)
+http://purl.obolibrary.org/obo/GO_1900798	cordyol C catabolic process	http://purl.obolibrary.org/obo/CHEBI_64518	cordyol C
+http://purl.obolibrary.org/obo/GO_0046141	corrin catabolic process	http://purl.obolibrary.org/obo/CHEBI_33221	corrin
+http://purl.obolibrary.org/obo/GO_0046226	coumarin catabolic process	http://purl.obolibrary.org/obo/CHEBI_23403	coumarins
+http://purl.obolibrary.org/obo/GO_0006602	creatinine catabolic process	http://purl.obolibrary.org/obo/CHEBI_16737	creatinine
+http://purl.obolibrary.org/obo/GO_0046199	cresol catabolic process	http://purl.obolibrary.org/obo/CHEBI_25399	cresol
+http://purl.obolibrary.org/obo/GO_1900801	cspyrone B1 catabolic process	http://purl.obolibrary.org/obo/CHEBI_64497	cspyrone B1
+http://purl.obolibrary.org/obo/GO_0036040	curcumin catabolic process	http://purl.obolibrary.org/obo/CHEBI_3962	curcumin
+http://purl.obolibrary.org/obo/GO_0009440	cyanate catabolic process	http://purl.obolibrary.org/obo/CHEBI_29195	cyanate
+http://purl.obolibrary.org/obo/GO_0019500	cyanide catabolic process	http://purl.obolibrary.org/obo/CHEBI_18407	hydrogen cyanide
+http://purl.obolibrary.org/obo/GO_0042342	cyanogenic glycoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_23436	cyanogenic glycoside
+http://purl.obolibrary.org/obo/GO_0042200	cyanuric acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_38028	cyanuric acid
+http://purl.obolibrary.org/obo/GO_0009214	cyclic nucleotide catabolic process	http://purl.obolibrary.org/obo/CHEBI_23447	cyclic nucleotide
+http://purl.obolibrary.org/obo/GO_2000901	cyclodextrin catabolic process	http://purl.obolibrary.org/obo/CHEBI_23456	cyclodextrin
+http://purl.obolibrary.org/obo/GO_0033022	cyclopentanol catabolic process	http://purl.obolibrary.org/obo/CHEBI_16133	cyclopentanol
+http://purl.obolibrary.org/obo/GO_0009093	cysteine catabolic process	http://purl.obolibrary.org/obo/CHEBI_35237	cysteine zwitterion
+http://purl.obolibrary.org/obo/GO_0006216	cytidine catabolic process	http://purl.obolibrary.org/obo/CHEBI_17562	cytidine
+http://purl.obolibrary.org/obo/GO_0009823	cytokinin catabolic process	http://purl.obolibrary.org/obo/GOCHE_23530	substance with cytokinin role
+http://purl.obolibrary.org/obo/GO_0006209	cytosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_16040	cytosine
+http://purl.obolibrary.org/obo/GO_0046057	dADP catabolic process	http://purl.obolibrary.org/obo/CHEBI_57667	dADP(3-)
+http://purl.obolibrary.org/obo/GO_0046059	dAMP catabolic process	http://purl.obolibrary.org/obo/CHEBI_58245	2'-deoxyadenosine 5'-monophosphate(2-)
+http://purl.obolibrary.org/obo/GO_0046061	dATP catabolic process	http://purl.obolibrary.org/obo/CHEBI_61404	dATP(4-)
+http://purl.obolibrary.org/obo/GO_0006251	dCDP catabolic process	http://purl.obolibrary.org/obo/CHEBI_58593	dCDP(3-)
+http://purl.obolibrary.org/obo/GO_0006249	dCMP catabolic process	http://purl.obolibrary.org/obo/CHEBI_57566	2'-deoxycytosine 5'-monophosphate(2-)
+http://purl.obolibrary.org/obo/GO_0006253	dCTP catabolic process	http://purl.obolibrary.org/obo/CHEBI_61481	dCTP(4-)
+http://purl.obolibrary.org/obo/GO_0046067	dGDP catabolic process	http://purl.obolibrary.org/obo/CHEBI_58595	dGDP(3-)
+http://purl.obolibrary.org/obo/GO_0046055	dGMP catabolic process	http://purl.obolibrary.org/obo/CHEBI_57673	2'-deoxyguanosine 5'-monophosphate(2-)
+http://purl.obolibrary.org/obo/GO_0006203	dGTP catabolic process	http://purl.obolibrary.org/obo/CHEBI_61429	dGTP(4-)
+http://purl.obolibrary.org/obo/GO_0035863	dITP catabolic process	http://purl.obolibrary.org/obo/CHEBI_61382	dITP(4-)
+http://purl.obolibrary.org/obo/GO_0006246	dTDP catabolic process	http://purl.obolibrary.org/obo/CHEBI_58369	dTDP(3-)
+http://purl.obolibrary.org/obo/GO_0046074	dTMP catabolic process	http://purl.obolibrary.org/obo/CHEBI_63528	dTMP(2-)
+http://purl.obolibrary.org/obo/GO_0046076	dTTP catabolic process	http://purl.obolibrary.org/obo/CHEBI_37568	dTTP(4-)
+http://purl.obolibrary.org/obo/GO_0006257	dUDP catabolic process	http://purl.obolibrary.org/obo/CHEBI_60471	dUDP(3-)
+http://purl.obolibrary.org/obo/GO_0046079	dUMP catabolic process	http://purl.obolibrary.org/obo/CHEBI_246422	dUMP(2-)
+http://purl.obolibrary.org/obo/GO_0046081	dUTP catabolic process	http://purl.obolibrary.org/obo/CHEBI_61555	dUTP(4-)
+http://purl.obolibrary.org/obo/GO_1901770	daunorubicin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64677	daunorubicin(1+)
+http://purl.obolibrary.org/obo/GO_1900562	dehydroaustinol catabolic process	http://purl.obolibrary.org/obo/CHEBI_64421	dehydroaustinol
+http://purl.obolibrary.org/obo/GO_1901823	delta-carotene catabolic process	http://purl.obolibrary.org/obo/CHEBI_27705	delta-carotene
+http://purl.obolibrary.org/obo/GO_1900598	demethylkotanin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64465	demethylkotanin
+http://purl.obolibrary.org/obo/GO_0006157	deoxyadenosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_17256	2'-deoxyadenosine
+http://purl.obolibrary.org/obo/GO_0006217	deoxycytidine catabolic process	http://purl.obolibrary.org/obo/CHEBI_15698	2'-deoxycytidine
+http://purl.obolibrary.org/obo/GO_0006161	deoxyguanosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_17172	2'-deoxyguanosine
+http://purl.obolibrary.org/obo/GO_0006149	deoxyinosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_28997	2'-deoxyinosine
+http://purl.obolibrary.org/obo/GO_0046121	deoxyribonucleoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_23636	deoxyribonucleoside
+http://purl.obolibrary.org/obo/GO_0009192	deoxyribonucleoside diphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_17955	2'-deoxyribonucleoside diphosphate
+http://purl.obolibrary.org/obo/GO_0009159	deoxyribonucleoside monophosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_19257	2'-deoxyribonucleoside monophosphate
+http://purl.obolibrary.org/obo/GO_0009204	deoxyribonucleoside triphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_16516	2'-deoxyribonucleoside triphosphate
+http://purl.obolibrary.org/obo/GO_0009264	deoxyribonucleotide catabolic process	http://purl.obolibrary.org/obo/CHEBI_4431	deoxyribonucleotide
+http://purl.obolibrary.org/obo/GO_0046386	deoxyribose phosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_19569	2-deoxyribose phosphate
+http://purl.obolibrary.org/obo/GO_0006219	deoxyuridine catabolic process	http://purl.obolibrary.org/obo/CHEBI_16450	2'-deoxyuridine
+http://purl.obolibrary.org/obo/GO_0050762	depsipeptide catabolic process	http://purl.obolibrary.org/obo/CHEBI_23643	depsipeptide
+http://purl.obolibrary.org/obo/GO_0030209	dermatan sulfate catabolic process	http://purl.obolibrary.org/obo/CHEBI_58465	dermatan sulfate polyanion
+http://purl.obolibrary.org/obo/GO_1901027	dextrin catabolic process	http://purl.obolibrary.org/obo/CHEBI_28675	dextrin
+http://purl.obolibrary.org/obo/GO_0052777	diacetylchitobiose catabolic process	http://purl.obolibrary.org/obo/CHEBI_28681	N,N'-diacetylchitobiose
+http://purl.obolibrary.org/obo/GO_0046340	diacylglycerol catabolic process	http://purl.obolibrary.org/obo/CHEBI_18035	diglyceride
+http://purl.obolibrary.org/obo/GO_1901909	diadenosine hexaphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_63736	diadenosyl hexaphosphate
+http://purl.obolibrary.org/obo/GO_1901907	diadenosine pentaphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_63737	diadenosyl pentaphosphate
+http://purl.obolibrary.org/obo/GO_0015961	diadenosine polyphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_64603	diadenosyl polyphosphate
+http://purl.obolibrary.org/obo/GO_0015967	diadenosine tetraphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_63738	diadenosyl tetraphosphate
+http://purl.obolibrary.org/obo/GO_0015964	diadenosine triphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_63739	diadenosyl triphosphate
+http://purl.obolibrary.org/obo/GO_0019341	dibenzo-p-dioxin catabolic process	http://purl.obolibrary.org/obo/CHEBI_28891	oxanthrene
+http://purl.obolibrary.org/obo/GO_0019340	dibenzofuran catabolic process	http://purl.obolibrary.org/obo/CHEBI_28145	dibenzofuran
+http://purl.obolibrary.org/obo/GO_0018896	dibenzothiophene catabolic process	http://purl.obolibrary.org/obo/CHEBI_23681	dibenzothiophene
+http://purl.obolibrary.org/obo/GO_0043649	dicarboxylic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_35693	dicarboxylic acid anion
+http://purl.obolibrary.org/obo/GO_0042211	dimethylsilanediol catabolic process	http://purl.obolibrary.org/obo/CHEBI_23816	dimethylsilanediol
+http://purl.obolibrary.org/obo/GO_1902087	dimethylsulfoniopropionate catabolic process	http://purl.obolibrary.org/obo/CHEBI_16457	S,S-dimethyl-beta-propiothetin
+http://purl.obolibrary.org/obo/GO_0034313	diol catabolic process	http://purl.obolibrary.org/obo/CHEBI_23824	diol
+http://purl.obolibrary.org/obo/GO_1900571	diorcinol catabolic process	http://purl.obolibrary.org/obo/CHEBI_64413	diorcinol
+http://purl.obolibrary.org/obo/GO_0071544	diphosphoinositol polyphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_64604	diphosphoinositol polyphosphate
+http://purl.obolibrary.org/obo/GO_0046352	disaccharide catabolic process	http://purl.obolibrary.org/obo/CHEBI_36233	disaccharide
+http://purl.obolibrary.org/obo/GO_0034269	discadenine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57585	discadenine zwitterion
+http://purl.obolibrary.org/obo/GO_0016103	diterpenoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_23849	diterpenoid
+http://purl.obolibrary.org/obo/GO_0042420	dopamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_59905	dopaminium(1+)
+http://purl.obolibrary.org/obo/GO_0006708	ecdysone catabolic process	http://purl.obolibrary.org/obo/CHEBI_16688	ecdysone
+http://purl.obolibrary.org/obo/GO_0046344	ecdysteroid catabolic process	http://purl.obolibrary.org/obo/CHEBI_23897	ecdysteroid
+http://purl.obolibrary.org/obo/GO_1901868	ecgonine methyl ester catabolic process	http://purl.obolibrary.org/obo/CHEBI_59908	ecgoninium methyl ester(1+)
+http://purl.obolibrary.org/obo/GO_1901871	ecgonone methyl ester catabolic process	http://purl.obolibrary.org/obo/CHEBI_66941	ecgononium methyl ester(1+)
+http://purl.obolibrary.org/obo/GO_0042400	ectoine catabolic process	http://purl.obolibrary.org/obo/CHEBI_58515	ectoine zwitterion
+http://purl.obolibrary.org/obo/GO_0060309	elastin catabolic process	http://purl.obolibrary.org/obo/CHEBI_4767	Elastin
+http://purl.obolibrary.org/obo/GO_1900616	emericellamide A catabolic process	http://purl.obolibrary.org/obo/CHEBI_64373	emericellamide A
+http://purl.obolibrary.org/obo/GO_1900556	emericellamide catabolic process	http://purl.obolibrary.org/obo/CHEBI_64372	emericellamide
+http://purl.obolibrary.org/obo/GO_1900765	emericellin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64512	emericellin
+http://purl.obolibrary.org/obo/GO_1900574	emodin catabolic process	http://purl.obolibrary.org/obo/CHEBI_77659	emodin(1-)
+http://purl.obolibrary.org/obo/GO_1900601	endocrocin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64450	endocrocin
+http://purl.obolibrary.org/obo/GO_1901540	ent-pimara-8(14),15-diene catabolic process	http://purl.obolibrary.org/obo/CHEBI_50063	ent-pimara-8(14),15-diene
+http://purl.obolibrary.org/obo/GO_0046214	enterobactin catabolic process	http://purl.obolibrary.org/obo/CHEBI_77805	enterobactin(1-)
+http://purl.obolibrary.org/obo/GO_0042419	epinephrine catabolic process	http://purl.obolibrary.org/obo/CHEBI_33568	adrenaline
+http://purl.obolibrary.org/obo/GO_1904462	ergosteryl 3-beta-D-glucoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_52973	ergosteryl 3-beta-D-glucoside
+http://purl.obolibrary.org/obo/GO_0052700	ergothioneine catabolic process	http://purl.obolibrary.org/obo/CHEBI_134344	ergothioneine(1+)
+http://purl.obolibrary.org/obo/GO_1901114	erythromycin catabolic process	http://purl.obolibrary.org/obo/CHEBI_48923	erythromycin
+http://purl.obolibrary.org/obo/GO_1902222	erythrose 4-phosphate/phosphoenolpyruvate family amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_73690	erythrose 4-phosphate/phosphoenolpyruvate family amino acid
+http://purl.obolibrary.org/obo/GO_0006711	estrogen catabolic process	http://purl.obolibrary.org/obo/GOCHE_50114	substance with estrogen role
+http://purl.obolibrary.org/obo/GO_0006068	ethanol catabolic process	http://purl.obolibrary.org/obo/CHEBI_16236	ethanol
+http://purl.obolibrary.org/obo/GO_0046336	ethanolamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57603	ethanolaminium(1+)
+http://purl.obolibrary.org/obo/GO_1901502	ether catabolic process	http://purl.obolibrary.org/obo/CHEBI_25698	ether
+http://purl.obolibrary.org/obo/GO_0042457	ethylene catabolic process	http://purl.obolibrary.org/obo/CHEBI_18153	ethene
+http://purl.obolibrary.org/obo/GO_0042856	eugenol catabolic process	http://purl.obolibrary.org/obo/CHEBI_4917	eugenol
+http://purl.obolibrary.org/obo/GO_0016488	farnesol catabolic process	http://purl.obolibrary.org/obo/CHEBI_28600	farnesol
+http://purl.obolibrary.org/obo/GO_0045339	farnesyl diphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_50277	farnesyl diphosphate
+http://purl.obolibrary.org/obo/GO_0042363	fat-soluble vitamin catabolic process	http://purl.obolibrary.org/obo/GOCHE_24020	substance with fat-soluble vitamin (role) role
+http://purl.obolibrary.org/obo/GO_0009062	fatty acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_28868	fatty acid anion
+http://purl.obolibrary.org/obo/GO_1901569	fatty acid derivative catabolic process	http://purl.obolibrary.org/obo/CHEBI_61697	fatty acid derivative
+http://purl.obolibrary.org/obo/GO_0062127	fatty acid primary amide catabolic process	http://purl.obolibrary.org/obo/CHEBI_143129	primary fatty amide
+http://purl.obolibrary.org/obo/GO_1903174	fatty alcohol catabolic process	http://purl.obolibrary.org/obo/CHEBI_24026	fatty alcohol
+http://purl.obolibrary.org/obo/GO_0036115	fatty-acyl-CoA catabolic process	http://purl.obolibrary.org/obo/CHEBI_77636	fatty acyl-CoA(4-)
+http://purl.obolibrary.org/obo/GO_1901067	ferulate catabolic process	http://purl.obolibrary.org/obo/CHEBI_29749	ferulate
+http://purl.obolibrary.org/obo/GO_0072389	flavin adenine dinucleotide catabolic process	http://purl.obolibrary.org/obo/CHEBI_24040	flavin adenine dinucleotide
+http://purl.obolibrary.org/obo/GO_0042728	flavin-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_60531	flavin(1-)
+http://purl.obolibrary.org/obo/GO_0046275	flavonoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_47916	flavonoid
+http://purl.obolibrary.org/obo/GO_0046286	flavonoid phytoalexin catabolic process	http://purl.obolibrary.org/obo/CHEBI_60951	flavonoid phytoalexin
+http://purl.obolibrary.org/obo/GO_0019429	fluorene catabolic process	http://purl.obolibrary.org/obo/CHEBI_28266	fluorene
+http://purl.obolibrary.org/obo/GO_0046657	folic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_62501	folate(2-)
+http://purl.obolibrary.org/obo/GO_0009397	folic acid-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_37445	folic acids
+http://purl.obolibrary.org/obo/GO_1900768	fonsecin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64543	fonsecin
+http://purl.obolibrary.org/obo/GO_0046294	formaldehyde catabolic process	http://purl.obolibrary.org/obo/CHEBI_16842	formaldehyde
+http://purl.obolibrary.org/obo/GO_0043608	formamide catabolic process	http://purl.obolibrary.org/obo/CHEBI_16397	formamide
+http://purl.obolibrary.org/obo/GO_0042183	formate catabolic process	http://purl.obolibrary.org/obo/CHEBI_15740	formate
+http://purl.obolibrary.org/obo/GO_0010147	fructan catabolic process	http://purl.obolibrary.org/obo/CHEBI_28796	fructan
+http://purl.obolibrary.org/obo/GO_0030392	fructosamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_24103	fructosamine
+http://purl.obolibrary.org/obo/GO_0006001	fructose catabolic process	http://purl.obolibrary.org/obo/CHEBI_28757	fructose
+http://purl.obolibrary.org/obo/GO_1901281	fructoselysine catabolic process	http://purl.obolibrary.org/obo/CHEBI_61393	fructosyllysine(1+)
+http://purl.obolibrary.org/obo/GO_0019317	fucose catabolic process	http://purl.obolibrary.org/obo/CHEBI_33984	fucose
+http://purl.obolibrary.org/obo/GO_1902085	fumagillin catabolic process	http://purl.obolibrary.org/obo/CHEBI_194019	fumagillin(1-)
+http://purl.obolibrary.org/obo/GO_1900540	fumonisin catabolic process	http://purl.obolibrary.org/obo/CHEBI_38224	fumonisin
+http://purl.obolibrary.org/obo/GO_1901365	funalenone catabolic process	http://purl.obolibrary.org/obo/CHEBI_65932	funalenone
+http://purl.obolibrary.org/obo/GO_0046392	galactarate catabolic process	http://purl.obolibrary.org/obo/CHEBI_48871	galactaric acid anion
+http://purl.obolibrary.org/obo/GO_0019404	galactitol catabolic process	http://purl.obolibrary.org/obo/CHEBI_16813	galactitol
+http://purl.obolibrary.org/obo/GO_2000885	galactoglucomannan catabolic process	http://purl.obolibrary.org/obo/CHEBI_24144	galactoglucomannan
+http://purl.obolibrary.org/obo/GO_0019376	galactolipid catabolic process	http://purl.obolibrary.org/obo/CHEBI_5254	galactolipid
+http://purl.obolibrary.org/obo/GO_0051682	galactomannan catabolic process	http://purl.obolibrary.org/obo/CHEBI_27680	galactomannan
+http://purl.obolibrary.org/obo/GO_0019584	galactonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_24148	galactonate
+http://purl.obolibrary.org/obo/GO_0006028	galactosaminoglycan catabolic process	http://purl.obolibrary.org/obo/CHEBI_24158	galactosaminoglycan
+http://purl.obolibrary.org/obo/GO_0019388	galactose catabolic process	http://purl.obolibrary.org/obo/CHEBI_28260	galactose
+http://purl.obolibrary.org/obo/GO_0006683	galactosylceramide catabolic process	http://purl.obolibrary.org/obo/CHEBI_36498	galactosylceramide
+http://purl.obolibrary.org/obo/GO_0046397	galacturonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_24175	galacturonate
+http://purl.obolibrary.org/obo/GO_0019396	gallate catabolic process	http://purl.obolibrary.org/obo/CHEBI_16918	gallate
+http://purl.obolibrary.org/obo/GO_0009450	gamma-aminobutyric acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_59888	gamma-aminobutyric acid zwitterion
+http://purl.obolibrary.org/obo/GO_0006689	ganglioside catabolic process	http://purl.obolibrary.org/obo/CHEBI_28892	ganglioside
+http://purl.obolibrary.org/obo/GO_1901129	gentamycin catabolic process	http://purl.obolibrary.org/obo/CHEBI_17833	gentamycin
+http://purl.obolibrary.org/obo/GO_1903447	geraniol catabolic process	http://purl.obolibrary.org/obo/CHEBI_17447	geraniol
+http://purl.obolibrary.org/obo/GO_1902247	geranylgeranyl diphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_57533	geranylgeranyl diphosphate(3-)
+http://purl.obolibrary.org/obo/GO_1900577	gerfelin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64410	gerfelin
+http://purl.obolibrary.org/obo/GO_0045487	gibberellin catabolic process	http://purl.obolibrary.org/obo/CHEBI_24250	gibberellin
+http://purl.obolibrary.org/obo/GO_2001309	gliotoxin catabolic process	http://purl.obolibrary.org/obo/CHEBI_5385	gliotoxin
+http://purl.obolibrary.org/obo/GO_0009251	glucan catabolic process	http://purl.obolibrary.org/obo/CHEBI_37163	glucan
+http://purl.obolibrary.org/obo/GO_0019394	glucarate catabolic process	http://purl.obolibrary.org/obo/CHEBI_30613	glucarate(2-)
+http://purl.obolibrary.org/obo/GO_0006713	glucocorticoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_24261	glucocorticoid
+http://purl.obolibrary.org/obo/GO_2000884	glucomannan catabolic process	http://purl.obolibrary.org/obo/CHEBI_17020	glucomannan
+http://purl.obolibrary.org/obo/GO_0006043	glucosamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_5417	glucosamine
+http://purl.obolibrary.org/obo/GO_1901072	glucosamine-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_24271	glucosamines
+http://purl.obolibrary.org/obo/GO_0006007	glucose catabolic process	http://purl.obolibrary.org/obo/CHEBI_17234	glucose
+http://purl.obolibrary.org/obo/GO_0019762	glucosinolate catabolic process	http://purl.obolibrary.org/obo/CHEBI_24279	glucosinolate
+http://purl.obolibrary.org/obo/GO_0006680	glucosylceramide catabolic process	http://purl.obolibrary.org/obo/CHEBI_36500	glucosylceramide
+http://purl.obolibrary.org/obo/GO_0006064	glucuronate catabolic process	http://purl.obolibrary.org/obo/CHEBI_24297	glucuronate
+http://purl.obolibrary.org/obo/GO_2000887	glucuronoarabinoxylan catabolic process	http://purl.obolibrary.org/obo/CHEBI_28302	glucuronoarabinoxylan
+http://purl.obolibrary.org/obo/GO_0019391	glucuronoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_24302	glucosiduronic acid
+http://purl.obolibrary.org/obo/GO_2000886	glucuronoxylan catabolic process	http://purl.obolibrary.org/obo/CHEBI_60938	glucuronoxylan
+http://purl.obolibrary.org/obo/GO_0006538	glutamate catabolic process	http://purl.obolibrary.org/obo/CHEBI_14321	glutamate(1-)
+http://purl.obolibrary.org/obo/GO_0006543	glutamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_32678	glutaminate
+http://purl.obolibrary.org/obo/GO_0009065	glutamine family amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_24318	glutamine family amino acid
+http://purl.obolibrary.org/obo/GO_0006751	glutathione catabolic process	http://purl.obolibrary.org/obo/CHEBI_57925	glutathionate(1-)
+http://purl.obolibrary.org/obo/GO_1901686	glutathione derivative catabolic process	http://purl.obolibrary.org/obo/CHEBI_24337	glutathione derivative
+http://purl.obolibrary.org/obo/GO_0019683	glyceraldehyde-3-phosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_58027	glyceraldehyde 3-phosphate(2-)
+http://purl.obolibrary.org/obo/GO_0019563	glycerol catabolic process	http://purl.obolibrary.org/obo/CHEBI_17754	glycerol
+http://purl.obolibrary.org/obo/GO_0044269	glycerol ether catabolic process	http://purl.obolibrary.org/obo/CHEBI_24353	glycerol ether
+http://purl.obolibrary.org/obo/GO_0046168	glycerol-3-phosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_57597	sn-glycerol 3-phosphate(2-)
+http://purl.obolibrary.org/obo/GO_0046503	glycerolipid catabolic process	http://purl.obolibrary.org/obo/CHEBI_35741	glycerolipid
+http://purl.obolibrary.org/obo/GO_0046475	glycerophospholipid catabolic process	http://purl.obolibrary.org/obo/CHEBI_37739	glycerophospholipid
+http://purl.obolibrary.org/obo/GO_0031457	glycine betaine catabolic process	http://purl.obolibrary.org/obo/CHEBI_17750	glycine betaine
+http://purl.obolibrary.org/obo/GO_0006546	glycine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57305	glycine zwitterion
+http://purl.obolibrary.org/obo/GO_0005980	glycogen catabolic process	http://purl.obolibrary.org/obo/CHEBI_28087	glycogen
+http://purl.obolibrary.org/obo/GO_0042846	glycol catabolic process	http://purl.obolibrary.org/obo/CHEBI_13643	glycol
+http://purl.obolibrary.org/obo/GO_0046296	glycolate catabolic process	http://purl.obolibrary.org/obo/CHEBI_29805	glycolate
+http://purl.obolibrary.org/obo/GO_0019377	glycolipid catabolic process	http://purl.obolibrary.org/obo/CHEBI_33563	glycolipid
+http://purl.obolibrary.org/obo/GO_0009050	glycopeptide catabolic process	http://purl.obolibrary.org/obo/CHEBI_24396	glycopeptide
+http://purl.obolibrary.org/obo/GO_0006516	glycoprotein catabolic process	http://purl.obolibrary.org/obo/CHEBI_17089	glycoprotein
+http://purl.obolibrary.org/obo/GO_0006027	glycosaminoglycan catabolic process	http://purl.obolibrary.org/obo/CHEBI_18085	glycosaminoglycan
+http://purl.obolibrary.org/obo/GO_0016139	glycoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_24400	glycoside
+http://purl.obolibrary.org/obo/GO_0019759	glycosinolate catabolic process	http://purl.obolibrary.org/obo/CHEBI_24401	glycosinolate
+http://purl.obolibrary.org/obo/GO_0046479	glycosphingolipid catabolic process	http://purl.obolibrary.org/obo/CHEBI_24402	glycosphingolipid
+http://purl.obolibrary.org/obo/GO_1901658	glycosyl compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_63161	glycosyl compound
+http://purl.obolibrary.org/obo/GO_0046477	glycosylceramide catabolic process	http://purl.obolibrary.org/obo/CHEBI_62941	glycosylceramide
+http://purl.obolibrary.org/obo/GO_1902385	glycyrrhetinate catabolic process	http://purl.obolibrary.org/obo/CHEBI_17573	glycyrrhetinate
+http://purl.obolibrary.org/obo/GO_1903190	glyoxal catabolic process	http://purl.obolibrary.org/obo/CHEBI_34779	glyoxal
+http://purl.obolibrary.org/obo/GO_0009436	glyoxylate catabolic process	http://purl.obolibrary.org/obo/CHEBI_36655	glyoxylate
+http://purl.obolibrary.org/obo/GO_1901102	gramicidin S catabolic process	http://purl.obolibrary.org/obo/CHEBI_5530	gramicidin S
+http://purl.obolibrary.org/obo/GO_1901108	granaticin catabolic process	http://purl.obolibrary.org/obo/CHEBI_5533	granaticin
+http://purl.obolibrary.org/obo/GO_1901062	guaiacyl lignin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64475	guaiacyl lignin
+http://purl.obolibrary.org/obo/GO_0006147	guanine catabolic process	http://purl.obolibrary.org/obo/CHEBI_16235	guanine
+http://purl.obolibrary.org/obo/GO_0046115	guanosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_16750	guanosine
+http://purl.obolibrary.org/obo/GO_0015974	guanosine pentaphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_142410	guanosine 3'-diphosphate 5'-triphosphate hexaanion
+http://purl.obolibrary.org/obo/GO_0015971	guanosine tetraphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_77828	guanosine 3',5'-bis(diphosphate)(5-)
+http://purl.obolibrary.org/obo/GO_1901069	guanosine-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_24458	guanosines
+http://purl.obolibrary.org/obo/GO_0042206	halogenated hydrocarbon catabolic process	http://purl.obolibrary.org/obo/CHEBI_24472	halohydrocarbon
+http://purl.obolibrary.org/obo/GO_1900811	helvolic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_62461	helvolate
+http://purl.obolibrary.org/obo/GO_1900548	heme B catabolic process	http://purl.obolibrary.org/obo/CHEBI_26355	heme b
+http://purl.obolibrary.org/obo/GO_0046163	heme C catabolic process	http://purl.obolibrary.org/obo/CHEBI_61717	ferroheme c(2-)
+http://purl.obolibrary.org/obo/GO_0048035	heme O catabolic process	http://purl.obolibrary.org/obo/CHEBI_24480	heme o
+http://purl.obolibrary.org/obo/GO_0046161	heme a catabolic process	http://purl.obolibrary.org/obo/CHEBI_24479	heme a
+http://purl.obolibrary.org/obo/GO_0042167	heme catabolic process	http://purl.obolibrary.org/obo/CHEBI_30413	heme
+http://purl.obolibrary.org/obo/GO_2000895	hemicellulose catabolic process	http://purl.obolibrary.org/obo/CHEBI_61266	hemicellulose
+http://purl.obolibrary.org/obo/GO_0042540	hemoglobin catabolic process	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin
+http://purl.obolibrary.org/obo/GO_0030200	heparan sulfate proteoglycan catabolic process	http://purl.obolibrary.org/obo/CHEBI_24499	heparan sulfate proteoglycan
+http://purl.obolibrary.org/obo/GO_0030211	heparin catabolic process	http://purl.obolibrary.org/obo/CHEBI_24505	heparins
+http://purl.obolibrary.org/obo/GO_0046700	heterocycle catabolic process	http://purl.obolibrary.org/obo/CHEBI_5686	heterocyclic compound
+http://purl.obolibrary.org/obo/GO_0019407	hexitol catabolic process	http://purl.obolibrary.org/obo/CHEBI_24583	hexitol
+http://purl.obolibrary.org/obo/GO_0019320	hexose catabolic process	http://purl.obolibrary.org/obo/CHEBI_18133	hexose
+http://purl.obolibrary.org/obo/GO_0001695	histamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_58432	histaminium
+http://purl.obolibrary.org/obo/GO_0006548	histidine catabolic process	http://purl.obolibrary.org/obo/CHEBI_32529	histidinate(1-)
+http://purl.obolibrary.org/obo/GO_0036205	histone catabolic process	http://purl.obolibrary.org/obo/CHEBI_15358	histone
+http://purl.obolibrary.org/obo/GO_0043418	homocysteine catabolic process	http://purl.obolibrary.org/obo/CHEBI_58065	homocysteine zwitterion
+http://purl.obolibrary.org/obo/GO_0033393	homogalacturonan catabolic process	http://purl.obolibrary.org/obo/CHEBI_60190	homogalacturonan
+http://purl.obolibrary.org/obo/GO_1902000	homogentisate catabolic process	http://purl.obolibrary.org/obo/CHEBI_16169	homogentisate
+http://purl.obolibrary.org/obo/GO_0009091	homoserine catabolic process	http://purl.obolibrary.org/obo/CHEBI_62980	homoserinate
+http://purl.obolibrary.org/obo/GO_0019743	hopanoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_51963	hopanoid
+http://purl.obolibrary.org/obo/GO_0042447	hormone catabolic process	http://purl.obolibrary.org/obo/GOCHE_24621	substance with hormone role
+http://purl.obolibrary.org/obo/GO_0030214	hyaluronan catabolic process	http://purl.obolibrary.org/obo/CHEBI_16336	hyaluronic acid
+http://purl.obolibrary.org/obo/GO_0120253	hydrocarbon catabolic process	http://purl.obolibrary.org/obo/CHEBI_24632	hydrocarbon
+http://purl.obolibrary.org/obo/GO_0042744	hydrogen peroxide catabolic process	http://purl.obolibrary.org/obo/CHEBI_16240	hydrogen peroxide
+http://purl.obolibrary.org/obo/GO_0046948	hydroxylysine catabolic process	http://purl.obolibrary.org/obo/CHEBI_133574	5-hydroxylysinium
+http://purl.obolibrary.org/obo/GO_0002150	hypochlorous acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_24757	hypochlorous acid
+http://purl.obolibrary.org/obo/GO_0009114	hypoxanthine catabolic process	http://purl.obolibrary.org/obo/CHEBI_17368	hypoxanthine
+http://purl.obolibrary.org/obo/GO_1901523	icosanoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_23899	icosanoid
+http://purl.obolibrary.org/obo/GO_0052805	imidazole-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_24780	imidazoles
+http://purl.obolibrary.org/obo/GO_0042433	indole catabolic process	http://purl.obolibrary.org/obo/CHEBI_35581	indole
+http://purl.obolibrary.org/obo/GO_0042344	indole glucosinolate catabolic process	http://purl.obolibrary.org/obo/CHEBI_64962	glucobrassicin(1-)
+http://purl.obolibrary.org/obo/GO_0046216	indole phytoalexin catabolic process	http://purl.obolibrary.org/obo/CHEBI_24797	indole phytoalexin
+http://purl.obolibrary.org/obo/GO_0042436	indole-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_24828	indoles
+http://purl.obolibrary.org/obo/GO_0042437	indoleacetic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_30854	indole-3-acetate
+http://purl.obolibrary.org/obo/GO_0006148	inosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_17596	inosine
+http://purl.obolibrary.org/obo/GO_0019310	inositol catabolic process	http://purl.obolibrary.org/obo/CHEBI_24848	inositol
+http://purl.obolibrary.org/obo/GO_0071545	inositol phosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_24846	inositol phosphate
+http://purl.obolibrary.org/obo/GO_0046701	insecticide catabolic process	http://purl.obolibrary.org/obo/GOCHE_24852	substance with insecticide role
+http://purl.obolibrary.org/obo/GO_1901143	insulin catabolic process	http://purl.obolibrary.org/obo/PR_000009054	insulin gene translation product
+http://purl.obolibrary.org/obo/GO_1902927	inulin catabolic process	http://purl.obolibrary.org/obo/CHEBI_15443	inulin
+http://purl.obolibrary.org/obo/GO_1901287	iron-sulfur-molybdenum cofactor catabolic process	http://purl.obolibrary.org/obo/CHEBI_30409	iron-sulfur-molybdenum cofactor
+http://purl.obolibrary.org/obo/GO_0046288	isoflavonoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_50753	isoflavonoid
+http://purl.obolibrary.org/obo/GO_0046290	isoflavonoid phytoalexin catabolic process	http://purl.obolibrary.org/obo/CHEBI_26377	pterocarpans
+http://purl.obolibrary.org/obo/GO_0006550	isoleucine catabolic process	http://purl.obolibrary.org/obo/CHEBI_24898	isoleucine
+http://purl.obolibrary.org/obo/GO_0034266	isopentenyl adenine catabolic process	http://purl.obolibrary.org/obo/CHEBI_17660	N(6)-dimethylallyladenine
+http://purl.obolibrary.org/obo/GO_0043613	isoprene catabolic process	http://purl.obolibrary.org/obo/CHEBI_35194	isoprene
+http://purl.obolibrary.org/obo/GO_0008300	isoprenoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_24913	isoprenoid
+http://purl.obolibrary.org/obo/GO_0071274	isoquinoline alkaloid catabolic process	http://purl.obolibrary.org/obo/CHEBI_24921	isoquinoline alkaloid
+http://purl.obolibrary.org/obo/GO_1902196	isovaleryl-CoA(4-) catabolic process	http://purl.obolibrary.org/obo/CHEBI_57345	isovaleryl-CoA(4-)
+http://purl.obolibrary.org/obo/GO_0006719	juvenile hormone catabolic process	http://purl.obolibrary.org/obo/CHEBI_24943	juvenile hormone
+http://purl.obolibrary.org/obo/GO_1901132	kanamycin catabolic process	http://purl.obolibrary.org/obo/CHEBI_6104	kanamycin
+http://purl.obolibrary.org/obo/GO_0042340	keratan sulfate catabolic process	http://purl.obolibrary.org/obo/CHEBI_60924	keratan sulfate
+http://purl.obolibrary.org/obo/GO_0019524	keto-D-gluconate catabolic process	http://purl.obolibrary.org/obo/CHEBI_24966	keto-D-gluconate
+http://purl.obolibrary.org/obo/GO_0046181	ketogluconate catabolic process	http://purl.obolibrary.org/obo/CHEBI_60978	ketogluconate
+http://purl.obolibrary.org/obo/GO_0046952	ketone body catabolic process	http://purl.obolibrary.org/obo/CHEBI_73693	ketone body
+http://purl.obolibrary.org/obo/GO_0042182	ketone catabolic process	http://purl.obolibrary.org/obo/CHEBI_17087	ketone
+http://purl.obolibrary.org/obo/GO_1903457	lactate catabolic process	http://purl.obolibrary.org/obo/CHEBI_24996	lactate
+http://purl.obolibrary.org/obo/GO_1901335	lactone catabolic process	http://purl.obolibrary.org/obo/CHEBI_25000	lactone
+http://purl.obolibrary.org/obo/GO_0005990	lactose catabolic process	http://purl.obolibrary.org/obo/CHEBI_17716	lactose
+http://purl.obolibrary.org/obo/GO_0006552	leucine catabolic process	http://purl.obolibrary.org/obo/CHEBI_25017	leucine
+http://purl.obolibrary.org/obo/GO_1901752	leukotriene A4 catabolic process	http://purl.obolibrary.org/obo/CHEBI_57463	leukotriene A4(1-)
+http://purl.obolibrary.org/obo/GO_0036101	leukotriene B4 catabolic process	http://purl.obolibrary.org/obo/CHEBI_57461	leukotriene B4(1-)
+http://purl.obolibrary.org/obo/GO_1901749	leukotriene D4 catabolic process	http://purl.obolibrary.org/obo/CHEBI_63166	leukotriene D4(1-)
+http://purl.obolibrary.org/obo/GO_0036100	leukotriene catabolic process	http://purl.obolibrary.org/obo/CHEBI_62942	leukotriene anion
+http://purl.obolibrary.org/obo/GO_0046273	lignan catabolic process	http://purl.obolibrary.org/obo/CHEBI_25036	lignan
+http://purl.obolibrary.org/obo/GO_0046274	lignin catabolic process	http://purl.obolibrary.org/obo/CHEBI_6457	lignin
+http://purl.obolibrary.org/obo/GO_0046251	limonene catabolic process	http://purl.obolibrary.org/obo/CHEBI_15384	limonene
+http://purl.obolibrary.org/obo/GO_1901773	lincomycin catabolic process	http://purl.obolibrary.org/obo/CHEBI_6472	lincomycin
+http://purl.obolibrary.org/obo/GO_0016042	lipid catabolic process	http://purl.obolibrary.org/obo/CHEBI_18059	lipid
+http://purl.obolibrary.org/obo/GO_0032323	lipoate catabolic process	http://purl.obolibrary.org/obo/CHEBI_30313	lipoate
+http://purl.obolibrary.org/obo/GO_1901270	lipooligosaccharide catabolic process	http://purl.obolibrary.org/obo/CHEBI_35371	lipooligosaccharide
+http://purl.obolibrary.org/obo/GO_0009104	lipopolysaccharide catabolic process	http://purl.obolibrary.org/obo/CHEBI_16412	lipopolysaccharide
+http://purl.obolibrary.org/obo/GO_0042159	lipoprotein catabolic process	http://purl.obolibrary.org/obo/CHEBI_6495	lipoprotein
+http://purl.obolibrary.org/obo/GO_0070396	lipoteichoic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_28640	lipoteichoic acid
+http://purl.obolibrary.org/obo/GO_0110064	lncRNA catabolic process	http://purl.obolibrary.org/obo/SO_0001877	lncRNA
+http://purl.obolibrary.org/obo/GO_0042758	long-chain fatty acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_57560	long-chain fatty acid anion
+http://purl.obolibrary.org/obo/GO_0036116	long-chain fatty-acyl-CoA catabolic process	http://purl.obolibrary.org/obo/CHEBI_83139	long-chain fatty acyl-CoA(4-)
+http://purl.obolibrary.org/obo/GO_0062172	lutein catabolic process	http://purl.obolibrary.org/obo/CHEBI_28838	lutein
+http://purl.obolibrary.org/obo/GO_1901176	lycopene catabolic process	http://purl.obolibrary.org/obo/CHEBI_15948	lycopene
+http://purl.obolibrary.org/obo/GO_0006554	lysine catabolic process	http://purl.obolibrary.org/obo/CHEBI_32564	lysinium(1+)
+http://purl.obolibrary.org/obo/GO_0042213	m-cresol catabolic process	http://purl.obolibrary.org/obo/CHEBI_17231	m-cresol
+http://purl.obolibrary.org/obo/GO_0042185	m-xylene catabolic process	http://purl.obolibrary.org/obo/CHEBI_28488	m-xylene
+http://purl.obolibrary.org/obo/GO_0006402	mRNA catabolic process	http://purl.obolibrary.org/obo/CHEBI_33699	messenger RNA
+http://purl.obolibrary.org/obo/GO_0009057	macromolecule catabolic process	http://purl.obolibrary.org/obo/CHEBI_33694	biomacromolecule
+http://purl.obolibrary.org/obo/GO_0090410	malonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_15792	malonate(2-)
+http://purl.obolibrary.org/obo/GO_2001294	malonyl-CoA catabolic process	http://purl.obolibrary.org/obo/CHEBI_57384	malonyl-CoA(5-)
+http://purl.obolibrary.org/obo/GO_2001123	maltoheptaose catabolic process	http://purl.obolibrary.org/obo/CHEBI_62010	maltoheptaose
+http://purl.obolibrary.org/obo/GO_0000025	maltose catabolic process	http://purl.obolibrary.org/obo/CHEBI_17306	maltose
+http://purl.obolibrary.org/obo/GO_0019596	mandelate catabolic process	http://purl.obolibrary.org/obo/CHEBI_25147	mandelate
+http://purl.obolibrary.org/obo/GO_0046355	mannan catabolic process	http://purl.obolibrary.org/obo/CHEBI_28808	mannan
+http://purl.obolibrary.org/obo/GO_0019592	mannitol catabolic process	http://purl.obolibrary.org/obo/CHEBI_29864	mannitol
+http://purl.obolibrary.org/obo/GO_0106305	mannogen catabolic process	http://purl.obolibrary.org/obo/CHEBI_149779	mannogen
+http://purl.obolibrary.org/obo/GO_0006058	mannoprotein catabolic process	http://purl.obolibrary.org/obo/CHEBI_78903	mannoprotein
+http://purl.obolibrary.org/obo/GO_0046346	mannosamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_25166	mannosamine
+http://purl.obolibrary.org/obo/GO_0019309	mannose catabolic process	http://purl.obolibrary.org/obo/CHEBI_37684	mannose
+http://purl.obolibrary.org/obo/GO_0051793	medium-chain fatty acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_59558	medium-chain fatty acid anion
+http://purl.obolibrary.org/obo/GO_0036114	medium-chain fatty-acyl-CoA catabolic process	http://purl.obolibrary.org/obo/CHEBI_61907	medium-chain fatty acyl-CoA
+http://purl.obolibrary.org/obo/GO_0046150	melanin catabolic process	http://purl.obolibrary.org/obo/CHEBI_25179	melanins
+http://purl.obolibrary.org/obo/GO_0042442	melatonin catabolic process	http://purl.obolibrary.org/obo/CHEBI_16796	melatonin
+http://purl.obolibrary.org/obo/GO_0005995	melibiose catabolic process	http://purl.obolibrary.org/obo/CHEBI_28053	melibiose
+http://purl.obolibrary.org/obo/GO_0042361	menaquinone catabolic process	http://purl.obolibrary.org/obo/CHEBI_25185	menaquinones
+http://purl.obolibrary.org/obo/GO_0046188	methane catabolic process	http://purl.obolibrary.org/obo/CHEBI_16183	methane
+http://purl.obolibrary.org/obo/GO_0046170	methanol catabolic process	http://purl.obolibrary.org/obo/CHEBI_17790	methanol
+http://purl.obolibrary.org/obo/GO_0009087	methionine catabolic process	http://purl.obolibrary.org/obo/CHEBI_64558	methionine zwitterion
+http://purl.obolibrary.org/obo/GO_0046213	methyl ethyl ketone catabolic process	http://purl.obolibrary.org/obo/CHEBI_28398	butan-2-one
+http://purl.obolibrary.org/obo/GO_0046276	methylgallate catabolic process	http://purl.obolibrary.org/obo/CHEBI_19950	3-O-methylgallate
+http://purl.obolibrary.org/obo/GO_0051596	methylglyoxal catabolic process	http://purl.obolibrary.org/obo/CHEBI_17158	methylglyoxal
+http://purl.obolibrary.org/obo/GO_0042193	methylmercury catabolic process	http://purl.obolibrary.org/obo/CHEBI_49747	methylmercury(1+)
+http://purl.obolibrary.org/obo/GO_0043635	methylnaphthalene catabolic process	http://purl.obolibrary.org/obo/CHEBI_50715	methylnaphthalene
+http://purl.obolibrary.org/obo/GO_0010587	miRNA catabolic process	http://purl.obolibrary.org/obo/SO_0000276	miRNA
+http://purl.obolibrary.org/obo/GO_1901945	miltiradiene catabolic process	http://purl.obolibrary.org/obo/CHEBI_65037	miltiradiene
+http://purl.obolibrary.org/obo/GO_0006712	mineralocorticoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_25354	mineralocorticoid
+http://purl.obolibrary.org/obo/GO_1901776	mitomycin C catabolic process	http://purl.obolibrary.org/obo/CHEBI_194095	mitomycin C(1-)
+http://purl.obolibrary.org/obo/GO_0032325	molybdopterin cofactor catabolic process	http://purl.obolibrary.org/obo/CHEBI_25372	molybdopterin cofactor
+http://purl.obolibrary.org/obo/GO_1901729	monensin A catabolic process	http://purl.obolibrary.org/obo/CHEBI_27617	monensin A
+http://purl.obolibrary.org/obo/GO_0052651	monoacylglycerol catabolic process	http://purl.obolibrary.org/obo/CHEBI_17408	monoacylglycerol
+http://purl.obolibrary.org/obo/GO_0072329	monocarboxylic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_35757	monocarboxylic acid anion
+http://purl.obolibrary.org/obo/GO_1900814	monodictyphenone catabolic process	http://purl.obolibrary.org/obo/CHEBI_64398	monodictyphenone
+http://purl.obolibrary.org/obo/GO_0046365	monosaccharide catabolic process	http://purl.obolibrary.org/obo/CHEBI_35381	monosaccharide
+http://purl.obolibrary.org/obo/GO_0043694	monoterpene catabolic process	http://purl.obolibrary.org/obo/CHEBI_35187	monoterpene
+http://purl.obolibrary.org/obo/GO_0016100	monoterpenoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_25409	monoterpenoid
+http://purl.obolibrary.org/obo/GO_1903965	monounsaturated fatty acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_25413	monounsaturated fatty acid
+http://purl.obolibrary.org/obo/GO_0071273	morphine catabolic process	http://purl.obolibrary.org/obo/CHEBI_58097	morphine(1+)
+http://purl.obolibrary.org/obo/GO_0043387	mycotoxin catabolic process	http://purl.obolibrary.org/obo/GOCHE_25442	substance with mycotoxin role
+http://purl.obolibrary.org/obo/GO_1901170	naphthalene catabolic process	http://purl.obolibrary.org/obo/CHEBI_16482	naphthalene
+http://purl.obolibrary.org/obo/GO_1900786	naphtho-gamma-pyrone catabolic process	http://purl.obolibrary.org/obo/CHEBI_64542	naphtho-gamma-pyrone
+http://purl.obolibrary.org/obo/GO_0034661	ncRNA catabolic process	http://purl.obolibrary.org/obo/SO_0000655	ncRNA
+http://purl.obolibrary.org/obo/GO_1901157	neomycin catabolic process	http://purl.obolibrary.org/obo/CHEBI_7507	neomycin
+http://purl.obolibrary.org/obo/GO_1902049	neosartoricin catabolic process	http://purl.obolibrary.org/obo/CHEBI_72750	neosartoricin
+http://purl.obolibrary.org/obo/GO_0030419	nicotianamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_58249	(S,S,S)-nicotianamine trizwitterion
+http://purl.obolibrary.org/obo/GO_0006738	nicotinamide riboside catabolic process	http://purl.obolibrary.org/obo/CHEBI_15927	N-ribosylnicotinamide
+http://purl.obolibrary.org/obo/GO_1901848	nicotinate catabolic process	http://purl.obolibrary.org/obo/CHEBI_32544	nicotinate
+http://purl.obolibrary.org/obo/GO_0019608	nicotine catabolic process	http://purl.obolibrary.org/obo/CHEBI_18723	nicotine
+http://purl.obolibrary.org/obo/GO_0043602	nitrate catabolic process	http://purl.obolibrary.org/obo/CHEBI_17632	nitrate
+http://purl.obolibrary.org/obo/GO_0046210	nitric oxide catabolic process	http://purl.obolibrary.org/obo/CHEBI_16480	nitric oxide
+http://purl.obolibrary.org/obo/GO_0050899	nitrile catabolic process	http://purl.obolibrary.org/obo/CHEBI_18379	nitrile
+http://purl.obolibrary.org/obo/GO_1900998	nitrobenzene catabolic process	http://purl.obolibrary.org/obo/CHEBI_27798	nitrobenzene
+http://purl.obolibrary.org/obo/GO_0046263	nitrotoluene catabolic process	http://purl.obolibrary.org/obo/CHEBI_25566	nitrotoluene
+http://purl.obolibrary.org/obo/GO_0019468	nopaline catabolic process	http://purl.obolibrary.org/obo/CHEBI_58074	D-nopalinate(1-)
+http://purl.obolibrary.org/obo/GO_0046205	nor-spermidine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57920	bis(3-azaniumylpropyl)azanium
+http://purl.obolibrary.org/obo/GO_0042422	norepinephrine catabolic process	http://purl.obolibrary.org/obo/CHEBI_72587	(R)-noradrenaline(1+)
+http://purl.obolibrary.org/obo/GO_0046113	nucleobase catabolic process	http://purl.obolibrary.org/obo/CHEBI_18282	nucleobase
+http://purl.obolibrary.org/obo/GO_0034655	nucleobase-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_61120	nucleobase-containing molecular entity
+http://purl.obolibrary.org/obo/GO_0033869	nucleoside bisphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_37123	nucleoside bisphosphate
+http://purl.obolibrary.org/obo/GO_0009164	nucleoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_33838	nucleoside
+http://purl.obolibrary.org/obo/GO_0009134	nucleoside diphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_57930	nucleoside 5'-diphosphate(3-)
+http://purl.obolibrary.org/obo/GO_0009125	nucleoside monophosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_58043	nucleoside 5'-monophosphate(2-)
+http://purl.obolibrary.org/obo/GO_1901292	nucleoside phosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_25608	nucleoside phosphate
+http://purl.obolibrary.org/obo/GO_0009143	nucleoside triphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_61557	nucleoside 5'-triphoshate(4-)
+http://purl.obolibrary.org/obo/GO_0009166	nucleotide catabolic process	http://purl.obolibrary.org/obo/CHEBI_36976	nucleotide
+http://purl.obolibrary.org/obo/GO_0009227	nucleotide-sugar catabolic process	http://purl.obolibrary.org/obo/CHEBI_25609	nucleotide-sugar
+http://purl.obolibrary.org/obo/GO_0019876	nylon catabolic process	http://purl.obolibrary.org/obo/CHEBI_25614	nylons
+http://purl.obolibrary.org/obo/GO_1900583	o-orsellinic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_16162	o-orsellinate
+http://purl.obolibrary.org/obo/GO_0042186	o-xylene catabolic process	http://purl.obolibrary.org/obo/CHEBI_28063	o-xylene
+http://purl.obolibrary.org/obo/GO_1900817	ochratoxin A catabolic process	http://purl.obolibrary.org/obo/CHEBI_166829	ochratoxin A(1-)
+http://purl.obolibrary.org/obo/GO_0046517	octamethylcyclotetrasiloxane catabolic process	http://purl.obolibrary.org/obo/CHEBI_25640	octamethylcyclotetrasiloxane
+http://purl.obolibrary.org/obo/GO_0046172	octanol catabolic process	http://purl.obolibrary.org/obo/CHEBI_16188	octan-1-ol
+http://purl.obolibrary.org/obo/GO_0046334	octopamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_58025	octopaminium
+http://purl.obolibrary.org/obo/GO_0019469	octopine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57520	D-octopine dizwitterion
+http://purl.obolibrary.org/obo/GO_0120256	olefinic compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_78840	olefinic compound
+http://purl.obolibrary.org/obo/GO_0009313	oligosaccharide catabolic process	http://purl.obolibrary.org/obo/CHEBI_50699	oligosaccharide
+http://purl.obolibrary.org/obo/GO_0046153	ommochrome catabolic process	http://purl.obolibrary.org/obo/CHEBI_25692	ommochrome
+http://purl.obolibrary.org/obo/GO_0042209	orcinol catabolic process	http://purl.obolibrary.org/obo/CHEBI_16536	orcinol
+http://purl.obolibrary.org/obo/GO_0016054	organic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_64709	organic acid
+http://purl.obolibrary.org/obo/GO_1901361	organic cyclic compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_33832	organic cyclic compound
+http://purl.obolibrary.org/obo/GO_1901377	organic heteropentacyclic compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_38164	organic heteropentacyclic compound
+http://purl.obolibrary.org/obo/GO_1901616	organic hydroxy compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_33822	organic hydroxy compound
+http://purl.obolibrary.org/obo/GO_0019700	organic phosphonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_37592	organic phosphonate
+http://purl.obolibrary.org/obo/GO_1901575	organic substance catabolic process	http://purl.obolibrary.org/obo/CHEBI_50860	organic molecular entity
+http://purl.obolibrary.org/obo/GO_0046413	organomercury catabolic process	http://purl.obolibrary.org/obo/CHEBI_25706	organomercury compound
+http://purl.obolibrary.org/obo/GO_1901565	organonitrogen compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_35352	organonitrogen compound
+http://purl.obolibrary.org/obo/GO_0046434	organophosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_25710	organophosphorus compound
+http://purl.obolibrary.org/obo/GO_0046455	organosilicon catabolic process	http://purl.obolibrary.org/obo/CHEBI_25713	organosilicon compound
+http://purl.obolibrary.org/obo/GO_1900820	orlandin catabolic process	http://purl.obolibrary.org/obo/CHEBI_145992	orlandin(1-)
+http://purl.obolibrary.org/obo/GO_0006593	ornithine catabolic process	http://purl.obolibrary.org/obo/CHEBI_46912	ornithinium(1+)
+http://purl.obolibrary.org/obo/GO_1900726	osmoregulated periplasmic glucan catabolic process	http://purl.obolibrary.org/obo/CHEBI_63300	osmoregulated periplasmic glucan
+http://purl.obolibrary.org/obo/GO_0033611	oxalate catabolic process	http://purl.obolibrary.org/obo/CHEBI_30623	oxalate(2-)
+http://purl.obolibrary.org/obo/GO_1901762	oxytetracycline catabolic process	http://purl.obolibrary.org/obo/CHEBI_133011	oxytetracycline zwitterion
+http://purl.obolibrary.org/obo/GO_1901785	p-cresol catabolic process	http://purl.obolibrary.org/obo/CHEBI_17847	p-cresol
+http://purl.obolibrary.org/obo/GO_1901782	p-cumate catabolic process	http://purl.obolibrary.org/obo/CHEBI_25822	p-cumate
+http://purl.obolibrary.org/obo/GO_0019334	p-cymene catabolic process	http://purl.obolibrary.org/obo/CHEBI_28768	p-cymene
+http://purl.obolibrary.org/obo/GO_1901059	p-hydroxyphenyl lignin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64474	p-hydroxyphenyl lignin
+http://purl.obolibrary.org/obo/GO_0042187	p-xylene catabolic process	http://purl.obolibrary.org/obo/CHEBI_27417	p-xylene
+http://purl.obolibrary.org/obo/GO_1900534	palmitic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_7896	hexadecanoate
+http://purl.obolibrary.org/obo/GO_0015941	pantothenate catabolic process	http://purl.obolibrary.org/obo/CHEBI_16454	pantothenate
+http://purl.obolibrary.org/obo/GO_0019339	parathion catabolic process	http://purl.obolibrary.org/obo/CHEBI_27928	parathion
+http://purl.obolibrary.org/obo/GO_1901154	paromomycin catabolic process	http://purl.obolibrary.org/obo/CHEBI_7934	paromomycin
+http://purl.obolibrary.org/obo/GO_0045490	pectin catabolic process	http://purl.obolibrary.org/obo/CHEBI_17309	pectin
+http://purl.obolibrary.org/obo/GO_0042317	penicillin catabolic process	http://purl.obolibrary.org/obo/CHEBI_51356	penicillinate anion
+http://purl.obolibrary.org/obo/GO_0019338	pentachlorophenol catabolic process	http://purl.obolibrary.org/obo/CHEBI_58217	pentachlorophenolate
+http://purl.obolibrary.org/obo/GO_0019741	pentacyclic triterpenoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_25872	pentacyclic triterpenoid
+http://purl.obolibrary.org/obo/GO_1901779	pentalenolactone catabolic process	http://purl.obolibrary.org/obo/CHEBI_70790	pentalenolactone(1-)
+http://purl.obolibrary.org/obo/GO_0019527	pentitol catabolic process	http://purl.obolibrary.org/obo/CHEBI_25899	pentitol
+http://purl.obolibrary.org/obo/GO_0019323	pentose catabolic process	http://purl.obolibrary.org/obo/CHEBI_25901	pentose
+http://purl.obolibrary.org/obo/GO_0030652	peptide antibiotic catabolic process	http://purl.obolibrary.org/obo/CHEBI_25903	peptide antibiotic
+http://purl.obolibrary.org/obo/GO_0043171	peptide catabolic process	http://purl.obolibrary.org/obo/CHEBI_16670	peptide
+http://purl.obolibrary.org/obo/GO_0009253	peptidoglycan catabolic process	http://purl.obolibrary.org/obo/CHEBI_8005	peptidoglycan
+http://purl.obolibrary.org/obo/GO_0042216	phenanthrene catabolic process	http://purl.obolibrary.org/obo/CHEBI_28851	phenanthrene
+http://purl.obolibrary.org/obo/GO_0072392	phenol catabolic process	http://purl.obolibrary.org/obo/CHEBI_15882	phenol
+http://purl.obolibrary.org/obo/GO_0019336	phenol-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_33853	phenols
+http://purl.obolibrary.org/obo/GO_0010124	phenylacetate catabolic process	http://purl.obolibrary.org/obo/CHEBI_18401	phenylacetate
+http://purl.obolibrary.org/obo/GO_0019607	phenylethylamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_50048	phenylethylamine
+http://purl.obolibrary.org/obo/GO_0019506	phenylmercury acetate catabolic process	http://purl.obolibrary.org/obo/CHEBI_27684	phenylmercury acetate
+http://purl.obolibrary.org/obo/GO_0046271	phenylpropanoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_26004	phenylpropanoid
+http://purl.obolibrary.org/obo/GO_0042812	pheromone catabolic process	http://purl.obolibrary.org/obo/GOCHE_26013	substance with pheromone role
+http://purl.obolibrary.org/obo/GO_0042397	phosphagen catabolic process	http://purl.obolibrary.org/obo/CHEBI_64618	phosphagen
+http://purl.obolibrary.org/obo/GO_0034638	phosphatidylcholine catabolic process	http://purl.obolibrary.org/obo/CHEBI_64482	phosphatidylcholine
+http://purl.obolibrary.org/obo/GO_0046338	phosphatidylethanolamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57613	phosphatidylethanolamine zwitterion
+http://purl.obolibrary.org/obo/GO_0034478	phosphatidylglycerol catabolic process	http://purl.obolibrary.org/obo/CHEBI_60523	phosphatidylglycerol(1-)
+http://purl.obolibrary.org/obo/GO_0031161	phosphatidylinositol catabolic process	http://purl.obolibrary.org/obo/CHEBI_28874	phosphatidylinositol
+http://purl.obolibrary.org/obo/GO_0006660	phosphatidylserine catabolic process	http://purl.obolibrary.org/obo/CHEBI_18303	phosphatidyl-L-serine
+http://purl.obolibrary.org/obo/GO_1901765	phosphinothricin catabolic process	http://purl.obolibrary.org/obo/CHEBI_52136	glufosinate
+http://purl.obolibrary.org/obo/GO_0046313	phosphoarginine catabolic process	http://purl.obolibrary.org/obo/CHEBI_58477	N(omega)-phosphonato-L-arginine
+http://purl.obolibrary.org/obo/GO_0046315	phosphocreatine catabolic process	http://purl.obolibrary.org/obo/CHEBI_58092	N-phosphocreatinate(2-)
+http://purl.obolibrary.org/obo/GO_0009395	phospholipid catabolic process	http://purl.obolibrary.org/obo/CHEBI_16247	phospholipid
+http://purl.obolibrary.org/obo/GO_0046239	phthalate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26092	phthalate
+http://purl.obolibrary.org/obo/GO_0042376	phylloquinone catabolic process	http://purl.obolibrary.org/obo/CHEBI_18067	phylloquinone
+http://purl.obolibrary.org/obo/GO_0052316	phytoalexin catabolic process	http://purl.obolibrary.org/obo/GOCHE_26115	substance with phytoalexin role
+http://purl.obolibrary.org/obo/GO_1901173	phytoene catabolic process	http://purl.obolibrary.org/obo/CHEBI_26119	phytoene
+http://purl.obolibrary.org/obo/GO_0016130	phytosteroid catabolic process	http://purl.obolibrary.org/obo/CHEBI_26124	phytosteroid
+http://purl.obolibrary.org/obo/GO_0033074	pinene catabolic process	http://purl.obolibrary.org/obo/CHEBI_17187	pinene
+http://purl.obolibrary.org/obo/GO_0062234	platelet activating factor catabolic process	http://purl.obolibrary.org/obo/CHEBI_52450	2-O-acetyl-1-O-octadecyl-sn-glycero-3-phosphocholine
+http://purl.obolibrary.org/obo/GO_0030310	poly-N-acetyllactosamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_26174	poly(N-acetyllactosamine)
+http://purl.obolibrary.org/obo/GO_0006598	polyamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_88061	polyamine
+http://purl.obolibrary.org/obo/GO_0030640	polyketide catabolic process	http://purl.obolibrary.org/obo/CHEBI_26188	polyketide
+http://purl.obolibrary.org/obo/GO_0046174	polyol catabolic process	http://purl.obolibrary.org/obo/CHEBI_26191	polyol
+http://purl.obolibrary.org/obo/GO_0006798	polyphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_16838	polyphosphate
+http://purl.obolibrary.org/obo/GO_0016095	polyprenol catabolic process	http://purl.obolibrary.org/obo/CHEBI_26199	polyprenol
+http://purl.obolibrary.org/obo/GO_0000272	polysaccharide catabolic process	http://purl.obolibrary.org/obo/CHEBI_18154	polysaccharide
+http://purl.obolibrary.org/obo/GO_0016113	polyterpenoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_26207	polyterpenoid
+http://purl.obolibrary.org/obo/GO_0006787	porphyrin-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_26214	porphyrins
+http://purl.obolibrary.org/obo/GO_0016092	prenol catabolic process	http://purl.obolibrary.org/obo/CHEBI_16019	prenol
+http://purl.obolibrary.org/obo/GO_0030328	prenylcysteine catabolic process	http://purl.obolibrary.org/obo/CHEBI_60941	prenylcysteine
+http://purl.obolibrary.org/obo/GO_1901746	prephenate(2-) catabolic process	http://purl.obolibrary.org/obo/CHEBI_57852	prephenate(2-)
+http://purl.obolibrary.org/obo/GO_0034310	primary alcohol catabolic process	http://purl.obolibrary.org/obo/CHEBI_15734	primary alcohol
+http://purl.obolibrary.org/obo/GO_1901161	primary amino compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_50994	primary amino compound
+http://purl.obolibrary.org/obo/GO_0006709	progesterone catabolic process	http://purl.obolibrary.org/obo/CHEBI_17026	progesterone
+http://purl.obolibrary.org/obo/GO_0006562	proline catabolic process	http://purl.obolibrary.org/obo/CHEBI_32871	prolinate
+http://purl.obolibrary.org/obo/GO_0051144	propanediol catabolic process	http://purl.obolibrary.org/obo/CHEBI_26288	propanediol
+http://purl.obolibrary.org/obo/GO_0019543	propionate catabolic process	http://purl.obolibrary.org/obo/CHEBI_17272	propionate
+http://purl.obolibrary.org/obo/GO_1902859	propionyl-CoA catabolic process	http://purl.obolibrary.org/obo/CHEBI_57392	propionyl-CoA(4-)
+http://purl.obolibrary.org/obo/GO_0042208	propylene catabolic process	http://purl.obolibrary.org/obo/CHEBI_16052	propene
+http://purl.obolibrary.org/obo/GO_1905344	prostaglandin catabolic process	http://purl.obolibrary.org/obo/CHEBI_26333	prostaglandin
+http://purl.obolibrary.org/obo/GO_0062232	prostanoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_26347	prostanoid
+http://purl.obolibrary.org/obo/GO_0051190	prosthetic group catabolic process	http://purl.obolibrary.org/obo/GOCHE_26348	substance with prosthetic group role
+http://purl.obolibrary.org/obo/GO_0030163	protein catabolic process	http://purl.obolibrary.org/obo/PR_000000001	protein
+http://purl.obolibrary.org/obo/GO_0030167	proteoglycan catabolic process	http://purl.obolibrary.org/obo/CHEBI_37396	proteoglycan
+http://purl.obolibrary.org/obo/GO_1900789	pseurotin A catabolic process	http://purl.obolibrary.org/obo/CHEBI_64535	pseurotin A
+http://purl.obolibrary.org/obo/GO_0019990	pteridine catabolic process	http://purl.obolibrary.org/obo/CHEBI_27601	pteridine
+http://purl.obolibrary.org/obo/GO_0042560	pteridine-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_26373	pteridines
+http://purl.obolibrary.org/obo/GO_0051678	pullulan catabolic process	http://purl.obolibrary.org/obo/CHEBI_27941	pullulan
+http://purl.obolibrary.org/obo/GO_0046124	purine deoxyribonucleoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_60173	purine deoxyribonucleoside
+http://purl.obolibrary.org/obo/GO_0009184	purine deoxyribonucleoside diphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26387	purine 2'-deoxyribonucleoside diphosphate
+http://purl.obolibrary.org/obo/GO_0009172	purine deoxyribonucleoside monophosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26388	purine 2'-deoxyribonucleoside monophosphate
+http://purl.obolibrary.org/obo/GO_0009217	purine deoxyribonucleoside triphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26389	purine deoxyribonucleoside triphosphate
+http://purl.obolibrary.org/obo/GO_0009155	purine deoxyribonucleotide catabolic process	http://purl.obolibrary.org/obo/CHEBI_26390	purine 2'-deoxyribonucleotide
+http://purl.obolibrary.org/obo/GO_0006145	purine nucleobase catabolic process	http://purl.obolibrary.org/obo/CHEBI_26386	purine nucleobase
+http://purl.obolibrary.org/obo/GO_0034034	purine nucleoside bisphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_61078	purine nucleoside bisphosphate
+http://purl.obolibrary.org/obo/GO_0006152	purine nucleoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_26394	purine nucleoside
+http://purl.obolibrary.org/obo/GO_0009137	purine nucleoside diphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26391	purine nucleoside diphosphate
+http://purl.obolibrary.org/obo/GO_0009128	purine nucleoside monophosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26392	purine nucleoside monophosphate
+http://purl.obolibrary.org/obo/GO_0009146	purine nucleoside triphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26393	purine nucleoside triphosphate
+http://purl.obolibrary.org/obo/GO_0006195	purine nucleotide catabolic process	http://purl.obolibrary.org/obo/CHEBI_26395	purine nucleotide
+http://purl.obolibrary.org/obo/GO_0034037	purine ribonucleoside bisphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_64620	purine ribonucleoside bisphosphate
+http://purl.obolibrary.org/obo/GO_0046130	purine ribonucleoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_26399	purine ribonucleoside
+http://purl.obolibrary.org/obo/GO_0009181	purine ribonucleoside diphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26396	purine ribonucleoside diphosphate
+http://purl.obolibrary.org/obo/GO_0009169	purine ribonucleoside monophosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26397	purine ribonucleoside monophosphate
+http://purl.obolibrary.org/obo/GO_0009207	purine ribonucleoside triphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26398	purine ribonucleoside triphosphate
+http://purl.obolibrary.org/obo/GO_0009154	purine ribonucleotide catabolic process	http://purl.obolibrary.org/obo/CHEBI_26400	purine ribonucleotide
+http://purl.obolibrary.org/obo/GO_0072523	purine-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_26401	purines
+http://purl.obolibrary.org/obo/GO_0009447	putrescine catabolic process	http://purl.obolibrary.org/obo/CHEBI_326268	1,4-butanediammonium
+http://purl.obolibrary.org/obo/GO_0042865	pyochelin catabolic process	http://purl.obolibrary.org/obo/CHEBI_29669	pyochelin
+http://purl.obolibrary.org/obo/GO_0002050	pyoverdine catabolic process	http://purl.obolibrary.org/obo/CHEBI_84046	pyoverdine
+http://purl.obolibrary.org/obo/GO_0046221	pyridine catabolic process	http://purl.obolibrary.org/obo/CHEBI_16227	pyridine
+http://purl.obolibrary.org/obo/GO_0070638	pyridine nucleoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_47896	pyridine nucleoside
+http://purl.obolibrary.org/obo/GO_0019364	pyridine nucleotide catabolic process	http://purl.obolibrary.org/obo/CHEBI_36980	pyridine nucleotide
+http://purl.obolibrary.org/obo/GO_0072526	pyridine-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_26421	pyridines
+http://purl.obolibrary.org/obo/GO_0032361	pyridoxal phosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_597326	pyridoxal 5'-phosphate(2-)
+http://purl.obolibrary.org/obo/GO_0046127	pyrimidine deoxyribonucleoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_19255	pyrimidine 2'-deoxyribonucleoside
+http://purl.obolibrary.org/obo/GO_0009198	pyrimidine deoxyribonucleoside diphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26433	pyrimidine 2'-deoxyribonucleoside diphosphate
+http://purl.obolibrary.org/obo/GO_0009178	pyrimidine deoxyribonucleoside monophosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26434	pyrimidine 2'-deoxyribonucleoside monophosphate
+http://purl.obolibrary.org/obo/GO_0009213	pyrimidine deoxyribonucleoside triphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26435	pyrimidine deoxyribonucleoside triphosphate
+http://purl.obolibrary.org/obo/GO_0009223	pyrimidine deoxyribonucleotide catabolic process	http://purl.obolibrary.org/obo/CHEBI_26436	pyrimidine 2'-deoxyribonucleotide
+http://purl.obolibrary.org/obo/GO_0006208	pyrimidine nucleobase catabolic process	http://purl.obolibrary.org/obo/CHEBI_26432	pyrimidine nucleobase
+http://purl.obolibrary.org/obo/GO_0046135	pyrimidine nucleoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_26440	pyrimidine nucleoside
+http://purl.obolibrary.org/obo/GO_0009140	pyrimidine nucleoside diphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26437	pyrimidine nucleoside diphosphate
+http://purl.obolibrary.org/obo/GO_0009131	pyrimidine nucleoside monophosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26438	pyrimidine nucleoside monophosphate
+http://purl.obolibrary.org/obo/GO_0009149	pyrimidine nucleoside triphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26439	pyrimidine nucleoside triphosphate
+http://purl.obolibrary.org/obo/GO_0006244	pyrimidine nucleotide catabolic process	http://purl.obolibrary.org/obo/CHEBI_26441	pyrimidine nucleotide
+http://purl.obolibrary.org/obo/GO_0046133	pyrimidine ribonucleoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_39446	pyrimidine ribonucleosides
+http://purl.obolibrary.org/obo/GO_0009195	pyrimidine ribonucleoside diphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26442	pyrimidine ribonucleoside diphosphate
+http://purl.obolibrary.org/obo/GO_0009175	pyrimidine ribonucleoside monophosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26443	pyrimidine ribonucleoside monophosphate
+http://purl.obolibrary.org/obo/GO_0009210	pyrimidine ribonucleoside triphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26444	pyrimidine ribonucleoside triphosphate
+http://purl.obolibrary.org/obo/GO_0009222	pyrimidine ribonucleotide catabolic process	http://purl.obolibrary.org/obo/CHEBI_26446	pyrimidine ribonucleotide
+http://purl.obolibrary.org/obo/GO_0072529	pyrimidine-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_39447	pyrimidines
+http://purl.obolibrary.org/obo/GO_0042867	pyruvate catabolic process	http://purl.obolibrary.org/obo/CHEBI_15361	pyruvate
+http://purl.obolibrary.org/obo/GO_0009080	pyruvate family amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_26463	pyruvate family amino acid
+http://purl.obolibrary.org/obo/GO_1901733	quercetin catabolic process	http://purl.obolibrary.org/obo/CHEBI_57694	quercetin-7-olate
+http://purl.obolibrary.org/obo/GO_0046117	queuosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_60193	queuosine
+http://purl.obolibrary.org/obo/GO_0019631	quinate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26490	quinate
+http://purl.obolibrary.org/obo/GO_0034213	quinolinate catabolic process	http://purl.obolibrary.org/obo/CHEBI_29959	quinolinate(2-)
+http://purl.obolibrary.org/obo/GO_1901662	quinone catabolic process	http://purl.obolibrary.org/obo/CHEBI_36141	quinone
+http://purl.obolibrary.org/obo/GO_0016075	rRNA catabolic process	http://purl.obolibrary.org/obo/CHEBI_18111	ribosomal RNA
+http://purl.obolibrary.org/obo/GO_0034484	raffinose catabolic process	http://purl.obolibrary.org/obo/CHEBI_16634	raffinose
+http://purl.obolibrary.org/obo/GO_0034653	retinoic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_15036	retinoate
+http://purl.obolibrary.org/obo/GO_0019301	rhamnose catabolic process	http://purl.obolibrary.org/obo/CHEBI_26546	rhamnose
+http://purl.obolibrary.org/obo/GO_0046155	rhodopsin catabolic process	http://purl.obolibrary.org/obo/CHEBI_35331	rhodopin
+http://purl.obolibrary.org/obo/GO_0046363	ribitol catabolic process	http://purl.obolibrary.org/obo/CHEBI_15963	ribitol
+http://purl.obolibrary.org/obo/GO_0009232	riboflavin catabolic process	http://purl.obolibrary.org/obo/CHEBI_57986	riboflavin(1-)
+http://purl.obolibrary.org/obo/GO_0034031	ribonucleoside bisphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_61079	ribonucleoside bisphosphate
+http://purl.obolibrary.org/obo/GO_0042454	ribonucleoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_18254	ribonucleoside
+http://purl.obolibrary.org/obo/GO_0009191	ribonucleoside diphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_17668	ribonucleoside diphosphate
+http://purl.obolibrary.org/obo/GO_0009158	ribonucleoside monophosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_26558	ribonucleoside monophosphate
+http://purl.obolibrary.org/obo/GO_0009203	ribonucleoside triphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_17972	ribonucleoside triphosphate
+http://purl.obolibrary.org/obo/GO_0009261	ribonucleotide catabolic process	http://purl.obolibrary.org/obo/CHEBI_26561	ribonucleotide
+http://purl.obolibrary.org/obo/GO_0042204	s-triazine compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_26588	1,3,5-triazines
+http://purl.obolibrary.org/obo/GO_0046244	salicylic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_30762	salicylate
+http://purl.obolibrary.org/obo/GO_0016136	saponin catabolic process	http://purl.obolibrary.org/obo/CHEBI_26605	saponin
+http://purl.obolibrary.org/obo/GO_1901053	sarcosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57433	sarcosine zwitterion
+http://purl.obolibrary.org/obo/GO_0016261	selenocysteine catabolic process	http://purl.obolibrary.org/obo/CHEBI_9093	selenocysteine
+http://purl.obolibrary.org/obo/GO_0009071	serine family amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_26650	serine family amino acid
+http://purl.obolibrary.org/obo/GO_0042429	serotonin catabolic process	http://purl.obolibrary.org/obo/CHEBI_350546	serotonin(1+)
+http://purl.obolibrary.org/obo/GO_0051763	sesquiterpene catabolic process	http://purl.obolibrary.org/obo/CHEBI_35189	sesquiterpene
+http://purl.obolibrary.org/obo/GO_0016107	sesquiterpenoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_26658	sesquiterpenoid
+http://purl.obolibrary.org/obo/GO_1900792	shamixanthone catabolic process	http://purl.obolibrary.org/obo/CHEBI_64499	shamixanthone
+http://purl.obolibrary.org/obo/GO_0019633	shikimate catabolic process	http://purl.obolibrary.org/obo/CHEBI_36208	shikimate
+http://purl.obolibrary.org/obo/GO_0019626	short-chain fatty acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_58951	short-chain fatty acid anion
+http://purl.obolibrary.org/obo/GO_0140746	siRNA catabolic process	http://purl.obolibrary.org/obo/SO_0000646	siRNA
+http://purl.obolibrary.org/obo/GO_0046215	siderophore catabolic process	http://purl.obolibrary.org/obo/GOCHE_26672	substance with siderophore role
+http://purl.obolibrary.org/obo/GO_0046157	siroheme catabolic process	http://purl.obolibrary.org/obo/CHEBI_60052	siroheme(8-)
+http://purl.obolibrary.org/obo/GO_0016076	snRNA catabolic process	http://purl.obolibrary.org/obo/SO_0000274	snRNA
+http://purl.obolibrary.org/obo/GO_0016077	sno(s)RNA catabolic process	http://purl.obolibrary.org/obo/SO_0000275	snoRNA
+http://purl.obolibrary.org/obo/GO_0019436	sophorosyloxydocosanoate catabolic process	http://purl.obolibrary.org/obo/CHEBI_51078	13-sophorosyloxydocosanoate 6',6''-diacetate
+http://purl.obolibrary.org/obo/GO_0006062	sorbitol catabolic process	http://purl.obolibrary.org/obo/CHEBI_30911	glucitol
+http://purl.obolibrary.org/obo/GO_0042848	sorbose catabolic process	http://purl.obolibrary.org/obo/CHEBI_27922	sorbose
+http://purl.obolibrary.org/obo/GO_0046203	spermidine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57834	spermidine(3+)
+http://purl.obolibrary.org/obo/GO_0046208	spermine catabolic process	http://purl.obolibrary.org/obo/CHEBI_45725	spermine(4+)
+http://purl.obolibrary.org/obo/GO_1901179	spheroidene catabolic process	http://purl.obolibrary.org/obo/CHEBI_35330	spheroidene
+http://purl.obolibrary.org/obo/GO_0051874	sphinganine-1-phosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_57939	sphinganine 1-phosphate(1-)
+http://purl.obolibrary.org/obo/GO_0046521	sphingoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_35785	sphingoid
+http://purl.obolibrary.org/obo/GO_0030149	sphingolipid catabolic process	http://purl.obolibrary.org/obo/CHEBI_26739	sphingolipid
+http://purl.obolibrary.org/obo/GO_0006685	sphingomyelin catabolic process	http://purl.obolibrary.org/obo/CHEBI_17636	sphingomyelin d18:1
+http://purl.obolibrary.org/obo/GO_0051872	sphingosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57756	sphingosine(1+)
+http://purl.obolibrary.org/obo/GO_0005983	starch catabolic process	http://purl.obolibrary.org/obo/CHEBI_28017	starch
+http://purl.obolibrary.org/obo/GO_0045574	sterigmatocystin catabolic process	http://purl.obolibrary.org/obo/CHEBI_18227	sterigmatocystin
+http://purl.obolibrary.org/obo/GO_0006706	steroid catabolic process	http://purl.obolibrary.org/obo/CHEBI_35341	steroid
+http://purl.obolibrary.org/obo/GO_0016127	sterol catabolic process	http://purl.obolibrary.org/obo/CHEBI_15889	sterol
+http://purl.obolibrary.org/obo/GO_0046272	stilbene catabolic process	http://purl.obolibrary.org/obo/CHEBI_26775	stilbene
+http://purl.obolibrary.org/obo/GO_0042207	styrene catabolic process	http://purl.obolibrary.org/obo/CHEBI_27452	styrene
+http://purl.obolibrary.org/obo/GO_0010814	substance P catabolic process	http://purl.obolibrary.org/obo/CHEBI_190692	substance P(3+)
+http://purl.obolibrary.org/obo/GO_1901289	succinyl-CoA catabolic process	http://purl.obolibrary.org/obo/CHEBI_57292	succinyl-CoA(5-)
+http://purl.obolibrary.org/obo/GO_0005987	sucrose catabolic process	http://purl.obolibrary.org/obo/CHEBI_17992	sucrose
+http://purl.obolibrary.org/obo/GO_0000098	sulfur amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_26834	sulfur-containing amino acid
+http://purl.obolibrary.org/obo/GO_0044273	sulfur compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_26835	sulfur molecular entity
+http://purl.obolibrary.org/obo/GO_1901065	syringal lignin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64476	syringal lignin
+http://purl.obolibrary.org/obo/GO_0016078	tRNA catabolic process	http://purl.obolibrary.org/obo/SO_0000253	tRNA
+http://purl.obolibrary.org/obo/GO_1901276	tartrate catabolic process	http://purl.obolibrary.org/obo/CHEBI_50562	tartrate salt
+http://purl.obolibrary.org/obo/GO_0019529	taurine catabolic process	http://purl.obolibrary.org/obo/CHEBI_507393	taurine zwitterion
+http://purl.obolibrary.org/obo/GO_0070393	teichoic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_30049	teichoic acid
+http://purl.obolibrary.org/obo/GO_1900604	tensidol A catabolic process	http://purl.obolibrary.org/obo/CHEBI_69403	carbonarone A
+http://purl.obolibrary.org/obo/GO_1900607	tensidol B catabolic process	http://purl.obolibrary.org/obo/CHEBI_69404	pestalamide A
+http://purl.obolibrary.org/obo/GO_0120245	terminal acetylenic compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_73477	terminal acetylenic compound
+http://purl.obolibrary.org/obo/GO_0046247	terpene catabolic process	http://purl.obolibrary.org/obo/CHEBI_35186	terpene
+http://purl.obolibrary.org/obo/GO_0016115	terpenoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_26873	terpenoid
+http://purl.obolibrary.org/obo/GO_1901105	tetracenomycin C catabolic process	http://purl.obolibrary.org/obo/CHEBI_9470	tetracenomycin C
+http://purl.obolibrary.org/obo/GO_0019337	tetrachloroethylene catabolic process	http://purl.obolibrary.org/obo/CHEBI_17300	tetrachloroethene
+http://purl.obolibrary.org/obo/GO_0046147	tetrahydrobiopterin catabolic process	http://purl.obolibrary.org/obo/CHEBI_15372	5,6,7,8-tetrahydrobiopterin
+http://purl.obolibrary.org/obo/GO_0033015	tetrapyrrole catabolic process	http://purl.obolibrary.org/obo/CHEBI_26932	tetrapyrrole
+http://purl.obolibrary.org/obo/GO_0016110	tetraterpenoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_26935	tetraterpenoid
+http://purl.obolibrary.org/obo/GO_1903602	thermospermine catabolic process	http://purl.obolibrary.org/obo/CHEBI_59903	thermosperminium(4+)
+http://purl.obolibrary.org/obo/GO_0009230	thiamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_18385	thiamine(1+)
+http://purl.obolibrary.org/obo/GO_0042358	thiamine diphosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_58937	thiamine(1+) diphosphate(3-)
+http://purl.obolibrary.org/obo/GO_0042725	thiamine-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_26948	vitamin B1
+http://purl.obolibrary.org/obo/GO_0046265	thiocyanate catabolic process	http://purl.obolibrary.org/obo/CHEBI_18022	thiocyanate
+http://purl.obolibrary.org/obo/GO_0006567	threonine catabolic process	http://purl.obolibrary.org/obo/CHEBI_32832	threoninate
+http://purl.obolibrary.org/obo/GO_0006214	thymidine catabolic process	http://purl.obolibrary.org/obo/CHEBI_17748	thymidine
+http://purl.obolibrary.org/obo/GO_0006210	thymine catabolic process	http://purl.obolibrary.org/obo/CHEBI_17821	thymine
+http://purl.obolibrary.org/obo/GO_0042404	thyroid hormone catabolic process	http://purl.obolibrary.org/obo/GOCHE_60311	substance with thyroid hormone role
+http://purl.obolibrary.org/obo/GO_1901120	tobramycin catabolic process	http://purl.obolibrary.org/obo/CHEBI_73678	tobramycin(5+)
+http://purl.obolibrary.org/obo/GO_0042203	toluene catabolic process	http://purl.obolibrary.org/obo/CHEBI_17578	toluene
+http://purl.obolibrary.org/obo/GO_0046269	toluene-4-sulfonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_27023	toluene-4-sulfonate
+http://purl.obolibrary.org/obo/GO_0072491	toluene-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_27024	toluenes
+http://purl.obolibrary.org/obo/GO_0009407	toxin catabolic process	http://purl.obolibrary.org/obo/GOCHE_27026	substance with toxin role
+http://purl.obolibrary.org/obo/GO_0005993	trehalose catabolic process	http://purl.obolibrary.org/obo/CHEBI_27082	trehalose
+http://purl.obolibrary.org/obo/GO_0072352	tricarboxylic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_35753	tricarboxylic acid anion
+http://purl.obolibrary.org/obo/GO_0050696	trichloroethylene catabolic process	http://purl.obolibrary.org/obo/CHEBI_16602	trichloroethene
+http://purl.obolibrary.org/obo/GO_0010684	tricyclic triterpenoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_52340	tricyclic triterpenoid
+http://purl.obolibrary.org/obo/GO_0019433	triglyceride catabolic process	http://purl.obolibrary.org/obo/CHEBI_17855	triglyceride
+http://purl.obolibrary.org/obo/GO_1901056	trimethylenediamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57484	trimethylenediaminium
+http://purl.obolibrary.org/obo/GO_0046260	trinitrotoluene catabolic process	http://purl.obolibrary.org/obo/CHEBI_27135	trinitrotoluene
+http://purl.obolibrary.org/obo/GO_0016105	triterpenoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_36615	triterpenoid
+http://purl.obolibrary.org/obo/GO_0046207	trypanothione catabolic process	http://purl.obolibrary.org/obo/CHEBI_58290	trypanothione(1+)
+http://purl.obolibrary.org/obo/GO_0006569	tryptophan catabolic process	http://purl.obolibrary.org/obo/CHEBI_64554	tryptophan zwitterion
+http://purl.obolibrary.org/obo/GO_1901903	tyrocidine catabolic process	http://purl.obolibrary.org/obo/CHEBI_71947	tyrocidine
+http://purl.obolibrary.org/obo/GO_0006572	tyrosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_18186	tyrosine
+http://purl.obolibrary.org/obo/GO_0032322	ubiquinone catabolic process	http://purl.obolibrary.org/obo/CHEBI_16389	ubiquinones
+http://purl.obolibrary.org/obo/GO_1901005	ubiquinone-6 catabolic process	http://purl.obolibrary.org/obo/CHEBI_52971	ubiquinone-6
+http://purl.obolibrary.org/obo/GO_0006212	uracil catabolic process	http://purl.obolibrary.org/obo/CHEBI_17568	uracil
+http://purl.obolibrary.org/obo/GO_0019628	urate catabolic process	http://purl.obolibrary.org/obo/CHEBI_17775	7,9-dihydro-1H-purine-2,6,8(3H)-trione
+http://purl.obolibrary.org/obo/GO_0043419	urea catabolic process	http://purl.obolibrary.org/obo/CHEBI_16199	urea
+http://purl.obolibrary.org/obo/GO_0010136	ureide catabolic process	http://purl.obolibrary.org/obo/CHEBI_74266	N-acylurea
+http://purl.obolibrary.org/obo/GO_0006218	uridine catabolic process	http://purl.obolibrary.org/obo/CHEBI_16704	uridine
+http://purl.obolibrary.org/obo/GO_0006574	valine catabolic process	http://purl.obolibrary.org/obo/CHEBI_27266	valine
+http://purl.obolibrary.org/obo/GO_0042190	vanillin catabolic process	http://purl.obolibrary.org/obo/CHEBI_18346	vanillin
+http://purl.obolibrary.org/obo/GO_0042760	very long-chain fatty acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_58950	very long-chain fatty acid anion
+http://purl.obolibrary.org/obo/GO_0036113	very long-chain fatty-acyl-CoA catabolic process	http://purl.obolibrary.org/obo/CHEBI_61910	very long-chain fatty acyl-CoA
+http://purl.obolibrary.org/obo/GO_1900589	violaceol I catabolic process	http://purl.obolibrary.org/obo/CHEBI_64415	violaceol I
+http://purl.obolibrary.org/obo/GO_1900592	violaceol II catabolic process	http://purl.obolibrary.org/obo/CHEBI_64417	violaceol II
+http://purl.obolibrary.org/obo/GO_1901151	vistamycin catabolic process	http://purl.obolibrary.org/obo/CHEBI_65028	ribostamycin(4+)
+http://purl.obolibrary.org/obo/GO_0042820	vitamin B6 catabolic process	http://purl.obolibrary.org/obo/CHEBI_27306	vitamin B6
+http://purl.obolibrary.org/obo/GO_0042369	vitamin D catabolic process	http://purl.obolibrary.org/obo/CHEBI_27300	vitamin D
+http://purl.obolibrary.org/obo/GO_1901754	vitamin D3 catabolic process	http://purl.obolibrary.org/obo/CHEBI_28940	calciol
+http://purl.obolibrary.org/obo/GO_0042377	vitamin K catabolic process	http://purl.obolibrary.org/obo/CHEBI_28384	vitamin K
+http://purl.obolibrary.org/obo/GO_0009111	vitamin catabolic process	http://purl.obolibrary.org/obo/GOCHE_33229	substance with vitamin (role) role
+http://purl.obolibrary.org/obo/GO_0042365	water-soluble vitamin catabolic process	http://purl.obolibrary.org/obo/GOCHE_27314	substance with water-soluble vitamin (role) role
+http://purl.obolibrary.org/obo/GO_0009115	xanthine catabolic process	http://purl.obolibrary.org/obo/CHEBI_15318	xanthine
+http://purl.obolibrary.org/obo/GO_0016124	xanthophyll catabolic process	http://purl.obolibrary.org/obo/CHEBI_27325	xanthophyll
+http://purl.obolibrary.org/obo/GO_1903228	xanthosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_18107	xanthosine
+http://purl.obolibrary.org/obo/GO_0042178	xenobiotic catabolic process	http://purl.obolibrary.org/obo/GOCHE_35703	substance with xenobiotic role
+http://purl.obolibrary.org/obo/GO_0045493	xylan catabolic process	http://purl.obolibrary.org/obo/CHEBI_37166	xylan
+http://purl.obolibrary.org/obo/GO_0042184	xylene catabolic process	http://purl.obolibrary.org/obo/CHEBI_27338	xylene
+http://purl.obolibrary.org/obo/GO_2000899	xyloglucan catabolic process	http://purl.obolibrary.org/obo/CHEBI_18233	xyloglucan
+http://purl.obolibrary.org/obo/GO_0005998	xylulose catabolic process	http://purl.obolibrary.org/obo/CHEBI_27353	xylulose
+http://purl.obolibrary.org/obo/GO_1901829	zeaxanthin bis(beta-D-glucoside) catabolic process	http://purl.obolibrary.org/obo/CHEBI_63067	zeaxanthin bis(beta-D-glucoside)
+http://purl.obolibrary.org/obo/GO_1901826	zeaxanthin catabolic process	http://purl.obolibrary.org/obo/CHEBI_27547	zeaxanthin

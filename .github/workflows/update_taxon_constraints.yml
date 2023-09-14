@@ -1,0 +1,34 @@
+name: Update taxon constraints
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 12 * * *'
+
+jobs:
+  update:
+
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      
+    - name: Work around https://github.com/peter-evans/create-pull-request/issues/1170
+      run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      
+    - name: Update taxon constraints
+      run: touch src/taxon_constraints/never_in_taxon.tsv src/taxon_constraints/only_in_taxon.tsv src/taxon_constraints/present_in_taxon.tsv && cd src/ontology && make imports/go_taxon_constraints.owl && cd ../..
+    
+    - name: Create PR
+      uses: peter-evans/create-pull-request@v4
+      with:
+        title: Update taxon constraints
+        branch: update-taxon-constraints
+        add-paths: |
+          src/taxon_constraints/never_in_taxon.ofn
+          src/taxon_constraints/only_in_taxon.ofn
+          src/taxon_constraints/present_in_taxon.ofn
+          src/ontology/imports/go_taxon_constraints.owl
+        token: ${{ secrets.PR_ACTION_TOKEN }}

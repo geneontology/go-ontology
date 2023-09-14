@@ -23,21 +23,21 @@ RELEASEDIR=../../target
 RELEASEDIR_IMPORTS=$(RELEASEDIR)/imports
 
 # ROBOT is the main release release tool
-ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx8G
+ROBOT_ENV = ROBOT_JAVA_ARGS=-Xmx6G
 ROBOT = $(ROBOT_ENV) robot --catalog catalog-v001.xml
 
 # OWLTools is a swiss-army knife;
 # It does some things robot can't do, but eventually functionality should
 # move to robot
-OWLTOOLS_ENV = OWLTOOLS_MEMORY=8G
+OWLTOOLS_ENV = OWLTOOLS_MEMORY=6G
 OWLTOOLS = $(OWLTOOLS_ENV) owltools
 
 #DOSDP is used for turning tsv files into pieces of ontologies for imports
-DOSDP_ENV = JAVA_OPTS=-Xmx8G
-DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
+DOSDP_ENV = JAVA_OPTS=-Xmx6G
+DOSDP_TOOLS = $(DOSDP_ENV) ./dosdp-tools-0.19.3/bin/dosdp-tools
 
-AMM_ENV = JAVA_OPTS=-Xmx8G
-AMM = $(AMM_ENV) amm
+AMM_ENV = JAVA_OPTS=-Xmx6G
+AMM = $(AMM_ENV) amm --silent
 
 # Oort build dir;
 # This also should be replaced by robot
@@ -70,6 +70,7 @@ GO_MAIN_RELATIONS = $(GO_BASIC_RELATIONS) BFO:0000051 BFO:0000066 RO:0002091 RO:
 
 GO_PLUS = extensions/go-plus
 GO_GAF = extensions/go-gaf
+GO_AMIGO = extensions/go-amigo
 GO_LEGO = extensions/go-lego
 GO_LEGO_REACTO = extensions/go-lego-reacto
 
@@ -80,7 +81,7 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl subset-reports generate-mappings
+stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl subset-owls subset-reports generate-mappings
 
 test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
@@ -88,8 +89,8 @@ travis_test: travis_build $(SRC)-check change-report.txt chebi_pH_7_3_check
 
 # This target combines features from reasoned.owl, enhanced.owl, sparql_test into a faster mode for Travis.
 # These must be kept in sync.
-travis_build: go-edit-trimmed-imports.obo imports/go_taxon_constraints.owl imports/reactome_xrefs_import.owl regulates_chains.ofn ../taxon_constraints/present_in_taxon.ofn
-	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn remove --term 'IAO:0000116' --axioms annotation --signature true repair --annotation-property oboInOwl:hasDbXref reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl --annotation owl:versionInfo $(RELEASEDATE) unmerge -i regulates_chains.ofn verify --queries $(VARGS) $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql -O reports/
+travis_build: go-edit-filtered-xrefs.ofn
+	$(ROBOT) merge --collapse-import-closure false -i go-edit-filtered-xrefs.ofn -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true repair --annotation-property oboInOwl:hasDbXref reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl --annotation owl:versionInfo $(RELEASEDATE) verify --queries $(VARGS) $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql -O reports/
 
 unsatisfiable: $(GO_GAF).owl
 	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
@@ -173,7 +174,7 @@ change-report.txt: $(SRC) $(PREVIOUS)
 
 #Uses file provided by Reactome to generate xrefs for import
 #add_xrefs:
-imports/reactome_xrefs_import.owl: # $(SRC)
+imports/reactome_xrefs_import.owl: dosdp-tools-0.19.3 $(SRC)
 	mkdir -p reactome-tmp
 	wget -O reactome-tmp/Reactions2GoTerms_human.txt --no-check-certificate https://reactome.org/download/current/Reactions2GoTerms_human.txt
 	sed -i '1s/.*/Identifier\tName\tdefined_class/' reactome-tmp/Reactions2GoTerms_human.txt
@@ -187,15 +188,18 @@ go-edit-trimmed-imports.obo: $(SRC)
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl' $< |\
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl' >$@
 
+go-edit-filtered-xrefs.ofn: go-edit-trimmed-imports.obo ../util/filter-rhea-xrefs.sc mirror/rhea.rdf
+	$(AMM) ../util/filter-rhea-xrefs.sc $< catalog-v001.xml mirror/rhea.rdf $@
+
 # merge in some imported GO modules
 # remove editor-only annotations
-enhanced.owl: go-edit-trimmed-imports.obo imports/go_taxon_constraints.owl imports/reactome_xrefs_import.owl
-	$(ROBOT) merge --collapse-import-closure false -i go-edit-trimmed-imports.obo -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl remove --term 'IAO:0000116' --axioms annotation --signature true repair --annotation-property oboInOwl:hasDbXref annotate --annotation owl:versionInfo $(RELEASEDATE) -o $@
+enhanced.owl: go-edit-filtered-xrefs.ofn
+	$(ROBOT) merge --collapse-import-closure false -i go-edit-filtered-xrefs.ofn -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true repair --annotation-property oboInOwl:hasDbXref annotate --annotation owl:versionInfo $(RELEASEDATE) -o $@
 
 # reasoned.owl is equivalent to editors source, after materialize-reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
-reasoned.owl: enhanced.owl $(SRC)-check regulates_chains.ofn
-	$(ROBOT) materialize -i $< -r ELK --term BFO:0000050 reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl unmerge -i regulates_chains.ofn -o $@
+reasoned.owl: enhanced.owl $(SRC)-check
+	$(ROBOT) materialize -i $< -r ELK --term BFO:0000050 reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 present_in_taxon_check.ofn: enhanced.owl ../taxon_constraints/present_in_taxon.ofn
 	$(ROBOT) merge --collapse-import-closure false -i $< -i ../taxon_constraints/present_in_taxon.ofn reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural -o $@
@@ -211,18 +215,21 @@ $(GO_PLUS).owl: reasoned.owl
 # as just the merge of go-base.
 go-base.owl: enhanced.owl
 	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o -f ofn $@.tmp &&\
-	$(ROBOT) merge -i $@.tmp -i extensions/go-gci.owl -i extensions/go-bridge.owl -i extensions/ro_pending.owl -i imports/x-disjoint.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
+	$(ROBOT) merge -i $@.tmp -i extensions/go-gci.owl -i extensions/go-bridge.owl -i extensions/ro_pending.owl -i imports/x-disjoint.ofn annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
 
 $(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).owl extensions/gorel.owl mirror/cl.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
+$(GO_AMIGO).owl: extensions/go-amigo-edit.ofn $(GO_GAF).owl extensions/go-modules-annotations.owl extensions/go-taxon-subsets.owl mirror/eco.owl mirror/pato.owl mirror/po.owl mirror/chebi.owl mirror/uberon.owl mirror/wbbt.owl
+	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+
 # Not all imports are being pre-mirrored; the ones that are should be dependencies
-$(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro-download.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl mirror/cl.owl mirror/uberon.owl
+$(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro-download.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl mirror/cl.owl mirror/uberon.owl imports/go-lego-chebi-import.owl mirror/wbbt.owl mirror/eco.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural relax reduce --named-classes-only true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 extensions/reacto.owl: $(GO_LEGO).owl mirror/chebi.owl
 	mkdir -p reacto-tmp
-	wget -O ./reacto-tmp/biopax2go.jar --no-check-certificate https://github.com/geneontology/pathways2GO/releases/download/v1.1.3/biopax2go.jar
+	wget -O ./reacto-tmp/biopax2go.jar --no-check-certificate https://github.com/geneontology/pathways2GO/releases/download/v1.1.4/biopax2go.jar
 	wget -O ./reacto-tmp/biopax.zip --no-check-certificate https://reactome.org/download/current/biopax.zip
 	unzip -o ./reacto-tmp/biopax.zip -d ./reacto-tmp/
 	java -jar -Xmx8G ./reacto-tmp/biopax2go.jar -b ./reacto-tmp/Homo_sapiens.owl -reacto ./extensions/reacto -lego $(GO_LEGO).owl -chebi ./mirror/chebi.owl
@@ -256,7 +263,6 @@ $(ONT)-pre-reduced.owl: $(ONT)-pre.owl
 $(ONT).obo: $(ONT)-pre-reduced.owl
 	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
 	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge $(BUILD_DIR)/go.obo &&\
-	cp $(BUILD_DIR)/subsets/* subsets/ &&\
 	cp $(BUILD_DIR)/go.obo $@ &&\
 	cp $(BUILD_DIR)/go-simple.obo . &&\
 	cp $(BUILD_DIR)/go.owl .
@@ -283,16 +289,24 @@ go-basic.owl: go-basic.obo
 	$(ROBOT) convert -i $< -o $@
 
 # ----------------------------------------
-# SUBSET REPORTS
+# SUBSETS AND REPORTS
 # ----------------------------------------
 # Currently the only per-subset report is id-label pairs
 # See: https://github.com/geneontology/go-ontology/issues/14028
 
-# get all subsets
-subset-files = $(shell ls subsets/*.owl)
+PUBLISH_SUBSETS = gocheck_do_not_annotate gocheck_do_not_manually_annotate goslim_agr goslim_candida goslim_chembl goslim_drosophila goslim_flybase_ribbon goslim_generic goslim_metagenomics goslim_mouse goslim_pir goslim_plant goslim_pombe goslim_synapse goslim_yeast prokaryote_subset
+
+SUBSET_OWLS = $(patsubst %,subsets/%.owl,$(PUBLISH_SUBSETS))
+# Also generates %.obo and %.json
+subset-owls: $(SUBSET_OWLS)
+
+# Also generates %.obo and %.json
+# Implicitly depends on build/subsets/%.owl generated as side effect of go.obo
+subsets/%.owl: $(ONT).obo 
+	$(ROBOT) annotate -i $(BUILD_DIR)/$@ --annotation owl:versionInfo $(RELEASEDATE) -o $@ convert -o $(patsubst %.owl,%.obo,$@) convert -o $(patsubst %.owl,%.json,$@)
 
 # so far we only make simple .tsv reports
-SUBSET_REPORTS = $(patsubst %,%.tsv,$(basename $(subset-files)))
+SUBSET_REPORTS = $(patsubst %,%.tsv,$(basename $(SUBSET_OWLS)))
 subset-reports: $(SUBSET_REPORTS)
 subsets/%.tsv: subsets/%.owl
 	$(ROBOT) query -f tsv -i $< -s ../sparql/labels.sparql $@
@@ -309,8 +323,8 @@ all_imports: $(IMPORTS_OWL)
 clean_imports:
 	rm mirror/*
 
-seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupings-edit.owl ../taxon_constraints/present_in_taxon.ofn
-	$(ROBOT) merge --collapse-import-closure false -i enhanced.owl -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings-edit.owl -i ../taxon_constraints/present_in_taxon.ofn query -f csv --select ../sparql/terms.sparql $@
+seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupings-edit.owl ../taxon_constraints/present_in_taxon.ofn imports/go-catalytic-activities-participants.owl
+	$(ROBOT) merge --collapse-import-closure false -i enhanced.owl -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings-edit.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl query -f csv --select ../sparql/terms.sparql $@
 
 # Specialize seed terms for PR. The inclusion of taxon IRIs in the full seed was causing PR to pull
 # in overly specific proteins (e.g. human forms of everything) and referencing gene IRIs. This is kind
@@ -326,24 +340,26 @@ imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
 
 # Use ROBOT for imports
-imports/%_import_pre.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
-	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT -O $(BASE)/imports/$*_import.owl annotate -V $(RELEASE_URIBASE)/imports/$*_import.owl -o $@
+
+# Inserting extra taxon disjoints here because ROBOT is used (standard disjoints come from owltools; could migrate to all via SPARQL like this one)
+imports/%_import_pre.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC) ../sparql/add-taxon-disjoints.ru
+	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT query --update ../sparql/add-taxon-disjoints.ru reason --exclude-duplicate-axioms true --exclude-tautologies structural annotate -O $(BASE)/imports/$*_import.owl -V $(RELEASE_URIBASE)/imports/$*_import.owl -o $@
 .PRECIOUS: imports/%_import_pre.owl
 
 imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
 	$(OWLTOOLS) $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $(BASE)/$@ -o $@
 
-../taxon_constraints/only_in_taxon.ofn: ../taxon_constraints/only_in_taxon.yaml ../taxon_constraints/only_in_taxon.tsv
+../taxon_constraints/only_in_taxon.ofn: ../taxon_constraints/only_in_taxon.yaml ../taxon_constraints/only_in_taxon.tsv dosdp-tools-0.19.3
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/only_in_taxon.tsv --obo-prefixes=true --template=$< --outfile=$@
 
-../taxon_constraints/never_in_taxon.ofn: ../taxon_constraints/never_in_taxon.yaml ../taxon_constraints/never_in_taxon.tsv
+../taxon_constraints/never_in_taxon.ofn: ../taxon_constraints/never_in_taxon.yaml ../taxon_constraints/never_in_taxon.tsv dosdp-tools-0.19.3
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/never_in_taxon.tsv --obo-prefixes=true --template=$< --outfile=$@
 
-../taxon_constraints/present_in_taxon.ofn: ../taxon_constraints/present_in_taxon.yaml ../taxon_constraints/present_in_taxon.tsv
+../taxon_constraints/present_in_taxon.ofn: ../taxon_constraints/present_in_taxon.yaml ../taxon_constraints/present_in_taxon.tsv dosdp-tools-0.19.3
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/present_in_taxon.tsv --generate-defined-class=true --obo-prefixes=true --template=$< --outfile=$@
 
 imports/go_taxon_constraints.owl: ../taxon_constraints/only_in_taxon.ofn ../taxon_constraints/never_in_taxon.ofn
-	$(ROBOT) merge $(addprefix -i , $^) annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) merge $(addprefix -i , $^) annotate -O $(BASE)/$@ -o $@
 
 imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
@@ -372,9 +388,11 @@ imports/%_import.obo: imports/%_import.owl
 # ----------------------------------------
 
 # Fix external ontologies to specific versions. These should be updated regularly!
-CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.obo
+CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.owl.gz
 CL_SOURCE=http://purl.obolibrary.org/obo/cl/cl-base.owl
 UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/uberon-base.owl
+WBBT_SOURCE=http://purl.obolibrary.org/obo/wbbt/wbbt-base.owl
+ECO_SOURCE=http://purl.obolibrary.org/obo/eco/eco-basic.owl
 
 WGET_OUT = -O $@.tmp && cp $@.tmp $@ && touch $@
 
@@ -402,15 +420,14 @@ mirror/pr-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/pr.owl $(WGET_OUT)
 .PRECIOUS: mirror/pr-download.owl
 
-# special case: download obo for speed for chebi
-# See also: https://github.com/ebi-chebi/ChEBI/issues/3269
+# special case: download gz for speed for chebi
 mirror/chebi-download.owl: $(SRC)
-	wget --no-check-certificate $(CHEBI_SOURCE) $(WGET_OUT) && perl -pi -ne 's@BFO_@BFO:@' $@
+	wget --no-check-certificate $(CHEBI_SOURCE) -O $@.tmp.gz && mv $@.tmp.gz $@.gz && gunzip -f $@.gz && touch $@
 .PRECIOUS: mirror/chebi-download.owl
 
 # special case: use ext for uberon
 mirror/uberon-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/uberon/ext.owl $(WGET_OUT)
+	wget --no-check-certificate $(UBERON_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/uberon-download.owl
 
 # special case: use base for pato
@@ -427,13 +444,16 @@ mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(CL_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
 
+mirror/wbbt-download.owl: $(SRC)
+	wget --no-check-certificate $(WBBT_SOURCE) $(WGET_OUT)
+.PRECIOUS: mirror/wbbt-download.owl
 
-# special case: the RO imports closure is unusual
-# typically we use only the main ontology, not the imports.
-# for RO we merge these, in order to get ro/core, bfo classes
-# see https://github.com/geneontology/go-ontology/issues/12946
+mirror/eco-download.owl: $(SRC)
+	wget --no-check-certificate $(ECO_SOURCE) $(WGET_OUT)
+.PRECIOUS: mirror/eco-download.owl
+
 mirror/ro-download.owl: $(SRC)
-	$(OWLTOOLS) $(OBO)/ro.owl --merge-imports-closure -o $@
+	wget --no-check-certificate $(OBO)/ro/ro-base.owl $(WGET_OUT)
 .PRECIOUS: mirror/ro-download.owl
 
 # general case: download remote OWL first
@@ -441,12 +461,18 @@ mirror/%-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
 .PRECIOUS: mirror/%-download.owl
 
+mirror/rhea.rdf:
+	curl -L -o $@.gz 'https://ftp.expasy.org/databases/rhea/rdf/rhea.rdf.gz' && gunzip $@.gz
+
 # bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
 bio-chebi.owl: mirror/chebi.owl chebi-ph7_3-slim.ofn biochebi_gcis.ofn imports/substance_by_role.owl 
 	$(ROBOT) merge -i $< -i chebi-ph7_3-slim.ofn -i biochebi_gcis.ofn -i imports/substance_by_role.owl annotate --ontology-iri $(BASE)/extensions/$@ -V $(RELEASE_URIBASE)/extensions/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
 
 ../biochebi/chebi_pH7_3_mapping.tsv:
 	wget 'ftp://ftp.expasy.org/databases/rhea/tsv/chebi_pH7_3_mapping.tsv' $(WGET_OUT)
+
+../biochebi/chebi_pH7_3_terms.txt: ../biochebi/chebi_pH7_3_mapping.tsv
+	tail -n +2 $< | cut -f 2 | sort -n -u | sed 's/^/http:\/\/purl.obolibrary.org\/obo\/CHEBI_/' >$@
 
 chebi-ph7_3-slim.ofn: ../biochebi/chebi_pH7_3_mapping.tsv
 	echo 'Ontology(<http://purl.obolibrary.org/obo/go/extensions/chebi-ph7_3-slim.ofn>' >$@.tmp &&\
@@ -460,17 +486,17 @@ biochebi_gcis.tsv: ../biochebi/chebi_pH7_3_mapping.tsv ../biochebi/biochebi_excl
 	echo 'source_chem	standard_chem' >$@.tmp &&\
 	tail -n +2 ../biochebi/chebi_pH7_3_mapping.tsv | awk -v FS='\t' -v OFS='\t' '{ if ($$1 != $$2) { print "CHEBI:"$$1, "CHEBI:"$$2} }' | grep -v -f ../biochebi/biochebi_excludes.txt >> $@.tmp && mv $@.tmp $@
 
-biochebi_gcis.ofn: biochebi_gcis.tsv ../biochebi/biochebi_gcis.yaml
+biochebi_gcis.ofn: biochebi_gcis.tsv ../biochebi/biochebi_gcis.yaml dosdp-tools-0.19.3
 	$(DOSDP_TOOLS) generate --obo-prefixes=true --generate-defined-class=true --template=../biochebi/biochebi_gcis.yaml --infile=$< --outfile=$@.tmp.ofn && mv $@.tmp.ofn $@
-	
+
+../biochebi/go-lego-chebi-import-terms.txt: imports/chebi_terms_combined.txt ../biochebi/chebi_pH7_3_terms.txt
+	cat $^ >$@
+
+imports/go-lego-chebi-import.owl: bio-chebi.owl ../biochebi/go-lego-chebi-import-terms.txt
+	$(ROBOT) extract -i $< -T ../biochebi/go-lego-chebi-import-terms.txt --method BOT annotate -O $(BASE)/imports/go-lego-chebi-import.owl -V $(RELEASE_URIBASE)/imports/go-lego-chebi-import.owl -o $@
 
 # filter axioms
 FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
-
-# todo: uberon currently has some chebi inferences
-mirror/uberon.owl: mirror/uberon-download.owl
-	$(OWLTOOLS) --use-catalog $< --remove-equivalent-to-nothing-axioms --remove-classes-in-idspace -d -s CHEBI --remove-classes-in-idspace -d -s NBO --remove-classes-in-idspace -d -s CARO --remove-classes-in-idspace -d -s CL  $(FILTER_EXTERNAL) -o $@
-.PRECIOUS: mirror/uberon.owl
 
 mirror/so.owl: mirror/so-download.owl
 	$(OWLTOOLS) --use-catalog $< --make-subset-by-properties // -o $@
@@ -511,12 +537,23 @@ imports/substance_by_role.obo: imports/substance_by_role.owl
 # IMPORTED AND TRANSFERRED RHEA AXIOMS
 # ----------------------------------------
 
-rhea.ttl: ../sparql/construct-rhea-reactions.sparql
-	curl -X POST -F query="`cat ../sparql/construct-rhea-reactions.sparql`" --header "Accept:text/turtle" 'https://sparql.rhea-db.org/sparql' >$@.tmp && mv $@.tmp $@
+rhea.ttl: ../sparql/construct-rhea-reactions.sparql mirror/rhea.rdf
+	arq -q --data=mirror/rhea.rdf --query=../sparql/construct-rhea-reactions.sparql --results=turtle >$@
 
 extensions/rhea-reactions.ttl: rhea.ttl
 	$(AMM) ../util/construct_rhea_ontology.sc $< rhea-reactions.ofn && \
-	robot annotate -i rhea-reactions.ofn -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) annotate -i rhea-reactions.ofn -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+
+extensions/rhea-reactions-simple.ttl: rhea.ttl
+	$(AMM) ../util/construct_rhea_ontology_simplified.sc $< rhea-reactions-simple.ofn && \
+	$(ROBOT) annotate -i rhea-reactions-simple.ofn -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+
+imports/go-catalytic-activities-participants.owl: extensions/rhea-reactions-simple.ttl $(SRC)
+	$(AMM) ../util/transfer_rhea_relations.sc $< $(SRC) catalog-v001.xml $@.tmp && \
+	$(ROBOT) annotate -i $@.tmp -O $(BASE)/$@ -o $@
+
+imports/go-catalytic-activities-participants.obo: imports/go-catalytic-activities-participants.owl
+	$(ROBOT) convert -i $< -o $@
 
 # ----------------------------------------
 # MAPPINGS
@@ -529,18 +566,18 @@ EXTERNAL2GO_DBS = EC KEGG_REACTION MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD
 .PHONY: generate-mappings
 generate-mappings: $(ONT)-pre.owl
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals $(EXTERNAL2GO_DBS)
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/interpro2go -O external2go/interpro2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pfam2go -O external2go/pfam2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pirsf2go -O external2go/pirsf2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prints2go -O external2go/prints2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prodom2go -O external2go/prodom2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prosite2go -O external2go/prosite2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/smart2go -O external2go/smart2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_kw2go -O external2go/uniprotkb_kw2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_sl2go -O external2go/uniprotkb_sl2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/unirule2go -O external2go/unirule2go
-	wget ftp://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/hamap2go -O external2go/hamap2go
-	wget http://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/rfam2go/rfam2go -O external2go/rfam2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/interpro2go -O external2go/interpro2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pfam2go -O external2go/pfam2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pirsf2go -O external2go/pirsf2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prints2go -O external2go/prints2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prodom2go -O external2go/prodom2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prosite2go -O external2go/prosite2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/smart2go -O external2go/smart2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_kw2go -O external2go/uniprotkb_kw2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_sl2go -O external2go/uniprotkb_sl2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/unirule2go -O external2go/unirule2go
+	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/hamap2go -O external2go/hamap2go
+	wget https://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/rfam2go/rfam2go -O external2go/rfam2go
 
 # ----------------------------------------
 # TAXON GROUPINGS
@@ -559,7 +596,7 @@ imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 # these live in the ../sparql directory, and have suffix -violation.sparql
 # adding the name here will make the violation check live
 
-VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match replacedby-obsolete duplicate-exact-synonym duplicate-synonym non-IRI-value non-anyURI-value obsolete-definition definition-constraints one-to-one-xrefs-by-subject one-to-one-xrefs-by-value
+VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match replacedby-obsolete replacedby-namespace duplicate-exact-synonym duplicate-synonym non-IRI-value non-anyURI-value obsolete-definition definition-constraints one-to-one-xrefs-by-subject one-to-one-xrefs-by-value xref-syntax
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
@@ -612,12 +649,6 @@ reports/referenced_chebi_terms.tsv: $(SRC)
 # ----------------------------------------
 # ADDING INFERENCES
 # ----------------------------------------
-# see: https://github.com/geneontology/go-ontology/issues/12315
-# and: https://build.berkeleybop.org/view/GO/job/build-go-ontology-inferences/configure
-#
-# go inferences now go into a separate file.
-# this is imported during an OE session (see oboedit.catalog)
-# (for Protege all inferences are dynamic)
 
 # first strip the go_inferences import; we need to do this
 # because we cannot create a new ontology with the same name
@@ -668,3 +699,25 @@ idiff: go_inferences_difflog.txt
 	cp go_inferences_difflog.txt $(RELEASEDIR) && \
 	cp go_inferences.diff $(RELEASEDIR) && \
 	cp go_inferences.obo $(RELEASEDIR)
+
+
+# ----------------------------------------
+# DESIGN PATTERNS
+# ----------------------------------------
+
+ALL_PATTERN_YAMLS=$(wildcard ../design_patterns/*.yaml)
+ALL_PATTERN_NAMES=$(patsubst ../design_patterns/%.yaml,%,$(ALL_PATTERN_YAMLS))
+ALL_PATTERN_TSVS=$(patsubst %.yaml,%.tsv,$(ALL_PATTERN_YAMLS))
+
+# Currently not rebuilt automatically; waiting for updated dosdp-tools in ODK
+imports/go-pattern-conformance.ttl: reasoned.owl $(ALL_PATTERN_YAMLS) dosdp-tools-0.19.3
+	rm -f ../design_patterns/*.tsv &&\
+	$(DOSDP_TOOLS) query --obo-prefixes=true --batch-patterns="$(ALL_PATTERN_NAMES)" --template=../design_patterns --outfile=../design_patterns --ontology=reasoned.owl --catalog=catalog-v001.xml --reasoner=elk --parallelism=4 --output-conformance=$@.tmp &&\
+	$(ROBOT) annotate -i $@.tmp --ontology-iri $(BASE)/$@ -o $@
+
+pattern-docs: imports/go-pattern-conformance.ttl reasoned.owl $(ALL_PATTERN_YAMLS) $(ALL_PATTERN_TSVS) dosdp-tools-0.19.3
+	rm -f ../../docs/patterns/*.md &&\
+	$(DOSDP_TOOLS) docs --obo-prefixes=true --batch-patterns="$(ALL_PATTERN_NAMES)" --template=../design_patterns --outfile=../../docs/patterns --infile=../design_patterns --data-location-prefix='https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/' --ontology=reasoned.owl --catalog=catalog-v001.xml
+
+dosdp-tools-0.19.3:
+	curl -L -O 'https://github.com/INCATools/dosdp-tools/releases/download/v0.19.3/dosdp-tools-0.19.3.tgz' && tar -zxf dosdp-tools-0.19.3.tgz

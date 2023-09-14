@@ -32,6 +32,13 @@ logical_axioms:
     annotations:
       - annotationProperty: has_source
         value: source
+  - axiom_type: subClassOf
+    text: 'in_taxon some (not %s)'
+    vars:
+      - taxon
+    annotations:
+      - annotationProperty: has_source
+        value: source
   - axiom_type: disjointWith
     text: 'in_taxon some %s'
     vars:

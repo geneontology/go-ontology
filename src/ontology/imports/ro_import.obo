@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-06-25/imports/ro_import.owl
+data-version: go/releases/2023-07-31/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -18,7 +18,7 @@ relationship: part_of BFO:0000003 ! occurrent
 [Term]
 id: BFO:0000004
 name: independent continuant
-def: "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." []
+def: "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])" []
 is_a: BFO:0000002 ! continuant
 disjoint_from: BFO:0000020 ! specifically dependent continuant
 relationship: part_of BFO:0000004 ! independent continuant
@@ -26,7 +26,7 @@ relationship: part_of BFO:0000004 ! independent continuant
 [Term]
 id: BFO:0000015
 name: process
-def: "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t." []
+def: "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])" []
 is_a: BFO:0000003 ! occurrent
 
 [Term]
@@ -52,7 +52,7 @@ relationship: part_of BFO:0000019 ! quality
 [Term]
 id: BFO:0000020
 name: specifically dependent continuant
-def: "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same." []
+def: "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])" []
 is_a: BFO:0000002 ! continuant
 relationship: part_of BFO:0000020 ! specifically dependent continuant
 
@@ -80,81 +80,8 @@ name: immaterial entity
 is_a: BFO:0000004 ! independent continuant
 
 [Term]
-id: CARO:0000000
-name: anatomical entity
-is_a: CARO:0030000 ! biological entity
-
-[Term]
-id: CARO:0000003
-name: connected anatomical structure
-is_a: CARO:0000006 ! material anatomical entity
-
-[Term]
-id: CARO:0000006
-name: material anatomical entity
-is_a: BFO:0000040 ! material entity
-is_a: CARO:0000000 ! anatomical entity
-
-[Term]
-id: CARO:0000007
-name: immaterial anatomical entity
-is_a: BFO:0000141 ! immaterial entity
-
-[Term]
-id: CARO:0001010
-name: organism or virus or viroid
-is_a: BFO:0000040 ! material entity
-
-[Term]
-id: CARO:0030000
-name: biological entity
-is_a: BFO:0000004 ! independent continuant
-
-[Term]
-id: CL:0000000
-name: cell
-is_a: CARO:0000003 ! connected anatomical structure
-
-[Term]
-id: CL:0000540
-name: neuron
-is_a: CL:0000000 ! cell
-
-[Term]
-id: PATO:0000001
-name: quality
-is_a: BFO:0000020 ! specifically dependent continuant
-
-[Term]
-id: PATO:0000051
-name: morphology
-is_a: BFO:0000019 ! quality
-is_a: PATO:0001241 ! physical object quality
-
-[Term]
-id: PATO:0000052
-name: shape
-is_a: PATO:0000051 ! morphology
-
-[Term]
-id: PATO:0000141
-name: structure
-is_a: PATO:0000051 ! morphology
-
-[Term]
-id: PATO:0001199
-name: linear
-is_a: PATO:0000052 ! shape
-
-[Term]
-id: PATO:0001241
-name: physical object quality
-is_a: PATO:0000001 ! quality
-
-[Term]
-id: PATO:0002124
-name: laminar
-is_a: PATO:0000141 ! structure
+id: CHEBI:50906
+is_a: PATO:0000001
 
 [Typedef]
 id: acts_on_population_of
@@ -299,7 +226,7 @@ is_a: causally_related_to ! causally related to
 [Typedef]
 id: causal_relation_between_processes
 name: causal relation between processes
-def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q." []
+def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one where the execution of p influences the execution of q. p may be upstream, downstream, part of, or a container of q." []
 xref: RO:0002501
 domain: BFO:0000003 ! occurrent
 range: BFO:0000003 ! occurrent
@@ -341,13 +268,13 @@ is_a: causal_relation_between_entities ! causal relation between entities
 [Typedef]
 id: causally_related_to
 name: causally related to
-def: "This relation groups causal relations between material entities and causal relations between processes" []
+def: "relation that links two events, processes, states, or objects such that one event, process, state, or object (a cause) contributes to the production of another event, process, state, or object (an effect) where the cause is partly or wholly responsible for the effect, and the effect is partly or wholly dependent on the cause." []
 xref: RO:0002410
 
 [Typedef]
 id: causally_upstream_of
 name: causally upstream of
-def: "p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain" []
+def: "p is causally upstream of q iff p is causally related to q, the end of p precedes the end of q, and p is not an occurrent part of q." []
 xref: RO:0002411
 is_transitive: true
 is_a: causally_upstream_of_or_within ! causally upstream of or within
@@ -356,6 +283,7 @@ is_a: precedes ! precedes
 [Typedef]
 id: causally_upstream_of,_negative_effect
 name: causally upstream of, negative effect
+def: "p is causally upstream of, negative effect q iff p is casually upstream of q, and the execution of p decreases the execution of q." []
 xref: RO:0002305
 is_a: causally_upstream_of ! causally upstream of
 is_a: causally_upstream_of_or_within,_negative_effect ! causally upstream of or within, negative effect
@@ -363,6 +291,7 @@ is_a: causally_upstream_of_or_within,_negative_effect ! causally upstream of or 
 [Typedef]
 id: causally_upstream_of,_positive_effect
 name: causally upstream of, positive effect
+def: "p is causally upstream of, positive effect q iff p is casually upstream of q, and the execution of p is required for the execution of q." []
 xref: RO:0002304
 is_a: causally_upstream_of ! causally upstream of
 is_a: causally_upstream_of_or_within,_positive_effect ! causally upstream of or within, positive effect
@@ -370,7 +299,7 @@ is_a: causally_upstream_of_or_within,_positive_effect ! causally upstream of or 
 [Typedef]
 id: causally_upstream_of_or_within
 name: causally upstream of or within
-def: "p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q." []
+def: "p is 'causally upstream or within' q iff p is causally related to q, and the end of p precedes, or is coincident with, the end of q." []
 synonym: "affects" RELATED []
 xref: RO:0002418
 is_transitive: true
@@ -419,6 +348,12 @@ id: contains_process
 name: contains process
 def: "[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
 xref: BFO:0000067
+
+[Typedef]
+id: correlated_with
+name: correlated with
+def: "A relationship that holds between two entities, where the entities exhibit a statistical dependence relationship. The entities may be statistical variables, or they may be other kinds of entities such as diseases, chemical entities or processes." []
+xref: RO:0002610
 
 [Typedef]
 id: depends_on
@@ -479,6 +414,14 @@ is_a: has_potential_to_develop_into ! has potential to develop into
 is_a: has_potential_to_directly_develop_into ! has potential to directly develop into
 
 [Typedef]
+id: device_utilizes_material
+name: device utilizes material
+def: "X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y." []
+synonym: "utilizes" BROAD []
+xref: RO:0017001
+holds_over_chain: capable_of has_input
+
+[Typedef]
 id: directly_negatively_regulated_by
 name: directly negatively regulated by
 def: "Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1." []
@@ -489,7 +432,7 @@ inverse_of: directly_negatively_regulates ! directly negatively regulates
 [Typedef]
 id: directly_negatively_regulates
 name: directly negatively regulates
-def: "Process(P1) directly negatively regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2." []
+def: "p directly negatively regulates q iff p is immediately causally upstream of q, and p negatively regulates q." []
 xref: RO:0002630
 is_a: directly_regulates ! directly regulates
 is_a: negatively_regulates ! negatively regulates
@@ -515,7 +458,7 @@ inverse_of: directly_positively_regulates ! directly positively regulates
 [Typedef]
 id: directly_positively_regulates
 name: directly positively regulates
-def: "Process(P1) directly postively regulates process(P2) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P1 directly positively regulates P2." []
+def: "p directly positively regulates q iff p is immediately causally upstream of q, and p positively regulates q." []
 xref: RO:0002629
 is_a: directly_regulates ! directly regulates
 is_a: positively_regulates ! positively regulates
@@ -540,7 +483,7 @@ inverse_of: directly_regulates ! directly regulates
 [Typedef]
 id: directly_regulates
 name: directly regulates
-def: "Process(P1) directly regulates process(P2) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2." []
+def: "p directly regulates q iff p is immediately causally upstream of q and p regulates q." []
 xref: RO:0002578
 is_a: immediately_causally_upstream_of ! immediately causally upstream of
 is_a: regulates ! regulates
@@ -588,6 +531,7 @@ is_a: has_participant ! has participant
 [Typedef]
 id: enables
 name: enables
+def: "c enables p iff c is capable of p and c acts to execute p." []
 xref: RO:0002327
 is_a: capable_of ! capable of
 inverse_of: enabled_by ! enabled by
@@ -649,13 +593,6 @@ def: "A relationship that holds via some environmental process" []
 xref: RO:0002320
 
 [Typedef]
-id: exports
-name: exports
-def: "Holds between p and c when p is a transportation or localization process and the outcome of this process is to move c to a destination that is part of some s, where the end location of c is part of the region that surrounds s." []
-xref: RO:0002345
-is_a: transports ! transports
-
-[Typedef]
 id: formed_as_result_of
 name: formed as result of
 xref: RO:0002354
@@ -683,13 +620,6 @@ xref: RO:0002092
 is_transitive: true
 is_a: ends_during ! ends during
 is_a: starts_during ! starts during
-
-[Typedef]
-id: has_anatomical_participant
-name: has anatomical participant
-def: "p has anatomical participant c iff p has participant c, and c is an anatomical entity" []
-xref: RO:0040036
-is_a: has_participant ! has participant
 
 [Typedef]
 id: has_characteristic
@@ -726,8 +656,8 @@ id: has_developmental_contribution_from
 name: has developmental contribution from
 def: "x has developmental contribution from y iff x has some part z such that z develops from y" []
 xref: RO:0002254
-domain: CARO:0000000 ! anatomical entity
-range: CARO:0000000 ! anatomical entity
+domain: UBERON:0001062
+range: UBERON:0001062
 holds_over_chain: has_part develops_from
 is_a: developmentally_preceded_by ! developmentally preceded by
 inverse_of: developmentally_contributes_to ! developmentally contributes to
@@ -737,8 +667,8 @@ id: has_developmental_potential_involving
 name: has developmental potential involving
 def: "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)." []
 xref: RO:0002384
-domain: CARO:0000000 ! anatomical entity
-range: CARO:0000000 ! anatomical entity
+domain: UBERON:0001062
+range: UBERON:0001062
 is_a: developmentally_related_to ! developmentally related to
 
 [Typedef]
@@ -820,7 +750,7 @@ is_a: negatively_regulated_by ! negatively regulated by
 [Typedef]
 id: has_output
 name: has output
-def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p." []
+def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p." []
 xref: RO:0002234
 holds_over_chain: ends_with has_output
 is_a: has_participant ! has participant
@@ -975,7 +905,7 @@ inverse_of: immediately_causally_upstream_of ! immediately causally upstream of
 [Typedef]
 id: immediately_causally_upstream_of
 name: immediately causally upstream of
-def: "p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q." []
+def: "p is immediately causally upstream of q iff p is causally upstream of q, and the end of p is coincident with the beginning of q." []
 xref: RO:0002412
 is_a: causally_upstream_of ! causally upstream of
 is_a: immediately_precedes ! immediately precedes
@@ -996,18 +926,11 @@ holds_over_chain: ends_with starts_with
 is_a: precedes ! precedes
 
 [Typedef]
-id: imports
-name: imports
-def: "Holds between p and c when p is a transportation or localization process and the outcome of this process is to move c to a destination that is part of some s, where the start location of c is part of the region that surrounds s." []
-xref: RO:0002340
-is_a: transports ! transports
-
-[Typedef]
 id: in_taxon
 name: in taxon
 def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
 xref: RO:0002162
-range: CARO:0001010 ! organism or virus or viroid
+range: OBI:0100026
 holds_over_chain: capable_of in_taxon
 holds_over_chain: develops_from in_taxon
 holds_over_chain: has_developmental_contribution_from in_taxon
@@ -1015,6 +938,46 @@ holds_over_chain: has_part in_taxon
 holds_over_chain: part_of in_taxon
 holds_over_chain: results_in_developmental_progression_of in_taxon
 is_a: evolutionarily_related_to ! evolutionarily related to
+
+[Typedef]
+id: indirectly_causally_upstream_of
+name: indirectly causally upstream of
+def: "p is indirectly causally upstream of q iff p is causally upstream of q and there exists some process r such that p is causally upstream of r and r is causally upstream of q." []
+xref: RO:0012011
+is_a: causally_upstream_of ! causally upstream of
+
+[Typedef]
+id: indirectly_negatively_regulates
+name: indirectly negatively regulates
+def: "p indirectly negatively regulates q iff p is indirectly causally upstream of q and p negatively regulates q." []
+xref: RO:0002409
+holds_over_chain: directly_negatively_regulates directly_negatively_regulates
+holds_over_chain: directly_negatively_regulates indirectly_negatively_regulates
+is_transitive: true
+is_a: indirectly_regulates ! indirectly regulates
+is_a: negatively_regulates ! negatively regulates
+transitive_over: directly_negatively_regulates ! directly negatively regulates
+
+[Typedef]
+id: indirectly_positively_regulates
+name: indirectly positively regulates
+def: "p indirectly positively regulates q iff p is indirectly causally upstream of q and p positively regulates q." []
+xref: RO:0002407
+holds_over_chain: directly_positively_regulates directly_positively_regulates
+holds_over_chain: directly_positively_regulates indirectly_positively_regulates
+holds_over_chain: indirectly_negatively_regulates indirectly_negatively_regulates
+is_transitive: true
+is_a: indirectly_regulates ! indirectly regulates
+is_a: positively_regulates ! positively regulates
+transitive_over: directly_positively_regulates ! directly positively regulates
+
+[Typedef]
+id: indirectly_regulates
+name: indirectly regulates
+def: "p indirectly regulates q iff p is indirectly causally upstream of q and p regulates q." []
+xref: RO:0012012
+is_a: indirectly_causally_upstream_of ! indirectly causally upstream of
+is_a: regulates ! regulates
 
 [Typedef]
 id: input_of
@@ -1115,12 +1078,21 @@ is_a: regulated_by ! regulated by
 [Typedef]
 id: negatively_regulates
 name: negatively regulates
-def: "Process(P1) negatively regulates process(P2) iff: P1 terminates P2, or P1 descreases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
+def: "p negatively regulates q iff p regulates q, and p decreases the rate or magnitude of execution of q." []
 xref: RO:0002212
 holds_over_chain: ends_with negatively_regulates
 is_a: causally_upstream_of,_negative_effect ! causally upstream of, negative effect
 is_a: regulates ! regulates
 inverse_of: negatively_regulated_by ! negatively regulated by
+
+[Typedef]
+id: negatively_regulates_characteristic
+name: negatively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C." []
+xref: RO:0019002
+holds_over_chain: negatively_regulates positively_regulates_characteristic
+holds_over_chain: positively_regulates negatively_regulates_characteristic
+is_a: regulates_characteristic ! regulates characteristic
 
 [Typedef]
 id: occurs_across
@@ -1163,6 +1135,7 @@ xref: RO:0002131
 holds_over_chain: has_part overlaps
 holds_over_chain: has_part part_of
 holds_over_chain: part_of part_of
+is_symmetric: true
 is_a: mereotopologically_related_to ! mereotopologically related to
 transitive_over: part_of ! part of
 
@@ -1199,6 +1172,15 @@ xref: RO:0002447
 is_a: molecularly_interacts_with ! molecularly interacts with
 
 [Typedef]
+id: positively_correlated_with
+name: positively correlated with
+def: "A relation between entities in which one increases or decreases as the other does the same." []
+xref: RO:0017003
+is_reflexive: true
+is_symmetric: true
+is_a: correlated_with ! correlated with
+
+[Typedef]
 id: positively_regulated_by
 name: positively regulated by
 def: "inverse of positively regulates" []
@@ -1208,7 +1190,7 @@ is_a: regulated_by ! regulated by
 [Typedef]
 id: positively_regulates
 name: positively regulates
-def: "Process(P1) postively regulates process(P2) iff: P1 initiates P2, or P1 increases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
+def: "p positively regulates q iff p regulates q, and p increases the rate or magnitude of execution of q." []
 xref: RO:0002213
 holds_over_chain: ends_with positively_regulates
 holds_over_chain: negatively_regulates negatively_regulates
@@ -1216,6 +1198,14 @@ is_transitive: true
 is_a: causally_upstream_of,_positive_effect ! causally upstream of, positive effect
 is_a: regulates ! regulates
 inverse_of: positively_regulated_by ! positively regulated by
+
+[Typedef]
+id: positively_regulates_characteristic
+name: positively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C." []
+xref: RO:0019001
+holds_over_chain: positively_regulates positively_regulates_characteristic
+is_a: regulates_characteristic ! regulates characteristic
 
 [Typedef]
 id: preceded_by
@@ -1288,7 +1278,7 @@ is_a: causally_downstream_of_or_within ! causally downstream of or within
 [Typedef]
 id: regulates
 name: regulates
-def: "process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2." []
+def: "p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q." []
 xref: RO:0002211
 domain: BFO:0000015 ! process
 range: BFO:0000015 ! process
@@ -1309,6 +1299,16 @@ range: BFO:0000040 ! material entity
 is_a: causally_influences ! causally influences
 
 [Typedef]
+id: regulates_characteristic
+name: regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
+xref: RO:0019000
+domain: BFO:0000015 ! process
+range: PATO:0000001
+holds_over_chain: regulates regulates_characteristic
+is_a: causally_related_to ! causally related to
+
+[Typedef]
 id: regulates_levels_of
 name: regulates levels of
 def: "p regulates levels of c if p regulates some amount (PATO:0000070) of c" []
@@ -1316,13 +1316,6 @@ xref: RO:0002332
 domain: BFO:0000015 ! process
 range: BFO:0000040 ! material entity
 is_a: functionally_related_to ! functionally related to
-
-[Typedef]
-id: regulates_transport_of
-name: regulates transport of
-def: "A relationship that holds between a  process that regulates a transport process and the entity transported by that process." []
-xref: RO:0002011
-holds_over_chain: regulates transports_or_maintains_localization_of
 
 [Typedef]
 id: related_via_localization_to
@@ -1337,8 +1330,8 @@ id: results_in_acquisition_of_features_of
 name: results in acquisition of features of
 def: "The relationship that links a specified entity with the process that results in an unspecified entity acquiring the features and characteristics of the specified entity" []
 xref: RO:0002315
-range: CARO:0000003 ! connected anatomical structure
-is_a: has_anatomical_participant ! has anatomical participant
+range: UBERON:0000061
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1356,11 +1349,18 @@ xref: RO:0002586
 is_a: has_input ! has input
 
 [Typedef]
+id: results_in_changes_to_anatomical_or_cellular_structure
+name: results in changes to anatomical or cellular structure
+def: "p has anatomical participant c iff p has participant c, and c is an anatomical entity" []
+xref: RO:0040036
+is_a: has_participant ! has participant
+
+[Typedef]
 id: results_in_commitment_to
 name: results in commitment to
 def: "p 'results in commitment to' c if and only if p is a developmental process and c is a cell and p results in the state of c changing such that is can only develop into a single cell type." []
 xref: RO:0002348
-range: CL:0000000 ! cell
+range: CL:0000000
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1368,7 +1368,7 @@ id: results_in_determination_of
 name: results in determination of
 def: "p 'results in determination of' c if and only if p is a developmental process and c is a cell and p results in the state of c changing to be determined. Once a cell becomes determined, it becomes committed to differentiate down a particular pathway regardless of its environment." []
 xref: RO:0002349
-range: CL:0000000 ! cell
+range: CL:0000000
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1376,16 +1376,16 @@ id: results_in_development_of
 name: results in development of
 def: "p 'results in development of' c if and only if p is a developmental process and p results in the state of c changing from its initial state as a primordium or anlage through its mature state and to its final state." []
 xref: RO:0002296
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
 id: results_in_developmental_progression_of
 name: results in developmental progression of
-def: "p results in the developmental progression of s iff p is a developmental process and s is an anatomical structure and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss)." []
+def: "p results in the developmental progression of s iff p is a developmental process and s is an anatomical entity and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss)." []
 xref: RO:0002295
 domain: GO:0008150
-range: CARO:0000003 ! connected anatomical structure
+range: UBERON:0001062
 is_a: developmentally_related_to ! developmentally related to
 
 [Typedef]
@@ -1413,7 +1413,7 @@ is_a: results_in_organization_of ! results in organization of
 id: results_in_growth_of
 name: results in growth of
 xref: RO:0002343
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1421,7 +1421,7 @@ id: results_in_maturation_of
 name: results in maturation of
 def: "The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in it's shape and results in an end point state of that entity." []
 xref: RO:0002299
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1429,7 +1429,7 @@ id: results_in_morphogenesis_of
 name: results in morphogenesis of
 def: "The relationship that links an entity with the process that results in the formation and shaping of that entity over time from an immature to a mature state." []
 xref: RO:0002298
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1437,14 +1437,14 @@ id: results_in_movement_of
 name: results in movement of
 def: "Holds between p and c when p is locomotion process and the outcome of this process is the change of location of c" []
 xref: RO:0002565
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 
 [Typedef]
 id: results_in_organization_of
 name: results in organization of
 def: "p results in organization of c iff p results in the assembly, arrangement of constituent parts, or disassembly of c" []
 xref: RO:0002592
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 
 [Typedef]
 id: results_in_remodeling_of
@@ -1458,7 +1458,7 @@ id: results_in_specification_of
 name: results in specification of
 def: "The relationship linking a cell and its participation in a process that results in the fate of the cell being specified. Once specification has taken place, a cell will be committed to differentiate down a specific pathway if left in its normal environment. " []
 xref: RO:0002356
-range: CL:0000000 ! cell
+range: CL:0000000
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1466,7 +1466,7 @@ id: results_in_structural_organization_of
 name: results in structural organization of
 def: "A relationship between a process and an anatomical entity such that the process contributes to the act of creating the structural organization of the anatomical entity." []
 xref: RO:0002355
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -1545,19 +1545,4 @@ def: "x transformation of y if x is the immediate transformation of y, or is lin
 xref: RO:0002494
 is_transitive: true
 is_a: develops_from ! develops from
-
-[Typedef]
-id: transports
-name: transports
-def: "Holds between p and c when p is a transport process or transporter activity and the outcome of this p is to move c from one location to another." []
-xref: RO:0002020
-is_a: transports_or_maintains_localization_of ! transports or maintains localization of
-
-[Typedef]
-id: transports_or_maintains_localization_of
-name: transports or maintains localization of
-def: "Holds between p and c when p is a localization process (localization covers maintenance of localization as well as its establishment)  and the outcome of this process is to regulate the localization of c." []
-xref: RO:0002313
-is_a: has_anatomical_participant ! has anatomical participant
-is_a: related_via_localization_to ! related via localization to
 

@@ -2,7 +2,7 @@ pattern_name: positive regulation
 
 pattern_iri: http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml
 
-description: TODO
+description: This pattern is for classes representing types of positive regulation differentiated by the process they regulate.
 
 classes:
   Thing: 'owl:Thing'

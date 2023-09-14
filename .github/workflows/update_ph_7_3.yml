@@ -1,0 +1,28 @@
+name: Update ChEBI pH 7.3 mapping 
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 4 * * 0'
+
+jobs:
+  update:
+
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      
+    - name: Work around https://github.com/peter-evans/create-pull-request/issues/1170
+      run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      
+    - name: Update ChEBI pH 7.3 mapping
+      run: cd src/ontology && rm ../biochebi/chebi_pH7_3_mapping.tsv && make ../biochebi/chebi_pH7_3_mapping.tsv && cd ../..
+    
+    - name: Create PR
+      uses: peter-evans/create-pull-request@v4
+      with:
+        title: Update ChEBI pH 7.3 mapping
+        branch: update-chebi-pH-7-3

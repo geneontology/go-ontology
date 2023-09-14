@@ -1,10 +1,10 @@
-# regulator activity
+# molecular function regulator activity
 
 [http://purl.obolibrary.org/obo/go/patterns/regulator_activity.yaml](http://purl.obolibrary.org/obo/go/patterns/regulator_activity.yaml)
 
 ## Description
 
-TODO
+This pattern is for representing a function that modulates some molecular function, differentiated by the specific molecular function modulated.
 
 
 
@@ -21,15 +21,15 @@ TODO
 
 ## Annotations
 
-
+- [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace): "molecular_function"^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Definition
 
-"Direct interaction with a gene product or complex that has `{regulated_activity}`,  resulting in regulation of its `{regulated_activity}`. Direct interaction  in this case includes binding and interactions leading to  covalent modification."^^[string](http://www.w3.org/2001/XMLSchema#string)
+"Binds to and modulates the activity of `{regulated_activity}`."^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Equivalent to
 
-[molecular_function](http://purl.obolibrary.org/obo/GO_0003674)  and ([directly regulates](http://purl.obolibrary.org/obo/RO_0002578) some `{regulated_activity}`)
+[molecular function regulator activity](http://purl.obolibrary.org/obo/GO_0098772)  and ([directly regulates](http://purl.obolibrary.org/obo/RO_0002578) some `{regulated_activity}`)
 
 
 
@@ -41,7 +41,11 @@ TODO
 
 *See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/regulator_activity.tsv)*
 
-|  |
-|
-
+| defined_class | defined_class_label | regulated_activity | regulated_activity_label |
+|:--|:--|:--|:--|
+| [http://purl.obolibrary.org/obo/GO_0046935](http://purl.obolibrary.org/obo/GO_0046935) | 1-phosphatidylinositol-3-kinase regulator activity | [http://purl.obolibrary.org/obo/GO_0016303](http://purl.obolibrary.org/obo/GO_0016303) | 1-phosphatidylinositol-3-kinase activity |
+| [http://purl.obolibrary.org/obo/GO_0072586](http://purl.obolibrary.org/obo/GO_0072586) | DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) regulator activity | [http://purl.obolibrary.org/obo/GO_0003918](http://purl.obolibrary.org/obo/GO_0003918) | DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity |
+| [http://purl.obolibrary.org/obo/GO_0060308](http://purl.obolibrary.org/obo/GO_0060308) | GTP cyclohydrolase I regulator activity | [http://purl.obolibrary.org/obo/GO_0003934](http://purl.obolibrary.org/obo/GO_0003934) | GTP cyclohydrolase I activity |
+| [http://purl.obolibrary.org/obo/GO_0030695](http://purl.obolibrary.org/obo/GO_0030695) | GTPase regulator activity | [http://purl.obolibrary.org/obo/GO_0003924](http://purl.obolibrary.org/obo/GO_0003924) | GTPase activity |
+| [http://purl.obolibrary.org/obo/GO_0043763](http://purl.obolibrary.org/obo/GO_0043763) | [UTP:glucose-1-phosphate uridylyltransferase regulator activity](http://purl.obolibrary.org/obo/UTP_glucose-1-phosphate uridylyltransferase regulator activity) | [http://purl.obolibrary.org/obo/GO_0003983](http://purl.obolibrary.org/obo/GO_0003983) | [UTP:glucose-1-phosphate uridylyltransferase activity](http://purl.obolibrary.org/obo/UTP_glucose-1-phosphate uridylyltransferase activity) |
 

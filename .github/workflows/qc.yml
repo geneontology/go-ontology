@@ -19,7 +19,7 @@ jobs:
   ontology_qc:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.2.23
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -27,4 +27,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Run ontology QC checks
-        run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' travis_test
+        run: cd src/ontology; make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' travis_test

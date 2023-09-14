@@ -1,0 +1,52 @@
+pattern_name: biosynthetic process
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml
+
+description: This pattern is for classes representing biosynthetic processes differentiated by their primary outputs.
+
+classes:
+  Thing: 'owl:Thing'
+  biosynthetic process: 'GO:0009058'
+
+relations:
+  has primary output: 'RO:0004008'
+
+vars:
+  # Should this be chemical entity?
+  participant: "Thing" 
+
+name:
+  text: "%s biosynthetic process" 
+  vars:
+    - 'participant'
+
+def:
+  text: "The chemical reactions and pathways resulting in the formation of %s."
+  vars:
+    - 'participant'
+
+namespace: 
+  text: 'biological_process'
+
+generated_synonyms:
+   - 
+      text: "%s anabolism"
+      vars: 
+        - 'participant'
+   - 
+      text: "%s biosynthesis"
+      vars: 
+        - 'participant'
+   - 
+      text: "%s formation"
+      vars: 
+        - 'participant'
+   - 
+      text: "%s synthesis"
+      vars: 
+        - 'participant'
+
+equivalentTo:
+  text: "'biosynthetic process' and 'has primary output' some %s"
+  vars:  
+    - 'participant'

@@ -4,11 +4,12 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX metago: <http://model.geneontology.org/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX has_synonym_type: <http://www.geneontology.org/formats/oboInOwl#hasSynonymType>
 
-SELECT ?c ?oneSynonym ?anotherSynonym ?syn
+SELECT DISTINCT ?error
 WHERE {
-
-    VALUES ?oneSynonym {
+    VALUES ?oneSynonymRel {
+        rdfs:label
         oboInOwl:hasSynonym
         oboInOwl:hasExactSynonym
         oboInOwl:hasNarrowSynonym
@@ -16,19 +17,54 @@ WHERE {
         oboInOwl:hasRelatedSynonym
     }
 
-    VALUES ?anotherSynonym {
+    VALUES ?anotherSynonymRel {
+        rdfs:label
         oboInOwl:hasSynonym
         oboInOwl:hasExactSynonym
         oboInOwl:hasNarrowSynonym
         oboInOwl:hasBroadSynonym
         oboInOwl:hasRelatedSynonym
     }
-
-    ?c ?oneSynonym ?syn .
-    ?c ?anotherSynonym ?syn .
 
     FILTER NOT EXISTS {
         ?c owl:deprecated true .
     }
-    FILTER (STR(?anotherSynonym) < STR(?oneSynonym))
+    
+    # Bypass check when synonyms are annotated with synonym types
+    FILTER NOT EXISTS {
+      [
+          rdf:type owl:Axiom ;
+          owl:annotatedSource ?c ;
+          owl:annotatedProperty ?oneSynonymRel ;
+          owl:annotatedTarget ?syn1 ;
+          has_synonym_type: ?some_synonym_type1
+      ]
+    }
+    FILTER NOT EXISTS {
+      [
+          rdf:type owl:Axiom ;
+          owl:annotatedSource ?c ;
+          owl:annotatedProperty ?anotherSynonymRel ;
+          owl:annotatedTarget ?syn2 ;
+          has_synonym_type: ?some_synonym_type2
+      ]
+    }
+    
+    { 
+      # Different synonym relations, but term is same (case-insensitive)
+      ?c ?oneSynonymRel ?syn1 .
+      ?c ?anotherSynonymRel ?syn2 .
+      FILTER(LCASE(?syn1) = LCASE(?syn2))
+      FILTER(STR(?anotherSynonymRel) < STR(?oneSynonymRel))
+    }
+    UNION
+    { 
+      # Same synonym relation, but term is different case
+      ?c ?oneSynonymRel ?syn1 .
+      ?c ?anotherSynonymRel ?syn2 .
+      FILTER(LCASE(?syn1) = LCASE(?syn2))
+      FILTER(?syn1 < ?syn2) 
+      FILTER(?anotherSynonymRel = ?oneSynonymRel)
+    }
+    BIND(CONCAT("Error: synonyms and/or label for class ", STR(?c), " are duplicates or differ only by case: ", STR(?oneSynonymRel), " has value \"", ?syn1, "\"; ", STR(?anotherSynonymRel), " has value \"", ?syn2, "\"") AS ?error)
 }

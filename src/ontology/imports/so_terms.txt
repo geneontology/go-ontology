@@ -35,4 +35,15 @@ http://purl.obolibrary.org/obo/SO_0001645 ## genetic_marker
 http://purl.obolibrary.org/obo/SO_3000000 ## gene segment
 http://purl.obolibrary.org/obo/SO_0000336 ## pseudogene
 http://purl.obolibrary.org/obo/SO_0000704 ## gene
+http://purl.obolibrary.org/obo/SO_0001244 ## pre_miRNA
+http://purl.obolibrary.org/obo/SO_0000647 ## miRNA_primary_transcript
 http://purl.obolibrary.org/obo/SO_0001411 ## biological region
+http://purl.obolibrary.org/obo/SO_0000173 ## GC_rich_promoter_region
+http://purl.obolibrary.org/obo/SO_0001877 ## lncRNA
+http://purl.obolibrary.org/obo/SO_0001035 ## piRNA
+http://purl.obolibrary.org/obo/SO_0000646 ## siRNA
+http://purl.obolibrary.org/obo/SO_0001927 ## telomeric_transcript
+http://purl.obolibrary.org/obo/SO_0002035 ## lncRNA_primary_transcript
+http://purl.obolibrary.org/obo/SO_0000231 ## snRNA_primary_transcript
+http://purl.obolibrary.org/obo/SO_0000232 ## snoRNA_primary_transcript
+http://purl.obolibrary.org/obo/SO_0001801 ## tasiRNA_primary_transcript

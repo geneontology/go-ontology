@@ -1,10 +1,10 @@
-# activator activity
+# molecular function activator activity
 
 [http://purl.obolibrary.org/obo/go/patterns/activator_activity.yaml](http://purl.obolibrary.org/obo/go/patterns/activator_activity.yaml)
 
 ## Description
 
-TODO
+This pattern is for representing a function that activates some molecular function, differentiated by the specific molecular function activated.
 
 
 
@@ -22,15 +22,15 @@ TODO
 
 ## Annotations
 
-- [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace): "biological_process"^^[string](http://www.w3.org/2001/XMLSchema#string)
+- [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace): "molecular_function"^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Definition
 
-"Direct interaction with a gene product or complex that has `{regulated_activity}`, resulting in positive regulation of its `{regulated_activity}`. Direct interaction in this case includes binding and interactions leading to covalent modification."^^[string](http://www.w3.org/2001/XMLSchema#string)
+"Binds to and increases the activity of `{regulated_activity}`."^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Equivalent to
 
-[molecular_function](http://purl.obolibrary.org/obo/GO_0003674)  and ([directly positively regulates](http://purl.obolibrary.org/obo/RO_0002629) some `{regulated_activity}`)
+[molecular function regulator activity](http://purl.obolibrary.org/obo/GO_0098772)  and ([directly positively regulates](http://purl.obolibrary.org/obo/RO_0002629) some `{regulated_activity}`)
 
 
 

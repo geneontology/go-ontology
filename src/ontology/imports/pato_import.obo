@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-07-12/imports/pato_import.owl
+data-version: go/releases/2022-07-18/imports/pato_import.owl
 ontology: go/imports/pato_import
 
 [Term]
@@ -11,6 +11,13 @@ relationship: has_part GO:0005634 {gci_filler="PATO:0001407", gci_relation="RO:0
 id: PATO:0000001
 name: quality
 def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" []
+
+[Term]
+id: PATO:0000033
+name: concentration of
+def: "A quality inhering in a substance by virtue of the amount of the bearer's there is mixed with another substance." []
+synonym: "concentration" EXACT []
+is_a: PATO:0002182 ! molecular quality
 
 [Term]
 id: PATO:0000051
@@ -34,6 +41,13 @@ synonym: "relational structural quality" EXACT []
 is_a: PATO:0000051 ! morphology
 
 [Term]
+id: PATO:0000276
+name: brood size
+def: "A reproductive quality inhering in the young of an animal by virtue of their number." []
+synonym: "litter size" RELATED []
+is_a: PATO:0001496 ! brood quality
+
+[Term]
 id: PATO:0000411
 name: circular
 def: "A shape quality inhering in a bearer by virtue of the bearer's being such that every part of the surface or the circumference is equidistant from the center." []
@@ -51,6 +65,13 @@ synonym: "elliptical" EXACT []
 synonym: "oval" RELATED []
 synonym: "ovoid" RELATED []
 is_a: PATO:0002318 ! superelliptic
+
+[Term]
+id: PATO:0001018
+name: physical quality
+def: "A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities." []
+synonym: "relational physical quality" EXACT []
+is_a: PATO:0001241 ! physical object quality
 
 [Term]
 id: PATO:0001236
@@ -81,7 +102,7 @@ is_a: PATO:0000001 ! quality
 id: PATO:0001396
 name: cellular quality
 def: "A monadic quality of continuant that exists at the cellular level of organisation." []
-is_a: PATO:0001241 ! physical object quality
+is_a: PATO:0070044 ! anatomical structure quality
 
 [Term]
 id: PATO:0001404
@@ -114,6 +135,31 @@ def: "A cellular quality inhering in a bearer by virtue of the bearer's having t
 is_a: PATO:0001396 ! cellular quality
 
 [Term]
+id: PATO:0001420
+name: buoyancy
+def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to rise or float in a fluid medium such as water or air." []
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0001434
+name: reproductive quality
+def: "An organismal quality inhering in a bearer by virtue of the bearer's ability to produce new life or offspring." []
+is_a: PATO:0001995 ! organismal quality
+
+[Term]
+id: PATO:0001496
+name: brood quality
+def: "A reproductive quality inhering in the young of an animal by virtue of the bearer's being cared for at one time." []
+is_a: PATO:0001434 ! reproductive quality
+
+[Term]
+id: PATO:0001842
+name: acidity
+def: "A concentration quality inhering in a bearer by virtue of the bearer's containing acid (hydrogen ions)." []
+synonym: "pH" EXACT []
+is_a: PATO:0000033 ! concentration of
+
+[Term]
 id: PATO:0001873
 name: cylindrical
 def: "A convex 3-D shape quality inhering in a bearer by virtue of the bearer's exhibiting a consistently-sized round cross section." []
@@ -121,13 +167,19 @@ synonym: "rod-like" EXACT []
 synonym: "rod-shaped" EXACT []
 synonym: "tubulate" NARROW []
 is_a: PATO:0002007 ! convex 3-D shape
-relationship: has_cross_section PATO:0000411 ! circular
+relationship: RO:0015011 PATO:0000411 ! circular
 
 [Term]
 id: PATO:0001908
 name: multinucleate
 def: "A nucleate quality inhering in a bearer by virtue of the bearer's having more than one nucleus." []
 is_a: PATO:0002505 ! nucleated
+
+[Term]
+id: PATO:0001995
+name: organismal quality
+def: "A quality that inheres in an entire organism or part of an organism." []
+is_a: PATO:0001241 ! physical object quality
 
 [Term]
 id: PATO:0002006
@@ -142,7 +194,14 @@ id: PATO:0002007
 name: convex 3-D shape
 def: "A complete three dimensional shape in which for every line connecting pair of points on the object is within the object. Or: a shape lacking cavities. Contrast: concave." []
 is_a: PATO:0002266 ! 3-D shape
-relationship: has_cross_section PATO:0002006 ! 2-D shape
+relationship: RO:0015011 PATO:0002006 ! 2-D shape
+
+[Term]
+id: PATO:0002182
+name: molecular quality
+def: "A quality which inheres in a molecular entity, a single molecule, atom, ion, radical etc." []
+synonym: "relational molecular quality" EXACT []
+is_a: PATO:0001241 ! physical object quality
 
 [Term]
 id: PATO:0002226
@@ -170,12 +229,6 @@ synonym: "Lamé curve" EXACT []
 is_a: PATO:0002006 ! 2-D shape
 
 [Term]
-id: PATO:0002486
-name: multi-organismal process quality
-def: "A quality inhering in a process by virtue of that process having two or more organisms as participants." []
-is_a: PATO:0001236 ! process quality
-
-[Term]
 id: PATO:0002487
 name: single organismal process quality
 def: "A quality inhering in a process by virtue of that process having exactly one organism as a participant." []
@@ -193,6 +246,12 @@ name: polymeric
 def: "A quality inhering in a structure by virtue of it consisting of many of repeated, similar or identical subunits, arranged in some orderly array." []
 is_a: PATO:0000141 ! structure
 
+[Term]
+id: PATO:0070044
+name: anatomical structure quality
+def: "A quality of continuant that exist at the anatomical level of organisation and anything under it. This includes, but is not limited to, cells , tissues, and components." []
+is_a: PATO:0001241 ! physical object quality
+
 [Typedef]
 id: RO:0000053
 xref: RO:0000053
@@ -206,10 +265,8 @@ id: RO:0002180
 xref: RO:0002180
 
 [Typedef]
-id: has_cross_section
-name: has_cross_section
-def: "s3 has_cross_section s3 if and only if : there exists some 2d plane that intersects the bearer of s3, and the impression of s3 upon that plane has shape quality s2." []
-xref: has_cross_section
+id: RO:0015011
+xref: RO:0015011
 
 [Typedef]
 id: has_part

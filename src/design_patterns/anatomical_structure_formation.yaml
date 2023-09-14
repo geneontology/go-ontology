@@ -1,0 +1,30 @@
+pattern_name: anatomical structure formation
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_formation.yaml
+
+description: This pattern is for classes representing formation of anatomical structures from their initial state, differentiated by the anatomical structure being formed. Not used for cells.
+
+classes:
+  anatomical structure: "UBERON:0000061"
+  anatomical structure formation involved in morphogenesis: "GO:0048646"
+
+relations: 
+  results in formation of: "RO:0002297"
+
+vars:
+ target: "'anatomical structure'"
+
+name:
+  text: "%s formation"
+  vars:
+    - target
+
+def:
+  text: "The process that gives rise to the %s. This process pertains to the initial formation of a structure from unspecified parts."
+  vars:
+     - target
+
+equivalentTo:
+  text: " 'anatomical structure formation involved in morphogenesis' and 'results in formation of' some %s"
+  vars:
+    - target

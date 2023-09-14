@@ -1,0 +1,31 @@
+pattern_name: positive regulation of characteristic
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/positive_regulation_of_characteristic.yaml
+
+description: >-
+   Positive regulation of a particular characteristic.
+
+classes:
+  biological regulation: "GO:0065007"
+  characteristic: "PATO:0000001"
+
+relations: 
+  positively regulates characteristic: "RO:0019001"
+
+vars:
+  characteristic: "'characteristic'"
+
+name:
+     text: "positive regulation of %s"
+     vars:
+       - characteristic
+
+def:
+  text: "Any process that qualitatively or quantitatively increases %s."
+  vars:
+     - characteristic
+
+equivalentTo:
+  text: "'biological regulation' and 'positively regulates characteristic' some %s"
+  vars:
+    - characteristic

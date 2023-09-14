@@ -1,0 +1,40 @@
+pattern_name: metabolic process
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml
+
+description: This pattern is for classes representing metabolic processes differentiated by their primary inputs or primary outputs.
+
+classes:
+  Thing: 'owl:Thing'
+  metabolic process: 'GO:0008152'
+
+relations:
+  has primary input or output: 'RO:0004007'
+
+vars:
+  # Should this be chemical entity?
+  participant: "Thing" 
+
+name:
+  text: "%s metabolic process" 
+  vars:
+    - 'participant'
+
+def:
+  text: "The chemical reactions and pathways involving %s."
+  vars:
+    - 'participant'
+
+namespace: 
+  text: 'biological_process'
+
+generated_synonyms:
+   - 
+      text: "%s metabolism"
+      vars: 
+        - 'participant'
+
+equivalentTo:
+  text: "'metabolic process' and 'has primary input or output' some %s"
+  vars:  
+    - 'participant'

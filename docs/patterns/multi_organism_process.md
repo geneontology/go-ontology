@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-`{process}`  and ([bearer of](http://purl.obolibrary.org/obo/RO_0000053) some [multi-organismal process quality](http://purl.obolibrary.org/obo/PATO_0002486))
+`{process}`  and ([has characteristic](http://purl.obolibrary.org/obo/RO_0000053) some [PATO_0002486](http://purl.obolibrary.org/obo/PATO_0002486))
 
 
 
@@ -41,11 +41,7 @@ TODO
 
 *See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/multi_organism_process.tsv)*
 
-| defined_class | defined_class_label | process | process_label |
-|:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_0044706](http://purl.obolibrary.org/obo/GO_0044706) | multi-multicellular organism process | [http://purl.obolibrary.org/obo/GO_0032501](http://purl.obolibrary.org/obo/GO_0032501) | multicellular organismal process |
-| [http://purl.obolibrary.org/obo/GO_0044040](http://purl.obolibrary.org/obo/GO_0044040) | multi-organism carbohydrate metabolic process | [http://purl.obolibrary.org/obo/GO_0005975](http://purl.obolibrary.org/obo/GO_0005975) | carbohydrate metabolic process |
-| [http://purl.obolibrary.org/obo/GO_0044035](http://purl.obolibrary.org/obo/GO_0044035) | multi-organism catabolic process | [http://purl.obolibrary.org/obo/GO_0009056](http://purl.obolibrary.org/obo/GO_0009056) | catabolic process |
-| [http://purl.obolibrary.org/obo/GO_1902581](http://purl.obolibrary.org/obo/GO_1902581) | multi-organism cellular localization | [http://purl.obolibrary.org/obo/GO_0051641](http://purl.obolibrary.org/obo/GO_0051641) | cellular localization |
-| [http://purl.obolibrary.org/obo/GO_0044764](http://purl.obolibrary.org/obo/GO_0044764) | multi-organism cellular process | [http://purl.obolibrary.org/obo/GO_0009987](http://purl.obolibrary.org/obo/GO_0009987) | cellular process |
+|  |
+|
+
 

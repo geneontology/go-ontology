@@ -283,6 +283,20 @@ while (<>) {
 	}
     }
 
+    unless ($disabled{'whitespace-check'}) {
+        # note this is more specific than the synonym check above
+        # currently too specific see https://github.com/geneontology/go-ontology/issues/21941
+        #if (/[^\.]\s\s/) {
+        #    flag("double-whitespace", "line: $_");
+        #}
+        if (/\s$/) {
+            flag("EOL whitespace", "line: $_");
+        }
+        if (/\t/) {
+            flag("tab", "line: $_");
+        }
+    }
+    
 
     unless ($disabled{'ascii-check'}) {
         if (/[\200-\377]/ ||

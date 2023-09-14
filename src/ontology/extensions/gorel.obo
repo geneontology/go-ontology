@@ -12,7 +12,7 @@ subsetdef: taxon_extension ""
 subsetdef: valid_for_annotation_extension ""
 synonymtypedef: RO:0008000 "display label for users"
 default-namespace: external
-remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 1478 Logical Axioms: 409]
+remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 1776 Logical Axioms: 474]
 ontology: go/extensions/gorel
 property_value: http://purl.org/dc/elements/1.1/description "This ontology combines RO together with GO-specific relations in the GOREL namespace, used for annotation extensions. See;\n\nHuntley, R. P., Harris, M. a, Alam-Faruque, Y., et al (2014). A method for increasing expressivity of Gene Ontology annotations using a compositional approach. BMC Bioinformatics, 15(1), 155. doi:10.1186/1471-2105-15-155\n\nNotes on release edition (gorel.owl):\n\nThis ontology is created by merging the relevant subset of RO together with GO-specific annotations of RO relations, and GOREL relations\n\nNotes on editors version (gorel-edit.owl): \nThe editors version imports ro.owl, and allows addition of new relations (GOREL ID space) and annotation of existing RO relations. Note for editors: if an RO relation is to be made visible in the final gorel product, then make the relation a SubProperty of 'go annotation extension relation'. Anything with a logical axiom is included in the final module. Consult Makefile for details" xsd:string
 
@@ -37,66 +37,30 @@ range: CHEBI:24431
 is_a: go_annotation_extension_relation ! go annotation extension relation
 
 [Typedef]
-id: actively_participates_in
-name: actively participates in
-def: "x actively participates in y if and only if x participates in y and x realizes some active role" []
-xref: RO:0002217
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000118 "agent in" xsd:string
-is_a: participates_in ! participates in
-inverse_of: has_agent ! obsolete has active participant
-
-[Typedef]
-id: activity_directly_negatively_regulates_activity_of
-name: activity directly negatively regulates activity of
-def: "Holds between molecular entities A and B where A can physically interact with B and in doing so negatively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
-synonym: "molecularly decreases activity of" EXACT []
-xref: RO:0002449
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000118 "inhibits" xsd:string
-is_a: activity_directly_regulates_activity_of ! activity directly regulates activity of
-
-[Typedef]
-id: activity_directly_positively_regulates_activity_of
-name: activity directly positively regulates activity of
-def: "Holds between molecular entities A and B where A can physically interact with B and in doing so positively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
-synonym: "molecularly increases activity of" EXACT []
-xref: RO:0002450
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000118 "activates" xsd:string
-is_a: activity_directly_regulates_activity_of ! activity directly regulates activity of
-
-[Typedef]
-id: activity_directly_regulates_activity_of
-name: activity directly regulates activity of
-def: "Holds between molecular entities A and B where A can physically interact with B and in doing so regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A regulates the kinase activity of B." []
-synonym: "molecularly controls" EXACT []
-xref: RO:0002448
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-is_a: causally_influences ! causally influences
-is_a: molecularly_interacts_with ! molecularly interacts with
-
-[Typedef]
 id: acts_on_population_of
-name: acts_on_population_of
+name: obsolete acts_on_population_of
 namespace: go/extensions/gorel
-def: "The relationship that links an entity with a process in which the process has more than one participant that is of the same entity type." [GOC:mtg_berkeley_2013]
-comment: Example of use: an annotation of gene X to cell proliferation with acts_on_population_of CL:0000057 means that gene X is involved in the proliferation of fibroblasts.
+def: "OBSOLETE. The relationship that links an entity with a process in which the process has more than one participant that is of the same entity type." [GOC:mtg_berkeley_2013]
+comment: Example of use: an annotation of gene X to cell proliferation with acts_on_population_of CL:0000057 means that gene X is involved in the proliferation of fibroblasts. Note that many annotation extensions use regulates_o_acts_on_population_of - should this be considered regulation of number of cells / cell homeostasis?
 subset: AE_cell_or_anatomical
 subset: display_for_curators
 subset: valid_for_annotation_extension
+synonym: "alters levels of" BROAD []
 xref: GOREL:0001006
+xref: RO:0012003
 property_value: local_domain GO:0008283 xsd:string
 property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
 property_value: usage "Use this relation to relate a process to a population of cells that it acts on.  The main usage of this relations is to relate GO: cell proliferation to the proliferating cells type. (Individual cells divide, populations of cells proliferate.)" xsd:string
 domain: BFO:0000015
-is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: has_participant ! has participant
+is_obsolete: true
+replaced_by: RO:0012003
 
 [Typedef]
 id: acts_upstream_of
 name: acts upstream of
 def: "c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 xref: RO:0002263
 property_value: IAO:0000112 "A faulty traffic light (material entity) whose malfunctioning (a process) is causally upstream of a traffic collision (a process): the traffic light acts upstream of the collision." xsd:string
 property_value: seeAlso http://wiki.geneontology.org/index.php/Acts_upstream_of
@@ -107,32 +71,35 @@ is_a: acts_upstream_of_or_within ! acts upstream of or within
 id: acts_upstream_of,_negative_effect
 name: acts upstream of, negative effect
 def: "c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 xref: RO:0004035
 property_value: RO:0004050 RO:0002263
 property_value: seeAlso http://wiki.geneontology.org/index.php/Acts_upstream_of,_negative_effect
 holds_over_chain: enables causally_upstream_of,_negative_effect
 is_a: acts_upstream_of ! acts upstream of
 is_a: acts_upstream_of_or_within,_negative_effect ! acts upstream of or within, negative effect
-created_by: cjm
+created_by: https://orcid.org/0000-0002-6601-2165
 creation_date: 2018-01-26T23:53:22Z
 
 [Typedef]
 id: acts_upstream_of,_positive_effect
 name: acts upstream of, positive effect
 def: "c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 xref: RO:0004034
 property_value: RO:0004049 RO:0002263
 property_value: seeAlso http://wiki.geneontology.org/index.php/Acts_upstream_of,_positive_effect
 holds_over_chain: enables causally_upstream_of,_positive_effect
 is_a: acts_upstream_of ! acts upstream of
 is_a: acts_upstream_of_or_within,_positive_effect ! acts upstream of or within, positive effect
-created_by: cjm
+created_by: https://orcid.org/0000-0002-6601-2165
 creation_date: 2018-01-26T23:53:14Z
 
 [Typedef]
 id: acts_upstream_of_or_within
 name: acts upstream of or within
 def: "c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 synonym: "affects" RELATED []
 xref: RO:0002264
 property_value: IAO:0000112 "A gene product that has some activity, where that activity may be a part of a pathway or upstream of the pathway." xsd:string
@@ -143,22 +110,24 @@ is_a: causal_agent_in_process ! causal agent in process
 [Typedef]
 id: acts_upstream_of_or_within,_negative_effect
 name: acts upstream of or within, negative effect
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 xref: RO:0004033
 property_value: RO:0004050 RO:0002264
 holds_over_chain: enables causally_upstream_of_or_within,_negative_effect
 is_a: acts_upstream_of_or_within ! acts upstream of or within
-created_by: cjm
+created_by: https://orcid.org/0000-0002-6601-2165
 creation_date: 2018-01-26T23:49:51Z
 
 [Typedef]
 id: acts_upstream_of_or_within,_positive_effect
 name: acts upstream of or within, positive effect
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 xref: RO:0004032
 property_value: RO:0004049 RO:0002264
 property_value: seeAlso http://wiki.geneontology.org/index.php/Acts_upstream_of_or_within,_positive_effect
 holds_over_chain: enables causally_upstream_of_or_within,_positive_effect
 is_a: acts_upstream_of_or_within ! acts upstream of or within
-created_by: cjm
+created_by: https://orcid.org/0000-0002-6601-2165
 creation_date: 2018-01-26T23:49:30Z
 
 [Typedef]
@@ -169,6 +138,9 @@ def: "x adjacent to y if and only if x and y share a boundary." []
 subset: AE_cell_or_anatomical
 subset: AE_cellular_component
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 synonym: "adjacent to" EXACT RO:0002220 []
 xref: RO:0002220
@@ -178,7 +150,7 @@ property_value: IAO:0000112 "The plasma membrane of a cell is adjacent to the cy
 property_value: IAO:0000112 "The skin of the forelimb is adjacent to the skin of the torso if these are considered anatomical subdivisions with a defined border. Otherwise a relation such as continuous_with would be used." xsd:string
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000116 "This relation acts as a join point with BSPO" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: local_domain GO:0005575 xsd:string
 property_value: local_range "GO:0005575 CL:0000000" xsd:string
 property_value: RO:0001900 RO:0001901
@@ -194,26 +166,12 @@ namespace: go/extensions/gorel
 xref: GOREL:0001000
 
 [Typedef]
-id: bearer_of
-name: bearer of
-def: "a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence" []
-xref: RO:0000053
-property_value: IAO:0000111 "bearer of" xsd:string
-property_value: IAO:0000112 "this apple is bearer of this red color" xsd:string
-property_value: IAO:0000112 "this vase is bearer of this fragility" xsd:string
-property_value: IAO:0000116 "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist." xsd:string
-property_value: IAO:0000118 "bearer_of" xsd:string
-property_value: IAO:0000118 "is bearer of" xsd:string
-property_value: RO:0001900 RO:0001901
-range: BFO:0000020
-
-[Typedef]
 id: biotically_interacts_with
 name: biotically interacts with
 def: "An interaction relationship in which at least one of the partners is an organism and the other is either an organism or an abiotic entity with which the organism interacts." []
 subset: ro-eco
 xref: RO:0002437
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "interacts with on organism level" xsd:string
 property_value: seeAlso http://dx.doi.org/10.1016/j.ecoinf.2014.08.005
 property_value: seeAlso http://eol.org/schema/terms/interactsWith xsd:string
@@ -231,7 +189,7 @@ subset: ro-eco
 xref: RO:0002215
 property_value: IAO:0000112 "mechanosensory neuron capable of detection of mechanical stimulus involved in sensory perception (GO:0050974)" xsd:string
 property_value: IAO:0000112 "osteoclast SubClassOf 'capable of' some 'bone resorption'" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "has function realized in" xsd:string
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20123131
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/21208450
@@ -239,7 +197,6 @@ property_value: IAO:0000232 "For compatibility with BFO, this relation has a sho
 domain: BFO:0000004
 range: BFO:0000015
 is_a: capable_of_part_of ! capable of part of
-expand_expression_to: "RO_0000053 some (RO_0000054 only ?Y)" []
 
 [Typedef]
 id: capable_of_negatively_regulating
@@ -255,13 +212,12 @@ id: capable_of_part_of
 name: capable of part of
 def: "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p." []
 xref: RO:0002216
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "has function in" xsd:string
-property_value: seeAlso "defining-property-chains-involving-reflexivity"
+property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
 holds_over_chain: capable_of part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
 is_a: causal_agent_in_process ! causal agent in process
 is_a: functionally_related_to ! functionally related to
-expand_expression_to: "RO_0000053 some (RO_0000054 only (BFO_0000050 some ?Y))" []
 
 [Typedef]
 id: capable_of_positively_regulating
@@ -293,15 +249,15 @@ is_a: causal_relation_between_material_entity_and_a_process ! causal relation be
 inverse_of: process_has_causal_agent ! process has causal agent
 
 [Typedef]
-id: causal_relation_between_material_entities
-name: causal relation between material entities
+id: causal_relation_between_entities
+name: causal relation between entities
 xref: RO:0002506
 property_value: IAO:0000116 "The intent is that the process branch of the causal property hierarchy is primary (causal relations hold between occurrents/processes), and that the material branch is defined in terms of the process branch" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
-domain: BFO:0000040
-range: BFO:0000040
+domain: BFO:0000002
+range: BFO:0000002
 is_a: causally_related_to ! causally related to
 
 [Typedef]
@@ -310,7 +266,7 @@ name: causal relation between material entity and a process
 def: "A relationship that holds between a material entity and a process in which causality is involved, with either the material entity or some part of the material entity exerting some influence over the process, or the process influencing some aspect of the material entity." []
 xref: RO:0002595
 property_value: IAO:0000116 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 domain: BFO:0000040
 range: BFO:0000015
@@ -319,9 +275,9 @@ is_a: causally_related_to ! causally related to
 [Typedef]
 id: causal_relation_between_processes
 name: causal relation between processes
-def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q." []
+def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one where the execution of p influences the execution of q. p may be upstream, downstream, part of, or a container of q." []
 xref: RO:0002501
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
 domain: BFO:0000003
@@ -334,7 +290,7 @@ name: causally downstream of
 def: "inverse of upstream of" []
 xref: RO:0002404
 property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: causally_downstream_of_or_within ! causally downstream of or within
 is_a: preceded_by ! preceded by
 inverse_of: causally_upstream_of ! causally upstream of
@@ -345,7 +301,7 @@ name: causally downstream of or within
 def: "inverse of causally upstream of or within" []
 subset: RO:0002259
 xref: RO:0002427
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 is_transitive: true
 is_a: causal_relation_between_processes ! causal relation between processes
@@ -354,44 +310,47 @@ is_a: causal_relation_between_processes ! causal relation between processes
 id: causally_influenced_by
 name: causally influenced by
 xref: RO:0002559
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-property_value: IAO:0000589 "causally influenced by (material entity to material entity)" xsd:string
-is_a: causal_relation_between_material_entities ! causal relation between material entities
+property_value: IAO:0000589 "causally influenced by (entity-centric)" xsd:string
+is_a: causal_relation_between_entities ! causal relation between entities
 inverse_of: causally_influences ! causally influences
 
 [Typedef]
 id: causally_influences
 name: causally influences
-def: "Holds between materal entities a and b if the activity of a is causally upstream of the activity of b, or causally upstream of a an activity that modifies b" []
+def: "The entity or characteristic A is causally upstream of the entity or characteristic B, A having an effect on B. An entity corresponds to any biological type of entity as long as a mass is measurable. A characteristic corresponds to a particular specificity of an entity (e.g., phenotype, shape, size)." []
 xref: RO:0002566
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
-property_value: IAO:0000589 "causally influences (material entity to material entity)" xsd:string
-is_a: causal_relation_between_material_entities ! causal relation between material entities
+property_value: IAO:0000589 "causally influences (entity-centric)" xsd:string
+domain: BFO:0000002
+range: BFO:0000002
+is_a: causal_relation_between_entities ! causal relation between entities
 
 [Typedef]
 id: causally_related_to
 name: causally related to
-def: "This relation groups causal relations between material entities and causal relations between processes" []
+def: "relation that links two events, processes, states, or objects such that one event, process, state, or object (a cause) contributes to the production of another event, process, state, or object (an effect) where the cause is partly or wholly responsible for the effect, and the effect is partly or wholly dependent on the cause." [https://en.wikipedia.org/wiki/Causality]
 xref: RO:0002410
-property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000116 "This branch of the ontology deals with causal relations between entities. It is divided into two branches: causal relations between occurrents/processes, and causal relations between material entities. We take an 'activity flow-centric approach', with the former as primary, and define causal relations between material entities in terms of causal relations between occurrents.\n\nTo define causal relations in an activity-flow type network, we make use of 3 primitives:\n\n * Temporal: how do the intervals of the two occurrents relate? \n * Is the causal relation regulatory?\n * Is the influence positive or negative\n\nThe first of these can be formalized in terms of the Allen Interval Algebra. Informally, the 3 bins we care about are 'direct', 'indirect' or overlapping. Note that all causal relations should be classified under a RO temporal relation (see the branch under 'temporally related to'). Note that all causal relations are temporal, but not all temporal relations are causal. Two occurrents can be related in time without being causally connected. We take causal influence to be primitive, elucidated as being such that has the upstream changed, some qualities of the donwstream would necessarily be modified.\n\nFor the second, we consider a relationship to be regulatory if the system in which the activities occur is capable of altering the relationship to achieve some objective. This could include changing the rate of production of a molecule.\n\nFor the third, we consider the effect of the upstream process on the output(s) of the downstream process. If the level of output is increased, or the rate of production of the output is increased, then the direction is increased. Direction can be positive, negative or neutral or capable of either direction. Two positives in succession yield a positive, two negatives in succession yield a positive, otherwise the default assumption is that the net effect is canceled and the influence is neutral.\n\nEach of these 3 primitives can be composed to yield a cross-product of different relation types." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000116 "This branch of the ontology deals with causal relations between entities. It is divided into two branches: causal relations between occurrents/processes, and causal relations between material entities. We take an 'activity flow-centric approach', with the former as primary, and define causal relations between material entities in terms of causal relations between occurrents.\n\nTo define causal relations in an activity-flow type network, we make use of 3 primitives:\n\n * Temporal: how do the intervals of the two occurrents relate? \n * Is the causal relation regulatory?\n * Is the influence positive or negative?\n\nThe first of these can be formalized in terms of the Allen Interval Algebra. Informally, the 3 bins we care about are 'direct', 'indirect' or overlapping. Note that all causal relations should be classified under a RO temporal relation (see the branch under 'temporally related to'). Note that all causal relations are temporal, but not all temporal relations are causal. Two occurrents can be related in time without being causally connected. We take causal influence to be primitive, elucidated as being such that has the upstream changed, some qualities of the donwstream would necessarily be modified.\n\nFor the second, we consider a relationship to be regulatory if the system in which the activities occur is capable of altering the relationship to achieve some objective. This could include changing the rate of production of a molecule.\n\nFor the third, we consider the effect of the upstream process on the output(s) of the downstream process. If the level of output is increased, or the rate of production of the output is increased, then the direction is increased. Direction can be positive, negative or neutral or capable of either direction. Two positives in succession yield a positive, two negatives in succession yield a positive, otherwise the default assumption is that the net effect is canceled and the influence is neutral.\n\nEach of these 3 primitives can be composed to yield a cross-product of different relation types." xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
 
 [Typedef]
 id: causally_upstream_of
 name: causally upstream of
 namespace: go/extensions/gorel
-def: "p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain" []
+def: "p is causally upstream of q iff p is causally related to q, the end of p precedes the end of q, and p is not an occurrent part of q." []
 subset: AE_biological_process
 subset: AE_molecular_function
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002411
-property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "GO:0008150 GO:0003674" xsd:string
 property_value: usage "Process A is causally_upstream of process B if process A occurs first, and process A causes process B to happen. Processes A and B do not overlap." xsd:string
@@ -403,9 +362,11 @@ is_a: precedes ! precedes
 [Typedef]
 id: causally_upstream_of,_negative_effect
 name: causally upstream of, negative effect
-comment: holds between x and y if and only if x is causally upstream of y and the progression of x decreases the frequency, rate or extent of y
+def: "p is causally upstream of, negative effect q iff p is casually upstream of q, and the execution of p decreases the execution of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 xref: RO:0002305
-property_value: http://purl.org/dc/terms/creator "cjm" xsd:string
+property_value: http://purl.org/dc/terms/creator https://orcid.org/0000-0002-6601-2165
 property_value: RO:0004050 RO:0002411
 is_a: causally_upstream_of ! causally upstream of
 is_a: causally_upstream_of_or_within,_negative_effect ! causally upstream of or within, negative effect
@@ -413,9 +374,12 @@ is_a: causally_upstream_of_or_within,_negative_effect ! causally upstream of or 
 [Typedef]
 id: causally_upstream_of,_positive_effect
 name: causally upstream of, positive effect
+def: "p is causally upstream of, positive effect q iff p is casually upstream of q, and the execution of p is required for the execution of q." []
 comment: holds between x and y if and only if x is causally upstream of y and the progression of x increases the frequency, rate or extent of y
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 xref: RO:0002304
-property_value: http://purl.org/dc/terms/creator "cjm" xsd:string
+property_value: http://purl.org/dc/terms/creator https://orcid.org/0000-0002-6601-2165
 property_value: RO:0004049 RO:0002411
 is_a: causally_upstream_of ! causally upstream of
 is_a: causally_upstream_of_or_within,_positive_effect ! causally upstream of or within, positive effect
@@ -423,11 +387,11 @@ is_a: causally_upstream_of_or_within,_positive_effect ! causally upstream of or 
 [Typedef]
 id: causally_upstream_of_or_within
 name: causally upstream of or within
-def: "p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q." []
+def: "p is 'causally upstream or within' q iff p is causally related to q, and the end of p precedes, or is coincident with, the end of q." []
 synonym: "affects" RELATED []
 xref: RO:0002418
 property_value: IAO:0000116 "We would like to make this disjoint with 'preceded by', but this is prohibited in OWL2" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "influences (processual)" xsd:string
 is_transitive: true
 is_a: causal_relation_between_processes ! causal relation between processes
@@ -439,7 +403,7 @@ name: causally upstream of or within, negative effect
 xref: RO:0004046
 property_value: RO:0004050 RO:0002418
 is_a: causally_upstream_of_or_within ! causally upstream of or within
-created_by: cjm
+created_by: https://orcid.org/0000-0002-6601-2165
 creation_date: 2018-03-13T23:55:05Z
 
 [Typedef]
@@ -448,8 +412,38 @@ name: causally upstream of or within, positive effect
 xref: RO:0004047
 property_value: RO:0004049 RO:0002418
 is_a: causally_upstream_of_or_within ! causally upstream of or within
-created_by: cjm
+created_by: https://orcid.org/0000-0002-6601-2165
 creation_date: 2018-03-13T23:55:19Z
+
+[Typedef]
+id: characteristic_of
+name: characteristic of
+def: "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence." []
+comment: Note that this relation was previously called "inheres in", but was changed to be called "characteristic of" because BFO2 uses "inheres in" in a more restricted fashion. This relation differs from BFO2:inheres_in in two respects: (1) it does not impose a range constraint, and thus it allows qualities of processes, as well as of information entities, whereas BFO2 restricts inheres_in to only apply to independent continuants (2) it is declared functional, i.e. something can only be a characteristic of one thing.
+xref: RO:0000052
+property_value: IAO:0000111 "inheres in" xsd:string
+property_value: IAO:0000112 "this fragility is a characteristic of this vase" xsd:string
+property_value: IAO:0000112 "this red color is a characteristic of this apple" xsd:string
+property_value: IAO:0000118 "inheres_in" xsd:string
+property_value: RO:0001900 RO:0001901
+is_functional: true
+is_a: characteristic_of_part_of ! characteristic of part of
+inverse_of: has_characteristic ! has characteristic
+
+[Typedef]
+id: characteristic_of_part_of
+name: characteristic of part of
+def: "q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w." []
+xref: RO:0002314
+property_value: IAO:0000116 "Because part_of is transitive, inheres in is a sub-relation of characteristic of part of" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "inheres in part of" xsd:string
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20064205
+property_value: RO:0001900 RO:0001901
+property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
+holds_over_chain: characteristic_of part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
+is_a: depends_on ! depends on
+transitive_over: part_of ! part of
 
 [Typedef]
 id: coincident_with
@@ -462,7 +456,7 @@ subset: ro-eco
 subset: valid_for_annotation_extension
 xref: RO:0002008
 property_value: IAO:0000116 "Note from NCEAS meeting: consider changing primary label" xsd:string
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: local_domain GO:0005575 xsd:string
 property_value: local_range "CHEBI:24431 SO:0000001 SO:0000704" xsd:string
 property_value: usage "Use this relation to link a region of chromosome or chromatin to the sequence region that it contains.  The sequence region may be a specific gene or some generic region referred to by a SO term." xsd:string
@@ -473,11 +467,10 @@ is_a: mereotopologically_related_to ! mereotopologically related to
 id: colocalizes_with
 name: colocalizes with
 def: "a colocalizes_with b if and only if  a is transiently or peripherally associated with b[GO]." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 xref: RO:0002325
-property_value: http://purl.org/dc/terms/creator "Gene Ontology Consortium" xsd:string
 property_value: IAO:0000112 "Clp1p relocalizes from the nucleolus to the spindle and site of cell division; i.e. it is associated transiently with the spindle pole body and the contractile ring (evidence from GFP fusion). Clp1p colocalizes_with spindle pole body (GO:0005816) and contractile ring (GO:0005826)" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000119 http://www.geneontology.org/GO.annotation.conventions.shtml#colocalizes_with xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "In the context of the Gene Ontology, colocalizes_with may be used for annotating to cellular component terms[GO]" xsd:string
 domain: BFO:0000040
 range: BFO:0000040
@@ -507,13 +500,13 @@ property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 [Typedef]
 id: contributes_to
 name: contributes to
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 xref: RO:0002326
 property_value: IAO:0000112 "ATP citrate lyase (ACL) in Arabidopsis: it is a heterooctamer, composed of two types of subunits, ACLA and ACLB in a A(4)B(4) stoichiometry. Neither of the subunits expressed alone give ACL activity, but co-expression results in ACL activity. Both subunits contribute_to the ATP citrate lyase activity." xsd:string
 property_value: IAO:0000112 "eIF2: has three subunits (alpha, beta, gamma); one binds GTP; one binds RNA; the whole complex binds the ribosome (all three subunits are required for ribosome binding). So one subunit is annotated to GTP binding and one to RNA binding without qualifiers, and all three stand in the contributes_to relationship to \"ribosome binding\". And all three are part_of an eIF2 complex" xsd:string
 property_value: IAO:0000112 "Subunits of nuclear RNA polymerases: none of the individual subunits have RNA polymerase activity, yet all of these subunits contribute_to DNA-dependent RNA polymerase activity." xsd:string
 property_value: IAO:0000116 "We would like to say\n\nif and only if\n exists c', p'\n  c part_of c' and c' capable_of p\n   and\n  c capable_of p' and p' part_of p\nthen\n c contributes_to p\n\nHowever, this is not possible in OWL. We instead make this relation a sub-relation of the two chains, which gives us the inference in the one direction." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000119 http://www.geneontology.org/GO.annotation.conventions.shtml#contributes_to xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "In the context of the Gene Ontology, contributes_to may be used only with classes from the molecular function ontology. " xsd:string
 is_a: capable_of_part_of ! capable of part of
 is_a: go_annotation_extension_relation ! go annotation extension relation
@@ -534,7 +527,7 @@ is_obsolete: true
 id: depends_on
 name: depends on
 xref: RO:0002502
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: seeAlso BFO:0000169
 
 [Typedef]
@@ -542,8 +535,22 @@ id: developmentally_related_to
 name: developmentally related to
 def: "A relationship that holds between entities participating in some developmental process (GO:0032502)" []
 xref: RO:0002324
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving organismal development" xsd:string
+
+[Typedef]
+id: device_utilizes_material
+name: device utilizes material
+def: "X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y." []
+synonym: "utilizes" BROAD []
+xref: RO:0017001
+property_value: IAO:0000112 "A diagnostic testing device utilizes a specimen." xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-9625-1899
+property_value: IAO:0000117 https://orcid.org/0000-0003-2620-0345
+property_value: IAO:0000232 "A diagnostic testing device utilizes a specimen means that the diagnostic testing device is capable of an assay, and this assay a specimen as its input." xsd:string
+property_value: IAO:0000232 "See github ticket https://github.com/oborel/obo-relations/issues/497" xsd:string
+holds_over_chain: capable_of has_input
+creation_date: 2021-11-08T12:00:00Z
 
 [Typedef]
 id: directly_negatively_regulated_by
@@ -558,10 +565,13 @@ creation_date: 2017-09-17T13:52:38Z
 [Typedef]
 id: directly_negatively_regulates
 name: directly negatively regulates
-def: "Process(P1) directly negatively regulates process(P2) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P1 directly negatively regulates P2." []
+def: "p directly negatively regulates q iff p is immediately causally upstream of q, and p negatively regulates q." []
 subset: AE_biological_process
 subset: AE_molecular_function
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002630
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
@@ -572,6 +582,19 @@ property_value: RO:0004050 RO:0002578
 is_a: directly_regulates ! directly regulates
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: negatively_regulates ! negatively regulates
+
+[Typedef]
+id: directly_negatively_regulates_activity_of
+name: directly negatively regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that negatively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
+synonym: "molecularly decreases activity of" EXACT []
+xref: RO:0002449
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
+property_value: IAO:0000118 "directly inhibits" xsd:string
+domain: BFO:0000040
+range: BFO:0000040
+is_a: directly_regulates_activity_of ! directly regulates activity of
 
 [Typedef]
 id: directly_positively_regulated_by
@@ -586,10 +609,13 @@ creation_date: 2017-09-17T13:52:47Z
 [Typedef]
 id: directly_positively_regulates
 name: directly positively regulates
-def: "Process(P1) directly postively regulates process(P2) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P1 directly positively regulates P2." []
+def: "p directly positively regulates q iff p is immediately causally upstream of q, and p positively regulates q." []
 subset: AE_biological_process
 subset: AE_molecular_function
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002629
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
@@ -600,6 +626,19 @@ property_value: RO:0004049 RO:0002578
 is_a: directly_regulates ! directly regulates
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: positively_regulates ! positively regulates
+
+[Typedef]
+id: directly_positively_regulates_activity_of
+name: directly positively regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that positively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
+synonym: "molecularly increases activity of" EXACT []
+xref: RO:0002450
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
+property_value: IAO:0000118 "directly activates" xsd:string
+domain: BFO:0000040
+range: BFO:0000040
+is_a: directly_regulates_activity_of ! directly regulates activity of
 
 [Typedef]
 id: directly_regulated_by
@@ -614,13 +653,16 @@ creation_date: 2017-09-17T13:52:24Z
 [Typedef]
 id: directly_regulates
 name: directly regulates
-def: "Process(P1) directly regulates process(P2) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2." []
+def: "p directly regulates q iff p is immediately causally upstream of q and p regulates q." []
 subset: AE_biological_process
 subset: AE_molecular_function
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002578
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000589 "directly regulates (processual)" xsd:string
 property_value: local_domain BFO:0000015 xsd:string
@@ -629,6 +671,28 @@ property_value: RO:0002575 RO:0002211
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: immediately_causally_upstream_of ! immediately causally upstream of
 is_a: regulates ! regulates
+
+[Typedef]
+id: directly_regulates_activity_of
+name: directly regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that regulates an activity performed by B. For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.\n\nA and B can be physically interacting but not necessarily. Immediately upstream means there are no intermediate entity between A and B." []
+synonym: "molecularly controls" EXACT []
+xref: RO:0002448
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
+domain: BFO:0000040
+range: BFO:0000040
+is_a: molecularly_interacts_with ! molecularly interacts with
+is_a: regulates_activity_of ! obsolete regulates activity of
+
+[Typedef]
+id: disposition_of
+name: disposition of
+def: "inverse of has disposition" []
+comment: This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.
+subset: RO:0002259
+xref: RO:0000092
+is_a: characteristic_of ! characteristic of
 
 [Typedef]
 id: during
@@ -668,31 +732,33 @@ def: "A relationship that is mediated in some way by the environment or environm
 subset: ro-eco
 xref: RO:0002321
 property_value: IAO:0000116 "Awaiting class for domain/range constraint, see: https://github.com/OBOFoundry/Experimental-OBO-Core/issues/6" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving ecological interactions" xsd:string
 
 [Typedef]
 id: enabled_by
 name: enabled by
 def: "inverse of enables" []
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 xref: RO:0002333
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: functionally_related_to ! functionally related to
 is_a: has_participant ! has participant
 
 [Typedef]
 id: enables
 name: enables
+def: "c enables p iff c is capable of p and c acts to execute p." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 xref: RO:0002327
 property_value: IAO:0000112 "a particular instances of akt-2 enables some instance of protein kinase activity" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "catalyzes" xsd:string
 property_value: IAO:0000118 "executes" xsd:string
 property_value: IAO:0000118 "has" xsd:string
 property_value: IAO:0000118 "is catalyzing" xsd:string
 property_value: IAO:0000118 "is executing" xsd:string
 property_value: IAO:0000232 "This relation differs from the parent relation 'capable of' in that the parent is weaker and only expresses a capability that may not be actually realized, whereas this relation is always realized." xsd:string
-property_value: IAO:0000232 "This relation is currently used experimentally by the Gene Ontology Consortium. It may not be stable and may be obsoleted at some future time." xsd:string
 is_a: capable_of ! capable of
 is_a: go_annotation_extension_relation ! go annotation extension relation
 inverse_of: enabled_by ! enabled by
@@ -706,7 +772,7 @@ def: "Holds between an entity and an process P where the entity enables some lar
 xref: RO:0004031
 holds_over_chain: enables has_part
 is_a: functionally_related_to ! functionally related to
-created_by: cjm
+created_by: https://orcid.org/0000-0002-6601-2165
 creation_date: 2018-01-25T23:20:13Z
 
 [Typedef]
@@ -714,7 +780,7 @@ id: encompasses
 name: encompasses
 comment: Previously had ID  http://purl.obolibrary.org/obo/RO_0002124 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.
 xref: RO:0002085
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "di" xsd:string
 is_transitive: true
 is_a: during_which_starts ! during which starts
@@ -743,6 +809,87 @@ property_value: IAO:0000118 "overlaps" xsd:string
 is_a: temporally_related_to ! temporally related to
 
 [Typedef]
+id: existence_ends_during
+name: existence ends during
+def: "x existence ends during y if and only if the time point at which x ends is before or equivalent to the time point at which y ends and after or equivalent to the point at which y starts. Formally: x existence ends during y iff ω(x) <= ω(y) and ω(x) >= α(y)." []
+comment: The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.
+xref: RO:0002492
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: existence_ends_during_or_before ! existence ends during or before
+is_a: existence_overlaps ! existence overlaps
+transitive_over: part_of ! part of
+
+[Typedef]
+id: existence_ends_during_or_before
+name: existence ends during or before
+def: "x existence ends during or before y if and only if the time point at which x ends is before or equivalent to the time point at which y ends." []
+comment: The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.
+xref: RO:0002497
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+holds_over_chain: part_of existence_ends_during_or_before
+is_a: relation_between_physical_entity_and_a_process_or_stage ! relation between physical entity and a process or stage
+transitive_over: part_of ! part of
+transitive_over: precedes ! precedes
+
+[Typedef]
+id: existence_overlaps
+name: existence overlaps
+def: "x existence overlaps y if and only if either (a) the start of x is part of y or (b) the end of x is part of y. Formally: x existence starts and ends during y iff (α(x) >= α(y) & α(x) <= ω(y)) OR (ω(x) <= ω(y) & ω(x) >= α(y))" []
+comment: The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.
+subset: AE_biological_process
+subset: AE_developmental_stages
+subset: display_for_curators
+subset: valid_for_annotation_extension
+xref: RO:0002490
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: local_domain BFO:0000004 xsd:string
+property_value: local_range "GO:0008150 WBls:0000075 ZFS:0100000" xsd:string
+property_value: usage "Identifies a process or life stage during which a cellular component is present" xsd:string
+is_a: go_annotation_extension_relation ! go annotation extension relation
+is_a: relation_between_physical_entity_and_a_process_or_stage ! relation between physical entity and a process or stage
+
+[Typedef]
+id: existence_starts_and_ends_during
+name: existence starts and ends during
+def: "x exists during y if and only if: 1) the time point at which x begins to exist is after or equal to the time point at which y begins and 2) the time point at which x ceases to exist is before or equal to the point at which y ends. Formally: x existence starts and ends during y iff α(x) >= α(y) & α(x) <= ω(y) & ω(x) <= ω(y) & ω(x) >= α(y)" []
+comment: The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.
+subset: AE_biological_process
+subset: AE_developmental_stages
+subset: display_for_curators
+subset: valid_for_annotation_extension
+synonym: "exists during" EXACT []
+xref: RO:0002491
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: local_domain BFO:0000004 xsd:string
+property_value: local_range "GO:0008150 WBls:0000075 ZFS:0100000" xsd:string
+property_value: usage "Identifies a process or life stage during which a cellular component is present" xsd:string
+is_a: existence_ends_during ! existence ends during
+is_a: existence_starts_during ! existence starts during
+is_a: go_annotation_extension_relation ! go annotation extension relation
+
+[Typedef]
+id: existence_starts_during
+name: existence starts during
+def: "x existence starts during y if and only if the time point at which x starts is after or equivalent to the time point at which y starts and before or equivalent to the time point at which y ends. Formally: x existence starts during y iff α(x) >= α(y) & α(x) <= ω(y)." []
+xref: RO:0002488
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: existence_overlaps ! existence overlaps
+is_a: existence_starts_during_or_after ! existence starts during or after
+transitive_over: part_of ! part of
+
+[Typedef]
+id: existence_starts_during_or_after
+name: existence starts during or after
+def: "x existence starts during or after y if and only if the time point at which x starts is after or equivalent to the time point at which y starts. Formally: x existence starts during or after y iff α (x) >= α (y)." []
+comment: The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.
+xref: RO:0002496
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+holds_over_chain: part_of existence_starts_during_or_after
+is_a: relation_between_physical_entity_and_a_process_or_stage ! relation between physical entity and a process or stage
+transitive_over: part_of ! part of
+transitive_over: preceded_by ! preceded by
+
+[Typedef]
 id: exists_during
 name: exists_during
 namespace: go/extensions/gorel
@@ -766,25 +913,40 @@ id: exports
 name: exports
 namespace: go/extensions/gorel
 alt_id: GOREL:0000035
+def: "Holds between p and c when p is a transportation or localization process and the outcome of this process is to move c to a destination that is part of some s, where the end location of c is part of the region that surrounds s." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 xref: RO:0002345
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: transports ! transports
-transitive_over: has_part ! has part
 
 [Typedef]
 id: formed_as_result_of
 name: formed as result of
 xref: RO:0002354
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: output_of ! output of
+
+[Typedef]
+id: function_of
+name: function of
+def: "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence" []
+comment: This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.
+xref: RO:0000079
+property_value: IAO:0000112 "this catalysis function is a function of this enzyme" xsd:string
+property_value: IAO:0000116 "A function inheres in its bearer at all times for which the function exists, however the function need not be realized at all the times that the function exists." xsd:string
+property_value: IAO:0000118 "function_of" xsd:string
+property_value: IAO:0000118 "is function of" xsd:string
+domain: BFO:0000034
+is_a: characteristic_of ! characteristic of
+inverse_of: has_function ! has function
 
 [Typedef]
 id: functionally_related_to
 name: functionally related to
 def: "A grouping relationship for any relationship directly involving a function, or that holds because of a function of one of the related entities." []
 xref: RO:0002328
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "This is a grouping relation that collects relations used for the purpose of connecting structure and function" xsd:string
 
 [Typedef]
@@ -796,7 +958,7 @@ def: "definition \"x has gene product of y if and only if y is a gene (SO:000070
 xref: RO:0002204
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000116 "We would like to be able to express the rule: if t transcribed from g, and t is a noncoding RNA and has an evolved function, then t has gene product g." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: local_domain BFO:0000004 xsd:string
 property_value: local_range BFO:0000002 xsd:string
 property_value: usage "x has gene product of y if and only if y is a gene (SO:0000704) that participates in some gene expression process (GO:0010467) where the output of that process is either y or something that is ribosomally translated from x." xsd:string
@@ -811,7 +973,7 @@ id: genomically_related_to
 name: genomically related to
 def: "holds between two entities when some genome-level process such as gene expression is involved. This includes transcriptional, spliceosomal events. These relations can be used between either macromolecule entities (such as regions of nucleic acid) or between their abstract informational counterparts." []
 xref: RO:0002330
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving the genome of an organism" xsd:string
 domain: BFO:0000002
 range: BFO:0000002
@@ -830,6 +992,9 @@ comment: X happens_during Y iff: (start(Y) before_or_simultaneous_with start(X))
 subset: AE_biological_process
 subset: AE_developmental_stages
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: ro-eco
 subset: valid_for_annotation_extension
 synonym: "during" BROAD RO:0008000 [PomBase:curators]
@@ -845,39 +1010,37 @@ is_transitive: true
 is_a: during ! during
 is_a: ends_during ! ends during
 is_a: go_annotation_extension_relation ! go annotation extension relation
+is_a: starts_during ! starts during
 
 [Typedef]
 id: has_agent
 name: obsolete has active participant
-namespace: go/extensions/gorel
 alt_id: GOREL:0001007
-def: "x has participant y if and only if x realizes some active role that inheres in y" []
+def: "OBSOLETE x has participant y if and only if x realizes some active role that inheres in y" []
 comment: Example of use: an annotation of gene X to cytokine production with has_agent of CL:0000057 (fibroblast) means that the fibroblast is producing the cytokine.
-subset: AE_cell_or_anatomical
-subset: AE_cellular_component
-subset: display_for_curators
-subset: ro-eco
-subset: valid_for_annotation_extension
 xref: RO:0002218
-property_value: IAO:0000112 "'heart development' has active participant some Shh protein" xsd:string
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000116 "This may be obsoleted and replaced by the original 'has agent' relation" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "has agent" xsd:string
 property_value: local_domain GO:0008150 xsd:string
 property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
 property_value: usage "Use this relation to link a process to an entity that carries out that process. The entity may be a cellular component, a cell type or an anatomical structure. Examples include recording a vesicle type that mediates a transport process, a cell type that is the agent of a secretion process or a cell adhesion process.  Do not use this to extend a molecular function: The agents of molecular functions are gene products and complexes.  Use of this relation with a molecular function therefore consistutes reverse annotation." xsd:string
-is_a: has_participant ! has participant
 is_obsolete: true
+replaced_by: RO:0002500
 
 [Typedef]
-id: has_anatomical_participant
-name: has anatomical participant
-def: "p has anatomical participant c iff p has participant c, and c is an anatomical entity" []
-xref: RO:0040036
-is_a: has_participant ! has participant
-created_by: cjm
-creation_date: 2018-09-26T01:08:58Z
+id: has_characteristic
+name: has characteristic
+def: "Inverse of characteristic_of" []
+xref: RO:0000053
+property_value: IAO:0000111 "bearer of" xsd:string
+property_value: IAO:0000112 "this apple is bearer of this red color" xsd:string
+property_value: IAO:0000112 "this vase is bearer of this fragility" xsd:string
+property_value: IAO:0000116 "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist." xsd:string
+property_value: IAO:0000118 "bearer_of" xsd:string
+property_value: IAO:0000118 "is bearer of" xsd:string
+property_value: RO:0001900 RO:0001901
+range: BFO:0000020
+is_inverse_functional: true
 
 [Typedef]
 id: has_component
@@ -932,6 +1095,16 @@ property_value: usage "Identifies an entity directly affected (transported, modi
 is_obsolete: true
 
 [Typedef]
+id: has_disposition
+name: has disposition
+def: "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence" []
+xref: RO:0000091
+domain: BFO:0000004
+range: BFO:0000016
+is_a: has_characteristic ! has characteristic
+inverse_of: disposition_of ! disposition of
+
+[Typedef]
 id: has_downstream_target
 name: obsolete has_downstream_target
 namespace: go/extensions/gorel
@@ -948,7 +1121,6 @@ comment: This relation is designed for constructing compound molecular functions
 xref: RO:0002025
 is_functional: true
 is_a: has_component_activity ! has component activity
-is_a: regulates ! regulates
 created_by: dos
 creation_date: 2017-09-22T14:14:36Z
 
@@ -963,7 +1135,7 @@ subset: ro-eco
 subset: valid_for_annotation_extension
 xref: RO:0002232
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "ends with process that occurs in" xsd:string
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1" xsd:string
@@ -974,6 +1146,18 @@ is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: has_part_that_occurs_in ! has part that occurs in
 
 [Typedef]
+id: has_function
+name: has function
+def: "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence" []
+xref: RO:0000085
+property_value: IAO:0000112 "this enzyme has function this catalysis function (more colloquially: this enzyme has this catalysis function)" xsd:string
+property_value: IAO:0000116 "A bearer can have many functions, and its functions can exist for different periods of time, but none of its functions can exist when the bearer does not exist. A function need not be realized at all the times that the function exists." xsd:string
+property_value: IAO:0000118 "has_function" xsd:string
+domain: BFO:0000004
+range: BFO:0000034
+is_a: has_characteristic ! has characteristic
+
+[Typedef]
 id: has_gene_product
 name: has gene product
 def: "x has gene product y if and only if x is a gene (SO:0000704) that participates in some gene expression process (GO:0010467) where the output of that process is either y or something that is ribosomally translated from y" []
@@ -981,7 +1165,7 @@ xref: RO:0002205
 property_value: IAO:0000112 "every HOTAIR lncRNA is the gene product of some HOXC gene" xsd:string
 property_value: IAO:0000112 "every sonic hedgehog protein (PR:000014841) is the gene product of some sonic hedgehog gene" xsd:string
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 domain: BFO:0000002
 range: BFO:0000004
 is_a: genomically_related_to ! genomically related to
@@ -989,10 +1173,11 @@ is_a: genomically_related_to ! genomically related to
 [Typedef]
 id: has_host
 name: has host
+def: "X 'has host' y if and only if: x is an organism, y is an organism, and x can live on the surface of or within the body of y" []
 subset: ro-eco
 subset: taxon_extension
 xref: RO:0002454
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: seeAlso http://eol.org/schema/terms/hasHost xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: symbiotically_interacts_with ! symbiotically interacts with
@@ -1020,6 +1205,7 @@ name: has input
 namespace: go/extensions/gorel
 alt_id: GOREL:0000016
 alt_id: GOREL:0000503
+alt_id: GOREL:0000753
 alt_id: has_target
 alt_id: localizes
 def: "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
@@ -1027,6 +1213,9 @@ comment: Previous definition "p has_input c if and only c participates_in p at t
 subset: AE_chemical
 subset: AE_sequence_or_complex
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: ro-eco
 subset: valid_for_annotation_extension
 synonym: "has_target" EXACT [GOC:ecd]
@@ -1034,26 +1223,15 @@ synonym: "localizes" NARROW [GOC:ecd]
 xref: GOREL:0000753
 xref: RO:0002233
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "consumes" xsd:string
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697 SO:0000839 NCBITaxon:1" xsd:string
+property_value: local_range "CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697 SO:0000839 SO:0001683 NCBITaxon:1" xsd:string
 property_value: usage "Use this relation to relate a biological process or molecular function to an entity that participates in the process/function, is present at the start of the process/function and whose state is affected by that process/function.  Change of state includes being transported, modified, consumed or destroyed.  An input may be any continuant: chemical; gene product; cell component;  cells type; organism.  For inputs to MFs that are bound by the gene product that executes the MF, the more specific relation 'has_direct_input' may be used." xsd:string
 domain: BFO:0000015
-range: BFO:0000040
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: has_participant ! has participant
 inverse_of: input_of ! input of
-
-[Typedef]
-id: has_ligand
-name: has ligand
-def: "A relationship that holds between between a receptor and an chemical entity, typically a small molecule or peptide, that carries information between cells or compartments of a cell and which binds the receptor and regulates its effector function." []
-xref: RO:0002019
-domain: GO:0004872
-is_a: has_input ! has input
-created_by: dos
-creation_date: 2017-07-19T17:30:36Z
 
 [Typedef]
 id: has_negative_regulatory_component_activity
@@ -1070,16 +1248,19 @@ creation_date: 2017-05-24T09:31:01Z
 id: has_output
 name: has output
 namespace: go/extensions/gorel
-def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p." []
+def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p." []
 comment: Previous definition "p has_output c if c participates_in p at  the end of p and c is in some way changed by p or created by p." []
 subset: AE_chemical
 subset: AE_sequence_or_complex
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: ro-eco
 subset: valid_for_annotation_extension
 xref: RO:0002234
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "produces" xsd:string
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697" xsd:string
@@ -1115,6 +1296,9 @@ id: has_part
 name: has part
 namespace: go/extensions/gorel
 def: "a core relation that holds between a whole and its part" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 synonym: "has part" EXACT RO:0008000 [PomBase:curators]
 xref: BFO:0000051
 property_value: IAO:0000111 "has part" xsd:string
@@ -1122,7 +1306,7 @@ property_value: IAO:0000112 "my body has part my brain (continuant parthood, two
 property_value: IAO:0000112 "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)" xsd:string
 property_value: IAO:0000112 "this year has part this day (occurrent parthood)" xsd:string
 property_value: IAO:0000116 "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part." xsd:string
-property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime" xsd:string
+property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
 property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'." xsd:string
 property_value: IAO:0000118 "has_part" xsd:string
 property_value: RO:0001900 RO:0001901
@@ -1135,7 +1319,7 @@ name: has part structure that is capable of
 def: "s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p" []
 xref: RO:0002584
 property_value: IAO:0000112 "gland SubClassOf 'has part structure that is capable of' some 'secretion by cell'" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 holds_over_chain: has_part capable_of
 is_a: causal_relation_between_material_entity_and_a_process ! causal relation between material entity and a process
 is_a: functionally_related_to ! functionally related to
@@ -1146,7 +1330,7 @@ name: has part that occurs in
 def: "p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c." []
 subset: ro-eco
 xref: RO:0002479
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 domain: BFO:0000003
 range: BFO:0000004
 holds_over_chain: has_part occurs_in {http://purl.obolibrary.org/obo/RO_0002581="true"}
@@ -1181,7 +1365,7 @@ name: has pathogen
 subset: ro-eco
 subset: taxon_extension
 xref: RO:0002557
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: host_of ! host of
 
@@ -1195,6 +1379,17 @@ is_a: has_regulatory_component_activity ! has regulatory component activity
 is_a: positively_regulated_by ! positively regulated by
 created_by: dos
 creation_date: 2017-05-24T09:31:17Z
+
+[Typedef]
+id: has_quality
+name: has quality
+def: "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence" []
+xref: RO:0000086
+property_value: IAO:0000112 "this apple has quality this red color" xsd:string
+property_value: IAO:0000116 "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist." xsd:string
+property_value: IAO:0000118 "has_quality" xsd:string
+range: BFO:0000019
+is_a: has_characteristic ! has characteristic
 
 [Typedef]
 id: has_regulation_target
@@ -1212,7 +1407,6 @@ domain: BFO:0000015
 range: BFO:0000002
 holds_over_chain: regulates has_participant
 is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: regulates_o_has_participant ! regulates_o_has_participant
 
 [Typedef]
 id: has_regulatory_component_activity
@@ -1223,6 +1417,18 @@ is_a: has_component_activity ! has component activity
 is_a: regulated_by ! regulated by
 created_by: dos
 creation_date: 2017-05-24T09:30:46Z
+
+[Typedef]
+id: has_role
+name: has role
+def: "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence" []
+xref: RO:0000087
+property_value: IAO:0000112 "this person has role this investigator role (more colloquially: this person has this role of investigator)" xsd:string
+property_value: IAO:0000116 "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists." xsd:string
+property_value: IAO:0000118 "has_role" xsd:string
+domain: BFO:0000004
+range: BFO:0000023
+is_a: has_characteristic ! has characteristic
 
 [Typedef]
 id: has_start_location
@@ -1236,7 +1442,7 @@ subset: valid_for_annotation_extension
 xref: RO:0002231
 property_value: display_for_curators "" xsd:string
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "starts with process that occurs in" xsd:string
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1" xsd:string
@@ -1283,9 +1489,12 @@ def: "This relationship holds between p and l when p is a transport or localizat
 subset: AE_cell_or_anatomical
 subset: AE_cellular_component
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002339
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: local_range "GO:0005575 CL:0000000 UBERON:0001062" xsd:string
 property_value: usage "Use to relate a transport or localization process to the end location of the transported or localized cargo." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
@@ -1299,9 +1508,12 @@ def: "This relationship holds between p and l when p is a transport or localizat
 subset: AE_cell_or_anatomical
 subset: AE_cellular_component
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002338
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: local_range "GO:0005575 CL:0000000 UBERON:0001062" xsd:string
 property_value: usage "Use to relate a transport or localization process to the starting location of the cargo." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
@@ -1334,7 +1546,7 @@ is_obsolete: true
 id: helper_property_(not_for_use_in_curation)
 name: helper property (not for use in curation)
 xref: RO:0002464
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "This property or its subproperties is not to be used directly. These properties exist as helper properties that are used to support OWL reasoning." xsd:string
 
 [Typedef]
@@ -1343,7 +1555,7 @@ name: host of
 subset: ro-eco
 subset: taxon_extension
 xref: RO:0002453
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "The term host is usually used for the larger (macro) of the two members of a symbiosis (GO)" xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: symbiotically_interacts_with ! symbiotically interacts with
@@ -1354,10 +1566,10 @@ name: hyperparasite of
 def: "x is a hyperparasite of y iff x is a parasite of a parasite of the target organism y" []
 subset: ro-eco
 synonym: "epiparasite of" RELATED []
-synonym: "hyperparasitoid of" RELATED []
+synonym: "hyperparasitoid of" NARROW []
 xref: RO:0002553
 property_value: IAO:0000116 "Note that parasite-of is a diret relationship, so hyperparasite-of is not considered a sub-relation, even though hyperparasitism can be considered a form of parasitism" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://eol.org/schema/terms/hyperparasitoidOf xsd:string
 property_value: IAO:0000119 https://en.wikipedia.org/wiki/Hyperparasite xsd:string
 holds_over_chain: parasite_of parasite_of
@@ -1374,7 +1586,7 @@ synonym: "has epiparasite" RELATED []
 synonym: "has hyperparasite" RELATED []
 synonym: "hyperparasitoidized by" RELATED []
 xref: RO:0002554
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 holds_over_chain: parasitized_by parasitized_by
 is_a: host_of ! host of
 
@@ -1383,7 +1595,7 @@ id: immediately_causally_downstream_of
 name: immediately causally downstream of
 xref: RO:0002405
 property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: causally_downstream_of ! causally downstream of
 is_a: immediately_preceded_by ! immediately preceded by
 inverse_of: immediately_causally_upstream_of ! immediately causally upstream of
@@ -1391,10 +1603,9 @@ inverse_of: immediately_causally_upstream_of ! immediately causally upstream of
 [Typedef]
 id: immediately_causally_upstream_of
 name: immediately causally upstream of
-def: "p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q." []
+def: "p is immediately causally upstream of q iff p is causally upstream of q, and the end of p is coincident with the beginning of q." []
 xref: RO:0002412
-property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: RO:0002575 RO:0002411
 is_a: causally_upstream_of ! causally upstream of
 is_a: immediately_precedes ! immediately precedes
@@ -1416,6 +1627,7 @@ comment: X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)
 subset: ro-eco
 xref: RO:0002090
 property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "ends_at_start_of" xsd:string
 property_value: IAO:0000118 "meets" xsd:string
 property_value: RO:0002575 BFO:0000063
@@ -1427,11 +1639,11 @@ name: imports
 namespace: go/extensions/gorel
 alt_id: GOREL:0000034
 def: "Holds between p and c when p is a transportation or localization process and the outcome of this process is to move c to a destination that is part of some s, where the start location of c is part of the region that surrounds s." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
 xref: RO:0002340
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: transports ! transports
-transitive_over: has_part ! has part
 
 [Typedef]
 id: in_absence_of
@@ -1480,32 +1692,54 @@ property_value: usage "Identifies an entity that was shown not to be required fo
 domain: BFO:0000001
 
 [Typedef]
-id: inheres_in
-name: inheres in
-def: "a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence" []
-xref: RO:0000052
-property_value: IAO:0000111 "inheres in" xsd:string
-property_value: IAO:0000112 "this fragility inheres in this vase" xsd:string
-property_value: IAO:0000112 "this red color inheres in this apple" xsd:string
-property_value: IAO:0000116 "A dependent inheres in its bearer at all times for which the dependent exists." xsd:string
-property_value: IAO:0000118 "inheres_in" xsd:string
-property_value: RO:0001900 RO:0001901
-is_a: inheres_in_part_of ! inheres in part of
-inverse_of: bearer_of ! bearer of
+id: indirectly_causally_upstream_of
+name: indirectly causally upstream of
+def: "p is indirectly causally upstream of q iff p is causally upstream of q and there exists some process r such that p is causally upstream of r and r is causally upstream of q." []
+xref: RO:0012011
+is_a: causally_upstream_of ! causally upstream of
+created_by: pg
+creation_date: 2022-09-26T06:07:17Z
 
 [Typedef]
-id: inheres_in_part_of
-name: inheres in part of
-def: "q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w." []
-xref: RO:0002314
-property_value: IAO:0000116 "Because part_of is transitive, inheres in is a sub-relation of inheres in part of" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20064205
-property_value: RO:0001900 RO:0001901
-property_value: seeAlso "defining-property-chains-involving-reflexivity"
-holds_over_chain: inheres_in part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
-is_a: depends_on ! depends on
-transitive_over: part_of ! part of
+id: indirectly_negatively_regulates
+name: indirectly negatively regulates
+def: "p indirectly negatively regulates q iff p is indirectly causally upstream of q and p negatively regulates q." []
+xref: RO:0002409
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "indirectly inhibits" xsd:string
+property_value: RO:0002579 RO:0002212
+holds_over_chain: directly_negatively_regulates directly_negatively_regulates
+holds_over_chain: directly_negatively_regulates indirectly_negatively_regulates
+is_transitive: true
+is_a: indirectly_regulates ! indirectly regulates
+is_a: negatively_regulates ! negatively regulates
+transitive_over: directly_negatively_regulates ! directly negatively regulates
+
+[Typedef]
+id: indirectly_positively_regulates
+name: indirectly positively regulates
+def: "p indirectly positively regulates q iff p is indirectly causally upstream of q and p positively regulates q." []
+xref: RO:0002407
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "indirectly activates" xsd:string
+property_value: RO:0002579 RO:0002213
+holds_over_chain: directly_positively_regulates directly_positively_regulates
+holds_over_chain: directly_positively_regulates indirectly_positively_regulates
+holds_over_chain: indirectly_negatively_regulates indirectly_negatively_regulates
+is_transitive: true
+is_a: indirectly_regulates ! indirectly regulates
+is_a: positively_regulates ! positively regulates
+transitive_over: directly_positively_regulates ! directly positively regulates
+
+[Typedef]
+id: indirectly_regulates
+name: indirectly regulates
+def: "p indirectly regulates q iff p is indirectly causally upstream of q and p regulates q." []
+xref: RO:0012012
+is_a: indirectly_causally_upstream_of ! indirectly causally upstream of
+is_a: regulates ! regulates
+created_by: pg
+creation_date: 2022-09-26T06:08:01Z
 
 [Typedef]
 id: inhibited_by
@@ -1548,7 +1782,7 @@ def: "inverse of has input" []
 subset: ro-eco
 subset: RO:0002259
 xref: RO:0002352
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: functionally_related_to ! functionally related to
 is_a: participates_in ! participates in
 
@@ -1556,9 +1790,9 @@ is_a: participates_in ! participates in
 id: interaction_relation_helper_property
 name: interaction relation helper property
 xref: RO:0002563
-property_value: http://xmlns.com/foaf/0.1/page https://github.com/oborel/obo-relations/wiki/InteractionRelations xsd:anyURI
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:N-Ary_Relation_Pattern_%28OWL_2%29
+property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/interaction-relations/ xsd:anyURI
 is_a: helper_property_(not_for_use_in_curation) ! helper property (not for use in curation)
 
 [Typedef]
@@ -1568,12 +1802,12 @@ def: "A relationship that holds between two entities in which the processes exec
 subset: ro-eco
 synonym: "in pairwise interaction with" EXACT []
 xref: RO:0002434
-property_value: http://xmlns.com/foaf/0.1/page https://github.com/oborel/obo-relations/wiki/InteractionRelations xsd:anyURI
+property_value: closeMatch http://purl.obolibrary.org/obo/MI_0914 xsd:anyURI
 property_value: IAO:0000116 "Considering relabeling as 'pairwise interacts with'" xsd:anyURI
 property_value: IAO:0000116 "This relation and all sub-relations can be applied to either (1) pairs of entities that are interacting at any moment of time (2) populations or species of entity whose members have the disposition to interact (3) classes whose members have the disposition to interact." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Note that this relationship type, and sub-relationship types may be redundant with process terms from other ontologies. For example, the symbiotic relationship hierarchy parallels GO. The relations are provided as a convenient shortcut. Consider using the more expressive processual form to capture your data. In the future, these relations will be linked to their cognate processes through rules." xsd:string
-property_value: seeAlso http://purl.obolibrary.org/obo/MI_0914 xsd:anyURI
+property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/interaction-relations/ xsd:anyURI
 domain: BFO:0000040
 range: BFO:0000040
 is_symmetric: true
@@ -1584,10 +1818,9 @@ name: interacts with via parasite-host interaction
 def: "An interaction relationship between two organisms living together in more or less intimate association in a relationship in which association is disadvantageous or destructive to one of the organisms (GO)." []
 subset: ro-eco
 xref: RO:0002443
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/19278549 xsd:anyURI
 property_value: IAO:0000232 "This relation groups a pair of inverse relations, parasite of and parasitized by" xsd:string
-property_value: RO:0002561 GO:0072519
 is_a: symbiotically_interacts_with ! symbiotically interacts with
 
 [Typedef]
@@ -1595,14 +1828,14 @@ id: involved_in
 name: involved in
 def: "c involved_in p if and only if c enables some process p', and p' is part of p" []
 xref: RO:0002331
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "actively involved in" xsd:string
 property_value: IAO:0000118 "enables part of" xsd:string
 property_value: seeAlso Involved:in
 holds_over_chain: enables part_of
-is_a: actively_participates_in ! actively participates in
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: involved_in_or_involved_in_regulation_of ! involved in or involved in regulation of
+is_a: participates_in ! participates in
 transitive_over: part_of ! part of
 
 [Typedef]
@@ -1610,7 +1843,7 @@ id: involved_in_negative_regulation_of
 name: involved in negative regulation of
 def: "c involved in regulation of p if c is involved in some p' and p' negatively regulates some p" []
 xref: RO:0002430
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: RO:0004050 RO:0002428
 holds_over_chain: enables negatively_regulates
 holds_over_chain: involved_in negatively_regulates
@@ -1622,7 +1855,7 @@ name: involved in or involved in regulation of
 def: "c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p" []
 xref: RO:0002431
 property_value: IAO:0000116 "OWL does not allow defining object properties via a Union" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "involved in or reguates" xsd:string
 is_a: acts_upstream_of_or_within ! acts upstream of or within
 is_a: causal_agent_in_process ! causal agent in process
@@ -1633,7 +1866,7 @@ id: involved_in_positive_regulation_of
 name: involved in positive regulation of
 def: "c involved in regulation of p if c is involved in some p' and p' positively regulates some p" []
 xref: RO:0002429
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: RO:0004049 RO:0002428
 holds_over_chain: enables positively_regulates
 holds_over_chain: involved_in positively_regulates
@@ -1644,7 +1877,7 @@ id: involved_in_regulation_of
 name: involved in regulation of
 def: "c involved in regulation of p if c is involved in some p' and p' regulates some p" []
 xref: RO:0002428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 holds_over_chain: enables regulates
 holds_over_chain: involved_in regulates
 is_a: acts_upstream_of ! acts upstream of
@@ -1657,7 +1890,7 @@ def: "c executes activity in d if and only if c enables p and p occurs_in d.  As
 synonym: "enables activity in" EXACT []
 xref: RO:0002432
 property_value: IAO:0000112 "A protein that enables activity in a cytosol." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "executes activity in" xsd:string
 holds_over_chain: enables occurs_in {http://purl.obolibrary.org/obo/RO_0002581="true"}
 is_a: functionally_related_to ! functionally related to
@@ -1667,7 +1900,7 @@ is_a: overlaps ! overlaps
 id: is_kinase_activity
 name: is kinase activity
 xref: RO:0002481
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: molecular_interaction_relation_helper_property ! molecular interaction relation helper property
 
 [Typedef]
@@ -1702,7 +1935,7 @@ id: mereotopologically_related_to
 name: mereotopologically related to
 def: "A mereological relationship or a topological relationship" []
 xref: RO:0002323
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships" xsd:string
 property_value: RO:0001900 RO:0001901
 
@@ -1723,7 +1956,7 @@ is_obsolete: true
 id: molecular_interaction_relation_helper_property
 name: molecular interaction relation helper property
 xref: RO:0002564
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: interaction_relation_helper_property ! interaction relation helper property
 
 [Typedef]
@@ -1731,11 +1964,11 @@ id: molecularly_interacts_with
 name: molecularly interacts with
 def: "An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other." []
 xref: RO:0002436
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: closeMatch http://purl.obolibrary.org/obo/MI_0915 xsd:anyURI
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "binds" xsd:string
 property_value: IAO:0000118 "molecularly binds with" xsd:string
 property_value: seeAlso ECO:0000353
-property_value: seeAlso http://purl.obolibrary.org/obo/MI_0915 xsd:anyURI
 is_symmetric: true
 is_a: interacts_with ! interacts with
 
@@ -1745,19 +1978,22 @@ name: negatively regulated by
 def: "inverse of negatively regulates" []
 subset: RO:0002259
 xref: RO:0002335
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: regulated_by ! regulated by
 
 [Typedef]
 id: negatively_regulates
 name: negatively regulates
-def: "Process(P1) negatively regulates process(P2) iff: P1 terminates P2, or P1 descreases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
+def: "p negatively regulates q iff p regulates q, and p decreases the rate or magnitude of execution of q." []
 subset: AE_biological_process
 subset: AE_molecular_function
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002212
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000589 "negatively regulates (process to process)" xsd:string
 property_value: local_domain BFO:0000015 xsd:string
@@ -1767,6 +2003,16 @@ is_a: causally_upstream_of,_negative_effect ! causally upstream of, negative eff
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: regulates ! regulates
 inverse_of: negatively_regulated_by ! negatively regulated by
+
+[Typedef]
+id: negatively_regulates_characteristic
+name: negatively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C." []
+xref: RO:0019002
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+holds_over_chain: negatively_regulates positively_regulates_characteristic
+holds_over_chain: positively_regulates negatively_regulates_characteristic
+is_a: regulates_characteristic ! regulates characteristic
 
 [Typedef]
 id: not_during
@@ -1874,20 +2120,12 @@ creation_date: 2019-11-21T18:00:03Z
 
 [Typedef]
 id: occurs_at
-name: occurs at
-namespace: go/extensions/gorel
+name: obsolete occurs at
 comment: Previous definition "P occurs_at C : the execution of P is located at C." [GOC:cjm, GOC:mah] This relation is not constrained with respect to whether C completely surrounds, or is adjacent to, the location where P is executed. Example: chromatin silencing at centromere unfolds_around centromere : Repression of transcription of centromeric DNA by the formation of heterochromatin.
-subset: AE_cellular_component
-subset: AE_sequence_feature
-subset: display_for_curators
-subset: valid_for_annotation_extension
 synonym: "at" RELATED RO:0008000 [PomBase:curators]
 xref: GOREL:0000501
-property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "GO:0005575 SO:0000110" xsd:string
 property_value: usage "Identifies the Cellular Component or sequence feature adjacent to or in the vicinity of which the Molecular Function or Biological Process is executed" xsd:string
-domain: BFO:0000015
-is_a: go_annotation_extension_relation ! go annotation extension relation
+is_obsolete: true
 
 [Typedef]
 id: occurs_in
@@ -1899,6 +2137,9 @@ comment: Previous definition "p occurs_in c if and only if all of the participan
 subset: AE_cell_or_anatomical
 subset: AE_cellular_component
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 synonym: "in" RELATED RO:0008000 [PomBase:curators]
 xref: BFO:0000066
@@ -1924,7 +2165,7 @@ def: "inverse of has output" []
 subset: ro-eco
 subset: RO:0002259
 xref: RO:0002353
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: functionally_related_to ! functionally related to
 is_a: participates_in ! participates in
 
@@ -1932,6 +2173,8 @@ is_a: participates_in ! participates in
 id: overlaps
 name: overlaps
 def: "x overlaps y if and only if there exists some z such that x has part z and z part of y" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: ro-eco
 xref: RO:0002131
 property_value: IAO:0000114 IAO:0000125
@@ -1939,6 +2182,7 @@ property_value: RO:0001900 RO:0001901
 holds_over_chain: has_part overlaps
 holds_over_chain: has_part part_of {http://purl.obolibrary.org/obo/RO_0002582="true"}
 holds_over_chain: part_of part_of
+is_symmetric: true
 is_a: mereotopologically_related_to ! mereotopologically related to
 transitive_over: part_of ! part of
 expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)" []
@@ -1951,9 +2195,8 @@ subset: taxon_extension
 synonym: "direct parasite of" EXACT []
 xref: RO:0002444
 property_value: IAO:0000112 "Pediculus humanus capitis parasite of human" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "parasitizes" xsd:string
-property_value: RO:0002560 GO:0072519
 property_value: seeAlso http://eol.org/schema/terms/parasitizes xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: has_host ! has host
@@ -1966,7 +2209,7 @@ name: parasitized by
 subset: ro-eco
 synonym: "directly parasitized by" EXACT []
 xref: RO:0002445
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "has parasite" xsd:string
 property_value: IAO:0000118 "parasitised by" xsd:string
 property_value: seeAlso http://eol.org/schema/terms/hasParasite xsd:string
@@ -1983,6 +2226,10 @@ subset: AE_cell_or_anatomical
 subset: AE_cellular_component
 subset: AE_developmental_stages
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 synonym: "part of" EXACT RO:0008000 [PomBase:curators]
 xref: BFO:0000050
@@ -1991,7 +2238,7 @@ property_value: IAO:0000112 "my brain is part of my body (continuant parthood, t
 property_value: IAO:0000112 "my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)" xsd:string
 property_value: IAO:0000112 "this day is part of this year (occurrent parthood)" xsd:string
 property_value: IAO:0000116 "Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other." xsd:string
-property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime" xsd:string
+property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
 property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)\n\nA continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'." xsd:string
 property_value: IAO:0000118 "part_of" xsd:string
 property_value: local_domain BFO:0000001 xsd:string
@@ -2018,7 +2265,7 @@ id: part_of_structure_that_is_capable_of
 name: part of structure that is capable of
 def: "this relation holds between c and p when c is part of some c', and c' is capable of p." []
 xref: RO:0002329
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "false" xsd:boolean
 holds_over_chain: part_of capable_of {http://purl.obolibrary.org/obo/RO_0002581="true"}
 is_a: functionally_related_to ! functionally related to
@@ -2042,7 +2289,7 @@ id: participates_in_a_biotic-biotic_interaction_with
 name: participates in a biotic-biotic interaction with
 subset: ro-eco
 xref: RO:0002574
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: seeAlso http://dx.doi.org/10.1016/j.ecoinf.2014.08.005
 domain: CARO:0001010
 range: CARO:0001010
@@ -2054,7 +2301,7 @@ name: pathogen of
 subset: ro-eco
 subset: taxon_extension
 xref: RO:0002556
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: has_host ! has host
 inverse_of: has_pathogen ! has pathogen
@@ -2064,7 +2311,7 @@ id: phosphorylates
 name: phosphorylates
 xref: RO:0002447
 property_value: IAO:0000116 "Axiomatization to GO to be added later" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "An interaction relation between x and y in which x catalyzes a reaction in which a phosphate group is added to y." xsd:string
 is_a: molecularly_interacts_with ! molecularly interacts with
 
@@ -2074,19 +2321,22 @@ name: positively regulated by
 def: "inverse of positively regulates" []
 subset: RO:0002259
 xref: RO:0002336
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: regulated_by ! regulated by
 
 [Typedef]
 id: positively_regulates
 name: positively regulates
-def: "Process(P1) postively regulates process(P2) iff: P1 initiates P2, or P1 increases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
+def: "p positively regulates q iff p regulates q, and p increases the rate or magnitude of execution of q." []
 subset: AE_biological_process
 subset: AE_molecular_function
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002213
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000589 "positively regulates (process to process)" xsd:string
 property_value: local_domain BFO:0000015 xsd:string
@@ -2098,6 +2348,15 @@ is_a: causally_upstream_of,_positive_effect ! causally upstream of, positive eff
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: regulates ! regulates
 inverse_of: positively_regulated_by ! positively regulated by
+
+[Typedef]
+id: positively_regulates_characteristic
+name: positively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C." []
+xref: RO:0019001
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+holds_over_chain: positively_regulates positively_regulates_characteristic
+is_a: regulates_characteristic ! regulates characteristic
 
 [Typedef]
 id: preceded_by
@@ -2151,7 +2410,7 @@ subset: ro-eco
 subset: valid_for_annotation_extension
 xref: RO:0003001
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Melissa Haendel" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-9114-8737
 property_value: local_domain GO:0005575 xsd:string
 property_value: local_range CL:0000000 xsd:string
 property_value: usage "Use this relation to link a cell component that is the product of a cell, to the cell-type that produced it. Examples include recording the cell type that produces an exosome, an LDL, or a secreted ECM component." xsd:string
@@ -2166,7 +2425,7 @@ comment: Note that this definition doesn't quite distinguish the output of a tra
 subset: ro-eco
 xref: RO:0003000
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Melissa Haendel" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-9114-8737
 domain: BFO:0000040
 range: BFO:0000040
 inverse_of: produced_by ! produced by
@@ -2185,12 +2444,25 @@ domain: GO:0010952
 is_obsolete: true
 
 [Typedef]
+id: quality_of
+name: quality of
+def: "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence" []
+comment: This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.
+xref: RO:0000080
+property_value: IAO:0000112 "this red color is a quality of this apple" xsd:string
+property_value: IAO:0000116 "A quality inheres in its bearer at all times for which the quality exists." xsd:string
+property_value: IAO:0000118 "is quality of" xsd:string
+property_value: IAO:0000118 "quality_of" xsd:string
+is_a: characteristic_of ! characteristic of
+inverse_of: has_quality ! has quality
+
+[Typedef]
 id: regulated_by
 name: regulated by
 def: "inverse of regulates" []
 subset: RO:0002259
 xref: RO:0002334
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000589 "regulated by (processual)" xsd:string
 domain: BFO:0000015
 range: BFO:0000015
@@ -2200,17 +2472,18 @@ is_a: causally_downstream_of_or_within ! causally downstream of or within
 [Typedef]
 id: regulates
 name: regulates
-def: "process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2." []
+def: "p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q." []
 subset: AE_biological_process
 subset: AE_molecular_function
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002211
-property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000116 "We use 'regulates' here to specifically imply control. However, many colloquial usages of the term correctly correspond to the weaker relation of 'causally upstream of or within' (aka influences). Consider relabeling to make things more explicit" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 "David Hill" xsd:string
-property_value: IAO:0000117 "Tanya Berardini" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-7476-6306
+property_value: IAO:0000117 https://orcid.org/0000-0002-3837-8864
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 "GO" xsd:string
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000232 "Regulation precludes parthood; the regulatory process may not be within the regulated process." xsd:string
@@ -2225,33 +2498,47 @@ is_transitive: true
 is_a: causally_upstream_of ! causally upstream of
 is_a: go_annotation_extension_relation ! go annotation extension relation
 inverse_of: regulated_by ! regulated by
+transitive_over: has_effector_activity ! has effector activity
 
 [Typedef]
 id: regulates_activity_of
 name: obsolete regulates activity of
+name: regulates activity of
 def: "OBSOLETE. A relation that holds between the regulation of a molecular function and the agent that executes that function." []
+def: "The entity A has an activity that regulates an activity of the entity B. For example, A and B are gene products where the catalytic activity of A regulates the kinase activity of B." []
 comment: This relation has been obsoleted as it is not part of the GO ShEx specifications.
 xref: GOREL:0098702
+xref: RO:0011002
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
 property_value: local_domain "GO:0098772 GO:0065009" xsd:string
 property_value: local_range "GO:0032991 SO:0000374 PR:000000001" xsd:string
 property_value: usage "Use this relation to link either a molecular function, or a biological process that regulates a molecular function, to the gene product or complex that executes the regulated function." xsd:string
+domain: BFO:0000040
+range: BFO:0000040
+is_a: causally_influences ! causally influences
 is_obsolete: true
 
 [Typedef]
+id: regulates_characteristic
+name: regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
+xref: RO:0019000
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+domain: BFO:0000015
+range: PATO:0000001
+holds_over_chain: regulates regulates_characteristic
+is_a: causally_related_to ! causally related to
+
+[Typedef]
 id: regulates_expression_of
-name: regulates expression of
-def: "A relationship that holds between a process and a gene whose expression is regulated by that process." []
-subset: AE_sequence_or_complex
-subset: display_for_curators
-subset: valid_for_annotation_extension
+name: obsolete regulates expression of
+def: "OBSOLETE. A relationship that holds between a process and a gene whose expression is regulated by that process." []
+comment: Usage of this relation has been deprecated in favor of 'has direct input'.
 xref: GOREL:0098789
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "PR:000000001 SO:0000673 SO:0000704" xsd:string
 property_value: usage "Relates a regulatory process or function to the gene whose expression it regulates.  Expression encompasses transcription, regulation and processing involved in maturation." xsd:string {xref="GOC:dos"}
-domain: BFO:0000015
-range: SO:0000704
-is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: regulates_o_has_input ! regulates_o_has_input
+is_obsolete: true
 
 [Typedef]
 id: regulates_level_of
@@ -2261,7 +2548,7 @@ alt_id: GOREL:0000036
 def: "p regulates levels of c if p regulates some amount (PATO:0000070) of c" []
 xref: RO:0002332
 property_value: IAO:0000112 "every cellular sphingolipid homeostasis process regulates_level_of some sphingolipid" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000589 "regulates levels of (process to entity)" xsd:string
 domain: BFO:0000015
@@ -2271,71 +2558,47 @@ is_a: go_annotation_extension_relation ! go annotation extension relation
 
 [Typedef]
 id: regulates_o_acts_on_population_of
-name: regulates process that acts on population of
+name: obsolete regulates process that acts on population of
 namespace: go/extensions/gorel
 def: "A relation that applies between a regulatory process and a population of entities that a process it regulates acts on." [GOC:mtg_berkeley_2013]
 synonym: "regulates_o_acts_on_population_of" EXACT []
 xref: GOREL:0001008
 property_value: IAO:0000112 "'positive regulation of cell proliferation' and 'regulates process that acts on population of' some 'stem cell'" xsd:string
-property_value: local_domain BFO:0000007 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 WBbt:0004017" xsd:string
 property_value: usage "This is the combination of the regulates relation with the acts_on_population_of relation." xsd:string
-domain: BFO:0000015
-is_a: has_regulation_target ! has_regulation_target
-equivalent_to_chain: regulates acts_on_population_of ! acts_on_population_of
+equivalent_to_chain: regulates acts_on_population_of ! obsolete acts_on_population_of
+is_obsolete: true
 
 [Typedef]
 id: regulates_o_has_agent
 name: regulates_o_has_agent
-namespace: go/extensions/gorel
 def: "A relationship between the regulation of a process and the agent that executes that process." [GOC:dos]
-subset: display_for_curators
-subset: valid_for_annotation_extension
 synonym: "regulates_o_has_agent" EXACT []
 xref: GOREL:0001011
-property_value: local_domain "GO:0098772 GO:0065009" xsd:string
-property_value: local_range "PO:0025131 GO:0032991 SO:0000374 UBERON:0000465 SO:0000374 PR:000000001" xsd:string
-domain: BFO:0000015
 range: BFO:0000004
-is_a: has_regulation_target ! has_regulation_target
 equivalent_to_chain: regulates has_agent ! obsolete has active participant
 
 [Typedef]
 id: regulates_o_has_input
 name: regulates_o_has_input
-namespace: go/extensions/gorel
 def: "This is the combination of the regulates relation with the has_input relation" [GOC:dph]
-subset: display_for_curators
-subset: valid_for_annotation_extension
 xref: GOREL:0001030
 property_value: usage "This is the combination of the regulates relation with the has_input relation" xsd:string
-domain: BFO:0000015
-is_a: has_regulation_target ! has_regulation_target
 equivalent_to_chain: regulates has_input ! has input
 
 [Typedef]
 id: regulates_o_has_output
 name: regulates_o_has_output
-namespace: go/extensions/gorel
 def: "This is the combination of the regulates relation with the has_output relation" [GOC:cjm, GOC:dph, GOC:mtg_berkeley_2012_08_27]
 xref: GOREL:0001003
 property_value: usage "This is the combination of the regulates relation with the has_output relation" xsd:string
-domain: BFO:0000015
-is_a: has_regulation_target ! has_regulation_target
 equivalent_to_chain: regulates has_output ! has output
 
 [Typedef]
 id: regulates_o_has_participant
 name: regulates_o_has_participant
-namespace: go/extensions/gorel
 def: "This is the combination of the regulates relation with the has_participant relation." [GOC:mtg_berkeley_2013]
-subset: display_for_curators
-subset: valid_for_annotation_extension
 xref: GOREL:0001016
-property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 GO:0008150 PO:0009012 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
 property_value: usage "Use this relationship to link a regulatory process or function to an entity that participates in the regulated process." xsd:string
-is_a: go_annotation_extension_relation ! go annotation extension relation
 
 [Typedef]
 id: regulates_o_occurs_in
@@ -2372,26 +2635,16 @@ property_value: usage "Use this relation to relate a process that regulates the 
 domain: BFO:0000015
 range: CL:0000000
 is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: regulates_o_has_participant ! regulates_o_has_participant
 equivalent_to_chain: regulates results_in_acquisition_of_features_of ! results in acquisition of features of
 
 [Typedef]
 id: regulates_o_results_in_commitment_to
 name: regulates commitment to
-namespace: go/extensions/gorel
 def: "A relation that applies between a process that regulates cell fate commitment and the cell type that the regulated process results in commitment to." [GOC:mtg_berkeley_2013]
-subset: AE_cell_or_anatomical
-subset: display_for_curators
-subset: valid_for_annotation_extension
 synonym: "regulates_o_results_in_commitment_to" EXACT []
 xref: GOREL:0001022
-property_value: local_domain GO:0008150 xsd:string
-property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
 property_value: usage "This is the combination of the regulates relation with the results_in_commitment_to relation." xsd:string
-domain: GO:0010453
 range: CL:0000000
-is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: regulates_o_has_participant ! regulates_o_has_participant
 equivalent_to_chain: regulates results_in_commitment_to ! results in commitment to
 
 [Typedef]
@@ -2409,70 +2662,41 @@ property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBb
 property_value: usage "Use this relation to relate 'regulation of developmental process' or one of its subclasses to the structure that the regulated developmental process results in the development of." xsd:string
 domain: GO:0050793
 is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: regulates_o_has_participant ! regulates_o_has_participant
 equivalent_to_chain: regulates results_in_development_of ! results in development of
 
 [Typedef]
 id: regulates_o_results_in_division_of
 name: regulates division of
-namespace: go/extensions/gorel
 def: "This is the combination of the regulates relation with the results_in_division_of relation." [GOC:mtg_berkeley_2013]
-subset: display_for_curators
-subset: valid_for_annotation_extension
 xref: GOREL:0001024
-property_value: local_domain GO:0008150 xsd:string
-property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
 property_value: usage "This is the combination of the regulates relation with the results_in_division_of relation." xsd:string
-domain: BFO:0000015
-is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: regulates_o_has_participant ! regulates_o_has_participant
 equivalent_to_chain: regulates results_in_division_of ! results_in_division_of
 
 [Typedef]
 id: regulates_o_results_in_formation_of
 name: regulates formation of
-namespace: go/extensions/gorel
 def: "This is the combination of the regulates relation with the results_in_formation_of relation." [GOC:mtg_berkeley_2013]
-subset: display_for_curators
-subset: valid_for_annotation_extension
 xref: GOREL:0001025
-property_value: local_domain GO:0008150 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
 property_value: usage "This is the combination of the regulates relation with the results_in_formation_of relation." xsd:string
-domain: BFO:0000015
-is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: regulates_o_has_participant ! regulates_o_has_participant
 equivalent_to_chain: regulates results_in_formation_of ! results in formation of
 
 [Typedef]
 id: regulates_o_results_in_maturation_of
 name: regulates maturation of
-namespace: go/extensions/gorel
 def: "This is the combination of the regulates relation with the results_in_maturation_of relation." [GOC:mtg_berkeley_2013]
-subset: display_for_curators
-subset: valid_for_annotation_extension
 xref: GOREL:0001012
-property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0009012 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
 property_value: usage "This is the combination of the regulates relation with the results_in_maturation_of relation." xsd:string
 domain: BFO:0000015
 is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: regulates_o_has_participant ! regulates_o_has_participant
 equivalent_to_chain: regulates results_in_maturation_of ! results in maturation of
 
 [Typedef]
 id: regulates_o_results_in_morphogenesis_of
 name: regulates morphogenesis of
-namespace: go/extensions/gorel
 def: "This is the combination of the regulates relation with the results_in_morphogenesis_of relation." [GOC:mtg_berkeley_2013]
-subset: display_for_curators
-subset: valid_for_annotation_extension
 xref: GOREL:0001026
-property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
 property_value: usage "This is the combination of the regulates relation with the results_in_morphogenesis_of relation." xsd:string
 domain: GO:0050789
-is_a: has_regulation_target ! has_regulation_target
 equivalent_to_chain: regulates results_in_morphogenesis_of ! results in morphogenesis of
 
 [Typedef]
@@ -2491,7 +2715,6 @@ property_value: local_range "CL:0000000 GO:0005575 WBbt:0004017" xsd:string
 property_value: usage "Use this relation to relate a process that regulates locomotion to the cell or organism whose locomotion is being regulated." xsd:string
 domain: GO:0040012
 is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: regulates_o_has_participant ! regulates_o_has_participant
 equivalent_to_chain: regulates results_in_movement_of ! results in movement of
 
 [Typedef]
@@ -2509,41 +2732,38 @@ property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
 property_value: usage "Use this relation to link a process that regulates the specification of some cell type of anatomical structure, and the structure or cell type specified." xsd:string
 domain: GO:0050789
 is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: regulates_o_has_participant ! regulates_o_has_participant
 equivalent_to_chain: regulates results_in_specification_of ! results in specification of
 
 [Typedef]
+id: regulates_o_transports_or_maintains_localization_of
+name: regulates_o_transports_or_maintains_localization_of
+xref: GOREL:0000038
+range: BFO:0000002
+created_by: pg
+creation_date: 2020-08-28T07:03:28Z
+
+[Typedef]
 id: regulates_transcription_of
-name: regulates transcription of
-def: "A relationship that holds between a process and a gene whose transcription is regulated by that process." []
-subset: AE_sequence_or_complex
-subset: display_for_curators
-subset: valid_for_annotation_extension
+name: obsolete regulates transcription of
+def: "OBSOLETE. A relationship that holds between a process and a gene whose transcription is regulated by that process." []
+comment: Usage of this relation has been deprecated in favor of 'has direct input'.
 xref: GOREL:0098788
-property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "PR:000000001 SO:0000673 SO:0000704" xsd:string
 property_value: usage "Relates a regulatory process or function to the gene whose transcription it regulates." xsd:string {xref="GOC:dos"}
-domain: BFO:0000015
-range: SO:0000704
-is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: regulates_expression_of ! regulates expression of
+is_obsolete: true
 
 [Typedef]
 id: regulates_translation_of
-name: regulates translation of
-def: "A relationship that holds between a process and a protein coding gene whose translation is regulated by that process." []
+name: obsolete regulates translation of
+def: "OBSOLETE. A relationship that holds between a process and a protein coding gene whose translation is regulated by that process." []
 comment: Regulation of translation includes processes that regulate the levels of mature mRNA available for translation, as well as direct regulation of the rate of translation.
-subset: AE_sequence_or_complex
+comment: Usage of this relation has been deprecated in favor of 'has direct input'.
 subset: display_for_curators
 subset: valid_for_annotation_extension
 xref: GOREL:0098790
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "PR:000000001 SO:0000673 SO:0000704" xsd:string
 property_value: usage "Relates a regulatory process or function to the gene whose translation it regulates." xsd:string {xref="GOC:dos"}
-domain: BFO:0000015
-range: SO:0000704
-is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: regulates_expression_of ! regulates expression of
+is_obsolete: true
 
 [Typedef]
 id: regulates_transport_of
@@ -2554,22 +2774,31 @@ subset: display_for_curators
 subset: ro-eco
 subset: valid_for_annotation_extension
 xref: RO:0002011
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "CHEBI:24431 PR:000000001 GO:0005575 SO:0000673 CHEBI:33697" xsd:string
 property_value: usage "Use this relation to link a process that regulates transport to the the entity being transported." xsd:string
 holds_over_chain: regulates transports_or_maintains_localization_of
-is_a: regulates_o_has_input ! regulates_o_has_input
+is_a: go_annotation_extension_relation ! go annotation extension relation
 
 [Typedef]
 id: related_via_localization_to
 name: related via localization to
 def: "A relationship that holds via some process of localization" []
 xref: RO:0002337
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is a grouping relation." xsd:string
 domain: BFO:0000015
 range: BFO:0000002
+
+[Typedef]
+id: relation_between_physical_entity_and_a_process_or_stage
+name: relation between physical entity and a process or stage
+xref: RO:0002487
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, typically connecting an anatomical entity to a biological process or developmental stage." xsd:string
+domain: BFO:0000004
+range: BFO:0000003
 
 [Typedef]
 id: requires_direct_regulator
@@ -2682,19 +2911,31 @@ def: "The relationship that links a specified entity with the process that resul
 comment: Example of use: an annotation of gene X to cell differentiation with results_in_acquisition_of_features_of CL:0000057 (fibroblast) means that at the end of the process the input cell that did not have features of a fibroblast, now has the features of a fibroblast.
 subset: AE_cell_or_anatomical
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 synonym: "results in differentiation of" EXACT []
 xref: RO:0002315
 property_value: IAO:0000112 "an annotation of gene X to cell differentiation with results_in_maturation_of CL:0000057 (fibroblast) means that at the end of the process the input cell that did not have features of a fibroblast, now has the features of a fibroblast." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
 property_value: local_domain GO:0030154 xsd:string
 property_value: local_range "CL:0000000 PO:0009002 WBbt:0004017" xsd:string
 property_value: usage "Use this relation to link a cell differentiation process to the cell type that the process results in the differentiation of." xsd:string
 range: CARO:0000003
 is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
+
+[Typedef]
+id: results_in_changes_to_anatomical_or_cellular_structure
+name: results in changes to anatomical or cellular structure
+def: "p has anatomical participant c iff p has participant c, and c is an anatomical entity" []
+xref: RO:0040036
+is_a: has_participant ! has participant
+created_by: https://orcid.org/0000-0002-6601-2165
+creation_date: 2018-09-26T01:08:58Z
 
 [Typedef]
 id: results_in_commitment_to
@@ -2705,11 +2946,13 @@ def: "p 'results in commitment to' c if and only if p is a developmental process
 comment: Example of use: an annotation of gene X to cell commitment with results_in_commitment_to CL:0000540 (neuron) means that at the end of the process an unspecified cell has been specified and determined to develop into a neuron.
 subset: AE_cell_or_anatomical
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002348
 property_value: IAO:0000112 "an annotation of gene X to cell commitment with results_in_commitment_to CL:0000540 (neuron) means that at the end of the process an unspecified cell has been specified and determined to develop into a neuron." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000119 http://www.geneontology.org/GO.doc.development.shtml#fate xsd:anyURI
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
 property_value: usage "The relationship linking a cell and its participation in a process that results in the transition of a cell such that is can only develop into a single cell type." xsd:string
@@ -2726,10 +2969,12 @@ def: "p 'results in determination of' c if and only if p is a developmental proc
 comment: Example of use: an annotation of gene X to cell determination with results_in_determination_of CL:0000540 (neuron) means that at the end of the process an unspecified cell will develop into a neuron with no additional input.
 subset: AE_cell_or_anatomical
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002349
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000119 http://www.geneontology.org/GO.doc.development.shtml#fate xsd:anyURI
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
 property_value: usage "The relationship linking a cell and its participation in a process that results in the transition of a cell such that it can only develop into a single cell type independent of its environment." xsd:string
@@ -2747,30 +2992,33 @@ comment: Example of use: an annotation of gene X to cell development with result
 subset: AE_cell_or_anatomical
 subset: AE_cellular_component
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002296
 property_value: IAO:0000112 "every flower development (GO:0009908) results in development of some flower (PO:0009046)" xsd:string
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://www.geneontology.org/GO.doc.development.shtml xsd:anyURI
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
 property_value: usage "The relationship linking an entity and its participation in a process that changes it through time from the formation of the entity to the resultant mature state." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
 id: results_in_developmental_progression_of
 name: results in developmental progression of
-def: "p results in the developmental progression of s iff p is a developmental process and s is an anatomical structure and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss)." []
+def: "p results in the developmental progression of s iff p is a developmental process and s is an anatomical entity and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss)." []
 xref: RO:0002295
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000116 "This property and its subproperties are being used primarily for the definition of GO developmental processes. The property hierarchy mirrors the core GO hierarchy. In future we may be able to make do with a more minimal set of properties, but due to the way GO is currently structured we require highly specific relations to avoid incorrect entailments. To avoid this, the corresponding genus terms in GO should be declared mutually disjoint." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: seeAlso Ontology:extensions
 domain: GO:0008150
-range: CARO:0000003
+range: CARO:0000000
 is_a: developmentally_related_to ! developmentally related to
 
 [Typedef]
@@ -2800,12 +3048,15 @@ def: "The relationship linking a entity and its participation in a process where
 comment: Example of use: an annotation of gene X to anatomical structure formation with results_in_formation_of UBERON:0000007 (pituitary gland) means that at the beginning of the process a pituitary gland does not exist and at the end of the process a pituitary gland exists.
 subset: AE_cell_or_anatomical
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002297
 property_value: IAO:0000112 "an annotation of gene X to anatomical structure formation with results_in_formation_of UBERON:0000007 (pituitary gland) means that at the beginning of the process a pituitary gland does not exist and at the end of the process a pituitary gland exists." xsd:string
 property_value: IAO:0000112 "every \"endocardial cushion formation\" (GO:0003272) results_in_formation_of some \"endocardial cushion\" (UBERON:0002062)" xsd:string
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
 property_value: local_domain GO:0008150 xsd:string
 property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
@@ -2826,18 +3077,21 @@ comment: Example of use: an annotation of gene X to cell maturation with results
 subset: AE_cell_or_anatomical
 subset: AE_cellular_component
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002299
 property_value: IAO:0000112 " an annotation of gene X to cell maturation with results_in_maturation_of CL:0000057 (fibroblast) means that the fibroblast is mature at the end of the process" xsd:string
 property_value: IAO:0000112 "bone maturation (GO:0070977) results_in_maturation_of bone (UBERON:0001474)" xsd:string
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "CL:0000000 GO:0005575 PO:0009012 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
 property_value: usage "The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in it's shape and results in an end point state of that entity." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -2850,18 +3104,21 @@ comment: Example of use: an annotation of gene X to cell morphogenesis with resu
 subset: AE_cell_or_anatomical
 subset: AE_cellular_component
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002298
 property_value: IAO:0000112 "an annotation of gene X to cell morphogenesis with results_in_morphogenesis_of CL:0000540 (neuron) means that at the end of the process an input neuron has attained its shape." xsd:string
 property_value: IAO:0000112 "tongue morphogenesis (GO:0043587) results in morphogenesis of tongue (UBERON:0001723)" xsd:string
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
 property_value: usage "The relationship that links an entity with the process that results in the formation and shaping of that entity over time from an immature to a mature state." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 
 [Typedef]
@@ -2873,15 +3130,18 @@ def: "Holds between p and c when p is locomotion process and the outcome of this
 comment: For movement of chemicals or cell parts, please use transports_or_maintains_localization_of
 subset: AE_cell_or_anatomical
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002565
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "" xsd:string
 property_value: local_domain GO:0008150 xsd:string
 property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
 property_value: usage "Use this relation to link a locomotion process to the type of cell or anatomical structure or organism that the process results in locomotion of." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: has_anatomical_participant ! has anatomical participant
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 
 [Typedef]
 id: results_in_specification_of
@@ -2893,10 +3153,12 @@ comment: display_for_curators
 comment: Example of use: an annotation of gene X to cell determination with results_in_determination_of CL:0000540 (neuron) means that at the end of the process an unspecified cell will develop into a neuron if left in its environment. If the cell is moved, it may develop into a cell type other than a neuron.
 subset: AE_cell_or_anatomical
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002356
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000119 http://www.geneontology.org/GO.doc.development.shtml#fate xsd:anyURI
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: local_domain GO:0008150 xsd:string
 property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
 property_value: usage "The relationship linking a cell and its participation in a process that results in the transition of a cell such that is can only develop into a single cell type when left in its environment." xsd:string
@@ -2910,8 +3172,21 @@ id: results_in_transport_to_from_or_in
 name: results in transport to from or in
 xref: RO:0002344
 property_value: IAO:0000112 "'mitochondrial transport' results_in_transport_to_from_or_in some  mitochondrion (GO:0005739)" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: related_via_localization_to ! related via localization to
+
+[Typedef]
+id: role_of
+name: role of
+def: "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence" []
+comment: This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.
+xref: RO:0000081
+property_value: IAO:0000112 "this investigator role is a role of this person" xsd:string
+property_value: IAO:0000116 "A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists." xsd:string
+property_value: IAO:0000118 "is role of" xsd:string
+property_value: IAO:0000118 "role_of" xsd:string
+is_a: characteristic_of ! characteristic of
+inverse_of: has_role ! has role
 
 [Typedef]
 id: spatially_disjoint_from
@@ -2919,13 +3194,13 @@ name: spatially disjoint from
 def: "A is spatially_disjoint_from B if and only if they have no parts in common" []
 subset: ro-eco
 xref: RO:0002163
-property_value: http://xmlns.com/foaf/0.1/page https://github.com/obophenotype/uberon/wiki/Part-disjointness-Design-Pattern xsd:anyURI
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000116 "There are two ways to encode this as a shortcut relation. The other possibility to use an annotation assertion between two classes, and expand this to a disjointness axiom. " xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/22293552
 property_value: IAO:0000232 "Note that it would be possible to use the relation to label the relationship between a near infinite number of structures - between the rings of saturn and my left earlobe. The intent is that this is used for parsiomoniously for disambiguation purposes - for example, between siblings in a jointly exhaustive pairwise disjointness hierarchy" xsd:string
 property_value: RO:0001900 RO:0001901
+property_value: seeAlso https://github.com/obophenotype/uberon/wiki/Part-disjointness-Design-Pattern xsd:anyURI
 is_a: mereotopologically_related_to ! mereotopologically related to
 expand_expression_to: "BFO_0000051 exactly 0 (BFO_0000050 some ?Y)" []
 
@@ -2963,10 +3238,9 @@ name: symbiotically interacts with
 def: "A biotic interaction in which the two organisms live together in more or less intimate association." []
 subset: ro-eco
 xref: RO:0002440
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/19278549 xsd:anyURI
 property_value: IAO:0000232 "We follow GO and PAMGO in using 'symbiosis' as the broad term encompassing mutualism through parasitism" xsd:string
-property_value: RO:0002561 GO:0044403
 is_symmetric: true
 is_a: participates_in_a_biotic-biotic_interaction_with ! participates in a biotic-biotic interaction with
 
@@ -2978,7 +3252,7 @@ subset: ro-eco
 xref: RO:0002222
 property_value: http://purl.org/dc/terms/source https://docs.google.com/document/d/1kBv1ep_9g3sTR-SD3jqzFqhuwo9TPNF-l-9fUDbO6rM/edit?pli=1 xsd:anyURI
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 https://en.wikipedia.org/wiki/Allen%27s_interval_algebra
 property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for relations between occurrents involving the relative timing of their starts and ends." xsd:string
 domain: BFO:0000003
@@ -3014,16 +3288,18 @@ def: "Holds between p and c when p is a localization process (localization cover
 subset: AE_cellular_component
 subset: AE_chemical
 subset: display_for_curators
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 synonym: "regulates location of" RELATED []
 xref: RO:0002313
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "regulates localization of" xsd:string
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "CHEBI:24431 PR:000000001 GO:0005575 SO:0000673 CHEBI:33697" xsd:string
 property_value: usage "Use to relate a process or molecular function to a substance that is transported, localized or whose localization is maintained by that process or function.  The substance may be a chemical, gene product or cellular component.  For the movement via locomotion of cells and anatomical structure please use results_in_movement_of." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
-is_a: has_anatomical_participant ! has anatomical participant
 is_a: related_via_localization_to ! related via localization to
-transitive_over: has_part ! has part
+is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 

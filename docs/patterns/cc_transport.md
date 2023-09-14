@@ -1,10 +1,10 @@
-# cc transport
+# transport of a cellular component
 
 [http://purl.obolibrary.org/obo/go/patterns/cc_transport.yaml](http://purl.obolibrary.org/obo/go/patterns/cc_transport.yaml)
 
 ## Description
 
-TODO
+Transport of a cellular component, differentiated by the component being transported.
 
 
 
@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[transport](http://purl.obolibrary.org/obo/GO_0006810)  and ([transports or maintains localization of](http://purl.obolibrary.org/obo/RO_0002313) some `{cellular component}`)
+[transport](http://purl.obolibrary.org/obo/GO_0006810)  and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some `{cellular component}`)
 
 
 

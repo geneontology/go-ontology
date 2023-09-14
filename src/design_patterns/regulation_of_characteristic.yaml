@@ -1,0 +1,31 @@
+pattern_name: regulation of characteristic
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/regulation_of_characteristic.yaml
+
+description: >-
+   Regulation of a particular characteristic.
+
+classes:
+  biological regulation: "GO:0065007"
+  characteristic: "PATO:0000001"
+
+relations: 
+  regulates characteristic: "RO:0019000"
+
+vars:
+  characteristic: "'characteristic'"
+
+name:
+     text: "regulation of %s"
+     vars:
+       - characteristic
+
+def:
+  text: "Any process that qualitatively or quantitatively modulates %s."
+  vars:
+     - characteristic
+
+equivalentTo:
+  text: "'biological regulation' and 'regulates characteristic' some %s"
+  vars:
+    - characteristic

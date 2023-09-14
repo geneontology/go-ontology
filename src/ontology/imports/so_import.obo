@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2021-07-18/imports/so_import.owl
+data-version: go/releases/2023-02-28/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -63,6 +63,30 @@ synonym: "RNApol II promoter" EXACT []
 is_a: SO:0002221 ! eukaryotic_promoter
 
 [Term]
+id: SO:0000173
+name: GC_rich_promoter_region
+namespace: sequence
+def: "A conserved GC-rich region located upstream of the start point of eukaryotic transcription units which may occur in multiple copies or in either orientation; consensus=GGGCGG." [http://www.insdc.org/files/feature_table.html]
+synonym: "GC rich promoter region" EXACT []
+synonym: "GC-rich region" EXACT []
+synonym: "INSDC_feature:regulatory" BROAD []
+synonym: "INSDC_qualifier:GC_rich_promoter_region" EXACT []
+is_a: SO:0001659 ! promoter_element
+
+[Term]
+id: SO:0000185
+name: primary_transcript
+namespace: sequence
+def: "A transcript that in its initial state requires modification to be functional." [SO:ma]
+subset: SOFA
+synonym: "INSDC_feature:precursor_RNA" EXACT []
+synonym: "INSDC_feature:prim_transcript" EXACT []
+synonym: "precursor RNA" EXACT []
+synonym: "primary transcript" EXACT []
+xref: http://en.wikipedia.org/wiki/Primary_transcript "wiki"
+is_a: SO:0000673 ! transcript
+
+[Term]
 id: SO:0000188
 name: intron
 namespace: sequence
@@ -72,6 +96,23 @@ subset: SOFA
 synonym: "INSDC_feature:intron" EXACT []
 xref: http://en.wikipedia.org/wiki/Intron "wiki"
 is_a: SO:0000835 ! primary_transcript_region
+
+[Term]
+id: SO:0000231
+name: snRNA_primary_transcript
+namespace: sequence
+def: "A primary transcript encoding a small nuclear RNA (SO:0000274)." [SO:ke]
+synonym: "snRNA primary transcript" EXACT []
+is_a: SO:0000483 ! nc_primary_transcript
+
+[Term]
+id: SO:0000232
+name: snoRNA_primary_transcript
+namespace: sequence
+def: "A primary transcript encoding one or more small nucleolar RNAs (SO:0000275)." [SO:ke]
+comment: This definition was broadened 26 Jan 2021 to reflect that a single transcript can encode one or more snoRNAs. Brought to our attention by FlyBase. GitHub Issue #520 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/520).
+synonym: "snoRNA primary transcript" EXACT []
+is_a: SO:0000483 ! nc_primary_transcript
 
 [Term]
 id: SO:0000233
@@ -155,12 +196,12 @@ is_a: SO:0002247 ! sncRNA
 id: SO:0000275
 name: snoRNA
 namespace: sequence
-def: "A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA." [GOC:kgc]
+def: "Small nucleolar RNAs (snoRNAs) are short non-coding RNAs enriched in the nucleolus as components of small nucleolar ribonucleoproteins. They guide ribose methylation and pseudouridylation of rRNAs and snRNAs, and a subgroup regulate excision of rRNAs from rRNA precursor transcripts. snoRNAs may also guide rRNA acetylation and tRNA methylation, and regulate mRNA abundance and alternative splicing." [GOC:kgc, PMID:31828325]
+comment: Updated the definition of snoRNA (SO:0000275) from "A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA." to "Small nucleolar RNAs (snoRNAs) are short non-coding RNAs enriched in the nucleolus as components of small nucleolar ribonucleoproteins. They guide ribose methylation and pseudouridylation of rRNAs and snRNAs, and a subgroup regulate excision of rRNAs from rRNA precursor transcripts. snoRNAs may also guide rRNA acetylation and tRNA methylation, and regulate mRNA abundance and alternative splicing." to acknowledge that some snoRNAs functionally localize to other compartments (cytoplasm or even secreted). See GitHub Issue #578.
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:snoRNA" EXACT []
 synonym: "small nucleolar RNA" EXACT []
-xref: http://en.wikipedia.org/wiki/SnoRNA "wiki"
 is_a: SO:0002247 ! sncRNA
 
 [Term]
@@ -168,7 +209,7 @@ id: SO:0000276
 name: miRNA
 namespace: sequence
 alt_id: SO:0000649
-def: "Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0000647) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors." [PMID:11081512, PMID:12592000]
+def: "Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0001244) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors." [PMID:11081512, PMID:12592000]
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:miRNA" EXACT []
@@ -294,6 +335,16 @@ synonym: "protein binding site" EXACT []
 is_a: SO:0000409 ! binding_site
 
 [Term]
+id: SO:0000483
+name: nc_primary_transcript
+namespace: sequence
+def: "A primary transcript that is never translated into a protein." [SO:ke]
+subset: SOFA
+synonym: "nc primary transcript" EXACT []
+synonym: "noncoding primary transcript" EXACT []
+is_a: SO:0000185 ! primary_transcript
+
+[Term]
 id: SO:0000577
 name: centromere
 namespace: sequence
@@ -330,10 +381,12 @@ id: SO:0000593
 name: C_D_box_snoRNA
 namespace: sequence
 def: "Most box C/D snoRNAs also contain long (>10 nt) sequences complementary to rRNA. Boxes C and D, as well as boxes C' and D', are usually located in close proximity, and form a structure known as the box C/D motif. This motif is important for snoRNA stability, processing, nucleolar targeting and function. A small number of box C/D snoRNAs are involved in rRNA processing; most, however, are known or predicted to serve as guide RNAs in ribose methylation of rRNA. Targeting involves direct base pairing of the snoRNA at the rRNA site to be modified and selection of a rRNA nucleotide a fixed distance from box D or D'." [http://www.bio.umass.edu/biochem/rna-sequence/Yeast_snoRNA_Database/snoRNA_DataBase.html]
+comment: Added 'SNORD' as a synonym of C_D_box_snoRNA (SO:0000593) and 'SNORA' as a synonym of H_ACA_box_snoRNA (SO:0000594). See GitHub Issue #577.
 subset: SOFA
 synonym: "box C/D snoRNA" EXACT []
 synonym: "C D box snoRNA" EXACT []
 synonym: "C/D box snoRNA" EXACT []
+synonym: "SNORD" EXACT [PMID:31828325]
 is_a: SO:0000275 ! snoRNA
 
 [Term]
@@ -341,9 +394,11 @@ id: SO:0000594
 name: H_ACA_box_snoRNA
 namespace: sequence
 def: "Members of the box H/ACA family contain an ACA triplet, exactly 3 nt upstream from the 3' end and an H-box in a hinge region that links two structurally similar functional domains of the molecule. Both boxes are important for snoRNA biosynthesis and function. A few box H/ACA snoRNAs are involved in rRNA processing; most others are known or predicted to participate in selection of uridine nucleosides in rRNA to be converted to pseudouridines. Site selection is mediated by direct base pairing of the snoRNA with rRNA through one or both targeting domains." [http://www.bio.umass.edu/biochem/rna-sequence/Yeast_snoRNA_Database/snoRNA_DataBase.html]
+comment: Added 'SNORD' as a synonym of C_D_box_snoRNA (SO:0000593) and 'SNORA' as a synonym of H_ACA_box_snoRNA (SO:0000594). See GitHub Issue #577.
 synonym: "box H/ACA snoRNA" EXACT []
 synonym: "H ACA box snoRNA" EXACT []
 synonym: "H/ACA box snoRNA" EXACT []
+synonym: "SNORA" EXACT [PMID:31828325]
 is_a: SO:0000275 ! snoRNA
 
 [Term]
@@ -423,6 +478,19 @@ synonym: "INSDC_qualifier:siRNA" EXACT []
 synonym: "small interfering RNA" EXACT []
 xref: http://en.wikipedia.org/wiki/SiRNA "wiki"
 is_a: SO:0000370 ! small_regulatory_ncRNA
+
+[Term]
+id: SO:0000647
+name: miRNA_primary_transcript
+namespace: sequence
+alt_id: SO:0000648
+def: "A primary transcript encoding a micro RNA." [SO:ke]
+synonym: "micro RNA primary transcript" EXACT []
+synonym: "miRNA primary transcript" EXACT []
+synonym: "small temporal RNA primary transcript" EXACT []
+synonym: "stRNA primary transcript" EXACT []
+synonym: "stRNA_primary_transcript" EXACT []
+is_a: SO:0000483 ! nc_primary_transcript
 
 [Term]
 id: SO:0000651
@@ -642,6 +710,17 @@ synonym: "polyadenylated mRNA" EXACT []
 is_a: SO:0000234 ! mRNA
 
 [Term]
+id: SO:0001035
+name: piRNA
+namespace: sequence
+def: "A small non coding RNA, part of a silencing system that prevents the spreading of selfish genetic elements." [SO:ke]
+synonym: "INSDC_feature:ncRNA" BROAD []
+synonym: "INSDC_qualifier:piRNA" EXACT []
+synonym: "piwi-associated RNA" EXACT []
+xref: http://en.wikipedia.org/wiki/PiRNA "wiki"
+is_a: SO:0000370 ! small_regulatory_ncRNA
+
+[Term]
 id: SO:0001055
 name: transcriptional_cis_regulatory_region
 namespace: sequence
@@ -707,6 +786,22 @@ comment: Merged into promoter (SO:0000167) on 11 Feb 2021 by Dave Sant. GREEKC h
 synonym: "TSS region" EXACT []
 is_obsolete: true
 replaced_by: SO:0000167
+
+[Term]
+id: SO:0001243
+name: miRNA_primary_transcript_region
+namespace: sequence
+def: "A part of an miRNA primary_transcript." [SO:ke]
+synonym: "miRNA primary transcript region" EXACT []
+is_a: SO:0000835 ! primary_transcript_region
+
+[Term]
+id: SO:0001244
+name: pre_miRNA
+namespace: sequence
+def: "The 60-70 nucleotide region remain after Drosha processing of the primary transcript, that folds back upon itself to form a hairpin structure." [SO:ke]
+synonym: "pre-miRNA" EXACT []
+is_a: SO:0001243 ! miRNA_primary_transcript_region
 
 [Term]
 id: SO:0001263
@@ -863,14 +958,29 @@ created_by: kareneilbeck
 creation_date: 2011-05-31T01:01:08Z
 
 [Term]
-id: SO:0001799
-name: regional_centromere_outer_repeat_region
+id: SO:0001801
+name: tasiRNA_primary_transcript
 namespace: sequence
-def: "The heterochromatic outer repeat region of a modular centromere. These repeats exist in tandem arrays on both chromosome arms." [SO:vw]
-synonym: "regional centromere outer repeat region" EXACT []
-is_a: SO:0001797 ! centromeric_repeat
+def: "A primary transcript encoding a tasiRNA." [PMID:16145017]
+synonym: "tasiRNA primary transcript" EXACT []
+is_a: SO:0000483 ! nc_primary_transcript
 created_by: kareneilbeck
-creation_date: 2011-05-31T01:03:23Z
+creation_date: 2011-05-31T03:27:35Z
+
+[Term]
+id: SO:0001877
+name: lncRNA
+namespace: sequence
+def: "A non-coding RNA generally longer than 200 nucleotides that cannot be classified as any other ncRNA subtype. Similar to mRNAs, lncRNAs are mainly transcribed by RNA polymerase II, are often capped by 7-methyl guanosine at their 5' ends, polyadenylated at their 3' ends and may be spliced." [HGNC:mw] {comment="PMID:33353982"}
+comment: Updated the definition of lncRNA (SO:0001877) from "A non-coding RNA over 200nucleotides in length." to "A non-coding RNA generally longer than 200 nucleotides that cannot be classified as any other ncRNA subtype. Similar to mRNAs, lncRNAs are mainly transcribed by RNA polymerase II, are often capped by 7-methyl guanosine at their 5' ends, polyadenylated at their 3' ends and may be spliced." See GitHub Issue #575
+synonym: "INSDC_feature:ncRNA" BROAD []
+synonym: "INSDC_qualifier:lncRNA" EXACT []
+synonym: "lncRNA_transcript" EXACT []
+synonym: "long non-coding RNA" EXACT []
+xref: http://www.gencodegenes.org/gencode_biotypes.html "GENCODE"
+is_a: SO:0000655 ! ncRNA
+created_by: kareneilbeck
+creation_date: 2012-02-14T05:18:01Z
 
 [Term]
 id: SO:0001914
@@ -888,6 +998,16 @@ created_by: kareneilbeck
 creation_date: 2012-06-11T02:55:02Z
 
 [Term]
+id: SO:0001927
+name: telomeric_transcript
+namespace: sequence
+def: "A non-coding transcript derived from the transcript of the telomere." [PMID:22139915]
+synonym: "telomeric transcript" EXACT []
+is_a: SO:0000655 ! ncRNA
+created_by: kareneilbeck
+creation_date: 2012-10-31T01:42:15Z
+
+[Term]
 id: SO:0001997
 name: subtelomere
 namespace: sequence
@@ -895,6 +1015,16 @@ def: "A heterochromatic region of the chromosome, adjacent to the telomere (on t
 is_a: SO:0000628 ! chromosomal_structural_element
 created_by: kareneilbeck
 creation_date: 2014-01-05T07:02:01Z
+
+[Term]
+id: SO:0002035
+name: lncRNA_primary_transcript
+namespace: sequence
+def: "A primary transcript encoding a lncRNA." [SO:ke]
+synonym: "lncRNA primary transcript" EXACT []
+is_a: SO:0000483 ! nc_primary_transcript
+created_by: kareneilbeck
+creation_date: 2015-01-09T15:23:03Z
 
 [Term]
 id: SO:0002140

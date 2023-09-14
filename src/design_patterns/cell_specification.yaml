@@ -1,0 +1,30 @@
+pattern_name: cell specification
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cell_specification.yaml
+
+description: This pattern is for classes representing the specification of cells, differentiated by the cell being specified.
+
+classes:
+  native cell: "CL:0000003" # Should ensure native plant cells are subclasses
+  cell fate specification: "GO:0001708"
+
+relations: 
+  results in specification of: "RO:0002356"
+
+vars:
+  target: "'native cell'"
+
+name:
+  text: "%s specification"
+  vars:
+    - target
+
+def:
+  text: "The process involved in the specification of %s cell identity. "
+  vars:
+     - target
+
+equivalentTo:
+  text: " 'cell fate specification' and 'results in specification of' some %s"
+  vars:
+    - target

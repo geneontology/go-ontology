@@ -11,7 +11,7 @@ SELECT ?x ?one_to_one_prefix (GROUP_CONCAT(?c ; separator=";") AS ?cs) WHERE
   ?c oio:hasDbXref ?x .
   FILTER(isIRI(?c))
   FILTER(STRSTARTS(STR(?x), ?one_to_one_prefix))
-  # only enforce this constraint for xrefs with either no mapping scope or scope of skos:exactMatch
+  # only enforce this constraint for xrefs with either no mapping scope or scope of skos:exactMatch or skos:narrowMatch
   OPTIONAL {
     ?axiom a owl:Axiom ;
         owl:annotatedSource ?c ;
@@ -20,7 +20,7 @@ SELECT ?x ?one_to_one_prefix (GROUP_CONCAT(?c ; separator=";") AS ?cs) WHERE
         oio:source ?value .
   }
   BIND(COALESCE(?value, "skos:exactMatch"^^xsd:string) AS ?scope)
-  FILTER(?scope = "skos:exactMatch"^^xsd:string)
+  FILTER(?scope IN ("skos:exactMatch"^^xsd:string, "skos:narrowMatch"^^xsd:string))
 }
 GROUP BY ?x ?one_to_one_prefix
 HAVING(COUNT(DISTINCT ?c) > 1)

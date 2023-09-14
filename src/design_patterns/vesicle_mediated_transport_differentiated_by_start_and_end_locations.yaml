@@ -1,0 +1,35 @@
+pattern_name: vesicle-mediated transport differentiated by start and end locations
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml
+
+description: TODO
+
+classes:
+  vesicle-mediated transport: GO:0016192
+  cellular component: GO:0005575
+
+relations: 
+  has_target_start_location: RO:0002338
+  has_target_end_location: RO:0002339
+  
+vars:
+ start location: "'cellular component'"
+ end location: "'cellular component'"
+ 
+name:
+    text: "%s to %s vesicle-mediated transport"
+    vars:
+    - start location
+    - end location
+
+def:
+    text: "The vesicle-mediated and directed movement of substances from %s to %s."
+    vars:
+    - start location
+    - end location 
+
+equivalentTo:
+  text: "'vesicle-mediated transport' and 'has_target_start_location' some %s and 'has_target_end_location' some %s"
+  vars:
+    - start location
+    - end location 

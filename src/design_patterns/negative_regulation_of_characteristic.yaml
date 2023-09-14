@@ -1,0 +1,30 @@
+pattern_name: negative regulation of characteristic
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/negative_regulation_of_characteristic.yaml
+
+description: Negative regulation of a particular characteristic.
+
+classes:
+  biological regulation: "GO:0065007"
+  characteristic: "PATO:0000001"
+
+relations: 
+  negatively regulates characteristic: "RO:0019002"
+
+vars:
+ characteristic: "'characteristic'"
+
+name:
+     text: "negative regulation of %s"
+     vars:
+       - characteristic
+
+def:
+  text: "Any process that qualitatively or quantitatively decreases %s."
+  vars:
+     - characteristic
+
+equivalentTo:
+  text: "'biological regulation' and 'negatively regulates characteristic' some %s"
+  vars:
+    - characteristic

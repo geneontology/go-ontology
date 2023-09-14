@@ -10,10 +10,9 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   classify_pr:
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.2.23
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
     steps:
       - uses: actions/checkout@v2
       - name: Classify ontology
@@ -26,7 +25,7 @@ jobs:
           retention-days: 1
   classify_master:
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.2.23
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -44,8 +43,9 @@ jobs:
       - classify_pr
       - classify_master
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.2.23
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
     steps:
+      - uses: actions/checkout@v2
       - name: Download master classification
         uses: actions/download-artifact@v2
         with:
@@ -57,12 +57,12 @@ jobs:
           name: reasoned-pr.owl
           path: reasoned-pr.owl
       - name: Diff classification
-        run: export ROBOT_JAVA_ARGS=-Xmx6G; robot diff --left reasoned-master.owl/reasoned.owl --right reasoned-pr.owl/reasoned.owl -f markdown -o classification-diff.md
+        run: export ROBOT_JAVA_ARGS=-Xmx6G; cd src/ontology; robot diff --left ../../reasoned-master.owl/reasoned.owl --left-catalog catalog-v001.xml --right ../../reasoned-pr.owl/reasoned.owl --right-catalog catalog-v001.xml -f markdown -o classification-diff.md
       - name: Upload diff
         uses: actions/upload-artifact@v2
         with:
           name: classification-diff.md
-          path: classification-diff.md
+          path: src/ontology/classification-diff.md
   post_comment:
     needs: diff_classification
     runs-on: ubuntu-latest
