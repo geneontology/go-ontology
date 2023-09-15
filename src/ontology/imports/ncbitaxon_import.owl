@@ -3405,6 +3405,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_224756"/>
+        <oboInOwl:hasRelatedSynonym>Halobacteria Grant et al. 2002</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Halomebacteria</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Halobacteria</rdfs:label>
     </owl:Class>
@@ -6690,6 +6691,23 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Adrianichthyoidei</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2886895 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2886895">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2242"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2886895"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>Halobacterium salinarum ATCC 33170</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Halobacterium sp. 63-R2</oboInOwl:hasExactSynonym>
+        <rdfs:label>Halobacterium salinarum NRC-34001</rdfs:label>
     </owl:Class>
     
 
@@ -13039,7 +13057,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym>Zoantharia</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Hexacorallia</rdfs:label>
     </owl:Class>
     
@@ -13298,21 +13315,20 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_64091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_64091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2242"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2886895"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_64091"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>Halobacterium salinarum str. NRC-1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Halobacterium salinarum strain NRC-1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Halobacterium sp. ATCC 700922</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Halobacterium sp. JCM 11081</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Halobacterium sp. NRC-1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Halobacterium halobium NRC-1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Halobacterium sp. (strain NRC-1 / ATCC 700922 / JCM 11081)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Halobacterium sp. (strain NRC-1)</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Halobacterium sp. ATCC 700922</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Halobacterium sp. JCM 11081</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Halobacterium salinarum NRC-1</rdfs:label>
     </owl:Class>
     
@@ -24401,6 +24417,20 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28781"/>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2886895"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2886895"/>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
