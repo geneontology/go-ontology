@@ -874,6 +874,7 @@ http://purl.obolibrary.org/obo/GO_1903857	negative regulation of cytokinin dehyd
 http://purl.obolibrary.org/obo/GO_0080037	negative regulation of cytokinin-activated signaling pathway	http://purl.obolibrary.org/obo/GO_0009736	cytokinin-activated signaling pathway
 http://purl.obolibrary.org/obo/GO_0045918	negative regulation of cytolysis	http://purl.obolibrary.org/obo/GO_0019835	cytolysis
 http://purl.obolibrary.org/obo/GO_0010607	negative regulation of cytoplasmic mRNA processing body assembly	http://purl.obolibrary.org/obo/GO_0033962	P-body assembly
+http://purl.obolibrary.org/obo/GO_0039532	negative regulation of cytoplasmic pattern recognition receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0002753	cytoplasmic pattern recognition receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_2000766	negative regulation of cytoplasmic translation	http://purl.obolibrary.org/obo/GO_0002181	cytoplasmic translation
 http://purl.obolibrary.org/obo/GO_1900248	negative regulation of cytoplasmic translational elongation	http://purl.obolibrary.org/obo/GO_0002182	cytoplasmic translational elongation
 http://purl.obolibrary.org/obo/GO_1903271	negative regulation of cytoplasmic translational elongation through polyproline stretches	http://purl.obolibrary.org/obo/GO_0097622	cytoplasmic translational elongation through polyproline stretches
@@ -2870,7 +2871,6 @@ http://purl.obolibrary.org/obo/GO_1903901	negative regulation of viral life cycl
 http://purl.obolibrary.org/obo/GO_0048525	negative regulation of viral process	http://purl.obolibrary.org/obo/GO_0016032	viral process
 http://purl.obolibrary.org/obo/GO_0032897	negative regulation of viral transcription	http://purl.obolibrary.org/obo/GO_0019083	viral transcription
 http://purl.obolibrary.org/obo/GO_1904972	negative regulation of viral translation	http://purl.obolibrary.org/obo/GO_0019081	viral translation
-http://purl.obolibrary.org/obo/GO_0039532	negative regulation of viral-induced cytoplasmic pattern recognition receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0002753	cytosolic pattern recognition receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0010957	negative regulation of vitamin D biosynthetic process	http://purl.obolibrary.org/obo/GO_0042368	vitamin D biosynthetic process
 http://purl.obolibrary.org/obo/GO_0070563	negative regulation of vitamin D receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0070561	vitamin D receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0046137	negative regulation of vitamin metabolic process	http://purl.obolibrary.org/obo/GO_0006766	vitamin metabolic process
