@@ -198,8 +198,9 @@ enhanced.owl: go-edit-filtered-xrefs.ofn
 
 # reasoned.owl is equivalent to editors source, after materialize-reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
-reasoned.owl: enhanced.owl $(SRC)-check
-	$(ROBOT) materialize -i $< -r ELK --term BFO:0000050 reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+# note: do not run 'reason' after go-computed-taxon-constraints.owl is merged; some desired logical redundancy will be lost
+reasoned.owl: enhanced.owl $(SRC)-check imports/go-computed-taxon-constraints.owl
+	$(ROBOT) materialize -i $< -r ELK --term BFO:0000050 reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce merge -i imports/go-computed-taxon-constraints.owl annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 present_in_taxon_check.ofn: enhanced.owl ../taxon_constraints/present_in_taxon.ofn
 	$(ROBOT) merge --collapse-import-closure false -i $< -i ../taxon_constraints/present_in_taxon.ofn reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural -o $@
@@ -360,6 +361,10 @@ imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
 
 imports/go_taxon_constraints.owl: ../taxon_constraints/only_in_taxon.ofn ../taxon_constraints/never_in_taxon.ofn
 	$(ROBOT) merge $(addprefix -i , $^) annotate -O $(BASE)/$@ -o $@
+
+# This task requires more memory than is available on GitHub Actions
+imports/go-computed-taxon-constraints.owl: ../util/materialize_inferred_taxon_constraints.sc $(SRC) scala-cli
+	JAVA_OPTS=-Xmx32G ./scala-cli run --server=false ../util/materialize_inferred_taxon_constraints.sc -- catalog-v001.xml $(SRC) $@
 
 imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
@@ -721,3 +726,9 @@ pattern-docs: imports/go-pattern-conformance.ttl reasoned.owl $(ALL_PATTERN_YAML
 
 dosdp-tools-0.19.3:
 	curl -L -O 'https://github.com/INCATools/dosdp-tools/releases/download/v0.19.3/dosdp-tools-0.19.3.tgz' && tar -zxf dosdp-tools-0.19.3.tgz
+
+# We are temporarily downloading scala-cli when needed, until it replaces ammonite in the ODK
+ARCH = $(shell uname -p)
+scala-cli:
+	curl -fL https://github.com/Virtuslab/scala-cli/releases/download/v1.0.4/scala-cli-$(ARCH)-pc-linux.gz | gzip -d >$@ &&\
+	chmod +x scala-cli
