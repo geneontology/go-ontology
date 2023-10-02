@@ -1,5 +1,4 @@
 defined_class	defined_class_label	entity	entity_label
-http://purl.obolibrary.org/obo/GO_0007250	activation of NF-kappaB-inducing kinase activity	http://purl.obolibrary.org/obo/GO_0004704	NF-kappaB-inducing kinase activity
 http://purl.obolibrary.org/obo/GO_0075294	positive regulation by symbiont of entry into host	http://purl.obolibrary.org/obo/GO_0044409	entry into host
 http://purl.obolibrary.org/obo/GO_1905014	positive regulation of 'de novo' NAD biosynthetic process from tryptophan	http://purl.obolibrary.org/obo/GO_0034354	'de novo' NAD biosynthetic process from tryptophan
 http://purl.obolibrary.org/obo/GO_1900694	positive regulation of (+)-kotanin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900596	(+)-kotanin biosynthetic process
@@ -1616,7 +1615,6 @@ http://purl.obolibrary.org/obo/GO_0120041	positive regulation of macrophage prol
 http://purl.obolibrary.org/obo/GO_0010933	positive regulation of macrophage tolerance induction	http://purl.obolibrary.org/obo/GO_0010931	macrophage tolerance induction
 http://purl.obolibrary.org/obo/GO_1905303	positive regulation of macropinocytosis	http://purl.obolibrary.org/obo/GO_0044351	macropinocytosis
 http://purl.obolibrary.org/obo/GO_0034096	positive regulation of maintenance of meiotic sister chromatid cohesion	http://purl.obolibrary.org/obo/GO_0034090	maintenance of meiotic sister chromatid cohesion
-http://purl.obolibrary.org/obo/GO_2000714	positive regulation of maintenance of meiotic sister chromatid cohesion, arms	http://purl.obolibrary.org/obo/GO_0035876	maintenance of meiotic sister chromatid cohesion, arms
 http://purl.obolibrary.org/obo/GO_2000711	positive regulation of maintenance of meiotic sister chromatid cohesion, centromeric	http://purl.obolibrary.org/obo/GO_0035875	maintenance of meiotic sister chromatid cohesion, centromeric
 http://purl.obolibrary.org/obo/GO_0034184	positive regulation of maintenance of mitotic sister chromatid cohesion	http://purl.obolibrary.org/obo/GO_0034088	maintenance of mitotic sister chromatid cohesion
 http://purl.obolibrary.org/obo/GO_2000717	positive regulation of maintenance of mitotic sister chromatid cohesion, arms	http://purl.obolibrary.org/obo/GO_0071959	maintenance of mitotic sister chromatid cohesion, arms
