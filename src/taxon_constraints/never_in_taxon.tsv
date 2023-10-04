@@ -579,3 +579,4 @@ GO:0000365	mRNA trans splicing, via spliceosome	NCBITaxon:4751	Fungi
 GO:0016477	cell migration	NCBITaxon:4890	Ascomycota	
 GO:0106339	tRNA (cytidine 32-2'-O)-methyltransferase activity	NCBITaxon:2157	Archaea	PMID:18068186
 GO:0035658	Piccolo NuA4 histone acetyltransferase complex	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:37550452
+GO:0072487  MSL complex	NCBITaxon:4751	Fungi
