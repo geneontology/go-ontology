@@ -882,3 +882,4 @@ GO:0160092	hemozoin formation complex	NCBITaxon:5820	Plasmodium
 GO:0009048	dosage compensation by inactivation of X chromosome	NCBITaxon:32524	Amniota	PMID:19802707
 GO:0080188	gene silencing by RNA-directed DNA methylation	NCBITaxon:33090	Viridiplantae	PMID:33031395
 GO:0106059	tRNA (cytidine 56-2'-O)-methyltransferase activity	NCBITaxon:2157	Archaea	
+GO:0072487	MSL complex	NCBITaxon:33208	Metazoa
