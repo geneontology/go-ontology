@@ -198,17 +198,17 @@ enhanced.owl: go-edit-filtered-xrefs.ofn
 
 # reasoned.owl is equivalent to editors source, after materialize-reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
-# note: do not run 'reason' after go-computed-taxon-constraints.owl is merged; some desired logical redundancy will be lost
-reasoned.owl: enhanced.owl $(SRC)-check imports/go-computed-taxon-constraints.owl
-	$(ROBOT) materialize -i $< -r ELK --term BFO:0000050 reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce merge -i imports/go-computed-taxon-constraints.owl annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+reasoned.owl: enhanced.owl $(SRC)-check
+	$(ROBOT) materialize -i $< -r ELK --term BFO:0000050 reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 present_in_taxon_check.ofn: enhanced.owl ../taxon_constraints/present_in_taxon.ofn
 	$(ROBOT) merge --collapse-import-closure false -i $< -i ../taxon_constraints/present_in_taxon.ofn reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural -o $@
 
 # equivalent to reasoned, but we rename
 # TODO cleanup redundancies with merge here and with go-base
-$(GO_PLUS).owl: reasoned.owl
-	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+# note: do not run 'reason' after go-computed-taxon-constraints.owl is merged; some desired logical redundancy will be lost
+$(GO_PLUS).owl: reasoned.owl imports/go-computed-taxon-constraints.owl
+	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false merge -i imports/go-computed-taxon-constraints.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: $(GO_PLUS).owl
 
 # Create release file containing GO-asserted axioms, no external axioms, and no inferences.
