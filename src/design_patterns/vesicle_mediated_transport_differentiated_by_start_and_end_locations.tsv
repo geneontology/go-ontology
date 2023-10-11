@@ -1,3 +1,5 @@
 defined_class	defined_class_label	end_location	end_location_label	start_location	start_location_label
 http://purl.obolibrary.org/obo/GO_0006893	Golgi to plasma membrane transport	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus
+http://purl.obolibrary.org/obo/GO_0099074	mitochondrion to lysosome vesicle-mediated transport	http://purl.obolibrary.org/obo/GO_0005764	lysosome	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/GO_0099076	mitochondrion to peroxisome vesicle-mediated transport	http://purl.obolibrary.org/obo/GO_0005777	peroxisome	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
 http://purl.obolibrary.org/obo/GO_0098927	vesicle-mediated transport between endosomal compartments	http://purl.obolibrary.org/obo/GO_0005768	endosome	http://purl.obolibrary.org/obo/GO_0005768	endosome
