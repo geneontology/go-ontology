@@ -56,7 +56,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SEPIO_0000124> "h
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0000401> (cell)
 
-EquivalentClasses(<http://purl.obolibrary.org/obo/DDANAT_0000401> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_44689>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/DDANAT_0000401> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_44689>)))
 
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0010001> (Dictyostelium discoideum anatomical structure)
 
@@ -77,7 +77,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/PO_0025131> ObjectIntersection
 
 # Class: <http://purl.obolibrary.org/obo/PO_0025606> (native plant cell)
 
-EquivalentClasses(<http://purl.obolibrary.org/obo/PO_0025606> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/PO_0009002> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)))
 
 # Class: <http://purl.obolibrary.org/obo/TS_0> (Theiler stage)
 
@@ -93,7 +93,7 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/XAO_0000000> ObjectIntersectio
 
 # Class: <http://purl.obolibrary.org/obo/XAO_0003012> (cell)
 
-EquivalentClasses(<http://purl.obolibrary.org/obo/XAO_0003012> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8353>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/XAO_0003012> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_8353>)))
 
 # Class: <http://purl.obolibrary.org/obo/XAO_1000000> (Xenopus developmental stage)
 
@@ -101,7 +101,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/XAO_1000000> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/ZFA_0009000> (cell)
 
-EquivalentClasses(<http://purl.obolibrary.org/obo/ZFA_0009000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_7955>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ZFA_0009000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_7955>)))
 
 # Class: <http://purl.obolibrary.org/obo/ZFA_0100000> (zebrafish anatomical entity)
 
