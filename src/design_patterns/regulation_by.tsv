@@ -2786,7 +2786,7 @@ http://purl.obolibrary.org/obo/GO_2000037	regulation of stomatal complex pattern
 http://purl.obolibrary.org/obo/GO_0010119	regulation of stomatal movement	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_0010118	stomatal movement
 http://purl.obolibrary.org/obo/GO_1902456	regulation of stomatal opening	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_1990069	stomatal opening
 http://purl.obolibrary.org/obo/GO_2001256	regulation of store-operated calcium entry	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_0002115	store-operated calcium entry
-http://purl.obolibrary.org/obo/GO_0060542	regulation of strand invasion	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_0042148	strand invasion
+http://purl.obolibrary.org/obo/GO_0060542	regulation of strand invasion	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_0042148	DNA strand invasion
 http://purl.obolibrary.org/obo/GO_0051492	regulation of stress fiber assembly	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_0043149	stress fiber assembly
 http://purl.obolibrary.org/obo/GO_0062028	regulation of stress granule assembly	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_0034063	stress granule assembly
 http://purl.obolibrary.org/obo/GO_1903853	regulation of stress response to copper ion	http://purl.obolibrary.org/obo/GO_0065007	biological regulation	http://purl.obolibrary.org/obo/GO_1990169	stress response to copper ion
