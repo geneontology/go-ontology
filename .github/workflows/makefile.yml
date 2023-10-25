@@ -1,0 +1,60 @@
+name: Relation diff
+
+on:
+  workflow_dispatch:
+
+jobs:
+  reason_pr:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run relation-graph
+      run: cd src/ontology; ROBOT_JAVA_ARGS=-Xmx6G robot merge -i go-edit.obo -o go-merged.ofn; JAVA_OPTS=-Xmx6G relation-graph --ontology-file go-merged.ofn --mode RDF --output-file go-rels.nt --output-subclasses true --reflexive-subclasses false --equivalence-as-subclass false; sed 's/ /\t/' <go-merged.nt | sed 's/ /\t/' | sed 's/ \.$//' >right.facts
+    - name: Upload PR facts
+      uses: actions/upload-artifact@v2
+      with:
+        name: right.facts
+        path: src/ontology/right.facts
+        retention-days: 1
+  reason_master:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        ref: master
+    - name: Run relation-graph
+      run: cd src/ontology; ROBOT_JAVA_ARGS=-Xmx6G robot merge -i go-edit.obo -o go-merged.ofn; JAVA_OPTS=-Xmx6G relation-graph --ontology-file go-merged.ofn --mode RDF --output-file go-rels.nt --output-subclasses true --reflexive-subclasses false --equivalence-as-subclass false; sed 's/ /\t/' <go-merged.nt | sed 's/ /\t/' | sed 's/ \.$//' >left.facts
+    - name: Upload PR facts
+      uses: actions/upload-artifact@v2
+      with:
+        name: left.facts
+        path: src/ontology/left.facts
+        retention-days: 1
+  diff:
+    needs:
+    - reason_pr
+    - reason_master
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+    steps:
+    - uses: actions/checkout@v3
+    - name: Download master classification
+      uses: actions/download-artifact@v2
+      with:
+        name: left.facts
+        path: left.facts
+    - name: Download PR classification
+      uses: actions/download-artifact@v2
+      with:
+        name: right.facts
+        path: right.facts
+    - name: Diff classification
+      run: cd src/ontology; souffle ../util/relation-diff.dl
+    - name: Upload diff
+      uses: actions/upload-artifact@v2
+      with:
+        name: classification-diff.md
+        path: src/ontology/classification-diff.md
+        
