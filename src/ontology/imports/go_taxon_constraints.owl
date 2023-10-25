@@ -2233,7 +2233,7 @@
                 <owl:complementOf>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/Drosophila NCBITaxon_7215"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7215"/>
                     </owl:Restriction>
                 </owl:complementOf>
             </owl:Class>
@@ -2243,7 +2243,7 @@
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom>
                     <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/Drosophila NCBITaxon_7215"/>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7215"/>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
@@ -2251,10 +2251,10 @@
         <owl:disjointWith>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/Drosophila NCBITaxon_7215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7215"/>
             </owl:Restriction>
         </owl:disjointWith>
-        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/Drosophila NCBITaxon_7215"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7215"/>
     </owl:Class>
     
 
@@ -35197,6 +35197,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_7215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7215"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_7711 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7711"/>
@@ -35290,12 +35296,6 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_Union_0000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000031"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/Drosophila NCBITaxon_7215 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/Drosophila NCBITaxon_7215"/>
 </rdf:RDF>
 
 
