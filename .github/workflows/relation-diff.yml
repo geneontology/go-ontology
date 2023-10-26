@@ -1,0 +1,80 @@
+name: Relation diff
+
+on:
+  workflow_dispatch:
+
+jobs:
+  reason_pr:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run relation-graph
+      run: cd src/ontology; ROBOT_JAVA_ARGS=-Xmx6G robot merge --catalog catalog-v001.xml -i go-edit.obo -o go-merged.ofn; JAVA_OPTS=-Xmx6G relation-graph --ontology-file go-merged.ofn --mode RDF --output-file go-rels.nt --output-subclasses true --reflexive-subclasses false --equivalence-as-subclass false; sed 's/ /\t/' <go-merged.nt | sed 's/ /\t/' | sed 's/ \.$//' >right.facts
+    - name: Upload PR facts
+      uses: actions/upload-artifact@v2
+      with:
+        name: right.facts
+        path: src/ontology/right.facts
+        retention-days: 1
+  reason_master:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        ref: master
+    - name: Run relation-graph
+      run: cd src/ontology; ROBOT_JAVA_ARGS=-Xmx6G robot merge --catalog catalog-v001.xml -i go-edit.obo -o go-merged.ofn; JAVA_OPTS=-Xmx6G relation-graph --ontology-file go-merged.ofn --mode RDF --output-file go-rels.nt --output-subclasses true --reflexive-subclasses false --equivalence-as-subclass false; sed 's/ /\t/' <go-merged.nt | sed 's/ /\t/' | sed 's/ \.$//' >left.facts
+    - name: Upload PR facts
+      uses: actions/upload-artifact@v2
+      with:
+        name: left.facts
+        path: src/ontology/left.facts
+        retention-days: 1
+  merge_ontology:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+    steps:
+    - uses: actions/checkout@v3
+    - name: Create merged ontology
+      run: cd src/ontology; ROBOT_JAVA_ARGS=-Xmx6G robot merge --catalog catalog-v001.xml -i go-edit.obo -o go-merged.ttl; riot --output=ntriples go-merged.ttl | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$//' >ontrdf.facts 
+    - name: Upload ontrdf facts
+      uses: actions/upload-artifact@v2
+      with:
+        name: ontrdf.facts
+        path: src/ontology/ontrdf.facts
+        retention-days: 1
+  diff:
+    needs:
+    - reason_pr
+    - reason_master
+    - merge_ontology
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+    steps:
+    - uses: actions/checkout@v3
+    - name: Download master relations
+      uses: actions/download-artifact@v2
+      with:
+        name: left.facts
+        path: left.facts
+    - name: Download PR relations
+      uses: actions/download-artifact@v2
+      with:
+        name: right.facts
+        path: right.facts
+    - name: Download merged ontology
+      uses: actions/download-artifact@v2
+      with:
+        name: ontrdf.facts
+        path: ontrdf.facts
+    - name: Diff classification
+      run: cd src/ontology; souffle ../util/relation-diff.dl
+    - name: Combine output
+      run: cat lost.csv gained.csv >diff.tsv
+    - name: Upload diff
+      uses: actions/upload-artifact@v2
+      with:
+        name: diff.tsv
+        path: src/ontology/diff.tsv
