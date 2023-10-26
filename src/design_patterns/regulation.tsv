@@ -2201,7 +2201,6 @@ http://purl.obolibrary.org/obo/GO_1900123	regulation of nodal receptor complex a
 http://purl.obolibrary.org/obo/GO_1900107	regulation of nodal signaling pathway	http://purl.obolibrary.org/obo/GO_0038092	nodal signaling pathway
 http://purl.obolibrary.org/obo/GO_1901222	regulation of non-canonical NF-kappaB signal transduction	http://purl.obolibrary.org/obo/GO_0038061	non-canonical NF-kappaB signal transduction
 http://purl.obolibrary.org/obo/GO_2000050	regulation of non-canonical Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0035567	non-canonical Wnt signaling pathway
-http://purl.obolibrary.org/obo/GO_1901229	regulation of non-canonical Wnt signaling pathway via JNK cascade	http://purl.obolibrary.org/obo/GO_0038031	non-canonical Wnt signaling pathway via JNK cascade
 http://purl.obolibrary.org/obo/GO_1903995	regulation of non-membrane spanning protein tyrosine kinase activity	http://purl.obolibrary.org/obo/GO_0004715	non-membrane spanning protein tyrosine kinase activity
 http://purl.obolibrary.org/obo/GO_1902855	regulation of non-motile cilium assembly	http://purl.obolibrary.org/obo/GO_1905515	non-motile cilium assembly
 http://purl.obolibrary.org/obo/GO_0002619	regulation of non-professional antigen presenting cell antigen processing and presentation	http://purl.obolibrary.org/obo/GO_0002473	non-professional antigen presenting cell antigen processing and presentation
@@ -2550,7 +2549,6 @@ http://purl.obolibrary.org/obo/GO_1901093	regulation of protein homotetramerizat
 http://purl.obolibrary.org/obo/GO_1904589	regulation of protein import	http://purl.obolibrary.org/obo/GO_0017038	protein import
 http://purl.obolibrary.org/obo/GO_1904215	regulation of protein import into chloroplast stroma	http://purl.obolibrary.org/obo/GO_0045037	protein import into chloroplast stroma
 http://purl.obolibrary.org/obo/GO_0042306	regulation of protein import into nucleus	http://purl.obolibrary.org/obo/GO_0006606	protein import into nucleus
-http://purl.obolibrary.org/obo/GO_1900739	regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway	http://purl.obolibrary.org/obo/GO_0001844	protein insertion into mitochondrial membrane involved in apoptotic signaling pathway
 http://purl.obolibrary.org/obo/GO_1903636	regulation of protein insertion into mitochondrial outer membrane	http://purl.obolibrary.org/obo/GO_0045040	protein insertion into mitochondrial outer membrane
 http://purl.obolibrary.org/obo/GO_0010738	regulation of protein kinase A signaling	http://purl.obolibrary.org/obo/GO_0010737	protein kinase A signaling
 http://purl.obolibrary.org/obo/GO_1900019	regulation of protein kinase C activity	http://purl.obolibrary.org/obo/GO_0004697	diacylglycerol-dependent serine/threonine kinase activity

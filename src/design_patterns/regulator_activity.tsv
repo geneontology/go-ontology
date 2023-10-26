@@ -26,6 +26,7 @@ http://purl.obolibrary.org/obo/GO_0070917	inositol phosphoceramide synthase regu
 http://purl.obolibrary.org/obo/GO_0019207	kinase regulator activity	http://purl.obolibrary.org/obo/GO_0016301	kinase activity
 http://purl.obolibrary.org/obo/GO_0055103	ligase regulator activity	http://purl.obolibrary.org/obo/GO_0016874	ligase activity
 http://purl.obolibrary.org/obo/GO_0048270	methionine adenosyltransferase regulator activity	http://purl.obolibrary.org/obo/GO_0004478	methionine adenosyltransferase activity
+http://purl.obolibrary.org/obo/GO_0141107	methyltransferase regulator activity	http://purl.obolibrary.org/obo/GO_0008168	methyltransferase activity
 http://purl.obolibrary.org/obo/GO_0017020	myosin phosphatase regulator activity	http://purl.obolibrary.org/obo/GO_0017018	myosin phosphatase activity
 http://purl.obolibrary.org/obo/GO_0030235	nitric-oxide synthase regulator activity	http://purl.obolibrary.org/obo/GO_0004517	nitric-oxide synthase activity
 http://purl.obolibrary.org/obo/GO_0060589	nucleoside-triphosphatase regulator activity	http://purl.obolibrary.org/obo/GO_0017111	ribonucleoside triphosphate phosphatase activity

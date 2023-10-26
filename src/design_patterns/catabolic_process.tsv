@@ -557,6 +557,7 @@ http://purl.obolibrary.org/obo/GO_0019524	keto-D-gluconate catabolic process	htt
 http://purl.obolibrary.org/obo/GO_0046181	ketogluconate catabolic process	http://purl.obolibrary.org/obo/CHEBI_60978	ketogluconate
 http://purl.obolibrary.org/obo/GO_0046952	ketone body catabolic process	http://purl.obolibrary.org/obo/CHEBI_73693	ketone body
 http://purl.obolibrary.org/obo/GO_0042182	ketone catabolic process	http://purl.obolibrary.org/obo/CHEBI_17087	ketone
+http://purl.obolibrary.org/obo/GO_0072340	lactam catabolic process	http://purl.obolibrary.org/obo/CHEBI_24995	lactam
 http://purl.obolibrary.org/obo/GO_1903457	lactate catabolic process	http://purl.obolibrary.org/obo/CHEBI_24996	lactate
 http://purl.obolibrary.org/obo/GO_1901335	lactone catabolic process	http://purl.obolibrary.org/obo/CHEBI_25000	lactone
 http://purl.obolibrary.org/obo/GO_0005990	lactose catabolic process	http://purl.obolibrary.org/obo/CHEBI_17716	lactose
