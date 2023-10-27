@@ -583,3 +583,4 @@ GO:0002224	toll-like receptor signaling pathway	NCBITaxon:7215	Drosophila		    P
 GO:0017015	regulation of transforming growth factor beta receptor signaling pathway	NCBITaxon:4751	Fungi	
 GO:0030512	negative regulation of transforming growth factor beta receptor signaling pathway	NCBITaxon:4751	Fungi	
 GO:0030511	positive regulation of transforming growth factor beta receptor signaling pathway	NCBITaxon:4751	Fungi	
+GO:0030334	regulation of cell migration	NCBITaxon:4890	Ascomycota	
