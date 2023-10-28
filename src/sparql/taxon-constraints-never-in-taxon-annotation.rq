@@ -50,7 +50,9 @@ WHERE {
       ] .
       FILTER(!STRENDS(STR(?super_taxon), "#NOT"))
       ?taxon rdfs:subClassOf+ ?super_taxon .
-    } || NOT EXISTS {
+    } 
+    || 
+    NOT EXISTS {
       ?term rdfs:subClassOf+ [
         a owl:Restriction ;
         owl:onProperty in_taxon: ;
