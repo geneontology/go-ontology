@@ -1,0 +1,63 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX in_taxon: <http://purl.obolibrary.org/obo/RO_0002162>
+PREFIX never_in_taxon: <http://purl.obolibrary.org/obo/RO_0002161>
+CONSTRUCT {
+  <http://purl.obolibrary.org/obo/go/imports/go-computed-taxon-constraints.owl#NEVERINTAXON> a owl:Ontology .
+  in_taxon: a owl:ObjectProperty .
+  never_in_taxon: a owl:AnnotationProperty .
+  ?term rdfs:subClassOf _:complement .
+  _:complement a owl:Class ;
+    owl:complementOf [
+      a owl:Restriction ;
+      owl:onProperty in_taxon: ;
+      owl:someValuesFrom ?taxon
+    ] .
+  [
+    a owl:Axiom ;
+    owl:annotatedSource ?term ;
+    owl:annotatedProperty rdfs:subClassOf ;
+    owl:annotatedTarget _:complement ;
+    oio:source "computed"
+  ] .
+  ?term never_in_taxon: ?taxon .
+  [
+    a owl:Axiom ;
+    owl:annotatedSource ?term ;
+    owl:annotatedProperty never_in_taxon: ;
+    owl:annotatedTarget ?taxon ;
+    oio:source "computed"
+  ] .
+}
+WHERE {
+  ?term rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty in_taxon: ;
+    owl:someValuesFrom ?taxon_complement
+  ]
+  FILTER(STRSTARTS(STR(?term), "http://purl.obolibrary.org/obo/GO_"))
+  FILTER(isIRI(?taxon_complement))
+  FILTER(STRSTARTS(STR(?taxon_complement), "http://purl.obolibrary.org/obo/NCBITaxon"))
+  FILTER(STRENDS(STR(?taxon_complement), "#NOT"))
+  BIND(IRI(STRBEFORE(STR(?taxon_complement), "#NOT")) AS ?taxon)
+  FILTER (
+    EXISTS {
+      ?term rdfs:subClassOf+ [
+        a owl:Restriction ;
+        owl:onProperty in_taxon: ;
+        owl:someValuesFrom ?super_taxon
+      ] .
+      FILTER(!STRENDS(STR(?super_taxon), "#NOT"))
+      ?taxon rdfs:subClassOf+ ?super_taxon .
+    } || NOT EXISTS {
+      ?term rdfs:subClassOf+ [
+        a owl:Restriction ;
+        owl:onProperty in_taxon: ;
+        owl:someValuesFrom ?super_taxon
+      ] .
+      FILTER(STRSTARTS(STR(?super_taxon), "http://purl.obolibrary.org/obo/NCBITaxon"))
+      FILTER(!STRENDS(STR(?super_taxon), "#NOT"))
+    }
+  )
+}

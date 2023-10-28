@@ -81,7 +81,7 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl subset-owls subset-reports generate-mappings
+stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl imports/go-computed-taxon-constraints.obo subset-owls subset-reports generate-mappings
 
 test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
@@ -206,7 +206,7 @@ present_in_taxon_check.ofn: enhanced.owl ../taxon_constraints/present_in_taxon.o
 
 # equivalent to reasoned, but we rename
 # TODO cleanup redundancies with merge here and with go-base
-# note: do not run 'reason' after go-computed-taxon-constraints.owl is merged; some desired logical redundancy will be lost
+# note: do not run 'reason' after go-computed-taxon-constraints.owl is merged; some desired logical redundancy may be lost
 $(GO_PLUS).owl: reasoned.owl imports/go-computed-taxon-constraints.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false merge -i imports/go-computed-taxon-constraints.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: $(GO_PLUS).owl
@@ -362,9 +362,12 @@ imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
 imports/go_taxon_constraints.owl: ../taxon_constraints/only_in_taxon.ofn ../taxon_constraints/never_in_taxon.ofn
 	$(ROBOT) merge $(addprefix -i , $^) annotate -O $(BASE)/$@ -o $@
 
-# This task requires more memory than is available on GitHub Actions
-imports/go-computed-taxon-constraints.owl: ../util/materialize_inferred_taxon_constraints.sc $(SRC) scala-cli
-	JAVA_OPTS=-Xmx32G ./scala-cli run --server=false ../util/materialize_inferred_taxon_constraints.sc -- catalog-v001.xml $(SRC) $@
+imports/go-computed-taxon-constraints.owl: $(SRC) $(SPARQLDIR)/taxon-constraints-materialization.ru $(SPARQLDIR)/taxon-constraints-in-taxon-annotation.rq $(SPARQLDIR)/taxon-constraints-never-in-taxon-annotation.rq
+	$(ROBOT) merge -i $< query --update $(SPARQLDIR)/taxon-constraints-materialization.ru materialize --term RO:0002162 query --query $(SPARQLDIR)/taxon-constraints-in-taxon-annotation.rq taxon-constraints-in-taxon-annotation.ttl --query $(SPARQLDIR)/taxon-constraints-never-in-taxon-annotation.rq taxon-constraints-never-in-taxon-annotation.ttl &&\
+	$(ROBOT) merge -i taxon-constraints-in-taxon-annotation.ttl -i taxon-constraints-never-in-taxon-annotation.ttl annotate -O $(BASE)/$@ -o $@
+
+imports/go-computed-taxon-constraints.obo: imports/go-computed-taxon-constraints.owl
+	$(ROBOT) convert -i $< -o imports/go-computed-taxon-constraints.tmp.obo && grep -v '^owl-axioms' imports/go-computed-taxon-constraints.tmp.obo >$@
 
 imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
@@ -726,9 +729,3 @@ pattern-docs: imports/go-pattern-conformance.ttl reasoned.owl $(ALL_PATTERN_YAML
 
 dosdp-tools-0.19.3:
 	curl -L -O 'https://github.com/INCATools/dosdp-tools/releases/download/v0.19.3/dosdp-tools-0.19.3.tgz' && tar -zxf dosdp-tools-0.19.3.tgz
-
-# We are temporarily downloading scala-cli when needed, until it replaces ammonite in the ODK
-ARCH = $(shell uname -p)
-scala-cli:
-	curl -fL https://github.com/Virtuslab/scala-cli/releases/download/v1.0.4/scala-cli-$(ARCH)-pc-linux.gz | gzip -d >$@ &&\
-	chmod +x scala-cli
