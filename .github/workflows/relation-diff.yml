@@ -70,7 +70,7 @@ jobs:
         name: ontrdf.facts
         path: ontrdf.facts
     - name: Diff classification
-      run: cd src/ontology; souffle ../util/relation-diff.dl
+      run: souffle src/util/relation-diff.dl
     - name: Combine output
       run: cat lost.csv gained.csv >diff.tsv
     - name: Upload diff
