@@ -578,7 +578,7 @@ GO:0090398	cellular senescence	NCBITaxon:4751	Fungi
 GO:0000365	mRNA trans splicing, via spliceosome	NCBITaxon:4751	Fungi	
 GO:0016477	cell migration	NCBITaxon:4890	Ascomycota	
 GO:0106339	tRNA (cytidine 32-2'-O)-methyltransferase activity	NCBITaxon:2157	Archaea	PMID:18068186
-GO:0035658	Piccolo NuA4 histone acetyltransferase complex	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:37550452
+GO:0035658	Piccolo NuA4 histone acetyltransferase complex	NCBITaxon:4896	Schizosaccharomyces pombe  PMID:37550452  
 GO:0002224	toll-like receptor signaling pathway	NCBITaxon:7215	Drosophila		    PMID:30034391
 GO:0017015	regulation of transforming growth factor beta receptor signaling pathway	NCBITaxon:4751	Fungi	
 GO:0030512	negative regulation of transforming growth factor beta receptor signaling pathway	NCBITaxon:4751	Fungi	
