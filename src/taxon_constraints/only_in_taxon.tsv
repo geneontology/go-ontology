@@ -883,3 +883,4 @@ GO:0009048	dosage compensation by inactivation of X chromosome	NCBITaxon:32524	A
 GO:0080188	gene silencing by RNA-directed DNA methylation	NCBITaxon:33090	Viridiplantae	PMID:33031395
 GO:0106059	tRNA (cytidine 56-2'-O)-methyltransferase activity	NCBITaxon:2157	Archaea	
 GO:0072487	MSL complex	NCBITaxon:33208	Metazoa	
+GO:0042597	periplasmic space	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	PMID:15803654
