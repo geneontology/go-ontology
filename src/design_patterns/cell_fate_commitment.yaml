@@ -5,14 +5,14 @@ pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cell_fate_commitment.yam
 description: This pattern is for classes representing the commitment of cells to a specific cell type, differentiated by the type of cell.
 
 classes:
-  native cell: "CL:0000003" # Should ensure native plant cells are subclasses
+  cell: "CL:0000000" # Should ensure plant cells are subclasses
   cell fate commitment: "GO:0045165"
 
 relations: 
   results in commitment of: "RO:0002348"
 
 vars:
-  target: "'native cell'"
+  target: "'cell'"
 
 name:
   text: "%s commitment"
