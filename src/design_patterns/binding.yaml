@@ -9,7 +9,7 @@ classes:
   material entity: 'BFO:0000040'
 
 relations:
-  has input: 'RO:0002233' 
+  has primary input: 'RO:0004009'
   
 vars:
   input: "'material entity'"
@@ -28,6 +28,6 @@ namespace:
   text: molecular_function
 
 equivalentTo: 
-  text: "'binding' and ('has input' some %s)" 
+  text: "'binding' and ('has primary input' some %s)"
   vars:
     - input
