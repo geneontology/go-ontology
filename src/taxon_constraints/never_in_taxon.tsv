@@ -62,8 +62,6 @@ GO:0007098	centrosome cycle	NCBITaxon:33090	Viridiplantae
 GO:0007098	centrosome cycle	NCBITaxon:4751	Fungi	
 GO:0007140	male meiotic nuclear division	NCBITaxon:4751	Fungi	
 GO:0007143	female meiotic nuclear division	NCBITaxon:4751	Fungi	
-GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:33090	Viridiplantae	
-GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
 GO:0007218	neuropeptide signaling pathway	NCBITaxon:4751	Fungi	
 GO:0007252	I-kappaB phosphorylation	NCBITaxon:4751	Fungi	
 GO:0007258	JUN phosphorylation	NCBITaxon:4895	Schizosaccharomyces	
