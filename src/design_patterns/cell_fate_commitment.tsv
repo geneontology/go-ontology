@@ -1,1 +1,60 @@
 defined_class	defined_class_label	target	target_label
+http://purl.obolibrary.org/obo/GO_0002326	B cell lineage commitment	http://purl.obolibrary.org/obo/CL_0000236	B cell
+http://purl.obolibrary.org/obo/GO_0002336	B-1 B cell lineage commitment	http://purl.obolibrary.org/obo/CL_0000819	B-1 B cell
+http://purl.obolibrary.org/obo/GO_0002362	CD4-positive, CD25-positive, alpha-beta regulatory T cell lineage commitment	http://purl.obolibrary.org/obo/CL_0000792	CD4-positive, CD25-positive, alpha-beta regulatory T cell
+http://purl.obolibrary.org/obo/GO_0043373	CD4-positive, alpha-beta T cell lineage commitment	http://purl.obolibrary.org/obo/CL_0000624	CD4-positive, alpha-beta T cell
+http://purl.obolibrary.org/obo/GO_0043375	CD8-positive, alpha-beta T cell lineage commitment	http://purl.obolibrary.org/obo/CL_0000625	CD8-positive, alpha-beta T cell
+http://purl.obolibrary.org/obo/GO_0002364	NK T cell lineage commitment	http://purl.obolibrary.org/obo/CL_0000814	mature NK T cell
+http://purl.obolibrary.org/obo/GO_0060010	Sertoli cell fate commitment	http://purl.obolibrary.org/obo/CL_0000216	Sertoli cell
+http://purl.obolibrary.org/obo/GO_0002360	T cell lineage commitment	http://purl.obolibrary.org/obo/CL_0000084	T cell
+http://purl.obolibrary.org/obo/GO_0002296	T-helper 1 cell lineage commitment	http://purl.obolibrary.org/obo/CL_0000545	T-helper 1 cell
+http://purl.obolibrary.org/obo/GO_0002297	T-helper 2 cell lineage commitment	http://purl.obolibrary.org/obo/CL_0000546	T-helper 2 cell
+http://purl.obolibrary.org/obo/GO_0002295	T-helper cell lineage commitment	http://purl.obolibrary.org/obo/CL_0000492	CD4-positive helper T cell
+http://purl.obolibrary.org/obo/GO_0002363	alpha-beta T cell lineage commitment	http://purl.obolibrary.org/obo/CL_0000789	alpha-beta T cell
+http://purl.obolibrary.org/obo/GO_0060018	astrocyte fate commitment	http://purl.obolibrary.org/obo/CL_0000127	astrocyte
+http://purl.obolibrary.org/obo/GO_0009912	auditory receptor cell fate commitment	http://purl.obolibrary.org/obo/CL_0000202	auditory hair cell
+http://purl.obolibrary.org/obo/GO_0060846	blood vessel endothelial cell fate commitment	http://purl.obolibrary.org/obo/CL_0000071	blood vessel endothelial cell
+http://purl.obolibrary.org/obo/GO_0060911	cardiac cell fate commitment	http://purl.obolibrary.org/obo/CL_0002494	cardiocyte
+http://purl.obolibrary.org/obo/GO_0060937	cardiac fibroblast cell fate commitment	http://purl.obolibrary.org/obo/CL_0002548	fibroblast of cardiac tissue
+http://purl.obolibrary.org/obo/GO_0060923	cardiac muscle cell fate commitment	http://purl.obolibrary.org/obo/CL_0000746	cardiac muscle cell
+http://purl.obolibrary.org/obo/GO_0021893	cerebral cortex GABAergic interneuron fate commitment	http://purl.obolibrary.org/obo/CL_0010011	cerebral cortex GABAergic interneuron
+http://purl.obolibrary.org/obo/GO_0001752	compound eye photoreceptor fate commitment	http://purl.obolibrary.org/obo/CL_2000019	compound eye photoreceptor cell
+http://purl.obolibrary.org/obo/GO_0001712	ectodermal cell fate commitment	http://purl.obolibrary.org/obo/CL_0000221	ectodermal cell
+http://purl.obolibrary.org/obo/GO_0001711	endodermal cell fate commitment	http://purl.obolibrary.org/obo/CL_0000223	endodermal cell
+http://purl.obolibrary.org/obo/GO_0060839	endothelial cell fate commitment	http://purl.obolibrary.org/obo/CL_0000115	endothelial cell
+http://purl.obolibrary.org/obo/GO_0035854	eosinophil fate commitment	http://purl.obolibrary.org/obo/CL_0000771	eosinophil
+http://purl.obolibrary.org/obo/GO_0072148	epithelial cell fate commitment	http://purl.obolibrary.org/obo/CL_0000066	epithelial cell
+http://purl.obolibrary.org/obo/GO_0042706	eye photoreceptor cell fate commitment	http://purl.obolibrary.org/obo/CL_0000287	eye photoreceptor cell
+http://purl.obolibrary.org/obo/GO_0002365	gamma-delta T cell lineage commitment	http://purl.obolibrary.org/obo/CL_0000798	gamma-delta T cell
+http://purl.obolibrary.org/obo/GO_0021781	glial cell fate commitment	http://purl.obolibrary.org/obo/CL_0000125	glial cell
+http://purl.obolibrary.org/obo/GO_0060015	granulosa cell fate commitment	http://purl.obolibrary.org/obo/CL_0000501	granulosa cell
+http://purl.obolibrary.org/obo/GO_0001827	inner cell mass cell fate commitment	http://purl.obolibrary.org/obo/CL_2000020	inner cell mass cell
+http://purl.obolibrary.org/obo/GO_0035027	leading edge cell fate commitment	http://purl.obolibrary.org/obo/CL_0000730	leading edge cell
+http://purl.obolibrary.org/obo/GO_0072151	mesangial cell fate commitment	http://purl.obolibrary.org/obo/CL_0000650	mesangial cell
+http://purl.obolibrary.org/obo/GO_0014030	mesenchymal cell fate commitment	http://purl.obolibrary.org/obo/CL_0008019	mesenchymal cell
+http://purl.obolibrary.org/obo/GO_0001710	mesodermal cell fate commitment	http://purl.obolibrary.org/obo/CL_0000222	mesodermal cell
+http://purl.obolibrary.org/obo/GO_0061258	mesonephric podocyte cell fate commitment	http://purl.obolibrary.org/obo/CL_0002523	mesonephric podocyte
+http://purl.obolibrary.org/obo/GO_0072250	metanephric podocyte cell fate commitment	http://purl.obolibrary.org/obo/CL_0002525	metanephric podocyte
+http://purl.obolibrary.org/obo/GO_0042693	muscle cell fate commitment	http://purl.obolibrary.org/obo/CL_0000187	muscle cell
+http://purl.obolibrary.org/obo/GO_0048625	myoblast fate commitment	http://purl.obolibrary.org/obo/CL_0000056	myoblast
+http://purl.obolibrary.org/obo/GO_0014034	neural crest cell fate commitment	http://purl.obolibrary.org/obo/CL_0000333	migratory neural crest cell
+http://purl.obolibrary.org/obo/GO_0014017	neuroblast fate commitment	http://purl.obolibrary.org/obo/CL_0000031	neuroblast (sensu Vertebrata)
+http://purl.obolibrary.org/obo/GO_0048663	neuron fate commitment	http://purl.obolibrary.org/obo/CL_0000540	neuron
+http://purl.obolibrary.org/obo/GO_0003359	noradrenergic neuron fate commitment	http://purl.obolibrary.org/obo/CL_0008025	noradrenergic neuron
+http://purl.obolibrary.org/obo/GO_0021890	olfactory bulb interneuron fate commitment	http://purl.obolibrary.org/obo/CL_1001434	olfactory bulb interneuron
+http://purl.obolibrary.org/obo/GO_0021779	oligodendrocyte cell fate commitment	http://purl.obolibrary.org/obo/CL_0000128	oligodendrocyte
+http://purl.obolibrary.org/obo/GO_0048600	oocyte fate commitment	http://purl.obolibrary.org/obo/CL_0000023	oocyte
+http://purl.obolibrary.org/obo/GO_0002051	osteoblast fate commitment	http://purl.obolibrary.org/obo/CL_0000062	osteoblast
+http://purl.obolibrary.org/obo/GO_0003326	pancreatic A cell fate commitment	http://purl.obolibrary.org/obo/CL_0000171	pancreatic A cell
+http://purl.obolibrary.org/obo/GO_0003328	pancreatic D cell fate commitment	http://purl.obolibrary.org/obo/CL_0000173	pancreatic D cell
+http://purl.obolibrary.org/obo/GO_0003329	pancreatic PP cell fate commitment	http://purl.obolibrary.org/obo/CL_0002275	pancreatic PP cell
+http://purl.obolibrary.org/obo/GO_0046552	photoreceptor cell fate commitment	http://purl.obolibrary.org/obo/CL_0000210	photoreceptor cell
+http://purl.obolibrary.org/obo/GO_0072149	podocyte cell fate commitment	http://purl.obolibrary.org/obo/CL_0000653	podocyte
+http://purl.obolibrary.org/obo/GO_0002680	pro-T cell lineage commitment	http://purl.obolibrary.org/obo/CL_0000827	pro-T cell
+http://purl.obolibrary.org/obo/GO_0046551	retinal cone cell fate commitment	http://purl.obolibrary.org/obo/CL_0000573	retinal cone cell
+http://purl.obolibrary.org/obo/GO_0060223	retinal rod cell fate commitment	http://purl.obolibrary.org/obo/CL_0000604	retinal rod cell
+http://purl.obolibrary.org/obo/GO_0014813	skeletal muscle satellite cell commitment	http://purl.obolibrary.org/obo/CL_0000594	skeletal muscle satellite cell
+http://purl.obolibrary.org/obo/GO_0048865	stem cell fate commitment	http://purl.obolibrary.org/obo/CL_0000034	stem cell
+http://purl.obolibrary.org/obo/GO_0001830	trophectodermal cell fate commitment	http://purl.obolibrary.org/obo/CL_1000274	trophectodermal cell
+http://purl.obolibrary.org/obo/GO_0003327	type B pancreatic cell fate commitment	http://purl.obolibrary.org/obo/CL_0000169	type B pancreatic cell
+http://purl.obolibrary.org/obo/GO_0060115	vestibular receptor cell fate commitment	http://purl.obolibrary.org/obo/CL_0000609	vestibular hair cell
