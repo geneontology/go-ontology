@@ -1,1 +1,26 @@
 defined_class	defined_class_label	target	target_label
+http://purl.obolibrary.org/obo/GO_0042668	auditory receptor cell fate determination	http://purl.obolibrary.org/obo/CL_0000202	auditory hair cell
+http://purl.obolibrary.org/obo/GO_0060913	cardiac cell fate determination	http://purl.obolibrary.org/obo/CL_0002494	cardiocyte
+http://purl.obolibrary.org/obo/GO_0061442	cardiac muscle cell fate determination	http://purl.obolibrary.org/obo/CL_0000746	cardiac muscle cell
+http://purl.obolibrary.org/obo/GO_0042680	compound eye cone cell fate determination	http://purl.obolibrary.org/obo/CL_0000718	compound eye cone cell
+http://purl.obolibrary.org/obo/GO_0001713	ectodermal cell fate determination	http://purl.obolibrary.org/obo/CL_0000221	ectodermal cell
+http://purl.obolibrary.org/obo/GO_0007493	endodermal cell fate determination	http://purl.obolibrary.org/obo/CL_0000223	endodermal cell
+http://purl.obolibrary.org/obo/GO_0060848	endothelial cell fate determination	http://purl.obolibrary.org/obo/CL_0000115	endothelial cell
+http://purl.obolibrary.org/obo/GO_0035858	eosinophil fate determination	http://purl.obolibrary.org/obo/CL_0000771	eosinophil
+http://purl.obolibrary.org/obo/GO_0007425	epithelial cell fate determination, open tracheal system	http://purl.obolibrary.org/obo/CL_0008026	open tracheal system tracheocyte
+http://purl.obolibrary.org/obo/GO_0007402	ganglion mother cell fate determination	http://purl.obolibrary.org/obo/CL_0000469	ganglion mother cell
+http://purl.obolibrary.org/obo/GO_0007403	glial cell fate determination	http://purl.obolibrary.org/obo/CL_0000125	glial cell
+http://purl.obolibrary.org/obo/GO_0035028	leading edge cell fate determination	http://purl.obolibrary.org/obo/CL_0000730	leading edge cell
+http://purl.obolibrary.org/obo/GO_0007500	mesodermal cell fate determination	http://purl.obolibrary.org/obo/CL_0000222	mesodermal cell
+http://purl.obolibrary.org/obo/GO_0007521	muscle cell fate determination	http://purl.obolibrary.org/obo/CL_0000187	muscle cell
+http://purl.obolibrary.org/obo/GO_0007518	myoblast fate determination	http://purl.obolibrary.org/obo/CL_0000056	myoblast
+http://purl.obolibrary.org/obo/GO_0014035	neural crest cell fate determination	http://purl.obolibrary.org/obo/CL_0000333	migratory neural crest cell
+http://purl.obolibrary.org/obo/GO_0007400	neuroblast fate determination	http://purl.obolibrary.org/obo/CL_0000031	neuroblast (sensu Vertebrata)
+http://purl.obolibrary.org/obo/GO_0048664	neuron fate determination	http://purl.obolibrary.org/obo/CL_0000540	neuron
+http://purl.obolibrary.org/obo/GO_0030716	oocyte fate determination	http://purl.obolibrary.org/obo/CL_0000023	oocyte
+http://purl.obolibrary.org/obo/GO_0043703	photoreceptor cell fate determination	http://purl.obolibrary.org/obo/CL_0000210	photoreceptor cell
+http://purl.obolibrary.org/obo/GO_0007278	pole cell fate determination	http://purl.obolibrary.org/obo/CL_0000301	pole cell
+http://purl.obolibrary.org/obo/GO_0042671	retinal cone cell fate determination	http://purl.obolibrary.org/obo/CL_0000573	retinal cone cell
+http://purl.obolibrary.org/obo/GO_0014818	skeletal muscle satellite cell fate determination	http://purl.obolibrary.org/obo/CL_0000594	skeletal muscle satellite cell
+http://purl.obolibrary.org/obo/GO_0048867	stem cell fate determination	http://purl.obolibrary.org/obo/CL_0000034	stem cell
+http://purl.obolibrary.org/obo/GO_0097083	vascular associated smooth muscle cell fate determination	http://purl.obolibrary.org/obo/CL_0000359	vascular associated smooth muscle cell

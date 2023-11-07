@@ -2842,8 +2842,8 @@ http://purl.obolibrary.org/obo/GO_1900618	regulation of shoot system morphogenes
 http://purl.obolibrary.org/obo/GO_0048587	regulation of short-day photoperiodism, flowering	http://purl.obolibrary.org/obo/GO_0048575	short-day photoperiodism, flowering
 http://purl.obolibrary.org/obo/GO_1905512	regulation of short-term synaptic potentiation	http://purl.obolibrary.org/obo/GO_1990926	short-term synaptic potentiation
 http://purl.obolibrary.org/obo/GO_0070921	regulation of siRNA processing	http://purl.obolibrary.org/obo/GO_0030422	siRNA processing
-http://purl.obolibrary.org/obo/GO_1902802	regulation of siRNA-dependent facultative heterochromatin formation	http://purl.obolibrary.org/obo/GO_1902795	siRNA-mediated facultative heterochromatin formation
 http://purl.obolibrary.org/obo/GO_1902801	regulation of siRNA-independent facultative heterochromatin formation	http://purl.obolibrary.org/obo/GO_1902794	siRNA-independent facultative heterochromatin formation
+http://purl.obolibrary.org/obo/GO_1902802	regulation of siRNA-mediated facultative heterochromatin formation	http://purl.obolibrary.org/obo/GO_1902795	siRNA-mediated facultative heterochromatin formation
 http://purl.obolibrary.org/obo/GO_1900704	regulation of siderophore biosynthetic process	http://purl.obolibrary.org/obo/GO_0019290	siderophore biosynthetic process
 http://purl.obolibrary.org/obo/GO_0009966	regulation of signal transduction	http://purl.obolibrary.org/obo/GO_0007165	signal transduction
 http://purl.obolibrary.org/obo/GO_1901796	regulation of signal transduction by p53 class mediator	http://purl.obolibrary.org/obo/GO_0072331	signal transduction by p53 class mediator
