@@ -29,7 +29,7 @@ def:
      - end
 
 equivalentTo:
-  text: "'cell-cell signaling' and ('has start locatoin' some %s) and ('has end location' some %s)"
+  text: "'cell-cell signaling' and ('has start location' some %s) and ('has end location' some %s)"
   vars:
     - start
     - end
