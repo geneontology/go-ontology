@@ -29,6 +29,7 @@ http://purl.obolibrary.org/obo/GO_1902773	GTPase activator complex	http://purl.o
 http://purl.obolibrary.org/obo/GO_1905360	GTPase complex	http://purl.obolibrary.org/obo/GO_0003924	GTPase activity
 http://purl.obolibrary.org/obo/GO_0070775	H3 histone acetyltransferase complex	http://purl.obolibrary.org/obo/GO_0010484	histone H3 acetyltransferase activity
 http://purl.obolibrary.org/obo/GO_1902562	H4 histone acetyltransferase complex	http://purl.obolibrary.org/obo/GO_0010485	histone H4 acetyltransferase activity
+http://purl.obolibrary.org/obo/GO_0048476	Holliday junction resolvase complex	http://purl.obolibrary.org/obo/GO_0008821	crossover junction DNA endonuclease activity
 http://purl.obolibrary.org/obo/GO_0008385	IkappaB kinase complex	http://purl.obolibrary.org/obo/GO_0008384	IkappaB kinase activity
 http://purl.obolibrary.org/obo/GO_0030964	NADH dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0003954	NADH dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_0043020	NADPH oxidase complex	http://purl.obolibrary.org/obo/GO_0016175	superoxide-generating NAD(P)H oxidase activity

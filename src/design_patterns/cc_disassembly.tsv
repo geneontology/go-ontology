@@ -8,11 +8,14 @@ http://purl.obolibrary.org/obo/GO_1990171	SCF complex disassembly in response to
 http://purl.obolibrary.org/obo/GO_0035494	SNARE complex disassembly	http://purl.obolibrary.org/obo/GO_0031201	SNARE complex
 http://purl.obolibrary.org/obo/GO_1905670	TORC2 complex disassembly	http://purl.obolibrary.org/obo/GO_0031932	TORC2 complex
 http://purl.obolibrary.org/obo/GO_1902621	actomyosin contractile ring disassembly	http://purl.obolibrary.org/obo/GO_0005826	actomyosin contractile ring
+http://purl.obolibrary.org/obo/GO_0120179	adherens junction disassembly	http://purl.obolibrary.org/obo/GO_0005912	adherens junction
 http://purl.obolibrary.org/obo/GO_0030399	autophagosome membrane disassembly	http://purl.obolibrary.org/obo/GO_0000421	autophagosome membrane
 http://purl.obolibrary.org/obo/GO_0034769	basement membrane disassembly	http://purl.obolibrary.org/obo/GO_0005604	basement membrane
 http://purl.obolibrary.org/obo/GO_1904886	beta-catenin destruction complex disassembly	http://purl.obolibrary.org/obo/GO_0030877	beta-catenin destruction complex
 http://purl.obolibrary.org/obo/GO_0150146	cell junction disassembly	http://purl.obolibrary.org/obo/GO_0030054	cell junction
 http://purl.obolibrary.org/obo/GO_0044277	cell wall disassembly	http://purl.obolibrary.org/obo/GO_0005618	cell wall
+http://purl.obolibrary.org/obo/GO_0150147	cell-cell junction disassembly	http://purl.obolibrary.org/obo/GO_0005911	cell-cell junction
+http://purl.obolibrary.org/obo/GO_0120180	cell-substrate junction disassembly	http://purl.obolibrary.org/obo/GO_0030055	cell-substrate junction
 http://purl.obolibrary.org/obo/GO_1904764	chaperone-mediated autophagy translocation complex disassembly	http://purl.obolibrary.org/obo/GO_0061742	chaperone-mediated autophagy translocation complex
 http://purl.obolibrary.org/obo/GO_1904821	chloroplast disassembly	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
 http://purl.obolibrary.org/obo/GO_0061523	cilium disassembly	http://purl.obolibrary.org/obo/GO_0005929	cilium
