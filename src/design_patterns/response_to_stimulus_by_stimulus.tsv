@@ -1,0 +1,412 @@
+defined_class	defined_class_label	stimulus	stimulus_label
+http://purl.obolibrary.org/obo/GO_0061959	response to (R)-carnitine	http://purl.obolibrary.org/obo/CHEBI_16347	(R)-carnitine
+http://purl.obolibrary.org/obo/GO_0009961	response to 1-aminocyclopropane-1-carboxylic acid	http://purl.obolibrary.org/obo/CHEBI_58360	1-aminocyclopropanecarboxylic acid zwitterion
+http://purl.obolibrary.org/obo/GO_1904565	response to 1-oleoyl-sn-glycerol 3-phosphate	http://purl.obolibrary.org/obo/CHEBI_74544	1-oleoyl-sn-glycero-3-phosphate(2-)
+http://purl.obolibrary.org/obo/GO_1903496	response to 11-deoxycorticosterone	http://purl.obolibrary.org/obo/CHEBI_16973	11-deoxycorticosterone
+http://purl.obolibrary.org/obo/GO_1904612	response to 2,3,7,8-tetrachlorodibenzodioxine	http://purl.obolibrary.org/obo/CHEBI_28119	2,3,7,8-tetrachlorodibenzodioxine
+http://purl.obolibrary.org/obo/GO_1904316	response to 2-O-acetyl-1-O-hexadecyl-sn-glycero-3-phosphocholine	http://purl.obolibrary.org/obo/CHEBI_44811	2-O-acetyl-1-O-hexadecyl-sn-glycero-3-phosphocholine
+http://purl.obolibrary.org/obo/GO_1904610	response to 3,3',4,4',5-pentachlorobiphenyl	http://purl.obolibrary.org/obo/CHEBI_34317	3,3',4,4',5-pentachlorobiphenyl
+http://purl.obolibrary.org/obo/GO_1905242	response to 3,3',5-triiodo-L-thyronine	http://purl.obolibrary.org/obo/CHEBI_533015	3,3',5-triiodo-L-thyronine zwitterion
+http://purl.obolibrary.org/obo/GO_1904681	response to 3-methylcholanthrene	http://purl.obolibrary.org/obo/CHEBI_34342	3-methylcholanthrene
+http://purl.obolibrary.org/obo/GO_1902522	response to 4'-epidoxorubicin	http://purl.obolibrary.org/obo/CHEBI_41983	4'-epidoxorubicinium
+http://purl.obolibrary.org/obo/GO_0072724	response to 4-nitroquinoline N-oxide	http://purl.obolibrary.org/obo/CHEBI_16907	4-nitroquinoline N-oxide
+http://purl.obolibrary.org/obo/GO_0097330	response to 5-fluoro-2'-deoxyuridine	http://purl.obolibrary.org/obo/CHEBI_60761	floxuridine
+http://purl.obolibrary.org/obo/GO_0036275	response to 5-fluorouracil	http://purl.obolibrary.org/obo/CHEBI_46345	5-fluorouracil
+http://purl.obolibrary.org/obo/GO_0033198	response to ATP	http://purl.obolibrary.org/obo/CHEBI_30616	ATP(4-)
+http://purl.obolibrary.org/obo/GO_1904010	response to Aroclor 1254	http://purl.obolibrary.org/obo/CHEBI_63933	Aroclor 1254
+http://purl.obolibrary.org/obo/GO_1904421	response to D-galactosamine	http://purl.obolibrary.org/obo/CHEBI_28328	D-galactosamine
+http://purl.obolibrary.org/obo/GO_1905377	response to D-galactose	http://purl.obolibrary.org/obo/CHEBI_12936	D-galactose
+http://purl.obolibrary.org/obo/GO_0046680	response to DDT	http://purl.obolibrary.org/obo/CHEBI_16130	DDT
+http://purl.obolibrary.org/obo/GO_1901593	response to GW 7647	http://purl.obolibrary.org/obo/CHEBI_70778	GW 7647
+http://purl.obolibrary.org/obo/GO_1903576	response to L-arginine	http://purl.obolibrary.org/obo/CHEBI_32682	L-argininium(1+)
+http://purl.obolibrary.org/obo/GO_0033591	response to L-ascorbic acid	http://purl.obolibrary.org/obo/CHEBI_38290	L-ascorbate
+http://purl.obolibrary.org/obo/GO_1901354	response to L-canavanine	http://purl.obolibrary.org/obo/CHEBI_78902	L-canavanine(1+)
+http://purl.obolibrary.org/obo/GO_1901367	response to L-cysteine	http://purl.obolibrary.org/obo/CHEBI_35235	L-cysteine zwitterion
+http://purl.obolibrary.org/obo/GO_1904473	response to L-dopa	http://purl.obolibrary.org/obo/CHEBI_57504	L-dopa zwitterion
+http://purl.obolibrary.org/obo/GO_1902065	response to L-glutamate	http://purl.obolibrary.org/obo/CHEBI_29985	L-glutamate(1-)
+http://purl.obolibrary.org/obo/GO_1904844	response to L-glutamine	http://purl.obolibrary.org/obo/CHEBI_58359	L-glutamine zwitterion
+http://purl.obolibrary.org/obo/GO_1904386	response to L-phenylalanine derivative	http://purl.obolibrary.org/obo/CHEBI_84144	L-phenylalanine derivative
+http://purl.obolibrary.org/obo/GO_1901345	response to L-thialysine	http://purl.obolibrary.org/obo/CHEBI_156132	L-thialysinium
+http://purl.obolibrary.org/obo/GO_0097315	response to N-acetyl-D-glucosamine	http://purl.obolibrary.org/obo/CHEBI_506227	N-acetyl-D-glucosamine
+http://purl.obolibrary.org/obo/GO_1902610	response to N-phenylthiourea	http://purl.obolibrary.org/obo/CHEBI_46261	N-phenylthiourea
+http://purl.obolibrary.org/obo/GO_1904016	response to Thyroglobulin triiodothyronine	http://purl.obolibrary.org/obo/CHEBI_80690	Thyroglobulin triiodothyronine
+http://purl.obolibrary.org/obo/GO_1904400	response to Thyroid stimulating hormone	http://purl.obolibrary.org/obo/CHEBI_81567	thyroid stimulating hormone
+http://purl.obolibrary.org/obo/GO_0009737	response to abscisic acid	http://purl.obolibrary.org/obo/CHEBI_62071	2-cis-abscisate
+http://purl.obolibrary.org/obo/GO_1904101	response to acadesine	http://purl.obolibrary.org/obo/CHEBI_28498	acadesine
+http://purl.obolibrary.org/obo/GO_1905640	response to acetaldehyde	http://purl.obolibrary.org/obo/CHEBI_15343	acetaldehyde
+http://purl.obolibrary.org/obo/GO_0010034	response to acetate	http://purl.obolibrary.org/obo/CHEBI_30089	acetate
+http://purl.obolibrary.org/obo/GO_1905144	response to acetylcholine	http://purl.obolibrary.org/obo/CHEBI_15355	acetylcholine
+http://purl.obolibrary.org/obo/GO_1903492	response to acetylsalicylate	http://purl.obolibrary.org/obo/CHEBI_13719	acetylsalicylate
+http://purl.obolibrary.org/obo/GO_0001101	response to acid chemical	http://purl.obolibrary.org/obo/GOCHE_37527	substance with acid role
+http://purl.obolibrary.org/obo/GO_1903937	response to acrylamide	http://purl.obolibrary.org/obo/CHEBI_28619	acrylamide
+http://purl.obolibrary.org/obo/GO_0072716	response to actinomycin D	http://purl.obolibrary.org/obo/CHEBI_27666	actinomycin D
+http://purl.obolibrary.org/obo/GO_0097305	response to alcohol	http://purl.obolibrary.org/obo/CHEBI_30879	alcohol
+http://purl.obolibrary.org/obo/GO_1904044	response to aldosterone	http://purl.obolibrary.org/obo/CHEBI_27584	aldosterone
+http://purl.obolibrary.org/obo/GO_0043279	response to alkaloid	http://purl.obolibrary.org/obo/CHEBI_22315	alkaloid
+http://purl.obolibrary.org/obo/GO_1902778	response to alkane	http://purl.obolibrary.org/obo/CHEBI_18310	alkane
+http://purl.obolibrary.org/obo/GO_0033195	response to alkyl hydroperoxide	http://purl.obolibrary.org/obo/CHEBI_61050	alkyl hydroperoxide
+http://purl.obolibrary.org/obo/GO_0010044	response to aluminum ion	http://purl.obolibrary.org/obo/CHEBI_63062	aluminium cation
+http://purl.obolibrary.org/obo/GO_0014075	response to amine	http://purl.obolibrary.org/obo/CHEBI_32952	amine
+http://purl.obolibrary.org/obo/GO_0043200	response to amino acid	http://purl.obolibrary.org/obo/CHEBI_33709	amino acid
+http://purl.obolibrary.org/obo/GO_0072722	response to amitrole	http://purl.obolibrary.org/obo/CHEBI_40036	amitrole
+http://purl.obolibrary.org/obo/GO_0060359	response to ammonium ion	http://purl.obolibrary.org/obo/CHEBI_28938	ammonium
+http://purl.obolibrary.org/obo/GO_0001975	response to amphetamine	http://purl.obolibrary.org/obo/CHEBI_2679	amphetamine
+http://purl.obolibrary.org/obo/GO_1904645	response to amyloid-beta	http://purl.obolibrary.org/obo/CHEBI_64645	amyloid-beta
+http://purl.obolibrary.org/obo/GO_0044591	response to amylopectin	http://purl.obolibrary.org/obo/CHEBI_28057	amylopectin
+http://purl.obolibrary.org/obo/GO_0072347	response to anesthetic	http://purl.obolibrary.org/obo/GOCHE_38867	substance with anaesthetic role
+http://purl.obolibrary.org/obo/GO_1990776	response to angiotensin	http://purl.obolibrary.org/obo/CHEBI_48433	angiotensin
+http://purl.obolibrary.org/obo/GO_0046677	response to antibiotic	http://purl.obolibrary.org/obo/GOCHE_33281	substance with antimicrobial agent role
+http://purl.obolibrary.org/obo/GO_0061476	response to anticoagulant	http://purl.obolibrary.org/obo/GOCHE_50249	substance with anticoagulant role
+http://purl.obolibrary.org/obo/GO_0036277	response to anticonvulsant	http://purl.obolibrary.org/obo/GOCHE_35623	substance with anticonvulsant role
+http://purl.obolibrary.org/obo/GO_0036276	response to antidepressant	http://purl.obolibrary.org/obo/GOCHE_35469	substance with antidepressant role
+http://purl.obolibrary.org/obo/GO_0097329	response to antimetabolite	http://purl.obolibrary.org/obo/GOCHE_35221	substance with antimetabolite role
+http://purl.obolibrary.org/obo/GO_1901325	response to antimycin A	http://purl.obolibrary.org/obo/CHEBI_2762	antimycin A
+http://purl.obolibrary.org/obo/GO_0097327	response to antineoplastic agent	http://purl.obolibrary.org/obo/GOCHE_35610	substance with antineoplastic agent role
+http://purl.obolibrary.org/obo/GO_0097332	response to antipsychotic drug	http://purl.obolibrary.org/obo/GOCHE_35476	substance with antipsychotic agent role
+http://purl.obolibrary.org/obo/GO_1904550	response to arachidonic acid	http://purl.obolibrary.org/obo/CHEBI_32395	arachidonate
+http://purl.obolibrary.org/obo/GO_0061477	response to aromatase inhibitor	http://purl.obolibrary.org/obo/GOCHE_50790	substance with EC 1.14.14.14 (aromatase) inhibitor role
+http://purl.obolibrary.org/obo/GO_0046685	response to arsenic-containing substance	http://purl.obolibrary.org/obo/CHEBI_22632	arsenic molecular entity
+http://purl.obolibrary.org/obo/GO_1903842	response to arsenite ion	http://purl.obolibrary.org/obo/CHEBI_22633	arsenite ion
+http://purl.obolibrary.org/obo/GO_1903840	response to arsenite(3-)	http://purl.obolibrary.org/obo/CHEBI_29242	arsenite(1-)
+http://purl.obolibrary.org/obo/GO_1905217	response to astaxanthin	http://purl.obolibrary.org/obo/CHEBI_40968	astaxanthin
+http://purl.obolibrary.org/obo/GO_0009733	response to auxin	http://purl.obolibrary.org/obo/GOCHE_22676	substance with auxin role
+http://purl.obolibrary.org/obo/GO_0097184	response to azide	http://purl.obolibrary.org/obo/CHEBI_40910	azide anion
+http://purl.obolibrary.org/obo/GO_0046678	response to bacteriocin	http://purl.obolibrary.org/obo/CHEBI_48081	bacteriocin
+http://purl.obolibrary.org/obo/GO_1901423	response to benzene	http://purl.obolibrary.org/obo/CHEBI_16716	benzene
+http://purl.obolibrary.org/obo/GO_0080021	response to benzoic acid	http://purl.obolibrary.org/obo/CHEBI_16150	benzoate
+http://purl.obolibrary.org/obo/GO_1905387	response to beta-carotene	http://purl.obolibrary.org/obo/CHEBI_17579	beta-carotene
+http://purl.obolibrary.org/obo/GO_1903412	response to bile acid	http://purl.obolibrary.org/obo/CHEBI_3098	bile acid
+http://purl.obolibrary.org/obo/GO_0070781	response to biotin	http://purl.obolibrary.org/obo/CHEBI_57586	biotinate
+http://purl.obolibrary.org/obo/GO_1904614	response to biphenyl	http://purl.obolibrary.org/obo/CHEBI_17097	biphenyl
+http://purl.obolibrary.org/obo/GO_0072700	response to bismuth	http://purl.obolibrary.org/obo/CHEBI_85543	bismuth ion
+http://purl.obolibrary.org/obo/GO_1903925	response to bisphenol A	http://purl.obolibrary.org/obo/CHEBI_33216	bisphenol A
+http://purl.obolibrary.org/obo/GO_1904975	response to bleomycin	http://purl.obolibrary.org/obo/CHEBI_22907	bleomycin
+http://purl.obolibrary.org/obo/GO_1905230	response to borneol	http://purl.obolibrary.org/obo/CHEBI_28093	borneol
+http://purl.obolibrary.org/obo/GO_0010036	response to boron-containing substance	http://purl.obolibrary.org/obo/CHEBI_22916	boron molecular entity
+http://purl.obolibrary.org/obo/GO_0009741	response to brassinosteroid	http://purl.obolibrary.org/obo/CHEBI_22921	brassinosteroid
+http://purl.obolibrary.org/obo/GO_0031001	response to brefeldin A	http://purl.obolibrary.org/obo/CHEBI_48080	brefeldin A
+http://purl.obolibrary.org/obo/GO_0097366	response to bronchodilator	http://purl.obolibrary.org/obo/GOCHE_35523	substance with bronchodilator agent role
+http://purl.obolibrary.org/obo/GO_1901422	response to butan-1-ol	http://purl.obolibrary.org/obo/CHEBI_28885	butan-1-ol
+http://purl.obolibrary.org/obo/GO_1903544	response to butyrate	http://purl.obolibrary.org/obo/CHEBI_17968	butyrate
+http://purl.obolibrary.org/obo/GO_0051591	response to cAMP	http://purl.obolibrary.org/obo/CHEBI_58165	3',5'-cyclic AMP(1-)
+http://purl.obolibrary.org/obo/GO_0070305	response to cGMP	http://purl.obolibrary.org/obo/CHEBI_57746	3',5'-cyclic GMP(1-)
+http://purl.obolibrary.org/obo/GO_0046686	response to cadmium ion	http://purl.obolibrary.org/obo/CHEBI_63063	cadmium cation
+http://purl.obolibrary.org/obo/GO_0031000	response to caffeine	http://purl.obolibrary.org/obo/CHEBI_27732	caffeine
+http://purl.obolibrary.org/obo/GO_0051592	response to calcium ion	http://purl.obolibrary.org/obo/CHEBI_29108	calcium(2+)
+http://purl.obolibrary.org/obo/GO_1901563	response to camptothecin	http://purl.obolibrary.org/obo/CHEBI_27656	camptothecin
+http://purl.obolibrary.org/obo/GO_1901556	response to candesartan	http://purl.obolibrary.org/obo/CHEBI_149509	candesartan(2-)
+http://purl.obolibrary.org/obo/GO_1901594	response to capsazepine	http://purl.obolibrary.org/obo/CHEBI_70773	capsazepine
+http://purl.obolibrary.org/obo/GO_0046681	response to carbamate	http://purl.obolibrary.org/obo/CHEBI_13941	carbamate
+http://purl.obolibrary.org/obo/GO_1901597	response to carbendazim	http://purl.obolibrary.org/obo/CHEBI_3392	carbendazim
+http://purl.obolibrary.org/obo/GO_0009743	response to carbohydrate	http://purl.obolibrary.org/obo/CHEBI_16646	carbohydrate
+http://purl.obolibrary.org/obo/GO_0010037	response to carbon dioxide	http://purl.obolibrary.org/obo/CHEBI_16526	carbon dioxide
+http://purl.obolibrary.org/obo/GO_0034465	response to carbon monoxide	http://purl.obolibrary.org/obo/CHEBI_17245	carbon monoxide
+http://purl.obolibrary.org/obo/GO_0097328	response to carboplatin	http://purl.obolibrary.org/obo/CHEBI_31355	carboplatin
+http://purl.obolibrary.org/obo/GO_1902168	response to catechin	http://purl.obolibrary.org/obo/CHEBI_23053	catechin
+http://purl.obolibrary.org/obo/GO_0071869	response to catecholamine	http://purl.obolibrary.org/obo/CHEBI_33567	catecholamine
+http://purl.obolibrary.org/obo/GO_0010164	response to cesium ion	http://purl.obolibrary.org/obo/CHEBI_60270	caesium ion
+http://purl.obolibrary.org/obo/GO_0042221	response to chemical	http://purl.obolibrary.org/obo/CHEBI_24431	chemical entity
+http://purl.obolibrary.org/obo/GO_0010200	response to chitin	http://purl.obolibrary.org/obo/CHEBI_17029	chitin
+http://purl.obolibrary.org/obo/GO_1901322	response to chloramphenicol	http://purl.obolibrary.org/obo/CHEBI_17698	chloramphenicol
+http://purl.obolibrary.org/obo/GO_0010157	response to chlorate	http://purl.obolibrary.org/obo/CHEBI_49709	chlorate
+http://purl.obolibrary.org/obo/GO_1902349	response to chloroquine	http://purl.obolibrary.org/obo/CHEBI_149484	chloroquine(2+)
+http://purl.obolibrary.org/obo/GO_0061847	response to cholecystokinin	http://purl.obolibrary.org/obo/PR_000005110	cholecystokinin
+http://purl.obolibrary.org/obo/GO_0070723	response to cholesterol	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol
+http://purl.obolibrary.org/obo/GO_1905441	response to chondroitin 4'-sulfate	http://purl.obolibrary.org/obo/CHEBI_58422	chondroitin 4'-sulfate anion
+http://purl.obolibrary.org/obo/GO_1905439	response to chondroitin 6'-sulfate	http://purl.obolibrary.org/obo/CHEBI_62065	chondroitin 6'-sulfate anion
+http://purl.obolibrary.org/obo/GO_0046687	response to chromate	http://purl.obolibrary.org/obo/CHEBI_35404	chromate(2-)
+http://purl.obolibrary.org/obo/GO_1904391	response to ciliary neurotrophic factor	http://purl.obolibrary.org/obo/PR_000005663	ciliary neurotrophic factor
+http://purl.obolibrary.org/obo/GO_0072718	response to cisplatin	http://purl.obolibrary.org/obo/CHEBI_27899	cisplatin
+http://purl.obolibrary.org/obo/GO_1903493	response to clopidogrel	http://purl.obolibrary.org/obo/CHEBI_37941	clopidogrel
+http://purl.obolibrary.org/obo/GO_0097338	response to clozapine	http://purl.obolibrary.org/obo/CHEBI_3766	clozapine
+http://purl.obolibrary.org/obo/GO_0033590	response to cobalamin	http://purl.obolibrary.org/obo/CHEBI_30411	cobalamin
+http://purl.obolibrary.org/obo/GO_0032025	response to cobalt ion	http://purl.obolibrary.org/obo/CHEBI_23336	cobalt cation
+http://purl.obolibrary.org/obo/GO_0042220	response to cocaine	http://purl.obolibrary.org/obo/CHEBI_60056	cocaine(1+)
+http://purl.obolibrary.org/obo/GO_1905233	response to codeine	http://purl.obolibrary.org/obo/CHEBI_57871	codeine(1+)
+http://purl.obolibrary.org/obo/GO_0046688	response to copper ion	http://purl.obolibrary.org/obo/CHEBI_23378	copper cation
+http://purl.obolibrary.org/obo/GO_1904309	response to cordycepin	http://purl.obolibrary.org/obo/CHEBI_29014	cordycepin
+http://purl.obolibrary.org/obo/GO_0031960	response to corticosteroid	http://purl.obolibrary.org/obo/CHEBI_50858	corticosteroid
+http://purl.obolibrary.org/obo/GO_0051412	response to corticosterone	http://purl.obolibrary.org/obo/CHEBI_16827	corticosterone
+http://purl.obolibrary.org/obo/GO_0043435	response to corticotropin-releasing hormone	http://purl.obolibrary.org/obo/CHEBI_65311	corticotropin-releasing hormone
+http://purl.obolibrary.org/obo/GO_0051414	response to cortisol	http://purl.obolibrary.org/obo/CHEBI_17650	cortisol
+http://purl.obolibrary.org/obo/GO_0051413	response to cortisone	http://purl.obolibrary.org/obo/CHEBI_16962	cortisone
+http://purl.obolibrary.org/obo/GO_1904643	response to curcumin	http://purl.obolibrary.org/obo/CHEBI_3962	curcumin
+http://purl.obolibrary.org/obo/GO_1903927	response to cyanide	http://purl.obolibrary.org/obo/CHEBI_18407	hydrogen cyanide
+http://purl.obolibrary.org/obo/GO_0014071	response to cycloalkane	http://purl.obolibrary.org/obo/CHEBI_23453	cycloalkane
+http://purl.obolibrary.org/obo/GO_0046682	response to cyclodiene	http://purl.obolibrary.org/obo/CHEBI_23457	cyclodiene organochlorine insecticide
+http://purl.obolibrary.org/obo/GO_0046898	response to cycloheximide	http://purl.obolibrary.org/obo/CHEBI_27641	cycloheximide
+http://purl.obolibrary.org/obo/GO_1902518	response to cyclophosphamide	http://purl.obolibrary.org/obo/CHEBI_4027	cyclophosphamide
+http://purl.obolibrary.org/obo/GO_1905237	response to cyclosporin A	http://purl.obolibrary.org/obo/CHEBI_4031	cyclosporin A
+http://purl.obolibrary.org/obo/GO_0097331	response to cytarabine	http://purl.obolibrary.org/obo/CHEBI_28680	cytarabine
+http://purl.obolibrary.org/obo/GO_1901328	response to cytochalasin B	http://purl.obolibrary.org/obo/CHEBI_23527	cytochalasin B
+http://purl.obolibrary.org/obo/GO_0009735	response to cytokinin	http://purl.obolibrary.org/obo/GOCHE_23530	substance with cytokinin role
+http://purl.obolibrary.org/obo/GO_1901493	response to decalin	http://purl.obolibrary.org/obo/CHEBI_38853	decalin
+http://purl.obolibrary.org/obo/GO_1902782	response to decane	http://purl.obolibrary.org/obo/CHEBI_41808	decane
+http://purl.obolibrary.org/obo/GO_1903494	response to dehydroepiandrosterone	http://purl.obolibrary.org/obo/CHEBI_28689	dehydroepiandrosterone
+http://purl.obolibrary.org/obo/GO_1904307	response to desipramine	http://purl.obolibrary.org/obo/CHEBI_47781	desipramine
+http://purl.obolibrary.org/obo/GO_0071548	response to dexamethasone	http://purl.obolibrary.org/obo/CHEBI_41879	dexamethasone
+http://purl.obolibrary.org/obo/GO_1904558	response to dextromethorphan	http://purl.obolibrary.org/obo/CHEBI_4470	dextromethorphan
+http://purl.obolibrary.org/obo/GO_0072737	response to diamide	http://purl.obolibrary.org/obo/CHEBI_48958	1,1'-azobis(N,N-dimethylformamide)
+http://purl.obolibrary.org/obo/GO_1902111	response to diethyl maleate	http://purl.obolibrary.org/obo/CHEBI_68508	diethyl maleate
+http://purl.obolibrary.org/obo/GO_1903013	response to differentiation-inducing factor 1	http://purl.obolibrary.org/obo/CHEBI_90397	1-(3,5-dichloro-2,6-dihydroxy-4-methoxyphenyl)hexan-1-one(1-)
+http://purl.obolibrary.org/obo/GO_1905960	response to differentiation-inducing factor 2	http://purl.obolibrary.org/obo/CHEBI_134269	1-(3,5-dichloro-2,6-dihydroxy-4-methoxyphenyl)pentan-1-one
+http://purl.obolibrary.org/obo/GO_1904619	response to dimethyl sulfoxide	http://purl.obolibrary.org/obo/CHEBI_28262	dimethyl sulfoxide
+http://purl.obolibrary.org/obo/GO_1904641	response to dinitrophenol	http://purl.obolibrary.org/obo/CHEBI_39352	dinitrophenol
+http://purl.obolibrary.org/obo/GO_1905092	response to diosgenin	http://purl.obolibrary.org/obo/CHEBI_4629	diosgenin
+http://purl.obolibrary.org/obo/GO_1904560	response to diphenidol	http://purl.obolibrary.org/obo/CHEBI_4638	diphenidol
+http://purl.obolibrary.org/obo/GO_1901497	response to diphenyl ether	http://purl.obolibrary.org/obo/CHEBI_39258	diphenyl ether
+http://purl.obolibrary.org/obo/GO_0034285	response to disaccharide	http://purl.obolibrary.org/obo/CHEBI_36233	disaccharide
+http://purl.obolibrary.org/obo/GO_1904629	response to diterpene	http://purl.obolibrary.org/obo/CHEBI_35190	diterpene
+http://purl.obolibrary.org/obo/GO_0072720	response to dithiothreitol	http://purl.obolibrary.org/obo/CHEBI_18320	1,4-dithiothreitol
+http://purl.obolibrary.org/obo/GO_0036270	response to diuretic	http://purl.obolibrary.org/obo/GOCHE_35498	substance with diuretic role
+http://purl.obolibrary.org/obo/GO_1902519	response to docetaxel trihydrate	http://purl.obolibrary.org/obo/CHEBI_59809	docetaxel trihydrate
+http://purl.obolibrary.org/obo/GO_1902786	response to dodecane	http://purl.obolibrary.org/obo/CHEBI_28817	dodecane
+http://purl.obolibrary.org/obo/GO_1903350	response to dopamine	http://purl.obolibrary.org/obo/CHEBI_59905	dopaminium(1+)
+http://purl.obolibrary.org/obo/GO_1902520	response to doxorubicin	http://purl.obolibrary.org/obo/CHEBI_64816	doxorubicin(1+)
+http://purl.obolibrary.org/obo/GO_1990784	response to dsDNA	http://purl.obolibrary.org/obo/CHEBI_4705	double-stranded DNA
+http://purl.obolibrary.org/obo/GO_0043331	response to dsRNA	http://purl.obolibrary.org/obo/CHEBI_67208	double-stranded RNA
+http://purl.obolibrary.org/obo/GO_0035075	response to ecdysone	http://purl.obolibrary.org/obo/CHEBI_16688	ecdysone
+http://purl.obolibrary.org/obo/GO_0071871	response to epinephrine	http://purl.obolibrary.org/obo/CHEBI_33568	adrenaline
+http://purl.obolibrary.org/obo/GO_1901323	response to erythromycin	http://purl.obolibrary.org/obo/CHEBI_48923	erythromycin
+http://purl.obolibrary.org/obo/GO_0032355	response to estradiol	http://purl.obolibrary.org/obo/CHEBI_23965	estradiol
+http://purl.obolibrary.org/obo/GO_0043627	response to estrogen	http://purl.obolibrary.org/obo/GOCHE_50114	substance with estrogen role
+http://purl.obolibrary.org/obo/GO_0045471	response to ethanol	http://purl.obolibrary.org/obo/CHEBI_16236	ethanol
+http://purl.obolibrary.org/obo/GO_0045472	response to ether	http://purl.obolibrary.org/obo/CHEBI_25698	ether
+http://purl.obolibrary.org/obo/GO_0009723	response to ethylene	http://purl.obolibrary.org/obo/CHEBI_18153	ethene
+http://purl.obolibrary.org/obo/GO_1902521	response to etoposide	http://purl.obolibrary.org/obo/CHEBI_4911	etoposide
+http://purl.obolibrary.org/obo/GO_0097307	response to farnesol	http://purl.obolibrary.org/obo/CHEBI_28600	farnesol
+http://purl.obolibrary.org/obo/GO_0070542	response to fatty acid	http://purl.obolibrary.org/obo/CHEBI_28868	fatty acid anion
+http://purl.obolibrary.org/obo/GO_1901557	response to fenofibrate	http://purl.obolibrary.org/obo/CHEBI_5001	fenofibrate
+http://purl.obolibrary.org/obo/GO_1905395	response to flavonoid	http://purl.obolibrary.org/obo/CHEBI_47916	flavonoid
+http://purl.obolibrary.org/obo/GO_1902617	response to fluoride	http://purl.obolibrary.org/obo/CHEBI_17051	fluoride
+http://purl.obolibrary.org/obo/GO_0014076	response to fluoxetine	http://purl.obolibrary.org/obo/CHEBI_5118	fluoxetine
+http://purl.obolibrary.org/obo/GO_0051593	response to folic acid	http://purl.obolibrary.org/obo/CHEBI_62501	folate(2-)
+http://purl.obolibrary.org/obo/GO_0032094	response to food	http://purl.obolibrary.org/obo/GOCHE_33290	substance with food role
+http://purl.obolibrary.org/obo/GO_1904404	response to formaldehyde	http://purl.obolibrary.org/obo/CHEBI_16842	formaldehyde
+http://purl.obolibrary.org/obo/GO_1901425	response to formic acid	http://purl.obolibrary.org/obo/CHEBI_15740	formate
+http://purl.obolibrary.org/obo/GO_1904321	response to forskolin	http://purl.obolibrary.org/obo/CHEBI_42471	forskolin
+http://purl.obolibrary.org/obo/GO_0009750	response to fructose	http://purl.obolibrary.org/obo/CHEBI_28757	fructose
+http://purl.obolibrary.org/obo/GO_0060992	response to fungicide	http://purl.obolibrary.org/obo/GOCHE_24127	substance with fungicide role
+http://purl.obolibrary.org/obo/GO_1901426	response to furfural	http://purl.obolibrary.org/obo/CHEBI_34768	furfural
+http://purl.obolibrary.org/obo/GO_0036272	response to gemcitabine	http://purl.obolibrary.org/obo/CHEBI_175901	gemcitabine
+http://purl.obolibrary.org/obo/GO_0033595	response to genistein	http://purl.obolibrary.org/obo/CHEBI_74224	genistein(1-)
+http://purl.obolibrary.org/obo/GO_0009739	response to gibberellin	http://purl.obolibrary.org/obo/CHEBI_24250	gibberellin
+http://purl.obolibrary.org/obo/GO_0033762	response to glucagon	http://purl.obolibrary.org/obo/CHEBI_5391	glucagon
+http://purl.obolibrary.org/obo/GO_0051384	response to glucocorticoid	http://purl.obolibrary.org/obo/CHEBI_24261	glucocorticoid
+http://purl.obolibrary.org/obo/GO_0009749	response to glucose	http://purl.obolibrary.org/obo/CHEBI_17234	glucose
+http://purl.obolibrary.org/obo/GO_1904631	response to glucoside	http://purl.obolibrary.org/obo/CHEBI_24278	glucoside
+http://purl.obolibrary.org/obo/GO_1901370	response to glutathione	http://purl.obolibrary.org/obo/CHEBI_57925	glutathionate(1-)
+http://purl.obolibrary.org/obo/GO_1905630	response to glyceraldehyde	http://purl.obolibrary.org/obo/CHEBI_5445	glyceraldehyde
+http://purl.obolibrary.org/obo/GO_1905429	response to glycine	http://purl.obolibrary.org/obo/CHEBI_57305	glycine zwitterion
+http://purl.obolibrary.org/obo/GO_1904587	response to glycoprotein	http://purl.obolibrary.org/obo/CHEBI_17089	glycoprotein
+http://purl.obolibrary.org/obo/GO_1903416	response to glycoside	http://purl.obolibrary.org/obo/CHEBI_24400	glycoside
+http://purl.obolibrary.org/obo/GO_1904311	response to gold(3+)	http://purl.obolibrary.org/obo/CHEBI_49496	gold(3+)
+http://purl.obolibrary.org/obo/GO_0060416	response to growth hormone	http://purl.obolibrary.org/obo/GOCHE_37845	substance with growth hormone role
+http://purl.obolibrary.org/obo/GO_1905119	response to haloperidol	http://purl.obolibrary.org/obo/CHEBI_5613	haloperidol
+http://purl.obolibrary.org/obo/GO_0071503	response to heparin	http://purl.obolibrary.org/obo/CHEBI_28304	heparin
+http://purl.obolibrary.org/obo/GO_0009635	response to herbicide	http://purl.obolibrary.org/obo/GOCHE_24527	substance with herbicide role
+http://purl.obolibrary.org/obo/GO_1901595	response to hesperadin	http://purl.obolibrary.org/obo/CHEBI_70726	hesperadin
+http://purl.obolibrary.org/obo/GO_1901499	response to hexane	http://purl.obolibrary.org/obo/CHEBI_29021	hexane
+http://purl.obolibrary.org/obo/GO_0009746	response to hexose	http://purl.obolibrary.org/obo/CHEBI_18133	hexose
+http://purl.obolibrary.org/obo/GO_0034776	response to histamine	http://purl.obolibrary.org/obo/CHEBI_58432	histaminium
+http://purl.obolibrary.org/obo/GO_0080052	response to histidine	http://purl.obolibrary.org/obo/CHEBI_27570	histidine
+http://purl.obolibrary.org/obo/GO_1905374	response to homocysteine	http://purl.obolibrary.org/obo/CHEBI_58065	homocysteine zwitterion
+http://purl.obolibrary.org/obo/GO_0009725	response to hormone	http://purl.obolibrary.org/obo/GOCHE_24621	substance with hormone role
+http://purl.obolibrary.org/obo/GO_0042542	response to hydrogen peroxide	http://purl.obolibrary.org/obo/CHEBI_16240	hydrogen peroxide
+http://purl.obolibrary.org/obo/GO_1904880	response to hydrogen sulfide	http://purl.obolibrary.org/obo/CHEBI_29919	hydrosulfide
+http://purl.obolibrary.org/obo/GO_0033194	response to hydroperoxide	http://purl.obolibrary.org/obo/CHEBI_35923	hydroperoxide
+http://purl.obolibrary.org/obo/GO_0033594	response to hydroxyisoflavone	http://purl.obolibrary.org/obo/CHEBI_38755	hydroxyisoflavone
+http://purl.obolibrary.org/obo/GO_0072710	response to hydroxyurea	http://purl.obolibrary.org/obo/CHEBI_44423	hydroxyurea
+http://purl.obolibrary.org/obo/GO_1901530	response to hypochlorite	http://purl.obolibrary.org/obo/CHEBI_24757	hypochlorous acid
+http://purl.obolibrary.org/obo/GO_0036287	response to iloperidone	http://purl.obolibrary.org/obo/CHEBI_65173	iloperidone
+http://purl.obolibrary.org/obo/GO_1902351	response to imidacloprid	http://purl.obolibrary.org/obo/CHEBI_5870	imidacloprid
+http://purl.obolibrary.org/obo/GO_0071680	response to indole-3-methanol	http://purl.obolibrary.org/obo/CHEBI_24814	indole-3-methanol
+http://purl.obolibrary.org/obo/GO_0080026	response to indolebutyric acid	http://purl.obolibrary.org/obo/CHEBI_143274	indole-3-butyrate
+http://purl.obolibrary.org/obo/GO_0010035	response to inorganic substance	http://purl.obolibrary.org/obo/CHEBI_24835	inorganic molecular entity
+http://purl.obolibrary.org/obo/GO_1902140	response to inositol	http://purl.obolibrary.org/obo/CHEBI_24848	inositol
+http://purl.obolibrary.org/obo/GO_0017085	response to insecticide	http://purl.obolibrary.org/obo/GOCHE_24852	substance with insecticide role
+http://purl.obolibrary.org/obo/GO_1904636	response to ionomycin	http://purl.obolibrary.org/obo/CHEBI_63954	ionomycin
+http://purl.obolibrary.org/obo/GO_0010039	response to iron ion	http://purl.obolibrary.org/obo/CHEBI_24875	iron cation
+http://purl.obolibrary.org/obo/GO_0010040	response to iron(II) ion	http://purl.obolibrary.org/obo/CHEBI_29033	iron(2+)
+http://purl.obolibrary.org/obo/GO_0010041	response to iron(III) ion	http://purl.obolibrary.org/obo/CHEBI_29034	iron(3+)
+http://purl.obolibrary.org/obo/GO_1902665	response to isobutanol	http://purl.obolibrary.org/obo/CHEBI_46645	isobutanol
+http://purl.obolibrary.org/obo/GO_1902788	response to isooctane	http://purl.obolibrary.org/obo/CHEBI_62805	isooctane
+http://purl.obolibrary.org/obo/GO_0014072	response to isoquinoline alkaloid	http://purl.obolibrary.org/obo/CHEBI_24921	isoquinoline alkaloid
+http://purl.obolibrary.org/obo/GO_0009753	response to jasmonic acid	http://purl.obolibrary.org/obo/CHEBI_58431	jasmonate(1-)
+http://purl.obolibrary.org/obo/GO_1904373	response to kainic acid	http://purl.obolibrary.org/obo/CHEBI_156548	kainate(1-)
+http://purl.obolibrary.org/obo/GO_1901986	response to ketamine	http://purl.obolibrary.org/obo/CHEBI_6121	ketamine
+http://purl.obolibrary.org/obo/GO_1901654	response to ketone	http://purl.obolibrary.org/obo/CHEBI_17087	ketone
+http://purl.obolibrary.org/obo/GO_0036274	response to lapatinib	http://purl.obolibrary.org/obo/CHEBI_49603	lapatinib
+http://purl.obolibrary.org/obo/GO_0010288	response to lead ion	http://purl.obolibrary.org/obo/CHEBI_60252	lead cation
+http://purl.obolibrary.org/obo/GO_1901344	response to leptomycin B	http://purl.obolibrary.org/obo/CHEBI_52646	leptomycin B
+http://purl.obolibrary.org/obo/GO_0043201	response to leucine	http://purl.obolibrary.org/obo/CHEBI_25017	leucine
+http://purl.obolibrary.org/obo/GO_1905389	response to leukotriene B4	http://purl.obolibrary.org/obo/CHEBI_57461	leukotriene B4(1-)
+http://purl.obolibrary.org/obo/GO_0070543	response to linoleic acid	http://purl.obolibrary.org/obo/CHEBI_30245	linoleate
+http://purl.obolibrary.org/obo/GO_0033993	response to lipid	http://purl.obolibrary.org/obo/CHEBI_18059	lipid
+http://purl.obolibrary.org/obo/GO_0006982	response to lipid hydroperoxide	http://purl.obolibrary.org/obo/CHEBI_61051	lipid hydroperoxide
+http://purl.obolibrary.org/obo/GO_1903442	response to lipoic acid	http://purl.obolibrary.org/obo/CHEBI_30313	lipoate
+http://purl.obolibrary.org/obo/GO_0032496	response to lipopolysaccharide	http://purl.obolibrary.org/obo/CHEBI_16412	lipopolysaccharide
+http://purl.obolibrary.org/obo/GO_0055094	response to lipoprotein particle	http://purl.obolibrary.org/obo/CHEBI_6495	lipoprotein
+http://purl.obolibrary.org/obo/GO_0070391	response to lipoteichoic acid	http://purl.obolibrary.org/obo/CHEBI_28640	lipoteichoic acid
+http://purl.obolibrary.org/obo/GO_0010226	response to lithium ion	http://purl.obolibrary.org/obo/CHEBI_49713	lithium(1+)
+http://purl.obolibrary.org/obo/GO_0032026	response to magnesium ion	http://purl.obolibrary.org/obo/CHEBI_39127	magnesium cation
+http://purl.obolibrary.org/obo/GO_0034286	response to maltose	http://purl.obolibrary.org/obo/CHEBI_17306	maltose
+http://purl.obolibrary.org/obo/GO_0010042	response to manganese ion	http://purl.obolibrary.org/obo/CHEBI_25155	manganese cation
+http://purl.obolibrary.org/obo/GO_0010555	response to mannitol	http://purl.obolibrary.org/obo/CHEBI_29864	mannitol
+http://purl.obolibrary.org/obo/GO_1905582	response to mannose	http://purl.obolibrary.org/obo/CHEBI_37684	mannose
+http://purl.obolibrary.org/obo/GO_0032572	response to menaquinone	http://purl.obolibrary.org/obo/CHEBI_16374	menaquinone
+http://purl.obolibrary.org/obo/GO_0072704	response to mercaptoethanol	http://purl.obolibrary.org/obo/CHEBI_41218	mercaptoethanol
+http://purl.obolibrary.org/obo/GO_0046689	response to mercury ion	http://purl.obolibrary.org/obo/CHEBI_25197	mercury cation
+http://purl.obolibrary.org/obo/GO_0010038	response to metal ion	http://purl.obolibrary.org/obo/CHEBI_25213	metal cation
+http://purl.obolibrary.org/obo/GO_1901558	response to metformin	http://purl.obolibrary.org/obo/CHEBI_6801	metformin
+http://purl.obolibrary.org/obo/GO_1904313	response to methamphetamine hydrochloride	http://purl.obolibrary.org/obo/CHEBI_132297	methamphetamine(1+)
+http://purl.obolibrary.org/obo/GO_0033986	response to methanol	http://purl.obolibrary.org/obo/CHEBI_17790	methanol
+http://purl.obolibrary.org/obo/GO_1904640	response to methionine	http://purl.obolibrary.org/obo/CHEBI_64558	methionine zwitterion
+http://purl.obolibrary.org/obo/GO_0031427	response to methotrexate	http://purl.obolibrary.org/obo/CHEBI_50681	methotrexate(2-)
+http://purl.obolibrary.org/obo/GO_0072702	response to methyl methanesulfonate	http://purl.obolibrary.org/obo/CHEBI_25255	methyl methanesulfonate
+http://purl.obolibrary.org/obo/GO_0036255	response to methylamine	http://purl.obolibrary.org/obo/CHEBI_59338	methylammonium
+http://purl.obolibrary.org/obo/GO_0051595	response to methylglyoxal	http://purl.obolibrary.org/obo/CHEBI_17158	methylglyoxal
+http://purl.obolibrary.org/obo/GO_0051597	response to methylmercury	http://purl.obolibrary.org/obo/CHEBI_49747	methylmercury(1+)
+http://purl.obolibrary.org/obo/GO_0036271	response to methylphenidate	http://purl.obolibrary.org/obo/CHEBI_6887	methylphenidate
+http://purl.obolibrary.org/obo/GO_1903967	response to micafungin	http://purl.obolibrary.org/obo/CHEBI_600520	micafungin
+http://purl.obolibrary.org/obo/GO_1905307	response to miconazole	http://purl.obolibrary.org/obo/CHEBI_6923	miconazole
+http://purl.obolibrary.org/obo/GO_0051385	response to mineralocorticoid	http://purl.obolibrary.org/obo/CHEBI_25354	mineralocorticoid
+http://purl.obolibrary.org/obo/GO_0071867	response to monoamine	http://purl.obolibrary.org/obo/CHEBI_63534	monoamine
+http://purl.obolibrary.org/obo/GO_0034284	response to monosaccharide	http://purl.obolibrary.org/obo/CHEBI_35381	monosaccharide
+http://purl.obolibrary.org/obo/GO_0043278	response to morphine	http://purl.obolibrary.org/obo/CHEBI_58097	morphine(1+)
+http://purl.obolibrary.org/obo/GO_0032495	response to muramyl dipeptide	http://purl.obolibrary.org/obo/CHEBI_59414	muramyl dipeptide
+http://purl.obolibrary.org/obo/GO_0071505	response to mycophenolic acid	http://purl.obolibrary.org/obo/CHEBI_62932	mycophenolate
+http://purl.obolibrary.org/obo/GO_0010046	response to mycotoxin	http://purl.obolibrary.org/obo/GOCHE_25442	substance with mycotoxin role
+http://purl.obolibrary.org/obo/GO_0010045	response to nickel cation	http://purl.obolibrary.org/obo/CHEBI_25516	nickel cation
+http://purl.obolibrary.org/obo/GO_0035094	response to nicotine	http://purl.obolibrary.org/obo/CHEBI_18723	nicotine
+http://purl.obolibrary.org/obo/GO_0010167	response to nitrate	http://purl.obolibrary.org/obo/CHEBI_17632	nitrate
+http://purl.obolibrary.org/obo/GO_0071731	response to nitric oxide	http://purl.obolibrary.org/obo/CHEBI_16480	nitric oxide
+http://purl.obolibrary.org/obo/GO_0080033	response to nitrite	http://purl.obolibrary.org/obo/CHEBI_16301	nitrite
+http://purl.obolibrary.org/obo/GO_1901698	response to nitrogen compound	http://purl.obolibrary.org/obo/CHEBI_51143	nitrogen molecular entity
+http://purl.obolibrary.org/obo/GO_0035713	response to nitrogen dioxide	http://purl.obolibrary.org/obo/CHEBI_33101	nitrogen dioxide
+http://purl.obolibrary.org/obo/GO_1904842	response to nitroglycerin	http://purl.obolibrary.org/obo/CHEBI_28787	nitroglycerin
+http://purl.obolibrary.org/obo/GO_1904402	response to nocodazole	http://purl.obolibrary.org/obo/CHEBI_34892	nocodazole
+http://purl.obolibrary.org/obo/GO_1902780	response to nonane	http://purl.obolibrary.org/obo/CHEBI_32892	nonane
+http://purl.obolibrary.org/obo/GO_1904147	response to nonylphenol	http://purl.obolibrary.org/obo/CHEBI_79516	Nonylphenol
+http://purl.obolibrary.org/obo/GO_0071873	response to norepinephrine	http://purl.obolibrary.org/obo/CHEBI_72587	(R)-noradrenaline(1+)
+http://purl.obolibrary.org/obo/GO_0007584	response to nutrient	http://purl.obolibrary.org/obo/GOCHE_33284	substance with nutrient role
+http://purl.obolibrary.org/obo/GO_0097333	response to olanzapine	http://purl.obolibrary.org/obo/CHEBI_7735	olanzapine
+http://purl.obolibrary.org/obo/GO_0034201	response to oleic acid	http://purl.obolibrary.org/obo/CHEBI_30823	oleate
+http://purl.obolibrary.org/obo/GO_0014070	response to organic cyclic compound	http://purl.obolibrary.org/obo/CHEBI_33832	organic cyclic compound
+http://purl.obolibrary.org/obo/GO_0010243	response to organonitrogen compound	http://purl.obolibrary.org/obo/CHEBI_35352	organonitrogen compound
+http://purl.obolibrary.org/obo/GO_0046683	response to organophosphorus	http://purl.obolibrary.org/obo/CHEBI_25710	organophosphorus compound
+http://purl.obolibrary.org/obo/GO_1905841	response to oxidopamine	http://purl.obolibrary.org/obo/CHEBI_78741	oxidopamine
+http://purl.obolibrary.org/obo/GO_0000305	response to oxygen radical	http://purl.obolibrary.org/obo/CHEBI_61073	oxygen radical
+http://purl.obolibrary.org/obo/GO_1901700	response to oxygen-containing compound	http://purl.obolibrary.org/obo/CHEBI_25806	oxygen molecular entity
+http://purl.obolibrary.org/obo/GO_0010193	response to ozone	http://purl.obolibrary.org/obo/CHEBI_25812	ozone
+http://purl.obolibrary.org/obo/GO_1901500	response to p-xylene	http://purl.obolibrary.org/obo/CHEBI_27417	p-xylene
+http://purl.obolibrary.org/obo/GO_1904926	response to palmitoleic acid	http://purl.obolibrary.org/obo/CHEBI_32372	palmitoleate
+http://purl.obolibrary.org/obo/GO_0072730	response to papulacandin B	http://purl.obolibrary.org/obo/CHEBI_569624	papulacandin B
+http://purl.obolibrary.org/obo/GO_1901554	response to paracetamol	http://purl.obolibrary.org/obo/CHEBI_46195	paracetamol
+http://purl.obolibrary.org/obo/GO_1901562	response to paraquat	http://purl.obolibrary.org/obo/CHEBI_34905	paraquat
+http://purl.obolibrary.org/obo/GO_1901652	response to peptide	http://purl.obolibrary.org/obo/CHEBI_16670	peptide
+http://purl.obolibrary.org/obo/GO_0043434	response to peptide hormone	http://purl.obolibrary.org/obo/CHEBI_25905	peptide hormone
+http://purl.obolibrary.org/obo/GO_0032494	response to peptidoglycan	http://purl.obolibrary.org/obo/CHEBI_8005	peptidoglycan
+http://purl.obolibrary.org/obo/GO_0097334	response to perphenazine	http://purl.obolibrary.org/obo/CHEBI_8028	perphenazine
+http://purl.obolibrary.org/obo/GO_0080053	response to phenylalanine	http://purl.obolibrary.org/obo/CHEBI_28044	phenylalanine
+http://purl.obolibrary.org/obo/GO_0080184	response to phenylpropanoid	http://purl.obolibrary.org/obo/CHEBI_26004	phenylpropanoid
+http://purl.obolibrary.org/obo/GO_0019236	response to pheromone	http://purl.obolibrary.org/obo/GOCHE_26013	substance with pheromone role
+http://purl.obolibrary.org/obo/GO_1904627	response to phorbol 13-acetate 12-myristate	http://purl.obolibrary.org/obo/CHEBI_37537	phorbol 13-acetate 12-myristate
+http://purl.obolibrary.org/obo/GO_1905711	response to phosphatidylethanolamine	http://purl.obolibrary.org/obo/CHEBI_57613	phosphatidylethanolamine zwitterion
+http://purl.obolibrary.org/obo/GO_0032573	response to phylloquinone	http://purl.obolibrary.org/obo/CHEBI_18067	phylloquinone
+http://purl.obolibrary.org/obo/GO_0061478	response to platelet aggregation inhibitor	http://purl.obolibrary.org/obo/GOCHE_50427	substance with platelet aggregation inhibitor role
+http://purl.obolibrary.org/obo/GO_0070541	response to platinum ion	http://purl.obolibrary.org/obo/CHEBI_63526	platinum cation
+http://purl.obolibrary.org/obo/GO_1902708	response to plumbagin	http://purl.obolibrary.org/obo/CHEBI_8273	plumbagin
+http://purl.obolibrary.org/obo/GO_1904583	response to polyamine macromolecule	http://purl.obolibrary.org/obo/CHEBI_51349	polyamine macromolecule
+http://purl.obolibrary.org/obo/GO_1903165	response to polycyclic arene	http://purl.obolibrary.org/obo/CHEBI_33848	polycyclic arene
+http://purl.obolibrary.org/obo/GO_0035864	response to potassium ion	http://purl.obolibrary.org/obo/CHEBI_29103	potassium(1+)
+http://purl.obolibrary.org/obo/GO_0032570	response to progesterone	http://purl.obolibrary.org/obo/CHEBI_17026	progesterone
+http://purl.obolibrary.org/obo/GO_0010238	response to proline	http://purl.obolibrary.org/obo/CHEBI_26271	proline
+http://purl.obolibrary.org/obo/GO_1901427	response to propan-1-ol	http://purl.obolibrary.org/obo/CHEBI_28831	propan-1-ol
+http://purl.obolibrary.org/obo/GO_0034694	response to prostaglandin	http://purl.obolibrary.org/obo/CHEBI_26333	prostaglandin
+http://purl.obolibrary.org/obo/GO_0071798	response to prostaglandin D	http://purl.obolibrary.org/obo/CHEBI_26337	prostaglandins D
+http://purl.obolibrary.org/obo/GO_0034695	response to prostaglandin E	http://purl.obolibrary.org/obo/CHEBI_26338	prostaglandins E
+http://purl.obolibrary.org/obo/GO_0034696	response to prostaglandin F	http://purl.obolibrary.org/obo/CHEBI_26340	prostaglandins F
+http://purl.obolibrary.org/obo/GO_0034697	response to prostaglandin I	http://purl.obolibrary.org/obo/CHEBI_26345	prostaglandins I
+http://purl.obolibrary.org/obo/GO_0044592	response to pullulan	http://purl.obolibrary.org/obo/CHEBI_27941	pullulan
+http://purl.obolibrary.org/obo/GO_0014074	response to purine-containing compound	http://purl.obolibrary.org/obo/CHEBI_26401	purines
+http://purl.obolibrary.org/obo/GO_1905794	response to puromycin	http://purl.obolibrary.org/obo/CHEBI_60255	puromycin(1+)
+http://purl.obolibrary.org/obo/GO_1901560	response to purvalanol A	http://purl.obolibrary.org/obo/CHEBI_47600	purvalanol A
+http://purl.obolibrary.org/obo/GO_1904585	response to putrescine	http://purl.obolibrary.org/obo/CHEBI_326268	1,4-butanediammonium
+http://purl.obolibrary.org/obo/GO_1905834	response to pyrimidine ribonucleotide	http://purl.obolibrary.org/obo/CHEBI_26446	pyrimidine ribonucleotide
+http://purl.obolibrary.org/obo/GO_1905235	response to quercetin	http://purl.obolibrary.org/obo/CHEBI_57694	quercetin-7-olate
+http://purl.obolibrary.org/obo/GO_0097335	response to quetiapine	http://purl.obolibrary.org/obo/CHEBI_8707	quetiapine
+http://purl.obolibrary.org/obo/GO_1901545	response to raffinose	http://purl.obolibrary.org/obo/CHEBI_16634	raffinose
+http://purl.obolibrary.org/obo/GO_1901355	response to rapamycin	http://purl.obolibrary.org/obo/CHEBI_9168	sirolimus
+http://purl.obolibrary.org/obo/GO_0000302	response to reactive oxygen species	http://purl.obolibrary.org/obo/CHEBI_26523	reactive oxygen species
+http://purl.obolibrary.org/obo/GO_1904638	response to resveratrol	http://purl.obolibrary.org/obo/CHEBI_27881	resveratrol
+http://purl.obolibrary.org/obo/GO_0032526	response to retinoic acid	http://purl.obolibrary.org/obo/CHEBI_15036	retinoate
+http://purl.obolibrary.org/obo/GO_0061479	response to reverse transcriptase inhibitor	http://purl.obolibrary.org/obo/GOCHE_59897	substance with EC 2.7.7.49 (RNA-directed DNA polymerase) inhibitor role
+http://purl.obolibrary.org/obo/GO_1901596	response to reversine	http://purl.obolibrary.org/obo/CHEBI_70723	reversine
+http://purl.obolibrary.org/obo/GO_0032149	response to rhamnose	http://purl.obolibrary.org/obo/CHEBI_26546	rhamnose
+http://purl.obolibrary.org/obo/GO_1901559	response to ribavirin	http://purl.obolibrary.org/obo/CHEBI_63580	ribavirin
+http://purl.obolibrary.org/obo/GO_0097336	response to risperidone	http://purl.obolibrary.org/obo/CHEBI_8871	risperidone
+http://purl.obolibrary.org/obo/GO_1904647	response to rotenone	http://purl.obolibrary.org/obo/CHEBI_28201	rotenone
+http://purl.obolibrary.org/obo/GO_0009751	response to salicylic acid	http://purl.obolibrary.org/obo/CHEBI_30762	salicylate
+http://purl.obolibrary.org/obo/GO_1902074	response to salt	http://purl.obolibrary.org/obo/CHEBI_24866	salt
+http://purl.obolibrary.org/obo/GO_0010269	response to selenium ion	http://purl.obolibrary.org/obo/CHEBI_60250	selenium ion
+http://purl.obolibrary.org/obo/GO_1904014	response to serotonin	http://purl.obolibrary.org/obo/CHEBI_350546	serotonin(1+)
+http://purl.obolibrary.org/obo/GO_0034021	response to silicon dioxide	http://purl.obolibrary.org/obo/CHEBI_30563	silicon dioxide
+http://purl.obolibrary.org/obo/GO_0010272	response to silver ion	http://purl.obolibrary.org/obo/CHEBI_60253	silver cation
+http://purl.obolibrary.org/obo/GO_1903491	response to simvastatin	http://purl.obolibrary.org/obo/CHEBI_9150	simvastatin
+http://purl.obolibrary.org/obo/GO_0000304	response to singlet oxygen	http://purl.obolibrary.org/obo/CHEBI_26689	singlet dioxygen
+http://purl.obolibrary.org/obo/GO_1903935	response to sodium arsenite	http://purl.obolibrary.org/obo/CHEBI_29678	sodium arsenite
+http://purl.obolibrary.org/obo/GO_0072706	response to sodium dodecyl sulfate	http://purl.obolibrary.org/obo/CHEBI_23872	dodecyl sulfate
+http://purl.obolibrary.org/obo/GO_1904383	response to sodium phosphate	http://purl.obolibrary.org/obo/CHEBI_37586	sodium phosphate
+http://purl.obolibrary.org/obo/GO_0072708	response to sorbitol	http://purl.obolibrary.org/obo/CHEBI_30911	glucitol
+http://purl.obolibrary.org/obo/GO_0036273	response to statin	http://purl.obolibrary.org/obo/CHEBI_87631	statin
+http://purl.obolibrary.org/obo/GO_0072733	response to staurosporine	http://purl.obolibrary.org/obo/CHEBI_57491	staurosporinium
+http://purl.obolibrary.org/obo/GO_0048545	response to steroid hormone	http://purl.obolibrary.org/obo/CHEBI_26764	steroid hormone
+http://purl.obolibrary.org/obo/GO_0036314	response to sterol	http://purl.obolibrary.org/obo/CHEBI_15889	sterol
+http://purl.obolibrary.org/obo/GO_0035634	response to stilbenoid	http://purl.obolibrary.org/obo/CHEBI_26776	stilbenoid
+http://purl.obolibrary.org/obo/GO_0046679	response to streptomycin	http://purl.obolibrary.org/obo/CHEBI_58007	streptomycin(3+)
+http://purl.obolibrary.org/obo/GO_1902347	response to strigolactone	http://purl.obolibrary.org/obo/CHEBI_68487	strigolactone
+http://purl.obolibrary.org/obo/GO_0009744	response to sucrose	http://purl.obolibrary.org/obo/CHEBI_17992	sucrose
+http://purl.obolibrary.org/obo/GO_0010477	response to sulfur dioxide	http://purl.obolibrary.org/obo/CHEBI_18422	sulfur dioxide
+http://purl.obolibrary.org/obo/GO_0000303	response to superoxide	http://purl.obolibrary.org/obo/CHEBI_18421	superoxide
+http://purl.obolibrary.org/obo/GO_1901327	response to tacrolimus	http://purl.obolibrary.org/obo/CHEBI_61049	tacrolimus (anhydrous)
+http://purl.obolibrary.org/obo/GO_1901905	response to tamsulosin	http://purl.obolibrary.org/obo/CHEBI_142544	tamsulosin(1+)
+http://purl.obolibrary.org/obo/GO_0046690	response to tellurium ion	http://purl.obolibrary.org/obo/CHEBI_60271	tellurium ion
+http://purl.obolibrary.org/obo/GO_1990054	response to temozolomide	http://purl.obolibrary.org/obo/CHEBI_72564	temozolomide
+http://purl.obolibrary.org/obo/GO_0072735	response to tert-butyl hydroperoxide	http://purl.obolibrary.org/obo/CHEBI_64090	tert-butyl hydroperoxide
+http://purl.obolibrary.org/obo/GO_0033574	response to testosterone	http://purl.obolibrary.org/obo/CHEBI_17347	testosterone
+http://purl.obolibrary.org/obo/GO_1904772	response to tetrachloromethane	http://purl.obolibrary.org/obo/CHEBI_27385	tetrachloromethane
+http://purl.obolibrary.org/obo/GO_1901326	response to tetracycline	http://purl.obolibrary.org/obo/CHEBI_77932	tetracycline zwitterion
+http://purl.obolibrary.org/obo/GO_1904481	response to tetrahydrofolate	http://purl.obolibrary.org/obo/CHEBI_67016	tetrahydrofolate
+http://purl.obolibrary.org/obo/GO_1901498	response to tetralin	http://purl.obolibrary.org/obo/CHEBI_35008	tetralin
+http://purl.obolibrary.org/obo/GO_0072712	response to thiabendazole	http://purl.obolibrary.org/obo/CHEBI_45979	thiabendazole
+http://purl.obolibrary.org/obo/GO_0097066	response to thyroid hormone	http://purl.obolibrary.org/obo/GOCHE_60311	substance with thyroid hormone role
+http://purl.obolibrary.org/obo/GO_1905225	response to thyrotropin-releasing hormone	http://purl.obolibrary.org/obo/CHEBI_35940	protirelin
+http://purl.obolibrary.org/obo/GO_0097068	response to thyroxine	http://purl.obolibrary.org/obo/CHEBI_58448	L-thyroxine zwitterion
+http://purl.obolibrary.org/obo/GO_1901424	response to toluene	http://purl.obolibrary.org/obo/CHEBI_17578	toluene
+http://purl.obolibrary.org/obo/GO_0009636	response to toxic substance	http://purl.obolibrary.org/obo/GOCHE_64909	substance with poison role
+http://purl.obolibrary.org/obo/GO_0010353	response to trehalose	http://purl.obolibrary.org/obo/CHEBI_27082	trehalose
+http://purl.obolibrary.org/obo/GO_0080094	response to trehalose-6-phosphate	http://purl.obolibrary.org/obo/CHEBI_58429	alpha,alpha-trehalose 6-phosphate(2-)
+http://purl.obolibrary.org/obo/GO_1901324	response to trichodermin	http://purl.obolibrary.org/obo/CHEBI_9688	trichodermin
+http://purl.obolibrary.org/obo/GO_0035983	response to trichostatin A	http://purl.obolibrary.org/obo/CHEBI_46024	trichostatin A
+http://purl.obolibrary.org/obo/GO_0034014	response to triglyceride	http://purl.obolibrary.org/obo/CHEBI_17855	triglyceride
+http://purl.obolibrary.org/obo/GO_1905836	response to triterpenoid	http://purl.obolibrary.org/obo/CHEBI_36615	triterpenoid
+http://purl.obolibrary.org/obo/GO_0014073	response to tropane	http://purl.obolibrary.org/obo/CHEBI_35615	tropane
+http://purl.obolibrary.org/obo/GO_1902784	response to undecane	http://purl.obolibrary.org/obo/CHEBI_46342	undecane
+http://purl.obolibrary.org/obo/GO_1902438	response to vanadate(3-)	http://purl.obolibrary.org/obo/CHEBI_35169	dihydrogenvanadate
+http://purl.obolibrary.org/obo/GO_1904116	response to vasopressin	http://purl.obolibrary.org/obo/CHEBI_9937	vasopressin
+http://purl.obolibrary.org/obo/GO_0033273	response to vitamin	http://purl.obolibrary.org/obo/GOCHE_33229	substance with vitamin (role) role
+http://purl.obolibrary.org/obo/GO_0033189	response to vitamin A	http://purl.obolibrary.org/obo/CHEBI_12777	vitamin A
+http://purl.obolibrary.org/obo/GO_0010266	response to vitamin B1	http://purl.obolibrary.org/obo/CHEBI_18385	thiamine(1+)
+http://purl.obolibrary.org/obo/GO_0033274	response to vitamin B2	http://purl.obolibrary.org/obo/CHEBI_57986	riboflavin(1-)
+http://purl.obolibrary.org/obo/GO_0034516	response to vitamin B6	http://purl.obolibrary.org/obo/CHEBI_27306	vitamin B6
+http://purl.obolibrary.org/obo/GO_0033280	response to vitamin D	http://purl.obolibrary.org/obo/CHEBI_27300	vitamin D
+http://purl.obolibrary.org/obo/GO_0033197	response to vitamin E	http://purl.obolibrary.org/obo/CHEBI_33234	vitamin E
+http://purl.obolibrary.org/obo/GO_0032571	response to vitamin K	http://purl.obolibrary.org/obo/CHEBI_28384	vitamin K
+http://purl.obolibrary.org/obo/GO_0009415	response to water	http://purl.obolibrary.org/obo/CHEBI_15377	water
+http://purl.obolibrary.org/obo/GO_1904567	response to wortmannin	http://purl.obolibrary.org/obo/CHEBI_52289	wortmannin
+http://purl.obolibrary.org/obo/GO_0009410	response to xenobiotic stimulus	http://purl.obolibrary.org/obo/GOCHE_35703	substance with xenobiotic role
+http://purl.obolibrary.org/obo/GO_0036288	response to ximelagatran	http://purl.obolibrary.org/obo/CHEBI_65172	ximelagatran
+http://purl.obolibrary.org/obo/GO_1901501	response to xylene	http://purl.obolibrary.org/obo/CHEBI_27338	xylene
+http://purl.obolibrary.org/obo/GO_0010043	response to zinc ion	http://purl.obolibrary.org/obo/CHEBI_63056	zinc cation
+http://purl.obolibrary.org/obo/GO_0097337	response to ziprasidone	http://purl.obolibrary.org/obo/CHEBI_10119	ziprasidone
