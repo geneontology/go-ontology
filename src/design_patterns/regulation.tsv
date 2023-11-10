@@ -285,7 +285,6 @@ http://purl.obolibrary.org/obo/GO_0010904	regulation of UDP-glucose catabolic pr
 http://purl.obolibrary.org/obo/GO_1904239	regulation of VCP-NPL4-UFD1 AAA ATPase complex assembly	http://purl.obolibrary.org/obo/GO_1904210	VCP-NPL4-UFD1 AAA ATPase complex assembly
 http://purl.obolibrary.org/obo/GO_0061356	regulation of Wnt protein secretion	http://purl.obolibrary.org/obo/GO_0061355	Wnt protein secretion
 http://purl.obolibrary.org/obo/GO_0030111	regulation of Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0016055	Wnt signaling pathway
-http://purl.obolibrary.org/obo/GO_2000056	regulation of Wnt signaling pathway involved in digestive tract morphogenesis	http://purl.obolibrary.org/obo/GO_0044333	Wnt signaling pathway involved in digestive tract morphogenesis
 http://purl.obolibrary.org/obo/GO_2000053	regulation of Wnt signaling pathway involved in dorsal/ventral axis specification	http://purl.obolibrary.org/obo/GO_0044332	Wnt signaling pathway involved in dorsal/ventral axis specification
 http://purl.obolibrary.org/obo/GO_0003307	regulation of Wnt signaling pathway involved in heart development	http://purl.obolibrary.org/obo/GO_0003306	Wnt signaling pathway involved in heart development
 http://purl.obolibrary.org/obo/GO_0008591	regulation of Wnt signaling pathway, calcium modulating pathway	http://purl.obolibrary.org/obo/GO_0007223	Wnt signaling pathway, calcium modulating pathway
@@ -631,10 +630,8 @@ http://purl.obolibrary.org/obo/GO_0043122	regulation of canonical NF-kappaB sign
 http://purl.obolibrary.org/obo/GO_0060828	regulation of canonical Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0060070	canonical Wnt signaling pathway
 http://purl.obolibrary.org/obo/GO_1901295	regulation of canonical Wnt signaling pathway involved in cardiac muscle cell fate commitment	http://purl.obolibrary.org/obo/GO_0061317	canonical Wnt signaling pathway involved in cardiac muscle cell fate commitment
 http://purl.obolibrary.org/obo/GO_2000079	regulation of canonical Wnt signaling pathway involved in controlling type B pancreatic cell proliferation	http://purl.obolibrary.org/obo/GO_0044343	canonical Wnt signaling pathway involved in regulation of type B pancreatic cell proliferation
-http://purl.obolibrary.org/obo/GO_1905066	regulation of canonical Wnt signaling pathway involved in heart development	http://purl.obolibrary.org/obo/GO_0061316	canonical Wnt signaling pathway involved in heart development
 http://purl.obolibrary.org/obo/GO_0072335	regulation of canonical Wnt signaling pathway involved in neural crest cell differentiation	http://purl.obolibrary.org/obo/GO_0044335	canonical Wnt signaling pathway involved in neural crest cell differentiation
 http://purl.obolibrary.org/obo/GO_0060827	regulation of canonical Wnt signaling pathway involved in neural plate anterior/posterior pattern formation	http://purl.obolibrary.org/obo/GO_0060823	canonical Wnt signaling pathway involved in neural plate anterior/posterior pattern formation
-http://purl.obolibrary.org/obo/GO_1905239	regulation of canonical Wnt signaling pathway involved in osteoblast differentiation	http://purl.obolibrary.org/obo/GO_0044339	canonical Wnt signaling pathway involved in osteoblast differentiation
 http://purl.obolibrary.org/obo/GO_1903674	regulation of cap-dependent translational initiation	http://purl.obolibrary.org/obo/GO_0002191	cap-dependent translational initiation
 http://purl.obolibrary.org/obo/GO_1903677	regulation of cap-independent translational initiation	http://purl.obolibrary.org/obo/GO_0002190	cap-independent translational initiation
 http://purl.obolibrary.org/obo/GO_1901913	regulation of capsule organization	http://purl.obolibrary.org/obo/GO_0045230	capsule organization
@@ -2400,13 +2397,8 @@ http://purl.obolibrary.org/obo/GO_0120305	regulation of pigmentation	http://purl
 http://purl.obolibrary.org/obo/GO_0048548	regulation of pinocytosis	http://purl.obolibrary.org/obo/GO_0006907	pinocytosis
 http://purl.obolibrary.org/obo/GO_0110079	regulation of placenta blood vessel development	http://purl.obolibrary.org/obo/GO_0060674	placenta blood vessel development
 http://purl.obolibrary.org/obo/GO_2000040	regulation of planar cell polarity pathway involved in axis elongation	http://purl.obolibrary.org/obo/GO_0003402	planar cell polarity pathway involved in axis elongation
-http://purl.obolibrary.org/obo/GO_2000150	regulation of planar cell polarity pathway involved in cardiac muscle tissue morphogenesis	http://purl.obolibrary.org/obo/GO_0061350	planar cell polarity pathway involved in cardiac muscle tissue morphogenesis
-http://purl.obolibrary.org/obo/GO_2000161	regulation of planar cell polarity pathway involved in cardiac right atrium morphogenesis	http://purl.obolibrary.org/obo/GO_0061349	planar cell polarity pathway involved in cardiac right atrium morphogenesis
 http://purl.obolibrary.org/obo/GO_2000159	regulation of planar cell polarity pathway involved in heart morphogenesis	http://purl.obolibrary.org/obo/GO_0061346	planar cell polarity pathway involved in heart morphogenesis
 http://purl.obolibrary.org/obo/GO_2000167	regulation of planar cell polarity pathway involved in neural tube closure	http://purl.obolibrary.org/obo/GO_0090179	planar cell polarity pathway involved in neural tube closure
-http://purl.obolibrary.org/obo/GO_2000163	regulation of planar cell polarity pathway involved in outflow tract morphogenesis	http://purl.obolibrary.org/obo/GO_0061347	planar cell polarity pathway involved in outflow tract morphogenesis
-http://purl.obolibrary.org/obo/GO_2000165	regulation of planar cell polarity pathway involved in pericardium morphogenesis	http://purl.obolibrary.org/obo/GO_0061354	planar cell polarity pathway involved in pericardium morphogenesis
-http://purl.obolibrary.org/obo/GO_2000148	regulation of planar cell polarity pathway involved in ventricular septum morphogenesis	http://purl.obolibrary.org/obo/GO_0061348	planar cell polarity pathway involved in ventricular septum morphogenesis
 http://purl.obolibrary.org/obo/GO_1903888	regulation of plant epidermal cell differentiation	http://purl.obolibrary.org/obo/GO_0090627	plant epidermal cell differentiation
 http://purl.obolibrary.org/obo/GO_1905428	regulation of plant organ formation	http://purl.obolibrary.org/obo/GO_1905393	plant organ formation
 http://purl.obolibrary.org/obo/GO_1905421	regulation of plant organ morphogenesis	http://purl.obolibrary.org/obo/GO_1905392	plant organ morphogenesis
