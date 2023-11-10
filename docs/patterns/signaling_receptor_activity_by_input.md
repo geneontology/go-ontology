@@ -1,10 +1,10 @@
-# signaling receptor activity by activator
+# signaling receptor activity by input
 
-[http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml](http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml](http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml)
 
 ## Description
 
-This pattern is for classes representing signaling receptor activity, differentiated by the type of activator.
+This pattern is for classes representing signaling receptor activity, differentiated by the type of input.
 
 
 
@@ -13,11 +13,11 @@ This pattern is for classes representing signaling receptor activity, differenti
 
 | Variable name | Allowed type |
 |:--------------|:-------------|
-| `{activator}` | [material entity](http://purl.obolibrary.org/obo/BFO_0000040) |
+| `{input}` | [material entity](http://purl.obolibrary.org/obo/BFO_0000040) |
 
 ## Name
 
-"`{activator}` receptor activity"^^[string](http://www.w3.org/2001/XMLSchema#string)
+"`{input}` receptor activity"^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Annotations
 
@@ -25,11 +25,11 @@ This pattern is for classes representing signaling receptor activity, differenti
 
 ## Definition
 
-"Combining with `{activator}` to initiate a change in cell activity."^^[string](http://www.w3.org/2001/XMLSchema#string)
+"Combining with `{input}` to initiate a change in cell activity."^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Equivalent to
 
-[signaling receptor activity](http://purl.obolibrary.org/obo/GO_0038023)  and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some `{activator}`)
+[signaling receptor activity](http://purl.obolibrary.org/obo/GO_0038023)  and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some `{input}`)
 
 
 
@@ -39,9 +39,9 @@ This pattern is for classes representing signaling receptor activity, differenti
 
 ## Data preview
 
-*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/signaling_receptor_activity_by_activator.tsv)*
+*See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/signaling_receptor_activity_by_input.tsv)*
 
-| defined_class | defined_class_label | activator | activator_label |
+| defined_class | defined_class_label | input | input_label |
 |:--|:--|:--|:--|
 | [http://purl.obolibrary.org/obo/GO_0001874](http://purl.obolibrary.org/obo/GO_0001874) | (1->3)-beta-D-glucan immune receptor activity | [http://purl.obolibrary.org/obo/CHEBI_37671](http://purl.obolibrary.org/obo/CHEBI_37671) | (1->3)-beta-D-glucan |
 | [http://purl.obolibrary.org/obo/GO_1990080](http://purl.obolibrary.org/obo/GO_1990080) | 2-phenylethylamine receptor activity | [http://purl.obolibrary.org/obo/CHEBI_225237](http://purl.obolibrary.org/obo/CHEBI_225237) | 2-phenylethanaminium |
