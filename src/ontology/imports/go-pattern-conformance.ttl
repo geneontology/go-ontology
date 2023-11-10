@@ -484,7 +484,7 @@
 <http://purl.obolibrary.org/obo/GO_0001531> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001532> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001532> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0001540> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
@@ -506,7 +506,7 @@
 <http://purl.obolibrary.org/obo/GO_0001560> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001565> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001565> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0001568> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
@@ -545,31 +545,31 @@
 <http://purl.obolibrary.org/obo/GO_0001583> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001595> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001595> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001601> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001601> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001602> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001602> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001614> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001614> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001616> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001616> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001632> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001632> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001634> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001634> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0001649> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cell_differentiation_by_mature_cell_type.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001653> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001653> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0001654> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
@@ -698,7 +698,7 @@
 <http://purl.obolibrary.org/obo/GO_0001783> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001785> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001785> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0001786> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
@@ -826,19 +826,19 @@
 <http://purl.obolibrary.org/obo/GO_0001872> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001873> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001873> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001874> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001874> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001875> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001875> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0001876> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0001877> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0001877> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0001882> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
@@ -1152,7 +1152,7 @@
 <http://purl.obolibrary.org/obo/GO_0002113> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0002114> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0002114> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0002116> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
@@ -3388,7 +3388,7 @@
 <http://purl.obolibrary.org/obo/GO_0003697> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0003707> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0003707> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0003723> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
@@ -3400,157 +3400,157 @@
 <http://purl.obolibrary.org/obo/GO_0003729> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004883> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004883> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004897> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004897> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004900> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004900> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004901> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004901> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004902> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004902> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004903> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004903> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004908> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004908> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004911> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004911> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004912> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004912> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004913> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004913> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004914> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004914> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004915> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004915> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004917> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004917> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004918> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004918> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004919> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004919> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004920> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004920> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004921> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004921> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004923> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004923> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004924> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004924> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004925> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004925> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004947> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004947> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004948> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004948> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004949> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004949> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004951> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004951> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004953> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004953> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004954> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004954> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004955> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004955> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004956> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004956> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004957> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004957> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004958> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004958> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004960> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004960> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004961> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004961> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004966> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004966> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004967> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004967> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004969> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004969> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004974> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004974> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004978> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004978> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004979> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004979> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004983> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004983> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004989> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004989> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004990> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004990> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004991> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004991> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004992> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004992> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004994> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004994> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0004996> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0004996> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0005000> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0005000> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0005006> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0005006> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0005008> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0005008> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0005009> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0005009> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0005020> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0005020> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0005024> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0005024> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0005047> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
@@ -5744,7 +5744,7 @@
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0008066> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0008066> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0008076> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
@@ -5819,7 +5819,7 @@
 <http://purl.obolibrary.org/obo/GO_0008216> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0008226> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0008226> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0008247> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
@@ -5835,7 +5835,7 @@
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0008281> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0008281> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0008284> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
@@ -5899,10 +5899,10 @@
 <http://purl.obolibrary.org/obo/GO_0008431> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0008502> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0008502> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0008503> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0008503> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0008535> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml> .
@@ -7045,7 +7045,7 @@
 <http://purl.obolibrary.org/obo/GO_0009871> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0009884> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0009884> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0009887> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_morphogenesis.yaml> .
@@ -9313,13 +9313,13 @@
 <http://purl.obolibrary.org/obo/GO_0015050> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0015054> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0015054> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0015055> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0015055> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0015464> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0015464> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0015485> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
@@ -9899,7 +9899,7 @@
 <http://purl.obolibrary.org/obo/GO_0016018> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0016019> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0016019> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0016024> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
@@ -10125,7 +10125,7 @@
 <http://purl.obolibrary.org/obo/GO_0016151> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0016167> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0016167> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0016168> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
@@ -10214,28 +10214,28 @@
 <http://purl.obolibrary.org/obo/GO_0016488> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0016499> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0016499> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0016501> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0016501> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0016502> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0016502> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0016503> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0016503> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0016507> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0016515> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0016515> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0016516> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0016520> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0016520> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0016525> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -10266,7 +10266,7 @@
 <http://purl.obolibrary.org/obo/GO_0016914> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0016917> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0016917> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0016918> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
@@ -10339,7 +10339,7 @@
 <http://purl.obolibrary.org/obo/GO_0017148> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0017154> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0017154> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0017157> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
@@ -12935,7 +12935,7 @@
 <http://purl.obolibrary.org/obo/GO_0030279> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0030284> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0030284> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0030300> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
@@ -13003,13 +13003,13 @@
 <http://purl.obolibrary.org/obo/GO_0030348> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0030368> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0030368> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0030369> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0030369> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0030377> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0030377> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0030386> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
@@ -14533,7 +14533,7 @@
 <http://purl.obolibrary.org/obo/GO_0031962> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0031963> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0031963> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0031965> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
@@ -17620,7 +17620,7 @@
 <http://purl.obolibrary.org/obo/GO_0034186> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0034188> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0034188> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0034189> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
@@ -18711,7 +18711,7 @@
 <http://purl.obolibrary.org/obo/GO_0035639> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0035643> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0035643> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0035645> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cell_differentiation_by_mature_cell_type.yaml> .
@@ -19239,13 +19239,13 @@
 <http://purl.obolibrary.org/obo/GO_0036314> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/response_to_stimulus_by_stimulus.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0036318> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0036318> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0036319> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0036319> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0036320> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0036320> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0036342> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_morphogenesis.yaml> .
@@ -19334,10 +19334,10 @@
 <http://purl.obolibrary.org/obo/GO_0038009> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0038036> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0038036> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0038047> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0038047> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0038057> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
@@ -19352,16 +19352,16 @@
 <http://purl.obolibrary.org/obo/GO_0038100> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0038149> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0038149> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0038197> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0038198> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0038198> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0038199> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0038199> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0039006> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_formation.yaml> .
@@ -19520,37 +19520,37 @@
 <http://purl.obolibrary.org/obo/GO_0042007> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0042008> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0042008> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0042009> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0042010> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0042010> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0042011> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0042012> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0042012> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0042013> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0042014> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0042014> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0042015> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0042016> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0042016> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0042017> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0042018> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0042018> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0042022> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
@@ -21217,7 +21217,7 @@
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0043404> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0043404> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0043405> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
@@ -22461,16 +22461,16 @@
 <http://purl.obolibrary.org/obo/GO_0045503> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0045506> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0045506> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0045507> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0045507> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0045508> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0045508> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0045509> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0045509> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0045510> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
@@ -28911,7 +28911,7 @@
 <http://purl.obolibrary.org/obo/GO_0060174> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_formation.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0060175> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0060175> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0060176> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
@@ -28922,7 +28922,7 @@
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0060182> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0060182> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0060188> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
@@ -31767,7 +31767,7 @@
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0062124> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0062124> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0062125> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
@@ -32611,7 +32611,7 @@
 <http://purl.obolibrary.org/obo/GO_0070543> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/response_to_stimulus_by_stimulus.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0070553> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0070553> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0070562> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
@@ -32982,7 +32982,7 @@
 <http://purl.obolibrary.org/obo/GO_0070891> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0070892> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0070892> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0070897> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml> .
@@ -33009,7 +33009,7 @@
 <http://purl.obolibrary.org/obo/GO_0070910> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0070915> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_0070915> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0070916> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
@@ -55100,10 +55100,10 @@
 <http://purl.obolibrary.org/obo/GO_1990076> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_1990080> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_1990080> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_1990081> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_activator.yaml> .
+<http://purl.obolibrary.org/obo/GO_1990081> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_1990086> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .

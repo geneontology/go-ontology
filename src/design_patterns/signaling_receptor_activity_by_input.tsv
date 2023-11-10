@@ -1,4 +1,4 @@
-defined_class	defined_class_label	activator	activator_label
+defined_class	defined_class_label	input	input_label
 http://purl.obolibrary.org/obo/GO_0001874	(1->3)-beta-D-glucan immune receptor activity	http://purl.obolibrary.org/obo/CHEBI_37671	(1->3)-beta-D-glucan
 http://purl.obolibrary.org/obo/GO_1990080	2-phenylethylamine receptor activity	http://purl.obolibrary.org/obo/CHEBI_225237	2-phenylethanaminium
 http://purl.obolibrary.org/obo/GO_0062124	4-hydroxybutyrate receptor activity	http://purl.obolibrary.org/obo/CHEBI_16724	4-hydroxybutyrate
