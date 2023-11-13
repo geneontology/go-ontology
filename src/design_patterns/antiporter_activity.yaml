@@ -1,0 +1,36 @@
+pattern_name: antiporter activity
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/antiporter_activity.yaml
+
+description: This pattern is for classes representing antiporter activities, differentiated by the type of inputs.
+
+classes:
+  antiporter activity: "GO:0015297"
+  chemical entity: "CHEBI:24431"
+
+relations: 
+  has primary input: "RO:0004009"
+
+vars:
+  input1: "'chemical entity'"
+  input2: "'chemical entity'"
+
+name:
+  text: "%s:%s antiporter activity"
+  vars:
+    - input1
+    - input2
+
+def:
+  text: "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: %s(out) + %s(in) = %s(in) + %s(out)."
+  vars:
+    - input1
+    - input2
+    - input1
+    - input2
+
+equivalentTo:
+  text: "'antiporter activity' and ('has primary input' some %s) and ('has primary input' some %s)"
+  vars:
+    - input1
+    - input2
