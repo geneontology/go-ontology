@@ -7,6 +7,7 @@
 | [anatomical structure maturation](anatomical_structure_maturation.md) | This pattern is for classes representing the maturation of an anatomical structure or a cell, differentiated by the anatomical structure or cell being in its final state. |
 | [anatomical structure morphogenesis](anatomical_structure_morphogenesis.md) | This pattern is for classes representing the generation and organization of the shape of an anatomical structure or a cell, differentiated by the anatomical structure or cell being generated. |
 | [anatomical structure organization](anatomical_structure_organization.md) | TODO |
+| [antiporter activity](antiporter_activity.md) | This pattern is for classes representing antiporter activities, differentiated by the type of inputs. |
 | [binding](binding.md) | TODO |
 | [biosynthetic process](biosynthetic_process.md) | This pattern is for classes representing biosynthetic processes differentiated by their primary outputs. |
 | [bounding membrane of organelle](bounding_membrane_of_organelle.md) | TODO |
@@ -48,6 +49,7 @@
 | [response to stimulus by stimulus type](response_to_stimulus_by_stimulus.md) | This pattern is for classes representing response to stimulus, differentiated by the type of stimulus. |
 | [signaling receptor activity by input](signaling_receptor_activity_by_input.md) | This pattern is for classes representing signaling receptor activity, differentiated by the type of input. |
 | [single-organism process](single_organism_process.md) | TODO |
+| [symporter activity](symporter_activity.md) | This pattern is for classes representing symporter activities, differentiated by the type of inputs. |
 | [transmembrane import into cytosol](transmembrane_import_into_cytosol.md) | TODO |
 | [transport of a cellular component](cc_transport.md) | Transport of a cellular component, differentiated by the component being transported. |
 | [vesicle-mediated transport differentiated by cargo](vesicle_mediated_transport_differentiated_by_cargo.md) | TODO |

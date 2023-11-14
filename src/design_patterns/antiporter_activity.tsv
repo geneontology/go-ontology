@@ -1,0 +1,141 @@
+defined_class	defined_class_label	input1	input1_label	input2	input2_label
+http://purl.obolibrary.org/obo/GO_0044667	(R)-carnitine:4-(trimethylammonio)butanoate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_16244	4-(trimethylammonio)butanoate	http://purl.obolibrary.org/obo/CHEBI_16347	(R)-carnitine
+http://purl.obolibrary.org/obo/GO_0044667	(R)-carnitine:4-(trimethylammonio)butanoate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_16347	(R)-carnitine	http://purl.obolibrary.org/obo/CHEBI_16244	4-(trimethylammonio)butanoate
+http://purl.obolibrary.org/obo/GO_0140988	ADP:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24838	inorganic phosphate	http://purl.obolibrary.org/obo/CHEBI_456216	ADP(3-)
+http://purl.obolibrary.org/obo/GO_0140988	ADP:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_456216	ADP(3-)	http://purl.obolibrary.org/obo/CHEBI_24838	inorganic phosphate
+http://purl.obolibrary.org/obo/GO_0005471	ATP:ADP antiporter activity	http://purl.obolibrary.org/obo/CHEBI_30616	ATP(4-)	http://purl.obolibrary.org/obo/CHEBI_456216	ADP(3-)
+http://purl.obolibrary.org/obo/GO_0005471	ATP:ADP antiporter activity	http://purl.obolibrary.org/obo/CHEBI_456216	ADP(3-)	http://purl.obolibrary.org/obo/CHEBI_30616	ATP(4-)
+http://purl.obolibrary.org/obo/GO_0140987	ATP:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24838	inorganic phosphate	http://purl.obolibrary.org/obo/CHEBI_30616	ATP(4-)
+http://purl.obolibrary.org/obo/GO_0140987	ATP:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_30616	ATP(4-)	http://purl.obolibrary.org/obo/CHEBI_24838	inorganic phosphate
+http://purl.obolibrary.org/obo/GO_0010292	GTP:GDP antiporter activity	http://purl.obolibrary.org/obo/CHEBI_37565	GTP(4-)	http://purl.obolibrary.org/obo/CHEBI_58189	GDP(3-)
+http://purl.obolibrary.org/obo/GO_0010292	GTP:GDP antiporter activity	http://purl.obolibrary.org/obo/CHEBI_58189	GDP(3-)	http://purl.obolibrary.org/obo/CHEBI_37565	GTP(4-)
+http://purl.obolibrary.org/obo/GO_0140407	L-alanine:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_57972	L-alanine zwitterion
+http://purl.obolibrary.org/obo/GO_0140407	L-alanine:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_57972	L-alanine zwitterion	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0062057	L-aspartate:fumarate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_29806	fumarate(2-)	http://purl.obolibrary.org/obo/CHEBI_29991	L-aspartate(1-)
+http://purl.obolibrary.org/obo/GO_0062057	L-aspartate:fumarate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_29991	L-aspartate(1-)	http://purl.obolibrary.org/obo/CHEBI_29806	fumarate(2-)
+http://purl.obolibrary.org/obo/GO_0106421	L-glutamate:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_29985	L-glutamate(1-)
+http://purl.obolibrary.org/obo/GO_0106421	L-glutamate:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_29985	L-glutamate(1-)	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0106439	L-lysine:L-arginine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_32551	L-lysinium(1+)	http://purl.obolibrary.org/obo/CHEBI_32682	L-argininium(1+)
+http://purl.obolibrary.org/obo/GO_0106439	L-lysine:L-arginine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_32682	L-argininium(1+)	http://purl.obolibrary.org/obo/CHEBI_32551	L-lysinium(1+)
+http://purl.obolibrary.org/obo/GO_0180003	S-adenosyl-L-methionine:S-adenosyl-L-homocysteine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_57856	S-adenosyl-L-homocysteine zwitterion	http://purl.obolibrary.org/obo/CHEBI_59789	S-adenosyl-L-methionine zwitterion
+http://purl.obolibrary.org/obo/GO_0180003	S-adenosyl-L-methionine:S-adenosyl-L-homocysteine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_59789	S-adenosyl-L-methionine zwitterion	http://purl.obolibrary.org/obo/CHEBI_57856	S-adenosyl-L-homocysteine zwitterion
+http://purl.obolibrary.org/obo/GO_0015325	acetyl-CoA:CoA antiporter activity	http://purl.obolibrary.org/obo/CHEBI_57287	coenzyme A(4-)	http://purl.obolibrary.org/obo/CHEBI_57288	acetyl-CoA(4-)
+http://purl.obolibrary.org/obo/GO_0015325	acetyl-CoA:CoA antiporter activity	http://purl.obolibrary.org/obo/CHEBI_57288	acetyl-CoA(4-)	http://purl.obolibrary.org/obo/CHEBI_57287	coenzyme A(4-)
+http://purl.obolibrary.org/obo/GO_0005278	acetylcholine:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_15355	acetylcholine	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0005278	acetylcholine:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_15355	acetylcholine
+http://purl.obolibrary.org/obo/GO_0042962	acridine:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_36420	acridine
+http://purl.obolibrary.org/obo/GO_0042962	acridine:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_36420	acridine	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0043861	agmatine:putrescine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_326268	1,4-butanediammonium	http://purl.obolibrary.org/obo/CHEBI_58145	agmatinium(2+)
+http://purl.obolibrary.org/obo/GO_0043861	agmatine:putrescine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_58145	agmatinium(2+)	http://purl.obolibrary.org/obo/CHEBI_326268	1,4-butanediammonium
+http://purl.obolibrary.org/obo/GO_0140848	amino acid:monoatomic cation antiporter activity	http://purl.obolibrary.org/obo/CHEBI_23906	monoatomic cation	http://purl.obolibrary.org/obo/CHEBI_33709	amino acid
+http://purl.obolibrary.org/obo/GO_0140848	amino acid:monoatomic cation antiporter activity	http://purl.obolibrary.org/obo/CHEBI_33709	amino acid	http://purl.obolibrary.org/obo/CHEBI_23906	monoatomic cation
+http://purl.obolibrary.org/obo/GO_0015314	aminotriazole:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_40036	amitrole
+http://purl.obolibrary.org/obo/GO_0015314	aminotriazole:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_40036	amitrole	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0043862	arginine:agmatine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_32696	argininium(1+)	http://purl.obolibrary.org/obo/CHEBI_58145	agmatinium(2+)
+http://purl.obolibrary.org/obo/GO_0043862	arginine:agmatine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_58145	agmatinium(2+)	http://purl.obolibrary.org/obo/CHEBI_32696	argininium(1+)
+http://purl.obolibrary.org/obo/GO_0043858	arginine:ornithine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_32696	argininium(1+)	http://purl.obolibrary.org/obo/CHEBI_46912	ornithinium(1+)
+http://purl.obolibrary.org/obo/GO_0043858	arginine:ornithine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_46912	ornithinium(1+)	http://purl.obolibrary.org/obo/CHEBI_32696	argininium(1+)
+http://purl.obolibrary.org/obo/GO_0070906	aspartate:alanine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35391	aspartate(1-)	http://purl.obolibrary.org/obo/CHEBI_66916	alanine zwitterion
+http://purl.obolibrary.org/obo/GO_0070906	aspartate:alanine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_66916	alanine zwitterion	http://purl.obolibrary.org/obo/CHEBI_35391	aspartate(1-)
+http://purl.obolibrary.org/obo/GO_0045119	azole:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_68452	azole
+http://purl.obolibrary.org/obo/GO_0045119	azole:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_68452	azole	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0015310	benomyl:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_3015	benomyl
+http://purl.obolibrary.org/obo/GO_0015310	benomyl:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_3015	benomyl	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0140829	bicarbonate:monoatomic anion antiporter activity	http://purl.obolibrary.org/obo/CHEBI_17544	hydrogencarbonate	http://purl.obolibrary.org/obo/CHEBI_23905	monoatomic anion
+http://purl.obolibrary.org/obo/GO_0140829	bicarbonate:monoatomic anion antiporter activity	http://purl.obolibrary.org/obo/CHEBI_23905	monoatomic anion	http://purl.obolibrary.org/obo/CHEBI_17544	hydrogencarbonate
+http://purl.obolibrary.org/obo/GO_0140983	calcium:manganese antiporter activity	http://purl.obolibrary.org/obo/CHEBI_25155	manganese cation	http://purl.obolibrary.org/obo/CHEBI_29108	calcium(2+)
+http://purl.obolibrary.org/obo/GO_0140983	calcium:manganese antiporter activity	http://purl.obolibrary.org/obo/CHEBI_29108	calcium(2+)	http://purl.obolibrary.org/obo/CHEBI_25155	manganese cation
+http://purl.obolibrary.org/obo/GO_0015368	calcium:monoatomic cation antiporter activity	http://purl.obolibrary.org/obo/CHEBI_23906	monoatomic cation	http://purl.obolibrary.org/obo/CHEBI_29108	calcium(2+)
+http://purl.obolibrary.org/obo/GO_0015368	calcium:monoatomic cation antiporter activity	http://purl.obolibrary.org/obo/CHEBI_29108	calcium(2+)	http://purl.obolibrary.org/obo/CHEBI_23906	monoatomic cation
+http://purl.obolibrary.org/obo/GO_0015369	calcium:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_29108	calcium(2+)
+http://purl.obolibrary.org/obo/GO_0015369	calcium:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_29108	calcium(2+)	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0005432	calcium:sodium antiporter activity	http://purl.obolibrary.org/obo/CHEBI_29101	sodium(1+)	http://purl.obolibrary.org/obo/CHEBI_29108	calcium(2+)
+http://purl.obolibrary.org/obo/GO_0005432	calcium:sodium antiporter activity	http://purl.obolibrary.org/obo/CHEBI_29108	calcium(2+)	http://purl.obolibrary.org/obo/CHEBI_29101	sodium(1+)
+http://purl.obolibrary.org/obo/GO_0005476	carnitine:acyl carnitine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_17126	carnitine	http://purl.obolibrary.org/obo/CHEBI_17387	O-acylcarnitine
+http://purl.obolibrary.org/obo/GO_0005476	carnitine:acyl carnitine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_17387	O-acylcarnitine	http://purl.obolibrary.org/obo/CHEBI_17126	carnitine
+http://purl.obolibrary.org/obo/GO_0140900	chloride:bicarbonate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_17544	hydrogencarbonate	http://purl.obolibrary.org/obo/CHEBI_17996	chloride
+http://purl.obolibrary.org/obo/GO_0140900	chloride:bicarbonate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_17996	chloride	http://purl.obolibrary.org/obo/CHEBI_17544	hydrogencarbonate
+http://purl.obolibrary.org/obo/GO_0062158	chloride:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_17996	chloride	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0062158	chloride:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_17996	chloride
+http://purl.obolibrary.org/obo/GO_0015515	citrate:succinate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_16947	citrate(3-)	http://purl.obolibrary.org/obo/CHEBI_30031	succinate(2-)
+http://purl.obolibrary.org/obo/GO_0015515	citrate:succinate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_30031	succinate(2-)	http://purl.obolibrary.org/obo/CHEBI_16947	citrate(3-)
+http://purl.obolibrary.org/obo/GO_0015309	cycloheximide:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_27641	cycloheximide
+http://purl.obolibrary.org/obo/GO_0015309	cycloheximide:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_27641	cycloheximide	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0015327	cystine:glutamate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_14321	glutamate(1-)	http://purl.obolibrary.org/obo/CHEBI_35492	cystine zwitterion
+http://purl.obolibrary.org/obo/GO_0015327	cystine:glutamate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35492	cystine zwitterion	http://purl.obolibrary.org/obo/CHEBI_14321	glutamate(1-)
+http://purl.obolibrary.org/obo/GO_0015364	dicarboxylate:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35692	dicarboxylic acid	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion
+http://purl.obolibrary.org/obo/GO_0015364	dicarboxylate:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion	http://purl.obolibrary.org/obo/CHEBI_35692	dicarboxylic acid
+http://purl.obolibrary.org/obo/GO_0015313	fluconazole:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_46081	fluconazole
+http://purl.obolibrary.org/obo/GO_0015313	fluconazole:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_46081	fluconazole	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0008518	folate:monoatomic anion antiporter activity	http://purl.obolibrary.org/obo/CHEBI_23905	monoatomic anion	http://purl.obolibrary.org/obo/CHEBI_62501	folate(2-)
+http://purl.obolibrary.org/obo/GO_0008518	folate:monoatomic anion antiporter activity	http://purl.obolibrary.org/obo/CHEBI_62501	folate(2-)	http://purl.obolibrary.org/obo/CHEBI_23905	monoatomic anion
+http://purl.obolibrary.org/obo/GO_0140800	gamma-aminobutyric acid:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_59888	gamma-aminobutyric acid zwitterion
+http://purl.obolibrary.org/obo/GO_0140800	gamma-aminobutyric acid:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_59888	gamma-aminobutyric acid zwitterion	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0061513	glucose 6-phosphate:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_14314	D-glucose 6-phosphate	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion
+http://purl.obolibrary.org/obo/GO_0061513	glucose 6-phosphate:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion	http://purl.obolibrary.org/obo/CHEBI_14314	D-glucose 6-phosphate
+http://purl.obolibrary.org/obo/GO_0070909	glutamate:gamma-aminobutyric acid antiporter activity	http://purl.obolibrary.org/obo/CHEBI_14321	glutamate(1-)	http://purl.obolibrary.org/obo/CHEBI_59888	gamma-aminobutyric acid zwitterion
+http://purl.obolibrary.org/obo/GO_0070909	glutamate:gamma-aminobutyric acid antiporter activity	http://purl.obolibrary.org/obo/CHEBI_59888	gamma-aminobutyric acid zwitterion	http://purl.obolibrary.org/obo/CHEBI_14321	glutamate(1-)
+http://purl.obolibrary.org/obo/GO_0051408	glyceraldehyde 3-phosphate:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion	http://purl.obolibrary.org/obo/CHEBI_58027	glyceraldehyde 3-phosphate(2-)
+http://purl.obolibrary.org/obo/GO_0051408	glyceraldehyde 3-phosphate:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_58027	glyceraldehyde 3-phosphate(2-)	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion
+http://purl.obolibrary.org/obo/GO_0015527	glycerol-phosphate:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_26707	glycerol phosphate	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion
+http://purl.obolibrary.org/obo/GO_0015527	glycerol-phosphate:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion	http://purl.obolibrary.org/obo/CHEBI_26707	glycerol phosphate
+http://purl.obolibrary.org/obo/GO_0051407	glycerone phosphate:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion	http://purl.obolibrary.org/obo/CHEBI_57642	glycerone phosphate(2-)
+http://purl.obolibrary.org/obo/GO_0051407	glycerone phosphate:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_57642	glycerone phosphate(2-)	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion
+http://purl.obolibrary.org/obo/GO_0140799	glycine:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_57305	glycine zwitterion
+http://purl.obolibrary.org/obo/GO_0140799	glycine:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_57305	glycine zwitterion	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0015526	hexose-phosphate:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion	http://purl.obolibrary.org/obo/CHEBI_47878	hexose phosphate
+http://purl.obolibrary.org/obo/GO_0015526	hexose-phosphate:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_47878	hexose phosphate	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion
+http://purl.obolibrary.org/obo/GO_0070907	histidine:histamine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_27570	histidine	http://purl.obolibrary.org/obo/CHEBI_58432	histaminium
+http://purl.obolibrary.org/obo/GO_0070907	histidine:histamine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_58432	histaminium	http://purl.obolibrary.org/obo/CHEBI_27570	histidine
+http://purl.obolibrary.org/obo/GO_0010348	lithium:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_49713	lithium(1+)
+http://purl.obolibrary.org/obo/GO_0010348	lithium:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_49713	lithium(1+)	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0043872	lysine:cadaverine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_32564	lysinium(1+)	http://purl.obolibrary.org/obo/CHEBI_58384	cadaverine(2+)
+http://purl.obolibrary.org/obo/GO_0043872	lysine:cadaverine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_58384	cadaverine(2+)	http://purl.obolibrary.org/obo/CHEBI_32564	lysinium(1+)
+http://purl.obolibrary.org/obo/GO_0061768	magnesium:sodium antiporter activity	http://purl.obolibrary.org/obo/CHEBI_29101	sodium(1+)	http://purl.obolibrary.org/obo/CHEBI_39128	magnesium ion
+http://purl.obolibrary.org/obo/GO_0061768	magnesium:sodium antiporter activity	http://purl.obolibrary.org/obo/CHEBI_39128	magnesium ion	http://purl.obolibrary.org/obo/CHEBI_29101	sodium(1+)
+http://purl.obolibrary.org/obo/GO_0010486	manganese:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_25155	manganese cation
+http://purl.obolibrary.org/obo/GO_0010486	manganese:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_25155	manganese cation	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0140828	metal cation:monoatomic cation antiporter activity	http://purl.obolibrary.org/obo/CHEBI_23906	monoatomic cation	http://purl.obolibrary.org/obo/CHEBI_25213	metal cation
+http://purl.obolibrary.org/obo/GO_0140828	metal cation:monoatomic cation antiporter activity	http://purl.obolibrary.org/obo/CHEBI_25213	metal cation	http://purl.obolibrary.org/obo/CHEBI_23906	monoatomic cation
+http://purl.obolibrary.org/obo/GO_0051139	metal cation:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_25213	metal cation
+http://purl.obolibrary.org/obo/GO_0051139	metal cation:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_25213	metal cation	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0015311	monoamine:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_63534	monoamine
+http://purl.obolibrary.org/obo/GO_0015311	monoamine:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_63534	monoamine	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0015315	organophosphate:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_25710	organophosphorus compound	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion
+http://purl.obolibrary.org/obo/GO_0015315	organophosphate:inorganic phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion	http://purl.obolibrary.org/obo/CHEBI_25710	organophosphorus compound
+http://purl.obolibrary.org/obo/GO_0140812	orotate:monoatomic anion antiporter activity	http://purl.obolibrary.org/obo/CHEBI_23905	monoatomic anion	http://purl.obolibrary.org/obo/CHEBI_30839	orotate
+http://purl.obolibrary.org/obo/GO_0140812	orotate:monoatomic anion antiporter activity	http://purl.obolibrary.org/obo/CHEBI_30839	orotate	http://purl.obolibrary.org/obo/CHEBI_23905	monoatomic anion
+http://purl.obolibrary.org/obo/GO_0160046	oxalate:chloride antiporter activity	http://purl.obolibrary.org/obo/CHEBI_17996	chloride	http://purl.obolibrary.org/obo/CHEBI_30623	oxalate(2-)
+http://purl.obolibrary.org/obo/GO_0160046	oxalate:chloride antiporter activity	http://purl.obolibrary.org/obo/CHEBI_30623	oxalate(2-)	http://purl.obolibrary.org/obo/CHEBI_17996	chloride
+http://purl.obolibrary.org/obo/GO_0015367	oxoglutarate:malate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_15595	malate(2-)	http://purl.obolibrary.org/obo/CHEBI_16810	2-oxoglutarate(2-)
+http://purl.obolibrary.org/obo/GO_0015367	oxoglutarate:malate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_16810	2-oxoglutarate(2-)	http://purl.obolibrary.org/obo/CHEBI_15595	malate(2-)
+http://purl.obolibrary.org/obo/GO_0015121	phosphoenolpyruvate:phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion	http://purl.obolibrary.org/obo/CHEBI_58702	phosphonatoenolpyruvate
+http://purl.obolibrary.org/obo/GO_0015121	phosphoenolpyruvate:phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_58702	phosphonatoenolpyruvate	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion
+http://purl.obolibrary.org/obo/GO_0015312	polyamine:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_51349	polyamine macromolecule
+http://purl.obolibrary.org/obo/GO_0015312	polyamine:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_51349	polyamine macromolecule	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0015386	potassium:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_29103	potassium(1+)
+http://purl.obolibrary.org/obo/GO_0015386	potassium:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_29103	potassium(1+)	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0015496	putrescine:ornithine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_326268	1,4-butanediammonium	http://purl.obolibrary.org/obo/CHEBI_46911	L-ornithinium(1+)
+http://purl.obolibrary.org/obo/GO_0015496	putrescine:ornithine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_46911	L-ornithinium(1+)	http://purl.obolibrary.org/obo/CHEBI_326268	1,4-butanediammonium
+http://purl.obolibrary.org/obo/GO_0015385	sodium:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_29101	sodium(1+)
+http://purl.obolibrary.org/obo/GO_0015385	sodium:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_29101	sodium(1+)	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0022821	solute:potassium antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24431	chemical entity	http://purl.obolibrary.org/obo/CHEBI_29103	potassium(1+)
+http://purl.obolibrary.org/obo/GO_0022821	solute:potassium antiporter activity	http://purl.obolibrary.org/obo/CHEBI_29103	potassium(1+)	http://purl.obolibrary.org/obo/CHEBI_24431	chemical entity
+http://purl.obolibrary.org/obo/GO_0005469	succinate:fumarate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_29806	fumarate(2-)	http://purl.obolibrary.org/obo/CHEBI_30031	succinate(2-)
+http://purl.obolibrary.org/obo/GO_0005469	succinate:fumarate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_30031	succinate(2-)	http://purl.obolibrary.org/obo/CHEBI_29806	fumarate(2-)
+http://purl.obolibrary.org/obo/GO_0015383	sulfate:bicarbonate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_16189	sulfate	http://purl.obolibrary.org/obo/CHEBI_17544	hydrogencarbonate
+http://purl.obolibrary.org/obo/GO_0015383	sulfate:bicarbonate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_17544	hydrogencarbonate	http://purl.obolibrary.org/obo/CHEBI_16189	sulfate
+http://purl.obolibrary.org/obo/GO_0160044	sulfate:chloride antiporter activity	http://purl.obolibrary.org/obo/CHEBI_16189	sulfate	http://purl.obolibrary.org/obo/CHEBI_17996	chloride
+http://purl.obolibrary.org/obo/GO_0160044	sulfate:chloride antiporter activity	http://purl.obolibrary.org/obo/CHEBI_17996	chloride	http://purl.obolibrary.org/obo/CHEBI_16189	sulfate
+http://purl.obolibrary.org/obo/GO_0015516	tartrate:succinate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_30031	succinate(2-)	http://purl.obolibrary.org/obo/CHEBI_50562	tartrate salt
+http://purl.obolibrary.org/obo/GO_0015516	tartrate:succinate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_50562	tartrate salt	http://purl.obolibrary.org/obo/CHEBI_30031	succinate(2-)
+http://purl.obolibrary.org/obo/GO_0015520	tetracycline:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_77932	tetracycline zwitterion
+http://purl.obolibrary.org/obo/GO_0015520	tetracycline:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_77932	tetracycline zwitterion	http://purl.obolibrary.org/obo/CHEBI_24636	proton
+http://purl.obolibrary.org/obo/GO_0009670	triose-phosphate:phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35142	aldotriose phosphate	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion
+http://purl.obolibrary.org/obo/GO_0009670	triose-phosphate:phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion	http://purl.obolibrary.org/obo/CHEBI_35142	aldotriose phosphate
+http://purl.obolibrary.org/obo/GO_0070908	tyrosine:tyramine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_18186	tyrosine	http://purl.obolibrary.org/obo/CHEBI_327995	tyraminium
+http://purl.obolibrary.org/obo/GO_0070908	tyrosine:tyramine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_327995	tyraminium	http://purl.obolibrary.org/obo/CHEBI_18186	tyrosine
+http://purl.obolibrary.org/obo/GO_0140813	urate:monoatomic anion antiporter activity	http://purl.obolibrary.org/obo/CHEBI_17775	7,9-dihydro-1H-purine-2,6,8(3H)-trione	http://purl.obolibrary.org/obo/CHEBI_23905	monoatomic anion
+http://purl.obolibrary.org/obo/GO_0140813	urate:monoatomic anion antiporter activity	http://purl.obolibrary.org/obo/CHEBI_23905	monoatomic anion	http://purl.obolibrary.org/obo/CHEBI_17775	7,9-dihydro-1H-purine-2,6,8(3H)-trione
+http://purl.obolibrary.org/obo/GO_0140826	zinc:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_24636	proton	http://purl.obolibrary.org/obo/CHEBI_63056	zinc cation
+http://purl.obolibrary.org/obo/GO_0140826	zinc:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_63056	zinc cation	http://purl.obolibrary.org/obo/CHEBI_24636	proton
