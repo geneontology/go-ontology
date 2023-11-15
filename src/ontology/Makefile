@@ -584,7 +584,7 @@ generate-mappings: $(ONT)-pre.owl
 	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_sl2go -O external2go/uniprotkb_sl2go
 	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/unirule2go -O external2go/unirule2go
 	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/hamap2go -O external2go/hamap2go
-	wget https://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/rfam2go/rfam2go -O external2go/rfam2go
+	wget https://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/rfam2go -O external2go/rfam2go
 
 # ----------------------------------------
 # TAXON GROUPINGS
