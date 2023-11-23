@@ -884,3 +884,5 @@ GO:0080188	gene silencing by RNA-directed DNA methylation	NCBITaxon:33090	Viridi
 GO:0106059	tRNA (cytidine 56-2'-O)-methyltransferase activity	NCBITaxon:2157	Archaea	
 GO:0072487	MSL complex	NCBITaxon:33208	Metazoa	
 GO:0042597	periplasmic space	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	PMID:15803654
+GO:0106316	nitrite reductase NADH activity	NCBITaxon:2	Bacteria	
+GO:0008942	nitrite reductase [NAD(P)H] activity	NCBITaxon:2759	Eukaryota	
