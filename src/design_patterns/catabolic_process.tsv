@@ -107,6 +107,7 @@ http://purl.obolibrary.org/obo/GO_0006204	IMP catabolic process	http://purl.obol
 http://purl.obolibrary.org/obo/GO_0006193	ITP catabolic process	http://purl.obolibrary.org/obo/CHEBI_61402	ITP(4-)
 http://purl.obolibrary.org/obo/GO_0042853	L-alanine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57972	L-alanine zwitterion
 http://purl.obolibrary.org/obo/GO_1903663	L-altrarate catabolic process	http://purl.obolibrary.org/obo/CHEBI_37547	L-altrarate(2-)
+http://purl.obolibrary.org/obo/GO_0170035	L-amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_59869	L-alpha-amino acid zwitterion
 http://purl.obolibrary.org/obo/GO_0019572	L-arabinose catabolic process	http://purl.obolibrary.org/obo/CHEBI_30849	L-arabinose
 http://purl.obolibrary.org/obo/GO_0051158	L-arabitol catabolic process	http://purl.obolibrary.org/obo/CHEBI_18403	L-arabinitol
 http://purl.obolibrary.org/obo/GO_0019854	L-ascorbic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_38290	L-ascorbate
