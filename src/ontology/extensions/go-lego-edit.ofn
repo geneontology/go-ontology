@@ -13,6 +13,8 @@ Import(<http://purl.obolibrary.org/obo/emapa.owl>)
 Import(<http://purl.obolibrary.org/obo/ro.owl>)
 Import(<http://purl.obolibrary.org/obo/uberon.owl>)
 Import(<http://purl.obolibrary.org/obo/xao.owl>)
+Import(<http://purl.obolibrary.org/obo/fbbt/fbbt-base.owl>)
+Import(<http://purl.obolibrary.org/obo/fbdv/fbdv-base.owl>)
 Import(<http://purl.obolibrary.org/obo/zfa/zfa-base.owl>)
 Import(<http://purl.obolibrary.org/obo/eco/eco-basic.owl>)
 Import(<http://purl.obolibrary.org/obo/go/extensions/go-bfo-bridge.owl>)
@@ -61,6 +63,14 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/DDANAT_0000401> ObjectIntersec
 # Class: <http://purl.obolibrary.org/obo/DDANAT_0010001> (Dictyostelium discoideum anatomical structure)
 
 EquivalentClasses(<http://purl.obolibrary.org/obo/DDANAT_0010001> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000465> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_44689>)))
+
+# Class: <http://purl.obolibrary.org/obo/FBbt_10000000> (fly anatomical entity)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/FBbt_10000000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001062> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_7227>)))
+
+# Class: <http://purl.obolibrary.org/obo/FBdv_00005259> (fly developmental stage)
+
+SubClassOf(<http://purl.obolibrary.org/obo/FBdv_00005259> <http://purl.obolibrary.org/obo/UBERON_0000105>)
 
 # Class: <http://purl.obolibrary.org/obo/EMAPA_0> (Anatomical structure)
 
