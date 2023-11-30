@@ -583,5 +583,5 @@ GO:0030512	negative regulation of transforming growth factor beta receptor signa
 GO:0030511	positive regulation of transforming growth factor beta receptor signaling pathway	NCBITaxon:4751	Fungi	
 GO:0030334	regulation of cell migration	NCBITaxon:4890	Ascomycota	
 GO:0060818	inactivation of paternal X chromosome by genomic imprinting	NCBITaxon:9606	Homo sapiens	
-GO:0042566  hydrogenosome  NCBITaxon:4890  Ascomycota  
-GO:0042566  hydrogenosome  NCBITaxon:33090  Viridiplantae 
+GO:0042566	hydrogenosome	NCBITaxon:4890	Ascomycota	
+GO:0042566	hydrogenosome	NCBITaxon:33090	Viridiplantae	 
