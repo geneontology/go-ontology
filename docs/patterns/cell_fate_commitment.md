@@ -13,7 +13,7 @@ This pattern is for classes representing the commitment of cells to a specific c
 
 | Variable name | Allowed type |
 |:--------------|:-------------|
-| `{target}` | [native cell](http://purl.obolibrary.org/obo/CL_0000003) |
+| `{target}` | [cell](http://purl.obolibrary.org/obo/CL_0000000) |
 
 ## Name
 

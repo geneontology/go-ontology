@@ -46,8 +46,8 @@ http://purl.obolibrary.org/obo/GO_0003208	cardiac ventricle morphogenesis	http:/
 http://purl.obolibrary.org/obo/GO_0060536	cartilage morphogenesis	http://purl.obolibrary.org/obo/UBERON_0007844	cartilage element
 http://purl.obolibrary.org/obo/GO_0035143	caudal fin morphogenesis	http://purl.obolibrary.org/obo/UBERON_4000164	caudal fin
 http://purl.obolibrary.org/obo/GO_0000902	cell morphogenesis	http://purl.obolibrary.org/obo/CL_0000000	cell
-http://purl.obolibrary.org/obo/GO_0032990	cell part morphogenesis	http://purl.obolibrary.org/obo/GO_0110165	cellular anatomical entity
 http://purl.obolibrary.org/obo/GO_0048858	cell projection morphogenesis	http://purl.obolibrary.org/obo/GO_0042995	cell projection
+http://purl.obolibrary.org/obo/GO_0032989	cellular anatomical entity morphogenesis	http://purl.obolibrary.org/obo/GO_0110165	cellular anatomical entity
 http://purl.obolibrary.org/obo/GO_0021551	central nervous system morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
 http://purl.obolibrary.org/obo/GO_0021692	cerebellar Purkinje cell layer morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002979	Purkinje cell layer of cerebellar cortex
 http://purl.obolibrary.org/obo/GO_0021696	cerebellar cortex morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002129	cerebellar cortex
@@ -201,6 +201,7 @@ http://purl.obolibrary.org/obo/GO_0002011	morphogenesis of an epithelial sheet	h
 http://purl.obolibrary.org/obo/GO_0002009	morphogenesis of an epithelium	http://purl.obolibrary.org/obo/UBERON_0000483	epithelium
 http://purl.obolibrary.org/obo/GO_0048644	muscle organ morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001630	muscle organ
 http://purl.obolibrary.org/obo/GO_0003150	muscular septum morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004667	interventricular septum muscular part
+http://purl.obolibrary.org/obo/GO_0110040	nematode pharynx morphogenesis	http://purl.obolibrary.org/obo/UBERON_0015232	nematode pharynx
 http://purl.obolibrary.org/obo/GO_0072178	nephric duct morphogenesis	http://purl.obolibrary.org/obo/UBERON_0009201	nephric duct
 http://purl.obolibrary.org/obo/GO_0072134	nephrogenic mesenchyme morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004208	nephrogenic mesenchyme
 http://purl.obolibrary.org/obo/GO_0072088	nephron epithelium morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004211	nephron epithelium
@@ -234,8 +235,6 @@ http://purl.obolibrary.org/obo/GO_0035138	pectoral fin morphogenesis	http://purl
 http://purl.obolibrary.org/obo/GO_0035139	pelvic fin morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000152	pelvic fin
 http://purl.obolibrary.org/obo/GO_0003344	pericardium morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002407	pericardium
 http://purl.obolibrary.org/obo/GO_0061626	pharyngeal arch artery morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004363	pharyngeal arch artery
-http://purl.obolibrary.org/obo/GO_1905905	pharyngeal gland morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003295	pharyngeal gland
-http://purl.obolibrary.org/obo/GO_0110040	pharynx morphogenesis	http://purl.obolibrary.org/obo/UBERON_0006562	pharynx
 http://purl.obolibrary.org/obo/GO_0008594	photoreceptor cell morphogenesis	http://purl.obolibrary.org/obo/CL_0000210	photoreceptor cell
 http://purl.obolibrary.org/obo/GO_0120039	plasma membrane bounded cell projection morphogenesis	http://purl.obolibrary.org/obo/GO_0120025	plasma membrane bounded cell projection
 http://purl.obolibrary.org/obo/GO_0021583	pons morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000988	pons

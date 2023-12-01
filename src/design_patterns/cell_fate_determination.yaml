@@ -5,14 +5,14 @@ pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cell_fate_determination.
 description: This pattern is for classes representing the determination of cell fate, differentiated by the cell being differentiated.
 
 classes:
-  native cell: "CL:0000003" # Should ensure native plant cells are subclasses
+  cell: "CL:0000000" # Should ensure plant cells are subclasses
   cell fate determination: "GO:0001709"
 
 relations: 
   results in determination of: "RO:0002349"
 
 vars:
-  target: "'native cell'"
+  target: "'cell'"
 
 name:
   text: "%s determination"

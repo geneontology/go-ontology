@@ -12,7 +12,7 @@ subsetdef: taxon_extension ""
 subsetdef: valid_for_annotation_extension ""
 synonymtypedef: RO:0008000 "display label for users"
 default-namespace: external
-remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 1776 Logical Axioms: 474]
+remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 1925 Logical Axioms: 480]
 ontology: go/extensions/gorel
 property_value: http://purl.org/dc/elements/1.1/description "This ontology combines RO together with GO-specific relations in the GOREL namespace, used for annotation extensions. See;\n\nHuntley, R. P., Harris, M. a, Alam-Faruque, Y., et al (2014). A method for increasing expressivity of Gene Ontology annotations using a compositional approach. BMC Bioinformatics, 15(1), 155. doi:10.1186/1471-2105-15-155\n\nNotes on release edition (gorel.owl):\n\nThis ontology is created by merging the relevant subset of RO together with GO-specific annotations of RO relations, and GOREL relations\n\nNotes on editors version (gorel-edit.owl): \nThe editors version imports ro.owl, and allows addition of new relations (GOREL ID space) and annotation of existing RO relations. Note for editors: if an RO relation is to be made visible in the final gorel product, then make the relation a SubProperty of 'go annotation extension relation'. Anything with a logical axiom is included in the final module. Consult Makefile for details" xsd:string
 
@@ -21,20 +21,12 @@ id: activated_by
 name: activated_by
 namespace: go/extensions/gorel
 comment: This relation should not be used to annotate one gene product regulating another's activity; a regulator MF or regulation BP should be used in such cases.
-subset: AE_chemical
-subset: display_for_curators
-subset: valid_for_annotation_extension
 synonym: "activated by" EXACT RO:0008000 [PomBase:curators]
 synonym: "activated_by_chemical" EXACT [GOC:mah]
 synonym: "activated_by_substance" EXACT [GOC:mah]
 synonym: "activity_increased_by" EXACT [GOC:mah]
 xref: GOREL:0000507
-property_value: local_domain GO:0003674 xsd:string
-property_value: local_range CHEBI:24431 xsd:string
 property_value: usage "Identifies a chemical substance that increases the activity of the gene product." xsd:string
-domain: GO:0003674
-range: CHEBI:24431
-is_a: go_annotation_extension_relation ! go annotation extension relation
 
 [Typedef]
 id: acts_on_population_of
@@ -74,7 +66,7 @@ def: "c 'acts upstream of, negative effect' p if c is enables f, and f is causal
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 xref: RO:0004035
 property_value: RO:0004050 RO:0002263
-property_value: seeAlso http://wiki.geneontology.org/index.php/Acts_upstream_of,_negative_effect
+property_value: seeAlso https://wiki.geneontology.org/Acts_upstream_of,_negative_effect xsd:anyURI
 holds_over_chain: enables causally_upstream_of,_negative_effect
 is_a: acts_upstream_of ! acts upstream of
 is_a: acts_upstream_of_or_within,_negative_effect ! acts upstream of or within, negative effect
@@ -88,7 +80,7 @@ def: "c 'acts upstream of, positive effect' p if c is enables f, and f is causal
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 xref: RO:0004034
 property_value: RO:0004049 RO:0002263
-property_value: seeAlso http://wiki.geneontology.org/index.php/Acts_upstream_of,_positive_effect
+property_value: seeAlso https://wiki.geneontology.org/Acts_upstream_of,_positive_effect xsd:anyURI
 holds_over_chain: enables causally_upstream_of,_positive_effect
 is_a: acts_upstream_of ! acts upstream of
 is_a: acts_upstream_of_or_within,_positive_effect ! acts upstream of or within, positive effect
@@ -103,7 +95,7 @@ subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 synonym: "affects" RELATED []
 xref: RO:0002264
 property_value: IAO:0000112 "A gene product that has some activity, where that activity may be a part of a pathway or upstream of the pathway." xsd:string
-property_value: seeAlso http://wiki.geneontology.org/index.php/Acts_upstream_of_or_within
+property_value: seeAlso https://wiki.geneontology.org/Acts_upstream_of_or_within xsd:anyURI
 holds_over_chain: enables causally_upstream_of_or_within
 is_a: causal_agent_in_process ! causal agent in process
 
@@ -113,6 +105,7 @@ name: acts upstream of or within, negative effect
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 xref: RO:0004033
 property_value: RO:0004050 RO:0002264
+property_value: seeAlso https://wiki.geneontology.org/Acts_upstream_of_or_within,_negative_effect xsd:anyURI
 holds_over_chain: enables causally_upstream_of_or_within,_negative_effect
 is_a: acts_upstream_of_or_within ! acts upstream of or within
 created_by: https://orcid.org/0000-0002-6601-2165
@@ -124,7 +117,7 @@ name: acts upstream of or within, positive effect
 subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
 xref: RO:0004032
 property_value: RO:0004049 RO:0002264
-property_value: seeAlso http://wiki.geneontology.org/index.php/Acts_upstream_of_or_within,_positive_effect
+property_value: seeAlso https://wiki.geneontology.org/Acts_upstream_of_or_within,_positive_effect xsd:anyURI
 holds_over_chain: enables causally_upstream_of_or_within,_positive_effect
 is_a: acts_upstream_of_or_within ! acts upstream of or within
 created_by: https://orcid.org/0000-0002-6601-2165
@@ -368,6 +361,7 @@ subset: http://purl.obolibrary.org/obo/valid_for_gocam
 xref: RO:0002305
 property_value: http://purl.org/dc/terms/creator https://orcid.org/0000-0002-6601-2165
 property_value: RO:0004050 RO:0002411
+property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of,_negative_effect
 is_a: causally_upstream_of ! causally upstream of
 is_a: causally_upstream_of_or_within,_negative_effect ! causally upstream of or within, negative effect
 
@@ -381,6 +375,7 @@ subset: http://purl.obolibrary.org/obo/valid_for_gocam
 xref: RO:0002304
 property_value: http://purl.org/dc/terms/creator https://orcid.org/0000-0002-6601-2165
 property_value: RO:0004049 RO:0002411
+property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of,_positive_effect
 is_a: causally_upstream_of ! causally upstream of
 is_a: causally_upstream_of_or_within,_positive_effect ! causally upstream of or within, positive effect
 
@@ -402,6 +397,7 @@ id: causally_upstream_of_or_within,_negative_effect
 name: causally upstream of or within, negative effect
 xref: RO:0004046
 property_value: RO:0004050 RO:0002418
+property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of_or_within,_negative_effect xsd:anyURI
 is_a: causally_upstream_of_or_within ! causally upstream of or within
 created_by: https://orcid.org/0000-0002-6601-2165
 creation_date: 2018-03-13T23:55:05Z
@@ -411,6 +407,7 @@ id: causally_upstream_of_or_within,_positive_effect
 name: causally upstream of or within, positive effect
 xref: RO:0004047
 property_value: RO:0004049 RO:0002418
+property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of_or_within,_positive_effect
 is_a: causally_upstream_of_or_within ! causally upstream of or within
 created_by: https://orcid.org/0000-0002-6601-2165
 creation_date: 2018-03-13T23:55:19Z
@@ -508,6 +505,7 @@ property_value: IAO:0000112 "Subunits of nuclear RNA polymerases: none of the in
 property_value: IAO:0000116 "We would like to say\n\nif and only if\n exists c', p'\n  c part_of c' and c' capable_of p\n   and\n  c capable_of p' and p' part_of p\nthen\n c contributes_to p\n\nHowever, this is not possible in OWL. We instead make this relation a sub-relation of the two chains, which gives us the inference in the one direction." xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "In the context of the Gene Ontology, contributes_to may be used only with classes from the molecular function ontology. " xsd:string
+property_value: seeAlso https://wiki.geneontology.org/Contributes_to xsd:anyURI
 is_a: capable_of_part_of ! capable of part of
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: part_of_structure_that_is_capable_of ! part of structure that is capable of
@@ -555,11 +553,11 @@ creation_date: 2021-11-08T12:00:00Z
 [Typedef]
 id: directly_negatively_regulated_by
 name: directly negatively regulated by
-def: "Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1." [GOC:dos]
+def: "Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1." [https://orcid.org/0000-0002-7073-9172]
 xref: RO:0002023
 is_a: directly_regulated_by ! directly regulated by
 inverse_of: directly_negatively_regulates ! directly negatively regulates
-created_by: dos
+created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-09-17T13:52:38Z
 
 [Typedef]
@@ -579,6 +577,7 @@ property_value: IAO:0000589 "directly negatively regulates (process to process)"
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range BFO:0000015 xsd:string
 property_value: RO:0004050 RO:0002578
+property_value: seeAlso https://wiki.geneontology.org/Directly_negatively_regulates xsd:anyURI
 is_a: directly_regulates ! directly regulates
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: negatively_regulates ! negatively regulates
@@ -599,11 +598,11 @@ is_a: directly_regulates_activity_of ! directly regulates activity of
 [Typedef]
 id: directly_positively_regulated_by
 name: directly positively regulated by
-def: "Process(P2) is directly postively regulated by process(P1) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P2 is directly postively regulated by P1." [GOC:dos]
+def: "Process(P2) is directly postively regulated by process(P1) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P2 is directly postively regulated by P1." [https://orcid.org/0000-0002-7073-9172]
 xref: RO:0002024
 is_a: directly_regulated_by ! directly regulated by
 inverse_of: directly_positively_regulates ! directly positively regulates
-created_by: dos
+created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-09-17T13:52:47Z
 
 [Typedef]
@@ -623,6 +622,7 @@ property_value: IAO:0000589 "directly positively regulates (process to process)"
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range BFO:0000015 xsd:string
 property_value: RO:0004049 RO:0002578
+property_value: seeAlso https://wiki.geneontology.org/Directly_positively_regulates xsd:anyURI
 is_a: directly_regulates ! directly regulates
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: positively_regulates ! positively regulates
@@ -643,11 +643,11 @@ is_a: directly_regulates_activity_of ! directly regulates activity of
 [Typedef]
 id: directly_regulated_by
 name: directly regulated by
-comment: Process(P2) is directly regulated by process(P1) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2. {xref="GOC:dos"}
+comment: Process(P2) is directly regulated by process(P1) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2. {xref="https://orcid.org/0000-0002-7073-9172"}
 xref: RO:0002022
 is_a: regulated_by ! regulated by
 inverse_of: directly_regulates ! directly regulates
-created_by: dos
+created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-09-17T13:52:24Z
 
 [Typedef]
@@ -742,6 +742,7 @@ def: "inverse of enables" []
 subset: http://purl.obolibrary.org/obo/valid_for_gocam
 xref: RO:0002333
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: seeAlso https://wiki.geneontology.org/Enabled_by xsd:anyURI
 is_a: functionally_related_to ! functionally related to
 is_a: has_participant ! has participant
 
@@ -759,6 +760,7 @@ property_value: IAO:0000118 "has" xsd:string
 property_value: IAO:0000118 "is catalyzing" xsd:string
 property_value: IAO:0000118 "is executing" xsd:string
 property_value: IAO:0000232 "This relation differs from the parent relation 'capable of' in that the parent is weaker and only expresses a capability that may not be actually realized, whereas this relation is always realized." xsd:string
+property_value: seeAlso https://wiki.geneontology.org/Enables xsd:anyURI
 is_a: capable_of ! capable of
 is_a: go_annotation_extension_relation ! go annotation extension relation
 inverse_of: enabled_by ! enabled by
@@ -1005,6 +1007,7 @@ property_value: IAO:0000118 "d" xsd:string
 property_value: IAO:0000118 "during" xsd:string
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "GO:0008150 WBls:0000075 ZFS:0100000 UBERON:0000105" xsd:string
+property_value: seeAlso https://wiki.geneontology.org/Happens_during xsd:anyURI
 property_value: usage "Identifies a process or life stage during which a molecular function or biological process occurs. This is weaker than parthood. So, for example, various processes occur during gastrulation without being part of it." xsd:string
 is_transitive: true
 is_a: during ! during
@@ -1061,7 +1064,7 @@ name: has component activity
 comment: A 'has component activity' B if A is A and B are molecular functions (GO_0003674) and A has_component B.
 xref: RO:0002017
 is_a: has_component_process ! has component process
-created_by: dos
+created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-05-24T09:44:33Z
 
 [Typedef]
@@ -1072,7 +1075,7 @@ xref: RO:0002018
 domain: BFO:0000015
 range: BFO:0000015
 is_a: has_component ! has component
-created_by: dos
+created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-05-24T09:49:21Z
 
 [Typedef]
@@ -1116,12 +1119,12 @@ is_obsolete: true
 [Typedef]
 id: has_effector_activity
 name: has effector activity
-def: "A 'has effector activity' B if A and B are GO molecular functions (GO_0003674),  A 'has component activity' B and B is the effector (output function) of B.  Each compound function has only one effector activity." [GOC:dos]
+def: "A 'has effector activity' B if A and B are GO molecular functions (GO_0003674),  A 'has component activity' B and B is the effector (output function) of B.  Each compound function has only one effector activity." [https://orcid.org/0000-0002-7073-9172]
 comment: This relation is designed for constructing compound molecular functions, typically in combination with one or more regulatory component activity relations.
 xref: RO:0002025
 is_functional: true
 is_a: has_component_activity ! has component activity
-created_by: dos
+created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-09-22T14:14:36Z
 
 [Typedef]
@@ -1227,6 +1230,7 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "consumes" xsd:string
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697 SO:0000839 SO:0001683 NCBITaxon:1" xsd:string
+property_value: seeAlso https://wiki.geneontology.org/Has_input xsd:anyURI
 property_value: usage "Use this relation to relate a biological process or molecular function to an entity that participates in the process/function, is present at the start of the process/function and whose state is affected by that process/function.  Change of state includes being transported, modified, consumed or destroyed.  An input may be any continuant: chemical; gene product; cell component;  cells type; organism.  For inputs to MFs that are bound by the gene product that executes the MF, the more specific relation 'has_direct_input' may be used." xsd:string
 domain: BFO:0000015
 is_a: go_annotation_extension_relation ! go annotation extension relation
@@ -1241,7 +1245,7 @@ comment: By convention GO molecular functions are classified by their effector f
 xref: RO:0002014
 is_a: has_regulatory_component_activity ! has regulatory component activity
 is_a: negatively_regulated_by ! negatively regulated by
-created_by: dos
+created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-05-24T09:31:01Z
 
 [Typedef]
@@ -1264,6 +1268,7 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "produces" xsd:string
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697" xsd:string
+property_value: seeAlso https://wiki.geneontology.org/Has_output xsd:anyURI
 property_value: usage "Identifies an entity that is changed or created after participation in a molecular function or biological process" xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: has_participant ! has participant
@@ -1344,7 +1349,7 @@ comment: Do not use this relation directly
 subset: display_for_curators
 subset: valid_for_annotation_extension
 xref: RO:0000057
-property_value: http://purl.org/dc/elements/1.1/source http://www.obofoundry.org/ro/#OBO_REL:has_participant xsd:string
+property_value: http://purl.org/dc/terms/source http://www.obofoundry.org/ro/#OBO_REL:has_participant xsd:string
 property_value: IAO:0000111 "has participant" xsd:string
 property_value: IAO:0000112 "this blood coagulation has participant this blood clot" xsd:string
 property_value: IAO:0000112 "this investigation has participant this investigator" xsd:string
@@ -1377,7 +1382,7 @@ comment: By convention GO molecular functions are classified by their effector f
 xref: RO:0002015
 is_a: has_regulatory_component_activity ! has regulatory component activity
 is_a: positively_regulated_by ! positively regulated by
-created_by: dos
+created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-05-24T09:31:17Z
 
 [Typedef]
@@ -1415,7 +1420,7 @@ def: "A 'has regulatory component activity' B if A and B are GO molecular functi
 xref: RO:0002013
 is_a: has_component_activity ! has component activity
 is_a: regulated_by ! regulated by
-created_by: dos
+created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-05-24T09:30:46Z
 
 [Typedef]
@@ -1697,7 +1702,7 @@ name: indirectly causally upstream of
 def: "p is indirectly causally upstream of q iff p is causally upstream of q and there exists some process r such that p is causally upstream of r and r is causally upstream of q." []
 xref: RO:0012011
 is_a: causally_upstream_of ! causally upstream of
-created_by: pg
+created_by: https://orcid.org/0000-0003-1813-6857
 creation_date: 2022-09-26T06:07:17Z
 
 [Typedef]
@@ -1708,6 +1713,7 @@ xref: RO:0002409
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "indirectly inhibits" xsd:string
 property_value: RO:0002579 RO:0002212
+property_value: seeAlso https://wiki.geneontology.org/Indirectly_negatively_regulates xsd:anyURI
 holds_over_chain: directly_negatively_regulates directly_negatively_regulates
 holds_over_chain: directly_negatively_regulates indirectly_negatively_regulates
 is_transitive: true
@@ -1723,6 +1729,7 @@ xref: RO:0002407
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "indirectly activates" xsd:string
 property_value: RO:0002579 RO:0002213
+property_value: seeAlso https://wiki.geneontology.org/Indirectly_positively_regulates xsd:anyURI
 holds_over_chain: directly_positively_regulates directly_positively_regulates
 holds_over_chain: directly_positively_regulates indirectly_positively_regulates
 holds_over_chain: indirectly_negatively_regulates indirectly_negatively_regulates
@@ -1738,7 +1745,7 @@ def: "p indirectly regulates q iff p is indirectly causally upstream of q and p 
 xref: RO:0012012
 is_a: indirectly_causally_upstream_of ! indirectly causally upstream of
 is_a: regulates ! regulates
-created_by: pg
+created_by: https://orcid.org/0000-0003-1813-6857
 creation_date: 2022-09-26T06:08:01Z
 
 [Typedef]
@@ -1747,20 +1754,12 @@ name: inhibited_by
 namespace: go/extensions/gorel
 def: "Identifies a chemical substance that decreases the activity of the gene product." [GOC:mah]
 comment: This relation should not be used to annotate one gene product regulating another's activity; a regulator MF or regulation BP should be used in such cases.
-subset: AE_chemical
-subset: display_for_curators
-subset: valid_for_annotation_extension
 synonym: "activity_decreased_by" EXACT [GOC:mah]
 synonym: "inhibited by" EXACT RO:0008000 [PomBase:curators]
 synonym: "inhibited_by_chemical" EXACT [GOC:mah]
 synonym: "inhibited_by_substance" EXACT [GOC:mah]
 xref: GOREL:0000508
-property_value: local_domain GO:0003674 xsd:string
-property_value: local_range CHEBI:24431 xsd:string
 property_value: usage "Identifies a chemical substance that decreases the activity of the gene product." xsd:string
-domain: GO:0003674
-range: CHEBI:24431
-is_a: go_annotation_extension_relation ! go annotation extension relation
 
 [Typedef]
 id: inhibits_protease
@@ -1831,7 +1830,7 @@ xref: RO:0002331
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "actively involved in" xsd:string
 property_value: IAO:0000118 "enables part of" xsd:string
-property_value: seeAlso Involved:in
+property_value: seeAlso https://wiki.geneontology.org/Involved_in xsd:anyURI
 holds_over_chain: enables part_of
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: involved_in_or_involved_in_regulation_of ! involved in or involved in regulation of
@@ -1886,12 +1885,13 @@ is_a: involved_in_or_involved_in_regulation_of ! involved in or involved in regu
 [Typedef]
 id: is_active_in
 name: is active in
-def: "c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure." [GOC:cjm, GOC:dos]
+def: "c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure." [https://orcid.org/0000-0002-6601-2165, https://orcid.org/0000-0002-7073-9172]
 synonym: "enables activity in" EXACT []
 xref: RO:0002432
 property_value: IAO:0000112 "A protein that enables activity in a cytosol." xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "executes activity in" xsd:string
+property_value: seeAlso https://wiki.geneontology.org/Is_active_in xsd:anyURI
 holds_over_chain: enables occurs_in {http://purl.obolibrary.org/obo/RO_0002581="true"}
 is_a: functionally_related_to ! functionally related to
 is_a: overlaps ! overlaps
@@ -2150,6 +2150,7 @@ property_value: IAO:0000118 "unfolds_in" xsd:string
 property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 property_value: local_domain BFO:0000015 xsd:string
 property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000" xsd:string
+property_value: seeAlso https://wiki.geneontology.org/Occurs_in xsd:anyURI
 property_value: usage "Identifies the cell, tissue, cellular component or anatomical entity within which all parts of the molecular function or biological process occurs" xsd:string
 domain: BFO:0000003
 range: BFO:0000004
@@ -2254,6 +2255,7 @@ property_value: RO:0040042 BFO:0000031
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:PartOf
 property_value: seeAlso http://www.obofoundry.org/ro/#OBO_REL:part_of xsd:string
+property_value: seeAlso https://wiki.geneontology.org/Part_of xsd:anyURI
 property_value: usage "This relation has two uses in annotation extension.  It may be used to relate a cellular component to some cellular component, cell or anatomical structure that it is part of.  It may also be used to relate a molecular function or biological process to a biological process or developmental stage of which it is a part.  It may not be used to relate cellular components to functions, processes or stages, or to relate processes or functions to cellular components, cells or anatomical structures." xsd:string
 is_transitive: true
 is_a: go_annotation_extension_relation ! go annotation extension relation
@@ -2291,8 +2293,8 @@ subset: ro-eco
 xref: RO:0002574
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: seeAlso http://dx.doi.org/10.1016/j.ecoinf.2014.08.005
-domain: CARO:0001010
-range: CARO:0001010
+domain: OBI:0100026
+range: OBI:0100026
 is_a: biotically_interacts_with ! biotically interacts with
 
 [Typedef]
@@ -2364,7 +2366,7 @@ name: preceded by
 def: "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
 subset: ro-eco
 xref: BFO:0000062
-property_value: http://purl.org/dc/elements/1.1/source http://www.obofoundry.org/ro/#OBO_REL:preceded_by xsd:string
+property_value: http://purl.org/dc/terms/source http://www.obofoundry.org/ro/#OBO_REL:preceded_by xsd:string
 property_value: IAO:0000111 "preceded by" xsd:string
 property_value: IAO:0000116 "An example is: translation preceded_by transcription; aging preceded_by development (not however death preceded_by aging). Where derives_from links classes of continuants, preceded_by links classes of processes. Clearly, however, these two relations are not independent of each other. Thus if cells of type C1 derive_from cells of type C, then any cell division involving an instance of C1 in a given lineage is preceded_by cellular processes involving an instance of C.    The assertion P preceded_by P1 tells us something about Ps in general: that is, it tells us something about what happened earlier, given what we know about what happened later. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be succeeded by some instance of P. Note that an assertion to the effect that P preceded_by P1 is rather weak; it tells us little about the relations between the underlying instances in virtue of which the preceded_by relation obtains. Typically we will be interested in stronger relations, for example in the relation immediately_preceded_by, or in relations which combine preceded_by with a condition to the effect that the corresponding instances of P and P1 share participants, or that their participants are connected by relations of derivation, or (as a first step along the road to a treatment of causality) that the one process in some way affects (for example, initiates or regulates) the other." xsd:string
 property_value: IAO:0000118 "is preceded by" xsd:string
@@ -2605,17 +2607,10 @@ id: regulates_o_occurs_in
 name: regulates process that occurs in
 namespace: go/extensions/gorel
 def: "A relation that holds between a regulatory process and the entity which the regulated biological process or molecular function occurs in." [GOC:cjm, GOC:dph, GOC:mtg_berkeley_2012_08_27]
-subset: AE_cell_or_anatomical
-subset: AE_cellular_component
-subset: display_for_curators
-subset: valid_for_annotation_extension
 synonym: "regulates_o_occurs_in" EXACT []
 xref: GOREL:0001004
 property_value: IAO:0000112 "'negative regulation of chromosome segregation' that  regulates_o_occurs_in some spermatocyte." xsd:string
-property_value: local_domain GO:0065007 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
 property_value: usage "Use this relation to link a regulatory process or function to the structure that the regulated process or function occurs in." xsd:string
-is_a: go_annotation_extension_relation ! go annotation extension relation
 equivalent_to_chain: regulates occurs_in ! occurs in
 
 [Typedef]
@@ -2623,18 +2618,10 @@ id: regulates_o_results_in_acquisition_of_features_of
 name: regulates acquisition of features of
 namespace: go/extensions/gorel
 def: "This is the combination of the regulates relation with the results_in_acquisition_of_features_of relation." [GOC:mtg_berkeley_2013]
-subset: AE_cell_or_anatomical
-subset: display_for_curators
-subset: valid_for_annotation_extension
 synonym: "regulates differentiation of" EXACT []
 synonym: "regulates_o_results_in_acquisition_of_features_of" EXACT []
 xref: GOREL:0001010
-property_value: local_domain GO:0008150 xsd:string
-property_value: local_range "CL:0000000 PO:0009002 1 WBbt:0004017 WBbt:0005766" xsd:string
 property_value: usage "Use this relation to relate a process that regulates the differentiation of a cell type or anatomical structure to the specific cell type or anatomical structure in question." xsd:string
-domain: BFO:0000015
-range: CL:0000000
-is_a: go_annotation_extension_relation ! go annotation extension relation
 equivalent_to_chain: regulates results_in_acquisition_of_features_of ! results in acquisition of features of
 
 [Typedef]
@@ -2652,16 +2639,9 @@ id: regulates_o_results_in_development_of
 name: regulates development of
 namespace: go/extensions/gorel
 def: "This is the combination of the regulates relation with the results_in_development_of relation." [GOC:mtg_berkeley_2013]
-subset: AE_cell_or_anatomical
-subset: display_for_curators
-subset: valid_for_annotation_extension
 synonym: "regulates_o_results_in_development_of" EXACT []
 xref: GOREL:0001023
-property_value: local_domain GO:0008150 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
 property_value: usage "Use this relation to relate 'regulation of developmental process' or one of its subclasses to the structure that the regulated developmental process results in the development of." xsd:string
-domain: GO:0050793
-is_a: go_annotation_extension_relation ! go annotation extension relation
 equivalent_to_chain: regulates results_in_development_of ! results in development of
 
 [Typedef]
@@ -2705,16 +2685,10 @@ name: regulates process that results in movement of
 namespace: go/extensions/gorel
 def: "A relation that holds between a process that regulates locomotion and the cell or organism whose locomotion is being regulated." [GOC:cjm, GOC:dph, GOC:mtg_berkeley_2012_08_27]
 comment: This is the combination of the regulates relation with the results_in_movement_of relation.  Example of use: an annotation of gene X to 'regulation of cell migration with 'regulates_o_results_in_movement_of(CL:0000653) in column 16 would mean that gene X is involved in the regulation of glomerular visceral epithelial cell migration.
-subset: AE_cell_or_anatomical
-subset: display_for_curators
-subset: valid_for_annotation_extension
 synonym: "regulates_o_results_in_movement_of" EXACT []
 xref: GOREL:0001005
-property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 WBbt:0004017" xsd:string
 property_value: usage "Use this relation to relate a process that regulates locomotion to the cell or organism whose locomotion is being regulated." xsd:string
 domain: GO:0040012
-is_a: go_annotation_extension_relation ! go annotation extension relation
 equivalent_to_chain: regulates results_in_movement_of ! results in movement of
 
 [Typedef]
@@ -2722,16 +2696,9 @@ id: regulates_o_results_in_specification_of
 name: regulates specification of
 namespace: go/extensions/gorel
 def: "A relation that applies between a process that regulates the specification of some cell type or structure and the specified cell type or structure." [GOC:mtg_berkeley_2013]
-subset: AE_cell_or_anatomical
-subset: display_for_curators
-subset: valid_for_annotation_extension
 synonym: "regulates_o_results_in_specification_of" EXACT []
 xref: GOREL:0001027
-property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
 property_value: usage "Use this relation to link a process that regulates the specification of some cell type of anatomical structure, and the structure or cell type specified." xsd:string
-domain: GO:0050789
-is_a: go_annotation_extension_relation ! go annotation extension relation
 equivalent_to_chain: regulates results_in_specification_of ! results in specification of
 
 [Typedef]
@@ -2923,7 +2890,7 @@ property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
 property_value: local_domain GO:0030154 xsd:string
 property_value: local_range "CL:0000000 PO:0009002 WBbt:0004017" xsd:string
 property_value: usage "Use this relation to link a cell differentiation process to the cell type that the process results in the differentiation of." xsd:string
-range: CARO:0000003
+range: UBERON:0000061
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
 is_a: results_in_developmental_progression_of ! results in developmental progression of
@@ -3018,7 +2985,7 @@ property_value: IAO:0000116 "This property and its subproperties are being used 
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: seeAlso Ontology:extensions
 domain: GO:0008150
-range: CARO:0000000
+range: UBERON:0001062
 is_a: developmentally_related_to ! developmentally related to
 
 [Typedef]
@@ -3277,7 +3244,7 @@ name: transports
 def: "Holds between p and c when p is a transport process or transporter activity and the outcome of this p is to move c from one location to another." []
 xref: RO:0002020
 is_a: transports_or_maintains_localization_of ! transports or maintains localization of
-created_by: dos
+created_by: https://orcid.org/0000-0002-7073-9172
 creation_date: 2017-07-20T17:11:08Z
 
 [Typedef]

@@ -1503,6 +1503,7 @@ relationship: RO:0002162 NCBITaxon:183939 ! in taxon Methanococci
 [Term]
 id: NCBITaxon:183963
 name: Halobacteria
+synonym: "Halobacteria Grant et al. 2002" RELATED []
 synonym: "Halomebacteria" RELATED []
 is_a: NCBITaxon:2290931 ! Stenosarchaea group
 disjoint_from: NCBITaxon:224756 ! Methanomicrobia
@@ -3017,6 +3018,14 @@ id: NCBITaxon:28781
 name: Adrianichthyoidei
 is_a: NCBITaxon:76071 ! Beloniformes
 relationship: RO:0002162 NCBITaxon:28781 ! in taxon Adrianichthyoidei
+
+[Term]
+id: NCBITaxon:2886895
+name: Halobacterium salinarum NRC-34001
+synonym: "Halobacterium salinarum ATCC 33170" EXACT []
+synonym: "Halobacterium sp. 63-R2" EXACT []
+is_a: NCBITaxon:2242 ! Halobacterium salinarum
+relationship: RO:0002162 NCBITaxon:2886895 ! in taxon Halobacterium salinarum NRC-34001
 
 [Term]
 id: NCBITaxon:28889
@@ -5927,7 +5936,6 @@ relationship: RO:0002162 NCBITaxon:6101 ! in taxon Anthozoa
 [Term]
 id: NCBITaxon:6102
 name: Hexacorallia
-synonym: "Zoantharia" RELATED []
 is_a: NCBITaxon:6101 ! Anthozoa
 relationship: RO:0002162 NCBITaxon:6102 ! in taxon Hexacorallia
 
@@ -6050,14 +6058,13 @@ relationship: RO:0002162 NCBITaxon:6407 ! in taxon Glossiphoniidae
 id: NCBITaxon:64091
 name: Halobacterium salinarum NRC-1
 synonym: "Halobacterium halobium NRC-1" RELATED []
-synonym: "Halobacterium salinarum str. NRC-1" EXACT []
 synonym: "Halobacterium salinarum strain NRC-1" EXACT []
 synonym: "Halobacterium sp. (strain NRC-1 / ATCC 700922 / JCM 11081)" RELATED []
 synonym: "Halobacterium sp. (strain NRC-1)" RELATED []
-synonym: "Halobacterium sp. ATCC 700922" RELATED []
-synonym: "Halobacterium sp. JCM 11081" RELATED []
+synonym: "Halobacterium sp. ATCC 700922" EXACT []
+synonym: "Halobacterium sp. JCM 11081" EXACT []
 synonym: "Halobacterium sp. NRC-1" EXACT []
-is_a: NCBITaxon:2242 ! Halobacterium salinarum
+is_a: NCBITaxon:2886895 ! Halobacterium salinarum NRC-34001
 relationship: RO:0002162 NCBITaxon:64091 ! in taxon Halobacterium salinarum NRC-1
 
 [Term]

@@ -1,0 +1,58 @@
+#define RDF_TYPE "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>"
+#define RDFS_SUBCLASS_OF "<http://www.w3.org/2000/01/rdf-schema#subClassOf>"
+#define RDFS_SUBPROPERTY_OF "<http://www.w3.org/2000/01/rdf-schema#subPropertyOf>"
+#define OWL_TRANSITIVE_PROPERTY "<http://www.w3.org/2002/07/owl#TransitiveProperty>"
+
+.decl left(s: symbol, p: symbol, o: symbol)
+.decl right(s: symbol, p: symbol, o: symbol)
+.decl left_equivalent(x: symbol, y: symbol)
+.decl left_subClassOf(sub: symbol, super: symbol)
+.decl right_equivalent(x: symbol, y: symbol)
+.decl right_subClassOf(sub: symbol, super: symbol)
+.decl ontrdf(s: symbol, p: symbol, o: symbol)
+.decl transitive(prop: symbol)
+.decl subPropertyOf(sub: symbol, super: symbol)
+
+.decl lost_entailment(s: symbol, p: symbol, o: symbol)
+.decl gained_entailment(s: symbol, p: symbol, o: symbol)
+.decl lost_redundant(s: symbol, p: symbol, o: symbol)
+.decl lost(s: symbol, p: symbol, o: symbol, dot: symbol)
+.decl gained_redundant(s: symbol, p: symbol, o: symbol)
+.decl gained(s: symbol, p: symbol, o: symbol, dot: symbol)
+
+.input left
+.input right
+.input ontrdf //using right version
+
+
+left_equivalent(x, y) :- left(x, RDFS_SUBCLASS_OF, y), x != y, left(y, RDFS_SUBCLASS_OF, x).
+left_subClassOf(sub, super) :- left(sub, RDFS_SUBCLASS_OF, super), sub != super, !left_equivalent(sub, super).
+
+right_equivalent(x, y) :- right(x, RDFS_SUBCLASS_OF, y), x != y, right(y, RDFS_SUBCLASS_OF, x).
+right_subClassOf(sub, super) :- right(sub, RDFS_SUBCLASS_OF, super), sub != super, !right_equivalent(sub, super).
+
+transitive(prop) :- ontrdf(prop, RDF_TYPE, OWL_TRANSITIVE_PROPERTY).
+subPropertyOf(sub, super) :- ontrdf(sub, RDFS_SUBPROPERTY_OF, super), sub != super.
+subPropertyOf(sub, supersuper) :- subPropertyOf(sub, super), ontrdf(super, RDFS_SUBPROPERTY_OF, supersuper), super != supersuper, sub != supersuper.
+
+lost_entailment(s, p, o) :- left(s, p, o), !right(s, p, o).
+gained_entailment(s, p, o) :- right(s, p, o), !left(s, p, o).
+
+lost_redundant(s, p, o) :- left(s, p, other), s != other, !left_equivalent(s, other), left_subClassOf(other, o), lost_entailment(s, p, o).
+lost_redundant(s, p, o) :- lost_entailment(s, p, o), left_subClassOf(s, other), left(other, p, o), other != o, !left_equivalent(other, o).
+lost_redundant(s, p, o) :- lost_entailment(s, p, o), transitive(p), lost_entailment(s, p, other), other != o, lost_entailment(other, p, o).
+lost_redundant(s, p, o) :- lost_entailment(s, p, o), subPropertyOf(sub, p), lost_entailment(s, sub, o).
+lost_redundant(s, RDFS_SUBCLASS_OF, s) :- lost_entailment(s, RDFS_SUBCLASS_OF, s).
+
+lost(s, p, o, ".") :- lost_entailment(s, p, o), !lost_redundant(s, p, o).
+
+gained_redundant(s, p, o) :- right(s, p, other), s != other, !right_equivalent(s, other), right_subClassOf(other, o), gained_entailment(s, p, o).
+gained_redundant(s, p, o) :- gained_entailment(s, p, o), right_subClassOf(s, other), right(other, p, o), other != o, !right_equivalent(other, o).
+gained_redundant(s, p, o) :- gained_entailment(s, p, o), transitive(p), gained_entailment(s, p, other), other != o, gained_entailment(other, p, o).
+gained_redundant(s, p, o) :- gained_entailment(s, p, o), subPropertyOf(sub, p), gained_entailment(s, sub, o).
+gained_redundant(s, RDFS_SUBCLASS_OF, s) :- gained_entailment(s, RDFS_SUBCLASS_OF, s).
+
+gained(s, p, o, ".") :- gained_entailment(s, p, o), !gained_redundant(s, p, o).
+
+.output lost
+.output gained

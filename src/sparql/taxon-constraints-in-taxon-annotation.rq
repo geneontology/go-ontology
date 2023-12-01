@@ -1,0 +1,30 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX in_taxon: <http://purl.obolibrary.org/obo/RO_0002162>
+CONSTRUCT {
+  <http://purl.obolibrary.org/obo/go/imports/go-computed-taxon-constraints.owl#INTAXON> a owl:Ontology .
+  in_taxon: a owl:ObjectProperty .
+  ?term rdfs:subClassOf _:taxon_restriction .
+  _:taxon_restriction a owl:Restriction ;
+    owl:onProperty in_taxon: ;
+    owl:someValuesFrom ?taxon .
+  [
+    a owl:Axiom ;
+    owl:annotatedSource ?term ;
+    owl:annotatedProperty rdfs:subClassOf ;
+    owl:annotatedTarget _:taxon_restriction ;
+    oio:source "computed"
+  ]
+}
+WHERE {
+  ?term rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty in_taxon: ;
+    owl:someValuesFrom ?taxon
+  ]
+  FILTER(STRSTARTS(STR(?term), "http://purl.obolibrary.org/obo/GO_"))
+  FILTER(isIRI(?taxon))
+  FILTER(STRSTARTS(STR(?taxon), "http://purl.obolibrary.org/obo/NCBITaxon"))
+  FILTER(!STRENDS(STR(?taxon), "#NOT"))
+}

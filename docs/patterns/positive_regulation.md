@@ -46,9 +46,9 @@ This pattern is for classes representing types of positive regulation differenti
 
 | defined_class | defined_class_label | entity | entity_label |
 |:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_0007250](http://purl.obolibrary.org/obo/GO_0007250) | activation of NF-kappaB-inducing kinase activity | [http://purl.obolibrary.org/obo/GO_0004704](http://purl.obolibrary.org/obo/GO_0004704) | NF-kappaB-inducing kinase activity |
 | [http://purl.obolibrary.org/obo/GO_0075294](http://purl.obolibrary.org/obo/GO_0075294) | positive regulation by symbiont of entry into host | [http://purl.obolibrary.org/obo/GO_0044409](http://purl.obolibrary.org/obo/GO_0044409) | entry into host |
 | [http://purl.obolibrary.org/obo/GO_1905014](http://purl.obolibrary.org/obo/GO_1905014) | positive regulation of 'de novo' NAD biosynthetic process from tryptophan | [http://purl.obolibrary.org/obo/GO_0034354](http://purl.obolibrary.org/obo/GO_0034354) | 'de novo' NAD biosynthetic process from tryptophan |
 | [http://purl.obolibrary.org/obo/GO_1900694](http://purl.obolibrary.org/obo/GO_1900694) | positive regulation of (+)-kotanin biosynthetic process | [http://purl.obolibrary.org/obo/GO_1900596](http://purl.obolibrary.org/obo/GO_1900596) | (+)-kotanin biosynthetic process |
 | [http://purl.obolibrary.org/obo/GO_0060635](http://purl.obolibrary.org/obo/GO_0060635) | positive regulation of (1->3)-beta-D-glucan biosynthetic process | [http://purl.obolibrary.org/obo/GO_0006075](http://purl.obolibrary.org/obo/GO_0006075) | (1->3)-beta-D-glucan biosynthetic process |
+| [http://purl.obolibrary.org/obo/GO_1902274](http://purl.obolibrary.org/obo/GO_1902274) | positive regulation of (R)-carnitine transmembrane transport | [http://purl.obolibrary.org/obo/GO_1902270](http://purl.obolibrary.org/obo/GO_1902270) | (R)-carnitine transmembrane transport |
 

@@ -81,7 +81,7 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl subset-owls subset-reports generate-mappings
+stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl imports/go-computed-taxon-constraints.obo subset-owls subset-reports generate-mappings
 
 test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
@@ -206,8 +206,9 @@ present_in_taxon_check.ofn: enhanced.owl ../taxon_constraints/present_in_taxon.o
 
 # equivalent to reasoned, but we rename
 # TODO cleanup redundancies with merge here and with go-base
-$(GO_PLUS).owl: reasoned.owl
-	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+# note: do not run 'reason' after go-computed-taxon-constraints.owl is merged; some desired logical redundancy may be lost
+$(GO_PLUS).owl: reasoned.owl imports/go-computed-taxon-constraints.owl
+	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false merge -i imports/go-computed-taxon-constraints.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: $(GO_PLUS).owl
 
 # Create release file containing GO-asserted axioms, no external axioms, and no inferences.
@@ -360,6 +361,13 @@ imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
 
 imports/go_taxon_constraints.owl: ../taxon_constraints/only_in_taxon.ofn ../taxon_constraints/never_in_taxon.ofn
 	$(ROBOT) merge $(addprefix -i , $^) annotate -O $(BASE)/$@ -o $@
+
+imports/go-computed-taxon-constraints.owl: $(SRC) $(SPARQLDIR)/taxon-constraints-materialization.ru $(SPARQLDIR)/taxon-constraints-in-taxon-annotation.rq $(SPARQLDIR)/taxon-constraints-never-in-taxon-annotation.rq
+	$(ROBOT) merge -i $< query --update $(SPARQLDIR)/taxon-constraints-materialization.ru materialize --term RO:0002162 query --query $(SPARQLDIR)/taxon-constraints-in-taxon-annotation.rq taxon-constraints-in-taxon-annotation.ttl --query $(SPARQLDIR)/taxon-constraints-never-in-taxon-annotation.rq taxon-constraints-never-in-taxon-annotation.ttl &&\
+	$(ROBOT) merge -i taxon-constraints-in-taxon-annotation.ttl -i taxon-constraints-never-in-taxon-annotation.ttl annotate -O $(BASE)/$@ -o $@
+
+imports/go-computed-taxon-constraints.obo: imports/go-computed-taxon-constraints.owl
+	$(ROBOT) convert -i $< -o imports/go-computed-taxon-constraints.tmp.obo && grep -v '^owl-axioms' imports/go-computed-taxon-constraints.tmp.obo >$@
 
 imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
@@ -570,14 +578,13 @@ generate-mappings: $(ONT)-pre.owl
 	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pfam2go -O external2go/pfam2go
 	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pirsf2go -O external2go/pirsf2go
 	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prints2go -O external2go/prints2go
-	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prodom2go -O external2go/prodom2go
 	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prosite2go -O external2go/prosite2go
 	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/smart2go -O external2go/smart2go
 	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_kw2go -O external2go/uniprotkb_kw2go
 	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_sl2go -O external2go/uniprotkb_sl2go
 	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/unirule2go -O external2go/unirule2go
 	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/hamap2go -O external2go/hamap2go
-	wget https://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/rfam2go/rfam2go -O external2go/rfam2go
+	wget https://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/rfam2go -O external2go/rfam2go
 
 # ----------------------------------------
 # TAXON GROUPINGS
