@@ -15,3 +15,5 @@ http://purl.obolibrary.org/obo/CL_0005006 ## ionocyte
 http://purl.obolibrary.org/obo/CL_0011016 ## flagellated sperm cell
 http://purl.obolibrary.org/obo/CL_0000125 ## glial cell (sensu Vertebrata)
 http://purl.obolibrary.org/obo/CL_0002301 ## type B synovial cell
+http://purl.obolibrary.org/obo/CL_0011025 ## exhausted T cell
+http://purl.obolibrary.org/obo/CL_2000089 ## dentate gyrus of hippocampal formation granule cell

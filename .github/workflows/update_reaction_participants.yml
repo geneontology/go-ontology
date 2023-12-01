@@ -1,0 +1,32 @@
+name: Update reaction participants
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '23 2 * * *'
+
+jobs:
+  update:
+
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      
+    - name: Work around https://github.com/peter-evans/create-pull-request/issues/1170
+      run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      
+    - name: Update reaction participants
+      run: cd src/ontology && make imports/go-catalytic-activities-participants.owl imports/go-catalytic-activities-participants.obo && cd ../..
+    
+    - name: Create PR
+      uses: peter-evans/create-pull-request@v4
+      with:
+        title: Update reaction participants
+        branch: update-reaction-participants
+        add-paths: |
+          src/ontology/imports/go-catalytic-activities-participants.owl
+          src/ontology/imports/go-catalytic-activities-participants.obo
+        token: ${{ secrets.PR_ACTION_TOKEN }}

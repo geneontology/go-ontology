@@ -1,0 +1,36 @@
+pattern_name: symporter activity
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/symporter_activity.yaml
+
+description: This pattern is for classes representing symporter activities, differentiated by the type of inputs.
+
+classes:
+  symporter activity: "GO:0015293"
+  chemical entity: "CHEBI:24431"
+
+relations: 
+  has primary input: "RO:0004009"
+
+vars:
+  input1: "'chemical entity'"
+  input2: "'chemical entity'"
+
+name:
+  text: "%s:%s symporter activity"
+  vars:
+    - input1
+    - input2
+
+def:
+  text: "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: %s(out) + %s(out) = %s(in) + %s(in)."
+  vars:
+    - input1
+    - input2
+    - input1
+    - input2
+
+equivalentTo:
+  text: "'symporter activity' and ('has primary input' some %s) and ('has primary input' some %s)"
+  vars:
+    - input1
+    - input2

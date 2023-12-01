@@ -116,6 +116,7 @@ http://purl.obolibrary.org/obo/GO_0046042	ITP biosynthetic process	http://purl.o
 http://purl.obolibrary.org/obo/GO_0009248	K antigen biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_73772	K antigen
 http://purl.obolibrary.org/obo/GO_0036104	Kdo2-lipid A biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58540	(Kdo)2-lipid A(6-) (E. coli)
 http://purl.obolibrary.org/obo/GO_0042852	L-alanine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57972	L-alanine zwitterion
+http://purl.obolibrary.org/obo/GO_0170034	L-amino acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_59869	L-alpha-amino acid zwitterion
 http://purl.obolibrary.org/obo/GO_0033357	L-arabinose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_30849	L-arabinose
 http://purl.obolibrary.org/obo/GO_0019853	L-ascorbic acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_38290	L-ascorbate
 http://purl.obolibrary.org/obo/GO_0070981	L-asparagine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58048	L-asparagine zwitterion
@@ -148,7 +149,6 @@ http://purl.obolibrary.org/obo/GO_0009435	NAD biosynthetic process	http://purl.o
 http://purl.obolibrary.org/obo/GO_0006741	NADP biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_25523	NADP
 http://purl.obolibrary.org/obo/GO_0018425	O3-(N-acetylglucosamine-1-phosphoryl)-L-serine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_67036	O-(N-acetylglucosamine-1-phosphonatooxy)-L-serine(1-)
 http://purl.obolibrary.org/obo/GO_0140875	PR-toxin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_7883	PR-toxin
-http://purl.obolibrary.org/obo/GO_0032774	RNA biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_33697	ribonucleic acid
 http://purl.obolibrary.org/obo/GO_0006556	S-adenosylmethionine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_59789	S-adenosyl-L-methionine zwitterion
 http://purl.obolibrary.org/obo/GO_0016144	S-glycoside biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_35275	S-glycosyl compound
 http://purl.obolibrary.org/obo/GO_0010250	S-methylmethionine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58252	S-methyl-L-methionine zwitterion
@@ -325,6 +325,7 @@ http://purl.obolibrary.org/obo/GO_0042425	choline biosynthetic process	http://pu
 http://purl.obolibrary.org/obo/GO_0030206	chondroitin sulfate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_37397	chondroitin sulfate
 http://purl.obolibrary.org/obo/GO_0009423	chorismate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_29748	chorismate(2-)
 http://purl.obolibrary.org/obo/GO_0042858	chrysobactin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_61345	chrysobactin
+http://purl.obolibrary.org/obo/GO_0062032	cichorine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64977	cichorine
 http://purl.obolibrary.org/obo/GO_0009800	cinnamic acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_23248	cinnamate
 http://purl.obolibrary.org/obo/GO_0009802	cinnamic acid ester biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_36087	cinnamate ester
 http://purl.obolibrary.org/obo/GO_1902246	cis-abienol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_68624	cis-abienol
@@ -721,7 +722,6 @@ http://purl.obolibrary.org/obo/GO_0010264	myo-inositol hexakisphosphate biosynth
 http://purl.obolibrary.org/obo/GO_1900787	naphtho-gamma-pyrone biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64542	naphtho-gamma-pyrone
 http://purl.obolibrary.org/obo/GO_1901158	neomycin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_7507	neomycin
 http://purl.obolibrary.org/obo/GO_1902050	neosartoricin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_72750	neosartoricin
-http://purl.obolibrary.org/obo/GO_0042136	neurotransmitter biosynthetic process	http://purl.obolibrary.org/obo/GOCHE_25512	substance with neurotransmitter role
 http://purl.obolibrary.org/obo/GO_0030418	nicotianamine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58249	(S,S,S)-nicotianamine trizwitterion
 http://purl.obolibrary.org/obo/GO_0019359	nicotinamide nucleotide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_25527	nicotinamide nucleotide
 http://purl.obolibrary.org/obo/GO_0071590	nicotinamide riboside biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_15927	N-ribosylnicotinamide
@@ -825,7 +825,7 @@ http://purl.obolibrary.org/obo/GO_0097040	phthiocerol biosynthetic process	http:
 http://purl.obolibrary.org/obo/GO_0140609	phycocyanobilin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_48863	phycocyanobilin
 http://purl.obolibrary.org/obo/GO_0042372	phylloquinone biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_18067	phylloquinone
 http://purl.obolibrary.org/obo/GO_0052315	phytoalexin biosynthetic process	http://purl.obolibrary.org/obo/GOCHE_26115	substance with phytoalexin role
-http://purl.obolibrary.org/obo/GO_0046938	phytochelatin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_60836	phytochelatin
+http://purl.obolibrary.org/obo/GO_0046938	phytochelatin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_131728	[Glu(-Cys)]n-Gly(1-)
 http://purl.obolibrary.org/obo/GO_0048543	phytochrome chromophore biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_82632	phytochrome chromophore
 http://purl.obolibrary.org/obo/GO_0010024	phytochromobilin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57439	(3Z)-phytochromobilin(2-)
 http://purl.obolibrary.org/obo/GO_1901174	phytoene biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26119	phytoene

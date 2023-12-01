@@ -35,7 +35,6 @@ http://purl.obolibrary.org/obo/GO_1990114	RNA polymerase II core complex assembl
 http://purl.obolibrary.org/obo/GO_1990115	RNA polymerase III assembly	http://purl.obolibrary.org/obo/GO_0005666	RNA polymerase III complex
 http://purl.obolibrary.org/obo/GO_0036285	SAGA complex assembly	http://purl.obolibrary.org/obo/GO_0000124	SAGA complex
 http://purl.obolibrary.org/obo/GO_0010265	SCF complex assembly	http://purl.obolibrary.org/obo/GO_0019005	SCF ubiquitin ligase complex
-http://purl.obolibrary.org/obo/GO_0007183	SMAD protein complex assembly	http://purl.obolibrary.org/obo/GO_0071141	SMAD protein complex
 http://purl.obolibrary.org/obo/GO_0035493	SNARE complex assembly	http://purl.obolibrary.org/obo/GO_0031201	SNARE complex
 http://purl.obolibrary.org/obo/GO_0036399	TCR signalosome assembly	http://purl.obolibrary.org/obo/GO_0036398	TCR signalosome
 http://purl.obolibrary.org/obo/GO_1905669	TORC1 complex assembly	http://purl.obolibrary.org/obo/GO_0031931	TORC1 complex
@@ -101,6 +100,8 @@ http://purl.obolibrary.org/obo/GO_0010190	cytochrome b6f complex assembly	http:/
 http://purl.obolibrary.org/obo/GO_0017004	cytochrome complex assembly	http://purl.obolibrary.org/obo/GO_0070069	cytochrome complex
 http://purl.obolibrary.org/obo/GO_0035231	cytoneme assembly	http://purl.obolibrary.org/obo/GO_0035230	cytoneme
 http://purl.obolibrary.org/obo/GO_1990194	cytoplasmic U snRNP body assembly	http://purl.obolibrary.org/obo/GO_0071254	cytoplasmic U snRNP body
+http://purl.obolibrary.org/obo/GO_0180023	cytosolic large ribosomal subunit assembly	http://purl.obolibrary.org/obo/GO_0022625	cytosolic large ribosomal subunit
+http://purl.obolibrary.org/obo/GO_0180025	cytosolic small ribosomal subunit assembly	http://purl.obolibrary.org/obo/GO_0022627	cytosolic small ribosomal subunit
 http://purl.obolibrary.org/obo/GO_0071550	death-inducing signaling complex assembly	http://purl.obolibrary.org/obo/GO_0031264	death-inducing signaling complex
 http://purl.obolibrary.org/obo/GO_0097026	dendritic cell dendrite assembly	http://purl.obolibrary.org/obo/GO_0097511	dendritic cell dendrite
 http://purl.obolibrary.org/obo/GO_0002159	desmosome assembly	http://purl.obolibrary.org/obo/GO_0030057	desmosome
@@ -170,6 +171,7 @@ http://purl.obolibrary.org/obo/GO_0070096	mitochondrial outer membrane transloca
 http://purl.obolibrary.org/obo/GO_0097250	mitochondrial respirasome assembly	http://purl.obolibrary.org/obo/GO_0005746	mitochondrial respirasome
 http://purl.obolibrary.org/obo/GO_0032981	mitochondrial respiratory chain complex I assembly	http://purl.obolibrary.org/obo/GO_0005747	mitochondrial respiratory chain complex I
 http://purl.obolibrary.org/obo/GO_0061668	mitochondrial ribosome assembly	http://purl.obolibrary.org/obo/GO_0005761	mitochondrial ribosome
+http://purl.obolibrary.org/obo/GO_0180026	mitochondrial small ribosomal subunit assembly	http://purl.obolibrary.org/obo/GO_0005763	mitochondrial small ribosomal subunit
 http://purl.obolibrary.org/obo/GO_1905660	mitotic checkpoint complex assembly	http://purl.obolibrary.org/obo/GO_0033597	mitotic checkpoint complex
 http://purl.obolibrary.org/obo/GO_0044458	motile cilium assembly	http://purl.obolibrary.org/obo/GO_0031514	motile cilium
 http://purl.obolibrary.org/obo/GO_0036258	multivesicular body assembly	http://purl.obolibrary.org/obo/GO_0005771	multivesicular body
@@ -221,6 +223,7 @@ http://purl.obolibrary.org/obo/GO_1902906	proteasome storage granule assembly	ht
 http://purl.obolibrary.org/obo/GO_0035362	protein-DNA ISRE complex assembly	http://purl.obolibrary.org/obo/GO_0097522	protein-DNA ISRE complex
 http://purl.obolibrary.org/obo/GO_0065004	protein-DNA complex assembly	http://purl.obolibrary.org/obo/GO_0032993	protein-DNA complex
 http://purl.obolibrary.org/obo/GO_0001116	protein-DNA-RNA complex assembly	http://purl.obolibrary.org/obo/GO_0001114	protein-DNA-RNA complex
+http://purl.obolibrary.org/obo/GO_0022618	protein-RNA complex assembly	http://purl.obolibrary.org/obo/GO_1990904	ribonucleoprotein complex
 http://purl.obolibrary.org/obo/GO_0065003	protein-containing complex assembly	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex
 http://purl.obolibrary.org/obo/GO_0065005	protein-lipid complex assembly	http://purl.obolibrary.org/obo/GO_0032994	protein-lipid complex
 http://purl.obolibrary.org/obo/GO_0043461	proton-transporting ATP synthase complex assembly	http://purl.obolibrary.org/obo/GO_0045259	proton-transporting ATP synthase complex
@@ -232,7 +235,6 @@ http://purl.obolibrary.org/obo/GO_1904270	pyroptosome complex assembly	http://pu
 http://purl.obolibrary.org/obo/GO_0034552	respiratory chain complex II assembly	http://purl.obolibrary.org/obo/GO_0045273	respiratory chain complex II
 http://purl.obolibrary.org/obo/GO_0017062	respiratory chain complex III assembly	http://purl.obolibrary.org/obo/GO_0045275	respiratory chain complex III
 http://purl.obolibrary.org/obo/GO_0008535	respiratory chain complex IV assembly	http://purl.obolibrary.org/obo/GO_0045277	respiratory chain complex IV
-http://purl.obolibrary.org/obo/GO_0022618	ribonucleoprotein complex assembly	http://purl.obolibrary.org/obo/GO_1990904	ribonucleoprotein complex
 http://purl.obolibrary.org/obo/GO_0000027	ribosomal large subunit assembly	http://purl.obolibrary.org/obo/GO_0015934	large ribosomal subunit
 http://purl.obolibrary.org/obo/GO_0000028	ribosomal small subunit assembly	http://purl.obolibrary.org/obo/GO_0015935	small ribosomal subunit
 http://purl.obolibrary.org/obo/GO_0042255	ribosome assembly	http://purl.obolibrary.org/obo/GO_0005840	ribosome

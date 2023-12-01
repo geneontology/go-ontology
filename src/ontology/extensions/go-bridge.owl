@@ -13,7 +13,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))
-Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CARO_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_17843>))
@@ -22,7 +21,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33697>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33699>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36080>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50906>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005575>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
@@ -38,14 +36,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000253>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000356>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000673>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000833>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000061>))
+
 
 ############################
 #   Classes
 ############################
-
-# Class: <http://purl.obolibrary.org/obo/BFO_0000023> (role)
-
-EquivalentClasses(<http://purl.obolibrary.org/obo/BFO_0000023> <http://purl.obolibrary.org/obo/CHEBI_50906>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_17843> (transfer RNA)
 
@@ -82,6 +78,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.o
 # Class: <http://purl.obolibrary.org/obo/GO_0110165> (cellular anatomical entity)
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0110165> <http://purl.obolibrary.org/obo/CARO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0110165> <http://purl.obolibrary.org/obo/UBERON_0000061>)
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_1> (root)
 

@@ -62,9 +62,6 @@ GO:0007098	centrosome cycle	NCBITaxon:33090	Viridiplantae
 GO:0007098	centrosome cycle	NCBITaxon:4751	Fungi	
 GO:0007140	male meiotic nuclear division	NCBITaxon:4751	Fungi	
 GO:0007143	female meiotic nuclear division	NCBITaxon:4751	Fungi	
-GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:33090	Viridiplantae	
-GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
-GO:0007182	common-partner SMAD protein phosphorylation	NCBITaxon:4751	Fungi	
 GO:0007218	neuropeptide signaling pathway	NCBITaxon:4751	Fungi	
 GO:0007252	I-kappaB phosphorylation	NCBITaxon:4751	Fungi	
 GO:0007258	JUN phosphorylation	NCBITaxon:4895	Schizosaccharomyces	
@@ -124,7 +121,7 @@ GO:0014832	urinary bladder smooth muscle contraction	NCBITaxon:8782	Aves
 GO:0015979	photosynthesis	NCBITaxon:33208	Metazoa	
 GO:0015979	photosynthesis	NCBITaxon:4895	Schizosaccharomyces	
 GO:0015994	chlorophyll metabolic process	NCBITaxon:33208	Metazoa	
-GO:0016032	viral process	NCBITaxon:4896	Schizosaccharomyces pombe 
+GO:0016032	viral process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0016116	carotenoid metabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0016116	carotenoid metabolic process	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0016168	chlorophyll binding	NCBITaxon:33208	Metazoa	
@@ -143,7 +140,6 @@ GO:0030054	cell junction	NCBITaxon:4751	Fungi
 GO:0030141	secretory granule	NCBITaxon:4890	Ascomycota	
 GO:0030436	asexual sporulation	NCBITaxon:33083	Dictyostelids	
 GO:0030492	hemoglobin binding	NCBITaxon:4751	Fungi	
-GO:0030579	ubiquitin-dependent SMAD protein catabolic process	NCBITaxon:4751	Fungi	
 GO:0030634	carbon fixation by acetyl-CoA pathway	NCBITaxon:2759	Eukaryota	
 GO:0030881	beta-2-microglobulin binding	NCBITaxon:4751	Fungi	
 GO:0030984	kininogen binding	NCBITaxon:4751	Fungi	
@@ -179,7 +175,6 @@ GO:0039679	viral occlusion body	NCBITaxon:131567	cellular organisms
 GO:0040011	locomotion	NCBITaxon:451864	Dikarya	
 GO:0042023	DNA endoreduplication	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0042127	regulation of cell proliferation	NCBITaxon:4751	Fungi	
-GO:0042133	neurotransmitter metabolic process	NCBITaxon:4895	Schizosaccharomyces	
 GO:0042445	hormone metabolic process	NCBITaxon:4895	Schizosaccharomyces	
 GO:0042464	dosage compensation by hypoactivation of X chromosome	NCBITaxon:8782	Aves	
 GO:0042470	melanosome	NCBITaxon:4895	Schizosaccharomyces	
@@ -242,10 +237,6 @@ GO:0060271	cilium assembly	NCBITaxon:3378	Gnetales
 GO:0060271	cilium assembly	NCBITaxon:3398	Magnoliophyta	
 GO:0060271	cilium assembly	NCBITaxon:4890	Ascomycota	
 GO:0060271	cilium assembly	NCBITaxon:5782	Dictyostelium	
-GO:0060389	pathway-restricted SMAD protein phosphorylation	NCBITaxon:4751	Fungi	
-GO:0060390	regulation of SMAD protein signal transduction	NCBITaxon:4751	Fungi	
-GO:0060393	regulation of pathway-restricted SMAD protein phosphorylation	NCBITaxon:4751	Fungi	
-GO:0060395	SMAD protein signal transduction	NCBITaxon:4751	Fungi	
 GO:0060539	diaphragm development	NCBITaxon:8782	Aves	
 GO:0060540	diaphragm morphogenesis	NCBITaxon:8782	Aves	
 GO:0061675	RBL family protein binding	NCBITaxon:4751	Fungi	
@@ -348,7 +339,6 @@ GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:3398	Magnoliop
 GO:0098521	inhibitory neuromuscular junction	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0098769	TIMP family protein binding	NCBITaxon:4751	Fungi	
 GO:0098770	FBXO family protein binding	NCBITaxon:4751	Fungi	
-GO:0099536	synaptic signaling	NCBITaxon:4895	Schizosaccharomyces	
 GO:0102084	L-dopa O-methyltransferase activity	NCBITaxon:4890	Ascomycota	
 GO:0102938	orcinol O-methyltransferase activity	NCBITaxon:4890	Ascomycota	
 GO:0120164	conidium germination	NCBITaxon:147554	Schizosaccharomycetes	
@@ -358,7 +348,6 @@ GO:0120164	conidium germination	NCBITaxon:241407	Saccharomycetales incertae sedi
 GO:0120164	conidium germination	NCBITaxon:33208	Metazoa	
 GO:0120164	conidium germination	NCBITaxon:451866	Taphrinomycotina	
 GO:0120164	conidium germination	NCBITaxon:4930	Saccharomyces	
-GO:1900095	regulation of dosage compensation by inactivation of X chromosome	NCBITaxon:8782	Aves	
 GO:1901142	insulin metabolic process	NCBITaxon:33090	Viridiplantae	
 GO:1901142	insulin metabolic process	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
 GO:1903719	regulation of I-kappaB phosphorylation	NCBITaxon:4751	Fungi	
@@ -519,7 +508,6 @@ GO:0005368	taurine transmembrane transporter activity	NCBITaxon:4751	Fungi
 GO:0015411	ATPase-coupled taurine transporter activity	NCBITaxon:4751	Fungi	
 GO:0000011	vacuole inheritance	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0071563	Myo2p-Vac17p-Vac8p transport complex	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0036473	cell death in response to oxidative stress	NCBITaxon:4890 	Ascomycota	
 GO:0031911	cytoproct	NCBITaxon:33208	Metazoa	
 GO:0044297	cell body	NCBITaxon:4890 	Ascomycota	
 GO:0045180	basal cortex	NCBITaxon:4890 	Ascomycota	
@@ -582,3 +570,18 @@ GO:0020022	acidocalcisome	NCBITaxon:4890	Ascomycota
 GO:0042246 	tissue regeneration	NCBITaxon:4751	Fungi	
 GO:0060250 	germ-line stem-cell niche homeostasis	NCBITaxon:4751	Fungi	
 GO:0035658	Mon1-Ccz1 complex	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0048863	stem cell differentiation	NCBITaxon:4751	Fungi	
+GO:0003365	establishment of cell polarity involved in ameboidal cell migration	NCBITaxon:4751	Fungi	
+GO:0090398	cellular senescence	NCBITaxon:4751	Fungi	
+GO:0000365	mRNA trans splicing, via spliceosome	NCBITaxon:4751	Fungi	
+GO:0016477	cell migration	NCBITaxon:4890	Ascomycota	
+GO:0106339	tRNA (cytidine 32-2'-O)-methyltransferase activity	NCBITaxon:2157	Archaea	PMID:18068186
+GO:0035658	Piccolo NuA4 histone acetyltransferase complex	NCBITaxon:4896	Schizosaccharomyces pombe  PMID:37550452
+GO:0002224	toll-like receptor signaling pathway	NCBITaxon:7215	Drosophila		    PMID:30034391
+GO:0017015	regulation of transforming growth factor beta receptor signaling pathway	NCBITaxon:4751	Fungi	
+GO:0030512	negative regulation of transforming growth factor beta receptor signaling pathway	NCBITaxon:4751	Fungi	
+GO:0030511	positive regulation of transforming growth factor beta receptor signaling pathway	NCBITaxon:4751	Fungi	
+GO:0030334	regulation of cell migration	NCBITaxon:4890	Ascomycota	
+GO:0060818	inactivation of paternal X chromosome by genomic imprinting	NCBITaxon:9606	Homo sapiens	
+GO:0042566	hydrogenosome	NCBITaxon:4890	Ascomycota	
+GO:0042566	hydrogenosome	NCBITaxon:33090	Viridiplantae	 

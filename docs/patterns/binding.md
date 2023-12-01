@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[binding](http://purl.obolibrary.org/obo/GO_0005488)  and ([has input](http://purl.obolibrary.org/obo/RO_0002233) some `{input}`)
+[binding](http://purl.obolibrary.org/obo/GO_0005488)  and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some `{input}`)
 
 
 

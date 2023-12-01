@@ -1,0 +1,122 @@
+defined_class	defined_class_label	input	input_label
+http://purl.obolibrary.org/obo/GO_0001874	(1->3)-beta-D-glucan immune receptor activity	http://purl.obolibrary.org/obo/CHEBI_37671	(1->3)-beta-D-glucan
+http://purl.obolibrary.org/obo/GO_1990080	2-phenylethylamine receptor activity	http://purl.obolibrary.org/obo/CHEBI_225237	2-phenylethanaminium
+http://purl.obolibrary.org/obo/GO_0062124	4-hydroxybutyrate receptor activity	http://purl.obolibrary.org/obo/CHEBI_16724	4-hydroxybutyrate
+http://purl.obolibrary.org/obo/GO_0038149	C-C motif chemokine 2 receptor activity	http://purl.obolibrary.org/obo/PR_000002122	C-C motif chemokine 2
+http://purl.obolibrary.org/obo/GO_0016917	GABA receptor activity	http://purl.obolibrary.org/obo/CHEBI_59888	gamma-aminobutyric acid zwitterion
+http://purl.obolibrary.org/obo/GO_0030369	ICAM-3 receptor activity	http://purl.obolibrary.org/obo/PR_000001468	intercellular adhesion molecule 3
+http://purl.obolibrary.org/obo/GO_0035643	L-DOPA receptor activity	http://purl.obolibrary.org/obo/CHEBI_57504	L-dopa zwitterion
+http://purl.obolibrary.org/obo/GO_0015464	acetylcholine receptor activity	http://purl.obolibrary.org/obo/CHEBI_15355	acetylcholine
+http://purl.obolibrary.org/obo/GO_0001595	angiotensin receptor activity	http://purl.obolibrary.org/obo/CHEBI_48433	angiotensin
+http://purl.obolibrary.org/obo/GO_0060182	apelin receptor activity	http://purl.obolibrary.org/obo/PR_000004135	apelin
+http://purl.obolibrary.org/obo/GO_0034188	apolipoprotein A-I receptor activity	http://purl.obolibrary.org/obo/PR_000004140	apolipoprotein A-I
+http://purl.obolibrary.org/obo/GO_0038198	auxin receptor activity	http://purl.obolibrary.org/obo/GOCHE_22676	substance with auxin role
+http://purl.obolibrary.org/obo/GO_0008503	benzodiazepine receptor activity	http://purl.obolibrary.org/obo/CHEBI_22720	benzodiazepine
+http://purl.obolibrary.org/obo/GO_0004979	beta-endorphin receptor activity	http://purl.obolibrary.org/obo/CHEBI_10415	beta-endorphin
+http://purl.obolibrary.org/obo/GO_0004947	bradykinin receptor activity	http://purl.obolibrary.org/obo/CHEBI_132988	bradykinin(2+)
+http://purl.obolibrary.org/obo/GO_0060175	brain-derived neurotrophic factor receptor activity	http://purl.obolibrary.org/obo/PR_000004716	brain-derived neurotrophic factor
+http://purl.obolibrary.org/obo/GO_0004948	calcitonin receptor activity	http://purl.obolibrary.org/obo/CHEBI_3306	calcitonin
+http://purl.obolibrary.org/obo/GO_0004949	cannabinoid receptor activity	http://purl.obolibrary.org/obo/CHEBI_67194	cannabinoid
+http://purl.obolibrary.org/obo/GO_0004951	cholecystokinin receptor activity	http://purl.obolibrary.org/obo/PR_000005110	cholecystokinin
+http://purl.obolibrary.org/obo/GO_0004897	ciliary neurotrophic factor receptor activity	http://purl.obolibrary.org/obo/PR_000005663	ciliary neurotrophic factor
+http://purl.obolibrary.org/obo/GO_0004978	corticotropin receptor activity	http://purl.obolibrary.org/obo/CHEBI_3892	corticotropin
+http://purl.obolibrary.org/obo/GO_0043404	corticotropin-releasing hormone receptor activity	http://purl.obolibrary.org/obo/CHEBI_65311	corticotropin-releasing hormone
+http://purl.obolibrary.org/obo/GO_0009884	cytokinin receptor activity	http://purl.obolibrary.org/obo/GOCHE_23530	substance with cytokinin role
+http://purl.obolibrary.org/obo/GO_0005006	epidermal growth factor receptor activity	http://purl.obolibrary.org/obo/PR_000006928	pro-epidermal growth factor
+http://purl.obolibrary.org/obo/GO_0004900	erythropoietin receptor activity	http://purl.obolibrary.org/obo/PR_000007141	erythropoietin
+http://purl.obolibrary.org/obo/GO_0038199	ethylene receptor activity	http://purl.obolibrary.org/obo/CHEBI_18153	ethene
+http://purl.obolibrary.org/obo/GO_0004966	galanin receptor activity	http://purl.obolibrary.org/obo/PR_000007806	galanin
+http://purl.obolibrary.org/obo/GO_0015054	gastrin receptor activity	http://purl.obolibrary.org/obo/PR_000007856	gastrin
+http://purl.obolibrary.org/obo/GO_0016167	glial cell-derived neurotrophic factor receptor activity	http://purl.obolibrary.org/obo/PR_000007928	glial cell line-derived neurotrophic factor
+http://purl.obolibrary.org/obo/GO_0004967	glucagon receptor activity	http://purl.obolibrary.org/obo/CHEBI_5391	glucagon
+http://purl.obolibrary.org/obo/GO_0008066	glutamate receptor activity	http://purl.obolibrary.org/obo/CHEBI_14321	glutamate(1-)
+http://purl.obolibrary.org/obo/GO_0004902	granulocyte colony-stimulating factor receptor activity	http://purl.obolibrary.org/obo/PR_000005932	granulocyte colony-stimulating factor
+http://purl.obolibrary.org/obo/GO_0004901	granulocyte macrophage colony-stimulating factor receptor activity	http://purl.obolibrary.org/obo/PR_000005931	granulocyte-macrophage colony-stimulating factor
+http://purl.obolibrary.org/obo/GO_0004903	growth hormone receptor activity	http://purl.obolibrary.org/obo/GOCHE_37845	substance with growth hormone role
+http://purl.obolibrary.org/obo/GO_0001616	growth hormone secretagogue receptor activity	http://purl.obolibrary.org/obo/PR_000007973	appetite-regulating hormone
+http://purl.obolibrary.org/obo/GO_0016520	growth hormone-releasing hormone receptor activity	http://purl.obolibrary.org/obo/PR_000007971	somatoliberin
+http://purl.obolibrary.org/obo/GO_0005008	hepatocyte growth factor receptor activity	http://purl.obolibrary.org/obo/PR_000008534	hepatocyte growth factor
+http://purl.obolibrary.org/obo/GO_0004969	histamine receptor activity	http://purl.obolibrary.org/obo/CHEBI_58432	histaminium
+http://purl.obolibrary.org/obo/GO_0004953	icosanoid receptor activity	http://purl.obolibrary.org/obo/CHEBI_23899	icosanoid
+http://purl.obolibrary.org/obo/GO_0005009	insulin receptor activity	http://purl.obolibrary.org/obo/PR_000009054	insulin gene translation product
+http://purl.obolibrary.org/obo/GO_0004908	interleukin-1 receptor activity	http://purl.obolibrary.org/obo/PR_000001091	interleukin-1
+http://purl.obolibrary.org/obo/GO_0004920	interleukin-10 receptor activity	http://purl.obolibrary.org/obo/PR_000001471	interleukin-10
+http://purl.obolibrary.org/obo/GO_0004921	interleukin-11 receptor activity	http://purl.obolibrary.org/obo/PR_000001366	interleukin-11
+http://purl.obolibrary.org/obo/GO_0016515	interleukin-13 receptor activity	http://purl.obolibrary.org/obo/PR_000001370	interleukin-13
+http://purl.obolibrary.org/obo/GO_0042010	interleukin-15 receptor activity	http://purl.obolibrary.org/obo/PR_000001373	interleukin-15
+http://purl.obolibrary.org/obo/GO_0042012	interleukin-16 receptor activity	http://purl.obolibrary.org/obo/PR_000001374	interleukin-16
+http://purl.obolibrary.org/obo/GO_0030368	interleukin-17 receptor activity	http://purl.obolibrary.org/obo/PR_000001092	interleukin-17
+http://purl.obolibrary.org/obo/GO_0042008	interleukin-18 receptor activity	http://purl.obolibrary.org/obo/PR_000001376	interleukin-18
+http://purl.obolibrary.org/obo/GO_0042014	interleukin-19 receptor activity	http://purl.obolibrary.org/obo/PR_000001472	interleukin-19
+http://purl.obolibrary.org/obo/GO_0004911	interleukin-2 receptor activity	http://purl.obolibrary.org/obo/PR_000001379	interleukin-2
+http://purl.obolibrary.org/obo/GO_0042016	interleukin-20 receptor activity	http://purl.obolibrary.org/obo/PR_000001473	interleukin-20
+http://purl.obolibrary.org/obo/GO_0001532	interleukin-21 receptor activity	http://purl.obolibrary.org/obo/PR_000001382	interleukin-21
+http://purl.obolibrary.org/obo/GO_0042018	interleukin-22 receptor activity	http://purl.obolibrary.org/obo/PR_000001383	interleukin-22
+http://purl.obolibrary.org/obo/GO_0045506	interleukin-24 receptor activity	http://purl.obolibrary.org/obo/PR_000001474	interleukin-24
+http://purl.obolibrary.org/obo/GO_0045507	interleukin-25 receptor activity	http://purl.obolibrary.org/obo/PR_000001113	interleukin-25
+http://purl.obolibrary.org/obo/GO_0045508	interleukin-26 receptor activity	http://purl.obolibrary.org/obo/PR_000001475	interleukin-26
+http://purl.obolibrary.org/obo/GO_0045509	interleukin-27 receptor activity	http://purl.obolibrary.org/obo/PR_000001141	interleukin-17D
+http://purl.obolibrary.org/obo/GO_0004912	interleukin-3 receptor activity	http://purl.obolibrary.org/obo/PR_000001387	interleukin-3
+http://purl.obolibrary.org/obo/GO_0002114	interleukin-33 receptor activity	http://purl.obolibrary.org/obo/PR_000001389	interleukin-33
+http://purl.obolibrary.org/obo/GO_0004913	interleukin-4 receptor activity	http://purl.obolibrary.org/obo/PR_000001391	interleukin-4
+http://purl.obolibrary.org/obo/GO_0004914	interleukin-5 receptor activity	http://purl.obolibrary.org/obo/PR_000001392	interleukin-5
+http://purl.obolibrary.org/obo/GO_0004915	interleukin-6 receptor activity	http://purl.obolibrary.org/obo/PR_000001393	interleukin-6
+http://purl.obolibrary.org/obo/GO_0004917	interleukin-7 receptor activity	http://purl.obolibrary.org/obo/PR_000001317	interleukin-7
+http://purl.obolibrary.org/obo/GO_0004918	interleukin-8 receptor activity	http://purl.obolibrary.org/obo/PR_000001395	interleukin-8
+http://purl.obolibrary.org/obo/GO_0004919	interleukin-9 receptor activity	http://purl.obolibrary.org/obo/PR_000001396	interleukin-9
+http://purl.obolibrary.org/obo/GO_0004923	leukemia inhibitory factor receptor activity	http://purl.obolibrary.org/obo/PR_000009799	leukemia inhibitory factor
+http://purl.obolibrary.org/obo/GO_0001632	leukotriene B4 receptor activity	http://purl.obolibrary.org/obo/CHEBI_57461	leukotriene B4(1-)
+http://purl.obolibrary.org/obo/GO_0004974	leukotriene receptor activity	http://purl.obolibrary.org/obo/CHEBI_25029	leukotriene
+http://purl.obolibrary.org/obo/GO_0001877	lipoarabinomannan immune receptor activity	http://purl.obolibrary.org/obo/CHEBI_59524	lipoarabinomannan
+http://purl.obolibrary.org/obo/GO_0001875	lipopolysaccharide immune receptor activity	http://purl.obolibrary.org/obo/CHEBI_16412	lipopolysaccharide
+http://purl.obolibrary.org/obo/GO_0070892	lipoteichoic acid immune receptor activity	http://purl.obolibrary.org/obo/CHEBI_28640	lipoteichoic acid
+http://purl.obolibrary.org/obo/GO_0070915	lysophosphatidic acid receptor activity	http://purl.obolibrary.org/obo/CHEBI_52288	1-octadec-9-enoylglycero-3-phosphate
+http://purl.obolibrary.org/obo/GO_0036319	mating-type M-factor pheromone receptor activity	http://purl.obolibrary.org/obo/CHEBI_64120	M-factor
+http://purl.obolibrary.org/obo/GO_0036320	mating-type P-factor pheromone receptor activity	http://purl.obolibrary.org/obo/CHEBI_64121	P-factor
+http://purl.obolibrary.org/obo/GO_0008502	melatonin receptor activity	http://purl.obolibrary.org/obo/CHEBI_16796	melatonin
+http://purl.obolibrary.org/obo/GO_0038047	morphine receptor activity	http://purl.obolibrary.org/obo/CHEBI_58097	morphine(1+)
+http://purl.obolibrary.org/obo/GO_0004983	neuropeptide Y receptor activity	http://purl.obolibrary.org/obo/PR_000011387	neuropeptide Y
+http://purl.obolibrary.org/obo/GO_0070553	nicotinic acid receptor activity	http://purl.obolibrary.org/obo/CHEBI_32544	nicotinate
+http://purl.obolibrary.org/obo/GO_0031963	nuclear cortisol receptor activity	http://purl.obolibrary.org/obo/CHEBI_17650	cortisol
+http://purl.obolibrary.org/obo/GO_0030284	nuclear estrogen receptor activity	http://purl.obolibrary.org/obo/GOCHE_50114	substance with estrogen role
+http://purl.obolibrary.org/obo/GO_0004883	nuclear glucocorticoid receptor activity	http://purl.obolibrary.org/obo/CHEBI_24261	glucocorticoid
+http://purl.obolibrary.org/obo/GO_0003707	nuclear steroid receptor activity	http://purl.obolibrary.org/obo/CHEBI_26764	steroid hormone
+http://purl.obolibrary.org/obo/GO_0016502	nucleotide receptor activity	http://purl.obolibrary.org/obo/CHEBI_36976	nucleotide
+http://purl.obolibrary.org/obo/GO_0004989	octopamine receptor activity	http://purl.obolibrary.org/obo/CHEBI_58025	octopaminium
+http://purl.obolibrary.org/obo/GO_0004924	oncostatin-M receptor activity	http://purl.obolibrary.org/obo/PR_000012059	oncostatin-M
+http://purl.obolibrary.org/obo/GO_0016499	orexin receptor activity	http://purl.obolibrary.org/obo/PR_000008476	hypocretin neuropeptide precursor
+http://purl.obolibrary.org/obo/GO_0004990	oxytocin receptor activity	http://purl.obolibrary.org/obo/CHEBI_7872	oxytocin
+http://purl.obolibrary.org/obo/GO_0001602	pancreatic polypeptide receptor activity	http://purl.obolibrary.org/obo/PR_000013164	pancreatic prohormone
+http://purl.obolibrary.org/obo/GO_0004991	parathyroid hormone receptor activity	http://purl.obolibrary.org/obo/PR_000013429	parathyroid hormone
+http://purl.obolibrary.org/obo/GO_0001601	peptide YY receptor activity	http://purl.obolibrary.org/obo/PR_000013526	peptide YY
+http://purl.obolibrary.org/obo/GO_0036318	peptide pheromone receptor activity	http://purl.obolibrary.org/obo/CHEBI_38579	peptide pheromone
+http://purl.obolibrary.org/obo/GO_0001653	peptide receptor activity	http://purl.obolibrary.org/obo/CHEBI_16670	peptide
+http://purl.obolibrary.org/obo/GO_0016019	peptidoglycan immune receptor activity	http://purl.obolibrary.org/obo/CHEBI_8005	peptidoglycan
+http://purl.obolibrary.org/obo/GO_0016503	pheromone receptor activity	http://purl.obolibrary.org/obo/GOCHE_26013	substance with pheromone role
+http://purl.obolibrary.org/obo/GO_0001565	phorbol ester receptor activity	http://purl.obolibrary.org/obo/CHEBI_37532	phorbol ester
+http://purl.obolibrary.org/obo/GO_0001634	pituitary adenylate cyclase-activating polypeptide receptor activity	http://purl.obolibrary.org/obo/PR_000003761	pituitary adenylate cyclase-activating polypeptide
+http://purl.obolibrary.org/obo/GO_0004992	platelet activating factor receptor activity	http://purl.obolibrary.org/obo/CHEBI_52450	2-O-acetyl-1-O-octadecyl-sn-glycero-3-phosphocholine
+http://purl.obolibrary.org/obo/GO_0001873	polysaccharide immune receptor activity	http://purl.obolibrary.org/obo/CHEBI_18154	polysaccharide
+http://purl.obolibrary.org/obo/GO_0004925	prolactin receptor activity	http://purl.obolibrary.org/obo/PR_000013246	prolactin
+http://purl.obolibrary.org/obo/GO_0016501	prostacyclin receptor activity	http://purl.obolibrary.org/obo/CHEBI_57403	prostaglandin I2(1-)
+http://purl.obolibrary.org/obo/GO_0004956	prostaglandin D receptor activity	http://purl.obolibrary.org/obo/CHEBI_26337	prostaglandins D
+http://purl.obolibrary.org/obo/GO_0004957	prostaglandin E receptor activity	http://purl.obolibrary.org/obo/CHEBI_26338	prostaglandins E
+http://purl.obolibrary.org/obo/GO_0004958	prostaglandin F receptor activity	http://purl.obolibrary.org/obo/CHEBI_26340	prostaglandins F
+http://purl.obolibrary.org/obo/GO_0001785	prostaglandin J receptor activity	http://purl.obolibrary.org/obo/CHEBI_26346	prostaglandins J
+http://purl.obolibrary.org/obo/GO_0004955	prostaglandin receptor activity	http://purl.obolibrary.org/obo/CHEBI_26333	prostaglandin
+http://purl.obolibrary.org/obo/GO_0004954	prostanoid receptor activity	http://purl.obolibrary.org/obo/CHEBI_26347	prostanoid
+http://purl.obolibrary.org/obo/GO_0001614	purinergic nucleotide receptor activity	http://purl.obolibrary.org/obo/CHEBI_26395	purine nucleotide
+http://purl.obolibrary.org/obo/GO_0015055	secretin receptor activity	http://purl.obolibrary.org/obo/PR_000014543	secretin
+http://purl.obolibrary.org/obo/GO_0017154	semaphorin receptor activity	http://purl.obolibrary.org/obo/PR_000001926	semaphorin
+http://purl.obolibrary.org/obo/GO_0004994	somatostatin receptor activity	http://purl.obolibrary.org/obo/CHEBI_64628	somatostatin
+http://purl.obolibrary.org/obo/GO_0038036	sphingosine-1-phosphate receptor activity	http://purl.obolibrary.org/obo/CHEBI_60119	sphingosine 1-phosphate(1-)
+http://purl.obolibrary.org/obo/GO_0005020	stem cell factor receptor activity	http://purl.obolibrary.org/obo/PR_000009345	kit ligand
+http://purl.obolibrary.org/obo/GO_0008281	sulfonylurea receptor activity	http://purl.obolibrary.org/obo/CHEBI_26831	N,N''-sulfonyldiurea
+http://purl.obolibrary.org/obo/GO_0004961	thromboxane A2 receptor activity	http://purl.obolibrary.org/obo/CHEBI_57445	thromboxane A2(1-)
+http://purl.obolibrary.org/obo/GO_0004960	thromboxane receptor activity	http://purl.obolibrary.org/obo/CHEBI_26995	thromboxane
+http://purl.obolibrary.org/obo/GO_0004996	thyroid-stimulating hormone receptor activity	http://purl.obolibrary.org/obo/PR_000028269	thyroid stimulating hormone
+http://purl.obolibrary.org/obo/GO_0005024	transforming growth factor beta receptor activity	http://purl.obolibrary.org/obo/PR_000000046	TGF-beta
+http://purl.obolibrary.org/obo/GO_1990081	trimethylamine receptor activity	http://purl.obolibrary.org/obo/CHEBI_58389	trimethylammonium
+http://purl.obolibrary.org/obo/GO_0008226	tyramine receptor activity	http://purl.obolibrary.org/obo/CHEBI_327995	tyraminium
+http://purl.obolibrary.org/obo/GO_0030377	urokinase plasminogen activator receptor activity	http://purl.obolibrary.org/obo/PR_000012826	urokinase-type plasminogen activator
+http://purl.obolibrary.org/obo/GO_0005000	vasopressin receptor activity	http://purl.obolibrary.org/obo/CHEBI_9937	vasopressin

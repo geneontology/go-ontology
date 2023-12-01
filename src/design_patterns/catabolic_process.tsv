@@ -107,6 +107,7 @@ http://purl.obolibrary.org/obo/GO_0006204	IMP catabolic process	http://purl.obol
 http://purl.obolibrary.org/obo/GO_0006193	ITP catabolic process	http://purl.obolibrary.org/obo/CHEBI_61402	ITP(4-)
 http://purl.obolibrary.org/obo/GO_0042853	L-alanine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57972	L-alanine zwitterion
 http://purl.obolibrary.org/obo/GO_1903663	L-altrarate catabolic process	http://purl.obolibrary.org/obo/CHEBI_37547	L-altrarate(2-)
+http://purl.obolibrary.org/obo/GO_0170035	L-amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_59869	L-alpha-amino acid zwitterion
 http://purl.obolibrary.org/obo/GO_0019572	L-arabinose catabolic process	http://purl.obolibrary.org/obo/CHEBI_30849	L-arabinose
 http://purl.obolibrary.org/obo/GO_0051158	L-arabitol catabolic process	http://purl.obolibrary.org/obo/CHEBI_18403	L-arabinitol
 http://purl.obolibrary.org/obo/GO_0019854	L-ascorbic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_38290	L-ascorbate
@@ -557,6 +558,7 @@ http://purl.obolibrary.org/obo/GO_0019524	keto-D-gluconate catabolic process	htt
 http://purl.obolibrary.org/obo/GO_0046181	ketogluconate catabolic process	http://purl.obolibrary.org/obo/CHEBI_60978	ketogluconate
 http://purl.obolibrary.org/obo/GO_0046952	ketone body catabolic process	http://purl.obolibrary.org/obo/CHEBI_73693	ketone body
 http://purl.obolibrary.org/obo/GO_0042182	ketone catabolic process	http://purl.obolibrary.org/obo/CHEBI_17087	ketone
+http://purl.obolibrary.org/obo/GO_0072340	lactam catabolic process	http://purl.obolibrary.org/obo/CHEBI_24995	lactam
 http://purl.obolibrary.org/obo/GO_1903457	lactate catabolic process	http://purl.obolibrary.org/obo/CHEBI_24996	lactate
 http://purl.obolibrary.org/obo/GO_1901335	lactone catabolic process	http://purl.obolibrary.org/obo/CHEBI_25000	lactone
 http://purl.obolibrary.org/obo/GO_0005990	lactose catabolic process	http://purl.obolibrary.org/obo/CHEBI_17716	lactose
@@ -630,7 +632,6 @@ http://purl.obolibrary.org/obo/GO_1900786	naphtho-gamma-pyrone catabolic process
 http://purl.obolibrary.org/obo/GO_0034661	ncRNA catabolic process	http://purl.obolibrary.org/obo/SO_0000655	ncRNA
 http://purl.obolibrary.org/obo/GO_1901157	neomycin catabolic process	http://purl.obolibrary.org/obo/CHEBI_7507	neomycin
 http://purl.obolibrary.org/obo/GO_1902049	neosartoricin catabolic process	http://purl.obolibrary.org/obo/CHEBI_72750	neosartoricin
-http://purl.obolibrary.org/obo/GO_0042135	neurotransmitter catabolic process	http://purl.obolibrary.org/obo/GOCHE_25512	substance with neurotransmitter role
 http://purl.obolibrary.org/obo/GO_0030419	nicotianamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_58249	(S,S,S)-nicotianamine trizwitterion
 http://purl.obolibrary.org/obo/GO_0006738	nicotinamide riboside catabolic process	http://purl.obolibrary.org/obo/CHEBI_15927	N-ribosylnicotinamide
 http://purl.obolibrary.org/obo/GO_1901848	nicotinate catabolic process	http://purl.obolibrary.org/obo/CHEBI_32544	nicotinate
@@ -699,7 +700,6 @@ http://purl.obolibrary.org/obo/GO_0019323	pentose catabolic process	http://purl.
 http://purl.obolibrary.org/obo/GO_0030652	peptide antibiotic catabolic process	http://purl.obolibrary.org/obo/CHEBI_25903	peptide antibiotic
 http://purl.obolibrary.org/obo/GO_0043171	peptide catabolic process	http://purl.obolibrary.org/obo/CHEBI_16670	peptide
 http://purl.obolibrary.org/obo/GO_0009253	peptidoglycan catabolic process	http://purl.obolibrary.org/obo/CHEBI_8005	peptidoglycan
-http://purl.obolibrary.org/obo/GO_0017184	peptidyl-diphthamide catabolic process	http://purl.obolibrary.org/obo/CHEBI_16692	diphthamide residue
 http://purl.obolibrary.org/obo/GO_0042216	phenanthrene catabolic process	http://purl.obolibrary.org/obo/CHEBI_28851	phenanthrene
 http://purl.obolibrary.org/obo/GO_0072392	phenol catabolic process	http://purl.obolibrary.org/obo/CHEBI_15882	phenol
 http://purl.obolibrary.org/obo/GO_0019336	phenol-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_33853	phenols
@@ -852,7 +852,7 @@ http://purl.obolibrary.org/obo/GO_0006706	steroid catabolic process	http://purl.
 http://purl.obolibrary.org/obo/GO_0016127	sterol catabolic process	http://purl.obolibrary.org/obo/CHEBI_15889	sterol
 http://purl.obolibrary.org/obo/GO_0046272	stilbene catabolic process	http://purl.obolibrary.org/obo/CHEBI_26775	stilbene
 http://purl.obolibrary.org/obo/GO_0042207	styrene catabolic process	http://purl.obolibrary.org/obo/CHEBI_27452	styrene
-http://purl.obolibrary.org/obo/GO_0010814	substance P catabolic process	http://purl.obolibrary.org/obo/CHEBI_80308	substance P
+http://purl.obolibrary.org/obo/GO_0010814	substance P catabolic process	http://purl.obolibrary.org/obo/CHEBI_190692	substance P(3+)
 http://purl.obolibrary.org/obo/GO_1901289	succinyl-CoA catabolic process	http://purl.obolibrary.org/obo/CHEBI_57292	succinyl-CoA(5-)
 http://purl.obolibrary.org/obo/GO_0005987	sucrose catabolic process	http://purl.obolibrary.org/obo/CHEBI_17992	sucrose
 http://purl.obolibrary.org/obo/GO_0000098	sulfur amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_26834	sulfur-containing amino acid

@@ -7,6 +7,7 @@
 | [anatomical structure maturation](anatomical_structure_maturation.md) | This pattern is for classes representing the maturation of an anatomical structure or a cell, differentiated by the anatomical structure or cell being in its final state. |
 | [anatomical structure morphogenesis](anatomical_structure_morphogenesis.md) | This pattern is for classes representing the generation and organization of the shape of an anatomical structure or a cell, differentiated by the anatomical structure or cell being generated. |
 | [anatomical structure organization](anatomical_structure_organization.md) | TODO |
+| [antiporter activity](antiporter_activity.md) | This pattern is for classes representing antiporter activities, differentiated by the type of inputs. |
 | [binding](binding.md) | TODO |
 | [biosynthetic process](biosynthetic_process.md) | This pattern is for classes representing biosynthetic processes differentiated by their primary outputs. |
 | [bounding membrane of organelle](bounding_membrane_of_organelle.md) | TODO |
@@ -14,10 +15,12 @@
 | [cc assembly](cc_assembly.md) | TODO |
 | [cc disassembly](cc_disassembly.md) | TODO |
 | [cc transport from to](cc_transport_from_to.md) | TODO |
+| [cell differentiation by mature cell type](cell_differentiation_by_mature_cell_type.md) | This pattern is for classes representing cell differentiation, differentiated by the resulting mature cell type. |
 | [cell fate commitment](cell_fate_commitment.md) | This pattern is for classes representing the commitment of cells to a specific cell type, differentiated by the type of cell. |
 | [cell fate determination](cell_fate_determination.md) | This pattern is for classes representing the determination of cell fate, differentiated by the cell being differentiated. |
 | [cell specification](cell_specification.md) | This pattern is for classes representing the specification of cells, differentiated by the cell being specified. |
 | [cellular anatomical entity organization](cellular_anatomical_entity_organization.md) | TODO |
+| [cell–cell signaling by start and end cell types](cell_cell_signaling_by_start_end.md) | This pattern is for classes representing cell–cell signaling, differentiated by the start and end cell types. |
 | [chemical transport](chemical_transport.md) | TODO |
 | [chromosomal region](chromosomal_region.md) | TODO |
 | [establishment of protein localization to](establishment_of_protein_localization_to.md) | TODO |
@@ -43,7 +46,10 @@
 | [regulation](regulation.md) | This pattern is for classes representing types of regulation differentiated by the process they regulate. One of three core patterns for regulation terms in the GO. Do not use this pattern for the 3 grouping classes: regulation of MF, regulation of BP, regulation of BQ |
 | [regulation by](regulation_by.md) | This pattern is for classes representing types of regulation differentiated by the process they regulate and the mechanism of regulation. |
 | [regulation of characteristic](regulation_of_characteristic.md) | Regulation of a particular characteristic. |
+| [response to stimulus by stimulus type](response_to_stimulus_by_stimulus.md) | This pattern is for classes representing response to stimulus, differentiated by the type of stimulus. |
+| [signaling receptor activity by input](signaling_receptor_activity_by_input.md) | This pattern is for classes representing signaling receptor activity, differentiated by the type of input. |
 | [single-organism process](single_organism_process.md) | TODO |
+| [symporter activity](symporter_activity.md) | This pattern is for classes representing symporter activities, differentiated by the type of inputs. |
 | [transmembrane import into cytosol](transmembrane_import_into_cytosol.md) | TODO |
 | [transport of a cellular component](cc_transport.md) | Transport of a cellular component, differentiated by the component being transported. |
 | [vesicle-mediated transport differentiated by cargo](vesicle_mediated_transport_differentiated_by_cargo.md) | TODO |

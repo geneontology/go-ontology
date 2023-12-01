@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-02-28/imports/uberon_import.owl
+data-version: go/releases/2023-08-29/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -1170,7 +1170,7 @@ synonym: "segmentation stage" RELATED []
 is_a: UBERON:0000105 ! life cycle stage
 relationship: only_in_taxon NCBITaxon:6072
 relationship: part_of UBERON:0000068 ! embryo stage
-relationship: preceded_by UBERON:0000110 ! neurula stage
+relationship: preceded_by UBERON:0000110 {gci_relation="part_of", gci_filler="NCBITaxon:32523"} ! neurula stage
 relationship: simultaneous_with GO:0048513
 
 [Term]
@@ -2756,7 +2756,7 @@ disjoint_from: UBERON:0010000 ! multicellular anatomical structure
 [Term]
 id: UBERON:0000477
 name: anatomical cluster
-def: "Anatomical group that has its parts adjacent to one another." []
+def: "Anatomical group whose component anatomical structures lie in close proximity to each other." []
 is_a: UBERON:0034923 ! disconnected anatomical group
 
 [Term]
@@ -3037,7 +3037,7 @@ relationship: part_of UBERON:0007026 ! presumptive gut
 
 [Term]
 id: UBERON:0000933
-name: pharyngeal muscle
+name: chordate pharyngeal muscle
 def: "A muscle that acts on the pharynx[WP, vetted]." []
 synonym: "branchial muscle" EXACT []
 synonym: "branchial muscles" RELATED []
@@ -3045,6 +3045,7 @@ synonym: "muscle of pharynx" EXACT []
 synonym: "muscle organ of pharynx" EXACT []
 synonym: "musculi pharyngis" RELATED []
 synonym: "musculus pharyngis" RELATED []
+synonym: "pharyngeal muscle" EXACT []
 synonym: "pharynx muscle" EXACT []
 synonym: "pharynx muscle organ" EXACT []
 synonym: "tunica muscularis pharyngis" RELATED []
@@ -3367,7 +3368,7 @@ relationship: part_of UBERON:0012430 ! tunica fibrosa of eyeball
 [Term]
 id: UBERON:0000965
 name: lens of camera-type eye
-def: "Transparent part of camera-type eye that helps to refract light to be focused on the retina." []
+def: "A transparent and refractive lens located posterior to the iris. The lens of camera-type eye refracts light to be focused on the retina." []
 synonym: "camera-type eye lens" EXACT []
 synonym: "crystalline lens" RELATED []
 synonym: "eye lens" EXACT []
@@ -3561,7 +3562,7 @@ relationship: proximally_connected_to UBERON:0007832 ! pelvic girdle skeleton
 [Term]
 id: UBERON:0000982
 name: skeletal joint
-def: "Anatomical cluster that consists of two or more adjacent skeletal structures, which may be interconnected by various types of tissue[VSAO]." []
+def: "Anatomical structure that consists of two or more adjacent skeletal structures, which may be interconnected by various types of tissue[VSAO]." []
 synonym: "articular joint" RELATED []
 synonym: "articulation" BROAD []
 synonym: "joint" BROAD []
@@ -4888,12 +4889,12 @@ synonym: "textus muscularis of heart muscle" EXACT []
 synonym: "textus muscularis of heart myocardium" EXACT []
 synonym: "textus muscularis of muscle of heart" EXACT []
 synonym: "textus muscularis of myocardium" EXACT []
-is_a: UBERON:0002036 ! striated muscle tissue
+is_a: UBERON:8600006 ! visceral striated muscle tissue
 intersection_of: UBERON:0002036 ! striated muscle tissue
 intersection_of: has_part CL:0000746
 disjoint_from: UBERON:0001134 ! skeletal muscle tissue
 relationship: composed_primarily_of CL:0000746
-relationship: part_of UBERON:0000948 ! heart
+relationship: part_of UBERON:0007100 ! primary circulatory organ
 
 [Term]
 id: UBERON:0001134
@@ -6990,7 +6991,6 @@ is_a: UBERON:0000058 ! duct
 relationship: channel_for CL:0000019
 relationship: channels_into UBERON:0003959 {gci_relation="part_of", gci_filler="NCBITaxon:40674"} ! rete testis
 relationship: contains_process GO:0007283
-relationship: contains_process GO:0051321
 relationship: develops_from UBERON:0005297 ! testis sex cord
 relationship: part_of UBERON:0000473 ! testis
 
@@ -8394,7 +8394,7 @@ relationship: part_of UBERON:0001007 ! digestive system
 id: UBERON:0001556
 name: lower urinary tract
 def: "Subdivision of urinary system which consists of the urinary bladder and the urethra." []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0011216 ! organ system subdivision
 relationship: has_part UBERON:0000057 ! urethra
 relationship: has_part UBERON:0001255 ! urinary bladder
 relationship: part_of UBERON:0001008 ! renal system
@@ -9804,7 +9804,7 @@ synonym: "muscular palate" RELATED []
 synonym: "palatum molle" RELATED []
 synonym: "velum" RELATED []
 synonym: "velum palatinum" RELATED []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0034921 ! multi organ part structure
 relationship: part_of UBERON:0000165 ! mouth
 relationship: part_of UBERON:0001716 ! secondary palate
 
@@ -11959,6 +11959,23 @@ relationship: part_of UBERON:0002421 ! hippocampal formation
 relationship: part_of UBERON:0002600 ! limbic lobe
 
 [Term]
+id: UBERON:0001955
+name: epithelium of respiratory bronchiole
+def: "An epithelium that is part of a respiratory bronchiole [Automatically generated definition]." []
+synonym: "bronchiolus respiratorius epithelial tissue" EXACT []
+synonym: "bronchiolus respiratorius epithelium" EXACT []
+synonym: "epithelial tissue of bronchiolus respiratorius" EXACT []
+synonym: "epithelial tissue of respiratory bronchiole" EXACT []
+synonym: "epithelium of bronchiolus respiratorius" EXACT []
+synonym: "respiratory bronchiole epithelial tissue" EXACT []
+synonym: "respiratory bronchiole epithelium" EXACT []
+is_a: UBERON:0002051 ! epithelium of bronchiole
+intersection_of: UBERON:0000483 ! epithelium
+intersection_of: part_of UBERON:0002188 ! respiratory bronchiole
+relationship: has_part CL:0000158
+relationship: part_of UBERON:0002188 ! respiratory bronchiole
+
+[Term]
 id: UBERON:0001956
 name: cartilage of bronchus
 def: "The hyaline cartilaginous structures that support the bronchi, present as irregular rings in the larger bronchi (and not as regular as in the trachea), and as small plates and islands in the smaller bronchi; as the branching continues through the bronchial tree, the amount of hyaline cartilage in the walls decreases until it is absent in the smallest bronchioles[MP]." []
@@ -11975,6 +11992,7 @@ intersection_of: UBERON:0007844 ! cartilage element
 intersection_of: part_of UBERON:0002185 ! bronchus
 relationship: composed_primarily_of UBERON:0001994 ! hyaline cartilage tissue
 relationship: contributes_to_morphology_of UBERON:0002185 ! bronchus
+relationship: has_part CL:0019002
 
 [Term]
 id: UBERON:0001957
@@ -12009,6 +12027,7 @@ is_a: UBERON:0002051 ! epithelium of bronchiole
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: part_of UBERON:0002187 ! terminal bronchiole
 relationship: has_part CL:0000158
+relationship: has_part CL:1000271
 
 [Term]
 id: UBERON:0001959
@@ -12713,6 +12732,8 @@ is_a: UBERON:0004573 ! systemic artery
 intersection_of: UBERON:0004573 ! systemic artery
 intersection_of: part_of UBERON:0004571 ! systemic arterial system
 intersection_of: supplies UBERON:0002048 ! lung
+relationship: has_part UBERON:0004848 ! respiratory system arterial endothelium
+relationship: has_part UBERON:0012416 ! respiratory system arterial smooth muscle
 
 [Term]
 id: UBERON:0002042
@@ -12837,7 +12858,9 @@ is_a: UBERON:0004802 ! respiratory tract epithelium
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: part_of UBERON:0002186 ! bronchiole
 relationship: contributes_to_morphology_of UBERON:0002186 ! bronchiole
+relationship: has_part CL:0000158
 relationship: has_part CL:0002145
+relationship: has_part CL:1000271
 relationship: part_of UBERON:0005039 ! mucosa of bronchiole
 
 [Term]
@@ -13947,8 +13970,20 @@ is_a: UBERON:0007499 ! epithelial sac
 intersection_of: UBERON:0007499 ! epithelial sac
 intersection_of: part_of UBERON:0008874 ! pulmonary acinus
 relationship: contributes_to_morphology_of UBERON:0008874 ! pulmonary acinus
+relationship: has_part UBERON:0002299 ! alveolus of lung
 relationship: part_of UBERON:0006524 ! alveolar system
 relationship: part_of UBERON:0008874 ! pulmonary acinus
+
+[Term]
+id: UBERON:0002173
+name: pulmonary alveolar duct
+def: "The respiratory conducting tubes distal to the respiratory bronchiole that lead to the alveolar sacs and the alveoli." []
+synonym: "alveolar duct" EXACT []
+synonym: "ductus alveolaris" EXACT []
+synonym: "respiratory alveolar duct" EXACT []
+is_a: UBERON:0000025 ! tube
+relationship: part_of UBERON:0002048 ! lung
+relationship: part_of UBERON:0006524 ! alveolar system
 
 [Term]
 id: UBERON:0002183
@@ -13960,6 +13995,9 @@ synonym: "secondary bronchi" RELATED []
 synonym: "secondary bronchus" EXACT []
 is_a: UBERON:0002185 ! bronchus
 relationship: distally_connected_to UBERON:0002184 ! segmental bronchus
+relationship: has_part UBERON:0001956 ! cartilage of bronchus
+relationship: has_part UBERON:0004242 ! bronchus smooth muscle
+relationship: has_part UBERON:8410043 ! bronchus submucosal gland
 relationship: part_of UBERON:0000101 ! lobe of lung
 
 [Term]
@@ -13968,6 +14006,11 @@ name: segmental bronchus
 def: "The tertiary bronchi (also known as the segmental bronchi) arise from the secondary bronchi. The respiratory epithelium lining their lumen is surrounded by a layer of smooth muscle. This layer is composed of two ribbons of smooth muscle that spiral in opposite directions. The smooth muscle layer is surrounded by irregular plates of hyaline cartilage which help maintain the patency of the airway. Each of the tertiary bronchi serves a specific bronchopulmonary segment. There are 10 tertiary bronchi in the right lung, and eight in the left. The tertiary bronchi get smaller and divide into primary bronchioles. [WP,unvetted]." []
 synonym: "tertiary bronchus" EXACT []
 is_a: UBERON:0002185 ! bronchus
+relationship: has_part UBERON:0001956 ! cartilage of bronchus
+relationship: has_part UBERON:0004242 ! bronchus smooth muscle
+relationship: has_part UBERON:0004883 ! lung mesenchyme
+relationship: has_part UBERON:8410043 ! bronchus submucosal gland
+relationship: overlaps UBERON:8600017 ! bronchopulmonary segment
 relationship: part_of UBERON:0000101 ! lobe of lung
 relationship: proximally_connected_to UBERON:0002183 ! lobar bronchus
 
@@ -13991,16 +14034,30 @@ synonym: "bronchiolus" RELATED []
 is_a: UBERON:0000117 ! respiratory tube
 relationship: branching_part_of UBERON:0007196 ! tracheobronchial tree
 relationship: part_of UBERON:0002048 ! lung
-relationship: part_of UBERON:0010368 ! pulmonary lobule
 
 [Term]
 id: UBERON:0002187
 name: terminal bronchiole
-def: "The last conducting structure of non-respiratory bronchioles; after this point, the airways have alveoli in their walls." []
+def: "A bronchiole that is part of a secondary pulmonary lobule and the last conducting structure of a non-respiratory bronchiole; after this point, the airways have alveoli in their walls." []
 synonym: "bronchioli terminalis" RELATED []
 synonym: "bronchiolus terminalis" EXACT []
 synonym: "terminal bronchiole tube" RELATED []
 is_a: UBERON:0002186 ! bronchiole
+relationship: distally_connected_to UBERON:0002188 ! respiratory bronchiole
+relationship: distally_connected_to UBERON:0008874 ! pulmonary acinus
+relationship: part_of UBERON:0010369 ! secondary pulmonary lobule
+
+[Term]
+id: UBERON:0002188
+name: respiratory bronchiole
+def: "A bronchiole that is the first segment of the respiratory zone." []
+synonym: "bronchiolus respiratorii" EXACT []
+synonym: "bronchiolus respiratorius" EXACT []
+is_a: UBERON:0002186 ! bronchiole
+relationship: contributes_to_morphology_of UBERON:0008874 ! pulmonary acinus
+relationship: distally_connected_to UBERON:0002173 ! pulmonary alveolar duct
+relationship: part_of UBERON:0008874 ! pulmonary acinus
+relationship: proximally_connected_to UBERON:0002187 ! terminal bronchiole
 
 [Term]
 id: UBERON:0002190
@@ -14795,8 +14852,8 @@ intersection_of: part_of UBERON:0002048 ! lung
 relationship: contains_process GO:0007585
 relationship: contributes_to_morphology_of UBERON:0008874 ! pulmonary acinus
 relationship: only_in_taxon NCBITaxon:40674
-relationship: part_of UBERON:0002169 ! alveolar sac
 relationship: part_of UBERON:0006524 ! alveolar system
+relationship: part_of UBERON:0008874 ! pulmonary acinus
 
 [Term]
 id: UBERON:0002301
@@ -14830,7 +14887,7 @@ name: juxtaglomerular apparatus
 def: "An anatomical structure which consists of juxtaglomerular cells, extraglomerular mesangial cells and the macula densa. The juxtaglomerular apparatus lies adjacent to the glomerulus and regulates kidney function by maintaining the blood flow to the kidney and the filtration rate[GO]. a microscopic structure in the kidney, which regulates the function of each nephron. The juxtaglomerular apparatus is named for its proximity to the glomerulus: it is found between the vascular pole of the renal corpuscle and the returning distal convoluted tubule of the same nephron. This location is critical to its function in regulating renal blood flow and glomerular filtration rate. The three cellular components of the apparatus are the macula densa, extraglomerular mesangial cells, and juxtaglomerular cells (also known as granular cells)[WP]." []
 synonym: "complexus juxtaglomerularis" EXACT []
 synonym: "juxtaglomerular complex" EXACT []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0000061 ! anatomical structure
 relationship: capable_of GO:0003093
 relationship: has_part CL:0000648
 relationship: has_part CL:0002173
@@ -15205,6 +15262,9 @@ synonym: "secondary bronchus epithelium" EXACT []
 is_a: UBERON:0002031 ! epithelium of bronchus
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: part_of UBERON:0002183 ! lobar bronchus
+relationship: has_part CL:0002329
+relationship: has_part CL:0002332
+relationship: has_part CL:0017000
 
 [Term]
 id: UBERON:0002341
@@ -15221,6 +15281,13 @@ synonym: "tertiary bronchus epithelium" EXACT []
 is_a: UBERON:0002031 ! epithelium of bronchus
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: part_of UBERON:0002184 ! segmental bronchus
+relationship: has_part CL:0000158
+relationship: has_part CL:0002208
+relationship: has_part CL:0002329
+relationship: has_part CL:0002332
+relationship: has_part CL:0017000
+relationship: has_part CL:1000143
+relationship: has_part CL:1000223
 relationship: part_of UBERON:0002184 ! segmental bronchus
 
 [Term]
@@ -15276,7 +15343,6 @@ is_a: UBERON:0000923 ! germ layer
 is_a: UBERON:0004121 ! ectoderm-derived structure
 relationship: develops_from UBERON:0000924 ! ectoderm
 relationship: has_part CL:0000133
-relationship: has_part CL:0000530
 
 [Term]
 id: UBERON:0002347
@@ -15914,6 +15980,7 @@ relationship: adjacent_to UBERON:0002244 ! premaxilla
 relationship: contributes_to_morphology_of UBERON:0001708 ! jaw skeleton
 relationship: develops_from UBERON:0010334 ! maxillary process mesenchyme from neural crest
 relationship: in_lateral_side_of UBERON:0011156 ! facial skeleton
+relationship: overlaps UBERON:7500102 ! preorbital bone region
 relationship: part_of UBERON:0003113 ! dermatocranium
 relationship: part_of UBERON:0003277 ! skeleton of upper jaw
 
@@ -18532,8 +18599,6 @@ synonym: "VBI" RELATED []
 synonym: "ventral blood island" RELATED []
 synonym: "ventral lateral plate mesoderm" BROAD []
 is_a: UBERON:0006598 ! presumptive structure
-relationship: contains_process GO:0001525
-relationship: contains_process GO:0030097
 relationship: develops_from UBERON:0003081 ! lateral plate mesoderm
 relationship: has_potential_to_develop_into UBERON:0002390 ! hematopoietic system
 relationship: part_of UBERON:0000922 ! embryo
@@ -19416,7 +19481,7 @@ name: hard palate
 def: "Anterior portion of the palate consisting of bone and mucous membranes [GO]. The hard palate is formed from bony processes of the maxilla, premaxilla and palatine bone [Kardong]." []
 synonym: "hard palate" EXACT []
 synonym: "palatum durum" EXACT []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0034921 ! multi organ part structure
 relationship: part_of UBERON:0001716 ! secondary palate
 
 [Term]
@@ -22514,6 +22579,26 @@ intersection_of: UBERON:0002464 ! nerve trunk
 intersection_of: part_of UBERON:0001759 ! vagus nerve
 
 [Term]
+id: UBERON:0003536
+name: right lung alveolar duct
+def: "An alveolar duct that is part of a right lung [Automatically generated definition]." []
+synonym: "alveolar duct of right lung" EXACT []
+is_a: UBERON:0002173 ! pulmonary alveolar duct
+intersection_of: UBERON:0002173 ! pulmonary alveolar duct
+intersection_of: part_of UBERON:0002167 ! right lung
+relationship: part_of UBERON:0006526 ! right lung alveolar system
+
+[Term]
+id: UBERON:0003537
+name: left lung alveolar duct
+def: "An alveolar duct that is part of a left lung [Automatically generated definition]." []
+synonym: "alveolar duct of left lung" EXACT []
+is_a: UBERON:0002173 ! pulmonary alveolar duct
+intersection_of: UBERON:0002173 ! pulmonary alveolar duct
+intersection_of: part_of UBERON:0002168 ! left lung
+relationship: part_of UBERON:0006525 ! left lung alveolar system
+
+[Term]
 id: UBERON:0003538
 name: right lung bronchiole
 def: "A bronchiole that is part of a right lung [Automatically generated definition]." []
@@ -22553,6 +22638,30 @@ synonym: "terminal bronchiole of left lung" EXACT []
 is_a: UBERON:0002187 ! terminal bronchiole
 is_a: UBERON:0003539 ! left lung bronchiole
 intersection_of: UBERON:0002187 ! terminal bronchiole
+intersection_of: part_of UBERON:0002168 ! left lung
+
+[Term]
+id: UBERON:0003542
+name: right lung respiratory bronchiole
+def: "A respiratory bronchiole that is part of a right lung [Automatically generated definition]." []
+synonym: "bronchiolus respiratorius of right lung" EXACT []
+synonym: "respiratory bronchiole of right lung" EXACT []
+synonym: "right lung bronchiolus respiratorius" EXACT []
+is_a: UBERON:0002188 ! respiratory bronchiole
+is_a: UBERON:0003538 ! right lung bronchiole
+intersection_of: UBERON:0002188 ! respiratory bronchiole
+intersection_of: part_of UBERON:0002167 ! right lung
+
+[Term]
+id: UBERON:0003543
+name: left lung respiratory bronchiole
+def: "A respiratory bronchiole that is part of a left lung [Automatically generated definition]." []
+synonym: "bronchiolus respiratorius of left lung" EXACT []
+synonym: "left lung bronchiolus respiratorius" EXACT []
+synonym: "respiratory bronchiole of left lung" EXACT []
+is_a: UBERON:0002188 ! respiratory bronchiole
+is_a: UBERON:0003539 ! left lung bronchiole
+intersection_of: UBERON:0002188 ! respiratory bronchiole
 intersection_of: part_of UBERON:0002168 ! left lung
 
 [Term]
@@ -24319,8 +24428,6 @@ relationship: part_of UBERON:0001460 ! arm
 id: UBERON:0003823
 name: hindlimb zeugopod
 def: "The middle limb segment of the pelvic free limb, between the autopod and stylopod segments. Includes as parts the hindlimb zeugopodial skeleton, which includes as parts the tibia and fibula, or their cartilage precursors, or evolutionary variants." []
-synonym: "calf" NARROW []
-synonym: "calf of leg" EXACT []
 synonym: "crus" EXACT []
 synonym: "crus of hindlimb" EXACT []
 synonym: "hind epipodium" RELATED []
@@ -24339,15 +24446,7 @@ synonym: "lower extremity zeugopod" EXACT []
 synonym: "lower leg" EXACT []
 synonym: "middle limb segment of hind limb" EXACT []
 synonym: "middle limb segment of hindlimb" EXACT []
-synonym: "posterior curral region" EXACT []
-synonym: "posterior leg region" EXACT []
-synonym: "posterior part of leg" EXACT []
-synonym: "posterior region of leg" EXACT []
-synonym: "regio cruris posterior" EXACT []
-synonym: "regio surae" EXACT []
 synonym: "shank" EXACT []
-synonym: "sura" EXACT []
-synonym: "sural region" EXACT []
 synonym: "zeugopod of hind limb" EXACT []
 synonym: "zeugopod of hindlimb" EXACT []
 is_a: UBERON:0002471 ! zeugopod
@@ -27462,6 +27561,7 @@ synonym: "smooth muscle tissue of bronchus" EXACT []
 is_a: UBERON:0001135 ! smooth muscle tissue
 intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: part_of UBERON:0002185 ! bronchus
+relationship: has_part CL:0002598
 
 [Term]
 id: UBERON:0004243
@@ -29032,6 +29132,16 @@ def: "A portion of smooth muscle tissue that is part of a terminal bronchiole [A
 is_a: UBERON:0004515 ! smooth muscle tissue of bronchiole
 intersection_of: UBERON:0001135 ! smooth muscle tissue
 intersection_of: part_of UBERON:0002187 ! terminal bronchiole
+relationship: has_part CL:4033017
+
+[Term]
+id: UBERON:0004517
+name: smooth muscle tissue of respiratory bronchiole
+def: "A portion of smooth muscle tissue that is part of a respiratory bronchiole [Automatically generated definition]." []
+is_a: UBERON:0004515 ! smooth muscle tissue of bronchiole
+intersection_of: UBERON:0001135 ! smooth muscle tissue
+intersection_of: part_of UBERON:0002188 ! respiratory bronchiole
+relationship: has_part CL:4033017
 
 [Term]
 id: UBERON:0004518
@@ -31337,6 +31447,7 @@ synonym: "mesenchyme of lobar bronchus" EXACT []
 is_a: UBERON:0003104 ! mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: part_of UBERON:0002183 ! lobar bronchus
+relationship: has_part CL:0019019
 
 [Term]
 id: UBERON:0004889
@@ -31414,7 +31525,7 @@ relationship: part_of UBERON:0002104 ! visual system
 [Term]
 id: UBERON:0004905
 name: articulation
-def: "Anatomical cluster that connects two or more adjacent skeletal elements or hardened body parts." []
+def: "Anatomical structure that connects two or more adjacent skeletal elements or hardened body parts." []
 synonym: "joint" NARROW []
 is_a: UBERON:0034921 ! multi organ part structure
 relationship: part_of UBERON:0004770 ! articular system
@@ -31564,6 +31675,7 @@ id: UBERON:0004921
 name: subdivision of digestive tract
 def: "A proximal-distal subdivision of the digestive tract." []
 synonym: "alimentary system subdivision" RELATED []
+synonym: "gut section" RELATED []
 synonym: "intestinal tract" RELATED []
 synonym: "segment of intestinal tract" RELATED []
 synonym: "subdivision of alimentary system" RELATED []
@@ -32708,6 +32820,29 @@ synonym: "terminal bronchiole organ mucosa" EXACT []
 is_a: UBERON:0005039 ! mucosa of bronchiole
 intersection_of: UBERON:0000344 ! mucosa
 intersection_of: part_of UBERON:0002187 ! terminal bronchiole
+
+[Term]
+id: UBERON:0005041
+name: mucosa of respiratory bronchiole
+def: "A mucosa that is part of a respiratory bronchiole [Automatically generated definition]." []
+synonym: "bronchiolus respiratorius mucosa" EXACT []
+synonym: "bronchiolus respiratorius mucosa of organ" EXACT []
+synonym: "bronchiolus respiratorius mucous membrane" EXACT []
+synonym: "bronchiolus respiratorius organ mucosa" EXACT []
+synonym: "mucosa of bronchiolus respiratorius" EXACT []
+synonym: "mucosa of organ of bronchiolus respiratorius" EXACT []
+synonym: "mucosa of organ of respiratory bronchiole" EXACT []
+synonym: "mucous membrane of bronchiolus respiratorius" EXACT []
+synonym: "mucous membrane of respiratory bronchiole" EXACT []
+synonym: "organ mucosa of bronchiolus respiratorius" EXACT []
+synonym: "organ mucosa of respiratory bronchiole" EXACT []
+synonym: "respiratory bronchiole mucosa" EXACT []
+synonym: "respiratory bronchiole mucosa of organ" EXACT []
+synonym: "respiratory bronchiole mucous membrane" EXACT []
+synonym: "respiratory bronchiole organ mucosa" EXACT []
+is_a: UBERON:0005039 ! mucosa of bronchiole
+intersection_of: UBERON:0000344 ! mucosa
+intersection_of: part_of UBERON:0002188 ! respiratory bronchiole
 
 [Term]
 id: UBERON:0005042
@@ -33922,7 +34057,7 @@ synonym: "tubular seromucous gland of trachea" RELATED []
 is_a: UBERON:0011148 ! submucosal gland
 intersection_of: UBERON:0011148 ! submucosal gland
 intersection_of: has_part CL:0000159
-intersection_of: part_of UBERON:0002202 ! submucosa of trachea
+intersection_of: part_of UBERON:0003126 ! trachea
 
 [Term]
 id: UBERON:0005204
@@ -34956,7 +35091,7 @@ synonym: "stratum granulare gyri dentati" EXACT []
 is_a: UBERON:0002304 ! layer of dentate gyrus
 intersection_of: UBERON:0002304 ! layer of dentate gyrus
 intersection_of: immediately_deep_to UBERON:0004679 ! dentate gyrus molecular layer
-relationship: composed_primarily_of CL:0000120
+relationship: composed_primarily_of CL:2000089
 relationship: overlaps CL:0000118
 
 [Term]
@@ -40709,7 +40844,7 @@ relationship: preceded_by UBERON:0004707 ! pharyngula stage
 id: UBERON:0007223
 name: osseus cochlea
 def: "The osseous cochlea is the bony foundation that forms the small shell arrangement for the cochlear nerve." []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0000061 ! anatomical structure
 relationship: part_of UBERON:0001839 ! bony labyrinth
 relationship: part_of UBERON:0001844 ! cochlea
 
@@ -42622,7 +42757,7 @@ synonym: "pharyngeal arch region" RELATED []
 synonym: "pharyngeal arches and clefts" RELATED []
 synonym: "pharyngeal complex" RELATED []
 synonym: "pharyngeal system" EXACT []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0034921 ! multi organ part structure
 relationship: only_in_taxon NCBITaxon:7711
 relationship: part_of UBERON:0000922 ! embryo
 relationship: part_of UBERON:0009145 ! pharyngeal region of foregut
@@ -42804,6 +42939,9 @@ is_a: UBERON:0000353 ! parenchyma
 intersection_of: UBERON:0000353 ! parenchyma
 intersection_of: part_of UBERON:0002299 ! alveolus of lung
 relationship: contributes_to_morphology_of UBERON:0006524 ! alveolar system
+relationship: has_part CL:0002062
+relationship: has_part CL:0002063
+relationship: has_part CL:0009089
 
 [Term]
 id: UBERON:0008874
@@ -42814,7 +42952,8 @@ synonym: "arbor alveolaris" EXACT []
 synonym: "lobulus pulmonis primarius" EXACT []
 synonym: "primary pulmonary lobule" EXACT []
 synonym: "respiratory lobule" EXACT []
-is_a: UBERON:0010368 ! pulmonary lobule
+relationship: connected_to UBERON:0002187 ! terminal bronchiole
+relationship: part_of UBERON:0010369 ! secondary pulmonary lobule
 
 [Term]
 id: UBERON:0008876
@@ -46553,7 +46692,15 @@ synonym: "lobulus pulmonis" EXACT []
 is_a: UBERON:0009911 ! lobule
 intersection_of: UBERON:0009911 ! lobule
 intersection_of: part_of UBERON:0002048 ! lung
-relationship: has_part UBERON:0002187 ! terminal bronchiole
+relationship: part_of UBERON:8600017 ! bronchopulmonary segment
+
+[Term]
+id: UBERON:0010369
+name: secondary pulmonary lobule
+def: "A unit of lung supplied by three to five terminal bronchioles and contained by fibrous septa." []
+synonym: "lobulus pulmonis secondarius" EXACT []
+is_a: UBERON:0010368 ! pulmonary lobule
+relationship: part_of UBERON:0008946 ! lung parenchyma
 
 [Term]
 id: UBERON:0010370
@@ -47786,7 +47933,7 @@ def: "A muscle organ that attaches_to a clavicle and attaches_to a occipital bon
 synonym: "cleido-occipitalis" EXACT []
 synonym: "cleido-occipitalis muscle" EXACT []
 synonym: "cleidooccipital" EXACT []
-is_a: UBERON:0000933 ! pharyngeal muscle
+is_a: UBERON:0000933 ! chordate pharyngeal muscle
 is_a: UBERON:0014892 ! skeletal muscle organ
 intersection_of: UBERON:0014892 ! skeletal muscle organ
 intersection_of: attached_to UBERON:0001105 ! clavicle bone
@@ -48128,7 +48275,8 @@ intersection_of: part_of UBERON:0002090 ! postcranial axial skeleton
 id: UBERON:0011143
 name: upper urinary tract
 def: "Subdivision of urinary system which consists of the kidney and the ureters." []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0011216 ! organ system subdivision
+is_a: UBERON:0015212 ! lateral structure
 relationship: has_part UBERON:0000056 ! ureter
 relationship: has_part UBERON:0002113 ! kidney
 relationship: in_lateral_side_of UBERON:0001008 ! renal system
@@ -53003,12 +53151,10 @@ synonym: "ramus inferior nervus oculomotorii" EXACT []
 synonym: "ventral ramus of occulomotor nerve" RELATED []
 synonym: "ventral ramus of oculomotor nerve" RELATED []
 is_a: UBERON:0001021 ! nerve
-is_a: UBERON:0001637 ! artery
 intersection_of: UBERON:0001021 ! nerve
 intersection_of: branching_part_of UBERON:0001643 ! oculomotor nerve
-intersection_of: supplies UBERON:0006322 ! inferior rectus extraocular muscle
-relationship: supplies UBERON:0001602 ! medial rectus extraocular muscle
-relationship: supplies UBERON:0006322 ! inferior rectus extraocular muscle
+intersection_of: innervates UBERON:0006322 ! inferior rectus extraocular muscle
+relationship: innervates UBERON:0001602 ! medial rectus extraocular muscle
 
 [Term]
 id: UBERON:0015165
@@ -53129,6 +53275,16 @@ synonym: "heart or heart like organ" EXACT []
 is_a: UBERON:0003103 ! compound organ
 relationship: has_quality PATO:0001690
 relationship: part_of UBERON:0001009 ! circulatory system
+
+[Term]
+id: UBERON:0015232
+name: nematode pharynx
+def: "The feeding organ, a neuro-muscular pump in the head of the animal, used to ingest food, bacteria suspended in liquid, filter them out, grind them up and transport posteriorly into the instestine." []
+synonym: "esophagus" RELATED []
+is_a: UBERON:0000062 ! organ
+is_a: UBERON:0006562 ! pharynx
+relationship: only_in_taxon NCBITaxon:6231
+relationship: part_of UBERON:0001555 ! digestive tract
 
 [Term]
 id: UBERON:0015233
@@ -54411,6 +54567,7 @@ synonym: "lymphatic vessel of lung" EXACT []
 is_a: UBERON:0001473 ! lymphatic vessel
 intersection_of: UBERON:0001473 ! lymphatic vessel
 intersection_of: part_of UBERON:0002048 ! lung
+relationship: has_part UBERON:0003529 ! respiratory system lymphatic vessel endothelium
 relationship: part_of UBERON:0018226 ! pulmonary part of lymphatic system
 
 [Term]
@@ -56440,7 +56597,7 @@ synonym: "appendages of the eye" RELATED []
 synonym: "eye adnexa" RELATED []
 synonym: "set of accessory visual structures" RELATED []
 synonym: "structurae oculi accessoriae" RELATED []
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0034921 ! multi organ part structure
 relationship: part_of UBERON:0004088 ! orbital region
 
 [Term]
@@ -58084,6 +58241,13 @@ intersection_of: only_in_taxon NCBITaxon:50557
 intersection_of: part_of UBERON:0008816 ! embryonic head
 
 [Term]
+id: UBERON:60005380
+name: insect pharynx
+def: "Section of the insect foregut anterior to the esophagus." []
+is_a: UBERON:0006562 ! pharynx
+relationship: part_of UBERON:0003929 ! digestive tract epithelium
+
+[Term]
 id: UBERON:6001059
 name: insect visual primordium
 synonym: "optic lobe placode" RELATED []
@@ -58269,6 +58433,21 @@ def: "Nasal bone on the right side of an organism when in anatomical position." 
 is_a: UBERON:0001681 ! nasal bone
 intersection_of: UBERON:0001681 ! nasal bone
 intersection_of: in_right_side_of UBERON:0000468 ! multicellular organism
+
+[Term]
+id: UBERON:7500102
+name: preorbital bone region
+def: "Part of the orbital plate formed by the jugal (part of the zygomatic), lacrimal (which is sometimes fused), sometimes nasal (typically in species with elongated rostra), and maxilla bones anterior to the orbit." []
+is_a: UBERON:0001062 ! anatomical entity
+relationship: part_of UBERON:0001697 ! orbit of skull
+
+[Term]
+id: UBERON:7500103
+name: preorbital fossa
+def: "A hollow (fossa) in the preorbital region, typically lying on the maxillary bone, although sometimes can touch nasal bones (e.g., modern Equus)." []
+is_a: UBERON:0004704 ! bone fossa
+intersection_of: UBERON:0004704 ! bone fossa
+intersection_of: part_of UBERON:7500102 ! preorbital bone region
 
 [Term]
 id: UBERON:7500107
@@ -58785,6 +58964,39 @@ is_a: UBERON:0012375 ! subserosa
 intersection_of: UBERON:0012375 ! subserosa
 intersection_of: part_of UBERON:0003889 ! fallopian tube
 
+[Term]
+id: UBERON:8600004
+name: visceral muscle tissue
+def: "A muscle tissue that is associated with soft internal organs (viscera)." []
+synonym: "visceral muscle" EXACT []
+is_a: UBERON:0002385 ! muscle tissue
+relationship: composed_primarily_of CL:0008007
+
+[Term]
+id: UBERON:8600006
+name: visceral striated muscle tissue
+def: "A striated muscle tissue that is associated with soft internal organs (viscera)." []
+synonym: "striated visceral muscle tissue" EXACT []
+is_a: UBERON:0002036 ! striated muscle tissue
+is_a: UBERON:8600004 ! visceral muscle tissue
+
+[Term]
+id: UBERON:8600012
+name: submucosal gland acinus
+def: "A spherical or tubular structure in a submucosal gland that produces and secretes mucus and other substances into the ducts leading to the surface epithelium." []
+is_a: UBERON:0014717 ! mucous acinus
+intersection_of: UBERON:0009842 ! glandular acinus
+intersection_of: part_of UBERON:0011148 ! submucosal gland
+
+[Term]
+id: UBERON:8600017
+name: bronchopulmonary segment
+def: "A discrete anatomical unit of the lung that is composed of a segmental bronchus and the lung tissue supplied by that bronchus. A bronchopulmonary segment exhibits a pyramidal shape, with its apex pointing towards the center of the lung and its base toward the pleural surface." []
+synonym: "lung segment" EXACT []
+is_a: UBERON:0000063 ! organ subunit
+relationship: contributes_to_morphology_of UBERON:0000101 ! lobe of lung
+relationship: part_of UBERON:0000101 ! lobe of lung
+
 [Typedef]
 id: adjacent_to
 name: adjacent to
@@ -58862,8 +59074,7 @@ xref: RO:0002473
 [Typedef]
 id: conduit_for
 name: conduit for
-def: "x is a conduit for y iff y passes through the lumen of x." []
-xref: conduit_for
+xref: RO:0002570
 
 [Typedef]
 id: confers_advantage_in
@@ -59345,8 +59556,6 @@ xref: RO:0002158
 id: simultaneous_with
 name: simultaneous with
 xref: RO:0002082
-is_a: ends ! ends
-is_a: starts ! starts
 
 [Typedef]
 id: site_of
@@ -59399,8 +59608,7 @@ xref: RO:0002221
 [Typedef]
 id: synapsed_by
 name: synapsed by
-def: "Relation between an anatomical structure (including cells) and a neuron that chemically synapses to it." []
-xref: synapsed_by
+xref: RO:0002103
 
 [Typedef]
 id: transformation_of

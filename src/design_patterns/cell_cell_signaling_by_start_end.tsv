@@ -1,0 +1,10 @@
+defined_class	defined_class_label	end	end_label	start	start_label
+http://purl.obolibrary.org/obo/GO_0086029	Purkinje myocyte to ventricular cardiac muscle cell signaling	http://purl.obolibrary.org/obo/CL_2000046	ventricular cardiac muscle cell	http://purl.obolibrary.org/obo/CL_0002068	Purkinje myocyte
+http://purl.obolibrary.org/obo/GO_0036520	astrocyte-dopaminergic neuron signaling	http://purl.obolibrary.org/obo/CL_0000700	dopaminergic neuron	http://purl.obolibrary.org/obo/CL_0000127	astrocyte
+http://purl.obolibrary.org/obo/GO_0003133	endodermal-mesodermal cell signaling	http://purl.obolibrary.org/obo/CL_0000222	mesodermal cell	http://purl.obolibrary.org/obo/CL_0000223	endodermal cell
+http://purl.obolibrary.org/obo/GO_0060684	epithelial-mesenchymal cell signaling	http://purl.obolibrary.org/obo/CL_0008019	mesenchymal cell	http://purl.obolibrary.org/obo/CL_0000066	epithelial cell
+http://purl.obolibrary.org/obo/GO_0150098	glial cell-neuron signaling	http://purl.obolibrary.org/obo/CL_0000540	neuron	http://purl.obolibrary.org/obo/CL_0000125	glial cell
+http://purl.obolibrary.org/obo/GO_0060497	mesenchymal-endodermal cell signaling	http://purl.obolibrary.org/obo/CL_0000223	endodermal cell	http://purl.obolibrary.org/obo/CL_0008019	mesenchymal cell
+http://purl.obolibrary.org/obo/GO_0060638	mesenchymal-epithelial cell signaling	http://purl.obolibrary.org/obo/CL_0000066	epithelial cell	http://purl.obolibrary.org/obo/CL_0008019	mesenchymal cell
+http://purl.obolibrary.org/obo/GO_0003131	mesodermal-endodermal cell signaling	http://purl.obolibrary.org/obo/CL_0000223	endodermal cell	http://purl.obolibrary.org/obo/CL_0000222	mesodermal cell
+http://purl.obolibrary.org/obo/GO_0150099	neuron-glial cell signaling	http://purl.obolibrary.org/obo/CL_0000125	glial cell	http://purl.obolibrary.org/obo/CL_0000540	neuron
