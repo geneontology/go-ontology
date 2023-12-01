@@ -500,7 +500,7 @@ GO:0070648	formin-nucleated actin cable	NCBITaxon:2759	Eukaryota
 GO:0071074	eukaryotic initiation factor eIF2 binding	NCBITaxon:2759	Eukaryota	
 GO:0071629	cytoplasm protein quality control by the ubiquitin-proteasome system	NCBITaxon:2759	Eukaryota	
 GO:0071630	nuclear protein quality control by the ubiquitin-proteasome system	NCBITaxon:2759	Eukaryota	
-GO:0071669	plant-type cell wall organization or biogenesis	NCBITaxon:33090	Viridiplantae		
+GO:0071669	plant-type cell wall organization or biogenesis	NCBITaxon:33090	Viridiplantae	
 GO:0071766	Actinobacterium-type cell wall biogenesis	NCBITaxon:2	Bacteria	
 GO:0071938	vitamin A transport	NCBITaxon:33208	Metazoa	
 GO:0071973	bacterial-type flagellum-dependent cell motility	NCBITaxon:2	Bacteria	
@@ -889,3 +889,4 @@ GO:0060918	auxin transport	NCBITaxon:33090	Viridiplantae
 GO:2000012	regulation of auxin polar transport	NCBITaxon:33090	Viridiplantae	
 GO:0080161	auxin transmembrane transporter activity	NCBITaxon:33090	Viridiplantae	
 GO:0005793	endoplasmic reticulum-Golgi intermediate compartment	NCBITaxon:2759	Eukaryota	
+GO:0062200	RAM/MOR signaling pathway	NCBITaxon:4751	Fungi	PMID:23212898
