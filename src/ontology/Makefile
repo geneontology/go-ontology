@@ -295,7 +295,7 @@ go-basic.owl: go-basic.obo
 # Currently the only per-subset report is id-label pairs
 # See: https://github.com/geneontology/go-ontology/issues/14028
 
-PUBLISH_SUBSETS = gocheck_do_not_annotate gocheck_do_not_manually_annotate goslim_agr goslim_candida goslim_chembl goslim_drosophila goslim_flybase_ribbon goslim_generic goslim_metagenomics goslim_mouse goslim_pir goslim_plant goslim_pombe goslim_synapse goslim_yeast prokaryote_subset
+PUBLISH_SUBSETS = gocheck_do_not_annotate gocheck_do_not_manually_annotate goslim_agr goslim_candida goslim_chembl goslim_drosophila goslim_flybase_ribbon goslim_generic goslim_metagenomics goslim_mouse goslim_pir goslim_plant goslim_pombe goslim_synapse goslim_yeast goslim_prokaryote
 
 SUBSET_OWLS = $(patsubst %,subsets/%.owl,$(PUBLISH_SUBSETS))
 # Also generates %.obo and %.json
