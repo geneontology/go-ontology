@@ -99,7 +99,6 @@ http://purl.obolibrary.org/obo/GO_0045893	positive regulation of DNA-templated t
 http://purl.obolibrary.org/obo/GO_2000144	positive regulation of DNA-templated transcription initiation	http://purl.obolibrary.org/obo/GO_0006352	DNA-templated transcription initiation
 http://purl.obolibrary.org/obo/GO_0032786	positive regulation of DNA-templated transcription, elongation	http://purl.obolibrary.org/obo/GO_0006354	DNA-templated transcription elongation
 http://purl.obolibrary.org/obo/GO_1902953	positive regulation of ER to Golgi vesicle-mediated transport	http://purl.obolibrary.org/obo/GO_0006888	endoplasmic reticulum to Golgi vesicle-mediated transport
-http://purl.obolibrary.org/obo/GO_1903071	positive regulation of ER-associated ubiquitin-dependent protein catabolic process	http://purl.obolibrary.org/obo/GO_0030433	ubiquitin-dependent ERAD pathway
 http://purl.obolibrary.org/obo/GO_1904294	positive regulation of ERAD pathway	http://purl.obolibrary.org/obo/GO_0036503	ERAD pathway
 http://purl.obolibrary.org/obo/GO_1901186	positive regulation of ERBB signaling pathway	http://purl.obolibrary.org/obo/GO_0038127	ERBB signaling pathway
 http://purl.obolibrary.org/obo/GO_1905580	positive regulation of ERBB3 signaling pathway	http://purl.obolibrary.org/obo/GO_0038129	ERBB3 signaling pathway
@@ -261,7 +260,6 @@ http://purl.obolibrary.org/obo/GO_1905923	positive regulation of acetylcholine b
 http://purl.obolibrary.org/obo/GO_0060409	positive regulation of acetylcholine metabolic process	http://purl.obolibrary.org/obo/GO_0008291	acetylcholine metabolic process
 http://purl.obolibrary.org/obo/GO_0014057	positive regulation of acetylcholine secretion, neurotransmission	http://purl.obolibrary.org/obo/GO_0014055	acetylcholine secretion, neurotransmission
 http://purl.obolibrary.org/obo/GO_0051633	positive regulation of acetylcholine uptake	http://purl.obolibrary.org/obo/GO_0051630	acetylcholine uptake
-http://purl.obolibrary.org/obo/GO_1901587	positive regulation of acid-sensing ion channel activity	http://purl.obolibrary.org/obo/GO_0044736	acid-sensing ion channel activity
 http://purl.obolibrary.org/obo/GO_1904699	positive regulation of acinar cell proliferation	http://purl.obolibrary.org/obo/GO_1990863	acinar cell proliferation
 http://purl.obolibrary.org/obo/GO_1904234	positive regulation of aconitate hydratase activity	http://purl.obolibrary.org/obo/GO_0003994	aconitate hydratase activity
 http://purl.obolibrary.org/obo/GO_2000368	positive regulation of acrosomal vesicle exocytosis	http://purl.obolibrary.org/obo/GO_0060478	acrosomal vesicle exocytosis
@@ -298,7 +296,6 @@ http://purl.obolibrary.org/obo/GO_0045762	positive regulation of adenylate cycla
 http://purl.obolibrary.org/obo/GO_0106071	positive regulation of adenylate cyclase-activating G protein-coupled receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007189	adenylate cyclase-activating G protein-coupled receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0071879	positive regulation of adenylate cyclase-activating adrenergic receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0071875	adrenergic receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0140196	positive regulation of adenylate cyclase-activating adrenergic receptor signaling pathway involved in heart process	http://purl.obolibrary.org/obo/GO_0086023	adenylate cyclase-activating adrenergic receptor signaling pathway involved in heart process
-http://purl.obolibrary.org/obo/GO_0140195	positive regulation of adenylate cyclase-inhibiting adrenergic receptor signaling pathway involved in heart process	http://purl.obolibrary.org/obo/GO_0086096	adenylate cyclase-inhibiting adrenergic receptor signaling pathway involved in heart process
 http://purl.obolibrary.org/obo/GO_1904992	positive regulation of adenylate cyclase-inhibiting dopamine receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007195	adenylate cyclase-inhibiting dopamine receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_1900731	positive regulation of adenylate cyclase-inhibiting opioid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0031635	adenylate cyclase-inhibiting opioid receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_1903393	positive regulation of adherens junction organization	http://purl.obolibrary.org/obo/GO_0034332	adherens junction organization
@@ -1949,9 +1946,9 @@ http://purl.obolibrary.org/obo/GO_0140887	positive regulation of nucleosome disa
 http://purl.obolibrary.org/obo/GO_0030810	positive regulation of nucleotide biosynthetic process	http://purl.obolibrary.org/obo/GO_0009165	nucleotide biosynthetic process
 http://purl.obolibrary.org/obo/GO_0030813	positive regulation of nucleotide catabolic process	http://purl.obolibrary.org/obo/GO_0009166	nucleotide catabolic process
 http://purl.obolibrary.org/obo/GO_0045981	positive regulation of nucleotide metabolic process	http://purl.obolibrary.org/obo/GO_0009117	nucleotide metabolic process
+http://purl.obolibrary.org/obo/GO_0070426	positive regulation of nucleotide-binding domain, leucine rich repeat containing receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0035872	nucleotide-binding domain, leucine rich repeat containing receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0070430	positive regulation of nucleotide-binding oligomerization domain containing 1 signaling pathway	http://purl.obolibrary.org/obo/GO_0070427	nucleotide-binding oligomerization domain containing 1 signaling pathway
 http://purl.obolibrary.org/obo/GO_0070434	positive regulation of nucleotide-binding oligomerization domain containing 2 signaling pathway	http://purl.obolibrary.org/obo/GO_0070431	nucleotide-binding oligomerization domain containing 2 signaling pathway
-http://purl.obolibrary.org/obo/GO_0070426	positive regulation of nucleotide-binding oligomerization domain containing signaling pathway	http://purl.obolibrary.org/obo/GO_0070423	nucleotide-binding oligomerization domain containing signaling pathway
 http://purl.obolibrary.org/obo/GO_0045850	positive regulation of nurse cell apoptotic process	http://purl.obolibrary.org/obo/GO_0045476	nurse cell apoptotic process
 http://purl.obolibrary.org/obo/GO_1900700	positive regulation of o-orsellinic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_1900584	o-orsellinic acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900916	positive regulation of octadecene biosynthetic process	http://purl.obolibrary.org/obo/GO_1900682	octadecene biosynthetic process
