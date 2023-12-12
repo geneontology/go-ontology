@@ -11,7 +11,6 @@ http://purl.obolibrary.org/obo/GO_1902127	(-)-lariciresinol metabolic process	ht
 http://purl.obolibrary.org/obo/GO_1901510	(-)-microperfuranone metabolic process	http://purl.obolibrary.org/obo/CHEBI_64974	(-)-microperfuranone
 http://purl.obolibrary.org/obo/GO_1901598	(-)-pinoresinol metabolic process	http://purl.obolibrary.org/obo/CHEBI_67245	(-)-pinoresinol
 http://purl.obolibrary.org/obo/GO_1902136	(-)-secoisolariciresinol metabolic process	http://purl.obolibrary.org/obo/CHEBI_65004	(-)-secoisolariciresinol
-http://purl.obolibrary.org/obo/GO_1900992	(-)-secologanin metabolic process	http://purl.obolibrary.org/obo/CHEBI_18002	(-)-secologanin
 http://purl.obolibrary.org/obo/GO_0070595	(1->3)-alpha-glucan metabolic process	http://purl.obolibrary.org/obo/CHEBI_28100	(1->3)-alpha-D-glucan
 http://purl.obolibrary.org/obo/GO_0006074	(1->3)-beta-D-glucan metabolic process	http://purl.obolibrary.org/obo/CHEBI_37671	(1->3)-beta-D-glucan
 http://purl.obolibrary.org/obo/GO_0070629	(1->4)-alpha-glucan metabolic process	http://purl.obolibrary.org/obo/CHEBI_15444	(1->4)-alpha-D-glucan
@@ -21,8 +20,6 @@ http://purl.obolibrary.org/obo/GO_1902057	(25S)-Delta(4)-dafachronate metabolic 
 http://purl.obolibrary.org/obo/GO_1902056	(25S)-Delta(7)-dafachronate metabolic process	http://purl.obolibrary.org/obo/CHEBI_71542	(25S)-Delta(7)-dafachronate
 http://purl.obolibrary.org/obo/GO_0046431	(R)-4-hydroxymandelate metabolic process	http://purl.obolibrary.org/obo/CHEBI_27996	(R)-4-hydroxymandelate
 http://purl.obolibrary.org/obo/GO_1901735	(R)-mevalonic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_36464	(R)-mevalonate
-http://purl.obolibrary.org/obo/GO_1901010	(S)-reticuline metabolic process	http://purl.obolibrary.org/obo/CHEBI_57873	(S)-reticulinium(1+)
-http://purl.obolibrary.org/obo/GO_1901007	(S)-scoulerine metabolic process	http://purl.obolibrary.org/obo/CHEBI_17129	(S)-scoulerine
 http://purl.obolibrary.org/obo/GO_1900878	(Z)-nonadeca-1,14-diene metabolic process	http://purl.obolibrary.org/obo/CHEBI_64506	(Z)-nonadeca-1,14-diene
 http://purl.obolibrary.org/obo/GO_0018977	1,1,1-trichloro-2,2-bis-(4-chlorophenyl)ethane metabolic process	http://purl.obolibrary.org/obo/CHEBI_16130	DDT
 http://purl.obolibrary.org/obo/GO_0018976	1,2,3-tribromopropane metabolic process	http://purl.obolibrary.org/obo/CHEBI_18859	1,2,3-tribromopropane
@@ -671,7 +668,6 @@ http://purl.obolibrary.org/obo/GO_1902384	glycyrrhetinate metabolic process	http
 http://purl.obolibrary.org/obo/GO_1903189	glyoxal metabolic process	http://purl.obolibrary.org/obo/CHEBI_34779	glyoxal
 http://purl.obolibrary.org/obo/GO_0046487	glyoxylate metabolic process	http://purl.obolibrary.org/obo/CHEBI_36655	glyoxylate
 http://purl.obolibrary.org/obo/GO_0018920	glyphosate metabolic process	http://purl.obolibrary.org/obo/CHEBI_133673	glyphosate(1-)
-http://purl.obolibrary.org/obo/GO_1901101	gramicidin S metabolic process	http://purl.obolibrary.org/obo/CHEBI_5530	gramicidin S
 http://purl.obolibrary.org/obo/GO_1901107	granaticin metabolic process	http://purl.obolibrary.org/obo/CHEBI_5533	granaticin
 http://purl.obolibrary.org/obo/GO_1901061	guaiacyl lignin metabolic process	http://purl.obolibrary.org/obo/CHEBI_64475	guaiacyl lignin
 http://purl.obolibrary.org/obo/GO_0046098	guanine metabolic process	http://purl.obolibrary.org/obo/CHEBI_16235	guanine
@@ -1091,7 +1087,6 @@ http://purl.obolibrary.org/obo/GO_0009173	pyrimidine ribonucleoside monophosphat
 http://purl.obolibrary.org/obo/GO_0009208	pyrimidine ribonucleoside triphosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_26444	pyrimidine ribonucleoside triphosphate
 http://purl.obolibrary.org/obo/GO_0009218	pyrimidine ribonucleotide metabolic process	http://purl.obolibrary.org/obo/CHEBI_26446	pyrimidine ribonucleotide
 http://purl.obolibrary.org/obo/GO_0072527	pyrimidine-containing compound metabolic process	http://purl.obolibrary.org/obo/CHEBI_39447	pyrimidines
-http://purl.obolibrary.org/obo/GO_1901083	pyrrolizidine alkaloid metabolic process	http://purl.obolibrary.org/obo/CHEBI_64948	pyrrolizidine alkaloid
 http://purl.obolibrary.org/obo/GO_0071525	pyrrolysine metabolic process	http://purl.obolibrary.org/obo/CHEBI_58499	L-pyrrolysine zwitterion
 http://purl.obolibrary.org/obo/GO_0009078	pyruvate family amino acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_26463	pyruvate family amino acid
 http://purl.obolibrary.org/obo/GO_0006090	pyruvate metabolic process	http://purl.obolibrary.org/obo/CHEBI_15361	pyruvate

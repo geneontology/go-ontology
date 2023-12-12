@@ -66,7 +66,6 @@ http://purl.obolibrary.org/obo/GO_0006015	5-phosphoribose 1-diphosphate biosynth
 http://purl.obolibrary.org/obo/GO_1901949	5alpha,9alpha,10beta-labda-8(20),13-dien-15-yl diphosphate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58635	5alpha,9alpha,10beta-labda-8(20),13-dien-15-yl diphosphate(3-)
 http://purl.obolibrary.org/obo/GO_0051680	6-alpha-maltosylglucose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_28191	6-alpha-maltosylglucose
 http://purl.obolibrary.org/obo/GO_1901852	7,8-didemethyl-8-hydroxy-5-deazariboflavin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_59904	7,8-didemethyl-8-hydroxy-5-deazariboflavin(1-)
-http://purl.obolibrary.org/obo/GO_0035998	7,8-dihydroneopterin 3'-triphosphate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58462	7,8-dihydroneopterin 3'-triphosphate(4-)
 http://purl.obolibrary.org/obo/GO_0097288	7-cyano-7-deazaguanine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_45075	7-cyano-7-deazaguanine
 http://purl.obolibrary.org/obo/GO_0046118	7-methylguanosine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_20794	7-methylguanosine
 http://purl.obolibrary.org/obo/GO_0042904	9-cis-retinoic acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_78630	9-cis-retinoate
@@ -212,7 +211,6 @@ http://purl.obolibrary.org/obo/GO_1901607	alpha-amino acid biosynthetic process	
 http://purl.obolibrary.org/obo/GO_1901931	alpha-copaene biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_10221	alpha-copaene
 http://purl.obolibrary.org/obo/GO_0030979	alpha-glucan biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_22385	alpha-D-glucan
 http://purl.obolibrary.org/obo/GO_0046248	alpha-pinene biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_36740	alpha-pinene
-http://purl.obolibrary.org/obo/GO_0097290	alpha-ribazole biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_10329	alpha-ribazole
 http://purl.obolibrary.org/obo/GO_1901821	alpha-zeacarotene biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_35063	alpha-zeacarotene
 http://purl.obolibrary.org/obo/GO_0043604	amide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_32988	amide
 http://purl.obolibrary.org/obo/GO_0009309	amine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_32952	amine
