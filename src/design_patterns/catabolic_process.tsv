@@ -10,7 +10,6 @@ http://purl.obolibrary.org/obo/GO_1902128	(-)-lariciresinol catabolic process	ht
 http://purl.obolibrary.org/obo/GO_1901511	(-)-microperfuranone catabolic process	http://purl.obolibrary.org/obo/CHEBI_64974	(-)-microperfuranone
 http://purl.obolibrary.org/obo/GO_1902123	(-)-pinoresinol catabolic process	http://purl.obolibrary.org/obo/CHEBI_67245	(-)-pinoresinol
 http://purl.obolibrary.org/obo/GO_1902137	(-)-secoisolariciresinol catabolic process	http://purl.obolibrary.org/obo/CHEBI_65004	(-)-secoisolariciresinol
-http://purl.obolibrary.org/obo/GO_1900993	(-)-secologanin catabolic process	http://purl.obolibrary.org/obo/CHEBI_18002	(-)-secologanin
 http://purl.obolibrary.org/obo/GO_0006076	(1->3)-beta-D-glucan catabolic process	http://purl.obolibrary.org/obo/CHEBI_37671	(1->3)-beta-D-glucan
 http://purl.obolibrary.org/obo/GO_0006079	(1->6)-beta-D-glucan catabolic process	http://purl.obolibrary.org/obo/CHEBI_27380	(1->6)-beta-D-glucan
 http://purl.obolibrary.org/obo/GO_1900580	(17Z)-protosta-17(20),24-dien-3beta-ol catabolic process	http://purl.obolibrary.org/obo/CHEBI_62457	(17Z)-protosta-17(20),24-dien-3beta-ol
@@ -265,7 +264,6 @@ http://purl.obolibrary.org/obo/GO_1901126	candicidin catabolic process	http://pu
 http://purl.obolibrary.org/obo/GO_0019384	caprolactam catabolic process	http://purl.obolibrary.org/obo/CHEBI_28579	epsilon-caprolactam
 http://purl.obolibrary.org/obo/GO_1901808	capsanthin catabolic process	http://purl.obolibrary.org/obo/CHEBI_3375	capsanthin
 http://purl.obolibrary.org/obo/GO_1901865	capsorubin catabolic process	http://purl.obolibrary.org/obo/CHEBI_3378	capsorubin
-http://purl.obolibrary.org/obo/GO_0035975	carbamoyl phosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_58228	carbamoyl phosphate(2-)
 http://purl.obolibrary.org/obo/GO_1901768	carbapenem catabolic process	http://purl.obolibrary.org/obo/CHEBI_46765	carbapenem
 http://purl.obolibrary.org/obo/GO_0046232	carbazole catabolic process	http://purl.obolibrary.org/obo/CHEBI_3391	carbazole
 http://purl.obolibrary.org/obo/GO_0016052	carbohydrate catabolic process	http://purl.obolibrary.org/obo/CHEBI_16646	carbohydrate
@@ -492,7 +490,6 @@ http://purl.obolibrary.org/obo/GO_0046477	glycosylceramide catabolic process	htt
 http://purl.obolibrary.org/obo/GO_1902385	glycyrrhetinate catabolic process	http://purl.obolibrary.org/obo/CHEBI_17573	glycyrrhetinate
 http://purl.obolibrary.org/obo/GO_1903190	glyoxal catabolic process	http://purl.obolibrary.org/obo/CHEBI_34779	glyoxal
 http://purl.obolibrary.org/obo/GO_0009436	glyoxylate catabolic process	http://purl.obolibrary.org/obo/CHEBI_36655	glyoxylate
-http://purl.obolibrary.org/obo/GO_1901102	gramicidin S catabolic process	http://purl.obolibrary.org/obo/CHEBI_5530	gramicidin S
 http://purl.obolibrary.org/obo/GO_1901108	granaticin catabolic process	http://purl.obolibrary.org/obo/CHEBI_5533	granaticin
 http://purl.obolibrary.org/obo/GO_1901062	guaiacyl lignin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64475	guaiacyl lignin
 http://purl.obolibrary.org/obo/GO_0006147	guanine catabolic process	http://purl.obolibrary.org/obo/CHEBI_16235	guanine
