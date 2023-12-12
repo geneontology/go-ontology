@@ -2836,6 +2836,12 @@ is_a: NCBITaxon:544448 ! Mycoplasmatota
 relationship: RO:0002162 NCBITaxon:2790996 ! in taxon Mycoplasmoidales
 
 [Term]
+id: NCBITaxon:2790998
+name: Mycoplasmoidaceae
+is_a: NCBITaxon:2790996 ! Mycoplasmoidales
+relationship: RO:0002162 NCBITaxon:2790998 ! in taxon Mycoplasmoidaceae
+
+[Term]
 id: NCBITaxon:28009
 name: Choanoflagellata
 synonym: "Choanoflagellatea" RELATED []
@@ -3067,12 +3073,6 @@ is_a: NCBITaxon:28262 ! Thermodesulfovibrio yellowstonii
 relationship: RO:0002162 NCBITaxon:289376 ! in taxon Thermodesulfovibrio yellowstonii DSM 11347
 
 [Term]
-id: NCBITaxon:2895623
-name: Metamycoplasmataceae
-is_a: NCBITaxon:2790996 ! Mycoplasmoidales
-relationship: RO:0002162 NCBITaxon:2895623 ! in taxon Metamycoplasmataceae
-
-[Term]
 id: NCBITaxon:28983
 name: Sclerotiniaceae
 is_a: NCBITaxon:5178 ! Helotiales
@@ -3141,7 +3141,7 @@ relationship: RO:0002162 NCBITaxon:29760 ! in taxon Vitis vinifera
 [Term]
 id: NCBITaxon:2995234
 name: Mycoplasmoides
-is_a: NCBITaxon:2895623 ! Metamycoplasmataceae
+is_a: NCBITaxon:2790998 ! Mycoplasmoidaceae
 relationship: RO:0002162 NCBITaxon:2995234 ! in taxon Mycoplasmoides
 
 [Term]
@@ -5101,7 +5101,7 @@ relationship: RO:0002162 NCBITaxon:47570 ! in taxon Schizotrypanum
 [Term]
 id: NCBITaxon:4761
 name: Chytridiomycota
-synonym: "chytrids" RELATED []
+synonym: "chytrids & allies" RELATED []
 synonym: "Mastigomycotina" RELATED []
 synonym: "Monoblepharidomycota" RELATED []
 is_a: NCBITaxon:112252 ! Fungi incertae sedis
@@ -5262,8 +5262,9 @@ synonym: "baker's yeast" EXACT []
 synonym: "brewer's yeast" EXACT []
 synonym: "Candida robusta" RELATED []
 synonym: "Mycoderma cerevisiae" RELATED []
-synonym: "S. cerevisiae" EXACT []
 synonym: "Saccharomyces capensis" RELATED []
+synonym: "Saccharomyces cerevisiae 'var. diastaticus'" EXACT []
+synonym: "Saccharomyces diastaticus" RELATED []
 synonym: "Saccharomyces italicus" RELATED []
 synonym: "Saccharomyces oviformis" RELATED []
 synonym: "Saccharomyces uvarum var. melibiosus" RELATED []
@@ -5287,16 +5288,16 @@ relationship: RO:0002162 NCBITaxon:4952 ! in taxon Yarrowia lipolytica
 
 [Term]
 id: NCBITaxon:498845
-name: Candidatus Korarchaeum
-synonym: "Korarchaeum" EXACT []
+name: Korarchaeum
+synonym: "Candidatus Korarchaeum" EXACT []
 is_a: NCBITaxon:51967 ! Candidatus Korarchaeota
-relationship: RO:0002162 NCBITaxon:498845 ! in taxon Candidatus Korarchaeum
+relationship: RO:0002162 NCBITaxon:498845 ! in taxon Korarchaeum
 
 [Term]
 id: NCBITaxon:498846
 name: Candidatus Korarchaeum cryptofilum
 synonym: "Korarchaeum cryptofilum" EXACT []
-is_a: NCBITaxon:498845 ! Candidatus Korarchaeum
+is_a: NCBITaxon:498845 ! Korarchaeum
 relationship: RO:0002162 NCBITaxon:498846 ! in taxon Candidatus Korarchaeum cryptofilum
 
 [Term]
@@ -5980,6 +5981,7 @@ relationship: RO:0002162 NCBITaxon:6231 ! in taxon Nematoda
 [Term]
 id: NCBITaxon:6236
 name: Rhabditida
+synonym: "Strongylida" RELATED []
 is_a: NCBITaxon:119089 ! Chromadorea
 relationship: RO:0002162 NCBITaxon:6236 ! in taxon Rhabditida
 
@@ -7146,8 +7148,11 @@ id: NCBITaxon:85007
 name: Mycobacteriales
 synonym: "Corynebacteriales" RELATED []
 synonym: "Corynebacteriales Goodfellow and Jones 2015" RELATED []
+synonym: "Corynebacteriineae" RELATED []
+synonym: "Corynebacteriineae corrig. Stackebrandt et al. 1997" RELATED []
 synonym: "Corynebacterineae" RELATED []
 synonym: "Mycobacteriales Janke 1924 (Approved Lists 1980)" RELATED []
+synonym: "Mycobacteriineae" RELATED []
 is_a: NCBITaxon:1760 ! Actinomycetes
 disjoint_from: NCBITaxon:85011 ! Kitasatosporales
 relationship: RO:0002162 NCBITaxon:85007 ! in taxon Mycobacteriales
@@ -7320,7 +7325,8 @@ relationship: RO:0002162 NCBITaxon:9072 ! in taxon Phasianinae
 [Term]
 id: NCBITaxon:90964
 name: Staphylococcaceae
-synonym: "Staphylococcus group" RELATED []
+synonym: "Staphylococcaceae Schleifer and Bell 2010" RELATED []
+synonym: "Staphylococcus group" EXACT []
 is_a: NCBITaxon:1385 ! Bacillales
 relationship: RO:0002162 NCBITaxon:90964 ! in taxon Staphylococcaceae
 
@@ -7586,6 +7592,7 @@ relationship: RO:0002162 NCBITaxon:9596 ! in taxon Pan
 id: NCBITaxon:9598
 name: Pan troglodytes
 synonym: "chimpanzee" EXACT []
+synonym: "Simia troglodytes" RELATED []
 is_a: NCBITaxon:9596 ! Pan
 relationship: RO:0002162 NCBITaxon:9598 ! in taxon Pan troglodytes
 
@@ -7812,7 +7819,6 @@ synonym: "dairy cow" EXACT []
 synonym: "domestic cattle" EXACT []
 synonym: "domestic cow" EXACT []
 synonym: "ox" EXACT []
-synonym: "oxen" EXACT []
 is_a: NCBITaxon:9903 ! Bos
 relationship: RO:0002162 NCBITaxon:9913 ! in taxon Bos taurus
 
