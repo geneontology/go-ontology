@@ -1,0 +1,12 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX results_in_morphogenesis_of: <http://purl.obolibrary.org/obo/RO_0002298>
+
+SELECT DISTINCT ?target
+WHERE {
+  ?svf owl:onProperty results_in_morphogenesis_of: .
+  ?svf owl:someValuesFrom ?target .
+  FILTER(isIRI(?target))
+  FILTER NOT EXISTS {
+    ?target owl:deprecated true .
+  }
+}
