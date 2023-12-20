@@ -890,3 +890,5 @@ GO:2000012	regulation of auxin polar transport	NCBITaxon:33090	Viridiplantae
 GO:0080161	auxin transmembrane transporter activity	NCBITaxon:33090	Viridiplantae	
 GO:0005793	endoplasmic reticulum-Golgi intermediate compartment	NCBITaxon:2759	Eukaryota	
 GO:0062200	RAM/MOR signaling pathway	NCBITaxon:4751	Fungi	PMID:23212898
+GO:0004164	diphthine synthase activity	NCBITaxon:2157	Archaea	PMID:24739148
+GO:0141133	diphthine methyl ester synthase activity	NCBITaxon:2759	Eukaryota	PMID:24739148
