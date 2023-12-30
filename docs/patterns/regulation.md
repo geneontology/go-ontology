@@ -43,7 +43,7 @@ This pattern is for classes representing types of regulation differentiated by t
 
 | defined_class | defined_class_label | entity | entity_label |
 |:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_0052372](http://purl.obolibrary.org/obo/GO_0052372) | modulation by symbiont of entry into host | [http://purl.obolibrary.org/obo/GO_0044409](http://purl.obolibrary.org/obo/GO_0044409) | entry into host |
+| [http://purl.obolibrary.org/obo/GO_0052372](http://purl.obolibrary.org/obo/GO_0052372) | modulation by symbiont of entry into host | [http://purl.obolibrary.org/obo/GO_0044409](http://purl.obolibrary.org/obo/GO_0044409) | symbiont entry into host |
 | [http://purl.obolibrary.org/obo/GO_0050804](http://purl.obolibrary.org/obo/GO_0050804) | modulation of chemical synaptic transmission | [http://purl.obolibrary.org/obo/GO_0007268](http://purl.obolibrary.org/obo/GO_0007268) | chemical synaptic transmission |
 | [http://purl.obolibrary.org/obo/GO_0044145](http://purl.obolibrary.org/obo/GO_0044145) | modulation of formation of structure involved in a symbiotic process | [http://purl.obolibrary.org/obo/GO_0044111](http://purl.obolibrary.org/obo/GO_0044111) | formation of structure involved in a symbiotic process |
 | [http://purl.obolibrary.org/obo/GO_0075030](http://purl.obolibrary.org/obo/GO_0075030) | modulation of formation of symbiont germ tube hook structure for appressorium development | [http://purl.obolibrary.org/obo/GO_0075029](http://purl.obolibrary.org/obo/GO_0075029) | formation of appressorium germ tube hook structure |

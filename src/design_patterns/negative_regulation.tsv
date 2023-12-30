@@ -2838,7 +2838,7 @@ http://purl.obolibrary.org/obo/GO_1905554	negative regulation of vessel branchin
 http://purl.obolibrary.org/obo/GO_1900714	negative regulation of violaceol I biosynthetic process	http://purl.obolibrary.org/obo/GO_1900590	violaceol I biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900717	negative regulation of violaceol II biosynthetic process	http://purl.obolibrary.org/obo/GO_1900593	violaceol II biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903773	negative regulation of viral budding via host ESCRT complex	http://purl.obolibrary.org/obo/GO_0039702	viral budding via host ESCRT complex
-http://purl.obolibrary.org/obo/GO_0046597	negative regulation of viral entry into host cell	http://purl.obolibrary.org/obo/GO_0046718	viral entry into host cell
+http://purl.obolibrary.org/obo/GO_0046597	negative regulation of viral entry into host cell	http://purl.obolibrary.org/obo/GO_0046718	symbiont entry into host cell
 http://purl.obolibrary.org/obo/GO_0045071	negative regulation of viral genome replication	http://purl.obolibrary.org/obo/GO_0019079	viral genome replication
 http://purl.obolibrary.org/obo/GO_1903901	negative regulation of viral life cycle	http://purl.obolibrary.org/obo/GO_0019058	viral life cycle
 http://purl.obolibrary.org/obo/GO_0048525	negative regulation of viral process	http://purl.obolibrary.org/obo/GO_0016032	viral process

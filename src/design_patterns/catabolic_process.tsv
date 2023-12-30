@@ -638,6 +638,7 @@ http://purl.obolibrary.org/obo/GO_0046210	nitric oxide catabolic process	http://
 http://purl.obolibrary.org/obo/GO_0050899	nitrile catabolic process	http://purl.obolibrary.org/obo/CHEBI_18379	nitrile
 http://purl.obolibrary.org/obo/GO_1900998	nitrobenzene catabolic process	http://purl.obolibrary.org/obo/CHEBI_27798	nitrobenzene
 http://purl.obolibrary.org/obo/GO_0046263	nitrotoluene catabolic process	http://purl.obolibrary.org/obo/CHEBI_25566	nitrotoluene
+http://purl.obolibrary.org/obo/GO_0170044	non-proteinogenic amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_83820	non-proteinogenic amino acid
 http://purl.obolibrary.org/obo/GO_0019468	nopaline catabolic process	http://purl.obolibrary.org/obo/CHEBI_58074	D-nopalinate(1-)
 http://purl.obolibrary.org/obo/GO_0046205	nor-spermidine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57920	bis(3-azaniumylpropyl)azanium
 http://purl.obolibrary.org/obo/GO_0042422	norepinephrine catabolic process	http://purl.obolibrary.org/obo/CHEBI_72587	(R)-noradrenaline(1+)
@@ -746,6 +747,7 @@ http://purl.obolibrary.org/obo/GO_1905344	prostaglandin catabolic process	http:/
 http://purl.obolibrary.org/obo/GO_0062232	prostanoid catabolic process	http://purl.obolibrary.org/obo/CHEBI_26347	prostanoid
 http://purl.obolibrary.org/obo/GO_0051190	prosthetic group catabolic process	http://purl.obolibrary.org/obo/GOCHE_26348	substance with prosthetic group role
 http://purl.obolibrary.org/obo/GO_0030163	protein catabolic process	http://purl.obolibrary.org/obo/PR_000000001	protein
+http://purl.obolibrary.org/obo/GO_0170040	proteinogenic amino acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_83813	proteinogenic amino acid
 http://purl.obolibrary.org/obo/GO_0030167	proteoglycan catabolic process	http://purl.obolibrary.org/obo/CHEBI_37396	proteoglycan
 http://purl.obolibrary.org/obo/GO_1900789	pseurotin A catabolic process	http://purl.obolibrary.org/obo/CHEBI_64535	pseurotin A
 http://purl.obolibrary.org/obo/GO_0019990	pteridine catabolic process	http://purl.obolibrary.org/obo/CHEBI_27601	pteridine
