@@ -730,6 +730,7 @@ http://purl.obolibrary.org/obo/GO_0071592	nicotinic acid riboside biosynthetic p
 http://purl.obolibrary.org/obo/GO_0006809	nitric oxide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16480	nitric oxide
 http://purl.obolibrary.org/obo/GO_0080028	nitrile biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_18379	nitrile
 http://purl.obolibrary.org/obo/GO_1900999	nitrobenzene biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_27798	nitrobenzene
+http://purl.obolibrary.org/obo/GO_0170043	non-proteinogenic amino acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_83820	non-proteinogenic amino acid
 http://purl.obolibrary.org/obo/GO_1900877	nonadec-1-ene biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64503	nonadec-1-ene
 http://purl.obolibrary.org/obo/GO_0045312	nor-spermidine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57920	bis(3-azaniumylpropyl)azanium
 http://purl.obolibrary.org/obo/GO_0042421	norepinephrine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_72587	(R)-noradrenaline(1+)
@@ -869,6 +870,7 @@ http://purl.obolibrary.org/obo/GO_1902860	propionyl-CoA biosynthetic process	htt
 http://purl.obolibrary.org/obo/GO_0001516	prostaglandin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_59326	prostaglandin carboxylic acid anion
 http://purl.obolibrary.org/obo/GO_0046457	prostanoid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_62943	prostanoid anion
 http://purl.obolibrary.org/obo/GO_0051191	prosthetic group biosynthetic process	http://purl.obolibrary.org/obo/GOCHE_26348	substance with prosthetic group role
+http://purl.obolibrary.org/obo/GO_0170038	proteinogenic amino acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_83813	proteinogenic amino acid
 http://purl.obolibrary.org/obo/GO_0030166	proteoglycan biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_37396	proteoglycan
 http://purl.obolibrary.org/obo/GO_0006782	protoporphyrinogen IX biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57307	protoporphyrinogen(2-)
 http://purl.obolibrary.org/obo/GO_1900790	pseurotin A biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64535	pseurotin A
