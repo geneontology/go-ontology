@@ -22,7 +22,7 @@ jobs:
       run: cd src/ontology && make imports/go-catalytic-activities-participants.owl imports/go-catalytic-activities-participants.obo && cd ../..
     
     - name: Create PR
-      uses: peter-evans/create-pull-request@v4
+      uses: peter-evans/create-pull-request@v5
       with:
         title: Update reaction participants
         branch: update-reaction-participants
