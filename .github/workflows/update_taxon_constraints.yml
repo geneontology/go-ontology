@@ -22,7 +22,7 @@ jobs:
       run: touch src/taxon_constraints/never_in_taxon.tsv src/taxon_constraints/only_in_taxon.tsv src/taxon_constraints/present_in_taxon.tsv && cd src/ontology && make imports/go_taxon_constraints.owl && cd ../..
     
     - name: Create PR
-      uses: peter-evans/create-pull-request@v4
+      uses: peter-evans/create-pull-request@v5
       with:
         title: Update taxon constraints
         branch: update-taxon-constraints
