@@ -18,7 +18,6 @@ GO:0000750	pheromone-dependent signal transduction involved in conjugation with 
 GO:0000751	mitotic cell cycle G1 arrest in response to pheromone	NCBITaxon:4751	Fungi	
 GO:0000755	cytogamy	NCBITaxon:4751	Fungi	
 GO:0000911	cytokinesis by cell plate formation	NCBITaxon:33090	Viridiplantae	
-GO:0000916	actomyosin contractile ring contraction	NCBITaxon:2759	Eukaryota	
 GO:0000936	primary cell septum	NCBITaxon:2759	Eukaryota	
 GO:0001070	RNA-binding transcription regulator activity	NCBITaxon:10239	Viruses	
 GO:0001403	invasive growth in response to glucose limitation	NCBITaxon:4751	Fungi	
