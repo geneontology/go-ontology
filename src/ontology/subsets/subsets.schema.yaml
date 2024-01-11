@@ -56,11 +56,11 @@ mapping:
           required: true
         "orcid":
           type: str
-          required: true
+          required: false
           pattern: /https:\/\/orcid.org\/\d{4}\-\d{4}\-\d{4}\-\d{4}/
         "github":
           type: str
-          required: true
+          required: false
 
    
     
