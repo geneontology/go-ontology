@@ -1,6 +1,6 @@
 id: goslim_FlyBase_Ribbon
 title: FlyBase Ribbon slim
-type: binning slim
+type: ribbon
 status: active
 description: "FlyBase Drosophila GO ribbon slim. The purpose of this slim is mainly to drive the Flybase 'ribbon' display"
 seeAlso: 
