@@ -1,6 +1,6 @@
 id: goslim_mouse
 title: Mouse GO slim
-type: binning_slim
+type: binning subset
 status: active
 description: "Mouse GO slim."
 taxon:
@@ -14,6 +14,6 @@ github:
  contributors:
   - email: Mary.Dolan@jax.org
     label: Mary Dolan
-    orcid: http://orcid.org/0000-0001-7732-3295
+    orcid: https://orcid.org/0000-0001-7732-3295
     github: mdolanme
 
