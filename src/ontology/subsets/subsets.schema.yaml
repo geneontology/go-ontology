@@ -1,0 +1,36 @@
+type: map
+mapping:
+  "id":
+    type: str
+    required: true
+  "title":
+    type: str
+    required: true
+  "type":
+    type: str
+    required: true
+    enum: [blacklist, summary, ribbon, tag]
+  "status":
+    type: str
+    required: true
+    enum: [active, obsolete]
+  "description":
+    type: str
+    required: true
+  "taxon":
+    type: str
+    required: true
+    pattern: **NCBITaxon:nnnn**
+  "contact": **email + label**
+    type: str
+    required: true
+    pattern: /[^\s]+@[^\s]+\.[^\s]+/
+  "tracker":
+    type: str
+    required: true
+    pattern: https://github...
+   "contributors": **email, label, orcid, github**
+   
+    
+
+ 
