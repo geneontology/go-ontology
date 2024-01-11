@@ -1,6 +1,6 @@
 id: gocheck_do_not_annotate
 title: GO antislim
-type: antislim
+type: blacklist
 status: active
 description: "Terms that are too high level to be informative for annotation."
 seeAlso: 
@@ -13,7 +13,7 @@ contact:
 github: 
  tracker: https://github.com/geneontology/go-ontology/issues
  contributors:
-  - email: 
-    label: 
+  - email: go-ontology@lists.stanford.edu
+    label: GO Ontology Curators
     orcid: 
     github:
