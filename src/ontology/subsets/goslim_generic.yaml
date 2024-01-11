@@ -1,9 +1,8 @@
 id: goslim_generic
-title: Generic GO slim
-type: binning_slim
+title: Generic GO subset
+type: binning subset
 status: active
-description: "Generic GO slim. Applies to all species. This slim can be used for binning purposes, annotations should map to a term in the slim."
-seeAlso: 
+description: "Generic GO subset. Applies to all species. This slim can be used for binning purposes, most annotations should map to a term in the slim."
 taxon:
   id: NCBITaxon:1
   label: all organisms
@@ -13,7 +12,7 @@ contact:
 github: 
  tracker: https://github.com/geneontology/go-ontology/issues
  contributors:
-  - email: vw253@cam.ac.uk
-    label: Val Wood
-    orcid: http://orcid.org/0000-0001-6330-7526
-    github: ValWood
+  - email: go-ontology@lists.stanford.edu
+    label: GO Ontology Curators
+    orcid: 
+    github: 
