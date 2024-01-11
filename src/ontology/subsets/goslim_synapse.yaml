@@ -1,9 +1,8 @@
 id: goslim_synapse
 title: synapse GO slim
-type: binning_slim
+type: binning subset
 status: active
-description: "Synapse GO slim provided by SynGO. This is the subset that is available for annotation in the SynGO tool."
-seeAlso: 
+description: "Synapse GO slim provided by SynGO. This is the subset of GO terms available for annotation in the SynGO tool."
 taxon:
   id: NCBITaxon:9606
   label: Homo sapiens
@@ -23,14 +22,14 @@ contact:
  - email: frank.koopmans@vu.nl
    label: Frank Koopmans
 github: 
- tracker: https://github.com/geneontology/synapse/issues
+ tracker: https://github.com/geneontology/go-ontology
  contributors:
   - email: pim.van.nierop@gmail.com
     label: Pim van Nierop
-    orcid: http://orcid.org/0000-0003-0593-3443
+    orcid: https://orcid.org/0000-0003-0593-3443
     github: Pimmelorus
   - email: frank.koopmans@vu.nl
     label: Frank Koopmans
-    orcid: http://orcid.org/0000-0002-4973-5732
+    orcid: https://orcid.org/0000-0002-4973-5732
     github: ftwkoopmans
 
