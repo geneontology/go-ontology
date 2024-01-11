@@ -1,6 +1,6 @@
 id: goslim_candida
 title: Candida slim
-type: 
+type: binning subset
 status: active
 description: "Candida GO slim."
 seeAlso: 
@@ -13,9 +13,10 @@ contact:
 github:
  tracker: https://github.com/geneontology/go-ontology/issues
  contributors:
-  - email: mareks@stanford.edu
-    label: Marek Skrzypek
-    orcid: http://orcid.org/0000-0001-6749-615X
-    github: marekskrzypek
+ contributors:
+  - email: jodils@stanford.edu
+    label: Jodi Lew-Smith
+    orcid: https://orcid.org/0000-0003-0784-046X
+    github: jlewsmith
     
     
