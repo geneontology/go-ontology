@@ -1,7 +1,7 @@
 id: goantislim_grouping
 title: GO antislim
 type: antislim
-status: obsolete
+status: blacklist
 description: "Grouping classes that can be excluded in enrichment analyses etc. Archived .obo file can be found at http://release.geneontology.org/2018-08-09/ontology/subsets/goantislim_grouping.obo"
 seeAlso: 
 taxon:
