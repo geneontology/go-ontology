@@ -1,0 +1,68 @@
+type: map
+mapping:
+  "id":
+    type: str
+    required: true
+  "title":
+    type: str
+    required: true
+  "type":
+    type: str
+    required: true
+    enum: [blacklist, binning subset, ribbon, tag]
+  "status":
+    type: str
+    required: true
+    enum: [active, obsolete]
+  "description":
+    type: str
+    required: true
+  "taxon": 
+    - type: map
+      mapping:
+        "id":
+          type: str
+          required: true
+          pattern: /NCBITaxon\:\d+/
+        "label":
+          type: str
+          required: true
+  "github":
+    - type: map
+      mapping:
+        "tracker":
+          type: string
+          required: true+
+          pattern: /https:\/\/github\.com\/geneontology[^\s]+/
+  "contact":
+    - type: map
+      mapping:
+        "email":
+          type: str
+          required: true
+          pattern: /[^\s]+@[^\s]+\.[^\s]+/
+        "label":
+          type: str
+          required: true
+  "contributors":
+    - type: map
+      mapping:
+        "email":
+          type: str
+          required: true
+          pattern: /[^\s]+@[^\s]+\.[^\s]+/
+        "label":
+          type: str
+          required: true
+        "orcid":
+          type: str
+          required: true
+          pattern: /https:\/\/orcid.org\/\d{4}\-\d{4}\-\d{4}\-\d{4}/
+        "github":
+          type: str
+          required: true
+
+   
+    
+
+ 
