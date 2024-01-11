@@ -1,19 +1,19 @@
 id: gocheck_do_not_manually_annotate
-title: GO antislim
-type: antislim
+title: Terms not allowed for manual annotation
+type: blacklist
 status: active
 description: "Terms that are too high level to be informative for manual annotation."
 seeAlso: 
 taxon:
   id: NCBITaxon:1
   label: all organisms
+github:
+  tracker: https://github.com/geneontology/go-ontology/issues
 contact:
-  email: go-ontology@lists.stanford.edu
+  - email: go-ontology@lists.stanford.edu
   label: GO Ontology Curators
-github: 
- tracker: https://github.com/geneontology/go-ontology/issues
  contributors:
-  - email: 
-    label: 
+  - email: go-ontology@lists.stanford.edu
+    label: GO Ontology Curators
     orcid: 
     github:
