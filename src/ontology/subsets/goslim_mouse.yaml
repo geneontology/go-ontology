@@ -1,8 +1,8 @@
 id: goslim_mouse
 title: Mouse GO slim
-type: binning_slim
+type: binning subset
 status: active
-description: "Mouse GO slim."
+description: "Mouse GO subset."
 taxon:
   id: NCBITaxon:10090
   label: Mus musculus
@@ -14,6 +14,6 @@ github:
  contributors:
   - email: Mary.Dolan@jax.org
     label: Mary Dolan
-    orcid: http://orcid.org/0000-0001-7732-3295
+    orcid: https://orcid.org/0000-0001-7732-3295
     github: mdolanme
 
