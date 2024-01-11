@@ -1,9 +1,8 @@
 id: goslim_agr
 title: AGR slim
-type: 
+type: ribbon
 status: active
-description: "Slim for Alliance of Genome Resources (AGR). The purpose of this slim is mainly to drive the 'ribbon' display"
-seeAlso: https://github.com/geneontology/ribbon
+description: "Subset for Alliance of Genome Resources (AGR). The purpose of this subsets is mainly to drive the 'ribbon' display."
 taxon:
   id: NCBITaxon:33154
   label: Opisthokonta
