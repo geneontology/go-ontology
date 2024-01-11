@@ -1,9 +1,8 @@
 id: goslim_plant
 title: Plant slim
-type: 
+type: binning subset
 status: active
-description: "Plan GO slim."
-seeAlso: 
+description: "Plant GO subset."
 taxon: 
   id: NCBITaxon:33090
   label: Viridiplantae
@@ -15,6 +14,6 @@ github:
  contributors:
   - email: tberardi@arabidopsis.org
     label: Tanya Berardini
-    orcid: http://orcid.org/0000-0002-3837-8864
+    orcid: https://orcid.org/0000-0002-3837-8864
     github: tberardini
     
