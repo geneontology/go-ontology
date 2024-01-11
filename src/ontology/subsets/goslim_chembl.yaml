@@ -1,21 +1,20 @@
 id: goslim_chembl
 title: ChEMBL slim
-type: 
-status: pending contact
-description: ""
-seeAlso: 
+type: binning subset
+status: active
+description: "Subset for ChEMBL."
 taxon:
-  id: 
-  label: 
+  id: NCBITaxon:1
+  label: all organisms
 contact: 
-  email: 
-  label: 
+  email: Barbara Zdrazil
+  label: bzdrazil@ebi.ac.uk
 github:
  tracker: https://github.com/geneontology/go-ontology/issues
  contributors:
-  - email: 
-    label:
-    orcid:  
-    github: 
+  - email: Barbara Zdrazil
+    label: bzdrazil@ebi.ac.uk
+    orcid: https://orcid.org/0000-0001-9395-1515
+    github: BZdrazil
       
       
