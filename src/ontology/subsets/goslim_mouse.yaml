@@ -2,7 +2,7 @@ id: goslim_mouse
 title: Mouse GO slim
 type: binning subset
 status: active
-description: "Mouse GO slim."
+description: "Mouse GO subset."
 taxon:
   id: NCBITaxon:10090
   label: Mus musculus
