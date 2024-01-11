@@ -38472,13 +38472,6 @@
 <http://purl.obolibrary.org/obo/GO_0120145> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_localization_to.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0120150> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0120151> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0120154> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 
 
@@ -38954,9 +38947,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0140260> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0140262> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0140270> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/export_across_membrane.yaml> ,
@@ -46611,9 +46601,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_1902620> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1902621> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_disassembly.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_1902622> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
@@ -55431,9 +55418,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_1990255> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cellular_anatomical_entity_organization.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1990274> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_1990275> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
