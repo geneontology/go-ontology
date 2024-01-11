@@ -9,7 +9,7 @@ mapping:
   "type":
     type: str
     required: true
-    enum: [blacklist, summary, ribbon, tag]
+    enum: [blacklist, subset, ribbon, tag]
   "status":
     type: str
     required: true
@@ -17,11 +17,20 @@ mapping:
   "description":
     type: str
     required: true
-  "taxon":
-    type: str
-    required: true
-    pattern: **NCBITaxon:nnnn**
-  "contact": **email + label**
+  "taxon": 
+    - type: map
+      mapping:
+        "id":
+          type: str
+          required: true
+          pattern: /NCBITaxon\:\d+/
+        "label":
+          type: str
+          required: true
+  "contact":  SUBFIELDS **email + label**
+    - type: map
+      mapping:
+        "id":
     type: str
     required: true
     pattern: /[^\s]+@[^\s]+\.[^\s]+/
@@ -29,7 +38,7 @@ mapping:
     type: str
     required: true
     pattern: https://github...
-   "contributors": **email, label, orcid, github**
+   "contributors": SUBFIELDS **email, label, orcid, github**
    
     
 
