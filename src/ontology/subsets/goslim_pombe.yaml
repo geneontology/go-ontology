@@ -1,9 +1,8 @@
 id: goslim_pombe
 title: Schizosaccharomyces pombe slim
-type: binning slim
+type: binning subset
 status: active
-description: "Schizosaccharomyces pombe GO slim."
-seeAlso: 
+description: "Schizosaccharomyces pombe GO subset."
 taxon:
   id: NCBITaxon:4896
   label: Schizosaccharomyces pombe
@@ -15,5 +14,5 @@ github:
  contributors:
   - email: vw253@cam.ac.uk
     label: Valerie Wood
-    orcid: http://orcid.org/0000-0001-6330-7526
+    orcid: https://orcid.org/0000-0001-6330-7526
     github: ValWood
