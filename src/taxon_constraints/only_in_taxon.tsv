@@ -891,3 +891,4 @@ GO:0005793	endoplasmic reticulum-Golgi intermediate compartment	NCBITaxon:2759	E
 GO:0062200	RAM/MOR signaling pathway	NCBITaxon:4751	Fungi	PMID:23212898
 GO:0004164	diphthine synthase activity	NCBITaxon:2157	Archaea	PMID:24739148
 GO:0141133	diphthine methyl ester synthase activity	NCBITaxon:2759	Eukaryota	PMID:24739148
+GO:0000196	cell wall integrity MAPK cascade	NCBITaxon:Union_0000007	Viridiplantae or Bacteria or Euglenozoa	
