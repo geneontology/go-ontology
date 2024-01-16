@@ -10,6 +10,7 @@ Ontology(<urn:unnamed:ontology#ont1>
 
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000132>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000165>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000196>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000278>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000282>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000324>))
@@ -962,6 +963,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0000132> ObjectAllValuesFrom(<http
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0000165> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_2759>))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0000165> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_2759>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0000196> (<http://purl.obolibrary.org/obo/GO_0000196>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0000196> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_Union_0000007>))
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0000196> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_Union_0000007>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0000278> (<http://purl.obolibrary.org/obo/GO_0000278>)
 
