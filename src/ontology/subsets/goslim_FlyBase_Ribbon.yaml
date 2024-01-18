@@ -2,11 +2,11 @@ id: goslim_FlyBase_Ribbon
 title: FlyBase Ribbon slim
 type: ribbon
 status: active
-description: "FlyBase Drosophila GO ribbon slim. The purpose of this slim is mainly to drive the Flybase 'ribbon' display"
+description: "Insect GO ribbon subset produced by FlyBase. The purpose of this subset is mainly to drive the Flybase 'ribbon' display."
 seeAlso: 
 taxon:
-  id: NCBITaxon:7227
-  label: Drosophila melanogaster
+  id: NCBITaxon:50557
+  label: Insecta
 contact: 
   email: go-ontology@lists.stanford.edu
   label: GO Ontology Curators
