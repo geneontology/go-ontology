@@ -2237,8 +2237,6 @@ http://purl.obolibrary.org/obo/GO_0032890	regulation of organic acid transport	h
 http://purl.obolibrary.org/obo/GO_1903266	regulation of ornithine catabolic process	http://purl.obolibrary.org/obo/GO_0006593	ornithine catabolic process
 http://purl.obolibrary.org/obo/GO_0090368	regulation of ornithine metabolic process	http://purl.obolibrary.org/obo/GO_0006591	ornithine metabolic process
 http://purl.obolibrary.org/obo/GO_1904295	regulation of osmolarity-sensing cation channel activity	http://purl.obolibrary.org/obo/GO_1990760	osmolarity-sensing monoatomic cation channel activity
-http://purl.obolibrary.org/obo/GO_0140531	regulation of osmosensory signaling MAPK cascade	http://purl.obolibrary.org/obo/GO_0000161	osmosensory signaling MAPK cascade
-http://purl.obolibrary.org/obo/GO_0120027	regulation of osmosensory signaling pathway	http://purl.obolibrary.org/obo/GO_0007231	osmosensory signaling pathway
 http://purl.obolibrary.org/obo/GO_0030278	regulation of ossification	http://purl.obolibrary.org/obo/GO_0001503	ossification
 http://purl.obolibrary.org/obo/GO_0045667	regulation of osteoblast differentiation	http://purl.obolibrary.org/obo/GO_0001649	osteoblast differentiation
 http://purl.obolibrary.org/obo/GO_0033688	regulation of osteoblast proliferation	http://purl.obolibrary.org/obo/GO_0033687	osteoblast proliferation
@@ -2279,7 +2277,6 @@ http://purl.obolibrary.org/obo/GO_0060405	regulation of penile erection	http://p
 http://purl.obolibrary.org/obo/GO_1900887	regulation of pentadecane biosynthetic process	http://purl.obolibrary.org/obo/GO_1900634	pentadecane biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900890	regulation of pentadecane metabolic process	http://purl.obolibrary.org/obo/GO_1900633	pentadecane metabolic process
 http://purl.obolibrary.org/obo/GO_1900360	regulation of pentasaccharide transport	http://purl.obolibrary.org/obo/GO_2001100	pentasaccharide transport
-http://purl.obolibrary.org/obo/GO_1900509	regulation of pentose catabolic process to ethanol	http://purl.obolibrary.org/obo/GO_0044576	pentose catabolic process to ethanol
 http://purl.obolibrary.org/obo/GO_0043456	regulation of pentose-phosphate shunt	http://purl.obolibrary.org/obo/GO_0006098	pentose-phosphate shunt
 http://purl.obolibrary.org/obo/GO_0052547	regulation of peptidase activity	http://purl.obolibrary.org/obo/GO_0008233	peptidase activity
 http://purl.obolibrary.org/obo/GO_1901039	regulation of peptide antigen transport	http://purl.obolibrary.org/obo/GO_0046968	peptide antigen transport

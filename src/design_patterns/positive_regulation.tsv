@@ -2022,7 +2022,6 @@ http://purl.obolibrary.org/obo/GO_0060406	positive regulation of penile erection
 http://purl.obolibrary.org/obo/GO_1900889	positive regulation of pentadecane biosynthetic process	http://purl.obolibrary.org/obo/GO_1900634	pentadecane biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900892	positive regulation of pentadecane metabolic process	http://purl.obolibrary.org/obo/GO_1900633	pentadecane metabolic process
 http://purl.obolibrary.org/obo/GO_1900362	positive regulation of pentasaccharide transport	http://purl.obolibrary.org/obo/GO_2001100	pentasaccharide transport
-http://purl.obolibrary.org/obo/GO_1900511	positive regulation of pentose catabolic process to ethanol	http://purl.obolibrary.org/obo/GO_0044576	pentose catabolic process to ethanol
 http://purl.obolibrary.org/obo/GO_1905857	positive regulation of pentose-phosphate shunt	http://purl.obolibrary.org/obo/GO_0006098	pentose-phosphate shunt
 http://purl.obolibrary.org/obo/GO_0010952	positive regulation of peptidase activity	http://purl.obolibrary.org/obo/GO_0008233	peptidase activity
 http://purl.obolibrary.org/obo/GO_1901041	positive regulation of peptide antigen transport	http://purl.obolibrary.org/obo/GO_0046968	peptide antigen transport
@@ -2710,7 +2709,7 @@ http://purl.obolibrary.org/obo/GO_1901838	positive regulation of transcription o
 http://purl.obolibrary.org/obo/GO_2000679	positive regulation of transcription regulatory region DNA binding	http://purl.obolibrary.org/obo/GO_0000976	transcription cis-regulatory region binding
 http://purl.obolibrary.org/obo/GO_1904300	positive regulation of transcytosis	http://purl.obolibrary.org/obo/GO_0045056	transcytosis
 http://purl.obolibrary.org/obo/GO_1903620	positive regulation of transdifferentiation	http://purl.obolibrary.org/obo/GO_0060290	transdifferentiation
-http://purl.obolibrary.org/obo/GO_0140471	positive regulation of transepithelial migration of symbiont in host	http://purl.obolibrary.org/obo/GO_0035756	transepithelial migration of symbiont in host
+http://purl.obolibrary.org/obo/GO_0140471	positive regulation of transepithelial migration of symbiont in host	http://purl.obolibrary.org/obo/GO_0035756	symbiont-mediated migration through host transepithelium
 http://purl.obolibrary.org/obo/GO_0051347	positive regulation of transferase activity	http://purl.obolibrary.org/obo/GO_0016740	transferase activity
 http://purl.obolibrary.org/obo/GO_1904437	positive regulation of transferrin receptor binding	http://purl.obolibrary.org/obo/GO_1990459	transferrin receptor binding
 http://purl.obolibrary.org/obo/GO_1904189	positive regulation of transformation of host cell by virus	http://purl.obolibrary.org/obo/GO_0019087	transformation of host cell by virus
