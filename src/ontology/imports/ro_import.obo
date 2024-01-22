@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-07-31/imports/ro_import.owl
+data-version: go/releases/2024-01-22/imports/ro_import.owl
 ontology: go/imports/ro_import
 
 [Term]
@@ -348,12 +348,6 @@ id: contains_process
 name: contains process
 def: "[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
 xref: BFO:0000067
-
-[Typedef]
-id: correlated_with
-name: correlated with
-def: "A relationship that holds between two entities, where the entities exhibit a statistical dependence relationship. The entities may be statistical variables, or they may be other kinds of entities such as diseases, chemical entities or processes." []
-xref: RO:0002610
 
 [Typedef]
 id: depends_on
@@ -869,6 +863,22 @@ range: BFO:0000023 ! role
 is_a: has_characteristic ! has characteristic
 
 [Typedef]
+id: has_small_molecule_activator
+name: has small molecule activator
+def: "a relation between a process and a continuant, in which the process is activated by the small molecule continuant" []
+xref: RO:0012001
+is_a: has_small_molecule_regulator ! has small molecule regulator
+inverse_of: is_small_molecule_activator_of ! is small molecule activator of
+
+[Typedef]
+id: has_small_molecule_regulator
+name: has small molecule regulator
+def: "a relation between a process and a continuant, in which the process is regulated by the small molecule continuant" []
+xref: RO:0012000
+is_a: has_participant ! has participant
+inverse_of: is_small_molecule_regulator_of ! is small molecule regulator of
+
+[Typedef]
 id: has_start_location
 name: has start location
 def: "x 'has starts location' y if and only if there exists some process z such that x 'starts with' z and z 'occurs in' y" []
@@ -1055,6 +1065,21 @@ is_a: functionally_related_to ! functionally related to
 is_a: overlaps ! overlaps
 
 [Typedef]
+id: is_small_molecule_activator_of
+name: is small molecule activator of
+def: "a relation between a continuant and a process, in which the continuant is a small molecule that activates the process" []
+xref: RO:0012005
+is_a: capable_of_positively_regulating ! capable of positively regulating
+is_a: is_small_molecule_regulator_of ! is small molecule regulator of
+
+[Typedef]
+id: is_small_molecule_regulator_of
+name: is small molecule regulator of
+def: "a relation between a continuant and a process, in which the continuant is a small molecule that regulates the process" []
+xref: RO:0012004
+is_a: capable_of_regulating ! capable of regulating
+
+[Typedef]
 id: mereotopologically_related_to
 name: mereotopologically related to
 def: "A mereological relationship or a topological relationship" []
@@ -1170,15 +1195,6 @@ id: phosphorylates
 name: phosphorylates
 xref: RO:0002447
 is_a: molecularly_interacts_with ! molecularly interacts with
-
-[Typedef]
-id: positively_correlated_with
-name: positively correlated with
-def: "A relation between entities in which one increases or decreases as the other does the same." []
-xref: RO:0017003
-is_reflexive: true
-is_symmetric: true
-is_a: correlated_with ! correlated with
 
 [Typedef]
 id: positively_regulated_by
@@ -1307,6 +1323,15 @@ domain: BFO:0000015 ! process
 range: PATO:0000001
 holds_over_chain: regulates regulates_characteristic
 is_a: causally_related_to ! causally related to
+
+[Typedef]
+id: regulates_in_other_organism
+name: regulates in other organism
+def: "x 'regulates in other organism' y if and only if: (x is the realization of a function to exert an effect on the frequency, rate or extent of y) AND (the agents of x are produced by organism o1 and the agents of y are produced by organism o2)." []
+xref: RO:0002010
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+is_a: causally_upstream_of_or_within ! causally upstream of or within
 
 [Typedef]
 id: regulates_levels_of
