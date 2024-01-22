@@ -309,7 +309,6 @@ http://purl.obolibrary.org/obo/GO_0031976	plastid thylakoid	http://purl.obolibra
 http://purl.obolibrary.org/obo/GO_0055035	plastid thylakoid membrane	http://purl.obolibrary.org/obo/GO_0016020	membrane	http://purl.obolibrary.org/obo/GO_0031976	plastid thylakoid
 http://purl.obolibrary.org/obo/GO_0000427	plastid-encoded plastid RNA polymerase complex	http://purl.obolibrary.org/obo/GO_0000428	DNA-directed RNA polymerase complex	http://purl.obolibrary.org/obo/GO_0009536	plastid
 http://purl.obolibrary.org/obo/GO_0005827	polar microtubule	http://purl.obolibrary.org/obo/GO_0005876	spindle microtubule	http://purl.obolibrary.org/obo/GO_0000922	spindle pole
-http://purl.obolibrary.org/obo/GO_0042788	polysomal ribosome	http://purl.obolibrary.org/obo/GO_0005840	ribosome	http://purl.obolibrary.org/obo/GO_0005844	polysome
 http://purl.obolibrary.org/obo/GO_0005701	polytene chromosome chromocenter	http://purl.obolibrary.org/obo/GO_0010369	chromocenter	http://purl.obolibrary.org/obo/GO_0005700	polytene chromosome
 http://purl.obolibrary.org/obo/GO_1905759	post-anaphase array microtubule	http://purl.obolibrary.org/obo/GO_0005874	microtubule	http://purl.obolibrary.org/obo/GO_1990295	post-anaphase microtubule array
 http://purl.obolibrary.org/obo/GO_1905760	post-anaphase array microtubule end	http://purl.obolibrary.org/obo/GO_1990752	microtubule end	http://purl.obolibrary.org/obo/GO_1905759	post-anaphase array microtubule

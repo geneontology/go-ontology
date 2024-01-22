@@ -122,6 +122,7 @@ http://purl.obolibrary.org/obo/GO_2000134	negative regulation of G1/S transition
 http://purl.obolibrary.org/obo/GO_0010972	negative regulation of G2/M transition of mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000086	G2/M transition of mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_0110031	negative regulation of G2/MI transition of meiotic cell cycle	http://purl.obolibrary.org/obo/GO_0008315	G2/MI transition of meiotic cell cycle
 http://purl.obolibrary.org/obo/GO_0106042	negative regulation of GABA-A receptor activity	http://purl.obolibrary.org/obo/GO_0004890	GABA-A receptor activity
+http://purl.obolibrary.org/obo/GO_0160145	negative regulation of GDF15-GFRAL signaling pathway	http://purl.obolibrary.org/obo/GO_0160144	GDF15-GFRAL signaling pathway
 http://purl.obolibrary.org/obo/GO_1904425	negative regulation of GTP binding	http://purl.obolibrary.org/obo/GO_0005525	GTP binding
 http://purl.obolibrary.org/obo/GO_0043105	negative regulation of GTP cyclohydrolase I activity	http://purl.obolibrary.org/obo/GO_0003934	GTP cyclohydrolase I activity
 http://purl.obolibrary.org/obo/GO_0034260	negative regulation of GTPase activity	http://purl.obolibrary.org/obo/GO_0003924	GTPase activity
@@ -2004,8 +2005,6 @@ http://purl.obolibrary.org/obo/GO_0010639	negative regulation of organelle organ
 http://purl.obolibrary.org/obo/GO_0032891	negative regulation of organic acid transport	http://purl.obolibrary.org/obo/GO_0015849	organic acid transport
 http://purl.obolibrary.org/obo/GO_1903267	negative regulation of ornithine catabolic process	http://purl.obolibrary.org/obo/GO_0006593	ornithine catabolic process
 http://purl.obolibrary.org/obo/GO_1904296	negative regulation of osmolarity-sensing cation channel activity	http://purl.obolibrary.org/obo/GO_1990760	osmolarity-sensing monoatomic cation channel activity
-http://purl.obolibrary.org/obo/GO_0140532	negative regulation of osmosensory signaling MAPK cascade	http://purl.obolibrary.org/obo/GO_0000161	osmosensory signaling MAPK cascade
-http://purl.obolibrary.org/obo/GO_0120028	negative regulation of osmosensory signaling pathway	http://purl.obolibrary.org/obo/GO_0007231	osmosensory signaling pathway
 http://purl.obolibrary.org/obo/GO_0030279	negative regulation of ossification	http://purl.obolibrary.org/obo/GO_0001503	ossification
 http://purl.obolibrary.org/obo/GO_0045668	negative regulation of osteoblast differentiation	http://purl.obolibrary.org/obo/GO_0001649	osteoblast differentiation
 http://purl.obolibrary.org/obo/GO_0033689	negative regulation of osteoblast proliferation	http://purl.obolibrary.org/obo/GO_0033687	osteoblast proliferation
@@ -2042,7 +2041,6 @@ http://purl.obolibrary.org/obo/GO_0060407	negative regulation of penile erection
 http://purl.obolibrary.org/obo/GO_1900888	negative regulation of pentadecane biosynthetic process	http://purl.obolibrary.org/obo/GO_1900634	pentadecane biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900891	negative regulation of pentadecane metabolic process	http://purl.obolibrary.org/obo/GO_1900633	pentadecane metabolic process
 http://purl.obolibrary.org/obo/GO_1900361	negative regulation of pentasaccharide transport	http://purl.obolibrary.org/obo/GO_2001100	pentasaccharide transport
-http://purl.obolibrary.org/obo/GO_1900510	negative regulation of pentose catabolic process to ethanol	http://purl.obolibrary.org/obo/GO_0044576	pentose catabolic process to ethanol
 http://purl.obolibrary.org/obo/GO_1905856	negative regulation of pentose-phosphate shunt	http://purl.obolibrary.org/obo/GO_0006098	pentose-phosphate shunt
 http://purl.obolibrary.org/obo/GO_0010466	negative regulation of peptidase activity	http://purl.obolibrary.org/obo/GO_0008233	peptidase activity
 http://purl.obolibrary.org/obo/GO_1901040	negative regulation of peptide antigen transport	http://purl.obolibrary.org/obo/GO_0046968	peptide antigen transport
