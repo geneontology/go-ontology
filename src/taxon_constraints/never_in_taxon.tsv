@@ -51,8 +51,6 @@ GO:0005929	cilium	NCBITaxon:3398	Magnoliophyta
 GO:0005929	cilium	NCBITaxon:4890	Ascomycota	
 GO:0005929	cilium	NCBITaxon:5782	Dictyostelium	
 GO:0005933	cellular bud	NCBITaxon:4895	Schizosaccharomyces	
-GO:0006306	DNA methylation	NCBITaxon:4895	Schizosaccharomyces	
-GO:0006306	DNA methylation	NCBITaxon:4930	Saccharomyces	
 GO:0006398	mRNA 3'-end processing by stem-loop binding and cleavage	NCBITaxon:4890	Ascomycota	
 GO:0006691	leukotriene metabolic process	NCBITaxon:4751	Fungi	
 GO:0006909	phagocytosis	NCBITaxon:4751	Fungi	
@@ -519,10 +517,6 @@ GO:0071588	hydrogen peroxide mediated signaling pathway	NCBITaxon:4751	Fungi
 GO:0071818	BAT3 complex	NCBITaxon:4890 	Ascomycota	
 GO:0016922	nuclear receptor binding	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
 GO:0048309	endoplasmic reticulum inheritance	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0080111	DNA demethylation	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0080111	DNA demethylation	NCBITaxon:4932	Saccharomyces cerevisiae	
-GO:0006306	DNA methylation	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0006306	DNA methylation	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0140643	hydroxymethylglutaryl-CoA reductase (NADH) activity	NCBITaxon:2759	Eukaryota	
 GO:0044003	modulation by symbiont of host process	NCBITaxon:33090	Viridiplantae	
 GO:0044003	modulation by symbiont of host process	NCBITaxon:7742	Vertebrata <Metazoa>	
