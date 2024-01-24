@@ -67,7 +67,6 @@ GO:0005917	nephrocyte diaphragm	NCBITaxon:50557	Insecta
 GO:0005918	septate junction	NCBITaxon:6656	Arthropoda	
 GO:0005921	gap junction	NCBITaxon:6072	Eumetazoa	
 GO:0005929	cilium	NCBITaxon:2759	Eukaryota	
-GO:0005947	mitochondrial alpha-ketoglutarate dehydrogenase complex	NCBITaxon:2759	Eukaryota	
 GO:0006914	autophagy	NCBITaxon:2759	Eukaryota	
 GO:0006915	apoptotic process	NCBITaxon:33154	Opisthokonta	
 GO:0006954	inflammatory response	NCBITaxon:7742	Vertebrata <Metazoa>	
