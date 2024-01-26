@@ -74,7 +74,6 @@ http://purl.obolibrary.org/obo/GO_0000307	cyclin-dependent protein kinase holoen
 http://purl.obolibrary.org/obo/GO_0009319	cytochrome o ubiquinol oxidase complex	http://purl.obolibrary.org/obo/GO_0009486	cytochrome bo3 ubiquinol oxidase activity
 http://purl.obolibrary.org/obo/GO_0140368	decoy receptor complex	http://purl.obolibrary.org/obo/GO_0140319	receptor decoy activity
 http://purl.obolibrary.org/obo/GO_1904423	dehydrodolichyl diphosphate synthase complex	http://purl.obolibrary.org/obo/GO_0045547	dehydrodolichyl diphosphate synthase activity
-http://purl.obolibrary.org/obo/GO_0045240	dihydrolipoyl dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0004148	dihydrolipoyl dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_0140690	dihydropyrimidine dehydrogenase (NAD+) complex	http://purl.obolibrary.org/obo/GO_0004159	dihydropyrimidine dehydrogenase (NAD+) activity
 http://purl.obolibrary.org/obo/GO_0009390	dimethyl sulfoxide reductase complex	http://purl.obolibrary.org/obo/GO_0009389	dimethyl sulfoxide reductase activity
 http://purl.obolibrary.org/obo/GO_1990281	efflux pump complex	http://purl.obolibrary.org/obo/GO_0015562	efflux transmembrane transporter activity
@@ -111,7 +110,7 @@ http://purl.obolibrary.org/obo/GO_0005895	interleukin-5 receptor complex	http://
 http://purl.obolibrary.org/obo/GO_0005896	interleukin-6 receptor complex	http://purl.obolibrary.org/obo/GO_0004915	interleukin-6 receptor activity
 http://purl.obolibrary.org/obo/GO_1905540	interleukin-7 receptor complex	http://purl.obolibrary.org/obo/GO_0004917	interleukin-7 receptor activity
 http://purl.obolibrary.org/obo/GO_0005897	interleukin-9 receptor complex	http://purl.obolibrary.org/obo/GO_0004919	interleukin-9 receptor activity
-http://purl.obolibrary.org/obo/GO_0017071	intracellular cyclic nucleotide activated cation channel complex	http://purl.obolibrary.org/obo/GO_0005221	intracellular cyclic nucleotide-activated monoatomic cation channel activity
+http://purl.obolibrary.org/obo/GO_0017071	intracellular cyclic nucleotide activated cation channel complex	http://purl.obolibrary.org/obo/GO_0005221	intracellularly cyclic nucleotide-activated monoatomic cation channel activity
 http://purl.obolibrary.org/obo/GO_1990233	intramolecular phosphotransferase complex	http://purl.obolibrary.org/obo/GO_0016868	intramolecular phosphotransferase activity
 http://purl.obolibrary.org/obo/GO_1902937	inward rectifier potassium channel complex	http://purl.obolibrary.org/obo/GO_0005242	inward rectifier potassium channel activity
 http://purl.obolibrary.org/obo/GO_0008328	ionotropic glutamate receptor complex	http://purl.obolibrary.org/obo/GO_0004970	glutamate-gated receptor activity
@@ -131,6 +130,7 @@ http://purl.obolibrary.org/obo/GO_1905202	methylcrotonoyl-CoA carboxylase comple
 http://purl.obolibrary.org/obo/GO_0044680	methylthiol:coenzyme M methyltransferase complex	http://purl.obolibrary.org/obo/GO_0044683	methylthiol:coenzyme M methyltransferase activity
 http://purl.obolibrary.org/obo/GO_0034708	methyltransferase complex	http://purl.obolibrary.org/obo/GO_0008168	methyltransferase activity
 http://purl.obolibrary.org/obo/GO_0062157	mitochondrial ATP-gated potassium channel complex	http://purl.obolibrary.org/obo/GO_0062156	mitochondrial ATP-gated potassium channel activity
+http://purl.obolibrary.org/obo/GO_0160120	mitochondrial branched-chain alpha-keto acid dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0047101	branched-chain alpha-keto acid dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_0034702	monoatomic ion channel complex	http://purl.obolibrary.org/obo/GO_0005216	monoatomic ion channel activity
 http://purl.obolibrary.org/obo/GO_0017023	myosin phosphatase complex	http://purl.obolibrary.org/obo/GO_0017018	myosin phosphatase activity
 http://purl.obolibrary.org/obo/GO_0098878	neurotransmitter receptor complex	http://purl.obolibrary.org/obo/GO_0030594	neurotransmitter receptor activity
@@ -138,6 +138,7 @@ http://purl.obolibrary.org/obo/GO_0009325	nitrate reductase complex	http://purl.
 http://purl.obolibrary.org/obo/GO_1903958	nitric-oxide synthase complex	http://purl.obolibrary.org/obo/GO_0004517	nitric-oxide synthase activity
 http://purl.obolibrary.org/obo/GO_0005900	oncostatin-M receptor complex	http://purl.obolibrary.org/obo/GO_0004924	oncostatin-M receptor activity
 http://purl.obolibrary.org/obo/GO_1990204	oxidoreductase complex	http://purl.obolibrary.org/obo/GO_0016491	oxidoreductase activity
+http://purl.obolibrary.org/obo/GO_0045252	oxoglutarate dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0034602	oxoglutarate dehydrogenase (NAD+) activity
 http://purl.obolibrary.org/obo/GO_0002178	palmitoyltransferase complex	http://purl.obolibrary.org/obo/GO_0016409	palmitoyltransferase activity
 http://purl.obolibrary.org/obo/GO_1905368	peptidase complex	http://purl.obolibrary.org/obo/GO_0008233	peptidase activity
 http://purl.obolibrary.org/obo/GO_1904090	peptidase inhibitor complex	http://purl.obolibrary.org/obo/GO_0030414	peptidase inhibitor activity
