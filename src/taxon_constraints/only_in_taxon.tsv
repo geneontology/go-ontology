@@ -890,3 +890,6 @@ GO:0062200	RAM/MOR signaling pathway	NCBITaxon:4751	Fungi	PMID:23212898
 GO:0004164	diphthine synthase activity	NCBITaxon:2157	Archaea	PMID:24739148
 GO:0141133	diphthine methyl ester synthase activity	NCBITaxon:2759	Eukaryota	PMID:24739148
 GO:0000196	cell wall integrity MAPK cascade	NCBITaxon:Union_0000007	Viridiplantae or Bacteria or Euglenozoa	
+GO:0141152	glycerol-3-phosphate dehydrogenase (NAD+) activity	NCBITaxon:2759	Eukaryota	
+GO:0047952	glycerol-3-phosphate dehydrogenase [NAD(P)+]	NCBITaxon:2	Bacteria	PMID:28326
+GO:0141153	glycerol-3-phosphate dehydrogenase (NADP+) activity	NCBITaxon:2157	Archaea	PMID:15557260
