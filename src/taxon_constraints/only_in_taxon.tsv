@@ -391,6 +391,7 @@ GO:0045152	antisigma factor binding	NCBITaxon:2	Bacteria
 GO:0045170	spectrosome	NCBITaxon:6656	Arthropoda	
 GO:0045172	germline ring canal	NCBITaxon:6656	Arthropoda	
 GO:0045202	synapse	NCBITaxon:33208	Metazoa	
+GO:0045246	cytosolic tricarboxylic acid cycle enzyme complex	NCBITaxon:Union_0000004	Prokaryota	
 GO:0045247	cytosolic electron transfer flavoprotein complex	NCBITaxon:Union_0000004	Prokaryota	
 GO:0045249	cytosol pyruvate dehydrogenase (lipoamide) phosphatase complex	NCBITaxon:Union_0000004	Prokaryota	
 GO:0045258	plasma membrane succinate dehydrogenase complex (ubiquinone)	NCBITaxon:Union_0000004	Prokaryota	
@@ -889,3 +890,6 @@ GO:0062200	RAM/MOR signaling pathway	NCBITaxon:4751	Fungi	PMID:23212898
 GO:0004164	diphthine synthase activity	NCBITaxon:2157	Archaea	PMID:24739148
 GO:0141133	diphthine methyl ester synthase activity	NCBITaxon:2759	Eukaryota	PMID:24739148
 GO:0000196	cell wall integrity MAPK cascade	NCBITaxon:Union_0000007	Viridiplantae or Bacteria or Euglenozoa	
+GO:0141152	glycerol-3-phosphate dehydrogenase (NAD+) activity	NCBITaxon:2759	Eukaryota	
+GO:0047952	glycerol-3-phosphate dehydrogenase [NAD(P)+]	NCBITaxon:2	Bacteria	PMID:28326
+GO:0141153	glycerol-3-phosphate dehydrogenase (NADP+) activity	NCBITaxon:2157	Archaea	PMID:15557260
