@@ -391,6 +391,7 @@ GO:0045152	antisigma factor binding	NCBITaxon:2	Bacteria
 GO:0045170	spectrosome	NCBITaxon:6656	Arthropoda	
 GO:0045172	germline ring canal	NCBITaxon:6656	Arthropoda	
 GO:0045202	synapse	NCBITaxon:33208	Metazoa	
+GO:0045246	cytosolic tricarboxylic acid cycle enzyme complex	NCBITaxon:Union_0000004	Prokaryota	
 GO:0045247	cytosolic electron transfer flavoprotein complex	NCBITaxon:Union_0000004	Prokaryota	
 GO:0045249	cytosol pyruvate dehydrogenase (lipoamide) phosphatase complex	NCBITaxon:Union_0000004	Prokaryota	
 GO:0045258	plasma membrane succinate dehydrogenase complex (ubiquinone)	NCBITaxon:Union_0000004	Prokaryota	
