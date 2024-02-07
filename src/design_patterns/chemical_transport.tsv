@@ -11,11 +11,7 @@ http://purl.obolibrary.org/obo/GO_0015866	ADP transport	http://purl.obolibrary.o
 http://purl.obolibrary.org/obo/GO_0080121	AMP transport	http://purl.obolibrary.org/obo/CHEBI_456215	adenosine 5'-monophosphate(2-)
 http://purl.obolibrary.org/obo/GO_0015867	ATP transport	http://purl.obolibrary.org/obo/CHEBI_30616	ATP(4-)
 http://purl.obolibrary.org/obo/GO_0015740	C4-dicarboxylate transport	http://purl.obolibrary.org/obo/CHEBI_61336	C4-dicarboxylate
-http://purl.obolibrary.org/obo/GO_0042941	D-alanine transport	http://purl.obolibrary.org/obo/CHEBI_57416	D-alanine zwitterion
 http://purl.obolibrary.org/obo/GO_0042940	D-amino acid transport	http://purl.obolibrary.org/obo/CHEBI_59871	D-alpha-amino acid zwitterion
-http://purl.obolibrary.org/obo/GO_0070777	D-aspartate transport	http://purl.obolibrary.org/obo/CHEBI_29990	D-aspartate(1-)
-http://purl.obolibrary.org/obo/GO_0048473	D-methionine transport	http://purl.obolibrary.org/obo/CHEBI_57932	D-methionine zwitterion
-http://purl.obolibrary.org/obo/GO_0042942	D-serine transport	http://purl.obolibrary.org/obo/CHEBI_35247	D-serine zwitterion
 http://purl.obolibrary.org/obo/GO_0051027	DNA transport	http://purl.obolibrary.org/obo/CHEBI_16991	deoxyribonucleic acid
 http://purl.obolibrary.org/obo/GO_0015883	FAD transport	http://purl.obolibrary.org/obo/CHEBI_57692	FAD(3-)
 http://purl.obolibrary.org/obo/GO_0015808	L-alanine transport	http://purl.obolibrary.org/obo/CHEBI_57972	L-alanine zwitterion
@@ -327,7 +323,6 @@ http://purl.obolibrary.org/obo/GO_0015826	threonine transport	http://purl.obolib
 http://purl.obolibrary.org/obo/GO_0071717	thromboxane transport	http://purl.obolibrary.org/obo/CHEBI_62945	thromboxane anion
 http://purl.obolibrary.org/obo/GO_0035364	thymine transport	http://purl.obolibrary.org/obo/CHEBI_17821	thymine
 http://purl.obolibrary.org/obo/GO_0070327	thyroid hormone transport	http://purl.obolibrary.org/obo/GOCHE_60311	substance with thyroid hormone role
-http://purl.obolibrary.org/obo/GO_1901998	toxin transport	http://purl.obolibrary.org/obo/GOCHE_27026	substance with toxin role
 http://purl.obolibrary.org/obo/GO_0033572	transferrin transport	http://purl.obolibrary.org/obo/PR_000001887	melanotransferrin
 http://purl.obolibrary.org/obo/GO_0000041	transition metal ion transport	http://purl.obolibrary.org/obo/CHEBI_33515	transition element cation
 http://purl.obolibrary.org/obo/GO_0015771	trehalose transport	http://purl.obolibrary.org/obo/CHEBI_27082	trehalose

@@ -56,6 +56,7 @@ http://purl.obolibrary.org/obo/GO_0005950	anthranilate synthase complex	http://p
 http://purl.obolibrary.org/obo/GO_0009347	aspartate carbamoyltransferase complex	http://purl.obolibrary.org/obo/GO_0004070	aspartate carbamoyltransferase activity
 http://purl.obolibrary.org/obo/GO_1905379	beta-N-acetylhexosaminidase complex	http://purl.obolibrary.org/obo/GO_0004563	beta-N-acetylhexosaminidase activity
 http://purl.obolibrary.org/obo/GO_0009341	beta-galactosidase complex	http://purl.obolibrary.org/obo/GO_0004565	beta-galactosidase activity
+http://purl.obolibrary.org/obo/GO_0160157	branched-chain alpha-ketoacid dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0047101	branched-chain alpha-keto acid dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_1903439	calcitonin family receptor complex	http://purl.obolibrary.org/obo/GO_0097642	calcitonin family receptor activity
 http://purl.obolibrary.org/obo/GO_0034704	calcium channel complex	http://purl.obolibrary.org/obo/GO_0005262	calcium channel activity
 http://purl.obolibrary.org/obo/GO_0061993	calcium:proton antiporter complex	http://purl.obolibrary.org/obo/GO_0015369	calcium:proton antiporter activity
@@ -130,7 +131,6 @@ http://purl.obolibrary.org/obo/GO_1905202	methylcrotonoyl-CoA carboxylase comple
 http://purl.obolibrary.org/obo/GO_0044680	methylthiol:coenzyme M methyltransferase complex	http://purl.obolibrary.org/obo/GO_0044683	methylthiol:coenzyme M methyltransferase activity
 http://purl.obolibrary.org/obo/GO_0034708	methyltransferase complex	http://purl.obolibrary.org/obo/GO_0008168	methyltransferase activity
 http://purl.obolibrary.org/obo/GO_0062157	mitochondrial ATP-gated potassium channel complex	http://purl.obolibrary.org/obo/GO_0062156	mitochondrial ATP-gated potassium channel activity
-http://purl.obolibrary.org/obo/GO_0160120	mitochondrial branched-chain alpha-keto acid dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0047101	branched-chain alpha-keto acid dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_0034702	monoatomic ion channel complex	http://purl.obolibrary.org/obo/GO_0005216	monoatomic ion channel activity
 http://purl.obolibrary.org/obo/GO_0017023	myosin phosphatase complex	http://purl.obolibrary.org/obo/GO_0017018	myosin phosphatase activity
 http://purl.obolibrary.org/obo/GO_0098878	neurotransmitter receptor complex	http://purl.obolibrary.org/obo/GO_0030594	neurotransmitter receptor activity
@@ -192,6 +192,7 @@ http://purl.obolibrary.org/obo/GO_0005890	sodium:potassium-exchanging ATPase com
 http://purl.obolibrary.org/obo/GO_0045281	succinate dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0000104	succinate dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_0042709	succinate-CoA ligase complex	http://purl.obolibrary.org/obo/GO_0004774	succinate-CoA ligase activity
 http://purl.obolibrary.org/obo/GO_0009361	succinate-CoA ligase complex (ADP-forming)	http://purl.obolibrary.org/obo/GO_0004775	succinate-CoA ligase (ADP-forming) activity
+http://purl.obolibrary.org/obo/GO_0045244	succinate-CoA ligase complex (GDP-forming)	http://purl.obolibrary.org/obo/GO_0004776	succinate-CoA ligase (GDP-forming) activity
 http://purl.obolibrary.org/obo/GO_0044681	sulfopyruvate decarboxylase complex	http://purl.obolibrary.org/obo/GO_0050545	sulfopyruvate decarboxylase activity
 http://purl.obolibrary.org/obo/GO_1990228	sulfurtransferase complex	http://purl.obolibrary.org/obo/GO_0016783	sulfurtransferase activity
 http://purl.obolibrary.org/obo/GO_1902693	superoxide dismutase complex	http://purl.obolibrary.org/obo/GO_0004784	superoxide dismutase activity

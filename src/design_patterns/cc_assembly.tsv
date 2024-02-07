@@ -70,7 +70,7 @@ http://purl.obolibrary.org/obo/GO_1904837	beta-catenin-TCF complex assembly	http
 http://purl.obolibrary.org/obo/GO_0070830	bicellular tight junction assembly	http://purl.obolibrary.org/obo/GO_0005923	bicellular tight junction
 http://purl.obolibrary.org/obo/GO_0140528	bilobe structure assembly	http://purl.obolibrary.org/obo/GO_0120120	bilobe structure
 http://purl.obolibrary.org/obo/GO_0032060	bleb assembly	http://purl.obolibrary.org/obo/GO_0032059	bleb
-http://purl.obolibrary.org/obo/GO_0000492	box C/D snoRNP assembly	http://purl.obolibrary.org/obo/GO_0031428	box C/D RNP complex
+http://purl.obolibrary.org/obo/GO_0000492	box C/D snoRNP assembly	http://purl.obolibrary.org/obo/GO_0170049	box C/D RNP complex
 http://purl.obolibrary.org/obo/GO_0000493	box H/ACA snoRNP assembly	http://purl.obolibrary.org/obo/GO_0031429	box H/ACA snoRNP complex
 http://purl.obolibrary.org/obo/GO_1904970	brush border assembly	http://purl.obolibrary.org/obo/GO_0005903	brush border
 http://purl.obolibrary.org/obo/GO_0055003	cardiac myofibril assembly	http://purl.obolibrary.org/obo/GO_0097512	cardiac myofibril
