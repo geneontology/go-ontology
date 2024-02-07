@@ -206,7 +206,7 @@ http://purl.obolibrary.org/obo/GO_0009374	biotin binding	http://purl.obolibrary.
 http://purl.obolibrary.org/obo/GO_0031705	bombesin receptor binding	http://purl.obolibrary.org/obo/PR_000001122	bombesin receptor
 http://purl.obolibrary.org/obo/GO_0044730	bone sialoprotein binding	http://purl.obolibrary.org/obo/PR_000008878	bone sialoprotein 2
 http://purl.obolibrary.org/obo/GO_0046714	borate binding	http://purl.obolibrary.org/obo/CHEBI_33118	boric acid
-http://purl.obolibrary.org/obo/GO_0062064	box C/D snoRNP complex binding	http://purl.obolibrary.org/obo/GO_0031428	box C/D RNP complex
+http://purl.obolibrary.org/obo/GO_0062064	box C/D methylation guide snoRNP complex binding	http://purl.obolibrary.org/obo/GO_0031428	box C/D methylation guide snoRNP complex
 http://purl.obolibrary.org/obo/GO_0062065	box H/ACA snoRNP complex binding	http://purl.obolibrary.org/obo/GO_0031429	box H/ACA snoRNP complex
 http://purl.obolibrary.org/obo/GO_0031711	bradykinin receptor binding	http://purl.obolibrary.org/obo/PR_000001123	bradykinin receptor
 http://purl.obolibrary.org/obo/GO_0048403	brain-derived neurotrophic factor binding	http://purl.obolibrary.org/obo/PR_000004716	brain-derived neurotrophic factor
