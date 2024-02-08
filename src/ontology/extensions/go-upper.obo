@@ -259,4 +259,14 @@ id: SO:0001683
 name: sequence_motif
 is_a: SO:0000110
 
+[Term]
+id: FBbt:00007002
+is_a: GO:0005623 ! cell
 
+[Term]
+id: FBbt:10000000
+is_a: UBERON:0001062 ! anatomical entity
+
+[Term]
+id: FBdv:00007012
+is_a: UBERON:0000105 ! life cycle stage
