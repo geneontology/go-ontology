@@ -240,11 +240,11 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#has
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has exact synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> (has_exact_synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "has_exact_synonym")
 
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> (has narrow synonym)
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> (has_narrow_synonym)
 
 AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> "has_narrow_synonym")
 
@@ -1688,6 +1688,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0003001> <http://purl.obolibrary.org/obo/go#AE_cell_or_anatomical>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0003001> <http://purl.obolibrary.org/obo/go#display_for_curators>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0003001> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0004008> "BFO:0000015")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0004008> "CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0004008> <http://purl.obolibrary.org/obo/valid_for_go_annotation_extension>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0004008> <http://purl.obolibrary.org/obo/valid_for_go_ontology>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0004008> <http://purl.obolibrary.org/obo/valid_for_gocam>)
@@ -1695,6 +1697,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0004008> <http://purl.obolibrary.org/obo/go#AE_molecular_function>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0004008> <http://purl.obolibrary.org/obo/go#display_for_curators>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0004008> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0004009> "BFO:0000015")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0004009> "CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697 SO:0000839 SO:0001683 NCBITaxon:1")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0004009> <http://purl.obolibrary.org/obo/valid_for_go_annotation_extension>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0004009> <http://purl.obolibrary.org/obo/valid_for_go_ontology>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0004009> <http://purl.obolibrary.org/obo/valid_for_gocam>)
