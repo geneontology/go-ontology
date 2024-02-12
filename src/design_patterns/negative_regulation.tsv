@@ -523,6 +523,7 @@ http://purl.obolibrary.org/obo/GO_1900501	negative regulation of butyryl-CoA cat
 http://purl.obolibrary.org/obo/GO_0061942	negative regulation of c-di-GMP signaling	http://purl.obolibrary.org/obo/GO_0061939	c-di-GMP signaling
 http://purl.obolibrary.org/obo/GO_2000480	negative regulation of cAMP-dependent protein kinase activity	http://purl.obolibrary.org/obo/GO_0004691	cAMP-dependent protein kinase activity
 http://purl.obolibrary.org/obo/GO_0043951	negative regulation of cAMP-mediated signaling	http://purl.obolibrary.org/obo/GO_0019933	cAMP-mediated signaling
+http://purl.obolibrary.org/obo/GO_0141162	negative regulation of cAMP/PKA signal transduction	http://purl.obolibrary.org/obo/GO_0141156	cAMP/PKA signal transduction
 http://purl.obolibrary.org/obo/GO_0160049	negative regulation of cGAS/STING signaling pathway	http://purl.obolibrary.org/obo/GO_0140896	cGAS/STING signaling pathway
 http://purl.obolibrary.org/obo/GO_0010754	negative regulation of cGMP-mediated signaling	http://purl.obolibrary.org/obo/GO_0019934	cGMP-mediated signaling
 http://purl.obolibrary.org/obo/GO_0010956	negative regulation of calcidiol 1-monooxygenase activity	http://purl.obolibrary.org/obo/GO_0004498	calcidiol 1-monooxygenase activity

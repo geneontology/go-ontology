@@ -519,6 +519,7 @@ http://purl.obolibrary.org/obo/GO_1900502	positive regulation of butyryl-CoA cat
 http://purl.obolibrary.org/obo/GO_0061941	positive regulation of c-di-GMP signaling	http://purl.obolibrary.org/obo/GO_0061939	c-di-GMP signaling
 http://purl.obolibrary.org/obo/GO_2000481	positive regulation of cAMP-dependent protein kinase activity	http://purl.obolibrary.org/obo/GO_0004691	cAMP-dependent protein kinase activity
 http://purl.obolibrary.org/obo/GO_0043950	positive regulation of cAMP-mediated signaling	http://purl.obolibrary.org/obo/GO_0019933	cAMP-mediated signaling
+http://purl.obolibrary.org/obo/GO_0141163	positive regulation of cAMP/PKA signal transduction	http://purl.obolibrary.org/obo/GO_0141156	cAMP/PKA signal transduction
 http://purl.obolibrary.org/obo/GO_0141111	positive regulation of cGAS/STING signaling pathway	http://purl.obolibrary.org/obo/GO_0140896	cGAS/STING signaling pathway
 http://purl.obolibrary.org/obo/GO_0010753	positive regulation of cGMP-mediated signaling	http://purl.obolibrary.org/obo/GO_0019934	cGMP-mediated signaling
 http://purl.obolibrary.org/obo/GO_0060559	positive regulation of calcidiol 1-monooxygenase activity	http://purl.obolibrary.org/obo/GO_0004498	calcidiol 1-monooxygenase activity
