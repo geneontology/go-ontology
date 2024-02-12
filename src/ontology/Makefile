@@ -359,7 +359,12 @@ imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
 ../taxon_constraints/present_in_taxon.ofn: ../taxon_constraints/present_in_taxon.yaml ../taxon_constraints/present_in_taxon.tsv dosdp-tools-0.19.3
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/present_in_taxon.tsv --generate-defined-class=true --obo-prefixes=true --template=$< --outfile=$@
 
-imports/go_taxon_constraints.owl: ../taxon_constraints/only_in_taxon.ofn ../taxon_constraints/never_in_taxon.ofn
+../taxon_constraints/present_in_taxon_annotations.ofn: ../taxon_constraints/present_in_taxon_annotations.yaml ../taxon_constraints/present_in_taxon.tsv dosdp-tools-0.19.3
+	echo 'defined_class	defined_class_label	taxon	taxon_label	source' >../taxon_constraints/present_in_taxon_annotations.tsv &&\
+	tail -n +2 ../taxon_constraints/present_in_taxon.tsv >>../taxon_constraints/present_in_taxon_annotations.tsv &&\
+	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/present_in_taxon_annotations.tsv --obo-prefixes=true --template=$< --outfile=$@
+
+imports/go_taxon_constraints.owl: ../taxon_constraints/only_in_taxon.ofn ../taxon_constraints/never_in_taxon.ofn ../taxon_constraints/present_in_taxon_annotations.ofn
 	$(ROBOT) merge $(addprefix -i , $^) annotate -O $(BASE)/$@ -o $@
 
 imports/go-computed-taxon-constraints.owl: $(SRC) $(SPARQLDIR)/taxon-constraints-materialization.ru $(SPARQLDIR)/taxon-constraints-in-taxon-annotation.rq $(SPARQLDIR)/taxon-constraints-never-in-taxon-annotation.rq
