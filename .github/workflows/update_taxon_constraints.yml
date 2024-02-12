@@ -30,5 +30,6 @@ jobs:
           src/taxon_constraints/never_in_taxon.ofn
           src/taxon_constraints/only_in_taxon.ofn
           src/taxon_constraints/present_in_taxon.ofn
+          src/taxon_constraints/present_in_taxon_annotations.ofn
           src/ontology/imports/go_taxon_constraints.owl
         token: ${{ secrets.PR_ACTION_TOKEN }}
