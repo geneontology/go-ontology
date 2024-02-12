@@ -280,7 +280,7 @@ AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#sho
 # Object Property: <http://purl.obolibrary.org/obo/BFO_0000050> (part of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/BFO_0000050> "BFO:0000001")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/BFO_0000050> "CL:0000000 GO:0005575 GO:0008150 PO:0009012 PO:0025131 UBERON:0001062 ZFS:0100000 WBls:0000075 WBbt:0004017 WBbt:0005766 NCBITaxon:1")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/BFO_0000050> "CL:0000000 GO:0005575 GO:0008150 PO:0009012 PO:0025131 UBERON:0001062 ZFS:0100000 WBls:0000075 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000 FBdv:00007012 FBbt:00007002")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/BFO_0000050> "This relation has two uses in annotation extension.  It may be used to relate a cellular component to some cellular component, cell or anatomical structure that it is part of.  It may also be used to relate a molecular function or biological process to a biological process or developmental stage of which it is a part.  It may not be used to relate cellular components to functions, processes or stages, or to relate processes or functions to cellular components, cells or anatomical structures.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/BFO_0000050> "BFO:0000050")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PomBase:curators") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/RO_0008000>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/BFO_0000050> "part of")
@@ -297,7 +297,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.ob
 # Object Property: <http://purl.obolibrary.org/obo/BFO_0000066> (occurs in)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/BFO_0000066> "BFO:0000015")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/BFO_0000066> "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/BFO_0000066> "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000 FBbt:00007002")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/BFO_0000066> "Identifies the cell, tissue, cellular component or anatomical entity within which all parts of the molecular function or biological process occurs")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/BFO_0000066> "BFO:0000066")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/BFO_0000066> "go/extensions/gorel")
@@ -689,7 +689,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0000031
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0000032> (exists_during)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0000032> "BFO:0000004")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000032> "GO:0008150 WBls:0000075 ZFS:0100000")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0000032> "GO:0008150 WBls:0000075 ZFS:0100000 FBdv:00007012")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0000032> "Identifies a process or life stage during which a cellular component is present")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PomBase:curators") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/RO_0008000>) <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/GOREL_0000032> "during")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GOREL_0000032> "GOREL:0000032")
@@ -1007,7 +1007,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GOREL_0001016> "r
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_berkeley_2013") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0001019> "The relationship linking a entity and its participation in a process that results in the division of the entity into two entities of the same type.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0001019> "BFO:0000015")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0001019> "CL:0000000 WBbt:0004017")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0001019> "CL:0000000 WBbt:0004017 FBbt:00007002")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0001019> "The relationship linking a entity and its participation in a process that results in the division of the entity into two entities of the same type.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GOREL_0001019> "GOREL:0001019")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GOREL_0001019> "go/extensions/gorel")
@@ -1198,7 +1198,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002011> <http://purl.obo
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002092> (happens during)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002092> "BFO:0000015")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002092> "GO:0008150 WBls:0000075 ZFS:0100000 UBERON:0000105")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002092> "GO:0008150 WBls:0000075 ZFS:0100000 UBERON:0000105 FBdv:00007012")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002092> "Identifies a process or life stage during which a molecular function or biological process occurs. This is weaker than parthood. So, for example, various processes occur during gastrulation without being part of it.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PomBase:curators") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/RO_0008000>) <http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym> <http://purl.obolibrary.org/obo/RO_0002092> "during")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/RO_0002092> "occurs_during")
@@ -1281,7 +1281,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002220> <http://purl.obo
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go#display_for_curators> <http://purl.obolibrary.org/obo/RO_0002231> "")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002231> "BFO:0000015")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002231> "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002231> "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000 FBbt:00007002")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002231> "Use this relation to relate a biological process to its start location.   Examples include recording the cell-type in which a cell-cell signaling process starts and recording a cellular compartment (such as post-synapse, presynapse or cilium) in which a signal transduction process starts.  Note, if the entire process occurs in a particular location, use 'occurs in' instead.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002231> <http://purl.obolibrary.org/obo/go#AE_cell_or_anatomical>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002231> <http://purl.obolibrary.org/obo/go#AE_cellular_component>)
@@ -1343,7 +1343,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obo
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002296> (results in development of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002296> "BFO:0000015")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002296> "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002296> "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002296> "The relationship linking an entity and its participation in a process that changes it through time from the formation of the entity to the resultant mature state.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/RO_0002296> "GOREL:0001009")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002296> "RO:0002296")
@@ -1359,7 +1359,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002296> <http://purl.obo
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mtg_berkeley_2013") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002297> "The relationship linking a entity and its participation in a process whereby at the beginning of the process the entity does not exist and at the end of the process the entity exists.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002297> "GO:0008150")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002297> "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002297> "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002297> "The relationship linking a entity and its participation in a process whereby at the beginning of the process the entity does not exist and at the end of the process the entity exists.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/RO_0002297> "GOREL:0001020")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002297> "RO:0002297")
@@ -1374,7 +1374,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002297> <http://purl.obo
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002298> (results in morphogenesis of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002298> "BFO:0000015")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002298> "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002298> "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002298> "The relationship that links an entity with the process that results in the formation and shaping of that entity over time from an immature to a mature state.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/RO_0002298> "GOREL:0001015")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002298> "RO:0002298")
@@ -1389,7 +1389,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002298> <http://purl.obo
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002299> (results in maturation of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002299> "BFO:0000015")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002299> "CL:0000000 GO:0005575 PO:0009012 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002299> "CL:0000000 GO:0005575 PO:0009012 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002299> "The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in it's shape and results in an end point state of that entity.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/RO_0002299> "GOREL:0001013")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002299> "RO:0002299")
@@ -1421,7 +1421,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002313> <http://purl.obo
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002315> (results in acquisition of features of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002315> "GO:0030154")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002315> "CL:0000000 PO:0009002 WBbt:0004017")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002315> "CL:0000000 PO:0009002 WBbt:0004017 FBbt:00007002")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002315> "Use this relation to link a cell differentiation process to the cell type that the process results in the differentiation of.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/RO_0002315> "GOREL:0001014")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002315> "RO:0002315")
@@ -1496,7 +1496,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002345> <http://purl.obo
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002348> (results in commitment to)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002348> "BFO:0000015")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002348> "CL:0000000 WBbt:0004017")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002348> "CL:0000000 WBbt:0004017 FBbt:00007002")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002348> "The relationship linking a cell and its participation in a process that results in the transition of a cell such that is can only develop into a single cell type.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/RO_0002348> "GOREL:0001017")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002348> "RO:0002348")
@@ -1512,7 +1512,7 @@ ObjectPropertyRange(<http://purl.obolibrary.org/obo/RO_0002348> <http://purl.obo
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002349> (results in determination of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002349> "BFO:0000015")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002349> "CL:0000000 WBbt:0004017")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002349> "CL:0000000 WBbt:0004017 FBbt:00007002")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002349> "The relationship linking a cell and its participation in a process that results in the transition of a cell such that it can only develop into a single cell type independent of its environment.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/RO_0002349> "GOREL:0001018")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002349> "RO:0002349")
@@ -1527,7 +1527,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002349> <http://purl.obo
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002356> (results in specification of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002356> "GO:0008150")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002356> "CL:0000000 WBbt:0004017")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002356> "CL:0000000 WBbt:0004017 FBbt:00007002")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002356> "The relationship linking a cell and its participation in a process that results in the transition of a cell such that is can only develop into a single cell type when left in its environment.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/RO_0002356> "GOREL:0001021")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002356> "RO:0002356")
@@ -1572,7 +1572,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002454> <http://purl.obo
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002490> (existence overlaps)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002490> "BFO:0000004")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002490> "GO:0008150 WBls:0000075 ZFS:0100000")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002490> "GO:0008150 WBls:0000075 ZFS:0100000 FBdv:00007012")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002490> "Identifies a process or life stage during which a cellular component is present")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002490> "RO:0002490")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obolibrary.org/obo/go#AE_biological_process>)
@@ -1584,7 +1584,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002490> <http://purl.obo
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002491> (existence starts and ends during)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002491> "BFO:0000004")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002491> "GO:0008150 WBls:0000075 ZFS:0100000")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002491> "GO:0008150 WBls:0000075 ZFS:0100000 FBdv:00007012")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002491> "Identifies a process or life stage during which a cellular component is present")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002491> "RO:0002491")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002491> <http://purl.obolibrary.org/obo/go#AE_biological_process>)
@@ -1606,7 +1606,7 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002557> <http://purl.obo
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002565> (results in movement of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002565> "GO:0008150")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002565> "CL:0000000 WBbt:0004017")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002565> "CL:0000000 WBbt:0004017 FBbt:00007002")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002565> "Use this relation to link a locomotion process to the type of cell or anatomical structure or organism that the process results in locomotion of.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://purl.obolibrary.org/obo/RO_0002565> "GOREL:0001001")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/RO_0002565> "RO:0002565")
