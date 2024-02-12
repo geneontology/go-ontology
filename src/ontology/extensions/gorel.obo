@@ -845,7 +845,7 @@ subset: valid_for_annotation_extension
 xref: RO:0002490
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: local_domain BFO:0000004 xsd:string
-property_value: local_range "GO:0008150 WBls:0000075 ZFS:0100000" xsd:string
+property_value: local_range "GO:0008150 WBls:0000075 ZFS:0100000 FBdv:00007012" xsd:string
 property_value: usage "Identifies a process or life stage during which a cellular component is present" xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: relation_between_physical_entity_and_a_process_or_stage ! relation between physical entity and a process or stage
@@ -863,7 +863,7 @@ synonym: "exists during" EXACT []
 xref: RO:0002491
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: local_domain BFO:0000004 xsd:string
-property_value: local_range "GO:0008150 WBls:0000075 ZFS:0100000" xsd:string
+property_value: local_range "GO:0008150 WBls:0000075 ZFS:0100000 FBdv:00007012" xsd:string
 property_value: usage "Identifies a process or life stage during which a cellular component is present" xsd:string
 is_a: existence_ends_during ! existence ends during
 is_a: existence_starts_during ! existence starts during
@@ -903,7 +903,7 @@ subset: valid_for_annotation_extension
 synonym: "during" BROAD RO:0008000 [PomBase:curators]
 xref: GOREL:0000032
 property_value: local_domain BFO:0000004 xsd:string
-property_value: local_range "GO:0008150 WBls:0000075 ZFS:0100000" xsd:string
+property_value: local_range "GO:0008150 WBls:0000075 ZFS:0100000 FBdv:00007012" xsd:string
 property_value: usage "Identifies a process or life stage during which a cellular component is present" xsd:string
 domain: BFO:0000004
 range: BFO:0000015
@@ -1006,7 +1006,7 @@ property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
 property_value: IAO:0000118 "d" xsd:string
 property_value: IAO:0000118 "during" xsd:string
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "GO:0008150 WBls:0000075 ZFS:0100000 UBERON:0000105" xsd:string
+property_value: local_range "GO:0008150 WBls:0000075 ZFS:0100000 UBERON:0000105 FBdv:00007012" xsd:string
 property_value: seeAlso https://wiki.geneontology.org/Happens_during xsd:anyURI
 property_value: usage "Identifies a process or life stage during which a molecular function or biological process occurs. This is weaker than parthood. So, for example, various processes occur during gastrulation without being part of it." xsd:string
 is_transitive: true
@@ -1450,7 +1450,7 @@ property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "starts with process that occurs in" xsd:string
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1" xsd:string
+property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000 FBbt:00007002" xsd:string
 property_value: usage "Use this relation to relate a biological process to its start location.   Examples include recording the cell-type in which a cell-cell signaling process starts and recording a cellular compartment (such as post-synapse, presynapse or cilium) in which a signal transduction process starts.  Note, if the entire process occurs in a particular location, use 'occurs in' instead." xsd:string
 domain: BFO:0000015
 range: BFO:0000004
@@ -2149,7 +2149,7 @@ property_value: IAO:0000118 "unfolds in" xsd:string
 property_value: IAO:0000118 "unfolds_in" xsd:string
 property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000" xsd:string
+property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000 FBbt:00007002" xsd:string
 property_value: seeAlso https://wiki.geneontology.org/Occurs_in xsd:anyURI
 property_value: usage "Identifies the cell, tissue, cellular component or anatomical entity within which all parts of the molecular function or biological process occurs" xsd:string
 domain: BFO:0000003
@@ -2243,7 +2243,7 @@ property_value: IAO:0000116 "Occurrents are not subject to change and so parthoo
 property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)\n\nA continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'." xsd:string
 property_value: IAO:0000118 "part_of" xsd:string
 property_value: local_domain BFO:0000001 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 GO:0008150 PO:0009012 PO:0025131 UBERON:0001062 ZFS:0100000 WBls:0000075 WBbt:0004017 WBbt:0005766 NCBITaxon:1" xsd:string
+property_value: local_range "CL:0000000 GO:0005575 GO:0008150 PO:0009012 PO:0025131 UBERON:0001062 ZFS:0100000 WBls:0000075 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000 FBdv:00007012 FBbt:00007002" xsd:string
 property_value: RO:0001900 RO:0001901
 property_value: RO:0040042 BFO:0000002
 property_value: RO:0040042 BFO:0000003
@@ -2888,7 +2888,7 @@ property_value: IAO:0000112 "an annotation of gene X to cell differentiation wit
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
 property_value: local_domain GO:0030154 xsd:string
-property_value: local_range "CL:0000000 PO:0009002 WBbt:0004017" xsd:string
+property_value: local_range "CL:0000000 PO:0009002 WBbt:0004017 FBbt:00007002" xsd:string
 property_value: usage "Use this relation to link a cell differentiation process to the cell type that the process results in the differentiation of." xsd:string
 range: UBERON:0000061
 is_a: go_annotation_extension_relation ! go annotation extension relation
@@ -2921,7 +2921,7 @@ xref: RO:0002348
 property_value: IAO:0000112 "an annotation of gene X to cell commitment with results_in_commitment_to CL:0000540 (neuron) means that at the end of the process an unspecified cell has been specified and determined to develop into a neuron." xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
+property_value: local_range "CL:0000000 WBbt:0004017 FBbt:00007002" xsd:string
 property_value: usage "The relationship linking a cell and its participation in a process that results in the transition of a cell such that is can only develop into a single cell type." xsd:string
 range: CL:0000000
 is_a: go_annotation_extension_relation ! go annotation extension relation
@@ -2943,7 +2943,7 @@ subset: valid_for_annotation_extension
 xref: RO:0002349
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
+property_value: local_range "CL:0000000 WBbt:0004017 FBbt:00007002" xsd:string
 property_value: usage "The relationship linking a cell and its participation in a process that results in the transition of a cell such that it can only develop into a single cell type independent of its environment." xsd:string
 range: CL:0000000
 is_a: go_annotation_extension_relation ! go annotation extension relation
@@ -2969,7 +2969,7 @@ property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://www.geneontology.org/GO.doc.development.shtml xsd:anyURI
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
+property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000" xsd:string
 property_value: usage "The relationship linking an entity and its participation in a process that changes it through time from the formation of the entity to the resultant mature state." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
@@ -2999,7 +2999,7 @@ subset: display_for_curators
 subset: valid_for_annotation_extension
 xref: GOREL:0001019
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
+property_value: local_range "CL:0000000 WBbt:0004017 FBbt:00007002" xsd:string
 property_value: usage "The relationship linking a entity and its participation in a process that results in the division of the entity into two entities of the same type." xsd:string
 domain: BFO:0000015
 range: CL:0000000
@@ -3026,7 +3026,7 @@ property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
 property_value: local_domain GO:0008150 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
+property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000" xsd:string
 property_value: usage "The relationship linking a entity and its participation in a process whereby at the beginning of the process the entity does not exist and at the end of the process the entity exists." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: has_output ! has output
@@ -3055,7 +3055,7 @@ property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0009012 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
+property_value: local_range "CL:0000000 GO:0005575 PO:0009012 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000" xsd:string
 property_value: usage "The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in it's shape and results in an end point state of that entity." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
@@ -3082,7 +3082,7 @@ property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766" xsd:string
+property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000" xsd:string
 property_value: usage "The relationship that links an entity with the process that results in the formation and shaping of that entity over time from an immature to a mature state." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
@@ -3105,7 +3105,7 @@ xref: RO:0002565
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "" xsd:string
 property_value: local_domain GO:0008150 xsd:string
-property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
+property_value: local_range "CL:0000000 WBbt:0004017 FBbt:00007002" xsd:string
 property_value: usage "Use this relation to link a locomotion process to the type of cell or anatomical structure or organism that the process results in locomotion of." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
@@ -3127,7 +3127,7 @@ subset: valid_for_annotation_extension
 xref: RO:0002356
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: local_domain GO:0008150 xsd:string
-property_value: local_range "CL:0000000 WBbt:0004017" xsd:string
+property_value: local_range "CL:0000000 WBbt:0004017 FBbt:00007002" xsd:string
 property_value: usage "The relationship linking a cell and its participation in a process that results in the transition of a cell such that is can only develop into a single cell type when left in its environment." xsd:string
 domain: GO:0008150
 range: CL:0000000
