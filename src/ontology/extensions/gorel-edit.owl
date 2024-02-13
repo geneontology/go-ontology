@@ -1124,8 +1124,6 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/GOREL_0098788
 # Object Property: <http://purl.obolibrary.org/obo/GOREL_0098789> (obsolete regulates expression of)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GOREL_0098789> "OBSOLETE. A relationship that holds between a process and a gene whose expression is regulated by that process.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/GOREL_0098789> "BFO:0000015")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/GOREL_0098789> "PR:000000001 SO:0000673 SO:0000704")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dos") <http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/GOREL_0098789> "Relates a regulatory process or function to the gene whose expression it regulates.  Expression encompasses transcription, regulation and processing involved in maturation.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#shorthand> <http://purl.obolibrary.org/obo/GOREL_0098789> "regulates_expression_of")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/GOREL_0098789> "Usage of this relation has been deprecated in favor of 'has direct input'.")
