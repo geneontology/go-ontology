@@ -1165,13 +1165,9 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002008> <http://purl.obo
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002011> (regulates transport of)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_domain> <http://purl.obolibrary.org/obo/RO_0002011> "BFO:0000015")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#local_range> <http://purl.obolibrary.org/obo/RO_0002011> "CHEBI:24431 PR:000000001 GO:0005575 SO:0000673 CHEBI:33697")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/go/extensions/go_annotation_extension_relations#usage> <http://purl.obolibrary.org/obo/RO_0002011> "Use this relation to link a process that regulates transport to the the entity being transported.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002011> <http://purl.obolibrary.org/obo/go#AE_chemical>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002011> <http://purl.obolibrary.org/obo/go#display_for_curators>)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/RO_0002011> <http://purl.obolibrary.org/obo/go#valid_for_annotation_extension>)
-SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002011> <http://purl.obolibrary.org/obo/GOREL_0000000>)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002011> <http://purl.obolibrary.org/obo/RO_0002578>)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0002092> (happens during)
 
