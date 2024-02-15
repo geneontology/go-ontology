@@ -217,7 +217,6 @@ GO:0014023	neural rod formation	NCBITaxon:32443	Teleostei
 GO:0015627	type II protein secretion system complex	NCBITaxon:2	Bacteria	
 GO:0015628	protein secretion by the type II secretion system	NCBITaxon:2	Bacteria	
 GO:0016028	rhabdomere	NCBITaxon:50557	Insecta	PMID:28193819
-GO:0198738	cell-cell signaling by wnt	NCBITaxon:33208	Metazoa	
 GO:0016281	eukaryotic translation initiation factor 4F complex	NCBITaxon:2759	Eukaryota	
 GO:0016282	eukaryotic 43S preinitiation complex	NCBITaxon:2759	Eukaryota	
 GO:0016348	imaginal disc-derived leg joint morphogenesis	NCBITaxon:33392	Holometabola	
