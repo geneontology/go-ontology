@@ -1432,7 +1432,6 @@ http://purl.obolibrary.org/obo/GO_0045796	negative regulation of intestinal chol
 http://purl.obolibrary.org/obo/GO_1905299	negative regulation of intestinal epithelial cell development	http://purl.obolibrary.org/obo/GO_0060576	intestinal epithelial cell development
 http://purl.obolibrary.org/obo/GO_1904730	negative regulation of intestinal lipid absorption	http://purl.obolibrary.org/obo/GO_0098856	intestinal lipid absorption
 http://purl.obolibrary.org/obo/GO_0010949	negative regulation of intestinal phytosterol absorption	http://purl.obolibrary.org/obo/GO_0060752	intestinal phytosterol absorption
-http://purl.obolibrary.org/obo/GO_1902939	negative regulation of intracellular calcium activated chloride channel activity	http://purl.obolibrary.org/obo/GO_0005229	intracellular calcium activated chloride channel activity
 http://purl.obolibrary.org/obo/GO_0032384	negative regulation of intracellular cholesterol transport	http://purl.obolibrary.org/obo/GO_0032367	intracellular cholesterol transport
 http://purl.obolibrary.org/obo/GO_0033147	negative regulation of intracellular estrogen receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0030520	intracellular estrogen receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0032378	negative regulation of intracellular lipid transport	http://purl.obolibrary.org/obo/GO_0032365	intracellular lipid transport
@@ -2339,8 +2338,8 @@ http://purl.obolibrary.org/obo/GO_1903910	negative regulation of receptor cluste
 http://purl.obolibrary.org/obo/GO_0002091	negative regulation of receptor internalization	http://purl.obolibrary.org/obo/GO_0031623	receptor internalization
 http://purl.obolibrary.org/obo/GO_1902684	negative regulation of receptor localization to synapse	http://purl.obolibrary.org/obo/GO_0097120	receptor localization to synapse
 http://purl.obolibrary.org/obo/GO_0001920	negative regulation of receptor recycling	http://purl.obolibrary.org/obo/GO_0001881	receptor recycling
-http://purl.obolibrary.org/obo/GO_0046426	negative regulation of receptor signaling pathway via JAK-STAT	http://purl.obolibrary.org/obo/GO_0007259	receptor signaling pathway via JAK-STAT
-http://purl.obolibrary.org/obo/GO_1904893	negative regulation of receptor signaling pathway via STAT	http://purl.obolibrary.org/obo/GO_0097696	receptor signaling pathway via STAT
+http://purl.obolibrary.org/obo/GO_0046426	negative regulation of receptor signaling pathway via JAK-STAT	http://purl.obolibrary.org/obo/GO_0007259	cell surface receptor signaling pathway via JAK-STAT
+http://purl.obolibrary.org/obo/GO_1904893	negative regulation of receptor signaling pathway via STAT	http://purl.obolibrary.org/obo/GO_0097696	cell surface receptor signaling pathway via STAT
 http://purl.obolibrary.org/obo/GO_0048261	negative regulation of receptor-mediated endocytosis	http://purl.obolibrary.org/obo/GO_0006898	receptor-mediated endocytosis
 http://purl.obolibrary.org/obo/GO_1905601	negative regulation of receptor-mediated endocytosis involved in cholesterol transport	http://purl.obolibrary.org/obo/GO_0090118	receptor-mediated endocytosis involved in cholesterol transport
 http://purl.obolibrary.org/obo/GO_1902735	negative regulation of receptor-mediated virion attachment to host cell	http://purl.obolibrary.org/obo/GO_0046813	receptor-mediated virion attachment to host cell

@@ -259,7 +259,7 @@ http://purl.obolibrary.org/obo/GO_0000770	peptide pheromone export	http://purl.o
 http://purl.obolibrary.org/obo/GO_0015833	peptide transport	http://purl.obolibrary.org/obo/CHEBI_16670	peptide
 http://purl.obolibrary.org/obo/GO_0015835	peptidoglycan transport	http://purl.obolibrary.org/obo/CHEBI_8005	peptidoglycan
 http://purl.obolibrary.org/obo/GO_0015823	phenylalanine transport	http://purl.obolibrary.org/obo/CHEBI_32504	phenylalaninate
-http://purl.obolibrary.org/obo/GO_0006817	phosphate ion transport	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion
+http://purl.obolibrary.org/obo/GO_0006817	phosphate ion transport	http://purl.obolibrary.org/obo/CHEBI_43474	hydrogenphosphate
 http://purl.obolibrary.org/obo/GO_0015714	phosphoenolpyruvate transport	http://purl.obolibrary.org/obo/CHEBI_58702	phosphonatoenolpyruvate
 http://purl.obolibrary.org/obo/GO_0015914	phospholipid transport	http://purl.obolibrary.org/obo/CHEBI_16247	phospholipid
 http://purl.obolibrary.org/obo/GO_0071993	phytochelatin transport	http://purl.obolibrary.org/obo/CHEBI_131728	[Glu(-Cys)]n-Gly(1-)
