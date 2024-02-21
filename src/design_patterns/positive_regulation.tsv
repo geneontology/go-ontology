@@ -14,6 +14,7 @@ http://purl.obolibrary.org/obo/GO_1900961	positive regulation of 17-methylnonade
 http://purl.obolibrary.org/obo/GO_1900952	positive regulation of 18-methylnonadec-1-ene biosynthetic process	http://purl.obolibrary.org/obo/GO_1900881	18-methylnonadec-1-ene biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900955	positive regulation of 18-methylnonadec-1-ene metabolic process	http://purl.obolibrary.org/obo/GO_1900880	18-methylnonadec-1-ene metabolic process
 http://purl.obolibrary.org/obo/GO_1905870	positive regulation of 3'-UTR-mediated mRNA stabilization	http://purl.obolibrary.org/obo/GO_0070935	3'-UTR-mediated mRNA stabilization
+http://purl.obolibrary.org/obo/GO_0141170	positive regulation of 5-methylcytosine DNA demethylation, direct 5-methylcytosine excision pathway	http://purl.obolibrary.org/obo/GO_0141169	epigenetic 5-methylcytosine DNA demethylation, direct 5-methylcytosine excision pathway
 http://purl.obolibrary.org/obo/GO_0140973	positive regulation of AIM2 inflammasome complex assembly	http://purl.obolibrary.org/obo/GO_0140970	AIM2 inflammasome complex assembly
 http://purl.obolibrary.org/obo/GO_1904719	positive regulation of AMPA glutamate receptor clustering	http://purl.obolibrary.org/obo/GO_0097113	AMPA glutamate receptor clustering
 http://purl.obolibrary.org/obo/GO_2000969	positive regulation of AMPA receptor activity	http://purl.obolibrary.org/obo/GO_0004971	AMPA glutamate receptor activity
@@ -1409,7 +1410,6 @@ http://purl.obolibrary.org/obo/GO_0045797	positive regulation of intestinal chol
 http://purl.obolibrary.org/obo/GO_1905300	positive regulation of intestinal epithelial cell development	http://purl.obolibrary.org/obo/GO_0060576	intestinal epithelial cell development
 http://purl.obolibrary.org/obo/GO_0060731	positive regulation of intestinal epithelial structure maintenance	http://purl.obolibrary.org/obo/GO_0060729	intestinal epithelial structure maintenance
 http://purl.obolibrary.org/obo/GO_1904731	positive regulation of intestinal lipid absorption	http://purl.obolibrary.org/obo/GO_0098856	intestinal lipid absorption
-http://purl.obolibrary.org/obo/GO_1902940	positive regulation of intracellular calcium activated chloride channel activity	http://purl.obolibrary.org/obo/GO_0005229	intracellular calcium activated chloride channel activity
 http://purl.obolibrary.org/obo/GO_0032385	positive regulation of intracellular cholesterol transport	http://purl.obolibrary.org/obo/GO_0032367	intracellular cholesterol transport
 http://purl.obolibrary.org/obo/GO_0033148	positive regulation of intracellular estrogen receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0030520	intracellular estrogen receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0032379	positive regulation of intracellular lipid transport	http://purl.obolibrary.org/obo/GO_0032365	intracellular lipid transport
@@ -2317,8 +2317,8 @@ http://purl.obolibrary.org/obo/GO_1903911	positive regulation of receptor cluste
 http://purl.obolibrary.org/obo/GO_0002092	positive regulation of receptor internalization	http://purl.obolibrary.org/obo/GO_0031623	receptor internalization
 http://purl.obolibrary.org/obo/GO_1902685	positive regulation of receptor localization to synapse	http://purl.obolibrary.org/obo/GO_0097120	receptor localization to synapse
 http://purl.obolibrary.org/obo/GO_0001921	positive regulation of receptor recycling	http://purl.obolibrary.org/obo/GO_0001881	receptor recycling
-http://purl.obolibrary.org/obo/GO_0046427	positive regulation of receptor signaling pathway via JAK-STAT	http://purl.obolibrary.org/obo/GO_0007259	receptor signaling pathway via JAK-STAT
-http://purl.obolibrary.org/obo/GO_1904894	positive regulation of receptor signaling pathway via STAT	http://purl.obolibrary.org/obo/GO_0097696	receptor signaling pathway via STAT
+http://purl.obolibrary.org/obo/GO_0046427	positive regulation of receptor signaling pathway via JAK-STAT	http://purl.obolibrary.org/obo/GO_0007259	cell surface receptor signaling pathway via JAK-STAT
+http://purl.obolibrary.org/obo/GO_1904894	positive regulation of receptor signaling pathway via STAT	http://purl.obolibrary.org/obo/GO_0097696	cell surface receptor signaling pathway via STAT
 http://purl.obolibrary.org/obo/GO_0048260	positive regulation of receptor-mediated endocytosis	http://purl.obolibrary.org/obo/GO_0006898	receptor-mediated endocytosis
 http://purl.obolibrary.org/obo/GO_1905602	positive regulation of receptor-mediated endocytosis involved in cholesterol transport	http://purl.obolibrary.org/obo/GO_0090118	receptor-mediated endocytosis involved in cholesterol transport
 http://purl.obolibrary.org/obo/GO_1902736	positive regulation of receptor-mediated virion attachment to host cell	http://purl.obolibrary.org/obo/GO_0046813	receptor-mediated virion attachment to host cell

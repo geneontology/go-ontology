@@ -570,7 +570,7 @@ http://purl.obolibrary.org/obo/GO_0017046	peptide hormone binding	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0042834	peptidoglycan binding	http://purl.obolibrary.org/obo/CHEBI_8005	peptidoglycan
 http://purl.obolibrary.org/obo/GO_0008145	phenylalkylamine binding	http://purl.obolibrary.org/obo/CHEBI_60977	phenylalkylamine
 http://purl.obolibrary.org/obo/GO_0005550	pheromone binding	http://purl.obolibrary.org/obo/GOCHE_26013	substance with pheromone role
-http://purl.obolibrary.org/obo/GO_0042301	phosphate ion binding	http://purl.obolibrary.org/obo/CHEBI_35780	phosphate ion
+http://purl.obolibrary.org/obo/GO_0042301	phosphate ion binding	http://purl.obolibrary.org/obo/CHEBI_43474	hydrogenphosphate
 http://purl.obolibrary.org/obo/GO_0070300	phosphatidic acid binding	http://purl.obolibrary.org/obo/CHEBI_57739	phosphatidate(2-)
 http://purl.obolibrary.org/obo/GO_0031210	phosphatidylcholine binding	http://purl.obolibrary.org/obo/CHEBI_64482	phosphatidylcholine
 http://purl.obolibrary.org/obo/GO_0008429	phosphatidylethanolamine binding	http://purl.obolibrary.org/obo/CHEBI_57613	phosphatidylethanolamine zwitterion

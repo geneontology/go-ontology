@@ -174,7 +174,6 @@ http://purl.obolibrary.org/obo/GO_1900929	regulation of L-tyrosine import across
 http://purl.obolibrary.org/obo/GO_0140122	regulation of Lewy body formation	http://purl.obolibrary.org/obo/GO_0140121	Lewy body formation
 http://purl.obolibrary.org/obo/GO_0043405	regulation of MAP kinase activity	http://purl.obolibrary.org/obo/GO_0004707	MAP kinase activity
 http://purl.obolibrary.org/obo/GO_0043408	regulation of MAPK cascade	http://purl.obolibrary.org/obo/GO_0000165	MAPK cascade
-http://purl.obolibrary.org/obo/GO_0071701	regulation of MAPK export from nucleus	http://purl.obolibrary.org/obo/GO_0045204	MAPK export from nucleus
 http://purl.obolibrary.org/obo/GO_0039533	regulation of MDA-5 signaling pathway	http://purl.obolibrary.org/obo/GO_0039530	MDA-5 signaling pathway
 http://purl.obolibrary.org/obo/GO_0045343	regulation of MHC class I biosynthetic process	http://purl.obolibrary.org/obo/GO_0045341	MHC class I biosynthetic process
 http://purl.obolibrary.org/obo/GO_0045346	regulation of MHC class II biosynthetic process	http://purl.obolibrary.org/obo/GO_0045342	MHC class II biosynthetic process
@@ -1597,7 +1596,6 @@ http://purl.obolibrary.org/obo/GO_0030300	regulation of intestinal cholesterol a
 http://purl.obolibrary.org/obo/GO_1905298	regulation of intestinal epithelial cell development	http://purl.obolibrary.org/obo/GO_0060576	intestinal epithelial cell development
 http://purl.obolibrary.org/obo/GO_0060730	regulation of intestinal epithelial structure maintenance	http://purl.obolibrary.org/obo/GO_0060729	intestinal epithelial structure maintenance
 http://purl.obolibrary.org/obo/GO_1904729	regulation of intestinal lipid absorption	http://purl.obolibrary.org/obo/GO_0098856	intestinal lipid absorption
-http://purl.obolibrary.org/obo/GO_1902938	regulation of intracellular calcium activated chloride channel activity	http://purl.obolibrary.org/obo/GO_0005229	intracellular calcium activated chloride channel activity
 http://purl.obolibrary.org/obo/GO_0032383	regulation of intracellular cholesterol transport	http://purl.obolibrary.org/obo/GO_0032367	intracellular cholesterol transport
 http://purl.obolibrary.org/obo/GO_0033146	regulation of intracellular estrogen receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0030520	intracellular estrogen receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0032377	regulation of intracellular lipid transport	http://purl.obolibrary.org/obo/GO_0032365	intracellular lipid transport
@@ -2633,8 +2631,8 @@ http://purl.obolibrary.org/obo/GO_1903909	regulation of receptor clustering	http
 http://purl.obolibrary.org/obo/GO_0002090	regulation of receptor internalization	http://purl.obolibrary.org/obo/GO_0031623	receptor internalization
 http://purl.obolibrary.org/obo/GO_1902683	regulation of receptor localization to synapse	http://purl.obolibrary.org/obo/GO_0097120	receptor localization to synapse
 http://purl.obolibrary.org/obo/GO_0001919	regulation of receptor recycling	http://purl.obolibrary.org/obo/GO_0001881	receptor recycling
-http://purl.obolibrary.org/obo/GO_0046425	regulation of receptor signaling pathway via JAK-STAT	http://purl.obolibrary.org/obo/GO_0007259	receptor signaling pathway via JAK-STAT
-http://purl.obolibrary.org/obo/GO_1904892	regulation of receptor signaling pathway via STAT	http://purl.obolibrary.org/obo/GO_0097696	receptor signaling pathway via STAT
+http://purl.obolibrary.org/obo/GO_0046425	regulation of receptor signaling pathway via JAK-STAT	http://purl.obolibrary.org/obo/GO_0007259	cell surface receptor signaling pathway via JAK-STAT
+http://purl.obolibrary.org/obo/GO_1904892	regulation of receptor signaling pathway via STAT	http://purl.obolibrary.org/obo/GO_0097696	cell surface receptor signaling pathway via STAT
 http://purl.obolibrary.org/obo/GO_0048259	regulation of receptor-mediated endocytosis	http://purl.obolibrary.org/obo/GO_0006898	receptor-mediated endocytosis
 http://purl.obolibrary.org/obo/GO_1905600	regulation of receptor-mediated endocytosis involved in cholesterol transport	http://purl.obolibrary.org/obo/GO_0090118	receptor-mediated endocytosis involved in cholesterol transport
 http://purl.obolibrary.org/obo/GO_1902734	regulation of receptor-mediated virion attachment to host cell	http://purl.obolibrary.org/obo/GO_0046813	receptor-mediated virion attachment to host cell
