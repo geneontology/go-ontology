@@ -513,7 +513,7 @@ http://purl.obolibrary.org/obo/GO_0001576	globoside biosynthetic process	http://
 http://purl.obolibrary.org/obo/GO_0009250	glucan biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_37163	glucan
 http://purl.obolibrary.org/obo/GO_0019393	glucarate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_30613	glucarate(2-)
 http://purl.obolibrary.org/obo/GO_0006704	glucocorticoid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_24261	glucocorticoid
-http://purl.obolibrary.org/obo/GO_0006094	gluconeogenesis	http://purl.obolibrary.org/obo/CHEBI_17234	glucose
+http://purl.obolibrary.org/obo/GO_0006094	gluconeogenesis	http://purl.obolibrary.org/obo/CHEBI_4167	D-glucopyranose
 http://purl.obolibrary.org/obo/GO_0006042	glucosamine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_5417	glucosamine
 http://purl.obolibrary.org/obo/GO_1901073	glucosamine-containing compound biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_24271	glucosamines
 http://purl.obolibrary.org/obo/GO_0019761	glucosinolate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_24279	glucosinolate
