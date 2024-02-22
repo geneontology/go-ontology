@@ -632,7 +632,7 @@ http://purl.obolibrary.org/obo/GO_0006041	glucosamine metabolic process	http://p
 http://purl.obolibrary.org/obo/GO_1901071	glucosamine-containing compound metabolic process	http://purl.obolibrary.org/obo/CHEBI_24271	glucosamines
 http://purl.obolibrary.org/obo/GO_0019255	glucose 1-phosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_57629	D-glucopyranose 1-phosphate(2-)
 http://purl.obolibrary.org/obo/GO_0051156	glucose 6-phosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_14314	D-glucose 6-phosphate
-http://purl.obolibrary.org/obo/GO_0006006	glucose metabolic process	http://purl.obolibrary.org/obo/CHEBI_17234	glucose
+http://purl.obolibrary.org/obo/GO_0006006	glucose metabolic process	http://purl.obolibrary.org/obo/CHEBI_4167	D-glucopyranose
 http://purl.obolibrary.org/obo/GO_0019760	glucosinolate metabolic process	http://purl.obolibrary.org/obo/CHEBI_24279	glucosinolate
 http://purl.obolibrary.org/obo/GO_0006678	glucosylceramide metabolic process	http://purl.obolibrary.org/obo/CHEBI_36500	glucosylceramide
 http://purl.obolibrary.org/obo/GO_0051472	glucosylglycerol metabolic process	http://purl.obolibrary.org/obo/CHEBI_24287	glucosylglycerol
