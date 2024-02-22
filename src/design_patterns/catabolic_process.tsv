@@ -455,7 +455,7 @@ http://purl.obolibrary.org/obo/GO_0006713	glucocorticoid catabolic process	http:
 http://purl.obolibrary.org/obo/GO_2000884	glucomannan catabolic process	http://purl.obolibrary.org/obo/CHEBI_17020	glucomannan
 http://purl.obolibrary.org/obo/GO_0006043	glucosamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_5417	glucosamine
 http://purl.obolibrary.org/obo/GO_1901072	glucosamine-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_24271	glucosamines
-http://purl.obolibrary.org/obo/GO_0006007	glucose catabolic process	http://purl.obolibrary.org/obo/CHEBI_17234	glucose
+http://purl.obolibrary.org/obo/GO_0006007	glucose catabolic process	http://purl.obolibrary.org/obo/CHEBI_4167	D-glucopyranose
 http://purl.obolibrary.org/obo/GO_0019762	glucosinolate catabolic process	http://purl.obolibrary.org/obo/CHEBI_24279	glucosinolate
 http://purl.obolibrary.org/obo/GO_0006680	glucosylceramide catabolic process	http://purl.obolibrary.org/obo/CHEBI_36500	glucosylceramide
 http://purl.obolibrary.org/obo/GO_0006064	glucuronate catabolic process	http://purl.obolibrary.org/obo/CHEBI_24297	glucuronate
