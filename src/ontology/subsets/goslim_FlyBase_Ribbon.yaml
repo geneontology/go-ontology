@@ -3,7 +3,7 @@ title: FlyBase Ribbon slim
 preferred label: Insects
 type: ribbon
 status: active
-description: "Insect GO ribbon subset produced by FlyBase. The purpose of this subset is mainly to drive the Flybase 'ribbon' display."
+description: "Insect GO ribbon subset produced by FlyBase. The purpose of this subset is mainly to drive the Flybase and the UniProt 'ribbon' display."
 seeAlso: 
 taxon:
   id: NCBITaxon:50557
