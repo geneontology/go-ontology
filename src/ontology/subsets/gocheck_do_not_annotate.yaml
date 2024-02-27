@@ -1,6 +1,7 @@
 id: gocheck_do_not_annotate
 title: GO antislim
 type: blacklist
+preferred label: do not annotate
 status: active
 description: "Terms that are too high level to be informative for annotation."
 seeAlso: 
