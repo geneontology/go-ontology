@@ -1,6 +1,7 @@
 id: goslim_agr
 title: AGR slim
 type: ribbon
+preferred label: Animals and fungi (Opisthokonta)
 status: active
 description: "Subset for Alliance of Genome Resources (AGR). The purpose of this subsets is mainly to drive the 'ribbon' display."
 taxon:
