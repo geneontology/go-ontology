@@ -1,0 +1,24 @@
+id: goslim_prokaroyte_ribbon
+title: Prokaryote Ribbon slim
+preferred label: Bacteria and Archaea (Prokaryotes)
+type: ribbon
+status: active
+description: "Prokaryote GO ribbon subset that mainly serves to drive the UniProt 'ribbon' display for prokaryote organisms."
+seeAlso: 
+taxon:
+  id: NCBITaxon:2
+  label: Bacteria
+  taxon:
+  id: NCBITaxon:2157
+  label: Archaea
+contact: 
+  email: go-ontology@lists.stanford.edu
+  label: GO Ontology Curators
+github:
+ tracker: https://github.com/geneontology/go-ontology/issues
+ contributors:
+  - email: go-ontology@lists.stanford.edu
+    label: GO Ontology Curators
+    orcid: 
+    github: 
+    
