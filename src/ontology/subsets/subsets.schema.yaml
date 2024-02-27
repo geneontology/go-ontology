@@ -6,6 +6,9 @@ mapping:
   "title":
     type: str
     required: true
+  "preferred label":
+    type: str
+    required: true
   "type":
     type: str
     required: true
