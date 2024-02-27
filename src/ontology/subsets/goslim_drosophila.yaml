@@ -1,0 +1,20 @@
+id: goslim_drosophila
+title: Drosophila subset
+preferred label: Insects
+type: binning subset
+status: active
+description: "GO subset for insects. This subset can be used for binning purposes, most annotations should map to a term in the subset."
+seeAlso: 
+taxon:
+  id: NCBITaxon:50557
+  label: Insecta
+contact: 
+  email: go-ontology@lists.stanford.edu
+  label: GO Ontology Curators
+github:
+ tracker: https://github.com/geneontology/go-ontology/issues
+ contributors:
+  - email: gocur@morgan.harvard.edu
+    label: GO FlyBase curators
+    orcid: orcid:0000-0003-3212-6364
+    github: hattrill
