@@ -1,5 +1,6 @@
 id: goslim_FlyBase_Ribbon
 title: FlyBase Ribbon slim
+preferred label: Insecta GO ribbon
 type: ribbon
 status: active
 description: "Insect GO ribbon subset produced by FlyBase. The purpose of this subset is mainly to drive the Flybase 'ribbon' display."
