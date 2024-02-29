@@ -15,10 +15,15 @@
 
 .decl lost_entailment(s: symbol, p: symbol, o: symbol)
 .decl gained_entailment(s: symbol, p: symbol, o: symbol)
+.decl same_entailment(s: symbol, p: symbol, o: symbol)
 .decl lost_redundant(s: symbol, p: symbol, o: symbol)
 .decl lost(s: symbol, p: symbol, o: symbol, dot: symbol)
 .decl gained_redundant(s: symbol, p: symbol, o: symbol)
 .decl gained(s: symbol, p: symbol, o: symbol, dot: symbol)
+.decl output_node(n: symbol)
+.decl fill_entailment(s: symbol, p: symbol, o: symbol)
+.decl fill_redundant(s: symbol, p: symbol, o: symbol)
+.decl fill(s: symbol, p: symbol, o: symbol, dot: symbol)
 
 .input left
 .input right
@@ -37,22 +42,40 @@ subPropertyOf(sub, supersuper) :- subPropertyOf(sub, super), ontrdf(super, RDFS_
 
 lost_entailment(s, p, o) :- left(s, p, o), !right(s, p, o).
 gained_entailment(s, p, o) :- right(s, p, o), !left(s, p, o).
+same_entailment(s, p, o) :- left(s, p, o), right(s, p, o).
 
-lost_redundant(s, p, o) :- left(s, p, other), s != other, !left_equivalent(s, other), left_subClassOf(other, o), lost_entailment(s, p, o).
-lost_redundant(s, p, o) :- lost_entailment(s, p, o), left_subClassOf(s, other), left(other, p, o), other != o, !left_equivalent(other, o).
+//lost_redundant(s, p, o) :- left(s, p, other), s != other, !left_equivalent(s, other), left_subClassOf(other, o), lost_entailment(s, p, o).
+lost_redundant(s, p, o) :- lost_entailment(s, p, other), s != other, !left_equivalent(s, other), left_subClassOf(other, o), lost_entailment(s, p, o).
+//lost_redundant(s, p, o) :- lost_entailment(s, p, o), left_subClassOf(s, other), left(other, p, o), other != o, !left_equivalent(other, o).
+lost_redundant(s, p, o) :- lost_entailment(s, p, o), left_subClassOf(s, other), lost_entailment(other, p, o), other != o, !left_equivalent(other, o).
 lost_redundant(s, p, o) :- lost_entailment(s, p, o), transitive(p), lost_entailment(s, p, other), other != o, lost_entailment(other, p, o).
 lost_redundant(s, p, o) :- lost_entailment(s, p, o), subPropertyOf(sub, p), lost_entailment(s, sub, o).
 lost_redundant(s, RDFS_SUBCLASS_OF, s) :- lost_entailment(s, RDFS_SUBCLASS_OF, s).
 
 lost(s, p, o, ".") :- lost_entailment(s, p, o), !lost_redundant(s, p, o).
 
-gained_redundant(s, p, o) :- right(s, p, other), s != other, !right_equivalent(s, other), right_subClassOf(other, o), gained_entailment(s, p, o).
-gained_redundant(s, p, o) :- gained_entailment(s, p, o), right_subClassOf(s, other), right(other, p, o), other != o, !right_equivalent(other, o).
+//gained_redundant(s, p, o) :- right(s, p, other), s != other, !right_equivalent(s, other), right_subClassOf(other, o), gained_entailment(s, p, o).
+gained_redundant(s, p, o) :- gained_entailment(s, p, other), s != other, !right_equivalent(s, other), right_subClassOf(other, o), gained_entailment(s, p, o).
+//gained_redundant(s, p, o) :- gained_entailment(s, p, o), right_subClassOf(s, other), right(other, p, o), other != o, !right_equivalent(other, o).
+gained_redundant(s, p, o) :- gained_entailment(s, p, o), right_subClassOf(s, other), gained_entailment(other, p, o), other != o, !right_equivalent(other, o).
 gained_redundant(s, p, o) :- gained_entailment(s, p, o), transitive(p), gained_entailment(s, p, other), other != o, gained_entailment(other, p, o).
 gained_redundant(s, p, o) :- gained_entailment(s, p, o), subPropertyOf(sub, p), gained_entailment(s, sub, o).
 gained_redundant(s, RDFS_SUBCLASS_OF, s) :- gained_entailment(s, RDFS_SUBCLASS_OF, s).
 
 gained(s, p, o, ".") :- gained_entailment(s, p, o), !gained_redundant(s, p, o).
 
+output_node(s), output_node(o) :- lost(s, _, o, _).
+output_node(s), output_node(o) :- gained(s, _, o, _).
+
+fill_entailment(s, p, o) :- same_entailment(s, p, o), output_node(s), output_node(o).
+fill_redundant(s, p, o) :- fill_entailment(s, p, other), s != other, !left_equivalent(s, other), left_subClassOf(other, o), fill_entailment(s, p, o).
+fill_redundant(s, p, o) :- fill_entailment(s, p, o), left_subClassOf(s, other), fill_entailment(other, p, o), other != o, !left_equivalent(other, o).
+fill_redundant(s, p, o) :- fill_entailment(s, p, o), transitive(p), fill_entailment(s, p, other), other != o, fill_entailment(other, p, o).
+fill_redundant(s, p, o) :- fill_entailment(s, p, o), subPropertyOf(sub, p), fill_entailment(s, sub, o).
+fill_redundant(s, RDFS_SUBCLASS_OF, s) :- fill_entailment(s, RDFS_SUBCLASS_OF, s).
+
+fill(s, p, o, ".") :- fill_entailment(s, p, o), !fill_redundant(s, p, o).
+
 .output lost
 .output gained
+.output fill
