@@ -19,7 +19,7 @@ http://purl.obolibrary.org/obo/GO_1904272	L-tryptophan import across plasma memb
 http://purl.obolibrary.org/obo/GO_1903808	L-tyrosine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_58315	L-tyrosine zwitterion
 http://purl.obolibrary.org/obo/GO_1903805	L-valine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_57762	L-valine zwitterion
 http://purl.obolibrary.org/obo/GO_0098702	adenine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_16708	adenine
-http://purl.obolibrary.org/obo/GO_0089718	amino acid import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_33709	amino acid
+http://purl.obolibrary.org/obo/GO_0089718	amino acid import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_35238	amino acid zwitterion
 http://purl.obolibrary.org/obo/GO_0140157	ammonium import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_28938	ammonium
 http://purl.obolibrary.org/obo/GO_0060919	auxin import into cell	http://purl.obolibrary.org/obo/GOCHE_22676	substance with auxin role
 http://purl.obolibrary.org/obo/GO_1905135	biotin import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_57586	biotinate
@@ -49,7 +49,7 @@ http://purl.obolibrary.org/obo/GO_0015911	long-chain fatty acid import across pl
 http://purl.obolibrary.org/obo/GO_0098714	malate import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_15595	malate(2-)
 http://purl.obolibrary.org/obo/GO_0098715	malonic acid import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_15792	malonate(2-)
 http://purl.obolibrary.org/obo/GO_0106081	maltose import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_17306	maltose
-http://purl.obolibrary.org/obo/GO_0140967	manganese import into cell	http://purl.obolibrary.org/obo/CHEBI_25155	manganese cation
+http://purl.obolibrary.org/obo/GO_0140967	manganese import into cell	http://purl.obolibrary.org/obo/CHEBI_29035	manganese(2+)
 http://purl.obolibrary.org/obo/GO_1903692	methionine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_64558	methionine zwitterion
 http://purl.obolibrary.org/obo/GO_1904679	myo-inositol import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_17268	myo-inositol
 http://purl.obolibrary.org/obo/GO_0098716	nickel cation import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_25516	nickel cation

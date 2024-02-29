@@ -2981,7 +2981,7 @@ http://purl.obolibrary.org/obo/GO_0010112	regulation of systemic acquired resist
 http://purl.obolibrary.org/obo/GO_1904032	regulation of t-SNARE clustering	http://purl.obolibrary.org/obo/GO_1990656	t-SNARE clustering
 http://purl.obolibrary.org/obo/GO_1904429	regulation of t-circle formation	http://purl.obolibrary.org/obo/GO_0090656	t-circle formation
 http://purl.obolibrary.org/obo/GO_0110003	regulation of tRNA C5-cytosine methylation	http://purl.obolibrary.org/obo/GO_0002946	tRNA C5-cytosine methylation
-http://purl.obolibrary.org/obo/GO_1902370	regulation of tRNA catabolic process	http://purl.obolibrary.org/obo/GO_0016078	tRNA catabolic process
+http://purl.obolibrary.org/obo/GO_1902370	regulation of tRNA catabolic process	http://purl.obolibrary.org/obo/GO_0016078	tRNA decay
 http://purl.obolibrary.org/obo/GO_2000238	regulation of tRNA export from nucleus	http://purl.obolibrary.org/obo/GO_0006409	tRNA export from nucleus
 http://purl.obolibrary.org/obo/GO_1903326	regulation of tRNA metabolic process	http://purl.obolibrary.org/obo/GO_0006399	tRNA metabolic process
 http://purl.obolibrary.org/obo/GO_0110002	regulation of tRNA methylation	http://purl.obolibrary.org/obo/GO_0030488	tRNA methylation

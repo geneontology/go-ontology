@@ -2622,7 +2622,7 @@ http://purl.obolibrary.org/obo/GO_1901470	negative regulation of syringal lignin
 http://purl.obolibrary.org/obo/GO_0010113	negative regulation of systemic acquired resistance	http://purl.obolibrary.org/obo/GO_0009627	systemic acquired resistance
 http://purl.obolibrary.org/obo/GO_1904033	negative regulation of t-SNARE clustering	http://purl.obolibrary.org/obo/GO_1990656	t-SNARE clustering
 http://purl.obolibrary.org/obo/GO_1904430	negative regulation of t-circle formation	http://purl.obolibrary.org/obo/GO_0090656	t-circle formation
-http://purl.obolibrary.org/obo/GO_1902371	negative regulation of tRNA catabolic process	http://purl.obolibrary.org/obo/GO_0016078	tRNA catabolic process
+http://purl.obolibrary.org/obo/GO_1902371	negative regulation of tRNA catabolic process	http://purl.obolibrary.org/obo/GO_0016078	tRNA decay
 http://purl.obolibrary.org/obo/GO_2000239	negative regulation of tRNA export from nucleus	http://purl.obolibrary.org/obo/GO_0006409	tRNA export from nucleus
 http://purl.obolibrary.org/obo/GO_1903327	negative regulation of tRNA metabolic process	http://purl.obolibrary.org/obo/GO_0006399	tRNA metabolic process
 http://purl.obolibrary.org/obo/GO_2000236	negative regulation of tRNA processing	http://purl.obolibrary.org/obo/GO_0008033	tRNA processing
