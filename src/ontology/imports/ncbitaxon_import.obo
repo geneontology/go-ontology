@@ -988,6 +988,7 @@ relationship: RO:0002162 NCBITaxon:1477431 ! in taxon Streptomyces albidoflavus 
 id: NCBITaxon:1485
 name: Clostridium
 synonym: "Anaerobacter" RELATED []
+synonym: "Anaerobacter Duda et al. 1996" RELATED []
 is_a: NCBITaxon:31979 ! Clostridiaceae
 relationship: RO:0002162 NCBITaxon:1485 ! in taxon Clostridium
 
@@ -1389,9 +1390,9 @@ id: NCBITaxon:1773
 name: Mycobacterium tuberculosis
 synonym: "Bacillus tuberculosis" RELATED []
 synonym: "Bacterium tuberculosis" RELATED []
+synonym: "Mycobacterium tuberculosis (Zopf 1883) Lehmann and Neumann 1896 (Approved Lists 1980)" RELATED []
 synonym: "Mycobacterium tuberculosis typus humanus" RELATED []
 synonym: "Mycobacterium tuberculosis var. hominis" RELATED []
-synonym: "Mycobacterium tuberculosis variant tuberculosis" RELATED []
 is_a: NCBITaxon:77643 ! Mycobacterium tuberculosis complex
 relationship: RO:0002162 NCBITaxon:1773 ! in taxon Mycobacterium tuberculosis
 
@@ -5156,6 +5157,7 @@ relationship: RO:0002162 NCBITaxon:480118 ! in taxon Eremoneura
 [Term]
 id: NCBITaxon:481
 name: Neisseriaceae
+synonym: "Simonsiellaceae" RELATED []
 synonym: "Vitreoscillaceae" RELATED []
 is_a: NCBITaxon:206351 ! Neisseriales
 relationship: RO:0002162 NCBITaxon:481 ! in taxon Neisseriaceae
