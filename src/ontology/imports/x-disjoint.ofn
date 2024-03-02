@@ -120,7 +120,7 @@ Declaration(AnnotationProperty(oboInOwl:id))
 #   Classes
 ############################
 
-# Class: obo:CL_0000000 (obo:CL_0000000)
+# Class: obo:CL_0000000 (cell)
 
 DisjointClasses(obo:CL_0000000 obo:GO_0031012)
 DisjointClasses(obo:CL_0000000 obo:GO_0032991)
@@ -128,16 +128,16 @@ DisjointClasses(obo:CL_0000000 obo:GO_0043226)
 DisjointClasses(obo:CL_0000000 obo:GO_0044423)
 DisjointClasses(obo:CL_0000000 obo:GO_0055044)
 
-# Class: obo:GO_0001708 (obo:GO_0001708)
+# Class: obo:GO_0001708 (cell fate specification)
 
 DisjointClasses(Annotation(rdfs:comment "Cell differentiation consists of two separate parts: commitment of cell to its fate and the subsequent development of the cell") obo:GO_0001708 obo:GO_0048468)
 
-# Class: obo:GO_0003674 (obo:GO_0003674)
+# Class: obo:GO_0003674 (molecular_function)
 
 DisjointClasses(obo:GO_0003674 obo:GO_0005575)
 DisjointClasses(obo:GO_0003674 obo:GO_0008150)
 
-# Class: obo:GO_0005575 (obo:GO_0005575)
+# Class: obo:GO_0005575 (cellular_component)
 
 DisjointClasses(obo:GO_0005575 obo:GO_0008150)
 
@@ -147,87 +147,83 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:GO_0005576 "cellular_component"
 AnnotationAssertion(oboInOwl:id obo:GO_0005576 "GO:0005576")
 AnnotationAssertion(rdfs:label obo:GO_0005576 "extracellular region")
 
-# Class: obo:GO_0005634 (obo:GO_0005634)
+# Class: obo:GO_0005634 (nucleus)
 
 DisjointClasses(obo:GO_0005634 obo:GO_0005737)
 DisjointClasses(obo:GO_0005634 obo:GO_0005829)
 DisjointClasses(obo:GO_0005634 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0005737))
 DisjointClasses(obo:GO_0005634 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0005829))
 
-# Class: obo:GO_0005829 (obo:GO_0005829)
+# Class: obo:GO_0005829 (cytosol)
 
 DisjointClasses(obo:GO_0005829 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0005634))
 DisjointClasses(obo:GO_0005829 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0009507))
 DisjointClasses(obo:GO_0005829 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0043226))
 
-# Class: obo:GO_0007610 (obo:GO_0007610)
+# Class: obo:GO_0007610 (behavior)
 
 DisjointClasses(obo:GO_0007610 obo:GO_0032502)
 
-# Class: obo:GO_0009561 (obo:GO_0009561)
+# Class: obo:GO_0009561 (megagametogenesis)
 
 DisjointClasses(obo:GO_0009561 obo:GO_0055046)
 
-# Class: obo:GO_0009653 (obo:GO_0009653)
+# Class: obo:GO_0009653 (anatomical structure morphogenesis)
 
 DisjointClasses(obo:GO_0009653 obo:GO_0048856)
 DisjointClasses(obo:GO_0009653 obo:GO_0071695)
 
-# Class: obo:GO_0009792 (obo:GO_0009792)
+# Class: obo:GO_0009792 (embryo development ending in birth or egg hatching)
 
 DisjointClasses(obo:GO_0009792 obo:GO_0009793)
 
-# Class: obo:GO_0016020 (obo:GO_0016020)
+# Class: obo:GO_0016020 (membrane)
 
 DisjointClasses(obo:GO_0016020 obo:GO_0031012)
 
-# Class: obo:GO_0019725 (obo:GO_0019725)
+# Class: obo:GO_0019725 (cellular homeostasis)
 
 DisjointClasses(obo:GO_0019725 obo:GO_0048872)
 
-# Class: obo:GO_0019953 (obo:GO_0019953)
+# Class: obo:GO_0019953 (sexual reproduction)
 
 DisjointClasses(obo:GO_0019953 obo:GO_0019954)
 
-# Class: obo:GO_0022402 (obo:GO_0022402)
+# Class: obo:GO_0022402 (cell cycle process)
 
 DisjointClasses(obo:GO_0022402 ObjectSomeValuesFrom(obo:BFO_0000050 obo:GO_0022403))
 
-# Class: obo:GO_0031012 (obo:GO_0031012)
+# Class: obo:GO_0031012 (extracellular matrix)
 
 DisjointClasses(obo:GO_0031012 obo:GO_0032991)
 DisjointClasses(obo:GO_0031012 obo:GO_0043226)
 DisjointClasses(obo:GO_0031012 obo:GO_0044423)
 DisjointClasses(obo:GO_0031012 obo:GO_0055044)
 
-# Class: obo:GO_0031974 (obo:GO_0031974)
+# Class: obo:GO_0031974 (membrane-enclosed lumen)
 
 DisjointClasses(obo:GO_0031974 obo:GO_0045202)
 
-# Class: obo:GO_0032504 (obo:GO_0032504)
-
-DisjointClasses(obo:GO_0032504 obo:GO_0032505)
-
-# Class: obo:GO_0032991 (obo:GO_0032991)
+# Class: obo:GO_0032991 (protein-containing complex)
 
 DisjointClasses(obo:GO_0032991 obo:GO_0044423)
 DisjointClasses(obo:GO_0032991 obo:GO_0055044)
 DisjointClasses(obo:GO_0032991 obo:GO_0110165)
 
-# Class: obo:GO_0043226 (obo:GO_0043226)
+# Class: obo:GO_0043226 (organelle)
 
 DisjointClasses(obo:GO_0043226 obo:GO_0044423)
 DisjointClasses(obo:GO_0043226 obo:GO_0055044)
 
-# Class: obo:GO_0043227 (obo:GO_0043227)
+# Class: obo:GO_0043227 (membrane-bounded organelle)
 
 DisjointClasses(obo:GO_0043227 obo:GO_0043228)
 
-# Class: obo:GO_0043229 (obo:GO_0043229)
+# Class: obo:GO_0043229 (intracellular organelle)
 
 DisjointClasses(obo:GO_0043229 obo:GO_0043230)
 
-# Class: obo:GO_0044423 (obo:GO_0044423)
+# Class: obo:GO_0044423 (virion component)
 
 DisjointClasses(obo:GO_0044423 obo:GO_0055044)
 
