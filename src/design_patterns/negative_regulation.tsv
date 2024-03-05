@@ -760,6 +760,7 @@ http://purl.obolibrary.org/obo/GO_1903042	negative regulation of chondrocyte hyp
 http://purl.obolibrary.org/obo/GO_1902731	negative regulation of chondrocyte proliferation	http://purl.obolibrary.org/obo/GO_0035988	chondrocyte proliferation
 http://purl.obolibrary.org/obo/GO_1901383	negative regulation of chorionic trophoblast cell proliferation	http://purl.obolibrary.org/obo/GO_0097360	chorionic trophoblast cell proliferation
 http://purl.obolibrary.org/obo/GO_0035562	negative regulation of chromatin binding	http://purl.obolibrary.org/obo/GO_0003682	chromatin binding
+http://purl.obolibrary.org/obo/GO_0160164	negative regulation of chromatin loopin	http://purl.obolibrary.org/obo/GO_0140588	chromatin looping
 http://purl.obolibrary.org/obo/GO_1905268	negative regulation of chromatin organization	http://purl.obolibrary.org/obo/GO_0006325	chromatin organization
 http://purl.obolibrary.org/obo/GO_0120265	negative regulation of chromosome attachment to the nuclear envelope	http://purl.obolibrary.org/obo/GO_0097240	chromosome attachment to the nuclear envelope
 http://purl.obolibrary.org/obo/GO_1902340	negative regulation of chromosome condensation	http://purl.obolibrary.org/obo/GO_0030261	chromosome condensation
