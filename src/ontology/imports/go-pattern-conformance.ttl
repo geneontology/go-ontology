@@ -36564,7 +36564,7 @@
 <http://purl.obolibrary.org/obo/GO_0097053> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0097054> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
+<http://purl.obolibrary.org/obo/GO_0097054> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0097055> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
@@ -39688,6 +39688,9 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0160164> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0160167> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0170033> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .

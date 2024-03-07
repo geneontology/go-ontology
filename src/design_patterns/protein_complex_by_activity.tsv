@@ -138,6 +138,7 @@ http://purl.obolibrary.org/obo/GO_0009325	nitrate reductase complex	http://purl.
 http://purl.obolibrary.org/obo/GO_1903958	nitric-oxide synthase complex	http://purl.obolibrary.org/obo/GO_0004517	nitric-oxide synthase activity
 http://purl.obolibrary.org/obo/GO_0005900	oncostatin-M receptor complex	http://purl.obolibrary.org/obo/GO_0004924	oncostatin-M receptor activity
 http://purl.obolibrary.org/obo/GO_1990204	oxidoreductase complex	http://purl.obolibrary.org/obo/GO_0016491	oxidoreductase activity
+http://purl.obolibrary.org/obo/GO_0160167	oxoadipate dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0160166	2-oxoadipate dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_0045252	oxoglutarate dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0034602	oxoglutarate dehydrogenase (NAD+) activity
 http://purl.obolibrary.org/obo/GO_0002178	palmitoyltransferase complex	http://purl.obolibrary.org/obo/GO_0016409	palmitoyltransferase activity
 http://purl.obolibrary.org/obo/GO_1905368	peptidase complex	http://purl.obolibrary.org/obo/GO_0008233	peptidase activity
@@ -202,7 +203,7 @@ http://purl.obolibrary.org/obo/GO_0043527	tRNA methyltransferase complex	http://
 http://purl.obolibrary.org/obo/GO_1903768	taste receptor complex	http://purl.obolibrary.org/obo/GO_0008527	taste receptor activity
 http://purl.obolibrary.org/obo/GO_1990205	taurine dioxygenase complex	http://purl.obolibrary.org/obo/GO_0000908	taurine dioxygenase activity
 http://purl.obolibrary.org/obo/GO_1902507	thiazole synthase complex	http://purl.obolibrary.org/obo/GO_1990107	thiazole synthase activity
-http://purl.obolibrary.org/obo/GO_1902515	thioredoxin-disulfide reductase complex	http://purl.obolibrary.org/obo/GO_0004791	thioredoxin-disulfide reductase (NADP) activity
+http://purl.obolibrary.org/obo/GO_1902515	thioredoxin-disulfide reductase complex	http://purl.obolibrary.org/obo/GO_0004791	thioredoxin-disulfide reductase (NADPH) activity
 http://purl.obolibrary.org/obo/GO_0005667	transcription regulator complex	http://purl.obolibrary.org/obo/GO_0140110	transcription regulator activity
 http://purl.obolibrary.org/obo/GO_0017053	transcription repressor complex	http://purl.obolibrary.org/obo/GO_0001217	DNA-binding transcription repressor activity
 http://purl.obolibrary.org/obo/GO_0061695	transferase complex, transferring phosphorus-containing groups	http://purl.obolibrary.org/obo/GO_0016772	transferase activity, transferring phosphorus-containing groups
