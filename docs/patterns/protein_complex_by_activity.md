@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-[protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991)  and ([capable of](http://purl.obolibrary.org/obo/RO_0002215) some `{function}`)
+[protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991)  and ([capable_of](http://purl.obolibrary.org/obo/RO_0002215) some `{function}`)
 
 
 
