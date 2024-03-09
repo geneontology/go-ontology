@@ -205,7 +205,6 @@ http://purl.obolibrary.org/obo/GO_0021752	inferior salivary nucleus development	
 http://purl.obolibrary.org/obo/GO_0048839	inner ear development	http://purl.obolibrary.org/obo/UBERON_0001846	internal ear
 http://purl.obolibrary.org/obo/GO_0072061	inner medullary collecting duct development	http://purl.obolibrary.org/obo/UBERON_0004205	inner medullary collecting duct
 http://purl.obolibrary.org/obo/GO_0072057	inner stripe development	http://purl.obolibrary.org/obo/UBERON_0004201	kidney outer medulla inner stripe
-http://purl.obolibrary.org/obo/GO_0160095	insect pharynx development	http://purl.obolibrary.org/obo/UBERON_60005380	insect pharynx
 http://purl.obolibrary.org/obo/GO_0001748	insect visual primordium development	http://purl.obolibrary.org/obo/UBERON_6001059	insect visual primordium
 http://purl.obolibrary.org/obo/GO_0021727	intermediate reticular formation development	http://purl.obolibrary.org/obo/UBERON_0009776	intermediate reticular formation
 http://purl.obolibrary.org/obo/GO_0060576	intestinal epithelial cell development	http://purl.obolibrary.org/obo/CL_0002563	intestinal epithelial cell
@@ -476,7 +475,7 @@ http://purl.obolibrary.org/obo/GO_0003163	sinoatrial node development	http://pur
 http://purl.obolibrary.org/obo/GO_0003172	sinoatrial valve development	http://purl.obolibrary.org/obo/UBERON_0002086	sinoatrial valve
 http://purl.obolibrary.org/obo/GO_0003235	sinus venosus development	http://purl.obolibrary.org/obo/UBERON_0002063	sinus venosus
 http://purl.obolibrary.org/obo/GO_0048741	skeletal muscle fiber development	http://purl.obolibrary.org/obo/CL_0008002	skeletal muscle fiber
-http://purl.obolibrary.org/obo/GO_0060538	skeletal muscle organ development	http://purl.obolibrary.org/obo/UBERON_0014892	skeletal muscle organ
+http://purl.obolibrary.org/obo/GO_0060538	skeletal muscle organ development	http://purl.obolibrary.org/obo/UBERON_0014892	skeletal muscle organ, vertebrate
 http://purl.obolibrary.org/obo/GO_0007519	skeletal muscle tissue development	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue
 http://purl.obolibrary.org/obo/GO_0001501	skeletal system development	http://purl.obolibrary.org/obo/UBERON_0001434	skeletal system
 http://purl.obolibrary.org/obo/GO_0043588	skin development	http://purl.obolibrary.org/obo/UBERON_0002097	skin of body
@@ -484,7 +483,7 @@ http://purl.obolibrary.org/obo/GO_0098773	skin epidermis development	http://purl
 http://purl.obolibrary.org/obo/GO_0048745	smooth muscle tissue development	http://purl.obolibrary.org/obo/UBERON_0001135	smooth muscle tissue
 http://purl.obolibrary.org/obo/GO_0060023	soft palate development	http://purl.obolibrary.org/obo/UBERON_0001733	soft palate
 http://purl.obolibrary.org/obo/GO_0021746	solitary nucleus development	http://purl.obolibrary.org/obo/UBERON_0009050	nucleus of solitary tract
-http://purl.obolibrary.org/obo/GO_0007525	somatic muscle development	http://purl.obolibrary.org/obo/UBERON_0014895	somatic muscle
+http://purl.obolibrary.org/obo/GO_0007525	somatic muscle development	http://purl.obolibrary.org/obo/UBERON_0014895	somatic muscle, invertebrate
 http://purl.obolibrary.org/obo/GO_0061053	somite development	http://purl.obolibrary.org/obo/UBERON_0002329	somite
 http://purl.obolibrary.org/obo/GO_0002075	somitomeric trunk muscle development	http://purl.obolibrary.org/obo/UBERON_0004138	somitomeric trunk muscle
 http://purl.obolibrary.org/obo/GO_0021510	spinal cord development	http://purl.obolibrary.org/obo/UBERON_0002240	spinal cord

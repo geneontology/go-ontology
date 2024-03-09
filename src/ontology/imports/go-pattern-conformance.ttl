@@ -39656,9 +39656,6 @@
 <http://purl.obolibrary.org/obo/GO_0160094> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0160095> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0160145> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 
 

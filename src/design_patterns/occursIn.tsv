@@ -87,7 +87,7 @@ http://purl.obolibrary.org/obo/GO_1900116	extracellular negative regulation of s
 http://purl.obolibrary.org/obo/GO_1900115	extracellular regulation of signal transduction	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0009966	regulation of signal transduction
 http://purl.obolibrary.org/obo/GO_0097579	extracellular sequestering of copper ion	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0097578	sequestering of copper ion
 http://purl.obolibrary.org/obo/GO_0006858	extracellular transport	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0006810	transport
-http://purl.obolibrary.org/obo/GO_1904606	fat cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000136	fat cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
+http://purl.obolibrary.org/obo/GO_1904606	fat cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000136	adipocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0044346	fibroblast apoptotic process	http://purl.obolibrary.org/obo/CL_0000057	fibroblast	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0010451	floral meristem growth	http://purl.obolibrary.org/obo/PO_0000229	flower meristem	http://purl.obolibrary.org/obo/GO_0048589	developmental growth
 http://purl.obolibrary.org/obo/GO_0032529	follicle cell microvillus organization	http://purl.obolibrary.org/obo/CL_0000477	follicle cell of egg chamber	http://purl.obolibrary.org/obo/GO_0032528	microvillus organization
