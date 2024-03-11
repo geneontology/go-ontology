@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2024-03-08/imports/uberon_import.owl
+data-version: go/releases/2024-03-11/imports/uberon_import.owl
 ontology: go/imports/uberon_import
 
 [Term]
@@ -58344,6 +58344,13 @@ is_a: UBERON:6003006 ! insect adult segment
 intersection_of: UBERON:0000914 ! organismal segment
 intersection_of: part_of UBERON:6003007 ! insect adult head
 relationship: part_of UBERON:6003007 ! insect adult head
+
+[Term]
+id: UBERON:6005380
+name: insect pharynx
+def: "Section of the insect foregut anterior to the esophagus." []
+is_a: UBERON:0006562 ! pharynx
+relationship: part_of UBERON:0003929 ! digestive tract epithelium
 
 [Term]
 id: UBERON:6007149
