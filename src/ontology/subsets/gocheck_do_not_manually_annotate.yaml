@@ -1,9 +1,9 @@
 id: gocheck_do_not_manually_annotate
 title: Terms not allowed for manual annotation
-type: blacklist
+type: 
 preferred label: Do not manually annotate
-status: active
-description: "Terms that are too high level to be informative for manual annotation."
+status: obsolete
+description: "Terms that are too high level to be informative for manual annotation; merged with gocheck_do_not_annotate."
 seeAlso: 
 taxon:
   id: NCBITaxon:1
