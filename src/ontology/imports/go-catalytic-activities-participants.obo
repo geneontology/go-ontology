@@ -7880,10 +7880,6 @@ id: GO:0015234
 relationship: RO:0000057 CHEBI:18385
 
 [Term]
-id: GO:0015248
-relationship: RO:0000057 CHEBI:16113
-
-[Term]
 id: GO:0015250
 relationship: RO:0000057 CHEBI:15377
 
