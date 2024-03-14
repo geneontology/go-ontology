@@ -578,8 +578,8 @@ GO:0060818	inactivation of paternal X chromosome by genomic imprinting	NCBITaxon
 GO:0042566	hydrogenosome	NCBITaxon:4890	Ascomycota	
 GO:0042566	hydrogenosome	NCBITaxon:33090	Viridiplantae	 
 GO:0016442	RISC complex	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0007041	lysosomal transport	NCBITaxon:4751	Fungi
-GO:0007040	lysosome organization	NCBITaxon:4751	Fungi
-GO:0009725	response to hormone	NCBITaxon:4751	Fungi
-GO:0120020	cholesterol transfer activity	NCBITaxon:4751	Fungi
-GO:0015485	cholesterol binding	activity	NCBITaxon:4751	Fungi
+GO:0007041	lysosomal transport	NCBITaxon:4751	Fungi	
+GO:0007040	lysosome organization	NCBITaxon:4751	Fungi	
+GO:0009725	response to hormone	NCBITaxon:4751	Fungi	
+GO:0120020	cholesterol transfer activity	NCBITaxon:4751	Fungi	
+GO:0015485	cholesterol binding activity	NCBITaxon:4751	Fungi	
