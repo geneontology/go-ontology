@@ -901,8 +901,9 @@ GO:0000282	cellular bud site selection	NCBITaxon:47537	Saccharomycotina
 GO:0047522	15-oxoprostaglandin 13-oxidase activity	NCBITaxon:6072	Eumetazoa
 GO:0006693	prostaglandin metabolic process	NCBITaxon:6072	Eumetazoa
 GO:0071875	adrenergic receptor signaling pathway	NCBITaxon:6072	Eumetazoa
-
+GO:005290723S rRNA (adenine(1618)-N(6))-methyltransferase activity
 GO:0046850	regulation of bone remodeling		NCBITaxon:6072	Eumetazoa
 GO:0055120	striated muscle dense body	NCBITaxon:6072	Eumetazoa
 GO:0030097	hemopoiesis	NCBITaxon:6072	Eumetazoa
 GO:0048168	regulation of neuronal synaptic plasticity	NCBITaxon:6072	Eumetazoa
+GO:0052907	23S rRNA (adenine(1618)-N(6))-methyltransferase activity	NCBITaxon:Union_0000004	Prokaryota
