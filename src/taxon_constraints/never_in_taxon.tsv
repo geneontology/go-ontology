@@ -583,3 +583,12 @@ GO:0007040	lysosome organization	NCBITaxon:4751	Fungi
 GO:0009725	response to hormone	NCBITaxon:4751	Fungi
 GO:0120020	cholesterol transfer activity	NCBITaxon:4751	Fungi
 GO:0015485	cholesterol binding	activity	NCBITaxon:4751	Fungi
+GO:0009755	hormone-mediated signaling pathway	NCBITaxon:4751	Fungi
+GO:0016444	somatic cell DNA recombination	NCBITaxon:4751	Fungi
+GO:0097581	lamellipodium organization	NCBITaxon:4751	Fungi
+GO:1902017	regulation of cilium assembly	NCBITaxon:4751	Fungi
+GO:0051489	regulation of filopodium assembly	NCBITaxon:4751	Fungi
+GO:0030027	lamellipodium	NCBITaxon:4751	Fungi
+GO:2000036	regulation of stem cell population maintenance	NCBITaxon:4751	Fungi
+GO:0015127	bilirubin transmembrane transporter activity	NCBITaxon:4751	Fungi
+GO:0015723  bilirubin transport	NCBITaxon:4751	Fungi
