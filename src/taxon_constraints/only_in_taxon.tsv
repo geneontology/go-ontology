@@ -895,6 +895,13 @@ GO:0141091	transforming growth factor beta receptor superfamily signaling pathwa
 GO:0141169	epigenetic 5-methylcytosine DNA demethylation, direct 5-methylcytosine excision pathway	NCBITaxon:33090	Viridiplantae	PMID:31546611
 GO:0072331	signal transduction by p53 class mediator	NCBITaxon:6072	Eumetazoa
 GO:0042541	hemoglobin biosynthetic process	NCBITaxon:6072	Eumetazoa
+GO:0032186	cellular bud neck septin ring organization	NCBITaxon:47537	Saccharomycotina
+GO:0097271	protein localization to bud neck	NCBITaxon:47537	Saccharomycotina
+GO:0000282	cellular bud site selection	NCBITaxon:47537	Saccharomycotina
+GO:0047522	15-oxoprostaglandin 13-oxidase activity	NCBITaxon:6072	Eumetazoa
+GO:0006693	prostaglandin metabolic process	NCBITaxon:6072	Eumetazoa
+GO:0071875	adrenergic receptor signaling pathway	NCBITaxon:6072	Eumetazoa
+
 GO:0046850	regulation of bone remodeling		NCBITaxon:6072	Eumetazoa
 GO:0055120	striated muscle dense body	NCBITaxon:6072	Eumetazoa
 GO:0030097	hemopoiesis	NCBITaxon:6072	Eumetazoa
