@@ -599,3 +599,4 @@ GO:0050870	regulation of immune system process	NCBITaxon:4932	Saccharomyces cere
 GO:0001817	regulation of cytokine production	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0001817	regulation of cytokine production	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0042417	dopamine metabolic process	NCBITaxon:4751	Fungi
+GO:0030111	regulation of Wnt signaling pathway	NCBITaxon:4751	Fungi
