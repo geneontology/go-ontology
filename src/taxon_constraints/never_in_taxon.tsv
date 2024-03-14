@@ -592,3 +592,10 @@ GO:0030027	lamellipodium	NCBITaxon:4751	Fungi
 GO:2000036	regulation of stem cell population maintenance	NCBITaxon:4751	Fungi
 GO:0015127	bilirubin transmembrane transporter activity	NCBITaxon:4751	Fungi
 GO:0015723  bilirubin transport	NCBITaxon:4751	Fungi
+GO:0015039	NADPH-adrenodoxin reductase activity	NCBITaxon:4751	Fungi
+GO:0045335	phagocytic vesicle		NCBITaxon:4751	Fungi
+GO:0050870	regulation of immune system process	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0050870	regulation of immune system process	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0001817	regulation of cytokine production	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0001817	regulation of cytokine production	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0042417	dopamine metabolic process	NCBITaxon:4751	Fungi
