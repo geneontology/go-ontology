@@ -893,3 +893,9 @@ GO:0047952	glycerol-3-phosphate dehydrogenase [NAD(P)+]	NCBITaxon:2	Bacteria	PMI
 GO:0141153	glycerol-3-phosphate dehydrogenase (NADP+) activity	NCBITaxon:2157	Archaea	PMID:15557260
 GO:0141091	transforming growth factor beta receptor superfamily signaling pathway	NCBITaxon:6072	Eumetazoa	
 GO:0141169	epigenetic 5-methylcytosine DNA demethylation, direct 5-methylcytosine excision pathway	NCBITaxon:33090	Viridiplantae	PMID:31546611
+GO:0072331	signal transduction by p53 class mediator	NCBITaxon:6072	Eumetazoa
+GO:0042541	hemoglobin biosynthetic process	NCBITaxon:6072	Eumetazoa
+GO:0046850	regulation of bone remodeling		NCBITaxon:6072	Eumetazoa
+GO:0055120	striated muscle dense body	NCBITaxon:6072	Eumetazoa
+GO:0030097	hemopoiesis	NCBITaxon:6072	Eumetazoa
+GO:0048168	regulation of neuronal synaptic plasticity	NCBITaxon:6072	Eumetazoa
