@@ -63,7 +63,9 @@ GO:0007143	female meiotic nuclear division	NCBITaxon:4751	Fungi
 GO:0007218	neuropeptide signaling pathway	NCBITaxon:4751	Fungi	
 GO:0007252	I-kappaB phosphorylation	NCBITaxon:4751	Fungi	
 GO:0007258	JUN phosphorylation	NCBITaxon:4895	Schizosaccharomyces	
-GO:0007276	gamete generation	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0007276	gamete generation	NCBITaxon:4751	Fungi	
+GO:0007276	gamete generation	NCBITaxon:2	Bacteria	
+GO:0007276	gamete generation	NCBITaxon:2157	Archaea	
 GO:0007540	sex determination, establishment of X:A ratio	NCBITaxon:8782	Aves	
 GO:0008013	beta-catenin binding	NCBITaxon:4751	Fungi	
 GO:0008188	neuropeptide receptor activity	NCBITaxon:4751	Fungi	
@@ -130,7 +132,9 @@ GO:0017147	Wnt-protein binding	NCBITaxon:4751	Fungi
 GO:0019588	anaerobic glycerol catabolic process	NCBITaxon:4895	Schizosaccharomyces	
 GO:0019654	acetate fermentation	NCBITaxon:4895	Schizosaccharomyces	
 GO:0019763	immunoglobulin receptor activity	NCBITaxon:4751	Fungi	
-GO:0019838	growth factor binding	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0019838	growth factor binding	NCBITaxon:4751	Fungi	
+GO:0019838	growth factor binding	NCBITaxon:2	Bacteria	
+GO:0019838	growth factor binding	NCBITaxon:2157	Archaea	
 GO:0019955	cytokine binding	NCBITaxon:4751	Fungi	
 GO:0020039	pellicle	NCBITaxon:2	Bacteria	
 GO:0020039	pellicle	NCBITaxon:33154	Opisthokonta	
@@ -165,7 +169,9 @@ GO:0034711	inhibin binding	NCBITaxon:4751	Fungi
 GO:0034736	cholesterol O-acyltransferase activity	NCBITaxon:4895	Schizosaccharomyces	
 GO:0034736	cholesterol O-acyltransferase activity	NCBITaxon:4930	Saccharomyces	
 GO:0035287	head segmentation	NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0036053	glomerular endothelium fenestra	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0036053	glomerular endothelium fenestra	NCBITaxon:4751	Fungi	
+GO:0036053	glomerular endothelium fenestra	NCBITaxon:2	Bacteria	
+GO:0036053	glomerular endothelium fenestra	NCBITaxon:2157	Archaea	
 GO:0038093	Fc receptor signaling pathway	NCBITaxon:4751	Fungi	
 GO:0038100	nodal binding	NCBITaxon:4751	Fungi	
 GO:0038161	prolactin signaling pathway	NCBITaxon:4751	Fungi	
@@ -200,7 +206,9 @@ GO:0044419	interspecies interaction between organisms	NCBITaxon:4895	Schizosacch
 GO:0044423	virion part	NCBITaxon:131567	cellular organisms	
 GO:0044548	S100 protein binding	NCBITaxon:4751	Fungi	
 GO:0044730	bone sialoprotein binding	NCBITaxon:4751	Fungi	
-GO:0045087	innate immune response	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0045087	innate immune response	NCBITaxon:4751	Fungi	
+GO:0045087	innate immune response	NCBITaxon:2	Bacteria	
+GO:0045087	innate immune response	NCBITaxon:2157	Archaea	
 GO:0045271	respiratory chain complex I	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:21597881
 GO:0045271	respiratory chain complex I	NCBITaxon:4932	Saccharomyces cerevisiae	PMID:21597881
 GO:0045294	alpha-catenin binding	NCBITaxon:4751	Fungi	
@@ -216,7 +224,9 @@ GO:0046608	carotenoid isomerase activity	NCBITaxon:4932	Saccharomyces cerevisiae
 GO:0046695	SLIK (SAGA-like) complex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0046977	TAP binding	NCBITaxon:4751	Fungi	
 GO:0046980	tapasin binding	NCBITaxon:4751	Fungi	
-GO:0048010	vascular endothelial growth factor receptor signaling pathway	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0048010	vascular endothelial growth factor receptor signaling pathway	NCBITaxon:4751	Fungi	
+GO:0048010	vascular endothelial growth factor receptor signaling pathway	NCBITaxon:2	Bacteria	
+GO:0048010	vascular endothelial growth factor receptor signaling pathway	NCBITaxon:2157	Archaea	
 GO:0048104	establishment of body hair or bristle planar orientation	NCBITaxon:8782	Aves	
 GO:0050764	regulation of phagocytosis	NCBITaxon:147537	Saccharomycotina	
 GO:0050873	brown fat cell differentiation	NCBITaxon:8782	Aves	
@@ -298,7 +308,9 @@ GO:0070805	regulation of phialide development	NCBITaxon:241407	Saccharomycetales
 GO:0070805	regulation of phialide development	NCBITaxon:33208	Metazoa	
 GO:0070805	regulation of phialide development	NCBITaxon:451866	Taphrinomycotina	
 GO:0070805	regulation of phialide development	NCBITaxon:4930	Saccharomyces	
-GO:0070848	response to growth factor	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0070848	response to growth factor	NCBITaxon:4751	Fungi	
+GO:0070848	response to growth factor	NCBITaxon:2	Bacteria	
+GO:0070848	response to growth factor	NCBITaxon:2157	Archaea	
 GO:0071253	connexin binding	NCBITaxon:4751	Fungi	
 GO:0071716	leukotriene transport	NCBITaxon:4751	Fungi	
 GO:0072324	ascus epiplasm	NCBITaxon:5878	Ciliophora	
@@ -312,11 +324,17 @@ GO:0075306	regulation of conidium formation	NCBITaxon:33208	Metazoa
 GO:0075306	regulation of conidium formation	NCBITaxon:451866	Taphrinomycotina	
 GO:0075306	regulation of conidium formation	NCBITaxon:4930	Saccharomyces	
 GO:0086042	cardiac muscle cell-cardiac muscle cell adhesion	NCBITaxon:33090	Viridiplantae	
-GO:0086042	cardiac muscle cell-cardiac muscle cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
-GO:0086080	protein binding involved in heterotypic cell-cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0086042	cardiac muscle cell-cardiac muscle cell adhesion	NCBITaxon:4751	Fungi	
+GO:0086042	cardiac muscle cell-cardiac muscle cell adhesion	NCBITaxon:2	Bacteria	
+GO:0086042	cardiac muscle cell-cardiac muscle cell adhesion	NCBITaxon:2157	Archaea	
+GO:0086080	protein binding involved in heterotypic cell-cell adhesion	NCBITaxon:4751	Fungi	
+GO:0086080	protein binding involved in heterotypic cell-cell adhesion	NCBITaxon:2	Bacteria	
+GO:0086080	protein binding involved in heterotypic cell-cell adhesion	NCBITaxon:2157	Archaea	
 GO:0089719	RHG protein domain binding	NCBITaxon:4751	Fungi	
 GO:0090136	epithelial cell-cell adhesion	NCBITaxon:33090	Viridiplantae	
-GO:0090136	epithelial cell-cell adhesion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0090136	epithelial cell-cell adhesion	NCBITaxon:4751	Fungi	
+GO:0090136	epithelial cell-cell adhesion	NCBITaxon:2	Bacteria	
+GO:0090136	epithelial cell-cell adhesion	NCBITaxon:2157	Archaea	
 GO:0090632	N-glycolylneuraminic acid (Neu5Gc) cytidylyltransferase activity	NCBITaxon:9606	Homo sapiens	
 GO:0097108	hedgehog family protein binding	NCBITaxon:4751	Fungi	
 GO:0097351	toxin-antitoxin pair type II binding	NCBITaxon:2759	Eukaryota	
@@ -345,13 +363,19 @@ GO:0120164	conidium germination	NCBITaxon:33208	Metazoa
 GO:0120164	conidium germination	NCBITaxon:451866	Taphrinomycotina	
 GO:0120164	conidium germination	NCBITaxon:4930	Saccharomyces	
 GO:1901142	insulin metabolic process	NCBITaxon:33090	Viridiplantae	
-GO:1901142	insulin metabolic process	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:1901142	insulin metabolic process	NCBITaxon:4751	Fungi	
+GO:1901142	insulin metabolic process	NCBITaxon:2	Bacteria	
+GO:1901142	insulin metabolic process	NCBITaxon:2157	Archaea	
 GO:1903719	regulation of I-kappaB phosphorylation	NCBITaxon:4751	Fungi	
 GO:1904019	epithelial cell apoptotic process	NCBITaxon:33090	Viridiplantae	
-GO:1904019	epithelial cell apoptotic process	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:1904019	epithelial cell apoptotic process	NCBITaxon:4751	Fungi	
+GO:1904019	epithelial cell apoptotic process	NCBITaxon:2	Bacteria	
+GO:1904019	epithelial cell apoptotic process	NCBITaxon:2157	Archaea	
 GO:1990182	exosomal secretion	NCBITaxon:4890	Ascomycota	
 GO:1990377	organomineral extracellular matrix	NCBITaxon:33090	Viridiplantae	
-GO:1990377	organomineral extracellular matrix	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:1990377	organomineral extracellular matrix	NCBITaxon:4751	Fungi	
+GO:1990377	organomineral extracellular matrix	NCBITaxon:2	Bacteria	
+GO:1990377	organomineral extracellular matrix	NCBITaxon:2157	Archaea	
 GO:1990405	protein antigen binding	NCBITaxon:4751	Fungi	
 GO:1990917	ooplasm	NCBITaxon:4751	Fungi	
 GO:0061512	protein localization to cilium	NCBITaxon:3176	Zygnematales	
@@ -513,7 +537,9 @@ GO:0043202	lysosomal lumen	NCBITaxon:4751	Fungi
 GO:0005765	lysosomal membrane	NCBITaxon:4751	Fungi	
 GO:0071588	hydrogen peroxide mediated signaling pathway	NCBITaxon:4751	Fungi	
 GO:0071818	BAT3 complex	NCBITaxon:4890 	Ascomycota	
-GO:0016922	nuclear receptor binding	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0016922	nuclear receptor binding	NCBITaxon:4751	Fungi	
+GO:0016922	nuclear receptor binding	NCBITaxon:2	Bacteria	
+GO:0016922	nuclear receptor binding	NCBITaxon:2157	Archaea	
 GO:0048309	endoplasmic reticulum inheritance	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0140643	hydroxymethylglutaryl-CoA reductase (NADH) activity	NCBITaxon:2759	Eukaryota	
 GO:0044003	modulation by symbiont of host process	NCBITaxon:33090	Viridiplantae	
@@ -556,8 +582,12 @@ GO:0106037	apicomedial cortex	NCBITaxon:4932	Saccharomyces cerevisiae
 GO:0106037	apicomedial cortex	NCBITaxon:2	Bacteria	
 GO:0106037	apicomedial cortex	NCBITaxon:2157	Archaea	
 GO:0005725	intercalary heterochromatin	NCBITaxon:4751	Fungi	
-GO:0017145	stem cell division	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
-GO:0038055	BMP secretion	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0017145	stem cell division	NCBITaxon:4751	Fungi	
+GO:0017145	stem cell division	NCBITaxon:2	Bacteria	
+GO:0017145	stem cell division	NCBITaxon:2157	Archaea	
+GO:0038055	BMP secretion	NCBITaxon:4751	Fungi	
+GO:0038055	BMP secretion	NCBITaxon:2	Bacteria	
+GO:0038055	BMP secretion	NCBITaxon:2157	Archaea	
 GO:0020022	acidocalcisome	NCBITaxon:4890	Ascomycota	
 GO:0042246 	tissue regeneration	NCBITaxon:4751	Fungi	
 GO:0060250 	germ-line stem-cell niche homeostasis	NCBITaxon:4751	Fungi	
