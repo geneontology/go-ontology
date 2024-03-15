@@ -578,3 +578,25 @@ GO:0060818	inactivation of paternal X chromosome by genomic imprinting	NCBITaxon
 GO:0042566	hydrogenosome	NCBITaxon:4890	Ascomycota	
 GO:0042566	hydrogenosome	NCBITaxon:33090	Viridiplantae	 
 GO:0016442	RISC complex	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0007041	lysosomal transport	NCBITaxon:4751	Fungi
+GO:0007040	lysosome organization	NCBITaxon:4751	Fungi
+GO:0009725	response to hormone	NCBITaxon:4751	Fungi
+GO:0120020	cholesterol transfer activity	NCBITaxon:4751	Fungi
+GO:0015485	cholesterol binding	activity	NCBITaxon:4751	Fungi
+GO:0009755	hormone-mediated signaling pathway	NCBITaxon:4751	Fungi
+GO:0016444	somatic cell DNA recombination	NCBITaxon:4751	Fungi
+GO:0097581	lamellipodium organization	NCBITaxon:4751	Fungi
+GO:1902017	regulation of cilium assembly	NCBITaxon:4751	Fungi
+GO:0051489	regulation of filopodium assembly	NCBITaxon:4751	Fungi
+GO:0030027	lamellipodium	NCBITaxon:4751	Fungi
+GO:2000036	regulation of stem cell population maintenance	NCBITaxon:4751	Fungi
+GO:0015127	bilirubin transmembrane transporter activity	NCBITaxon:4751	Fungi
+GO:0015723  bilirubin transport	NCBITaxon:4751	Fungi
+GO:0015039	NADPH-adrenodoxin reductase activity	NCBITaxon:4751	Fungi
+GO:0045335	phagocytic vesicle		NCBITaxon:4751	Fungi
+GO:0050870	regulation of immune system process	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0050870	regulation of immune system process	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0001817	regulation of cytokine production	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0001817	regulation of cytokine production	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0042417	dopamine metabolic process	NCBITaxon:4751	Fungi
+GO:0030111	regulation of Wnt signaling pathway	NCBITaxon:4751	Fungi

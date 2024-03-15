@@ -4808,6 +4808,10 @@ id: GO:0005315
 relationship: RO:0000057 CHEBI:43474
 
 [Term]
+id: GO:0005324
+relationship: RO:0000057 CHEBI:57560
+
+[Term]
 id: GO:0005335
 relationship: RO:0000057 CHEBI:17996
 relationship: RO:0000057 CHEBI:29101
