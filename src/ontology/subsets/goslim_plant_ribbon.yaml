@@ -1,0 +1,19 @@
+id: goslim_plant_ribbon
+title: Plant Ribbon subset
+preferred label: Plants
+type: ribbon
+status: active
+description: "GO ribbon subset that mainly serves to drive the UniProt 'ribbon' display for plant and algae species."
+seeAlso: 
+taxon:
+  id: NCBITaxon:33090
+  label: Viridiplantae
+  email: go-ontology@lists.stanford.edu
+  label: GO Ontology Curators
+github:
+ tracker: https://github.com/geneontology/go-ontology/issues
+ contributors:
+  - email: go-ontology@lists.stanford.edu
+    label: GO Ontology Curators
+    orcid: 
+    github: 
