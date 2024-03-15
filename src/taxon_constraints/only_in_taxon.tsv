@@ -906,3 +906,4 @@ GO:0055120	striated muscle dense body	NCBITaxon:6072	Eumetazoa
 GO:0030097	hemopoiesis	NCBITaxon:6072	Eumetazoa
 GO:0048168	regulation of neuronal synaptic plasticity	NCBITaxon:6072	Eumetazoa
 GO:0052907	23S rRNA (adenine(1618)-N(6))-methyltransferase activity	NCBITaxon:Union_0000004	Prokaryota
+GO:0043292	contractile muscle fiber	NCBITaxon:6072	Eumetazoa
