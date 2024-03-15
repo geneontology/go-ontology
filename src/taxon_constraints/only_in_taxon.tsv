@@ -835,7 +835,7 @@ GO:0045321	leukocyte activation	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0002443	leukocyte mediated immunity	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0050900	leukocyte migration	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0070661	leukocyte proliferation	NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0001909	leukocyte mediated cytotoxicity	NCBITaxon:7742	Vertebrata <Metazoa>    	
+GO:0001909	leukocyte mediated cytotoxicity	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0001776	leukocyte homeostasis	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0043299	leukocyte degranulation	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:7742	Vertebrata <Metazoa>	
@@ -880,7 +880,7 @@ GO:0072487	MSL complex	NCBITaxon:33208	Metazoa
 GO:0042597	periplasmic space	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	PMID:15803654
 GO:0106316	nitrite reductase NADH activity	NCBITaxon:2	Bacteria	
 GO:0008942	nitrite reductase [NAD(P)H] activity	NCBITaxon:2759	Eukaryota	
-GO:0060918	auxin transport	NCBITaxon:33090	Viridiplantae	  
+GO:0060918	auxin transport	NCBITaxon:33090	Viridiplantae	
 GO:2000012	regulation of auxin polar transport	NCBITaxon:33090	Viridiplantae	
 GO:0080161	auxin transmembrane transporter activity	NCBITaxon:33090	Viridiplantae	
 GO:0005793	endoplasmic reticulum-Golgi intermediate compartment	NCBITaxon:2759	Eukaryota	
@@ -894,15 +894,15 @@ GO:0141153	glycerol-3-phosphate dehydrogenase (NADP+) activity	NCBITaxon:2157	Ar
 GO:0141091	transforming growth factor beta receptor superfamily signaling pathway	NCBITaxon:6072	Eumetazoa	
 GO:0141169	epigenetic 5-methylcytosine DNA demethylation, direct 5-methylcytosine excision pathway	NCBITaxon:33090	Viridiplantae	PMID:31546611
 GO:0072331	signal transduction by p53 class mediator	NCBITaxon:6072	Eumetazoa	
-GO:0042541	hemoglobin biosynthetic process	NCBITaxon:6072	Eumetazoa
-GO:0032186	cellular bud neck septin ring organization	NCBITaxon:47537	Saccharomycotina
-GO:0097271	protein localization to bud neck	NCBITaxon:47537	Saccharomycotina
-GO:0000282	cellular bud site selection	NCBITaxon:47537	Saccharomycotina
-GO:0047522	15-oxoprostaglandin 13-oxidase activity	NCBITaxon:6072	Eumetazoa
-GO:0006693	prostaglandin metabolic process	NCBITaxon:6072	Eumetazoa
-GO:0071875	adrenergic receptor signaling pathway	NCBITaxon:6072	Eumetazoa
-GO:0046850	regulation of bone remodeling		NCBITaxon:6072	Eumetazoa
-GO:0055120	striated muscle dense body	NCBITaxon:6072	Eumetazoa
-GO:0030097	hemopoiesis	NCBITaxon:6072	Eumetazoa
-GO:0048168	regulation of neuronal synaptic plasticity	NCBITaxon:6072	Eumetazoa
-GO:0052907	23S rRNA (adenine(1618)-N(6))-methyltransferase activity	NCBITaxon:Union_0000004	Prokaryota
+GO:0042541	hemoglobin biosynthetic process	NCBITaxon:6072	Eumetazoa	
+GO:0032186	cellular bud neck septin ring organization	NCBITaxon:47537	Saccharomycotina	
+GO:0097271	protein localization to bud neck	NCBITaxon:47537	Saccharomycotina	
+GO:0000282	cellular bud site selection	NCBITaxon:47537	Saccharomycotina	
+GO:0047522	15-oxoprostaglandin 13-oxidase activity	NCBITaxon:6072	Eumetazoa	
+GO:0006693	prostaglandin metabolic process	NCBITaxon:6072	Eumetazoa	
+GO:0071875	adrenergic receptor signaling pathway	NCBITaxon:6072	Eumetazoa	
+GO:0046850	regulation of bone remodeling	NCBITaxon:6072	Eumetazoa	
+GO:0055120	striated muscle dense body	NCBITaxon:6072	Eumetazoa	
+GO:0030097	hemopoiesis	NCBITaxon:6072	Eumetazoa	
+GO:0048168	regulation of neuronal synaptic plasticity	NCBITaxon:6072	Eumetazoa	
+GO:0052907	23S rRNA (adenine(1618)-N(6))-methyltransferase activity	NCBITaxon:Union_0000004	Prokaryota	
