@@ -2723,14 +2723,10 @@ http://purl.obolibrary.org/obo/GO_1903619	negative regulation of transdifferenti
 http://purl.obolibrary.org/obo/GO_0051348	negative regulation of transferase activity	http://purl.obolibrary.org/obo/GO_0016740	transferase activity
 http://purl.obolibrary.org/obo/GO_1904436	negative regulation of transferrin receptor binding	http://purl.obolibrary.org/obo/GO_1990459	transferrin receptor binding
 http://purl.obolibrary.org/obo/GO_1904188	negative regulation of transformation of host cell by virus	http://purl.obolibrary.org/obo/GO_0019087	transformation of host cell by virus
-http://purl.obolibrary.org/obo/GO_1901389	negative regulation of transforming growth factor beta activation	http://purl.obolibrary.org/obo/GO_0036363	transforming growth factor beta activation
 http://purl.obolibrary.org/obo/GO_0071635	negative regulation of transforming growth factor beta production	http://purl.obolibrary.org/obo/GO_0071604	transforming growth factor beta production
 http://purl.obolibrary.org/obo/GO_0030512	negative regulation of transforming growth factor beta receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007179	transforming growth factor beta receptor signaling pathway
-http://purl.obolibrary.org/obo/GO_1901393	negative regulation of transforming growth factor beta1 activation	http://purl.obolibrary.org/obo/GO_0036364	transforming growth factor beta1 activation
 http://purl.obolibrary.org/obo/GO_0032911	negative regulation of transforming growth factor beta1 production	http://purl.obolibrary.org/obo/GO_0032905	transforming growth factor beta1 production
-http://purl.obolibrary.org/obo/GO_1901396	negative regulation of transforming growth factor beta2 activation	http://purl.obolibrary.org/obo/GO_0036365	transforming growth factor beta2 activation
 http://purl.obolibrary.org/obo/GO_0032912	negative regulation of transforming growth factor beta2 production	http://purl.obolibrary.org/obo/GO_0032906	transforming growth factor beta2 production
-http://purl.obolibrary.org/obo/GO_1901399	negative regulation of transforming growth factor beta3 activation	http://purl.obolibrary.org/obo/GO_0036366	transforming growth factor beta3 activation
 http://purl.obolibrary.org/obo/GO_0032913	negative regulation of transforming growth factor beta3 production	http://purl.obolibrary.org/obo/GO_0032907	transforming growth factor beta3 production
 http://purl.obolibrary.org/obo/GO_0017148	negative regulation of translation	http://purl.obolibrary.org/obo/GO_0006412	translation
 http://purl.obolibrary.org/obo/GO_0045900	negative regulation of translational elongation	http://purl.obolibrary.org/obo/GO_0006414	translational elongation
