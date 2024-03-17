@@ -2713,14 +2713,10 @@ http://purl.obolibrary.org/obo/GO_0140471	positive regulation of transepithelial
 http://purl.obolibrary.org/obo/GO_0051347	positive regulation of transferase activity	http://purl.obolibrary.org/obo/GO_0016740	transferase activity
 http://purl.obolibrary.org/obo/GO_1904437	positive regulation of transferrin receptor binding	http://purl.obolibrary.org/obo/GO_1990459	transferrin receptor binding
 http://purl.obolibrary.org/obo/GO_1904189	positive regulation of transformation of host cell by virus	http://purl.obolibrary.org/obo/GO_0019087	transformation of host cell by virus
-http://purl.obolibrary.org/obo/GO_1901390	positive regulation of transforming growth factor beta activation	http://purl.obolibrary.org/obo/GO_0036363	transforming growth factor beta activation
 http://purl.obolibrary.org/obo/GO_0071636	positive regulation of transforming growth factor beta production	http://purl.obolibrary.org/obo/GO_0071604	transforming growth factor beta production
 http://purl.obolibrary.org/obo/GO_0030511	positive regulation of transforming growth factor beta receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007179	transforming growth factor beta receptor signaling pathway
-http://purl.obolibrary.org/obo/GO_1901394	positive regulation of transforming growth factor beta1 activation	http://purl.obolibrary.org/obo/GO_0036364	transforming growth factor beta1 activation
 http://purl.obolibrary.org/obo/GO_0032914	positive regulation of transforming growth factor beta1 production	http://purl.obolibrary.org/obo/GO_0032905	transforming growth factor beta1 production
-http://purl.obolibrary.org/obo/GO_1901397	positive regulation of transforming growth factor beta2 activation	http://purl.obolibrary.org/obo/GO_0036365	transforming growth factor beta2 activation
 http://purl.obolibrary.org/obo/GO_0032915	positive regulation of transforming growth factor beta2 production	http://purl.obolibrary.org/obo/GO_0032906	transforming growth factor beta2 production
-http://purl.obolibrary.org/obo/GO_1901400	positive regulation of transforming growth factor beta3 activation	http://purl.obolibrary.org/obo/GO_0036366	transforming growth factor beta3 activation
 http://purl.obolibrary.org/obo/GO_0032916	positive regulation of transforming growth factor beta3 production	http://purl.obolibrary.org/obo/GO_0032907	transforming growth factor beta3 production
 http://purl.obolibrary.org/obo/GO_0045727	positive regulation of translation	http://purl.obolibrary.org/obo/GO_0006412	translation
 http://purl.obolibrary.org/obo/GO_0045901	positive regulation of translational elongation	http://purl.obolibrary.org/obo/GO_0006414	translational elongation
