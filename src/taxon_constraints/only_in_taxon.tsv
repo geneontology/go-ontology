@@ -771,13 +771,11 @@ GO:0101024	mitotic nuclear membrane organization	NCBITaxon:2759	Eukaryota
 GO:0101026	mitotic nuclear membrane biogenesis	NCBITaxon:2759	Eukaryota	
 GO:0048273	mitogen-activated protein kinase p38 binding	NCBITaxon:33208	Metazoa	
 GO:0086036	regulation of cardiac muscle cell membrane potential	NCBITaxon:33208	Metazoa	
-GO:0015734	taurine transport	NCBITaxon:33208	Metazoa	
 GO:0042412	taurine biosynthetic process	NCBITaxon:33208	Metazoa	
-GO:0050323	taurine dehydrogenase activity	NCBITaxon:33208	Metazoa	
-GO:0031299	taurine-pyruvate aminotransferase activity	NCBITaxon:33208	Metazoa	
-GO:0050322	taurine-2-oxoglutarate transaminase activity	NCBITaxon:33208	Metazoa	
+GO:0050323	taurine dehydrogenase activity	NCBITaxon:2	Bacteria	PMID:15073291
+GO:0031299	taurine-pyruvate aminotransferase activity	NCBITaxon:2	Bacteria	PMID:11082195
+GO:0050322	taurine-2-oxoglutarate transaminase activity	NCBITaxon:2 Bacteria	PMID:16535664	
 GO:0062089	regulation of taurine biosynthetic process	NCBITaxon:33208	Metazoa	
-GO:0005369	taurine:sodium symporter activity	NCBITaxon:33208	Metazoa	
 GO:0019452	L-cysteine catabolic process to taurine	NCBITaxon:33208	Metazoa	
 GO:0050325	tauropine dehydrogenase activity	NCBITaxon:33208	Metazoa	
 GO:0103012	ferredoxin-thioredoxin reductase activity	NCBITaxon_Union:0000002	Viridiplantae or Cyanobacteria	
