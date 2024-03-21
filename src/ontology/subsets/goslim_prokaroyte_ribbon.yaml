@@ -8,7 +8,6 @@ seeAlso:
 taxon:
   id: NCBITaxon:2
   label: Bacteria
-  taxon:
   id: NCBITaxon:2157
   label: Archaea
 contact: 
