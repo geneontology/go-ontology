@@ -25,6 +25,7 @@ http://purl.obolibrary.org/obo/GO_1901367	response to L-cysteine	http://purl.obo
 http://purl.obolibrary.org/obo/GO_1904473	response to L-dopa	http://purl.obolibrary.org/obo/CHEBI_57504	L-dopa zwitterion
 http://purl.obolibrary.org/obo/GO_1902065	response to L-glutamate	http://purl.obolibrary.org/obo/CHEBI_29985	L-glutamate(1-)
 http://purl.obolibrary.org/obo/GO_1904844	response to L-glutamine	http://purl.obolibrary.org/obo/CHEBI_58359	L-glutamine zwitterion
+http://purl.obolibrary.org/obo/GO_0043201	response to L-leucine	http://purl.obolibrary.org/obo/CHEBI_57427	L-leucine zwitterion
 http://purl.obolibrary.org/obo/GO_1904386	response to L-phenylalanine derivative	http://purl.obolibrary.org/obo/CHEBI_84144	L-phenylalanine derivative
 http://purl.obolibrary.org/obo/GO_1901345	response to L-thialysine	http://purl.obolibrary.org/obo/CHEBI_156132	L-thialysinium
 http://purl.obolibrary.org/obo/GO_0097315	response to N-acetyl-D-glucosamine	http://purl.obolibrary.org/obo/CHEBI_506227	N-acetyl-D-glucosamine
@@ -239,7 +240,6 @@ http://purl.obolibrary.org/obo/GO_1901654	response to ketone	http://purl.obolibr
 http://purl.obolibrary.org/obo/GO_0036274	response to lapatinib	http://purl.obolibrary.org/obo/CHEBI_49603	lapatinib
 http://purl.obolibrary.org/obo/GO_0010288	response to lead ion	http://purl.obolibrary.org/obo/CHEBI_49807	lead(2+)
 http://purl.obolibrary.org/obo/GO_1901344	response to leptomycin B	http://purl.obolibrary.org/obo/CHEBI_52646	leptomycin B
-http://purl.obolibrary.org/obo/GO_0043201	response to leucine	http://purl.obolibrary.org/obo/CHEBI_25017	leucine
 http://purl.obolibrary.org/obo/GO_1905389	response to leukotriene B4	http://purl.obolibrary.org/obo/CHEBI_57461	leukotriene B4(1-)
 http://purl.obolibrary.org/obo/GO_0070543	response to linoleic acid	http://purl.obolibrary.org/obo/CHEBI_30245	linoleate
 http://purl.obolibrary.org/obo/GO_0033993	response to lipid	http://purl.obolibrary.org/obo/CHEBI_18059	lipid
