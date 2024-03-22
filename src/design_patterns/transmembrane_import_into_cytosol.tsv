@@ -44,7 +44,6 @@ http://purl.obolibrary.org/obo/GO_0098658	inorganic anion import across plasma m
 http://purl.obolibrary.org/obo/GO_0098659	inorganic cation import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_36915	inorganic cation
 http://purl.obolibrary.org/obo/GO_0099587	inorganic ion import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_36914	inorganic ion
 http://purl.obolibrary.org/obo/GO_0098711	iron ion import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_24875	iron cation
-http://purl.obolibrary.org/obo/GO_0098713	leucine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_25017	leucine
 http://purl.obolibrary.org/obo/GO_0015911	long-chain fatty acid import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_57560	long-chain fatty acid anion
 http://purl.obolibrary.org/obo/GO_0098714	malate import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_15595	malate(2-)
 http://purl.obolibrary.org/obo/GO_0098715	malonic acid import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_15792	malonate(2-)

@@ -142,6 +142,8 @@ http://purl.obolibrary.org/obo/GO_1903199	negative regulation of L-dopa decarbox
 http://purl.obolibrary.org/obo/GO_0002037	negative regulation of L-glutamate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098712	L-glutamate import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0062133	negative regulation of L-glutamine biosynthetic process	http://purl.obolibrary.org/obo/GO_1901704	L-glutamine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1901035	negative regulation of L-glutamine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903803	L-glutamine import across plasma membrane
+http://purl.obolibrary.org/obo/GO_2001277	negative regulation of L-leucine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009098	L-leucine biosynthetic process
+http://purl.obolibrary.org/obo/GO_1905533	negative regulation of L-leucine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903801	L-leucine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905009	negative regulation of L-lysine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0097639	L-lysine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905625	negative regulation of L-methionine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905544	L-methionine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905736	negative regulation of L-proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1904271	L-proline import across plasma membrane
@@ -249,7 +251,6 @@ http://purl.obolibrary.org/obo/GO_0010905	negative regulation of UDP-glucose cat
 http://purl.obolibrary.org/obo/GO_1904240	negative regulation of VCP-NPL4-UFD1 AAA ATPase complex assembly	http://purl.obolibrary.org/obo/GO_1904210	VCP-NPL4-UFD1 AAA ATPase complex assembly
 http://purl.obolibrary.org/obo/GO_0061358	negative regulation of Wnt protein secretion	http://purl.obolibrary.org/obo/GO_0061355	Wnt protein secretion
 http://purl.obolibrary.org/obo/GO_0030178	negative regulation of Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0016055	Wnt signaling pathway
-http://purl.obolibrary.org/obo/GO_2000054	negative regulation of Wnt signaling pathway involved in dorsal/ventral axis specification	http://purl.obolibrary.org/obo/GO_0044332	Wnt signaling pathway involved in dorsal/ventral axis specification
 http://purl.obolibrary.org/obo/GO_0003308	negative regulation of Wnt signaling pathway involved in heart development	http://purl.obolibrary.org/obo/GO_0003306	Wnt signaling pathway involved in heart development
 http://purl.obolibrary.org/obo/GO_0045812	negative regulation of Wnt signaling pathway, calcium modulating pathway	http://purl.obolibrary.org/obo/GO_0007223	Wnt signaling pathway, calcium modulating pathway
 http://purl.obolibrary.org/obo/GO_0141113	negative regulation of Wnt signaling pathway, planar cell polarity pathway	http://purl.obolibrary.org/obo/GO_0060071	Wnt signaling pathway, planar cell polarity pathway
@@ -550,9 +551,6 @@ http://purl.obolibrary.org/obo/GO_0050849	negative regulation of calcium-mediate
 http://purl.obolibrary.org/obo/GO_1903280	negative regulation of calcium:sodium antiporter activity	http://purl.obolibrary.org/obo/GO_0005432	calcium:sodium antiporter activity
 http://purl.obolibrary.org/obo/GO_0043124	negative regulation of canonical NF-kappaB signal transduction	http://purl.obolibrary.org/obo/GO_0007249	canonical NF-kappaB signal transduction
 http://purl.obolibrary.org/obo/GO_0090090	negative regulation of canonical Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0060070	canonical Wnt signaling pathway
-http://purl.obolibrary.org/obo/GO_1901296	negative regulation of canonical Wnt signaling pathway involved in cardiac muscle cell fate commitment	http://purl.obolibrary.org/obo/GO_0061317	canonical Wnt signaling pathway involved in cardiac muscle cell fate commitment
-http://purl.obolibrary.org/obo/GO_2000080	negative regulation of canonical Wnt signaling pathway involved in controlling type B pancreatic cell proliferation	http://purl.obolibrary.org/obo/GO_0044343	canonical Wnt signaling pathway involved in regulation of type B pancreatic cell proliferation
-http://purl.obolibrary.org/obo/GO_0072336	negative regulation of canonical Wnt signaling pathway involved in neural crest cell differentiation	http://purl.obolibrary.org/obo/GO_0044335	canonical Wnt signaling pathway involved in neural crest cell differentiation
 http://purl.obolibrary.org/obo/GO_1903675	negative regulation of cap-dependent translational initiation	http://purl.obolibrary.org/obo/GO_0002191	cap-dependent translational initiation
 http://purl.obolibrary.org/obo/GO_1903678	negative regulation of cap-independent translational initiation	http://purl.obolibrary.org/obo/GO_0002190	cap-independent translational initiation
 http://purl.obolibrary.org/obo/GO_1901914	negative regulation of capsule organization	http://purl.obolibrary.org/obo/GO_0045230	capsule organization
@@ -1511,9 +1509,6 @@ http://purl.obolibrary.org/obo/GO_1905622	negative regulation of leaf developmen
 http://purl.obolibrary.org/obo/GO_1900056	negative regulation of leaf senescence	http://purl.obolibrary.org/obo/GO_0010150	leaf senescence
 http://purl.obolibrary.org/obo/GO_2001110	negative regulation of lens epithelial cell proliferation	http://purl.obolibrary.org/obo/GO_0097166	lens epithelial cell proliferation
 http://purl.obolibrary.org/obo/GO_1902747	negative regulation of lens fiber cell differentiation	http://purl.obolibrary.org/obo/GO_0070306	lens fiber cell differentiation
-http://purl.obolibrary.org/obo/GO_2001277	negative regulation of leucine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009098	leucine biosynthetic process
-http://purl.obolibrary.org/obo/GO_0060358	negative regulation of leucine import	http://purl.obolibrary.org/obo/GO_1903801	L-leucine import across plasma membrane
-http://purl.obolibrary.org/obo/GO_1905533	negative regulation of leucine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098713	leucine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1903634	negative regulation of leucine-tRNA ligase activity	http://purl.obolibrary.org/obo/GO_0004823	leucine-tRNA ligase activity
 http://purl.obolibrary.org/obo/GO_0048776	negative regulation of leucophore differentiation	http://purl.obolibrary.org/obo/GO_0048772	leucophore differentiation
 http://purl.obolibrary.org/obo/GO_0002695	negative regulation of leukocyte activation	http://purl.obolibrary.org/obo/GO_0045321	leukocyte activation
@@ -2068,6 +2063,7 @@ http://purl.obolibrary.org/obo/GO_0060101	negative regulation of phagocytosis, e
 http://purl.obolibrary.org/obo/GO_1905163	negative regulation of phagosome maturation	http://purl.obolibrary.org/obo/GO_0090382	phagosome maturation
 http://purl.obolibrary.org/obo/GO_1900981	negative regulation of phenazine biosynthetic process	http://purl.obolibrary.org/obo/GO_0002047	phenazine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900240	negative regulation of phenotypic switching	http://purl.obolibrary.org/obo/GO_0036166	phenotypic switching
+http://purl.obolibrary.org/obo/GO_0180040	negative regulation of pheromone response MAPK cascade	http://purl.obolibrary.org/obo/GO_0071507	pheromone response MAPK cascade
 http://purl.obolibrary.org/obo/GO_0090029	negative regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion	http://purl.obolibrary.org/obo/GO_0000750	pheromone-dependent signal transduction involved in conjugation with cellular fusion
 http://purl.obolibrary.org/obo/GO_0070806	negative regulation of phialide development	http://purl.obolibrary.org/obo/GO_0070790	phialide development
 http://purl.obolibrary.org/obo/GO_0010923	negative regulation of phosphatase activity	http://purl.obolibrary.org/obo/GO_0016791	phosphatase activity
