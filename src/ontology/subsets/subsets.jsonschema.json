@@ -1,0 +1,316 @@
+{
+    "$defs": {
+        "Agent": {
+            "additionalProperties": false,
+            "description": "An individual, organization, or group",
+            "properties": {
+                "email": {
+                    "description": "The email address of the person or group",
+                    "pattern": "^[^\\s]+@[^\\s]+\\.[^\\s]+$",
+                    "type": "string"
+                },
+                "github": {
+                    "description": "The GitHub username for the person or group",
+                    "pattern": "^\\S+$",
+                    "type": "string"
+                },
+                "label": {
+                    "description": "The human-readable name for the person or group",
+                    "type": "string"
+                },
+                "orcid": {
+                    "description": "The ORCID identifier for the person or group",
+                    "pattern": "orcid:\\d{4}\\-\\d{4}\\-\\d{4}\\-[X\\d{4}]",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "email",
+                "label"
+            ],
+            "title": "Agent",
+            "type": "object"
+        },
+        "Contact": {
+            "additionalProperties": false,
+            "description": "The primary contact person for a subset",
+            "properties": {
+                "email": {
+                    "description": "The email address of the person or group",
+                    "pattern": "^[^\\s]+@[^\\s]+\\.[^\\s]+$",
+                    "type": "string"
+                },
+                "github": {
+                    "description": "The GitHub username for the person or group",
+                    "pattern": "^\\S+$",
+                    "type": "string"
+                },
+                "label": {
+                    "description": "The human-readable name for the person or group",
+                    "type": "string"
+                },
+                "orcid": {
+                    "description": "The ORCID identifier for the person or group",
+                    "pattern": "orcid:\\d{4}\\-\\d{4}\\-\\d{4}\\-[X\\d{4}]",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "email",
+                "label"
+            ],
+            "title": "Contact",
+            "type": "object"
+        },
+        "Contributor": {
+            "additionalProperties": false,
+            "description": "People or organizations who have contributed to the subset",
+            "properties": {
+                "email": {
+                    "description": "The email address of the person or group",
+                    "pattern": "^[^\\s]+@[^\\s]+\\.[^\\s]+$",
+                    "type": "string"
+                },
+                "github": {
+                    "description": "The GitHub username for the person or group",
+                    "pattern": "^\\S+$",
+                    "type": "string"
+                },
+                "label": {
+                    "description": "The human-readable name for the person or group",
+                    "type": "string"
+                },
+                "orcid": {
+                    "description": "The ORCID identifier for the person or group",
+                    "pattern": "orcid:\\d{4}\\-\\d{4}\\-\\d{4}\\-[X\\d{4}]",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "email",
+                "label"
+            ],
+            "title": "Contributor",
+            "type": "object"
+        },
+        "StatusEnum": {
+            "description": "",
+            "enum": [
+                "active",
+                "obsolete",
+                "unknown"
+            ],
+            "title": "StatusEnum",
+            "type": "string"
+        },
+        "Subset": {
+            "additionalProperties": false,
+            "allOf": [
+                {
+                    "if": {
+                        "properties": {
+                            "status": {
+                                "const": "active"
+                            }
+                        },
+                        "required": [
+                            "status"
+                        ]
+                    },
+                    "then": {
+                        "properties": {
+                            "description": {},
+                            "role": {},
+                            "tracker": {}
+                        },
+                        "required": [
+                            "role",
+                            "description",
+                            "tracker"
+                        ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "archived_url": {}
+                        },
+                        "required": [
+                            "archived_url"
+                        ]
+                    },
+                    "then": {
+                        "properties": {
+                            "status": {
+                                "const": "obsolete"
+                            }
+                        },
+                        "required": [
+                            "status"
+                        ]
+                    }
+                }
+            ],
+            "description": "",
+            "properties": {
+                "archived_url": {
+                    "description": "The URL of the archived subset",
+                    "type": "string"
+                },
+                "contact": {
+                    "$ref": "#/$defs/Contact",
+                    "description": "The primary contact person for the subset. Every active subset must have a contact person. There is a max of one contact, list others under contributors."
+                },
+                "contributors": {
+                    "description": "People or organizations who have contributed to the subset",
+                    "items": {
+                        "$ref": "#/$defs/Contributor"
+                    },
+                    "type": "array"
+                },
+                "description": {
+                    "description": "A description of the subset",
+                    "type": "string"
+                },
+                "id": {
+                    "description": "subsets are identified by symbols such as goslim_agr",
+                    "pattern": "^[a-zA-Z_]+$",
+                    "type": "string"
+                },
+                "label": {
+                    "description": "A human-readable name for the subset",
+                    "type": "string"
+                },
+                "replaced_by": {
+                    "description": "The subset that replaces this one",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "role": {
+                    "$ref": "#/$defs/SubsetTypeEnum",
+                    "description": "A slim or subset is built for a particular purpose or role."
+                },
+                "see_also": {
+                    "description": "URLs to related resources or information",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "status": {
+                    "$ref": "#/$defs/StatusEnum",
+                    "description": "The maintenance status of the subset"
+                },
+                "taxa": {
+                    "description": "The taxa to which the subset applies",
+                    "items": {
+                        "$ref": "#/$defs/Taxon"
+                    },
+                    "type": "array"
+                },
+                "title": {
+                    "description": "A human-readable long-form name for the subset",
+                    "type": "string"
+                },
+                "tracker": {
+                    "description": "The URL of the tracker for the subset",
+                    "pattern": "^https://github.com/geneontology[^\\s]+$",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "title",
+                "status"
+            ],
+            "title": "Subset",
+            "type": "object"
+        },
+        "SubsetCollection": {
+            "additionalProperties": false,
+            "description": "A collection of metadata about subsets",
+            "properties": {
+                "description": {
+                    "description": "A description of the collection",
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "subsets": {
+                    "description": "all subsets in a collection",
+                    "items": {
+                        "$ref": "#/$defs/Subset"
+                    },
+                    "type": "array"
+                }
+            },
+            "required": [
+                "id"
+            ],
+            "title": "SubsetCollection",
+            "type": "object"
+        },
+        "SubsetTypeEnum": {
+            "description": "A slim or subset is built for a particular purpose or role. This enumeration includes the allowed values",
+            "enum": [
+                "ExclusionList",
+                "Binning",
+                "Ribbon",
+                "Tag"
+            ],
+            "title": "SubsetTypeEnum",
+            "type": "string"
+        },
+        "Taxon": {
+            "additionalProperties": false,
+            "description": "A taxonomic classification",
+            "properties": {
+                "id": {
+                    "description": "The identifier for the taxon. Should be from NCBI Taxonomy",
+                    "pattern": "^NCBITaxon:\\d+$",
+                    "type": "string"
+                },
+                "label": {
+                    "description": "The human-readable name for the taxon",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "label"
+            ],
+            "title": "Taxon",
+            "type": "object"
+        }
+    },
+    "$id": "http://w3id.org/oaklib/ontology_subset_schema",
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "additionalProperties": true,
+    "description": "A collection of metadata about subsets",
+    "metamodel_version": "1.7.0",
+    "properties": {
+        "description": {
+            "description": "A description of the collection",
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "subsets": {
+            "description": "all subsets in a collection",
+            "items": {
+                "$ref": "#/$defs/Subset"
+            },
+            "type": "array"
+        }
+    },
+    "required": [
+        "id"
+    ],
+    "title": "ontology_subset_schema",
+    "type": "object",
+    "version": null
+}
