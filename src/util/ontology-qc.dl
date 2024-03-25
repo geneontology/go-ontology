@@ -1,0 +1,35 @@
+#define RDF_TYPE "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>"
+#define RDFS_SUBCLASS_OF "<http://www.w3.org/2000/01/rdf-schema#subClassOf>"
+#define RDFS_SUBPROPERTY_OF "<http://www.w3.org/2000/01/rdf-schema#subPropertyOf>"
+#define OWL_CLASS "<http://www.w3.org/2002/07/owl#Class>"
+#define OWL_AXIOM "<http://www.w3.org/2002/07/owl#Axiom>"
+#define OWL_ANNOTATED_SOURCE "<http://www.w3.org/2002/07/owl#annotatedSource>"
+#define OWL_ANNOTATED_PROPERTY "<http://www.w3.org/2002/07/owl#annotatedProperty>"
+#define OWL_TRANSITIVE_PROPERTY "<http://www.w3.org/2002/07/owl#TransitiveProperty>"
+#define OIO_HAS_DB_XREF "<http://www.geneontology.org/formats/oboInOwl#hasDbXref>"
+#define IAO_DEFINITION "<http://purl.obolibrary.org/obo/IAO_0000115>"
+
+.decl error(message: symbol)
+.decl ontrdf(s: symbol, p: symbol, o: symbol)
+.decl term(iri: symbol)
+.decl xref(term: symbol, ref: symbol)
+.decl defxref(term: symbol, ref: symbol)
+.decl obsolete_ec(ec: symbol)
+
+.input ontrdf(filename="go-edit.facts")
+.input obsolete_ec(filename="../resources/obsolete_ec.txt")
+
+term(iri) :- ontrdf(iri, RDF_TYPE, OWL_CLASS), match("<.+>", iri).
+
+xref(term, ref) :- ontrdf(term, OIO_HAS_DB_XREF, ref), term(term).
+
+defxref(term, ref) :- 
+    ontrdf(axiom, OWL_ANNOTATED_SOURCE, term),
+    term(term),
+    ontrdf(axiom, OWL_ANNOTATED_PROPERTY, IAO_DEFINITION),
+    ontrdf(axiom, OIO_HAS_DB_XREF, ref).
+
+error(cat("ERROR: ", term, " has an xref to an obsolete EC: ", ec)) :- xref(term, ec), obsolete_ec(ec).
+error(cat("ERROR: ", term, " has a definition xref to an obsolete EC: ", ec)) :- defxref(term, ec), obsolete_ec(ec).
+
+.output error(filename="datalog-violations.tsv")
