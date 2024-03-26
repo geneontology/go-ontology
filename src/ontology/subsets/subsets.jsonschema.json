@@ -177,10 +177,6 @@
                     "pattern": "^[a-zA-Z_]+$",
                     "type": "string"
                 },
-                "label": {
-                    "description": "A human-readable name for the subset",
-                    "type": "string"
-                },
                 "replaced_by": {
                     "description": "The subset that replaces this one",
                     "items": {
@@ -198,6 +194,10 @@
                         "type": "string"
                     },
                     "type": "array"
+                },
+                "short_label": {
+                    "description": "A short human-readable name for the subset. For subsets that are based on species on taxonomy this should typically be the common name (pluralized) of the taxon. The short label is not guaranteed to be globally unique but it must be unique for any given role.",
+                    "type": "string"
                 },
                 "status": {
                     "$ref": "#/$defs/StatusEnum",

@@ -5,6 +5,10 @@
 RUN = poetry run
 SCHEMA = subsets.schema.yaml
 
+all: validate subsets.jsonschema.json
+test: validate
+
+
 validate: go_subsets_metadata.yaml $(SCHEMA)
 	$(RUN) linkml-validate -s subsets.schema.yaml $<
 

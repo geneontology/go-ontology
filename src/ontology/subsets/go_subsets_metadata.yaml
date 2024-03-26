@@ -4,7 +4,7 @@ subsets:
   - id: goantislim_grouping
     title: GO antislim
     role: ExclusionList
-    label: goantislim
+    short_label: goantislim
     status: obsolete
     description: Grouping classes that can be excluded in enrichment analyses etc.
     archived_url: http://release.geneontology.org/2018-08-09/ontology/subsets/goantislim_grouping.obo
@@ -18,7 +18,7 @@ subsets:
   - id: gocheck_do_not_annotate
     title: GO antislim
     role: ExclusionList
-    label: Do not annotate
+    short_label: Do not annotate
     status: active
     description: "Terms that are too high level to be informative for annotation."
     taxa:
@@ -33,7 +33,7 @@ subsets:
         label: GO Ontology Curators
   - id: gocheck_do_not_manually_annotate
     title: Terms not allowed for manual annotation
-    label: Do not manually annotate
+    short_label: Do not manually annotate
     status: obsolete
     replaced_by:
       - gocheck_do_not_annotate
@@ -50,14 +50,14 @@ subsets:
       label: GO Ontology Curators
   - id: gocheck_obsoletion_candidate
     title: Obsoletion candidate subset
-    label: Obsoletion candidate subset
+    short_label: Obsoletion candidate subset
     role: ExclusionList
     status: active
     description: "Terms that are scheduled for obsoletion."
     taxa:
       - id: NCBITaxon:1
         label: all organisms
-    contact: 
+    contact:
       email: go-ontology@lists.stanford.edu
       label: GO Ontology Curators
     tracker: https://github.com/geneontology/go-ontology/issues
@@ -67,13 +67,13 @@ subsets:
   - id: goslim_agr
     title: AGR slim
     role: Ribbon
-    label: Animals and fungi (Opisthokonta)
+    short_label: Animals and fungi (Opisthokonta)
     status: active
     description: "Subset for Alliance of Genome Resources (AGR). The purpose of this subsets is mainly to drive the 'ribbon' display."
     taxa:
       - id: NCBITaxon:33154
         label: Opisthokonta
-    contact: 
+    contact:
       email: go-ontology@lists.stanford.edu
       label: GO Ontology Curators
     tracker: https://github.com/geneontology/go-ontology/issues
@@ -83,13 +83,14 @@ subsets:
         orcid: orcid:0000-0001-7732-3295
   - id: goslim_aspergillus
     title: Aspergillus slim
+    short_label: Aspergillus
     role: Binning
     status: obsolete
     description: "Aspergillus GO slim."
     taxa:
       - id: NCBITaxon:5052
-        label: Aspergillus 
-    contact: 
+        label: Aspergillus
+    contact:
       email: candida-curator@lists.stanford.edu
       label: CDG helpdesk
     tracker: https://github.com/geneontology/go-ontology/issues
@@ -100,13 +101,14 @@ subsets:
         github: jlewsmith
   - id: goslim_candida
     title: Candida slim
+    short_label: Candida
     role: Binning
     status: active
     description: "Candida GO slim."
-    taxa: 
+    taxa:
       - id: NCBITaxon:1535326
         label: Candida
-    contact: 
+    contact:
       email: candida-curator@lists.stanford.edu
       label: CGD helpdesk
     tracker: https://github.com/geneontology/go-ontology/issues
@@ -117,13 +119,14 @@ subsets:
         github: jlewsmith
   - id: goslim_chembl
     title: ChEMBL slim
+    short_label: ChEMBL
     role: Binning
     status: active
     description: "Subset for ChEMBL."  ## TODO: add more details
     taxa:
       - id: NCBITaxon:1
         label: all organisms
-    contact: 
+    contact:
       email: bzdrazil@ebi.ac.uk
       label: Barbara Zdrazil
     tracker: https://github.com/geneontology/go-ontology/issues
@@ -134,14 +137,14 @@ subsets:
         github: BZdrazil
   - id: goslim_drosophila
     title: Drosophila subset
-    label: Insects
+    short_label: Insects
     role: Binning
     status: active
     description: "GO subset for insects. This subset can be used for binning purposes, most annotations should map to a term in the subset."
     taxa:
       - id: NCBITaxon:50557
         label: Insecta
-    contact: 
+    contact:
       email: go-ontology@lists.stanford.edu
       label: GO Ontology Curators
     tracker: https://github.com/geneontology/go-ontology/issues
@@ -152,14 +155,14 @@ subsets:
           github: hattrill
   - id: goslim_euk_cellular_processes_ribbon
     title: GO ribbon for eukaroytic cellular processes
-    label: GO ribbon for eukaroytic cellular processes
+    short_label: Eukaroytic cellular processes
     role: Ribbon
     status: active
     description: "GO ribbon subset that mainly serves to drive the UniProt 'ribbon' display for cellular processes in eukaryotes."
     taxa:
       - id: NCBITaxon:2759
         label: Eukaryota
-    contact: 
+    contact:
       email: go-ontology@lists.stanford.edu
       label: GO Ontology Curators
     tracker: https://github.com/geneontology/go-ontology/issues
@@ -168,14 +171,14 @@ subsets:
         label: GO Ontology Curators
   - id: goslim_flyBase_ribbon
     title: FlyBase Ribbon slim
-    label: Insects  ## TODO: I don't think this is a good name
+    short_label: Insects
     role: Ribbon
     status: active
     description: "Insect GO ribbon subset produced by FlyBase. The purpose of this subset is mainly to drive the Flybase and the UniProt 'ribbon' display."
     taxa:
       - id: NCBITaxon:50557
         label: Insecta
-    contact: 
+    contact:
       email: go-ontology@lists.stanford.edu
       label: GO Ontology Curators
     tracker: https://github.com/geneontology/go-ontology/issues
@@ -187,7 +190,7 @@ subsets:
   - id: goslim_generic
     title: Generic GO subset
     role: Binning
-    label: All organisms
+    short_label: All organisms
     status: active
     description: Generic GO subset. Applies to all species. This slim can be used for binning purposes, 
       most annotations should map to a term in the slim.
@@ -208,6 +211,7 @@ subsets:
     archived_url: "http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/go/GO_slims/archived_GO_slims/goslim_goa.2002?rev=1.4;content-type=text%2Fplain."
   - id: goslim_metagenomics
     title: Metagenomics slim
+    short_label: Metagenomics
     status: unknown
     description: A slim for high-level visualisation of the functional profile of metagenomic samples
     see_also:
@@ -231,13 +235,14 @@ subsets:
         github: mdolanme
   - id: goslim_pir
     title: PIR slim
+    short_label: PIR
     role: Binning
     status: active
     description: "PIR (Protein Information Resource) slim"  ## TODO: better describe this
     taxa:
       - id: NCBITaxon:1
         label: all organisms
-    contact: 
+    contact:
       email: dan5@georgetown.edu
       label: Darren Natale
     tracker: https://github.com/geneontology/go-ontology/issues
@@ -248,7 +253,7 @@ subsets:
         github: nataled
   - id: goslim_plant_ribbon
     title: Plant Ribbon subset
-    label: Plants
+    short_label: Plants
     role: Ribbon
     status: active
     description: "GO ribbon subset that mainly serves to drive the UniProt 'ribbon' display for plant and algae species."
@@ -261,13 +266,14 @@ subsets:
         label: GO Ontology Curators
   - id: goslim_plant
     title: Plant slim
+    short_label: Plants
     role: Binning
     status: active
     description: "Plant GO subset."
-    taxa: 
+    taxa:
       - id: NCBITaxon:33090
         label: Viridiplantae
-    contact: 
+    contact:
       email: curator@arabidopsis.org
       label: TAIR helpdesk
     tracker: https://github.com/geneontology/go-ontology/issues
@@ -278,13 +284,14 @@ subsets:
         github: tberardini
   - id: goslim_pombe
     title: Schizosaccharomyces pombe slim
+    short_label: Schizosaccharomyces pombe
     role: Binning
     status: active
     description: "Schizosaccharomyces pombe GO subset."
     taxa:
       - id: NCBITaxon:4896
         label: Schizosaccharomyces pombe
-    contact: 
+    contact:
       email: vw253@cam.ac.uk
       label: Valerie Wood
     tracker: https://github.com/geneontology/go-ontology/issues
@@ -295,7 +302,7 @@ subsets:
         github: ValWood
   - id: goslim_prokaroyte_ribbon
     title: Prokaryote Ribbon slim
-    label: Bacteria and Archaea (Prokaryotes)
+    short_label: Bacteria and Archaea (Prokaryotes)
     role: Ribbon
     status: active
     description: "Prokaryote GO ribbon subset that mainly serves to drive the UniProt 'ribbon' display for prokaryote organisms."
@@ -304,7 +311,7 @@ subsets:
         label: Bacteria
       - id: NCBITaxon:2157
         label: Archaea
-    contact: 
+    contact:
       email: go-ontology@lists.stanford.edu
       label: GO Ontology Curators
     tracker: https://github.com/geneontology/go-ontology/issues
@@ -313,6 +320,7 @@ subsets:
         label: GO Ontology Curators
   - id: goslim_synapse
     title: synapse GO slim
+    short_label: SynGO
     role: Binning
     status: active
     description: "Synapse GO slim provided by SynGO. This is the subset of GO terms available for annotation in the SynGO tool."
@@ -344,6 +352,7 @@ subsets:
         github: ftwkoopmans
   - id: goslim_virus
     title: Virus slim
+    short_label: Viruses
     status: obsolete
     description: Virus-relevant terms
     archived_url: "http://release.geneontology.org/2018-08-09/ontology/subsets/goslim_virus.obo."
@@ -359,7 +368,7 @@ subsets:
     taxa:
       - id: NCBITaxon:559292
         label: Saccharomyces cerevisiae
-    contact: 
+    contact:
       email: sgd-helpdesk@lists.stanford.edu
       label: SGD helpdesk
     tracker: https://github.com/geneontology/go-ontology/issues
@@ -367,10 +376,10 @@ subsets:
       - email: stacia@stanford.edu
         label: Stacia Engel
         orcid: orcid:0000-0001-5472-917X
-        github: srengel 
+        github: srengel
       - email: suzia@stanford.edu
         label: Suzi Aleksander
-        orcid: orcid:0000-0001-6787-2901 
+        orcid: orcid:0000-0001-6787-2901
         github: suzialeksander
   - id: obsolete_gosubset_prok
     title: Prokaryote subset
@@ -379,7 +388,7 @@ subsets:
     taxa:
       - id: NCBITaxon:2
         label: Bacteria
-    contact: 
+    contact:
       email: go-ontology@lists.stanford.edu
       label: GO Ontology Curators
     tracker: https://github.com/geneontology/go-ontology/issues
@@ -398,7 +407,7 @@ subsets:
     title: Term Genie terms to be reviewed
     status: obsolete
     description: "Term Genie terms to be reviewed."
-    contact: 
+    contact:
       email: go-ontology@lists.stanford.edu
       label: GO Ontology Curators
     tracker: https://github.com/geneontology/go-ontology/issues

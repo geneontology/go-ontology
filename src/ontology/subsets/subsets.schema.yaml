@@ -71,9 +71,12 @@ classes:
         required: true
         slot_uri: dcterms:title
         description: A human-readable long-form name for the subset
-      label:
+      short_label:
         slot_uri: rdfs:label
-        description: A human-readable name for the subset
+        description: A short human-readable name for the subset. For subsets that
+          are based on species on taxonomy this should typically be the common name
+          (pluralized) of the taxon. The short label is not guaranteed to be globally
+          unique but it must be unique for any given role.
       role:
         aliases:
           - type
@@ -119,6 +122,11 @@ classes:
       archived_url:
         range: uri
         description: The URL of the archived subset
+    unique_keys:
+      short_name_unique:
+        unique_key_slots:
+          - short_name
+          - role
     rules:
       - description: Active subsets must have a role, description, and tracker
         preconditions:
