@@ -215,7 +215,7 @@ http://purl.obolibrary.org/obo/GO_0046248	alpha-pinene biosynthetic process	http
 http://purl.obolibrary.org/obo/GO_1901821	alpha-zeacarotene biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_35063	alpha-zeacarotene
 http://purl.obolibrary.org/obo/GO_0043604	amide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_32988	amide
 http://purl.obolibrary.org/obo/GO_0009309	amine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_32952	amine
-http://purl.obolibrary.org/obo/GO_0008652	amino acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_37022	amino-acid anion
+http://purl.obolibrary.org/obo/GO_0008652	amino acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_35238	amino acid zwitterion
 http://purl.obolibrary.org/obo/GO_0046349	amino sugar biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_28963	amino sugar
 http://purl.obolibrary.org/obo/GO_0006578	amino-acid betaine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_22860	amino-acid betaine
 http://purl.obolibrary.org/obo/GO_0006023	aminoglycan biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_22506	aminoglycan

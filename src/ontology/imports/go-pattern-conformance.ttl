@@ -10227,6 +10227,9 @@
 <http://purl.obolibrary.org/obo/GO_0016057> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
 
 
+<http://purl.obolibrary.org/obo/GO_0016059> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
+
+
 <http://purl.obolibrary.org/obo/GO_0016061> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> .
 
 

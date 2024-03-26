@@ -1341,7 +1341,7 @@ http://purl.obolibrary.org/obo/GO_0045609	positive regulation of inner ear audit
 http://purl.obolibrary.org/obo/GO_2000982	positive regulation of inner ear receptor cell differentiation	http://purl.obolibrary.org/obo/GO_0060113	inner ear receptor cell differentiation
 http://purl.obolibrary.org/obo/GO_1903797	positive regulation of inorganic anion transmembrane transport	http://purl.obolibrary.org/obo/GO_0098661	inorganic anion transmembrane transport
 http://purl.obolibrary.org/obo/GO_0035342	positive regulation of inosine transport	http://purl.obolibrary.org/obo/GO_0035340	inosine transport
-http://purl.obolibrary.org/obo/GO_0031587	positive regulation of inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity	http://purl.obolibrary.org/obo/GO_0005220	inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity
+http://purl.obolibrary.org/obo/GO_0031587	positive regulation of inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity	http://purl.obolibrary.org/obo/GO_0005220	inositol 1,4,5-trisphosphate gated calcium channel activity
 http://purl.obolibrary.org/obo/GO_1900090	positive regulation of inositol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006021	inositol biosynthetic process
 http://purl.obolibrary.org/obo/GO_0060732	positive regulation of inositol phosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_0032958	inositol phosphate biosynthetic process
 http://purl.obolibrary.org/obo/GO_0032962	positive regulation of inositol trisphosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_0032959	inositol trisphosphate biosynthetic process

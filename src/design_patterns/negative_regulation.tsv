@@ -1365,7 +1365,7 @@ http://purl.obolibrary.org/obo/GO_0045608	negative regulation of inner ear audit
 http://purl.obolibrary.org/obo/GO_2000981	negative regulation of inner ear receptor cell differentiation	http://purl.obolibrary.org/obo/GO_0060113	inner ear receptor cell differentiation
 http://purl.obolibrary.org/obo/GO_1903796	negative regulation of inorganic anion transmembrane transport	http://purl.obolibrary.org/obo/GO_0098661	inorganic anion transmembrane transport
 http://purl.obolibrary.org/obo/GO_0035343	negative regulation of inosine transport	http://purl.obolibrary.org/obo/GO_0035340	inosine transport
-http://purl.obolibrary.org/obo/GO_0031586	negative regulation of inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity	http://purl.obolibrary.org/obo/GO_0005220	inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity
+http://purl.obolibrary.org/obo/GO_0031586	negative regulation of inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity	http://purl.obolibrary.org/obo/GO_0005220	inositol 1,4,5-trisphosphate gated calcium channel activity
 http://purl.obolibrary.org/obo/GO_1900089	negative regulation of inositol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006021	inositol biosynthetic process
 http://purl.obolibrary.org/obo/GO_0010920	negative regulation of inositol phosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_0032958	inositol phosphate biosynthetic process
 http://purl.obolibrary.org/obo/GO_0032961	negative regulation of inositol trisphosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_0032959	inositol trisphosphate biosynthetic process
@@ -1990,6 +1990,7 @@ http://purl.obolibrary.org/obo/GO_0075266	negative regulation of oogonium develo
 http://purl.obolibrary.org/obo/GO_0075324	negative regulation of oomycete sporangium development	http://purl.obolibrary.org/obo/GO_0075321	oomycete sporangium development
 http://purl.obolibrary.org/obo/GO_0075246	negative regulation of oospore formation	http://purl.obolibrary.org/obo/GO_0075243	oospore formation
 http://purl.obolibrary.org/obo/GO_2000475	negative regulation of opioid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0038003	G protein-coupled opioid receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0016059	negative regulation of opsin-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0016056	rhodopsin mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_2000596	negative regulation of optic nerve formation	http://purl.obolibrary.org/obo/GO_0021634	optic nerve formation
 http://purl.obolibrary.org/obo/GO_1905592	negative regulation of optical nerve axon regeneration	http://purl.obolibrary.org/obo/GO_0101027	optical nerve axon regeneration
 http://purl.obolibrary.org/obo/GO_1900702	negative regulation of orcinol biosynthetic process	http://purl.obolibrary.org/obo/GO_0046197	orcinol biosynthetic process
