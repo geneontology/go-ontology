@@ -1,71 +1,198 @@
-type: map
-mapping:
-  "id":
-    type: str
-    required: true
-  "title":
-    type: str
-    required: true
-  "preferred label":
-    type: str
-    required: true
-  "type":
-    type: str
-    required: true
-    enum: [blacklist, binning subset, ribbon, tag]
-  "status":
-    type: str
-    required: true
-    enum: [active, obsolete]
-  "description":
-    type: str
-    required: true
-  "taxon": 
-    - type: map
-      mapping:
-        "id":
-          type: str
-          required: true
-          pattern: /NCBITaxon\:\d+/
-        "label":
-          type: str
-          required: true
-  "github":
-    - type: map
-      mapping:
-        "tracker":
-          type: string
-          required: true+
-          pattern: /https:\/\/github\.com\/geneontology[^\s]+/
-  "contact":
-    - type: map
-      mapping:
-        "email":
-          type: str
-          required: true
-          pattern: /[^\s]+@[^\s]+\.[^\s]+/
-        "label":
-          type: str
-          required: true
-  "contributors":
-    - type: map
-      mapping:
-        "email":
-          type: str
-          required: true
-          pattern: /[^\s]+@[^\s]+\.[^\s]+/
-        "label":
-          type: str
-          required: true
-        "orcid":
-          type: str
-          required: false
-          pattern: /https:\/\/orcid.org\/\d{4}\-\d{4}\-\d{4}\-\d{4}/
-        "github":
-          type: str
-          required: false
+id: http://w3id.org/oaklib/ontology_subset_schema
+name: ontology_subset_schema
+imports:
+- linkml:types
+prefixes:
+  linkml: https://w3id.org/linkml/
+  ontology_subset_schema: http://example.org/test-schema/
+  orcid: https://orcid.org/
+  oio: http://www.geneontology.org/formats/oboInOwl#
+  dcterms: http://purl.org/dc/terms/
+  bibo: http://purl.org/ontology/bibo/  
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  datacite: http://purl.org/spar/datacite/  
+  schema: http://schema.org/
+  biolink: https://w3id.org/biolink/
+default_prefix: ontology_subset_schema
+default_range: string
 
-   
-    
+enums:
+  SubsetTypeEnum:
+    description: A slim or subset is built for a particular purpose or role.
+      This enumeration includes the allowed values
+    permissible_values:
+      ExclusionList:
+        aliases:
+          - Blacklist
+          - Anti-slim
+        description: Contains a negative set of terms to be excluded for some purpose.
+          There is typically no limit to the size of an exclusion list.
+      Binning:
+        description: Used for rolling up and binning genes.
+      Ribbon:
+        description: Used for visualization in a ribbon-type display. Ribbons should not include
+          terms that are in direct or indirect hierarchical relationship with each other. Ribbons
+          also seek to minimize overlap in genes annotated to different terms where possible.
+      Tag: {}
+  StatusEnum:
+    permissible_values:
+      active:
+        description: Actively maintained. All terms in the subset are active (not obsolete) in the ontology.
+      obsolete:
+        description: No longer maintained. An archived_url should be provided where possible.
+      unknown:
+        description: Unknown, unstated
+classes:
+  SubsetCollection:
+    description: A collection of metadata about subsets
+    tree_root: true
+    attributes:
+      id:
+        required: true
+        identifier: true
+        range: uri
+      subsets:
+        description: all subsets in a collection
+        range: Subset
+        multivalued: true
+        inlined_as_list: true
+      description:
+        slot_uri: dcterms:description
+        description: A description of the collection
+  Subset:
+    class_uri: oio:Subset
+    attributes:
+      id:
+        required: true
+        identifier: true
+        description: subsets are identified by symbols such as goslim_agr
+        pattern: ^[a-zA-Z_]+$
+      title:
+        required: true
+        slot_uri: dcterms:title
+        description: A human-readable long-form name for the subset
+      short_label:
+        slot_uri: rdfs:label
+        description: A short human-readable name for the subset. For subsets that
+          are based on species on taxonomy this should typically be the common name
+          (pluralized) of the taxon. The short label is not guaranteed to be globally
+          unique but it must be unique for any given role.
+        comments:
+          - "The short label may be used in UIs and displays - for example, GO ribbon displays.
+             Because it is guaranteed unique within the 'Ribbon' role it will be unambiguous"
+      role:
+        aliases:
+          - type
+          - category
+        range: SubsetTypeEnum
+        description: A slim or subset is built for a particular purpose or role.
+      status:
+        slot_uri: bibo:status        
+        range: StatusEnum
+        required: true
+        description: The maintenance status of the subset
+      description:
+        slot_uri: dcterms:description
+        description: A description of the subset
+      taxa:
+        range: Taxon
+        inlined_as_list: true
+        multivalued: true
+        description: The taxa to which the subset applies
+      tracker:
+        pattern: ^https://github.com/geneontology[^\s]+$
+        description: The URL of the tracker for the subset
+      contact:
+        range: Contact
+        description: The primary contact person for the subset.
+          Every active subset must have a contact person.
+          There is a max of one contact, list others under contributors.
+      contributors:
+        slot_uri: dcterms:contributor
+        range: Contributor
+        multivalued: true
+        description: People or organizations who have contributed to the subset
+      see_also:
+        slot_uri: rdfs:seeAlso
+        range: uri
+        multivalued: true
+        description: URLs to related resources or information
+      replaced_by:
+        slot_uri: oio:replacedBy
+        range: Subset
+        description: The subset that replaces this one
+        multivalued: true
+      archived_url:
+        range: uri
+        description: The URL of the archived subset
+    unique_keys:
+      short_name_unique:
+        unique_key_slots:
+          - short_name
+          - role
+    rules:
+      - description: Active subsets must have a role, description, and tracker
+        preconditions:
+          slot_conditions:
+            status:
+              equals_string: active
+        postconditions:
+          slot_conditions:
+            role:
+              required: true
+            description:
+              required: true
+            tracker:
+              required: true
+      - description: Archived URLs only apply to obsolete subsets
+        preconditions:
+          slot_conditions:
+            archived_url:
+              value_presence: PRESENT
+        postconditions:
+          slot_conditions:
+            status:
+              equals_string: obsolete
+  Taxon:
+    description: A taxonomic classification
+    class_uri: biolink:OrganismTaxon
+    attributes:
+      id:
+        description: The identifier for the taxon. Should be from NCBI Taxonomy
+        required: true
+        identifier: true
+        pattern: ^NCBITaxon:\d+$
+        id_prefixes:
+          - NCBITaxon
+      label:
+        slot_uri: rdfs:label
+        required: true
+        description: The human-readable name for the taxon
+  Agent:
+    description: An individual, organization, or group
+    attributes:
+      email:
+        required: true
+        pattern: ^[^\s]+@[^\s]+\.[^\s]+$
+        slot_uri: schema:email
+        description: The email address of the person or group
+      label:
+        required: true
+        slot_uri: rdfs:label
+        description: The human-readable name for the person or group
+      orcid:
+        recommended: true
+        slot_uri: datacite:orcid
+        pattern: orcid:\d{4}\-\d{4}\-\d{4}\-[X\d{4}]
+        description: The ORCID identifier for the person or group
+      github:
+        recommended: true
+        pattern: ^\S+$
+        description: The GitHub username for the person or group
+  Contact:
+    is_a: Agent
+    description: The primary contact person for a subset
+  Contributor:
+    is_a: Agent
+    description: People or organizations who have contributed to the subset
 
- 
