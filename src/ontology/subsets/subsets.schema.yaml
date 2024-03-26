@@ -77,6 +77,9 @@ classes:
           are based on species on taxonomy this should typically be the common name
           (pluralized) of the taxon. The short label is not guaranteed to be globally
           unique but it must be unique for any given role.
+        comments:
+          - "The short label may be used in UIs and displays - for example, GO ribbon displays.
+             Because it is guaranteed unique within the 'Ribbon' role it will be unambiguous"
       role:
         aliases:
           - type
