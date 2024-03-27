@@ -212,10 +212,23 @@ subsets:
   - id: goslim_metagenomics
     title: Metagenomics slim
     short_label: Metagenomics
-    status: unknown
+    status: active
     description: A slim for high-level visualisation of the functional profile of metagenomic samples
     see_also:
       - https://www.ebi.ac.uk/about/news/updates-from-data-resources/metagenomics-go-slim-2016/
+      - PMID:29069476
+    taxa:
+     - id: NCBITaxon:408169
+       label: metagenomes
+    contact: 
+      email: metagenomics-help@ebi.ac.uk
+      label: MGnify helpdesk
+   tracker: https://github.com/geneontology/go-ontology/issues
+   contributors:
+    - email: 
+      label: Alex Mitchell
+      orcid:  https://orcid.org/0000-0001-8655-7966
+      github: almitchell
   - id: goslim_mouse
     title: Mouse GO slim
     role: Binning
