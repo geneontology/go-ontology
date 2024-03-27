@@ -613,3 +613,4 @@ GO:0043066	negative regulation of apoptotic process		NCBITaxon:4896	Schizosaccha
 GO:0042981	regulation of apoptotic process		NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:2001235 	positive regulation of apoptotic signaling pathway		NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:1903298 	negative regulation of hypoxia-induced intrinsic apoptotic signaling pathway		NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0031519  PcG protein complex		NCBITaxon:4890	Ascomycota  
