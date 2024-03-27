@@ -613,3 +613,11 @@ GO:0043066	negative regulation of apoptotic process		NCBITaxon:4896	Schizosaccha
 GO:0042981	regulation of apoptotic process		NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:2001235 	positive regulation of apoptotic signaling pathway		NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:1903298 	negative regulation of hypoxia-induced intrinsic apoptotic signaling pathway		NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0050865	regulation of cell activation		NCBITaxon:4890	Ascomycota	
+GO:0070877	microprocessor complex	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:2000636	positive regulation of primary miRNA processing	NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0009649	entrainment of circadian clock		NCBITaxon:4896	Schizosaccharomyces pombe
+GO:1990428	miRNA transport		NCBITaxon:4896	Schizosaccharomyces pombe
+GO:2000630	positive regulation of miRNA metabolic process		NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0035196	miRNA processing		NCBITaxon:4896	Schizosaccharomyces pombe
+GO:0035198	miRNA binding		NCBITaxon:4896	Schizosaccharomyces pombe
