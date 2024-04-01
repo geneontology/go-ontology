@@ -603,22 +603,22 @@ GO:0030111	regulation of Wnt signaling pathway	NCBITaxon:4751	Fungi
 GO:0043045	epigenetic programming of gene expression	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea  
 GO:0060400  negative regulation of growth hormone receptor signaling pathway  NCBITaxon:4751  Fungi  
 GO:2000036	regulation of stem cell population maintenance	NCBITaxon:4751	Fungi	
-GO:0009725	response to hormone	NCBITaxon:4890	Ascomycota
-GO:0009652	thigmotropism		NCBITaxon:4890	Ascomycota
-GO:0048870	cell motility		NCBITaxon:4890	Ascomycota
-GO:0051489	regulation of filopodium assembly		NCBITaxon:4890	Ascomycota
-GO:0010591	regulation of lamellipodium assembly		NCBITaxon:4890	Ascomycota
-GO:0051490	negative regulation of filopodium assembly		NCBITaxon:4890	Ascomycota
-GO:0043066	negative regulation of apoptotic process		NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0042981	regulation of apoptotic process		NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:2001235 	positive regulation of apoptotic signaling pathway		NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:1903298 	negative regulation of hypoxia-induced intrinsic apoptotic signaling pathway		NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0050865	regulation of cell activation		NCBITaxon:4890	Ascomycota	
-GO:0070877	microprocessor complex	NCBITaxon:4896	Schizosaccharomyces pombe  
-GO:2000636	positive regulation of primary miRNA processing	NCBITaxon:4896	Schizosaccharomyces pombe  
-GO:0009649	entrainment of circadian clock		NCBITaxon:4896	Schizosaccharomyces pombe  
-GO:1990428	miRNA transport		NCBITaxon:4896	Schizosaccharomyces pombe  
-GO:2000630	positive regulation of miRNA metabolic process		NCBITaxon:4896	Schizosaccharomyces pombe  
-GO:0035196	miRNA processing		NCBITaxon:4896	Schizosaccharomyces pombe  
-GO:0035198	miRNA binding		NCBITaxon:4896	Schizosaccharomyces pombe  
-GO:0031519  PcG protein complex		NCBITaxon:4890	Ascomycota  
+GO:0009725	response to hormone	NCBITaxon:4890	Ascomycota	
+GO:0009652	thigmotropism	NCBITaxon:4890	Ascomycota	
+GO:0048870	cell motility	NCBITaxon:4890	Ascomycota	
+GO:0051489	regulation of filopodium assembly	NCBITaxon:4890	Ascomycota	
+GO:0010591	regulation of lamellipodium assembly	NCBITaxon:4890	Ascomycota	
+GO:0051490	negative regulation of filopodium assembly	NCBITaxon:4890	Ascomycota	
+GO:0043066	negative regulation of apoptotic process	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0042981	regulation of apoptotic process	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:2001235 	positive regulation of apoptotic signaling pathway	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:1903298 	negative regulation of hypoxia-induced intrinsic apoptotic signaling pathway	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0050865	regulation of cell activation	NCBITaxon:4890	Ascomycota	
+GO:0070877	microprocessor complex	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:2000636	positive regulation of primary miRNA processing	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0009649	entrainment of circadian clock	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:1990428	miRNA transport	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:2000630	positive regulation of miRNA metabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0035196	miRNA processing	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0035198	miRNA binding	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0031519	PcG protein complex	NCBITaxon:4890	Ascomycota	
