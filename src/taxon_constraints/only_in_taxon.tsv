@@ -907,24 +907,24 @@ GO:0052907	23S rRNA (adenine(1618)-N(6))-methyltransferase activity	NCBITaxon:Un
 GO:0043292	contractile muscle fiber	NCBITaxon:6072	Eumetazoa	
 GO:0160175	somatic muscle attachment to chitin-based cuticle	NCBITaxon:6656	Arthropoda	
 GO:0001734	mRNA (N6-adenosine)-methyltransferase activity	NCBITaxon:2759	Eukaryota	
-GO:0016120	carotene biosynthetic process	NCBITaxon:33090	Viridiplantae
-GO:0016605	PML body	NCBITaxon:6072	Eumetazoa
-GO:0006699	bile acid biosynthetic process	NCBITaxon:6072	Eumetazoa
-GO:0050870	positive regulation of T cell activation	NCBITaxon:6072	Eumetazoa
-GO:0043123	positive regulation of canonical NF-kappaB signal transduction	NCBITaxon:6072	Eumetazoa
-GO:0032727	positive regulation of interferon-alpha production	NCBITaxon:6072	Eumetazoa
-GO:0032755	positive regulation of interleukin-6 production	NCBITaxon:6072	Eumetazoa
-GO:0031643	positive regulation of myelination	NCBITaxon:6072	Eumetazoa
-GO:0032729	positive regulation of type II interferon production	NCBITaxon:6072	Eumetazoa
-GO:0046850	regulation of bone remodeling	NCBITaxon:7742	Vertebrata <Metazoa>
-GO:0060998	regulation of dendritic spine development	NCBITaxon:7742	Vertebrata <Metazoa>
-GO:0070324	thyroid hormone binding	NCBITaxon:6072	Eumetazoa
-GO:0009887	animal organ morphogenesis	NCBITaxon:6072	Eumetazoa
-GO:0070531	BRCA1-A complex	NCBITaxon:6072	Eumetazoa
-GO:0031436	BRCA1-BARD1 complex	NCBITaxon:6072	Eumetazoa
-GO:1990220	GroEL-GroES	NCBITaxon:Union_0000004	Prokaryota
-GO:0010736	serum response element binding	NCBITaxon:6072	Eumetazoa
-GO:0009887	animal organ morphogenesis	NCBITaxon:6072	Eumetazoa
-GO:0010236	plastoquinone biosynthetic process		NCBITaxon:33090	Viridiplantae
-GO:0051960	regulation of nervous system development	NCBITaxon:6072	Eumetazoa
-GO:0097271	protein localization to bud neck	NCBITaxon:47537	Saccharomycotina
+GO:0016120	carotene biosynthetic process	NCBITaxon:33090	Viridiplantae	
+GO:0016605	PML body	NCBITaxon:6072	Eumetazoa	
+GO:0006699	bile acid biosynthetic process	NCBITaxon:6072	Eumetazoa	
+GO:0050870	positive regulation of T cell activation	NCBITaxon:6072	Eumetazoa	
+GO:0043123	positive regulation of canonical NF-kappaB signal transduction	NCBITaxon:6072	Eumetazoa	
+GO:0032727	positive regulation of interferon-alpha production	NCBITaxon:6072	Eumetazoa	
+GO:0032755	positive regulation of interleukin-6 production	NCBITaxon:6072	Eumetazoa	
+GO:0031643	positive regulation of myelination	NCBITaxon:6072	Eumetazoa	
+GO:0032729	positive regulation of type II interferon production	NCBITaxon:6072	Eumetazoa	
+GO:0046850	regulation of bone remodeling	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0060998	regulation of dendritic spine development	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0070324	thyroid hormone binding	NCBITaxon:6072	Eumetazoa	
+GO:0009887	animal organ morphogenesis	NCBITaxon:6072	Eumetazoa	
+GO:0070531	BRCA1-A complex	NCBITaxon:6072	Eumetazoa	
+GO:0031436	BRCA1-BARD1 complex	NCBITaxon:6072	Eumetazoa	
+GO:1990220	GroEL-GroES	NCBITaxon:Union_0000004	Prokaryota	
+GO:0010736	serum response element binding	NCBITaxon:6072	Eumetazoa	
+GO:0009887	animal organ morphogenesis	NCBITaxon:6072	Eumetazoa	
+GO:0010236	plastoquinone biosynthetic process	NCBITaxon:33090	Viridiplantae	
+GO:0051960	regulation of nervous system development	NCBITaxon:6072	Eumetazoa	
+GO:0097271	protein localization to bud neck	NCBITaxon:47537	Saccharomycotina	
