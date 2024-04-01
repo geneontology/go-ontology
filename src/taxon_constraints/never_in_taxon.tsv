@@ -601,7 +601,7 @@ GO:0001817	regulation of cytokine production	NCBITaxon:4932	Saccharomyces cerevi
 GO:0042417	dopamine metabolic process	NCBITaxon:4751	Fungi	
 GO:0030111	regulation of Wnt signaling pathway	NCBITaxon:4751	Fungi	
 GO:0043045	epigenetic programming of gene expression	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
-GO:0060400	negative regulation of growth hormone receptor signaling pathway  NCBITaxon:4751  Fungi  
+GO:0060400	negative regulation of growth hormone receptor signaling pathway	NCBITaxon:4751	Fungi	
 GO:2000036	regulation of stem cell population maintenance	NCBITaxon:4751	Fungi	
 GO:0009725	response to hormone	NCBITaxon:4890	Ascomycota	
 GO:0009652	thigmotropism	NCBITaxon:4890	Ascomycota	
