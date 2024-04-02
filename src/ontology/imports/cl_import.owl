@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2023-10-10/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2024-03-08/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -65,6 +65,12 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002161 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002161"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002175 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175"/>
     
 
 
@@ -1728,6 +1734,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000068"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002078"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000222"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>non-branched duct epithelial cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000075">
@@ -1938,6 +1960,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000518"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001035"/>
         <rdfs:subClassOf>
@@ -2347,6 +2370,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000113">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000518"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001407"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000518"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000842"/>
+        <obo:IAO_0000115>A vertebrate phagocyte with a single nucleus.</obo:IAO_0000115>
+        <rdfs:label>mononuclear phagocyte</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000114">
@@ -2699,9 +2744,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A fat-storing cell found mostly in the abdominal cavity and subcutaneous tissue of mammals. Fat is usually stored in the form of triglycerides.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>adipocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>adipose cell</oboInOwl:hasExactSynonym>
-        <rdfs:label>fat cell</rdfs:label>
+        <oboInOwl:hasExactSynonym>fat cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>adipocyte</rdfs:label>
     </owl:Class>
     
 
@@ -4184,8 +4229,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000113"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000145"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000234"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -5287,10 +5332,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0002334"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Fat cells with light coloration and few mitochondria. They contain a scant ring of cytoplasm surrounding a single large lipid droplet or vacuole.</obo:IAO_0000115>
+        <obo:IAO_0000115>An adipocyte with light coloration and few mitochondria. It contains a scant ring of cytoplasm surrounding a single large lipid droplet or vacuole.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>white adipose cell</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>white adipocyte</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>white fat cell</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>white fat cell</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>white adipocyte</rdfs:label>
     </owl:Class>
     
 
@@ -5312,9 +5357,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell from the thermogenic form of adipose tissue found in many species,  particularly in newborns and hibernating mammals, but also in lesser amounts in adults of other mammals including humans. Brown fat is capable of rapid liberation of energy and seems to be important in the maintenance of body temperature immediately after birth and upon waking from hibernation.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>brown adipocyte</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>brown adipose cell</oboInOwl:hasExactSynonym>
-        <rdfs:label>brown fat cell</rdfs:label>
+        <oboInOwl:hasExactSynonym>brown fat cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>brown adipocyte</rdfs:label>
     </owl:Class>
     
 
@@ -5373,8 +5418,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000113"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000145"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000842"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CL_0000542"/>
         <obo:IAO_0000115>A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation. These cells are lineage negative (CD3-negative, CD19-negative, CD34-negative, and CD56-negative).</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym>interdigitating cell</oboInOwl:hasRelatedSynonym>
@@ -6003,6 +6048,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000518">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000234"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_7742"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A phagocyte in vertebrates that is able to phagocytosis.</obo:IAO_0000115>
+        <rdfs:label>phagocyte (sensu Vertebrata)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000519 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000519">
@@ -6057,11 +6118,11 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000228"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_2000060"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000351"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010005"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000371"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A cell from the outer syncytial layer of the trophoblast of an early mammalian embryo, directly associated with the maternal blood supply. It secretes hCG in order to maintain progesterone secretion and sustain a pregnancy.</obo:IAO_0000115>
@@ -6180,15 +6241,15 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0017505"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0000792"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001407"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0040072"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -6316,10 +6377,6 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0017505"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005730"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -6369,6 +6426,10 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0002505"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0040072"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002104"/>
@@ -7145,8 +7206,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000113"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000766"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000842"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -9689,7 +9750,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000092"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000842"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000113"/>
         <obo:IAO_0000115>A specialized mononuclear osteoclast associated with the absorption and removal of bone, precursor of multinuclear osteoclasts.</obo:IAO_0000115>
         <rdfs:label>mononuclear osteoclast</rdfs:label>
     </owl:Class>
@@ -9711,7 +9772,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000092"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000228"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000783"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
@@ -9801,6 +9862,28 @@
         <oboInOwl:hasExactSynonym>CD11c+CD123- DC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mDC</oboInOwl:hasExactSynonym>
         <rdfs:label>myeloid dendritic cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000783 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000783">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000518"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001908"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000228"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000518"/>
+        <obo:IAO_0000115>A phagocyte formed by the fusion of mononuclear phagocytes.</obo:IAO_0000115>
+        <rdfs:label>multinucleated phagocyte</rdfs:label>
     </owl:Class>
     
 
@@ -11651,15 +11734,15 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0017505"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0000791"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CL_4030045"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042582"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0040072"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -11690,10 +11773,6 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0017505"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005730"/>
                     </owl:Restriction>
                     <owl:Restriction>
@@ -11711,6 +11790,10 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CL_4030046"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001932"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0040072"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002104"/>
@@ -12289,7 +12372,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000234"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000576"/>
         <obo:IAO_0000115>A monocyte that responds rapidly to microbial stimuli by secreting cytokines and antimicrobial factors and which is characterized by high expression of CCR2 in both rodents and humans, negative for the lineage markers CD3, CD19, and CD20, and of larger size than non-classical monocytes.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>inflammatory monocyte</oboInOwl:hasExactSynonym>
@@ -21204,12 +21286,40 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000150"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000314"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002159"/>
-        <obo:IAO_0000115>The milk-producing cell of the alveolar unit that emerges during pregnancy.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_4033057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A milk-producing glandular epithelial cell that is part of a mammary gland alveolus and differentiates from a luminal adaptive secretory precursor cell during secretory differentiation (also termed lactogenesis I). Following secretory activation (also termed lactogenesis II), a lactocyte is involved in the synthesis and/or transport of milk constituents including proteins, oligosaccharides, lactose, micronutrients, fat, hormones, immunoglobulins, and cytokines into the lumen of the lactating mammary gland.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>mammary alveolar cell</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>epithelial cell of lactiferous gland</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lactaction-associated mammary epithelial cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lactation-derived mammary cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>luminal cell of alveolus of lactiferous gland</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mammary alveolar epithelial cell</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mammary gland alveolar epithelial cell</oboInOwl:hasExactSynonym>
-        <rdfs:label>mammary alveolar cell</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>LMC</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>lactocyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000069"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002327"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0009116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A mammary epithelial cell that occurs in the lumen of the ductal and alveoli structure in the breast.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>mature luminal cell</oboInOwl:hasBroadSynonym>
+        <rdfs:label>luminal epithelial cell of mammary gland</rdfs:label>
     </owl:Class>
     
 
@@ -21317,8 +21427,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A fat cell derived from a neural crest cell.</obo:IAO_0000115>
-        <rdfs:label>neural crest derived fat cell</rdfs:label>
+        <obo:IAO_0000115>An adipocyte derived from a neural crest cell.</obo:IAO_0000115>
+        <rdfs:label>neural crest derived adipocyte</rdfs:label>
     </owl:Class>
     
 
@@ -21869,7 +21979,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A keratocyte is a specialized fibroblastÂ residing in the cornea stroma that has a flattened, dendritic cell located between the lamellae with a large flattened nucleus and lengthy processes which communicate with neighboring cells. ThisÂ cornealÂ layer, representing about 85-90% of corneal thickness, is built up from highly regular collagenous lamellae and extracellular matrix components. Keratocytes play the major role in keeping it transparent, healing its wounds, and synthesizing its components. This cell type secretes collagen I, V, VI, and keratin sulfate.</obo:IAO_0000115>
+        <obo:IAO_0000115>A keratocyte is a specialized fibroblast residing in the cornea stroma that has a flattened, dendritic morphology; located between the lamellae with a large flattened nucleus, and lengthy processes which communicate with neighboring cells. This corneal layer, representing about 85-90% of corneal thickness, is built up from highly regular collagenous lamellae and extracellular matrix components. Keratocytes play the major role in keeping it transparent, healing its wounds, and synthesizing its components. This cell type secretes collagen I, V, VI, and keratan sulfate.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>corneal fibroblast</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>corneal keratocyte</oboInOwl:hasExactSynonym>
         <rdfs:label>keratocyte</rdfs:label>
@@ -23515,7 +23625,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000864"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1001610"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0010004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -25353,6 +25463,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000497"/>
+        <obo:IAO_0000115>A cell that is part of a cortex of kidney.</obo:IAO_0000115>
         <rdfs:label>kidney cortical cell</rdfs:label>
     </owl:Class>
     
@@ -26729,6 +26840,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0009116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0009116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001911"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A progenitor cell with the potential to differentiate into luminal epithelial cells of mammary glands. In mouse, CD61 and c-kit were found to be coexpressed by the majority of, but not all, committed luminal progenitor cells.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>luminal progenitor cell</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>progenitor cell of luminal mammary epithelium</oboInOwl:hasExactSynonym>
+        <rdfs:label>progenitor cell of mammary luminal epithelium</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0010001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0010001">
@@ -27624,27 +27753,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005737"/>
         <obo:IAO_0000115>Cytoplasm that exhibits affinity for both basic and acid stains under specific pH conditions.</obo:IAO_0000115>
         <rdfs:label>polychromatophilic cytoplasm</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CL_0017505 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0017505">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005634"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000586"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005634"/>
-        <obo:IAO_0000115>A nucleus size quality which is relatively high compared to the amount of cytoplasm present in the same cell.</obo:IAO_0000115>
-        <rdfs:label>increased nucleus size</rdfs:label>
     </owl:Class>
     
 
@@ -28855,6 +28963,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_1000454 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000454">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000066"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001232"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000072"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002518"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1001225"/>
+        <obo:IAO_0000115>An epithelial cell that is part of the collecting duct of renal tubule.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>epithelial cell of renal collecting tubule</oboInOwl:hasExactSynonym>
+        <rdfs:label>kidney collecting duct epithelial cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_1000456 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000456">
@@ -29168,6 +29300,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115>A cell that is part of a kidney.</obo:IAO_0000115>
         <rdfs:label>kidney cell</rdfs:label>
     </owl:Class>
     
@@ -29188,12 +29321,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000497"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005215"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <obo:IAO_0000115>A cell that is part of kidney interstitium.</obo:IAO_0000115>
         <rdfs:label>kidney interstitial cell</rdfs:label>
     </owl:Class>
     
@@ -29214,12 +29342,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000497"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000362"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <obo:IAO_0000115>A cell that is part of a renal medulla.</obo:IAO_0000115>
         <rdfs:label>kidney medulla cell</rdfs:label>
     </owl:Class>
     
@@ -29240,12 +29363,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000497"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001231"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <obo:IAO_0000115>A cell that is part of a nephron tubule.</obo:IAO_0000115>
         <rdfs:label>kidney tubule cell</rdfs:label>
     </owl:Class>
     
@@ -29277,13 +29395,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_1000546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000546">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000066"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005185"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
+        <obo:IAO_0000115>An epithelial cell that is part of a renal medulla collecting duct.</obo:IAO_0000115>
+        <rdfs:label>kidney medulla collecting duct epithelial cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_1000547 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_1000547">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000497"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000066"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004205"/>
@@ -29291,13 +29430,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000497"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004205"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000546"/>
         <obo:IAO_0000115>An epithelial cell that is part of some inner medullary collecting duct.</obo:IAO_0000115>
         <rdfs:label>kidney inner medulla collecting duct epithelial cell</rdfs:label>
     </owl:Class>
@@ -29310,7 +29443,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000497"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000066"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004204"/>
@@ -29318,13 +29451,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000497"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004204"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000546"/>
+        <obo:IAO_0000115>An epithelial cell that is part of an outer medullary collecting duct.</obo:IAO_0000115>
         <rdfs:label>kidney outer medulla collecting duct epithelial cell</rdfs:label>
     </owl:Class>
     
@@ -29336,7 +29464,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_1000497"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000066"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004203"/>
@@ -29344,13 +29472,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000497"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004203"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
+        <obo:IAO_0000115>An epithelial cell that is part of a cortical collecting duct.</obo:IAO_0000115>
         <rdfs:label>kidney cortex collecting duct epithelial cell</rdfs:label>
     </owl:Class>
     
@@ -29897,6 +30020,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_1000497"/>
+        <obo:IAO_0000115>A cell that is part of a collecting duct of renal tubule.</obo:IAO_0000115>
         <rdfs:label>kidney collecting duct cell</rdfs:label>
     </owl:Class>
     
@@ -31537,29 +31661,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CL_2000060 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000060">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000351"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010005"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000351"/>
-        <obo:IAO_0000115>A trophoblast of placental villi.  These cells fuse to form synctial  trophoplast - the placental side of the interface between the placenta and maternal blood sinusoids in the decidua.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>vCTB</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>villous cytotrophoblast</oboInOwl:hasExactSynonym>
-        <rdfs:label>placental villous trophoblast</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CL_2000061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_2000061">
@@ -32453,6 +32554,58 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_4030058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4030058">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000235"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002104"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042101"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000235"/>
+        <obo:IAO_0000115>A macrophage that expresses the T cell receptor complex at the cell surface.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>T cell receptor positive macrophage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TCR+ macrophage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>TCR.macs</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>TCR-positive macrophage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4030066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4030066">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000066"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000084"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000066"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_2001013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An epithelial cell that is part of a ureteric bud. A ureteric bud cell has the potential to induce metanephric mesenchymal cells to proliferate and convert to epithelia that form renal tubules via: (1) the secretion of multiple diffusible growth factors that rescue renal progenitors from apoptosis and stimulate them to proliferate and (2) contact-dependent mechanisms that induce mesenchymal-epithelial conversion.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>UB cell</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>ureteric bud cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_4033008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4033008">
@@ -32650,6 +32803,50 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
         <obo:IAO_0000115>A cell that is adjacent to a vessel. A perivascular cell plays a crucial role in maintaining vascular function and tissue homeostasis. This cell type regulates vessel integrity and flow dynamics.</obo:IAO_0000115>
         <rdfs:label>perivascular cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4033057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4033057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0002326"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0011115"/>
+        <obo:IAO_0000115>A luminal epithelial cell of the mammary gland that can proliferate and has the potential to differentiate into a lactocyte during pregnancy. In humans, a luminal adaptive secretory precursor cell can be identified by high levels of the markers EpCAM and CD49f, and in mice it can be identified by low levels of CD29 and high levels of CD14, Kit, CD61, and Tspan8.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>alveolar cell</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>alveolar progenitor</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>luminal progenitor</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>luminal progenitor cell</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>luminal secretory cell</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>ER-negative luminal alveolar progenitor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>AP</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>AV</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>LASP</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>LP</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>LumSec</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>luminal adaptive secretory precursor cell of mammary gland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_4033064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_4033064">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000864"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000995"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000864"/>
+        <obo:IAO_0000115>A tissue-resident macrophage that is part of the uterus.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>uterine macrophage</oboInOwl:hasBroadSynonym>
+        <rdfs:label>uterine resident macrophage</rdfs:label>
     </owl:Class>
     
 
@@ -34382,6 +34579,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_2001013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_2001013"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
@@ -34625,6 +34828,12 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0002506 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002506"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0040072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0040072"/>
     
 
 
@@ -35312,6 +35521,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000007204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007204"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000007431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007431"/>
@@ -35540,6 +35755,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000084"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000087"/>
@@ -35603,6 +35824,12 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0000369 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000369"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000371"/>
     
 
 
@@ -37076,6 +37303,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0005185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005185"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0005203 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0005203"/>
@@ -37241,12 +37474,6 @@
     <!-- http://purl.obolibrary.org/obo/UBERON_0009970 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0009970"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0010005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010005"/>
     
 
 

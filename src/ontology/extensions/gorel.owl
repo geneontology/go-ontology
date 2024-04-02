@@ -567,7 +567,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <obo:RO_0040042 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <go_annotation_extension_relations:local_domain>BFO:0000001</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>CL:0000000 GO:0005575 GO:0008150 PO:0009012 PO:0025131 UBERON:0001062 ZFS:0100000 WBls:0000075 WBbt:0004017 WBbt:0005766 NCBITaxon:1</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>CL:0000000 GO:0005575 GO:0008150 PO:0009012 PO:0025131 UBERON:0001062 ZFS:0100000 WBls:0000075 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000 FBdv:00007012 FBbt:00007002</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>This relation has two uses in annotation extension.  It may be used to relate a cellular component to some cellular component, cell or anatomical structure that it is part of.  It may also be used to relate a molecular function or biological process to a biological process or developmental stage of which it is a part.  It may not be used to relate cellular components to functions, processes or stages, or to relate processes or functions to cellular components, cells or anatomical structures.</go_annotation_extension_relations:usage>
         <oboInOwl:hasDbXref>BFO:0000050</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>part of</oboInOwl:hasExactSynonym>
@@ -715,7 +715,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000118 xml:lang="en">unfolds in</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">unfolds_in</obo:IAO_0000118>
         <go_annotation_extension_relations:local_domain>BFO:0000015</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000 FBbt:00007002</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>Identifies the cell, tissue, cellular component or anatomical entity within which all parts of the molecular function or biological process occurs</go_annotation_extension_relations:usage>
         <oboInOwl:hasDbXref>BFO:0000066</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>go/extensions/gorel</oboInOwl:hasOBONamespace>
@@ -1531,7 +1531,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <go_annotation_extension_relations:local_domain>BFO:0000004</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>GO:0008150 WBls:0000075 ZFS:0100000</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>GO:0008150 WBls:0000075 ZFS:0100000 FBdv:00007012</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>Identifies a process or life stage during which a cellular component is present</go_annotation_extension_relations:usage>
         <oboInOwl:hasBroadSynonym>during</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>GOREL:0000032</oboInOwl:hasDbXref>
@@ -2296,7 +2296,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
         <obo:IAO_0000115>The relationship linking a entity and its participation in a process that results in the division of the entity into two entities of the same type.</obo:IAO_0000115>
         <go_annotation_extension_relations:local_domain>BFO:0000015</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>CL:0000000 WBbt:0004017</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>CL:0000000 WBbt:0004017 FBbt:00007002</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>The relationship linking a entity and its participation in a process that results in the division of the entity into two entities of the same type.</go_annotation_extension_relations:usage>
         <oboInOwl:hasDbXref>GOREL:0001019</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>go/extensions/gorel</oboInOwl:hasOBONamespace>
@@ -3285,7 +3285,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000118>d</obo:IAO_0000118>
         <obo:IAO_0000118>during</obo:IAO_0000118>
         <go_annotation_extension_relations:local_domain>BFO:0000015</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>GO:0008150 WBls:0000075 ZFS:0100000 UBERON:0000105</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>GO:0008150 WBls:0000075 ZFS:0100000 UBERON:0000105 FBdv:00007012</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>Identifies a process or life stage during which a molecular function or biological process occurs. This is weaker than parthood. So, for example, various processes occur during gastrulation without being part of it.</go_annotation_extension_relations:usage>
         <oboInOwl:hasBroadSynonym>during</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002092</oboInOwl:hasDbXref>
@@ -3730,7 +3730,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000118>starts with process that occurs in</obo:IAO_0000118>
         <go:display_for_curators></go:display_for_curators>
         <go_annotation_extension_relations:local_domain>BFO:0000015</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000 FBbt:00007002</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>Use this relation to relate a biological process to its start location.   Examples include recording the cell-type in which a cell-cell signaling process starts and recording a cellular compartment (such as post-synapse, presynapse or cilium) in which a signal transduction process starts.  Note, if the entire process occurs in a particular location, use &apos;occurs in&apos; instead.</go_annotation_extension_relations:usage>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002231</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_cell_or_anatomical"/>
@@ -3922,7 +3922,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.geneontology.org/GO.doc.development.shtml</obo:IAO_0000119>
         <go_annotation_extension_relations:local_domain>BFO:0000015</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>The relationship linking an entity and its participation in a process that changes it through time from the formation of the entity to the resultant mature state.</go_annotation_extension_relations:usage>
         <oboInOwl:hasAlternativeId>GOREL:0001009</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>RO:0002296</oboInOwl:hasDbXref>
@@ -3955,7 +3955,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <obo:IAO_0000119>GOC:mtg_berkeley_2013</obo:IAO_0000119>
         <go_annotation_extension_relations:local_domain>GO:0008150</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>The relationship linking a entity and its participation in a process whereby at the beginning of the process the entity does not exist and at the end of the process the entity exists.</go_annotation_extension_relations:usage>
         <oboInOwl:hasAlternativeId>GOREL:0001020</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>RO:0002297</oboInOwl:hasDbXref>
@@ -3992,7 +3992,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <obo:IAO_0000119>GOC:mtg_berkeley_2013</obo:IAO_0000119>
         <go_annotation_extension_relations:local_domain>BFO:0000015</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>The relationship that links an entity with the process that results in the formation and shaping of that entity over time from an immature to a mature state.</go_annotation_extension_relations:usage>
         <oboInOwl:hasAlternativeId>GOREL:0001015</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>RO:0002298</oboInOwl:hasDbXref>
@@ -4024,7 +4024,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <obo:IAO_0000119>GOC:mtg_berkeley_2013</obo:IAO_0000119>
         <go_annotation_extension_relations:local_domain>BFO:0000015</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>CL:0000000 GO:0005575 PO:0009012 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>CL:0000000 GO:0005575 PO:0009012 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in it&apos;s shape and results in an end point state of that entity.</go_annotation_extension_relations:usage>
         <oboInOwl:hasAlternativeId>GOREL:0001013</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>RO:0002299</oboInOwl:hasDbXref>
@@ -4156,7 +4156,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <obo:IAO_0000119>GOC:mtg_berkeley_2013</obo:IAO_0000119>
         <go_annotation_extension_relations:local_domain>GO:0030154</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>CL:0000000 PO:0009002 WBbt:0004017</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>CL:0000000 PO:0009002 WBbt:0004017 FBbt:00007002</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>Use this relation to link a cell differentiation process to the cell type that the process results in the differentiation of.</go_annotation_extension_relations:usage>
         <oboInOwl:hasAlternativeId>GOREL:0001014</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>RO:0002315</oboInOwl:hasDbXref>
@@ -4589,7 +4589,7 @@ However, this is not possible in OWL. We instead make this relation a sub-relati
         <obo:IAO_0000115>p &apos;results in commitment to&apos; c if and only if p is a developmental process and c is a cell and p results in the state of c changing such that is can only develop into a single cell type.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <go_annotation_extension_relations:local_domain>BFO:0000015</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>CL:0000000 WBbt:0004017</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>CL:0000000 WBbt:0004017 FBbt:00007002</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>The relationship linking a cell and its participation in a process that results in the transition of a cell such that is can only develop into a single cell type.</go_annotation_extension_relations:usage>
         <oboInOwl:hasAlternativeId>GOREL:0001017</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>RO:0002348</oboInOwl:hasDbXref>
@@ -4616,7 +4616,7 @@ However, this is not possible in OWL. We instead make this relation a sub-relati
         <obo:IAO_0000115>p &apos;results in determination of&apos; c if and only if p is a developmental process and c is a cell and p results in the state of c changing to be determined. Once a cell becomes determined, it becomes committed to differentiate down a particular pathway regardless of its environment.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <go_annotation_extension_relations:local_domain>BFO:0000015</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>CL:0000000 WBbt:0004017</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>CL:0000000 WBbt:0004017 FBbt:00007002</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>The relationship linking a cell and its participation in a process that results in the transition of a cell such that it can only develop into a single cell type independent of its environment.</go_annotation_extension_relations:usage>
         <oboInOwl:hasAlternativeId>GOREL:0001018</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>RO:0002349</oboInOwl:hasDbXref>
@@ -4688,7 +4688,7 @@ However, this is not possible in OWL. We instead make this relation a sub-relati
         <obo:IAO_0000115>The relationship linking a cell and its participation in a process that results in the fate of the cell being specified. Once specification has taken place, a cell will be committed to differentiate down a specific pathway if left in its normal environment. </obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <go_annotation_extension_relations:local_domain>GO:0008150</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>CL:0000000 WBbt:0004017</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>CL:0000000 WBbt:0004017 FBbt:00007002</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>The relationship linking a cell and its participation in a process that results in the transition of a cell such that is can only develop into a single cell type when left in its environment.</go_annotation_extension_relations:usage>
         <oboInOwl:hasAlternativeId>GOREL:0001021</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>RO:0002356</oboInOwl:hasDbXref>
@@ -5378,7 +5378,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <obo:IAO_0000115>x existence overlaps y if and only if either (a) the start of x is part of y or (b) the end of x is part of y. Formally: x existence starts and ends during y iff (α(x) &gt;= α(y) &amp; α(x) &lt;= ω(y)) OR (ω(x) &lt;= ω(y) &amp; ω(x) &gt;= α(y))</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <go_annotation_extension_relations:local_domain>BFO:0000004</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>GO:0008150 WBls:0000075 ZFS:0100000</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>GO:0008150 WBls:0000075 ZFS:0100000 FBdv:00007012</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>Identifies a process or life stage during which a cellular component is present</go_annotation_extension_relations:usage>
         <oboInOwl:hasDbXref>RO:0002490</oboInOwl:hasDbXref>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_biological_process"/>
@@ -5401,7 +5401,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <obo:IAO_0000115>x exists during y if and only if: 1) the time point at which x begins to exist is after or equal to the time point at which y begins and 2) the time point at which x ceases to exist is before or equal to the point at which y ends. Formally: x existence starts and ends during y iff α(x) &gt;= α(y) &amp; α(x) &lt;= ω(y) &amp; ω(x) &lt;= ω(y) &amp; ω(x) &gt;= α(y)</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <go_annotation_extension_relations:local_domain>BFO:0000004</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>GO:0008150 WBls:0000075 ZFS:0100000</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>GO:0008150 WBls:0000075 ZFS:0100000 FBdv:00007012</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>Identifies a process or life stage during which a cellular component is present</go_annotation_extension_relations:usage>
         <oboInOwl:hasDbXref>RO:0002491</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>exists during</oboInOwl:hasExactSynonym>
@@ -5674,7 +5674,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <obo:IAO_0000232></obo:IAO_0000232>
         <go_annotation_extension_relations:local_domain>GO:0008150</go_annotation_extension_relations:local_domain>
-        <go_annotation_extension_relations:local_range>CL:0000000 WBbt:0004017</go_annotation_extension_relations:local_range>
+        <go_annotation_extension_relations:local_range>CL:0000000 WBbt:0004017 FBbt:00007002</go_annotation_extension_relations:local_range>
         <go_annotation_extension_relations:usage>Use this relation to link a locomotion process to the type of cell or anatomical structure or organism that the process results in locomotion of.</go_annotation_extension_relations:usage>
         <oboInOwl:hasAlternativeId>GOREL:0001001</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>RO:0002565</oboInOwl:hasDbXref>
@@ -6992,19 +6992,23 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_ontology"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_molecular_function"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_gocam"/>
+        <go_annotation_extension_relations:local_range>CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697</go_annotation_extension_relations:local_range>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_biological_process"/>
+        <go_annotation_extension_relations:local_domain>BFO:0000015</go_annotation_extension_relations:local_domain>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0004009">
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_ontology"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_molecular_function"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_molecular_function"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
+        <go_annotation_extension_relations:local_range>CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697 SO:0000839 SO:0001683 NCBITaxon:1</go_annotation_extension_relations:local_range>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_gocam"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_biological_process"/>
+        <go_annotation_extension_relations:local_domain>BFO:0000015</go_annotation_extension_relations:local_domain>
     </rdf:Description>
     
 

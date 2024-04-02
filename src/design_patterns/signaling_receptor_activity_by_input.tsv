@@ -89,7 +89,7 @@ http://purl.obolibrary.org/obo/GO_0001602	pancreatic polypeptide receptor activi
 http://purl.obolibrary.org/obo/GO_0004991	parathyroid hormone receptor activity	http://purl.obolibrary.org/obo/PR_000013429	parathyroid hormone
 http://purl.obolibrary.org/obo/GO_0001601	peptide YY receptor activity	http://purl.obolibrary.org/obo/PR_000013526	peptide YY
 http://purl.obolibrary.org/obo/GO_0036318	peptide pheromone receptor activity	http://purl.obolibrary.org/obo/CHEBI_38579	peptide pheromone
-http://purl.obolibrary.org/obo/GO_0001653	peptide receptor activity	http://purl.obolibrary.org/obo/CHEBI_16670	peptide
+http://purl.obolibrary.org/obo/GO_0001653	peptide receptor activity	http://purl.obolibrary.org/obo/CHEBI_60466	peptide zwitterion
 http://purl.obolibrary.org/obo/GO_0016019	peptidoglycan immune receptor activity	http://purl.obolibrary.org/obo/CHEBI_8005	peptidoglycan
 http://purl.obolibrary.org/obo/GO_0016503	pheromone receptor activity	http://purl.obolibrary.org/obo/GOCHE_26013	substance with pheromone role
 http://purl.obolibrary.org/obo/GO_0001565	phorbol ester receptor activity	http://purl.obolibrary.org/obo/CHEBI_37532	phorbol ester

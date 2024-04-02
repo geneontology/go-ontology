@@ -83,11 +83,11 @@ REPORTDIR = $(RELEASEDIR)/reports
 
 stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl imports/go-computed-taxon-constraints.obo subset-owls subset-reports generate-mappings
 
-test: datalog-violations.tsv $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
+test: datalog-violations.tsv $(SRC)-check sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
-travis_test: datalog-violations.tsv chebi_pH_7_3_check travis_build $(SRC)-check change-report.txt 
+travis_test: datalog-violations.tsv check_all_taxon_constraints_columns $(SRC)-check change-report.txt chebi_pH_7_3_check travis_build
 
-# This target combines features from reasoned.owl, enhanced.owl, sparql_test into a faster mode for Travis.
+# This target combines features from reasoned.owl, enhanced.owl, sparql_test into a faster mode for Travis/GitHub Actions.
 # These must be kept in sync.
 travis_build: go-edit-filtered-xrefs.ofn
 	$(ROBOT) merge --collapse-import-closure false -i go-edit-filtered-xrefs.ofn -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true repair --annotation-property oboInOwl:hasDbXref reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl --annotation owl:versionInfo $(RELEASEDATE) verify --queries $(VARGS) $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql -O reports/
@@ -295,7 +295,7 @@ go-basic.owl: go-basic.obo
 # Currently the only per-subset report is id-label pairs
 # See: https://github.com/geneontology/go-ontology/issues/14028
 
-PUBLISH_SUBSETS = gocheck_do_not_annotate gocheck_do_not_manually_annotate goslim_agr goslim_candida goslim_chembl goslim_drosophila goslim_flybase_ribbon goslim_generic goslim_metagenomics goslim_mouse goslim_pir goslim_plant goslim_pombe goslim_synapse goslim_yeast goslim_prokaryote
+PUBLISH_SUBSETS = gocheck_do_not_annotate goslim_agr goslim_candida goslim_chembl goslim_drosophila goslim_euk_cellular_processes_ribbon goslim_flybase_ribbon goslim_generic goslim_metagenomics goslim_mouse goslim_pir goslim_plant goslim_plant_ribbon goslim_pombe goslim_prokaryote_ribbon goslim_synapse goslim_yeast goslim_prokaryote
 
 SUBSET_OWLS = $(patsubst %,subsets/%.owl,$(PUBLISH_SUBSETS))
 # Also generates %.obo and %.json
@@ -350,6 +350,14 @@ imports/%_import_pre.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC) ../sp
 imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
 	$(OWLTOOLS) $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $(BASE)/$@ -o $@
 
+# Ensure every row in the taxon constraints files has the same number of columns (only one line should be output by `sort`)
+check_taxon_constraint_columns_%: ../taxon_constraints/%.tsv
+	awk -F'\t' '{print NF}' $< | sort -nu | wc -l | sed -e 's/[[:blank:]]//g' | grep -q "^1$$" && exit 0 || (echo "ERROR: wrong number of columns in $<. Check for spaces where tabs should be." && exit 1)
+
+check_all_taxon_constraints_columns: check_taxon_constraint_columns_only_in_taxon check_taxon_constraint_columns_never_in_taxon check_taxon_constraint_columns_present_in_taxon
+
+.PHONY: check_all_taxon_constraints_columns
+
 ../taxon_constraints/only_in_taxon.ofn: ../taxon_constraints/only_in_taxon.yaml ../taxon_constraints/only_in_taxon.tsv dosdp-tools-0.19.3
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/only_in_taxon.tsv --obo-prefixes=true --template=$< --outfile=$@
 
@@ -359,7 +367,12 @@ imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
 ../taxon_constraints/present_in_taxon.ofn: ../taxon_constraints/present_in_taxon.yaml ../taxon_constraints/present_in_taxon.tsv dosdp-tools-0.19.3
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/present_in_taxon.tsv --generate-defined-class=true --obo-prefixes=true --template=$< --outfile=$@
 
-imports/go_taxon_constraints.owl: ../taxon_constraints/only_in_taxon.ofn ../taxon_constraints/never_in_taxon.ofn
+../taxon_constraints/present_in_taxon_annotations.ofn: ../taxon_constraints/present_in_taxon_annotations.yaml ../taxon_constraints/present_in_taxon.tsv dosdp-tools-0.19.3
+	echo 'defined_class	defined_class_label	taxon	taxon_label	source' >../taxon_constraints/present_in_taxon_annotations.tsv &&\
+	tail -n +2 ../taxon_constraints/present_in_taxon.tsv >>../taxon_constraints/present_in_taxon_annotations.tsv &&\
+	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/present_in_taxon_annotations.tsv --obo-prefixes=true --template=$< --outfile=$@
+
+imports/go_taxon_constraints.owl: ../taxon_constraints/only_in_taxon.ofn ../taxon_constraints/never_in_taxon.ofn ../taxon_constraints/present_in_taxon_annotations.ofn
 	$(ROBOT) merge $(addprefix -i , $^) annotate -O $(BASE)/$@ -o $@
 
 imports/go-computed-taxon-constraints.owl: $(SRC) $(SPARQLDIR)/taxon-constraints-materialization.ru $(SPARQLDIR)/taxon-constraints-in-taxon-annotation.rq $(SPARQLDIR)/taxon-constraints-never-in-taxon-annotation.rq

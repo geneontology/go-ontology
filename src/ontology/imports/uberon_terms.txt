@@ -13,4 +13,4 @@ http://purl.obolibrary.org/obo/UBERON_0034769 ## lymphomyeloid tissue
 http://purl.obolibrary.org/obo/UBERON_0012316 ## primitive palate
 http://purl.obolibrary.org/obo/UBERON_6001059 ## insect visual primordium
 http://purl.obolibrary.org/obo/UBERON_0015232 ## nematode pharynx
-http://purl.obolibrary.org/obo/UBERON_60005380 ## insect pharynx
+http://purl.obolibrary.org/obo/UBERON_6005380 ## insect pharynx

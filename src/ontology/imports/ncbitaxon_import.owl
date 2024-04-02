@@ -2286,6 +2286,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasRelatedSynonym>Anaerobacter</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Anaerobacter Duda et al. 1996</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Clostridium</rdfs:label>
     </owl:Class>
     
@@ -3182,9 +3183,9 @@
         </rdfs:subClassOf>
         <oboInOwl:hasRelatedSynonym>Bacillus tuberculosis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacterium tuberculosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Mycobacterium tuberculosis (Zopf 1883) Lehmann and Neumann 1896 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mycobacterium tuberculosis typus humanus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mycobacterium tuberculosis var. hominis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Mycobacterium tuberculosis variant tuberculosis</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Mycobacterium tuberculosis</rdfs:label>
     </owl:Class>
     
@@ -11368,6 +11369,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_481"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym>Simonsiellaceae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Vitreoscillaceae</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Neisseriaceae</rdfs:label>
     </owl:Class>
