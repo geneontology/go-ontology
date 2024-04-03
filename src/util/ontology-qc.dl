@@ -3,6 +3,7 @@
 #define RDFS_SUBPROPERTY_OF "<http://www.w3.org/2000/01/rdf-schema#subPropertyOf>"
 #define OWL_CLASS "<http://www.w3.org/2002/07/owl#Class>"
 #define OWL_DEPRECATED "<http://www.w3.org/2002/07/owl#deprecated>"
+#define OWL_ANNOTATION_PROPERTY "<http://www.w3.org/2002/07/owl#AnnotationProperty>"
 #define OWL_AXIOM "<http://www.w3.org/2002/07/owl#Axiom>"
 #define OWL_ANNOTATED_SOURCE "<http://www.w3.org/2002/07/owl#annotatedSource>"
 #define OWL_ANNOTATED_PROPERTY "<http://www.w3.org/2002/07/owl#annotatedProperty>"
@@ -12,6 +13,8 @@
 #define OIO_HAS_RELATED_SYNONYM "<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>"
 #define OIO_HAS_NARROW_SYNONYM "<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>"
 #define OIO_HAS_BROAD_SYNONYM "<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>"
+#define OIO_SUBSET_PROPERTY "<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>"
+#define OIO_IN_SUBSET "<http://www.geneontology.org/formats/oboInOwl#inSubset>"
 #define IAO_DEFINITION "<http://purl.obolibrary.org/obo/IAO_0000115>"
 
 .decl error(message: symbol)
@@ -20,6 +23,8 @@
 .decl obsolete_term(iri: symbol)
 .decl valid_term(iri: symbol)
 .decl synonym_property(iri: symbol)
+.decl declared_subset(iri: symbol)
+.decl subset_assertion(term: symbol, subset: symbol)
 .decl xref(term: symbol, ref: symbol)
 .decl defxref(term: symbol, ref: symbol)
 .decl synonym_xref(term: symbol, property: symbol, ref: symbol)
@@ -39,6 +44,9 @@ obsolete_term(iri) :- term(iri), ontrdf(iri, OWL_DEPRECATED, "\"true\"^^<http://
 
 valid_term(iri) :- term(iri), !obsolete_term(iri).
 
+declared_subset(iri) :- ontrdf(iri, RDF_TYPE, OWL_ANNOTATION_PROPERTY), ontrdf(iri, RDFS_SUBPROPERTY_OF, OIO_SUBSET_PROPERTY).
+subset_assertion(term, subset) :- ontrdf(term, OIO_IN_SUBSET, subset).
+
 xref(term, ref) :- ontrdf(term, OIO_HAS_DB_XREF, ref), term(term).
 
 defxref(term, ref) :- 
@@ -57,5 +65,6 @@ synonym_xref(term, property, ref) :-
 error(cat("ERROR: ", term, " has an xref to an obsolete EC: ", ec)) :- xref(term, ec), valid_term(term), obsolete_ec(ec).
 error(cat("ERROR: ", term, " has a definition xref to an obsolete EC: ", ec)) :- defxref(term, ec), valid_term(term), obsolete_ec(ec).
 error(cat("ERROR: ", term, " has a synonym xref to an obsolete EC: ", ec)) :- synonym_xref(term, _, ec), valid_term(term), obsolete_ec(ec).
+error(cat("ERROR: ", term, " references an undeclared subset: ", subset)) :- subset_assertion(term, subset), !declared_subset(subset).
 
 .output error(filename="datalog-violations.tsv")
