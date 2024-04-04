@@ -1,0 +1,27 @@
+defined_class	defined_class_label	target	target_label
+http://purl.obolibrary.org/obo/GO_0045464	R8 cell fate specification	http://purl.obolibrary.org/obo/CL_0000709	R8 photoreceptor cell
+http://purl.obolibrary.org/obo/GO_0042667	auditory receptor cell fate specification	http://purl.obolibrary.org/obo/CL_0000202	auditory hair cell
+http://purl.obolibrary.org/obo/GO_0097101	blood vessel endothelial cell fate specification	http://purl.obolibrary.org/obo/CL_0000071	blood vessel endothelial cell
+http://purl.obolibrary.org/obo/GO_0060912	cardiac cell fate specification	http://purl.obolibrary.org/obo/CL_0002494	cardiocyte
+http://purl.obolibrary.org/obo/GO_0042679	compound eye cone cell fate specification	http://purl.obolibrary.org/obo/CL_0000718	compound eye cone cell
+http://purl.obolibrary.org/obo/GO_0001715	ectodermal cell fate specification	http://purl.obolibrary.org/obo/CL_0000221	ectodermal cell
+http://purl.obolibrary.org/obo/GO_0001714	endodermal cell fate specification	http://purl.obolibrary.org/obo/CL_0000223	endodermal cell
+http://purl.obolibrary.org/obo/GO_0060847	endothelial cell fate specification	http://purl.obolibrary.org/obo/CL_0000115	endothelial cell
+http://purl.obolibrary.org/obo/GO_0097103	endothelial stalk cell fate specification	http://purl.obolibrary.org/obo/CL_0002671	endothelial stalk cell
+http://purl.obolibrary.org/obo/GO_0097102	endothelial tip cell fate specification	http://purl.obolibrary.org/obo/CL_0000704	endothelial tip cell
+http://purl.obolibrary.org/obo/GO_0035857	eosinophil fate specification	http://purl.obolibrary.org/obo/CL_0000771	eosinophil
+http://purl.obolibrary.org/obo/GO_0009957	epidermal cell fate specification	http://purl.obolibrary.org/obo/CL_0000362	epidermal cell
+http://purl.obolibrary.org/obo/GO_0021780	glial cell fate specification	http://purl.obolibrary.org/obo/CL_0000125	glial cell
+http://purl.obolibrary.org/obo/GO_0007501	mesodermal cell fate specification	http://purl.obolibrary.org/obo/CL_0000222	mesodermal cell
+http://purl.obolibrary.org/obo/GO_0042694	muscle cell fate specification	http://purl.obolibrary.org/obo/CL_0000187	muscle cell
+http://purl.obolibrary.org/obo/GO_0048626	myoblast fate specification	http://purl.obolibrary.org/obo/CL_0000056	myoblast
+http://purl.obolibrary.org/obo/GO_0014036	neural crest cell fate specification	http://purl.obolibrary.org/obo/CL_0000333	migratory neural crest cell
+http://purl.obolibrary.org/obo/GO_0014018	neuroblast fate specification	http://purl.obolibrary.org/obo/CL_0000031	neuroblast (sensu Vertebrata)
+http://purl.obolibrary.org/obo/GO_0048665	neuron fate specification	http://purl.obolibrary.org/obo/CL_0000540	neuron
+http://purl.obolibrary.org/obo/GO_0021778	oligodendrocyte cell fate specification	http://purl.obolibrary.org/obo/CL_0000128	oligodendrocyte
+http://purl.obolibrary.org/obo/GO_0043704	photoreceptor cell fate specification	http://purl.obolibrary.org/obo/CL_0000210	photoreceptor cell
+http://purl.obolibrary.org/obo/GO_0042672	retinal cone cell fate specification	http://purl.obolibrary.org/obo/CL_0000573	retinal cone cell
+http://purl.obolibrary.org/obo/GO_0014817	skeletal muscle satellite cell fate specification	http://purl.obolibrary.org/obo/CL_0000594	skeletal muscle satellite cell
+http://purl.obolibrary.org/obo/GO_0021520	spinal cord motor neuron cell fate specification	http://purl.obolibrary.org/obo/CL_0011001	spinal cord motor neuron
+http://purl.obolibrary.org/obo/GO_0048866	stem cell fate specification	http://purl.obolibrary.org/obo/CL_0000034	stem cell
+http://purl.obolibrary.org/obo/GO_0097082	vascular associated smooth muscle cell fate specification	http://purl.obolibrary.org/obo/CL_0000359	vascular associated smooth muscle cell

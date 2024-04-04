@@ -1,5 +1,5 @@
-// scala 2.13.4
-// ammonite 2.3.8
+// scala 2.13.9
+// ammonite 2.5.5
 
 import $ivy.`net.sourceforge.owlapi:owlapi-distribution:4.5.17`
 import $ivy.`org.phenoscape::scowl:1.3.4`

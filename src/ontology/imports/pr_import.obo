@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-10-13/imports/pr_import.owl
+data-version: go/releases/2023-02-28/imports/pr_import.owl
 ontology: go/imports/pr_import
 
 [Term]
@@ -9,6 +9,7 @@ def: "An amino acid chain that is produced de novo by ribosome-mediated translat
 synonym: "native protein" NARROW []
 synonym: "natural protein" EXACT []
 is_a: PR:000018263 ! amino acid chain
+is_a: PR:000050567 ! protein-containing material entity
 intersection_of: PR:000018263 ! amino acid chain
 intersection_of: has_gene_template SO:0000704
 intersection_of: output_of GO:0006412
@@ -19,7 +20,7 @@ relationship: output_of GO:0006412
 [Term]
 id: PR:000000008
 name: TGF-beta-like cystine-knot cytokine
-def: "A protein with a core domain composition consisting of a signal peptide, a variable propeptide region and a Transforming growth factor beta like domain (Pfam:PF00019), which is a cystine-knot domain containing four conserved beta strands, S1-S4, which form two antiparallel beta sheets (SI-S2 and S3-S4) interconnected by three disulfide bridges in a knot-like topology. Cystines [II-V] and [III-VI] form a ring through which the remaining disulfide bond (Cys[I-IV]) penetrates. Insertion of different variable regions into this common motif has given rise to various subclasses of the growth factor cystine-knot domain." []
+def: "A protein that has a core domain composition consisting of a signal peptide, a variable propeptide region and a Transforming growth factor beta like domain (Pfam:PF00019), which is a cystine-knot domain containing four conserved beta strands, S1-S4, which form two antiparallel beta sheets (SI-S2 and S3-S4) interconnected by three disulfide bridges in a knot-like topology. Cystines [II-V] and [III-VI] form a ring through which the remaining disulfide bond (Cys[I-IV]) penetrates. Insertion of different variable regions into this common motif has given rise to various subclasses of the growth factor cystine-knot domain." []
 synonym: "TGF-beta superfamily" RELATED []
 is_a: PR:000000001 ! protein
 
@@ -43,13 +44,13 @@ is_a: PR:000000001 ! protein
 [Term]
 id: PR:000000028
 name: small GTPase
-def: "A protein with a core domain composition consisting of a Ras family domain (Pfam:PF00071). The small GTPases are monomeric G-proteins which function as GDP/GTP-regulated molecular switches." []
+def: "A protein that has a core domain composition consisting of a Ras family domain (Pfam:PF00071). The small GTPases are monomeric G-proteins which function as GDP/GTP-regulated molecular switches." []
 is_a: PR:000000001 ! protein
 
 [Term]
 id: PR:000000033
 name: tumor necrosis factor, TNF-like
-def: "A protein with a core domain composition consisting of an N-terminal cytosolic domain, a type II transmembrane domain and a C-terminal TNF domain (Pfam:PF00229)." []
+def: "A protein that has a core domain composition consisting of an N-terminal cytosolic domain, a type II transmembrane domain and a C-terminal TNF domain (Pfam:PF00229)." []
 is_a: PR:000000001 ! protein
 
 [Term]
@@ -85,7 +86,7 @@ is_a: PR:000000001 ! protein
 [Term]
 id: PR:000001091
 name: interleukin-1
-def: "A protein with a core domain composition consisting of a propeptide region and an Interleukin-1 / 18 domain." []
+def: "A protein that has a core domain composition consisting of a propeptide region and an Interleukin-1 / 18 domain." []
 is_a: PR:000000001 ! protein
 
 [Term]
@@ -118,7 +119,7 @@ is_a: PR:000030035 ! G-protein coupled receptor
 [Term]
 id: PR:000001096
 name: Toll-like receptor
-def: "A protein with a core domain composition consisting of a signal peptide, an extracellular domain with multiple Leucine rich repeat (Pfam:PF13855) domain (LRR), a cysteine-rich region, a single-pass transmembrane domain and a C-terminal cytoplasmic tail containing a TIR domain (Pfam:PF01582)." []
+def: "A protein that has a core domain composition consisting of a signal peptide, an extracellular domain with multiple Leucine rich repeat (Pfam:PF13855) domain (LRR), a cysteine-rich region, a single-pass transmembrane domain and a C-terminal cytoplasmic tail containing a TIR domain (Pfam:PF01582)." []
 synonym: "fam:TLR" EXACT []
 is_a: PR:000000001 ! protein
 
@@ -1367,7 +1368,7 @@ is_a: PR:000001549 ! prostanoid receptor
 [Term]
 id: PR:000001753
 name: transcription factor NF-kappa-B subunit
-def: "A protein with a core domain composition consisting of a Rel homology domain (RHD) (Pfam:PF00554), an IPT/TIG domain (Pfam:PF01833), six copies of the Ankyrin repeat (Pfam:PF00023), a Death domain (Pfam:PF00531) and a C-terminal PEST region." []
+def: "A protein that has a core domain composition consisting of a Rel homology domain (RHD) (Pfam:PF00554), an IPT/TIG domain (Pfam:PF01833), six copies of the Ankyrin repeat (Pfam:PF00023), a Death domain (Pfam:PF00531) and a C-terminal PEST region." []
 synonym: "transcription factor NF-kappa-B" RELATED []
 is_a: PR:000000001 ! protein
 
@@ -2305,14 +2306,18 @@ is_a: PR:000049989 ! glucagon-like receptor
 
 [Term]
 id: PR:000008476
-name: orexin
+name: hypocretin neuropeptide precursor
 def: "A protein that is a translation product of the human HCRT gene or a 1:1 ortholog thereof." []
 synonym: "HCRT" EXACT []
 synonym: "Hcrt" EXACT []
 synonym: "hypocretin" EXACT []
+synonym: "orexin" EXACT []
+synonym: "orexin precursor" EXACT []
 synonym: "OX" RELATED []
 synonym: "PPORX" RELATED []
 synonym: "PPOX" RELATED []
+synonym: "prepro-orexin" EXACT []
+synonym: "preprohypocretin" EXACT []
 is_a: PR:000000001 ! protein
 
 [Term]
@@ -3093,7 +3098,7 @@ def: "An organic amino compound that consists of amino acid residues (unmodified
 synonym: "peptide" NARROW []
 synonym: "polypeptide" NARROW []
 is_a: CHEBI:50047
-relationship: has_part CHEBI:33708
+relationship: has_constituent_monomer CHEBI:33708 {minCardinality="2"}
 
 [Term]
 id: PR:000018264
@@ -3373,12 +3378,12 @@ relationship: output_of GO:0016485
 
 [Term]
 id: PR:000020124
-name: orexin proteolytic cleavage product
-def: "An orexin that has been processed by proteolytic cleavage." []
+name: hypocretin neuropeptide precursor proteolytic cleavage product
+def: "A hypocretin neuropeptide precursor that has been processed by proteolytic cleavage." []
 synonym: "HCRT/ClvPrd" EXACT []
-is_a: PR:000008476 ! orexin
+is_a: PR:000008476 ! hypocretin neuropeptide precursor
 is_a: PR:000018264 ! proteolytic cleavage product
-intersection_of: PR:000008476 ! orexin
+intersection_of: PR:000008476 ! hypocretin neuropeptide precursor
 intersection_of: output_of GO:0016485
 relationship: output_of GO:0016485
 
@@ -3714,9 +3719,9 @@ is_a: PR:000000001 ! protein
 [Term]
 id: PR:000029394
 name: antiviral innate immune response receptor RIG-I
-def: "A protein that is a translation product of the human DDX58 gene or a 1:1 ortholog thereof." []
+def: "A protein that is a translation product of the human RIGI gene or a 1:1 ortholog thereof." []
 synonym: "ATP-dependent RNA helicase DDX58" EXACT []
-synonym: "DDX58" EXACT []
+synonym: "DDX58" RELATED []
 synonym: "DEAD box protein 58" EXACT []
 synonym: "probable ATP-dependent RNA helicase DDX58" EXACT []
 synonym: "retinoic acid-inducible gene 1 protein" EXACT []
@@ -3724,7 +3729,9 @@ synonym: "retinoic acid-inducible gene I protein" EXACT []
 synonym: "RIG-1" EXACT []
 synonym: "RIG-I" EXACT []
 synonym: "RIG-I-like receptor 1" EXACT []
+synonym: "RIGI" EXACT []
 synonym: "RLR-1" EXACT []
+synonym: "RNA sensor RIG-I" EXACT []
 is_a: PR:000000001 ! protein
 
 [Term]
@@ -3793,6 +3800,7 @@ relationship: output_of GO:0016485
 id: PR:000035728
 name: ubiquitin
 def: "A proteolytic cleavage product that gives rise to a protein that corresponds to the stand-alone version of the Ubiquitin (Pfam:PF00240) domain. Example: UniProtKB:P0CG48, 1-76." []
+synonym: "Ubiq" EXACT []
 is_a: PR:000018264 ! proteolytic cleavage product
 union_of: PR:000035716 ! ubiquitin (RPS27A)
 union_of: PR:000035720 ! ubiquitin (UBC)
@@ -3854,7 +3862,7 @@ is_a: PR:000001094 ! rhodopsin-like G-protein coupled receptor
 [Term]
 id: PR:000044813
 name: glycoprotein hormone beta chain
-def: "A protein with a core domain composition consisting of a signal peptide followed by a single copy of the Cys_knot (Pfam:PF00007) domain. The Cysteine knot is a protein structural motif containing three disulfide bridges." []
+def: "A protein that has a core domain composition consisting of a signal peptide followed by a single copy of the Cys_knot (Pfam:PF00007) domain. The Cysteine knot is a protein structural motif containing three disulfide bridges." []
 is_a: PR:000000001 ! protein
 
 [Term]
@@ -3906,6 +3914,32 @@ def: "A tumor necrosis factor, TNF-like that is a translation product of the hum
 synonym: "fam:LT" EXACT []
 is_a: PR:000000033 ! tumor necrosis factor, TNF-like
 
+[Term]
+id: PR:000050567
+name: protein-containing material entity
+def: "A material entity that minimally consists of a protein." []
+synonym: "protein" NARROW []
+synonym: "protein aggregate" NARROW []
+synonym: "protein complex" NARROW []
+synonym: "protein-containing complex" NARROW []
+is_a: BFO:0000040
+intersection_of: BFO:0000040
+intersection_of: has_part PR:000000001 ! protein
+relationship: has_part PR:000000001 ! protein
+
+[Term]
+id: PR:000060228
+name: monoubiquitin
+def: "A ubiquitin that is a monomer." []
+synonym: "monoUbiq" EXACT []
+intersection_of: PR:000035728 ! ubiquitin
+intersection_of: has_constituent_monomer PR:000035728 {cardinality="1"} ! ubiquitin
+relationship: has_constituent_monomer PR:000035728 {cardinality="1"} ! ubiquitin
+
+[Typedef]
+id: RO:0002330
+xref: RO:0002330
+
 [Typedef]
 id: capable_of
 name: capable_of
@@ -3917,9 +3951,18 @@ name: has_component
 xref: RO:0002180
 
 [Typedef]
+id: has_constituent_monomer
+name: has_constituent_monomer
+def: "A relation that holds between a polymer and its constituent monomers. P has_constituent_monomer c if and only if P has_component multiple instances of c and each instance of c is covalently attached to another instance of c." []
+xref: has_constituent_monomer
+is_a: has_component ! has_component
+
+[Typedef]
 id: has_gene_template
 name: has_gene_template
+def: "See document https://docs.google.com/document/d/15iVMtMyYbQSlvUDgn2XUaDzpwkB0USZI for full definition." []
 xref: has_gene_template
+is_a: RO:0002330
 
 [Typedef]
 id: has_part

@@ -1,0 +1,429 @@
+format-version: 1.2
+subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
+subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
+subsetdef: gocheck_do_not_manually_annotate "Term not to be used for direct manual annotation"
+subsetdef: goslim_agr "AGR slim"
+subsetdef: goslim_aspergillus "Aspergillus GO slim"
+subsetdef: goslim_candida "Candida GO slim"
+subsetdef: goslim_chembl "ChEMBL protein targets summary"
+subsetdef: goslim_drosophila "Drosophila GO slim"
+subsetdef: goslim_flybase_ribbon "FlyBase Drosophila GO ribbon slim"
+subsetdef: goslim_generic "Generic GO slim"
+subsetdef: goslim_metagenomics "Metagenomics GO slim"
+subsetdef: goslim_mouse "Mouse GO slim"
+subsetdef: goslim_pir "PIR GO slim"
+subsetdef: goslim_plant "Plant GO slim"
+subsetdef: goslim_pombe "Fission yeast GO slim"
+subsetdef: goslim_synapse "synapse GO slim"
+subsetdef: goslim_yeast "Yeast GO slim"
+synonymtypedef: syngo_official_label "label approved by the SynGO project"
+synonymtypedef: systematic_synonym "Systematic synonym" EXACT
+default-namespace: gene_ontology
+import: http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl
+import: http://purl.obolibrary.org/obo/go/extensions/go-gci.owl
+import: http://purl.obolibrary.org/obo/go/extensions/ro_pending.owl
+import: http://purl.obolibrary.org/obo/go/imports/caro_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/chebi_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/cl_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/ddanat_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/fao_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/go-pattern-conformance.ttl
+import: http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl
+import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl
+import: http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/oba_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/opl_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/pato_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/po_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/pr_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/ro_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/so_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/uberon_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl
+ontology: go
+property_value: http://purl.org/dc/elements/1.1/description "The Gene Ontology (GO) provides a framework and set of concepts for describing the functions of gene products from all organisms." xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Gene Ontology" xsd:string
+property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
+
+[Term]
+id: GO:0003933
+name: GTP cyclohydrolase activity
+namespace: molecular_function
+def: "Catalysis of the hydrolysis of the imidazole ring of GTP, releasing formate. Two C-N bonds are hydrolyzed and the pentase unit is isomerized." [EC:3.5.4.16, EC:3.5.4.25, EC:3.5.4.29, GOC:curators]
+is_a: GO:0019238 ! cyclohydrolase activity
+
+[Term]
+id: GO:0004086
+name: obsolete carbamoyl-phosphate synthase activity
+namespace: molecular_function
+def: "OBSOLETE. Catalysis of a reaction that results in the formation of carbamoyl phosphate." [EC:6.3.4.16, EC:6.3.5.5, GOC:mah]
+comment: This term was made obsolete because it is a grouping term based on name, rather than on function.
+synonym: "carbamoyl phosphate synthase activity" EXACT []
+synonym: "carbamoyl-phosphate synthase activity" EXACT []
+is_obsolete: true
+consider: GO:0004087
+consider: GO:0004088
+
+[Term]
+id: GO:0004374
+name: obsolete glycine cleavage system
+namespace: molecular_function
+def: "OBSOLETE. Catalysis of the reactions: glycine + lipoylprotein = S-aminomethyldihydrolipoylprotein + carbon dioxide (CO2), followed by S-aminomethyldihydrolipoylprotein + (6S)-tetrahydrofolate = dihydrolipoylprotein + (6R)-5,10-methylenetetrahydrofolate + ammonia. Made up of two components, aminomethyltransferase and glycine dehydrogenase (decarboxylating)." [EC:1.4.4.2, EC:2.1.2.10]
+comment: This term was made obsolete because it represents a process rather than a function.
+synonym: "glycine cleavage system" EXACT []
+synonym: "glycine synthase" BROAD []
+is_obsolete: true
+replaced_by: GO:0019464
+
+[Term]
+id: GO:0004448
+name: isocitrate dehydrogenase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: isocitrate + acceptor = 2-oxoglutarate + CO2 + reduced acceptor." [EC:1.1.1.41, EC:1.1.1.42]
+synonym: "beta-ketoglutaric-isocitric carboxylase activity" RELATED [EC:1.1.1.-]
+synonym: "IDH activity" RELATED [EC:1.1.1.-]
+synonym: "IDP activity" RELATED [EC:1.1.1.-]
+synonym: "IDP1" RELATED [EC:1.1.1.-]
+synonym: "IDP2" RELATED [EC:1.1.1.-]
+synonym: "IDP3" RELATED [EC:1.1.1.-]
+synonym: "isocitric acid dehydrogenase activity" RELATED [EC:1.1.1.-]
+synonym: "isocitric dehydrogenase activity" RELATED [EC:1.1.1.-]
+synonym: "oxalosuccinate carboxylase activity" RELATED [EC:1.1.1.-]
+synonym: "oxalosuccinate decarboxylase activity" RELATED [EC:1.1.1.-]
+synonym: "oxalsuccinic decarboxylase activity" RELATED [EC:1.1.1.-]
+xref: MetaCyc:ISOCITDEH-RXN
+is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+
+[Term]
+id: GO:0004471
+name: malate dehydrogenase (decarboxylating) (NAD+) activity
+namespace: molecular_function
+alt_id: GO:0004472
+alt_id: GO:0016619
+def: "Catalysis of the reaction: (S)-malate + NAD+ = pyruvate + CO2 + NADH + H+." [EC:1.1.1.38, EC:1.1.1.39]
+comment: For decarboxylation of oxaloacetate (the second substrate listed in EC:1.1.1.38), see 'oxaloacetate decarboxylase activity ; GO:0008948'.
+synonym: "'malic' enzyme" RELATED [EC:1.1.1.38, EC:1.1.1.39]
+synonym: "(S)-malate:NAD+ oxidoreductase (decarboxylating)" RELATED [EC:1.1.1.39]
+synonym: "(S)-malate:NAD+ oxidoreductase (oxaloacetate-decarboxylating)" RELATED [EC:1.1.1.38]
+synonym: "malate dehydrogenase (decarboxylating) activity" RELATED [EC:1.1.1.39]
+synonym: "malate dehydrogenase (oxaloacetate-decarboxylating) activity" EXACT []
+synonym: "NAD-linked malic enzyme" RELATED [EC:1.1.1.38]
+synonym: "NAD-malic enzyme activity" BROAD [EC:1.1.1.38, EC:1.1.1.39]
+synonym: "NAD-specific malic enzyme" RELATED [EC:1.1.1.38, EC:1.1.1.39]
+xref: EC:1.1.1.38
+xref: EC:1.1.1.39
+xref: KEGG_REACTION:R00214
+xref: MetaCyc:1.1.1.39-RXN
+xref: MetaCyc:MALIC-NAD-RXN
+xref: RHEA:12653
+is_a: GO:0004470 ! malic enzyme activity
+is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+
+[Term]
+id: GO:0004495
+name: mevaldate reductase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: (R)-mevalonate + acceptor = mevaldate + reduced acceptor." [EC:1.1.1.32, EC:1.1.1.33]
+is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+
+[Term]
+id: GO:0008130
+name: obsolete neutrophil collagenase activity
+namespace: molecular_function
+def: "OBSOLETE. Catalysis of the cleavage of interstitial collagens in the triple helical domain. Unlike EC:3.4.24.7, this enzyme cleaves type III collagen more slowly than type I." [GOC:curators]
+comment: This term was made obsolete because it represents a gene product.
+synonym: "matrix metalloproteinase 8 activity" RELATED []
+synonym: "MMP-8" EXACT []
+synonym: "neutrophil collagenase activity" EXACT []
+synonym: "PMNL collagenase activity" RELATED []
+is_obsolete: true
+replaced_by: GO:0004252
+
+[Term]
+id: GO:0008746
+name: NAD(P)+ transhydrogenase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: NADPH + H+ + NAD+ = NADP+ + NADH + H+." [EC:1.6.1.1, EC:1.6.1.2]
+synonym: "energy-linked transhydrogenase" RELATED [EC:1.6.1.1, EC:1.6.1.2]
+synonym: "H+-thase" BROAD [EC:1.6.1.1, EC:1.6.1.2]
+synonym: "NAD transhydrogenase" BROAD [EC:1.6.1.1, EC:1.6.1.2]
+synonym: "NADH transhydrogenase" BROAD [EC:1.6.1.1, EC:1.6.1.2]
+synonym: "NADH-NADP-transhydrogenase" BROAD [EC:1.6.1.1, EC:1.6.1.2]
+synonym: "NADPH-NAD oxidoreductase" BROAD [EC:1.6.1.1, EC:1.6.1.2]
+synonym: "NADPH-NAD transhydrogenase" BROAD [EC:1.6.1.1, EC:1.6.1.2]
+synonym: "NADPH:NAD+ transhydrogenase" BROAD [EC:1.6.1.1, EC:1.6.1.2]
+synonym: "nicotinamide adenine dinucleotide (phosphate) transhydrogenase" BROAD [EC:1.6.1.1, EC:1.6.1.2]
+synonym: "pyridine nucleotide transferase" BROAD [EC:1.6.1.1, EC:1.6.1.2]
+xref: EC:1.6.1.1
+xref: KEGG_REACTION:R00112
+xref: RHEA:11692
+is_a: GO:0016652 ! oxidoreductase activity, acting on NAD(P)H, NAD(P) as acceptor
+
+[Term]
+id: GO:0008875
+name: gluconate dehydrogenase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: D-gluconate + NADP+ = dehydro-D-gluconate + NADPH + H+." [EC:1.1.1.215, EC:1.1.1.69]
+is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+
+[Term]
+id: GO:0008943
+name: obsolete glyceraldehyde-3-phosphate dehydrogenase activity
+namespace: molecular_function
+def: "OBSOLETE. Catalysis of the reactions: glyceraldehyde 3-phosphate + phosphate + NAD(P)+ = 3-phospho-D-glyceroyl-phosphate + NAD(P)H + H+, and glyceraldehyde 3-phosphate + H2O + NAD(P)+ = 3-phospho-D-glycerate + NAD(P)H + H+." [EC:1.2.1.12, EC:1.2.1.13, EC:1.2.1.9]
+comment: This term was made obsolete because it is a grouping term based on similar names.
+synonym: "glyceraldehyde-3-phosphate dehydrogenase activity" EXACT []
+is_obsolete: true
+consider: GO:0004365
+consider: GO:0008886
+consider: GO:0043878
+consider: GO:0047100
+
+[Term]
+id: GO:0008948
+name: oxaloacetate decarboxylase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: oxaloacetate = pyruvate + CO2." [EC:1.1.1.38, EC:1.1.1.40, EC:4.1.1.112]
+synonym: "oxalacetic acid decarboxylase activity" EXACT []
+synonym: "oxalate beta-decarboxylase activity" RELATED [EC:4.1.1.112]
+synonym: "oxaloacetate beta-decarboxylase activity" RELATED [EC:4.1.1.112]
+synonym: "oxaloacetate carboxy-lyase (pyruvate-forming)" EXACT []
+synonym: "oxaloacetate carboxy-lyase activity" RELATED [EC:4.1.1.112]
+xref: EC:1.1.1.38
+xref: EC:1.1.1.40
+xref: EC:4.1.1.112
+xref: KEGG_REACTION:R00217
+xref: MetaCyc:OXALODECARB-RXN
+xref: RHEA:15641
+is_a: GO:0016831 ! carboxy-lyase activity
+
+[Term]
+id: GO:0009341
+name: beta-galactosidase complex
+namespace: cellular_component
+def: "A protein complex that possesses beta-galactosidase activity, i.e. catalyzes the hydrolysis of terminal non-reducing beta-D-galactose residues in beta-D-galactosides. In E. coli, the complex is a homotetramer; dimeric and hexameric beta-galactosidase complexes have been observed in other species." [BRENDA:3.2.1.2, EC:3.2.1.23, PMID:15950161]
+subset: goslim_metagenomics
+intersection_of: GO:0032991 ! protein-containing complex
+intersection_of: capable_of GO:0004565 ! beta-galactosidase activity
+
+[Term]
+id: GO:0009353
+name: mitochondrial oxoglutarate dehydrogenase complex
+namespace: cellular_component
+def: "A complex of multiple copies of three enzymatic components: oxoglutarate dehydrogenase (lipoamide) ; EC:1.2.4.2 (E1), dihydrolipoamide S-succinyltransferase ; EC:2.3.1.61 (E2) and dihydrolipoamide dehydrogenase ; EC:1.8.1.4 (E3); catalyzes the overall conversion of 2-oxoglutarate to succinyl-CoA and carbon dioxide (CO2) within the mitochondrial matrix. An example of this complex is found in Mus musculus." [GOC:mtg_sensu, MetaCyc:CPLX66-42, PMID:10848975]
+comment: See also the molecular functions term 'oxoglutarate dehydrogenase (succinyl-transferring) activity ; GO:0004591', 'dihydrolipoyllysine-residue succinyltransferase activity ; GO:0004149' and 'dihydrolipoyl dehydrogenase activity ; GO:0004148'.
+is_a: GO:0098798 ! mitochondrial protein-containing complex
+intersection_of: GO:0045252 ! oxoglutarate dehydrogenase complex
+intersection_of: part_of GO:0005739 ! mitochondrion
+relationship: part_of GO:0005759 ! mitochondrial matrix
+
+[Term]
+id: GO:0015922
+name: aspartate oxidase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: aspartate + O2 = iminosuccinate + hydrogen peroxide." [EC:1.4.3.1, EC:1.4.3.16]
+is_a: GO:0016641 ! oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor
+
+[Term]
+id: GO:0016759
+name: cellulose synthase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: nucleoside-disphosphate-glucose + ((1,4)-beta-D-glucosyl)(n) = nucleoside-disphosphate + ((1,4)-beta-D-glucosyl)(n+1)." [EC:2.4.1.12, EC:2.4.1.29]
+synonym: "cellulose synthetase activity" RELATED [EC:2.4.1.29]
+is_a: GO:0046527 ! glucosyltransferase activity
+
+[Term]
+id: GO:0016840
+name: carbon-nitrogen lyase activity
+namespace: molecular_function
+def: "Catalysis of the release of ammonia or one of its derivatives, with the formation of a double bond or ring. Enzymes with this activity may catalyze the actual elimination of the ammonia, amine or amide, e.g. CH-CH(-NH-R) = C=CH- + NH2-R. Others, however, catalyze elimination of another component, e.g. water, which is followed by spontaneous reactions that lead to breakage of the C-N bond, e.g. L-serine ammonia-lyase (EC:4.3.1.17), so that the overall reaction is C(-OH)-CH(-NH2) = CH2-CO- + NH3, i.e. an elimination with rearrangement. The sub-subclasses of EC:4.3 are the ammonia-lyases (EC:4.3.1), lyases acting on amides, amidines, etc. (EC:4.3.2), the amine-lyases (EC:4.3.3), and other carbon-nitrogen lyases (EC:4.3.99)." [EC:4.3.-.-]
+synonym: "other carbon-nitrogen lyase activity" NARROW []
+xref: EC:4.3.-.-
+is_a: GO:0016829 ! lyase activity
+
+[Term]
+id: GO:0016882
+name: cyclo-ligase activity
+namespace: molecular_function
+def: "Catalysis of the joining of two groups within a single molecule via a carbon-nitrogen bond, forming heterocyclic ring, with the concomitant hydrolysis of the diphosphate bond in ATP or a similar triphosphate." [EC:6.3.3.1, EC:6.3.3.2, EC:6.3.3.4, GOC:jl, GOC:mah]
+xref: EC:6.3.3.-
+is_a: GO:0016879 ! ligase activity, forming carbon-nitrogen bonds
+
+[Term]
+id: GO:0016920
+name: pyroglutamyl-peptidase activity
+namespace: molecular_function
+def: "Catalysis of the release of the N-terminal pyroglutamyl group from a peptide or protein." [EC:3.4.19.3, EC:3.4.19.6, GOC:mah]
+xref: EC:3.4.19.-
+is_a: GO:0008234 ! cysteine-type peptidase activity
+is_a: GO:0008242 ! omega peptidase activity
+
+[Term]
+id: GO:0019115
+name: benzaldehyde dehydrogenase [NAD(P)+] activity
+namespace: molecular_function
+def: "Catalysis of the reaction: benzaldehyde + NAD(P)+ + H2O = benzoate + NAD(P)H + H+." [EC:1.2.1.28, EC:1.2.1.7]
+xref: EC:1.2.1.-
+is_a: GO:0004030 ! aldehyde dehydrogenase [NAD(P)+] activity
+
+[Term]
+id: GO:0019152
+name: acetoin dehydrogenase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: acetoin + NAD+ = diacetyl + NADH + H+." [EC:1.1.1.303, EC:1.1.1.304, MetaCyc:ACETOINDEHYDROG-RXN]
+synonym: "diacetyl reductase activity" EXACT []
+xref: EC:1.1.1.303
+xref: EC:1.1.1.304
+xref: KEGG_REACTION:R02343
+xref: MetaCyc:ACETOINDEHYDROG-RXN
+is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+
+[Term]
+id: GO:0034481
+name: chondroitin sulfotransferase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: 3'-phosphoadenosine 5'-phosphosulfate + chondroitin = adenosine 3',5'-bisphosphate + chondroitin sulfate." [EC:2.8.2.17, EC:2.8.2.5, GOC:mah]
+is_a: GO:0008146 ! sulfotransferase activity
+
+[Term]
+id: GO:0036273
+name: response to statin
+namespace: biological_process
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a statin stimulus. Statins are organooxygen compounds whose structure is related to compactin (mevastatin) and which may be used as an anticholesteremic drug due its EC:1.1.1.34/EC:1.1.1.88 (hydroxymethylglutaryl-CoA reductase) inhibitory properties." [GOC:hp]
+comment: Note that this term is in the subset of terms that should not be used for direct manual annotation of gene products. It was created to be used for cross-referencing by other ontologies. Direct annotations to this term may be amended during annotation QC.
+subset: gocheck_do_not_manually_annotate
+synonym: "response to HMG-CoA reductase inhibitor" RELATED [CHEBI:35664]
+synonym: "response to hydroxymethylglutaryl-CoA reductase inhibitor" RELATED [CHEBI:35664]
+intersection_of: GO:0050896 ! response to stimulus
+intersection_of: has_input CHEBI:87631 ! statin
+created_by: bf
+creation_date: 2012-07-09T01:54:01Z
+
+[Term]
+id: GO:0042356
+name: GDP-4-dehydro-D-rhamnose reductase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: GDP-6-deoxy-D-mannose + NAD(P)+ = GDP-4-dehydro-6-deoxy-D-mannose + NAD(P)H + H+. In the reverse reaction, a mixture of GDP-D-rhamnose and its C-4 epimer is formed." [BRENDA:1.1.1.187, EC:1.1.1.187]
+synonym: "GDP-4-keto-6-deoxy-D-mannose reductase activity" RELATED [EC:1.1.1.187]
+synonym: "GDP-4-keto-D-rhamnose reductase activity" RELATED [EC:1.1.1.187]
+synonym: "GDP-6-deoxy-D-mannose:NAD(P)+ 4-oxidoreductase activity" RELATED [EC:1.1.1.187]
+synonym: "guanosine diphosphate-4-keto-D-rhamnose reductase activity" RELATED [EC:1.1.1.187]
+xref: EC:1.1.1.187
+xref: MetaCyc:GDP-4-DEHYDRO-D-RHAMNOSE-REDUCTASE-RXN
+is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+
+[Term]
+id: GO:0042709
+name: succinate-CoA ligase complex
+namespace: cellular_component
+def: "A heterodimeric enzyme complex, usually composed of an alpha and beta chain. Functions in the TCA cycle, hydrolyzing succinyl-CoA into succinate and CoA, thereby forming ATP or GTP." [EC:6.2.1.4, EC:6.2.1.5, GOC:jl]
+is_a: GO:0045239 ! tricarboxylic acid cycle enzyme complex
+intersection_of: GO:0032991 ! protein-containing complex
+intersection_of: capable_of GO:0004774 ! succinate-CoA ligase activity
+
+[Term]
+id: GO:0043860
+name: cyanophycin synthetase activity
+namespace: molecular_function
+def: "Catalysis of the ATP-dependent polymerization of arginine and aspartate to multi-L-arginyl-poly-L-aspartic acid (cyanophycin; a water-insoluble reserve polymer)." [EC:6.3.2.29, EC:6.3.2.30, GOC:jl]
+synonym: "cphA" RELATED []
+xref: EC:6.3.1.-
+is_a: GO:0016881 ! acid-amino acid ligase activity
+
+[Term]
+id: GO:0045181
+name: glutamate synthase activity, NAD(P)H as acceptor
+namespace: molecular_function
+def: "Catalysis of the reaction: 2 L-glutamate + NAD(P)+ = L-glutamine + 2-oxoglutarate + NAD(P)H + H+." [EC:1.4.1.13, EC:1.4.1.14]
+synonym: "glutamate synthase activity, NADH or NADPH as acceptor" RELATED []
+is_a: GO:0015930 ! glutamate synthase activity
+is_a: GO:0016639 ! oxidoreductase activity, acting on the CH-NH2 group of donors, NAD or NADP as acceptor
+
+[Term]
+id: GO:0045248
+name: cytosolic oxoglutarate dehydrogenase complex
+namespace: cellular_component
+def: "A cytosolic complex of multiple copies of three enzymatic components: oxoglutarate dehydrogenase (lipoamide) ; EC:1.2.4.2 (E1), dihydrolipoamide S-succinyltransferase ; EC:2.3.1.61 (E2) and dihydrolipoamide dehydrogenase ; EC:1.8.1.4 (E3); catalyzes the overall conversion of 2-oxoglutarate to succinyl-CoA and carbon dioxide (CO2)." [GOC:mtg_sensu, PMID:10848975]
+comment: See also the molecular functions term 'oxoglutarate dehydrogenase (succinyl-transferring) activity ; GO:0004591', 'dihydrolipoyllysine-residue succinyltransferase activity ; GO:0004149' and 'dihydrolipoyl dehydrogenase activity ; GO:0004148'.
+intersection_of: GO:0045252 ! oxoglutarate dehydrogenase complex
+intersection_of: part_of GO:0005829 ! cytosol
+
+[Term]
+id: GO:0045252
+name: oxoglutarate dehydrogenase complex
+namespace: cellular_component
+def: "A complex of multiple copies of three enzymatic components: oxoglutarate dehydrogenase (lipoamide) ; EC:1.2.4.2 (E1), dihydrolipoamide S-succinyltransferase ; EC:2.3.1.61 (E2) and dihydrolipoamide dehydrogenase ; EC:1.8.1.4 (E3); catalyzes the overall conversion of 2-oxoglutarate to succinyl-CoA and carbon dioxide (CO2)." [MetaCyc:CPLX66-42, PMID:10848975]
+comment: See also the molecular functions term 'oxoglutarate dehydrogenase (succinyl-transferring) activity ; GO:0004591', 'dihydrolipoyllysine-residue succinyltransferase activity ; GO:0004149' and 'dihydrolipoyl dehydrogenase activity ; GO:0004148'.
+subset: goslim_pir
+synonym: "dihydrolipoamide S-succinyltransferase complex" EXACT []
+intersection_of: GO:0032991 ! protein-containing complex
+intersection_of: capable_of GO:0004148 ! dihydrolipoyl dehydrogenase activity
+intersection_of: capable_of GO:0004149 ! dihydrolipoyllysine-residue succinyltransferase activity
+intersection_of: capable_of GO:0004591 ! oxoglutarate dehydrogenase (succinyl-transferring) activity
+
+[Term]
+id: GO:0047046
+name: homoisocitrate dehydrogenase activity
+namespace: molecular_function
+alt_id: GO:0047984
+def: "Catalysis of the reaction: NAD+ + 3-carboxy-2-hydroxyadipate = NADH + H+ + CO2 + 2-keto-adipate." [EC:1.1.1.155, EC:1.1.1.87, MetaCyc:1.1.1.87-RXN]
+comment: Note that EC:1.1.1.155 was merged into EC:1.1.1.87 as they are identical.
+synonym: "(-)-1-hydroxy-1,2,4-butanetricarboxylate:NAD(+) oxidoreductase (decarboxylating) activity" RELATED [EC:1.1.1.87]
+synonym: "(-)-1-hydroxy-1,2,4-butanetricarboxylate:NAD+ oxidoreductase (decarboxylating)" RELATED [EC:1.1.1.87]
+synonym: "(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (decarboxylating)" RELATED [EC:1.1.1.87]
+synonym: "2-hydroxy-3-carboxyadipate dehydrogenase activity" RELATED [EC:1.1.1.87]
+synonym: "3-carboxy-2-hydroxyadipate dehydrogenase activity" EXACT []
+synonym: "3-carboxy-2-hydroxyadipate:NAD(+) oxidoreductase (decarboxylating) activity" RELATED [EC:1.1.1.87]
+synonym: "3-carboxy-2-hydroxyadipate:NAD+ oxidoreductase (decarboxylating)" RELATED [EC:1.1.1.87]
+synonym: "homoisocitric dehydrogenase activity" RELATED [EC:1.1.1.87]
+xref: EC:1.1.1.87
+xref: MetaCyc:1.1.1.87-RXN
+xref: RHEA:11900
+is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+
+[Term]
+id: GO:0052689
+name: carboxylic ester hydrolase activity
+namespace: molecular_function
+alt_id: GO:0004091
+alt_id: GO:0004302
+alt_id: GO:0004759
+alt_id: GO:0016789
+def: "Catalysis of the hydrolysis of a carboxylic ester bond." [EC:3.1.1.-, EC:3.1.1.1, GOC:curators]
+subset: goslim_drosophila
+synonym: "ali-esterase activity" NARROW [EC:3.1.1.1]
+synonym: "alpha-carboxylesterase activity" NARROW [EC:3.1.1.1]
+synonym: "B-esterase activity" RELATED [EC:3.1.1.1]
+synonym: "carboxyesterase activity" RELATED [EC:3.1.1.1]
+synonym: "carboxyl ester hydrolase activity" RELATED [EC:3.1.1.1]
+synonym: "carboxylate esterase activity" RELATED [EC:3.1.1.1]
+synonym: "carboxylesterase activity" EXACT []
+synonym: "carboxylic acid esterase activity" EXACT []
+synonym: "carboxylic esterase activity" RELATED [EC:3.1.1.1]
+synonym: "cocaine esterase activity" NARROW [EC:3.1.1.1]
+synonym: "esterase A" NARROW [EC:3.1.1.1]
+synonym: "esterase B" NARROW [EC:3.1.1.1]
+synonym: "nonspecific carboxylesterase activity" RELATED [EC:3.1.1.1]
+synonym: "procaine esterase activity" NARROW [EC:3.1.1.1]
+synonym: "serine esterase activity" NARROW []
+synonym: "triacetin esterase" NARROW [EC:3.1.1.1]
+synonym: "vitamin A esterase" NARROW [EC:3.1.1.1]
+xref: EC:3.1.1.1
+xref: KEGG_REACTION:R00630
+xref: MetaCyc:CARBOXYLESTERASE-RXN
+xref: RHEA:21164
+xref: UM-BBD_reactionID:r1025
+is_a: GO:0016788 ! hydrolase activity, acting on ester bonds
+
+[Term]
+id: GO:0106184
+name: obsolete translocation activity acting on other compounds
+namespace: molecular_function
+def: "OBSOLETE. Catalysis of the translocation of other compounds not included in EC:7.1 through EC:7.5 ." [GOC:hjd, http://www.enzyme-database.org/]
+comment: This term was made obsolete because the name and scope ( other compounds not included in EC:7.1 through EC:7.5 ) is not good ontological practice.
+xref: EC:7.6.-.-
+is_obsolete: true
+created_by: hjd
+creation_date: 2019-04-05T15:56:19Z
+

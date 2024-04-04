@@ -1,0 +1,31 @@
+pattern_name: anatomical structure morphogenesis
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_morphogenesis.yaml
+
+description: This pattern is for classes representing the generation and organization of the shape of an anatomical structure or a cell, differentiated by the anatomical structure or cell being generated.
+
+classes:
+  anatomical structure: "UBERON:0000061"
+  anatomical structure morphogenesis: "GO:0009653"
+
+relations: 
+  results in morphogenesis of: RO:0002298
+
+vars:
+  # Currently cell isn't classified under 'anatomical structure'
+  target: "'anatomical structure'"
+
+name:
+  text: "%s morphogenesis"
+  vars:
+    - target
+
+def:
+  text: "The developmental process by which %s is generated and organized."
+  vars:
+     - target
+
+equivalentTo:
+  text: " 'anatomical structure morphogenesis' and 'results in morphogenesis of' some %s"
+  vars:
+    - target

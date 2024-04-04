@@ -1,0 +1,93 @@
+            N-terminal protein amino acid modification 1486        
+            attachment of GPI anchor to protein 671
+            co-translational protein modification 151
+            histone modification 15537
+            metal incorporation into metallo-molybdopterin complex 149
+            metal incorporation into metallo-sulfur cluster 118
+            negative regulation of protein modification process 5134
+            peptide cross-linking 381
+            peptidyl-amino acid modification 43014
+            positive regulation of protein modification process 12470
+            post-translational protein modification 999
+            protein ADP-ribosylation 839
+            protein acylation 9169
+            protein alkylation 7440
+            protein arginylation 157
+            protein biotinylation 179
+            protein carboxylation 84
+            protein de-ADP-ribosylation 114
+            protein deacylation 3185
+            protein dealkylation 1261 
+            protein deglycation 211
+            protein deglycosylation 743          
+            protein dephosphorylation 11194
+            protein glutathionylation 283
+            protein glycosylation 8861   
+            protein hydroxylation 1360
+            protein initiator methionine removal 46
+            protein lipidation 7024
+            protein modification by small protein conjugation or removal 46476
+            protein nitrosylation 121
+            protein oxidation 231
+            protein phosphopantetheinylation 349
+            protein phosphorylation 51301
+            protein prenylation 1010   
+            protein-FAD linkage 133
+            protein-chromophore linkage 251
+            protein-tetrapyrrole linkage 150
+            regulation of protein modification process 23857
+            proteolysis 72376
+
+
+- protein amidation 3
+- protein polyamination 0
+- protein halogenation 0
+- protein desulfurization 0
+- protein esterification 1
+- protein flavinylation 31
+- protein glucuronidation 1
+- protein denucleotidylation 6
+- protein sulfhydration 8
+- protein tyrosinylation 6
+- protein carbamoylation 1
+- protein sialylation 35
+- protein sulfation 81
+- protein nucleotidylation 61
+- trans-translation-dependent protein tagging 37
+- protein dehydration 24
+- protein delipidation 40 
+
+- actin modification 40
+
+- sulfur incorporation into metallo-sulfur cluster 2
+- protein-FMN linkage 0
+- protein-pyridoxal-5-phosphate linkage 15
+- protein-coenzyme A linkage 1
+- metal incorporation into metallo-oxygen cluster 0
+- nucleic acid-protein covalent cross-linking 31
+
+
+protein amidation 3
+
+    protein C-terminal amidation 0
+        C-terminal peptidyl-alanine amidation 0
+        C-terminal peptidyl-arginine amidation 0
+        C-terminal peptidyl-asparagine amidation 0
+        C-terminal peptidyl-aspartic acid amidation 0
+        C-terminal peptidyl-cysteine amidation 0
+        C-terminal peptidyl-glutamic acid amidation 0
+        C-terminal peptidyl-glutamine amidation 0
+        C-terminal peptidyl-glycine amidation 0
+        C-terminal peptidyl-histidine amidation 0
+        C-terminal peptidyl-isoleucine amidation 0
+        C-terminal peptidyl-leucine amidation 0
+        C-terminal peptidyl-lysine amidation 0
+        C-terminal peptidyl-methionine amidation 0
+        C-terminal peptidyl-phenylalanine amidation 0
+        C-terminal peptidyl-proline amidation 0
+        C-terminal peptidyl-serine amidation 0
+        C-terminal peptidyl-threonine amidation 0
+        C-terminal peptidyl-tryptophan amidation 0
+        C-terminal peptidyl-tyrosine amidation 0
+        C-terminal peptidyl-valine amidation 0
+

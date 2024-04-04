@@ -1,0 +1,26 @@
+pattern_name: present_in_taxon_annotations
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/present_in_taxon_annotations
+description: "Term annotations stating that a term can be used in a taxon."
+
+classes:
+  thing: owl:Thing
+
+relations: 
+  in_taxon: RO:0002162
+
+annotationProperties:
+  has_source: oio:source
+  present_in_taxon: RO:0002175
+
+vars:
+  taxon: thing
+
+data_list_vars:
+  source: xsd:string
+
+annotations:
+  - annotationProperty: present_in_taxon
+    var: taxon
+    annotations:
+      - annotationProperty: has_source
+        value: source

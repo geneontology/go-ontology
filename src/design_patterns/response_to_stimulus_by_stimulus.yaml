@@ -1,0 +1,30 @@
+pattern_name: response to stimulus by stimulus type
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/response_to_stimulus_by_stimulus.yaml
+
+description: This pattern is for classes representing response to stimulus, differentiated by the type of stimulus.
+
+classes:
+  response to stimulus: "GO:0050896"
+  continuant: "BFO:0000002"
+
+relations:
+  has primary input: "RO:0004009"
+
+vars:
+  stimulus: "'continuant'"
+
+name:
+  text: "response to %s"
+  vars:
+    - stimulus
+
+def:
+  text: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a %s stimulus."
+  vars:
+     - stimulus
+
+equivalentTo:
+  text: "'response to stimulus' and ('has primary input' some %s)"
+  vars:
+    - stimulus

@@ -10,7 +10,6 @@ http://purl.obolibrary.org/obo/GO_0036371	protein localization to T-tubule	http:
 http://purl.obolibrary.org/obo/GO_0044379	protein localization to actin cortical patch	http://purl.obolibrary.org/obo/GO_0030479	actin cortical patch
 http://purl.obolibrary.org/obo/GO_1903119	protein localization to actin cytoskeleton	http://purl.obolibrary.org/obo/GO_0015629	actin cytoskeleton
 http://purl.obolibrary.org/obo/GO_1903120	protein localization to actin filament bundle	http://purl.obolibrary.org/obo/GO_0032432	actin filament bundle
-http://purl.obolibrary.org/obo/GO_1904601	protein localization to actin fusion focus	http://purl.obolibrary.org/obo/GO_1990819	actin fusion focus
 http://purl.obolibrary.org/obo/GO_1990179	protein localization to actomyosin contractile ring	http://purl.obolibrary.org/obo/GO_0005826	actomyosin contractile ring
 http://purl.obolibrary.org/obo/GO_0071896	protein localization to adherens junction	http://purl.obolibrary.org/obo/GO_0005912	adherens junction
 http://purl.obolibrary.org/obo/GO_1904853	protein localization to ascospore wall	http://purl.obolibrary.org/obo/GO_0005619	ascospore wall
@@ -119,6 +118,7 @@ http://purl.obolibrary.org/obo/GO_1903621	protein localization to photoreceptor 
 http://purl.obolibrary.org/obo/GO_1903546	protein localization to photoreceptor outer segment	http://purl.obolibrary.org/obo/GO_0001750	photoreceptor outer segment
 http://purl.obolibrary.org/obo/GO_1903418	protein localization to plasma membrane of cell tip	http://purl.obolibrary.org/obo/GO_0031520	plasma membrane of cell tip
 http://purl.obolibrary.org/obo/GO_0044860	protein localization to plasma membrane raft	http://purl.obolibrary.org/obo/GO_0044853	plasma membrane raft
+http://purl.obolibrary.org/obo/GO_0160086	protein localization to polar microtubule	http://purl.obolibrary.org/obo/GO_0005827	polar microtubule
 http://purl.obolibrary.org/obo/GO_0062237	protein localization to postsynapse	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
 http://purl.obolibrary.org/obo/GO_1903539	protein localization to postsynaptic membrane	http://purl.obolibrary.org/obo/GO_0045211	postsynaptic membrane
 http://purl.obolibrary.org/obo/GO_0099633	protein localization to postsynaptic specialization membrane	http://purl.obolibrary.org/obo/GO_0099634	postsynaptic specialization membrane

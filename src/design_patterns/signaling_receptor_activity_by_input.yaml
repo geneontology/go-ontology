@@ -1,0 +1,30 @@
+pattern_name: signaling receptor activity by input
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml
+
+description: This pattern is for classes representing signaling receptor activity, differentiated by the type of input.
+
+classes:
+  signaling receptor activity: "GO:0038023"
+  material entity: "BFO:0000040"
+
+relations:
+  has primary input: "RO:0004009"
+
+vars:
+  input: "'material entity'"
+
+name:
+  text: "%s receptor activity"
+  vars:
+    - input
+
+def:
+  text: "Combining with %s to initiate a change in cell activity."
+  vars:
+     - input
+
+equivalentTo:
+  text: "'signaling receptor activity' and ('has primary input' some %s)"
+  vars:
+    - input

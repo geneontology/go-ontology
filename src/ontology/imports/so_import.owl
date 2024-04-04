@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/so_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-10-13/imports/so_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2023-02-28/imports/so_import.owl"/>
     </owl:Ontology>
     
 
@@ -30,12 +30,6 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
     
 
 
@@ -647,27 +641,22 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000275">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002247"/>
-        <obo:IAO_0000115>A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA.</obo:IAO_0000115>
+        <obo:IAO_0000115>Small nucleolar RNAs (snoRNAs) are short non-coding RNAs enriched in the nucleolus as components of small nucleolar ribonucleoproteins. They guide ribose methylation and pseudouridylation of rRNAs and snRNAs, and a subgroup regulate excision of rRNAs from rRNA precursor transcripts. snoRNAs may also guide rRNA acetylation and tRNA methylation, and regulate mRNA abundance and alternative splicing.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>INSDC_feature:ncRNA</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/SnoRNA</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>INSDC_qualifier:snoRNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>small nucleolar RNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SO:0000275</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:comment>Updated the definition of snoRNA (SO:0000275) from &quot;A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA.&quot; to &quot;Small nucleolar RNAs (snoRNAs) are short non-coding RNAs enriched in the nucleolus as components of small nucleolar ribonucleoproteins. They guide ribose methylation and pseudouridylation of rRNAs and snRNAs, and a subgroup regulate excision of rRNAs from rRNA precursor transcripts. snoRNAs may also guide rRNA acetylation and tRNA methylation, and regulate mRNA abundance and alternative splicing.&quot; to acknowledge that some snoRNAs functionally localize to other compartments (cytoplasm or even secreted). See GitHub Issue #578.</rdfs:comment>
         <rdfs:label>snoRNA</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000275"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA.</owl:annotatedTarget>
+        <owl:annotatedTarget>Small nucleolar RNAs (snoRNAs) are short non-coding RNAs enriched in the nucleolus as components of small nucleolar ribonucleoproteins. They guide ribose methylation and pseudouridylation of rRNAs and snRNAs, and a subgroup regulate excision of rRNAs from rRNA precursor transcripts. snoRNAs may also guide rRNA acetylation and tRNA methylation, and regulate mRNA abundance and alternative splicing.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:kgc</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000275"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>http://en.wikipedia.org/wiki/SnoRNA</owl:annotatedTarget>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:31828325</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1064,10 +1053,12 @@
         <obo:IAO_0000115>Most box C/D snoRNAs also contain long (&gt;10 nt) sequences complementary to rRNA. Boxes C and D, as well as boxes C&apos; and D&apos;, are usually located in close proximity, and form a structure known as the box C/D motif. This motif is important for snoRNA stability, processing, nucleolar targeting and function. A small number of box C/D snoRNAs are involved in rRNA processing; most, however, are known or predicted to serve as guide RNAs in ribose methylation of rRNA. Targeting involves direct base pairing of the snoRNA at the rRNA site to be modified and selection of a rRNA nucleotide a fixed distance from box D or D&apos;.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>C D box snoRNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>C/D box snoRNA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SNORD</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>box C/D snoRNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SO:0000593</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:comment>Added &apos;SNORD&apos; as a synonym of C_D_box_snoRNA (SO:0000593) and &apos;SNORA&apos; as a synonym of H_ACA_box_snoRNA (SO:0000594). See GitHub Issue #577.</rdfs:comment>
         <rdfs:label>C_D_box_snoRNA</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1075,6 +1066,12 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Most box C/D snoRNAs also contain long (&gt;10 nt) sequences complementary to rRNA. Boxes C and D, as well as boxes C&apos; and D&apos;, are usually located in close proximity, and form a structure known as the box C/D motif. This motif is important for snoRNA stability, processing, nucleolar targeting and function. A small number of box C/D snoRNAs are involved in rRNA processing; most, however, are known or predicted to serve as guide RNAs in ribose methylation of rRNA. Targeting involves direct base pairing of the snoRNA at the rRNA site to be modified and selection of a rRNA nucleotide a fixed distance from box D or D&apos;.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.bio.umass.edu/biochem/rna-sequence/Yeast_snoRNA_Database/snoRNA_DataBase.html</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000593"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>SNORD</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:31828325</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1086,9 +1083,11 @@
         <obo:IAO_0000115>Members of the box H/ACA family contain an ACA triplet, exactly 3 nt upstream from the 3&apos; end and an H-box in a hinge region that links two structurally similar functional domains of the molecule. Both boxes are important for snoRNA biosynthesis and function. A few box H/ACA snoRNAs are involved in rRNA processing; most others are known or predicted to participate in selection of uridine nucleosides in rRNA to be converted to pseudouridines. Site selection is mediated by direct base pairing of the snoRNA with rRNA through one or both targeting domains.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>H ACA box snoRNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>H/ACA box snoRNA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SNORA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>box H/ACA snoRNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SO:0000594</oboInOwl:id>
+        <rdfs:comment>Added &apos;SNORD&apos; as a synonym of C_D_box_snoRNA (SO:0000593) and &apos;SNORA&apos; as a synonym of H_ACA_box_snoRNA (SO:0000594). See GitHub Issue #577.</rdfs:comment>
         <rdfs:label>H_ACA_box_snoRNA</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1096,6 +1095,12 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Members of the box H/ACA family contain an ACA triplet, exactly 3 nt upstream from the 3&apos; end and an H-box in a hinge region that links two structurally similar functional domains of the molecule. Both boxes are important for snoRNA biosynthesis and function. A few box H/ACA snoRNAs are involved in rRNA processing; most others are known or predicted to participate in selection of uridine nucleosides in rRNA to be converted to pseudouridines. Site selection is mediated by direct base pairing of the snoRNA with rRNA through one or both targeting domains.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.bio.umass.edu/biochem/rna-sequence/Yeast_snoRNA_Database/snoRNA_DataBase.html</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000594"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>SNORA</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:31828325</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1881,6 +1886,12 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001089"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>mod_res</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uniprot:feature_type</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001089"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A region where a transformation occurs in a protein after it has been synthesized. This which may regulate, stabilize, crosslink or introduce new chemical functionalities in the protein.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EBIBS:GAR</oboInOwl:hasDbXref>
@@ -1891,12 +1902,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>http://en.wikipedia.org/wiki/Post_translational_modification</owl:annotatedTarget>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wiki</rdfs:label>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001089"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>mod_res</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uniprot:feature_type</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2329,7 +2334,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001877">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
-        <obo:IAO_0000115>A non-coding RNA over 200nucleotides in length.</obo:IAO_0000115>
+        <obo:IAO_0000115>A non-coding RNA generally longer than 200 nucleotides that cannot be classified as any other ncRNA subtype. Similar to mRNAs, lncRNAs are mainly transcribed by RNA polymerase II, are often capped by 7-methyl guanosine at their 5&apos; ends, polyadenylated at their 3&apos; ends and may be spliced.</obo:IAO_0000115>
         <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
         <oboInOwl:creation_date>2012-02-14T05:18:01Z</oboInOwl:creation_date>
         <oboInOwl:hasBroadSynonym>INSDC_feature:ncRNA</oboInOwl:hasBroadSynonym>
@@ -2339,13 +2344,15 @@
         <oboInOwl:hasExactSynonym>long non-coding RNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SO:0001877</oboInOwl:id>
+        <rdfs:comment>Updated the definition of lncRNA (SO:0001877) from &quot;A non-coding RNA over 200nucleotides in length.&quot; to &quot;A non-coding RNA generally longer than 200 nucleotides that cannot be classified as any other ncRNA subtype. Similar to mRNAs, lncRNAs are mainly transcribed by RNA polymerase II, are often capped by 7-methyl guanosine at their 5&apos; ends, polyadenylated at their 3&apos; ends and may be spliced.&quot; See GitHub Issue #575</rdfs:comment>
         <rdfs:label>lncRNA</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001877"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A non-coding RNA over 200nucleotides in length.</owl:annotatedTarget>
+        <owl:annotatedTarget>A non-coding RNA generally longer than 200 nucleotides that cannot be classified as any other ncRNA subtype. Similar to mRNAs, lncRNAs are mainly transcribed by RNA polymerase II, are often capped by 7-methyl guanosine at their 5&apos; ends, polyadenylated at their 3&apos; ends and may be spliced.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC:mw</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:33353982</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001877"/>

@@ -45,5 +45,7 @@ TODO
 | start_location_label | end_location | defined_class_label | end_location_label | start_location | defined_class |
 |:--|:--|:--|:--|:--|:--|
 | Golgi apparatus | [http://purl.obolibrary.org/obo/GO_0005886](http://purl.obolibrary.org/obo/GO_0005886) | Golgi to plasma membrane transport | plasma membrane | [http://purl.obolibrary.org/obo/GO_0005794](http://purl.obolibrary.org/obo/GO_0005794) | [http://purl.obolibrary.org/obo/GO_0006893](http://purl.obolibrary.org/obo/GO_0006893) |
+| mitochondrion | [http://purl.obolibrary.org/obo/GO_0005764](http://purl.obolibrary.org/obo/GO_0005764) | mitochondrion to lysosome vesicle-mediated transport | lysosome | [http://purl.obolibrary.org/obo/GO_0005739](http://purl.obolibrary.org/obo/GO_0005739) | [http://purl.obolibrary.org/obo/GO_0099074](http://purl.obolibrary.org/obo/GO_0099074) |
+| mitochondrion | [http://purl.obolibrary.org/obo/GO_0005777](http://purl.obolibrary.org/obo/GO_0005777) | mitochondrion to peroxisome vesicle-mediated transport | peroxisome | [http://purl.obolibrary.org/obo/GO_0005739](http://purl.obolibrary.org/obo/GO_0005739) | [http://purl.obolibrary.org/obo/GO_0099076](http://purl.obolibrary.org/obo/GO_0099076) |
 | endosome | [http://purl.obolibrary.org/obo/GO_0005768](http://purl.obolibrary.org/obo/GO_0005768) | vesicle-mediated transport between endosomal compartments | endosome | [http://purl.obolibrary.org/obo/GO_0005768](http://purl.obolibrary.org/obo/GO_0005768) | [http://purl.obolibrary.org/obo/GO_0098927](http://purl.obolibrary.org/obo/GO_0098927) |
 

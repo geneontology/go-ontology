@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2022-10-13/imports/so_import.owl
+data-version: go/releases/2023-02-28/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -196,12 +196,12 @@ is_a: SO:0002247 ! sncRNA
 id: SO:0000275
 name: snoRNA
 namespace: sequence
-def: "A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA." [GOC:kgc]
+def: "Small nucleolar RNAs (snoRNAs) are short non-coding RNAs enriched in the nucleolus as components of small nucleolar ribonucleoproteins. They guide ribose methylation and pseudouridylation of rRNAs and snRNAs, and a subgroup regulate excision of rRNAs from rRNA precursor transcripts. snoRNAs may also guide rRNA acetylation and tRNA methylation, and regulate mRNA abundance and alternative splicing." [GOC:kgc, PMID:31828325]
+comment: Updated the definition of snoRNA (SO:0000275) from "A snoRNA (small nucleolar RNA) is any one of a class of small RNAs that are associated with the eukaryotic nucleus as components of small nucleolar ribonucleoproteins. They participate in the processing or modifications of many RNAs, mostly ribosomal RNAs (rRNAs) though snoRNAs are also known to target other classes of RNA, including spliceosomal RNAs, tRNAs, and mRNAs via a stretch of sequence that is complementary to a sequence in the targeted RNA." to "Small nucleolar RNAs (snoRNAs) are short non-coding RNAs enriched in the nucleolus as components of small nucleolar ribonucleoproteins. They guide ribose methylation and pseudouridylation of rRNAs and snRNAs, and a subgroup regulate excision of rRNAs from rRNA precursor transcripts. snoRNAs may also guide rRNA acetylation and tRNA methylation, and regulate mRNA abundance and alternative splicing." to acknowledge that some snoRNAs functionally localize to other compartments (cytoplasm or even secreted). See GitHub Issue #578.
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:snoRNA" EXACT []
 synonym: "small nucleolar RNA" EXACT []
-xref: http://en.wikipedia.org/wiki/SnoRNA "wiki"
 is_a: SO:0002247 ! sncRNA
 
 [Term]
@@ -381,10 +381,12 @@ id: SO:0000593
 name: C_D_box_snoRNA
 namespace: sequence
 def: "Most box C/D snoRNAs also contain long (>10 nt) sequences complementary to rRNA. Boxes C and D, as well as boxes C' and D', are usually located in close proximity, and form a structure known as the box C/D motif. This motif is important for snoRNA stability, processing, nucleolar targeting and function. A small number of box C/D snoRNAs are involved in rRNA processing; most, however, are known or predicted to serve as guide RNAs in ribose methylation of rRNA. Targeting involves direct base pairing of the snoRNA at the rRNA site to be modified and selection of a rRNA nucleotide a fixed distance from box D or D'." [http://www.bio.umass.edu/biochem/rna-sequence/Yeast_snoRNA_Database/snoRNA_DataBase.html]
+comment: Added 'SNORD' as a synonym of C_D_box_snoRNA (SO:0000593) and 'SNORA' as a synonym of H_ACA_box_snoRNA (SO:0000594). See GitHub Issue #577.
 subset: SOFA
 synonym: "box C/D snoRNA" EXACT []
 synonym: "C D box snoRNA" EXACT []
 synonym: "C/D box snoRNA" EXACT []
+synonym: "SNORD" EXACT [PMID:31828325]
 is_a: SO:0000275 ! snoRNA
 
 [Term]
@@ -392,9 +394,11 @@ id: SO:0000594
 name: H_ACA_box_snoRNA
 namespace: sequence
 def: "Members of the box H/ACA family contain an ACA triplet, exactly 3 nt upstream from the 3' end and an H-box in a hinge region that links two structurally similar functional domains of the molecule. Both boxes are important for snoRNA biosynthesis and function. A few box H/ACA snoRNAs are involved in rRNA processing; most others are known or predicted to participate in selection of uridine nucleosides in rRNA to be converted to pseudouridines. Site selection is mediated by direct base pairing of the snoRNA with rRNA through one or both targeting domains." [http://www.bio.umass.edu/biochem/rna-sequence/Yeast_snoRNA_Database/snoRNA_DataBase.html]
+comment: Added 'SNORD' as a synonym of C_D_box_snoRNA (SO:0000593) and 'SNORA' as a synonym of H_ACA_box_snoRNA (SO:0000594). See GitHub Issue #577.
 synonym: "box H/ACA snoRNA" EXACT []
 synonym: "H ACA box snoRNA" EXACT []
 synonym: "H/ACA box snoRNA" EXACT []
+synonym: "SNORA" EXACT [PMID:31828325]
 is_a: SO:0000275 ! snoRNA
 
 [Term]
@@ -967,7 +971,8 @@ creation_date: 2011-05-31T03:27:35Z
 id: SO:0001877
 name: lncRNA
 namespace: sequence
-def: "A non-coding RNA over 200nucleotides in length." [HGNC:mw]
+def: "A non-coding RNA generally longer than 200 nucleotides that cannot be classified as any other ncRNA subtype. Similar to mRNAs, lncRNAs are mainly transcribed by RNA polymerase II, are often capped by 7-methyl guanosine at their 5' ends, polyadenylated at their 3' ends and may be spliced." [HGNC:mw] {comment="PMID:33353982"}
+comment: Updated the definition of lncRNA (SO:0001877) from "A non-coding RNA over 200nucleotides in length." to "A non-coding RNA generally longer than 200 nucleotides that cannot be classified as any other ncRNA subtype. Similar to mRNAs, lncRNAs are mainly transcribed by RNA polymerase II, are often capped by 7-methyl guanosine at their 5' ends, polyadenylated at their 3' ends and may be spliced." See GitHub Issue #575
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:lncRNA" EXACT []
 synonym: "lncRNA_transcript" EXACT []

@@ -1,0 +1,21 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/go/extensions/go-amigo.owl>
+# When adding an import, ensure this dependency is captured in the go-amigo makefile target
+Import(<http://purl.obolibrary.org/obo/go/extensions/go-gaf.owl>)
+Import(<http://purl.obolibrary.org/obo/go/extensions/go-modules-annotations.owl>)
+Import(<http://purl.obolibrary.org/obo/go/extensions/go-taxon-subsets.owl>)
+Import(<http://purl.obolibrary.org/obo/eco/eco-basic.owl>)
+Import(<http://purl.obolibrary.org/obo/pato.owl>)
+Import(<http://purl.obolibrary.org/obo/po.owl>)
+Import(<http://purl.obolibrary.org/obo/chebi.owl>)
+Import(<http://purl.obolibrary.org/obo/uberon.owl>)
+Import(<http://purl.obolibrary.org/obo/wbbt/wbbt-base.owl>)
+
+Annotation(rdfs:comment "This ontology was created to handle the specific imports required for the use in AmiGO.")
+)

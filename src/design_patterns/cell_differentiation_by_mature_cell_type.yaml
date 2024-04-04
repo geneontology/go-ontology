@@ -1,0 +1,30 @@
+pattern_name: cell differentiation by mature cell type
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cell_differentiation_by_mature_cell_type.yaml
+
+description: This pattern is for classes representing cell differentiation, differentiated by the resulting mature cell type.
+
+classes:
+  cell differentiation: "GO:0030154"
+  cell: "CL:0000000"
+
+relations:
+  results in acquisition of features of: "RO:0002315"
+
+vars:
+  cell_type: "'cell'"
+
+name:
+  text: "%s differentiation"
+  vars:
+    - cell_type
+
+def:
+  text: "The process by which a relatively unspecialized cell acquires specialized features of a %s."
+  vars:
+     - cell_type
+
+equivalentTo:
+  text: "'cell differentiation' and ('results in acquisition of features of' some %s)"
+  vars:
+    - cell_type

@@ -1,0 +1,1006 @@
+format-version: 1.2
+subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
+subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
+subsetdef: gocheck_do_not_manually_annotate "Term not to be used for direct manual annotation"
+subsetdef: goslim_agr "AGR slim"
+subsetdef: goslim_aspergillus "Aspergillus GO slim"
+subsetdef: goslim_candida "Candida GO slim"
+subsetdef: goslim_chembl "ChEMBL protein targets summary"
+subsetdef: goslim_drosophila "Drosophila GO slim"
+subsetdef: goslim_flybase_ribbon "FlyBase Drosophila GO ribbon slim"
+subsetdef: goslim_generic "Generic GO slim"
+subsetdef: goslim_metagenomics "Metagenomics GO slim"
+subsetdef: goslim_mouse "Mouse GO slim"
+subsetdef: goslim_pir "PIR GO slim"
+subsetdef: goslim_plant "Plant GO slim"
+subsetdef: goslim_pombe "Fission yeast GO slim"
+subsetdef: goslim_synapse "synapse GO slim"
+subsetdef: goslim_yeast "Yeast GO slim"
+synonymtypedef: syngo_official_label "label approved by the SynGO project"
+synonymtypedef: systematic_synonym "Systematic synonym" EXACT
+default-namespace: gene_ontology
+import: http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl
+import: http://purl.obolibrary.org/obo/go/extensions/go-gci.owl
+import: http://purl.obolibrary.org/obo/go/extensions/ro_pending.owl
+import: http://purl.obolibrary.org/obo/go/imports/caro_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/chebi_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/cl_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/ddanat_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/fao_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/go-pattern-conformance.ttl
+import: http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl
+import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl
+import: http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/oba_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/opl_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/pato_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/po_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/pr_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/ro_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/so_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/uberon_import.owl
+import: http://purl.obolibrary.org/obo/go/imports/x-disjoint.owl
+ontology: go
+property_value: http://purl.org/dc/elements/1.1/description "The Gene Ontology (GO) provides a framework and set of concepts for describing the functions of gene products from all organisms." xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Gene Ontology" xsd:string
+property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
+
+[Term]
+id: GO:0003677
+name: DNA binding
+namespace: molecular_function
+alt_id: GO:0043566
+def: "Any molecular function by which a gene product interacts selectively and non-covalently with DNA (deoxyribonucleic acid)." [GOC:dph, GOC:jl, GOC:tb, GOC:vw]
+subset: goslim_agr
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_flybase_ribbon
+subset: goslim_generic
+subset: goslim_mouse
+subset: goslim_plant
+subset: goslim_yeast
+synonym: "microtubule/chromatin interaction" RELATED []
+synonym: "plasmid binding" NARROW []
+synonym: "structure specific DNA binding" RELATED []
+synonym: "structure-specific DNA binding" RELATED []
+intersection_of: GO:0005488 ! binding
+intersection_of: has_input CHEBI:16991 ! deoxyribonucleic acid
+
+[Term]
+id: GO:0003682
+name: chromatin binding
+namespace: molecular_function
+def: "Binding to chromatin, the network of fibers of DNA, protein, and sometimes RNA, that make up the chromosomes of the eukaryotic nucleus during interphase." [GOC:jl, ISBN:0198506732, PMID:20404130]
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_pir
+subset: goslim_plant
+subset: goslim_yeast
+synonym: "lamin/chromatin binding" NARROW []
+synonym: "microtubule/chromatin interaction" NARROW []
+synonym: "nuclear membrane vesicle binding to chromatin" NARROW []
+is_a: GO:0005488 ! binding
+intersection_of: GO:0005488 ! binding
+intersection_of: has_input GO:0000785 ! chromatin
+
+[Term]
+id: GO:0003700
+name: DNA-binding transcription factor activity
+namespace: molecular_function
+alt_id: GO:0000130
+alt_id: GO:0001071
+alt_id: GO:0001130
+alt_id: GO:0001131
+alt_id: GO:0001151
+alt_id: GO:0001199
+alt_id: GO:0001204
+def: "A transcription regulator activity that modulates transcription of gene sets via selective and non-covalent binding to a specific double-stranded genomic DNA sequence (sometimes referred to as a motif) within a cis-regulatory region. Regulatory regions include promoters (proximal and distal) and enhancers. Genes are transcriptional units, and include bacterial operons." [GOC:txnOH-2018]
+comment: Usage guidance: Most DNA-binding transcription factors do not have enzymatic activity. The presence of specific DNA-binding domains known to be present in DNA-binding transcription factors (HOX, GATA etc) should be used to help decide whether a protein is a DNA binding transcription factor or a coregulator. If a protein has an enzymatic activity (for example, ubiquitin ligase, histone acetyl transferase) and no known DNA binding domain, consider annotating to GO:0003712 transcription coregulator activity. Special care should be taken with proteins containing zinc fingers, Myb/SANT and ARID domains, since only a subset of proteins containing these domains directly and selectively bind to regulatory DNA motifs in cis-regulatory regions.
+subset: goslim_agr
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_metagenomics
+subset: goslim_mouse
+subset: goslim_plant
+subset: goslim_yeast
+synonym: "bacterial-type DNA binding transcription factor activity" NARROW []
+synonym: "bacterial-type RNA polymerase core promoter proximal region sequence-specific DNA binding transcription factor activity" NARROW []
+synonym: "bacterial-type RNA polymerase transcription enhancer sequence-specific DNA binding transcription factor activity" NARROW []
+synonym: "bacterial-type RNA polymerase transcription factor activity, metal ion regulated sequence-specific DNA binding" NARROW []
+synonym: "bacterial-type RNA polymerase transcription factor activity, sequence-specific DNA binding" NARROW []
+synonym: "DNA binding transcription factor activity" EXACT []
+synonym: "gene-specific transcription factor activity" EXACT []
+synonym: "metal ion regulated sequence-specific DNA binding bacterial-type RNA polymerase transcription factor activity" NARROW []
+synonym: "metal ion regulated sequence-specific DNA binding transcription factor activity" NARROW []
+synonym: "nucleic acid binding transcription factor activity" BROAD []
+synonym: "sequence-specific DNA binding bacterial-type RNA polymerase transcription factor activity" NARROW []
+synonym: "sequence-specific DNA binding transcription factor activity" EXACT []
+synonym: "transcription factor activity" BROAD []
+synonym: "transcription factor activity, bacterial-type RNA polymerase core promoter proximal region sequence-specific binding" NARROW []
+synonym: "transcription factor activity, bacterial-type RNA polymerase proximal promoter sequence-specific DNA binding" NARROW []
+synonym: "transcription factor activity, bacterial-type RNA polymerase transcription enhancer sequence-specific binding" NARROW []
+synonym: "transcription factor activity, metal ion regulated sequence-specific DNA binding" NARROW []
+intersection_of: GO:0140110 ! transcription regulator activity
+intersection_of: has_part GO:0000976 ! transcription cis-regulatory region binding
+intersection_of: part_of GO:0006355 ! regulation of transcription, DNA-templated
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/15704 xsd:anyURI
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/16534 xsd:anyURI
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/20253 xsd:anyURI
+created_by: krc
+creation_date: 2010-10-21T04:37:54Z
+
+[Term]
+id: GO:0003712
+name: transcription coregulator activity
+namespace: molecular_function
+alt_id: GO:0001104
+alt_id: GO:0016455
+def: "A transcription regulator activity that modulates the transcription of specific gene sets via binding to a DNA-bound DNA-binding transcription factor, either on its own or as part of a complex. Coregulators often act by altering chromatin structure and modifications. For example, one class of transcription coregulators modifies chromatin structure through covalent modification of histones. A second class remodels the conformation of chromatin in an ATP-dependent fashion. A third class modulates interactions of DNA-bound DNA-binding transcription factors with other transcription coregulators." [GOC:txnOH-2018, PMID:10213677, PMID:16858867, PMID:24203923, PMID:25957681, Wikipedia:Transcription_coregulator]
+comment: Usage guidance: Most transcription coregulators do not bind DNA. Those that do usually bind DNA either in a non-specific or non-direct manner. If a protein binds DNA specifically, consider annotating to GO:0003700 DNA binding transcription factor activity.
+subset: goslim_drosophila
+synonym: "RNA polymerase II transcriptional cofactor activity" RELATED []
+synonym: "transcription cofactor activity" EXACT []
+synonym: "transcriptional co-regulator" EXACT []
+is_a: GO:0140110 ! transcription regulator activity
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/15536 xsd:anyURI
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/15665 xsd:anyURI
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/15998 xsd:anyURI
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/20253 xsd:anyURI
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/20464 xsd:anyURI
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/20862 xsd:anyURI
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/20962 xsd:anyURI
+created_by: krc
+creation_date: 2010-11-24T03:02:15Z
+
+[Term]
+id: GO:0003723
+name: RNA binding
+namespace: molecular_function
+alt_id: GO:0000498
+alt_id: GO:0044822
+def: "Binding to an RNA molecule or a portion thereof." [GOC:jl, GOC:mah]
+subset: goslim_agr
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_flybase_ribbon
+subset: goslim_generic
+subset: goslim_mouse
+subset: goslim_plant
+subset: goslim_yeast
+synonym: "base pairing with RNA" NARROW []
+synonym: "poly(A) RNA binding" RELATED []
+synonym: "poly(A)-RNA binding" RELATED []
+synonym: "poly-A RNA binding" RELATED []
+is_a: GO:0003676 ! nucleic acid binding
+intersection_of: GO:0005488 ! binding
+intersection_of: has_input CHEBI:33697 ! ribonucleic acid
+
+[Term]
+id: GO:0003735
+name: structural constituent of ribosome
+namespace: molecular_function
+alt_id: GO:0003736
+alt_id: GO:0003737
+alt_id: GO:0003738
+alt_id: GO:0003739
+alt_id: GO:0003740
+alt_id: GO:0003741
+alt_id: GO:0003742
+def: "The action of a molecule that contributes to the structural integrity of the ribosome." [GOC:mah]
+comment: Note that this term may be used to annotate ribosomal RNAs as well as ribosomal proteins.
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_metagenomics
+subset: goslim_yeast
+synonym: "ribosomal protein" BROAD []
+synonym: "ribosomal RNA" RELATED []
+intersection_of: GO:0005198 ! structural molecule activity
+intersection_of: occurs_in GO:0005840 ! ribosome
+
+[Term]
+id: GO:0003924
+name: GTPase activity
+namespace: molecular_function
+alt_id: GO:0061745
+def: "Catalysis of the reaction: GTP + H2O = GDP + phosphate." [ISBN:0198547684, PMID:26832457, PMID:27218782]
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_generic
+subset: goslim_yeast
+synonym: "ARF small monomeric GTPase activity" NARROW []
+synonym: "dynamin GTPase activity" NARROW []
+synonym: "GTPase activity, coupled" RELATED []
+synonym: "heterotrimeric G-protein GTPase activity" NARROW []
+synonym: "heterotrimeric G-protein GTPase, alpha-subunit" RELATED []
+synonym: "heterotrimeric G-protein GTPase, beta-subunit" RELATED []
+synonym: "heterotrimeric G-protein GTPase, gamma-subunit" RELATED []
+synonym: "hydrolase activity, acting on acid anhydrides, acting on GTP, involved in cellular and subcellular movement" BROAD []
+synonym: "protein-synthesizing GTPase activity" NARROW []
+synonym: "protein-synthesizing GTPase activity, elongation" NARROW []
+synonym: "protein-synthesizing GTPase activity, initiation" NARROW []
+synonym: "protein-synthesizing GTPase activity, termination" NARROW []
+synonym: "Rab small monomeric GTPase activity" NARROW []
+synonym: "Ran small monomeric GTPase activity" NARROW []
+synonym: "Ras small monomeric GTPase activity" NARROW []
+synonym: "RHEB small monomeric GTPase activity" NARROW []
+synonym: "Rho small monomeric GTPase activity" NARROW []
+synonym: "Sar small monomeric GTPase activity" NARROW []
+synonym: "signal-recognition-particle GTPase activity" NARROW []
+synonym: "small monomeric GTPase activity" NARROW []
+synonym: "tubulin GTPase activity" NARROW []
+xref: RHEA:19669
+is_a: GO:0017111 ! nucleoside-triphosphatase activity
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/19078 xsd:anyURI
+created_by: dph
+creation_date: 2015-11-11T12:47:56Z
+
+[Term]
+id: GO:0004518
+name: nuclease activity
+namespace: molecular_function
+def: "Catalysis of the hydrolysis of ester linkages within nucleic acids." [ISBN:0198547684]
+comment: Note that 'tRNA nucleotidyltransferase activity ; GO:0009022', also known as 'ribonuclease PH', and 'DNA-(apurinic or apyrimidinic site) lyase activity ; GO:0003906' do not have parentage in the 'nuclease activity' branch of the ontology because both GO and the Enzyme Commission define nuclease activity as a type of hydrolysis.
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_plant
+subset: goslim_yeast
+is_a: GO:0016788 ! hydrolase activity, acting on ester bonds
+relationship: part_of GO:0090305 ! nucleic acid phosphodiester bond hydrolysis
+
+[Term]
+id: GO:0005085
+name: guanyl-nucleotide exchange factor activity
+namespace: molecular_function
+alt_id: GO:0005086
+alt_id: GO:0005087
+alt_id: GO:0005088
+alt_id: GO:0005089
+alt_id: GO:0005090
+alt_id: GO:0008321
+alt_id: GO:0008433
+alt_id: GO:0016219
+alt_id: GO:0016220
+alt_id: GO:0017034
+alt_id: GO:0017112
+alt_id: GO:0017132
+alt_id: GO:0019839
+alt_id: GO:0030676
+def: "Stimulates the exchange of GDP to GTP on a signaling GTPase, changing its conformation to its active form. Guanine nucleotide exchange factors (GEFs) act by stimulating the release of guanosine diphosphate (GDP) to allow binding of guanosine triphosphate (GTP), which is more abundant in the cell under normal cellular physiological conditions." [GOC:kd, GOC:mah, PMID:23303910, PMID:27218782]
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_yeast
+synonym: "ARF guanyl-nucleotide exchange factor activity" NARROW []
+synonym: "cAMP-dependent guanyl-nucleotide exchange factor activity" NARROW []
+synonym: "GDP-dissociation stimulator activity" EXACT []
+synonym: "GDS" EXACT []
+synonym: "GEF" EXACT []
+synonym: "GNRP" NARROW []
+synonym: "guanyl-nucleotide release factor activity" EXACT []
+synonym: "guanyl-nucleotide releasing factor" EXACT []
+synonym: "Rab guanyl-nucleotide exchange factor activity" NARROW []
+synonym: "Rac guanyl-nucleotide exchange factor activity" NARROW []
+synonym: "Ral guanyl-nucleotide exchange factor activity" NARROW []
+synonym: "Ran guanyl-nucleotide exchange factor activity" NARROW []
+synonym: "Rap guanyl-nucleotide exchange factor activity" NARROW []
+synonym: "Ras guanyl-nucleotide exchange factor activity" NARROW []
+synonym: "Rho guanine nucleotide exchange factor" EXACT []
+synonym: "Rho guanyl-nucleotide exchange factor activity" NARROW []
+synonym: "RhoGEF" EXACT []
+synonym: "Sar guanyl-nucleotide exchange factor activity" NARROW []
+intersection_of: GO:0030695 ! GTPase regulator activity
+intersection_of: negatively_regulates GO:0019003 ! GDP binding
+intersection_of: positively_regulates GO:0005525 ! GTP binding
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/18749 xsd:anyURI
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/18750 xsd:anyURI
+
+[Term]
+id: GO:0005200
+name: structural constituent of cytoskeleton
+namespace: molecular_function
+def: "The action of a molecule that contributes to the structural integrity of a cytoskeletal structure." [GOC:mah]
+subset: goslim_drosophila
+is_a: GO:0005198 ! structural molecule activity
+intersection_of: GO:0005198 ! structural molecule activity
+intersection_of: occurs_in GO:0005856 ! cytoskeleton
+intersection_of: part_of GO:0007010 ! cytoskeleton organization
+
+[Term]
+id: GO:0005201
+name: extracellular matrix structural constituent
+namespace: molecular_function
+def: "The action of a molecule that contributes to the structural integrity of the extracellular matrix." [GOC:mah]
+comment: Extracellular matrix glycoproteins may be annotated to this term. PMID:24443019
+subset: goslim_drosophila
+synonym: "core extracellular matrix" BROAD []
+synonym: "core matrisome" BROAD []
+synonym: "extracellular matrix glycoprotein" NARROW []
+is_a: GO:0005198 ! structural molecule activity
+intersection_of: GO:0005198 ! structural molecule activity
+intersection_of: occurs_in GO:0031012 ! extracellular matrix
+
+[Term]
+id: GO:0008061
+name: chitin binding
+namespace: molecular_function
+def: "Binding to chitin, a linear polysaccharide consisting of beta-(1->4)-linked N-acetyl-D-glucosamine residues." [GOC:jl, ISBN:0198506732]
+subset: goslim_drosophila
+is_a: GO:0097367 ! carbohydrate derivative binding
+intersection_of: GO:0005488 ! binding
+intersection_of: has_input CHEBI:17029 ! chitin
+
+[Term]
+id: GO:0008092
+name: cytoskeletal protein binding
+namespace: molecular_function
+def: "Binding to a protein component of a cytoskeleton (actin, microtubule, or intermediate filament cytoskeleton)." [GOC:mah]
+subset: goslim_agr
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_flybase_ribbon
+subset: goslim_generic
+subset: goslim_mouse
+subset: goslim_yeast
+is_a: GO:0005515 ! protein binding
+
+[Term]
+id: GO:0008134
+name: transcription factor binding
+namespace: molecular_function
+def: "Binding to a transcription factor, a protein required to initiate or regulate transcription." [ISBN:0198506732]
+comment: Note that this term should not be used for direct annotation. Please consier one of the more specific descendants, GO:0140297 ; DNA-binding transcription factor binding, GO:0140296 ; general transcription initiation factor binding or GO:0001221 ; transcription coregulator binding.
+subset: gocheck_do_not_annotate
+subset: goslim_agr
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_metagenomics
+subset: goslim_yeast
+synonym: "TF binding" EXACT []
+is_a: GO:0005515 ! protein binding
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/19354 xsd:anyURI
+
+[Term]
+id: GO:0008168
+name: methyltransferase activity
+namespace: molecular_function
+alt_id: GO:0004480
+def: "Catalysis of the transfer of a methyl group to an acceptor molecule." [ISBN:0198506732]
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_yeast
+synonym: "methylase" BROAD []
+xref: EC:2.1.1.-
+is_a: GO:0016741 ! transferase activity, transferring one-carbon groups
+
+[Term]
+id: GO:0008233
+name: peptidase activity
+namespace: molecular_function
+alt_id: GO:0070010
+alt_id: GO:0070011
+def: "Catalysis of the hydrolysis of a peptide bond. A peptide bond is a covalent bond formed when the carbon atom from the carboxyl group of one amino acid shares electrons with the nitrogen atom from the amino group of a second amino acid." [GOC:jl, ISBN:0815332181]
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_metagenomics
+subset: goslim_pir
+subset: goslim_yeast
+synonym: "hydrolase, acting on peptide bonds" EXACT []
+synonym: "peptidase activity, acting on D-amino acid peptides" NARROW []
+synonym: "peptidase activity, acting on L-amino acid peptides" NARROW []
+synonym: "peptide hydrolase activity" EXACT []
+synonym: "protease activity" EXACT []
+synonym: "proteinase activity" NARROW []
+xref: EC:3.4.-.-
+is_a: GO:0016787 ! hydrolase activity
+is_a: GO:0140096 ! catalytic activity, acting on a protein
+relationship: part_of GO:0006508 ! proteolysis
+
+[Term]
+id: GO:0008289
+name: lipid binding
+namespace: molecular_function
+def: "Binding to a lipid." [GOC:ai]
+subset: goslim_agr
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_flybase_ribbon
+subset: goslim_generic
+subset: goslim_mouse
+subset: goslim_pir
+subset: goslim_plant
+subset: goslim_yeast
+intersection_of: GO:0005488 ! binding
+intersection_of: has_input CHEBI:18059 ! lipid
+
+[Term]
+id: GO:0016298
+name: lipase activity
+namespace: molecular_function
+def: "Catalysis of the hydrolysis of a lipid or phospholipid." [GOC:mah]
+subset: goslim_aspergillus
+subset: goslim_chembl
+subset: goslim_drosophila
+xref: EC:3.1.1.-
+is_a: GO:0016788 ! hydrolase activity, acting on ester bonds
+
+[Term]
+id: GO:0016301
+name: kinase activity
+namespace: molecular_function
+def: "Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule." [ISBN:0198506732]
+comment: Note that this term encompasses all activities that transfer a single phosphate group; although ATP is by far the most common phosphate donor, reactions using other phosphate donors are included in this term.
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_metagenomics
+subset: goslim_plant
+subset: goslim_yeast
+synonym: "phosphokinase activity" EXACT []
+is_a: GO:0016772 ! transferase activity, transferring phosphorus-containing groups
+relationship: part_of GO:0016310 ! phosphorylation
+
+[Term]
+id: GO:0016491
+name: oxidoreductase activity
+namespace: molecular_function
+def: "Catalysis of an oxidation-reduction (redox) reaction, a reversible chemical reaction in which the oxidation state of an atom or atoms within a molecule is altered. One substrate acts as a hydrogen or electron donor and becomes oxidized, while the other acts as hydrogen or electron acceptor and becomes reduced." [GOC:go_curators]
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_generic
+subset: goslim_metagenomics
+subset: goslim_mouse
+subset: goslim_pir
+subset: goslim_yeast
+synonym: "oxidoreductase activity, acting on other substrates" NARROW []
+synonym: "redox activity" EXACT []
+xref: EC:1.-.-.-
+is_a: GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:0016746
+name: acyltransferase activity
+namespace: molecular_function
+alt_id: GO:0008415
+def: "Catalysis of the transfer of an acyl group from one compound (donor) to another (acceptor)." [GOC:jl, ISBN:0198506732]
+subset: goslim_chembl
+subset: goslim_drosophila
+synonym: "transferase activity, transferring acyl groups" EXACT []
+xref: EC:2.3.-.-
+is_a: GO:0016740 ! transferase activity
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/20486 xsd:anyURI
+
+[Term]
+id: GO:0016757
+name: glycosyltransferase activity
+namespace: molecular_function
+alt_id: GO:0016932
+def: "Catalysis of the transfer of a glycosyl group from one compound (donor) to another (acceptor)." [GOC:jl, ISBN:0198506732]
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_yeast
+synonym: "transferase activity, transferring glycosyl groups" EXACT []
+synonym: "transferase activity, transferring other glycosyl groups" NARROW []
+synonym: "transglycosidase activity" EXACT []
+synonym: "transglycosylase activity" EXACT []
+xref: EC:2.4.-.-
+is_a: GO:0016740 ! transferase activity
+
+[Term]
+id: GO:0016765
+name: transferase activity, transferring alkyl or aryl (other than methyl) groups
+namespace: molecular_function
+alt_id: GO:0016766
+def: "Catalysis of the transfer of an alkyl or aryl (but not methyl) group from one compound (donor) to another (acceptor)." [GOC:jl, ISBN:0198506732]
+subset: goslim_chembl
+subset: goslim_drosophila
+synonym: "transferase activity, transferring alkyl or aryl groups, other than methyl groups" EXACT []
+xref: EC:2.5.1.-
+is_a: GO:0016740 ! transferase activity
+
+[Term]
+id: GO:0016773
+name: phosphotransferase activity, alcohol group as acceptor
+namespace: molecular_function
+def: "Catalysis of the transfer of a phosphorus-containing group from one compound (donor) to an alcohol group (acceptor)." [GOC:jl]
+subset: goslim_drosophila
+xref: EC:2.7.1.-
+is_a: GO:0016772 ! transferase activity, transferring phosphorus-containing groups
+
+[Term]
+id: GO:0016779
+name: nucleotidyltransferase activity
+namespace: molecular_function
+def: "Catalysis of the transfer of a nucleotidyl group to a reactant." [ISBN:0198506732]
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_metagenomics
+subset: goslim_yeast
+xref: EC:2.7.7.-
+is_a: GO:0016772 ! transferase activity, transferring phosphorus-containing groups
+
+[Term]
+id: GO:0016787
+name: hydrolase activity
+namespace: molecular_function
+def: "Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3." [ISBN:0198506732]
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_generic
+subset: goslim_metagenomics
+subset: goslim_mouse
+subset: goslim_pir
+subset: goslim_plant
+subset: goslim_yeast
+xref: EC:3.-.-.-
+is_a: GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:0016791
+name: phosphatase activity
+namespace: molecular_function
+alt_id: GO:0003869
+alt_id: GO:0016302
+def: "Catalysis of the hydrolysis of phosphoric monoesters, releasing inorganic phosphate." [GOC:curators, GOC:pg]
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_metagenomics
+subset: goslim_yeast
+synonym: "4-nitrophenylphosphatase activity" NARROW []
+synonym: "4-nitrophenylphosphate phosphohydrolase activity" NARROW []
+synonym: "ecto-p-nitrophenyl phosphatase activity" NARROW []
+synonym: "K-pNPPase activity" NARROW []
+synonym: "nitrophenyl phosphatase activity" NARROW []
+synonym: "NPPase activity" NARROW []
+synonym: "p-nitrophenylphosphatase activity" NARROW []
+synonym: "p-nitrophenylphosphate phosphohydrolase activity" NARROW []
+synonym: "para-nitrophenyl phosphatase activity" NARROW []
+synonym: "phosphatase" RELATED []
+synonym: "phosphoric monoester hydrolase activity" EXACT []
+synonym: "PNPPase activity" NARROW []
+xref: EC:3.1.3.-
+xref: MetaCyc:4-NITROPHENYLPHOSPHATASE-RXN
+is_a: GO:0042578 ! phosphoric ester hydrolase activity
+relationship: part_of GO:0016311 ! dephosphorylation
+
+[Term]
+id: GO:0016798
+name: hydrolase activity, acting on glycosyl bonds
+namespace: molecular_function
+def: "Catalysis of the hydrolysis of any glycosyl bond." [GOC:jl]
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_yeast
+synonym: "glycosidase activity" EXACT []
+synonym: "glycosylase" NARROW []
+synonym: "N-glycosylase" NARROW []
+xref: EC:3.2.-.-
+is_a: GO:0016787 ! hydrolase activity
+
+[Term]
+id: GO:0016810
+name: hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds
+namespace: molecular_function
+def: "Catalysis of the hydrolysis of any carbon-nitrogen bond, C-N, with the exception of peptide bonds." [GOC:jl]
+subset: goslim_chembl
+subset: goslim_drosophila
+synonym: "hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in other compounds" NARROW []
+xref: EC:3.5.-.-
+is_a: GO:0016787 ! hydrolase activity
+
+[Term]
+id: GO:0016829
+name: lyase activity
+namespace: molecular_function
+def: "Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring." [ISBN:0198547684]
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_generic
+subset: goslim_metagenomics
+subset: goslim_pir
+subset: goslim_yeast
+synonym: "other lyase activity" NARROW []
+xref: EC:4.-.-.-
+is_a: GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:0016853
+name: isomerase activity
+namespace: molecular_function
+def: "Catalysis of the geometric or structural changes within one molecule. Isomerase is the systematic name for any enzyme of EC class 5." [ISBN:0198506732]
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_generic
+subset: goslim_metagenomics
+subset: goslim_pir
+subset: goslim_yeast
+synonym: "other isomerase activity" NARROW []
+xref: EC:5.-.-.-
+is_a: GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:0016874
+name: ligase activity
+namespace: molecular_function
+def: "Catalysis of the joining of two molecules, or two groups within a single molecule, using the energy from the hydrolysis of ATP, a similar triphosphate, or a pH gradient." [EC:6.-.-.-, GOC:mah]
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_generic
+subset: goslim_metagenomics
+subset: goslim_mouse
+subset: goslim_pir
+subset: goslim_yeast
+synonym: "synthetase activity" EXACT [GOC:jh2]
+xref: EC:6.-.-.-
+is_a: GO:0003824 ! catalytic activity
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/19380 xsd:anyURI
+
+[Term]
+id: GO:0019787
+name: ubiquitin-like protein transferase activity
+namespace: molecular_function
+alt_id: GO:0008639
+alt_id: GO:0008640
+def: "Catalysis of the transfer of a ubiquitin-like from one protein to another via the reaction X-ULP + Y --> Y-ULP + X, where both X-ULP and Y-ULP are covalent linkages. ULP represents a ubiquitin-like protein." [GOC:mah, GOC:rn, PMID:10806345, PMID:10884686]
+subset: goslim_drosophila
+subset: goslim_pir
+synonym: "E2" RELATED []
+synonym: "E3" RELATED [GOC:dph]
+synonym: "small conjugating protein ligase activity" NARROW [GOC:dph]
+synonym: "small conjugating protein transferase activity" EXACT [GOC:dph]
+synonym: "small protein conjugating enzyme activity" NARROW []
+synonym: "ubiquitin-like conjugating enzyme activity" NARROW []
+synonym: "ubiquitin-like-protein ligase activity" NARROW []
+is_a: GO:0016740 ! transferase activity
+is_a: GO:0140096 ! catalytic activity, acting on a protein
+
+[Term]
+id: GO:0022857
+name: transmembrane transporter activity
+namespace: molecular_function
+alt_id: GO:0005386
+alt_id: GO:0015563
+alt_id: GO:0015646
+alt_id: GO:0022891
+alt_id: GO:0022892
+def: "Enables the transfer of a substance, usually a specific substance or a group of related substances, from one side of a membrane to the other." [GOC:jid, GOC:mtg_transport, ISBN:0815340729]
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_yeast
+synonym: "substrate-specific transmembrane transporter activity" RELATED []
+synonym: "substrate-specific transporter activity" RELATED []
+synonym: "uptake permease activity" RELATED []
+synonym: "uptake transmembrane transporter activity" RELATED []
+intersection_of: GO:0005215 ! transporter activity
+intersection_of: results_in_transport_across GO:0016020 ! membrane
+relationship: part_of GO:0055085 ! transmembrane transport
+
+[Term]
+id: GO:0030234
+name: enzyme regulator activity
+namespace: molecular_function
+alt_id: GO:0010576
+def: "Binds to and modulates the activity of an enzyme." [GOC:dph, GOC:mah, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme.
+subset: goslim_agr
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_mouse
+subset: goslim_pir
+subset: goslim_plant
+subset: goslim_yeast
+synonym: "catalytic regulator activity" EXACT [GOC:dph]
+synonym: "enzyme modulator" EXACT []
+synonym: "metalloenzyme regulator activity" NARROW []
+intersection_of: GO:0098772 ! molecular function regulator
+intersection_of: regulates GO:0003824 ! catalytic activity
+relationship: part_of GO:0050790 ! regulation of catalytic activity
+
+[Term]
+id: GO:0030246
+name: carbohydrate binding
+namespace: molecular_function
+alt_id: GO:0005529
+def: "Binding to a carbohydrate, which includes monosaccharides, oligosaccharides and polysaccharides as well as substances derived from monosaccharides by reduction of the carbonyl group (alditols), by oxidation of one or more hydroxy groups to afford the corresponding aldehydes, ketones, or carboxylic acids, or by replacement of one or more hydroxy group(s) by a hydrogen atom. Cyclitols are generally not regarded as carbohydrates." [GOC:mah]
+subset: goslim_agr
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_flybase_ribbon
+subset: goslim_metagenomics
+subset: goslim_pir
+subset: goslim_plant
+synonym: "selectin" RELATED []
+synonym: "sugar binding" EXACT []
+intersection_of: GO:0005488 ! binding
+intersection_of: has_input CHEBI:16646 ! carbohydrate
+
+[Term]
+id: GO:0031386
+name: protein tag
+namespace: molecular_function
+def: "A molecular function exhibited by a protein that is covalently attached (AKA tagged or conjugated) to another protein where it acts as a marker, recognized by the cellular apparatus to target the tagged protein for some cellular process such as modification, sequestration, transport or degradation." [GOC:dos, GOC:go_curators, PMID:19028679, PMID:20054389, PMID:6305978]
+comment: Use this term to annotate conjugated tags, not for conjugating enzymes. At the time of writing, all known gene products with this activity are ubiquitin-like, either based on overall sequence similarity or the presence of common motifs and structures.
+subset: goslim_drosophila
+subset: goslim_generic
+subset: goslim_pir
+synonym: "covalent modifier" RELATED [GOC:vw]
+synonym: "protein tagging activity" RELATED []
+synonym: "ubiquitin" RELATED []
+synonym: "ubiquitin-like protein modifier" EXACT []
+is_a: GO:0003674 ! molecular_function
+
+[Term]
+id: GO:0038023
+name: signaling receptor activity
+namespace: molecular_function
+alt_id: GO:0004872
+alt_id: GO:0019041
+def: "Receiving a signal and transmitting it in the cell to initiate a change in cell activity. A signal is a physical entity or change in state that is used to transfer information in order to trigger a response." [GOC:bf, GOC:signaling]
+subset: goslim_agr
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_flybase_ribbon
+subset: goslim_metagenomics
+subset: goslim_mouse
+subset: goslim_pir
+subset: goslim_plant
+synonym: "receptor activity" BROAD []
+synonym: "receptor activity involved in signal transduction" EXACT [GOC:bf]
+synonym: "signalling receptor activity" EXACT []
+is_a: GO:0060089 ! molecular transducer activity
+created_by: bf
+creation_date: 2011-08-01T02:45:27Z
+
+[Term]
+id: GO:0038024
+name: cargo receptor activity
+namespace: molecular_function
+def: "Binding specifically to a substance (cargo) to deliver it to a transport vesicle. Cargo receptors span a membrane (either the plasma membrane or a vesicle membrane), binding simultaneously to cargo molecules and coat adaptors, to efficiently recruit soluble proteins to nascent vesicles." [PMID:15239958, PMID:27903609]
+comment: Notes: (1) this term and its child terms are intended for receptors that bind to and internalize molecules by receptor-mediated endocytosis. For receptors that are coupled to a signal transduction pathway, consider instead the term 'signaling receptor activity ; GO:0038023' and its children. (2) Cargo receptors transport substances by vesicular transport, not by transmembrane transport.  For transmembrane transporters, consider instead the term 'transmembrane transporter activity ; GO:0022857.
+subset: goslim_drosophila
+subset: goslim_generic
+synonym: "endocytic receptor activity" NARROW [GOC:signaling, ISBN:0123645387, PMID:12671190]
+synonym: "receptor activity" BROAD []
+synonym: "receptor activity involved in receptor-mediated endocytosis" NARROW [GOC:bf]
+synonym: "transport receptor activity" BROAD [GOC:signaling]
+is_a: GO:0003674 ! molecular_function
+relationship: has_part GO:0060090 ! molecular adaptor activity
+relationship: part_of GO:0006897 ! endocytosis
+created_by: bf
+creation_date: 2011-08-01T02:50:45Z
+
+[Term]
+id: GO:0042302
+name: structural constituent of cuticle
+namespace: molecular_function
+def: "The action of a molecule that contributes to the structural integrity of a cuticle." [GOC:jl]
+subset: goslim_drosophila
+intersection_of: GO:0005198 ! structural molecule activity
+intersection_of: occurs_in UBERON:0001002 ! cuticle
+
+[Term]
+id: GO:0042393
+name: histone binding
+namespace: molecular_function
+def: "Binding to a histone, any of a group of water-soluble proteins found in association with the DNA of eukaroytic chromosomes. They are involved in the condensation and coiling of chromosomes during cell division and have also been implicated in nonspecific suppression of gene activity." [GOC:jl]
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_generic
+subset: goslim_yeast
+synonym: "histone-specific chaperone activity" RELATED []
+is_a: GO:0005515 ! protein binding
+intersection_of: GO:0005488 ! binding
+intersection_of: has_input CHEBI:15358 ! histone
+
+[Term]
+id: GO:0044183
+name: protein folding chaperone
+namespace: molecular_function
+def: "Binding to a protein or a protein-containing complex to assist the protein folding process." [GOC:mtg_cambridge_2009]
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_generic
+synonym: "chaperone activity" BROAD []
+synonym: "protein binding involved in protein folding" EXACT []
+is_a: GO:0003674 ! molecular_function
+relationship: has_part GO:0051082 ! unfolded protein binding
+relationship: part_of GO:0006457 ! protein folding
+created_by: jl
+creation_date: 2009-09-25T11:33:48Z
+
+[Term]
+id: GO:0045182
+name: translation regulator activity
+namespace: molecular_function
+def: "Any molecular function involved in the initiation, activation, perpetuation, repression or termination of polypeptide synthesis at the ribosome." [GOC:ai]
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_drosophila
+subset: goslim_generic
+subset: goslim_pir
+subset: goslim_plant
+synonym: "translation factor activity" EXACT []
+intersection_of: GO:0003674 ! molecular_function
+intersection_of: part_of GO:0006417 ! regulation of translation
+
+[Term]
+id: GO:0046872
+name: metal ion binding
+namespace: molecular_function
+def: "Binding to a metal ion." [GOC:ai]
+subset: goslim_agr
+subset: goslim_drosophila
+subset: goslim_flybase_ribbon
+subset: goslim_metagenomics
+synonym: "heavy metal binding" NARROW []
+synonym: "metal binding" EXACT []
+intersection_of: GO:0005488 ! binding
+intersection_of: has_input CHEBI:25213 ! metal cation
+
+[Term]
+id: GO:0048018
+name: receptor ligand activity
+namespace: molecular_function
+alt_id: GO:0071884
+def: "The activity of a gene product that interacts with a receptor to effect a change in the activity of the receptor. Ligands may be produced by the same, or different, cell that expresses the receptor. Ligands may diffuse extracellularly from their point of origin to the receiving cell, or remain attached to an adjacent cell surface (e.g. Notch ligands)." [GOC:kv, GOC:molecular_function_refactoring, GOC:pdt]
+subset: goslim_chembl
+subset: goslim_drosophila
+synonym: "receptor agonist activity" BROAD [GOC:molecular_function_refactoring]
+synonym: "signaling molecule" EXACT []
+synonym: "signaling receptor ligand activity" EXACT []
+synonym: "vitamin D receptor activator activity" NARROW []
+is_a: GO:0005102 ! signaling receptor binding
+is_a: GO:0030546 ! signaling receptor activator activity
+relationship: part_of GO:0007165 ! signal transduction
+relationship: positively_regulates GO:0038023 ! signaling receptor activity
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/14220 xsd:anyURI
+created_by: mah
+creation_date: 2010-09-13T04:51:59Z
+
+[Term]
+id: GO:0051082
+name: unfolded protein binding
+namespace: molecular_function
+def: "Binding to an unfolded protein." [GOC:ai]
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_yeast
+synonym: "chaperone activity" BROAD []
+is_a: GO:0005515 ! protein binding
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/21436 xsd:anyURI
+
+[Term]
+id: GO:0052689
+name: carboxylic ester hydrolase activity
+namespace: molecular_function
+alt_id: GO:0004091
+alt_id: GO:0004302
+alt_id: GO:0004759
+alt_id: GO:0016789
+def: "Catalysis of the hydrolysis of a carboxylic ester bond." [EC:3.1.1.-, EC:3.1.1.1, GOC:curators]
+subset: goslim_drosophila
+synonym: "ali-esterase activity" NARROW [EC:3.1.1.1]
+synonym: "alpha-carboxylesterase activity" NARROW [EC:3.1.1.1]
+synonym: "B-esterase activity" RELATED [EC:3.1.1.1]
+synonym: "carboxyesterase activity" RELATED [EC:3.1.1.1]
+synonym: "carboxyl ester hydrolase activity" RELATED [EC:3.1.1.1]
+synonym: "carboxylate esterase activity" RELATED [EC:3.1.1.1]
+synonym: "carboxylesterase activity" EXACT []
+synonym: "carboxylic acid esterase activity" EXACT []
+synonym: "carboxylic esterase activity" RELATED [EC:3.1.1.1]
+synonym: "cocaine esterase activity" NARROW [EC:3.1.1.1]
+synonym: "esterase A" NARROW [EC:3.1.1.1]
+synonym: "esterase B" NARROW [EC:3.1.1.1]
+synonym: "nonspecific carboxylesterase activity" RELATED [EC:3.1.1.1]
+synonym: "procaine esterase activity" NARROW [EC:3.1.1.1]
+synonym: "serine esterase activity" NARROW []
+synonym: "triacetin esterase" NARROW [EC:3.1.1.1]
+synonym: "vitamin A esterase" NARROW [EC:3.1.1.1]
+xref: EC:3.1.1.1
+xref: KEGG_REACTION:R00630
+xref: MetaCyc:CARBOXYLESTERASE-RXN
+xref: RHEA:21164
+xref: UM-BBD_reactionID:r1025
+is_a: GO:0016788 ! hydrolase activity, acting on ester bonds
+
+[Term]
+id: GO:0060090
+name: molecular adaptor activity
+namespace: molecular_function
+alt_id: GO:0032947
+def: "The binding activity of a molecule that brings together two or more molecules through a selective, non-covalent, often stoichiometric interaction, permitting those molecules to function in a coordinated way." [GOC:mtg_MIT_16mar07, GOC:vw]
+subset: goslim_drosophila
+subset: goslim_generic
+subset: goslim_pir
+synonym: "binding, bridging" EXACT []
+synonym: "protein complex scaffold activity" RELATED []
+synonym: "protein-containing complex scaffold activity" RELATED []
+is_a: GO:0003674 ! molecular_function
+relationship: has_part GO:0005488 ! binding
+
+[Term]
+id: GO:0140223
+name: general transcription initiation factor activity
+namespace: molecular_function
+def: "A molecular function required for core promoter activity that mediates the assembly of the RNA polymerase holoenzyme at promoter DNA to form the pre-initiation complex (PIC). General transcription factors (GTFs) bind to and open promoter DNA, initiate RNA synthesis and stimulate the escape of the polymerase from the promoter. Not all subunits of the general transcription factor are necessarily present at all promoters to initiate transcription. GTFs act at each promoter, although the exact subunit composition at individual promoters may vary." [GOC:txnOH-2018]
+comment: Usage guidance: The distinction between general transcription factors and DNA-binding transcription factors is that the latter modulate the selection of which genes are expressed under specific conditions, while general transcription factors are the constitutive machinery required for transcription initiation.
+subset: goslim_drosophila
+subset: goslim_generic
+synonym: "basal transcription factor activity" EXACT []
+synonym: "general transcription factor activity" EXACT []
+synonym: "GTF activity" EXACT []
+is_a: GO:0003674 ! molecular_function
+relationship: part_of GO:0006351 ! transcription, DNA-templated
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/20253 xsd:anyURI
+created_by: pg
+creation_date: 2018-05-24T07:51:23Z
+
+[Term]
+id: GO:0140299
+name: small molecule sensor activity
+namespace: molecular_function
+def: "Binding to a small molecule and eliciting a change in the protein's activity in response to the intracellular level of that small molecule." [PMID:26328879]
+subset: goslim_drosophila
+subset: goslim_generic
+synonym: "small molecular sensor activity" EXACT []
+is_a: GO:0003674 ! molecular_function
+created_by: pg
+creation_date: 2018-12-10T14:30:28Z
+
+[Term]
+id: GO:0140313
+name: molecular sequestering activity
+namespace: molecular_function
+def: "The selective interaction of a protein with a specific molecule to prevent it from interacting with other partners or inhibiting its localization to other areas of the cell." [PMID:13130076]
+subset: goslim_drosophila
+subset: goslim_generic
+is_a: GO:0003674 ! molecular_function
+relationship: has_part GO:0005488 ! binding
+created_by: pg
+creation_date: 2019-03-28T10:00:25Z
+
+[Term]
+id: GO:0140657
+name: ATP-dependent activity
+namespace: molecular_function
+def: "A molecular function characterized by the coupling of ATP hydrolysis to other steps of a reaction mechanism to make the reaction energetically favorable, for example to catalyze a reaction or drive transport against a concentration gradient." [PMID:24878343, PMID:25750732, PMID:32933017, PMID:33818025, PMID:33873056, PMID:33988324]
+comment: Note that this term represents a grouping class that includes all proteins that use ATP hydrolysis to drive a reaction; it is not meant to capture the ATP hydrolysis reaction itself. To annotate ATP hydrolysis, please use 'ATP hydrolysis activity ; GO:0016887'.
+subset: gocheck_do_not_annotate
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_generic
+subset: goslim_yeast
+synonym: "ATP hydrolysis-dependent activity" EXACT []
+synonym: "ATPase activity" EXACT []
+synonym: "ATPase activity, coupled" EXACT []
+synonym: "ATPase-dependent activity" EXACT []
+intersection_of: GO:0003674 ! molecular_function
+intersection_of: has_part GO:0016887 ! ATP hydrolysis activity
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/21612 xsd:anyURI
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/22371 xsd:anyURI
+created_by: pg
+creation_date: 2021-06-15T07:35:06Z
+

@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/oba_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-10-11/imports/oba_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2023-02-28/imports/oba_import.owl"/>
     </owl:Ontology>
     
 
@@ -119,25 +119,9 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
-        <rdfs:label>in_subset</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
-        <rdfs:label>shorthand</rdfs:label>
-    </owl:AnnotationProperty>
     
 
 
@@ -194,6 +178,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000172"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000516"/>
         <obo:IAO_0000115>The size of a Malpighian tubule.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>size of Malpighian tubule</oboInOwl:hasExactSynonym>
         <rdfs:label>Malpighian tubule size</rdfs:label>
@@ -216,6 +201,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000057"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000013"/>
         <obo:IAO_0000115>The length of a actin filament.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>length of actin filament</oboInOwl:hasExactSynonym>
         <rdfs:label>actin filament length</rdfs:label>
@@ -262,6 +248,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000057"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1001065"/>
         <obo:IAO_0000115>The size of a autophagosome.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>size of autophagosome</oboInOwl:hasExactSynonym>
         <rdfs:label>autophagic vacuole size</rdfs:label>
@@ -327,9 +314,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000099"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000076"/>
-        <obo:IAO_0000115>The membrane potential of a cardiac muscle cell.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>membrane potential of cardiac muscle cell</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The membrane potential trait of a cardiac muscle cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>membrane potential trait of cardiac muscle cell</oboInOwl:hasExactSynonym>
         <rdfs:label>cardiac muscle cell membrane potential</rdfs:label>
     </owl:Class>
     
@@ -359,6 +347,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000057"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1001065"/>
         <obo:IAO_0000115>The size of a cell projection.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>size of cell projection</oboInOwl:hasExactSynonym>
         <rdfs:label>cell projection size</rdfs:label>
@@ -460,6 +449,7 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000014"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000142"/>
         <obo:IAO_0000115>The size of a endosome.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>size of endosome</oboInOwl:hasExactSynonym>
@@ -473,6 +463,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000102"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_2040145"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001126"/>
         <obo:IAO_0000115>The microvillus length of a follicle cell of egg chamber.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>microvillus length of follicle cell of egg chamber</oboInOwl:hasExactSynonym>
         <rdfs:label>follicle cell microvillus length</rdfs:label>
@@ -503,17 +494,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBA_0000088 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000088">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
-        <obo:IAO_0000115>The surface tension of a liquid configuration.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>surface tension of liquid configuration</oboInOwl:hasExactSynonym>
-        <rdfs:label>liquid surface tension</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBA_0000089 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000089">
@@ -527,6 +507,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000183"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0015059"/>
         <obo:IAO_0000115>The pressure of a blood when measured in lung.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>lung blood pressure</oboInOwl:hasExactSynonym>
         <rdfs:label>lung blood pressure</rdfs:label>
@@ -537,7 +518,8 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000076"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
         <obo:IAO_0000115>The acidity when measured in lysosomal lumen.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>lysosomal lumen acidity</oboInOwl:hasExactSynonym>
         <rdfs:label>lysosomal lumen pH</rdfs:label>
@@ -548,6 +530,7 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0004122"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000028"/>
         <obo:IAO_0000115>The permeability of a lysosomal membrane.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>permeability of lysosomal membrane</oboInOwl:hasExactSynonym>
@@ -560,6 +543,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100004"/>
         <obo:IAO_0000115>The macromolecular stability of a mRNA.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>macromolecular stability of mRNA</oboInOwl:hasExactSynonym>
         <rdfs:label>mRNA stability</rdfs:label>
@@ -571,6 +555,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000091"/>
         <obo:IAO_0000115>The spatial pattern of a lipid when measured in membrane.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>membrane lipid spatial pattern</oboInOwl:hasExactSynonym>
         <rdfs:label>membrane lipid distribution</rdfs:label>
@@ -584,7 +569,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000090"/>
         <obo:IAO_0000115>The electric potential of a membrane.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>electric potential of membrane</oboInOwl:hasExactSynonym>
-        <rdfs:label>membrane potential</rdfs:label>
+        <rdfs:label>membrane potential trait</rdfs:label>
     </owl:Class>
     
 
@@ -616,6 +601,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000093"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000076"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
         <obo:IAO_0000115>The macromolecular stability of a mRNA when measured in mitochondrion.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>mitochondrion mRNA macromolecular stability</oboInOwl:hasExactSynonym>
         <rdfs:label>mitochondrial mRNA stability</rdfs:label>
@@ -626,6 +613,7 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000104 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0002821"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000028"/>
         <obo:IAO_0000115>The permeability of a mitochondrial membrane.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>permeability of mitochondrial membrane</oboInOwl:hasExactSynonym>
@@ -638,6 +626,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000099"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000076"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
         <obo:IAO_0000115>The membrane potential of a mitochondrial membrane.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>membrane potential of mitochondrial membrane</oboInOwl:hasExactSynonym>
         <rdfs:label>mitochondrial membrane potential</rdfs:label>
@@ -649,6 +639,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000129"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000076"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
         <obo:IAO_0000115>The macromolecular stability of a rRNA when measured in mitochondrion.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>mitochondrion rRNA macromolecular stability</oboInOwl:hasExactSynonym>
         <rdfs:label>mitochondrial rRNA stability</rdfs:label>
@@ -681,6 +673,7 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000076"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
         <obo:IAO_0000115>The amount of a myofibril.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>amount of myofibril</oboInOwl:hasExactSynonym>
@@ -694,6 +687,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000057"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0004087"/>
         <obo:IAO_0000115>The size of a myofibril.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>size of myofibril</oboInOwl:hasExactSynonym>
         <rdfs:label>myofibril size</rdfs:label>
@@ -705,6 +699,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000114">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000141"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000076"/>
         <obo:IAO_0000115>The synaptic plasticity of a neuron.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>synaptic plasticity of neuron</oboInOwl:hasExactSynonym>
@@ -717,8 +712,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100004"/>
-        <obo:IAO_0000115>The amount of a http://purl.obolibrary.org/obo/GOCHE_25512.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>amount of http://purl.obolibrary.org/obo/GOCHE_25512</oboInOwl:hasExactSynonym>
         <rdfs:label>neurotransmitter levels</rdfs:label>
     </owl:Class>
     
@@ -752,6 +745,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000123">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000098"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000089"/>
         <obo:IAO_0000115>The spatial pattern of a sterol when measured in plasma membrane.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>plasma membrane sterol spatial pattern</oboInOwl:hasExactSynonym>
         <rdfs:label>plasma membrane sterol distribution</rdfs:label>
@@ -763,6 +757,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000142"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1001065"/>
         <obo:IAO_0000115>The size of a post-lysosomal vacuole.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>size of post-lysosomal vacuole</oboInOwl:hasExactSynonym>
         <rdfs:label>post-lysosomal vacuole size</rdfs:label>
@@ -797,6 +792,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0001001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100004"/>
         <obo:IAO_0000115>The macromolecular stability of a rRNA.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>macromolecular stability of rRNA</oboInOwl:hasExactSynonym>
         <rdfs:label>rRNA stability</rdfs:label>
@@ -854,7 +850,8 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000143 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000143">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT2000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000554"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000183"/>
         <obo:IAO_0000115>The pressure of a blood when measured in systemic artery.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>systemic artery blood pressure</oboInOwl:hasExactSynonym>
         <rdfs:label>systemic arterial blood pressure</rdfs:label>
@@ -877,7 +874,7 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000161">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000258"/>
         <obo:IAO_0000115>The force of a heart contraction.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>force of heart contraction</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>the force of heart contraction</oboInOwl:hasExactSynonym>
@@ -889,7 +886,7 @@
     <!-- http://purl.obolibrary.org/obo/OBA_0000164 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0000164">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000727"/>
         <obo:IAO_0000115>The speed of a skeletal muscle contraction.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>speed of skeletal muscle contraction</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>the velocity of shortening of skeletal muscle modulating contraction</oboInOwl:hasExactSynonym>
@@ -1021,6 +1018,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_0002821 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0002821">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1001065"/>
+        <obo:IAO_0000115>The morphology of a mitochondrion.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of mitochondrion</oboInOwl:hasExactSynonym>
+        <rdfs:label>mitochondrion morphology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_0003797 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0003797">
@@ -1029,6 +1038,29 @@
         <obo:IAO_0000115>The size of a axon.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>size of axon</oboInOwl:hasExactSynonym>
         <rdfs:label>axon size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1001065"/>
+        <obo:IAO_0000115>The morphology of a lysosome.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of lysosome</oboInOwl:hasExactSynonym>
+        <rdfs:label>lysosome morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_0004650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0004650">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0001119"/>
+        <obo:IAO_0000115>The morphology of a female reproductive organ.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of female reproductive organ</oboInOwl:hasExactSynonym>
+        <rdfs:label>female reproductive organ morphology</rdfs:label>
     </owl:Class>
     
 
@@ -1048,6 +1080,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0005997">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1001065"/>
         <obo:IAO_0000115>The morphology of a peroxisome.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>morphology of peroxisome</oboInOwl:hasExactSynonym>
         <rdfs:label>peroxisome morphology</rdfs:label>
@@ -1059,6 +1092,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_0006038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000077"/>
         <obo:IAO_0000115>The concentration of of a calcium ion when measured in cytosol.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>cytosol calcium ion concentration of</oboInOwl:hasExactSynonym>
         <rdfs:label>concentration of of calcium ion in cytosol</rdfs:label>
@@ -1132,10 +1166,37 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_1000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1001065"/>
+        <obo:IAO_0000115>The morphology of a cytoskeleton.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>cytoskeleton morphology trait</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>morphology of cytoskeleton</oboInOwl:hasExactSynonym>
+        <rdfs:label>cytoskeleton morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1001065"/>
+        <obo:IAO_0000115>The morphology of a endomembrane system.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>endomembrane system morphology trait</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>morphology of endomembrane system</oboInOwl:hasExactSynonym>
+        <rdfs:label>endomembrane system morphology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_1000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000078"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1001065"/>
         <obo:IAO_0000115>The morphology of a nucleus.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>morphology of nucleus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>nucleus morphology trait</oboInOwl:hasExactSynonym>
@@ -1173,10 +1234,24 @@
     <!-- http://purl.obolibrary.org/obo/OBA_1000076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0000001"/>
         <obo:IAO_0000115>The quality of a cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>cell quality trait</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>quality of cell</oboInOwl:hasExactSynonym>
         <rdfs:label>attribute of cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000076"/>
+        <obo:IAO_0000115>The quality of a cytosol.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>cytosol quality trait</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>quality of cytosol</oboInOwl:hasExactSynonym>
+        <rdfs:label>attribute of cytosol</rdfs:label>
     </owl:Class>
     
 
@@ -1189,6 +1264,31 @@
         <oboInOwl:hasExactSynonym>organelle quality trait</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>quality of organelle</oboInOwl:hasExactSynonym>
         <rdfs:label>attribute of organelle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000090"/>
+        <obo:IAO_0000115>The quality of a plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>plasma membrane quality trait</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>quality of plasma membrane</oboInOwl:hasExactSynonym>
+        <rdfs:label>plasma membrane quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000088"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000091"/>
+        <obo:IAO_0000115>The morphology of a plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of plasma membrane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>plasma membrane morphology trait</oboInOwl:hasExactSynonym>
+        <rdfs:label>plasma membrane morphology</rdfs:label>
     </owl:Class>
     
 
@@ -1242,13 +1342,46 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_1000213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <obo:IAO_0000115>The quality of a female reproductive system.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of female reproductive system</oboInOwl:hasExactSynonym>
+        <rdfs:label>female reproductive system quality</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_1000227 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000227">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000390"/>
         <obo:IAO_0000115>The quality of a lens of camera-type eye.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>quality of lens of camera-type eye</oboInOwl:hasExactSynonym>
         <rdfs:label>lens of camera-type eye quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100002"/>
+        <obo:IAO_0000115>The quality of a blood circulation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of blood circulation</oboInOwl:hasExactSynonym>
+        <rdfs:label>blood circulation quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <obo:IAO_0000115>The quality of a upper urinary tract.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of upper urinary tract</oboInOwl:hasExactSynonym>
+        <rdfs:label>upper urinary tract quality</rdfs:label>
     </owl:Class>
     
 
@@ -1260,6 +1393,94 @@
         <obo:IAO_0000115>The quality of a behavior process.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>quality of behavior process</oboInOwl:hasExactSynonym>
         <rdfs:label>behavior process quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000390">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000608"/>
+        <obo:IAO_0000115>The quality of a anterior segment of eyeball.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of anterior segment of eyeball</oboInOwl:hasExactSynonym>
+        <rdfs:label>anterior segment of eyeball quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000412">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <obo:IAO_0000115>The quality of a diencephalon.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of diencephalon</oboInOwl:hasExactSynonym>
+        <rdfs:label>diencephalon quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000545">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000213"/>
+        <obo:IAO_0000115>The quality of a ovary.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of ovary</oboInOwl:hasExactSynonym>
+        <rdfs:label>ovary quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000554">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <obo:IAO_0000115>The quality of a systemic arterial system.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of systemic arterial system</oboInOwl:hasExactSynonym>
+        <rdfs:label>systemic arterial system quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000608">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0005382"/>
+        <obo:IAO_0000115>The quality of a eyeball of camera-type eye.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of eyeball of camera-type eye</oboInOwl:hasExactSynonym>
+        <rdfs:label>eyeball of camera-type eye quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000617">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <obo:IAO_0000115>The quality of a hematopoietic system.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of hematopoietic system</oboInOwl:hasExactSynonym>
+        <rdfs:label>hematopoietic system quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000625">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0100003"/>
+        <obo:IAO_0000115>The quality of a abdomen.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of abdomen</oboInOwl:hasExactSynonym>
+        <rdfs:label>abdomen quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_1000727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1000727">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100002"/>
+        <obo:IAO_0000115>The quality of a multicellular organismal movement.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of multicellular organismal movement</oboInOwl:hasExactSynonym>
+        <rdfs:label>multicellular organismal movement quality</rdfs:label>
     </owl:Class>
     
 
@@ -1281,7 +1502,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000076"/>
         <obo:IAO_0000115>The morphology of a cell.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>morphology of cell</oboInOwl:hasExactSynonym>
-        <rdfs:label>cell morphology</rdfs:label>
+        <rdfs:label>cell morphology trait</rdfs:label>
     </owl:Class>
     
 
@@ -1289,10 +1510,22 @@
     <!-- http://purl.obolibrary.org/obo/OBA_1001087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_1001087">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000258"/>
         <obo:IAO_0000115>The rate of a heart contraction.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>rate of heart contraction</oboInOwl:hasExactSynonym>
         <rdfs:label>heart rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_2020003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_2020003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000617"/>
+        <obo:IAO_0000115>The amount of a chemical entity when measured in blood.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>blood chemical entity amount</oboInOwl:hasExactSynonym>
+        <rdfs:label>chemical in blood amount</rdfs:label>
     </owl:Class>
     
 
@@ -1322,7 +1555,7 @@
     <!-- http://purl.obolibrary.org/obo/OBA_VT0000183 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000183">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000617"/>
         <obo:IAO_0000115>The pressure of a blood.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>pressure of blood</oboInOwl:hasExactSynonym>
         <rdfs:label>blood pressure trait</rdfs:label>
@@ -1330,10 +1563,44 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0000516 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000516">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <obo:IAO_0000115>The morphology of a renal system.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of renal system</oboInOwl:hasExactSynonym>
+        <rdfs:label>urinary system morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0000783 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000783">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002152"/>
+        <obo:IAO_0000115>The morphology of a forebrain.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of forebrain</oboInOwl:hasExactSynonym>
+        <rdfs:label>forebrain morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0000830 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000830">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000412"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000783"/>
+        <obo:IAO_0000115>The morphology of a diencephalon.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of diencephalon</oboInOwl:hasExactSynonym>
+        <rdfs:label>diencephalon morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_VT0000832 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0000832">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000830"/>
         <obo:IAO_0000115>The morphology of a dorsal plus ventral thalamus.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>morphology of dorsal plus ventral thalamus</oboInOwl:hasExactSynonym>
         <rdfs:label>thalamus morphology trait</rdfs:label>
@@ -1341,10 +1608,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0001119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0001119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000213"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002160"/>
+        <obo:IAO_0000115>The morphology of a female reproductive system.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of female reproductive system</oboInOwl:hasExactSynonym>
+        <rdfs:label>female reproductive system morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0001126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0001126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0004650"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000545"/>
+        <obo:IAO_0000115>The morphology of a ovary.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of ovary</oboInOwl:hasExactSynonym>
+        <rdfs:label>ovary morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_VT0001614 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0001614">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002127"/>
         <obo:IAO_0000115>The morphology of a blood vessel.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>morphology of blood vessel</oboInOwl:hasExactSynonym>
         <rdfs:label>blood vessel morphology trait</rdfs:label>
@@ -1363,13 +1654,59 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0002127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0100016"/>
+        <obo:IAO_0000115>The morphology of a cardiovascular system.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of cardiovascular system</oboInOwl:hasExactSynonym>
+        <rdfs:label>cardiovascular system morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0002132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <obo:IAO_0000115>The morphology of a respiratory system.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of respiratory system</oboInOwl:hasExactSynonym>
+        <rdfs:label>respiratory system morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_VT0002135 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002135">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000282"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1000625"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000516"/>
         <obo:IAO_0000115>The morphology of a kidney.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>morphology of kidney</oboInOwl:hasExactSynonym>
         <rdfs:label>kidney morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0002152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0003632"/>
+        <obo:IAO_0000115>The morphology of a brain.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of brain</oboInOwl:hasExactSynonym>
+        <rdfs:label>brain morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0002160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <obo:IAO_0000115>The morphology of a reproductive system.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of reproductive system</oboInOwl:hasExactSynonym>
+        <rdfs:label>reproductive system morphology trait</rdfs:label>
     </owl:Class>
     
 
@@ -1386,13 +1723,58 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0002882 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002882">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1001065"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0003632"/>
+        <obo:IAO_0000115>The morphology of a neuron.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of neuron</oboInOwl:hasExactSynonym>
+        <rdfs:label>neuron morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0003632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0003632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <obo:IAO_0000115>The morphology of a nervous system.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of nervous system</oboInOwl:hasExactSynonym>
+        <rdfs:label>nervous system morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0004087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_1001065"/>
+        <obo:IAO_0000115>The morphology of a muscle cell.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of muscle cell</oboInOwl:hasExactSynonym>
+        <rdfs:label>muscle cell morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_VT0004391 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0004391">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002132"/>
         <obo:IAO_0000115>The morphology of a respiratory tube.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>morphology of respiratory tube</oboInOwl:hasExactSynonym>
         <rdfs:label>respiratory conducting tube morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0005382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0005382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0100003"/>
+        <obo:IAO_0000115>The quality of a head.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of head</oboInOwl:hasExactSynonym>
+        <rdfs:label>head trait</rdfs:label>
     </owl:Class>
     
 
@@ -1411,6 +1793,7 @@
     <!-- http://purl.obolibrary.org/obo/OBA_VT0005416 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0005416">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_2020003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0010120"/>
         <obo:IAO_0000115>The amount of a protein when measured in blood.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>blood protein amount</oboInOwl:hasExactSynonym>
@@ -1442,6 +1825,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0015059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0015059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0100003"/>
+        <obo:IAO_0000115>The quality of a thoracic segment of trunk.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>quality of thoracic segment of trunk</oboInOwl:hasExactSynonym>
+        <rdfs:label>thorax trait</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBA_VT0015071 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0015071">
@@ -1457,6 +1851,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0015108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002882"/>
         <obo:IAO_0000115>The morphology of a neuron projection.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>morphology of neuron projection</oboInOwl:hasExactSynonym>
         <rdfs:label>neurite morphology trait</rdfs:label>
@@ -1486,13 +1881,13 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBA_VT2000000 -->
+    <!-- http://purl.obolibrary.org/obo/OBA_VT0100016 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT2000000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0000183"/>
-        <obo:IAO_0000115>The pressure of a arterial blood.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>pressure of arterial blood</oboInOwl:hasExactSynonym>
-        <rdfs:label>arterial blood pressure trait</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBA_VT0100016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0100003"/>
+        <obo:IAO_0000115>The morphology of a circulatory system.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>morphology of circulatory system</oboInOwl:hasExactSynonym>
+        <rdfs:label>circulatory system morphology trait</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

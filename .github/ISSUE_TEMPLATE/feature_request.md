@@ -14,7 +14,7 @@ More details at https://douroucouli.wordpress.com/2019/07/08/ontotip-write-simpl
 
 * **GO term ID and label for which you request a definition update**
 
-* **New proposed definition (genus-differentia pattern, plus additional information if needed) **
+* **New proposed definition (genus-differentia pattern, plus additional information if needed)**
 
 
 * **Reference(s)**

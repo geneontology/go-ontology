@@ -30,7 +30,7 @@ This pattern is for representing a function that activates some molecular functi
 
 ## Equivalent to
 
-[molecular function activator activity](http://purl.obolibrary.org/obo/GO_0140677)  and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some `{regulated_activity}`)
+[molecular function regulator activity](http://purl.obolibrary.org/obo/GO_0098772)  and ([directly positively regulates](http://purl.obolibrary.org/obo/RO_0002629) some `{regulated_activity}`)
 
 
 
@@ -42,11 +42,7 @@ This pattern is for representing a function that activates some molecular functi
 
 *See full table [here](https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/activator_activity.tsv)*
 
-| defined_class | defined_class_label | regulated_activity | regulated_activity_label |
-|:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_0030337](http://purl.obolibrary.org/obo/GO_0030337) | DNA polymerase processivity factor activity | [http://purl.obolibrary.org/obo/GO_0034061](http://purl.obolibrary.org/obo/GO_0034061) | DNA polymerase activity |
-| [http://purl.obolibrary.org/obo/GO_0140619](http://purl.obolibrary.org/obo/GO_0140619) | DNA strand exchange activator activity | [http://purl.obolibrary.org/obo/GO_0000150](http://purl.obolibrary.org/obo/GO_0000150) | DNA strand exchange activity |
-| [http://purl.obolibrary.org/obo/GO_0072587](http://purl.obolibrary.org/obo/GO_0072587) | DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activator activity | [http://purl.obolibrary.org/obo/GO_0003918](http://purl.obolibrary.org/obo/GO_0003918) | DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity |
-| [http://purl.obolibrary.org/obo/GO_0005096](http://purl.obolibrary.org/obo/GO_0005096) | GTPase activator activity | [http://purl.obolibrary.org/obo/GO_0003924](http://purl.obolibrary.org/obo/GO_0003924) | GTPase activity |
-| [http://purl.obolibrary.org/obo/GO_0036478](http://purl.obolibrary.org/obo/GO_0036478) | L-dopa decarboxylase activator activity | [http://purl.obolibrary.org/obo/GO_0036468](http://purl.obolibrary.org/obo/GO_0036468) | L-dopa decarboxylase activity |
+|  |
+|
+
 

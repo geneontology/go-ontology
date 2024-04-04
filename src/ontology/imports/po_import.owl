@@ -7,9 +7,10 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/po_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2022-07-18/imports/po_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2023-07-31/imports/po_import.owl"/>
     </owl:Ontology>
     
 
@@ -33,11 +34,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
         <rdfs:label>term replaced by</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -346,12 +359,6 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CARO_0000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0000000"/>
     
 
 
@@ -679,7 +686,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0000062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0000349"/>
-        <obo:IAO_0000115>An epidermal initial cell (PO:0000349) that undergoes several rounds of uneven division, each time giving rise to a larger daughter cell that differentiates into an epidermal ground cell and a smaller daughter cell that remains meristematic, until the meristematic cell (PO:0004010) differentiates into a guard mother cell (PO:0000351).</obo:IAO_0000115>
+        <obo:IAO_0000115>An plant epidermal initial cell (PO:0000349) that undergoes several rounds of uneven division, each time giving rise to a larger daughter cell that differentiates into an epidermal ground cell and a smaller daughter cell that remains meristematic, until the meristematic cell (PO:0004010) differentiates into a guard mother cell (PO:0000351).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>inicial estom&amp;#225tica (meristemoide inicial) (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>stomatal initial (exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>stomatal meristemoid (exact)</oboInOwl:hasExactSynonym>
@@ -965,7 +972,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0000349"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A root epidermal cell that is the smaller cell produced by the asymmetric division of an epidermal intial and gives rise to a root hair.</obo:IAO_0000115>
+        <obo:IAO_0000115>A root epidermal cell (PO:0025164) that is the smaller cell produced by the asymmetric division of an epidermal intial cell (PO:0000349) and gives rise to a root hair (GO:0035618).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>tricoblasto (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>根毛形成細胞、トリコブラスト (Japanese, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>hair cell (related)</oboInOwl:hasRelatedSynonym>
@@ -1108,7 +1115,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/PO_0000332"/>
-        <obo:IAO_0000115>One of a pair of cells flanking the stomatal pore.</obo:IAO_0000115>
+        <obo:IAO_0000115>A shoot epidermal cell (PO:0025165) that is one of a pair of cells flanking the stomatal pore (PO:0008032).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>c&amp;#233lula guardiana (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>occlusive cell (exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>孔辺細胞 (Japanese, exact)</oboInOwl:hasExactSynonym>
@@ -1128,10 +1135,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/PO_0008030"/>
-        <obo:IAO_0000115>A shoot epidermal cell that is relatively unspecialized at maturity.</obo:IAO_0000115>
+        <obo:IAO_0000115>A shoot epidermal cell (PO:0025165) that is relatively unspecialized at maturity.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>c&amp;#233lula del pavimento epidermal (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>表皮被蓋細胞 (Japanese, exact)</oboInOwl:hasExactSynonym>
-        <rdfs:label>epidermal pavement cell</rdfs:label>
+        <rdfs:label>shoot epidermal pavement cell</rdfs:label>
     </owl:Class>
     
 
@@ -1146,11 +1153,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0005679"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An initial cell (PO:0004011) that is part of an epidermis (PO:0005679) and gives rise to specialized cell types of the epidermis.</obo:IAO_0000115>
+        <obo:IAO_0000115>An initial cell (PO:0004011) that is part of an plant epidermis (PO:0005679) and gives rise to specialized cells.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>c&amp;#233lula inicial de la epidermis (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>epidermal initial (exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>表皮始原細胞 (Japanese, exact)</oboInOwl:hasExactSynonym>
-        <rdfs:label>epidermal initial cell</rdfs:label>
+        <rdfs:label>plant epidermal initial cell</rdfs:label>
     </owl:Class>
     
 
@@ -1165,7 +1172,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0000062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A shoot epidermal cell that divides to produce the guard cells.</obo:IAO_0000115>
+        <obo:IAO_0000115>A shoot epidermal cell (PO:0025165) that divides to produce the guard cells (PO:0000293).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>c&amp;#233lula madre de la c&amp;#233lula guardiana (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>孔辺母細胞 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <rdfs:label>guard mother cell</rdfs:label>
@@ -1355,7 +1362,7 @@
         <obo:IAO_0000115>A native plant cell (PO:0025606) that is part of a portion of epidermis (PO:0005679).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>c&amp;#233lula epid&amp;#233rmica (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>表皮細胞 (Japanese, exact)</oboInOwl:hasExactSynonym>
-        <rdfs:label>epidermal cell</rdfs:label>
+        <rdfs:label>plant epidermal cell</rdfs:label>
     </owl:Class>
     
 
@@ -1704,7 +1711,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0006210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A portion of plant tissue (PO:0009007) composed of epidermal cells (PO:0004013) that develops from the protoderm (PO:0006210) and covers the surface of a plant structure (PO:0009011).</obo:IAO_0000115>
+        <obo:IAO_0000115>A portion of plant tissue (PO:0009007) composed of plant epidermal cells (PO:0004013) that develops from the protoderm (PO:0006210) and covers the surface of a plant structure (PO:0009011).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>dermal tissue (exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>epidermal layer (exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>epidermides (exact, plural)</oboInOwl:hasExactSynonym>
@@ -1713,7 +1720,7 @@
         <oboInOwl:hasExactSynonym>portion of epidermal tissue (exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>表皮 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>multiseriate epidermis (related)</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>epidermis</rdfs:label>
+        <rdfs:label>plant epidermis</rdfs:label>
     </owl:Class>
     
 
@@ -1908,7 +1915,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A portion of epidermis (PO:0005679) that is part of a shoot system (PO:0009006) and arises from the meristem L1 layer (PO:0009020).</obo:IAO_0000115>
+        <obo:IAO_0000115>A portion of plant epidermis (PO:0005679) that is part of a shoot system (PO:0009006) and arises from the meristem L1 layer (PO:0009020).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>epidermis del epiblasto (epiblastema) (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>シュート表皮 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <rdfs:label>shoot system epidermis</rdfs:label>
@@ -1937,7 +1944,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A portion of epidermis (PO:0005679) that is part of a root (PO:0009005).</obo:IAO_0000115>
+        <obo:IAO_0000115>A portion of plant epidermis (PO:0005679) that is part of a root (PO:0009005).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>epidermis de la ra&amp;#237z (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>根表皮 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>epiblem (related)</oboInOwl:hasRelatedSynonym>
@@ -2057,7 +2064,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0020021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A portion of epidermis (PO:0005679) that is part of an integument (PO:0020021).</obo:IAO_0000115>
+        <obo:IAO_0000115>A portion of plant epidermis (PO:0005679) that is part of an plant ovule integument (PO:0020021).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>epidermis del integumento (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>珠皮表皮 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Poaceae integument epidermis (narrow)</oboInOwl:hasNarrowSynonym>
@@ -2087,7 +2094,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A portion of epidermis (PO:0005679) that is part of a seed coat (PO:0009088).</obo:IAO_0000115>
+        <obo:IAO_0000115>A portion of plant epidermis (PO:0005679) that is part of a seed coat (PO:0009088).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>epidermis de la cubierta de la semilla (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>種子種皮表皮 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <rdfs:label>seed coat epidermis</rdfs:label>
@@ -2116,7 +2123,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009067"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A portion of stamen epidermis that is part of a filament.</obo:IAO_0000115>
+        <obo:IAO_0000115>A portion of stamen epidermis (PO:0025097) that is part of a filament (PO:0009067).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>epidermis del filamento (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>花糸表皮 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <rdfs:label>filament epidermis</rdfs:label>
@@ -2145,7 +2152,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0005022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A portion of epidermis (PO:0005679) that is part of an plant ovary wall (PO:0005022).</obo:IAO_0000115>
+        <obo:IAO_0000115>A portion of plant epidermis (PO:0005679) that is part of an plant ovary wall (PO:0005022).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>epidermis del ovario (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>子房表皮 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Poaceae ovary epidermis (narrow)</oboInOwl:hasNarrowSynonym>
@@ -2861,8 +2868,8 @@
     <!-- http://purl.obolibrary.org/obo/PO_0009049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025082"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -3288,13 +3295,13 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0020003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A portion of plant tissue (PO:0009007) that usually covers a plant ovule (PO:0020003), enveloping a nucellus (PO:0020020) and forming a micropyle (PO:0020025) at the apex.</obo:IAO_0000115>
+        <obo:IAO_0000115>A portion of plant tissue (PO:0009007) that covers a plant ovule (PO:0020003), enveloping a nucellus (PO:0020020) and forming a micropyle (PO:0020025) at the apex.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>integumento (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>portion of integument tissue (exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>珠皮 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Poaceae integument (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Zea integument (narrow)</oboInOwl:hasNarrowSynonym>
-        <rdfs:label>integument</rdfs:label>
+        <rdfs:label>plant ovule integument</rdfs:label>
     </owl:Class>
     
 
@@ -4397,7 +4404,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0006036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An epidermal cell that is part of a root epidermis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A plant epidermal cell (PO:0004013) that is part of a root epidermis (PO:0006036).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>c&amp;#233lula epid&amp;#233rmica de la ra&amp;#237z (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>根表皮細胞 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <rdfs:label>root epidermal cell</rdfs:label>
@@ -4415,7 +4422,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0006035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An epidermal cell that is part of a shoot epidermis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A plant epidermal cell (PO:0004013) that is part of a shoot axis epidermis (PO:0000112).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>c&amp;#233lula epid&amp;#233rmica del epiblasto (epiblastema) (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>シュート表皮 細胞 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <rdfs:label>shoot epidermal cell</rdfs:label>
@@ -5312,7 +5319,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0006040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An epidermal pavement cell (PO:0000332) that is part of sepal epidermis (PO:0006040) and is approximately one fifth the length of a sepal.</obo:IAO_0000115>
+        <obo:IAO_0000115>An shoot epidermal pavement cell (PO:0000332) that is part of sepal epidermis (PO:0006040) and is approximately one fifth the length of a sepal (PO:0009031).</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>giant cell (broad)</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>がく片表皮巨大細胞 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <rdfs:label>sepal epidermis giant cell</rdfs:label>
@@ -5540,7 +5547,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025306"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A portion of epidermis (PO:0005679) that is the outermost layer of a sporangium wall (PO:0025306).</obo:IAO_0000115>
+        <obo:IAO_0000115>A portion of plant epidermis (PO:0005679) that is the outermost layer of a sporangium wall (PO:0025306).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>epithecium (exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>exotecio (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>sporangium epidermis (exact)</oboInOwl:hasExactSynonym>
@@ -5548,9 +5555,15 @@
         <oboInOwl:hasExactSynonym>葯の表皮（外膜) (Japanese, exact)</oboInOwl:hasExactSynonym>
         <rdfs:label>exothecium</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062"/>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
 

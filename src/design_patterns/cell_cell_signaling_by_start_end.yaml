@@ -1,0 +1,35 @@
+pattern_name: cell–cell signaling by start and end cell types
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/cell_cell_signaling_by_start_end.yaml
+
+description: This pattern is for classes representing cell–cell signaling, differentiated by the start and end cell types.
+
+classes:
+  cell: "CL:0000000"
+  cell-cell signaling: "GO:0007267"
+
+relations:
+  has start location: "RO:0002231"
+  has end location: "RO:0002232"
+
+vars:
+  start: "'cell'"
+  end: "'cell'"
+
+name:
+  text: "%s-%s signaling"
+  vars:
+    - start
+    - end
+
+def:
+  text: "Cell-cell signaling that mediates the transfer of information from a %s to a %s."
+  vars:
+     - start
+     - end
+
+equivalentTo:
+  text: "'cell-cell signaling' and ('has start location' some %s) and ('has end location' some %s)"
+  vars:
+    - start
+    - end

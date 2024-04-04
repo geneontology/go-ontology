@@ -1,4 +1,4 @@
-# regulation_of_characteristic
+# regulation of characteristic
 
 [http://purl.obolibrary.org/obo/go/patterns/regulation_of_characteristic.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_of_characteristic.yaml)
 
@@ -13,7 +13,7 @@ Regulation of a particular characteristic.
 
 | Variable name | Allowed type |
 |:--------------|:-------------|
-| `{characteristic}` | [biological attribute](http://purl.obolibrary.org/obo/OBA_0000001) |
+| `{characteristic}` | [quality](http://purl.obolibrary.org/obo/PATO_0000001) |
 
 ## Name
 

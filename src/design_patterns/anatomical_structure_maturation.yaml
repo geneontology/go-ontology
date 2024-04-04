@@ -1,0 +1,30 @@
+pattern_name: anatomical structure maturation
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_maturation.yaml
+
+description: This pattern is for classes representing the maturation of an anatomical structure or a cell, differentiated by the anatomical structure or cell being in its final state.
+
+classes:
+  anatomical structure: "UBERON:0000061"
+  developmental maturation: "GO:0021700"
+
+relations: 
+  results in maturation of: "RO:0002299"
+
+vars:
+  target: "'anatomical structure'"
+
+name:
+  text: "%s maturation"
+  vars:
+    - target
+
+def:
+  text: "A developmental process, independent of morphogenetic (shape) change, that is required for the %s to attain its fully functional state."
+  vars:
+     - target
+
+equivalentTo:
+  text: " 'developmental maturation' and 'results in maturation of' some %s"
+  vars:
+    - target

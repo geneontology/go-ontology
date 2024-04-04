@@ -21,7 +21,7 @@ This pattern is for representing a function that modulates some molecular functi
 
 ## Annotations
 
-- [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace): "biological_process"^^[string](http://www.w3.org/2001/XMLSchema#string)
+- [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace): "molecular_function"^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Definition
 
@@ -29,7 +29,7 @@ This pattern is for representing a function that modulates some molecular functi
 
 ## Equivalent to
 
-[molecular function regulator activity](http://purl.obolibrary.org/obo/GO_0098772)  and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some `{regulated_activity}`)
+[molecular function regulator activity](http://purl.obolibrary.org/obo/GO_0098772)  and ([directly regulates](http://purl.obolibrary.org/obo/RO_0002578) some `{regulated_activity}`)
 
 
 

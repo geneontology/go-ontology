@@ -1,0 +1,117 @@
+intersection_of: process_has_causal_agent CL:0000738 ! leukocyte
+intersection_of: process_has_causal_agent CL:0000084 ! T cell
+intersection_of: process_has_causal_agent GO:0022626 ! cytosolic ribosome
+intersection_of: process_has_causal_agent CL:0000623 ! natural killer cell
+intersection_of: process_has_causal_agent CL:0000236 ! B cell
+intersection_of: process_has_causal_agent CL:0000084 ! T cell
+intersection_of: process_has_causal_agent CL:0000623 ! natural killer cell
+intersection_of: process_has_causal_agent CL:0000451 ! dendritic cell
+intersection_of: process_has_causal_agent CL:0000782 ! myeloid dendritic cell
+intersection_of: process_has_causal_agent CL:0000784 ! plasmacytoid dendritic cell
+intersection_of: process_has_causal_agent CL:0000236 ! B cell
+intersection_of: process_has_causal_agent CL:0000084 ! T cell
+intersection_of: process_has_causal_agent CL:0000084 ! T cell
+intersection_of: process_has_causal_agent PR:000012705 ! polymeric immunoglobulin receptor
+intersection_of: process_has_causal_agent CL:0000623 ! natural killer cell
+intersection_of: process_has_causal_agent CL:0000084 ! T cell
+intersection_of: process_has_causal_agent CL:0000738 ! leukocyte
+intersection_of: process_has_causal_agent CL:0000766 ! myeloid leukocyte
+intersection_of: process_has_causal_agent CL:0000775 ! neutrophil
+intersection_of: process_has_causal_agent CL:0000771 ! eosinophil
+intersection_of: process_has_causal_agent CL:0000097 ! mast cell
+intersection_of: process_has_causal_agent CL:0000542 ! lymphocyte
+intersection_of: process_has_causal_agent CL:0000084 ! T cell
+intersection_of: process_has_causal_agent CL:0000097 ! mast cell
+intersection_of: process_has_causal_agent CL:0000097 ! mast cell
+intersection_of: process_has_causal_agent CL:0000233 ! platelet
+intersection_of: process_has_causal_agent CL:0000233 ! platelet
+intersection_of: process_has_causal_agent CL:0000767 ! basophil
+intersection_of: process_has_causal_agent CL:0000767 ! basophil
+intersection_of: process_has_causal_agent CL:0000767 ! basophil
+intersection_of: process_has_causal_agent PR:000011374 ! atrial natriuretic factor
+intersection_of: process_has_causal_agent GO:0005874 ! microtubule
+intersection_of: process_has_causal_agent GO:0030139 ! endocytic vesicle
+intersection_of: process_has_causal_agent GO:0005874 ! microtubule
+intersection_of: process_has_causal_agent PR:000000028 ! small GTPase
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:0009506 ! plasmodesma
+intersection_of: process_has_causal_agent PR:000001245 ! rhodopsin
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:0005768 ! endosome
+intersection_of: process_has_causal_agent CL:0000236 ! B cell
+intersection_of: process_has_causal_agent GO:0005815 ! microtubule organizing center
+intersection_of: process_has_causal_agent CHEBI:33697 ! ribonucleic acid
+intersection_of: process_has_causal_agent GO:0038201 ! TOR complex
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:0005874 ! microtubule
+intersection_of: process_has_causal_agent SO:0000276 ! miRNA
+intersection_of: process_has_causal_agent CL:0000624 ! CD4-positive, alpha-beta T cell
+intersection_of: process_has_causal_agent CL:0000545 ! T-helper 1 cell
+intersection_of: process_has_causal_agent CL:0000546 ! T-helper 2 cell
+intersection_of: process_has_causal_agent GO:0031931 ! TORC1 complex
+intersection_of: process_has_causal_agent GO:0031932 ! TORC2 complex
+intersection_of: process_has_causal_agent SO:0000655 ! ncRNA
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent CL:0000623 ! natural killer cell
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:0033281 ! TAT protein transport complex
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:0005874 ! microtubule
+intersection_of: process_has_causal_agent GO:0005816 ! spindle pole body
+intersection_of: process_has_causal_agent GO:0005815 ! microtubule organizing center
+intersection_of: process_has_causal_agent CL:0000233 ! platelet
+intersection_of: process_has_causal_agent CL:0000775 ! neutrophil
+intersection_of: process_has_causal_agent CHEBI:48433 ! angiotensin
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:0005813 ! centrosome
+intersection_of: process_has_causal_agent CL:0000129 ! microglial cell
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent CHEBI:18059 ! lipid
+intersection_of: process_has_causal_agent CHEBI:67194 ! cannabinoid
+intersection_of: process_has_causal_agent CHEBI:16480 ! nitric oxide
+intersection_of: process_has_causal_agent CHEBI:16480 ! nitric oxide
+intersection_of: process_has_causal_agent CHEBI:16480 ! nitric oxide
+intersection_of: process_has_causal_agent GO:0098820 ! trans-synaptic protein complex
+intersection_of: process_has_causal_agent GO:0098820 ! trans-synaptic protein complex
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:0099073 ! mitochondrion-derived vesicle
+intersection_of: process_has_causal_agent GO:0099073 ! mitochondrion-derived vesicle
+intersection_of: process_has_causal_agent GO:0099073 ! mitochondrion-derived vesicle
+intersection_of: process_has_causal_agent CHEBI:16670 ! peptide
+intersection_of: process_has_causal_agent CHEBI:16670 ! peptide
+intersection_of: process_has_causal_agent GO:0005874 ! microtubule
+intersection_of: process_has_causal_agent GO:0005874 ! microtubule
+intersection_of: process_has_causal_agent GO:0005874 ! microtubule
+intersection_of: process_has_causal_agent GO:0005874 ! microtubule
+intersection_of: process_has_causal_agent GO:0070062 ! extracellular exosome
+intersection_of: process_has_causal_agent GO:0070062 ! extracellular exosome
+intersection_of: process_has_causal_agent CHEBI:16480 ! nitric oxide
+intersection_of: process_has_causal_agent PR:000004716 ! brain-derived neurotrophic factor
+intersection_of: process_has_causal_agent PR:000004716 ! brain-derived neurotrophic factor
+intersection_of: process_has_causal_agent CHEBI:16670 ! peptide
+intersection_of: process_has_causal_agent CHEBI:16670 ! peptide
+intersection_of: process_has_causal_agent CHEBI:18059 ! lipid
+intersection_of: process_has_causal_agent CHEBI:67194 ! cannabinoid
+intersection_of: process_has_causal_agent GO:0098820 ! trans-synaptic protein complex
+intersection_of: process_has_causal_agent CHEBI:16480 ! nitric oxide
+intersection_of: process_has_causal_agent CHEBI:17245 ! carbon monoxide
+intersection_of: process_has_causal_agent CHEBI:16670 ! peptide
+intersection_of: process_has_causal_agent CHEBI:18059 ! lipid
+intersection_of: process_has_causal_agent CHEBI:67194 ! cannabinoid
+intersection_of: process_has_causal_agent CHEBI:16480 ! nitric oxide
+intersection_of: process_has_causal_agent CHEBI:17245 ! carbon monoxide
+intersection_of: process_has_causal_agent GO:0098820 ! trans-synaptic protein complex
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:1903561 ! extracellular vesicle
+intersection_of: process_has_causal_agent CHEBI:16838 ! polyphosphate
+intersection_of: process_has_causal_agent SO:0000276 ! miRNA
+intersection_of: process_has_causal_agent SO:0000276 ! miRNA
+intersection_of: process_has_causal_agent SO:0000276 ! miRNA
+intersection_of: process_has_causal_agent GO:0031982 ! vesicle
+intersection_of: process_has_causal_agent GO:0005921 ! gap junction

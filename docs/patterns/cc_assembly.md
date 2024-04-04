@@ -48,5 +48,5 @@ TODO
 | [http://purl.obolibrary.org/obo/GO_1904745](http://purl.obolibrary.org/obo/GO_1904745) | Atg1/ULK1 kinase complex assembly | [http://purl.obolibrary.org/obo/GO_1990316](http://purl.obolibrary.org/obo/GO_1990316) | Atg1/ULK1 kinase complex |
 | [http://purl.obolibrary.org/obo/GO_0010387](http://purl.obolibrary.org/obo/GO_0010387) | COP9 signalosome assembly | [http://purl.obolibrary.org/obo/GO_0008180](http://purl.obolibrary.org/obo/GO_0008180) | COP9 signalosome |
 | [http://purl.obolibrary.org/obo/GO_0048208](http://purl.obolibrary.org/obo/GO_0048208) | COPII vesicle coating | [http://purl.obolibrary.org/obo/GO_0030127](http://purl.obolibrary.org/obo/GO_0030127) | COPII vesicle coat |
-| [http://purl.obolibrary.org/obo/GO_0071255](http://purl.obolibrary.org/obo/GO_0071255) | Cvt vesicle assembly | [http://purl.obolibrary.org/obo/GO_0033107](http://purl.obolibrary.org/obo/GO_0033107) | Cvt vesicle |
+| [http://purl.obolibrary.org/obo/GO_0160073](http://purl.obolibrary.org/obo/GO_0160073) | Casparian strip assembly | [http://purl.obolibrary.org/obo/GO_0048226](http://purl.obolibrary.org/obo/GO_0048226) | Casparian strip |
 
