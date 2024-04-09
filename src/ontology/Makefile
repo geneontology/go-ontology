@@ -530,6 +530,9 @@ mirror/pr.owl: mirror/pr-download.owl
 mirror/opl.owl: mirror/opl-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) --remove-axioms-about -d -v OPL -o $@
 
+mirror/eco.owl: mirror/eco-download.owl
+	cp $< $@
+
 mirror/%.owl: mirror/%-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/%.owl
