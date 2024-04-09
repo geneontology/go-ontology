@@ -530,6 +530,7 @@ mirror/pr.owl: mirror/pr-download.owl
 mirror/opl.owl: mirror/opl-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) --remove-axioms-about -d -v OPL -o $@
 
+# Avoid filtering annotations out via owltools. dbxrefs for three-letter codes are needed in Amigo.
 mirror/eco.owl: mirror/eco-download.owl
 	cp $< $@
 
