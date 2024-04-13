@@ -1195,7 +1195,7 @@ http://purl.obolibrary.org/obo/GO_0031947	negative regulation of glucocorticoid 
 http://purl.obolibrary.org/obo/GO_0031950	negative regulation of glucocorticoid catabolic process	http://purl.obolibrary.org/obo/GO_0006713	glucocorticoid catabolic process
 http://purl.obolibrary.org/obo/GO_1900170	negative regulation of glucocorticoid mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0043402	glucocorticoid mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0031944	negative regulation of glucocorticoid metabolic process	http://purl.obolibrary.org/obo/GO_0008211	glucocorticoid metabolic process
-http://purl.obolibrary.org/obo/GO_2000323	negative regulation of glucocorticoid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	glucocorticoid receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_2000323	negative regulation of glucocorticoid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	intracellular glucocorticoid receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_2000850	negative regulation of glucocorticoid secretion	http://purl.obolibrary.org/obo/GO_0035933	glucocorticoid secretion
 http://purl.obolibrary.org/obo/GO_0033132	negative regulation of glucokinase activity	http://purl.obolibrary.org/obo/GO_0004340	glucokinase activity
 http://purl.obolibrary.org/obo/GO_2000907	negative regulation of glucomannan catabolic process	http://purl.obolibrary.org/obo/GO_2000884	glucomannan catabolic process

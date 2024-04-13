@@ -1336,7 +1336,7 @@ http://purl.obolibrary.org/obo/GO_0031946	regulation of glucocorticoid biosynthe
 http://purl.obolibrary.org/obo/GO_0031949	regulation of glucocorticoid catabolic process	http://purl.obolibrary.org/obo/GO_0006713	glucocorticoid catabolic process
 http://purl.obolibrary.org/obo/GO_1900169	regulation of glucocorticoid mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0043402	glucocorticoid mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0031943	regulation of glucocorticoid metabolic process	http://purl.obolibrary.org/obo/GO_0008211	glucocorticoid metabolic process
-http://purl.obolibrary.org/obo/GO_2000322	regulation of glucocorticoid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	glucocorticoid receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_2000322	regulation of glucocorticoid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	intracellular glucocorticoid receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_2000849	regulation of glucocorticoid secretion	http://purl.obolibrary.org/obo/GO_0035933	glucocorticoid secretion
 http://purl.obolibrary.org/obo/GO_0033131	regulation of glucokinase activity	http://purl.obolibrary.org/obo/GO_0004340	glucokinase activity
 http://purl.obolibrary.org/obo/GO_2000898	regulation of glucomannan catabolic process	http://purl.obolibrary.org/obo/GO_2000884	glucomannan catabolic process
