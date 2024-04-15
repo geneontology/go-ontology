@@ -621,4 +621,6 @@ GO:1990428	miRNA transport	NCBITaxon:4896	Schizosaccharomyces pombe
 GO:2000630	positive regulation of miRNA metabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0035196	miRNA processing	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0035198	miRNA binding	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0031519	PcG protein complex	NCBITaxon:4890	Ascomycota	
+GO:0031519	PcG protein complex	NCBITaxon:4890	Ascomycota
+GO:0097271	protein localization to bud neck	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0097271	protein localization to bud neck	NCBITaxon:33208	Metazoa
