@@ -1167,7 +1167,7 @@ http://purl.obolibrary.org/obo/GO_0031948	positive regulation of glucocorticoid 
 http://purl.obolibrary.org/obo/GO_0031951	positive regulation of glucocorticoid catabolic process	http://purl.obolibrary.org/obo/GO_0006713	glucocorticoid catabolic process
 http://purl.obolibrary.org/obo/GO_1900171	positive regulation of glucocorticoid mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0043402	glucocorticoid mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0031945	positive regulation of glucocorticoid metabolic process	http://purl.obolibrary.org/obo/GO_0008211	glucocorticoid metabolic process
-http://purl.obolibrary.org/obo/GO_2000324	positive regulation of glucocorticoid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	glucocorticoid receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_2000324	positive regulation of glucocorticoid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	intracellular glucocorticoid receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_2000851	positive regulation of glucocorticoid secretion	http://purl.obolibrary.org/obo/GO_0035933	glucocorticoid secretion
 http://purl.obolibrary.org/obo/GO_0033133	positive regulation of glucokinase activity	http://purl.obolibrary.org/obo/GO_0004340	glucokinase activity
 http://purl.obolibrary.org/obo/GO_2000908	positive regulation of glucomannan catabolic process	http://purl.obolibrary.org/obo/GO_2000884	glucomannan catabolic process
