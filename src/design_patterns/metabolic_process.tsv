@@ -377,7 +377,6 @@ http://purl.obolibrary.org/obo/GO_0006081	cellular aldehyde metabolic process	ht
 http://purl.obolibrary.org/obo/GO_0043446	cellular alkane metabolic process	http://purl.obolibrary.org/obo/CHEBI_18310	alkane
 http://purl.obolibrary.org/obo/GO_0043449	cellular alkene metabolic process	http://purl.obolibrary.org/obo/CHEBI_32878	alkene
 http://purl.obolibrary.org/obo/GO_0043452	cellular alkyne metabolic process	http://purl.obolibrary.org/obo/CHEBI_22339	alkyne
-http://purl.obolibrary.org/obo/GO_0006725	cellular aromatic compound metabolic process	http://purl.obolibrary.org/obo/CHEBI_33655	aromatic compound
 http://purl.obolibrary.org/obo/GO_0042180	cellular ketone metabolic process	http://purl.obolibrary.org/obo/CHEBI_17087	ketone
 http://purl.obolibrary.org/obo/GO_0006575	cellular modified amino acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_83821	amino acid derivative
 http://purl.obolibrary.org/obo/GO_0052701	cellular modified histidine metabolic process	http://purl.obolibrary.org/obo/CHEBI_24599	histidine derivative
@@ -688,7 +687,6 @@ http://purl.obolibrary.org/obo/GO_0030202	heparin metabolic process	http://purl.
 http://purl.obolibrary.org/obo/GO_0051121	hepoxilin metabolic process	http://purl.obolibrary.org/obo/CHEBI_62938	hepoxilin anion
 http://purl.obolibrary.org/obo/GO_1900874	heptadec-1-ene metabolic process	http://purl.obolibrary.org/obo/CHEBI_64502	1-heptadecene
 http://purl.obolibrary.org/obo/GO_1900635	heptadecane metabolic process	http://purl.obolibrary.org/obo/CHEBI_16148	heptadecane
-http://purl.obolibrary.org/obo/GO_0046483	heterocycle metabolic process	http://purl.obolibrary.org/obo/CHEBI_5686	heterocyclic compound
 http://purl.obolibrary.org/obo/GO_0019497	hexachlorocyclohexane metabolic process	http://purl.obolibrary.org/obo/CHEBI_24536	hexachlorocyclohexane
 http://purl.obolibrary.org/obo/GO_0046458	hexadecanal metabolic process	http://purl.obolibrary.org/obo/CHEBI_17600	hexadecanal
 http://purl.obolibrary.org/obo/GO_0006059	hexitol metabolic process	http://purl.obolibrary.org/obo/CHEBI_24583	hexitol
