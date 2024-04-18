@@ -894,7 +894,6 @@ GO:0141169	epigenetic 5-methylcytosine DNA demethylation, direct 5-methylcytosin
 GO:0072331	signal transduction by p53 class mediator	NCBITaxon:6072	Eumetazoa	
 GO:0042541	hemoglobin biosynthetic process	NCBITaxon:6072	Eumetazoa	
 GO:0032186	cellular bud neck septin ring organization	NCBITaxon:147537	Saccharomycotina	
-GO:0097271	protein localization to bud neck	NCBITaxon:147537	Saccharomycotina	
 GO:0047522	15-oxoprostaglandin 13-oxidase activity	NCBITaxon:6072	Eumetazoa	
 GO:0006693	prostaglandin metabolic process	NCBITaxon:6072	Eumetazoa	
 GO:0071875	adrenergic receptor signaling pathway	NCBITaxon:6072	Eumetazoa	
