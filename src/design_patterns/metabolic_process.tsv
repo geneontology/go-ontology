@@ -856,7 +856,6 @@ http://purl.obolibrary.org/obo/GO_0033517	myo-inositol hexakisphosphate metaboli
 http://purl.obolibrary.org/obo/GO_0018939	n-octane metabolic process	http://purl.obolibrary.org/obo/CHEBI_17590	octane
 http://purl.obolibrary.org/obo/GO_0018984	naphthalenesulfonate metabolic process	http://purl.obolibrary.org/obo/CHEBI_25478	naphthalenesulfonate
 http://purl.obolibrary.org/obo/GO_1900785	naphtho-gamma-pyrone metabolic process	http://purl.obolibrary.org/obo/CHEBI_64542	naphtho-gamma-pyrone
-http://purl.obolibrary.org/obo/GO_0034660	ncRNA metabolic process	http://purl.obolibrary.org/obo/SO_0000655	ncRNA
 http://purl.obolibrary.org/obo/GO_1901156	neomycin metabolic process	http://purl.obolibrary.org/obo/CHEBI_7507	neomycin
 http://purl.obolibrary.org/obo/GO_1902048	neosartoricin metabolic process	http://purl.obolibrary.org/obo/CHEBI_72750	neosartoricin
 http://purl.obolibrary.org/obo/GO_0015011	nickel-tetrapyrrole coenzyme metabolic process	http://purl.obolibrary.org/obo/CHEBI_25519	nickel tetrapyrrole
@@ -1192,7 +1191,6 @@ http://purl.obolibrary.org/obo/GO_0046146	tetrahydrobiopterin metabolic process	
 http://purl.obolibrary.org/obo/GO_0015010	tetrahydrocorphin metabolic process	http://purl.obolibrary.org/obo/CHEBI_26904	tetrahydrocorphin
 http://purl.obolibrary.org/obo/GO_0046653	tetrahydrofolate metabolic process	http://purl.obolibrary.org/obo/CHEBI_26907	tetrahydrofolic acid
 http://purl.obolibrary.org/obo/GO_0046900	tetrahydrofolylpolyglutamate metabolic process	http://purl.obolibrary.org/obo/CHEBI_28624	tetrahydrofolyl-poly(glutamic acid) macromolecule
-http://purl.obolibrary.org/obo/GO_0018968	tetrahydrofuran metabolic process	http://purl.obolibrary.org/obo/CHEBI_26911	oxolane
 http://purl.obolibrary.org/obo/GO_2001117	tetrahydromethanopterin metabolic process	http://purl.obolibrary.org/obo/CHEBI_26914	tetrahydromethanopterin
 http://purl.obolibrary.org/obo/GO_0033013	tetrapyrrole metabolic process	http://purl.obolibrary.org/obo/CHEBI_26932	tetrapyrrole
 http://purl.obolibrary.org/obo/GO_0016108	tetraterpenoid metabolic process	http://purl.obolibrary.org/obo/CHEBI_26935	tetraterpenoid
