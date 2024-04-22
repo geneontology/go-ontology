@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-10-10/imports/cl_import.owl
+data-version: go/releases/2024-03-08/imports/cl_import.owl
 ontology: go/imports/cl_import
 
 [Term]
@@ -510,6 +510,13 @@ intersection_of: BFO:0000050 UBERON:0004638
 relationship: RO:0002202 CL:0002546 ! embryonic blood vessel endothelial progenitor cell
 
 [Term]
+id: CL:0000072
+name: non-branched duct epithelial cell
+is_a: CL:0000068 ! duct epithelial cell
+is_a: CL:0002078 ! meso-epithelial cell
+relationship: RO:0002202 CL:0000222 ! mesodermal cell
+
+[Term]
 id: CL:0000075
 name: columnar/cuboidal epithelial cell
 def: "A columnar/cuboidal epithelial cell is a cell usually found in a two dimensional sheet with a free surface. Columnar/cuboidal epithelial cells take on the shape of a column or cube." []
@@ -585,6 +592,7 @@ id: CL:0000092
 name: osteoclast
 def: "A specialized phagocytic cell associated with the absorption and removal of the mineralized matrix of bone tissue, which typically differentiates from monocytes. This cell has the following markers: tartrate-resistant acid phosphatase type 5-positive, PU.1-positive, c-fos-positive, nuclear factor NF-kappa-B p100 subunit-positive, tumor necrosis factor receptor superfamily member 11A-positive and macrophage colony-stimulating factor 1 receptor-positive." []
 synonym: "chondroclast" RELATED []
+is_a: CL:0000518 ! phagocyte (sensu Vertebrata)
 is_a: CL:0000766 ! myeloid leukocyte
 is_a: CL:0001035 ! bone cell
 intersection_of: CL:0000766 ! myeloid leukocyte
@@ -729,6 +737,15 @@ def: "A neuron that uses acetylcholine as a vesicular neurotransmitter." []
 is_a: CL:0000540 ! neuron
 intersection_of: CL:0000540 ! neuron
 intersection_of: RO:0002215 GO:0014055
+
+[Term]
+id: CL:0000113
+name: mononuclear phagocyte
+def: "A vertebrate phagocyte with a single nucleus." []
+is_a: CL:0000518 ! phagocyte (sensu Vertebrata)
+is_a: CL:0000842 ! mononuclear cell
+intersection_of: CL:0000518 ! phagocyte (sensu Vertebrata)
+intersection_of: RO:0000053 PATO:0001407
 
 [Term]
 id: CL:0000114
@@ -890,10 +907,10 @@ relationship: RO:0002202 CL:0000057 ! fibroblast
 
 [Term]
 id: CL:0000136
-name: fat cell
+name: adipocyte
 def: "A fat-storing cell found mostly in the abdominal cavity and subcutaneous tissue of mammals. Fat is usually stored in the form of triglycerides." []
-synonym: "adipocyte" EXACT []
 synonym: "adipose cell" EXACT []
+synonym: "fat cell" EXACT []
 is_a: CL:0000325 ! stuff accumulating cell
 is_a: CL:0002320 ! connective tissue cell
 relationship: RO:0002202 CL:0000134 ! mesenchymal stem cell
@@ -1518,8 +1535,8 @@ id: CL:0000235
 name: macrophage
 def: "A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells." []
 synonym: "histiocyte" EXACT []
+is_a: CL:0000113 ! mononuclear phagocyte
 is_a: CL:0000145 ! professional antigen presenting cell
-is_a: CL:0000234 ! phagocyte
 is_a: CL:0000766 ! myeloid leukocyte
 intersection_of: CL:0000766 ! myeloid leukocyte
 intersection_of: RO:0002215 GO:0002504
@@ -2013,21 +2030,21 @@ is_a: CL:0000151 ! secretory cell
 
 [Term]
 id: CL:0000448
-name: white fat cell
-def: "Fat cells with light coloration and few mitochondria. They contain a scant ring of cytoplasm surrounding a single large lipid droplet or vacuole." []
-synonym: "white adipocyte" RELATED []
+name: white adipocyte
+def: "An adipocyte with light coloration and few mitochondria. It contains a scant ring of cytoplasm surrounding a single large lipid droplet or vacuole." []
 synonym: "white adipose cell" EXACT []
-is_a: CL:0000136 ! fat cell
+synonym: "white fat cell" RELATED []
+is_a: CL:0000136 ! adipocyte
 relationship: BFO:0000050 UBERON:0001347
 relationship: RO:0002202 CL:0002334 ! preadipocyte
 
 [Term]
 id: CL:0000449
-name: brown fat cell
+name: brown adipocyte
 def: "A cell from the thermogenic form of adipose tissue found in many species,  particularly in newborns and hibernating mammals, but also in lesser amounts in adults of other mammals including humans. Brown fat is capable of rapid liberation of energy and seems to be important in the maintenance of body temperature immediately after birth and upon waking from hibernation." []
-synonym: "brown adipocyte" EXACT []
 synonym: "brown adipose cell" EXACT []
-is_a: CL:0000136 ! fat cell
+synonym: "brown fat cell" EXACT []
+is_a: CL:0000136 ! adipocyte
 relationship: BFO:0000050 UBERON:0001348
 relationship: RO:0002202 CL:0002335 ! brown preadipocyte
 
@@ -2037,8 +2054,8 @@ name: dendritic cell
 def: "A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation. These cells are lineage negative (CD3-negative, CD19-negative, CD34-negative, and CD56-negative)." []
 synonym: "interdigitating cell" RELATED []
 synonym: "veiled cell" RELATED []
+is_a: CL:0000113 ! mononuclear phagocyte
 is_a: CL:0000145 ! professional antigen presenting cell
-is_a: CL:0000842 ! mononuclear cell
 intersection_of: CL:0000738 ! leukocyte
 intersection_of: BFO:0000051 GO:0042613
 intersection_of: lacks_plasma_membrane_part PR:000001002
@@ -2331,6 +2348,13 @@ is_a: CL:0000891 ! foam cell
 relationship: RO:0002202 CL:0000235 ! macrophage
 
 [Term]
+id: CL:0000518
+name: phagocyte (sensu Vertebrata)
+def: "A phagocyte in vertebrates that is able to phagocytosis." []
+is_a: CL:0000234 ! phagocyte
+relationship: RO:0002160 NCBITaxon:7742
+
+[Term]
 id: CL:0000519
 name: phagocyte (sensu Nematoda and Protostomia)
 def: "A phagocyte from organisms in the Nematoda or Protostomia clades." []
@@ -2357,10 +2381,10 @@ synonym: "syncytial trophoblast cell" EXACT []
 synonym: "syncytiotrophoblastic cell" EXACT []
 synonym: "syntrophoblast cell" RELATED []
 is_a: CL:0000228 ! multinucleate cell
-is_a: CL:2000060 ! placental villous trophoblast
+is_a: CL:0000351 ! trophoblast cell
 intersection_of: CL:0000351 ! trophoblast cell
 intersection_of: RO:0000053 PATO:0001908
-relationship: BFO:0000050 UBERON:0010005
+relationship: BFO:0000050 UBERON:0000371
 
 [Term]
 id: CL:0000526
@@ -2418,9 +2442,9 @@ def: "A lymphocyte is a leukocyte commonly found in the blood and lymph that has
 is_a: CL:0000842 ! mononuclear cell
 intersection_of: CL:0000738 ! leukocyte
 intersection_of: BFO:0000051 CL:0017500 ! neutrophillic cytoplasm
-intersection_of: BFO:0000051 CL:0017505 ! increased nucleus size
 intersection_of: BFO:0000051 GO:0000792
 intersection_of: RO:0000053 PATO:0001407
+intersection_of: RO:0000053 PATO:0040072
 disjoint_from: CL:0000766 ! myeloid leukocyte
 relationship: RO:0002202 CL:0000051 ! common lymphoid progenitor
 
@@ -2476,7 +2500,6 @@ is_a: CL:0000764 ! erythroid lineage cell
 is_a: CL:0002242 ! nucleate cell
 intersection_of: CL:0000764 ! erythroid lineage cell
 intersection_of: BFO:0000051 CL:0017503 ! basophilic cytoplasm
-intersection_of: BFO:0000051 CL:0017505 ! increased nucleus size
 intersection_of: BFO:0000051 GO:0005730
 intersection_of: lacks_plasma_membrane_part PR:000001002
 intersection_of: lacks_plasma_membrane_part PR:000001004
@@ -2490,6 +2513,7 @@ intersection_of: lacks_plasma_membrane_part PR:000001839
 intersection_of: lacks_plasma_membrane_part PR:000001889
 intersection_of: lacks_plasma_membrane_part PR:000002978
 intersection_of: RO:0000053 PATO:0002505
+intersection_of: RO:0000053 PATO:0040072
 intersection_of: RO:0002104 PR:000001945
 relationship: RO:0002202 CL:0000038 ! erythroid progenitor cell
 
@@ -2776,8 +2800,8 @@ intersection_of: BFO:0000050 UBERON:0001772
 id: CL:0000576
 name: monocyte
 def: "Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells." []
+is_a: CL:0000113 ! mononuclear phagocyte
 is_a: CL:0000766 ! myeloid leukocyte
-is_a: CL:0000842 ! mononuclear cell
 intersection_of: CL:0000766 ! myeloid leukocyte
 intersection_of: RO:0000053 PATO:0001407
 intersection_of: RO:0002215 GO:0030225
@@ -3830,7 +3854,7 @@ id: CL:0000778
 name: mononuclear osteoclast
 def: "A specialized mononuclear osteoclast associated with the absorption and removal of bone, precursor of multinuclear osteoclasts." []
 is_a: CL:0000092 ! osteoclast
-is_a: CL:0000842 ! mononuclear cell
+is_a: CL:0000113 ! mononuclear phagocyte
 intersection_of: CL:0000092 ! osteoclast
 intersection_of: RO:0000053 PATO:0001407
 
@@ -3840,7 +3864,7 @@ name: multinuclear osteoclast
 def: "A specialized multinuclear osteoclast associated with the absorption and removal of bone." []
 synonym: "multinucleated osteoclast" EXACT []
 is_a: CL:0000092 ! osteoclast
-is_a: CL:0000228 ! multinucleate cell
+is_a: CL:0000783 ! multinucleated phagocyte
 intersection_of: CL:0000092 ! osteoclast
 intersection_of: RO:0000053 PATO:0001908
 relationship: RO:0002202 CL:0000778 ! mononuclear osteoclast
@@ -3877,6 +3901,15 @@ is_a: CL:0000990 ! conventional dendritic cell
 intersection_of: CL:0000990 ! conventional dendritic cell
 intersection_of: lacks_plasma_membrane_part PR:000001865
 intersection_of: RO:0002202 CL:0000763 ! myeloid cell
+
+[Term]
+id: CL:0000783
+name: multinucleated phagocyte
+def: "A phagocyte formed by the fusion of mononuclear phagocytes." []
+is_a: CL:0000228 ! multinucleate cell
+is_a: CL:0000518 ! phagocyte (sensu Vertebrata)
+intersection_of: CL:0000518 ! phagocyte (sensu Vertebrata)
+intersection_of: RO:0000053 PATO:0001908
 
 [Term]
 id: CL:0000784
@@ -4656,9 +4689,9 @@ def: "The most primitive precursor in the granulocytic series, having fine, even
 is_a: CL:0002191 ! granulocytopoietic cell
 intersection_of: CL:0002191 ! granulocytopoietic cell
 intersection_of: BFO:0000051 CL:0017503 ! basophilic cytoplasm
-intersection_of: BFO:0000051 CL:0017505 ! increased nucleus size
 intersection_of: BFO:0000051 GO:0000791
 intersection_of: lacks_part GO:0042582
+intersection_of: RO:0000053 PATO:0040072
 relationship: RO:0002202 CL:0000557 ! granulocyte monocyte progenitor cell
 
 [Term]
@@ -4668,12 +4701,12 @@ def: "A precursor in the granulocytic series, being a cell intermediate in devel
 is_a: CL:0002191 ! granulocytopoietic cell
 intersection_of: CL:0000839 ! myeloid lineage restricted progenitor cell
 intersection_of: BFO:0000051 CL:0017503 ! basophilic cytoplasm
-intersection_of: BFO:0000051 CL:0017505 ! increased nucleus size
 intersection_of: BFO:0000051 GO:0005730
 intersection_of: BFO:0000051 GO:0042582
 intersection_of: lacks_plasma_membrane_part PR:000001012
 intersection_of: lacks_plasma_membrane_part PR:000001483
 intersection_of: lacks_plasma_membrane_part PR:000001932
+intersection_of: RO:0000053 PATO:0040072
 intersection_of: RO:0002104 PR:000001456
 intersection_of: RO:0002104 PR:000001892
 relationship: RO:0002202 CL:0000835 ! myeloblast
@@ -4888,7 +4921,6 @@ id: CL:0000860
 name: classical monocyte
 def: "A monocyte that responds rapidly to microbial stimuli by secreting cytokines and antimicrobial factors and which is characterized by high expression of CCR2 in both rodents and humans, negative for the lineage markers CD3, CD19, and CD20, and of larger size than non-classical monocytes." []
 synonym: "inflammatory monocyte" EXACT []
-is_a: CL:0000234 ! phagocyte
 is_a: CL:0000576 ! monocyte
 intersection_of: CL:0000576 ! monocyte
 intersection_of: lacks_plasma_membrane_part PR:000001002
@@ -8330,10 +8362,14 @@ intersection_of: RO:0001025 UBERON:0000173
 
 [Term]
 id: CL:0002325
-name: mammary alveolar cell
-def: "The milk-producing cell of the alveolar unit that emerges during pregnancy." []
+name: lactocyte
+def: "A milk-producing glandular epithelial cell that is part of a mammary gland alveolus and differentiates from a luminal adaptive secretory precursor cell during secretory differentiation (also termed lactogenesis I). Following secretory activation (also termed lactogenesis II), a lactocyte is involved in the synthesis and/or transport of milk constituents including proteins, oligosaccharides, lactose, micronutrients, fat, hormones, immunoglobulins, and cytokines into the lumen of the lactating mammary gland." []
 synonym: "epithelial cell of lactiferous gland" EXACT []
+synonym: "lactaction-associated mammary epithelial cell" EXACT []
+synonym: "lactation-derived mammary cell" EXACT []
+synonym: "LMC" RELATED []
 synonym: "luminal cell of alveolus of lactiferous gland" EXACT []
+synonym: "mammary alveolar cell" BROAD []
 synonym: "mammary alveolar epithelial cell" EXACT []
 synonym: "mammary gland alveolar epithelial cell" EXACT []
 is_a: CL:0000150 ! glandular epithelial cell
@@ -8341,6 +8377,16 @@ is_a: CL:0000314 ! milk secreting cell
 is_a: CL:0002159 ! general ecto-epithelial cell
 intersection_of: CL:0000150 ! glandular epithelial cell
 intersection_of: BFO:0000050 UBERON:0003214
+relationship: RO:0002202 CL:4033057 ! luminal adaptive secretory precursor cell of mammary gland
+
+[Term]
+id: CL:0002326
+name: luminal epithelial cell of mammary gland
+def: "A mammary epithelial cell that occurs in the lumen of the ductal and alveoli structure in the breast." []
+synonym: "mature luminal cell" BROAD []
+is_a: CL:0000069 ! branched duct epithelial cell
+is_a: CL:0002327 ! mammary gland epithelial cell
+relationship: RO:0002202 CL:0009116 ! progenitor cell of mammary luminal epithelium
 
 [Term]
 id: CL:0002327
@@ -8378,10 +8424,10 @@ intersection_of: BFO:0000050 UBERON:0002185
 
 [Term]
 id: CL:0002333
-name: neural crest derived fat cell
-def: "A fat cell derived from a neural crest cell." []
-is_a: CL:0000136 ! fat cell
-intersection_of: CL:0000136 ! fat cell
+name: neural crest derived adipocyte
+def: "An adipocyte derived from a neural crest cell." []
+is_a: CL:0000136 ! adipocyte
+intersection_of: CL:0000136 ! adipocyte
 intersection_of: RO:0002202 CL:0000333 ! migratory neural crest cell
 relationship: RO:0002202 CL:0000005 ! fibroblast neural crest derived
 
@@ -8586,7 +8632,7 @@ relationship: BFO:0000050 UBERON:0009841
 [Term]
 id: CL:0002363
 name: keratocyte
-def: "A keratocyte is a specialized fibroblastÂ residing in the cornea stroma that has a flattened, dendritic cell located between the lamellae with a large flattened nucleus and lengthy processes which communicate with neighboring cells. ThisÂ cornealÂ layer, representing about 85-90% of corneal thickness, is built up from highly regular collagenous lamellae and extracellular matrix components. Keratocytes play the major role in keeping it transparent, healing its wounds, and synthesizing its components. This cell type secretes collagen I, V, VI, and keratin sulfate." []
+def: "A keratocyte is a specialized fibroblast residing in the cornea stroma that has a flattened, dendritic morphology; located between the lamellae with a large flattened nucleus, and lengthy processes which communicate with neighboring cells. This corneal layer, representing about 85-90% of corneal thickness, is built up from highly regular collagenous lamellae and extracellular matrix components. Keratocytes play the major role in keeping it transparent, healing its wounds, and synthesizing its components. This cell type secretes collagen I, V, VI, and keratan sulfate." []
 synonym: "corneal fibroblast" EXACT []
 synonym: "corneal keratocyte" EXACT []
 is_a: CL:0000005 ! fibroblast neural crest derived
@@ -9214,7 +9260,7 @@ name: bone marrow macrophage
 def: "A tissue-resident macrophage located in the bone marrow. This cell type is B220-negative, CD3e-negative, Ly-6C-negative, CD115-positive, F4/80-positive." []
 synonym: "MF.BM" RELATED []
 is_a: CL:0000864 ! tissue-resident macrophage
-is_a: CL:1001610 ! bone marrow hematopoietic cell
+is_a: CL:0010004 ! mononuclear cell of bone marrow
 intersection_of: CL:0000864 ! tissue-resident macrophage
 intersection_of: lacks_plasma_membrane_part PR:000001014
 intersection_of: lacks_plasma_membrane_part PR:000001020
@@ -9953,6 +9999,7 @@ intersection_of: BFO:0000050 UBERON:0000160
 [Term]
 id: CL:0002681
 name: kidney cortical cell
+def: "A cell that is part of a cortex of kidney." []
 is_a: CL:1000497 ! kidney cell
 intersection_of: CL:1000497 ! kidney cell
 intersection_of: BFO:0000050 UBERON:0001225
@@ -10511,6 +10558,15 @@ intersection_of: BFO:0000050 UBERON:0000029
 intersection_of: BFO:0000050 UBERON:0001473
 
 [Term]
+id: CL:0009116
+name: progenitor cell of mammary luminal epithelium
+def: "A progenitor cell with the potential to differentiate into luminal epithelial cells of mammary glands. In mouse, CD61 and c-kit were found to be coexpressed by the majority of, but not all, committed luminal progenitor cells." []
+synonym: "luminal progenitor cell" BROAD []
+synonym: "progenitor cell of luminal mammary epithelium" EXACT []
+is_a: CL:0011026 ! progenitor cell
+relationship: BFO:0000050 UBERON:0001911
+
+[Term]
 id: CL:0010001
 name: stromal cell of bone marrow
 def: "A stromal cell that is part_of a bone marrow." []
@@ -10886,14 +10942,6 @@ def: "Cytoplasm that exhibits affinity for both basic and acid stains under spec
 is_a: GO:0005737
 intersection_of: GO:0005737
 intersection_of: RO:0000053 PATO:0070047
-
-[Term]
-id: CL:0017505
-name: increased nucleus size
-def: "A nucleus size quality which is relatively high compared to the amount of cytoplasm present in the same cell." []
-is_a: GO:0005634
-intersection_of: GO:0005634
-intersection_of: RO:0000053 PATO:0000586
 
 [Term]
 id: CL:0017506
@@ -11378,6 +11426,17 @@ intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0001230
 
 [Term]
+id: CL:1000454
+name: kidney collecting duct epithelial cell
+def: "An epithelial cell that is part of the collecting duct of renal tubule." []
+synonym: "epithelial cell of renal collecting tubule" EXACT []
+is_a: CL:0000072 ! non-branched duct epithelial cell
+is_a: CL:0002518 ! kidney epithelial cell
+is_a: CL:1001225 ! kidney collecting duct cell
+intersection_of: CL:0000066 ! epithelial cell
+intersection_of: BFO:0000050 UBERON:0001232
+
+[Term]
 id: CL:1000456
 name: mesothelial cell of parietal peritoneum
 def: "A mesothelial cell that is part of the parietal peritoneum." []
@@ -11493,6 +11552,7 @@ relationship: BFO:0000050 UBERON:0001902
 [Term]
 id: CL:1000497
 name: kidney cell
+def: "A cell that is part of a kidney." []
 is_a: CL:0000000 ! cell
 intersection_of: CL:0000000 ! cell
 intersection_of: BFO:0000050 UBERON:0002113
@@ -11500,26 +11560,26 @@ intersection_of: BFO:0000050 UBERON:0002113
 [Term]
 id: CL:1000500
 name: kidney interstitial cell
+def: "A cell that is part of kidney interstitium." []
 is_a: CL:1000497 ! kidney cell
 intersection_of: CL:1000497 ! kidney cell
 intersection_of: BFO:0000050 UBERON:0005215
-relationship: BFO:0000050 UBERON:0005215
 
 [Term]
 id: CL:1000504
 name: kidney medulla cell
+def: "A cell that is part of a renal medulla." []
 is_a: CL:1000497 ! kidney cell
 intersection_of: CL:1000497 ! kidney cell
 intersection_of: BFO:0000050 UBERON:0000362
-relationship: BFO:0000050 UBERON:0000362
 
 [Term]
 id: CL:1000507
 name: kidney tubule cell
+def: "A cell that is part of a nephron tubule." []
 is_a: CL:1000497 ! kidney cell
 intersection_of: CL:1000497 ! kidney cell
 intersection_of: BFO:0000050 UBERON:0001231
-relationship: BFO:0000050 UBERON:0001231
 
 [Term]
 id: CL:1000510
@@ -11530,29 +11590,36 @@ intersection_of: BFO:0000050 UBERON:0004188
 relationship: BFO:0000050 UBERON:0004188
 
 [Term]
+id: CL:1000546
+name: kidney medulla collecting duct epithelial cell
+def: "An epithelial cell that is part of a renal medulla collecting duct." []
+is_a: CL:0000066 ! epithelial cell
+intersection_of: CL:0000066 ! epithelial cell
+intersection_of: BFO:0000050 UBERON:0005185
+
+[Term]
 id: CL:1000547
 name: kidney inner medulla collecting duct epithelial cell
 def: "An epithelial cell that is part of some inner medullary collecting duct." []
-is_a: CL:1000497 ! kidney cell
-intersection_of: CL:1000497 ! kidney cell
+is_a: CL:1000546 ! kidney medulla collecting duct epithelial cell
+intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0004205
-relationship: BFO:0000050 UBERON:0004205
 
 [Term]
 id: CL:1000548
 name: kidney outer medulla collecting duct epithelial cell
-is_a: CL:1000497 ! kidney cell
-intersection_of: CL:1000497 ! kidney cell
+def: "An epithelial cell that is part of an outer medullary collecting duct." []
+is_a: CL:1000546 ! kidney medulla collecting duct epithelial cell
+intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0004204
-relationship: BFO:0000050 UBERON:0004204
 
 [Term]
 id: CL:1000549
 name: kidney cortex collecting duct epithelial cell
-is_a: CL:1000497 ! kidney cell
-intersection_of: CL:1000497 ! kidney cell
+def: "An epithelial cell that is part of a cortical collecting duct." []
+is_a: CL:0000066 ! epithelial cell
+intersection_of: CL:0000066 ! epithelial cell
 intersection_of: BFO:0000050 UBERON:0004203
-relationship: BFO:0000050 UBERON:0004203
 
 [Term]
 id: CL:1000601
@@ -11732,6 +11799,7 @@ relationship: BFO:0000050 UBERON:0005096
 [Term]
 id: CL:1001225
 name: kidney collecting duct cell
+def: "A cell that is part of a collecting duct of renal tubule." []
 is_a: CL:1000497 ! kidney cell
 intersection_of: CL:1000497 ! kidney cell
 intersection_of: BFO:0000050 UBERON:0001232
@@ -12380,16 +12448,6 @@ is_a: CL:2000049 ! primary motor cortex pyramidal cell
 relationship: RO:0002100 UBERON:0001384
 
 [Term]
-id: CL:2000060
-name: placental villous trophoblast
-def: "A trophoblast of placental villi.  These cells fuse to form synctial  trophoplast - the placental side of the interface between the placenta and maternal blood sinusoids in the decidua." []
-synonym: "vCTB" EXACT []
-synonym: "villous cytotrophoblast" EXACT []
-is_a: CL:0000351 ! trophoblast cell
-intersection_of: CL:0000351 ! trophoblast cell
-intersection_of: BFO:0000050 UBERON:0010005
-
-[Term]
 id: CL:2000061
 name: placental amniotic mesenchymal stromal cell
 def: "Any mesenchymal stem cell that is part of a placenta." []
@@ -12747,6 +12805,27 @@ intersection_of: CL:0000034 ! stem cell
 intersection_of: BFO:0000050 UBERON:0001754
 
 [Term]
+id: CL:4030058
+name: TCR-positive macrophage
+def: "A macrophage that expresses the T cell receptor complex at the cell surface." []
+synonym: "T cell receptor positive macrophage" EXACT []
+synonym: "TCR+ macrophage" EXACT []
+synonym: "TCR.macs" RELATED []
+is_a: CL:0000235 ! macrophage
+intersection_of: CL:0000235 ! macrophage
+intersection_of: RO:0002104 GO:0042101
+
+[Term]
+id: CL:4030066
+name: ureteric bud cell
+def: "An epithelial cell that is part of a ureteric bud. A ureteric bud cell has the potential to induce metanephric mesenchymal cells to proliferate and convert to epithelia that form renal tubules via: (1) the secretion of multiple diffusible growth factors that rescue renal progenitors from apoptosis and stimulate them to proliferate and (2) contact-dependent mechanisms that induce mesenchymal-epithelial conversion." []
+synonym: "UB cell" RELATED []
+is_a: CL:0000066 ! epithelial cell
+intersection_of: CL:0000066 ! epithelial cell
+intersection_of: BFO:0000050 UBERON:0000084
+relationship: RO:0000056 GO:2001013
+
+[Term]
 id: CL:4033008
 name: vein endothelial cell of respiratory system
 def: "A(n) vein endothelial cell that is part of a(n) respiratory system." []
@@ -12824,6 +12903,33 @@ def: "A cell that is adjacent to a vessel. A perivascular cell plays a crucial r
 is_a: CL:0000000 ! cell
 intersection_of: CL:0000000 ! cell
 intersection_of: RO:0002220 UBERON:0002049
+
+[Term]
+id: CL:4033057
+name: luminal adaptive secretory precursor cell of mammary gland
+def: "A luminal epithelial cell of the mammary gland that can proliferate and has the potential to differentiate into a lactocyte during pregnancy. In humans, a luminal adaptive secretory precursor cell can be identified by high levels of the markers EpCAM and CD49f, and in mice it can be identified by low levels of CD29 and high levels of CD14, Kit, CD61, and Tspan8." []
+synonym: "alveolar cell" BROAD []
+synonym: "alveolar progenitor" BROAD []
+synonym: "AP" RELATED []
+synonym: "AV" RELATED []
+synonym: "ER-negative luminal alveolar progenitor" EXACT []
+synonym: "LASP" RELATED []
+synonym: "LP" RELATED []
+synonym: "luminal progenitor" BROAD []
+synonym: "luminal progenitor cell" BROAD []
+synonym: "luminal secretory cell" BROAD []
+synonym: "LumSec" RELATED []
+is_a: CL:0002326 ! luminal epithelial cell of mammary gland
+is_a: CL:0011115 ! precursor cell
+
+[Term]
+id: CL:4033064
+name: uterine resident macrophage
+def: "A tissue-resident macrophage that is part of the uterus." []
+synonym: "uterine macrophage" BROAD []
+is_a: CL:0000864 ! tissue-resident macrophage
+intersection_of: CL:0000864 ! tissue-resident macrophage
+intersection_of: BFO:0000050 UBERON:0000995
 
 [Term]
 id: CL:4040002

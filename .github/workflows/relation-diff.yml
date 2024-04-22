@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Run relation-graph
-      run: cd src/ontology; ROBOT_JAVA_ARGS=-Xmx6G robot merge --catalog catalog-v001.xml -i go-edit.obo -o go-merged.ofn; JAVA_OPTS=-Xmx6G relation-graph --ontology-file go-merged.ofn --mode RDF --output-file go-rels.nt --output-subclasses true --reflexive-subclasses false --equivalence-as-subclass false; sed 's/ /\t/' <go-rels.nt | sed 's/ /\t/' | sed 's/ \.$//' >right.facts
+      run: cd src/ontology; ROBOT_JAVA_ARGS=-Xmx14G robot merge --catalog catalog-v001.xml -i go-edit.obo -o go-merged.ofn; JAVA_OPTS=-Xmx14G relation-graph --ontology-file go-merged.ofn --mode RDF --output-file go-rels.nt --output-subclasses true --reflexive-subclasses false --equivalence-as-subclass false; sed 's/ /\t/' <go-rels.nt | sed 's/ /\t/' | sed 's/ \.$//' >right.facts
     - name: Upload PR facts
       uses: actions/upload-artifact@v2
       with:
@@ -25,7 +25,7 @@ jobs:
       with:
         ref: master
     - name: Run relation-graph
-      run: cd src/ontology; ROBOT_JAVA_ARGS=-Xmx6G robot merge --catalog catalog-v001.xml -i go-edit.obo -o go-merged.ofn; JAVA_OPTS=-Xmx6G relation-graph --ontology-file go-merged.ofn --mode RDF --output-file go-rels.nt --output-subclasses true --reflexive-subclasses false --equivalence-as-subclass false; sed 's/ /\t/' <go-rels.nt | sed 's/ /\t/' | sed 's/ \.$//' >left.facts
+      run: cd src/ontology; ROBOT_JAVA_ARGS=-Xmx14G robot merge --catalog catalog-v001.xml -i go-edit.obo -o go-merged.ofn; JAVA_OPTS=-Xmx14G relation-graph --ontology-file go-merged.ofn --mode RDF --output-file go-rels.nt --output-subclasses true --reflexive-subclasses false --equivalence-as-subclass false; sed 's/ /\t/' <go-rels.nt | sed 's/ /\t/' | sed 's/ \.$//' >left.facts
     - name: Upload PR facts
       uses: actions/upload-artifact@v2
       with:
@@ -38,7 +38,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Create merged ontology
-      run: cd src/ontology; ROBOT_JAVA_ARGS=-Xmx6G robot merge --catalog catalog-v001.xml -i go-edit.obo -o go-merged.ttl; riot --output=ntriples go-merged.ttl | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$//' >ontrdf.facts 
+      run: cd src/ontology; ROBOT_JAVA_ARGS=-Xmx14G robot merge --catalog catalog-v001.xml -i go-edit.obo -o go-merged.ttl; riot --output=ntriples go-merged.ttl | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$//' >ontrdf.facts 
     - name: Upload ontrdf facts
       uses: actions/upload-artifact@v2
       with:

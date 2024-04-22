@@ -60,7 +60,7 @@ http://purl.obolibrary.org/obo/GO_0003167	atrioventricular bundle cell different
 http://purl.obolibrary.org/obo/GO_0060922	atrioventricular node cell differentiation	http://purl.obolibrary.org/obo/CL_1000410	myocyte of atrioventricular node
 http://purl.obolibrary.org/obo/GO_0030221	basophil differentiation	http://purl.obolibrary.org/obo/CL_0000767	basophil
 http://purl.obolibrary.org/obo/GO_0060837	blood vessel endothelial cell differentiation	http://purl.obolibrary.org/obo/CL_0000071	blood vessel endothelial cell
-http://purl.obolibrary.org/obo/GO_0050873	brown fat cell differentiation	http://purl.obolibrary.org/obo/CL_0000449	brown fat cell
+http://purl.obolibrary.org/obo/GO_0050873	brown fat cell differentiation	http://purl.obolibrary.org/obo/CL_0000449	brown adipocyte
 http://purl.obolibrary.org/obo/GO_0060219	camera-type eye photoreceptor cell differentiation	http://purl.obolibrary.org/obo/CL_0010009	camera-type eye photoreceptor cell
 http://purl.obolibrary.org/obo/GO_0060946	cardiac blood vessel endothelial cell differentiation	http://purl.obolibrary.org/obo/CL_0010006	cardiac blood vessel endothelial cell
 http://purl.obolibrary.org/obo/GO_0003348	cardiac endothelial cell differentiation	http://purl.obolibrary.org/obo/CL_0010008	cardiac endothelial cell
@@ -113,7 +113,7 @@ http://purl.obolibrary.org/obo/GO_0048773	erythrophore differentiation	http://pu
 http://purl.obolibrary.org/obo/GO_0021755	eurydendroid cell differentiation	http://purl.obolibrary.org/obo/CL_0000253	eurydendroid cell
 http://purl.obolibrary.org/obo/GO_0160083	exhausted T cell differentiation	http://purl.obolibrary.org/obo/CL_0011025	exhausted T cell
 http://purl.obolibrary.org/obo/GO_0001754	eye photoreceptor cell differentiation	http://purl.obolibrary.org/obo/CL_0000287	eye photoreceptor cell
-http://purl.obolibrary.org/obo/GO_0045444	fat cell differentiation	http://purl.obolibrary.org/obo/CL_0000136	fat cell
+http://purl.obolibrary.org/obo/GO_0045444	fat cell differentiation	http://purl.obolibrary.org/obo/CL_0000136	adipocyte
 http://purl.obolibrary.org/obo/GO_0090077	foam cell differentiation	http://purl.obolibrary.org/obo/CL_0000891	foam cell
 http://purl.obolibrary.org/obo/GO_0002316	follicular B cell differentiation	http://purl.obolibrary.org/obo/CL_0000843	follicular B cell
 http://purl.obolibrary.org/obo/GO_0002268	follicular dendritic cell differentiation	http://purl.obolibrary.org/obo/CL_0000442	follicular dendritic cell
@@ -293,5 +293,5 @@ http://purl.obolibrary.org/obo/GO_0072193	ureter smooth muscle cell differentiat
 http://purl.obolibrary.org/obo/GO_0035886	vascular associated smooth muscle cell differentiation	http://purl.obolibrary.org/obo/CL_0000359	vascular associated smooth muscle cell
 http://purl.obolibrary.org/obo/GO_0060843	venous endothelial cell differentiation	http://purl.obolibrary.org/obo/CL_0002543	vein endothelial cell
 http://purl.obolibrary.org/obo/GO_0060114	vestibular receptor cell differentiation	http://purl.obolibrary.org/obo/CL_0000609	vestibular hair cell
-http://purl.obolibrary.org/obo/GO_0050872	white fat cell differentiation	http://purl.obolibrary.org/obo/CL_0000448	white fat cell
+http://purl.obolibrary.org/obo/GO_0050872	white fat cell differentiation	http://purl.obolibrary.org/obo/CL_0000448	white adipocyte
 http://purl.obolibrary.org/obo/GO_0050936	xanthophore differentiation	http://purl.obolibrary.org/obo/CL_0000430	xanthophore cell

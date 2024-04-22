@@ -217,7 +217,6 @@ GO:0014023	neural rod formation	NCBITaxon:32443	Teleostei
 GO:0015627	type II protein secretion system complex	NCBITaxon:2	Bacteria	
 GO:0015628	protein secretion by the type II secretion system	NCBITaxon:2	Bacteria	
 GO:0016028	rhabdomere	NCBITaxon:50557	Insecta	PMID:28193819
-GO:0198738	cell-cell signaling by wnt	NCBITaxon:33208	Metazoa	
 GO:0016281	eukaryotic translation initiation factor 4F complex	NCBITaxon:2759	Eukaryota	
 GO:0016282	eukaryotic 43S preinitiation complex	NCBITaxon:2759	Eukaryota	
 GO:0016348	imaginal disc-derived leg joint morphogenesis	NCBITaxon:33392	Holometabola	
@@ -772,13 +771,11 @@ GO:0101024	mitotic nuclear membrane organization	NCBITaxon:2759	Eukaryota
 GO:0101026	mitotic nuclear membrane biogenesis	NCBITaxon:2759	Eukaryota	
 GO:0048273	mitogen-activated protein kinase p38 binding	NCBITaxon:33208	Metazoa	
 GO:0086036	regulation of cardiac muscle cell membrane potential	NCBITaxon:33208	Metazoa	
-GO:0015734	taurine transport	NCBITaxon:33208	Metazoa	
 GO:0042412	taurine biosynthetic process	NCBITaxon:33208	Metazoa	
-GO:0050323	taurine dehydrogenase activity	NCBITaxon:33208	Metazoa	
-GO:0031299	taurine-pyruvate aminotransferase activity	NCBITaxon:33208	Metazoa	
-GO:0050322	taurine-2-oxoglutarate transaminase activity	NCBITaxon:33208	Metazoa	
+GO:0050323	taurine dehydrogenase activity	NCBITaxon:2	Bacteria	PMID:15073291
+GO:0031299	taurine-pyruvate aminotransferase activity	NCBITaxon:2	Bacteria	PMID:11082195
+GO:0050322	taurine-2-oxoglutarate transaminase activity	NCBITaxon:2	Bacteria	PMID:16535664
 GO:0062089	regulation of taurine biosynthetic process	NCBITaxon:33208	Metazoa	
-GO:0005369	taurine:sodium symporter activity	NCBITaxon:33208	Metazoa	
 GO:0019452	L-cysteine catabolic process to taurine	NCBITaxon:33208	Metazoa	
 GO:0050325	tauropine dehydrogenase activity	NCBITaxon:33208	Metazoa	
 GO:0103012	ferredoxin-thioredoxin reductase activity	NCBITaxon_Union:0000002	Viridiplantae or Cyanobacteria	
@@ -836,7 +833,7 @@ GO:0045321	leukocyte activation	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0002443	leukocyte mediated immunity	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0050900	leukocyte migration	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0070661	leukocyte proliferation	NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0001909	leukocyte mediated cytotoxicity	NCBITaxon:7742	Vertebrata <Metazoa>    	
+GO:0001909	leukocyte mediated cytotoxicity	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0001776	leukocyte homeostasis	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0043299	leukocyte degranulation	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:7742	Vertebrata <Metazoa>	
@@ -881,7 +878,7 @@ GO:0072487	MSL complex	NCBITaxon:33208	Metazoa
 GO:0042597	periplasmic space	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	PMID:15803654
 GO:0106316	nitrite reductase NADH activity	NCBITaxon:2	Bacteria	
 GO:0008942	nitrite reductase [NAD(P)H] activity	NCBITaxon:2759	Eukaryota	
-GO:0060918	auxin transport	NCBITaxon:33090	Viridiplantae	  
+GO:0060918	auxin transport	NCBITaxon:33090	Viridiplantae	
 GO:2000012	regulation of auxin polar transport	NCBITaxon:33090	Viridiplantae	
 GO:0080161	auxin transmembrane transporter activity	NCBITaxon:33090	Viridiplantae	
 GO:0005793	endoplasmic reticulum-Golgi intermediate compartment	NCBITaxon:2759	Eukaryota	
@@ -893,3 +890,38 @@ GO:0141152	glycerol-3-phosphate dehydrogenase (NAD+) activity	NCBITaxon:2759	Euk
 GO:0047952	glycerol-3-phosphate dehydrogenase [NAD(P)+]	NCBITaxon:2	Bacteria	PMID:28326
 GO:0141153	glycerol-3-phosphate dehydrogenase (NADP+) activity	NCBITaxon:2157	Archaea	PMID:15557260
 GO:0141091	transforming growth factor beta receptor superfamily signaling pathway	NCBITaxon:6072	Eumetazoa	
+GO:0141169	epigenetic 5-methylcytosine DNA demethylation, direct 5-methylcytosine excision pathway	NCBITaxon:33090	Viridiplantae	PMID:31546611
+GO:0072331	signal transduction by p53 class mediator	NCBITaxon:6072	Eumetazoa	
+GO:0042541	hemoglobin biosynthetic process	NCBITaxon:6072	Eumetazoa	
+GO:0032186	cellular bud neck septin ring organization	NCBITaxon:147537	Saccharomycotina	
+GO:0047522	15-oxoprostaglandin 13-oxidase activity	NCBITaxon:6072	Eumetazoa	
+GO:0006693	prostaglandin metabolic process	NCBITaxon:6072	Eumetazoa	
+GO:0071875	adrenergic receptor signaling pathway	NCBITaxon:6072	Eumetazoa	
+GO:0046850	regulation of bone remodeling	NCBITaxon:6072	Eumetazoa	
+GO:0055120	striated muscle dense body	NCBITaxon:6072	Eumetazoa	
+GO:0030097	hemopoiesis	NCBITaxon:6072	Eumetazoa	
+GO:0048168	regulation of neuronal synaptic plasticity	NCBITaxon:6072	Eumetazoa	
+GO:0052907	23S rRNA (adenine(1618)-N(6))-methyltransferase activity	NCBITaxon:Union_0000004	Prokaryota	
+GO:0043292	contractile muscle fiber	NCBITaxon:6072	Eumetazoa	
+GO:0160175	somatic muscle attachment to chitin-based cuticle	NCBITaxon:6656	Arthropoda	
+GO:0001734	mRNA (N6-adenosine)-methyltransferase activity	NCBITaxon:2759	Eukaryota	
+GO:0016120	carotene biosynthetic process	NCBITaxon:33090	Viridiplantae	
+GO:0016605	PML body	NCBITaxon:6072	Eumetazoa	
+GO:0006699	bile acid biosynthetic process	NCBITaxon:6072	Eumetazoa	
+GO:0050870	positive regulation of T cell activation	NCBITaxon:6072	Eumetazoa	
+GO:0043123	positive regulation of canonical NF-kappaB signal transduction	NCBITaxon:6072	Eumetazoa	
+GO:0032727	positive regulation of interferon-alpha production	NCBITaxon:6072	Eumetazoa	
+GO:0032755	positive regulation of interleukin-6 production	NCBITaxon:6072	Eumetazoa	
+GO:0031643	positive regulation of myelination	NCBITaxon:6072	Eumetazoa	
+GO:0032729	positive regulation of type II interferon production	NCBITaxon:6072	Eumetazoa	
+GO:0046850	regulation of bone remodeling	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0060998	regulation of dendritic spine development	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0070324	thyroid hormone binding	NCBITaxon:6072	Eumetazoa	
+GO:0009887	animal organ morphogenesis	NCBITaxon:6072	Eumetazoa	
+GO:0070531	BRCA1-A complex	NCBITaxon:6072	Eumetazoa	
+GO:0031436	BRCA1-BARD1 complex	NCBITaxon:6072	Eumetazoa	
+GO:1990220	GroEL-GroES	NCBITaxon:Union_0000004	Prokaryota	
+GO:0010736	serum response element binding	NCBITaxon:6072	Eumetazoa	
+GO:0009887	animal organ morphogenesis	NCBITaxon:6072	Eumetazoa	
+GO:0010236	plastoquinone biosynthetic process	NCBITaxon:33090	Viridiplantae	
+GO:0051960	regulation of nervous system development	NCBITaxon:6072	Eumetazoa	
