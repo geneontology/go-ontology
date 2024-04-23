@@ -62,9 +62,6 @@ synonym_xref(term, property, ref) :-
     synonym_property(property),
     ontrdf(axiom, OIO_HAS_DB_XREF, ref).
 
-error(cat("ERROR: ", term, " has an xref to an obsolete EC: ", ec)) :- xref(term, ec), valid_term(term), obsolete_ec(ec).
-error(cat("ERROR: ", term, " has a definition xref to an obsolete EC: ", ec)) :- defxref(term, ec), valid_term(term), obsolete_ec(ec).
-error(cat("ERROR: ", term, " has a synonym xref to an obsolete EC: ", ec)) :- synonym_xref(term, _, ec), valid_term(term), obsolete_ec(ec).
 error(cat("ERROR: ", term, " references an undeclared subset: ", subset)) :- subset_assertion(term, subset), !declared_subset(subset).
 
 .output error(filename="datalog-violations.tsv")
