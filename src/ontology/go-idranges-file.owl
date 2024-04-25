@@ -92,7 +92,7 @@ EquivalentTo: xsd:integer[>= 110001 , <= 120000]
 
 Datatype: idrange:19
 Annotations: allocatedto: "Karen Christie"
-EquivalentTo: xsd:integer[>= 120001 , <= 130000]
+EquivalentTo: xsd:integer[>= 120001 , <= 120499]
 
 Datatype: idrange:20
 Annotations: allocatedto: "Paul Thomas"
@@ -101,6 +101,26 @@ EquivalentTo: xsd:integer[>= 130001 , <= 140000]
 Datatype: idrange:21
 Annotations: allocatedto: "Pascale Gaudet"
 EquivalentTo: xsd:integer[>= 140001 , <= 150000]
+
+Datatype: idrange:22
+Annotations: allocatedto: "Barbara Kramarz"
+EquivalentTo: xsd:integer[>= 150001 , <= 160000]
+
+Datatype: idrange:23
+Annotations: allocatedto: "Raymond Lee"
+EquivalentTo: xsd:integer[>= 160001 , <= 170000]
+
+Datatype: idrange:24
+Annotations: allocatedto: "Edith Wong"
+EquivalentTo: xsd:integer[>= 170001 , <= 180000]
+
+Datatype: idrange:25
+Annotations: allocatedto: "Val Wood"
+EquivalentTo: xsd:integer[>= 180001 , <= 190000]
+
+Datatype: idrange:26
+Annotations: allocatedto: "Steven Marygold"
+EquivalentTo: xsd:integer[>= 120500 , <= 130000]
 
 Datatype: idrange:90
 Annotations: allocatedto: "Automatic Term Generation"
@@ -118,18 +138,3 @@ Datatype: idrange:93
 Annotations: allocatedto: "TermGenie, historic"
 EquivalentTo: xsd:integer[>= 2000000 , <= 3000000]
 
-Datatype: idrange:22
-Annotations: allocatedto: "Barbara Kramarz"
-EquivalentTo: xsd:integer[>= 150001 , <= 160000]
-
-Datatype: idrange:23
-Annotations: allocatedto: "Raymond Lee"
-EquivalentTo: xsd:integer[>= 160001 , <= 170000]
-
-Datatype: idrange:24
-Annotations: allocatedto: "Edith Wong"
-EquivalentTo: xsd:integer[>= 170001 , <= 180000]
-
-Datatype: idrange:25
-Annotations: allocatedto: "Val Wood"
-EquivalentTo: xsd:integer[>= 180001 , <= 190000]
