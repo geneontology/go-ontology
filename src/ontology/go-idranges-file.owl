@@ -92,7 +92,7 @@ EquivalentTo: xsd:integer[>= 110001 , <= 120000]
 
 Datatype: idrange:19
 Annotations: allocatedto: "Karen Christie"
-EquivalentTo: xsd:integer[>= 120001 , <= 130000]
+EquivalentTo: xsd:integer[>= 120001 , <= 120499]
 
 Datatype: idrange:20
 Annotations: allocatedto: "Paul Thomas"
