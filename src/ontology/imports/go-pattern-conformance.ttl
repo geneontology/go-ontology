@@ -39504,6 +39504,9 @@
 <http://purl.obolibrary.org/obo/GO_0160177> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 
 
+<http://purl.obolibrary.org/obo/GO_0160181> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
+
+
 <http://purl.obolibrary.org/obo/GO_0170033> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
 
 
