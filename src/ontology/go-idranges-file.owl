@@ -120,7 +120,7 @@ EquivalentTo: xsd:integer[>= 180001 , <= 190000]
 
 Datatype: idrange:26
 Annotations: allocatedto: "Steven Marygold"
-EquivalentTo: xsd:integer[>= 120025 , <= 130000]
+EquivalentTo: xsd:integer[>= 120500 , <= 130000]
 
 Datatype: idrange:90
 Annotations: allocatedto: "Automatic Term Generation"
