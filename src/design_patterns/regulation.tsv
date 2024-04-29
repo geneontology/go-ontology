@@ -90,7 +90,6 @@ http://purl.obolibrary.org/obo/GO_1903624	regulation of DNA catabolic process	ht
 http://purl.obolibrary.org/obo/GO_2000001	regulation of DNA damage checkpoint	http://purl.obolibrary.org/obo/GO_0000077	DNA damage checkpoint signaling
 http://purl.obolibrary.org/obo/GO_0043516	regulation of DNA damage response, signal transduction by p53 class mediator	http://purl.obolibrary.org/obo/GO_0030330	DNA damage response, signal transduction by p53 class mediator
 http://purl.obolibrary.org/obo/GO_1902162	regulation of DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator	http://purl.obolibrary.org/obo/GO_0006978	DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator
-http://purl.obolibrary.org/obo/GO_1901535	regulation of DNA demethylation	http://purl.obolibrary.org/obo/GO_0080111	DNA demethylation
 http://purl.obolibrary.org/obo/GO_1903775	regulation of DNA double-strand break processing	http://purl.obolibrary.org/obo/GO_0000729	DNA double-strand break processing
 http://purl.obolibrary.org/obo/GO_1905462	regulation of DNA duplex unwinding	http://purl.obolibrary.org/obo/GO_0032508	DNA duplex unwinding
 http://purl.obolibrary.org/obo/GO_0032875	regulation of DNA endoreduplication	http://purl.obolibrary.org/obo/GO_0042023	DNA endoreduplication
