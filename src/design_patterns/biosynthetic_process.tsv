@@ -105,7 +105,7 @@ http://purl.obolibrary.org/obo/GO_0019306	GDP-D-rhamnose biosynthetic process	ht
 http://purl.obolibrary.org/obo/GO_0042350	GDP-L-fucose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57984	GDP-L-fucose(2-)
 http://purl.obolibrary.org/obo/GO_0033472	GDP-L-galactose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58355	GDP-L-galactose(2-)
 http://purl.obolibrary.org/obo/GO_0019347	GDP-alpha-D-mannosylchitobiosyldiphosphodolichol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_21165	GDP-alpha-D-mannosylchitobiosyldiphosphodolichol
-http://purl.obolibrary.org/obo/GO_0009298	GDP-mannose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_21168	GDP-mannose
+http://purl.obolibrary.org/obo/GO_0009298	GDP-mannose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57527	GDP-alpha-D-mannose(2-)
 http://purl.obolibrary.org/obo/GO_0006177	GMP biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58115	guanosine 5'-monophosphate(2-)
 http://purl.obolibrary.org/obo/GO_0006506	GPI anchor biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_24410	glycosylphosphatidylinositol
 http://purl.obolibrary.org/obo/GO_0006183	GTP biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_37565	GTP(4-)
