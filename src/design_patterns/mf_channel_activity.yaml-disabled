@@ -21,7 +21,7 @@ name:
 
 
 def:
-  text: "Enables the energy-independent facilitated diffusion of %s from one side of a membrane to the other, mediated by passage of a solute through a transmembrane aqueous pore or channel. Stereospecificity is not exhibited but this transport may be specific for a particular molecular species or class of molecules."
+  text: "Enables the energy-independent facilitated diffusion of %s through a transmembrane aqueous pore or channel."
   xrefs: def_xrefs
 
 # Boilerplate - don't edit
