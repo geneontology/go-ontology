@@ -2295,7 +2295,7 @@ http://purl.obolibrary.org/obo/GO_0062162	positive regulation of pyocyanine bios
 http://purl.obolibrary.org/obo/GO_0045985	positive regulation of pyrimidine nucleobase metabolic process	http://purl.obolibrary.org/obo/GO_0006206	pyrimidine nucleobase metabolic process
 http://purl.obolibrary.org/obo/GO_1900399	positive regulation of pyrimidine nucleotide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006221	pyrimidine nucleotide biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903931	positive regulation of pyrimidine-containing compound salvage	http://purl.obolibrary.org/obo/GO_0008655	pyrimidine-containing compound salvage
-http://purl.obolibrary.org/obo/GO_0140639	positive regulation of pyroptosis	http://purl.obolibrary.org/obo/GO_0070269	pyroptosis
+http://purl.obolibrary.org/obo/GO_0140639	positive regulation of pyroptotic inflammatory response	http://purl.obolibrary.org/obo/GO_0070269	pyroptotic inflammatory response
 http://purl.obolibrary.org/obo/GO_1903168	positive regulation of pyrroline-5-carboxylate reductase activity	http://purl.obolibrary.org/obo/GO_0004735	pyrroline-5-carboxylate reductase activity
 http://purl.obolibrary.org/obo/GO_1904184	positive regulation of pyruvate dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004738	pyruvate dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_1903304	positive regulation of pyruvate kinase activity	http://purl.obolibrary.org/obo/GO_0004743	pyruvate kinase activity

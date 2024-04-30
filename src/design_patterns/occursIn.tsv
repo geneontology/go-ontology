@@ -64,7 +64,7 @@ http://purl.obolibrary.org/obo/GO_0002184	cytoplasmic translational termination	
 http://purl.obolibrary.org/obo/GO_0016482	cytosolic transport	http://purl.obolibrary.org/obo/GO_0005829	cytosol	http://purl.obolibrary.org/obo/GO_0006810	transport
 http://purl.obolibrary.org/obo/GO_0061475	cytosolic valyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005829	cytosol	http://purl.obolibrary.org/obo/GO_0006438	valyl-tRNA aminoacylation
 http://purl.obolibrary.org/obo/GO_0043316	cytotoxic T cell degranulation	http://purl.obolibrary.org/obo/CL_0000910	cytotoxic T cell	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
-http://purl.obolibrary.org/obo/GO_1902483	cytotoxic T cell pyroptotic process	http://purl.obolibrary.org/obo/CL_0000910	cytotoxic T cell	http://purl.obolibrary.org/obo/GO_0070269	pyroptosis
+http://purl.obolibrary.org/obo/GO_1902483	cytotoxic T cell pyroptotic cell death	http://purl.obolibrary.org/obo/CL_0000910	cytotoxic T cell	http://purl.obolibrary.org/obo/GO_0141201	pyroptotic cell death
 http://purl.obolibrary.org/obo/GO_0002468	dendritic cell antigen processing and presentation	http://purl.obolibrary.org/obo/CL_0000451	dendritic cell	http://purl.obolibrary.org/obo/GO_0019882	antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_0097048	dendritic cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000451	dendritic cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0036514	dopaminergic neuron axon guidance	http://purl.obolibrary.org/obo/CL_0000700	dopaminergic neuron	http://purl.obolibrary.org/obo/GO_0007411	axon guidance

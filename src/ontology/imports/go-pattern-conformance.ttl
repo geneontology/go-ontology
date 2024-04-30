@@ -9664,9 +9664,6 @@
 <http://purl.obolibrary.org/obo/GO_0015698> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/chemical_transport.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0015699> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/chemical_transport.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0015700> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/chemical_transport.yaml> .
 
 
