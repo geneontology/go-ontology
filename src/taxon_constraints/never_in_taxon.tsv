@@ -384,8 +384,8 @@ GO:0061512	protein localization to cilium	NCBITaxon:3378	Gnetales
 GO:0061512	protein localization to cilium	NCBITaxon:3398	Magnoliophyta	
 GO:0061512	protein localization to cilium	NCBITaxon:4890	Ascomycota	
 GO:0061512	protein localization to cilium	NCBITaxon:5782	Dictyostelium	
-GO:0005618	cell wall	NCBITaxon:33208 	Metazoa	
-GO:0090078 	smooth muscle derived foam cell differentiation	NCBITaxon:4751	Fungi	
+GO:0005618	cell wall	NCBITaxon:33208	Metazoa	
+GO:0090078	smooth muscle derived foam cell differentiation	NCBITaxon:4751	Fungi	
 GO:0038065	collagen-activated signaling pathway	NCBITaxon:4751	Fungi	
 GO:0038063	collagen-activated tyrosine kinase receptor signaling pathway	NCBITaxon:4751	Fungi	
 GO:0031550	positive regulation of brain-derived neurotrophic factor receptor signaling pathway	NCBITaxon:4751	Fungi	
@@ -413,8 +413,8 @@ GO:1902217	erythrocyte apoptotic process	NCBITaxon:4751	Fungi
 GO:0097700	vascular endothelial cell response to laminar fluid shear stress	NCBITaxon:4751	Fungi	
 GO:0097706	vascular endothelial cell response to oscillatory fluid shear stress	NCBITaxon:4751	Fungi	
 GO:0097705	vascular endothelial cell response to pulsatile fluid shear stress	NCBITaxon:4751	Fungi	
-GO:0046716 	muscle cell cellular homeostasis	NCBITaxon:4751	Fungi	
-GO:0014850 	response to muscle activity	NCBITaxon:4751	Fungi	
+GO:0046716	muscle cell cellular homeostasis	NCBITaxon:4751	Fungi	
+GO:0014850	response to muscle activity	NCBITaxon:4751	Fungi	
 GO:0007164	establishment of tissue polarity	NCBITaxon:4751	Fungi	
 GO:0090698	post-embryonic plant morphogenesis	NCBITaxon:4751	Fungi	
 GO:0031547	brain-derived neurotrophic factor receptor signaling pathway	NCBITaxon:4751	Fungi	
@@ -514,7 +514,7 @@ GO:0055100	adiponectin binding	NCBITaxon:4751	Fungi
 GO:0038100	nodal binding	NCBITaxon:4751	Fungi	
 GO:0140223	general transcription initiation factor activity	NCBITaxon:2	Bacteria	
 GO:0006915	apoptotic process	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0006915 	apoptotic process	NCBITaxon:2	Bacteria	
+GO:0006915	apoptotic process	NCBITaxon:2	Bacteria	
 GO:0001726	ruffle	NCBITaxon:2	Bacteria	
 GO:0001726	ruffle	NCBITaxon:4751	Fungi	
 GO:0001726	ruffle	NCBITaxon:33090	Viridiplantae	
@@ -529,9 +529,9 @@ GO:0015411	ATPase-coupled taurine transporter activity	NCBITaxon:4751	Fungi
 GO:0000011	vacuole inheritance	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0071563	Myo2p-Vac17p-Vac8p transport complex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0031911	cytoproct	NCBITaxon:33208	Metazoa	
-GO:0044297	cell body	NCBITaxon:4890 	Ascomycota	
-GO:0045180	basal cortex	NCBITaxon:4890 	Ascomycota	
-GO:0045179	apical cortex	NCBITaxon:4890 	Ascomycota	
+GO:0044297	cell body	NCBITaxon:4890	Ascomycota	
+GO:0045180	basal cortex	NCBITaxon:4890	Ascomycota	
+GO:0045179	apical cortex	NCBITaxon:4890	Ascomycota	
 GO:0005764	lysosome	NCBITaxon:4751	Fungi	
 GO:0043202	lysosomal lumen	NCBITaxon:4751	Fungi	
 GO:0005765	lysosomal membrane	NCBITaxon:4751	Fungi	
@@ -589,8 +589,8 @@ GO:0038055	BMP secretion	NCBITaxon:4751	Fungi
 GO:0038055	BMP secretion	NCBITaxon:2	Bacteria	
 GO:0038055	BMP secretion	NCBITaxon:2157	Archaea	
 GO:0020022	acidocalcisome	NCBITaxon:4890	Ascomycota	
-GO:0042246 	tissue regeneration	NCBITaxon:4751	Fungi	
-GO:0060250 	germ-line stem-cell niche homeostasis	NCBITaxon:4751	Fungi	
+GO:0042246	tissue regeneration	NCBITaxon:4751	Fungi	
+GO:0060250	germ-line stem-cell niche homeostasis	NCBITaxon:4751	Fungi	
 GO:0035658	Mon1-Ccz1 complex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0048863	stem cell differentiation	NCBITaxon:4751	Fungi	
 GO:0003365	establishment of cell polarity involved in ameboidal cell migration	NCBITaxon:4751	Fungi	
@@ -606,5 +606,51 @@ GO:0030511	positive regulation of transforming growth factor beta receptor signa
 GO:0030334	regulation of cell migration	NCBITaxon:4890	Ascomycota	
 GO:0060818	inactivation of paternal X chromosome by genomic imprinting	NCBITaxon:9606	Homo sapiens	
 GO:0042566	hydrogenosome	NCBITaxon:4890	Ascomycota	
-GO:0042566	hydrogenosome	NCBITaxon:33090	Viridiplantae	 
+GO:0042566	hydrogenosome	NCBITaxon:33090	Viridiplantae	
 GO:0016442	RISC complex	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0007041	lysosomal transport	NCBITaxon:4751	Fungi	
+GO:0007040	lysosome organization	NCBITaxon:4751	Fungi	
+GO:0009725	response to hormone	NCBITaxon:4751	Fungi	
+GO:0120020	cholesterol transfer activity	NCBITaxon:4751	Fungi	
+GO:0015485	cholesterol binding activity	NCBITaxon:4751	Fungi	
+GO:0009755	hormone-mediated signaling pathway	NCBITaxon:4751	Fungi	
+GO:0016444	somatic cell DNA recombination	NCBITaxon:4751	Fungi	
+GO:0097581	lamellipodium organization	NCBITaxon:4751	Fungi	
+GO:1902017	regulation of cilium assembly	NCBITaxon:4751	Fungi	
+GO:0051489	regulation of filopodium assembly	NCBITaxon:4751	Fungi	
+GO:0030027	lamellipodium	NCBITaxon:4751	Fungi	
+GO:2000036	regulation of stem cell population maintenance	NCBITaxon:4751	Fungi	
+GO:0015127	bilirubin transmembrane transporter activity	NCBITaxon:4751	Fungi	
+GO:0015723	bilirubin transport	NCBITaxon:4751	Fungi	
+GO:0015039	NADPH-adrenodoxin reductase activity	NCBITaxon:4751	Fungi	
+GO:0045335	phagocytic vesicle	NCBITaxon:4751	Fungi	
+GO:0050870	regulation of immune system process	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0050870	regulation of immune system process	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0001817	regulation of cytokine production	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0001817	regulation of cytokine production	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0042417	dopamine metabolic process	NCBITaxon:4751	Fungi	
+GO:0030111	regulation of Wnt signaling pathway	NCBITaxon:4751	Fungi	
+GO:0043045	epigenetic programming of gene expression	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0060400	negative regulation of growth hormone receptor signaling pathway	NCBITaxon:4751	Fungi	
+GO:2000036	regulation of stem cell population maintenance	NCBITaxon:4751	Fungi	
+GO:0009725	response to hormone	NCBITaxon:4890	Ascomycota	
+GO:0009652	thigmotropism	NCBITaxon:4890	Ascomycota	
+GO:0048870	cell motility	NCBITaxon:4890	Ascomycota	
+GO:0051489	regulation of filopodium assembly	NCBITaxon:4890	Ascomycota	
+GO:0010591	regulation of lamellipodium assembly	NCBITaxon:4890	Ascomycota	
+GO:0051490	negative regulation of filopodium assembly	NCBITaxon:4890	Ascomycota	
+GO:0043066	negative regulation of apoptotic process	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0042981	regulation of apoptotic process	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:2001235 	positive regulation of apoptotic signaling pathway	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:1903298 	negative regulation of hypoxia-induced intrinsic apoptotic signaling pathway	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0050865	regulation of cell activation	NCBITaxon:4890	Ascomycota	
+GO:0070877	microprocessor complex	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:2000636	positive regulation of primary miRNA processing	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0009649	entrainment of circadian clock	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:1990428	miRNA transport	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:2000630	positive regulation of miRNA metabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0035196	miRNA processing	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0035198	miRNA binding	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0031519	PcG protein complex	NCBITaxon:4890	Ascomycota	
+GO:0097271	protein localization to bud neck	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0097271	protein localization to bud neck	NCBITaxon:33208	Metazoa	

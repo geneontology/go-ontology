@@ -74,7 +74,6 @@ http://purl.obolibrary.org/obo/GO_1903626	positive regulation of DNA catabolic p
 http://purl.obolibrary.org/obo/GO_2000003	positive regulation of DNA damage checkpoint	http://purl.obolibrary.org/obo/GO_0000077	DNA damage checkpoint signaling
 http://purl.obolibrary.org/obo/GO_0043517	positive regulation of DNA damage response, signal transduction by p53 class mediator	http://purl.obolibrary.org/obo/GO_0030330	DNA damage response, signal transduction by p53 class mediator
 http://purl.obolibrary.org/obo/GO_1902164	positive regulation of DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator	http://purl.obolibrary.org/obo/GO_0006978	DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator
-http://purl.obolibrary.org/obo/GO_1901537	positive regulation of DNA demethylation	http://purl.obolibrary.org/obo/GO_0080111	DNA demethylation
 http://purl.obolibrary.org/obo/GO_1905464	positive regulation of DNA duplex unwinding	http://purl.obolibrary.org/obo/GO_0032508	DNA duplex unwinding
 http://purl.obolibrary.org/obo/GO_0032877	positive regulation of DNA endoreduplication	http://purl.obolibrary.org/obo/GO_0042023	DNA endoreduplication
 http://purl.obolibrary.org/obo/GO_1905776	positive regulation of DNA helicase activity	http://purl.obolibrary.org/obo/GO_0003678	DNA helicase activity
@@ -143,6 +142,8 @@ http://purl.obolibrary.org/obo/GO_1903200	positive regulation of L-dopa decarbox
 http://purl.obolibrary.org/obo/GO_0002038	positive regulation of L-glutamate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098712	L-glutamate import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0062134	positive regulation of L-glutamine biosynthetic process	http://purl.obolibrary.org/obo/GO_1901704	L-glutamine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1901036	positive regulation of L-glutamine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903803	L-glutamine import across plasma membrane
+http://purl.obolibrary.org/obo/GO_2001278	positive regulation of L-leucine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009098	L-leucine biosynthetic process
+http://purl.obolibrary.org/obo/GO_1905534	positive regulation of L-leucine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903801	L-leucine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905010	positive regulation of L-lysine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0097639	L-lysine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905626	positive regulation of L-methionine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905544	L-methionine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905737	positive regulation of L-proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1904271	L-proline import across plasma membrane
@@ -172,7 +173,6 @@ http://purl.obolibrary.org/obo/GO_0051142	positive regulation of NK T cell proli
 http://purl.obolibrary.org/obo/GO_1900227	positive regulation of NLRP3 inflammasome complex assembly	http://purl.obolibrary.org/obo/GO_0044546	NLRP3 inflammasome complex assembly
 http://purl.obolibrary.org/obo/GO_1904783	positive regulation of NMDA glutamate receptor activity	http://purl.obolibrary.org/obo/GO_0004972	NMDA glutamate receptor activity
 http://purl.obolibrary.org/obo/GO_0045747	positive regulation of Notch signaling pathway	http://purl.obolibrary.org/obo/GO_0007219	Notch signaling pathway
-http://purl.obolibrary.org/obo/GO_0035481	positive regulation of Notch signaling pathway involved in heart induction	http://purl.obolibrary.org/obo/GO_0003137	Notch signaling pathway involved in heart induction
 http://purl.obolibrary.org/obo/GO_1903408	positive regulation of P-type sodium:potassium-exchanging transporter activity	http://purl.obolibrary.org/obo/GO_0005391	P-type sodium:potassium-exchanging transporter activity
 http://purl.obolibrary.org/obo/GO_1903899	positive regulation of PERK-mediated unfolded protein response	http://purl.obolibrary.org/obo/GO_0036499	PERK-mediated unfolded protein response
 http://purl.obolibrary.org/obo/GO_0045678	positive regulation of R7 cell differentiation	http://purl.obolibrary.org/obo/GO_0045466	R7 cell differentiation
@@ -248,7 +248,6 @@ http://purl.obolibrary.org/obo/GO_0106280	positive regulation of UDP-N-acetylglu
 http://purl.obolibrary.org/obo/GO_1904241	positive regulation of VCP-NPL4-UFD1 AAA ATPase complex assembly	http://purl.obolibrary.org/obo/GO_1904210	VCP-NPL4-UFD1 AAA ATPase complex assembly
 http://purl.obolibrary.org/obo/GO_0061357	positive regulation of Wnt protein secretion	http://purl.obolibrary.org/obo/GO_0061355	Wnt protein secretion
 http://purl.obolibrary.org/obo/GO_0030177	positive regulation of Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0016055	Wnt signaling pathway
-http://purl.obolibrary.org/obo/GO_2000055	positive regulation of Wnt signaling pathway involved in dorsal/ventral axis specification	http://purl.obolibrary.org/obo/GO_0044332	Wnt signaling pathway involved in dorsal/ventral axis specification
 http://purl.obolibrary.org/obo/GO_0045813	positive regulation of Wnt signaling pathway, calcium modulating pathway	http://purl.obolibrary.org/obo/GO_0007223	Wnt signaling pathway, calcium modulating pathway
 http://purl.obolibrary.org/obo/GO_2000096	positive regulation of Wnt signaling pathway, planar cell polarity pathway	http://purl.obolibrary.org/obo/GO_0060071	Wnt signaling pathway, planar cell polarity pathway
 http://purl.obolibrary.org/obo/GO_1904712	positive regulation of Wnt-Frizzled-LRP5/6 complex assembly	http://purl.obolibrary.org/obo/GO_1904701	Wnt-Frizzled-LRP5/6 complex assembly
@@ -443,6 +442,7 @@ http://purl.obolibrary.org/obo/GO_1900642	positive regulation of austinol biosyn
 http://purl.obolibrary.org/obo/GO_1904094	positive regulation of autophagic cell death	http://purl.obolibrary.org/obo/GO_0048102	autophagic cell death
 http://purl.obolibrary.org/obo/GO_2000786	positive regulation of autophagosome assembly	http://purl.obolibrary.org/obo/GO_0000045	autophagosome assembly
 http://purl.obolibrary.org/obo/GO_1901098	positive regulation of autophagosome maturation	http://purl.obolibrary.org/obo/GO_0097352	autophagosome maturation
+http://purl.obolibrary.org/obo/GO_0160177	positive regulation of autophagosome-lysosome fusion	http://purl.obolibrary.org/obo/GO_0061909	autophagosome-lysosome fusion
 http://purl.obolibrary.org/obo/GO_0010508	positive regulation of autophagy	http://purl.obolibrary.org/obo/GO_0006914	autophagy
 http://purl.obolibrary.org/obo/GO_1903599	positive regulation of autophagy of mitochondrion	http://purl.obolibrary.org/obo/GO_0000422	autophagy of mitochondrion
 http://purl.obolibrary.org/obo/GO_0010601	positive regulation of auxin biosynthetic process	http://purl.obolibrary.org/obo/GO_0009851	auxin biosynthetic process
@@ -548,8 +548,6 @@ http://purl.obolibrary.org/obo/GO_1903281	positive regulation of calcium:sodium 
 http://purl.obolibrary.org/obo/GO_1901183	positive regulation of camalexin biosynthetic process	http://purl.obolibrary.org/obo/GO_0010120	camalexin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0043123	positive regulation of canonical NF-kappaB signal transduction	http://purl.obolibrary.org/obo/GO_0007249	canonical NF-kappaB signal transduction
 http://purl.obolibrary.org/obo/GO_0090263	positive regulation of canonical Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0060070	canonical Wnt signaling pathway
-http://purl.obolibrary.org/obo/GO_2000081	positive regulation of canonical Wnt signaling pathway involved in controlling type B pancreatic cell proliferation	http://purl.obolibrary.org/obo/GO_0044343	canonical Wnt signaling pathway involved in regulation of type B pancreatic cell proliferation
-http://purl.obolibrary.org/obo/GO_0072381	positive regulation of canonical Wnt signaling pathway involved in neural crest cell differentiation	http://purl.obolibrary.org/obo/GO_0044335	canonical Wnt signaling pathway involved in neural crest cell differentiation
 http://purl.obolibrary.org/obo/GO_1903676	positive regulation of cap-dependent translational initiation	http://purl.obolibrary.org/obo/GO_0002191	cap-dependent translational initiation
 http://purl.obolibrary.org/obo/GO_1903679	positive regulation of cap-independent translational initiation	http://purl.obolibrary.org/obo/GO_0002190	cap-independent translational initiation
 http://purl.obolibrary.org/obo/GO_1901915	positive regulation of capsule organization	http://purl.obolibrary.org/obo/GO_0045230	capsule organization
@@ -1168,7 +1166,7 @@ http://purl.obolibrary.org/obo/GO_0031948	positive regulation of glucocorticoid 
 http://purl.obolibrary.org/obo/GO_0031951	positive regulation of glucocorticoid catabolic process	http://purl.obolibrary.org/obo/GO_0006713	glucocorticoid catabolic process
 http://purl.obolibrary.org/obo/GO_1900171	positive regulation of glucocorticoid mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0043402	glucocorticoid mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0031945	positive regulation of glucocorticoid metabolic process	http://purl.obolibrary.org/obo/GO_0008211	glucocorticoid metabolic process
-http://purl.obolibrary.org/obo/GO_2000324	positive regulation of glucocorticoid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	glucocorticoid receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_2000324	positive regulation of glucocorticoid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	intracellular glucocorticoid receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_2000851	positive regulation of glucocorticoid secretion	http://purl.obolibrary.org/obo/GO_0035933	glucocorticoid secretion
 http://purl.obolibrary.org/obo/GO_0033133	positive regulation of glucokinase activity	http://purl.obolibrary.org/obo/GO_0004340	glucokinase activity
 http://purl.obolibrary.org/obo/GO_2000908	positive regulation of glucomannan catabolic process	http://purl.obolibrary.org/obo/GO_2000884	glucomannan catabolic process
@@ -1343,7 +1341,7 @@ http://purl.obolibrary.org/obo/GO_0045609	positive regulation of inner ear audit
 http://purl.obolibrary.org/obo/GO_2000982	positive regulation of inner ear receptor cell differentiation	http://purl.obolibrary.org/obo/GO_0060113	inner ear receptor cell differentiation
 http://purl.obolibrary.org/obo/GO_1903797	positive regulation of inorganic anion transmembrane transport	http://purl.obolibrary.org/obo/GO_0098661	inorganic anion transmembrane transport
 http://purl.obolibrary.org/obo/GO_0035342	positive regulation of inosine transport	http://purl.obolibrary.org/obo/GO_0035340	inosine transport
-http://purl.obolibrary.org/obo/GO_0031587	positive regulation of inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity	http://purl.obolibrary.org/obo/GO_0005220	inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity
+http://purl.obolibrary.org/obo/GO_0031587	positive regulation of inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity	http://purl.obolibrary.org/obo/GO_0005220	inositol 1,4,5-trisphosphate-gated calcium channel activity
 http://purl.obolibrary.org/obo/GO_1900090	positive regulation of inositol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006021	inositol biosynthetic process
 http://purl.obolibrary.org/obo/GO_0060732	positive regulation of inositol phosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_0032958	inositol phosphate biosynthetic process
 http://purl.obolibrary.org/obo/GO_0032962	positive regulation of inositol trisphosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_0032959	inositol trisphosphate biosynthetic process
@@ -1490,8 +1488,6 @@ http://purl.obolibrary.org/obo/GO_1905623	positive regulation of leaf developmen
 http://purl.obolibrary.org/obo/GO_1900057	positive regulation of leaf senescence	http://purl.obolibrary.org/obo/GO_0010150	leaf senescence
 http://purl.obolibrary.org/obo/GO_2001111	positive regulation of lens epithelial cell proliferation	http://purl.obolibrary.org/obo/GO_0097166	lens epithelial cell proliferation
 http://purl.obolibrary.org/obo/GO_1902748	positive regulation of lens fiber cell differentiation	http://purl.obolibrary.org/obo/GO_0070306	lens fiber cell differentiation
-http://purl.obolibrary.org/obo/GO_2001278	positive regulation of leucine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009098	leucine biosynthetic process
-http://purl.obolibrary.org/obo/GO_1905534	positive regulation of leucine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098713	leucine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0048777	positive regulation of leucophore differentiation	http://purl.obolibrary.org/obo/GO_0048772	leucophore differentiation
 http://purl.obolibrary.org/obo/GO_0002696	positive regulation of leukocyte activation	http://purl.obolibrary.org/obo/GO_0045321	leukocyte activation
 http://purl.obolibrary.org/obo/GO_1904999	positive regulation of leukocyte adhesion to arterial endothelial cell	http://purl.obolibrary.org/obo/GO_0061757	leukocyte adhesion to arterial endothelial cell
@@ -1914,7 +1910,6 @@ http://purl.obolibrary.org/obo/GO_1904407	positive regulation of nitric oxide me
 http://purl.obolibrary.org/obo/GO_0141150	positive regulation of nitric oxide-cGMP mediated signal transduction	http://purl.obolibrary.org/obo/GO_0038060	nitric oxide-cGMP-mediated signaling
 http://purl.obolibrary.org/obo/GO_0051000	positive regulation of nitric-oxide synthase activity	http://purl.obolibrary.org/obo/GO_0004517	nitric-oxide synthase activity
 http://purl.obolibrary.org/obo/GO_0051770	positive regulation of nitric-oxide synthase biosynthetic process	http://purl.obolibrary.org/obo/GO_0051767	nitric-oxide synthase biosynthetic process
-http://purl.obolibrary.org/obo/GO_0051173	positive regulation of nitrogen compound metabolic process	http://purl.obolibrary.org/obo/GO_0006807	nitrogen compound metabolic process
 http://purl.obolibrary.org/obo/GO_1903316	positive regulation of nitrogen cycle metabolic process	http://purl.obolibrary.org/obo/GO_0071941	nitrogen cycle metabolic process
 http://purl.obolibrary.org/obo/GO_0045848	positive regulation of nitrogen utilization	http://purl.obolibrary.org/obo/GO_0019740	nitrogen utilization
 http://purl.obolibrary.org/obo/GO_1905260	positive regulation of nitrosative stress-induced intrinsic apoptotic signaling pathway	http://purl.obolibrary.org/obo/GO_1990442	intrinsic apoptotic signaling pathway in response to nitrosative stress
@@ -2300,7 +2295,7 @@ http://purl.obolibrary.org/obo/GO_0062162	positive regulation of pyocyanine bios
 http://purl.obolibrary.org/obo/GO_0045985	positive regulation of pyrimidine nucleobase metabolic process	http://purl.obolibrary.org/obo/GO_0006206	pyrimidine nucleobase metabolic process
 http://purl.obolibrary.org/obo/GO_1900399	positive regulation of pyrimidine nucleotide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006221	pyrimidine nucleotide biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903931	positive regulation of pyrimidine-containing compound salvage	http://purl.obolibrary.org/obo/GO_0008655	pyrimidine-containing compound salvage
-http://purl.obolibrary.org/obo/GO_0140639	positive regulation of pyroptosis	http://purl.obolibrary.org/obo/GO_0070269	pyroptosis
+http://purl.obolibrary.org/obo/GO_0140639	positive regulation of pyroptotic inflammatory response	http://purl.obolibrary.org/obo/GO_0070269	pyroptotic inflammatory response
 http://purl.obolibrary.org/obo/GO_1903168	positive regulation of pyrroline-5-carboxylate reductase activity	http://purl.obolibrary.org/obo/GO_0004735	pyrroline-5-carboxylate reductase activity
 http://purl.obolibrary.org/obo/GO_1904184	positive regulation of pyruvate dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004738	pyruvate dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_1903304	positive regulation of pyruvate kinase activity	http://purl.obolibrary.org/obo/GO_0004743	pyruvate kinase activity
@@ -2364,7 +2359,6 @@ http://purl.obolibrary.org/obo/GO_2001025	positive regulation of response to dru
 http://purl.obolibrary.org/obo/GO_1905898	positive regulation of response to endoplasmic reticulum stress	http://purl.obolibrary.org/obo/GO_0034976	response to endoplasmic reticulum stress
 http://purl.obolibrary.org/obo/GO_1901418	positive regulation of response to ethanol	http://purl.obolibrary.org/obo/GO_0045471	response to ethanol
 http://purl.obolibrary.org/obo/GO_0032103	positive regulation of response to external stimulus	http://purl.obolibrary.org/obo/GO_0009605	response to external stimulus
-http://purl.obolibrary.org/obo/GO_0032106	positive regulation of response to extracellular stimulus	http://purl.obolibrary.org/obo/GO_0009991	response to extracellular stimulus
 http://purl.obolibrary.org/obo/GO_0032097	positive regulation of response to food	http://purl.obolibrary.org/obo/GO_0032094	response to food
 http://purl.obolibrary.org/obo/GO_1901462	positive regulation of response to formic acid	http://purl.obolibrary.org/obo/GO_1901425	response to formic acid
 http://purl.obolibrary.org/obo/GO_1901444	positive regulation of response to furfural	http://purl.obolibrary.org/obo/GO_1901426	response to furfural
@@ -2713,14 +2707,10 @@ http://purl.obolibrary.org/obo/GO_0140471	positive regulation of transepithelial
 http://purl.obolibrary.org/obo/GO_0051347	positive regulation of transferase activity	http://purl.obolibrary.org/obo/GO_0016740	transferase activity
 http://purl.obolibrary.org/obo/GO_1904437	positive regulation of transferrin receptor binding	http://purl.obolibrary.org/obo/GO_1990459	transferrin receptor binding
 http://purl.obolibrary.org/obo/GO_1904189	positive regulation of transformation of host cell by virus	http://purl.obolibrary.org/obo/GO_0019087	transformation of host cell by virus
-http://purl.obolibrary.org/obo/GO_1901390	positive regulation of transforming growth factor beta activation	http://purl.obolibrary.org/obo/GO_0036363	transforming growth factor beta activation
 http://purl.obolibrary.org/obo/GO_0071636	positive regulation of transforming growth factor beta production	http://purl.obolibrary.org/obo/GO_0071604	transforming growth factor beta production
 http://purl.obolibrary.org/obo/GO_0030511	positive regulation of transforming growth factor beta receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007179	transforming growth factor beta receptor signaling pathway
-http://purl.obolibrary.org/obo/GO_1901394	positive regulation of transforming growth factor beta1 activation	http://purl.obolibrary.org/obo/GO_0036364	transforming growth factor beta1 activation
 http://purl.obolibrary.org/obo/GO_0032914	positive regulation of transforming growth factor beta1 production	http://purl.obolibrary.org/obo/GO_0032905	transforming growth factor beta1 production
-http://purl.obolibrary.org/obo/GO_1901397	positive regulation of transforming growth factor beta2 activation	http://purl.obolibrary.org/obo/GO_0036365	transforming growth factor beta2 activation
 http://purl.obolibrary.org/obo/GO_0032915	positive regulation of transforming growth factor beta2 production	http://purl.obolibrary.org/obo/GO_0032906	transforming growth factor beta2 production
-http://purl.obolibrary.org/obo/GO_1901400	positive regulation of transforming growth factor beta3 activation	http://purl.obolibrary.org/obo/GO_0036366	transforming growth factor beta3 activation
 http://purl.obolibrary.org/obo/GO_0032916	positive regulation of transforming growth factor beta3 production	http://purl.obolibrary.org/obo/GO_0032907	transforming growth factor beta3 production
 http://purl.obolibrary.org/obo/GO_0045727	positive regulation of translation	http://purl.obolibrary.org/obo/GO_0006412	translation
 http://purl.obolibrary.org/obo/GO_0045901	positive regulation of translational elongation	http://purl.obolibrary.org/obo/GO_0006414	translational elongation

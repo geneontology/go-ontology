@@ -34,7 +34,7 @@ OWLTOOLS = $(OWLTOOLS_ENV) owltools
 
 #DOSDP is used for turning tsv files into pieces of ontologies for imports
 DOSDP_ENV = JAVA_OPTS=-Xmx6G
-DOSDP_TOOLS = $(DOSDP_ENV) ./dosdp-tools-0.19.3/bin/dosdp-tools
+DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
 
 AMM_ENV = JAVA_OPTS=-Xmx6G
 AMM = $(AMM_ENV) amm --silent
@@ -83,11 +83,11 @@ REPORTDIR = $(RELEASEDIR)/reports
 
 stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl imports/go-computed-taxon-constraints.obo subset-owls subset-reports generate-mappings
 
-test: $(SRC)-check sparql_test change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
+test: datalog-violations.tsv $(SRC)-check sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
-travis_test: travis_build $(SRC)-check change-report.txt chebi_pH_7_3_check
+travis_test: check_all_taxon_constraints_columns datalog-violations.tsv chebi_pH_7_3_check $(SRC)-check travis_build change-report.txt 
 
-# This target combines features from reasoned.owl, enhanced.owl, sparql_test into a faster mode for Travis.
+# This target combines features from reasoned.owl, enhanced.owl, sparql_test into a faster mode for Travis/GitHub Actions.
 # These must be kept in sync.
 travis_build: go-edit-filtered-xrefs.ofn
 	$(ROBOT) merge --collapse-import-closure false -i go-edit-filtered-xrefs.ofn -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true repair --annotation-property oboInOwl:hasDbXref reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl --annotation owl:versionInfo $(RELEASEDATE) verify --queries $(VARGS) $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql -O reports/
@@ -174,7 +174,7 @@ change-report.txt: $(SRC) $(PREVIOUS)
 
 #Uses file provided by Reactome to generate xrefs for import
 #add_xrefs:
-imports/reactome_xrefs_import.owl: dosdp-tools-0.19.3 $(SRC)
+imports/reactome_xrefs_import.owl: $(SRC)
 	mkdir -p reactome-tmp
 	wget -O reactome-tmp/Reactions2GoTerms_human.txt --no-check-certificate https://reactome.org/download/current/Reactions2GoTerms_human.txt
 	sed -i '1s/.*/Identifier\tName\tdefined_class/' reactome-tmp/Reactions2GoTerms_human.txt
@@ -295,7 +295,7 @@ go-basic.owl: go-basic.obo
 # Currently the only per-subset report is id-label pairs
 # See: https://github.com/geneontology/go-ontology/issues/14028
 
-PUBLISH_SUBSETS = gocheck_do_not_annotate gocheck_do_not_manually_annotate goslim_agr goslim_candida goslim_chembl goslim_drosophila goslim_flybase_ribbon goslim_generic goslim_metagenomics goslim_mouse goslim_pir goslim_plant goslim_pombe goslim_synapse goslim_yeast goslim_prokaryote
+PUBLISH_SUBSETS = gocheck_do_not_annotate goslim_agr goslim_candida goslim_chembl goslim_drosophila goslim_euk_cellular_processes_ribbon goslim_flybase_ribbon goslim_generic goslim_metagenomics goslim_mouse goslim_pir goslim_plant goslim_plant_ribbon goslim_pombe goslim_prokaryote_ribbon goslim_synapse goslim_yeast goslim_prokaryote
 
 SUBSET_OWLS = $(patsubst %,subsets/%.owl,$(PUBLISH_SUBSETS))
 # Also generates %.obo and %.json
@@ -350,16 +350,24 @@ imports/%_import_pre.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC) ../sp
 imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
 	$(OWLTOOLS) $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $(BASE)/$@ -o $@
 
-../taxon_constraints/only_in_taxon.ofn: ../taxon_constraints/only_in_taxon.yaml ../taxon_constraints/only_in_taxon.tsv dosdp-tools-0.19.3
+# Ensure every row in the taxon constraints files has the same number of columns (only one line should be output by `sort`)
+check_taxon_constraint_columns_%: ../taxon_constraints/%.tsv
+	awk -F'\t' '{print NF}' $< | sort -nu | wc -l | sed -e 's/[[:blank:]]//g' | grep -q "^1$$" && exit 0 || (echo "ERROR: wrong number of columns in $<. Check for spaces where tabs should be." && exit 1)
+
+check_all_taxon_constraints_columns: check_taxon_constraint_columns_only_in_taxon check_taxon_constraint_columns_never_in_taxon check_taxon_constraint_columns_present_in_taxon
+
+.PHONY: check_all_taxon_constraints_columns
+
+../taxon_constraints/only_in_taxon.ofn: ../taxon_constraints/only_in_taxon.yaml ../taxon_constraints/only_in_taxon.tsv
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/only_in_taxon.tsv --obo-prefixes=true --template=$< --outfile=$@
 
-../taxon_constraints/never_in_taxon.ofn: ../taxon_constraints/never_in_taxon.yaml ../taxon_constraints/never_in_taxon.tsv dosdp-tools-0.19.3
+../taxon_constraints/never_in_taxon.ofn: ../taxon_constraints/never_in_taxon.yaml ../taxon_constraints/never_in_taxon.tsv
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/never_in_taxon.tsv --obo-prefixes=true --template=$< --outfile=$@
 
-../taxon_constraints/present_in_taxon.ofn: ../taxon_constraints/present_in_taxon.yaml ../taxon_constraints/present_in_taxon.tsv dosdp-tools-0.19.3
+../taxon_constraints/present_in_taxon.ofn: ../taxon_constraints/present_in_taxon.yaml ../taxon_constraints/present_in_taxon.tsv
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/present_in_taxon.tsv --generate-defined-class=true --obo-prefixes=true --template=$< --outfile=$@
 
-../taxon_constraints/present_in_taxon_annotations.ofn: ../taxon_constraints/present_in_taxon_annotations.yaml ../taxon_constraints/present_in_taxon.tsv dosdp-tools-0.19.3
+../taxon_constraints/present_in_taxon_annotations.ofn: ../taxon_constraints/present_in_taxon_annotations.yaml ../taxon_constraints/present_in_taxon.tsv
 	echo 'defined_class	defined_class_label	taxon	taxon_label	source' >../taxon_constraints/present_in_taxon_annotations.tsv &&\
 	tail -n +2 ../taxon_constraints/present_in_taxon.tsv >>../taxon_constraints/present_in_taxon_annotations.tsv &&\
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/present_in_taxon_annotations.tsv --obo-prefixes=true --template=$< --outfile=$@
@@ -477,6 +485,10 @@ mirror/%-download.owl: $(SRC)
 mirror/rhea.rdf:
 	curl -L -o $@.gz 'https://ftp.expasy.org/databases/rhea/rdf/rhea.rdf.gz' && gunzip $@.gz
 
+../resources/obsolete_ec.txt:
+	curl -L -o ../resources/enzyme.rdf 'https://ftp.expasy.org/databases/enzyme/enzyme.rdf' &&\
+	arq -q --data=../resources/enzyme.rdf --query=../sparql/query-obsolete-ec.sparql --results=tsv | tail -n +2 | sort >$@
+
 # bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
 bio-chebi.owl: mirror/chebi.owl chebi-ph7_3-slim.ofn biochebi_gcis.ofn imports/substance_by_role.owl 
 	$(ROBOT) merge -i $< -i chebi-ph7_3-slim.ofn -i biochebi_gcis.ofn -i imports/substance_by_role.owl annotate --ontology-iri $(BASE)/extensions/$@ -V $(RELEASE_URIBASE)/extensions/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
@@ -499,7 +511,7 @@ biochebi_gcis.tsv: ../biochebi/chebi_pH7_3_mapping.tsv ../biochebi/biochebi_excl
 	echo 'source_chem	standard_chem' >$@.tmp &&\
 	tail -n +2 ../biochebi/chebi_pH7_3_mapping.tsv | awk -v FS='\t' -v OFS='\t' '{ if ($$1 != $$2) { print "CHEBI:"$$1, "CHEBI:"$$2} }' | grep -v -f ../biochebi/biochebi_excludes.txt >> $@.tmp && mv $@.tmp $@
 
-biochebi_gcis.ofn: biochebi_gcis.tsv ../biochebi/biochebi_gcis.yaml dosdp-tools-0.19.3
+biochebi_gcis.ofn: biochebi_gcis.tsv ../biochebi/biochebi_gcis.yaml
 	$(DOSDP_TOOLS) generate --obo-prefixes=true --generate-defined-class=true --template=../biochebi/biochebi_gcis.yaml --infile=$< --outfile=$@.tmp.ofn && mv $@.tmp.ofn $@
 
 ../biochebi/go-lego-chebi-import-terms.txt: imports/chebi_terms_combined.txt ../biochebi/chebi_pH7_3_terms.txt
@@ -521,6 +533,10 @@ mirror/pr.owl: mirror/pr-download.owl
 
 mirror/opl.owl: mirror/opl-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) --remove-axioms-about -d -v OPL -o $@
+
+# Avoid filtering annotations out via owltools. dbxrefs for three-letter codes are needed in Amigo.
+mirror/eco.owl: mirror/eco-download.owl
+	cp $< $@
 
 mirror/%.owl: mirror/%-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
@@ -612,7 +628,7 @@ VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-l
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
-sparql_test: $(SRC) reasoned.owl
+sparql_test: enhanced.owl reasoned.owl
 	$(ROBOT) verify --input $< --queries $(VARGS) -O reports/
 	# These purposely aren't checking problems in imports
 	$(ROBOT) verify --input reasoned.owl --queries $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql -O reports/
@@ -624,6 +640,14 @@ reports/%-violation.csv: $(SRC)
 check-obsolete-references-including-imports: reasoned.owl
 	$(ROBOT) merge --input reasoned.owl verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
 
+## Datalog validations
+go-edit.facts: $(SRC)
+	$(ROBOT) convert -i $(SRC) -o go-edit.facts.ttl &&\
+	riot -q --nocheck --output ntriples go-edit.facts.ttl | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
+
+datalog-violations.tsv: go-edit.facts ../resources/obsolete_ec.txt
+	souffle ../util/ontology-qc.dl &&\
+	( [ -s $@ ] && { cat $@; exit 1; } || true ) # exit with an error if the output is not empty
 
 reports/neo-violations.report: $(GO_LEGO).owl
 	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -k true -p ../sparql/neo/profile.txt -o $@ --print 50 -v
@@ -722,14 +746,11 @@ ALL_PATTERN_NAMES=$(patsubst ../design_patterns/%.yaml,%,$(ALL_PATTERN_YAMLS))
 ALL_PATTERN_TSVS=$(patsubst %.yaml,%.tsv,$(ALL_PATTERN_YAMLS))
 
 # Currently not rebuilt automatically; waiting for updated dosdp-tools in ODK
-imports/go-pattern-conformance.ttl: reasoned.owl $(ALL_PATTERN_YAMLS) dosdp-tools-0.19.3
+imports/go-pattern-conformance.ttl: reasoned.owl $(ALL_PATTERN_YAMLS)
 	rm -f ../design_patterns/*.tsv &&\
 	$(DOSDP_TOOLS) query --obo-prefixes=true --batch-patterns="$(ALL_PATTERN_NAMES)" --template=../design_patterns --outfile=../design_patterns --ontology=reasoned.owl --catalog=catalog-v001.xml --reasoner=elk --parallelism=4 --output-conformance=$@.tmp &&\
 	$(ROBOT) annotate -i $@.tmp --ontology-iri $(BASE)/$@ -o $@
 
-pattern-docs: imports/go-pattern-conformance.ttl reasoned.owl $(ALL_PATTERN_YAMLS) $(ALL_PATTERN_TSVS) dosdp-tools-0.19.3
+pattern-docs: imports/go-pattern-conformance.ttl reasoned.owl $(ALL_PATTERN_YAMLS) $(ALL_PATTERN_TSVS)
 	rm -f ../../docs/patterns/*.md &&\
 	$(DOSDP_TOOLS) docs --obo-prefixes=true --batch-patterns="$(ALL_PATTERN_NAMES)" --template=../design_patterns --outfile=../../docs/patterns --infile=../design_patterns --data-location-prefix='https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/' --ontology=reasoned.owl --catalog=catalog-v001.xml
-
-dosdp-tools-0.19.3:
-	curl -L -O 'https://github.com/INCATools/dosdp-tools/releases/download/v0.19.3/dosdp-tools-0.19.3.tgz' && tar -zxf dosdp-tools-0.19.3.tgz

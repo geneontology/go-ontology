@@ -133,8 +133,8 @@ http://purl.obolibrary.org/obo/GO_0015520	tetracycline:proton antiporter activit
 http://purl.obolibrary.org/obo/GO_0015520	tetracycline:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_77932	tetracycline zwitterion	http://purl.obolibrary.org/obo/CHEBI_15378	hydron
 http://purl.obolibrary.org/obo/GO_0009670	triose-phosphate:phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35142	aldotriose phosphate	http://purl.obolibrary.org/obo/CHEBI_43474	hydrogenphosphate
 http://purl.obolibrary.org/obo/GO_0009670	triose-phosphate:phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_43474	hydrogenphosphate	http://purl.obolibrary.org/obo/CHEBI_35142	aldotriose phosphate
-http://purl.obolibrary.org/obo/GO_0070908	tyrosine:tyramine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_18186	tyrosine	http://purl.obolibrary.org/obo/CHEBI_327995	tyraminium
-http://purl.obolibrary.org/obo/GO_0070908	tyrosine:tyramine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_327995	tyraminium	http://purl.obolibrary.org/obo/CHEBI_18186	tyrosine
+http://purl.obolibrary.org/obo/GO_0070908	tyrosine:tyramine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_327995	tyraminium	http://purl.obolibrary.org/obo/CHEBI_58315	L-tyrosine zwitterion
+http://purl.obolibrary.org/obo/GO_0070908	tyrosine:tyramine antiporter activity	http://purl.obolibrary.org/obo/CHEBI_58315	L-tyrosine zwitterion	http://purl.obolibrary.org/obo/CHEBI_327995	tyraminium
 http://purl.obolibrary.org/obo/GO_0140813	urate:monoatomic anion antiporter activity	http://purl.obolibrary.org/obo/CHEBI_17775	7,9-dihydro-1H-purine-2,6,8(3H)-trione	http://purl.obolibrary.org/obo/CHEBI_23905	monoatomic anion
 http://purl.obolibrary.org/obo/GO_0140813	urate:monoatomic anion antiporter activity	http://purl.obolibrary.org/obo/CHEBI_23905	monoatomic anion	http://purl.obolibrary.org/obo/CHEBI_17775	7,9-dihydro-1H-purine-2,6,8(3H)-trione
 http://purl.obolibrary.org/obo/GO_0140826	zinc:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_15378	hydron	http://purl.obolibrary.org/obo/CHEBI_29105	zinc(2+)
