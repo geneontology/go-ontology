@@ -50,7 +50,7 @@ http://purl.obolibrary.org/obo/GO_1990201	alkanesulfonate monooxygenase complex	
 http://purl.obolibrary.org/obo/GO_0009321	alkyl hydroperoxide reductase complex	http://purl.obolibrary.org/obo/GO_0008785	alkyl hydroperoxide reductase activity
 http://purl.obolibrary.org/obo/GO_0005946	alpha,alpha-trehalose-phosphate synthase complex (UDP-forming)	http://purl.obolibrary.org/obo/GO_0003825	alpha,alpha-trehalose-phosphate synthase (UDP-forming) activity
 http://purl.obolibrary.org/obo/GO_0061694	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase complex	http://purl.obolibrary.org/obo/GO_0061693	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase activity
-http://purl.obolibrary.org/obo/GO_0110067	ammonium transmembrane transporter complex	http://purl.obolibrary.org/obo/GO_0008519	ammonium transmembrane transporter activity
+http://purl.obolibrary.org/obo/GO_0110067	ammonium transmembrane transporter complex	http://purl.obolibrary.org/obo/GO_0008519	ammonium channel activity
 http://purl.obolibrary.org/obo/GO_1903440	amylin receptor complex	http://purl.obolibrary.org/obo/GO_0097643	amylin receptor activity
 http://purl.obolibrary.org/obo/GO_0005950	anthranilate synthase complex	http://purl.obolibrary.org/obo/GO_0004049	anthranilate synthase activity
 http://purl.obolibrary.org/obo/GO_0009347	aspartate carbamoyltransferase complex	http://purl.obolibrary.org/obo/GO_0004070	aspartate carbamoyltransferase activity
