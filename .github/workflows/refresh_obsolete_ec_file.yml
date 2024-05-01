@@ -1,0 +1,26 @@
+name: Refresh obsolete ECs file
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 4 * * 1'
+
+jobs:
+  update:
+
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Refresh obsolete ECs list
+      run: cd src/ontology && rm ../resources/obsolete_ec.txt && make ../resources/obsolete_ec.txt && cd ../..
+    
+    - name: Create PR
+      uses: peter-evans/create-pull-request@v5
+      with:
+        title: Refresh obsolete ECs file
+        branch: refresh-obsolete-ecs
+        token: ${{ secrets.PR_ACTION_TOKEN }}
