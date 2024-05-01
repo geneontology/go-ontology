@@ -23,4 +23,6 @@ jobs:
       with:
         title: Refresh obsolete ECs file
         branch: refresh-obsolete-ecs
+        add-paths: |
+          src/resources/obsolete_ec.txt
         token: ${{ secrets.PR_ACTION_TOKEN }}
