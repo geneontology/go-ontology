@@ -31965,8 +31965,8 @@ relationship: RO:0000057 CHEBI:58210
 [Term]
 id: GO:0103111
 relationship: RO:0000057 CHEBI:29979
-relationship: RO:0000057 CHEBI:58723
-relationship: RO:0000057 CHEBI:58725
+relationship: RO:0000057 CHEBI:506227
+relationship: RO:0000057 CHEBI:57513
 relationship: RO:0000057 CHEBI:64837
 
 [Term]
