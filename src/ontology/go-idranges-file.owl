@@ -84,7 +84,11 @@ EquivalentTo: xsd:integer[>= 104001 , <= 106000]
 
 Datatype: idrange:17
 Annotations: allocatedto: "Harold Drabkin"
-EquivalentTo: xsd:integer[>= 106001 , <= 110000]
+EquivalentTo: xsd:integer[>= 106001 , <= 106500]
+
+Datatype: idrange:27
+Annotations: allocatedto: "Li Ni"
+EquivalentTo: xsd:integer[>= 106501 , <= 110000]
 
 Datatype: idrange:18
 Annotations: allocatedto: "Kimberly Van Auken"
@@ -93,6 +97,10 @@ EquivalentTo: xsd:integer[>= 110001 , <= 120000]
 Datatype: idrange:19
 Annotations: allocatedto: "Karen Christie"
 EquivalentTo: xsd:integer[>= 120001 , <= 120499]
+
+Datatype: idrange:26
+Annotations: allocatedto: "Steven Marygold"
+EquivalentTo: xsd:integer[>= 120500 , <= 130000]
 
 Datatype: idrange:20
 Annotations: allocatedto: "Paul Thomas"
@@ -117,10 +125,6 @@ EquivalentTo: xsd:integer[>= 170001 , <= 180000]
 Datatype: idrange:25
 Annotations: allocatedto: "Val Wood"
 EquivalentTo: xsd:integer[>= 180001 , <= 190000]
-
-Datatype: idrange:26
-Annotations: allocatedto: "Steven Marygold"
-EquivalentTo: xsd:integer[>= 120500 , <= 130000]
 
 Datatype: idrange:90
 Annotations: allocatedto: "Automatic Term Generation"
