@@ -65,7 +65,7 @@ http://purl.obolibrary.org/obo/GO_0043213	bacteriocin transport	http://purl.obol
 http://purl.obolibrary.org/obo/GO_0042919	benzoate transport	http://purl.obolibrary.org/obo/CHEBI_16150	benzoate
 http://purl.obolibrary.org/obo/GO_0001762	beta-alanine transport	http://purl.obolibrary.org/obo/CHEBI_57966	beta-alanine zwitterion
 http://purl.obolibrary.org/obo/GO_0015775	beta-glucan transport	http://purl.obolibrary.org/obo/CHEBI_28793	beta-D-glucan
-http://purl.obolibrary.org/obo/GO_0015759	beta-glucoside transport	http://purl.obolibrary.org/obo/CHEBI_60980	beta-glucoside
+http://purl.obolibrary.org/obo/GO_0015759	beta-glucoside transport	http://purl.obolibrary.org/obo/CHEBI_22798	beta-D-glucoside
 http://purl.obolibrary.org/obo/GO_0015701	bicarbonate transport	http://purl.obolibrary.org/obo/CHEBI_17544	hydrogencarbonate
 http://purl.obolibrary.org/obo/GO_0015721	bile acid and bile salt transport	http://purl.obolibrary.org/obo/CHEBI_3098	bile acid
 http://purl.obolibrary.org/obo/GO_0015723	bilirubin transport	http://purl.obolibrary.org/obo/CHEBI_57977	bilirubin(2-)
