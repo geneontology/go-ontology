@@ -906,11 +906,9 @@ http://purl.obolibrary.org/obo/GO_0009311	oligosaccharide metabolic process	http
 http://purl.obolibrary.org/obo/GO_0046152	ommochrome metabolic process	http://purl.obolibrary.org/obo/CHEBI_25692	ommochrome
 http://purl.obolibrary.org/obo/GO_0018940	orcinol metabolic process	http://purl.obolibrary.org/obo/CHEBI_16536	orcinol
 http://purl.obolibrary.org/obo/GO_0006082	organic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_64709	organic acid
-http://purl.obolibrary.org/obo/GO_1901360	organic cyclic compound metabolic process	http://purl.obolibrary.org/obo/CHEBI_33832	organic cyclic compound
 http://purl.obolibrary.org/obo/GO_1901376	organic heteropentacyclic compound metabolic process	http://purl.obolibrary.org/obo/CHEBI_38164	organic heteropentacyclic compound
 http://purl.obolibrary.org/obo/GO_1901615	organic hydroxy compound metabolic process	http://purl.obolibrary.org/obo/CHEBI_33822	organic hydroxy compound
 http://purl.obolibrary.org/obo/GO_0019634	organic phosphonate metabolic process	http://purl.obolibrary.org/obo/CHEBI_16215	phosphonate(2-)
-http://purl.obolibrary.org/obo/GO_0071704	organic substance metabolic process	http://purl.obolibrary.org/obo/CHEBI_50860	organic molecular entity
 http://purl.obolibrary.org/obo/GO_0018942	organometal metabolic process	http://purl.obolibrary.org/obo/CHEBI_25707	organometallic compound
 http://purl.obolibrary.org/obo/GO_1901564	organonitrogen compound metabolic process	http://purl.obolibrary.org/obo/CHEBI_35352	organonitrogen compound
 http://purl.obolibrary.org/obo/GO_0019637	organophosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_25710	organophosphorus compound
