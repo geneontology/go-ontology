@@ -222,12 +222,12 @@ subsets:
     contact: 
       email: metagenomics-help@ebi.ac.uk
       label: MGnify helpdesk
-   tracker: https://github.com/geneontology/go-ontology/issues
-   contributors:
-    - email: 
-      label: Alex Mitchell
-      orcid:  https://orcid.org/0000-0001-8655-7966
-      github: almitchell
+    tracker: https://github.com/geneontology/go-ontology/issues
+    contributors:
+      - email: 
+        label: Alex Mitchell
+        orcid:  https://orcid.org/0000-0001-8655-7966
+        github: almitchell
   - id: goslim_mouse
     title: Mouse GO slim
     role: Binning
