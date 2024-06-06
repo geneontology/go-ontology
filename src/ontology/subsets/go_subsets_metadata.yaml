@@ -230,6 +230,7 @@ subsets:
         github: almitchell
   - id: goslim_mouse
     title: Mouse GO slim
+    short_label: Mouse
     role: Binning
     status: active
     description: "Mouse GO subset."
