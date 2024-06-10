@@ -382,6 +382,7 @@ subsets:
         label: GO Ontology Curators
   - id: goslim_yeast
     title: Yeast slim
+    short_label: Yeast
     status: active
     role: Binning
     description: "Saccharomyces cerevisiae GO slim"
