@@ -906,7 +906,7 @@ http://purl.obolibrary.org/obo/GO_1903356	positive regulation of distal tip cell
 http://purl.obolibrary.org/obo/GO_0010973	positive regulation of division septum assembly	http://purl.obolibrary.org/obo/GO_0000917	division septum assembly
 http://purl.obolibrary.org/obo/GO_1903181	positive regulation of dopamine biosynthetic process	http://purl.obolibrary.org/obo/GO_0042416	dopamine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0045964	positive regulation of dopamine metabolic process	http://purl.obolibrary.org/obo/GO_0042417	dopamine metabolic process
-http://purl.obolibrary.org/obo/GO_0060161	positive regulation of dopamine receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007212	dopamine receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0060161	positive regulation of dopamine receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007212	G protein-coupled dopamine receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0033603	positive regulation of dopamine secretion	http://purl.obolibrary.org/obo/GO_0014046	dopamine secretion
 http://purl.obolibrary.org/obo/GO_0051586	positive regulation of dopamine uptake involved in synaptic transmission	http://purl.obolibrary.org/obo/GO_0051583	dopamine uptake involved in synaptic transmission
 http://purl.obolibrary.org/obo/GO_1904340	positive regulation of dopaminergic neuron differentiation	http://purl.obolibrary.org/obo/GO_0071542	dopaminergic neuron differentiation
@@ -920,7 +920,7 @@ http://purl.obolibrary.org/obo/GO_2000643	positive regulation of early endosome 
 http://purl.obolibrary.org/obo/GO_1902955	positive regulation of early endosome to recycling endosome transport	http://purl.obolibrary.org/obo/GO_0061502	early endosome to recycling endosome transport
 http://purl.obolibrary.org/obo/GO_0050948	positive regulation of early stripe melanocyte differentiation	http://purl.obolibrary.org/obo/GO_0050933	early stripe melanocyte differentiation
 http://purl.obolibrary.org/obo/GO_1904000	positive regulation of eating behavior	http://purl.obolibrary.org/obo/GO_0042755	eating behavior
-http://purl.obolibrary.org/obo/GO_0120142	positive regulation of ecdysone receptor-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0035076	ecdysone receptor-mediated signaling pathway
+http://purl.obolibrary.org/obo/GO_0120142	positive regulation of ecdysone receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0035076	ecdysone receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0045998	positive regulation of ecdysteroid biosynthetic process	http://purl.obolibrary.org/obo/GO_0045456	ecdysteroid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0045966	positive regulation of ecdysteroid metabolic process	http://purl.obolibrary.org/obo/GO_0045455	ecdysteroid metabolic process
 http://purl.obolibrary.org/obo/GO_0046000	positive regulation of ecdysteroid secretion	http://purl.obolibrary.org/obo/GO_0045457	ecdysteroid secretion
@@ -1166,7 +1166,7 @@ http://purl.obolibrary.org/obo/GO_0031948	positive regulation of glucocorticoid 
 http://purl.obolibrary.org/obo/GO_0031951	positive regulation of glucocorticoid catabolic process	http://purl.obolibrary.org/obo/GO_0006713	glucocorticoid catabolic process
 http://purl.obolibrary.org/obo/GO_1900171	positive regulation of glucocorticoid mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0043402	glucocorticoid mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0031945	positive regulation of glucocorticoid metabolic process	http://purl.obolibrary.org/obo/GO_0008211	glucocorticoid metabolic process
-http://purl.obolibrary.org/obo/GO_2000324	positive regulation of glucocorticoid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	intracellular glucocorticoid receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_2000324	positive regulation of glucocorticoid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	nuclear receptor-mediated glucocorticoid signaling pathway
 http://purl.obolibrary.org/obo/GO_2000851	positive regulation of glucocorticoid secretion	http://purl.obolibrary.org/obo/GO_0035933	glucocorticoid secretion
 http://purl.obolibrary.org/obo/GO_0033133	positive regulation of glucokinase activity	http://purl.obolibrary.org/obo/GO_0004340	glucokinase activity
 http://purl.obolibrary.org/obo/GO_2000908	positive regulation of glucomannan catabolic process	http://purl.obolibrary.org/obo/GO_2000884	glucomannan catabolic process
@@ -1408,12 +1408,12 @@ http://purl.obolibrary.org/obo/GO_1905300	positive regulation of intestinal epit
 http://purl.obolibrary.org/obo/GO_0060731	positive regulation of intestinal epithelial structure maintenance	http://purl.obolibrary.org/obo/GO_0060729	intestinal epithelial structure maintenance
 http://purl.obolibrary.org/obo/GO_1904731	positive regulation of intestinal lipid absorption	http://purl.obolibrary.org/obo/GO_0098856	intestinal lipid absorption
 http://purl.obolibrary.org/obo/GO_0032385	positive regulation of intracellular cholesterol transport	http://purl.obolibrary.org/obo/GO_0032367	intracellular cholesterol transport
-http://purl.obolibrary.org/obo/GO_0033148	positive regulation of intracellular estrogen receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0030520	intracellular estrogen receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0033148	positive regulation of intracellular estrogen receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0030520	estrogen receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0032379	positive regulation of intracellular lipid transport	http://purl.obolibrary.org/obo/GO_0032365	intracellular lipid transport
 http://purl.obolibrary.org/obo/GO_1904582	positive regulation of intracellular mRNA localization	http://purl.obolibrary.org/obo/GO_0008298	intracellular mRNA localization
 http://purl.obolibrary.org/obo/GO_0090316	positive regulation of intracellular protein transport	http://purl.obolibrary.org/obo/GO_0006886	intracellular protein transport
 http://purl.obolibrary.org/obo/GO_1902533	positive regulation of intracellular signal transduction	http://purl.obolibrary.org/obo/GO_0035556	intracellular signal transduction
-http://purl.obolibrary.org/obo/GO_0033145	positive regulation of intracellular steroid hormone receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0030518	intracellular steroid hormone receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0033145	positive regulation of intracellular steroid hormone receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0030518	nuclear receptor-mediated steroid hormone signaling pathway
 http://purl.obolibrary.org/obo/GO_0032382	positive regulation of intracellular sterol transport	http://purl.obolibrary.org/obo/GO_0032366	intracellular sterol transport
 http://purl.obolibrary.org/obo/GO_0032388	positive regulation of intracellular transport	http://purl.obolibrary.org/obo/GO_0046907	intracellular transport
 http://purl.obolibrary.org/obo/GO_1901254	positive regulation of intracellular transport of viral material	http://purl.obolibrary.org/obo/GO_0075733	intracellular transport of virus
@@ -2656,7 +2656,7 @@ http://purl.obolibrary.org/obo/GO_0070245	positive regulation of thymocyte apopt
 http://purl.obolibrary.org/obo/GO_2000412	positive regulation of thymocyte migration	http://purl.obolibrary.org/obo/GO_0072679	thymocyte migration
 http://purl.obolibrary.org/obo/GO_1904443	positive regulation of thyroid gland epithelial cell proliferation	http://purl.obolibrary.org/obo/GO_1990789	thyroid gland epithelial cell proliferation
 http://purl.obolibrary.org/obo/GO_2000611	positive regulation of thyroid hormone generation	http://purl.obolibrary.org/obo/GO_0006590	thyroid hormone generation
-http://purl.obolibrary.org/obo/GO_0002157	positive regulation of thyroid hormone mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0002154	thyroid hormone mediated signaling pathway
+http://purl.obolibrary.org/obo/GO_0002157	positive regulation of thyroid hormone mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0002154	thyroid hormone receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_2000614	positive regulation of thyroid-stimulating hormone secretion	http://purl.obolibrary.org/obo/GO_0070460	thyroid-stimulating hormone secretion
 http://purl.obolibrary.org/obo/GO_1905075	positive regulation of tight junction disassembly	http://purl.obolibrary.org/obo/GO_1905071	tight junction disassembly
 http://purl.obolibrary.org/obo/GO_0051885	positive regulation of timing of anagen	http://purl.obolibrary.org/obo/GO_0042640	anagen
