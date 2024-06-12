@@ -926,7 +926,7 @@ http://purl.obolibrary.org/obo/GO_1903355	negative regulation of distal tip cell
 http://purl.obolibrary.org/obo/GO_0010974	negative regulation of division septum assembly	http://purl.obolibrary.org/obo/GO_0000917	division septum assembly
 http://purl.obolibrary.org/obo/GO_1903180	negative regulation of dopamine biosynthetic process	http://purl.obolibrary.org/obo/GO_0042416	dopamine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0045963	negative regulation of dopamine metabolic process	http://purl.obolibrary.org/obo/GO_0042417	dopamine metabolic process
-http://purl.obolibrary.org/obo/GO_0060160	negative regulation of dopamine receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007212	dopamine receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0060160	negative regulation of dopamine receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007212	G protein-coupled dopamine receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0033602	negative regulation of dopamine secretion	http://purl.obolibrary.org/obo/GO_0014046	dopamine secretion
 http://purl.obolibrary.org/obo/GO_0051585	negative regulation of dopamine uptake involved in synaptic transmission	http://purl.obolibrary.org/obo/GO_0051583	dopamine uptake involved in synaptic transmission
 http://purl.obolibrary.org/obo/GO_1904339	negative regulation of dopaminergic neuron differentiation	http://purl.obolibrary.org/obo/GO_0071542	dopaminergic neuron differentiation
@@ -941,7 +941,7 @@ http://purl.obolibrary.org/obo/GO_1904336	negative regulation of ductus arterios
 http://purl.obolibrary.org/obo/GO_2000642	negative regulation of early endosome to late endosome transport	http://purl.obolibrary.org/obo/GO_0045022	early endosome to late endosome transport
 http://purl.obolibrary.org/obo/GO_0050947	negative regulation of early stripe melanocyte differentiation	http://purl.obolibrary.org/obo/GO_0050933	early stripe melanocyte differentiation
 http://purl.obolibrary.org/obo/GO_1903999	negative regulation of eating behavior	http://purl.obolibrary.org/obo/GO_0042755	eating behavior
-http://purl.obolibrary.org/obo/GO_0120143	negative regulation of ecdysone receptor-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0035076	ecdysone receptor-mediated signaling pathway
+http://purl.obolibrary.org/obo/GO_0120143	negative regulation of ecdysone receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0035076	ecdysone receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0045997	negative regulation of ecdysteroid biosynthetic process	http://purl.obolibrary.org/obo/GO_0045456	ecdysteroid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0045965	negative regulation of ecdysteroid metabolic process	http://purl.obolibrary.org/obo/GO_0045455	ecdysteroid metabolic process
 http://purl.obolibrary.org/obo/GO_0045999	negative regulation of ecdysteroid secretion	http://purl.obolibrary.org/obo/GO_0045457	ecdysteroid secretion
@@ -1194,7 +1194,7 @@ http://purl.obolibrary.org/obo/GO_0031947	negative regulation of glucocorticoid 
 http://purl.obolibrary.org/obo/GO_0031950	negative regulation of glucocorticoid catabolic process	http://purl.obolibrary.org/obo/GO_0006713	glucocorticoid catabolic process
 http://purl.obolibrary.org/obo/GO_1900170	negative regulation of glucocorticoid mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0043402	glucocorticoid mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0031944	negative regulation of glucocorticoid metabolic process	http://purl.obolibrary.org/obo/GO_0008211	glucocorticoid metabolic process
-http://purl.obolibrary.org/obo/GO_2000323	negative regulation of glucocorticoid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	intracellular glucocorticoid receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_2000323	negative regulation of glucocorticoid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	nuclear receptor-mediated glucocorticoid signaling pathway
 http://purl.obolibrary.org/obo/GO_2000850	negative regulation of glucocorticoid secretion	http://purl.obolibrary.org/obo/GO_0035933	glucocorticoid secretion
 http://purl.obolibrary.org/obo/GO_0033132	negative regulation of glucokinase activity	http://purl.obolibrary.org/obo/GO_0004340	glucokinase activity
 http://purl.obolibrary.org/obo/GO_2000907	negative regulation of glucomannan catabolic process	http://purl.obolibrary.org/obo/GO_2000884	glucomannan catabolic process
@@ -1430,12 +1430,12 @@ http://purl.obolibrary.org/obo/GO_1905299	negative regulation of intestinal epit
 http://purl.obolibrary.org/obo/GO_1904730	negative regulation of intestinal lipid absorption	http://purl.obolibrary.org/obo/GO_0098856	intestinal lipid absorption
 http://purl.obolibrary.org/obo/GO_0010949	negative regulation of intestinal phytosterol absorption	http://purl.obolibrary.org/obo/GO_0060752	intestinal phytosterol absorption
 http://purl.obolibrary.org/obo/GO_0032384	negative regulation of intracellular cholesterol transport	http://purl.obolibrary.org/obo/GO_0032367	intracellular cholesterol transport
-http://purl.obolibrary.org/obo/GO_0033147	negative regulation of intracellular estrogen receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0030520	intracellular estrogen receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0033147	negative regulation of intracellular estrogen receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0030520	estrogen receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0032378	negative regulation of intracellular lipid transport	http://purl.obolibrary.org/obo/GO_0032365	intracellular lipid transport
 http://purl.obolibrary.org/obo/GO_1904581	negative regulation of intracellular mRNA localization	http://purl.obolibrary.org/obo/GO_0008298	intracellular mRNA localization
 http://purl.obolibrary.org/obo/GO_0090317	negative regulation of intracellular protein transport	http://purl.obolibrary.org/obo/GO_0006886	intracellular protein transport
 http://purl.obolibrary.org/obo/GO_1902532	negative regulation of intracellular signal transduction	http://purl.obolibrary.org/obo/GO_0035556	intracellular signal transduction
-http://purl.obolibrary.org/obo/GO_0033144	negative regulation of intracellular steroid hormone receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0030518	intracellular steroid hormone receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0033144	negative regulation of intracellular steroid hormone receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0030518	nuclear receptor-mediated steroid hormone signaling pathway
 http://purl.obolibrary.org/obo/GO_0032381	negative regulation of intracellular sterol transport	http://purl.obolibrary.org/obo/GO_0032366	intracellular sterol transport
 http://purl.obolibrary.org/obo/GO_0032387	negative regulation of intracellular transport	http://purl.obolibrary.org/obo/GO_0046907	intracellular transport
 http://purl.obolibrary.org/obo/GO_1901253	negative regulation of intracellular transport of viral material	http://purl.obolibrary.org/obo/GO_0075733	intracellular transport of virus
@@ -2667,7 +2667,7 @@ http://purl.obolibrary.org/obo/GO_0070244	negative regulation of thymocyte apopt
 http://purl.obolibrary.org/obo/GO_2000411	negative regulation of thymocyte migration	http://purl.obolibrary.org/obo/GO_0072679	thymocyte migration
 http://purl.obolibrary.org/obo/GO_1904442	negative regulation of thyroid gland epithelial cell proliferation	http://purl.obolibrary.org/obo/GO_1990789	thyroid gland epithelial cell proliferation
 http://purl.obolibrary.org/obo/GO_2000610	negative regulation of thyroid hormone generation	http://purl.obolibrary.org/obo/GO_0006590	thyroid hormone generation
-http://purl.obolibrary.org/obo/GO_0002156	negative regulation of thyroid hormone mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0002154	thyroid hormone mediated signaling pathway
+http://purl.obolibrary.org/obo/GO_0002156	negative regulation of thyroid hormone mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0002154	thyroid hormone receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_2000613	negative regulation of thyroid-stimulating hormone secretion	http://purl.obolibrary.org/obo/GO_0070460	thyroid-stimulating hormone secretion
 http://purl.obolibrary.org/obo/GO_1905074	negative regulation of tight junction disassembly	http://purl.obolibrary.org/obo/GO_1905071	tight junction disassembly
 http://purl.obolibrary.org/obo/GO_0051886	negative regulation of timing of anagen	http://purl.obolibrary.org/obo/GO_0042640	anagen

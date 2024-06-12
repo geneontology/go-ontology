@@ -279,6 +279,7 @@ http://purl.obolibrary.org/obo/GO_0000222	plasma membrane proton-transporting V-
 http://purl.obolibrary.org/obo/GO_0000223	plasma membrane proton-transporting V-type ATPase, V1 domain	http://purl.obolibrary.org/obo/GO_0033180	proton-transporting V-type ATPase, V1 domain	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
 http://purl.obolibrary.org/obo/GO_0044853	plasma membrane raft	http://purl.obolibrary.org/obo/GO_0045121	membrane raft	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
 http://purl.obolibrary.org/obo/GO_0098590	plasma membrane region	http://purl.obolibrary.org/obo/GO_0016020	membrane	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
+http://purl.obolibrary.org/obo/GO_0070470	plasma membrane respirasome	http://purl.obolibrary.org/obo/GO_0070469	respirasome	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
 http://purl.obolibrary.org/obo/GO_0045272	plasma membrane respiratory chain complex I	http://purl.obolibrary.org/obo/GO_0045271	respiratory chain complex I	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
 http://purl.obolibrary.org/obo/GO_0045274	plasma membrane respiratory chain complex II	http://purl.obolibrary.org/obo/GO_0045273	respiratory chain complex II	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
 http://purl.obolibrary.org/obo/GO_0045276	plasma membrane respiratory chain complex III	http://purl.obolibrary.org/obo/GO_0045275	respiratory chain complex III	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane
