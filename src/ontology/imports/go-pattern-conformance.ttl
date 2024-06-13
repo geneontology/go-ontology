@@ -16341,10 +16341,6 @@
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0032884> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0032885> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
@@ -17833,26 +17829,10 @@
 <http://purl.obolibrary.org/obo/GO_0034215> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/symporter_activity.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0034222> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0034223> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0034229> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/chemical_transport.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0034231> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0034233> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0034234> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0034235> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
