@@ -123,7 +123,7 @@ http://purl.obolibrary.org/obo/GO_0008087	light-activated voltage-gated calcium 
 http://purl.obolibrary.org/obo/GO_0046696	lipopolysaccharide receptor complex	http://purl.obolibrary.org/obo/GO_0001875	lipopolysaccharide immune receptor activity
 http://purl.obolibrary.org/obo/GO_0010007	magnesium chelatase complex	http://purl.obolibrary.org/obo/GO_0016851	magnesium chelatase activity
 http://purl.obolibrary.org/obo/GO_1902695	metallochaperone complex	http://purl.obolibrary.org/obo/GO_0016530	metallochaperone activity
-http://purl.obolibrary.org/obo/GO_0015050	methane monooxygenase complex	http://purl.obolibrary.org/obo/GO_0015049	methane monooxygenase activity
+http://purl.obolibrary.org/obo/GO_0015050	methane monooxygenase complex	http://purl.obolibrary.org/obo/GO_0015049	methane monooxygenase [NAD(P)H] activity
 http://purl.obolibrary.org/obo/GO_0044679	methanophenazine reducing hydrogenase complex	http://purl.obolibrary.org/obo/GO_0051911	Methanosarcina-phenazine hydrogenase activity
 http://purl.obolibrary.org/obo/GO_1902509	methionine-importing complex	http://purl.obolibrary.org/obo/GO_0043865	methionine transmembrane transporter activity
 http://purl.obolibrary.org/obo/GO_0044674	methyl coenzyme M reductase complex	http://purl.obolibrary.org/obo/GO_0050524	coenzyme-B sulfoethylthiotransferase activity
