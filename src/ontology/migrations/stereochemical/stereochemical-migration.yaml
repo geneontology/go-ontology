@@ -1,0 +1,5 @@
+# https://github.com/geneontology/go-ontology/issues/27479
+rules:
+  - match: '(?<!\-)\bcysteine\b'
+    replacement: L-cysteine
+    in_place: true
