@@ -20,7 +20,7 @@ name:
     - target
 
 def:
-  text: "The process involved in the commitment of %s cell identity."
+  text: "The cell fate commitment process by which a cell becomes restricted to develop into a %s cell."
   vars:
      - target
 
