@@ -2667,7 +2667,7 @@ http://purl.obolibrary.org/obo/GO_0070244	negative regulation of thymocyte apopt
 http://purl.obolibrary.org/obo/GO_2000411	negative regulation of thymocyte migration	http://purl.obolibrary.org/obo/GO_0072679	thymocyte migration
 http://purl.obolibrary.org/obo/GO_1904442	negative regulation of thyroid gland epithelial cell proliferation	http://purl.obolibrary.org/obo/GO_1990789	thyroid gland epithelial cell proliferation
 http://purl.obolibrary.org/obo/GO_2000610	negative regulation of thyroid hormone generation	http://purl.obolibrary.org/obo/GO_0006590	thyroid hormone generation
-http://purl.obolibrary.org/obo/GO_0002156	negative regulation of thyroid hormone mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0002154	thyroid hormone receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0002156	negative regulation of thyroid hormone receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0002154	thyroid hormone receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_2000613	negative regulation of thyroid-stimulating hormone secretion	http://purl.obolibrary.org/obo/GO_0070460	thyroid-stimulating hormone secretion
 http://purl.obolibrary.org/obo/GO_1905074	negative regulation of tight junction disassembly	http://purl.obolibrary.org/obo/GO_1905071	tight junction disassembly
 http://purl.obolibrary.org/obo/GO_0051886	negative regulation of timing of anagen	http://purl.obolibrary.org/obo/GO_0042640	anagen
