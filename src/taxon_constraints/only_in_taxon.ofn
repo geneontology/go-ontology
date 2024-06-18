@@ -532,8 +532,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045172>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045202>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045247>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045249>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045258>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045260>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045314>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045321>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045498>))
@@ -3612,16 +3610,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0045247> ObjectAllValuesFrom(<http
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0045249> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004>))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0045249> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0045258> (<http://purl.obolibrary.org/obo/GO_0045258>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0045258> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004>))
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0045258> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0045260> (<http://purl.obolibrary.org/obo/GO_0045260>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0045260> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_2>))
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0045260> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_2>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0045314> (<http://purl.obolibrary.org/obo/GO_0045314>)
 
