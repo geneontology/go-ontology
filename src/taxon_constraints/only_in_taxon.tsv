@@ -392,8 +392,6 @@ GO:0045172	germline ring canal	NCBITaxon:6656	Arthropoda
 GO:0045202	synapse	NCBITaxon:33208	Metazoa	
 GO:0045247	cytosolic electron transfer flavoprotein complex	NCBITaxon:Union_0000004	Prokaryota	
 GO:0045249	cytosol pyruvate dehydrogenase (lipoamide) phosphatase complex	NCBITaxon:Union_0000004	Prokaryota	
-GO:0045258	plasma membrane succinate dehydrogenase complex (ubiquinone)	NCBITaxon:Union_0000004	Prokaryota	
-GO:0045260	plasma membrane proton-transporting ATP synthase complex	NCBITaxon:2	Bacteria	
 GO:0045314	regulation of compound eye photoreceptor development	NCBITaxon:6656	Arthropoda	
 GO:0045498	sex comb development	NCBITaxon:50557	Insecta	
 GO:0045688	regulation of antipodal cell differentiation	NCBITaxon:3398	Magnoliophyta	
