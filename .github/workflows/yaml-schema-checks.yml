@@ -23,7 +23,7 @@ jobs:
     - name: Install packages
       run: apt-get update -qq && apt-get install -y python3 python3-pip mmv -qq
     - name: Install python stuff
-      run: pip3 install pyyaml typing graphstore/rule-runner linkml==1.7.4
+      run: pip3 install pyyaml typing linkml==1.7.4
     ## Validate YAML schema for https://github.com/geneontology/go-ontology/issues/27399
     - name: Validate YAML schema
       run: |
