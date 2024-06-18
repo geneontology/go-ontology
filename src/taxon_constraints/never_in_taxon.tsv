@@ -39,8 +39,6 @@ GO:0005055	laminin receptor activity	NCBITaxon:4751	Fungi
 GO:0005663	DNA replication factor C complex	NCBITaxon:2	Bacteria	
 GO:0005722	beta-heterochromatin	NCBITaxon:4751	Fungi	
 GO:0005723	alpha-heterochromatin	NCBITaxon:4751	Fungi	
-GO:0005747	mitochondrial respiratory chain complex I	NCBITaxon:4895	Schizosaccharomyces	
-GO:0005747	mitochondrial respiratory chain complex I	NCBITaxon:4930	Saccharomyces	
 GO:0005813	centrosome	NCBITaxon:27896	Planariidae	
 GO:0005813	centrosome	NCBITaxon:33090	Viridiplantae	
 GO:0005813	centrosome	NCBITaxon:4751	Fungi	
