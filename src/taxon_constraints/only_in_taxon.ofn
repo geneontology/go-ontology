@@ -404,8 +404,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033012>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033104>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033105>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033173>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033174>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033175>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033189>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033260>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0033290>))
@@ -2969,16 +2967,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0033105> ObjectAllValuesFrom(<http
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0033173> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0033173> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0033174> (<http://purl.obolibrary.org/obo/GO_0033174>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0033174> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_33090>))
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0033174> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0033175> (<http://purl.obolibrary.org/obo/GO_0033175>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0033175> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_33090>))
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0033175> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33090>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0033189> (<http://purl.obolibrary.org/obo/GO_0033189>)
 

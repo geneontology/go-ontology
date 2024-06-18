@@ -296,8 +296,6 @@ GO:0033009	nucleomorph	NCBITaxon:33090	Viridiplantae
 GO:0033104	type VI protein secretion system complex	NCBITaxon:2	Bacteria	
 GO:0033105	chlorosome envelope	NCBITaxon:Union_0000004	Prokaryota	
 GO:0033173	calcineurin-NFAT signaling cascade	NCBITaxon:33208	Metazoa	
-GO:0033174	chloroplast proton-transporting ATP synthase complex, catalytic core CF(1)	NCBITaxon:33090	Viridiplantae	
-GO:0033175	chloroplast proton-transporting ATP synthase complex, coupling factor CF(o)	NCBITaxon:33090	Viridiplantae	
 GO:0033189	response to vitamin A	NCBITaxon:33208	Metazoa	
 GO:0033290	eukaryotic 48S preinitiation complex	NCBITaxon:2759	Eukaryota	
 GO:0033291	eukaryotic 80S initiation complex	NCBITaxon:2759	Eukaryota	
