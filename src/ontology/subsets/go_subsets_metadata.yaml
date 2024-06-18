@@ -219,12 +219,12 @@ subsets:
     taxa:
      - id: NCBITaxon:408169
        label: metagenomes
-    contact: 
+    contact:
       email: metagenomics-help@ebi.ac.uk
       label: MGnify helpdesk
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
-      - email: 
+      - email:
         label: Alex Mitchell
         orcid:  https://orcid.org/0000-0001-8655-7966
         github: almitchell
@@ -375,7 +375,7 @@ subsets:
     tracker: https://github.com/geneontology/go-ontology/issues
     contact:
       - email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+        label: GO Ontology Curators
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
       - email: go-ontology@lists.stanford.edu
