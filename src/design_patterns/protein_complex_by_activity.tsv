@@ -190,7 +190,6 @@ http://purl.obolibrary.org/obo/GO_1903114	silver ion transmembrane transporter c
 http://purl.obolibrary.org/obo/GO_0017117	single-stranded DNA-dependent ATP-dependent DNA helicase complex	http://purl.obolibrary.org/obo/GO_0017116	single-stranded DNA helicase activity
 http://purl.obolibrary.org/obo/GO_0034706	sodium channel complex	http://purl.obolibrary.org/obo/GO_0005272	sodium channel activity
 http://purl.obolibrary.org/obo/GO_0005890	sodium:potassium-exchanging ATPase complex	http://purl.obolibrary.org/obo/GO_0005391	P-type sodium:potassium-exchanging transporter activity
-http://purl.obolibrary.org/obo/GO_0045281	succinate dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0000104	succinate dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_0042709	succinate-CoA ligase complex	http://purl.obolibrary.org/obo/GO_0004774	succinate-CoA ligase activity
 http://purl.obolibrary.org/obo/GO_0009361	succinate-CoA ligase complex (ADP-forming)	http://purl.obolibrary.org/obo/GO_0004775	succinate-CoA ligase (ADP-forming) activity
 http://purl.obolibrary.org/obo/GO_0045244	succinate-CoA ligase complex (GDP-forming)	http://purl.obolibrary.org/obo/GO_0004776	succinate-CoA ligase (GDP-forming) activity
