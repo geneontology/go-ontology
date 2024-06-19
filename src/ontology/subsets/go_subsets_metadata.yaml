@@ -13,7 +13,7 @@ subsets:
         label: all organisms
     contact:
       email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
   - id: gocheck_do_not_annotate
     title: GO antislim
@@ -26,11 +26,11 @@ subsets:
         label: all organisms
     contact:
       email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
       - email: go-ontology@lists.stanford.edu
-        label: GO Ontology Curators
+        label: GO Ontology Editors
   - id: gocheck_do_not_manually_annotate
     title: Terms not allowed for manual annotation
     short_label: Do not manually annotate
@@ -44,10 +44,10 @@ subsets:
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
       - email: go-ontology@lists.stanford.edu
-        label: GO Ontology Curators
+        label: GO Ontology Editors
     contact:
       email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
   - id: gocheck_obsoletion_candidate
     title: Obsoletion candidate subset
     short_label: Obsoletion candidate subset
@@ -59,11 +59,11 @@ subsets:
         label: all organisms
     contact:
       email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
       - email: go-ontology@lists.stanford.edu
-        label: GO Ontology Curators
+        label: GO Ontology Editors
   - id: goslim_agr
     title: AGR slim
     role: Ribbon
@@ -75,7 +75,7 @@ subsets:
         label: Opisthokonta
     contact:
       email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
       - email: Mary.Dolan@jax.org
@@ -146,7 +146,7 @@ subsets:
         label: Insecta
     contact:
       email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
         - email: gocur@morgan.harvard.edu
@@ -164,11 +164,11 @@ subsets:
         label: Eukaryota
     contact:
       email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
       - email: go-ontology@lists.stanford.edu
-        label: GO Ontology Curators
+        label: GO Ontology Editors
   - id: goslim_flyBase_ribbon
     title: FlyBase Ribbon slim
     short_label: Insects
@@ -180,7 +180,7 @@ subsets:
         label: Insecta
     contact:
       email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
       - email: gocur@morgan.harvard.edu
@@ -198,16 +198,23 @@ subsets:
         label: all organisms
     contact:
       email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
       - email: go-ontology@lists.stanford.edu
-        label: GO Ontology Curators
+        label: GO Ontology Editors
   - id: goslim_goa
     title: GOA slim
     status: obsolete
     description: "The GOA slim had not been maintained since 2002, and had no terms in the 2018 version of the ontology. This subset was removed from the ontology."
     archived_url: "http://cvsweb.geneontology.org/cgi-bin/cvsweb.cgi/go/GO_slims/archived_GO_slims/goslim_goa.2002?rev=1.4;content-type=text%2Fplain."
+    contact:
+      email: go-ontology@lists.stanford.edu
+      label: GO Ontology Editors
+    tracker: https://github.com/geneontology/go-ontology/issues
+    contributors:
+      - email: go-ontology@lists.stanford.edu
+        label: GO Ontology Editors
   - id: goslim_metagenomics
     title: Metagenomics slim
     short_label: Metagenomics
@@ -276,7 +283,7 @@ subsets:
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
       - email: go-ontology@lists.stanford.edu
-        label: GO Ontology Curators
+        label: GO Ontology Editors
   - id: goslim_plant
     title: Plant slim
     short_label: Plants
@@ -326,11 +333,11 @@ subsets:
         label: Archaea
     contact:
       email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
       - email: go-ontology@lists.stanford.edu
-        label: GO Ontology Curators
+        label: GO Ontology Editors
   - id: goslim_synapse
     title: synapse GO slim
     short_label: SynGO
@@ -375,11 +382,11 @@ subsets:
     tracker: https://github.com/geneontology/go-ontology/issues
     contact:
       - email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
       - email: go-ontology@lists.stanford.edu
-        label: GO Ontology Curators
+        label: GO Ontology Editors
   - id: goslim_yeast
     title: Yeast slim
     short_label: Yeast
@@ -411,7 +418,7 @@ subsets:
         label: Bacteria
     contact:
       email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
   - id: mf_needs_review
     title: MF terms to be reviewed
@@ -420,7 +427,7 @@ subsets:
     archived_url: http://release.geneontology.org/2018-07-02/ontology/subsets/mf_needs_review.obo
     contact:
       email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
     see_also:
       - https://github.com/geneontology/go-ontology/issues/16166
@@ -430,7 +437,7 @@ subsets:
     description: "Term Genie terms to be reviewed."
     contact:
       email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
   - id: obsolete_virus_checked
     title: Virus checked
@@ -442,5 +449,5 @@ subsets:
         label: Viruses
     contact:
       email: go-ontology@lists.stanford.edu
-      label: GO Ontology Curators
+      label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
