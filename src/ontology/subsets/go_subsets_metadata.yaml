@@ -149,10 +149,10 @@ subsets:
       label: GO Ontology Curators
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
-        - email: gocur@morgan.harvard.edu
-          label: GO FlyBase curators
-          orcid: orcid:0000-0003-3212-6364
-          github: hattrill
+      - email: gocur@morgan.harvard.edu
+        label: GO FlyBase curators
+        orcid: orcid:0000-0003-3212-6364
+        github: hattrill
   - id: goslim_euk_cellular_processes_ribbon
     title: GO ribbon for eukaroytic cellular processes
     short_label: Eukaroytic cellular processes
@@ -219,14 +219,14 @@ subsets:
     taxa:
      - id: NCBITaxon:408169
        label: metagenomes
-    contact: 
+    contact:
       email: metagenomics-help@ebi.ac.uk
       label: MGnify helpdesk
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
-      - email: 
+      - email:
         label: Alex Mitchell
-        orcid:  https://orcid.org/0000-0001-8655-7966
+        orcid: orcid:0000-0001-8655-7966
         github: almitchell
   - id: goslim_mouse
     title: Mouse GO slim
@@ -374,7 +374,7 @@ subsets:
         label: Viruses
     tracker: https://github.com/geneontology/go-ontology/issues
     contact:
-      - email: go-ontology@lists.stanford.edu
+      email: go-ontology@lists.stanford.edu
       label: GO Ontology Curators
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
