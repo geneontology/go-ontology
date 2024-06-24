@@ -1,4 +1,6 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:0008088	axo-dendritic transport	NCBITaxon:33208	Metazoa	
+GO:0099563	modification of synaptic structure	NCBITaxon:33208	Metazoa	
 GO:0000132	establishment of mitotic spindle orientation	NCBITaxon:2759	Eukaryota	
 GO:0000165	MAPK cascade	NCBITaxon:2759	Eukaryota	
 GO:0000278	mitotic cell cycle	NCBITaxon:2759	Eukaryota	
