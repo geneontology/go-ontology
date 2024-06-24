@@ -1,4 +1,5 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:1901004	ubiquinone-6 metabolic process	NCBITaxon:4895	Schizosaccharomyces	
 GO:0000131	incipient cellular bud site	NCBITaxon:4895	Schizosaccharomyces	
 GO:0000795	synaptonemal complex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0000804	W chromosome	NCBITaxon:40674	Mammalia	
