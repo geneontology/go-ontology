@@ -52,6 +52,7 @@ http://purl.obolibrary.org/obo/GO_0021787	chemorepulsion of branchiomotor neuron
 http://purl.obolibrary.org/obo/GO_1900865	chloroplast RNA modification	http://purl.obolibrary.org/obo/GO_0009507	chloroplast	http://purl.obolibrary.org/obo/GO_0009451	RNA modification
 http://purl.obolibrary.org/obo/GO_1900871	chloroplast mRNA modification	http://purl.obolibrary.org/obo/GO_0009507	chloroplast	http://purl.obolibrary.org/obo/GO_0016556	mRNA modification
 http://purl.obolibrary.org/obo/GO_0010239	chloroplast mRNA processing	http://purl.obolibrary.org/obo/GO_0009507	chloroplast	http://purl.obolibrary.org/obo/GO_0006397	mRNA processing
+http://purl.obolibrary.org/obo/GO_0033614	chloroplast proton-transporting ATP synthase complex assembly	http://purl.obolibrary.org/obo/GO_0009507	chloroplast	http://purl.obolibrary.org/obo/GO_0043461	proton-transporting ATP synthase complex assembly
 http://purl.obolibrary.org/obo/GO_1901259	chloroplast rRNA processing	http://purl.obolibrary.org/obo/GO_0009507	chloroplast	http://purl.obolibrary.org/obo/GO_0006364	rRNA processing
 http://purl.obolibrary.org/obo/GO_1902488	cholangiocyte apoptotic process	http://purl.obolibrary.org/obo/CL_1000488	cholangiocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_1990765	colon smooth muscle contraction	http://purl.obolibrary.org/obo/UBERON_0001155	colon	http://purl.obolibrary.org/obo/GO_0006939	smooth muscle contraction
@@ -253,6 +254,7 @@ http://purl.obolibrary.org/obo/GO_0032294	peripheral nervous system non-myelinat
 http://purl.obolibrary.org/obo/GO_0080172	petal epidermis patterning	http://purl.obolibrary.org/obo/PO_0006041	petal epidermis	http://purl.obolibrary.org/obo/GO_0007389	pattern specification process
 http://purl.obolibrary.org/obo/GO_0080175	phragmoplast microtubule organization	http://purl.obolibrary.org/obo/GO_0009524	phragmoplast	http://purl.obolibrary.org/obo/GO_0000226	microtubule cytoskeleton organization
 http://purl.obolibrary.org/obo/GO_0042774	plasma membrane ATP synthesis coupled electron transport	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane	http://purl.obolibrary.org/obo/GO_0042773	ATP synthesis coupled electron transport
+http://purl.obolibrary.org/obo/GO_0033616	plasma membrane proton-transporting ATP synthase complex assembly	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane	http://purl.obolibrary.org/obo/GO_0043461	proton-transporting ATP synthase complex assembly
 http://purl.obolibrary.org/obo/GO_0002470	plasmacytoid dendritic cell antigen processing and presentation	http://purl.obolibrary.org/obo/CL_0000784	plasmacytoid dendritic cell	http://purl.obolibrary.org/obo/GO_0019882	antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_0033259	plastid DNA replication	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006261	DNA-templated DNA replication
 http://purl.obolibrary.org/obo/GO_1900160	plastid chromosome packaging	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0051276	chromosome organization
