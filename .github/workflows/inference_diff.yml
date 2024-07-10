@@ -1,5 +1,6 @@
 name: Inference diff
-
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 on:
   # Triggers the workflow on pull request events for the master branch
   pull_request:
