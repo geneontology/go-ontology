@@ -217,6 +217,7 @@ subsets:
         label: GO Ontology Editors
   - id: goslim_metagenomics
     title: Metagenomics slim
+    role: Binning
     short_label: Metagenomics
     status: active
     description: A slim for high-level visualisation of the functional profile of metagenomic samples
