@@ -47,7 +47,6 @@ http://purl.obolibrary.org/obo/GO_0048179	activin receptor complex	http://purl.o
 http://purl.obolibrary.org/obo/GO_1902503	adenylyltransferase complex	http://purl.obolibrary.org/obo/GO_0070566	adenylyltransferase activity
 http://purl.obolibrary.org/obo/GO_1903143	adrenomedullin receptor complex	http://purl.obolibrary.org/obo/GO_0001605	adrenomedullin receptor activity
 http://purl.obolibrary.org/obo/GO_1990201	alkanesulfonate monooxygenase complex	http://purl.obolibrary.org/obo/GO_0008726	alkanesulfonate monooxygenase activity
-http://purl.obolibrary.org/obo/GO_0009321	alkyl hydroperoxide reductase complex	http://purl.obolibrary.org/obo/GO_0008785	alkyl hydroperoxide reductase activity
 http://purl.obolibrary.org/obo/GO_0005946	alpha,alpha-trehalose-phosphate synthase complex (UDP-forming)	http://purl.obolibrary.org/obo/GO_0003825	alpha,alpha-trehalose-phosphate synthase (UDP-forming) activity
 http://purl.obolibrary.org/obo/GO_0061694	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase complex	http://purl.obolibrary.org/obo/GO_0061693	alpha-D-ribose 1-methylphosphonate 5-triphosphate synthase activity
 http://purl.obolibrary.org/obo/GO_0110067	ammonium transmembrane transporter complex	http://purl.obolibrary.org/obo/GO_0008519	ammonium channel activity
@@ -76,7 +75,6 @@ http://purl.obolibrary.org/obo/GO_0009319	cytochrome o ubiquinol oxidase complex
 http://purl.obolibrary.org/obo/GO_0140368	decoy receptor complex	http://purl.obolibrary.org/obo/GO_0140319	receptor decoy activity
 http://purl.obolibrary.org/obo/GO_1904423	dehydrodolichyl diphosphate synthase complex	http://purl.obolibrary.org/obo/GO_0045547	dehydrodolichyl diphosphate synthase activity
 http://purl.obolibrary.org/obo/GO_0140690	dihydropyrimidine dehydrogenase (NAD+) complex	http://purl.obolibrary.org/obo/GO_0004159	dihydropyrimidine dehydrogenase (NAD+) activity
-http://purl.obolibrary.org/obo/GO_0009390	dimethyl sulfoxide reductase complex	http://purl.obolibrary.org/obo/GO_0009389	dimethyl sulfoxide reductase activity
 http://purl.obolibrary.org/obo/GO_1990281	efflux pump complex	http://purl.obolibrary.org/obo/GO_0015562	efflux transmembrane transporter activity
 http://purl.obolibrary.org/obo/GO_1905347	endodeoxyribonuclease complex	http://purl.obolibrary.org/obo/GO_0004520	DNA endonuclease activity
 http://purl.obolibrary.org/obo/GO_1905369	endopeptidase complex	http://purl.obolibrary.org/obo/GO_0004175	endopeptidase activity

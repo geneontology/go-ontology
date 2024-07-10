@@ -1,4 +1,6 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:0008088	axo-dendritic transport	NCBITaxon:33208	Metazoa	
+GO:0099563	modification of synaptic structure	NCBITaxon:33208	Metazoa	
 GO:0000132	establishment of mitotic spindle orientation	NCBITaxon:2759	Eukaryota	
 GO:0000165	MAPK cascade	NCBITaxon:2759	Eukaryota	
 GO:0000278	mitotic cell cycle	NCBITaxon:2759	Eukaryota	
@@ -483,7 +485,6 @@ GO:0062023	collagen-containing extracellular matrix	NCBITaxon:33208	Metazoa
 GO:0070057	prospore membrane spindle pole body attachment site	NCBITaxon:4751	Fungi	
 GO:0070196	eukaryotic translation initiation factor 3 complex assembly	NCBITaxon:2759	Eukaryota	
 GO:0070258	inner membrane pellicle complex	NCBITaxon:5794	Apicomplexa	
-GO:0070470	plasma membrane respirasome	NCBITaxon:2	Bacteria	
 GO:0070527	platelet aggregation	NCBITaxon:33208	Metazoa	
 GO:0070631	spindle pole body localization	NCBITaxon:4751	Fungi	
 GO:0070648	formin-nucleated actin cable	NCBITaxon:2759	Eukaryota	
