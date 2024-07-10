@@ -3,7 +3,8 @@ description: Subsets
 subsets:
   - id: goantislim_grouping
     title: GO antislim
-    role: ExclusionList
+    role:
+      - ExclusionList
     short_label: goantislim
     status: obsolete
     description: Grouping classes that can be excluded in enrichment analyses etc.
@@ -17,7 +18,8 @@ subsets:
     tracker: https://github.com/geneontology/go-ontology/issues
   - id: gocheck_do_not_annotate
     title: GO antislim
-    role: ExclusionList
+    role:
+      - ExclusionList
     short_label: Do not annotate
     status: active
     description: "Terms that are too high level to be informative for annotation."
@@ -51,7 +53,8 @@ subsets:
   - id: gocheck_obsoletion_candidate
     title: Obsoletion candidate subset
     short_label: Obsoletion candidate subset
-    role: ExclusionList
+    role:
+      - ExclusionList
     status: active
     description: "Terms that are scheduled for obsoletion."
     taxa:
@@ -66,7 +69,8 @@ subsets:
         label: GO Ontology Editors
   - id: goslim_agr
     title: AGR slim
-    role: Ribbon
+    role:
+      - Ribbon
     short_label: Animals and fungi (Opisthokonta)
     status: active
     description: "Subset for Alliance of Genome Resources (AGR). The purpose of this subsets is mainly to drive the 'ribbon' display."
@@ -84,7 +88,8 @@ subsets:
   - id: goslim_aspergillus
     title: Aspergillus slim
     short_label: Aspergillus
-    role: Binning
+    role:
+      - Binning
     status: obsolete
     description: "Aspergillus GO slim."
     taxa:
@@ -102,7 +107,8 @@ subsets:
   - id: goslim_candida
     title: Candida slim
     short_label: Candida
-    role: Binning
+    role:
+      - Binning
     status: active
     description: "Candida GO slim."
     taxa:
@@ -120,7 +126,8 @@ subsets:
   - id: goslim_chembl
     title: ChEMBL slim
     short_label: ChEMBL
-    role: Binning
+    role:
+      - Binning
     status: active
     description: "Subset for ChEMBL."  ## TODO: add more details
     taxa:
@@ -138,7 +145,8 @@ subsets:
   - id: goslim_drosophila
     title: Drosophila subset
     short_label: Insects
-    role: Binning
+    role:
+      - Binning
     status: active
     description: "GO subset for insects. This subset can be used for binning purposes, most annotations should map to a term in the subset."
     taxa:
@@ -149,14 +157,15 @@ subsets:
       label: GO Ontology Editors
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
-        - email: gocur@morgan.harvard.edu
-          label: GO FlyBase curators
-          orcid: orcid:0000-0003-3212-6364
-          github: hattrill
+      - email: gocur@morgan.harvard.edu
+        label: GO FlyBase curators
+        orcid: orcid:0000-0003-3212-6364
+        github: hattrill
   - id: goslim_euk_cellular_processes_ribbon
     title: GO ribbon for eukaroytic cellular processes
     short_label: Eukaroytic cellular processes
-    role: Ribbon
+    role:
+      - Ribbon
     status: active
     description: "GO ribbon subset that mainly serves to drive the UniProt 'ribbon' display for cellular processes in eukaryotes."
     taxa:
@@ -172,7 +181,8 @@ subsets:
   - id: goslim_flyBase_ribbon
     title: FlyBase Ribbon slim
     short_label: Insects
-    role: Ribbon
+    role:
+      - Ribbon
     status: active
     description: "Insect GO ribbon subset produced by FlyBase. The purpose of this subset is mainly to drive the Flybase and the UniProt 'ribbon' display."
     taxa:
@@ -189,7 +199,8 @@ subsets:
         github: hattrill
   - id: goslim_generic
     title: Generic GO subset
-    role: Binning
+    role:
+      - Binning
     short_label: All organisms
     status: active
     description: Generic GO subset. Applies to all species. This slim can be used for binning purposes, most annotations should map to a term in the slim.
@@ -217,8 +228,9 @@ subsets:
         label: GO Ontology Editors
   - id: goslim_metagenomics
     title: Metagenomics slim
-    role: Binning
     short_label: Metagenomics
+    role:
+      - Binning
     status: active
     description: A slim for high-level visualisation of the functional profile of metagenomic samples
     see_also:
@@ -227,19 +239,20 @@ subsets:
     taxa:
      - id: NCBITaxon:408169
        label: metagenomes
-    contact: 
+    contact:
       email: metagenomics-help@ebi.ac.uk
       label: MGnify helpdesk
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
-      - email: 
+      - email: mitchell@ebi.ac.uk
         label: Alex Mitchell
-        orcid:  https://orcid.org/0000-0001-8655-7966
+        orcid: orcid:0000-0001-8655-7966
         github: almitchell
   - id: goslim_mouse
     title: Mouse GO slim
     short_label: Mouse
-    role: Binning
+    role:
+      - Binning
     status: active
     description: "Mouse GO subset."
     taxa:
@@ -257,7 +270,8 @@ subsets:
   - id: goslim_pir
     title: PIR slim
     short_label: PIR
-    role: Binning
+    role:
+      - Binning
     status: active
     description: "PIR (Protein Information Resource) slim"  ## TODO: better describe this
     taxa:
@@ -275,7 +289,8 @@ subsets:
   - id: goslim_plant_ribbon
     title: Plant Ribbon subset
     short_label: Plants
-    role: Ribbon
+    role:
+      - Ribbon
     status: active
     description: "GO ribbon subset that mainly serves to drive the UniProt 'ribbon' display for plant and algae species."
     taxa:
@@ -288,7 +303,8 @@ subsets:
   - id: goslim_plant
     title: Plant slim
     short_label: Plants
-    role: Binning
+    role:
+      - Binning
     status: active
     description: "Plant GO subset."
     taxa:
@@ -306,7 +322,8 @@ subsets:
   - id: goslim_pombe
     title: Schizosaccharomyces pombe slim
     short_label: Schizosaccharomyces pombe
-    role: Binning
+    role:
+      - Binning
     status: active
     description: "Schizosaccharomyces pombe GO subset."
     taxa:
@@ -324,7 +341,8 @@ subsets:
   - id: goslim_prokaroyte_ribbon
     title: Prokaryote Ribbon slim
     short_label: Bacteria and Archaea (Prokaryotes)
-    role: Ribbon
+    role:
+      - Ribbon
     status: active
     description: "Prokaryote GO ribbon subset that mainly serves to drive the UniProt 'ribbon' display for prokaryote organisms."
     taxa:
@@ -342,7 +360,8 @@ subsets:
   - id: goslim_synapse
     title: synapse GO slim
     short_label: SynGO
-    role: Binning
+    role:
+      - Binning
     status: active
     description: "Synapse GO slim provided by SynGO. This is the subset of GO terms available for annotation in the SynGO tool."
     taxa:
@@ -376,14 +395,16 @@ subsets:
     short_label: Viruses
     status: active
     description: Virus-relevant terms
-    role: Binning, Ribbon
+    role:
+      - Binning
+      - Ribbon
     taxa:
       - id: NCBITaxon:10239
         label: Viruses
     tracker: https://github.com/geneontology/go-ontology/issues
     contact:
-      - email: go-ontology@lists.stanford.edu
-      label: GO Ontology Editors
+      email: go-ontology@lists.stanford.edu
+      label: GO Ontology Curators
     tracker: https://github.com/geneontology/go-ontology/issues
     contributors:
       - email: go-ontology@lists.stanford.edu
@@ -392,7 +413,8 @@ subsets:
     title: Yeast slim
     short_label: Yeast
     status: active
-    role: Binning
+    role:
+      - Binning
     description: "Saccharomyces cerevisiae GO slim"
     taxa:
       - id: NCBITaxon:559292
