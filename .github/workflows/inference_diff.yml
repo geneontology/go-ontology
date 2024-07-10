@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Classify ontology
         run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' reasoned.owl
       - name: Upload PR reasoned.owl
@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           ref: master
       - name: Classify ontology
@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Download master classification
         uses: actions/download-artifact@v2
         with:
@@ -68,7 +68,7 @@ jobs:
     runs-on: ubuntu-latest
     container: docker://dvcorg/cml-py3:latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Download diff
         uses: actions/download-artifact@v2
         with:
