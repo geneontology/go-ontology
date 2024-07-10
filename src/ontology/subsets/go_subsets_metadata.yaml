@@ -228,6 +228,7 @@ subsets:
         label: GO Ontology Editors
   - id: goslim_metagenomics
     title: Metagenomics slim
+    role: Binning
     short_label: Metagenomics
     role:
       - Tag
