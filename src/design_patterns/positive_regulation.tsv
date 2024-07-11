@@ -165,7 +165,7 @@ http://purl.obolibrary.org/obo/GO_1904665	positive regulation of N-terminal pept
 http://purl.obolibrary.org/obo/GO_1902391	positive regulation of N-terminal peptidyl-serine acetylation	http://purl.obolibrary.org/obo/GO_0017198	N-terminal peptidyl-serine acetylation
 http://purl.obolibrary.org/obo/GO_1902690	positive regulation of NAD metabolic process	http://purl.obolibrary.org/obo/GO_0019674	NAD metabolic process
 http://purl.obolibrary.org/obo/GO_0033864	positive regulation of NAD(P)H oxidase activity	http://purl.obolibrary.org/obo/GO_0016174	NAD(P)H oxidase H2O2-forming activity
-http://purl.obolibrary.org/obo/GO_1901666	positive regulation of NAD+ ADP-ribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0003950	NAD+ ADP-ribosyltransferase activity
+http://purl.obolibrary.org/obo/GO_1901666	positive regulation of NAD+ ADP-ribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0003950	NAD+-protein poly-ADP-ribosyltransferase activity
 http://purl.obolibrary.org/obo/GO_0033672	positive regulation of NAD+ kinase activity	http://purl.obolibrary.org/obo/GO_0003951	NAD+ kinase activity
 http://purl.obolibrary.org/obo/GO_0051135	positive regulation of NK T cell activation	http://purl.obolibrary.org/obo/GO_0051132	NK T cell activation
 http://purl.obolibrary.org/obo/GO_0051138	positive regulation of NK T cell differentiation	http://purl.obolibrary.org/obo/GO_0001865	NK T cell differentiation
@@ -2617,7 +2617,6 @@ http://purl.obolibrary.org/obo/GO_0062090	positive regulation of taurine biosynt
 http://purl.obolibrary.org/obo/GO_0075257	positive regulation of teliospore formation	http://purl.obolibrary.org/obo/GO_0075255	teliospore formation
 http://purl.obolibrary.org/obo/GO_0075277	positive regulation of telium development	http://purl.obolibrary.org/obo/GO_0075275	telium development
 http://purl.obolibrary.org/obo/GO_1904874	positive regulation of telomerase RNA localization to Cajal body	http://purl.obolibrary.org/obo/GO_0090671	telomerase RNA localization to Cajal body
-http://purl.obolibrary.org/obo/GO_1905663	positive regulation of telomerase RNA reverse transcriptase activity	http://purl.obolibrary.org/obo/GO_0003721	telomerase RNA reverse transcriptase activity
 http://purl.obolibrary.org/obo/GO_0051973	positive regulation of telomerase activity	http://purl.obolibrary.org/obo/GO_0003720	telomerase activity
 http://purl.obolibrary.org/obo/GO_1904884	positive regulation of telomerase catalytic core complex assembly	http://purl.obolibrary.org/obo/GO_1904868	telomerase catalytic core complex assembly
 http://purl.obolibrary.org/obo/GO_1904355	positive regulation of telomere capping	http://purl.obolibrary.org/obo/GO_0016233	telomere capping
