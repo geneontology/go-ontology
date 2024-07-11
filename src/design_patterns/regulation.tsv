@@ -187,7 +187,7 @@ http://purl.obolibrary.org/obo/GO_1902390	regulation of N-terminal peptidyl-seri
 http://purl.obolibrary.org/obo/GO_0060254	regulation of N-terminal protein palmitoylation	http://purl.obolibrary.org/obo/GO_0006500	N-terminal protein palmitoylation
 http://purl.obolibrary.org/obo/GO_1902688	regulation of NAD metabolic process	http://purl.obolibrary.org/obo/GO_0019674	NAD metabolic process
 http://purl.obolibrary.org/obo/GO_0033860	regulation of NAD(P)H oxidase activity	http://purl.obolibrary.org/obo/GO_0016174	NAD(P)H oxidase H2O2-forming activity
-http://purl.obolibrary.org/obo/GO_1901664	regulation of NAD+ ADP-ribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0003950	NAD+ ADP-ribosyltransferase activity
+http://purl.obolibrary.org/obo/GO_1901664	regulation of NAD+ ADP-ribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0003950	NAD+-protein poly-ADP-ribosyltransferase activity
 http://purl.obolibrary.org/obo/GO_0033670	regulation of NAD+ kinase activity	http://purl.obolibrary.org/obo/GO_0003951	NAD+ kinase activity
 http://purl.obolibrary.org/obo/GO_1902031	regulation of NADP metabolic process	http://purl.obolibrary.org/obo/GO_0006739	NADP metabolic process
 http://purl.obolibrary.org/obo/GO_0051133	regulation of NK T cell activation	http://purl.obolibrary.org/obo/GO_0051132	NK T cell activation
@@ -2976,7 +2976,6 @@ http://purl.obolibrary.org/obo/GO_0062089	regulation of taurine biosynthetic pro
 http://purl.obolibrary.org/obo/GO_0075256	regulation of teliospore formation	http://purl.obolibrary.org/obo/GO_0075255	teliospore formation
 http://purl.obolibrary.org/obo/GO_0075276	regulation of telium development	http://purl.obolibrary.org/obo/GO_0075275	telium development
 http://purl.obolibrary.org/obo/GO_1904872	regulation of telomerase RNA localization to Cajal body	http://purl.obolibrary.org/obo/GO_0090671	telomerase RNA localization to Cajal body
-http://purl.obolibrary.org/obo/GO_1905661	regulation of telomerase RNA reverse transcriptase activity	http://purl.obolibrary.org/obo/GO_0003721	telomerase RNA reverse transcriptase activity
 http://purl.obolibrary.org/obo/GO_0051972	regulation of telomerase activity	http://purl.obolibrary.org/obo/GO_0003720	telomerase activity
 http://purl.obolibrary.org/obo/GO_1904882	regulation of telomerase catalytic core complex assembly	http://purl.obolibrary.org/obo/GO_1904868	telomerase catalytic core complex assembly
 http://purl.obolibrary.org/obo/GO_1904353	regulation of telomere capping	http://purl.obolibrary.org/obo/GO_0016233	telomere capping
