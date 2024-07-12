@@ -1,4 +1,8 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:0033309	SBF transcription complex	NCBITaxon:4895	Schizosaccharomyces	
+GO:1902767	isoprenoid biosynthetic process via mevalonate	NCBITaxon:2	Bacteria		
+GO:0019288	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	NCBITaxon:4751	Fungi	
+GO:0019288	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	NCBITaxon:33208	Metazoa	
 GO:0050435	amyloid-beta metabolic process	NCBITaxon:4751	Fungi	
 GO:0042632	cholesterol homeostasis	NCBITaxon:4751	Fungi	
 GO:1901004	ubiquinone-6 metabolic process	NCBITaxon:4895	Schizosaccharomyces	
