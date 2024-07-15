@@ -236,7 +236,6 @@ http://purl.obolibrary.org/obo/GO_0043596	nuclear replication fork	http://purl.o
 http://purl.obolibrary.org/obo/GO_0000152	nuclear ubiquitin ligase complex	http://purl.obolibrary.org/obo/GO_0000151	ubiquitin ligase complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/GO_0039715	nuclear viral factory	http://purl.obolibrary.org/obo/GO_0039713	viral factory	http://purl.obolibrary.org/obo/GO_0042025	host cell nucleus
 http://purl.obolibrary.org/obo/GO_0101019	nucleolar exosome (RNase complex)	http://purl.obolibrary.org/obo/GO_0000178	exosome (RNase complex)	http://purl.obolibrary.org/obo/GO_0005730	nucleolus
-http://purl.obolibrary.org/obo/GO_0030685	nucleolar preribosome	http://purl.obolibrary.org/obo/GO_0030684	preribosome	http://purl.obolibrary.org/obo/GO_0005730	nucleolus
 http://purl.obolibrary.org/obo/GO_0005655	nucleolar ribonuclease P complex	http://purl.obolibrary.org/obo/GO_0030677	ribonuclease P complex	http://purl.obolibrary.org/obo/GO_0005730	nucleolus
 http://purl.obolibrary.org/obo/GO_0070112	organellar chromatophore membrane	http://purl.obolibrary.org/obo/GO_0016020	membrane	http://purl.obolibrary.org/obo/GO_0070111	organellar chromatophore
 http://purl.obolibrary.org/obo/GO_0070116	organellar chromatophore thylakoid	http://purl.obolibrary.org/obo/GO_0009579	thylakoid	http://purl.obolibrary.org/obo/GO_0070111	organellar chromatophore
