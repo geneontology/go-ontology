@@ -621,6 +621,7 @@ http://purl.obolibrary.org/obo/GO_1905935	positive regulation of cell fate deter
 http://purl.obolibrary.org/obo/GO_0042660	positive regulation of cell fate specification	http://purl.obolibrary.org/obo/GO_0001708	cell fate specification
 http://purl.obolibrary.org/obo/GO_0030307	positive regulation of cell growth	http://purl.obolibrary.org/obo/GO_0016049	cell growth
 http://purl.obolibrary.org/obo/GO_0061051	positive regulation of cell growth involved in cardiac muscle cell development	http://purl.obolibrary.org/obo/GO_0061049	cell growth involved in cardiac muscle cell development
+http://purl.obolibrary.org/obo/GO_1903139	positive regulation of cell integrity MAPK cascade	http://purl.obolibrary.org/obo/GO_0000196	cell integrity MAPK cascade
 http://purl.obolibrary.org/obo/GO_1901890	positive regulation of cell junction assembly	http://purl.obolibrary.org/obo/GO_0034329	cell junction assembly
 http://purl.obolibrary.org/obo/GO_0031343	positive regulation of cell killing	http://purl.obolibrary.org/obo/GO_0001906	cell killing
 http://purl.obolibrary.org/obo/GO_1903431	positive regulation of cell maturation	http://purl.obolibrary.org/obo/GO_0048469	cell maturation
@@ -640,7 +641,6 @@ http://purl.obolibrary.org/obo/GO_1901724	positive regulation of cell proliferat
 http://purl.obolibrary.org/obo/GO_2000608	positive regulation of cell proliferation involved in mesonephros development	http://purl.obolibrary.org/obo/GO_0061209	cell proliferation involved in mesonephros development
 http://purl.obolibrary.org/obo/GO_1901964	positive regulation of cell proliferation involved in outflow tract morphogenesis	http://purl.obolibrary.org/obo/GO_0061325	cell proliferation involved in outflow tract morphogenesis
 http://purl.obolibrary.org/obo/GO_1901893	positive regulation of cell septum assembly	http://purl.obolibrary.org/obo/GO_0090529	cell septum assembly
-http://purl.obolibrary.org/obo/GO_1903139	positive regulation of cell wall integrity MAPK cascade	http://purl.obolibrary.org/obo/GO_0000196	cell wall integrity MAPK cascade
 http://purl.obolibrary.org/obo/GO_1903340	positive regulation of cell wall organization or biogenesis	http://purl.obolibrary.org/obo/GO_0071554	cell wall organization or biogenesis
 http://purl.obolibrary.org/obo/GO_2000968	positive regulation of cell wall polysaccharide catabolic process	http://purl.obolibrary.org/obo/GO_0044347	cell wall polysaccharide catabolic process
 http://purl.obolibrary.org/obo/GO_0022409	positive regulation of cell-cell adhesion	http://purl.obolibrary.org/obo/GO_0098609	cell-cell adhesion
@@ -2617,7 +2617,6 @@ http://purl.obolibrary.org/obo/GO_0062090	positive regulation of taurine biosynt
 http://purl.obolibrary.org/obo/GO_0075257	positive regulation of teliospore formation	http://purl.obolibrary.org/obo/GO_0075255	teliospore formation
 http://purl.obolibrary.org/obo/GO_0075277	positive regulation of telium development	http://purl.obolibrary.org/obo/GO_0075275	telium development
 http://purl.obolibrary.org/obo/GO_1904874	positive regulation of telomerase RNA localization to Cajal body	http://purl.obolibrary.org/obo/GO_0090671	telomerase RNA localization to Cajal body
-http://purl.obolibrary.org/obo/GO_0051973	positive regulation of telomerase activity	http://purl.obolibrary.org/obo/GO_0003720	telomerase activity
 http://purl.obolibrary.org/obo/GO_1904884	positive regulation of telomerase catalytic core complex assembly	http://purl.obolibrary.org/obo/GO_1904868	telomerase catalytic core complex assembly
 http://purl.obolibrary.org/obo/GO_1904355	positive regulation of telomere capping	http://purl.obolibrary.org/obo/GO_0016233	telomere capping
 http://purl.obolibrary.org/obo/GO_0032206	positive regulation of telomere maintenance	http://purl.obolibrary.org/obo/GO_0000723	telomere maintenance

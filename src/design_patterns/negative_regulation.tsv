@@ -626,6 +626,7 @@ http://purl.obolibrary.org/obo/GO_1905934	negative regulation of cell fate deter
 http://purl.obolibrary.org/obo/GO_0009996	negative regulation of cell fate specification	http://purl.obolibrary.org/obo/GO_0001708	cell fate specification
 http://purl.obolibrary.org/obo/GO_0030308	negative regulation of cell growth	http://purl.obolibrary.org/obo/GO_0016049	cell growth
 http://purl.obolibrary.org/obo/GO_0061052	negative regulation of cell growth involved in cardiac muscle cell development	http://purl.obolibrary.org/obo/GO_0061049	cell growth involved in cardiac muscle cell development
+http://purl.obolibrary.org/obo/GO_1903138	negative regulation of cell integrity MAPK cascade	http://purl.obolibrary.org/obo/GO_0000196	cell integrity MAPK cascade
 http://purl.obolibrary.org/obo/GO_1901889	negative regulation of cell junction assembly	http://purl.obolibrary.org/obo/GO_0034329	cell junction assembly
 http://purl.obolibrary.org/obo/GO_0031342	negative regulation of cell killing	http://purl.obolibrary.org/obo/GO_0001906	cell killing
 http://purl.obolibrary.org/obo/GO_1903430	negative regulation of cell maturation	http://purl.obolibrary.org/obo/GO_0048469	cell maturation
@@ -645,7 +646,6 @@ http://purl.obolibrary.org/obo/GO_0003252	negative regulation of cell proliferat
 http://purl.obolibrary.org/obo/GO_1901723	negative regulation of cell proliferation involved in kidney development	http://purl.obolibrary.org/obo/GO_0072111	cell proliferation involved in kidney development
 http://purl.obolibrary.org/obo/GO_2000607	negative regulation of cell proliferation involved in mesonephros development	http://purl.obolibrary.org/obo/GO_0061209	cell proliferation involved in mesonephros development
 http://purl.obolibrary.org/obo/GO_1901892	negative regulation of cell septum assembly	http://purl.obolibrary.org/obo/GO_0090529	cell septum assembly
-http://purl.obolibrary.org/obo/GO_1903138	negative regulation of cell wall integrity MAPK cascade	http://purl.obolibrary.org/obo/GO_0000196	cell wall integrity MAPK cascade
 http://purl.obolibrary.org/obo/GO_1903339	negative regulation of cell wall organization or biogenesis	http://purl.obolibrary.org/obo/GO_0071554	cell wall organization or biogenesis
 http://purl.obolibrary.org/obo/GO_2000967	negative regulation of cell wall polysaccharide catabolic process	http://purl.obolibrary.org/obo/GO_0044347	cell wall polysaccharide catabolic process
 http://purl.obolibrary.org/obo/GO_0022408	negative regulation of cell-cell adhesion	http://purl.obolibrary.org/obo/GO_0098609	cell-cell adhesion
@@ -2625,7 +2625,6 @@ http://purl.obolibrary.org/obo/GO_1902948	negative regulation of tau-protein kin
 http://purl.obolibrary.org/obo/GO_0075258	negative regulation of teliospore formation	http://purl.obolibrary.org/obo/GO_0075255	teliospore formation
 http://purl.obolibrary.org/obo/GO_0075278	negative regulation of telium development	http://purl.obolibrary.org/obo/GO_0075275	telium development
 http://purl.obolibrary.org/obo/GO_1904873	negative regulation of telomerase RNA localization to Cajal body	http://purl.obolibrary.org/obo/GO_0090671	telomerase RNA localization to Cajal body
-http://purl.obolibrary.org/obo/GO_0051974	negative regulation of telomerase activity	http://purl.obolibrary.org/obo/GO_0003720	telomerase activity
 http://purl.obolibrary.org/obo/GO_1904883	negative regulation of telomerase catalytic core complex assembly	http://purl.obolibrary.org/obo/GO_1904868	telomerase catalytic core complex assembly
 http://purl.obolibrary.org/obo/GO_1904354	negative regulation of telomere capping	http://purl.obolibrary.org/obo/GO_0016233	telomere capping
 http://purl.obolibrary.org/obo/GO_0032205	negative regulation of telomere maintenance	http://purl.obolibrary.org/obo/GO_0000723	telomere maintenance
