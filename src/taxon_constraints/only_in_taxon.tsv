@@ -923,3 +923,4 @@ GO:0010236	plastoquinone biosynthetic process	NCBITaxon:33090	Viridiplantae
 GO:0051960	regulation of nervous system development	NCBITaxon:6072	Eumetazoa	
 GO:0030428	cell septum	NCBITaxon:Union_0000020	Fungi or Bacteria	
 GO:0018679	dibenzothiophene-5,5-dioxide monooxygenase activity	NCBITaxon:Union_0000004	Prokaryota	
+GO:0031639	plasminogen activation	NCBITaxon:7742	Vertebrata <Metazoa>	
