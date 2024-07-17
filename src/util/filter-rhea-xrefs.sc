@@ -95,9 +95,9 @@ def main(ontologyFile: os.Path, catalogFile: os.Path, rheaFile: os.Path, outFile
   val (defXrefsToRemove, defXrefsToAdd) = defXrefsChanges.unzip
   // Consider exiting to fail the build when obsoletes are present
   obsoleteUsages.foreach(rhea => scribe.error(s"Obsolete Rhea ID used in xref: RHEA:$rhea"))
-  //if (obsoleteUsages.nonEmpty) {
-    //System.exit(1)
-    //}
+  if (obsoleteUsages.nonEmpty) {
+    System.exit(1)
+  }
   manager.applyChanges(xrefsToRemove.to(List).asJava)
   manager.applyChanges(defXrefsToRemove.to(List).asJava)
   manager.applyChanges(defXrefsToAdd.to(List).asJava)
