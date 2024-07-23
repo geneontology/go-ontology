@@ -318,7 +318,6 @@ http://purl.obolibrary.org/obo/GO_1905399	regulation of activated CD4-positive, 
 http://purl.obolibrary.org/obo/GO_1905402	regulation of activated CD8-positive, alpha-beta T cell apoptotic process	http://purl.obolibrary.org/obo/GO_1905397	activated CD8-positive, alpha-beta T cell apoptotic process
 http://purl.obolibrary.org/obo/GO_0070239	regulation of activated T cell autonomous cell death	http://purl.obolibrary.org/obo/GO_0070238	activated T cell autonomous cell death
 http://purl.obolibrary.org/obo/GO_0046006	regulation of activated T cell proliferation	http://purl.obolibrary.org/obo/GO_0050798	activated T cell proliferation
-http://purl.obolibrary.org/obo/GO_0010533	regulation of activation of Janus kinase activity	http://purl.obolibrary.org/obo/GO_0042976	activation of Janus kinase activity
 http://purl.obolibrary.org/obo/GO_0001969	regulation of activation of membrane attack complex	http://purl.obolibrary.org/obo/GO_0001905	activation of membrane attack complex
 http://purl.obolibrary.org/obo/GO_0070235	regulation of activation-induced cell death of T cells	http://purl.obolibrary.org/obo/GO_0006924	activation-induced cell death of T cells
 http://purl.obolibrary.org/obo/GO_0032925	regulation of activin receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0032924	activin receptor signaling pathway
@@ -1364,7 +1363,7 @@ http://purl.obolibrary.org/obo/GO_1903282	regulation of glutathione peroxidase a
 http://purl.obolibrary.org/obo/GO_0090371	regulation of glycerol transport	http://purl.obolibrary.org/obo/GO_0015793	glycerol transmembrane transport
 http://purl.obolibrary.org/obo/GO_1900923	regulation of glycine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903804	glycine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1904624	regulation of glycine secretion, neurotransmission	http://purl.obolibrary.org/obo/GO_0061537	glycine secretion, neurotransmission
-http://purl.obolibrary.org/obo/GO_2000465	regulation of glycogen (starch) synthase activity	http://purl.obolibrary.org/obo/GO_0004373	glycogen (starch) synthase activity
+http://purl.obolibrary.org/obo/GO_2000465	regulation of glycogen (starch) synthase activity	http://purl.obolibrary.org/obo/GO_0004373	alpha-1,4-glucan glucosyltransferase (UDP-glucose donor) activity
 http://purl.obolibrary.org/obo/GO_0005979	regulation of glycogen biosynthetic process	http://purl.obolibrary.org/obo/GO_0005978	glycogen biosynthetic process
 http://purl.obolibrary.org/obo/GO_0005981	regulation of glycogen catabolic process	http://purl.obolibrary.org/obo/GO_0005980	glycogen catabolic process
 http://purl.obolibrary.org/obo/GO_0070873	regulation of glycogen metabolic process	http://purl.obolibrary.org/obo/GO_0005977	glycogen metabolic process
