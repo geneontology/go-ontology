@@ -277,7 +277,6 @@ http://purl.obolibrary.org/obo/GO_1905401	positive regulation of activated CD4-p
 http://purl.obolibrary.org/obo/GO_1905404	positive regulation of activated CD8-positive, alpha-beta T cell apoptotic process	http://purl.obolibrary.org/obo/GO_1905397	activated CD8-positive, alpha-beta T cell apoptotic process
 http://purl.obolibrary.org/obo/GO_0070241	positive regulation of activated T cell autonomous cell death	http://purl.obolibrary.org/obo/GO_0070238	activated T cell autonomous cell death
 http://purl.obolibrary.org/obo/GO_0042104	positive regulation of activated T cell proliferation	http://purl.obolibrary.org/obo/GO_0050798	activated T cell proliferation
-http://purl.obolibrary.org/obo/GO_0010536	positive regulation of activation of Janus kinase activity	http://purl.obolibrary.org/obo/GO_0042976	activation of Janus kinase activity
 http://purl.obolibrary.org/obo/GO_0001970	positive regulation of activation of membrane attack complex	http://purl.obolibrary.org/obo/GO_0001905	activation of membrane attack complex
 http://purl.obolibrary.org/obo/GO_0070237	positive regulation of activation-induced cell death of T cells	http://purl.obolibrary.org/obo/GO_0006924	activation-induced cell death of T cells
 http://purl.obolibrary.org/obo/GO_0032927	positive regulation of activin receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0032924	activin receptor signaling pathway
@@ -1197,7 +1196,7 @@ http://purl.obolibrary.org/obo/GO_0090372	positive regulation of glycerol transp
 http://purl.obolibrary.org/obo/GO_0080114	positive regulation of glycine hydroxymethyltransferase activity	http://purl.obolibrary.org/obo/GO_0004372	glycine hydroxymethyltransferase activity
 http://purl.obolibrary.org/obo/GO_1900925	positive regulation of glycine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903804	glycine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1904626	positive regulation of glycine secretion, neurotransmission	http://purl.obolibrary.org/obo/GO_0061537	glycine secretion, neurotransmission
-http://purl.obolibrary.org/obo/GO_2000467	positive regulation of glycogen (starch) synthase activity	http://purl.obolibrary.org/obo/GO_0004373	glycogen (starch) synthase activity
+http://purl.obolibrary.org/obo/GO_2000467	positive regulation of glycogen (starch) synthase activity	http://purl.obolibrary.org/obo/GO_0004373	alpha-1,4-glucan glucosyltransferase (UDP-glucose donor) activity
 http://purl.obolibrary.org/obo/GO_0045725	positive regulation of glycogen biosynthetic process	http://purl.obolibrary.org/obo/GO_0005978	glycogen biosynthetic process
 http://purl.obolibrary.org/obo/GO_0045819	positive regulation of glycogen catabolic process	http://purl.obolibrary.org/obo/GO_0005980	glycogen catabolic process
 http://purl.obolibrary.org/obo/GO_0070875	positive regulation of glycogen metabolic process	http://purl.obolibrary.org/obo/GO_0005977	glycogen metabolic process
