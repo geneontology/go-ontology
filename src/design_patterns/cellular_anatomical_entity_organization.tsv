@@ -29,6 +29,7 @@ http://purl.obolibrary.org/obo/GO_0032186	cellular bud neck septin ring organiza
 http://purl.obolibrary.org/obo/GO_0010215	cellulose microfibril organization	http://purl.obolibrary.org/obo/GO_0009549	cellulose microfibril
 http://purl.obolibrary.org/obo/GO_0007098	centrosome cycle	http://purl.obolibrary.org/obo/GO_0005813	centrosome
 http://purl.obolibrary.org/obo/GO_0009658	chloroplast organization	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0006325	chromatin organization	http://purl.obolibrary.org/obo/GO_0000785	chromatin
 http://purl.obolibrary.org/obo/GO_0009661	chromoplast organization	http://purl.obolibrary.org/obo/GO_0009509	chromoplast
 http://purl.obolibrary.org/obo/GO_0051276	chromosome organization	http://purl.obolibrary.org/obo/GO_0005694	chromosome
 http://purl.obolibrary.org/obo/GO_0032053	ciliary basal body organization	http://purl.obolibrary.org/obo/GO_0036064	ciliary basal body
@@ -105,6 +106,7 @@ http://purl.obolibrary.org/obo/GO_0071763	nuclear membrane organization	http://p
 http://purl.obolibrary.org/obo/GO_0071764	nuclear outer membrane organization	http://purl.obolibrary.org/obo/GO_0005640	nuclear outer membrane
 http://purl.obolibrary.org/obo/GO_0035063	nuclear speck organization	http://purl.obolibrary.org/obo/GO_0016607	nuclear speck
 http://purl.obolibrary.org/obo/GO_0090143	nucleoid organization	http://purl.obolibrary.org/obo/GO_0009295	nucleoid
+http://purl.obolibrary.org/obo/GO_1990700	nucleolar chromatin organization	http://purl.obolibrary.org/obo/GO_0030874	nucleolar chromatin
 http://purl.obolibrary.org/obo/GO_0007000	nucleolus organization	http://purl.obolibrary.org/obo/GO_0005730	nucleolus
 http://purl.obolibrary.org/obo/GO_0006997	nucleus organization	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/GO_0032122	oral apparatus organization	http://purl.obolibrary.org/obo/GO_0031912	oral apparatus
