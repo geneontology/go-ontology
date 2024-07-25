@@ -9,7 +9,7 @@ assignees: ''
 
 Hey ontobot! apply: 
 
-* add GOID to subset gocheck_do_not_annotate  (NOTE THAT THIS LINE SHOULD NOT BE PART OF THE TICKET - a valid ID is needed)
+* add GO:0000079 from subset gocheck_do_not_annotate
 
 
 Fixes [ticket #]
