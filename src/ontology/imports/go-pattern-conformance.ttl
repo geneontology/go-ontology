@@ -4499,6 +4499,9 @@
 <http://purl.obolibrary.org/obo/GO_0006309> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
+<http://purl.obolibrary.org/obo/GO_0006325> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cellular_anatomical_entity_organization.yaml> .
+
+
 <http://purl.obolibrary.org/obo/GO_0006334> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml> .
 
 
@@ -39355,6 +39358,10 @@
 <http://purl.obolibrary.org/obo/GO_0180040> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 
 
+<http://purl.obolibrary.org/obo/GO_0180042> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/export_across_membrane.yaml> ,
+                                                                                  <http://purl.obolibrary.org/obo/go/patterns/import_across_membrane.yaml> .
+
+
 <http://purl.obolibrary.org/obo/GO_1900000> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
@@ -54869,6 +54876,9 @@
 
 
 <http://purl.obolibrary.org/obo/GO_1990655> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_1990700> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cellular_anatomical_entity_organization.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_1990748> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
