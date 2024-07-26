@@ -9,4 +9,6 @@ assignees: ''
 
 Hey ontobot! apply: 
 
-* add GO:0000079 to subset gocheck_do_not_annotate
+* add GO:0022403 to subset gocheck_do_not_annotate
+
+n
