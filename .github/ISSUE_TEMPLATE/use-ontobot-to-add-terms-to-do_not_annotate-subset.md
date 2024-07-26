@@ -1,7 +1,7 @@
 ---
 name: Use Ontobot to add terms to do_not_annotate subset
 about: Add terms to the do_not_annotate subset
-title: ''
+title: Add terms to the do_not_annotate subset
 labels: do_not_annotate_flag
 assignees: ''
 
