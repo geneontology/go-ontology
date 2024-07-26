@@ -2,7 +2,7 @@
 name: Term definition update
 about: Request a change in a term definition
 title: 'Textual definition update: '
-labels: textual definition
+labels: do_not_annotate_flag, textual definition
 assignees: ''
 
 ---
