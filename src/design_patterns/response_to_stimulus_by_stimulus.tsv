@@ -64,7 +64,7 @@ http://purl.obolibrary.org/obo/GO_0097329	response to antimetabolite	http://purl
 http://purl.obolibrary.org/obo/GO_1901325	response to antimycin A	http://purl.obolibrary.org/obo/CHEBI_2762	antimycin A
 http://purl.obolibrary.org/obo/GO_0097327	response to antineoplastic agent	http://purl.obolibrary.org/obo/GOCHE_35610	substance with antineoplastic agent role
 http://purl.obolibrary.org/obo/GO_0097332	response to antipsychotic drug	http://purl.obolibrary.org/obo/GOCHE_35476	substance with antipsychotic agent role
-http://purl.obolibrary.org/obo/GO_1904550	response to arachidonic acid	http://purl.obolibrary.org/obo/CHEBI_32395	arachidonate
+http://purl.obolibrary.org/obo/GO_1904550	response to arachidonate	http://purl.obolibrary.org/obo/CHEBI_32395	arachidonate
 http://purl.obolibrary.org/obo/GO_0061477	response to aromatase inhibitor	http://purl.obolibrary.org/obo/GOCHE_50790	substance with EC 1.14.14.14 (aromatase) inhibitor role
 http://purl.obolibrary.org/obo/GO_0046685	response to arsenic-containing substance	http://purl.obolibrary.org/obo/CHEBI_22632	arsenic molecular entity
 http://purl.obolibrary.org/obo/GO_1903842	response to arsenite ion	http://purl.obolibrary.org/obo/CHEBI_48597	arsenate(2-)
