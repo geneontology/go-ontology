@@ -6830,9 +6830,7 @@ relationship: RO:0000057 CHEBI:58384
 id: GO:0008924
 relationship: RO:0000057 CHEBI:132124
 relationship: RO:0000057 CHEBI:15589
-relationship: RO:0000057 CHEBI:16374
 relationship: RO:0000057 CHEBI:16452
-relationship: RO:0000057 CHEBI:18151
 relationship: RO:0000057 CHEBI:24646
 
 [Term]
