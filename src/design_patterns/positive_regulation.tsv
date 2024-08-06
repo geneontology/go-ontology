@@ -1971,7 +1971,6 @@ http://purl.obolibrary.org/obo/GO_1904244	positive regulation of pancreatic tryp
 http://purl.obolibrary.org/obo/GO_2000830	positive regulation of parathyroid hormone secretion	http://purl.obolibrary.org/obo/GO_0035898	parathyroid hormone secretion
 http://purl.obolibrary.org/obo/GO_0048346	positive regulation of paraxial mesodermal cell fate determination	http://purl.obolibrary.org/obo/GO_0048344	paraxial mesodermal cell fate determination
 http://purl.obolibrary.org/obo/GO_0048350	positive regulation of paraxial mesodermal cell fate specification	http://purl.obolibrary.org/obo/GO_0048348	paraxial mesodermal cell fate specification
-http://purl.obolibrary.org/obo/GO_1905091	positive regulation of parkin-mediated stimulation of mitophagy in response to mitochondrial depolarization	http://purl.obolibrary.org/obo/GO_0061734	parkin-mediated stimulation of mitophagy in response to mitochondrial depolarization
 http://purl.obolibrary.org/obo/GO_0062208	positive regulation of pattern recognition receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0002221	pattern recognition receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0140724	positive regulation of patulin biosynthetic process	http://purl.obolibrary.org/obo/GO_0140723	patulin biosynthetic process
 http://purl.obolibrary.org/obo/GO_2001005	positive regulation of pectin catabolic process	http://purl.obolibrary.org/obo/GO_0045490	pectin catabolic process
@@ -2516,7 +2515,7 @@ http://purl.obolibrary.org/obo/GO_1900026	positive regulation of substrate adhes
 http://purl.obolibrary.org/obo/GO_1904237	positive regulation of substrate-dependent cell migration, cell attachment to substrate	http://purl.obolibrary.org/obo/GO_0006931	substrate-dependent cell migration, cell attachment to substrate
 http://purl.obolibrary.org/obo/GO_1904231	positive regulation of succinate dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0000104	succinate dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_1900059	positive regulation of sulfate assimilation	http://purl.obolibrary.org/obo/GO_0000103	sulfate assimilation
-http://purl.obolibrary.org/obo/GO_1900072	positive regulation of sulfite transport	http://purl.obolibrary.org/obo/GO_0000316	sulfite transport
+http://purl.obolibrary.org/obo/GO_1900072	positive regulation of sulfite transmembrane transport	http://purl.obolibrary.org/obo/GO_0000316	sulfite transmembrane transport
 http://purl.obolibrary.org/obo/GO_0031337	positive regulation of sulfur amino acid metabolic process	http://purl.obolibrary.org/obo/GO_0000096	sulfur amino acid metabolic process
 http://purl.obolibrary.org/obo/GO_0051176	positive regulation of sulfur metabolic process	http://purl.obolibrary.org/obo/GO_0006790	sulfur compound metabolic process
 http://purl.obolibrary.org/obo/GO_0045883	positive regulation of sulfur utilization	http://purl.obolibrary.org/obo/GO_0006791	sulfur utilization
@@ -2689,6 +2688,7 @@ http://purl.obolibrary.org/obo/GO_1903557	positive regulation of tumor necrosis 
 http://purl.obolibrary.org/obo/GO_1903265	positive regulation of tumor necrosis factor-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0033209	tumor necrosis factor-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0061095	positive regulation of turning behavior involved in mating	http://purl.obolibrary.org/obo/GO_0034607	turning behavior involved in mating
 http://purl.obolibrary.org/obo/GO_0002830	positive regulation of type 2 immune response	http://purl.obolibrary.org/obo/GO_0042092	type 2 immune response
+http://purl.obolibrary.org/obo/GO_1905091	positive regulation of type 2 mitophagy	http://purl.obolibrary.org/obo/GO_0061734	type 2 mitophagy
 http://purl.obolibrary.org/obo/GO_2000676	positive regulation of type B pancreatic cell apoptotic process	http://purl.obolibrary.org/obo/GO_0097050	type B pancreatic cell apoptotic process
 http://purl.obolibrary.org/obo/GO_2000078	positive regulation of type B pancreatic cell development	http://purl.obolibrary.org/obo/GO_0003323	type B pancreatic cell development
 http://purl.obolibrary.org/obo/GO_1904692	positive regulation of type B pancreatic cell proliferation	http://purl.obolibrary.org/obo/GO_0044342	type B pancreatic cell proliferation
