@@ -1987,7 +1987,6 @@ http://purl.obolibrary.org/obo/GO_1904243	negative regulation of pancreatic tryp
 http://purl.obolibrary.org/obo/GO_2000829	negative regulation of parathyroid hormone secretion	http://purl.obolibrary.org/obo/GO_0035898	parathyroid hormone secretion
 http://purl.obolibrary.org/obo/GO_0048347	negative regulation of paraxial mesodermal cell fate determination	http://purl.obolibrary.org/obo/GO_0048344	paraxial mesodermal cell fate determination
 http://purl.obolibrary.org/obo/GO_0048351	negative regulation of paraxial mesodermal cell fate specification	http://purl.obolibrary.org/obo/GO_0048348	paraxial mesodermal cell fate specification
-http://purl.obolibrary.org/obo/GO_1905090	negative regulation of parkin-mediated stimulation of mitophagy in response to mitochondrial depolarization	http://purl.obolibrary.org/obo/GO_0061734	parkin-mediated stimulation of mitophagy in response to mitochondrial depolarization
 http://purl.obolibrary.org/obo/GO_2001004	negative regulation of pectin catabolic process	http://purl.obolibrary.org/obo/GO_0045490	pectin catabolic process
 http://purl.obolibrary.org/obo/GO_1900197	negative regulation of penicillin biosynthetic process	http://purl.obolibrary.org/obo/GO_0042318	penicillin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0033248	negative regulation of penicillin catabolic process	http://purl.obolibrary.org/obo/GO_0042317	penicillin catabolic process
@@ -2686,6 +2685,7 @@ http://purl.obolibrary.org/obo/GO_1903556	negative regulation of tumor necrosis 
 http://purl.obolibrary.org/obo/GO_0010804	negative regulation of tumor necrosis factor-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0033209	tumor necrosis factor-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0061096	negative regulation of turning behavior involved in mating	http://purl.obolibrary.org/obo/GO_0034607	turning behavior involved in mating
 http://purl.obolibrary.org/obo/GO_0002829	negative regulation of type 2 immune response	http://purl.obolibrary.org/obo/GO_0042092	type 2 immune response
+http://purl.obolibrary.org/obo/GO_1905090	negative regulation of type 2 mitophagy	http://purl.obolibrary.org/obo/GO_0061734	type 2 mitophagy
 http://purl.obolibrary.org/obo/GO_2000675	negative regulation of type B pancreatic cell apoptotic process	http://purl.obolibrary.org/obo/GO_0097050	type B pancreatic cell apoptotic process
 http://purl.obolibrary.org/obo/GO_2000077	negative regulation of type B pancreatic cell development	http://purl.obolibrary.org/obo/GO_0003323	type B pancreatic cell development
 http://purl.obolibrary.org/obo/GO_1904691	negative regulation of type B pancreatic cell proliferation	http://purl.obolibrary.org/obo/GO_0044342	type B pancreatic cell proliferation
