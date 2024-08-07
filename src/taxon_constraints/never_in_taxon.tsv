@@ -1,4 +1,6 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:0006540	gamma-aminobutyrate shunt	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0006540	gamma-aminobutyrate shunt	NCBITaxon:4899	Schizosaccharomyces octosporus	
 GO:0033309	SBF transcription complex	NCBITaxon:4895	Schizosaccharomyces	
 GO:1902767	isoprenoid biosynthetic process via mevalonate	NCBITaxon:2	Bacteria	
 GO:0019288	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	NCBITaxon:4751	Fungi	

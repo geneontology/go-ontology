@@ -123,7 +123,6 @@ http://purl.obolibrary.org/obo/GO_0006559	L-phenylalanine catabolic process	http
 http://purl.obolibrary.org/obo/GO_0019504	L-proline betaine catabolic process	http://purl.obolibrary.org/obo/CHEBI_35280	L-proline betaine
 http://purl.obolibrary.org/obo/GO_0006565	L-serine catabolic process	http://purl.obolibrary.org/obo/CHEBI_33384	L-serine zwitterion
 http://purl.obolibrary.org/obo/GO_0042850	L-sorbose catabolic process	http://purl.obolibrary.org/obo/CHEBI_17266	L-sorbose
-http://purl.obolibrary.org/obo/GO_0051160	L-xylitol catabolic process	http://purl.obolibrary.org/obo/CHEBI_17151	xylitol
 http://purl.obolibrary.org/obo/GO_0032326	Mo-molybdopterin cofactor catabolic process	http://purl.obolibrary.org/obo/CHEBI_21437	Mo-molybdopterin cofactor
 http://purl.obolibrary.org/obo/GO_1900550	N',N'',N'''-triacetylfusarinine C catabolic process	http://purl.obolibrary.org/obo/CHEBI_60481	N',N'',N'''-triacetylfusarinine C
 http://purl.obolibrary.org/obo/GO_2001299	N(omega),N(omega)-dimethyl-L-arginine catabolic process	http://purl.obolibrary.org/obo/CHEBI_58326	N(omega),N(omega)-dimethyl-L-argininium(1+)
@@ -463,7 +462,6 @@ http://purl.obolibrary.org/obo/GO_0019762	glucosinolate catabolic process	http:/
 http://purl.obolibrary.org/obo/GO_0006680	glucosylceramide catabolic process	http://purl.obolibrary.org/obo/CHEBI_36500	glucosylceramide
 http://purl.obolibrary.org/obo/GO_0006064	glucuronate catabolic process	http://purl.obolibrary.org/obo/CHEBI_24297	glucuronate
 http://purl.obolibrary.org/obo/GO_2000887	glucuronoarabinoxylan catabolic process	http://purl.obolibrary.org/obo/CHEBI_28302	glucuronoarabinoxylan
-http://purl.obolibrary.org/obo/GO_0019391	glucuronoside catabolic process	http://purl.obolibrary.org/obo/CHEBI_24302	glucosiduronic acid
 http://purl.obolibrary.org/obo/GO_2000886	glucuronoxylan catabolic process	http://purl.obolibrary.org/obo/CHEBI_60938	glucuronoxylan
 http://purl.obolibrary.org/obo/GO_0006538	glutamate catabolic process	http://purl.obolibrary.org/obo/CHEBI_14321	glutamate(1-)
 http://purl.obolibrary.org/obo/GO_0006543	glutamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_32678	glutaminate
@@ -916,6 +914,7 @@ http://purl.obolibrary.org/obo/GO_1903228	xanthosine catabolic process	http://pu
 http://purl.obolibrary.org/obo/GO_0042178	xenobiotic catabolic process	http://purl.obolibrary.org/obo/GOCHE_35703	substance with xenobiotic role
 http://purl.obolibrary.org/obo/GO_0045493	xylan catabolic process	http://purl.obolibrary.org/obo/CHEBI_37166	xylan
 http://purl.obolibrary.org/obo/GO_0042184	xylene catabolic process	http://purl.obolibrary.org/obo/CHEBI_27338	xylene
+http://purl.obolibrary.org/obo/GO_0051160	xylitol catabolic process	http://purl.obolibrary.org/obo/CHEBI_17151	xylitol
 http://purl.obolibrary.org/obo/GO_2000899	xyloglucan catabolic process	http://purl.obolibrary.org/obo/CHEBI_18233	xyloglucan
 http://purl.obolibrary.org/obo/GO_0005998	xylulose catabolic process	http://purl.obolibrary.org/obo/CHEBI_27353	xylulose
 http://purl.obolibrary.org/obo/GO_1901829	zeaxanthin bis(beta-D-glucoside) catabolic process	http://purl.obolibrary.org/obo/CHEBI_63067	zeaxanthin bis(beta-D-glucoside)
