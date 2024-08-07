@@ -12186,12 +12186,6 @@ relationship: RO:0000057 CHEBI:17158
 relationship: RO:0000057 CHEBI:30089
 
 [Term]
-id: GO:0033754
-relationship: RO:0000057 CHEBI:15379
-relationship: RO:0000057 CHEBI:57719
-relationship: RO:0000057 CHEBI:60051
-
-[Term]
 id: GO:0033755
 relationship: RO:0000057 CHEBI:15377
 relationship: RO:0000057 CHEBI:15378
