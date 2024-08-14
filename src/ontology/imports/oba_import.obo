@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-02-28/imports/oba_import.owl
+data-version: go/releases/2024-08-14/imports/oba_import.owl
 ontology: go/imports/oba_import
 
 [Term]
@@ -42,7 +42,7 @@ id: OBA:0000015
 name: anatomical structure size
 def: "The size of a anatomical structure." []
 synonym: "size of anatomical structure" EXACT []
-is_a: OBA:0100003 ! anatomical entity attribute
+is_a: OBA:2045412 ! anatomical entity morphology
 
 [Term]
 id: OBA:0000016
@@ -88,7 +88,8 @@ id: OBA:0000036
 name: body fluid levels
 def: "The volume of a bodily fluid." []
 synonym: "volume of bodily fluid" EXACT []
-is_a: OBA:0100003 ! anatomical entity attribute
+is_a: OBA:2045412 ! anatomical entity morphology
+is_a: OBA:2045431 ! body fluid attribute
 
 [Term]
 id: OBA:0000037
@@ -108,7 +109,6 @@ name: cardiac muscle cell membrane potential
 def: "The membrane potential trait of a cardiac muscle cell." []
 synonym: "membrane potential trait of cardiac muscle cell" EXACT []
 is_a: OBA:0000099 ! membrane potential trait
-is_a: OBA:0100003 ! anatomical entity attribute
 is_a: OBA:1000076 ! attribute of cell
 
 [Term]
@@ -137,6 +137,7 @@ name: cell shape
 def: "The shape of a cell." []
 synonym: "shape of cell" EXACT []
 is_a: OBA:1001065 ! cell morphology trait
+is_a: OBA:2045412 ! anatomical entity morphology
 
 [Term]
 id: OBA:0000055
@@ -174,6 +175,7 @@ name: circulating fibrinogen levels
 def: "The amount of a fibrinogen complex." []
 synonym: "amount of fibrinogen complex" EXACT []
 is_a: OBA:0100001 ! cellular component attribute
+is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:0000066
@@ -361,13 +363,7 @@ name: neuronal synaptic plasticity
 def: "The synaptic plasticity of a neuron." []
 synonym: "synaptic plasticity of neuron" EXACT []
 is_a: OBA:0000141 ! synaptic plasticity
-is_a: OBA:0100003 ! anatomical entity attribute
 is_a: OBA:1000076 ! attribute of cell
-
-[Term]
-id: OBA:0000116
-name: neurotransmitter levels
-is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0000117
@@ -440,6 +436,7 @@ name: synapse structure and activity
 def: "The quality of a synapse." []
 synonym: "quality of synapse" EXACT []
 is_a: OBA:0100001 ! cellular component attribute
+is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:0000140
@@ -542,7 +539,7 @@ id: OBA:0000174
 name: vascular permeability
 def: "The permeability of a vessel." []
 synonym: "permeability of vessel" EXACT []
-is_a: OBA:0100003 ! anatomical entity attribute
+is_a: OBA:2045412 ! anatomical entity morphology
 
 [Term]
 id: OBA:0000181
@@ -633,8 +630,8 @@ is_a: OBA:0000001 ! biological attribute
 [Term]
 id: OBA:0100002
 name: biological process attribute
-def: "The quality of a biological_process." []
-synonym: "quality of biological_process" EXACT []
+def: "The quality of a biological process." []
+synonym: "quality of biological process" EXACT []
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
@@ -692,6 +689,7 @@ def: "The permeability of a membrane." []
 synonym: "membrane permeability trait" EXACT []
 synonym: "permeability of membrane" EXACT []
 is_a: OBA:1000091 ! membrane morphology
+is_a: OBA:2045412 ! anatomical entity morphology
 
 [Term]
 id: OBA:1000035
@@ -709,7 +707,7 @@ name: attribute of cell
 def: "The quality of a cell." []
 synonym: "cell quality trait" EXACT []
 synonym: "quality of cell" EXACT []
-is_a: OBA:0000001 ! biological attribute
+is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:1000077
@@ -727,6 +725,7 @@ def: "The quality of a organelle." []
 synonym: "organelle quality trait" EXACT []
 synonym: "quality of organelle" EXACT []
 is_a: OBA:0100001 ! cellular component attribute
+is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:1000088
@@ -752,6 +751,7 @@ def: "The quality of a membrane." []
 synonym: "membrane quality trait" EXACT []
 synonym: "quality of membrane" EXACT []
 is_a: OBA:0100001 ! cellular component attribute
+is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:1000091
@@ -901,9 +901,23 @@ is_a: OBA:1000617 ! hematopoietic system quality
 [Term]
 id: OBA:2040145
 name: cell length
-def: "The length of a native cell." []
-synonym: "length of native cell" EXACT []
+def: "The length of a cell." []
+synonym: "length of cell" EXACT []
 is_a: OBA:0000055 ! cell size
+
+[Term]
+id: OBA:2045412
+name: anatomical entity morphology
+def: "The morphology of a anatomical entity." []
+synonym: "morphology of anatomical entity" EXACT []
+is_a: OBA:0100003 ! anatomical entity attribute
+
+[Term]
+id: OBA:2045431
+name: body fluid attribute
+def: "The quality of a bodily fluid." []
+synonym: "quality of bodily fluid" EXACT []
+is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0000056
@@ -918,6 +932,7 @@ name: blood pressure trait
 def: "The pressure of a blood." []
 synonym: "pressure of blood" EXACT []
 is_a: OBA:1000617 ! hematopoietic system quality
+is_a: OBA:2045431 ! body fluid attribute
 
 [Term]
 id: OBA:VT0000516
