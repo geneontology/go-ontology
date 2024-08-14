@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/pr_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2023-02-28/imports/pr_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2024-08-14/imports/pr_import.owl"/>
     </owl:Ontology>
     
 
@@ -176,9 +176,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
     
 
 
@@ -261,7 +261,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018263"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050567"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000064867"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1670,7 +1670,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001471">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000001335"/>
-        <obo:IAO_0000115>A class 2 cytokine, IL-10 type that is a translation product of the human IL10 gene or a 1:1 ortholog thereof. Active interleukin-10 inhibits the synthesis of a number of cytokines, including IFN-gamma, IL-2, IL-3, TNF and GM-CSF produced by activated macrophages and by helper T cells. Structurally, IL-10 is a protein of about 160 amino acids that contains four conserved cysteines involved in disulfide bonds.</obo:IAO_0000115>
+        <obo:IAO_0000115>A class 2 cytokine, IL-10 type that is a translation product of the human IL10 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CSIF</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>IL-10</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>IL10</oboInOwl:hasExactSynonym>
@@ -2990,8 +2990,11 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000006928">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115>A protein that is a translation product of the human EGF gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>EGF</oboInOwl:hasExactSynonym>
-        <rdfs:label>pro-epidermal growth factor</rdfs:label>
+        <oboInOwl:hasExactSynonym>pre-pro-EGF</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>EGF</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>epidermal growth factor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>pro-epidermal growth factor</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>pre-pro-epidermal growth factor</rdfs:label>
     </owl:Class>
     
 
@@ -4051,8 +4054,9 @@
         <oboInOwl:hasExactSynonym>PPY</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>obinepitide</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>pancreatic polypeptide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pancreatic prohormone</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>PNP</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>pancreatic prohormone</rdfs:label>
+        <rdfs:label>pancreatic polypeptide prohormone</rdfs:label>
     </owl:Class>
     
 
@@ -4142,10 +4146,11 @@
         <obo:IAO_0000115>A protein that is a translation product of the human RPS27A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>RPS27A</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ubiquitin carboxyl extension protein 80</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ubiquitin-40S ribosomal protein S27a</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>40S ribosomal protein S27a</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>UBA80</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>UBCEP1</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>ubiquitin-40S ribosomal protein S27a</rdfs:label>
+        <rdfs:label>ubiquitin-ribosomal protein eS31 fusion protein</rdfs:label>
     </owl:Class>
     
 
@@ -4200,7 +4205,7 @@
         <oboInOwl:hasExactSynonym>SMO</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>protein Gx</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>SMOH</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>smoothened</rdfs:label>
+        <rdfs:label>protein smoothened</rdfs:label>
     </owl:Class>
     
 
@@ -4419,7 +4424,7 @@
         <oboInOwl:hasExactSynonym>ubiquitin A-52 residue ribosomal protein fusion product 1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>60S ribosomal protein L40</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>UBCEP2</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>ubiquitin-60S ribosomal protein L40</rdfs:label>
+        <rdfs:label>ubiquitin-ribosomal protein eL40 fusion protein</rdfs:label>
     </owl:Class>
     
 
@@ -4984,35 +4989,6 @@
         <obo:IAO_0000115>A dystroglycan 1 that has been processed by proteolytic cleavage.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>DAG1/ClvPrd</oboInOwl:hasExactSynonym>
         <rdfs:label>dystroglycan 1 proteolytic cleavage product</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PR_000019751 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000019751">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000006928"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000006928"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A pro-epidermal growth factor that has been processed by proteolytic cleavage.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>EGF/ClvPrd</oboInOwl:hasExactSynonym>
-        <rdfs:label>pro-epidermal growth factor proteolytic cleavage product</rdfs:label>
     </owl:Class>
     
 
@@ -5706,9 +5682,9 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A pancreatic prohormone that has been processed by proteolytic cleavage.</obo:IAO_0000115>
+        <obo:IAO_0000115>A pancreatic polypeptide prohormone that has been processed by proteolytic cleavage.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>PPY/ClvPrd</oboInOwl:hasExactSynonym>
-        <rdfs:label>pancreatic prohormone proteolytic cleavage product</rdfs:label>
+        <rdfs:label>pancreatic polypeptide prohormone proteolytic cleavage product</rdfs:label>
     </owl:Class>
     
 
@@ -6101,7 +6077,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A ubiquitin-40S ribosomal protein S27a that has been processed by proteolytic cleavage. This form is the N-terminal region consisting of the Ubiquitin (Pfam:PF00240) domain. Example: UniProtKB:P62979, 1-76.</obo:IAO_0000115>
+        <obo:IAO_0000115>A ubiquitin-ribosomal protein eS31 fusion protein that has been processed by proteolytic cleavage. This form is the N-terminal region consisting of the Ubiquitin (Pfam:PF00240) domain. Example: UniProtKB:P62979, 1-76.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>RPS27A/Clv:ubiq</oboInOwl:hasExactSynonym>
         <rdfs:label>ubiquitin (RPS27A)</rdfs:label>
     </owl:Class>
@@ -6137,7 +6113,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A ubiquitin-60S ribosomal protein L40 that has been processed by proteolytic cleavage. This form is the N-terminal region consisting of the Ubiquitin (Pfam:PF00240) domain. Example: UniProtKB:P62987, 1-76.</obo:IAO_0000115>
+        <obo:IAO_0000115>A ubiquitin-ribosomal protein eL40 fusion protein that has been processed by proteolytic cleavage. This form is the N-terminal region consisting of the Ubiquitin (Pfam:PF00240) domain. Example: UniProtKB:P62987, 1-76.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>UBA52/Clv:ubiq</oboInOwl:hasExactSynonym>
         <rdfs:label>ubiquitin (UBA52)</rdfs:label>
     </owl:Class>
@@ -6392,37 +6368,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PR_000050567 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050567">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A material entity that minimally consists of a protein.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym>protein</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>protein aggregate</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>protein complex</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>protein-containing complex</oboInOwl:hasNarrowSynonym>
-        <rdfs:label>protein-containing material entity</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PR_000060228 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000060228">
@@ -6452,6 +6397,37 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000064867 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000064867">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A molecular entity that minimally consists of a protein.</obo:IAO_0000115>
+        <oboInOwl:hasNarrowSynonym>protein</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>protein aggregate</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>protein complex</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>protein-containing complex</oboInOwl:hasNarrowSynonym>
+        <rdfs:label>protein-containing molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0000704 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000704"/>
@@ -6459,5 +6435,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
 
