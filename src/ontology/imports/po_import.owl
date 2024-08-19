@@ -7,10 +7,9 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/po_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2023-07-31/imports/po_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2024-08-14/imports/po_import.owl"/>
     </owl:Ontology>
     
 
@@ -34,23 +33,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
         <rdfs:label>term replaced by</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/dc/terms/license -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -406,18 +393,17 @@
         <oboInOwl:hasExactSynonym>植物体全体 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>bush (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>frutex (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>frutices (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>frutices (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>gametophyte (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>herb (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>liana (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>prothalli (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>prothalli (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>prothallium (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>prothallus (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>seedling (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>shrub (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>sporophyte (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>suffrutex (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>suffrutices (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>suffrutices (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>tree (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>vine (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>woody clump (narrow)</oboInOwl:hasNarrowSynonym>
@@ -1035,22 +1021,22 @@
         <oboInOwl:hasBroadSynonym>bristle (broad)</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>tricoma (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>毛茸、糸状体、毛 (Japanese, exact)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym>capilli (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>capilli (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>capillus (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>cilia (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>cilia (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>cilium (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>glochid (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>glochidia (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>glochidia (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>glochidium (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>hair (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>lepides (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>lepides (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>lepis (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>non-secretory trichome (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>scale (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>squama (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>squamae (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>squamae (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>squamella (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>squamellae (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>squamellae (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>squamule (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasRelatedSynonym>seta (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>setae (related)</oboInOwl:hasRelatedSynonym>
@@ -2392,6 +2378,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0008037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0008037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0000003"/>
+        <obo:IAO_0000115>A whole plant (PO:0000003) in the seedling development stage (PO:0007131).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>v&amp;#225stago (Spanish, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>芽生え、実生 (Japanese, exact)</oboInOwl:hasExactSynonym>
+        <rdfs:label>seedling</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0009001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009001">
@@ -2477,7 +2475,7 @@
         <oboInOwl:hasNarrowSynonym>tree crown (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasRelatedSynonym>Poaceae crown (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>shoot (related)</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>thalli (related)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>thalli (related, plural)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>thallus (related)</oboInOwl:hasRelatedSynonym>
         <rdfs:label>shoot system</rdfs:label>
     </owl:Class>
@@ -3436,7 +3434,7 @@
         <oboInOwl:hasExactSynonym>fol&amp;#237olo (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>小葉 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>pinna (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>pinnae (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>pinnae (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>pinnule (narrow)</oboInOwl:hasNarrowSynonym>
         <rdfs:label>leaflet</rdfs:label>
     </owl:Class>
@@ -4199,9 +4197,9 @@
         <oboInOwl:hasExactSynonym>espacio anat&amp;#243mico vegetal (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>植物 解剖学（形態）的空間 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>lacuna (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>lacunae (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>lacunae (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>lumen (narrow)</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>lumina (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>lumina (narrow, plural)</oboInOwl:hasNarrowSynonym>
         <rdfs:label>plant anatomical space</rdfs:label>
     </owl:Class>
     
@@ -4499,7 +4497,7 @@
         <oboInOwl:hasExactSynonym>microsporangia (exact, plural)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>microsporangio (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>小胞子嚢 (Japanese, exact)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>macrosporangia (related)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>macrosporangia (related, plural)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>macrosporangium (related)</oboInOwl:hasRelatedSynonym>
         <rdfs:label>microsporangium</rdfs:label>
     </owl:Class>
@@ -4806,11 +4804,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0020031"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0008037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002202"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025296"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A radicle (PO:0020031) that is part of a whole plant (PO:0000003) in the seedling development stage (PO:0007131).</obo:IAO_0000115>
+        <obo:IAO_0000115>A radicle (PO:0020031) that is part of a seedling (PO:0008037).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>rad&amp;#237cula de la pl&amp;#225ntula (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>実生幼根 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <rdfs:label>seedling radicle</rdfs:label>
