@@ -336,6 +336,7 @@ http://purl.obolibrary.org/obo/GO_2000947	positive regulation of amylopectin cat
 http://purl.obolibrary.org/obo/GO_2000944	positive regulation of amylopectin metabolic process	http://purl.obolibrary.org/obo/GO_2000896	amylopectin metabolic process
 http://purl.obolibrary.org/obo/GO_1905786	positive regulation of anaphase-promoting complex-dependent catabolic process	http://purl.obolibrary.org/obo/GO_0031145	anaphase-promoting complex-dependent catabolic process
 http://purl.obolibrary.org/obo/GO_2000825	positive regulation of androgen receptor activity	http://purl.obolibrary.org/obo/GO_0004879	nuclear receptor activity
+http://purl.obolibrary.org/obo/GO_0160207	positive regulation of androgen receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0030521	androgen receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_2000836	positive regulation of androgen secretion	http://purl.obolibrary.org/obo/GO_0035935	androgen secretion
 http://purl.obolibrary.org/obo/GO_1903456	positive regulation of androst-4-ene-3,17-dione biosynthetic process	http://purl.obolibrary.org/obo/GO_1903449	androst-4-ene-3,17-dione biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000839	positive regulation of androstenedione secretion	http://purl.obolibrary.org/obo/GO_0035941	androstenedione secretion
