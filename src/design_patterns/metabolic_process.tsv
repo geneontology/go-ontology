@@ -174,7 +174,7 @@ http://purl.obolibrary.org/obo/GO_0006558	L-phenylalanine metabolic process	http
 http://purl.obolibrary.org/obo/GO_0019502	L-proline betaine metabolic process	http://purl.obolibrary.org/obo/CHEBI_35280	L-proline betaine
 http://purl.obolibrary.org/obo/GO_0006563	L-serine metabolic process	http://purl.obolibrary.org/obo/CHEBI_33384	L-serine zwitterion
 http://purl.obolibrary.org/obo/GO_0019312	L-sorbose metabolic process	http://purl.obolibrary.org/obo/CHEBI_17266	L-sorbose
-http://purl.obolibrary.org/obo/GO_1902759	Mo(VI)-molybdopterin cytosine dinucleotide metabolic process	http://purl.obolibrary.org/obo/CHEBI_71308	Mo(VI)-molybdopterin cytosine dinucleotide(2-)
+http://purl.obolibrary.org/obo/GO_1902759	Mo(VI)-molybdopterin cytosine dinucleotide metabolic process	http://purl.obolibrary.org/obo/CHEBI_71308	Mo(VI)-molybdopterin cytosine dinucleotide(4-)
 http://purl.obolibrary.org/obo/GO_0019720	Mo-molybdopterin cofactor metabolic process	http://purl.obolibrary.org/obo/CHEBI_21437	Mo-molybdopterin cofactor
 http://purl.obolibrary.org/obo/GO_1900549	N',N'',N'''-triacetylfusarinine C metabolic process	http://purl.obolibrary.org/obo/CHEBI_60481	N',N'',N'''-triacetylfusarinine C
 http://purl.obolibrary.org/obo/GO_2001298	N(omega),N(omega)-dimethyl-L-arginine metabolic process	http://purl.obolibrary.org/obo/CHEBI_58326	N(omega),N(omega)-dimethyl-L-argininium(1+)
@@ -333,7 +333,7 @@ http://purl.obolibrary.org/obo/GO_0008206	bile acid metabolic process	http://pur
 http://purl.obolibrary.org/obo/GO_0006768	biotin metabolic process	http://purl.obolibrary.org/obo/CHEBI_57586	biotinate
 http://purl.obolibrary.org/obo/GO_0018879	biphenyl metabolic process	http://purl.obolibrary.org/obo/CHEBI_17097	biphenyl
 http://purl.obolibrary.org/obo/GO_0015956	bis(5'-nucleosidyl) oligophosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_61081	bis(5'-nucleosidyl) oliogophosphate
-http://purl.obolibrary.org/obo/GO_1902757	bis(molybdopterin guanine dinucleotide)molybdenum metabolic process	http://purl.obolibrary.org/obo/CHEBI_22894	bis(molybdopterin guanine dinucleotide)molybdenum
+http://purl.obolibrary.org/obo/GO_1902757	bis(molybdopterin guanine dinucleotide)molybdenum metabolic process	http://purl.obolibrary.org/obo/CHEBI_22894	Mo(=O)-bis(molybdopterin guanine dinucleotide)
 http://purl.obolibrary.org/obo/GO_1905264	blasticidin S metabolic process	http://purl.obolibrary.org/obo/CHEBI_57289	blasticidin S(1+)
 http://purl.obolibrary.org/obo/GO_0033967	box C/D sno(s)RNA metabolic process	http://purl.obolibrary.org/obo/SO_0000593	C_D_box_snoRNA
 http://purl.obolibrary.org/obo/GO_0033979	box H/ACA sno(s)RNA metabolic process	http://purl.obolibrary.org/obo/SO_0000594	H_ACA_box_snoRNA
@@ -1153,7 +1153,7 @@ http://purl.obolibrary.org/obo/GO_0005985	sucrose metabolic process	http://purl.
 http://purl.obolibrary.org/obo/GO_0046505	sulfolipid metabolic process	http://purl.obolibrary.org/obo/CHEBI_61384	sulfolipid
 http://purl.obolibrary.org/obo/GO_0000096	sulfur amino acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_26834	sulfur-containing amino acid
 http://purl.obolibrary.org/obo/GO_0006790	sulfur compound metabolic process	http://purl.obolibrary.org/obo/CHEBI_26835	sulfur molecular entity
-http://purl.obolibrary.org/obo/GO_1902755	sulfurated eukaryotic molybdenum cofactor(2-) metabolic process	http://purl.obolibrary.org/obo/CHEBI_60102	sulfurated eukaryotic molybdenum cofactor(2-)
+http://purl.obolibrary.org/obo/GO_1902755	sulfurated eukaryotic molybdenum cofactor(2-) metabolic process	http://purl.obolibrary.org/obo/CHEBI_60102	Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(3-)
 http://purl.obolibrary.org/obo/GO_0006801	superoxide metabolic process	http://purl.obolibrary.org/obo/CHEBI_18421	superoxide
 http://purl.obolibrary.org/obo/GO_1901064	syringal lignin metabolic process	http://purl.obolibrary.org/obo/CHEBI_64476	syringal lignin
 http://purl.obolibrary.org/obo/GO_0006399	tRNA metabolic process	http://purl.obolibrary.org/obo/SO_0000253	tRNA
