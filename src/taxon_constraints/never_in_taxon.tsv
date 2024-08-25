@@ -1,4 +1,13 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:0006540	gamma-aminobutyrate shunt	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0006540	gamma-aminobutyrate shunt	NCBITaxon:4899	Schizosaccharomyces octosporus	
+GO:0033309	SBF transcription complex	NCBITaxon:4895	Schizosaccharomyces	
+GO:1902767	isoprenoid biosynthetic process via mevalonate	NCBITaxon:2	Bacteria	
+GO:0019288	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	NCBITaxon:4751	Fungi	
+GO:0019288	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	NCBITaxon:33208	Metazoa	
+GO:0050435	amyloid-beta metabolic process	NCBITaxon:4751	Fungi	
+GO:0042632	cholesterol homeostasis	NCBITaxon:4751	Fungi	
+GO:1901004	ubiquinone-6 metabolic process	NCBITaxon:4895	Schizosaccharomyces	
 GO:0000131	incipient cellular bud site	NCBITaxon:4895	Schizosaccharomyces	
 GO:0000795	synaptonemal complex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0000804	W chromosome	NCBITaxon:40674	Mammalia	
@@ -39,8 +48,6 @@ GO:0005055	laminin receptor activity	NCBITaxon:4751	Fungi
 GO:0005663	DNA replication factor C complex	NCBITaxon:2	Bacteria	
 GO:0005722	beta-heterochromatin	NCBITaxon:4751	Fungi	
 GO:0005723	alpha-heterochromatin	NCBITaxon:4751	Fungi	
-GO:0005747	mitochondrial respiratory chain complex I	NCBITaxon:4895	Schizosaccharomyces	
-GO:0005747	mitochondrial respiratory chain complex I	NCBITaxon:4930	Saccharomyces	
 GO:0005813	centrosome	NCBITaxon:27896	Planariidae	
 GO:0005813	centrosome	NCBITaxon:33090	Viridiplantae	
 GO:0005813	centrosome	NCBITaxon:4751	Fungi	
@@ -209,8 +216,8 @@ GO:0044730	bone sialoprotein binding	NCBITaxon:4751	Fungi
 GO:0045087	innate immune response	NCBITaxon:4751	Fungi	
 GO:0045087	innate immune response	NCBITaxon:2	Bacteria	
 GO:0045087	innate immune response	NCBITaxon:2157	Archaea	
-GO:0045271	respiratory chain complex I	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:21597881
-GO:0045271	respiratory chain complex I	NCBITaxon:4932	Saccharomyces cerevisiae	PMID:21597881
+GO:0030964	NADH dehydrogenase complex	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0030964	NADH dehydrogenase complex	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0045294	alpha-catenin binding	NCBITaxon:4751	Fungi	
 GO:0045295	gamma-catenin binding	NCBITaxon:4751	Fungi	
 GO:0045495	pole plasm	NCBITaxon:4751	Fungi	
@@ -597,7 +604,7 @@ GO:0003365	establishment of cell polarity involved in ameboidal cell migration	N
 GO:0090398	cellular senescence	NCBITaxon:4751	Fungi	
 GO:0000365	mRNA trans splicing, via spliceosome	NCBITaxon:4751	Fungi	
 GO:0016477	cell migration	NCBITaxon:4890	Ascomycota	
-GO:0106339	tRNA (cytidine 32-2'-O)-methyltransferase activity	NCBITaxon:2157	Archaea	PMID:18068186
+GO:0106340	tRNA (cytidine(32)/guanosine(34)-2'-O)-methyltransferase activity	NCBITaxon:2157	Archaea	PMID:18068186
 GO:0035658	Piccolo NuA4 histone acetyltransferase complex	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:37550452
 GO:0002224	toll-like receptor signaling pathway	NCBITaxon:7215	Drosophila	PMID:30034391
 GO:0017015	regulation of transforming growth factor beta receptor signaling pathway	NCBITaxon:4751	Fungi	
@@ -630,7 +637,9 @@ GO:0001817	regulation of cytokine production	NCBITaxon:4896	Schizosaccharomyces 
 GO:0001817	regulation of cytokine production	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0042417	dopamine metabolic process	NCBITaxon:4751	Fungi	
 GO:0030111	regulation of Wnt signaling pathway	NCBITaxon:4751	Fungi	
-GO:0043045	epigenetic programming of gene expression	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	
+GO:0043045	epigenetic programming of gene expression	NCBITaxon:4751	Fungi	
+GO:0043045	epigenetic programming of gene expression	NCBITaxon:2	Bacteria	
+GO:0043045	epigenetic programming of gene expression	NCBITaxon:2157	Archaea	
 GO:0060400	negative regulation of growth hormone receptor signaling pathway	NCBITaxon:4751	Fungi	
 GO:2000036	regulation of stem cell population maintenance	NCBITaxon:4751	Fungi	
 GO:0009725	response to hormone	NCBITaxon:4890	Ascomycota	

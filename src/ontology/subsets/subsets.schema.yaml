@@ -8,9 +8,9 @@ prefixes:
   orcid: https://orcid.org/
   oio: http://www.geneontology.org/formats/oboInOwl#
   dcterms: http://purl.org/dc/terms/
-  bibo: http://purl.org/ontology/bibo/  
+  bibo: http://purl.org/ontology/bibo/
   rdfs: http://www.w3.org/2000/01/rdf-schema#
-  datacite: http://purl.org/spar/datacite/  
+  datacite: http://purl.org/spar/datacite/
   schema: http://schema.org/
   biolink: https://w3id.org/biolink/
 default_prefix: ontology_subset_schema
@@ -86,8 +86,10 @@ classes:
           - category
         range: SubsetTypeEnum
         description: A slim or subset is built for a particular purpose or role.
+        inlined_as_list: true
+        multivalued: true
       status:
-        slot_uri: bibo:status        
+        slot_uri: bibo:status
         range: StatusEnum
         required: true
         description: The maintenance status of the subset
@@ -195,4 +197,3 @@ classes:
   Contributor:
     is_a: Agent
     description: People or organizations who have contributed to the subset
-

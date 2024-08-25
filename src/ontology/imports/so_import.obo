@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-02-28/imports/so_import.owl
+data-version: go/releases/2024-08-14/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -209,7 +209,7 @@ id: SO:0000276
 name: miRNA
 namespace: sequence
 alt_id: SO:0000649
-def: "Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0001244) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors." [PMID:11081512, PMID:12592000]
+def: "Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes). Micro RNAs are produced from precursor molecules (SO:0001244) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors." [PMID:11081512, PMID:12592000]
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:miRNA" EXACT []
@@ -699,14 +699,6 @@ name: capped_mRNA
 namespace: sequence
 def: "An mRNA that is capped." [SO:xp]
 synonym: "capped mRNA" EXACT []
-is_a: SO:0000234 ! mRNA
-
-[Term]
-id: SO:0000871
-name: polyadenylated_mRNA
-namespace: sequence
-def: "An mRNA that is polyadenylated." [SO:xp]
-synonym: "polyadenylated mRNA" EXACT []
 is_a: SO:0000234 ! mRNA
 
 [Term]

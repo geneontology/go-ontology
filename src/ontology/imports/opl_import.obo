@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-07-31/imports/opl_import.owl
+data-version: go/releases/2024-08-14/imports/opl_import.owl
 ontology: go/imports/opl_import
 
 [Term]
@@ -102,6 +102,9 @@ name: Trypanosomatida procyclic stage
 def: "A parasite lifecycle stage of trypanosomatidae in which the organism is in dividing form and it occurs in fly vector." []
 is_a: BFO:0000003
 is_a: OPL:0000181 ! parasite lifecycle stage
+intersection_of: OPL:0000181 ! parasite lifecycle stage
+intersection_of: has_part GO:0051301
+intersection_of: in_taxon NCBITaxon:5654
 
 [Typedef]
 id: characteristic_of

@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Classify ontology
         run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' reasoned.owl
       - name: Upload PR reasoned.owl
@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           ref: master
       - name: Classify ontology
@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Download master classification
         uses: actions/download-artifact@v2
         with:
@@ -66,9 +66,8 @@ jobs:
   post_comment:
     needs: diff_classification
     runs-on: ubuntu-latest
-    container: docker://dvcorg/cml-py3:latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Download diff
         uses: actions/download-artifact@v2
         with:
@@ -77,6 +76,9 @@ jobs:
       - name: Prepare comment
         run: "echo \"Here's a diff of how these changes impact the classified ontology: \n\" >comment.md; cat classification-diff.md/classification-diff.md >>comment.md"
       - name: Post comment
+        uses: NejcZdovc/comment-pr@v1.1.1
         env:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-        run: cml-send-comment comment.md
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          file: "../../comment.md"
+

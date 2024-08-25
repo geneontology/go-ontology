@@ -1,0 +1,30 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run.
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  validate_yaml_and_metadata:
+    runs-on: ubuntu-latest
+    container: geneontology/dev-base:latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install packages
+      run: apt-get update -qq && apt-get install -y python3 python3-pip mmv -qq
+    - name: Install python stuff
+      run: pip3 install pyyaml typing linkml==1.7.4
+    ## Validate YAML schema for https://github.com/geneontology/go-ontology/issues/27399
+    - name: Validate YAML schema
+      run: |
+        linkml-validate -s src/ontology/subsets/subsets.schema.yaml src/ontology/subsets/go_subsets_metadata.yaml

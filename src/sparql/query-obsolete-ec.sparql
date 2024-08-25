@@ -1,0 +1,8 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://purl.uniprot.org/core/>
+SELECT DISTINCT ?ec
+WHERE {
+  ?enzyme rdf:type :Enzyme .
+  ?enzyme :obsolete true .
+  BIND(REPLACE(STR(?enzyme), "http://purl.uniprot.org/enzyme/", "EC:") AS ?ec)
+}
