@@ -12,27 +12,108 @@ id: NCBITaxon:1117
 is_a: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
 
 [Term]
+id: NCBITaxon:1224
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
+
+[Term]
+id: NCBITaxon:1239
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
+
+[Term]
+id: NCBITaxon:1297
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
+
+[Term]
 id: NCBITaxon:131567
 is_a: NCBITaxon_Union:0000030 ! cellular organisms or viruses
+
+[Term]
+id: NCBITaxon:1783257
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
+
+[Term]
+id: NCBITaxon:1783270
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
 
 [Term]
 id: NCBITaxon:2
 is_a: NCBITaxon_Union:0000000 ! Viridiplantae or Bacteria
 is_a: NCBITaxon_Union:0000004 ! Prokaryota
 is_a: NCBITaxon_Union:0000020 ! Fungi or Bacteria
+disjoint_from: NCBITaxon_Union:0000025 ! Archaea or Eukaryota
+
+[Term]
+id: NCBITaxon:200783
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
+
+[Term]
+id: NCBITaxon:200795
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
+
+[Term]
+id: NCBITaxon:200918
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
+
+[Term]
+id: NCBITaxon:200940
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
+
+[Term]
+id: NCBITaxon:201174
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
+
+[Term]
+id: NCBITaxon:203691
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
 
 [Term]
 id: NCBITaxon:2157
 is_a: NCBITaxon_Union:0000004 ! Prokaryota
 is_a: NCBITaxon_Union:0000025 ! Archaea or Eukaryota
+disjoint_from: NCBITaxon_Union:0000007 ! Viridiplantae or Bacteria or Euglenozoa
+disjoint_from: NCBITaxon_Union:0000020 ! Fungi or Bacteria
+
+[Term]
+id: NCBITaxon:2611341
+disjoint_from: NCBITaxon_Union:0000021 ! Viridiplantae or Bacteria or Euglenozoa or Archaea
+disjoint_from: NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+disjoint_from: NCBITaxon_Union:0000024 ! Unikonta
+disjoint_from: NCBITaxon_Union:0000031 ! Stramenopiles or Cryptophyta
+
+[Term]
+id: NCBITaxon:2611352
+disjoint_from: NCBITaxon_Union:0000006 ! Viridiplantae or Archaea or Bacteria
+disjoint_from: NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+disjoint_from: NCBITaxon_Union:0000024 ! Unikonta
+disjoint_from: NCBITaxon_Union:0000031 ! Stramenopiles or Cryptophyta
+
+[Term]
+id: NCBITaxon:2698737
+disjoint_from: NCBITaxon_Union:0000021 ! Viridiplantae or Bacteria or Euglenozoa or Archaea
+disjoint_from: NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+disjoint_from: NCBITaxon_Union:0000024 ! Unikonta
 
 [Term]
 id: NCBITaxon:2759
 is_a: NCBITaxon_Union:0000025 ! Archaea or Eukaryota
+disjoint_from: NCBITaxon_Union:0000004 ! Prokaryota
+
+[Term]
+id: NCBITaxon:28009
+disjoint_from: NCBITaxon_Union:0000022 ! Fungi or Dictyostelium
+disjoint_from: NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+
+[Term]
+id: NCBITaxon:29547
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
 
 [Term]
 id: NCBITaxon:3027
 is_a: NCBITaxon_Union:0000031 ! Stramenopiles or Cryptophyta
+
+[Term]
+id: NCBITaxon:32066
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
 
 [Term]
 id: NCBITaxon:33090
@@ -44,6 +125,15 @@ id: NCBITaxon:33154
 is_a: NCBITaxon_Union:0000024 ! Unikonta
 
 [Term]
+id: NCBITaxon:33208
+disjoint_from: NCBITaxon_Union:0000022 ! Fungi or Dictyostelium
+disjoint_from: NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+
+[Term]
+id: NCBITaxon:33630
+disjoint_from: NCBITaxon_Union:0000031 ! Stramenopiles or Cryptophyta
+
+[Term]
 id: NCBITaxon:33634
 is_a: NCBITaxon_Union:0000031 ! Stramenopiles or Cryptophyta
 
@@ -52,17 +142,41 @@ id: NCBITaxon:33682
 is_a: NCBITaxon_Union:0000008 ! Viridiplantae or Euglenozoa
 
 [Term]
+id: NCBITaxon:38254
+disjoint_from: NCBITaxon_Union:0000021 ! Viridiplantae or Bacteria or Euglenozoa or Archaea
+disjoint_from: NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+disjoint_from: NCBITaxon_Union:0000024 ! Unikonta
+disjoint_from: NCBITaxon_Union:0000031 ! Stramenopiles or Cryptophyta
+
+[Term]
+id: NCBITaxon:40117
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
+
+[Term]
 id: NCBITaxon:4751
 is_a: NCBITaxon_Union:0000020 ! Fungi or Bacteria
 is_a: NCBITaxon_Union:0000022 ! Fungi or Dictyostelium
 
 [Term]
+id: NCBITaxon:544448
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
+
+[Term]
 id: NCBITaxon:554915
 is_a: NCBITaxon_Union:0000024 ! Unikonta
+disjoint_from: NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
+
+[Term]
+id: NCBITaxon:555406
+disjoint_from: NCBITaxon_Union:0000022 ! Fungi or Dictyostelium
 
 [Term]
 id: NCBITaxon:5782
 is_a: NCBITaxon_Union:0000022 ! Fungi or Dictyostelium
+
+[Term]
+id: NCBITaxon:68297
+disjoint_from: NCBITaxon_Union:0000002 ! Viridiplantae or Cyanobacteria
 
 [Term]
 id: NCBITaxon:7746
@@ -138,6 +252,7 @@ is_a: NCBITaxon:2759
 is_a: NCBITaxon_Union:0000007 ! Viridiplantae or Bacteria or Euglenozoa
 union_of: NCBITaxon:33090
 union_of: NCBITaxon:33682
+disjoint_from: NCBITaxon_Union:0000023 ! Fungi or Bacteria or Archaea
 created_by: Jennifer I Deegan
 creation_date: 2009-08-10T10:46:43Z
 
@@ -158,6 +273,8 @@ union_of: NCBITaxon:2
 union_of: NCBITaxon:2157
 union_of: NCBITaxon:33090
 union_of: NCBITaxon:33682
+disjoint_from: NCBITaxon_Union:0000024 ! Unikonta
+disjoint_from: NCBITaxon_Union:0000031 ! Stramenopiles or Cryptophyta
 created_by: Jennifer I Deegan
 creation_date: 2009-08-10T10:46:43Z
 
@@ -175,6 +292,7 @@ is_a: NCBITaxon:131567
 union_of: NCBITaxon:2
 union_of: NCBITaxon:2157
 union_of: NCBITaxon:4751
+disjoint_from: NCBITaxon_Union:0000031 ! Stramenopiles or Cryptophyta
 
 [Term]
 id: NCBITaxon_Union:0000024
@@ -184,6 +302,7 @@ synonym: "unikonts" EXACT []
 is_a: NCBITaxon:2759
 union_of: NCBITaxon:33154
 union_of: NCBITaxon:554915
+disjoint_from: NCBITaxon_Union:0000031 ! Stramenopiles or Cryptophyta
 
 [Term]
 id: NCBITaxon_Union:0000025
