@@ -81,6 +81,8 @@ http://purl.obolibrary.org/obo/GO_1905918	regulation of CoA-transferase activity
 http://purl.obolibrary.org/obo/GO_1900757	regulation of D-amino-acid oxidase activity	http://purl.obolibrary.org/obo/GO_0003884	D-amino-acid oxidase activity
 http://purl.obolibrary.org/obo/GO_0140215	regulation of D-aspartate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0070779	D-aspartate import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1900022	regulation of D-erythro-sphingosine kinase activity	http://purl.obolibrary.org/obo/GO_0017050	D-erythro-sphingosine kinase activity
+http://purl.obolibrary.org/obo/GO_0046324	regulation of D-glucose import	http://purl.obolibrary.org/obo/GO_0046323	D-glucose import
+http://purl.obolibrary.org/obo/GO_0010827	regulation of D-glucose transmembrane transport	http://purl.obolibrary.org/obo/GO_1904659	D-glucose transmembrane transport
 http://purl.obolibrary.org/obo/GO_0043469	regulation of D-xylose catabolic process	http://purl.obolibrary.org/obo/GO_0042843	D-xylose catabolic process
 http://purl.obolibrary.org/obo/GO_1904523	regulation of DNA amplification	http://purl.obolibrary.org/obo/GO_0006277	DNA amplification
 http://purl.obolibrary.org/obo/GO_0051101	regulation of DNA binding	http://purl.obolibrary.org/obo/GO_0003677	DNA binding
@@ -461,7 +463,7 @@ http://purl.obolibrary.org/obo/GO_2000921	regulation of arabinoxylan-containing 
 http://purl.obolibrary.org/obo/GO_0090237	regulation of arachidonate secretion	http://purl.obolibrary.org/obo/GO_0050482	arachidonate secretion
 http://purl.obolibrary.org/obo/GO_0075329	regulation of arbuscule formation for nutrient acquisition from host	http://purl.obolibrary.org/obo/GO_0075328	formation of arbuscule for nutrient acquisition
 http://purl.obolibrary.org/obo/GO_0150070	regulation of arginase activity	http://purl.obolibrary.org/obo/GO_0004053	arginase activity
-http://purl.obolibrary.org/obo/GO_1900079	regulation of arginine biosynthetic process	http://purl.obolibrary.org/obo/GO_0006526	arginine biosynthetic process
+http://purl.obolibrary.org/obo/GO_1900079	regulation of arginine biosynthetic process	http://purl.obolibrary.org/obo/GO_0006526	L-arginine biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000013	regulation of arginine biosynthetic process via ornithine	http://purl.obolibrary.org/obo/GO_0042450	arginine biosynthetic process via ornithine
 http://purl.obolibrary.org/obo/GO_1900081	regulation of arginine catabolic process	http://purl.obolibrary.org/obo/GO_0006527	arginine catabolic process
 http://purl.obolibrary.org/obo/GO_0000821	regulation of arginine metabolic process	http://purl.obolibrary.org/obo/GO_0006525	arginine metabolic process
@@ -1332,10 +1334,8 @@ http://purl.obolibrary.org/obo/GO_2000898	regulation of glucomannan catabolic pr
 http://purl.obolibrary.org/obo/GO_0035430	regulation of gluconate transmembrane transport	http://purl.obolibrary.org/obo/GO_0035429	gluconate transmembrane transport
 http://purl.obolibrary.org/obo/GO_0006111	regulation of gluconeogenesis	http://purl.obolibrary.org/obo/GO_0006094	gluconeogenesis
 http://purl.obolibrary.org/obo/GO_1904023	regulation of glucose catabolic process to lactate via pyruvate	http://purl.obolibrary.org/obo/GO_0019661	glucose catabolic process to lactate via pyruvate
-http://purl.obolibrary.org/obo/GO_0046324	regulation of glucose import	http://purl.obolibrary.org/obo/GO_0046323	glucose import
 http://purl.obolibrary.org/obo/GO_1902659	regulation of glucose mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0010255	glucose mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0010906	regulation of glucose metabolic process	http://purl.obolibrary.org/obo/GO_0006006	glucose metabolic process
-http://purl.obolibrary.org/obo/GO_0010827	regulation of glucose transmembrane transport	http://purl.obolibrary.org/obo/GO_1904659	glucose transmembrane transport
 http://purl.obolibrary.org/obo/GO_0010439	regulation of glucosinolate biosynthetic process	http://purl.obolibrary.org/obo/GO_0019761	glucosinolate biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905123	regulation of glucosylceramidase activity	http://purl.obolibrary.org/obo/GO_0004348	glucosylceramidase activity
 http://purl.obolibrary.org/obo/GO_0046317	regulation of glucosylceramide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006679	glucosylceramide biosynthetic process
