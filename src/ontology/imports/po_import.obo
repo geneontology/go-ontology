@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-07-31/imports/po_import.owl
+data-version: go/releases/2024-08-14/imports/po_import.owl
 ontology: go/imports/po_import
 
 [Term]
@@ -22,21 +22,20 @@ synonym: "bush (narrow)" NARROW []
 synonym: "clonal colony (related)" RELATED []
 synonym: "colony (related)" RELATED []
 synonym: "frutex (narrow)" NARROW []
-synonym: "frutices (narrow)" NARROW []
+synonym: "frutices (narrow, plural)" NARROW []
 synonym: "gametophyte (narrow)" NARROW []
 synonym: "genet (broad)" BROAD []
 synonym: "herb (narrow)" NARROW []
 synonym: "liana (narrow)" NARROW []
 synonym: "planta entera (Spanish, exact)" EXACT []
-synonym: "prothalli (narrow)" NARROW []
+synonym: "prothalli (narrow, plural)" NARROW []
 synonym: "prothallium (narrow)" NARROW []
 synonym: "prothallus (narrow)" NARROW []
 synonym: "ramet (broad)" BROAD []
-synonym: "seedling (narrow)" NARROW []
 synonym: "shrub (narrow)" NARROW []
 synonym: "sporophyte (narrow)" NARROW []
 synonym: "suffrutex (narrow)" NARROW []
-synonym: "suffrutices (narrow)" NARROW []
+synonym: "suffrutices (narrow, plural)" NARROW []
 synonym: "tree (narrow)" NARROW []
 synonym: "vine (narrow)" NARROW []
 synonym: "woody clump (narrow)" NARROW []
@@ -368,24 +367,24 @@ name: trichome
 def: "A unicellular or multicellular plant structure (PO:0009011) that forms a non-sclerified outgrowth from the epidermis (PO:0005679)." []
 synonym: "barb trichome (broad)" BROAD []
 synonym: "bristle (broad)" BROAD []
-synonym: "capilli (narrow)" NARROW []
+synonym: "capilli (narrow, plural)" NARROW []
 synonym: "capillus (narrow)" NARROW []
-synonym: "cilia (narrow)" NARROW []
+synonym: "cilia (narrow, plural)" NARROW []
 synonym: "cilium (narrow)" NARROW []
 synonym: "glochid (narrow)" NARROW []
-synonym: "glochidia (narrow)" NARROW []
+synonym: "glochidia (narrow, plural)" NARROW []
 synonym: "glochidium (narrow)" NARROW []
 synonym: "hair (narrow)" NARROW []
-synonym: "lepides (narrow)" NARROW []
+synonym: "lepides (narrow, plural)" NARROW []
 synonym: "lepis (narrow)" NARROW []
 synonym: "non-secretory trichome (narrow)" NARROW []
 synonym: "scale (narrow)" NARROW []
 synonym: "seta (related)" RELATED []
 synonym: "setae (related)" RELATED []
 synonym: "squama (narrow)" NARROW []
-synonym: "squamae (narrow)" NARROW []
+synonym: "squamae (narrow, plural)" NARROW []
 synonym: "squamella (narrow)" NARROW []
-synonym: "squamellae (narrow)" NARROW []
+synonym: "squamellae (narrow, plural)" NARROW []
 synonym: "squamule (narrow)" NARROW []
 synonym: "tricoma (Spanish, exact)" EXACT []
 synonym: "毛茸、糸状体、毛 (Japanese, exact)" EXACT []
@@ -1094,6 +1093,14 @@ relationship: develops_from PO:0004013 ! plant epidermal cell
 relationship: part_of PO:0025162 ! multicellular trichome
 
 [Term]
+id: PO:0008037
+name: seedling
+def: "A whole plant (PO:0000003) in the seedling development stage (PO:0007131)." []
+synonym: "v&#225stago (Spanish, exact)" EXACT []
+synonym: "芽生え、実生 (Japanese, exact)" EXACT []
+is_a: PO:0000003 ! whole plant
+
+[Term]
 id: PO:0009001
 name: fruit
 def: "A multi-tissue plant structure (PO:0025496) that develops from a gynoecium (PO:0009062), or a single carpel (PO:0009030), and at maturity may have as parts one or more seeds (PO:0009010)." []
@@ -1147,7 +1154,7 @@ def: "A collective plant organ structure (PO:0025007) that produces shoot-borne 
 synonym: "Poaceae crown (related)" RELATED []
 synonym: "shoot (related)" RELATED []
 synonym: "sistema de epiblasto (epiblastema) (Spanish, exact)" EXACT []
-synonym: "thalli (related)" RELATED []
+synonym: "thalli (related, plural)" RELATED []
 synonym: "thallus (related)" RELATED []
 synonym: "tree crown (narrow)" NARROW []
 synonym: "シュート系、苗条系 (Japanese, exact)" EXACT []
@@ -1698,7 +1705,7 @@ name: leaflet
 def: "A cardinal organ part (PO:0025001) that is one of the ultimate segments of a compound leaf (PO:0020043)." []
 synonym: "fol&#237olo (Spanish, exact)" EXACT []
 synonym: "pinna (narrow)" NARROW []
-synonym: "pinnae (narrow)" NARROW []
+synonym: "pinnae (narrow, plural)" NARROW []
 synonym: "pinnule (narrow)" NARROW []
 synonym: "小葉 (Japanese, exact)" EXACT []
 is_a: PO:0025001 ! cardinal organ part
@@ -2113,9 +2120,9 @@ name: plant anatomical space
 def: "An anatomical space that is part of a plant." []
 synonym: "espacio anat&#243mico vegetal (Spanish, exact)" EXACT []
 synonym: "lacuna (narrow)" NARROW []
-synonym: "lacunae (narrow)" NARROW []
+synonym: "lacunae (narrow, plural)" NARROW []
 synonym: "lumen (narrow)" NARROW []
-synonym: "lumina (narrow)" NARROW []
+synonym: "lumina (narrow, plural)" NARROW []
 synonym: "植物 解剖学（形態）的空間 (Japanese, exact)" EXACT []
 is_a: PO:0025131 ! plant anatomical entity
 
@@ -2262,7 +2269,7 @@ is_a: PO:0025094 ! sporangium
 id: PO:0025202
 name: microsporangium
 def: "A sporangium (PO:0025094) in which microspores (PO:0020048) are produced." []
-synonym: "macrosporangia (related)" RELATED []
+synonym: "macrosporangia (related, plural)" RELATED []
 synonym: "macrosporangium (related)" RELATED []
 synonym: "megasporangia (exact, plural)" EXACT []
 synonym: "microsporangia (exact, plural)" EXACT []
@@ -2434,11 +2441,12 @@ is_a: PO:0025099 ! embryo plant structure
 [Term]
 id: PO:0025297
 name: seedling radicle
-def: "A radicle (PO:0020031) that is part of a whole plant (PO:0000003) in the seedling development stage (PO:0007131)." []
+def: "A radicle (PO:0020031) that is part of a seedling (PO:0008037)." []
 synonym: "rad&#237cula de la pl&#225ntula (Spanish, exact)" EXACT []
 synonym: "実生幼根 (Japanese, exact)" EXACT []
 is_a: PO:0020031 ! radicle
 relationship: develops_from PO:0025296 ! plant embryo radicle
+relationship: part_of PO:0008037 ! seedling
 
 [Term]
 id: PO:0025306

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-02-28/imports/pr_import.owl
+data-version: go/releases/2024-08-14/imports/pr_import.owl
 ontology: go/imports/pr_import
 
 [Term]
@@ -9,7 +9,7 @@ def: "An amino acid chain that is produced de novo by ribosome-mediated translat
 synonym: "native protein" NARROW []
 synonym: "natural protein" EXACT []
 is_a: PR:000018263 ! amino acid chain
-is_a: PR:000050567 ! protein-containing material entity
+is_a: PR:000064867 ! protein-containing molecular entity
 intersection_of: PR:000018263 ! amino acid chain
 intersection_of: has_gene_template SO:0000704
 intersection_of: output_of GO:0006412
@@ -1013,7 +1013,7 @@ is_a: PR:000001357 ! intercellular adhesion molecule 1/3
 [Term]
 id: PR:000001471
 name: interleukin-10
-def: "A class 2 cytokine, IL-10 type that is a translation product of the human IL10 gene or a 1:1 ortholog thereof. Active interleukin-10 inhibits the synthesis of a number of cytokines, including IFN-gamma, IL-2, IL-3, TNF and GM-CSF produced by activated macrophages and by helper T cells. Structurally, IL-10 is a protein of about 160 amino acids that contains four conserved cysteines involved in disulfide bonds." []
+def: "A class 2 cytokine, IL-10 type that is a translation product of the human IL10 gene or a 1:1 ortholog thereof." []
 synonym: "CSIF" EXACT []
 synonym: "cytokine synthesis inhibitory factor" EXACT []
 synonym: "IL-10" EXACT []
@@ -1987,9 +1987,12 @@ is_a: PR:000000001 ! protein
 
 [Term]
 id: PR:000006928
-name: pro-epidermal growth factor
+name: pre-pro-epidermal growth factor
 def: "A protein that is a translation product of the human EGF gene or a 1:1 ortholog thereof." []
-synonym: "EGF" EXACT []
+synonym: "EGF" RELATED []
+synonym: "epidermal growth factor" RELATED []
+synonym: "pre-pro-EGF" EXACT []
+synonym: "pro-epidermal growth factor" RELATED []
 is_a: PR:000000001 ! protein
 
 [Term]
@@ -2780,10 +2783,11 @@ is_a: PR:000000001 ! protein
 
 [Term]
 id: PR:000013164
-name: pancreatic prohormone
+name: pancreatic polypeptide prohormone
 def: "A protein that is a translation product of the human PPY gene or a 1:1 ortholog thereof." []
 synonym: "obinepitide" EXACT []
 synonym: "pancreatic polypeptide" EXACT []
+synonym: "pancreatic prohormone" EXACT []
 synonym: "PNP" RELATED []
 synonym: "PP" EXACT []
 synonym: "PPY" EXACT []
@@ -2845,13 +2849,14 @@ is_a: PR:000050025 ! angiotensinogenase
 
 [Term]
 id: PR:000014271
-name: ubiquitin-40S ribosomal protein S27a
+name: ubiquitin-ribosomal protein eS31 fusion protein
 def: "A protein that is a translation product of the human RPS27A gene or a 1:1 ortholog thereof." []
 synonym: "40S ribosomal protein S27a" RELATED []
 synonym: "RPS27A" EXACT []
 synonym: "UBA80" RELATED []
 synonym: "UBCEP1" RELATED []
 synonym: "ubiquitin carboxyl extension protein 80" EXACT []
+synonym: "ubiquitin-40S ribosomal protein S27a" EXACT []
 is_a: PR:000000001 ! protein
 
 [Term]
@@ -2886,7 +2891,7 @@ is_a: PR:000000001 ! protein
 
 [Term]
 id: PR:000015288
-name: smoothened
+name: protein smoothened
 def: "A frizzled-like G-protein coupled receptor that is a translation product of the human SMO gene or a 1:1 ortholog thereof." []
 synonym: "protein Gx" EXACT []
 synonym: "SMO" EXACT []
@@ -3047,7 +3052,7 @@ is_a: PR:000000001 ! protein
 
 [Term]
 id: PR:000016954
-name: ubiquitin-60S ribosomal protein L40
+name: ubiquitin-ribosomal protein eL40 fusion protein
 def: "A protein that is a translation product of the human UBA52 gene or a 1:1 ortholog thereof." []
 synonym: "60S ribosomal protein L40" RELATED []
 synonym: "CEP52" EXACT []
@@ -3285,17 +3290,6 @@ synonym: "DAG1/ClvPrd" EXACT []
 is_a: PR:000006267 ! dystroglycan 1
 is_a: PR:000018264 ! proteolytic cleavage product
 intersection_of: PR:000006267 ! dystroglycan 1
-intersection_of: output_of GO:0016485
-relationship: output_of GO:0016485
-
-[Term]
-id: PR:000019751
-name: pro-epidermal growth factor proteolytic cleavage product
-def: "A pro-epidermal growth factor that has been processed by proteolytic cleavage." []
-synonym: "EGF/ClvPrd" EXACT []
-is_a: PR:000006928 ! pro-epidermal growth factor
-is_a: PR:000018264 ! proteolytic cleavage product
-intersection_of: PR:000006928 ! pro-epidermal growth factor
 intersection_of: output_of GO:0016485
 relationship: output_of GO:0016485
 
@@ -3554,12 +3548,12 @@ relationship: output_of GO:0016485
 
 [Term]
 id: PR:000021066
-name: pancreatic prohormone proteolytic cleavage product
-def: "A pancreatic prohormone that has been processed by proteolytic cleavage." []
+name: pancreatic polypeptide prohormone proteolytic cleavage product
+def: "A pancreatic polypeptide prohormone that has been processed by proteolytic cleavage." []
 synonym: "PPY/ClvPrd" EXACT []
-is_a: PR:000013164 ! pancreatic prohormone
+is_a: PR:000013164 ! pancreatic polypeptide prohormone
 is_a: PR:000018264 ! proteolytic cleavage product
-intersection_of: PR:000013164 ! pancreatic prohormone
+intersection_of: PR:000013164 ! pancreatic polypeptide prohormone
 intersection_of: output_of GO:0016485
 relationship: output_of GO:0016485
 
@@ -3763,9 +3757,9 @@ is_a: PR:000036929 ! tandem-copy polyubiquitin
 [Term]
 id: PR:000035716
 name: ubiquitin (RPS27A)
-def: "A ubiquitin-40S ribosomal protein S27a that has been processed by proteolytic cleavage. This form is the N-terminal region consisting of the Ubiquitin (Pfam:PF00240) domain. Example: UniProtKB:P62979, 1-76." []
+def: "A ubiquitin-ribosomal protein eS31 fusion protein that has been processed by proteolytic cleavage. This form is the N-terminal region consisting of the Ubiquitin (Pfam:PF00240) domain. Example: UniProtKB:P62979, 1-76." []
 synonym: "RPS27A/Clv:ubiq" EXACT []
-is_a: PR:000014271 ! ubiquitin-40S ribosomal protein S27a
+is_a: PR:000014271 ! ubiquitin-ribosomal protein eS31 fusion protein
 is_a: PR:000035728 ! ubiquitin
 relationship: output_of GO:0016485
 
@@ -3781,9 +3775,9 @@ relationship: output_of GO:0016485
 [Term]
 id: PR:000035722
 name: ubiquitin (UBA52)
-def: "A ubiquitin-60S ribosomal protein L40 that has been processed by proteolytic cleavage. This form is the N-terminal region consisting of the Ubiquitin (Pfam:PF00240) domain. Example: UniProtKB:P62987, 1-76." []
+def: "A ubiquitin-ribosomal protein eL40 fusion protein that has been processed by proteolytic cleavage. This form is the N-terminal region consisting of the Ubiquitin (Pfam:PF00240) domain. Example: UniProtKB:P62987, 1-76." []
 synonym: "UBA52/Clv:ubiq" EXACT []
-is_a: PR:000016954 ! ubiquitin-60S ribosomal protein L40
+is_a: PR:000016954 ! ubiquitin-ribosomal protein eL40 fusion protein
 is_a: PR:000035728 ! ubiquitin
 relationship: output_of GO:0016485
 
@@ -3915,19 +3909,6 @@ synonym: "fam:LT" EXACT []
 is_a: PR:000000033 ! tumor necrosis factor, TNF-like
 
 [Term]
-id: PR:000050567
-name: protein-containing material entity
-def: "A material entity that minimally consists of a protein." []
-synonym: "protein" NARROW []
-synonym: "protein aggregate" NARROW []
-synonym: "protein complex" NARROW []
-synonym: "protein-containing complex" NARROW []
-is_a: BFO:0000040
-intersection_of: BFO:0000040
-intersection_of: has_part PR:000000001 ! protein
-relationship: has_part PR:000000001 ! protein
-
-[Term]
 id: PR:000060228
 name: monoubiquitin
 def: "A ubiquitin that is a monomer." []
@@ -3935,6 +3916,19 @@ synonym: "monoUbiq" EXACT []
 intersection_of: PR:000035728 ! ubiquitin
 intersection_of: has_constituent_monomer PR:000035728 {cardinality="1"} ! ubiquitin
 relationship: has_constituent_monomer PR:000035728 {cardinality="1"} ! ubiquitin
+
+[Term]
+id: PR:000064867
+name: protein-containing molecular entity
+def: "A molecular entity that minimally consists of a protein." []
+synonym: "protein" NARROW []
+synonym: "protein aggregate" NARROW []
+synonym: "protein complex" NARROW []
+synonym: "protein-containing complex" NARROW []
+is_a: CHEBI:23367
+intersection_of: CHEBI:23367
+intersection_of: has_part PR:000000001 ! protein
+relationship: has_part PR:000000001 ! protein
 
 [Typedef]
 id: RO:0002330

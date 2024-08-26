@@ -302,7 +302,7 @@ id: NCBITaxon:118969
 name: Legionellales
 synonym: "Legionellaceae group" RELATED []
 is_a: NCBITaxon:1236 ! Gammaproteobacteria
-disjoint_from: NCBITaxon:135614 ! Xanthomonadales
+disjoint_from: NCBITaxon:135614 ! Lysobacterales
 disjoint_from: NCBITaxon:135622 ! Alteromonadales
 disjoint_from: NCBITaxon:135623 ! Vibrionales
 disjoint_from: NCBITaxon:135625 ! Pasteurellales
@@ -411,15 +411,16 @@ relationship: RO:0002162 NCBITaxon:1236 ! in taxon Gammaproteobacteria
 [Term]
 id: NCBITaxon:1239
 name: Bacillota
-synonym: "\"Firmicutes\" corrig. Gibbons and Murray 1978 (Approved Lists 1980)" RELATED []
 synonym: "Bacillaeota" RELATED []
 synonym: "Bacillota corrig. Gibbons and Murray 2021" RELATED []
 synonym: "Bacillus/Clostridium group" RELATED []
 synonym: "clostridial firmicutes" RELATED []
 synonym: "Clostridium group firmicutes" RELATED []
+synonym: "Firmacutes" RELATED []
 synonym: "Firmicuteota" RELATED []
-synonym: "Firmicutes" EXACT []
+synonym: "Firmicutes" RELATED []
 synonym: "firmicutes" RELATED []
+synonym: "Firmicutes corrig. Gibbons and Murray 1978 (Approved Lists 1980)" RELATED []
 synonym: "Low G+C firmicutes" RELATED []
 synonym: "low G+C Gram-positive bacteria" EXACT []
 synonym: "low GC Gram+" EXACT []
@@ -665,15 +666,16 @@ relationship: RO:0002162 NCBITaxon:1355477 ! in taxon Bradyrhizobium diazoeffici
 
 [Term]
 id: NCBITaxon:135614
-name: Xanthomonadales
-synonym: "Lysobacterales" RELATED []
+name: Lysobacterales
+synonym: "Xanthomonadales" RELATED []
+synonym: "Xanthomonadales Saddler and Bradbury 2005" RELATED []
 is_a: NCBITaxon:1236 ! Gammaproteobacteria
 disjoint_from: NCBITaxon:135622 ! Alteromonadales
 disjoint_from: NCBITaxon:135623 ! Vibrionales
 disjoint_from: NCBITaxon:135625 ! Pasteurellales
 disjoint_from: NCBITaxon:72274 ! Pseudomonadales
 disjoint_from: NCBITaxon:91347 ! Enterobacterales
-relationship: RO:0002162 NCBITaxon:135614 ! in taxon Xanthomonadales
+relationship: RO:0002162 NCBITaxon:135614 ! in taxon Lysobacterales
 
 [Term]
 id: NCBITaxon:135621
@@ -1179,9 +1181,7 @@ relationship: RO:0002162 NCBITaxon:1639119 ! in taxon Plasmodiidae
 [Term]
 id: NCBITaxon:164328
 name: Phytophthora ramorum
-synonym: "ramorum blight" RELATED []
-synonym: "sudden oak death" RELATED []
-synonym: "Sudden oak death agent" EXACT []
+synonym: "sudden oak death agent" EXACT []
 is_a: NCBITaxon:4783 ! Phytophthora
 relationship: RO:0002162 NCBITaxon:164328 ! in taxon Phytophthora ramorum
 
@@ -1572,7 +1572,6 @@ relationship: RO:0002162 NCBITaxon:186634 ! in taxon Otomorpha
 [Term]
 id: NCBITaxon:186801
 name: Clostridia
-synonym: "Natranaerobiia" RELATED []
 is_a: NCBITaxon:1239 ! Bacillota
 disjoint_from: NCBITaxon:91061 ! Bacilli
 relationship: RO:0002162 NCBITaxon:186801 ! in taxon Clostridia
@@ -1607,10 +1606,12 @@ relationship: RO:0002162 NCBITaxon:186826 ! in taxon Lactobacillales
 
 [Term]
 id: NCBITaxon:187857
-name: Aquificae
+name: Aquificia
+synonym: "Aquificae" RELATED []
 synonym: "Aquificae Reysenbach 2002" RELATED []
+synonym: "Aquificia corrig." RELATED []
 is_a: NCBITaxon:200783 ! Aquificota
-relationship: RO:0002162 NCBITaxon:187857 ! in taxon Aquificae
+relationship: RO:0002162 NCBITaxon:187857 ! in taxon Aquificia
 
 [Term]
 id: NCBITaxon:1883
@@ -1768,6 +1769,9 @@ relationship: RO:0002162 NCBITaxon:197563 ! in taxon Mandibulata
 id: NCBITaxon:2
 name: Bacteria
 synonym: "bacteria" RELATED []
+synonym: "Bacteria (ex Cavalier-Smith 1987)" RELATED []
+synonym: "Bacteria Woese et al. 2024" RELATED []
+synonym: "Bacteriobiota" RELATED []
 synonym: "eubacteria" EXACT []
 synonym: "Monera" RELATED []
 synonym: "Procaryotae" RELATED []
@@ -1939,7 +1943,6 @@ relationship: RO:0002162 NCBITaxon:203691 ! in taxon Spirochaetota
 [Term]
 id: NCBITaxon:203692
 name: Spirochaetia
-synonym: "\"Leptospiria\" Cavalier-Smith 2020" RELATED []
 synonym: "Spirochaetes" RELATED []
 is_a: NCBITaxon:203691 ! Spirochaetota
 relationship: RO:0002162 NCBITaxon:203692 ! in taxon Spirochaetia
@@ -2103,6 +2106,7 @@ id: NCBITaxon:2157
 name: Archaea
 synonym: "archaea" RELATED []
 synonym: "Archaebacteria" RELATED []
+synonym: "Archaebiota" RELATED []
 synonym: "Mendosicutes" RELATED []
 synonym: "Metabacteria" RELATED []
 synonym: "Monera" RELATED []
@@ -2217,6 +2221,8 @@ relationship: RO:0002162 NCBITaxon:2233855 ! in taxon indigoferoid/millettioid c
 id: NCBITaxon:2235
 name: Halobacteriales
 synonym: "Haloarchaeales" RELATED []
+synonym: "Haloferacales" RELATED []
+synonym: "Natrialbales" RELATED []
 is_a: NCBITaxon:183963 ! Halobacteria
 relationship: RO:0002162 NCBITaxon:2235 ! in taxon Halobacteriales
 
@@ -2273,7 +2279,6 @@ relationship: RO:0002162 NCBITaxon:224324 ! in taxon Aquifex aeolicus VF5
 [Term]
 id: NCBITaxon:224756
 name: Methanomicrobia
-synonym: "'Methanomicrobia'" RELATED []
 synonym: "Methanogen Class II" RELATED []
 is_a: NCBITaxon:2290931 ! Stenosarchaea group
 relationship: RO:0002162 NCBITaxon:224756 ! in taxon Methanomicrobia
@@ -2982,9 +2987,13 @@ relationship: RO:0002162 NCBITaxon:284812 ! in taxon Schizosaccharomyces pombe 9
 id: NCBITaxon:286
 name: Pseudomonas
 synonym: "\"Chlorobacterium\" Guillebeau 1890, nom. rejic. Opin. 6 (not \"Chlorobacterium\" Lauterborn 1916)" RELATED []
+synonym: "Chryseomonas" RELATED []
+synonym: "Flavimonas" RELATED []
 synonym: "Liquidomonas" RELATED []
 synonym: "Loefflerella" RELATED []
-synonym: "RNA similarity group I" RELATED []
+synonym: "Pseudomonas Migula 1894 (Approved Lists 1980)" RELATED []
+synonym: "RNA similarity group I" EXACT []
+synonym: "Serpens" RELATED []
 is_a: NCBITaxon:135621 ! Pseudomonadaceae
 relationship: RO:0002162 NCBITaxon:286 ! in taxon Pseudomonas
 
@@ -3357,11 +3366,12 @@ relationship: RO:0002162 NCBITaxon:31979 ! in taxon Clostridiaceae
 
 [Term]
 id: NCBITaxon:32033
-name: Xanthomonadaceae
-synonym: "Lysobacteraceae" RELATED []
+name: Lysobacteraceae
+synonym: "Xanthomonadaceae" RELATED []
+synonym: "Xanthomonadaceae Saddler and Bradbury 2005" RELATED []
 synonym: "Xanthomonas group" EXACT []
-is_a: NCBITaxon:135614 ! Xanthomonadales
-relationship: RO:0002162 NCBITaxon:32033 ! in taxon Xanthomonadaceae
+is_a: NCBITaxon:135614 ! Lysobacterales
+relationship: RO:0002162 NCBITaxon:32033 ! in taxon Lysobacteraceae
 
 [Term]
 id: NCBITaxon:32061
@@ -3401,7 +3411,7 @@ synonym: "Hydrogenic oxygen reducing bacteria" RELATED []
 synonym: "Obligately chemolithotrophic hydrogen bacteria" RELATED []
 synonym: "Oxygen reducing bacteria" RELATED []
 synonym: "Oxygen-reducing bacteria" RELATED []
-is_a: NCBITaxon:187857 ! Aquificae
+is_a: NCBITaxon:187857 ! Aquificia
 relationship: RO:0002162 NCBITaxon:32069 ! in taxon Aquificales
 
 [Term]
@@ -3735,7 +3745,7 @@ relationship: RO:0002162 NCBITaxon:3378 ! in taxon Gnetales
 id: NCBITaxon:338
 name: Xanthomonas
 synonym: "\"Phytomonas\" Bergey et al. 1923" RELATED []
-is_a: NCBITaxon:32033 ! Xanthomonadaceae
+is_a: NCBITaxon:32033 ! Lysobacteraceae
 relationship: RO:0002162 NCBITaxon:338 ! in taxon Xanthomonas
 
 [Term]
@@ -4505,6 +4515,7 @@ id: NCBITaxon:4113
 name: Solanum tuberosum
 synonym: "potato" EXACT []
 synonym: "potatoes" EXACT []
+synonym: "Solanum aracc-papa" RELATED []
 is_a: NCBITaxon:4107 ! Solanum
 disjoint_from: NCBITaxon:49274 ! Solanum subgen. Lycopersicon
 relationship: RO:0002162 NCBITaxon:4113 ! in taxon Solanum tuberosum
@@ -5232,7 +5243,14 @@ name: Schizosaccharomyces pombe
 synonym: "fission yeast" EXACT []
 synonym: "Schizosaccharomyces malidevorans" RELATED []
 is_a: NCBITaxon:4895 ! Schizosaccharomyces
+disjoint_from: NCBITaxon:4899 ! Schizosaccharomyces octosporus
 relationship: RO:0002162 NCBITaxon:4896 ! in taxon Schizosaccharomyces pombe
+
+[Term]
+id: NCBITaxon:4899
+name: Schizosaccharomyces octosporus
+is_a: NCBITaxon:4895 ! Schizosaccharomyces
+relationship: RO:0002162 NCBITaxon:4899 ! in taxon Schizosaccharomyces octosporus
 
 [Term]
 id: NCBITaxon:491
@@ -5290,16 +5308,16 @@ relationship: RO:0002162 NCBITaxon:4952 ! in taxon Yarrowia lipolytica
 
 [Term]
 id: NCBITaxon:498845
-name: Korarchaeum
-synonym: "Candidatus Korarchaeum" EXACT []
+name: Candidatus Korarchaeum
+synonym: "Korarchaeum" EXACT []
 is_a: NCBITaxon:51967 ! Candidatus Korarchaeota
-relationship: RO:0002162 NCBITaxon:498845 ! in taxon Korarchaeum
+relationship: RO:0002162 NCBITaxon:498845 ! in taxon Candidatus Korarchaeum
 
 [Term]
 id: NCBITaxon:498846
 name: Candidatus Korarchaeum cryptofilum
 synonym: "Korarchaeum cryptofilum" EXACT []
-is_a: NCBITaxon:498845 ! Korarchaeum
+is_a: NCBITaxon:498845 ! Candidatus Korarchaeum
 relationship: RO:0002162 NCBITaxon:498846 ! in taxon Candidatus Korarchaeum cryptofilum
 
 [Term]
@@ -5330,6 +5348,7 @@ relationship: RO:0002162 NCBITaxon:5052 ! in taxon Aspergillus
 [Term]
 id: NCBITaxon:50557
 name: Insecta
+synonym: "insects" EXACT []
 synonym: "insects" RELATED []
 synonym: "true insects" EXACT []
 is_a: NCBITaxon:6960 ! Hexapoda
@@ -6329,8 +6348,8 @@ relationship: RO:0002162 NCBITaxon:6945 ! in taxon Ixodes scapularis
 id: NCBITaxon:6960
 name: Hexapoda
 synonym: "Atelocerata" RELATED []
+synonym: "hexapods" EXACT []
 synonym: "hexapods" RELATED []
-synonym: "insects" EXACT []
 synonym: "Tracheata" RELATED []
 synonym: "Uniramia" RELATED []
 is_a: NCBITaxon:197562 ! Pancrustacea
@@ -7360,8 +7379,8 @@ relationship: RO:0002162 NCBITaxon:91347 ! in taxon Enterobacterales
 id: NCBITaxon:91561
 name: Artiodactyla
 synonym: "Cetartiodactyla" RELATED []
-synonym: "even-toed ungulates" RELATED []
-synonym: "whales, hippos, ruminants, pigs, camels etc." EXACT []
+synonym: "even-toed ungulates & whales" EXACT []
+synonym: "even-toed ungulates & whales" RELATED []
 is_a: NCBITaxon:314145 ! Laurasiatheria
 disjoint_from: NCBITaxon:9397 ! Chiroptera
 disjoint_from: NCBITaxon:9787 ! Perissodactyla
@@ -7644,9 +7663,11 @@ relationship: RO:0002162 NCBITaxon:9612 ! in taxon Canis lupus
 [Term]
 id: NCBITaxon:9615
 name: Canis lupus familiaris
+synonym: "Canis borealis" RELATED []
 synonym: "Canis canis" RELATED []
 synonym: "Canis domesticus" RELATED []
 synonym: "Canis familiaris" RELATED []
+synonym: "Canis lupus borealis" RELATED []
 synonym: "dog" EXACT []
 synonym: "dogs" EXACT []
 is_a: NCBITaxon:9612 ! Canis lupus
@@ -7683,7 +7704,7 @@ synonym: "cetaceans" EXACT []
 synonym: "whale" EXACT []
 synonym: "whales" EXACT []
 synonym: "whales & dolphins" RELATED []
-synonym: "whales, dolphins, and porpoises" EXACT []
+synonym: "whales, dolphins & porpoises" EXACT []
 is_a: NCBITaxon:2653789 ! Whippomorpha
 relationship: RO:0002162 NCBITaxon:9721 ! in taxon Cetacea
 

@@ -34,7 +34,7 @@ TODO
 
 ## Subclass of
 
-[membrane](http://purl.obolibrary.org/obo/GO_0016020)  and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some `{encompassing_membrane}`)  and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some `{intersecting_region}`)
+[membrane](http://purl.obolibrary.org/obo/GO_0016020)  and ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some `{encompassing_membrane}`)  and ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some `{intersecting_region}`)
 
 
 
