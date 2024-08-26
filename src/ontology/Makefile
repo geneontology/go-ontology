@@ -383,9 +383,16 @@ check_all_taxon_constraints_columns: check_taxon_constraint_columns_only_in_taxo
 imports/go_taxon_constraints.owl: ../taxon_constraints/only_in_taxon.ofn ../taxon_constraints/never_in_taxon.ofn ../taxon_constraints/present_in_taxon_annotations.ofn
 	$(ROBOT) merge $(addprefix -i , $^) annotate -O $(BASE)/$@ -o $@
 
-imports/go-computed-taxon-constraints.owl: $(SRC) $(SPARQLDIR)/taxon-constraints-materialization.ru $(SPARQLDIR)/taxon-constraints-in-taxon-annotation.rq $(SPARQLDIR)/taxon-constraints-never-in-taxon-annotation.rq
-	$(ROBOT) merge -i $< query --update $(SPARQLDIR)/taxon-constraints-materialization.ru materialize --term RO:0002162 query --query $(SPARQLDIR)/taxon-constraints-in-taxon-annotation.rq taxon-constraints-in-taxon-annotation.ttl --query $(SPARQLDIR)/taxon-constraints-never-in-taxon-annotation.rq taxon-constraints-never-in-taxon-annotation.ttl &&\
-	$(ROBOT) merge -i taxon-constraints-in-taxon-annotation.ttl -i taxon-constraints-never-in-taxon-annotation.ttl annotate -O $(BASE)/$@ -o $@
+imports/go-computed-taxon-constraints.owl: $(SRC) $(SPARQLDIR)/taxon-constraints-materialization.ru ../util/materialize-taxon-constraints.dl
+	$(ROBOT) merge -i $< query --update $(SPARQLDIR)/taxon-constraints-materialization.ru -o taxon-constraints-materialization-temp.ofn &&\
+	JAVA_OPTS=-Xmx12G relation-graph --ontology-file taxon-constraints-materialization-temp.ofn --output-file taxon-constraints-materialization-temp.nt --property 'http://purl.obolibrary.org/obo/RO_0002162' --output-subclasses true --reflexive-subclasses false &&\
+	sed 's/ /\t/' taxon-constraints-materialization-temp.nt | sed 's/ /\t/' | sed 's/ \.$$//' >taxonconstraintsrelationgraph.facts &&\
+	souffle ../util/materialize-taxon-constraints.dl &&\
+	sed -E 's|<http://purl.obolibrary.org/obo/([^[:space:]]+)_([[:digit:]]+)>|\1:\2|g' computed_only_in_taxon.csv | sed '1s/^/defined_class\ttaxon\n/' >computed_only_in_taxon.tsv &&\
+	sed -E 's|<http://purl.obolibrary.org/obo/([^[:space:]]+)_([[:digit:]]+)>|\1:\2|g' computed_never_in_taxon.csv | sed '1s/^/defined_class\ttaxon\n/' >computed_never_in_taxon.tsv &&\
+	$(DOSDP_TOOLS) generate --obo-prefixes=true --template=../taxon_constraints/computed_only_in_taxon.yaml --infile=computed_only_in_taxon.tsv --outfile=computed_only_in_taxon.tmp.ofn &&\
+	$(DOSDP_TOOLS) generate --obo-prefixes=true --template=../taxon_constraints/computed_never_in_taxon.yaml --infile=computed_never_in_taxon.tsv --outfile=computed_never_in_taxon.tmp.ofn &&\
+	$(ROBOT) annotate -i computed_only_in_taxon.tmp.ofn -O $(BASE)/$@ merge -i computed_never_in_taxon.tmp.ofn -o $@
 
 imports/go-computed-taxon-constraints.obo: imports/go-computed-taxon-constraints.owl
 	$(ROBOT) convert -i $< -o imports/go-computed-taxon-constraints.tmp.obo && grep -v '^owl-axioms' imports/go-computed-taxon-constraints.tmp.obo >$@
