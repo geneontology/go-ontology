@@ -11,7 +11,7 @@ classes:
   biological regulation: "GO:0065007"
 
 relations: 
-  regulates in another organism: "RO:0012014"
+  regulates in another organism: "RO:0012010"
 
 vars:
   entity: Thing
@@ -27,6 +27,6 @@ def:
      - entity
 
 equivalentTo:
-  text: "''symbiont-mediated perturbation of host process'' and 'regulates in another organism' some %s"
+  text: "'symbiont-mediated perturbation of host process' and 'regulates in another organism' some %s"
   vars:
     - entity
