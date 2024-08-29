@@ -1,0 +1,31 @@
+pattern_name: symbiont-mediated suppression of host process
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/symbiont_mediated_suppression_of_host_process.yaml
+
+description: >-
+   This pattern is for classes representing suppression by symbiont of a host process differentiated by the process impacted. 
+
+classes:
+  Thing: owl:Thing
+  biological regulation: "GO:0065007"
+
+relations: 
+  negatively regulates in another organism: "RO:0012014"
+
+vars:
+  entity: Thing
+
+name:
+     text: "symbiont-modulated suppression of host %s"
+     vars:
+       - entity
+
+def:
+  text: "A process in which a symbiont inhibits or disrupts the normal execution of a host %s."
+  vars:
+     - entity
+
+equivalentTo:
+  text: "'symbiont-mediated perturbation of host process' and 'negatively regulates in another organism' some %s"
+  vars:
+    - entity
