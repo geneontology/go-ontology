@@ -1,0 +1,32 @@
+
+pattern_name: symbiont-mediated perturbation of host process
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/symbiont_mediated_perturbation_of_host_process.yaml
+
+description: >-
+   This pattern is for classes representing perturbation by symbiont of a host process differentiated by the process impacted. 
+
+classes:
+  Thing: owl:Thing
+  biological regulation: "GO:0065007"
+
+relations: 
+  regulates in another organism: "RO:0012014"
+
+vars:
+  entity: Thing
+
+name:
+     text: "symbiont-modulated perturbation of %s"
+     vars:
+       - entity
+
+def:
+  text: "A process in which a symbiont alters or subverts the normal execution of a host %s."
+  vars:
+     - entity
+
+equivalentTo:
+  text: "''symbiont-mediated perturbation of host process'' and 'regulates in another organism' some %s"
+  vars:
+    - entity
