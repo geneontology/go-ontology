@@ -66,6 +66,8 @@ http://purl.obolibrary.org/obo/GO_0150142	positive regulation of CD86 production
 http://purl.obolibrary.org/obo/GO_1904219	positive regulation of CDP-diacylglycerol-serine O-phosphatidyltransferase activity	http://purl.obolibrary.org/obo/GO_0003882	CDP-diacylglycerol-serine O-phosphatidyltransferase activity
 http://purl.obolibrary.org/obo/GO_1905920	positive regulation of CoA-transferase activity	http://purl.obolibrary.org/obo/GO_0008410	CoA-transferase activity
 http://purl.obolibrary.org/obo/GO_0140217	positive regulation of D-aspartate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0070779	D-aspartate import across plasma membrane
+http://purl.obolibrary.org/obo/GO_0046326	positive regulation of D-glucose import	http://purl.obolibrary.org/obo/GO_0046323	D-glucose import
+http://purl.obolibrary.org/obo/GO_0010828	positive regulation of D-glucose transmembrane transport	http://purl.obolibrary.org/obo/GO_1904659	D-glucose transmembrane transport
 http://purl.obolibrary.org/obo/GO_1904525	positive regulation of DNA amplification	http://purl.obolibrary.org/obo/GO_0006277	DNA amplification
 http://purl.obolibrary.org/obo/GO_0043388	positive regulation of DNA binding	http://purl.obolibrary.org/obo/GO_0003677	DNA binding
 http://purl.obolibrary.org/obo/GO_2000573	positive regulation of DNA biosynthetic process	http://purl.obolibrary.org/obo/GO_0071897	DNA biosynthetic process
@@ -336,6 +338,7 @@ http://purl.obolibrary.org/obo/GO_2000947	positive regulation of amylopectin cat
 http://purl.obolibrary.org/obo/GO_2000944	positive regulation of amylopectin metabolic process	http://purl.obolibrary.org/obo/GO_2000896	amylopectin metabolic process
 http://purl.obolibrary.org/obo/GO_1905786	positive regulation of anaphase-promoting complex-dependent catabolic process	http://purl.obolibrary.org/obo/GO_0031145	anaphase-promoting complex-dependent catabolic process
 http://purl.obolibrary.org/obo/GO_2000825	positive regulation of androgen receptor activity	http://purl.obolibrary.org/obo/GO_0004879	nuclear receptor activity
+http://purl.obolibrary.org/obo/GO_0160207	positive regulation of androgen receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0030521	androgen receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_2000836	positive regulation of androgen secretion	http://purl.obolibrary.org/obo/GO_0035935	androgen secretion
 http://purl.obolibrary.org/obo/GO_1903456	positive regulation of androst-4-ene-3,17-dione biosynthetic process	http://purl.obolibrary.org/obo/GO_1903449	androst-4-ene-3,17-dione biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000839	positive regulation of androstenedione secretion	http://purl.obolibrary.org/obo/GO_0035941	androstenedione secretion
@@ -405,7 +408,7 @@ http://purl.obolibrary.org/obo/GO_2000923	positive regulation of arabinoxylan-co
 http://purl.obolibrary.org/obo/GO_0090238	positive regulation of arachidonate secretion	http://purl.obolibrary.org/obo/GO_0050482	arachidonate secretion
 http://purl.obolibrary.org/obo/GO_0075330	positive regulation of arbuscule formation for nutrient acquisition from host	http://purl.obolibrary.org/obo/GO_0075328	formation of arbuscule for nutrient acquisition
 http://purl.obolibrary.org/obo/GO_0150072	positive regulation of arginase activity	http://purl.obolibrary.org/obo/GO_0004053	arginase activity
-http://purl.obolibrary.org/obo/GO_1900080	positive regulation of arginine biosynthetic process	http://purl.obolibrary.org/obo/GO_0006526	arginine biosynthetic process
+http://purl.obolibrary.org/obo/GO_1900080	positive regulation of arginine biosynthetic process	http://purl.obolibrary.org/obo/GO_0006526	L-arginine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905653	positive regulation of artery morphogenesis	http://purl.obolibrary.org/obo/GO_0048844	artery morphogenesis
 http://purl.obolibrary.org/obo/GO_1905656	positive regulation of artery smooth muscle contraction	http://purl.obolibrary.org/obo/GO_0014824	artery smooth muscle contraction
 http://purl.obolibrary.org/obo/GO_1900628	positive regulation of arugosin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900587	arugosin biosynthetic process
@@ -1155,10 +1158,8 @@ http://purl.obolibrary.org/obo/GO_2000908	positive regulation of glucomannan cat
 http://purl.obolibrary.org/obo/GO_0035432	positive regulation of gluconate transmembrane transport	http://purl.obolibrary.org/obo/GO_0035429	gluconate transmembrane transport
 http://purl.obolibrary.org/obo/GO_0045722	positive regulation of gluconeogenesis	http://purl.obolibrary.org/obo/GO_0006094	gluconeogenesis
 http://purl.obolibrary.org/obo/GO_1904025	positive regulation of glucose catabolic process to lactate via pyruvate	http://purl.obolibrary.org/obo/GO_0019661	glucose catabolic process to lactate via pyruvate
-http://purl.obolibrary.org/obo/GO_0046326	positive regulation of glucose import	http://purl.obolibrary.org/obo/GO_0046323	glucose import
 http://purl.obolibrary.org/obo/GO_1902661	positive regulation of glucose mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0010255	glucose mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0010907	positive regulation of glucose metabolic process	http://purl.obolibrary.org/obo/GO_0006006	glucose metabolic process
-http://purl.obolibrary.org/obo/GO_0010828	positive regulation of glucose transmembrane transport	http://purl.obolibrary.org/obo/GO_1904659	glucose transmembrane transport
 http://purl.obolibrary.org/obo/GO_0046319	positive regulation of glucosylceramide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006679	glucosylceramide biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000753	positive regulation of glucosylceramide catabolic process	http://purl.obolibrary.org/obo/GO_0006680	glucosylceramide catabolic process
 http://purl.obolibrary.org/obo/GO_2000920	positive regulation of glucuronoarabinoxylan catabolic process	http://purl.obolibrary.org/obo/GO_2000887	glucuronoarabinoxylan catabolic process

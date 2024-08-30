@@ -67,6 +67,7 @@ http://purl.obolibrary.org/obo/GO_0021957	corticospinal tract morphogenesis	http
 http://purl.obolibrary.org/obo/GO_0061559	cranial ganglion morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001714	cranial ganglion
 http://purl.obolibrary.org/obo/GO_0021602	cranial nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001785	cranial nerve
 http://purl.obolibrary.org/obo/GO_0060363	cranial suture morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003685	cranial suture
+http://purl.obolibrary.org/obo/GO_0097094	craniofacial suture morphogenesis	http://purl.obolibrary.org/obo/UBERON_0009198	craniofacial suture
 http://purl.obolibrary.org/obo/GO_0021959	cuneatus tract morphogenesis	http://purl.obolibrary.org/obo/UBERON_0005832	cuneate fasciculus
 http://purl.obolibrary.org/obo/GO_0003399	cytoneme morphogenesis	http://purl.obolibrary.org/obo/GO_0035230	cytoneme
 http://purl.obolibrary.org/obo/GO_0048813	dendrite morphogenesis	http://purl.obolibrary.org/obo/GO_0030425	dendrite
@@ -93,6 +94,7 @@ http://purl.obolibrary.org/obo/GO_0035261	external genitalia morphogenesis	http:
 http://purl.obolibrary.org/obo/GO_0048592	eye morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000970	eye
 http://purl.obolibrary.org/obo/GO_0060325	face morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001456	face
 http://purl.obolibrary.org/obo/GO_0021610	facial nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001647	facial nerve
+http://purl.obolibrary.org/obo/GO_0097096	facial suture morphogenesis	http://purl.obolibrary.org/obo/UBERON_0009199	facial suture
 http://purl.obolibrary.org/obo/GO_1904836	facioacoustic ganglion morphogenesis	http://purl.obolibrary.org/obo/UBERON_0012175	acoustico-facial VII-VIII ganglion complex
 http://purl.obolibrary.org/obo/GO_0061040	female gonad morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
 http://purl.obolibrary.org/obo/GO_1905285	fibrous ring of heart morphogenesis	http://purl.obolibrary.org/obo/UBERON_0006008	fibrous ring of heart
@@ -102,6 +104,7 @@ http://purl.obolibrary.org/obo/GO_0048853	forebrain morphogenesis	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0007440	foregut morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001041	foregut
 http://purl.obolibrary.org/obo/GO_0035136	forelimb morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002102	forelimb
 http://purl.obolibrary.org/obo/GO_0060364	frontal suture morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002490	frontal suture
+http://purl.obolibrary.org/obo/GO_0097095	frontonasal suture morphogenesis	http://purl.obolibrary.org/obo/UBERON_0005404	frontonasal suture
 http://purl.obolibrary.org/obo/GO_0061197	fungiform papilla morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002448	fungiform papilla
 http://purl.obolibrary.org/obo/GO_0061552	ganglion morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000045	ganglion
 http://purl.obolibrary.org/obo/GO_0035112	genitalia morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000990	reproductive system
@@ -200,6 +203,7 @@ http://purl.obolibrary.org/obo/GO_0002011	morphogenesis of an epithelial sheet	h
 http://purl.obolibrary.org/obo/GO_0002009	morphogenesis of an epithelium	http://purl.obolibrary.org/obo/UBERON_0000483	epithelium
 http://purl.obolibrary.org/obo/GO_0048644	muscle organ morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001630	muscle organ
 http://purl.obolibrary.org/obo/GO_0003150	muscular septum morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004667	interventricular septum muscular part
+http://purl.obolibrary.org/obo/GO_0097097	nasal suture morphogenesis	http://purl.obolibrary.org/obo/UBERON_0009203	internasal suture
 http://purl.obolibrary.org/obo/GO_0110040	nematode pharynx morphogenesis	http://purl.obolibrary.org/obo/UBERON_0015232	nematode pharynx
 http://purl.obolibrary.org/obo/GO_0072178	nephric duct morphogenesis	http://purl.obolibrary.org/obo/UBERON_0009201	nephric duct
 http://purl.obolibrary.org/obo/GO_0072134	nephrogenic mesenchyme morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004208	nephrogenic mesenchyme

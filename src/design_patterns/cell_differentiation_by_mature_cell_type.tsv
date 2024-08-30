@@ -287,8 +287,8 @@ http://purl.obolibrary.org/obo/GO_0002332	transitional stage B cell differentiat
 http://purl.obolibrary.org/obo/GO_0001829	trophectodermal cell differentiation	http://purl.obolibrary.org/obo/CL_1000274	trophectodermal cell
 http://purl.obolibrary.org/obo/GO_0060707	trophoblast giant cell differentiation	http://purl.obolibrary.org/obo/CL_0002488	trophoblast giant cell
 http://purl.obolibrary.org/obo/GO_0003309	type B pancreatic cell differentiation	http://purl.obolibrary.org/obo/CL_0000169	type B pancreatic cell
-http://purl.obolibrary.org/obo/GO_0060509	type I pneumocyte differentiation	http://purl.obolibrary.org/obo/CL_0002062	type I pneumocyte
-http://purl.obolibrary.org/obo/GO_0060510	type II pneumocyte differentiation	http://purl.obolibrary.org/obo/CL_0002063	type II pneumocyte
+http://purl.obolibrary.org/obo/GO_0060509	type I pneumocyte differentiation	http://purl.obolibrary.org/obo/CL_0002062	pulmonary alveolar type 1 cell
+http://purl.obolibrary.org/obo/GO_0060510	type II pneumocyte differentiation	http://purl.obolibrary.org/obo/CL_0002063	pulmonary alveolar type 2 cell
 http://purl.obolibrary.org/obo/GO_0072193	ureter smooth muscle cell differentiation	http://purl.obolibrary.org/obo/CL_1000979	ureter smooth muscle cell
 http://purl.obolibrary.org/obo/GO_0035886	vascular associated smooth muscle cell differentiation	http://purl.obolibrary.org/obo/CL_0000359	vascular associated smooth muscle cell
 http://purl.obolibrary.org/obo/GO_0060843	venous endothelial cell differentiation	http://purl.obolibrary.org/obo/CL_0002543	vein endothelial cell
