@@ -16,7 +16,7 @@ vars:
   entity: Thing
 
 name:
-     text: "symbiont-modulated perturbation of %s"
+     text: "symbiont-mediated perturbation of %s"
      vars:
        - entity
 
