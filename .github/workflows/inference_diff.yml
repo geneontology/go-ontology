@@ -47,12 +47,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Download master classification
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: reasoned-master.owl
           path: reasoned-master.owl
       - name: Download PR classification
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: reasoned-pr.owl
           path: reasoned-pr.owl
@@ -69,7 +69,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Download diff
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: classification-diff.md
           path: classification-diff.md
