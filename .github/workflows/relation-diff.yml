@@ -55,17 +55,17 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Download master relations
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
         name: left.facts
         path: left.facts
     - name: Download PR relations
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
         name: right.facts
         path: right.facts
     - name: Download merged ontology
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
         name: ontrdf.facts
         path: ontrdf.facts
