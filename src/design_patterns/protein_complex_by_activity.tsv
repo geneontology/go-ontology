@@ -177,7 +177,7 @@ http://purl.obolibrary.org/obo/GO_0002189	ribose phosphate diphosphokinase compl
 http://purl.obolibrary.org/obo/GO_0048492	ribulose bisphosphate carboxylase complex	http://purl.obolibrary.org/obo/GO_0016984	ribulose-bisphosphate carboxylase activity
 http://purl.obolibrary.org/obo/GO_0032921	sarcosine oxidase complex	http://purl.obolibrary.org/obo/GO_0008115	sarcosine oxidase activity
 http://purl.obolibrary.org/obo/GO_0002116	semaphorin receptor complex	http://purl.obolibrary.org/obo/GO_0017154	semaphorin receptor activity
-http://purl.obolibrary.org/obo/GO_0005969	serine-pyruvate aminotransferase complex	http://purl.obolibrary.org/obo/GO_0004760	serine-pyruvate transaminase activity
+http://purl.obolibrary.org/obo/GO_0005969	serine-pyruvate aminotransferase complex	http://purl.obolibrary.org/obo/GO_0004760	L-serine-pyruvate transaminase activity
 http://purl.obolibrary.org/obo/GO_1905370	serine-type endopeptidase complex	http://purl.obolibrary.org/obo/GO_0004252	serine-type endopeptidase activity
 http://purl.obolibrary.org/obo/GO_1905286	serine-type peptidase complex	http://purl.obolibrary.org/obo/GO_0008236	serine-type peptidase activity
 http://purl.obolibrary.org/obo/GO_1902554	serine/threonine protein kinase complex	http://purl.obolibrary.org/obo/GO_0004674	protein serine/threonine kinase activity
