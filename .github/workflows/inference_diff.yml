@@ -18,7 +18,7 @@ jobs:
       - name: Classify ontology
         run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' reasoned.owl
       - name: Upload PR reasoned.owl
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: reasoned-pr.owl
           path: src/ontology/reasoned.owl
@@ -33,7 +33,7 @@ jobs:
       - name: Classify ontology
         run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' reasoned.owl
       - name: Upload master reasoned.owl
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: reasoned-master.owl
           path: src/ontology/reasoned.owl
@@ -47,19 +47,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Download master classification
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: reasoned-master.owl
           path: reasoned-master.owl
       - name: Download PR classification
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: reasoned-pr.owl
           path: reasoned-pr.owl
       - name: Diff classification
         run: export ROBOT_JAVA_ARGS=-Xmx6G; cd src/ontology; robot diff --left ../../reasoned-master.owl/reasoned.owl --left-catalog catalog-v001.xml --right ../../reasoned-pr.owl/reasoned.owl --right-catalog catalog-v001.xml -f markdown -o classification-diff.md
       - name: Upload diff
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: classification-diff.md
           path: src/ontology/classification-diff.md
@@ -69,7 +69,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Download diff
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: classification-diff.md
           path: classification-diff.md
