@@ -143,7 +143,7 @@ deploy-release:
 	gzip -c $< > $@.tmp && mv $@.tmp $@
 
 %.json: %.owl
-	$(OWLTOOLS) $(USECAT) $< -o -f json $@
+	$(ROBOT) convert --input $< -f json -o $@
 .PRECIOUS: %.json
 
 # ----------------------------------------
@@ -215,8 +215,7 @@ $(GO_PLUS).owl: reasoned.owl imports/go-computed-taxon-constraints.owl
 # GO artifacts to merge are hardcoded here. Would make sense to eventually consolidate go-plus
 # as just the merge of go-base.
 go-base.owl: enhanced.owl
-	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o -f ofn $@.tmp &&\
-	$(ROBOT) merge -i $@.tmp -i extensions/go-gci.owl -i extensions/go-bridge.owl -i extensions/ro_pending.owl -i imports/x-disjoint.ofn annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm $@.tmp
+	$(ROBOT) remove -i $< --select imports --trim false merge -i extensions/go-gci.owl -i extensions/go-bridge.owl -i extensions/ro_pending.owl -i imports/x-disjoint.ofn annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 $(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).owl extensions/gorel.owl mirror/cl.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
@@ -350,13 +349,12 @@ imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 
 # Use ROBOT for imports
 
-# Inserting extra taxon disjoints here because ROBOT is used (standard disjoints come from owltools; could migrate to all via SPARQL like this one)
-imports/%_import_pre.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC) ../sparql/add-taxon-disjoints.ru
-	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT query --update ../sparql/add-taxon-disjoints.ru reason --exclude-duplicate-axioms true --exclude-tautologies structural annotate -O $(BASE)/imports/$*_import.owl -V $(RELEASE_URIBASE)/imports/$*_import.owl -o $@
+imports/%_import_pre.owl: mirror/%.owl imports/%_terms_combined.txt $(SRC)
+	$(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --method BOT reason --exclude-duplicate-axioms true --exclude-tautologies structural annotate -O $(BASE)/imports/$*_import.owl -V $(RELEASE_URIBASE)/imports/$*_import.owl -o $@
 .PRECIOUS: imports/%_import_pre.owl
 
-imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl
-	$(OWLTOOLS) $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $(BASE)/$@ -o $@
+imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl ../sparql/add-taxon-sibling-disjoints.ru ../sparql/add-taxon-disjoints.ru ../sparql/add-in-taxon-disjoints.ru
+	$(ROBOT) query -i $< --update ../sparql/add-taxon-sibling-disjoints.ru --update ../sparql/add-taxon-disjoints.ru --update ../sparql/add-in-taxon-disjoints.ru -o $@
 
 # Ensure every row in the taxon constraints files has the same number of columns (only one line should be output by `sort`)
 check_taxon_constraint_columns_%: ../taxon_constraints/%.tsv
@@ -417,7 +415,7 @@ imports/chebi_import.owl: imports/chebi_import_nogci.owl seed.owl bio-chebi.owl
 .PRECIOUS: imports/chebi_import.owl
 
 imports/%_import.obo: imports/%_import.owl
-	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@.tmp && grep -v ^owl-axioms: $@.tmp > $@
+	$(ROBOT) convert --input $< --format obo --check false --output $@.tmp && grep -v ^owl-axioms: $@.tmp > $@
 
 # ----------------------------------------
 # CACHEING EXTERNAL ONTOLOGIES
