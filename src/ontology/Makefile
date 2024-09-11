@@ -252,7 +252,7 @@ $(GO_LEGO_REACTO).owl: extensions/go-lego-reacto-edit.ofn $(GO_LEGO).owl extensi
 # go.obo is a simplified; we use oort to remove imports etc
 # This version of the ontology is used in another step prior to filtering narrow xrefs
 $(ONT)-pre.owl: reasoned.owl
-	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations --remove-dangling --make-subset-by-properties $(GO_MAIN_RELATIONS) --set-ontology-id -v $(RELEASE_URIBASE)/$(ONT).owl $(OBO)/go.owl -o -f owl $@.tmp && mv $@.tmp $@
+	$(ROBOT) materialize --input $< --reasoner ELK $(addprefix --term ,$(GO_MAIN_RELATIONS)) remove --select imports --trim true remove --select '<http://purl.obolibrary.org/obo/GO_*>' --select complement --select classes --signature true --trim true remove $(addprefix --term ,$(GO_MAIN_RELATIONS)) --select complement --select object-properties --signature true --trim true annotate -O $(OBO)/$(ONT).owl -V $(RELEASE_URIBASE)/$(ONT).owl convert -f owl --output $@.tmp && mv $@.tmp $@
 
 $(ONT)-pre-reduced.owl: $(ONT)-pre.owl
 	$(ROBOT) reduce -r elk -i $< query --update ../sparql/remove-narrow-xrefs.ru -o $@
@@ -275,8 +275,9 @@ go-simple.obo: $(ONT).obo
 go.owl: $(ONT).obo
 
 # remove non-basic relationship types (e.g. has_part)
+# assuming materialization step already done for these properties when making go.obo
 go-simple-filtered.obo: go-simple.obo
-	$(OWLTOOLS) $< --make-subset-by-properties $(GO_BASIC_RELATIONS) // -o -f obo $@
+	$(ROBOT) remove --input $< $(addprefix --term ,$(GO_BASIC_RELATIONS)) --select complement --select object-properties --signature true --trim true convert -f obo --output $@
 
 go-simple-filtered-reduced.obo: go-simple-filtered.obo
 	$(ROBOT) reduce -r elk -i $< -o $@
