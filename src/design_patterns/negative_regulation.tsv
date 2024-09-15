@@ -74,11 +74,9 @@ http://purl.obolibrary.org/obo/GO_0043518	negative regulation of DNA damage resp
 http://purl.obolibrary.org/obo/GO_1902163	negative regulation of DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator	http://purl.obolibrary.org/obo/GO_0006978	DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator
 http://purl.obolibrary.org/obo/GO_1905463	negative regulation of DNA duplex unwinding	http://purl.obolibrary.org/obo/GO_0032508	DNA duplex unwinding
 http://purl.obolibrary.org/obo/GO_0032876	negative regulation of DNA endoreduplication	http://purl.obolibrary.org/obo/GO_0042023	DNA endoreduplication
-http://purl.obolibrary.org/obo/GO_1905775	negative regulation of DNA helicase activity	http://purl.obolibrary.org/obo/GO_0003678	DNA helicase activity
-http://purl.obolibrary.org/obo/GO_1904876	negative regulation of DNA ligase activity	http://purl.obolibrary.org/obo/GO_0003909	DNA ligase activity
 http://purl.obolibrary.org/obo/GO_0051107	negative regulation of DNA ligation	http://purl.obolibrary.org/obo/GO_0006266	DNA ligation
 http://purl.obolibrary.org/obo/GO_0051053	negative regulation of DNA metabolic process	http://purl.obolibrary.org/obo/GO_0006259	DNA metabolic process
-http://purl.obolibrary.org/obo/GO_0090310	negative regulation of DNA methylation-dependent heterochromatin formation	http://purl.obolibrary.org/obo/GO_0006346	DNA methylation-dependent heterochromatin formation
+http://purl.obolibrary.org/obo/GO_0090310	negative regulation of DNA methylation-dependent heterochromatin formation	http://purl.obolibrary.org/obo/GO_0006346	DNA methylation-dependent constitutive heterochromatin formation
 http://purl.obolibrary.org/obo/GO_0062110	negative regulation of DNA recombinase disassembly	http://purl.obolibrary.org/obo/GO_1990986	DNA recombinase disassembly
 http://purl.obolibrary.org/obo/GO_1903873	negative regulation of DNA recombinase mediator complex assembly	http://purl.obolibrary.org/obo/GO_1903871	DNA recombinase mediator complex assembly
 http://purl.obolibrary.org/obo/GO_0045910	negative regulation of DNA recombination	http://purl.obolibrary.org/obo/GO_0006310	DNA recombination
@@ -491,7 +489,6 @@ http://purl.obolibrary.org/obo/GO_1900155	negative regulation of bone trabecula 
 http://purl.obolibrary.org/obo/GO_0030712	negative regulation of border follicle cell delamination	http://purl.obolibrary.org/obo/GO_0030709	border follicle cell delamination
 http://purl.obolibrary.org/obo/GO_1903687	negative regulation of border follicle cell migration	http://purl.obolibrary.org/obo/GO_0007298	border follicle cell migration
 http://purl.obolibrary.org/obo/GO_0031549	negative regulation of brain-derived neurotrophic factor receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0031547	brain-derived neurotrophic factor receptor signaling pathway
-http://purl.obolibrary.org/obo/GO_0031552	negative regulation of brain-derived neurotrophic factor-activated receptor activity	http://purl.obolibrary.org/obo/GO_0060175	brain-derived neurotrophic factor receptor activity
 http://purl.obolibrary.org/obo/GO_0072096	negative regulation of branch elongation involved in ureteric bud branching	http://purl.obolibrary.org/obo/GO_0060681	branch elongation involved in ureteric bud branching
 http://purl.obolibrary.org/obo/GO_0061048	negative regulation of branching involved in lung morphogenesis	http://purl.obolibrary.org/obo/GO_0060441	epithelial tube branching involved in lung morphogenesis
 http://purl.obolibrary.org/obo/GO_0090191	negative regulation of branching involved in ureteric bud morphogenesis	http://purl.obolibrary.org/obo/GO_0001658	branching involved in ureteric bud morphogenesis
@@ -532,7 +529,6 @@ http://purl.obolibrary.org/obo/GO_1903611	negative regulation of calcium-depende
 http://purl.obolibrary.org/obo/GO_0046588	negative regulation of calcium-dependent cell-cell adhesion	http://purl.obolibrary.org/obo/GO_0016339	calcium-dependent cell-cell adhesion via plasma membrane cell adhesion molecules
 http://purl.obolibrary.org/obo/GO_0051042	negative regulation of calcium-independent cell-cell adhesion	http://purl.obolibrary.org/obo/GO_0016338	calcium-independent cell-cell adhesion via plasma membrane cell-adhesion molecules
 http://purl.obolibrary.org/obo/GO_0050849	negative regulation of calcium-mediated signaling	http://purl.obolibrary.org/obo/GO_0019722	calcium-mediated signaling
-http://purl.obolibrary.org/obo/GO_1903280	negative regulation of calcium:sodium antiporter activity	http://purl.obolibrary.org/obo/GO_0005432	calcium:sodium antiporter activity
 http://purl.obolibrary.org/obo/GO_0043124	negative regulation of canonical NF-kappaB signal transduction	http://purl.obolibrary.org/obo/GO_0007249	canonical NF-kappaB signal transduction
 http://purl.obolibrary.org/obo/GO_0090090	negative regulation of canonical Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0060070	canonical Wnt signaling pathway
 http://purl.obolibrary.org/obo/GO_1903675	negative regulation of cap-dependent translational initiation	http://purl.obolibrary.org/obo/GO_0002191	cap-dependent translational initiation
@@ -822,7 +818,6 @@ http://purl.obolibrary.org/obo/GO_0048080	negative regulation of cuticle pigment
 http://purl.obolibrary.org/obo/GO_1901958	negative regulation of cutin biosynthetic process	http://purl.obolibrary.org/obo/GO_0010143	cutin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0048782	negative regulation of cyanophore differentiation	http://purl.obolibrary.org/obo/GO_0048774	cyanophore differentiation
 http://purl.obolibrary.org/obo/GO_0031280	negative regulation of cyclase activity	http://purl.obolibrary.org/obo/GO_0009975	cyclase activity
-http://purl.obolibrary.org/obo/GO_1902160	negative regulation of cyclic nucleotide-gated ion channel activity	http://purl.obolibrary.org/obo/GO_0043855	cyclic nucleotide-activated monoatomic ion channel activity
 http://purl.obolibrary.org/obo/GO_0051344	negative regulation of cyclic-nucleotide phosphodiesterase activity	http://purl.obolibrary.org/obo/GO_0004112	cyclic-nucleotide phosphodiesterase activity
 http://purl.obolibrary.org/obo/GO_1904030	negative regulation of cyclin-dependent protein kinase activity	http://purl.obolibrary.org/obo/GO_0097472	cyclin-dependent protein kinase activity
 http://purl.obolibrary.org/obo/GO_0045736	negative regulation of cyclin-dependent protein serine/threonine kinase activity	http://purl.obolibrary.org/obo/GO_0004693	cyclin-dependent protein serine/threonine kinase activity
@@ -1334,7 +1329,6 @@ http://purl.obolibrary.org/obo/GO_0045608	negative regulation of inner ear audit
 http://purl.obolibrary.org/obo/GO_2000981	negative regulation of inner ear receptor cell differentiation	http://purl.obolibrary.org/obo/GO_0060113	inner ear receptor cell differentiation
 http://purl.obolibrary.org/obo/GO_1903796	negative regulation of inorganic anion transmembrane transport	http://purl.obolibrary.org/obo/GO_0098661	inorganic anion transmembrane transport
 http://purl.obolibrary.org/obo/GO_0035343	negative regulation of inosine transport	http://purl.obolibrary.org/obo/GO_0035340	inosine transport
-http://purl.obolibrary.org/obo/GO_0031586	negative regulation of inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity	http://purl.obolibrary.org/obo/GO_0005220	inositol 1,4,5-trisphosphate-gated calcium channel activity
 http://purl.obolibrary.org/obo/GO_1900089	negative regulation of inositol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006021	inositol biosynthetic process
 http://purl.obolibrary.org/obo/GO_0010920	negative regulation of inositol phosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_0032958	inositol phosphate biosynthetic process
 http://purl.obolibrary.org/obo/GO_0032961	negative regulation of inositol trisphosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_0032959	inositol trisphosphate biosynthetic process
@@ -1428,7 +1422,6 @@ http://purl.obolibrary.org/obo/GO_0050943	negative regulation of iridophore diff
 http://purl.obolibrary.org/obo/GO_1904039	negative regulation of iron export across plasma membrane	http://purl.obolibrary.org/obo/GO_1903988	iron ion export across plasma membrane
 http://purl.obolibrary.org/obo/GO_1904439	negative regulation of iron ion import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098711	iron ion import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0034760	negative regulation of iron ion transmembrane transport	http://purl.obolibrary.org/obo/GO_0034755	iron ion transmembrane transport
-http://purl.obolibrary.org/obo/GO_1904255	negative regulation of iron ion transmembrane transporter activity	http://purl.obolibrary.org/obo/GO_0005381	iron ion transmembrane transporter activity
 http://purl.obolibrary.org/obo/GO_0034757	negative regulation of iron ion transport	http://purl.obolibrary.org/obo/GO_0006826	iron ion transport
 http://purl.obolibrary.org/obo/GO_1903330	negative regulation of iron-sulfur cluster assembly	http://purl.obolibrary.org/obo/GO_0016226	iron-sulfur cluster assembly
 http://purl.obolibrary.org/obo/GO_1900507	negative regulation of iron-sulfur-molybdenum cofactor assembly	http://purl.obolibrary.org/obo/GO_0044593	iron-sulfur-molybdenum cofactor assembly
@@ -1547,7 +1540,6 @@ http://purl.obolibrary.org/obo/GO_2001195	negative regulation of lysine biosynth
 http://purl.obolibrary.org/obo/GO_1902987	negative regulation of lysine biosynthetic process via aminoadipic acid	http://purl.obolibrary.org/obo/GO_0019878	lysine biosynthetic process via aminoadipic acid
 http://purl.obolibrary.org/obo/GO_1905166	negative regulation of lysosomal protein catabolic process	http://purl.obolibrary.org/obo/GO_1905146	lysosomal protein catabolic process
 http://purl.obolibrary.org/obo/GO_1905672	negative regulation of lysosome organization	http://purl.obolibrary.org/obo/GO_0007040	lysosome organization
-http://purl.obolibrary.org/obo/GO_1903591	negative regulation of lysozyme activity	http://purl.obolibrary.org/obo/GO_0003796	lysozyme activity
 http://purl.obolibrary.org/obo/GO_1903838	negative regulation of mRNA 3'-UTR binding	http://purl.obolibrary.org/obo/GO_0003730	mRNA 3'-UTR binding
 http://purl.obolibrary.org/obo/GO_0031441	negative regulation of mRNA 3'-end processing	http://purl.obolibrary.org/obo/GO_0031124	mRNA 3'-end processing
 http://purl.obolibrary.org/obo/GO_1904572	negative regulation of mRNA binding	http://purl.obolibrary.org/obo/GO_0003729	mRNA binding
@@ -1667,7 +1659,6 @@ http://purl.obolibrary.org/obo/GO_2000094	negative regulation of mesonephric nep
 http://purl.obolibrary.org/obo/GO_0061218	negative regulation of mesonephros development	http://purl.obolibrary.org/obo/GO_0001823	mesonephros development
 http://purl.obolibrary.org/obo/GO_0009892	negative regulation of metabolic process	http://purl.obolibrary.org/obo/GO_0008152	metabolic process
 http://purl.obolibrary.org/obo/GO_1904684	negative regulation of metalloendopeptidase activity	http://purl.obolibrary.org/obo/GO_0004222	metalloendopeptidase activity
-http://purl.obolibrary.org/obo/GO_1902963	negative regulation of metalloendopeptidase activity involved in amyloid precursor protein catabolic process	http://purl.obolibrary.org/obo/GO_1902945	metalloendopeptidase activity involved in amyloid precursor protein catabolic process
 http://purl.obolibrary.org/obo/GO_1905049	negative regulation of metallopeptidase activity	http://purl.obolibrary.org/obo/GO_0008237	metallopeptidase activity
 http://purl.obolibrary.org/obo/GO_2000593	negative regulation of metanephric DCT cell differentiation	http://purl.obolibrary.org/obo/GO_0072240	metanephric DCT cell differentiation
 http://purl.obolibrary.org/obo/GO_2000005	negative regulation of metanephric S-shaped body morphogenesis	http://purl.obolibrary.org/obo/GO_0072284	metanephric S-shaped body morphogenesis
@@ -1695,7 +1686,6 @@ http://purl.obolibrary.org/obo/GO_1900355	negative regulation of methanofuran me
 http://purl.obolibrary.org/obo/GO_1900963	negative regulation of methanophenazine biosynthetic process	http://purl.obolibrary.org/obo/GO_1900630	methanophenazine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900966	negative regulation of methanophenazine metabolic process	http://purl.obolibrary.org/obo/GO_1900629	methanophenazine metabolic process
 http://purl.obolibrary.org/obo/GO_1902323	negative regulation of methyl-branched fatty acid biosynthetic process	http://purl.obolibrary.org/obo/GO_1902321	methyl-branched fatty acid biosynthetic process
-http://purl.obolibrary.org/obo/GO_1903869	negative regulation of methylenetetrahydrofolate reductase (NAD(P)H) activity	http://purl.obolibrary.org/obo/GO_0004489	methylenetetrahydrofolate reductase (NAD(P)H) activity
 http://purl.obolibrary.org/obo/GO_0070803	negative regulation of metula development	http://purl.obolibrary.org/obo/GO_0070789	metula development
 http://purl.obolibrary.org/obo/GO_2000626	negative regulation of miRNA catabolic process	http://purl.obolibrary.org/obo/GO_0010587	miRNA catabolic process
 http://purl.obolibrary.org/obo/GO_2000629	negative regulation of miRNA metabolic process	http://purl.obolibrary.org/obo/GO_0010586	miRNA metabolic process
@@ -2782,4 +2772,4 @@ http://purl.obolibrary.org/obo/GO_0075221	negative regulation of zoospore encyst
 http://purl.obolibrary.org/obo/GO_0075242	negative regulation of zoospore formation	http://purl.obolibrary.org/obo/GO_0075239	zoospore formation
 http://purl.obolibrary.org/obo/GO_0075274	negative regulation of zygosporangium development	http://purl.obolibrary.org/obo/GO_0075271	zygosporangium development
 http://purl.obolibrary.org/obo/GO_0075300	negative regulation of zygospore formation	http://purl.obolibrary.org/obo/GO_0034296	zygospore formation
-http://purl.obolibrary.org/obo/GO_0010526	retrotransposon silencing	http://purl.obolibrary.org/obo/GO_0032197	retrotransposition
+http://purl.obolibrary.org/obo/GO_0010526	transposable element silencing	http://purl.obolibrary.org/obo/GO_0032197	retrotransposition
