@@ -178,7 +178,7 @@ subsets:
     contributors:
       - email: go-ontology@lists.stanford.edu
         label: GO Ontology Editors
-  - id: goslim_flyBase_ribbon
+  - id: goslim_flybase_ribbon
     title: FlyBase Ribbon slim
     short_label: Insects
     role:
@@ -338,7 +338,7 @@ subsets:
         label: Valerie Wood
         orcid: orcid:0000-0001-6330-7526
         github: ValWood
-  - id: goslim_prokaroyte_ribbon
+  - id: goslim_prokaryote_ribbon
     title: Prokaryote Ribbon slim
     short_label: Bacteria and Archaea (Prokaryotes)
     role:
