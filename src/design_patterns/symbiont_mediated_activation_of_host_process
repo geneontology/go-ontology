@@ -6,17 +6,17 @@ description: >-
    This pattern is for classes representing activation by symbiont of a host process differentiated by the process impacted. 
 
 classes:
-  Thing: owl:Thing
+  biological process: "GO:0008150"
   biological regulation: "GO:0065007"
 
 relations: 
   positively regulates in another organism: "RO:0012013"
 
 vars:
-  entity: Thing
+  entity: "'biological process'"
 
 name:
-     text: "symbiont-modulated activation of host %s"
+     text: "symbiont-mediated activation of host %s"
      vars:
        - entity
 
