@@ -20,6 +20,7 @@ import org.semanticweb.owlapi.search.EntitySearcher
 
 // Example run within the ontology directory:
 // scala-cli run ../util/bulk_obsolete_terms.sc -- catalog-v001.xml go-edit.obo bulk-obsolete-28848.txt 'https://github.com/geneontology/go-ontology/issues/28848' "This term was obsoleted because it is not known to be catalyzed by any gene product."
+// For the input txt file, put one GO term on each line, e.g. GO:1234567
 
 val catalogFile = args(0)
 val ontologyFile = args(1)
