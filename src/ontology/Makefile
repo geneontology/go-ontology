@@ -294,7 +294,7 @@ basic.facts: go-basic.owl
 	riot -q --output=ntriples $< | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
 
 basic-cycles.tsv: basic.facts ../util/cycles.dl
-	souffle ../util/cycles.dl && mv cycle.csv $@ &&\
+	souffle -c ../util/cycles.dl && mv cycle.csv $@ &&\
 	( [ -s $@ ] && { cat $@; exit 1; } || true ) # exit with an error if the output is not empty
 
 # ----------------------------------------
@@ -386,7 +386,7 @@ imports/go-computed-taxon-constraints.owl: $(SRC) $(SPARQLDIR)/taxon-constraints
 	$(ROBOT) merge -i $< query --update $(SPARQLDIR)/taxon-constraints-materialization.ru -o taxon-constraints-materialization-temp.ofn &&\
 	JAVA_OPTS=-Xmx12G relation-graph --ontology-file taxon-constraints-materialization-temp.ofn --output-file taxon-constraints-materialization-temp.nt --property 'http://purl.obolibrary.org/obo/RO_0002162' --output-subclasses true --reflexive-subclasses false &&\
 	sed 's/ /\t/' taxon-constraints-materialization-temp.nt | sed 's/ /\t/' | sed 's/ \.$$//' >taxonconstraintsrelationgraph.facts &&\
-	souffle ../util/materialize-taxon-constraints.dl &&\
+	souffle -c ../util/materialize-taxon-constraints.dl &&\
 	sed -E 's|<http://purl.obolibrary.org/obo/([^[:space:]]+)_([[:digit:]]+)>|\1:\2|g' computed_only_in_taxon.csv | sed '1s/^/defined_class\ttaxon\n/' >computed_only_in_taxon.tsv &&\
 	sed -E 's|<http://purl.obolibrary.org/obo/([^[:space:]]+)_([[:digit:]]+)>|\1:\2|g' computed_never_in_taxon.csv | sed '1s/^/defined_class\ttaxon\n/' >computed_never_in_taxon.tsv &&\
 	$(DOSDP_TOOLS) generate --obo-prefixes=true --template=../taxon_constraints/computed_only_in_taxon.yaml --infile=computed_only_in_taxon.tsv --outfile=computed_only_in_taxon.tmp.ofn &&\
@@ -660,7 +660,7 @@ go-edit.facts: $(SRC)
 	riot -q --nocheck --output ntriples go-edit.facts.ttl | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
 
 datalog-violations.tsv: go-edit.facts ../resources/obsolete_ec.txt
-	souffle ../util/ontology-qc.dl &&\
+	souffle -c ../util/ontology-qc.dl &&\
 	( [ -s $@ ] && { cat $@; exit 1; } || true ) # exit with an error if the output is not empty
 
 reports/neo-violations.report: $(GO_LEGO).owl
