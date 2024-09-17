@@ -21,8 +21,8 @@ subclassof(s, o) :- taxonconstraintsrelationgraph(s, RDFS_SUBCLASS_OF, o), match
 goterm(goterm) :- taxonconstraintsrelationgraph(goterm, _, _), match("<http://purl.obolibrary.org/obo/GO_.+>", goterm).
 goterm(goterm) :- taxonconstraintsrelationgraph(_, _, goterm), match("<http://purl.obolibrary.org/obo/GO_.+>", goterm).
 
-taxon(taxon) :- taxonconstraintsrelationgraph(taxon, _, _), match("<http://purl.obolibrary.org/obo/NCBITaxon_\\d+>", taxon).
-taxon(taxon) :- taxonconstraintsrelationgraph(_, _, taxon), match("<http://purl.obolibrary.org/obo/NCBITaxon_\\d+>", taxon).
+taxon(taxon) :- taxonconstraintsrelationgraph(taxon, _, _), match("<http://purl.obolibrary.org/obo/NCBITaxon_.*\\d+>", taxon).
+taxon(taxon) :- taxonconstraintsrelationgraph(_, _, taxon), match("<http://purl.obolibrary.org/obo/NCBITaxon_.*\\d+>", taxon).
 
 taxon_complement(tc, taxon) :- taxonconstraintsrelationgraph(tc, _, _), match("<http://purl.obolibrary.org/obo/NCBITaxon_\\d+#NOT>", tc), len=strlen(tc), taxon=cat(substr(tc, 0, len-5), ">").
 taxon_complement(tc, taxon) :- taxonconstraintsrelationgraph(_, _, tc), match("<http://purl.obolibrary.org/obo/NCBITaxon_\\d+#NOT>", tc), len=strlen(tc), taxon=cat(substr(tc, 0, len-5), ">").
