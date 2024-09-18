@@ -143,7 +143,7 @@ deploy-release:
 	gzip -c $< > $@.tmp && mv $@.tmp $@
 
 %.json: %.owl
-	$(ROBOT) convert --input $< -f json -o $@
+	$(OWLTOOLS) $(USECAT) $< -o -f json $@
 .PRECIOUS: %.json
 
 # ----------------------------------------
