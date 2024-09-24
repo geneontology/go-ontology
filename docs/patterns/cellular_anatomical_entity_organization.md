@@ -13,7 +13,7 @@ TODO
 
 | Variable name | Allowed type |
 |:--------------|:-------------|
-| `{component}` | [cellular anatomical entity](http://purl.obolibrary.org/obo/GO_0110165) |
+| `{component}` | [cellular anatomical structure](http://purl.obolibrary.org/obo/GO_0110165) |
 
 ## Name
 

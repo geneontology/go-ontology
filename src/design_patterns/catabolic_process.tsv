@@ -147,7 +147,7 @@ http://purl.obolibrary.org/obo/GO_0006256	UDP catabolic process	http://purl.obol
 http://purl.obolibrary.org/obo/GO_2001314	UDP-4-deoxy-4-formamido-beta-L-arabinopyranose catabolic process	http://purl.obolibrary.org/obo/CHEBI_58709	UDP-4-deoxy-4-formamido-beta-L-arabinopyranose(2-)
 http://purl.obolibrary.org/obo/GO_0019278	UDP-N-acetylgalactosamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57847	UDP-N-acetyl-D-galactosamine(2-)
 http://purl.obolibrary.org/obo/GO_0006049	UDP-N-acetylglucosamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_57705	UDP-N-acetyl-alpha-D-glucosamine(2-)
-http://purl.obolibrary.org/obo/GO_0006258	UDP-glucose catabolic process	http://purl.obolibrary.org/obo/CHEBI_58367	UDP-D-glucose(2-)
+http://purl.obolibrary.org/obo/GO_0006258	UDP-alpha-D-glucose catabolic process	http://purl.obolibrary.org/obo/CHEBI_58885	UDP-alpha-D-glucose(2-)
 http://purl.obolibrary.org/obo/GO_0046050	UMP catabolic process	http://purl.obolibrary.org/obo/CHEBI_57865	uridine 5'-monophosphate(2-)
 http://purl.obolibrary.org/obo/GO_0046052	UTP catabolic process	http://purl.obolibrary.org/obo/CHEBI_46398	UTP(4-)
 http://purl.obolibrary.org/obo/GO_0032327	W-molybdopterin cofactor catabolic process	http://purl.obolibrary.org/obo/CHEBI_60215	W-molybdopterin cofactor

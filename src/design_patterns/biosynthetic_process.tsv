@@ -165,6 +165,7 @@ http://purl.obolibrary.org/obo/GO_0033320	UDP-D-xylose biosynthetic process	http
 http://purl.obolibrary.org/obo/GO_0033358	UDP-L-arabinose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58341	UDP-L-arabinose(2-)
 http://purl.obolibrary.org/obo/GO_0019277	UDP-N-acetylgalactosamine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57847	UDP-N-acetyl-D-galactosamine(2-)
 http://purl.obolibrary.org/obo/GO_0006048	UDP-N-acetylglucosamine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57705	UDP-N-acetyl-alpha-D-glucosamine(2-)
+http://purl.obolibrary.org/obo/GO_0120530	UDP-alpha-D-glucose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58885	UDP-alpha-D-glucose(2-)
 http://purl.obolibrary.org/obo/GO_0052574	UDP-galactose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58439	UDP-D-galactose(2-)
 http://purl.obolibrary.org/obo/GO_0006065	UDP-glucuronate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58052	UDP-alpha-D-glucuronate(3-)
 http://purl.obolibrary.org/obo/GO_0010253	UDP-rhamnose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_60981	UDP-rhamnose(2-)
