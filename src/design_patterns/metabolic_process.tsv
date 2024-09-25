@@ -207,7 +207,7 @@ http://purl.obolibrary.org/obo/GO_0033319	UDP-D-xylose metabolic process	http://
 http://purl.obolibrary.org/obo/GO_0033356	UDP-L-arabinose metabolic process	http://purl.obolibrary.org/obo/CHEBI_58341	UDP-L-arabinose(2-)
 http://purl.obolibrary.org/obo/GO_0019276	UDP-N-acetylgalactosamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57847	UDP-N-acetyl-D-galactosamine(2-)
 http://purl.obolibrary.org/obo/GO_0006047	UDP-N-acetylglucosamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57705	UDP-N-acetyl-alpha-D-glucosamine(2-)
-http://purl.obolibrary.org/obo/GO_0006011	UDP-glucose metabolic process	http://purl.obolibrary.org/obo/CHEBI_58367	UDP-D-glucose(2-)
+http://purl.obolibrary.org/obo/GO_0006011	UDP-alpha-D-glucose metabolic process	http://purl.obolibrary.org/obo/CHEBI_58885	UDP-alpha-D-glucose(2-)
 http://purl.obolibrary.org/obo/GO_0046398	UDP-glucuronate metabolic process	http://purl.obolibrary.org/obo/CHEBI_58052	UDP-alpha-D-glucuronate(3-)
 http://purl.obolibrary.org/obo/GO_0033478	UDP-rhamnose metabolic process	http://purl.obolibrary.org/obo/CHEBI_60981	UDP-rhamnose(2-)
 http://purl.obolibrary.org/obo/GO_0046049	UMP metabolic process	http://purl.obolibrary.org/obo/CHEBI_57865	uridine 5'-monophosphate(2-)

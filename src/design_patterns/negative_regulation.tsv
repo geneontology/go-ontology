@@ -233,7 +233,7 @@ http://purl.obolibrary.org/obo/GO_1903122	negative regulation of TRAIL-activated
 http://purl.obolibrary.org/obo/GO_0160035	negative regulation of Toll receptor ligand protein activation cascade	http://purl.obolibrary.org/obo/GO_0160032	Toll receptor ligand protein activation cascade
 http://purl.obolibrary.org/obo/GO_0045751	negative regulation of Toll signaling pathway	http://purl.obolibrary.org/obo/GO_0008063	Toll signaling pathway
 http://purl.obolibrary.org/obo/GO_0106279	negative regulation of UDP-N-acetylglucosamine biosynthetic process	http://purl.obolibrary.org/obo/GO_0006048	UDP-N-acetylglucosamine biosynthetic process
-http://purl.obolibrary.org/obo/GO_0010905	negative regulation of UDP-glucose catabolic process	http://purl.obolibrary.org/obo/GO_0006258	UDP-glucose catabolic process
+http://purl.obolibrary.org/obo/GO_0010905	negative regulation of UDP-glucose catabolic process	http://purl.obolibrary.org/obo/GO_0006258	UDP-alpha-D-glucose catabolic process
 http://purl.obolibrary.org/obo/GO_1904240	negative regulation of VCP-NPL4-UFD1 AAA ATPase complex assembly	http://purl.obolibrary.org/obo/GO_1904210	VCP-NPL4-UFD1 AAA ATPase complex assembly
 http://purl.obolibrary.org/obo/GO_0061358	negative regulation of Wnt protein secretion	http://purl.obolibrary.org/obo/GO_0061355	Wnt protein secretion
 http://purl.obolibrary.org/obo/GO_0030178	negative regulation of Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0016055	Wnt signaling pathway
@@ -2632,6 +2632,7 @@ http://purl.obolibrary.org/obo/GO_1904280	negative regulation of transcription b
 http://purl.obolibrary.org/obo/GO_2001208	negative regulation of transcription elongation by RNA polymerase I	http://purl.obolibrary.org/obo/GO_0006362	transcription elongation by RNA polymerase I
 http://purl.obolibrary.org/obo/GO_0034244	negative regulation of transcription elongation by RNA polymerase II	http://purl.obolibrary.org/obo/GO_0006368	transcription elongation by RNA polymerase II
 http://purl.obolibrary.org/obo/GO_0060633	negative regulation of transcription initiation by RNA polymerase II	http://purl.obolibrary.org/obo/GO_0006367	transcription initiation at RNA polymerase II promoter
+http://purl.obolibrary.org/obo/GO_0160217	negative regulation of transcription initiation-coupled chromatin remodeling	http://purl.obolibrary.org/obo/GO_0045815	transcription initiation-coupled chromatin remodeling
 http://purl.obolibrary.org/obo/GO_1901837	negative regulation of transcription of nucleolar large rRNA by RNA polymerase I	http://purl.obolibrary.org/obo/GO_0042790	nucleolar large rRNA transcription by RNA polymerase I
 http://purl.obolibrary.org/obo/GO_2000678	negative regulation of transcription regulatory region DNA binding	http://purl.obolibrary.org/obo/GO_0000976	transcription cis-regulatory region binding
 http://purl.obolibrary.org/obo/GO_1904299	negative regulation of transcytosis	http://purl.obolibrary.org/obo/GO_0045056	transcytosis
