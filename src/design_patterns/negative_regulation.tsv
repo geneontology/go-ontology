@@ -246,6 +246,7 @@ http://purl.obolibrary.org/obo/GO_1900492	negative regulation of [4Fe-4S] cluste
 http://purl.obolibrary.org/obo/GO_0090359	negative regulation of abscisic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0009688	abscisic acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0009788	negative regulation of abscisic acid-activated signaling pathway	http://purl.obolibrary.org/obo/GO_0009738	abscisic acid-activated signaling pathway
 http://purl.obolibrary.org/obo/GO_0045753	negative regulation of acetate catabolic process	http://purl.obolibrary.org/obo/GO_0045733	acetate catabolic process
+http://purl.obolibrary.org/obo/GO_0160218	negative regulation of acetyl-CoA biosynthetic process from pyruvate	http://purl.obolibrary.org/obo/GO_0006086	acetyl-CoA biosynthetic process from pyruvate
 http://purl.obolibrary.org/obo/GO_1905922	negative regulation of acetylcholine biosynthetic process	http://purl.obolibrary.org/obo/GO_0008292	acetylcholine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0060410	negative regulation of acetylcholine metabolic process	http://purl.obolibrary.org/obo/GO_0008291	acetylcholine metabolic process
 http://purl.obolibrary.org/obo/GO_0014058	negative regulation of acetylcholine secretion, neurotransmission	http://purl.obolibrary.org/obo/GO_0014055	acetylcholine secretion, neurotransmission
@@ -317,6 +318,7 @@ http://purl.obolibrary.org/obo/GO_0033242	negative regulation of amine catabolic
 http://purl.obolibrary.org/obo/GO_0033239	negative regulation of amine metabolic process	http://purl.obolibrary.org/obo/GO_0009308	amine metabolic process
 http://purl.obolibrary.org/obo/GO_0051953	negative regulation of amine transport	http://purl.obolibrary.org/obo/GO_0015837	amine transport
 http://purl.obolibrary.org/obo/GO_2000283	negative regulation of amino acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0008652	amino acid biosynthetic process
+http://purl.obolibrary.org/obo/GO_0045763	negative regulation of amino acid metabolic process	http://purl.obolibrary.org/obo/GO_0006520	amino acid metabolic process
 http://purl.obolibrary.org/obo/GO_0051956	negative regulation of amino acid transport	http://purl.obolibrary.org/obo/GO_0006865	amino acid transport
 http://purl.obolibrary.org/obo/GO_0051942	negative regulation of amino acid uptake involved in synaptic transmission	http://purl.obolibrary.org/obo/GO_0051933	amino acid neurotransmitter reuptake
 http://purl.obolibrary.org/obo/GO_2001249	negative regulation of ammonia assimilation cycle	http://purl.obolibrary.org/obo/GO_0019676	ammonia assimilation cycle
@@ -644,7 +646,6 @@ http://purl.obolibrary.org/obo/GO_2000937	negative regulation of cellotriose cat
 http://purl.obolibrary.org/obo/GO_2000934	negative regulation of cellotriose metabolic process	http://purl.obolibrary.org/obo/GO_2000893	cellotriose metabolic process
 http://purl.obolibrary.org/obo/GO_1900286	negative regulation of cellotriose transport	http://purl.obolibrary.org/obo/GO_2001096	cellotriose transport
 http://purl.obolibrary.org/obo/GO_1900420	negative regulation of cellular alcohol catabolic process	http://purl.obolibrary.org/obo/GO_0046164	alcohol catabolic process
-http://purl.obolibrary.org/obo/GO_0045763	negative regulation of cellular amino acid metabolic process	http://purl.obolibrary.org/obo/GO_0006520	amino acid metabolic process
 http://purl.obolibrary.org/obo/GO_0031327	negative regulation of cellular biosynthetic process	http://purl.obolibrary.org/obo/GO_0044249	cellular biosynthetic process
 http://purl.obolibrary.org/obo/GO_0031330	negative regulation of cellular catabolic process	http://purl.obolibrary.org/obo/GO_0044248	cellular catabolic process
 http://purl.obolibrary.org/obo/GO_0051129	negative regulation of cellular component organization	http://purl.obolibrary.org/obo/GO_0016043	cellular component organization
@@ -653,8 +654,6 @@ http://purl.obolibrary.org/obo/GO_0002692	negative regulation of cellular extrav
 http://purl.obolibrary.org/obo/GO_2001030	negative regulation of cellular glucuronidation	http://purl.obolibrary.org/obo/GO_0052695	cellular glucuronidation
 http://purl.obolibrary.org/obo/GO_1900070	negative regulation of cellular hyperosmotic salinity response	http://purl.obolibrary.org/obo/GO_0071475	cellular hyperosmotic salinity response
 http://purl.obolibrary.org/obo/GO_0031324	negative regulation of cellular metabolic process	http://purl.obolibrary.org/obo/GO_0044237	cellular metabolic process
-http://purl.obolibrary.org/obo/GO_0090350	negative regulation of cellular organofluorine metabolic process	http://purl.obolibrary.org/obo/GO_0090346	cellular organofluorine metabolic process
-http://purl.obolibrary.org/obo/GO_0090349	negative regulation of cellular organohalogen metabolic process	http://purl.obolibrary.org/obo/GO_0090345	cellular organohalogen metabolic process
 http://purl.obolibrary.org/obo/GO_0032848	negative regulation of cellular pH reduction	http://purl.obolibrary.org/obo/GO_0051452	intracellular pH reduction
 http://purl.obolibrary.org/obo/GO_0048523	negative regulation of cellular process	http://purl.obolibrary.org/obo/GO_0009987	cellular process
 http://purl.obolibrary.org/obo/GO_1901856	negative regulation of cellular respiration	http://purl.obolibrary.org/obo/GO_0045333	cellular respiration
@@ -1949,6 +1948,8 @@ http://purl.obolibrary.org/obo/GO_0046621	negative regulation of organ growth	ht
 http://purl.obolibrary.org/obo/GO_1902116	negative regulation of organelle assembly	http://purl.obolibrary.org/obo/GO_0070925	organelle assembly
 http://purl.obolibrary.org/obo/GO_0010639	negative regulation of organelle organization	http://purl.obolibrary.org/obo/GO_0006996	organelle organization
 http://purl.obolibrary.org/obo/GO_0032891	negative regulation of organic acid transport	http://purl.obolibrary.org/obo/GO_0015849	organic acid transport
+http://purl.obolibrary.org/obo/GO_0090350	negative regulation of organofluorine metabolic process	http://purl.obolibrary.org/obo/GO_0090346	organofluorine metabolic process
+http://purl.obolibrary.org/obo/GO_0090349	negative regulation of organohalogen metabolic process	http://purl.obolibrary.org/obo/GO_0090345	organohalogen metabolic process
 http://purl.obolibrary.org/obo/GO_1903267	negative regulation of ornithine catabolic process	http://purl.obolibrary.org/obo/GO_0006593	ornithine catabolic process
 http://purl.obolibrary.org/obo/GO_0030279	negative regulation of ossification	http://purl.obolibrary.org/obo/GO_0001503	ossification
 http://purl.obolibrary.org/obo/GO_0045668	negative regulation of osteoblast differentiation	http://purl.obolibrary.org/obo/GO_0001649	osteoblast differentiation
