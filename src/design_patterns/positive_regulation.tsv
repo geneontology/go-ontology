@@ -303,6 +303,7 @@ http://purl.obolibrary.org/obo/GO_1904250	positive regulation of age-related res
 http://purl.obolibrary.org/obo/GO_0110013	positive regulation of aggregation involved in sorocarp development	http://purl.obolibrary.org/obo/GO_0031152	aggregation involved in sorocarp development
 http://purl.obolibrary.org/obo/GO_1905337	positive regulation of aggrephagy	http://purl.obolibrary.org/obo/GO_0035973	aggrephagy
 http://purl.obolibrary.org/obo/GO_1902932	positive regulation of alcohol biosynthetic process	http://purl.obolibrary.org/obo/GO_0046165	alcohol biosynthetic process
+http://purl.obolibrary.org/obo/GO_1900421	positive regulation of alcohol catabolic process	http://purl.obolibrary.org/obo/GO_0046164	alcohol catabolic process
 http://purl.obolibrary.org/obo/GO_0032349	positive regulation of aldosterone biosynthetic process	http://purl.obolibrary.org/obo/GO_0032342	aldosterone biosynthetic process
 http://purl.obolibrary.org/obo/GO_0032346	positive regulation of aldosterone metabolic process	http://purl.obolibrary.org/obo/GO_0032341	aldosterone metabolic process
 http://purl.obolibrary.org/obo/GO_2000860	positive regulation of aldosterone secretion	http://purl.obolibrary.org/obo/GO_0035932	aldosterone secretion
@@ -647,7 +648,6 @@ http://purl.obolibrary.org/obo/GO_2000962	positive regulation of cellooligosacch
 http://purl.obolibrary.org/obo/GO_2000938	positive regulation of cellotriose catabolic process	http://purl.obolibrary.org/obo/GO_2000894	cellotriose catabolic process
 http://purl.obolibrary.org/obo/GO_2000935	positive regulation of cellotriose metabolic process	http://purl.obolibrary.org/obo/GO_2000893	cellotriose metabolic process
 http://purl.obolibrary.org/obo/GO_1900287	positive regulation of cellotriose transport	http://purl.obolibrary.org/obo/GO_2001096	cellotriose transport
-http://purl.obolibrary.org/obo/GO_1900421	positive regulation of cellular alcohol catabolic process	http://purl.obolibrary.org/obo/GO_0046164	alcohol catabolic process
 http://purl.obolibrary.org/obo/GO_0031328	positive regulation of cellular biosynthetic process	http://purl.obolibrary.org/obo/GO_0044249	cellular biosynthetic process
 http://purl.obolibrary.org/obo/GO_0031331	positive regulation of cellular catabolic process	http://purl.obolibrary.org/obo/GO_0044248	cellular catabolic process
 http://purl.obolibrary.org/obo/GO_0044089	positive regulation of cellular component biogenesis	http://purl.obolibrary.org/obo/GO_0044085	cellular component biogenesis
