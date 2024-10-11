@@ -1,4 +1,9 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:0004131	cytosine deaminase activity	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0009089	lysine biosynthetic process via diaminopimelate	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0009089	lysine biosynthetic process via diaminopimelate	NCBITaxon:4930	Saccharomyces cerevisiae	
+GO:0019853	L-ascorbic acid biosynthetic process	NCBITaxon:4890	Ascomycota	
+GO:0019853	L-ascorbic acid biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0006540	gamma-aminobutyrate shunt	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0006540	gamma-aminobutyrate shunt	NCBITaxon:4899	Schizosaccharomyces octosporus	
 GO:0033309	SBF transcription complex	NCBITaxon:4895	Schizosaccharomyces	
@@ -598,7 +603,6 @@ GO:0038055	BMP secretion	NCBITaxon:2157	Archaea
 GO:0020022	acidocalcisome	NCBITaxon:4890	Ascomycota	
 GO:0042246	tissue regeneration	NCBITaxon:4751	Fungi	
 GO:0060250	germ-line stem-cell niche homeostasis	NCBITaxon:4751	Fungi	
-GO:0035658	Mon1-Ccz1 complex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0048863	stem cell differentiation	NCBITaxon:4751	Fungi	
 GO:0003365	establishment of cell polarity involved in ameboidal cell migration	NCBITaxon:4751	Fungi	
 GO:0090398	cellular senescence	NCBITaxon:4751	Fungi	
