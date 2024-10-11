@@ -1,4 +1,4 @@
-defined_class	defined_class_label	taxon	taxon_label	source	
+defined_class	defined_class_label	taxon	taxon_label	source
 GO:0004131	cytosine deaminase activity	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0009089	lysine biosynthetic process via diaminopimelate	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0009089	lysine biosynthetic process via diaminopimelate	NCBITaxon:4930	Saccharomyces cerevisiae	
