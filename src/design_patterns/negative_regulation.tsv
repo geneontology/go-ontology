@@ -646,14 +646,11 @@ http://purl.obolibrary.org/obo/GO_2000961	negative regulation of cellooligosacch
 http://purl.obolibrary.org/obo/GO_2000937	negative regulation of cellotriose catabolic process	http://purl.obolibrary.org/obo/GO_2000894	cellotriose catabolic process
 http://purl.obolibrary.org/obo/GO_2000934	negative regulation of cellotriose metabolic process	http://purl.obolibrary.org/obo/GO_2000893	cellotriose metabolic process
 http://purl.obolibrary.org/obo/GO_1900286	negative regulation of cellotriose transport	http://purl.obolibrary.org/obo/GO_2001096	cellotriose transport
-http://purl.obolibrary.org/obo/GO_0031327	negative regulation of cellular biosynthetic process	http://purl.obolibrary.org/obo/GO_0044249	cellular biosynthetic process
-http://purl.obolibrary.org/obo/GO_0031330	negative regulation of cellular catabolic process	http://purl.obolibrary.org/obo/GO_0044248	cellular catabolic process
 http://purl.obolibrary.org/obo/GO_0051129	negative regulation of cellular component organization	http://purl.obolibrary.org/obo/GO_0016043	cellular component organization
 http://purl.obolibrary.org/obo/GO_0051245	negative regulation of cellular defense response	http://purl.obolibrary.org/obo/GO_0006968	cellular defense response
 http://purl.obolibrary.org/obo/GO_0002692	negative regulation of cellular extravasation	http://purl.obolibrary.org/obo/GO_0045123	cellular extravasation
 http://purl.obolibrary.org/obo/GO_2001030	negative regulation of cellular glucuronidation	http://purl.obolibrary.org/obo/GO_0052695	cellular glucuronidation
 http://purl.obolibrary.org/obo/GO_1900070	negative regulation of cellular hyperosmotic salinity response	http://purl.obolibrary.org/obo/GO_0071475	cellular hyperosmotic salinity response
-http://purl.obolibrary.org/obo/GO_0031324	negative regulation of cellular metabolic process	http://purl.obolibrary.org/obo/GO_0044237	cellular metabolic process
 http://purl.obolibrary.org/obo/GO_0032848	negative regulation of cellular pH reduction	http://purl.obolibrary.org/obo/GO_0051452	intracellular pH reduction
 http://purl.obolibrary.org/obo/GO_0048523	negative regulation of cellular process	http://purl.obolibrary.org/obo/GO_0009987	cellular process
 http://purl.obolibrary.org/obo/GO_1901856	negative regulation of cellular respiration	http://purl.obolibrary.org/obo/GO_0045333	cellular respiration
