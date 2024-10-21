@@ -648,14 +648,11 @@ http://purl.obolibrary.org/obo/GO_2000962	positive regulation of cellooligosacch
 http://purl.obolibrary.org/obo/GO_2000938	positive regulation of cellotriose catabolic process	http://purl.obolibrary.org/obo/GO_2000894	cellotriose catabolic process
 http://purl.obolibrary.org/obo/GO_2000935	positive regulation of cellotriose metabolic process	http://purl.obolibrary.org/obo/GO_2000893	cellotriose metabolic process
 http://purl.obolibrary.org/obo/GO_1900287	positive regulation of cellotriose transport	http://purl.obolibrary.org/obo/GO_2001096	cellotriose transport
-http://purl.obolibrary.org/obo/GO_0031328	positive regulation of cellular biosynthetic process	http://purl.obolibrary.org/obo/GO_0044249	cellular biosynthetic process
-http://purl.obolibrary.org/obo/GO_0031331	positive regulation of cellular catabolic process	http://purl.obolibrary.org/obo/GO_0044248	cellular catabolic process
 http://purl.obolibrary.org/obo/GO_0044089	positive regulation of cellular component biogenesis	http://purl.obolibrary.org/obo/GO_0044085	cellular component biogenesis
 http://purl.obolibrary.org/obo/GO_0051130	positive regulation of cellular component organization	http://purl.obolibrary.org/obo/GO_0016043	cellular component organization
 http://purl.obolibrary.org/obo/GO_0010186	positive regulation of cellular defense response	http://purl.obolibrary.org/obo/GO_0006968	cellular defense response
 http://purl.obolibrary.org/obo/GO_0002693	positive regulation of cellular extravasation	http://purl.obolibrary.org/obo/GO_0045123	cellular extravasation
 http://purl.obolibrary.org/obo/GO_2001031	positive regulation of cellular glucuronidation	http://purl.obolibrary.org/obo/GO_0052695	cellular glucuronidation
-http://purl.obolibrary.org/obo/GO_0031325	positive regulation of cellular metabolic process	http://purl.obolibrary.org/obo/GO_0044237	cellular metabolic process
 http://purl.obolibrary.org/obo/GO_0032849	positive regulation of cellular pH reduction	http://purl.obolibrary.org/obo/GO_0051452	intracellular pH reduction
 http://purl.obolibrary.org/obo/GO_0048522	positive regulation of cellular process	http://purl.obolibrary.org/obo/GO_0009987	cellular process
 http://purl.obolibrary.org/obo/GO_1901857	positive regulation of cellular respiration	http://purl.obolibrary.org/obo/GO_0045333	cellular respiration

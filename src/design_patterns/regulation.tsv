@@ -747,8 +747,6 @@ http://purl.obolibrary.org/obo/GO_2000960	regulation of cellooligosaccharide met
 http://purl.obolibrary.org/obo/GO_2000936	regulation of cellotriose catabolic process	http://purl.obolibrary.org/obo/GO_2000894	cellotriose catabolic process
 http://purl.obolibrary.org/obo/GO_2000933	regulation of cellotriose metabolic process	http://purl.obolibrary.org/obo/GO_2000893	cellotriose metabolic process
 http://purl.obolibrary.org/obo/GO_1900285	regulation of cellotriose transport	http://purl.obolibrary.org/obo/GO_2001096	cellotriose transport
-http://purl.obolibrary.org/obo/GO_0031326	regulation of cellular biosynthetic process	http://purl.obolibrary.org/obo/GO_0044249	cellular biosynthetic process
-http://purl.obolibrary.org/obo/GO_0031329	regulation of cellular catabolic process	http://purl.obolibrary.org/obo/GO_0044248	cellular catabolic process
 http://purl.obolibrary.org/obo/GO_0044087	regulation of cellular component biogenesis	http://purl.obolibrary.org/obo/GO_0044085	cellular component biogenesis
 http://purl.obolibrary.org/obo/GO_0051128	regulation of cellular component organization	http://purl.obolibrary.org/obo/GO_0016043	cellular component organization
 http://purl.obolibrary.org/obo/GO_0010185	regulation of cellular defense response	http://purl.obolibrary.org/obo/GO_0006968	cellular defense response
@@ -756,7 +754,6 @@ http://purl.obolibrary.org/obo/GO_0002691	regulation of cellular extravasation	h
 http://purl.obolibrary.org/obo/GO_2001029	regulation of cellular glucuronidation	http://purl.obolibrary.org/obo/GO_0052695	cellular glucuronidation
 http://purl.obolibrary.org/obo/GO_1900069	regulation of cellular hyperosmotic salinity response	http://purl.obolibrary.org/obo/GO_0071475	cellular hyperosmotic salinity response
 http://purl.obolibrary.org/obo/GO_0060341	regulation of cellular localization	http://purl.obolibrary.org/obo/GO_0051641	cellular localization
-http://purl.obolibrary.org/obo/GO_0031323	regulation of cellular metabolic process	http://purl.obolibrary.org/obo/GO_0044237	cellular metabolic process
 http://purl.obolibrary.org/obo/GO_0032847	regulation of cellular pH reduction	http://purl.obolibrary.org/obo/GO_0051452	intracellular pH reduction
 http://purl.obolibrary.org/obo/GO_0050794	regulation of cellular process	http://purl.obolibrary.org/obo/GO_0009987	cellular process
 http://purl.obolibrary.org/obo/GO_0043457	regulation of cellular respiration	http://purl.obolibrary.org/obo/GO_0045333	cellular respiration
