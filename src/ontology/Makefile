@@ -252,7 +252,7 @@ $(GO_LEGO_REACTO).owl: extensions/go-lego-reacto-edit.ofn $(GO_LEGO).owl extensi
 # go.obo is a simplified; we use oort to remove imports etc
 # This version of the ontology is used in another step (generate-mappings) prior to filtering narrow xrefs, but broad xrefs are filtered here
 $(ONT)-pre.owl: reasoned.owl
-	$(ROBOT) materialize --input $< --reasoner ELK $(addprefix --term ,$(GO_MAIN_RELATIONS)) remove --select imports --trim true remove --select '<http://purl.obolibrary.org/obo/GO_*>' --select complement --select classes --signature true --trim true remove $(addprefix --term ,$(GO_MAIN_RELATIONS)) --select complement --select object-properties --signature true --trim true query --update ../sparql/remove-broad-xrefs.ru annotate -O $(OBO)/$(ONT).owl -V $(RELEASE_URIBASE)/$(ONT).owl convert -f owl --output $@.tmp && mv $@.tmp $@
+	$(ROBOT) materialize --input $< --reasoner ELK $(addprefix --term ,$(GO_MAIN_RELATIONS)) remove --select imports --trim true remove --select '<http://purl.obolibrary.org/obo/GO_*>' --select complement --select classes --signature true --trim true remove $(addprefix --term ,$(GO_MAIN_RELATIONS)) --select complement --select object-properties --signature true --trim true query --update ../sparql/remove-broad-xrefs.ru --update ../sparql/remove-related-xrefs.ru annotate -O $(OBO)/$(ONT).owl -V $(RELEASE_URIBASE)/$(ONT).owl convert -f owl --output $@.tmp && mv $@.tmp $@
 
 $(ONT)-pre-reduced.owl: $(ONT)-pre.owl
 	$(ROBOT) reduce -r elk -i $< query --update ../sparql/remove-narrow-xrefs.ru -o $@
