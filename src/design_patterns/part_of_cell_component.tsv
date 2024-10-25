@@ -110,7 +110,7 @@ http://purl.obolibrary.org/obo/GO_0000923	equatorial microtubule organizing cent
 http://purl.obolibrary.org/obo/GO_0062246	exocytic vesicle lumen	http://purl.obolibrary.org/obo/GO_0098566	transport vesicle lumen	http://purl.obolibrary.org/obo/GO_0070382	exocytic vesicle
 http://purl.obolibrary.org/obo/GO_0010367	extracellular isoamylase complex	http://purl.obolibrary.org/obo/GO_0043033	isoamylase complex	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_0065010	extracellular membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0043227	membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
-http://purl.obolibrary.org/obo/GO_0043264	extracellular non-membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0043228	non-membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
+http://purl.obolibrary.org/obo/GO_0043264	extracellular membraneless organelle	http://purl.obolibrary.org/obo/GO_0043228	membraneless organelle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_0043230	extracellular organelle	http://purl.obolibrary.org/obo/GO_0043226	organelle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_1903561	extracellular vesicle	http://purl.obolibrary.org/obo/GO_0031982	vesicle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_0090498	extrinsic component of Golgi membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0000139	Golgi membrane
@@ -166,7 +166,7 @@ http://purl.obolibrary.org/obo/GO_0044841	gut granule membrane	http://purl.oboli
 http://purl.obolibrary.org/obo/GO_0031562	hyphal tip polarisome	http://purl.obolibrary.org/obo/GO_0000133	polarisome	http://purl.obolibrary.org/obo/GO_0001411	hyphal tip
 http://purl.obolibrary.org/obo/GO_0098800	inner mitochondrial membrane protein complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0005743	mitochondrial inner membrane
 http://purl.obolibrary.org/obo/GO_0043231	intracellular membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0043227	membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure
-http://purl.obolibrary.org/obo/GO_0043232	intracellular non-membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0043228	non-membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure
+http://purl.obolibrary.org/obo/GO_0043232	intracellular membraneless organelle	http://purl.obolibrary.org/obo/GO_0043228	membraneless organelle	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure
 http://purl.obolibrary.org/obo/GO_0043229	intracellular organelle	http://purl.obolibrary.org/obo/GO_0043226	organelle	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure
 http://purl.obolibrary.org/obo/GO_0070013	intracellular organelle lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0043229	intracellular organelle
 http://purl.obolibrary.org/obo/GO_0097708	intracellular vesicle	http://purl.obolibrary.org/obo/GO_0031982	vesicle	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure
@@ -280,13 +280,13 @@ http://purl.obolibrary.org/obo/GO_1905760	post-anaphase array microtubule end	ht
 http://purl.obolibrary.org/obo/GO_0098871	postsynaptic actin cytoskeleton	http://purl.obolibrary.org/obo/GO_0015629	actin cytoskeleton	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
 http://purl.obolibrary.org/obo/GO_0099571	postsynaptic cytoskeleton	http://purl.obolibrary.org/obo/GO_0005856	cytoskeleton	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
 http://purl.obolibrary.org/obo/GO_0014069	postsynaptic density	http://purl.obolibrary.org/obo/GO_0099572	postsynaptic specialization	http://purl.obolibrary.org/obo/GO_0032279	asymmetric synapse
-http://purl.obolibrary.org/obo/GO_0099092	postsynaptic density, intracellular component	http://purl.obolibrary.org/obo/GO_0043228	non-membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0014069	postsynaptic density
+http://purl.obolibrary.org/obo/GO_0099092	postsynaptic density, intracellular component	http://purl.obolibrary.org/obo/GO_0043228	membraneless organelle	http://purl.obolibrary.org/obo/GO_0014069	postsynaptic density
 http://purl.obolibrary.org/obo/GO_0098842	postsynaptic early endosome	http://purl.obolibrary.org/obo/GO_0005769	early endosome	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
 http://purl.obolibrary.org/obo/GO_0098845	postsynaptic endosome	http://purl.obolibrary.org/obo/GO_0005768	endosome	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
 http://purl.obolibrary.org/obo/GO_0099160	postsynaptic intermediate filament cytoskeleton	http://purl.obolibrary.org/obo/GO_0045111	intermediate filament cytoskeleton	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
 http://purl.obolibrary.org/obo/GO_0098837	postsynaptic recycling endosome	http://purl.obolibrary.org/obo/GO_0055037	recycling endosome	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
 http://purl.obolibrary.org/obo/GO_0099629	postsynaptic specialization of symmetric synapse	http://purl.obolibrary.org/obo/GO_0099572	postsynaptic specialization	http://purl.obolibrary.org/obo/GO_0032280	symmetric synapse
-http://purl.obolibrary.org/obo/GO_0099165	postsynaptic specialization of symmetric synapse, intracellular component	http://purl.obolibrary.org/obo/GO_0043228	non-membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0099629	postsynaptic specialization of symmetric synapse
+http://purl.obolibrary.org/obo/GO_0099165	postsynaptic specialization of symmetric synapse, intracellular component	http://purl.obolibrary.org/obo/GO_0043228	membraneless organelle	http://purl.obolibrary.org/obo/GO_0099629	postsynaptic specialization of symmetric synapse
 http://purl.obolibrary.org/obo/GO_0099091	postsynaptic specialization, intracellular component	http://purl.obolibrary.org/obo/GO_0043226	organelle	http://purl.obolibrary.org/obo/GO_0099572	postsynaptic specialization
 http://purl.obolibrary.org/obo/GO_0099189	postsynaptic spectrin-associated cytoskeleton	http://purl.obolibrary.org/obo/GO_0014731	spectrin-associated cytoskeleton	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
 http://purl.obolibrary.org/obo/GO_0099143	presynaptic actin cytoskeleton	http://purl.obolibrary.org/obo/GO_0015629	actin cytoskeleton	http://purl.obolibrary.org/obo/GO_0098793	presynapse

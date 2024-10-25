@@ -159,6 +159,7 @@ http://purl.obolibrary.org/obo/GO_0036034	mediator complex assembly	http://purl.
 http://purl.obolibrary.org/obo/GO_1903232	melanosome assembly	http://purl.obolibrary.org/obo/GO_0042470	melanosome
 http://purl.obolibrary.org/obo/GO_0071709	membrane assembly	http://purl.obolibrary.org/obo/GO_0016020	membrane
 http://purl.obolibrary.org/obo/GO_0001765	membrane raft assembly	http://purl.obolibrary.org/obo/GO_0045121	membrane raft
+http://purl.obolibrary.org/obo/GO_0140694	membraneless organelle assembly	http://purl.obolibrary.org/obo/GO_0043228	membraneless organelle
 http://purl.obolibrary.org/obo/GO_0160054	microfibril assembly	http://purl.obolibrary.org/obo/GO_0001527	microfibril
 http://purl.obolibrary.org/obo/GO_0030035	microspike assembly	http://purl.obolibrary.org/obo/GO_0044393	microspike
 http://purl.obolibrary.org/obo/GO_0046785	microtubule polymerization	http://purl.obolibrary.org/obo/GO_0005874	microtubule
@@ -178,7 +179,6 @@ http://purl.obolibrary.org/obo/GO_0031034	myosin filament assembly	http://purl.o
 http://purl.obolibrary.org/obo/GO_0036059	nephrocyte diaphragm assembly	http://purl.obolibrary.org/obo/GO_0005917	nephrocyte diaphragm
 http://purl.obolibrary.org/obo/GO_1902988	neurofibrillary tangle assembly	http://purl.obolibrary.org/obo/GO_0097418	neurofibrillary tangle
 http://purl.obolibrary.org/obo/GO_0038099	nodal receptor complex assembly	http://purl.obolibrary.org/obo/GO_0038104	nodal receptor complex
-http://purl.obolibrary.org/obo/GO_0140694	non-membrane-bounded organelle assembly	http://purl.obolibrary.org/obo/GO_0043228	non-membrane-bounded organelle
 http://purl.obolibrary.org/obo/GO_1905515	non-motile cilium assembly	http://purl.obolibrary.org/obo/GO_0097730	non-motile cilium
 http://purl.obolibrary.org/obo/GO_1904258	nuclear dicing body assembly	http://purl.obolibrary.org/obo/GO_0010445	nuclear dicing body
 http://purl.obolibrary.org/obo/GO_0051292	nuclear pore complex assembly	http://purl.obolibrary.org/obo/GO_0005643	nuclear pore
