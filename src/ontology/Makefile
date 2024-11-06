@@ -177,9 +177,14 @@ change-report.txt: $(SRC) $(PREVIOUS)
 imports/reactome_xrefs_import.owl: $(SRC)
 	mkdir -p reactome-tmp
 	wget -O reactome-tmp/Reactions2GoTerms_human.txt --no-check-certificate https://reactome.org/download/current/Reactions2GoTerms_human.txt
+	wget -O reactome-tmp/Pathways2GoTerms_human.txt --no-check-certificate https://reactome.org/download/current/Pathways2GoTerms_human.txt
 	sed -i '1s/.*/Identifier\tName\tdefined_class/' reactome-tmp/Reactions2GoTerms_human.txt
+	sed -i '1d' reactome-tmp/Pathways2GoTerms_human.txt
 	perl -i.bak -pe 's/[^[:ascii:]]//g' reactome-tmp/Reactions2GoTerms_human.txt
+	perl -i.bak -pe 's/[^[:ascii:]]//g' reactome-tmp/Pathways2GoTerms_human.txt
 	rm reactome-tmp/Reactions2GoTerms_human.txt.bak
+	rm reactome-tmp/Pathways2GoTerms_human.txt.bak
+	
 	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=reactome-tmp/Reactions2GoTerms_human.txt --outfile=reactome-tmp/reactome_xrefs.ofn --obo-prefixes=true
 	$(ROBOT) convert --input reactome-tmp/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
