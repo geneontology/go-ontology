@@ -751,8 +751,6 @@ http://purl.obolibrary.org/obo/GO_0070798	positive regulation of cleistothecium 
 http://purl.obolibrary.org/obo/GO_0050820	positive regulation of coagulation	http://purl.obolibrary.org/obo/GO_0050817	coagulation
 http://purl.obolibrary.org/obo/GO_0106121	positive regulation of cobalamin metabolic process	http://purl.obolibrary.org/obo/GO_0009235	cobalamin metabolic process
 http://purl.obolibrary.org/obo/GO_1900290	positive regulation of coenzyme F420-dependent bicyclic nitroimidazole catabolic process	http://purl.obolibrary.org/obo/GO_0052799	coenzyme F420-dependent bicyclic nitroimidazole catabolic process
-http://purl.obolibrary.org/obo/GO_1905309	positive regulation of cohesin loading	http://purl.obolibrary.org/obo/GO_0071921	cohesin loading
-http://purl.obolibrary.org/obo/GO_1905339	positive regulation of cohesin unloading	http://purl.obolibrary.org/obo/GO_0061774	cohesin unloading
 http://purl.obolibrary.org/obo/GO_0120162	positive regulation of cold-induced thermogenesis	http://purl.obolibrary.org/obo/GO_0106106	cold-induced thermogenesis
 http://purl.obolibrary.org/obo/GO_0033343	positive regulation of collagen binding	http://purl.obolibrary.org/obo/GO_0005518	collagen binding
 http://purl.obolibrary.org/obo/GO_0032967	positive regulation of collagen biosynthetic process	http://purl.obolibrary.org/obo/GO_0032964	collagen biosynthetic process
@@ -1713,10 +1711,6 @@ http://purl.obolibrary.org/obo/GO_0090267	positive regulation of mitotic cell cy
 http://purl.obolibrary.org/obo/GO_0045977	positive regulation of mitotic cell cycle, embryonic	http://purl.obolibrary.org/obo/GO_0045448	mitotic cell cycle, embryonic
 http://purl.obolibrary.org/obo/GO_0046604	positive regulation of mitotic centrosome separation	http://purl.obolibrary.org/obo/GO_0007100	mitotic centrosome separation
 http://purl.obolibrary.org/obo/GO_1903380	positive regulation of mitotic chromosome condensation	http://purl.obolibrary.org/obo/GO_0007076	mitotic chromosome condensation
-http://purl.obolibrary.org/obo/GO_0106116	positive regulation of mitotic cohesin dsDNA (leading strand) loading	http://purl.obolibrary.org/obo/GO_0062021	mitotic cohesin dsDNA (leading strand) loading
-http://purl.obolibrary.org/obo/GO_1905406	positive regulation of mitotic cohesin loading	http://purl.obolibrary.org/obo/GO_0061780	mitotic cohesin loading
-http://purl.obolibrary.org/obo/GO_0106113	positive regulation of mitotic cohesin ssDNA (lagging strand) loading	http://purl.obolibrary.org/obo/GO_0062022	mitotic cohesin ssDNA (lagging strand) loading
-http://purl.obolibrary.org/obo/GO_1905411	positive regulation of mitotic cohesin unloading	http://purl.obolibrary.org/obo/GO_0061781	mitotic cohesin unloading
 http://purl.obolibrary.org/obo/GO_1903490	positive regulation of mitotic cytokinesis	http://purl.obolibrary.org/obo/GO_0000281	mitotic cytokinesis
 http://purl.obolibrary.org/obo/GO_1903617	positive regulation of mitotic cytokinesis, division site positioning	http://purl.obolibrary.org/obo/GO_1902408	mitotic cytokinesis, division site positioning
 http://purl.obolibrary.org/obo/GO_1903438	positive regulation of mitotic cytokinetic process	http://purl.obolibrary.org/obo/GO_1902410	mitotic cytokinetic process
