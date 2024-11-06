@@ -1,0 +1,24 @@
+prefix oio: <http://www.geneontology.org/formats/oboInOwl#>
+prefix definition: <http://purl.obolibrary.org/obo/IAO_0000115>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?cls ?defxref
+WHERE 
+{
+  ?cls a owl:Class .
+  [
+   a owl:Axiom ;
+     owl:annotatedSource ?cls ;
+     owl:annotatedProperty definition: ;
+     oio:hasDbXref ?defxref
+  ]
+  FILTER(STRSTARTS(?defxref, "RHEA")
+      || STRSTARTS(?defxref, "EC")
+      || STRSTARTS(?defxref, "MetaCyc")
+      || STRSTARTS(?defxref, "KEGG")
+      || STRSTARTS(?defxref, "UM-BBD")
+      || STRSTARTS(?defxref, "TC"))
+  FILTER NOT EXISTS {
+    ?cls oio:hasDbXref ?defxref .
+  }
+}
