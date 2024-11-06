@@ -304,7 +304,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051489>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051490>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051546>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051644>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051767>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0052200>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0052553>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0055100>))
@@ -3004,13 +3003,6 @@ DisjointClasses(Annotation(<http://www.geneontology.org/formats/oboInOwl#source>
 DisjointClasses(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "PMID:21311032"^^xsd:string) <http://purl.obolibrary.org/obo/GO_0051644> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
 DisjointClasses(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "PMID:21311032"^^xsd:string) <http://purl.obolibrary.org/obo/GO_0051644> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4751>))
 DisjointClasses(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "PMID:21311032"^^xsd:string) <http://purl.obolibrary.org/obo/GO_0051644> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_554915>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0051767> (<http://purl.obolibrary.org/obo/GO_0051767>)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obolibrary.org/obo/GO_0051767> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0051767> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0051767> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> ObjectComplementOf(<http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
-DisjointClasses(<http://purl.obolibrary.org/obo/GO_0051767> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4751>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0052200> (<http://purl.obolibrary.org/obo/GO_0052200>)
 
