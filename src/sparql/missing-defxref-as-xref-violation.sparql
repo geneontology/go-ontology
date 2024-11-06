@@ -6,6 +6,9 @@ SELECT DISTINCT ?cls ?defxref
 WHERE 
 {
   ?cls a owl:Class .
+  FILTER NOT EXISTS {
+    ?cls owl:deprecated true .
+  }
   [
    a owl:Axiom ;
      owl:annotatedSource ?cls ;
