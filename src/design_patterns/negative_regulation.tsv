@@ -756,8 +756,6 @@ http://purl.obolibrary.org/obo/GO_0070797	negative regulation of cleistothecium 
 http://purl.obolibrary.org/obo/GO_0050819	negative regulation of coagulation	http://purl.obolibrary.org/obo/GO_0050817	coagulation
 http://purl.obolibrary.org/obo/GO_0106122	negative regulation of cobalamin metabolic process	http://purl.obolibrary.org/obo/GO_0009235	cobalamin metabolic process
 http://purl.obolibrary.org/obo/GO_1900289	negative regulation of coenzyme F420-dependent bicyclic nitroimidazole catabolic process	http://purl.obolibrary.org/obo/GO_0052799	coenzyme F420-dependent bicyclic nitroimidazole catabolic process
-http://purl.obolibrary.org/obo/GO_0071923	negative regulation of cohesin loading	http://purl.obolibrary.org/obo/GO_0071921	cohesin loading
-http://purl.obolibrary.org/obo/GO_1905338	negative regulation of cohesin unloading	http://purl.obolibrary.org/obo/GO_0061774	cohesin unloading
 http://purl.obolibrary.org/obo/GO_0120163	negative regulation of cold-induced thermogenesis	http://purl.obolibrary.org/obo/GO_0106106	cold-induced thermogenesis
 http://purl.obolibrary.org/obo/GO_0033342	negative regulation of collagen binding	http://purl.obolibrary.org/obo/GO_0005518	collagen binding
 http://purl.obolibrary.org/obo/GO_0032966	negative regulation of collagen biosynthetic process	http://purl.obolibrary.org/obo/GO_0032964	collagen biosynthetic process
@@ -1725,9 +1723,6 @@ http://purl.obolibrary.org/obo/GO_1901991	negative regulation of mitotic cell cy
 http://purl.obolibrary.org/obo/GO_0045976	negative regulation of mitotic cell cycle, embryonic	http://purl.obolibrary.org/obo/GO_0045448	mitotic cell cycle, embryonic
 http://purl.obolibrary.org/obo/GO_0046603	negative regulation of mitotic centrosome separation	http://purl.obolibrary.org/obo/GO_0007100	mitotic centrosome separation
 http://purl.obolibrary.org/obo/GO_1905213	negative regulation of mitotic chromosome condensation	http://purl.obolibrary.org/obo/GO_0007076	mitotic chromosome condensation
-http://purl.obolibrary.org/obo/GO_0106115	negative regulation of mitotic cohesin dsDNA (leading strand) loading	http://purl.obolibrary.org/obo/GO_0062021	mitotic cohesin dsDNA (leading strand) loading
-http://purl.obolibrary.org/obo/GO_1905412	negative regulation of mitotic cohesin loading	http://purl.obolibrary.org/obo/GO_0061780	mitotic cohesin loading
-http://purl.obolibrary.org/obo/GO_0106112	negative regulation of mitotic cohesin ssDNA (lagging strand) loading	http://purl.obolibrary.org/obo/GO_0062022	mitotic cohesin ssDNA (lagging strand) loading
 http://purl.obolibrary.org/obo/GO_1902413	negative regulation of mitotic cytokinesis	http://purl.obolibrary.org/obo/GO_0000281	mitotic cytokinesis
 http://purl.obolibrary.org/obo/GO_1903437	negative regulation of mitotic cytokinetic process	http://purl.obolibrary.org/obo/GO_1902410	mitotic cytokinetic process
 http://purl.obolibrary.org/obo/GO_0140280	negative regulation of mitotic division septum assembly	http://purl.obolibrary.org/obo/GO_0140278	mitotic division septum assembly

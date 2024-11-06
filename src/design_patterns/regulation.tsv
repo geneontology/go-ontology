@@ -872,8 +872,6 @@ http://purl.obolibrary.org/obo/GO_0050818	regulation of coagulation	http://purl.
 http://purl.obolibrary.org/obo/GO_0106064	regulation of cobalamin metabolic process	http://purl.obolibrary.org/obo/GO_0009235	cobalamin metabolic process
 http://purl.obolibrary.org/obo/GO_0080020	regulation of coenzyme A biosynthetic process	http://purl.obolibrary.org/obo/GO_0015937	coenzyme A biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900288	regulation of coenzyme F420-dependent bicyclic nitroimidazole catabolic process	http://purl.obolibrary.org/obo/GO_0052799	coenzyme F420-dependent bicyclic nitroimidazole catabolic process
-http://purl.obolibrary.org/obo/GO_0071922	regulation of cohesin loading	http://purl.obolibrary.org/obo/GO_0071921	cohesin loading
-http://purl.obolibrary.org/obo/GO_1905343	regulation of cohesin unloading	http://purl.obolibrary.org/obo/GO_0061774	cohesin unloading
 http://purl.obolibrary.org/obo/GO_0120161	regulation of cold-induced thermogenesis	http://purl.obolibrary.org/obo/GO_0106106	cold-induced thermogenesis
 http://purl.obolibrary.org/obo/GO_0033341	regulation of collagen binding	http://purl.obolibrary.org/obo/GO_0005518	collagen binding
 http://purl.obolibrary.org/obo/GO_0032965	regulation of collagen biosynthetic process	http://purl.obolibrary.org/obo/GO_0032964	collagen biosynthetic process
@@ -1959,10 +1957,6 @@ http://purl.obolibrary.org/obo/GO_0090266	regulation of mitotic cell cycle spind
 http://purl.obolibrary.org/obo/GO_0009794	regulation of mitotic cell cycle, embryonic	http://purl.obolibrary.org/obo/GO_0045448	mitotic cell cycle, embryonic
 http://purl.obolibrary.org/obo/GO_0046602	regulation of mitotic centrosome separation	http://purl.obolibrary.org/obo/GO_0007100	mitotic centrosome separation
 http://purl.obolibrary.org/obo/GO_1903379	regulation of mitotic chromosome condensation	http://purl.obolibrary.org/obo/GO_0007076	mitotic chromosome condensation
-http://purl.obolibrary.org/obo/GO_0106114	regulation of mitotic cohesin dsDNA (leading strand) loading	http://purl.obolibrary.org/obo/GO_0062021	mitotic cohesin dsDNA (leading strand) loading
-http://purl.obolibrary.org/obo/GO_1905405	regulation of mitotic cohesin loading	http://purl.obolibrary.org/obo/GO_0061780	mitotic cohesin loading
-http://purl.obolibrary.org/obo/GO_0106111	regulation of mitotic cohesin ssDNA (lagging strand) loading	http://purl.obolibrary.org/obo/GO_0062022	mitotic cohesin ssDNA (lagging strand) loading
-http://purl.obolibrary.org/obo/GO_1905410	regulation of mitotic cohesin unloading	http://purl.obolibrary.org/obo/GO_0061781	mitotic cohesin unloading
 http://purl.obolibrary.org/obo/GO_1902412	regulation of mitotic cytokinesis	http://purl.obolibrary.org/obo/GO_0000281	mitotic cytokinesis
 http://purl.obolibrary.org/obo/GO_1902472	regulation of mitotic cytokinesis, division site positioning	http://purl.obolibrary.org/obo/GO_1902408	mitotic cytokinesis, division site positioning
 http://purl.obolibrary.org/obo/GO_1903436	regulation of mitotic cytokinetic process	http://purl.obolibrary.org/obo/GO_1902410	mitotic cytokinetic process
