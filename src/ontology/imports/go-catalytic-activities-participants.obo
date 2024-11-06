@@ -254,6 +254,14 @@ relationship: RO:0000057 CHEBI:24646
 relationship: RO:0000057 CHEBI:55458
 
 [Term]
+id: GO:0001537
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:58339
+relationship: RO:0000057 CHEBI:58343
+relationship: RO:0000057 CHEBI:58465
+relationship: RO:0000057 CHEBI:60059
+
+[Term]
 id: GO:0001567
 relationship: RO:0000057 CHEBI:13193
 relationship: RO:0000057 CHEBI:15377
@@ -5065,6 +5073,14 @@ relationship: RO:0000057 CHEBI:57618
 relationship: RO:0000057 CHEBI:58210
 
 [Term]
+id: GO:0008396
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:17500
+relationship: RO:0000057 CHEBI:57783
+relationship: RO:0000057 CHEBI:58349
+relationship: RO:0000057 CHEBI:64294
+
+[Term]
 id: GO:0008398
 relationship: RO:0000057 CHEBI:138029
 relationship: RO:0000057 CHEBI:138031
@@ -5406,6 +5422,14 @@ relationship: RO:0000057 CHEBI:175763
 relationship: RO:0000057 CHEBI:33019
 relationship: RO:0000057 CHEBI:60344
 relationship: RO:0000057 CHEBI:60530
+
+[Term]
+id: GO:0008499
+relationship: RO:0000057 CHEBI:133506
+relationship: RO:0000057 CHEBI:15378
+relationship: RO:0000057 CHEBI:58223
+relationship: RO:0000057 CHEBI:61631
+relationship: RO:0000057 CHEBI:66914
 
 [Term]
 id: GO:0008506
@@ -17576,14 +17600,6 @@ relationship: RO:0000057 CHEBI:17505
 relationship: RO:0000057 CHEBI:17992
 
 [Term]
-id: GO:0047275
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:17103
-relationship: RO:0000057 CHEBI:17292
-relationship: RO:0000057 CHEBI:58223
-relationship: RO:0000057 CHEBI:66914
-
-[Term]
 id: GO:0047276
 relationship: RO:0000057 CHEBI:133507
 relationship: RO:0000057 CHEBI:138024
@@ -28496,6 +28512,13 @@ relationship: RO:0000057 CHEBI:57856
 relationship: RO:0000057 CHEBI:59789
 relationship: RO:0000057 CHEBI:90675
 relationship: RO:0000057 CHEBI:90676
+
+[Term]
+id: GO:0070694
+relationship: RO:0000057 CHEBI:15377
+relationship: RO:0000057 CHEBI:16964
+relationship: RO:0000057 CHEBI:62877
+relationship: RO:0000057 CHEBI:90409
 
 [Term]
 id: GO:0070735
