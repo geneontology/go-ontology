@@ -924,5 +924,5 @@ GO:0030428	cell septum	NCBITaxon:Union_0000020	Fungi or Bacteria
 GO:0018679	dibenzothiophene-5,5-dioxide monooxygenase activity	NCBITaxon:Union_0000004	Prokaryota	
 GO:0031639	plasminogen activation	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0009331	glycerol-3-phosphate dehydrogenase complex	NCBITaxon:Union_0000004	Prokaryota	
-GO:0160208	fibrous body-membranous organelle	NCBITaxon:6231	Nematoda
+GO:0160208	fibrous body-membranous organelle	NCBITaxon:6231	Nematoda	
 GO:0019833	ice nucleation activity	NCBITaxon:2	Bacteria	
