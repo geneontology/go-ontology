@@ -2628,7 +2628,7 @@ http://purl.obolibrary.org/obo/GO_1904299	negative regulation of transcytosis	ht
 http://purl.obolibrary.org/obo/GO_1903619	negative regulation of transdifferentiation	http://purl.obolibrary.org/obo/GO_0060290	transdifferentiation
 http://purl.obolibrary.org/obo/GO_0051348	negative regulation of transferase activity	http://purl.obolibrary.org/obo/GO_0016740	transferase activity
 http://purl.obolibrary.org/obo/GO_1904436	negative regulation of transferrin receptor binding	http://purl.obolibrary.org/obo/GO_1990459	transferrin receptor binding
-http://purl.obolibrary.org/obo/GO_1904188	negative regulation of transformation of host cell by virus	http://purl.obolibrary.org/obo/GO_0019087	transformation of host cell by virus
+http://purl.obolibrary.org/obo/GO_1904188	negative regulation of transformation of host cell by virus	http://purl.obolibrary.org/obo/GO_0019087	virus-mediated transformation of host cell
 http://purl.obolibrary.org/obo/GO_0071635	negative regulation of transforming growth factor beta production	http://purl.obolibrary.org/obo/GO_0071604	transforming growth factor beta production
 http://purl.obolibrary.org/obo/GO_0030512	negative regulation of transforming growth factor beta receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007179	transforming growth factor beta receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0032911	negative regulation of transforming growth factor beta1 production	http://purl.obolibrary.org/obo/GO_0032905	transforming growth factor beta1 production
@@ -2729,7 +2729,6 @@ http://purl.obolibrary.org/obo/GO_1905554	negative regulation of vessel branchin
 http://purl.obolibrary.org/obo/GO_1900714	negative regulation of violaceol I biosynthetic process	http://purl.obolibrary.org/obo/GO_1900590	violaceol I biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900717	negative regulation of violaceol II biosynthetic process	http://purl.obolibrary.org/obo/GO_1900593	violaceol II biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903773	negative regulation of viral budding via host ESCRT complex	http://purl.obolibrary.org/obo/GO_0039702	viral budding via host ESCRT complex
-http://purl.obolibrary.org/obo/GO_0046597	negative regulation of viral entry into host cell	http://purl.obolibrary.org/obo/GO_0046718	symbiont entry into host cell
 http://purl.obolibrary.org/obo/GO_0045071	negative regulation of viral genome replication	http://purl.obolibrary.org/obo/GO_0019079	viral genome replication
 http://purl.obolibrary.org/obo/GO_1903901	negative regulation of viral life cycle	http://purl.obolibrary.org/obo/GO_0019058	viral life cycle
 http://purl.obolibrary.org/obo/GO_0048525	negative regulation of viral process	http://purl.obolibrary.org/obo/GO_0016032	viral process
