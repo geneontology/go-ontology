@@ -8851,6 +8851,9 @@
 <http://purl.obolibrary.org/obo/GO_0012510> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/bounding_membrane_of_organelle.yaml> .
 
 
+<http://purl.obolibrary.org/obo/GO_0014000> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
+
+
 <http://purl.obolibrary.org/obo/GO_0014004> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cell_differentiation_by_mature_cell_type.yaml> .
 
 
@@ -24579,9 +24582,6 @@
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0046597> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0046598> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 
 
@@ -27433,13 +27433,7 @@
 <http://purl.obolibrary.org/obo/GO_0051447> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0051452> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation_of_characteristic.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0051453> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_of_characteristic.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0051454> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation_of_characteristic.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0051455> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
@@ -35855,12 +35849,6 @@
 <http://purl.obolibrary.org/obo/GO_0090691> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0090727> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation_of_characteristic.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0090728> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation_of_characteristic.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0090735> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml> .
 
 
@@ -37949,6 +37937,9 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0120530> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0140001> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_formation.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0140013> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
