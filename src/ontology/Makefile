@@ -409,11 +409,6 @@ CHEBIRELS = RO:0004007 RO:0004009 RO:0004008 RO:0000057 RO:0002233 RO:0002234 RO
 # See: https://github.com/ontodev/robot/issues/175
 seed.owl: $(SRC)
 	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o $@
-imports/chebi_import_nogci.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
-	$(ROBOT) extract -i bio-chebi.owl -T imports/chebi_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
-imports/chebi_import.owl: imports/chebi_import_nogci.owl seed.owl bio-chebi.owl
-	$(OWLTOOLS) $(USECAT) seed.owl $< --merge-support-ontologies  bio-chebi.owl --add-imports-from-supports --extract-module -s $(OBO)/go/extensions/bio-chebi.owl -c  --make-subset-by-properties -n $(CHEBIRELS) // --remove-annotation-assertions -r -l -p 'http://www.geneontology.org/formats/oboInOwl#inSubset' --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/go/$@ -o $@
-.PRECIOUS: imports/chebi_import.owl
 
 imports/%_import.obo: imports/%_import.owl
 	$(ROBOT) convert --input $< --format obo --check false --output $@.tmp && grep -v ^owl-axioms: $@.tmp > $@
@@ -423,7 +418,7 @@ imports/%_import.obo: imports/%_import.owl
 # ----------------------------------------
 
 # Fix external ontologies to specific versions. These should be updated regularly!
-CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.owl.gz
+CHEBI_SOURCE=https://github.com/cmungall/chemessence/releases/download/v2024-08-23/chemessence.owl
 CL_SOURCE=http://purl.obolibrary.org/obo/cl/cl-base.owl
 UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/uberon-base.owl
 WBBT_SOURCE=http://purl.obolibrary.org/obo/wbbt/wbbt-base.owl
@@ -457,7 +452,7 @@ mirror/pr-download.owl: $(SRC)
 
 # special case: download gz for speed for chebi
 mirror/chebi-download.owl: $(SRC)
-	wget --no-check-certificate $(CHEBI_SOURCE) -O $@.tmp.gz && mv $@.tmp.gz $@.gz && gunzip -f $@.gz && touch $@
+	wget --no-check-certificate $(CHEBI_SOURCE) -O $@.tmp && mv $@.tmp $@ && touch $@
 .PRECIOUS: mirror/chebi-download.owl
 
 # special case: use ext for uberon
@@ -555,6 +550,9 @@ mirror/eco.owl: mirror/eco-download.owl
 mirror/%.owl: mirror/%-download.owl
 	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
 .PRECIOUS: mirror/%.owl
+
+mirror/chebi.owl: mirror/chebi-download.owl
+	cp $< $@
 
 # ----------------------------------------
 # CHEBI ROLES
