@@ -2031,7 +2031,6 @@ http://purl.obolibrary.org/obo/GO_2000306	positive regulation of photomorphogene
 http://purl.obolibrary.org/obo/GO_0046534	positive regulation of photoreceptor cell differentiation	http://purl.obolibrary.org/obo/GO_0046530	photoreceptor cell differentiation
 http://purl.obolibrary.org/obo/GO_1905157	positive regulation of photosynthesis	http://purl.obolibrary.org/obo/GO_0015979	photosynthesis
 http://purl.obolibrary.org/obo/GO_0052322	positive regulation of phytoalexin biosynthetic process	http://purl.obolibrary.org/obo/GO_0052315	phytoalexin biosynthetic process
-http://purl.obolibrary.org/obo/GO_0052320	positive regulation of phytoalexin metabolic process	http://purl.obolibrary.org/obo/GO_0052314	phytoalexin metabolic process
 http://purl.obolibrary.org/obo/GO_1904964	positive regulation of phytol biosynthetic process	http://purl.obolibrary.org/obo/GO_0033520	phytol biosynthetic process
 http://purl.obolibrary.org/obo/GO_0140543	positive regulation of piRNA transcription	http://purl.obolibrary.org/obo/GO_0140541	piRNA transcription
 http://purl.obolibrary.org/obo/GO_0050942	positive regulation of pigment cell differentiation	http://purl.obolibrary.org/obo/GO_0050931	pigment cell differentiation
@@ -2634,7 +2633,7 @@ http://purl.obolibrary.org/obo/GO_1903620	positive regulation of transdifferenti
 http://purl.obolibrary.org/obo/GO_0140471	positive regulation of transepithelial migration of symbiont in host	http://purl.obolibrary.org/obo/GO_0035756	symbiont-mediated migration across host transepithelium
 http://purl.obolibrary.org/obo/GO_0051347	positive regulation of transferase activity	http://purl.obolibrary.org/obo/GO_0016740	transferase activity
 http://purl.obolibrary.org/obo/GO_1904437	positive regulation of transferrin receptor binding	http://purl.obolibrary.org/obo/GO_1990459	transferrin receptor binding
-http://purl.obolibrary.org/obo/GO_1904189	positive regulation of transformation of host cell by virus	http://purl.obolibrary.org/obo/GO_0019087	virus-mediated transformation of host cell
+http://purl.obolibrary.org/obo/GO_1904189	positive regulation of transformation of host cell by virus	http://purl.obolibrary.org/obo/GO_0019087	symbiont-mediated transformation of host cell
 http://purl.obolibrary.org/obo/GO_0071636	positive regulation of transforming growth factor beta production	http://purl.obolibrary.org/obo/GO_0071604	transforming growth factor beta production
 http://purl.obolibrary.org/obo/GO_0030511	positive regulation of transforming growth factor beta receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007179	transforming growth factor beta receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0032914	positive regulation of transforming growth factor beta1 production	http://purl.obolibrary.org/obo/GO_0032905	transforming growth factor beta1 production
