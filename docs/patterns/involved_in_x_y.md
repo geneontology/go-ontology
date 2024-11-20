@@ -30,7 +30,7 @@ TODO
 
 ## Equivalent to
 
-`{process1}`  and ([part_of](http://purl.obolibrary.org/obo/BFO_0000050) some `{process2}`)
+`{process1}`  and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some `{process2}`)
 
 
 
