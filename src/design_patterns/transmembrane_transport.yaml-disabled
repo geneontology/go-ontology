@@ -30,7 +30,7 @@ namespace:
   text: 'biological_process'
   
 equivalentTo:
-  text: "'transport' and 'transports_or_maintains_localization_of' and 'results in transport across' some membrane
+  text: "'transmembrane transport' and 'has primary input' some %s
     
 # Boilerplate - don't edit
 exact_synonyms: 
