@@ -86,7 +86,6 @@ http://purl.obolibrary.org/obo/GO_0045200	establishment of neuroblast polarity	h
 http://purl.obolibrary.org/obo/GO_0006860	extracellular amino acid transport	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0006865	amino acid transport
 http://purl.obolibrary.org/obo/GO_1900116	extracellular negative regulation of signal transduction	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0009968	negative regulation of signal transduction
 http://purl.obolibrary.org/obo/GO_1900115	extracellular regulation of signal transduction	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0009966	regulation of signal transduction
-http://purl.obolibrary.org/obo/GO_0097579	extracellular sequestering of copper ion	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0097578	sequestering of copper ion
 http://purl.obolibrary.org/obo/GO_0006858	extracellular transport	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0006810	transport
 http://purl.obolibrary.org/obo/GO_1904606	fat cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000136	adipocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0044346	fibroblast apoptotic process	http://purl.obolibrary.org/obo/CL_0000057	fibroblast	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
@@ -112,7 +111,6 @@ http://purl.obolibrary.org/obo/GO_0002227	innate immune response in mucosa	http:
 http://purl.obolibrary.org/obo/GO_0044258	intestinal lipid catabolic process	http://purl.obolibrary.org/obo/UBERON_0000160	intestine	http://purl.obolibrary.org/obo/GO_0016042	lipid catabolic process
 http://purl.obolibrary.org/obo/GO_0032367	intracellular cholesterol transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0030301	cholesterol transport
 http://purl.obolibrary.org/obo/GO_0015859	intracellular nucleoside transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0015858	nucleoside transport
-http://purl.obolibrary.org/obo/GO_0097580	intracellular sequestering of copper ion	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0097578	sequestering of copper ion
 http://purl.obolibrary.org/obo/GO_0035556	intracellular signal transduction	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0007165	signal transduction
 http://purl.obolibrary.org/obo/GO_0032366	intracellular sterol transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0015918	sterol transport
 http://purl.obolibrary.org/obo/GO_0046907	intracellular transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0006810	transport
