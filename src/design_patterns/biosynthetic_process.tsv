@@ -322,6 +322,7 @@ http://purl.obolibrary.org/obo/GO_0015995	chlorophyll biosynthetic process	http:
 http://purl.obolibrary.org/obo/GO_0006695	cholesterol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol
 http://purl.obolibrary.org/obo/GO_0042425	choline biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_15354	choline
 http://purl.obolibrary.org/obo/GO_0030206	chondroitin sulfate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_37397	chondroitin sulfate
+http://purl.obolibrary.org/obo/GO_0050650	chondroitin sulfate proteoglycan biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26349	proteochondroitin sulfate
 http://purl.obolibrary.org/obo/GO_0009423	chorismate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_29748	chorismate(2-)
 http://purl.obolibrary.org/obo/GO_0042858	chrysobactin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_61345	chrysobactin
 http://purl.obolibrary.org/obo/GO_0062032	cichorine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64977	cichorine
@@ -494,7 +495,6 @@ http://purl.obolibrary.org/obo/GO_0046357	galactarate biosynthetic process	http:
 http://purl.obolibrary.org/obo/GO_0019403	galactitol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16813	galactitol
 http://purl.obolibrary.org/obo/GO_0019375	galactolipid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_5254	galactolipid
 http://purl.obolibrary.org/obo/GO_0051070	galactomannan biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_27680	galactomannan
-http://purl.obolibrary.org/obo/GO_0006025	galactosaminoglycan biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_24158	galactosaminoglycan
 http://purl.obolibrary.org/obo/GO_0046369	galactose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_28260	galactose
 http://purl.obolibrary.org/obo/GO_0006682	galactosylceramide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_36498	galactosylceramide
 http://purl.obolibrary.org/obo/GO_0062191	galactoxylomannan biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_145656	galactoxylomannan

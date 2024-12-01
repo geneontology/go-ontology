@@ -73,7 +73,6 @@ http://purl.obolibrary.org/obo/GO_2000573	positive regulation of DNA biosyntheti
 http://purl.obolibrary.org/obo/GO_1903626	positive regulation of DNA catabolic process	http://purl.obolibrary.org/obo/GO_0006308	DNA catabolic process
 http://purl.obolibrary.org/obo/GO_2000003	positive regulation of DNA damage checkpoint	http://purl.obolibrary.org/obo/GO_0000077	DNA damage checkpoint signaling
 http://purl.obolibrary.org/obo/GO_0043517	positive regulation of DNA damage response, signal transduction by p53 class mediator	http://purl.obolibrary.org/obo/GO_0030330	DNA damage response, signal transduction by p53 class mediator
-http://purl.obolibrary.org/obo/GO_1902164	positive regulation of DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator	http://purl.obolibrary.org/obo/GO_0006978	DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator
 http://purl.obolibrary.org/obo/GO_1905464	positive regulation of DNA duplex unwinding	http://purl.obolibrary.org/obo/GO_0032508	DNA duplex unwinding
 http://purl.obolibrary.org/obo/GO_0032877	positive regulation of DNA endoreduplication	http://purl.obolibrary.org/obo/GO_0042023	DNA endoreduplication
 http://purl.obolibrary.org/obo/GO_1905776	positive regulation of DNA helicase activity	http://purl.obolibrary.org/obo/GO_0003678	DNA helicase activity
@@ -2362,7 +2361,6 @@ http://purl.obolibrary.org/obo/GO_1904658	positive regulation of sensory percept
 http://purl.obolibrary.org/obo/GO_0031031	positive regulation of septation initiation signaling	http://purl.obolibrary.org/obo/GO_0031028	septation initiation signaling
 http://purl.obolibrary.org/obo/GO_2001043	positive regulation of septum digestion after cytokinesis	http://purl.obolibrary.org/obo/GO_0000920	septum digestion after cytokinesis
 http://purl.obolibrary.org/obo/GO_0051284	positive regulation of sequestering of calcium ion	http://purl.obolibrary.org/obo/GO_0051208	sequestering of calcium ion
-http://purl.obolibrary.org/obo/GO_0010890	positive regulation of sequestering of triglyceride	http://purl.obolibrary.org/obo/GO_0030730	sequestering of triglyceride
 http://purl.obolibrary.org/obo/GO_1904222	positive regulation of serine C-palmitoyltransferase activity	http://purl.obolibrary.org/obo/GO_0004758	serine C-palmitoyltransferase activity
 http://purl.obolibrary.org/obo/GO_1900005	positive regulation of serine-type endopeptidase activity	http://purl.obolibrary.org/obo/GO_0004252	serine-type endopeptidase activity
 http://purl.obolibrary.org/obo/GO_1902573	positive regulation of serine-type peptidase activity	http://purl.obolibrary.org/obo/GO_0008236	serine-type peptidase activity
@@ -2657,6 +2655,7 @@ http://purl.obolibrary.org/obo/GO_1900895	positive regulation of tridecane metab
 http://purl.obolibrary.org/obo/GO_0010867	positive regulation of triglyceride biosynthetic process	http://purl.obolibrary.org/obo/GO_0019432	triglyceride biosynthetic process
 http://purl.obolibrary.org/obo/GO_0010898	positive regulation of triglyceride catabolic process	http://purl.obolibrary.org/obo/GO_0019433	triglyceride catabolic process
 http://purl.obolibrary.org/obo/GO_0090208	positive regulation of triglyceride metabolic process	http://purl.obolibrary.org/obo/GO_0006641	triglyceride metabolic process
+http://purl.obolibrary.org/obo/GO_0010890	positive regulation of triglyceride storage	http://purl.obolibrary.org/obo/GO_0030730	triglyceride storage
 http://purl.obolibrary.org/obo/GO_1905885	positive regulation of triglyceride transport	http://purl.obolibrary.org/obo/GO_0034197	triglyceride transport
 http://purl.obolibrary.org/obo/GO_1905498	positive regulation of triplex DNA binding	http://purl.obolibrary.org/obo/GO_0045142	triplex DNA binding
 http://purl.obolibrary.org/obo/GO_1904075	positive regulation of trophectodermal cell proliferation	http://purl.obolibrary.org/obo/GO_0001834	trophectodermal cell proliferation
