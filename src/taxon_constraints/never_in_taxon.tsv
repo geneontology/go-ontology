@@ -1,6 +1,6 @@
 defined_class	defined_class_label	taxon	taxon_label	source
 GO:0004705	JUN kinase activity	NCBITaxon:4751	Fungi	
-GO:0008545	JUN kinase kinase activity	NCBITaxon:4751	Fungi	
+GO:0008545	JUN kinase kinase activity	NCBITaxon:4751	Fungi		
 GO:0004706	JUN kinase kinase kinase	NCBITaxon:4751	Fungi	
 GO:0035965	cardiolipin acyl-chain remodeling	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0004161	dimethylallyltranstransferase activity	NCBITaxon:4896	Schizosaccharomyces pombe	
