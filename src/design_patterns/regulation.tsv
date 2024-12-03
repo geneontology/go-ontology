@@ -1310,9 +1310,7 @@ http://purl.obolibrary.org/obo/GO_0070092	regulation of glucagon secretion	http:
 http://purl.obolibrary.org/obo/GO_0010962	regulation of glucan biosynthetic process	http://purl.obolibrary.org/obo/GO_0009250	glucan biosynthetic process
 http://purl.obolibrary.org/obo/GO_0031946	regulation of glucocorticoid biosynthetic process	http://purl.obolibrary.org/obo/GO_0006704	glucocorticoid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0031949	regulation of glucocorticoid catabolic process	http://purl.obolibrary.org/obo/GO_0006713	glucocorticoid catabolic process
-http://purl.obolibrary.org/obo/GO_1900169	regulation of glucocorticoid mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0043402	glucocorticoid mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0031943	regulation of glucocorticoid metabolic process	http://purl.obolibrary.org/obo/GO_0008211	glucocorticoid metabolic process
-http://purl.obolibrary.org/obo/GO_2000322	regulation of glucocorticoid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	nuclear receptor-mediated glucocorticoid signaling pathway
 http://purl.obolibrary.org/obo/GO_2000849	regulation of glucocorticoid secretion	http://purl.obolibrary.org/obo/GO_0035933	glucocorticoid secretion
 http://purl.obolibrary.org/obo/GO_0033131	regulation of glucokinase activity	http://purl.obolibrary.org/obo/GO_0004340	glucokinase activity
 http://purl.obolibrary.org/obo/GO_2000898	regulation of glucomannan catabolic process	http://purl.obolibrary.org/obo/GO_2000884	glucomannan catabolic process
@@ -2139,8 +2137,9 @@ http://purl.obolibrary.org/obo/GO_0033262	regulation of nuclear cell cycle DNA r
 http://purl.obolibrary.org/obo/GO_0051783	regulation of nuclear division	http://purl.obolibrary.org/obo/GO_0000280	nuclear division
 http://purl.obolibrary.org/obo/GO_1902838	regulation of nuclear migration along microtubule	http://purl.obolibrary.org/obo/GO_0030473	nuclear migration along microtubule
 http://purl.obolibrary.org/obo/GO_1902852	regulation of nuclear migration during mitotic telophase	http://purl.obolibrary.org/obo/GO_0090561	nuclear migration during mitotic telophase
+http://purl.obolibrary.org/obo/GO_2000322	regulation of nuclear receptor-mediated glucocorticoid signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	nuclear receptor-mediated glucocorticoid signaling pathway
 http://purl.obolibrary.org/obo/GO_1900151	regulation of nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay	http://purl.obolibrary.org/obo/GO_0000288	nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay
-http://purl.obolibrary.org/obo/GO_0120270	regulation of nuclear-transcribed mRNA catabolic process, meiosis-specific transcripts	http://purl.obolibrary.org/obo/GO_0033621	nuclear-transcribed mRNA catabolic process, meiosis-specific transcripts
+http://purl.obolibrary.org/obo/GO_0120270	regulation of nuclear-transcribed mRNA catabolic process, meiosis-specific transcripts	http://purl.obolibrary.org/obo/GO_0033621	nuclear mRNA surveillance of meiosis-specific transcripts
 http://purl.obolibrary.org/obo/GO_2000622	regulation of nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	http://purl.obolibrary.org/obo/GO_0000184	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
 http://purl.obolibrary.org/obo/GO_0060211	regulation of nuclear-transcribed mRNA poly(A) tail shortening	http://purl.obolibrary.org/obo/GO_0000289	nuclear-transcribed mRNA poly(A) tail shortening
 http://purl.obolibrary.org/obo/GO_0032069	regulation of nuclease activity	http://purl.obolibrary.org/obo/GO_0004518	nuclease activity
