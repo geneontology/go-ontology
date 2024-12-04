@@ -1,4 +1,14 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:0004705	JUN kinase activity	NCBITaxon:4751	Fungi	
+GO:0008545	JUN kinase kinase activity	NCBITaxon:4751	Fungi	
+GO:0004706	JUN kinase kinase kinase	NCBITaxon:4751	Fungi	
+GO:0035965	cardiolipin acyl-chain remodeling	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0004161	dimethylallyltranstransferase activity	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0033384	geranyl diphosphate biosynthetic process	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0031254	cell trailing edge	NCBITaxon:4751	Fungi	
+GO:0031252	cell leading edge	NCBITaxon:4751	Fungi	
+GO:0050321	tau-protein kinase activity	NCBITaxon:2759	Eukaryota	
+GO:0031910	cytostome	NCBITaxon:4751	Fungi	
 GO:0004131	cytosine deaminase activity	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0009089	lysine biosynthetic process via diaminopimelate	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0009089	lysine biosynthetic process via diaminopimelate	NCBITaxon:4930	Saccharomyces cerevisiae	
@@ -405,7 +415,6 @@ GO:0031549	negative regulation of brain-derived neurotrophic factor receptor sig
 GO:0031547	brain-derived neurotrophic factor receptor signaling pathway	NCBITaxon:4751	Fungi	
 GO:0031548	regulation of brain-derived neurotrophic factor receptor signaling pathway	NCBITaxon:4751	Fungi	
 GO:0006789	bilirubin conjugation	NCBITaxon:4751	Fungi	
-GO:0051767	nitric-oxide synthase biosynthetic process	NCBITaxon:4751	Fungi	
 GO:0014719	skeletal muscle satellite cell activation	NCBITaxon:4751	Fungi	
 GO:2000097	regulation of smooth muscle cell-matrix adhesion	NCBITaxon:4751	Fungi	
 GO:0035994	response to muscle stretch	NCBITaxon:4751	Fungi	

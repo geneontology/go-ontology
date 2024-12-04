@@ -392,6 +392,7 @@ http://purl.obolibrary.org/obo/GO_0052643	chlorophyllide metabolic process	http:
 http://purl.obolibrary.org/obo/GO_0008203	cholesterol metabolic process	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol
 http://purl.obolibrary.org/obo/GO_0019695	choline metabolic process	http://purl.obolibrary.org/obo/CHEBI_15354	choline
 http://purl.obolibrary.org/obo/GO_0030204	chondroitin sulfate metabolic process	http://purl.obolibrary.org/obo/CHEBI_37397	chondroitin sulfate
+http://purl.obolibrary.org/obo/GO_0050654	chondroitin sulfate proteoglycan metabolic process	http://purl.obolibrary.org/obo/CHEBI_26349	proteochondroitin sulfate
 http://purl.obolibrary.org/obo/GO_0046417	chorismate metabolic process	http://purl.obolibrary.org/obo/CHEBI_29748	chorismate(2-)
 http://purl.obolibrary.org/obo/GO_0042857	chrysobactin metabolic process	http://purl.obolibrary.org/obo/CHEBI_61345	chrysobactin
 http://purl.obolibrary.org/obo/GO_0009801	cinnamic acid ester metabolic process	http://purl.obolibrary.org/obo/CHEBI_36087	cinnamate ester
@@ -596,7 +597,6 @@ http://purl.obolibrary.org/obo/GO_0010392	galactoglucomannan metabolic process	h
 http://purl.obolibrary.org/obo/GO_0019374	galactolipid metabolic process	http://purl.obolibrary.org/obo/CHEBI_5254	galactolipid
 http://purl.obolibrary.org/obo/GO_0051069	galactomannan metabolic process	http://purl.obolibrary.org/obo/CHEBI_27680	galactomannan
 http://purl.obolibrary.org/obo/GO_0019583	galactonate metabolic process	http://purl.obolibrary.org/obo/CHEBI_24148	galactonate
-http://purl.obolibrary.org/obo/GO_0046350	galactosaminoglycan metabolic process	http://purl.obolibrary.org/obo/CHEBI_24158	galactosaminoglycan
 http://purl.obolibrary.org/obo/GO_0006012	galactose metabolic process	http://purl.obolibrary.org/obo/CHEBI_28260	galactose
 http://purl.obolibrary.org/obo/GO_0006681	galactosylceramide metabolic process	http://purl.obolibrary.org/obo/CHEBI_36498	galactosylceramide
 http://purl.obolibrary.org/obo/GO_0010393	galacturonan metabolic process	http://purl.obolibrary.org/obo/CHEBI_24174	galacturonan
@@ -672,6 +672,7 @@ http://purl.obolibrary.org/obo/GO_0046160	heme a metabolic process	http://purl.o
 http://purl.obolibrary.org/obo/GO_0042168	heme metabolic process	http://purl.obolibrary.org/obo/CHEBI_30413	heme
 http://purl.obolibrary.org/obo/GO_0010410	hemicellulose metabolic process	http://purl.obolibrary.org/obo/CHEBI_61266	hemicellulose
 http://purl.obolibrary.org/obo/GO_0020027	hemoglobin metabolic process	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin
+http://purl.obolibrary.org/obo/GO_0030201	heparan sulfate proteoglycan metabolic process	http://purl.obolibrary.org/obo/CHEBI_24499	heparan sulfate proteoglycan
 http://purl.obolibrary.org/obo/GO_0030202	heparin metabolic process	http://purl.obolibrary.org/obo/CHEBI_24505	heparins
 http://purl.obolibrary.org/obo/GO_0051121	hepoxilin metabolic process	http://purl.obolibrary.org/obo/CHEBI_62938	hepoxilin anion
 http://purl.obolibrary.org/obo/GO_1900874	heptadec-1-ene metabolic process	http://purl.obolibrary.org/obo/CHEBI_64502	1-heptadecene
@@ -896,7 +897,6 @@ http://purl.obolibrary.org/obo/GO_0046152	ommochrome metabolic process	http://pu
 http://purl.obolibrary.org/obo/GO_0018940	orcinol metabolic process	http://purl.obolibrary.org/obo/CHEBI_16536	orcinol
 http://purl.obolibrary.org/obo/GO_0006082	organic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_64709	organic acid
 http://purl.obolibrary.org/obo/GO_1901376	organic heteropentacyclic compound metabolic process	http://purl.obolibrary.org/obo/CHEBI_38164	organic heteropentacyclic compound
-http://purl.obolibrary.org/obo/GO_1901615	organic hydroxy compound metabolic process	http://purl.obolibrary.org/obo/CHEBI_33822	organic hydroxy compound
 http://purl.obolibrary.org/obo/GO_0019634	organic phosphonate metabolic process	http://purl.obolibrary.org/obo/CHEBI_16215	phosphonate(2-)
 http://purl.obolibrary.org/obo/GO_0090346	organofluorine metabolic process	http://purl.obolibrary.org/obo/CHEBI_37143	organofluorine compound
 http://purl.obolibrary.org/obo/GO_0090345	organohalogen metabolic process	http://purl.obolibrary.org/obo/CHEBI_17792	organohalogen compound

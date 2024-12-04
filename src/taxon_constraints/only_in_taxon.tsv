@@ -1,4 +1,6 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:0001772	immunological synapse	NCBITaxon:7742	Vertebrata	
+GO:0031911	cytoproct	NCBITaxon:5878	Ciliophora	
 GO:0008088	axo-dendritic transport	NCBITaxon:33208	Metazoa	
 GO:0099563	modification of synaptic structure	NCBITaxon:33208	Metazoa	
 GO:0000132	establishment of mitotic spindle orientation	NCBITaxon:2759	Eukaryota	
@@ -925,3 +927,5 @@ GO:0018679	dibenzothiophene-5,5-dioxide monooxygenase activity	NCBITaxon:Union_0
 GO:0031639	plasminogen activation	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0009331	glycerol-3-phosphate dehydrogenase complex	NCBITaxon:Union_0000004	Prokaryota	
 GO:0160208	fibrous body-membranous organelle	NCBITaxon:6231	Nematoda	
+GO:0019833	ice nucleation activity	NCBITaxon:2	Bacteria	
+GO:0042579	microbody	NCBITaxon:2759	Eukaryota	
