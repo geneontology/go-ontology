@@ -7,7 +7,7 @@ GO:0004161	dimethylallyltranstransferase activity	NCBITaxon:4896	Schizosaccharom
 GO:0033384	geranyl diphosphate biosynthetic process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0031254	cell trailing edge	NCBITaxon:4751	Fungi	
 GO:0031252	cell leading edge	NCBITaxon:4751	Fungi	
-GO:0050321	tau-protein kinase activity	CBITaxon:2759	Eukaryota	
+GO:0050321	tau-protein kinase activity	NCBITaxon:2759	Eukaryota	
 GO:0031910	cytostome	NCBITaxon:4751	Fungi	
 GO:0004131	cytosine deaminase activity	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0009089	lysine biosynthetic process via diaminopimelate	NCBITaxon:4896	Schizosaccharomyces pombe	
