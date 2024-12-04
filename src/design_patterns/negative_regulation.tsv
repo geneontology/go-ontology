@@ -1155,9 +1155,7 @@ http://purl.obolibrary.org/obo/GO_0090194	negative regulation of glomerulus deve
 http://purl.obolibrary.org/obo/GO_0070093	negative regulation of glucagon secretion	http://purl.obolibrary.org/obo/GO_0070091	glucagon secretion
 http://purl.obolibrary.org/obo/GO_0031947	negative regulation of glucocorticoid biosynthetic process	http://purl.obolibrary.org/obo/GO_0006704	glucocorticoid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0031950	negative regulation of glucocorticoid catabolic process	http://purl.obolibrary.org/obo/GO_0006713	glucocorticoid catabolic process
-http://purl.obolibrary.org/obo/GO_1900170	negative regulation of glucocorticoid mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0043402	glucocorticoid mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0031944	negative regulation of glucocorticoid metabolic process	http://purl.obolibrary.org/obo/GO_0008211	glucocorticoid metabolic process
-http://purl.obolibrary.org/obo/GO_2000323	negative regulation of glucocorticoid receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	nuclear receptor-mediated glucocorticoid signaling pathway
 http://purl.obolibrary.org/obo/GO_2000850	negative regulation of glucocorticoid secretion	http://purl.obolibrary.org/obo/GO_0035933	glucocorticoid secretion
 http://purl.obolibrary.org/obo/GO_0033132	negative regulation of glucokinase activity	http://purl.obolibrary.org/obo/GO_0004340	glucokinase activity
 http://purl.obolibrary.org/obo/GO_2000907	negative regulation of glucomannan catabolic process	http://purl.obolibrary.org/obo/GO_2000884	glucomannan catabolic process
@@ -1887,8 +1885,9 @@ http://purl.obolibrary.org/obo/GO_1902576	negative regulation of nuclear cell cy
 http://purl.obolibrary.org/obo/GO_0051784	negative regulation of nuclear division	http://purl.obolibrary.org/obo/GO_0000280	nuclear division
 http://purl.obolibrary.org/obo/GO_1902839	negative regulation of nuclear migration along microtubule	http://purl.obolibrary.org/obo/GO_0030473	nuclear migration along microtubule
 http://purl.obolibrary.org/obo/GO_1902853	negative regulation of nuclear migration during mitotic telophase	http://purl.obolibrary.org/obo/GO_0090561	nuclear migration during mitotic telophase
+http://purl.obolibrary.org/obo/GO_2000323	negative regulation of nuclear receptor-mediated glucocorticoid signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	nuclear receptor-mediated glucocorticoid signaling pathway
 http://purl.obolibrary.org/obo/GO_1900152	negative regulation of nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay	http://purl.obolibrary.org/obo/GO_0000288	nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay
-http://purl.obolibrary.org/obo/GO_0120271	negative regulation of nuclear-transcribed mRNA catabolic process, meiosis-specific transcripts	http://purl.obolibrary.org/obo/GO_0033621	nuclear-transcribed mRNA catabolic process, meiosis-specific transcripts
+http://purl.obolibrary.org/obo/GO_0120271	negative regulation of nuclear-transcribed mRNA catabolic process, meiosis-specific transcripts	http://purl.obolibrary.org/obo/GO_0033621	nuclear mRNA surveillance of meiosis-specific transcripts
 http://purl.obolibrary.org/obo/GO_2000623	negative regulation of nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	http://purl.obolibrary.org/obo/GO_0000184	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
 http://purl.obolibrary.org/obo/GO_0060212	negative regulation of nuclear-transcribed mRNA poly(A) tail shortening	http://purl.obolibrary.org/obo/GO_0000289	nuclear-transcribed mRNA poly(A) tail shortening
 http://purl.obolibrary.org/obo/GO_0032074	negative regulation of nuclease activity	http://purl.obolibrary.org/obo/GO_0004518	nuclease activity
