@@ -1,6 +1,7 @@
 #define RDF_TYPE "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>"
 #define RDFS_SUBCLASS_OF "<http://www.w3.org/2000/01/rdf-schema#subClassOf>"
 #define RDFS_SUBPROPERTY_OF "<http://www.w3.org/2000/01/rdf-schema#subPropertyOf>"
+#define RDFS_COMMENT "<http://www.w3.org/2000/01/rdf-schema#comment>"
 #define OWL_CLASS "<http://www.w3.org/2002/07/owl#Class>"
 #define OWL_DEPRECATED "<http://www.w3.org/2002/07/owl#deprecated>"
 #define OWL_ANNOTATION_PROPERTY "<http://www.w3.org/2002/07/owl#AnnotationProperty>"
@@ -25,6 +26,7 @@
 .decl synonym_property(iri: symbol)
 .decl declared_subset(iri: symbol)
 .decl subset_assertion(term: symbol, subset: symbol)
+.decl triple_with_literal(s: symbol, p: symbol, o: symbol)
 .decl xref(term: symbol, ref: symbol)
 .decl defxref(term: symbol, ref: symbol)
 .decl synonym_xref(term: symbol, property: symbol, ref: symbol)
@@ -39,6 +41,8 @@ synonym_property(OIO_HAS_NARROW_SYNONYM).
 synonym_property(OIO_HAS_BROAD_SYNONYM).
 
 term(iri) :- ontrdf(iri, RDF_TYPE, OWL_CLASS), match("<.+>", iri).
+
+triple_with_literal(s, p, o) :- ontrdf(s, p, o), match("\".*", o).
 
 obsolete_term(iri) :- term(iri), ontrdf(iri, OWL_DEPRECATED, "\"true\"^^<http://www.w3.org/2001/XMLSchema#boolean>").
 
@@ -66,5 +70,7 @@ error(cat("ERROR: ", term, " has an xref to an obsolete EC: ", ec)) :- xref(term
 error(cat("ERROR: ", term, " has a definition xref to an obsolete EC: ", ec)) :- defxref(term, ec), valid_term(term), obsolete_ec(ec).
 error(cat("ERROR: ", term, " has a synonym xref to an obsolete EC: ", ec)) :- synonym_xref(term, _, ec), valid_term(term), obsolete_ec(ec).
 error(cat("ERROR: ", term, " references an undeclared subset: ", subset)) :- subset_assertion(term, subset), !declared_subset(subset).
+error(cat("ERROR: empty literal value for ", s, " ", p)) :- triple_with_literal(s, p, o), match("\"\".*", o).
+error(cat("ERROR: ", term, " has a comment that seems to be a URI")) :- triple_with_literal(term, RDFS_COMMENT, o), match("\"http.*", o).
 
 .output error(filename="datalog-violations.tsv")
