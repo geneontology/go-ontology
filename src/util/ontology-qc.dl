@@ -30,10 +30,15 @@
 .decl xref(term: symbol, ref: symbol)
 .decl defxref(term: symbol, ref: symbol)
 .decl synonym_xref(term: symbol, property: symbol, ref: symbol)
+.decl ec(ec: symbol, obsolete: symbol)
 .decl obsolete_ec(ec: symbol)
+.decl ec_xref(term: symbol, ref: symbol)
+.decl ec_defxref(term: symbol, ref: symbol)
 
 .input ontrdf(filename="go-edit.facts")
-.input obsolete_ec(filename="../resources/obsolete_ec.txt")
+.input ec(filename="../resources/obsolete_ec.txt")
+
+obsolete_ec(ec) :- ec(ec, obsolete), obsolete = "true".
 
 synonym_property(OIO_HAS_EXACT_SYNONYM).
 synonym_property(OIO_HAS_RELATED_SYNONYM).
@@ -52,12 +57,14 @@ declared_subset(iri) :- ontrdf(iri, RDF_TYPE, OWL_ANNOTATION_PROPERTY), ontrdf(i
 subset_assertion(term, subset) :- ontrdf(term, OIO_IN_SUBSET, subset).
 
 xref(term, ref) :- ontrdf(term, OIO_HAS_DB_XREF, ref), term(term).
+ec_xref(term, ref) :- xref(term, ref), match("\"EC:.+\"", ref).
 
 defxref(term, ref) :- 
     ontrdf(axiom, OWL_ANNOTATED_SOURCE, term),
     term(term),
     ontrdf(axiom, OWL_ANNOTATED_PROPERTY, IAO_DEFINITION),
     ontrdf(axiom, OIO_HAS_DB_XREF, ref).
+ec_defxref(term, ref) :- defxref(term, ref), match("\"EC:.+\"", ref).
 
 synonym_xref(term, property, ref) :-
     ontrdf(axiom, OWL_ANNOTATED_SOURCE, term),
@@ -66,8 +73,10 @@ synonym_xref(term, property, ref) :-
     synonym_property(property),
     ontrdf(axiom, OIO_HAS_DB_XREF, ref).
 
-error(cat("ERROR: ", term, " has an xref to an obsolete EC: ", ec)) :- xref(term, ec), valid_term(term), obsolete_ec(ec).
-error(cat("ERROR: ", term, " has a definition xref to an obsolete EC: ", ec)) :- defxref(term, ec), valid_term(term), obsolete_ec(ec).
+error(cat("ERROR: ", term, " has an xref to an obsolete EC: ", ec)) :- ec_xref(term, ec), valid_term(term), obsolete_ec(ec).
+error(cat("ERROR: ", term, " has an xref to an unknown EC: ", ec)) :- ec_xref(term, ec), valid_term(term), !ec(ec, _).
+error(cat("ERROR: ", term, " has a definition xref to an obsolete EC: ", ec)) :- ec_defxref(term, ec), valid_term(term), obsolete_ec(ec).
+error(cat("ERROR: ", term, " has a definition xref to an unknown EC: ", ec)) :- ec_defxref(term, ec), valid_term(term), !ec(ec, _).
 error(cat("ERROR: ", term, " has a synonym xref to an obsolete EC: ", ec)) :- synonym_xref(term, _, ec), valid_term(term), obsolete_ec(ec).
 error(cat("ERROR: ", term, " references an undeclared subset: ", subset)) :- subset_assertion(term, subset), !declared_subset(subset).
 error(cat("ERROR: empty literal value for ", s, " ", p)) :- triple_with_literal(s, p, o), match("\"\".*", o).
