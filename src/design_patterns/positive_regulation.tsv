@@ -73,11 +73,7 @@ http://purl.obolibrary.org/obo/GO_2000573	positive regulation of DNA biosyntheti
 http://purl.obolibrary.org/obo/GO_1903626	positive regulation of DNA catabolic process	http://purl.obolibrary.org/obo/GO_0006308	DNA catabolic process
 http://purl.obolibrary.org/obo/GO_2000003	positive regulation of DNA damage checkpoint	http://purl.obolibrary.org/obo/GO_0000077	DNA damage checkpoint signaling
 http://purl.obolibrary.org/obo/GO_0043517	positive regulation of DNA damage response, signal transduction by p53 class mediator	http://purl.obolibrary.org/obo/GO_0030330	DNA damage response, signal transduction by p53 class mediator
-http://purl.obolibrary.org/obo/GO_1905464	positive regulation of DNA duplex unwinding	http://purl.obolibrary.org/obo/GO_0032508	DNA duplex unwinding
 http://purl.obolibrary.org/obo/GO_0032877	positive regulation of DNA endoreduplication	http://purl.obolibrary.org/obo/GO_0042023	DNA endoreduplication
-http://purl.obolibrary.org/obo/GO_1905776	positive regulation of DNA helicase activity	http://purl.obolibrary.org/obo/GO_0003678	DNA helicase activity
-http://purl.obolibrary.org/obo/GO_1904877	positive regulation of DNA ligase activity	http://purl.obolibrary.org/obo/GO_0003909	DNA ligase activity
-http://purl.obolibrary.org/obo/GO_0051106	positive regulation of DNA ligation	http://purl.obolibrary.org/obo/GO_0006266	DNA ligation
 http://purl.obolibrary.org/obo/GO_0051054	positive regulation of DNA metabolic process	http://purl.obolibrary.org/obo/GO_0006259	DNA metabolic process
 http://purl.obolibrary.org/obo/GO_1903934	positive regulation of DNA primase activity	http://purl.obolibrary.org/obo/GO_0003896	DNA primase activity
 http://purl.obolibrary.org/obo/GO_0045911	positive regulation of DNA recombination	http://purl.obolibrary.org/obo/GO_0006310	DNA recombination
@@ -114,7 +110,6 @@ http://purl.obolibrary.org/obo/GO_1904022	positive regulation of G protein-coupl
 http://purl.obolibrary.org/obo/GO_0045745	positive regulation of G protein-coupled receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007186	G protein-coupled receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_1900129	positive regulation of G-protein activated inward rectifier potassium channel activity	http://purl.obolibrary.org/obo/GO_0015467	G-protein activated inward rectifier potassium channel activity
 http://purl.obolibrary.org/obo/GO_1905495	positive regulation of G-quadruplex DNA binding	http://purl.obolibrary.org/obo/GO_0051880	G-quadruplex DNA binding
-http://purl.obolibrary.org/obo/GO_1905467	positive regulation of G-quadruplex DNA unwinding	http://purl.obolibrary.org/obo/GO_0044806	G-quadruplex DNA unwinding
 http://purl.obolibrary.org/obo/GO_0070318	positive regulation of G0 to G1 transition	http://purl.obolibrary.org/obo/GO_0045023	G0 to G1 transition
 http://purl.obolibrary.org/obo/GO_1903452	positive regulation of G1 to G0 transition	http://purl.obolibrary.org/obo/GO_0070314	G1 to G0 transition
 http://purl.obolibrary.org/obo/GO_1900087	positive regulation of G1/S transition of mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000082	G1/S transition of mitotic cell cycle
@@ -144,6 +139,7 @@ http://purl.obolibrary.org/obo/GO_1905010	positive regulation of L-lysine import
 http://purl.obolibrary.org/obo/GO_1905626	positive regulation of L-methionine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905544	L-methionine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905737	positive regulation of L-proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1904271	L-proline import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1900928	positive regulation of L-threonine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903807	L-threonine import across plasma membrane
+http://purl.obolibrary.org/obo/GO_0090358	positive regulation of L-tryptophan metabolic process	http://purl.obolibrary.org/obo/GO_0006568	L-tryptophan metabolic process
 http://purl.obolibrary.org/obo/GO_1900931	positive regulation of L-tyrosine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903808	L-tyrosine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0140124	positive regulation of Lewy body formation	http://purl.obolibrary.org/obo/GO_0140121	Lewy body formation
 http://purl.obolibrary.org/obo/GO_1903007	positive regulation of Lys63-specific deubiquitinase activity	http://purl.obolibrary.org/obo/GO_0061578	K63-linked deubiquitinase activity
@@ -651,7 +647,6 @@ http://purl.obolibrary.org/obo/GO_0044089	positive regulation of cellular compon
 http://purl.obolibrary.org/obo/GO_0051130	positive regulation of cellular component organization	http://purl.obolibrary.org/obo/GO_0016043	cellular component organization
 http://purl.obolibrary.org/obo/GO_0010186	positive regulation of cellular defense response	http://purl.obolibrary.org/obo/GO_0006968	cellular defense response
 http://purl.obolibrary.org/obo/GO_0002693	positive regulation of cellular extravasation	http://purl.obolibrary.org/obo/GO_0045123	cellular extravasation
-http://purl.obolibrary.org/obo/GO_2001031	positive regulation of cellular glucuronidation	http://purl.obolibrary.org/obo/GO_0052695	cellular glucuronidation
 http://purl.obolibrary.org/obo/GO_0032849	positive regulation of cellular pH reduction	http://purl.obolibrary.org/obo/GO_0051452	intracellular pH reduction
 http://purl.obolibrary.org/obo/GO_0048522	positive regulation of cellular process	http://purl.obolibrary.org/obo/GO_0009987	cellular process
 http://purl.obolibrary.org/obo/GO_1901857	positive regulation of cellular respiration	http://purl.obolibrary.org/obo/GO_0045333	cellular respiration
@@ -810,7 +805,6 @@ http://purl.obolibrary.org/obo/GO_0045737	positive regulation of cyclin-dependen
 http://purl.obolibrary.org/obo/GO_2000959	positive regulation of cyclodextrin catabolic process	http://purl.obolibrary.org/obo/GO_2000901	cyclodextrin catabolic process
 http://purl.obolibrary.org/obo/GO_2000956	positive regulation of cyclodextrin metabolic process	http://purl.obolibrary.org/obo/GO_2000900	cyclodextrin metabolic process
 http://purl.obolibrary.org/obo/GO_1901496	positive regulation of cysteine metabolic process	http://purl.obolibrary.org/obo/GO_0006534	cysteine metabolic process
-http://purl.obolibrary.org/obo/GO_2001056	positive regulation of cysteine-type endopeptidase activity	http://purl.obolibrary.org/obo/GO_0004197	cysteine-type endopeptidase activity
 http://purl.obolibrary.org/obo/GO_1904960	positive regulation of cytochrome-c oxidase activity	http://purl.obolibrary.org/obo/GO_0004129	cytochrome-c oxidase activity
 http://purl.obolibrary.org/obo/GO_0060301	positive regulation of cytokine activity	http://purl.obolibrary.org/obo/GO_0005125	cytokine activity
 http://purl.obolibrary.org/obo/GO_0001819	positive regulation of cytokine production	http://purl.obolibrary.org/obo/GO_0001816	cytokine production
@@ -2660,7 +2654,6 @@ http://purl.obolibrary.org/obo/GO_1905498	positive regulation of triplex DNA bin
 http://purl.obolibrary.org/obo/GO_1904075	positive regulation of trophectodermal cell proliferation	http://purl.obolibrary.org/obo/GO_0001834	trophectodermal cell proliferation
 http://purl.obolibrary.org/obo/GO_1901165	positive regulation of trophoblast cell migration	http://purl.obolibrary.org/obo/GO_0061450	trophoblast cell migration
 http://purl.obolibrary.org/obo/GO_1905724	positive regulation of trypanothione biosynthetic process	http://purl.obolibrary.org/obo/GO_0019342	trypanothione biosynthetic process
-http://purl.obolibrary.org/obo/GO_0090358	positive regulation of tryptophan metabolic process	http://purl.obolibrary.org/obo/GO_0006568	tryptophan metabolic process
 http://purl.obolibrary.org/obo/GO_0090044	positive regulation of tubulin deacetylation	http://purl.obolibrary.org/obo/GO_0090042	tubulin deacetylation
 http://purl.obolibrary.org/obo/GO_2000309	positive regulation of tumor necrosis factor (ligand) superfamily member 11 production	http://purl.obolibrary.org/obo/GO_0072535	tumor necrosis factor (ligand) superfamily member 11 production
 http://purl.obolibrary.org/obo/GO_0032760	positive regulation of tumor necrosis factor production	http://purl.obolibrary.org/obo/GO_0032640	tumor necrosis factor production
