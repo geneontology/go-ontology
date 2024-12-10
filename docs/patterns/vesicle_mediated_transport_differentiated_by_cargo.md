@@ -1,10 +1,10 @@
 # vesicle-mediated transport differentiated by cargo
 
-[http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport.yaml](http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_cargo.yaml](http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_cargo.yaml)
 
 ## Description
 
-TODO
+This pattern is for representing vesicle-mediated transport, differentiated by the type of cargo.
 
 
 
@@ -13,7 +13,7 @@ TODO
 
 | Variable name | Allowed type |
 |:--------------|:-------------|
-| `{target}` | [cellular_component](http://purl.obolibrary.org/obo/GO_0005575) |
+| `{target}` | [cellular anatomical structure](http://purl.obolibrary.org/obo/GO_0110165) |
 
 ## Name
 
