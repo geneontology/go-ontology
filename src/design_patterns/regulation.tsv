@@ -90,11 +90,7 @@ http://purl.obolibrary.org/obo/GO_1903624	regulation of DNA catabolic process	ht
 http://purl.obolibrary.org/obo/GO_2000001	regulation of DNA damage checkpoint	http://purl.obolibrary.org/obo/GO_0000077	DNA damage checkpoint signaling
 http://purl.obolibrary.org/obo/GO_0043516	regulation of DNA damage response, signal transduction by p53 class mediator	http://purl.obolibrary.org/obo/GO_0030330	DNA damage response, signal transduction by p53 class mediator
 http://purl.obolibrary.org/obo/GO_1903775	regulation of DNA double-strand break processing	http://purl.obolibrary.org/obo/GO_0000729	DNA double-strand break processing
-http://purl.obolibrary.org/obo/GO_1905462	regulation of DNA duplex unwinding	http://purl.obolibrary.org/obo/GO_0032508	DNA duplex unwinding
 http://purl.obolibrary.org/obo/GO_0032875	regulation of DNA endoreduplication	http://purl.obolibrary.org/obo/GO_0042023	DNA endoreduplication
-http://purl.obolibrary.org/obo/GO_1905774	regulation of DNA helicase activity	http://purl.obolibrary.org/obo/GO_0003678	DNA helicase activity
-http://purl.obolibrary.org/obo/GO_1904875	regulation of DNA ligase activity	http://purl.obolibrary.org/obo/GO_0003909	DNA ligase activity
-http://purl.obolibrary.org/obo/GO_0051105	regulation of DNA ligation	http://purl.obolibrary.org/obo/GO_0006266	DNA ligation
 http://purl.obolibrary.org/obo/GO_0051052	regulation of DNA metabolic process	http://purl.obolibrary.org/obo/GO_0006259	DNA metabolic process
 http://purl.obolibrary.org/obo/GO_1903932	regulation of DNA primase activity	http://purl.obolibrary.org/obo/GO_0003896	DNA primase activity
 http://purl.obolibrary.org/obo/GO_0062109	regulation of DNA recombinase disassembly	http://purl.obolibrary.org/obo/GO_1990986	DNA recombinase disassembly
@@ -133,7 +129,6 @@ http://purl.obolibrary.org/obo/GO_1904020	regulation of G protein-coupled recept
 http://purl.obolibrary.org/obo/GO_0008277	regulation of G protein-coupled receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007186	G protein-coupled receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_1900128	regulation of G-protein activated inward rectifier potassium channel activity	http://purl.obolibrary.org/obo/GO_0015467	G-protein activated inward rectifier potassium channel activity
 http://purl.obolibrary.org/obo/GO_1905493	regulation of G-quadruplex DNA binding	http://purl.obolibrary.org/obo/GO_0051880	G-quadruplex DNA binding
-http://purl.obolibrary.org/obo/GO_1905465	regulation of G-quadruplex DNA unwinding	http://purl.obolibrary.org/obo/GO_0044806	G-quadruplex DNA unwinding
 http://purl.obolibrary.org/obo/GO_0070316	regulation of G0 to G1 transition	http://purl.obolibrary.org/obo/GO_0045023	G0 to G1 transition
 http://purl.obolibrary.org/obo/GO_1903450	regulation of G1 to G0 transition	http://purl.obolibrary.org/obo/GO_0070314	G1 to G0 transition
 http://purl.obolibrary.org/obo/GO_2000045	regulation of G1/S transition of mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000082	G1/S transition of mitotic cell cycle
@@ -169,6 +164,7 @@ http://purl.obolibrary.org/obo/GO_1905008	regulation of L-lysine import across p
 http://purl.obolibrary.org/obo/GO_1905624	regulation of L-methionine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905544	L-methionine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905735	regulation of L-proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1904271	L-proline import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1900926	regulation of L-threonine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903807	L-threonine import across plasma membrane
+http://purl.obolibrary.org/obo/GO_0090357	regulation of L-tryptophan metabolic process	http://purl.obolibrary.org/obo/GO_0006568	L-tryptophan metabolic process
 http://purl.obolibrary.org/obo/GO_1900929	regulation of L-tyrosine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903808	L-tyrosine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0140122	regulation of Lewy body formation	http://purl.obolibrary.org/obo/GO_0140121	Lewy body formation
 http://purl.obolibrary.org/obo/GO_0043405	regulation of MAP kinase activity	http://purl.obolibrary.org/obo/GO_0004707	MAP kinase activity
@@ -749,7 +745,6 @@ http://purl.obolibrary.org/obo/GO_0044087	regulation of cellular component bioge
 http://purl.obolibrary.org/obo/GO_0051128	regulation of cellular component organization	http://purl.obolibrary.org/obo/GO_0016043	cellular component organization
 http://purl.obolibrary.org/obo/GO_0010185	regulation of cellular defense response	http://purl.obolibrary.org/obo/GO_0006968	cellular defense response
 http://purl.obolibrary.org/obo/GO_0002691	regulation of cellular extravasation	http://purl.obolibrary.org/obo/GO_0045123	cellular extravasation
-http://purl.obolibrary.org/obo/GO_2001029	regulation of cellular glucuronidation	http://purl.obolibrary.org/obo/GO_0052695	cellular glucuronidation
 http://purl.obolibrary.org/obo/GO_1900069	regulation of cellular hyperosmotic salinity response	http://purl.obolibrary.org/obo/GO_0071475	cellular hyperosmotic salinity response
 http://purl.obolibrary.org/obo/GO_0060341	regulation of cellular localization	http://purl.obolibrary.org/obo/GO_0051641	cellular localization
 http://purl.obolibrary.org/obo/GO_0032847	regulation of cellular pH reduction	http://purl.obolibrary.org/obo/GO_0051452	intracellular pH reduction
@@ -936,7 +931,6 @@ http://purl.obolibrary.org/obo/GO_2000957	regulation of cyclodextrin catabolic p
 http://purl.obolibrary.org/obo/GO_2000954	regulation of cyclodextrin metabolic process	http://purl.obolibrary.org/obo/GO_2000900	cyclodextrin metabolic process
 http://purl.obolibrary.org/obo/GO_1904041	regulation of cystathionine beta-synthase activity	http://purl.obolibrary.org/obo/GO_0004122	cystathionine beta-synthase activity
 http://purl.obolibrary.org/obo/GO_1901494	regulation of cysteine metabolic process	http://purl.obolibrary.org/obo/GO_0006534	cysteine metabolic process
-http://purl.obolibrary.org/obo/GO_2000116	regulation of cysteine-type endopeptidase activity	http://purl.obolibrary.org/obo/GO_0004197	cysteine-type endopeptidase activity
 http://purl.obolibrary.org/obo/GO_1904959	regulation of cytochrome-c oxidase activity	http://purl.obolibrary.org/obo/GO_0004129	cytochrome-c oxidase activity
 http://purl.obolibrary.org/obo/GO_0060300	regulation of cytokine activity	http://purl.obolibrary.org/obo/GO_0005125	cytokine activity
 http://purl.obolibrary.org/obo/GO_0001817	regulation of cytokine production	http://purl.obolibrary.org/obo/GO_0001816	cytokine production
@@ -3067,7 +3061,6 @@ http://purl.obolibrary.org/obo/GO_1905496	regulation of triplex DNA binding	http
 http://purl.obolibrary.org/obo/GO_1904073	regulation of trophectodermal cell proliferation	http://purl.obolibrary.org/obo/GO_0001834	trophectodermal cell proliferation
 http://purl.obolibrary.org/obo/GO_1901163	regulation of trophoblast cell migration	http://purl.obolibrary.org/obo/GO_0061450	trophoblast cell migration
 http://purl.obolibrary.org/obo/GO_1905722	regulation of trypanothione biosynthetic process	http://purl.obolibrary.org/obo/GO_0019342	trypanothione biosynthetic process
-http://purl.obolibrary.org/obo/GO_0090357	regulation of tryptophan metabolic process	http://purl.obolibrary.org/obo/GO_0006568	tryptophan metabolic process
 http://purl.obolibrary.org/obo/GO_1903132	regulation of tube lumen cavitation	http://purl.obolibrary.org/obo/GO_0060605	tube lumen cavitation
 http://purl.obolibrary.org/obo/GO_0150067	regulation of tubulin deacetylase activity	http://purl.obolibrary.org/obo/GO_0042903	tubulin deacetylase activity
 http://purl.obolibrary.org/obo/GO_0090043	regulation of tubulin deacetylation	http://purl.obolibrary.org/obo/GO_0090042	tubulin deacetylation
