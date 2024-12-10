@@ -1,43 +1,31 @@
-pattern_name: 'transmembrane_transport'
+pattern_name: transmembrane transport
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/transmembrane_transport.yaml
+
+description: This pattern is for representing transmembrane transport, differentiated by the type of cargo.
 
 classes:
-  transport: 'GO:0006810'
+  transmembrane transport: 'GO:0055085'
+  chemical entity: 'CHEBI:24431'
 
 relations: 
-  transports_or_maintains_localization_of: 'RO:0002313'
+  has primary input: 'RO:0004009'
 
-# Boilerplate - don't edit
-data_list_vars:
-  def_xrefs: "xsd:string"
-  cross_references: "xsd:string"
-  exact_syn: "xsd:string"
-  narrow_syn: "xsd:string"
-  broad_syn: "xsd:string"
-  related_syn: "xsd:string"
-  
+vars:
+  cargo: "'chemical entity'"
+
 name:
-     text: "%s transmembrane transport"
+  text: "%s transmembrane transport"
+  vars:
+    - 'cargo'
 
 def:
-  text: "The process in which a x is transported across a membrane."
-  xrefs: def_xrefs
+  text: "The process in which a %s is transported across a membrane."
+  vars:
+    - 'cargo'
 
-# Boilerplate - don't edit
-xref: 
-   value: cross_references
-   
 namespace: 
   text: 'biological_process'
   
 equivalentTo:
   text: "'transmembrane transport' and 'has primary input' some %s
-    
-# Boilerplate - don't edit
-exact_synonyms: 
-   value: exact_syn
-narrow_synonyms: 
-   value: narrow_syn
-broad_synonyms: 
-   value: broad_syn
-related_synonyms: 
-value: related_syn
