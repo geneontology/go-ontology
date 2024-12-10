@@ -1,0 +1,41 @@
+pattern_name: vesicle-mediated transport differentiated by cargo and start and end locations
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_cargo_and_start_and_end_locations.yaml
+
+description: This pattern is for representing transmembrane transport, differentiated by the type of cargo as well as the start and end locations.
+
+classes:
+  vesicle-mediated transport: 'GO:0016192'
+  cellular anatomical structure: 'GO:0110165'
+  chemical entity: 'CHEBI:24431'
+
+relations:
+  has primary input: 'RO:0004009'
+  has target start location: 'RO:0002338'
+  has target end location: 'RO:0002339'
+
+vars:
+  cargo: "'chemical entity'"
+  start location: "'cellular anatomical structure'"
+  end location: "'cellular anatomical structure'"
+
+name:
+  text: "%s vesicle-mediated transport from %s to %s"
+  vars:
+    - 'cargo'
+    - 'start location'
+    - 'end location'
+
+def:
+  text: "The vesicle-mediated and directed movement of %s from %s to %s."
+  vars:
+    - 'cargo'
+    - 'start location'
+    - 'end location'
+
+equivalentTo:
+  text: "'vesicle-mediated transport' and ('has primary input' some %s) and ('has target start location' some %s) and ('has target end location' some %s)"
+  vars:
+    - 'cargo'
+    - 'start location'
+    - 'end location'
