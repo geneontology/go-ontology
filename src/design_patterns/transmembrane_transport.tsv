@@ -1,0 +1,191 @@
+defined_class	defined_class_label	cargo	cargo_label
+http://purl.obolibrary.org/obo/GO_1902418	(+)-abscisic acid D-glucopyranosyl ester transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_62436	(+)-abscisic acid D-glucopyranosyl ester
+http://purl.obolibrary.org/obo/GO_1902270	(R)-carnitine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16347	(R)-carnitine
+http://purl.obolibrary.org/obo/GO_1902357	2-isopropylmalate(2-) transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_28107	2-isopropylmalate(2-)
+http://purl.obolibrary.org/obo/GO_0046411	2-keto-3-deoxygluconate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57990	2-dehydro-3-deoxy-D-gluconate
+http://purl.obolibrary.org/obo/GO_1902559	3'-phospho-5'-adenylyl sulfate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_58339	3'-phosphonato-5'-adenylyl sulfate(4-)
+http://purl.obolibrary.org/obo/GO_1902558	5'-adenylyl sulfate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_58243	5'-adenylyl sulfate(2-)
+http://purl.obolibrary.org/obo/GO_1903088	5-amino-1-ribofuranosylimidazole-4-carboxamide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_28498	acadesine
+http://purl.obolibrary.org/obo/GO_0015782	CMP-N-acetylneuraminate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57812	CMP-N-acetyl-beta-neuraminate(2-)
+http://purl.obolibrary.org/obo/GO_0042941	D-alanine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57416	D-alanine zwitterion
+http://purl.obolibrary.org/obo/GO_0015754	D-allose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_37690	allose
+http://purl.obolibrary.org/obo/GO_0070777	D-aspartate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_29990	D-aspartate(1-)
+http://purl.obolibrary.org/obo/GO_0042875	D-galactonate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_12931	D-galactonate
+http://purl.obolibrary.org/obo/GO_0042870	D-glucarate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_30612	D-glucarate(2-)
+http://purl.obolibrary.org/obo/GO_1904659	D-glucose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_4167	D-glucopyranose
+http://purl.obolibrary.org/obo/GO_0042874	D-glucuronate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_15748	D-glucuronate
+http://purl.obolibrary.org/obo/GO_0048473	D-methionine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57932	D-methionine zwitterion
+http://purl.obolibrary.org/obo/GO_0015752	D-ribose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16988	D-ribose
+http://purl.obolibrary.org/obo/GO_0042942	D-serine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_35247	D-serine zwitterion
+http://purl.obolibrary.org/obo/GO_0015753	D-xylose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_15936	aldehydo-D-xylose
+http://purl.obolibrary.org/obo/GO_0035350	FAD transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57692	FAD(3-)
+http://purl.obolibrary.org/obo/GO_0015783	GDP-fucose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_64608	GDP-fucose
+http://purl.obolibrary.org/obo/GO_1990570	GDP-mannose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_21168	GDP-mannose
+http://purl.obolibrary.org/obo/GO_1904557	L-alanine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57972	L-alanine zwitterion
+http://purl.obolibrary.org/obo/GO_1902475	L-alpha-amino acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_59869	L-alpha-amino acid zwitterion
+http://purl.obolibrary.org/obo/GO_0042882	L-arabinose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_30849	L-arabinose
+http://purl.obolibrary.org/obo/GO_0015882	L-ascorbic acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_38290	L-ascorbate
+http://purl.obolibrary.org/obo/GO_0070778	L-aspartate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_29991	L-aspartate(1-)
+http://purl.obolibrary.org/obo/GO_0089709	L-histidine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57595	L-histidine zwitterion
+http://purl.obolibrary.org/obo/GO_0015726	L-idonate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_17796	L-idonate
+http://purl.obolibrary.org/obo/GO_0140924	L-kynurenine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57959	L-kynurenine zwitterion
+http://purl.obolibrary.org/obo/GO_1903401	L-lysine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_32551	L-lysinium(1+)
+http://purl.obolibrary.org/obo/GO_1903352	L-ornithine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_46911	L-ornithinium(1+)
+http://purl.obolibrary.org/obo/GO_1904555	L-proline transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_60039	L-proline zwitterion
+http://purl.obolibrary.org/obo/GO_1904556	L-tryptophan transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57912	L-tryptophan zwitterion
+http://purl.obolibrary.org/obo/GO_1903785	L-valine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57762	L-valine zwitterion
+http://purl.obolibrary.org/obo/GO_0035352	NAD transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_13389	NAD
+http://purl.obolibrary.org/obo/GO_1902616	O-acyl-L-carnitine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_75659	O-acyl-L-carnitine
+http://purl.obolibrary.org/obo/GO_1901962	S-adenosyl-L-methionine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_59789	S-adenosyl-L-methionine zwitterion
+http://purl.obolibrary.org/obo/GO_0015789	UDP-N-acetylgalactosamine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57847	UDP-N-acetyl-D-galactosamine(2-)
+http://purl.obolibrary.org/obo/GO_1990569	UDP-N-acetylglucosamine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57705	UDP-N-acetyl-alpha-D-glucosamine(2-)
+http://purl.obolibrary.org/obo/GO_0072334	UDP-galactose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_58439	UDP-D-galactose(2-)
+http://purl.obolibrary.org/obo/GO_0015786	UDP-glucose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_58367	UDP-D-glucose(2-)
+http://purl.obolibrary.org/obo/GO_0015787	UDP-glucuronate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_58052	UDP-alpha-D-glucuronate(3-)
+http://purl.obolibrary.org/obo/GO_0015790	UDP-xylose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57632	UDP-alpha-D-xylose(2-)
+http://purl.obolibrary.org/obo/GO_0035433	acetate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_30089	acetate
+http://purl.obolibrary.org/obo/GO_0035348	acetyl-CoA transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57288	acetyl-CoA(4-)
+http://purl.obolibrary.org/obo/GO_0071106	adenosine 3',5'-bisphosphate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_37240	adenosine 3',5'-bisphosphate
+http://purl.obolibrary.org/obo/GO_0042869	aldarate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_22289	aldaric acid anion
+http://purl.obolibrary.org/obo/GO_0042873	aldonate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_22299	aldonate
+http://purl.obolibrary.org/obo/GO_0042918	alkanesulfonate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_134249	alkanesulfonate oxoanion
+http://purl.obolibrary.org/obo/GO_1902602	aluminum ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_60272	aluminium ion
+http://purl.obolibrary.org/obo/GO_0003333	amino acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_35238	amino acid zwitterion
+http://purl.obolibrary.org/obo/GO_0072488	ammonium transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_28938	ammonium
+http://purl.obolibrary.org/obo/GO_0015699	antimonite transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_49870	antimonous acid
+http://purl.obolibrary.org/obo/GO_0042899	arabinan transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_22590	arabinan
+http://purl.obolibrary.org/obo/GO_0015792	arabinitol transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_22605	arabinitol
+http://purl.obolibrary.org/obo/GO_0015751	arabinose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_22599	arabinose
+http://purl.obolibrary.org/obo/GO_1901684	arsenate ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_48597	arsenate(2-)
+http://purl.obolibrary.org/obo/GO_1903713	asparagine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_22653	asparagine
+http://purl.obolibrary.org/obo/GO_1905887	autoinducer AI-2 transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_44800	(2R,4S)-2-methyltetrahydrofuran-2,3,3,4-tetrol
+http://purl.obolibrary.org/obo/GO_0045117	azole transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_68452	azole
+http://purl.obolibrary.org/obo/GO_0015905	bicyclomycin transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_60584	bicozamycin
+http://purl.obolibrary.org/obo/GO_0035445	borate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_33118	boric acid
+http://purl.obolibrary.org/obo/GO_0070574	cadmium ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_48775	cadmium(2+)
+http://purl.obolibrary.org/obo/GO_0070588	calcium ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_29108	calcium(2+)
+http://purl.obolibrary.org/obo/GO_0034219	carbohydrate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16646	carbohydrate
+http://purl.obolibrary.org/obo/GO_0035378	carbon dioxide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16526	carbon dioxide
+http://purl.obolibrary.org/obo/GO_1905039	carboxylic acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_29067	carboxylic acid anion
+http://purl.obolibrary.org/obo/GO_1902603	carnitine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_17126	carnitine
+http://purl.obolibrary.org/obo/GO_0042892	chloramphenicol transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_17698	chloramphenicol
+http://purl.obolibrary.org/obo/GO_1902476	chloride transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_17996	chloride
+http://purl.obolibrary.org/obo/GO_0035349	coenzyme A transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57287	coenzyme A(4-)
+http://purl.obolibrary.org/obo/GO_0035434	copper ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_23378	copper cation
+http://purl.obolibrary.org/obo/GO_0015881	creatine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57947	creatine zwitterion
+http://purl.obolibrary.org/obo/GO_1903712	cysteine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_35237	cysteine zwitterion
+http://purl.obolibrary.org/obo/GO_0035442	dipeptide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_46761	dipeptide
+http://purl.obolibrary.org/obo/GO_0051470	ectoine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_58515	ectoine zwitterion
+http://purl.obolibrary.org/obo/GO_1902001	fatty acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_28868	fatty acid anion
+http://purl.obolibrary.org/obo/GO_1903424	fluoride transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_17051	fluoride
+http://purl.obolibrary.org/obo/GO_0098838	folate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_62501	folate(2-)
+http://purl.obolibrary.org/obo/GO_0015755	fructose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_28757	fructose
+http://purl.obolibrary.org/obo/GO_0015756	fucose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_33984	fucose
+http://purl.obolibrary.org/obo/GO_1902300	galactarate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_48871	galactaric acid anion
+http://purl.obolibrary.org/obo/GO_0015796	galactitol transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16813	galactitol
+http://purl.obolibrary.org/obo/GO_0015757	galactose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_28260	galactose
+http://purl.obolibrary.org/obo/GO_0015737	galacturonate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_24175	galacturonate
+http://purl.obolibrary.org/obo/GO_1905200	gibberellic acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_86644	Gibberellic acid
+http://purl.obolibrary.org/obo/GO_0035429	gluconate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_24265	gluconate
+http://purl.obolibrary.org/obo/GO_0051475	glucosylglycerol transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_24287	glucosylglycerol
+http://purl.obolibrary.org/obo/GO_0015738	glucuronate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_24297	glucuronate
+http://purl.obolibrary.org/obo/GO_0034775	glutathione transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57925	glutathionate(1-)
+http://purl.obolibrary.org/obo/GO_1901975	glycerate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_33871	glycerate
+http://purl.obolibrary.org/obo/GO_0015793	glycerol transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_17754	glycerol
+http://purl.obolibrary.org/obo/GO_0070811	glycerol-2-phosphate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_58083	glycerol 2-phosphate(2-)
+http://purl.obolibrary.org/obo/GO_0015794	glycerol-3-phosphate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57597	sn-glycerol 3-phosphate(2-)
+http://purl.obolibrary.org/obo/GO_0001407	glycerophosphodiester transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_77847	glycerol 1-phosphodiester(1-)
+http://purl.obolibrary.org/obo/GO_0097339	glycolate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_29805	glycolate
+http://purl.obolibrary.org/obo/GO_1903790	guanine nucleotide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_61292	guanyl nucleotide
+http://purl.obolibrary.org/obo/GO_1903716	guanine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16235	guanine
+http://purl.obolibrary.org/obo/GO_0035351	heme transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_30413	heme
+http://purl.obolibrary.org/obo/GO_0008645	hexose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_18133	hexose
+http://purl.obolibrary.org/obo/GO_0015736	hexuronate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_24591	hexuronate
+http://purl.obolibrary.org/obo/GO_0080170	hydrogen peroxide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16240	hydrogen peroxide
+http://purl.obolibrary.org/obo/GO_0033308	hydroxyectoine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_85413	5-hydroxyectoine zwitterion
+http://purl.obolibrary.org/obo/GO_0098661	inorganic anion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_24834	inorganic anion
+http://purl.obolibrary.org/obo/GO_0098662	inorganic cation transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_36915	inorganic cation
+http://purl.obolibrary.org/obo/GO_0098660	inorganic ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_36914	inorganic ion
+http://purl.obolibrary.org/obo/GO_1904200	iodide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16382	iodide
+http://purl.obolibrary.org/obo/GO_1902497	iron-sulfur cluster transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_30408	iron-sulfur cluster
+http://purl.obolibrary.org/obo/GO_1903714	isoleucine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_24898	isoleucine
+http://purl.obolibrary.org/obo/GO_0035873	lactate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_24996	lactate
+http://purl.obolibrary.org/obo/GO_0090452	lithium ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_49713	lithium(1+)
+http://purl.obolibrary.org/obo/GO_1903830	magnesium ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_18420	magnesium(2+)
+http://purl.obolibrary.org/obo/GO_0071423	malate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_15595	malate(2-)
+http://purl.obolibrary.org/obo/GO_1901553	malonic acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_15792	malonate(2-)
+http://purl.obolibrary.org/obo/GO_1904981	maltose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_17306	maltose
+http://purl.obolibrary.org/obo/GO_0071421	manganese ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_29035	manganese(2+)
+http://purl.obolibrary.org/obo/GO_0015797	mannitol transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_29864	mannitol
+http://purl.obolibrary.org/obo/GO_0015761	mannose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_37684	mannose
+http://purl.obolibrary.org/obo/GO_0072489	methylammonium transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_59338	methylammonium
+http://purl.obolibrary.org/obo/GO_0098656	monoatomic anion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_23905	monoatomic anion
+http://purl.obolibrary.org/obo/GO_0098655	monoatomic cation transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_23906	monoatomic cation
+http://purl.obolibrary.org/obo/GO_0034220	monoatomic ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_24867	monoatomic ion
+http://purl.obolibrary.org/obo/GO_0015749	monosaccharide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_35381	monosaccharide
+http://purl.obolibrary.org/obo/GO_0035444	nickel cation transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_25516	nickel cation
+http://purl.obolibrary.org/obo/GO_0035353	nicotinamide mononucleotide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_50383	nicotinamide mononucleotide
+http://purl.obolibrary.org/obo/GO_0015706	nitrate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_17632	nitrate
+http://purl.obolibrary.org/obo/GO_1901642	nucleoside transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_33838	nucleoside
+http://purl.obolibrary.org/obo/GO_1901679	nucleotide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_36976	nucleotide
+http://purl.obolibrary.org/obo/GO_0015780	nucleotide-sugar transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_25609	nucleotide-sugar
+http://purl.obolibrary.org/obo/GO_0035672	oligopeptide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_25676	oligopeptide
+http://purl.obolibrary.org/obo/GO_1903825	organic acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_64709	organic acid
+http://purl.obolibrary.org/obo/GO_1902356	oxaloacetate(2-) transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16452	oxaloacetate(2-)
+http://purl.obolibrary.org/obo/GO_1902604	p-aminobenzoyl-glutamate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_60903	N-(4-aminobenzoyl)-L-glutamate
+http://purl.obolibrary.org/obo/GO_0015887	pantothenate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16454	pantothenate
+http://purl.obolibrary.org/obo/GO_0015750	pentose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_25901	pentose
+http://purl.obolibrary.org/obo/GO_0035435	phosphate ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_43474	hydrogenphosphate
+http://purl.obolibrary.org/obo/GO_0089722	phosphoenolpyruvate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_58702	phosphonatoenolpyruvate
+http://purl.obolibrary.org/obo/GO_0015713	phosphoglycerate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_61304	phosphoglycerate
+http://purl.obolibrary.org/obo/GO_0071994	phytochelatin transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_131728	[Glu(-Cys)]n-Gly(1-)
+http://purl.obolibrary.org/obo/GO_1902047	polyamine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_51349	polyamine macromolecule
+http://purl.obolibrary.org/obo/GO_0015791	polyol transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_26191	polyol
+http://purl.obolibrary.org/obo/GO_0071805	potassium ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_29103	potassium(1+)
+http://purl.obolibrary.org/obo/GO_0035524	proline transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_26271	proline
+http://purl.obolibrary.org/obo/GO_0015730	propanoate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_17272	propionate
+http://purl.obolibrary.org/obo/GO_0071806	protein transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_36080	protein
+http://purl.obolibrary.org/obo/GO_1902600	proton transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_15378	hydron
+http://purl.obolibrary.org/obo/GO_1904823	purine nucleobase transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_26386	purine nucleobase
+http://purl.obolibrary.org/obo/GO_0015860	purine nucleoside transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_26394	purine nucleoside
+http://purl.obolibrary.org/obo/GO_0090480	purine nucleotide-sugar transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_64711	purine nucleotide-sugar
+http://purl.obolibrary.org/obo/GO_0072530	purine-containing compound transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_26401	purines
+http://purl.obolibrary.org/obo/GO_1903090	pyridoxal transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_17310	pyridoxal
+http://purl.obolibrary.org/obo/GO_1903091	pyridoxamine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57761	pyridoxaminium(1+)
+http://purl.obolibrary.org/obo/GO_1903092	pyridoxine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16709	pyridoxine
+http://purl.obolibrary.org/obo/GO_1904082	pyrimidine nucleobase transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_26432	pyrimidine nucleobase
+http://purl.obolibrary.org/obo/GO_0090481	pyrimidine nucleotide-sugar transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_61109	pyrimidine nucleotide-sugar
+http://purl.obolibrary.org/obo/GO_0072531	pyrimidine-containing compound transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_39447	pyrimidines
+http://purl.obolibrary.org/obo/GO_1901475	pyruvate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_15361	pyruvate
+http://purl.obolibrary.org/obo/GO_1903222	quinolinic acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_29959	quinolinate(2-)
+http://purl.obolibrary.org/obo/GO_0015762	rhamnose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_26546	rhamnose
+http://purl.obolibrary.org/obo/GO_0015733	shikimate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_36208	shikimate
+http://purl.obolibrary.org/obo/GO_0015913	short-chain fatty acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_58951	short-chain fatty acid anion
+http://purl.obolibrary.org/obo/GO_0044718	siderophore transmembrane transport	http://purl.obolibrary.org/obo/GOCHE_26672	substance with siderophore role
+http://purl.obolibrary.org/obo/GO_1902601	silver ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_49468	silver(1+)
+http://purl.obolibrary.org/obo/GO_0035725	sodium ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_29101	sodium(1+)
+http://purl.obolibrary.org/obo/GO_0015795	sorbitol transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_30911	glucitol
+http://purl.obolibrary.org/obo/GO_1903711	spermidine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57834	spermidine(3+)
+http://purl.obolibrary.org/obo/GO_1903710	spermine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_45725	spermine(4+)
+http://purl.obolibrary.org/obo/GO_0035382	sterol transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_15889	sterol
+http://purl.obolibrary.org/obo/GO_0071422	succinate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_30031	succinate(2-)
+http://purl.obolibrary.org/obo/GO_1904982	sucrose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_17992	sucrose
+http://purl.obolibrary.org/obo/GO_1902358	sulfate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16189	sulfate
+http://purl.obolibrary.org/obo/GO_1902599	sulfathiazole transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_9337	sulfathiazole
+http://purl.obolibrary.org/obo/GO_0000316	sulfite transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_17359	sulfite
+http://purl.obolibrary.org/obo/GO_0015745	tartrate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_35397	tartrate(1-)
+http://purl.obolibrary.org/obo/GO_0015734	taurine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_507393	taurine zwitterion
+http://purl.obolibrary.org/obo/GO_0015904	tetracycline transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_77932	tetracycline zwitterion
+http://purl.obolibrary.org/obo/GO_0030974	thiamine pyrophosphate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_58937	thiamine(1+) diphosphate(3-)
+http://purl.obolibrary.org/obo/GO_0071934	thiamine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_26948	vitamin B1
+http://purl.obolibrary.org/obo/GO_0035674	tricarboxylic acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_27093	tricarboxylic acid
+http://purl.obolibrary.org/obo/GO_0035436	triose phosphate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_58027	glyceraldehyde 3-phosphate(2-)
+http://purl.obolibrary.org/obo/GO_0035443	tripeptide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_47923	tripeptide
+http://purl.obolibrary.org/obo/GO_1903791	uracil transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_17568	uracil
+http://purl.obolibrary.org/obo/GO_0071918	urea transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16199	urea
+http://purl.obolibrary.org/obo/GO_0015862	uridine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16704	uridine
+http://purl.obolibrary.org/obo/GO_0015735	uronic acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_33549	uronate
+http://purl.obolibrary.org/obo/GO_0035461	vitamin transmembrane transport	http://purl.obolibrary.org/obo/GOCHE_33229	substance with vitamin (role) role
+http://purl.obolibrary.org/obo/GO_0006855	xenobiotic transmembrane transport	http://purl.obolibrary.org/obo/GOCHE_23888	substance with drug role
+http://purl.obolibrary.org/obo/GO_1902341	xylitol transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_17151	xylitol
+http://purl.obolibrary.org/obo/GO_0071577	zinc ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_29105	zinc(2+)
