@@ -28,4 +28,6 @@ namespace:
   text: 'biological_process'
   
 equivalentTo:
-  text: "'transmembrane transport' and 'has primary input' some %s
+  text: "'transmembrane transport' and ('has primary input' some %s)"
+  vars:
+    - 'cargo'
