@@ -5279,7 +5279,7 @@
 <http://purl.obolibrary.org/obo/GO_0006885> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_of_characteristic.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0006893> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml> .
+<http://purl.obolibrary.org/obo/GO_0006893> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_start_and_end_locations.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0006904> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
@@ -5856,7 +5856,7 @@
 <http://purl.obolibrary.org/obo/GO_0008328> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0008333> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml> .
+<http://purl.obolibrary.org/obo/GO_0008333> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_start_and_end_locations.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0008348> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -15390,7 +15390,7 @@
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0032456> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml> .
+<http://purl.obolibrary.org/obo/GO_0032456> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_start_and_end_locations.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0032459> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
@@ -22283,7 +22283,7 @@
 <http://purl.obolibrary.org/obo/GO_0045323> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0045324> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml> .
+<http://purl.obolibrary.org/obo/GO_0045324> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_start_and_end_locations.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0045329> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
@@ -25425,7 +25425,7 @@
 <http://purl.obolibrary.org/obo/GO_0048216> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0048227> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml> .
+<http://purl.obolibrary.org/obo/GO_0048227> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_start_and_end_locations.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0048237> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
@@ -33450,7 +33450,7 @@
 <http://purl.obolibrary.org/obo/GO_0071950> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0071955> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml> .
+<http://purl.obolibrary.org/obo/GO_0071955> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_start_and_end_locations.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0071971> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml> .
@@ -36776,7 +36776,7 @@
 <http://purl.obolibrary.org/obo/GO_0098922> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0098927> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml> .
+<http://purl.obolibrary.org/obo/GO_0098927> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_start_and_end_locations.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0098938> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
@@ -36842,10 +36842,10 @@
 <http://purl.obolibrary.org/obo/GO_0099052> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0099074> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml> .
+<http://purl.obolibrary.org/obo/GO_0099074> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_start_and_end_locations.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0099076> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml> .
+<http://purl.obolibrary.org/obo/GO_0099076> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_start_and_end_locations.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0099091> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .

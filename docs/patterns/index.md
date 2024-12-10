@@ -53,5 +53,6 @@
 | [transmembrane import into cytosol](transmembrane_import_into_cytosol.md) | TODO |
 | [transmembrane transport](transmembrane_transport.md) | This pattern is for representing transmembrane transport, differentiated by the type of cargo. |
 | [transport of a cellular component](cc_transport.md) | Transport of a cellular component, differentiated by the component being transported. |
-| [vesicle-mediated transport differentiated by cargo](vesicle_mediated_transport_differentiated_by_cargo.md) | TODO |
-| [vesicle-mediated transport differentiated by start and end locations](vesicle_mediated_transport_differentiated_by_start_and_end_locations.md) | TODO |
+| [vesicle-mediated transport differentiated by cargo](vesicle_mediated_transport_differentiated_by_cargo.md) | This pattern is for representing vesicle-mediated transport, differentiated by the type of cargo. |
+| [vesicle-mediated transport differentiated by cargo and start and end locations](vesicle_mediated_transport_differentiated_by_cargo_and_start_and_end_locations.md) | This pattern is for representing transmembrane transport, differentiated by the type of cargo as well as the start and end locations. |
+| [vesicle-mediated transport differentiated by start and end locations](vesicle_mediated_transport_differentiated_by_start_and_end_locations.md) | This pattern is for representing vesicle-mediated transport, differentiated by the start and end locations. |
