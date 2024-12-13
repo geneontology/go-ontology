@@ -6,25 +6,25 @@ description: This pattern is for representing vesicle-mediated transport, differ
 
 classes:
   vesicle-mediated transport: "GO:0016192"
-  cellular anatomical structure: 'GO:0110165'
+  chemical entity: 'CHEBI:24431'
 
 relations:
   has primary input: 'RO:0004009'
 
 vars:
-  target: "'cellular anatomical structure'"
+  cargo: "'chemical entity'"
 
 name:
   text: "%s vesicle-mediated transport"
   vars:
-    -  target
+    -  cargo
 
 def:
   text: "The directed movement of %s into, out of or within a cell, or between cells, mediated by small transport vesicles."
   vars:
-     -  target
+     -  cargo
 
 equivalentTo:
   text: "'vesicle-mediated transport' and ('has primary input' some %s)"
   vars:
-    -  target
+    -  cargo
