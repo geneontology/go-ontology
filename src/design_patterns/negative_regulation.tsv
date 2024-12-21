@@ -468,6 +468,7 @@ http://purl.obolibrary.org/obo/GO_2000261	negative regulation of blood coagulati
 http://purl.obolibrary.org/obo/GO_2000264	negative regulation of blood coagulation, extrinsic pathway	http://purl.obolibrary.org/obo/GO_0007598	blood coagulation, extrinsic pathway
 http://purl.obolibrary.org/obo/GO_2000267	negative regulation of blood coagulation, intrinsic pathway	http://purl.obolibrary.org/obo/GO_0007597	blood coagulation, intrinsic pathway
 http://purl.obolibrary.org/obo/GO_2000333	negative regulation of blood microparticle formation	http://purl.obolibrary.org/obo/GO_0072564	blood microparticle formation
+http://purl.obolibrary.org/obo/GO_1905554	negative regulation of blood vessel branching	http://purl.obolibrary.org/obo/GO_0001569	branching involved in blood vessel morphogenesis
 http://purl.obolibrary.org/obo/GO_0110059	negative regulation of blood vessel endothelial cell differentiation	http://purl.obolibrary.org/obo/GO_0060837	blood vessel endothelial cell differentiation
 http://purl.obolibrary.org/obo/GO_0043537	negative regulation of blood vessel endothelial cell migration	http://purl.obolibrary.org/obo/GO_0043534	blood vessel endothelial cell migration
 http://purl.obolibrary.org/obo/GO_1903588	negative regulation of blood vessel endothelial cell proliferation involved in sprouting angiogenesis	http://purl.obolibrary.org/obo/GO_0002043	blood vessel endothelial cell proliferation involved in sprouting angiogenesis
@@ -2687,7 +2688,6 @@ http://purl.obolibrary.org/obo/GO_0106021	negative regulation of vesicle docking
 http://purl.obolibrary.org/obo/GO_0031339	negative regulation of vesicle fusion	http://purl.obolibrary.org/obo/GO_0006906	vesicle fusion
 http://purl.obolibrary.org/obo/GO_0106215	negative regulation of vesicle fusion with Golgi apparatus	http://purl.obolibrary.org/obo/GO_0048280	vesicle fusion with Golgi apparatus
 http://purl.obolibrary.org/obo/GO_1901609	negative regulation of vesicle transport along microtubule	http://purl.obolibrary.org/obo/GO_0047496	vesicle transport along microtubule
-http://purl.obolibrary.org/obo/GO_1905554	negative regulation of vessel branching	http://purl.obolibrary.org/obo/GO_0001569	branching involved in blood vessel morphogenesis
 http://purl.obolibrary.org/obo/GO_1900714	negative regulation of violaceol I biosynthetic process	http://purl.obolibrary.org/obo/GO_1900590	violaceol I biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900717	negative regulation of violaceol II biosynthetic process	http://purl.obolibrary.org/obo/GO_1900593	violaceol II biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903773	negative regulation of viral budding via host ESCRT complex	http://purl.obolibrary.org/obo/GO_0039702	viral budding via host ESCRT complex
