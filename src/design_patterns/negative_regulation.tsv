@@ -168,7 +168,6 @@ http://purl.obolibrary.org/obo/GO_0046829	negative regulation of RNA import into
 http://purl.obolibrary.org/obo/GO_0051253	negative regulation of RNA metabolic process	http://purl.obolibrary.org/obo/GO_0016070	RNA metabolic process
 http://purl.obolibrary.org/obo/GO_1903026	negative regulation of RNA polymerase II regulatory region sequence-specific DNA binding	http://purl.obolibrary.org/obo/GO_0000977	RNA polymerase II transcription regulatory region sequence-specific DNA binding
 http://purl.obolibrary.org/obo/GO_0017055	negative regulation of RNA polymerase II transcription preinitiation complex assembly	http://purl.obolibrary.org/obo/GO_0051123	RNA polymerase II preinitiation complex assembly
-http://purl.obolibrary.org/obo/GO_1903623	negative regulation of RNA polymerase III activity	http://purl.obolibrary.org/obo/GO_0001056	RNA polymerase III activity
 http://purl.obolibrary.org/obo/GO_0033119	negative regulation of RNA splicing	http://purl.obolibrary.org/obo/GO_0008380	RNA splicing
 http://purl.obolibrary.org/obo/GO_1900260	negative regulation of RNA-dependent RNA polymerase activity	http://purl.obolibrary.org/obo/GO_0003968	RNA-dependent RNA polymerase activity
 http://purl.obolibrary.org/obo/GO_0035021	negative regulation of Rac protein signal transduction	http://purl.obolibrary.org/obo/GO_0016601	Rac protein signal transduction
@@ -468,6 +467,7 @@ http://purl.obolibrary.org/obo/GO_2000261	negative regulation of blood coagulati
 http://purl.obolibrary.org/obo/GO_2000264	negative regulation of blood coagulation, extrinsic pathway	http://purl.obolibrary.org/obo/GO_0007598	blood coagulation, extrinsic pathway
 http://purl.obolibrary.org/obo/GO_2000267	negative regulation of blood coagulation, intrinsic pathway	http://purl.obolibrary.org/obo/GO_0007597	blood coagulation, intrinsic pathway
 http://purl.obolibrary.org/obo/GO_2000333	negative regulation of blood microparticle formation	http://purl.obolibrary.org/obo/GO_0072564	blood microparticle formation
+http://purl.obolibrary.org/obo/GO_1905554	negative regulation of blood vessel branching	http://purl.obolibrary.org/obo/GO_0001569	branching involved in blood vessel morphogenesis
 http://purl.obolibrary.org/obo/GO_0110059	negative regulation of blood vessel endothelial cell differentiation	http://purl.obolibrary.org/obo/GO_0060837	blood vessel endothelial cell differentiation
 http://purl.obolibrary.org/obo/GO_0043537	negative regulation of blood vessel endothelial cell migration	http://purl.obolibrary.org/obo/GO_0043534	blood vessel endothelial cell migration
 http://purl.obolibrary.org/obo/GO_1903588	negative regulation of blood vessel endothelial cell proliferation involved in sprouting angiogenesis	http://purl.obolibrary.org/obo/GO_0002043	blood vessel endothelial cell proliferation involved in sprouting angiogenesis
@@ -2687,7 +2687,6 @@ http://purl.obolibrary.org/obo/GO_0106021	negative regulation of vesicle docking
 http://purl.obolibrary.org/obo/GO_0031339	negative regulation of vesicle fusion	http://purl.obolibrary.org/obo/GO_0006906	vesicle fusion
 http://purl.obolibrary.org/obo/GO_0106215	negative regulation of vesicle fusion with Golgi apparatus	http://purl.obolibrary.org/obo/GO_0048280	vesicle fusion with Golgi apparatus
 http://purl.obolibrary.org/obo/GO_1901609	negative regulation of vesicle transport along microtubule	http://purl.obolibrary.org/obo/GO_0047496	vesicle transport along microtubule
-http://purl.obolibrary.org/obo/GO_1905554	negative regulation of vessel branching	http://purl.obolibrary.org/obo/GO_0001569	branching involved in blood vessel morphogenesis
 http://purl.obolibrary.org/obo/GO_1900714	negative regulation of violaceol I biosynthetic process	http://purl.obolibrary.org/obo/GO_1900590	violaceol I biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900717	negative regulation of violaceol II biosynthetic process	http://purl.obolibrary.org/obo/GO_1900593	violaceol II biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903773	negative regulation of viral budding via host ESCRT complex	http://purl.obolibrary.org/obo/GO_0039702	viral budding via host ESCRT complex
