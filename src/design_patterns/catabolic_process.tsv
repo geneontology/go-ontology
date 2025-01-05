@@ -83,7 +83,6 @@ http://purl.obolibrary.org/obo/GO_0019447	D-cysteine catabolic process	http://pu
 http://purl.obolibrary.org/obo/GO_0034194	D-galactonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_12931	D-galactonate
 http://purl.obolibrary.org/obo/GO_0019698	D-galacturonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_12952	aldehydo-D-galacturonate
 http://purl.obolibrary.org/obo/GO_0042838	D-glucarate catabolic process	http://purl.obolibrary.org/obo/CHEBI_30612	D-glucarate(2-)
-http://purl.obolibrary.org/obo/GO_0046177	D-gluconate catabolic process	http://purl.obolibrary.org/obo/CHEBI_18391	D-gluconate
 http://purl.obolibrary.org/obo/GO_0042840	D-glucuronate catabolic process	http://purl.obolibrary.org/obo/CHEBI_15748	D-glucuronate
 http://purl.obolibrary.org/obo/GO_1900832	D-leucine catabolic process	http://purl.obolibrary.org/obo/CHEBI_143079	D-leucine zwitterion
 http://purl.obolibrary.org/obo/GO_0019476	D-lysine catabolic process	http://purl.obolibrary.org/obo/CHEBI_32557	D-lysinium(1+)
@@ -660,7 +659,6 @@ http://purl.obolibrary.org/obo/GO_0009313	oligosaccharide catabolic process	http
 http://purl.obolibrary.org/obo/GO_0046153	ommochrome catabolic process	http://purl.obolibrary.org/obo/CHEBI_25692	ommochrome
 http://purl.obolibrary.org/obo/GO_0042209	orcinol catabolic process	http://purl.obolibrary.org/obo/CHEBI_16536	orcinol
 http://purl.obolibrary.org/obo/GO_0016054	organic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_64709	organic acid
-http://purl.obolibrary.org/obo/GO_1901377	organic heteropentacyclic compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_38164	organic heteropentacyclic compound
 http://purl.obolibrary.org/obo/GO_0019700	organic phosphonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_16215	phosphonate(2-)
 http://purl.obolibrary.org/obo/GO_0046434	organophosphate catabolic process	http://purl.obolibrary.org/obo/CHEBI_25710	organophosphorus compound
 http://purl.obolibrary.org/obo/GO_0046455	organosilicon catabolic process	http://purl.obolibrary.org/obo/CHEBI_25713	organosilicon compound
@@ -887,7 +885,6 @@ http://purl.obolibrary.org/obo/GO_0046207	trypanothione catabolic process	http:/
 http://purl.obolibrary.org/obo/GO_1901903	tyrocidine catabolic process	http://purl.obolibrary.org/obo/CHEBI_71947	tyrocidine
 http://purl.obolibrary.org/obo/GO_0006572	tyrosine catabolic process	http://purl.obolibrary.org/obo/CHEBI_58315	L-tyrosine zwitterion
 http://purl.obolibrary.org/obo/GO_0032322	ubiquinone catabolic process	http://purl.obolibrary.org/obo/CHEBI_16389	ubiquinones
-http://purl.obolibrary.org/obo/GO_1901005	ubiquinone-6 catabolic process	http://purl.obolibrary.org/obo/CHEBI_52971	ubiquinone-6
 http://purl.obolibrary.org/obo/GO_0006212	uracil catabolic process	http://purl.obolibrary.org/obo/CHEBI_17568	uracil
 http://purl.obolibrary.org/obo/GO_0019628	urate catabolic process	http://purl.obolibrary.org/obo/CHEBI_17775	7,9-dihydro-1H-purine-2,6,8(3H)-trione
 http://purl.obolibrary.org/obo/GO_0043419	urea catabolic process	http://purl.obolibrary.org/obo/CHEBI_16199	urea
