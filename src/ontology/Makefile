@@ -216,11 +216,10 @@ $(GO_PLUS).owl: reasoned.owl imports/go-computed-taxon-constraints.owl
 	$(ROBOT) unmerge -i $< -i imports/go_taxon_constraints.owl merge --collapse-import-closure true --include-annotations false merge -i imports/go-computed-taxon-constraints.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: $(GO_PLUS).owl
 
-# Create release file containing GO-asserted axioms, no external axioms, and no inferences.
-# GO artifacts to merge are hardcoded here. Would make sense to eventually consolidate go-plus
-# as just the merge of go-base.
-go-base.owl: enhanced.owl
-	$(ROBOT) remove -i $< --select imports --trim false merge -i extensions/go-gci.owl -i extensions/go-bridge.owl -i extensions/ro_pending.owl -i imports/x-disjoint.ofn annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+# Create release file containing GO-asserted axioms, no external axioms.
+# GO artifacts to merge are hardcoded here.
+go-base.owl: $(GO_PLUS).owl
+	$(ROBOT) remove -i $< --select imports --trim false remove --base-iri 'http://purl.obolibrary.org/obo/GO_' --base-iri 'http://purl.obolibrary.org/obo/GOREL_' --base-iri 'http://purl.obolibrary.org/obo/GOCHE_' --base-iri 'http://purl.obolibrary.org/obo/NCBITaxon_Union_' --axioms external --preserve-structure false --trim false merge -i extensions/go-gci.owl -i extensions/go-bridge.owl -i extensions/ro_pending.owl -i imports/x-disjoint.ofn annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 $(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).owl extensions/gorel.owl mirror/cl.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
@@ -404,10 +403,6 @@ imports/go-computed-taxon-constraints.obo: imports/go-computed-taxon-constraints
 imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
 
-#bio-chebi-merged.owl: bio-chebi.owl
-#	$(OWLTOOLS) $(USECAT) $< --merge-imports-closure -o $@
-#imports/chebi_import.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
-#	$(ROBOT) extract -i $< -T imports/chebi_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
 CHEBIRELS = RO:0004007 RO:0004009 RO:0004008 RO:0000057 RO:0002233 RO:0002234 RO:0002313 RO:0002233 RO:0002332 RO:0002340  RO:0002345 BFO:0000051 RO:0000087 GOCHEREL:0000000 GOCHEREL:0000001 GOCHEREL:0000002  GOCHEREL:0000003 GOCHEREL:0000004
 
 #robot doesn't appear to work for making modules with GCIs; hence this contorted mechanism
