@@ -1,4 +1,5 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:0005615	extracellular space	NCBITaxon:4890	Ascomycota	
 GO:0004705	JUN kinase activity	NCBITaxon:4751	Fungi	
 GO:0008545	JUN kinase kinase activity	NCBITaxon:4751	Fungi	
 GO:0004706	JUN kinase kinase kinase	NCBITaxon:4751	Fungi	
@@ -7,7 +8,7 @@ GO:0004161	dimethylallyltranstransferase activity	NCBITaxon:4896	Schizosaccharom
 GO:0033384	geranyl diphosphate biosynthetic process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0031254	cell trailing edge	NCBITaxon:4751	Fungi	
 GO:0031252	cell leading edge	NCBITaxon:4751	Fungi	
-GO:0050321	tau-protein kinase activity	NCBITaxon:2759	Eukaryota	
+GO:0050321	tau-protein kinase activity	NCBITaxon:2759	Fungi	
 GO:0031910	cytostome	NCBITaxon:4751	Fungi	
 GO:0004131	cytosine deaminase activity	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0009089	lysine biosynthetic process via diaminopimelate	NCBITaxon:4896	Schizosaccharomyces pombe	
