@@ -8,9 +8,6 @@ GO:0009094	L-phenylalanine biosynthetic process	NCBITaxon:9606	Homo sapiens
 GO:0009088	threonine biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0000162	L-tryptophan biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0009099	L-valine biosynthetic process	NCBITaxon:9606	Homo sapiens	
-GO:0001058	RNA polymerase V activity	NCBITaxon:33090	Viridiplantae	
-GO:0001066	plastid single subunit type RNA polymerase activity	NCBITaxon:33090	Viridiplantae	
-GO:0001057	RNA polymerase IV activity	NCBITaxon:33090	Viridiplantae	
 GO:0001772	immunological synapse	NCBITaxon:7742	Vertebrata	
 GO:0031911	cytoproct	NCBITaxon:5878	Ciliophora	
 GO:0008088	axo-dendritic transport	NCBITaxon:33208	Metazoa	
@@ -941,3 +938,4 @@ GO:0009331	glycerol-3-phosphate dehydrogenase complex	NCBITaxon:Union_0000004	Pr
 GO:0160208	fibrous body-membranous organelle	NCBITaxon:6231	Nematoda	
 GO:0019833	ice nucleation activity	NCBITaxon:2	Bacteria	
 GO:0042579	microbody	NCBITaxon:2759	Eukaryota	
+GO:0030941	chloroplast targeting sequence binding	NCBITaxon:33090	Viridiplantae	
