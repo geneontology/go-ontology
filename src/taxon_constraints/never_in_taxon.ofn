@@ -56,6 +56,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005125>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005199>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005368>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005521>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005615>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005618>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005663>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005689>))
@@ -863,6 +864,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obo
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005521> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005521> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> ObjectComplementOf(<http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
 DisjointClasses(<http://purl.obolibrary.org/obo/GO_0005521> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4751>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005615> (<http://purl.obolibrary.org/obo/GO_0005615>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obolibrary.org/obo/GO_0005615> <http://purl.obolibrary.org/obo/NCBITaxon_4890>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005615> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4890>)))
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005615> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> ObjectComplementOf(<http://purl.obolibrary.org/obo/NCBITaxon_4890>)))
+DisjointClasses(<http://purl.obolibrary.org/obo/GO_0005615> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4890>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0005618> (<http://purl.obolibrary.org/obo/GO_0005618>)
 
