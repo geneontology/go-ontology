@@ -1,3 +1,4 @@
+format-version: 1.2
 ontology: go/imports/caro_import
 
 [Term]
@@ -8,24 +9,24 @@ is_a: CARO:0030000 ! biological entity
 [Term]
 id: CARO:0000003
 name: connected anatomical structure
-is_a: CARO:0000006  ! material anatomical entity
+is_a: CARO:0000006 ! material anatomical entity
 
 [Term]
 id: CARO:0000006
 name: material anatomical entity
-is_a: CARO:0000000  ! anatomical entity
-is_a: BFO:0000040 ! material entity
+is_a: BFO:0000040
+is_a: CARO:0000000 ! anatomical entity
 
 [Term]
 id: CARO:0030000
 name: biological entity
-is_a: BFO:0000004 
+is_a: BFO:0000004
 
 [Term]
-id: UBERON:0000061 ! anatomical structure
+id: PO:0025131
 is_a: CARO:0000003 ! connected anatomical structure
 
 [Term]
-id: PO:0025131 ! plant anatomical entity
+id: UBERON:0000061
 is_a: CARO:0000003 ! connected anatomical structure
 

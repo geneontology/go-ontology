@@ -422,9 +422,11 @@ imports/%_import.obo: imports/%_import.owl
 # CACHEING EXTERNAL ONTOLOGIES
 # ----------------------------------------
 
-# Fix external ontologies to specific versions. These should be updated regularly!
+# Fix external ontologies to specific release versions if necessary. These should be updated regularly! Otherwise use the standard PURL.
 CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.owl.gz
 CL_SOURCE=http://purl.obolibrary.org/obo/cl/cl-base.owl
+FAO_SOURCE=http://purl.obolibrary.org/obo/fao/fao-base.owl
+PATO_SOURCE=http://purl.obolibrary.org/obo/pato/pato-base.owl
 UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/uberon-base.owl
 WBBT_SOURCE=http://purl.obolibrary.org/obo/wbbt/wbbt-base.owl
 ECO_SOURCE=http://purl.obolibrary.org/obo/eco/eco-basic.owl
@@ -439,9 +441,6 @@ mirror:
 mirror/ncbitaxon-download.owl: imports/ncbitaxon_terms.txt
 	wget --no-check-certificate $(OBO)/ncbitaxon.obo $(WGET_OUT)
 .PRECIOUS: mirror/ncbitaxon-download.owl
-#mirror/ncbitaxon-download-enhanced.owl: mirror/ncbitaxon-download.owl
-#	OWLTOOLS_MEMORY=12G owltools  $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $OBO/zz -o
-#.PRECIOUS: mirror/ncbitaxon-download-enhanced.owl
 
 mirror/taxslim.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/ncbitaxon/subsets/taxslim.owl $(WGET_OUT)
@@ -465,11 +464,6 @@ mirror/uberon-download.owl: $(SRC)
 	wget --no-check-certificate $(UBERON_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/uberon-download.owl
 
-# special case: use base for pato
-mirror/pato-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/pato/pato-base.owl $(WGET_OUT)
-.PRECIOUS: mirror/pato-download.owl
-
 # special case: use basic for oba
 mirror/oba-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo -O $@.tmp && $(OWLTOOLS) $@.tmp --make-subset-by-properties -n // -o $@
@@ -478,6 +472,14 @@ mirror/oba-download.owl: $(SRC)
 mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(CL_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
+
+mirror/fao-download.owl: $(SRC)
+	wget --no-check-certificate $(FAO_SOURCE) $(WGET_OUT)
+.PRECIOUS: mirror/fao-download.owl
+
+mirror/pato-download.owl: $(SRC)
+	wget --no-check-certificate $(PATO_SOURCE) $(WGET_OUT)
+.PRECIOUS: mirror/pato-download.owl
 
 mirror/wbbt-download.owl: $(SRC)
 	wget --no-check-certificate $(WBBT_SOURCE) $(WGET_OUT)
@@ -534,26 +536,15 @@ biochebi_gcis.ofn: biochebi_gcis.tsv ../biochebi/biochebi_gcis.yaml
 imports/go-lego-chebi-import.owl: bio-chebi.owl ../biochebi/go-lego-chebi-import-terms.txt
 	$(ROBOT) extract -i $< -T ../biochebi/go-lego-chebi-import-terms.txt --method BOT annotate -O $(BASE)/imports/go-lego-chebi-import.owl -V $(RELEASE_URIBASE)/imports/go-lego-chebi-import.owl -o $@
 
-# filter axioms
-FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
-
-mirror/so.owl: mirror/so-download.owl
-	$(OWLTOOLS) --use-catalog $< --make-subset-by-properties // -o $@
 .PRECIOUS: mirror/uberon.owl
 
-# Removing all external axioms from PR; considering refactoring all imports to create a "base"-ish version if not published
-mirror/pr.owl: mirror/pr-download.owl
-	$(OWLTOOLS) $< $(FILTER_EXTERNAL) --remove-axioms-about -d -v PR -o $@
-
-mirror/opl.owl: mirror/opl-download.owl
-	$(OWLTOOLS) $< $(FILTER_EXTERNAL) --remove-axioms-about -d -v OPL -o $@
-
-# Avoid filtering annotations out via owltools. dbxrefs for three-letter codes are needed in Amigo.
+# Avoid filtering xref annotations. dbxrefs for three-letter codes are needed in Amigo.
 mirror/eco.owl: mirror/eco-download.owl
 	cp $< $@
 
 mirror/%.owl: mirror/%-download.owl
-	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
+	$(ROBOT) remove --input $< --base-iri 'http://purl.obolibrary.org/obo/$(shell echo $* | tr '[:lower:]' '[:upper:]')_' --axioms external --preserve-structure false --trim false remove --select imports --trim false remove --term 'http://www.geneontology.org/formats/oboInOwl#hasDbXref' --trim true --output $@
+#remove --drop-axiom-annotations all # need newer ROBOT version
 .PRECIOUS: mirror/%.owl
 
 # ----------------------------------------

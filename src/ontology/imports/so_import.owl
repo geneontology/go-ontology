@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/so_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2024-08-14/imports/so_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2025-01-22/imports/so_import.owl"/>
     </owl:Ontology>
     
 
@@ -27,41 +27,31 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label>definition</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000700 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000700"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
-        <rdfs:label>term replaced by</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty">
-        <rdfs:label>subset_property</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty">
-        <rdfs:label>synonym_type_property</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#consider -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#consider">
-        <rdfs:label>consider</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#consider"/>
     
 
 
@@ -85,81 +75,55 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label>has_alternative_id</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
-        <rdfs:label>has_broad_synonym</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label>database_cross_reference</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label>has_exact_synonym</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
-        <rdfs:label>has_narrow_synonym</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
-        <rdfs:label>has_obo_format_version</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label>has_obo_namespace</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label>has_related_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasScope -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasScope">
-        <rdfs:label>has_scope</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType">
-        <rdfs:label>has_synonym_type</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
     
 
 
@@ -171,27 +135,66 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
-        <rdfs:label>in_subset</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
     
 
 
-    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
     
 
 
-    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+    <!-- http://purl.obolibrary.org/obo/so#adjacent_to -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#adjacent_to"/>
     
 
 
-    <!-- http://www.w3.org/2002/07/owl#deprecated -->
+    <!-- http://purl.obolibrary.org/obo/so#derives_from -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#deprecated"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#derives_from"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/so#has_part -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#has_part"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/so#has_quality -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#has_quality"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/so#member_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#member_of"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/so#non_functional_homolog_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#non_functional_homolog_of"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/so#overlaps -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#overlaps"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/so#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#part_of"/>
     
 
 
@@ -226,9 +229,58 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000401"/>
+        <obo:IAO_0000115>A gene which, when transcribed, can be translated into a protein.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>protein-coding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000010</oboInOwl:id>
+        <rdfs:label>protein_coding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A sequence of amino acids linked by peptide bonds which may lack appreciable tertiary structure and may not be liable to irreversible denaturation.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>SO:0000358</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Polypeptide</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000104</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:comment>This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The term &apos;protein&apos; was merged with &apos;polypeptide&apos;. Although &apos;protein&apos; was a sequence_attribute and therefore meant to describe the quality rather than an actual feature, it was being used erroneously. It is replaced by &apos;peptidyl&apos; as the polymer attribute.</rdfs:comment>
+        <rdfs:label>polypeptide</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000104"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A sequence of amino acids linked by peptide bonds which may lack appreciable tertiary structure and may not be liable to irreversible denaturation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ma</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000104"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>http://en.wikipedia.org/wiki/Polypeptide</owl:annotatedTarget>
+        <rdfs:label>wiki</rdfs:label>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0000110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/SO_0000400"/>
         <obo:IAO_0000115>Any extent of continuous biological sequence.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>INSDC_feature:misc_feature</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>INSDC_note:other</oboInOwl:hasExactSynonym>
@@ -246,6 +298,43 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any extent of continuous biological sequence.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>LAMHDI:mb</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000401"/>
+        <obo:IAO_0000115>This attribute describes a gene where heritable changes other than those in the DNA sequence occur. These changes include: modification to the DNA (such as DNA methylation, the covalent modification of cytosine), and post-translational modification of histones.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>epigenetically modified</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000133</oboInOwl:id>
+        <rdfs:label>epigenetically_modified</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000133"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>This attribute describes a gene where heritable changes other than those in the DNA sequence occur. These changes include: modification to the DNA (such as DNA methylation, the covalent modification of cytosine), and post-translational modification of histones.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000237"/>
+        <obo:IAO_0000115>An attribute describing when a sequence, usually an mRNA is capped by the addition of a modified guanine nucleotide at the 5&apos; end.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000146</oboInOwl:id>
+        <rdfs:label>capped</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000146"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An attribute describing when a sequence, usually an mRNA is capped by the addition of a modified guanine nucleotide at the 5&apos; end.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -338,6 +427,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000170"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A conserved GC-rich region located upstream of the start point of eukaryotic transcription units which may occur in multiple copies or in either orientation; consensus=GGGCGG.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>INSDC_feature:regulatory</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>GC rich promoter region</oboInOwl:hasExactSynonym>
@@ -373,15 +468,15 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000185"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>http://en.wikipedia.org/wiki/Primary_transcript</owl:annotatedTarget>
-        <rdfs:label>wiki</rdfs:label>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000185"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A transcript that in its initial state requires modification to be functional.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SO:ma</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000185"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>http://en.wikipedia.org/wiki/Primary_transcript</owl:annotatedTarget>
+        <rdfs:label>wiki</rdfs:label>
     </owl:Axiom>
     
 
@@ -410,6 +505,95 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>http://en.wikipedia.org/wiki/Intron</owl:annotatedTarget>
         <rdfs:label>wiki</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000836"/>
+        <obo:IAO_0000115>Messenger RNA sequences that are untranslated and lie five prime or three prime to sequences which are translated.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>untranslated region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000203</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:label>UTR</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000203"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Messenger RNA sequences that are untranslated and lie five prime or three prime to sequences which are translated.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000203"/>
+        <obo:IAO_0000115>A region at the 3&apos; end of a mature transcript (following the stop codon) that is not translated into a protein.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Three_prime_untranslated_region</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>INSDC_feature:3&apos;UTR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>three prime UTR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>three prime untranslated region</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000205</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:label>three_prime_UTR</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000205"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A region at the 3&apos; end of a mature transcript (following the stop codon) that is not translated into a protein.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://www.insdc.org/files/feature_table.html</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000205"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>http://en.wikipedia.org/wiki/Three_prime_untranslated_region</owl:annotatedTarget>
+        <rdfs:label>wiki</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000483"/>
+        <obo:IAO_0000115>A primary transcript encoding a ribosomal RNA.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>rRNA primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ribosomal RNA primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000209</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:label>rRNA_primary_transcript</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000209"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A primary transcript encoding a ribosomal RNA.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000483"/>
+        <obo:IAO_0000115>A primary transcript encoding a transfer RNA (SO:0000253).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>tRNA primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000210</oboInOwl:id>
+        <rdfs:label>tRNA_primary_transcript</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000210"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A primary transcript encoding a transfer RNA (SO:0000253).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -457,6 +641,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000233">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A transcript which has undergone the necessary modifications, if any, for its function. In eukaryotes this includes, for example, processing of introns, cleavage, base modification, and modifications to the 5&apos; and/or the 3&apos; ends, other than addition of bases. In bacteria functional mRNAs are usually not modified.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Mature_transcript</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>mature transcript</oboInOwl:hasExactSynonym>
@@ -523,6 +713,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001055"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001654"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000727"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A DNA site where a transcription factor binds.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>TF binding site</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>transcription factor binding site</oboInOwl:hasExactSynonym>
@@ -541,10 +737,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000733"/>
+        <obo:IAO_0000115>An attribute describing a transcript.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>transcript attribute</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000237</oboInOwl:id>
+        <rdfs:label>transcript_attribute</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0000252 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000252">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000209"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>rRNA is an RNA component of a ribosome that can provide both structural scaffolding and catalytic activity.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>INSDC_qualifier:unknown</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/RRNA</oboInOwl:hasDbXref>
@@ -577,6 +792,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000253">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002247"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000210"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Transfer RNA (tRNA) molecules are approximately 80 nucleotides in length. Their secondary structure includes four short double-helical elements and three loops (D, anti-codon, and T loops). Further hydrogen bonds mediate the characteristic L-shaped molecular structure. Transfer RNAs have two regions of fundamental functional importance: the anti-codon, which is responsible for specific mRNA codon recognition, and the 3&apos; end, to which the tRNA&apos;s corresponding amino acid is attached (by aminoacyl-tRNA synthetases). Transfer RNAs cope with the degeneracy of the genetic code in two manners: having more than one tRNA (with a specific anti-codon) for a particular amino acid; and &apos;wobble&apos; base-pairing, i.e. permitting non-standard base-pairing at the 3rd anti-codon position.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>INSDC_qualifier:unknown</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/TRNA</oboInOwl:hasDbXref>
@@ -609,6 +830,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000274">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002247"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000231"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A small nuclear RNA molecule involved in pre-mRNA splicing and processing.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>INSDC_feature:ncRNA</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/SnRNA</oboInOwl:hasDbXref>
@@ -641,6 +868,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000275">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002247"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Small nucleolar RNAs (snoRNAs) are short non-coding RNAs enriched in the nucleolus as components of small nucleolar ribonucleoproteins. They guide ribose methylation and pseudouridylation of rRNAs and snRNAs, and a subgroup regulate excision of rRNAs from rRNA precursor transcripts. snoRNAs may also guide rRNA acetylation and tRNA methylation, and regulate mRNA abundance and alternative splicing.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>INSDC_feature:ncRNA</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>INSDC_qualifier:snoRNA</oboInOwl:hasExactSynonym>
@@ -665,6 +898,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000276">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000370"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0001244"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes). Micro RNAs are produced from precursor molecules (SO:0001244) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>SO:0000649</oboInOwl:hasAlternativeId>
         <oboInOwl:hasBroadSynonym>INSDC_feature:ncRNA</oboInOwl:hasBroadSynonym>
@@ -706,6 +945,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000296">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0001235"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A region of nucleic acid from which replication initiates; includes sequences that are recognized by replication proteins, the site from which the first separation of complementary strands occurs, and specific replication start sites.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Origin_of_replication</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>INSDC_feature:rep_origin</oboInOwl:hasExactSynonym>
@@ -780,6 +1025,49 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000836"/>
+        <obo:IAO_0000115>A contiguous sequence which begins with, and includes, a start codon and ends with, and includes, a stop codon.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>INSDC_feature:CDS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>coding sequence</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>coding_sequence</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000316</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:label>CDS</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000316"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A contiguous sequence which begins with, and includes, a start codon and ends with, and includes, a stop codon.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ma</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000209"/>
+        <obo:IAO_0000115>A primary transcript encoding a large ribosomal subunit RNA.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>35S rRNA primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>rRNA large subunit primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000325</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:label>rRNA_large_subunit_primary_transcript</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000325"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A primary transcript encoding a large ribosomal subunit RNA.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0000330 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000330">
@@ -813,6 +1101,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000336">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#non_functional_homolog_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their &quot;normal&quot; paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its &quot;normal&quot; paralog).</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>INSDC_feature:gene</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Pseudogene</oboInOwl:hasDbXref>
@@ -834,6 +1128,33 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000336"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>http://en.wikipedia.org/wiki/Pseudogene</owl:annotatedTarget>
+        <rdfs:label>wiki</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001235"/>
+        <obo:IAO_0000115>Structural unit composed of a nucleic acid molecule which controls its own replication through the interaction of specific proteins at one or more origins of replication.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Chromosome</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000340</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:comment>This term is mapped to MGED. Do not obsolete without consulting MGED ontology.</rdfs:comment>
+        <rdfs:label>chromosome</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000340"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Structural unit composed of a nucleic acid molecule which controls its own replication through the interaction of specific proteins at one or more origins of replication.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ma</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000340"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>http://en.wikipedia.org/wiki/Chromosome</owl:annotatedTarget>
         <rdfs:label>wiki</rdfs:label>
     </owl:Axiom>
     
@@ -865,6 +1186,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000375">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000651"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0002240"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Cytosolic 5.8S rRNA is an RNA component of the large subunit of cytosolic ribosomes in eukaryotes.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/5.8S_ribosomal_RNA</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>cytosolic 5.8S LSU rRNA</oboInOwl:hasExactSynonym>
@@ -889,6 +1216,37 @@
         <owl:annotatedTarget>http://en.wikipedia.org/wiki/5.8S_ribosomal_RNA</owl:annotatedTarget>
         <rdfs:label>wiki</rdfs:label>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000400">
+        <obo:IAO_0000115>An attribute describes a quality of sequence.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>sequence attribute</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000400</oboInOwl:id>
+        <rdfs:label>sequence_attribute</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000400"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An attribute describes a quality of sequence.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000733"/>
+        <obo:IAO_0000115>An attribute describing a gene.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>gene attribute</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000401</oboInOwl:id>
+        <rdfs:label>gene_attribute</rdfs:label>
+    </owl:Class>
     
 
 
@@ -996,6 +1354,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000581">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A structure consisting of a 7-methylguanosine in 5&apos;-5&apos; triphosphate linkage with the first nucleotide of an mRNA. It is added post-transcriptionally, and is not encoded in the DNA.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/5%27_cap</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000581</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:label>cap</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000581"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A structure consisting of a 7-methylguanosine in 5&apos;-5&apos; triphosphate linkage with the first nucleotide of an mRNA. It is added post-transcriptionally, and is not encoded in the DNA.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://seqcore.brcf.med.umich.edu/doc/educ/dnapr/mbglossary/mbgloss.html</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000581"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>http://en.wikipedia.org/wiki/5%27_cap</owl:annotatedTarget>
+        <rdfs:label>wiki</rdfs:label>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0000587 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000587">
@@ -1027,7 +1411,24 @@
     <!-- http://purl.obolibrary.org/obo/SO_0000588 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000588">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000188"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_quality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0001186"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000188"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0001186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A self spliced intron.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>INSDC_feature:ncRNA</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>INSDC_qualifier:autocatalytically_spliced_intron</oboInOwl:hasExactSynonym>
@@ -1050,6 +1451,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000593">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000275"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000595"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Most box C/D snoRNAs also contain long (&gt;10 nt) sequences complementary to rRNA. Boxes C and D, as well as boxes C&apos; and D&apos;, are usually located in close proximity, and form a structure known as the box C/D motif. This motif is important for snoRNA stability, processing, nucleolar targeting and function. A small number of box C/D snoRNAs are involved in rRNA processing; most, however, are known or predicted to serve as guide RNAs in ribose methylation of rRNA. Targeting involves direct base pairing of the snoRNA at the rRNA site to be modified and selection of a rRNA nucleotide a fixed distance from box D or D&apos;.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>C D box snoRNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>C/D box snoRNA</oboInOwl:hasExactSynonym>
@@ -1080,6 +1487,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000594">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000275"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000596"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Members of the box H/ACA family contain an ACA triplet, exactly 3 nt upstream from the 3&apos; end and an H-box in a hinge region that links two structurally similar functional domains of the molecule. Both boxes are important for snoRNA biosynthesis and function. A few box H/ACA snoRNAs are involved in rRNA processing; most others are known or predicted to participate in selection of uridine nucleosides in rRNA to be converted to pseudouridines. Site selection is mediated by direct base pairing of the snoRNA with rRNA through one or both targeting domains.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>H ACA box snoRNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>H/ACA box snoRNA</oboInOwl:hasExactSynonym>
@@ -1101,6 +1514,44 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>SNORA</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:31828325</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000232"/>
+        <obo:IAO_0000115>A primary transcript encoding a small nucleolar RNA of the box C/D family.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>C/D box snoRNA primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000595</oboInOwl:id>
+        <rdfs:label>C_D_box_snoRNA_primary_transcript</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000595"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A primary transcript encoding a small nucleolar RNA of the box C/D family.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000596">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000232"/>
+        <obo:IAO_0000115>A primary transcript encoding a small nucleolar RNA of the box H/ACA family.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>H ACA box snoRNA primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000596</oboInOwl:id>
+        <rdfs:label>H_ACA_box_snoRNA_primary_transcript</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000596"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A primary transcript encoding a small nucleolar RNA of the box H/ACA family.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1232,6 +1683,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000644">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000645"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Antisense RNA is RNA that is transcribed from the coding, rather than the template, strand of DNA. It is therefore complementary to mRNA.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>INSDC_feature:ncRNA</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Antisense_RNA</oboInOwl:hasDbXref>
@@ -1253,6 +1710,26 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>http://en.wikipedia.org/wiki/Antisense_RNA</owl:annotatedTarget>
         <rdfs:label>wiki</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000645">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000185"/>
+        <obo:IAO_0000115>The reverse complement of the primary transcript.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>antisense primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000645</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:label>antisense_primary_transcript</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000645"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The reverse complement of the primary transcript.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1290,6 +1767,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000647">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000483"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0001244"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A primary transcript encoding a micro RNA.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>SO:0000648</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym>miRNA primary transcript</oboInOwl:hasExactSynonym>
@@ -1314,6 +1797,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000651">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002343"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000325"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Cytosolic LSU rRNA is an RNA component of the large subunit of cytosolic ribosomes.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>cytosolic LSU RNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>cytosolic LSU rRNA</oboInOwl:hasExactSynonym>
@@ -1374,6 +1863,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000657">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000726"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A region of sequence containing one or more repeat units.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>INSDC_feature:repeat_region</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>INSDC_qualifier:other</oboInOwl:hasExactSynonym>
@@ -1396,6 +1891,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000673">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000831"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#overlaps"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0002300"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An RNA synthesized on a DNA or RNA template by an RNA polymerase.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>INSDC_feature:misc_RNA</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/RNA</oboInOwl:hasDbXref>
@@ -1446,6 +1947,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000704">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#member_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Gene</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>INSDC_feature:gene</oboInOwl:hasExactSynonym>
@@ -1518,6 +2025,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000726">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>The simplest repeated component of a repeat region. A single repeat.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>http://www.insdc.org/files/feature_table.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>repeat unit</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000726</oboInOwl:id>
+        <rdfs:comment>Added to comply with the feature table. A single repeat.</rdfs:comment>
+        <rdfs:label>repeat_unit</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000726"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The simplest repeated component of a repeat region. A single repeat.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0000727 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000727">
@@ -1543,10 +2071,35 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000733 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000733">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000400"/>
+        <obo:IAO_0000115>An attribute describing a located_sequence_feature.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>feature attribute</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000733</oboInOwl:id>
+        <rdfs:label>feature_attribute</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000733"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An attribute describing a located_sequence_feature.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0000830 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000830">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000340"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A region of a chromosome.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>chromosomal region</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>chromosomal_region</oboInOwl:hasExactSynonym>
@@ -1570,6 +2123,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000831">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#member_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A region of a gene.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>gene member region</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
@@ -1591,6 +2150,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000833">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A region of a transcript.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>transcript region</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
@@ -1633,6 +2198,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000835">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000833"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000185"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A part of a primary transcript.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>primary transcript region</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
@@ -1654,6 +2225,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000836">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000834"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000234"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A region of an mRNA.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>mRNA region</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
@@ -1696,6 +2273,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000839">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Biological sequence region that can be assigned to a specific subsequence of a polypeptide.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>BS:00124</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>BS:00331</oboInOwl:hasAlternativeId>
@@ -1737,6 +2320,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000842">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A region of a gene that has a specific function.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>gene component region</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
@@ -1747,10 +2336,83 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000861 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000861">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000185"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#adjacent_to"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000581"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_quality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000146"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000185"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#adjacent_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000581"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A primary transcript that is capped.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>capped primary transcript</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000861</oboInOwl:id>
+        <rdfs:label>capped_primary_transcript</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000861"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A primary transcript that is capped.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:xp</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0000862 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000862">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000234"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#adjacent_to"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000581"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_quality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000146"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000234"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#adjacent_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000581"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An mRNA that is capped.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>capped mRNA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
@@ -1762,6 +2424,43 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An mRNA that is capped.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>SO:xp</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000898 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000898">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000704"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_quality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000133"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001720"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000133"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A gene that is epigenetically modified.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>epigenetically modified gene</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0000898</oboInOwl:id>
+        <rdfs:label>epigenetically_modified_gene</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000898"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A gene that is epigenetically modified.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1887,10 +2586,65 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0001185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000733"/>
+        <obo:IAO_0000115>An attribute describing the sequence of a transcript that has catalytic activity with or without an associated ribonucleoprotein.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0001185</oboInOwl:id>
+        <rdfs:comment>Do not use this for feature annotation. Use enzymatic_RNA (SO:0000372) instead.</rdfs:comment>
+        <rdfs:label>enzymatic</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001185"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An attribute describing the sequence of a transcript that has catalytic activity with or without an associated ribonucleoprotein.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>RSC:cb</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001185"/>
+        <obo:IAO_0000115>An attribute describing the sequence of a transcript that has catalytic activity even without an associated ribonucleoprotein.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0001186</oboInOwl:id>
+        <rdfs:comment>Do not use this for feature annotation. Use ribozyme (SO:0000374) instead.</rdfs:comment>
+        <rdfs:label>ribozymic</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001186"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An attribute describing the sequence of a transcript that has catalytic activity even without an associated ribonucleoprotein.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>RSC:cb</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0001217 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001217">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000704"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_quality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000010"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A gene that codes for an RNA that can be translated into a protein.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>protein coding gene</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
@@ -1898,6 +2652,32 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#Alliance_of_Genome_Resources"/>
         <rdfs:label>protein_coding_gene</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A region containing at least one unique origin of replication and a unique termination site.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Replicon_(genetics)</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0001235</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:label>replicon</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001235"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A region containing at least one unique origin of replication and a unique termination site.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:0716719207</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001235"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>http://en.wikipedia.org/wiki/Replicon_(genetics)</owl:annotatedTarget>
+        <rdfs:label>wiki</rdfs:label>
+    </owl:Axiom>
     
 
 
@@ -1931,7 +2711,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001240">
         <obo:IAO_0000115>The region of a gene from the 5&apos; most TSS to the 3&apos; TSS.</obo:IAO_0000115>
-        <obo:IAO_0100001>SO:0000167</obo:IAO_0100001>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/SO_0000167"/>
         <oboInOwl:hasExactSynonym>TSS region</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
         <oboInOwl:id>SO:0001240</oboInOwl:id>
@@ -2066,6 +2846,29 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0001637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001637">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001263"/>
+        <obo:IAO_0000115>A gene that encodes for ribosomal RNA.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-04-21T10:10:32Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>rDNA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>rRNA gene</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0001637</oboInOwl:id>
+        <rdfs:comment>Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).</rdfs:comment>
+        <rdfs:label>rRNA_gene</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001637"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A gene that encodes for ribosomal RNA.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ke</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0001645 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001645">
@@ -2113,6 +2916,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001659">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000713"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#overlaps"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000235"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An element that can exist within the promoter region of a gene.</obo:IAO_0000115>
         <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
         <oboInOwl:creation_date>2010-10-01T11:48:32Z</oboInOwl:creation_date>
@@ -2178,8 +2993,25 @@
     <!-- http://purl.obolibrary.org/obo/SO_0001700 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001700">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001089"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_quality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000133"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001089"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001720"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000133"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Histone modification is a post translationally modified region whereby residues of the histone protein are modified by methylation, acetylation, phosphorylation, ubiquitination, sumoylation, citrullination, or ADP-ribosylation.</obo:IAO_0000115>
         <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
         <oboInOwl:creation_date>2010-03-31T10:22:08Z</oboInOwl:creation_date>
@@ -2201,7 +3033,24 @@
     <!-- http://purl.obolibrary.org/obo/SO_0001720 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001720">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001411"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_quality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000133"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005836"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000133"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A biological DNA region implicated in epigenomic changes caused by mechanisms other than changes in the underlying DNA sequence. This includes, nucleosomal histone post-translational modifications, nucleosome depletion to render DNA accessible and post-replicational base modifications such as cytosine modification.</obo:IAO_0000115>
         <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
         <oboInOwl:creation_date>2010-03-27T12:02:29Z</oboInOwl:creation_date>
@@ -2222,10 +3071,38 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0001795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001795">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000577"/>
+        <obo:IAO_0000115>A regional centromere is a large modular centromere found in fission yeast and higher eukaryotes. It consist of a central core region flanked by inverted inner and outer repeat regions.</obo:IAO_0000115>
+        <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-05-31T12:43:07Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>regional centromere</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0001795</oboInOwl:id>
+        <rdfs:label>regional_centromere</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0001795"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A regional centromere is a large modular centromere found in fission yeast and higher eukaryotes. It consist of a central core region flanked by inverted inner and outer repeat regions.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:7502067</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SO:vw</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0001796 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001796">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000330"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0001795"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A conserved region within the central region of a modular centromere, where the kinetochore is formed.</obo:IAO_0000115>
         <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-05-31T12:56:30Z</oboInOwl:creation_date>
@@ -2270,6 +3147,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001798">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001797"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0001795"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0001796"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The inner inverted repeat region of a modular centromere and part of the central core surrounding a non-conserved central region. This region is adjacent to the central core, on each chromosome arm.</obo:IAO_0000115>
         <oboInOwl:created_by>kareneilbeck</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-05-31T01:01:08Z</oboInOwl:creation_date>
@@ -2520,6 +3409,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002234">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000837"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000205"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A cis-acting element involved in RNA stability found in the 3&apos; UTR of some RNA (consensus UGUAAAUA).</obo:IAO_0000115>
         <oboInOwl:created_by>david</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-04-14T10:40:30Z</oboInOwl:creation_date>
@@ -2536,6 +3431,24 @@
         <owl:annotatedTarget>A cis-acting element involved in RNA stability found in the 3&apos; UTR of some RNA (consensus UGUAAAUA).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:30601114</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0002240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002361"/>
+        <obo:IAO_0000115>A gene which codes for 5_8S_rRNA (5.8S rRNA), which functions as a component of the large subunit of the ribosome in eukaryotes.</obo:IAO_0000115>
+        <oboInOwl:created_by>david</oboInOwl:created_by>
+        <oboInOwl:creation_date>2020-05-07T16:12:30Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>5.8S rRNA gene</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>5_8S rRNA gene</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>5_8S_rRNA_gene</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0002240</oboInOwl:id>
+        <rdfs:comment>Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472). Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).</rdfs:comment>
+        <rdfs:label>cytosolic_rRNA_5_8S_gene</rdfs:label>
+    </owl:Class>
     
 
 
@@ -2557,6 +3470,29 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A non-coding RNA less than 200 nucleotides in length.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:30069443</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0002300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>Transcription units or transcribed coding sequences.</obo:IAO_0000115>
+        <oboInOwl:created_by>david</oboInOwl:created_by>
+        <oboInOwl:creation_date>2020-08-05T11:49:30Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>unit of gene expression</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0002300</oboInOwl:id>
+        <rdfs:comment>Added as per Mejia-Almonte et.al PMID:32665585</rdfs:comment>
+        <rdfs:label>unit_of_gene_expression</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0002300"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Transcription units or transcribed coding sequences.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Bacterial_regulation_working_group:CMA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:32665585</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2589,6 +3525,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002305">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000699"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0002304"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A DNA region enriched in DNA loop anchors and across which DNA loops occur less often than expected by chance.</obo:IAO_0000115>
         <oboInOwl:created_by>david</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-08-12T14:01:30Z</oboInOwl:creation_date>
@@ -2614,6 +3556,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002307">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000830"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#overlaps"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0002304"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A region of DNA between two loop anchor positions that are held in close physical proximity.</obo:IAO_0000115>
         <oboInOwl:created_by>david</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-08-12T14:01:30Z</oboInOwl:creation_date>
@@ -2637,6 +3585,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002308">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000727"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0002307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The ends of a DNA loop where the two strands of DNA are held in close physical proximity. During interphase the anchors of DNA loops are convergently oriented CTCF binding sites.</obo:IAO_0000115>
         <oboInOwl:created_by>david</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-08-12T14:01:30Z</oboInOwl:creation_date>
@@ -2660,6 +3614,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002309">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/so#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000167"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>An element that always exists within the promoter region of a gene. When multiple transcripts exist for a gene, the separate transcripts may have separate core_promoter_elements.</obo:IAO_0000115>
         <oboInOwl:created_by>david</oboInOwl:created_by>
         <oboInOwl:creation_date>2020-08-12T14:01:30Z</oboInOwl:creation_date>
@@ -2701,6 +3661,37 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0002360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001637"/>
+        <obo:IAO_0000115>A gene that codes for cytosolic rRNA.</obo:IAO_0000115>
+        <oboInOwl:created_by>evan</oboInOwl:created_by>
+        <oboInOwl:creation_date>2021-11-19T04:30:40Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0002360</oboInOwl:id>
+        <rdfs:comment>Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).</rdfs:comment>
+        <rdfs:label>cytosolic_rRNA_gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0002361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002361">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002360"/>
+        <obo:IAO_0000115>A gene that codes for cytosolic LSU rRNA.</obo:IAO_0000115>
+        <oboInOwl:created_by>evan</oboInOwl:created_by>
+        <oboInOwl:creation_date>2021-11-19T04:32:20Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>cytosolic large subunit rRNA gene</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0002361</oboInOwl:id>
+        <rdfs:comment>Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).</rdfs:comment>
+        <rdfs:label>cytosolic_LSU_rRNA_gene</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0005836 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0005836">
@@ -2726,6 +3717,26 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>http://en.wikipedia.org/wiki/Regulatory_region</owl:annotatedTarget>
         <rdfs:label>wiki</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0005855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0005855">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A collection of related genes.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>gene group</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>sequence</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SO:0005855</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/so#SOFA"/>
+        <rdfs:label>gene_group</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A collection of related genes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SO:ma</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
