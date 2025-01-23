@@ -1,4 +1,13 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:0000105	L-histidine biosynthetic process	NCBITaxon:9606	Homo sapiens	
+GO:0009097	isoleucine biosynthetic process	NCBITaxon:9606	Homo sapiens	
+GO:0009098	L-leucine biosynthetic process	NCBITaxon:9606	Homo sapiens	
+GO:0009085	lysine biosynthetic process	NCBITaxon:9606	Homo sapiens	
+GO:0009086	methionine biosynthetic process	NCBITaxon:9606	Homo sapiens	
+GO:0009094	L-phenylalanine biosynthetic process	NCBITaxon:9606	Homo sapiens	
+GO:0009088	threonine biosynthetic process	NCBITaxon:9606	Homo sapiens	
+GO:0000162	L-tryptophan biosynthetic process	NCBITaxon:9606	Homo sapiens	
+GO:0009099	L-valine biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0005615	extracellular space	NCBITaxon:4890	Ascomycota	
 GO:0004705	JUN kinase activity	NCBITaxon:4751	Fungi	
 GO:0008545	JUN kinase kinase activity	NCBITaxon:4751	Fungi	
