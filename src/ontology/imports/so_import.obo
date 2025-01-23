@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2025-01-22/imports/so_import.owl
+data-version: go/releases/2025-01-23/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
