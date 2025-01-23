@@ -1,18 +1,21 @@
 format-version: 1.2
-data-version: go/releases/2025-01-22/imports/fao_import.owl
+data-version: go/releases/2025-01-23/imports/fao_import.owl
 ontology: go/imports/fao_import
 
 [Term]
 id: FAO:0000001
 name: fungal structure
 namespace: fungal_anatomy_ontology
+def: "An anatomical structure that forms all or part of a fungus." [FAO:mah]
 synonym: "fungal structure ontology" RELATED []
+xref: BTO:0001494
 relationship: RO:0002160 NCBITaxon:4751
 
 [Term]
 id: FAO:0000003
 name: basidium
 namespace: fungal_anatomy_ontology
+def: "A spore-producing structure found in a Basidiomycete; formed when the terminal cell of a dikaryotic hyphal branch inflates and undergoes karyogamy and meiosis." [FAO:curators, ISBN:0471940526]
 is_a: FAO:0000052 ! sporangium
 relationship: BFO:0000050 FAO:0000012 ! basidiocarp
 
@@ -20,25 +23,39 @@ relationship: BFO:0000050 FAO:0000012 ! basidiocarp
 id: FAO:0000007
 name: fruitbody
 namespace: fungal_anatomy_ontology
+def: "Any specialized structure which bears or contains sexually or asexually derived spores." [FAO:curators, SGD:clt]
 synonym: "fruiting body" EXACT []
+xref: BTO:0000487
 is_a: FAO:0002004 ! multicellular fungal structure, multicellular organism
 
 [Term]
 id: FAO:0000008
 name: ascocarp
 namespace: fungal_anatomy_ontology
+def: "A structure within, or at the surface of, which an ascus develops in Ascomycetes." [ISBN:0471940526]
+xref: BTO:0002161
 is_a: FAO:0000007 ! fruitbody
 
 [Term]
 id: FAO:0000010
 name: sporophore
 namespace: fungal_anatomy_ontology
+def: "A multicellular anatomical structure that functions in the production of spores, which are directly borne upon or within sporogenous cells that form part of the sporophore." [FAO:curators]
+synonym: "fruit body" EXACT [FAO:doi]
+synonym: "fruitbody" EXACT [FAO:doi]
+synonym: "fruiting body" EXACT [FAO:doi]
+synonym: "spore-bearing structure" EXACT [FAO:doi]
+synonym: "spore-producing structure" EXACT [FAO:doi]
+synonym: "sporocarp" EXACT [FAO:doi]
+xref: GO:0075259
 is_a: FAO:0002004 ! multicellular fungal structure, multicellular organism
 
 [Term]
 id: FAO:0000011
 name: mycelium
 namespace: fungal_anatomy_ontology
+def: "A group or mass of discrete hyphae; the vegetative structure of many fungi." [ISBN:0471940526]
+xref: BTO:0001436
 is_a: FAO:0002004 ! multicellular fungal structure, multicellular organism
 
 [Term]
@@ -46,19 +63,23 @@ id: FAO:0000012
 name: basidiocarp
 namespace: fungal_anatomy_ontology
 alt_id: FAO:0001024
+def: "A large fruiting body that is composed of masses of intertwined hyphal elements and produces basidia and basidiospores. The basidiocarp is characteristic of the majority of fungi of the subphylum Basidiomycotina, in which it is the site of karyogamy and meiosis. Mushrooms and toadstools are common examples." [BTO:0000114, ISBN:0471940526]
 synonym: "mushroom" RELATED []
+xref: BTO:0000114
 is_a: FAO:0000007 ! fruitbody
 
 [Term]
 id: FAO:0000014
 name: ascus
 namespace: fungal_anatomy_ontology
+def: "A sac-like structure containing sexual spores formed by Ascomycotina; mature asci may have little or no cytoplasm or cytoplasmic contents, and no nucleus outside of the spores." [SGD:clt]
 is_a: FAO:0000052 ! sporangium
 
 [Term]
 id: FAO:0000017
 name: sexual spore
 namespace: fungal_anatomy_ontology
+def: "A spore formed following meiosis. In some species, prospores formed by meiosis may undergo one or more rounds of mitosis before they are fully mature." [SGD:clt]
 synonym: "meiotically-derived spore" RELATED []
 is_a: FAO:0000019 ! spore
 
@@ -66,6 +87,7 @@ is_a: FAO:0000019 ! spore
 id: FAO:0000018
 name: unicellular structure
 namespace: fungal_anatomy_ontology
+def: "A fungal structure that comprises a single cell. An individual cell is composed of a plasma membrane, contents internal to the plasma membrane, and any external protective or encapsulating structure." [FAO:curators, FAO:mah, SGD:clt]
 synonym: "cell" EXACT []
 is_a: FAO:0000001 ! fungal structure
 
@@ -73,12 +95,14 @@ is_a: FAO:0000001 ! fungal structure
 id: FAO:0000019
 name: spore
 namespace: fungal_anatomy_ontology
+def: "A spore produced by a fungus. A spore is a differentiated form of an organism produced during or as a result of an asexual or sexual reproductive process; usually a cell with a thick cell wall that stores and protects one or more nuclei. Spores may be produced in response to, and are characteristically resistant to, adverse environmental conditions." [ISBN:0471940526]
 is_a: FAO:0000018 ! unicellular structure
 
 [Term]
 id: FAO:0000021
 name: basidiospore
 namespace: fungal_anatomy_ontology
+def: "A thick-walled spore formed externally on extrusions of a basidium following sexual reproduction; found in Basidiomycetes." [ISBN:0471940526, ISBN:9781107079915, SGD:clt]
 is_a: FAO:0000017 ! sexual spore
 relationship: BFO:0000050 FAO:0000003 ! basidium
 
@@ -86,12 +110,14 @@ relationship: BFO:0000050 FAO:0000003 ! basidium
 id: FAO:0000022
 name: teliospore
 namespace: fungal_anatomy_ontology
+def: "A diploid spore with a thick, pigmented, sculpted cell wall, and extracellular peptidoglycan spikes that is formed during growth in a plant host by some Basidiomycete species, including pathogenic smut (Ustilaginales) and rust (Pucciniales) fungi." [FAO:mah, PMID:27888605, PMID:8898211, SGD:clt]
 is_a: FAO:0000021 ! basidiospore
 
 [Term]
 id: FAO:0000023
 name: asexual spore
 namespace: fungal_anatomy_ontology
+def: "A spore formed following one or more rounds of mitosis, without meiosis." [PMID:2524423, PMID:9529886, SGD:clt]
 synonym: "mitotically-derived spore" RELATED []
 is_a: FAO:0000019 ! spore
 
@@ -99,30 +125,37 @@ is_a: FAO:0000019 ! spore
 id: FAO:0000024
 name: conidium
 namespace: fungal_anatomy_ontology
+def: "An asexual, nonmotile spore formed by higher fungi. Conidia are usually made from the side or tip of specialized sporogenous cells and do not form by progressive cleavage of the cytoplasm." [PMID:2524423, PMID:9529886, SGD:clt]
 is_a: FAO:0000023 ! asexual spore
 
 [Term]
 id: FAO:0000026
 name: urediniospore
 namespace: fungal_anatomy_ontology
+def: "A thin-walled spore that is formed in a uredinium and is the primary dispersal mode for rust-causing Basidiomycete fungi." [FAO:mah, PMID:21642346, PMID:26731728, PMID:30206343, SGD:clt]
+synonym: "urediospore" EXACT [FAO:mah]
+synonym: "uredospore" EXACT [FAO:mah]
 is_a: FAO:0000021 ! basidiospore
 
 [Term]
 id: FAO:0000038
 name: macroconidium
 namespace: fungal_anatomy_ontology
+def: "The larger of two types of asexual spores formed by some fungi; usually round or oblong." [ISBN:0471940526, SGD:clt]
 is_a: FAO:0000024 ! conidium
 
 [Term]
 id: FAO:0000039
 name: oospore
 namespace: fungal_anatomy_ontology
+def: "An asexual spore formed by Oomycetes; formed upon fertilization of an oosphere." [ISBN:0851988857, SGD:clt]
 is_a: FAO:0000023 ! asexual spore
 
 [Term]
 id: FAO:0000041
 name: arthroconidium
 namespace: fungal_anatomy_ontology
+def: "A cylindrical spore formed by development and compartmentation of hyphae; the hyphae are often supporting blastoconidiophores." [PMID:2524423, SGD:clt]
 synonym: "arthrospore" RELATED []
 is_a: FAO:0000038 ! macroconidium
 
@@ -130,14 +163,17 @@ is_a: FAO:0000038 ! macroconidium
 id: FAO:0000042
 name: blastoconidium
 namespace: fungal_anatomy_ontology
+def: "An oblong or round asexual reproductive spore formed specifically by budding." [CGD:doi, PMID:2524423, SGD:clt]
 synonym: "blastospore" RELATED []
 synonym: "reproductive blastospore" RELATED []
+xref: GO:0034299
 is_a: FAO:0000038 ! macroconidium
 
 [Term]
 id: FAO:0000043
 name: conidiophore
 namespace: fungal_anatomy_ontology
+def: "A specialized hypha, often aerial, that gives rise to asexual spores known as conidia." [AspGD:mcc, ISBN:0471522295, PMID:9529886]
 is_a: FAO:0002004 ! multicellular fungal structure, multicellular organism
 relationship: RO:0002202 FAO:0001001 ! hypha
 
@@ -145,6 +181,7 @@ relationship: RO:0002202 FAO:0001001 ! hypha
 id: FAO:0000044
 name: sterigma
 namespace: fungal_anatomy_ontology
+def: "A small hyphal branch or structure which supports a sporangium, a conidium, or a basidiospore. In species with biseriate (two-layered) sterigmata such as A. nidulans, the first layer comprises primary sterigmata (metulae) and the second layer secondary sterigmata (phialides). Some species, e.g. A. fumigatus, A. oryzae, and others, have only phialides." [AspGD:mcc, ISBN:0471522295]
 synonym: "sterigmata (plural)" EXACT []
 is_a: FAO:0000001 ! fungal structure
 relationship: BFO:0000050 FAO:0000043 ! conidiophore
@@ -153,6 +190,7 @@ relationship: BFO:0000050 FAO:0000043 ! conidiophore
 id: FAO:0000045
 name: phialide
 namespace: fungal_anatomy_ontology
+def: "A specialized cell that buds from a metula on a developing conidiophore. Multiple phialides may bud from each metula. The phialides in turn divide asymmetrically to give rise to chains of conidia." [AspGD:mcc, PMID:9529886]
 synonym: "secondary sterigma" EXACT []
 is_a: FAO:0000044 ! sterigma
 
@@ -160,6 +198,7 @@ is_a: FAO:0000044 ! sterigma
 id: FAO:0000046
 name: metula
 namespace: fungal_anatomy_ontology
+def: "A specialized cell borne on a conidiophore that gives rise to phialides during the process of conidiation." [AspGD:mcc, PMID:9529886]
 synonym: "metulae (plural)" EXACT []
 synonym: "primary sterigma" EXACT []
 is_a: FAO:0000044 ! sterigma
@@ -168,12 +207,15 @@ is_a: FAO:0000044 ! sterigma
 id: FAO:0000047
 name: cleistothecium
 namespace: fungal_anatomy_ontology
+def: "A completely closed fruiting body formed by some fungi of the Ascomycota, containing asci." [AspGD:mcc, ISBN:0471522295]
+xref: BTO:0002159
 is_a: FAO:0000008 ! ascocarp
 
 [Term]
 id: FAO:0000048
 name: Hulle cell
 namespace: fungal_anatomy_ontology
+def: "A specialized multinucleate cell that originates from a nest-like aggregation of hyphae during sexual development. Hulle cells serve as nurse cells to the developing cleistothecium." [AspGD:mcc, PMID:19210625]
 comment: Note that "Hulle" is properly written with an umlaut on the "u".
 is_a: FAO:0000018 ! unicellular structure
 relationship: RO:0002202 FAO:0001001 ! hypha
@@ -182,6 +224,7 @@ relationship: RO:0002202 FAO:0001001 ! hypha
 id: FAO:0000050
 name: conidiophore stalk
 namespace: fungal_anatomy_ontology
+def: "The elongated part of the conidiophore that extends, often aerially, from the growth substrate and supports the structures that bear conidia." [AspGD:mcc, PMID:9529886]
 is_a: FAO:0000001 ! fungal structure
 relationship: BFO:0000050 FAO:0000043 ! conidiophore
 
@@ -189,6 +232,8 @@ relationship: BFO:0000050 FAO:0000043 ! conidiophore
 id: FAO:0000052
 name: sporangium
 namespace: fungal_anatomy_ontology
+def: "A structure within which spores develop." [FAO:curators]
+xref: GO:0043582
 is_a: FAO:0000010 ! sporophore
 created_by: Maria
 creation_date: 2011-06-10T12:06:16Z
@@ -197,24 +242,30 @@ creation_date: 2011-06-10T12:06:16Z
 id: FAO:0001001
 name: hypha
 namespace: fungal_anatomy_ontology
+def: "A long, branching filamentous structure formed by a vegetatively growing fungus." [FAO:mah, FAO:mcc, ISBN:0471522295]
 is_a: FAO:0002004 ! multicellular fungal structure, multicellular organism
 
 [Term]
 id: FAO:0001030
 name: substrate mycelium
 namespace: fungal_anatomy_ontology
+def: "An invasive mycelium that forms within a solid or semi-solid substrate such as wood, soil or agar." [FAO:doi]
+xref: BTO:0001562
 is_a: FAO:0002004 ! multicellular fungal structure, multicellular organism
 
 [Term]
 id: FAO:0001031
 name: aerial mycelium
 namespace: fungal_anatomy_ontology
+def: "A mycelium that forms prior to sporulation and extends aerially, or perpendicular, to its substrate." [FAO:doi]
+xref: BTO:0001562
 is_a: FAO:0000011 {source="BTO:0001562"} ! mycelium
 
 [Term]
 id: FAO:0002002
 name: multicellular fungal structure
 namespace: fungal_anatomy_ontology
+def: "A fungal structure that comprises more than one cell." [FAO:mah]
 is_a: FAO:0000001 ! fungal structure
 created_by: midori
 creation_date: 2019-05-03T13:33:22Z
@@ -223,6 +274,8 @@ creation_date: 2019-05-03T13:33:22Z
 id: FAO:0002004
 name: multicellular fungal structure, multicellular organism
 namespace: fungal_anatomy_ontology
+def: "A multicellular fungal structure composed of two or more cells of a single multicellular organism." [FAO:doi]
+synonym: "multicellular structure, multicellular organism" EXACT [FAO:doi]
 is_a: FAO:0002002 ! multicellular fungal structure
 created_by: midori
 creation_date: 2019-05-03T14:10:13Z
