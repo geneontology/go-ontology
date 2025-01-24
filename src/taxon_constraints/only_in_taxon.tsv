@@ -939,3 +939,5 @@ GO:0160208	fibrous body-membranous organelle	NCBITaxon:6231	Nematoda
 GO:0019833	ice nucleation activity	NCBITaxon:2	Bacteria	
 GO:0042579	microbody	NCBITaxon:2759	Eukaryota	
 GO:0030941	chloroplast targeting sequence binding	NCBITaxon:33090	Viridiplantae	
+GO:0043715	2,3-diketo-5-methylthiopentyl-1-phosphate enolase activity	NCBITaxon:2	Bacteria	
+GO:0043716	2-hydroxy-3-keto-5-methylthiopentenyl-1-phosphate phosphatase activity	NCBITaxon:2	Bacteria	
