@@ -1,13 +1,4 @@
 defined_class	defined_class_label	taxon	taxon_label	source
-GO:0000105	L-histidine biosynthetic process	NCBITaxon:9606	Homo sapiens	
-GO:0009097	isoleucine biosynthetic process	NCBITaxon:9606	Homo sapiens	
-GO:0009098	L-leucine biosynthetic process	NCBITaxon:9606	Homo sapiens	
-GO:0009085	lysine biosynthetic process	NCBITaxon:9606	Homo sapiens	
-GO:0009086	methionine biosynthetic process	NCBITaxon:9606	Homo sapiens	
-GO:0009094	L-phenylalanine biosynthetic process	NCBITaxon:9606	Homo sapiens	
-GO:0009088	threonine biosynthetic process	NCBITaxon:9606	Homo sapiens	
-GO:0000162	L-tryptophan biosynthetic process	NCBITaxon:9606	Homo sapiens	
-GO:0009099	L-valine biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0001772	immunological synapse	NCBITaxon:7742	Vertebrata	
 GO:0031911	cytoproct	NCBITaxon:5878	Ciliophora	
 GO:0008088	axo-dendritic transport	NCBITaxon:33208	Metazoa	
