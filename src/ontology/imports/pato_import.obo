@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2025-01-22/imports/pato_import.owl
+data-version: go/releases/2025-01-23/imports/pato_import.owl
 ontology: go/imports/pato_import
 
 [Term]
@@ -7,12 +7,14 @@ id: PATO:0000001
 name: quality
 namespace: quality
 alt_id: PATO:0000072
+def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" [PATOC:GVG]
 is_a: BFO:0000020
 
 [Term]
 id: PATO:0000033
 name: concentration of
 namespace: quality
+def: "A quality inhering in a substance by virtue of the amount of the bearer's there is mixed with another substance." [Wikipedia:http\://en.wikipedia.org/wiki/concentration]
 subset: attribute_slim
 subset: relational_slim
 subset: scalar_slim
@@ -23,6 +25,7 @@ is_a: PATO:0000070 ! amount
 id: PATO:0000051
 name: morphology
 namespace: quality
+def: "A quality of a single physical entity inhering in the bearer by virtue of the bearer's size or shape or structure." [PATOC:GVG]
 subset: attribute_slim
 is_a: PATO:0001241 ! physical object quality
 
@@ -31,6 +34,7 @@ id: PATO:0000052
 name: shape
 namespace: quality
 alt_id: PATO:0001647
+def: "A morphological quality inhering in a bearer by virtue of the bearer's ratios of distances between its features (points, edges, surfaces and also holes etc)." [PATOC:GVG]
 comment: Shapes are invariant on size transformations. Shapes can be subdivided into 2D and 3D shapes, We can also make a distinction between shapes of complete self-connected objects, and shapes of parts of objects.
 subset: attribute_slim
 synonym: "relational shape quality" EXACT []
@@ -44,6 +48,7 @@ alt_id: PATO:0000053
 alt_id: PATO:0000071
 alt_id: PATO:0001169
 alt_id: PATO:0001226
+def: "The number of entities of this type that are part of the whole organism." [PATOC:GVG]
 comment: This term was originally named "presence". It has been renamed to reduce ambiguity. Consider annotating with the reciprocal relation,PATO:0001555, has_number_of. For example, rather than E=fin ray Q=count in organism C=10, say E=organism Q=has number of E2= fin ray C=10.
 subset: attribute_slim
 synonym: "count in organism" RELATED []
@@ -59,7 +64,9 @@ id: PATO:0000141
 name: structure
 namespace: quality
 alt_id: PATO:0001452
+def: "A morphology quality inhering in a bearer by virtue of the bearer's relative position, shape, arrangements and connectivity of an organism's various parts; the pattern underlying its form." [PATOC:GVG]
 subset: attribute_slim
+synonym: "conformation" BROAD [VT:1000738]
 synonym: "relational structural quality" EXACT []
 is_a: PATO:0000051 ! morphology
 
@@ -67,6 +74,7 @@ is_a: PATO:0000051 ! morphology
 id: PATO:0000276
 name: brood size
 namespace: quality
+def: "A reproductive quality inhering in the young of an animal by virtue of their number." [PATOC:GVG]
 subset: attribute_slim
 subset: scalar_slim
 synonym: "litter size" RELATED []
@@ -76,6 +84,7 @@ is_a: PATO:0001496 ! brood quality
 id: PATO:0000411
 name: circular
 namespace: quality
+def: "A shape quality inhering in a bearer by virtue of the bearer's being such that every part of the surface or the circumference is equidistant from the center." [thefreedictionary.com:thefreedictionary.com]
 subset: cell_quality
 subset: mpath_slim
 subset: value_slim
@@ -87,6 +96,7 @@ is_a: PATO:0000947 ! elliptic
 id: PATO:0000947
 name: elliptic
 namespace: quality
+def: "A spheroid quality inhering in a bearer by virtue of the bearer's being oval with two axes of symmetry, as produced by a conical section." [PATOC:GVG]
 subset: cell_quality
 subset: mpath_slim
 subset: value_slim
@@ -102,8 +112,10 @@ id: PATO:0001018
 name: physical quality
 namespace: quality
 alt_id: PATO:0002079
+def: "A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities." [PATOC:GVG]
 subset: attribute_slim
 synonym: "relational physical quality" EXACT []
+xref: Wikipedia:Physical_property
 is_a: PATO:0001241 ! physical object quality
 
 [Term]
@@ -112,6 +124,7 @@ name: process quality
 namespace: quality
 alt_id: PATO:0001239
 alt_id: PATO:0001240
+def: "A quality which inheres in an process." [PATOC:GVG]
 comment: See comments of relational quality of a physical entity.
 synonym: "quality of a process" EXACT []
 synonym: "quality of occurrent" EXACT []
@@ -126,6 +139,7 @@ name: physical object quality
 namespace: quality
 alt_id: PATO:0001237
 alt_id: PATO:0001238
+def: "A quality which inheres in a continuant." [PATOC:GVG]
 comment: Relational qualities are qualities that hold between multiple entities. Normal (monadic) qualities such as the shape of a eyeball exist purely as a quality of that eyeball. A relational quality such as sensitivity to light is a quality of that eyeball (and connecting nervous system) as it relates to incoming light waves/particles.
 synonym: "monadic quality of a continuant" EXACT []
 synonym: "monadic quality of an object" NARROW []
@@ -135,12 +149,14 @@ synonym: "quality of a continuant" EXACT []
 synonym: "quality of a single physical entity" EXACT []
 synonym: "quality of an object" EXACT []
 synonym: "quality of continuant" EXACT []
+xref: snap:Quality
 is_a: PATO:0000001 ! quality
 
 [Term]
 id: PATO:0001420
 name: buoyancy
 namespace: quality
+def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to rise or float in a fluid medium such as water or air." [PATOC:GVG]
 subset: attribute_slim
 subset: disposition_slim
 subset: scalar_slim
@@ -150,12 +166,14 @@ is_a: PATO:0001018 ! physical quality
 id: PATO:0001434
 name: reproductive quality
 namespace: quality
+def: "An organismal quality inhering in a bearer by virtue of the bearer's ability to produce new life or offspring." [WordNet:WordNet]
 is_a: PATO:0001995 ! organismal quality
 
 [Term]
 id: PATO:0001496
 name: brood quality
 namespace: quality
+def: "A reproductive quality inhering in the young of an animal by virtue of the bearer's being cared for at one time." [WordNet:WordNet]
 subset: attribute_slim
 is_a: PATO:0001434 ! reproductive quality
 
@@ -163,6 +181,7 @@ is_a: PATO:0001434 ! reproductive quality
 id: PATO:0001555
 name: has number of
 namespace: quality
+def: "The number of parts of a particular type that the bearer entity has. This is a relational quality, and thus holds between two entities: the bearer of the quality, and the type of parts." [PATOC:CJM]
 subset: attribute_slim
 subset: relational_slim
 synonym: "cardinality" RELATED []
@@ -171,12 +190,14 @@ synonym: "has or lacks parts of type" EXACT []
 synonym: "mereological quality" EXACT []
 synonym: "number" RELATED []
 synonym: "number of" EXACT []
+xref: OBO_REL:has_part
 is_a: PATO:0000070 ! amount
 
 [Term]
 id: PATO:0001842
 name: acidity
 namespace: quality
+def: "A concentration quality inhering in a bearer by virtue of the bearer's containing acid (hydrogen ions)." [biology-online:biology-online]
 subset: attribute_slim
 subset: scalar_slim
 synonym: "pH" EXACT []
@@ -187,6 +208,7 @@ id: PATO:0001873
 name: cylindrical
 namespace: quality
 alt_id: PATO:0001203
+def: "A convex 3-D shape quality inhering in a bearer by virtue of the bearer's exhibiting a consistently-sized round cross section." [PATOC:MAH]
 subset: cell_quality
 subset: value_slim
 synonym: "rod-like" EXACT []
@@ -199,12 +221,14 @@ relationship: RO:0015011 PATO:0000411 ! circular
 id: PATO:0001995
 name: organismal quality
 namespace: quality
+def: "A quality that inheres in an entire organism or part of an organism." [PATOC:CJM]
 is_a: PATO:0001241 ! physical object quality
 
 [Term]
 id: PATO:0002006
 name: 2-D shape
 namespace: quality
+def: "A shape that inheres in a 2 dimensional entity, such as a cross section or projection of a 3 dimensional entity." [PATOC:CJM]
 subset: attribute_slim
 synonym: "2-D projection" RELATED []
 synonym: "cross-sectional" RELATED []
@@ -214,8 +238,10 @@ is_a: PATO:0000052 ! shape
 id: PATO:0002007
 name: convex 3-D shape
 namespace: quality
+def: "A complete three dimensional shape in which for every line connecting pair of points on the object is within the object. Or: a shape lacking cavities. Contrast: concave." [PATOC:CJM]
 comment: Use this term or an is_a child of this term when the entire shape of the object is known.
 subset: attribute_slim
+xref: Image:http\://upload.wikimedia.org/wikipedia/commons/0/06/Convex_polygon_illustration1.png
 is_a: PATO:0002266 ! 3-D shape
 relationship: RO:0015011 PATO:0002006 ! 2-D shape
 property_value: RO:0002604 PATO:0002008
@@ -224,6 +250,7 @@ property_value: RO:0002604 PATO:0002008
 id: PATO:0002226
 name: subcylindrical
 namespace: quality
+def: "A cylindrical shape quality inhering in a bearer by virtue of the bearer's being imperfectly cylindrical or approximately cylindrical." [url:http\://www.thefreedictionary.com/Subcylindrical]
 subset: value_slim
 is_a: PATO:0001873 ! cylindrical
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-2061-091X
@@ -233,6 +260,7 @@ creation_date: 2010-07-13T04:22:30Z
 id: PATO:0002266
 name: 3-D shape
 namespace: quality
+def: "A shape that inheres in a 3 dimensional entity." [PATOC:OREGON]
 is_a: PATO:0000052 ! shape
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-2061-091X
 creation_date: 2010-10-05T12:31:16Z
@@ -241,6 +269,7 @@ creation_date: 2010-10-05T12:31:16Z
 id: PATO:0002309
 name: fiber shaped
 namespace: quality
+def: "A convex 3-D shape quality inhering in a bearer by virtue of the bearer's exhibiting a by virtue of the bearer's exhibiting a consistently sized and approximately round cross-section along its length, which is many times larger than its diameter." [PATOC:DC]
 comment: Note that a fiber shaped object may take any circuitous or straight path through space (think of a length of string or rope).
 subset: value_slim
 is_a: PATO:0002226 ! subcylindrical
@@ -251,6 +280,7 @@ creation_date: 2011-09-09T04:50:10Z
 id: PATO:0002318
 name: superelliptic
 namespace: quality
+def: "A shape constituting a transition between a rectangle and a circle; a closed curve, of which the circle and ellipse are special cases, whose parametric equation is x = a.cos2/rt, y = b.cos2/rt" [wiktionary:superellipse]
 synonym: "Lamé curve" EXACT []
 is_a: PATO:0002006 ! 2-D shape
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-2061-091X
@@ -260,6 +290,7 @@ creation_date: 2011-10-12T12:45:16Z
 id: PATO:0002487
 name: single organismal process quality
 namespace: quality
+def: "A quality inhering in a process by virtue of that process having exactly one organism as a participant." [PATOC:DS]
 subset: attribute_slim
 is_a: PATO:0001236 ! process quality
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-2061-091X
@@ -269,6 +300,7 @@ creation_date: 2013-10-10T04:09:51Z
 id: PATO:0015006
 name: polymeric
 namespace: quality
+def: "A quality inhering in a structure by virtue of it consisting of many of repeated, similar or identical subunits, arranged in some orderly array." [GOC:DOS, https://github.com/pato-ontology/pato/issues/78]
 comment: A complete coverage of this domain would subclasses homopolymeric, copolymeric, crystalline.
 subset: value_slim
 is_a: PATO:0000141 ! structure
@@ -277,6 +309,7 @@ is_a: PATO:0000141 ! structure
 id: PATO:0103000
 name: quantitative
 namespace: quality
+def: "A quality of an entity that can be represented numerically, including anything that can be counted, measured, or given a numerical value." [https://libguides.macalester.edu/c.php?g=527786&p=3608639, https://www.nnlm.gov/guides/data-glossary/quantitative-data]
 is_a: PATO:0000001 ! quality
 created_by: https://orcid.org/0000-0001-8314-2140
 

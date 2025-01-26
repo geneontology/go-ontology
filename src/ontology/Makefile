@@ -543,19 +543,18 @@ mirror/eco.owl: mirror/eco-download.owl
 	cp $< $@
 
 mirror/%.owl: mirror/%-download.owl
-	$(ROBOT) remove --input $< --base-iri 'http://purl.obolibrary.org/obo/$(shell echo $* | tr '[:lower:]' '[:upper:]')_' --axioms external --preserve-structure false --trim false remove --select imports --trim false remove --term 'http://www.geneontology.org/formats/oboInOwl#hasDbXref' --trim true --output $@
+	$(ROBOT) remove --input $< --base-iri 'http://purl.obolibrary.org/obo/$(shell echo $* | tr '[:lower:]' '[:upper:]')_' --axioms external --preserve-structure false --trim false remove --select imports --trim false --output $@
+# remove --term 'http://www.geneontology.org/formats/oboInOwl#hasDbXref' --trim false # need newer ROBOT version to do this without dropping definitions and synonyms
 #remove --drop-axiom-annotations all # need newer ROBOT version
 .PRECIOUS: mirror/%.owl
 
 # ----------------------------------------
 # CHEBI ROLES
 # ----------------------------------------
-mirror/chebi.obo: mirror/chebi-download.owl
-	$(OWLTOOLS) $< -o -f obo $@.tmp && mv $@.tmp $@
 
 HAS_ROLE = RO:0000087
 
-role.obo: mirror/chebi.obo
+role.obo: mirror/chebi.owl
 	$(OWLTOOLS) $< --reasoner-query -r elk -d CHEBI:50906 --make-ontology-from-results $(OBO)/go/chebi/role.owl -o -f obo $@
 
 imports/substance_by_role_equiv.obo: role.obo
