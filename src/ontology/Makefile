@@ -143,7 +143,7 @@ deploy-release:
 	gzip -c $< > $@.tmp && mv $@.tmp $@
 
 %.json: %.owl
-	$(OWLTOOLS) $(USECAT) $< -o -f json $@
+	$(ROBOT) convert --input $< -f json -o $@
 .PRECIOUS: %.json
 
 # ----------------------------------------
@@ -216,11 +216,10 @@ $(GO_PLUS).owl: reasoned.owl imports/go-computed-taxon-constraints.owl
 	$(ROBOT) unmerge -i $< -i imports/go_taxon_constraints.owl merge --collapse-import-closure true --include-annotations false merge -i imports/go-computed-taxon-constraints.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: $(GO_PLUS).owl
 
-# Create release file containing GO-asserted axioms, no external axioms, and no inferences.
-# GO artifacts to merge are hardcoded here. Would make sense to eventually consolidate go-plus
-# as just the merge of go-base.
-go-base.owl: enhanced.owl
-	$(ROBOT) remove -i $< --select imports --trim false merge -i extensions/go-gci.owl -i extensions/go-bridge.owl -i extensions/ro_pending.owl -i imports/x-disjoint.ofn annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+# Create release file containing GO-asserted axioms, no external axioms.
+# GO artifacts to merge are hardcoded here.
+go-base.owl: $(GO_PLUS).owl
+	$(ROBOT) remove -i $< --select imports --trim false remove --base-iri 'http://purl.obolibrary.org/obo/GO_' --base-iri 'http://purl.obolibrary.org/obo/GOREL_' --base-iri 'http://purl.obolibrary.org/obo/GOCHE_' --base-iri 'http://purl.obolibrary.org/obo/NCBITaxon_Union_' --axioms external --preserve-structure false --trim false merge -i extensions/go-gci.owl -i extensions/go-bridge.owl -i extensions/ro_pending.owl -i imports/x-disjoint.ofn annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 $(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).owl extensions/gorel.owl mirror/cl.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
@@ -404,10 +403,6 @@ imports/go-computed-taxon-constraints.obo: imports/go-computed-taxon-constraints
 imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
 
-#bio-chebi-merged.owl: bio-chebi.owl
-#	$(OWLTOOLS) $(USECAT) $< --merge-imports-closure -o $@
-#imports/chebi_import.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
-#	$(ROBOT) extract -i $< -T imports/chebi_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
 CHEBIRELS = RO:0004007 RO:0004009 RO:0004008 RO:0000057 RO:0002233 RO:0002234 RO:0002313 RO:0002233 RO:0002332 RO:0002340  RO:0002345 BFO:0000051 RO:0000087 GOCHEREL:0000000 GOCHEREL:0000001 GOCHEREL:0000002  GOCHEREL:0000003 GOCHEREL:0000004
 
 #robot doesn't appear to work for making modules with GCIs; hence this contorted mechanism
@@ -427,9 +422,11 @@ imports/%_import.obo: imports/%_import.owl
 # CACHEING EXTERNAL ONTOLOGIES
 # ----------------------------------------
 
-# Fix external ontologies to specific versions. These should be updated regularly!
+# Fix external ontologies to specific release versions if necessary. These should be updated regularly! Otherwise use the standard PURL.
 CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.owl.gz
 CL_SOURCE=http://purl.obolibrary.org/obo/cl/cl-base.owl
+FAO_SOURCE=http://purl.obolibrary.org/obo/fao/fao-base.owl
+PATO_SOURCE=http://purl.obolibrary.org/obo/pato/pato-base.owl
 UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/uberon-base.owl
 WBBT_SOURCE=http://purl.obolibrary.org/obo/wbbt/wbbt-base.owl
 ECO_SOURCE=http://purl.obolibrary.org/obo/eco/eco-basic.owl
@@ -444,9 +441,6 @@ mirror:
 mirror/ncbitaxon-download.owl: imports/ncbitaxon_terms.txt
 	wget --no-check-certificate $(OBO)/ncbitaxon.obo $(WGET_OUT)
 .PRECIOUS: mirror/ncbitaxon-download.owl
-#mirror/ncbitaxon-download-enhanced.owl: mirror/ncbitaxon-download.owl
-#	OWLTOOLS_MEMORY=12G owltools  $< --create-taxon-disjoint-over-in-taxon -s -r NCBITaxon:1 -m --set-ontology-id $OBO/zz -o
-#.PRECIOUS: mirror/ncbitaxon-download-enhanced.owl
 
 mirror/taxslim.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/ncbitaxon/subsets/taxslim.owl $(WGET_OUT)
@@ -470,11 +464,6 @@ mirror/uberon-download.owl: $(SRC)
 	wget --no-check-certificate $(UBERON_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/uberon-download.owl
 
-# special case: use base for pato
-mirror/pato-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/pato/pato-base.owl $(WGET_OUT)
-.PRECIOUS: mirror/pato-download.owl
-
 # special case: use basic for oba
 mirror/oba-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo -O $@.tmp && $(OWLTOOLS) $@.tmp --make-subset-by-properties -n // -o $@
@@ -483,6 +472,14 @@ mirror/oba-download.owl: $(SRC)
 mirror/cl-download.owl: $(SRC)
 	wget --no-check-certificate $(CL_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/cl-download.owl
+
+mirror/fao-download.owl: $(SRC)
+	wget --no-check-certificate $(FAO_SOURCE) $(WGET_OUT)
+.PRECIOUS: mirror/fao-download.owl
+
+mirror/pato-download.owl: $(SRC)
+	wget --no-check-certificate $(PATO_SOURCE) $(WGET_OUT)
+.PRECIOUS: mirror/pato-download.owl
 
 mirror/wbbt-download.owl: $(SRC)
 	wget --no-check-certificate $(WBBT_SOURCE) $(WGET_OUT)
@@ -539,37 +536,25 @@ biochebi_gcis.ofn: biochebi_gcis.tsv ../biochebi/biochebi_gcis.yaml
 imports/go-lego-chebi-import.owl: bio-chebi.owl ../biochebi/go-lego-chebi-import-terms.txt
 	$(ROBOT) extract -i $< -T ../biochebi/go-lego-chebi-import-terms.txt --method BOT annotate -O $(BASE)/imports/go-lego-chebi-import.owl -V $(RELEASE_URIBASE)/imports/go-lego-chebi-import.owl -o $@
 
-# filter axioms
-FILTER_EXTERNAL=--remove-axioms-about -d GO --remove-imports-declarations --remove-annotation-assertions -l -s -d -r --remove-axiom-annotations --remove-dangling-annotations --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/$@
-
-mirror/so.owl: mirror/so-download.owl
-	$(OWLTOOLS) --use-catalog $< --make-subset-by-properties // -o $@
 .PRECIOUS: mirror/uberon.owl
 
-# Removing all external axioms from PR; considering refactoring all imports to create a "base"-ish version if not published
-mirror/pr.owl: mirror/pr-download.owl
-	$(OWLTOOLS) $< $(FILTER_EXTERNAL) --remove-axioms-about -d -v PR -o $@
-
-mirror/opl.owl: mirror/opl-download.owl
-	$(OWLTOOLS) $< $(FILTER_EXTERNAL) --remove-axioms-about -d -v OPL -o $@
-
-# Avoid filtering annotations out via owltools. dbxrefs for three-letter codes are needed in Amigo.
+# Avoid filtering xref annotations. dbxrefs for three-letter codes are needed in Amigo.
 mirror/eco.owl: mirror/eco-download.owl
 	cp $< $@
 
 mirror/%.owl: mirror/%-download.owl
-	$(OWLTOOLS) $< $(FILTER_EXTERNAL) -o $@
+	$(ROBOT) remove --input $< --base-iri 'http://purl.obolibrary.org/obo/$(shell echo $* | tr '[:lower:]' '[:upper:]')_' --axioms external --preserve-structure false --trim false remove --select imports --trim false --output $@
+# remove --term 'http://www.geneontology.org/formats/oboInOwl#hasDbXref' --trim false # need newer ROBOT version to do this without dropping definitions and synonyms
+#remove --drop-axiom-annotations all # need newer ROBOT version
 .PRECIOUS: mirror/%.owl
 
 # ----------------------------------------
 # CHEBI ROLES
 # ----------------------------------------
-mirror/chebi.obo: mirror/chebi-download.owl
-	$(OWLTOOLS) $< -o -f obo $@.tmp && mv $@.tmp $@
 
 HAS_ROLE = RO:0000087
 
-role.obo: mirror/chebi.obo
+role.obo: mirror/chebi.owl
 	$(OWLTOOLS) $< --reasoner-query -r elk -d CHEBI:50906 --make-ontology-from-results $(OBO)/go/chebi/role.owl -o -f obo $@
 
 imports/substance_by_role_equiv.obo: role.obo
