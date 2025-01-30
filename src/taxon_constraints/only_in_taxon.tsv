@@ -933,3 +933,5 @@ GO:0030941	chloroplast targeting sequence binding	NCBITaxon:33090	Viridiplantae
 GO:0043715	2,3-diketo-5-methylthiopentyl-1-phosphate enolase activity	NCBITaxon:2	Bacteria	
 GO:0043716	2-hydroxy-3-keto-5-methylthiopentenyl-1-phosphate phosphatase activity	NCBITaxon:2	Bacteria	
 GO:0160237	D-Ala-D-Ala dipeptidase activity	NCBITaxon:2	Bacteria	
+GO:0140095	cytoplasmic lattice	NCBITaxon:40674	Mammalia	
+GO:0140094	structural constituent of cytoplasmic lattice	NCBITaxon:40674	Mammalia	
