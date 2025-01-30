@@ -542,8 +542,13 @@ imports/go-lego-chebi-import.owl: bio-chebi.owl ../biochebi/go-lego-chebi-import
 mirror/eco.owl: mirror/eco-download.owl
 	cp $< $@
 
+# WBbt must be special-cased due to the mixed-case prefix
+# We are already downloading its base file, but there is still some duplicative RO content it it.
+mirror/wbbt.owl: mirror/wbbt-download.owl
+	$(ROBOT) remove --input $< --base-iri 'http://purl.obolibrary.org/obo/WBbt_' --axioms external --preserve-structure false --trim false remove --select imports --trim false annotate --ontology-iri $(OBO)/$@ --output $@
+
 mirror/%.owl: mirror/%-download.owl
-	$(ROBOT) remove --input $< --base-iri 'http://purl.obolibrary.org/obo/$(shell echo $* | tr '[:lower:]' '[:upper:]')_' --axioms external --preserve-structure false --trim false remove --select imports --trim false --output $@
+	$(ROBOT) remove --input $< --base-iri 'http://purl.obolibrary.org/obo/$(shell echo $* | tr '[:lower:]' '[:upper:]')_' --axioms external --preserve-structure false --trim false remove --select imports --trim false annotate --ontology-iri $(OBO)/$@ --output $@
 # remove --term 'http://www.geneontology.org/formats/oboInOwl#hasDbXref' --trim false # need newer ROBOT version to do this without dropping definitions and synonyms
 #remove --drop-axiom-annotations all # need newer ROBOT version
 .PRECIOUS: mirror/%.owl
