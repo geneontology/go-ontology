@@ -422,6 +422,7 @@ PATO_SOURCE=http://purl.obolibrary.org/obo/pato/pato-base.owl
 UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/uberon-base.owl
 WBBT_SOURCE=http://purl.obolibrary.org/obo/wbbt/wbbt-base.owl
 ECO_SOURCE=http://purl.obolibrary.org/obo/eco/eco-basic.owl
+OBA_SOURCE=http://purl.obolibrary.org/obo/oba/subsets/oba-basic.obo
 
 WGET_OUT = -O $@.tmp && cp $@.tmp $@ && touch $@
 
@@ -451,14 +452,12 @@ mirror/chebi-download.owl: $(SRC)
 	wget --no-check-certificate $(CHEBI_SOURCE) -O $@.tmp.gz && mv $@.tmp.gz $@.gz && gunzip -f $@.gz && touch $@
 .PRECIOUS: mirror/chebi-download.owl
 
-# special case: use ext for uberon
 mirror/uberon-download.owl: $(SRC)
 	wget --no-check-certificate $(UBERON_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/uberon-download.owl
 
-# special case: use basic for oba
 mirror/oba-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/oba/subsets/oba-basic.obo -O $@.tmp && $(OWLTOOLS) $@.tmp --make-subset-by-properties -n // -o $@
+	wget --no-check-certificate $(OBA_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/oba-download.owl
 
 mirror/cl-download.owl: $(SRC)
@@ -552,7 +551,7 @@ mirror/%.owl: mirror/%-download.owl
 HAS_ROLE = RO:0000087
 
 role.obo: mirror/chebi.owl
-	$(OWLTOOLS) $< --reasoner-query -r elk -d CHEBI:50906 --make-ontology-from-results $(OBO)/go/chebi/role.owl -o -f obo $@
+	$(ROBOT) remove -i $< --term CHEBI:50906 --select "self descendants" --select "complement" --select "classes" annotate -O $(OBO)/go/chebi/role.owl -o $@
 
 imports/substance_by_role_equiv.obo: role.obo
 	../util/make-substance-by-role.pl -s 'role' -r $(HAS_ROLE) $< > $@.tmp && mv $@.tmp $@
@@ -681,62 +680,6 @@ reports/src-%.tsv: go-edit.obo $(SPARQLDIR)/%.sparql $(REPORTDIR)
 
 reports/referenced_chebi_terms.tsv: $(SRC)
 	$(ROBOT) query -f tsv -i $< --query $(SPARQLDIR)/referenced-chebi-terms.sparql $@.tmp && mv $@.tmp $@
-
-
-# ----------------------------------------
-# ADDING INFERENCES
-# ----------------------------------------
-
-# first strip the go_inferences import; we need to do this
-# because we cannot create a new ontology with the same name
-# TEMPORARY: we should be able to remove this step soon
-go-edit_noinf.obo: go-edit.obo
-	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_inferences.owl' $< > $@.tmp && mv $@.tmp $@
-
-# use robot to place inferences in a new file.
-# TBD: should relaxed axioms go here?
-go_inferences.owl: go-edit_noinf.obo
-	$(ROBOT) reason -i $< -r ELK -n true -a true -x true annotate -R -O $(OBO)/go/imports/go_inferences.owl -o $@.tmp.owl && mv $@.tmp.owl $@
-
-# translation to obo.
-# note that in order to get obo "!" comments into the file (to enhance readability), we must:
-# (a) import the go ontology that contains the labels (b) save (c) strip out the import directive
-# NOTE: in svn pipeline, this file was committed by jenkins job every time ontology is edited.
-go_inferences.obo: go_inferences.owl
-	$(OWLTOOLS) $< --use-catalog go-edit.obo --add-imports-from-supports -o -f obo $@.tmp && grep -v ^import: $@.tmp > $@
-.PRECIOUS: go_inferences.obo
-
-# TODO: change this once diff pipeline in place
-#go_inferences.obo-previous: $(SRC)
-#	wget --no-check-certificate http://geneontology.org/ontology/editors/go_inferences.obo -O $@
-
-%-previous: $(SRC)
-	wget --no-check-certificate https://build.berkeleybop.org/job/build-go-ontology-inferences/lastSuccessfulBuild/artifact/target/$* -O $@.tmp && mv $@.tmp $@ || echo "Fresh diffs" > $@
-
-# get the difference between the current staged inferences file and the
-# last one to be checked in.
-go_inferences.diff: go_inferences.obo go_inferences.obo-previous
-	echo getting log
-	git log --date=iso $(SRC) | head -6 > $@
-	echo >> $@
-	echo "changes in entailments" >> $@
-	echo >> $@
-	echo diffing
-	diff -u go_inferences.obo-previous go_inferences.obo >> $@ || echo differences found
-.PRECIOUS: go_inferences.diff
-
-# append latest diffs onto difflog
-# NOTE: in svn pipeline, this file was committed by jenkins job every time ontology is edited.
-go_inferences_difflog.txt: go_inferences.diff go_inferences_difflog.txt-previous
-	cat $^ > $@.tmp && mv $@.tmp $@
-
-# reasoner diffs
-idiff: go_inferences_difflog.txt
-	mkdir -p $(RELEASEDIR)/
-	cp go_inferences_difflog.txt $(RELEASEDIR) && \
-	cp go_inferences.diff $(RELEASEDIR) && \
-	cp go_inferences.obo $(RELEASEDIR)
-
 
 # ----------------------------------------
 # DESIGN PATTERNS
