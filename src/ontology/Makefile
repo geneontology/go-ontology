@@ -403,16 +403,8 @@ imports/go-computed-taxon-constraints.obo: imports/go-computed-taxon-constraints
 imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
 
-CHEBIRELS = RO:0004007 RO:0004009 RO:0004008 RO:0000057 RO:0002233 RO:0002234 RO:0002313 RO:0002233 RO:0002332 RO:0002340  RO:0002345 BFO:0000051 RO:0000087 GOCHEREL:0000000 GOCHEREL:0000001 GOCHEREL:0000002  GOCHEREL:0000003 GOCHEREL:0000004
-
-#robot doesn't appear to work for making modules with GCIs; hence this contorted mechanism
-# See: https://github.com/ontodev/robot/issues/175
-seed.owl: $(SRC)
-	$(OWLTOOLS) $(USECAT) $< --remove-imports-declarations -o $@
-imports/chebi_import_nogci.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
-	$(ROBOT) extract -i bio-chebi.owl -T imports/chebi_terms_combined.txt --method BOT -O $(BASE)/$@ annotate -V $(RELEASE_URIBASE)/$@ -o $@
-imports/chebi_import.owl: imports/chebi_import_nogci.owl seed.owl bio-chebi.owl
-	$(OWLTOOLS) $(USECAT) seed.owl $< --merge-support-ontologies  bio-chebi.owl --add-imports-from-supports --extract-module -s $(OBO)/go/extensions/bio-chebi.owl -c  --make-subset-by-properties -n $(CHEBIRELS) // --remove-annotation-assertions -r -l -p 'http://www.geneontology.org/formats/oboInOwl#inSubset' --add-obo-shorthand-to-properties --set-ontology-id $(OBO)/go/$@ -o $@
+imports/chebi_import.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
+	$(ROBOT) extract -i bio-chebi.owl -T imports/chebi_terms_combined.txt --method BOT remove --term 'http://www.w3.org/2000/01/rdf-schema#label' --term 'http://www.geneontology.org/formats/oboInOwl#inSubset' --term 'http://purl.obolibrary.org/obo/go#chebi_ph7_3' --select complement --select annotation-properties --signature true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: imports/chebi_import.owl
 
 imports/%_import.obo: imports/%_import.owl
