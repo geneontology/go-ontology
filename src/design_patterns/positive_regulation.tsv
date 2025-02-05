@@ -151,7 +151,7 @@ http://purl.obolibrary.org/obo/GO_2000761	positive regulation of N-terminal pept
 http://purl.obolibrary.org/obo/GO_1904665	positive regulation of N-terminal peptidyl-methionine acetylation	http://purl.obolibrary.org/obo/GO_0017196	N-terminal peptidyl-methionine acetylation
 http://purl.obolibrary.org/obo/GO_1902690	positive regulation of NAD metabolic process	http://purl.obolibrary.org/obo/GO_0019674	NAD metabolic process
 http://purl.obolibrary.org/obo/GO_0033864	positive regulation of NAD(P)H oxidase activity	http://purl.obolibrary.org/obo/GO_0016174	NAD(P)H oxidase H2O2-forming activity
-http://purl.obolibrary.org/obo/GO_1901666	positive regulation of NAD+ ADP-ribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0003950	NAD+-protein poly-ADP-ribosyltransferase activity
+http://purl.obolibrary.org/obo/GO_1901666	positive regulation of NAD+ ADP-ribosyltransferase activity	http://purl.obolibrary.org/obo/GO_0003950	NAD+ poly-ADP-ribosyltransferase activity
 http://purl.obolibrary.org/obo/GO_0051135	positive regulation of NK T cell activation	http://purl.obolibrary.org/obo/GO_0051132	NK T cell activation
 http://purl.obolibrary.org/obo/GO_0051138	positive regulation of NK T cell differentiation	http://purl.obolibrary.org/obo/GO_0001865	NK T cell differentiation
 http://purl.obolibrary.org/obo/GO_0051142	positive regulation of NK T cell proliferation	http://purl.obolibrary.org/obo/GO_0001866	NK T cell proliferation
@@ -1844,11 +1844,11 @@ http://purl.obolibrary.org/obo/GO_0010701	positive regulation of norepinephrine 
 http://purl.obolibrary.org/obo/GO_0051623	positive regulation of norepinephrine uptake	http://purl.obolibrary.org/obo/GO_0051620	norepinephrine uptake
 http://purl.obolibrary.org/obo/GO_0010571	positive regulation of nuclear cell cycle DNA replication	http://purl.obolibrary.org/obo/GO_0033260	nuclear DNA replication
 http://purl.obolibrary.org/obo/GO_0051785	positive regulation of nuclear division	http://purl.obolibrary.org/obo/GO_0000280	nuclear division
+http://purl.obolibrary.org/obo/GO_0120272	positive regulation of nuclear mRNA surveillance of meiosis-specific transcripts	http://purl.obolibrary.org/obo/GO_0033621	nuclear mRNA surveillance of meiosis-specific transcripts
 http://purl.obolibrary.org/obo/GO_1902840	positive regulation of nuclear migration along microtubule	http://purl.obolibrary.org/obo/GO_0030473	nuclear migration along microtubule
 http://purl.obolibrary.org/obo/GO_1902854	positive regulation of nuclear migration during mitotic telophase	http://purl.obolibrary.org/obo/GO_0090561	nuclear migration during mitotic telophase
 http://purl.obolibrary.org/obo/GO_2000324	positive regulation of nuclear receptor-mediated glucocorticoid signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	nuclear receptor-mediated glucocorticoid signaling pathway
 http://purl.obolibrary.org/obo/GO_1900153	positive regulation of nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay	http://purl.obolibrary.org/obo/GO_0000288	nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay
-http://purl.obolibrary.org/obo/GO_0120272	positive regulation of nuclear-transcribed mRNA catabolic process, meiosis-specific transcripts	http://purl.obolibrary.org/obo/GO_0033621	nuclear mRNA surveillance of meiosis-specific transcripts
 http://purl.obolibrary.org/obo/GO_2000624	positive regulation of nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	http://purl.obolibrary.org/obo/GO_0000184	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
 http://purl.obolibrary.org/obo/GO_0060213	positive regulation of nuclear-transcribed mRNA poly(A) tail shortening	http://purl.obolibrary.org/obo/GO_0000289	nuclear-transcribed mRNA poly(A) tail shortening
 http://purl.obolibrary.org/obo/GO_0032075	positive regulation of nuclease activity	http://purl.obolibrary.org/obo/GO_0004518	nuclease activity

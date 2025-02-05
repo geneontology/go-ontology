@@ -49,7 +49,7 @@ http://purl.obolibrary.org/obo/GO_0015742	alpha-ketoglutarate transport	http://p
 http://purl.obolibrary.org/obo/GO_0015690	aluminum cation transport	http://purl.obolibrary.org/obo/CHEBI_63062	aluminium cation
 http://purl.obolibrary.org/obo/GO_0042886	amide transport	http://purl.obolibrary.org/obo/CHEBI_32988	amide
 http://purl.obolibrary.org/obo/GO_0015837	amine transport	http://purl.obolibrary.org/obo/CHEBI_32952	amine
-http://purl.obolibrary.org/obo/GO_0006865	amino acid transport	http://purl.obolibrary.org/obo/CHEBI_35238	amino acid zwitterion
+http://purl.obolibrary.org/obo/GO_0006865	amino acid transport	http://purl.obolibrary.org/obo/CHEBI_35238	amino-acid zwitterion
 http://purl.obolibrary.org/obo/GO_0015838	amino-acid betaine transport	http://purl.obolibrary.org/obo/CHEBI_22860	amino-acid betaine
 http://purl.obolibrary.org/obo/GO_0015917	aminophospholipid transport	http://purl.obolibrary.org/obo/CHEBI_60971	aminophospholipid
 http://purl.obolibrary.org/obo/GO_0015899	aminotriazole transport	http://purl.obolibrary.org/obo/CHEBI_40036	amitrole
@@ -205,7 +205,7 @@ http://purl.obolibrary.org/obo/GO_1990428	miRNA transport	http://purl.obolibrary
 http://purl.obolibrary.org/obo/GO_0042885	microcin B17 transport	http://purl.obolibrary.org/obo/CHEBI_64624	microcin B17
 http://purl.obolibrary.org/obo/GO_0042884	microcin transport	http://purl.obolibrary.org/obo/CHEBI_64627	microcin
 http://purl.obolibrary.org/obo/GO_1905431	microcystin transport	http://purl.obolibrary.org/obo/CHEBI_48041	microcystin
-http://purl.obolibrary.org/obo/GO_0072337	modified amino acid transport	http://purl.obolibrary.org/obo/CHEBI_83821	amino acid derivative
+http://purl.obolibrary.org/obo/GO_0072337	modified amino acid transport	http://purl.obolibrary.org/obo/CHEBI_83821	amino-acid derivative
 http://purl.obolibrary.org/obo/GO_0015689	molybdate ion transport	http://purl.obolibrary.org/obo/CHEBI_36264	molybdate
 http://purl.obolibrary.org/obo/GO_0015844	monoamine transport	http://purl.obolibrary.org/obo/CHEBI_63534	monoamine
 http://purl.obolibrary.org/obo/GO_0006820	monoatomic anion transport	http://purl.obolibrary.org/obo/CHEBI_23905	monoatomic anion

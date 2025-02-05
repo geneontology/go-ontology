@@ -237,7 +237,7 @@ http://purl.obolibrary.org/obo/GO_1900492	negative regulation of [4Fe-4S] cluste
 http://purl.obolibrary.org/obo/GO_0090359	negative regulation of abscisic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0009688	abscisic acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0009788	negative regulation of abscisic acid-activated signaling pathway	http://purl.obolibrary.org/obo/GO_0009738	abscisic acid-activated signaling pathway
 http://purl.obolibrary.org/obo/GO_0045753	negative regulation of acetate catabolic process	http://purl.obolibrary.org/obo/GO_0045733	acetate catabolic process
-http://purl.obolibrary.org/obo/GO_0160218	negative regulation of acetyl-CoA biosynthetic process from pyruvate	http://purl.obolibrary.org/obo/GO_0006086	acetyl-CoA biosynthetic process from pyruvate
+http://purl.obolibrary.org/obo/GO_0160218	negative regulation of acetyl-CoA biosynthetic process from pyruvate	http://purl.obolibrary.org/obo/GO_0006086	pyruvate decarboxylation to acetyl-CoA
 http://purl.obolibrary.org/obo/GO_1905922	negative regulation of acetylcholine biosynthetic process	http://purl.obolibrary.org/obo/GO_0008292	acetylcholine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0060410	negative regulation of acetylcholine metabolic process	http://purl.obolibrary.org/obo/GO_0008291	acetylcholine metabolic process
 http://purl.obolibrary.org/obo/GO_0014058	negative regulation of acetylcholine secretion, neurotransmission	http://purl.obolibrary.org/obo/GO_0014055	acetylcholine secretion, neurotransmission
@@ -1857,11 +1857,11 @@ http://purl.obolibrary.org/obo/GO_0010700	negative regulation of norepinephrine 
 http://purl.obolibrary.org/obo/GO_0051622	negative regulation of norepinephrine uptake	http://purl.obolibrary.org/obo/GO_0051620	norepinephrine uptake
 http://purl.obolibrary.org/obo/GO_1902576	negative regulation of nuclear cell cycle DNA replication	http://purl.obolibrary.org/obo/GO_0033260	nuclear DNA replication
 http://purl.obolibrary.org/obo/GO_0051784	negative regulation of nuclear division	http://purl.obolibrary.org/obo/GO_0000280	nuclear division
+http://purl.obolibrary.org/obo/GO_0120271	negative regulation of nuclear mRNA surveillance of meiosis-specific transcripts	http://purl.obolibrary.org/obo/GO_0033621	nuclear mRNA surveillance of meiosis-specific transcripts
 http://purl.obolibrary.org/obo/GO_1902839	negative regulation of nuclear migration along microtubule	http://purl.obolibrary.org/obo/GO_0030473	nuclear migration along microtubule
 http://purl.obolibrary.org/obo/GO_1902853	negative regulation of nuclear migration during mitotic telophase	http://purl.obolibrary.org/obo/GO_0090561	nuclear migration during mitotic telophase
 http://purl.obolibrary.org/obo/GO_2000323	negative regulation of nuclear receptor-mediated glucocorticoid signaling pathway	http://purl.obolibrary.org/obo/GO_0042921	nuclear receptor-mediated glucocorticoid signaling pathway
 http://purl.obolibrary.org/obo/GO_1900152	negative regulation of nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay	http://purl.obolibrary.org/obo/GO_0000288	nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay
-http://purl.obolibrary.org/obo/GO_0120271	negative regulation of nuclear-transcribed mRNA catabolic process, meiosis-specific transcripts	http://purl.obolibrary.org/obo/GO_0033621	nuclear mRNA surveillance of meiosis-specific transcripts
 http://purl.obolibrary.org/obo/GO_2000623	negative regulation of nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	http://purl.obolibrary.org/obo/GO_0000184	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
 http://purl.obolibrary.org/obo/GO_0060212	negative regulation of nuclear-transcribed mRNA poly(A) tail shortening	http://purl.obolibrary.org/obo/GO_0000289	nuclear-transcribed mRNA poly(A) tail shortening
 http://purl.obolibrary.org/obo/GO_0032074	negative regulation of nuclease activity	http://purl.obolibrary.org/obo/GO_0004518	nuclease activity
@@ -2090,7 +2090,7 @@ http://purl.obolibrary.org/obo/GO_0060686	negative regulation of prostatic bud f
 http://purl.obolibrary.org/obo/GO_1901799	negative regulation of proteasomal protein catabolic process	http://purl.obolibrary.org/obo/GO_0010498	proteasomal protein catabolic process
 http://purl.obolibrary.org/obo/GO_0032435	negative regulation of proteasomal ubiquitin-dependent protein catabolic process	http://purl.obolibrary.org/obo/GO_0043161	proteasome-mediated ubiquitin-dependent protein catabolic process
 http://purl.obolibrary.org/obo/GO_1905765	negative regulation of protection from non-homologous end joining at telomere	http://purl.obolibrary.org/obo/GO_0031848	protection from non-homologous end joining at telomere
-http://purl.obolibrary.org/obo/GO_0010836	negative regulation of protein ADP-ribosylation	http://purl.obolibrary.org/obo/GO_1990404	NAD+-protein ADP-ribosyltransferase activity
+http://purl.obolibrary.org/obo/GO_0010836	negative regulation of protein ADP-ribosylation	http://purl.obolibrary.org/obo/GO_1990404	NAD+-protein mono-ADP-ribosyltransferase activity
 http://purl.obolibrary.org/obo/GO_1903094	negative regulation of protein K48-linked deubiquitination	http://purl.obolibrary.org/obo/GO_0071108	protein K48-linked deubiquitination
 http://purl.obolibrary.org/obo/GO_0061944	negative regulation of protein K48-linked ubiquitination	http://purl.obolibrary.org/obo/GO_0070936	protein K48-linked ubiquitination
 http://purl.obolibrary.org/obo/GO_1903005	negative regulation of protein K63-linked deubiquitination	http://purl.obolibrary.org/obo/GO_0070536	protein K63-linked deubiquitination
