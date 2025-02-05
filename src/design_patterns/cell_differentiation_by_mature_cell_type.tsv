@@ -40,7 +40,7 @@ http://purl.obolibrary.org/obo/GO_0072539	T-helper 17 cell differentiation	http:
 http://purl.obolibrary.org/obo/GO_0045064	T-helper 2 cell differentiation	http://purl.obolibrary.org/obo/CL_0000546	T-helper 2 cell
 http://purl.obolibrary.org/obo/GO_0042093	T-helper cell differentiation	http://purl.obolibrary.org/obo/CL_0000492	CD4-positive helper T cell
 http://purl.obolibrary.org/obo/GO_0090425	acinar cell differentiation	http://purl.obolibrary.org/obo/CL_0000622	acinar cell
-http://purl.obolibrary.org/obo/GO_1903680	acinar cell of sebaceous gland differentiation	http://purl.obolibrary.org/obo/CL_0002140	acinar cell of sebaceous gland
+http://purl.obolibrary.org/obo/GO_1903680	acinar cell of sebaceous gland differentiation	http://purl.obolibrary.org/obo/CL_0002140	skin sebocyte
 http://purl.obolibrary.org/obo/GO_0061104	adrenal chromaffin cell differentiation	http://purl.obolibrary.org/obo/CL_1000426	chromaffin cell of adrenal gland
 http://purl.obolibrary.org/obo/GO_0046632	alpha-beta T cell differentiation	http://purl.obolibrary.org/obo/CL_0000789	alpha-beta T cell
 http://purl.obolibrary.org/obo/GO_0002299	alpha-beta intraepithelial T cell differentiation	http://purl.obolibrary.org/obo/CL_0000797	alpha-beta intraepithelial T cell
@@ -125,7 +125,7 @@ http://purl.obolibrary.org/obo/GO_0042492	gamma-delta T cell differentiation	htt
 http://purl.obolibrary.org/obo/GO_0002304	gamma-delta intraepithelial T cell differentiation	http://purl.obolibrary.org/obo/CL_0000801	gamma-delta intraepithelial T cell
 http://purl.obolibrary.org/obo/GO_0061321	garland nephrocyte differentiation	http://purl.obolibrary.org/obo/CL_0000486	garland cell
 http://purl.obolibrary.org/obo/GO_0002314	germinal center B cell differentiation	http://purl.obolibrary.org/obo/CL_0000844	germinal center B cell
-http://purl.obolibrary.org/obo/GO_0002067	glandular epithelial cell differentiation	http://purl.obolibrary.org/obo/CL_0000150	glandular epithelial cell
+http://purl.obolibrary.org/obo/GO_0002067	glandular epithelial cell differentiation	http://purl.obolibrary.org/obo/CL_0000150	glandular secretory epithelial cell
 http://purl.obolibrary.org/obo/GO_0010001	glial cell differentiation	http://purl.obolibrary.org/obo/CL_0000125	glial cell
 http://purl.obolibrary.org/obo/GO_0072008	glomerular mesangial cell differentiation	http://purl.obolibrary.org/obo/CL_1000742	glomerular mesangial cell
 http://purl.obolibrary.org/obo/GO_1905962	glutamatergic neuron differentiation	http://purl.obolibrary.org/obo/CL_0000679	glutamatergic neuron
@@ -162,10 +162,10 @@ http://purl.obolibrary.org/obo/GO_0035026	leading edge cell differentiation	http
 http://purl.obolibrary.org/obo/GO_0070306	lens fiber cell differentiation	http://purl.obolibrary.org/obo/CL_0011004	lens fiber cell
 http://purl.obolibrary.org/obo/GO_0048772	leucophore differentiation	http://purl.obolibrary.org/obo/CL_0000571	leucophore
 http://purl.obolibrary.org/obo/GO_0002521	leukocyte differentiation	http://purl.obolibrary.org/obo/CL_0000738	leukocyte
-http://purl.obolibrary.org/obo/GO_0061141	lung ciliated cell differentiation	http://purl.obolibrary.org/obo/CL_1000271	lung ciliated cell
+http://purl.obolibrary.org/obo/GO_0061141	lung ciliated cell differentiation	http://purl.obolibrary.org/obo/CL_1000271	lung multiciliated epithelial cell
 http://purl.obolibrary.org/obo/GO_0060487	lung epithelial cell differentiation	http://purl.obolibrary.org/obo/CL_0000082	epithelial cell of lung
 http://purl.obolibrary.org/obo/GO_0060480	lung goblet cell differentiation	http://purl.obolibrary.org/obo/CL_1000143	lung goblet cell
-http://purl.obolibrary.org/obo/GO_0061100	lung neuroendocrine cell differentiation	http://purl.obolibrary.org/obo/CL_1000223	lung neuroendocrine cell
+http://purl.obolibrary.org/obo/GO_0061100	lung neuroendocrine cell differentiation	http://purl.obolibrary.org/obo/CL_1000223	pulmonary neuroendocrine cell
 http://purl.obolibrary.org/obo/GO_0061140	lung secretory cell differentiation	http://purl.obolibrary.org/obo/CL_1000272	lung secretory cell
 http://purl.obolibrary.org/obo/GO_1903728	luteal cell differentiation	http://purl.obolibrary.org/obo/CL_0000175	luteal cell
 http://purl.obolibrary.org/obo/GO_0035170	lymph gland crystal cell differentiation	http://purl.obolibrary.org/obo/CL_0000716	lymph gland crystal cell
@@ -195,7 +195,7 @@ http://purl.obolibrary.org/obo/GO_0014004	microglia differentiation	http://purl.
 http://purl.obolibrary.org/obo/GO_1904948	midbrain dopaminergic neuron differentiation	http://purl.obolibrary.org/obo/CL_2000097	midbrain dopaminergic neuron
 http://purl.obolibrary.org/obo/GO_0030224	monocyte differentiation	http://purl.obolibrary.org/obo/CL_0000576	monocyte
 http://purl.obolibrary.org/obo/GO_1903131	mononuclear cell differentiation	http://purl.obolibrary.org/obo/CL_0000842	mononuclear cell
-http://purl.obolibrary.org/obo/GO_1903251	multi-ciliated epithelial cell differentiation	http://purl.obolibrary.org/obo/CL_0005012	multi-ciliated epithelial cell
+http://purl.obolibrary.org/obo/GO_1903251	multi-ciliated epithelial cell differentiation	http://purl.obolibrary.org/obo/CL_0005012	multiciliated epithelial cell
 http://purl.obolibrary.org/obo/GO_0072674	multinuclear osteoclast differentiation	http://purl.obolibrary.org/obo/CL_0000779	multinuclear osteoclast
 http://purl.obolibrary.org/obo/GO_0042692	muscle cell differentiation	http://purl.obolibrary.org/obo/CL_0000187	muscle cell
 http://purl.obolibrary.org/obo/GO_0030099	myeloid cell differentiation	http://purl.obolibrary.org/obo/CL_0000763	myeloid cell
