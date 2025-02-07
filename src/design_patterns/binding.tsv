@@ -176,7 +176,7 @@ http://purl.obolibrary.org/obo/GO_2001083	alpha-D-glucan binding	http://purl.obo
 http://purl.obolibrary.org/obo/GO_1904678	alpha-aminoacyl-tRNA binding	http://purl.obolibrary.org/obo/CHEBI_2651	alpha-aminoacyl-tRNA
 http://purl.obolibrary.org/obo/GO_0033218	amide binding	http://purl.obolibrary.org/obo/CHEBI_32988	amide
 http://purl.obolibrary.org/obo/GO_0043176	amine binding	http://purl.obolibrary.org/obo/CHEBI_32952	amine
-http://purl.obolibrary.org/obo/GO_0016597	amino acid binding	http://purl.obolibrary.org/obo/CHEBI_35238	amino acid zwitterion
+http://purl.obolibrary.org/obo/GO_0016597	amino acid binding	http://purl.obolibrary.org/obo/CHEBI_35238	amino-acid zwitterion
 http://purl.obolibrary.org/obo/GO_0070405	ammonium ion binding	http://purl.obolibrary.org/obo/CHEBI_28938	ammonium
 http://purl.obolibrary.org/obo/GO_0001540	amyloid-beta binding	http://purl.obolibrary.org/obo/CHEBI_64645	amyloid-beta
 http://purl.obolibrary.org/obo/GO_2001066	amylopectin binding	http://purl.obolibrary.org/obo/CHEBI_28057	amylopectin
@@ -433,7 +433,7 @@ http://purl.obolibrary.org/obo/GO_0042164	interleukin-12 alpha subunit binding	h
 http://purl.obolibrary.org/obo/GO_0042163	interleukin-12 beta subunit binding	http://purl.obolibrary.org/obo/PR_000001369	interleukin-12 subunit beta
 http://purl.obolibrary.org/obo/GO_0019973	interleukin-13 binding	http://purl.obolibrary.org/obo/PR_000001370	interleukin-13
 http://purl.obolibrary.org/obo/GO_0042009	interleukin-15 binding	http://purl.obolibrary.org/obo/PR_000001373	interleukin-15
-http://purl.obolibrary.org/obo/GO_0042011	interleukin-16 binding	http://purl.obolibrary.org/obo/PR_000001374	interleukin-16
+http://purl.obolibrary.org/obo/GO_0042011	interleukin-16 binding	http://purl.obolibrary.org/obo/PR_000001374	pro-interleukin-16
 http://purl.obolibrary.org/obo/GO_0019975	interleukin-17 binding	http://purl.obolibrary.org/obo/PR_000001092	interleukin-17
 http://purl.obolibrary.org/obo/GO_0042007	interleukin-18 binding	http://purl.obolibrary.org/obo/PR_000001376	interleukin-18
 http://purl.obolibrary.org/obo/GO_0042013	interleukin-19 binding	http://purl.obolibrary.org/obo/PR_000001472	interleukin-19
@@ -521,7 +521,7 @@ http://purl.obolibrary.org/obo/GO_0140260	mitochondrial proton-transporting ATP 
 http://purl.obolibrary.org/obo/GO_0097177	mitochondrial ribosome binding	http://purl.obolibrary.org/obo/GO_0005761	mitochondrial ribosome
 http://purl.obolibrary.org/obo/GO_0051019	mitogen-activated protein kinase binding	http://purl.obolibrary.org/obo/PR_000000019	mitogen-activated protein kinase
 http://purl.obolibrary.org/obo/GO_0031435	mitogen-activated protein kinase kinase kinase binding	http://purl.obolibrary.org/obo/PR_000010444	mitogen-activated protein kinase kinase kinase 21
-http://purl.obolibrary.org/obo/GO_0072341	modified amino acid binding	http://purl.obolibrary.org/obo/CHEBI_83821	amino acid derivative
+http://purl.obolibrary.org/obo/GO_0072341	modified amino acid binding	http://purl.obolibrary.org/obo/CHEBI_83821	amino-acid derivative
 http://purl.obolibrary.org/obo/GO_0030973	molybdate ion binding	http://purl.obolibrary.org/obo/CHEBI_36264	molybdate
 http://purl.obolibrary.org/obo/GO_0030151	molybdenum ion binding	http://purl.obolibrary.org/obo/CHEBI_37239	molybdenum cation
 http://purl.obolibrary.org/obo/GO_0043546	molybdopterin cofactor binding	http://purl.obolibrary.org/obo/CHEBI_25372	molybdopterin cofactor

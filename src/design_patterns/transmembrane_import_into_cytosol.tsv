@@ -20,7 +20,7 @@ http://purl.obolibrary.org/obo/GO_1904272	L-tryptophan import across plasma memb
 http://purl.obolibrary.org/obo/GO_1903808	L-tyrosine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_58315	L-tyrosine zwitterion
 http://purl.obolibrary.org/obo/GO_1903805	L-valine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_57762	L-valine zwitterion
 http://purl.obolibrary.org/obo/GO_0098702	adenine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_16708	adenine
-http://purl.obolibrary.org/obo/GO_0089718	amino acid import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_35238	amino acid zwitterion
+http://purl.obolibrary.org/obo/GO_0089718	amino acid import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_35238	amino-acid zwitterion
 http://purl.obolibrary.org/obo/GO_0140157	ammonium import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_28938	ammonium
 http://purl.obolibrary.org/obo/GO_0060919	auxin import into cell	http://purl.obolibrary.org/obo/GOCHE_22676	substance with auxin role
 http://purl.obolibrary.org/obo/GO_1905135	biotin import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_57586	biotinate
