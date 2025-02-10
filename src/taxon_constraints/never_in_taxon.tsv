@@ -1,4 +1,5 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:0019280	L-methionine biosynthetic process from homoserine via O-acetyl-L-homoserine and cystathionine	NCBITaxon:33208	Metazoa	
 GO:0000105	L-histidine biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0009097	isoleucine biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0009098	L-leucine biosynthetic process	NCBITaxon:9606	Homo sapiens	
@@ -508,7 +509,6 @@ GO:1901259	chloroplast rRNA processing	NCBITaxon:4751	Fungi
 GO:1901259	chloroplast rRNA processing	NCBITaxon:554915	Amoebozoa	
 GO:0052553	modulation by symbiont of host immune response	NCBITaxon:33208	Metazoa	
 GO:0052553	modulation by symbiont of host immune response	NCBITaxon:33090	Viridiplantae	
-GO:0033499	galactose catabolic process via UDP-galactose	NCBITaxon:147554	Schizosaccharomycetes	
 GO:0098610	adhesion between unicellular organisms	NCBITaxon:33208	Metazoa	
 GO:0043010	camera-type eye development	NCBITaxon:6656	Arthropoda	
 GO:0098610	adhesion between unicellular organisms	NCBITaxon:33090	Viridiplantae	

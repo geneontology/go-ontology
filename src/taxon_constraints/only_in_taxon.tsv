@@ -1,4 +1,6 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:0019283	L-methionine biosynthetic process from O-phospho-L-homoserine and cystathionine	NCBITaxon:33090	Viridiplantae	
+GO:0019279	L-methionine biosynthetic process from L-homoserine via cystathionine	NCBITaxon:2	Bacteria	
 GO:0001772	immunological synapse	NCBITaxon:7742	Vertebrata	
 GO:0031911	cytoproct	NCBITaxon:5878	Ciliophora	
 GO:0008088	axo-dendritic transport	NCBITaxon:33208	Metazoa	
