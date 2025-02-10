@@ -187,7 +187,7 @@ http://purl.obolibrary.org/obo/GO_0070291	N-acylethanolamine metabolic process	h
 http://purl.obolibrary.org/obo/GO_0070292	N-acylphosphatidylethanolamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_62537	N-acylphosphatidylethanolamine(1-)
 http://purl.obolibrary.org/obo/GO_0052708	N-alpha,N-alpha,N-alpha-trimethyl-L-histidine metabolic process	http://purl.obolibrary.org/obo/CHEBI_15781	N(alpha),N(alpha),N(alpha)-trimethyl-L-histidine
 http://purl.obolibrary.org/obo/GO_0042201	N-cyclopropylmelamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_30260	cyromazine
-http://purl.obolibrary.org/obo/GO_0019674	NAD metabolic process	http://purl.obolibrary.org/obo/CHEBI_13389	NAD
+http://purl.obolibrary.org/obo/GO_0019674	NAD metabolic process	http://purl.obolibrary.org/obo/CHEBI_57540	NAD(1-)
 http://purl.obolibrary.org/obo/GO_0006734	NADH metabolic process	http://purl.obolibrary.org/obo/CHEBI_57945	NADH(2-)
 http://purl.obolibrary.org/obo/GO_0006739	NADP metabolic process	http://purl.obolibrary.org/obo/CHEBI_58349	NADP(3-)
 http://purl.obolibrary.org/obo/GO_0016070	RNA metabolic process	http://purl.obolibrary.org/obo/CHEBI_33697	ribonucleic acid
@@ -392,7 +392,6 @@ http://purl.obolibrary.org/obo/GO_0052644	chlorophyllide a metabolic process	htt
 http://purl.obolibrary.org/obo/GO_0052643	chlorophyllide metabolic process	http://purl.obolibrary.org/obo/CHEBI_38206	chlorophyllide
 http://purl.obolibrary.org/obo/GO_0008203	cholesterol metabolic process	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol
 http://purl.obolibrary.org/obo/GO_0019695	choline metabolic process	http://purl.obolibrary.org/obo/CHEBI_15354	choline
-http://purl.obolibrary.org/obo/GO_0030204	chondroitin sulfate metabolic process	http://purl.obolibrary.org/obo/CHEBI_37397	chondroitin sulfate
 http://purl.obolibrary.org/obo/GO_0050654	chondroitin sulfate proteoglycan metabolic process	http://purl.obolibrary.org/obo/CHEBI_26349	proteochondroitin sulfate
 http://purl.obolibrary.org/obo/GO_0046417	chorismate metabolic process	http://purl.obolibrary.org/obo/CHEBI_29748	chorismate(2-)
 http://purl.obolibrary.org/obo/GO_0042857	chrysobactin metabolic process	http://purl.obolibrary.org/obo/CHEBI_61345	chrysobactin
@@ -480,7 +479,6 @@ http://purl.obolibrary.org/obo/GO_0046389	deoxyribose 5-phosphate metabolic proc
 http://purl.obolibrary.org/obo/GO_0019692	deoxyribose phosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_19569	2-deoxyribose phosphate
 http://purl.obolibrary.org/obo/GO_0046096	deoxyuridine metabolic process	http://purl.obolibrary.org/obo/CHEBI_16450	2'-deoxyuridine
 http://purl.obolibrary.org/obo/GO_0050761	depsipeptide metabolic process	http://purl.obolibrary.org/obo/CHEBI_23643	depsipeptide
-http://purl.obolibrary.org/obo/GO_0030205	dermatan sulfate metabolic process	http://purl.obolibrary.org/obo/CHEBI_58465	dermatan sulfate polyanion
 http://purl.obolibrary.org/obo/GO_0050655	dermatan sulfate proteoglycan metabolic process	http://purl.obolibrary.org/obo/CHEBI_64602	dermatan sulfate proteoglycan
 http://purl.obolibrary.org/obo/GO_0046450	dethiobiotin metabolic process	http://purl.obolibrary.org/obo/CHEBI_57861	dethiobiotin(1-)
 http://purl.obolibrary.org/obo/GO_0052778	diacetylchitobiose metabolic process	http://purl.obolibrary.org/obo/CHEBI_28681	N,N'-diacetylchitobiose
