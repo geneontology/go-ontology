@@ -263,24 +263,18 @@ $(ONT)-pre-reduced.owl: $(ONT)-pre.owl
 .PRECIOUS: $(ONT)-pre-reduced.owl
 
 # use OORT
-# side effects: also builds go-simple.obo
 $(ONT).obo: $(ONT)-pre-reduced.owl
 	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
 	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge $(BUILD_DIR)/go.obo &&\
 	cp $(BUILD_DIR)/go.obo $@ &&\
-	cp $(BUILD_DIR)/go-simple.obo . &&\
 	cp $(BUILD_DIR)/go.owl .
 
-# TODO make slims like this
-# owltools go-basic.obo --extract-ontology-subset -s goslim_pombe  -o -f obo ...
-
 # This is produced as a byproduct of go.obo
-go-simple.obo: $(ONT).obo
 go.owl: $(ONT).obo
 
 # remove non-basic relationship types (e.g. has_part)
 # assuming materialization step already done for these properties when making go.obo
-go-simple-filtered.obo: go-simple.obo
+go-simple-filtered.obo: go.obo
 	$(ROBOT) remove --input $< $(addprefix --term ,$(GO_BASIC_RELATIONS)) --select complement --select object-properties --signature true --trim true convert -f obo --output $@
 
 go-simple-filtered-reduced.obo: go-simple-filtered.obo
