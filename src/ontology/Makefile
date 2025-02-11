@@ -262,12 +262,16 @@ $(ONT)-pre-reduced.owl: $(ONT)-pre.owl
 	$(ROBOT) reduce -r elk -i $< query --update ../sparql/remove-narrow-xrefs.ru -o $@
 .PRECIOUS: $(ONT)-pre-reduced.owl
 
-# use OORT
+#TODO to get rid of this we need to drop trailing qualifiers
 $(ONT).obo: $(ONT)-pre-reduced.owl
 	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
 	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge $(BUILD_DIR)/go.obo &&\
 	cp $(BUILD_DIR)/go.obo $@ &&\
 	cp $(BUILD_DIR)/go.owl .
+
+#TODO add perlcheck
+#go.obo: $(ONT)-pre-reduced.owl
+#	$(ROBOT) convert -i $< -o $@
 
 # This is produced as a byproduct of go.obo
 go.owl: $(ONT).obo
@@ -304,13 +308,21 @@ basic-cycles.tsv: basic.facts ../util/cycles.dl
 PUBLISH_SUBSETS = gocheck_do_not_annotate gocheck_obsoletion_candidate goslim_agr goslim_candida goslim_chembl goslim_drosophila goslim_euk_cellular_processes_ribbon goslim_flybase_ribbon goslim_generic goslim_metagenomics goslim_mouse goslim_pir goslim_plant goslim_plant_ribbon goslim_pombe goslim_prokaryote_ribbon goslim_synapse goslim_yeast goslim_prokaryote goslim_virus
 
 SUBSET_OWLS = $(patsubst %,subsets/%.owl,$(PUBLISH_SUBSETS))
-# Also generates %.obo and %.json
 subset-owls: $(SUBSET_OWLS)
 
 # Also generates %.obo and %.json
-# Implicitly depends on build/subsets/%.owl generated as side effect of go.obo
-subsets/%.owl: $(ONT).obo 
-	$(ROBOT) annotate -i $(BUILD_DIR)/$@ --annotation owl:versionInfo $(RELEASEDATE) -o $@ convert -o $(patsubst %.owl,%.obo,$@) convert -o $(patsubst %.owl,%.json,$@)
+subsets/subset-terms.tsv: $(ONT).owl $(SPARQLDIR)/subset-terms.sparql
+	$(ROBOT) query -i $< -f tsv --query $(word 2,$^) $@
+
+subsets/subset-properties.tsv: $(ONT).owl $(SPARQLDIR)/subset-properties.sparql
+	$(ROBOT) query -i $< -f tsv --query $(word 2,$^) $@.tmp && sed 's/"//g' $@.tmp >$@
+
+subsets/%-terms.txt: subsets/subset-terms.tsv subsets/subset-properties.tsv
+	grep '"$*"' $< | cut -f1 | sed 's/"//g' >$@.tmp && cat $@.tmp $(word 2,$^) >$@
+
+# Also generates %.obo and %.json
+subsets/%.owl: $(ONT).owl subsets/%-terms.txt
+	$(ROBOT) extract --method subset -i $< --term-file $(word 2,$^) annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ --annotation owl:versionInfo $(RELEASEDATE) -o $@ convert -o $(patsubst %.owl,%.obo,$@) convert -o $(patsubst %.owl,%.json,$@)
 
 # so far we only make simple .tsv reports
 SUBSET_REPORTS = $(patsubst %,%.tsv,$(basename $(SUBSET_OWLS)))
