@@ -410,7 +410,7 @@ imports/%_import.obo: imports/%_import.owl
 
 # Fix external ontologies to specific release versions if necessary. These should be updated regularly! Otherwise use the standard PURL.
 CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.owl.gz
-CL_SOURCE=http://purl.obolibrary.org/obo/cl/cl-base.owl
+CL_SOURCE=http://purl.obolibrary.org/obo/cl/releases/2025-01-08/cl-base.owl
 FAO_SOURCE=http://purl.obolibrary.org/obo/fao/fao-base.owl
 PATO_SOURCE=http://purl.obolibrary.org/obo/pato/pato-base.owl
 UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/uberon-base.owl
