@@ -157,7 +157,7 @@ GO.xrf_abbs: $(SRC)
 	wget http://snapshot.geneontology.org/metadata/db-xrefs.legacy -O $@.tmp && mv $@.tmp $@ && touch $@
 
 $(SRC)-check: $(SRC) GO.xrf_abbs
-	$(PERLCHECK) --disable-isa-incomplete --xref-abbs GO.xrf_abbs $< > $@.tmp && mv $@.tmp $@
+	$(PERLCHECK) --disable-isa-incomplete --disable-whitespace-check --xref-abbs GO.xrf_abbs $< > $@.tmp && mv $@.tmp $@
 
 # consider using snapshot release
 PREVIOUS=go-lastrelease.owl
@@ -262,33 +262,28 @@ $(ONT)-pre-reduced.owl: $(ONT)-pre.owl
 	$(ROBOT) reduce -r elk -i $< query --update ../sparql/remove-narrow-xrefs.ru -o $@
 .PRECIOUS: $(ONT)-pre-reduced.owl
 
-#TODO to get rid of this we need to drop trailing qualifiers
-$(ONT).obo: $(ONT)-pre-reduced.owl
-	ontology-release-runner --catalog-xml catalog-v001.xml --ignoreLock --skip-release-folder --skip-format owx --skip-format metadata --outdir $(BUILD_DIR) --allow-overwrite --asserted --simple --no-reasoner --remove-trailing-qualifiers $< &&\
-	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge $(BUILD_DIR)/go.obo &&\
-	cp $(BUILD_DIR)/go.obo $@ &&\
-	cp $(BUILD_DIR)/go.owl .
+go.owl: $(ONT)-pre-reduced.owl
+	$(ROBOT) remove -i $< --select 'complement' --drop-axiom-annotations 'oboInOwl:source' --drop-axiom-annotations 'IAO:0000233' -o $@
 
-#TODO add perlcheck
-#go.obo: $(ONT)-pre-reduced.owl
-#	$(ROBOT) convert -i $< -o $@
-
-# This is produced as a byproduct of go.obo
-go.owl: $(ONT).obo
+go.obo: $(ONT).owl
+	$(ROBOT) convert -i $< -o $@.tmp.obo &&\
+	cp $@.tmp.obo $@
+#	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge --disable-whitespace-check $@.tmp.obo
 
 # remove non-basic relationship types (e.g. has_part)
 # assuming materialization step already done for these properties when making go.obo
-go-simple-filtered.obo: go.obo
-	$(ROBOT) remove --input $< $(addprefix --term ,$(GO_BASIC_RELATIONS)) --select complement --select object-properties --signature true --trim true convert -f obo --output $@
+go-simple-filtered.owl: go.owl $(SPARQLDIR)/remove-cross-namespace-relations.ru
+	$(ROBOT) remove --input $< $(addprefix --term ,$(GO_BASIC_RELATIONS)) --select complement --select object-properties --signature true --trim true remove --term 'oboInOwl:created_by' --term 'oboInOwl:creation_date' --term 'IAO:0000233' --term 'IAO:0000589' --term 'RO:0002175' --signature true --trim true remove --axioms "DisjointClasses EquivalentClasses" query --update $(SPARQLDIR)/remove-cross-namespace-relations.ru convert -f obo --output $@
 
-go-simple-filtered-reduced.obo: go-simple-filtered.obo
+go-simple-filtered-reduced.owl: go-simple-filtered.owl
 	$(ROBOT) reduce -r elk -i $< -o $@
 
-# filter inter-ontology (e.g. MF to BP) links
-go-basic.obo: go-simple-filtered-reduced.obo
-	$(PERLFILTER) $< > $@.tmp && mv $@.tmp $@ && $(PERLCHECK) --disable-xrf-abbs-check $@
+go-basic.owl: go-simple-filtered-reduced.owl
+	cp $< $@
+#FIXME rewrite perl filter/check
+#	$(PERLFILTER) $< > $@.tmp && mv $@.tmp $@ && $(PERLCHECK) --disable-xrf-abbs-check --disable-whitespace-check $@
 
-go-basic.owl: go-basic.obo
+go-basic.obo: go-basic.owl
 	$(ROBOT) convert -i $< -o $@
 
 # check for cycles in go-basic

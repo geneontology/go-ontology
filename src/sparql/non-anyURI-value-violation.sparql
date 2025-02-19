@@ -11,5 +11,8 @@ SELECT ?goTerm ?property ?value
 WHERE {
   VALUES ?property { term_tracker_item: }
   ?goTerm ?property ?value .
-  FILTER (datatype(?value) != xsd:anyURI )
+  # This allows blank node subject (axioms) to pass without the datatype,
+  # since OBO format is not able to specify datatypes for axiom annotation values
+  FILTER(isIRI(?goTerm))
+  FILTER(datatype(?value) != xsd:anyURI )
 }

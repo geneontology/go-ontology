@@ -1,7 +1,7 @@
 //> using scala "2.13"
-//> using dep "net.sourceforge.owlapi:owlapi-distribution:4.5.25"
+//> using dep "net.sourceforge.owlapi:owlapi-distribution:4.5.29"
 //> using dep "org.phenoscape::scowl:1.3.4"
-//> using dep "org.obolibrary.robot:robot-core:1.9.3"
+//> using dep "org.obolibrary.robot:robot-core:1.9.7"
 //> using dep "com.outr::scribe-slf4j2:3.15.0"
 import org.semanticweb.owlapi.vocab.OWLRDFVocabulary
 
