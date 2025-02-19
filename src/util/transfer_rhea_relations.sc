@@ -1,9 +1,9 @@
 // scala 2.13.9
 // ammonite 2.5.5
 
-import $ivy.`net.sourceforge.owlapi:owlapi-distribution:4.5.17`
+import $ivy.`net.sourceforge.owlapi:owlapi-distribution:4.5.29`
 import $ivy.`org.phenoscape::scowl:1.3.4`
-import $ivy.`org.obolibrary.robot:robot-core:1.6.0`
+import $ivy.`org.obolibrary.robot:robot-core:1.9.7`
 import $ivy.`com.outr::scribe-slf4j:2.7.12`
 
 import org.obolibrary.robot.CatalogXmlIRIMapper
