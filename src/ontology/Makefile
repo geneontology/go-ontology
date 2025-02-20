@@ -291,7 +291,7 @@ basic.facts: go-basic.owl
 	riot -q --output=ntriples $< | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
 
 basic-cycles.tsv: basic.facts ../util/cycles.dl
-	souffle -c ../util/cycles.dl && mv cycle.csv $@ &&\
+	souffle ../util/cycles.dl && mv cycle.csv $@ &&\
 	( [ -s $@ ] && { cat $@; exit 1; } || true ) # exit with an error if the output is not empty
 
 # ----------------------------------------
@@ -647,7 +647,7 @@ go-edit.facts: $(SRC)
 	riot -q --nocheck --output ntriples go-edit.facts.ttl | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
 
 datalog-violations.tsv: go-edit.facts ../resources/obsolete_ec.txt
-	souffle -c ../util/ontology-qc.dl &&\
+	souffle ../util/ontology-qc.dl &&\
 	( [ -s $@ ] && { cat $@; exit 1; } || true ) # exit with an error if the output is not empty
 
 reports/neo-violations.report: $(GO_LEGO).owl
