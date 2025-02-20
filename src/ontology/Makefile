@@ -391,7 +391,7 @@ imports/go-computed-taxon-constraints.owl: $(SRC) $(SPARQLDIR)/taxon-constraints
 	$(ROBOT) merge -i $< query --update $(SPARQLDIR)/taxon-constraints-materialization.ru -o taxon-constraints-materialization-temp.ofn &&\
 	JAVA_OPTS=-Xmx12G relation-graph --ontology-file taxon-constraints-materialization-temp.ofn --output-file taxon-constraints-materialization-temp.nt --property 'http://purl.obolibrary.org/obo/RO_0002162' --output-subclasses true --reflexive-subclasses false &&\
 	sed 's/ /\t/' taxon-constraints-materialization-temp.nt | sed 's/ /\t/' | sed 's/ \.$$//' >taxonconstraintsrelationgraph.facts &&\
-	souffle -c ../util/materialize-taxon-constraints.dl &&\
+	souffle ../util/materialize-taxon-constraints.dl &&\
 	sed -E 's|<http://purl.obolibrary.org/obo/([^[:space:]]+)_([[:digit:]]+)>|\1:\2|g' computed_only_in_taxon.csv | sed '1s/^/defined_class\ttaxon\n/' >computed_only_in_taxon.tsv &&\
 	sed -E 's|<http://purl.obolibrary.org/obo/([^[:space:]]+)_([[:digit:]]+)>|\1:\2|g' computed_never_in_taxon.csv | sed '1s/^/defined_class\ttaxon\n/' >computed_never_in_taxon.tsv &&\
 	$(DOSDP_TOOLS) generate --obo-prefixes=true --template=../taxon_constraints/computed_only_in_taxon.yaml --infile=computed_only_in_taxon.tsv --outfile=computed_only_in_taxon.tmp.ofn &&\
