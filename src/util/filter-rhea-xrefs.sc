@@ -1,10 +1,10 @@
 // scala 2.13.3
 // ammonite 2.3.8
 
-import $ivy.`net.sourceforge.owlapi:owlapi-distribution:4.5.6`
+import $ivy.`net.sourceforge.owlapi:owlapi-distribution:4.5.29`
 import $ivy.`org.phenoscape::scowl:1.3.4`
 import $ivy.`com.outr::scribe-slf4j:2.7.12`
-import $ivy.`org.obolibrary.robot:robot-core:1.8.1`
+import $ivy.`org.obolibrary.robot:robot-core:1.9.7`
 import $ivy.`org.apache.jena:jena-core:3.17.0`
 
 import java.io.FileInputStream
@@ -95,9 +95,9 @@ def main(ontologyFile: os.Path, catalogFile: os.Path, rheaFile: os.Path, outFile
   val (defXrefsToRemove, defXrefsToAdd) = defXrefsChanges.unzip
   // Consider exiting to fail the build when obsoletes are present
   obsoleteUsages.foreach(rhea => scribe.error(s"Obsolete Rhea ID used in xref: RHEA:$rhea"))
-  //if (obsoleteUsages.nonEmpty) {
-    //System.exit(1)
-    //}
+  if (obsoleteUsages.nonEmpty) {
+    System.exit(1)
+  }
   manager.applyChanges(xrefsToRemove.to(List).asJava)
   manager.applyChanges(defXrefsToRemove.to(List).asJava)
   manager.applyChanges(defXrefsToAdd.to(List).asJava)

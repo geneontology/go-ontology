@@ -1,10 +1,10 @@
 # vesicle-mediated transport differentiated by start and end locations
 
-[http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml](http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_start_and_end_locations.yaml](http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_start_and_end_locations.yaml)
 
 ## Description
 
-TODO
+This pattern is for representing vesicle-mediated transport, differentiated by the start and end locations.
 
 
 
@@ -13,8 +13,8 @@ TODO
 
 | Variable name | Allowed type |
 |:--------------|:-------------|
-| `{start location}` | [cellular_component](http://purl.obolibrary.org/obo/GO_0005575) |
-| `{end location}` | [cellular_component](http://purl.obolibrary.org/obo/GO_0005575) |
+| `{start location}` | [cellular anatomical structure](http://purl.obolibrary.org/obo/GO_0110165) |
+| `{end location}` | [cellular anatomical structure](http://purl.obolibrary.org/obo/GO_0110165) |
 
 ## Name
 
@@ -45,7 +45,8 @@ TODO
 | start_location_label | end_location | defined_class_label | end_location_label | start_location | defined_class |
 |:--|:--|:--|:--|:--|:--|
 | Golgi apparatus | [http://purl.obolibrary.org/obo/GO_0005886](http://purl.obolibrary.org/obo/GO_0005886) | Golgi to plasma membrane transport | plasma membrane | [http://purl.obolibrary.org/obo/GO_0005794](http://purl.obolibrary.org/obo/GO_0005794) | [http://purl.obolibrary.org/obo/GO_0006893](http://purl.obolibrary.org/obo/GO_0006893) |
+| endosome | [http://purl.obolibrary.org/obo/GO_0005886](http://purl.obolibrary.org/obo/GO_0005886) | endocytic recycling | plasma membrane | [http://purl.obolibrary.org/obo/GO_0005768](http://purl.obolibrary.org/obo/GO_0005768) | [http://purl.obolibrary.org/obo/GO_0032456](http://purl.obolibrary.org/obo/GO_0032456) |
+| endosome | [http://purl.obolibrary.org/obo/GO_0005764](http://purl.obolibrary.org/obo/GO_0005764) | endosome to lysosome transport | lysosome | [http://purl.obolibrary.org/obo/GO_0005768](http://purl.obolibrary.org/obo/GO_0005768) | [http://purl.obolibrary.org/obo/GO_0008333](http://purl.obolibrary.org/obo/GO_0008333) |
+| late endosome | [http://purl.obolibrary.org/obo/GO_0005773](http://purl.obolibrary.org/obo/GO_0005773) | late endosome to vacuole transport | vacuole | [http://purl.obolibrary.org/obo/GO_0005770](http://purl.obolibrary.org/obo/GO_0005770) | [http://purl.obolibrary.org/obo/GO_0045324](http://purl.obolibrary.org/obo/GO_0045324) |
 | mitochondrion | [http://purl.obolibrary.org/obo/GO_0005764](http://purl.obolibrary.org/obo/GO_0005764) | mitochondrion to lysosome vesicle-mediated transport | lysosome | [http://purl.obolibrary.org/obo/GO_0005739](http://purl.obolibrary.org/obo/GO_0005739) | [http://purl.obolibrary.org/obo/GO_0099074](http://purl.obolibrary.org/obo/GO_0099074) |
-| mitochondrion | [http://purl.obolibrary.org/obo/GO_0005777](http://purl.obolibrary.org/obo/GO_0005777) | mitochondrion to peroxisome vesicle-mediated transport | peroxisome | [http://purl.obolibrary.org/obo/GO_0005739](http://purl.obolibrary.org/obo/GO_0005739) | [http://purl.obolibrary.org/obo/GO_0099076](http://purl.obolibrary.org/obo/GO_0099076) |
-| endosome | [http://purl.obolibrary.org/obo/GO_0005768](http://purl.obolibrary.org/obo/GO_0005768) | vesicle-mediated transport between endosomal compartments | endosome | [http://purl.obolibrary.org/obo/GO_0005768](http://purl.obolibrary.org/obo/GO_0005768) | [http://purl.obolibrary.org/obo/GO_0098927](http://purl.obolibrary.org/obo/GO_0098927) |
 

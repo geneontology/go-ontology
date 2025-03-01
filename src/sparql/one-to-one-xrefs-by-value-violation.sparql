@@ -7,7 +7,7 @@ PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
 
 SELECT ?x ?one_to_one_prefix (GROUP_CONCAT(?c ; separator=";") AS ?cs) WHERE 
 {
-  VALUES ?one_to_one_prefix { "RHEA:" }
+  VALUES ?one_to_one_prefix { "RHEA:" "EC:" "MetaCyc:" "KEGG:" }
   ?c oio:hasDbXref ?x .
   FILTER(isIRI(?c))
   FILTER(STRSTARTS(STR(?x), ?one_to_one_prefix))

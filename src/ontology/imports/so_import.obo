@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2023-02-28/imports/so_import.owl
+data-version: go/releases/2025-01-23/imports/so_import.owl
 ontology: go/imports/so_import
 
 [Term]
@@ -10,6 +10,27 @@ def: "A sequence_feature with an extent greater than zero. A nucleotide region i
 subset: SOFA
 synonym: "sequence" EXACT []
 is_a: SO:0000110 ! sequence_feature
+
+[Term]
+id: SO:0000010
+name: protein_coding
+namespace: sequence
+def: "A gene which, when transcribed, can be translated into a protein." []
+synonym: "protein-coding" EXACT []
+is_a: SO:0000401 ! gene_attribute
+
+[Term]
+id: SO:0000104
+name: polypeptide
+namespace: sequence
+alt_id: SO:0000358
+def: "A sequence of amino acids linked by peptide bonds which may lack appreciable tertiary structure and may not be liable to irreversible denaturation." [SO:ma]
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology. The term 'protein' was merged with 'polypeptide'. Although 'protein' was a sequence_attribute and therefore meant to describe the quality rather than an actual feature, it was being used erroneously. It is replaced by 'peptidyl' as the polymer attribute.
+subset: SOFA
+synonym: "protein" EXACT []
+xref: http://en.wikipedia.org/wiki/Polypeptide "wiki"
+is_a: SO:0001411 ! biological_region
+relationship: derives_from SO:0000316 ! CDS
 
 [Term]
 id: SO:0000110
@@ -23,6 +44,22 @@ synonym: "INSDC_note:sequence_feature" EXACT []
 synonym: "located sequence feature" RELATED []
 synonym: "located_sequence_feature" EXACT []
 synonym: "sequence feature" EXACT []
+disjoint_from: SO:0000400 ! sequence_attribute
+
+[Term]
+id: SO:0000133
+name: epigenetically_modified
+namespace: sequence
+def: "This attribute describes a gene where heritable changes other than those in the DNA sequence occur. These changes include: modification to the DNA (such as DNA methylation, the covalent modification of cytosine), and post-translational modification of histones." [SO:ke]
+synonym: "epigenetically modified" EXACT []
+is_a: SO:0000401 ! gene_attribute
+
+[Term]
+id: SO:0000146
+name: capped
+namespace: sequence
+def: "An attribute describing when a sequence, usually an mRNA is capped by the addition of a modified guanine nucleotide at the 5' end." [SO:ke]
+is_a: SO:0000237 ! transcript_attribute
 
 [Term]
 id: SO:0000165
@@ -72,6 +109,7 @@ synonym: "GC-rich region" EXACT []
 synonym: "INSDC_feature:regulatory" BROAD []
 synonym: "INSDC_qualifier:GC_rich_promoter_region" EXACT []
 is_a: SO:0001659 ! promoter_element
+relationship: part_of SO:0000170 ! RNApol_II_promoter
 
 [Term]
 id: SO:0000185
@@ -96,6 +134,45 @@ subset: SOFA
 synonym: "INSDC_feature:intron" EXACT []
 xref: http://en.wikipedia.org/wiki/Intron "wiki"
 is_a: SO:0000835 ! primary_transcript_region
+
+[Term]
+id: SO:0000203
+name: UTR
+namespace: sequence
+def: "Messenger RNA sequences that are untranslated and lie five prime or three prime to sequences which are translated." [SO:ke]
+subset: SOFA
+synonym: "untranslated region" EXACT []
+is_a: SO:0000836 ! mRNA_region
+
+[Term]
+id: SO:0000205
+name: three_prime_UTR
+namespace: sequence
+def: "A region at the 3' end of a mature transcript (following the stop codon) that is not translated into a protein." [http://www.insdc.org/files/feature_table.html]
+subset: SOFA
+synonym: "INSDC_feature:3'UTR" EXACT []
+synonym: "three prime untranslated region" EXACT []
+synonym: "three prime UTR" EXACT []
+xref: http://en.wikipedia.org/wiki/Three_prime_untranslated_region "wiki"
+is_a: SO:0000203 ! UTR
+
+[Term]
+id: SO:0000209
+name: rRNA_primary_transcript
+namespace: sequence
+def: "A primary transcript encoding a ribosomal RNA." [SO:ke]
+subset: SOFA
+synonym: "ribosomal RNA primary transcript" EXACT []
+synonym: "rRNA primary transcript" EXACT []
+is_a: SO:0000483 ! nc_primary_transcript
+
+[Term]
+id: SO:0000210
+name: tRNA_primary_transcript
+namespace: sequence
+def: "A primary transcript encoding a transfer RNA (SO:0000253)." [SO:ke]
+synonym: "tRNA primary transcript" EXACT []
+is_a: SO:0000483 ! nc_primary_transcript
 
 [Term]
 id: SO:0000231
@@ -124,6 +201,7 @@ subset: SOFA
 synonym: "mature transcript" EXACT []
 xref: http://en.wikipedia.org/wiki/Mature_transcript "wiki"
 is_a: SO:0000673 ! transcript
+relationship: derives_from SO:0000185 ! primary_transcript
 
 [Term]
 id: SO:0000234
@@ -150,6 +228,15 @@ synonym: "TF binding site" EXACT []
 synonym: "transcription factor binding site" EXACT []
 is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 is_a: SO:0001654 ! nucleotide_to_protein_binding_site
+relationship: part_of SO:0000727 ! cis_regulatory_module
+
+[Term]
+id: SO:0000237
+name: transcript_attribute
+namespace: sequence
+def: "An attribute describing a transcript." []
+synonym: "transcript attribute" EXACT []
+is_a: SO:0000733 ! feature_attribute
 
 [Term]
 id: SO:0000252
@@ -164,6 +251,7 @@ synonym: "ribosomal ribonucleic acid" EXACT []
 synonym: "ribosomal RNA" EXACT []
 xref: http://en.wikipedia.org/wiki/RRNA "wiki"
 is_a: SO:0000655 ! ncRNA
+relationship: derives_from SO:0000209 ! rRNA_primary_transcript
 
 [Term]
 id: SO:0000253
@@ -178,6 +266,7 @@ synonym: "transfer ribonucleic acid" RELATED []
 synonym: "transfer RNA" RELATED []
 xref: http://en.wikipedia.org/wiki/TRNA "wiki"
 is_a: SO:0002247 ! sncRNA
+relationship: derives_from SO:0000210 ! tRNA_primary_transcript
 
 [Term]
 id: SO:0000274
@@ -191,6 +280,7 @@ synonym: "INSDC_qualifier:snRNA" EXACT []
 synonym: "small nuclear RNA" EXACT []
 xref: http://en.wikipedia.org/wiki/SnRNA "wiki"
 is_a: SO:0002247 ! sncRNA
+relationship: derives_from SO:0000231 ! snRNA_primary_transcript
 
 [Term]
 id: SO:0000275
@@ -203,13 +293,14 @@ synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:snoRNA" EXACT []
 synonym: "small nucleolar RNA" EXACT []
 is_a: SO:0002247 ! sncRNA
+relationship: derives_from SO:0000232 ! snoRNA_primary_transcript
 
 [Term]
 id: SO:0000276
 name: miRNA
 namespace: sequence
 alt_id: SO:0000649
-def: "Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0001244) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors." [PMID:11081512, PMID:12592000]
+def: "Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes). Micro RNAs are produced from precursor molecules (SO:0001244) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors." [PMID:11081512, PMID:12592000]
 subset: SOFA
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:miRNA" EXACT []
@@ -220,6 +311,7 @@ synonym: "stRNA" EXACT []
 xref: http://en.wikipedia.org/wiki/MiRNA "wiki"
 xref: http://en.wikipedia.org/wiki/StRNA "wiki"
 is_a: SO:0000370 ! small_regulatory_ncRNA
+relationship: derives_from SO:0001244 ! pre_miRNA
 
 [Term]
 id: SO:0000296
@@ -232,6 +324,7 @@ synonym: "ori" EXACT []
 synonym: "origin of replication" EXACT []
 xref: http://en.wikipedia.org/wiki/Origin_of_replication "wiki"
 is_a: SO:0001411 ! biological_region
+relationship: part_of SO:0001235 ! replicon
 
 [Term]
 id: SO:0000305
@@ -260,6 +353,27 @@ is_a: SO:0000835 ! primary_transcript_region
 is_a: SO:0002309 ! core_promoter_element
 
 [Term]
+id: SO:0000316
+name: CDS
+namespace: sequence
+def: "A contiguous sequence which begins with, and includes, a start codon and ends with, and includes, a stop codon." [SO:ma]
+subset: SOFA
+synonym: "coding sequence" EXACT []
+synonym: "coding_sequence" EXACT []
+synonym: "INSDC_feature:CDS" EXACT []
+is_a: SO:0000836 ! mRNA_region
+
+[Term]
+id: SO:0000325
+name: rRNA_large_subunit_primary_transcript
+namespace: sequence
+def: "A primary transcript encoding a large ribosomal subunit RNA." [SO:ke]
+subset: SOFA
+synonym: "35S rRNA primary transcript" EXACT []
+synonym: "rRNA large subunit primary transcript" EXACT []
+is_a: SO:0000209 ! rRNA_primary_transcript
+
+[Term]
 id: SO:0000330
 name: conserved_region
 namespace: sequence
@@ -283,6 +397,17 @@ synonym: "INSDC_qualifier:pseudo" EXACT []
 synonym: "INSDC_qualifier:unknown" EXACT []
 xref: http://en.wikipedia.org/wiki/Pseudogene "wiki"
 is_a: SO:0001411 ! biological_region
+relationship: non_functional_homolog_of SO:0000704 ! gene
+
+[Term]
+id: SO:0000340
+name: chromosome
+namespace: sequence
+def: "Structural unit composed of a nucleic acid molecule which controls its own replication through the interaction of specific proteins at one or more origins of replication." [SO:ma]
+comment: This term is mapped to MGED. Do not obsolete without consulting MGED ontology.
+subset: SOFA
+xref: http://en.wikipedia.org/wiki/Chromosome "wiki"
+is_a: SO:0001235 ! replicon
 
 [Term]
 id: SO:0000370
@@ -306,6 +431,22 @@ synonym: "cytosolic 5.8S rRNA" EXACT []
 synonym: "cytosolic rRNA 5 8S" EXACT []
 xref: http://en.wikipedia.org/wiki/5.8S_ribosomal_RNA "wiki"
 is_a: SO:0000651 ! cytosolic_LSU_rRNA
+relationship: derives_from SO:0002240 ! cytosolic_rRNA_5_8S_gene
+
+[Term]
+id: SO:0000400
+name: sequence_attribute
+namespace: sequence
+def: "An attribute describes a quality of sequence." [SO:ke]
+synonym: "sequence attribute" EXACT []
+
+[Term]
+id: SO:0000401
+name: gene_attribute
+namespace: sequence
+def: "An attribute describing a gene." []
+synonym: "gene attribute" EXACT []
+is_a: SO:0000733 ! feature_attribute
 
 [Term]
 id: SO:0000409
@@ -355,6 +496,15 @@ xref: http://en.wikipedia.org/wiki/Centromere "wiki"
 is_a: SO:0000628 ! chromosomal_structural_element
 
 [Term]
+id: SO:0000581
+name: cap
+namespace: sequence
+def: "A structure consisting of a 7-methylguanosine in 5'-5' triphosphate linkage with the first nucleotide of an mRNA. It is added post-transcriptionally, and is not encoded in the DNA." [http://seqcore.brcf.med.umich.edu/doc/educ/dnapr/mbglossary/mbgloss.html]
+subset: SOFA
+xref: http://en.wikipedia.org/wiki/5%27_cap "wiki"
+is_a: SO:0001411 ! biological_region
+
+[Term]
 id: SO:0000587
 name: group_I_intron
 namespace: sequence
@@ -375,6 +525,9 @@ synonym: "autocatalytically spliced intron" EXACT []
 synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:autocatalytically_spliced_intron" EXACT []
 is_a: SO:0000188 ! intron
+intersection_of: SO:0000188 ! intron
+intersection_of: has_quality SO:0001186 ! ribozymic
+relationship: has_quality SO:0001186 ! ribozymic
 
 [Term]
 id: SO:0000593
@@ -388,6 +541,7 @@ synonym: "C D box snoRNA" EXACT []
 synonym: "C/D box snoRNA" EXACT []
 synonym: "SNORD" EXACT [PMID:31828325]
 is_a: SO:0000275 ! snoRNA
+relationship: derives_from SO:0000595 ! C_D_box_snoRNA_primary_transcript
 
 [Term]
 id: SO:0000594
@@ -400,6 +554,23 @@ synonym: "H ACA box snoRNA" EXACT []
 synonym: "H/ACA box snoRNA" EXACT []
 synonym: "SNORA" EXACT [PMID:31828325]
 is_a: SO:0000275 ! snoRNA
+relationship: derives_from SO:0000596 ! H_ACA_box_snoRNA_primary_transcript
+
+[Term]
+id: SO:0000595
+name: C_D_box_snoRNA_primary_transcript
+namespace: sequence
+def: "A primary transcript encoding a small nucleolar RNA of the box C/D family." [SO:ke]
+synonym: "C/D box snoRNA primary transcript" EXACT []
+is_a: SO:0000232 ! snoRNA_primary_transcript
+
+[Term]
+id: SO:0000596
+name: H_ACA_box_snoRNA_primary_transcript
+namespace: sequence
+def: "A primary transcript encoding a small nucleolar RNA of the box H/ACA family." [SO:ke]
+synonym: "H ACA box snoRNA primary transcript" EXACT []
+is_a: SO:0000232 ! snoRNA_primary_transcript
 
 [Term]
 id: SO:0000613
@@ -466,6 +637,16 @@ synonym: "INSDC_feature:ncRNA" BROAD []
 synonym: "INSDC_qualifier:antisense_RNA" EXACT []
 xref: http://en.wikipedia.org/wiki/Antisense_RNA "wiki"
 is_a: SO:0000655 ! ncRNA
+relationship: derives_from SO:0000645 ! antisense_primary_transcript
+
+[Term]
+id: SO:0000645
+name: antisense_primary_transcript
+namespace: sequence
+def: "The reverse complement of the primary transcript." [SO:ke]
+subset: SOFA
+synonym: "antisense primary transcript" EXACT []
+is_a: SO:0000185 ! primary_transcript
 
 [Term]
 id: SO:0000646
@@ -491,6 +672,7 @@ synonym: "small temporal RNA primary transcript" EXACT []
 synonym: "stRNA primary transcript" EXACT []
 synonym: "stRNA_primary_transcript" EXACT []
 is_a: SO:0000483 ! nc_primary_transcript
+relationship: has_part SO:0001244 ! pre_miRNA
 
 [Term]
 id: SO:0000651
@@ -503,6 +685,7 @@ synonym: "cytosolic large subunit rRNA" EXACT []
 synonym: "cytosolic LSU RNA" EXACT []
 synonym: "cytosolic LSU rRNA" EXACT []
 is_a: SO:0002343 ! cytosolic_rRNA
+relationship: derives_from SO:0000325 ! rRNA_large_subunit_primary_transcript
 
 [Term]
 id: SO:0000655
@@ -528,6 +711,7 @@ synonym: "INSDC_feature:repeat_region" BROAD []
 synonym: "INSDC_qualifier:other" EXACT []
 synonym: "repeat region" EXACT []
 is_a: SO:0001411 ! biological_region
+relationship: has_part SO:0000726 ! repeat_unit
 
 [Term]
 id: SO:0000673
@@ -539,6 +723,7 @@ subset: SOFA
 synonym: "INSDC_feature:misc_RNA" BROAD []
 xref: http://en.wikipedia.org/wiki/RNA "wiki"
 is_a: SO:0000831 ! gene_member_region
+relationship: overlaps SO:0002300 ! unit_of_gene_expression
 
 [Term]
 id: SO:0000699
@@ -561,6 +746,7 @@ subset: SOFA
 synonym: "INSDC_feature:gene" EXACT []
 xref: http://en.wikipedia.org/wiki/Gene "wiki"
 is_a: SO:0001411 ! biological_region
+relationship: member_of SO:0005855 ! gene_group
 
 [Term]
 id: SO:0000713
@@ -583,6 +769,16 @@ synonym: "nucleotide motif" EXACT []
 is_a: SO:0001683 ! sequence_motif
 
 [Term]
+id: SO:0000726
+name: repeat_unit
+namespace: sequence
+def: "The simplest repeated component of a repeat region. A single repeat." [SO:ke]
+comment: Added to comply with the feature table. A single repeat.
+synonym: "repeat unit" EXACT []
+xref: http://www.insdc.org/files/feature_table.html
+is_a: SO:0001411 ! biological_region
+
+[Term]
 id: SO:0000727
 name: cis_regulatory_module
 namespace: sequence
@@ -596,6 +792,14 @@ synonym: "transcription factor module" EXACT []
 is_a: SO:0001055 ! transcriptional_cis_regulatory_region
 
 [Term]
+id: SO:0000733
+name: feature_attribute
+namespace: sequence
+def: "An attribute describing a located_sequence_feature." [SO:ke]
+synonym: "feature attribute" EXACT []
+is_a: SO:0000400 ! sequence_attribute
+
+[Term]
 id: SO:0000830
 name: chromosome_part
 namespace: sequence
@@ -606,6 +810,7 @@ synonym: "chromosomal region" EXACT []
 synonym: "chromosomal_region" EXACT []
 synonym: "chromosome part" EXACT []
 is_a: SO:0001411 ! biological_region
+relationship: part_of SO:0000340 ! chromosome
 
 [Term]
 id: SO:0000831
@@ -616,6 +821,7 @@ comment: A manufactured term used to allow the parts of a gene to have an is_a p
 subset: SOFA
 synonym: "gene member region" EXACT []
 is_a: SO:0001411 ! biological_region
+relationship: member_of SO:0000704 ! gene
 
 [Term]
 id: SO:0000833
@@ -626,6 +832,7 @@ comment: This term was added to provide a grouping term for the region parts of 
 subset: SOFA
 synonym: "transcript region" EXACT []
 is_a: SO:0001411 ! biological_region
+relationship: part_of SO:0000673 ! transcript
 
 [Term]
 id: SO:0000834
@@ -646,6 +853,7 @@ comment: This term was added to provide a grouping term for the region parts of 
 subset: SOFA
 synonym: "primary transcript region" EXACT []
 is_a: SO:0000833 ! transcript_region
+relationship: part_of SO:0000185 ! primary_transcript
 
 [Term]
 id: SO:0000836
@@ -656,6 +864,7 @@ comment: This term was added to provide a grouping term for the region parts of 
 subset: SOFA
 synonym: "mRNA region" EXACT []
 is_a: SO:0000834 ! mature_transcript_region
+relationship: part_of SO:0000234 ! mRNA
 
 [Term]
 id: SO:0000837
@@ -683,6 +892,7 @@ synonym: "region" NARROW [uniprot:feature_type]
 synonym: "region or site annotation" RELATED []
 synonym: "site" NARROW [uniprot:feature_type]
 is_a: SO:0001411 ! biological_region
+relationship: part_of SO:0000104 ! polypeptide
 
 [Term]
 id: SO:0000842
@@ -692,6 +902,20 @@ def: "A region of a gene that has a specific function." []
 subset: SOFA
 synonym: "gene component region" EXACT []
 is_a: SO:0001411 ! biological_region
+relationship: part_of SO:0000704 ! gene
+
+[Term]
+id: SO:0000861
+name: capped_primary_transcript
+namespace: sequence
+def: "A primary transcript that is capped." [SO:xp]
+synonym: "capped primary transcript" EXACT []
+is_a: SO:0000185 ! primary_transcript
+intersection_of: SO:0000185 ! primary_transcript
+intersection_of: adjacent_to SO:0000581 ! cap
+intersection_of: has_quality SO:0000146 ! capped
+relationship: adjacent_to SO:0000581 ! cap
+relationship: has_quality SO:0000146 ! capped
 
 [Term]
 id: SO:0000862
@@ -700,14 +924,23 @@ namespace: sequence
 def: "An mRNA that is capped." [SO:xp]
 synonym: "capped mRNA" EXACT []
 is_a: SO:0000234 ! mRNA
+intersection_of: SO:0000234 ! mRNA
+intersection_of: adjacent_to SO:0000581 ! cap
+intersection_of: has_quality SO:0000146 ! capped
+relationship: adjacent_to SO:0000581 ! cap
+relationship: has_quality SO:0000146 ! capped
 
 [Term]
-id: SO:0000871
-name: polyadenylated_mRNA
+id: SO:0000898
+name: epigenetically_modified_gene
 namespace: sequence
-def: "An mRNA that is polyadenylated." [SO:xp]
-synonym: "polyadenylated mRNA" EXACT []
-is_a: SO:0000234 ! mRNA
+def: "A gene that is epigenetically modified." [SO:ke]
+synonym: "epigenetically modified gene" EXACT []
+is_a: SO:0000704 ! gene
+is_a: SO:0001720 ! epigenetically_modified_region
+intersection_of: SO:0000704 ! gene
+intersection_of: has_quality SO:0000133 ! epigenetically_modified
+relationship: has_quality SO:0000133 ! epigenetically_modified
 
 [Term]
 id: SO:0001035
@@ -760,6 +993,22 @@ xref: http://en.wikipedia.org/wiki/Post_translational_modification "wiki"
 is_a: SO:0100001 ! biochemical_region_of_peptide
 
 [Term]
+id: SO:0001185
+name: enzymatic
+namespace: sequence
+def: "An attribute describing the sequence of a transcript that has catalytic activity with or without an associated ribonucleoprotein." [RSC:cb]
+comment: Do not use this for feature annotation. Use enzymatic_RNA (SO:0000372) instead.
+is_a: SO:0000733 ! feature_attribute
+
+[Term]
+id: SO:0001186
+name: ribozymic
+namespace: sequence
+def: "An attribute describing the sequence of a transcript that has catalytic activity even without an associated ribonucleoprotein." [RSC:cb]
+comment: Do not use this for feature annotation. Use ribozyme (SO:0000374) instead.
+is_a: SO:0001185 ! enzymatic
+
+[Term]
 id: SO:0001217
 name: protein_coding_gene
 namespace: sequence
@@ -767,6 +1016,18 @@ def: "A gene that codes for an RNA that can be translated into a protein." []
 subset: Alliance_of_Genome_Resources
 synonym: "protein coding gene" EXACT []
 is_a: SO:0000704 ! gene
+intersection_of: SO:0000704 ! gene
+intersection_of: has_quality SO:0000010 ! protein_coding
+relationship: has_quality SO:0000010 ! protein_coding
+
+[Term]
+id: SO:0001235
+name: replicon
+namespace: sequence
+def: "A region containing at least one unique origin of replication and a unique termination site." [ISBN:0716719207]
+subset: SOFA
+xref: http://en.wikipedia.org/wiki/Replicon_(genetics) "wiki"
+is_a: SO:0001411 ! biological_region
 
 [Term]
 id: SO:0001236
@@ -845,6 +1106,18 @@ synonym: "topologically defined region" EXACT []
 is_a: SO:0000001 ! region
 
 [Term]
+id: SO:0001637
+name: rRNA_gene
+namespace: sequence
+def: "A gene that encodes for ribosomal RNA." [SO:ke]
+comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
+synonym: "rDNA" EXACT []
+synonym: "rRNA gene" EXACT []
+is_a: SO:0001263 ! ncRNA_gene
+created_by: kareneilbeck
+creation_date: 2010-04-21T10:10:32Z
+
+[Term]
 id: SO:0001645
 name: genetic_marker
 namespace: sequence
@@ -873,6 +1146,8 @@ def: "An element that can exist within the promoter region of a gene." []
 comment: Mmoved from is_a: SO:0001055 transcriptional_cis_regulatory_region as per request from GREEKC initiative in August 2020.
 synonym: "promoter element" EXACT []
 is_a: SO:0000713 ! DNA_motif
+relationship: overlaps SO:0000235 ! TF_binding_site
+relationship: part_of SO:0000167 ! promoter
 created_by: kareneilbeck
 creation_date: 2010-10-01T11:48:32Z
 
@@ -907,6 +1182,9 @@ synonym: "histone modification" EXACT []
 synonym: "histone modification site" RELATED []
 is_a: SO:0001089 ! post_translationally_modified_region
 is_a: SO:0001720 ! epigenetically_modified_region
+intersection_of: SO:0001089 ! post_translationally_modified_region
+intersection_of: has_quality SO:0000133 ! epigenetically_modified
+relationship: has_quality SO:0000133 ! epigenetically_modified
 created_by: kareneilbeck
 creation_date: 2010-03-31T10:22:08Z
 
@@ -919,8 +1197,21 @@ comment: Moved from is_a biological_region (SO:0001411) to is_a regulatory_regio
 subset: SOFA
 synonym: "epigenetically modified region" RELATED []
 is_a: SO:0005836 ! regulatory_region
+intersection_of: SO:0001411 ! biological_region
+intersection_of: has_quality SO:0000133 ! epigenetically_modified
+relationship: has_quality SO:0000133 ! epigenetically_modified
 created_by: kareneilbeck
 creation_date: 2010-03-27T12:02:29Z
+
+[Term]
+id: SO:0001795
+name: regional_centromere
+namespace: sequence
+def: "A regional centromere is a large modular centromere found in fission yeast and higher eukaryotes. It consist of a central core region flanked by inverted inner and outer repeat regions." [PMID:7502067, SO:vw]
+synonym: "regional centromere" EXACT []
+is_a: SO:0000577 ! centromere
+created_by: kareneilbeck
+creation_date: 2011-05-31T12:43:07Z
 
 [Term]
 id: SO:0001796
@@ -929,6 +1220,7 @@ namespace: sequence
 def: "A conserved region within the central region of a modular centromere, where the kinetochore is formed." [SO:vw]
 synonym: "regional centromere central core" EXACT []
 is_a: SO:0000330 ! conserved_region
+relationship: part_of SO:0001795 ! regional_centromere
 created_by: kareneilbeck
 creation_date: 2011-05-31T12:56:30Z
 
@@ -954,6 +1246,8 @@ synonym: "lmr1L" EXACT []
 synonym: "lmr1R" EXACT []
 synonym: "regional centromere inner repeat region" EXACT []
 is_a: SO:0001797 ! centromeric_repeat
+relationship: part_of SO:0001795 ! regional_centromere
+relationship: part_of SO:0001796 ! regional_centromere_central_core
 created_by: kareneilbeck
 creation_date: 2011-05-31T01:01:08Z
 
@@ -1079,8 +1373,22 @@ comment: Added as per request by Val Wood GitHub issue #455 (https://github.com/
 synonym: "PRE binding RNA" EXACT []
 synonym: "pumilio response element" EXACT []
 is_a: SO:0000837 ! UTR_region
+relationship: part_of SO:0000205 ! three_prime_UTR
 created_by: david
 creation_date: 2020-04-14T10:40:30Z
+
+[Term]
+id: SO:0002240
+name: cytosolic_rRNA_5_8S_gene
+namespace: sequence
+def: "A gene which codes for 5_8S_rRNA (5.8S rRNA), which functions as a component of the large subunit of the ribosome in eukaryotes." []
+comment: Added as per request by Antonia Lock GitHub issue #472 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/472). Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
+synonym: "5.8S rRNA gene" EXACT []
+synonym: "5_8S rRNA gene" EXACT []
+synonym: "5_8S_rRNA_gene" EXACT []
+is_a: SO:0002361 ! cytosolic_LSU_rRNA_gene
+created_by: david
+creation_date: 2020-05-07T16:12:30Z
 
 [Term]
 id: SO:0002247
@@ -1092,6 +1400,17 @@ synonym: "Small noncoding RNA" EXACT []
 is_a: SO:0000655 ! ncRNA
 created_by: david
 creation_date: 2020-05-13T11:07:30Z
+
+[Term]
+id: SO:0002300
+name: unit_of_gene_expression
+namespace: sequence
+def: "Transcription units or transcribed coding sequences." [Bacterial_regulation_working_group:CMA, PMID:32665585]
+comment: Added as per Mejia-Almonte et.al PMID:32665585
+synonym: "unit of gene expression" EXACT []
+is_a: SO:0001411 ! biological_region
+created_by: david
+creation_date: 2020-08-05T11:49:30Z
 
 [Term]
 id: SO:0002304
@@ -1115,6 +1434,7 @@ synonym: "TAD boundary" EXACT []
 synonym: "TAD_boundary" EXACT []
 synonym: "topologically associated domain boundary" EXACT []
 is_a: SO:0000699 ! junction
+relationship: part_of SO:0002304 ! topologically_associated_domain
 created_by: david
 creation_date: 2020-08-12T14:01:30Z
 
@@ -1126,6 +1446,7 @@ def: "A region of DNA between two loop anchor positions that are held in close p
 comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative. DS updated defintion Feb 16, 2021. See GitHub Issue #534.
 synonym: "DNA loop" EXACT []
 is_a: SO:0000830 ! chromosome_part
+relationship: overlaps SO:0002304 ! topologically_associated_domain
 created_by: david
 creation_date: 2020-08-12T14:01:30Z
 
@@ -1137,6 +1458,7 @@ def: "The ends of a DNA loop where the two strands of DNA are held in close phys
 comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative. DS updated defintion Feb 16, 2021. See GitHub Issue #534.
 synonym: "DNA loop anchor" EXACT []
 is_a: SO:0000727 ! cis_regulatory_module
+relationship: part_of SO:0002307 ! DNA_loop
 created_by: david
 creation_date: 2020-08-12T14:01:30Z
 
@@ -1148,6 +1470,7 @@ def: "An element that always exists within the promoter region of a gene. When m
 comment: Added by Dave to be consistent with other ontologies updated with GREEKC initiative.
 synonym: "core promoter element" EXACT []
 is_a: SO:0001659 ! promoter_element
+relationship: part_of SO:0000167 ! promoter
 created_by: david
 creation_date: 2020-08-12T14:01:30Z
 
@@ -1164,6 +1487,27 @@ created_by: david
 creation_date: 2021-06-10T16:45:30Z
 
 [Term]
+id: SO:0002360
+name: cytosolic_rRNA_gene
+namespace: sequence
+def: "A gene that codes for cytosolic rRNA." []
+comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
+is_a: SO:0001637 ! rRNA_gene
+created_by: evan
+creation_date: 2021-11-19T04:30:40Z
+
+[Term]
+id: SO:0002361
+name: cytosolic_LSU_rRNA_gene
+namespace: sequence
+def: "A gene that codes for cytosolic LSU rRNA." []
+comment: Adjusted heirarchy and names of rRNA_gene terms at the request of Steven Marygold GitHub Issue #513 (https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/513).
+synonym: "cytosolic large subunit rRNA gene" EXACT []
+is_a: SO:0002360 ! cytosolic_rRNA_gene
+created_by: evan
+creation_date: 2021-11-19T04:32:20Z
+
+[Term]
 id: SO:0005836
 name: regulatory_region
 namespace: sequence
@@ -1174,6 +1518,15 @@ synonym: "INSDC_qualifier:other" EXACT []
 synonym: "regulatory region" EXACT []
 xref: http://en.wikipedia.org/wiki/Regulatory_region "wiki"
 is_a: SO:0000831 ! gene_member_region
+
+[Term]
+id: SO:0005855
+name: gene_group
+namespace: sequence
+def: "A collection of related genes." [SO:ma]
+subset: SOFA
+synonym: "gene group" EXACT []
+is_a: SO:0001411 ! biological_region
 
 [Term]
 id: SO:0100001

@@ -29,6 +29,7 @@ http://purl.obolibrary.org/obo/GO_0032186	cellular bud neck septin ring organiza
 http://purl.obolibrary.org/obo/GO_0010215	cellulose microfibril organization	http://purl.obolibrary.org/obo/GO_0009549	cellulose microfibril
 http://purl.obolibrary.org/obo/GO_0007098	centrosome cycle	http://purl.obolibrary.org/obo/GO_0005813	centrosome
 http://purl.obolibrary.org/obo/GO_0009658	chloroplast organization	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
+http://purl.obolibrary.org/obo/GO_0006325	chromatin organization	http://purl.obolibrary.org/obo/GO_0000785	chromatin
 http://purl.obolibrary.org/obo/GO_0009661	chromoplast organization	http://purl.obolibrary.org/obo/GO_0009509	chromoplast
 http://purl.obolibrary.org/obo/GO_0051276	chromosome organization	http://purl.obolibrary.org/obo/GO_0005694	chromosome
 http://purl.obolibrary.org/obo/GO_0032053	ciliary basal body organization	http://purl.obolibrary.org/obo/GO_0036064	ciliary basal body
@@ -148,6 +149,7 @@ http://purl.obolibrary.org/obo/GO_0045231	slime layer organization	http://purl.o
 http://purl.obolibrary.org/obo/GO_0030721	spectrosome organization	http://purl.obolibrary.org/obo/GO_0045170	spectrosome
 http://purl.obolibrary.org/obo/GO_0007051	spindle organization	http://purl.obolibrary.org/obo/GO_0005819	spindle
 http://purl.obolibrary.org/obo/GO_0051300	spindle pole body organization	http://purl.obolibrary.org/obo/GO_0005816	spindle pole body
+http://purl.obolibrary.org/obo/GO_0160194	stereocilium bundle organization	http://purl.obolibrary.org/obo/GO_0032421	stereocilium bundle
 http://purl.obolibrary.org/obo/GO_1990255	subsynaptic reticulum organization	http://purl.obolibrary.org/obo/GO_0071212	subsynaptic reticulum
 http://purl.obolibrary.org/obo/GO_0097435	supramolecular fiber organization	http://purl.obolibrary.org/obo/GO_0099512	supramolecular fiber
 http://purl.obolibrary.org/obo/GO_0048499	synaptic vesicle membrane organization	http://purl.obolibrary.org/obo/GO_0030672	synaptic vesicle membrane

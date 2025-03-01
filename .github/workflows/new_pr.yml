@@ -93,4 +93,4 @@ jobs:
           committer: ${{ env.ISSUE_CREATOR }} <${{ env.ISSUE_CREATOR }}@users.noreply.github.com>
           base: ${{ github.head_ref }}
           branch: ${{ env.branch-name }}
-          # token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.PR_ACTION_TOKEN }}

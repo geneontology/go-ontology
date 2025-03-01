@@ -1,6 +1,7 @@
 defined_class	defined_class_label	imported	imported_label
 http://purl.obolibrary.org/obo/GO_0140484	5-aminolevulinic acid import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_356416	5-ammoniolevulinate
 http://purl.obolibrary.org/obo/GO_0070779	D-aspartate import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_29990	D-aspartate(1-)
+http://purl.obolibrary.org/obo/GO_0098708	D-glucose import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_4167	D-glucopyranose
 http://purl.obolibrary.org/obo/GO_1904273	L-alanine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_57972	L-alanine zwitterion
 http://purl.obolibrary.org/obo/GO_0097638	L-arginine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_32682	L-argininium(1+)
 http://purl.obolibrary.org/obo/GO_1903811	L-asparagine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_58048	L-asparagine zwitterion
@@ -19,7 +20,7 @@ http://purl.obolibrary.org/obo/GO_1904272	L-tryptophan import across plasma memb
 http://purl.obolibrary.org/obo/GO_1903808	L-tyrosine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_58315	L-tyrosine zwitterion
 http://purl.obolibrary.org/obo/GO_1903805	L-valine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_57762	L-valine zwitterion
 http://purl.obolibrary.org/obo/GO_0098702	adenine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_16708	adenine
-http://purl.obolibrary.org/obo/GO_0089718	amino acid import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_35238	amino acid zwitterion
+http://purl.obolibrary.org/obo/GO_0089718	amino acid import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_35238	amino-acid zwitterion
 http://purl.obolibrary.org/obo/GO_0140157	ammonium import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_28938	ammonium
 http://purl.obolibrary.org/obo/GO_0060919	auxin import into cell	http://purl.obolibrary.org/obo/GOCHE_22676	substance with auxin role
 http://purl.obolibrary.org/obo/GO_1905135	biotin import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_57586	biotinate
@@ -34,7 +35,6 @@ http://purl.obolibrary.org/obo/GO_1904447	folate import across plasma membrane	h
 http://purl.obolibrary.org/obo/GO_1990539	fructose import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_28757	fructose
 http://purl.obolibrary.org/obo/GO_0140425	galactose import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_28260	galactose
 http://purl.obolibrary.org/obo/GO_0140270	gluconate import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_24265	gluconate
-http://purl.obolibrary.org/obo/GO_0098708	glucose import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_4167	D-glucopyranose
 http://purl.obolibrary.org/obo/GO_0098709	glutathione import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_57925	glutathionate(1-)
 http://purl.obolibrary.org/obo/GO_1903804	glycine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_57305	glycine zwitterion
 http://purl.obolibrary.org/obo/GO_0098710	guanine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_16235	guanine
@@ -44,7 +44,6 @@ http://purl.obolibrary.org/obo/GO_0098658	inorganic anion import across plasma m
 http://purl.obolibrary.org/obo/GO_0098659	inorganic cation import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_36915	inorganic cation
 http://purl.obolibrary.org/obo/GO_0099587	inorganic ion import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_36914	inorganic ion
 http://purl.obolibrary.org/obo/GO_0098711	iron ion import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_24875	iron cation
-http://purl.obolibrary.org/obo/GO_0098713	leucine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_25017	leucine
 http://purl.obolibrary.org/obo/GO_0015911	long-chain fatty acid import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_57560	long-chain fatty acid anion
 http://purl.obolibrary.org/obo/GO_0098714	malate import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_15595	malate(2-)
 http://purl.obolibrary.org/obo/GO_0098715	malonic acid import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_15792	malonate(2-)

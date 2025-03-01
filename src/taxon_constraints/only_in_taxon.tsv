@@ -1,4 +1,10 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:0019283	L-methionine biosynthetic process from O-phospho-L-homoserine and cystathionine	NCBITaxon:33090	Viridiplantae	
+GO:0019279	L-methionine biosynthetic process from L-homoserine via cystathionine	NCBITaxon:2	Bacteria	
+GO:0001772	immunological synapse	NCBITaxon:7742	Vertebrata	
+GO:0031911	cytoproct	NCBITaxon:5878	Ciliophora	
+GO:0008088	axo-dendritic transport	NCBITaxon:33208	Metazoa	
+GO:0099563	modification of synaptic structure	NCBITaxon:33208	Metazoa	
 GO:0000132	establishment of mitotic spindle orientation	NCBITaxon:2759	Eukaryota	
 GO:0000165	MAPK cascade	NCBITaxon:2759	Eukaryota	
 GO:0000278	mitotic cell cycle	NCBITaxon:2759	Eukaryota	
@@ -137,7 +143,6 @@ GO:0009516	leucoplast	NCBITaxon:33090	Viridiplantae
 GO:0009533	chloroplast stromal thylakoid	NCBITaxon:33090	Viridiplantae	
 GO:0009541	etioplast prolamellar body	NCBITaxon:33090	Viridiplantae	
 GO:0009542	granum	NCBITaxon:33090	Viridiplantae	
-GO:0009544	chloroplast ATP synthase complex	NCBITaxon:33090	Viridiplantae	
 GO:0009545	elaioplast	NCBITaxon:33090	Viridiplantae	
 GO:0009549	cellulose microfibril	NCBITaxon:33090	Viridiplantae	
 GO:0009554	megasporogenesis	NCBITaxon:3398	Magnoliophyta	
@@ -297,8 +302,6 @@ GO:0033009	nucleomorph	NCBITaxon:33090	Viridiplantae
 GO:0033104	type VI protein secretion system complex	NCBITaxon:2	Bacteria	
 GO:0033105	chlorosome envelope	NCBITaxon:Union_0000004	Prokaryota	
 GO:0033173	calcineurin-NFAT signaling cascade	NCBITaxon:33208	Metazoa	
-GO:0033174	chloroplast proton-transporting ATP synthase complex, catalytic core CF(1)	NCBITaxon:33090	Viridiplantae	
-GO:0033175	chloroplast proton-transporting ATP synthase complex, coupling factor CF(o)	NCBITaxon:33090	Viridiplantae	
 GO:0033189	response to vitamin A	NCBITaxon:33208	Metazoa	
 GO:0033290	eukaryotic 48S preinitiation complex	NCBITaxon:2759	Eukaryota	
 GO:0033291	eukaryotic 80S initiation complex	NCBITaxon:2759	Eukaryota	
@@ -392,8 +395,6 @@ GO:0045172	germline ring canal	NCBITaxon:6656	Arthropoda
 GO:0045202	synapse	NCBITaxon:33208	Metazoa	
 GO:0045247	cytosolic electron transfer flavoprotein complex	NCBITaxon:Union_0000004	Prokaryota	
 GO:0045249	cytosol pyruvate dehydrogenase (lipoamide) phosphatase complex	NCBITaxon:Union_0000004	Prokaryota	
-GO:0045258	plasma membrane succinate dehydrogenase complex (ubiquinone)	NCBITaxon:Union_0000004	Prokaryota	
-GO:0045260	plasma membrane proton-transporting ATP synthase complex	NCBITaxon:2	Bacteria	
 GO:0045314	regulation of compound eye photoreceptor development	NCBITaxon:6656	Arthropoda	
 GO:0045498	sex comb development	NCBITaxon:50557	Insecta	
 GO:0045688	regulation of antipodal cell differentiation	NCBITaxon:3398	Magnoliophyta	
@@ -488,7 +489,6 @@ GO:0062023	collagen-containing extracellular matrix	NCBITaxon:33208	Metazoa
 GO:0070057	prospore membrane spindle pole body attachment site	NCBITaxon:4751	Fungi	
 GO:0070196	eukaryotic translation initiation factor 3 complex assembly	NCBITaxon:2759	Eukaryota	
 GO:0070258	inner membrane pellicle complex	NCBITaxon:5794	Apicomplexa	
-GO:0070470	plasma membrane respirasome	NCBITaxon:2	Bacteria	
 GO:0070527	platelet aggregation	NCBITaxon:33208	Metazoa	
 GO:0070631	spindle pole body localization	NCBITaxon:4751	Fungi	
 GO:0070648	formin-nucleated actin cable	NCBITaxon:2759	Eukaryota	
@@ -771,13 +771,11 @@ GO:0101024	mitotic nuclear membrane organization	NCBITaxon:2759	Eukaryota
 GO:0101026	mitotic nuclear membrane biogenesis	NCBITaxon:2759	Eukaryota	
 GO:0048273	mitogen-activated protein kinase p38 binding	NCBITaxon:33208	Metazoa	
 GO:0086036	regulation of cardiac muscle cell membrane potential	NCBITaxon:33208	Metazoa	
-GO:0015734	taurine transport	NCBITaxon:33208	Metazoa	
 GO:0042412	taurine biosynthetic process	NCBITaxon:33208	Metazoa	
-GO:0050323	taurine dehydrogenase activity	NCBITaxon:33208	Metazoa	
-GO:0031299	taurine-pyruvate aminotransferase activity	NCBITaxon:33208	Metazoa	
-GO:0050322	taurine-2-oxoglutarate transaminase activity	NCBITaxon:33208	Metazoa	
+GO:0050323	taurine dehydrogenase activity	NCBITaxon:2	Bacteria	PMID:15073291
+GO:0031299	taurine-pyruvate aminotransferase activity	NCBITaxon:2	Bacteria	PMID:11082195
+GO:0050322	taurine-2-oxoglutarate transaminase activity	NCBITaxon:2	Bacteria	PMID:16535664
 GO:0062089	regulation of taurine biosynthetic process	NCBITaxon:33208	Metazoa	
-GO:0005369	taurine:sodium symporter activity	NCBITaxon:33208	Metazoa	
 GO:0019452	L-cysteine catabolic process to taurine	NCBITaxon:33208	Metazoa	
 GO:0050325	tauropine dehydrogenase activity	NCBITaxon:33208	Metazoa	
 GO:0103012	ferredoxin-thioredoxin reductase activity	NCBITaxon_Union:0000002	Viridiplantae or Cyanobacteria	
@@ -835,7 +833,7 @@ GO:0045321	leukocyte activation	NCBITaxon:7742	Vertebrata <Metazoa>
 GO:0002443	leukocyte mediated immunity	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0050900	leukocyte migration	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0070661	leukocyte proliferation	NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0001909	leukocyte mediated cytotoxicity	NCBITaxon:7742	Vertebrata <Metazoa>    	
+GO:0001909	leukocyte mediated cytotoxicity	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0001776	leukocyte homeostasis	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0043299	leukocyte degranulation	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0007159	leukocyte cell-cell adhesion	NCBITaxon:7742	Vertebrata <Metazoa>	
@@ -880,16 +878,63 @@ GO:0072487	MSL complex	NCBITaxon:33208	Metazoa
 GO:0042597	periplasmic space	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	PMID:15803654
 GO:0106316	nitrite reductase NADH activity	NCBITaxon:2	Bacteria	
 GO:0008942	nitrite reductase [NAD(P)H] activity	NCBITaxon:2759	Eukaryota	
-GO:0060918	auxin transport	NCBITaxon:33090	Viridiplantae	  
+GO:0060918	auxin transport	NCBITaxon:33090	Viridiplantae	
 GO:2000012	regulation of auxin polar transport	NCBITaxon:33090	Viridiplantae	
 GO:0080161	auxin transmembrane transporter activity	NCBITaxon:33090	Viridiplantae	
 GO:0005793	endoplasmic reticulum-Golgi intermediate compartment	NCBITaxon:2759	Eukaryota	
 GO:0062200	RAM/MOR signaling pathway	NCBITaxon:4751	Fungi	PMID:23212898
 GO:0004164	diphthine synthase activity	NCBITaxon:2157	Archaea	PMID:24739148
 GO:0141133	diphthine methyl ester synthase activity	NCBITaxon:2759	Eukaryota	PMID:24739148
-GO:0000196	cell wall integrity MAPK cascade	NCBITaxon:Union_0000007	Viridiplantae or Bacteria or Euglenozoa	
 GO:0141152	glycerol-3-phosphate dehydrogenase (NAD+) activity	NCBITaxon:2759	Eukaryota	
 GO:0047952	glycerol-3-phosphate dehydrogenase [NAD(P)+]	NCBITaxon:2	Bacteria	PMID:28326
 GO:0141153	glycerol-3-phosphate dehydrogenase (NADP+) activity	NCBITaxon:2157	Archaea	PMID:15557260
 GO:0141091	transforming growth factor beta receptor superfamily signaling pathway	NCBITaxon:6072	Eumetazoa	
 GO:0141169	epigenetic 5-methylcytosine DNA demethylation, direct 5-methylcytosine excision pathway	NCBITaxon:33090	Viridiplantae	PMID:31546611
+GO:0072331	signal transduction by p53 class mediator	NCBITaxon:6072	Eumetazoa	
+GO:0042541	hemoglobin biosynthetic process	NCBITaxon:6072	Eumetazoa	
+GO:0032186	cellular bud neck septin ring organization	NCBITaxon:147537	Saccharomycotina	
+GO:0047522	15-oxoprostaglandin 13-oxidase activity	NCBITaxon:6072	Eumetazoa	
+GO:0006693	prostaglandin metabolic process	NCBITaxon:6072	Eumetazoa	
+GO:0071875	adrenergic receptor signaling pathway	NCBITaxon:6072	Eumetazoa	
+GO:0046850	regulation of bone remodeling	NCBITaxon:6072	Eumetazoa	
+GO:0055120	striated muscle dense body	NCBITaxon:6072	Eumetazoa	
+GO:0030097	hemopoiesis	NCBITaxon:6072	Eumetazoa	
+GO:0048168	regulation of neuronal synaptic plasticity	NCBITaxon:6072	Eumetazoa	
+GO:0052907	23S rRNA (adenine(1618)-N(6))-methyltransferase activity	NCBITaxon:Union_0000004	Prokaryota	
+GO:0043292	contractile muscle fiber	NCBITaxon:6072	Eumetazoa	
+GO:0160175	somatic muscle attachment to chitin-based cuticle	NCBITaxon:6656	Arthropoda	
+GO:0001734	mRNA (N6-adenosine)-methyltransferase activity	NCBITaxon:2759	Eukaryota	
+GO:0016120	carotene biosynthetic process	NCBITaxon:33090	Viridiplantae	
+GO:0016605	PML body	NCBITaxon:6072	Eumetazoa	
+GO:0006699	bile acid biosynthetic process	NCBITaxon:6072	Eumetazoa	
+GO:0050870	positive regulation of T cell activation	NCBITaxon:6072	Eumetazoa	
+GO:0043123	positive regulation of canonical NF-kappaB signal transduction	NCBITaxon:6072	Eumetazoa	
+GO:0032727	positive regulation of interferon-alpha production	NCBITaxon:6072	Eumetazoa	
+GO:0032755	positive regulation of interleukin-6 production	NCBITaxon:6072	Eumetazoa	
+GO:0031643	positive regulation of myelination	NCBITaxon:6072	Eumetazoa	
+GO:0032729	positive regulation of type II interferon production	NCBITaxon:6072	Eumetazoa	
+GO:0046850	regulation of bone remodeling	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0060998	regulation of dendritic spine development	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0070324	thyroid hormone binding	NCBITaxon:6072	Eumetazoa	
+GO:0009887	animal organ morphogenesis	NCBITaxon:6072	Eumetazoa	
+GO:0070531	BRCA1-A complex	NCBITaxon:6072	Eumetazoa	
+GO:0031436	BRCA1-BARD1 complex	NCBITaxon:6072	Eumetazoa	
+GO:1990220	GroEL-GroES	NCBITaxon:Union_0000004	Prokaryota	
+GO:0010736	serum response element binding	NCBITaxon:6072	Eumetazoa	
+GO:0009887	animal organ morphogenesis	NCBITaxon:6072	Eumetazoa	
+GO:0010236	plastoquinone biosynthetic process	NCBITaxon:33090	Viridiplantae	
+GO:0051960	regulation of nervous system development	NCBITaxon:6072	Eumetazoa	
+GO:0030428	cell septum	NCBITaxon:Union_0000020	Fungi or Bacteria	
+GO:0018679	dibenzothiophene-5,5-dioxide monooxygenase activity	NCBITaxon:Union_0000004	Prokaryota	
+GO:0031639	plasminogen activation	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0009331	glycerol-3-phosphate dehydrogenase complex	NCBITaxon:Union_0000004	Prokaryota	
+GO:0160208	fibrous body-membranous organelle	NCBITaxon:6231	Nematoda	
+GO:0019833	ice nucleation activity	NCBITaxon:2	Bacteria	
+GO:0042579	microbody	NCBITaxon:2759	Eukaryota	
+GO:0030941	chloroplast targeting sequence binding	NCBITaxon:33090	Viridiplantae	
+GO:0043715	2,3-diketo-5-methylthiopentyl-1-phosphate enolase activity	NCBITaxon:2	Bacteria	
+GO:0043716	2-hydroxy-3-keto-5-methylthiopentenyl-1-phosphate phosphatase activity	NCBITaxon:2	Bacteria	
+GO:0160237	D-Ala-D-Ala dipeptidase activity	NCBITaxon:2	Bacteria	
+GO:0140095	cytoplasmic lattice	NCBITaxon:40674	Mammalia	
+GO:0140094	structural constituent of cytoplasmic lattice	NCBITaxon:40674	Mammalia	
+GO:0034354	'de novo' NAD biosynthetic process from tryptophan	NCBITaxon:2759	Eukaryota	

@@ -13,6 +13,8 @@ WHERE {
   FILTER(isIRI(?subtaxon))
   FILTER(STRSTARTS(STR(?subtaxon), "http://purl.obolibrary.org/obo/NCBITaxon"))
   FILTER(STRSTARTS(STR(?supertaxon), "http://purl.obolibrary.org/obo/NCBITaxon"))
+  FILTER(!STRSTARTS(STR(?subtaxon), "http://purl.obolibrary.org/obo/NCBITaxon_U"))
+  FILTER(!STRSTARTS(STR(?supertaxon), "http://purl.obolibrary.org/obo/NCBITaxon_U"))
   BIND(IRI(CONCAT(STR(?subtaxon), "#NOT")) AS ?complement_subtaxon)
   BIND(IRI(CONCAT(STR(?supertaxon), "#NOT")) AS ?complement_supertaxon)
 }

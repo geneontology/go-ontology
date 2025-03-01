@@ -22,7 +22,7 @@ http://purl.obolibrary.org/obo/GO_0004897	ciliary neurotrophic factor receptor a
 http://purl.obolibrary.org/obo/GO_0004978	corticotropin receptor activity	http://purl.obolibrary.org/obo/CHEBI_3892	corticotropin
 http://purl.obolibrary.org/obo/GO_0043404	corticotropin-releasing hormone receptor activity	http://purl.obolibrary.org/obo/CHEBI_65311	corticotropin-releasing hormone
 http://purl.obolibrary.org/obo/GO_0009884	cytokinin receptor activity	http://purl.obolibrary.org/obo/GOCHE_23530	substance with cytokinin role
-http://purl.obolibrary.org/obo/GO_0005006	epidermal growth factor receptor activity	http://purl.obolibrary.org/obo/PR_000006928	pro-epidermal growth factor
+http://purl.obolibrary.org/obo/GO_0005006	epidermal growth factor receptor activity	http://purl.obolibrary.org/obo/PR_000006928	pre-pro-epidermal growth factor
 http://purl.obolibrary.org/obo/GO_0004900	erythropoietin receptor activity	http://purl.obolibrary.org/obo/PR_000007141	erythropoietin
 http://purl.obolibrary.org/obo/GO_0038199	ethylene receptor activity	http://purl.obolibrary.org/obo/CHEBI_18153	ethene
 http://purl.obolibrary.org/obo/GO_0004966	galanin receptor activity	http://purl.obolibrary.org/obo/PR_000007806	galanin
@@ -44,7 +44,7 @@ http://purl.obolibrary.org/obo/GO_0004920	interleukin-10 receptor activity	http:
 http://purl.obolibrary.org/obo/GO_0004921	interleukin-11 receptor activity	http://purl.obolibrary.org/obo/PR_000001366	interleukin-11
 http://purl.obolibrary.org/obo/GO_0016515	interleukin-13 receptor activity	http://purl.obolibrary.org/obo/PR_000001370	interleukin-13
 http://purl.obolibrary.org/obo/GO_0042010	interleukin-15 receptor activity	http://purl.obolibrary.org/obo/PR_000001373	interleukin-15
-http://purl.obolibrary.org/obo/GO_0042012	interleukin-16 receptor activity	http://purl.obolibrary.org/obo/PR_000001374	interleukin-16
+http://purl.obolibrary.org/obo/GO_0042012	interleukin-16 receptor activity	http://purl.obolibrary.org/obo/PR_000001374	pro-interleukin-16
 http://purl.obolibrary.org/obo/GO_0030368	interleukin-17 receptor activity	http://purl.obolibrary.org/obo/PR_000001092	interleukin-17
 http://purl.obolibrary.org/obo/GO_0042008	interleukin-18 receptor activity	http://purl.obolibrary.org/obo/PR_000001376	interleukin-18
 http://purl.obolibrary.org/obo/GO_0042014	interleukin-19 receptor activity	http://purl.obolibrary.org/obo/PR_000001472	interleukin-19
@@ -77,15 +77,12 @@ http://purl.obolibrary.org/obo/GO_0008502	melatonin receptor activity	http://pur
 http://purl.obolibrary.org/obo/GO_0038047	morphine receptor activity	http://purl.obolibrary.org/obo/CHEBI_58097	morphine(1+)
 http://purl.obolibrary.org/obo/GO_0004983	neuropeptide Y receptor activity	http://purl.obolibrary.org/obo/PR_000011387	neuropeptide Y
 http://purl.obolibrary.org/obo/GO_0070553	nicotinic acid receptor activity	http://purl.obolibrary.org/obo/CHEBI_32544	nicotinate
-http://purl.obolibrary.org/obo/GO_0031963	nuclear cortisol receptor activity	http://purl.obolibrary.org/obo/CHEBI_17650	cortisol
-http://purl.obolibrary.org/obo/GO_0030284	nuclear estrogen receptor activity	http://purl.obolibrary.org/obo/GOCHE_50114	substance with estrogen role
-http://purl.obolibrary.org/obo/GO_0004883	nuclear glucocorticoid receptor activity	http://purl.obolibrary.org/obo/CHEBI_24261	glucocorticoid
 http://purl.obolibrary.org/obo/GO_0016502	nucleotide receptor activity	http://purl.obolibrary.org/obo/CHEBI_36976	nucleotide
 http://purl.obolibrary.org/obo/GO_0004989	octopamine receptor activity	http://purl.obolibrary.org/obo/CHEBI_58025	octopaminium
 http://purl.obolibrary.org/obo/GO_0004924	oncostatin-M receptor activity	http://purl.obolibrary.org/obo/PR_000012059	oncostatin-M
 http://purl.obolibrary.org/obo/GO_0016499	orexin receptor activity	http://purl.obolibrary.org/obo/PR_000008476	hypocretin neuropeptide precursor
 http://purl.obolibrary.org/obo/GO_0004990	oxytocin receptor activity	http://purl.obolibrary.org/obo/CHEBI_7872	oxytocin
-http://purl.obolibrary.org/obo/GO_0001602	pancreatic polypeptide receptor activity	http://purl.obolibrary.org/obo/PR_000013164	pancreatic prohormone
+http://purl.obolibrary.org/obo/GO_0001602	pancreatic polypeptide receptor activity	http://purl.obolibrary.org/obo/PR_000013164	pancreatic polypeptide prohormone
 http://purl.obolibrary.org/obo/GO_0004991	parathyroid hormone receptor activity	http://purl.obolibrary.org/obo/PR_000013429	parathyroid hormone
 http://purl.obolibrary.org/obo/GO_0001601	peptide YY receptor activity	http://purl.obolibrary.org/obo/PR_000013526	peptide YY
 http://purl.obolibrary.org/obo/GO_0036318	peptide pheromone receptor activity	http://purl.obolibrary.org/obo/CHEBI_38579	peptide pheromone

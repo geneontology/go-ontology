@@ -1,7 +1,7 @@
 // scala 2.13.9
 // ammonite 2.5.5
 
-import $ivy.`net.sourceforge.owlapi:owlapi-distribution:4.5.17`
+import $ivy.`net.sourceforge.owlapi:owlapi-distribution:4.5.29`
 import $ivy.`org.phenoscape::scowl:1.3.4`
 import $ivy.`org.apache.jena:apache-jena-libs:3.15.0`
 import $ivy.`com.outr::scribe-slf4j:2.7.12`

@@ -1,0 +1,46 @@
+#define RDFS_SUBCLASS_OF "<http://www.w3.org/2000/01/rdf-schema#subClassOf>"
+#define IN_TAXON "<http://purl.obolibrary.org/obo/RO_0002162>"
+
+.decl taxonconstraintsrelationgraph(s: symbol, p: symbol, o: symbol)
+.decl subclassof(s: symbol, o: symbol)
+.decl goterm(goterm: symbol)
+.decl taxon(taxon: symbol)
+.decl taxon_complement(id: symbol, taxon: symbol)
+.decl intaxon(goterm: symbol, taxon: symbol)
+.decl indirect_intaxon(goterm: symbol, taxon: symbol)
+.decl specific_intaxon(goterm: symbol, taxon: symbol)
+.decl notintaxon(goterm: symbol, taxon: symbol)
+.decl indirect_notintaxon(goterm: symbol, taxon: symbol)
+.decl general_notintaxon(goterm: symbol, taxon: symbol)
+.decl keep_notintaxon(goterm: symbol, taxon: symbol)
+.decl computed_only_in_taxon(goterm: symbol, taxon: symbol)
+.decl computed_never_in_taxon(goterm: symbol, taxon: symbol)
+
+subclassof(s, o) :- taxonconstraintsrelationgraph(s, RDFS_SUBCLASS_OF, o), match("<.+>", s), match("<.+>", o).
+
+goterm(goterm) :- taxonconstraintsrelationgraph(goterm, _, _), match("<http://purl.obolibrary.org/obo/GO_.+>", goterm).
+goterm(goterm) :- taxonconstraintsrelationgraph(_, _, goterm), match("<http://purl.obolibrary.org/obo/GO_.+>", goterm).
+
+taxon(taxon) :- taxonconstraintsrelationgraph(taxon, _, _), match("<http://purl.obolibrary.org/obo/NCBITaxon_.*\\d+>", taxon).
+taxon(taxon) :- taxonconstraintsrelationgraph(_, _, taxon), match("<http://purl.obolibrary.org/obo/NCBITaxon_.*\\d+>", taxon).
+
+taxon_complement(tc, taxon) :- taxonconstraintsrelationgraph(tc, _, _), match("<http://purl.obolibrary.org/obo/NCBITaxon_\\d+#NOT>", tc), len=strlen(tc), taxon=cat(substr(tc, 0, len-5), ">").
+taxon_complement(tc, taxon) :- taxonconstraintsrelationgraph(_, _, tc), match("<http://purl.obolibrary.org/obo/NCBITaxon_\\d+#NOT>", tc), len=strlen(tc), taxon=cat(substr(tc, 0, len-5), ">").
+
+intaxon(goterm, taxon) :- taxonconstraintsrelationgraph(goterm, IN_TAXON, taxon), goterm(goterm), taxon(taxon).
+notintaxon(goterm, taxon) :- taxonconstraintsrelationgraph(goterm, IN_TAXON, tc), goterm(goterm), taxon_complement(tc, taxon).
+
+indirect_intaxon(goterm, taxon) :- intaxon(goterm, taxon), intaxon(goterm, other), subclassof(other, taxon).
+specific_intaxon(goterm, taxon) :- intaxon(goterm, taxon), !indirect_intaxon(goterm, taxon).
+
+indirect_notintaxon(goterm, taxon) :- notintaxon(goterm, taxon), notintaxon(goterm, other), subclassof(taxon, other).
+general_notintaxon(goterm, taxon) :- notintaxon(goterm, taxon), !indirect_notintaxon(goterm, taxon).
+keep_notintaxon(goterm, taxon) :- general_notintaxon(goterm, taxon), !specific_intaxon(goterm, _).
+keep_notintaxon(goterm, taxon) :- general_notintaxon(goterm, taxon), specific_intaxon(goterm, other), subclassof(taxon, other).
+
+computed_only_in_taxon(goterm, taxon) :- specific_intaxon(goterm, taxon).
+computed_never_in_taxon(goterm, taxon) :- keep_notintaxon(goterm, taxon).
+
+.input taxonconstraintsrelationgraph
+.output computed_only_in_taxon
+.output computed_never_in_taxon

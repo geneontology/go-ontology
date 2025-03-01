@@ -52,6 +52,7 @@ http://purl.obolibrary.org/obo/GO_0021787	chemorepulsion of branchiomotor neuron
 http://purl.obolibrary.org/obo/GO_1900865	chloroplast RNA modification	http://purl.obolibrary.org/obo/GO_0009507	chloroplast	http://purl.obolibrary.org/obo/GO_0009451	RNA modification
 http://purl.obolibrary.org/obo/GO_1900871	chloroplast mRNA modification	http://purl.obolibrary.org/obo/GO_0009507	chloroplast	http://purl.obolibrary.org/obo/GO_0016556	mRNA modification
 http://purl.obolibrary.org/obo/GO_0010239	chloroplast mRNA processing	http://purl.obolibrary.org/obo/GO_0009507	chloroplast	http://purl.obolibrary.org/obo/GO_0006397	mRNA processing
+http://purl.obolibrary.org/obo/GO_0033614	chloroplast proton-transporting ATP synthase complex assembly	http://purl.obolibrary.org/obo/GO_0009507	chloroplast	http://purl.obolibrary.org/obo/GO_0043461	proton-transporting ATP synthase complex assembly
 http://purl.obolibrary.org/obo/GO_1901259	chloroplast rRNA processing	http://purl.obolibrary.org/obo/GO_0009507	chloroplast	http://purl.obolibrary.org/obo/GO_0006364	rRNA processing
 http://purl.obolibrary.org/obo/GO_1902488	cholangiocyte apoptotic process	http://purl.obolibrary.org/obo/CL_1000488	cholangiocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_1990765	colon smooth muscle contraction	http://purl.obolibrary.org/obo/UBERON_0001155	colon	http://purl.obolibrary.org/obo/GO_0006939	smooth muscle contraction
@@ -64,7 +65,7 @@ http://purl.obolibrary.org/obo/GO_0002184	cytoplasmic translational termination	
 http://purl.obolibrary.org/obo/GO_0016482	cytosolic transport	http://purl.obolibrary.org/obo/GO_0005829	cytosol	http://purl.obolibrary.org/obo/GO_0006810	transport
 http://purl.obolibrary.org/obo/GO_0061475	cytosolic valyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005829	cytosol	http://purl.obolibrary.org/obo/GO_0006438	valyl-tRNA aminoacylation
 http://purl.obolibrary.org/obo/GO_0043316	cytotoxic T cell degranulation	http://purl.obolibrary.org/obo/CL_0000910	cytotoxic T cell	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
-http://purl.obolibrary.org/obo/GO_1902483	cytotoxic T cell pyroptotic process	http://purl.obolibrary.org/obo/CL_0000910	cytotoxic T cell	http://purl.obolibrary.org/obo/GO_0070269	pyroptosis
+http://purl.obolibrary.org/obo/GO_1902483	cytotoxic T cell pyroptotic cell death	http://purl.obolibrary.org/obo/CL_0000910	cytotoxic T cell	http://purl.obolibrary.org/obo/GO_0141201	pyroptotic cell death
 http://purl.obolibrary.org/obo/GO_0002468	dendritic cell antigen processing and presentation	http://purl.obolibrary.org/obo/CL_0000451	dendritic cell	http://purl.obolibrary.org/obo/GO_0019882	antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_0097048	dendritic cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000451	dendritic cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0036514	dopaminergic neuron axon guidance	http://purl.obolibrary.org/obo/CL_0000700	dopaminergic neuron	http://purl.obolibrary.org/obo/GO_0007411	axon guidance
@@ -85,9 +86,8 @@ http://purl.obolibrary.org/obo/GO_0045200	establishment of neuroblast polarity	h
 http://purl.obolibrary.org/obo/GO_0006860	extracellular amino acid transport	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0006865	amino acid transport
 http://purl.obolibrary.org/obo/GO_1900116	extracellular negative regulation of signal transduction	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0009968	negative regulation of signal transduction
 http://purl.obolibrary.org/obo/GO_1900115	extracellular regulation of signal transduction	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0009966	regulation of signal transduction
-http://purl.obolibrary.org/obo/GO_0097579	extracellular sequestering of copper ion	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0097578	sequestering of copper ion
 http://purl.obolibrary.org/obo/GO_0006858	extracellular transport	http://purl.obolibrary.org/obo/GO_0005576	extracellular region	http://purl.obolibrary.org/obo/GO_0006810	transport
-http://purl.obolibrary.org/obo/GO_1904606	fat cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000136	fat cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
+http://purl.obolibrary.org/obo/GO_1904606	fat cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000136	adipocyte	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0044346	fibroblast apoptotic process	http://purl.obolibrary.org/obo/CL_0000057	fibroblast	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0010451	floral meristem growth	http://purl.obolibrary.org/obo/PO_0000229	flower meristem	http://purl.obolibrary.org/obo/GO_0048589	developmental growth
 http://purl.obolibrary.org/obo/GO_0032529	follicle cell microvillus organization	http://purl.obolibrary.org/obo/CL_0000477	follicle cell of egg chamber	http://purl.obolibrary.org/obo/GO_0032528	microvillus organization
@@ -111,7 +111,6 @@ http://purl.obolibrary.org/obo/GO_0002227	innate immune response in mucosa	http:
 http://purl.obolibrary.org/obo/GO_0044258	intestinal lipid catabolic process	http://purl.obolibrary.org/obo/UBERON_0000160	intestine	http://purl.obolibrary.org/obo/GO_0016042	lipid catabolic process
 http://purl.obolibrary.org/obo/GO_0032367	intracellular cholesterol transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0030301	cholesterol transport
 http://purl.obolibrary.org/obo/GO_0015859	intracellular nucleoside transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0015858	nucleoside transport
-http://purl.obolibrary.org/obo/GO_0097580	intracellular sequestering of copper ion	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0097578	sequestering of copper ion
 http://purl.obolibrary.org/obo/GO_0035556	intracellular signal transduction	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0007165	signal transduction
 http://purl.obolibrary.org/obo/GO_0032366	intracellular sterol transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0015918	sterol transport
 http://purl.obolibrary.org/obo/GO_0046907	intracellular transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0006810	transport
@@ -185,7 +184,6 @@ http://purl.obolibrary.org/obo/GO_0007006	mitochondrial membrane organization	ht
 http://purl.obolibrary.org/obo/GO_0070155	mitochondrial methionyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006431	methionyl-tRNA aminoacylation
 http://purl.obolibrary.org/obo/GO_0090144	mitochondrial nucleoid organization	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0090143	nucleoid organization
 http://purl.obolibrary.org/obo/GO_0070156	mitochondrial phenylalanyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006432	phenylalanyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0140040	mitochondrial polycistronic RNA processing	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0031426	polycistronic mRNA processing
 http://purl.obolibrary.org/obo/GO_0070157	mitochondrial prolyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006433	prolyl-tRNA aminoacylation
 http://purl.obolibrary.org/obo/GO_0035694	mitochondrial protein catabolic process	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0030163	protein catabolic process
 http://purl.obolibrary.org/obo/GO_0034982	mitochondrial protein processing	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0016485	protein processing
@@ -253,6 +251,7 @@ http://purl.obolibrary.org/obo/GO_0032294	peripheral nervous system non-myelinat
 http://purl.obolibrary.org/obo/GO_0080172	petal epidermis patterning	http://purl.obolibrary.org/obo/PO_0006041	petal epidermis	http://purl.obolibrary.org/obo/GO_0007389	pattern specification process
 http://purl.obolibrary.org/obo/GO_0080175	phragmoplast microtubule organization	http://purl.obolibrary.org/obo/GO_0009524	phragmoplast	http://purl.obolibrary.org/obo/GO_0000226	microtubule cytoskeleton organization
 http://purl.obolibrary.org/obo/GO_0042774	plasma membrane ATP synthesis coupled electron transport	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane	http://purl.obolibrary.org/obo/GO_0042773	ATP synthesis coupled electron transport
+http://purl.obolibrary.org/obo/GO_0033616	plasma membrane proton-transporting ATP synthase complex assembly	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane	http://purl.obolibrary.org/obo/GO_0043461	proton-transporting ATP synthase complex assembly
 http://purl.obolibrary.org/obo/GO_0002470	plasmacytoid dendritic cell antigen processing and presentation	http://purl.obolibrary.org/obo/CL_0000784	plasmacytoid dendritic cell	http://purl.obolibrary.org/obo/GO_0019882	antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_0033259	plastid DNA replication	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006261	DNA-templated DNA replication
 http://purl.obolibrary.org/obo/GO_1900160	plastid chromosome packaging	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0051276	chromosome organization

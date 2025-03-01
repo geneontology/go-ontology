@@ -1,0 +1,35 @@
+#define RDF_TYPE "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>"
+#define RDFS_SUBCLASS_OF "<http://www.w3.org/2000/01/rdf-schema#subClassOf>"
+#define OWL_RESTRICTION "<http://www.w3.org/2002/07/owl#Restriction>"
+#define OWL_ON_PROPERTY "<http://www.w3.org/2002/07/owl#onProperty>"
+#define OWL_SOME_VALUES_FROM "<http://www.w3.org/2002/07/owl#someValuesFrom>"
+
+.decl basic(s: symbol, p: symbol, o: symbol)
+.decl relation(s: symbol, p: symbol, o: symbol)
+.decl reachable(s: symbol, o: symbol)
+.decl cycle_node(s: symbol)
+.decl reachable_via_path(s: symbol, o: symbol, text_path: symbol)
+.decl cycle(text_path: symbol)
+
+relation(s, p, o) :-
+    basic(s, RDFS_SUBCLASS_OF, restr),
+    basic(restr, OWL_ON_PROPERTY, p),
+    basic(restr, OWL_SOME_VALUES_FROM, o),
+    basic(restr, RDF_TYPE, OWL_RESTRICTION),
+    match("<.+>", s),
+    match("<.+>", o).
+
+relation(s, RDFS_SUBCLASS_OF, o) :- basic(s, RDFS_SUBCLASS_OF, o), match("<.+>", s), match("<.+>", o).
+
+reachable(s, o) :- relation(s, _, o).
+reachable(s, o) :- reachable(s, x), s != x, relation(x, _, o).
+
+cycle_node(s) :- reachable(s, s).
+
+reachable_via_path(s, o, text) :- cycle_node(s), relation(s, p, o), reachable(o, s), text = cat(s, " --[", p, "]--> ", o).
+reachable_via_path(s, o, cat(current, text)) :- reachable_via_path(s, x, current), s != x, relation(x, p, o), reachable(o, s), text = cat(" --[", p, "]--> ", o), !contains(text, current).
+
+cycle(text) :- reachable_via_path(s, s, text).
+
+.input basic
+.output cycle

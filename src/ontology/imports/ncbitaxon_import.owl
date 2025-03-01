@@ -8,7 +8,9 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/ncbitaxon_import.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2024-11-26/imports/ncbitaxon_import.owl"/>
+    </owl:Ontology>
     
 
 
@@ -132,9 +134,7 @@
 
     <!-- http://purl.obolibrary.org/obo/RO_0002162 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in taxon</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162"/>
     
 
 
@@ -152,12 +152,6 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <oboInOwl:hasRelatedSynonym>all</oboInOwl:hasRelatedSynonym>
         <rdfs:label>root</rdfs:label>
     </owl:Class>
@@ -875,6 +869,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1783257"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1783270"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1783272"/>
@@ -1025,20 +1020,16 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1239"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1798711"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_201174"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
-        <oboInOwl:hasExactSynonym>Firmicutes</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>low G+C Gram-positive bacteria</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>low GC Gram+</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>&quot;Firmicutes&quot; corrig. Gibbons and Murray 1978 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacillaeota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacillota corrig. Gibbons and Murray 2021</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacillus/Clostridium group</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Clostridium group firmicutes</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Firmicuteota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Low G+C firmicutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>clostridial firmicutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>firmicutes</oboInOwl:hasRelatedSynonym>
@@ -1178,17 +1169,24 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1297 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1297">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1783272"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1798711"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_201174"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1783257"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1783270"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1783272"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200783"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200918"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200940"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203691"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29547"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32066"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40117"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68297"/>
         <oboInOwl:hasExactSynonym>Thermus/Deinococcus group</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Deinococcaeota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Deinococcus-Thermus</oboInOwl:hasRelatedSynonym>
@@ -1591,8 +1589,9 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_135625"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_72274"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91347"/>
-        <oboInOwl:hasRelatedSynonym>Lysobacterales</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Xanthomonadales</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Xanthomonadales</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Xanthomonadales Saddler and Bradbury 2005</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Lysobacterales</rdfs:label>
     </owl:Class>
     
 
@@ -2286,6 +2285,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasRelatedSynonym>Anaerobacter</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Anaerobacter Duda et al. 1996</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Clostridium</rdfs:label>
     </owl:Class>
     
@@ -2518,6 +2518,7 @@
         <oboInOwl:hasExactSynonym>false brome</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>purple false brome</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>stiff brome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Bromus distachyos</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Brachypodium distachyon</rdfs:label>
     </owl:Class>
     
@@ -2567,6 +2568,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_162425"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym>Aspergillus nidulans (Eidam) G. Winter, 1884</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Aspergillus nidulellus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Emericella nidulans</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Sterigmatocystis nidulans</oboInOwl:hasRelatedSynonym>
@@ -2701,9 +2703,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_164328"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>Sudden oak death agent</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>ramorum blight</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>sudden oak death</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>sudden oak death agent</oboInOwl:hasExactSynonym>
         <rdfs:label>Phytophthora ramorum</rdfs:label>
     </owl:Class>
     
@@ -3182,9 +3182,9 @@
         </rdfs:subClassOf>
         <oboInOwl:hasRelatedSynonym>Bacillus tuberculosis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacterium tuberculosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Mycobacterium tuberculosis (Zopf 1883) Lehmann and Neumann 1896 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mycobacterium tuberculosis typus humanus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mycobacterium tuberculosis var. hominis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Mycobacterium tuberculosis variant tuberculosis</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Mycobacterium tuberculosis</rdfs:label>
     </owl:Class>
     
@@ -3277,7 +3277,14 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32066"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40117"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68297"/>
-        <rdfs:label>Terrabacteria group</rdfs:label>
+        <oboInOwl:hasExactSynonym>Terrabacteria group</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Firmacutes</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Firmicuteota</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Firmicutes</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Firmicutes corrig. Gibbons and Murray 1978 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Terrabacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Terrabacterida</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Bacillati</rdfs:label>
     </owl:Class>
     
 
@@ -3292,8 +3299,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1783275"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28890"/>
-        <rdfs:label>TACK group</rdfs:label>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3366610"/>
+        <oboInOwl:hasExactSynonym>TACK group</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Crenarchaeida</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Thermoproteati</rdfs:label>
     </owl:Class>
     
 
@@ -3371,6 +3380,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_183924"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3342163"/>
         <oboInOwl:hasRelatedSynonym>Crenarchaeota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Thermoprotea</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Thermoprotei</rdfs:label>
@@ -3554,7 +3564,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91061"/>
-        <oboInOwl:hasRelatedSynonym>Natranaerobiia</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Clostridia</rdfs:label>
     </owl:Class>
     
@@ -3634,8 +3643,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_187857"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym>Aquificae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Aquificae Reysenbach 2002</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Aquificae</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Aquificia corrig.</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Aquificia</rdfs:label>
     </owl:Class>
     
 
@@ -3994,6 +4005,9 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2157"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
         <oboInOwl:hasExactSynonym>eubacteria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Bacteria (ex Cavalier-Smith 1987)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Bacteria Woese et al. 2024</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Bacteriobiota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Monera</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Procaryotae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Prokaryota</oboInOwl:hasRelatedSynonym>
@@ -4316,7 +4330,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203692"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym>&quot;Leptospiria&quot; Cavalier-Smith 2020</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Spirochaetes</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Spirochaetia</rdfs:label>
     </owl:Class>
@@ -4368,6 +4381,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_204429"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym>Chlamydiia (Horn 2011) emend. Gupta et al. 2016</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Chlamydiia Horn 2016</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Chlamydiia</rdfs:label>
     </owl:Class>
     
@@ -4630,6 +4645,7 @@
         <oboInOwl:hasExactSynonym>true apple banana</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>wild Malaysian banana</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Musa acuminata var. malaccensis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Musa malaccensis</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Musa acuminata subsp. malaccensis</rdfs:label>
     </owl:Class>
     
@@ -4678,6 +4694,7 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
         <oboInOwl:hasRelatedSynonym>Archaebacteria</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Archaebiota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mendosicutes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Metabacteria</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Monera</oboInOwl:hasRelatedSynonym>
@@ -4936,6 +4953,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasRelatedSynonym>Haloarchaeales</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Haloferacales</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Natrialbales</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Halobacteriales</rdfs:label>
     </owl:Class>
     
@@ -5046,7 +5065,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_224756"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym>&apos;Methanomicrobia&apos;</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Methanogen Class II</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Methanomicrobia</rdfs:label>
     </owl:Class>
@@ -5493,14 +5511,8 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_237631 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_237631">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5270"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_237631"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>Ustilago maydis 521</rdfs:label>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5270"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -5530,8 +5542,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_241407"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2916678"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34353"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4893"/>
         <rdfs:label>Saccharomycetales incertae sedis</rdfs:label>
     </owl:Class>
@@ -6349,6 +6359,7 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
+        <oboInOwl:hasExactSynonym>choanoflagellates</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Choanoflagellatea</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Choanoflagellida</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Choanomonada</oboInOwl:hasRelatedSynonym>
@@ -6636,10 +6647,15 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_286"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>RNA similarity group I</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>&quot;Chlorobacterium&quot; Guillebeau 1890, nom. rejic. Opin. 6 (not &quot;Chlorobacterium&quot; Lauterborn 1916)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Chryseomonas</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Flavimonas</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Liquidomonas</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Loefflerella</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>RNA similarity group I</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Pseudomonas Migula 1894 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Serpens</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Serpens Hespell 1977 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Pseudomonas</rdfs:label>
     </owl:Class>
     
@@ -6687,6 +6703,7 @@
         <oboInOwl:hasRelatedSynonym>Bacterium aeruginosum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Bacterium pyocyaneum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Micrococcus pyocyaneus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Pseudomonas aeruginosa (Schroeter 1872) Migula 1900 (Approved Lists 1980)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Pseudomonas polycolor</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Pseudomonas pyocyanea</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>probable synonym or variety: &quot;Pseudomonas polycolor&quot; Clara 1930</oboInOwl:hasRelatedSynonym>
@@ -6737,13 +6754,16 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28889"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_51967"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_651137"/>
+        <oboInOwl:hasExactSynonym>Korarchaeota</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>eocytes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Candidatus Korarchaeota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Crenarchaeota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Eocyta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Thermoproteaeota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Thermoproteota corrig. Garrity and Holt 2021</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Xenarchaea</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Xenarchaeota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>crenarchaeotes</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Thermoproteota</rdfs:label>
     </owl:Class>
@@ -6753,17 +6773,17 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_28890 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_28890">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2157"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3366610"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28890"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym>Euryarchaeota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Methanobacteraeota</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Methanobacteriota</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>euryarchaeotes</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Euryarchaeota</rdfs:label>
+        <rdfs:label>Methanobacteriota</rdfs:label>
     </owl:Class>
     
 
@@ -6827,7 +6847,6 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_452284"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5302"/>
         <oboInOwl:hasRelatedSynonym>Urediniomycetes</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Pucciniomycotina</rdfs:label>
@@ -6838,17 +6857,16 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2916678 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2916678">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4892"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3239874"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2916678"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34353"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4893"/>
         <oboInOwl:hasExactSynonym>CTG clade</oboInOwl:hasExactSynonym>
-        <rdfs:label>CUG-Ser1 clade</rdfs:label>
+        <oboInOwl:hasExactSynonym>CUG-Ser1 clade</oboInOwl:hasExactSynonym>
+        <rdfs:label>Serinales</rdfs:label>
     </owl:Class>
     
 
@@ -7428,8 +7446,9 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym>Xanthomonas group</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>Lysobacteraceae</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Xanthomonadaceae</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>Xanthomonadaceae</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Xanthomonadaceae Saddler and Bradbury 2005</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Lysobacteraceae</rdfs:label>
     </owl:Class>
     
 
@@ -7651,6 +7670,54 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>melanogaster subgroup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3239873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3239873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147537"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3239873"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3239874"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4891"/>
+        <rdfs:label>Dipodascomycetes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3239874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3239874">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_147537"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3239874"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4891"/>
+        <rdfs:label>Pichiomycetes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3243772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3243772">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3239873"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3243772"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Dipodascales</rdfs:label>
     </owl:Class>
     
 
@@ -7961,6 +8028,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3316682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3316682">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3243772"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3316682"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Dipodascales incertae sedis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33169">
@@ -8080,6 +8162,54 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3342163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3342163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28889"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3342163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>Korarchaeia</oboInOwl:hasExactSynonym>
+        <rdfs:label>Candidatus Korarchaeia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3342181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3342181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3342163"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3342181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>Korarchaeales</oboInOwl:hasExactSynonym>
+        <rdfs:label>Candidatus Korarchaeales</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3342182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3342182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3342181"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3342182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>Korarchaeaceae</oboInOwl:hasExactSynonym>
+        <rdfs:label>Candidatus Korarchaeaceae</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33511 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33511">
@@ -8148,6 +8278,22 @@
         <oboInOwl:hasRelatedSynonym>Heterokonta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Straminipila</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Stramenopiles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_3366610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_3366610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2157"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3366610"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym>Euryarchaeida</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>Methanobacteriati</rdfs:label>
     </owl:Class>
     
 
@@ -8439,23 +8585,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Schizosaccharomycetales</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_34353 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_34353">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4892"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34353"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4893"/>
-        <oboInOwl:hasRelatedSynonym>anamorphic Dipodascaceae</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Dipodascaceae</rdfs:label>
     </owl:Class>
     
 
@@ -9898,6 +10027,7 @@
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_49274"/>
         <oboInOwl:hasExactSynonym>potato</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>potatoes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Solanum aracc-papa</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Solanum tuberosum</rdfs:label>
     </owl:Class>
     
@@ -10825,22 +10955,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_452284 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_452284">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5204"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_452284"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5302"/>
-        <rdfs:label>Ustilaginomycotina</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_4527 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4527">
@@ -11025,6 +11139,7 @@
         <oboInOwl:hasExactSynonym>common wheat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>wheat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Triticum aestivum subsp. aestivum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Triticum sativum</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Triticum vulgare</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Triticum aestivum</rdfs:label>
     </owl:Class>
@@ -11368,6 +11483,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_481"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym>Simonsiellaceae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Vitreoscillaceae</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Neisseriaceae</rdfs:label>
     </owl:Class>
@@ -11520,9 +11636,25 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4896"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4899"/>
         <oboInOwl:hasExactSynonym>fission yeast</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Schizosaccharomyces malidevorans</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Schizosaccharomyces pombe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_4899 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4899">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4895"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4899"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Schizosaccharomyces octosporus</rdfs:label>
     </owl:Class>
     
 
@@ -11593,6 +11725,7 @@
         <oboInOwl:hasRelatedSynonym>Candida robusta</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Mycoderma cerevisiae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Saccharomyces capensis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Saccharomyces cerevisiae (Desm.) Meyen ex E.C. Hansen, 1883</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Saccharomyces diastaticus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Saccharomyces italicus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Saccharomyces oviformis</oboInOwl:hasRelatedSynonym>
@@ -11605,7 +11738,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_4951 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_4951">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34353"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3316682"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -11638,15 +11771,15 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_498845 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_498845">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_51967"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3342182"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_498845"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>Candidatus Korarchaeum</oboInOwl:hasExactSynonym>
-        <rdfs:label>Korarchaeum</rdfs:label>
+        <oboInOwl:hasExactSynonym>Korarchaeum</oboInOwl:hasExactSynonym>
+        <rdfs:label>Candidatus Korarchaeum</rdfs:label>
     </owl:Class>
     
 
@@ -11729,6 +11862,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50557"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>insects</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>true insects</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>insects</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Insecta</rdfs:label>
@@ -11794,6 +11928,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_513050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasRelatedSynonym>Dictyoglomus turgidum corrig.</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Dictyoglomus turgidus</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Dictyoglomus turgidum</rdfs:label>
     </owl:Class>
@@ -11821,6 +11956,7 @@
         <oboInOwl:hasRelatedSynonym>Brassica rapa Chinese Cabbage Group</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Brassica rapa var. glabra</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Brassica rapa var. pekinensis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Sinapis pekinensis</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Brassica rapa subsp. pekinensis</rdfs:label>
     </owl:Class>
     
@@ -11950,25 +12086,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_51967 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_51967">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1783275"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_51967"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_651137"/>
-        <oboInOwl:hasExactSynonym>Korarchaeota</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>Xenarchaea</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>Xenarchaeota</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Candidatus Korarchaeota</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5204 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5204">
@@ -12041,22 +12158,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5257 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5257">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_452284"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5257"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>Ustilaginomycetidae</oboInOwl:hasExactSynonym>
-        <rdfs:label>Ustilaginomycetes</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5258 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5258">
@@ -12091,70 +12192,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5267 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5267">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5257"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5267"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>smuts</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>smut fungi</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Ustilaginales</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5268 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5268">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5267"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5268"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym>Mycosyringaceae</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Ustilaginaceae</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5269 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5269">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5268"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5269"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label>Ustilago</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_5270 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5270">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5269"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5270"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasRelatedSynonym>Uredo maydis</oboInOwl:hasRelatedSynonym>
-        <rdfs:label>Ustilago maydis</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_5296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_5296">
@@ -12180,6 +12217,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5297"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>wheat stem rust</oboInOwl:hasExactSynonym>
         <rdfs:label>Puccinia graminis</rdfs:label>
     </owl:Class>
     
@@ -13179,6 +13217,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6239"/>
+        <oboInOwl:hasRelatedSynonym>Rhabditis briggsae</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Caenorhabditis briggsae</rdfs:label>
     </owl:Class>
     
@@ -13293,6 +13332,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6406"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>freshwater leech</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>freshwater leeches</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Rhynchobdelliformes</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Rhynchobdellida</rdfs:label>
     </owl:Class>
@@ -13879,7 +13920,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6960"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>insects</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hexapods</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Atelocerata</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Tracheata</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Uniramia</oboInOwl:hasRelatedSynonym>
@@ -14651,6 +14692,7 @@
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym>purple sea urchin</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>purple urchin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Echinus purpuratus</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Strongylocentrotus purpuratus</rdfs:label>
     </owl:Class>
     
@@ -16100,9 +16142,9 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9397"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9787"/>
-        <oboInOwl:hasExactSynonym>whales, hippos, ruminants, pigs, camels etc.</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>even-toed ungulates &amp; whales</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Cetartiodactyla</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>even-toed ungulates</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>even-toed ungulates &amp; whales</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Artiodactyla</rdfs:label>
     </owl:Class>
     
@@ -16709,9 +16751,11 @@
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym>dog</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>dogs</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Canis borealis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Canis canis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Canis domesticus</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Canis familiaris</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Canis lupus borealis</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Canis lupus familiaris</rdfs:label>
     </owl:Class>
     
@@ -16781,7 +16825,7 @@
         <oboInOwl:hasExactSynonym>cetaceans</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>whale</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>whales</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>whales, dolphins, and porpoises</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>whales, dolphins &amp; porpoises</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>whales &amp; dolphins</oboInOwl:hasRelatedSynonym>
         <rdfs:label>Cetacea</rdfs:label>
     </owl:Class>
@@ -17030,7 +17074,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9903"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>oxen, cattle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cattle</oboInOwl:hasExactSynonym>
         <rdfs:label>Bos</rdfs:label>
     </owl:Class>
     
@@ -17047,7 +17091,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym>bovine</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>cattle</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>cow</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>dairy cow</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>domestic cattle</oboInOwl:hasExactSynonym>
@@ -17858,6 +17901,16 @@
         <owl:disjointWith>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1224"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1783257"/>
             </owl:Restriction>
         </owl:disjointWith>
@@ -18100,16 +18153,6 @@
         <owl:disjointWith>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1239"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1798711"/>
             </owl:Restriction>
         </owl:disjointWith>
@@ -18286,7 +18329,7 @@
         <owl:disjointWith>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1798711"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1783257"/>
             </owl:Restriction>
         </owl:disjointWith>
     </owl:Restriction>
@@ -18296,7 +18339,7 @@
         <owl:disjointWith>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200795"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1783270"/>
             </owl:Restriction>
         </owl:disjointWith>
     </owl:Restriction>
@@ -18306,7 +18349,7 @@
         <owl:disjointWith>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_201174"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1783272"/>
             </owl:Restriction>
         </owl:disjointWith>
     </owl:Restriction>
@@ -18316,7 +18359,77 @@
         <owl:disjointWith>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_544448"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200783"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200918"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_200940"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_203691"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29547"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32066"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40117"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1297"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_68297"/>
             </owl:Restriction>
         </owl:disjointWith>
     </owl:Restriction>
@@ -20724,7 +20837,7 @@
         <owl:disjointWith>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28890"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3366610"/>
             </owl:Restriction>
         </owl:disjointWith>
     </owl:Restriction>
@@ -20825,6 +20938,16 @@
                         <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_183710"/>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_183924"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3342163"/>
             </owl:Restriction>
         </owl:disjointWith>
     </owl:Restriction>
@@ -23122,20 +23245,6 @@
     </owl:Restriction>
     <owl:Restriction>
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_237631"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_237631"/>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_238069"/>
         <owl:disjointWith>
             <owl:Restriction>
@@ -23145,26 +23254,6 @@
                         <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_238069"/>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_241407"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2916678"/>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_241407"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34353"/>
             </owl:Restriction>
         </owl:disjointWith>
     </owl:Restriction>
@@ -24462,16 +24551,6 @@
         <owl:disjointWith>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_51967"/>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28889"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_651137"/>
             </owl:Restriction>
         </owl:disjointWith>
@@ -24552,16 +24631,6 @@
         <owl:disjointWith>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_452284"/>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29000"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5302"/>
             </owl:Restriction>
         </owl:disjointWith>
@@ -24577,26 +24646,6 @@
                         <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29000"/>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2916678"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34353"/>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2916678"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4893"/>
             </owl:Restriction>
         </owl:disjointWith>
     </owl:Restriction>
@@ -25428,6 +25477,78 @@
     </owl:Restriction>
     <owl:Restriction>
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3239873"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3239874"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3239873"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4891"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3239873"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3239873"/>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3239874"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4891"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3239874"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3239874"/>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3243772"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3243772"/>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3244"/>
         <owl:disjointWith>
             <owl:Restriction>
@@ -25770,6 +25891,20 @@
     </owl:Restriction>
     <owl:Restriction>
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3316682"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3316682"/>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33169"/>
         <owl:disjointWith>
             <owl:Restriction>
@@ -25908,6 +26043,48 @@
     </owl:Restriction>
     <owl:Restriction>
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3342163"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3342163"/>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3342181"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3342181"/>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3342182"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3342182"/>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33511"/>
         <owl:disjointWith>
             <owl:Restriction>
@@ -25997,6 +26174,20 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33634"/>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3366610"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3366610"/>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
@@ -26259,30 +26450,6 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34346"/>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34353"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4893"/>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34353"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_34353"/>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
@@ -28666,30 +28833,6 @@
     </owl:Restriction>
     <owl:Restriction>
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_452284"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5302"/>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_452284"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_452284"/>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4527"/>
         <owl:disjointWith>
             <owl:Restriction>
@@ -29264,9 +29407,33 @@
         <owl:disjointWith>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4899"/>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4896"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4896"/>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:disjointWith>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4899"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4899"/>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
@@ -29624,30 +29791,6 @@
     </owl:Restriction>
     <owl:Restriction>
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_51967"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_651137"/>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_51967"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_51967"/>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5204"/>
         <owl:disjointWith>
             <owl:Restriction>
@@ -29704,20 +29847,6 @@
     </owl:Restriction>
     <owl:Restriction>
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5257"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5257"/>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5258"/>
         <owl:disjointWith>
             <owl:Restriction>
@@ -29739,62 +29868,6 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5262"/>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5267"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5267"/>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5268"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5268"/>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5269"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5269"/>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </owl:disjointWith>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5270"/>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5270"/>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
@@ -34202,5 +34275,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
 
