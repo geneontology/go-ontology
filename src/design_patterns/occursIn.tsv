@@ -22,7 +22,7 @@ http://purl.obolibrary.org/obo/GO_0099624	atrial cardiac muscle cell membrane re
 http://purl.obolibrary.org/obo/GO_0032291	axon ensheathment in central nervous system	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system	http://purl.obolibrary.org/obo/GO_0008366	axon ensheathment
 http://purl.obolibrary.org/obo/GO_0099124	axonal dopamine secretion	http://purl.obolibrary.org/obo/GO_0030424	axon	http://purl.obolibrary.org/obo/GO_0014046	dopamine secretion
 http://purl.obolibrary.org/obo/GO_0060404	axonemal microtubule depolymerization	http://purl.obolibrary.org/obo/GO_0005930	axoneme	http://purl.obolibrary.org/obo/GO_0007019	microtubule depolymerization
-http://purl.obolibrary.org/obo/GO_0036386	bacterial nucleoid packaging	http://purl.obolibrary.org/obo/GO_0043590	bacterial nucleoid	http://purl.obolibrary.org/obo/GO_0051276	chromosome organization
+http://purl.obolibrary.org/obo/GO_0036386	bacterial nucleoid DNA packaging	http://purl.obolibrary.org/obo/GO_0043590	bacterial nucleoid	http://purl.obolibrary.org/obo/GO_0051276	chromosome organization
 http://purl.obolibrary.org/obo/GO_0002561	basophil degranulation	http://purl.obolibrary.org/obo/CL_0000767	basophil	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
 http://purl.obolibrary.org/obo/GO_0097497	blood vessel endothelial cell delamination	http://purl.obolibrary.org/obo/CL_0000071	blood vessel endothelial cell	http://purl.obolibrary.org/obo/GO_0060232	delamination
 http://purl.obolibrary.org/obo/GO_0030709	border follicle cell delamination	http://purl.obolibrary.org/obo/CL_0000579	border follicle cell	http://purl.obolibrary.org/obo/GO_0060232	delamination
