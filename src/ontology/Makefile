@@ -39,10 +39,6 @@ DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
 AMM_ENV = JAVA_OPTS=-Xmx6G
 AMM = $(AMM_ENV) amm --silent
 
-# Oort build dir;
-# This also should be replaced by robot
-BUILD_DIR=build
-
 # OWL catalogs map ontology IRIs to local paths
 USECAT= --use-catalog
 
@@ -103,7 +99,7 @@ clean_target:
 	rm -rf $(RELEASEDIR)/*
 
 # copies from staged area to target
-prepare_release: build
+prepare_release:
 	echo "Base Version IRI: $(RELEASE_URIBASE)"
 	mkdir -p $(RELEASEDIR)/extensions &&\
 	mkdir -p $(RELEASEDIR)/subsets &&\
