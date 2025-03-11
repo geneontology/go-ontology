@@ -86,7 +86,7 @@ travis_test: check_all_taxon_constraints_columns datalog-violations.tsv chebi_pH
 # This target combines features from reasoned.owl, enhanced.owl, sparql_test into a faster mode for Travis/GitHub Actions.
 # These must be kept in sync.
 travis_build: go-edit-filtered-xrefs.ofn
-	$(ROBOT) merge --collapse-import-closure false -i go-edit-filtered-xrefs.ofn -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl --annotation owl:versionInfo $(RELEASEDATE) verify --queries $(VARGS) $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql -O reports/
+	$(ROBOT) merge --collapse-import-closure false -i go-edit-filtered-xrefs.ofn -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce query --update $(SPARQLDIR)/insert-goterm-namespace.ru annotate -V $(RELEASE_URIBASE)/$(ONT).owl --annotation owl:versionInfo $(RELEASEDATE) verify --queries $(VARGS) $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql $(SPARQLDIR)/different-namespace-violation.sparql -O reports/
 
 unsatisfiable: $(GO_GAF).owl
 	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
@@ -153,7 +153,7 @@ GO.xrf_abbs: $(SRC)
 	wget http://snapshot.geneontology.org/metadata/db-xrefs.legacy -O $@.tmp && mv $@.tmp $@ && touch $@
 
 $(SRC)-check: $(SRC) GO.xrf_abbs
-	$(PERLCHECK) --disable-isa-incomplete --disable-whitespace-check --xref-abbs GO.xrf_abbs $< > $@.tmp && mv $@.tmp $@
+	$(PERLCHECK) --disable-namespace-switch --disable-isa-incomplete --disable-whitespace-check --xref-abbs GO.xrf_abbs $< > $@.tmp && mv $@.tmp $@
 
 # consider using snapshot release
 PREVIOUS=go-lastrelease.owl
@@ -200,7 +200,7 @@ enhanced.owl: go-edit-filtered-xrefs.ofn
 # reasoned.owl is equivalent to editors source, after materialize-reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
 reasoned.owl: enhanced.owl $(SRC)-check
-	$(ROBOT) materialize -i $< -r ELK --term BFO:0000050 reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
+	$(ROBOT) materialize -i $< -r ELK --term BFO:0000050 reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce query --update $(SPARQLDIR)/insert-goterm-namespace.ru annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
 present_in_taxon_check.ofn: enhanced.owl ../taxon_constraints/present_in_taxon.ofn
 	$(ROBOT) merge --collapse-import-closure false -i $< -i ../taxon_constraints/present_in_taxon.ofn reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural -o $@
@@ -252,7 +252,7 @@ $(GO_LEGO_REACTO).owl: extensions/go-lego-reacto-edit.ofn $(GO_LEGO).owl extensi
 # go.obo is a simplified; we use oort to remove imports etc
 # This version of the ontology is used in another step (generate-mappings) prior to filtering narrow xrefs, but broad xrefs are filtered here
 $(ONT)-pre.owl: reasoned.owl
-	$(ROBOT) materialize --input $< --reasoner ELK $(addprefix --term ,$(GO_MAIN_RELATIONS)) remove --select imports --trim true remove --select '<http://purl.obolibrary.org/obo/GO_*>' --select complement --select classes --signature true --trim true remove $(addprefix --term ,$(GO_MAIN_RELATIONS)) --select complement --select object-properties --signature true --trim true query --update ../sparql/remove-broad-xrefs.ru --update ../sparql/remove-related-xrefs.ru annotate -O $(OBO)/$(ONT).owl -V $(RELEASE_URIBASE)/$(ONT).owl convert -f owl --output $@.tmp && mv $@.tmp $@
+	$(ROBOT) materialize --input $< --reasoner ELK $(addprefix --term ,$(GO_MAIN_RELATIONS)) remove --select imports --trim true remove --select '<http://purl.obolibrary.org/obo/GO_*>' --select complement --select classes --signature true --trim true remove $(addprefix --term ,$(GO_MAIN_RELATIONS)) --select complement --select object-properties --signature true --trim true query --update $(SPARQLDIR)/remove-broad-xrefs.ru --update $(SPARQLDIR)/remove-related-xrefs.ru annotate -O $(OBO)/$(ONT).owl -V $(RELEASE_URIBASE)/$(ONT).owl convert -f owl --output $@.tmp && mv $@.tmp $@
 
 $(ONT)-pre-reduced.owl: $(ONT)-pre.owl
 	$(ROBOT) reduce -r elk -i $< query --update ../sparql/remove-narrow-xrefs.ru -o $@
@@ -628,7 +628,7 @@ VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
 sparql_test: enhanced.owl reasoned.owl
 	$(ROBOT) verify --input $< --queries $(VARGS) -O reports/
 	# These purposely aren't checking problems in imports
-	$(ROBOT) verify --input reasoned.owl --queries $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql -O reports/
+	$(ROBOT) verify --input reasoned.owl --queries $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql $(SPARQLDIR)/different-namespace-violation.sparql -O reports/
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
