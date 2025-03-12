@@ -108,7 +108,6 @@ GO:0008284	positive regulation of cell proliferation	NCBITaxon:4751	Fungi
 GO:0008285	negative regulation of cell proliferation	NCBITaxon:4751	Fungi	
 GO:0008544	epidermis development	NCBITaxon:33090	Viridiplantae	
 GO:0008585	female gonad development	NCBITaxon:3398	Magnoliophyta	
-GO:0008616	queuosine biosynthetic process	NCBITaxon:2759	Eukaryota	
 GO:0009008	DNA-methyltransferase activity	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0009047	dosage compensation by hyperactivation of X chromosome	NCBITaxon:8782	Aves	
 GO:0009048	dosage compensation by inactivation of X chromosome	NCBITaxon:8782	Aves	
