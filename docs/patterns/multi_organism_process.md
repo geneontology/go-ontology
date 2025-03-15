@@ -29,7 +29,7 @@ TODO
 
 ## Equivalent to
 
-`{process}`  and ([bearer of](http://purl.obolibrary.org/obo/RO_0000053) some [PATO_0002486](http://purl.obolibrary.org/obo/PATO_0002486))
+`{process}`  and ([has characteristic](http://purl.obolibrary.org/obo/RO_0000053) some [PATO_0002486](http://purl.obolibrary.org/obo/PATO_0002486))
 
 
 
