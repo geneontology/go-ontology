@@ -39044,6 +39044,9 @@
 <http://purl.obolibrary.org/obo/GO_0170044> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
 
 
+<http://purl.obolibrary.org/obo/GO_0170066> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
+
+
 <http://purl.obolibrary.org/obo/GO_0180003> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/antiporter_activity.yaml> .
 
 
