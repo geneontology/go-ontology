@@ -918,7 +918,6 @@ http://purl.obolibrary.org/obo/GO_0042866	pyruvate biosynthetic process	http://p
 http://purl.obolibrary.org/obo/GO_0009079	pyruvate family amino acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26463	pyruvate family amino acid
 http://purl.obolibrary.org/obo/GO_0033303	quercetin O-glucoside biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64621	quercetin O-glucoside
 http://purl.obolibrary.org/obo/GO_1901734	quercetin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57694	quercetin-7-olate
-http://purl.obolibrary.org/obo/GO_0008616	queuosine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_60193	queuosine
 http://purl.obolibrary.org/obo/GO_0042194	quinate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26490	quinate
 http://purl.obolibrary.org/obo/GO_0019805	quinolinate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_29959	quinolinate(2-)
 http://purl.obolibrary.org/obo/GO_1901663	quinone biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_132124	1,4-benzoquinones
@@ -990,6 +989,7 @@ http://purl.obolibrary.org/obo/GO_0000097	sulfur amino acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0044272	sulfur compound biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26835	sulfur molecular entity
 http://purl.obolibrary.org/obo/GO_1902756	sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_60102	Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(3-)
 http://purl.obolibrary.org/obo/GO_1901066	syringal lignin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64476	syringal lignin
+http://purl.obolibrary.org/obo/GO_0008616	tRNA queuosine(34) biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_194431	queuosine 5'-phosphate(1-) residue
 http://purl.obolibrary.org/obo/GO_1901277	tartrate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_50562	tartrate salt
 http://purl.obolibrary.org/obo/GO_1900870	tatiopterin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64553	tatiopterin(5-)
 http://purl.obolibrary.org/obo/GO_0042412	taurine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_507393	taurine zwitterion
