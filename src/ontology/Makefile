@@ -269,8 +269,8 @@ go.obo: $(ONT).owl
 
 # remove non-basic relationship types (e.g. has_part)
 # assuming materialization step already done for these properties when making go.obo
-go-simple-filtered.owl: go.owl $(SPARQLDIR)/remove-cross-namespace-relations.ru
-	$(ROBOT) remove --input $< $(addprefix --term ,$(GO_BASIC_RELATIONS)) --select complement --select object-properties --signature true --trim true remove --term 'oboInOwl:created_by' --term 'oboInOwl:creation_date' --term 'IAO:0000233' --term 'IAO:0000589' --term 'RO:0002175' --signature true --trim true remove --axioms "DisjointClasses EquivalentClasses" query --update $(SPARQLDIR)/remove-cross-namespace-relations.ru convert -f obo --output $@
+go-simple-filtered.owl: go.owl $(SPARQLDIR)/remove-cross-namespace-relations.ru $(SPARQLDIR)/remove-mf-regulates-links.ru
+	$(ROBOT) remove --input $< $(addprefix --term ,$(GO_BASIC_RELATIONS)) --select complement --select object-properties --signature true --trim true remove --term 'oboInOwl:created_by' --term 'oboInOwl:creation_date' --term 'IAO:0000233' --term 'IAO:0000589' --term 'RO:0002175' --signature true --trim true remove --axioms "DisjointClasses EquivalentClasses" query --update $(SPARQLDIR)/remove-cross-namespace-relations.ru --update $(SPARQLDIR)/remove-mf-regulates-links.ru convert -f obo --output $@
 
 go-simple-filtered-reduced.owl: go-simple-filtered.owl
 	$(ROBOT) reduce -r elk -i $< -o $@
