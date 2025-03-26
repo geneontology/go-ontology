@@ -1,0 +1,22 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX GO: <http://purl.obolibrary.org/obo/GO_>
+
+SELECT DISTINCT ?error
+WHERE { 
+  ?term rdfs:subClassOf ?parent .
+  OPTIONAL { ?term oio:hasOBONamespace ?term_namespace }
+  OPTIONAL { ?parent oio:hasOBONamespace ?parent_namespace }
+  FILTER(isIRI(?term))
+  FILTER(isIRI(?parent))
+  FILTER(STRSTARTS(STR(?term), "http://purl.obolibrary.org/obo/GO_"))
+  FILTER(STRSTARTS(STR(?parent), "http://purl.obolibrary.org/obo/GO_"))
+  # This allows erroring if one or both is missing a namespace
+  BIND(COALESCE(?term_namespace, ?term) AS ?term_ns)
+  BIND(COALESCE(?parent_namespace, ?parent) AS ?parent_ns)
+  FILTER(?term_ns != ?parent_ns)
+  BIND(CONCAT("Error: term ", STR(?term), " with namespace ", STR(?term_namespace), " should have the same namespace as its parent ", STR(?parent), " with namespace ", STR(?parent_namespace)) AS ?error)
+}
