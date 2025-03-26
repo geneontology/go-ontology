@@ -275,7 +275,7 @@ http://purl.obolibrary.org/obo/GO_0120225	coenzyme A binding	http://purl.obolibr
 http://purl.obolibrary.org/obo/GO_0070967	coenzyme F420 binding	http://purl.obolibrary.org/obo/CHEBI_57922	coenzyme gamma-F420-2(5-)
 http://purl.obolibrary.org/obo/GO_0070052	collagen V binding	http://purl.obolibrary.org/obo/GO_0005588	collagen type V trimer
 http://purl.obolibrary.org/obo/GO_0005518	collagen binding	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer
-http://purl.obolibrary.org/obo/GO_0098633	collagen fibril binding	http://purl.obolibrary.org/obo/GO_0098643	banded collagen fibril
+http://purl.obolibrary.org/obo/GO_0098633	collagen fibril binding	http://purl.obolibrary.org/obo/GO_0098643	fibrillar collagen
 http://purl.obolibrary.org/obo/GO_0005507	copper ion binding	http://purl.obolibrary.org/obo/CHEBI_23378	copper cation
 http://purl.obolibrary.org/obo/GO_1903875	corticosterone binding	http://purl.obolibrary.org/obo/CHEBI_16827	corticosterone
 http://purl.obolibrary.org/obo/GO_0031780	corticotropin hormone receptor binding	http://purl.obolibrary.org/obo/PR_000001182	adrenocorticotropic hormone receptor
