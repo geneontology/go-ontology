@@ -655,7 +655,6 @@ GO:0071990	maintenance of protein location to spindle pole body	NCBITaxon:4751	F
 GO:0072656	maintenance of protein location in mitochondrion	NCBITaxon:2759	Eukaryota	
 GO:0080156	mitochondrial mRNA modification	NCBITaxon:2759	Eukaryota	
 GO:0090139	mitochondrial DNA packaging	NCBITaxon:2759	Eukaryota	
-GO:0090144	mitochondrial nucleoid organization	NCBITaxon:2759	Eukaryota	
 GO:0090615	mitochondrial mRNA processing	NCBITaxon:2759	Eukaryota	
 GO:0090646	mitochondrial tRNA processing	NCBITaxon:2759	Eukaryota	
 GO:0097222	mitochondrial mRNA polyadenylation	NCBITaxon:2759	Eukaryota	
