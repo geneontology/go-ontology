@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<<<<<?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl#"
      xml:base="http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -32003,17 +32003,6 @@
         </rdfs:subClassOf>
     </owl:Class>
     
-
-
-<<<<<<< HEAD
-    <!-- http://purl.obolibrary.org/obo/GO_0090144 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0090144"/>
-    
-
-
-=======
->>>>>>> 92d686bad58bb2d39b408bc16db68665e314fea5
     <!-- http://purl.obolibrary.org/obo/GO_0090210 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0090210">
