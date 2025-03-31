@@ -129,6 +129,7 @@ http://purl.obolibrary.org/obo/GO_2001058	D-tagatose 6-phosphate metabolic proce
 http://purl.obolibrary.org/obo/GO_1900828	D-tyrosine metabolic process	http://purl.obolibrary.org/obo/CHEBI_58570	D-tyrosine zwitterion
 http://purl.obolibrary.org/obo/GO_1902114	D-valine metabolic process	http://purl.obolibrary.org/obo/CHEBI_74338	D-valine zwitterion
 http://purl.obolibrary.org/obo/GO_0042732	D-xylose metabolic process	http://purl.obolibrary.org/obo/CHEBI_15936	aldehydo-D-xylose
+http://purl.obolibrary.org/obo/GO_0051167	D-xylulose 5-phosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_57737	D-xylulose 5-phosphate(2-)
 http://purl.obolibrary.org/obo/GO_0006259	DNA metabolic process	http://purl.obolibrary.org/obo/CHEBI_16991	deoxyribonucleic acid
 http://purl.obolibrary.org/obo/GO_1900609	F-9775A metabolic process	http://purl.obolibrary.org/obo/CHEBI_64405	F-9775A
 http://purl.obolibrary.org/obo/GO_1900612	F-9775B metabolic process	http://purl.obolibrary.org/obo/CHEBI_64409	F-9775B
@@ -1253,7 +1254,6 @@ http://purl.obolibrary.org/obo/GO_0018948	xylene metabolic process	http://purl.o
 http://purl.obolibrary.org/obo/GO_0051164	xylitol metabolic process	http://purl.obolibrary.org/obo/CHEBI_17151	xylitol
 http://purl.obolibrary.org/obo/GO_0010398	xylogalacturonan metabolic process	http://purl.obolibrary.org/obo/CHEBI_27343	xylogalacturonan
 http://purl.obolibrary.org/obo/GO_0010411	xyloglucan metabolic process	http://purl.obolibrary.org/obo/CHEBI_18233	xyloglucan
-http://purl.obolibrary.org/obo/GO_0051167	xylulose 5-phosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_27354	xylulose 5-phosphate
 http://purl.obolibrary.org/obo/GO_0005997	xylulose metabolic process	http://purl.obolibrary.org/obo/CHEBI_27353	xylulose
 http://purl.obolibrary.org/obo/GO_0033397	zeatin metabolic process	http://purl.obolibrary.org/obo/CHEBI_15333	zeatin
 http://purl.obolibrary.org/obo/GO_1901828	zeaxanthin bis(beta-D-glucoside) metabolic process	http://purl.obolibrary.org/obo/CHEBI_63067	zeaxanthin bis(beta-D-glucoside)
