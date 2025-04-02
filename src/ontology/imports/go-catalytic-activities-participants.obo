@@ -2002,8 +2002,10 @@ id: GO:0004148
 relationship: RO:0000057 CHEBI:15361
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:16526
+relationship: RO:0000057 CHEBI:16810
 relationship: RO:0000057 CHEBI:57287
 relationship: RO:0000057 CHEBI:57288
+relationship: RO:0000057 CHEBI:57292
 relationship: RO:0000057 CHEBI:57540
 relationship: RO:0000057 CHEBI:57945
 relationship: RO:0000057 CHEBI:83099
@@ -2011,8 +2013,12 @@ relationship: RO:0000057 CHEBI:83100
 
 [Term]
 id: GO:0004149
+relationship: RO:0000057 CHEBI:16526
+relationship: RO:0000057 CHEBI:16810
 relationship: RO:0000057 CHEBI:57287
 relationship: RO:0000057 CHEBI:57292
+relationship: RO:0000057 CHEBI:57540
+relationship: RO:0000057 CHEBI:57945
 relationship: RO:0000057 CHEBI:83100
 relationship: RO:0000057 CHEBI:83120
 
@@ -3438,6 +3444,10 @@ id: GO:0004591
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:16526
 relationship: RO:0000057 CHEBI:16810
+relationship: RO:0000057 CHEBI:57287
+relationship: RO:0000057 CHEBI:57292
+relationship: RO:0000057 CHEBI:57540
+relationship: RO:0000057 CHEBI:57945
 relationship: RO:0000057 CHEBI:83099
 relationship: RO:0000057 CHEBI:83120
 
