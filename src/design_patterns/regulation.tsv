@@ -2441,7 +2441,6 @@ http://purl.obolibrary.org/obo/GO_0032246	regulation of pyrimidine nucleoside tr
 http://purl.obolibrary.org/obo/GO_1900397	regulation of pyrimidine nucleotide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006221	pyrimidine nucleotide biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903930	regulation of pyrimidine-containing compound salvage	http://purl.obolibrary.org/obo/GO_0008655	pyrimidine-containing compound salvage
 http://purl.obolibrary.org/obo/GO_0010510	regulation of pyruvate decarboxylation to acetyl-CoA	http://purl.obolibrary.org/obo/GO_0006086	pyruvate decarboxylation to acetyl-CoA
-http://purl.obolibrary.org/obo/GO_1904182	regulation of pyruvate dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004738	pyruvate dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_1903302	regulation of pyruvate kinase activity	http://purl.obolibrary.org/obo/GO_0004743	pyruvate kinase activity
 http://purl.obolibrary.org/obo/GO_1904984	regulation of quinolinate biosynthetic process	http://purl.obolibrary.org/obo/GO_0019805	quinolinate biosynthetic process
 http://purl.obolibrary.org/obo/GO_0061187	regulation of rDNA heterochromatin formation	http://purl.obolibrary.org/obo/GO_0000183	rDNA heterochromatin formation
