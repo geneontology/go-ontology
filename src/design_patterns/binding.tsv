@@ -264,7 +264,7 @@ http://purl.obolibrary.org/obo/GO_0031739	cholecystokinin receptor binding	http:
 http://purl.obolibrary.org/obo/GO_0015485	cholesterol binding	http://purl.obolibrary.org/obo/CHEBI_16113	cholesterol
 http://purl.obolibrary.org/obo/GO_0033265	choline binding	http://purl.obolibrary.org/obo/CHEBI_15354	choline
 http://purl.obolibrary.org/obo/GO_0035374	chondroitin sulfate binding	http://purl.obolibrary.org/obo/CHEBI_37397	chondroitin sulfate
-http://purl.obolibrary.org/obo/GO_0035373	chondroitin sulfate proteoglycan binding	http://purl.obolibrary.org/obo/CHEBI_26349	proteochondroitin sulfate
+http://purl.obolibrary.org/obo/GO_0035373	chondroitin sulfate proteoglycan binding	http://purl.obolibrary.org/obo/CHEBI_26349	chondroitin sulfate proteoglycan
 http://purl.obolibrary.org/obo/GO_0003682	chromatin binding	http://purl.obolibrary.org/obo/GO_0000785	chromatin
 http://purl.obolibrary.org/obo/GO_0035478	chylomicron binding	http://purl.obolibrary.org/obo/GO_0042627	chylomicron
 http://purl.obolibrary.org/obo/GO_0070119	ciliary neurotrophic factor binding	http://purl.obolibrary.org/obo/PR_000005663	ciliary neurotrophic factor
