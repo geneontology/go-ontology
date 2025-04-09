@@ -6,7 +6,7 @@ http://purl.obolibrary.org/obo/GO_0075030	modulation of formation of symbiont ge
 http://purl.obolibrary.org/obo/GO_0075054	modulation of penetration peg formation	http://purl.obolibrary.org/obo/GO_0075053	penetration peg formation
 http://purl.obolibrary.org/obo/GO_0075215	modulation of spore encystment on host	http://purl.obolibrary.org/obo/GO_0075214	spore encystment
 http://purl.obolibrary.org/obo/GO_0075198	modulation of symbiont haustorium neck formation for entry into host	http://purl.obolibrary.org/obo/GO_0075197	haustorium neck formation
-http://purl.obolibrary.org/obo/GO_1905012	regulation of 'de novo' NAD biosynthetic process from L-tryptophan	http://purl.obolibrary.org/obo/GO_0034354	'de novo' NAD biosynthetic process from L-tryptophan
+http://purl.obolibrary.org/obo/GO_1905012	regulation of 'de novo' NAD biosynthetic process from L-tryptophan	http://purl.obolibrary.org/obo/GO_0034354	'de novo' NAD+ biosynthetic process from L-tryptophan
 http://purl.obolibrary.org/obo/GO_1900692	regulation of (+)-kotanin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900596	(+)-kotanin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0070606	regulation of (1->3)-alpha-glucan biosynthetic process	http://purl.obolibrary.org/obo/GO_0070596	(1->3)-alpha-glucan biosynthetic process
 http://purl.obolibrary.org/obo/GO_0070605	regulation of (1->3)-alpha-glucan metabolic process	http://purl.obolibrary.org/obo/GO_0070595	(1->3)-alpha-glucan metabolic process
@@ -35,7 +35,6 @@ http://purl.obolibrary.org/obo/GO_2001169	regulation of ATP biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000983	regulation of ATP citrate synthase activity	http://purl.obolibrary.org/obo/GO_0003878	ATP citrate synthase activity
 http://purl.obolibrary.org/obo/GO_1903578	regulation of ATP metabolic process	http://purl.obolibrary.org/obo/GO_0046034	ATP metabolic process
 http://purl.obolibrary.org/obo/GO_0043462	regulation of ATP-dependent activity	http://purl.obolibrary.org/obo/GO_0140657	ATP-dependent activity
-http://purl.obolibrary.org/obo/GO_0070926	regulation of ATP:ADP antiporter activity	http://purl.obolibrary.org/obo/GO_0005471	ATP:ADP antiporter activity
 http://purl.obolibrary.org/obo/GO_1901894	regulation of ATPase-coupled calcium transmembrane transporter activity	http://purl.obolibrary.org/obo/GO_0005388	P-type calcium transporter activity
 http://purl.obolibrary.org/obo/GO_0034315	regulation of Arp2/3 complex-mediated actin nucleation	http://purl.obolibrary.org/obo/GO_0034314	Arp2/3 complex-mediated actin nucleation
 http://purl.obolibrary.org/obo/GO_1905864	regulation of Atg1/ULK1 kinase complex assembly	http://purl.obolibrary.org/obo/GO_1904745	Atg1/ULK1 kinase complex assembly
@@ -115,7 +114,6 @@ http://purl.obolibrary.org/obo/GO_2000244	regulation of FtsZ-dependent cytokines
 http://purl.obolibrary.org/obo/GO_1904020	regulation of G protein-coupled receptor internalization	http://purl.obolibrary.org/obo/GO_0002031	G protein-coupled receptor internalization
 http://purl.obolibrary.org/obo/GO_0008277	regulation of G protein-coupled receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007186	G protein-coupled receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_1900128	regulation of G-protein activated inward rectifier potassium channel activity	http://purl.obolibrary.org/obo/GO_0015467	G-protein activated inward rectifier potassium channel activity
-http://purl.obolibrary.org/obo/GO_1905493	regulation of G-quadruplex DNA binding	http://purl.obolibrary.org/obo/GO_0051880	G-quadruplex DNA binding
 http://purl.obolibrary.org/obo/GO_0070316	regulation of G0 to G1 transition	http://purl.obolibrary.org/obo/GO_0045023	G0 to G1 transition
 http://purl.obolibrary.org/obo/GO_1903450	regulation of G1 to G0 transition	http://purl.obolibrary.org/obo/GO_0070314	G1 to G0 transition
 http://purl.obolibrary.org/obo/GO_2000045	regulation of G1/S transition of mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000082	G1/S transition of mitotic cell cycle
@@ -162,9 +160,9 @@ http://purl.obolibrary.org/obo/GO_1900695	regulation of N',N'',N'''-triacetylfus
 http://purl.obolibrary.org/obo/GO_2000759	regulation of N-terminal peptidyl-lysine acetylation	http://purl.obolibrary.org/obo/GO_0018076	N-terminal peptidyl-lysine acetylation
 http://purl.obolibrary.org/obo/GO_1904663	regulation of N-terminal peptidyl-methionine acetylation	http://purl.obolibrary.org/obo/GO_0017196	N-terminal peptidyl-methionine acetylation
 http://purl.obolibrary.org/obo/GO_0060254	regulation of N-terminal protein palmitoylation	http://purl.obolibrary.org/obo/GO_0006500	N-terminal protein palmitoylation
-http://purl.obolibrary.org/obo/GO_1902688	regulation of NAD metabolic process	http://purl.obolibrary.org/obo/GO_0019674	NAD metabolic process
+http://purl.obolibrary.org/obo/GO_1902688	regulation of NAD metabolic process	http://purl.obolibrary.org/obo/GO_0019674	NAD+ metabolic process
 http://purl.obolibrary.org/obo/GO_0033860	regulation of NAD(P)H oxidase activity	http://purl.obolibrary.org/obo/GO_0016174	NAD(P)H oxidase H2O2-forming activity
-http://purl.obolibrary.org/obo/GO_1902031	regulation of NADP metabolic process	http://purl.obolibrary.org/obo/GO_0006739	NADP metabolic process
+http://purl.obolibrary.org/obo/GO_1902031	regulation of NADP metabolic process	http://purl.obolibrary.org/obo/GO_0006739	NADP+ metabolic process
 http://purl.obolibrary.org/obo/GO_0051133	regulation of NK T cell activation	http://purl.obolibrary.org/obo/GO_0051132	NK T cell activation
 http://purl.obolibrary.org/obo/GO_0051136	regulation of NK T cell differentiation	http://purl.obolibrary.org/obo/GO_0001865	NK T cell differentiation
 http://purl.obolibrary.org/obo/GO_0051140	regulation of NK T cell proliferation	http://purl.obolibrary.org/obo/GO_0001866	NK T cell proliferation
@@ -267,7 +265,6 @@ http://purl.obolibrary.org/obo/GO_1903048	regulation of acetylcholine-gated cati
 http://purl.obolibrary.org/obo/GO_1904697	regulation of acinar cell proliferation	http://purl.obolibrary.org/obo/GO_1990863	acinar cell proliferation
 http://purl.obolibrary.org/obo/GO_2000367	regulation of acrosomal vesicle exocytosis	http://purl.obolibrary.org/obo/GO_0060478	acrosomal vesicle exocytosis
 http://purl.obolibrary.org/obo/GO_0060046	regulation of acrosome reaction	http://purl.obolibrary.org/obo/GO_0007340	acrosome reaction
-http://purl.obolibrary.org/obo/GO_1904616	regulation of actin binding	http://purl.obolibrary.org/obo/GO_0003779	actin binding
 http://purl.obolibrary.org/obo/GO_0060583	regulation of actin cortical patch localization	http://purl.obolibrary.org/obo/GO_0051666	actin cortical patch localization
 http://purl.obolibrary.org/obo/GO_0032956	regulation of actin cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0030036	actin cytoskeleton organization
 http://purl.obolibrary.org/obo/GO_0032231	regulation of actin filament bundle assembly	http://purl.obolibrary.org/obo/GO_0051017	actin filament bundle assembly
@@ -551,7 +548,6 @@ http://purl.obolibrary.org/obo/GO_2000479	regulation of cAMP-dependent protein k
 http://purl.obolibrary.org/obo/GO_0043949	regulation of cAMP-mediated signaling	http://purl.obolibrary.org/obo/GO_0019933	cAMP-mediated signaling
 http://purl.obolibrary.org/obo/GO_0141161	regulation of cAMP/PKA signal transduction	http://purl.obolibrary.org/obo/GO_0141156	cAMP/PKA signal transduction
 http://purl.obolibrary.org/obo/GO_0010752	regulation of cGMP-mediated signaling	http://purl.obolibrary.org/obo/GO_0019934	cGMP-mediated signaling
-http://purl.obolibrary.org/obo/GO_0060558	regulation of calcidiol 1-monooxygenase activity	http://purl.obolibrary.org/obo/GO_0004498	calcidiol 1-monooxygenase activity
 http://purl.obolibrary.org/obo/GO_0070884	regulation of calcineurin-NFAT signaling cascade	http://purl.obolibrary.org/obo/GO_0033173	calcineurin-NFAT signaling cascade
 http://purl.obolibrary.org/obo/GO_0106056	regulation of calcineurin-mediated signaling	http://purl.obolibrary.org/obo/GO_0097720	calcineurin-mediated signaling
 http://purl.obolibrary.org/obo/GO_1904362	regulation of calcitonin secretion	http://purl.obolibrary.org/obo/GO_0036161	calcitonin secretion
@@ -563,7 +559,6 @@ http://purl.obolibrary.org/obo/GO_1905664	regulation of calcium ion import acros
 http://purl.obolibrary.org/obo/GO_1902080	regulation of calcium ion import into sarcoplasmic reticulum	http://purl.obolibrary.org/obo/GO_1990036	calcium ion import into sarcoplasmic reticulum
 http://purl.obolibrary.org/obo/GO_1903169	regulation of calcium ion transmembrane transport	http://purl.obolibrary.org/obo/GO_0070588	calcium ion transmembrane transport
 http://purl.obolibrary.org/obo/GO_1902514	regulation of calcium ion transmembrane transport via high voltage-gated calcium channel	http://purl.obolibrary.org/obo/GO_0061577	calcium ion transmembrane transport via high voltage-gated calcium channel
-http://purl.obolibrary.org/obo/GO_1901019	regulation of calcium ion transmembrane transporter activity	http://purl.obolibrary.org/obo/GO_0015085	calcium ion transmembrane transporter activity
 http://purl.obolibrary.org/obo/GO_0051924	regulation of calcium ion transport	http://purl.obolibrary.org/obo/GO_0006816	calcium ion transport
 http://purl.obolibrary.org/obo/GO_0010522	regulation of calcium ion transport into cytosol	http://purl.obolibrary.org/obo/GO_0060402	calcium ion transport into cytosol
 http://purl.obolibrary.org/obo/GO_0017158	regulation of calcium ion-dependent exocytosis	http://purl.obolibrary.org/obo/GO_0017156	calcium-ion regulated exocytosis
@@ -758,7 +753,6 @@ http://purl.obolibrary.org/obo/GO_0120276	regulation of cerebral blood circulati
 http://purl.obolibrary.org/obo/GO_1900646	regulation of chanoclavine-I aldehyde biosynthetic process	http://purl.obolibrary.org/obo/GO_1900569	chanoclavine-I aldehyde biosynthetic process
 http://purl.obolibrary.org/obo/GO_1904714	regulation of chaperone-mediated autophagy	http://purl.obolibrary.org/obo/GO_0061684	chaperone-mediated autophagy
 http://purl.obolibrary.org/obo/GO_0090034	regulation of chaperone-mediated protein complex assembly	http://purl.obolibrary.org/obo/GO_0051131	chaperone-mediated protein complex assembly
-http://purl.obolibrary.org/obo/GO_1903644	regulation of chaperone-mediated protein folding	http://purl.obolibrary.org/obo/GO_0061077	chaperone-mediated protein folding
 http://purl.obolibrary.org/obo/GO_0071652	regulation of chemokine (C-C motif) ligand 1 production	http://purl.obolibrary.org/obo/GO_0071610	chemokine (C-C motif) ligand 1 production
 http://purl.obolibrary.org/obo/GO_1903884	regulation of chemokine (C-C motif) ligand 20 production	http://purl.obolibrary.org/obo/GO_0036392	chemokine (C-C motif) ligand 20 production
 http://purl.obolibrary.org/obo/GO_0071643	regulation of chemokine (C-C motif) ligand 4 production	http://purl.obolibrary.org/obo/GO_0071606	chemokine (C-C motif) ligand 4 production
@@ -1141,7 +1135,6 @@ http://purl.obolibrary.org/obo/GO_0048089	regulation of female pigmentation	http
 http://purl.obolibrary.org/obo/GO_0043465	regulation of fermentation	http://purl.obolibrary.org/obo/GO_0006113	fermentation
 http://purl.obolibrary.org/obo/GO_1905568	regulation of ferrichrome biosynthetic process	http://purl.obolibrary.org/obo/GO_0031169	ferrichrome biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900678	regulation of ferricrocin biosynthetic process	http://purl.obolibrary.org/obo/GO_0031171	ferricrocin biosynthetic process
-http://purl.obolibrary.org/obo/GO_0010722	regulation of ferrochelatase activity	http://purl.obolibrary.org/obo/GO_0004325	ferrochelatase activity
 http://purl.obolibrary.org/obo/GO_0110075	regulation of ferroptosis	http://purl.obolibrary.org/obo/GO_0097707	ferroptosis
 http://purl.obolibrary.org/obo/GO_0080154	regulation of fertilization	http://purl.obolibrary.org/obo/GO_0009566	fertilization
 http://purl.obolibrary.org/obo/GO_1901466	regulation of ferulate catabolic process	http://purl.obolibrary.org/obo/GO_1901067	ferulate catabolic process
@@ -1250,7 +1243,6 @@ http://purl.obolibrary.org/obo/GO_1904023	regulation of glucose catabolic proces
 http://purl.obolibrary.org/obo/GO_1902659	regulation of glucose mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0010255	glucose mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0010906	regulation of glucose metabolic process	http://purl.obolibrary.org/obo/GO_0006006	glucose metabolic process
 http://purl.obolibrary.org/obo/GO_0010439	regulation of glucosinolate biosynthetic process	http://purl.obolibrary.org/obo/GO_0019761	glucosinolate biosynthetic process
-http://purl.obolibrary.org/obo/GO_1905123	regulation of glucosylceramidase activity	http://purl.obolibrary.org/obo/GO_0004348	glucosylceramidase activity
 http://purl.obolibrary.org/obo/GO_0046317	regulation of glucosylceramide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006679	glucosylceramide biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000752	regulation of glucosylceramide catabolic process	http://purl.obolibrary.org/obo/GO_0006680	glucosylceramide catabolic process
 http://purl.obolibrary.org/obo/GO_2000918	regulation of glucuronoarabinoxylan catabolic process	http://purl.obolibrary.org/obo/GO_2000887	glucuronoarabinoxylan catabolic process
@@ -1298,7 +1290,6 @@ http://purl.obolibrary.org/obo/GO_0060123	regulation of growth hormone secretion
 http://purl.obolibrary.org/obo/GO_0070784	regulation of growth of unicellular organism as a thread of attached cells	http://purl.obolibrary.org/obo/GO_0070783	growth of unicellular organism as a thread of attached cells
 http://purl.obolibrary.org/obo/GO_1902733	regulation of growth plate cartilage chondrocyte differentiation	http://purl.obolibrary.org/obo/GO_0003418	growth plate cartilage chondrocyte differentiation
 http://purl.obolibrary.org/obo/GO_0003420	regulation of growth plate cartilage chondrocyte proliferation	http://purl.obolibrary.org/obo/GO_0003419	growth plate cartilage chondrocyte proliferation
-http://purl.obolibrary.org/obo/GO_1905097	regulation of guanyl-nucleotide exchange factor activity	http://purl.obolibrary.org/obo/GO_0005085	guanyl-nucleotide exchange factor activity
 http://purl.obolibrary.org/obo/GO_0031282	regulation of guanylate cyclase activity	http://purl.obolibrary.org/obo/GO_0004383	guanylate cyclase activity
 http://purl.obolibrary.org/obo/GO_1904755	regulation of gut granule assembly	http://purl.obolibrary.org/obo/GO_1902900	gut granule assembly
 http://purl.obolibrary.org/obo/GO_0042634	regulation of hair cycle	http://purl.obolibrary.org/obo/GO_0042633	hair cycle
@@ -1505,7 +1496,6 @@ http://purl.obolibrary.org/obo/GO_1903750	regulation of intrinsic apoptotic sign
 http://purl.obolibrary.org/obo/GO_1902218	regulation of intrinsic apoptotic signaling pathway in response to osmotic stress	http://purl.obolibrary.org/obo/GO_0008627	intrinsic apoptotic signaling pathway in response to osmotic stress
 http://purl.obolibrary.org/obo/GO_1902238	regulation of intrinsic apoptotic signaling pathway in response to osmotic stress by p53 class mediator	http://purl.obolibrary.org/obo/GO_1990127	intrinsic apoptotic signaling pathway in response to osmotic stress by p53 class mediator
 http://purl.obolibrary.org/obo/GO_2000217	regulation of invasive growth in response to glucose limitation	http://purl.obolibrary.org/obo/GO_0001403	invasive growth in response to glucose limitation
-http://purl.obolibrary.org/obo/GO_1901979	regulation of inward rectifier potassium channel activity	http://purl.obolibrary.org/obo/GO_0005242	inward rectifier potassium channel activity
 http://purl.obolibrary.org/obo/GO_1904212	regulation of iodide transmembrane transport	http://purl.obolibrary.org/obo/GO_1904200	iodide transmembrane transport
 http://purl.obolibrary.org/obo/GO_1904201	regulation of iodide transport	http://purl.obolibrary.org/obo/GO_0015705	iodide transport
 http://purl.obolibrary.org/obo/GO_0050937	regulation of iridophore differentiation	http://purl.obolibrary.org/obo/GO_0050935	iridophore differentiation
@@ -1812,7 +1802,6 @@ http://purl.obolibrary.org/obo/GO_1904149	regulation of microglial cell mediated
 http://purl.obolibrary.org/obo/GO_1904139	regulation of microglial cell migration	http://purl.obolibrary.org/obo/GO_1904124	microglial cell migration
 http://purl.obolibrary.org/obo/GO_0140505	regulation of microlipophagy	http://purl.obolibrary.org/obo/GO_0140504	microlipophagy
 http://purl.obolibrary.org/obo/GO_0150101	regulation of microtubule anchoring at centrosome	http://purl.obolibrary.org/obo/GO_0034454	microtubule anchoring at centrosome
-http://purl.obolibrary.org/obo/GO_1904526	regulation of microtubule binding	http://purl.obolibrary.org/obo/GO_0008017	microtubule binding
 http://purl.obolibrary.org/obo/GO_0070507	regulation of microtubule cytoskeleton organization	http://purl.obolibrary.org/obo/GO_0000226	microtubule cytoskeleton organization
 http://purl.obolibrary.org/obo/GO_0031114	regulation of microtubule depolymerization	http://purl.obolibrary.org/obo/GO_0007019	microtubule depolymerization
 http://purl.obolibrary.org/obo/GO_0010968	regulation of microtubule nucleation	http://purl.obolibrary.org/obo/GO_0007020	microtubule nucleation
@@ -2179,7 +2168,6 @@ http://purl.obolibrary.org/obo/GO_0060304	regulation of phosphatidylinositol dep
 http://purl.obolibrary.org/obo/GO_1900468	regulation of phosphatidylserine biosynthetic process	http://purl.obolibrary.org/obo/GO_0006659	phosphatidylserine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905780	regulation of phosphatidylserine exposure on apoptotic cell surface	http://purl.obolibrary.org/obo/GO_0070782	phosphatidylserine exposure on apoptotic cell surface
 http://purl.obolibrary.org/obo/GO_0150178	regulation of phosphatidylserine metabolic process	http://purl.obolibrary.org/obo/GO_0006658	phosphatidylserine metabolic process
-http://purl.obolibrary.org/obo/GO_0032429	regulation of phospholipase A2 activity	http://purl.obolibrary.org/obo/GO_0004623	phospholipase A2 activity
 http://purl.obolibrary.org/obo/GO_1900736	regulation of phospholipase C-activating G protein-coupled receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007200	phospholipase C-activating G protein-coupled receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0010517	regulation of phospholipase activity	http://purl.obolibrary.org/obo/GO_0004620	phospholipase activity
 http://purl.obolibrary.org/obo/GO_0071071	regulation of phospholipid biosynthetic process	http://purl.obolibrary.org/obo/GO_0008654	phospholipid biosynthetic process
@@ -2965,7 +2953,6 @@ http://purl.obolibrary.org/obo/GO_1904666	regulation of ubiquitin protein ligase
 http://purl.obolibrary.org/obo/GO_2000395	regulation of ubiquitin-dependent endocytosis	http://purl.obolibrary.org/obo/GO_0070086	ubiquitin-dependent endocytosis
 http://purl.obolibrary.org/obo/GO_2000058	regulation of ubiquitin-dependent protein catabolic process	http://purl.obolibrary.org/obo/GO_0006511	ubiquitin-dependent protein catabolic process
 http://purl.obolibrary.org/obo/GO_0051438	regulation of ubiquitin-protein transferase activity	http://purl.obolibrary.org/obo/GO_0004842	ubiquitin-protein transferase activity
-http://purl.obolibrary.org/obo/GO_2000152	regulation of ubiquitin-specific protease activity	http://purl.obolibrary.org/obo/GO_0004843	cysteine-type deubiquitinase activity
 http://purl.obolibrary.org/obo/GO_0051510	regulation of unidimensional cell growth	http://purl.obolibrary.org/obo/GO_0009826	unidimensional cell growth
 http://purl.obolibrary.org/obo/GO_2001279	regulation of unsaturated fatty acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0006636	unsaturated fatty acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905529	regulation of uracil import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098721	uracil import across plasma membrane
