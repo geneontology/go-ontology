@@ -655,7 +655,6 @@ GO:0071990	maintenance of protein location to spindle pole body	NCBITaxon:4751	F
 GO:0072656	maintenance of protein location in mitochondrion	NCBITaxon:2759	Eukaryota	
 GO:0080156	mitochondrial mRNA modification	NCBITaxon:2759	Eukaryota	
 GO:0090139	mitochondrial DNA packaging	NCBITaxon:2759	Eukaryota	
-GO:0090144	mitochondrial nucleoid organization	NCBITaxon:2759	Eukaryota	
 GO:0090615	mitochondrial mRNA processing	NCBITaxon:2759	Eukaryota	
 GO:0090646	mitochondrial tRNA processing	NCBITaxon:2759	Eukaryota	
 GO:0097222	mitochondrial mRNA polyadenylation	NCBITaxon:2759	Eukaryota	
@@ -875,7 +874,6 @@ GO:0080188	gene silencing by RNA-directed DNA methylation	NCBITaxon:33090	Viridi
 GO:0106059	tRNA (cytidine 56-2'-O)-methyltransferase activity	NCBITaxon:2157	Archaea	
 GO:0072487	MSL complex	NCBITaxon:33208	Metazoa	
 GO:0042597	periplasmic space	NCBITaxon:Union_0000023	Fungi or Bacteria or Archaea	PMID:15803654
-GO:0106316	nitrite reductase NADH activity	NCBITaxon:2	Bacteria	
 GO:0008942	nitrite reductase [NAD(P)H] activity	NCBITaxon:2759	Eukaryota	
 GO:0060918	auxin transport	NCBITaxon:33090	Viridiplantae	
 GO:2000012	regulation of auxin polar transport	NCBITaxon:33090	Viridiplantae	
@@ -885,7 +883,6 @@ GO:0062200	RAM/MOR signaling pathway	NCBITaxon:4751	Fungi	PMID:23212898
 GO:0004164	diphthine synthase activity	NCBITaxon:2157	Archaea	PMID:24739148
 GO:0141133	diphthine methyl ester synthase activity	NCBITaxon:2759	Eukaryota	PMID:24739148
 GO:0141152	glycerol-3-phosphate dehydrogenase (NAD+) activity	NCBITaxon:2759	Eukaryota	
-GO:0047952	glycerol-3-phosphate dehydrogenase [NAD(P)+]	NCBITaxon:2	Bacteria	PMID:28326
 GO:0141153	glycerol-3-phosphate dehydrogenase (NADP+) activity	NCBITaxon:2157	Archaea	PMID:15557260
 GO:0141091	transforming growth factor beta receptor superfamily signaling pathway	NCBITaxon:6072	Eumetazoa	
 GO:0141169	epigenetic 5-methylcytosine DNA demethylation, direct 5-methylcytosine excision pathway	NCBITaxon:33090	Viridiplantae	PMID:31546611
@@ -940,3 +937,5 @@ GO:0034354	'de novo' NAD biosynthetic process from tryptophan	NCBITaxon:2759	Euk
 GO:0120549	limit dextrin alpha-1,6-maltotetraose-hydrolase activity	NCBITaxon:2	Bacteria	
 GO:0160253	de novo tRNA queuosine(34) biosynthetic process	NCBITaxon:2	Bacteria	
 GO:0160254	tRNA queuosine(34) biosynthetic process from salvaged queuosine	NCBITaxon:2	Bacteria	
+GO:0050062	long-chain-fatty-acyl-CoA luciferin component reductase activity	NCBITaxon:2	Bacteria	
+GO:0047474	long-chain fatty acid--protein ligase activity	NCBITaxon:2	Bacteria	

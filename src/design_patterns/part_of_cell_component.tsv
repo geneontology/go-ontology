@@ -153,7 +153,7 @@ http://purl.obolibrary.org/obo/GO_0035451	extrinsic component of stromal side of
 http://purl.obolibrary.org/obo/GO_0099243	extrinsic component of synaptic membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0097060	synaptic membrane
 http://purl.obolibrary.org/obo/GO_0098850	extrinsic component of synaptic vesicle membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0030672	synaptic vesicle membrane
 http://purl.obolibrary.org/obo/GO_0035448	extrinsic component of thylakoid membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0042651	thylakoid membrane
-http://purl.obolibrary.org/obo/GO_0005583	fibrillar collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0098643	banded collagen fibril
+http://purl.obolibrary.org/obo/GO_0005583	fibrillar collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0098643	fibrillar collagen
 http://purl.obolibrary.org/obo/GO_1904813	ficolin-1-rich granule lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0101002	ficolin-1-rich granule
 http://purl.obolibrary.org/obo/GO_0032171	germ tube septin cap	http://purl.obolibrary.org/obo/GO_0032159	septin cap	http://purl.obolibrary.org/obo/GO_0032179	germ tube
 http://purl.obolibrary.org/obo/GO_0032172	germ tube septin ring	http://purl.obolibrary.org/obo/GO_0005940	septin ring	http://purl.obolibrary.org/obo/GO_0032179	germ tube
@@ -232,6 +232,7 @@ http://purl.obolibrary.org/obo/GO_0031965	nuclear membrane	http://purl.obolibrar
 http://purl.obolibrary.org/obo/GO_0005880	nuclear microtubule	http://purl.obolibrary.org/obo/GO_0005874	microtubule	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/GO_0140513	nuclear protein-containing complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/GO_0043596	nuclear replication fork	http://purl.obolibrary.org/obo/GO_0005657	replication fork	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0140168	nuclear ribonucleoprotein granule	http://purl.obolibrary.org/obo/GO_0035770	ribonucleoprotein granule	http://purl.obolibrary.org/obo/GO_0005654	nucleoplasm
 http://purl.obolibrary.org/obo/GO_0000152	nuclear ubiquitin ligase complex	http://purl.obolibrary.org/obo/GO_0000151	ubiquitin ligase complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/GO_0039715	nuclear viral factory	http://purl.obolibrary.org/obo/GO_0039713	viral factory	http://purl.obolibrary.org/obo/GO_0042025	host cell nucleus
 http://purl.obolibrary.org/obo/GO_0101019	nucleolar exosome (RNase complex)	http://purl.obolibrary.org/obo/GO_0000178	exosome (RNase complex)	http://purl.obolibrary.org/obo/GO_0005730	nucleolus

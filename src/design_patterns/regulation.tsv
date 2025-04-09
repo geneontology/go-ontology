@@ -259,7 +259,6 @@ http://purl.obolibrary.org/obo/GO_1900491	regulation of [4Fe-4S] cluster assembl
 http://purl.obolibrary.org/obo/GO_0010115	regulation of abscisic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0009688	abscisic acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0009787	regulation of abscisic acid-activated signaling pathway	http://purl.obolibrary.org/obo/GO_0009738	abscisic acid-activated signaling pathway
 http://purl.obolibrary.org/obo/GO_0045734	regulation of acetate catabolic process	http://purl.obolibrary.org/obo/GO_0045733	acetate catabolic process
-http://purl.obolibrary.org/obo/GO_0010510	regulation of acetyl-CoA biosynthetic process from pyruvate	http://purl.obolibrary.org/obo/GO_0006086	pyruvate decarboxylation to acetyl-CoA
 http://purl.obolibrary.org/obo/GO_1905921	regulation of acetylcholine biosynthetic process	http://purl.obolibrary.org/obo/GO_0008292	acetylcholine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0060408	regulation of acetylcholine metabolic process	http://purl.obolibrary.org/obo/GO_0008291	acetylcholine metabolic process
 http://purl.obolibrary.org/obo/GO_0014056	regulation of acetylcholine secretion, neurotransmission	http://purl.obolibrary.org/obo/GO_0014055	acetylcholine secretion, neurotransmission
@@ -2441,7 +2440,7 @@ http://purl.obolibrary.org/obo/GO_0006142	regulation of pyrimidine nucleobase me
 http://purl.obolibrary.org/obo/GO_0032246	regulation of pyrimidine nucleoside transport	http://purl.obolibrary.org/obo/GO_0015864	pyrimidine nucleoside transport
 http://purl.obolibrary.org/obo/GO_1900397	regulation of pyrimidine nucleotide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006221	pyrimidine nucleotide biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903930	regulation of pyrimidine-containing compound salvage	http://purl.obolibrary.org/obo/GO_0008655	pyrimidine-containing compound salvage
-http://purl.obolibrary.org/obo/GO_1904182	regulation of pyruvate dehydrogenase activity	http://purl.obolibrary.org/obo/GO_0004738	pyruvate dehydrogenase activity
+http://purl.obolibrary.org/obo/GO_0010510	regulation of pyruvate decarboxylation to acetyl-CoA	http://purl.obolibrary.org/obo/GO_0006086	pyruvate decarboxylation to acetyl-CoA
 http://purl.obolibrary.org/obo/GO_1903302	regulation of pyruvate kinase activity	http://purl.obolibrary.org/obo/GO_0004743	pyruvate kinase activity
 http://purl.obolibrary.org/obo/GO_1904984	regulation of quinolinate biosynthetic process	http://purl.obolibrary.org/obo/GO_0019805	quinolinate biosynthetic process
 http://purl.obolibrary.org/obo/GO_0061187	regulation of rDNA heterochromatin formation	http://purl.obolibrary.org/obo/GO_0000183	rDNA heterochromatin formation
