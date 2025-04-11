@@ -5,11 +5,9 @@ GO:0004123	cystathionine gamma-lyase	NCBITaxon:4896	Schizosaccharomyces pombe
 GO:1990604	IRE1-TRAF2-ASK1 complex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:1990604	IRE1-TRAF2-ASK1 complex	NCBITaxon:4896	Saccharomyces cerevisiae	
 GO:0019280	L-methionine biosynthetic process from homoserine via O-acetyl-L-homoserine and cystathionine	NCBITaxon:33208	Metazoa	
-GO:0000105	L-histidine biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0009097	isoleucine biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0009098	L-leucine biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0009085	lysine biosynthetic process	NCBITaxon:9606	Homo sapiens	
-GO:0009086	methionine biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0009094	L-phenylalanine biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0009088	threonine biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0000162	L-tryptophan biosynthetic process	NCBITaxon:9606	Homo sapiens	
