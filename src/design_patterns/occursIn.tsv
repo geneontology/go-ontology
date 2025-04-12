@@ -110,7 +110,6 @@ http://purl.obolibrary.org/obo/GO_0010450	inflorescence meristem growth	http://p
 http://purl.obolibrary.org/obo/GO_0002227	innate immune response in mucosa	http://purl.obolibrary.org/obo/UBERON_0000344	mucosa	http://purl.obolibrary.org/obo/GO_0045087	innate immune response
 http://purl.obolibrary.org/obo/GO_0044258	intestinal lipid catabolic process	http://purl.obolibrary.org/obo/UBERON_0000160	intestine	http://purl.obolibrary.org/obo/GO_0016042	lipid catabolic process
 http://purl.obolibrary.org/obo/GO_0032367	intracellular cholesterol transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0030301	cholesterol transport
-http://purl.obolibrary.org/obo/GO_0015859	intracellular nucleoside transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0015858	nucleoside transport
 http://purl.obolibrary.org/obo/GO_0035556	intracellular signal transduction	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0007165	signal transduction
 http://purl.obolibrary.org/obo/GO_0032366	intracellular sterol transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0015918	sterol transport
 http://purl.obolibrary.org/obo/GO_0046907	intracellular transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0006810	transport
