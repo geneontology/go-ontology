@@ -479,7 +479,7 @@ mirror/eco-download.owl: $(SRC)
 .PRECIOUS: mirror/eco-download.owl
 
 mirror/ro-download.owl: $(SRC)
-	wget --no-check-certificate $(OBO)/ro/ro-base.owl $(WGET_OUT)
+	wget --no-check-certificate $(OBO)/ro.owl $(WGET_OUT)
 .PRECIOUS: mirror/ro-download.owl
 
 # general case: download remote OWL first
@@ -535,6 +535,9 @@ mirror/eco.owl: mirror/eco-download.owl
 # We are already downloading its base file, but there is still some duplicative RO content it it.
 mirror/wbbt.owl: mirror/wbbt-download.owl
 	$(ROBOT) remove --input $< --base-iri 'http://purl.obolibrary.org/obo/WBbt_' --axioms external --preserve-structure false --trim false remove --select imports --trim false annotate --ontology-iri $(OBO)/$@ --output $@
+
+mirror/ro.owl: mirror/ro-download.owl
+	$(ROBOT) remove --input $< --base-iri 'http://purl.obolibrary.org/obo/GO_' --axioms internal --preserve-structure false --trim false remove --select imports --trim false annotate --ontology-iri $(OBO)/$@ --output $@
 
 mirror/%.owl: mirror/%-download.owl
 	$(ROBOT) remove --input $< --base-iri 'http://purl.obolibrary.org/obo/$(shell echo $* | tr '[:lower:]' '[:upper:]')_' --axioms external --preserve-structure false --trim false remove --select imports --trim false annotate --ontology-iri $(OBO)/$@ --output $@
