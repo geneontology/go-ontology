@@ -223,6 +223,7 @@ DisjointClasses(obo:GO_0032991 obo:GO_0110165)
 
 DisjointClasses(obo:GO_0043226 obo:GO_0044423)
 DisjointClasses(obo:GO_0043226 obo:GO_0055044)
+DisjointUnion(obo:GO_0043226 obo:GO_0043227 obo:GO_0043228)
 
 # Class: obo:GO_0043227 (membrane-bounded organelle)
 
