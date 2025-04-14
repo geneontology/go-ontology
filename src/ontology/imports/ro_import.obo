@@ -1,5 +1,12 @@
 format-version: 1.2
-data-version: go/releases/2024-02-12/imports/ro_import.owl
+data-version: go/releases/2025-04-14/imports/ro_import.owl
+idspace: dc http://purl.org/dc/elements/1.1/ 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: skos http://www.w3.org/2004/02/skos/core# 
+idspace: swrl http://www.w3.org/2003/11/swrl# 
+idspace: swrla http://swrl.stanford.edu/ontologies/3.3/swrla.owl# 
+idspace: swrlb http://www.w3.org/2003/11/swrlb# 
+idspace: terms http://purl.org/dc/terms/ 
 ontology: go/imports/ro_import
 
 [Term]
@@ -7,26 +14,28 @@ id: BFO:0000002
 name: continuant
 def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
 disjoint_from: BFO:0000003 ! occurrent
-relationship: part_of BFO:0000002 ! continuant
+relationship: BFO:0000050 BFO:0000002 {all_only="true"} ! part of continuant
 
 [Term]
 id: BFO:0000003
 name: occurrent
 def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
-relationship: part_of BFO:0000003 ! occurrent
+relationship: BFO:0000050 BFO:0000003 {all_only="true"} ! part of occurrent
 
 [Term]
 id: BFO:0000004
 name: independent continuant
 def: "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])" []
+comment: A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.
 is_a: BFO:0000002 ! continuant
 disjoint_from: BFO:0000020 ! specifically dependent continuant
-relationship: part_of BFO:0000004 ! independent continuant
+relationship: BFO:0000050 BFO:0000004 {all_only="true"} ! part of independent continuant
 
 [Term]
 id: BFO:0000015
 name: process
 def: "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])" []
+comment: An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.
 is_a: BFO:0000003 ! occurrent
 
 [Term]
@@ -41,20 +50,21 @@ name: realizable entity
 def: "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances." []
 is_a: BFO:0000020 ! specifically dependent continuant
 disjoint_from: BFO:0000019 ! quality
-relationship: part_of BFO:0000017 ! realizable entity
+relationship: BFO:0000050 BFO:0000017 {all_only="true"} ! part of realizable entity
 
 [Term]
 id: BFO:0000019
 name: quality
 is_a: BFO:0000020 ! specifically dependent continuant
-relationship: part_of BFO:0000019 ! quality
+relationship: BFO:0000050 BFO:0000019 {all_only="true"} ! part of quality
 
 [Term]
 id: BFO:0000020
 name: specifically dependent continuant
 def: "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])" []
+comment: A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.
 is_a: BFO:0000002 ! continuant
-relationship: part_of BFO:0000020 ! specifically dependent continuant
+relationship: BFO:0000050 BFO:0000020 {all_only="true"} ! part of specifically dependent continuant
 
 [Term]
 id: BFO:0000023
@@ -73,6 +83,7 @@ name: material entity
 def: "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." []
 is_a: BFO:0000004 ! independent continuant
 disjoint_from: BFO:0000141 ! immaterial entity
+property_value: IAO:0000116 "Elucidation: An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." xsd:string
 
 [Term]
 id: BFO:0000141
@@ -81,1493 +92,2319 @@ is_a: BFO:0000004 ! independent continuant
 
 [Term]
 id: CHEBI:50906
-is_a: PATO:0000001
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: CL:0000000
+name: cell
+def: "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." [CARO:mah]
+comment: The definition of cell is intended to represent all cells, and thus a cell is defined as a material entity and not an anatomical structure, which implies that it is part of an organism (or the entirety of one).
+xref: CALOHA:TS-2035
+xref: FMA:68646
+xref: GO:0005623
+xref: KUPO:0000002
+xref: MESH:D002477
+xref: VHOG:0001533
+xref: WBbt:0004017
+xref: XAO:0003012
+is_a: UBERON:0000061 ! anatomical structure
+property_value: IAO:0000116 "CL and GO definitions of cell differ based on inclusive or exclusive of cell wall, etc." xsd:string
+property_value: IAO:0000116 "We struggled with this definition. We are worried about circularity. We also considered requiring the capability of metabolism." xsd:string
+
+[Term]
+id: CL:0000101
+name: sensory neuron
+def: "Any neuron having a sensory function; an afferent neuron conveying sensory impulses." [ISBN:0721662544]
+xref: BTO:0001037
+xref: FMA:84649
+xref: MESH:D011984
+xref: WBbt:0005759
+is_a: CL:0000540 ! neuron
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: CL:0000540
+name: neuron
+def: "The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system." [http://en.wikipedia.org/wiki/Neuron, MESH:D009474]
+comment: These cells are also reportedly CD4-negative and CD200-positive. They are also capable of producing CD40L and IFN-gamma.
+synonym: "nerve cell" EXACT []
+xref: BTO:0000938
+xref: CALOHA:TS-0683
+xref: FMA:54527
+xref: VHOG:0001483
+xref: WBbt:0003679
+is_a: CL:0000000 ! cell
+property_value: RO:0002175 NCBITaxon:9606
+
+[Term]
+id: IAO:0000078
+name: curation status specification
+def: "The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value." []
+property_value: IAO:0000111 "curation status specification" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000116 "Better to represent curation as a process with parts and then relate labels to that process (in IAO meeting)" xsd:string
+property_value: IAO:0000117 "PERSON:Bill Bug" xsd:string
+property_value: IAO:0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>" xsd:string
+property_value: IAO:0000119 "OBI_0000266" xsd:string
+
+[Term]
+id: OBI:0100026
+name: organism
+def: "A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs." []
+is_a: BFO:0000040 ! material entity
+property_value: IAO:0000111 "organism" xsd:string
+property_value: IAO:0000112 "animal" xsd:string
+property_value: IAO:0000112 "fungus" xsd:string
+property_value: IAO:0000112 "plant" xsd:string
+property_value: IAO:0000112 "virus" xsd:string
+property_value: IAO:0000114 IAO:0000122
+property_value: IAO:0000116 "10/21/09: This is a placeholder term, that should ideally be imported from the NCBI taxonomy, but the high level hierarchy there does not suit our needs (includes plasmids and 'other organisms')" xsd:string
+property_value: IAO:0000116 "13-02-2009:\nOBI doesn't take position as to  when an organism starts or ends being an organism - e.g. sperm, foetus.\nThis issue is outside the scope of OBI." xsd:string
+property_value: IAO:0000117 "GROUP: OBI Biomaterial Branch" xsd:string
+property_value: IAO:0000119 "WEB: http://en.wikipedia.org/wiki/Organism" xsd:string
+
+[Term]
+id: PATO:0000001
+name: quality
+def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" [PATOC:GVG]
+is_a: BFO:0000020 ! specifically dependent continuant
+
+[Term]
+id: PATO:0001199
+name: linear
+def: "A shape quality inhering in a bearer by virtue of the bearer's being narrow, with the two opposite margins parallel." [ISBN:0881923214]
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0002124
+name: laminar
+def: "A quality inhering in a bearer by virtue of the bearer's processing the form of a thin plate sheet or layer." [PATOC:GVG]
+is_a: PATO:0000001 ! quality
+property_value: terms:contributor https://orcid.org/0000-0002-2061-091X
+creation_date: 2009-10-06T04:37:14Z
+
+[Term]
+id: UBERON:0000061
+name: anatomical structure
+def: "Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome." [CARO:0000003]
+subset: common_anatomy
+subset: human_subset
+subset: mouse_subset
+subset: upper_level
+synonym: "biological structure" EXACT []
+synonym: "connected biological structure" EXACT [CARO:0000003]
+xref: AAO:0010825
+xref: AEO:0000003
+xref: BILA:0000003
+xref: CARO:0000003
+xref: EHDAA2:0003003
+xref: EMAPA:0
+xref: FMA:305751
+xref: FMA:67135
+xref: GAID:781
+xref: HAO:0000003
+xref: http://dbpedia.org/ontology/AnatomicalStructure
+xref: MA:0003000
+xref: MESH:D000825
+xref: SCTID:362889002
+xref: TAO:0000037
+xref: TGMA:0001823
+xref: VHOG:0001759
+xref: XAO:0003000
+xref: ZFA:0000037
+is_a: UBERON:0000465 ! material anatomical entity
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:4751
+
+[Term]
+id: UBERON:0000465
+name: material anatomical entity
+def: "Anatomical entity that has mass." [http://orcid.org/0000-0001-9114-8737]
+subset: common_anatomy
+subset: human_subset
+subset: mouse_subset
+subset: upper_level
+xref: AAO:0010264
+xref: AEO:0000006
+xref: BILA:0000006
+xref: CARO:0000006
+xref: EHDAA2:0003006
+xref: FMA:67165
+xref: HAO:0000006
+xref: TAO:0001836
+xref: TGMA:0001826
+xref: VHOG:0001721
+is_a: BFO:0000040 ! material entity
+is_a: UBERON:0001062 ! anatomical entity
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:4751
+
+[Term]
+id: UBERON:0001062
+name: anatomical entity
+def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species." [FMA:62955, http://orcid.org/0000-0001-9114-8737]
+subset: common_anatomy
+subset: human_subset
+subset: mouse_subset
+subset: upper_level
+xref: AAO:0010841
+xref: AEO:0000000
+xref: BFO:0000004
+xref: BILA:0000000
+xref: BIRNLEX:6
+xref: CARO:0000000
+xref: EHDAA2:0002229
+xref: FMA:62955
+xref: HAO:0000000
+xref: MA:0000001
+xref: NCIT:C12219
+xref: TAO:0100000
+xref: TGMA:0001822
+xref: UMLS:C1515976 {source="ncithesaurus:Anatomic_Structure_System_or_Substance"}
+xref: WBbt:0000100
+xref: XAO:0000000
+xref: ZFA:0100000
+is_a: BFO:0000004 ! independent continuant
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:4751
+
+[Term]
+id: UBERON:0001981
+name: blood vessel
+def: "A vessel through which blood circulates in the body." [BTO:0001102, Wikipedia:Blood_vessel]
+subset: efo_slim
+subset: human_reference_atlas
+subset: human_subset
+subset: mouse_subset
+subset: pheno_slim
+subset: uberon_slim
+subset: vertebrate_core
+synonym: "region of vascular tree organ" EXACT [FMA:50722]
+synonym: "vascular element" BROAD [EMAPA:35993]
+synonym: "vascular tree organ region" EXACT [FMA:50722]
+xref: AAO:0011004
+xref: AEO:0000207
+xref: BTO:0001102
+xref: CALOHA:TS-0080
+xref: EFO:0000817
+xref: EHDAA2:0003252
+xref: EHDAA:240
+xref: EMAPA:32743
+xref: EMAPA:35993
+xref: FMA:50722
+xref: FMA:63183
+xref: GAID:169
+xref: MA:0000060
+xref: MAT:0000393
+xref: MESH:D001808
+xref: NCIT:C12679
+xref: NLXANAT:090901
+xref: SCTID:361097006
+xref: TAO:0002137
+xref: UMLS:C0005847 {source="ncithesaurus:Blood_Vessel"}
+xref: VHOG:0001250
+xref: Wikipedia:Blood_vessel
+xref: XAO:0001011
+xref: ZFA:0005314
+is_a: UBERON:0010000 ! multicellular anatomical structure
+property_value: IAO:0000116 "consider adopting the EMAPA superclass 'vascular element', which includes microvasculature (e.g. capillaries), vascular plexus" xsd:string
+
+[Term]
+id: UBERON:0010000
+name: multicellular anatomical structure
+def: "An anatomical structure that has more than one cell as a part." [CARO:0010000]
+subset: common_anatomy
+subset: human_subset
+subset: mouse_subset
+subset: upper_level
+synonym: "multicellular structure" EXACT [FBbt:00100313]
+xref: CARO:0010000
+is_a: UBERON:0000061 ! anatomical structure
+property_value: RO:0002175 NCBITaxon:33090
+property_value: RO:0002175 NCBITaxon:4751
 
 [Typedef]
-id: acts_on_population_of
-name: acts on population of
-def: "p acts on population of c iff c' is a collection, has members of type c, and p has participant c" []
-xref: RO:0012003
-is_a: has_participant ! has participant
+id: BFO:0000050
+name: part of
+def: "a core relation that holds between a part and its whole" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000111 "is part of" xsd:string
+property_value: IAO:0000112 "my brain is part of my body (continuant parthood, two material entities)" xsd:string
+property_value: IAO:0000112 "my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)" xsd:string
+property_value: IAO:0000112 "this day is part of this year (occurrent parthood)" xsd:string
+property_value: IAO:0000116 "Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other." xsd:string
+property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
+property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)\n\nA continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'." xsd:string
+property_value: IAO:0000118 "part_of" xsd:string
+property_value: RO:0001900 RO:0001901
+property_value: RO:0040042 BFO:0000002
+property_value: RO:0040042 BFO:0000003
+property_value: RO:0040042 BFO:0000004
+property_value: RO:0040042 BFO:0000017
+property_value: RO:0040042 BFO:0000019
+property_value: RO:0040042 BFO:0000020
+property_value: RO:0040042 BFO:0000031
+property_value: seeAlso http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections
+property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:PartOf
+property_value: seeAlso "http://www.obofoundry.org/ro/#OBO_REL:part_of" xsd:string
+property_value: seeAlso "https://wiki.geneontology.org/Part_of" xsd:anyURI
+is_transitive: true
+is_a: RO:0002131 ! overlaps
+inverse_of: BFO:0000051 ! has part
 
 [Typedef]
-id: acts_upstream_of
-name: acts upstream of
-def: "c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes." []
-xref: RO:0002263
-holds_over_chain: enables causally_upstream_of
-is_a: acts_upstream_of_or_within ! acts upstream of or within
+id: BFO:0000051
+name: has part
+def: "a core relation that holds between a whole and its part" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000111 "has part" xsd:string
+property_value: IAO:0000112 "my body has part my brain (continuant parthood, two material entities)" xsd:string
+property_value: IAO:0000112 "my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)" xsd:string
+property_value: IAO:0000112 "this year has part this day (occurrent parthood)" xsd:string
+property_value: IAO:0000116 "Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part." xsd:string
+property_value: IAO:0000116 "Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/" xsd:string
+property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)\n\nA continuant cannot have an occurrent as part: use 'participates in'. An occurrent cannot have a continuant as part: use 'has participant'. An immaterial entity cannot have a material entity as part: use 'location of'. An independent continuant cannot have a specifically dependent continuant as part: use 'bearer of'. A specifically dependent continuant cannot have an independent continuant as part: use 'inheres in'." xsd:string
+property_value: IAO:0000118 "has_part" xsd:string
+property_value: RO:0001900 RO:0001901
+is_transitive: true
+is_a: RO:0002131 ! overlaps
 
 [Typedef]
-id: acts_upstream_of,_negative_effect
-name: acts upstream of, negative effect
-def: "c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative" []
-xref: RO:0004035
-holds_over_chain: enables causally_upstream_of,_negative_effect
-is_a: acts_upstream_of ! acts upstream of
-is_a: acts_upstream_of_or_within,_negative_effect ! acts upstream of or within, negative effect
-
-[Typedef]
-id: acts_upstream_of,_positive_effect
-name: acts upstream of, positive effect
-def: "c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive" []
-xref: RO:0004034
-holds_over_chain: enables causally_upstream_of,_positive_effect
-is_a: acts_upstream_of ! acts upstream of
-is_a: acts_upstream_of_or_within,_positive_effect ! acts upstream of or within, positive effect
-
-[Typedef]
-id: acts_upstream_of_or_within
-name: acts upstream of or within
-def: "c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process." []
-synonym: "affects" RELATED []
-xref: RO:0002264
-holds_over_chain: enables causally_upstream_of_or_within
-is_a: causal_agent_in_process ! causal agent in process
-
-[Typedef]
-id: acts_upstream_of_or_within,_negative_effect
-name: acts upstream of or within, negative effect
-xref: RO:0004033
-holds_over_chain: enables causally_upstream_of_or_within,_negative_effect
-is_a: acts_upstream_of_or_within ! acts upstream of or within
-
-[Typedef]
-id: acts_upstream_of_or_within,_positive_effect
-name: acts upstream of or within, positive effect
-xref: RO:0004032
-holds_over_chain: enables causally_upstream_of_or_within,_positive_effect
-is_a: acts_upstream_of_or_within ! acts upstream of or within
-
-[Typedef]
-id: adjacent_to
-name: adjacent to
-def: "x adjacent to y if and only if x and y share a boundary." []
-xref: RO:0002220
-domain: BFO:0000004 ! independent continuant
-range: BFO:0000004 ! independent continuant
-is_a: spatially_disjoint_from ! spatially disjoint from
-
-[Typedef]
-id: bounding_layer_of
-name: bounding layer of
-def: "X outer_layer_of Y iff:\n. X :continuant that bearer_of some PATO:laminar\n. X part_of Y\n. exists Z :surface\n. X has_boundary Z\n. Z boundary_of Y\n\nhas_boundary: http://purl.obolibrary.org/obo/RO_0002002\nboundary_of: http://purl.obolibrary.org/obo/RO_0002000" []
-xref: RO:0002007
-range: BFO:0000040 ! material entity
-is_a: part_of ! part of
-
-[Typedef]
-id: capable_of
-name: capable of
-def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. " []
-xref: RO:0002215
-domain: BFO:0000004 ! independent continuant
-range: BFO:0000015 ! process
-is_a: capable_of_part_of ! capable of part of
-
-[Typedef]
-id: capable_of_negatively_regulating
-name: capable of negatively regulating
-def: "Holds between c and p if and only if c is capable of some activity a, and a negatively regulates p." []
-xref: RO:0002597
-holds_over_chain: capable_of negatively_regulates
-is_a: capable_of_regulating ! capable of regulating
-
-[Typedef]
-id: capable_of_part_of
-name: capable of part of
-def: "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p." []
-xref: RO:0002216
-holds_over_chain: capable_of part_of
-is_a: causal_agent_in_process ! causal agent in process
-is_a: functionally_related_to ! functionally related to
-
-[Typedef]
-id: capable_of_positively_regulating
-name: capable of positively regulating
-def: "Holds between c and p if and only if c is capable of some activity a, and a positively regulates p." []
-xref: RO:0002598
-holds_over_chain: capable_of positively_regulates
-is_a: capable_of_regulating ! capable of regulating
-
-[Typedef]
-id: capable_of_regulating
-name: capable of regulating
-def: "Holds between c and p if and only if c is capable of some activity a, and a regulates p." []
-xref: RO:0002596
-holds_over_chain: capable_of regulates
-is_a: causal_agent_in_process ! causal agent in process
-
-[Typedef]
-id: causal_agent_in_process
-name: causal agent in process
-def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process" []
-xref: RO:0002500
-is_a: causal_relation_between_material_entity_and_a_process ! causal relation between material entity and a process
-inverse_of: process_has_causal_agent ! process has causal agent
-
-[Typedef]
-id: causal_relation_between_entities
-name: causal relation between entities
-xref: RO:0002506
-domain: BFO:0000002 ! continuant
-range: BFO:0000002 ! continuant
-is_a: causally_related_to ! causally related to
-
-[Typedef]
-id: causal_relation_between_material_entity_and_a_process
-name: causal relation between material entity and a process
-def: "A relationship that holds between a material entity and a process in which causality is involved, with either the material entity or some part of the material entity exerting some influence over the process, or the process influencing some aspect of the material entity." []
-xref: RO:0002595
-domain: BFO:0000040 ! material entity
-range: BFO:0000015 ! process
-is_a: causally_related_to ! causally related to
-
-[Typedef]
-id: causal_relation_between_processes
-name: causal relation between processes
-def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one where the execution of p influences the execution of q. p may be upstream, downstream, part of, or a container of q." []
-xref: RO:0002501
+id: BFO:0000062
+name: preceded by
+def: "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+subset: ro-eco
+property_value: IAO:0000111 "preceded by" xsd:string
+property_value: IAO:0000116 "An example is: translation preceded_by transcription; aging preceded_by development (not however death preceded_by aging). Where derives_from links classes of continuants, preceded_by links classes of processes. Clearly, however, these two relations are not independent of each other. Thus if cells of type C1 derive_from cells of type C, then any cell division involving an instance of C1 in a given lineage is preceded_by cellular processes involving an instance of C.    The assertion P preceded_by P1 tells us something about Ps in general: that is, it tells us something about what happened earlier, given what we know about what happened later. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be succeeded by some instance of P. Note that an assertion to the effect that P preceded_by P1 is rather weak; it tells us little about the relations between the underlying instances in virtue of which the preceded_by relation obtains. Typically we will be interested in stronger relations, for example in the relation immediately_preceded_by, or in relations which combine preceded_by with a condition to the effect that the corresponding instances of P and P1 share participants, or that their participants are connected by relations of derivation, or (as a first step along the road to a treatment of causality) that the one process in some way affects (for example, initiates or regulates) the other." xsd:string
+property_value: IAO:0000118 "is preceded by" xsd:string
+property_value: IAO:0000118 "preceded_by" xsd:string
+property_value: terms:source "http://www.obofoundry.org/ro/#OBO_REL:preceded_by" xsd:string
 domain: BFO:0000003 ! occurrent
 range: BFO:0000003 ! occurrent
-is_a: causally_related_to ! causally related to
-
-[Typedef]
-id: causally_downstream_of
-name: causally downstream of
-def: "inverse of upstream of" []
-xref: RO:0002404
-is_a: causally_downstream_of_or_within ! causally downstream of or within
-is_a: preceded_by ! preceded by
-inverse_of: causally_upstream_of ! causally upstream of
-
-[Typedef]
-id: causally_downstream_of_or_within
-name: causally downstream of or within
-def: "inverse of causally upstream of or within" []
-xref: RO:0002427
+holds_over_chain: BFO:0000050 BFO:0000062
+holds_over_chain: RO:0002091 BFO:0000062
+holds_over_chain: RO:0002092 BFO:0000062
 is_transitive: true
-is_a: causal_relation_between_processes ! causal relation between processes
+is_a: RO:0002086 ! ends after
+inverse_of: BFO:0000063 ! precedes
 
 [Typedef]
-id: causally_influenced_by
-name: causally influenced by
-xref: RO:0002559
-is_a: causal_relation_between_entities ! causal relation between entities
-inverse_of: causally_influences ! causally influences
-
-[Typedef]
-id: causally_influences
-name: causally influences
-def: "The entity or characteristic A is causally upstream of the entity or characteristic B, A having an effect on B. An entity corresponds to any biological type of entity as long as a mass is measurable. A characteristic corresponds to a particular specificity of an entity (e.g., phenotype, shape, size)." []
-xref: RO:0002566
-domain: BFO:0000002 ! continuant
-range: BFO:0000002 ! continuant
-is_a: causal_relation_between_entities ! causal relation between entities
-
-[Typedef]
-id: causally_related_to
-name: causally related to
-def: "relation that links two events, processes, states, or objects such that one event, process, state, or object (a cause) contributes to the production of another event, process, state, or object (an effect) where the cause is partly or wholly responsible for the effect, and the effect is partly or wholly dependent on the cause." []
-xref: RO:0002410
-
-[Typedef]
-id: causally_upstream_of
-name: causally upstream of
-def: "p is causally upstream of q iff p is causally related to q, the end of p precedes the end of q, and p is not an occurrent part of q." []
-xref: RO:0002411
+id: BFO:0000063
+name: precedes
+def: "x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+subset: ro-eco
+property_value: IAO:0000111 "precedes" xsd:string
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+holds_over_chain: BFO:0000050 BFO:0000063
+holds_over_chain: RO:0002092 BFO:0000063
 is_transitive: true
-is_a: causally_upstream_of_or_within ! causally upstream of or within
-is_a: precedes ! precedes
+is_a: RO:0002222 ! temporally related to
 
 [Typedef]
-id: causally_upstream_of,_negative_effect
-name: causally upstream of, negative effect
-def: "p is causally upstream of, negative effect q iff p is casually upstream of q, and the execution of p decreases the execution of q." []
-xref: RO:0002305
-is_a: causally_upstream_of ! causally upstream of
-is_a: causally_upstream_of_or_within,_negative_effect ! causally upstream of or within, negative effect
+id: BFO:0000066
+name: occurs in
+def: "b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
+comment: Paraphrase of definition: a relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000111 "occurs in" xsd:string
+property_value: IAO:0000118 "occurs_in" xsd:string
+property_value: IAO:0000118 "unfolds in" xsd:string
+property_value: IAO:0000118 "unfolds_in" xsd:string
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+property_value: seeAlso "https://wiki.geneontology.org/Occurs_in" xsd:anyURI
+domain: BFO:0000003 ! occurrent
+range: BFO:0000004 ! independent continuant
+holds_over_chain: BFO:0000050 BFO:0000066
+inverse_of: BFO:0000067 ! contains process
+transitive_over: BFO:0000050 ! part of
 
 [Typedef]
-id: causally_upstream_of,_positive_effect
-name: causally upstream of, positive effect
-def: "p is causally upstream of, positive effect q iff p is casually upstream of q, and the execution of p is required for the execution of q." []
-xref: RO:0002304
-is_a: causally_upstream_of ! causally upstream of
-is_a: causally_upstream_of_or_within,_positive_effect ! causally upstream of or within, positive effect
-
-[Typedef]
-id: causally_upstream_of_or_within
-name: causally upstream of or within
-def: "p is 'causally upstream or within' q iff p is causally related to q, and the end of p precedes, or is coincident with, the end of q." []
-synonym: "affects" RELATED []
-xref: RO:0002418
-is_transitive: true
-is_a: causal_relation_between_processes ! causal relation between processes
-inverse_of: causally_downstream_of_or_within ! causally downstream of or within
-
-[Typedef]
-id: causally_upstream_of_or_within,_negative_effect
-name: causally upstream of or within, negative effect
-xref: RO:0004046
-is_a: causally_upstream_of_or_within ! causally upstream of or within
-
-[Typedef]
-id: causally_upstream_of_or_within,_positive_effect
-name: causally upstream of or within, positive effect
-xref: RO:0004047
-is_a: causally_upstream_of_or_within ! causally upstream of or within
-
-[Typedef]
-id: characteristic_of
-name: characteristic of
-def: "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence." []
-xref: RO:0000052
-is_functional: true
-is_a: characteristic_of_part_of ! characteristic of part of
-inverse_of: has_characteristic ! has characteristic
-
-[Typedef]
-id: characteristic_of_part_of
-name: characteristic of part of
-def: "q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w." []
-xref: RO:0002314
-holds_over_chain: characteristic_of part_of
-is_a: depends_on ! depends on
-transitive_over: part_of ! part of
-
-[Typedef]
-id: coincident_with
-name: coincident with
-def: "A relation that holds between two linear structures that are approximately parallel to each other for their entire length and where either the two structures are adjacent to each other or one is part of the other." []
-xref: RO:0002008
-is_a: mereotopologically_related_to ! mereotopologically related to
-
-[Typedef]
-id: contains_process
+id: BFO:0000067
 name: contains process
 def: "[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
-xref: BFO:0000067
+comment: Paraphrase of definition: a relation between an independent continuant and a process, in which the process takes place entirely within the independent continuant
+property_value: IAO:0000111 "site of" xsd:string
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 
 [Typedef]
-id: depends_on
-name: depends on
-xref: RO:0002502
+id: RO:0000052
+name: characteristic of
+def: "a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence." []
+comment: Note that this relation was previously called "inheres in", but was changed to be called "characteristic of" because BFO2 uses "inheres in" in a more restricted fashion. This relation differs from BFO2:inheres_in in two respects: (1) it does not impose a range constraint, and thus it allows qualities of processes, as well as of information entities, whereas BFO2 restricts inheres_in to only apply to independent continuants (2) it is declared functional, i.e. something can only be a characteristic of one thing.
+property_value: IAO:0000111 "inheres in" xsd:string
+property_value: IAO:0000112 "this fragility is a characteristic of this vase" xsd:string
+property_value: IAO:0000112 "this red color is a characteristic of this apple" xsd:string
+property_value: IAO:0000118 "inheres_in" xsd:string
+property_value: RO:0001900 RO:0001901
+is_functional: true
+is_a: RO:0002314 ! characteristic of part of
+inverse_of: RO:0000053 ! has characteristic
 
 [Typedef]
-id: developmentally_contributes_to
-name: developmentally contributes to
-def: "inverse of has developmental contribution from" []
-xref: RO:0002255
-holds_over_chain: develops_into part_of
-is_a: developmentally_succeeded_by ! developmentally succeeded by
-is_a: has_potential_to_developmentally_contribute_to ! has potential to developmentally contribute to
-
-[Typedef]
-id: developmentally_preceded_by
-name: developmentally preceded by
-def: "Candidate definition: x developmentally related to y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p" []
-xref: RO:0002258
-domain: BFO:0000002 ! continuant
-range: BFO:0000002 ! continuant
-is_a: developmentally_related_to ! developmentally related to
-inverse_of: developmentally_succeeded_by ! developmentally succeeded by
-
-[Typedef]
-id: developmentally_related_to
-name: developmentally related to
-def: "A relationship that holds between entities participating in some developmental process (GO:0032502)" []
-xref: RO:0002324
-
-[Typedef]
-id: developmentally_succeeded_by
-name: developmentally succeeded by
-def: "Inverse of developmentally preceded by" []
-xref: RO:0002286
-is_a: has_developmental_potential_involving ! has developmental potential involving
-
-[Typedef]
-id: develops_from
-name: develops from
-def: "x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y" []
-xref: RO:0002202
-domain: BFO:0000004 ! independent continuant
-range: BFO:0000004 ! independent continuant
-is_transitive: true
-is_a: developmentally_preceded_by ! developmentally preceded by
-inverse_of: develops_into ! develops into
-
-[Typedef]
-id: develops_into
-name: develops into
-def: "inverse of develops from" []
-xref: RO:0002203
-is_transitive: true
-is_a: developmentally_succeeded_by ! developmentally succeeded by
-is_a: has_potential_to_develop_into ! has potential to develop into
-is_a: has_potential_to_directly_develop_into ! has potential to directly develop into
-
-[Typedef]
-id: device_utilizes_material
-name: device utilizes material
-def: "X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y." []
-synonym: "utilizes" BROAD []
-xref: RO:0017001
-holds_over_chain: capable_of has_input
-
-[Typedef]
-id: directly_negatively_regulated_by
-name: directly negatively regulated by
-def: "Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1." []
-xref: RO:0002023
-is_a: directly_regulated_by ! directly regulated by
-inverse_of: directly_negatively_regulates ! directly negatively regulates
-
-[Typedef]
-id: directly_negatively_regulates
-name: directly negatively regulates
-def: "p directly negatively regulates q iff p is immediately causally upstream of q, and p negatively regulates q." []
-xref: RO:0002630
-is_a: directly_regulates ! directly regulates
-is_a: negatively_regulates ! negatively regulates
-
-[Typedef]
-id: directly_negatively_regulates_activity_of
-name: directly negatively regulates activity of
-def: "The entity A, immediately upstream of the entity B, has an activity that negatively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
-synonym: "molecularly decreases activity of" EXACT []
-xref: RO:0002449
-domain: BFO:0000040 ! material entity
-range: BFO:0000040 ! material entity
-is_a: directly_regulates_activity_of ! directly regulates activity of
-
-[Typedef]
-id: directly_positively_regulated_by
-name: directly positively regulated by
-def: "Process(P2) is directly postively regulated by process(P1) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P2 is directly postively regulated by P1." []
-xref: RO:0002024
-is_a: directly_regulated_by ! directly regulated by
-inverse_of: directly_positively_regulates ! directly positively regulates
-
-[Typedef]
-id: directly_positively_regulates
-name: directly positively regulates
-def: "p directly positively regulates q iff p is immediately causally upstream of q, and p positively regulates q." []
-xref: RO:0002629
-is_a: directly_regulates ! directly regulates
-is_a: positively_regulates ! positively regulates
-
-[Typedef]
-id: directly_positively_regulates_activity_of
-name: directly positively regulates activity of
-def: "The entity A, immediately upstream of the entity B, has an activity that positively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
-synonym: "molecularly increases activity of" EXACT []
-xref: RO:0002450
-domain: BFO:0000040 ! material entity
-range: BFO:0000040 ! material entity
-is_a: directly_regulates_activity_of ! directly regulates activity of
-
-[Typedef]
-id: directly_regulated_by
-name: directly regulated by
-xref: RO:0002022
-is_a: regulated_by ! regulated by
-inverse_of: directly_regulates ! directly regulates
-
-[Typedef]
-id: directly_regulates
-name: directly regulates
-def: "p directly regulates q iff p is immediately causally upstream of q and p regulates q." []
-xref: RO:0002578
-is_a: immediately_causally_upstream_of ! immediately causally upstream of
-is_a: regulates ! regulates
-
-[Typedef]
-id: directly_regulates_activity_of
-name: directly regulates activity of
-def: "The entity A, immediately upstream of the entity B, has an activity that regulates an activity performed by B. For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.\n\nA and B can be physically interacting but not necessarily. Immediately upstream means there are no intermediate entity between A and B." []
-synonym: "molecularly controls" EXACT []
-xref: RO:0002448
-domain: BFO:0000040 ! material entity
-range: BFO:0000040 ! material entity
-is_a: molecularly_interacts_with ! molecularly interacts with
-is_a: regulates_activity_of ! regulates activity of
-
-[Typedef]
-id: disposition_of
-name: disposition of
-def: "inverse of has disposition" []
-xref: RO:0000092
-is_a: characteristic_of ! characteristic of
-
-[Typedef]
-id: during_which_ends
-name: during which ends
-xref: RO:0002084
-is_a: temporally_related_to ! temporally related to
-inverse_of: ends_during ! ends during
-
-[Typedef]
-id: during_which_starts
-name: during which starts
-xref: RO:0002088
-is_a: temporally_related_to ! temporally related to
-inverse_of: starts_during ! starts during
-
-[Typedef]
-id: enabled_by
-name: enabled by
-def: "inverse of enables" []
-xref: RO:0002333
-is_a: functionally_related_to ! functionally related to
-is_a: has_participant ! has participant
-
-[Typedef]
-id: enables
-name: enables
-def: "c enables p iff c is capable of p and c acts to execute p." []
-xref: RO:0002327
-is_a: capable_of ! capable of
-inverse_of: enabled_by ! enabled by
-transitive_over: has_component_activity ! has component activity
-transitive_over: has_part ! has part
-
-[Typedef]
-id: enables_subfunction
-name: enables subfunction
-def: "Holds between an entity and an process P where the entity enables some larger compound process, and that larger process has-part P." []
-xref: RO:0004031
-holds_over_chain: enables has_part
-is_a: functionally_related_to ! functionally related to
-
-[Typedef]
-id: encompasses
-name: encompasses
-xref: RO:0002085
-is_transitive: true
-is_a: during_which_starts ! during which starts
-inverse_of: happens_during ! happens during
-
-[Typedef]
-id: ends
-name: ends
-def: "inverse of ends with" []
-xref: RO:0002229
-is_a: part_of ! part of
-is_a: temporally_related_to ! temporally related to
-inverse_of: ends_with ! ends with
-
-[Typedef]
-id: ends_after
-name: ends after
-xref: RO:0002086
-holds_over_chain: ends_during preceded_by
-is_transitive: true
-is_a: temporally_related_to ! temporally related to
-
-[Typedef]
-id: ends_during
-name: ends during
-xref: RO:0002093
-is_a: temporally_related_to ! temporally related to
-
-[Typedef]
-id: ends_with
-name: ends with
-def: "x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
-xref: RO:0002230
-is_transitive: true
-is_a: has_part ! has part
-is_a: temporally_related_to ! temporally related to
-
-[Typedef]
-id: evolutionarily_related_to
-name: evolutionarily related to
-def: "A relationship that holds via some environmental process" []
-xref: RO:0002320
-
-[Typedef]
-id: formed_as_result_of
-name: formed as result of
-xref: RO:0002354
-is_a: output_of ! output of
-
-[Typedef]
-id: function_of
-name: function of
-def: "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence" []
-xref: RO:0000079
-domain: BFO:0000034 ! function
-is_a: characteristic_of ! characteristic of
-inverse_of: has_function ! has function
-
-[Typedef]
-id: functionally_related_to
-name: functionally related to
-def: "A grouping relationship for any relationship directly involving a function, or that holds because of a function of one of the related entities." []
-xref: RO:0002328
-
-[Typedef]
-id: happens_during
-name: happens during
-xref: RO:0002092
-is_transitive: true
-is_a: ends_during ! ends during
-is_a: starts_during ! starts during
-
-[Typedef]
-id: has_characteristic
+id: RO:0000053
 name: has characteristic
 def: "Inverse of characteristic_of" []
-xref: RO:0000053
+property_value: IAO:0000111 "bearer of" xsd:string
+property_value: IAO:0000112 "this apple is bearer of this red color" xsd:string
+property_value: IAO:0000112 "this vase is bearer of this fragility" xsd:string
+property_value: IAO:0000116 "A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist." xsd:string
+property_value: IAO:0000118 "bearer_of" xsd:string
+property_value: IAO:0000118 "is bearer of" xsd:string
+property_value: RO:0001900 RO:0001901
 range: BFO:0000020 ! specifically dependent continuant
 is_inverse_functional: true
 
 [Typedef]
-id: has_component
-name: has component
-def: "w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
-xref: RO:0002180
-is_a: has_part ! has part
-
-[Typedef]
-id: has_component_activity
-name: has component activity
-xref: RO:0002017
-is_a: has_component_process ! has component process
-
-[Typedef]
-id: has_component_process
-name: has component process
-def: "w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
-xref: RO:0002018
-domain: BFO:0000015 ! process
-range: BFO:0000015 ! process
-is_a: has_component ! has component
-
-[Typedef]
-id: has_developmental_contribution_from
-name: has developmental contribution from
-def: "x has developmental contribution from y iff x has some part z such that z develops from y" []
-xref: RO:0002254
-domain: UBERON:0001062
-range: UBERON:0001062
-holds_over_chain: has_part develops_from
-is_a: developmentally_preceded_by ! developmentally preceded by
-inverse_of: developmentally_contributes_to ! developmentally contributes to
-
-[Typedef]
-id: has_developmental_potential_involving
-name: has developmental potential involving
-def: "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)." []
-xref: RO:0002384
-domain: UBERON:0001062
-range: UBERON:0001062
-is_a: developmentally_related_to ! developmentally related to
-
-[Typedef]
-id: has_disposition
-name: has disposition
-def: "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence" []
-xref: RO:0000091
-domain: BFO:0000004 ! independent continuant
-range: BFO:0000016 ! disposition
-is_a: has_characteristic ! has characteristic
-inverse_of: disposition_of ! disposition of
-
-[Typedef]
-id: has_effector_activity
-name: has effector activity
-def: "A 'has effector activity' B if A and B are GO molecular functions (GO_0003674),  A 'has component activity' B and B is the effector (output function) of B.  Each compound function has only one effector activity." []
-xref: RO:0002025
-is_functional: true
-is_a: has_component_activity ! has component activity
-
-[Typedef]
-id: has_end_location
-name: has end location
-def: "x 'has end location' y if and only if there exists some process z such that x 'ends with' z and z 'occurs in' y" []
-xref: RO:0002232
-domain: BFO:0000015 ! process
-range: BFO:0000004 ! independent continuant
-holds_over_chain: ends_with occurs_in
-is_a: has_part_that_occurs_in ! has part that occurs in
-
-[Typedef]
-id: has_function
-name: has function
-def: "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence" []
-xref: RO:0000085
-domain: BFO:0000004 ! independent continuant
-range: BFO:0000034 ! function
-is_a: has_characteristic ! has characteristic
-
-[Typedef]
-id: has_input
-name: has input
-def: "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
-xref: RO:0002233
-domain: BFO:0000015 ! process
-holds_over_chain: starts_with has_input
-is_a: has_participant ! has participant
-inverse_of: input_of ! input of
-
-[Typedef]
-id: has_intermediate
-name: has intermediate
-def: "p has intermediate c if and only if p has parts p1, p2 and p1 has output c, and p2 has input c" []
-xref: RO:0002505
-is_a: has_participant ! has participant
-
-[Typedef]
-id: has_ligand
-name: has ligand
-def: "A relationship that holds between between a receptor and an chemical entity, typically a small molecule or peptide, that carries information between cells or compartments of a cell and which binds the receptor and regulates its effector function." []
-xref: RO:0002019
-is_a: has_input ! has input
-
-[Typedef]
-id: has_necessary_component_activity
-name: has necessary component activity
-xref: RO:0002016
-is_a: has_component_activity ! has component activity
-is_a: positively_regulated_by ! positively regulated by
-
-[Typedef]
-id: has_negative_regulatory_component_activity
-name: has negative regulatory component activity
-def: "A relationship that holds between a GO molecular function and a component of that molecular function that negatively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is negatively regulated by B." []
-xref: RO:0002014
-is_a: has_regulatory_component_activity ! has regulatory component activity
-is_a: negatively_regulated_by ! negatively regulated by
-
-[Typedef]
-id: has_output
-name: has output
-def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p." []
-xref: RO:0002234
-holds_over_chain: ends_with has_output
-is_a: has_participant ! has participant
-inverse_of: output_of ! output of
-
-[Typedef]
-id: has_part
-name: has part
-def: "a core relation that holds between a whole and its part" []
-xref: BFO:0000051
-is_transitive: true
-is_a: overlaps ! overlaps
-
-[Typedef]
-id: has_part_structure_that_is_capable_of
-name: has part structure that is capable of
-def: "s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p" []
-xref: RO:0002584
-holds_over_chain: has_part capable_of
-is_a: causal_relation_between_material_entity_and_a_process ! causal relation between material entity and a process
-is_a: functionally_related_to ! functionally related to
-
-[Typedef]
-id: has_part_that_occurs_in
-name: has part that occurs in
-def: "p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c." []
-xref: RO:0002479
-domain: BFO:0000003 ! occurrent
-range: BFO:0000004 ! independent continuant
-holds_over_chain: has_part occurs_in
-
-[Typedef]
-id: has_participant
-name: has participant
-def: "a relation between a process and a continuant, in which the continuant is somehow involved in the process" []
-xref: RO:0000057
-domain: BFO:0000003 ! occurrent
-range: BFO:0000002 ! continuant
-holds_over_chain: has_part has_participant
-
-[Typedef]
-id: has_positive_regulatory_component_activity
-name: has positive regulatory component activity
-def: "A relationship that holds between a GO molecular function and a component of that molecular function that positively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is positively regulated by B." []
-xref: RO:0002015
-is_a: has_regulatory_component_activity ! has regulatory component activity
-is_a: positively_regulated_by ! positively regulated by
-
-[Typedef]
-id: has_potential_to_develop_into
-name: has potential to develop into
-def: "x has the potential to develop into y iff x develops into y or if x is capable of developing into y" []
-xref: RO:0002387
-is_a: has_developmental_potential_involving ! has developmental potential involving
-
-[Typedef]
-id: has_potential_to_developmentally_contribute_to
-name: has potential to developmentally contribute to
-def: "x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y" []
-xref: RO:0002385
-is_a: has_developmental_potential_involving ! has developmental potential involving
-
-[Typedef]
-id: has_potential_to_directly_develop_into
-name: has potential to directly develop into
-def: "x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y" []
-xref: RO:0002388
-is_a: has_potential_to_develop_into ! has potential to develop into
-
-[Typedef]
-id: has_primary_input
-name: has primary input
-def: "p has primary input c if (a) p has input c and (b) the goal of process is to modify, consume, or transform c." []
-xref: RO:0004009
-is_a: has_input ! has input
-is_a: has_primary_input_or_output ! has primary input or output
-
-[Typedef]
-id: has_primary_input_or_output
-name: has primary input or output
-def: "p 'has primary input ot output' c iff either (a) p 'has primary input' c or (b) p 'has primary output' c." []
-xref: RO:0004007
-is_a: has_participant ! has participant
-
-[Typedef]
-id: has_primary_output
-name: has primary output
-def: "p has primary output c if (a) p has output c and (b) the goal of process is to modify, produce, or transform c." []
-xref: RO:0004008
-is_a: has_output ! has output
-is_a: has_primary_input_or_output ! has primary input or output
-
-[Typedef]
-id: has_quality
-name: has quality
-def: "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence" []
-xref: RO:0000086
-range: BFO:0000019 ! quality
-is_a: has_characteristic ! has characteristic
-
-[Typedef]
-id: has_regulatory_component_activity
-name: has regulatory component activity
-def: "A 'has regulatory component activity' B if A and B are GO molecular functions (GO_0003674), A has_component B and A is regulated by B." []
-xref: RO:0002013
-is_a: has_component_activity ! has component activity
-is_a: regulated_by ! regulated by
-
-[Typedef]
-id: has_role
-name: has role
-def: "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence" []
-xref: RO:0000087
-domain: BFO:0000004 ! independent continuant
-range: BFO:0000023 ! role
-is_a: has_characteristic ! has characteristic
-
-[Typedef]
-id: has_small_molecule_activator
-name: has small molecule activator
-def: "a relation between a process and a continuant, in which the process is activated by the small molecule continuant" []
-xref: RO:0012001
-is_a: has_small_molecule_regulator ! has small molecule regulator
-inverse_of: is_small_molecule_activator_of ! is small molecule activator of
-
-[Typedef]
-id: has_small_molecule_regulator
-name: has small molecule regulator
-def: "a relation between a process and a continuant, in which the process is regulated by the small molecule continuant" []
-xref: RO:0012000
-is_a: has_participant ! has participant
-inverse_of: is_small_molecule_regulator_of ! is small molecule regulator of
-
-[Typedef]
-id: has_start_location
-name: has start location
-def: "x 'has starts location' y if and only if there exists some process z such that x 'starts with' z and z 'occurs in' y" []
-xref: RO:0002231
-domain: BFO:0000015 ! process
-range: BFO:0000004 ! independent continuant
-holds_over_chain: starts_with occurs_in
-is_a: has_part_that_occurs_in ! has part that occurs in
-
-[Typedef]
-id: has_target_end_location
-name: has target end location
-def: "This relationship holds between p and l when p is a transport or localization process in which the outcome is to move some cargo c from a an initial location to some destination l." []
-xref: RO:0002339
-is_a: results_in_transport_to_from_or_in ! results in transport to from or in
-transitive_over: part_of ! part of
-
-[Typedef]
-id: has_target_start_location
-name: has target start location
-def: "This relationship holds between p and l when p is a transport or localization process in which the outcome is to move some cargo c from some initial location l to some destination." []
-xref: RO:0002338
-is_a: results_in_transport_to_from_or_in ! results in transport to from or in
-transitive_over: part_of ! part of
-
-[Typedef]
-id: immediately_causally_downstream_of
-name: immediately causally downstream of
-xref: RO:0002405
-is_a: causally_downstream_of ! causally downstream of
-is_a: immediately_preceded_by ! immediately preceded by
-inverse_of: immediately_causally_upstream_of ! immediately causally upstream of
-
-[Typedef]
-id: immediately_causally_upstream_of
-name: immediately causally upstream of
-def: "p is immediately causally upstream of q iff p is causally upstream of q, and the end of p is coincident with the beginning of q." []
-xref: RO:0002412
-is_a: causally_upstream_of ! causally upstream of
-is_a: immediately_precedes ! immediately precedes
-
-[Typedef]
-id: immediately_preceded_by
-name: immediately preceded by
-xref: RO:0002087
-holds_over_chain: starts_with ends_with
-is_a: preceded_by ! preceded by
-inverse_of: immediately_precedes ! immediately precedes
-
-[Typedef]
-id: immediately_precedes
-name: immediately precedes
-xref: RO:0002090
-holds_over_chain: ends_with starts_with
-is_a: precedes ! precedes
-
-[Typedef]
-id: in_taxon
-name: in taxon
-def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
-xref: RO:0002162
-range: OBI:0100026
-holds_over_chain: capable_of in_taxon
-holds_over_chain: develops_from in_taxon
-holds_over_chain: has_developmental_contribution_from in_taxon
-holds_over_chain: has_part in_taxon
-holds_over_chain: part_of in_taxon
-holds_over_chain: results_in_developmental_progression_of in_taxon
-is_a: evolutionarily_related_to ! evolutionarily related to
-
-[Typedef]
-id: indirectly_causally_upstream_of
-name: indirectly causally upstream of
-def: "p is indirectly causally upstream of q iff p is causally upstream of q and there exists some process r such that p is causally upstream of r and r is causally upstream of q." []
-xref: RO:0012011
-is_a: causally_upstream_of ! causally upstream of
-
-[Typedef]
-id: indirectly_negatively_regulates
-name: indirectly negatively regulates
-def: "p indirectly negatively regulates q iff p is indirectly causally upstream of q and p negatively regulates q." []
-xref: RO:0002409
-holds_over_chain: directly_negatively_regulates directly_negatively_regulates
-holds_over_chain: directly_negatively_regulates indirectly_negatively_regulates
-is_transitive: true
-is_a: indirectly_regulates ! indirectly regulates
-is_a: negatively_regulates ! negatively regulates
-transitive_over: directly_negatively_regulates ! directly negatively regulates
-
-[Typedef]
-id: indirectly_positively_regulates
-name: indirectly positively regulates
-def: "p indirectly positively regulates q iff p is indirectly causally upstream of q and p positively regulates q." []
-xref: RO:0002407
-holds_over_chain: directly_positively_regulates directly_positively_regulates
-holds_over_chain: directly_positively_regulates indirectly_positively_regulates
-holds_over_chain: indirectly_negatively_regulates indirectly_negatively_regulates
-is_transitive: true
-is_a: indirectly_regulates ! indirectly regulates
-is_a: positively_regulates ! positively regulates
-transitive_over: directly_positively_regulates ! directly positively regulates
-
-[Typedef]
-id: indirectly_regulates
-name: indirectly regulates
-def: "p indirectly regulates q iff p is indirectly causally upstream of q and p regulates q." []
-xref: RO:0012012
-is_a: indirectly_causally_upstream_of ! indirectly causally upstream of
-is_a: regulates ! regulates
-
-[Typedef]
-id: input_of
-name: input of
-def: "inverse of has input" []
-xref: RO:0002352
-is_a: functionally_related_to ! functionally related to
-is_a: participates_in ! participates in
-
-[Typedef]
-id: interacts_with
-name: interacts with
-def: "A relationship that holds between two entities in which the processes executed by the two entities are causally connected." []
-synonym: "in pairwise interaction with" EXACT []
-xref: RO:0002434
-domain: BFO:0000040 ! material entity
-range: BFO:0000040 ! material entity
-is_symmetric: true
-
-[Typedef]
-id: involved_in
-name: involved in
-def: "c involved_in p if and only if c enables some process p', and p' is part of p" []
-xref: RO:0002331
-holds_over_chain: enables part_of
-is_a: involved_in_or_involved_in_regulation_of ! involved in or involved in regulation of
-is_a: participates_in ! participates in
-transitive_over: part_of ! part of
-
-[Typedef]
-id: involved_in_negative_regulation_of
-name: involved in negative regulation of
-def: "c involved in regulation of p if c is involved in some p' and p' negatively regulates some p" []
-xref: RO:0002430
-holds_over_chain: enables negatively_regulates
-holds_over_chain: involved_in negatively_regulates
-is_a: involved_in_regulation_of ! involved in regulation of
-
-[Typedef]
-id: involved_in_or_involved_in_regulation_of
-name: involved in or involved in regulation of
-def: "c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p" []
-xref: RO:0002431
-is_a: acts_upstream_of_or_within ! acts upstream of or within
-is_a: causal_agent_in_process ! causal agent in process
-is_a: functionally_related_to ! functionally related to
-
-[Typedef]
-id: involved_in_positive_regulation_of
-name: involved in positive regulation of
-def: "c involved in regulation of p if c is involved in some p' and p' positively regulates some p" []
-xref: RO:0002429
-holds_over_chain: enables positively_regulates
-holds_over_chain: involved_in positively_regulates
-is_a: involved_in_regulation_of ! involved in regulation of
-
-[Typedef]
-id: involved_in_regulation_of
-name: involved in regulation of
-def: "c involved in regulation of p if c is involved in some p' and p' regulates some p" []
-xref: RO:0002428
-holds_over_chain: enables regulates
-holds_over_chain: involved_in regulates
-is_a: acts_upstream_of ! acts upstream of
-is_a: involved_in_or_involved_in_regulation_of ! involved in or involved in regulation of
-
-[Typedef]
-id: is_active_in
-name: is active in
-def: "c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure." []
-synonym: "enables activity in" EXACT []
-xref: RO:0002432
-holds_over_chain: enables occurs_in
-is_a: functionally_related_to ! functionally related to
-is_a: overlaps ! overlaps
-
-[Typedef]
-id: is_small_molecule_activator_of
-name: is small molecule activator of
-def: "a relation between a continuant and a process, in which the continuant is a small molecule that activates the process" []
-xref: RO:0012005
-is_a: capable_of_positively_regulating ! capable of positively regulating
-is_a: is_small_molecule_regulator_of ! is small molecule regulator of
-
-[Typedef]
-id: is_small_molecule_regulator_of
-name: is small molecule regulator of
-def: "a relation between a continuant and a process, in which the continuant is a small molecule that regulates the process" []
-xref: RO:0012004
-is_a: capable_of_regulating ! capable of regulating
-
-[Typedef]
-id: mereotopologically_related_to
-name: mereotopologically related to
-def: "A mereological relationship or a topological relationship" []
-xref: RO:0002323
-
-[Typedef]
-id: molecularly_interacts_with
-name: molecularly interacts with
-def: "An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other." []
-xref: RO:0002436
-is_symmetric: true
-is_a: interacts_with ! interacts with
-
-[Typedef]
-id: negatively_regulated_by
-name: negatively regulated by
-def: "inverse of negatively regulates" []
-xref: RO:0002335
-is_a: regulated_by ! regulated by
-
-[Typedef]
-id: negatively_regulates
-name: negatively regulates
-def: "p negatively regulates q iff p regulates q, and p decreases the rate or magnitude of execution of q." []
-xref: RO:0002212
-holds_over_chain: ends_with negatively_regulates
-is_a: causally_upstream_of,_negative_effect ! causally upstream of, negative effect
-is_a: regulates ! regulates
-inverse_of: negatively_regulated_by ! negatively regulated by
-
-[Typedef]
-id: negatively_regulates_characteristic
-name: negatively regulates characteristic
-def: "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C." []
-xref: RO:0019002
-holds_over_chain: negatively_regulates positively_regulates_characteristic
-holds_over_chain: positively_regulates negatively_regulates_characteristic
-is_a: regulates_characteristic ! regulates characteristic
-
-[Typedef]
-id: occurs_across
-name: occurs across
-def: "A relationship between a process and a barrier, where the process occurs in a region spanning the barrier. For cellular processes the barrier is typically a membrane. Examples include transport across a membrane and membrane depolarization." []
-xref: RO:0002021
-is_a: has_part_that_occurs_in ! has part that occurs in
-
-[Typedef]
-id: occurs_in
-name: occurs in
-def: "b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t" []
-xref: BFO:0000066
-domain: BFO:0000003 ! occurrent
-range: BFO:0000004 ! independent continuant
-holds_over_chain: part_of occurs_in
-inverse_of: contains_process ! contains process
-transitive_over: part_of ! part of
-
-[Typedef]
-id: only_in_taxon
-name: only in taxon
-def: "x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z." []
-xref: RO:0002160
-is_a: in_taxon ! in taxon
-
-[Typedef]
-id: output_of
-name: output of
-def: "inverse of has output" []
-xref: RO:0002353
-is_a: functionally_related_to ! functionally related to
-is_a: participates_in ! participates in
-
-[Typedef]
-id: overlaps
-name: overlaps
-def: "x overlaps y if and only if there exists some z such that x has part z and z part of y" []
-xref: RO:0002131
-holds_over_chain: has_part overlaps
-holds_over_chain: has_part part_of
-holds_over_chain: part_of part_of
-is_symmetric: true
-is_a: mereotopologically_related_to ! mereotopologically related to
-transitive_over: part_of ! part of
-
-[Typedef]
-id: part_of
-name: part of
-def: "a core relation that holds between a part and its whole" []
-xref: BFO:0000050
-is_transitive: true
-is_a: overlaps ! overlaps
-inverse_of: has_part ! has part
-
-[Typedef]
-id: part_of_structure_that_is_capable_of
-name: part of structure that is capable of
-def: "this relation holds between c and p when c is part of some c', and c' is capable of p." []
-xref: RO:0002329
-holds_over_chain: part_of capable_of
-is_a: functionally_related_to ! functionally related to
-
-[Typedef]
-id: participates_in
+id: RO:0000056
 name: participates in
 def: "a relation between a continuant and a process, in which the continuant is somehow involved in the process" []
-xref: RO:0000056
+property_value: IAO:0000111 "participates in" xsd:string
+property_value: IAO:0000112 "this blood clot participates in this blood coagulation" xsd:string
+property_value: IAO:0000112 "this input material (or this output material) participates in this process" xsd:string
+property_value: IAO:0000112 "this investigator participates in this investigation" xsd:string
+property_value: IAO:0000118 "participates_in" xsd:string
 domain: BFO:0000002 ! continuant
 range: BFO:0000003 ! occurrent
-inverse_of: has_participant ! has participant
+inverse_of: RO:0000057 ! has participant
 
 [Typedef]
-id: phosphorylates
-name: phosphorylates
-xref: RO:0002447
-is_a: molecularly_interacts_with ! molecularly interacts with
-
-[Typedef]
-id: positively_regulated_by
-name: positively regulated by
-def: "inverse of positively regulates" []
-xref: RO:0002336
-is_a: regulated_by ! regulated by
-
-[Typedef]
-id: positively_regulates
-name: positively regulates
-def: "p positively regulates q iff p regulates q, and p increases the rate or magnitude of execution of q." []
-xref: RO:0002213
-holds_over_chain: ends_with positively_regulates
-holds_over_chain: negatively_regulates negatively_regulates
-is_transitive: true
-is_a: causally_upstream_of,_positive_effect ! causally upstream of, positive effect
-is_a: regulates ! regulates
-inverse_of: positively_regulated_by ! positively regulated by
-
-[Typedef]
-id: positively_regulates_characteristic
-name: positively regulates characteristic
-def: "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C." []
-xref: RO:0019001
-holds_over_chain: positively_regulates positively_regulates_characteristic
-is_a: regulates_characteristic ! regulates characteristic
-
-[Typedef]
-id: preceded_by
-name: preceded by
-def: "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
-xref: BFO:0000062
+id: RO:0000057
+name: has participant
+def: "a relation between a process and a continuant, in which the continuant is somehow involved in the process" []
+property_value: IAO:0000111 "has participant" xsd:string
+property_value: IAO:0000112 "this blood coagulation has participant this blood clot" xsd:string
+property_value: IAO:0000112 "this investigation has participant this investigator" xsd:string
+property_value: IAO:0000112 "this process has participant this input material (or this output material)" xsd:string
+property_value: IAO:0000116 "Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time." xsd:string
+property_value: IAO:0000118 "has_participant" xsd:string
+property_value: terms:source "http://www.obofoundry.org/ro/#OBO_REL:has_participant" xsd:string
 domain: BFO:0000003 ! occurrent
-range: BFO:0000003 ! occurrent
-holds_over_chain: happens_during preceded_by
-holds_over_chain: part_of preceded_by
-holds_over_chain: starts_during preceded_by
-is_transitive: true
-is_a: ends_after ! ends after
-inverse_of: precedes ! precedes
+range: BFO:0000002 ! continuant
+holds_over_chain: BFO:0000051 RO:0000057
 
 [Typedef]
-id: precedes
-name: precedes
-def: "x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
-xref: BFO:0000063
-domain: BFO:0000003 ! occurrent
-range: BFO:0000003 ! occurrent
-holds_over_chain: happens_during precedes
-holds_over_chain: part_of precedes
-is_transitive: true
-is_a: temporally_related_to ! temporally related to
+id: RO:0000079
+name: function of
+def: "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence" []
+comment: This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.
+property_value: IAO:0000112 "this catalysis function is a function of this enzyme" xsd:string
+property_value: IAO:0000116 "A function inheres in its bearer at all times for which the function exists, however the function need not be realized at all the times that the function exists." xsd:string
+property_value: IAO:0000118 "function_of" xsd:string
+property_value: IAO:0000118 "is function of" xsd:string
+domain: BFO:0000034 ! function
+is_a: RO:0000052 ! characteristic of
+inverse_of: RO:0000085 ! has function
 
 [Typedef]
-id: process_has_causal_agent
-name: process has causal agent
-def: "Inverse of 'causal agent in process'" []
-xref: RO:0002608
-is_a: causally_related_to ! causally related to
-
-[Typedef]
-id: produced_by
-name: produced by
-def: "a produced_by b iff some process that occurs_in b has_output a." []
-xref: RO:0003001
-domain: BFO:0000040 ! material entity
-range: BFO:0000040 ! material entity
-
-[Typedef]
-id: produces
-name: produces
-def: "a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix." []
-xref: RO:0003000
-domain: BFO:0000040 ! material entity
-range: BFO:0000040 ! material entity
-inverse_of: produced_by ! produced by
-
-[Typedef]
-id: quality_of
+id: RO:0000080
 name: quality of
 def: "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence" []
-xref: RO:0000080
-is_a: characteristic_of ! characteristic of
-inverse_of: has_quality ! has quality
+comment: This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.
+property_value: IAO:0000112 "this red color is a quality of this apple" xsd:string
+property_value: IAO:0000116 "A quality inheres in its bearer at all times for which the quality exists." xsd:string
+property_value: IAO:0000118 "is quality of" xsd:string
+property_value: IAO:0000118 "quality_of" xsd:string
+is_a: RO:0000052 ! characteristic of
+inverse_of: RO:0000086 ! has quality
 
 [Typedef]
-id: regulated_by
-name: regulated by
-def: "inverse of regulates" []
-xref: RO:0002334
+id: RO:0000081
+name: role of
+def: "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence" []
+comment: This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.
+property_value: IAO:0000112 "this investigator role is a role of this person" xsd:string
+property_value: IAO:0000116 "A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists." xsd:string
+property_value: IAO:0000118 "is role of" xsd:string
+property_value: IAO:0000118 "role_of" xsd:string
+is_a: RO:0000052 ! characteristic of
+inverse_of: RO:0000087 ! has role
+
+[Typedef]
+id: RO:0000085
+name: has function
+def: "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence" []
+property_value: IAO:0000112 "this enzyme has function this catalysis function (more colloquially: this enzyme has this catalysis function)" xsd:string
+property_value: IAO:0000116 "A bearer can have many functions, and its functions can exist for different periods of time, but none of its functions can exist when the bearer does not exist. A function need not be realized at all the times that the function exists." xsd:string
+property_value: IAO:0000118 "has_function" xsd:string
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000034 ! function
+is_a: RO:0000053 ! has characteristic
+
+[Typedef]
+id: RO:0000086
+name: has quality
+def: "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence" []
+property_value: IAO:0000112 "this apple has quality this red color" xsd:string
+property_value: IAO:0000116 "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist." xsd:string
+property_value: IAO:0000118 "has_quality" xsd:string
+range: BFO:0000019 ! quality
+is_a: RO:0000053 ! has characteristic
+
+[Typedef]
+id: RO:0000087
+name: has role
+def: "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence" []
+property_value: IAO:0000112 "this person has role this investigator role (more colloquially: this person has this role of investigator)" xsd:string
+property_value: IAO:0000116 "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists." xsd:string
+property_value: IAO:0000118 "has_role" xsd:string
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000023 ! role
+is_a: RO:0000053 ! has characteristic
+
+[Typedef]
+id: RO:0000091
+name: has disposition
+def: "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence" []
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000016 ! disposition
+is_a: RO:0000053 ! has characteristic
+inverse_of: RO:0000092 ! disposition of
+
+[Typedef]
+id: RO:0000092
+name: disposition of
+def: "inverse of has disposition" []
+comment: This relation is modeled after the BFO relation of the same name which was in BFO2, but is used in a more restricted sense - specifically, we model this relation as functional (inherited from characteristic-of). Note that this relation is now removed from BFO2020.
+subset: RO:0002259
+is_a: RO:0000052 ! characteristic of
+
+[Typedef]
+id: RO:0002007
+name: bounding layer of
+def: "X outer_layer_of Y iff:\n. X :continuant that bearer_of some PATO:laminar\n. X part_of Y\n. exists Z :surface\n. X has_boundary Z\n. Z boundary_of Y\n\nhas_boundary: http://purl.obolibrary.org/obo/RO_0002002\nboundary_of: http://purl.obolibrary.org/obo/RO_0002000" []
+comment: A relationship that applies between a continuant and its outer, bounding layer.  Examples include the relationship between a multicellular organism and its integument, between an animal cell and its plasma membrane, and between a membrane bound organelle and its outer/bounding membrane.
+subset: ro-eco
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
+range: BFO:0000040 ! material entity
+is_a: BFO:0000050 ! part of
+
+[Typedef]
+id: RO:0002008
+name: coincident with
+def: "A relation that holds between two linear structures that are approximately parallel to each other for their entire length and where either the two structures are adjacent to each other or one is part of the other." []
+comment: Example: if we define region of chromosome as any subdivision of a chromosome along its long axis, then we can define a region of chromosome that contains only gene x as 'chromosome region' that coincident_with some 'gene x', where the term gene X corresponds to a genomic sequence.
+subset: ro-eco
+property_value: IAO:0000116 "Note from NCEAS meeting: consider changing primary label" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
+is_a: RO:0002323 ! mereotopologically related to
+
+[Typedef]
+id: RO:0002010
+name: regulates in another organism
+def: "x 'regulates in other organism' y if and only if: (x is the realization of a function to exert an effect on the frequency, rate or extent of y) AND (the agents of x are produced by organism o1 and the agents of y are produced by organism o2)." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+synonym: "regulates in other organism" EXACT []
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 domain: BFO:0000015 ! process
 range: BFO:0000015 ! process
-is_transitive: true
-is_a: causally_downstream_of_or_within ! causally downstream of or within
+is_a: RO:0002418 ! causally upstream of or within
 
 [Typedef]
-id: regulates
+id: RO:0002013
+name: has regulatory component activity
+def: "A 'has regulatory component activity' B if A and B are GO molecular functions (GO_0003674), A has_component B and A is regulated by B." []
+is_a: RO:0002017 ! has component activity
+is_a: RO:0002334 ! regulated by
+created_by: https://orcid.org/0000-0002-7073-9172
+creation_date: 2017-05-24T09:30:46Z
+
+[Typedef]
+id: RO:0002014
+name: has negative regulatory component activity
+def: "A relationship that holds between a GO molecular function and a component of that molecular function that negatively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is negatively regulated by B." []
+comment: By convention GO molecular functions are classified by their effector function.  Internal regulatory functions are treated as components.  For example, NMDA glutmate receptor activity is a cation channel activity with positive regulatory component 'glutamate binding' and negative regulatory components including 'zinc binding' and 'magnesium binding'.
+is_a: RO:0002013 ! has regulatory component activity
+is_a: RO:0002335 ! negatively regulated by
+created_by: https://orcid.org/0000-0002-7073-9172
+creation_date: 2017-05-24T09:31:01Z
+
+[Typedef]
+id: RO:0002015
+name: has positive regulatory component activity
+def: "A relationship that holds between a GO molecular function and a component of that molecular function that positively regulates the activity of the whole.  More formally, A 'has regulatory component activity' B iff :A and B are GO molecular functions (GO_0003674), A has_component B and A is positively regulated by B." []
+comment: By convention GO molecular functions are classified by their effector function and internal regulatory functions are treated as components.  So, for example calmodulin has a protein binding activity that has positive regulatory component activity calcium binding activity. Receptor tyrosine kinase activity is a tyrosine kinase activity that has positive regulatory component 'ligand binding'.
+is_a: RO:0002013 ! has regulatory component activity
+is_a: RO:0002336 ! positively regulated by
+created_by: https://orcid.org/0000-0002-7073-9172
+creation_date: 2017-05-24T09:31:17Z
+
+[Typedef]
+id: RO:0002016
+name: has necessary component activity
+comment: A has necessary component activity B if A and B are GO molecular functions  (GO_0003674), A has_component B and B is necessary for A.  For example,  ATPase coupled transporter activity has necessary component ATPase activity; transcript factor activity has necessary component DNA binding activity.
+is_a: RO:0002017 ! has component activity
+is_a: RO:0002336 ! positively regulated by
+created_by: https://orcid.org/0000-0002-7073-9172
+creation_date: 2017-05-24T09:36:08Z
+
+[Typedef]
+id: RO:0002017
+name: has component activity
+comment: A 'has component activity' B if A is A and B are molecular functions (GO_0003674) and A has_component B.
+is_a: RO:0002018 ! has component process
+created_by: https://orcid.org/0000-0002-7073-9172
+creation_date: 2017-05-24T09:44:33Z
+
+[Typedef]
+id: RO:0002018
+name: has component process
+def: "w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+is_a: RO:0002180 ! has component
+created_by: https://orcid.org/0000-0002-7073-9172
+creation_date: 2017-05-24T09:49:21Z
+
+[Typedef]
+id: RO:0002019
+name: has ligand
+def: "A relationship that holds between between a receptor and an chemical entity, typically a small molecule or peptide, that carries information between cells or compartments of a cell and which binds the receptor and regulates its effector function." []
+is_a: RO:0002233 ! has input
+created_by: https://orcid.org/0000-0002-7073-9172
+creation_date: 2017-07-19T17:30:36Z
+
+[Typedef]
+id: RO:0002021
+name: occurs across
+def: "A relationship between a process and a barrier, where the process occurs in a region spanning the barrier. For cellular processes the barrier is typically a membrane. Examples include transport across a membrane and membrane depolarization." []
+is_a: RO:0002479 ! has part that occurs in
+created_by: https://orcid.org/0000-0002-7073-9172
+creation_date: 2017-07-20T17:19:37Z
+
+[Typedef]
+id: RO:0002022
+name: directly regulated by
+comment: Process(P2) is directly regulated by process(P1) iff: P1 regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  regulates the kinase activity (P2) of protein B then P1 directly regulates P2. {xref="https://orcid.org/0000-0002-7073-9172"}
+is_a: RO:0002334 ! regulated by
+inverse_of: RO:0002578 ! directly regulates
+created_by: https://orcid.org/0000-0002-7073-9172
+creation_date: 2017-09-17T13:52:24Z
+
+[Typedef]
+id: RO:0002023
+name: directly negatively regulated by
+def: "Process(P2) is directly negatively regulated by process(P1) iff: P1 negatively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding  negatively regulates the kinase activity (P2) of protein B then P2 directly negatively regulated by P1." [https://orcid.org/0000-0002-7073-9172]
+is_a: RO:0002022 ! directly regulated by
+inverse_of: RO:0002630 ! directly negatively regulates
+created_by: https://orcid.org/0000-0002-7073-9172
+creation_date: 2017-09-17T13:52:38Z
+
+[Typedef]
+id: RO:0002024
+name: directly positively regulated by
+def: "Process(P2) is directly postively regulated by process(P1) iff: P1 positively regulates P2 via direct physical interaction between an agent executing P1 (or some part of P1) and an agent executing P2 (or some part of P2).  For example, if protein A has protein binding activity(P1) that targets protein B and this binding positively regulates the kinase activity (P2) of protein B then P2 is directly postively regulated by P1." [https://orcid.org/0000-0002-7073-9172]
+is_a: RO:0002022 ! directly regulated by
+inverse_of: RO:0002629 ! directly positively regulates
+created_by: https://orcid.org/0000-0002-7073-9172
+creation_date: 2017-09-17T13:52:47Z
+
+[Typedef]
+id: RO:0002025
+name: has effector activity
+def: "A 'has effector activity' B if A and B are GO molecular functions (GO_0003674),  A 'has component activity' B and B is the effector (output function) of B.  Each compound function has only one effector activity." [https://orcid.org/0000-0002-7073-9172]
+comment: This relation is designed for constructing compound molecular functions, typically in combination with one or more regulatory component activity relations.
+is_functional: true
+is_a: RO:0002017 ! has component activity
+created_by: https://orcid.org/0000-0002-7073-9172
+creation_date: 2017-09-22T14:14:36Z
+
+[Typedef]
+id: RO:0002084
+name: during which ends
+comment: Previously had ID  http://purl.obolibrary.org/obo/RO_0002122 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+is_a: RO:0002222 ! temporally related to
+inverse_of: RO:0002093 ! ends during
+
+[Typedef]
+id: RO:0002085
+name: encompasses
+comment: Previously had ID  http://purl.obolibrary.org/obo/RO_0002124 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
+property_value: IAO:0000118 "di" xsd:string
+is_transitive: true
+is_a: RO:0002088 ! during which starts
+inverse_of: RO:0002092 ! happens during
+
+[Typedef]
+id: RO:0002086
+name: ends after
+comment: X ends_after Y iff: end(Y) before_or_simultaneous_with end(X)
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+holds_over_chain: RO:0002093 BFO:0000062
+is_transitive: true
+is_a: RO:0002222 ! temporally related to
+
+[Typedef]
+id: RO:0002087
+name: immediately preceded by
+comment: X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000118 "starts_at_end_of" xsd:string
+holds_over_chain: RO:0002224 RO:0002230
+is_a: BFO:0000062 ! preceded by
+inverse_of: RO:0002090 ! immediately precedes
+
+[Typedef]
+id: RO:0002088
+name: during which starts
+comment: Previously had ID  http://purl.obolibrary.org/obo/RO_0002123 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+is_a: RO:0002222 ! temporally related to
+inverse_of: RO:0002091 ! starts during
+
+[Typedef]
+id: RO:0002090
+name: immediately precedes
+comment: X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
+property_value: IAO:0000118 "ends_at_start_of" xsd:string
+property_value: IAO:0000118 "meets" xsd:string
+property_value: RO:0002575 BFO:0000063
+holds_over_chain: RO:0002230 RO:0002224
+is_a: BFO:0000063 ! precedes
+
+[Typedef]
+id: RO:0002091
+name: starts during
+comment: X starts_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (start(X) before_or_simultaneous_with end(Y))
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000118 "io" xsd:string
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+is_a: RO:0002222 ! temporally related to
+
+[Typedef]
+id: RO:0002092
+name: happens during
+comment: X happens_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (end(X) before_or_simultaneous_with end(Y))
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000118 "d" xsd:string
+property_value: IAO:0000118 "during" xsd:string
+property_value: seeAlso "https://wiki.geneontology.org/Happens_during" xsd:anyURI
+is_transitive: true
+is_a: RO:0002091 ! starts during
+is_a: RO:0002093 ! ends during
+
+[Typedef]
+id: RO:0002093
+name: ends during
+comment: X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y). 
+subset: ro-eco
+property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000118 "o" xsd:string
+property_value: IAO:0000118 "overlaps" xsd:string
+is_a: RO:0002222 ! temporally related to
+
+[Typedef]
+id: RO:0002100
+name: has soma location
+def: "Relation between a neuron and a material anatomical entity that its soma is part of." []
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
+property_value: RO:0001900 RO:0001901
+domain: CL:0000540 ! neuron
+range: UBERON:0000465 ! material anatomical entity
+is_a: RO:0002131 ! overlaps
+transitive_over: BFO:0000050 ! part of
+expand_expression_to: "BFO_0000051 some (\n   GO_0043025 and   BFO_0000050 some ?Y)" []
+
+[Typedef]
+id: RO:0002131
+name: overlaps
+def: "x overlaps y if and only if there exists some z such that x has part z and z part of y" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: RO:0001900 RO:0001901
+holds_over_chain: BFO:0000050 BFO:0000050
+holds_over_chain: BFO:0000051 BFO:0000050 {RO:0002582="true"}
+holds_over_chain: BFO:0000051 RO:0002131
+is_symmetric: true
+is_a: RO:0002323 ! mereotopologically related to
+transitive_over: BFO:0000050 ! part of
+expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.obolibrary.org/obo/BFO_0000050 some ?Y)" []
+
+[Typedef]
+id: RO:0002160
+name: only in taxon
+def: "x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z." []
+property_value: IAO:0000112 "lactation SubClassOf 'only in taxon' some 'Mammalia'" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000116 "The original intent was to treat this as a macro that expands to 'in taxon' only ?Y - however, this is not necessary if we instead have supplemental axioms that state that each pair of sibling tax have a disjointness axiom using the 'in taxon' property - e.g.\n\n 'in taxon' some Eukaryota DisjointWith 'in taxon' some Eubacteria" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/17921072
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20973947
+property_value: seeAlso https://github.com/obophenotype/uberon/wiki/Taxon-constraints
+is_a: RO:0002162 ! in taxon
+
+[Typedef]
+id: RO:0002162
+name: in taxon
+def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
+comment: Connects a biological entity to its taxon of origin.
+subset: ro-eco
+synonym: "life cycle stage of" NARROW []
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0001-9227-417X
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/17921072
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20973947
+property_value: seeAlso https://github.com/obophenotype/uberon/wiki/Taxon-constraints
+range: OBI:0100026 ! organism
+holds_over_chain: BFO:0000050 RO:0002162
+holds_over_chain: BFO:0000051 RO:0002162
+holds_over_chain: RO:0002211 RO:0002162
+holds_over_chain: RO:0002215 RO:0002162
+holds_over_chain: RO:0002254 RO:0002162
+holds_over_chain: RO:0002295 RO:0002162
+holds_over_chain: RO:0002387 RO:0002162
+is_a: RO:0002320 ! evolutionarily related to
+
+[Typedef]
+id: RO:0002163
+name: spatially disjoint from
+def: "A is spatially_disjoint_from B if and only if they have no parts in common" []
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000116 "There are two ways to encode this as a shortcut relation. The other possibility to use an annotation assertion between two classes, and expand this to a disjointness axiom. " xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/22293552
+property_value: IAO:0000232 "Note that it would be possible to use the relation to label the relationship between a near infinite number of structures - between the rings of saturn and my left earlobe. The intent is that this is used for parsiomoniously for disambiguation purposes - for example, between siblings in a jointly exhaustive pairwise disjointness hierarchy" xsd:string
+property_value: RO:0001900 RO:0001901
+property_value: seeAlso "https://github.com/obophenotype/uberon/wiki/Part-disjointness-Design-Pattern" xsd:anyURI
+is_a: RO:0002323 ! mereotopologically related to
+expand_expression_to: "BFO_0000051 exactly 0 (BFO_0000050 some ?Y)" []
+
+[Typedef]
+id: RO:0002180
+name: has component
+def: "w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type." []
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000116 "The definition of 'has component' is still under discussion. The challenge is in providing a definition that does not imply transitivity." xsd:string
+property_value: IAO:0000232 "For use in recording has_part with a cardinality constraint, because OWL does not permit cardinality constraints to be used in combination with transitive object properties. In situations where you would want to say something like 'has part exactly 5 digit, you would instead use has_component exactly 5 digit." xsd:string
+property_value: RO:0001900 RO:0001901
+property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:Componency
+is_a: BFO:0000051 ! has part
+
+[Typedef]
+id: RO:0002202
+name: develops from
+def: "x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y" []
+comment: This is the transitive form of the develops from relation
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0001-9114-8737
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
+property_value: IAO:0000117 https://orcid.org/0000-0003-1980-3228
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000004 ! independent continuant
+is_transitive: true
+is_a: RO:0002254 ! has developmental contribution from
+is_a: RO:0002258 ! developmentally preceded by
+inverse_of: RO:0002203 ! develops into
+
+[Typedef]
+id: RO:0002203
+name: develops into
+def: "inverse of develops from" []
+subset: RO:0002259
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
+property_value: IAO:0000117 https://orcid.org/0000-0003-1980-3228
+is_transitive: true
+is_a: RO:0002286 ! developmentally succeeded by
+is_a: RO:0002387 ! has potential to develop into
+is_a: RO:0002388 ! has potential to directly develop into
+
+[Typedef]
+id: RO:0002211
 name: regulates
 def: "p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q." []
-xref: RO:0002211
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 https://orcid.org/0000-0001-7476-6306
+property_value: IAO:0000117 https://orcid.org/0000-0002-3837-8864
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 "GO" xsd:string
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000232 "Regulation precludes parthood; the regulatory process may not be within the regulated process." xsd:string
+property_value: IAO:0000589 "regulates (processual)" xsd:string
+property_value: IAO:0000600 "false" xsd:boolean
 domain: BFO:0000015 ! process
 range: BFO:0000015 ! process
-holds_over_chain: directly_regulates directly_regulates
-holds_over_chain: ends_with regulates
+holds_over_chain: RO:0002230 RO:0002211
+holds_over_chain: RO:0002578 RO:0002578
 is_transitive: true
-is_a: causally_upstream_of ! causally upstream of
-inverse_of: regulated_by ! regulated by
-transitive_over: has_effector_activity ! has effector activity
+is_a: RO:0002411 ! causally upstream of
+inverse_of: RO:0002334 ! regulated by
+transitive_over: RO:0002025 ! has effector activity
 
 [Typedef]
-id: regulates_activity_of
-name: regulates activity of
-def: "The entity A has an activity that regulates an activity of the entity B. For example, A and B are gene products where the catalytic activity of A regulates the kinase activity of B." []
-xref: RO:0011002
-domain: BFO:0000040 ! material entity
-range: BFO:0000040 ! material entity
-is_a: causally_influences ! causally influences
+id: RO:0002212
+name: negatively regulates
+def: "p negatively regulates q iff p regulates q, and p decreases the rate or magnitude of execution of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000589 "negatively regulates (process to process)" xsd:string
+property_value: RO:0004050 RO:0002211
+holds_over_chain: RO:0002230 RO:0002212
+is_a: RO:0002211 ! regulates
+is_a: RO:0002305 ! causally upstream of, negative effect
+inverse_of: RO:0002335 ! negatively regulated by
 
 [Typedef]
-id: regulates_characteristic
-name: regulates characteristic
-def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
-xref: RO:0019000
-domain: BFO:0000015 ! process
-range: PATO:0000001
-holds_over_chain: regulates regulates_characteristic
-is_a: causally_related_to ! causally related to
+id: RO:0002213
+name: positively regulates
+def: "p positively regulates q iff p regulates q, and p increases the rate or magnitude of execution of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000589 "positively regulates (process to process)" xsd:string
+property_value: RO:0004049 RO:0002211
+holds_over_chain: RO:0002212 RO:0002212
+holds_over_chain: RO:0002230 RO:0002213
+is_transitive: true
+is_a: RO:0002211 ! regulates
+is_a: RO:0002304 ! causally upstream of, positive effect
+inverse_of: RO:0002336 ! positively regulated by
 
 [Typedef]
-id: regulates_in_other_organism
-name: regulates in other organism
-def: "x 'regulates in other organism' y if and only if: (x is the realization of a function to exert an effect on the frequency, rate or extent of y) AND (the agents of x are produced by organism o1 and the agents of y are produced by organism o2)." []
-xref: RO:0002010
-domain: BFO:0000015 ! process
+id: RO:0002215
+name: capable of
+def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. " []
+subset: ro-eco
+property_value: IAO:0000112 "mechanosensory neuron capable of detection of mechanical stimulus involved in sensory perception (GO:0050974)" xsd:string
+property_value: IAO:0000112 "osteoclast SubClassOf 'capable of' some 'bone resorption'" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "has function realized in" xsd:string
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20123131
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/21208450
+property_value: IAO:0000232 "For compatibility with BFO, this relation has a shortcut definition in which the expression \"capable of some P\" expands to \"bearer_of (some realized_by only P)\"." xsd:string
+domain: BFO:0000004 ! independent continuant
 range: BFO:0000015 ! process
-is_a: causally_upstream_of_or_within ! causally upstream of or within
+is_a: RO:0002216 ! capable of part of
 
 [Typedef]
-id: regulates_levels_of
+id: RO:0002216
+name: capable of part of
+def: "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p." []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "has function in" xsd:string
+property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
+holds_over_chain: RO:0002215 BFO:0000050 {RO:0002582="true"}
+is_a: RO:0002328 ! functionally related to
+is_a: RO:0002500 ! causal agent in process
+
+[Typedef]
+id: RO:0002220
+name: adjacent to
+def: "x adjacent to y if and only if x and y share a boundary." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000112 "A caterpillar walking on the surface of a leaf is adjacent_to the leaf, if one of the caterpillar appendages is touching the leaf. In contrast, a butterfly flying close to a flower is not considered adjacent, unless there are any touching parts." xsd:string {seeAlso="issuecomment-218584934"}
+property_value: IAO:0000112 "The epidermis layer of a vertebrate is adjacent to the dermis." xsd:string
+property_value: IAO:0000112 "The plasma membrane of a cell is adjacent to the cytoplasm, and also to the cell lumen which the cytoplasm occupies." xsd:string
+property_value: IAO:0000112 "The skin of the forelimb is adjacent to the skin of the torso if these are considered anatomical subdivisions with a defined border. Otherwise a relation such as continuous_with would be used." xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000116 "This relation acts as a join point with BSPO" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: RO:0001900 RO:0001901
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000004 ! independent continuant
+is_a: RO:0002163 ! spatially disjoint from
+
+[Typedef]
+id: RO:0002222
+name: temporally related to
+comment: A relation that holds between two occurrents. This is a grouping relation that collects together all the Allen relations.
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 https://en.wikipedia.org/wiki/Allen%27s_interval_algebra
+property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for relations between occurrents involving the relative timing of their starts and ends." xsd:string
+property_value: terms:source "https://docs.google.com/document/d/1kBv1ep_9g3sTR-SD3jqzFqhuwo9TPNF-l-9fUDbO6rM/edit?pli=1" xsd:anyURI
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+
+[Typedef]
+id: RO:0002223
+name: starts
+def: "inverse of starts with" []
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 "Allen" xsd:string
+is_a: BFO:0000050 ! part of
+is_a: RO:0002222 ! temporally related to
+inverse_of: RO:0002224 ! starts with
+
+[Typedef]
+id: RO:0002224
+name: starts with
+def: "x starts with y if and only if x has part y and the time point at which x starts is equivalent to the time point at which y starts. Formally: α(y) = α(x) ∧ ω(y) < ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+subset: ro-eco
+property_value: IAO:0000112 "Every insulin receptor signaling pathway starts with the binding of a ligand to the insulin receptor" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "started by" xsd:string
+is_transitive: true
+is_a: BFO:0000051 ! has part
+is_a: RO:0002222 ! temporally related to
+
+[Typedef]
+id: RO:0002229
+name: ends
+def: "inverse of ends with" []
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: BFO:0000050 ! part of
+is_a: RO:0002222 ! temporally related to
+inverse_of: RO:0002230 ! ends with
+
+[Typedef]
+id: RO:0002230
+name: ends with
+def: "x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "finished by" xsd:string
+is_transitive: true
+is_a: BFO:0000051 ! has part
+is_a: RO:0002222 ! temporally related to
+
+[Typedef]
+id: RO:0002231
+name: has start location
+def: "x 'has starts location' y if and only if there exists some process z such that x 'starts with' z and z 'occurs in' y" []
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "starts with process that occurs in" xsd:string
+domain: BFO:0000015 ! process
+range: BFO:0000004 ! independent continuant
+holds_over_chain: RO:0002224 BFO:0000066
+is_a: RO:0002479 ! has part that occurs in
+
+[Typedef]
+id: RO:0002232
+name: has end location
+def: "x 'has end location' y if and only if there exists some process z such that x 'ends with' z and z 'occurs in' y" []
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "ends with process that occurs in" xsd:string
+domain: BFO:0000015 ! process
+range: BFO:0000004 ! independent continuant
+holds_over_chain: RO:0002230 BFO:0000066
+is_a: RO:0002479 ! has part that occurs in
+
+[Typedef]
+id: RO:0002233
+name: has input
+def: "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "consumes" xsd:string
+property_value: seeAlso "https://wiki.geneontology.org/Has_input" xsd:anyURI
+domain: BFO:0000015 ! process
+holds_over_chain: RO:0002224 RO:0002233
+is_a: RO:0000057 ! has participant
+inverse_of: RO:0002352 ! input of
+
+[Typedef]
+id: RO:0002234
+name: has output
+def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "produces" xsd:string
+property_value: seeAlso "https://wiki.geneontology.org/Has_output" xsd:anyURI
+holds_over_chain: RO:0002230 RO:0002234
+is_a: RO:0000057 ! has participant
+inverse_of: RO:0002353 ! output of
+
+[Typedef]
+id: RO:0002254
+name: has developmental contribution from
+def: "x has developmental contribution from y iff x has some part z such that z develops from y" []
+property_value: IAO:0000112 "Mammalian thymus has developmental contribution from some pharyngeal pouch 3; Mammalian thymus has developmental contribution from some pharyngeal pouch 4 [Kardong]" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+domain: UBERON:0001062 ! anatomical entity
+range: UBERON:0001062 ! anatomical entity
+holds_over_chain: BFO:0000051 RO:0002254
+is_a: RO:0002258 ! developmentally preceded by
+inverse_of: RO:0002255 ! developmentally contributes to
+
+[Typedef]
+id: RO:0002255
+name: developmentally contributes to
+def: "inverse of has developmental contribution from" []
+subset: RO:0002259
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+holds_over_chain: RO:0002203 BFO:0000050
+is_a: RO:0002286 ! developmentally succeeded by
+is_a: RO:0002385 ! has potential to developmentally contribute to
+
+[Typedef]
+id: RO:0002258
+name: developmentally preceded by
+def: "Candidate definition: x developmentally related to y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p" []
+comment: This relation groups together various other developmental relations. It is fairly generic, encompassing induction, developmental contribution and direct and transitive develops from
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000116 "false" xsd:boolean
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000232 "In general you should not use this relation to make assertions - use one of the more specific relations below this one" xsd:string
+domain: BFO:0000002 ! continuant
+range: BFO:0000002 ! continuant
+is_a: RO:0002324 ! developmentally related to
+inverse_of: RO:0002286 ! developmentally succeeded by
+
+[Typedef]
+id: RO:0002263
+name: acts upstream of
+def: "c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+property_value: IAO:0000112 "A faulty traffic light (material entity) whose malfunctioning (a process) is causally upstream of a traffic collision (a process): the traffic light acts upstream of the collision." xsd:string
+property_value: seeAlso http://wiki.geneontology.org/index.php/Acts_upstream_of
+holds_over_chain: RO:0002327 RO:0002411
+is_a: RO:0002264 ! acts upstream of or within
+
+[Typedef]
+id: RO:0002264
+name: acts upstream of or within
+def: "c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+synonym: "affects" RELATED []
+property_value: IAO:0000112 "A gene product that has some activity, where that activity may be a part of a pathway or upstream of the pathway." xsd:string
+property_value: seeAlso "https://wiki.geneontology.org/Acts_upstream_of_or_within" xsd:anyURI
+holds_over_chain: RO:0002327 RO:0002418
+is_a: RO:0002500 ! causal agent in process
+
+[Typedef]
+id: RO:0002286
+name: developmentally succeeded by
+def: "Inverse of developmentally preceded by" []
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002384 ! has developmental potential involving
+
+[Typedef]
+id: RO:0002295
+name: results in developmental progression of
+def: "p results in the developmental progression of s iff p is a developmental process and s is an anatomical entity and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss)." []
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000116 "This property and its subproperties are being used primarily for the definition of GO developmental processes. The property hierarchy mirrors the core GO hierarchy. In future we may be able to make do with a more minimal set of properties, but due to the way GO is currently structured we require highly specific relations to avoid incorrect entailments. To avoid this, the corresponding genus terms in GO should be declared mutually disjoint." xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: seeAlso Ontology:extensions
+domain: GO:0008150
+range: UBERON:0001062 ! anatomical entity
+is_a: RO:0002324 ! developmentally related to
+
+[Typedef]
+id: RO:0002296
+name: results in development of
+def: "p 'results in development of' c if and only if p is a developmental process and p results in the state of c changing from its initial state as a primordium or anlage through its mature state and to its final state." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000112 "every flower development (GO:0009908) results in development of some flower (PO:0009046)" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 "http://www.geneontology.org/GO.doc.development.shtml" xsd:anyURI
+is_a: RO:0002295 ! results in developmental progression of
+is_a: RO:0040036 ! results in changes to anatomical or cellular structure
+
+[Typedef]
+id: RO:0002297
+name: results in formation of anatomical entity
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000112 "an annotation of gene X to anatomical structure formation with results_in_formation_of UBERON:0000007 (pituitary gland) means that at the beginning of the process a pituitary gland does not exist and at the end of the process a pituitary gland exists." xsd:string
+property_value: IAO:0000112 "every \"endocardial cushion formation\" (GO:0003272) results_in_formation_of some \"endocardial cushion\" (UBERON:0002062)" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 "GOC:mtg_berkeley_2013" xsd:string
+is_a: RO:0002234 ! has output
+is_a: RO:0002295 ! results in developmental progression of
+inverse_of: RO:0002354 ! formed as result of
+
+[Typedef]
+id: RO:0002298
+name: results in morphogenesis of
+def: "The relationship that links an entity with the process that results in the formation and shaping of that entity over time from an immature to a mature state." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000112 "an annotation of gene X to cell morphogenesis with results_in_morphogenesis_of CL:0000540 (neuron) means that at the end of the process an input neuron has attained its shape." xsd:string
+property_value: IAO:0000112 "tongue morphogenesis (GO:0043587) results in morphogenesis of tongue (UBERON:0001723)" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 "GOC:mtg_berkeley_2013" xsd:string
+is_a: RO:0002295 ! results in developmental progression of
+is_a: RO:0040036 ! results in changes to anatomical or cellular structure
+
+[Typedef]
+id: RO:0002299
+name: results in maturation of
+def: "The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in it's shape and results in an end point state of that entity." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000112 " an annotation of gene X to cell maturation with results_in_maturation_of CL:0000057 (fibroblast) means that the fibroblast is mature at the end of the process" xsd:string
+property_value: IAO:0000112 "bone maturation (GO:0070977) results_in_maturation_of bone (UBERON:0001474)" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 "GOC:mtg_berkeley_2013" xsd:string
+is_a: RO:0002295 ! results in developmental progression of
+is_a: RO:0040036 ! results in changes to anatomical or cellular structure
+
+[Typedef]
+id: RO:0002304
+name: causally upstream of, positive effect
+def: "p is causally upstream of, positive effect q iff p is casually upstream of q, and the execution of p is required for the execution of q." []
+comment: holds between x and y if and only if x is causally upstream of y and the progression of x increases the frequency, rate or extent of y
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: RO:0004049 RO:0002411
+property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of,_positive_effect
+property_value: terms:creator https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002411 ! causally upstream of
+is_a: RO:0004047 ! causally upstream of or within, positive effect
+
+[Typedef]
+id: RO:0002305
+name: causally upstream of, negative effect
+def: "p is causally upstream of, negative effect q iff p is casually upstream of q, and the execution of p decreases the execution of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: RO:0004050 RO:0002411
+property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of,_negative_effect
+property_value: terms:creator https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002411 ! causally upstream of
+is_a: RO:0004046 ! causally upstream of or within, negative effect
+
+[Typedef]
+id: RO:0002314
+name: characteristic of part of
+def: "q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w." []
+property_value: IAO:0000116 "Because part_of is transitive, inheres in is a sub-relation of characteristic of part of" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "inheres in part of" xsd:string
+property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20064205
+property_value: RO:0001900 RO:0001901
+property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
+holds_over_chain: RO:0000052 BFO:0000050 {RO:0002582="true"}
+is_a: RO:0002502 ! depends on
+transitive_over: BFO:0000050 ! part of
+
+[Typedef]
+id: RO:0002315
+name: results in acquisition of features of
+def: "The relationship that links a specified entity with the process that results in an unspecified entity acquiring the features and characteristics of the specified entity" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000112 "an annotation of gene X to cell differentiation with results_in_maturation_of CL:0000057 (fibroblast) means that at the end of the process the input cell that did not have features of a fibroblast, now has the features of a fibroblast." xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 "GOC:mtg_berkeley_2013" xsd:string
+range: UBERON:0000061 ! anatomical structure
+is_a: RO:0002295 ! results in developmental progression of
+is_a: RO:0040036 ! results in changes to anatomical or cellular structure
+
+[Typedef]
+id: RO:0002320
+name: evolutionarily related to
+def: "A relationship that holds via some environmental process" []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving the process of evolution." xsd:string
+
+[Typedef]
+id: RO:0002323
+name: mereotopologically related to
+def: "A mereological relationship or a topological relationship" []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships" xsd:string
+property_value: RO:0001900 RO:0001901
+
+[Typedef]
+id: RO:0002324
+name: developmentally related to
+def: "A relationship that holds between entities participating in some developmental process (GO:0032502)" []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving organismal development" xsd:string
+
+[Typedef]
+id: RO:0002327
+name: enables
+def: "c enables p iff c is capable of p and c acts to execute p." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+property_value: IAO:0000112 "a particular instances of akt-2 enables some instance of protein kinase activity" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "catalyzes" xsd:string
+property_value: IAO:0000118 "executes" xsd:string
+property_value: IAO:0000118 "has" xsd:string
+property_value: IAO:0000118 "is catalyzing" xsd:string
+property_value: IAO:0000118 "is executing" xsd:string
+property_value: IAO:0000232 "This relation differs from the parent relation 'capable of' in that the parent is weaker and only expresses a capability that may not be actually realized, whereas this relation is always realized." xsd:string
+property_value: seeAlso "https://wiki.geneontology.org/Enables" xsd:anyURI
+is_a: RO:0002215 ! capable of
+inverse_of: RO:0002333 ! enabled by
+transitive_over: BFO:0000051 ! has part
+transitive_over: RO:0002017 ! has component activity
+
+[Typedef]
+id: RO:0002328
+name: functionally related to
+def: "A grouping relationship for any relationship directly involving a function, or that holds because of a function of one of the related entities." []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000232 "This is a grouping relation that collects relations used for the purpose of connecting structure and function" xsd:string
+
+[Typedef]
+id: RO:0002329
+name: part of structure that is capable of
+def: "this relation holds between c and p when c is part of some c', and c' is capable of p." []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "false" xsd:boolean
+holds_over_chain: BFO:0000050 RO:0002215 {RO:0002581="true"}
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0002331
+name: involved in
+def: "c involved_in p if and only if c enables some process p', and p' is part of p" []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "actively involved in" xsd:string
+property_value: IAO:0000118 "enables part of" xsd:string
+property_value: seeAlso "https://wiki.geneontology.org/Involved_in" xsd:anyURI
+holds_over_chain: RO:0002327 BFO:0000050
+is_a: RO:0000056 ! participates in
+is_a: RO:0002431 ! involved in or involved in regulation of
+transitive_over: BFO:0000050 ! part of
+
+[Typedef]
+id: RO:0002332
 name: regulates levels of
 def: "p regulates levels of c if p regulates some amount (PATO:0000070) of c" []
-xref: RO:0002332
+property_value: IAO:0000112 "every cellular sphingolipid homeostasis process regulates_level_of some sphingolipid" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000589 "regulates levels of (process to entity)" xsd:string
 domain: BFO:0000015 ! process
 range: BFO:0000040 ! material entity
-is_a: functionally_related_to ! functionally related to
+is_a: RO:0002328 ! functionally related to
 
 [Typedef]
-id: related_via_localization_to
+id: RO:0002333
+name: enabled by
+def: "inverse of enables" []
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: seeAlso "https://wiki.geneontology.org/Enabled_by" xsd:anyURI
+is_a: RO:0000057 ! has participant
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0002334
+name: regulated by
+def: "inverse of regulates" []
+subset: RO:0002259
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000589 "regulated by (processual)" xsd:string
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+is_transitive: true
+is_a: RO:0002427 ! causally downstream of or within
+
+[Typedef]
+id: RO:0002335
+name: negatively regulated by
+def: "inverse of negatively regulates" []
+subset: RO:0002259
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002334 ! regulated by
+
+[Typedef]
+id: RO:0002336
+name: positively regulated by
+def: "inverse of positively regulates" []
+subset: RO:0002259
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002334 ! regulated by
+
+[Typedef]
+id: RO:0002337
 name: related via localization to
 def: "A relationship that holds via some process of localization" []
-xref: RO:0002337
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000232 "Do not use this relation directly. It is a grouping relation." xsd:string
 domain: BFO:0000015 ! process
 range: BFO:0000002 ! continuant
 
 [Typedef]
-id: results_in_acquisition_of_features_of
-name: results in acquisition of features of
-def: "The relationship that links a specified entity with the process that results in an unspecified entity acquiring the features and characteristics of the specified entity" []
-xref: RO:0002315
-range: UBERON:0000061
-is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
-is_a: results_in_developmental_progression_of ! results in developmental progression of
+id: RO:0002338
+name: has target start location
+def: "This relationship holds between p and l when p is a transport or localization process in which the outcome is to move some cargo c from some initial location l to some destination." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002344 ! results in transport to from or in
+transitive_over: BFO:0000050 ! part of
 
 [Typedef]
-id: results_in_assembly_of
-name: results in assembly of
-xref: RO:0002588
-is_a: results_in_formation_of ! results in formation of
-is_a: results_in_organization_of ! results in organization of
+id: RO:0002339
+name: has target end location
+def: "This relationship holds between p and l when p is a transport or localization process in which the outcome is to move some cargo c from a an initial location to some destination l." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002344 ! results in transport to from or in
+transitive_over: BFO:0000050 ! part of
 
 [Typedef]
-id: results_in_breakdown_of
-name: results in breakdown of
-def: "p results in breakdown of c if and only if the execution of p leads to c no longer being present at the end of p" []
-xref: RO:0002586
-is_a: has_input ! has input
-
-[Typedef]
-id: results_in_changes_to_anatomical_or_cellular_structure
-name: results in changes to anatomical or cellular structure
-def: "p has anatomical participant c iff p has participant c, and c is an anatomical entity" []
-xref: RO:0040036
-is_a: has_participant ! has participant
-
-[Typedef]
-id: results_in_commitment_to
-name: results in commitment to
-def: "p 'results in commitment to' c if and only if p is a developmental process and c is a cell and p results in the state of c changing such that is can only develop into a single cell type." []
-xref: RO:0002348
-range: CL:0000000
-is_a: results_in_developmental_progression_of ! results in developmental progression of
-
-[Typedef]
-id: results_in_determination_of
-name: results in determination of
-def: "p 'results in determination of' c if and only if p is a developmental process and c is a cell and p results in the state of c changing to be determined. Once a cell becomes determined, it becomes committed to differentiate down a particular pathway regardless of its environment." []
-xref: RO:0002349
-range: CL:0000000
-is_a: results_in_developmental_progression_of ! results in developmental progression of
-
-[Typedef]
-id: results_in_development_of
-name: results in development of
-def: "p 'results in development of' c if and only if p is a developmental process and p results in the state of c changing from its initial state as a primordium or anlage through its mature state and to its final state." []
-xref: RO:0002296
-is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
-is_a: results_in_developmental_progression_of ! results in developmental progression of
-
-[Typedef]
-id: results_in_developmental_progression_of
-name: results in developmental progression of
-def: "p results in the developmental progression of s iff p is a developmental process and s is an anatomical entity and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss)." []
-xref: RO:0002295
-domain: GO:0008150
-range: UBERON:0001062
-is_a: developmentally_related_to ! developmentally related to
-
-[Typedef]
-id: results_in_disassembly_of
-name: results in disassembly of
-xref: RO:0002590
-is_a: results_in_breakdown_of ! results in breakdown of
-is_a: results_in_organization_of ! results in organization of
-
-[Typedef]
-id: results_in_formation_of
-name: results in formation of
-xref: RO:0002297
-is_a: has_output ! has output
-is_a: results_in_developmental_progression_of ! results in developmental progression of
-inverse_of: formed_as_result_of ! formed as result of
-
-[Typedef]
-id: results_in_fusion_of
-name: results in fusion of
-xref: RO:0012008
-is_a: results_in_organization_of ! results in organization of
-
-[Typedef]
-id: results_in_growth_of
-name: results in growth of
-xref: RO:0002343
-is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
-is_a: results_in_developmental_progression_of ! results in developmental progression of
-
-[Typedef]
-id: results_in_maturation_of
-name: results in maturation of
-def: "The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in it's shape and results in an end point state of that entity." []
-xref: RO:0002299
-is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
-is_a: results_in_developmental_progression_of ! results in developmental progression of
-
-[Typedef]
-id: results_in_morphogenesis_of
-name: results in morphogenesis of
-def: "The relationship that links an entity with the process that results in the formation and shaping of that entity over time from an immature to a mature state." []
-xref: RO:0002298
-is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
-is_a: results_in_developmental_progression_of ! results in developmental progression of
-
-[Typedef]
-id: results_in_movement_of
-name: results in movement of
-def: "Holds between p and c when p is locomotion process and the outcome of this process is the change of location of c" []
-xref: RO:0002565
-is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
-
-[Typedef]
-id: results_in_organization_of
-name: results in organization of
-def: "p results in organization of c iff p results in the assembly, arrangement of constituent parts, or disassembly of c" []
-xref: RO:0002592
-is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
-
-[Typedef]
-id: results_in_remodeling_of
-name: results in remodeling of
-xref: RO:0002591
-is_a: has_input ! has input
-is_a: results_in_organization_of ! results in organization of
-
-[Typedef]
-id: results_in_specification_of
-name: results in specification of
-def: "The relationship linking a cell and its participation in a process that results in the fate of the cell being specified. Once specification has taken place, a cell will be committed to differentiate down a specific pathway if left in its normal environment. " []
-xref: RO:0002356
-range: CL:0000000
-is_a: results_in_developmental_progression_of ! results in developmental progression of
-
-[Typedef]
-id: results_in_structural_organization_of
-name: results in structural organization of
-def: "A relationship between a process and an anatomical entity such that the process contributes to the act of creating the structural organization of the anatomical entity." []
-xref: RO:0002355
-is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
-is_a: results_in_developmental_progression_of ! results in developmental progression of
-
-[Typedef]
-id: results_in_transport_across
-name: results in transport across
-def: "Holds between p and m when p is a transportation or localization process and the outcome of this process is to move c from one location to another, and the route taken by c follows a path that crosses m." []
-xref: RO:0002342
-is_a: occurs_across ! occurs across
-is_a: results_in_transport_to_from_or_in ! results in transport to from or in
-
-[Typedef]
-id: results_in_transport_along
+id: RO:0002341
 name: results in transport along
 def: "Holds between p and l when p is a transportation or localization process and the outcome of this process is to move c from one location to another, and the route taken by c follows a path that is aligned_with l " []
-xref: RO:0002341
-is_a: related_via_localization_to ! related via localization to
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002337 ! related via localization to
 
 [Typedef]
-id: results_in_transport_to_from_or_in
+id: RO:0002342
+name: results in transport across
+def: "Holds between p and m when p is a transportation or localization process and the outcome of this process is to move c from one location to another, and the route taken by c follows a path that crosses m." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002021 ! occurs across
+is_a: RO:0002344 ! results in transport to from or in
+
+[Typedef]
+id: RO:0002343
+name: results in growth of
+property_value: IAO:0000112 "'pollen tube growth' results_in growth_of some 'pollen tube'" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002295 ! results in developmental progression of
+is_a: RO:0040036 ! results in changes to anatomical or cellular structure
+
+[Typedef]
+id: RO:0002344
 name: results in transport to from or in
-xref: RO:0002344
-is_a: related_via_localization_to ! related via localization to
+property_value: IAO:0000112 "'mitochondrial transport' results_in_transport_to_from_or_in some  mitochondrion (GO:0005739)" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002337 ! related via localization to
 
 [Typedef]
-id: role_of
-name: role of
-def: "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence" []
-xref: RO:0000081
-is_a: characteristic_of ! characteristic of
-inverse_of: has_role ! has role
+id: RO:0002348
+name: results in commitment to
+def: "p 'results in commitment to' c if and only if p is a developmental process and c is a cell and p results in the state of c changing such that is can only develop into a single cell type." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000112 "an annotation of gene X to cell commitment with results_in_commitment_to CL:0000540 (neuron) means that at the end of the process an unspecified cell has been specified and determined to develop into a neuron." xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+range: CL:0000000 ! cell
+is_a: RO:0002295 ! results in developmental progression of
 
 [Typedef]
-id: spatially_disjoint_from
-name: spatially disjoint from
-def: "A is spatially_disjoint_from B if and only if they have no parts in common" []
-xref: RO:0002163
-is_a: mereotopologically_related_to ! mereotopologically related to
+id: RO:0002349
+name: results in determination of
+def: "p 'results in determination of' c if and only if p is a developmental process and c is a cell and p results in the state of c changing to be determined. Once a cell becomes determined, it becomes committed to differentiate down a particular pathway regardless of its environment." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+range: CL:0000000 ! cell
+is_a: RO:0002295 ! results in developmental progression of
 
 [Typedef]
-id: starts
-name: starts
-def: "inverse of starts with" []
-xref: RO:0002223
-is_a: part_of ! part of
-is_a: temporally_related_to ! temporally related to
-inverse_of: starts_with ! starts with
+id: RO:0002352
+name: input of
+def: "inverse of has input" []
+subset: ro-eco
+subset: RO:0002259
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0000056 ! participates in
+is_a: RO:0002328 ! functionally related to
 
 [Typedef]
-id: starts_during
-name: starts during
-xref: RO:0002091
-domain: BFO:0000003 ! occurrent
-range: BFO:0000003 ! occurrent
-is_a: temporally_related_to ! temporally related to
+id: RO:0002353
+name: output of
+def: "inverse of has output" []
+subset: ro-eco
+subset: RO:0002259
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0000056 ! participates in
+is_a: RO:0002328 ! functionally related to
 
 [Typedef]
-id: starts_with
-name: starts with
-def: "x starts with y if and only if x has part y and the time point at which x starts is equivalent to the time point at which y starts. Formally: α(y) = α(x) ∧ ω(y) < ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
-xref: RO:0002224
+id: RO:0002354
+name: formed as result of
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002353 ! output of
+
+[Typedef]
+id: RO:0002355
+name: results in structural organization of
+def: "A relationship between a process and an anatomical entity such that the process contributes to the act of creating the structural organization of the anatomical entity." []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002295 ! results in developmental progression of
+is_a: RO:0040036 ! results in changes to anatomical or cellular structure
+
+[Typedef]
+id: RO:0002356
+name: results in specification of
+def: "The relationship linking a cell and its participation in a process that results in the fate of the cell being specified. Once specification has taken place, a cell will be committed to differentiate down a specific pathway if left in its normal environment. " []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+range: CL:0000000 ! cell
+is_a: RO:0002295 ! results in developmental progression of
+
+[Typedef]
+id: RO:0002384
+name: has developmental potential involving
+def: "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)." []
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+domain: UBERON:0001062 ! anatomical entity
+range: UBERON:0001062 ! anatomical entity
+is_a: RO:0002324 ! developmentally related to
+
+[Typedef]
+id: RO:0002385
+name: has potential to developmentally contribute to
+def: "x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y" []
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002384 ! has developmental potential involving
+
+[Typedef]
+id: RO:0002387
+name: has potential to develop into
+def: "x has the potential to develop into y iff x develops into y or if x is capable of developing into y" []
+comment: This relation has a stronger meaning than merely indicating that X may develop into Y, in that the capability of developing into Y is always present, even if X does not always actually develop into Y. In particular, this means that if Y is restricted to a given taxon T, X is necessarily likewise restricted.
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: seeAlso https://github.com/oborel/obo-relations/issues/810
+is_a: RO:0002384 ! has developmental potential involving
+
+[Typedef]
+id: RO:0002388
+name: has potential to directly develop into
+def: "x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y" []
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002387 ! has potential to develop into
+
+[Typedef]
+id: RO:0002404
+name: causally downstream of
+def: "inverse of upstream of" []
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: BFO:0000062 ! preceded by
+is_a: RO:0002427 ! causally downstream of or within
+inverse_of: RO:0002411 ! causally upstream of
+
+[Typedef]
+id: RO:0002405
+name: immediately causally downstream of
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0002087 ! immediately preceded by
+is_a: RO:0002404 ! causally downstream of
+inverse_of: RO:0002412 ! immediately causally upstream of
+
+[Typedef]
+id: RO:0002407
+name: indirectly positively regulates
+def: "p indirectly positively regulates q iff p is indirectly causally upstream of q and p positively regulates q." []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "indirectly activates" xsd:string
+property_value: RO:0002579 RO:0002213
+property_value: seeAlso "https://wiki.geneontology.org/Indirectly_positively_regulates" xsd:anyURI
+holds_over_chain: RO:0002409 RO:0002409
+holds_over_chain: RO:0002629 RO:0002407
+holds_over_chain: RO:0002629 RO:0002629
 is_transitive: true
-is_a: has_part ! has part
-is_a: temporally_related_to ! temporally related to
+is_a: RO:0002213 ! positively regulates
+is_a: RO:0012012 ! indirectly regulates
+transitive_over: RO:0002629 ! directly positively regulates
 
 [Typedef]
-id: temporally_related_to
-name: temporally related to
-xref: RO:0002222
+id: RO:0002409
+name: indirectly negatively regulates
+def: "p indirectly negatively regulates q iff p is indirectly causally upstream of q and p negatively regulates q." []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "indirectly inhibits" xsd:string
+property_value: RO:0002579 RO:0002212
+property_value: seeAlso "https://wiki.geneontology.org/Indirectly_negatively_regulates" xsd:anyURI
+holds_over_chain: RO:0002630 RO:0002409
+holds_over_chain: RO:0002630 RO:0002630
+is_transitive: true
+is_a: RO:0002212 ! negatively regulates
+is_a: RO:0012012 ! indirectly regulates
+transitive_over: RO:0002630 ! directly negatively regulates
+
+[Typedef]
+id: RO:0002410
+name: causally related to
+def: "relation that links two events, processes, states, or objects such that one event, process, state, or object (a cause) contributes to the production of another event, process, state, or object (an effect) where the cause is partly or wholly responsible for the effect, and the effect is partly or wholly dependent on the cause." [https://en.wikipedia.org/wiki/Causality]
+property_value: IAO:0000116 "This branch of the ontology deals with causal relations between entities. It is divided into two branches: causal relations between occurrents/processes, and causal relations between material entities. We take an 'activity flow-centric approach', with the former as primary, and define causal relations between material entities in terms of causal relations between occurrents.\n\nTo define causal relations in an activity-flow type network, we make use of 3 primitives:\n\n * Temporal: how do the intervals of the two occurrents relate? \n * Is the causal relation regulatory?\n * Is the influence positive or negative?\n\nThe first of these can be formalized in terms of the Allen Interval Algebra. Informally, the 3 bins we care about are 'direct', 'indirect' or overlapping. Note that all causal relations should be classified under a RO temporal relation (see the branch under 'temporally related to'). Note that all causal relations are temporal, but not all temporal relations are causal. Two occurrents can be related in time without being causally connected. We take causal influence to be primitive, elucidated as being such that has the upstream changed, some qualities of the donwstream would necessarily be modified.\n\nFor the second, we consider a relationship to be regulatory if the system in which the activities occur is capable of altering the relationship to achieve some objective. This could include changing the rate of production of a molecule.\n\nFor the third, we consider the effect of the upstream process on the output(s) of the downstream process. If the level of output is increased, or the rate of production of the output is increased, then the direction is increased. Direction can be positive, negative or neutral or capable of either direction. Two positives in succession yield a positive, two negatives in succession yield a positive, otherwise the default assumption is that the net effect is canceled and the influence is neutral.\n\nEach of these 3 primitives can be composed to yield a cross-product of different relation types." xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
+
+[Typedef]
+id: RO:0002411
+name: causally upstream of
+def: "p is causally upstream of q iff p is causally related to q, the end of p precedes the end of q, and p is not an occurrent part of q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_transitive: true
+is_a: BFO:0000063 ! precedes
+is_a: RO:0002418 ! causally upstream of or within
+
+[Typedef]
+id: RO:0002412
+name: immediately causally upstream of
+def: "p is immediately causally upstream of q iff p is causally upstream of q, and the end of p is coincident with the beginning of q." []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: RO:0002575 RO:0002411
+is_a: RO:0002090 ! immediately precedes
+is_a: RO:0002411 ! causally upstream of
+
+[Typedef]
+id: RO:0002418
+name: causally upstream of or within
+def: "p is 'causally upstream or within' q iff p is causally related to q, and the end of p precedes, or is coincident with, the end of q." []
+synonym: "affects" RELATED []
+property_value: IAO:0000116 "We would like to make this disjoint with 'preceded by', but this is prohibited in OWL2" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "influences (processual)" xsd:string
+is_transitive: true
+is_a: RO:0002501 ! causal relation between processes
+inverse_of: RO:0002427 ! causally downstream of or within
+transitive_over: BFO:0000050 ! part of
+
+[Typedef]
+id: RO:0002427
+name: causally downstream of or within
+def: "inverse of causally upstream of or within" []
+subset: RO:0002259
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+is_transitive: true
+is_a: RO:0002501 ! causal relation between processes
+
+[Typedef]
+id: RO:0002428
+name: involved in regulation of
+def: "c involved in regulation of p if c is involved in some p' and p' regulates some p" []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+holds_over_chain: RO:0002327 RO:0002211
+holds_over_chain: RO:0002331 RO:0002211
+is_a: RO:0002263 ! acts upstream of
+is_a: RO:0002431 ! involved in or involved in regulation of
+
+[Typedef]
+id: RO:0002429
+name: involved in positive regulation of
+def: "c involved in regulation of p if c is involved in some p' and p' positively regulates some p" []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: RO:0004049 RO:0002428
+holds_over_chain: RO:0002327 RO:0002213
+holds_over_chain: RO:0002331 RO:0002213
+is_a: RO:0002428 ! involved in regulation of
+
+[Typedef]
+id: RO:0002430
+name: involved in negative regulation of
+def: "c involved in regulation of p if c is involved in some p' and p' negatively regulates some p" []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: RO:0004050 RO:0002428
+holds_over_chain: RO:0002327 RO:0002212
+holds_over_chain: RO:0002331 RO:0002212
+is_a: RO:0002428 ! involved in regulation of
+
+[Typedef]
+id: RO:0002431
+name: involved in or involved in regulation of
+def: "c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p" []
+property_value: IAO:0000116 "OWL does not allow defining object properties via a Union" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "involved in or reguates" xsd:string
+is_a: RO:0002264 ! acts upstream of or within
+is_a: RO:0002328 ! functionally related to
+is_a: RO:0002500 ! causal agent in process
+
+[Typedef]
+id: RO:0002432
+name: is active in
+def: "c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure." [https://orcid.org/0000-0002-6601-2165, https://orcid.org/0000-0002-7073-9172]
+synonym: "enables activity in" EXACT []
+property_value: IAO:0000112 "A protein that enables activity in a cytosol." xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "executes activity in" xsd:string
+property_value: seeAlso "https://wiki.geneontology.org/Is_active_in" xsd:anyURI
+holds_over_chain: RO:0002327 BFO:0000066 {RO:0002581="true"}
+is_a: RO:0002131 ! overlaps
+is_a: RO:0002328 ! functionally related to
+
+[Typedef]
+id: RO:0002434
+name: interacts with
+def: "A relationship that holds between two entities in which the processes executed by the two entities are causally connected." []
+subset: ro-eco
+synonym: "in pairwise interaction with" EXACT []
+property_value: IAO:0000116 "Considering relabeling as 'pairwise interacts with'" xsd:anyURI
+property_value: IAO:0000116 "This relation and all sub-relations can be applied to either (1) pairs of entities that are interacting at any moment of time (2) populations or species of entity whose members have the disposition to interact (3) classes whose members have the disposition to interact." xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000232 "Note that this relationship type, and sub-relationship types may be redundant with process terms from other ontologies. For example, the symbiotic relationship hierarchy parallels GO. The relations are provided as a convenient shortcut. Consider using the more expressive processual form to capture your data. In the future, these relations will be linked to their cognate processes through rules." xsd:string
+property_value: seeAlso "http://purl.obolibrary.org/obo/ro/docs/interaction-relations/" xsd:anyURI
+property_value: skos:closeMatch "http://purl.obolibrary.org/obo/MI_0914" xsd:anyURI
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_symmetric: true
+
+[Typedef]
+id: RO:0002436
+name: molecularly interacts with
+def: "An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other." []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "binds" xsd:string
+property_value: IAO:0000118 "molecularly binds with" xsd:string
+property_value: seeAlso ECO:0000353
+property_value: skos:closeMatch "http://purl.obolibrary.org/obo/MI_0915" xsd:anyURI
+is_symmetric: true
+is_a: RO:0002434 ! interacts with
+
+[Typedef]
+id: RO:0002447
+name: phosphorylates
+property_value: IAO:0000116 "Axiomatization to GO to be added later" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "An interaction relation between x and y in which x catalyzes a reaction in which a phosphate group is added to y." xsd:string
+is_a: RO:0002436 ! molecularly interacts with
+
+[Typedef]
+id: RO:0002448
+name: directly regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that regulates an activity performed by B. For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.\n\nA and B can be physically interacting but not necessarily. Immediately upstream means there are no intermediate entity between A and B." []
+synonym: "molecularly controls" EXACT []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002436 ! molecularly interacts with
+is_a: RO:0011002 ! regulates activity of
+
+[Typedef]
+id: RO:0002449
+name: directly negatively regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that negatively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
+synonym: "molecularly decreases activity of" EXACT []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
+property_value: IAO:0000118 "directly inhibits" xsd:string
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002448 ! directly regulates activity of
+
+[Typedef]
+id: RO:0002450
+name: directly positively regulates activity of
+def: "The entity A, immediately upstream of the entity B, has an activity that positively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
+synonym: "molecularly increases activity of" EXACT []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
+property_value: IAO:0000118 "directly activates" xsd:string
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002448 ! directly regulates activity of
+
+[Typedef]
+id: RO:0002479
+name: has part that occurs in
+def: "p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c." []
+subset: ro-eco
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 domain: BFO:0000003 ! occurrent
-range: BFO:0000003 ! occurrent
+range: BFO:0000004 ! independent continuant
+holds_over_chain: BFO:0000051 BFO:0000066 {RO:0002581="true"}
 
 [Typedef]
-id: transformation_of
+id: RO:0002494
 name: transformation of
 def: "x transformation of y if x is the immediate transformation of y, or is linked to y through a chain of transformation relationships" []
-xref: RO:0002494
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_transitive: true
-is_a: develops_from ! develops from
+is_a: RO:0002202 ! develops from
+
+[Typedef]
+id: RO:0002500
+name: causal agent in process
+def: "A relationship between a material entity and a process where the material entity has some causal role that influences the process" []
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+is_a: RO:0002595 ! causal relation between material entity and a process
+inverse_of: RO:0002608 ! process has causal agent
+
+[Typedef]
+id: RO:0002501
+name: causal relation between processes
+def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one where the execution of p influences the execution of q. p may be upstream, downstream, part of, or a container of q." []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002502
+name: depends on
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: seeAlso BFO:0000169
+
+[Typedef]
+id: RO:0002505
+name: has intermediate
+def: "p has intermediate c if and only if p has parts p1, p2 and p1 has output c, and p2 has input c" []
+subset: ro-eco
+property_value: IAO:0000112 "'lysine biosynthetic process via diaminopimelate' SubClassOf has_intermediate some diaminopimelate" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "has intermediate product" xsd:string
+is_a: RO:0000057 ! has participant
+
+[Typedef]
+id: RO:0002506
+name: causal relation between entities
+property_value: IAO:0000116 "The intent is that the process branch of the causal property hierarchy is primary (causal relations hold between occurrents/processes), and that the material branch is defined in terms of the process branch" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
+domain: BFO:0000002 ! continuant
+range: BFO:0000002 ! continuant
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002559
+name: causally influenced by
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000589 "causally influenced by (entity-centric)" xsd:string
+is_a: RO:0002506 ! causal relation between entities
+inverse_of: RO:0002566 ! causally influences
+
+[Typedef]
+id: RO:0002565
+name: results in movement of
+def: "Holds between p and c when p is locomotion process and the outcome of this process is the change of location of c" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+is_a: RO:0040036 ! results in changes to anatomical or cellular structure
+
+[Typedef]
+id: RO:0002566
+name: causally influences
+def: "The entity or characteristic A is causally upstream of the entity or characteristic B, A having an effect on B. An entity corresponds to any biological type of entity as long as a mass is measurable. A characteristic corresponds to a particular specificity of an entity (e.g., phenotype, shape, size)." []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000589 "causally influences (entity-centric)" xsd:string
+domain: BFO:0000002 ! continuant
+range: BFO:0000002 ! continuant
+is_a: RO:0002506 ! causal relation between entities
+
+[Typedef]
+id: RO:0002578
+name: directly regulates
+def: "p directly regulates q iff p is immediately causally upstream of q and p regulates q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000589 "directly regulates (processual)" xsd:string
+property_value: RO:0002575 RO:0002211
+is_a: RO:0002211 ! regulates
+is_a: RO:0002412 ! immediately causally upstream of
+
+[Typedef]
+id: RO:0002584
+name: has part structure that is capable of
+def: "s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p" []
+property_value: IAO:0000112 "gland SubClassOf 'has part structure that is capable of' some 'secretion by cell'" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+holds_over_chain: BFO:0000051 RO:0002215
+is_a: RO:0002328 ! functionally related to
+is_a: RO:0002595 ! causal relation between material entity and a process
+
+[Typedef]
+id: RO:0002586
+name: results in breakdown of
+def: "p results in breakdown of c if and only if the execution of p leads to c no longer being present at the end of p" []
+is_a: RO:0002233 ! has input
+
+[Typedef]
+id: RO:0002588
+name: results in assembly of
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+is_a: RO:0002297 ! results in formation of anatomical entity
+is_a: RO:0002592 ! results in organization of
+
+[Typedef]
+id: RO:0002590
+name: results in disassembly of
+is_a: RO:0002586 ! results in breakdown of
+is_a: RO:0002592 ! results in organization of
+
+[Typedef]
+id: RO:0002591
+name: results in remodeling of
+is_a: RO:0002233 ! has input
+is_a: RO:0002592 ! results in organization of
+
+[Typedef]
+id: RO:0002592
+name: results in organization of
+def: "p results in organization of c iff p results in the assembly, arrangement of constituent parts, or disassembly of c" []
+is_a: RO:0040036 ! results in changes to anatomical or cellular structure
+
+[Typedef]
+id: RO:0002595
+name: causal relation between material entity and a process
+def: "A relationship that holds between a material entity and a process in which causality is involved, with either the material entity or some part of the material entity exerting some influence over the process, or the process influencing some aspect of the material entity." []
+property_value: IAO:0000116 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+domain: BFO:0000040 ! material entity
+range: BFO:0000015 ! process
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002596
+name: capable of regulating
+def: "Holds between c and p if and only if c is capable of some activity a, and a regulates p." []
+property_value: IAO:0000112 "pyrethroid -> growth" xsd:string
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+holds_over_chain: RO:0002215 RO:0002211
+is_a: RO:0002500 ! causal agent in process
+
+[Typedef]
+id: RO:0002597
+name: capable of negatively regulating
+def: "Holds between c and p if and only if c is capable of some activity a, and a negatively regulates p." []
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+holds_over_chain: RO:0002215 RO:0002212
+is_a: RO:0002596 ! capable of regulating
+
+[Typedef]
+id: RO:0002598
+name: capable of positively regulating
+def: "Holds between c and p if and only if c is capable of some activity a, and a positively regulates p." []
+property_value: IAO:0000112 "renin -> arteriolar smooth muscle contraction" xsd:string
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+holds_over_chain: RO:0002215 RO:0002213
+is_a: RO:0002596 ! capable of regulating
+
+[Typedef]
+id: RO:0002608
+name: process has causal agent
+def: "Inverse of 'causal agent in process'" []
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0002629
+name: directly positively regulates
+def: "p directly positively regulates q iff p is immediately causally upstream of q, and p positively regulates q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000589 "directly positively regulates (process to process)" xsd:string
+property_value: RO:0004049 RO:0002578
+property_value: seeAlso "https://wiki.geneontology.org/Directly_positively_regulates" xsd:anyURI
+is_a: RO:0002213 ! positively regulates
+is_a: RO:0002578 ! directly regulates
+
+[Typedef]
+id: RO:0002630
+name: directly negatively regulates
+def: "p directly negatively regulates q iff p is immediately causally upstream of q, and p negatively regulates q." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000589 "directly negatively regulates (process to process)" xsd:string
+property_value: RO:0004050 RO:0002578
+property_value: seeAlso "https://wiki.geneontology.org/Directly_negatively_regulates" xsd:anyURI
+is_a: RO:0002212 ! negatively regulates
+is_a: RO:0002578 ! directly regulates
+
+[Typedef]
+id: RO:0003000
+name: produces
+def: "a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix." []
+comment: Note that this definition doesn't quite distinguish the output of a transformation process from a production process, which is related to the identity/granularity issue.
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0001-9114-8737
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+inverse_of: RO:0003001 ! produced by
+
+[Typedef]
+id: RO:0003001
+name: produced by
+def: "a produced_by b iff some process that occurs_in b has_output a." []
+subset: ro-eco
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 https://orcid.org/0000-0001-9114-8737
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+
+[Typedef]
+id: RO:0004007
+name: has primary input or output
+def: "p 'has primary input ot output' c iff either (a) p 'has primary input' c or (b) p 'has primary output' c." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+is_a: RO:0000057 ! has participant
+created_by: https://orcid.org/0000-0002-6601-2165
+creation_date: 2018-12-13T11:26:17Z
+
+[Typedef]
+id: RO:0004008
+name: has primary output
+def: "p has primary output c if (a) p has output c and (b) the goal of process is to modify, produce, or transform c." [GOC:dph, GOC:kva, GOC:pt, https://orcid.org/0000-0002-6601-2165] {comment="PMID:27812932"}
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+is_a: RO:0002234 ! has output
+is_a: RO:0004007 ! has primary input or output
+created_by: https://orcid.org/0000-0002-6601-2165
+creation_date: 2018-12-13T11:26:32Z
+
+[Typedef]
+id: RO:0004009
+name: has primary input
+def: "p has primary input c if (a) p has input c and (b) the goal of process is to modify, consume, or transform c." [GOC:dph, GOC:kva, GOC:pt, https://orcid.org/0000-0002-6601-2165] {comment="PMID:27812932"}
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+is_a: RO:0002233 ! has input
+is_a: RO:0004007 ! has primary input or output
+created_by: https://orcid.org/0000-0002-6601-2165
+creation_date: 2018-12-13T11:26:56Z
+
+[Typedef]
+id: RO:0004031
+name: enables subfunction
+def: "Holds between an entity and an process P where the entity enables some larger compound process, and that larger process has-part P." []
+holds_over_chain: RO:0002327 BFO:0000051
+is_a: RO:0002328 ! functionally related to
+created_by: https://orcid.org/0000-0002-6601-2165
+creation_date: 2018-01-25T23:20:13Z
+
+[Typedef]
+id: RO:0004032
+name: acts upstream of or within, positive effect
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+property_value: RO:0004049 RO:0002264
+property_value: seeAlso "https://wiki.geneontology.org/Acts_upstream_of_or_within,_positive_effect" xsd:anyURI
+holds_over_chain: RO:0002327 RO:0004047
+is_a: RO:0002264 ! acts upstream of or within
+created_by: https://orcid.org/0000-0002-6601-2165
+creation_date: 2018-01-26T23:49:30Z
+
+[Typedef]
+id: RO:0004033
+name: acts upstream of or within, negative effect
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+property_value: RO:0004050 RO:0002264
+property_value: seeAlso "https://wiki.geneontology.org/Acts_upstream_of_or_within,_negative_effect" xsd:anyURI
+holds_over_chain: RO:0002327 RO:0004046
+is_a: RO:0002264 ! acts upstream of or within
+created_by: https://orcid.org/0000-0002-6601-2165
+creation_date: 2018-01-26T23:49:51Z
+
+[Typedef]
+id: RO:0004034
+name: acts upstream of, positive effect
+def: "c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+property_value: RO:0004049 RO:0002263
+property_value: seeAlso "https://wiki.geneontology.org/Acts_upstream_of,_positive_effect" xsd:anyURI
+holds_over_chain: RO:0002327 RO:0002304
+is_a: RO:0002263 ! acts upstream of
+is_a: RO:0004032 ! acts upstream of or within, positive effect
+created_by: https://orcid.org/0000-0002-6601-2165
+creation_date: 2018-01-26T23:53:14Z
+
+[Typedef]
+id: RO:0004035
+name: acts upstream of, negative effect
+def: "c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_gp2term
+property_value: RO:0004050 RO:0002263
+property_value: seeAlso "https://wiki.geneontology.org/Acts_upstream_of,_negative_effect" xsd:anyURI
+holds_over_chain: RO:0002327 RO:0002305
+is_a: RO:0002263 ! acts upstream of
+is_a: RO:0004033 ! acts upstream of or within, negative effect
+created_by: https://orcid.org/0000-0002-6601-2165
+creation_date: 2018-01-26T23:53:22Z
+
+[Typedef]
+id: RO:0004046
+name: causally upstream of or within, negative effect
+property_value: RO:0004050 RO:0002418
+property_value: seeAlso "https://wiki.geneontology.org/Causally_upstream_of_or_within,_negative_effect" xsd:anyURI
+is_a: RO:0002418 ! causally upstream of or within
+created_by: https://orcid.org/0000-0002-6601-2165
+creation_date: 2018-03-13T23:55:05Z
+
+[Typedef]
+id: RO:0004047
+name: causally upstream of or within, positive effect
+property_value: RO:0004049 RO:0002418
+property_value: seeAlso https://wiki.geneontology.org/Causally_upstream_of_or_within,_positive_effect
+is_a: RO:0002418 ! causally upstream of or within
+created_by: https://orcid.org/0000-0002-6601-2165
+creation_date: 2018-03-13T23:55:19Z
+
+[Typedef]
+id: RO:0011002
+name: regulates activity of
+def: "The entity A has an activity that regulates an activity of the entity B. For example, A and B are gene products where the catalytic activity of A regulates the kinase activity of B." []
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002566 ! causally influences
+
+[Typedef]
+id: RO:0012000
+name: has small molecule regulator
+def: "a relation between a process and a continuant, in which the process is regulated by the small molecule continuant" []
+is_a: RO:0000057 ! has participant
+inverse_of: RO:0012004 ! is small molecule regulator of
+created_by: https://orcid.org/0000-0003-1813-6857
+creation_date: 2020-04-22T20:27:26Z
+
+[Typedef]
+id: RO:0012001
+name: has small molecule activator
+def: "a relation between a process and a continuant, in which the process is activated by the small molecule continuant" []
+is_a: RO:0012000 ! has small molecule regulator
+inverse_of: RO:0012005 ! is small molecule activator of
+created_by: https://orcid.org/0000-0003-1813-6857
+creation_date: 2020-04-22T20:28:37Z
+
+[Typedef]
+id: RO:0012002
+name: has small molecule inhibitor
+def: "a relation between a process and a continuant, in which the process is inhibited by the small molecule continuant" []
+is_a: RO:0012000 ! has small molecule regulator
+inverse_of: RO:0012006 ! is small molecule inhibitor of
+created_by: https://orcid.org/0000-0003-1813-6857
+creation_date: 2020-04-22T20:28:54Z
+
+[Typedef]
+id: RO:0012003
+name: acts on population of
+def: "p acts on population of c iff c' is a collection, has members of type c, and p has participant c" []
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+is_a: RO:0000057 ! has participant
+created_by: https://orcid.org/0000-0003-1813-6857
+creation_date: 2020-06-08T17:21:33Z
+
+[Typedef]
+id: RO:0012004
+name: is small molecule regulator of
+def: "a relation between a continuant and a process, in which the continuant is a small molecule that regulates the process" []
+is_a: RO:0002596 ! capable of regulating
+created_by: https://orcid.org/0000-0003-1813-6857
+creation_date: 2020-06-24T13:15:17Z
+
+[Typedef]
+id: RO:0012005
+name: is small molecule activator of
+def: "a relation between a continuant and a process, in which the continuant is a small molecule that activates the process" []
+property_value: seeAlso "https://wiki.geneontology.org/Is_small_molecule_activator_of" xsd:anyURI
+is_a: RO:0002598 ! capable of positively regulating
+is_a: RO:0012004 ! is small molecule regulator of
+created_by: https://orcid.org/0000-0003-1813-6857
+creation_date: 2020-06-24T13:15:26Z
+
+[Typedef]
+id: RO:0012006
+name: is small molecule inhibitor of
+def: "a relation between a continuant and a process, in which the continuant is a small molecule that inhibits the process" []
+property_value: seeAlso "https://wiki.geneontology.org/Is_small_molecule_inhibitor_of" xsd:anyURI
+is_a: RO:0002597 ! capable of negatively regulating
+is_a: RO:0012004 ! is small molecule regulator of
+created_by: https://orcid.org/0000-0003-1813-6857
+creation_date: 2020-06-24T13:15:35Z
+
+[Typedef]
+id: RO:0012008
+name: results in fusion of
+subset: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+subset: http://purl.obolibrary.org/obo/valid_for_gocam
+is_a: RO:0002592 ! results in organization of
+created_by: https://orcid.org/0000-0003-1813-6857
+creation_date: 2021-02-26T07:28:29Z
+
+[Typedef]
+id: RO:0012011
+name: indirectly causally upstream of
+def: "p is indirectly causally upstream of q iff p is causally upstream of q and there exists some process r such that p is causally upstream of r and r is causally upstream of q." []
+is_a: RO:0002411 ! causally upstream of
+created_by: https://orcid.org/0000-0003-1813-6857
+creation_date: 2022-09-26T06:07:17Z
+
+[Typedef]
+id: RO:0012012
+name: indirectly regulates
+def: "p indirectly regulates q iff p is indirectly causally upstream of q and p regulates q." []
+is_a: RO:0002211 ! regulates
+is_a: RO:0012011 ! indirectly causally upstream of
+created_by: https://orcid.org/0000-0003-1813-6857
+creation_date: 2022-09-26T06:08:01Z
+
+[Typedef]
+id: RO:0012013
+name: positively regulates in another organism
+def: "x 'positively regulates in other organism' y if and only if: (x is the realization of a function to increase the frequency, rate or extent of y) AND (the agents of x are produced by organism o1 and the agents of y are produced by organism o2)." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+synonym: "positively regulates in other organism" EXACT []
+property_value: RO:0004049 RO:0002010
+property_value: terms:contributor https://orcid.org/0000-0003-1813-6857
+is_a: RO:0002010 ! regulates in another organism
+creation_date: 2023-10-12T10:02:28Z
+
+[Typedef]
+id: RO:0012014
+name: negatively regulates in another organism
+def: "x 'negatively regulates in other organism' y if and only if: (x is the realization of a function to reduce the frequency, rate or extent of y) AND (the agents of x are produced by organism o1 and the agents of y are produced by organism o2)." []
+subset: http://purl.obolibrary.org/obo/valid_for_go_ontology
+synonym: "negatively regulates in other organism" EXACT []
+property_value: RO:0004050 RO:0002010
+property_value: terms:contributor https://orcid.org/0000-0003-1813-6857
+is_a: RO:0002010 ! regulates in another organism
+creation_date: 2023-10-12T10:02:42Z
+
+[Typedef]
+id: RO:0017001
+name: device utilizes material
+def: "X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y." []
+synonym: "utilizes" BROAD []
+property_value: IAO:0000112 "A diagnostic testing device utilizes a specimen." xsd:string
+property_value: IAO:0000232 "A diagnostic testing device utilizes a specimen means that the diagnostic testing device is capable of an assay, and this assay a specimen as its input." xsd:string
+property_value: IAO:0000232 "See github ticket https://github.com/oborel/obo-relations/issues/497" xsd:string
+property_value: terms:contributor https://orcid.org/0000-0001-9625-1899
+property_value: terms:contributor https://orcid.org/0000-0003-2620-0345
+holds_over_chain: RO:0002215 RO:0002233
+creation_date: 2021-11-08T12:00:00Z
+
+[Typedef]
+id: RO:0019000
+name: regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) regulates characteristic (C) iff: P results in the existence of C OR affects the intensity or magnitude of C." []
+property_value: terms:contributor https://orcid.org/0000-0002-8688-6599
+domain: BFO:0000015 ! process
+range: PATO:0000001 ! quality
+holds_over_chain: RO:0002211 RO:0019000
+is_a: RO:0002410 ! causally related to
+
+[Typedef]
+id: RO:0019001
+name: positively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) positively regulates characteristic (C) iff: P results in an increase in the intensity or magnitude of C." []
+property_value: terms:contributor https://orcid.org/0000-0002-8688-6599
+holds_over_chain: RO:0002213 RO:0019001
+is_a: RO:0019000 ! regulates characteristic
+
+[Typedef]
+id: RO:0019002
+name: negatively regulates characteristic
+def: "A relationship that holds between a process and a characteristic in which process (P) negatively regulates characteristic (C) iff: P results in a decrease in the intensity or magnitude of C." []
+property_value: terms:contributor https://orcid.org/0000-0002-8688-6599
+holds_over_chain: RO:0002212 RO:0019001
+holds_over_chain: RO:0002213 RO:0019002
+is_a: RO:0019000 ! regulates characteristic
+
+[Typedef]
+id: RO:0020104
+name: is neuron
+def: "This property only applies to neurons" []
+property_value: terms:contributor https://orcid.org/0000-0001-6677-8489
+property_value: terms:date "2024-10-23T14:34:52Z" xsd:dateTime
+domain: CL:0000540 ! neuron
+
+[Typedef]
+id: RO:0020105
+name: is anatomical entity
+def: "This property only applies to anatomical entities." []
+property_value: terms:contributor https://orcid.org/0000-0001-6677-8489
+property_value: terms:date "2024-10-29T09:55:07Z" xsd:dateTime
+domain: UBERON:0001062 ! anatomical entity
+
+[Typedef]
+id: RO:0040036
+name: results in changes to anatomical or cellular structure
+def: "p has anatomical participant c iff p has participant c, and c is an anatomical entity" []
+is_a: RO:0000057 ! has participant
+created_by: https://orcid.org/0000-0002-6601-2165
+creation_date: 2018-09-26T01:08:58Z
 
