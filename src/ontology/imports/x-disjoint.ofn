@@ -145,6 +145,7 @@ DisjointClasses(obo:GO_0003674 obo:GO_0008150)
 # Class: obo:GO_0005575 (cellular_component)
 
 DisjointClasses(obo:GO_0005575 obo:GO_0008150)
+DisjointUnion(obo:GO_0005575 obo:GO_0032991 obo:GO_0044423 obo:GO_0110165)
 
 # Class: obo:GO_0005576 (extracellular region)
 
