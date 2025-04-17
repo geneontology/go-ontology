@@ -485,7 +485,6 @@ GO:0061701	bacterial outer membrane vesicle	NCBITaxon:2	Bacteria
 GO:0061772	drug transport across blood-nerve barrier	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0061822	ciliary cap	NCBITaxon:50557	Insecta	
 GO:0061823	ring centriole	NCBITaxon:50557	Insecta	
-GO:0062023	collagen-containing extracellular matrix	NCBITaxon:33208	Metazoa	
 GO:0070057	prospore membrane spindle pole body attachment site	NCBITaxon:4751	Fungi	
 GO:0070196	eukaryotic translation initiation factor 3 complex assembly	NCBITaxon:2759	Eukaryota	
 GO:0070258	inner membrane pellicle complex	NCBITaxon:5794	Apicomplexa	
