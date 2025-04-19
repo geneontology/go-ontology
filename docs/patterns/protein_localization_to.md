@@ -21,9 +21,9 @@ TODO
 
 ## Annotations
 
-- [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "establishment of protein localization in `{target}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
-- [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "establishment of protein localisation in `{target}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
-- [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "establishment of protein localisation to `{target}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
+- [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "establishment of protein localisation to `{target}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
+- [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "establishment of protein localisation in `{target}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
+- [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "establishment of protein localization in `{target}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Definition
 
