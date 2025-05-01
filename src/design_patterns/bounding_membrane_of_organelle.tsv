@@ -9,6 +9,7 @@ http://purl.obolibrary.org/obo/GO_0002080	acrosomal membrane	http://purl.obolibr
 http://purl.obolibrary.org/obo/GO_0032578	aleurone grain membrane	http://purl.obolibrary.org/obo/GO_0033095	aleurone grain
 http://purl.obolibrary.org/obo/GO_0097233	alveolar lamellar body membrane	http://purl.obolibrary.org/obo/GO_0097208	alveolar lamellar body
 http://purl.obolibrary.org/obo/GO_1904930	amphisome membrane	http://purl.obolibrary.org/obo/GO_0044753	amphisome
+http://purl.obolibrary.org/obo/GO_0030668	apicomplexan dense granule membrane	http://purl.obolibrary.org/obo/GO_0020026	apicomplexan dense granule
 http://purl.obolibrary.org/obo/GO_0033111	attachment organelle membrane	http://purl.obolibrary.org/obo/GO_0033099	attachment organelle
 http://purl.obolibrary.org/obo/GO_0120281	autolysosome membrane	http://purl.obolibrary.org/obo/GO_0044754	autolysosome
 http://purl.obolibrary.org/obo/GO_0000421	autophagosome membrane	http://purl.obolibrary.org/obo/GO_0005776	autophagosome
@@ -52,7 +53,6 @@ http://purl.obolibrary.org/obo/GO_0005765	lysosomal membrane	http://purl.obolibr
 http://purl.obolibrary.org/obo/GO_0098852	lytic vacuole membrane	http://purl.obolibrary.org/obo/GO_0000323	lytic vacuole
 http://purl.obolibrary.org/obo/GO_0160056	macropinosome membrane	http://purl.obolibrary.org/obo/GO_0044354	macropinosome
 http://purl.obolibrary.org/obo/GO_0033162	melanosome membrane	http://purl.obolibrary.org/obo/GO_0042470	melanosome
-http://purl.obolibrary.org/obo/GO_0030668	merozoite dense granule membrane	http://purl.obolibrary.org/obo/GO_0020026	merozoite dense granule
 http://purl.obolibrary.org/obo/GO_0031903	microbody membrane	http://purl.obolibrary.org/obo/GO_0042579	microbody
 http://purl.obolibrary.org/obo/GO_0033163	microneme membrane	http://purl.obolibrary.org/obo/GO_0020009	microneme
 http://purl.obolibrary.org/obo/GO_0005741	mitochondrial outer membrane	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
