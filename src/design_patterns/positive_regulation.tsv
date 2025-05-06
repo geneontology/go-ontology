@@ -1865,7 +1865,7 @@ http://purl.obolibrary.org/obo/GO_0046622	positive regulation of organ growth	ht
 http://purl.obolibrary.org/obo/GO_1902117	positive regulation of organelle assembly	http://purl.obolibrary.org/obo/GO_0070925	organelle assembly
 http://purl.obolibrary.org/obo/GO_0010638	positive regulation of organelle organization	http://purl.obolibrary.org/obo/GO_0006996	organelle organization
 http://purl.obolibrary.org/obo/GO_0032892	positive regulation of organic acid transport	http://purl.obolibrary.org/obo/GO_0015849	organic acid transport
-http://purl.obolibrary.org/obo/GO_1903268	positive regulation of ornithine catabolic process	http://purl.obolibrary.org/obo/GO_0006593	ornithine catabolic process
+http://purl.obolibrary.org/obo/GO_1903268	positive regulation of ornithine catabolic process	http://purl.obolibrary.org/obo/GO_0006593	L-ornithine catabolic process
 http://purl.obolibrary.org/obo/GO_0045778	positive regulation of ossification	http://purl.obolibrary.org/obo/GO_0001503	ossification
 http://purl.obolibrary.org/obo/GO_0045669	positive regulation of osteoblast differentiation	http://purl.obolibrary.org/obo/GO_0001649	osteoblast differentiation
 http://purl.obolibrary.org/obo/GO_0033690	positive regulation of osteoblast proliferation	http://purl.obolibrary.org/obo/GO_0033687	osteoblast proliferation
@@ -2033,7 +2033,7 @@ http://purl.obolibrary.org/obo/GO_0043068	positive regulation of programmed cell
 http://purl.obolibrary.org/obo/GO_0062100	positive regulation of programmed necrotic cell death	http://purl.obolibrary.org/obo/GO_0097300	programmed necrotic cell death
 http://purl.obolibrary.org/obo/GO_1902722	positive regulation of prolactin secretion	http://purl.obolibrary.org/obo/GO_0070459	prolactin secretion
 http://purl.obolibrary.org/obo/GO_1902213	positive regulation of prolactin signaling pathway	http://purl.obolibrary.org/obo/GO_0038161	prolactin signaling pathway
-http://purl.obolibrary.org/obo/GO_2001158	positive regulation of proline catabolic process to glutamate	http://purl.obolibrary.org/obo/GO_0010133	proline catabolic process to glutamate
+http://purl.obolibrary.org/obo/GO_2001158	positive regulation of proline catabolic process to glutamate	http://purl.obolibrary.org/obo/GO_0010133	L-proline catabolic process to L-glutamate
 http://purl.obolibrary.org/obo/GO_1902836	positive regulation of proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905647	proline import across plasma membrane
 http://purl.obolibrary.org/obo/GO_2000216	positive regulation of proline metabolic process	http://purl.obolibrary.org/obo/GO_0006560	proline metabolic process
 http://purl.obolibrary.org/obo/GO_0140846	positive regulation of promoter clearance from RNA polymerase II promoter	http://purl.obolibrary.org/obo/GO_0001111	RNA polymerase II promoter clearance

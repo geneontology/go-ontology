@@ -2080,7 +2080,7 @@ http://purl.obolibrary.org/obo/GO_1902513	regulation of organelle transport alon
 http://purl.obolibrary.org/obo/GO_0032890	regulation of organic acid transport	http://purl.obolibrary.org/obo/GO_0015849	organic acid transport
 http://purl.obolibrary.org/obo/GO_0090348	regulation of organofluorine metabolic process	http://purl.obolibrary.org/obo/GO_0090346	organofluorine metabolic process
 http://purl.obolibrary.org/obo/GO_0090347	regulation of organohalogen metabolic process	http://purl.obolibrary.org/obo/GO_0090345	organohalogen metabolic process
-http://purl.obolibrary.org/obo/GO_1903266	regulation of ornithine catabolic process	http://purl.obolibrary.org/obo/GO_0006593	ornithine catabolic process
+http://purl.obolibrary.org/obo/GO_1903266	regulation of ornithine catabolic process	http://purl.obolibrary.org/obo/GO_0006593	L-ornithine catabolic process
 http://purl.obolibrary.org/obo/GO_0090368	regulation of ornithine metabolic process	http://purl.obolibrary.org/obo/GO_0006591	ornithine metabolic process
 http://purl.obolibrary.org/obo/GO_0030278	regulation of ossification	http://purl.obolibrary.org/obo/GO_0001503	ossification
 http://purl.obolibrary.org/obo/GO_0045667	regulation of osteoblast differentiation	http://purl.obolibrary.org/obo/GO_0001649	osteoblast differentiation
@@ -2281,7 +2281,7 @@ http://purl.obolibrary.org/obo/GO_0043067	regulation of programmed cell death	ht
 http://purl.obolibrary.org/obo/GO_0062098	regulation of programmed necrotic cell death	http://purl.obolibrary.org/obo/GO_0097300	programmed necrotic cell death
 http://purl.obolibrary.org/obo/GO_1902211	regulation of prolactin signaling pathway	http://purl.obolibrary.org/obo/GO_0038161	prolactin signaling pathway
 http://purl.obolibrary.org/obo/GO_1902005	regulation of proline biosynthetic process	http://purl.obolibrary.org/obo/GO_0006561	proline biosynthetic process
-http://purl.obolibrary.org/obo/GO_2001156	regulation of proline catabolic process to glutamate	http://purl.obolibrary.org/obo/GO_0010133	proline catabolic process to glutamate
+http://purl.obolibrary.org/obo/GO_2001156	regulation of proline catabolic process to glutamate	http://purl.obolibrary.org/obo/GO_0010133	L-proline catabolic process to L-glutamate
 http://purl.obolibrary.org/obo/GO_1902834	regulation of proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905647	proline import across plasma membrane
 http://purl.obolibrary.org/obo/GO_2000214	regulation of proline metabolic process	http://purl.obolibrary.org/obo/GO_0006560	proline metabolic process
 http://purl.obolibrary.org/obo/GO_0070881	regulation of proline transport	http://purl.obolibrary.org/obo/GO_0015824	proline transport

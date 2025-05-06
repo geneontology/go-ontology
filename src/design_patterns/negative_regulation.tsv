@@ -1884,7 +1884,7 @@ http://purl.obolibrary.org/obo/GO_0010639	negative regulation of organelle organ
 http://purl.obolibrary.org/obo/GO_0032891	negative regulation of organic acid transport	http://purl.obolibrary.org/obo/GO_0015849	organic acid transport
 http://purl.obolibrary.org/obo/GO_0090350	negative regulation of organofluorine metabolic process	http://purl.obolibrary.org/obo/GO_0090346	organofluorine metabolic process
 http://purl.obolibrary.org/obo/GO_0090349	negative regulation of organohalogen metabolic process	http://purl.obolibrary.org/obo/GO_0090345	organohalogen metabolic process
-http://purl.obolibrary.org/obo/GO_1903267	negative regulation of ornithine catabolic process	http://purl.obolibrary.org/obo/GO_0006593	ornithine catabolic process
+http://purl.obolibrary.org/obo/GO_1903267	negative regulation of ornithine catabolic process	http://purl.obolibrary.org/obo/GO_0006593	L-ornithine catabolic process
 http://purl.obolibrary.org/obo/GO_0030279	negative regulation of ossification	http://purl.obolibrary.org/obo/GO_0001503	ossification
 http://purl.obolibrary.org/obo/GO_0045668	negative regulation of osteoblast differentiation	http://purl.obolibrary.org/obo/GO_0001649	osteoblast differentiation
 http://purl.obolibrary.org/obo/GO_0033689	negative regulation of osteoblast proliferation	http://purl.obolibrary.org/obo/GO_0033687	osteoblast proliferation
@@ -2050,7 +2050,7 @@ http://purl.obolibrary.org/obo/GO_0062099	negative regulation of programmed necr
 http://purl.obolibrary.org/obo/GO_1902721	negative regulation of prolactin secretion	http://purl.obolibrary.org/obo/GO_0070459	prolactin secretion
 http://purl.obolibrary.org/obo/GO_1902212	negative regulation of prolactin signaling pathway	http://purl.obolibrary.org/obo/GO_0038161	prolactin signaling pathway
 http://purl.obolibrary.org/obo/GO_1902006	negative regulation of proline biosynthetic process	http://purl.obolibrary.org/obo/GO_0006561	proline biosynthetic process
-http://purl.obolibrary.org/obo/GO_2001157	negative regulation of proline catabolic process to glutamate	http://purl.obolibrary.org/obo/GO_0010133	proline catabolic process to glutamate
+http://purl.obolibrary.org/obo/GO_2001157	negative regulation of proline catabolic process to glutamate	http://purl.obolibrary.org/obo/GO_0010133	L-proline catabolic process to L-glutamate
 http://purl.obolibrary.org/obo/GO_1902835	negative regulation of proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905647	proline import across plasma membrane
 http://purl.obolibrary.org/obo/GO_2000215	negative regulation of proline metabolic process	http://purl.obolibrary.org/obo/GO_0006560	proline metabolic process
 http://purl.obolibrary.org/obo/GO_0140847	negative regulation of promoter clearance from RNA polymerase II promoter	http://purl.obolibrary.org/obo/GO_0001111	RNA polymerase II promoter clearance
