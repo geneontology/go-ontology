@@ -25,7 +25,7 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/opl_import.owl" uri="imports/opl_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/so_import.owl" uri="imports/so_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ro.owl" uri="mirror/ro-download.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ro.owl" uri="mirror/ro.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/annotation_properties.owl" uri="imports/annotation_properties.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/pato_import.owl" uri="imports/pato_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pato.owl" uri="mirror/pato.owl"/>
