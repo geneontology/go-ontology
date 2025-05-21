@@ -18,6 +18,7 @@ http://purl.obolibrary.org/obo/GO_1901736	(R)-mevalonic acid catabolic process	h
 http://purl.obolibrary.org/obo/GO_0042188	1,1,1-trichloro-2,2-bis-(4-chlorophenyl)ethane catabolic process	http://purl.obolibrary.org/obo/CHEBI_16130	DDT
 http://purl.obolibrary.org/obo/GO_0018911	1,2,4-trichlorobenzene catabolic process	http://purl.obolibrary.org/obo/CHEBI_28222	1,2,4-trichlorobenzene
 http://purl.obolibrary.org/obo/GO_0019260	1,2-dichloroethane catabolic process	http://purl.obolibrary.org/obo/CHEBI_27789	1,2-dichloroethane
+http://purl.obolibrary.org/obo/GO_0051144	1,2-propanediol catabolic process	http://purl.obolibrary.org/obo/CHEBI_16997	propane-1,2-diol
 http://purl.obolibrary.org/obo/GO_0019261	1,4-dichlorobenzene catabolic process	http://purl.obolibrary.org/obo/CHEBI_28618	1,4-dichlorobenzene
 http://purl.obolibrary.org/obo/GO_1901802	1,5-anhydro-D-fructose catabolic process	http://purl.obolibrary.org/obo/CHEBI_16715	1,5-anhydro-D-fructose
 http://purl.obolibrary.org/obo/GO_0097175	1,6-anhydro-N-acetyl-beta-muramic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_58690	1,6-anhydro-N-acetyl-beta-muramate
@@ -729,7 +730,6 @@ http://purl.obolibrary.org/obo/GO_1901746	prephenate(2-) catabolic process	http:
 http://purl.obolibrary.org/obo/GO_0034310	primary alcohol catabolic process	http://purl.obolibrary.org/obo/CHEBI_15734	primary alcohol
 http://purl.obolibrary.org/obo/GO_1901161	primary amino compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_50994	primary amino compound
 http://purl.obolibrary.org/obo/GO_0006709	progesterone catabolic process	http://purl.obolibrary.org/obo/CHEBI_17026	progesterone
-http://purl.obolibrary.org/obo/GO_0051144	propanediol catabolic process	http://purl.obolibrary.org/obo/CHEBI_26288	propanediol
 http://purl.obolibrary.org/obo/GO_0019543	propionate catabolic process	http://purl.obolibrary.org/obo/CHEBI_17272	propionate
 http://purl.obolibrary.org/obo/GO_1902859	propionyl-CoA catabolic process	http://purl.obolibrary.org/obo/CHEBI_57392	propionyl-CoA(4-)
 http://purl.obolibrary.org/obo/GO_0042208	propylene catabolic process	http://purl.obolibrary.org/obo/CHEBI_16052	propene
