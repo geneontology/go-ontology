@@ -86,8 +86,8 @@ val terms = Source
       val replacedByText = ids(1).trim()
       if (replacedByText.nonEmpty) Some(expandOBO(replacedByText)) else None
     } else None
-    val considers = if (ids.size > 1) {
-      ids(2).split("|", -1).map(_.trim()).map(expandOBO).toList
+    val considers = if (ids.size > 2) {
+      ids(2).split("\\|", -1).map(_.trim()).map(expandOBO).toList
     } else Nil
     (goTerm, maybeReplacedBy, considers)
   }
