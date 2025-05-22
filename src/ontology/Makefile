@@ -225,7 +225,7 @@ $(GO_AMIGO).owl: extensions/go-amigo-edit.ofn $(GO_GAF).owl extensions/go-module
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 # Not all imports are being pre-mirrored; the ones that are should be dependencies
-$(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro-download.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl mirror/cl.owl mirror/uberon.owl imports/go-lego-chebi-import.owl mirror/wbbt.owl mirror/eco.owl
+$(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl mirror/cl.owl mirror/uberon.owl imports/go-lego-chebi-import.owl mirror/wbbt.owl mirror/eco.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural relax reduce --named-classes-only true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 extensions/reacto.owl: $(GO_LEGO).owl mirror/chebi.owl
