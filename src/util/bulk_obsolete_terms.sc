@@ -1,20 +1,17 @@
 //> using scala "2.13"
 //> using dep "net.sourceforge.owlapi:owlapi-distribution:4.5.29"
-//> using dep "org.phenoscape::scowl:1.3.4"
-//> using dep "org.obolibrary.robot:robot-core:1.9.7"
-//> using dep "com.outr::scribe-slf4j2:3.15.0"
-import scala.collection.immutable.Stream.Cons
-import scala.collection.immutable.LazyList.cons
-import org.semanticweb.owlapi.vocab.OWLRDFVocabulary
+//> using dep "org.phenoscape::scowl:1.4.1"
+//> using dep "org.obolibrary.robot:robot-core:1.9.8"
+//> using dep "com.outr::scribe-slf4j2:3.16.1"
 
 import java.io.File
 import scala.jdk.CollectionConverters._
 import scala.io.Source
 import org.obolibrary.robot.CatalogXmlIRIMapper
 import org.phenoscape.scowl._
+import org.semanticweb.owlapi.apibinding.OWLManager
 import org.semanticweb.owlapi.model.OWLAnnotationValue
 import org.semanticweb.owlapi.model.OWLAnnotationAssertionAxiom
-import org.semanticweb.owlapi.apibinding.OWLManager
 import org.semanticweb.owlapi.model.AxiomType
 import org.semanticweb.owlapi.model.IRI
 import org.semanticweb.owlapi.model.OWLClass
