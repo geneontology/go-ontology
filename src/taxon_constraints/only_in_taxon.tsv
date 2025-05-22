@@ -937,4 +937,12 @@ GO:0160254	tRNA queuosine(34) biosynthetic process from salvaged queuosine	NCBIT
 GO:0050062	long-chain-fatty-acyl-CoA luciferin component reductase activity	NCBITaxon:2	Bacteria	
 GO:0047474	long-chain fatty acid--protein ligase activity	NCBITaxon:2	Bacteria	
 GO:0106314	nitrite reductase (NADPH) activity	NCBITaxon:2759	Eukaryota	
-GO:0160269	sweat secretion	  NCBITaxon:40674	Mammalia	
+GO:0160269	sweat secretion	  NCBITaxon:40674	Mammalia
+GO:0000105  L-histidine biosynthetic process NCBITaxon:2157 Archaea
+GO:0000105  L-histidine biosynthetic process NCBITaxon:2 Bacteria
+GO:0000105  L-histidine biosynthetic process NCBITaxon:4751 Fungi
+GO:0000105  L-histidine biosynthetic process NCBITaxon:33090 Viridiplantae
+GO:0071266  'de novo' L-methionine biosynthetic process NCBITaxon:2157 Archaea
+GO:0071266  'de novo' L-methionine biosynthetic process NCBITaxon:2 Bacteria
+GO:0071266  'de novo' L-methionine biosynthetic process NCBITaxon:4751 Fungi
+GO:0071266  'de novo' L-methionine biosynthetic process NCBITaxon:33090 Viridiplantae
