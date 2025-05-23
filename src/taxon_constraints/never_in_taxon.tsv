@@ -686,3 +686,5 @@ GO:0031519	PcG protein complex	NCBITaxon:4890	Ascomycota
 GO:0097271	protein localization to bud neck	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0097271	protein localization to bud neck	NCBITaxon:33208	Metazoa	
 GO:0141152	glycerol-3-phosphate dehydrogenase (NAD+) activity	NCBITaxon:2157	Archaea	
+GO:0000105	L-histidine biosynthetic process	NCBITaxon:7742	Vertebrata	
+GO:0071266	'de novo' L-methionine biosynthetic process	NCBITaxon:40674	Mammalia	
