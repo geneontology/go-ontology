@@ -11,7 +11,7 @@ http://purl.obolibrary.org/obo/GO_0008603	cAMP-dependent protein kinase regulato
 http://purl.obolibrary.org/obo/GO_0010858	calcium-dependent protein kinase regulator activity	http://purl.obolibrary.org/obo/GO_0009931	calcium-dependent protein serine/threonine kinase activity
 http://purl.obolibrary.org/obo/GO_0008597	calcium-dependent protein serine/threonine phosphatase regulator activity	http://purl.obolibrary.org/obo/GO_0004723	calcium-dependent protein serine/threonine phosphatase activity
 http://purl.obolibrary.org/obo/GO_0010851	cyclase regulator activity	http://purl.obolibrary.org/obo/GO_0009975	cyclase activity
-http://purl.obolibrary.org/obo/GO_0019914	cyclin-dependent protein kinase activating kinase regulator activity	http://purl.obolibrary.org/obo/GO_0019912	cyclin-dependent protein kinase activating kinase activity
+http://purl.obolibrary.org/obo/GO_0019914	cyclin-dependent protein kinase regulator activity	http://purl.obolibrary.org/obo/GO_0097472	cyclin-dependent protein kinase activity
 http://purl.obolibrary.org/obo/GO_0016538	cyclin-dependent protein serine/threonine kinase regulator activity	http://purl.obolibrary.org/obo/GO_0004693	cyclin-dependent protein serine/threonine kinase activity
 http://purl.obolibrary.org/obo/GO_0097713	dolichol-phosphate-mannose synthase regulator activity	http://purl.obolibrary.org/obo/GO_0004169	dolichyl-phosphate-mannose-protein mannosyltransferase activity
 http://purl.obolibrary.org/obo/GO_0061135	endopeptidase regulator activity	http://purl.obolibrary.org/obo/GO_0004175	endopeptidase activity
