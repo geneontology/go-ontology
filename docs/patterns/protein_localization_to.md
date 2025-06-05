@@ -31,7 +31,7 @@ TODO
 
 ## Equivalent to
 
-[protein localization](http://purl.obolibrary.org/obo/GO_0008104)  and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some `{target}`)
+[intracellular protein localization](http://purl.obolibrary.org/obo/GO_0008104)  and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some `{target}`)
 
 
 

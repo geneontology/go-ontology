@@ -433,6 +433,7 @@ http://purl.obolibrary.org/obo/GO_1903582	negative regulation of basophil degran
 http://purl.obolibrary.org/obo/GO_0045641	negative regulation of basophil differentiation	http://purl.obolibrary.org/obo/GO_0030221	basophil differentiation
 http://purl.obolibrary.org/obo/GO_0048521	negative regulation of behavior	http://purl.obolibrary.org/obo/GO_0007610	behavior
 http://purl.obolibrary.org/obo/GO_2000986	negative regulation of behavioral fear response	http://purl.obolibrary.org/obo/GO_0001662	behavioral fear response
+http://purl.obolibrary.org/obo/GO_0160276	negative regulation of beige fat cell differentiation	http://purl.obolibrary.org/obo/GO_0160274	beige fat cell differentiation
 http://purl.obolibrary.org/obo/GO_0045774	negative regulation of beta 2 integrin biosynthetic process	http://purl.obolibrary.org/obo/GO_0045114	beta 2 integrin biosynthetic process
 http://purl.obolibrary.org/obo/GO_1904864	negative regulation of beta-catenin-TCF complex assembly	http://purl.obolibrary.org/obo/GO_1904837	beta-catenin-TCF complex assembly
 http://purl.obolibrary.org/obo/GO_1903770	negative regulation of beta-galactosidase activity	http://purl.obolibrary.org/obo/GO_0004565	beta-galactosidase activity
@@ -2095,7 +2096,7 @@ http://purl.obolibrary.org/obo/GO_0090038	negative regulation of protein kinase 
 http://purl.obolibrary.org/obo/GO_0006469	negative regulation of protein kinase activity	http://purl.obolibrary.org/obo/GO_0004672	protein kinase activity
 http://purl.obolibrary.org/obo/GO_1902529	negative regulation of protein linear polyubiquitination	http://purl.obolibrary.org/obo/GO_0097039	protein linear polyubiquitination
 http://purl.obolibrary.org/obo/GO_1903060	negative regulation of protein lipidation	http://purl.obolibrary.org/obo/GO_0006497	protein lipidation
-http://purl.obolibrary.org/obo/GO_1903828	negative regulation of protein localization	http://purl.obolibrary.org/obo/GO_0008104	protein localization
+http://purl.obolibrary.org/obo/GO_1903828	negative regulation of protein localization	http://purl.obolibrary.org/obo/GO_0008104	intracellular protein localization
 http://purl.obolibrary.org/obo/GO_1904870	negative regulation of protein localization to Cajal body	http://purl.obolibrary.org/obo/GO_1904867	protein localization to Cajal body
 http://purl.obolibrary.org/obo/GO_1904371	negative regulation of protein localization to actin cortical patch	http://purl.obolibrary.org/obo/GO_0044379	protein localization to actin cortical patch
 http://purl.obolibrary.org/obo/GO_1904703	negative regulation of protein localization to adherens junction	http://purl.obolibrary.org/obo/GO_0071896	protein localization to adherens junction
@@ -2673,6 +2674,7 @@ http://purl.obolibrary.org/obo/GO_1901386	negative regulation of voltage-gated c
 http://purl.obolibrary.org/obo/GO_1903817	negative regulation of voltage-gated potassium channel activity	http://purl.obolibrary.org/obo/GO_0005249	voltage-gated potassium channel activity
 http://purl.obolibrary.org/obo/GO_0040027	negative regulation of vulval development	http://purl.obolibrary.org/obo/GO_0040025	vulval development
 http://purl.obolibrary.org/obo/GO_1904277	negative regulation of wax biosynthetic process	http://purl.obolibrary.org/obo/GO_0010025	wax biosynthetic process
+http://purl.obolibrary.org/obo/GO_0160275	negative regulation of white fat cell differentiation	http://purl.obolibrary.org/obo/GO_0050872	white fat cell differentiation
 http://purl.obolibrary.org/obo/GO_0070351	negative regulation of white fat cell proliferation	http://purl.obolibrary.org/obo/GO_0070343	white fat cell proliferation
 http://purl.obolibrary.org/obo/GO_0061045	negative regulation of wound healing	http://purl.obolibrary.org/obo/GO_0042060	wound healing
 http://purl.obolibrary.org/obo/GO_1903690	negative regulation of wound healing, spreading of epidermal cells	http://purl.obolibrary.org/obo/GO_0035313	wound healing, spreading of epidermal cells

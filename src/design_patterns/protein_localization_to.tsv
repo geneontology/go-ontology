@@ -59,7 +59,6 @@ http://purl.obolibrary.org/obo/GO_1903420	protein localization to endoplasmic re
 http://purl.obolibrary.org/obo/GO_0036010	protein localization to endosome	http://purl.obolibrary.org/obo/GO_0005768	endosome
 http://purl.obolibrary.org/obo/GO_1904759	protein localization to equatorial microtubule organizing center	http://purl.obolibrary.org/obo/GO_0000923	equatorial microtubule organizing center
 http://purl.obolibrary.org/obo/GO_1905632	protein localization to euchromatin	http://purl.obolibrary.org/obo/GO_0000791	euchromatin
-http://purl.obolibrary.org/obo/GO_0071692	protein localization to extracellular region	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_1902486	protein localization to growing cell tip	http://purl.obolibrary.org/obo/GO_0035838	growing cell tip
 http://purl.obolibrary.org/obo/GO_0097355	protein localization to heterochromatin	http://purl.obolibrary.org/obo/GO_0000792	heterochromatin
 http://purl.obolibrary.org/obo/GO_1903696	protein localization to horsetail-astral microtubule array	http://purl.obolibrary.org/obo/GO_0032117	horsetail-astral microtubule array
