@@ -414,7 +414,6 @@ http://purl.obolibrary.org/obo/GO_0046351	disaccharide biosynthetic process	http
 http://purl.obolibrary.org/obo/GO_0034268	discadenine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57585	discadenine zwitterion
 http://purl.obolibrary.org/obo/GO_0051502	diterpene phytoalexin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_60952	diterpene phytoalexin
 http://purl.obolibrary.org/obo/GO_0016102	diterpenoid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_23849	diterpenoid
-http://purl.obolibrary.org/obo/GO_0019408	dolichol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16091	dolichol
 http://purl.obolibrary.org/obo/GO_0006488	dolichol-linked oligosaccharide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_61286	dolichol-linked oligosaccharide
 http://purl.obolibrary.org/obo/GO_0006489	dolichyl diphosphate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57497	dolichyl diphosphate(3-)
 http://purl.obolibrary.org/obo/GO_0043048	dolichyl monophosphate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57683	dolichyl phosphate(2-)
@@ -662,7 +661,6 @@ http://purl.obolibrary.org/obo/GO_0046236	mandelate biosynthetic process	http://
 http://purl.obolibrary.org/obo/GO_0046354	mannan biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_28808	mannan
 http://purl.obolibrary.org/obo/GO_0019593	mannitol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_29864	mannitol
 http://purl.obolibrary.org/obo/GO_0106304	mannogen biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_149779	mannogen
-http://purl.obolibrary.org/obo/GO_0006057	mannoprotein biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_78903	mannoprotein
 http://purl.obolibrary.org/obo/GO_0046347	mannosamine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_25166	mannosamine
 http://purl.obolibrary.org/obo/GO_0019307	mannose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_37684	mannose
 http://purl.obolibrary.org/obo/GO_0051999	mannosyl-inositol phosphorylceramide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64997	mannosylinositol phosphorylceramide(1-)
