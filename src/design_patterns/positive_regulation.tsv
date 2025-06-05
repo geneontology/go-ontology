@@ -230,6 +230,7 @@ http://purl.obolibrary.org/obo/GO_1900493	positive regulation of [4Fe-4S] cluste
 http://purl.obolibrary.org/obo/GO_0010116	positive regulation of abscisic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0009688	abscisic acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0009789	positive regulation of abscisic acid-activated signaling pathway	http://purl.obolibrary.org/obo/GO_0009738	abscisic acid-activated signaling pathway
 http://purl.obolibrary.org/obo/GO_0045754	positive regulation of acetate catabolic process	http://purl.obolibrary.org/obo/GO_0045733	acetate catabolic process
+http://purl.obolibrary.org/obo/GO_0140176	positive regulation of acetyl-CoA biosynthetic process from pyruvate	http://purl.obolibrary.org/obo/GO_0006086	pyruvate decarboxylation to acetyl-CoA
 http://purl.obolibrary.org/obo/GO_1905923	positive regulation of acetylcholine biosynthetic process	http://purl.obolibrary.org/obo/GO_0008292	acetylcholine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0060409	positive regulation of acetylcholine metabolic process	http://purl.obolibrary.org/obo/GO_0008291	acetylcholine metabolic process
 http://purl.obolibrary.org/obo/GO_0014057	positive regulation of acetylcholine secretion, neurotransmission	http://purl.obolibrary.org/obo/GO_0014055	acetylcholine secretion, neurotransmission
@@ -2079,7 +2080,7 @@ http://purl.obolibrary.org/obo/GO_0090037	positive regulation of protein kinase 
 http://purl.obolibrary.org/obo/GO_0045860	positive regulation of protein kinase activity	http://purl.obolibrary.org/obo/GO_0004672	protein kinase activity
 http://purl.obolibrary.org/obo/GO_1902530	positive regulation of protein linear polyubiquitination	http://purl.obolibrary.org/obo/GO_0097039	protein linear polyubiquitination
 http://purl.obolibrary.org/obo/GO_1903061	positive regulation of protein lipidation	http://purl.obolibrary.org/obo/GO_0006497	protein lipidation
-http://purl.obolibrary.org/obo/GO_1903829	positive regulation of protein localization	http://purl.obolibrary.org/obo/GO_0008104	protein localization
+http://purl.obolibrary.org/obo/GO_1903829	positive regulation of protein localization	http://purl.obolibrary.org/obo/GO_0008104	intracellular protein localization
 http://purl.obolibrary.org/obo/GO_1904871	positive regulation of protein localization to Cajal body	http://purl.obolibrary.org/obo/GO_1904867	protein localization to Cajal body
 http://purl.obolibrary.org/obo/GO_1904372	positive regulation of protein localization to actin cortical patch	http://purl.obolibrary.org/obo/GO_0044379	protein localization to actin cortical patch
 http://purl.obolibrary.org/obo/GO_1904704	positive regulation of protein localization to adherens junction	http://purl.obolibrary.org/obo/GO_0071896	protein localization to adherens junction

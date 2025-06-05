@@ -951,7 +951,7 @@ http://purl.obolibrary.org/obo/GO_2001148	regulation of dipeptide transmembrane 
 http://purl.obolibrary.org/obo/GO_0090089	regulation of dipeptide transport	http://purl.obolibrary.org/obo/GO_0042938	dipeptide transport
 http://purl.obolibrary.org/obo/GO_1903354	regulation of distal tip cell migration	http://purl.obolibrary.org/obo/GO_0097628	distal tip cell migration
 http://purl.obolibrary.org/obo/GO_0032955	regulation of division septum assembly	http://purl.obolibrary.org/obo/GO_0000917	division septum assembly
-http://purl.obolibrary.org/obo/GO_0010794	regulation of dolichol biosynthetic process	http://purl.obolibrary.org/obo/GO_0019408	dolichol biosynthetic process
+http://purl.obolibrary.org/obo/GO_0010794	regulation of dolichol biosynthetic process	http://purl.obolibrary.org/obo/GO_0043048	dolichyl monophosphate biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903179	regulation of dopamine biosynthetic process	http://purl.obolibrary.org/obo/GO_0042416	dopamine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0042053	regulation of dopamine metabolic process	http://purl.obolibrary.org/obo/GO_0042417	dopamine metabolic process
 http://purl.obolibrary.org/obo/GO_0060159	regulation of dopamine receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007212	G protein-coupled dopamine receptor signaling pathway
@@ -2335,7 +2335,7 @@ http://purl.obolibrary.org/obo/GO_0090036	regulation of protein kinase C signali
 http://purl.obolibrary.org/obo/GO_0045859	regulation of protein kinase activity	http://purl.obolibrary.org/obo/GO_0004672	protein kinase activity
 http://purl.obolibrary.org/obo/GO_1902528	regulation of protein linear polyubiquitination	http://purl.obolibrary.org/obo/GO_0097039	protein linear polyubiquitination
 http://purl.obolibrary.org/obo/GO_1903059	regulation of protein lipidation	http://purl.obolibrary.org/obo/GO_0006497	protein lipidation
-http://purl.obolibrary.org/obo/GO_0032880	regulation of protein localization	http://purl.obolibrary.org/obo/GO_0008104	protein localization
+http://purl.obolibrary.org/obo/GO_0032880	regulation of protein localization	http://purl.obolibrary.org/obo/GO_0008104	intracellular protein localization
 http://purl.obolibrary.org/obo/GO_2001159	regulation of protein localization by the Cvt pathway	http://purl.obolibrary.org/obo/GO_0032258	cytoplasm to vacuole targeting by the Cvt pathway
 http://purl.obolibrary.org/obo/GO_1904869	regulation of protein localization to Cajal body	http://purl.obolibrary.org/obo/GO_1904867	protein localization to Cajal body
 http://purl.obolibrary.org/obo/GO_1904370	regulation of protein localization to actin cortical patch	http://purl.obolibrary.org/obo/GO_0044379	protein localization to actin cortical patch
