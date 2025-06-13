@@ -1656,6 +1656,7 @@ http://purl.obolibrary.org/obo/GO_0090258	negative regulation of mitochondrial f
 http://purl.obolibrary.org/obo/GO_0010637	negative regulation of mitochondrial fusion	http://purl.obolibrary.org/obo/GO_0008053	mitochondrial fusion
 http://purl.obolibrary.org/obo/GO_1905638	negative regulation of mitochondrial mRNA catabolic process	http://purl.obolibrary.org/obo/GO_0000958	mitochondrial mRNA catabolic process
 http://purl.obolibrary.org/obo/GO_1901029	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	http://purl.obolibrary.org/obo/GO_0097345	mitochondrial outer membrane permeabilization
+http://purl.obolibrary.org/obo/GO_0170070	negative regulation of mitochondrial transcription	http://purl.obolibrary.org/obo/GO_0006390	mitochondrial transcription
 http://purl.obolibrary.org/obo/GO_0070130	negative regulation of mitochondrial translation	http://purl.obolibrary.org/obo/GO_0032543	mitochondrial translation
 http://purl.obolibrary.org/obo/GO_1905083	negative regulation of mitochondrial translational elongation	http://purl.obolibrary.org/obo/GO_0070125	mitochondrial translational elongation
 http://purl.obolibrary.org/obo/GO_0070133	negative regulation of mitochondrial translational initiation	http://purl.obolibrary.org/obo/GO_0070124	mitochondrial translational initiation
