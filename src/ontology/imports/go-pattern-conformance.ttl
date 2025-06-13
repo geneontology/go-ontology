@@ -21958,9 +21958,6 @@
 <http://purl.obolibrary.org/obo/GO_0044796> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0044827> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0044830> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
 
@@ -38957,6 +38954,9 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0170066> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0170070> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0180003> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/antiporter_activity.yaml> .

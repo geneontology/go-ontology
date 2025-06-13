@@ -230,7 +230,6 @@ http://purl.obolibrary.org/obo/GO_1900493	positive regulation of [4Fe-4S] cluste
 http://purl.obolibrary.org/obo/GO_0010116	positive regulation of abscisic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0009688	abscisic acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0009789	positive regulation of abscisic acid-activated signaling pathway	http://purl.obolibrary.org/obo/GO_0009738	abscisic acid-activated signaling pathway
 http://purl.obolibrary.org/obo/GO_0045754	positive regulation of acetate catabolic process	http://purl.obolibrary.org/obo/GO_0045733	acetate catabolic process
-http://purl.obolibrary.org/obo/GO_0140176	positive regulation of acetyl-CoA biosynthetic process from pyruvate	http://purl.obolibrary.org/obo/GO_0006086	pyruvate decarboxylation to acetyl-CoA
 http://purl.obolibrary.org/obo/GO_1905923	positive regulation of acetylcholine biosynthetic process	http://purl.obolibrary.org/obo/GO_0008292	acetylcholine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0060409	positive regulation of acetylcholine metabolic process	http://purl.obolibrary.org/obo/GO_0008291	acetylcholine metabolic process
 http://purl.obolibrary.org/obo/GO_0014057	positive regulation of acetylcholine secretion, neurotransmission	http://purl.obolibrary.org/obo/GO_0014055	acetylcholine secretion, neurotransmission
@@ -2166,6 +2165,7 @@ http://purl.obolibrary.org/obo/GO_0045985	positive regulation of pyrimidine nucl
 http://purl.obolibrary.org/obo/GO_1900399	positive regulation of pyrimidine nucleotide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006221	pyrimidine nucleotide biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903931	positive regulation of pyrimidine-containing compound salvage	http://purl.obolibrary.org/obo/GO_0008655	pyrimidine-containing compound salvage
 http://purl.obolibrary.org/obo/GO_0140639	positive regulation of pyroptotic inflammatory response	http://purl.obolibrary.org/obo/GO_0070269	pyroptotic inflammatory response
+http://purl.obolibrary.org/obo/GO_0140176	positive regulation of pyruvate decarboxylation to acetyl-CoA	http://purl.obolibrary.org/obo/GO_0006086	pyruvate decarboxylation to acetyl-CoA
 http://purl.obolibrary.org/obo/GO_1904986	positive regulation of quinolinate biosynthetic process	http://purl.obolibrary.org/obo/GO_0019805	quinolinate biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000749	positive regulation of rDNA heterochromatin formation	http://purl.obolibrary.org/obo/GO_0000183	rDNA heterochromatin formation
 http://purl.obolibrary.org/obo/GO_2000234	positive regulation of rRNA processing	http://purl.obolibrary.org/obo/GO_0006364	rRNA processing
