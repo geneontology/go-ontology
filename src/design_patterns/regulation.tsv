@@ -144,7 +144,10 @@ http://purl.obolibrary.org/obo/GO_2001276	regulation of L-leucine biosynthetic p
 http://purl.obolibrary.org/obo/GO_1905532	regulation of L-leucine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903801	L-leucine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905008	regulation of L-lysine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0097639	L-lysine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905624	regulation of L-methionine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905544	L-methionine import across plasma membrane
+http://purl.obolibrary.org/obo/GO_1902005	regulation of L-proline biosynthetic process	http://purl.obolibrary.org/obo/GO_0055129	L-proline biosynthetic process
+http://purl.obolibrary.org/obo/GO_2001156	regulation of L-proline catabolic process to L-glutamate	http://purl.obolibrary.org/obo/GO_0010133	L-proline catabolic process to L-glutamate
 http://purl.obolibrary.org/obo/GO_1905735	regulation of L-proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1904271	L-proline import across plasma membrane
+http://purl.obolibrary.org/obo/GO_2000214	regulation of L-proline metabolic process	http://purl.obolibrary.org/obo/GO_0006560	proline metabolic process
 http://purl.obolibrary.org/obo/GO_1900926	regulation of L-threonine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903807	L-threonine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0090357	regulation of L-tryptophan metabolic process	http://purl.obolibrary.org/obo/GO_0006568	L-tryptophan metabolic process
 http://purl.obolibrary.org/obo/GO_1900929	regulation of L-tyrosine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903808	L-tyrosine import across plasma membrane
@@ -2280,10 +2283,7 @@ http://purl.obolibrary.org/obo/GO_2000870	regulation of progesterone secretion	h
 http://purl.obolibrary.org/obo/GO_0043067	regulation of programmed cell death	http://purl.obolibrary.org/obo/GO_0012501	programmed cell death
 http://purl.obolibrary.org/obo/GO_0062098	regulation of programmed necrotic cell death	http://purl.obolibrary.org/obo/GO_0097300	programmed necrotic cell death
 http://purl.obolibrary.org/obo/GO_1902211	regulation of prolactin signaling pathway	http://purl.obolibrary.org/obo/GO_0038161	prolactin signaling pathway
-http://purl.obolibrary.org/obo/GO_1902005	regulation of proline biosynthetic process	http://purl.obolibrary.org/obo/GO_0006561	proline biosynthetic process
-http://purl.obolibrary.org/obo/GO_2001156	regulation of proline catabolic process to glutamate	http://purl.obolibrary.org/obo/GO_0010133	L-proline catabolic process to L-glutamate
 http://purl.obolibrary.org/obo/GO_1902834	regulation of proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905647	proline import across plasma membrane
-http://purl.obolibrary.org/obo/GO_2000214	regulation of proline metabolic process	http://purl.obolibrary.org/obo/GO_0006560	proline metabolic process
 http://purl.obolibrary.org/obo/GO_0070881	regulation of proline transport	http://purl.obolibrary.org/obo/GO_0015824	proline transport
 http://purl.obolibrary.org/obo/GO_0140845	regulation of promoter clearance from RNA polymerase II promoter	http://purl.obolibrary.org/obo/GO_0001111	RNA polymerase II promoter clearance
 http://purl.obolibrary.org/obo/GO_1900206	regulation of pronephric nephron tubule development	http://purl.obolibrary.org/obo/GO_0039020	pronephric nephron tubule development
