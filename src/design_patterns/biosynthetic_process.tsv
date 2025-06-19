@@ -795,7 +795,7 @@ http://purl.obolibrary.org/obo/GO_1904563	phosphatidylinositol 5-phosphate biosy
 http://purl.obolibrary.org/obo/GO_0006661	phosphatidylinositol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_28874	phosphatidylinositol
 http://purl.obolibrary.org/obo/GO_0046854	phosphatidylinositol phosphate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_28765	phosphatidylinositol phosphate
 http://purl.obolibrary.org/obo/GO_0036092	phosphatidylinositol-3-phosphate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26034	phosphatidylinositol 3-phosphate
-http://purl.obolibrary.org/obo/GO_0006659	phosphatidylserine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_18303	phosphatidyl-L-serine
+http://purl.obolibrary.org/obo/GO_0006659	phosphatidylserine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57262	3-sn-phosphatidyl-L-serine(1-)
 http://purl.obolibrary.org/obo/GO_1901766	phosphinothricin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_52136	glufosinate
 http://purl.obolibrary.org/obo/GO_0046312	phosphoarginine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58477	N(omega)-phosphonato-L-arginine
 http://purl.obolibrary.org/obo/GO_0046314	phosphocreatine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58092	N-phosphocreatinate(2-)
@@ -844,7 +844,6 @@ http://purl.obolibrary.org/obo/GO_0034309	primary alcohol biosynthetic process	h
 http://purl.obolibrary.org/obo/GO_1901162	primary amino compound biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_50994	primary amino compound
 http://purl.obolibrary.org/obo/GO_0010023	proanthocyanidin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26267	proanthocyanidin
 http://purl.obolibrary.org/obo/GO_0006701	progesterone biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17026	progesterone
-http://purl.obolibrary.org/obo/GO_0006561	proline biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_32871	prolinate
 http://purl.obolibrary.org/obo/GO_1902640	propan-2-ol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17824	propan-2-ol
 http://purl.obolibrary.org/obo/GO_0019542	propionate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17272	propionate
 http://purl.obolibrary.org/obo/GO_1902860	propionyl-CoA biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57392	propionyl-CoA(4-)
