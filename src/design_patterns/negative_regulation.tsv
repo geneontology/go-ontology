@@ -124,7 +124,10 @@ http://purl.obolibrary.org/obo/GO_2001277	negative regulation of L-leucine biosy
 http://purl.obolibrary.org/obo/GO_1905533	negative regulation of L-leucine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903801	L-leucine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905009	negative regulation of L-lysine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0097639	L-lysine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905625	negative regulation of L-methionine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905544	L-methionine import across plasma membrane
+http://purl.obolibrary.org/obo/GO_1902006	negative regulation of L-proline biosynthetic process	http://purl.obolibrary.org/obo/GO_0055129	L-proline biosynthetic process
+http://purl.obolibrary.org/obo/GO_2001157	negative regulation of L-proline catabolic process to L-glutamate	http://purl.obolibrary.org/obo/GO_0010133	L-proline catabolic process to L-glutamate
 http://purl.obolibrary.org/obo/GO_1905736	negative regulation of L-proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1904271	L-proline import across plasma membrane
+http://purl.obolibrary.org/obo/GO_2000215	negative regulation of L-proline metabolic process	http://purl.obolibrary.org/obo/GO_0006560	proline metabolic process
 http://purl.obolibrary.org/obo/GO_1900927	negative regulation of L-threonine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903807	L-threonine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1900930	negative regulation of L-tyrosine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903808	L-tyrosine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0140123	negative regulation of Lewy body formation	http://purl.obolibrary.org/obo/GO_0140121	Lewy body formation
@@ -2051,10 +2054,7 @@ http://purl.obolibrary.org/obo/GO_0043069	negative regulation of programmed cell
 http://purl.obolibrary.org/obo/GO_0062099	negative regulation of programmed necrotic cell death	http://purl.obolibrary.org/obo/GO_0097300	programmed necrotic cell death
 http://purl.obolibrary.org/obo/GO_1902721	negative regulation of prolactin secretion	http://purl.obolibrary.org/obo/GO_0070459	prolactin secretion
 http://purl.obolibrary.org/obo/GO_1902212	negative regulation of prolactin signaling pathway	http://purl.obolibrary.org/obo/GO_0038161	prolactin signaling pathway
-http://purl.obolibrary.org/obo/GO_1902006	negative regulation of proline biosynthetic process	http://purl.obolibrary.org/obo/GO_0006561	proline biosynthetic process
-http://purl.obolibrary.org/obo/GO_2001157	negative regulation of proline catabolic process to glutamate	http://purl.obolibrary.org/obo/GO_0010133	L-proline catabolic process to L-glutamate
 http://purl.obolibrary.org/obo/GO_1902835	negative regulation of proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905647	proline import across plasma membrane
-http://purl.obolibrary.org/obo/GO_2000215	negative regulation of proline metabolic process	http://purl.obolibrary.org/obo/GO_0006560	proline metabolic process
 http://purl.obolibrary.org/obo/GO_0140847	negative regulation of promoter clearance from RNA polymerase II promoter	http://purl.obolibrary.org/obo/GO_0001111	RNA polymerase II promoter clearance
 http://purl.obolibrary.org/obo/GO_1900207	negative regulation of pronephric nephron tubule development	http://purl.obolibrary.org/obo/GO_0039020	pronephric nephron tubule development
 http://purl.obolibrary.org/obo/GO_0031393	negative regulation of prostaglandin biosynthetic process	http://purl.obolibrary.org/obo/GO_0001516	prostaglandin biosynthetic process
