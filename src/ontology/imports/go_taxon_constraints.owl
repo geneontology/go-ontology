@@ -10387,40 +10387,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0010191 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010191">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:complementOf>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4895"/>
-                    </owl:Restriction>
-                </owl:complementOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4895"/>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <owl:disjointWith>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4895"/>
-            </owl:Restriction>
-        </owl:disjointWith>
-        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4895"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0010197 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010197">
@@ -11867,27 +11833,27 @@
     <!-- http://purl.obolibrary.org/obo/GO_0016028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016028">
-        <rdfs:subClassOf rdf:nodeID="genid1598"/>
-        <rdfs:subClassOf rdf:nodeID="genid1600"/>
+        <rdfs:subClassOf rdf:nodeID="genid1593"/>
+        <rdfs:subClassOf rdf:nodeID="genid1595"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid1598">
+    <owl:Restriction rdf:nodeID="genid1593">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50557"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid1600">
+    <owl:Restriction rdf:nodeID="genid1595">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50557"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0016028"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1598"/>
+        <owl:annotatedTarget rdf:nodeID="genid1593"/>
         <oboInOwl:source>PMID:28193819</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0016028"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1600"/>
+        <owl:annotatedTarget rdf:nodeID="genid1595"/>
         <oboInOwl:source>PMID:28193819</oboInOwl:source>
     </owl:Axiom>
     
@@ -13187,16 +13153,16 @@
     <!-- http://purl.obolibrary.org/obo/GO_0019746 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019746">
-        <rdfs:subClassOf rdf:nodeID="genid1780"/>
-        <rdfs:subClassOf rdf:nodeID="genid1783"/>
-        <rdfs:subClassOf rdf:nodeID="genid1786"/>
-        <rdfs:subClassOf rdf:nodeID="genid1789"/>
-        <owl:disjointWith rdf:nodeID="genid1792"/>
-        <owl:disjointWith rdf:nodeID="genid1794"/>
+        <rdfs:subClassOf rdf:nodeID="genid1775"/>
+        <rdfs:subClassOf rdf:nodeID="genid1778"/>
+        <rdfs:subClassOf rdf:nodeID="genid1781"/>
+        <rdfs:subClassOf rdf:nodeID="genid1784"/>
+        <owl:disjointWith rdf:nodeID="genid1787"/>
+        <owl:disjointWith rdf:nodeID="genid1789"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid1780">
+    <owl:Class rdf:nodeID="genid1775">
         <owl:complementOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -13204,7 +13170,7 @@
             </owl:Restriction>
         </owl:complementOf>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid1783">
+    <owl:Class rdf:nodeID="genid1778">
         <owl:complementOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -13212,7 +13178,7 @@
             </owl:Restriction>
         </owl:complementOf>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid1786">
+    <owl:Restriction rdf:nodeID="genid1781">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -13220,7 +13186,7 @@
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid1789">
+    <owl:Restriction rdf:nodeID="genid1784">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -13228,48 +13194,48 @@
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid1792">
+    <owl:Restriction rdf:nodeID="genid1787">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid1794">
+    <owl:Restriction rdf:nodeID="genid1789">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019746"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1780"/>
+        <owl:annotatedTarget rdf:nodeID="genid1775"/>
         <oboInOwl:source>PMID:29456243</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019746"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1783"/>
+        <owl:annotatedTarget rdf:nodeID="genid1778"/>
         <oboInOwl:source>PMID:29456243</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019746"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1786"/>
+        <owl:annotatedTarget rdf:nodeID="genid1781"/>
         <oboInOwl:source>PMID:29456243</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019746"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid1784"/>
+        <oboInOwl:source>PMID:29456243</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019746"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+        <owl:annotatedTarget rdf:nodeID="genid1787"/>
+        <oboInOwl:source>PMID:29456243</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019746"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
         <owl:annotatedTarget rdf:nodeID="genid1789"/>
-        <oboInOwl:source>PMID:29456243</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019746"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
-        <owl:annotatedTarget rdf:nodeID="genid1792"/>
-        <oboInOwl:source>PMID:29456243</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019746"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
-        <owl:annotatedTarget rdf:nodeID="genid1794"/>
         <oboInOwl:source>PMID:29456243</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -13362,28 +13328,28 @@
     <!-- http://purl.obolibrary.org/obo/GO_0019819 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019819">
-        <rdfs:subClassOf rdf:nodeID="genid1807"/>
-        <rdfs:subClassOf rdf:nodeID="genid1809"/>
+        <rdfs:subClassOf rdf:nodeID="genid1802"/>
+        <rdfs:subClassOf rdf:nodeID="genid1804"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid1807">
+    <owl:Restriction rdf:nodeID="genid1802">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4952"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid1809">
+    <owl:Restriction rdf:nodeID="genid1804">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4952"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019819"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1807"/>
+        <owl:annotatedTarget rdf:nodeID="genid1802"/>
         <oboInOwl:source>PMID:10629216</oboInOwl:source>
         <oboInOwl:source>PMID:14504266</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019819"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1809"/>
+        <owl:annotatedTarget rdf:nodeID="genid1804"/>
         <oboInOwl:source>PMID:10629216</oboInOwl:source>
         <oboInOwl:source>PMID:14504266</oboInOwl:source>
     </owl:Axiom>
@@ -13393,28 +13359,28 @@
     <!-- http://purl.obolibrary.org/obo/GO_0019820 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019820">
-        <rdfs:subClassOf rdf:nodeID="genid1811"/>
-        <rdfs:subClassOf rdf:nodeID="genid1813"/>
+        <rdfs:subClassOf rdf:nodeID="genid1806"/>
+        <rdfs:subClassOf rdf:nodeID="genid1808"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid1811">
+    <owl:Restriction rdf:nodeID="genid1806">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4952"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid1813">
+    <owl:Restriction rdf:nodeID="genid1808">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4952"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019820"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1811"/>
+        <owl:annotatedTarget rdf:nodeID="genid1806"/>
         <oboInOwl:source>PMID:10629216</oboInOwl:source>
         <oboInOwl:source>PMID:14504266</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019820"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1813"/>
+        <owl:annotatedTarget rdf:nodeID="genid1808"/>
         <oboInOwl:source>PMID:10629216</oboInOwl:source>
         <oboInOwl:source>PMID:14504266</oboInOwl:source>
     </owl:Axiom>
@@ -13424,28 +13390,28 @@
     <!-- http://purl.obolibrary.org/obo/GO_0019821 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019821">
-        <rdfs:subClassOf rdf:nodeID="genid1815"/>
-        <rdfs:subClassOf rdf:nodeID="genid1817"/>
+        <rdfs:subClassOf rdf:nodeID="genid1810"/>
+        <rdfs:subClassOf rdf:nodeID="genid1812"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid1815">
+    <owl:Restriction rdf:nodeID="genid1810">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4952"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid1817">
+    <owl:Restriction rdf:nodeID="genid1812">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4952"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019821"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1815"/>
+        <owl:annotatedTarget rdf:nodeID="genid1810"/>
         <oboInOwl:source>PMID:10629216</oboInOwl:source>
         <oboInOwl:source>PMID:14504266</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019821"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1817"/>
+        <owl:annotatedTarget rdf:nodeID="genid1812"/>
         <oboInOwl:source>PMID:10629216</oboInOwl:source>
         <oboInOwl:source>PMID:14504266</oboInOwl:source>
     </owl:Axiom>
@@ -13455,28 +13421,28 @@
     <!-- http://purl.obolibrary.org/obo/GO_0019822 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019822">
-        <rdfs:subClassOf rdf:nodeID="genid1819"/>
-        <rdfs:subClassOf rdf:nodeID="genid1821"/>
+        <rdfs:subClassOf rdf:nodeID="genid1814"/>
+        <rdfs:subClassOf rdf:nodeID="genid1816"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid1819">
+    <owl:Restriction rdf:nodeID="genid1814">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4952"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid1821">
+    <owl:Restriction rdf:nodeID="genid1816">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4952"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019822"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1819"/>
+        <owl:annotatedTarget rdf:nodeID="genid1814"/>
         <oboInOwl:source>PMID:10629216</oboInOwl:source>
         <oboInOwl:source>PMID:14504266</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019822"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1821"/>
+        <owl:annotatedTarget rdf:nodeID="genid1816"/>
         <oboInOwl:source>PMID:10629216</oboInOwl:source>
         <oboInOwl:source>PMID:14504266</oboInOwl:source>
     </owl:Axiom>
@@ -13486,28 +13452,28 @@
     <!-- http://purl.obolibrary.org/obo/GO_0019823 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019823">
-        <rdfs:subClassOf rdf:nodeID="genid1823"/>
-        <rdfs:subClassOf rdf:nodeID="genid1825"/>
+        <rdfs:subClassOf rdf:nodeID="genid1818"/>
+        <rdfs:subClassOf rdf:nodeID="genid1820"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid1823">
+    <owl:Restriction rdf:nodeID="genid1818">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4952"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid1825">
+    <owl:Restriction rdf:nodeID="genid1820">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4952"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019823"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1823"/>
+        <owl:annotatedTarget rdf:nodeID="genid1818"/>
         <oboInOwl:source>PMID:10629216</oboInOwl:source>
         <oboInOwl:source>PMID:14504266</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019823"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1825"/>
+        <owl:annotatedTarget rdf:nodeID="genid1820"/>
         <oboInOwl:source>PMID:10629216</oboInOwl:source>
         <oboInOwl:source>PMID:14504266</oboInOwl:source>
     </owl:Axiom>
@@ -13517,28 +13483,28 @@
     <!-- http://purl.obolibrary.org/obo/GO_0019824 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019824">
-        <rdfs:subClassOf rdf:nodeID="genid1827"/>
-        <rdfs:subClassOf rdf:nodeID="genid1829"/>
+        <rdfs:subClassOf rdf:nodeID="genid1822"/>
+        <rdfs:subClassOf rdf:nodeID="genid1824"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid1827">
+    <owl:Restriction rdf:nodeID="genid1822">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4952"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid1829">
+    <owl:Restriction rdf:nodeID="genid1824">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4952"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019824"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1827"/>
+        <owl:annotatedTarget rdf:nodeID="genid1822"/>
         <oboInOwl:source>PMID:10629216</oboInOwl:source>
         <oboInOwl:source>PMID:14504266</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019824"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1829"/>
+        <owl:annotatedTarget rdf:nodeID="genid1824"/>
         <oboInOwl:source>PMID:10629216</oboInOwl:source>
         <oboInOwl:source>PMID:14504266</oboInOwl:source>
     </owl:Axiom>
@@ -13788,27 +13754,27 @@
     <!-- http://purl.obolibrary.org/obo/GO_0020011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0020011">
-        <rdfs:subClassOf rdf:nodeID="genid1867"/>
-        <rdfs:subClassOf rdf:nodeID="genid1869"/>
+        <rdfs:subClassOf rdf:nodeID="genid1862"/>
+        <rdfs:subClassOf rdf:nodeID="genid1864"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid1867">
+    <owl:Restriction rdf:nodeID="genid1862">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5794"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid1869">
+    <owl:Restriction rdf:nodeID="genid1864">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5794"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0020011"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1867"/>
+        <owl:annotatedTarget rdf:nodeID="genid1862"/>
         <oboInOwl:source>PMID:12722949</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0020011"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1869"/>
+        <owl:annotatedTarget rdf:nodeID="genid1864"/>
         <oboInOwl:source>PMID:12722949</oboInOwl:source>
     </owl:Axiom>
     
@@ -15733,27 +15699,27 @@
     <!-- http://purl.obolibrary.org/obo/GO_0031299 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031299">
-        <rdfs:subClassOf rdf:nodeID="genid2109"/>
-        <rdfs:subClassOf rdf:nodeID="genid2111"/>
+        <rdfs:subClassOf rdf:nodeID="genid2104"/>
+        <rdfs:subClassOf rdf:nodeID="genid2106"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid2109">
+    <owl:Restriction rdf:nodeID="genid2104">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid2111">
+    <owl:Restriction rdf:nodeID="genid2106">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0031299"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid2109"/>
+        <owl:annotatedTarget rdf:nodeID="genid2104"/>
         <oboInOwl:source>PMID:11082195</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0031299"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid2111"/>
+        <owl:annotatedTarget rdf:nodeID="genid2106"/>
         <oboInOwl:source>PMID:11082195</oboInOwl:source>
     </owl:Axiom>
     
@@ -18883,12 +18849,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0035658 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0035658">
-        <rdfs:subClassOf rdf:nodeID="genid2533"/>
-        <rdfs:subClassOf rdf:nodeID="genid2536"/>
-        <owl:disjointWith rdf:nodeID="genid2539"/>
+        <rdfs:subClassOf rdf:nodeID="genid2528"/>
+        <rdfs:subClassOf rdf:nodeID="genid2531"/>
+        <owl:disjointWith rdf:nodeID="genid2534"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4896"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid2533">
+    <owl:Class rdf:nodeID="genid2528">
         <owl:complementOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -18896,7 +18862,7 @@
             </owl:Restriction>
         </owl:complementOf>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid2536">
+    <owl:Restriction rdf:nodeID="genid2531">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -18904,26 +18870,26 @@
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid2539">
+    <owl:Restriction rdf:nodeID="genid2534">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4896"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0035658"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid2533"/>
+        <owl:annotatedTarget rdf:nodeID="genid2528"/>
         <oboInOwl:source>PMID:37550452</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0035658"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid2536"/>
+        <owl:annotatedTarget rdf:nodeID="genid2531"/>
         <oboInOwl:source>PMID:37550452</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0035658"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
-        <owl:annotatedTarget rdf:nodeID="genid2539"/>
+        <owl:annotatedTarget rdf:nodeID="genid2534"/>
         <oboInOwl:source>PMID:37550452</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -20434,7 +20400,7 @@
                 </owl:complementOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:subClassOf rdf:nodeID="genid2749"/>
+        <rdfs:subClassOf rdf:nodeID="genid2744"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -20451,7 +20417,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf rdf:nodeID="genid2755"/>
+        <rdfs:subClassOf rdf:nodeID="genid2750"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -20464,11 +20430,11 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4895"/>
             </owl:Restriction>
         </owl:disjointWith>
-        <owl:disjointWith rdf:nodeID="genid2760"/>
+        <owl:disjointWith rdf:nodeID="genid2755"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4895"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6237"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid2749">
+    <owl:Class rdf:nodeID="genid2744">
         <owl:complementOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -20476,7 +20442,7 @@
             </owl:Restriction>
         </owl:complementOf>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid2755">
+    <owl:Restriction rdf:nodeID="genid2750">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -20484,26 +20450,26 @@
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid2760">
+    <owl:Restriction rdf:nodeID="genid2755">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6237"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0042470"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid2749"/>
+        <owl:annotatedTarget rdf:nodeID="genid2744"/>
         <oboInOwl:source>GOC:kmv</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0042470"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid2755"/>
+        <owl:annotatedTarget rdf:nodeID="genid2750"/>
         <oboInOwl:source>GOC:kmv</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0042470"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
-        <owl:annotatedTarget rdf:nodeID="genid2760"/>
+        <owl:annotatedTarget rdf:nodeID="genid2755"/>
         <oboInOwl:source>GOC:kmv</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -20723,27 +20689,27 @@
     <!-- http://purl.obolibrary.org/obo/GO_0042597 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042597">
-        <rdfs:subClassOf rdf:nodeID="genid2791"/>
-        <rdfs:subClassOf rdf:nodeID="genid2793"/>
+        <rdfs:subClassOf rdf:nodeID="genid2786"/>
+        <rdfs:subClassOf rdf:nodeID="genid2788"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid2791">
+    <owl:Restriction rdf:nodeID="genid2786">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000023"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid2793">
+    <owl:Restriction rdf:nodeID="genid2788">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000023"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0042597"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid2791"/>
+        <owl:annotatedTarget rdf:nodeID="genid2786"/>
         <oboInOwl:source>PMID:15803654</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0042597"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid2793"/>
+        <owl:annotatedTarget rdf:nodeID="genid2788"/>
         <oboInOwl:source>PMID:15803654</oboInOwl:source>
     </owl:Axiom>
     
@@ -25434,27 +25400,27 @@
     <!-- http://purl.obolibrary.org/obo/GO_0050322 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050322">
-        <rdfs:subClassOf rdf:nodeID="genid3397"/>
-        <rdfs:subClassOf rdf:nodeID="genid3399"/>
+        <rdfs:subClassOf rdf:nodeID="genid3392"/>
+        <rdfs:subClassOf rdf:nodeID="genid3394"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid3397">
+    <owl:Restriction rdf:nodeID="genid3392">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3399">
+    <owl:Restriction rdf:nodeID="genid3394">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050322"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3397"/>
+        <owl:annotatedTarget rdf:nodeID="genid3392"/>
         <oboInOwl:source>PMID:16535664</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050322"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3399"/>
+        <owl:annotatedTarget rdf:nodeID="genid3394"/>
         <oboInOwl:source>PMID:16535664</oboInOwl:source>
     </owl:Axiom>
     
@@ -25463,27 +25429,27 @@
     <!-- http://purl.obolibrary.org/obo/GO_0050323 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050323">
-        <rdfs:subClassOf rdf:nodeID="genid3401"/>
-        <rdfs:subClassOf rdf:nodeID="genid3403"/>
+        <rdfs:subClassOf rdf:nodeID="genid3396"/>
+        <rdfs:subClassOf rdf:nodeID="genid3398"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid3401">
+    <owl:Restriction rdf:nodeID="genid3396">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3403">
+    <owl:Restriction rdf:nodeID="genid3398">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050323"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3401"/>
+        <owl:annotatedTarget rdf:nodeID="genid3396"/>
         <oboInOwl:source>PMID:15073291</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050323"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3403"/>
+        <owl:annotatedTarget rdf:nodeID="genid3398"/>
         <oboInOwl:source>PMID:15073291</oboInOwl:source>
     </owl:Axiom>
     
@@ -25796,21 +25762,21 @@
     <!-- http://purl.obolibrary.org/obo/GO_0050959 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050959">
-        <rdfs:subClassOf rdf:nodeID="genid3447"/>
+        <rdfs:subClassOf rdf:nodeID="genid3442"/>
+        <rdfs:subClassOf rdf:nodeID="genid3445"/>
+        <rdfs:subClassOf rdf:nodeID="genid3448"/>
         <rdfs:subClassOf rdf:nodeID="genid3450"/>
         <rdfs:subClassOf rdf:nodeID="genid3453"/>
-        <rdfs:subClassOf rdf:nodeID="genid3455"/>
-        <rdfs:subClassOf rdf:nodeID="genid3458"/>
-        <rdfs:subClassOf rdf:nodeID="genid3461"/>
-        <owl:disjointWith rdf:nodeID="genid3463"/>
-        <owl:disjointWith rdf:nodeID="genid3465"/>
+        <rdfs:subClassOf rdf:nodeID="genid3456"/>
+        <owl:disjointWith rdf:nodeID="genid3458"/>
+        <owl:disjointWith rdf:nodeID="genid3460"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_687454"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9397"/>
         <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9722"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid3447">
+    <owl:Class rdf:nodeID="genid3442">
         <owl:complementOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -25818,7 +25784,7 @@
             </owl:Restriction>
         </owl:complementOf>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid3450">
+    <owl:Class rdf:nodeID="genid3445">
         <owl:complementOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -25826,11 +25792,11 @@
             </owl:Restriction>
         </owl:complementOf>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid3453">
+    <owl:Restriction rdf:nodeID="genid3448">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32524"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3455">
+    <owl:Restriction rdf:nodeID="genid3450">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -25838,7 +25804,7 @@
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3458">
+    <owl:Restriction rdf:nodeID="genid3453">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -25846,23 +25812,35 @@
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3461">
+    <owl:Restriction rdf:nodeID="genid3456">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32524"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3463">
+    <owl:Restriction rdf:nodeID="genid3458">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3465">
+    <owl:Restriction rdf:nodeID="genid3460">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9443"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050959"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3447"/>
+        <owl:annotatedTarget rdf:nodeID="genid3442"/>
         <oboInOwl:source>PMID:34140356</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050959"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid3445"/>
+        <oboInOwl:source>PMID:34140356</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050959"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid3448"/>
+        <oboInOwl:source>https://en.wikipedia.org/wiki/Animal_echolocation</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050959"/>
@@ -25874,36 +25852,24 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050959"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget rdf:nodeID="genid3453"/>
-        <oboInOwl:source>https://en.wikipedia.org/wiki/Animal_echolocation</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050959"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3455"/>
         <oboInOwl:source>PMID:34140356</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050959"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid3456"/>
+        <oboInOwl:source>https://en.wikipedia.org/wiki/Animal_echolocation</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050959"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
         <owl:annotatedTarget rdf:nodeID="genid3458"/>
         <oboInOwl:source>PMID:34140356</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050959"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3461"/>
-        <oboInOwl:source>https://en.wikipedia.org/wiki/Animal_echolocation</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050959"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
-        <owl:annotatedTarget rdf:nodeID="genid3463"/>
-        <oboInOwl:source>PMID:34140356</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050959"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
-        <owl:annotatedTarget rdf:nodeID="genid3465"/>
+        <owl:annotatedTarget rdf:nodeID="genid3460"/>
         <oboInOwl:source>PMID:34140356</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -26204,24 +26170,24 @@
     <!-- http://purl.obolibrary.org/obo/GO_0051644 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051644">
-        <rdfs:subClassOf rdf:nodeID="genid3506"/>
-        <rdfs:subClassOf rdf:nodeID="genid3509"/>
-        <rdfs:subClassOf rdf:nodeID="genid3512"/>
-        <rdfs:subClassOf rdf:nodeID="genid3515"/>
-        <rdfs:subClassOf rdf:nodeID="genid3518"/>
-        <rdfs:subClassOf rdf:nodeID="genid3521"/>
-        <rdfs:subClassOf rdf:nodeID="genid3524"/>
-        <rdfs:subClassOf rdf:nodeID="genid3527"/>
-        <owl:disjointWith rdf:nodeID="genid3530"/>
-        <owl:disjointWith rdf:nodeID="genid3532"/>
-        <owl:disjointWith rdf:nodeID="genid3534"/>
-        <owl:disjointWith rdf:nodeID="genid3536"/>
+        <rdfs:subClassOf rdf:nodeID="genid3501"/>
+        <rdfs:subClassOf rdf:nodeID="genid3504"/>
+        <rdfs:subClassOf rdf:nodeID="genid3507"/>
+        <rdfs:subClassOf rdf:nodeID="genid3510"/>
+        <rdfs:subClassOf rdf:nodeID="genid3513"/>
+        <rdfs:subClassOf rdf:nodeID="genid3516"/>
+        <rdfs:subClassOf rdf:nodeID="genid3519"/>
+        <rdfs:subClassOf rdf:nodeID="genid3522"/>
+        <owl:disjointWith rdf:nodeID="genid3525"/>
+        <owl:disjointWith rdf:nodeID="genid3527"/>
+        <owl:disjointWith rdf:nodeID="genid3529"/>
+        <owl:disjointWith rdf:nodeID="genid3531"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28009"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_554915"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid3506">
+    <owl:Class rdf:nodeID="genid3501">
         <owl:complementOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -26229,7 +26195,7 @@
             </owl:Restriction>
         </owl:complementOf>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid3509">
+    <owl:Class rdf:nodeID="genid3504">
         <owl:complementOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -26237,7 +26203,7 @@
             </owl:Restriction>
         </owl:complementOf>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid3512">
+    <owl:Class rdf:nodeID="genid3507">
         <owl:complementOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -26245,7 +26211,7 @@
             </owl:Restriction>
         </owl:complementOf>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid3515">
+    <owl:Class rdf:nodeID="genid3510">
         <owl:complementOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -26253,7 +26219,7 @@
             </owl:Restriction>
         </owl:complementOf>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid3518">
+    <owl:Restriction rdf:nodeID="genid3513">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -26261,7 +26227,7 @@
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3521">
+    <owl:Restriction rdf:nodeID="genid3516">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -26269,7 +26235,7 @@
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3524">
+    <owl:Restriction rdf:nodeID="genid3519">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -26277,7 +26243,7 @@
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3527">
+    <owl:Restriction rdf:nodeID="genid3522">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -26285,92 +26251,92 @@
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3530">
+    <owl:Restriction rdf:nodeID="genid3525">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28009"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3532">
+    <owl:Restriction rdf:nodeID="genid3527">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3534">
+    <owl:Restriction rdf:nodeID="genid3529">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3536">
+    <owl:Restriction rdf:nodeID="genid3531">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_554915"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051644"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3506"/>
+        <owl:annotatedTarget rdf:nodeID="genid3501"/>
         <oboInOwl:source>PMID:21311032</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051644"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3509"/>
+        <owl:annotatedTarget rdf:nodeID="genid3504"/>
         <oboInOwl:source>PMID:21311032</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051644"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3512"/>
+        <owl:annotatedTarget rdf:nodeID="genid3507"/>
         <oboInOwl:source>PMID:21311032</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051644"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3515"/>
+        <owl:annotatedTarget rdf:nodeID="genid3510"/>
         <oboInOwl:source>PMID:21311032</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051644"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3518"/>
+        <owl:annotatedTarget rdf:nodeID="genid3513"/>
         <oboInOwl:source>PMID:21311032</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051644"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3521"/>
+        <owl:annotatedTarget rdf:nodeID="genid3516"/>
         <oboInOwl:source>PMID:21311032</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051644"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3524"/>
+        <owl:annotatedTarget rdf:nodeID="genid3519"/>
         <oboInOwl:source>PMID:21311032</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051644"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid3522"/>
+        <oboInOwl:source>PMID:21311032</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051644"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+        <owl:annotatedTarget rdf:nodeID="genid3525"/>
+        <oboInOwl:source>PMID:21311032</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051644"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
         <owl:annotatedTarget rdf:nodeID="genid3527"/>
         <oboInOwl:source>PMID:21311032</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051644"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
-        <owl:annotatedTarget rdf:nodeID="genid3530"/>
+        <owl:annotatedTarget rdf:nodeID="genid3529"/>
         <oboInOwl:source>PMID:21311032</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051644"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
-        <owl:annotatedTarget rdf:nodeID="genid3532"/>
-        <oboInOwl:source>PMID:21311032</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051644"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
-        <owl:annotatedTarget rdf:nodeID="genid3534"/>
-        <oboInOwl:source>PMID:21311032</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051644"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
-        <owl:annotatedTarget rdf:nodeID="genid3536"/>
+        <owl:annotatedTarget rdf:nodeID="genid3531"/>
         <oboInOwl:source>PMID:21311032</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -28065,27 +28031,27 @@
     <!-- http://purl.obolibrary.org/obo/GO_0062200 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0062200">
-        <rdfs:subClassOf rdf:nodeID="genid3780"/>
-        <rdfs:subClassOf rdf:nodeID="genid3782"/>
+        <rdfs:subClassOf rdf:nodeID="genid3775"/>
+        <rdfs:subClassOf rdf:nodeID="genid3777"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid3780">
+    <owl:Restriction rdf:nodeID="genid3775">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid3782">
+    <owl:Restriction rdf:nodeID="genid3777">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4751"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0062200"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3780"/>
+        <owl:annotatedTarget rdf:nodeID="genid3775"/>
         <oboInOwl:source>PMID:23212898</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0062200"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid3782"/>
+        <owl:annotatedTarget rdf:nodeID="genid3777"/>
         <oboInOwl:source>PMID:23212898</oboInOwl:source>
     </owl:Axiom>
     
@@ -31561,27 +31527,27 @@
     <!-- http://purl.obolibrary.org/obo/GO_0080188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0080188">
-        <rdfs:subClassOf rdf:nodeID="genid4296"/>
-        <rdfs:subClassOf rdf:nodeID="genid4298"/>
+        <rdfs:subClassOf rdf:nodeID="genid4291"/>
+        <rdfs:subClassOf rdf:nodeID="genid4293"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid4296">
+    <owl:Restriction rdf:nodeID="genid4291">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid4298">
+    <owl:Restriction rdf:nodeID="genid4293">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0080188"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4296"/>
+        <owl:annotatedTarget rdf:nodeID="genid4291"/>
         <oboInOwl:source>PMID:33031395</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0080188"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4298"/>
+        <owl:annotatedTarget rdf:nodeID="genid4293"/>
         <oboInOwl:source>PMID:33031395</oboInOwl:source>
     </owl:Axiom>
     
@@ -35014,12 +34980,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0106340 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0106340">
-        <rdfs:subClassOf rdf:nodeID="genid4757"/>
-        <rdfs:subClassOf rdf:nodeID="genid4760"/>
-        <owl:disjointWith rdf:nodeID="genid4763"/>
+        <rdfs:subClassOf rdf:nodeID="genid4752"/>
+        <rdfs:subClassOf rdf:nodeID="genid4755"/>
+        <owl:disjointWith rdf:nodeID="genid4758"/>
         <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2157"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid4757">
+    <owl:Class rdf:nodeID="genid4752">
         <owl:complementOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
@@ -35027,7 +34993,7 @@
             </owl:Restriction>
         </owl:complementOf>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid4760">
+    <owl:Restriction rdf:nodeID="genid4755">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -35035,26 +35001,26 @@
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid4763">
+    <owl:Restriction rdf:nodeID="genid4758">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2157"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0106340"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4757"/>
+        <owl:annotatedTarget rdf:nodeID="genid4752"/>
         <oboInOwl:source>PMID:18068186</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0106340"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4760"/>
+        <owl:annotatedTarget rdf:nodeID="genid4755"/>
         <oboInOwl:source>PMID:18068186</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0106340"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
-        <owl:annotatedTarget rdf:nodeID="genid4763"/>
+        <owl:annotatedTarget rdf:nodeID="genid4758"/>
         <oboInOwl:source>PMID:18068186</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
@@ -36358,27 +36324,27 @@
     <!-- http://purl.obolibrary.org/obo/GO_0141133 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0141133">
-        <rdfs:subClassOf rdf:nodeID="genid4926"/>
-        <rdfs:subClassOf rdf:nodeID="genid4928"/>
+        <rdfs:subClassOf rdf:nodeID="genid4921"/>
+        <rdfs:subClassOf rdf:nodeID="genid4923"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid4926">
+    <owl:Restriction rdf:nodeID="genid4921">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid4928">
+    <owl:Restriction rdf:nodeID="genid4923">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0141133"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4926"/>
+        <owl:annotatedTarget rdf:nodeID="genid4921"/>
         <oboInOwl:source>PMID:24739148</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0141133"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4928"/>
+        <owl:annotatedTarget rdf:nodeID="genid4923"/>
         <oboInOwl:source>PMID:24739148</oboInOwl:source>
     </owl:Axiom>
     
@@ -36421,27 +36387,27 @@
     <!-- http://purl.obolibrary.org/obo/GO_0141153 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0141153">
-        <rdfs:subClassOf rdf:nodeID="genid4935"/>
-        <rdfs:subClassOf rdf:nodeID="genid4937"/>
+        <rdfs:subClassOf rdf:nodeID="genid4930"/>
+        <rdfs:subClassOf rdf:nodeID="genid4932"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid4935">
+    <owl:Restriction rdf:nodeID="genid4930">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid4937">
+    <owl:Restriction rdf:nodeID="genid4932">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0141153"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4935"/>
+        <owl:annotatedTarget rdf:nodeID="genid4930"/>
         <oboInOwl:source>PMID:15557260</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0141153"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4937"/>
+        <owl:annotatedTarget rdf:nodeID="genid4932"/>
         <oboInOwl:source>PMID:15557260</oboInOwl:source>
     </owl:Axiom>
     
@@ -36450,27 +36416,27 @@
     <!-- http://purl.obolibrary.org/obo/GO_0141169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0141169">
-        <rdfs:subClassOf rdf:nodeID="genid4939"/>
-        <rdfs:subClassOf rdf:nodeID="genid4941"/>
+        <rdfs:subClassOf rdf:nodeID="genid4934"/>
+        <rdfs:subClassOf rdf:nodeID="genid4936"/>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid4939">
+    <owl:Restriction rdf:nodeID="genid4934">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid4941">
+    <owl:Restriction rdf:nodeID="genid4936">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
         <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0141169"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4939"/>
+        <owl:annotatedTarget rdf:nodeID="genid4934"/>
         <oboInOwl:source>PMID:31546611</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0141169"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid4941"/>
+        <owl:annotatedTarget rdf:nodeID="genid4936"/>
         <oboInOwl:source>PMID:31546611</oboInOwl:source>
     </owl:Axiom>
     
