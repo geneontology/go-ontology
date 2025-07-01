@@ -138,8 +138,7 @@ GO:0009888	tissue development	NCBITaxon:33630	Alveolata
 GO:0009888	tissue development	NCBITaxon:33682	Euglenozoa	
 GO:0009888	tissue development	NCBITaxon:38254	Glaucocystophyceae	
 GO:0009888	tissue development	NCBITaxon:4891	Saccharomycetes	
-GO:0010166	wax metabolic process	NCBITaxon:4895	Schizosaccharomyces	
-GO:0010191	mucilage metabolic process	NCBITaxon:4895	Schizosaccharomyces	
+GO:0010166	wax metabolic process	NCBITaxon:4895	Schizosaccharomyces		
 GO:0010205	photoinhibition	NCBITaxon:33208	Metazoa	
 GO:0010206	photosystem II repair	NCBITaxon:33208	Metazoa	
 GO:0010380	regulation of chlorophyll biosynthetic process	NCBITaxon:33208	Metazoa	
