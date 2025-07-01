@@ -211,7 +211,6 @@ GO:0010358	leaf shaping	NCBITaxon:33090	Viridiplantae
 GO:0010368	chloroplast isoamylase complex	NCBITaxon:33090	Viridiplantae	
 GO:0010374	stomatal complex development	NCBITaxon:33090	Viridiplantae	
 GO:0010377	guard cell fate commitment	NCBITaxon:33090	Viridiplantae	
-GO:0010419	rhamnogalacturonan II side chain metabolic process	NCBITaxon:33090	Viridiplantae	
 GO:0010433	bract morphogenesis	NCBITaxon:33090	Viridiplantae	
 GO:0010434	bract formation	NCBITaxon:33090	Viridiplantae	
 GO:0010657	muscle cell apoptotic process	NCBITaxon:33208	Metazoa	
@@ -270,7 +269,6 @@ GO:0030313	cell envelope	NCBITaxon:2	Bacteria
 GO:0030427	site of polarized growth	NCBITaxon:131567	cellular organisms	
 GO:0030437	ascospore formation	NCBITaxon:4890	Ascomycota	
 GO:0030479	actin cortical patch	NCBITaxon:4751	Fungi	
-GO:0030493	bacteriochlorophyll metabolic process	NCBITaxon:Union_0000004	Prokaryota	
 GO:0030537	larval behavior	NCBITaxon:6072	Eumetazoa	
 GO:0030584	sporocarp development	NCBITaxon:4751	Fungi	
 GO:0030587	sorocarp development	NCBITaxon:33083	Dictyostelids	
@@ -587,7 +585,6 @@ GO:0140266	Woronin body	NCBITaxon:4890	Ascomycota
 GO:0150064	vertebrate eye-specific patterning	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0150077	regulation of neuroinflammatory response	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:1900727	osmoregulated periplasmic glucan biosynthetic process	NCBITaxon:2	Bacteria	
-GO:1902755	sulfurated eukaryotic molybdenum cofactor(2-) metabolic process	NCBITaxon:2759	Eukaryota	
 GO:1903000	regulation of lipid transport across blood-brain barrier	NCBITaxon:6072	Eumetazoa	
 GO:1903395	regulation of secondary cell septum biogenesis	NCBITaxon:2759	Eukaryota	
 GO:1905266	blasticidin S biosynthetic process	NCBITaxon:2	Bacteria	
@@ -757,7 +754,6 @@ GO:0052704	ergothioneine biosynthesis from histidine via gamma-glutamyl-hercynyl
 GO:0140479	ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase	NCBITaxon:4751	Fungi	
 GO:0140494	migrasome	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0140495	migracytosis	NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0106303	mannogen metabolic process	NCBITaxon:5658	Leishmania	
 GO:0120259	7SK snRNP	NCBITaxon:33208	Metazoa	
 GO:0120260	ciliary microtubule quartet	NCBITaxon:5653	Kinetoplastida	
 GO:0140525	antipodal site	NCBITaxon:5653	Kinetoplastea	
