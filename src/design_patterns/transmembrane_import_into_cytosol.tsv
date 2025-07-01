@@ -59,6 +59,8 @@ http://purl.obolibrary.org/obo/GO_1990573	potassium ion import across plasma mem
 http://purl.obolibrary.org/obo/GO_1905647	proline import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_26271	proline
 http://purl.obolibrary.org/obo/GO_0140204	pyridoxal import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_17310	pyridoxal
 http://purl.obolibrary.org/obo/GO_1903075	pyridoxine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_16709	pyridoxine
+http://purl.obolibrary.org/obo/GO_0160284	queuine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_17433	queuine
+http://purl.obolibrary.org/obo/GO_0160287	queuosine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_60193	queuosine
 http://purl.obolibrary.org/obo/GO_0098718	serine import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_35243	serine zwitterion
 http://purl.obolibrary.org/obo/GO_0015708	silicic acid import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_26675	silicic acid
 http://purl.obolibrary.org/obo/GO_0098719	sodium ion import across plasma membrane	http://purl.obolibrary.org/obo/CHEBI_29101	sodium(1+)
