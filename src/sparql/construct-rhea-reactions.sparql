@@ -17,14 +17,15 @@ CONSTRUCT {
     ?participant rdfs:subClassOf ?compound_type .
 }
 WHERE {
-?reaction rdfs:subClassOf rh:Reaction . 
+VALUES ?reaction_type { rh:Reaction rh:DirectionalReaction rh:BidirectionalReaction }
+?reaction rdfs:subClassOf ?reaction_type .
 ?reaction rh:status rh:Approved .
 ?reaction rh:equation ?reaction_label . 
 OPTIONAL {
     ?reaction rh:ec ?ec .
 }
 # get participants
-?reaction rh:side ?reaction_side .
+?reaction rh:side|rh:substrates|rh:products|rh:substratesOrProducts ?reaction_side .
 ?reaction_side rh:curatedOrder ?side_order .
 ?reaction_side rh:contains ?participant .
 ?reaction_side ?containsWithStoich ?participant . 
