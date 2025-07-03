@@ -42,7 +42,7 @@ def main(rheaFile: os.Path, goFile: os.Path, catalog: os.Path, outfile: os.Path)
     AnnotationAssertion(anns, HasDbXref, goTermIRI: IRI, RHEAPattern(id) ^^ _) <- goAxioms
     if !isDeprecated(goTermIRI, go)
     if !anns.exists {
-      case Annotation(_, Source, ("skos:narrowMatch" ^^ _) | ("skos:relatedMatch" ^^ _)) => true
+      case Annotation(_, Source, ("skos:narrowMatch" ^^ _) | ("skos:relatedMatch" ^^ _) | ("skos:broadMatch" ^^ _)) => true
       case _ => false
     }
     goTerm = Class(goTermIRI)
