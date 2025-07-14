@@ -81,7 +81,7 @@ stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ON
 
 test: datalog-violations.tsv $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
-travis_test: check_all_taxon_constraints_columns datalog-violations.tsv chebi_pH_7_3_check $(SRC)-check travis_build change-report.txt 
+travis_test: check_all_taxon_constraints_columns datalog-violations.tsv chebi_pH_7_3_check $(SRC)-check travis_build change-report.txt
 
 # This target combines features from reasoned.owl, enhanced.owl, sparql_test into a faster mode for Travis/GitHub Actions.
 # These must be kept in sync.
@@ -495,7 +495,7 @@ mirror/rhea.rdf:
 	arq -q --data=../resources/enzyme.rdf --query=../sparql/query-obsolete-ec.sparql --results=tsv | tail -n +2 | sort >$@
 
 # bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
-bio-chebi.owl: mirror/chebi.owl chebi-ph7_3-slim.ofn biochebi_gcis.ofn imports/substance_by_role.owl 
+bio-chebi.owl: mirror/chebi.owl chebi-ph7_3-slim.ofn biochebi_gcis.ofn imports/substance_by_role.owl
 	$(ROBOT) merge -i $< -i chebi-ph7_3-slim.ofn -i biochebi_gcis.ofn -i imports/substance_by_role.owl annotate --ontology-iri $(BASE)/extensions/$@ -V $(RELEASE_URIBASE)/extensions/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
 
 ../biochebi/chebi_pH7_3_mapping.tsv:
@@ -596,17 +596,17 @@ EXTERNAL2GO_DBS = EC KEGG_REACTION MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD
 .PHONY: generate-mappings
 generate-mappings: $(ONT)-pre.owl
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals $(EXTERNAL2GO_DBS)
-	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/interpro2go -O external2go/interpro2go
-	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pfam2go -O external2go/pfam2go
-	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/pirsf2go -O external2go/pirsf2go
-	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prints2go -O external2go/prints2go
-	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/prosite2go -O external2go/prosite2go
-	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/smart2go -O external2go/smart2go
-	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_kw2go -O external2go/uniprotkb_kw2go
-	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/uniprotkb_sl2go -O external2go/uniprotkb_sl2go
-	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/unirule2go -O external2go/unirule2go
-	wget https://ftp.ebi.ac.uk/pub/databases/GO/goa/external2go/hamap2go -O external2go/hamap2go
-	wget https://ftp.ebi.ac.uk/pub/databases/Rfam/CURRENT/rfam2go -O external2go/rfam2go
+	wget https://mirror.geneonyology.io/interpro2go -O external2go/interpro2go
+	wget https://mirror.geneontology.io/pfam2go -O external2go/pfam2go
+	wget https://mirror.geneontology.io/pirsf2go -O external2go/pirsf2go
+	wget https://mirror.geneontology.io/prints2go -O external2go/prints2go
+	wget https://mirror.geneontology.io/prosite2go -O external2go/prosite2go
+	wget https://mirror.geneontology.io/smart2go -O external2go/smart2go
+	wget https://mirror.geneontology.io/uniprotkb_kw2go -O external2go/uniprotkb_kw2go
+	wget https://mirror.geneontology.io/uniprotkb_sl2go -O external2go/uniprotkb_sl2go
+	wget https://mirror.geneontology.io/unirule2go -O external2go/unirule2go
+	wget https://mirror.geneontology.io/hamap2go -O external2go/hamap2go
+	wget https://mirror.geneontology.io/rfam2go -O external2go/rfam2go
 
 # ----------------------------------------
 # TAXON GROUPINGS
