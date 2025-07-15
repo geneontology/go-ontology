@@ -596,7 +596,7 @@ EXTERNAL2GO_DBS = EC KEGG_REACTION MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD
 .PHONY: generate-mappings
 generate-mappings: $(ONT)-pre.owl
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals $(EXTERNAL2GO_DBS)
-	wget https://mirror.geneonyology.io/interpro2go -O external2go/interpro2go
+	wget https://mirror.geneontology.io/interpro2go -O external2go/interpro2go
 	wget https://mirror.geneontology.io/pfam2go -O external2go/pfam2go
 	wget https://mirror.geneontology.io/pirsf2go -O external2go/pirsf2go
 	wget https://mirror.geneontology.io/prints2go -O external2go/prints2go
