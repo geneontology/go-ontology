@@ -45,7 +45,6 @@ http://purl.obolibrary.org/obo/GO_1901887	2-hydroxybenzoyl-CoA biosynthetic proc
 http://purl.obolibrary.org/obo/GO_1902194	2-methylbut-2-enoyl-CoA(4-) biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57260	2-methylbut-2-enoyl-CoA(4-)
 http://purl.obolibrary.org/obo/GO_1902191	2-methylbutanoyl-CoA(4-) biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57336	2-methylbutanoyl-CoA(4-)
 http://purl.obolibrary.org/obo/GO_0046360	2-oxobutyrate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16763	2-oxobutanoate
-http://purl.obolibrary.org/obo/GO_0052653	3',5'-cyclic diguanylic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_58805	c-di-GMP(2-)
 http://purl.obolibrary.org/obo/GO_0050428	3'-phosphoadenosine 5'-phosphosulfate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58339	3'-phosphonato-5'-adenylyl sulfate(4-)
 http://purl.obolibrary.org/obo/GO_0046279	3,4-dihydroxybenzoate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_36241	3,4-dihydroxybenzoate
 http://purl.obolibrary.org/obo/GO_1901792	3-(2,3-dihydroxyphenyl)propanoate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_46951	3-(2,3-dihydroxyphenyl)propanoate
@@ -762,7 +761,7 @@ http://purl.obolibrary.org/obo/GO_0035831	palmatine biosynthetic process	http://
 http://purl.obolibrary.org/obo/GO_1900535	palmitic acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_7896	hexadecanoate
 http://purl.obolibrary.org/obo/GO_0015940	pantothenate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16454	pantothenate
 http://purl.obolibrary.org/obo/GO_0140874	paraherquonin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_156379	paraherquonin
-http://purl.obolibrary.org/obo/GO_1901155	paromomycin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_7934	paromomycin
+http://purl.obolibrary.org/obo/GO_1901155	paromomycin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_233202	paromomycin(5+)
 http://purl.obolibrary.org/obo/GO_0140723	patulin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_74926	patulin
 http://purl.obolibrary.org/obo/GO_0140873	paxilline biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_34907	paxilline
 http://purl.obolibrary.org/obo/GO_0045489	pectin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17309	pectin
