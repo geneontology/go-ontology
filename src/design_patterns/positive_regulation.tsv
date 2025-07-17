@@ -313,7 +313,6 @@ http://purl.obolibrary.org/obo/GO_1902993	positive regulation of amyloid precurs
 http://purl.obolibrary.org/obo/GO_1900223	positive regulation of amyloid-beta clearance	http://purl.obolibrary.org/obo/GO_0097242	amyloid-beta clearance
 http://purl.obolibrary.org/obo/GO_1902004	positive regulation of amyloid-beta formation	http://purl.obolibrary.org/obo/GO_0034205	amyloid-beta formation
 http://purl.obolibrary.org/obo/GO_2000947	positive regulation of amylopectin catabolic process	http://purl.obolibrary.org/obo/GO_2000897	amylopectin catabolic process
-http://purl.obolibrary.org/obo/GO_2000944	positive regulation of amylopectin metabolic process	http://purl.obolibrary.org/obo/GO_2000896	amylopectin metabolic process
 http://purl.obolibrary.org/obo/GO_1905786	positive regulation of anaphase-promoting complex-dependent catabolic process	http://purl.obolibrary.org/obo/GO_0031145	anaphase-promoting complex-dependent catabolic process
 http://purl.obolibrary.org/obo/GO_2000825	positive regulation of androgen receptor activity	http://purl.obolibrary.org/obo/GO_0004879	nuclear receptor activity
 http://purl.obolibrary.org/obo/GO_0160207	positive regulation of androgen receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0030521	androgen receptor signaling pathway
@@ -614,13 +613,9 @@ http://purl.obolibrary.org/obo/GO_0001954	positive regulation of cell-matrix adh
 http://purl.obolibrary.org/obo/GO_0010811	positive regulation of cell-substrate adhesion	http://purl.obolibrary.org/obo/GO_0031589	cell-substrate adhesion
 http://purl.obolibrary.org/obo/GO_0150117	positive regulation of cell-substrate junction organization	http://purl.obolibrary.org/obo/GO_0150115	cell-substrate junction organization
 http://purl.obolibrary.org/obo/GO_1900284	positive regulation of cellobiose catabolic process	http://purl.obolibrary.org/obo/GO_2000892	cellobiose catabolic process
-http://purl.obolibrary.org/obo/GO_2000932	positive regulation of cellobiose metabolic process	http://purl.obolibrary.org/obo/GO_2000891	cellobiose metabolic process
 http://purl.obolibrary.org/obo/GO_2000929	positive regulation of cellodextrin catabolic process	http://purl.obolibrary.org/obo/GO_2000890	cellodextrin catabolic process
-http://purl.obolibrary.org/obo/GO_2000926	positive regulation of cellodextrin metabolic process	http://purl.obolibrary.org/obo/GO_2000889	cellodextrin metabolic process
 http://purl.obolibrary.org/obo/GO_2000965	positive regulation of cellooligosaccharide catabolic process	http://purl.obolibrary.org/obo/GO_2000903	cellooligosaccharide catabolic process
-http://purl.obolibrary.org/obo/GO_2000962	positive regulation of cellooligosaccharide metabolic process	http://purl.obolibrary.org/obo/GO_2000902	cellooligosaccharide metabolic process
 http://purl.obolibrary.org/obo/GO_2000938	positive regulation of cellotriose catabolic process	http://purl.obolibrary.org/obo/GO_2000894	cellotriose catabolic process
-http://purl.obolibrary.org/obo/GO_2000935	positive regulation of cellotriose metabolic process	http://purl.obolibrary.org/obo/GO_2000893	cellotriose metabolic process
 http://purl.obolibrary.org/obo/GO_1900287	positive regulation of cellotriose transport	http://purl.obolibrary.org/obo/GO_2001096	cellotriose transport
 http://purl.obolibrary.org/obo/GO_0044089	positive regulation of cellular component biogenesis	http://purl.obolibrary.org/obo/GO_0044085	cellular component biogenesis
 http://purl.obolibrary.org/obo/GO_0051130	positive regulation of cellular component organization	http://purl.obolibrary.org/obo/GO_0016043	cellular component organization
@@ -780,7 +775,6 @@ http://purl.obolibrary.org/obo/GO_0051343	positive regulation of cyclic-nucleoti
 http://purl.obolibrary.org/obo/GO_1904031	positive regulation of cyclin-dependent protein kinase activity	http://purl.obolibrary.org/obo/GO_0097472	cyclin-dependent protein kinase activity
 http://purl.obolibrary.org/obo/GO_0045737	positive regulation of cyclin-dependent protein serine/threonine kinase activity	http://purl.obolibrary.org/obo/GO_0004693	cyclin-dependent protein serine/threonine kinase activity
 http://purl.obolibrary.org/obo/GO_2000959	positive regulation of cyclodextrin catabolic process	http://purl.obolibrary.org/obo/GO_2000901	cyclodextrin catabolic process
-http://purl.obolibrary.org/obo/GO_2000956	positive regulation of cyclodextrin metabolic process	http://purl.obolibrary.org/obo/GO_2000900	cyclodextrin metabolic process
 http://purl.obolibrary.org/obo/GO_1901496	positive regulation of cysteine metabolic process	http://purl.obolibrary.org/obo/GO_0006534	cysteine metabolic process
 http://purl.obolibrary.org/obo/GO_1904960	positive regulation of cytochrome-c oxidase activity	http://purl.obolibrary.org/obo/GO_0004129	cytochrome-c oxidase activity
 http://purl.obolibrary.org/obo/GO_0001819	positive regulation of cytokine production	http://purl.obolibrary.org/obo/GO_0001816	cytokine production
@@ -2392,7 +2386,6 @@ http://purl.obolibrary.org/obo/GO_0045881	positive regulation of sporulation res
 http://purl.obolibrary.org/obo/GO_1903672	positive regulation of sprouting angiogenesis	http://purl.obolibrary.org/obo/GO_0002040	sprouting angiogenesis
 http://purl.obolibrary.org/obo/GO_0048687	positive regulation of sprouting of injured axon	http://purl.obolibrary.org/obo/GO_0048682	sprouting of injured axon
 http://purl.obolibrary.org/obo/GO_2000883	positive regulation of starch catabolic process	http://purl.obolibrary.org/obo/GO_0005983	starch catabolic process
-http://purl.obolibrary.org/obo/GO_2000906	positive regulation of starch metabolic process	http://purl.obolibrary.org/obo/GO_0005982	starch metabolic process
 http://purl.obolibrary.org/obo/GO_1900514	positive regulation of starch utilization system complex assembly	http://purl.obolibrary.org/obo/GO_0044574	starch utilization system complex assembly
 http://purl.obolibrary.org/obo/GO_2000738	positive regulation of stem cell differentiation	http://purl.obolibrary.org/obo/GO_0048863	stem cell differentiation
 http://purl.obolibrary.org/obo/GO_1902459	positive regulation of stem cell population maintenance	http://purl.obolibrary.org/obo/GO_0019827	stem cell population maintenance
@@ -2689,7 +2682,6 @@ http://purl.obolibrary.org/obo/GO_1905701	positive regulation of xenobiotic deto
 http://purl.obolibrary.org/obo/GO_1904417	positive regulation of xenophagy	http://purl.obolibrary.org/obo/GO_0098792	xenophagy
 http://purl.obolibrary.org/obo/GO_2001002	positive regulation of xylan catabolic process	http://purl.obolibrary.org/obo/GO_0045493	xylan catabolic process
 http://purl.obolibrary.org/obo/GO_2000953	positive regulation of xyloglucan catabolic process	http://purl.obolibrary.org/obo/GO_2000899	xyloglucan catabolic process
-http://purl.obolibrary.org/obo/GO_2000950	positive regulation of xyloglucan metabolic process	http://purl.obolibrary.org/obo/GO_0010411	xyloglucan metabolic process
 http://purl.obolibrary.org/obo/GO_1900517	positive regulation of xylose catabolic process to ethanol	http://purl.obolibrary.org/obo/GO_0044577	D-xylose catabolic process to ethanol
 http://purl.obolibrary.org/obo/GO_0075220	positive regulation of zoospore encystment on host	http://purl.obolibrary.org/obo/GO_0075218	zoospore encystment on host
 http://purl.obolibrary.org/obo/GO_0075241	positive regulation of zoospore formation	http://purl.obolibrary.org/obo/GO_0075239	zoospore formation
