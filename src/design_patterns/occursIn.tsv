@@ -5,7 +5,7 @@ http://purl.obolibrary.org/obo/GO_0002421	B cell antigen processing and presenta
 http://purl.obolibrary.org/obo/GO_0001783	B cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000236	B cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0050853	B cell receptor signaling pathway	http://purl.obolibrary.org/obo/CL_0000236	B cell	http://purl.obolibrary.org/obo/GO_0050851	antigen receptor-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0002514	B cell tolerance induction	http://purl.obolibrary.org/obo/CL_0000236	B cell	http://purl.obolibrary.org/obo/GO_0002507	tolerance induction
-http://purl.obolibrary.org/obo/GO_1904381	Golgi apparatus mannose trimming	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus	http://purl.obolibrary.org/obo/GO_0036508	protein alpha-1,2-demannosylation
+http://purl.obolibrary.org/obo/GO_1904381	Golgi apparatus N-glycan mannose trimming	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus	http://purl.obolibrary.org/obo/GO_0036508	protein alpha-1,2-demannosylation
 http://purl.obolibrary.org/obo/GO_0032468	Golgi calcium ion homeostasis	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus	http://purl.obolibrary.org/obo/GO_0055074	calcium ion homeostasis
 http://purl.obolibrary.org/obo/GO_0086017	Purkinje myocyte action potential	http://purl.obolibrary.org/obo/CL_0002068	Purkinje myocyte	http://purl.obolibrary.org/obo/GO_0001508	action potential
 http://purl.obolibrary.org/obo/GO_0086015	SA node cell action potential	http://purl.obolibrary.org/obo/CL_1000409	myocyte of sinoatrial node	http://purl.obolibrary.org/obo/GO_0001508	action potential
