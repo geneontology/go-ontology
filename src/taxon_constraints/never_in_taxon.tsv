@@ -103,6 +103,8 @@ GO:0007276	gamete generation	NCBITaxon:2	Bacteria
 GO:0007276	gamete generation	NCBITaxon:2157	Archaea	
 GO:0007540	sex determination, establishment of X:A ratio	NCBITaxon:8782	Aves	
 GO:0008013	beta-catenin binding	NCBITaxon:4751	Fungi	
+GO:0008137	NADH dehydrogenase (ubiquinone) activity	NCBITaxon:4895	Schizosaccharomyces	
+GO:0008137	NADH dehydrogenase (ubiquinone) activity	NCBITaxon:4930	Saccharomyces	
 GO:0008188	neuropeptide receptor activity	NCBITaxon:4751	Fungi	
 GO:0008203	cholesterol metabolic process	NCBITaxon:4895	Schizosaccharomyces	
 GO:0008203	cholesterol metabolic process	NCBITaxon:4930	Saccharomyces	
