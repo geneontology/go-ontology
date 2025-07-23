@@ -1,5 +1,6 @@
 format-version: 1.2
-data-version: go/releases/2025-01-23/imports/fao_import.owl
+data-version: go/releases/2025-07-23/imports/fao_import.owl
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 ontology: go/imports/fao_import
 
 [Term]
@@ -9,6 +10,7 @@ namespace: fungal_anatomy_ontology
 def: "An anatomical structure that forms all or part of a fungus." [FAO:mah]
 synonym: "fungal structure ontology" RELATED []
 xref: BTO:0001494
+is_a: UBERON:0000061
 relationship: RO:0002160 NCBITaxon:4751
 
 [Term]
