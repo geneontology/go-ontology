@@ -41,3 +41,6 @@ target/
 # Mac specific weirdness
 .DS_Store
 src/.DS_Store
+
+# Build/development tools created by CI/CD setup
+tools/
