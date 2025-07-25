@@ -566,7 +566,7 @@ GO:0005764	lysosome	NCBITaxon:4751	Fungi
 GO:0043202	lysosomal lumen	NCBITaxon:4751	Fungi	
 GO:0005765	lysosomal membrane	NCBITaxon:4751	Fungi	
 GO:0071588	hydrogen peroxide mediated signaling pathway	NCBITaxon:4751	Fungi	
-GO:0071818	BAT3 complex	NCBITaxon:4890 	Ascomycota	
+GO:0071818	BAT3 complex	NCBITaxon:4890	Ascomycota	
 GO:0016922	nuclear receptor binding	NCBITaxon:4751	Fungi	
 GO:0016922	nuclear receptor binding	NCBITaxon:2	Bacteria	
 GO:0016922	nuclear receptor binding	NCBITaxon:2157	Archaea	
@@ -671,8 +671,8 @@ GO:0010591	regulation of lamellipodium assembly	NCBITaxon:4890	Ascomycota
 GO:0051490	negative regulation of filopodium assembly	NCBITaxon:4890	Ascomycota	
 GO:0043066	negative regulation of apoptotic process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0042981	regulation of apoptotic process	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:2001235 	positive regulation of apoptotic signaling pathway	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:1903298 	negative regulation of hypoxia-induced intrinsic apoptotic signaling pathway	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:2001235	positive regulation of apoptotic signaling pathway	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:1903298	negative regulation of hypoxia-induced intrinsic apoptotic signaling pathway	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0050865	regulation of cell activation	NCBITaxon:4890	Ascomycota	
 GO:0070877	microprocessor complex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:2000636	positive regulation of primary miRNA processing	NCBITaxon:4896	Schizosaccharomyces pombe	
@@ -688,3 +688,5 @@ GO:0141152	glycerol-3-phosphate dehydrogenase (NAD+) activity	NCBITaxon:2157	Arc
 GO:0000105	L-histidine biosynthetic process	NCBITaxon:7742	Vertebrata	
 GO:0071266	'de novo' L-methionine biosynthetic process	NCBITaxon:40674	Mammalia	
 GO:0061708	tRNA-5-taurinomethyluridine 2-sulfurtransferase	NCBITaxon:4751	Fungi	
+GO:0008137	NADH dehydrogenase (ubiquinone) activity	NCBITaxon:4895	Schizosaccharomyces	PMID:26173916
+GO:0008137	NADH dehydrogenase (ubiquinone) activity	NCBITaxon:4930	Saccharomyces	PMID:26173916
