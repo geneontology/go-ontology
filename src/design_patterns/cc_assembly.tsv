@@ -82,7 +82,6 @@ http://purl.obolibrary.org/obo/GO_0090529	cell septum assembly	http://purl.oboli
 http://purl.obolibrary.org/obo/GO_0070726	cell wall assembly	http://purl.obolibrary.org/obo/GO_0005618	cell wall
 http://purl.obolibrary.org/obo/GO_0044575	cellulosome assembly	http://purl.obolibrary.org/obo/GO_0043263	cellulosome
 http://purl.obolibrary.org/obo/GO_0098534	centriole assembly	http://purl.obolibrary.org/obo/GO_0005814	centriole
-http://purl.obolibrary.org/obo/GO_0034508	centromere complex assembly	http://purl.obolibrary.org/obo/GO_0000775	chromosome, centromeric region
 http://purl.obolibrary.org/obo/GO_1904763	chaperone-mediated autophagy translocation complex assembly	http://purl.obolibrary.org/obo/GO_0061742	chaperone-mediated autophagy translocation complex
 http://purl.obolibrary.org/obo/GO_0051026	chiasma assembly	http://purl.obolibrary.org/obo/GO_0005712	chiasma
 http://purl.obolibrary.org/obo/GO_0034378	chylomicron assembly	http://purl.obolibrary.org/obo/GO_0042627	chylomicron
@@ -244,6 +243,7 @@ http://purl.obolibrary.org/obo/GO_0036060	slit diaphragm assembly	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0000491	small nucleolar ribonucleoprotein complex assembly	http://purl.obolibrary.org/obo/GO_0005732	sno(s)RNA-containing ribonucleoprotein complex
 http://purl.obolibrary.org/obo/GO_0034462	small-subunit processome assembly	http://purl.obolibrary.org/obo/GO_0032040	small-subunit processome
 http://purl.obolibrary.org/obo/GO_0090528	smooth septate junction assembly	http://purl.obolibrary.org/obo/GO_0005920	smooth septate junction
+http://purl.obolibrary.org/obo/GO_0160293	sodium-translocating NADH-quinone reductase complex assembly	http://purl.obolibrary.org/obo/GO_0160292	sodium-translocating NADH:quinone reductase complex
 http://purl.obolibrary.org/obo/GO_0051225	spindle assembly	http://purl.obolibrary.org/obo/GO_0005819	spindle
 http://purl.obolibrary.org/obo/GO_0051255	spindle midzone assembly	http://purl.obolibrary.org/obo/GO_0051233	spindle midzone
 http://purl.obolibrary.org/obo/GO_0030474	spindle pole body duplication	http://purl.obolibrary.org/obo/GO_0005816	spindle pole body
