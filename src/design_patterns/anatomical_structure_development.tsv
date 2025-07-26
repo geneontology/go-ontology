@@ -1,6 +1,7 @@
 defined_class	defined_class_label	target	target_label
 http://purl.obolibrary.org/obo/GO_0070384	Harderian gland development	http://purl.obolibrary.org/obo/UBERON_0004187	Harderian gland
 http://purl.obolibrary.org/obo/GO_0003164	His-Purkinje system development	http://purl.obolibrary.org/obo/UBERON_0004146	His-Purkinje system
+http://purl.obolibrary.org/obo/GO_0070792	Hulle cell development	http://purl.obolibrary.org/obo/FAO_0000048	Hulle cell
 http://purl.obolibrary.org/obo/GO_0072002	Malpighian tubule development	http://purl.obolibrary.org/obo/UBERON_0001054	Malpighian tubule
 http://purl.obolibrary.org/obo/GO_0048541	Peyer's patch development	http://purl.obolibrary.org/obo/UBERON_0001211	Peyer's patch
 http://purl.obolibrary.org/obo/GO_0003165	Purkinje myocyte development	http://purl.obolibrary.org/obo/UBERON_0002354	cardiac Purkinje fiber
@@ -31,6 +32,7 @@ http://purl.obolibrary.org/obo/GO_0048736	appendage development	http://purl.obol
 http://purl.obolibrary.org/obo/GO_0060840	artery development	http://purl.obolibrary.org/obo/UBERON_0001637	artery
 http://purl.obolibrary.org/obo/GO_0035905	ascending aorta development	http://purl.obolibrary.org/obo/UBERON_0001496	ascending aorta
 http://purl.obolibrary.org/obo/GO_0072021	ascending thin limb development	http://purl.obolibrary.org/obo/UBERON_0004193	loop of Henle ascending limb thin segment
+http://purl.obolibrary.org/obo/GO_0075317	ascus development	http://purl.obolibrary.org/obo/FAO_0000014	ascus
 http://purl.obolibrary.org/obo/GO_0003228	atrial cardiac muscle tissue development	http://purl.obolibrary.org/obo/UBERON_0004490	cardiac muscle tissue of atrium
 http://purl.obolibrary.org/obo/GO_0003283	atrial septum development	http://purl.obolibrary.org/obo/UBERON_0002085	interatrial septum
 http://purl.obolibrary.org/obo/GO_0003286	atrial septum intermedium development	http://purl.obolibrary.org/obo/UBERON_0004159	atrial septum intermedium
@@ -39,6 +41,7 @@ http://purl.obolibrary.org/obo/GO_0003171	atrioventricular valve development	htt
 http://purl.obolibrary.org/obo/GO_0048483	autonomic nervous system development	http://purl.obolibrary.org/obo/UBERON_0002410	autonomic nervous system
 http://purl.obolibrary.org/obo/GO_1990375	baculum development	http://purl.obolibrary.org/obo/UBERON_0006435	os penis
 http://purl.obolibrary.org/obo/GO_0150018	basal dendrite development	http://purl.obolibrary.org/obo/GO_0097441	basal dendrite
+http://purl.obolibrary.org/obo/GO_0075313	basidium development	http://purl.obolibrary.org/obo/FAO_0000003	basidium
 http://purl.obolibrary.org/obo/GO_0071728	beak development	http://purl.obolibrary.org/obo/UBERON_0005094	beak
 http://purl.obolibrary.org/obo/GO_0001568	blood vessel development	http://purl.obolibrary.org/obo/UBERON_0001981	blood vessel
 http://purl.obolibrary.org/obo/GO_0048539	bone marrow development	http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
@@ -81,6 +84,7 @@ http://purl.obolibrary.org/obo/GO_0160093	chordate pharynx development	http://pu
 http://purl.obolibrary.org/obo/GO_0060717	chorion development	http://purl.obolibrary.org/obo/UBERON_0003124	chorion membrane
 http://purl.obolibrary.org/obo/GO_0021765	cingulate gyrus development	http://purl.obolibrary.org/obo/UBERON_0002967	cingulate gyrus
 http://purl.obolibrary.org/obo/GO_0072359	circulatory system development	http://purl.obolibrary.org/obo/UBERON_0001009	circulatory system
+http://purl.obolibrary.org/obo/GO_0070791	cleistothecium development	http://purl.obolibrary.org/obo/FAO_0000047	cleistothecium
 http://purl.obolibrary.org/obo/GO_0035844	cloaca development	http://purl.obolibrary.org/obo/UBERON_0000162	cloaca
 http://purl.obolibrary.org/obo/GO_1904484	cloacal gland development	http://purl.obolibrary.org/obo/UBERON_0012478	cloacal gland
 http://purl.obolibrary.org/obo/GO_0090102	cochlea development	http://purl.obolibrary.org/obo/UBERON_0001844	cochlea
@@ -89,6 +93,8 @@ http://purl.obolibrary.org/obo/GO_0040002	collagen and cuticulin-based cuticle d
 http://purl.obolibrary.org/obo/GO_0072044	collecting duct development	http://purl.obolibrary.org/obo/UBERON_0001232	collecting duct of renal tubule
 http://purl.obolibrary.org/obo/GO_0061009	common bile duct development	http://purl.obolibrary.org/obo/UBERON_0002394	bile duct
 http://purl.obolibrary.org/obo/GO_0048749	compound eye development	http://purl.obolibrary.org/obo/UBERON_0000018	compound eye
+http://purl.obolibrary.org/obo/GO_0070787	conidiophore development	http://purl.obolibrary.org/obo/FAO_0000043	conidiophore
+http://purl.obolibrary.org/obo/GO_0070788	conidiophore stalk development	http://purl.obolibrary.org/obo/FAO_0000050	conidiophore stalk
 http://purl.obolibrary.org/obo/GO_0072027	connecting tubule development	http://purl.obolibrary.org/obo/UBERON_0005097	renal connecting tubule
 http://purl.obolibrary.org/obo/GO_0061448	connective tissue development	http://purl.obolibrary.org/obo/UBERON_0002384	connective tissue
 http://purl.obolibrary.org/obo/GO_0003238	conus arteriosus development	http://purl.obolibrary.org/obo/UBERON_0003983	conus arteriosus
@@ -331,6 +337,7 @@ http://purl.obolibrary.org/obo/GO_0072233	metanephric thick ascending limb devel
 http://purl.obolibrary.org/obo/GO_0072170	metanephric tubule development	http://purl.obolibrary.org/obo/UBERON_0005106	metanephric tubule
 http://purl.obolibrary.org/obo/GO_0001656	metanephros development	http://purl.obolibrary.org/obo/UBERON_0000081	metanephros
 http://purl.obolibrary.org/obo/GO_0022037	metencephalon development	http://purl.obolibrary.org/obo/UBERON_0001895	metencephalon
+http://purl.obolibrary.org/obo/GO_0070789	metula development	http://purl.obolibrary.org/obo/FAO_0000046	metula
 http://purl.obolibrary.org/obo/GO_0030901	midbrain development	http://purl.obolibrary.org/obo/UBERON_0001891	midbrain
 http://purl.obolibrary.org/obo/GO_0030917	midbrain-hindbrain boundary development	http://purl.obolibrary.org/obo/UBERON_0003052	midbrain-hindbrain boundary
 http://purl.obolibrary.org/obo/GO_0007494	midgut development	http://purl.obolibrary.org/obo/UBERON_0001045	midgut
@@ -395,6 +402,7 @@ http://purl.obolibrary.org/obo/GO_0007422	peripheral nervous system development	
 http://purl.obolibrary.org/obo/GO_1904820	peritoneum development	http://purl.obolibrary.org/obo/UBERON_0002358	peritoneum
 http://purl.obolibrary.org/obo/GO_0060037	pharyngeal system development	http://purl.obolibrary.org/obo/UBERON_0008814	pharyngeal arch system
 http://purl.obolibrary.org/obo/GO_0060465	pharynx development	http://purl.obolibrary.org/obo/UBERON_0006562	pharynx
+http://purl.obolibrary.org/obo/GO_0070790	phialide development	http://purl.obolibrary.org/obo/FAO_0000045	phialide
 http://purl.obolibrary.org/obo/GO_0021982	pineal gland development	http://purl.obolibrary.org/obo/UBERON_0001905	pineal body
 http://purl.obolibrary.org/obo/GO_0021983	pituitary gland development	http://purl.obolibrary.org/obo/UBERON_0000007	pituitary gland
 http://purl.obolibrary.org/obo/GO_0001890	placenta development	http://purl.obolibrary.org/obo/UBERON_0001987	placenta
@@ -441,6 +449,7 @@ http://purl.obolibrary.org/obo/GO_0072141	renal interstitial fibroblast developm
 http://purl.obolibrary.org/obo/GO_0072054	renal outer medulla development	http://purl.obolibrary.org/obo/UBERON_0001293	outer medulla of kidney
 http://purl.obolibrary.org/obo/GO_0061326	renal tubule development	http://purl.obolibrary.org/obo/UBERON_0009773	renal tubule
 http://purl.obolibrary.org/obo/GO_0072087	renal vesicle development	http://purl.obolibrary.org/obo/UBERON_0004209	renal vesicle
+http://purl.obolibrary.org/obo/GO_0030582	reproductive fruiting body development	http://purl.obolibrary.org/obo/FAO_0000007	fruitbody
 http://purl.obolibrary.org/obo/GO_0061458	reproductive system development	http://purl.obolibrary.org/obo/UBERON_0000990	reproductive system
 http://purl.obolibrary.org/obo/GO_0060541	respiratory system development	http://purl.obolibrary.org/obo/UBERON_0001004	respiratory system
 http://purl.obolibrary.org/obo/GO_0030323	respiratory tube development	http://purl.obolibrary.org/obo/UBERON_0000117	respiratory tube
