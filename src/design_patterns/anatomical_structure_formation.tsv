@@ -31,6 +31,7 @@ http://purl.obolibrary.org/obo/GO_0021688	cerebellar molecular layer formation	h
 http://purl.obolibrary.org/obo/GO_0021588	cerebellum formation	http://purl.obolibrary.org/obo/UBERON_0002037	cerebellum
 http://purl.obolibrary.org/obo/GO_0046844	chorion micropyle formation	http://purl.obolibrary.org/obo/GO_0070825	chrorion micropyle
 http://purl.obolibrary.org/obo/GO_0007304	chorion-containing eggshell formation	http://purl.obolibrary.org/obo/UBERON_0005307	chorion-containing eggshell
+http://purl.obolibrary.org/obo/GO_0062248	cleistothecium formation	http://purl.obolibrary.org/obo/FAO_0000047	cleistothecium
 http://purl.obolibrary.org/obo/GO_0003240	conus arteriosus formation	http://purl.obolibrary.org/obo/UBERON_0003983	conus arteriosus
 http://purl.obolibrary.org/obo/GO_0003191	coronary sinus valve formation	http://purl.obolibrary.org/obo/UBERON_0004150	coronary sinus valve
 http://purl.obolibrary.org/obo/GO_0061560	cranial ganglion formation	http://purl.obolibrary.org/obo/UBERON_0001714	cranial ganglion
@@ -101,6 +102,7 @@ http://purl.obolibrary.org/obo/GO_0060659	nipple sheath formation	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0014028	notochord formation	http://purl.obolibrary.org/obo/UBERON_0002328	notochord
 http://purl.obolibrary.org/obo/GO_0021623	oculomotor nerve formation	http://purl.obolibrary.org/obo/UBERON_0001643	oculomotor nerve
 http://purl.obolibrary.org/obo/GO_0021628	olfactory nerve formation	http://purl.obolibrary.org/obo/UBERON_0001579	olfactory nerve
+http://purl.obolibrary.org/obo/GO_0075243	oospore formation	http://purl.obolibrary.org/obo/FAO_0000039	oospore
 http://purl.obolibrary.org/obo/GO_0021634	optic nerve formation	http://purl.obolibrary.org/obo/UBERON_0000941	cranial nerve II
 http://purl.obolibrary.org/obo/GO_0003403	optic vesicle formation	http://purl.obolibrary.org/obo/UBERON_0004128	optic vesicle
 http://purl.obolibrary.org/obo/GO_0030916	otic vesicle formation	http://purl.obolibrary.org/obo/UBERON_0003051	ear vesicle

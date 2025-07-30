@@ -1,4 +1,5 @@
 defined_class	defined_class_label	component	component_label
+http://purl.obolibrary.org/obo/GO_0034080	CENP-A containing chromatin assembly	http://purl.obolibrary.org/obo/GO_0061638	CENP-A containing chromatin
 http://purl.obolibrary.org/obo/GO_0030576	Cajal body organization	http://purl.obolibrary.org/obo/GO_0015030	Cajal body
 http://purl.obolibrary.org/obo/GO_0080119	ER body organization	http://purl.obolibrary.org/obo/GO_0010168	ER body
 http://purl.obolibrary.org/obo/GO_0007030	Golgi organization	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus
@@ -66,6 +67,7 @@ http://purl.obolibrary.org/obo/GO_0031505	fungal-type cell wall organization	htt
 http://purl.obolibrary.org/obo/GO_0045478	fusome organization	http://purl.obolibrary.org/obo/GO_0045169	fusome
 http://purl.obolibrary.org/obo/GO_0031412	gas vesicle organization	http://purl.obolibrary.org/obo/GO_0031411	gas vesicle
 http://purl.obolibrary.org/obo/GO_0010111	glyoxysome organization	http://purl.obolibrary.org/obo/GO_0009514	glyoxysome
+http://purl.obolibrary.org/obo/GO_0070828	heterochromatin organization	http://purl.obolibrary.org/obo/GO_0000792	heterochromatin
 http://purl.obolibrary.org/obo/GO_0032118	horsetail-astral microtubule organization	http://purl.obolibrary.org/obo/GO_0032117	horsetail-astral microtubule array
 http://purl.obolibrary.org/obo/GO_0007007	inner mitochondrial membrane organization	http://purl.obolibrary.org/obo/GO_0005743	mitochondrial inner membrane
 http://purl.obolibrary.org/obo/GO_0043063	intercellular bridge organization	http://purl.obolibrary.org/obo/GO_0045171	intercellular bridge
