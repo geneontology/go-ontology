@@ -45,7 +45,7 @@ This pattern is for classes representing developmental processes, differentiated
 |:--|:--|:--|:--|
 | [http://purl.obolibrary.org/obo/GO_0070384](http://purl.obolibrary.org/obo/GO_0070384) | Harderian gland development | [http://purl.obolibrary.org/obo/UBERON_0004187](http://purl.obolibrary.org/obo/UBERON_0004187) | Harderian gland |
 | [http://purl.obolibrary.org/obo/GO_0003164](http://purl.obolibrary.org/obo/GO_0003164) | His-Purkinje system development | [http://purl.obolibrary.org/obo/UBERON_0004146](http://purl.obolibrary.org/obo/UBERON_0004146) | His-Purkinje system |
+| [http://purl.obolibrary.org/obo/GO_0070792](http://purl.obolibrary.org/obo/GO_0070792) | Hulle cell development | [http://purl.obolibrary.org/obo/FAO_0000048](http://purl.obolibrary.org/obo/FAO_0000048) | Hulle cell |
 | [http://purl.obolibrary.org/obo/GO_0072002](http://purl.obolibrary.org/obo/GO_0072002) | Malpighian tubule development | [http://purl.obolibrary.org/obo/UBERON_0001054](http://purl.obolibrary.org/obo/UBERON_0001054) | Malpighian tubule |
 | [http://purl.obolibrary.org/obo/GO_0048541](http://purl.obolibrary.org/obo/GO_0048541) | Peyer's patch development | [http://purl.obolibrary.org/obo/UBERON_0001211](http://purl.obolibrary.org/obo/UBERON_0001211) | Peyer's patch |
-| [http://purl.obolibrary.org/obo/GO_0003165](http://purl.obolibrary.org/obo/GO_0003165) | Purkinje myocyte development | [http://purl.obolibrary.org/obo/UBERON_0002354](http://purl.obolibrary.org/obo/UBERON_0002354) | cardiac Purkinje fiber |
 

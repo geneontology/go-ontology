@@ -32,7 +32,6 @@ http://purl.obolibrary.org/obo/GO_0046228	2,4,5-trichlorophenoxyacetic acid cata
 http://purl.obolibrary.org/obo/GO_0046256	2,4,6-trinitrotoluene catabolic process	http://purl.obolibrary.org/obo/CHEBI_46053	2,4,6-trinitrotoluene
 http://purl.obolibrary.org/obo/GO_0046298	2,4-dichlorobenzoate catabolic process	http://purl.obolibrary.org/obo/CHEBI_28995	2,4-dichlorobenzoate
 http://purl.obolibrary.org/obo/GO_0046300	2,4-dichlorophenoxyacetic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_19351	(2,4-dichlorophenoxy)acetate
-http://purl.obolibrary.org/obo/GO_0051166	2,5-dihydroxypyridine catabolic process	http://purl.obolibrary.org/obo/CHEBI_16364	pyridine-2,5-diol
 http://purl.obolibrary.org/obo/GO_0046230	2-aminobenzenesulfonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_15942	2-aminobenzenesulfonate
 http://purl.obolibrary.org/obo/GO_0019635	2-aminoethylphosphonate catabolic process	http://purl.obolibrary.org/obo/CHEBI_57418	(2-aminoethyl)phosphonic acid zwitterion
 http://purl.obolibrary.org/obo/GO_0046302	2-chloro-N-isopropylacetanilide catabolic process	http://purl.obolibrary.org/obo/CHEBI_19503	propachlor
@@ -376,7 +375,6 @@ http://purl.obolibrary.org/obo/GO_0019341	dibenzo-p-dioxin catabolic process	htt
 http://purl.obolibrary.org/obo/GO_0019340	dibenzofuran catabolic process	http://purl.obolibrary.org/obo/CHEBI_28145	dibenzofuran
 http://purl.obolibrary.org/obo/GO_0018896	dibenzothiophene catabolic process	http://purl.obolibrary.org/obo/CHEBI_23681	dibenzothiophene
 http://purl.obolibrary.org/obo/GO_0043649	dicarboxylic acid catabolic process	http://purl.obolibrary.org/obo/CHEBI_35693	dicarboxylic acid anion
-http://purl.obolibrary.org/obo/GO_0042211	dimethylsilanediol catabolic process	http://purl.obolibrary.org/obo/CHEBI_23816	dimethylsilanediol
 http://purl.obolibrary.org/obo/GO_1902087	dimethylsulfoniopropionate catabolic process	http://purl.obolibrary.org/obo/CHEBI_16457	S,S-dimethyl-beta-propiothetin
 http://purl.obolibrary.org/obo/GO_0034313	diol catabolic process	http://purl.obolibrary.org/obo/CHEBI_23824	diol
 http://purl.obolibrary.org/obo/GO_1900571	diorcinol catabolic process	http://purl.obolibrary.org/obo/CHEBI_64413	diorcinol
@@ -428,7 +426,6 @@ http://purl.obolibrary.org/obo/GO_0046657	folic acid catabolic process	http://pu
 http://purl.obolibrary.org/obo/GO_0009397	folic acid-containing compound catabolic process	http://purl.obolibrary.org/obo/CHEBI_37445	folic acids
 http://purl.obolibrary.org/obo/GO_1900768	fonsecin catabolic process	http://purl.obolibrary.org/obo/CHEBI_64543	fonsecin
 http://purl.obolibrary.org/obo/GO_0046294	formaldehyde catabolic process	http://purl.obolibrary.org/obo/CHEBI_16842	formaldehyde
-http://purl.obolibrary.org/obo/GO_0043608	formamide catabolic process	http://purl.obolibrary.org/obo/CHEBI_16397	formamide
 http://purl.obolibrary.org/obo/GO_0042183	formate catabolic process	http://purl.obolibrary.org/obo/CHEBI_15740	formate
 http://purl.obolibrary.org/obo/GO_0010147	fructan catabolic process	http://purl.obolibrary.org/obo/CHEBI_28796	fructan
 http://purl.obolibrary.org/obo/GO_0030392	fructosamine catabolic process	http://purl.obolibrary.org/obo/CHEBI_24103	fructosamine
