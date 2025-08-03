@@ -1,0 +1,1 @@
+Patterns in this directory are used to generate content imported into the ontology.
