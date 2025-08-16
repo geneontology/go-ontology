@@ -11713,6 +11713,13 @@ relationship: RO:0000057 CHEBI:57783
 relationship: RO:0000057 CHEBI:58349
 
 [Term]
+id: GO:0032216
+relationship: RO:0000057 CHEBI:144033
+relationship: RO:0000057 CHEBI:57287
+relationship: RO:0000057 CHEBI:57997
+relationship: RO:0000057 CHEBI:77636
+
+[Term]
 id: GO:0032267
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:30616
