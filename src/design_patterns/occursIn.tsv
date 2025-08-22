@@ -164,7 +164,6 @@ http://purl.obolibrary.org/obo/GO_0070146	mitochondrial aspartyl-tRNA aminoacyla
 http://purl.obolibrary.org/obo/GO_0051560	mitochondrial calcium ion homeostasis	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0055074	calcium ion homeostasis
 http://purl.obolibrary.org/obo/GO_0090139	mitochondrial chromosome packaging	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0051276	chromosome organization
 http://purl.obolibrary.org/obo/GO_0070147	mitochondrial cysteinyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006423	cysteinyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0033617	mitochondrial cytochrome c oxidase assembly	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0008535	respiratory chain complex IV assembly
 http://purl.obolibrary.org/obo/GO_0051882	mitochondrial depolarization	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0051899	membrane depolarization
 http://purl.obolibrary.org/obo/GO_0140053	mitochondrial gene expression	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0010467	gene expression
 http://purl.obolibrary.org/obo/GO_0070148	mitochondrial glutaminyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006425	glutaminyl-tRNA aminoacylation
@@ -187,6 +186,7 @@ http://purl.obolibrary.org/obo/GO_0034982	mitochondrial protein processing	http:
 http://purl.obolibrary.org/obo/GO_0033615	mitochondrial proton-transporting ATP synthase complex assembly	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0043461	proton-transporting ATP synthase complex assembly
 http://purl.obolibrary.org/obo/GO_0034553	mitochondrial respiratory chain complex II assembly	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0034552	respiratory chain complex II assembly
 http://purl.obolibrary.org/obo/GO_0034551	mitochondrial respiratory chain complex III assembly	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0017062	respiratory chain complex III assembly
+http://purl.obolibrary.org/obo/GO_0033617	mitochondrial respiratory chain complex IV assembly	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0008535	respiratory chain complex IV assembly
 http://purl.obolibrary.org/obo/GO_0070158	mitochondrial seryl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006434	seryl-tRNA aminoacylation
 http://purl.obolibrary.org/obo/GO_1990180	mitochondrial tRNA 3'-end processing	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0042780	tRNA 3'-end processing
 http://purl.obolibrary.org/obo/GO_0070901	mitochondrial tRNA methylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0030488	tRNA methylation
