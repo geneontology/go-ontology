@@ -158,6 +158,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016032>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016116>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016168>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016206>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016212>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016442>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016444>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016456>))
@@ -1759,6 +1760,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obo
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0016206> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4890>)))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0016206> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> ObjectComplementOf(<http://purl.obolibrary.org/obo/NCBITaxon_4890>)))
 DisjointClasses(<http://purl.obolibrary.org/obo/GO_0016206> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4890>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0016212> (<http://purl.obolibrary.org/obo/GO_0016212>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obolibrary.org/obo/GO_0016212> <http://purl.obolibrary.org/obo/NCBITaxon_4896>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0016212> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4896>)))
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0016212> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> ObjectComplementOf(<http://purl.obolibrary.org/obo/NCBITaxon_4896>)))
+DisjointClasses(<http://purl.obolibrary.org/obo/GO_0016212> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4896>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0016442> (<http://purl.obolibrary.org/obo/GO_0016442>)
 
