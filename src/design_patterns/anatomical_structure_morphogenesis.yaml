@@ -10,6 +10,7 @@ classes:
 
 relations: 
   results in morphogenesis of: RO:0002298
+  part of: BFO:0000050
 
 vars:
   # Currently cell isn't classified under 'anatomical structure'
