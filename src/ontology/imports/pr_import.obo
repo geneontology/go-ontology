@@ -1,17 +1,17 @@
 format-version: 1.2
-data-version: go/releases/2025-01-23/imports/pr_import.owl
+data-version: go/releases/2025-07-23/imports/pr_import.owl
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 ontology: go/imports/pr_import
 
 [Term]
 id: PR:000000001
 name: protein
 namespace: protein
-def: "An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof." [PRO:DAN, PRO:WCB]
-comment: The definition above excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to CHEBI:36080. Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).
+def: "An amino acid chain that is canonically produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof." [PRO:DAN, PRO:WCB]
+comment: Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Note also that the definition excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to PR:000064867 ("protein-containing molecular entity"). Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).
 synonym: "native protein" NARROW [IEDB:BP]
 synonym: "natural protein" EXACT [PRO:DAN]
 is_a: PR:000018263 ! amino acid chain
-is_a: PR:000064867 ! protein-containing molecular entity
 intersection_of: PR:000018263 ! amino acid chain
 intersection_of: has_gene_template SO:0000704
 intersection_of: RO:0002353 GO:0006412
@@ -97,19 +97,6 @@ comment: Category=gene.
 synonym: "NODAL" EXACT PRO-short-label [PRO:DNx]
 xref: PIRSF:PIRSF037400
 is_a: PR:000000008 ! TGF-beta-like cystine-knot cytokine
-
-[Term]
-id: PR:000001004
-name: CD4 molecule
-namespace: protein
-def: "A protein that is a translation product of the human CD4 gene or a 1:1 ortholog thereof. CD4 is an accessory protein for MHC class-II antigen/T-cell receptor interaction. It is the primary receptor for HIV-1. CD4 has four immunoglobulin-like domains in its extracellular region that share the same structure, but can differ in sequence." [PMID:15326605]
-comment: Category=gene. Requested by=CL.
-synonym: "CD4" EXACT PRO-short-label [PRO:DNx]
-synonym: "T-cell differentiation antigen L3T4" EXACT []
-synonym: "T-cell surface antigen T4/Leu-3" EXACT []
-synonym: "T-cell surface glycoprotein CD4" EXACT []
-xref: PIRSF:PIRSF001977
-is_a: PR:000000001 ! protein
 
 [Term]
 id: PR:000001091
@@ -2330,12 +2317,14 @@ is_a: PR:000000001 ! protein
 
 [Term]
 id: PR:000004716
-name: brain-derived neurotrophic factor
+name: neurotrophic factor BDNF precursor form
 namespace: protein
 def: "A neurotrophin that is a translation product of the human BDNF gene or a 1:1 ortholog thereof." [PRO:DNx]
 comment: Category=gene.
 synonym: "abrineurin" EXACT []
 synonym: "BDNF" EXACT PRO-short-label [PRO:DNx]
+synonym: "brain-derived neurotrophic factor" EXACT []
+synonym: "proBDNF" EXACT []
 is_a: PR:000021998 ! neurotrophin
 
 [Term]
@@ -2990,16 +2979,16 @@ is_a: PR:000000001 ! protein
 
 [Term]
 id: PR:000008878
-name: bone sialoprotein 2
+name: integrin-binding sialoprotein
 namespace: protein
 def: "A protein that is a translation product of the human IBSP gene or a 1:1 ortholog thereof." [PRO:DNx]
 comment: Category=gene.
 synonym: "BNSP" RELATED Gene-based []
+synonym: "bone sialoprotein 2" EXACT []
 synonym: "bone sialoprotein II" EXACT []
 synonym: "BSP II" EXACT []
 synonym: "cell-binding sialoprotein" EXACT []
 synonym: "IBSP" EXACT PRO-short-label [PRO:DNx]
-synonym: "integrin-binding sialoprotein" EXACT []
 is_a: PR:000000001 ! protein
 
 [Term]
@@ -3042,13 +3031,14 @@ is_a: PR:000000001 ! protein
 
 [Term]
 id: PR:000008942
-name: insulin-like growth factor II
+name: insulin-like growth factor 2
 namespace: protein
 def: "A protein that is a translation product of the human IGF2 gene or a 1:1 ortholog thereof." [PRO:DNx]
 comment: Category=gene.
 synonym: "Igf-2" RELATED Gene-based []
 synonym: "IGF-II" EXACT []
 synonym: "IGF2" EXACT PRO-short-label [PRO:DNx]
+synonym: "insulin-like growth factor II" EXACT []
 synonym: "multiplication-stimulating polypeptide" EXACT []
 synonym: "PP1446" RELATED Gene-based []
 synonym: "somatomedin-A" EXACT []
@@ -3088,12 +3078,11 @@ is_a: PR:000000001 ! protein
 
 [Term]
 id: PR:000009054
-name: insulin gene translation product
+name: preproinsulin
 namespace: protein
 def: "An insulin family protein that is a translation product of the human INS gene or a 1:1 ortholog thereof." [PRO:DNx]
 comment: Category=gene.
 synonym: "INS" EXACT PRO-short-label [PRO:DNx]
-synonym: "insulin" BROAD [PRO:DAN]
 is_a: PR:000045358 ! insulin family protein
 
 [Term]
@@ -3110,7 +3099,7 @@ is_a: PR:000000001 ! protein
 
 [Term]
 id: PR:000009182
-name: insulin-like growth factor I
+name: insulin-like growth factor 1
 namespace: protein
 def: "A protein that is a translation product of the human IGF1 gene or a 1:1 ortholog thereof." [PRO:DNx]
 comment: Category=gene.
@@ -3118,6 +3107,7 @@ synonym: "IBP1" RELATED Gene-based []
 synonym: "Igf-1" RELATED Gene-based []
 synonym: "IGF-I" BROAD [PRO:DNx]
 synonym: "IGF1" EXACT PRO-short-label [PRO:DNx]
+synonym: "insulin-like growth factor I" EXACT []
 synonym: "mechano growth factor" EXACT []
 synonym: "MGF" BROAD [PRO:DNx]
 synonym: "somatomedin" EXACT []
@@ -3277,12 +3267,13 @@ is_a: PR:000000001 ! protein
 
 [Term]
 id: PR:000011116
-name: NEDD8 protein
+name: ubiquitin-like protein NEDD8
 namespace: protein
 def: "A protein that is a translation product of the human NEDD8 gene or a 1:1 ortholog thereof." [PRO:DNx]
 comment: Category=gene.
 synonym: "NEDD-8" EXACT []
 synonym: "NEDD8" EXACT PRO-short-label [PRO:DNx]
+synonym: "NEDD8 protein" EXACT []
 synonym: "neddylin" EXACT []
 synonym: "neural precursor cell expressed developmentally down-regulated protein 8" EXACT []
 synonym: "ubiquitin-like protein Nedd8" EXACT []
@@ -3865,11 +3856,11 @@ is_a: PR:000000001 ! protein
 id: PR:000018263
 name: amino acid chain
 namespace: protein
-def: "An organic amino compound that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds." [PRO:DAN, PRO:JSG]
+def: "A molecule that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds." [PRO:DAN, PRO:JSG]
 comment: Category=polymer.
 synonym: "peptide" NARROW [PRO:DAN]
 synonym: "polypeptide" NARROW [PRO:DAN]
-is_a: CHEBI:50047
+is_a: COB:0000013
 relationship: has_constituent_monomer CHEBI:33708 {minCardinality="2"}
 
 [Term]
@@ -4056,14 +4047,14 @@ relationship: RO:0002353 GO:0016485
 
 [Term]
 id: PR:000019130
-name: brain-derived neurotrophic factor proteolytic cleavage product
+name: neurotrophic factor BDNF precursor form proteolytic cleavage product
 namespace: protein
-def: "A brain-derived neurotrophic factor that has been processed by proteolytic cleavage." [PRO:DNx]
+def: "A neurotrophic factor BDNF precursor form that has been processed by proteolytic cleavage." [PRO:DNx]
 comment: Category=modification.
 synonym: "BDNF/ClvPrd" EXACT PRO-short-label [PRO:DNx]
-is_a: PR:000004716 ! brain-derived neurotrophic factor
+is_a: PR:000004716 ! neurotrophic factor BDNF precursor form
 is_a: PR:000018264 ! proteolytic cleavage product
-intersection_of: PR:000004716 ! brain-derived neurotrophic factor
+intersection_of: PR:000004716 ! neurotrophic factor BDNF precursor form
 intersection_of: RO:0002353 GO:0016485
 relationship: RO:0002353 GO:0016485
 
@@ -4238,14 +4229,14 @@ relationship: RO:0002353 GO:0016485
 
 [Term]
 id: PR:000020267
-name: insulin-like growth factor II proteolytic cleavage product
+name: insulin-like growth factor 2 proteolytic cleavage product
 namespace: protein
-def: "An insulin-like growth factor II that has been processed by proteolytic cleavage." [PRO:DNx]
+def: "An insulin-like growth factor 2 that has been processed by proteolytic cleavage." [PRO:DNx]
 comment: Category=modification.
 synonym: "IGF2/ClvPrd" EXACT PRO-short-label [PRO:DNx]
-is_a: PR:000008942 ! insulin-like growth factor II
+is_a: PR:000008942 ! insulin-like growth factor 2
 is_a: PR:000018264 ! proteolytic cleavage product
-intersection_of: PR:000008942 ! insulin-like growth factor II
+intersection_of: PR:000008942 ! insulin-like growth factor 2
 intersection_of: RO:0002353 GO:0016485
 relationship: RO:0002353 GO:0016485
 
@@ -4264,14 +4255,14 @@ relationship: RO:0002353 GO:0016485
 
 [Term]
 id: PR:000020357
-name: insulin-like growth factor I proteolytic cleavage product
+name: insulin-like growth factor 1 proteolytic cleavage product
 namespace: protein
-def: "An insulin-like growth factor I that has been processed by proteolytic cleavage." [PRO:DNx]
+def: "An insulin-like growth factor 1 that has been processed by proteolytic cleavage." [PRO:DNx]
 comment: Category=modification.
 synonym: "IGF1/ClvPrd" EXACT PRO-short-label [PRO:DNx]
-is_a: PR:000009182 ! insulin-like growth factor I
+is_a: PR:000009182 ! insulin-like growth factor 1
 is_a: PR:000018264 ! proteolytic cleavage product
-intersection_of: PR:000009182 ! insulin-like growth factor I
+intersection_of: PR:000009182 ! insulin-like growth factor 1
 intersection_of: RO:0002353 GO:0016485
 relationship: RO:0002353 GO:0016485
 
@@ -4290,14 +4281,14 @@ relationship: RO:0002353 GO:0016485
 
 [Term]
 id: PR:000020722
-name: NEDD8 protein proteolytic cleavage product
+name: ubiquitin-like protein NEDD8 proteolytic cleavage product
 namespace: protein
-def: "A NEDD8 protein that has been processed by proteolytic cleavage." [PRO:DNx]
+def: "A ubiquitin-like protein NEDD8 that has been processed by proteolytic cleavage." [PRO:DNx]
 comment: Category=modification.
 synonym: "NEDD8/ClvPrd" EXACT PRO-short-label [PRO:DNx]
-is_a: PR:000011116 ! NEDD8 protein
+is_a: PR:000011116 ! ubiquitin-like protein NEDD8
 is_a: PR:000018264 ! proteolytic cleavage product
-intersection_of: PR:000011116 ! NEDD8 protein
+intersection_of: PR:000011116 ! ubiquitin-like protein NEDD8
 intersection_of: RO:0002353 GO:0016485
 relationship: RO:0002353 GO:0016485
 
@@ -4858,19 +4849,4 @@ synonym: "monoUbiq" EXACT PRO-short-label [PRO:DAN]
 intersection_of: PR:000035728 ! ubiquitin
 intersection_of: has_constituent_monomer PR:000035728 {cardinality="1"} ! ubiquitin
 relationship: has_constituent_monomer PR:000035728 {cardinality="1"} ! ubiquitin
-
-[Term]
-id: PR:000064867
-name: protein-containing molecular entity
-namespace: protein
-def: "A molecular entity that minimally consists of a protein." [PRO:DAN]
-comment: Note: This includes single proteins and derivatives thereof (PR:000000001), protein-containing complexes (GO:0032991), and protein aggregates (PR:000050565).
-synonym: "protein" NARROW [PRO:DAN]
-synonym: "protein aggregate" NARROW [PRO:DAN]
-synonym: "protein complex" NARROW [PRO:DAN]
-synonym: "protein-containing complex" NARROW [PRO:DAN]
-is_a: CHEBI:23367
-intersection_of: CHEBI:23367
-intersection_of: BFO:0000051 PR:000000001 ! protein
-relationship: BFO:0000051 PR:000000001 ! protein
 
