@@ -2060,7 +2060,6 @@ http://purl.obolibrary.org/obo/GO_0046827	positive regulation of protein export 
 http://purl.obolibrary.org/obo/GO_1903334	positive regulation of protein folding	http://purl.obolibrary.org/obo/GO_0006457	protein folding
 http://purl.obolibrary.org/obo/GO_2000541	positive regulation of protein geranylgeranylation	http://purl.obolibrary.org/obo/GO_0018344	protein geranylgeranylation
 http://purl.obolibrary.org/obo/GO_0010733	positive regulation of protein glutathionylation	http://purl.obolibrary.org/obo/GO_0010731	protein glutathionylation
-http://purl.obolibrary.org/obo/GO_0060050	positive regulation of protein glycosylation	http://purl.obolibrary.org/obo/GO_0006486	protein glycosylation
 http://purl.obolibrary.org/obo/GO_0032464	positive regulation of protein homooligomerization	http://purl.obolibrary.org/obo/GO_0051260	protein homooligomerization
 http://purl.obolibrary.org/obo/GO_1901095	positive regulation of protein homotetramerization	http://purl.obolibrary.org/obo/GO_0051289	protein homotetramerization
 http://purl.obolibrary.org/obo/GO_1904591	positive regulation of protein import	http://purl.obolibrary.org/obo/GO_0017038	protein import

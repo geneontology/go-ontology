@@ -221,7 +221,7 @@ http://purl.obolibrary.org/obo/GO_0098642	network-forming collagen trimer	http:/
 http://purl.obolibrary.org/obo/GO_0120111	neuron projection cytoplasm	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0043005	neuron projection
 http://purl.obolibrary.org/obo/GO_0099013	neuronal dense core vesicle lumen	http://purl.obolibrary.org/obo/GO_0060205	cytoplasmic vesicle lumen	http://purl.obolibrary.org/obo/GO_0098992	neuronal dense core vesicle
 http://purl.obolibrary.org/obo/GO_0043599	nuclear DNA replication factor C complex	http://purl.obolibrary.org/obo/GO_0005663	DNA replication factor C complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
-http://purl.obolibrary.org/obo/GO_0055029	nuclear DNA-directed RNA polymerase complex	http://purl.obolibrary.org/obo/GO_0000428	DNA-directed RNA polymerase complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
+http://purl.obolibrary.org/obo/GO_0055029	nuclear DNA-directed RNA polymerase complex	http://purl.obolibrary.org/obo/GO_0000428	DNA-directed RNA polymerase complex	http://purl.obolibrary.org/obo/GO_0005654	nucleoplasm
 http://purl.obolibrary.org/obo/GO_0043224	nuclear SCF ubiquitin ligase complex	http://purl.obolibrary.org/obo/GO_0019005	SCF ubiquitin ligase complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/GO_0034753	nuclear aryl hydrocarbon receptor complex	http://purl.obolibrary.org/obo/GO_0034751	aryl hydrocarbon receptor complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
 http://purl.obolibrary.org/obo/GO_0000228	nuclear chromosome	http://purl.obolibrary.org/obo/GO_0005694	chromosome	http://purl.obolibrary.org/obo/GO_0005634	nucleus
