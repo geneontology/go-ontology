@@ -44,9 +44,9 @@ This pattern is for classes representing metabolic processes differentiated by t
 
 | defined_class | defined_class_label | participant | participant_label |
 |:--|:--|:--|:--|
-| [http://purl.obolibrary.org/obo/GO_1901941](http://purl.obolibrary.org/obo/GO_1901941) | (+)-epi-alpha-bisabolol metabolic process | [http://purl.obolibrary.org/obo/CHEBI_68658](http://purl.obolibrary.org/obo/CHEBI_68658) | (+)-epi-alpha-bisabolol |
-| [http://purl.obolibrary.org/obo/GO_1902130](http://purl.obolibrary.org/obo/GO_1902130) | (+)-lariciresinol metabolic process | [http://purl.obolibrary.org/obo/CHEBI_67246](http://purl.obolibrary.org/obo/CHEBI_67246) | (+)-lariciresinol |
 | [http://purl.obolibrary.org/obo/GO_1901709](http://purl.obolibrary.org/obo/GO_1901709) | (+)-larreatricin metabolic process | [http://purl.obolibrary.org/obo/CHEBI_67153](http://purl.obolibrary.org/obo/CHEBI_67153) | (+)-larreatricin |
-| [http://purl.obolibrary.org/obo/GO_1902124](http://purl.obolibrary.org/obo/GO_1902124) | (+)-pinoresinol metabolic process | [http://purl.obolibrary.org/obo/CHEBI_40](http://purl.obolibrary.org/obo/CHEBI_40) | (+)-pinoresinol |
-| [http://purl.obolibrary.org/obo/GO_1902133](http://purl.obolibrary.org/obo/GO_1902133) | (+)-secoisolariciresinol metabolic process | [http://purl.obolibrary.org/obo/CHEBI_67247](http://purl.obolibrary.org/obo/CHEBI_67247) | (+)-secoisolariciresinol |
+| [http://purl.obolibrary.org/obo/GO_1901598](http://purl.obolibrary.org/obo/GO_1901598) | (-)-pinoresinol metabolic process | [http://purl.obolibrary.org/obo/CHEBI_67245](http://purl.obolibrary.org/obo/CHEBI_67245) | (-)-pinoresinol |
+| [http://purl.obolibrary.org/obo/GO_0070595](http://purl.obolibrary.org/obo/GO_0070595) | (1->3)-alpha-glucan metabolic process | [http://purl.obolibrary.org/obo/CHEBI_28100](http://purl.obolibrary.org/obo/CHEBI_28100) | (1->3)-alpha-D-glucan |
+| [http://purl.obolibrary.org/obo/GO_0006074](http://purl.obolibrary.org/obo/GO_0006074) | (1->3)-beta-D-glucan metabolic process | [http://purl.obolibrary.org/obo/CHEBI_37671](http://purl.obolibrary.org/obo/CHEBI_37671) | (1->3)-beta-D-glucan |
+| [http://purl.obolibrary.org/obo/GO_0070629](http://purl.obolibrary.org/obo/GO_0070629) | (1->4)-alpha-glucan metabolic process | [http://purl.obolibrary.org/obo/CHEBI_15444](http://purl.obolibrary.org/obo/CHEBI_15444) | (1->4)-alpha-D-glucan |
 
