@@ -41,3 +41,6 @@ target/
 # Mac specific weirdness
 .DS_Store
 src/.DS_Store
+
+# Tools directory with large binaries
+tools/
