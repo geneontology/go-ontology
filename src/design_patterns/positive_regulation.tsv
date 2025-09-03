@@ -7,6 +7,7 @@ http://purl.obolibrary.org/obo/GO_1902274	positive regulation of (R)-carnitine t
 http://purl.obolibrary.org/obo/GO_0106109	positive regulation of (R)-mevalonic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_1901737	(R)-mevalonic acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900943	positive regulation of (Z)-nonadeca-1,14-diene biosynthetic process	http://purl.obolibrary.org/obo/GO_1900879	(Z)-nonadeca-1,14-diene biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900940	positive regulation of (Z)-nonadeca-1,14-diene metabolic process	http://purl.obolibrary.org/obo/GO_1900878	(Z)-nonadeca-1,14-diene metabolic process
+http://purl.obolibrary.org/obo/GO_0160161	positive regulation of 1,2-propanediol catabolic process	http://purl.obolibrary.org/obo/GO_0051144	1,2-propanediol catabolic process
 http://purl.obolibrary.org/obo/GO_1902648	positive regulation of 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_1902635	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate biosynthetic process
 http://purl.obolibrary.org/obo/GO_1902643	positive regulation of 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate catabolic process	http://purl.obolibrary.org/obo/GO_1902634	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate catabolic process
 http://purl.obolibrary.org/obo/GO_1900958	positive regulation of 17-methylnonadec-1-ene biosynthetic process	http://purl.obolibrary.org/obo/GO_1900883	17-methylnonadec-1-ene biosynthetic process
@@ -486,7 +487,6 @@ http://purl.obolibrary.org/obo/GO_1900499	positive regulation of butyryl-CoA cat
 http://purl.obolibrary.org/obo/GO_1900502	positive regulation of butyryl-CoA catabolic process to butyrate	http://purl.obolibrary.org/obo/GO_0044581	butyryl-CoA catabolic process to butyrate
 http://purl.obolibrary.org/obo/GO_0061941	positive regulation of c-di-GMP signaling	http://purl.obolibrary.org/obo/GO_0061939	c-di-GMP signaling
 http://purl.obolibrary.org/obo/GO_2000481	positive regulation of cAMP-dependent protein kinase activity	http://purl.obolibrary.org/obo/GO_0004691	cAMP-dependent protein kinase activity
-http://purl.obolibrary.org/obo/GO_0043950	positive regulation of cAMP-mediated signaling	http://purl.obolibrary.org/obo/GO_0019933	cAMP-mediated signaling
 http://purl.obolibrary.org/obo/GO_0141163	positive regulation of cAMP/PKA signal transduction	http://purl.obolibrary.org/obo/GO_0141156	cAMP/PKA signal transduction
 http://purl.obolibrary.org/obo/GO_0141111	positive regulation of cGAS/STING signaling pathway	http://purl.obolibrary.org/obo/GO_0140896	cGAS/STING signaling pathway
 http://purl.obolibrary.org/obo/GO_0010753	positive regulation of cGMP-mediated signaling	http://purl.obolibrary.org/obo/GO_0019934	cGMP-mediated signaling
@@ -1245,7 +1245,6 @@ http://purl.obolibrary.org/obo/GO_0106016	positive regulation of inflammatory re
 http://purl.obolibrary.org/obo/GO_0032340	positive regulation of inhibin secretion	http://purl.obolibrary.org/obo/GO_0032334	inhibin secretion
 http://purl.obolibrary.org/obo/GO_1904325	positive regulation of inhibitory G protein-coupled receptor phosphorylation	http://purl.obolibrary.org/obo/GO_0002030	inhibitory G protein-coupled receptor phosphorylation
 http://purl.obolibrary.org/obo/GO_1905704	positive regulation of inhibitory synapse assembly	http://purl.obolibrary.org/obo/GO_1904862	inhibitory synapse assembly
-http://purl.obolibrary.org/obo/GO_0045756	positive regulation of initiation of acetate catabolic process by acetate	http://purl.obolibrary.org/obo/GO_0045146	initiation of acetate catabolic process by acetate
 http://purl.obolibrary.org/obo/GO_1904514	positive regulation of initiation of premeiotic DNA replication	http://purl.obolibrary.org/obo/GO_1902974	meiotic DNA replication initiation
 http://purl.obolibrary.org/obo/GO_0045089	positive regulation of innate immune response	http://purl.obolibrary.org/obo/GO_0045087	innate immune response
 http://purl.obolibrary.org/obo/GO_1905682	positive regulation of innate immunity memory response	http://purl.obolibrary.org/obo/GO_0090714	innate immunity memory response
@@ -2031,7 +2030,6 @@ http://purl.obolibrary.org/obo/GO_1902722	positive regulation of prolactin secre
 http://purl.obolibrary.org/obo/GO_1902213	positive regulation of prolactin signaling pathway	http://purl.obolibrary.org/obo/GO_0038161	prolactin signaling pathway
 http://purl.obolibrary.org/obo/GO_1902836	positive regulation of proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905647	proline import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0140846	positive regulation of promoter clearance from RNA polymerase II promoter	http://purl.obolibrary.org/obo/GO_0001111	RNA polymerase II promoter clearance
-http://purl.obolibrary.org/obo/GO_0160161	positive regulation of propanediol catabolic process	http://purl.obolibrary.org/obo/GO_0051144	1,2-propanediol catabolic process
 http://purl.obolibrary.org/obo/GO_0031394	positive regulation of prostaglandin biosynthetic process	http://purl.obolibrary.org/obo/GO_0001516	prostaglandin biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905830	positive regulation of prostaglandin catabolic process	http://purl.obolibrary.org/obo/GO_1905344	prostaglandin catabolic process
 http://purl.obolibrary.org/obo/GO_0032308	positive regulation of prostaglandin secretion	http://purl.obolibrary.org/obo/GO_0032310	prostaglandin secretion
@@ -2066,7 +2064,6 @@ http://purl.obolibrary.org/obo/GO_1904591	positive regulation of protein import	
 http://purl.obolibrary.org/obo/GO_1904216	positive regulation of protein import into chloroplast stroma	http://purl.obolibrary.org/obo/GO_0045037	protein import into chloroplast stroma
 http://purl.obolibrary.org/obo/GO_0042307	positive regulation of protein import into nucleus	http://purl.obolibrary.org/obo/GO_0006606	protein import into nucleus
 http://purl.obolibrary.org/obo/GO_1903638	positive regulation of protein insertion into mitochondrial outer membrane	http://purl.obolibrary.org/obo/GO_0045040	protein insertion into mitochondrial outer membrane
-http://purl.obolibrary.org/obo/GO_0010739	positive regulation of protein kinase A signaling	http://purl.obolibrary.org/obo/GO_0010737	protein kinase A signaling
 http://purl.obolibrary.org/obo/GO_1900020	positive regulation of protein kinase C activity	http://purl.obolibrary.org/obo/GO_0004697	diacylglycerol-dependent serine/threonine kinase activity
 http://purl.obolibrary.org/obo/GO_0090037	positive regulation of protein kinase C signaling	http://purl.obolibrary.org/obo/GO_0070528	protein kinase C signaling
 http://purl.obolibrary.org/obo/GO_0045860	positive regulation of protein kinase activity	http://purl.obolibrary.org/obo/GO_0004672	protein kinase activity
