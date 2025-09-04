@@ -1252,7 +1252,6 @@ http://purl.obolibrary.org/obo/GO_0045609	positive regulation of inner ear audit
 http://purl.obolibrary.org/obo/GO_2000982	positive regulation of inner ear receptor cell differentiation	http://purl.obolibrary.org/obo/GO_0060113	inner ear receptor cell differentiation
 http://purl.obolibrary.org/obo/GO_1903797	positive regulation of inorganic anion transmembrane transport	http://purl.obolibrary.org/obo/GO_0098661	inorganic anion transmembrane transport
 http://purl.obolibrary.org/obo/GO_0035342	positive regulation of inosine transport	http://purl.obolibrary.org/obo/GO_0035340	inosine transport
-http://purl.obolibrary.org/obo/GO_0031587	positive regulation of inositol 1,4,5-trisphosphate-sensitive calcium-release channel activity	http://purl.obolibrary.org/obo/GO_0005220	inositol 1,4,5-trisphosphate-gated calcium channel activity
 http://purl.obolibrary.org/obo/GO_1900090	positive regulation of inositol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006021	inositol biosynthetic process
 http://purl.obolibrary.org/obo/GO_0060732	positive regulation of inositol phosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_0032958	inositol phosphate biosynthetic process
 http://purl.obolibrary.org/obo/GO_0032962	positive regulation of inositol trisphosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_0032959	inositol trisphosphate biosynthetic process
@@ -2253,7 +2252,6 @@ http://purl.obolibrary.org/obo/GO_2000202	positive regulation of ribosomal subun
 http://purl.obolibrary.org/obo/GO_0090070	positive regulation of ribosome biogenesis	http://purl.obolibrary.org/obo/GO_0042254	ribosome biogenesis
 http://purl.obolibrary.org/obo/GO_1902892	positive regulation of root hair elongation	http://purl.obolibrary.org/obo/GO_0048767	root hair elongation
 http://purl.obolibrary.org/obo/GO_1900029	positive regulation of ruffle assembly	http://purl.obolibrary.org/obo/GO_0097178	ruffle assembly
-http://purl.obolibrary.org/obo/GO_0060316	positive regulation of ryanodine-sensitive calcium-release channel activity	http://purl.obolibrary.org/obo/GO_0005219	ryanodine-sensitive calcium-release channel activity
 http://purl.obolibrary.org/obo/GO_0046878	positive regulation of saliva secretion	http://purl.obolibrary.org/obo/GO_0046541	saliva secretion
 http://purl.obolibrary.org/obo/GO_0045706	positive regulation of salivary gland boundary specification	http://purl.obolibrary.org/obo/GO_0007432	salivary gland boundary specification
 http://purl.obolibrary.org/obo/GO_1900973	positive regulation of sarcinapterin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900868	sarcinapterin biosynthetic process
