@@ -213,7 +213,7 @@ jobs:
 
           # Run Claude with proper permissions
           claude -p "$(cat /tmp/claude-input/claude_prompt.txt)" \
+            --permission-mode bypassPermissions \
             --output-format stream-json \
-            --allowedTools "Bash(git:*)" "Bash(gh:*)" "FileSystem(*)" \
             --verbose 
           
