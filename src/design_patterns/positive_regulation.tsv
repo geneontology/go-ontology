@@ -489,7 +489,6 @@ http://purl.obolibrary.org/obo/GO_0061941	positive regulation of c-di-GMP signal
 http://purl.obolibrary.org/obo/GO_2000481	positive regulation of cAMP-dependent protein kinase activity	http://purl.obolibrary.org/obo/GO_0004691	cAMP-dependent protein kinase activity
 http://purl.obolibrary.org/obo/GO_0141163	positive regulation of cAMP/PKA signal transduction	http://purl.obolibrary.org/obo/GO_0141156	cAMP/PKA signal transduction
 http://purl.obolibrary.org/obo/GO_0141111	positive regulation of cGAS/STING signaling pathway	http://purl.obolibrary.org/obo/GO_0140896	cGAS/STING signaling pathway
-http://purl.obolibrary.org/obo/GO_0010753	positive regulation of cGMP-mediated signaling	http://purl.obolibrary.org/obo/GO_0019934	cGMP-mediated signaling
 http://purl.obolibrary.org/obo/GO_0070886	positive regulation of calcineurin-NFAT signaling cascade	http://purl.obolibrary.org/obo/GO_0033173	calcineurin-NFAT signaling cascade
 http://purl.obolibrary.org/obo/GO_0106058	positive regulation of calcineurin-mediated signaling	http://purl.obolibrary.org/obo/GO_0097720	calcineurin-mediated signaling
 http://purl.obolibrary.org/obo/GO_1904364	positive regulation of calcitonin secretion	http://purl.obolibrary.org/obo/GO_0036161	calcitonin secretion

@@ -490,7 +490,6 @@ http://purl.obolibrary.org/obo/GO_0061942	negative regulation of c-di-GMP signal
 http://purl.obolibrary.org/obo/GO_2000480	negative regulation of cAMP-dependent protein kinase activity	http://purl.obolibrary.org/obo/GO_0004691	cAMP-dependent protein kinase activity
 http://purl.obolibrary.org/obo/GO_0141162	negative regulation of cAMP/PKA signal transduction	http://purl.obolibrary.org/obo/GO_0141156	cAMP/PKA signal transduction
 http://purl.obolibrary.org/obo/GO_0160049	negative regulation of cGAS/STING signaling pathway	http://purl.obolibrary.org/obo/GO_0140896	cGAS/STING signaling pathway
-http://purl.obolibrary.org/obo/GO_0010754	negative regulation of cGMP-mediated signaling	http://purl.obolibrary.org/obo/GO_0019934	cGMP-mediated signaling
 http://purl.obolibrary.org/obo/GO_0070885	negative regulation of calcineurin-NFAT signaling cascade	http://purl.obolibrary.org/obo/GO_0033173	calcineurin-NFAT signaling cascade
 http://purl.obolibrary.org/obo/GO_0106057	negative regulation of calcineurin-mediated signaling	http://purl.obolibrary.org/obo/GO_0097720	calcineurin-mediated signaling
 http://purl.obolibrary.org/obo/GO_1904363	negative regulation of calcitonin secretion	http://purl.obolibrary.org/obo/GO_0036161	calcitonin secretion
@@ -2178,6 +2177,7 @@ http://purl.obolibrary.org/obo/GO_2000378	negative regulation of reactive oxygen
 http://purl.obolibrary.org/obo/GO_1900121	negative regulation of receptor binding	http://purl.obolibrary.org/obo/GO_0005102	signaling receptor binding
 http://purl.obolibrary.org/obo/GO_2000645	negative regulation of receptor catabolic process	http://purl.obolibrary.org/obo/GO_0032801	receptor catabolic process
 http://purl.obolibrary.org/obo/GO_1903910	negative regulation of receptor clustering	http://purl.obolibrary.org/obo/GO_0043113	receptor clustering
+http://purl.obolibrary.org/obo/GO_0010754	negative regulation of receptor guanylyl cyclase signaling pathway	http://purl.obolibrary.org/obo/GO_0007168	receptor guanylyl cyclase signaling pathway
 http://purl.obolibrary.org/obo/GO_0002091	negative regulation of receptor internalization	http://purl.obolibrary.org/obo/GO_0031623	receptor internalization
 http://purl.obolibrary.org/obo/GO_1902684	negative regulation of receptor localization to synapse	http://purl.obolibrary.org/obo/GO_0097120	receptor localization to synapse
 http://purl.obolibrary.org/obo/GO_0001920	negative regulation of receptor recycling	http://purl.obolibrary.org/obo/GO_0001881	receptor recycling
