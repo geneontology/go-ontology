@@ -99,7 +99,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
+          fetch-depth: 1
           token: ${{ secrets.PAT_FOR_PR }}  # Use PAT for checkout to allow committing later
 
       - name: Configure Git
@@ -213,7 +213,7 @@ jobs:
 
           # Run Claude with proper permissions
           claude -p "$(cat /tmp/claude-input/claude_prompt.txt)" \
+            --permission-mode bypassPermissions \
             --output-format stream-json \
-            --allowedTools "Bash(git:*)" "Bash(gh:*)" "FileSystem(*)" \
             --verbose 
           
