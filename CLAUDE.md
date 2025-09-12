@@ -114,6 +114,7 @@ Note the pattern for names and definitions.
 
 No relationship should point to an obsolete term - when you obsolete a term, you may need to also rewire
 terms to "skip" the obsoleted term.
+For example, when 'cell-cell adhesion via plasma-membrane adhesion molecules' is obsoleted and replaced_by GO:0098609 cell-cell adhesion, the logical definition for endocardial cushion fusion should be changed from intersection_of: GO:0098742 ! cell-cell adhesion via plasma-membrane adhesion molecules to intersection_of: GO:0098609 ! cell-cell adhesion.
 
 ## Other metadata
 
