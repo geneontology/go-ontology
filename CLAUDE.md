@@ -114,7 +114,25 @@ Note the pattern for names and definitions.
 
 No relationship should point to an obsolete term - when you obsolete a term, you may need to also rewire
 terms to "skip" the obsoleted term.
-For example, when 'cell-cell adhesion via plasma-membrane adhesion molecules' is obsoleted and replaced_by GO:0098609 cell-cell adhesion, the logical definition for endocardial cushion fusion should be changed from intersection_of: GO:0098742 ! cell-cell adhesion via plasma-membrane adhesion molecules to intersection_of: GO:0098609 ! cell-cell adhesion. If the obsoleted term does not have a replacement term, pause and ask for guidence. There should be no reference of obsoleted terms by other terms.
+
+**Critical requirement**: When obsoleting a term, you MUST check for and update all references to that term throughout the ontology. This includes:
+
+1. **is_a relationships**: Any term that has `is_a: obsoleted_term` must be rewired to point to the replacement term
+2. **part_of relationships**: Any term with `part_of: obsoleted_term` must be updated
+3. **intersection_of clauses**: Any logical definitions using the obsoleted term must be updated
+4. **regulates relationships**: Terms that regulate the obsoleted term must be rewired
+5. **Other relationship types**: Check for any other relationship types pointing to the obsoleted term
+
+For example, when 'cell-cell adhesion via plasma-membrane adhesion molecules' is obsoleted and replaced_by GO:0098609 cell-cell adhesion, the logical definition for endocardial cushion fusion should be changed from `intersection_of: GO:0098742 ! cell-cell adhesion via plasma-membrane adhesion molecules` to `intersection_of: GO:0098609 ! cell-cell adhesion`. 
+
+**Process for handling obsoleted term references**:
+1. Use `obo-grep.pl -r 'GO:XXXXXXX' src/ontology/go-edit.obo` to find ALL references to the term being obsoleted
+2. For each reference found, determine if it needs to be updated to point to the replacement term
+3. If the obsoleted term does not have a replacement term, pause and ask for guidance
+4. Update all dependent terms before checking in the obsoleted term
+5. Verify that no active terms reference the obsoleted term
+
+There should be no reference to obsoleted terms by other terms in the final ontology.
 
 ## Other metadata
 
