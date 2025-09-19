@@ -103,9 +103,6 @@ http://purl.obolibrary.org/obo/GO_0008645	hexose transmembrane transport	http://
 http://purl.obolibrary.org/obo/GO_0015736	hexuronate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_24591	hexuronate
 http://purl.obolibrary.org/obo/GO_0080170	hydrogen peroxide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16240	hydrogen peroxide
 http://purl.obolibrary.org/obo/GO_0033308	hydroxyectoine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_85413	5-hydroxyectoine zwitterion
-http://purl.obolibrary.org/obo/GO_0098661	inorganic anion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_24834	inorganic anion
-http://purl.obolibrary.org/obo/GO_0098662	inorganic cation transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_36915	inorganic cation
-http://purl.obolibrary.org/obo/GO_0098660	inorganic ion transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_36914	inorganic ion
 http://purl.obolibrary.org/obo/GO_1904200	iodide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16382	iodide
 http://purl.obolibrary.org/obo/GO_1902497	iron-sulfur cluster transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_30408	iron-sulfur cluster
 http://purl.obolibrary.org/obo/GO_1903714	isoleucine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_24898	isoleucine
@@ -130,7 +127,6 @@ http://purl.obolibrary.org/obo/GO_1901642	nucleoside transmembrane transport	htt
 http://purl.obolibrary.org/obo/GO_1901679	nucleotide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_36976	nucleotide
 http://purl.obolibrary.org/obo/GO_0015780	nucleotide-sugar transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_25609	nucleotide-sugar
 http://purl.obolibrary.org/obo/GO_0035672	oligopeptide transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_25676	oligopeptide
-http://purl.obolibrary.org/obo/GO_1903825	organic acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_64709	organic acid
 http://purl.obolibrary.org/obo/GO_1902356	oxaloacetate(2-) transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16452	oxaloacetate(2-)
 http://purl.obolibrary.org/obo/GO_1902604	p-aminobenzoyl-glutamate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_60903	N-(4-aminobenzoyl)-L-glutamate
 http://purl.obolibrary.org/obo/GO_0015887	pantothenate transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_16454	pantothenate
