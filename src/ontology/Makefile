@@ -531,6 +531,10 @@ imports/go-lego-chebi-import.owl: bio-chebi.owl ../biochebi/go-lego-chebi-import
 mirror/eco.owl: mirror/eco-download.owl
 	cp $< $@
 
+# NCBITaxon must be special-cased due to the mixed-case prefix
+mirror/ncbitaxon.owl: mirror/ncbitaxon-download.owl
+	$(ROBOT) remove --input $< --base-iri 'http://purl.obolibrary.org/obo/NCBITaxon_' --axioms external --preserve-structure false --trim false remove --select imports --trim false annotate --ontology-iri $(OBO)/$@ --output $@
+
 # WBbt must be special-cased due to the mixed-case prefix
 # We are already downloading its base file, but there is still some duplicative RO content it it.
 mirror/wbbt.owl: mirror/wbbt-download.owl
