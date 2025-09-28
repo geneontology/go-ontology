@@ -1097,7 +1097,7 @@ http://purl.obolibrary.org/obo/GO_2000467	positive regulation of glycogen (starc
 http://purl.obolibrary.org/obo/GO_0045725	positive regulation of glycogen biosynthetic process	http://purl.obolibrary.org/obo/GO_0005978	glycogen biosynthetic process
 http://purl.obolibrary.org/obo/GO_0045819	positive regulation of glycogen catabolic process	http://purl.obolibrary.org/obo/GO_0005980	glycogen catabolic process
 http://purl.obolibrary.org/obo/GO_0070875	positive regulation of glycogen metabolic process	http://purl.obolibrary.org/obo/GO_0005977	glycogen metabolic process
-http://purl.obolibrary.org/obo/GO_2001172	positive regulation of glycolytic fermentation to ethanol	http://purl.obolibrary.org/obo/GO_0019655	glycolytic fermentation to ethanol
+http://purl.obolibrary.org/obo/GO_2001172	positive regulation of glycolytic fermentation to ethanol	http://purl.obolibrary.org/obo/GO_0019655	pyruvate fermentation to ethanol
 http://purl.obolibrary.org/obo/GO_0045821	positive regulation of glycolytic process	http://purl.obolibrary.org/obo/GO_0006096	glycolytic process
 http://purl.obolibrary.org/obo/GO_1904540	positive regulation of glycolytic process through fructose-6-phosphate	http://purl.obolibrary.org/obo/GO_0061615	glycolytic process through fructose-6-phosphate
 http://purl.obolibrary.org/obo/GO_0010560	positive regulation of glycoprotein biosynthetic process	http://purl.obolibrary.org/obo/GO_0009101	glycoprotein biosynthetic process
