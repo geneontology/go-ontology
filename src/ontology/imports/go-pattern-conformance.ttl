@@ -37705,6 +37705,9 @@
 <http://purl.obolibrary.org/obo/GO_0160293> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml> .
 
 
+<http://purl.obolibrary.org/obo/GO_0160305> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
+
+
 <http://purl.obolibrary.org/obo/GO_0170033> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
 
 
