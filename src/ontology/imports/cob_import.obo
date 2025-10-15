@@ -1,0 +1,201 @@
+format-version: 1.2
+data-version: go/releases/2025-10-15/imports/cob_import.owl
+ontology: go/imports/cob_import
+
+[Term]
+id: BFO:0000015
+name: process
+
+[Term]
+id: BFO:0000040
+name: material entity
+property_value: IAO:0000116 "Elucidation: An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." xsd:string
+
+[Term]
+id: BFO:0000141
+name: immaterial entity
+
+[Term]
+id: CHEBI:24636
+def: "Nuclear particle of charge number +1, spin 1/2 and rest mass of 1.007276470(12) u." []
+is_a: CHEBI:36342
+
+[Term]
+id: CHEBI:33252
+def: "A nucleus is the positively charged central portion of an atom, excluding the orbital electrons." []
+is_a: CHEBI:36342
+relationship: BFO:0000051 CHEBI:24636 ! has part
+property_value: IAO:0000116 "Some people may be uncomfortable calling every proton an atomic nucleus" xsd:string
+property_value: IAO:0000116 "This is equivalent to CHEBI:33252" xsd:string
+
+[Term]
+id: CHEBI:36342
+def: "A particle smaller than an atom." []
+is_a: BFO:0000040 ! material entity
+disjoint_from: COB:0000011 ! atom
+
+[Term]
+id: CL:0000000
+def: "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." []
+is_a: UBERON:0000465
+property_value: IAO:0000116 "CL and GO definitions of cell differ based on inclusive or exclusive of cell wall, etc." xsd:string
+property_value: IAO:0000116 "We struggled with this definition. We are worried about circularity. We also considered requiring the capability of metabolism." xsd:string
+
+[Term]
+id: COB:0000011
+name: atom
+def: "A material entity consisting of exactly one atomic nucleus and the electron(s) orbiting it." []
+is_a: BFO:0000040 ! material entity
+disjoint_from: COB:0000013 ! molecule
+relationship: BFO:0000051 CHEBI:33252 ! has part
+property_value: IAO:0000116 "This atom is closely related to ChEBI's atom, but not exactly equivalent to." xsd:string
+
+[Term]
+id: COB:0000013
+name: molecule
+def: "A material entity that consists of two or more atoms that are all connected via covalent bonds such that any atom can be transitively connected with any other atom." []
+is_a: BFO:0000040 ! material entity
+relationship: BFO:0000051 COB:0000011 ! has part atom
+property_value: IAO:0000116 "This molecular entity is different than ChEBI's 'molecular entity'." xsd:string
+property_value: IAO:0000116 "We would like to have cardinality restrictions on the logic, but there are some technical limitations." xsd:string
+
+[Term]
+id: COB:0000021
+name: gross anatomical part
+def: "A part of a multicellular organism that is a collection of cell components that are not all contained in one cell." []
+is_a: UBERON:0000465
+
+[Term]
+id: COB:0000022
+name: organism
+def: "A material entity that is a maximal functionally integrated unit that develops from a program encoded in a genome" []
+is_a: UBERON:0000465
+property_value: IAO:0000116 "'Maximal functionally integrated unit' is intended to express unity, which Barry considers synonymous with BFO 'object'." xsd:string
+property_value: IAO:0000116 "Includes virus - we will later have a class for cellular organisms." xsd:string
+
+[Term]
+id: COB:0000080
+name: complex of molecules
+def: "A complex of two or more molecules that are not covalently bound." []
+is_a: BFO:0000040 ! material entity
+relationship: BFO:0000051 COB:0000013 ! has part molecule
+
+[Term]
+id: GO:0003674
+def: "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs." []
+is_a: BFO:0000015 ! process
+property_value: IAO:0000116 "This is the same as GO molecular function" xsd:string
+
+[Term]
+id: GO:0005575
+def: "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex)." []
+is_a: BFO:0000040 ! material entity
+union_of: GO:0032991
+union_of: GO:0044423
+union_of: GO:0110165
+
+[Term]
+id: GO:0008150
+def: "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence." []
+is_a: BFO:0000015 ! process
+relationship: BFO:0000051 GO:0003674 ! has part
+
+[Term]
+id: GO:0032991
+def: "A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which at least one component is a protein and the constituent parts function together." []
+is_a: COB:0000080 ! complex of molecules
+is_a: GO:0005575
+relationship: BFO:0000051 PR:000000001 ! has part
+property_value: IAO:0000116 "This is not covalently bonded, which conflicts with changes to the parent definition." xsd:string
+
+[Term]
+id: GO:0044423
+def: "Any constituent part of a virion, a complete fully infectious extracellular virus particle." []
+is_a: GO:0005575
+
+[Term]
+id: GO:0110165
+def: "A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex." []
+is_a: GO:0005575
+is_a: UBERON:0000465
+relationship: BFO:0000051 COB:0000013 ! has part molecule
+property_value: IAO:0000116 "Components are larger than individual macromolecular entities. It is tricky to define distinction between 'cell component' and 'macromolecular entity', e.g. ribosome. We would like to exclude most protein complexes." xsd:string
+property_value: IAO:0000116 "Overlaps with some cellular components from GO" xsd:string
+
+[Term]
+id: NCBITaxon:131567
+is_a: COB:0000022 ! organism
+
+[Term]
+id: PO:0025131
+def: "An anatomical entity that is or was part of a plant." []
+is_a: UBERON:0000465
+
+[Term]
+id: PR:000000001
+def: "An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof." []
+is_a: PR:000018263
+
+[Term]
+id: PR:000018263
+def: "An organic amino compound that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds." []
+is_a: COB:0000013 ! molecule
+
+[Term]
+id: UBERON:0000465
+def: "Anatomical entity that has mass." []
+is_a: BFO:0000040 ! material entity
+is_a: UBERON:0001062
+union_of: CL:0000000
+union_of: COB:0000021 ! gross anatomical part
+union_of: COB:0000022 ! organism
+union_of: GO:0110165
+
+[Term]
+id: UBERON:0000466
+def: "Anatomical entity that has no mass." []
+is_a: BFO:0000141 ! immaterial entity
+is_a: UBERON:0001062
+
+[Term]
+id: UBERON:0001062
+def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species." []
+union_of: UBERON:0000465
+union_of: UBERON:0000466
+
+[Typedef]
+id: BFO:0000050
+name: part of
+def: "a core relation that holds between a part and its whole" []
+
+[Typedef]
+id: BFO:0000051
+name: has part
+def: "a core relation that holds between a whole and its part" []
+
+[Typedef]
+id: RO:0000053
+def: "Inverse of characteristic_of" []
+
+[Typedef]
+id: RO:0000056
+def: "a relation between a continuant and a process, in which the continuant is somehow involved in the process" []
+
+[Typedef]
+id: RO:0000057
+def: "a relation between a process and a continuant, in which the continuant is somehow involved in the process" []
+
+[Typedef]
+id: RO:0002215
+def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process." []
+range: BFO:0000015 ! process
+
+[Typedef]
+id: RO:0002233
+def: "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
+domain: BFO:0000015 ! process
+
+[Typedef]
+id: RO:0002234
+def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p." []
+
