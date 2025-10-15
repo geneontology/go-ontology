@@ -421,6 +421,7 @@ UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/uberon-base.owl
 WBBT_SOURCE=http://purl.obolibrary.org/obo/wbbt/wbbt-base.owl
 ECO_SOURCE=http://purl.obolibrary.org/obo/eco/eco-basic.owl
 OBA_SOURCE=http://purl.obolibrary.org/obo/oba/subsets/oba-basic.obo
+COB_SOURCE=http://purl.obolibrary.org/obo/cob.owl
 
 WGET_OUT = -O $@.tmp && cp $@.tmp $@ && touch $@
 
@@ -477,6 +478,10 @@ mirror/wbbt-download.owl: $(SRC)
 mirror/eco-download.owl: $(SRC)
 	wget --no-check-certificate $(ECO_SOURCE) $(WGET_OUT)
 .PRECIOUS: mirror/eco-download.owl
+
+mirror/cob-download.owl: $(SRC)
+	wget --no-check-certificate $(COB_SOURCE) $(WGET_OUT)
+.PRECIOUS: mirror/cob-download.owl
 
 mirror/ro-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/ro.owl $(WGET_OUT)
@@ -542,6 +547,10 @@ mirror/wbbt.owl: mirror/wbbt-download.owl
 
 mirror/ro.owl: mirror/ro-download.owl
 	$(ROBOT) remove --input $< --base-iri 'http://purl.obolibrary.org/obo/GO_' --axioms internal --preserve-structure false --trim false remove --select imports --trim false annotate --ontology-iri $(OBO)/$@ --output $@
+
+mirror/cob.owl: mirror/cob-download.owl
+	# retain annotations for some ontologies which we don't import
+	$(ROBOT) remove --input $< --select 'COB:* MOP:* IAO:* OBI:* BFO:* PCO:* ENVO:*' --select complement --axioms annotation --trim false annotate --ontology-iri $(OBO)/$@ --output $@
 
 mirror/%.owl: mirror/%-download.owl
 	$(ROBOT) remove --input $< --base-iri 'http://purl.obolibrary.org/obo/$(shell echo $* | tr '[:lower:]' '[:upper:]')_' --axioms external --preserve-structure false --trim false remove --select imports --trim false annotate --ontology-iri $(OBO)/$@ --output $@
