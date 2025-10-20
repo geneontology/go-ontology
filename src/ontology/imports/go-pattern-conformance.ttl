@@ -6564,6 +6564,9 @@
 <http://purl.obolibrary.org/obo/GO_0009415> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/response_to_stimulus_by_stimulus.yaml> .
 
 
+<http://purl.obolibrary.org/obo/GO_0009416> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/response_to_stimulus_by_stimulus.yaml> .
+
+
 <http://purl.obolibrary.org/obo/GO_0009423> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
 
 
