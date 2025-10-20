@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/pr_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2025-01-23/imports/pr_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2025-10-20/imports/pr_import.owl"/>
     </owl:Ontology>
     
 
@@ -143,21 +143,15 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_33708 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33708"/>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_50047 -->
+    <!-- http://purl.obolibrary.org/obo/COB_0000013 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50047"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COB_0000013"/>
     
 
 
@@ -228,7 +222,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018263"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000064867"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -247,18 +240,18 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</obo:IAO_0000115>
+        <obo:IAO_0000115>An amino acid chain that is canonically produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>natural protein</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>native protein</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PR:000000001</oboInOwl:id>
-        <rdfs:comment>The definition above excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to CHEBI:36080. Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).</rdfs:comment>
+        <rdfs:comment>Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Note also that the definition excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to PR:000064867 (&quot;protein-containing molecular entity&quot;). Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).</rdfs:comment>
         <rdfs:label>protein</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</owl:annotatedTarget>
+        <owl:annotatedTarget>An amino acid chain that is canonically produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PRO:WCB</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -453,37 +446,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000000105"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>NODAL</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PR_000001004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000115>A protein that is a translation product of the human CD4 gene or a 1:1 ortholog thereof. CD4 is an accessory protein for MHC class-II antigen/T-cell receptor interaction. It is the primary receptor for HIV-1. CD4 has four immunoglobulin-like domains in its extracellular region that share the same structure, but can differ in sequence.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>PIRSF:PIRSF001977</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>CD4</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>T-cell differentiation antigen L3T4</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>T-cell surface antigen T4/Leu-3</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>T-cell surface glycoprotein CD4</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>PR:000001004</oboInOwl:id>
-        <rdfs:comment>Category=gene. Requested by=CL.</rdfs:comment>
-        <rdfs:label>CD4 molecule</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001004"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A protein that is a translation product of the human CD4 gene or a 1:1 ortholog thereof. CD4 is an accessory protein for MHC class-II antigen/T-cell receptor interaction. It is the primary receptor for HIV-1. CD4 has four immunoglobulin-like domains in its extracellular region that share the same structure, but can differ in sequence.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:15326605</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001004"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>CD4</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
@@ -1507,18 +1469,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001187"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>ADRA2L1</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001187"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>ADRA2RL1</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001187"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An alpha-2 adrenergic receptor that is a translation product of the human ADRA2B gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PRO:WCB</oboInOwl:hasDbXref>
@@ -1529,6 +1479,18 @@
         <owl:annotatedTarget>ADRA2B</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001187"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>ADRA2L1</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001187"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>ADRA2RL1</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
     </owl:Axiom>
     
 
@@ -6446,10 +6408,12 @@
         <obo:IAO_0000115>A neurotrophin that is a translation product of the human BDNF gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>BDNF</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>abrineurin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>brain-derived neurotrophic factor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>proBDNF</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PR:000004716</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
-        <rdfs:label>brain-derived neurotrophic factor</rdfs:label>
+        <rdfs:label>neurotrophic factor BDNF precursor form</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000004716"/>
@@ -8361,14 +8325,14 @@
         <obo:IAO_0000115>A protein that is a translation product of the human IBSP gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>BSP II</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>IBSP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bone sialoprotein 2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>bone sialoprotein II</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>cell-binding sialoprotein</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>integrin-binding sialoprotein</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>BNSP</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>PR:000008878</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
-        <rdfs:label>bone sialoprotein 2</rdfs:label>
+        <rdfs:label>integrin-binding sialoprotein</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008878"/>
@@ -8515,6 +8479,7 @@
         <obo:IAO_0000115>A protein that is a translation product of the human IGF2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>IGF-II</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>IGF2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>insulin-like growth factor II</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>multiplication-stimulating polypeptide</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>somatomedin-A</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
@@ -8522,7 +8487,7 @@
         <oboInOwl:hasRelatedSynonym>PP1446</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>PR:000008942</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
-        <rdfs:label>insulin-like growth factor II</rdfs:label>
+        <rdfs:label>insulin-like growth factor 2</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000008942"/>
@@ -8643,24 +8608,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000045358"/>
         <obo:IAO_0000115>An insulin family protein that is a translation product of the human INS gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
-        <oboInOwl:hasBroadSynonym>insulin</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>INS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PR:000009054</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
-        <rdfs:label>insulin gene translation product</rdfs:label>
+        <rdfs:label>preproinsulin</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An insulin family protein that is a translation product of the human INS gene or a 1:1 ortholog thereof.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-        <owl:annotatedTarget>insulin</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009054"/>
@@ -8710,6 +8668,7 @@
         <oboInOwl:hasBroadSynonym>IGF-I</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>MGF</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>IGF1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>insulin-like growth factor I</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mechano growth factor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>somatomedin</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>somatomedin-C</oboInOwl:hasExactSynonym>
@@ -8718,7 +8677,7 @@
         <oboInOwl:hasRelatedSynonym>Igf-1</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>PR:000009182</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
-        <rdfs:label>insulin-like growth factor I</rdfs:label>
+        <rdfs:label>insulin-like growth factor 1</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000009182"/>
@@ -9208,13 +9167,14 @@
         <obo:IAO_0000115>A protein that is a translation product of the human NEDD8 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>NEDD-8</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>NEDD8</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NEDD8 protein</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>neddylin</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>neural precursor cell expressed developmentally down-regulated protein 8</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ubiquitin-like protein Nedd8</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PR:000011116</oboInOwl:id>
         <rdfs:comment>Category=gene.</rdfs:comment>
-        <rdfs:label>NEDD8 protein</rdfs:label>
+        <rdfs:label>ubiquitin-like protein NEDD8</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000011116"/>
@@ -10895,7 +10855,7 @@
     <!-- http://purl.obolibrary.org/obo/PR_000018263 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018263">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000013"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pr#has_constituent_monomer"/>
@@ -10903,7 +10863,7 @@
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33708"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An organic amino compound that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds.</obo:IAO_0000115>
+        <obo:IAO_0000115>A molecule that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym>peptide</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>polypeptide</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
@@ -10914,7 +10874,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000018263"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An organic amino compound that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds.</owl:annotatedTarget>
+        <owl:annotatedTarget>A molecule that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PRO:JSG</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -11597,17 +11557,17 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A brain-derived neurotrophic factor that has been processed by proteolytic cleavage.</obo:IAO_0000115>
+        <obo:IAO_0000115>A neurotrophic factor BDNF precursor form that has been processed by proteolytic cleavage.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>BDNF/ClvPrd</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PR:000019130</oboInOwl:id>
         <rdfs:comment>Category=modification.</rdfs:comment>
-        <rdfs:label>brain-derived neurotrophic factor proteolytic cleavage product</rdfs:label>
+        <rdfs:label>neurotrophic factor BDNF precursor form proteolytic cleavage product</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000019130"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A brain-derived neurotrophic factor that has been processed by proteolytic cleavage.</owl:annotatedTarget>
+        <owl:annotatedTarget>A neurotrophic factor BDNF precursor form that has been processed by proteolytic cleavage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -12227,17 +12187,17 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An insulin-like growth factor II that has been processed by proteolytic cleavage.</obo:IAO_0000115>
+        <obo:IAO_0000115>An insulin-like growth factor 2 that has been processed by proteolytic cleavage.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>IGF2/ClvPrd</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PR:000020267</oboInOwl:id>
         <rdfs:comment>Category=modification.</rdfs:comment>
-        <rdfs:label>insulin-like growth factor II proteolytic cleavage product</rdfs:label>
+        <rdfs:label>insulin-like growth factor 2 proteolytic cleavage product</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020267"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An insulin-like growth factor II that has been processed by proteolytic cleavage.</owl:annotatedTarget>
+        <owl:annotatedTarget>An insulin-like growth factor 2 that has been processed by proteolytic cleavage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -12317,17 +12277,17 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An insulin-like growth factor I that has been processed by proteolytic cleavage.</obo:IAO_0000115>
+        <obo:IAO_0000115>An insulin-like growth factor 1 that has been processed by proteolytic cleavage.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>IGF1/ClvPrd</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PR:000020357</oboInOwl:id>
         <rdfs:comment>Category=modification.</rdfs:comment>
-        <rdfs:label>insulin-like growth factor I proteolytic cleavage product</rdfs:label>
+        <rdfs:label>insulin-like growth factor 1 proteolytic cleavage product</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020357"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An insulin-like growth factor I that has been processed by proteolytic cleavage.</owl:annotatedTarget>
+        <owl:annotatedTarget>An insulin-like growth factor 1 that has been processed by proteolytic cleavage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -12407,17 +12367,17 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A NEDD8 protein that has been processed by proteolytic cleavage.</obo:IAO_0000115>
+        <obo:IAO_0000115>A ubiquitin-like protein NEDD8 that has been processed by proteolytic cleavage.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>NEDD8/ClvPrd</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PR:000020722</oboInOwl:id>
         <rdfs:comment>Category=modification.</rdfs:comment>
-        <rdfs:label>NEDD8 protein proteolytic cleavage product</rdfs:label>
+        <rdfs:label>ubiquitin-like protein NEDD8 proteolytic cleavage product</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000020722"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A NEDD8 protein that has been processed by proteolytic cleavage.</owl:annotatedTarget>
+        <owl:annotatedTarget>A ubiquitin-like protein NEDD8 that has been processed by proteolytic cleavage.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PRO:DNx</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -14102,70 +14062,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PR_000064867 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000064867">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A molecular entity that minimally consists of a protein.</obo:IAO_0000115>
-        <oboInOwl:hasNarrowSynonym>protein</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>protein aggregate</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>protein complex</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>protein-containing complex</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>PR:000064867</oboInOwl:id>
-        <rdfs:comment>Note: This includes single proteins and derivatives thereof (PR:000000001), protein-containing complexes (GO:0032991), and protein aggregates (PR:000050565).</rdfs:comment>
-        <rdfs:label>protein-containing molecular entity</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000064867"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A molecular entity that minimally consists of a protein.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000064867"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-        <owl:annotatedTarget>protein</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000064867"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-        <owl:annotatedTarget>protein aggregate</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000064867"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-        <owl:annotatedTarget>protein complex</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000064867"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-        <owl:annotatedTarget>protein-containing complex</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PRO:DAN</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SO_0000704 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000704"/>
@@ -14173,5 +14069,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.25) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
