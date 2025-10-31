@@ -79,11 +79,11 @@ REPORTDIR = $(RELEASEDIR)/reports
 
 stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl imports/go-computed-taxon-constraints.obo subset-owls subset-reports generate-mappings
 
-test: datalog-violations.tsv $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.owl unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
+test: datalog-violations.tsv $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.ofn unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
 travis_test: check_all_taxon_constraints_columns datalog-violations.tsv chebi_pH_7_3_check $(SRC)-check travis_build change-report.txt
 
-# This target combines features from reasoned.owl, enhanced.owl, sparql_test into a faster mode for Travis/GitHub Actions.
+# This target combines features from reasoned.ofn, enhanced.ofn, sparql_test into a faster mode for Travis/GitHub Actions.
 # These must be kept in sync.
 # The convert step is here only to work around https://github.com/ontodev/robot/issues/1250
 travis_build: go-edit-filtered-xrefs.ofn
@@ -139,7 +139,7 @@ deploy-release:
 %.gz: %
 	gzip -c $< > $@.tmp && mv $@.tmp $@
 
-%.json: %.owl
+%.json: %.ofn
 	$(ROBOT) convert --input $< -f json -o $@
 .PRECIOUS: %.json
 
@@ -185,7 +185,7 @@ imports/reactome_xrefs_import.owl: $(SRC)
 	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=reactome-tmp/combined.txt --outfile=reactome-tmp/reactome_xrefs.ofn --obo-prefixes=true
 	$(ROBOT) convert --input reactome-tmp/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
-# Remove reactome_xrefs_import.owl and go_taxon_constraints.owl from imports. These are merged in directly in enhanced.owl
+# Remove reactome_xrefs_import.owl and go_taxon_constraints.owl from imports. These are merged in directly in enhanced.ofn
 go-edit-trimmed-imports.obo: $(SRC)
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl' $< |\
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl' >$@
@@ -195,37 +195,44 @@ go-edit-filtered-xrefs.ofn: go-edit-trimmed-imports.obo ../util/filter-rhea-xref
 
 # merge in some imported GO modules
 # remove editor-only annotations
-enhanced.owl: go-edit-filtered-xrefs.ofn
-	$(ROBOT) merge --collapse-import-closure false -i go-edit-filtered-xrefs.ofn -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true annotate --annotation owl:versionInfo $(RELEASEDATE) -o $@
+# convert some xrefs to skos properties - only for prefixes defined in the SPARQL update file
+# NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
+# https://github.com/ontodev/robot/issues/1250
+# NOTE - 'convert --add-prefixes prefixes.jsonld' is necessary until ROBOT issue https://github.com/ontodev/robot/issues/1266 is fixed
+enhanced.ofn: go-edit-filtered-xrefs.ofn ../sparql/add-skos-xrefs.ru ../sparql/remove-broad-xrefs.ru ../sparql/remove-related-xrefs.ru
+	$(ROBOT) annotate -i go-edit-filtered-xrefs.ofn --annotation owl:versionInfo $(RELEASEDATE) merge --collapse-import-closure false -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true query --update ../sparql/add-skos-xrefs.ru --update ../sparql/remove-broad-xrefs.ru --update ../sparql/remove-related-xrefs.ru remove --select 'complement' --drop-axiom-annotations 'oboInOwl:source' annotate --annotation owl:versionInfo $(RELEASEDATE) convert --add-prefixes prefixes.jsonld -o $@
 
-# reasoned.owl is equivalent to editors source, after materialize-reason-relax-reduce pipeline
+# reasoned.ofn is equivalent to editors source, after materialize-reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
-reasoned.owl: enhanced.owl $(SRC)-check
+reasoned.ofn: enhanced.ofn $(SRC)-check
 	$(ROBOT) materialize -i $< -r ELK --term BFO:0000050 reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl -o $@
 
-present_in_taxon_check.ofn: enhanced.owl ../taxon_constraints/present_in_taxon.ofn
+present_in_taxon_check.ofn: enhanced.ofn ../taxon_constraints/present_in_taxon.ofn
 	$(ROBOT) merge --collapse-import-closure false -i $< -i ../taxon_constraints/present_in_taxon.ofn reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural -o $@
 
 # equivalent to reasoned, but we rename
 # TODO cleanup redundancies with merge here and with go-base
 # note: do not run 'reason' after go-computed-taxon-constraints.owl is merged; some desired logical redundancy may be lost
-$(GO_PLUS).owl: reasoned.owl imports/go-computed-taxon-constraints.owl
+$(GO_PLUS).ofn: reasoned.ofn imports/go-computed-taxon-constraints.owl
 	$(ROBOT) unmerge -i $< -i imports/go_taxon_constraints.owl merge --collapse-import-closure true --include-annotations false merge -i imports/go-computed-taxon-constraints.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+
+$(GO_PLUS).owl: $(GO_PLUS).ofn
+	$(ROBOT) convert -i $< -o $@
 .PRECIOUS: $(GO_PLUS).owl
 
 # Create release file containing GO-asserted axioms, no external axioms.
 # GO artifacts to merge are hardcoded here.
-go-base.owl: $(GO_PLUS).owl
+go-base.owl: $(GO_PLUS).ofn
 	$(ROBOT) remove -i $< --select imports --trim false remove --base-iri 'http://purl.obolibrary.org/obo/GO_' --base-iri 'http://purl.obolibrary.org/obo/GOREL_' --base-iri 'http://purl.obolibrary.org/obo/GOCHE_' --base-iri 'http://purl.obolibrary.org/obo/NCBITaxon_Union_' --axioms external --preserve-structure false --trim false merge -i extensions/go-gci.owl -i extensions/go-bridge.owl -i extensions/ro_pending.owl -i imports/x-disjoint.ofn annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
-$(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).owl extensions/gorel.owl mirror/cl.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl
+$(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).ofn extensions/gorel.owl mirror/cl.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 $(GO_AMIGO).owl: extensions/go-amigo-edit.ofn $(GO_GAF).owl extensions/go-modules-annotations.owl extensions/go-taxon-subsets.owl mirror/eco.owl mirror/pato.owl mirror/po.owl mirror/chebi.owl mirror/uberon.owl mirror/wbbt.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 # Not all imports are being pre-mirrored; the ones that are should be dependencies
-$(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl mirror/cl.owl mirror/uberon.owl imports/go-lego-chebi-import.owl mirror/wbbt.owl mirror/eco.owl
+$(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).ofn mirror/ro.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl mirror/cl.owl mirror/uberon.owl imports/go-lego-chebi-import.owl mirror/wbbt.owl mirror/eco.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural relax reduce --named-classes-only true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 extensions/reacto.owl: $(GO_LEGO).owl mirror/chebi.owl
@@ -251,36 +258,39 @@ $(GO_LEGO_REACTO).owl: extensions/go-lego-reacto-edit.ofn $(GO_LEGO).owl extensi
 #  - smaller set of relations (v small for go-basic)
 #  - ...
 # go.obo is a simplified; we use oort to remove imports etc
-# This version of the ontology is used in another step (generate-mappings) prior to filtering narrow xrefs, but broad xrefs are filtered here
-$(ONT)-pre.owl: reasoned.owl
-	$(ROBOT) materialize --input $< --reasoner ELK $(addprefix --term ,$(GO_MAIN_RELATIONS)) remove --select imports --trim true remove --select '<http://purl.obolibrary.org/obo/GO_*>' --select complement --select classes --signature true --trim true remove $(addprefix --term ,$(GO_MAIN_RELATIONS)) --select complement --select object-properties --signature true --trim true query --update $(SPARQLDIR)/remove-broad-xrefs.ru --update $(SPARQLDIR)/remove-related-xrefs.ru annotate -O $(OBO)/$(ONT).owl -V $(RELEASE_URIBASE)/$(ONT).owl convert -f owl --output $@.tmp && mv $@.tmp $@
+$(ONT)-pre.ofn: reasoned.ofn
+	$(ROBOT) materialize --input $< --reasoner ELK $(addprefix --term ,$(GO_MAIN_RELATIONS)) remove --select imports --trim true remove --select '<http://purl.obolibrary.org/obo/GO_*>' --select complement --select classes --signature true --trim true remove $(addprefix --term ,$(GO_MAIN_RELATIONS)) --select complement --select object-properties --signature true --trim true annotate -O $(OBO)/$(ONT).owl -V $(RELEASE_URIBASE)/$(ONT).owl convert -f owl --output $@.tmp && mv $@.tmp $@
 
-$(ONT)-pre-reduced.owl: $(ONT)-pre.owl
-	$(ROBOT) reduce -r elk -i $< query --update ../sparql/remove-narrow-xrefs.ru -o $@
-.PRECIOUS: $(ONT)-pre-reduced.owl
+$(ONT)-pre-reduced.ofn: $(ONT)-pre.ofn
+	$(ROBOT) reduce -r elk -i $< -o $@
+.PRECIOUS: $(ONT)-pre-reduced.ofn
 
-go.owl: $(ONT)-pre-reduced.owl
-	$(ROBOT) remove -i $< --select 'complement' --drop-axiom-annotations 'oboInOwl:source' --drop-axiom-annotations 'IAO:0000233' -o $@
+go.ofn: $(ONT)-pre-reduced.ofn
+	$(ROBOT) remove -i $< --select 'complement' --drop-axiom-annotations 'IAO:0000233' -o $@
 
-go.obo: $(ONT).owl
+go.owl: go.ofn
+	$(ROBOT) convert -i $< -o $@
+
+go.obo: $(ONT).ofn
 	$(ROBOT) convert -i $< -o $@.tmp.obo &&\
 	cp $@.tmp.obo $@
 #	$(PERLCHECK) --disable-xrf-abbs-check --disable-multiply-labeled-edge --disable-whitespace-check $@.tmp.obo
 
 # remove non-basic relationship types (e.g. has_part)
 # assuming materialization step already done for these properties when making go.obo
-go-simple-filtered.owl: go.owl $(SPARQLDIR)/remove-cross-namespace-relations.ru $(SPARQLDIR)/remove-mf-regulates-links.ru
-	$(ROBOT) remove --input $< $(addprefix --term ,$(GO_BASIC_RELATIONS)) --select complement --select object-properties --signature true --trim true remove --term 'oboInOwl:created_by' --term 'oboInOwl:creation_date' --term 'IAO:0000233' --term 'IAO:0000589' --term 'RO:0002175' --signature true --trim true remove --axioms "DisjointClasses EquivalentClasses" query --update $(SPARQLDIR)/remove-cross-namespace-relations.ru --update $(SPARQLDIR)/remove-mf-regulates-links.ru convert -f obo --output $@
+# NOTE - '--add-prefixes prefixes.jsonld' is necessary due to https://github.com/ontodev/robot/issues/1266
+go-simple-filtered.ofn: go.ofn $(SPARQLDIR)/remove-cross-namespace-relations.ru $(SPARQLDIR)/remove-mf-regulates-links.ru
+	$(ROBOT) remove --input $< $(addprefix --term ,$(GO_BASIC_RELATIONS)) --select complement --select object-properties --signature true --trim true remove --term 'oboInOwl:created_by' --term 'oboInOwl:creation_date' --term 'IAO:0000233' --term 'IAO:0000589' --term 'RO:0002175' --signature true --trim true remove --axioms "DisjointClasses EquivalentClasses" query --update $(SPARQLDIR)/remove-cross-namespace-relations.ru --update $(SPARQLDIR)/remove-mf-regulates-links.ru convert --add-prefixes prefixes.jsonld -f ofn --output $@
 
-go-simple-filtered-reduced.owl: go-simple-filtered.owl
+go-basic.ofn: go-simple-filtered.ofn
 	$(ROBOT) reduce -r elk -i $< -o $@
 
-go-basic.owl: go-simple-filtered-reduced.owl
-	cp $< $@
+go-basic.owl: go-basic.ofn
+	$(ROBOT) convert -i $< -o $@
 #FIXME rewrite perl filter/check
 #	$(PERLFILTER) $< > $@.tmp && mv $@.tmp $@ && $(PERLCHECK) --disable-xrf-abbs-check --disable-whitespace-check $@
 
-go-basic.obo: go-basic.owl
+go-basic.obo: go-basic.ofn
 	$(ROBOT) convert -i $< -o $@
 
 # check for cycles in go-basic
@@ -313,7 +323,7 @@ subsets/%-terms.txt: subsets/subset-terms.tsv subsets/subset-properties.tsv
 	grep '"$*"' $< | cut -f1 | sed 's/"//g' >$@.tmp && cat $@.tmp $(word 2,$^) >$@
 
 # Also generates %.obo and %.json
-subsets/%.owl: $(ONT).owl subsets/%-terms.txt
+subsets/%.owl: $(ONT).ofn subsets/%-terms.txt
 	$(ROBOT) extract --method subset -i $< --term-file $(word 2,$^) annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ --annotation owl:versionInfo $(RELEASEDATE) -o $@ convert -o $(patsubst %.owl,%.obo,$@) convert -o $(patsubst %.owl,%.json,$@)
 
 # so far we only make simple .tsv reports
@@ -334,8 +344,8 @@ all_imports: $(IMPORTS_OWL)
 clean_imports:
 	rm mirror/*
 
-seed.txt: enhanced.owl imports/go_taxon_constraints.owl imports/go-taxon-groupings-edit.owl ../taxon_constraints/present_in_taxon.ofn imports/go-catalytic-activities-participants.owl
-	$(ROBOT) merge --collapse-import-closure false -i enhanced.owl -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings-edit.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl query -f csv --select ../sparql/terms.sparql $@
+seed.txt: enhanced.ofn imports/go_taxon_constraints.owl imports/go-taxon-groupings-edit.owl ../taxon_constraints/present_in_taxon.ofn imports/go-catalytic-activities-participants.owl
+	$(ROBOT) merge --collapse-import-closure false -i enhanced.ofn -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings-edit.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl query -f csv --select ../sparql/terms.sparql $@
 
 # Specialize seed terms for PR. The inclusion of taxon IRIs in the full seed was causing PR to pull
 # in overly specific proteins (e.g. human forms of everything) and referencing gene IRIs. This is kind
@@ -605,9 +615,8 @@ EXTERNAL2GO_DBS = EC KEGG_REACTION MetaCyc Reactome RESID UM-BBD_enzymeID UM-BBD
 
 # See : https://github.com/geneontology/go-site/issues/688
 # Manually add all ID spaces here; only do this for xrefs that are managed within the obo file.
-# Using a version of ontology before narrow xrefs are filtered out
 .PHONY: generate-mappings
-generate-mappings: $(ONT)-pre.owl
+generate-mappings: $(ONT)-pre.ofn
 	$(OWLTOOLS) $< --external-mappings-files -o external2go --label-prefix GO: --externals $(EXTERNAL2GO_DBS)
 	wget https://mirror.geneontology.io/interpro2go -O external2go/interpro2go
 	wget https://mirror.geneontology.io/pfam2go -O external2go/pfam2go
@@ -642,17 +651,17 @@ VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-l
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
-sparql_test: enhanced.owl reasoned.owl
+sparql_test: enhanced.ofn reasoned.ofn
 	$(ROBOT) verify --input $< --queries $(VARGS) -O reports/
 	# These purposely aren't checking problems in imports
-	$(ROBOT) verify --input reasoned.owl --queries $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql $(SPARQLDIR)/different-namespace-violation.sparql -O reports/
+	$(ROBOT) verify --input reasoned.ofn --queries $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql $(SPARQLDIR)/different-namespace-violation.sparql -O reports/
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
 	$(ROBOT) query -i $< -s $(SPARQLDIR)/$*-violation.sparql $@
 
-check-obsolete-references-including-imports: reasoned.owl
-	$(ROBOT) merge --input reasoned.owl verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
+check-obsolete-references-including-imports: reasoned.ofn
+	$(ROBOT) merge --input reasoned.ofn verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
 
 ## Datalog validations
 go-edit.facts: $(SRC)
@@ -704,11 +713,11 @@ ALL_PATTERN_NAMES=$(patsubst ../design_patterns/%.yaml,%,$(ALL_PATTERN_YAMLS))
 ALL_PATTERN_TSVS=$(patsubst %.yaml,%.tsv,$(ALL_PATTERN_YAMLS))
 
 # Currently not rebuilt automatically; waiting for updated dosdp-tools in ODK
-imports/go-pattern-conformance.ttl: reasoned.owl $(ALL_PATTERN_YAMLS)
+imports/go-pattern-conformance.ttl: reasoned.ofn $(ALL_PATTERN_YAMLS)
 	rm -f ../design_patterns/*.tsv &&\
-	$(DOSDP_TOOLS) query --obo-prefixes=true --batch-patterns="$(ALL_PATTERN_NAMES)" --template=../design_patterns --outfile=../design_patterns --ontology=reasoned.owl --catalog=catalog-v001.xml --reasoner=elk --parallelism=4 --output-conformance=$@.tmp &&\
+	$(DOSDP_TOOLS) query --obo-prefixes=true --batch-patterns="$(ALL_PATTERN_NAMES)" --template=../design_patterns --outfile=../design_patterns --ontology=reasoned.ofn --catalog=catalog-v001.xml --reasoner=elk --parallelism=4 --output-conformance=$@.tmp &&\
 	$(ROBOT) annotate -i $@.tmp --ontology-iri $(BASE)/$@ -o $@
 
-pattern-docs: imports/go-pattern-conformance.ttl reasoned.owl $(ALL_PATTERN_YAMLS) $(ALL_PATTERN_TSVS)
+pattern-docs: imports/go-pattern-conformance.ttl reasoned.ofn $(ALL_PATTERN_YAMLS) $(ALL_PATTERN_TSVS)
 	rm -f ../../docs/patterns/*.md &&\
-	$(DOSDP_TOOLS) docs --obo-prefixes=true --batch-patterns="$(ALL_PATTERN_NAMES)" --template=../design_patterns --outfile=../../docs/patterns --infile=../design_patterns --data-location-prefix='https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/' --ontology=reasoned.owl --catalog=catalog-v001.xml
+	$(DOSDP_TOOLS) docs --obo-prefixes=true --batch-patterns="$(ALL_PATTERN_NAMES)" --template=../design_patterns --outfile=../../docs/patterns --infile=../design_patterns --data-location-prefix='https://github.com/geneontology/go-ontology/tree/master/src/design_patterns/' --ontology=reasoned.ofn --catalog=catalog-v001.xml
