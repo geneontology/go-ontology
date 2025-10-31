@@ -53,7 +53,7 @@ http://purl.obolibrary.org/obo/GO_2000450	negative regulation of CD8-positive, a
 http://purl.obolibrary.org/obo/GO_2000565	negative regulation of CD8-positive, alpha-beta T cell proliferation	http://purl.obolibrary.org/obo/GO_0035740	CD8-positive, alpha-beta T cell proliferation
 http://purl.obolibrary.org/obo/GO_2000453	negative regulation of CD8-positive, alpha-beta cytotoxic T cell extravasation	http://purl.obolibrary.org/obo/GO_0035698	CD8-positive, alpha-beta cytotoxic T cell extravasation
 http://purl.obolibrary.org/obo/GO_0140216	negative regulation of D-aspartate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0070779	D-aspartate import across plasma membrane
-http://purl.obolibrary.org/obo/GO_0046325	negative regulation of D-glucose import	http://purl.obolibrary.org/obo/GO_0046323	D-glucose import
+http://purl.obolibrary.org/obo/GO_0046325	negative regulation of D-glucose import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098708	D-glucose import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0010829	negative regulation of D-glucose transmembrane transport	http://purl.obolibrary.org/obo/GO_1904659	D-glucose transmembrane transport
 http://purl.obolibrary.org/obo/GO_1904524	negative regulation of DNA amplification	http://purl.obolibrary.org/obo/GO_0006277	DNA amplification
 http://purl.obolibrary.org/obo/GO_0043392	negative regulation of DNA binding	http://purl.obolibrary.org/obo/GO_0003677	DNA binding
@@ -1097,7 +1097,7 @@ http://purl.obolibrary.org/obo/GO_0033132	negative regulation of glucokinase act
 http://purl.obolibrary.org/obo/GO_2000907	negative regulation of glucomannan catabolic process	http://purl.obolibrary.org/obo/GO_2000884	glucomannan catabolic process
 http://purl.obolibrary.org/obo/GO_0035431	negative regulation of gluconate transmembrane transport	http://purl.obolibrary.org/obo/GO_0035429	gluconate transmembrane transport
 http://purl.obolibrary.org/obo/GO_0045721	negative regulation of gluconeogenesis	http://purl.obolibrary.org/obo/GO_0006094	gluconeogenesis
-http://purl.obolibrary.org/obo/GO_1904024	negative regulation of glucose catabolic process to lactate via pyruvate	http://purl.obolibrary.org/obo/GO_0019661	glucose catabolic process to lactate via pyruvate
+http://purl.obolibrary.org/obo/GO_1904024	negative regulation of glucose catabolic process to lactate via pyruvate	http://purl.obolibrary.org/obo/GO_0019661	homolactic fermentation
 http://purl.obolibrary.org/obo/GO_1902660	negative regulation of glucose mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0010255	glucose mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0046318	negative regulation of glucosylceramide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006679	glucosylceramide biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000919	negative regulation of glucuronoarabinoxylan catabolic process	http://purl.obolibrary.org/obo/GO_2000887	glucuronoarabinoxylan catabolic process
