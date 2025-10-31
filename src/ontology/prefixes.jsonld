@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "EC": "https://enzyme.expasy.org/EC/",
+    "KEGG_REACTION": "http://www.kegg.jp/entry/",
+    "MetaCyc": "http://identifiers.org/metacyc.reaction/",
+    "oboInOwl": "http://www.geneontology.org/formats/oboInOwl#",
+    "Reactome": "http://identifiers.org/reactome/",
+    "RHEA": "https://www.rhea-db.org/rhea/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "TC": "http://identifiers.org/tcdb/",
+    "terms": "http://purl.org/dc/terms/",
+    "UM-BBD_pathwayID": "http://identifiers.org/umbbd.pathway/",
+    "UM-BBD_reactionID": "http://identifiers.org/umbbd.reaction/",
+    "VZ": "https://viralzone.expasy.org/"
+  }
+}
