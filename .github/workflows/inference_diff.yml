@@ -16,12 +16,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Classify ontology
-        run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' reasoned.owl
-      - name: Upload PR reasoned.owl
+        run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' reasoned.ofn
+      - name: Upload PR reasoned.ofn
         uses: actions/upload-artifact@v4
         with:
-          name: reasoned-pr.owl
-          path: src/ontology/reasoned.owl
+          name: reasoned-pr.ofn
+          path: src/ontology/reasoned.ofn
           retention-days: 1
   classify_master:
     runs-on: ubuntu-latest
@@ -31,12 +31,12 @@ jobs:
         with:
           ref: master
       - name: Classify ontology
-        run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' reasoned.owl
-      - name: Upload master reasoned.owl
+        run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' reasoned.ofn
+      - name: Upload master reasoned.ofn
         uses: actions/upload-artifact@v4
         with:
-          name: reasoned-master.owl
-          path: src/ontology/reasoned.owl
+          name: reasoned-master.ofn
+          path: src/ontology/reasoned.ofn
           retention-days: 1
   diff_classification:
     needs:
@@ -49,15 +49,15 @@ jobs:
       - name: Download master classification
         uses: actions/download-artifact@v4
         with:
-          name: reasoned-master.owl
-          path: reasoned-master.owl
+          name: reasoned-master.ofn
+          path: reasoned-master.ofn
       - name: Download PR classification
         uses: actions/download-artifact@v4
         with:
-          name: reasoned-pr.owl
-          path: reasoned-pr.owl
+          name: reasoned-pr.ofn
+          path: reasoned-pr.ofn
       - name: Diff classification
-        run: export ROBOT_JAVA_ARGS=-Xmx6G; cd src/ontology; robot diff --left ../../reasoned-master.owl/reasoned.owl --left-catalog catalog-v001.xml --right ../../reasoned-pr.owl/reasoned.owl --right-catalog catalog-v001.xml -f markdown -o classification-diff.md
+        run: export ROBOT_JAVA_ARGS=-Xmx6G; cd src/ontology; robot diff --left ../../reasoned-master.ofn/reasoned.ofn --left-catalog catalog-v001.xml --right ../../reasoned-pr.ofn/reasoned.ofn --right-catalog catalog-v001.xml -f markdown -o classification-diff.md
       - name: Upload diff
         uses: actions/upload-artifact@v4
         with:
