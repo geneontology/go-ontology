@@ -18,15 +18,15 @@ WHERE {
   # Each of these should be defined as an idspace in go-edit.obo
   # and also added in prefixes.jsonld
   VALUES ( ?prefix ?iriStem ) {
-    ( "EC:"                "https://enzyme.expasy.org/EC/" )
-    ( "KEGG_REACTION:"     "http://www.kegg.jp/entry/" ) # update db-xrefs.yaml
-    ( "TC:"                "http://identifiers.org/tcdb/" ) # update db-xrefs.yaml?
+    ( "EC:"                "http://purl.uniprot.org/enzyme/" )
+    ( "KEGG_REACTION:"     "http://www.kegg.jp/entry/" )
+    ( "TC:"                "http://identifiers.org/tcdb/" )
     ( "MetaCyc:"           "http://identifiers.org/metacyc.reaction/" )
     ( "Reactome:"          "http://identifiers.org/reactome/" )
-    ( "RHEA:"              "https://www.rhea-db.org/rhea/" )
-    ( "UM-BBD_pathwayID:"  "http://identifiers.org/umbbd.pathway/" ) # update db-xrefs.yaml
-    ( "UM-BBD_reactionID:" "http://identifiers.org/umbbd.reaction/" ) # update db-xrefs.yaml
-    ( "VZ:"                "https://viralzone.expasy.org/" ) # update db-xrefs.yaml
+    ( "RHEA:"              "http://rdf.rhea-db.org/" )
+    ( "UM-BBD_pathwayID:"  "http://identifiers.org/umbbd.pathway/" )
+    ( "UM-BBD_reactionID:" "http://identifiers.org/umbbd.reaction/" )
+    ( "VZ:"                "https://viralzone.expasy.org/" )
   }
   ?term a owl:Class .
   FILTER(isIRI(?term))
