@@ -18,12 +18,12 @@ WHERE {
   # Each of these should be defined as an idspace in go-edit.obo
   # and also added in prefixes.jsonld
   VALUES ( ?prefix ?iriStem ) {
-    ( "EC:"                "https://enzyme.expasy.org/EC/" )
+    ( "EC:"                "http://purl.uniprot.org/enzyme/" )
     ( "KEGG_REACTION:"     "http://www.kegg.jp/entry/" ) # update db-xrefs.yaml
     ( "TC:"                "http://identifiers.org/tcdb/" ) # update db-xrefs.yaml?
     ( "MetaCyc:"           "http://identifiers.org/metacyc.reaction/" )
     ( "Reactome:"          "http://identifiers.org/reactome/" )
-    ( "RHEA:"              "https://www.rhea-db.org/rhea/" )
+    ( "RHEA:"              "http://rdf.rhea-db.org/" )
     ( "UM-BBD_pathwayID:"  "http://identifiers.org/umbbd.pathway/" ) # update db-xrefs.yaml
     ( "UM-BBD_reactionID:" "http://identifiers.org/umbbd.reaction/" ) # update db-xrefs.yaml
     ( "VZ:"                "https://viralzone.expasy.org/" ) # update db-xrefs.yaml
