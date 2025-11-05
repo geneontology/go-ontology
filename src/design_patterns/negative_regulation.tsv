@@ -905,6 +905,7 @@ http://purl.obolibrary.org/obo/GO_1905955	negative regulation of endothelial tub
 http://purl.obolibrary.org/obo/GO_1904471	negative regulation of endothelin production	http://purl.obolibrary.org/obo/GO_1990775	endothelin production
 http://purl.obolibrary.org/obo/GO_1901075	negative regulation of engulfment of apoptotic cell	http://purl.obolibrary.org/obo/GO_0043652	engulfment of apoptotic cell
 http://purl.obolibrary.org/obo/GO_1901543	negative regulation of ent-pimara-8(14),15-diene biosynthetic process	http://purl.obolibrary.org/obo/GO_1901541	ent-pimara-8(14),15-diene biosynthetic process
+http://purl.obolibrary.org/obo/GO_7770019	negative regulation of enteroendocrine cell differentiation	http://purl.obolibrary.org/obo/GO_0035883	enteroendocrine cell differentiation
 http://purl.obolibrary.org/obo/GO_0061964	negative regulation of entry into reproductive diapause	http://purl.obolibrary.org/obo/GO_0055116	entry into reproductive diapause
 http://purl.obolibrary.org/obo/GO_2000536	negative regulation of entry of bacterium into host cell	http://purl.obolibrary.org/obo/GO_0035635	entry of bacterium into host cell
 http://purl.obolibrary.org/obo/GO_1902567	negative regulation of eosinophil activation	http://purl.obolibrary.org/obo/GO_0043307	eosinophil activation
@@ -1444,8 +1445,8 @@ http://purl.obolibrary.org/obo/GO_2000402	negative regulation of lymphocyte migr
 http://purl.obolibrary.org/obo/GO_0050672	negative regulation of lymphocyte proliferation	http://purl.obolibrary.org/obo/GO_0046651	lymphocyte proliferation
 http://purl.obolibrary.org/obo/GO_1905457	negative regulation of lymphoid progenitor cell differentiation	http://purl.obolibrary.org/obo/GO_0002320	lymphoid progenitor cell differentiation
 http://purl.obolibrary.org/obo/GO_0032721	negative regulation of lymphotoxin A production	http://purl.obolibrary.org/obo/GO_0032641	lymphotoxin A production
-http://purl.obolibrary.org/obo/GO_2001195	negative regulation of lysine biosynthetic process via alpha-aminoadipate and saccharopine	http://purl.obolibrary.org/obo/GO_0051975	lysine biosynthetic process via alpha-aminoadipate and saccharopine
-http://purl.obolibrary.org/obo/GO_1902987	negative regulation of lysine biosynthetic process via aminoadipic acid	http://purl.obolibrary.org/obo/GO_0019878	lysine biosynthetic process via aminoadipic acid
+http://purl.obolibrary.org/obo/GO_2001195	negative regulation of lysine biosynthetic process via alpha-aminoadipate and saccharopine	http://purl.obolibrary.org/obo/GO_0051975	L-lysine biosynthetic process via alpha-aminoadipate and saccharopine
+http://purl.obolibrary.org/obo/GO_1902987	negative regulation of lysine biosynthetic process via aminoadipic acid	http://purl.obolibrary.org/obo/GO_0019878	L-lysine biosynthetic process via aminoadipic acid
 http://purl.obolibrary.org/obo/GO_1905166	negative regulation of lysosomal protein catabolic process	http://purl.obolibrary.org/obo/GO_1905146	lysosomal protein catabolic process
 http://purl.obolibrary.org/obo/GO_1905672	negative regulation of lysosome organization	http://purl.obolibrary.org/obo/GO_0007040	lysosome organization
 http://purl.obolibrary.org/obo/GO_0031441	negative regulation of mRNA 3'-end processing	http://purl.obolibrary.org/obo/GO_0031124	mRNA 3'-end processing

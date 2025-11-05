@@ -1581,8 +1581,8 @@ http://purl.obolibrary.org/obo/GO_2000401	regulation of lymphocyte migration	htt
 http://purl.obolibrary.org/obo/GO_0050670	regulation of lymphocyte proliferation	http://purl.obolibrary.org/obo/GO_0046651	lymphocyte proliferation
 http://purl.obolibrary.org/obo/GO_1905456	regulation of lymphoid progenitor cell differentiation	http://purl.obolibrary.org/obo/GO_0002320	lymphoid progenitor cell differentiation
 http://purl.obolibrary.org/obo/GO_0032681	regulation of lymphotoxin A production	http://purl.obolibrary.org/obo/GO_0032641	lymphotoxin A production
-http://purl.obolibrary.org/obo/GO_2001194	regulation of lysine biosynthetic process via alpha-aminoadipate and saccharopine	http://purl.obolibrary.org/obo/GO_0051975	lysine biosynthetic process via alpha-aminoadipate and saccharopine
-http://purl.obolibrary.org/obo/GO_1902986	regulation of lysine biosynthetic process via aminoadipic acid	http://purl.obolibrary.org/obo/GO_0019878	lysine biosynthetic process via aminoadipic acid
+http://purl.obolibrary.org/obo/GO_2001194	regulation of lysine biosynthetic process via alpha-aminoadipate and saccharopine	http://purl.obolibrary.org/obo/GO_0051975	L-lysine biosynthetic process via alpha-aminoadipate and saccharopine
+http://purl.obolibrary.org/obo/GO_1902986	regulation of lysine biosynthetic process via aminoadipic acid	http://purl.obolibrary.org/obo/GO_0019878	L-lysine biosynthetic process via aminoadipic acid
 http://purl.obolibrary.org/obo/GO_1905165	regulation of lysosomal protein catabolic process	http://purl.obolibrary.org/obo/GO_1905146	lysosomal protein catabolic process
 http://purl.obolibrary.org/obo/GO_1905671	regulation of lysosome organization	http://purl.obolibrary.org/obo/GO_0007040	lysosome organization
 http://purl.obolibrary.org/obo/GO_0031440	regulation of mRNA 3'-end processing	http://purl.obolibrary.org/obo/GO_0031124	mRNA 3'-end processing
