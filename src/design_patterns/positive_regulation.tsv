@@ -1863,6 +1863,7 @@ http://purl.obolibrary.org/obo/GO_1901041	positive regulation of peptide antigen
 http://purl.obolibrary.org/obo/GO_0060569	positive regulation of peptide hormone processing	http://purl.obolibrary.org/obo/GO_0016486	peptide hormone processing
 http://purl.obolibrary.org/obo/GO_0090277	positive regulation of peptide hormone secretion	http://purl.obolibrary.org/obo/GO_0030072	peptide hormone secretion
 http://purl.obolibrary.org/obo/GO_0002793	positive regulation of peptide secretion	http://purl.obolibrary.org/obo/GO_0002790	peptide secretion
+http://purl.obolibrary.org/obo/GO_0140310	positive regulation of peptidoglycan biosynthetic process	http://purl.obolibrary.org/obo/GO_0009252	peptidoglycan biosynthetic process
 http://purl.obolibrary.org/obo/GO_0061059	positive regulation of peptidoglycan recognition protein signaling pathway	http://purl.obolibrary.org/obo/GO_0061057	peptidoglycan recognition protein signaling pathway
 http://purl.obolibrary.org/obo/GO_1902664	positive regulation of peptidyl-L-cysteine S-palmitoylation	http://purl.obolibrary.org/obo/GO_0018230	peptidyl-L-cysteine S-palmitoylation
 http://purl.obolibrary.org/obo/GO_2000170	positive regulation of peptidyl-cysteine S-nitrosylation	http://purl.obolibrary.org/obo/GO_0018119	peptidyl-cysteine S-nitrosylation
