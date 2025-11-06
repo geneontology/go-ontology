@@ -86,7 +86,6 @@ http://purl.obolibrary.org/obo/GO_0006275	regulation of DNA replication	http://p
 http://purl.obolibrary.org/obo/GO_2000621	regulation of DNA replication termination	http://purl.obolibrary.org/obo/GO_0006274	DNA replication termination
 http://purl.obolibrary.org/obo/GO_0060382	regulation of DNA strand elongation	http://purl.obolibrary.org/obo/GO_0022616	DNA strand elongation
 http://purl.obolibrary.org/obo/GO_0110026	regulation of DNA strand resection involved in replication fork processing	http://purl.obolibrary.org/obo/GO_0110025	DNA strand resection involved in replication fork processing
-http://purl.obolibrary.org/obo/GO_0051090	regulation of DNA-binding transcription factor activity	http://purl.obolibrary.org/obo/GO_0003700	DNA-binding transcription factor activity
 http://purl.obolibrary.org/obo/GO_0090329	regulation of DNA-templated DNA replication	http://purl.obolibrary.org/obo/GO_0006261	DNA-templated DNA replication
 http://purl.obolibrary.org/obo/GO_0030174	regulation of DNA-templated DNA replication initiation	http://purl.obolibrary.org/obo/GO_0006270	DNA replication initiation
 http://purl.obolibrary.org/obo/GO_0006355	regulation of DNA-templated transcription	http://purl.obolibrary.org/obo/GO_0006351	DNA-templated transcription
@@ -1313,7 +1312,7 @@ http://purl.obolibrary.org/obo/GO_0051616	regulation of histamine uptake	http://
 http://purl.obolibrary.org/obo/GO_0120213	regulation of histidine biosynthetic process	http://purl.obolibrary.org/obo/GO_0000105	L-histidine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0060629	regulation of homologous chromosome segregation	http://purl.obolibrary.org/obo/GO_0045143	homologous chromosome segregation
 http://purl.obolibrary.org/obo/GO_1903385	regulation of homophilic cell adhesion	http://purl.obolibrary.org/obo/GO_0007156	homophilic cell-cell adhesion
-http://purl.obolibrary.org/obo/GO_1901710	regulation of homoserine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009090	homoserine biosynthetic process
+http://purl.obolibrary.org/obo/GO_1901710	regulation of homoserine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009090	L-homoserine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0034110	regulation of homotypic cell-cell adhesion	http://purl.obolibrary.org/obo/GO_0034109	homotypic cell-cell adhesion
 http://purl.obolibrary.org/obo/GO_1902872	regulation of horizontal cell localization	http://purl.obolibrary.org/obo/GO_0035852	horizontal cell localization
 http://purl.obolibrary.org/obo/GO_0046885	regulation of hormone biosynthetic process	http://purl.obolibrary.org/obo/GO_0042446	hormone biosynthetic process

@@ -89,6 +89,7 @@ http://purl.obolibrary.org/obo/GO_0019324	L-lyxose metabolic process	http://purl
 http://purl.obolibrary.org/obo/GO_0046491	L-methylmalonyl-CoA metabolic process	http://purl.obolibrary.org/obo/CHEBI_57326	(R)-methylmalonyl-CoA(5-)
 http://purl.obolibrary.org/obo/GO_0006558	L-phenylalanine metabolic process	http://purl.obolibrary.org/obo/CHEBI_58095	L-phenylalanine zwitterion
 http://purl.obolibrary.org/obo/GO_0006563	L-serine metabolic process	http://purl.obolibrary.org/obo/CHEBI_33384	L-serine zwitterion
+http://purl.obolibrary.org/obo/GO_0006566	L-threonine metabolic process	http://purl.obolibrary.org/obo/CHEBI_32832	threoninate
 http://purl.obolibrary.org/obo/GO_0006568	L-tryptophan metabolic process	http://purl.obolibrary.org/obo/CHEBI_57912	L-tryptophan zwitterion
 http://purl.obolibrary.org/obo/GO_0019720	Mo-molybdopterin cofactor metabolic process	http://purl.obolibrary.org/obo/CHEBI_21437	Mo-molybdopterin cofactor
 http://purl.obolibrary.org/obo/GO_0006044	N-acetylglucosamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_59640	N-acetylglucosamine
@@ -368,7 +369,6 @@ http://purl.obolibrary.org/obo/GO_0051472	glucosylglycerol metabolic process	htt
 http://purl.obolibrary.org/obo/GO_0019585	glucuronate metabolic process	http://purl.obolibrary.org/obo/CHEBI_24297	glucuronate
 http://purl.obolibrary.org/obo/GO_0010413	glucuronoxylan metabolic process	http://purl.obolibrary.org/obo/CHEBI_60938	glucuronoxylan
 http://purl.obolibrary.org/obo/GO_0006536	glutamate metabolic process	http://purl.obolibrary.org/obo/CHEBI_14321	glutamate(1-)
-http://purl.obolibrary.org/obo/GO_0009064	glutamine family amino acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_24318	glutamine family amino acid
 http://purl.obolibrary.org/obo/GO_0006541	glutamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_32678	glutaminate
 http://purl.obolibrary.org/obo/GO_0006749	glutathione metabolic process	http://purl.obolibrary.org/obo/CHEBI_57925	glutathionate(1-)
 http://purl.obolibrary.org/obo/GO_0019682	glyceraldehyde-3-phosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_58027	glyceraldehyde 3-phosphate(2-)
@@ -749,7 +749,6 @@ http://purl.obolibrary.org/obo/GO_0006772	thiamine metabolic process	http://purl
 http://purl.obolibrary.org/obo/GO_0042723	thiamine-containing compound metabolic process	http://purl.obolibrary.org/obo/CHEBI_26948	vitamin B1
 http://purl.obolibrary.org/obo/GO_0052838	thiazole metabolic process	http://purl.obolibrary.org/obo/CHEBI_43732	thiazole
 http://purl.obolibrary.org/obo/GO_0018969	thiocyanate metabolic process	http://purl.obolibrary.org/obo/CHEBI_18022	thiocyanate
-http://purl.obolibrary.org/obo/GO_0006566	threonine metabolic process	http://purl.obolibrary.org/obo/CHEBI_32832	threoninate
 http://purl.obolibrary.org/obo/GO_0046104	thymidine metabolic process	http://purl.obolibrary.org/obo/CHEBI_17748	thymidine
 http://purl.obolibrary.org/obo/GO_0019859	thymine metabolic process	http://purl.obolibrary.org/obo/CHEBI_17821	thymine
 http://purl.obolibrary.org/obo/GO_0042403	thyroid hormone metabolic process	http://purl.obolibrary.org/obo/GOCHE_60311	substance with thyroid hormone role
