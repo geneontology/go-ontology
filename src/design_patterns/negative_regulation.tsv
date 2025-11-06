@@ -70,7 +70,6 @@ http://purl.obolibrary.org/obo/GO_0045910	negative regulation of DNA recombinati
 http://purl.obolibrary.org/obo/GO_0045738	negative regulation of DNA repair	http://purl.obolibrary.org/obo/GO_0006281	DNA repair
 http://purl.obolibrary.org/obo/GO_0008156	negative regulation of DNA replication	http://purl.obolibrary.org/obo/GO_0006260	DNA replication
 http://purl.obolibrary.org/obo/GO_0110027	negative regulation of DNA strand resection involved in replication fork processing	http://purl.obolibrary.org/obo/GO_0110025	DNA strand resection involved in replication fork processing
-http://purl.obolibrary.org/obo/GO_0043433	negative regulation of DNA-binding transcription factor activity	http://purl.obolibrary.org/obo/GO_0003700	DNA-binding transcription factor activity
 http://purl.obolibrary.org/obo/GO_2000104	negative regulation of DNA-templated DNA replication	http://purl.obolibrary.org/obo/GO_0006261	DNA-templated DNA replication
 http://purl.obolibrary.org/obo/GO_0032297	negative regulation of DNA-templated DNA replication initiation	http://purl.obolibrary.org/obo/GO_0006270	DNA replication initiation
 http://purl.obolibrary.org/obo/GO_0045892	negative regulation of DNA-templated transcription	http://purl.obolibrary.org/obo/GO_0006351	DNA-templated transcription
@@ -1192,7 +1191,7 @@ http://purl.obolibrary.org/obo/GO_1903594	negative regulation of histamine secre
 http://purl.obolibrary.org/obo/GO_0051617	negative regulation of histamine uptake	http://purl.obolibrary.org/obo/GO_0051615	histamine uptake
 http://purl.obolibrary.org/obo/GO_0120214	negative regulation of histidine biosynthetic process	http://purl.obolibrary.org/obo/GO_0000105	L-histidine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903386	negative regulation of homophilic cell adhesion	http://purl.obolibrary.org/obo/GO_0007156	homophilic cell-cell adhesion
-http://purl.obolibrary.org/obo/GO_1901711	negative regulation of homoserine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009090	homoserine biosynthetic process
+http://purl.obolibrary.org/obo/GO_1901711	negative regulation of homoserine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009090	L-homoserine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0034111	negative regulation of homotypic cell-cell adhesion	http://purl.obolibrary.org/obo/GO_0034109	homotypic cell-cell adhesion
 http://purl.obolibrary.org/obo/GO_1902873	negative regulation of horizontal cell localization	http://purl.obolibrary.org/obo/GO_0035852	horizontal cell localization
 http://purl.obolibrary.org/obo/GO_0032353	negative regulation of hormone biosynthetic process	http://purl.obolibrary.org/obo/GO_0042446	hormone biosynthetic process
