@@ -47740,9 +47740,6 @@
 <http://purl.obolibrary.org/obo/GO_1904377> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_1904378> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_1904380> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
 
 
