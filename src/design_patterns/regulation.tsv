@@ -2114,7 +2114,7 @@ http://purl.obolibrary.org/obo/GO_0060304	regulation of phosphatidylinositol dep
 http://purl.obolibrary.org/obo/GO_1900468	regulation of phosphatidylserine biosynthetic process	http://purl.obolibrary.org/obo/GO_0006659	phosphatidylserine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905780	regulation of phosphatidylserine exposure on apoptotic cell surface	http://purl.obolibrary.org/obo/GO_0070782	phosphatidylserine exposure on apoptotic cell surface
 http://purl.obolibrary.org/obo/GO_1900736	regulation of phospholipase C-activating G protein-coupled receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007200	phospholipase C-activating G protein-coupled receptor signaling pathway
-http://purl.obolibrary.org/obo/GO_0010517	regulation of phospholipase activity	http://purl.obolibrary.org/obo/GO_0004620	phospholipase activity
+http://purl.obolibrary.org/obo/GO_0010517	regulation of phospholipase activity	http://purl.obolibrary.org/obo/GO_0004620	glycerophospholipase activity
 http://purl.obolibrary.org/obo/GO_0071071	regulation of phospholipid biosynthetic process	http://purl.obolibrary.org/obo/GO_0008654	phospholipid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0060696	regulation of phospholipid catabolic process	http://purl.obolibrary.org/obo/GO_0009395	phospholipid catabolic process
 http://purl.obolibrary.org/obo/GO_1902994	regulation of phospholipid efflux	http://purl.obolibrary.org/obo/GO_0033700	phospholipid efflux

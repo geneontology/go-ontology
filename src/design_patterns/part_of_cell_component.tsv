@@ -217,7 +217,7 @@ http://purl.obolibrary.org/obo/GO_1902502	multivesicular body HOPS complex	http:
 http://purl.obolibrary.org/obo/GO_0097482	muscle cell postsynaptic specialization	http://purl.obolibrary.org/obo/GO_0099572	postsynaptic specialization	http://purl.obolibrary.org/obo/GO_0098975	postsynapse of neuromuscular junction
 http://purl.obolibrary.org/obo/GO_0036195	muscle cell projection membrane	http://purl.obolibrary.org/obo/GO_0031253	cell projection membrane	http://purl.obolibrary.org/obo/GO_0036194	muscle cell projection
 http://purl.obolibrary.org/obo/GO_0005859	muscle myosin complex	http://purl.obolibrary.org/obo/GO_0016460	myosin II complex	http://purl.obolibrary.org/obo/GO_0043292	contractile muscle fiber
-http://purl.obolibrary.org/obo/GO_0098642	network-forming collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0098645	collagen network
+http://purl.obolibrary.org/obo/GO_0098642	network-forming collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0098645	complex of network-forming collagens
 http://purl.obolibrary.org/obo/GO_0120111	neuron projection cytoplasm	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0043005	neuron projection
 http://purl.obolibrary.org/obo/GO_0099013	neuronal dense core vesicle lumen	http://purl.obolibrary.org/obo/GO_0060205	cytoplasmic vesicle lumen	http://purl.obolibrary.org/obo/GO_0098992	neuronal dense core vesicle
 http://purl.obolibrary.org/obo/GO_0043599	nuclear DNA replication factor C complex	http://purl.obolibrary.org/obo/GO_0005663	DNA replication factor C complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
