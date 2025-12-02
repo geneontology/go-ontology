@@ -232,6 +232,7 @@ http://purl.obolibrary.org/obo/GO_0015931	nucleobase-containing compound transpo
 http://purl.obolibrary.org/obo/GO_0015858	nucleoside transport	http://purl.obolibrary.org/obo/CHEBI_33838	nucleoside
 http://purl.obolibrary.org/obo/GO_0006862	nucleotide transport	http://purl.obolibrary.org/obo/CHEBI_36976	nucleotide
 http://purl.obolibrary.org/obo/GO_0015715	nucleotide-sulfate transport	http://purl.obolibrary.org/obo/CHEBI_64702	nucleotide-sulfate
+http://purl.obolibrary.org/obo/GO_7770033	octopamine transport	http://purl.obolibrary.org/obo/CHEBI_58025	octopaminium
 http://purl.obolibrary.org/obo/GO_0033156	oligogalacturonide transport	http://purl.obolibrary.org/obo/CHEBI_62533	oligogalacturonide
 http://purl.obolibrary.org/obo/GO_0006857	oligopeptide transport	http://purl.obolibrary.org/obo/CHEBI_25676	oligopeptide
 http://purl.obolibrary.org/obo/GO_0015772	oligosaccharide transport	http://purl.obolibrary.org/obo/CHEBI_50699	oligosaccharide
@@ -325,6 +326,7 @@ http://purl.obolibrary.org/obo/GO_0042939	tripeptide transport	http://purl.oboli
 http://purl.obolibrary.org/obo/GO_2001088	trisaccharide transport	http://purl.obolibrary.org/obo/CHEBI_27150	trisaccharide
 http://purl.obolibrary.org/obo/GO_0015827	tryptophan transport	http://purl.obolibrary.org/obo/CHEBI_64554	tryptophan zwitterion
 http://purl.obolibrary.org/obo/GO_0070614	tungstate ion transport	http://purl.obolibrary.org/obo/CHEBI_46502	tungstate
+http://purl.obolibrary.org/obo/GO_7770032	tyramine transport	http://purl.obolibrary.org/obo/CHEBI_327995	tyraminium
 http://purl.obolibrary.org/obo/GO_0015828	tyrosine transport	http://purl.obolibrary.org/obo/CHEBI_58315	L-tyrosine zwitterion
 http://purl.obolibrary.org/obo/GO_0015857	uracil transport	http://purl.obolibrary.org/obo/CHEBI_17568	uracil
 http://purl.obolibrary.org/obo/GO_0015747	urate transport	http://purl.obolibrary.org/obo/CHEBI_17775	7,9-dihydro-1H-purine-2,6,8(3H)-trione
