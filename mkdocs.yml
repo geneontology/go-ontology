@@ -1,0 +1,47 @@
+site_name: "Gene Ontology developer pages"
+theme:
+  name: material
+#  custom_dir: material
+  logo: https://avatars.githubusercontent.com/u/7750835
+  palette:
+    scheme: default
+    primary: custom
+  font:
+    text: Open Sans
+  features: 
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate #puts the page anchor links on the left, instead of the right
+    - navigation.indexes
+extra_css:
+  - styles.css
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+plugins:
+  - search
+  - mermaid2:
+      javascript: https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+        # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true     
+nav:
+  - Design Patterns: patterns/index.md
+site_url: https://geneontology.github.io
+repo_url: https://github.com/geneontology/go-ontology
+
+#     - Knowledge Graph (KG) Dataset Status: okn/kgstatus.md (add these links to the registry pages)
