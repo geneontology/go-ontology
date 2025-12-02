@@ -1,7 +1,7 @@
 site_name: "Gene Ontology developer pages"
 theme:
   name: material
-  custom_dir: material
+#  custom_dir: material
   logo: https://avatars.githubusercontent.com/u/7750835
   palette:
     scheme: default
