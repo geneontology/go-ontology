@@ -26,7 +26,7 @@ jobs:
           git config --global user.name 'Ontobot'
           git config --global user.email 'ontobot@users.noreply.github.com'
           # Be careful and only change intended files
-          git add ../../docs/status/go-owl-diff.md
-          git add ../../docs/status/go-plus-owl-diff.md
+          git add docs/status/go-owl-diff.md
+          git add docs/status/go-plus-owl-diff.md
           git commit -m "Automated status diffs"
           git push
