@@ -40,6 +40,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true     
 nav:
+  - Status: status/index.md
   - Design Patterns: patterns/index.md
 site_url: https://geneontology.github.io
 repo_url: https://github.com/geneontology/go-ontology
