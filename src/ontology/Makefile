@@ -279,8 +279,8 @@ go.obo: $(ONT).ofn
 # remove non-basic relationship types (e.g. has_part)
 # assuming materialization step already done for these properties when making go.obo
 # NOTE - '--add-prefixes prefixes.jsonld' is necessary due to https://github.com/ontodev/robot/issues/1266
-go-simple-filtered.ofn: go.ofn $(SPARQLDIR)/remove-cross-namespace-relations.ru $(SPARQLDIR)/remove-mf-regulates-links.ru
-	$(ROBOT) remove --input $< $(addprefix --term ,$(GO_BASIC_RELATIONS)) --select complement --select object-properties --signature true --trim true remove --term 'oboInOwl:created_by' --term 'oboInOwl:creation_date' --term 'IAO:0000233' --term 'IAO:0000589' --term 'RO:0002175' --signature true --trim true remove --axioms "DisjointClasses EquivalentClasses" query --update $(SPARQLDIR)/remove-cross-namespace-relations.ru --update $(SPARQLDIR)/remove-mf-regulates-links.ru convert --add-prefixes prefixes.jsonld -f ofn --output $@
+go-simple-filtered.ofn: go.ofn $(SPARQLDIR)/remove-cross-namespace-relations.ru $(SPARQLDIR)/remove-mf-regulates-links.ru $(SPARQLDIR)/remove-multiply-labeled-edges.ru
+	$(ROBOT) remove --input $< $(addprefix --term ,$(GO_BASIC_RELATIONS)) --select complement --select object-properties --signature true --trim true remove --term 'oboInOwl:created_by' --term 'oboInOwl:creation_date' --term 'IAO:0000233' --term 'IAO:0000589' --term 'RO:0002175' --signature true --trim true remove --axioms "DisjointClasses EquivalentClasses" query --update $(SPARQLDIR)/remove-cross-namespace-relations.ru --update $(SPARQLDIR)/remove-mf-regulates-links.ru --update $(SPARQLDIR)/remove-multiply-labeled-edges.ru convert --add-prefixes prefixes.jsonld -f ofn --output $@
 
 go-basic.ofn: go-simple-filtered.ofn
 	$(ROBOT) reduce -r elk -i $< -o $@
