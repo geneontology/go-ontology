@@ -46,8 +46,15 @@ jobs:
         git config --global user.name 'Ontobot'
         git config --global user.email 'ontobot@users.noreply.github.com'
 
-        git add docs/status/go-owl-diff.md
-        git add docs/status/go-plus-owl-diff.md
+        # Only add files if they exist
+        for f in docs/status/go-owl-diff.md docs/status/go-plus-owl-diff.md; do
+          [ -f "$f" ] && git add "$f"
+        done
 
-        git commit -m "Automated status diffs" || echo "No changes to commit"
-        git push origin gh-pages
+        # Only commit if something was staged
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Automated status diffs"
+          git push origin gh-pages
+        fi
