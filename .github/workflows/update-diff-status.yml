@@ -26,7 +26,7 @@ jobs:
     - name: Update status diffs from master data
       run: |
         cd src/ontology
-        make ../../docs/status/go-owl-diff.md ../../docs/status/go-plus-owl-diff.md
+        make go-owl-diff.md go-plus-owl-diff.md go-obo-txt-diff.md
         cd ../..
 
     # --- SWITCH TO gh-pages AND APPLY OUTPUT ---
@@ -38,8 +38,9 @@ jobs:
     - name: Copy refreshed docs into gh-pages
       run: |
         mkdir -p docs/status
-        cp ../docs/status/go-owl-diff.md docs/status/
-        cp ../docs/status/go-plus-owl-diff.md docs/status/
+        cp src/ontology/go-owl-diff.md docs/status/
+        cp src/ontology/go-plus-owl-diff.md docs/status/
+        cp src/ontology/go-obo-txt-diff.md docs/status/
 
     - name: Commit and push to gh-pages
       run: |
@@ -47,7 +48,7 @@ jobs:
         git config --global user.email 'ontobot@users.noreply.github.com'
 
         # Only add files if they exist
-        for f in docs/status/go-owl-diff.md docs/status/go-plus-owl-diff.md; do
+        for f in docs/status/go-owl-diff.md docs/status/go-plus-owl-diff.md docs/status/go-obo-txt-diff.md; do
           [ -f "$f" ] && git add "$f"
         done
 
