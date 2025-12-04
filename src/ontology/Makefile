@@ -158,9 +158,13 @@ $(SRC)-check: $(SRC) GO.xrf_abbs
 
 # consider using snapshot release
 PREVIOUS=go-lastrelease.owl
+PREVIOUS_OBO=go-lastrelease.obo
 PREVIOUS_PLUS=go-plus-lastrelease.owl
 $(PREVIOUS): $(SRC)
 	wget $(OBO)/go.owl -O $@ && touch $@
+
+$(PREVIOUS_OBO): $(SRC)
+	wget $(OBO)/go.obo -O $@ && touch $@
 
 $(PREVIOUS_PLUS): $(SRC)
 	wget $(OBO)/go/extensions/go-plus.owl -O $@ && touch $@
@@ -169,11 +173,14 @@ $(PREVIOUS_PLUS): $(SRC)
 change-report.txt: $(SRC) $(PREVIOUS)
 	$(OWLTOOLS) $(USECAT) $< --verify-changes -p $(PREVIOUS) -o $@ --id-prefix-filter GO: --check-missing-labels && touch $@
 
-../../docs/status/go-owl-diff.md: $(PREVIOUS) go.ofn
+go-owl-diff.md: $(PREVIOUS) go.ofn
 	$(ROBOT) diff --left $(PREVIOUS) --right go.ofn --format markdown -o $@
 
-../../docs/status/go-plus-owl-diff.md: $(PREVIOUS_PLUS) $(GO_PLUS).ofn
+go-plus-owl-diff.md: $(PREVIOUS_PLUS) $(GO_PLUS).ofn
 	$(ROBOT) diff --left $(PREVIOUS_PLUS) --right $(GO_PLUS).ofn --format markdown -o $@
+
+go-obo-txt-diff.md: $(PREVIOUS_OBO) go.obo
+	{ echo "# Textual diff for go.obo\\n"; echo "\`\`\`diff"; diff -u $(PREVIOUS_OBO) go.obo; echo "\`\`\`"; } >$@
 
 # ----------------------------------------
 # OWL
