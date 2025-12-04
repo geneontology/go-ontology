@@ -1,1 +1,1 @@
-Source files for GO developer-oriented web pages.
+GO developer-oriented web pages.
