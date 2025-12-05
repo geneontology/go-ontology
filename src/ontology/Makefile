@@ -182,6 +182,9 @@ go-plus-owl-diff.md: $(PREVIOUS_PLUS) $(GO_PLUS).ofn
 go-obo-txt-diff.md: $(PREVIOUS_OBO) go.obo
 	{ echo "# Textual diff for go.obo\\n"; echo "\`\`\`diff"; diff -u $(PREVIOUS_OBO) go.obo; echo "\`\`\`"; } >$@
 
+go-obo-status.md: $(PREVIOUS_OBO) go.obo ../gh_pages_templates/go-obo-status.md
+	{ echo "---"; runoak -i simpleobo:go.obo statistics --group-by-obo-namespace --compare-with simpleobo:$(PREVIOUS_OBO); echo "---"; cat ../gh_pages_templates/go-obo-status.md; } >$@
+
 # ----------------------------------------
 # OWL
 # ----------------------------------------
