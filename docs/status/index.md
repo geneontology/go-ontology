@@ -2,6 +2,9 @@
 
 Some reports comparing the current editors' version to the latest GO release.
 
+## Statistics
+- [go.obo](go-obo-status.md)
+
 ## Textual diff
 - [go.obo](go-obo-txt-diff.md)
 
