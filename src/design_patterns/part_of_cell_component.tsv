@@ -105,6 +105,7 @@ http://purl.obolibrary.org/obo/GO_0071682	endocytic vesicle lumen	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0005788	endoplasmic reticulum lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
 http://purl.obolibrary.org/obo/GO_0140534	endoplasmic reticulum protein-containing complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
 http://purl.obolibrary.org/obo/GO_0098827	endoplasmic reticulum subcompartment	http://purl.obolibrary.org/obo/GO_0031984	organelle subcompartment	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0160313	endosomal intralumenal vesicle	http://purl.obolibrary.org/obo/GO_0097708	intracellular vesicle	http://purl.obolibrary.org/obo/GO_0005768	endosome
 http://purl.obolibrary.org/obo/GO_0000923	equatorial microtubule organizing center	http://purl.obolibrary.org/obo/GO_0005815	microtubule organizing center	http://purl.obolibrary.org/obo/GO_0032153	cell division site
 http://purl.obolibrary.org/obo/GO_0062246	exocytic vesicle lumen	http://purl.obolibrary.org/obo/GO_0098566	transport vesicle lumen	http://purl.obolibrary.org/obo/GO_0070382	exocytic vesicle
 http://purl.obolibrary.org/obo/GO_0010367	extracellular isoamylase complex	http://purl.obolibrary.org/obo/GO_0043033	isoamylase complex	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
