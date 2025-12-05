@@ -1,8 +1,8 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2025-12-05 05:52:06.276232636 +0000
-+++ go.obo	2025-12-05 05:52:17.343204315 +0000
+--- go-lastrelease.obo	2025-12-05 18:40:03.330747002 +0000
++++ go.obo	2025-12-05 18:49:29.230281522 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2025-10-10
