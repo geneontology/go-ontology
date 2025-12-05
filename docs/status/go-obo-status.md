@@ -169,10 +169,10 @@ partitions:
   - terms:
     - added: {{ page.partitions.biological_process.change_summary.NodeDeletion }}
     - obsoleted: {{ page.partitions.biological_process.change_summary.NodeUnobsoletion }}
-    - missing: {{ page.partitions.biological_process.change_summary.NodeUnobsoletion.ClassCreation }}
+    - missing: {{ page.partitions.biological_process.change_summary.ClassCreation }}
   - relations:
-    - added: {{ page.partitions.biological_process.change_summary.NodeUnobsoletion.EdgeDeletion }}
-    - removed: {{ page.partitions.biological_process.change_summary.NodeUnobsoletion.EdgeCreation }}
+    - added: {{ page.partitions.biological_process.change_summary.EdgeDeletion }}
+    - removed: {{ page.partitions.biological_process.change_summary.EdgeCreation }}
 
 ## molecular function
 
@@ -184,10 +184,10 @@ partitions:
   - terms:
     - added: {{ page.partitions.molecular_function.change_summary.NodeDeletion }}
     - obsoleted: {{ page.partitions.molecular_function.change_summary.NodeUnobsoletion }}
-    - missing: {{ page.partitions.molecular_function.change_summary.NodeUnobsoletion.ClassCreation }}
+    - missing: {{ page.partitions.molecular_function.change_summary.ClassCreation }}
   - relations:
-    - added: {{ page.partitions.molecular_function.change_summary.NodeUnobsoletion.EdgeDeletion }}
-    - removed: {{ page.partitions.molecular_function.change_summary.NodeUnobsoletion.EdgeCreation }}
+    - added: {{ page.partitions.molecular_function.change_summary.EdgeDeletion }}
+    - removed: {{ page.partitions.molecular_function.change_summary.EdgeCreation }}
 
 ## cellular component
 
@@ -199,7 +199,7 @@ partitions:
   - terms:
     - added: {{ page.partitions.cellular_component.change_summary.NodeDeletion }}
     - obsoleted: {{ page.partitions.cellular_component.change_summary.NodeUnobsoletion }}
-    - missing: {{ page.partitions.cellular_component.change_summary.NodeUnobsoletion.ClassCreation }}
+    - missing: {{ page.partitions.cellular_component.change_summary.ClassCreation }}
   - relations:
-    - added: {{ page.partitions.cellular_component.change_summary.NodeUnobsoletion.EdgeDeletion }}
-    - removed: {{ page.partitions.cellular_component.change_summary.NodeUnobsoletion.EdgeCreation }}
+    - added: {{ page.partitions.cellular_component.change_summary.EdgeDeletion }}
+    - removed: {{ page.partitions.cellular_component.change_summary.EdgeCreation }}
