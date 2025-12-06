@@ -1,24 +1,24 @@
 ---
-id: obo:go/releases/2025-12-05go.owl-statistics
+id: obo:go/releases/2025-12-06go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2025-12-05go.owl
+  version: obo:go/releases/2025-12-06go.owl
 was_generated_by:
-  started_at_time: '2025-12-05T18:50:56.906757'
+  started_at_time: '2025-12-06T05:46:25.807671'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
   biological_process:
     id: biological_process
     class_count: 30833
-    deprecated_class_count: 5684
-    non_deprecated_class_count: 25149
+    deprecated_class_count: 5691
+    non_deprecated_class_count: 25142
     class_count_with_text_definitions: 30833
     class_count_without_text_definitions: 0
     edge_count_by_predicate:
       rdfs:subClassOf:
         facet: rdfs:subClassOf
-        filtered_count: 42959
+        filtered_count: 42938
       RO:0002211:
         facet: RO:0002211
         filtered_count: 3007
@@ -46,21 +46,21 @@ partitions:
     distinct_synonym_count: 93749
     synonym_statement_count: 94522
     change_summary:
-      NodeTextDefinitionChange: 62
-      RemoveMapping: 208
-      NodeRename: 52
-      NodeUnobsoletion: 20
-      EdgeCreation: 82
-      EdgeDeletion: 74
-      NodeDeletion: 16
-      MappingCreation: 4
-      RemoveSynonym: 6
-      NewSynonym: 11
       AddNodeToSubset: 9
+      NodeUnobsoletion: 27
+      NodeTextDefinitionChange: 70
+      EdgeCreation: 106
+      NodeRename: 59
+      EdgeDeletion: 77
+      RemoveMapping: 209
+      MappingCreation: 5
+      NodeDeletion: 16
+      NewSynonym: 11
+      RemoveSynonym: 6
       RemoveNodeFromSubset: 1
       All_Obsoletion: 0
       All_Synonym: 17
-    edge_count: 56619
+    edge_count: 56598
   molecular_function:
     id: molecular_function
     class_count: 12818
@@ -93,17 +93,17 @@ partitions:
     distinct_synonym_count: 28467
     synonym_statement_count: 29616
     change_summary:
-      RemoveMapping: 1464
       MappingCreation: 498
-      NodeRename: 61
       NodeTextDefinitionChange: 99
-      RemoveSynonym: 34
       NodeUnobsoletion: 8
       EdgeCreation: 37
-      NodeDeletion: 13
+      NodeRename: 61
+      RemoveMapping: 1464
       EdgeDeletion: 41
-      NewSynonym: 16
+      RemoveSynonym: 34
       AddNodeToSubset: 1
+      NodeDeletion: 13
+      NewSynonym: 16
       NodeObsoletionWithDirectReplacement: 1
       All_Obsoletion: 1
       All_Synonym: 50
@@ -128,11 +128,11 @@ partitions:
     distinct_synonym_count: 5059
     synonym_statement_count: 5256
     change_summary:
+      NodeTextDefinitionChange: 29
+      RemoveSynonym: 18
+      NodeRename: 19
       EdgeDeletion: 21
       EdgeCreation: 14
-      NodeRename: 19
-      RemoveSynonym: 18
-      NodeTextDefinitionChange: 29
       NodeDeletion: 6
       NodeUnobsoletion: 1
       All_Obsoletion: 0
