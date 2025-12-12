@@ -438,6 +438,19 @@ imports/chebi_import.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
 imports/%_import.obo: imports/%_import.owl
 	$(ROBOT) convert --input $< --format obo --check false --output $@.tmp && grep -v ^owl-axioms: $@.tmp > $@
 
+
+# -------------------------------------
+# GENERATED PATTERNS
+# -------------------------------------
+
+../design_patterns/generative_patterns/x_morphogenesis_gcis.tsv: $(SRC) ../design_patterns/generative_patterns/x_morphogenesis_gcis.rq
+	$(ROBOT) query -i $< -f csv --query ../design_patterns/generative_patterns/x_morphogenesis_gcis.rq $@
+
+# TODO currently this needs to be regenerated manually
+imports/go-generated-gcis.ofn: ../design_patterns/generative_patterns/x_morphogenesis_gcis.yaml ../design_patterns/generative_patterns/x_morphogenesis_gcis.tsv
+	$(DOSDP_TOOLS) generate --infile=../design_patterns/generative_patterns/x_morphogenesis_gcis.tsv --generate-defined-class=true --obo-prefixes=true --template=$< --outfile=$@.tmp && $(ROBOT) annotate -i $@.tmp --ontology-iri $(BASE)/$@ -o $@
+
+
 # ----------------------------------------
 # CACHEING EXTERNAL ONTOLOGIES
 # ----------------------------------------

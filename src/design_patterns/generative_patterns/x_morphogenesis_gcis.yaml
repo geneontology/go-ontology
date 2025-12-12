@@ -1,0 +1,35 @@
+pattern_name: x morphogenesis GCIs
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/generative_patterns/x_morphogenesis.yaml
+
+description: >-
+  Extensions to the 'x morphogenesis pattern' for inferring process part_of relations.
+
+classes:
+  anatomical structure: "UBERON:0000061"
+  anatomical structure morphogenesis: "GO:0009653"
+  anatomical structure development: "GO:0048856"
+
+relations: 
+  results in morphogenesis of: RO:0002298
+  part of: BFO:0000050
+  results in development of: "RO:0002296"
+
+vars:
+ target: "'anatomical structure'"
+
+logical_axioms:
+  
+  # Morphogenesis of an X is part-of development of an X    
+  - axiom_type: GCI
+    text: "('anatomical structure morphogenesis' and ('results in morphogenesis of' some %s)) SubClassOf ('part of' some ('anatomical structure development' and ('results in development of' some %s)))"
+    vars:
+      - target
+      - target    
+  
+  # Morphogenesis of a part of X is part-of morphogenesis of an X
+  - axiom_type: GCI
+    text: "('anatomical structure morphogenesis' and ('results in morphogenesis of' some ('part of' some %s))) SubClassOf ('part of' some ('anatomical structure morphogenesis' and ('results in morphogenesis of' some %s)))"
+    vars:
+      - target
+      - target    
