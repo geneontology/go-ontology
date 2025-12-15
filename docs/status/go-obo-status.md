@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2025-12-14go.owl-statistics
+id: obo:go/releases/2025-12-15go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2025-12-14go.owl
+  version: obo:go/releases/2025-12-15go.owl
 was_generated_by:
-  started_at_time: '2025-12-14T05:46:28.537500'
+  started_at_time: '2025-12-15T05:47:05.039278'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -48,16 +48,16 @@ partitions:
     change_summary:
       RemoveMapping: 213
       NodeRename: 76
+      NodeTextDefinitionChange: 92
+      NodeDeletion: 17
+      EdgeDeletion: 97
       EdgeCreation: 160
       NodeUnobsoletion: 41
-      NodeTextDefinitionChange: 92
-      EdgeDeletion: 97
-      MappingCreation: 5
-      NodeDeletion: 17
-      RemoveSynonym: 9
       NewSynonym: 41
-      RemoveNodeFromSubset: 3
       AddNodeToSubset: 9
+      MappingCreation: 5
+      RemoveNodeFromSubset: 3
+      RemoveSynonym: 9
       All_Obsoletion: 0
       All_Synonym: 50
     edge_count: 56564
@@ -93,16 +93,16 @@ partitions:
     distinct_synonym_count: 28466
     synonym_statement_count: 29615
     change_summary:
-      MappingCreation: 498
       RemoveMapping: 1464
-      NodeTextDefinitionChange: 111
-      EdgeDeletion: 41
-      EdgeCreation: 63
       RemoveSynonym: 34
-      NodeDeletion: 13
+      NodeTextDefinitionChange: 111
+      MappingCreation: 498
       NodeRename: 72
-      NewSynonym: 17
+      EdgeCreation: 63
       NodeUnobsoletion: 19
+      NodeDeletion: 13
+      EdgeDeletion: 41
+      NewSynonym: 17
       AddNodeToSubset: 9
       NodeObsoletionWithDirectReplacement: 1
       All_Obsoletion: 1
@@ -128,13 +128,13 @@ partitions:
     distinct_synonym_count: 5065
     synonym_statement_count: 5262
     change_summary:
+      NodeRename: 21
+      RemoveSynonym: 21
       EdgeDeletion: 28
       EdgeCreation: 17
-      NodeRename: 21
-      NodeUnobsoletion: 1
       NodeTextDefinitionChange: 30
       NodeDeletion: 8
-      RemoveSynonym: 21
+      NodeUnobsoletion: 1
       NewSynonym: 1
       All_Obsoletion: 0
       All_Synonym: 22
