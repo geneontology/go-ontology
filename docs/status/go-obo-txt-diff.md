@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2025-12-17 05:37:31.195176807 +0000
-+++ go.obo	2025-12-17 05:46:18.238431649 +0000
+--- go-lastrelease.obo	2025-12-18 05:37:31.333937899 +0000
++++ go.obo	2025-12-18 05:47:11.190592423 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2025-10-10
-+data-version: releases/2025-12-17
++data-version: releases/2025-12-18
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -33,7 +33,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2025-10-10" xsd:string
-+property_value: owl:versionInfo "2025-12-17" xsd:string
++property_value: owl:versionInfo "2025-12-18" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -11060,6 +11060,16 @@
  
  [Term]
  id: GO:0006894
+@@ -71176,8 +74036,8 @@
+ synonym: "Golgi to secretory vesicle transport" EXACT []
+ synonym: "Golgi to secretory vesicle transport, vesicle-mediated" EXACT []
+ is_obsolete: true
++consider: GO:0006893
+ consider: GO:0055107
+-consider: GO:0055108
+ 
+ [Term]
+ id: GO:0006895
 @@ -77445,26 +80305,30 @@
  
  [Term]
@@ -54801,7 +54811,25 @@
  
  [Term]
  id: GO:0055095
-@@ -350197,9 +364670,15 @@
+@@ -350008,11 +364481,13 @@
+ 
+ [Term]
+ id: GO:0055108
+-name: Golgi to transport vesicle transport
++name: obsolete Golgi to transport vesicle transport
+ namespace: biological_process
+-def: "The directed movement of proteins from the Golgi to a transport vesicle. Continuously secreted proteins are sorted into transport vesicles that fuse with the plasma membrane, releasing their contents by exocytosis." [GOC:jid]
+-is_a: GO:0046907 ! intracellular transport
+-relationship: part_of GO:0048193 ! Golgi vesicle transport
++def: "OBSOLETE. The directed movement of proteins from the Golgi to a transport vesicle. Continuously secreted proteins are sorted into transport vesicles that fuse with the plasma membrane, releasing their contents by exocytosis." [GOC:jid]
++comment: The reason for obsoletion is that this term is equivalent to Golgi to plasma membrane transport.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31204" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006893
+ 
+ [Term]
+ id: GO:0055109
+@@ -350197,9 +364672,15 @@
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of L-proline, an L-enantiomer of a chiral, cyclic, nonessential alpha-amino acid found in peptide linkage in proteins." [GOC:ecd]
  synonym: "pyrrolidine-2-carboxylic acid biosynthetic process" BROAD []
@@ -54819,7 +54847,7 @@
  created_by: jid
  creation_date: 2009-10-22T01:59:56Z
  
-@@ -350209,7 +364688,6 @@
+@@ -350209,7 +364690,6 @@
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the breakdown of D-alanine, the D-enantiomer of the amino acid alanine." [GOC:ecd]
  synonym: "(2R)-2-aminopropanoic acid catabolic process" EXACT []
@@ -54827,7 +54855,7 @@
  is_a: GO:0019478 ! D-amino acid catabolic process
  is_a: GO:0046436 ! D-alanine metabolic process
  created_by: jid
-@@ -351092,7 +365570,6 @@
+@@ -351092,7 +365572,6 @@
  synonym: "binding, bridging" EXACT []
  synonym: "protein complex scaffold activity" BROAD []
  synonym: "protein-containing complex scaffold activity" BROAD []
@@ -54835,7 +54863,7 @@
  is_a: GO:0003674 ! molecular_function
  relationship: has_part GO:0005488 ! binding
  
-@@ -351970,8 +366447,10 @@
+@@ -351970,8 +366449,10 @@
  is_a: GO:0005030 ! neurotrophin receptor activity
  relationship: has_part GO:0048403 ! brain-derived neurotrophic factor binding
  relationship: part_of GO:0031547 ! brain-derived neurotrophic factor receptor signaling pathway
@@ -54846,7 +54874,7 @@
  
  [Term]
  id: GO:0060176
-@@ -352489,7 +366968,6 @@
+@@ -352489,7 +366970,6 @@
  name: lipase activator activity
  namespace: molecular_function
  def: "Binds to and increases the activity of a lipase, an enzyme that catalyzes of the hydrolysis of a lipid." [GOC:BHF, GOC:dph, GOC:tb]
@@ -54854,7 +54882,7 @@
  is_a: GO:0008047 ! enzyme activator activity
  relationship: positively_regulates GO:0016298 ! lipase activity
  
-@@ -354511,6 +368989,7 @@
+@@ -354511,6 +368991,7 @@
  name: peptidyl-dipeptidase inhibitor activity
  namespace: molecular_function
  def: "Binds to and stops, prevents or reduces the activity of a peptidyl-dipeptidase. Peptidyl-dipeptidase activity catalyzes the release of C-terminal dipeptides from a polypeptide chain." [GOC:dph, GOC:tb]
@@ -54862,7 +54890,7 @@
  is_a: GO:0030414 ! peptidase inhibitor activity
  relationship: negatively_regulates GO:0008241 ! peptidyl-dipeptidase activity
  
-@@ -360534,7 +375013,7 @@
+@@ -360534,7 +375015,7 @@
  namespace: molecular_function
  def: "Binds to and stops, prevents or reduces the activity of phospholipase D." [GOC:dph, GOC:tb]
  is_a: GO:0004859 ! phospholipase inhibitor activity
@@ -54871,7 +54899,7 @@
  created_by: dph
  creation_date: 2009-10-05T02:47:26Z
  
-@@ -362201,6 +376680,7 @@
+@@ -362201,6 +376682,7 @@
  is_a: GO:0002085 ! inhibition of neuroepithelial cell differentiation
  is_a: GO:0045665 ! negative regulation of neuron differentiation
  is_a: GO:0061105 ! regulation of stomach neuroendocrine cell differentiation
@@ -54879,7 +54907,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0061102 ! stomach neuroendocrine cell differentiation
  relationship: negatively_regulates GO:0061102 ! stomach neuroendocrine cell differentiation
-@@ -365104,14 +379584,13 @@
+@@ -365104,14 +379586,13 @@
  
  [Term]
  id: GO:0061363
@@ -54899,7 +54927,7 @@
  created_by: dph
  creation_date: 2010-10-14T03:08:41Z
  
-@@ -366213,8 +380692,13 @@
+@@ -366213,8 +380694,13 @@
  namespace: molecular_function
  def: "Catalysis of the reaction O-acetyl-ADP-ribose + H2O = ADP-ribose + acetate. Removes the acetyl group from either the 2'' or 3'' position of O-acetyl-ADP-ribose." [EC:3.1.1.106]
  xref: EC:3.1.1.106
@@ -54913,7 +54941,7 @@
  created_by: dph
  creation_date: 2012-10-05T11:05:06Z
  
-@@ -366308,6 +380792,7 @@
+@@ -366308,6 +380794,7 @@
  def: "Catalysis of the reaction: L-alanyl-gamma-D-glutamyl-meso-diaminoheptanedioate (murein tripeptide) + H2O = L-alanyl-D-glutamate + meso-2,6-diaminoheptanedioate." [PMID:22970852, RHEA:28398]
  xref: RHEA:28398
  is_a: GO:0004181 ! metallocarboxypeptidase activity
@@ -54921,7 +54949,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/16802" xsd:anyURI
  created_by: dph
  creation_date: 2012-11-06T12:23:39Z
-@@ -366526,7 +381011,10 @@
+@@ -366526,7 +381013,10 @@
  xref: Reactome:R-HSA-3244614 "cGAS produces cyclic GMP-AMP"
  xref: RHEA:42064
  is_a: GO:0140699 ! cyclic GMP-AMP synthase activity
@@ -54932,7 +54960,7 @@
  created_by: dph
  creation_date: 2013-01-04T07:17:57Z
  
-@@ -366543,7 +381031,7 @@
+@@ -366543,7 +381033,7 @@
  
  [Term]
  id: GO:0061503
@@ -54941,7 +54969,7 @@
  namespace: molecular_function
  def: "Catalysis of the ATP-dependent dehydration of t6A to form cyclic t6A." [GOC:dph, PMID:23242255]
  is_a: GO:0016836 ! hydro-lyase activity
-@@ -366658,7 +381146,9 @@
+@@ -366658,7 +381148,9 @@
  xref: RHEA:71535
  is_a: GO:0015152 ! glucose-6-phosphate transmembrane transporter activity
  is_a: GO:0015526 ! hexose-phosphate:phosphate antiporter activity
@@ -54951,7 +54979,7 @@
  created_by: dph
  creation_date: 2013-04-17T08:47:40Z
  
-@@ -366745,7 +381235,10 @@
+@@ -366745,7 +381237,10 @@
  xref: EC:3.1.2.28
  xref: RHEA:26309
  is_a: GO:0016289 ! acyl-CoA hydrolase activity
@@ -54962,7 +54990,7 @@
  created_by: dph
  creation_date: 2013-04-18T14:37:32Z
  
-@@ -366927,10 +381420,8 @@
+@@ -366927,10 +381422,8 @@
  name: octopamine secretion
  namespace: biological_process
  def: "The controlled release of octopamine by a cell." [GOC:dph]
@@ -54974,7 +55002,7 @@
  created_by: dph
  creation_date: 2013-06-21T16:24:02Z
  
-@@ -366973,8 +381464,11 @@
+@@ -366973,8 +381466,11 @@
  is_a: GO:0008171 ! O-methyltransferase activity
  is_a: GO:0008757 ! S-adenosylmethionine-dependent methyltransferase activity
  relationship: part_of GO:0006744 ! ubiquinone biosynthetic process
@@ -54986,7 +55014,7 @@
  created_by: dph
  creation_date: 2013-06-25T08:01:46Z
  
-@@ -367005,9 +381499,8 @@
+@@ -367005,9 +381501,8 @@
  name: tyramine secretion
  namespace: biological_process
  def: "The regulated release of a tyramine by a cell." [GOC:dph]
@@ -54997,7 +55025,7 @@
  created_by: dph
  creation_date: 2013-06-25T09:14:07Z
  
-@@ -367388,6 +381881,9 @@
+@@ -367388,6 +381883,9 @@
  xref: EC:2.3.1.184
  xref: RHEA:10096
  is_a: GO:0016410 ! N-acyltransferase activity
@@ -55007,7 +55035,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30815" xsd:anyURI
  created_by: dph
  creation_date: 2013-11-15T19:48:23Z
-@@ -367536,6 +382032,8 @@
+@@ -367536,6 +382034,8 @@
  xref: EC:5.3.1.31
  xref: RHEA:40439
  is_a: GO:0016861 ! intramolecular oxidoreductase activity, interconverting aldoses and ketoses
@@ -55016,7 +55044,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29695" xsd:anyURI
  created_by: dph
  creation_date: 2014-02-10T09:56:04Z
-@@ -367549,6 +382047,9 @@
+@@ -367549,6 +382049,9 @@
  xref: MetaCyc:RXN-15297
  xref: RHEA:40443
  is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
@@ -55026,7 +55054,7 @@
  created_by: dph
  creation_date: 2014-02-10T09:59:26Z
  
-@@ -367570,6 +382071,9 @@
+@@ -367570,6 +382073,9 @@
  xref: MetaCyc:RXN-15299
  xref: RHEA:40511
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -55036,7 +55064,7 @@
  created_by: dph
  creation_date: 2014-02-10T10:09:43Z
  
-@@ -367591,6 +382095,9 @@
+@@ -367591,6 +382097,9 @@
  xref: EC:2.7.7.75
  xref: RHEA:31331
  is_a: GO:0070566 ! adenylyltransferase activity
@@ -55046,7 +55074,7 @@
  created_by: dph
  creation_date: 2014-02-10T14:14:06Z
  
-@@ -367603,6 +382110,9 @@
+@@ -367603,6 +382112,9 @@
  xref: Reactome:R-HSA-947531 "Molybdenum ion transfer onto molybdopterin"
  xref: RHEA:35047
  is_a: GO:0016740 ! transferase activity
@@ -55056,7 +55084,7 @@
  created_by: dph
  creation_date: 2014-02-10T14:30:31Z
  
-@@ -367614,6 +382124,9 @@
+@@ -367614,6 +382126,9 @@
  xref: EC:2.7.7.76
  xref: RHEA:31335
  is_a: GO:0070567 ! cytidylyltransferase activity
@@ -55066,7 +55094,7 @@
  created_by: dph
  creation_date: 2014-02-10T14:46:38Z
  
-@@ -367625,6 +382138,9 @@
+@@ -367625,6 +382140,9 @@
  xref: EC:2.7.7.77
  xref: RHEA:34243
  is_a: GO:0070568 ! guanylyltransferase activity
@@ -55076,7 +55104,7 @@
  created_by: dph
  creation_date: 2014-02-10T14:54:36Z
  
-@@ -367636,6 +382152,9 @@
+@@ -367636,6 +382154,9 @@
  xref: EC:2.8.1.11
  xref: RHEA:48612
  is_a: GO:0016783 ! sulfurtransferase activity
@@ -55086,7 +55114,7 @@
  created_by: dph
  creation_date: 2014-02-11T11:56:16Z
  
-@@ -367647,6 +382166,9 @@
+@@ -367647,6 +382168,9 @@
  xref: EC:2.7.7.80
  xref: RHEA:43616
  is_a: GO:0070566 ! adenylyltransferase activity
@@ -55096,7 +55124,7 @@
  created_by: dph
  creation_date: 2014-02-11T12:01:32Z
  
-@@ -367678,7 +382200,6 @@
+@@ -367678,7 +382202,6 @@
  namespace: molecular_function
  def: "Combining with a nuclear import signal (NIS) on a cargo to be transported, to mediate transport of the cargo through the nuclear pore, from the cytoplasm to the nuclear lumen. The cargo can be either a RNA or a protein." [GOC:dph, GOC:pg, GOC:vw, PMID:28713609, Wikipedia:Nuclear_transport]
  synonym: "importin activity" RELATED []
@@ -55104,7 +55132,7 @@
  is_a: GO:0140142 ! nucleocytoplasmic carrier activity
  intersection_of: GO:0140142 ! nucleocytoplasmic carrier activity
  intersection_of: part_of GO:0051170 ! import into nucleus
-@@ -367697,22 +382218,24 @@
+@@ -367697,22 +382220,24 @@
  xref: Reactome:R-HSA-70342 "ALDOB tetramer cleaves Fru-1-P to GA and DHAP"
  xref: RHEA:30851
  is_a: GO:0016832 ! aldehyde-lyase activity
@@ -55132,7 +55160,7 @@
  is_a: GO:0019637 ! organophosphate metabolic process
  is_a: GO:0034308 ! primary alcohol metabolic process
  is_a: GO:0042180 ! ketone metabolic process
-@@ -367720,6 +382243,7 @@
+@@ -367720,6 +382245,7 @@
  relationship: has_part GO:0004370 ! glycerol kinase activity
  relationship: has_part GO:0141152 ! glycerol-3-phosphate dehydrogenase (NAD+) activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26974" xsd:anyURI
@@ -55140,7 +55168,7 @@
  created_by: dph
  creation_date: 2014-04-03T13:26:21Z
  
-@@ -367729,10 +382253,14 @@
+@@ -367729,10 +382255,14 @@
  namespace: biological_process
  def: "The chemical reactions and pathways in which mannose, the aldohexose manno-hexose, is converted to fructose-6-phosphate." [GOC:dph, ISBN:0201090910, ISBN:0879010479]
  synonym: "mannose metabolism to fructose-6-phosphate" EXACT [GOC:dph]
@@ -55155,7 +55183,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27638" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28527" xsd:anyURI
  created_by: dph
-@@ -367752,13 +382280,14 @@
+@@ -367752,13 +382282,14 @@
  
  [Term]
  id: GO:0061613
@@ -55176,7 +55204,7 @@
  created_by: dph
  creation_date: 2014-04-04T08:26:57Z
  
-@@ -367949,7 +382478,10 @@
+@@ -367949,7 +382480,10 @@
  xref: Reactome:R-HSA-5696838 "BHMT2 tetramer transfers CH3 group from SMM to LHCYS"
  xref: RHEA:26337
  is_a: GO:0008172 ! S-methyltransferase activity
@@ -55187,7 +55215,7 @@
  created_by: dph
  creation_date: 2014-05-14T14:32:02Z
  
-@@ -367997,6 +382529,11 @@
+@@ -367997,6 +382531,11 @@
  synonym: "ER-associated E3 ligase" RELATED [PMID:24019521]
  synonym: "protein ubiquitination activity" EXACT [GOC:dph]
  synonym: "ubiquitin ligase activity" EXACT [GOC:dph]
@@ -55199,7 +55227,7 @@
  xref: Reactome:R-HSA-1225956 "Inefficient ubiquitination of ligand-responsive p-6Y-EGFR mutants by p-Y371-CBL"
  xref: Reactome:R-HSA-1504190 "DVL is ubiquitinated by CUL3:KLHL12:RBX1"
  xref: Reactome:R-HSA-183036 "Ubiquitination of stimulated EGFR (CBL:GRB2)"
-@@ -368090,15 +382627,13 @@
+@@ -368090,15 +382629,13 @@
  xref: Reactome:R-HSA-9762091 "NFE2L2 is ubiquitinated by BTRC:SKP1:CUL1:RBX1"
  xref: Reactome:R-HSA-9766645 "CUL3:RBX1 ubiquitinates KEAP1"
  xref: Reactome:R-HSA-990526 "Recruitment of ITCH and K48 ubiquitination of MAVS"
@@ -55220,7 +55248,7 @@
  created_by: dph
  creation_date: 2014-05-18T09:11:21Z
  
-@@ -368110,8 +382645,13 @@
+@@ -368110,8 +382647,13 @@
  synonym: "E2" BROAD [GOC:dph]
  synonym: "HECT E3" RELATED [GOC:dph]
  xref: EC:2.3.2.23
@@ -55234,7 +55262,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30261" xsd:anyURI
  created_by: dph
  creation_date: 2014-05-18T09:25:19Z
-@@ -368141,12 +382681,14 @@
+@@ -368141,12 +382683,14 @@
  
  [Term]
  id: GO:0061634
@@ -55250,7 +55278,7 @@
  created_by: dph
  creation_date: 2014-07-28T08:12:39Z
  
-@@ -368334,6 +382876,7 @@
+@@ -368334,6 +382878,7 @@
  xref: EC:2.3.2.34
  is_a: GO:0019788 ! NEDD8 transferase activity
  is_a: GO:0061650 ! ubiquitin-like protein conjugating enzyme activity
@@ -55258,7 +55286,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23338" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25078" xsd:anyURI
  created_by: dph
-@@ -368433,8 +382976,10 @@
+@@ -368433,8 +382978,10 @@
  namespace: molecular_function
  def: "Catalysis of the transfer of NEDD8 to a substrate protein via the reaction X-NEDD8 + S = X + S-NEDD8, where X is either an E2 or E3 enzyme, the X-NEDD8 linkage is a thioester bond, and the S-NEDD8 linkage is an isopeptide bond between the C-terminal amino acid of NEDD8 and the epsilon-amino group of lysine residues in the substrate." [GOC:dph]
  synonym: "E3" BROAD [GOC:dph]
@@ -55269,7 +55297,7 @@
  created_by: dph
  creation_date: 2014-11-06T13:57:00Z
  
-@@ -368572,7 +383117,6 @@
+@@ -368572,7 +383119,6 @@
  name: importin-alpha family protein binding
  namespace: molecular_function
  def: "Binding to a member of the importin-alpha family." [PMID:15350979, PMID:17170104, PMID:23734157]
@@ -55277,7 +55305,7 @@
  is_a: GO:0005515 ! protein binding
  created_by: dph
  creation_date: 2015-01-10T18:25:22Z
-@@ -368589,6 +383133,9 @@
+@@ -368589,6 +383135,9 @@
  xref: MetaCyc:DHDOGALDOL-RXN
  xref: RHEA:35583
  is_a: GO:0016832 ! aldehyde-lyase activity
@@ -55287,7 +55315,7 @@
  created_by: dph
  creation_date: 2015-01-15T13:46:25Z
  
-@@ -368696,6 +383243,9 @@
+@@ -368696,6 +383245,9 @@
  xref: EC:3.1.1.97
  xref: RHEA:42656
  is_a: GO:0052689 ! carboxylic ester hydrolase activity
@@ -55297,7 +55325,7 @@
  created_by: dph
  creation_date: 2015-03-04T16:00:21Z
  
-@@ -368710,8 +383260,11 @@
+@@ -368710,8 +383262,11 @@
  xref: RHEA:42704
  is_a: GO:0046993 ! oxidoreductase activity, acting on X-H and Y-H to form an X-Y bond, with oxygen as acceptor
  relationship: part_of GO:0140479 ! ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase
@@ -55309,7 +55337,7 @@
  created_by: dph
  creation_date: 2015-03-06T15:08:51Z
  
-@@ -368755,7 +383308,10 @@
+@@ -368755,7 +383310,10 @@
  xref: Reactome:R-HSA-9861626 "SIRT4 cleaves lipoyl from DLAT"
  xref: RHEA:76519
  is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
@@ -55320,7 +55348,7 @@
  created_by: dph
  creation_date: 2015-05-05T10:06:49Z
  
-@@ -368790,6 +383346,9 @@
+@@ -368790,6 +383348,9 @@
  xref: MetaCyc:RXN0-6732
  xref: RHEA:34679
  is_a: GO:0016780 ! phosphotransferase activity, for other substituted phosphate groups
@@ -55330,7 +55358,7 @@
  created_by: dph
  creation_date: 2015-05-06T10:04:04Z
  
-@@ -368830,7 +383389,9 @@
+@@ -368830,7 +383391,9 @@
  comment: This reaction is the removal of a glutaryl group from a glutarylated lysine residue of a protein or peptide.
  xref: RHEA:47664
  is_a: GO:0141218 ! NAD-dependent protein lysine deacylase activity
@@ -55340,7 +55368,7 @@
  created_by: dph
  creation_date: 2015-05-07T10:55:53Z
  
-@@ -368945,15 +383506,18 @@
+@@ -368945,15 +383508,18 @@
  
  [Term]
  id: GO:0061708
@@ -55361,7 +55389,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30500" xsd:anyURI
  created_by: dph
  creation_date: 2015-06-16T09:02:23Z
-@@ -368978,14 +383542,16 @@
+@@ -368978,14 +383544,16 @@
  
  [Term]
  id: GO:0061710
@@ -55381,7 +55409,7 @@
  created_by: dph
  creation_date: 2015-06-23T08:25:14Z
  
-@@ -368998,11 +383564,13 @@
+@@ -368998,11 +383566,13 @@
  synonym: "t6A synthase activity" EXACT []
  xref: EC:2.3.1.234
  xref: MetaCyc:RXN-14570
@@ -55397,7 +55425,7 @@
  created_by: dph
  creation_date: 2015-06-23T08:34:44Z
  
-@@ -369034,7 +383602,6 @@
+@@ -369034,7 +383604,6 @@
  namespace: molecular_function
  def: "Combining selectively with extracellular folic acid and delivering it into the cell via endocytosis." [GOC:BHF, GOC:hal]
  synonym: "folate receptor activity" EXACT []
@@ -55405,7 +55433,7 @@
  is_a: GO:0038024 ! cargo receptor activity
  relationship: has_part GO:0005542 ! folic acid binding
  relationship: part_of GO:0015884 ! folic acid transport
-@@ -369293,9 +383860,10 @@
+@@ -369293,9 +383862,10 @@
  xref: Reactome:R-HSA-9701531 "p-Y705,S727 STAT3 is acetylated"
  xref: Reactome:R-HSA-9756494 "CREBBP acetylates SARS-CoV-2 N at K375"
  xref: Reactome:R-HSA-9825747 "CREBBP acetylates HINT1 dimer"
@@ -55417,7 +55445,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30180" xsd:anyURI
  created_by: dph
  creation_date: 2015-09-10T10:22:19Z
-@@ -369448,6 +384016,7 @@
+@@ -369448,6 +384018,7 @@
  namespace: molecular_function
  def: "Unwinding a DNA helix containing forked DNA, driven by ATP hydrolysis." [GOC:dph, PMID:26277776]
  is_a: GO:0003678 ! DNA helicase activity
@@ -55425,7 +55453,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: dph
  creation_date: 2015-11-11T13:10:51Z
-@@ -369693,6 +384262,9 @@
+@@ -369693,6 +384264,9 @@
  xref: RHEA:25568
  is_a: GO:0016301 ! kinase activity
  is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
@@ -55435,7 +55463,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30725" xsd:anyURI
  created_by: dph
  creation_date: 2016-05-05T14:41:44Z
-@@ -369757,6 +384329,7 @@
+@@ -369757,6 +384331,7 @@
  def: "Facilitating a conformational change to load a cohesin complex around sister chromatids." [GOC:vw, PMID:26687354]
  synonym: "cohesin loading activity" EXACT []
  is_a: GO:0140097 ! catalytic activity, acting on DNA
@@ -55443,7 +55471,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14205" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21700" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23400" xsd:anyURI
-@@ -370009,6 +384582,9 @@
+@@ -370009,6 +384584,9 @@
  xref: MetaCyc:RXN-8340
  xref: RHEA:49576
  is_a: GO:0016830 ! carbon-carbon lyase activity
@@ -55453,7 +55481,7 @@
  created_by: dph
  creation_date: 2016-10-06T14:26:11Z
  
-@@ -370021,6 +384597,9 @@
+@@ -370021,6 +384599,9 @@
  xref: MetaCyc:RXN-17809
  xref: RHEA:49580
  is_a: GO:0016849 ! phosphorus-oxygen lyase activity
@@ -55463,7 +55491,7 @@
  created_by: dph
  creation_date: 2016-10-06T14:36:56Z
  
-@@ -370028,19 +384607,22 @@
+@@ -370028,19 +384609,22 @@
  id: GO:0061800
  name: fibronectin fibril
  namespace: cellular_component
@@ -55491,7 +55519,7 @@
  created_by: dph
  creation_date: 2016-10-26T15:05:15Z
  
-@@ -370144,8 +384726,15 @@
+@@ -370144,8 +384728,15 @@
  xref: Reactome:R-HSA-8870346 "BST1 hydrolyzes NAD+ to yield NAM and ADP-ribose"
  xref: Reactome:R-HSA-8938076 "CD38 hydrolyses NAD+ to NAM and ADP-ribose"
  xref: Reactome:R-HSA-9637699 "CpnT hydrolyses NAD+"
@@ -55507,7 +55535,7 @@
  created_by: dph
  creation_date: 2016-11-11T13:14:13Z
  
-@@ -370636,7 +385225,7 @@
+@@ -370636,7 +385227,7 @@
  
  [Term]
  id: GO:0061863
@@ -55516,7 +55544,7 @@
  namespace: molecular_function
  def: "Catalysis of the transfer of tubulin dimers to the plus end of a microtubule. The reaction is reversible depending on the availability of dimers." [PMID:27872152]
  is_a: GO:0016740 ! transferase activity
-@@ -370941,6 +385530,8 @@
+@@ -370941,6 +385532,8 @@
  def: "Catalysis of the reaction: all-trans-retinol + 2 H+ + O2 + 2 reduced [adrenodoxin] = all-trans-3,4-didehydro retinol + 2 H2O + 2 oxidized [adrenodoxin]." [PMID:27059013]
  xref: RHEA:50292
  is_a: GO:0016705 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
@@ -55525,7 +55553,7 @@
  created_by: dph
  creation_date: 2017-06-12T14:49:30Z
  
-@@ -371174,6 +385765,8 @@
+@@ -371174,6 +385767,8 @@
  def: "Catalysis of the reaction: propionyl-CoA + lysine in peptide = CoA + N-propionyl-lysine-peptide." [PMID:17267393]
  xref: RHEA:54020
  is_a: GO:0016410 ! N-acyltransferase activity
@@ -55534,7 +55562,7 @@
  created_by: dph
  creation_date: 2017-08-02T13:35:22Z
  
-@@ -371201,9 +385794,16 @@
+@@ -371201,9 +385796,16 @@
  id: GO:0061923
  name: (2S,3R,6S,9S)-(-)-protoillud-7-ene synthase activity
  namespace: molecular_function
@@ -55552,7 +55580,7 @@
  created_by: dph
  creation_date: 2017-08-02T15:48:21Z
  
-@@ -371270,9 +385870,11 @@
+@@ -371270,9 +385872,11 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: glutathione = 5-oxoproline + L-cysteinylglycine." [PMID:23070364, PMID:27913623]
  xref: EC:4.3.2.7
@@ -55565,7 +55593,7 @@
  created_by: dph
  creation_date: 2017-08-29T14:55:30Z
  
-@@ -371284,6 +385886,9 @@
+@@ -371284,6 +385888,9 @@
  xref: EC:4.3.2.8
  xref: RHEA:16961
  is_a: GO:0016842 ! amidine-lyase activity
@@ -55575,7 +55603,7 @@
  created_by: dph
  creation_date: 2017-08-29T14:57:39Z
  
-@@ -371514,12 +386119,6 @@
+@@ -371514,12 +386121,6 @@
  name: mRNA (adenine-N1-)-methyltransferase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: S-adenosyl-L-methionine + adenine in mRNA = S-adenosyl-L-homocysteine + N(1)-methyladenine in mRNA." [PMID:29072297]
@@ -55588,7 +55616,7 @@
  is_a: GO:0008174 ! mRNA methyltransferase activity
  created_by: dph
  creation_date: 2017-11-08T13:26:35Z
-@@ -371884,6 +386483,8 @@
+@@ -371884,6 +386485,8 @@
  xref: MetaCyc:RXN-13613
  xref: RHEA:42264
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -55597,7 +55625,7 @@
  created_by: dph
  creation_date: 2018-02-15T22:29:03Z
  
-@@ -372336,7 +386937,7 @@
+@@ -372336,7 +386939,7 @@
  
  [Term]
  id: GO:0062045
@@ -55606,7 +55634,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: L-lysine + pyruvate= epsilon-amino-alpha-ketocaproic acid (KAC) + alanine." [PMID:27758894, PMID:28330936]
  is_a: GO:0008483 ! transaminase activity
-@@ -372345,7 +386946,7 @@
+@@ -372345,7 +386948,7 @@
  
  [Term]
  id: GO:0062046
@@ -55615,7 +55643,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: dehydropipecolic acid + NAD(P)H + H+ = L-pipecolic acid + NAD(P)+." [PMID:27758894, PMID:28330936]
  is_a: GO:0016646 ! oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor
-@@ -372354,7 +386955,7 @@
+@@ -372354,7 +386957,7 @@
  
  [Term]
  id: GO:0062047
@@ -55624,7 +55652,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: L-pipecolic acid + NAD(P)H + O2 + H+ = N-hydroxypipecolic acid + NAD(P)+ + H2O." [PMID:27758894, PMID:28330936]
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
-@@ -372628,9 +387229,15 @@
+@@ -372628,9 +387231,15 @@
  synonym: "acyl-CoA delta(5)-desaturase activity" EXACT []
  synonym: "acyl-CoA delta5-desaturase activity" EXACT []
  xref: EC:1.14.19.44
@@ -55640,7 +55668,7 @@
  created_by: dph
  creation_date: 2018-09-24T15:33:59Z
  
-@@ -372919,7 +387526,10 @@
+@@ -372919,7 +387528,10 @@
  xref: RHEA:11508
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -55651,7 +55679,7 @@
  created_by: dph
  creation_date: 2018-12-06T14:01:15Z
  
-@@ -372950,6 +387560,8 @@
+@@ -372950,6 +387562,8 @@
  xref: RHEA:58956
  is_a: GO:0008171 ! O-methyltransferase activity
  is_a: GO:0008173 ! RNA methyltransferase activity
@@ -55660,7 +55688,7 @@
  created_by: dph
  creation_date: 2019-01-23T14:23:00Z
  
-@@ -373198,6 +387810,8 @@
+@@ -373198,6 +387812,8 @@
  xref: MetaCyc:RXNQT-4343
  xref: RHEA:60628
  is_a: GO:0051213 ! dioxygenase activity
@@ -55669,7 +55697,7 @@
  created_by: dph
  creation_date: 2019-06-24T16:45:18Z
  
-@@ -373324,6 +387938,8 @@
+@@ -373324,6 +387940,8 @@
  def: "Catalysis of the reaction: L-2-amino-4-chloropent-4-enoate = chloride + H+ + L-propargylglycine." [PMID:30867596, RHEA:59892]
  xref: RHEA:59892
  is_a: GO:0016848 ! carbon-halide lyase activity
@@ -55678,7 +55706,7 @@
  created_by: dph
  creation_date: 2019-09-02T16:48:52Z
  
-@@ -373334,6 +387950,8 @@
+@@ -373334,6 +387952,8 @@
  def: "Catalysis of the reaction: ATP + L-glutamate + L-propargylglycine = ADP + H+ + L-gamma-glutamyl-L-propargylglycine + phosphate." [PMID:30867596, RHEA:59896]
  xref: RHEA:59896
  is_a: GO:0016881 ! acid-amino acid ligase activity
@@ -55687,7 +55715,7 @@
  created_by: dph
  creation_date: 2019-09-02T16:56:59Z
  
-@@ -373344,6 +387962,8 @@
+@@ -373344,6 +387964,8 @@
  def: "Catalysis of the reaction: 4-chloro-L-lysine + AH2 + O2 = A + formaldehyde + H2O + L-2-amino-4-chloropent-4-enoate + NH4(+)." [PMID:30867596, RHEA:59888]
  xref: RHEA:59888
  is_a: GO:0016705 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
@@ -55696,7 +55724,7 @@
  created_by: dph
  creation_date: 2019-09-02T16:59:30Z
  
-@@ -373354,6 +387974,8 @@
+@@ -373354,6 +387976,8 @@
  def: "Catalysis of the reaction: 2-oxoglutarate + chloride + H+ + L-lysine + O2 = 4-chloro-L-lysine + CO2 + H2O + succinate." [PMID:30867596, RHEA:59884]
  xref: RHEA:59884
  is_a: GO:0050498 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, with 2-oxoglutarate as one donor, and the other dehydrogenated
@@ -55705,7 +55733,7 @@
  created_by: dph
  creation_date: 2019-09-02T17:01:46Z
  
-@@ -373364,6 +387986,8 @@
+@@ -373364,6 +387988,8 @@
  def: "Catalysis of the reaction: 2-oxoglutarate + L-gamma-glutamyl-L-propargylglycine + O2 = CO2 + L-gamma-glutamyl-(3R)-L-beta-ethynylserine + succinate." [PMID:30867596, RHEA:59900]
  xref: RHEA:59900
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
@@ -55714,7 +55742,7 @@
  created_by: dph
  creation_date: 2019-09-02T17:04:43Z
  
-@@ -373387,6 +388011,9 @@
+@@ -373387,6 +388013,9 @@
  xref: EC:1.14.14.114
  xref: RHEA:32999
  is_a: GO:0016705 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
@@ -55724,7 +55752,7 @@
  created_by: dph
  creation_date: 2019-09-13T14:48:12Z
  
-@@ -373407,6 +388034,8 @@
+@@ -373407,6 +388036,8 @@
  synonym: "mRNA (cytosine-5-)-methyltransferase activity" EXACT []
  xref: RHEA:61464
  is_a: GO:0008174 ! mRNA methyltransferase activity
@@ -55733,7 +55761,7 @@
  created_by: dph
  creation_date: 2019-09-18T14:40:32Z
  
-@@ -373436,8 +388065,10 @@
+@@ -373436,8 +388067,10 @@
  xref: Reactome:R-HSA-9731661 "ADAL1 hydrolyzes N6-methyl-dAMP to dIMP and methylamine"
  xref: RHEA:16001
  is_a: GO:0019239 ! deaminase activity
@@ -55744,7 +55772,7 @@
  created_by: dph
  creation_date: 2019-09-20T13:16:37Z
  
-@@ -373753,6 +388384,8 @@
+@@ -373753,6 +388386,8 @@
  def: "Catalysis of the reaction: calcidiol + 2 H+ + O2 + 2 reduced [adrenodoxin] = (23S)-23,25-dihydroxycalciol + H2O + 2 oxidized [adrenodoxin]." [PMID:22100522, PMID:30205156, RHEA:46616]
  xref: RHEA:46616
  is_a: GO:0062179 ! vitamin D 23-hydroxylase activity
@@ -55753,7 +55781,7 @@
  created_by: dph
  creation_date: 2019-11-26T17:12:22Z
  
-@@ -373763,6 +388396,8 @@
+@@ -373763,6 +388398,8 @@
  def: "Catatlysis of the reaction: calcitriol + 2 H+ + O2 + 2 reduced [adrenodoxin] = 1alpha,23S,25-trihydroxycholecalciferol + H2O + 2 oxidized [adrenodoxin]." [PMID:22100522, PMID:30205156, RHEA:49192]
  xref: RHEA:49192
  is_a: GO:0062179 ! vitamin D 23-hydroxylase activity
@@ -55762,7 +55790,7 @@
  created_by: dph
  creation_date: 2019-11-26T17:16:39Z
  
-@@ -373773,6 +388408,8 @@
+@@ -373773,6 +388410,8 @@
  def: "Catalysis of the reaction: all-trans-retinoate + O2 + reduced [NADPH--hemoprotein reductase] = all-trans-(4S)-hydroxyretinoate + H+ + H2O + oxidized [NADPH--hemoprotein reductase]." [PMID:9250660, PMID:9716180, RHEA:51492]
  xref: RHEA:51492
  is_a: GO:0008401 ! retinoic acid 4-hydroxylase activity
@@ -55771,7 +55799,7 @@
  created_by: dph
  creation_date: 2019-11-26T18:36:06Z
  
-@@ -373783,6 +388420,8 @@
+@@ -373783,6 +388422,8 @@
  def: "Catalysis of the reaction: all-trans-retinoate + O2 + reduced [NADPH--hemoprotein reductase] = all-trans-18-hydroxyretinoate + H+ + H2O + oxidized [NADPH--hemoprotein reductase]." [PMID:22020119, RHEA:55856]
  xref: RHEA:55856
  is_a: GO:0004497 ! monooxygenase activity
@@ -55780,7 +55808,7 @@
  created_by: dph
  creation_date: 2019-11-26T18:41:32Z
  
-@@ -373793,7 +388432,9 @@
+@@ -373793,7 +388434,9 @@
  def: "Catalysis of the reaction: O2 + reduced [NADPH--hemoprotein reductase] + testosterone = 16beta,17beta-dihydroxyandrost-4-en-3-one + H+ + H2O + oxidized [NADPH--hemoprotein reductase]." [PMID:21289075, RHEA:46304]
  xref: RHEA:46304
  is_a: GO:0008395 ! steroid hydroxylase activity
@@ -55790,7 +55818,7 @@
  created_by: dph
  creation_date: 2019-11-26T18:43:43Z
  
-@@ -373804,6 +388445,8 @@
+@@ -373804,6 +388447,8 @@
  def: "Catalysis of the reaction:2 H+ + O2 + 2 reduced [adrenodoxin] + secalciferol = calcitetrol + H2O + 2 oxidized [adrenodoxin]." [PMID:10518789, RHEA:49064]
  xref: RHEA:49064
  is_a: GO:0004497 ! monooxygenase activity
@@ -55799,7 +55827,7 @@
  created_by: dph
  creation_date: 2019-11-26T18:46:18Z
  
-@@ -373824,6 +388467,8 @@
+@@ -373824,6 +388469,8 @@
  def: "Catalysis of the reaction: N-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-ethanolamine + O2 + reduced [NADPH--hemoprotein reductase] = H+ + H2O + N-(8,9-epoxy-5Z,11Z,14Z-eicosatrienoyl)-ethanolamine + oxidized [NADPH--hemoprotein reductase]." [PMID:21289075, RHEA:53140]
  xref: RHEA:53140
  is_a: GO:0062186 ! anandamide epoxidase activity
@@ -55808,7 +55836,7 @@
  created_by: dph
  creation_date: 2019-11-26T18:51:34Z
  
-@@ -373834,6 +388479,8 @@
+@@ -373834,6 +388481,8 @@
  def: "Catalysis of the reaction: N-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-ethanolamine + O2 + reduced [NADPH--hemoprotein reductase] = H+ + H2O + N-(11,12-epoxy-5Z,8Z,14Z-eicosatrienoyl)-ethanolamine + oxidized [NADPH--hemoprotein reductase]." [PMID:21289075, RHEA:53144]
  xref: RHEA:53144
  is_a: GO:0062186 ! anandamide epoxidase activity
@@ -55817,7 +55845,7 @@
  created_by: dph
  creation_date: 2019-11-26T18:53:52Z
  
-@@ -373844,6 +388491,8 @@
+@@ -373844,6 +388493,8 @@
  def: "Catalysis of the reaction: N-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-ethanolamine + O2 + reduced [NADPH--hemoprotein reductase] = H+ + H2O + N-(14,15-epoxy-5Z,8Z,11Z-eicosatrienoyl)-ethanolamine + oxidized [NADPH--hemoprotein reductase]." [PMID:21289075, RHEA:53148]
  xref: RHEA:53148
  is_a: GO:0062186 ! anandamide epoxidase activity
@@ -55826,7 +55854,7 @@
  created_by: dph
  creation_date: 2019-11-26T18:57:55Z
  
-@@ -373870,6 +388519,9 @@
+@@ -373870,6 +388521,9 @@
  xref: EC:5.1.3.32
  xref: RHEA:25584
  is_a: GO:0016857 ! racemase and epimerase activity, acting on carbohydrates and derivatives
@@ -55836,7 +55864,7 @@
  created_by: dph
  creation_date: 2019-12-09T16:45:45Z
  
-@@ -373879,7 +388531,12 @@
+@@ -373879,7 +388533,12 @@
  namespace: molecular_function
  def: "Catalysis of the reactions: beta-D-ribopyranose = beta-D-ribofuranose, and beta-allofuranose = beta-allopyranose." [EC:5.4.99.62]
  xref: EC:5.4.99.62
@@ -55849,7 +55877,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
  created_by: dph
  creation_date: 2019-12-09T16:49:07Z
-@@ -373969,6 +388626,8 @@
+@@ -373969,6 +388628,8 @@
  def: "Catalysis of the reaction: peregrinol diphosphate = diphosphate + labd-13(16),14-diene-9-ol." [PMID:29315936, RHEA:62184]
  xref: RHEA:62184
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -55858,7 +55886,7 @@
  created_by: dph
  creation_date: 2020-01-02T15:46:00Z
  
-@@ -373979,6 +388638,8 @@
+@@ -373979,6 +388640,8 @@
  def: "Catalysis of the reaction: H2O + peregrinol diphosphate = diphosphate + viteagnusin D." [PMID:29315936, RHEA:62180]
  xref: RHEA:62180
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -55867,7 +55895,7 @@
  created_by: dph
  creation_date: 2020-01-02T18:25:47Z
  
-@@ -373989,6 +388650,8 @@
+@@ -373989,6 +388652,8 @@
  def: "Catalysis of the reaction:9alpha-copalyl diphosphate + H2O = (13S)-vitexifolin A + diphosphate." [PMID:29315936, RHEA:40027]
  xref: RHEA:40027
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -55876,7 +55904,7 @@
  created_by: dph
  creation_date: 2020-01-03T13:24:50Z
  
-@@ -374003,6 +388666,9 @@
+@@ -374003,6 +388668,9 @@
  xref: MetaCyc:RXN-13338
  xref: RHEA:33983
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -55886,7 +55914,7 @@
  created_by: dph
  creation_date: 2020-01-03T14:05:49Z
  
-@@ -374014,6 +388680,9 @@
+@@ -374014,6 +388682,9 @@
  xref: EC:4.2.3.190
  xref: RHEA:54516
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -55896,7 +55924,7 @@
  created_by: dph
  creation_date: 2020-01-03T14:48:52Z
  
-@@ -374095,6 +388764,8 @@
+@@ -374095,6 +388766,8 @@
  def: "Catalysis of the reaction: peroxynitrite = nitrate." [PMID:30524950, RHEA:63116]
  xref: RHEA:63116
  is_a: GO:0016853 ! isomerase activity
@@ -55905,7 +55933,7 @@
  created_by: dph
  creation_date: 2020-02-22T13:57:50Z
  
-@@ -374843,6 +389514,7 @@
+@@ -374843,6 +389516,7 @@
  is_a: GO:0016435 ! rRNA (guanine) methyltransferase activity
  is_a: GO:0062105 ! RNA 2'-O-methyltransferase activity
  relationship: part_of GO:0000451 ! rRNA 2'-O-methylation
@@ -55913,7 +55941,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  
  [Term]
-@@ -374855,6 +389527,8 @@
+@@ -374855,6 +389529,8 @@
  xref: RHEA:42916
  is_a: GO:0008169 ! C-methyltransferase activity
  is_a: GO:0016433 ! rRNA (adenine) methyltransferase activity
@@ -55922,7 +55950,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26114" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28183" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/9902" xsd:anyURI
-@@ -375668,6 +390342,7 @@
+@@ -375668,6 +390344,7 @@
  synonym: "type III TGFbeta receptor activity" EXACT []
  synonym: "type III transforming growth factor beta receptor activity" EXACT []
  is_a: GO:0005024 ! transforming growth factor beta receptor activity
@@ -55930,7 +55958,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  
  [Term]
-@@ -376485,6 +391160,9 @@
+@@ -376485,6 +391162,9 @@
  xref: MetaCyc:2.5.1.64-RXN
  xref: RHEA:25593
  is_a: GO:0016744 ! transketolase or transaldolase activity
@@ -55940,7 +55968,7 @@
  
  [Term]
  id: GO:0070205
-@@ -376501,6 +391179,9 @@
+@@ -376501,6 +391181,9 @@
  xref: MetaCyc:RXN-9310
  xref: RHEA:25597
  is_a: GO:0016835 ! carbon-oxygen lyase activity
@@ -55950,7 +55978,7 @@
  
  [Term]
  id: GO:0070206
-@@ -376701,11 +391382,15 @@
+@@ -376701,11 +391384,15 @@
  comment: Note that EC:1.8.5.4 describes this reaction as bacterial-specific, but it has also been observed in eukaryotes (PMID:22852582, PMID:10224084).
  synonym: "sulfide-quinone reductase activity" EXACT [MetaCyc:MONOMER-12314]
  synonym: "sulphide:quinone oxidoreductase activity" EXACT [GOC:mah]
@@ -55966,7 +55994,7 @@
  
  [Term]
  id: GO:0070225
-@@ -376718,6 +391403,9 @@
+@@ -376718,6 +391405,9 @@
  xref: MetaCyc:RXN-8156
  xref: RHEA:30223
  is_a: GO:0016669 ! oxidoreductase activity, acting on a sulfur group of donors, cytochrome as acceptor
@@ -55976,7 +56004,7 @@
  
  [Term]
  id: GO:0070226
-@@ -377126,6 +391814,8 @@
+@@ -377126,6 +391816,8 @@
  xref: RHEA:47264
  is_a: GO:0016405 ! CoA-ligase activity
  is_a: GO:0016878 ! acid-thiol ligase activity
@@ -55985,7 +56013,7 @@
  
  [Term]
  id: GO:0070252
-@@ -377428,6 +392118,8 @@
+@@ -377428,6 +392120,8 @@
  xref: EC:4.1.99.17
  xref: RHEA:24840
  is_a: GO:0016830 ! carbon-carbon lyase activity
@@ -55994,7 +56022,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29695" xsd:anyURI
  
  [Term]
-@@ -377478,7 +392170,7 @@
+@@ -377478,7 +392172,7 @@
  id: GO:0070290
  name: N-acylphosphatidylethanolamine-specific phospholipase D activity
  namespace: molecular_function
@@ -56003,7 +56031,7 @@
  subset: goslim_chembl
  synonym: "N-acyl-phosphatidylethanolamine-specific phospholipase D activity" EXACT []
  synonym: "NAPE-specific phospholipase D activity" EXACT []
-@@ -377486,9 +392178,11 @@
+@@ -377486,9 +392180,11 @@
  xref: MetaCyc:RXN-12116
  xref: Reactome:R-HSA-2466831 "A2PE hydrolyses to A2E"
  xref: RHEA:33159
@@ -56017,7 +56045,7 @@
  
  [Term]
  id: GO:0070291
-@@ -377923,7 +392617,12 @@
+@@ -377923,7 +392619,12 @@
  def: "Catalysis of the reaction: 3 O2 + 3 reduced [NADPH--hemoprotein reductase] + testosterone = 17beta-estradiol + formate + 4 H+ + 4 H2O + 3 oxidized [NADPH--hemoprotein reductase]. Also converts androst-4-ene-3,17-dione into estrone." [EC:1.14.14.14]
  synonym: "estrogen synthetase activity" NARROW []
  xref: EC:1.14.14.14
@@ -56030,7 +56058,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28295" xsd:anyURI
  
  [Term]
-@@ -379177,6 +393876,8 @@
+@@ -379177,6 +393878,8 @@
  xref: RHEA:25633
  is_a: GO:0008171 ! O-methyltransferase activity
  is_a: GO:0008757 ! S-adenosylmethionine-dependent methyltransferase activity
@@ -56039,7 +56067,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -379699,12 +394400,16 @@
+@@ -379699,12 +394402,16 @@
  id: GO:0070497
  name: 6-carboxytetrahydropterin synthase activity
  namespace: molecular_function
@@ -56058,7 +56086,7 @@
  
  [Term]
  id: GO:0070498
-@@ -379960,10 +394665,10 @@
+@@ -379960,10 +394667,10 @@
  name: 11-beta-hydroxysteroid dehydrogenase (NAD+) activity
  namespace: molecular_function
  def: "Catalysis of the reaction: an 11-beta-hydroxysteroid + NAD+ = an 11-oxosteroid + NADH + H+." [PMID:15761036, RHEA:53116]
@@ -56070,7 +56098,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21915" xsd:anyURI
  
  [Term]
-@@ -379980,6 +394685,9 @@
+@@ -379980,6 +394687,9 @@
  xref: RHEA:11388
  xref: Wikipedia:11beta-hydroxysteroid_dehydrogenase
  is_a: GO:0033764 ! steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -56080,7 +56108,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28173" xsd:anyURI
  
-@@ -380374,7 +395082,6 @@
+@@ -380374,7 +395084,6 @@
  name: adenylyltransferase activity
  namespace: molecular_function
  def: "Catalysis of the transfer of an adenylyl group to an acceptor." [GOC:mah]
@@ -56088,7 +56116,7 @@
  is_a: GO:0016779 ! nucleotidyltransferase activity
  created_by: mah
  creation_date: 2009-04-15T11:04:22Z
-@@ -380460,9 +395167,9 @@
+@@ -380460,9 +395169,9 @@
  def: "Catalysis of the hydrolysis of a dipeptide by a mechanism in which water acts as a nucleophile, one or two metal ions hold the water molecule in place, and charged amino acid side chains are ligands for the metal ions." [GOC:mah, https://www.ebi.ac.uk/merops/about/glossary.shtml#CATTYPE]
  synonym: "metallo-exo-dipeptidase activity" EXACT [GOC:rb]
  synonym: "metalloexodipeptidase activity" EXACT [GOC:mah]
@@ -56101,7 +56129,7 @@
  is_a: GO:0008235 ! metalloexopeptidase activity
  is_a: GO:0016805 ! dipeptidase activity
  created_by: mah
-@@ -380504,7 +395211,9 @@
+@@ -380504,7 +395213,9 @@
  synonym: "ergocalciferol 24-hydroxylase activity" NARROW [GOC:rl]
  synonym: "vitamin D2 24-hydroxylase activity" NARROW [GOC:rl]
  synonym: "vitamin D3 24-hydroxylase activity" NARROW [GOC:rl]
@@ -56111,7 +56139,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28340" xsd:anyURI
  created_by: mah
  creation_date: 2009-04-21T02:20:52Z
-@@ -380546,9 +395255,16 @@
+@@ -380546,9 +395257,16 @@
  xref: Reactome:R-HSA-5220990 "TET1,2,3 oxidizes 5-hydroxymethylcytosine to 5-formylcytosine"
  xref: Reactome:R-HSA-5221014 "TET1,2,3 oxidizes 5-methylcytosine to 5-hydroxymethylcytosine"
  xref: Reactome:R-HSA-9817458 "TET3 oxidizes 5-methylcytosine to 5-hydroxymethylcytosine in chromatin containing histone H3.3"
@@ -56128,7 +56156,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23312" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24855" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26656" xsd:anyURI
-@@ -381001,6 +395717,9 @@
+@@ -381001,6 +395719,9 @@
  synonym: "histone-H3R2 methyltransferase activity" EXACT []
  is_a: GO:0016274 ! protein-arginine N-methyltransferase activity
  is_a: GO:0140938 ! histone H3 methyltransferase activity
@@ -56138,7 +56166,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: mah
-@@ -381019,6 +395738,7 @@
+@@ -381019,6 +395740,7 @@
  synonym: "histone-H2AR3 methyltransferase activity" EXACT []
  is_a: GO:0016274 ! protein-arginine N-methyltransferase activity
  is_a: GO:0140940 ! histone H2A methyltransferase activity
@@ -56146,7 +56174,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: mah
  creation_date: 2009-04-29T02:06:45Z
-@@ -381209,6 +395929,8 @@
+@@ -381209,6 +395931,8 @@
  xref: Reactome:R-HSA-73828 "adenylosuccinate => adenosine 5'-monophosphate + fumarate"
  xref: RHEA:23920
  is_a: GO:0016842 ! amidine-lyase activity
@@ -56155,7 +56183,7 @@
  created_by: mah
  creation_date: 2009-05-01T04:13:49Z
  
-@@ -381801,6 +396523,7 @@
+@@ -381801,6 +396525,7 @@
  def: "Catalysis of the reaction: S-adenosyl-L-methionine + rRNA = S-adenosyl-L-homocysteine + rRNA containing 2'-O-methylcytosine." [GOC:mah, PMID:19400805]
  is_a: GO:0016434 ! rRNA (cytosine) methyltransferase activity
  is_a: GO:0062105 ! RNA 2'-O-methyltransferase activity
@@ -56163,7 +56191,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: mah
  creation_date: 2009-05-29T03:37:53Z
-@@ -381989,6 +396712,7 @@
+@@ -381989,6 +396714,7 @@
  xref: Reactome:R-HSA-8953339 "DNPH1 hydrolyses dGMP"
  xref: RHEA:77099
  is_a: GO:0016799 ! hydrolase activity, hydrolyzing N-glycosyl compounds
@@ -56171,7 +56199,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29145" xsd:anyURI
  created_by: mah
  creation_date: 2009-06-04T03:06:57Z
-@@ -382393,7 +397117,14 @@
+@@ -382393,7 +397119,14 @@
  synonym: "AMPylator" RELATED [GOC:mah]
  synonym: "protein adenylyltransferase activity" RELATED []
  xref: EC:2.7.7.108
@@ -56186,7 +56214,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25168" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25802" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28233" xsd:anyURI
-@@ -382424,7 +397155,9 @@
+@@ -382424,7 +397157,9 @@
  xref: RHEA:67180
  is_a: GO:0016881 ! acid-amino acid ligase activity
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -56196,7 +56224,7 @@
  created_by: mah
  creation_date: 2009-06-19T01:51:21Z
  
-@@ -382455,6 +397188,7 @@
+@@ -382455,6 +397190,7 @@
  def: "Catalysis of the posttranslational transfer of one or more glycine residues to a specific glutamate residue on a target tubulin molecule; acts on alpha or beta tubulin." [GOC:mah, PMID:19524510]
  synonym: "tubulin glycylase activity" EXACT [GOC:mah]
  is_a: GO:0070735 ! protein-glycine ligase activity
@@ -56204,7 +56232,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: mah
  creation_date: 2009-06-19T02:02:01Z
-@@ -382482,7 +397216,9 @@
+@@ -382482,7 +397218,9 @@
  xref: Reactome:R-HSA-8865774 "TTLLs polyglutamylate tubulin"
  xref: Reactome:R-HSA-8955869 "Polyglutamylase complex (TTLL1) polyglutamylates alpha subunits of tubulin"
  is_a: GO:0070739 ! protein-glutamic acid ligase activity
@@ -56214,7 +56242,7 @@
  created_by: mah
  creation_date: 2009-06-19T02:26:15Z
  
-@@ -382856,7 +397592,10 @@
+@@ -382856,7 +397594,10 @@
  xref: RHEA:50680
  is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -56225,7 +56253,7 @@
  created_by: mah
  creation_date: 2009-06-30T11:34:08Z
  
-@@ -382866,6 +397605,7 @@
+@@ -382866,6 +397607,7 @@
  namespace: molecular_function
  def: "OBSOLETE. Catalysis of the reaction: a phytoceramide + H2O = a fatty acid + phytosphingosine." [GOC:pde, PMID:11356846]
  comment: The reason for obsoletion is that this term represents a specific substrate of GO:0017040 N-acylsphingosine amidohydrolase activity.
@@ -56233,7 +56261,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28294" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0017040
-@@ -382938,7 +397678,9 @@
+@@ -382938,7 +397680,9 @@
  xref: MetaCyc:DHS-PHOSPHATASE-RXN
  xref: RHEA:27514
  is_a: GO:0016791 ! phosphatase activity
@@ -56243,7 +56271,7 @@
  created_by: mah
  creation_date: 2009-07-02T02:13:49Z
  
-@@ -383381,6 +398123,7 @@
+@@ -383381,6 +398125,7 @@
  xref: RHEA:58360
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -56251,7 +56279,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29801" xsd:anyURI
  created_by: mah
  creation_date: 2009-07-09T11:42:07Z
-@@ -383434,6 +398177,7 @@
+@@ -383434,6 +398179,7 @@
  synonym: "protoporphyrinogen-IX:menaquinone oxidoreductase activity" EXACT [GOC:mah]
  is_a: GO:0016635 ! oxidoreductase activity, acting on the CH-CH group of donors, quinone or related compound as acceptor
  is_a: GO:0070818 ! protoporphyrinogen oxidase activity
@@ -56259,7 +56287,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24056" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: mah
-@@ -384454,6 +399198,8 @@
+@@ -384454,6 +399200,8 @@
  is_a: GO:0015297 ! antiporter activity
  is_a: GO:0015556 ! C4-dicarboxylate transmembrane transporter activity
  is_a: GO:0022858 ! alanine transmembrane transporter activity
@@ -56268,7 +56296,7 @@
  created_by: mah
  creation_date: 2009-09-04T03:44:15Z
  
-@@ -384747,7 +399493,7 @@
+@@ -384747,7 +399495,7 @@
  synonym: "co-translational protein tagging" EXACT [GOC:jh2, GOC:jsg]
  synonym: "cotranslational protein tagging" EXACT [GOC:mah]
  synonym: "protein modification by trans-translation" EXACT [GOC:mah]
@@ -56277,7 +56305,7 @@
  relationship: has_part GO:0070929 ! trans-translation
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/8059" xsd:anyURI
  created_by: mah
-@@ -384894,7 +399640,7 @@
+@@ -384894,7 +399642,7 @@
  namespace: biological_process
  def: "The directed killing of a symbiont target cell by a neutrophil. The symbiont is defined as the smaller of the organisms involved in a symbiotic interaction." [GOC:add, ISBN:0781765196]
  synonym: "neutrophil mediated killing of symbiont cell" EXACT []
@@ -56286,7 +56314,7 @@
  is_a: GO:0070942 ! neutrophil mediated cytotoxicity
  created_by: mah
  creation_date: 2009-10-01T01:52:03Z
-@@ -384962,9 +399708,6 @@
+@@ -384962,9 +399710,6 @@
  name: regulation of neutrophil mediated killing of symbiont cell
  namespace: biological_process
  def: "Any process that modulates the rate, frequency or extent of neutrophil mediated killing of a symbiont cell, the directed killing of a symbiont target cell by a neutrophil." [GOC:add, GOC:mah]
@@ -56296,7 +56324,7 @@
  is_a: GO:0043903 ! regulation of biological process involved in symbiotic interaction
  is_a: GO:0051709 ! regulation of killing of cells of another organism
  is_a: GO:0070948 ! regulation of neutrophil mediated cytotoxicity
-@@ -385051,9 +399794,6 @@
+@@ -385051,9 +399796,6 @@
  synonym: "down-regulation of neutrophil mediated killing of symbiont cell" EXACT [GOC:mah]
  synonym: "downregulation of neutrophil mediated killing of symbiont cell" EXACT [GOC:mah]
  synonym: "inhibition of neutrophil mediated killing of symbiont cell" NARROW [GOC:mah]
@@ -56306,7 +56334,7 @@
  is_a: GO:0051711 ! negative regulation of killing of cells of another organism
  is_a: GO:0070949 ! regulation of neutrophil mediated killing of symbiont cell
  is_a: GO:0070954 ! negative regulation of neutrophil mediated cytotoxicity
-@@ -385161,9 +399901,6 @@
+@@ -385161,9 +399903,6 @@
  synonym: "up regulation of neutrophil mediated killing of symbiont cell" EXACT [GOC:mah]
  synonym: "up-regulation of neutrophil mediated killing of symbiont cell" EXACT [GOC:mah]
  synonym: "upregulation of neutrophil mediated killing of symbiont cell" EXACT [GOC:mah]
@@ -56316,7 +56344,7 @@
  is_a: GO:0051712 ! positive regulation of killing of cells of another organism
  is_a: GO:0070949 ! regulation of neutrophil mediated killing of symbiont cell
  is_a: GO:0070960 ! positive regulation of neutrophil mediated cytotoxicity
-@@ -385514,6 +400251,9 @@
+@@ -385514,6 +400253,9 @@
  xref: MetaCyc:RXN-11734
  xref: RHEA:14477
  is_a: GO:0003995 ! acyl-CoA dehydrogenase activity
@@ -56326,7 +56354,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23273" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26445" xsd:anyURI
  created_by: mah
-@@ -386917,6 +401657,9 @@
+@@ -386917,6 +401659,9 @@
  xref: MetaCyc:RXN0-4181
  xref: RHEA:24902
  is_a: GO:0008081 ! phosphoric diester hydrolase activity
@@ -56336,7 +56364,7 @@
  created_by: mah
  creation_date: 2009-11-13T02:10:39Z
  
-@@ -387314,6 +402057,9 @@
+@@ -387314,6 +402059,9 @@
  xref: EC:6.3.2.29
  xref: RHEA:13277
  is_a: GO:0043860 ! cyanophycin synthetase activity
@@ -56346,7 +56374,7 @@
  created_by: mah
  creation_date: 2009-11-17T05:18:17Z
  
-@@ -387325,6 +402071,9 @@
+@@ -387325,6 +402073,9 @@
  xref: EC:6.3.2.30
  xref: RHEA:23888
  is_a: GO:0043860 ! cyanophycin synthetase activity
@@ -56356,7 +56384,7 @@
  created_by: mah
  creation_date: 2009-11-17T05:19:54Z
  
-@@ -387366,9 +402115,17 @@
+@@ -387366,9 +402117,17 @@
  synonym: "RNA trimethylguanosine synthase activity" EXACT []
  synonym: "small nuclear RNA methyltransferase activity" RELATED [GOC:rl]
  synonym: "snRNA methyltransferase activity" RELATED [GOC:rl]
@@ -56374,7 +56402,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25717" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26934" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28404" xsd:anyURI
-@@ -387458,8 +402215,15 @@
+@@ -387458,8 +402217,15 @@
  id: GO:0071172
  name: dihydromonapterin reductase activity
  namespace: molecular_function
@@ -56391,7 +56419,7 @@
  created_by: mah
  creation_date: 2009-11-23T11:10:17Z
  
-@@ -388547,17 +403311,17 @@
+@@ -388547,17 +403313,17 @@
  
  [Term]
  id: GO:0071268
@@ -56415,7 +56443,7 @@
  created_by: mah
  creation_date: 2009-12-09T05:32:48Z
  
-@@ -388570,9 +403334,11 @@
+@@ -388570,9 +403336,11 @@
  synonym: "L-homocysteine biosynthesis" EXACT [GOC:mah]
  synonym: "L-homocysteine formation" EXACT [GOC:mah]
  synonym: "L-homocysteine synthesis" EXACT [GOC:mah]
@@ -56428,7 +56456,7 @@
  created_by: mah
  creation_date: 2009-12-09T05:36:37Z
  
-@@ -390348,6 +405114,8 @@
+@@ -390348,6 +405116,8 @@
  xref: RHEA:62520
  is_a: GO:0008170 ! N-methyltransferase activity
  is_a: GO:0016434 ! rRNA (cytosine) methyltransferase activity
@@ -56437,7 +56465,7 @@
  created_by: mah
  creation_date: 2009-12-15T03:46:52Z
  
-@@ -391474,11 +406242,17 @@
+@@ -391474,11 +406244,17 @@
  id: GO:0071518
  name: autoinducer-2 kinase activity
  namespace: molecular_function
@@ -56456,7 +56484,7 @@
  created_by: mah
  creation_date: 2010-01-06T05:08:17Z
  
-@@ -391530,6 +406304,9 @@
+@@ -391530,6 +406306,9 @@
  xref: MetaCyc:URUR-RXN
  xref: RHEA:25241
  is_a: GO:0016813 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amidines
@@ -56466,7 +56494,7 @@
  created_by: mah
  creation_date: 2010-01-07T01:43:58Z
  
-@@ -391975,6 +406752,9 @@
+@@ -391975,6 +406754,9 @@
  xref: RHEA:60224
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
  is_a: GO:0141052 ! histone H3 demethylase activity
@@ -56476,7 +56504,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: mah
  creation_date: 2010-01-15T11:33:17Z
-@@ -394660,10 +409440,17 @@
+@@ -394660,10 +409442,17 @@
  synonym: "aldehyde decarbonylase activity" EXACT []
  synonym: "decarbonylase activity" EXACT [GOC:kad, GOC:mah]
  xref: EC:4.1.99.5
@@ -56494,7 +56522,7 @@
  created_by: mah
  creation_date: 2010-04-01T12:02:50Z
  
-@@ -395799,8 +410586,10 @@
+@@ -395799,8 +410588,10 @@
  xref: EC:2.1.1.244
  is_a: GO:0008276 ! protein methyltransferase activity
  is_a: GO:0008757 ! S-adenosylmethionine-dependent methyltransferase activity
@@ -56505,7 +56533,7 @@
  created_by: mah
  creation_date: 2010-09-13T04:53:57Z
  
-@@ -396545,7 +411334,6 @@
+@@ -396545,7 +411336,6 @@
  def: "Binding to the oxidized form, FAD, of flavin-adenine dinucleotide, the coenzyme or the prosthetic group of various flavoprotein oxidoreductase enzymes." [GOC:mah]
  synonym: "oxidized flavin adenine dinucleotide binding" EXACT [GOC:mah]
  synonym: "oxidized flavine-adenine dinucleotide binding" EXACT [GOC:mah]
@@ -56513,7 +56541,7 @@
  is_a: GO:0050660 ! flavin adenine dinucleotide binding
  created_by: mah
  creation_date: 2010-10-07T12:30:28Z
-@@ -396584,11 +411372,12 @@
+@@ -396584,11 +411374,12 @@
  id: GO:0071953
  name: elastic fiber
  namespace: cellular_component
@@ -56528,7 +56556,7 @@
  created_by: mah
  creation_date: 2010-10-11T11:44:57Z
  
-@@ -396735,6 +411524,8 @@
+@@ -396735,6 +411526,8 @@
  xref: MetaCyc:RXN0-5122
  xref: RHEA:29923
  is_a: GO:0008920 ! lipopolysaccharide heptosyltransferase activity
@@ -56537,7 +56565,7 @@
  created_by: mah
  creation_date: 2010-10-14T05:13:31Z
  
-@@ -396746,6 +411537,8 @@
+@@ -396746,6 +411539,8 @@
  xref: MetaCyc:RXN0-5127
  xref: RHEA:30019
  is_a: GO:0008920 ! lipopolysaccharide heptosyltransferase activity
@@ -56546,7 +56574,7 @@
  created_by: mah
  creation_date: 2010-10-14T05:15:22Z
  
-@@ -400905,13 +415698,15 @@
+@@ -400905,13 +415700,15 @@
  
  [Term]
  id: GO:0072344
@@ -56565,7 +56593,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/6481" xsd:anyURI
  created_by: mah
  creation_date: 2010-11-10T11:54:26Z
-@@ -401032,6 +415827,7 @@
+@@ -401032,6 +415829,7 @@
  synonym: "histone-threonine kinase activity (H3-T3 specific)" EXACT [GOC:mah]
  is_a: GO:0004674 ! protein serine/threonine kinase activity
  is_a: GO:0140996 ! histone H3 kinase activity
@@ -56573,7 +56601,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: mah
-@@ -401212,18 +416008,17 @@
+@@ -401212,18 +416010,17 @@
  
  [Term]
  id: GO:0072371
@@ -56596,7 +56624,7 @@
  created_by: mah
  creation_date: 2010-11-16T03:42:59Z
  
-@@ -401245,7 +416040,16 @@
+@@ -401245,7 +416042,16 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: alpha-carotene + O2 + reduced [NADPH--hemoprotein reductase] = alpha-cryptoxanthin + H(+) + H2O + oxidized [NADPH--hemoprotein reductase]. Zeinoxanthin may also be used as the substrate, in which case lutein is produced." [EC:1.14.14.158, PMID:8837513]
  xref: EC:1.14.14.158
@@ -56613,7 +56641,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28365" xsd:anyURI
  created_by: mah
  creation_date: 2010-11-19T03:57:55Z
-@@ -402490,6 +417294,7 @@
+@@ -402490,6 +417296,7 @@
  synonym: "Rho-associated protein kinase activity" EXACT [GOC:ecd]
  synonym: "ROCK kinase activity" EXACT [GOC:ecd]
  is_a: GO:0004674 ! protein serine/threonine kinase activity
@@ -56621,7 +56649,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: mah
  creation_date: 2010-12-22T11:07:29Z
-@@ -403167,7 +417972,9 @@
+@@ -403167,7 +417974,9 @@
  def: "Catalysis of the reaction: a 17-beta-hydroxysteroid + NADP+ = a 17-oxosteroid + NADPH + H+." [GOC:kad, PMID:17074428]
  xref: RHEA:69284
  is_a: GO:0033764 ! steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -56631,7 +56659,7 @@
  created_by: mah
  creation_date: 2011-02-07T01:54:21Z
  
-@@ -403204,6 +418011,8 @@
+@@ -403204,6 +418013,8 @@
  xref: MetaCyc:RXN0-363
  xref: RHEA:27994
  is_a: GO:0008477 ! purine nucleosidase activity
@@ -56640,7 +56668,7 @@
  created_by: mah
  creation_date: 2011-02-08T04:38:31Z
  
-@@ -403535,12 +418344,15 @@
+@@ -403535,12 +418346,15 @@
  
  [Term]
  id: GO:0072655
@@ -56659,7 +56687,7 @@
  created_by: mah
  creation_date: 2011-02-14T02:28:54Z
  
-@@ -408513,8 +423325,10 @@
+@@ -408513,8 +423327,10 @@
  xref: MetaCyc:RXN-17884
  xref: RHEA:78371
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -56670,7 +56698,7 @@
  
  [Term]
  id: GO:0080008
-@@ -408553,6 +423367,9 @@
+@@ -408553,6 +423369,9 @@
  xref: MetaCyc:RXN-9685
  xref: RHEA:31987
  is_a: GO:0031559 ! oxidosqualene cyclase activity
@@ -56680,7 +56708,7 @@
  
  [Term]
  id: GO:0080012
-@@ -408567,10 +423384,15 @@
+@@ -408567,10 +423386,15 @@
  id: GO:0080013
  name: (E,E)-geranyllinalool synthase activity
  namespace: molecular_function
@@ -56697,7 +56725,7 @@
  
  [Term]
  id: GO:0080014
-@@ -408591,7 +423413,9 @@
+@@ -408591,7 +423415,9 @@
  xref: RHEA:68636
  is_a: GO:0009975 ! cyclase activity
  is_a: GO:0010333 ! terpene synthase activity
@@ -56707,7 +56735,7 @@
  
  [Term]
  id: GO:0080016
-@@ -408603,6 +423427,9 @@
+@@ -408603,6 +423429,9 @@
  xref: RHEA:28294
  is_a: GO:0009975 ! cyclase activity
  is_a: GO:0010334 ! sesquiterpene synthase activity
@@ -56717,7 +56745,7 @@
  
  [Term]
  id: GO:0080017
-@@ -408614,6 +423441,9 @@
+@@ -408614,6 +423443,9 @@
  xref: RHEA:31895
  is_a: GO:0009975 ! cyclase activity
  is_a: GO:0010334 ! sesquiterpene synthase activity
@@ -56727,7 +56755,7 @@
  
  [Term]
  id: GO:0080018
-@@ -408631,8 +423461,11 @@
+@@ -408631,8 +423463,11 @@
  synonym: "fatty acyl CoA reductase (alcohol-forming) activity" EXACT []
  synonym: "fatty acyl-CoA reductase (alcohol-forming) activity" EXACT [GOC:mah]
  synonym: "fatty-acyl-CoA reductase (alcohol-forming) activity" RELATED []
@@ -56739,7 +56767,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24250" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26445" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29086" xsd:anyURI
-@@ -408678,6 +423511,9 @@
+@@ -408678,6 +423513,9 @@
  xref: MetaCyc:RXN-7699
  xref: RHEA:26526
  is_a: GO:0018812 ! 3-hydroxyacyl-CoA dehydratase activity
@@ -56749,7 +56777,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24738" xsd:anyURI
  
  [Term]
-@@ -408749,6 +423585,8 @@
+@@ -408749,6 +423587,8 @@
  xref: MetaCyc:RXN-10711
  xref: RHEA:32919
  is_a: GO:0052689 ! carboxylic ester hydrolase activity
@@ -56758,7 +56786,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21843" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
-@@ -408764,6 +423602,8 @@
+@@ -408764,6 +423604,8 @@
  xref: MetaCyc:RXNQT-4366
  xref: RHEA:33611
  is_a: GO:0052689 ! carboxylic ester hydrolase activity
@@ -56767,7 +56795,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -408777,6 +423617,8 @@
+@@ -408777,6 +423619,8 @@
  xref: MetaCyc:RXN-10767
  xref: RHEA:55372
  is_a: GO:0052689 ! carboxylic ester hydrolase activity
@@ -56776,7 +56804,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -408861,17 +423703,22 @@
+@@ -408861,17 +423705,22 @@
  
  [Term]
  id: GO:0080041
@@ -56803,7 +56831,7 @@
  
  [Term]
  id: GO:0080043
-@@ -408914,7 +423761,10 @@
+@@ -408914,7 +423763,10 @@
  xref: MetaCyc:RXNQT-4141
  xref: RHEA:27698
  is_a: GO:0070568 ! guanylyltransferase activity
@@ -56814,7 +56842,7 @@
  
  [Term]
  id: GO:0080048
-@@ -408928,7 +423778,10 @@
+@@ -408928,7 +423780,10 @@
  xref: MetaCyc:RXN-12486
  xref: RHEA:30387
  is_a: GO:0070568 ! guanylyltransferase activity
@@ -56825,7 +56853,7 @@
  
  [Term]
  id: GO:0080049
-@@ -408938,7 +423791,9 @@
+@@ -408938,7 +423793,9 @@
  xref: MetaCyc:RXN-1439
  xref: RHEA:47248
  is_a: GO:0016632 ! oxidoreductase activity, acting on the CH-CH group of donors, cytochrome as acceptor
@@ -56835,7 +56863,7 @@
  
  [Term]
  id: GO:0080050
-@@ -409042,6 +423897,7 @@
+@@ -409042,6 +423899,7 @@
  xref: MetaCyc:RXN-1404
  xref: RHEA:45776
  is_a: GO:0000257 ! nitrilase activity
@@ -56843,7 +56871,7 @@
  created_by: dhl
  creation_date: 2009-04-13T03:30:42Z
  
-@@ -409223,7 +424079,9 @@
+@@ -409223,7 +424081,9 @@
  xref: MetaCyc:RXN-10773
  xref: RHEA:30679
  is_a: GO:0008422 ! beta-glucosidase activity
@@ -56853,7 +56881,7 @@
  created_by: dhl
  creation_date: 2009-04-14T04:07:16Z
  
-@@ -409390,6 +424248,9 @@
+@@ -409390,6 +424250,9 @@
  xref: MetaCyc:RXN-10139
  xref: RHEA:27586
  is_a: GO:0070529 ! L-tryptophan aminotransferase activity
@@ -56863,7 +56891,7 @@
  created_by: dhl
  creation_date: 2009-04-23T03:45:23Z
  
-@@ -409402,6 +424263,7 @@
+@@ -409402,6 +424265,7 @@
  synonym: "L-tyrosine:pyruvate aminotransferase activity" EXACT []
  xref: MetaCyc:RXN3O-4157
  is_a: GO:0008793 ! aromatic-amino-acid transaminase activity
@@ -56871,7 +56899,7 @@
  created_by: dhl
  creation_date: 2009-04-23T03:47:53Z
  
-@@ -409612,6 +424474,7 @@
+@@ -409612,6 +424476,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: a brassinosteroid + 3'-phosphoadenosine-5'-phosphosulfate = sulfated brassinosteroid + adenosine-3',5'-diphosphate. This reaction is the transfer of a sulfate group to the hydroxyl group of a brassinosteroid acceptor, producing the sulfated brassinosteroid derivative." [PMID:10409637, PMID:17039368]
  is_a: GO:0008146 ! sulfotransferase activity
@@ -56879,7 +56907,7 @@
  created_by: dhl
  creation_date: 2009-04-27T03:39:36Z
  
-@@ -409680,9 +424543,18 @@
+@@ -409680,9 +424545,18 @@
  synonym: "jasmonic acid-amino synthetase activity" EXACT []
  synonym: "jasmonyl-amino synthetase activity" EXACT []
  xref: EC:6.3.2.52
@@ -56898,7 +56926,7 @@
  created_by: dhl
  creation_date: 2009-04-28T04:08:35Z
  
-@@ -409761,7 +424633,11 @@
+@@ -409761,7 +424635,11 @@
  xref: MetaCyc:RXN-10814
  xref: RHEA:25152
  is_a: GO:0008793 ! aromatic-amino-acid transaminase activity
@@ -56910,7 +56938,7 @@
  created_by: dhl
  creation_date: 2009-04-29T03:42:47Z
  
-@@ -409780,8 +424656,15 @@
+@@ -409780,8 +424658,15 @@
  synonym: "OHJA sulfotransferase activity" EXACT []
  xref: EC:2.8.2.39
  xref: MetaCyc:RXN-10451
@@ -56926,7 +56954,7 @@
  created_by: dhl
  creation_date: 2009-04-29T03:47:12Z
  
-@@ -409931,11 +424814,19 @@
+@@ -409931,11 +424816,19 @@
  id: GO:0080146
  name: L-cysteine desulfhydrase activity
  namespace: molecular_function
@@ -56947,7 +56975,7 @@
  created_by: dhl
  creation_date: 2010-01-27T04:50:43Z
  
-@@ -409979,6 +424870,8 @@
+@@ -409979,6 +424872,8 @@
  xref: MetaCyc:RXN-6722
  xref: RHEA:36099
  is_a: GO:0008171 ! O-methyltransferase activity
@@ -56956,7 +56984,7 @@
  created_by: dhl
  creation_date: 2010-03-26T04:19:39Z
  
-@@ -411327,13 +426220,13 @@
+@@ -411327,13 +426222,13 @@
  
  [Term]
  id: GO:0086037
@@ -56976,7 +57004,7 @@
  created_by: tb
  creation_date: 2011-11-11T03:33:44Z
  
-@@ -412208,6 +427101,8 @@
+@@ -412208,6 +427103,8 @@
  xref: EC:2.7.8.31
  xref: RHEA:28126
  is_a: GO:0016780 ! phosphotransferase activity, for other substituted phosphate groups
@@ -56985,7 +57013,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28324" xsd:anyURI
  
  [Term]
-@@ -412293,6 +427188,9 @@
+@@ -412293,6 +427190,9 @@
  xref: EC:1.1.1.336
  xref: RHEA:25780
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -56995,7 +57023,7 @@
  
  [Term]
  id: GO:0089715
-@@ -412306,7 +427204,9 @@
+@@ -412306,7 +427206,9 @@
  xref: MetaCyc:RXN0-7114
  xref: RHEA:70027
  is_a: GO:0016426 ! tRNA (adenine) methyltransferase activity
@@ -57005,7 +57033,7 @@
  
  [Term]
  id: GO:0089716
-@@ -414072,29 +428972,30 @@
+@@ -414072,29 +428974,30 @@
  
  [Term]
  id: GO:0090151
@@ -57048,7 +57076,7 @@
  created_by: tb
  creation_date: 2009-12-08T03:18:51Z
  
-@@ -414106,7 +429007,6 @@
+@@ -414106,7 +429009,6 @@
  is_a: GO:0010556 ! regulation of macromolecule biosynthetic process
  is_a: GO:0044087 ! regulation of cellular component biogenesis
  is_a: GO:0046890 ! regulation of lipid biosynthetic process
@@ -57056,7 +57084,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0030148 ! sphingolipid biosynthetic process
  relationship: regulates GO:0030148 ! sphingolipid biosynthetic process
-@@ -414165,14 +429065,13 @@
+@@ -414165,14 +429067,13 @@
  
  [Term]
  id: GO:0090159
@@ -57076,7 +57104,7 @@
  created_by: tb
  creation_date: 2009-12-08T08:31:13Z
  
-@@ -417282,7 +432181,10 @@
+@@ -417282,7 +432183,10 @@
  xref: MetaCyc:RXN-12359
  xref: RHEA:32139
  is_a: GO:0016405 ! CoA-ligase activity
@@ -57087,7 +57115,7 @@
  created_by: tb
  creation_date: 2011-06-10T01:51:16Z
  
-@@ -417346,7 +432248,10 @@
+@@ -417346,7 +432250,10 @@
  xref: EC:1.17.7.2
  xref: RHEA:53544
  is_a: GO:0052592 ! oxidoreductase activity, acting on CH or CH2 groups, with an iron-sulfur protein as acceptor
@@ -57098,7 +57126,7 @@
  created_by: tb
  creation_date: 2011-10-03T12:08:27Z
  
-@@ -417355,7 +432260,7 @@
+@@ -417355,7 +432262,7 @@
  name: nicotinate transmembrane transporter activity
  namespace: molecular_function
  def: "Enables the transfer of nicotinate from one side of a membrane to the other." [GOC:tb]
@@ -57107,7 +57135,7 @@
  is_a: GO:0008028 ! monocarboxylic acid transmembrane transporter activity
  relationship: part_of GO:2001142 ! nicotinate transport
  created_by: tb
-@@ -417549,7 +432454,7 @@
+@@ -417549,7 +432456,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: ATP + palmitic acid + CoA = AMP + diphosphate + palmitoyl-CoA." [GOC:al, PMID:18071249]
  synonym: "palmitoyl-CoA synthetase activity" EXACT []
@@ -57116,7 +57144,7 @@
  is_a: GO:0004467 ! long-chain fatty acid-CoA ligase activity
  created_by: tb
  creation_date: 2012-07-25T03:31:31Z
-@@ -417598,9 +432503,16 @@
+@@ -417598,9 +432505,16 @@
  id: GO:0090438
  name: camelliol C synthase activity
  namespace: molecular_function
@@ -57134,7 +57162,7 @@
  created_by: tb
  creation_date: 2012-08-08T15:41:45Z
  
-@@ -417611,6 +432523,7 @@
+@@ -417611,6 +432525,7 @@
  def: "Catalyzes the reaction: 7-hydroxylauroyl-CoA + 3 malonyl-CoA + 2 H+ = 2-(8-hydroxy-2-oxotridecyl)-6-oxopyran-4-olate + 3 CO2 + 4 coenzyme A." [MetaCyc:RXN-16407, PMID:21193570]
  xref: MetaCyc:RXN-16407
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -57142,7 +57170,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28324" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28523" xsd:anyURI
  created_by: tb
-@@ -417710,6 +432623,9 @@
+@@ -417710,6 +432625,9 @@
  xref: EC:2.3.1.198
  xref: RHEA:33559
  is_a: GO:0008374 ! O-acyltransferase activity
@@ -57152,7 +57180,7 @@
  created_by: tb
  creation_date: 2012-08-31T09:23:12Z
  
-@@ -417897,6 +432813,9 @@
+@@ -417897,6 +432815,9 @@
  xref: MetaCyc:RXN-11354
  xref: RHEA:30967
  is_a: GO:0016859 ! cis-trans isomerase activity
@@ -57162,7 +57190,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28324" xsd:anyURI
  created_by: tb
  creation_date: 2012-09-24T16:29:49Z
-@@ -418009,7 +432928,10 @@
+@@ -418009,7 +432930,10 @@
  xref: EC:2.1.1.386
  xref: RHEA:37887
  is_a: GO:0062105 ! RNA 2'-O-methyltransferase activity
@@ -57173,7 +57201,7 @@
  created_by: tb
  creation_date: 2012-10-15T16:32:49Z
  
-@@ -418046,7 +432968,10 @@
+@@ -418046,7 +432970,10 @@
  xref: KEGG_REACTION:R08160
  xref: RHEA:33279
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -57184,7 +57212,7 @@
  created_by: tb
  creation_date: 2012-10-16T16:22:19Z
  
-@@ -418159,6 +433084,9 @@
+@@ -418159,6 +433086,9 @@
  xref: MetaCyc:RXN-11483
  xref: RHEA:42700
  is_a: GO:0052689 ! carboxylic ester hydrolase activity
@@ -57194,7 +57222,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28324" xsd:anyURI
  created_by: tb
  creation_date: 2012-10-19T12:10:01Z
-@@ -418416,6 +433344,7 @@
+@@ -418416,6 +433346,7 @@
  synonym: "cytochrome-b5 reductase activity" BROAD []
  xref: RHEA:64576
  is_a: GO:0004128 ! cytochrome-b5 reductase activity, acting on NAD(P)H
@@ -57202,7 +57230,7 @@
  created_by: tb
  creation_date: 2013-01-11T12:21:41Z
  
-@@ -418436,6 +433365,8 @@
+@@ -418436,6 +433367,8 @@
  xref: MetaCyc:CYTOCHROME-B5-REDUCTASE-RXN
  xref: RHEA:46680
  is_a: GO:0004128 ! cytochrome-b5 reductase activity, acting on NAD(P)H
@@ -57211,7 +57239,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30105" xsd:anyURI
  created_by: tb
  creation_date: 2013-01-11T12:21:50Z
-@@ -418696,6 +433627,9 @@
+@@ -418696,6 +433629,9 @@
  xref: RHEA:38583
  is_a: GO:0008525 ! phosphatidylcholine transporter activity
  is_a: GO:0140328 ! floppase activity
@@ -57221,7 +57249,7 @@
  created_by: tb
  creation_date: 2013-10-24T16:07:20Z
  
-@@ -418710,6 +433644,7 @@
+@@ -418710,6 +433646,7 @@
  synonym: "phosphatidylethanolamine flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
  synonym: "phosphatidylethanolamine-translocating ATPase activity" RELATED []
  is_a: GO:0140333 ! glycerophospholipid flippase activity
@@ -57229,7 +57257,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28937" xsd:anyURI
  created_by: tb
  creation_date: 2013-10-24T16:07:20Z
-@@ -418726,6 +433661,9 @@
+@@ -418726,6 +433663,9 @@
  xref: RHEA:38567
  is_a: GO:0005548 ! phospholipid transporter activity
  is_a: GO:0140328 ! floppase activity
@@ -57239,7 +57267,7 @@
  created_by: tb
  creation_date: 2013-10-24T16:07:20Z
  
-@@ -418766,7 +433704,10 @@
+@@ -418766,7 +433706,10 @@
  xref: Reactome:R-HSA-5358494 "DPH2 transfers a 3-amino-3-carboxypropyl group from AdoMet to residue 715 of nascent EEF2"
  xref: RHEA:36783
  is_a: GO:0016765 ! transferase activity, transferring alkyl or aryl (other than methyl) groups
@@ -57250,7 +57278,7 @@
  created_by: tb
  creation_date: 2014-03-27T14:58:50Z
  
-@@ -419086,7 +434027,7 @@
+@@ -419086,7 +434029,7 @@
  
  [Term]
  id: GO:0090595
@@ -57259,7 +57287,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: acetyl-CoA + L-lysine = CoA + H+ + N(6)-acetyl-L-lysine." [RHEA:69476]
  synonym: "acetyl-CoA:L-lysine N6-acetyltransferase" EXACT []
-@@ -419094,6 +434035,9 @@
+@@ -419094,6 +434037,9 @@
  xref: MetaCyc:LYSACET-RXN
  xref: RHEA:69476
  is_a: GO:0140085 ! L-amino-acid N-acetyltransferase activity
@@ -57269,7 +57297,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28324" xsd:anyURI
  created_by: tb
  creation_date: 2014-08-21T17:19:06Z
-@@ -419251,7 +434195,10 @@
+@@ -419251,7 +434197,10 @@
  xref: RHEA:22908
  is_a: GO:0016814 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amidines
  is_a: GO:0019239 ! deaminase activity
@@ -57280,7 +57308,7 @@
  created_by: tb
  creation_date: 2014-10-23T15:46:42Z
  
-@@ -419264,6 +434211,8 @@
+@@ -419264,6 +434213,8 @@
  xref: RHEA:42892
  is_a: GO:0016814 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amidines
  is_a: GO:0019239 ! deaminase activity
@@ -57289,7 +57317,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19833#top" xsd:anyURI
  created_by: tb
  creation_date: 2014-10-23T15:59:38Z
-@@ -419277,7 +434226,10 @@
+@@ -419277,7 +434228,10 @@
  xref: RHEA:25025
  is_a: GO:0016814 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amidines
  is_a: GO:0019239 ! deaminase activity
@@ -57300,7 +57328,7 @@
  created_by: tb
  creation_date: 2014-10-23T15:59:38Z
  
-@@ -420247,6 +435199,9 @@
+@@ -420247,6 +435201,9 @@
  xref: MetaCyc:RXN-10067
  xref: RHEA:40955
  is_a: GO:0016831 ! carboxy-lyase activity
@@ -57310,7 +57338,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28324" xsd:anyURI
  created_by: tb
  creation_date: 2016-10-21T15:59:34Z
-@@ -420261,7 +435216,10 @@
+@@ -420261,7 +435218,10 @@
  xref: MetaCyc:RXN0-5187
  xref: RHEA:35587
  is_a: GO:0016791 ! phosphatase activity
@@ -57321,7 +57349,7 @@
  created_by: tb
  creation_date: 2016-10-21T16:27:34Z
  
-@@ -420484,15 +435442,15 @@
+@@ -420484,15 +435444,15 @@
  id: GO:0090733
  name: tenascin complex
  namespace: cellular_component
@@ -57340,7 +57368,7 @@
  created_by: tb
  creation_date: 2017-02-01T16:29:55Z
  
-@@ -420658,6 +435616,8 @@
+@@ -420658,6 +435618,8 @@
  xref: MetaCyc:RXN-8620
  xref: RHEA:13545
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -57349,7 +57377,7 @@
  created_by: pr
  creation_date: 2011-03-16T04:37:20Z
  
-@@ -420843,6 +435803,8 @@
+@@ -420843,6 +435805,8 @@
  def: "Catalysis of the reaction: D-fructose-6-phosphate = dihydroxyacetone + D-glyceraldehyde-3-phosphate." [GOC:imk, PMID:11120740, PMID:21290439]
  xref: RHEA:28002
  is_a: GO:0016832 ! aldehyde-lyase activity
@@ -57358,7 +57386,7 @@
  created_by: pr
  creation_date: 2011-03-29T04:54:05Z
  
-@@ -421184,6 +436146,7 @@
+@@ -421184,6 +436148,7 @@
  synonym: "L-glutamate formation" EXACT []
  synonym: "L-glutamate synthesis" EXACT []
  is_a: GO:0006537 ! glutamate biosynthetic process
@@ -57366,7 +57394,7 @@
  created_by: pr
  creation_date: 2011-05-24T04:30:38Z
  
-@@ -422234,6 +437197,7 @@
+@@ -422234,6 +437199,7 @@
  comment: The reason for obsoletion is that this term represents a GO-CAM model.
  synonym: "caspase activity" BROAD []
  synonym: "metacaspase activity" NARROW [GOC:mtg_apoptosis]
@@ -57374,7 +57402,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28468" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0004197
-@@ -422295,6 +437259,7 @@
+@@ -422295,6 +437261,7 @@
  namespace: molecular_function
  def: "OBSOLETE. Binding to an organic cyclic compound, any molecular entity that contains carbon arranged in a cyclic molecular structure." [GOC:sjw, PMID:7583672]
  comment: The reason for obsoletion is that this term was an unnecessary grouping term.
@@ -57382,7 +57410,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29143" xsd:anyURI
  is_obsolete: true
  created_by: pr
-@@ -423407,8 +438372,11 @@
+@@ -423407,8 +438374,11 @@
  comment: This enzymatic activity is usually negligible, but may become prominent when phenylalanine levels are abnormally high as in the human disease phenylketonuria (PKU).
  xref: RHEA:38351
  is_a: GO:0140175 ! (2R)-2-hydroxyacid dehydrogenase (NAD+) activity
@@ -57394,7 +57422,7 @@
  created_by: pr
  creation_date: 2012-03-07T11:39:39Z
  
-@@ -423421,6 +438389,8 @@
+@@ -423421,6 +438391,8 @@
  xref: Reactome:R-HSA-2161567 "LTB4 is oxidised to 12-oxoLTB4 by PTGR1"
  xref: RHEA:50608
  is_a: GO:0016614 ! oxidoreductase activity, acting on CH-OH group of donors
@@ -57403,7 +57431,7 @@
  created_by: pr
  creation_date: 2012-03-07T02:07:41Z
  
-@@ -423435,6 +438405,8 @@
+@@ -423435,6 +438407,8 @@
  xref: RHEA:48668
  is_a: GO:0004497 ! monooxygenase activity
  is_a: GO:0016614 ! oxidoreductase activity, acting on CH-OH group of donors
@@ -57412,7 +57440,7 @@
  created_by: pr
  creation_date: 2012-03-07T03:37:53Z
  
-@@ -423447,6 +438419,8 @@
+@@ -423447,6 +438421,8 @@
  xref: Reactome:R-HSA-2161979 "20cho-LTB4 is oxidised to 20cooh-LTB4 by ALDH"
  xref: RHEA:48672
  is_a: GO:0004497 ! monooxygenase activity
@@ -57421,7 +57449,7 @@
  created_by: pr
  creation_date: 2012-03-07T03:40:05Z
  
-@@ -423456,6 +438430,7 @@
+@@ -423456,6 +438432,7 @@
  namespace: molecular_function
  def: "OBSOLETE. Catalysis of the reaction: leukotriene A4 = eoxin A4." [GOC:mw, PMID:18184802, PMID:18647347]
  comment: The reason for obsoletion is that this term is equivalent to leukotriene-C4 synthase activity.
@@ -57429,7 +57457,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29695" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0004464
-@@ -423528,6 +438503,9 @@
+@@ -423528,6 +438505,9 @@
  xref: KEGG_REACTION:R09838
  xref: RHEA:32171
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -57439,7 +57467,7 @@
  created_by: pr
  creation_date: 2012-03-13T09:22:47Z
  
-@@ -423569,8 +438547,11 @@
+@@ -423569,8 +438549,11 @@
  xref: Reactome:R-HSA-2162253 "PDSS1,2 ligates FPP to IPPP"
  xref: RHEA:27802
  is_a: GO:0120531 ! prenyl diphosphate synthase activity
@@ -57451,7 +57479,7 @@
  created_by: pr
  creation_date: 2012-03-20T01:00:23Z
  
-@@ -424560,38 +439541,42 @@
+@@ -424560,38 +439543,42 @@
  synonym: "protein O-GlcNAc transferase activity" EXACT []
  synonym: "UDP-N-acetyl-D-glucosamine:protein-O-beta-N-acetyl-D-glucosaminyl transferase" EXACT []
  xref: EC:2.4.1.255
@@ -57508,7 +57536,7 @@
  created_by: pr
  creation_date: 2012-07-26T02:39:10Z
  
-@@ -424662,6 +439647,7 @@
+@@ -424662,6 +439649,7 @@
  synonym: "NAD-dependent histone H3K18 deacetylase activity" EXACT []
  is_a: GO:0017136 ! histone deacetylase activity, NAD-dependent
  is_a: GO:0141050 ! histone H3K deacetylase activity
@@ -57516,7 +57544,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22836" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pr
-@@ -424776,6 +439762,8 @@
+@@ -424776,6 +439764,8 @@
  xref: Reactome:R-HSA-2509793 "NUDT16 hydrolyses dIDP to dIMP"
  xref: RHEA:35211
  is_a: GO:0017110 ! nucleoside diphosphate phosphatase activity
@@ -57525,7 +57553,7 @@
  created_by: pr
  creation_date: 2012-10-11T16:04:40Z
  
-@@ -425325,7 +440313,9 @@
+@@ -425325,7 +440315,9 @@
  xref: RHEA:29303
  is_a: GO:0015141 ! succinate transmembrane transporter activity
  is_a: GO:0015295 ! solute:proton symporter activity
@@ -57535,7 +57563,7 @@
  created_by: pr
  creation_date: 2012-11-26T18:19:42Z
  
-@@ -425861,7 +440851,7 @@
+@@ -425861,7 +440853,7 @@
  name: multivesicular body, internal vesicle
  namespace: cellular_component
  def: "A membrane-bounded vesicle wholly contained within a multivesicular body." [GOC:pde, PMID:21183070]
@@ -57544,7 +57572,7 @@
  relationship: part_of GO:0005771 ! multivesicular body
  created_by: pr
  creation_date: 2013-07-08T20:34:51Z
-@@ -425871,8 +440861,7 @@
+@@ -425871,8 +440863,7 @@
  name: multivesicular body, internal vesicle membrane
  namespace: cellular_component
  def: "The lipid bilayer surrounding a multivesicular body internal vesicle." [GOC:pde, PMID:21183070]
@@ -57554,7 +57582,7 @@
  relationship: part_of GO:0097487 ! multivesicular body, internal vesicle
  created_by: pr
  creation_date: 2013-07-08T20:36:33Z
-@@ -425883,7 +440872,7 @@
+@@ -425883,7 +440874,7 @@
  namespace: cellular_component
  def: "The volume enclosed by the membrane of the multivesicular body internal vesicle." [GOC:pde, PMID:21183070]
  is_a: GO:0031983 ! vesicle lumen
@@ -57563,7 +57591,7 @@
  relationship: part_of GO:0097487 ! multivesicular body, internal vesicle
  created_by: pr
  creation_date: 2013-07-08T20:38:36Z
-@@ -427413,11 +442402,17 @@
+@@ -427413,11 +442404,17 @@
  id: GO:0097620
  name: (R)-mandelate dehydrogenase activity
  namespace: molecular_function
@@ -57583,7 +57611,7 @@
  created_by: pr
  creation_date: 2014-07-30T09:53:23Z
  
-@@ -427429,7 +442424,10 @@
+@@ -427429,7 +442426,10 @@
  comment: Acts on primary amines, and also on some secondary and tertiary amines. It differs from EC:1.4.3.21, primary amine oxidase as it can oxidize secondary and tertiary amines but not methylamine.
  synonym: "amine:oxygen oxidoreductase (deaminating) activity" EXACT []
  xref: EC:1.4.3.4
@@ -57594,7 +57622,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22282" xsd:anyURI
  created_by: pr
  creation_date: 2014-07-30T10:23:57Z
-@@ -427662,12 +442660,18 @@
+@@ -427662,12 +442662,18 @@
  id: GO:0097641
  name: alpha-ketoglutarate-dependent xanthine dioxygenase activity
  namespace: molecular_function
@@ -57615,7 +57643,7 @@
  created_by: pr
  creation_date: 2014-09-03T14:55:42Z
  
-@@ -427832,6 +442836,9 @@
+@@ -427832,6 +442838,9 @@
  xref: EC:3.1.3.97
  xref: RHEA:43532
  is_a: GO:0016791 ! phosphatase activity
@@ -57625,7 +57653,7 @@
  created_by: pr
  creation_date: 2014-09-25T11:21:39Z
  
-@@ -428221,7 +443228,9 @@
+@@ -428221,7 +443230,9 @@
  synonym: "tRNA 5-carboxymethoxyuridine methyltransferase activity" RELATED []
  xref: RHEA:54080
  is_a: GO:0016300 ! tRNA (uridine) methyltransferase activity
@@ -57635,7 +57663,7 @@
  created_by: pr
  creation_date: 2016-01-07T10:36:46Z
  
-@@ -428802,6 +443811,8 @@
+@@ -428802,6 +443813,8 @@
  def: "Catalysis of the reaction: nucleoside triphosphate + RNA(n) = diphosphate + RNA(n+1); the synthesis of RNA from ribonucleotide triphosphates in the presence of a nucleic acid template, via extension of the 5'-end." [GOC:pf, PMID:22456265, PMID:27484477, PMID:30917604]
  xref: RHEA:57528
  is_a: GO:0097747 ! RNA polymerase activity
@@ -57644,7 +57672,7 @@
  created_by: pr
  creation_date: 2016-12-02T11:51:31Z
  
-@@ -430267,6 +445278,8 @@
+@@ -430267,6 +445280,8 @@
  xref: Reactome:R-HSA-2408551 "SeMet is converted to AdoSeMet by MAT"
  xref: RHEA:31211
  is_a: GO:0016765 ! transferase activity, transferring alkyl or aryl (other than methyl) groups
@@ -57653,7 +57681,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30815" xsd:anyURI
  created_by: dos
  creation_date: 2014-04-15T15:15:03Z
-@@ -430310,6 +445323,8 @@
+@@ -430310,6 +445325,8 @@
  xref: Reactome:R-HSA-2408543 "SeCysta is hydrolysed to Sec by PXLP-K212-CTH"
  xref: RHEA:31151
  is_a: GO:0016846 ! carbon-sulfur lyase activity
@@ -57662,7 +57690,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30815" xsd:anyURI
  created_by: dos
  creation_date: 2014-04-16T11:20:00Z
-@@ -430443,6 +445458,9 @@
+@@ -430443,6 +445460,9 @@
  xref: RHEA:25041
  is_a: GO:0016785 ! selenotransferase activity
  is_a: GO:0140101 ! catalytic activity, acting on a tRNA
@@ -57672,7 +57700,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30815" xsd:anyURI
  
  [Term]
-@@ -430456,6 +445474,7 @@
+@@ -430456,6 +445476,7 @@
  xref: RHEA:34927
  is_a: GO:0015036 ! disulfide oxidoreductase activity
  is_a: GO:0016668 ! oxidoreductase activity, acting on a sulfur group of donors, NAD(P) as acceptor
@@ -57680,7 +57708,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27180" xsd:anyURI
  
  [Term]
-@@ -430503,8 +445522,11 @@
+@@ -430503,8 +445524,11 @@
  xref: EC:3.9.1.2
  xref: RHEA:43380
  is_a: GO:0004721 ! phosphoprotein phosphatase activity
@@ -57693,7 +57721,7 @@
  created_by: dos
  creation_date: 2014-04-17T17:57:39Z
  
-@@ -430650,15 +445672,16 @@
+@@ -430650,15 +445674,16 @@
  def: "A collagen trimer that forms networks." [PMID:21421911]
  is_a: GO:0005581 ! collagen trimer
  intersection_of: GO:0005581 ! collagen trimer
@@ -57713,7 +57741,7 @@
  is_a: GO:0098644 ! complex of collagen trimers
  relationship: part_of GO:0140152 ! collagenous component of interstitial matrix
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29474" xsd:anyURI
-@@ -430677,10 +445700,12 @@
+@@ -430677,10 +445702,12 @@
  
  [Term]
  id: GO:0098645
@@ -57727,7 +57755,7 @@
  
  [Term]
  id: GO:0098646
-@@ -430688,7 +445713,7 @@
+@@ -430688,7 +445715,7 @@
  namespace: cellular_component
  def: "A hexagonal shaped collagen network formed by collagen type X trimer, mostly found in the cartilage hyaline matrix, which located in the interstitial area." [PMID:21421911, PMID:34948124]
  synonym: "collagen hexagonal network" EXACT [PMID:21421911]
@@ -57736,7 +57764,7 @@
  relationship: part_of GO:0140152 ! collagenous component of interstitial matrix
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29415" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30146" xsd:anyURI
-@@ -430743,10 +445768,13 @@
+@@ -430743,10 +445770,13 @@
  
  [Term]
  id: GO:0098652
@@ -57753,7 +57781,7 @@
  
  [Term]
  id: GO:0098653
-@@ -431036,7 +446064,7 @@
+@@ -431036,7 +446066,7 @@
  
  [Term]
  id: GO:0098680
@@ -57762,7 +57790,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: nucleoside triphosphate + RNA(n) = diphosphate + RNA(n+1); the addition of a terminal nucleotide to an RNA molecule in the absence of a nucleic acid template." [GOC:BHF, GOC:BHF_telomere, GOC:dos, GOC:nc, PMID:15994230]
  is_a: GO:0016779 ! nucleotidyltransferase activity
-@@ -431233,14 +446261,13 @@
+@@ -431233,14 +446263,13 @@
  
  [Term]
  id: GO:0098697
@@ -57783,7 +57811,7 @@
  created_by: dos
  creation_date: 2017-04-04T17:11:38Z
  
-@@ -431709,7 +446736,6 @@
+@@ -431709,7 +446738,6 @@
  name: 1-phosphatidylinositol 4-kinase activator activity
  namespace: molecular_function
  def: "Binds to and increases the activity of 1-phosphatidylinositol 4-kinase." [PMID:21288895]
@@ -57791,7 +57819,7 @@
  is_a: GO:0019209 ! kinase activator activity
  relationship: positively_regulates GO:0004430 ! 1-phosphatidylinositol 4-kinase activity
  
-@@ -432419,6 +447445,7 @@
+@@ -432419,6 +447447,7 @@
  def: "Combining with a member of the bone morphogenetic protein (BMP) family, and transmitting a signal across the plasma membrane to initiate a change in cell activity." [GOC:BHF, GOC:dos]
  is_a: GO:0004675 ! transmembrane receptor protein serine/threonine kinase activity
  relationship: part_of GO:0030509 ! BMP signaling pathway
@@ -57799,7 +57827,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  
  [Term]
-@@ -432694,6 +447721,9 @@
+@@ -432694,6 +447723,9 @@
  xref: EC:4.7.1.1
  xref: RHEA:34707
  is_a: GO:0018835 ! carbon phosphorus lyase activity
@@ -57809,7 +57837,7 @@
  
  [Term]
  id: GO:0098849
-@@ -432918,16 +447948,15 @@
+@@ -432918,16 +447950,15 @@
  
  [Term]
  id: GO:0098872
@@ -57832,7 +57860,7 @@
  
  [Term]
  id: GO:0098873
-@@ -434645,6 +449674,7 @@
+@@ -434645,6 +449676,7 @@
  synonym: "ceramide-translocating ATPase activity" BROAD []
  is_a: GO:0046623 ! sphingolipid floppase activity
  relationship: part_of GO:0099040 ! ceramide translocation
@@ -57840,7 +57868,7 @@
  
  [Term]
  id: GO:0099039
-@@ -435239,7 +450269,6 @@
+@@ -435239,7 +450271,6 @@
  name: potassium channel activator activity
  namespace: molecular_function
  def: "Binds to and increases the activity of a potassium channel, resulting in its opening." [GOC:dos]
@@ -57848,7 +57876,7 @@
  is_a: GO:0015459 ! potassium channel regulator activity
  is_a: GO:0099103 ! channel activator activity
  relationship: positively_regulates GO:0005267 ! potassium channel activity
-@@ -435454,7 +450483,7 @@
+@@ -435454,7 +450485,7 @@
  id: GO:0099126
  name: transforming growth factor beta complex
  namespace: cellular_component
@@ -57857,7 +57885,7 @@
  synonym: "TGF-beta complex" EXACT []
  synonym: "TGF-beta dimer" EXACT []
  synonym: "TGFB complex" EXACT []
-@@ -435462,7 +450491,9 @@
+@@ -435462,7 +450493,9 @@
  synonym: "TGFbeta complex" EXACT []
  synonym: "TGFbeta dimer" EXACT []
  is_a: GO:0032991 ! protein-containing complex
@@ -57868,7 +57896,7 @@
  
  [Term]
  id: GO:0099127
-@@ -436495,17 +451526,15 @@
+@@ -436495,17 +451528,15 @@
  
  [Term]
  id: GO:0099521
@@ -57892,7 +57920,7 @@
  
  [Term]
  id: GO:0099522
-@@ -437102,16 +452131,14 @@
+@@ -437102,16 +452133,14 @@
  
  [Term]
  id: GO:0099579
@@ -57915,7 +57943,7 @@
  
  [Term]
  id: GO:0099580
-@@ -437127,17 +452154,15 @@
+@@ -437127,17 +452156,15 @@
  
  [Term]
  id: GO:0099581
@@ -57939,7 +57967,7 @@
  
  [Term]
  id: GO:0099582
-@@ -437264,10 +452289,6 @@
+@@ -437264,10 +452291,6 @@
  name: ligand-gated calcium channel activity
  namespace: molecular_function
  def: "Enables the transmembrane transfer of a calcium ions by a channel that opens when a specific ligand has been bound by the channel complex or one of its constituent parts." [GOC:dos]
@@ -57950,7 +57978,7 @@
  is_a: GO:0005262 ! calcium channel activity
  is_a: GO:0099094 ! ligand-gated monoatomic cation channel activity
  relationship: part_of GO:0019722 ! calcium-mediated signaling
-@@ -437365,6 +452386,9 @@
+@@ -437365,6 +452388,9 @@
  xref: MetaCyc:RXN-18432
  xref: RHEA:51608
  is_a: GO:0051990 ! (R)-2-hydroxyglutarate dehydrogenase activity
@@ -57960,7 +57988,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30707" xsd:anyURI
  
  [Term]
-@@ -437396,6 +452420,9 @@
+@@ -437396,6 +452422,9 @@
  xref: MetaCyc:RXN0-1861
  xref: RHEA:24702
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -57970,7 +57998,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29382" xsd:anyURI
  
  [Term]
-@@ -437409,12 +452436,15 @@
+@@ -437409,12 +452438,15 @@
  xref: EC:2.1.2.13
  xref: RHEA:24706
  is_a: GO:0016742 ! hydroxymethyl-, formyl- and related transferase activity
@@ -57988,7 +58016,7 @@
  synonym: "UDP-(beta-L-threo-pentapyranosyl-4''-ulose diphosphate) aminotransferase" EXACT []
  synonym: "UDP-4-amino-4-deoxy-beta-L-arabinose:2-oxoglutarate aminotransferase" EXACT []
  synonym: "UDP-4-amino-4-deoxy-L-arabinose---oxoglutarate aminotransferase" EXACT []
-@@ -437423,6 +452453,9 @@
+@@ -437423,6 +452455,9 @@
  xref: EC:2.6.1.87
  xref: RHEA:24710
  is_a: GO:0008483 ! transaminase activity
@@ -57998,7 +58026,7 @@
  
  [Term]
  id: GO:0099621
-@@ -437437,6 +452470,9 @@
+@@ -437437,6 +452472,9 @@
  xref: MetaCyc:RXN0-3521
  xref: RHEA:27722
  is_a: GO:0016763 ! pentosyltransferase activity
@@ -58008,7 +58036,7 @@
  
  [Term]
  id: GO:0099622
-@@ -438482,7 +453518,6 @@
+@@ -438482,7 +453520,6 @@
  comment: There are two main classes of deubiquitinating enzymes: cysteine proteases (i.e., thiol dependent) and metalloproteases.
  synonym: "ubiquitinyl hydrolase activity" EXACT []
  xref: Reactome:R-HSA-9674127 "USP30 deubiquitinates ATM dimer:Ub-p-PEX5"
@@ -58016,7 +58044,7 @@
  is_a: GO:0019783 ! ubiquitin-like protein peptidase activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17398" xsd:anyURI
  created_by: mec
-@@ -438497,9 +453532,15 @@
+@@ -438497,9 +453534,15 @@
  comment: This eukaryotic enzyme dephosphorylates phosphorylated histidine residues within proteins and peptides. The enzyme acts on phosphate groups attached to both the pros- (RHEA:47964) and tele- (RHEA:47960) nitrogen atoms, but the pros- position is somewhat preferred (by a factor of two at the most) (EC:3.9.1.3).
  synonym: "phosphohistidine phosphatase activity" BROAD []
  xref: EC:3.9.1.3
@@ -58033,7 +58061,7 @@
  
  [Term]
  id: GO:0101007
-@@ -438597,8 +453638,12 @@
+@@ -438597,8 +453640,12 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: estrogen + reduced [NADPH--hemoprotein reductase] + O2 = 16-alpha-hydroxyestrogen + oxidized [NADPH--hemoprotein reductase] + H2O." [GOC:BHF]
  synonym: "oestrogen 16-alpha-hydroxylase activity" EXACT []
@@ -58046,7 +58074,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29025" xsd:anyURI
  
  [Term]
-@@ -438607,8 +453652,12 @@
+@@ -438607,8 +453654,12 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: estrogen + reduced [NADPH--hemoprotein reductase] + O2 = 2-hydroxyestrogen + H+ + H2O + oxidized [NADPH--hemoprotein reductase]." [GOC:BHF, GOC:rl, PMID:14559847]
  synonym: "oestrogen 2-hydroxylase activity" EXACT []
@@ -58059,7 +58087,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29035" xsd:anyURI
  
  [Term]
-@@ -438705,6 +453754,9 @@
+@@ -438705,6 +453756,9 @@
  xref: MetaCyc:1.14.13.117-RXN
  xref: RHEA:28602
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -58069,7 +58097,7 @@
  
  [Term]
  id: GO:0102002
-@@ -438715,6 +453767,9 @@
+@@ -438715,6 +453769,9 @@
  xref: MetaCyc:1.14.13.118-RXN
  xref: RHEA:28606
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -58079,7 +58107,7 @@
  
  [Term]
  id: GO:0102003
-@@ -438725,8 +453780,18 @@
+@@ -438725,8 +453782,18 @@
  synonym: "Delta(8)-desaturase" EXACT [EC:1.14.19.4]
  synonym: "Delta8-sphingolipid desaturase activity" EXACT []
  xref: EC:1.14.19.4
@@ -58098,7 +58126,7 @@
  
  [Term]
  id: GO:0102004
-@@ -438759,6 +453824,9 @@
+@@ -438759,6 +453826,9 @@
  xref: Reactome:R-HSA-9756177 "PON1,3 hydrolyse ATVL to ATV"
  xref: RHEA:22576
  is_a: GO:0046573 ! lactonohydrolase activity
@@ -58108,7 +58136,7 @@
  
  [Term]
  id: GO:0102009
-@@ -438769,7 +453837,10 @@
+@@ -438769,7 +453839,10 @@
  xref: MetaCyc:3.4.13.9-RXN
  xref: RHEA:76407
  is_a: GO:0016805 ! dipeptidase activity
@@ -58119,7 +58147,7 @@
  
  [Term]
  id: GO:0102013
-@@ -438780,6 +453851,8 @@
+@@ -438780,6 +453853,8 @@
  xref: MetaCyc:ABC-13-RXN
  xref: RHEA:29035
  is_a: GO:0015426 ! ATPase-coupled polar amino acid-transporter activity
@@ -58128,7 +58156,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30815" xsd:anyURI
  
  [Term]
-@@ -438789,8 +453862,10 @@
+@@ -438789,8 +453864,10 @@
  def: "Catalysis of the reaction: ATP(4-) + beta-D-galactoside + H2O = ADP(3-) + hydrogenphosphate + beta-D-galactoside + H+." [RHEA:30011]
  xref: RHEA:30011
  is_a: GO:0015407 ! ABC-type monosaccharide transporter activity
@@ -58139,7 +58167,7 @@
  
  [Term]
  id: GO:0102025
-@@ -438805,6 +453880,8 @@
+@@ -438805,6 +453882,8 @@
  xref: RHEA:29871
  is_a: GO:0015117 ! thiosulfate transmembrane transporter activity
  is_a: GO:0140359 ! ABC-type transporter activity
@@ -58148,7 +58176,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14642" xsd:anyURI
  
  [Term]
-@@ -438838,7 +453915,10 @@
+@@ -438838,7 +453917,10 @@
  xref: RHEA:51468
  is_a: GO:0047809 ! D-lactate dehydrogenase activity
  is_a: GO:1990464 ! (2R)-hydroxyacid dehydrogenase (quinone) activity
@@ -58159,7 +58187,7 @@
  
  [Term]
  id: GO:0102030
-@@ -438858,6 +453938,9 @@
+@@ -438858,6 +453940,9 @@
  xref: MetaCyc:FUC4NACTRANS-RXN
  xref: RHEA:28759
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -58169,7 +58197,7 @@
  
  [Term]
  id: GO:0102033
-@@ -438870,8 +453953,11 @@
+@@ -438870,8 +453955,11 @@
  xref: MetaCyc:RXN-16394
  xref: RHEA:56748
  is_a: GO:0120250 ! fatty acid omega-hydroxylase activity
@@ -58181,7 +58209,7 @@
  
  [Term]
  id: GO:0102035
-@@ -438892,6 +453978,9 @@
+@@ -438892,6 +453980,9 @@
  xref: MetaCyc:METHCOCLTH-RXN
  xref: RHEA:45200
  is_a: GO:0008168 ! methyltransferase activity
@@ -58191,7 +58219,7 @@
  
  [Term]
  id: GO:0102037
-@@ -438920,6 +454009,9 @@
+@@ -438920,6 +454011,9 @@
  xref: Reactome:R-HSA-1222526 "AhpC reduces peroxidated lipids"
  xref: RHEA:62628
  is_a: GO:0051920 ! peroxiredoxin activity
@@ -58201,7 +58229,7 @@
  
  [Term]
  id: GO:0102040
-@@ -438934,13 +454026,16 @@
+@@ -438934,13 +454028,16 @@
  
  [Term]
  id: GO:0102041
@@ -58220,7 +58248,7 @@
  
  [Term]
  id: GO:0102042
-@@ -438951,6 +454046,9 @@
+@@ -438951,6 +454048,9 @@
  xref: MetaCyc:RXN-10032
  xref: RHEA:25956
  is_a: GO:0016639 ! oxidoreductase activity, acting on the CH-NH2 group of donors, NAD or NADP as acceptor
@@ -58230,7 +58258,7 @@
  
  [Term]
  id: GO:0102043
-@@ -438961,6 +454059,9 @@
+@@ -438961,6 +454061,9 @@
  xref: MetaCyc:RXN-10068
  xref: RHEA:33963
  is_a: GO:0016776 ! phosphotransferase activity, phosphate group as acceptor
@@ -58240,7 +58268,7 @@
  
  [Term]
  id: GO:0102044
-@@ -439055,7 +454156,10 @@
+@@ -439055,7 +454158,10 @@
  xref: EC:3.7.1.23
  xref: MetaCyc:RXN-10447
  xref: RHEA:47956
@@ -58252,7 +58280,7 @@
  
  [Term]
  id: GO:0102055
-@@ -439113,6 +454217,9 @@
+@@ -439113,6 +454219,9 @@
  xref: MetaCyc:RXN-10481
  xref: RHEA:27810
  is_a: GO:0120531 ! prenyl diphosphate synthase activity
@@ -58262,7 +58290,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20661" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  
-@@ -439126,6 +454233,9 @@
+@@ -439126,6 +454235,9 @@
  xref: MetaCyc:RXN-10482
  xref: RHEA:30471
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -58272,7 +58300,7 @@
  
  [Term]
  id: GO:0102061
-@@ -439139,6 +454249,9 @@
+@@ -439139,6 +454251,9 @@
  xref: MetaCyc:RXN-10483
  xref: RHEA:30467
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -58282,7 +58310,7 @@
  
  [Term]
  id: GO:0102062
-@@ -439149,6 +454262,9 @@
+@@ -439149,6 +454264,9 @@
  xref: MetaCyc:RXN-10567
  xref: RHEA:30463
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -58292,7 +58320,7 @@
  
  [Term]
  id: GO:0102063
-@@ -439168,6 +454284,9 @@
+@@ -439168,6 +454286,9 @@
  xref: MetaCyc:RXN-10599
  xref: RHEA:32031
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -58302,7 +58330,7 @@
  
  [Term]
  id: GO:0102065
-@@ -439196,6 +454315,9 @@
+@@ -439196,6 +454317,9 @@
  xref: MetaCyc:RXN-10625
  xref: RHEA:26229
  is_a: GO:0016628 ! oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor
@@ -58312,7 +58340,7 @@
  
  [Term]
  id: GO:0102068
-@@ -439206,6 +454328,9 @@
+@@ -439206,6 +454330,9 @@
  xref: MetaCyc:RXN-10628
  xref: RHEA:32491
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -58322,7 +58350,7 @@
  
  [Term]
  id: GO:0102069
-@@ -439216,6 +454341,9 @@
+@@ -439216,6 +454343,9 @@
  xref: MetaCyc:RXN-10629
  xref: RHEA:32327
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -58332,7 +58360,7 @@
  
  [Term]
  id: GO:0102070
-@@ -439285,6 +454413,9 @@
+@@ -439285,6 +454415,9 @@
  xref: MetaCyc:RXN-10741
  xref: RHEA:26389
  is_a: GO:0016702 ! oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen
@@ -58342,7 +58370,7 @@
  
  [Term]
  id: GO:0102080
-@@ -439295,6 +454426,9 @@
+@@ -439295,6 +454428,9 @@
  xref: MetaCyc:RXN-10821
  xref: RHEA:27850
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -58352,7 +58380,7 @@
  
  [Term]
  id: GO:0102081
-@@ -439314,6 +454448,9 @@
+@@ -439314,6 +454450,9 @@
  xref: MetaCyc:RXN-10847
  xref: RHEA:27353
  is_a: GO:0008168 ! methyltransferase activity
@@ -58362,7 +58390,7 @@
  
  [Term]
  id: GO:0102083
-@@ -439403,6 +454540,7 @@
+@@ -439403,6 +454542,7 @@
  xref: RHEA:41147
  is_a: GO:0034595 ! phosphatidylinositol phosphate 5-phosphatase activity
  is_a: GO:0052744 ! phosphatidylinositol monophosphate phosphatase activity
@@ -58370,7 +58398,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24252" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30249" xsd:anyURI
  
-@@ -439434,6 +454572,9 @@
+@@ -439434,6 +454574,9 @@
  xref: MetaCyc:RXN-11070
  xref: RHEA:34487
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -58380,7 +58408,7 @@
  
  [Term]
  id: GO:0102097
-@@ -439443,7 +454584,12 @@
+@@ -439443,7 +454586,12 @@
  synonym: "(22S)-22-hydroxy-5alpha-campestan-3-one C-23 hydroxylase activity" EXACT []
  xref: EC:1.14.14.147
  xref: MetaCyc:RXN-11101
@@ -58393,7 +58421,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -439455,6 +454601,9 @@
+@@ -439455,6 +454603,9 @@
  xref: MetaCyc:RXN-11151
  xref: RHEA:26345
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -58403,7 +58431,7 @@
  
  [Term]
  id: GO:0102099
-@@ -439465,6 +454614,9 @@
+@@ -439465,6 +454616,9 @@
  xref: MetaCyc:RXN-11186
  xref: RHEA:27329
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -58413,7 +58441,7 @@
  
  [Term]
  id: GO:0102100
-@@ -439475,6 +454627,9 @@
+@@ -439475,6 +454629,9 @@
  xref: MetaCyc:RXN-11187
  xref: RHEA:27349
  is_a: GO:0050497 ! alkylthioltransferase activity
@@ -58423,7 +58451,7 @@
  
  [Term]
  id: GO:0102102
-@@ -439490,7 +454645,16 @@
+@@ -439490,7 +454647,16 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: (4-coumaroyl)acetyl-CoA + 4-coumaryl-CoA + H2O = bisdemethoxycurcumin + 2 coenzyme A + carbon dioxide." [EC:2.3.1.219]
  xref: EC:2.3.1.219
@@ -58440,7 +58468,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -439522,6 +454686,9 @@
+@@ -439522,6 +454688,9 @@
  xref: MetaCyc:RXN-11226
  xref: RHEA:34823
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -58450,7 +58478,7 @@
  
  [Term]
  id: GO:0102109
-@@ -439578,6 +454745,9 @@
+@@ -439578,6 +454747,9 @@
  xref: MetaCyc:RXN-11358
  xref: RHEA:36119
  is_a: GO:0008168 ! methyltransferase activity
@@ -58460,7 +58488,7 @@
  
  [Term]
  id: GO:0102118
-@@ -439588,6 +454758,9 @@
+@@ -439588,6 +454760,9 @@
  xref: MetaCyc:RXN-11359
  xref: RHEA:36107
  is_a: GO:0008168 ! methyltransferase activity
@@ -58470,7 +58498,7 @@
  
  [Term]
  id: GO:0102119
-@@ -439664,6 +454837,9 @@
+@@ -439664,6 +454839,9 @@
  xref: MetaCyc:RXN-11455
  xref: RHEA:32067
  is_a: GO:0016814 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amidines
@@ -58480,7 +58508,7 @@
  
  [Term]
  id: GO:0102128
-@@ -439684,6 +454860,9 @@
+@@ -439684,6 +454862,9 @@
  xref: MetaCyc:RXN-11475
  xref: RHEA:17105
  is_a: GO:0008168 ! methyltransferase activity
@@ -58490,7 +58518,7 @@
  
  [Term]
  id: GO:0102131
-@@ -439780,6 +454959,7 @@
+@@ -439780,6 +454961,7 @@
  xref: RHEA:70587
  is_a: GO:0019213 ! deacetylase activity
  is_a: GO:0052689 ! carboxylic ester hydrolase activity
@@ -58498,7 +58526,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28523" xsd:anyURI
  
  [Term]
-@@ -439810,7 +454990,16 @@
+@@ -439810,7 +454992,16 @@
  synonym: "carboxynorspermidine dehydrogenase I activity" NARROW []
  synonym: "carboxynorspermidine dehydrogenase II activity" NARROW []
  xref: EC:1.5.1.43
@@ -58515,7 +58543,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28857" xsd:anyURI
  
  [Term]
-@@ -439832,6 +455021,9 @@
+@@ -439832,6 +455023,9 @@
  xref: MetaCyc:RXN-11575
  xref: RHEA:27534
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -58525,7 +58553,7 @@
  
  [Term]
  id: GO:0102146
-@@ -439841,6 +455033,8 @@
+@@ -439841,6 +455035,8 @@
  xref: MetaCyc:RXN-11582
  xref: RHEA:27493
  is_a: GO:0008168 ! methyltransferase activity
@@ -58534,7 +58562,7 @@
  
  [Term]
  id: GO:0102147
-@@ -439871,6 +455065,9 @@
+@@ -439871,6 +455067,9 @@
  xref: MetaCyc:RXN-11623
  xref: RHEA:30231
  is_a: GO:0016670 ! oxidoreductase activity, acting on a sulfur group of donors, oxygen as acceptor
@@ -58544,7 +58572,7 @@
  
  [Term]
  id: GO:0102150
-@@ -439920,6 +455117,9 @@
+@@ -439920,6 +455119,9 @@
  xref: MetaCyc:RXN-11689
  xref: RHEA:28194
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -58554,7 +58582,7 @@
  
  [Term]
  id: GO:0102156
-@@ -439948,8 +455148,11 @@
+@@ -439948,8 +455150,11 @@
  xref: MetaCyc:RXN-11750
  xref: RHEA:45812
  is_a: GO:0080023 ! (2E)-enoyl-CoA hydratase activity
@@ -58566,7 +58594,7 @@
  
  [Term]
  id: GO:0102159
-@@ -439959,6 +455162,8 @@
+@@ -439959,6 +455164,8 @@
  xref: MetaCyc:RXN-11755
  xref: RHEA:28314
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -58575,7 +58603,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -439971,6 +455176,9 @@
+@@ -439971,6 +455178,9 @@
  xref: MetaCyc:RXN-11756
  xref: RHEA:28258
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -58585,7 +58613,7 @@
  
  [Term]
  id: GO:0102161
-@@ -439981,6 +455189,9 @@
+@@ -439981,6 +455191,9 @@
  xref: MetaCyc:RXN-11772
  xref: RHEA:32703
  is_a: GO:0016836 ! hydro-lyase activity
@@ -58595,7 +58623,7 @@
  
  [Term]
  id: GO:0102162
-@@ -439991,6 +455202,9 @@
+@@ -439991,6 +455204,9 @@
  xref: MetaCyc:RXN-11783
  xref: RHEA:26385
  is_a: GO:0016702 ! oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen
@@ -58605,7 +58633,7 @@
  
  [Term]
  id: GO:0102163
-@@ -440010,6 +455224,9 @@
+@@ -440010,6 +455226,9 @@
  xref: MetaCyc:RXN-11849
  xref: RHEA:37871
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -58615,7 +58643,7 @@
  
  [Term]
  id: GO:0102165
-@@ -440020,6 +455237,9 @@
+@@ -440020,6 +455239,9 @@
  xref: MetaCyc:RXN-11852
  xref: RHEA:28254
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -58625,7 +58653,7 @@
  
  [Term]
  id: GO:0102166
-@@ -440050,6 +455270,9 @@
+@@ -440050,6 +455272,9 @@
  xref: MetaCyc:RXN-11897
  xref: RHEA:49112
  is_a: GO:0008168 ! methyltransferase activity
@@ -58635,7 +58663,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -440059,7 +455282,16 @@
+@@ -440059,7 +455284,16 @@
  def: "Catalysis of the reaction: 5-methyl-phenazine-1-carboxylate + 2 H+ + NADH + O2 = CO2 + H2O + NAD+ + pyocyanin. Also converts phenazine-1-carboxylate into 1-hydroxyphenazine." [EC:1.14.13.218, PMID:11591691]
  synonym: "pyocyanin hydroxylase activity" RELATED []
  xref: EC:1.14.13.218
@@ -58652,7 +58680,7 @@
  
  [Term]
  id: GO:0102170
-@@ -440070,6 +455302,9 @@
+@@ -440070,6 +455304,9 @@
  xref: MetaCyc:RXN-11908
  xref: RHEA:28226
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -58662,7 +58690,7 @@
  
  [Term]
  id: GO:0102171
-@@ -440080,6 +455315,9 @@
+@@ -440080,6 +455317,9 @@
  xref: MetaCyc:RXN-11911
  xref: RHEA:55424
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -58672,7 +58700,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -440090,6 +455328,8 @@
+@@ -440090,6 +455330,8 @@
  xref: MetaCyc:RXN-11925
  xref: RHEA:58860
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -58681,7 +58709,7 @@
  
  [Term]
  id: GO:0102173
-@@ -440118,6 +455358,8 @@
+@@ -440118,6 +455360,8 @@
  xref: MetaCyc:RXN-11928
  xref: RHEA:34775
  is_a: GO:0000252 ! 3-beta-hydroxysteroid dehydrogenase [NAD(P)+]/C4-decarboxylase activity
@@ -58690,7 +58718,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29311" xsd:anyURI
  
  [Term]
-@@ -440139,6 +455381,9 @@
+@@ -440139,6 +455383,9 @@
  xref: MetaCyc:RXN-11930
  xref: RHEA:58872
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -58700,7 +58728,7 @@
  
  [Term]
  id: GO:0102178
-@@ -440166,6 +455411,8 @@
+@@ -440166,6 +455413,8 @@
  xref: MetaCyc:RXN-11936
  xref: RHEA:59036
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -58709,7 +58737,7 @@
  
  [Term]
  id: GO:0102181
-@@ -440281,6 +455528,9 @@
+@@ -440281,6 +455530,9 @@
  xref: RHEA:48432
  is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -58719,7 +58747,7 @@
  
  [Term]
  id: GO:0102194
-@@ -440294,6 +455544,9 @@
+@@ -440294,6 +455546,9 @@
  xref: RHEA:59832
  is_a: GO:0016301 ! kinase activity
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -58729,7 +58757,7 @@
  
  [Term]
  id: GO:0102195
-@@ -440304,6 +455557,9 @@
+@@ -440304,6 +455559,9 @@
  xref: MetaCyc:RXN-12042
  xref: RHEA:25273
  is_a: GO:0016881 ! acid-amino acid ligase activity
@@ -58739,7 +58767,7 @@
  
  [Term]
  id: GO:0102196
-@@ -440313,7 +455569,9 @@
+@@ -440313,7 +455571,9 @@
  xref: MetaCyc:RXN-12085
  xref: RHEA:68616
  is_a: GO:0070524 ! 11-beta-hydroxysteroid dehydrogenase (NADP+) activity
@@ -58749,7 +58777,7 @@
  
  [Term]
  id: GO:0102197
-@@ -440333,6 +455591,8 @@
+@@ -440333,6 +455593,8 @@
  xref: MetaCyc:RXN-12107
  xref: RHEA:21172
  is_a: GO:0050572 ! L-idonate 5-dehydrogenase [NAD(P)+] activity
@@ -58758,7 +58786,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27180" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27573" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30105" xsd:anyURI
-@@ -440345,7 +455605,12 @@
+@@ -440345,7 +455607,12 @@
  synonym: "nitric oxide reductase activity (NAD(P)H-dependent) activity" EXACT []
  xref: EC:1.7.1.14
  xref: MetaCyc:RXN-12112
@@ -58771,7 +58799,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27180" xsd:anyURI
  
  [Term]
-@@ -440362,9 +455627,15 @@
+@@ -440362,9 +455629,15 @@
  id: GO:0102201
  name: (+)-2-epi-prezizaene synthase activity
  namespace: molecular_function
@@ -58788,7 +58816,7 @@
  
  [Term]
  id: GO:0102202
-@@ -440420,7 +455691,10 @@
+@@ -440420,7 +455693,10 @@
  xref: MetaCyc:RXN-12160
  xref: RHEA:31411
  is_a: GO:0008168 ! methyltransferase activity
@@ -58799,7 +58827,7 @@
  
  [Term]
  id: GO:0102209
-@@ -440431,6 +455705,9 @@
+@@ -440431,6 +455707,9 @@
  xref: MetaCyc:RXN-12167
  xref: RHEA:30283
  is_a: GO:0052689 ! carboxylic ester hydrolase activity
@@ -58809,7 +58837,7 @@
  
  [Term]
  id: GO:0102210
-@@ -440440,6 +455717,8 @@
+@@ -440440,6 +455719,8 @@
  xref: EC:4.2.2.23
  xref: MetaCyc:RXN-12173
  is_a: GO:0016837 ! carbon-oxygen lyase activity, acting on polysaccharides
@@ -58818,7 +58846,7 @@
  
  [Term]
  id: GO:0102211
-@@ -440450,6 +455729,9 @@
+@@ -440450,6 +455731,9 @@
  xref: MetaCyc:RXN-12174
  xref: RHEA:30927
  is_a: GO:0004553 ! hydrolase activity, hydrolyzing O-glycosyl compounds
@@ -58828,7 +58856,7 @@
  
  [Term]
  id: GO:0102212
-@@ -440460,6 +455742,9 @@
+@@ -440460,6 +455744,9 @@
  xref: MetaCyc:RXN-12177
  xref: RHEA:31647
  is_a: GO:0004553 ! hydrolase activity, hydrolyzing O-glycosyl compounds
@@ -58838,7 +58866,7 @@
  
  [Term]
  id: GO:0102213
-@@ -440490,6 +455775,9 @@
+@@ -440490,6 +455777,9 @@
  xref: MetaCyc:RXN-12189
  xref: RHEA:28014
  is_a: GO:0008168 ! methyltransferase activity
@@ -58848,7 +58876,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -440541,6 +455829,9 @@
+@@ -440541,6 +455831,9 @@
  xref: MetaCyc:RXN-12215
  xref: RHEA:30279
  is_a: GO:0016696 ! oxidoreductase activity, acting on hydrogen as donor, NAD or NADP as acceptor
@@ -58858,7 +58886,7 @@
  
  [Term]
  id: GO:0102222
-@@ -440553,7 +455844,7 @@
+@@ -440553,7 +455846,7 @@
  
  [Term]
  id: GO:0102223
@@ -58867,7 +58895,7 @@
  namespace: molecular_function
  alt_id: GO:0102225
  alt_id: GO:0102961
-@@ -440565,8 +455856,15 @@
+@@ -440565,8 +455858,15 @@
  synonym: "4,4'-diapophytofluene desaturase activity" NARROW []
  xref: EC:1.3.8.2
  xref: MetaCyc:RXN-12224
@@ -58883,7 +58911,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23557" xsd:anyURI
  
  [Term]
-@@ -440577,6 +455875,9 @@
+@@ -440577,6 +455877,9 @@
  xref: MetaCyc:RXN-12236
  xref: RHEA:46316
  is_a: GO:0004553 ! hydrolase activity, hydrolyzing O-glycosyl compounds
@@ -58893,7 +58921,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -440664,6 +455965,9 @@
+@@ -440664,6 +455967,9 @@
  xref: MetaCyc:RXN-12319
  xref: RHEA:31487
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -58903,7 +58931,7 @@
  
  [Term]
  id: GO:0102241
-@@ -440674,6 +455978,9 @@
+@@ -440674,6 +455980,9 @@
  xref: MetaCyc:RXN-12320
  xref: RHEA:31491
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -58913,7 +58941,7 @@
  
  [Term]
  id: GO:0102243
-@@ -440683,8 +455990,10 @@
+@@ -440683,8 +455992,10 @@
  comment: The reason for obsoletion is that it more specific than the specificity of any known gene product.
  synonym: "ATP:geranylgeraniol phosphotransferase activity" EXACT []
  xref: RHEA:61664
@@ -58924,7 +58952,7 @@
  is_obsolete: true
  replaced_by: GO:0052673
  
-@@ -440696,7 +456005,9 @@
+@@ -440696,7 +456007,9 @@
  xref: MetaCyc:RXN-12332
  xref: RHEA:30695
  is_a: GO:0004029 ! aldehyde dehydrogenase (NAD+) activity
@@ -58934,7 +58962,7 @@
  
  [Term]
  id: GO:0102245
-@@ -440707,6 +456018,9 @@
+@@ -440707,6 +456020,9 @@
  xref: MetaCyc:RXN-12338
  xref: RHEA:31351
  is_a: GO:0016836 ! hydro-lyase activity
@@ -58944,7 +58972,7 @@
  
  [Term]
  id: GO:0102246
-@@ -440717,6 +456031,9 @@
+@@ -440717,6 +456033,9 @@
  xref: MetaCyc:RXN-12346
  xref: RHEA:33079
  is_a: GO:0016799 ! hydrolase activity, hydrolyzing N-glycosyl compounds
@@ -58954,7 +58982,7 @@
  
  [Term]
  id: GO:0102247
-@@ -440763,6 +456080,9 @@
+@@ -440763,6 +456082,9 @@
  xref: MetaCyc:RXN-12393
  xref: RHEA:26401
  is_a: GO:0016702 ! oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen
@@ -58964,7 +58992,7 @@
  
  [Term]
  id: GO:0102252
-@@ -440772,6 +456092,8 @@
+@@ -440772,6 +456094,8 @@
  xref: EC:3.2.1.176
  xref: MetaCyc:RXN-12420
  is_a: GO:0004553 ! hydrolase activity, hydrolyzing O-glycosyl compounds
@@ -58973,7 +59001,7 @@
  
  [Term]
  id: GO:0102253
-@@ -440853,7 +456175,10 @@
+@@ -440853,7 +456177,10 @@
  xref: MetaCyc:RXN-12450
  xref: RHEA:31363
  is_a: GO:0016646 ! oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor
@@ -58984,7 +59012,7 @@
  
  [Term]
  id: GO:0102262
-@@ -440861,7 +456186,12 @@
+@@ -440861,7 +456188,12 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: a 5,6-dihydrouracil16 in tRNA + NAD(P) = H+ + a uracil16 in tRNA + NAD(P)H." [GOC:pz]
  xref: MetaCyc:RXN-12454
@@ -58997,7 +59025,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25028" xsd:anyURI
  
  [Term]
-@@ -440870,7 +456200,12 @@
+@@ -440870,7 +456202,12 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: a 5,6-dihydrouracil17 in tRNA + NAD(P) = H+ + a uracil17 in tRNA + NAD(P)H." [GOC:pz]
  xref: MetaCyc:RXN-12455
@@ -59010,7 +59038,7 @@
  
  [Term]
  id: GO:0102264
-@@ -440880,6 +456215,8 @@
+@@ -440880,6 +456217,8 @@
  xref: EC:1.3.1.91
  xref: MetaCyc:RXN-12456
  is_a: GO:0017150 ! tRNA dihydrouridine synthase activity
@@ -59019,7 +59047,7 @@
  
  [Term]
  id: GO:0102265
-@@ -440889,6 +456226,8 @@
+@@ -440889,6 +456228,8 @@
  xref: EC:1.3.1.89
  xref: MetaCyc:RXN-12457
  is_a: GO:0017150 ! tRNA dihydrouridine synthase activity
@@ -59028,7 +59056,7 @@
  
  [Term]
  id: GO:0102266
-@@ -440896,7 +456235,14 @@
+@@ -440896,7 +456237,14 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: a 5,6-dihydrouracil20a in tRNA + NAD(P) = H+ + a uracil20a in tRNA + NAD(P)H." [GOC:pz]
  xref: EC:1.3.1.90
@@ -59043,7 +59071,7 @@
  
  [Term]
  id: GO:0102267
-@@ -440904,7 +456250,12 @@
+@@ -440904,7 +456252,12 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: a 5,6-dihydrouracil20b in tRNA + NAD(P) = H+ + a uracil20b in tRNA + NAD(P)H." [GOC:pz]
  xref: MetaCyc:RXN-12476
@@ -59056,7 +59084,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25028" xsd:anyURI
  
  [Term]
-@@ -440934,7 +456285,10 @@
+@@ -440934,7 +456287,10 @@
  xref: MetaCyc:RXN-12532
  xref: RHEA:60448
  is_a: GO:0004181 ! metallocarboxypeptidase activity
@@ -59067,7 +59095,7 @@
  
  [Term]
  id: GO:0102275
-@@ -440954,6 +456308,9 @@
+@@ -440954,6 +456310,9 @@
  xref: MetaCyc:RXN-12538
  xref: RHEA:31523
  is_a: GO:0016703 ! oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of one atom of oxygen (internal monooxygenases or internal mixed function oxidases)
@@ -59077,7 +59105,7 @@
  
  [Term]
  id: GO:0102277
-@@ -440963,6 +456320,8 @@
+@@ -440963,6 +456322,8 @@
  xref: MetaCyc:RXN-12544
  xref: RHEA:62164
  is_a: GO:0004553 ! hydrolase activity, hydrolyzing O-glycosyl compounds
@@ -59086,7 +59114,7 @@
  
  [Term]
  id: GO:0102278
-@@ -441042,6 +456401,9 @@
+@@ -441042,6 +456403,9 @@
  xref: MetaCyc:RXN-12654
  xref: RHEA:34635
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -59096,7 +59124,7 @@
  
  [Term]
  id: GO:0102286
-@@ -441070,6 +456432,9 @@
+@@ -441070,6 +456434,9 @@
  xref: MetaCyc:RXN-12680
  xref: RHEA:31711
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -59106,7 +59134,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  
-@@ -441120,7 +456485,9 @@
+@@ -441120,7 +456487,9 @@
  xref: MetaCyc:RXN-12693
  xref: RHEA:35459
  is_a: GO:0003854 ! 3-beta-hydroxy-Delta5-steroid dehydrogenase (NAD+) activity
@@ -59116,7 +59144,7 @@
  
  [Term]
  id: GO:0102295
-@@ -441139,7 +456506,10 @@
+@@ -441139,7 +456508,10 @@
  xref: EC:3.7.1.17
  xref: MetaCyc:RXN-12718
  xref: RHEA:32035
@@ -59128,7 +59156,7 @@
  
  [Term]
  id: GO:0102297
-@@ -441165,7 +456535,16 @@
+@@ -441165,7 +456537,16 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: (9Z,12Z,15Z)-octadecatrienoate + O2 = (9R,10E,12Z,15Z)-9-hydroperoxyoctadeca-10,12,15-trienoate. Also converts linoleate to (9R,10E,12Z)-9- hydroperoxyoctadeca-10,12-dienoate." [EC:1.13.11.61]
  xref: EC:1.13.11.61
@@ -59145,7 +59173,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  
-@@ -441197,6 +456576,9 @@
+@@ -441197,6 +456578,9 @@
  xref: MetaCyc:RXN-12801
  xref: RHEA:31643
  is_a: GO:0008168 ! methyltransferase activity
@@ -59155,7 +59183,7 @@
  
  [Term]
  id: GO:0102303
-@@ -441207,6 +456589,9 @@
+@@ -441207,6 +456591,9 @@
  xref: MetaCyc:RXN-12805
  xref: RHEA:32103
  is_a: GO:0008168 ! methyltransferase activity
@@ -59165,7 +59193,7 @@
  
  [Term]
  id: GO:0102304
-@@ -441217,6 +456602,9 @@
+@@ -441217,6 +456604,9 @@
  xref: MetaCyc:RXN-12838
  xref: RHEA:31991
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -59175,7 +59203,7 @@
  
  [Term]
  id: GO:0102305
-@@ -441227,6 +456615,9 @@
+@@ -441227,6 +456617,9 @@
  xref: MetaCyc:RXN-12892
  xref: RHEA:32075
  is_a: GO:0016794 ! diphosphoric monoester hydrolase activity
@@ -59185,7 +59213,7 @@
  
  [Term]
  id: GO:0102306
-@@ -441245,7 +456636,16 @@
+@@ -441245,7 +456638,16 @@
  synonym: "erythromycin C 3''-o-methyltransferase activity" NARROW []
  synonym: "erythromycin D 3''-o-methyltransferase activity" NARROW []
  xref: EC:2.1.1.254
@@ -59202,7 +59230,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -441284,6 +456684,9 @@
+@@ -441284,6 +456686,9 @@
  xref: MetaCyc:RXN-12961
  xref: RHEA:32659
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -59212,7 +59240,7 @@
  
  [Term]
  id: GO:0102312
-@@ -441294,6 +456697,9 @@
+@@ -441294,6 +456699,9 @@
  xref: MetaCyc:RXN-12963
  xref: RHEA:57868
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
@@ -59222,7 +59250,7 @@
  
  [Term]
  id: GO:0102313
-@@ -441304,6 +456710,9 @@
+@@ -441304,6 +456712,9 @@
  xref: MetaCyc:RXN-12980
  xref: RHEA:32543
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -59232,7 +59260,7 @@
  
  [Term]
  id: GO:0102317
-@@ -441314,6 +456723,9 @@
+@@ -441314,6 +456725,9 @@
  xref: MetaCyc:RXN-13067
  xref: RHEA:33907
  is_a: GO:0016647 ! oxidoreductase activity, acting on the CH-NH group of donors, oxygen as acceptor
@@ -59242,7 +59270,7 @@
  
  [Term]
  id: GO:0102318
-@@ -441324,6 +456736,9 @@
+@@ -441324,6 +456738,9 @@
  xref: MetaCyc:RXN-13121
  xref: RHEA:34063
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59252,7 +59280,7 @@
  
  [Term]
  id: GO:0102319
-@@ -441334,6 +456749,9 @@
+@@ -441334,6 +456751,9 @@
  xref: MetaCyc:RXN-13122
  xref: RHEA:33947
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59262,7 +59290,7 @@
  
  [Term]
  id: GO:0102320
-@@ -441344,6 +456762,9 @@
+@@ -441344,6 +456764,9 @@
  xref: MetaCyc:RXN-4342
  xref: RHEA:32895
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -59272,7 +59300,7 @@
  
  [Term]
  id: GO:0102321
-@@ -441363,6 +456784,8 @@
+@@ -441363,6 +456786,8 @@
  xref: MetaCyc:RXN-13151
  xref: RHEA:63524
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -59281,7 +59309,7 @@
  
  [Term]
  id: GO:0102323
-@@ -441372,6 +456795,8 @@
+@@ -441372,6 +456797,8 @@
  xref: MetaCyc:RXN-13152
  xref: RHEA:63520
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -59290,7 +59318,7 @@
  
  [Term]
  id: GO:0102324
-@@ -441391,6 +456816,8 @@
+@@ -441391,6 +456818,8 @@
  xref: MetaCyc:RXN-13169
  xref: RHEA:63516
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -59299,7 +59327,7 @@
  
  [Term]
  id: GO:0102326
-@@ -441476,6 +456903,9 @@
+@@ -441476,6 +456905,9 @@
  xref: MetaCyc:RXN-13269
  xref: RHEA:34515
  is_a: GO:0016780 ! phosphotransferase activity, for other substituted phosphate groups
@@ -59309,7 +59337,7 @@
  
  [Term]
  id: GO:0102335
-@@ -441486,6 +456916,9 @@
+@@ -441486,6 +456918,9 @@
  xref: MetaCyc:RXN-13274
  xref: RHEA:34511
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59319,7 +59347,7 @@
  
  [Term]
  id: GO:0102336
-@@ -441665,6 +457098,7 @@
+@@ -441665,6 +457100,7 @@
  xref: MetaCyc:RXN-13363
  xref: RHEA:54912
  is_a: GO:0008106 ! alcohol dehydrogenase (NADP+) activity
@@ -59327,7 +59355,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30275" xsd:anyURI
  
  [Term]
-@@ -441676,6 +457110,9 @@
+@@ -441676,6 +457112,9 @@
  xref: MetaCyc:RXN-13371
  xref: RHEA:33967
  is_a: GO:0052689 ! carboxylic ester hydrolase activity
@@ -59337,7 +59365,7 @@
  
  [Term]
  id: GO:0102356
-@@ -441693,6 +457130,7 @@
+@@ -441693,6 +457132,7 @@
  def: "Catalysis of the reaction: mithramycin DK + NADPH + H+ = iso-mithramycin + NADP+. Note that  iso-mithramycin (iso-MTM) is a C2-epimer of mithramycin.  This intermediate appears to be biologically important because it is non-toxic, then exported out of the cell and finally spontaneously epimerized into the toxic mithramycin. This could represent a self-resistance mechanism against MTM toxicity." [PMID:31702856]
  xref: MetaCyc:RXN-13385
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -59345,7 +59373,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30329" xsd:anyURI
  
  [Term]
-@@ -441703,6 +457141,8 @@
+@@ -441703,6 +457143,8 @@
  xref: MetaCyc:RXN-13448
  xref: RHEA:68960
  is_a: GO:0008168 ! methyltransferase activity
@@ -59354,7 +59382,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -441760,7 +457200,16 @@
+@@ -441760,7 +457202,16 @@
  def: "Catalysis of the reaction: taxusin + NADPH + O2 + H+ = 2-alpha-hydroxytaxusin + NADP + H2O. Also converts 7beta-hydroxytaxusin to 2alpha,7beta-dihydroxytaxusin." [EC:1.14.14.183, PMID:15178487]
  synonym: "taxusin 2-alpha-hydroxylase activity" EXACT []
  xref: EC:1.14.14.183
@@ -59371,7 +59399,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28220" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  
-@@ -441840,6 +457289,9 @@
+@@ -441840,6 +457291,9 @@
  xref: MetaCyc:RXN-13509
  xref: RHEA:43068
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -59381,7 +59409,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  
-@@ -441862,6 +457314,9 @@
+@@ -441862,6 +457316,9 @@
  xref: MetaCyc:RXN-13506
  xref: RHEA:35499
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -59391,7 +59419,7 @@
  
  [Term]
  id: GO:0102376
-@@ -441880,6 +457335,8 @@
+@@ -441880,6 +457337,8 @@
  xref: MetaCyc:RXN-13511
  xref: RHEA:61732
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59400,7 +59428,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -441890,6 +457347,8 @@
+@@ -441890,6 +457349,8 @@
  xref: MetaCyc:RXN-13512
  xref: RHEA:61736
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59409,7 +59437,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -441900,6 +457359,8 @@
+@@ -441900,6 +457361,8 @@
  xref: MetaCyc:RXN-13514
  xref: RHEA:61744
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59418,7 +59446,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -441910,6 +457371,8 @@
+@@ -441910,6 +457373,8 @@
  xref: MetaCyc:RXN-13516
  xref: RHEA:61752
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59427,7 +59455,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -441920,6 +457383,8 @@
+@@ -441920,6 +457385,8 @@
  xref: MetaCyc:RXN-13517
  xref: RHEA:61756
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59436,7 +59464,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -441930,6 +457395,8 @@
+@@ -441930,6 +457397,8 @@
  xref: MetaCyc:RXN-13518
  xref: RHEA:61760
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59445,7 +59473,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -441967,6 +457434,7 @@
+@@ -441967,6 +457436,7 @@
  xref: MetaCyc:RXN-13536
  xref: RHEA:63736
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -59453,7 +59481,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30249" xsd:anyURI
  
  [Term]
-@@ -441988,6 +457456,9 @@
+@@ -441988,6 +457458,9 @@
  xref: MetaCyc:RXN-13574
  xref: RHEA:34491
  is_a: GO:0004553 ! hydrolase activity, hydrolyzing O-glycosyl compounds
@@ -59463,7 +59491,7 @@
  
  [Term]
  id: GO:0102389
-@@ -441996,7 +457467,9 @@
+@@ -441996,7 +457469,9 @@
  def: "Catalysis of the reaction: NADP + a ditrans,polycis-dolichol = NADPH + H+ + a di-trans, poly-cis-polyprenol." [GOC:pz, RHEA:34279]
  xref: RHEA:34279
  is_a: GO:0016628 ! oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor
@@ -59473,7 +59501,7 @@
  
  [Term]
  id: GO:0102390
-@@ -442007,6 +457480,9 @@
+@@ -442007,6 +457482,9 @@
  xref: MetaCyc:RXN-13605
  xref: RHEA:34179
  is_a: GO:0052689 ! carboxylic ester hydrolase activity
@@ -59483,7 +59511,7 @@
  
  [Term]
  id: GO:0102391
-@@ -442016,7 +457492,9 @@
+@@ -442016,7 +457494,9 @@
  xref: MetaCyc:RXN-13614
  xref: RHEA:33627
  is_a: GO:0031956 ! medium-chain fatty acid-CoA ligase activity
@@ -59493,7 +59521,7 @@
  
  [Term]
  id: GO:0102392
-@@ -442055,6 +457533,9 @@
+@@ -442055,6 +457535,9 @@
  xref: MetaCyc:RXN-13642
  xref: RHEA:34399
  is_a: GO:0016702 ! oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen
@@ -59503,7 +59531,7 @@
  
  [Term]
  id: GO:0102396
-@@ -442065,6 +457546,9 @@
+@@ -442065,6 +457548,9 @@
  xref: MetaCyc:RXN-13643
  xref: RHEA:34403
  is_a: GO:0016702 ! oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen
@@ -59513,7 +59541,7 @@
  
  [Term]
  id: GO:0102398
-@@ -442121,6 +457605,8 @@
+@@ -442121,6 +457607,8 @@
  xref: MetaCyc:RXN-13718
  xref: RHEA:61116
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -59522,7 +59550,7 @@
  
  [Term]
  id: GO:0102406
-@@ -442131,6 +457617,9 @@
+@@ -442131,6 +457619,9 @@
  xref: MetaCyc:RXN-13728
  xref: RHEA:26470
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -59532,7 +59560,7 @@
  
  [Term]
  id: GO:0102407
-@@ -442189,6 +457678,9 @@
+@@ -442189,6 +457680,9 @@
  xref: MetaCyc:RXN-13769
  xref: RHEA:34467
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -59542,7 +59570,7 @@
  
  [Term]
  id: GO:0102413
-@@ -442198,6 +457690,8 @@
+@@ -442198,6 +457692,8 @@
  xref: MetaCyc:RXN-13791
  xref: RHEA:78891
  is_a: GO:0004553 ! hydrolase activity, hydrolyzing O-glycosyl compounds
@@ -59551,7 +59579,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -442356,8 +457850,17 @@
+@@ -442356,8 +457852,17 @@
  synonym: "alpha-linolenate delta5 desaturase activity" NARROW []
  synonym: "linoleate delta5 desaturase activity" RELATED []
  xref: EC:1.14.19.12
@@ -59569,7 +59597,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24100" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  
-@@ -442369,6 +457872,8 @@
+@@ -442369,6 +457874,8 @@
  xref: MetaCyc:RXN-13906
  xref: RHEA:73115
  is_a: GO:0008168 ! methyltransferase activity
@@ -59578,7 +59606,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -442397,6 +457902,8 @@
+@@ -442397,6 +457904,8 @@
  xref: MetaCyc:RXN-13910
  xref: RHEA:74719
  is_a: GO:0008168 ! methyltransferase activity
@@ -59587,7 +59615,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -442425,6 +457932,8 @@
+@@ -442425,6 +457934,8 @@
  xref: MetaCyc:RXN-13916
  xref: RHEA:74739
  is_a: GO:0008168 ! methyltransferase activity
@@ -59596,7 +59624,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -442435,6 +457944,8 @@
+@@ -442435,6 +457946,8 @@
  xref: MetaCyc:RXN-13918
  xref: RHEA:74771
  is_a: GO:0008168 ! methyltransferase activity
@@ -59605,7 +59633,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -442445,6 +457956,8 @@
+@@ -442445,6 +457958,8 @@
  xref: MetaCyc:RXN-13919
  xref: RHEA:74735
  is_a: GO:0008168 ! methyltransferase activity
@@ -59614,7 +59642,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -442455,6 +457968,8 @@
+@@ -442455,6 +457970,8 @@
  xref: MetaCyc:RXN-13920
  xref: RHEA:74767
  is_a: GO:0008168 ! methyltransferase activity
@@ -59623,7 +59651,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -442466,6 +457981,9 @@
+@@ -442466,6 +457983,9 @@
  xref: MetaCyc:RXN-13927
  xref: RHEA:34555
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -59633,7 +59661,7 @@
  
  [Term]
  id: GO:0102444
-@@ -442475,6 +457993,8 @@
+@@ -442475,6 +457995,8 @@
  xref: MetaCyc:RXN-13929
  xref: RHEA:74759
  is_a: GO:0008168 ! methyltransferase activity
@@ -59642,7 +59670,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -442485,6 +458005,8 @@
+@@ -442485,6 +458007,8 @@
  xref: MetaCyc:RXN-13930
  xref: RHEA:74715
  is_a: GO:0008168 ! methyltransferase activity
@@ -59651,7 +59679,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -442495,6 +458017,8 @@
+@@ -442495,6 +458019,8 @@
  xref: MetaCyc:RXN-13932
  xref: RHEA:74763
  is_a: GO:0008168 ! methyltransferase activity
@@ -59660,7 +59688,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -442505,6 +458029,8 @@
+@@ -442505,6 +458031,8 @@
  xref: MetaCyc:RXN-13933
  xref: RHEA:73271
  is_a: GO:0008168 ! methyltransferase activity
@@ -59669,7 +59697,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -442515,6 +458041,8 @@
+@@ -442515,6 +458043,8 @@
  xref: MetaCyc:RXN-13934
  xref: RHEA:74731
  is_a: GO:0008168 ! methyltransferase activity
@@ -59678,7 +59706,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -442525,6 +458053,8 @@
+@@ -442525,6 +458055,8 @@
  xref: MetaCyc:RXN-13935
  xref: RHEA:74743
  is_a: GO:0008168 ! methyltransferase activity
@@ -59687,7 +59715,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -442535,6 +458065,8 @@
+@@ -442535,6 +458067,8 @@
  xref: MetaCyc:RXN-13936
  xref: RHEA:74775
  is_a: GO:0008168 ! methyltransferase activity
@@ -59696,7 +59724,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -442545,6 +458077,8 @@
+@@ -442545,6 +458079,8 @@
  xref: MetaCyc:RXN-13937
  xref: RHEA:74755
  is_a: GO:0008168 ! methyltransferase activity
@@ -59705,7 +59733,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -442556,6 +458090,9 @@
+@@ -442556,6 +458092,9 @@
  xref: MetaCyc:RXN-13958
  xref: RHEA:34803
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -59715,7 +59743,7 @@
  
  [Term]
  id: GO:0102453
-@@ -442566,6 +458103,9 @@
+@@ -442566,6 +458105,9 @@
  xref: MetaCyc:RXN-13959
  xref: RHEA:35411
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -59725,7 +59753,7 @@
  
  [Term]
  id: GO:0102454
-@@ -442576,6 +458116,9 @@
+@@ -442576,6 +458118,9 @@
  xref: MetaCyc:RXN-13960
  xref: RHEA:35631
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59735,7 +59763,7 @@
  
  [Term]
  id: GO:0102455
-@@ -442586,6 +458129,9 @@
+@@ -442586,6 +458131,9 @@
  xref: MetaCyc:RXN-13965
  xref: RHEA:35419
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59745,7 +59773,7 @@
  
  [Term]
  id: GO:0102456
-@@ -442607,6 +458153,9 @@
+@@ -442607,6 +458155,9 @@
  xref: MetaCyc:RXN-13969
  xref: RHEA:35431
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59755,7 +59783,7 @@
  
  [Term]
  id: GO:0102458
-@@ -442697,6 +458246,8 @@
+@@ -442697,6 +458248,8 @@
  xref: MetaCyc:RXN-14058
  xref: RHEA:28318
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59764,7 +59792,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -442707,6 +458258,8 @@
+@@ -442707,6 +458260,8 @@
  xref: MetaCyc:RXN-14060
  xref: RHEA:28322
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59773,7 +59801,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -442717,6 +458270,8 @@
+@@ -442717,6 +458272,8 @@
  xref: MetaCyc:RXN-14069
  xref: RHEA:57588
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -59782,7 +59810,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -442805,6 +458360,9 @@
+@@ -442805,6 +458362,9 @@
  xref: MetaCyc:RXN-14089
  xref: RHEA:36051
  is_a: GO:0004553 ! hydrolase activity, hydrolyzing O-glycosyl compounds
@@ -59792,7 +59820,7 @@
  
  [Term]
  id: GO:0102479
-@@ -442834,7 +458392,10 @@
+@@ -442834,7 +458394,10 @@
  xref: EC:3.7.1.22
  xref: MetaCyc:RXN-14149
  xref: RHEA:25836
@@ -59804,7 +59832,7 @@
  
  [Term]
  id: GO:0102482
-@@ -442845,6 +458406,9 @@
+@@ -442845,6 +458408,9 @@
  xref: MetaCyc:RXN-14150
  xref: RHEA:25840
  is_a: GO:0016861 ! intramolecular oxidoreductase activity, interconverting aldoses and ketoses
@@ -59814,7 +59842,7 @@
  
  [Term]
  id: GO:0102483
-@@ -442993,6 +458557,9 @@
+@@ -442993,6 +458559,9 @@
  xref: MetaCyc:RXN-14347
  xref: RHEA:39063
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -59824,7 +59852,7 @@
  
  [Term]
  id: GO:0102498
-@@ -443070,7 +458637,10 @@
+@@ -443070,7 +458639,10 @@
  xref: MetaCyc:RXN-13967
  xref: RHEA:35427
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -59835,7 +59863,7 @@
  
  [Term]
  id: GO:0102507
-@@ -443178,7 +458748,9 @@
+@@ -443178,7 +458750,9 @@
  xref: MetaCyc:RXN-14487
  xref: RHEA:55956
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -59845,7 +59873,7 @@
  
  [Term]
  id: GO:0102518
-@@ -443209,6 +458781,9 @@
+@@ -443209,6 +458783,9 @@
  xref: RHEA:36347
  is_a: GO:0016833 ! oxo-acid-lyase activity
  is_a: GO:0140101 ! catalytic activity, acting on a tRNA
@@ -59855,7 +59883,7 @@
  
  [Term]
  id: GO:0102522
-@@ -443220,6 +458795,9 @@
+@@ -443220,6 +458797,9 @@
  xref: RHEA:36355
  is_a: GO:0016765 ! transferase activity, transferring alkyl or aryl (other than methyl) groups
  is_a: GO:0140101 ! catalytic activity, acting on a tRNA
@@ -59865,7 +59893,7 @@
  
  [Term]
  id: GO:0102523
-@@ -443230,6 +458808,9 @@
+@@ -443230,6 +458810,9 @@
  xref: MetaCyc:RXN-14536
  xref: RHEA:36591
  is_a: GO:0016628 ! oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor
@@ -59875,7 +59903,7 @@
  
  [Term]
  id: GO:0102524
-@@ -443242,6 +458823,9 @@
+@@ -443242,6 +458825,9 @@
  xref: RHEA:37899
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
  is_a: GO:0140101 ! catalytic activity, acting on a tRNA
@@ -59885,7 +59913,7 @@
  
  [Term]
  id: GO:0102525
-@@ -443252,6 +458836,9 @@
+@@ -443252,6 +458838,9 @@
  xref: MetaCyc:RXN-14542
  xref: RHEA:36607
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
@@ -59895,7 +59923,7 @@
  
  [Term]
  id: GO:0102526
-@@ -443262,6 +458849,9 @@
+@@ -443262,6 +458851,9 @@
  xref: MetaCyc:RXN-14543
  xref: RHEA:36651
  is_a: GO:0008168 ! methyltransferase activity
@@ -59905,7 +59933,7 @@
  
  [Term]
  id: GO:0102527
-@@ -443272,6 +458862,9 @@
+@@ -443272,6 +458864,9 @@
  xref: MetaCyc:RXN-14547
  xref: RHEA:36699
  is_a: GO:0016880 ! acid-ammonia (or amide) ligase activity
@@ -59915,7 +59943,7 @@
  
  [Term]
  id: GO:0102528
-@@ -443290,6 +458883,8 @@
+@@ -443290,6 +458885,8 @@
  xref: MetaCyc:RXN-14661
  xref: RHEA:73071
  is_a: GO:0008168 ! methyltransferase activity
@@ -59924,7 +59952,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -443299,9 +458894,17 @@
+@@ -443299,9 +458896,17 @@
  def: "Catalysis of the reaction: aclacinomycin T(1+) + H2O = 15-demethylaclacinomycin T + methanol + H+." [EC:3.1.1.95, GOC:pz]
  xref: EC:3.1.1.95
  xref: MetaCyc:RXN-14703
@@ -59942,7 +59970,7 @@
  
  [Term]
  id: GO:0102531
-@@ -443310,7 +458913,16 @@
+@@ -443310,7 +458915,16 @@
  def: "Catalysis of the reaction: H2O + an ecdysteroid 22-phosphate = phosphate + an ecdysteroid. Also has activity towards other ecdysteriod phosphates including 20-hydroxyecdysone 22-phosphate (20E22P) and 2-deoxyecdysone 22-phosphate (2dE22P)." [MetaCyc:RXN-14734, PMID:12721294]
  synonym: "ecdysone-phosphate phosphatase activity" NARROW []
  xref: MetaCyc:RXN-14734
@@ -59959,7 +59987,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28862" xsd:anyURI
  
  [Term]
-@@ -443321,6 +458933,8 @@
+@@ -443321,6 +458935,8 @@
  xref: MetaCyc:RXN-14748
  xref: RHEA:73427
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -59968,7 +59996,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -443331,6 +458945,8 @@
+@@ -443331,6 +458947,8 @@
  xref: MetaCyc:RXN-14750
  xref: RHEA:73263
  is_a: GO:0008168 ! methyltransferase activity
@@ -59977,7 +60005,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -443341,6 +458957,8 @@
+@@ -443341,6 +458959,8 @@
  xref: MetaCyc:RXN-14751
  xref: RHEA:73435
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -59986,7 +60014,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -443351,6 +458969,8 @@
+@@ -443351,6 +458971,8 @@
  xref: MetaCyc:RXN-14752
  xref: RHEA:73247
  is_a: GO:0008168 ! methyltransferase activity
@@ -59995,7 +60023,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -443361,6 +458981,8 @@
+@@ -443361,6 +458983,8 @@
  xref: MetaCyc:RXN-14754
  xref: RHEA:73431
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -60004,7 +60032,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -443377,9 +458999,17 @@
+@@ -443377,9 +459001,17 @@
  id: GO:0102538
  name: UDP-N-acetyl-alpha-D-quinovosamine dehydrogenase activity
  namespace: molecular_function
@@ -60023,7 +60051,7 @@
  
  [Term]
  id: GO:0102539
-@@ -443439,14 +459069,21 @@
+@@ -443439,14 +459071,21 @@
  
  [Term]
  id: GO:0102545
@@ -60048,7 +60076,7 @@
  
  [Term]
  id: GO:0102546
-@@ -443457,6 +459094,9 @@
+@@ -443457,6 +459096,9 @@
  xref: MetaCyc:RXN-14900
  xref: RHEA:58456
  is_a: GO:0016803 ! ether hydrolase activity
@@ -60058,7 +60086,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -443468,6 +459108,9 @@
+@@ -443468,6 +459110,9 @@
  xref: MetaCyc:RXN-14901
  xref: RHEA:32059
  is_a: GO:0016803 ! ether hydrolase activity
@@ -60068,7 +60096,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -443489,6 +459132,9 @@
+@@ -443489,6 +459134,9 @@
  xref: MetaCyc:RXN-14917
  xref: RHEA:38007
  is_a: GO:0008168 ! methyltransferase activity
@@ -60078,7 +60106,7 @@
  
  [Term]
  id: GO:0102551
-@@ -443540,6 +459186,9 @@
+@@ -443540,6 +459188,9 @@
  xref: MetaCyc:RXN-14975
  xref: RHEA:38579
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -60088,7 +60116,7 @@
  
  [Term]
  id: GO:0102557
-@@ -443550,6 +459199,9 @@
+@@ -443550,6 +459201,9 @@
  xref: MetaCyc:RXN-14978
  xref: RHEA:22272
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -60098,7 +60126,7 @@
  
  [Term]
  id: GO:0102559
-@@ -443561,6 +459213,8 @@
+@@ -443561,6 +459215,8 @@
  xref: MetaCyc:RXN-14992
  xref: RHEA:42896
  is_a: GO:0036009 ! protein-glutamine N-methyltransferase activity
@@ -60107,7 +60135,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29860" xsd:anyURI
  
  [Term]
-@@ -443583,7 +459237,12 @@
+@@ -443583,7 +459239,12 @@
  synonym: "D-ribose 2,5-bisphosphate 2-phosphohydrolase activity" RELATED []
  xref: EC:3.1.4.57
  xref: MetaCyc:RXN-14996
@@ -60120,7 +60148,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -443649,9 +459308,15 @@
+@@ -443649,9 +459310,15 @@
  def: "Catalysis of the reaction: 3-O-(N-acetyl-beta-D-glucosaminyl)-L-seryl/L-threonyl-[protein] + H2O = L-seryl//L-threonyl-[protein] + N-acetyl-D-glucosamine." [EC:3.2.1.169]
  xref: EC:3.2.1.169
  xref: MetaCyc:RXN-15215
@@ -60136,7 +60164,7 @@
  
  [Term]
  id: GO:0102572
-@@ -443661,6 +459326,8 @@
+@@ -443661,6 +459328,8 @@
  xref: MetaCyc:RXN-15251
  xref: RHEA:50684
  is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
@@ -60145,7 +60173,7 @@
  
  [Term]
  id: GO:0102573
-@@ -443671,6 +459338,9 @@
+@@ -443671,6 +459340,9 @@
  xref: MetaCyc:RXN-15264
  xref: RHEA:33075
  is_a: GO:0016765 ! transferase activity, transferring alkyl or aryl (other than methyl) groups
@@ -60155,7 +60183,7 @@
  
  [Term]
  id: GO:0102574
-@@ -443721,6 +459391,9 @@
+@@ -443721,6 +459393,9 @@
  xref: MetaCyc:RXN-15326
  xref: RHEA:35443
  is_a: GO:0016763 ! pentosyltransferase activity
@@ -60165,7 +60193,7 @@
  
  [Term]
  id: GO:0102581
-@@ -443767,6 +459440,8 @@
+@@ -443767,6 +459442,8 @@
  xref: MetaCyc:RXN-15331
  xref: RHEA:72871
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -60174,7 +60202,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -443869,6 +459544,9 @@
+@@ -443869,6 +459546,9 @@
  xref: MetaCyc:RXN-15379
  xref: RHEA:41464
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -60184,7 +60212,7 @@
  
  [Term]
  id: GO:0102597
-@@ -443879,6 +459557,9 @@
+@@ -443879,6 +459559,9 @@
  xref: MetaCyc:RXN-15381
  xref: RHEA:41468
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -60194,7 +60222,7 @@
  
  [Term]
  id: GO:0102598
-@@ -443889,6 +459570,9 @@
+@@ -443889,6 +459572,9 @@
  xref: MetaCyc:RXN-15382
  xref: RHEA:41472
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -60204,7 +60232,7 @@
  
  [Term]
  id: GO:0102599
-@@ -443916,8 +459600,14 @@
+@@ -443916,8 +459602,14 @@
  synonym: "cytochrome P450 dependent beta-amyrin 16beta-hydroxylase activity" EXACT []
  xref: EC:1.14.14.63
  xref: MetaCyc:RXN-15385
@@ -60219,7 +60247,7 @@
  
  [Term]
  id: GO:0102602
-@@ -444005,6 +459695,8 @@
+@@ -444005,6 +459697,8 @@
  xref: MetaCyc:RXN-15454
  xref: RHEA:48992
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -60228,7 +60256,7 @@
  
  [Term]
  id: GO:0102614
-@@ -444015,6 +459707,9 @@
+@@ -444015,6 +459709,9 @@
  xref: MetaCyc:RXN-15460
  xref: RHEA:57964
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -60238,7 +60266,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -444101,6 +459796,8 @@
+@@ -444101,6 +459798,8 @@
  xref: MetaCyc:RXN-15528
  xref: RHEA:73243
  is_a: GO:0008168 ! methyltransferase activity
@@ -60247,7 +60275,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -444111,6 +459808,8 @@
+@@ -444111,6 +459810,8 @@
  xref: MetaCyc:RXN-15529
  xref: RHEA:73239
  is_a: GO:0008168 ! methyltransferase activity
@@ -60256,7 +60284,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -444121,6 +459820,8 @@
+@@ -444121,6 +459822,8 @@
  xref: MetaCyc:RXN-15530
  xref: RHEA:73251
  is_a: GO:0008168 ! methyltransferase activity
@@ -60265,7 +60293,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -444131,7 +459832,9 @@
+@@ -444131,7 +459834,9 @@
  xref: MetaCyc:RXN-15531
  xref: RHEA:61320
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -60275,7 +60303,7 @@
  
  [Term]
  id: GO:0102627
-@@ -444141,6 +459844,8 @@
+@@ -444141,6 +459846,8 @@
  xref: MetaCyc:RXN-15532
  xref: RHEA:61328
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -60284,7 +60312,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -444188,7 +459893,10 @@
+@@ -444188,7 +459895,10 @@
  xref: MetaCyc:RXN-15538
  xref: RHEA:50364
  is_a: GO:0016717 ! oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water
@@ -60295,7 +60323,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30815" xsd:anyURI
  
  [Term]
-@@ -444216,6 +459924,8 @@
+@@ -444216,6 +459926,8 @@
  xref: MetaCyc:RXN-15607
  xref: RHEA:47716
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -60304,7 +60332,7 @@
  
  [Term]
  id: GO:0102636
-@@ -444374,8 +460084,17 @@
+@@ -444374,8 +460086,17 @@
  synonym: "1-18:1-2-16:0-phosphatidylglycerol trans-3 desaturase activity" RELATED []
  xref: EC:1.14.19.43
  xref: MetaCyc:RXN-16053
@@ -60322,7 +60350,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28362" xsd:anyURI
  
-@@ -444525,6 +460244,9 @@
+@@ -444525,6 +460246,9 @@
  xref: MetaCyc:RXN-3624
  xref: RHEA:31371
  is_a: GO:0008168 ! methyltransferase activity
@@ -60332,7 +60360,7 @@
  
  [Term]
  id: GO:0102671
-@@ -444535,6 +460257,9 @@
+@@ -444535,6 +460259,9 @@
  xref: MetaCyc:RXN-4002
  xref: RHEA:35471
  is_a: GO:0008168 ! methyltransferase activity
@@ -60342,7 +60370,7 @@
  
  [Term]
  id: GO:0102672
-@@ -444546,6 +460271,9 @@
+@@ -444546,6 +460273,9 @@
  xref: MetaCyc:RXN-4121
  xref: RHEA:63508
  is_a: GO:0016702 ! oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen
@@ -60352,7 +60380,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -444557,6 +460285,7 @@
+@@ -444557,6 +460287,7 @@
  xref: MetaCyc:RXN-4142
  xref: RHEA:49832
  is_a: GO:0004029 ! aldehyde dehydrogenase (NAD+) activity
@@ -60360,7 +60388,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28142" xsd:anyURI
  
  [Term]
-@@ -444642,7 +460371,10 @@
+@@ -444642,7 +460373,10 @@
  xref: MetaCyc:RXN-4313
  xref: RHEA:48560
  is_a: GO:0016799 ! hydrolase activity, hydrolyzing N-glycosyl compounds
@@ -60371,7 +60399,7 @@
  
  [Term]
  id: GO:0102684
-@@ -444653,6 +460385,9 @@
+@@ -444653,6 +460387,9 @@
  xref: MetaCyc:RXN-4602
  xref: RHEA:33263
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -60381,7 +60409,7 @@
  
  [Term]
  id: GO:0102685
-@@ -444780,6 +460515,9 @@
+@@ -444780,6 +460517,9 @@
  xref: MetaCyc:RXN-4781
  xref: RHEA:28635
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -60391,7 +60419,7 @@
  
  [Term]
  id: GO:0102699
-@@ -444808,6 +460546,9 @@
+@@ -444808,6 +460548,9 @@
  xref: MetaCyc:RXN-5121
  xref: RHEA:32687
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -60401,7 +60429,7 @@
  
  [Term]
  id: GO:0102702
-@@ -444826,6 +460567,9 @@
+@@ -444826,6 +460569,9 @@
  xref: MetaCyc:RXN-5142
  xref: RHEA:25484
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -60411,7 +60439,7 @@
  
  [Term]
  id: GO:0102704
-@@ -444837,8 +460581,11 @@
+@@ -444837,8 +460583,11 @@
  xref: RHEA:29519
  is_a: GO:0000009 ! alpha-1,6-mannosyltransferase activity
  is_a: GO:0120562 ! GlcNAc(2)-PP-Dol mannosyltransferase activity
@@ -60423,7 +60451,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30326" xsd:anyURI
  
  [Term]
-@@ -444849,6 +460596,8 @@
+@@ -444849,6 +460598,8 @@
  xref: MetaCyc:RXN-5641
  xref: RHEA:45824
  is_a: GO:0016831 ! carboxy-lyase activity
@@ -60432,7 +60460,7 @@
  
  [Term]
  id: GO:0102706
-@@ -444897,6 +460646,9 @@
+@@ -444897,6 +460648,9 @@
  xref: MetaCyc:RXN-6501
  xref: RHEA:26188
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -60442,7 +60470,7 @@
  
  [Term]
  id: GO:0102711
-@@ -444973,6 +460725,9 @@
+@@ -444973,6 +460727,9 @@
  xref: MetaCyc:RXN-6685
  xref: RHEA:32115
  is_a: GO:0050498 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, with 2-oxoglutarate as one donor, and the other dehydrogenated
@@ -60452,7 +60480,7 @@
  
  [Term]
  id: GO:0102718
-@@ -444983,6 +460738,9 @@
+@@ -444983,6 +460740,9 @@
  xref: MetaCyc:RXN-6687
  xref: RHEA:32099
  is_a: GO:0008168 ! methyltransferase activity
@@ -60462,7 +60490,7 @@
  
  [Term]
  id: GO:0102719
-@@ -445000,7 +460758,14 @@
+@@ -445000,7 +460760,14 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: acetyl-CoA + benzyl alcohol = benzyl acetate + CoA. Also converts (E)-cinnamyl alcohol into (E)-cinnamyl acetate." [EC:2.3.1.224]
  xref: EC:2.3.1.224
@@ -60477,7 +60505,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -445012,6 +460777,9 @@
+@@ -445012,6 +460779,9 @@
  xref: MetaCyc:RXN-6883
  xref: RHEA:30255
  is_a: GO:0016682 ! oxidoreductase activity, acting on diphenols and related substances as donors, oxygen as acceptor
@@ -60487,7 +60515,7 @@
  
  [Term]
  id: GO:0102722
-@@ -445058,6 +460826,9 @@
+@@ -445058,6 +460828,9 @@
  xref: MetaCyc:RXN-7082
  xref: RHEA:33975
  is_a: GO:0004553 ! hydrolase activity, hydrolyzing O-glycosyl compounds
@@ -60497,7 +60525,7 @@
  
  [Term]
  id: GO:0102727
-@@ -445105,6 +460876,7 @@
+@@ -445105,6 +460878,7 @@
  synonym: "D-myo-inositol (1,3,4,6)-tetrakisphosphate 2-kinase activity" EXACT []
  xref: MetaCyc:RXN-7185
  is_a: GO:0051765 ! inositol tetrakisphosphate kinase activity
@@ -60505,7 +60533,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28385" xsd:anyURI
  
  [Term]
-@@ -445117,6 +460889,8 @@
+@@ -445117,6 +460891,8 @@
  synonym: "inositol-pentakisphosphate 5-kinase activity" BROAD []
  xref: MetaCyc:RXN-7186
  is_a: GO:0120517 ! inositol pentakisphosphate kinase activity
@@ -60514,7 +60542,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28385" xsd:anyURI
  
  [Term]
-@@ -445135,7 +460909,15 @@
+@@ -445135,7 +460911,15 @@
  def: "Catalysis of the reaction: castasterone + O2 + reduced [NADPH--hemoprotein reductase] = brassinolide + H+ + H2O + oxidized [NADPH--hemoprotein reductase]. Broad specificity for several brassinosteroids, including castasterone, teasterone, and typhasterol." [EC:1.14.14.180]
  xref: EC:1.14.14.180
  xref: MetaCyc:RXN-720
@@ -60530,7 +60558,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -445147,6 +460929,9 @@
+@@ -445147,6 +460931,9 @@
  xref: MetaCyc:RXN-7481
  xref: RHEA:35143
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -60540,7 +60568,7 @@
  
  [Term]
  id: GO:0102737
-@@ -445197,7 +460982,18 @@
+@@ -445197,7 +460984,18 @@
  synonym: "paraxanthine:S-adenosyl-L-methionine 3-N-methyltransferase activity" NARROW []
  synonym: "theobromine:S-adenosyl-L-methionine 1-N-methyltransferase activity" NARROW []
  xref: EC:2.1.1.160
@@ -60559,7 +60587,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -445350,6 +461146,8 @@
+@@ -445350,6 +461148,8 @@
  xref: MetaCyc:RXN-7703
  xref: RHEA:60664
  is_a: GO:0016791 ! phosphatase activity
@@ -60568,7 +60596,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -445361,8 +461159,11 @@
+@@ -445361,8 +461161,11 @@
  xref: MetaCyc:RXN-7711
  xref: RHEA:14473
  is_a: GO:0016628 ! oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor
@@ -60580,7 +60608,7 @@
  
  [Term]
  id: GO:0102759
-@@ -445392,6 +461193,8 @@
+@@ -445392,6 +461195,8 @@
  xref: MetaCyc:RXN-7753
  xref: RHEA:60948
  is_a: GO:0008168 ! methyltransferase activity
@@ -60589,7 +60617,7 @@
  
  [Term]
  id: GO:0102762
-@@ -445409,7 +461212,9 @@
+@@ -445409,7 +461214,9 @@
  xref: MetaCyc:RXN-7763
  xref: RHEA:38099
  is_a: GO:0016776 ! phosphotransferase activity, phosphate group as acceptor
@@ -60599,7 +60627,7 @@
  
  [Term]
  id: GO:0102764
-@@ -445428,7 +461233,9 @@
+@@ -445428,7 +461235,9 @@
  xref: MetaCyc:RXN-7770
  xref: RHEA:70523
  is_a: GO:0016831 ! carboxy-lyase activity
@@ -60609,7 +60637,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30235" xsd:anyURI
  
  [Term]
-@@ -445440,6 +461247,9 @@
+@@ -445440,6 +461249,9 @@
  xref: MetaCyc:RXN-7773
  xref: RHEA:31539
  is_a: GO:0008168 ! methyltransferase activity
@@ -60619,7 +60647,7 @@
  
  [Term]
  id: GO:0102767
-@@ -445450,7 +461260,10 @@
+@@ -445450,7 +461262,10 @@
  xref: MetaCyc:RXN-12719
  xref: RHEA:31743
  is_a: GO:0008168 ! methyltransferase activity
@@ -60630,7 +60658,7 @@
  
  [Term]
  id: GO:0102768
-@@ -445478,6 +461291,7 @@
+@@ -445478,6 +461293,7 @@
  def: "Catalysis of the reaction: an L-1-phosphatidyl-inositol + a dihydroceramide = an inositol phosphodihydroceramide + a 1,2-diacyl-sn-glycerol." [MetaCyc:RXN-7795]
  xref: MetaCyc:RXN-7795
  is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
@@ -60638,7 +60666,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -445491,6 +461305,9 @@
+@@ -445491,6 +461307,9 @@
  xref: MetaCyc:RXN-7796
  xref: RHEA:46512
  is_a: GO:0080132 ! fatty acid 2-hydroxylase activity
@@ -60648,7 +60676,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27540" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27541" xsd:anyURI
  
-@@ -445502,10 +461319,12 @@
+@@ -445502,10 +461321,12 @@
  synonym: "sphingolipid long-chain base 4-hydroxylase activity" RELATED []
  xref: EC:1.14.18.5
  xref: MetaCyc:RXN-14250
@@ -60662,7 +60690,7 @@
  
  [Term]
  id: GO:0102773
-@@ -445563,6 +461382,9 @@
+@@ -445563,6 +461384,9 @@
  xref: MetaCyc:RXN-7854
  xref: RHEA:34135
  is_a: GO:0046993 ! oxidoreductase activity, acting on X-H and Y-H to form an X-Y bond, with oxygen as acceptor
@@ -60672,7 +60700,7 @@
  
  [Term]
  id: GO:0102779
-@@ -445573,6 +461395,9 @@
+@@ -445573,6 +461397,9 @@
  xref: MetaCyc:RXN-7855
  xref: RHEA:34411
  is_a: GO:0046993 ! oxidoreductase activity, acting on X-H and Y-H to form an X-Y bond, with oxygen as acceptor
@@ -60682,7 +60710,7 @@
  
  [Term]
  id: GO:0102780
-@@ -445703,6 +461528,9 @@
+@@ -445703,6 +461530,9 @@
  xref: MetaCyc:RXN-8086
  xref: RHEA:31475
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -60692,7 +60720,7 @@
  
  [Term]
  id: GO:0102794
-@@ -445782,6 +461610,9 @@
+@@ -445782,6 +461612,9 @@
  xref: MetaCyc:RXN-8139
  xref: RHEA:35515
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -60702,7 +60730,7 @@
  
  [Term]
  id: GO:0102802
-@@ -445792,6 +461623,9 @@
+@@ -445792,6 +461625,9 @@
  xref: MetaCyc:RXN-8147
  xref: RHEA:27477
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
@@ -60712,7 +60740,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  
  [Term]
-@@ -445822,7 +461656,12 @@
+@@ -445822,7 +461658,12 @@
  xref: EC:1.14.11.32
  xref: MetaCyc:RXN-8152
  xref: RHEA:27413
@@ -60725,7 +60753,7 @@
  
  [Term]
  id: GO:0102806
-@@ -445869,7 +461708,10 @@
+@@ -445869,7 +461710,10 @@
  xref: MetaCyc:RXN-8182
  xref: RHEA:57832
  is_a: GO:0016620 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor
@@ -60736,7 +60764,7 @@
  
  [Term]
  id: GO:0102811
-@@ -445880,6 +461722,9 @@
+@@ -445880,6 +461724,9 @@
  xref: MetaCyc:RXN-8197
  xref: RHEA:32495
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -60746,7 +60774,7 @@
  
  [Term]
  id: GO:0102812
-@@ -445927,6 +461772,9 @@
+@@ -445927,6 +461774,9 @@
  xref: MetaCyc:RXN-8234
  xref: RHEA:35423
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -60756,7 +60784,7 @@
  
  [Term]
  id: GO:0102817
-@@ -445985,6 +461833,9 @@
+@@ -445985,6 +461835,9 @@
  xref: RHEA:55332
  is_a: GO:0008171 ! O-methyltransferase activity
  is_a: GO:0008757 ! S-adenosylmethionine-dependent methyltransferase activity
@@ -60766,7 +60794,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -446180,8 +462031,17 @@
+@@ -446180,8 +462033,17 @@
  synonym: "1-18:2-2-16:0-monogalactosyldiacylglycerol desaturase activity (SN2-16:1 forming)" EXACT []
  xref: EC:1.14.19.42
  xref: MetaCyc:RXN-16048
@@ -60784,7 +60812,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28363" xsd:anyURI
  
-@@ -446251,8 +462111,28 @@
+@@ -446251,8 +462113,28 @@
  def: "Catalysis of the reaction: a (9Z)-octadecenoyl-containing glycerolipid + 2 H+ + O2 + 2 reduced [2Fe-2S]-[ferredoxin] = a (9Z,12Z)-octadecadienoyl-containing glycerolipid + 2 H2O + 2 oxidized [2Fe-2S]-[ferredoxin]." [RHEA:46376]
  synonym: "1-18:1-2-16:0-phosphatidylglycerol omega-6 desaturase activity" EXACT []
  xref: EC:1.14.19.23
@@ -60813,7 +60841,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -446322,8 +462202,23 @@
+@@ -446322,8 +462204,23 @@
  synonym: "1-18:1-2-18:2-phosphatidylcholine desaturase activity (SN2-18:3 forming)" EXACT []
  xref: EC:1.14.19.25
  xref: MetaCyc:RXN-16046
@@ -60837,7 +60865,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -446365,6 +462260,9 @@
+@@ -446365,6 +462262,9 @@
  xref: MetaCyc:RXN-8343
  xref: RHEA:46536
  is_a: GO:0016717 ! oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water
@@ -60847,7 +60875,7 @@
  
  [Term]
  id: GO:0102866
-@@ -446375,7 +462273,16 @@
+@@ -446375,7 +462275,16 @@
  synonym: "Delta(5)-fatty-acid desaturase activity" EXACT []
  synonym: "di-homo-gamma-linolenate delta5 desaturase activity" RELATED []
  xref: EC:1.14.19.30
@@ -60864,7 +60892,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -446464,6 +462371,9 @@
+@@ -446464,6 +462373,9 @@
  xref: MetaCyc:RXN-8386
  xref: RHEA:19281
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -60874,7 +60902,7 @@
  
  [Term]
  id: GO:0102877
-@@ -446474,6 +462384,9 @@
+@@ -446474,6 +462386,9 @@
  xref: MetaCyc:RXN-8416
  xref: RHEA:33991
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -60884,7 +60912,7 @@
  
  [Term]
  id: GO:0102878
-@@ -446484,6 +462397,8 @@
+@@ -446484,6 +462399,8 @@
  xref: MetaCyc:RXN-8417
  xref: RHEA:29499
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -60893,7 +60921,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28819#issuecomment-2328362565" xsd:anyURI
  
  [Term]
-@@ -446495,6 +462410,9 @@
+@@ -446495,6 +462412,9 @@
  xref: MetaCyc:RXN-8418
  xref: RHEA:30375
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -60903,7 +60931,7 @@
  
  [Term]
  id: GO:0102880
-@@ -446513,6 +462431,7 @@
+@@ -446513,6 +462433,7 @@
  xref: MetaCyc:RXN-8421
  xref: RHEA:73983
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -60911,7 +60939,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28819" xsd:anyURI
  
  [Term]
-@@ -446523,6 +462442,8 @@
+@@ -446523,6 +462444,8 @@
  xref: MetaCyc:RXN-8423
  xref: RHEA:68520
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -60920,7 +60948,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  
  [Term]
-@@ -446534,6 +462455,8 @@
+@@ -446534,6 +462457,8 @@
  xref: MetaCyc:RXN-8424
  xref: RHEA:30379
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -60929,7 +60957,7 @@
  
  [Term]
  id: GO:0102884
-@@ -446544,6 +462467,9 @@
+@@ -446544,6 +462469,9 @@
  xref: MetaCyc:RXN-8425
  xref: RHEA:28643
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -60939,7 +60967,7 @@
  
  [Term]
  id: GO:0102885
-@@ -446554,6 +462480,9 @@
+@@ -446554,6 +462482,9 @@
  xref: MetaCyc:RXN-8426
  xref: RHEA:32027
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -60949,7 +60977,7 @@
  
  [Term]
  id: GO:0102886
-@@ -446573,6 +462502,9 @@
+@@ -446573,6 +462504,9 @@
  xref: MetaCyc:RXN-8430
  xref: RHEA:32699
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -60959,7 +60987,7 @@
  
  [Term]
  id: GO:0102888
-@@ -446599,8 +462531,18 @@
+@@ -446599,8 +462533,18 @@
  def: "Catalysis of the reaction: UDP-alpha-D-glucose + 2',4,4',6'-tetrahydroxychalcone = UDP + 2',4,4',6'-tetrahydroxychalcone 4'-O-beta-D-glucoside + H+. Also converts 2',3,4,4',6'-pentahydroxychalcone + UDP-alpha-D-glucose into 2',3,4,4',6'-pentahydroxychalcone 4'-O-beta-D-glucoside." [EC:2.4.1.286]
  synonym: "naringenin chalcone 4'-O-glucosyltransferase activity" NARROW []
  xref: EC:2.4.1.286
@@ -60978,7 +61006,7 @@
  
  [Term]
  id: GO:0102891
-@@ -446646,6 +462588,9 @@
+@@ -446646,6 +462590,9 @@
  xref: MetaCyc:RXN-8496
  xref: RHEA:28174
  is_a: GO:0016836 ! hydro-lyase activity
@@ -60988,7 +61016,7 @@
  
  [Term]
  id: GO:0102896
-@@ -446719,6 +462664,9 @@
+@@ -446719,6 +462666,9 @@
  xref: MetaCyc:RXN-8547
  xref: RHEA:32559
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -60998,7 +61026,7 @@
  
  [Term]
  id: GO:0102904
-@@ -446729,6 +462677,9 @@
+@@ -446729,6 +462679,9 @@
  xref: MetaCyc:RXN-8561
  xref: RHEA:28302
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -61008,7 +61036,7 @@
  
  [Term]
  id: GO:0102905
-@@ -446739,6 +462690,9 @@
+@@ -446739,6 +462692,9 @@
  xref: MetaCyc:RXN-8608
  xref: RHEA:29511
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -61018,7 +61046,7 @@
  
  [Term]
  id: GO:0102906
-@@ -446749,6 +462703,9 @@
+@@ -446749,6 +462705,9 @@
  xref: MetaCyc:RXN-8609
  xref: RHEA:30383
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -61028,7 +61056,7 @@
  
  [Term]
  id: GO:0102907
-@@ -446802,11 +462759,16 @@
+@@ -446802,11 +462761,16 @@
  id: GO:0102913
  name: 3-aminomethylindole N-methyltransferase activity
  namespace: molecular_function
@@ -61048,7 +61076,7 @@
  
  [Term]
  id: GO:0102914
-@@ -446823,7 +462785,16 @@
+@@ -446823,7 +462787,16 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: H+ + (+)-pinoresinol + NADPH + O2 = (+)-piperitol + NADP + 2 H2O." [EC:1.14.19.74, PMID:16785429]
  xref: EC:1.14.19.74
@@ -61065,7 +61093,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -446844,7 +462815,16 @@
+@@ -446844,7 +462817,16 @@
  synonym: "(R)-reticuline 7-O-methyltransferase activity" EXACT []
  synonym: "(S)-reticuline 7-O-methyltransferase activity" EXACT []
  xref: EC:2.1.1.291
@@ -61082,7 +61110,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  
-@@ -446867,6 +462847,9 @@
+@@ -446867,6 +462849,9 @@
  xref: MetaCyc:RXN-8771
  xref: RHEA:27345
  is_a: GO:0016702 ! oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen
@@ -61092,7 +61120,7 @@
  
  [Term]
  id: GO:0102920
-@@ -446887,6 +462870,9 @@
+@@ -446887,6 +462872,9 @@
  xref: MetaCyc:RXN-8849
  xref: RHEA:30639
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -61102,7 +61130,7 @@
  
  [Term]
  id: GO:0102922
-@@ -446896,6 +462882,8 @@
+@@ -446896,6 +462884,8 @@
  xref: MetaCyc:RXN-8857
  xref: RHEA:42488
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -61111,7 +61139,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -446906,6 +462894,8 @@
+@@ -446906,6 +462896,8 @@
  xref: MetaCyc:RXN-8859
  xref: RHEA:33687
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -61120,7 +61148,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -446974,6 +462964,9 @@
+@@ -446974,6 +462966,9 @@
  xref: MetaCyc:RXN-8920
  xref: RHEA:27854
  is_a: GO:0016765 ! transferase activity, transferring alkyl or aryl (other than methyl) groups
@@ -61130,7 +61158,7 @@
  
  [Term]
  id: GO:0102931
-@@ -447001,6 +462994,9 @@
+@@ -447001,6 +462996,9 @@
  xref: MetaCyc:RXN-8953
  xref: RHEA:36779
  is_a: GO:0008483 ! transaminase activity
@@ -61140,7 +61168,7 @@
  
  [Term]
  id: GO:0102934
-@@ -447011,6 +463007,9 @@
+@@ -447011,6 +463009,9 @@
  xref: MetaCyc:RXN-8971
  xref: RHEA:28230
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -61150,7 +61178,7 @@
  
  [Term]
  id: GO:0102935
-@@ -447092,6 +463091,9 @@
+@@ -447092,6 +463093,9 @@
  xref: MetaCyc:RXN-9031
  xref: RHEA:28182
  is_a: GO:0016863 ! intramolecular oxidoreductase activity, transposing C=C bonds
@@ -61160,7 +61188,7 @@
  
  [Term]
  id: GO:0102944
-@@ -447215,8 +463217,14 @@
+@@ -447215,8 +463219,14 @@
  xref: EC:1.1.1.295
  xref: MetaCyc:RXN-9290
  xref: RHEA:25363
@@ -61175,7 +61203,7 @@
  
  [Term]
  id: GO:0102963
-@@ -447227,7 +463235,10 @@
+@@ -447227,7 +463237,10 @@
  xref: MetaCyc:RXN-9314
  xref: RHEA:51540
  is_a: GO:0016717 ! oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water
@@ -61186,7 +61214,7 @@
  
  [Term]
  id: GO:0102964
-@@ -447237,6 +463248,9 @@
+@@ -447237,6 +463250,9 @@
  xref: MetaCyc:RXN-9315
  xref: RHEA:51524
  is_a: GO:0008168 ! methyltransferase activity
@@ -61196,7 +61224,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -447250,8 +463264,11 @@
+@@ -447250,8 +463266,11 @@
  xref: MetaCyc:RXN-9344
  xref: RHEA:52716
  is_a: GO:0016620 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor
@@ -61208,7 +61236,7 @@
  
  [Term]
  id: GO:0102966
-@@ -447271,6 +463288,8 @@
+@@ -447271,6 +463290,8 @@
  xref: MetaCyc:RXN-9367
  xref: RHEA:32607
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -61217,7 +61245,7 @@
  
  [Term]
  id: GO:0102968
-@@ -447280,6 +463299,8 @@
+@@ -447280,6 +463301,8 @@
  xref: MetaCyc:RXN-9369
  xref: RHEA:32611
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -61226,7 +61254,7 @@
  
  [Term]
  id: GO:0102969
-@@ -447289,6 +463310,8 @@
+@@ -447289,6 +463312,8 @@
  xref: MetaCyc:RXN-9370
  xref: RHEA:32615
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -61235,7 +61263,7 @@
  
  [Term]
  id: GO:0102970
-@@ -447299,6 +463322,9 @@
+@@ -447299,6 +463324,9 @@
  xref: MetaCyc:RXN-9372
  xref: RHEA:39895
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -61245,7 +61273,7 @@
  
  [Term]
  id: GO:0102971
-@@ -447309,6 +463335,9 @@
+@@ -447309,6 +463337,9 @@
  xref: MetaCyc:RXN-9382
  xref: RHEA:12597
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -61255,7 +61283,7 @@
  
  [Term]
  id: GO:0102972
-@@ -447331,6 +463360,9 @@
+@@ -447331,6 +463362,9 @@
  xref: MetaCyc:RXN-9479
  xref: RHEA:35179
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -61265,7 +61293,7 @@
  
  [Term]
  id: GO:0102974
-@@ -447340,6 +463372,8 @@
+@@ -447340,6 +463374,8 @@
  xref: MetaCyc:RXN-9489
  xref: RHEA:35691
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -61274,7 +61302,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -447350,6 +463384,8 @@
+@@ -447350,6 +463386,8 @@
  xref: MetaCyc:RXN-9490
  xref: RHEA:35695
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -61283,7 +61311,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -447360,6 +463396,8 @@
+@@ -447360,6 +463398,8 @@
  xref: MetaCyc:RXN-9491
  xref: RHEA:35699
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -61292,7 +61320,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -447379,8 +463417,17 @@
+@@ -447379,8 +463419,17 @@
  def: "Catalysis of the reaction: 4-hydroxy-2,5-dimethylfuran-3-one + NADP = 4-hydroxy-5-methyl-2-methylenefuran-3-one + NADPH + H+." [EC:1.3.1.105, GOC:pz]
  xref: EC:1.3.1.105
  xref: MetaCyc:RXN-9563
@@ -61310,7 +61338,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  
  [Term]
-@@ -447421,7 +463468,9 @@
+@@ -447421,7 +463470,9 @@
  xref: MetaCyc:RXN-9578
  xref: RHEA:35755
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -61320,7 +61348,7 @@
  
  [Term]
  id: GO:0102983
-@@ -447431,6 +463480,8 @@
+@@ -447431,6 +463482,8 @@
  xref: EC:2.4.2.41
  xref: MetaCyc:RXN-9589
  is_a: GO:0016763 ! pentosyltransferase activity
@@ -61329,7 +61357,7 @@
  
  [Term]
  id: GO:0102984
-@@ -447441,6 +463492,9 @@
+@@ -447441,6 +463494,9 @@
  xref: MetaCyc:RXN-9592
  xref: RHEA:25637
  is_a: GO:0016620 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor
@@ -61339,7 +61367,7 @@
  
  [Term]
  id: GO:0102985
-@@ -447449,7 +463503,16 @@
+@@ -447449,7 +463505,16 @@
  def: "Catalysis of the introduction of a cis double bond at position 12 of fatty-acyl-CoAs that contain a cis double bond at position 9. Specific reactions include: (9Z)-hexadecenoyl-CoA + 2 Fe(II)-[cytochrome b5] + 2 H+ + O2 = (9Z,12Z)-hexadecadienoyl-CoA + 2 Fe(III)-[cytochrome b5] + 2 H2O; and (9Z)-hexadecenoyl-CoA + 2 Fe(II)-[cytochrome b5] + O2 + 2 H(+) = (9Z,12Z)-hexadecadienoyl-CoA + 2 Fe(III)-[cytochrome b5] + 2 H2O." [EC:1.14.19.6]
  synonym: "delta12-fatty-acid desaturase activity" EXACT []
  xref: EC:1.14.19.6
@@ -61356,7 +61384,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29820" xsd:anyURI
  
-@@ -447463,6 +463526,12 @@
+@@ -447463,6 +463528,12 @@
  xref: MetaCyc:RXN-9603
  xref: RHEA:47416
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -61369,7 +61397,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28527" xsd:anyURI
  
  [Term]
-@@ -447485,8 +463554,11 @@
+@@ -447485,8 +463556,11 @@
  xref: MetaCyc:RXN-9617
  xref: RHEA:46232
  is_a: GO:0016215 ! acyl-CoA desaturase activity
@@ -61381,7 +61409,7 @@
  
  [Term]
  id: GO:0102989
-@@ -447506,6 +463578,9 @@
+@@ -447506,6 +463580,9 @@
  xref: MetaCyc:RXN-9619
  xref: RHEA:26325
  is_a: GO:0008168 ! methyltransferase activity
@@ -61391,7 +61419,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -447536,8 +463611,36 @@
+@@ -447536,8 +463613,36 @@
  comment: Introduces a cis double bond at a location 3 carbons away from the methyl end of the fatty acid. Acts on all 16:2- or 18:2-containing chloroplast membrane lipids, including phosphatidylglycerol, monogalactosyldiacylglycerol, digalactosyldiaclyglycerol, and sulfoquinovosyldiacylglycerol.
  synonym: "linolenate delta15 desaturase activity" EXACT []
  xref: EC:1.14.19.35
@@ -61428,7 +61456,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -447549,6 +463652,9 @@
+@@ -447549,6 +463654,9 @@
  xref: MetaCyc:RXN-9689
  xref: RHEA:27481
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -61438,7 +61466,7 @@
  
  [Term]
  id: GO:0102996
-@@ -447580,7 +463686,10 @@
+@@ -447580,7 +463688,10 @@
  xref: RHEA:33711
  xref: UM-BBD_reactionID:r0583
  is_a: GO:0052689 ! carboxylic ester hydrolase activity
@@ -61449,7 +61477,7 @@
  
  [Term]
  id: GO:0102999
-@@ -447607,8 +463716,18 @@
+@@ -447607,8 +463718,18 @@
  def: "Catalysis of the reactions: dimethyl sulfoxide + H+ + NADH + O2 = dimethyl sulfone + H2O + NAD+ and dimethyl sulfide + H+ + NADH + O2 = dimethyl sulfoxide + H2O + NAD+." [EC:1.14.13.245, PMID:9345770]
  synonym: "assimilatory dimethylsulfide S-monooxygenase activity" EXACT []
  xref: EC:1.14.13.245
@@ -61468,7 +61496,7 @@
  
  [Term]
  id: GO:0103002
-@@ -447661,6 +463780,9 @@
+@@ -447661,6 +463782,9 @@
  xref: MetaCyc:RXN-9825
  xref: RHEA:36131
  is_a: GO:0008168 ! methyltransferase activity
@@ -61478,7 +61506,7 @@
  
  [Term]
  id: GO:0103008
-@@ -447700,6 +463822,9 @@
+@@ -447700,6 +463824,9 @@
  xref: MetaCyc:RXN-9935
  xref: RHEA:26039
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -61488,7 +61516,7 @@
  
  [Term]
  id: GO:0103012
-@@ -447712,7 +463837,10 @@
+@@ -447712,7 +463839,10 @@
  xref: MetaCyc:RXN-9944
  xref: RHEA:42336
  is_a: GO:0016673 ! oxidoreductase activity, acting on a sulfur group of donors, iron-sulfur protein as acceptor
@@ -61499,7 +61527,7 @@
  
  [Term]
  id: GO:0103014
-@@ -447732,6 +463860,9 @@
+@@ -447732,6 +463862,9 @@
  xref: MetaCyc:RXN0-2001
  xref: RHEA:35371
  is_a: GO:0016763 ! pentosyltransferase activity
@@ -61509,7 +61537,7 @@
  
  [Term]
  id: GO:0103016
-@@ -447745,7 +463876,10 @@
+@@ -447745,7 +463878,10 @@
  xref: RHEA:47032
  is_a: GO:0016783 ! sulfurtransferase activity
  is_a: GO:0140101 ! catalytic activity, acting on a tRNA
@@ -61520,7 +61548,7 @@
  
  [Term]
  id: GO:0103020
-@@ -447755,6 +463889,8 @@
+@@ -447755,6 +463891,8 @@
  xref: MetaCyc:RXN0-382
  xref: RHEA:27990
  is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
@@ -61529,7 +61557,7 @@
  
  [Term]
  id: GO:0103023
-@@ -447765,7 +463901,10 @@
+@@ -447765,7 +463903,10 @@
  xref: MetaCyc:RXN0-5073
  xref: RHEA:28330
  is_a: GO:0017111 ! ribonucleoside triphosphate phosphatase activity
@@ -61540,7 +61568,7 @@
  
  [Term]
  id: GO:0103026
-@@ -447775,6 +463914,8 @@
+@@ -447775,6 +463916,8 @@
  xref: MetaCyc:RXN0-5186
  xref: RHEA:35603
  is_a: GO:0016791 ! phosphatase activity
@@ -61549,7 +61577,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  
  [Term]
-@@ -447815,6 +463956,10 @@
+@@ -447815,6 +463958,10 @@
  xref: MetaCyc:RXN0-5228
  xref: RHEA:28394
  is_a: GO:0016855 ! racemase and epimerase activity, acting on amino acids and derivatives
@@ -61560,7 +61588,7 @@
  
  [Term]
  id: GO:0103032
-@@ -447851,6 +463996,8 @@
+@@ -447851,6 +463998,8 @@
  synonym: "NADH:menaquinone oxidoreductase activity" EXACT []
  xref: RHEA:29235
  is_a: GO:0050136 ! NADH dehydrogenase (quinone) (non-electrogenic) activity
@@ -61569,7 +61597,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30272" xsd:anyURI
  
  [Term]
-@@ -447872,6 +464019,9 @@
+@@ -447872,6 +464021,9 @@
  xref: RHEA:37087
  is_a: GO:0035596 ! methylthiotransferase activity
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -61579,7 +61607,7 @@
  
  [Term]
  id: GO:0103040
-@@ -447890,6 +464040,7 @@
+@@ -447890,6 +464042,7 @@
  xref: MetaCyc:RXN0-6385
  xref: RHEA:83859
  is_a: GO:0016783 ! sulfurtransferase activity
@@ -61587,7 +61615,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28942" xsd:anyURI
  
  [Term]
-@@ -447900,6 +464051,8 @@
+@@ -447900,6 +464053,8 @@
  xref: MetaCyc:RXN0-6563
  xref: RHEA:28779
  is_a: GO:0016832 ! aldehyde-lyase activity
@@ -61596,7 +61624,7 @@
  
  [Term]
  id: GO:0103043
-@@ -447911,6 +464064,9 @@
+@@ -447911,6 +464066,9 @@
  xref: MetaCyc:RXN0-6710
  xref: RHEA:34795
  is_a: GO:0008081 ! phosphoric diester hydrolase activity
@@ -61606,7 +61634,7 @@
  
  [Term]
  id: GO:0103044
-@@ -447929,7 +464085,9 @@
+@@ -447929,7 +464087,9 @@
  xref: MetaCyc:RXN0-6948
  xref: RHEA:44144
  is_a: GO:0140085 ! L-amino-acid N-acetyltransferase activity
@@ -61616,7 +61644,7 @@
  
  [Term]
  id: GO:0103046
-@@ -448077,6 +464235,9 @@
+@@ -448077,6 +464237,9 @@
  xref: MetaCyc:RXN3O-663
  xref: RHEA:64596
  is_a: GO:0000030 ! mannosyltransferase activity
@@ -61626,7 +61654,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21803" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23995" xsd:anyURI
  
-@@ -448108,6 +464269,8 @@
+@@ -448108,6 +464271,8 @@
  xref: EC:2.3.2.2
  xref: MetaCyc:RXN66-336
  is_a: GO:0016755 ! aminoacyltransferase activity
@@ -61635,7 +61663,7 @@
  
  [Term]
  id: GO:0103069
-@@ -448117,6 +464280,8 @@
+@@ -448117,6 +464282,8 @@
  xref: MetaCyc:RXN66-356
  xref: RHEA:50308
  is_a: GO:0004509 ! steroid 21-monooxygenase activity
@@ -61644,7 +61672,7 @@
  
  [Term]
  id: GO:0103071
-@@ -448147,6 +464312,9 @@
+@@ -448147,6 +464314,9 @@
  xref: MetaCyc:RXN8J2-136
  xref: RHEA:37547
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -61654,7 +61682,7 @@
  
  [Term]
  id: GO:0103075
-@@ -448157,6 +464325,9 @@
+@@ -448157,6 +464327,9 @@
  xref: MetaCyc:RXNDQC-2
  xref: RHEA:34331
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -61664,7 +61692,7 @@
  
  [Term]
  id: GO:0103077
-@@ -448453,8 +464624,11 @@
+@@ -448453,8 +464626,11 @@
  xref: EC:2.7.1.193
  xref: RHEA:49240
  is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
@@ -61676,7 +61704,7 @@
  
  [Term]
  id: GO:0103113
-@@ -448478,7 +464652,10 @@
+@@ -448478,7 +464654,10 @@
  is_a: GO:0005354 ! galactose transmembrane transporter activity
  is_a: GO:0015407 ! ABC-type monosaccharide transporter activity
  relationship: part_of GO:0042875 ! D-galactonate transmembrane transport
@@ -61687,7 +61715,7 @@
  
  [Term]
  id: GO:0103117
-@@ -448489,6 +464666,8 @@
+@@ -448489,6 +464668,8 @@
  xref: MetaCyc:UDPACYLGLCNACDEACETYL-RXN
  xref: RHEA:67816
  is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
@@ -61696,7 +61724,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
  [Term]
-@@ -448503,7 +464682,10 @@
+@@ -448503,7 +464684,10 @@
  xref: MetaCyc:RXN-22482
  xref: RHEA:53836
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -61707,7 +61735,7 @@
  
  [Term]
  id: GO:0104004
-@@ -448641,10 +464823,12 @@
+@@ -448641,10 +464825,12 @@
  id: GO:0106008
  name: 2-oxoglutaramate amidase activity
  namespace: molecular_function
@@ -61722,7 +61750,7 @@
  created_by: hjd
  creation_date: 2017-04-25T14:10:02Z
  
-@@ -448656,6 +464840,8 @@
+@@ -448656,6 +464842,8 @@
  xref: EC:4.1.3.42
  xref: RHEA:35639
  is_a: GO:0016833 ! oxo-acid-lyase activity
@@ -61731,7 +61759,7 @@
  created_by: hjd
  creation_date: 2017-04-25T14:14:58Z
  
-@@ -448853,6 +465039,8 @@
+@@ -448853,6 +465041,8 @@
  def: "Catalysis of the reaction: glycyl-tRNA(Ala) + H2O = tRNA(Ala) + glycine + H+." [PMID:28362257, RHEA:53744]
  xref: RHEA:53744
  is_a: GO:0002161 ! aminoacyl-tRNA deacylase activity
@@ -61740,7 +61768,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29746" xsd:anyURI
  created_by: hjd
  creation_date: 2017-06-16T17:13:33Z
-@@ -448889,7 +465077,9 @@
+@@ -448889,7 +465079,9 @@
  xref: RHEA:54572
  is_a: GO:0009982 ! pseudouridine synthase activity
  is_a: GO:0140101 ! catalytic activity, acting on a tRNA
@@ -61750,7 +61778,7 @@
  created_by: hjd
  creation_date: 2017-06-26T17:37:30Z
  
-@@ -448910,7 +465100,9 @@
+@@ -448910,7 +465102,9 @@
  xref: RHEA:51124
  is_a: GO:0009982 ! pseudouridine synthase activity
  is_a: GO:0140098 ! catalytic activity, acting on RNA
@@ -61760,7 +61788,7 @@
  created_by: hjd
  creation_date: 2017-06-28T17:44:20Z
  
-@@ -449178,8 +465370,11 @@
+@@ -449178,8 +465372,11 @@
  xref: MetaCyc:RXN-11869
  xref: RHEA:42968
  is_a: GO:0016427 ! tRNA (cytidine) methyltransferase activity
@@ -61772,7 +61800,7 @@
  created_by: hjd
  creation_date: 2017-10-05T19:02:22Z
  
-@@ -449317,7 +465512,10 @@
+@@ -449317,7 +465514,10 @@
  xref: MetaCyc:RXN-5472
  xref: RHEA:29543
  is_a: GO:0004583 ! dolichyl-phosphate-glucose-glycolipid alpha-glucosyltransferase activity
@@ -61783,7 +61811,7 @@
  created_by: hjd
  creation_date: 2017-11-28T19:16:37Z
  
-@@ -449560,6 +465758,9 @@
+@@ -449560,6 +465760,9 @@
  xref: EC:4.1.2.53
  xref: RHEA:25784
  is_a: GO:0016832 ! aldehyde-lyase activity
@@ -61793,7 +61821,7 @@
  created_by: hjd
  creation_date: 2018-02-15T16:12:17Z
  
-@@ -449567,8 +465768,15 @@
+@@ -449567,8 +465770,15 @@
  id: GO:0106100
  name: beta-pinacene synthase activity
  namespace: molecular_function
@@ -61810,7 +61838,7 @@
  created_by: hjd
  creation_date: 2018-02-15T16:51:59Z
  
-@@ -449614,6 +465822,7 @@
+@@ -449614,6 +465824,7 @@
  synonym: "L-alanyl-tRNA(Thr) deacylase" EXACT []
  xref: RHEA:17793
  is_a: GO:0002161 ! aminoacyl-tRNA deacylase activity
@@ -61818,7 +61846,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29746" xsd:anyURI
  created_by: hjd
  creation_date: 2018-03-14T22:03:29Z
-@@ -449624,7 +465833,6 @@
+@@ -449624,7 +465835,6 @@
  namespace: biological_process
  def: "The process by which heat is generated by increasing metabolism in response to cold ambient temperatures in order to maintain a stable core body temperature." [PMID:27876809]
  synonym: "CIT" RELATED []
@@ -61826,7 +61854,7 @@
  is_a: GO:1990845 ! adaptive thermogenesis
  created_by: hjd
  creation_date: 2018-03-21T20:30:52Z
-@@ -449998,7 +466206,10 @@
+@@ -449998,7 +466208,10 @@
  xref: EC:2.5.1.129
  xref: RHEA:37743
  is_a: GO:0004659 ! prenyltransferase activity
@@ -61837,7 +61865,7 @@
  created_by: hjd
  creation_date: 2018-08-17T18:50:00Z
  
-@@ -450013,6 +466224,9 @@
+@@ -450013,6 +466226,9 @@
  xref: EC:2.1.1.287
  xref: RHEA:43792
  is_a: GO:0016433 ! rRNA (adenine) methyltransferase activity
@@ -61847,7 +61875,7 @@
  created_by: hjd
  creation_date: 2018-08-22T20:13:21Z
  
-@@ -450037,6 +466251,9 @@
+@@ -450037,6 +466253,9 @@
  xref: EC:1.14.14.164
  xref: RHEA:57844
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -61857,7 +61885,7 @@
  created_by: hjd
  creation_date: 2018-09-07T18:24:41Z
  
-@@ -450048,6 +466265,9 @@
+@@ -450048,6 +466267,9 @@
  xref: EC:1.14.11.60
  xref: RHEA:57848
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -61867,7 +61895,7 @@
  created_by: hjd
  creation_date: 2018-09-07T18:28:16Z
  
-@@ -450086,6 +466306,9 @@
+@@ -450086,6 +466308,9 @@
  xref: EC:1.14.14.165
  xref: RHEA:57864
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -61877,7 +61905,7 @@
  created_by: hjd
  creation_date: 2018-09-10T19:44:15Z
  
-@@ -450142,6 +466365,9 @@
+@@ -450142,6 +466367,9 @@
  xref: RHEA:57152
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -61887,7 +61915,7 @@
  created_by: hjd
  creation_date: 2018-11-15T20:09:45Z
  
-@@ -450154,6 +466380,8 @@
+@@ -450154,6 +466382,8 @@
  xref: RHEA:57156
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -61896,7 +61924,7 @@
  created_by: hjd
  creation_date: 2018-11-26T14:59:18Z
  
-@@ -450170,7 +466398,10 @@
+@@ -450170,7 +466400,10 @@
  xref: RHEA:56744
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -61907,7 +61935,7 @@
  created_by: hjd
  creation_date: 2018-11-26T15:05:57Z
  
-@@ -450183,7 +466414,9 @@
+@@ -450183,7 +466416,9 @@
  synonym: "GPACT activity" EXACT []
  xref: RHEA:58476
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -61917,7 +61945,7 @@
  created_by: hjd
  creation_date: 2018-11-26T21:21:03Z
  
-@@ -450227,6 +466460,8 @@
+@@ -450227,6 +466462,8 @@
  def: "Catalysis of the reaction: a cytidine in mRNA + acetyl-CoA + ATP + H2O = ADP + an N(4)-acetylcytidine in mRNA + CoA + H+ + phosphate." [GOC:sp, PMID:30449621, RHEA:58480]
  xref: RHEA:58480
  is_a: GO:0008080 ! N-acetyltransferase activity
@@ -61926,7 +61954,7 @@
  created_by: hjd
  creation_date: 2018-12-18T19:19:06Z
  
-@@ -450348,6 +466583,8 @@
+@@ -450348,6 +466585,8 @@
  def: "Catalysis of the reaction: cyclic GMP-AMP + 2 H2O = AMP + GMP." [GOC:sp, PMID:25344812, RHEA:58808]
  xref: RHEA:58808
  is_a: GO:0016818 ! hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides
@@ -61935,7 +61963,7 @@
  created_by: hjd
  creation_date: 2019-03-07T21:06:24Z
  
-@@ -450633,6 +466870,8 @@
+@@ -450633,6 +466872,8 @@
  synonym: "5-PP-InsP4 activity" EXACT []
  xref: RHEA:59500
  is_a: GO:0052840 ! inositol diphosphate tetrakisphosphate diphosphatase activity
@@ -61944,7 +61972,7 @@
  created_by: hjd
  creation_date: 2019-06-06T19:26:38Z
  
-@@ -450761,7 +467000,10 @@
+@@ -450761,7 +467002,10 @@
  xref: MetaCyc:RXN-19749
  xref: RHEA:30303
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -61955,7 +61983,7 @@
  created_by: hjd
  creation_date: 2019-09-06T16:36:25Z
  
-@@ -450783,6 +467025,8 @@
+@@ -450783,6 +467027,8 @@
  def: "Catalysis of the reaction: 2-hydroxyisobutyryl-CoA + lysine in peptide = CoA + N-2-hydroxyisobutyryl-lysine-peptide." [GOC:sp, PMID:29775581]
  xref: RHEA:24180
  is_a: GO:0016410 ! N-acyltransferase activity
@@ -61964,7 +61992,7 @@
  created_by: hjd
  creation_date: 2019-10-17T18:55:24Z
  
-@@ -450801,9 +467045,10 @@
+@@ -450801,9 +467047,10 @@
  name: peptide glutaryltransferase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: glutaryl-CoA + L-lysyl-[protein] = CoA + H+ + N6-glutaryl-L-lysyl-[protein]." [GOC:sp, PMID:31542297]
@@ -61976,7 +62004,7 @@
  created_by: hjd
  creation_date: 2019-10-17T18:58:56Z
  
-@@ -450814,6 +467059,7 @@
+@@ -450814,6 +467061,7 @@
  def: "Catalysis of the reaction: glutaryl-CoA + histone = CoA + H+ + N6-glutaryl-histone." [GOC:sp, PMID:31542297]
  is_a: GO:0106228 ! peptide glutaryltransferase activity
  is_a: GO:0140993 ! histone modifying activity
@@ -61984,7 +62012,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: hjd
  creation_date: 2019-10-17T19:01:48Z
-@@ -450836,7 +467082,9 @@
+@@ -450836,7 +467084,9 @@
  comment: This reaction is the removal of a propionyl group from a propionylated lysine residue of a protein or peptide.
  xref: RHEA:23500
  is_a: GO:0141218 ! NAD-dependent protein lysine deacylase activity
@@ -61994,7 +62022,7 @@
  created_by: hjd
  creation_date: 2019-10-18T14:14:47Z
  
-@@ -450881,6 +467129,8 @@
+@@ -450881,6 +467131,8 @@
  def: "Catalysis of the reaction: ceramide-1-phosphate + H2O = ceramide+ phosphate." [GOC:lb, PMID:10359651]
  xref: RHEA:50888
  is_a: GO:0042577 ! lipid phosphatase activity
@@ -62003,7 +62031,7 @@
  created_by: hjd
  creation_date: 2019-11-21T20:40:39Z
  
-@@ -450901,6 +467151,8 @@
+@@ -450901,6 +467153,8 @@
  def: "Catalysis of the reaction: arachidonate + O2 = (5Z,8Z,10E,12R,14Z)-12-hydroperoxyicosa-5,8,10,14-tetraenoate." [GOC:gap, PMID:10100631, PMID:11256953, RHEA:41336]
  xref: RHEA:41336
  is_a: GO:0016702 ! oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen
@@ -62012,7 +62040,7 @@
  created_by: hjd
  creation_date: 2019-12-18T21:03:02Z
  
-@@ -450912,6 +467164,9 @@
+@@ -450912,6 +467166,9 @@
  xref: EC:4.2.1.174
  xref: RHEA:54652
  is_a: GO:0016836 ! hydro-lyase activity
@@ -62022,7 +62050,7 @@
  created_by: hjd
  creation_date: 2019-12-19T15:28:28Z
  
-@@ -450923,6 +467178,9 @@
+@@ -450923,6 +467180,9 @@
  xref: EC:4.2.3.189
  xref: RHEA:54512
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -62032,7 +62060,7 @@
  created_by: hjd
  creation_date: 2019-12-19T16:00:49Z
  
-@@ -450933,6 +467191,8 @@
+@@ -450933,6 +467193,8 @@
  def: "Catalysis of the reaction: O2 + peregrinol + reduced [NADPH--hemoprotein reductase] = H+ + H2O + labd-13Z-ene-9,15,16-triol + oxidized [NADPH--hemoprotein reductase]." [GOC:eab, PMID:29315936, RHEA:62192]
  xref: RHEA:62192
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -62041,7 +62069,7 @@
  created_by: hjd
  creation_date: 2019-12-19T17:43:00Z
  
-@@ -450944,6 +467204,9 @@
+@@ -450944,6 +467206,9 @@
  xref: EC:5.5.1.29
  xref: RHEA:54676
  is_a: GO:0016872 ! intramolecular lyase activity
@@ -62051,7 +62079,7 @@
  created_by: hjd
  creation_date: 2019-12-19T18:31:00Z
  
-@@ -450954,6 +467217,8 @@
+@@ -450954,6 +467219,8 @@
  def: "Catalysis of the reaction: 9alpha-copalyl diphosphate = diphosphate + syn-isopimara-7,15-diene." [GOC:emb, PMID:29315936, RHEA:62188]
  xref: RHEA:62188
  is_a: GO:0016838 ! carbon-oxygen lyase activity, acting on phosphates
@@ -62060,7 +62088,7 @@
  created_by: hjd
  creation_date: 2019-12-19T19:04:32Z
  
-@@ -450965,6 +467230,9 @@
+@@ -450965,6 +467232,9 @@
  xref: EC:1.14.14.169
  xref: RHEA:57972
  is_a: GO:0004497 ! monooxygenase activity
@@ -62070,7 +62098,7 @@
  created_by: hjd
  creation_date: 2019-12-20T14:50:15Z
  
-@@ -450976,6 +467244,9 @@
+@@ -450976,6 +467246,9 @@
  xref: EC:2.7.8.29
  xref: RHEA:27606
  is_a: GO:0016780 ! phosphotransferase activity, for other substituted phosphate groups
@@ -62080,7 +62108,7 @@
  created_by: hjd
  creation_date: 2020-01-22T15:27:57Z
  
-@@ -451046,6 +467317,8 @@
+@@ -451046,6 +467319,8 @@
  def: "Catalysis of the reaction N4-acetylcytidine +H2O = cytidine + acetate." [GOC:imk, PMID:31964920, RHEA:62932]
  xref: RHEA:62932
  is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
@@ -62089,7 +62117,7 @@
  created_by: hjd
  creation_date: 2020-02-19T20:31:17Z
  
-@@ -451078,10 +467351,11 @@
+@@ -451078,10 +467353,11 @@
  namespace: molecular_function
  def: "A hydroperoxy icosatetraenoate = a hydroxy epoxy icosatrienoate." [PMID:12881489, RHEA:55560]
  xref: EC:5.4.4.7
@@ -62103,7 +62131,7 @@
  created_by: hjd
  creation_date: 2020-03-20T14:00:30Z
  
-@@ -451093,6 +467367,9 @@
+@@ -451093,6 +467369,9 @@
  xref: EC:4.2.1.152
  xref: RHEA:55556
  is_a: GO:0016836 ! hydro-lyase activity
@@ -62113,7 +62141,7 @@
  created_by: hjd
  creation_date: 2020-03-20T14:40:16Z
  
-@@ -451103,6 +467380,8 @@
+@@ -451103,6 +467382,8 @@
  def: "Catalysis of the reaction: a 1,2-diacyl-sn-glycero-3-phosphocholine + L-serine = 1,2-diacyl-sn-glycero-3-phospho-L-serine + choline." [PMID:19014349, RHEA:45088]
  xref: RHEA:45088
  is_a: GO:0016780 ! phosphotransferase activity, for other substituted phosphate groups
@@ -62122,7 +62150,7 @@
  created_by: hjd
  creation_date: 2020-04-21T17:31:56Z
  
-@@ -451142,8 +467421,11 @@
+@@ -451142,8 +467423,11 @@
  xref: RHEA:61020
  is_a: GO:0016407 ! acetyltransferase activity
  is_a: GO:0140101 ! catalytic activity, acting on a tRNA
@@ -62134,7 +62162,7 @@
  created_by: hjd
  creation_date: 2020-05-08T15:21:51Z
  
-@@ -451155,7 +467437,10 @@
+@@ -451155,7 +467439,10 @@
  xref: EC:2.3.1.n7
  xref: RHEA:32995
  is_a: GO:0008374 ! O-acyltransferase activity
@@ -62145,7 +62173,7 @@
  created_by: hjd
  creation_date: 2020-05-18T15:09:57Z
  
-@@ -451167,7 +467452,10 @@
+@@ -451167,7 +467454,10 @@
  xref: EC:2.3.1.n6
  xref: RHEA:33191
  is_a: GO:0008374 ! O-acyltransferase activity
@@ -62156,7 +62184,7 @@
  created_by: hjd
  creation_date: 2020-05-18T15:12:42Z
  
-@@ -451178,6 +467466,7 @@
+@@ -451178,6 +467468,7 @@
  def: "Catalysis of the reactions: GTP + L-seryl-[protein] = GDP + H+ + O-phospho-L-seryl-[protein]." [GOC:sp, PMID:32322062, RHEA:64020]
  xref: RHEA:64020
  is_a: GO:0004672 ! protein kinase activity
@@ -62164,7 +62192,7 @@
  created_by: hjd
  creation_date: 2020-05-28T18:51:18Z
  
-@@ -451189,6 +467478,8 @@
+@@ -451189,6 +467480,8 @@
  synonym: "polyketide syntase" BROAD []
  xref: RHEA:64352
  is_a: GO:0016740 ! transferase activity
@@ -62173,7 +62201,7 @@
  created_by: hjd
  creation_date: 2020-06-02T18:05:33Z
  
-@@ -451199,6 +467490,8 @@
+@@ -451199,6 +467492,8 @@
  def: "Catalysis of the reaction: 2,4,6-trihydroxyphenylhexan-1-one + chloride + FADH2 + O2 = (3-chloro-2,4,6-trihydroxyphenyl)hexan-1-one + FAD + H+ + 2 H2O." [PMID:20231486, RHEA:64356]
  xref: RHEA:64356
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -62182,7 +62210,7 @@
  created_by: hjd
  creation_date: 2020-06-02T18:13:44Z
  
-@@ -451209,6 +467502,8 @@
+@@ -451209,6 +467504,8 @@
  def: "Catalysis of the reaction: (3-chloro-2,4,6-trihydroxyphenyl)hexan-1-one + chloride + FADH2 + O2 = (3,5-dichloro-2,4,6-trihydroxyphenyl)hexan-1-one + FAD + 2 H2O." [PMID:20231486, RHEA:64360]
  xref: RHEA:64360
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -62191,7 +62219,7 @@
  created_by: hjd
  creation_date: 2020-06-02T18:16:23Z
  
-@@ -451220,6 +467515,8 @@
+@@ -451220,6 +467517,8 @@
  synonym: "DIF-1 syntase" RELATED []
  xref: RHEA:48396
  is_a: GO:0008757 ! S-adenosylmethionine-dependent methyltransferase activity
@@ -62200,7 +62228,7 @@
  created_by: hjd
  creation_date: 2020-06-02T18:25:03Z
  
-@@ -451230,6 +467527,7 @@
+@@ -451230,6 +467529,7 @@
  def: "Catalysis of the reaction: D-arabinose + NADP+ = D-arabinono-1,4-lactone + NADPH." [RHEA:21892]
  xref: RHEA:21892
  is_a: GO:0045290 ! D-arabinose 1-dehydrogenase [NAD(P)+] activity
@@ -62208,7 +62236,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  created_by: hjd
  creation_date: 2020-06-23T18:47:25Z
-@@ -451274,7 +467572,10 @@
+@@ -451274,7 +467574,10 @@
  xref: Reactome:R-HSA-1972385 "ADP-Ribosylation of HNP-1"
  xref: RHEA:19149
  is_a: GO:1990404 ! NAD+-protein mono-ADP-ribosyltransferase activity
@@ -62219,7 +62247,7 @@
  created_by: hjd
  creation_date: 2020-07-02T01:37:02Z
  
-@@ -451286,8 +467587,10 @@
+@@ -451286,8 +467589,10 @@
  synonym: "biliberdin reductase (NAD+) activity" EXACT []
  xref: RHEA:15797
  is_a: GO:0004074 ! biliverdin reductase [NAD(P)H] activity
@@ -62230,7 +62258,7 @@
  created_by: hjd
  creation_date: 2020-07-02T01:48:07Z
  
-@@ -451299,8 +467602,10 @@
+@@ -451299,8 +467604,10 @@
  synonym: "biliverdin reductase (NADP+) activity" EXACT []
  xref: RHEA:15793
  is_a: GO:0004074 ! biliverdin reductase [NAD(P)H] activity
@@ -62241,7 +62269,7 @@
  created_by: hjd
  creation_date: 2020-07-02T01:50:24Z
  
-@@ -451373,6 +467678,8 @@
+@@ -451373,6 +467680,8 @@
  def: "Catalysis of the reaction: chenodeoxycholate + NAD+ = 7-oxolithocholate + H+ + NADH." [PMID:12917011, RHEA:42036]
  xref: RHEA:42036
  is_a: GO:0033764 ! steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -62250,7 +62278,7 @@
  created_by: hjd
  creation_date: 2020-07-29T17:48:25Z
  
-@@ -451383,6 +467690,8 @@
+@@ -451383,6 +467692,8 @@
  def: "Catalysis of the reaction: 3-beta,7-beta-dihydroxy-5-beta-cholan-24-oate + NAD+ = 3-beta-hydroxy-7-oxo-5-beta-cholan-24-oate + H+ + NADH." [PMID:12917011, RHEA:42024]
  xref: RHEA:42024
  is_a: GO:0033764 ! steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -62259,7 +62287,7 @@
  created_by: hjd
  creation_date: 2020-07-29T17:51:00Z
  
-@@ -451393,6 +467702,8 @@
+@@ -451393,6 +467704,8 @@
  def: "Catalysis of the reaction: NAD+ + ursodeoxycholate = 7-oxolithocholate + H+ + NADH." [PMID:12917011, RHEA:42028]
  xref: RHEA:42028
  is_a: GO:0033764 ! steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -62268,7 +62296,7 @@
  created_by: hjd
  creation_date: 2020-07-29T17:52:44Z
  
-@@ -451403,6 +467714,8 @@
+@@ -451403,6 +467716,8 @@
  def: "Catalysis of the reaction: (E)-caffeate + ATP + CoA = (E)-caffeoyl-CoA + AMP + diphosphate." [PMID:22649270, RHEA:36299]
  xref: RHEA:36299
  is_a: GO:0016405 ! CoA-ligase activity
@@ -62277,7 +62305,7 @@
  created_by: hjd
  creation_date: 2020-07-30T14:26:08Z
  
-@@ -451438,6 +467751,8 @@
+@@ -451438,6 +467753,8 @@
  def: "Catalysis of the reaction: (E)-cinnamate + ATP + CoA = (E)-cinnamoyl-CoA + AMP + diphosphate." [PMID:22649270, RHEA:64788]
  xref: RHEA:64788
  is_a: GO:0016405 ! CoA-ligase activity
@@ -62286,7 +62314,7 @@
  created_by: hjd
  creation_date: 2020-08-18T16:53:10Z
  
-@@ -451448,6 +467763,8 @@
+@@ -451448,6 +467765,8 @@
  def: "Catalysis of the reaction: NADH + 2 O2 = H+ + NAD+ + 2 superoxide." [RHEA:63184]
  xref: RHEA:63184
  is_a: GO:0016175 ! superoxide-generating NAD(P)H oxidase activity
@@ -62295,7 +62323,7 @@
  created_by: hjd
  creation_date: 2020-08-19T15:56:43Z
  
-@@ -451458,6 +467775,8 @@
+@@ -451458,6 +467777,8 @@
  def: "Catalysis of the reaction: NADPH + 2 O2 = H+ + NADP+ + 2 superoxide." [RHEA:63180]
  xref: RHEA:63180
  is_a: GO:0016175 ! superoxide-generating NAD(P)H oxidase activity
@@ -62304,7 +62332,7 @@
  created_by: hjd
  creation_date: 2020-08-19T15:58:36Z
  
-@@ -451551,7 +467870,9 @@
+@@ -451551,7 +467872,9 @@
  synonym: "arachidonic acid 5,6-epoxygenase activity" EXACT []
  xref: RHEA:49936
  is_a: GO:0008392 ! arachidonate epoxygenase activity
@@ -62314,7 +62342,7 @@
  created_by: hjd
  creation_date: 2020-08-28T19:08:45Z
  
-@@ -451563,7 +467884,9 @@
+@@ -451563,7 +467886,9 @@
  synonym: "arachidonic acid 8,9-epoxygenase activity" EXACT []
  xref: RHEA:64984
  is_a: GO:0008392 ! arachidonate epoxygenase activity
@@ -62324,7 +62352,7 @@
  created_by: hjd
  creation_date: 2020-08-28T19:10:07Z
  
-@@ -451617,6 +467940,8 @@
+@@ -451617,6 +467942,8 @@
  xref: Reactome:R-HSA-193981 "CYP21A2 oxidises 17HPROG"
  xref: RHEA:50304
  is_a: GO:0004509 ! steroid 21-monooxygenase activity
@@ -62333,7 +62361,7 @@
  created_by: hjd
  creation_date: 2020-09-21T14:40:30Z
  
-@@ -451635,6 +467960,7 @@
+@@ -451635,6 +467962,7 @@
  xref: Reactome:R-HSA-9860808 "p-T816-PKN2 phosphorylates NOS3 (eNOS) on serine-1179"
  xref: RHEA:17989
  is_a: GO:0004672 ! protein kinase activity
@@ -62341,7 +62369,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20114" xsd:anyURI
  created_by: hjd
  creation_date: 2020-09-22T20:01:17Z
-@@ -451648,7 +467974,10 @@
+@@ -451648,7 +467976,10 @@
  xref: MetaCyc:RXN-22438
  xref: RHEA:19821
  is_a: GO:0004489 ! methylenetetrahydrofolate reductase [NAD(P)H] activity
@@ -62352,7 +62380,7 @@
  created_by: hjd
  creation_date: 2020-09-23T14:20:07Z
  
-@@ -451661,7 +467990,10 @@
+@@ -451661,7 +467992,10 @@
  xref: MetaCyc:RXN-21991
  xref: RHEA:19817
  is_a: GO:0004489 ! methylenetetrahydrofolate reductase [NAD(P)H] activity
@@ -62363,7 +62391,7 @@
  created_by: hjd
  creation_date: 2020-09-23T14:20:27Z
  
-@@ -451672,6 +468004,7 @@
+@@ -451672,6 +468006,7 @@
  def: "Catalysis of the reaction: ammonium hydroxide + 3 NADP+ + H2O = nitrite + 3 NADPH + 3 H+." [RHEA:24632]
  xref: RHEA:24632
  is_a: GO:0008942 ! nitrite reductase [NAD(P)H] activity
@@ -62371,7 +62399,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26482" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28557" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30026" xsd:anyURI
-@@ -451686,6 +468019,8 @@
+@@ -451686,6 +468021,8 @@
  xref: EC:1.7.1.15
  xref: RHEA:24628
  is_a: GO:0008942 ! nitrite reductase [NAD(P)H] activity
@@ -62380,7 +62408,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28557" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30026" xsd:anyURI
  created_by: hjd
-@@ -451746,7 +468081,9 @@
+@@ -451746,7 +468083,9 @@
  def: "Catalysis of the reaction: S-(hydroxymethyl)glutathione + NADP+ = S-formylglutathione + NADPH + H+." [RHEA:19981]
  xref: RHEA:19981
  is_a: GO:0051903 ! S-(hydroxymethyl)glutathione dehydrogenase [NAD(P)+] activity
@@ -62390,7 +62418,7 @@
  created_by: hjd
  creation_date: 2020-09-23T15:26:27Z
  
-@@ -451757,7 +468094,9 @@
+@@ -451757,7 +468096,9 @@
  def: "Catalysis of the reaction: S-(hydroxymethyl)glutathione + NAD+ = S-formylglutathione + NADH + H+." [RHEA:19985]
  xref: RHEA:19985
  is_a: GO:0051903 ! S-(hydroxymethyl)glutathione dehydrogenase [NAD(P)+] activity
@@ -62400,7 +62428,7 @@
  created_by: hjd
  creation_date: 2020-09-23T15:26:40Z
  
-@@ -451840,6 +468179,8 @@
+@@ -451840,6 +468181,8 @@
  def: "Catalysis of the reaction: H2O + L-phenylalanine + O2 = 3-phenylpyruvate + H2O2 + NH4(+)." [RHEA:61240]
  xref: RHEA:61240
  is_a: GO:0001716 ! L-amino-acid oxidase activity
@@ -62409,7 +62437,7 @@
  created_by: hjd
  creation_date: 2020-09-30T19:33:52Z
  
-@@ -451851,6 +468192,8 @@
+@@ -451851,6 +468194,8 @@
  xref: MetaCyc:RXN-13182
  xref: RHEA:22600
  is_a: GO:0001681 ! sialate O-acetylesterase activity
@@ -62418,7 +62446,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  created_by: hjd
  creation_date: 2020-09-30T19:38:44Z
-@@ -451863,6 +468206,8 @@
+@@ -451863,6 +468208,8 @@
  xref: MetaCyc:RXN-13181
  xref: RHEA:25564
  is_a: GO:0001681 ! sialate O-acetylesterase activity
@@ -62427,7 +62455,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  created_by: hjd
  creation_date: 2020-09-30T19:40:24Z
-@@ -451896,6 +468241,8 @@
+@@ -451896,6 +468243,8 @@
  xref: RHEA:65764
  is_a: GO:0016829 ! lyase activity
  is_a: GO:0140097 ! catalytic activity, acting on DNA
@@ -62436,7 +62464,7 @@
  created_by: hjd
  creation_date: 2020-10-20T19:04:24Z
  
-@@ -451907,7 +468254,10 @@
+@@ -451907,7 +468256,10 @@
  xref: EC:2.1.1.229
  xref: RHEA:43208
  is_a: GO:0016300 ! tRNA (uridine) methyltransferase activity
@@ -62447,7 +62475,7 @@
  created_by: hjd
  creation_date: 2020-10-27T21:34:30Z
  
-@@ -451931,6 +468281,10 @@
+@@ -451931,6 +468283,10 @@
  xref: MetaCyc:RXN-11866
  xref: RHEA:42932
  is_a: GO:0016427 ! tRNA (cytidine) methyltransferase activity
@@ -62458,7 +62486,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24771" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26018" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26086" xsd:anyURI
-@@ -451947,6 +468301,7 @@
+@@ -451947,6 +468303,7 @@
  def: "Catalysis of the reaction: guanosine(34) in tRNA + S-adenosyl-L-methionine = 2'-O-methylguanosine(34) in tRNA + H+ + S-adenosyl-L-homocysteine." [PMID:31943105]
  xref: Reactome:R-HSA-9024161 "FTSJ1 2'-O-methylates guanosine-34 in tRNA(Phe)"
  is_a: GO:0016423 ! tRNA (guanine) methyltransferase activity
@@ -62466,7 +62494,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25257" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26085" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26086" xsd:anyURI
-@@ -451959,9 +468314,15 @@
+@@ -451959,9 +468316,15 @@
  id: GO:0106341
  name: omega-hydroxyceramide transacylase activity
  namespace: molecular_function
@@ -62484,7 +62512,7 @@
  created_by: hjd
  creation_date: 2020-11-17T17:12:43Z
  
-@@ -451971,6 +468332,7 @@
+@@ -451971,6 +468334,7 @@
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of omega-hydroxyceramide/acylceramide." [PMID:28248318]
  is_a: GO:0046513 ! ceramide biosynthetic process
@@ -62492,7 +62520,7 @@
  created_by: hjd
  creation_date: 2020-11-17T17:15:25Z
  
-@@ -451982,6 +468344,9 @@
+@@ -451982,6 +468346,9 @@
  xref: EC:1.14.11.64
  xref: RHEA:13821
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
@@ -62502,7 +62530,7 @@
  created_by: hjd
  creation_date: 2020-11-17T18:04:10Z
  
-@@ -451992,7 +468357,9 @@
+@@ -451992,7 +468359,9 @@
  def: "Catalysis of the reaction: 2 Fe(3+) + 4 H2O + L-histidyl-[4-amino-5-hydroxymethyl-2-methylpyrimidine phosphate synthase] + N(6)-(pyridoxal phosphate)-L-lysyl-[4-amino-5-hydroxymethyl-2-methylpyrimidine phosphate synthase] = (2S)-2-amino-5-hydroxy-4-oxopentanoyl-[4-amino-5-hydroxymethyl-2-methylpyrimidine phosphate synthase] + 3-oxopropanoate + 4-amino-2-methyl-5-(phosphooxymethyl)pyrimidine + 2 Fe(2+) + 2 H+ + L-lysyl-[4-amino-5-hydroxymethyl-2-methylpyrimidine phosphate synthase]." [PMID:22568620, RHEA:65756]
  xref: RHEA:65756
  is_a: GO:0016740 ! transferase activity
@@ -62512,7 +62540,7 @@
  created_by: hjd
  creation_date: 2020-12-04T14:48:37Z
  
-@@ -452021,6 +468388,8 @@
+@@ -452021,6 +468390,8 @@
  def: "Catalysis of the reaction: a 2'-O-methyladenosine in U2 snRNA + S-adenosyl-L-methionine = an N6-methyl-2'-O-methyladenosine in U2 snRNA + S-adenosyl-L-homocysteine + H+." [PMID:31913360, RHEA:62672]
  xref: RHEA:62672
  is_a: GO:0106346 ! snRNA methyltransferase activity
@@ -62521,7 +62549,7 @@
  created_by: hjd
  creation_date: 2020-12-18T15:11:10Z
  
-@@ -452056,8 +468425,11 @@
+@@ -452056,8 +468427,11 @@
  xref: EC:2.5.1.90
  xref: RHEA:27798
  is_a: GO:0120531 ! prenyl diphosphate synthase activity
@@ -62533,7 +62561,7 @@
  created_by: hjd
  creation_date: 2021-01-12T15:30:15Z
  
-@@ -452078,6 +468450,8 @@
+@@ -452078,6 +468452,8 @@
  def: "Catalysis of the reaction: 4-hydroxybenzoate + H+ + NADH + O2 = 3,4-dihydroxybenzoate + H2O + NAD+." [RHEA:19473]
  xref: RHEA:19473
  is_a: GO:0018671 ! 4-hydroxybenzoate 3-monooxygenase [NAD(P)H] activity
@@ -62542,7 +62570,7 @@
  created_by: hjd
  creation_date: 2021-02-02T05:51:36Z
  
-@@ -452089,6 +468463,8 @@
+@@ -452089,6 +468465,8 @@
  synonym: "4-hydroxybenzoate 3-monooxygenase [NADPH] activity" EXACT []
  xref: RHEA:19477
  is_a: GO:0018671 ! 4-hydroxybenzoate 3-monooxygenase [NAD(P)H] activity
@@ -62551,7 +62579,7 @@
  created_by: hjd
  creation_date: 2021-02-02T05:51:57Z
  
-@@ -452100,6 +468476,8 @@
+@@ -452100,6 +468478,8 @@
  synonym: "glycerol-1-phosphate dehydrogenase [NAD+] activity" EXACT []
  xref: RHEA:21412
  is_a: GO:0050492 ! glycerol-1-phosphate dehydrogenase [NAD(P)+] activity
@@ -62560,7 +62588,7 @@
  created_by: hjd
  creation_date: 2021-02-02T06:07:55Z
  
-@@ -452111,6 +468489,8 @@
+@@ -452111,6 +468491,8 @@
  synonym: "glycerol-1-phosphate dehydrogenase [NADP+] activity" EXACT []
  xref: RHEA:21416
  is_a: GO:0050492 ! glycerol-1-phosphate dehydrogenase [NAD(P)+] activity
@@ -62569,7 +62597,7 @@
  created_by: hjd
  creation_date: 2021-02-02T06:08:14Z
  
-@@ -452120,7 +468500,14 @@
+@@ -452120,7 +468502,14 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: a 2-hydroxy fatty acyl-CoA = a fatty aldehyde + formyl-CoA. The reaction acts on 2-hydroxy-3-methyl-branched fatty acyl-CoA and 2-hydroxy-long-chain fatty acyl-CoA." [EC:4.1.2.63, PMID:21708296, PMID:28289220]
  xref: EC:4.1.2.63
@@ -62584,7 +62612,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20787" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23412" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25060" xsd:anyURI
-@@ -452146,6 +468533,8 @@
+@@ -452146,6 +468535,8 @@
  def: "Catalysis of the reaction: dTDP-beta-L-rhamnose + L-arginyl-[protein] = dTDP + H+ + N(omega)-(L-rhamnosyl)-L-arginyl-[protein]." [GOC:sp, PMID:25686373, PMID:26060278, RHEA:66692]
  xref: RHEA:66692
  is_a: GO:0046527 ! glucosyltransferase activity
@@ -62593,7 +62621,7 @@
  created_by: hjd
  creation_date: 2021-02-05T15:39:52Z
  
-@@ -452156,6 +468545,8 @@
+@@ -452156,6 +468547,8 @@
  def: "Catalysis of the reaction: L-arginyl-[protein] + UDP-N-acetyl-alpha-D-glucosamine = H+ + N(omega)-(N-acetyl-beta-D-glucosaminyl)-L-arginyl-[protein] + UDP." [GOC:sp, PMID:23955153, PMID:30619781, RHEA:66632]
  xref: RHEA:66632
  is_a: GO:0016262 ! protein N-acetylglucosaminyltransferase activity
@@ -62602,7 +62630,7 @@
  created_by: hjd
  creation_date: 2021-02-05T15:42:52Z
  
-@@ -452170,6 +468561,8 @@
+@@ -452170,6 +468563,8 @@
  is_a: GO:0008172 ! S-methyltransferase activity
  is_a: GO:0008276 ! protein methyltransferase activity
  is_a: GO:0008757 ! S-adenosylmethionine-dependent methyltransferase activity
@@ -62611,7 +62639,7 @@
  created_by: hjd
  creation_date: 2021-02-05T15:44:58Z
  
-@@ -452180,8 +468573,12 @@
+@@ -452180,8 +468575,12 @@
  def: "Catalysis of the reaction: 4-hydroxy-3-all-trans-polyprenylbenzoate + 2 H+ + O2 + 2 reduced [2Fe-2S]-[ferredoxin] = 3,4-dihydroxy-5-all-trans-polyprenylbenzoate + H2O + 2 oxidized [2Fe-2S]-[ferredoxin]." [PMID:38425362, RHEA:81195]
  synonym: "4-hydroxy-3-all-trans-hexaprenylbenzoate oxygenase activity" NARROW []
  xref: EC:1.14.15.45
@@ -62624,7 +62652,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27952" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29459" xsd:anyURI
  created_by: hjd
-@@ -452195,6 +468592,9 @@
+@@ -452195,6 +468594,9 @@
  xref: EC:5.2.1.14
  xref: RHEA:34455
  is_a: GO:0016859 ! cis-trans isomerase activity
@@ -62634,7 +62662,7 @@
  created_by: hjd
  creation_date: 2021-02-16T15:32:24Z
  
-@@ -452205,6 +468605,8 @@
+@@ -452205,6 +468607,8 @@
  def: "Catalysis of the reaction: ATP + guanosine = ADP + GMP." [PMID:10879466, PMID:7665468, RHEA:27710]
  xref: RHEA:27710
  is_a: GO:0019206 ! nucleoside kinase activity
@@ -62643,7 +62671,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27917" xsd:anyURI
  created_by: hjd
  creation_date: 2021-02-23T21:18:12Z
-@@ -452217,6 +468619,8 @@
+@@ -452217,6 +468621,8 @@
  xref: RHEA:62128
  is_a: GO:0016776 ! phosphotransferase activity, phosphate group as acceptor
  is_a: GO:0019205 ! nucleobase-containing compound kinase activity
@@ -62652,7 +62680,7 @@
  created_by: hjd
  creation_date: 2021-03-11T20:06:53Z
  
-@@ -452228,6 +468632,8 @@
+@@ -452228,6 +468634,8 @@
  xref: RHEA:62132
  is_a: GO:0016776 ! phosphotransferase activity, phosphate group as acceptor
  is_a: GO:0019205 ! nucleobase-containing compound kinase activity
@@ -62661,7 +62689,7 @@
  created_by: hjd
  creation_date: 2021-03-11T20:09:34Z
  
-@@ -452239,6 +468645,8 @@
+@@ -452239,6 +468647,8 @@
  xref: RHEA:62124
  is_a: GO:0016776 ! phosphotransferase activity, phosphate group as acceptor
  is_a: GO:0019205 ! nucleobase-containing compound kinase activity
@@ -62670,7 +62698,7 @@
  created_by: hjd
  creation_date: 2021-03-11T20:12:21Z
  
-@@ -452251,6 +468659,8 @@
+@@ -452251,6 +468661,8 @@
  is_a: GO:0008170 ! N-methyltransferase activity
  is_a: GO:0008276 ! protein methyltransferase activity
  is_a: GO:0008757 ! S-adenosylmethionine-dependent methyltransferase activity
@@ -62679,7 +62707,7 @@
  created_by: hjd
  creation_date: 2021-03-22T15:13:06Z
  
-@@ -452261,6 +468671,8 @@
+@@ -452261,6 +468673,8 @@
  def: "Catalysis of the reaction: O2 + primary fluorescent chlorophyll catabolite + reduced [NADPH--hemoprotein reductase] = formate + 2 H+ + oxidized [NADPH--hemoprotein reductase] + primary fluorescent dioxobilin-type chlorophyll catabolite." [PMID:23723324, RHEA:67172]
  xref: RHEA:67172
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -62688,7 +62716,7 @@
  created_by: hjd
  creation_date: 2021-04-01T16:32:56Z
  
-@@ -452271,6 +468683,8 @@
+@@ -452271,6 +468685,8 @@
  def: "Catalysis of the reaction: H2O + primary fluorescent dioxobilin-type chlorophyll catabolite = H+ + methanol + O13(4)-desmethyl pFCC." [PMID:23723324, RHEA:67176]
  xref: RHEA:67176
  is_a: GO:0052689 ! carboxylic ester hydrolase activity
@@ -62697,7 +62725,7 @@
  created_by: hjd
  creation_date: 2021-04-01T16:53:38Z
  
-@@ -452281,6 +468695,8 @@
+@@ -452281,6 +468697,8 @@
  def: "Catalysis of the reaction: 3-deoxyglucosone + H2O + NAD+ = 2-dehydro-3-deoxy-D-gluconate + 2 H+ + NADH." [PMID:17175089, RHEA:67244]
  xref: RHEA:67244
  is_a: GO:0004029 ! aldehyde dehydrogenase (NAD+) activity
@@ -62706,7 +62734,7 @@
  created_by: hjd
  creation_date: 2021-04-12T14:48:12Z
  
-@@ -452291,6 +468707,8 @@
+@@ -452291,6 +468709,8 @@
  def: "Catalysis of the reaction: dNTP + H2O = 2'-deoxynucleoside + H+ + triphosphate." [RHEA:46148]
  xref: RHEA:46148
  is_a: GO:0016793 ! triphosphoric monoester hydrolase activity
@@ -62715,7 +62743,7 @@
  created_by: hjd
  creation_date: 2021-04-15T20:44:33Z
  
-@@ -452301,7 +468719,9 @@
+@@ -452301,7 +468721,9 @@
  def: "Catalysis of the reaction: 2-hydroxyphytanoyl-CoA = 2,6,10,14-tetramethylpentadecanal + formyl-CoA." [PMID:10468558, RHEA:25355]
  xref: RHEA:25355
  is_a: GO:0106359 ! 2-hydroxyacyl-CoA lyase activity
@@ -62725,7 +62753,7 @@
  created_by: hjd
  creation_date: 2021-04-16T12:47:53Z
  
-@@ -452313,7 +468733,9 @@
+@@ -452313,7 +468735,9 @@
  xref: Reactome:R-HSA-2395872 "NUDT1 hydrolyses 2-oxo-ATP to 2-oxo-AMP"
  xref: RHEA:67392
  is_a: GO:0047429 ! nucleoside triphosphate diphosphatase activity
@@ -62735,7 +62763,7 @@
  created_by: hjd
  creation_date: 2021-04-23T00:12:31Z
  
-@@ -452325,7 +468747,9 @@
+@@ -452325,7 +468749,9 @@
  xref: Reactome:R-HSA-2395818 "NUDT1 hydrolyses 2-oxo-dATP to 2-oxo-dAMP"
  xref: RHEA:31583
  is_a: GO:0047429 ! nucleoside triphosphate diphosphatase activity
@@ -62745,7 +62773,7 @@
  created_by: hjd
  creation_date: 2021-04-23T00:14:20Z
  
-@@ -452336,6 +468760,7 @@
+@@ -452336,6 +468762,7 @@
  def: "Catalysis of the reaction: 8-oxo-(d)RTP + H20 = 8-oxo-(d)RMP + diphosphate + H+." [PMID:11139615]
  xref: Reactome:R-HSA-9731228 "NUDT1 hydrolyses 8-oxo-dATP to 8-oxo-dAMP"
  is_a: GO:0047429 ! nucleoside triphosphate diphosphatase activity
@@ -62753,7 +62781,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23401" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: hjd
-@@ -452402,6 +468827,8 @@
+@@ -452402,6 +468829,8 @@
  xref: MetaCyc:RXN66-485
  xref: RHEA:32711
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -62762,7 +62790,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27180" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30577" xsd:anyURI
  created_by: hjd
-@@ -452424,10 +468851,13 @@
+@@ -452424,10 +468853,13 @@
  def: "Catalysis of the reaction: N1-methylpseudouridine in small subunit rRNA + S-adenosyl-L-methionine = H+ + N1-methyl-N3-[(3S)-3-amino-3-carboxypropyl]pseudouridine in small subunit rRNA + S-methyl-5'-thioadenosine." [PMID:27084949, RHEA:63296]
  synonym: "18S rRNA aminocarboxypropyltransferase activity" NARROW []
  xref: EC:2.5.1.157
@@ -62777,7 +62805,7 @@
  created_by: hjd
  creation_date: 2021-07-13T14:01:28Z
  
-@@ -452440,7 +468870,9 @@
+@@ -452440,7 +468872,9 @@
  xref: MetaCyc:RXN-14755
  xref: RHEA:67972
  is_a: GO:0016301 ! kinase activity
@@ -62787,7 +62815,7 @@
  created_by: hjd
  creation_date: 2021-07-13T14:37:23Z
  
-@@ -452596,7 +469028,12 @@
+@@ -452596,7 +469030,12 @@
  comment: Trims Glc alpha 1,3 Glc bond in Glc2Man9GlcNAc2 oligosaccharide in inmature glycoproteins.
  synonym: "glucosidase II" BROAD []
  xref: EC:3.2.1.207
@@ -62800,7 +62828,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28029" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28242" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28502" xsd:anyURI
-@@ -452613,6 +469050,9 @@
+@@ -452613,6 +469052,9 @@
  xref: MetaCyc:RXN-14338
  xref: RHEA:35655
  is_a: GO:0016779 ! nucleotidyltransferase activity
@@ -62810,7 +62838,7 @@
  created_by: hjd
  creation_date: 2021-10-29T14:53:01Z
  
-@@ -452625,6 +469065,9 @@
+@@ -452625,6 +469067,9 @@
  xref: MetaCyc:RXN-19814
  xref: RHEA:54420
  is_a: GO:0016779 ! nucleotidyltransferase activity
@@ -62820,7 +62848,7 @@
  created_by: hjd
  creation_date: 2021-10-29T14:57:11Z
  
-@@ -452657,7 +469100,11 @@
+@@ -452657,7 +469102,11 @@
  name: RNA dihydrouridine synthase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: RNA-uracil + NAD(P)+ = RNA-dihydrouridine + NAD(P)H + H+." [PMID:12581659, PMID:25073379]
@@ -62832,7 +62860,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27519" xsd:anyURI
  created_by: hjd
  creation_date: 2021-12-08T16:34:41Z
-@@ -452667,7 +469114,11 @@
+@@ -452667,7 +469116,11 @@
  name: mRNA dihydrouridine synthase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: mRNA-uracil + NAD(P)+ = mRNA-dihydrouridine + NAD(P)H+ + H+." [PMID:34798057]
@@ -62844,7 +62872,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27519" xsd:anyURI
  created_by: hjd
  creation_date: 2021-12-08T16:36:19Z
-@@ -452680,6 +469131,9 @@
+@@ -452680,6 +469133,9 @@
  xref: EC:3.4.17.13
  xref: RHEA:48688
  is_a: GO:0004180 ! carboxypeptidase activity
@@ -62854,7 +62882,7 @@
  created_by: hjd
  creation_date: 2021-12-21T14:33:53Z
  
-@@ -452690,6 +469144,8 @@
+@@ -452690,6 +469146,8 @@
  def: "Catalysis of the reaction: dopaminechrome = 5,6-dihydroxyindole." [PMID:34388859, RHEA:70199]
  xref: RHEA:70199
  is_a: GO:0016863 ! intramolecular oxidoreductase activity, transposing C=C bonds
@@ -62863,7 +62891,7 @@
  created_by: hjd
  creation_date: 2022-01-06T14:51:16Z
  
-@@ -452702,6 +469158,9 @@
+@@ -452702,6 +469160,9 @@
  xref: EC:6.3.2.45
  xref: RHEA:29563
  is_a: GO:0016881 ! acid-amino acid ligase activity
@@ -62873,7 +62901,7 @@
  created_by: hjd
  creation_date: 2022-01-18T14:57:30Z
  
-@@ -452714,7 +469173,10 @@
+@@ -452714,7 +469175,10 @@
  xref: MetaCyc:RXN-22964
  xref: RHEA:63640
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -62884,7 +62912,7 @@
  created_by: hjd
  creation_date: 2022-02-24T17:53:27Z
  
-@@ -452725,6 +469187,7 @@
+@@ -452725,6 +469189,7 @@
  def: "Catalysis of the reaction: H2O + N6-biotinyl-L-lysyl-[protein] + NAD+ = 2''-O-biotinyl-ADP-D-ribose + L-lysyl-[protein] + nicotinamide." [PMID:25525879, RHEA:70479]
  xref: RHEA:70479
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -62892,7 +62920,7 @@
  created_by: hjd
  creation_date: 2022-02-24T17:55:29Z
  
-@@ -452747,19 +469210,24 @@
+@@ -452747,19 +469212,24 @@
  xref: EC:1.13.11.65
  xref: RHEA:33931
  is_a: GO:0010436 ! carotenoid dioxygenase activity
@@ -62918,7 +62946,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23419" xsd:anyURI
  created_by: hjd
  creation_date: 2022-05-31T13:19:27Z
-@@ -452773,7 +469241,10 @@
+@@ -452773,7 +469243,10 @@
  xref: EC:4.1.1.107
  xref: RHEA:55524
  is_a: GO:0016831 ! carboxy-lyase activity
@@ -62929,7 +62957,7 @@
  created_by: hjd
  creation_date: 2022-06-22T13:25:19Z
  
-@@ -452825,6 +469296,8 @@
+@@ -452825,6 +469298,8 @@
  xref: EC:1.1.1.315
  xref: RHEA:55668
  is_a: GO:0004022 ! alcohol dehydrogenase (NAD+) activity
@@ -62938,7 +62966,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23669" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30275" xsd:anyURI
  created_by: hjd
-@@ -452839,7 +469312,10 @@
+@@ -452839,7 +469314,10 @@
  xref: RHEA:30187
  is_a: GO:0004152 ! dihydroorotate dehydrogenase activity
  is_a: GO:0016635 ! oxidoreductase activity, acting on the CH-CH group of donors, quinone or related compound as acceptor
@@ -62949,7 +62977,7 @@
  created_by: hjd
  creation_date: 2022-07-26T19:27:20Z
  
-@@ -452848,7 +469324,11 @@
+@@ -452848,7 +469326,11 @@
  name: N6-methyl-(d)ATP hydrolase activity
  namespace: molecular_function
  def: "Catalysis of the reaction N6-methyl-(d)ATP + H2O = N6-methyl-(d)AMP + diphosphate + H+." [PMID:32144205]
@@ -62961,7 +62989,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21498" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21499" xsd:anyURI
  created_by: hjd
-@@ -452863,6 +469343,7 @@
+@@ -452863,6 +469345,7 @@
  synonym: "tRNA queuosine nucleoside glycosylase" EXACT []
  xref: RHEA:75387
  is_a: GO:0008477 ! purine nucleosidase activity
@@ -62969,7 +62997,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23846" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29892" xsd:anyURI
  created_by: hjd
-@@ -452875,7 +469356,9 @@
+@@ -452875,7 +469358,9 @@
  def: "Catalysis of the reaction O6-methyl-dGTP + H2O = O6-methyl-dGMP + diphosphate + H+." [PMID:30304478, RHEA:67600]
  xref: RHEA:67600
  is_a: GO:0016818 ! hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides
@@ -62979,7 +63007,7 @@
  created_by: hjd
  creation_date: 2022-09-16T18:24:35Z
  
-@@ -452912,7 +469395,10 @@
+@@ -452912,7 +469397,10 @@
  xref: Reactome:R-HSA-9749647 "CES2 hydrolyzes ASA-"
  xref: RHEA:21164
  is_a: GO:0052689 ! carboxylic ester hydrolase activity
@@ -62990,7 +63018,7 @@
  created_by: hjd
  creation_date: 2022-10-03T21:37:41Z
  
-@@ -452925,7 +469411,10 @@
+@@ -452925,7 +469413,10 @@
  xref: EC:1.8.5.8
  xref: RHEA:55156
  is_a: GO:0016672 ! oxidoreductase activity, acting on a sulfur group of donors, quinone or similar compound as acceptor
@@ -63001,7 +63029,7 @@
  created_by: hjd
  creation_date: 2022-10-07T00:15:41Z
  
-@@ -452936,6 +469425,7 @@
+@@ -452936,6 +469427,7 @@
  def: "Catalytic reaction: ATP + L-glutamate + L-glutamyl-[protein] = ADP + H+ + L-gamma-glutamyl-L-glutamyl-[protein] + phosphate." [PMID:32747782, RHEA:60144]
  xref: RHEA:60144
  is_a: GO:0070739 ! protein-glutamic acid ligase activity
@@ -63009,7 +63037,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21309" xsd:anyURI
  created_by: hjd
  creation_date: 2022-10-21T21:11:47Z
-@@ -452947,6 +469437,7 @@
+@@ -452947,6 +469439,7 @@
  def: "Catalytic reaction :(L-glutamyl)n-L-gamma-glutamyl-L-glutamyl-[protein] + ATP + L-glutamate = (L-glutamyl)n+1-L-gamma-glutamyl-L-glutamyl-[protein] + ADP + H+ + phosphate." [PMID:32747782, RHEA:60148]
  xref: RHEA:60148
  is_a: GO:0070739 ! protein-glutamic acid ligase activity
@@ -63017,7 +63045,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21309" xsd:anyURI
  created_by: hjd
  creation_date: 2022-10-21T21:15:15Z
-@@ -452961,7 +469452,9 @@
+@@ -452961,7 +469454,9 @@
  is_a: GO:0015189 ! L-lysine transmembrane transporter activity
  is_a: GO:0015297 ! antiporter activity
  is_a: GO:0061459 ! L-arginine transmembrane transporter activity
@@ -63027,7 +63055,7 @@
  created_by: hjd
  creation_date: 2022-11-08T21:55:18Z
  
-@@ -453508,7 +470001,10 @@
+@@ -453508,7 +470003,10 @@
  xref: EC:3.5.1.128
  xref: RHEA:54532
  is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
@@ -63038,7 +63066,7 @@
  created_by: kmv
  creation_date: 2017-08-31T19:19:11Z
  
-@@ -453701,8 +470197,15 @@
+@@ -453701,8 +470199,15 @@
  id: GO:0110068
  name: glucosylglycerate phosphorylase activity
  namespace: molecular_function
@@ -63055,7 +63083,7 @@
  created_by: kmv
  creation_date: 2017-11-21T21:50:10Z
  
-@@ -454408,6 +470911,8 @@
+@@ -454408,6 +470913,8 @@
  def: "Catalysis of the reaction: ribitol-5-phosphate + H20 = ribitol + phosphate." [GOC:rn, PMID:30240188]
  xref: RHEA:47648
  is_a: GO:0016791 ! phosphatase activity
@@ -63064,7 +63092,7 @@
  created_by: kmv
  creation_date: 2018-10-08T19:47:57Z
  
-@@ -454677,8 +471182,10 @@
+@@ -454677,8 +471184,10 @@
  xref: RHEA:60880
  is_a: GO:0016818 ! hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides
  is_a: GO:0140098 ! catalytic activity, acting on RNA
@@ -63075,7 +63103,7 @@
  created_by: kmv
  creation_date: 2019-07-08T15:55:11Z
  
-@@ -454691,8 +471198,10 @@
+@@ -454691,8 +471200,10 @@
  xref: RHEA:60876
  is_a: GO:0016462 ! pyrophosphatase activity
  is_a: GO:0140098 ! catalytic activity, acting on RNA
@@ -63086,7 +63114,7 @@
  created_by: kmv
  creation_date: 2019-07-08T17:15:59Z
  
-@@ -454989,10 +471498,6 @@
+@@ -454989,10 +471500,6 @@
  def: "Removes a lipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle. This results in intermembrane transfer of lipids." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
  synonym: "intermembrane lipid transfer activity" EXACT []
  synonym: "lipid carrier activity" EXACT []
@@ -63097,7 +63125,7 @@
  xref: Reactome:R-HSA-9856502 "mito-STARD7 transports Q10 to outer mitochondrial membrane"
  xref: Reactome:R-HSA-9856510 "STARD7 transports Q10 to plasma membrane"
  is_a: GO:0005319 ! lipid transporter activity
-@@ -455056,7 +471561,6 @@
+@@ -455056,7 +471563,6 @@
  synonym: "ceramide carrier activity" EXACT []
  synonym: "ceramide transporter activity" BROAD []
  synonym: "intermembrane ceramide transfer activity" NARROW []
@@ -63105,7 +63133,7 @@
  is_a: GO:0120016 ! sphingolipid transfer activity
  relationship: has_part GO:0097001 ! ceramide binding
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
-@@ -455073,7 +471577,6 @@
+@@ -455073,7 +471579,6 @@
  xref: Reactome:R-HSA-1483087 "PI is exchanged with PC by PITPNB"
  xref: Reactome:R-HSA-1483211 "PC:PITPNB is transported from the Golgi membrane to the ER membrane"
  xref: Reactome:R-HSA-1483219 "PC is exchanged with PI by PITPNB"
@@ -63113,7 +63141,7 @@
  is_a: GO:0008525 ! phosphatidylcholine transporter activity
  is_a: GO:0120014 ! phospholipid transfer activity
  relationship: has_part GO:0031210 ! phosphatidylcholine binding
-@@ -455422,8 +471925,11 @@
+@@ -455422,8 +471927,11 @@
  xref: MetaCyc:RXN-18779
  xref: RHEA:52808
  is_a: GO:0106346 ! snRNA methyltransferase activity
@@ -63125,7 +63153,7 @@
  created_by: krc
  creation_date: 2017-06-02T20:37:40Z
  
-@@ -455442,7 +471948,6 @@
+@@ -455442,7 +471950,6 @@
  name: ribitol beta-1,4-xylosyltransferase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: UDP-D-xylose + D-ribitol 5-phosphate-R = UDP + beta1,4-xylosyl-D-ribitol 5-phosphate-R." [PMID:27733679]
@@ -63133,7 +63161,7 @@
  is_a: GO:0035252 ! UDP-xylosyltransferase activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/13641" xsd:anyURI
  created_by: krc
-@@ -455896,21 +472401,31 @@
+@@ -455896,21 +472403,31 @@
  id: GO:0120086
  name: (3S)-(+)-asterisca-2(9),6-diene synthase activity
  namespace: molecular_function
@@ -63168,7 +63196,7 @@
  created_by: krc
  creation_date: 2017-08-18T23:25:52Z
  
-@@ -455922,8 +472437,10 @@
+@@ -455922,8 +472439,10 @@
  synonym: "crotonyl-CoA hydratase activity" EXACT []
  xref: RHEA:45584
  is_a: GO:0018812 ! 3-hydroxyacyl-CoA dehydratase activity
@@ -63179,7 +63207,7 @@
  created_by: krc
  creation_date: 2017-08-22T20:13:55Z
  
-@@ -456109,6 +472626,8 @@
+@@ -456109,6 +472628,8 @@
  xref: EC:3.6.1.72
  xref: RHEA:52140
  is_a: GO:0016462 ! pyrophosphatase activity
@@ -63188,7 +63216,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14348" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30724" xsd:anyURI
  created_by: krc
-@@ -456409,8 +472928,10 @@
+@@ -456409,8 +472930,10 @@
  synonym: "dUMP-kinase activity" EXACT []
  xref: RHEA:30655
  is_a: GO:0047507 ! deoxynucleoside phosphate kinase activity, ATP as phosphate donor
@@ -63199,7 +63227,7 @@
  created_by: krc
  creation_date: 2018-03-21T21:16:06Z
  
-@@ -456543,7 +473064,10 @@
+@@ -456543,7 +473066,10 @@
  xref: MetaCyc:RXN-16226
  xref: RHEA:51152
  is_a: GO:0016670 ! oxidoreductase activity, acting on a sulfur group of donors, oxygen as acceptor
@@ -63210,7 +63238,7 @@
  created_by: krc
  creation_date: 2018-04-06T15:38:52Z
  
-@@ -456688,8 +473212,10 @@
+@@ -456688,8 +473214,10 @@
  xref: RHEA:54568
  is_a: GO:0009982 ! pseudouridine synthase activity
  is_a: GO:0140098 ! catalytic activity, acting on RNA
@@ -63221,7 +63249,7 @@
  created_by: krc
  creation_date: 2018-05-11T21:24:19Z
  
-@@ -456713,7 +473239,6 @@
+@@ -456713,7 +473241,6 @@
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of cold-induced thermogenesis." [PMID:27876809]
  synonym: "regulation of CIT" RELATED []
@@ -63229,7 +63257,7 @@
  is_a: GO:0051239 ! regulation of multicellular organismal process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0106106 ! cold-induced thermogenesis
-@@ -456728,7 +473253,6 @@
+@@ -456728,7 +473255,6 @@
  namespace: biological_process
  def: "Any process that activates or increases the frequency, rate or extent of cold-induced thermogenesis." [PMID:27876809]
  synonym: "positive regulation of CIT" RELATED []
@@ -63237,7 +63265,7 @@
  is_a: GO:0051240 ! positive regulation of multicellular organismal process
  is_a: GO:0120161 ! regulation of cold-induced thermogenesis
  intersection_of: GO:0065007 ! biological regulation
-@@ -456744,7 +473268,6 @@
+@@ -456744,7 +473270,6 @@
  namespace: biological_process
  def: "Any process that stops, prevents, or reduces the rate of cold-induced thermogenesis." [PMID:27876809]
  synonym: "negative regulation of CIT" RELATED []
@@ -63245,7 +63273,7 @@
  is_a: GO:0051241 ! negative regulation of multicellular organismal process
  is_a: GO:0120161 ! regulation of cold-induced thermogenesis
  intersection_of: GO:0065007 ! biological regulation
-@@ -456878,8 +473401,8 @@
+@@ -456878,8 +473403,8 @@
  comment: Note, although the SHRED pathway may contain some components in common with ER-associated protein degradation (ERAD) pathways (GO:0036503), such as UBR1, RAD6 and CDC48, other ERAD components, such as HRD1 and DOA10 do not appear to be involved, and as such these pathways are currently considered to be distinct. ERAD pathways target misfolded ER lumenal proteins (ERAD-L), ER membrane proteins (ERAD-M) and ER proteins with misfolded cytosolic domains (ERAD-C) by recognizing aberrant proteins, retrotranslocating these substrates to the cytosol, followed by subsequent substrate ubiquitination and proteosome-mediated degradation. In contrast the SHRED pathway, although inducible by stress, targets diverse ER membrane and cytosolic proteins as well as numerous other native proteins in the absence of stress. In the SHRED pathway an Nma111p serine protease-mediated cleavage results in the generation of a Roq1p fragment that then binds to the type-1 active site of Ubr1p, altering its substrate specificity, and leading to the proteasome-mediated degradation of both misfolded and native proteins. SHRED is also considered to be distinct from the endoplasmic reticulum unfolded protein response (GO:0030968), a process by which ER stress activates the ER membrane protein Ire1p, resulting in splicing of the HAC1 mRNA, followed by Hac1p-mediated up-regulation of UPR genes. Induction of SHRED does not require IRE1 or HAC1, and as such is currently considered to be distinct.
  synonym: "SHRED pathway" RELATED [GOC:rn]
  is_a: GO:0033554 ! cellular response to stress
@@ -63255,7 +63283,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15869" xsd:anyURI
  created_by: krc
  creation_date: 2018-06-07T16:16:43Z
-@@ -457287,7 +473810,11 @@
+@@ -457287,7 +473812,11 @@
  name: methylcytosine to 5-glyceryl-methylcytosine dioxygenase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: methylcytosine + L-ascorbate + O2 = 5-glyceryl-methylcytosine + glyoxylate + CO2." [PMID:31043749]
@@ -63267,7 +63295,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17267" xsd:anyURI
  created_by: krc
  creation_date: 2019-05-10T15:58:47Z
-@@ -457488,15 +474015,16 @@
+@@ -457488,15 +474017,16 @@
  id: GO:0120216
  name: matrilin complex
  namespace: cellular_component
@@ -63286,7 +63314,7 @@
  created_by: krc
  creation_date: 2019-07-09T22:05:11Z
  
-@@ -457815,7 +474343,7 @@
+@@ -457815,7 +474345,7 @@
  
  [Term]
  id: GO:0120241
@@ -63295,7 +63323,7 @@
  namespace: molecular_function
  def: "Catalyzes the hydrolytic deamination of imine intermediates formed by several types of pyridoxal-5'-phosphate-dependent dehydratases, such as EC 4.3.1.19 and EC 4.3.1.17." [EC:3.5.99.10]
  comment: This enzyme, which has been found in all species and tissues examined, catalyzes the hydrolytic deamination of imine intermediates formed by several types of pyridoxal-5'-phosphate-dependent dehydratases, such as EC 4.3.1.19 and EC 4.3.1.17. The reactions, which can occur spontaneously, are accelerated to minimize the cellular damage that could be caused by these reactive intermediates (from EC:3.5.99.10).
-@@ -457825,7 +474353,9 @@
+@@ -457825,7 +474355,9 @@
  synonym: "imine intermediate deaminase activity" RELATED [] {comment="EC:3.5.99.10"}
  xref: EC:3.5.99.10
  is_a: GO:0019239 ! deaminase activity
@@ -63305,7 +63333,7 @@
  created_by: krc
  creation_date: 2020-07-29T17:28:19Z
  
-@@ -457837,10 +474367,11 @@
+@@ -457837,10 +474369,11 @@
  synonym: "2-iminobutanoate/2-iminopropanoate deaminase" BROAD [EC:3.5.99.10]
  xref: KEGG_REACTION:R11098
  xref: MetaCyc:RXN-15123
@@ -63319,7 +63347,7 @@
  created_by: krc
  creation_date: 2020-07-29T18:07:00Z
  
-@@ -457853,8 +474384,10 @@
+@@ -457853,8 +474386,10 @@
  xref: KEGG_REACTION:R11099
  xref: MetaCyc:RXN-15127
  xref: RHEA:40671
@@ -63331,7 +63359,7 @@
  created_by: krc
  creation_date: 2020-07-29T19:41:18Z
  
-@@ -457956,9 +474489,12 @@
+@@ -457956,9 +474491,12 @@
  synonym: "omega-hydroxylase activity" BROAD [EC:1.14.15.3]
  xref: RHEA:39023
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -63344,7 +63372,7 @@
  created_by: krc
  creation_date: 2020-09-01T00:19:13Z
  
-@@ -458578,7 +475114,9 @@
+@@ -458578,7 +475116,9 @@
  def: "Catalysis of the reaction: L-glutaminyl-[protein] + serotonin = 5-serotonyl-L-glutamyl-[protein] + NH4(+)." [GOC:sp, PMID:14697203]
  xref: RHEA:66552
  is_a: GO:0016410 ! N-acyltransferase activity
@@ -63354,7 +63382,7 @@
  created_by: krc
  creation_date: 2021-01-19T02:07:56Z
  
-@@ -458589,6 +475127,7 @@
+@@ -458589,6 +475129,7 @@
  def: "Catalysis of the reaction: L-glutaminyl-[histone] + serotonin = 5-serotonyl-L-glutamyl-[histone] + NH4(+)." [GOC:sp, PMID:30867594]
  is_a: GO:0120294 ! peptide serotonyltransferase activity
  is_a: GO:0140993 ! histone modifying activity
@@ -63362,7 +63390,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20685" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: krc
-@@ -458601,7 +475140,9 @@
+@@ -458601,7 +475142,9 @@
  def: "Catalysis of the reaction: dopamine + L-glutaminyl-[protein] = 5-dopaminyl-L-glutamyl-[protein] + NH4(+)." [GOC:sp, PMID:22858378, PMID:32273471]
  xref: RHEA:66556
  is_a: GO:0016410 ! N-acyltransferase activity
@@ -63372,7 +63400,7 @@
  created_by: krc
  creation_date: 2021-01-19T02:20:30Z
  
-@@ -458612,6 +475153,7 @@
+@@ -458612,6 +475155,7 @@
  def: "Catalysis of the reaction: dopamine + L-glutaminyl-[histone] = 5-dopaminyl-L-glutamyl-[histone] + NH4(+)." [GOC:sp, PMID:32273471]
  is_a: GO:0120296 ! peptide dopaminyltransferase activity
  is_a: GO:0140993 ! histone modifying activity
@@ -63380,7 +63408,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20685" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: krc
-@@ -458624,7 +475166,9 @@
+@@ -458624,7 +475168,9 @@
  def: "Catalysis of the reaction: (R)-noradrenaline + L-glutaminyl-[protein] = 5-(R)-noradrenalinyl-L-glutamyl-[protein] + NH4(+)." [GOC:sp, PMID:22858378]
  xref: RHEA:66560
  is_a: GO:0016410 ! N-acyltransferase activity
@@ -63390,7 +63418,7 @@
  created_by: krc
  creation_date: 2021-01-19T03:20:26Z
  
-@@ -458635,7 +475179,9 @@
+@@ -458635,7 +475181,9 @@
  def: "Catalysis of the reaction: histamine + L-glutaminyl-[protein] = 5-histaminyl-L-glutamyl-[protein]." [GOC:sp, PMID:23022564, PMID:23797785]
  xref: RHEA:66564
  is_a: GO:0016410 ! N-acyltransferase activity
@@ -63400,7 +63428,7 @@
  created_by: krc
  creation_date: 2021-01-19T03:23:48Z
  
-@@ -458649,8 +475195,10 @@
+@@ -458649,8 +475197,10 @@
  synonym: "peptide lactyltransferase activity (CoA-dependent)" BROAD []
  xref: RHEA:61996
  is_a: GO:0016410 ! N-acyltransferase activity
@@ -63411,7 +63439,7 @@
  created_by: krc
  creation_date: 2021-01-19T03:35:54Z
  
-@@ -458664,6 +475212,7 @@
+@@ -458664,6 +475214,7 @@
  synonym: "histone lactyltransferase activity (CoA dependent)" EXACT []
  is_a: GO:0120300 ! peptide lactyltransferase (CoA-dependent) activity
  is_a: GO:0140993 ! histone modifying activity
@@ -63419,7 +63447,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20685" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28015" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
-@@ -458905,7 +475454,9 @@
+@@ -458905,7 +475456,9 @@
  synonym: "cytochrome P450 fatty acid omega-1 hydroxylase activity" RELATED []
  xref: RHEA:60936
  is_a: GO:0120502 ! fatty acid omega-1 hydroxylase activity
@@ -63429,7 +63457,7 @@
  created_by: krc
  creation_date: 2021-06-21T18:31:38Z
  
-@@ -459006,9 +475557,10 @@
+@@ -459006,9 +475559,10 @@
  xref: RHEA:68984
  is_a: GO:0003886 ! DNA (cytosine-5-)-methyltransferase activity
  is_a: GO:0008094 ! ATP-dependent activity, acting on DNA
@@ -63442,7 +63470,7 @@
  created_by: krc
  creation_date: 2021-08-16T21:00:16Z
  
-@@ -459216,7 +475768,10 @@
+@@ -459216,7 +475770,10 @@
  xref: EC:1.14.13.225
  xref: RHEA:51308
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -63453,7 +63481,7 @@
  created_by: sjm
  creation_date: 2024-04-25T13:46:24Z
  
-@@ -459227,7 +475782,9 @@
+@@ -459227,7 +475784,9 @@
  def: "Catalysis of the reaction: an (omega-1)-ethyl fatty acid + O2 + reduced [NADPH--hemoprotein reductase] = an (omega-1)-hydroxy fatty acid + H+ + H2O + oxidized [NADPH--hemoprotein reductase]." [RHEA:44548]
  xref: RHEA:44548
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -63463,7 +63491,7 @@
  created_by: sjm
  creation_date: 2024-04-26T10:00:25Z
  
-@@ -459262,7 +475819,9 @@
+@@ -459262,7 +475821,9 @@
  comment: Comment: Note that the residue position corresponds to the canonical human H3 histone (UniProtKB:P84243); this residue is conserved across all eukaryotes. Residue 1 is the first residue following removal of the initiating Methionine (Met). Note that each histone is encoded by multiple genes, and sequences may vary across different genes within an organism.
  xref: RHEA:60332
  is_a: GO:0031151 ! histone H3K79 methyltransferase activity
@@ -63473,7 +63501,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: sjm
  creation_date: 2024-04-30T12:26:45Z
-@@ -459310,7 +475869,9 @@
+@@ -459310,7 +475871,9 @@
  xref: MetaCyc:RXN0-300
  xref: RHEA:18657
  is_a: GO:0016618 ! hydroxypyruvate reductase [NAD(P)H] activity
@@ -63483,7 +63511,7 @@
  created_by: sjm
  creation_date: 2024-05-10T14:03:36Z
  
-@@ -459337,7 +475898,10 @@
+@@ -459337,7 +475900,10 @@
  xref: MetaCyc:RXN-11621
  xref: RHEA:43728
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -63494,7 +63522,7 @@
  created_by: sjm
  creation_date: 2024-05-23T12:38:07Z
  
-@@ -459351,7 +475915,10 @@
+@@ -459351,7 +475917,10 @@
  xref: MetaCyc:RXN-11770
  xref: RHEA:43724
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -63505,7 +63533,7 @@
  created_by: sjm
  creation_date: 2024-05-23T12:38:32Z
  
-@@ -459375,6 +475942,9 @@
+@@ -459375,6 +475944,9 @@
  xref: MetaCyc:RXN-18732
  xref: RHEA:51504
  is_a: GO:0016758 ! hexosyltransferase activity
@@ -63515,7 +63543,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28159" xsd:anyURI
  created_by: sjm
  creation_date: 2024-06-18T10:22:10Z
-@@ -459388,6 +475958,8 @@
+@@ -459388,6 +475960,8 @@
  xref: RHEA:38883
  is_a: GO:0015645 ! fatty acid ligase activity
  is_a: GO:0016405 ! CoA-ligase activity
@@ -63524,7 +63552,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28199" xsd:anyURI
  created_by: sjm
  creation_date: 2024-06-25T12:17:07Z
-@@ -459400,6 +475972,9 @@
+@@ -459400,6 +475974,9 @@
  xref: MetaCyc:RXN-19279
  xref: RHEA:32731
  is_a: GO:0016298 ! lipase activity
@@ -63534,7 +63562,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28339" xsd:anyURI
  created_by: sjm
  creation_date: 2024-06-28T12:36:24Z
-@@ -459421,8 +475996,17 @@
+@@ -459421,8 +475998,17 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: acetyl-CoA + N-terminal L-methionyl-[protein] = CoA + H+ + N-terminal N(alpha)-acetyl-L-methionyl-[protein]." [RHEA:75239]
  synonym: "peptide-methionine-alpha-N-acetyltransferase activity" EXACT []
@@ -63552,7 +63580,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27532" xsd:anyURI
  created_by: sjm
  creation_date: 2024-07-10T12:16:39Z
-@@ -459438,6 +476022,10 @@
+@@ -459438,6 +476024,10 @@
  xref: MetaCyc:RXN-22633
  xref: RHEA:69607
  is_a: GO:0004596 ! protein-N-terminal amino-acid acetyltransferase activity
@@ -63563,7 +63591,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27532" xsd:anyURI
  created_by: sjm
  creation_date: 2024-07-10T12:20:19Z
-@@ -459449,6 +476037,7 @@
+@@ -459449,6 +476039,7 @@
  def: "Catalysis of the reaction: a 1,2-saturated fatty acid + 2 Fe(II)-[cytochrome b5] + 2 H+ + O2 = a (R)-2-hydroxy fatty acid + 2 Fe(III)-[cytochrome b5] + H2O. Note that the substrate is a free fatty acid, not a fatty acyl chain within a sphingolipid." [GOC:sjm, RHEA:38855]
  xref: RHEA:38855
  is_a: GO:0080132 ! fatty acid 2-hydroxylase activity
@@ -63571,7 +63599,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27541" xsd:anyURI
  created_by: sjm
  creation_date: 2024-07-12T08:40:48Z
-@@ -459461,6 +476050,9 @@
+@@ -459461,6 +476052,9 @@
  xref: MetaCyc:RXN3O-4042
  xref: RHEA:46520
  is_a: GO:0080132 ! fatty acid 2-hydroxylase activity
@@ -63581,7 +63609,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27541" xsd:anyURI
  created_by: sjm
  creation_date: 2024-07-12T08:47:01Z
-@@ -459473,7 +476065,9 @@
+@@ -459473,7 +476067,9 @@
  comment: While there is not universal consensus on the lengths of short-, medium-, long- and very-long-chain fatty acids, the GO uses the definitions in ChEBI (see CHEBI:26666, CHEBI:59554, CHEBI:15904 and CHEBI:27283).
  xref: RHEA:78859
  is_a: GO:0003997 ! acyl-CoA oxidase activity
@@ -63591,7 +63619,7 @@
  created_by: sjm
  creation_date: 2024-08-27T08:19:22Z
  
-@@ -459485,7 +476079,9 @@
+@@ -459485,7 +476081,9 @@
  comment: While there is not universal consensus on the lengths of short-, medium-, long- and very-long-chain fatty acids, the GO uses the definitions in ChEBI (see CHEBI:26666, CHEBI:59554, CHEBI:15904 and CHEBI:27283).
  xref: RHEA:78855
  is_a: GO:0003997 ! acyl-CoA oxidase activity
@@ -63601,7 +63629,7 @@
  created_by: sjm
  creation_date: 2024-08-27T08:21:49Z
  
-@@ -459497,7 +476093,9 @@
+@@ -459497,7 +476095,9 @@
  comment: While there is not universal consensus on the lengths of short-, medium-, long- and very-long-chain fatty acids, the GO uses the definitions in ChEBI (see CHEBI:26666, CHEBI:59554, CHEBI:15904 and CHEBI:27283).
  xref: RHEA:78851
  is_a: GO:0003997 ! acyl-CoA oxidase activity
@@ -63611,7 +63639,7 @@
  created_by: sjm
  creation_date: 2024-08-27T08:24:03Z
  
-@@ -459512,6 +476110,11 @@
+@@ -459512,6 +476112,11 @@
  xref: MetaCyc:RXN-13946
  xref: RHEA:35095
  is_a: GO:0016840 ! carbon-nitrogen lyase activity
@@ -63623,7 +63651,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28808" xsd:anyURI
  created_by: sjm
  creation_date: 2024-08-30T13:13:55Z
-@@ -459526,6 +476129,10 @@
+@@ -459526,6 +476131,10 @@
  xref: MetaCyc:RXN-18175
  xref: RHEA:51972
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -63634,7 +63662,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  created_by: sjm
  creation_date: 2024-09-05T07:47:05Z
-@@ -459539,6 +476146,9 @@
+@@ -459539,6 +476148,9 @@
  xref: MetaCyc:RXN-18179
  xref: RHEA:52724
  is_a: GO:0008146 ! sulfotransferase activity
@@ -63644,7 +63672,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  created_by: sjm
  creation_date: 2024-09-05T07:53:33Z
-@@ -459549,7 +476159,12 @@
+@@ -459549,7 +476161,12 @@
  namespace: molecular_function
  def: "Catalysis of the reactions: a 2-(omega-methylsulfanyl)alkylmalate = a 2-(omega-methylsulfanyl)alkylmaleate + H2O and a 3-(omega-methylsulfanyl)alkylmalate = a 2-(omega-methylsulfanyl)alkylmaleate + H2O." [EC:4.2.1.170]
  xref: EC:4.2.1.170
@@ -63657,7 +63685,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  created_by: sjm
  creation_date: 2024-09-05T08:00:08Z
-@@ -459564,6 +476179,10 @@
+@@ -459564,6 +476181,10 @@
  xref: MetaCyc:RXN-13433
  xref: RHEA:33887
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -63668,7 +63696,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
  created_by: sjm
  creation_date: 2024-09-05T08:19:32Z
-@@ -459593,6 +476212,7 @@
+@@ -459593,6 +476214,7 @@
  synonym: "IPPS activity" EXACT [PMID:12135472]
  synonym: "isoprenyl pyrophosphate synthase activity" EXACT [PMID:12135472]
  is_a: GO:0004659 ! prenyltransferase activity
@@ -63676,7 +63704,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20661" xsd:anyURI
  created_by: sjm
  creation_date: 2024-11-22T10:52:31Z
-@@ -459625,6 +476245,7 @@
+@@ -459625,6 +476247,7 @@
  synonym: "non-phosphorylating glyceraldehyde-3-phosphate dehydrogenase activity" BROAD [EC:1.2.1.90]
  xref: EC:1.2.1.90
  is_a: GO:0016620 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor
@@ -63684,7 +63712,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28144" xsd:anyURI
  created_by: sjm
  creation_date: 2024-11-28T16:08:56Z
-@@ -459635,6 +476256,7 @@
+@@ -459635,6 +476258,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: 3'-phosphoadenylyl sulfate + dermatan = adenosine 3',5'-bisphosphate + dermatan sulfate." [GOC:curators]
  is_a: GO:0050698 ! proteoglycan sulfotransferase activity
@@ -63692,7 +63720,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28380" xsd:anyURI
  created_by: sjm
  creation_date: 2024-12-02T12:14:06Z
-@@ -459649,7 +476271,10 @@
+@@ -459649,7 +476273,10 @@
  xref: EC:2.5.1.n9
  xref: RHEA:33495
  is_a: GO:0004659 ! prenyltransferase activity
@@ -63703,7 +63731,7 @@
  created_by: sjm
  creation_date: 2024-12-12T10:57:45Z
  
-@@ -459662,6 +476287,7 @@
+@@ -459662,6 +476289,7 @@
  is_a: GO:0008171 ! O-methyltransferase activity
  is_a: GO:0008757 ! S-adenosylmethionine-dependent methyltransferase activity
  relationship: part_of GO:0006744 ! ubiquinone biosynthetic process
@@ -63711,7 +63739,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29459" xsd:anyURI
  created_by: sjm
  creation_date: 2024-12-18T09:25:15Z
-@@ -459675,6 +476301,8 @@
+@@ -459675,6 +476303,8 @@
  xref: RHEA:81183
  is_a: GO:0016713 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen
  relationship: part_of GO:0006744 ! ubiquinone biosynthetic process
@@ -63720,7 +63748,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29459" xsd:anyURI
  created_by: sjm
  creation_date: 2024-12-18T09:30:52Z
-@@ -459685,10 +476313,11 @@
+@@ -459685,10 +476315,11 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: a 4-hydroxy-3-methoxy-5-(all-trans-polyprenyl)benzoate + H+ = a 2-methoxy-6-(all-trans-polyprenyl)phenol + CO2." [PMID:38295803, PMID:38425362, RHEA:81179]
  xref: EC:4.1.1.130
@@ -63733,7 +63761,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29459" xsd:anyURI
  created_by: sjm
  creation_date: 2024-12-18T09:36:09Z
-@@ -459726,7 +476355,9 @@
+@@ -459726,7 +476357,9 @@
  def: "Catalysis of the reaction: ethanol + NAD+ = acetaldehyde + NADH + H+." [RHEA:25290]
  xref: RHEA:25290
  is_a: GO:0004022 ! alcohol dehydrogenase (NAD+) activity
@@ -63743,7 +63771,7 @@
  created_by: sjm
  creation_date: 2025-01-16T08:15:42Z
  
-@@ -459737,7 +476368,9 @@
+@@ -459737,7 +476370,9 @@
  def: "Catalysis of a reaction that alters the macromolecular conformation of a molecule." [EC:5.6.-.-]
  xref: EC:5.6.-.-
  is_a: GO:0016853 ! isomerase activity
@@ -63753,7 +63781,7 @@
  created_by: sjm
  creation_date: 2025-02-11T09:46:30Z
  
-@@ -459748,7 +476381,9 @@
+@@ -459748,7 +476383,9 @@
  def: "Catalysis of a reaction that alters the conformation or assembly of a polypeptide." [EC:5.6.1.-]
  xref: EC:5.6.1.-
  is_a: GO:0120543 ! macromolecular conformation isomerase activity
@@ -63763,7 +63791,7 @@
  created_by: sjm
  creation_date: 2025-02-11T09:51:11Z
  
-@@ -459759,7 +476394,9 @@
+@@ -459759,7 +476396,9 @@
  def: "Catalysis of a reaction that alters the conformation of a nucleic acid." [EC:5.6.2.-]
  xref: EC:5.6.2.-
  is_a: GO:0120543 ! macromolecular conformation isomerase activity
@@ -63773,7 +63801,7 @@
  created_by: sjm
  creation_date: 2025-02-11T09:55:25Z
  
-@@ -459770,7 +476407,9 @@
+@@ -459770,7 +476409,9 @@
  def: "Catalysis of an oxidation-reduction (redox) reaction in which a reducing C-O-C group acts as acceptor." [EC:1.23.-.-]
  xref: EC:1.23.-.-
  is_a: GO:0016491 ! oxidoreductase activity
@@ -63783,7 +63811,7 @@
  created_by: sjm
  creation_date: 2025-02-11T18:09:07Z
  
-@@ -459781,9 +476420,11 @@
+@@ -459781,9 +476422,11 @@
  def: "Catalysis of the reaction: Fe(II)-heme o + 2 acceptor + H2O = Fe(II)-heme a + 2 acceptor-H2. The conversion of heme o to heme a occcurs by two successive hydroxylations of the methyl group at C8 using water as the oxygen source. The first hydroxylation forms heme i, the second hydroxylation results in an unstable dihydroxymethyl group, which spontaneously dehydrates, resulting in the formyl group of heme A." [PMID:30397130, RHEA:63388]
  xref: EC:1.17.99.9
  xref: MetaCyc:RXN-18399
@@ -63796,7 +63824,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29711" xsd:anyURI
  created_by: sjm
  creation_date: 2025-02-13T12:39:18Z
-@@ -459793,9 +476434,12 @@
+@@ -459793,9 +476436,12 @@
  name: phosphatidylinositol phospholipase C activity
  namespace: molecular_function
  def: "Catalysis of the reaction: a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol) + H2O = 1D-myo-inositol 1-phosphate + a 1,2-diacyl-sn-glycerol + H+." [RHEA:43484]
@@ -63810,7 +63838,7 @@
  created_by: sjm
  creation_date: 2025-02-21T10:31:17Z
  
-@@ -459808,6 +476452,7 @@
+@@ -459808,6 +476454,7 @@
  xref: EC:3.2.1.196
  xref: MetaCyc:RXN0-5146
  is_a: GO:0004553 ! hydrolase activity, hydrolyzing O-glycosyl compounds
@@ -63818,7 +63846,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29864" xsd:anyURI
  created_by: sjm
  creation_date: 2025-03-06T06:46:46Z
-@@ -459821,8 +476466,11 @@
+@@ -459821,8 +476468,11 @@
  synonym: "mRNA (nucleoside-2'-O-)-methyltransferase activity" RELATED [EC:2.1.1.296]
  xref: EC:2.1.1.296
  xref: MetaCyc:RXN-14928 {xref="skos:narrowMatch"}
@@ -63830,7 +63858,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27387" xsd:anyURI
  created_by: sjm
  creation_date: 2025-03-20T17:49:48Z
-@@ -459867,6 +476515,9 @@
+@@ -459867,6 +476517,9 @@
  xref: MetaCyc:RXN-11619
  xref: RHEA:24216
  is_a: GO:0004029 ! aldehyde dehydrogenase (NAD+) activity
@@ -63840,7 +63868,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30259" xsd:anyURI
  created_by: sjm
  creation_date: 2025-05-15T14:18:24Z
-@@ -459879,6 +476530,8 @@
+@@ -459879,6 +476532,8 @@
  xref: MetaCyc:RXN-20408
  xref: RHEA:70223
  is_a: GO:0008483 ! transaminase activity
@@ -63849,7 +63877,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30260" xsd:anyURI
  created_by: sjm
  creation_date: 2025-05-15T14:38:07Z
-@@ -459890,6 +476543,7 @@
+@@ -459890,6 +476545,7 @@
  def: "Catalysis of the reaction: a ubiquinone + NADH + H+ = a ubiquinol + NAD+." [RHEA:23152]
  xref: RHEA:23152
  is_a: GO:0050136 ! NADH dehydrogenase (quinone) (non-electrogenic) activity
@@ -63857,7 +63885,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30272" xsd:anyURI
  created_by: sjm
  creation_date: 2025-05-21T13:00:47Z
-@@ -459912,53 +476566,62 @@
+@@ -459912,53 +476568,62 @@
  xref: MetaCyc:RXN-11776
  xref: RHEA:48128
  is_a: GO:0120556 ! polyprenyl diphosphate phosphatase activity
@@ -63930,7 +63958,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30258" xsd:anyURI
  created_by: sjm
  creation_date: 2025-05-23T13:15:46Z
-@@ -460021,6 +476684,8 @@
+@@ -460021,6 +476686,8 @@
  xref: MetaCyc:RXN-19669
  xref: RHEA:74083
  is_a: GO:0004659 ! prenyltransferase activity
@@ -63939,7 +63967,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30566" xsd:anyURI
  created_by: sjm
  creation_date: 2025-07-14T12:21:33Z
-@@ -460034,6 +476699,9 @@
+@@ -460034,6 +476701,9 @@
  xref: MetaCyc:RXN-9896
  xref: RHEA:79695
  is_a: GO:0016832 ! aldehyde-lyase activity
@@ -63949,7 +63977,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30653" xsd:anyURI
  created_by: sjm
  creation_date: 2025-07-30T15:06:39Z
-@@ -460049,11 +476717,34 @@
+@@ -460049,11 +476719,34 @@
  xref: RHEA:49612
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
  is_a: GO:0051990 ! (R)-2-hydroxyglutarate dehydrogenase activity
@@ -63984,7 +64012,7 @@
  id: GO:0140001
  name: morula formation
  namespace: biological_process
-@@ -460790,6 +477481,8 @@
+@@ -460790,6 +477483,8 @@
  synonym: "protein crotonyltransferase activity" RELATED []
  xref: RHEA:53908
  is_a: GO:0016410 ! N-acyltransferase activity
@@ -63993,7 +64021,7 @@
  created_by: pg
  creation_date: 2017-07-20T16:40:57Z
  
-@@ -460801,6 +477494,8 @@
+@@ -460801,6 +477496,8 @@
  synonym: "protein butyryltransferase activity" RELATED []
  xref: RHEA:53912
  is_a: GO:0016410 ! N-acyltransferase activity
@@ -64002,7 +64030,7 @@
  created_by: pg
  creation_date: 2017-07-20T16:46:49Z
  
-@@ -460831,6 +477526,7 @@
+@@ -460831,6 +477528,7 @@
  def: "Catalysis of the reaction: crotonyl-CoA + histone = CoA + crotonyl-histone." [PMID:25818647]
  is_a: GO:0140064 ! peptide crotonyltransferase activity
  is_a: GO:0140993 ! histone modifying activity
@@ -64010,7 +64038,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: pg
  creation_date: 2017-07-20T16:55:16Z
-@@ -460842,6 +477538,7 @@
+@@ -460842,6 +477540,7 @@
  def: "Catalysis of the reaction: butyryl-CoA + histone = CoA + butyryl-histone." [PMID:27105113]
  is_a: GO:0140065 ! peptide butyryltransferase activity
  is_a: GO:0140993 ! histone modifying activity
@@ -64018,7 +64046,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: pg
  creation_date: 2017-07-20T16:56:33Z
-@@ -460959,8 +477656,11 @@
+@@ -460959,8 +477658,11 @@
  xref: Wikipedia:AP_endonuclease
  is_a: GO:0003906 ! DNA-(apurinic or apyrimidinic site) endonuclease activity
  is_a: GO:0016835 ! carbon-oxygen lyase activity
@@ -64030,7 +64058,7 @@
  created_by: pg
  creation_date: 2017-07-24T11:33:34Z
  
-@@ -461031,6 +477731,7 @@
+@@ -461031,6 +477733,7 @@
  def: "Catalysis of the reaction: acetyl-CoA + a L-amino acid = CoA + an N-acetyl-L-amino-acid. In some cases acetyl phosphate can be used as a donor." [GOC:pg, RHEA:83863]
  xref: RHEA:83863
  is_a: GO:0008080 ! N-acetyltransferase activity
@@ -64038,7 +64066,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29604" xsd:anyURI
  created_by: pg
  creation_date: 2025-01-24T10:40:36Z
-@@ -461052,7 +477753,9 @@
+@@ -461052,7 +477755,9 @@
  def: "Catalysis of the reaction: acetaldehyde + NAD+ + H2O = acetate + NADH + 2 H+." [PMID:9473035, RHEA:25294]
  xref: RHEA:25294
  is_a: GO:0004029 ! aldehyde dehydrogenase (NAD+) activity
@@ -64048,7 +64076,7 @@
  created_by: pg
  creation_date: 2025-01-28T07:26:40Z
  
-@@ -461063,7 +477766,9 @@
+@@ -461063,7 +477768,9 @@
  def: "Catalysis of the reaction: acetaldehyde + NADP+ + H2O = acetate + NADPH + 2 H+." [PMID:15659684, PMID:9473035, RHEA:25298]
  xref: RHEA:25298
  is_a: GO:0033721 ! aldehyde dehydrogenase (NADP+) activity
@@ -64058,7 +64086,7 @@
  created_by: pg
  creation_date: 2025-01-28T07:28:10Z
  
-@@ -461202,6 +477907,7 @@
+@@ -461202,6 +477909,7 @@
  synonym: "murein lytic endotransglycosylase E activity" NARROW []
  xref: EC:4.2.2.n1
  is_a: GO:0008933 ! peptidoglycan lytic transglycosylase activity
@@ -64066,7 +64094,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21167" xsd:anyURI
  created_by: pg
  creation_date: 2025-02-05T12:50:17Z
-@@ -461250,23 +477956,10 @@
+@@ -461250,23 +477958,10 @@
  subset: goslim_prokaryote
  subset: goslim_prokaryote_ribbon
  xref: Reactome:R-HSA-1449687 "Corticosteroids bind to CBG in blood"
@@ -64090,7 +64118,7 @@
  is_a: GO:0003674 ! molecular_function
  relationship: has_part GO:0005488 ! binding
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14221" xsd:anyURI
-@@ -461868,7 +478561,7 @@
+@@ -461868,7 +478563,7 @@
  name: chicken-wire-like collagen network
  namespace: cellular_component
  def: "Network-forming collagens can either form a chicken-wire-like network or a hexagonal network. Collagen type IV forms a chicken-wire-like structure and is found in the basement membrane." [PMID:21421911, PMID:21421915, PMID:31387942]
@@ -64099,7 +64127,7 @@
  relationship: part_of GO:0140143 ! collagenous component of basement membrane
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29401" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30149" xsd:anyURI
-@@ -461880,7 +478573,7 @@
+@@ -461880,7 +478575,7 @@
  name: hexagonal collagen network of basement membrane
  namespace: cellular_component
  def: "Supramolecular structure formed by trimers of collagen VIII and found in the basement membrane." [PMID:21421911, PMID:2376131, PMID:3047147, PMID:31387942]
@@ -64108,7 +64136,7 @@
  relationship: part_of GO:0140143 ! collagenous component of basement membrane
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29402" xsd:anyURI
  created_by: pg
-@@ -462030,8 +478723,18 @@
+@@ -462030,8 +478725,18 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: a 3alpha-hydroxysteroid + NAD(P)+ = a 3-oxosteroid + NAD(P)H + H+." [EC:1.1.1.357]
  comment: Note that EC distinguishes stereospecific reactions: EC:1.1.1.213 and EC:1.1.1.50. These are out of scope for GO.
@@ -64127,7 +64155,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29921" xsd:anyURI
  created_by: pg
  creation_date: 2025-04-09T15:19:24Z
-@@ -462043,6 +478746,7 @@
+@@ -462043,6 +478748,7 @@
  def: "Catalysis of the reaction: (R)-lactate + FAD + H+ = FADH2 + pyruvate." [RHEA:82479]
  xref: RHEA:82479
  is_a: GO:0047809 ! D-lactate dehydrogenase activity
@@ -64135,7 +64163,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30132" xsd:anyURI
  created_by: pg
  creation_date: 2025-04-17T08:20:22Z
-@@ -462091,6 +478795,7 @@
+@@ -462091,6 +478797,7 @@
  def: "Catalysis of the activity: a (2R)-2-hydroxycarboxylate + FAD + H+ = a 2-oxocarboxylate + FADH2." [PMID:37863926, RHEA:82511]
  xref: RHEA:82511
  is_a: GO:0033719 ! (2R)-oxo-acid reductase activity
@@ -64143,7 +64171,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30138" xsd:anyURI
  created_by: pg
  creation_date: 2025-05-20T06:45:42Z
-@@ -462101,8 +478806,12 @@
+@@ -462101,8 +478808,12 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: a (2R)-2-hydroxycarboxylate + NAD+ = a 2-oxocarboxylate + NADH + H+." [RHEA:35643]
  xref: EC:1.1.1.345
@@ -64156,7 +64184,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30138" xsd:anyURI
  created_by: pg
  creation_date: 2025-05-20T08:52:20Z
-@@ -462235,6 +478944,8 @@
+@@ -462235,6 +478946,8 @@
  xref: RHEA:53916
  is_a: GO:0016410 ! N-acyltransferase activity
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -64165,7 +64193,7 @@
  created_by: pg
  creation_date: 2025-07-22T09:31:41Z
  
-@@ -462244,6 +478955,7 @@
+@@ -462244,6 +478957,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: acetyl-CoA + histone H1-4 L-lysine (position 34) = CoA + histone H1-4 N6-acetyl-L-lysine (position 34)." [PMID:22465951]
  is_a: GO:0160262 ! histone H1 acetyltransferase activity
@@ -64173,7 +64201,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30567" xsd:anyURI
  created_by: pg
  creation_date: 2025-07-22T09:54:23Z
-@@ -462512,8 +479224,6 @@
+@@ -462512,8 +479226,6 @@
  name: folic acid:proton symporter activity
  namespace: molecular_function
  def: "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: folic acid(out) + H+(out) = folic acid(in) + H+(in). The main folic acid symporter is the Proton-Coupled Folate Transporter (PCFT/SLC46A1), which has similar affinity for transport of reduced folates (5-methyl THF, 5-formyl THF) and folic acid." [PMID:24745983]
@@ -64182,7 +64210,7 @@
  xref: TC:2.A.1.50.1
  is_a: GO:0008517 ! folic acid transmembrane transporter activity
  is_a: GO:0015295 ! solute:proton symporter activity
-@@ -462611,6 +479321,7 @@
+@@ -462611,6 +479323,7 @@
  def: "Catalysis of the reaction: 2-methylpropenoyl-CoA + L-lysyl-[protein] = N6-methacrylyl-L-lysyl-[protein] + CoA + H+. Methacryl-CoA is a synonym of 2-methylpropenoyl-CoA." [PMID:34961760, PMID:40339582]
  synonym: "histone 2-methylpropenoyl transferase activity" EXACT []
  is_a: GO:0140993 ! histone modifying activity
@@ -64190,7 +64218,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30567" xsd:anyURI
  created_by: pg
  creation_date: 2025-07-22T13:00:24Z
-@@ -462621,6 +479332,7 @@
+@@ -462621,6 +479334,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: N6-methacrylyl-L-lysyl-[histone] + H2O = 2-methylprop-2-enoate + L-lysyl-[histone]." [PMID:34961760]
  is_a: GO:0140993 ! histone modifying activity
@@ -64198,7 +64226,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30567" xsd:anyURI
  created_by: pg
  creation_date: 2025-07-22T13:14:18Z
-@@ -462737,6 +479449,7 @@
+@@ -462737,6 +479451,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: N(6)-benzoyl-L-lysyl-[protein] + NAD+ + H2O = 2''-O-benzoyl-ADP-D-ribose + nicotinamide + L-lysyl-[protein]." [PMID:34961760]
  is_a: GO:0140993 ! histone modifying activity
@@ -64206,7 +64234,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30567" xsd:anyURI
  created_by: pg
  creation_date: 2025-07-22T13:37:04Z
-@@ -462747,6 +479460,7 @@
+@@ -462747,6 +479462,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: N(6)-isonicotinyl-L-lysyl-[protein] + H2O = isonicotinate + L-lysyl-[protein]." [PMID:34545082]
  is_a: GO:0140993 ! histone modifying activity
@@ -64214,7 +64242,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30567" xsd:anyURI
  created_by: pg
  creation_date: 2025-07-22T13:38:30Z
-@@ -462757,6 +479471,7 @@
+@@ -462757,6 +479473,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: isonicotinyl-CoA + histone = coA + N(6)-isonicotinyl-histone." [PMID:34545082]
  is_a: GO:0140993 ! histone modifying activity
@@ -64222,7 +64250,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30567" xsd:anyURI
  created_by: pg
  creation_date: 2025-07-22T13:41:06Z
-@@ -462775,29 +479490,27 @@
+@@ -462775,29 +479492,27 @@
  
  [Term]
  id: GO:0140232
@@ -64264,7 +64292,7 @@
  created_by: pg
  creation_date: 2018-07-09T11:31:18Z
  
-@@ -463267,6 +479980,7 @@
+@@ -463267,6 +479982,7 @@
  name: arthro-series glucosylceramide biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of arthro-series glucosylceramides that begins with the synthesis of a tetrasaccharide core GalNAc-beta-1,4-GlcNAc-beta-1,3-Man-beta-1,4Glc-ceramide. This core can be further elongated with the sequential addition of various carbohydrate units." [PMID:35536927]
@@ -64272,7 +64300,7 @@
  is_a: GO:0006688 ! glycosphingolipid biosynthetic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30616" xsd:anyURI
  created_by: pg
-@@ -463475,7 +480189,10 @@
+@@ -463475,7 +480191,10 @@
  xref: EC:6.3.5.13
  xref: RHEA:57928
  is_a: GO:0016884 ! carbon-nitrogen ligase activity, with glutamine as amido-N-donor
@@ -64283,7 +64311,7 @@
  created_by: pg
  creation_date: 2018-10-08T19:12:57Z
  
-@@ -463527,6 +480244,8 @@
+@@ -463527,6 +480246,8 @@
  xref: MetaCyc:1.7.99.8-RXN
  xref: RHEA:23232
  is_a: GO:0016662 ! oxidoreductase activity, acting on other nitrogenous compounds as donors, cytochrome as acceptor
@@ -64292,7 +64320,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30814" xsd:anyURI
  created_by: pg
  creation_date: 2025-09-09T14:28:09Z
-@@ -463578,6 +480297,7 @@
+@@ -463578,6 +480299,7 @@
  xref: RHEA:58256
  is_a: GO:0016799 ! hydrolase activity, hydrolyzing N-glycosyl compounds
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -64300,7 +64328,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28476" xsd:anyURI
  created_by: pg
  creation_date: 2018-11-22T14:35:39Z
-@@ -463667,7 +480387,6 @@
+@@ -463667,7 +480389,6 @@
  synonym: "small molecular sensor activity" EXACT []
  synonym: "small molecule sensing activity" EXACT []
  synonym: "small molecule sensor activity" NARROW []
@@ -64308,7 +64336,7 @@
  is_a: GO:0098772 ! molecular function regulator activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28772" xsd:anyURI
  created_by: pg
-@@ -463726,6 +480445,8 @@
+@@ -463726,6 +480447,8 @@
  xref: MetaCyc:RXN-11175
  xref: RHEA:49816
  is_a: GO:0016662 ! oxidoreductase activity, acting on other nitrogenous compounds as donors, cytochrome as acceptor
@@ -64317,7 +64345,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30814" xsd:anyURI
  created_by: pg
  creation_date: 2025-09-09T14:34:43Z
-@@ -463739,6 +480460,8 @@
+@@ -463739,6 +480462,8 @@
  xref: MetaCyc:HAONITRO-RXN
  xref: RHEA:45032
  is_a: GO:0016662 ! oxidoreductase activity, acting on other nitrogenous compounds as donors, cytochrome as acceptor
@@ -64326,7 +64354,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30814" xsd:anyURI
  created_by: pg
  creation_date: 2025-09-09T14:44:04Z
-@@ -463754,11 +480477,58 @@
+@@ -463754,11 +480479,58 @@
  creation_date: 2019-03-22T14:25:43Z
  
  [Term]
@@ -64386,7 +64414,7 @@
  is_a: GO:0140313 ! molecular sequestering activity
  intersection_of: GO:0140313 ! molecular sequestering activity
  intersection_of: has_part GO:0005515 ! protein binding
-@@ -463796,7 +480566,6 @@
+@@ -463796,7 +480568,6 @@
  subset: goslim_prokaryote_ribbon
  xref: Reactome:R-HSA-203553 "eNOS binds NOSIP"
  xref: Reactome:R-HSA-203680 "eNOS:NOSIP translocation from caveolae to intracellular compartments"
@@ -64394,7 +64422,7 @@
  xref: Reactome:R-HSA-3245898 "TCN1 binds correnoids in the circulation"
  is_a: GO:0003674 ! molecular_function
  created_by: pg
-@@ -463899,6 +480668,20 @@
+@@ -463899,6 +480670,20 @@
  creation_date: 2019-04-03T09:21:48Z
  
  [Term]
@@ -64415,7 +64443,7 @@
  id: GO:0140323
  name: obsolete solute:monoatomic anion antiporter activity
  namespace: molecular_function
-@@ -463912,6 +480695,16 @@
+@@ -463912,6 +480697,16 @@
  creation_date: 2019-04-03T16:23:14Z
  
  [Term]
@@ -64432,7 +64460,7 @@
  id: GO:0140325
  name: negative regulation of protein localization to medial cortex
  namespace: biological_process
-@@ -463945,9 +480738,12 @@
+@@ -463945,9 +480740,12 @@
  xref: Reactome:R-HSA-947591 "P-type ATPases type IV transport internal-facing APLs to external side of the plasma membrane"
  is_a: GO:0140303 ! intramembrane lipid transporter activity
  is_a: GO:0140657 ! ATP-dependent activity
@@ -64445,7 +64473,7 @@
  created_by: pg
  creation_date: 2019-04-29T12:42:26Z
  
-@@ -463959,6 +480755,7 @@
+@@ -463959,6 +480757,7 @@
  comment: Nomenclature note. Flippases and floppases are ATP-dependent transbilayer lipid translocators. According to an extensively used, though not universal, nomenclature, they catalyze lipid transfer towards the inward monolayer (flippases) or towards the outward monolayer (floppases). Scramblases are ATP-independent, non-selective, inducing non-specific transbilayer movements across the membrane. The direction of the translocation should be taken into account for annotation (from the exoplasmic to the cytosolic leaflet of a membrane).
  synonym: "flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
  is_a: GO:0140326 ! ATPase-coupled intramembrane lipid transporter activity
@@ -64453,7 +64481,7 @@
  created_by: pg
  creation_date: 2019-04-29T12:51:21Z
  
-@@ -463970,6 +480767,7 @@
+@@ -463970,6 +480769,7 @@
  comment: Nomenclature note. Flippases and floppases are ATP-dependent transbilayer lipid translocators. According to an extensively used, though not universal, nomenclature, they catalyze lipid transfer towards the inward monolayer (flippases) or towards the outward monolayer (floppases). Scramblases are ATP-independent, non-selective, inducing non-specific transbilayer movements across the membrane. The direction of the translocation should be taken into account for annotation (from the cytosolic to the exoplasmic leaflet of a membrane).
  synonym: "floppase activity (cytosolic to exoplasmic leaflet)" EXACT []
  is_a: GO:0140326 ! ATPase-coupled intramembrane lipid transporter activity
@@ -64461,7 +64489,7 @@
  created_by: pg
  creation_date: 2019-04-29T12:58:53Z
  
-@@ -464026,6 +480824,7 @@
+@@ -464026,6 +480826,7 @@
  synonym: "glycerophospholipid flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
  is_a: GO:0005548 ! phospholipid transporter activity
  is_a: GO:0140327 ! flippase activity
@@ -64469,7 +64497,7 @@
  created_by: pg
  creation_date: 2019-05-13T11:14:56Z
  
-@@ -464041,6 +480840,35 @@
+@@ -464041,6 +480842,35 @@
  creation_date: 2019-05-13T12:23:36Z
  
  [Term]
@@ -64505,7 +64533,7 @@
  id: GO:0140337
  name: diacylglyceride transfer activity
  namespace: molecular_function
-@@ -464092,10 +480920,21 @@
+@@ -464092,10 +480922,21 @@
  synonym: "phosphatidylethanolamine floppase activity (cytosolic to exoplasmic leaflet)" EXACT []
  is_a: GO:0005548 ! phospholipid transporter activity
  is_a: GO:0140328 ! floppase activity
@@ -64527,7 +64555,7 @@
  id: GO:0140343
  name: phosphatidylserine transfer activity
  namespace: molecular_function
-@@ -464123,6 +480962,7 @@
+@@ -464123,6 +480964,7 @@
  synonym: "phosphatidylcholine flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
  is_a: GO:0008525 ! phosphatidylcholine transporter activity
  is_a: GO:0140333 ! glycerophospholipid flippase activity
@@ -64535,7 +64563,7 @@
  created_by: pg
  creation_date: 2019-05-16T13:43:47Z
  
-@@ -464134,6 +480974,7 @@
+@@ -464134,6 +480976,7 @@
  synonym: "phosphatidylserine flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
  is_a: GO:0015247 ! aminophospholipid flippase activity
  is_a: GO:0140333 ! glycerophospholipid flippase activity
@@ -64543,7 +64571,7 @@
  created_by: pg
  creation_date: 2019-05-16T13:44:23Z
  
-@@ -464144,6 +480985,7 @@
+@@ -464144,6 +480987,7 @@
  def: "Catalysis of the movement of N-retinylidene-N-retinylphosphatidylethanolamine from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:10412977]
  synonym: "N-retinylidene-phosphatidylethanolamine flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
  is_a: GO:0140333 ! glycerophospholipid flippase activity
@@ -64551,7 +64579,7 @@
  created_by: pg
  creation_date: 2019-05-16T13:44:51Z
  
-@@ -464154,10 +480996,32 @@
+@@ -464154,10 +480998,32 @@
  def: "Catalysis of the movement of lysophosphatidylcholine from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:26945070]
  synonym: "lysophosphatidylcholine flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
  is_a: GO:0140333 ! glycerophospholipid flippase activity
@@ -64584,7 +64612,7 @@
  id: GO:0140351
  name: glycosylceramide flippase activity
  namespace: molecular_function
-@@ -464169,6 +481033,7 @@
+@@ -464169,6 +481035,7 @@
  synonym: "glycosylceramide flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
  is_a: GO:0046624 ! sphingolipid transporter activity
  is_a: GO:0140327 ! flippase activity
@@ -64592,7 +64620,7 @@
  created_by: pg
  creation_date: 2019-05-20T13:29:48Z
  
-@@ -464414,7 +481279,8 @@
+@@ -464414,7 +481281,8 @@
  id: GO:0140380
  name: psilocybin biosynthetic process
  namespace: biological_process
@@ -64602,7 +64630,7 @@
  is_a: GO:0006568 ! L-tryptophan metabolic process
  is_a: GO:0006796 ! phosphate-containing compound metabolic process
  is_a: GO:0035835 ! indole alkaloid biosynthetic process
-@@ -464425,7 +481291,9 @@
+@@ -464425,7 +481293,9 @@
  relationship: has_part GO:0140381 ! 4-hydroxytryptamine 4-phosphate methyltransferase activity
  relationship: has_part GO:0140382 ! tryptamine 4-monooxygenase activity
  relationship: has_part GO:0140383 ! 4-hydroxytryptamine kinase activity
@@ -64612,7 +64640,7 @@
  created_by: pg
  creation_date: 2019-11-20T10:03:05Z
  
-@@ -464439,6 +481307,9 @@
+@@ -464439,6 +481309,9 @@
  xref: EC:2.1.1.345
  xref: RHEA:55568
  is_a: GO:0008168 ! methyltransferase activity
@@ -64622,7 +64650,7 @@
  created_by: pg
  creation_date: 2019-11-20T10:16:28Z
  
-@@ -464450,6 +481321,9 @@
+@@ -464450,6 +481323,9 @@
  xref: EC:1.14.99.59
  xref: RHEA:15865
  is_a: GO:0004497 ! monooxygenase activity
@@ -64632,7 +64660,7 @@
  created_by: pg
  creation_date: 2019-11-20T10:26:21Z
  
-@@ -464461,6 +481335,9 @@
+@@ -464461,6 +481337,9 @@
  xref: EC:2.7.1.222
  xref: RHEA:55564
  is_a: GO:0016301 ! kinase activity
@@ -64642,7 +64670,7 @@
  created_by: pg
  creation_date: 2019-11-20T10:30:05Z
  
-@@ -464483,6 +481360,9 @@
+@@ -464483,6 +481362,9 @@
  xref: MetaCyc:RXN-9480
  xref: RHEA:35447
  is_a: GO:0045703 ! ketoreductase activity
@@ -64652,7 +64680,7 @@
  created_by: pg
  creation_date: 2019-11-28T14:38:12Z
  
-@@ -464496,6 +481376,8 @@
+@@ -464496,6 +481378,8 @@
  xref: RHEA:33503
  is_a: GO:0140359 ! ABC-type transporter activity
  is_a: GO:1901474 ! azole transmembrane transporter activity
@@ -64661,7 +64689,7 @@
  created_by: pg
  creation_date: 2019-11-28T18:29:48Z
  
-@@ -464509,6 +481391,9 @@
+@@ -464509,6 +481393,9 @@
  xref: RHEA:35575
  is_a: GO:0016705 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
  relationship: part_of GO:0045122 ! aflatoxin biosynthetic process
@@ -64671,7 +64699,7 @@
  created_by: pg
  creation_date: 2019-11-29T08:48:23Z
  
-@@ -464520,6 +481405,9 @@
+@@ -464520,6 +481407,9 @@
  xref: EC:1.1.1.352
  xref: RHEA:35475
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -64681,7 +64709,7 @@
  created_by: pg
  creation_date: 2019-11-29T08:56:49Z
  
-@@ -464529,7 +481417,16 @@
+@@ -464529,7 +481419,16 @@
  namespace: molecular_function
  def: "Catalyzes the reactions: versiconal hemiacetal acetate + H2O = versiconal + acetate, as well as versiconol acetate + H2O = versiconol + acetate." [EC:3.1.1.94, PMID:15006741, PMID:15932995, PMID:8368837]
  xref: EC:3.1.1.94
@@ -64698,7 +64726,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  created_by: pg
  creation_date: 2019-11-29T10:14:17Z
-@@ -464544,6 +481441,9 @@
+@@ -464544,6 +481443,9 @@
  xref: MetaCyc:RXN-9495
  xref: RHEA:35743
  is_a: GO:0016717 ! oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water
@@ -64708,7 +64736,7 @@
  created_by: pg
  creation_date: 2019-11-29T10:30:25Z
  
-@@ -464553,8 +481453,17 @@
+@@ -464553,8 +481455,17 @@
  namespace: molecular_function
  def: "Catalyzes the reaction: 8-O-methylsterigmatocystin + 2 [reduced NADPH--hemoprotein reductase] + 2 O2 = aflatoxin B + 2 [oxidized NADPH--hemoprotein reductase] + H2O + methanol + CO2. Produces both aflatoxin B(1) and aflatoxin B(2)." [EC:1.14.14.117]
  xref: EC:1.14.14.117
@@ -64726,7 +64754,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  created_by: pg
  creation_date: 2019-11-29T11:06:07Z
-@@ -464943,7 +481852,9 @@
+@@ -464943,7 +481854,9 @@
  def: "Catalysis of the transfer of a stearoyl (systematic name, octadecanoyl) group to a sulfur atom on the cysteine of a protein molecule, in the reaction: octadecanoyl-CoA + L-cysteinyl-[protein] = CoA + S-octadecanoyl-L-cysteinyl-[protein]." [PMID:12681491, PMID:22247542, PMID:22968831, RHEA:59740]
  xref: RHEA:59740
  is_a: GO:0019707 ! protein-cysteine S-acyltransferase activity
@@ -64736,7 +64764,7 @@
  created_by: pg
  creation_date: 2020-03-11T09:55:48Z
  
-@@ -464954,7 +481865,9 @@
+@@ -464954,7 +481867,9 @@
  def: "Catalysis of the transfer of an oleoyl (systematic name, (9Z)-octadecenoyl) group to a sulfur atom on the cysteine of a protein molecule, in the reaction: (9Z)-octadecenoyl-CoA + L-cysteinyl-[protein] = CoA + S-(9Z-octadecenoyl)-L-cysteinyl-[protein]." [PMID:22247542, RHEA:59744]
  xref: RHEA:59744
  is_a: GO:0019707 ! protein-cysteine S-acyltransferase activity
@@ -64746,7 +64774,7 @@
  created_by: pg
  creation_date: 2020-03-11T09:56:11Z
  
-@@ -464965,7 +481878,9 @@
+@@ -464965,7 +481880,9 @@
  def: "Catalysis of the transfer of an arachidonoyl (systematic name, (5Z,8Z,11Z,14Z)-eicosatetraenoyl) group to a sulfur atom on the cysteine of a protein molecule, in the reaction: in the reaction: (5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA + L-cysteinyl-[protein] = CoA + S-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-L-cysteinyl-[protein]." [PMID:12681491, PMID:22247542, PMID:22968831, RHEA:59748]
  xref: RHEA:59748
  is_a: GO:0019707 ! protein-cysteine S-acyltransferase activity
@@ -64756,7 +64784,7 @@
  created_by: pg
  creation_date: 2020-03-11T09:56:24Z
  
-@@ -466150,7 +483065,10 @@
+@@ -466150,7 +483067,10 @@
  xref: EC:2.4.2.62
  xref: RHEA:22820
  is_a: GO:0035252 ! UDP-xylosyltransferase activity
@@ -64767,7 +64795,7 @@
  created_by: pg
  creation_date: 2020-11-25T13:45:18Z
  
-@@ -466162,7 +483080,10 @@
+@@ -466162,7 +483082,10 @@
  xref: EC:2.4.1.376
  xref: RHEA:58116
  is_a: GO:0035251 ! UDP-glucosyltransferase activity
@@ -64778,7 +64806,7 @@
  created_by: pg
  creation_date: 2020-11-25T14:19:23Z
  
-@@ -466174,7 +483095,10 @@
+@@ -466174,7 +483097,10 @@
  xref: EC:2.4.2.63
  xref: RHEA:62016
  is_a: GO:0035252 ! UDP-xylosyltransferase activity
@@ -64789,7 +64817,7 @@
  created_by: pg
  creation_date: 2020-11-25T14:30:56Z
  
-@@ -466186,7 +483110,10 @@
+@@ -466186,7 +483112,10 @@
  xref: EC:2.4.2.42
  xref: RHEA:56064
  is_a: GO:0035252 ! UDP-xylosyltransferase activity
@@ -64800,7 +64828,7 @@
  created_by: pg
  creation_date: 2020-11-25T16:07:58Z
  
-@@ -466211,8 +483138,10 @@
+@@ -466211,8 +483140,10 @@
  namespace: molecular_function
  def: "The activity of removing a protein from a membrane, by binding to a transmembrane helical fragment of a tail-anchored protein and releasing it from the the hydrophobic region of one or both lipid bilayers. The reaction is driven by ATP hydrolysis." [PMID:24821790, PMID:28712723, PMID:32973005]
  synonym: "transmembrane helix dislocase\ntransmembrane protein dislocase activity" RELATED []
@@ -64811,7 +64839,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20237" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22209" xsd:anyURI
  created_by: pg
-@@ -466262,7 +483191,10 @@
+@@ -466262,7 +483193,10 @@
  xref: RHEA:30403
  is_a: GO:0015453 ! oxidoreduction-driven active transmembrane transporter activity
  is_a: GO:0016722 ! oxidoreductase activity, acting on metal ions
@@ -64822,7 +64850,7 @@
  created_by: pg
  creation_date: 2020-12-18T16:25:06Z
  
-@@ -466294,7 +483226,9 @@
+@@ -466294,7 +483228,9 @@
  def: "Oxidation of monodehydroascorbate outside of a membrane coupled to the reduction of L-ascorbate to monodehydro-L-ascorbate radical on the inner side of a membrane. Electrons get transferred across the membrane during the reaction." [PMID:1623014, RHEA:66524]
  xref: RHEA:66524
  is_a: GO:0016491 ! oxidoreductase activity
@@ -64832,7 +64860,7 @@
  created_by: pg
  creation_date: 2021-01-07T16:20:04Z
  
-@@ -466345,8 +483279,11 @@
+@@ -466345,8 +483281,11 @@
  is_a: GO:0005375 ! copper ion transmembrane transporter activity
  is_a: GO:0015662 ! P-type ion transporter activity
  is_a: GO:0019829 ! ATPase-coupled monoatomic cation transmembrane transporter activity
@@ -64844,7 +64872,7 @@
  created_by: pg
  creation_date: 2021-01-18T11:15:13Z
  
-@@ -466369,6 +483306,7 @@
+@@ -466369,6 +483308,7 @@
  synonym: "chromatin extrusion activity" EXACT []
  is_a: GO:0015616 ! DNA translocase activity
  relationship: part_of GO:0140588 ! chromatin looping
@@ -64852,7 +64880,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20204" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21647" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
-@@ -466463,6 +483401,9 @@
+@@ -466463,6 +483403,9 @@
  synonym: "histone-H3R8 methyltransferase activity" EXACT []
  is_a: GO:0016274 ! protein-arginine N-methyltransferase activity
  is_a: GO:0140938 ! histone H3 methyltransferase activity
@@ -64862,7 +64890,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20037" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -466658,8 +483599,10 @@
+@@ -466658,8 +483601,10 @@
  is_a: GO:0005384 ! manganese ion transmembrane transporter activity
  is_a: GO:0015662 ! P-type ion transporter activity
  is_a: GO:0019829 ! ATPase-coupled monoatomic cation transmembrane transporter activity
@@ -64873,7 +64901,7 @@
  created_by: pg
  creation_date: 2021-03-03T22:11:36Z
  
-@@ -466698,12 +483641,13 @@
+@@ -466698,12 +483643,13 @@
  synonym: "monoiodotyrosine deiodinase activity" RELATED []
  synonym: "tyrosine iodinase activity" RELATED []
  xref: EC:1.21.1.1
@@ -64889,7 +64917,7 @@
  created_by: pg
  creation_date: 2021-03-08T15:36:42Z
  
-@@ -466734,7 +483678,10 @@
+@@ -466734,7 +483680,10 @@
  xref: RHEA:15061
  is_a: GO:0000293 ! ferric-chelate reductase activity
  is_a: GO:0016723 ! oxidoreductase activity, acting on metal ions, NAD or NADP as acceptor
@@ -64900,7 +64928,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30815" xsd:anyURI
  created_by: pg
  creation_date: 2021-03-09T07:20:30Z
-@@ -467026,7 +483973,10 @@
+@@ -467026,7 +483975,10 @@
  xref: MetaCyc:HYDROXYMETHYLGLUTARYL-COA-REDUCTASE-RXN
  xref: RHEA:14833
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -64911,7 +64939,7 @@
  created_by: pg
  creation_date: 2021-05-11T16:00:35Z
  
-@@ -467325,9 +484275,8 @@
+@@ -467325,9 +484277,8 @@
  synonym: "ATP-dependent DNA damage sensing activity" EXACT []
  is_a: GO:0008094 ! ATP-dependent activity, acting on DNA
  is_a: GO:0140612 ! DNA damage sensor activity
@@ -64922,7 +64950,7 @@
  created_by: pg
  creation_date: 2021-06-19T16:37:21Z
  
-@@ -467344,6 +484293,7 @@
+@@ -467344,6 +484295,7 @@
  synonym: "histone H3-H4 dimer loading activity" EXACT []
  is_a: GO:0000510 ! H3-H4 histone complex chaperone activity
  is_a: GO:0140674 ! ATP-dependent histone chaperone activity
@@ -64930,7 +64958,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21580" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21733" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
-@@ -467511,7 +484461,6 @@
+@@ -467511,7 +484463,6 @@
  namespace: molecular_function
  def: "A molecular function regulator that activates or increases the activity of its target via non-covalent binding that does not result in covalent modification to the target." [GOC:curators]
  comment: This term should only be used in cases when the regulator directly interacts with the enzyme, but does not result in a covalent modification.
@@ -64938,7 +64966,7 @@
  is_a: GO:0098772 ! molecular function regulator activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21782" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25165" xsd:anyURI
-@@ -467540,6 +484489,9 @@
+@@ -467540,6 +484491,9 @@
  is_a: GO:0015081 ! sodium ion transmembrane transporter activity
  is_a: GO:0019829 ! ATPase-coupled monoatomic cation transmembrane transporter activity
  is_a: GO:0140359 ! ABC-type transporter activity
@@ -64948,7 +64976,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21796" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26941" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28176" xsd:anyURI
-@@ -467559,8 +484511,11 @@
+@@ -467559,8 +484513,11 @@
  xref: MetaCyc:RXN-13186
  xref: RHEA:42032
  is_a: GO:0051864 ! histone H3K36 demethylase activity
@@ -64960,7 +64988,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2021-07-08T14:12:22Z
-@@ -467578,8 +484533,11 @@
+@@ -467578,8 +484535,11 @@
  xref: MetaCyc:RXN-20643
  xref: RHEA:60236
  is_a: GO:0051864 ! histone H3K36 demethylase activity
@@ -64972,7 +65000,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2021-07-08T14:12:31Z
-@@ -467597,7 +484555,10 @@
+@@ -467597,7 +484557,10 @@
  xref: RHEA:60244
  is_a: GO:0016705 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
  is_a: GO:0032453 ! histone H3K4 demethylase activity
@@ -64983,7 +65011,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2021-07-08T15:45:22Z
-@@ -467615,7 +484576,10 @@
+@@ -467615,7 +484578,10 @@
  xref: RHEA:60188
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
  is_a: GO:0032454 ! histone H3K9 demethylase activity
@@ -64994,7 +65022,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2021-07-09T06:03:06Z
-@@ -467633,7 +484597,10 @@
+@@ -467633,7 +484599,10 @@
  xref: RHEA:60200
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
  is_a: GO:0032454 ! histone H3K9 demethylase activity
@@ -65005,7 +65033,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2021-07-09T06:03:55Z
-@@ -467649,6 +484616,7 @@
+@@ -467649,6 +484618,7 @@
  synonym: "histone H3K9me2 demethylase activity" BROAD []
  is_a: GO:0016705 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
  is_a: GO:0032454 ! histone H3K9 demethylase activity
@@ -65013,7 +65041,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21089" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -467685,8 +484653,10 @@
+@@ -467685,8 +484655,10 @@
  comment: While there is not universal consensus on the lengths of short-, medium-, long- and very-long-chain fatty acids, the GO uses the definitions in ChEBI (see CHEBI:26666, CHEBI:59554, CHEBI:15904 and CHEBI:27283).
  xref: RHEA:67952
  is_a: GO:0120250 ! fatty acid omega-hydroxylase activity
@@ -65024,7 +65052,7 @@
  created_by: pg
  creation_date: 2021-08-05T07:41:17Z
  
-@@ -467729,6 +484699,8 @@
+@@ -467729,6 +484701,8 @@
  xref: RHEA:58664
  is_a: GO:0016901 ! oxidoreductase activity, acting on the CH-OH group of donors, quinone or similar compound as acceptor
  is_a: GO:0047545 ! (S)-2-hydroxyglutarate dehydrogenase activity
@@ -65033,7 +65061,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21957" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30707" xsd:anyURI
  created_by: pg
-@@ -467770,6 +484742,7 @@
+@@ -467770,6 +484744,7 @@
  synonym: "3',2'-cyclic GAMP synthase activity" EXACT []
  xref: RHEA:68344
  is_a: GO:0140699 ! cyclic GMP-AMP synthase activity
@@ -65041,7 +65069,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21980" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30714" xsd:anyURI
  created_by: pg
-@@ -467785,7 +484758,9 @@
+@@ -467785,7 +484760,9 @@
  synonym: "3',3'-cyclic GAMP synthase activity" EXACT []
  xref: RHEA:35647
  is_a: GO:0140699 ! cyclic GMP-AMP synthase activity
@@ -65051,7 +65079,7 @@
  created_by: pg
  creation_date: 2021-08-27T05:13:09Z
  
-@@ -467856,7 +484831,7 @@
+@@ -467856,7 +484833,7 @@
  namespace: biological_process
  def: "The C-terminal elongation of 60S-anchored stalled nascent polypeptide chains with untemplated alanine and threonine tails (CAT tails). CAT tails participate in the recognition of stalled nascent chains by the ribosome quality control system." [PMID:25554787, PMID:32934225]
  is_a: GO:0002182 ! cytoplasmic translational elongation
@@ -65060,7 +65088,7 @@
  relationship: part_of GO:1990116 ! ribosome-associated ubiquitin-dependent protein catabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21987" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23474" xsd:anyURI
-@@ -467972,7 +484947,7 @@
+@@ -467972,7 +484949,7 @@
  id: GO:0140718
  name: facultative heterochromatin formation
  namespace: biological_process
@@ -65069,7 +65097,7 @@
  comment: Note that facultative heterochromatin can be reprogrammed, as opposed to constitutive heterochromatin which usually cannot be reprogrammed to a transcriptionally-competent state. Note also that facultative heterochromatin formation does not usually involve DNA methylation, while constitutive heterochromatin formation does.
  synonym: "facultative heterochromatin assembly" EXACT []
  synonym: "fHC assembly" EXACT []
-@@ -467986,7 +484961,7 @@
+@@ -467986,7 +484963,7 @@
  id: GO:0140719
  name: constitutive heterochromatin formation
  namespace: biological_process
@@ -65078,7 +65106,7 @@
  comment: Note that constitutive heterochromatin usually cannot be reprogrammed to a transcriptionally-competent state, as opposed to facultative heterochromatin, which can be reprogrammed. Note also that constitutive usually involves DNA methylation, while facultative heterochromatin formation does not.
  synonym: "constitutive heterochromatin assembly" EXACT []
  is_a: GO:0031507 ! heterochromatin formation
-@@ -468287,11 +485262,15 @@
+@@ -468287,11 +485264,15 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: L-arginyl-[protein] + NAD+ = ADP-riboxanated L-argininyl-[protein] + H+ + NH4(+) + nicotinamide." [PMID:34671164, RHEA:69500]
  comment: Note that this activity has two steps: a transfer of an ADP-ribose group, followed by the elimination of an ammonia group.
@@ -65095,7 +65123,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22480" xsd:anyURI
  created_by: pg
  creation_date: 2021-11-30T08:29:49Z
-@@ -468309,8 +485288,11 @@
+@@ -468309,8 +485290,11 @@
  xref: RHEA:24176
  is_a: GO:0016783 ! sulfurtransferase activity
  is_a: GO:0140101 ! catalytic activity, acting on a tRNA
@@ -65107,7 +65135,7 @@
  created_by: pg
  creation_date: 2021-12-02T12:11:41Z
  
-@@ -468404,6 +485386,7 @@
+@@ -468404,6 +485388,7 @@
  def: "Catalysis of the reaction: phlorizin + H2O = beta-D-glucose + phloretin." [PMID:9762914, RHEA:69639]
  xref: RHEA:69639
  is_a: GO:0004553 ! hydrolase activity, hydrolyzing O-glycosyl compounds
@@ -65115,7 +65143,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22611" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28324" xsd:anyURI
  created_by: pg
-@@ -468525,6 +485508,7 @@
+@@ -468525,6 +485510,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24337" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29636" xsd:anyURI
@@ -65123,7 +65151,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2022-01-28T08:39:20Z
-@@ -468572,8 +485556,11 @@
+@@ -468572,8 +485558,11 @@
  xref: RHEA:47372
  is_a: GO:0004344 ! glucose dehydrogenase activity
  is_a: GO:0016901 ! oxidoreductase activity, acting on the CH-OH group of donors, quinone or similar compound as acceptor
@@ -65135,7 +65163,7 @@
  created_by: pg
  creation_date: 2022-02-04T08:02:40Z
  
-@@ -468615,6 +485602,7 @@
+@@ -468615,6 +485604,7 @@
  synonym: "NAD-dependent histone H3K56 deacetylase activity" EXACT []
  is_a: GO:0017136 ! histone deacetylase activity, NAD-dependent
  is_a: GO:0141050 ! histone H3K deacetylase activity
@@ -65143,7 +65171,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22829" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22836" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -468644,7 +485632,6 @@
+@@ -468644,7 +485634,6 @@
  synonym: "protein substrate chaperone activity" RELATED []
  synonym: "protein-substrate adaptor activity" BROAD []
  xref: Reactome:R-HSA-202137 "AKT1 binds eNOS complex via HSP90"
@@ -65151,7 +65179,7 @@
  is_a: GO:0030674 ! protein-macromolecule adaptor activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22972" xsd:anyURI
  created_by: pg
-@@ -468667,6 +485654,7 @@
+@@ -468667,6 +485656,7 @@
  def: "Catalysis of the reaction: L-lysyl-[protein] + tetradecanoyl-[ACP] = H+ + holo-[ACP] + N(6)-tetradecanoyl-L-lysyl-[protein]." [PMID:32461253, RHEA:70611]
  xref: RHEA:70611
  is_a: GO:0018030 ! peptidyl-lysine N6-myristoyltransferase activity
@@ -65159,7 +65187,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22968" xsd:anyURI
  created_by: pg
  creation_date: 2022-03-02T12:44:18Z
-@@ -468678,6 +485666,7 @@
+@@ -468678,6 +485668,7 @@
  def: "Catalysis of the reaction: L-lysyl-[protein] + tetradecanoyl-CoA = CoA + H+ + N(6)-tetradecanoyl-L-lysyl-[protein]." [PMID:1402651, RHEA:59752]
  xref: RHEA:59752
  is_a: GO:0018030 ! peptidyl-lysine N6-myristoyltransferase activity
@@ -65167,7 +65195,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22968" xsd:anyURI
  created_by: pg
  creation_date: 2022-03-02T12:45:16Z
-@@ -468689,6 +485678,7 @@
+@@ -468689,6 +485680,7 @@
  def: "Catalysis of the reaction: hexadecanoyl-[ACP] + L-lysyl-[protein] = H+ + holo-[ACP] + N(6)-hexadecanoyl-L-lysyl-[protein]." [PMID:32461253, RHEA:70615]
  xref: RHEA:70615
  is_a: GO:0018031 ! peptidyl-lysine N6-palmitoyltransferase activity
@@ -65175,7 +65203,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22968" xsd:anyURI
  created_by: pg
  creation_date: 2022-03-02T12:51:53Z
-@@ -468698,7 +485688,9 @@
+@@ -468698,7 +485690,9 @@
  name: CoA-dependent peptidyl-lysine N6-palmitoyltransferase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: L-lysyl-[protein] + hexadecanoyl-CoA = CoA + H+ + N(6)-hexadecanoyl-L-lysyl-[protein]." [PMID:30061757]
@@ -65185,7 +65213,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22968" xsd:anyURI
  created_by: pg
  creation_date: 2022-03-02T12:52:22Z
-@@ -468711,7 +485703,9 @@
+@@ -468711,7 +485705,9 @@
  xref: RHEA:70567
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
  relationship: part_of GO:0043687 ! post-translational protein modification
@@ -65195,7 +65223,7 @@
  created_by: pg
  creation_date: 2022-03-02T15:21:37Z
  
-@@ -468723,7 +485717,9 @@
+@@ -468723,7 +485719,9 @@
  xref: RHEA:70563
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
  relationship: part_of GO:0043687 ! post-translational protein modification
@@ -65205,7 +65233,7 @@
  created_by: pg
  creation_date: 2022-03-02T15:23:03Z
  
-@@ -468892,6 +485888,7 @@
+@@ -468892,6 +485890,7 @@
  def: "Catalysis of the active transport of a phosphate ion across a membrane by a mechanism involving conformational change, where energy for active transport is derived from membrane potential if the solute is charged." [PMID:29642010]
  is_a: GO:0005315 ! phosphate transmembrane transporter activity
  is_a: GO:0022810 ! membrane potential driven uniporter activity
@@ -65213,7 +65241,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23132" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27521" xsd:anyURI
  created_by: pg
-@@ -468905,6 +485902,7 @@
+@@ -468905,6 +485904,7 @@
  synonym: "glutamate uniporter activity" BROAD []
  is_a: GO:0005313 ! L-glutamate transmembrane transporter activity
  is_a: GO:0022810 ! membrane potential driven uniporter activity
@@ -65221,7 +65249,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23143" xsd:anyURI
  created_by: pg
  creation_date: 2022-04-06T07:05:14Z
-@@ -468943,6 +485941,7 @@
+@@ -468943,6 +485943,7 @@
  synonym: "histone H2S140 phosphatase activity" RELATED []
  synonym: "histone serine phosphatase activity (H2-S140 specific)" EXACT []
  is_a: GO:0140789 ! histone phosphatase activity
@@ -65229,7 +65257,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23148" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25037" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
-@@ -468973,6 +485972,7 @@
+@@ -468973,6 +485974,7 @@
  synonym: "histone H2Y142 phosphatase activity" RELATED []
  synonym: "histone tyrosine phosphatase activity (H2-Y142 specific)" EXACT []
  is_a: GO:0140789 ! histone phosphatase activity
@@ -65237,7 +65265,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23148" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25037" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
-@@ -469004,6 +486004,7 @@
+@@ -469004,6 +486006,7 @@
  synonym: "histone H3-R2 arginine deiminase activity" EXACT []
  synonym: "histone-arginine deiminase activity (H3-R2 specific)" EXACT []
  is_a: GO:0141057 ! histone H3 arginine deiminase activity
@@ -65245,7 +65273,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23152" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469020,6 +486021,7 @@
+@@ -469020,6 +486023,7 @@
  synonym: "histone H3-R8 arginine deiminase activity" EXACT []
  synonym: "histone-arginine deiminase activity (H3-R8 specific)" EXACT []
  is_a: GO:0141057 ! histone H3 arginine deiminase activity
@@ -65253,7 +65281,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23152" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469036,6 +486038,7 @@
+@@ -469036,6 +486040,7 @@
  synonym: "histone H3-R17 arginine deiminase activity" EXACT []
  synonym: "histone-arginine deiminase activity (H3-R17 specific)" EXACT []
  is_a: GO:0141057 ! histone H3 arginine deiminase activity
@@ -65261,7 +65289,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23152" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469052,6 +486055,7 @@
+@@ -469052,6 +486057,7 @@
  synonym: "histone H3-R26 arginine deiminase activity" EXACT []
  synonym: "histone-arginine deiminase activity (H3-R26 specific)" EXACT []
  is_a: GO:0141057 ! histone H3 arginine deiminase activity
@@ -65269,7 +65297,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23152" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469095,6 +486099,7 @@
+@@ -469095,6 +486101,7 @@
  synonym: "histone kinase activity (H2AX-Y142 specific)" EXACT []
  is_a: GO:0004713 ! protein tyrosine kinase activity
  is_a: GO:0141003 ! histone H2AX kinase activity
@@ -65277,7 +65305,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23170" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469108,7 +486113,9 @@
+@@ -469108,7 +486115,9 @@
  def: "Catalysis of the reaction: [protein]-C-terminal glycine + NAD+ = [protein]-C-terminal O-(ADP-D-ribosyl)-glycine + nicotinamide." [PMID:28525742, RHEA:58268]
  xref: RHEA:58268
  is_a: GO:1990404 ! NAD+-protein mono-ADP-ribosyltransferase activity
@@ -65287,7 +65315,7 @@
  created_by: pg
  creation_date: 2022-05-02T06:45:52Z
  
-@@ -469119,7 +486126,9 @@
+@@ -469119,7 +486128,9 @@
  def: "Catalysis of the reaction: L-cysteinyl-[protein] + NAD+ = H+ + nicotinamide + S-(ADP-D-ribosyl)-L-cysteinyl-[protein]." [PMID:25043379, RHEA:56612]
  xref: RHEA:56612
  is_a: GO:1990404 ! NAD+-protein mono-ADP-ribosyltransferase activity
@@ -65297,7 +65325,7 @@
  created_by: pg
  creation_date: 2022-05-02T06:46:09Z
  
-@@ -469130,7 +486139,9 @@
+@@ -469130,7 +486141,9 @@
  def: "Catalysis of the reaction: L-lysyl-[protein] + NAD+ = H+ + N(6)-(ADP-D-ribosyl)-L-lysyl-[protein] + nicotinamide." [PMID:25043379, RHEA:58220]
  xref: RHEA:58220
  is_a: GO:1990404 ! NAD+-protein mono-ADP-ribosyltransferase activity
@@ -65307,7 +65335,7 @@
  created_by: pg
  creation_date: 2022-05-02T06:46:22Z
  
-@@ -469141,7 +486152,9 @@
+@@ -469141,7 +486154,9 @@
  def: "Catalysis of the reaction: L-seryl-[protein] + NAD+ = H+ + nicotinamide + O-(ADP-D-ribosyl)-L-seryl-[protein]." [PMID:32028527, PMID:33186521, RHEA:58232]
  xref: RHEA:58232
  is_a: GO:1990404 ! NAD+-protein mono-ADP-ribosyltransferase activity
@@ -65317,7 +65345,7 @@
  created_by: pg
  creation_date: 2022-05-02T06:46:35Z
  
-@@ -469152,6 +486165,7 @@
+@@ -469152,6 +486167,7 @@
  def: "Catalysis of the reaction: L-aspartyl-[protein] + NAD+ = 4-O-(ADP-D-ribosyl)-L-aspartyl-[protein] + nicotinamide." [PMID:19764761, PMID:25043379, RHEA:54424]
  xref: RHEA:54424
  is_a: GO:1990404 ! NAD+-protein mono-ADP-ribosyltransferase activity
@@ -65325,7 +65353,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22874" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28324" xsd:anyURI
  created_by: pg
-@@ -469164,6 +486178,7 @@
+@@ -469164,6 +486180,7 @@
  def: "Catalysis of the reaction: L-glutamyl-[protein] + NAD+ = 5-O-(ADP-D-ribosyl)-L-glutamyl-[protein] + nicotinamide." [PMID:19764761, PMID:25043379, RHEA:58224]
  xref: RHEA:58224
  is_a: GO:1990404 ! NAD+-protein mono-ADP-ribosyltransferase activity
@@ -65333,7 +65361,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22874" xsd:anyURI
  created_by: pg
  creation_date: 2022-05-02T06:47:00Z
-@@ -469175,7 +486190,9 @@
+@@ -469175,7 +486192,9 @@
  def: "Catalysis of the reaction: L-tyrosyl-[protein] + NAD+ = H+ + nicotinamide + O-(ADP-D-ribosyl)-L-tyrosyl-[protein]." [PMID:29954836, PMID:30257210, RHEA:58236]
  xref: RHEA:58236
  is_a: GO:1990404 ! NAD+-protein mono-ADP-ribosyltransferase activity
@@ -65343,7 +65371,7 @@
  created_by: pg
  creation_date: 2022-05-02T06:47:12Z
  
-@@ -469189,6 +486206,7 @@
+@@ -469189,6 +486208,7 @@
  synonym: "histone H4-R3 arginine deiminase activity" EXACT []
  synonym: "histone-arginine deiminase activity (H4-R3 specific)" EXACT []
  is_a: GO:0140794 ! histone arginine deiminase activity
@@ -65351,7 +65379,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23152" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469205,6 +486223,7 @@
+@@ -469205,6 +486225,7 @@
  synonym: "histone H1-R54 deiminase activity" EXACT []
  synonym: "histone-arginine deiminase activity (H1-R54 specific)" EXACT []
  is_a: GO:0140794 ! histone arginine deiminase activity
@@ -65359,7 +65387,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23152" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: pg
-@@ -469220,6 +486239,7 @@
+@@ -469220,6 +486241,7 @@
  synonym: "histone H2A-R3 arginine deiminase activity" EXACT []
  synonym: "histone-arginine deiminase activity (H2A-R3 specific)" EXACT []
  is_a: GO:0140794 ! histone arginine deiminase activity
@@ -65367,7 +65395,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23152" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469264,7 +486284,9 @@
+@@ -469264,7 +486286,9 @@
  is_a: GO:0015199 ! amino-acid betaine transmembrane transporter activity
  is_a: GO:0015378 ! sodium:chloride symporter activity
  relationship: part_of GO:0031460 ! glycine betaine transport
@@ -65377,7 +65405,7 @@
  created_by: pg
  creation_date: 2022-05-12T06:05:59Z
  
-@@ -469275,7 +486297,9 @@
+@@ -469275,7 +486299,9 @@
  def: "Catalysis of the reaction: L-histidyl-[protein] + NAD+ = H+ + Nt-(ADP-D-ribosyl)-L-histidyl-[protein] + nicotinamide." [PMID:35393539, RHEA:72071]
  xref: RHEA:72071
  is_a: GO:1990404 ! NAD+-protein mono-ADP-ribosyltransferase activity
@@ -65387,7 +65415,7 @@
  created_by: pg
  creation_date: 2022-05-12T07:49:41Z
  
-@@ -469288,6 +486312,7 @@
+@@ -469288,6 +486314,7 @@
  synonym: "NAD+-histone H2B-S6 serine ADP-ribosyltransferase activity" EXACT []
  synonym: "NAD+-histone-serine ADP-ribosyltransferase activity (H2B-S6 specific)" EXACT []
  is_a: GO:0140805 ! NAD+-protein-serine ADP-ribosyltransferase activity
@@ -65395,7 +65423,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23309" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469303,6 +486328,7 @@
+@@ -469303,6 +486330,7 @@
  synonym: "NAD+-histone H3-S10 serine ADP-ribosyltransferase activity" EXACT []
  synonym: "NAD+-histone-serine ADP-ribosyltransferase activity (H3-S10 specific)" EXACT []
  is_a: GO:0140805 ! NAD+-protein-serine ADP-ribosyltransferase activity
@@ -65403,7 +65431,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23309" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469320,9 +486346,12 @@
+@@ -469320,9 +486348,12 @@
  xref: RHEA:67004
  is_a: GO:0016462 ! pyrophosphatase activity
  is_a: GO:0140098 ! catalytic activity, acting on RNA
@@ -65416,7 +65444,7 @@
  created_by: pg
  creation_date: 2022-05-16T06:01:07Z
  
-@@ -469368,6 +486397,7 @@
+@@ -469368,6 +486399,7 @@
  synonym: "NAD+-histone H2B-E35 glutamate ADP-ribosyltransferase activity" EXACT []
  synonym: "NAD+-histone-glutamate ADP-ribosyltransferase activity (H2B-E35 specific)" EXACT []
  is_a: GO:0140807 ! NAD+-protein-glutamate ADP-ribosyltransferase activity
@@ -65424,7 +65452,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23323" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469384,6 +486414,7 @@
+@@ -469384,6 +486416,7 @@
  synonym: "histone kinase activity (H2B-S36 specific)" EXACT []
  is_a: GO:0004674 ! protein serine/threonine kinase activity
  is_a: GO:0140998 ! histone H2B kinase activity
@@ -65432,7 +65460,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23323" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469398,7 +486429,10 @@
+@@ -469398,7 +486431,10 @@
  xref: EC:1.11.1.24
  xref: RHEA:62620
  is_a: GO:0051920 ! peroxiredoxin activity
@@ -65443,7 +65471,7 @@
  created_by: pg
  creation_date: 2022-05-18T14:25:09Z
  
-@@ -469412,8 +486446,11 @@
+@@ -469412,8 +486448,11 @@
  xref: MetaCyc:PEROXID-RXN
  xref: RHEA:56136
  is_a: GO:0004601 ! peroxidase activity
@@ -65455,7 +65483,7 @@
  created_by: pg
  creation_date: 2022-05-18T14:39:20Z
  
-@@ -469423,8 +486460,12 @@
+@@ -469423,8 +486462,12 @@
  namespace: molecular_function
  def: "Enables the transfer of zinc from one side of a membrane to the other according to the reaction: H+(out) + Zn2+(in) = H+(in) + Zn2+(out)." [PMID:19366695, PMID:30893306]
  comment: Some transporters exchange 1 H+ for a Zn2+ while others are electroneutral and exchange 2 H+.
@@ -65468,7 +65496,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23359" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23874" xsd:anyURI
  created_by: pg
-@@ -469478,7 +486519,9 @@
+@@ -469478,7 +486521,9 @@
  is_a: GO:0015186 ! L-glutamine transmembrane transporter activity
  is_a: GO:0015385 ! sodium:proton antiporter activity
  is_a: GO:0140848 ! amino acid:monoatomic cation antiporter activity
@@ -65478,7 +65506,7 @@
  created_by: pg
  creation_date: 2022-05-24T12:29:37Z
  
-@@ -469491,7 +486534,9 @@
+@@ -469491,7 +486536,9 @@
  is_a: GO:0015182 ! L-asparagine transmembrane transporter activity
  is_a: GO:0015385 ! sodium:proton antiporter activity
  is_a: GO:0140848 ! amino acid:monoatomic cation antiporter activity
@@ -65488,7 +65516,7 @@
  created_by: pg
  creation_date: 2022-05-24T12:35:49Z
  
-@@ -469505,7 +486550,9 @@
+@@ -469505,7 +486552,9 @@
  is_a: GO:0015385 ! sodium:proton antiporter activity
  is_a: GO:0045119 ! azole:proton antiporter activity
  is_a: GO:0140848 ! amino acid:monoatomic cation antiporter activity
@@ -65498,7 +65526,7 @@
  created_by: pg
  creation_date: 2022-05-24T12:37:29Z
  
-@@ -469516,6 +486563,7 @@
+@@ -469516,6 +486565,7 @@
  def: "Catalysis of the reaction: ATP + RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS) = ADP + H+ + RNA polymerase II large subunit phosphotyrosine (position 1)." [PMID:28248323]
  synonym: "RNA polymerase II C-terminal domain Y1 kinase activity" EXACT []
  is_a: GO:0008353 ! RNA polymerase II CTD heptapeptide repeat kinase activity
@@ -65506,7 +65534,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23389" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: pg
-@@ -469528,6 +486576,7 @@
+@@ -469528,6 +486578,7 @@
  def: "Catalysis of the reaction: ATP + RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS) = ADP + H+ + RNA polymerase II large subunit phosphoserine (position 2)." [PMID:28248323]
  synonym: "RNA polymerase II C-terminal domain S2 kinase activity" EXACT []
  is_a: GO:0008353 ! RNA polymerase II CTD heptapeptide repeat kinase activity
@@ -65514,7 +65542,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23389" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: pg
-@@ -469540,6 +486589,7 @@
+@@ -469540,6 +486591,7 @@
  def: "Catalysis of the reaction: ATP + RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS) = ADP + H+ + RNA polymerase II large subunit phosphothreonine (position 4)." [PMID:28248323]
  synonym: "RNA polymerase II C-terminal domain T4 kinase activity" EXACT []
  is_a: GO:0008353 ! RNA polymerase II CTD heptapeptide repeat kinase activity
@@ -65522,7 +65550,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23389" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: pg
-@@ -469552,6 +486602,7 @@
+@@ -469552,6 +486604,7 @@
  def: "Catalysis of the reaction: ATP + RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS) = ADP + H+ + RNA polymerase II large subunit phosphoserine (position 5)." [PMID:28248323]
  synonym: "RNA polymerase II C-terminal domain S5 kinase activity" EXACT []
  is_a: GO:0008353 ! RNA polymerase II CTD heptapeptide repeat kinase activity
@@ -65530,7 +65558,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23389" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: pg
-@@ -469564,6 +486615,7 @@
+@@ -469564,6 +486617,7 @@
  def: "Catalysis of the reaction: ATP + RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS) = ADP + H+ + RNA polymerase II large subunit phosphoserine (position 7)." [PMID:28248323]
  synonym: "RNA polymerase II C-terminal domain S7 kinase activity" EXACT []
  is_a: GO:0008353 ! RNA polymerase II CTD heptapeptide repeat kinase activity
@@ -65538,7 +65566,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23389" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: pg
-@@ -469587,6 +486639,7 @@
+@@ -469587,6 +486641,7 @@
  def: "Catalysis of the reaction: RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS) cis-proline (omega=180) (position 3) = RNA polymerase II large subunit trans-proline (omega=0) (position 3)." [PMID:28248323]
  synonym: "RNA polymerase II C-terminal domain P3 isomerase activity" EXACT []
  is_a: GO:0140838 ! RNA polymerase II CTD heptapeptide repeat peptidyl-prolyl isomerase activity
@@ -65546,7 +65574,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23389" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: pg
-@@ -469599,6 +486652,7 @@
+@@ -469599,6 +486654,7 @@
  def: "Catalysis of the reaction: RNA polymerase II large subunit CTD heptapeptide repeat (consensus YSPTSPS) cis-proline (omega=180) (position 6) = RNA polymerase II large subunit trans-proline (omega=0) (position 6)." [PMID:28248323]
  synonym: "RNA polymerase II C-terminal domain P6 isomerase activity" EXACT []
  is_a: GO:0140838 ! RNA polymerase II CTD heptapeptide repeat peptidyl-prolyl isomerase activity
@@ -65554,7 +65582,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23389" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: pg
-@@ -469620,6 +486674,7 @@
+@@ -469620,6 +486676,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: UDP-N-acetyl-D-glucosamine + RNA polymerase II large subunit CTD heptapeptide repeat (YSPTSPS) = UDP + RNA polymerase II large subunit CTD heptapeptide repeat 3-O-(N-acetyl-D-glucosaminyl)-L-serine (position 5)." [PMID:22605332]
  is_a: GO:0140841 ! RNA polymerase II C-terminal domain O-GlcNAc transferase activity
@@ -65562,7 +65590,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23389" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: pg
-@@ -469631,6 +486686,7 @@
+@@ -469631,6 +486688,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: UDP-N-acetyl-D-glucosamine + RNA polymerase II large subunit CTD heptapeptide repeat (YSPTSPS) = UDP + RNA polymerase II large subunit CTD heptapeptide repeat 3-O-(N-acetyl-D-glucosaminyl)-L-serine (position 7)." [PMID:22605332]
  is_a: GO:0140841 ! RNA polymerase II C-terminal domain O-GlcNAc transferase activity
@@ -65570,7 +65598,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23389" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: pg
-@@ -469645,6 +486701,7 @@
+@@ -469645,6 +486703,7 @@
  synonym: "NAD+-histone H2B-E2 glutamate ADP-ribosyltransferase activity" EXACT []
  synonym: "NAD+-histone-glutamate ADP-ribosyltransferase activity (H2B-E2 specific)" EXACT []
  is_a: GO:0140807 ! NAD+-protein-glutamate ADP-ribosyltransferase activity
@@ -65578,7 +65606,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23377" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469713,6 +486770,7 @@
+@@ -469713,6 +486772,7 @@
  synonym: "ATP-dependent H2A.Z histone chaperone activity" EXACT []
  synonym: "H2AZ histone exchange activity" RELATED []
  is_a: GO:0140674 ! ATP-dependent histone chaperone activity
@@ -65586,7 +65614,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23463" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: pg
-@@ -469767,8 +486825,10 @@
+@@ -469767,8 +486827,10 @@
  xref: RHEA:59504
  is_a: GO:0016740 ! transferase activity
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -65597,7 +65625,7 @@
  created_by: pg
  creation_date: 2022-06-13T15:08:54Z
  
-@@ -469793,6 +486853,7 @@
+@@ -469793,6 +486855,7 @@
  synonym: "histone-serine kinase activity (H3-S57 specific)" EXACT []
  is_a: GO:0004674 ! protein serine/threonine kinase activity
  is_a: GO:0140996 ! histone H3 kinase activity
@@ -65605,7 +65633,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23503" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469807,6 +486868,7 @@
+@@ -469807,6 +486870,7 @@
  comment: Note that the residue position corresponds to the canonical human H2A2A histone (UniProtKB:Q6FI13); this residue is conserved across all eukaryotes. Residue 1 is the first residue following removal of the initiating Methionine (Met). Note that each histone is encoded by multiple genes, and sequences may vary across different genes within an organism.
  synonym: "histone ubiquitin ligase activity (H2A-K13 specific)" EXACT []
  is_a: GO:0141053 ! histone H2A ubiquitin ligase activity
@@ -65613,7 +65641,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22138" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469824,6 +486886,7 @@
+@@ -469824,6 +486888,7 @@
  synonym: "histone-threonine kinase activity (H3-T45 specific)" EXACT []
  is_a: GO:0004674 ! protein serine/threonine kinase activity
  is_a: GO:0140996 ! histone H3 kinase activity
@@ -65621,7 +65649,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23503" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469838,6 +486901,7 @@
+@@ -469838,6 +486903,7 @@
  comment: Note that the residue position corresponds to the canonical human H2A2A histone (UniProtKB:Q6FI13); this residue is conserved across all eukaryotes. Residue 1 is the first residue following removal of the initiating Methionine (Met). Note that each histone is encoded by multiple genes, and sequences may vary across different genes within an organism.
  synonym: "histone ubiquitin ligase activity (H2A-K15 specific)" EXACT []
  is_a: GO:0141053 ! histone H2A ubiquitin ligase activity
@@ -65629,7 +65657,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22138" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469857,9 +486921,12 @@
+@@ -469857,9 +486923,12 @@
  xref: EC:4.2.1.139
  xref: RHEA:35407
  is_a: GO:0016836 ! hydro-lyase activity
@@ -65642,7 +65670,7 @@
  created_by: pg
  creation_date: 2022-06-20T14:36:46Z
  
-@@ -469869,10 +486936,16 @@
+@@ -469869,10 +486938,16 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: a (3R,4R)-4,2'-dihydroxyisoflavan + NADP+ = a (3R)-2'-hydroxyisoflavanone + H+ + NADPH." [PMID:7625843, RHEA:56284]
  synonym: "vestitone reductase activity" NARROW [EC:1.1.1.348]
@@ -65659,7 +65687,7 @@
  created_by: pg
  creation_date: 2022-06-20T14:44:54Z
  
-@@ -469897,6 +486970,7 @@
+@@ -469897,6 +486972,7 @@
  synonym: "histone H2A-K119 ubiquitin ligase activity" EXACT []
  synonym: "histone ubiquitin ligase activity (H2A-K119 specific)" EXACT []
  is_a: GO:0141053 ! histone H2A ubiquitin ligase activity
@@ -65667,7 +65695,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22138" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469912,6 +486986,7 @@
+@@ -469912,6 +486988,7 @@
  synonym: "histone H2A-K127 ubiquitin ligase activity" EXACT []
  synonym: "histone ubiquitin ligase activity (H2A-K127 specific)" EXACT []
  is_a: GO:0141053 ! histone H2A ubiquitin ligase activity
@@ -65675,7 +65703,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22138" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -469927,6 +487002,7 @@
+@@ -469927,6 +487004,7 @@
  synonym: "histone H2A-K129 ubiquitin ligase activity" EXACT []
  synonym: "histone ubiquitin ligase activity (H2A-K129 specific)" EXACT []
  is_a: GO:0141053 ! histone H2A ubiquitin ligase activity
@@ -65683,7 +65711,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22138" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -470435,8 +487511,10 @@
+@@ -470435,8 +487513,10 @@
  is_a: GO:0005452 ! solute:inorganic anion antiporter activity
  is_a: GO:0015108 ! chloride transmembrane transporter activity
  is_a: GO:0140829 ! bicarbonate:monoatomic anion antiporter activity
@@ -65694,7 +65722,7 @@
  created_by: pg
  creation_date: 2022-08-17T14:47:35Z
  
-@@ -470453,6 +487531,8 @@
+@@ -470453,6 +487533,8 @@
  is_a: GO:0005295 ! neutral L-amino acid:sodium symporter activity
  is_a: GO:0015182 ! L-asparagine transmembrane transporter activity
  is_a: GO:0015655 ! alanine:sodium symporter activity
@@ -65703,7 +65731,7 @@
  created_by: pg
  creation_date: 2022-08-18T05:58:25Z
  
-@@ -470484,6 +487564,9 @@
+@@ -470484,6 +487566,9 @@
  synonym: "histone-H3R26 methyltransferase activity" EXACT []
  is_a: GO:0016274 ! protein-arginine N-methyltransferase activity
  is_a: GO:0140938 ! histone H3 methyltransferase activity
@@ -65713,7 +65741,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23851" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -470516,11 +487599,6 @@
+@@ -470516,11 +487601,6 @@
  name: halogenase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: R-CH + a halogen + oxygen donor = R-C-halogen +H2O." [PMID:28466644, PMID:34368824]
@@ -65725,7 +65753,7 @@
  is_a: GO:0016705 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23587" xsd:anyURI
  created_by: pg
-@@ -470547,6 +487625,7 @@
+@@ -470547,6 +487627,7 @@
  synonym: "histone H3-K122 acetyltransferase activity" EXACT []
  synonym: "histone lysine N-acetyltransferase activity (H3-K122 specific)" EXACT []
  is_a: GO:0010484 ! histone H3 acetyltransferase activity
@@ -65733,7 +65761,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28368" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30180" xsd:anyURI
-@@ -470842,7 +487921,12 @@
+@@ -470842,7 +487923,12 @@
  synonym: "m(7)GpppX diphosphatase activity" EXACT [EC:3.6.1.59]
  synonym: "m(7)GpppX pyrophosphatase activity" EXACT [EC:3.6.1.59]
  xref: EC:3.6.1.59
@@ -65746,7 +65774,7 @@
  created_by: pg
  creation_date: 2022-10-24T15:37:32Z
  
-@@ -470855,7 +487939,10 @@
+@@ -470855,7 +487941,10 @@
  xref: EC:3.6.1.62
  xref: RHEA:67484
  is_a: GO:0016462 ! pyrophosphatase activity
@@ -65757,7 +65785,7 @@
  created_by: pg
  creation_date: 2022-10-24T15:48:42Z
  
-@@ -470906,6 +487993,7 @@
+@@ -470906,6 +487995,7 @@
  synonym: "histone H4K12 deacetylation" RELATED []
  is_a: GO:0141051 ! histone H4K deacetylase activity
  is_a: GO:0141221 ! histone deacetylase activity, hydrolytic mechanism
@@ -65765,7 +65793,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22769" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29468" xsd:anyURI
-@@ -470993,7 +488081,10 @@
+@@ -470993,7 +488083,10 @@
  xref: EC:2.1.1.362
  xref: RHEA:60348
  is_a: GO:0042799 ! histone H4K20 methyltransferase activity
@@ -65776,7 +65804,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2022-11-01T09:25:37Z
-@@ -471012,7 +488103,10 @@
+@@ -471012,7 +488105,10 @@
  xref: EC:2.1.1.368
  xref: RHEA:64444
  is_a: GO:0046974 ! histone H3K9 methyltransferase activity
@@ -65787,7 +65815,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2022-11-01T09:35:23Z
-@@ -471029,7 +488123,10 @@
+@@ -471029,7 +488125,10 @@
  xref: EC:2.1.1.372
  xref: RHEA:64456
  is_a: GO:0042799 ! histone H4K20 methyltransferase activity
@@ -65798,7 +65826,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2022-11-01T09:44:02Z
-@@ -471048,7 +488145,10 @@
+@@ -471048,7 +488147,10 @@
  xref: EC:2.1.1.361
  xref: RHEA:60344
  is_a: GO:0042799 ! histone H4K20 methyltransferase activity
@@ -65809,7 +65837,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2022-11-01T09:50:43Z
-@@ -471066,7 +488166,10 @@
+@@ -471066,7 +488168,10 @@
  xref: EC:2.1.1.364
  xref: RHEA:60264
  is_a: GO:0042800 ! histone H3K4 methyltransferase activity
@@ -65820,7 +65848,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2022-11-01T09:57:25Z
-@@ -471084,7 +488187,10 @@
+@@ -471084,7 +488189,10 @@
  xref: EC:2.1.1.370
  xref: RHEA:64448
  is_a: GO:0042800 ! histone H3K4 methyltransferase activity
@@ -65831,7 +65859,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2022-11-01T10:01:55Z
-@@ -471102,7 +488208,10 @@
+@@ -471102,7 +488210,10 @@
  xref: EC:2.1.1.366
  xref: RHEA:60288
  is_a: GO:0046974 ! histone H3K9 methyltransferase activity
@@ -65842,7 +65870,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30382" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
-@@ -471121,7 +488230,10 @@
+@@ -471121,7 +488232,10 @@
  xref: EC:2.1.1.367
  xref: RHEA:60280
  is_a: GO:0046974 ! histone H3K9 methyltransferase activity
@@ -65853,7 +65881,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30382" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
-@@ -471141,7 +488253,10 @@
+@@ -471141,7 +488255,10 @@
  xref: EC:2.1.1.355
  xref: RHEA:60276
  is_a: GO:0046974 ! histone H3K9 methyltransferase activity
@@ -65864,7 +65892,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2022-11-01T10:49:29Z
-@@ -471169,9 +488284,13 @@
+@@ -471169,9 +488286,13 @@
  synonym: "histone H3K27 trimethylase activity" EXACT []
  synonym: "histone H3K27 trimethylation" BROAD []
  synonym: "histone lysine N-trimethyltransferase activity (H3-K27 specific)" EXACT []
@@ -65878,7 +65906,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2022-11-01T13:26:01Z
-@@ -471191,7 +488310,10 @@
+@@ -471191,7 +488312,10 @@
  xref: EC:2.1.1.371
  xref: RHEA:64452
  is_a: GO:0046976 ! histone H3K27 methyltransferase activity
@@ -65889,7 +65917,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2022-11-01T14:44:31Z
-@@ -471210,7 +488332,10 @@
+@@ -471210,7 +488334,10 @@
  xref: EC:2.1.1.369
  xref: RHEA:60296
  is_a: GO:0046976 ! histone H3K27 methyltransferase activity
@@ -65900,7 +65928,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2022-11-01T14:57:17Z
-@@ -471229,7 +488354,10 @@
+@@ -471229,7 +488356,10 @@
  xref: EC:2.1.1.357
  xref: RHEA:60308
  is_a: GO:0046975 ! histone H3K36 methyltransferase activity
@@ -65911,7 +65939,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2022-11-01T15:06:50Z
-@@ -471248,7 +488376,10 @@
+@@ -471248,7 +488378,10 @@
  xref: EC:2.1.1.359
  xref: RHEA:60324
  is_a: GO:0046975 ! histone H3K36 methyltransferase activity
@@ -65922,7 +65950,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2022-11-01T15:18:59Z
-@@ -471269,6 +488400,9 @@
+@@ -471269,6 +488402,9 @@
  xref: EC:2.1.1.360
  xref: RHEA:60328
  is_a: GO:0031151 ! histone H3K79 methyltransferase activity
@@ -65932,7 +65960,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2022-11-01T15:47:14Z
-@@ -471552,8 +488686,10 @@
+@@ -471552,8 +488688,10 @@
  xref: MetaCyc:RXN-19719
  xref: RHEA:75279
  is_a: GO:0120250 ! fatty acid omega-hydroxylase activity
@@ -65943,7 +65971,7 @@
  created_by: pg
  creation_date: 2023-01-10T14:42:33Z
  
-@@ -471577,7 +488713,9 @@
+@@ -471577,7 +488715,9 @@
  xref: RHEA:73059
  is_a: GO:0005384 ! manganese ion transmembrane transporter activity
  is_a: GO:0015368 ! calcium:monoatomic cation antiporter activity
@@ -65953,7 +65981,7 @@
  created_by: pg
  creation_date: 2023-01-11T15:15:37Z
  
-@@ -471636,7 +488774,9 @@
+@@ -471636,7 +488776,9 @@
  xref: RHEA:65840
  is_a: GO:0005347 ! ATP transmembrane transporter activity
  is_a: GO:0015315 ! organophosphate:phosphate antiporter activity
@@ -65963,7 +65991,7 @@
  created_by: pg
  creation_date: 2023-01-26T12:51:22Z
  
-@@ -471650,7 +488790,9 @@
+@@ -471650,7 +488792,9 @@
  xref: RHEA:65844
  is_a: GO:0015217 ! ADP transmembrane transporter activity
  is_a: GO:0015315 ! organophosphate:phosphate antiporter activity
@@ -65973,7 +66001,7 @@
  created_by: pg
  creation_date: 2023-01-26T12:53:15Z
  
-@@ -471661,7 +488803,10 @@
+@@ -471661,7 +488805,10 @@
  def: "Catalysis of the reaction: 7-deoxyloganate + O2 + reduced [NADPH-hemoprotein reductase] = H+ + H2O + loganate + oxidized [NADPH-hemoprotein reductase]." [PMID:24710322, RHEA:57576]
  xref: RHEA:57576
  is_a: GO:0016712 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
@@ -65984,7 +66012,7 @@
  created_by: pg
  creation_date: 2023-02-01T09:58:39Z
  
-@@ -471764,7 +488909,10 @@
+@@ -471764,7 +488911,10 @@
  xref: EC:2.1.1.354
  xref: RHEA:60260
  is_a: GO:0042800 ! histone H3K4 methyltransferase activity
@@ -65995,7 +66023,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
  creation_date: 2023-02-28T12:52:48Z
-@@ -471790,6 +488938,7 @@
+@@ -471790,6 +488940,7 @@
  def: "Catalysis of the reaction: histone H4 L-lysine (position 16) + propionyl-CoA = CoA + H+ + histone H3 N6-propionyl-L-lysyl (position 16)." [PMID:17267393, PMID:29321206, PMID:31794431]
  comment: Note that the residue position corresponds to the canonical human H4 histone (UniProtKB:P02309); this residue is conserved across all eukaryotes. Note that the initiation methionine is cleaved, so the first residue is S1.
  is_a: GO:0061922 ! histone propionyltransferase activity
@@ -66003,7 +66031,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23791" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -471938,7 +489087,9 @@
+@@ -471938,7 +489089,9 @@
  def: "Hydrolyzes mismatched double-stranded DNA and polynucleotides, releasing free thymine and leaving an apyrimidinic (AP) site." [EC:3.2.2.29, PMID:12711670]
  xref: EC:3.2.2.29
  is_a: GO:0008263 ! pyrimidine-specific mismatch base pair DNA N-glycosylase activity
@@ -66013,7 +66041,7 @@
  created_by: pg
  creation_date: 2023-03-24T15:23:09Z
  
-@@ -472116,7 +489267,10 @@
+@@ -472116,7 +489269,10 @@
  xref: RHEA:25948
  is_a: GO:0001727 ! lipid kinase activity
  is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
@@ -66024,7 +66052,7 @@
  created_by: pg
  creation_date: 2023-04-18T07:14:42Z
  
-@@ -472150,9 +489304,12 @@
+@@ -472150,9 +489306,12 @@
  xref: Reactome:R-HSA-548818 "HSD17B3,12 hydrogenates 3OOD-CoA to 3HODC-CoA"
  xref: RHEA:48680
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -66037,7 +66065,7 @@
  created_by: pg
  creation_date: 2023-05-17T11:30:31Z
  
-@@ -472261,6 +489418,8 @@
+@@ -472261,6 +489420,8 @@
  def: "Removal of an acetyl group from a lysine residue in a histone H3." [GOC:pg, PMID:9893272]
  comment: Histone deacytylase (HDAC) enzymes are divided into four classes: the Class I Rpd3-like proteins (in human: HDAC1, HDAC2, HDAC3, and HDAC8); the Class II Hda1-like proteins (in human: HDAC4, HDAC5, HDAC6, HDAC7, HDAC9, and HDAC10); the Class III Sir2-like proteins (in human: SIRT1, SIRT2, SIRT3, SIRT4, SIRT5, SIRT6, and SIRT7); and the Class IV protein (HDAC11 in human). Except for Class III enzymes, the mechanism is a metal-dependent hydrolysis of the acetylated substrate. The Class III HDACs use NAD+ as a reactant to deacetylate acetyl lysine residues of protein substrates forming nicotinamide, the deacetylated product, and the metabolite 2'-O-acetyl-ADP-ribose. Therefore, Class III are classified as transferases (EC:2) and others are hydrolases (EC:3).
  is_a: GO:0004407 ! histone deacetylase activity
@@ -66046,7 +66074,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22836" xsd:anyURI
  created_by: pg
  creation_date: 2024-09-20T11:40:05Z
-@@ -472272,6 +489431,8 @@
+@@ -472272,6 +489433,8 @@
  def: "Removal of an acetyl group from a lysine residue in a histone H4." [PMID:12590135]
  comment: Histone deacytylase (HDAC) enzymes are divided into four classes: the Class I Rpd3-like proteins (in human: HDAC1, HDAC2, HDAC3, and HDAC8); the Class II Hda1-like proteins (in human: HDAC4, HDAC5, HDAC6, HDAC7, HDAC9, and HDAC10); the Class III Sir2-like proteins (in human: SIRT1, SIRT2, SIRT3, SIRT4, SIRT5, SIRT6, and SIRT7); and the Class IV protein (HDAC11 in human). Except for Class III enzymes, the mechanism is a metal-dependent hydrolysis of the acetylated substrate. The Class III HDACs use NAD+ as a reactant to deacetylate acetyl lysine residues of protein substrates forming nicotinamide, the deacetylated product, and the metabolite 2'-O-acetyl-ADP-ribose. Therefore, Class III are classified as transferases (EC:2) and others are hydrolases (EC:3).
  is_a: GO:0004407 ! histone deacetylase activity
@@ -66055,7 +66083,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25508" xsd:anyURI
  created_by: pg
  creation_date: 2023-06-07T09:15:53Z
-@@ -472749,7 +489910,6 @@
+@@ -472749,7 +489912,6 @@
  namespace: molecular_function
  def: "Binding to and responding, e.g. by conformational change, to changes in the cellular level of glucose." [PMID:17470517]
  synonym: "glucose sensing activity" EXACT []
@@ -66063,7 +66091,7 @@
  is_a: GO:0140299 ! molecular sensor activity
  relationship: has_part GO:0005536 ! D-glucose binding
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25267" xsd:anyURI
-@@ -472765,7 +489925,9 @@
+@@ -472765,7 +489927,9 @@
  synonym: "protein serine pyrophosphatase activity" RELATED []
  xref: RHEA:64104
  is_a: GO:0016776 ! phosphotransferase activity, phosphate group as acceptor
@@ -66073,7 +66101,7 @@
  created_by: pg
  creation_date: 2023-08-21T07:53:21Z
  
-@@ -472807,7 +489969,10 @@
+@@ -472807,7 +489971,10 @@
  xref: MetaCyc:RXN-19229
  xref: RHEA:55200
  is_a: GO:0016765 ! transferase activity, transferring alkyl or aryl (other than methyl) groups
@@ -66084,7 +66112,7 @@
  created_by: pg
  creation_date: 2023-09-07T11:46:06Z
  
-@@ -472868,6 +490033,9 @@
+@@ -472868,6 +490035,9 @@
  xref: MetaCyc:RXN-11860
  xref: RHEA:43084
  is_a: GO:0016427 ! tRNA (cytidine) methyltransferase activity
@@ -66094,7 +66122,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26084" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30714" xsd:anyURI
  created_by: pg
-@@ -472883,7 +490051,10 @@
+@@ -472883,7 +490053,10 @@
  xref: MetaCyc:2.1.1.34-RXN
  xref: RHEA:20077
  is_a: GO:0016423 ! tRNA (guanine) methyltransferase activity
@@ -66105,7 +66133,7 @@
  created_by: pg
  creation_date: 2023-09-12T12:15:59Z
  
-@@ -472898,7 +490069,10 @@
+@@ -472898,7 +490071,10 @@
  xref: Reactome:R-HSA-6788707 "TRMT44 2'-O-methylates uridine-44 in tRNA(Ser)"
  xref: RHEA:43100
  is_a: GO:0016300 ! tRNA (uridine) methyltransferase activity
@@ -66116,7 +66144,7 @@
  created_by: pg
  creation_date: 2023-09-19T10:20:05Z
  
-@@ -472910,7 +490084,10 @@
+@@ -472910,7 +490086,10 @@
  synonym: "tRNA (cytidine(34)/5-carboxymethylaminomethyluridine(34)-2'-O)- methyltransferase activity" EXACT []
  xref: RHEA:43088
  is_a: GO:0016300 ! tRNA (uridine) methyltransferase activity
@@ -66127,7 +66155,7 @@
  created_by: pg
  creation_date: 2023-09-19T10:47:21Z
  
-@@ -473092,10 +490269,11 @@
+@@ -473092,10 +490271,11 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: Fe(II)-heme b-[protein] + nitric oxide + O2 = Fe(III)-heme b-[protein] + nitrate." [PMID:20511233]
  comment: Note that this activity is similar to nitric oxide dioxygenase activity ; GO:0008941, but GO:000894 uses NADPH as the electron donor.
@@ -66140,7 +66168,7 @@
  created_by: pg
  creation_date: 2023-11-23T12:37:09Z
  
-@@ -473122,7 +490300,9 @@
+@@ -473122,7 +490302,9 @@
  def: "Catalysis of the breakage of a nitrogen-oxygen bond by means other than hydrolysis and oxidation." [EC:4.8.1.-]
  xref: EC:4.8.1.-
  is_a: GO:0016829 ! lyase activity
@@ -66150,7 +66178,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30699" xsd:anyURI
  created_by: pg
  creation_date: 2023-12-01T13:17:35Z
-@@ -473159,7 +490339,9 @@
+@@ -473159,7 +490341,9 @@
  xref: RHEA:78231
  is_a: GO:0035250 ! UDP-galactosyltransferase activity
  is_a: GO:0140101 ! catalytic activity, acting on a tRNA
@@ -66160,7 +66188,7 @@
  created_by: pg
  creation_date: 2023-12-08T08:08:35Z
  
-@@ -473172,7 +490354,10 @@
+@@ -473172,7 +490356,10 @@
  xref: MetaCyc:3.1.2.18-RXN
  xref: RHEA:68180
  is_a: GO:0047617 ! fatty acyl-CoA hydrolase activity
@@ -66171,7 +66199,7 @@
  created_by: pg
  creation_date: 2023-12-08T09:05:55Z
  
-@@ -473238,8 +490423,11 @@
+@@ -473238,8 +490425,11 @@
  xref: RHEA:49524
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
  is_a: GO:0035514 ! DNA demethylase activity
@@ -66183,7 +66211,7 @@
  created_by: pg
  creation_date: 2023-12-15T15:38:23Z
  
-@@ -473269,7 +490457,10 @@
+@@ -473269,7 +490459,10 @@
  xref: RHEA:42652
  is_a: GO:0008276 ! protein methyltransferase activity
  is_a: GO:0008757 ! S-adenosylmethionine-dependent methyltransferase activity
@@ -66194,7 +66222,7 @@
  created_by: pg
  creation_date: 2023-12-20T09:06:24Z
  
-@@ -473417,10 +490608,17 @@
+@@ -473417,10 +490610,17 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: a 2,3-saturated acyl-[ACP] + NADP+ = a (2E)-enoyl-[ACP] + H+ + NADPH." [RHEA:22564]
  comment: This reaction completes each cycle of fatty acid elongation by catalyzing the stereospecific reduction of the double bond at position 2 of a growing fatty acid chain, while linked to the acyl- carrier protein, in an NADPH-dependent manner. Note that EC has reactions describing the stereo-specificity of the reaction with respect to NADP+ (cf. EC 1.3.1.39, EC 1.3.1.10 and EC 1.3.1.104).
@@ -66212,7 +66240,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25699" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28173" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30035" xsd:anyURI
-@@ -473496,6 +490694,8 @@
+@@ -473496,6 +490696,8 @@
  xref: MetaCyc:1.1.1.8-RXN
  xref: RHEA:11092
  is_a: GO:0047952 ! glycerol-3-phosphate dehydrogenase [NAD(P)+] activity
@@ -66221,7 +66249,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21790" xsd:anyURI
  created_by: pg
  creation_date: 2024-01-30T10:47:46Z
-@@ -473511,6 +490711,7 @@
+@@ -473511,6 +490713,7 @@
  xref: KEGG_REACTION:R00844
  xref: RHEA:11096
  is_a: GO:0047952 ! glycerol-3-phosphate dehydrogenase [NAD(P)+] activity
@@ -66229,7 +66257,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21790" xsd:anyURI
  created_by: pg
  creation_date: 2024-01-30T15:48:01Z
-@@ -473936,7 +491137,9 @@
+@@ -473936,7 +491139,9 @@
  xref: Reactome:R-HSA-9825790 "p-S207 KARS1 dimer synthesizes A(5')p4(5')A"
  xref: RHEA:34935
  is_a: GO:0070566 ! adenylyltransferase activity
@@ -66239,7 +66267,7 @@
  created_by: pg
  creation_date: 2024-04-11T10:31:20Z
  
-@@ -474000,7 +491203,10 @@
+@@ -474000,7 +491205,10 @@
  xref: MetaCyc:RXN-15878
  xref: RHEA:43604
  is_a: GO:0052592 ! oxidoreductase activity, acting on CH or CH2 groups, with an iron-sulfur protein as acceptor
@@ -66250,7 +66278,7 @@
  created_by: pg
  creation_date: 2024-04-23T08:04:46Z
  
-@@ -474035,6 +491241,7 @@
+@@ -474035,6 +491243,7 @@
  def: "Catalysis of the reaction: UTP + thiamine = UMP + thiamine diphosphate." [PMID:38547260, RHEA:79423]
  xref: RHEA:79423
  is_a: GO:0016778 ! diphosphotransferase activity
@@ -66258,7 +66286,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27518" xsd:anyURI
  created_by: pg
  creation_date: 2024-04-30T07:07:13Z
-@@ -474084,8 +491291,11 @@
+@@ -474084,8 +491293,11 @@
  synonym: "peptide lactyltransferase (ATP dependent) activity" EXACT []
  synonym: "peptide lactyltransferase activity" BROAD []
  xref: RHEA:80271
@@ -66270,7 +66298,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28015" xsd:anyURI
  created_by: pg
  creation_date: 2024-06-07T08:13:32Z
-@@ -474098,6 +491308,7 @@
+@@ -474098,6 +491310,7 @@
  synonym: "protein lysine delactylase activity" BROAD []
  xref: RHEA:80287
  is_a: GO:0034979 ! NAD-dependent protein lysine deacetylase activity
@@ -66278,7 +66306,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28015" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28920" xsd:anyURI
  created_by: pg
-@@ -474158,6 +491369,7 @@
+@@ -474158,6 +491371,7 @@
  def: "Catalysis of the reaction: N-acetyltaurine + H2O = acetate + taurine." [PMID:39112712, RHEA:81107]
  xref: RHEA:81107
  is_a: GO:0016788 ! hydrolase activity, acting on ester bonds
@@ -66286,7 +66314,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28746" xsd:anyURI
  created_by: pg
  creation_date: 2024-08-23T09:58:14Z
-@@ -474185,6 +491397,7 @@
+@@ -474185,6 +491399,7 @@
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
  is_a: GO:0140096 ! catalytic activity, acting on a protein
  is_a: GO:0160215 ! deacylase activity
@@ -66294,7 +66322,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28920" xsd:anyURI
  created_by: pg
  creation_date: 2024-09-19T14:13:12Z
-@@ -474202,6 +491415,8 @@
+@@ -474202,6 +491417,8 @@
  xref: RHEA:58196
  is_a: GO:0004407 ! histone deacetylase activity
  is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
@@ -66303,7 +66331,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22836" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29468" xsd:anyURI
  created_by: pg
-@@ -474215,6 +491430,7 @@
+@@ -474215,6 +491432,7 @@
  comment: Comment: Note that the residue position corresponds to the canonical human H3 histone (UniProtKB:P84243); this residue is conserved across all eukaryotes. Residue 1 is the first residue following removal of the initiating Methionine (Met). Note that each histone is encoded by multiple genes, and sequences may vary across different genes within an organism.
  is_a: GO:0017136 ! histone deacetylase activity, NAD-dependent
  is_a: GO:0141050 ! histone H3K deacetylase activity
@@ -66311,7 +66339,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28994" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pg
-@@ -474228,6 +491444,7 @@
+@@ -474228,6 +491446,7 @@
  synonym: "cysteine synthase activity" BROAD []
  xref: RHEA:53816
  is_a: GO:0016765 ! transferase activity, transferring alkyl or aryl (other than methyl) groups
@@ -66319,7 +66347,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28833" xsd:anyURI
  created_by: pg
  creation_date: 2024-10-28T07:48:43Z
-@@ -474635,16 +491852,14 @@
+@@ -474635,16 +491854,14 @@
  
  [Term]
  id: GO:0150047
@@ -66342,7 +66370,7 @@
  created_by: bc
  creation_date: 2018-04-23T10:51:20Z
  
-@@ -475975,6 +493190,8 @@
+@@ -475975,6 +493192,8 @@
  def: "Catalysis of the reaction: H2O + N6-(2E)-butenoyl-L-lysyl-[protein] = (2E)-2-butenoate + L-lysyl-[protein]." [PMID:28497810, PMID:30279482, PMID:34608293]
  xref: RHEA:69172
  is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
@@ -66351,7 +66379,7 @@
  created_by: rynl
  creation_date: 2021-11-16T00:55:21Z
  
-@@ -475996,6 +493213,8 @@
+@@ -475996,6 +493215,8 @@
  def: "Catalysis of the reaction: H2O + N6-(2-hydroxyisobutanoyl)-L-lysyl-[protein] = 2-hydroxy-2-methylpropanoate + L-lysyl-[protein]." [PMID:29192674]
  xref: RHEA:69176
  is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
@@ -66360,7 +66388,7 @@
  created_by: rynl
  creation_date: 2021-11-16T01:15:34Z
  
-@@ -476006,6 +493225,8 @@
+@@ -476006,6 +493227,8 @@
  def: "Catalysis of the reaction: H2O + N6-(2E)-butenoyl-L-lysyl-[protein] + NAD+ = 2''-O-(2E)-but-2-enoyl-ADP-D-ribose + L-lysyl-[protein] + nicotinamide." [PMID:28497810]
  xref: RHEA:69332
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -66369,7 +66397,7 @@
  created_by: rynl
  creation_date: 2021-11-16T01:22:43Z
  
-@@ -476028,6 +493249,8 @@
+@@ -476028,6 +493251,8 @@
  def: "Catalysis of the reaction: H2O + N6-(2-hydroxyisobutanoyl)-L-lysyl-[protein] + NAD+ = 2''-O-(2-hydroxyisobutanoyl)-ADP-D-ribose + L-lysyl-[protein] + nicotinamide." [PMID:31328167]
  xref: RHEA:24364
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -66378,7 +66406,7 @@
  created_by: rynl
  creation_date: 2021-11-16T01:28:33Z
  
-@@ -476057,8 +493280,10 @@
+@@ -476057,8 +493282,10 @@
  xref: RHEA:76235
  is_a: GO:0070567 ! cytidylyltransferase activity
  is_a: GO:0140101 ! catalytic activity, acting on a tRNA
@@ -66389,7 +66417,7 @@
  created_by: rynl
  creation_date: 2023-02-28T20:51:52Z
  
-@@ -476407,7 +493632,9 @@
+@@ -476407,7 +493634,9 @@
  def: "Catalysis of the reaction: ATP + muramyl dipeptide = ADP + H+ + 6-O-phospho-muramyl dipeptide." [PMID:36002575]
  xref: RHEA:75935
  is_a: GO:0016301 ! kinase activity
@@ -66399,7 +66427,7 @@
  created_by: rynl
  creation_date: 2023-03-17T22:29:32Z
  
-@@ -476764,6 +493991,7 @@
+@@ -476764,6 +493993,7 @@
  xref: Reactome:R-HSA-429767 "Passive I- efflux mediated by SLC5A8"
  is_a: GO:0005253 ! monoatomic anion channel activity
  is_a: GO:0015111 ! iodide transmembrane transporter activity
@@ -66407,7 +66435,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25578" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27521" xsd:anyURI
  created_by: rynl
-@@ -476779,7 +494007,10 @@
+@@ -476779,7 +494009,10 @@
  xref: EC:1.14.11.29
  xref: RHEA:48400
  is_a: GO:0031545 ! peptidyl-proline 4-dioxygenase activity
@@ -66418,7 +66446,7 @@
  created_by: rynl
  creation_date: 2023-07-13T17:38:59Z
  
-@@ -476835,6 +494066,7 @@
+@@ -476835,6 +494068,7 @@
  xref: RHEA:60508
  is_a: GO:0008174 ! mRNA methyltransferase activity
  relationship: part_of GO:0036265 ! RNA (guanine-N7)-methylation
@@ -66426,7 +66454,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25788" xsd:anyURI
  created_by: rynl
  creation_date: 2023-08-08T22:40:38Z
-@@ -476923,7 +494155,10 @@
+@@ -476923,7 +494157,10 @@
  xref: RHEA:43124
  is_a: GO:0008170 ! N-methyltransferase activity
  is_a: GO:0016423 ! tRNA (guanine) methyltransferase activity
@@ -66437,7 +66465,7 @@
  created_by: rynl
  creation_date: 2023-09-14T00:15:09Z
  
-@@ -476939,7 +494174,10 @@
+@@ -476939,7 +494176,10 @@
  xref: RHEA:43128
  is_a: GO:0008170 ! N-methyltransferase activity
  is_a: GO:0016423 ! tRNA (guanine) methyltransferase activity
@@ -66448,7 +66476,7 @@
  created_by: rynl
  creation_date: 2023-09-14T00:20:53Z
  
-@@ -476954,7 +494192,10 @@
+@@ -476954,7 +494194,10 @@
  xref: RHEA:43136
  is_a: GO:0008170 ! N-methyltransferase activity
  is_a: GO:0016423 ! tRNA (guanine) methyltransferase activity
@@ -66459,7 +66487,7 @@
  created_by: rynl
  creation_date: 2023-09-14T00:24:30Z
  
-@@ -476971,7 +494212,10 @@
+@@ -476971,7 +494214,10 @@
  xref: RHEA:43140
  is_a: GO:0008170 ! N-methyltransferase activity
  is_a: GO:0016423 ! tRNA (guanine) methyltransferase activity
@@ -66470,7 +66498,7 @@
  created_by: rynl
  creation_date: 2023-09-14T00:28:33Z
  
-@@ -476985,7 +494229,10 @@
+@@ -476985,7 +494231,10 @@
  xref: EC:2.1.1.217
  xref: RHEA:43144
  is_a: GO:0016426 ! tRNA (adenine) methyltransferase activity
@@ -66481,7 +66509,7 @@
  created_by: rynl
  creation_date: 2023-09-14T00:42:44Z
  
-@@ -477001,7 +494248,10 @@
+@@ -477001,7 +494250,10 @@
  xref: Reactome:R-HSA-6787594 "TRMT10C:HSD17B10 (TRMT10C:SDR5C1) methylates adenosine-9 in tRNA yielding 1-methyladenosine-9"
  xref: RHEA:43148
  is_a: GO:0016426 ! tRNA (adenine) methyltransferase activity
@@ -66492,7 +66520,7 @@
  created_by: rynl
  creation_date: 2023-09-14T00:53:53Z
  
-@@ -477018,7 +494268,10 @@
+@@ -477018,7 +494270,10 @@
  xref: Reactome:R-HSA-6787525 "TRMT61B methylates adenosine-58 in tRNA yielding 1-methyladenosine-58"
  xref: RHEA:43152
  is_a: GO:0016426 ! tRNA (adenine) methyltransferase activity
@@ -66503,7 +66531,7 @@
  created_by: rynl
  creation_date: 2023-09-14T00:57:53Z
  
-@@ -477123,7 +494376,10 @@
+@@ -477123,7 +494378,10 @@
  xref: RHEA:51116
  is_a: GO:0008170 ! N-methyltransferase activity
  is_a: GO:0016423 ! tRNA (guanine) methyltransferase activity
@@ -66514,7 +66542,7 @@
  created_by: rynl
  creation_date: 2023-10-26T23:14:33Z
  
-@@ -477169,7 +494425,9 @@
+@@ -477169,7 +494427,9 @@
  def: "Catalysis of the reaction: 2 3-acyl-sn-glycero-1-phospho-(1'-sn-glycerol) = 3-acyl-sn-glycero-1-phospho-(3'-acyl-1'-sn-glycerol) + sn-glycero-1-phospho-(1'-sn-glycerol)." [PMID:37708259, RHEA:77619]
  xref: RHEA:77619
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
@@ -66524,7 +66552,7 @@
  created_by: rynl
  creation_date: 2023-10-30T17:31:01Z
  
-@@ -477233,7 +494491,7 @@
+@@ -477233,7 +494493,7 @@
  name: protein-RNA covalent cross-linking repair
  namespace: biological_process
  def: "A process that rescues stalled ribosomes by removing the covalent cross-link between RNA and a protein." [PMID:37951215, PMID:37951216]
@@ -66533,7 +66561,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26415" xsd:anyURI
  created_by: rynl
  creation_date: 2023-11-27T19:54:13Z
-@@ -477260,6 +494518,7 @@
+@@ -477260,6 +494520,7 @@
  def: "Catalysis of the cross-link between a protein and a DNA abasic site, forming a thiazolidine linkage between a DNA ring-opened abasic site and the alpha-amino and sulfhydryl substituents of cysteine residue of the protein." [PMID:30554877, PMID:31235913]
  xref: MetaCyc:RXN-21016
  is_a: GO:0016829 ! lyase activity
@@ -66541,7 +66569,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26415" xsd:anyURI
  created_by: rynl
  creation_date: 2023-12-06T17:33:59Z
-@@ -477305,6 +494564,7 @@
+@@ -477305,6 +494566,7 @@
  synonym: "hydrogencarbonate channel activity" EXACT []
  is_a: GO:0015106 ! bicarbonate transmembrane transporter activity
  is_a: GO:0015267 ! channel activity
@@ -66549,7 +66577,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26601" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26780" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27521" xsd:anyURI
-@@ -477340,7 +494600,10 @@
+@@ -477340,7 +494602,10 @@
  xref: EC:5.4.99.19
  xref: RHEA:38867
  is_a: GO:0120159 ! rRNA pseudouridine synthase activity
@@ -66560,7 +66588,7 @@
  created_by: rynl
  creation_date: 2024-01-09T00:40:24Z
  
-@@ -477352,7 +494615,10 @@
+@@ -477352,7 +494617,10 @@
  xref: EC:5.4.99.20
  xref: RHEA:38871
  is_a: GO:0120159 ! rRNA pseudouridine synthase activity
@@ -66571,7 +66599,7 @@
  created_by: rynl
  creation_date: 2024-01-09T00:52:51Z
  
-@@ -477364,7 +494630,10 @@
+@@ -477364,7 +494632,10 @@
  xref: EC:5.4.99.21
  xref: RHEA:38875
  is_a: GO:0120159 ! rRNA pseudouridine synthase activity
@@ -66582,7 +66610,7 @@
  created_by: rynl
  creation_date: 2024-01-09T00:57:29Z
  
-@@ -477376,7 +494645,10 @@
+@@ -477376,7 +494647,10 @@
  xref: EC:5.4.99.22
  xref: RHEA:42520
  is_a: GO:0120159 ! rRNA pseudouridine synthase activity
@@ -66593,7 +66621,7 @@
  created_by: rynl
  creation_date: 2024-01-09T01:03:34Z
  
-@@ -477388,7 +494660,10 @@
+@@ -477388,7 +494662,10 @@
  xref: EC:5.4.99.23
  xref: RHEA:42524
  is_a: GO:0120159 ! rRNA pseudouridine synthase activity
@@ -66604,7 +66632,7 @@
  created_by: rynl
  creation_date: 2024-01-09T01:08:10Z
  
-@@ -477400,7 +494675,10 @@
+@@ -477400,7 +494677,10 @@
  xref: EC:5.4.99.24
  xref: RHEA:42528
  is_a: GO:0120159 ! rRNA pseudouridine synthase activity
@@ -66615,7 +66643,7 @@
  created_by: rynl
  creation_date: 2024-01-09T01:12:45Z
  
-@@ -477412,7 +494690,10 @@
+@@ -477412,7 +494692,10 @@
  xref: EC:5.4.99.29
  xref: RHEA:42548
  is_a: GO:0120159 ! rRNA pseudouridine synthase activity
@@ -66626,7 +66654,7 @@
  created_by: rynl
  creation_date: 2024-01-09T01:16:13Z
  
-@@ -477424,7 +494705,10 @@
+@@ -477424,7 +494707,10 @@
  xref: EC:5.4.99.43
  xref: RHEA:42556
  is_a: GO:0120159 ! rRNA pseudouridine synthase activity
@@ -66637,7 +66665,7 @@
  created_by: rynl
  creation_date: 2024-01-09T01:19:05Z
  
-@@ -477457,14 +494741,17 @@
+@@ -477457,14 +494743,17 @@
  id: GO:0160147
  name: tRNA pseudouridine(38-40) synthase activity
  namespace: molecular_function
@@ -66656,7 +66684,7 @@
  created_by: rynl
  creation_date: 2024-01-17T01:55:49Z
  
-@@ -477476,7 +494763,10 @@
+@@ -477476,7 +494765,10 @@
  xref: EC:5.4.99.25
  xref: RHEA:42532
  is_a: GO:0106029 ! tRNA pseudouridine synthase activity
@@ -66667,7 +66695,7 @@
  created_by: rynl
  creation_date: 2024-01-17T18:49:10Z
  
-@@ -477488,7 +494778,10 @@
+@@ -477488,7 +494780,10 @@
  xref: EC:5.4.99.26
  xref: RHEA:42536
  is_a: GO:0106029 ! tRNA pseudouridine synthase activity
@@ -66678,7 +66706,7 @@
  created_by: rynl
  creation_date: 2024-01-17T18:52:17Z
  
-@@ -477500,7 +494793,10 @@
+@@ -477500,7 +494795,10 @@
  xref: EC:5.4.99.27
  xref: RHEA:42540
  is_a: GO:0106029 ! tRNA pseudouridine synthase activity
@@ -66689,7 +66717,7 @@
  created_by: rynl
  creation_date: 2024-01-17T18:54:10Z
  
-@@ -477512,7 +494808,10 @@
+@@ -477512,7 +494810,10 @@
  xref: EC:5.4.99.28
  xref: RHEA:42544
  is_a: GO:0106029 ! tRNA pseudouridine synthase activity
@@ -66700,7 +66728,7 @@
  created_by: rynl
  creation_date: 2024-01-17T19:03:23Z
  
-@@ -477524,7 +494823,10 @@
+@@ -477524,7 +494825,10 @@
  xref: EC:5.4.99.42
  xref: RHEA:42552
  is_a: GO:0106029 ! tRNA pseudouridine synthase activity
@@ -66711,7 +66739,7 @@
  created_by: rynl
  creation_date: 2024-01-17T19:05:18Z
  
-@@ -477536,7 +494838,10 @@
+@@ -477536,7 +494840,10 @@
  xref: EC:5.4.99.44
  xref: RHEA:42560
  is_a: GO:0106029 ! tRNA pseudouridine synthase activity
@@ -66722,7 +66750,7 @@
  created_by: rynl
  creation_date: 2024-01-17T19:07:07Z
  
-@@ -477544,11 +494849,15 @@
+@@ -477544,11 +494851,15 @@
  id: GO:0160154
  name: tRNA pseudouridine(38/39) synthase activity
  namespace: molecular_function
@@ -66739,7 +66767,7 @@
  created_by: rynl
  creation_date: 2024-01-17T19:11:20Z
  
-@@ -477660,7 +494969,9 @@
+@@ -477660,7 +494971,9 @@
  def: "Catalysis of the reaction: H+ + NADPH + S-nitrosoglutathione = NADP+ + S-(hydroxysulfenamide)glutathione." [RHEA:63500]
  xref: RHEA:63500
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -66749,7 +66777,7 @@
  created_by: rynl
  creation_date: 2024-02-28T01:46:34Z
  
-@@ -477696,6 +495007,7 @@
+@@ -477696,6 +495009,7 @@
  def: "Catalysis of the reaction: 2-oxoadipate + H+ + N(6)-[(R)-lipoyl]-L-lysyl-[dihydrolipoyllysine-residue succinyltransferase] = CO2 + N(6)-[(R)-S(8)-glutaryldihydrolipoyl]-L-lysyl-[dihydrolipoyllysine-residue succinyltransferase]." [PMID:29191460, PMID:32695416, RHEA:69576]
  xref: RHEA:69576
  is_a: GO:0016624 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors, disulfide as acceptor
@@ -66757,7 +66785,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27202" xsd:anyURI
  created_by: rynl
  creation_date: 2024-03-06T18:27:05Z
-@@ -477866,6 +495178,8 @@
+@@ -477866,6 +495180,8 @@
  xref: EC:1.7.5.1
  xref: RHEA:56144
  is_a: GO:0008940 ! nitrate reductase activity
@@ -66766,7 +66794,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27675" xsd:anyURI
  created_by: rynl
  creation_date: 2024-04-24T22:45:01Z
-@@ -477898,7 +495212,7 @@
+@@ -477898,7 +495214,7 @@
  namespace: molecular_function
  def: "Binds to and increases the activity of the enzyme phospholipase C." [PMID:28130414]
  is_a: GO:0016004 ! phospholipase activator activity
@@ -66775,7 +66803,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27845" xsd:anyURI
  created_by: rynl
  creation_date: 2024-05-06T23:18:59Z
-@@ -477909,7 +495223,7 @@
+@@ -477909,7 +495225,7 @@
  namespace: molecular_function
  def: "Binds to and stops, prevents or reduces the activity of the enzyme phospholipase C." [PMID:28130414]
  is_a: GO:0004859 ! phospholipase inhibitor activity
@@ -66784,7 +66812,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27845" xsd:anyURI
  created_by: rynl
  creation_date: 2024-05-06T23:26:17Z
-@@ -477965,8 +495279,21 @@
+@@ -477965,8 +495281,21 @@
  def: "Catalysis of the reaction: a C28-steroid + O2 + reduced NADPH--hemoprotein reductase = a (22S)-22-hydroxy C28-steroid + H+ + H2O + oxidized NADPH--hemoprotein reductase. Also catalyzes the C-22 hydroxylation of a variety of C27 and C29 steroids." [EC:1.14.14.178]
  synonym: "steroid C-22 hydroxylase activity" EXACT [EC:1.14.14.178]
  xref: EC:1.14.14.178
@@ -66806,7 +66834,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28221" xsd:anyURI
  created_by: rynl
  creation_date: 2024-06-27T00:40:39Z
-@@ -478027,9 +495354,10 @@
+@@ -478027,9 +495356,10 @@
  def: "Catalysis of the reaction: a di-trans,poly-cis-polyprenol + NAD+ = a di-trans,poly-cis-polyprenal + NADH + H+." [PMID:38821050, RHEA:80719]
  synonym: "polyprenol dehydrogenase activity" BROAD []
  xref: MetaCyc:RXN-24567
@@ -66818,7 +66846,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28566" xsd:anyURI
  created_by: rynl
  creation_date: 2024-07-25T00:44:15Z
-@@ -478044,6 +495372,8 @@
+@@ -478044,6 +495374,8 @@
  xref: MetaCyc:RXN-24568
  xref: RHEA:80731
  is_a: GO:0016628 ! oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor
@@ -66827,7 +66855,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28566" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30105" xsd:anyURI
  created_by: rynl
-@@ -478056,10 +495386,12 @@
+@@ -478056,10 +495388,12 @@
  def: "Catalysis of the reaction: ditrans,polycis-polyprenal+ H+ + NADPH = ditrans,polycis-dolichal+ NADP." [PMID:38821050, RHEA:80727]
  xref: EC:1.3.1.94
  xref: MetaCyc:RXN-9971
@@ -66841,7 +66869,7 @@
  created_by: rynl
  creation_date: 2024-07-25T05:51:59Z
  
-@@ -478131,7 +495463,10 @@
+@@ -478131,7 +495465,10 @@
  xref: EC:2.4.2.60
  xref: RHEA:55708
  is_a: GO:0016763 ! pentosyltransferase activity
@@ -66852,7 +66880,7 @@
  created_by: rynl
  creation_date: 2024-08-20T00:05:09Z
  
-@@ -478142,9 +495477,13 @@
+@@ -478142,9 +495479,13 @@
  def: "Catalysis of the reaction: cytidine(32)/uridine(32) in tRNA + S-adenosyl-L-methionine = 2'-O-methylcytidine(32)/2'-O-methyluridine(32) in tRNA + H+ + S-adenosyl-L-homocysteine." [EC:2.1.1.200]
  synonym: "TrMet(Xm32) activity" EXACT []
  xref: EC:2.1.1.200
@@ -66866,7 +66894,7 @@
  created_by: rynl
  creation_date: 2024-08-21T21:13:17Z
  
-@@ -478190,7 +495529,9 @@
+@@ -478190,7 +495531,9 @@
  def: "Catalysis of the reaction: L-serine + succinyl-CoA = CoA + O-succinyl-L-serine." [PMID:28581482, RHEA:52820]
  xref: RHEA:52820
  is_a: GO:0016750 ! O-succinyltransferase activity
@@ -66876,7 +66904,7 @@
  created_by: rynl
  creation_date: 2024-09-04T23:29:11Z
  
-@@ -478243,6 +495584,9 @@
+@@ -478243,6 +495586,9 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: R-CO-X + H2O = R-COOH + HX, hydrolysis of an acyl group or groups from a substrate molecule." [PMID:2760018, PMID:29637793, PMID:38355760]
  is_a: GO:0003824 ! catalytic activity
@@ -66886,7 +66914,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28920" xsd:anyURI
  created_by: rynl
  creation_date: 2024-09-16T23:45:30Z
-@@ -478255,7 +495599,9 @@
+@@ -478255,7 +495601,9 @@
  xref: RHEA:81387
  is_a: GO:0140096 ! catalytic activity, acting on a protein
  is_a: GO:0160215 ! deacylase activity
@@ -66896,7 +66924,7 @@
  created_by: rynl
  creation_date: 2024-09-17T00:03:19Z
  
-@@ -478315,6 +495661,8 @@
+@@ -478315,6 +495663,8 @@
  xref: MetaCyc:RXN-11298
  xref: RHEA:37347
  is_a: GO:0016875 ! ligase activity, forming carbon-oxygen bonds
@@ -66905,7 +66933,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29196" xsd:anyURI
  created_by: rynl
  creation_date: 2024-11-13T20:22:39Z
-@@ -478339,6 +495687,8 @@
+@@ -478339,6 +495689,8 @@
  xref: MetaCyc:RXN-11299
  xref: RHEA:27706
  is_a: GO:0016881 ! acid-amino acid ligase activity
@@ -66914,7 +66942,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29277" xsd:anyURI
  created_by: rynl
  creation_date: 2024-11-22T00:43:34Z
-@@ -478364,7 +495714,10 @@
+@@ -478364,7 +495716,10 @@
  xref: EC:1.14.13.253
  xref: RHEA:81211
  is_a: GO:0016709 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen
@@ -66925,7 +66953,7 @@
  created_by: rynl
  creation_date: 2024-11-27T01:03:04Z
  
-@@ -478429,7 +495782,9 @@
+@@ -478429,7 +495784,9 @@
  def: "Catalysis of the reaction: guanosine in U6 snRNA + S-adenosyl-L-methionine = H+ + N(2)-methylguanosine in U6 snRNA + S-adenosyl-L-homocysteine." [PMID:37283053]
  xref: RHEA:83423
  is_a: GO:0106346 ! snRNA methyltransferase activity
@@ -66935,7 +66963,7 @@
  created_by: rynl
  creation_date: 2024-12-26T18:27:41Z
  
-@@ -478484,6 +495839,7 @@
+@@ -478484,6 +495841,7 @@
  xref: RHEA:83279
  is_a: GO:0016740 ! transferase activity
  is_a: GO:0140101 ! catalytic activity, acting on a tRNA
@@ -66943,7 +66971,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29535" xsd:anyURI
  created_by: rynl
  creation_date: 2025-01-21T20:32:11Z
-@@ -478497,7 +495853,10 @@
+@@ -478497,7 +495855,10 @@
  xref: EC:3.4.13.22
  xref: RHEA:20661
  is_a: GO:0016805 ! dipeptidase activity
@@ -66954,7 +66982,7 @@
  created_by: rynl
  creation_date: 2025-01-22T00:55:43Z
  
-@@ -478509,6 +495868,7 @@
+@@ -478509,6 +495870,7 @@
  synonym: "aldehyde oxidative decarbonylase activity" BROAD []
  xref: RHEA:83563
  is_a: GO:0016830 ! carbon-carbon lyase activity
@@ -66962,7 +66990,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28217" xsd:anyURI
  created_by: rynl
  creation_date: 2025-01-22T22:31:47Z
-@@ -478543,6 +495903,7 @@
+@@ -478543,6 +495905,7 @@
  def: "Catalysis of the reaction: a cardiolipin + NAD+ = a diphosphatidylglycerone + NADH + H+." [PMID:26338420, RHEA:81091]
  xref: RHEA:81091
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -66970,7 +66998,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29557" xsd:anyURI
  created_by: rynl
  creation_date: 2025-01-30T18:41:21Z
-@@ -478554,6 +495915,7 @@
+@@ -478554,6 +495917,7 @@
  def: "Catalysis of the reaction: a 1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol) + NAD+ = a 1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerone) + NADH + H+." [PMID:26338420, RHEA:81099]
  xref: RHEA:81099
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -66978,7 +67006,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29558" xsd:anyURI
  created_by: rynl
  creation_date: 2025-01-30T21:41:30Z
-@@ -478597,9 +495959,9 @@
+@@ -478597,9 +495961,9 @@
  name: NADPH-iron-sulfur [2Fe-2S] protein oxidoreductase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: 2 oxidized [2Fe-2S]-[protein] + NADPH = 2 reduced [2Fe-2S]-[protein] + NADP+ + H+." [RHEA:67716]
@@ -66989,7 +67017,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29668" xsd:anyURI
  created_by: rynl
  creation_date: 2025-02-08T01:39:32Z
-@@ -478625,7 +495987,9 @@
+@@ -478625,7 +495989,9 @@
  xref: RHEA:83895
  is_a: GO:0008170 ! N-methyltransferase activity
  is_a: GO:0016423 ! tRNA (guanine) methyltransferase activity
@@ -66999,7 +67027,7 @@
  created_by: rynl
  creation_date: 2025-03-04T08:07:33Z
  
-@@ -478678,7 +496042,11 @@
+@@ -478678,7 +496044,11 @@
  name: de novo tRNA queuosine(34) biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of tRNA queuosine(34) from guanosine triphosphate (GTP)." [PMID:28208705]
@@ -67011,7 +67039,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29892" xsd:anyURI
  created_by: rynl
  creation_date: 2025-03-18T04:25:52Z
-@@ -478758,6 +496126,7 @@
+@@ -478758,6 +496128,7 @@
  xref: RHEA:57416
  is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -67019,7 +67047,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30190" xsd:anyURI
  created_by: rynl
  creation_date: 2025-04-29T23:06:28Z
-@@ -478778,6 +496147,7 @@
+@@ -478778,6 +496149,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: acetyl-CoA + histone H1 = CoA + acetyl-histone H1." [PMID:40240600]
  is_a: GO:0004402 ! histone acetyltransferase activity
@@ -67027,7 +67055,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30180" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30190" xsd:anyURI
  created_by: rynl
-@@ -478789,6 +496159,7 @@
+@@ -478789,6 +496161,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: acetyl-CoA + histone H1 L-lysine (position 75) = CoA + histone H1 N6-acetyl-L-lysine (position 75)." [PMID:40240600]
  is_a: GO:0160262 ! histone H1 acetyltransferase activity
@@ -67035,7 +67063,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30180" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30190" xsd:anyURI
  created_by: rynl
-@@ -478809,7 +496180,11 @@
+@@ -478809,7 +496182,11 @@
  name: O-fucosylpeptide 3-beta-glucosyltransferase activity
  namespace: molecular_function
  def: "Catalysis of the transfer of a alpha-D-glucose residue from UDP-alpha-D-glucose to the fucose residue of a fucosylated protein acceptor." [PMID:16899492]
@@ -67047,7 +67075,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30246" xsd:anyURI
  created_by: rynl
  creation_date: 2025-05-13T21:17:26Z
-@@ -478869,6 +496244,7 @@
+@@ -478869,6 +496246,7 @@
  is_a: GO:0008526 ! phosphatidylinositol transfer activity
  is_a: GO:0140343 ! phosphatidylserine transfer activity
  is_a: GO:7770011 ! lipid exchange activity
@@ -67055,7 +67083,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30291" xsd:anyURI
  created_by: rynl
  creation_date: 2025-05-20T21:28:18Z
-@@ -479108,6 +496484,7 @@
+@@ -479108,6 +496486,7 @@
  xref: RHEA:54144
  is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
  is_a: GO:0140101 ! catalytic activity, acting on a tRNA
@@ -67063,7 +67091,7 @@
  created_by: rynl
  creation_date: 2025-07-05T00:30:16Z
  
-@@ -479297,6 +496674,71 @@
+@@ -479297,6 +496676,71 @@
  creation_date: 2025-09-29T23:16:32Z
  
  [Term]
@@ -67135,7 +67163,7 @@
  id: GO:0170001
  name: ergothioneine transmembrane transporter activity
  namespace: molecular_function
-@@ -479364,8 +496806,6 @@
+@@ -479364,8 +496808,6 @@
  name: endoplasmic reticulum-lipid droplet tether activity
  namespace: molecular_function
  def: "The binding activity of a molecule that brings together a lipid droplet with an endoplasmic reticulum membrane, via membrane lipid binding, to establish membrane contact sites and mediate exchange and communication." [PMID:35389430]
@@ -67144,7 +67172,7 @@
  is_a: GO:0043495 ! protein-membrane adaptor activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25428" xsd:anyURI
  created_by: ew
-@@ -479422,6 +496862,7 @@
+@@ -479422,6 +496864,7 @@
  def: "Catalysis of the reaction: H2O + N6-(2E)-butenoyl-L-lysyl-[histone H3 position 18] + NAD+ = 2''-O-(2E)-but-2-enoyl-ADP-D-ribose + L-lysyl-[histone H3] + nicotinamide." [PMID:34927582]
  comment: Comment: Note that the residue position corresponds to the canonical human H3 histone (UniProtKB:P84243); this residue is conserved across all eukaryotes. Residue 1 is the first residue following removal of the initiating Methionine (Met). Note that each histone is encoded by multiple genes, and sequences may vary across different genes within an organism.
  is_a: GO:0160012 ! histone decrotonylase activity, NAD-dependent
@@ -67152,7 +67180,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24466" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: ew
-@@ -479803,7 +497244,13 @@
+@@ -479803,7 +497246,13 @@
  synonym: "cholesterol 7,8-dehydrogenase" EXACT []
  xref: EC:1.14.19.21
  xref: MetaCyc:RXN-16379
@@ -67166,7 +67194,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27381" xsd:anyURI
  created_by: ew
  creation_date: 2024-03-26T16:57:18Z
-@@ -479815,7 +497262,16 @@
+@@ -479815,7 +497264,16 @@
  def: "Catalysis of the joining of an RNA with 3'-phosphate or 2',3'-cyclic-phosphate ends to an RNA with 5'-hydroxy ends according to either (i) a 3'-end 3'-phospho-ribonucleotide-RNA + a 5'-end dephospho-ribonucleoside-RNA + GTP = a ribonucleotidyl-ribonucleotide-RNA + diphosphate + GMP; or (ii) a 3'-end 2',3'-cyclophospho-ribonucleotide-RNA + a 5'-end dephospho-ribonucleoside-RNA + GTP + H2O = a ribonucleotidyl-ribonucleotide-RNA + diphosphate + GMP + H+." [EC:6.5.1.8, PMID:21311021]
  synonym: "3'-phosphate/5'-hydroxy nucleic acid ligase activity" EXACT []
  xref: EC:6.5.1.8
@@ -67183,7 +67211,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27418" xsd:anyURI
  created_by: ew
  creation_date: 2024-03-26T23:34:04Z
-@@ -479899,6 +497355,7 @@
+@@ -479899,6 +497357,7 @@
  synonym: "arginine biosynthesis, N-acetylated pathway" EXACT []
  xref: MetaCyc:PWY-5154
  is_a: GO:0006526 ! L-arginine biosynthetic process
@@ -67191,7 +67219,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29602" xsd:anyURI
  created_by: ew
  creation_date: 2025-03-14T17:04:09Z
-@@ -480006,7 +497463,9 @@
+@@ -480006,7 +497465,9 @@
  is_a: GO:0015211 ! purine nucleoside transmembrane transporter activity
  is_a: GO:0015297 ! antiporter activity
  is_a: GO:0072349 ! modified amino acid transmembrane transporter activity
@@ -67201,7 +67229,7 @@
  created_by: vw
  creation_date: 2023-02-10T13:06:12Z
  
-@@ -480017,6 +497476,7 @@
+@@ -480017,6 +497478,7 @@
  def: "Catalysis of the reaction: RNA polymerase II large subunit CTD heptapeptide repeat--phospho-L-tyrosine (consensus YSPTSPS)(position 1) + H2O = RNA polymerase II large subunit + phosphate." [PMID:22622228]
  synonym: "RNA polymerase II C-terminal domain Y1 phosphatase activity" EXACT []
  is_a: GO:0008420 ! RNA polymerase II CTD heptapeptide repeat phosphatase activity
@@ -67209,7 +67237,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24910" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: vw
-@@ -480029,6 +497489,7 @@
+@@ -480029,6 +497491,7 @@
  def: "Catalysis of the reaction: RNA polymerase II large subunit CTD heptapeptide repeat--phospho-L-threonine (consensus YSPTSPS)(position 4) + H2O = RNA polymerase II large subunit + phosphate." [PMID:22622228]
  synonym: "RNA polymerase II C-terminal domain T4 phosphatase activity" EXACT []
  is_a: GO:0008420 ! RNA polymerase II CTD heptapeptide repeat phosphatase activity
@@ -67217,7 +67245,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24910" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: vw
-@@ -480041,6 +497502,7 @@
+@@ -480041,6 +497504,7 @@
  def: "Catalysis of the reaction: RNA polymerase II large subunit CTD heptapeptide repeat--phospho-L-serine (consensus YSPTSPS)(position 2) + H2O = RNA polymerase II large subunit + phosphate." [PMID:22622228]
  synonym: "RNA polymerase II C-terminal domain S2 phosphatase activity" EXACT []
  is_a: GO:0008420 ! RNA polymerase II CTD heptapeptide repeat phosphatase activity
@@ -67225,7 +67253,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24910" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: vw
-@@ -480053,6 +497515,7 @@
+@@ -480053,6 +497517,7 @@
  def: "Catalysis of the reaction: RNA polymerase II large subunit CTD heptapeptide repeat--phospho-L-serine (consensus YSPTSPS)(position 5) + H2O = RNA polymerase II large subunit + phosphate." [PMID:22622228]
  synonym: "RNA polymerase II C-terminal domain S5 phosphatase activity" EXACT []
  is_a: GO:0008420 ! RNA polymerase II CTD heptapeptide repeat phosphatase activity
@@ -67233,7 +67261,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24910" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: vw
-@@ -480065,6 +497528,7 @@
+@@ -480065,6 +497530,7 @@
  def: "Catalysis of the reaction: RNA polymerase II large subunit CTD heptapeptide repeat--phospho-L-serine (consensus YSPTSPS)(position 7) + H2O = RNA polymerase II large subunit + phosphate." [PMID:22622228]
  synonym: "RNA polymerase II C-terminal domain S7 phosphatase activity" EXACT []
  is_a: GO:0008420 ! RNA polymerase II CTD heptapeptide repeat phosphatase activity
@@ -67241,7 +67269,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24910" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: vw
-@@ -480079,9 +497543,17 @@
+@@ -480079,9 +497545,17 @@
  synonym: "neutral L-amino acid:dibasic L-amino acid antiporter activity" EXACT []
  synonym: "neutral L-amino acid:positively-charged polar L-amino acid antiporter activity" EXACT []
  synonym: "system b(0,+)-type activity" RELATED []
@@ -67259,7 +67287,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24497" xsd:anyURI
  created_by: vw
  creation_date: 2023-04-06T09:22:30Z
-@@ -480128,6 +497600,7 @@
+@@ -480128,6 +497602,7 @@
  namespace: molecular_function
  def: "Catalysis of the movement of a lysophosphatidylserine from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:34645814]
  is_a: GO:0140333 ! glycerophospholipid flippase activity
@@ -67267,7 +67295,7 @@
  created_by: vw
  creation_date: 2023-02-23T14:32:13Z
  
-@@ -480187,10 +497660,11 @@
+@@ -480187,10 +497662,11 @@
  id: GO:0180019
  name: Knl1/Spc105 complex
  namespace: cellular_component
@@ -67280,7 +67308,7 @@
  created_by: vw
  creation_date: 2023-06-16T09:53:26Z
  
-@@ -480212,7 +497686,9 @@
+@@ -480212,7 +497688,9 @@
  def: "Catalysis of the reaction: S-adenosyl-L-methionine + U6 snRNA = S-adenosyl-L-homocysteine + U6 containing a 3'-terminal 2'-O-methylnucleotide + H+." [PMID:37403782, RHEA:63088]
  xref: RHEA:63088
  is_a: GO:0090486 ! small RNA 2'-O-methyltransferase activity
@@ -67290,7 +67318,7 @@
  created_by: vw
  creation_date: 2023-07-14T13:19:39Z
  
-@@ -480337,6 +497813,7 @@
+@@ -480337,6 +497815,7 @@
  synonym: "histone H4K5 deacetylase activity" BROAD []
  is_a: GO:0141051 ! histone H4K deacetylase activity
  is_a: GO:0141221 ! histone deacetylase activity, hydrolytic mechanism
@@ -67298,7 +67326,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27036" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29468" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -480352,6 +497829,7 @@
+@@ -480352,6 +497831,7 @@
  synonym: "histone H4K48 deacetylase activity" BROAD []
  is_a: GO:0141051 ! histone H4K deacetylase activity
  is_a: GO:0141221 ! histone deacetylase activity, hydrolytic mechanism
@@ -67306,7 +67334,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27036" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29468" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -480453,6 +497931,7 @@
+@@ -480453,6 +497933,7 @@
  xref: RHEA:60500
  is_a: GO:0004376 ! GPI mannosyltransferase activity
  is_a: GO:0051751 ! alpha-1,4-mannosyltransferase activity
@@ -67314,7 +67342,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30326" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30693" xsd:anyURI
  created_by: vw
-@@ -483679,7 +501158,7 @@
+@@ -483679,7 +501160,7 @@
  synonym: "negative regulation of phosphatidylcholine 2-acylhydrolase activity" EXACT [GOC:TermGenie]
  synonym: "negative regulation of phospholipase A" RELATED [GOC:TermGenie]
  synonym: "negative regulation of secreted phospholipase A2 activity" NARROW [GOC:TermGenie]
@@ -67323,7 +67351,7 @@
  is_obsolete: true
  created_by: rph
  creation_date: 2012-03-01T09:18:24Z
-@@ -491545,8 +509024,8 @@
+@@ -491545,8 +509026,8 @@
  is_a: GO:0043465 ! regulation of fermentation
  is_a: GO:0043469 ! regulation of D-xylose catabolic process
  intersection_of: GO:0065007 ! biological regulation
@@ -67334,7 +67362,7 @@
  created_by: tt
  creation_date: 2012-05-02T04:09:07Z
  
-@@ -491570,8 +509049,8 @@
+@@ -491570,8 +509051,8 @@
  is_a: GO:1900515 ! regulation of xylose catabolic process to ethanol
  is_a: GO:1901003 ! negative regulation of fermentation
  intersection_of: GO:0065007 ! biological regulation
@@ -67345,7 +67373,7 @@
  created_by: tt
  creation_date: 2012-05-02T04:09:17Z
  
-@@ -491594,8 +509073,8 @@
+@@ -491594,8 +509075,8 @@
  is_a: GO:0062013 ! positive regulation of small molecule metabolic process
  is_a: GO:1900515 ! regulation of xylose catabolic process to ethanol
  intersection_of: GO:0065007 ! biological regulation
@@ -67356,7 +67384,7 @@
  created_by: tt
  creation_date: 2012-05-02T04:09:26Z
  
-@@ -505508,7 +522987,10 @@
+@@ -505508,7 +522989,10 @@
  xref: MetaCyc:TRANS-RXN-242B
  xref: RHEA:35027
  is_a: GO:0140359 ! ABC-type transporter activity
@@ -67367,7 +67395,7 @@
  created_by: jl
  creation_date: 2012-08-07T14:47:36Z
  
-@@ -513746,8 +531228,8 @@
+@@ -513746,8 +531230,8 @@
  is_a: GO:0062012 ! regulation of small molecule metabolic process
  is_a: GO:2000282 ! regulation of amino acid biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
@@ -67378,7 +67406,7 @@
  created_by: mcc
  creation_date: 2012-12-19T16:01:56Z
  
-@@ -513784,8 +531266,8 @@
+@@ -513784,8 +531268,8 @@
  is_a: GO:1901710 ! regulation of homoserine biosynthetic process
  is_a: GO:2000283 ! negative regulation of amino acid biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
@@ -67389,7 +67417,7 @@
  created_by: mcc
  creation_date: 2012-12-19T16:02:00Z
  
-@@ -513822,8 +531304,8 @@
+@@ -513822,8 +531306,8 @@
  is_a: GO:1901710 ! regulation of homoserine biosynthetic process
  is_a: GO:2000284 ! positive regulation of amino acid biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
@@ -67400,7 +67428,7 @@
  created_by: mcc
  creation_date: 2012-12-19T16:02:05Z
  
-@@ -515021,10 +532503,16 @@
+@@ -515021,10 +532505,16 @@
  synonym: "benzoyl-CoA breakdown" EXACT [GOC:TermGenie]
  synonym: "benzoyl-CoA catabolism" EXACT [GOC:TermGenie]
  synonym: "benzoyl-CoA degradation" EXACT [GOC:TermGenie]
@@ -67417,7 +67445,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28523" xsd:anyURI
  created_by: yaf
  creation_date: 2013-01-16T11:13:59Z
-@@ -515066,6 +532554,7 @@
+@@ -515066,6 +532556,7 @@
  synonym: "3-(2,3-dihydroxyphenyl)propanoate degradation" EXACT [GOC:TermGenie]
  is_a: GO:0019614 ! catechol-containing compound catabolic process
  is_a: GO:0072329 ! monocarboxylic acid catabolic process
@@ -67425,7 +67453,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28388" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28523" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
-@@ -515109,6 +532598,7 @@
+@@ -515109,6 +532600,7 @@
  synonym: "3-(3-hydroxyphenyl)propanoate catabolism" EXACT [GOC:TermGenie]
  synonym: "3-(3-hydroxyphenyl)propanoate degradation" EXACT [GOC:TermGenie]
  is_a: GO:0072329 ! monocarboxylic acid catabolic process
@@ -67433,7 +67461,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28523" xsd:anyURI
  created_by: yaf
  creation_date: 2013-01-16T11:47:17Z
-@@ -515352,6 +532842,7 @@
+@@ -515352,6 +532844,7 @@
  synonym: "capsanthin formation" EXACT [GOC:TermGenie]
  synonym: "capsanthin synthesis" EXACT [GOC:TermGenie]
  is_a: GO:0016123 ! xanthophyll biosynthetic process
@@ -67441,7 +67469,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28523" xsd:anyURI
  created_by: yaf
  creation_date: 2013-01-22T10:21:50Z
-@@ -516300,6 +533791,7 @@
+@@ -516300,6 +533793,7 @@
  synonym: "capsorubin formation" EXACT [GOC:TermGenie]
  synonym: "capsorubin synthesis" EXACT [GOC:TermGenie]
  is_a: GO:0016123 ! xanthophyll biosynthetic process
@@ -67449,7 +67477,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28523" xsd:anyURI
  created_by: yaf
  creation_date: 2013-02-04T10:50:26Z
-@@ -530429,31 +547921,33 @@
+@@ -530429,31 +547923,33 @@
  
  [Term]
  id: GO:1902696
@@ -67493,7 +67521,7 @@
  created_by: tb
  creation_date: 2014-02-19T18:28:19Z
  
-@@ -534552,7 +552046,6 @@
+@@ -534552,7 +552048,6 @@
  namespace: molecular_function
  def: "Binding to phosphatidylinositol bisphosphate." [GO_REF:0000067, GOC:bhm, GOC:TermGenie, PMID:18690034]
  comment: An example of this is KCNJ2 in human (P63252) in PMID:18690034 (inferred from direct assay)
@@ -67501,7 +67529,7 @@
  is_a: GO:1901981 ! phosphatidylinositol phosphate binding
  created_by: bhm
  creation_date: 2014-04-25T15:14:12Z
-@@ -536166,8 +553659,8 @@
+@@ -536166,8 +553661,8 @@
  is_a: GO:0062012 ! regulation of small molecule metabolic process
  is_a: GO:2000282 ! regulation of amino acid biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
@@ -67512,7 +67540,7 @@
  created_by: al
  creation_date: 2014-05-07T08:07:08Z
  
-@@ -536219,8 +553712,8 @@
+@@ -536219,8 +553714,8 @@
  is_a: GO:1902986 ! regulation of lysine biosynthetic process via aminoadipic acid
  is_a: GO:2000283 ! negative regulation of amino acid biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
@@ -67523,7 +67551,7 @@
  created_by: al
  creation_date: 2014-05-07T08:07:15Z
  
-@@ -540446,27 +557939,27 @@
+@@ -540446,27 +557941,27 @@
  
  [Term]
  id: GO:1903214
@@ -67560,7 +67588,7 @@
  synonym: "down regulation of mitochondrial protein import" RELATED [GOC:TermGenie]
  synonym: "down regulation of mitochondrial translocation" RELATED [GOC:TermGenie]
  synonym: "down regulation of protein import into mitochondrion" EXACT [GOC:TermGenie]
-@@ -540496,33 +557989,32 @@
+@@ -540496,33 +557991,32 @@
  synonym: "negative regulation of protein import into mitochondrion" EXACT [GOC:TermGenie]
  synonym: "negative regulation of protein targeting to mitochondria" EXACT [GOC:TermGenie]
  synonym: "negative regulation of protein-mitochondrial targeting" EXACT [GOC:TermGenie]
@@ -67606,7 +67634,7 @@
  synonym: "down regulation of mitochondrial protein processing during import" RELATED [GOC:TermGenie]
  synonym: "down regulation of protein processing involved in protein targeting to mitochondrion" EXACT [GOC:TermGenie]
  synonym: "down-regulation of mitochondrial protein processing during import" RELATED [GOC:TermGenie]
-@@ -540532,11 +558024,9 @@
+@@ -540532,11 +558026,9 @@
  synonym: "inhibition of mitochondrial protein processing during import" RELATED [GOC:TermGenie]
  synonym: "inhibition of protein processing involved in protein targeting to mitochondrion" NARROW [GOC:TermGenie]
  synonym: "negative regulation of mitochondrial protein processing during import" RELATED [GOC:TermGenie]
@@ -67621,7 +67649,7 @@
  created_by: bf
  creation_date: 2014-07-24T10:21:00Z
  
-@@ -548967,7 +566457,7 @@
+@@ -548967,7 +566459,7 @@
  synonym: "regulation of protein transport into mitochondrial outer membrane" EXACT [GOC:TermGenie]
  is_a: GO:0010821 ! regulation of mitochondrion organization
  is_a: GO:0060341 ! regulation of cellular localization
@@ -67630,7 +67658,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0045040 ! protein insertion into mitochondrial outer membrane
  relationship: regulates GO:0045040 ! protein insertion into mitochondrial outer membrane
-@@ -548999,8 +566489,8 @@
+@@ -548999,8 +566491,8 @@
  synonym: "negative regulation of protein import into mitochondrial outer membrane" EXACT []
  synonym: "negative regulation of protein transport into mitochondrial outer membrane" EXACT [GOC:TermGenie]
  is_a: GO:0010639 ! negative regulation of organelle organization
@@ -67640,7 +67668,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0045040 ! protein insertion into mitochondrial outer membrane
  relationship: negatively_regulates GO:0045040 ! protein insertion into mitochondrial outer membrane
-@@ -549033,7 +566523,7 @@
+@@ -549033,7 +566525,7 @@
  synonym: "upregulation of protein transport into mitochondrial outer membrane" EXACT [GOC:TermGenie]
  is_a: GO:0010638 ! positive regulation of organelle organization
  is_a: GO:1903636 ! regulation of protein insertion into mitochondrial outer membrane
@@ -67649,7 +67677,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0045040 ! protein insertion into mitochondrial outer membrane
  relationship: positively_regulates GO:0045040 ! protein insertion into mitochondrial outer membrane
-@@ -550843,71 +568333,44 @@
+@@ -550843,71 +568335,44 @@
  
  [Term]
  id: GO:1903747
@@ -67741,7 +67769,7 @@
  created_by: krc
  creation_date: 2014-12-12T22:18:26Z
  
-@@ -555208,10 +572671,10 @@
+@@ -555208,10 +572673,10 @@
  
  [Term]
  id: GO:1903955
@@ -67755,7 +67783,7 @@
  synonym: "activation of mitochondrial protein import" RELATED [GOC:TermGenie]
  synonym: "activation of mitochondrial translocation" RELATED [GOC:TermGenie]
  synonym: "activation of protein import into mitochondrion" NARROW [GOC:TermGenie]
-@@ -555241,11 +572704,9 @@
+@@ -555241,11 +572706,9 @@
  synonym: "upregulation of protein targeting to mitochondria" EXACT [GOC:TermGenie]
  synonym: "upregulation of protein targeting to mitochondrion" EXACT [GOC:TermGenie]
  synonym: "upregulation of protein-mitochondrial targeting" EXACT [GOC:TermGenie]
@@ -67770,7 +67798,7 @@
  created_by: pad
  creation_date: 2015-02-24T16:58:21Z
  
-@@ -556389,8 +573850,8 @@
+@@ -556389,8 +573852,8 @@
  is_a: GO:0043465 ! regulation of fermentation
  is_a: GO:0043470 ! regulation of carbohydrate catabolic process
  intersection_of: GO:0065007 ! biological regulation
@@ -67781,7 +67809,7 @@
  created_by: dph
  creation_date: 2015-03-11T16:57:32Z
  
-@@ -556439,8 +573900,8 @@
+@@ -556439,8 +573902,8 @@
  is_a: GO:1901003 ! negative regulation of fermentation
  is_a: GO:1904023 ! regulation of glucose catabolic process to lactate via pyruvate
  intersection_of: GO:0065007 ! biological regulation
@@ -67792,7 +67820,7 @@
  created_by: dph
  creation_date: 2015-03-11T16:57:38Z
  
-@@ -556487,8 +573948,8 @@
+@@ -556487,8 +573950,8 @@
  is_a: GO:0010907 ! positive regulation of glucose metabolic process
  is_a: GO:1904023 ! regulation of glucose catabolic process to lactate via pyruvate
  intersection_of: GO:0065007 ! biological regulation
@@ -67803,7 +67831,7 @@
  created_by: dph
  creation_date: 2015-03-11T16:57:44Z
  
-@@ -563885,20 +581346,12 @@
+@@ -563885,20 +581348,12 @@
  
  [Term]
  id: GO:1904378
@@ -67829,7 +67857,7 @@
  created_by: bf
  creation_date: 2015-06-23T09:21:53Z
  
-@@ -564067,7 +581520,7 @@
+@@ -564067,7 +581522,7 @@
  name: response to ciliary neurotrophic factor
  namespace: biological_process
  def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a ciliary neurotrophic factor stimulus." [GO_REF:0000071, GOC:TermGenie, PMID:16914133]
@@ -67838,7 +67866,7 @@
  created_by: sl
  creation_date: 2015-06-23T19:13:04Z
  
-@@ -564076,7 +581529,7 @@
+@@ -564076,7 +581531,7 @@
  name: cellular response to ciliary neurotrophic factor
  namespace: biological_process
  def: "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a ciliary neurotrophic factor stimulus." [GO_REF:0000071, GOC:TermGenie, PMID:16914133]
@@ -67847,7 +67875,7 @@
  is_a: GO:1904391 ! response to ciliary neurotrophic factor
  created_by: sl
  creation_date: 2015-06-23T19:13:10Z
-@@ -567623,7 +585076,6 @@
+@@ -567623,7 +585078,6 @@
  namespace: biological_process
  def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a glycoprotein stimulus." [GO_REF:0000071, GOC:TermGenie, PMID:14597422]
  synonym: "response to glycoproteins" EXACT []
@@ -67855,7 +67883,7 @@
  is_a: GO:1901700 ! response to oxygen-containing compound
  created_by: sl
  creation_date: 2015-08-20T16:46:24Z
-@@ -567634,7 +585086,6 @@
+@@ -567634,7 +585088,6 @@
  namespace: biological_process
  def: "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a glycoprotein stimulus." [GO_REF:0000071, GOC:TermGenie, PMID:14597422]
  synonym: "cellular response to glycoproteins" EXACT []
@@ -67863,7 +67891,7 @@
  is_a: GO:1901701 ! cellular response to oxygen-containing compound
  is_a: GO:1904587 ! response to glycoprotein
  created_by: sl
-@@ -571540,8 +588991,6 @@
+@@ -571540,8 +588993,6 @@
  name: all-trans-retinol binding
  namespace: molecular_function
  def: "Binding to all-trans-retinol." [GO_REF:0000067, GOC:kmv, GOC:TermGenie, PMID:19828452]
@@ -67872,7 +67900,7 @@
  is_a: GO:0019841 ! retinol binding
  created_by: kmv
  creation_date: 2015-10-27T21:14:47Z
-@@ -577463,14 +594912,14 @@
+@@ -577463,14 +594914,14 @@
  
  [Term]
  id: GO:1905038
@@ -67893,7 +67921,7 @@
  created_by: tb
  creation_date: 2016-03-08T20:41:32Z
  
-@@ -595306,7 +612755,9 @@
+@@ -595306,7 +612757,9 @@
  is_a: GO:0001409 ! guanine nucleotide transmembrane transporter activity
  is_a: GO:0005346 ! purine ribonucleotide transmembrane transporter activity
  is_a: GO:0140359 ! ABC-type transporter activity
@@ -67903,7 +67931,7 @@
  created_by: ha
  creation_date: 2017-02-16T15:54:51Z
  
-@@ -595553,7 +613004,9 @@
+@@ -595553,7 +613006,9 @@
  xref: MetaCyc:RXN0-4281
  xref: RHEA:27986
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -67913,7 +67941,7 @@
  created_by: jl
  creation_date: 2012-12-05T15:55:06Z
  
-@@ -595571,6 +613024,9 @@
+@@ -595571,6 +613026,9 @@
  xref: Reactome:R-HSA-2509816 "NUDT16 hydrolyses IDP to IMP"
  xref: RHEA:35207
  is_a: GO:0017110 ! nucleoside diphosphate phosphatase activity
@@ -67923,7 +67951,7 @@
  created_by: jl
  creation_date: 2012-12-05T16:46:52Z
  
-@@ -596115,6 +613571,7 @@
+@@ -596115,6 +613573,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: DNA containing 5-methylcytosine + H2O = DNA with abasic site + 5-methylcytosine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the DNA 5-methylcytosine and the deoxyribose sugar to remove the 5-methylcytosine, leaving an abasic site." [PMID:23316050]
  is_a: GO:0003905 ! alkylbase DNA N-glycosylase activity
@@ -67931,7 +67959,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: tb
  creation_date: 2013-02-22T01:09:06Z
-@@ -596141,7 +613598,10 @@
+@@ -596141,7 +613600,10 @@
  xref: MetaCyc:RXN-8990
  xref: RHEA:55532
  is_a: GO:0016831 ! carboxy-lyase activity
@@ -67942,7 +67970,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30815" xsd:anyURI
  created_by: tb
  creation_date: 2013-02-25T20:22:35Z
-@@ -596471,10 +613931,10 @@
+@@ -596471,10 +613933,10 @@
  
  [Term]
  id: GO:1990088
@@ -67955,7 +67983,7 @@
  comment: This function is the second step in the pathway of methanogenesis from methanol.
  synonym: "methanol-specific methylcobalamin: coenzyme M methyltransferase activity" EXACT []
  synonym: "methanol-specific methylcobalamin:coenzyme M methyltransferase activity" EXACT []
-@@ -596485,7 +613945,10 @@
+@@ -596485,7 +613947,10 @@
  xref: MetaCyc:RXN-8096
  xref: RHEA:45208
  is_a: GO:0008168 ! methyltransferase activity
@@ -67966,7 +67994,7 @@
  created_by: hjd
  creation_date: 2013-05-06T15:07:20Z
  
-@@ -596695,6 +614158,8 @@
+@@ -596695,6 +614160,8 @@
  xref: RHEA:26297
  is_a: GO:0016783 ! sulfurtransferase activity
  relationship: part_of GO:0009228 ! thiamine biosynthetic process
@@ -67975,7 +68003,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28942" xsd:anyURI
  created_by: pr
  creation_date: 2013-05-28T12:36:04Z
-@@ -596982,6 +614447,9 @@
+@@ -596982,6 +614449,9 @@
  xref: EC:1.13.11.58
  xref: RHEA:30291
  is_a: GO:0016702 ! oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen
@@ -67985,7 +68013,7 @@
  created_by: pr
  creation_date: 2013-07-03T12:20:57Z
  
-@@ -596993,8 +614461,12 @@
+@@ -596993,8 +614463,12 @@
  synonym: "peroxygenase activity" BROAD [PMID:19467604]
  synonym: "plant seed peroxidase activity" RELATED []
  xref: EC:1.11.2.3
@@ -67998,7 +68026,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  created_by: tb
-@@ -597251,6 +614723,7 @@
+@@ -597251,6 +614725,7 @@
  synonym: "histone H3K14 deacetylase activity" BROAD []
  is_a: GO:0141050 ! histone H3K deacetylase activity
  is_a: GO:0141221 ! histone deacetylase activity, hydrolytic mechanism
@@ -68006,7 +68034,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pr
-@@ -597375,8 +614848,6 @@
+@@ -597375,8 +614850,6 @@
  namespace: molecular_function
  def: "Catalysis of the removal of the cap from an unmethylated 5'-end capped RNA resulting in the release of the entire cap structure (GpppN) and a 5' monophosphorylated RNA." [GOC:dgf, PMID:20802481]
  synonym: "G(5')pppN pyrophosphatase activity" RELATED []
@@ -68015,7 +68043,7 @@
  is_a: GO:0016891 ! RNA endonuclease activity producing 5'-phosphomonoesters, hydrolytic mechanism
  created_by: tb
  creation_date: 2013-08-26T17:51:00Z
-@@ -597553,8 +615024,11 @@
+@@ -597553,8 +615026,11 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: acetyl-CoA + N-terminal L-seryl-[protein] = CoA + H+ + N-terminal Nalpha-acetyl-L-seryl-[protein]." [PMID:23912279, RHEA:50504]
  synonym: "peptide-serine-alpha-N-acetyltransferase activity" EXACT []
@@ -68027,7 +68055,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27532" xsd:anyURI
  created_by: tb
  creation_date: 2013-09-11T20:13:40Z
-@@ -598179,6 +615653,7 @@
+@@ -598179,6 +615655,7 @@
  synonym: "histone threonine kinase activity (H2A-T120 specific)" EXACT []
  is_a: GO:0004674 ! protein serine/threonine kinase activity
  is_a: GO:0140995 ! histone H2A kinase activity
@@ -68035,7 +68063,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: sp
-@@ -598349,6 +615824,7 @@
+@@ -598349,6 +615826,7 @@
  xref: RHEA:43228
  is_a: GO:0036009 ! protein-glutamine N-methyltransferase activity
  is_a: GO:0140940 ! histone H2A methyltransferase activity
@@ -68043,7 +68071,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24687" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29860" xsd:anyURI
-@@ -599041,31 +616517,37 @@
+@@ -599041,31 +616519,37 @@
  
  [Term]
  id: GO:1990338
@@ -68090,7 +68118,7 @@
  created_by: bhm
  creation_date: 2014-03-20T23:48:25Z
  
-@@ -599073,9 +616555,10 @@
+@@ -599073,9 +616557,10 @@
  id: GO:1990341
  name: thrombospondin complex
  namespace: cellular_component
@@ -68103,7 +68131,7 @@
  created_by: bhm
  creation_date: 2014-03-21T14:27:07Z
  
-@@ -599292,7 +616775,9 @@
+@@ -599292,7 +616777,9 @@
  synonym: "butanol dehydrogenase activity" BROAD []
  xref: RHEA:33199
  is_a: GO:0004022 ! alcohol dehydrogenase (NAD+) activity
@@ -68113,7 +68141,7 @@
  created_by: tt
  creation_date: 2014-04-23T21:14:09Z
  
-@@ -599808,6 +617293,8 @@
+@@ -599808,6 +617295,8 @@
  xref: RHEA:42688
  is_a: GO:0016846 ! carbon-sulfur lyase activity
  relationship: part_of GO:0052699 ! ergothioneine biosynthetic process
@@ -68122,7 +68150,7 @@
  created_by: mah
  creation_date: 2014-07-02T15:45:43Z
  
-@@ -599929,6 +617416,9 @@
+@@ -599929,6 +617418,9 @@
  xref: EC:2.7.14.1
  xref: RHEA:43384
  is_a: GO:0004672 ! protein kinase activity
@@ -68132,7 +68160,7 @@
  created_by: jl
  creation_date: 2014-07-23T13:35:56Z
  
-@@ -600099,6 +617589,7 @@
+@@ -600099,6 +617591,7 @@
  def: "Catalysis of the reaction: MAP kinase threonine phosphate + H2O = MAP kinase threonine + phosphate and MAP kinase serine phosphate + H2O = MAP kinase serine + phosphate." [PMID:10398679]
  is_a: GO:0004722 ! protein serine/threonine phosphatase activity
  is_a: GO:0033549 ! MAP kinase phosphatase activity
@@ -68140,7 +68168,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: al
  creation_date: 2014-07-31T12:21:04Z
-@@ -600270,12 +617761,13 @@
+@@ -600270,12 +617763,13 @@
  
  [Term]
  id: GO:1990453
@@ -68158,7 +68186,7 @@
  created_by: bhm
  creation_date: 2014-08-08T15:18:30Z
  
-@@ -600408,6 +617900,9 @@
+@@ -600408,6 +617902,9 @@
  xref: RHEA:11272
  is_a: GO:0016901 ! oxidoreductase activity, acting on the CH-OH group of donors, quinone or similar compound as acceptor
  is_a: GO:0033719 ! (2R)-oxo-acid reductase activity
@@ -68168,7 +68196,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28324" xsd:anyURI
  created_by: pr
  creation_date: 2014-08-22T10:13:42Z
-@@ -600988,6 +618483,7 @@
+@@ -600988,6 +618485,7 @@
  def: "Catalysis of the reaction: ATP + H2O = ADP + phosphate, in the presence of single-stranded DNA; drives the unwinding of the DNA helix in the direction 3' to 5'." [PMID:25165823]
  is_a: GO:0017116 ! single-stranded DNA helicase activity
  is_a: GO:0043138 ! 3'-5' DNA helicase activity
@@ -68176,7 +68204,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: al
  creation_date: 2014-10-22T10:17:40Z
-@@ -601163,6 +618659,8 @@
+@@ -601163,6 +618661,8 @@
  def: "Catalysis of the reaction: S-methyl-5'-thioadenosine + thermospermine + H+ = S-adenosyl 3-(methylthio)propylamine + spermidine." [PMID:24906355, RHEA:57836]
  xref: RHEA:57836
  is_a: GO:0046592 ! polyamine oxidase activity
@@ -68185,7 +68213,7 @@
  created_by: tb
  creation_date: 2014-11-13T00:41:59Z
  
-@@ -601676,7 +619174,7 @@
+@@ -601676,7 +619176,7 @@
  namespace: molecular_function
  def: "Binds to and increases the activity of the enzyme phospholipase D." [PMID:7972129]
  is_a: GO:0016004 ! phospholipase activator activity
@@ -68194,7 +68222,7 @@
  created_by: sl
  creation_date: 2014-12-10T21:04:46Z
  
-@@ -601700,6 +619198,9 @@
+@@ -601700,6 +619200,9 @@
  xref: MetaCyc:RXN-15011
  xref: RHEA:49472
  is_a: GO:0016763 ! pentosyltransferase activity
@@ -68204,7 +68232,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28324" xsd:anyURI
  created_by: tb
  creation_date: 2014-12-12T18:22:20Z
-@@ -601795,6 +619296,8 @@
+@@ -601795,6 +619298,8 @@
  synonym: "L-talarate dehydratase activity" EXACT []
  xref: RHEA:44028
  is_a: GO:0016836 ! hydro-lyase activity
@@ -68213,7 +68241,7 @@
  created_by: jl
  creation_date: 2014-12-16T14:23:55Z
  
-@@ -601836,7 +619339,9 @@
+@@ -601836,7 +619341,9 @@
  name: 3' overhang single-stranded DNA endodeoxyribonuclease activity
  namespace: molecular_function
  def: "Catalysis of the hydrolysis of ester linkages within 3' overhang single-stranded deoxyribonucleic acid by creating internal breaks." [PMID:25203555]
@@ -68223,7 +68251,7 @@
  created_by: al
  creation_date: 2015-01-06T15:21:28Z
  
-@@ -601908,6 +619413,7 @@
+@@ -601908,6 +619415,7 @@
  namespace: molecular_function
  def: "Generation of a 'twisting' activity resulting in the scission of a membrane, driven by GTP hydrolysis." [PMID:11242086, PMID:23530241, PMID:24515348]
  is_a: GO:0061791 ! GTPase motor activity
@@ -68231,7 +68259,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: vw
  creation_date: 2015-01-19T14:26:50Z
-@@ -602531,6 +620037,9 @@
+@@ -602531,6 +620039,9 @@
  xref: EC:1.3.98.1
  xref: RHEA:30059
  is_a: GO:0004152 ! dihydroorotate dehydrogenase activity
@@ -68241,7 +68269,7 @@
  created_by: al
  creation_date: 2015-02-26T15:47:30Z
  
-@@ -602932,7 +620441,11 @@
+@@ -602932,7 +620443,11 @@
  namespace: molecular_function
  def: "Catalysis of the transfer of a palmitoleoyl group, a 16-carbon monounsaturated fatty acid (C16:1), to an acceptor molecule." [PMID:17141155, PMID:25731175]
  comment: Note that this term should not be confused with 'palmitoyltransferase activity ; GO:0016409'.
@@ -68253,7 +68281,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27365" xsd:anyURI
  created_by: sp
  creation_date: 2015-03-13T08:58:25Z
-@@ -602942,7 +620455,11 @@
+@@ -602942,7 +620457,11 @@
  name: palmitoleyl hydrolase activity
  namespace: molecular_function
  def: "Catalysis of a hydrolase reaction that removes a palmitoleyl moiety, a 16-carbon monounsaturated fatty acid (C16:1), from some substrate." [PMID:25731175]
@@ -68265,7 +68293,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24890" xsd:anyURI
  created_by: sp
  creation_date: 2015-03-13T09:00:05Z
-@@ -603089,11 +620606,12 @@
+@@ -603089,11 +620608,12 @@
  id: GO:1990713
  name: survivin complex
  namespace: cellular_component
@@ -68279,7 +68307,7 @@
  created_by: bhm
  creation_date: 2015-03-26T14:21:46Z
  
-@@ -603369,6 +620887,9 @@
+@@ -603369,6 +620889,9 @@
  xref: EC:3.1.3.96
  xref: RHEA:10944
  is_a: GO:0016791 ! phosphatase activity
@@ -68289,7 +68317,7 @@
  created_by: vw
  creation_date: 2015-05-02T11:05:50Z
  
-@@ -603834,13 +621355,13 @@
+@@ -603834,13 +621357,13 @@
  
  [Term]
  id: GO:1990787
@@ -68308,7 +68336,7 @@
  created_by: bhm
  creation_date: 2015-06-26T09:54:29Z
  
-@@ -604186,10 +621707,12 @@
+@@ -604186,10 +621709,12 @@
  xref: MetaCyc:POLYNUCLEOTIDE-ADENYLYLTRANSFERASE-RXN
  xref: Reactome:R-HSA-72185 "mRNA polyadenylation"
  xref: Reactome:R-HSA-9833031 "Polyadenylation of respiratory syncytial virus subgenomic positive-sense mRNAs"
@@ -68322,7 +68350,7 @@
  created_by: vw
  creation_date: 2015-07-31T09:38:31Z
  
-@@ -604399,6 +621922,7 @@
+@@ -604399,6 +621924,7 @@
  def: "Catalysis of the reaction: a 3'-end uridylyl-uridine-RNA = a 3'-end 2',3'-cyclophospho-uridine-RNA + uridine." [PMID:23022480, RHEA:46052]
  xref: RHEA:46052
  is_a: GO:0000175 ! 3'-5'-RNA exonuclease activity
@@ -68330,7 +68358,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30714" xsd:anyURI
  created_by: al
  creation_date: 2015-08-26T10:24:51Z
-@@ -604474,7 +621998,8 @@
+@@ -604474,7 +622000,8 @@
  namespace: biological_process
  def: "The regulated production of heat in response to short term environmental changes, such as stress, diet or reduced temperature." [PMID:17260010, PMID:20363363]
  xref: Reactome:R-HSA-166187 "Mitochondrial Uncoupling"
@@ -68340,7 +68368,7 @@
  created_by: sl
  creation_date: 2015-08-31T18:19:49Z
  
-@@ -604922,6 +622447,7 @@
+@@ -604922,6 +622449,7 @@
  def: "Catalysis of the reaction: a cytidine in 18S rRNA + acetyl-CoA + ATP + H2O = an N(4)-acetylcytidine in 18S rRNA + ADP + phosphate + CoA + H+." [PMID:25402480, RHEA:51424]
  xref: RHEA:51424
  is_a: GO:0008080 ! N-acetyltransferase activity
@@ -68348,7 +68376,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29506" xsd:anyURI
  created_by: al
  creation_date: 2015-10-28T13:27:35Z
-@@ -605392,8 +622918,15 @@
+@@ -605392,8 +622920,15 @@
  id: GO:1990929
  name: sulfoquinovosidase activity
  namespace: molecular_function
@@ -68366,7 +68394,7 @@
  created_by: tb
  creation_date: 2016-02-19T01:18:37Z
  
-@@ -605407,6 +622940,8 @@
+@@ -605407,6 +622942,8 @@
  xref: EC:1.14.11.54
  xref: RHEA:49516
  is_a: GO:0035515 ! oxidative RNA demethylase activity
@@ -68375,7 +68403,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21812" xsd:anyURI
  created_by: sp
  creation_date: 2016-03-10T08:06:47Z
-@@ -605422,6 +622957,8 @@
+@@ -605422,6 +622959,8 @@
  xref: EC:1.14.11.53
  xref: RHEA:49520
  is_a: GO:0035515 ! oxidative RNA demethylase activity
@@ -68384,7 +68412,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21812" xsd:anyURI
  created_by: sp
  creation_date: 2016-03-10T08:10:10Z
-@@ -605819,14 +623356,14 @@
+@@ -605819,14 +623358,14 @@
  id: GO:1990971
  name: EMILIN complex
  namespace: cellular_component
@@ -68402,7 +68430,7 @@
  created_by: bhm
  creation_date: 2016-06-21T14:41:18Z
  
-@@ -605834,8 +623371,7 @@
+@@ -605834,8 +623373,7 @@
  id: GO:1990972
  name: multimerin complex
  namespace: cellular_component
@@ -68412,7 +68440,7 @@
  synonym: "Elastic microfibrillar interface 3 complex" NARROW []
  synonym: "Elastic microfibrillar interface 4 complex" NARROW []
  synonym: "EMILIN-3 complex" NARROW []
-@@ -605845,7 +623381,8 @@
+@@ -605845,7 +623383,8 @@
  synonym: "p155 complex" NARROW []
  synonym: "Platelet glycoprotein Ia* complex" NARROW []
  is_a: GO:0098637 ! protein complex involved in cell-matrix adhesion
@@ -68422,7 +68450,7 @@
  created_by: bhm
  creation_date: 2016-06-21T14:49:42Z
  
-@@ -609063,8 +626600,8 @@
+@@ -609063,8 +626602,8 @@
  is_a: GO:0006521 ! regulation of amino acid metabolic process
  is_a: GO:0062012 ! regulation of small molecule metabolic process
  intersection_of: GO:0065007 ! biological regulation
@@ -68433,7 +68461,7 @@
  created_by: mah
  creation_date: 2010-11-03T02:45:20Z
  
-@@ -609235,9 +626772,9 @@
+@@ -609235,9 +626774,9 @@
  namespace: biological_process
  def: "Any process that stops, prevents, or reduces the frequency, rate or extent of pancreatic A cell differentiation." [GOC:mah]
  synonym: "negative regulation of pancreatic alpha cell differentiation" EXACT [GOC:obol]
@@ -68444,7 +68472,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0003310 ! pancreatic A cell differentiation
  relationship: negatively_regulates GO:0003310 ! pancreatic A cell differentiation
-@@ -610276,32 +627813,31 @@
+@@ -610276,32 +627815,31 @@
  
  [Term]
  id: GO:2000298
@@ -68491,7 +68519,7 @@
  created_by: mah
  creation_date: 2010-12-23T11:44:57Z
  
-@@ -613529,15 +631065,14 @@
+@@ -613529,15 +631067,14 @@
  
  [Term]
  id: GO:2000526
@@ -68512,7 +68540,7 @@
  created_by: ebc
  creation_date: 2011-03-23T10:42:30Z
  
-@@ -616721,7 +634256,6 @@
+@@ -616721,7 +634258,6 @@
  synonym: "regulation of glucosylceramide degradation" EXACT [GOC:obol]
  is_a: GO:0034248 ! regulation of amide metabolic process
  is_a: GO:0050994 ! regulation of lipid catabolic process
@@ -68520,7 +68548,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0006680 ! glucosylceramide catabolic process
  relationship: regulates GO:0006680 ! glucosylceramide catabolic process
-@@ -616755,7 +634289,6 @@
+@@ -616755,7 +634291,6 @@
  synonym: "regulation of sphingomyelin degradation" EXACT [GOC:obol]
  is_a: GO:0034248 ! regulation of amide metabolic process
  is_a: GO:0060696 ! regulation of phospholipid catabolic process
@@ -68528,7 +68556,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0006685 ! sphingomyelin catabolic process
  relationship: regulates GO:0006685 ! sphingomyelin catabolic process
-@@ -617744,16 +635277,12 @@
+@@ -617744,16 +635279,12 @@
  
  [Term]
  id: GO:2000825
@@ -68550,7 +68578,7 @@
  created_by: yaf
  creation_date: 2011-07-15T10:56:14Z
  
-@@ -622056,6 +639585,7 @@
+@@ -622056,6 +639587,7 @@
  def: "Any process that modulates the frequency, rate or extent of glucose catabolic process to ethanol." [GOC:obol]
  synonym: "regulation of ethanol fermentation" EXACT [GOC:obol]
  synonym: "regulation of glucose fermentation to ethanol" EXACT [GOC:obol]
@@ -68558,7 +68586,7 @@
  is_a: GO:0043470 ! regulation of carbohydrate catabolic process
  is_a: GO:0062012 ! regulation of small molecule metabolic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -622074,6 +639604,7 @@
+@@ -622074,6 +639606,7 @@
  is_a: GO:0009895 ! negative regulation of catabolic process
  is_a: GO:0045912 ! negative regulation of carbohydrate metabolic process
  is_a: GO:0062014 ! negative regulation of small molecule metabolic process
@@ -68566,7 +68594,7 @@
  is_a: GO:2001154 ! regulation of glycolytic fermentation to ethanol
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0019655 ! pyruvate fermentation to ethanol
-@@ -622576,8 +640107,8 @@
+@@ -622576,8 +640109,8 @@
  synonym: "regulation of lysine biosynthetic process via aminoadipic acid and saccharopine" EXACT [GOC:obol]
  is_a: GO:1902986 ! regulation of lysine biosynthetic process via aminoadipic acid
  intersection_of: GO:0065007 ! biological regulation
@@ -68577,7 +68605,7 @@
  created_by: mcc
  creation_date: 2011-11-03T07:57:11Z
  
-@@ -622591,8 +640122,8 @@
+@@ -622591,8 +640124,8 @@
  is_a: GO:1902987 ! negative regulation of lysine biosynthetic process via aminoadipic acid
  is_a: GO:2001194 ! regulation of lysine biosynthetic process via alpha-aminoadipate and saccharopine
  intersection_of: GO:0065007 ! biological regulation
@@ -68588,7 +68616,7 @@
  created_by: mcc
  creation_date: 2011-11-03T07:57:18Z
  
-@@ -622607,8 +640138,8 @@
+@@ -622607,8 +640140,8 @@
  is_a: GO:2000284 ! positive regulation of amino acid biosynthetic process
  is_a: GO:2001194 ! regulation of lysine biosynthetic process via alpha-aminoadipate and saccharopine
  intersection_of: GO:0065007 ! biological regulation
@@ -68599,7 +68627,7 @@
  created_by: mcc
  creation_date: 2011-11-03T07:57:24Z
  
-@@ -624422,6 +641953,7 @@
+@@ -624422,6 +641955,7 @@
  def: "Catalysis of the reaction: an L-alpha-amino acid + cholate = an N-choloyl-L-alpha-amino acid + H2O." [PMID:38326608, PMID:38326609, PMID:40446798, RHEA:79087]
  xref: RHEA:79087
  is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
@@ -68607,7 +68635,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30487" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-25T00:18:58Z
-@@ -624433,6 +641965,7 @@
+@@ -624433,6 +641967,7 @@
  def: "Catalysis of the reaction: cholate + L-serine = L-serocholate + H2O." [PMID:38326609, RHEA:79139]
  xref: RHEA:79139
  is_a: GO:7770003 ! amino acid conjugated cholate hydrolase activity
@@ -68615,7 +68643,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30487" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-25T00:18:58Z
-@@ -624444,6 +641977,7 @@
+@@ -624444,6 +641979,7 @@
  def: "Catalysis of the reaction: cholate + L-alanine = L-alanocholate + H2O." [PMID:38326609, RHEA:79131]
  xref: RHEA:79131
  is_a: GO:7770003 ! amino acid conjugated cholate hydrolase activity
@@ -68623,7 +68651,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30487" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-25T00:18:58Z
-@@ -624455,6 +641989,7 @@
+@@ -624455,6 +641991,7 @@
  def: "Catalysis of the reaction: cholate + L-phenylalanine = L-phenylalanocholate + H2O." [PMID:38326608, RHEA:79123]
  xref: RHEA:79123
  is_a: GO:7770003 ! amino acid conjugated cholate hydrolase activity
@@ -68631,7 +68659,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30487" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-25T00:18:58Z
-@@ -624466,6 +642001,7 @@
+@@ -624466,6 +642003,7 @@
  def: "Catalysis of the reaction: cholate + L-arginine = L-arginocholate + H2O." [PMID:38326608, RHEA:79111]
  xref: RHEA:79111
  is_a: GO:7770003 ! amino acid conjugated cholate hydrolase activity
@@ -68639,7 +68667,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30487" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-25T00:18:58Z
-@@ -624477,6 +642013,7 @@
+@@ -624477,6 +642015,7 @@
  def: "Catalysis of the reaction: cholate + L-histidine = L-histidocholate + H2O." [PMID:38326608, RHEA:79099]
  xref: RHEA:79099
  is_a: GO:7770003 ! amino acid conjugated cholate hydrolase activity
@@ -68647,7 +68675,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30487" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-25T00:18:58Z
-@@ -624538,6 +642075,223 @@
+@@ -624538,6 +642077,223 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30866" xsd:anyURI
  created_by: dragon-ai-agent
  
