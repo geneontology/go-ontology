@@ -55,4 +55,6 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-lego.owl" uri="extensions/go-lego.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/reacto.owl" uri="extensions/reacto.owl"/>
     <uri id="go-lego-chebi-import" name="http://purl.obolibrary.org/obo/go/imports/go-lego-chebi-import.owl" uri="imports/go-lego-chebi-import.owl"/>
+    <uri id="go-users-import" name="http://snapshot.geneontology.org/metadata/users.ttl" uri="mirror/users.ttl"/>
+    <uri id="go-groups-import" name="http://snapshot.geneontology.org/metadata/groups.ttl" uri="mirror/groups.ttl"/>
 </catalog>
