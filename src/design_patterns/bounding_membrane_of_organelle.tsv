@@ -35,8 +35,10 @@ http://purl.obolibrary.org/obo/GO_0032127	dense core granule membrane	http://pur
 http://purl.obolibrary.org/obo/GO_0031901	early endosome membrane	http://purl.obolibrary.org/obo/GO_0005769	early endosome
 http://purl.obolibrary.org/obo/GO_0036186	early phagosome membrane	http://purl.obolibrary.org/obo/GO_0032009	early phagosome
 http://purl.obolibrary.org/obo/GO_0030666	endocytic vesicle membrane	http://purl.obolibrary.org/obo/GO_0030139	endocytic vesicle
+http://purl.obolibrary.org/obo/GO_0160317	endolysosomal intralumenal vesicle membrane	http://purl.obolibrary.org/obo/GO_0160316	endolysosomal intralumenal vesicle
 http://purl.obolibrary.org/obo/GO_0036020	endolysosome membrane	http://purl.obolibrary.org/obo/GO_0036019	endolysosome
 http://purl.obolibrary.org/obo/GO_0033116	endoplasmic reticulum-Golgi intermediate compartment membrane	http://purl.obolibrary.org/obo/GO_0005793	endoplasmic reticulum-Golgi intermediate compartment
+http://purl.obolibrary.org/obo/GO_0160314	endosomal intralumenal vesicle membrane	http://purl.obolibrary.org/obo/GO_0160313	endosomal intralumenal vesicle
 http://purl.obolibrary.org/obo/GO_0010008	endosome membrane	http://purl.obolibrary.org/obo/GO_0005768	endosome
 http://purl.obolibrary.org/obo/GO_0097234	epidermal lamellar body membrane	http://purl.obolibrary.org/obo/GO_0097209	epidermal lamellar body
 http://purl.obolibrary.org/obo/GO_0033118	esterosome membrane	http://purl.obolibrary.org/obo/GO_0033117	esterosome
