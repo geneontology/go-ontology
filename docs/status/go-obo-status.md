@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2025-12-27go.owl-statistics
+id: obo:go/releases/2025-12-28go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2025-12-27go.owl
+  version: obo:go/releases/2025-12-28go.owl
 was_generated_by:
-  started_at_time: '2025-12-27T05:46:48.273347'
+  started_at_time: '2025-12-28T05:47:21.187960'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -46,17 +46,17 @@ partitions:
     distinct_synonym_count: 93703
     synonym_statement_count: 94476
     change_summary:
-      EdgeCreation: 1178
-      EdgeDeletion: 170
-      NodeRename: 398
       NodeUnobsoletion: 351
+      NodeRename: 398
       NodeTextDefinitionChange: 413
+      EdgeCreation: 1178
       RemoveMapping: 215
       NodeDeletion: 18
-      MappingCreation: 10
+      EdgeDeletion: 170
       AddNodeToSubset: 18
-      RemoveSynonym: 18
+      MappingCreation: 10
       NewSynonym: 70
+      RemoveSynonym: 18
       RemoveNodeFromSubset: 2
       All_Obsoletion: 0
       All_Synonym: 88
@@ -93,17 +93,17 @@ partitions:
     distinct_synonym_count: 28467
     synonym_statement_count: 29615
     change_summary:
-      NodeDeletion: 14
-      EdgeDeletion: 49
-      MappingCreation: 498
-      RemoveMapping: 1464
       EdgeCreation: 145
+      RemoveMapping: 1464
+      MappingCreation: 498
       NodeRename: 90
-      RemoveSynonym: 36
       NodeTextDefinitionChange: 130
-      NewSynonym: 19
-      NodeUnobsoletion: 35
+      EdgeDeletion: 49
       AddNodeToSubset: 17
+      NodeUnobsoletion: 35
+      RemoveSynonym: 36
+      NodeDeletion: 14
+      NewSynonym: 19
       NodeObsoletionWithDirectReplacement: 1
       All_Obsoletion: 1
       All_Synonym: 55
@@ -128,14 +128,14 @@ partitions:
     distinct_synonym_count: 5070
     synonym_statement_count: 5267
     change_summary:
-      NodeRename: 21
-      NodeTextDefinitionChange: 30
-      RemoveSynonym: 21
-      NewSynonym: 1
-      EdgeDeletion: 35
-      EdgeCreation: 17
       NodeDeletion: 11
+      EdgeDeletion: 35
+      NodeTextDefinitionChange: 30
+      EdgeCreation: 17
+      NodeRename: 21
+      RemoveSynonym: 21
       NodeUnobsoletion: 1
+      NewSynonym: 1
       All_Obsoletion: 0
       All_Synonym: 22
     edge_count: 6671
